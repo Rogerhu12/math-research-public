@@ -147,3 +147,5 @@
 2026-11-20 14:49 UTC / Astra-larger-resume-24b2ab87-20261120：第五次普通容量移出R33原联合高盒469230B；完整3源/2输入SHA、固定历史blob和精确-90复算命令保持，低46固定且未付feedback范围不改。仅字节/源/历史核对，无旧科学重跑，为公开分卷与新完整实现留空间。
 
 2026-11-20 14:53 UTC / Astra-larger-resume-24b2ab87-20261120：同场R670半径续化源及全说明刊，只读阻碍D≤4.1的胞，保全部旧有效界/真实producer lineage/全部模尾，非零R671明确拒。下个分卷公开job排直接首jet必要再生→专项D→全R672 K；当前原pair02不中断，尚未启动R67102转新job优先，旧renderer35条已83KB，避免95KB发布硬限丢后继，研究继续不因job结束收尾。
+
+2026-11-20 14:54 UTC / Astra-larger-resume-24b2ab87-20261120：同场R670/R672→R650合并源和完整数学接口刊：实际bundle/node/scalar/全胞/真实producer lineage核定，binary端点准确Fraction，标记D+1/500、sigma min64/267、K max5及held/grip真分数比较。缺K保已付首jet，任何非零R671拒旧公式；新分卷job紧接K排实际合并，R666仍留真实reach应用。

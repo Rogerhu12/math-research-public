@@ -1,0 +1,376 @@
+#!/usr/bin/env python3
+"""Combine same-field R670/R672 bounds by exact rational R650 formulas.
+
+No field, transform, scalar ODE, or geometric sampling is evaluated.
+A missing/incomplete certificate is reported as unpaid.  All scientific
+execution, including this report consumer, is restricted to public Actions.
+"""
+import argparse
+from fractions import Fraction as F
+import hashlib
+import json
+import math
+import os
+from pathlib import Path
+
+import numpy as np
+
+
+FIRST_SHA = 'eaa9a579eea227cbf348138295534144c39d07b669ea1c9ff494f22baa4ae599'
+CURVATURE_SHA = '8ca81feefda43fd4423bee1877c8e9198c7774afae0cf8cc2227424765dac385'
+NONPLANAR_SHA = '43d1ac2351def55be984113726d5a22b9d483baa715fb4f5a653b2b83173f268'
+# Separately proved complete-domain radius continuation, original lift only.
+RADIUS_CONTINUATION_SHA = '0faa98e102a5c3ef9c121911313e83f5831474b8be091a161615f000bcbf5369'
+DEPENDENCIES = dict(
+    geometry_source='2a8d09fd1c85e96a9167b705c0fe77a9107bfe935928ceb914c271ffc5c17377',
+    interval_source='f512c96cbc1fb3896fc144c5e9d8d29aaa80e321d08d9cdbf1745beb54a5c57d',
+    difference_source='f3b5acf135589c2ad6f10c80bebf7dfdf919350d4b06e9dbb764ba2a2ca0ade0',
+    transfer_source='ec21d8575ad2d121d04beaa2b7ebc1902c0b7604c0dfaf8777610ad27f616200')
+
+
+def sha(path):
+    digest = hashlib.sha256()
+    with Path(path).open('rb') as stream:
+        for chunk in iter(lambda: stream.read(1 << 20), b''):
+            digest.update(chunk)
+    return digest.hexdigest()
+
+
+def rational(value):
+    """JSON float endpoints are exact binary values, not decimal inputs."""
+    if isinstance(value, bool) or value is None:
+        return None
+    if isinstance(value, float) and not math.isfinite(value):
+        return None
+    try:
+        return F(value)
+    except (ValueError, TypeError, ZeroDivisionError, OverflowError):
+        return None
+
+
+def decimal_endpoint(value, upper=False, digits=20):
+    scale = 10**digits
+    number, remainder = divmod(value.numerator*scale, value.denominator)
+    if upper and remainder:
+        number += 1
+    sign = '-' if number < 0 else ''
+    whole, fraction = divmod(abs(number), scale)
+    return sign+str(whole)+'.'+str(fraction).zfill(digits)
+
+
+def scalar(value):
+    if value is None:
+        return None
+    return dict(exact=str(value), decimal_floor=decimal_endpoint(value),
+                decimal_ceiling=decimal_endpoint(value, True))
+
+
+def read_json(path, issues, label):
+    try:
+        result = json.loads(Path(path).read_text())
+        if not isinstance(result, dict):
+            raise ValueError('Expected an object')
+        return result
+    except (OSError, ValueError) as error:
+        issues.append(label+': '+str(error))
+        return {}
+
+
+def identity(path, issues, label):
+    try:
+        item = Path(path)
+        return dict(path=str(item.resolve()), sha256=sha(item), bytes=item.stat().st_size)
+    except OSError as error:
+        issues.append(label+': '+str(error))
+        return dict(path=str(path), sha256=None)
+
+
+def demand(condition, issues, reason):
+    if not condition:
+        issues.append(reason)
+    return bool(condition)
+
+
+def direct_producer(report, issues, provenance):
+    source = report.get('source_sha256')
+    if source == FIRST_SHA:
+        provenance['producer_kind'] = 'original_R670'
+        return
+    if RADIUS_CONTINUATION_SHA is not None and source == RADIUS_CONTINUATION_SHA:
+        provenance['producer_kind'] = 'proved_R670_radius_continuation'
+        demand(report.get('continuation_source_sha256') == source, issues,
+               'Radius continuation source identity is missing')
+        old = report.get('original_first_geometry', {})
+        demand(old.get('source_sha256') == FIRST_SHA, issues,
+               'Radius continuation did not identify its original R670 source')
+        parent = read_json(old.get('path', ''), issues, 'Original first-geometry report')
+        original = identity(old.get('path', ''), issues, 'Original first-geometry report')
+        provenance['original_first_geometry'] = original
+        demand(original['sha256'] == old.get('sha256') and original['sha256'] is not None,
+               issues, 'Original R670 report SHA differs from the continuation provenance')
+        demand(parent.get('source_sha256') == FIRST_SHA, issues,
+               'Original first-geometry report is not from the frozen R670 source')
+        for key in ('bundle', 'node_report'):
+            demand(parent.get('source_inputs', {}).get(key, {}).get('sha256')
+                   == report.get('source_inputs', {}).get(key, {}).get('sha256'),
+                   issues, 'Radius continuation and original R670 differ in '+key)
+        demand(parent.get('complete_scope') is True, issues,
+               'Radius continuation did not begin with a complete R670 domain')
+        return
+    issues.append('Unsupported first-geometry producer; its mathematical source has not been bound')
+
+
+def report_identity(report, actual, issues):
+    sources = report.get('source_inputs', {})
+    for key in ('bundle', 'node_report'):
+        wanted = actual[key]['sha256']
+        demand(wanted is not None and sources.get(key, {}).get('sha256') == wanted,
+               issues, 'Actual '+key+' SHA does not match this report')
+    for key, wanted in DEPENDENCIES.items():
+        demand(sources.get(key, {}).get('sha256') == wanted, issues,
+               'Changed proved radial/Laurent dependency: '+key)
+    demand(report.get('execution', {}).get('GITHUB_REPOSITORY')
+           == 'Rogerhu12/math-research-public', issues,
+           'The certificate does not identify this public repository Actions')
+
+
+def exact_box(value):
+    if not isinstance(value, list) or len(value) != 2:
+        return None
+    result = tuple(rational(item) for item in value)
+    if any(item is None for item in result) or result[0] > result[1]:
+        return None
+    return result
+
+
+def bundle_scalar_metadata(path, issues):
+    """Read only small literal scalar entries, never jets or field values."""
+    result = {}
+    try:
+        with np.load(path, allow_pickle=False) as data:
+            for key in ('Hcap', 'width'):
+                value = rational(float(data[key]))
+                demand(value is not None and value > 0, issues, 'Invalid bundle scalar '+key)
+                result[key] = value
+            radius = float(data['radius'])
+            result['radius_carrier'] = radius if math.isfinite(radius) else None
+            parameters = {}
+            for key in ('reference_tail_lambda', 'exact_tail_lambda'):
+                if key in data.files:
+                    parameters[key] = rational(data[key].item())
+            if 'reference_tail_model_json' in data.files:
+                encoded = data['reference_tail_model_json'].item()
+                definition = json.loads(encoded.decode() if isinstance(encoded, bytes) else str(encoded))
+                parameters['reference_tail_model_json.lambda_value'] = rational(definition.get('lambda_value'))
+            demand(all(value == F(0) for value in parameters.values()), issues,
+                   'R671 lambda metadata is nonzero, missing, or inconsistent; old polynomial-lift certificates do not apply')
+            result['reference_tail_parameters'] = {key: str(value) if value is not None else None
+                                                    for key, value in parameters.items()}
+            if 'field_representation' in data.files:
+                result['field_representation'] = str(data['field_representation'].item())
+                demand(result['field_representation'] == 'R671-exact-reference-tail-v1'
+                       and bool(parameters), issues,
+                       'Unknown tagged field representation or no explicit R671 lambda identity')
+    except (OSError, ValueError, TypeError, KeyError) as error:
+        issues.append('Actual bundle scalar metadata: '+str(error))
+    return result
+
+
+def main():
+    if (os.environ.get('GITHUB_ACTIONS', '').lower() != 'true'
+            or os.environ.get('GITHUB_REPOSITORY') != 'Rogerhu12/math-research-public'):
+        raise RuntimeError('Run the mathematical report consumer in the stated public repository Actions')
+    parser = argparse.ArgumentParser(description=__doc__)
+    for key in ('bundle', 'node-report', 'first-geometry', 'curvature', 'out'):
+        parser.add_argument('--'+key, required=True, type=Path)
+    a = parser.parse_args()
+    if a.out.exists():
+        raise FileExistsError('Preserve the previous combined report')
+    issues = {key: [] for key in ('inputs', 'first_geometry_identity', 'curvature_identity',
+                                 'first_geometry_scope', 'curvature_scope', 'markers', 'nonplanar', 'targets')}
+    actual = {key: identity(getattr(a, key), issues['inputs'], key)
+              for key in ('bundle', 'node_report')}
+    inputs = {key: identity(getattr(a, key), issues[bucket], key)
+              for key, bucket in (('first_geometry', 'first_geometry_identity'),
+                                  ('curvature', 'curvature_identity'))}
+    node = read_json(a.node_report, issues['inputs'], 'Actual node report')
+    bundle = bundle_scalar_metadata(a.bundle, issues['inputs'])
+    demand(bundle.get('radius_carrier') == node.get('radius_carrier')
+           and bundle.get('radius_carrier') is not None, issues['inputs'],
+           'Actual bundle radius carrier differs from its scalar node report')
+    first = read_json(a.first_geometry, issues['first_geometry_identity'], 'First geometry')
+    curve = read_json(a.curvature, issues['curvature_identity'], 'Curvature')
+    meta = curve.get('metadata', {})
+    provenance = {}
+    direct_producer(first, issues['first_geometry_identity'], provenance)
+    report_identity(first, actual, issues['first_geometry_identity'])
+    report_identity(curve, actual, issues['curvature_identity'])
+    demand(curve.get('source_sha256') == CURVATURE_SHA, issues['curvature_identity'],
+           'Curvature report is not from the complete R672 source')
+    demand(curve.get('first_geometry_source_sha256') == FIRST_SHA, issues['curvature_identity'],
+           'Curvature report changed the R670 field model')
+    scalar_identity = node.get('scalar', {})
+    exact = {}
+    for name in ('S', 'R'):
+        entry = scalar_identity.get(name, {})
+        box = exact_box([entry.get('lower_exact'), entry.get('upper_exact')])
+        exact[name] = box
+        demand(box is not None and box[0] > 0, issues['inputs'],
+               'Actual same-Hold '+name+' positive exact box is absent')
+        for report, bucket in ((first, 'first_geometry_identity'), (meta, 'curvature_identity')):
+            demand(box is not None and exact_box(report.get('exact_'+name+'_box')) == box,
+                   issues[bucket], 'Report and actual node scalar '+name+' boxes differ')
+    demand(meta.get('scalar_identity') == scalar_identity and bool(scalar_identity),
+           issues['curvature_identity'], 'Full scalar identity differs from the actual node report')
+    nodes = node.get('true_scalar_nodes', [])
+    J = len(nodes)
+    demand(J >= 2, issues['inputs'], 'Actual complete symbolic node list is absent')
+    expected = list(range(max(0, J-1)))
+    for report, bucket in ((first, 'first_geometry_identity'), (meta, 'curvature_identity')):
+        demand(report.get('J') == J, issues[bucket], 'Reported J differs from actual symbolic nodes')
+    for first_key, second_key in (('exact_height', 'exact_H'), ('exact_width', 'exact_width')):
+        left, right = rational(first.get(first_key)), rational(meta.get(second_key))
+        actual_value = bundle.get('Hcap' if first_key == 'exact_height' else 'width')
+        demand(left is not None and left == actual_value, issues['first_geometry_identity'],
+               'First-geometry '+first_key+' differs from the actual bundle')
+        demand(right is not None and right == actual_value, issues['curvature_identity'],
+               'Curvature '+second_key+' differs from the actual bundle')
+        if first and curve:
+            same = left is not None and left == right
+            demand(same, issues['curvature_identity'], 'Reports disagree on '+first_key)
+    if first and curve:
+        same_modes = first.get('M') == meta.get('M') and isinstance(first.get('M'), int)
+        demand(same_modes, issues['curvature_identity'], 'Reports disagree on full original M')
+    first_ok = not issues['inputs'] and not issues['first_geometry_identity']
+    curve_ok = not issues['inputs'] and not issues['curvature_identity']
+    rows = first.get('records', [])
+    first_full = first_ok and first.get('complete_scope') is True \
+        and first.get('covered_cells') == expected and [row.get('cell') for row in rows] == expected
+    demand(first_full, issues['first_geometry_scope'],
+           'First-geometry report has not paid the complete original domain')
+    best = curve.get('best', {})
+    best_rows = [best.get(str(cell), {}) for cell in expected]
+    curve_full = curve_ok and curve.get('complete_scope') is True \
+        and curve.get('covered_original_cells') == expected \
+        and len(best) == len(expected) \
+        and all(row.get('cell') == cell and row.get('curvature_bound_certified') is True
+                and row.get('unpaid_immersion_boxes') == 0
+                for cell, row in zip(expected, best_rows))
+    demand(curve_full, issues['curvature_scope'],
+           'Curvature report has not paid the complete original domain')
+    H, beta = rational(first.get('exact_height')), rational(first.get('beta_exact'))
+    marker_ok = first_ok and beta == F(1, 4) and H is not None and H > 1 \
+        and exact['R'] is not None and exact['R'][0] > F(9, 20)
+    demand(marker_ok, issues['markers'],
+           'Fixed p4 marker/grip hypotheses beta=1/4, H>1, R>9/20 are not all paid')
+    D = rational(first.get('continuous_diameter_upper')) if first_full else None
+    witness = rational(first.get('continuous_fixed_witness_distance_lower')) if first_full else None
+    support = rational(first.get('covered_support_lower')) if first_full else None
+    E = rational(first.get('covered_minimum_E_lower')) if first_full else None
+    W2 = rational(first.get('covered_minimum_normal_squared_lower')) if first_full else None
+    caps = first.get('cap_bounds', {})
+    cap_support = rational(caps.get('support_lower')) if first_full else None
+    first_immersion = E is not None and W2 is not None and E > 0 and W2 > 0
+    # The complete last-cell W2 bound forbids rho zeros at the cuff;
+    # rho is continuous with exact mean one, hence positive everywhere.
+    core_regular = first_full and first_immersion
+    if curve_full:
+        cuff = rational(best_rows[-1].get('minimum_normal_squared_lower'))
+        core_regular = core_regular or (cuff is not None and cuff > 0)
+    support_ok = support is not None and support > 0 and cap_support is not None and cap_support > 0
+    diameter_ok = D is not None and D > 0
+    witness_ok = witness is not None and witness >= 0
+    if first_full:
+        demand(support_ok, issues['first_geometry_scope'], 'Positive full body/cap support remains unpaid')
+        demand(diameter_ok, issues['first_geometry_scope'], 'Positive complete diameter upper bound is absent')
+        demand(witness_ok, issues['first_geometry_scope'], 'Complete fixed witness lower bound is absent')
+        demand(first_immersion or curve_full, issues['first_geometry_scope'], 'Complete immersion remains unpaid')
+    K = rational(curve.get('continuous_curvature_upper')) if curve_full else None
+    curvature_ok = K is not None and K >= 0
+    if curve_full:
+        demand(curvature_ok, issues['curvature_scope'], 'Nonnegative complete curvature upper bound is absent')
+    embedding = bool(first_full and support_ok and core_regular and (first_immersion or curve_full))
+    marked_embedding = bool(embedding and marker_ok)
+    h = F(1, 1000)
+    marked_D = D+2*h if marker_ok and diameter_ok else None
+    marked_witness = min(witness, H-h) if marker_ok and witness_ok else None
+    marked_support = min(support, F(64, 267)) if marker_ok and support_ok else None
+    marked_K = max(K, F(5)) if marker_ok and curvature_ok else None
+    reach = min(marked_support, 1/marked_K) if marked_embedding \
+        and marked_support is not None and marked_K is not None else None
+    reach_ratio = reach/marked_D if reach is not None and marked_D is not None else None
+    held_ratio = marked_witness/marked_D if marked_embedding \
+        and marked_witness is not None and marked_D is not None else None
+    grip_ratio = F(9, 10)/marked_D if marked_embedding and marked_D is not None else None
+    nonplanar = first.get('nonplanar', {})
+    nonflat = bool(first_ok and nonplanar.get('returncode') == 0
+        and nonplanar.get('source_sha256') == NONPLANAR_SHA
+        and nonplanar.get('all_original_cells_nonplanar') is True
+        and nonplanar.get('covered_original_cells') == J-1
+        and nonplanar.get('report_sha256'))
+    demand(nonflat, issues['nonplanar'], 'Same-candidate complete nonplanar certificate is absent')
+    positive_Euclidean = bool(marked_embedding and nonflat
+        and marked_witness is not None and marked_witness > 0)
+    targets = dict(reach_over_D=reach_ratio is not None and reach_ratio >= F(3, 100),
+                   held_over_D=held_ratio is not None and held_ratio >= F(1, 5),
+                   grip_over_D=grip_ratio is not None and grip_ratio >= F(1, 5))
+    for key, value, threshold in (('reach/D', reach_ratio, F(3, 100)),
+            ('held/D', held_ratio, F(1, 5)), ('grip/D', grip_ratio, F(1, 5))):
+        if value is not None and value < threshold:
+            issues['targets'].append(key+' certified lower bound does not yet pay '+str(threshold))
+    if marked_embedding and nonflat and (marked_witness is None or marked_witness <= 0):
+        issues['nonplanar'].append('Positive image-separation witness remains unpaid for the noncongruence conclusion')
+    report = dict(schema='same-fullclosed-R670-R672-exact-R650-combination-actions-v1',
+        execution={key: os.environ.get(key) for key in ('GITHUB_REPOSITORY','GITHUB_RUN_ID',
+            'GITHUB_RUN_ATTEMPT','GITHUB_WORKFLOW','GITHUB_SHA')},
+        source_sha256=sha(__file__), actual_inputs=actual, input_reports=inputs,
+        actual_bundle_scalar_metadata={key: str(value) if isinstance(value, F) else value
+                                      for key, value in bundle.items()},
+        first_geometry_provenance=provenance,
+        input_executions=dict(first_geometry=first.get('execution'), curvature=curve.get('execution')),
+        same_field_identity_paid=first_ok and curve_ok,
+        scalar_identity=scalar_identity, exact_scalar_boxes={key: [str(v) for v in value]
+            if value else None for key, value in exact.items()},
+        J=J, M=first.get('M'), exact_width=first.get('exact_width'),
+        height=scalar(H), beta=scalar(beta), maximum_A_eigenvalue_exact='1',
+        body_diameter_upper=scalar(D), body_support_lower=scalar(support),
+        body_curvature_upper=scalar(K), body_fixed_witness_distance_lower=scalar(witness),
+        body_minimum_E_lower=scalar(E), body_minimum_normal_squared_lower=scalar(W2),
+        marker_height_exact=str(h), marker_support_lower_exact='64/267',
+        marker_curvature_upper_exact='5', grip_diameter_lower_exact='9/10',
+        marked_diameter_upper=scalar(marked_D), marked_support_lower=scalar(marked_support),
+        marked_curvature_upper=scalar(marked_K), marked_witness_distance_lower=scalar(marked_witness),
+        marked_reach_lower=scalar(reach), reach_over_diameter_lower=scalar(reach_ratio),
+        held_over_diameter_lower=scalar(held_ratio), grip_over_diameter_lower=scalar(grip_ratio),
+        body_complete_scope=first_full, curvature_complete_scope=curve_full,
+        all_t_closed_C2_embedding_certified=marked_embedding,
+        all_t_strong_C2_phase_continuity_certified=marked_embedding,
+        all_t_reach_lower_certified=reach is not None,
+        fixed_grip_has_relative_interior=marked_embedding,
+        nonplanar_provenance=nonplanar, all_original_cells_nonplanar=nonflat,
+        R670_original_embedding_flag=first.get('embedding_certified'),
+        R670_original_positive_Euclidean_flag=first.get('four_fixed_markers_pay_positive_Euclidean_shape_distance'),
+        positive_Euclidean_shape_distance_including_reflections_certified=positive_Euclidean,
+        target_exact=dict(reach_over_D='3/100',held_over_D='1/5',grip_over_D='1/5'),
+        targets_certified=targets,
+        geometric_targets_certified=bool(marked_embedding and positive_Euclidean and all(targets.values())),
+        unpaid_reasons={key: value for key, value in issues.items() if value},
+        metric_certified=False, fixed_metric_refinement_certified=False, topic_completion_certified=False,
+        field_or_scalar_oracle_evaluations_performed=0,
+        arithmetic='Exact Fraction of binary report endpoints; exact marker constants and rational comparisons',
+        scope='Same actual original polynomial-lift field, whole closed surface and all R248 activity phases; R650/R661 composition only')
+    a.out.parent.mkdir(parents=True, exist_ok=True)
+    tmp = a.out.with_name(a.out.name+'.partial')
+    tmp.write_text(json.dumps(report, indent=2, allow_nan=False)+'\n')
+    tmp.replace(a.out)
+    print(json.dumps(dict(report_sha256=sha(a.out), same_field_identity_paid=report['same_field_identity_paid'],
+        all_t_closed_C2_embedding_certified=marked_embedding, targets_certified=targets,
+        positive_Euclidean_shape_distance_certified=positive_Euclidean,
+        geometric_targets_certified=report['geometric_targets_certified'],
+        reach_over_D=scalar(reach_ratio), held_over_D=scalar(held_ratio), grip_over_D=scalar(grip_ratio),
+        unpaid_reasons=report['unpaid_reasons']), allow_nan=False), flush=True)
+
+
+if __name__ == '__main__':
+    main()
+

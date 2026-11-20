@@ -142,6 +142,63 @@
           "peak_rss_kib": "peak_rss_kib"
         }
       }
+    },
+    {
+      "id": "continue-exact-same-candidate-geometry-combination-02",
+      "script": "topics/visible-flex-larger-amplitude/scripts/resume_20261120/actions_closed_geometry_combine.py",
+      "parent_bundle": "geometry_path/curvature-qp-spectral-hessian-r22-union-next-four.npz",
+      "args": [
+        "--bundle",
+        "{work}/geometry_path/curvature-qp-spectral-hessian-r22-union-next-four.npz",
+        "--node-report",
+        "{work}/fullclosed_solver/data/fullclosed-hold-warm.json",
+        "--first-geometry",
+        "{work}/postprocess/continue-direct-radius-refined.json",
+        "--curvature",
+        "{work}/postprocess/continue-full-curvature.json",
+        "--out",
+        "{work}/postprocess/continue-exact-geometry-combination.json"
+      ],
+      "outputs": [
+        "postprocess/continue-exact-geometry-combination.json"
+      ],
+      "summary": {
+        "postprocess/continue-exact-geometry-combination.json": {
+          "same_field_identity_paid": "same_field_identity_paid",
+          "body_complete_scope": "body_complete_scope",
+          "curvature_complete_scope": "curvature_complete_scope",
+          "all_t_closed_C2_embedding_certified": "all_t_closed_C2_embedding_certified",
+          "all_t_strong_C2_phase_continuity_certified": "all_t_strong_C2_phase_continuity_certified",
+          "all_t_reach_lower_certified": "all_t_reach_lower_certified",
+          "fixed_grip_has_relative_interior": "fixed_grip_has_relative_interior",
+          "all_original_cells_nonplanar": "all_original_cells_nonplanar",
+          "positive_Euclidean_shape_distance_including_reflections_certified": "positive_Euclidean_shape_distance_including_reflections_certified",
+          "geometric_targets_certified": "geometric_targets_certified",
+          "metric_certified": "metric_certified",
+          "fixed_metric_refinement_certified": "fixed_metric_refinement_certified",
+          "topic_completion_certified": "topic_completion_certified",
+          "marked_diameter_upper_exact": "marked_diameter_upper.exact",
+          "marked_diameter_upper_decimal_floor": "marked_diameter_upper.decimal_floor",
+          "marked_support_lower_exact": "marked_support_lower.exact",
+          "marked_support_lower_decimal_floor": "marked_support_lower.decimal_floor",
+          "marked_curvature_upper_exact": "marked_curvature_upper.exact",
+          "marked_curvature_upper_decimal_floor": "marked_curvature_upper.decimal_floor",
+          "marked_witness_distance_lower_exact": "marked_witness_distance_lower.exact",
+          "marked_witness_distance_lower_decimal_floor": "marked_witness_distance_lower.decimal_floor",
+          "marked_reach_lower_exact": "marked_reach_lower.exact",
+          "marked_reach_lower_decimal_floor": "marked_reach_lower.decimal_floor",
+          "reach_over_diameter_lower_exact": "reach_over_diameter_lower.exact",
+          "reach_over_diameter_lower_decimal_floor": "reach_over_diameter_lower.decimal_floor",
+          "held_over_diameter_lower_exact": "held_over_diameter_lower.exact",
+          "held_over_diameter_lower_decimal_floor": "held_over_diameter_lower.decimal_floor",
+          "grip_over_diameter_lower_exact": "grip_over_diameter_lower.exact",
+          "grip_over_diameter_lower_decimal_floor": "grip_over_diameter_lower.decimal_floor",
+          "reach_over_D_target_paid": "targets_certified.reach_over_D",
+          "held_over_D_target_paid": "targets_certified.held_over_D",
+          "grip_over_D_target_paid": "targets_certified.grip_over_D"
+        }
+      },
+      "scope": "Exact rational R650 combination on the same actual candidate; full marked embedding/held/grip/noncongruence preserved even if K is unpaid; compare 3/100 and 1/5 exactly, metric/refinement/completion stay false"
     }
   ]
 }
