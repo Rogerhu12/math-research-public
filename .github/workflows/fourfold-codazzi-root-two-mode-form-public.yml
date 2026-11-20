@@ -1,0 +1,42 @@
+name: R138 complete signed root 96 and 97 form
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/fourfold-codazzi-root-two-mode-form-public.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: r138-root-two-mode-signed-v1
+  cancel-in-progress: false
+
+jobs:
+  complete-root-two-mode:
+    if: github.repository == 'Rogerhu12/math-research-public' && github.run_attempt == 1
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            README.md
+            topics/visible-flex-exact-nearby/README.md
+            topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_root_two_mode_form_public_worker.py
+            topics/visible-flex-exact-nearby/notes/2026-11-20-R138-root-two-mode-form-inputs.json
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12.14'
+      - name: Install the fixed directed runtime
+        run: python -m pip install --disable-pip-version-check python-flint==0.9.0 numpy==2.3.5
+      - name: Restore original bytes and enclose the complete signed root form
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_root_two_mode_form_public_worker.py --repo "$GITHUB_WORKSPACE" --manifest topics/visible-flex-exact-nearby/notes/2026-11-20-R138-root-two-mode-form-inputs.json --manifest-sha 2e878faa9a3b62ffd8b827b39398872cf9fe8e50c793689d19385eca61226870

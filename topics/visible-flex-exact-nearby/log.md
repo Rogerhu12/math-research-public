@@ -167,3 +167,7 @@ D边界首run44742799448/1已保存完整actual/exec失败：19只读准入门�
 ## 2026-11-20：D边界零数学失败的独立线程恢复
 
 原44742799448/1完整actual51083B/eaeb74c5、exec58697B/7491a9f2与19准入/全部0进度已核；仅缺3线程env，数学0秒。新gen13171B/7e139255从原70121B清单及旧gen AST保79pins/21历史/25门39字段、全部参数和science，追加完整失败2JSON+新gen成82pins。root逐bytes/SHA/blob、operation仅marker差、metadata重建逐字同核；恢复清单72957B/38ff0e8f、workflow1790B/95306551仅换新清单/并发/3env。旧失败与marker保留，共享worker98ef3773不变，首次push剩余原2目标；0旧成功重算，未授数值或逆。
+
+## 2026-11-20：原96/97根型完整signed新目标
+
+science32478B/817f033d、worker30041B/96785db2、gen11751B/20cba007、contract9957B/bbc599a4，root逐源及worker/gen差异整读，joint独核7local/完整mean/两非局部项、weighted moment、真实C2与wholecell带符号余项。20当前bytes/SHA/blob/AST、6历史与已成mean逐字同、34字段/YAML/metadata再现全核；manifest11331B/2e878faa9a3b62ffd8b827b39398872cf9fe8e50c793689d19385eca61226870。原axis/mean/X整文件只读，0旧target或producer；32768格3pass私有contains缓存不公开，保存读回actual3球后才det/witness严格比较。负方向只排无条件全rootdata非负；根迹可达性/global逆仍未付。独立workflow首次push，原低长run不动。
