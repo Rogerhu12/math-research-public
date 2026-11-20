@@ -183,3 +183,7 @@ source20629B/7249ee69、worker29103B/e3b9a174、gen11084B/cafe9d54、contract521
 ## 2026-11-20：按原Git指针释放旧stdout容量
 
 为后继完整小结论与当前低长run留容量，在106bcc69f1cd4030f62052979cc1b02c2df91e50逐件核200份旧stdout日志path/bytes/SHA/blob；gross821697B，完整63007B恢复清单2026-11-20-more-legacy-stdout-history-pointers.json。仅旧notes run<44000000000、2026-11-12 cap日志及ci_43275872327 forward logs；不动科学source/native/array/actual/execution。23清单（含待发weighted）递归237当前/历史路径与删表交集0；当前R141低71、D82、两模20、GB17、weighted79及成功GH清单各bytes/SHA保持。旧v1/v2历史清单的assembly/reference/worker本已被此前修复替换，不把旧pin冒当前pin，完整恢复仍用原提交。所有旧成功/失败/参数/数值原字留Git，0科学重算，不重写已推历史；删除后topic198864305B（不含本段新增文字）。
+
+## 2026-11-20：真实高源的径向加权功能与首次公开封包
+
+proof10083B/94b453ca、math17375B/6bb32619、owner28755B/a97d5076、gen13902B/daa3cb9d；root整读proof/math/owner/gen并核旧P11–15接口，global/joint独核完整两支max、parent cache与2×2正响应范数。79当前bytes/SHA/blob/AST，原71列表/21历史/7modules/50参数逐字同，39字段25门/5目标5球/YAML3线程均核；metadata再现manifest70834B/f544cf42442f81c2c2edcd0e4e5f5c5402161d10640c2be43a394ae534b4f0a1及workflow逐字同。152 source parents、至多4803格双scalar sweeps，新保存GB后才组四响应，保存HZ后才外迹5/388。0旧GH5/GH4/高Riccati/ordinary sweep/低逆/数组，首次push新workflow，共享worker98ef原样。旧所有源/mean/ports与actual外行/finiteρ/两rhs不免。

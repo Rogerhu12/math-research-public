@@ -1,12 +1,12 @@
 # 交接：可见振幅的精确闭等距族
 
-维护会话：`visible-exact-astra-ac637-20261120`；更新：2026-11-20 13:39:10 UTC。
+维护会话：`visible-exact-astra-ac637-20261120`；更新：2026-11-20 13:41:25 UTC。
 **总任务未完成；继续研究，不等用户回复。**
 
 ## 规则读点与接续来源
 
 部分克隆：`/workspace/scratch/ac637cfcc78d/math-research-public`。终端 git 已恢复，无 AGENTS。
-2026-11-20 13:39:10 UTC 实际pull/rebase至 `106bcc69f1cd4030f62052979cc1b02c2df91e50`；已读规则提交同上，两README相对96edc6770空diff。每次pull后核规则差异；下次实际pull最迟14:39:10 UTC。
+2026-11-20 13:41:25 UTC 实际pull/rebase至 `06a6194cdb7c209ae2f94df4777599cbdd1a4fa5`；已读规则提交同上，两README相对96edc6770空diff。每次pull后核规则差异；下次实际pull最迟14:41:25 UTC。
 
 接手前完整 H（含全部递归原页、成功/失败/恢复身份和未付义务）见 [2026-11-16 完整检查点](https://github.com/Rogerhu12/math-research-public/blob/882aa9b74efeaac682df43c197820e7280156357/topics/visible-flex-exact-nearby/HANDOFF.md)。本页只压缩索引；`open.md` 及所链接的原证明、适用域、均值、物理角、所有边界和误差费用继续有效。旧成功结论不重算。
 
@@ -48,7 +48,7 @@ WIC原m160/N24480真tail逆κ=3已证；WPN只有完整e+3dt<1才授双边逆、
 1. 原L44724797559/1冻结3/50，centre44727185157/1给K>80只排旧配方，余47不算；atom/endpoint和旧0scalar失败均保。R141有向44730452579/1仍运行，71输入/768bits：先完整Green/defect，门过才4源/193atoms/wholebox；未过不读未产字段。
 2. F Bc44734581045/1冻结upper<8828；真实GH五源44736533396/1和四响应44740105701/1均冻结，HB<110、HZ/Hroot<44、outer<.563，仅upper。[D边界](results/R141-supplement-reference-boundary-lifts-and-physical-outer-block-gate.md)首44742799448/1缺线程、数学0；[82pins恢复](notes/2026-11-20-reference-boundary-lifts-zero-math-thread-recovery.md)44745017016/1运行，保原79pins/25门39字段及旧marker，未授任何lift值。
 3. R138轴44730968113/1、mean44733403315/1、X44737045152/1、Y44740320925/1均已核冻结；X/Y旧body3门false非奇异。F根源/凹性、Z的8/5外界/Kcap/Minkowski及GB全频5/2、3/√2已证；[GB实际44745355257/1](results/R138-supplement-actual-capped-Hhalf-body-absorption-and-root-allowance.md)17pins/6球已核，body3门true、C_allow lower>367，根r保持旧Y H2/3资格，actual C*未付。[原96/97根型](notes/2026-11-20-R138-root-two-mode-form-contract.md)44745192261/1已产完整结果待整审；若负仅排全rootdata非负路线，不推global核。
-4. positive_inverse继续真实GH的径向加权完整源与真正97+96外行；global_route做根型及相对体能量；joint_kernel交叉审全频/消费者。root逐结论审、记、推。完整finite-rho、七ports、两RHS与所有原接口继续待；共享worker保持98ef3773原字节。
+4. [真实GH径向加权](results/R141-supplement-radially-weighted-actual-high-source-response.md)79pins/5新目标首次push，旧4650gap/frame只读、两支max与完整原feedback保；positive_inverse续真正97+96外行；global_route做根型及相对体能量；joint_kernel交叉审全频/消费者。root逐结论审、记、推。完整finite-rho、七ports、两RHS与所有原接口继续待；共享worker保持98ef3773原字节。
 
 ## 正侧以外仍未付的接口
 
