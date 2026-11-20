@@ -1,12 +1,12 @@
 # 交接：可见振幅的精确闭等距族
 
-维护会话：`visible-exact-astra-ac637-20261120`；更新：2026-11-20 11:19:01 UTC。
+维护会话：`visible-exact-astra-ac637-20261120`；更新：2026-11-20 11:23:07 UTC。
 **总任务未完成；继续研究，不等用户回复。**
 
 ## 规则读点与接续来源
 
 部分克隆：`/workspace/scratch/ac637cfcc78d/math-research-public`。终端 git 已恢复，无 AGENTS。
-2026-11-20 11:19:01 UTC 实际pull/rebase至 `2572a196265902000e3b5ca85df37608c053efc9`；已读规则提交同上，两README相对96edc6770空diff。每次pull后核规则差异；下次实际pull最迟12:19:01 UTC。
+2026-11-20 11:23:07 UTC 实际pull/rebase至 `5bd3fd23c037e85ab1587bd684799cd389726da1`；已读规则提交同上，两README相对96edc6770空diff。每次pull后核规则差异；下次实际pull最迟12:23:07 UTC。
 
 接手前完整 H（含全部递归原页、成功/失败/恢复身份和未付义务）见 [2026-11-16 完整检查点](https://github.com/Rogerhu12/math-research-public/blob/882aa9b74efeaac682df43c197820e7280156357/topics/visible-flex-exact-nearby/HANDOFF.md)。本页只压缩索引；`open.md` 及所链接的原证明、适用域、均值、物理角、所有边界和误差费用继续有效。旧成功结论不重算。
 
@@ -55,7 +55,7 @@ WIC原m160/N24480真tail逆κ=3已证；WPN只有完整e+3dt<1才授双边逆、
 
 readonly44712172133/1成功（60 current/23 AST/21原件/18门，0科学）；旧43921663540/1为0科学运维失败，两份完整回执保在 `notes/collar_volterra_dual_readonly_ci/`。恢复/执行用 `fourfold_codazzi_collar_volterra_dual_public_worker.py`；各新源码、完整清单与适用域见result/manifest，21原件与29整球只读恢复，旧producer不调用。graph4最终版尚未launch。
 
-1. 原L v4 44724797559/1成功3/50、L≈3.79236e−5，原atom/endpoint成功也冻结。`joint_kernel`准备完整centre mean-atom的新必要lower门，B_HL mean严格0；先判断固定小K配方，余47条未算。
+1. 原L v4 44724797559/1成功3/50、L≈3.79236e−5，原atom/endpoint成功也冻结。[centre mean下界](results/R139-supplement-complete-joint-centre-mean-atom-lower-bound.md)已证，75输入/SHAe08f6821单lower首次运行；B_HL mean严格0，先判固定小K配方，余47未算。
 2. `positive_inverse` 的低193/97 scaled续算44721851908/1已success：155panel/1424各向步/156分界，根全收据已核并登记，成功冻结；非真实逆。原失败prefix保。R141已登记，首次directed owner在备，CFB/mean/实际family仍付。
 3. `global_route` 已完成几何桥/旋转能量、actual support与outer负型；继续真实inner low96/high stable/mean边界及体残差吸收，不能把stable行当c=0。R135/R520不替验收。
 4. root维护git与记录；L三次失败均0scalar全保，旧endpoint第139panel超256步/0传播失败全保。atom未排除、scaled结果已成冻结；原L已成3/50，余47未算。代理不动git。

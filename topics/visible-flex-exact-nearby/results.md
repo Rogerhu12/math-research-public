@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R139完整中心均值原子下界](results/R139-supplement-complete-joint-centre-mean-atom-lower-bound.md)：degree32支持使纯mean输入的整个CFB严格0，原root-mean atom核恰−a00/q，因此完整有限接收器中心K²≥∫|a00/q|²dr。一个全155panel下界达到1/16384即排固定小K配方，不排实际逆；新75输入/一lower目标首次Actions，数值未得。
+
 - [R139实际完整低频族差三量](results/R139-supplement-actual-complete-low-family-budget.md)：44724797559/1成功，72当前/21原件/24AST/27门，完整L≈3.7923616923e−5，未触发1/128排除门。原50条中3条完成冻结、余47未算；五完整graph、finite门和逆均未给，旧三次0scalar失败全保。
 
 - [R141完整有向低193 Green认证](results/R141-low193-directed-green-and-complete-observation-certification.md)：证明97/96双侧chart、全body两三角及root97+outer96 Gram、同真根长度的系数缺陷Neumann转授、atoms identity和逐点whole区间投影/SV下界。原same-eta hybrid范围明确，七ports/CFB/finiteρ仍待；核心源AST、0科学，实际缺陷小量未求值。

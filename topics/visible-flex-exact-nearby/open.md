@@ -163,6 +163,8 @@ WIC真tail κ=3已闭；WPN仍须完整e+3dt<1。WPS/WVC/WCTRA充分门均false�
 
 [R139](results/R139-necessary-budget-for-fixed-W2C-comparison.md)给固定旧费用的必要门K+ε<1/128。[原L实际三量](results/R139-supplement-actual-complete-low-family-budget.md)44724797559/1已成并冻结：L≈3.7923616923e−5，未触发排除；原50条已成3条，余47未算，五完整graph/finite门/逆均未给。
 
+[完整中心均值原子](results/R139-supplement-complete-joint-centre-mean-atom-lower-bound.md)已证纯mean的CFB严格0与K²≥∫|a00/q|²；先用75输入新owner求全155panel有向lower。达到1/16384则排固定小K配方、转直接中心逆，余47无需为旧配方继续；当前尚无数值，不宣称排除。
+
 [独立mean atom结果](results/R139-supplement-actual-mean-atom-floor-not-excluding-fixed-recipe.md)44721682192/1已成3条必要下界，乘积≈5.27012349e−10未达1/16384；成功冻结，不计原50条。[R140完整分块](results/R140-complete-mean-split-low-family-comparison.md)已证192/mean1四块与保核权RMS，新配方未算；当前原L已小，先判断完整centre是否能过预算。
 
 三次原L失败44716804300/44719196440/44723722475均0scalar，完整回执保在各自CI目录；[零端点](results/R139-supplement-certified-zero-endpoint-interval-continuation.md)、[正pivot/endpoint hull](results/R139-supplement-positive-reference-pivot-and-endpoint-hull.md)、[正乘积](results/R139-supplement-directed-upper-products-for-complete-Green-comparison.md)包含修复均不改原对象。旧endpoint YAML/jobs0与第139panel/0传播失败也原样保留；后续成功不重分类旧失败。
