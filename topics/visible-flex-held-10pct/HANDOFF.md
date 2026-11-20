@@ -6,7 +6,7 @@
 
 连通闭C²嵌入、C²连续族；固定有内点H且diamH≥.2D，整像δhold≥.1D及含反射δE>0，全时reach≥.03D。同一完整g/全部物理参数/时间范围下，完整metric≤1e−6且空间/频率/时间精化降至求解或机器地板；全部闭合与Cartesian两jet接口须实际支付。
 
-- 部分克隆工作树 /workspace/scratch/1b6d88ecddf3/math-research-public。已读规则提交：`9f22cfbb7c55d8bf730f322c01f83b6176321789`；11:55 UTC本地真实pull --rebase至该提交，双README无变。每次pull检查双README差异，至少每小时一次；API比较不冒充pull。
+- 部分克隆工作树 /workspace/scratch/1b6d88ecddf3/math-research-public。已读规则提交：`316851a5b419e559316f5ce225037f34fde2103e`；11:57 UTC本地真实pull --rebase至该提交，双README无变。每次pull检查双README差异，至少每小时一次；API比较不冒充pull。
 - root独占git，逐结论推送，NFF立即pull --rebase/核双README后再推，禁force；令牌只在命令行。11:06 UTC终端已恢复。
 - 根§12优先实际数学/求解，不重复身份核查/双审；§15再生场、网格、矩阵不入Git/Release/artifacts，只存源/参数/命令/hash/小标量。H<10KB、单MD<100KB、目录<200MB，不写根LOG。
 - 压缩不撤销旧结果。完整旧断点见[接手H](https://github.com/Rogerhu12/math-research-public/blob/9288f266d1f242b594d70a714e20340fcb876023/topics/visible-flex-held-10pct/HANDOFF.md)和[本次H到73e060](https://github.com/Rogerhu12/math-research-public/blob/73e060110b34d302cc86f920a7b054590afbe8fd/topics/visible-flex-held-10pct/HANDOFF.md)；其链接的具体note优先于压缩摘要。
@@ -15,7 +15,7 @@
 
 R55多段profile独立source `/workspace/scratch/1b6d88ecddf3/m3-work/multistage-source-v2`；全部段长按δ/.06缩放，原ShortBridge curvature4/peak_fraction.2不变。二jet/chart接口实际通过。线性mode3根δ=.06414432506418023、残差3.38e−13；参考参数为 scripts/resume_m3/multistage_profile_linear_root.json。[源码/校准/重建](notes/2026-11-20-m3-multistage-profile-provider-and-interface.md)。
 
-**q=.006/.012/.02/.03/.04全原八linearDN已真过**，没有H1替代。末 q=.04：850点/RMS9.84184243e−7/metric_l1 4.01588288e−8/BC1.02467e−16，δ=.06414070389056908。完整场在上述scratch的 `newg-q040-linear`；checkpoint SHA4e3c388ea6c2f7d404c3df94d325c9ce2a0bfb7829bdf01ff107951e14466776。**q=.05正从此真CP续算**，原门不变。q=.03的中途RMS平台最终自行通过3260点，未重启或放门。[首解](notes/2026-11-20-m3-new-multistage-q006-original-linear-dn.md)、[各步完整参数/hash](notes/2026-11-20-m3-new-multistage-linear-amplitude-continuation.md)。
+**q=.006/.012/.02/.03/.04/.05全原八linearDN已真过**，没有H1替代。末 q=.05：903点/RMS9.97360691e−7/metric_l1 7.91015674e−8/BC1.45207e−16，δ=.0641382174100334。完整场在上述scratch的 `newg-q050-linear`；checkpoint SHAade5865bc8fdc7e22a29fef229cb6ee75d648e732f3cd7f5d68cae874851e62d。**q=.06正从此真CP续算**，原门不变。q=.03的中途RMS平台最终自行通过3260点，未重启或放门。[首解](notes/2026-11-20-m3-new-multistage-q006-original-linear-dn.md)、[各步完整参数/hash](notes/2026-11-20-m3-new-multistage-linear-amplitude-continuation.md)。
 
 δ/c仍是设计未知，不是同一冻结g的族。新g真尾必须独立work绑定新source/profile/原chart与tail，不能复用旧live bootstrap自动读旧g。m3-work/newg-native已实际安装shared/periodic/native源链，尚未调用真尾。后续宽窗S=.5/b=.2先在λ=0选τ=1，再逐步圆化到最终k=.2；不能搬当前旧live的S=.21数值。
 

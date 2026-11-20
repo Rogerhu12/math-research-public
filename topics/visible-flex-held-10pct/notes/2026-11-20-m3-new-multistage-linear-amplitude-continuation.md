@@ -157,3 +157,31 @@ DomainNewton 为 calls=5、accepted_steps=14、merit 拒绝=87、domain 拒绝=0
 | `physical.npz` | `deddbd7094145544fb5e42b80300027c2d7c816b636c9172a828f7013c36e7e4` |
 | `checkpoint.json.gz` | `4e3c388ea6c2f7d404c3df94d325c9ce2a0bfb7829bdf01ff107951e14466776` |
 | `run.json` | `439b61026edee6702513228e1c3dd337af28e7329fa64b16540cff73f97e481c` |
+
+## q=.050：从 q=.040 真 checkpoint 续算
+
+Q=.05，PREVIOUS=newg-q040-linear，TAG=newg-q050-linear。
+上一 checkpoint SHA256 为
+`4e3c388ea6c2f7d404c3df94d325c9ce2a0bfb7829bdf01ff107951e14466776`。
+实际 exit 0，solver_success=true，903 点，5 个网格，约 71.33 秒。
+
+| 指标 | 实际值 |
+|---|---:|
+| 最大 collocation RMS | 9.973606912128662e-07 |
+| metric_l1 | 7.910156737892718e-08 |
+| flow_defect | 4.590147335650989e-07 |
+| Darboux l1 | 0.0010892670514440596 |
+| physical BC max | 1.4520699626774153e-16 |
+| 曲率采样最大值 | 8.578556472634498 |
+| delta | 0.0641382174100334 |
+
+DomainNewton 为 calls=5、accepted_steps=7、merit 拒绝=22、domain 拒绝=0、no_step=1、最小 alpha=0.5。物理 c6,...,c24 为
+
+    [0.00032130266107415915, -2.5898001260616118e-05, 1.0143677529736615e-06, 3.584958430248947e-07, 1.199016259534776e-08, 6.861664543747142e-11, -1.5760476813986656e-09]
+
+| 返回文件 | SHA256 |
+|---|---|
+| raw `inner-00.npz` | `e24f16260aa7d4c3d86df8ffd97bbf2422f2fc1951250c3899cfa7a04f918d1c` |
+| `physical.npz` | `9726c59db6ed27fed83569750a761afe1c6a497d3fd88d7d95fac07bff6ae750` |
+| `checkpoint.json.gz` | `ade5865bc8fdc7e22a29fef229cb6ee75d648e732f3cd7f5d68cae874851e62d` |
+| `run.json` | `036bdff387b0d75c0571896225033ff171b2b678f255eda32d330ca4df4e4052` |
