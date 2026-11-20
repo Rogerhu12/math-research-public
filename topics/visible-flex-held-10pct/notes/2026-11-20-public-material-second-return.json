@@ -1,0 +1,311 @@
+{
+  "scope": "Actual finite initializer and projected linear-DN results. No new nonlinear tail, complete surface, continuous metric certificate or fixed-parameter convergence.",
+  "session": "Astra-held10-1b6d88ec-20261120",
+  "run_id": 44718341266,
+  "job_id": 136227357046,
+  "source_commit": "52e7ba0bcc2a8974576278250dd7ee75cccc8d56",
+  "actual_pull_commit": "52e7ba0bcc2a8974576278250dd7ee75cccc8d56",
+  "readme_diff": "",
+  "completed_at": "2026-11-20T10:27:06Z",
+  "amplitude_summary_sha256": "4acc807b4c5e81038cd403f22deaa76999b20eb91a11519931a4d70c64039643",
+  "amplitude_stages": [
+    {
+      "q": 0.006,
+      "accepted_initializer": true,
+      "nodes": 579,
+      "rms": 9.947402870585667e-7,
+      "legacy_sampled_component_metric_l1": 2.5223305786616e-9,
+      "first_original_linear_DN_physical_residual": 5.02451486523543e-7,
+      "raw_sha256": "5a164b36d29db822aaf6399afda99ccecf7e5287560010ada8cfce38ec986948",
+      "run_sha256": "d3e00a121ad5750682831218148256bb8408e20548824c88213b956c501ba1cf"
+    },
+    {
+      "q": 0.012,
+      "accepted_initializer": true,
+      "nodes": 581,
+      "rms": 9.974381616075816e-7,
+      "legacy_sampled_component_metric_l1": 5.1484765105790094e-9,
+      "first_original_linear_DN_physical_residual": 9.46754154081876e-7,
+      "raw_sha256": "fe289e8eea2fbcbd2a596dc0a51f74643880ca838540ca5ccc0d7187d1313b05",
+      "run_sha256": "b2347a4b9aaf7ac18b8c25a0b9c18b0187314462063cd25a55ffe8274b3f2d1f"
+    },
+    {
+      "q": 0.02,
+      "accepted_initializer": true,
+      "nodes": 588,
+      "rms": 9.870429305573245e-7,
+      "legacy_sampled_component_metric_l1": 8.818700781849217e-9,
+      "first_original_linear_DN_physical_residual": 0.0000013491648631621959,
+      "raw_sha256": "28be7538bf4579a396b15a73caef7fb7b3f98917501bcda38a80d482f8e51f3a",
+      "run_sha256": "1feda2387f539126364e781626970b4dede69dcf70490e2a7e6b4c65db05063c"
+    },
+    {
+      "q": 0.03,
+      "accepted_initializer": true,
+      "nodes": 967,
+      "rms": 9.943629938571659e-7,
+      "legacy_sampled_component_metric_l1": 1.3794696081649067e-8,
+      "first_original_linear_DN_physical_residual": 0.0000013593619954412315,
+      "raw_sha256": "7faf86b36987388f2f23bbd12c5dc5cd584cc5ff4310311d09794897f6e3a701",
+      "run_sha256": "76cb13f28d1445e64a44a02ed7a075d9b092ad5ee4153a2332ec65d7855ed53a"
+    },
+    {
+      "q": 0.04,
+      "accepted_initializer": true,
+      "nodes": 997,
+      "rms": 9.655553921420405e-7,
+      "legacy_sampled_component_metric_l1": 1.89105067269704e-8,
+      "first_original_linear_DN_physical_residual": 5.89316376411114e-7,
+      "raw_sha256": "13f026e74e37f05377b79960635e2b1c09da3c23ed08e16217cbc66aa161061d",
+      "run_sha256": "aa8fa97495c2a93f051064d3432dc426f47632ea59a8db21a9f4eed7ca45bd59"
+    },
+    {
+      "q": 0.05,
+      "accepted_initializer": true,
+      "nodes": 1015,
+      "rms": 9.993148773363023e-7,
+      "legacy_sampled_component_metric_l1": 2.7618601499590914e-8,
+      "first_original_linear_DN_physical_residual": -0.000001193550642227191,
+      "raw_sha256": "0b255e347556088423225f42d8e0071c59cd080adc81d4767d751fccf0f00aed",
+      "run_sha256": "ef92137b084e973b45bc58b5edafff2901a442637072dde19f480177ab26dd95"
+    },
+    {
+      "q": 0.06,
+      "accepted_initializer": true,
+      "nodes": 605,
+      "rms": 9.984988148582796e-7,
+      "legacy_sampled_component_metric_l1": 3.453482432591234e-8,
+      "first_original_linear_DN_physical_residual": -0.000004199818689854461,
+      "raw_sha256": "7ded1c5cdb3b7d2be544e270d6d0de13072bdee8f7352fbcff24351e3871ef4c",
+      "run_sha256": "34fe268d41594d0ed14a9cedf5e0a26b9d02aaa0270288c98d2801045683c8f1"
+    }
+  ],
+  "q060": {
+    "run_sha256": "34fe268d41594d0ed14a9cedf5e0a26b9d02aaa0270288c98d2801045683c8f1",
+    "raw_sha256": "7ded1c5cdb3b7d2be544e270d6d0de13072bdee8f7352fbcff24351e3871ef4c",
+    "parameters": [
+      1.2981534626609399e-10,
+      0.12904648487320558,
+      -0.1742734167715993,
+      0.04969482565151962,
+      -0.22234899305945893,
+      -1.9776455602176144,
+      -2.1166235355063843,
+      0.7680574928940789
+    ],
+    "physical_controls": [
+      0.00046456734554354006,
+      -0.00003764305802266544,
+      6.440449404436941e-7,
+      -1.7289857700303523e-7,
+      -9.2269031257513e-8,
+      -5.9251912603551505e-9,
+      7.68057492894079e-10
+    ],
+    "tail_heights": [
+      -0.00016709732888206937,
+      0.000005010629973144034,
+      7.30410966574907e-7,
+      -1.3845573108388612e-8,
+      -1.641669279501098e-9,
+      -4.3129075874629864e-10,
+      6.874949141464778e-11,
+      7.327098616458716e-12
+    ],
+    "old_audit": {
+      "metric_l1": 3.453482432591234e-8,
+      "flow_defect": 1.4387620313161103e-7,
+      "darboux_l1": 0.0004321316387146404,
+      "kappa_sample": 9.410700584291039,
+      "radius_max": 1.0901889980544874,
+      "height_max": 0.7826790472802008,
+      "root_min": 0.002485547707088198,
+      "chart_rho_min": 0.5199999999999999,
+      "support_amplitude": 0.06,
+      "core": {
+        "base_mode": 3,
+        "support_amplitude": 0.06,
+        "coefficients": [
+          0.06,
+          0.00046456734554354006,
+          -0.00003764305802266544,
+          6.440449404436941e-7,
+          -1.7289857700303523e-7,
+          -9.2269031257513e-8,
+          -5.9251912603551505e-9,
+          7.68057492894079e-10
+        ],
+        "frequencies": [
+          3,
+          6,
+          9,
+          12,
+          15,
+          18,
+          21,
+          24
+        ],
+        "exact_perimeter": 6.283185307179586,
+        "constant_width_exact": false,
+        "width_defect_bound": 0.0009306088551454682,
+        "width_min_sample": 1.9990723394729712,
+        "width_max_sample": 2.0009302397790205,
+        "curvature_radius_lower": 0.5061292689270075,
+        "curvature_radius_upper": 1.461225542560053,
+        "curvature_lower_bound": 0.6843570488427198,
+        "curvature_upper_bound": 1.975779828184995,
+        "radius_max_sample": 1.0604272980077192,
+        "radius_min_sample": 0.9405029417713011,
+        "radius_upper_bound": 1.0604272980077192,
+        "radius_lower_bound": 0.9405029417713011,
+        "support_monotone": true,
+        "phase_pi_over_base_mode_support_gap_at_phi0": 0.11992435623641813,
+        "phase_pi_over_base_mode_support_gap_lower": 0.11992435623641814
+      },
+      "inlet": {
+        "position": 5.727152085910348e-10,
+        "first": 1.6074141380471944e-8,
+        "second": 4.6299154776718865e-7,
+        "metric_l1": 5.345132008612517e-9
+      },
+      "dn_matrix": {
+        "physical_modes": 8,
+        "psi_modes": 8,
+        "scope": "Exact identity of angles at cut; truncated represented height has M physical modes."
+      },
+      "terminal_height_coeff_max": 0.00016709732888206937,
+      "samples_s": 1358,
+      "samples_psi": 512,
+      "scope": "Recover a prefix with one scaled historical height and seven original DNs.\n\nThe low-mode height target is a declared initializer condition. When q differs\nfrom the historical .06 value it is scaled by q/.06, not called a measured\ntrue-tail response. All other terminal equations remain the original linear\nDN. The full flow, domain guards and sampled metric gates remain unchanged.\nEvery original nonlinear DN condition is still unpaid by this initializer.\n",
+      "initializer_boundary_max": 1.4493677489944884e-16
+    },
+    "domain_newton_stats": {
+      "calls": 4,
+      "rejected_domain_trials": 0,
+      "rejected_merit_trials": 2,
+      "accepted_steps": 12,
+      "no_step": 0,
+      "minimum_alpha": 0.25
+    }
+  },
+  "material_lambda002": {
+    "run_sha256": "3844105e0bca7e341d7c9afdbb1e8d2c50efa5caeb0ef3400c95f8c009973477",
+    "solver_success": true,
+    "raw_sha256": "ce788743952d8dccbc6f77b8d7bf14c8de04aa8404de2504f8904f223e0058fe",
+    "parameters": [
+      -2.0970383801913764e-8,
+      0.13126112351714053,
+      -0.17833999595184924,
+      -0.012188023016544532,
+      1.050418268709971,
+      -19.601015049894034,
+      41.2164544061052,
+      -1002.2617291692475
+    ],
+    "physical_controls": [
+      0.0004725400446617059,
+      -0.00003852143912559943,
+      -1.5795677829441712e-7,
+      8.168052457488733e-7,
+      -9.145049581678559e-7,
+      1.1537969380627462e-7,
+      -0.0000010022617291692475
+    ],
+    "tail_heights": [
+      -0.00016741649440800887,
+      0.000005010835471245343,
+      7.318444467933487e-7,
+      -1.377435601005225e-8,
+      -1.64883333584608e-9,
+      -4.3209245630820747e-10,
+      1.0490228831225733e-10,
+      -1.9223568638464018e-10
+    ],
+    "old_audit": {
+      "metric_l1": 0.000023928678465250952,
+      "flow_defect": 0.0002265359064732878,
+      "darboux_l1": 0.01876956142207265,
+      "kappa_sample": 9.411640176639008,
+      "radius_max": 1.0902024764590246,
+      "height_max": 0.7826758277989891,
+      "root_min": 0.0024848728255538743,
+      "chart_rho_min": 0.5199999999999999,
+      "support_amplitude": 0.06,
+      "core": {
+        "core_kind": "material-curvature-flattening",
+        "base_mode": 3,
+        "support_amplitude": 0.06,
+        "physical_parameters": [
+          0.06,
+          0.0004725400446617059,
+          -0.00003852143912559943,
+          -1.5795677829441712e-7,
+          8.168052457488733e-7,
+          -9.145049581678559e-7,
+          1.1537969380627462e-7,
+          -0.0000010022617291692475
+        ],
+        "homotopy": 0.02,
+        "curvature_blend": 0,
+        "target_curvature": 0.2,
+        "circle_curvature": 0.6842250734411192,
+        "halfwidth": 0.21,
+        "halfwidth_coordinate": "material-arclength",
+        "transition": 0.25,
+        "compensation_beta": 0.0077810453713364315,
+        "exact_perimeter": 6.283185307179586,
+        "curvature_radius_lower": 0.5065535870757976,
+        "curvature_radius_upper": 1.4621050200360115,
+        "curvature_lower_bound": 0.6839453981051034,
+        "curvature_upper_bound": 1.9741248024177274,
+        "curvature_guard": {
+          "method": "R53-convex-mixture",
+          "lower": 0.6839453981051034,
+          "upper": 1.9741248024177274
+        },
+        "quadrature_order": 12,
+        "integration_cells": 64,
+        "transition_cells": 24,
+        "reflection_roundoff": 1.5654144647214707e-14,
+        "original_kind": "PlanarSupportCore",
+        "implementation_validation": "not yet executed when source was saved",
+        "scope": "core design only; no full metric, tail, or closed-surface claim"
+      },
+      "inlet": {
+        "position": 0,
+        "first": 0,
+        "second": 0,
+        "metric_l1": 0,
+        "scope": "The analytical reference lift retains the exact core and its two angular jets; quadrature/inversion roundoff is audited separately.",
+        "unlifted_projection": {
+          "position": 2.940975330089173e-7,
+          "first": 0.000009481417583078889,
+          "second": 0.0003574318788704127,
+          "metric_l1": 2.2894704647087342e-7
+        }
+      },
+      "dn_matrix": {
+        "physical_modes": 8,
+        "psi_modes": 8,
+        "scope": "Exact identity of angles at cut; truncated represented height has M physical modes."
+      },
+      "terminal_height_coeff_max": 0.00016741649440800887,
+      "physical_bc_max": 6.882603347516852e-13,
+      "samples_s": 1358,
+      "samples_psi": 512,
+      "scope": "Sampled physical metric and Cartesian Darboux tensor after exact chain rule. Finite FFT l1 is not a continuous-angle proof. Linear finite port only; full nonlinear mean and Cartesian seam are unpaid."
+    },
+    "domain_newton_stats": {
+      "calls": 1,
+      "rejected_domain_trials": 0,
+      "rejected_merit_trials": 0,
+      "accepted_steps": 2,
+      "no_step": 0,
+      "minimum_alpha": 1
+    },
+    "legacy_metric_gate_pass": false,
+    "within_R53_declared_old_control_box": false
+  },
+  "new_actual_tail_count": 0,
+  "complete_surface": false
+}
