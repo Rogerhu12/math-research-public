@@ -1,12 +1,12 @@
 # 交接：可见振幅的精确闭等距族
 
-维护会话：`visible-exact-astra-ac637-20261120`；更新：2026-11-20 10:17:33 UTC。
+维护会话：`visible-exact-astra-ac637-20261120`；更新：2026-11-20 10:22:46 UTC。
 **总任务未完成；继续研究，不等用户回复。**
 
 ## 规则读点与接续来源
 
 部分克隆：`/workspace/scratch/ac637cfcc78d/math-research-public`。终端 git 已恢复，无 AGENTS。
-2026-11-20 10:17:33 UTC 实际pull/rebase至 `2aa67d03542f432ca8e388752faa42aeee272160`；已读规则提交同上，两README相对96edc6770空diff。每次pull后核规则差异；下次实际pull最迟11:17:33 UTC。
+2026-11-20 10:22:46 UTC 实际pull/rebase至 `782fbff1c1154869ad43c71728e3c6fe02140c8f`；已读规则提交同上，两README相对96edc6770空diff。每次pull后核规则差异；下次实际pull最迟11:22:46 UTC。
 
 接手前完整 H（含全部递归原页、成功/失败/恢复身份和未付义务）见 [2026-11-16 完整检查点](https://github.com/Rogerhu12/math-research-public/blob/882aa9b74efeaac682df43c197820e7280156357/topics/visible-flex-exact-nearby/HANDOFF.md)。本页只压缩索引；`open.md` 及所链接的原证明、适用域、均值、物理角、所有边界和误差费用继续有效。旧成功结论不重算。
 
@@ -35,6 +35,8 @@ geometry `43584188751/26` **仅条件性**：同η0真 wholecore（含帽）C0�
 
 [R138](results/R138-residual-sensitive-Codazzi-frame-and-geometric-Jacobi-bridge.md)（已证明）：同Qrepair的Codazzi残差经正交径向重建给frame/位置/高度Darboux与Jacobi缺陷，保初值、193真实mixed行和WVC额外η主部差；无指数残差包络及R32应变接口均明确。尚未给真实边界正性、onto或全逆。
 
+[R138补篇](results/R138-supplement-rotation-energy-and-complete-endpoint-form.md)已证真实旋转能量/完整端点型、角缺陷无角导源方程及不除以K的漂移控制；support、193+high实际边界费用和残差吸收仍待，不把平面边界推论用于未核的root。
+
 ## 已有可复用的正侧链
 
 - WIC：原 m160 真 tail 的全系统逆界 κ=3、N=24480 已证。完整 reference、ρ2、193 mean/head、97 root+96 outer、7 ports、两 RHS 资格保留。
@@ -55,8 +57,8 @@ geometry `43584188751/26` **仅条件性**：同η0真 wholecore（含帽）C0�
 
 1. `joint_kernel` 的稳定graph4已按R136合入；现实现独立低family比较预算诊断，先算原graph3的3条新scalar。若L≥1/128，按固定WVC旧常数可直接排除此充分界配方；其余47条未算，不反推奇异。
 2. `positive_inverse` 的R137与精确BVP接口、低193/97诊断模块已合入且AST通过；公共workflow `fourfold-codazzi-low193-endpoint-diagnostic-public.yml` 随本提交触发；仅midpoint比较算子启发式，完整CFB/原均值端口/实际family误差未付。
-3. `global_route` 完成R138残差敏感几何桥，继续不依赖全正height法向的rotation-field边界能量；实际mixed边界正性/残差吸收仍未证。R135已排固定线性核连续化，小振幅R520不替验收。
-4. root 维护 main/H/open/results/log。新workflow `fourfold-codazzi-low-family-budget-public.yml` 随本提交触发首次low-family三标量计算；清单62current/21原件、原7模块完整保留，只算原50条中的3条。worker仅新增已pin角色入口选择，原science默认不变；low-family44716804300/1已保存0scalar失败；97endpoint44717190551在YAML解析前失败、jobs0。两者窄修后继续，未成功目标不算重跑旧数学。代理不动git。
+3. `global_route` 已完成R138及旋转能量补篇，接着核实际mixed边界费用/残差吸收；R135只排固定线性核连续化，R520小振幅不替验收。
+4. root维护git与记录、接续两公共诊断：low-family44716804300/1保存0scalar失败；97endpoint44717190551为YAML解析失败、jobs0。窄修reference非负区间及YAML后只算未成目标，原21原件/7模块/50父目标不变。代理不动git。
 
 ## 正侧以外仍未付的接口
 
