@@ -338,3 +338,5 @@
 - **原全部交换子的统一成本有限头及平均插值（2026-11-20，已证明）：** [原R88、真多项式及同一有限头提升](results/R12-appendix-commutant-uniform-cost-head-approximation-and-average-interpolation.md)对任意X∈{A}'给c(C_l)≤κ‖X‖，C_l和有限共轭平均ΠC_l同强趋X，且两者普通op范数差趋零。κ=(1+ρ)³/(1−ρ)固定，源/平均的同一有限输入族误差实付；不宣κ=1、c差趋零或全D保成本近似。
 
 - **R150 长度2单零rankH4的等向单位补支为空（2026-11-20，已证明）：** [原完整mean、cross列及W±支撑排除](results/R150-appendix-essential-four-double-zero-rank-four-isotropic-active-branch-is-empty.md)只在K_active=0假设下，精确半权子集分类与highest/Gram秩关闭所有分支；P±无共同根以原有理余式直接证明。保全部∞和非单位L，不把受限等向子支扩大成整个长度2单零问题。
+
+- **R150 单位三jet与双点单零的rankH4为空（2026-11-20，已证明）：** [全mean四式与原最高/第二梯度排除](results/R150-appendix-essential-four-unit-three-jet-double-zero-rank-four-branch-is-empty.md)精确推导N_a及double附加项全含R，分z=0/nonzero关闭全部Gram；非零支两二次因子均与原N/mean矛盾。无CAS或有限域提升，含∞；divisor3+2全部rankH4放置关闭。
