@@ -1,0 +1,42 @@
+{
+  "schema": "held10-actual-m24-core-neighborhood-v1",
+  "base_mode": 3,
+  "source_run_sha256": "c44b6fd2fbb13cc9ce0451cc6ab1d3c06521de0622de27190bde94c4c550462a",
+  "source_physical_sha256": "f2e22fe19bb0b6fdeff79c4fa99363d9be6cbb1ef382fd882679a2b717a3030d",
+  "center_q_hex": "0x1.eb851eb851eb8p-5",
+  "center_control_hex": [
+    "0x1.07b79d06deff9p-11",
+    "-0x1.55eb93ea7a2d1p-15",
+    "-0x1.c87be411a5577p-20",
+    "0x1.317ad26caef19p-21",
+    "0x1.2e275f3bd5992p-20",
+    "-0x1.4e497fc3eaa8dp-23",
+    "-0x1.8f6794894443cp-22",
+    "0x1.703dbb45ffbdap-23",
+    "0x1.f057625c07813p-24",
+    "-0x1.fbd5379b7694ep-24",
+    "-0x1.419c358faff75p-26",
+    "0x1.1e97559add0bbp-24",
+    "-0x1.bf629390f80b1p-27",
+    "-0x1.07dba7b88520fp-25",
+    "0x1.1dd073c4f63f4p-26",
+    "0x1.af28061c60c5bp-27",
+    "-0x1.0fcf9ab44fa0cp-26",
+    "0x1.72e0a20fb7a21p-26",
+    "-0x1.abdd0d2af8ae8p-25",
+    "0x1.7e3c18685e072p-23",
+    "0x1.8dcf3e02b7228p-25",
+    "-0x1.c28561d1b61bap-26",
+    "-0x1.8724575dd43f0p-27"
+  ],
+  "q_interval": [
+    "599/10000",
+    "601/10000"
+  ],
+  "weighted_control_radius": "1/100",
+  "halfwidth_hex": "0x1.0000000000000p-1",
+  "transition_hex": "0x1.999999999999ap-3",
+  "target_curvature_hex": "0x1.999999999999ap-3",
+  "curvature_blend": 1,
+  "scope": "Actual binary64 parameters interpreted exactly; R53 integral-defined core, not a finite oracle error certificate"
+}

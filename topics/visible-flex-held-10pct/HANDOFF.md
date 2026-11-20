@@ -6,7 +6,7 @@
 
 连通闭C²嵌入、C²连续族；固定有内点H且diamH≥.2D，整像δhold≥.1D及含反射δE>0，全时reach≥.03D。同一完整g/全部物理参数/时间范围下，完整metric≤1e−6且空间/频率/时间精化降至求解或机器地板；全部闭合与Cartesian两jet接口须实际支付。
 
-- 部分克隆工作树 /workspace/scratch/1b6d88ecddf3/math-research-public。已读规则提交：`2b27f6da9af4b7e80ec9e94d75d10b504e34c7aa`；12:40 UTC本地真实pull --rebase至该提交，双README无变。每次pull核差异，至少每小时一次；API比较不冒充pull。
+- 部分克隆工作树 /workspace/scratch/1b6d88ecddf3/math-research-public。已读规则提交：`b7628c3911941a3b9abf3fabd4744083d3246ff6`；12:43 UTC本地真实pull --rebase至该提交，双README无变。每次pull核差异，至少每小时一次；API比较不冒充pull。
 - root独占git，逐结论推送，NFF立即pull --rebase/核双README后再推，禁force；令牌只在命令行。11:06 UTC终端恢复。
 - 根§12优先实际数学/求解，不重复身份核查/双审；§15再生场、网格、矩阵不入Git/Release/artifacts，只存源/参数/命令/hash/小标量。H<10KB、单MD<100KB、目录<200MB，不写根LOG。
 - 压缩不撤销旧结果。完整旧断点见[接手H](https://github.com/Rogerhu12/math-research-public/blob/9288f266d1f242b594d70a714e20340fcb876023/topics/visible-flex-held-10pct/HANDOFF.md)及[本次H到01954](https://github.com/Rogerhu12/math-research-public/blob/01954ce52ce769093d8368e8f5c9d4a980191a84/topics/visible-flex-held-10pct/HANDOFF.md)；具体note优先于摘要。
@@ -22,6 +22,8 @@
 λ=.002/M8真收敛但l1 3.19321e−5/operator2.68683e−5未门；M16 l1 4.27249e−6/operator3.56981e−6仍未门，实际补空间频壳支持升M。[M8终态](notes/2026-11-20-m3-newg-wide-lambda0002-m8-terminal.md)、[M16返回](notes/2026-11-20-m3-newg-wide-m8-actual-spectrum-and-m16-entry.md)。δ/c重解只算设计延拓。
 
 **M24 λ.002已通过原linearDN/metric门**：631点、3全步/0拒，l1 **6.482415924575457e−7**，BC3.72e−16，δ=.06413464104697915。实际原图使用**mean1168/GL6**；固定mean512独立proxy的operator5.45009e−7不能自动当同一完整图。原2GB exporter OOM只以shared allocation副本恢复，heap/方程/门未变；完整lift系数1。[完整M24记录/散列](notes/2026-11-20-m3-newg-wide-m16-spectrum-and-m24-prefix.md)。
+
+[M24加权核心邻域](notes/2026-11-20-m24-weighted-core-neighborhood.md)已严格付全23c及任意新增有限高模：q[.0599,.0601]、加权距离≤.01给ρ>.485、τ1全λ核心κ∈[.2,4.86)；未来真实返回必须核成员资格，非全曲面界。
 
 当前真尾：session42787，`m3-work/newg-wide-lambda0p002-m24-actual`；native M24/N512/steps16/2workers，原八外迭代。已进入batch1 fullJac，尚无终态；绑定新source/profile/chart/port，禁旧bootstrap回落旧g。通过后固定全部物理参数、完整g和均值规则，实际执行场细化；目前没有固定g族。
 

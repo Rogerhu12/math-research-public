@@ -1,0 +1,78 @@
+{
+  "scope": "Exact R53 core bounds around an actual support-parameter vector.\n\nAll arithmetic for bounds/membership is Fraction. This certifies the\nintegral-defined mathematical core, not the floating GL position oracle,\nthe full Frenet domain, a BVP, a complete metric, or a closed surface.\n",
+  "source_sha256": "881a38f1ffc2c9ceb7dec36b673e709216a1aa3f668f30f8cc800e8478b37e06",
+  "center_sha256": "5be805f5f65806e00a03cc4b271e092db4e7dbb433f7a106d35b774ff05c62b9",
+  "center_control_count": 23,
+  "center_weighted_norm": [
+    14451985358671943599097,
+    604462909807314587353088
+  ],
+  "q_interval": [
+    [
+      599,
+      10000
+    ],
+    [
+      601,
+      10000
+    ]
+  ],
+  "weighted_radius": [
+    1,
+    100
+  ],
+  "rho_lower": [
+    183337830197007902675684631,
+    377789318629571617095680000
+  ],
+  "rho_upper": [
+    572240807062135331515675369,
+    377789318629571617095680000
+  ],
+  "old_curvature_lower": [
+    377789318629571617095680000,
+    572240807062135331515675369
+  ],
+  "old_curvature_upper": [
+    377789318629571617095680000,
+    183337830197007902675684631
+  ],
+  "window_mass": [
+    21617278211378381,
+    18014398509481984
+  ],
+  "beta_upper": [
+    132840405326387593973644181614761701864761593594485980586833,
+    47597221989125788889871835881080483440764297841955882139648
+  ],
+  "whole_homotopy_curvature_lower": [
+    3602879701896397,
+    18014398509481984
+  ],
+  "whole_homotopy_curvature_upper": [
+    230920119941804479547448923668627635762862467687163674026833,
+    47597221989125788889871835881080483440764297841955882139648
+  ],
+  "rational_display_gates": {
+    "rho_lower_gt": "97/200",
+    "rho_upper_lt": "303/200",
+    "curvature_lower_ge": "1/5",
+    "curvature_upper_lt": "243/50"
+  },
+  "finite_additional_modes_allowed": true,
+  "candidate_membership": {
+    "run_sha256": "c44b6fd2fbb13cc9ce0451cc6ab1d3c06521de0622de27190bde94c4c550462a",
+    "modes": 24,
+    "q": [
+      1080863910568919,
+      18014398509481984
+    ],
+    "weighted_distance": [
+      0,
+      1
+    ],
+    "belongs": true,
+    "center_extended_by_zero": true
+  },
+  "full_surface_claim": false
+}
