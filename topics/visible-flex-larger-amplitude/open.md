@@ -127,4 +127,4 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 [双积分实际准备](notes/2026-11-17-parallel-root-fullclosed-integrated-coordinate-preparation.md)d429/f653/e6e968：1333209坐标/964端口、168个2×2+157个4×4块，完整G作用差1.67e−16、lift转置4.82e−14、端口3.16e−15。仅异质测试尺度/0几何调用，原warm未改；浮点repair反增末误差1.42e−14如实保，不冒准确闭解。
 
-2026-11-20接续见[最新交接](HANDOFF.md)：同g全闭点Gram从.655降至.310475；全域、全t与精化责任仍未付。
+2026-11-20接续及当前真实父见[最新交接](HANDOFF.md)；全域、全t与固定g精化责任仍未付。
