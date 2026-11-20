@@ -2,7 +2,7 @@
 
 主目标：固定一条 E/Q，完整证明 rank≥2 且无穷不同 p 的通常全 Sha(E/Q)[p∞] 有限。**未完成，持续研究；不在阶段结果、时限或建议处停下。**
 
-[本次整理前完整 open](notes/2026-11-20-open-after-artinian-norm.md)逐字保存全部旧问题、公式、条件、预算、来源和更早归档入口；[同期完整 HANDOFF](notes/2026-11-16-frontier-before-padic-reconstruction.md)保已运行 source/run/job 与各原理论检查点。下列未重写的旧门仍有效，编号缺席不表示完成。
+[本次整理前完整 open](notes/2026-11-20-open-before-full-fixed-P-forcing.md)逐字保存全部旧问题、公式、条件、预算、来源和更早归档入口；[同期完整 HANDOFF](notes/2026-11-16-frontier-before-padic-reconstruction.md)保已运行 source/run/job 与各原理论检查点。下列未重写的旧门仍有效，编号缺席不表示完成。
 
 ## O1. 固定曲线的秩：已完成
 
@@ -161,26 +161,26 @@ R887(116a)进一步准确给C(Hω)=0及C²(𝔄Faω)=0：rω=(1/3)dlog y与[G]_(
 
 - R914：在原T−h≤L<T（含L≤h）的真实窗口，Qf(T)先把同源合成送入全零纤维，再准确使T=E；R911五/六长反门给K∞=∩₀⁸T^(−j)K或∩₀⁹，故9dimK≤8dimVT+d∞或10dimK≤9dimVT+d∞，d∞≤6。全部反馈a_i/实际GRes左边保，不判指定forcing。
 
-- [R917](results/R917-original-global-rr-lattice-from-saturated-q-jets.md)：原X0(867)全尖点线束deg204的204m+1个jet给整饱和像；任一已认证QQ模形式基经严格终止的逐ℓ饱和，准确恢复全部M2m/ℓ及原L(mDS)。固定子式赋值逐步下降，无高度猜测；完整全局q格不冒现有degree48坐标/闭点/全部RR前端PASS。
+- R917：原X0(867)全尖点线束deg204的204m+1个jet给整饱和像；任一已认证QQ模形式基经严格终止的逐ℓ饱和，准确恢复全部M2m/ℓ及原L(mDS)。固定子式赋值逐步下降，无高度猜测；完整全局q格不冒现有degree48坐标/闭点/全部RR前端PASS。
 
-- [R916](results/R916-original-special-fiber-stable-kernel-and-unique-prefix-test.md)：实际f=λY²(Y−1)、1≤ord_tF(t,0)≤2时，原F³的0..5六系数至多一个恒零；故真实K∞≤1，全非零则0。唯一可能方向Bn+c(t)Yn由完整十九角纯charge格Pn·k[t]≤Mn及同T前缀准确判定，εF0/1给R914联合秩加强；原Λ只缩到一条实际GRes，未判其非零或forcing。
+- R916：实际f=λY²(Y−1)、1≤ord_tF(t,0)≤2时，原F³的0..5六系数至多一个恒零；故真实K∞≤1，全非零则0。唯一可能方向Bn+c(t)Yn由完整十九角纯charge格Pn·k[t]≤Mn及同T前缀准确判定，εF0/1给R914联合秩加强；原Λ只缩到一条实际GRes，未判其非零或forcing。
 
-- [R917 §8](results/R917-original-global-rr-lattice-from-saturated-q-jets.md)：公开run43919854829/job133483895189/source4519983a已完整认证原ℓ29的120×205全局RR格；固定子式为单位、原QQ变换/全约化秩/同S全部通过，2.549秒，结果hash5a1d6494…eb663b。只付全局L(DS)及忠实jets，未提供degree48坐标/闭点或现有四块接口。
+- R917 §8：公开run43919854829/job133483895189/source4519983a已完整认证原ℓ29的120×205全局RR格；固定子式为单位、原QQ变换/全约化秩/同S全部通过，2.549秒，结果hash5a1d6494…eb663b。只付全局L(DS)及忠实jets，未提供degree48坐标/闭点或现有四块接口。
 
 原fricke24 run43860032290/job133274126644/sourcebe4e0074已于17:33 exit137；完整24次原支已选，最后阶段是原U恢复，未到正规化/RR。全部阶段/hash见[实际卡点](notes/2026-11-16-original-rr-stopped-before-normalization.md)；不能将此终止当数学反证或确定OOM。
 
-- [R919](results/R919-original-polynomial-ring-middle-recovery-and-unchanged-rr-certificate.md)：原多项式环内逐系数真除法/复乘与次数严格下降，余式在一次处停止而不造无用S0；所得仅作候选，仍由原eta域的两完整Phi/绝对支/两Atkin及全四RR末端认证。新独立公开路径已请求，尚无PASS，不猜当前R910实际卡点。
+- R919：原多项式环内逐系数真除法/复乘与次数严格下降，余式在一次处停止而不造无用S0；所得仅作候选，仍由原eta域的两完整Phi/绝对支/两Atkin及全四RR末端认证。新独立公开路径已请求，尚无PASS，不猜当前R910实际卡点。
 
 
 重读已发表 R708 后的接续校准：原 m34/72/136 已有非零迹赋值≤3/4+o(1)，故大p边界零等价于约3p/4个原 Gaussian 块 g_m,h 的模p前缀零；不必将两位门当唯一途径。这些指标读 z^(dh)=w^(sh)，实际最高次数仍是 O(p²)，不能借 R887 仅前五块的替换免费延长。原中央零只给含真实除p商的部分和，不自动给逐行零；V66此门已由R923补齐。此处更新既有门的优先级，不登记新定理。
 
 ## R918：原首 Bockstein 对稳定方向的实际新约束
 
-[R918](results/R918-original-stable-direction-carry-unit-and-native-endpoint.md)真实三首十三带完整读取：δ=r+2h−s∈[−13,−1]时同q卷积行给单位·a(G)，完整β1在R916实际K∞单射。δ≥0三带零iff值深到J=T+13；若q(0,Y)=cY，native给(3n²−1)vG+9a(G)u0²e0·1δ0=0，δ0首值非零、δ>0再深1。完整U0/实际高轴/q导数/同R,S保，未排非稳定核。
+R918真实三首十三带完整读取：δ=r+2h−s∈[−13,−1]时同q卷积行给单位·a(G)，完整β1在R916实际K∞单射。δ≥0三带零iff值深到J=T+13；若q(0,Y)=cY，native给(3n²−1)vG+9a(G)u0²e0·1δ0=0，δ0首值非零、δ>0再深1。完整U0/实际高轴/q导数/同R,S保，未排非稳定核。
 
 继续同一 K′=K∩ker(完整β1) 的真实后继链与指定 forcing，不以稳定部分单射替全核排除；δ≥0仍用同一个候选继续 native/其它行。
 
-- [R919 §6](results/R919-original-polynomial-ring-middle-recovery-and-unchanged-rr-certificate.md)：原四块RR及正规化只依赖同一D,s,L和u/v/at，可先执行再做U；新geometry-first路径在完整原U/两Phi/两Atkin之后才返context。仅重排依赖，未删接受门，尚无新PASS。
+- R919 §6：原四块RR及正规化只依赖同一D,s,L和u/v/at，可先执行再做U；新geometry-first路径在完整原U/两Phi/两Atkin之后才返context。仅重排依赖，未删接受门，尚无新PASS。
 
 ## R915：实际连接整窗与原中央核的第二位
 
@@ -192,21 +192,21 @@ R913同一finite wild全层新增惰性位D_p loc raw=0，D_p=p^c_pD只固定每
 
 ## R920：完整首 Bockstein 核的真实三／四来源链
 
-[R920](results/R920-original-first-bockstein-kernel-and-short-euler-chains.md)一般原零纤维的K′=K∩ker完整β1：三首13带使前三实际行深J=T+13。δ∈[−13,−1]的真实相邻后继由2h<J迫a=0、H=EG；V0/V1同入VJ，K′∞=0。S=min(J,s−4)=T+11为原R821已付窗；五/六反门给真实三/四源链单射，3dimK′≤2nJ或4dimK′≤3nJ。全部q/U0/19角/同R,S保，固定P首修正差仍K1、不能自动换K′。
+R920一般原零纤维的K′=K∩ker完整β1：三首13带使前三实际行深J=T+13。δ∈[−13,−1]的真实相邻后继由2h<J迫a=0、H=EG；V0/V1同入VJ，K′∞=0。S=min(J,s−4)=T+11为原R821已付窗；五/六反门给真实三/四源链单射，3dimK′≤2nJ或4dimK′≤3nJ。全部q/U0/19角/同R,S保，固定P首修正差仍K1、不能自动换K′。
 
-- [R920 附A](results/R920-original-first-bockstein-kernel-and-short-euler-chains.md)同固定P的两完整p³解有β1(ΔR)=0；若ΔR真在j(H3)，四块等价才给ΔR∈j(K′)。固定一解且S在全原源格自由时，该R陪集内可延p³的类准确为R+j(K′)；S受限时只保必要式，未判p⁴。
+- R920 附A同固定P的两完整p³解有β1(ΔR)=0；若ΔR真在j(H3)，四块等价才给ΔR∈j(K′)。固定一解且S在全原源格自由时，该R陪集内可延p³的类准确为R+j(K′)；S受限时只保必要式，未判p⁴。
 
 ## R921：真实残余连接线与全局Bockstein读数
 
-[R921](results/R921-original-inert-residual-local-matrix-and-integral-bockstein.md)m≤e=v_p(q+1)时完整残余H¹有原整提升线L和H0连接线C。原j_*到Shapiro(U,S)矩阵diag(u,0)，corestriction为diag(0,1)；β_m(C)=−u p^(e−m) modh同构到整H²[p^m]，kerβ=BL。完整全局Bockstein的q定位准确读C坐标，原ordinary两p位H0=0；全素点/其它群环/wild均保。几何loc零只控L，未判原derived C/global/ordinary/s0。
+R921m≤e=v_p(q+1)时完整残余H¹有原整提升线L和H0连接线C。原j_*到Shapiro(U,S)矩阵diag(u,0)，corestriction为diag(0,1)；β_m(C)=−u p^(e−m) modh同构到整H²[p^m]，kerβ=BL。完整全局Bockstein的q定位准确读C坐标，原ordinary两p位H0=0；全素点/其它群环/wild均保。几何loc零只控L，未判原derived C/global/ordinary/s0。
 
 - R915附A：原Vc/Sc三角式给aj两位；新Lconn=2p²−2的严格LT窗已重付，同ψp/Φp modp⁵和原c lift均保，未延改R912旧窗或增中央零。
 
-- [R922](results/R922-original-primitive-middle-remainder-and-unchanged-coordinate-certificate.md)原对称Phi17差先真除x−v，各伪余式立即消系数content并全式复乘；次数严格降、一次即停。仅候选，仍须同eta48域两完整Phi/绝对支/两Atkin才认原U。新独立公开运行只付U，不冒正规化/RR/shadow，无PASS。
+- R922原对称Phi17差先真除x−v，各伪余式立即消系数content并全式复乘；次数严格降、一次即停。仅候选，仍须同eta48域两完整Phi/绝对支/两Atkin才认原U。新独立公开运行只付U，不冒正规化/RR/shadow，无PASS。
 
 ## R923：第四来源原全迹接口已补齐
 
-[R923](results/R923-original-v66-complete-boundary-trace-and-fixed-denominator.md)：原V66在共同E17模型的完整因式给固定分母D66=154224，保−17/11物理缩放、原绝对根与全部Hall/Galois相位。完整全迹有3/4+o(1)高度，非零赋值同界；原首边界零恰等价约3p/4个Gaussian块的模p前缀全零。四来源的全迹接口均有，中央零到边界零及无穷p联合非零仍开。
+R923：原V66在共同E17模型的完整因式给固定分母D66=154224，保−17/11物理缩放、原绝对根与全部Hall/Galois相位。完整全迹有3/4+o(1)高度，非零赋值同界；原首边界零恰等价约3p/4个Gaussian块的模p前缀全零。四来源的全迹接口均有，中央零到边界零及无穷p联合非零仍开。
 
 
 ## R928：固定原P的实际仿射类
@@ -236,3 +236,5 @@ R913同一finite wild全层新增惰性位D_p loc raw=0，D_p=p^c_pD只固定每
 [R933](results/R933-original-first-frobenius-coefficient-and-sixth-gaussian-block.md)原σ倍点以单位64^p−4从严格<p的同f/W、pc及Q_p(2)直接恢复实际f_p；四真实第六块完整返回。R615的Wp=1/35只引用，旧Cartier模型差不重登。中央仍需真实L5 modp7后除p6，R929两位不足；−9/35不能脱离原S/U低卷积与carry作矛盾。
 
 [R925§22](results/R925-original-ys-affine-rings-and-complete-divisor-ideals.md)：三个已审优化实际接源，31份host/producer清单全等；原请求推进完整shadow，旧运行保来源继续，新增完整closed/local门并行。仍逐层实际支付全部图、极理想、四E和全Tate迹，未冒新PASS或接入未完成的R931路径。
+
+[R934](results/R934-original-fixed-quartic-entire-affine-branch-pair.md)：同P负fringe整个J双jet恰为(−B|C,−11t^(r_src−2)w^(−s)F(t,g)^4/a−EB|C)，原ξ经完整逆Taylor退出；B由固定P/R_b两条真除p支读数确定，不能默删。真全局左行的forcing至多15项，B∈H3分支τ0/1被低行排除、τ≥d0+2双jet类零，其余至多13项仍须实际像判定。

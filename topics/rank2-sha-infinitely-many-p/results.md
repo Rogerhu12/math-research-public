@@ -448,3 +448,5 @@
 - [R933](results/R933-original-first-frobenius-coefficient-and-sixth-gaussian-block.md)：同原σ倍点的单位方程64^p−4从严格低f/W/pc/Q₂恢复实际f_p，四指定第六块准确可读；旧Wp首位/Cartier差只引用。中央真L5/p6仍需L5 modp7，未由两位数据、固定−9/35或低卷积形式推非零。
 
 - [R925§22](results/R925-original-ys-affine-rings-and-complete-divisor-ideals.md)：三个已审优化实际接源，31份host/producer清单全等；原请求推进完整shadow，旧运行保来源继续，新增完整closed/local门并行。仍逐层实际支付全部图、极理想、四E和全Tate迹，未冒新PASS或接入未完成的R931路径。
+
+- [R934](results/R934-original-fixed-quartic-entire-affine-branch-pair.md)：同P负fringe整个J双jet恰为(−B|C,−11t^(r_src−2)w^(−s)F(t,g)^4/a−EB|C)，原ξ经完整逆Taylor退出；B由固定P/R_b两条真除p支读数确定，不能默删。真全局左行的forcing至多15项，B∈H3分支τ0/1被低行排除、τ≥d0+2双jet类零，其余至多13项仍须实际像判定。
