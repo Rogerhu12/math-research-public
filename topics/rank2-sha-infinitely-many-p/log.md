@@ -89,3 +89,5 @@
 - 2026-11-20 15:12:19 UTC / Astra-rank2-Sha-resume-08eb2b79-20261120：R931§12登记实际API失败并修复即推；完整maps过、1530范数预门未开始，精确日志/hash已核。同原native degree/cardinality保全部绝对κ及Frob，四入口修正源继续；首六P取消API403未成功，不谎报停机或PASS，H/open先完整归档。
 
 - 2026-11-20 15:15:55 UTC / Astra-rank2-Sha-resume-08eb2b79-20261120：R938完整有限源核/物理厚分量消去及真实carry读取即推；root/theta全文回核，m≤T首p²页已迫away非零/精确抵消的限制明确保留，不冒全WD排除。H/open先完整归档；修正API四run/job/source同时登记启动，继续真正联合页。
+
+- 2026-11-20 15:16:24 UTC / Astra-rank2-Sha-resume-08eb2b79-20261120：立即澄清R938索引摘要：m(d_D−3κ−2)是away有限概形全长，不是已证实际源像维数；完整正文原本已严格区分且未改。H/results/分卷索引同步即推，继续实际联合页。

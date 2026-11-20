@@ -481,4 +481,4 @@
 
 - [R931§12](results/R931-original-complete-shadow-artinian-norm-and-base-prime-layers.md)：实际Artinian在完整maps后触Sage10.6原Givaro缺absolute_degree；修同域degree+card=p^degree并保全κ次数/双向嵌入/Frobenius。基础/闭点/Tate与四入口源hash、失败日志和取消403记录齐；新来源独立继续，无预填范数或shadow PASS。
 
-- [R938](results/R938-original-full-source-finite-offsets-and-affine-carry.md)：原jH3+D2/D3准确为全Z_m限制核；四低门消物理2m厚分量，余away实际像长m(d_D−3κ−2)，真行下降且合法lift不变。实际原carry仅≤13/≤12位进入；m≤T时已有第一p²修正反迫beta3非零及单位精确抵消，不误当全源排除，保K2/受限S联合门。
+- [R938](results/R938-original-full-source-finite-offsets-and-affine-carry.md)：原jH3+D2/D3准确为全Z_m限制核；四低门消物理2m厚分量，余away有限概形长m(d_D−3κ−2)，只取实际源像而不认其维数等于全长；真行下降且合法lift不变。实际原carry仅≤13/≤12位进入；m≤T时已有第一p²修正反迫beta3非零及单位精确抵消，不误当全源排除，保K2/受限S联合门。

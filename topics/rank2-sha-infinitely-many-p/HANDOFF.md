@@ -5,7 +5,7 @@
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近实际部分克隆/pull及已读规则提交：`1311116a5c4d56984d185a4b30f7e53d484b7fbc`；2026-11-20 15:16:03 UTC 实际pull --rebase，两README相对ca7ac6a6差异为空；下一次最迟一小时内。
+- 最近实际部分克隆/pull及已读规则提交：`89e7b8beff1fd18fa3269d7e7fce37f0917bb2b1`；2026-11-20 15:16:27 UTC 实际pull --rebase，两README相对1311116a差异为空；下一次最迟一小时内。
 - 仅写公开main；每条完整结论即提交，推前pull --rebase；非快进循环，不强推、不存令牌。数学只在公开Actions执行；重算输出不入库/Release、不分块，只存源/args/run/hash。
 - H<10KB、MD<100KB、open尽量<30KB、文件<5MB、题≤200MB；log每轮≤5行，不写根LOG。规则已读未变。
 
@@ -73,4 +73,4 @@ R925§25.1六P30源入口run44759336052/job136367382447/sourceda34ea30a于15:02�
 
 R931§12修正source3a7bbe995的四入口15:12 UTC均已运行：六P44761009320、Artinian44761009090、Tate44761009050、closed/local44761008940；全部job与完整source见原节，无新PASS。
 
-[R938](results/R938-original-full-source-finite-offsets-and-affine-carry.md)：原jH3+D2/D3正是全Z_m限制核；四低门杀物理长2m，只余全away真实像，长度m(d_D−3κ−2)。行下降及合法lift不变齐。§9精确读实际≤13/≤12位carry；m≤T时若第一p²修正存在，它已迫ell3(beta3)=c2≠0，不能再借同页消零。K2不变/受限S及联合后页保。
+[R938](results/R938-original-full-source-finite-offsets-and-affine-carry.md)：原jH3+D2/D3正是全Z_m限制核；四低门杀物理长2m，只余away的真实源像；有限概形全长m(d_D−3κ−2)，不认像维等于全长。行下降及合法lift不变齐。§9精确读实际≤13/≤12位carry；m≤T时若第一p²修正存在，它已迫ell3(beta3)=c2≠0，不能再借同页消零。K2不变/受限S及联合后页保。
