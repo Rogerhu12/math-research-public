@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R138真实根锚定的局部漂移与容量](results/R138-supplement-root-anchored-local-drift-and-capacity.md)：辅助flow在真r*取恒等初值，根接收配对无需再作density变换，能量仍完整付sqrt(Gammaloc)；actual Theta/source mean、旧rE/rB及QH尾不删。与独立旧全域body估计可并用，局部D/Gamma两scalar仍未求；仅新解析接收器，非根门或全逆。
+
 - [R138原Gamma的谱闭行预算仍排除](results/R138-supplement-actual-old-Gamma-spectral-box-budget-excluded.md)：原positive第1000行已选预算迫Csp>11，既成X/Y球给aEEsp>918705/2500000；RS完整T<125使原Γ根费>4121504/2500000，和>2。只排该box算法和原Γ组合，不授真实谱范数下界或BVP奇异；无新科学，不运行这条已排配方。
 
 - [R138互补Gram的准确谱体预算](results/R138-supplement-complementary-Gram-spectral-body-energy.md)：原p=1/q=K梯度Gram可用准确最大特征值替代trace和，保完整H/mean/真实角与旧body范数；同闭行η端点的Loewner凸包给新算法，只消费旧完整背景。新谱常数尚未求值，原Γ组合另有必要筛查，不授根门或逆，0科学。

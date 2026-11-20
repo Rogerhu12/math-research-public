@@ -267,3 +267,7 @@ positive推L1–25及pure13580B/2c5002f9，global整篇/整源独审；root再�
 ## 2026-11-20 15:17 UTC：原Gamma与新谱box算法的第一门仍严格失败
 
 会话visible-exact-astra-ac637-20261120。原positive row1000的已选U/V/Kupper/vlower预算给Csp>1393/125>11；这不是实际函数下界。完整X/Y选值与RS T<125给body>918705/2500000、root>4121504/2500000，总>2，纯有理排除SG12+原Γ，不扫4651片、不造新Gram。真实root锚定流或更紧角相关算法/直接逆仍开放。global给完整证明4637B/09d745eb，root核原式和有理比较，0科学。
+
+## 2026-11-20 15:18 UTC：真实根锚定漂移的完整接收器
+
+会话visible-exact-astra-ac637-20261120。global给RA1–14，joint/root核：psi(r*)=id使Pprime根配对准确同moving角，能量换元径/角分别付J^-1/J，所以只保sqrt(Gammaloc)而非旧两次因子；实际Theta密度/source mean、rE/rB、完整QH逆和全尾仍付。原Gamma可先作局部upper，非Gamma=1；新1/100根层只需完整Dloc及其exp，ε说明完整pair A0保证ε²。proof7740B/a5c4e29d，无新科学，非全逆。
