@@ -21,6 +21,8 @@ R925（r2/8）与R940（r32）已保完整Norm先消、原calibrated log、全�
 
 [R954](results/R954-original-odd-sigma-and-conductor-two-s-CM-evaluations.md)已为互补g族定源：conductor(2s)的正CM H_(6j+2)，W_k(τ′)=H_k(Q)，在同mark上Dmark=[W_(6j+2)/(η⁴E6^j)]mark=(6j+1)!g_j(−864)^−j，A_(6j+2)=(−108)^j Dmark。Wagner Prop4.5及4.1–4.2的符号、完整格乘子、有限角色与η⁴基标量均已核。对原h=6i+7、i+j=N−1，fi gj=24(−864)^(N−1) C_(h−3)^mark D_(p−h−2)^mark/((h−3)!(p−h−3)!)；这两评价家族不是R913的原两权。联合非零仍必须保同h的Legendre及本原性。
 
+[R957](results/R957-original-Legendre-filter-as-a-fixed-pole-CM-convolution.md)已闭合上述两家族的共同正CM格点与全尺度。原Legendre角平均的p−7矩准确等于s^−3 Δ^((p−13)/2)K6，Δ=(α/s,β)上的固定二次式，K6为显式六次式；来源是Y²=(t−3)(t+1)上两个七阶极点的完整Cartier留数。实际λ⁴本原平均和原oldform的−s系数保留，最终marked quotient polynomial的每项恰单位乘1_(gcd(h,p+1)=1)P_(h−1)(1/s)fi gj。普通卷积/旧primitive投影仅复用，不重复登记；新增固定极阶核仍不能排整theta求和及原mark上的消失。该完整marked polynomial非零现在就是同h三因子的准确等价目标，取C=1的单和非零只为充分条件，零不证明多项式零。
+
 可继续的实际选择是：证明充分大p有某一原本原h的共同单位，或将真正更高原系数用于原global约束。R891的完整六挠基除子和R855/857的成长次数界均已登记，不能用高顶项单位冒固定低jet。
 
 ## O2：完整原超奇异迹及真正的whole CM packet

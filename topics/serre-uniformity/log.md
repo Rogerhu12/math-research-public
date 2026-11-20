@@ -678,3 +678,7 @@
 ### 2026-11-20 19:11 Asia/Taipei — serre-public-astra-20261120-de0a3e3b
 - R955在实际两δ/同一H6源证明CM Cartier nilpotent部分恰单奇链；先U5再Cartier Fitting，完整kernel与原λ分别控制链底/顶，原所有Norm与半线性保留。
 - 原全trace非零恰链长1，失败恰存在反角色Cartier前像、最短长3；未排更长链，继续原几何极点与联合单位。
+
+### 2026-11-20 19:18 Asia/Taipei — serre-public-astra-20261120-de0a3e3b
+- R957完整把原同h Legendre滤子接到两正CM格点源，七阶conic极点给明确六次K6，primitive λ⁴、−s oldform及全部mark商常数保留；六步递推和留数root已手核。
+- 全marked polynomial非零仍是准确缺口，不用单summand/Fourier非零替代；H前态逐字归档以续保尺寸，既有数学不重做。

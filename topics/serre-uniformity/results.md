@@ -54,6 +54,8 @@
 
 - **R955（实际CM nilpotent部分的单奇链定理）**：[原Cartier单奇链与准确前像判据](results/R955-original-Cartier-nilpotent-packet-is-a-single-odd-chain.md)。从完整U5零primary及Cartier Fitting出发，用R952全kernel与R918/R942完整低权空间得kerC=kF；原λ杀两个可逆部分、在coker非零。故实际CM nilpotent部分恰一条L=2m+1链，原trace非零 iff L=1；失败 iff原W^-中有Cω=Φ_w(F)，最短坏链3。两δ在同一原H6、共轭仅中间mark，Norm与半线性全保；未排m≥1或证明whole饱和。SHA256 d4b1a6d4408c0ed7f51781188611c9b14adae46217dc756e7d6f28e82faf80f7。
 
+- **R957（原Legendre滤子的固定极阶CM卷积核）**：[原同标签完整滤子与CM卷积](results/R957-original-Legendre-filter-as-a-fixed-pole-CM-convolution.md)。两Jacobi族同一正CM格点保原−s oldform系数；p−7角矩标记值准确为(3/2)(p−7)!·(−864)^(1−N)乘Σ(6i+4)fi gj C^(6i+3)。原Legendre平均在conic上化成七阶极点、显式六次K6与Δ^((p−13)/2)，全部退化值由多项式恒等式覆盖；λ⁴平均保完整本原mask。原三个因子同h非零等价所得marked polynomial非零，但该非零仍未证。SHA256 b9583df8363c0b9c4324ba43160e4756111cdcca20e74fca83e4ffddb84bd2be。
+
 ## 当前原高度、函数与同标签接口
 
 - **R808（已证明）**：[原cuspidal Gram商与真实period/split/Howe链](results/R808-original-cuspidal-Gram-quotient-and-Howe-chain.md)。R727全部群元素的整Gram把原轨道格非退化约化商准确识别为Sym^(2r)det^(−r)，r=min(h−1,p−h)；原e0、Frob-Hermitian、Tζ平均像和N_h同时运输。位置Cartan与链内SL2严格区分，链中心规范与Hasse连接准确匹配；实际sigma原单项式仍经Kraw混合，同h配对非零未得。 SHA256 c24889c8d8407447dc38e14b583d002c289697b1b75376af7ea5348c4f6a03db。
