@@ -157,3 +157,5 @@
 2026-11-20 15:11 UTC / Astra-larger-resume-24b2ab87-20261120：公开pair02真实exit0/436.65s，两全256方向同父/源/初始工作点均半步接受：.992 d5d8284 Phi9.55923e−8/max.0126118/product.99195008，.998更小Phi但余量更少；优先.992续算，不移用c4a3几何。真实公开日志确认R67102已起且自然返、旧95KB renderer发布失败，未知终值不冒成功/未启动；新分卷run44758209061继续。
 
 2026-11-20 15:19 UTC / Astra-larger-resume-24b2ab87-20261120：新公开run已返6阶段、def1运行，非管线停滞。刊两完整元数据mu入口并优先排全位置排版压紧→R6711方向→原.992六方向(qp-atol0/256预算)，真父SHA与coarse终mu绑定，不抄旧run数值；全变量/全部原Gauss行/永久点保，连续证书不继承。
+
+2026-11-20 15:22 UTC / Astra-larger-resume-24b2ab87-20261120：R674新连续first/K与抵消保持relative-Gram两完整源刊；同canonical模型/原整数a,I/逐阶Taylor余项/全部Laurent尾，q+profile先合并，lambda1 eta1共同f²−A²准确消去，rho在相对角误差先约。只源码/AST，无本地science；分卷job已排实际R671全胞首几何，不抄旧场证书或预付reach/metric。
