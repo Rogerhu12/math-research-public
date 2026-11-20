@@ -1,12 +1,12 @@
 # 交接：可见振幅的精确闭等距族
 
-维护会话：`visible-exact-astra-ac637-20261120`；更新：2026-11-20 11:04:50 UTC。
+维护会话：`visible-exact-astra-ac637-20261120`；更新：2026-11-20 11:06:07 UTC。
 **总任务未完成；继续研究，不等用户回复。**
 
 ## 规则读点与接续来源
 
 部分克隆：`/workspace/scratch/ac637cfcc78d/math-research-public`。终端 git 已恢复，无 AGENTS。
-2026-11-20 11:04:50 UTC 实际pull/rebase至 `be4bc68818e15266a9c3ae67e45d57da937424dc`；已读规则提交同上，两README相对96edc6770空diff。每次pull后核规则差异；下次实际pull最迟12:04:50 UTC。
+2026-11-20 11:06:07 UTC 实际pull/rebase至 `a5120c6a294950c69bfa67d515d494298fcd611c`；已读规则提交同上，两README相对96edc6770空diff。每次pull后核规则差异；下次实际pull最迟12:06:07 UTC。
 
 接手前完整 H（含全部递归原页、成功/失败/恢复身份和未付义务）见 [2026-11-16 完整检查点](https://github.com/Rogerhu12/math-research-public/blob/882aa9b74efeaac682df43c197820e7280156357/topics/visible-flex-exact-nearby/HANDOFF.md)。本页只压缩索引；`open.md` 及所链接的原证明、适用域、均值、物理角、所有边界和误差费用继续有效。旧成功结论不重算。
 
@@ -57,7 +57,7 @@ geometry `43584188751/26` **仅条件性**：同η0真 wholecore（含帽）C0�
 
 readonly44712172133/1成功（60 current/23 AST/21原件/18门，0科学）；旧43921663540/1为0科学运维失败，两份完整回执保在 `notes/collar_volterra_dual_readonly_ci/`。恢复/执行用 `fourfold_codazzi_collar_volterra_dual_public_worker.py`；各新源码、完整清单与适用域见result/manifest，21原件与29整球只读恢复，旧producer不调用。graph4最终版尚未launch。
 
-1. 原L三量v3 44723722475/1失败0scalar（sqrt非负球表示）。[正乘积修复](results/R139-supplement-directed-upper-products-for-complete-Green-comparison.md)已证，assembly af84dcfd；reference e57、原owner/3目标/参数不变，待新marker续算。`joint_kernel` R140已登记，审R141并补whole-box指数因素；原50条仍0。
+1. 原L三量v3 44723722475/1失败0scalar（sqrt非负球表示）。[正乘积修复](results/R139-supplement-directed-upper-products-for-complete-Green-comparison.md)已证，assembly af84dcfd；reference e57、原owner/3目标/参数不变；v4 72输入/SHA382cbdc9新marker首次续算。`joint_kernel` R140已登记，审R141并补whole-box指数因素；原50条仍0。
 2. `positive_inverse` 的低193/97 scaled续算44721851908/1已success：155panel/1424各向步/156分界，根全收据已核并登记，成功冻结；非真实逆。原失败prefix保。R141双侧Green首次严格认证继续，CFB/mean/实际family仍付。
 3. `global_route` 已完成几何桥/旋转能量、actual support与outer负型；继续真实inner low96/high stable/mean边界及体残差吸收，不能把stable行当c=0。R135/R520不替验收。
 4. root维护git与记录；L三次失败均0scalar全保，旧endpoint第139panel超256步/0传播失败全保。atom未排除、scaled结果已成冻结；原L三量与50条仍0。代理不动git。

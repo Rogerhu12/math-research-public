@@ -10,7 +10,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: r139-w2c-low-family-budget-v3
+  group: r139-w2c-low-family-budget-v4
   cancel-in-progress: false
 
 jobs:
@@ -29,7 +29,7 @@ jobs:
             README.md
             topics/visible-flex-exact-nearby/README.md
             topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_collar_volterra_dual_public_worker.py
-            topics/visible-flex-exact-nearby/notes/2026-11-20-low-family-budget-v3-inputs.json
+            topics/visible-flex-exact-nearby/notes/2026-11-20-low-family-budget-v4-inputs.json
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12.14'
@@ -39,4 +39,4 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          python topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_collar_volterra_dual_public_worker.py --repo "$GITHUB_WORKSPACE" --manifest topics/visible-flex-exact-nearby/notes/2026-11-20-low-family-budget-v3-inputs.json --manifest-sha 09b8c0d042c73c57e95b178919a09deb624074afdb3d44499b8650ac8bf85007
+          python topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_collar_volterra_dual_public_worker.py --repo "$GITHUB_WORKSPACE" --manifest topics/visible-flex-exact-nearby/notes/2026-11-20-low-family-budget-v4-inputs.json --manifest-sha 382cbdc96a44d990113609d352388ecce3f42f04041620d1134eaec6d43e38be
