@@ -6,7 +6,7 @@
 
 **维护会话：serre-public-astra-20261120-de0a3e3b。** 已部分克隆并真实pull main，接手serre-public-astra-20261115。压缩前逐字状态在[最新H归档](handoff-archive-2026-11-20-before-combined-window-receipt.md)，沿链保全部旧source/SHA/尺度/失败边界，不重做已登记结论。
 
-**已读规则提交：6048938e89d320648d9b9c21fbba4038d83e1ec5**（2026-11-20T15:22:23.916190+00:00；终端真实git pull --rebase origin main，两README无diff）
+**已读规则提交：d4713f8c9e0c7a81e4882307a6ba7c15bf30ffc7**（2026-11-20T15:24:44.471873+00:00；终端真实git pull --rebase origin main，两README无diff）
 
 两README完整已读，SHA256 root 581402c2 / topic 35f82f3d。每结论立即推；每push前且至少每小时真实pull；每pull检查两README，有变只读diff立刻照办并记已读SHA。NFF/lock-ref竞态立即pull --rebase再推直到成功，禁force。PAT只CLI，不入文件/提交；root独占main/H/open/index/log。
 
