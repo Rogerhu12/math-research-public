@@ -287,3 +287,5 @@
 - [R676：固定同一度量的符号网格／频率精化与完整观察迁移](results/R676-fixed-metric-refinement-and-complete-observation-transfer.md)：已证明原／固定 R671 模型的准确符号二分、quintic 嵌套与频率补零；实际 binary 新 jet 单独支付向外六 jet 差界，同 FullHold 原 oracle 重新取全部新点，保留全部旧残差正权及永久位置，另读共同父 grid 比较。提供 Actions-only 完整 fine QP 桥，精确位置键不再 round13；尚无本条新数值应用，不把转移、跨层异权 Phi 或一次求解冒充同 g 误差收敛。
 
 - [R677：低阻尼固定面CG、原步度量及可靠残差刷新](results/R677-low-damping-fixed-face-CG-and-reliable-updates.md) — 同完整QP的可行下降/相邻H共轭证明，独立v3保原目标与释放、每32真残差替换且无强制重启；额外成本透明，正确PCG/半步锁mu边界齐，尚待真实归因选择应用。
+
+- [R675补充：非零解析尾的零高度角模非平面证明](results/R675-nonzero-analytic-tail-zero-mode-corollary.md) — 同场嵌入加FullHold非恒多项式角，利用cosine非有理性排除水平开片；独立v2保准确高Z与解析尾两种覆盖，不继承旧证书，尚未运行。
