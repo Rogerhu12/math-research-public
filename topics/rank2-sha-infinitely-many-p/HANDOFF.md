@@ -5,28 +5,25 @@
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近实际部分克隆/pull及已读规则提交：`f3f97ef15421abb344e1f7a73c7215117bd9f5c1`；2026-11-20 12:10:26 UTC 实际pull --rebase，两README相对42df4f45差异为空；下一次最迟一小时内。
+- 最近实际部分克隆/pull及已读规则提交：`f343e6cf1ea9f9d4c3869809e303cc85a3f2050d`；2026-11-20 12:13:00 UTC 实际pull --rebase，两README相对f3f97ef1差异为空；下一次最迟一小时内。
 - 仅写公开main；每条完整结论即提交，推前pull --rebase；非快进循环，不强推、不存令牌。数学只在公开Actions执行；重算输出不入库/Release、不分块，只存源/args/run/hash。
 - H<10KB、MD<100KB、open尽量<30KB、文件<5MB、题≤200MB；log每轮≤5行，不写根LOG。所有旧授权/规则已读，未变化。
 
 ## 完整检查点与当前分工
 
-[最新完整H](notes/2026-11-20-handoff-after-all-six-thick-cusps.md)逐字保全部旧条件、源/run/hash及归档链；入口results.md、notes/PROOF-INDEX-R901-R950.md、open.md。root唯一metadata/ref写者；deep做原环快速乘法，global做同原consumer桥，theta做完整闭点/局部参数与共零值，root整合公开门。四主门均保留；R364/R561/R654/R712及主目标仍开。
+[最新完整H](notes/2026-11-20-handoff-after-original-consumer-request.md)逐字保全部旧条件、源/run/hash及归档链；入口results.md、notes/PROOF-INDEX-R901-R950.md、open.md。root唯一metadata/ref写者；deep做原环快速乘法，global做同原consumer桥，theta做完整闭点/局部参数与共零值，root整合公开门。四主门均保留；R364/R561/R654/R712及主目标仍开。
 
 ## 第一门：同原映射、完整函数环与原shadow
 
-原Z角色/Euler/period/端点/R831符号不变；7993只检测canonical。R858/859整shadow/固定ell检测不跨无穷p或ordinary。
-- 原F/P特征零均完整认证：F见[R909§7](results/R909-original-F-small-prime-and-compatible-dixon-continuation.md)，全部1429行/QQ/原支/0..6120；P见[R906§8](results/R906-original-P-small-prime-and-compatible-dixon-continuation.md)，全部1226行/三根/3168QQ/原支/0..4284。原u/λ/vnew/微分/∞O/整Hecke返回17保；dF≥1080、不猜精确degree；完整source/run/job/hash见原节及最新完整H。
-- 旧函数域正规化/RR路线均无完整PASS，全部原306/eta48/fricke/tate/R910/R919/R922卡点与源见[实际续接注](notes/2026-11-20-old-job-outcomes-and-exact-P-certificate.md)。quotient-only run44713040079/job136209307176仍运行，原D/九cusp/Au/Av/branch/D0未付；t-adic U的4096精度上限已结束无候选，不作非存在结论、不盲目重复。
-- [R924](results/R924-original-section-divisor-algebras-and-shadow-interface.md)§11–15均实际PASS：原TUV三核20；DS全204维/51二次双点；36base cusp；Y全666格/三退化各120/ys核360；DS三222/102/204及T=−27；vF/三Yi同次分式全核144/152。原u/ω/j^m/S³/Artin(2,0,1)保；全部run/source/hash见原节及最新完整H。
-- [R925](results/R925-original-ys-affine-rings-and-complete-divisor-ideals.md)§12原完整环PASS：run44724912327/job136249752863/sourcefea36d7d8，h0..4=1,2,68,360,666，306基权数1/65/226/14，全46971乘积/双图表/真实单位过；592.379s，result473e35bc…7188c。2453精度保全W8，不外推r41。
-- §12.1固定Sage多项式饱和核/Hermite API PASS（run44726729229/job136255921243）；§14六厚cusp PASS（run44726729349/job136255921310/source155a07fd）：六全289幂基/666坐标，18Fp闭点/108几何点/1836长度，759.772s，result0ebfe876…02b50。Fp²仍须按原ω分为度1,1,8,8。
-- §6–7及13已证完整norm早停/同原最大理想身份/真实κ嵌入/任意阶共零局部值；§15原表全系数收缩保两图表与原域。对应源码已独审，§16原Fp²的π/π²全primary、真实612×306整零极核与八点共零值已请求：run44730598782/job136269050475/source135a0835a运行中。§17原完整consumer桥/trace已全文独审入库；§18同进程原cube→紧缩→完整环→maps请求run44732115204/job136274270348/source192c28161运行，保geometry/E/shadow后续完整层，均未冒新PASS。§19原权给floor(306W/d)和完整q幂自适应局部阶法已证，候选实现续接。
-- [R926](results/R926-original-cube-roots-in-sections-and-complete-identities.md)全低核2313/1429及全局恒等门6941/4287已证，保同原M2基2725/6941、S³、原ω/首项。§8原cube实际PASS：run44728285578/job136261182683/source17ea1c0ce，699.266s，result0ca08546…ed19d；全核900/280/278/278与全部高窗过。§9严推原根极次240/452/454/454，§10同L最小权恰2/3，完整紧缩helper三审接入，待新公开门，不代yF的dF。
+原Z角色/Euler/period/端点/R831符号保持；7993仅canonical，R858/859固定ell shadow不跨无穷p/ordinary。原u/λ/vnew/微分/∞O/整返回17、三退化j^m/S³/原ω/Artin(2,0,1)全保。
+- 原F/P特征零完整PASS分别见[R909§7](results/R909-original-F-small-prime-and-compatible-dixon-continuation.md)、[R906§8](results/R906-original-P-small-prime-and-compatible-dixon-continuation.md)：全1429/1226行、QQ/原支及0..6120/4284均付，全部run/source/hash见原节/完整H；不猜Manin1或约化精确dF。
+- 旧306/eta/fricke/tate/R910/919/922卡点全见[续接注](notes/2026-11-20-old-job-outcomes-and-exact-P-certificate.md)。quotient-only run44713040079/job136209307176仍运行，原D/九cusp/Au/Av/branch/D0未付；t-adic U仅4096上限无候选，不作非存在结论、不盲目重跑。
+- [R924§11–15](results/R924-original-section-divisor-algebras-and-shadow-interface.md)全部实际PASS：TUV、DS全204/51二次双点、36base cusp、Y全666/三退化120/ys核360、DS真实TUV值、vF/三Yi全核144/152；全部原点身份/非约化结构保，完整回执在原节。
+- [R925§12–19](results/R925-original-ys-affine-rings-and-complete-divisor-ideals.md)：原306整环（run44724912327）全46971乘积/两图表/单位已PASS，h0..4=1,2,68,360,666，14个权4元保W8；固定Sage整核/Hermite API及六厚cusp（run44726729349）也PASS，全289幂基/666坐标/18Fp闭点/108几何点/1836长度齐。Fp²分裂度1/1/8/8、π/π²全primary、612×306核及八点共零值尚在run44730598782/job136269050475/source135a0835a。完整κ/任意共零、原表系数收缩及全consumer桥/trace均独审；§19权界floor(306W/d)与真实q幂自适应法已证、候选未跑。
+- [R926§8–10](results/R926-original-cube-roots-in-sections-and-complete-identities.md)：原RF6941/三Ri4287全局身份与核900/280/278/278实际PASS（run44728285578/source17ea1c0ce），同M2高窗/原首项/ω均保。严推根极度240/452/454/454及同L最低权2/3；紧缩全低核与R8/R7交叉仍待新实际门。原cube→紧缩→306环→完整maps同进程请求run44732115204/job136274270348/source192c28161运行，后续geometry/四E/全trace未冒PASS。
+- [R927](results/R927-original-yF-pole-degree-from-mixed-kernel-and-cusps.md)：原混合核144严推D′度180，给dF=1080+全部原尖点修正及ξ0/∞有限读数门；尚未填精确dF。
 
-[R927](results/R927-original-yF-pole-degree-from-mixed-kernel-and-cusps.md)由原混合核144严推D′度180，给dF=1080+全尖点修正及ξ0/∞有限读数门；未填精确dF。
-
-R880/883全18×9/双轴/原A,C/四完整交除子00/01/11/12及返回保；Norm含ell²已过。四大交除子与原shadow仍未算：真实成本2256+r*dF或2256(r+1)，全部闭点度数/非约化长度/无穷边界/Artin不删。原AJ非零仍不替无穷p/ordinary桥。
+R880/883全18×9/双轴/原A,C及四完整交除子00/01/11/12保持；Norm含ell²旧回归已过。四大交除子和原shadow未算，完整成本2256+r*dF或2256(r+1)，全闭点度/厚长度/无穷边界/Artin不删。有限AJ非零不替无穷p/ordinary桥。
 
 ## 第二门：原全局底、ordinary与增广阶
 
@@ -39,7 +36,7 @@ R893只在c1非零前提给原本原D=UZ°、Uunit、ccan=H Dfun D、Ccan=H Dfun
 
 S34/T72/U136/V66、CM13/Euler/Schwartz/p²p³与通常全Selmer不变；固定E−11 rank≥2已付，仍缺同一无穷p集的原J′非零。C24三行/c*全保；R863/876/879/884的低配对保特征零Ĉp/DR3/Γ16/Fermat，质量unit不替四B非零。
 R887全原运输/α/五窗、C³η[2]=−α^(1/p³)rω及实际带权伴随/DRν保；L^p=V^pL和质量再Cartier零不能删四方向。R912原[p]的全2p²−p−9窗/p⁵代入/原除p²后p³，完整V⁶Vc^(−m)R^(−m)Pν与两位输入均已付；仍缺中央零⇒全部边界零。
-[R915及附A](results/R915-original-connection-integral-window-and-second-digit-kernel.md)保原ζ严格2p²窗的分母相消、实际aj整、全i中央核εm,i∈1+p²O及模p³修正binom(i+2,2)a1/(mc²)，a1=2[z^(2d)]log(σ/z)。新Lconn=2p²−2严格重付；同ψp/Φp modp⁵读全aj modp²，原Vc/尾/regular不删，不改变R912旧L。
+[R915及附A](results/R915-original-connection-integral-window-and-second-digit-kernel.md)保原ζ严格2p²窗的分母相消、实际aj整、全i中央核εm,i∈1+p²O及模p³修正binom(i+2,2)a1/(mc²)，a1=2[z^(2d)]log(σ/z)。新Lconn=2p²−2严格重付；同ψp/Φp modp⁵读全aj modp²，原Vc/尾/regular不删，不改变R912旧L。附B新付连续整窗j<N=p(p−1)，首a_N赋值−2且p²a_N≡−pc，全长反馈保Vc；新输入p³−p未沿用旧p⁵恢复。
 [R923](results/R923-original-v66-complete-boundary-trace-and-fixed-denominator.md)补全V66 Hall迹与固定分母154224，原Galois/物理−17/11保。连R707/708的m34/72/136，四来源全迹工具齐：非零迹赋值≤3/4+o(1)，边界零iff约3p/4个原Gaussian块modp全零。真实z^(dh)=w^(sh)窗仍O(p²)，五块不替全窗；原中央只给保真实除p商的部分和，中央到边界及无穷联合非零仍开。
 
 ## 第四门：同P/R/S的真实forcing

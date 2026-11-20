@@ -420,3 +420,5 @@
 - [R925§19](results/R925-original-ys-affine-rings-and-complete-divisor-ideals.md)：同原两图表权W给准确局部阶上界floor(306W/d)，d为完整原常数域次数；倍增/二分全部q幂成员后核q^v及q^(v+1)，可省逐元完整主理想而保任意共零，尚未登记新运行。
 
 - [R927](results/R927-original-yF-pole-degree-from-mixed-kernel-and-cusps.md)：r29原F完整混合核144严格给D′=(Pole(vF)−3DS)+的度180；原yF极次数为1080加全部36几何尖点的准确闭点修正，原π2三条e2支/剩余域全保。ξ0/∞两原纤维提供有限读数门，精确dF及完整pole仍待。
+
+- [R915附B](results/R915-original-connection-integral-window-and-second-digit-kernel.md)：同原ζ归一化Lucas保全部进位，使a_j整的连续终点准确为N−1=p²−p−1；v_p(a_N)=−2且p²a_N≡−pc。全C_r,k三角式与两位反馈保原Vc，输入窗p³−p须实际重付，不冒中央非零。

@@ -184,7 +184,7 @@ R887(116a)进一步准确给C(Hω)=0及C²(𝔄Faω)=0：rω=(1/3)dlog y与[G]_(
 
 ## R915：实际连接整窗与原中央核的第二位
 
-[R915](results/R915-original-connection-integral-window-and-second-digit-kernel.md)原ζ在严格2p²窗的全部p分母经Lucas/同LT微分相消，实际a_j整(1≤j≤2p−3)。全i中央核ε_m,i∈1+p²O，准确模p³修正binom(i+2,2)a1/(mc²)，同a1=2[z^(2d)]log(σ/z)；原全尾/regular补项/四来源及R708真O(p²)窗保，未推中央零到边界零。
+[R915](results/R915-original-connection-integral-window-and-second-digit-kernel.md)附B将原a_j连续整窗准确推到j<N=p(p−1)，首a_N赋值−2且p²a_N≡−pc；全C_r,k/两位反馈保原Vc，长输入p³−p须重付。旧全i单位核1+p²及binom(i+2,2)a1/(mc²)不变；四来源/regular/真除p商均保，中央→边界仍开。
 
 ## R913：完整finite wild惰性局部零及同格除T
 

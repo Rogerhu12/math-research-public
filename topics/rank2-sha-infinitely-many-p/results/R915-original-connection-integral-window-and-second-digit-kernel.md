@@ -1,6 +1,6 @@
 # R915 — 原完整连接的两窗整性与全阶中央核的第二位
 
-日期：2026-11-16。**状态：下述原连接系数的有限整窗、全阶单位核的加强及其准确模 $p^3$ 修正已证明。原中央零到首边界零的主门仍未闭合。**
+日期：2026-11-16。**状态：下述原连接系数的有限整窗、全阶单位核的加强及其准确模 $p^3$ 修正已证明；附B进一步付从j=1开始的准确整窗j<p(p−1)、首非整项及完整长窗反馈。原中央零到首边界零的主门仍未闭合。**
 
 本篇始终使用 R663 的同一个严格 Lubin–Tate 坐标、完整 $T_{\rm g}$ 和原连接 $a(W)$。所证明的整性不是给 $a-c$ 换一个整 lift；尤其包括首个 $H$ 分母出现以后原各项之间的实际相消。R710 的通用整 forcing 反门与全部边界补项不变。
 
@@ -462,3 +462,289 @@ $$
 (A12)和 R912(22)使用同一个 $V,V_c,S_c$ 及同一个原 sigma 初值。故正文(6)、(26)中所有落在上述窗的连接修正，已经有与原四个 $\mathcal B_m$ 兼容的有限除点输入。没有把 $a$ 的数据独立于四来源另作选择。
 
 本附录没有从(A6)推出四个 $j_m$ 的新零，也没有使 R708 的完整低前缀自动消失。其确切新增范围是：原连接的实际两窗系数由同一个 $[p]$ 数据精确递推，且五位除点输入足够支付它们的第二位。更高中央商、原边界的完整卷积及全部 $V_c$ 项继续保留。
+
+
+## 附录 B. 原连接的完整首整窗与第一次非整块
+
+日期：2026-11-20。**状态：本附录全部长窗整性、首个非整指标及其原 Hasse 首值已证明。没有推出四个中央非零，也没有删除原中央的真实除 $p$ 商。**
+
+仍严格保持 R915(1)–(3) 和附录 A 的同一个原模型：
+$$
+p=6s-1>211,\quad q=p^2,\quad d=p+1,\quad e=p-1,
+\quad N=p(p-1),\quad b=17,
+$$
+$$
+z(u)=\sum_{k\ge0}\frac{\beta_kb^k}{6k+1}u^{6k+1},
+\qquad \beta_k=\binom{-1/2}{k},
+$$
+$$
+u=u(v)\in v+v^2\mathcal O[[v]],\qquad
+z(u(v))=vH(v^d),\qquad H(W)=1+O(W^e),
+$$
+$$
+a(W)=c+\sum_{j\ge1}a_jW^j
+=\frac d{dW}\log\frac{\sigma(z(u(v)))\widetilde T(v)}v .
+\tag{B1}
+$$
+这里所有 $O$ 都先表示特征零正式次数；并未将 $H$ 自身称为整。
+
+**定理 B1（首整窗的准确终点）。** 原非恒定连接系数满足
+$$
+\boxed{a_j\in\mathcal O\qquad(1\le j<N).}
+\tag{B2}
+$$
+下一系数的赋值和原首 residue 恰为
+$$
+\boxed{v_p(a_N)=-2,\qquad p^2a_N\equiv-pc\pmod p.}
+\tag{B3}
+$$
+所以 $N-1=p^2-p-1$ 是**从 $j=1$ 开始连续整性的准确终点**，并非只给一个更大的充分窗口。常数 $c$ 始终是原 $[z^{p+1}]\log(\sigma/z)$，没有换其 lift。
+
+### B.1 可保全部高位进位的归一化 Lucas 比值
+
+普通 Lucas 同余在分母已含 $p$ 时不足够。此处需要以下相对同余：对任意整数 $k\ge0$，
+$$
+\boxed{\frac{\beta_{s+pk}}{\beta_s\beta_k}\in1+p\mathbf Z_p.}
+\tag{B4}
+$$
+其中 $\beta_s$ 是单位，$\beta_k$ 可以含任意多次进位。
+
+给出完整的去 $p$ 阶乘证明。记
+$$
+U(n)=\prod_{\substack{1\le i\le n\\p\nmid i}}i.
+$$
+从 $(pk)!=p^k k!U(pk)$ 准确有
+$$
+\frac{\binom{2pk}{pk}}{\binom{2k}{k}}
+=\frac{U(2pk)}{U(pk)^2}.
+\tag{B5}
+$$
+每个完整长 $p$ 块的非零剩余类乘积为 $(p-1)!\equiv-1\pmod p$，故右边是一个模 $p$ 等于一的单位。又因为 $2s<p$，追加的 $2s$ 个分子因子和两个 $s$ 个分母因子均为单位，且
+$$
+\frac{\binom{2pk+2s}{pk+s}}
+ {\binom{2pk}{pk}\binom{2s}{s}}
+=
+\frac{\prod_{i=1}^{2s}(2pk+i)/(2s)!}
+ {\bigl(\prod_{i=1}^{s}(pk+i)/s!\bigr)^2}
+\equiv1\pmod p.
+\tag{B6}
+$$
+$\beta_n=(-1)^n4^{-n}\binom{2n}{n}$。从 $s+pk$ 减去 $s+k$ 后，符号因子为 $(-1)^{(p-1)k}=1$，而 $4^{-(p-1)k}\equiv1\pmod p$。将(B5)–(B6)相乘得到(B4)，同时证明
+$$
+v_p(\beta_{s+pk})=v_p(\beta_k).
+\tag{B7}
+$$
+整个证明保留了 $k$ 的全部 $p$ 进位；没有先把两边约成可能同时为零的普通 Lucas 值。
+
+### B.2 原 $z$ 的严格 $q$ 次整截断
+
+由(B1)的同一个严格整坐标，
+$$
+z(u(v))=v+O(v^q).
+$$
+与其整逆 $v=h(u)$ 复合，得 $z(u)=h(u)+O(u^q)$。所以
+$$
+Z_{<q}(u):=\sum_{6k+1<q}\frac{\beta_kb^k}{6k+1}u^{6k+1}
+\in\mathcal O[u],
+\qquad Z_{<q}(u(v))=v+O(v^q)
+\tag{B8}
+$$
+是同一原对数的整截断。这也逐项保留了 $6k+1$ 含 $p$ 时分子 $\beta_k$ 的真实抵消。
+
+下文使用的仅是(B8)这个有限整多项式，不能将整个非整无限 $z$ 直接取模 $p$。
+
+### B.3 原 zeta 的严格 $p^3$ 次整同余
+
+R915(7)的同一个原 zeta 为
+$$
+\Xi(u)=\zeta_{\rm W}(z(u))
+=u^{-1}+\sum_{n\ge1}\frac{\beta_nb^n}{1-6n}u^{6n-1}.
+\tag{B9}
+$$
+读取所有 Laurent 次数严格小于 $p^3$。若 $p\nmid6n-1$，则该项乘 $p$ 后是 $p$ 整除的整项。其余全部指标准确写成
+$$
+n=s+pk,\qquad 6n-1=p(6k+1),\qquad 6k+1<q.
+\tag{B10}
+$$
+在(B10)中，令 $u_k=\beta_{s+pk}/(\beta_s\beta_k)\in1+p\mathbf Z_p$。相应 $p\Xi$ 系数是
+$$
+-\beta_s u_k\,b^{s+pk}\frac{\beta_k}{6k+1}.
+\tag{B11}
+$$
+由(B8)与 $b$ 为单位，这一系数整；把 $u_k$ 换成一只改变一个 $p$ 整项。$\beta_k/(6k+1)$ 是有理 $p$ 整数，所以其模 $p$ 的 Frobenius 等于自身。由此得到包含所有(B10)指标的完整有限同余
+$$
+\boxed{p\Xi(u)\equiv-\beta_s b^s Z_{<q}(u)^p
+\pmod{p,\ u^{p^3}}.}
+\tag{B12}
+$$
+左边全部次于 $p^3$ 的 Laurent 系数已先证明整；唯一负次项 $pu^{-1}$ 约为零。右边只对(B8)中的整截断取实际 Frobenius，故分母含 $p$ 的指标没有被删去。
+
+整代入 $u(v)$，并用(B8)，即得
+$$
+p\Xi(u(v))\equiv-\beta_s b^s v^p
+\pmod{p,\ v^{p^3}}.
+\tag{B13}
+$$
+这里 $O(v^q)^p$ 的次数从 $p^3$ 开始，所以严格端点恰好保持。
+
+### B.4 保全部原连接项后的连续整性
+
+R915(13)已经对整个级数证明
+$$
+\ell(v)=\frac d{dv}z(u(v))\in\mathcal O[[v]],
+\qquad\ell(v)\equiv1\pmod p.
+$$
+同一完整连接仍准确满足
+$$
+d v^p a(v^d)
+=\Xi(u(v))\ell(v)
+ +\frac{\widetilde T'(v)}{\widetilde T(v)}-\frac1v.
+\tag{B14}
+$$
+$\widetilde T^{\pm1}$ 整，原 $v^{-1}$ 极在该式准确相消。将(B13)代入 $p$ 倍的(B14)，得到
+$$
+p d v^p a(v^d)\equiv-\beta_s b^s v^p
+\pmod{p,\ v^{p^3}}.
+\tag{B15}
+$$
+每个被读取的系数已经整，所以约化合法。$a_j$ 的原次数为 $p+dj$，且
+$$
+p+dj<p^3\quad\Longleftrightarrow\quad j<p(p-1)=N.
+\tag{B16}
+$$
+常数项仍给 $pdc\equiv-\beta_sb^s$；对 $1\le j<N$，(B15)先给 $pa_j$ 整，再给其模 $p$ 为零，故 $a_j$ 整。这证明(B2)。
+
+### B.5 第一次非整系数及其不能相消的首值
+
+令
+$$
+k_0=\frac{q-1}{6}=s(p-1)=(5s-1)+p(s-1),
+$$
+$$
+n_0=\frac{p^3+1}{6}=s+pk_0
+=s+p(5s-1)+p^2(s-1).
+\tag{B17}
+$$
+在 $n_0+n_0$ 的 $p$ 进加法中，低位 $2s<p$ 不进位；中间位 $10s-2=p+(4s-1)$ 恰进位一次；最高位 $2s-2+1=2s-1<p$ 不再进位。因此
+$$
+v_p(\beta_{n_0})=1,
+\qquad v_p\!\left(-\frac{\beta_{n_0}b^{n_0}}{p^3}\right)=-2.
+\tag{B18}
+$$
+这正是(B9)的 $u^{p^3}$ 系数。所有更低系数由(B12)有估值至少 $-1$。由于 $u(v)/v$ 和 $\ell(v)$ 都是常数一整单位，更低项在 $v^{p^3}$ 上的总贡献仍至少为 $-1$，不能抵消(B18)唯一的 $-2$ 项。$\widetilde T'/\widetilde T$ 整，亦不能抵消。由(B14)且 $p+dN=p^3$，得 $v_p(a_N)=-2$。
+
+其原单位可进一步准确返回 $c$，无需新 lift。R663 的首个 LT 对数系数为
+$$
+[v^q]z(u(v))=\frac1{p^q-p}.
+$$
+用(B8)保留所有更低整项，乘 $p$ 后约化得
+$$
+\frac{\beta_{k_0}}p b^{k_0}\equiv-1\pmod p.
+\tag{B19}
+$$
+再把(B4)用于 $k=k_0$，并用固定有理 $b$ 的 $b^p\equiv b\pmod p$，由(B14)、(B18)得到
+$$
+\begin{aligned}
+p^2d a_N
+&\equiv-\frac{\beta_{n_0}}p b^{n_0}\\
+&\equiv-\beta_sb^s\frac{\beta_{k_0}}p b^{k_0}
+\equiv\beta_sb^s\equiv-pdc\pmod p.
+\end{aligned}
+\tag{B20}
+$$
+$d$ 是单位，故(B20)就是(B3)的准确符号和原常数归一。
+
+### B.6 同一个原除点输入上的长窗递推
+
+为明确新窗需要的真实次数，而不沿用附录 A 的旧端点，现取
+$$
+L_{\rm long}=dN=p^3-p.
+\tag{B21}
+$$
+对 $0\le j<N$ 读取原 $a_j$，需要同一 $S_c,V_c$ 至 $W^N$，即原 $v$ 次数 $L_{\rm long}$；组成这些数据时 $u(v)$ 需至次数 $L_{\rm long}+1<p^3$。附录 A 的 $2q-2$ 和 R912 的旧 $p^5$ 恢复论证没有免费延到这个新窗。
+
+仍用附录 A 的
+$$
+F(W)=W(p-W^e)^d,\quad
+\kappa_j=[W^j](\log\mathscr C_{\rm div})',
+\quad q a=F'a(F)-(\log\mathscr C_{\rm div})'.
+$$
+一个无除法的准确系数式是
+$$
+F'(W)F(W)^r
+=pW^r(p-W^e)^{p+dr}(1-pW^e).
+\tag{B22}
+$$
+故若 $j=r+ke\le N$，其系数准确为
+$$
+C_{r,k}=(-1)^k p^{1+p+dr-k}
+\left\{\binom{p+dr}{k}+p^2\binom{p+dr}{k-1}\right\},
+\tag{B23}
+$$
+其中 $\binom n{-1}=0$。当前 $k\le p$，显示的 $p$ 指数非负。全部原行的准确三角式为
+$$
+\boxed{
+\bigl(p^2-p^{d(j+1)}\bigr)a_j
+=-\kappa_j+
+\sum_{k=1}^{\lfloor j/e\rfloor}C_{j-ke,k}a_{j-ke},
+\qquad0\le j\le N.
+}
+\tag{B24}
+$$
+每个对角仍是 $p^2$ 乘单位。$j<2e$ 时(B24)准确退回附录 A(A6)；这里新保了全部更远的 $k$ 项。
+
+还可把新的内部 Frobenius 反馈逐位明确写出。置
+$$
+g=(\log V_c)',\qquad S_c^{\log}=(\log S_c)',
+\qquad\widetilde c=c-g(0).
+$$
+原 $\widetilde a=a-g$ 满足
+$$
+p^2\widetilde a=F'\widetilde a(F)-S_c^{\log}.
+$$
+对 $j<N$，所有 $r\ge1$ 的复合项中 $k\le p-1$，由(B23)
+$$
+v_p(C_{r,k})\ge1+p+dr-k\ge p+3.
+$$
+它们乘原整 $\widetilde a_r$ 再除 $p^2$ 后均在 $p^{p+1}\mathcal O$。因此整个长窗具有共同的准确有限同余
+$$
+\boxed{
+a(W)\equiv g(W)-p^{-2}S_c^{\log}(W)
+ +p^{-2}\widetilde c\,F'(W)
+\pmod{p^{p+1},\ W^N}.
+}
+\tag{B25}
+$$
+常数系数在真实 $p^{-1}\mathcal O$ 中比较。特别 $[W^j]S_c^{\log}\in p^2\mathcal O$ 对 $1\le j<N$ 成立。
+
+$r=0$、$1\le k\le p-1$ 时，(B23)给
+$$
+v_p\!\left(p^{-2}\widetilde c[W^{ke}]F'\right)=p-1-k.
+\tag{B26}
+$$
+所以首剩余位只在 $j=(p-1)e$ 看到内部反馈；两位时只须保最后两个 $k$。准确有
+$$
+\boxed{
+\begin{aligned}
+a_j\equiv{}&g_j-\frac{[W^j]S_c^{\log}}{p^2}
+ +\frac{p^2c}{2}\,\mathbf1_{j=(p-2)e}
+ +p\bigl(c-g(0)\bigr)\,\mathbf1_{j=(p-1)e}
+ \pmod{p^2},\\[-1mm]
+&\hspace{35mm}1\le j<N.
+\end{aligned}
+}
+\tag{B27}
+$$
+为核符号，$[W^{(p-2)e}]F'=-p^4(p-1)/2+O(p^6)$，
+而 $[W^{(p-1)e}]F'=p^3\{1+p^2(p-1)/2\}$。这两项与原 $\widetilde c$ 相乘后给(B27)，没有删去 $V_c$ 的常数导数。其余 $k$ 的反馈严格在 $p^2$ 中。
+
+给定同原 $S_c,V_c\bmod(p^4,W^{N+1})$ 后，(B24)或(B27)确实决定全部该窗 $a_j\bmod p^2$；这是一条**条件于完整该窗输入**的精度接口。本文没有宣称原 $\psi_p,\Phi_p\bmod p^5$ 已足以产生这些更长输入，也没有据此省略其实际坐标高位。完整原 $[p]$ 数据当然通过定义唯一决定它们。
+
+### B.7 对原中央与 R923 前缀的范围
+
+本附录给原同一 $a$ 的连续整性准确终点，以及(B24)–(B27)的新完整反馈。R710 的原 $k$ 仍在第一边界有极；其正则补项、全部 $\mathcal B_m$ 低部分和除商和四个真实中央全部保持。特别不能由(B2)将 $k$ 设为一，也不能把 $a_N$ 的单位首值改称任一原 $j_m$ 的首值。
+
+R923 的完整约 $3p/4$ 个 Gaussian 块仍须由同一实际来源读取；本附录没有从中央零推出那些块全零，也没有生成新的算术中央条件。它精确补齐的是原连接在更长固定窗口中何处整、何处首次非整，以及该首次缺陷的原 $c$ 归一。
+
+
+本附录经root全文复核：去p阶乘的相对Lucas、严格p³端点、首LT系数的负号、完整C_r,k系数及两处反馈均逐式核回原附A。没有数学程序执行。
