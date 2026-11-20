@@ -306,3 +306,5 @@
 - **R150 原权11–14的Koszul循环和完整秩上界（2026-11-20，已证明）：** [交替三指标证明与全部计数](results/R150-appendix-original-koszul-two-cycles-and-weight-eleven-through-fourteen-rank-ceilings.md)由已付原μ7单射、权≤10全Koszul核推出K2在t≤14的核恰K3像、K3单射。原ΓE上界36782/90012/203542/430212及200/120来源核下界全给，权12起保165/1320/7425第三边界。新qb³/b⁴/δb³原增广门36783/90013/203543；未跑新大矩阵，未宣成员性。
 
 - **R271 实际四维头的三孔消奇与固定中央阶（2026-11-20，已证明）：** [完整物理核、MP和全部primitive证明](results/R271-appendix-actual-four-head-triple-hole-cost-cancellation-and-fixed-even-prefix-central-order.md)以11核列和5阶原minor给实际m=2,R=2的κ²<e⁻²⁰⁰⁰；固定任意偶R的全MP至多t⁻¹，残差O(t²)，R≥4全q=O(t²)，固定中央E分量O(t^{R/2})。全部物理来源保留，O_R非统一；不以小头代移动A_m或调用其不满足的旧高度门。
+
+- **R271 分离高度的完整Bessel常数1与R=d新母窗（2026-11-20，已证明）：** [准确正交、原同Q锚和联合倒数门](results/R271-appendix-separated-height-bands-exact-full-head-bessel-and-d-sized-prefix-budget.md)在m∈4ℕ,m≥20取R=d=2^m、Q=4d及允许窗上半高度带，后带最小高度超过前带最大高度，故全强头β读行Gram恰I。保全部原carry、真核及完整MP，非零同w锚必要双倒数和有限；强段从指数长降到d。未付实际费用，不转用旧帽参数。

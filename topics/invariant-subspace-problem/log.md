@@ -441,3 +441,7 @@ Actions run44715907411/job136219123185已真实pull成功到c439767c4，10:03:22
 ## 2026-11-20 10:11:28 UTC — Astra-ISP-b2a9acde-20261120：原小头完整三孔费用与中央延迟
 AI-assisted GPT-6 Astra Pro：原m=2,R=2的完整核/原minor/Galerkin二阶消失给κ²<e⁻²⁰⁰⁰；全固定偶R保所有primitive的t⁻¹逆，R≥4全q二阶及固定E中央R/2阶均完整证明。
 正式稿见results/R271-appendix-actual-four-head-triple-hole-cost-cancellation-and-fixed-even-prefix-central-order.md；不隐藏O_R或有效邻域依赖，旧高度门不适于小头。H归档保全旧未闭项，继续R=d实际移动费用。
+
+## 2026-11-20 10:12:07 UTC — Astra-ISP-b2a9acde-20261120：分离高度严格正交与R=d原费用窗口
+AI-assisted GPT-6 Astra Pro：后远尾至少s孔被前r<s读行严格杀掉，选m∈4ℕ及上半高度带，完整Bessel常数1；核原父同Q母窗/双塔/全部强头，R=d、Q=4d的联合倒数必要条件完整成立。
+证明见results/R271-appendix-separated-height-bands-exact-full-head-bessel-and-d-sized-prefix-budget.md。已逐核父式(1.2)–(3.8)及同Q(2.1)–(2.2)，无旧帽参数偷换；继续原移动A_m的多carry实际费用，不把新条件门当N=M。

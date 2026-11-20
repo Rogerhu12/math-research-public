@@ -110,3 +110,7 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 ## 原四维头的真实费用消奇与移动范围
 
 [完整有限头定理](results/R271-appendix-actual-four-head-triple-hole-cost-cancellation-and-fixed-even-prefix-central-order.md)已给实际m=2,R=2三孔费用κ²<e⁻²⁰⁰⁰，固定任意偶R的全MP逆O(t⁻¹)与残差O(t²)；R≥4完整q=O(t²)，固定中央新方向投影O(t^{R/2})。这些常数和有效邻域依赖R,c,S，实际小头又不满足旧联合高度门，不能直接得到倒数和矛盾。继续对实际A_m的全部carry与可变r、R给可用统一费用，不把固定E的延迟泄漏当移动谱投影成本。
+
+## 现在优先的原R271费用窗口
+
+[分离高度带与d强段完整门](results/R271-appendix-separated-height-bands-exact-full-head-bessel-and-d-sized-prefix-budget.md)已证明：m∈4ℕ,m≥20，d=2^m，R=d、x=m+d、Q=4d，取P_m=floor(√(x+1)/(8(m+1)))的上半高度I_m，所有完整coherent读行严格正交，Bessel常数1。原同w、同Q锚和只乘真核的双塔误差给非零锚必要Σ_{m,r∈I_m}κ⁻²<∞，不需指数长强段或预付ηκ包络。下一直接估这些实际完整Galerkin/MP费用；一般全Boolean相似log条件数降到O(d log d)，但这本身并不是费用界。旧真帽运输未转到新参数，仍保其原范围。
