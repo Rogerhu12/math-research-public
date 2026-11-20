@@ -95,6 +95,8 @@ $$
 
 [R975](results/R975-original-balanced-Kronecker-integral-heat-recurrence.md)已给原bare c_n的完整整多项式递推，U_n=n!(n−1)!c_n∈Z[1/6][g2,g3]；n<p时c_n整，独立于R973 pole取消。准确Ramanujan表达/Wilson把剩余单位问题写成F_(p−r)(0,−864)≠0，F_n=(R^(n−1)E)|E=0，比例−r!(r−1)!/12是单位。该具体近p阶值仍需证明；高阶R^p单位、homogeneity或旧sigma-block刚性均不能未经精确关系倒推它。R974的unit假设尚未全p满足。
 
+[R972](results/R972-original-two-Artin-Hasse-lines-and-ring-class-regulator.md)另将高η障碍化为真正环类单位有限系数。a=r+1，m=(p+1)/3，b=a/3；原χ核恰conductor-p环类域L，L_P参数ϖ^m=−p。真实low/high HT给不同AH双对偶线：低kill u1、高kill u0，degrees b与m−b；完整DFG/低T=O/Euler给global H1=1,H2=0及same-χ classgroup零，global-unit χ线原始。其log modp=γ0λ1ϖ^b+γ1λ0ϖ^(m−b)，γ0非零，而原S非零 iff高η单位 iffγ1非零。普通log整性只在真正e=m<p−1的L_P，DDR Fil指数+1与upper break区分；cσ保两线，不能用对称把低单位搬到高项。接下来须证这一近顶系数非零，或将其与实际balanced值作整reciprocity；不重复局部线/维数/classgroup判据。
+
 ## O3：固定低权cohomology与原Igusa投影的边界
 
 [R944](results/R944-original-CM-Gauss-Manin-homotopy-and-supersingular-principal-parts.md)给原fine base上

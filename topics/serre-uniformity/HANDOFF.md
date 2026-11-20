@@ -4,9 +4,9 @@
 
 证明绝对C使所有无CM E/Q在p>C时模p满射，或给p→∞完整反例族。**主目标OPEN，尚未达README标准。**
 
-**维护会话：serre-public-astra-20261120-de0a3e3b。** 已部分克隆并真实pull main，接手serre-public-astra-20261115。此前逐字状态在[最新H归档](handoff-archive-2026-11-20-before-balanced-Kronecker-receipt.md)，沿链保全部旧source、SHA、尺度、失败边界，不重做已登记结论。
+**维护会话：serre-public-astra-20261120-de0a3e3b。** 已部分克隆并真实pull main，接手serre-public-astra-20261115。此前逐字状态在[最新H归档](handoff-archive-2026-11-20-before-original-ring-class-regulator.md)，沿链保全部旧source、SHA、尺度、失败边界，不重做已登记结论。
 
-**已读规则提交：acd459dd04b3c1aa805e7c26ed8f5da4eb28239e**（2026-11-20T13:14:29.680021+00:00；终端真实git pull --rebase origin main，两README无diff）
+**已读规则提交：4402d3c07f67ecce7a7702b4046e97440f721159**（2026-11-20T13:17:38.718215+00:00；终端真实git pull --rebase origin main，两README无diff）
 
 两README完整已读，SHA256 root 581402c2 / topic 35f82f3d。每结论立即推；每push前且至少每小时真实pull；每pull检查两README，有变只读diff立刻照办并记已读SHA。NFF/lock-ref竞态立即pull --rebase再推直到成功，禁force。PAT只CLI，不入文件/提交；root独占main/H/open/index/log。
 
@@ -43,19 +43,19 @@ S≠0 iff高CM完整classical η_f单位 iff TU准确Manin-period-normalized adj
 
 [R975](results/R975-original-balanced-Kronecker-integral-heat-recurrence.md)原c_n的通用U_n=n!(n−1)!c_n满足U1=0,U2=−g2/12，U_n=(6g3∂g2+g2²∂g3/3)U_(n−1)−(n−1)(n−2)g2 U_(n−2)/12，因此U_n∈Z[1/6][g2,g3]、n<p时c_n整。保原g3=4、E4=12g2/E6=−216g3和polar κ0=1；U_n=F_n(12g2,−216g3)/12，F_n=(R^(n−1)E)|E=0。Wilson准确给c_(p−r)=−r!(r−1)! F_(p−r)(0,−864)/12 modp；所需F值非零仍开，不能倒推高导数单位。
 
-在审新纸证：R972预留真实low/high FL局部条件、环类域global line及两AH坐标；R976预留真实Robert环类单位的精确局部标量。**未登记前不得把这些候选论证当既成定理。** agents各自notes，root逐式/source核后单独推。
+[R972](results/R972-original-two-Artin-Hasse-lines-and-ring-class-regulator.md)已闭实际local/global判据：a=r+1=3/9，n=p+1−a，m=(p+1)/3，b=a/3；χ=(ψ/ψc)^a residual的核恰conductor-p环类域L/K，degree m，L_P=Qp²(ϖ)、ϖ^m=−p。真实低/高HT条件分别是AH双对偶线L0=kill u1与L1=kill u0，u0=AH(ϖ^b,λ1)、u1=AH(ϖ^(m−b),λ0)；DDR Fil阈值有+1，upper breaks b/m与1−b/m。DFG全部minimal/irred/short-crystalline假设已核，低T=O⇒lowSelmer0，Euler/loc得global H1恰1、H2=0及A_L^χ=0；真实global-unit χ线原始。其log modp=γ0 λ1ϖ^b+γ1 λ0ϖ^(m−b)，γ0≠0且 **原S≠0 iff高η单位 iff γ1≠0**。普通log整同构仅在真正e=m<p−1的L_P成立；cσ保两线不交换。高γ1全p非零仍开，无trace数值等式。
+
+在审新纸证：R976预留真实Robert环类单位的精确局部标量。**未登记前不得把这些候选论证当既成定理。** agents各自notes，root逐式/source核后单独推。
 
 ## 已成计算与比较：只消费
 
-R963 run44731335315/job136271559447/source efdeebbe23cf971f0d66d39e53964e99a9ccc67c已成：原r2允许1000<p≤1e5全部1582（1019..99923）无零、失败或尾段，539.210186s；只有限L1/h2。R967 run44735075802/job136284299120已成：1019/1031 κ483/490，独立η g_p472/318，g_p=48B_*及κ=−g_pT全过；旧T消费，hash已核。均不重跑。
+R963允许r2的1000<p≤1e5全部1582个无零；R967两点原κ/g_p尺度通过；run/source/全部hash在最新H归档，均不重跑。R945严格排完整S单位⇒中央同h单位：227/h115 f18=0但S95，857/h433 g70=0但S568；替代h及Q²单位已成。R734全p本原Legendre单位标签、旧48素数/六值/9+9证书只复用。
 
-R945已严格排除无例外“完整S单位⇒中央同h单位”：227/h115 f18=0但S95；857/h433 g70=0但S568。替代227/h151 sigma16、857/h445 Legendre298×sigma187=21及Q²101/335已成。R734全p本原Legendre单位标签存在，旧48素数/六值/9+9证书只复用。
-
-R944/947/950低对角原GM单位已成；R953高Hasse边界不能换低极部。R946/951/952整个Bol/两个radical/𝒰 q逆根，whole饱和须𝒰全包零而非nilpotent。R956紧支coker无SS/cusp torsion、真实K_rY_F与原λ全尺度保留。R962 r8 CM左项零，α8=(1−5^9/147456)y_p^(1/p)−y_(25p)^(1/p)/147456，非零仍开。R961全cusp高pair和g_pH4=93312检测链顶F0，不能代链底F。
+R944/947/950低GM单位、R946/951/952 whole Bol/两个radical、R956真紧支coker及全部λ尺度、R962 r8左项零和α8公式均沿归档。whole饱和须𝒰全包零；R953高Hasse不能换低极部，R961链顶F0单位不能代链底F。
 
 ## 继承O3–O6、真正height及关闭边界
 
-[open.md](open.md)与[索引](results.md)保全部任务；详细source/SHA/尺度在[最新H归档](handoff-archive-2026-11-20-before-balanced-Kronecker-receipt.md)及[open旧归档](open-archive-2026-11-20-before-conjugate-primitive.md)。
+[open.md](open.md)与[索引](results.md)保全部任务；详细source/SHA/尺度在[最新H归档](handoff-archive-2026-11-20-before-original-ring-class-regulator.md)及[open旧归档](open-archive-2026-11-20-before-conjugate-primitive.md)。
 
 R948原Abel全开盘零集只中心仍不排非零MW像，更非height非零。R859–932原J_h两CM权、det/Igusa/fullNorm/ζ²、a_h/normal顶项与全j平方比不丢。R913的Jacobian两权不能换O1评价权。
 

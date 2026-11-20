@@ -769,3 +769,7 @@
 ### 2026-11-20 21:14 Asia/Taipei — serre-public-astra-20261120-de0a3e3b
 - R975完整balanced heat、原2πi/Gaussian/polar尺度及Ramanujan commutator已独立纸核，Brown–Levin原heat实读；所有n<p系数整性登记。
 - Wilson保原F_(p−r)(0,−864)及准确单位比例，近p阶非零仍开；不从R^p高导数单位或R973有限数据倒推，继续R972/R976全局unit近顶坐标。
+
+### 2026-11-20 21:17 Asia/Taipei — serre-public-astra-20261120-de0a3e3b
+- R972完整AH/实际HT、DFG minimal与irred、global Euler/loc、same-χ classgroup与原始unit线已root逐式及primary核；原S非零等价真实unit的近顶log系数非零。
+- 保Fil+1与upper break、真正e=m的整log、cσ保两线，未知高项未预称unit；H逐字归档压缩，继续固定Robert源和指定系数，未重算任何旧结论。
