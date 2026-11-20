@@ -1,0 +1,171 @@
+{
+  "identity": {
+    "kind": "R138_true_root_anchored_local_drift_budget_v1",
+    "source_sha256": "9c468c51dfe5b2e6e4406ea39621bcf8a1d74b51afc4c740a00039e8a436b915",
+    "arithmetic_bits": 320,
+    "original_positive_sha256": "ea17451120f8c368ea3e5d4ee511a9d1d03d8a97705e7bd36cf9d015a8d9d93d",
+    "original_germ_sha256": "397f9b428c787823994f8c849ad7d1f9209220c3c6e8907b38be562b3cbc9864",
+    "original_candidate_sha256": "ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413",
+    "intrinsic_object_sha256": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+    "exact_repair_definition_sha256": "440866a368f68b472bc904c90fbe9862f2ff13e9f884ffced6a4819c04866a47",
+    "exact_alpha": "6890507429876859/9007199254740992",
+    "exact_eta": "-7789843107295549/4611686018427387904",
+    "exact_nu": "-2572625729470897/72057594037927936",
+    "exact_true_root_interval": [
+      "1191984371497/5000000000000",
+      "2383968743003/10000000000000"
+    ],
+    "actual_local_interval": "[r_star,r_star+1/100]",
+    "fixed_local_length": "1/100",
+    "conservative_integration_interval": [
+      "1191984371497/5000000000000",
+      "2483968743003/10000000000000"
+    ],
+    "exact_flow_initial_condition": "psi(r_star,xi)=xi",
+    "moving_period": "2*pi",
+    "original_positive_rows": 4650,
+    "original_positive_interfaces": 3594,
+    "original_positive_interface_metadata_sha256": "2a6908d127649ee76213bb192a59be1f42ee7e9d1b229fe11d54f843449a34a0",
+    "complete_new_partition_sha256": "bb8770fda129870ef3c7e143ceb93f499a155827b51a949c8be9cc6bcb17a2fc",
+    "full_pair_repair_A0": "1/250000000000000000",
+    "old_X_sha256": "1259c3687cea0af523dd52055e88d5ee9a7b77094c218101835b6c38dfbbc7ec",
+    "old_X_execution_sha256": "999555eafb3c443266f1a8fed98056c9d4f448c0131ef5ffff93941b35040c92",
+    "fixed_close_to_one_threshold": "101/100"
+  },
+  "complete": true,
+  "proved": true,
+  "failure": null,
+  "stage": "complete-root-anchored-local-drift-budget",
+  "expected_common_cells": 327,
+  "completed_common_cells": 327,
+  "completed_positive_rows": 326,
+  "current_exact_right": "2483968743003/10000000000000",
+  "integral_prefix": {
+    "kind": "complete_decimal_ball_v1",
+    "mathematical_direction": "upper",
+    "midpoint_integer": "74790380247915852257788687565167028632458102753950070749807494445132638478769719",
+    "radius_integer": "2",
+    "decimal_exponent": "-83"
+  },
+  "complete_drift_integral": {
+    "kind": "complete_decimal_ball_v1",
+    "mathematical_direction": "upper",
+    "midpoint_integer": "74790380247915852257788687565167028632458102753950070749807494445132638478769719",
+    "radius_integer": "2",
+    "decimal_exponent": "-83"
+  },
+  "complete_local_Gamma": {
+    "kind": "complete_decimal_ball_v1",
+    "mathematical_direction": "upper",
+    "midpoint_integer": "10007481835522656693652353311383312152700151913515754541955820253303112416485026",
+    "radius_integer": "2",
+    "decimal_exponent": "-79"
+  },
+  "saved_record_count": 2,
+  "old_scientific_targets_called": 0,
+  "old_geometry_ODE_calls": 0,
+  "old_candidate_targets_called": 0,
+  "old_X_targets_recomputed": 0,
+  "new_flow_ODE_calls": 0,
+  "new_capacity_ODE_calls": 0,
+  "published_arrays": 0,
+  "whole_original_references": {
+    "physical_budget": {
+      "complete_result_sha256": "1259c3687cea0af523dd52055e88d5ee9a7b77094c218101835b6c38dfbbc7ec",
+      "complete_execution_sha256": "999555eafb3c443266f1a8fed98056c9d4f448c0131ef5ffff93941b35040c92",
+      "run_id": "44737045152",
+      "run_attempt": "1",
+      "whole_result_admitted": true,
+      "whole_execution_admitted": true,
+      "original_identity": {
+        "kind": "R138_same_Qrepair_complete_physical_energy_budget_v1",
+        "source_sha256": "716fde1b56617680898ed61e7ebc0da0177c086e1a0f8865e36a5d7ff9b6a2eb",
+        "arithmetic_bits": 320,
+        "original_positive_sha256": "ea17451120f8c368ea3e5d4ee511a9d1d03d8a97705e7bd36cf9d015a8d9d93d",
+        "original_angular_sha256": "7a3dd2c1d48b611f5d9a6bd8c2d7ebeeeb4c2f6a7c2bcc4f61f4d012be4e2f90",
+        "original_germ_sha256": "397f9b428c787823994f8c849ad7d1f9209220c3c6e8907b38be562b3cbc9864",
+        "original_candidate_sha256": "ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413",
+        "intrinsic_object_sha256": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+        "exact_repair_definition_sha256": "440866a368f68b472bc904c90fbe9862f2ff13e9f884ffced6a4819c04866a47",
+        "exact_alpha": "6890507429876859/9007199254740992",
+        "exact_eta": "-7789843107295549/4611686018427387904",
+        "exact_nu": "-2572625729470897/72057594037927936",
+        "fixed_point": "(0,0,1/2)",
+        "exact_true_root_interval": [
+          "1191984371497/5000000000000",
+          "2383968743003/10000000000000"
+        ],
+        "conservative_integration_interval": [
+          "1191984371497/5000000000000",
+          "25/8"
+        ],
+        "original_positive_rows": 4650,
+        "original_angular_rows": 7722,
+        "original_positive_interfaces": 3594,
+        "original_angular_interfaces": 6143,
+        "original_positive_interface_metadata_sha256": "2a6908d127649ee76213bb192a59be1f42ee7e9d1b229fe11d54f843449a34a0",
+        "original_angular_interface_metadata_sha256": "75a10a82683e5c71df25f3621bce5044d93293c2aeaca15aa1871a695517086f",
+        "new_complete_closed_cell_count": 4651,
+        "new_common_partition_sha256": "b86e1b057e14b61d09364dc8dc0969a2650c727104abcdf8d39e67cc9dcd14a6",
+        "full_repair_A0": "1/250000000000000000",
+        "full_repair_angular_bound": "128*4/10^18",
+        "full_repair_mean_bound": "1/250000000000000000",
+        "physical_period": "2*pi"
+      },
+      "original_scope": {
+        "same_fixed_eta_nu_and_Qrepair": true,
+        "full_real_angular_circle": true,
+        "true_root_not_replaced_by_interval_endpoint": true,
+        "complete_means_retained": true,
+        "complete_original_interfaces_retained": true,
+        "physical_Qrepair_defects_have_no_interface_atoms": true,
+        "original_unrepaired_interface_fees_not_deleted": true,
+        "actual_DF_not_WVC_hybrid": true,
+        "root_boundary_form_constant_paid": false,
+        "full_positive_inverse_proved": false,
+        "final_topic_complete": false
+      },
+      "complete_original_D0_record": {
+        "kind": "complete_decimal_ball_v1",
+        "midpoint_integer": "16881443712866428300586283156372475154137287086395950190186216907627825323493498",
+        "radius_integer": "2",
+        "decimal_exponent": "-80"
+      },
+      "complete_original_Gamma_record": {
+        "kind": "complete_decimal_ball_v1",
+        "midpoint_integer": "11839004305764705526606440712912222578677033661093841977412013064146134655673470",
+        "radius_integer": "2",
+        "decimal_exponent": "-79"
+      }
+    }
+  },
+  "scope": {
+    "same_actual_Qrepair_and_complete_independent_mean": true,
+    "same_full_moving_angular_circle": true,
+    "original_all_interfaces_preserved": true,
+    "true_root_not_replaced_by_interval_endpoint": true,
+    "root_anchored_auxiliary_flow": true,
+    "root_receiver_density_transfer_required": false,
+    "physical_Theta_and_H_mean_retained": true,
+    "one_local_sqrt_Gamma_in_energy": true,
+    "complete_new_local_drift_integral_proved": true,
+    "complete_new_local_Gamma_proved": true,
+    "local_Gamma_below_101_over_100": true,
+    "actual_flow_integrated": false,
+    "localized_capacity_Gram_paid": false,
+    "new_spectral_body_budget_paid": false,
+    "root_boundary_form_paid": false,
+    "actual_positive_boundary_problem_singular": false,
+    "positive_inverse_proved": false,
+    "final_topic_complete": false
+  },
+  "strict_comparisons": {
+    "local_Gamma_below_101_over_100": true,
+    "local_Gamma_strictly_below_original_saved_Gamma": true,
+    "fixed_close_to_one_threshold": "101/100",
+    "complete_new_saved_upper_used": true,
+    "complete_old_saved_lower_used": true,
+    "false_comparison_does_not_negate_complete_local_bound": true
+  },
+  "seconds": 0.1966190449999914
+}
