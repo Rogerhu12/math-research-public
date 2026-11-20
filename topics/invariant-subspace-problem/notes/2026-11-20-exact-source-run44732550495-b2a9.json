@@ -1,0 +1,48 @@
+{
+  "format": "isp-execution-identity-v1",
+  "runId": 44732550495,
+  "jobId": 136275725868,
+  "sourceCommit": "35d0d768258a205cd0d78552fb7fbfa4018ec70a",
+  "decodedWholeLogSHA256": "bde7b8cee841a4ee33bb93d9691c8dd7690f68c259c3e5f5b10ef15709fc2b19",
+  "actualPull": {
+    "actualPullRebaseSucceeded": true,
+    "beforeCommit": "35d0d768258a205cd0d78552fb7fbfa4018ec70a",
+    "executionEnvironment": "GitHubActions",
+    "format": "isp-789f-actual-actions-pull-v1",
+    "remoteCommit": "35d0d768258a205cd0d78552fb7fbfa4018ec70a",
+    "rulesGitBlobs": {
+      "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+      "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+    },
+    "rulesUnchanged": true,
+    "runId": "44732550495",
+    "utc": "2026-11-20 12:03:16 UTC"
+  },
+  "independentExecutionIdentities": [
+    {
+      "elapsed_seconds": 0.9749911200000128,
+      "exit_code": 0,
+      "label": "unit31_zero_base",
+      "source_sha256": "b2394a711c80f4c8c08bdaba2104d79433074294879d4937c142437d82199535",
+      "stdout_bytes": 348,
+      "stdout_sha256": "980eda302c47041a94153608abc9933ea0d3b2b0c391b9447ef0ec7e9d407eb3"
+    },
+    {
+      "elapsed_seconds": 4.566075147999996,
+      "exit_code": 0,
+      "label": "vzero_degree7",
+      "source_sha256": "e9efe34e78901f747660613a869a7a0c0bbfa4f2ee1a4d6ddab10814027ab713",
+      "stdout_bytes": 5191,
+      "stdout_sha256": "e9711645d00c512623323ffef656c5e65e6fd44b894e35f6101f189adb9c3e48"
+    },
+    {
+      "elapsed_seconds": 8.474447321,
+      "exit_code": 0,
+      "label": "unit31_half",
+      "source_sha256": "1207ffc3c9c49bc2d3c71a9136978c00700d22cffd203414cbce70a9cd4c0a47",
+      "stdout_bytes": 284,
+      "stdout_sha256": "db9547888bb074b66dd79a41a87fc2eabf2683a2527e7671103c654b0ca833b8"
+    }
+  ],
+  "note": "All three independent source programs completed. Unit31 zero-base and half-weight identities fully verified. V0 degree7 all three original targets have exact full-row rational witnesses. Formal conclusions are registered separately; no recomputable arrays or multipliers are persisted."
+}

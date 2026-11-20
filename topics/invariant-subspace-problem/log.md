@@ -612,3 +612,6 @@ AI-assisted GPT-6 Astra Pro：仅将unit3+1 p0核向量改逐项精确化简，�
 
 ## 2026-11-20 12:03:32 UTC — Astra-ISP-b2a9acde-20261120：任意奇高度的全真幂旗高孔门
 AI-assisted GPT-6 Astra Pro：[完整证明](results/R271-appendix-general-odd-height-hankel-congruence-and-complete-high-hole-cost.md)根核有限差分正交、Toeplitz行列式递推、全部δ主子式比及非负A幂合同；逐链最低孔取真实短/长门min，全部r/R常数明确，不添小r限制。母窗相容只按原支持核，完整Zγ仍未付，继续真实物理加权Galerkin源。
+
+## 2026-11-20 12:05:33 UTC — Astra-ISP-b2a9acde-20261120：单位3+1全零基点配对支闭合
+AI-assisted GPT-6 Astra Pro：[完整证明](results/R150-appendix-essential-four-unit-three-plus-one-isolated-zero-zero-base-pairing-branch-is-empty.md)根核全部被除零因子、完整Gram两独立核及真实形式germ取消；run44732550495原mean/所有jets/两族相容式全QQ通过。12:03:16真实pull两README不变；同批半权与V0正证书分别待独立正式登记。

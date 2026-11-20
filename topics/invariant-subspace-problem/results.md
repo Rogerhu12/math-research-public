@@ -89,3 +89,5 @@
 - **R150 V0完整六变量理想中的三个匹配Bell平方均非成员（2026-11-20，已证明）：** [原最高消元、完整267列及特征零秩证明](results/R150-appendix-zero-third-cumulant-degree-six-three-matched-squares-are-not-members.md)由run44731129539的模103全267源列/270增广列秩及平凡列数上界夹定QQ秩。三有理系数目标商类独立，扩至每个原匹配根均非成员；没有QQ乘子求解，也不排根基、自然立方或Bell零性。
 
 - **R271 任意奇高度的完整Hankel合同、高孔门和显式极点费用（2026-11-20，已证明）：** [自足二项式正交与完整原源证明](results/R271-appendix-general-odd-height-hankel-congruence-and-complete-high-hole-cost.md)用非负A幂保持全部旧真核旗；A0为短/长链精确最低孔的最小值，覆盖任意奇r及长链为空边界。全C_mr、4^R、y幂和exp(12r²/n)费用明确，物理还原只付一次κ；原允许窗相容性已核，实际Zγ与完整费用仍开。
+
+- **R150 孤立零点加单位3+1的p零整支为空（2026-11-20，已证明）：** [完整原mean两族、全部例外与真实germ证明](results/R150-appendix-essential-four-unit-three-plus-one-isolated-zero-zero-base-pairing-branch-is-empty.md)保任意Frobenius权及∞，非零A由原N二阶jet=-3排，A0两族由完整Gram第二核和合法原曲线germ取消后的非零相容式排。run44732550495全部QQ恒等式通过；p非零及其余分拆仍开。

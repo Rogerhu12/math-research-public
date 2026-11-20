@@ -5,8 +5,8 @@
 ## 主目标、规则与执行
 
 - **普通复可分无限维Hilbert ISP未完成。** 只有全体有界算子的存在定理或完整反例才收尾；子问题完成继续open，不以阶段或时限停止。
-- **最近成功实际pull与已读规则提交：** 77d32165a6d85885e799c1b5c34712c60dd25a30，2026-11-20 11:52:44 UTC，Actions run44731129539/job136270857160；真实git pull --rebase成功，两README未变，原日志已核。下一实际pull不得迟于12:52 UTC。
-- **最近API同步及规则核对：** `35d0d768258a205cd0d78552fb7fbfa4018ec70a`（2026-11-20 12:03:36 UTC）；两README blob均未变。API快照不冒称实际git pull，另记真实执行回执。
+- **最近成功实际pull与已读规则提交：** 35d0d768258a205cd0d78552fb7fbfa4018ec70a，2026-11-20 12:03:16 UTC，Actions run44732550495/job136275725868；真实git pull --rebase成功，两README未变，原日志已核。下一实际pull不得迟于13:03 UTC。
+- **最近API同步及规则核对：** `cdf11123ec33f90ab41ff8bfb804b9229e1996b6`（2026-11-20 12:05:38 UTC）；两README blob均未变。API快照不冒称实际git pull，另记真实执行回执。
 - 根README blob282e86b03385d3b6245ce7100ae2e2af7b103c2d、课题4d6570e9cf346431ab781a1290076a6321aaaa00已全文读。每次pull比两README，只读新diff并立即遵守；至少每小时及发布前同步，SHA写H。
 - 仅授权Rogerhu12/math-research-public。root独占main/H/open/results/log和发布，代理只交proof blob；每条结论单独提交推送，非快进立即更新/rebase重试成功，不force。用户PAT仅CLI环境，不进文件/config/日志。
 - 根规则15：可重算数组/数据/证书不进Git、Release或新工件；仅源码、参数、运行身份/SHA及正式证明。MD/API UTF8<100KB、H≤10000B、open尽量≤30KB、topic≤200MB、log每条≤5行、数学美元符及AI署名，不写根LOG。
@@ -30,9 +30,9 @@
 
 - **[V0/essT3=4整层已空](results/R150-appendix-zero-third-cumulant-nonreduced-essential-four-section-is-empty.md)：** rank3外值域、独立双二次/单基点与四约化已闭；现全4、3+1、2+2、2+1+1重数型也由完整Gaussian mean/H-gradient排除。保H_RY相关项，0/∞用原五阶奇零点。一般V≠0 inner ess4及V0/ess5,6仍开，matched Bell正证书继续。
 
-- **[V0原三个匹配平方在完整六变量理想中均非成员](results/R150-appendix-zero-third-cumulant-degree-six-three-matched-squares-are-not-members.md)：** run44731129539全267源列/270增广列模103均满列，列数上界给两个QQ秩夹逼；三有理目标商类独立，扩标量覆盖每个原根。不排更高幂或根基；转新degree9 S³。unit3+1 p0尚待修复后全核。
+- **[V0原三个匹配平方在完整六变量理想中均非成员](results/R150-appendix-zero-third-cumulant-degree-six-three-matched-squares-are-not-members.md)：** run44731129539全267源列/270增广列模103均满列，列数上界给两个QQ秩夹逼；三有理目标商类独立，扩标量覆盖每个原根。不排更高幂或根基；转新degree9 S³。[unit3+1全部p0支](results/R150-appendix-essential-four-unit-three-plus-one-isolated-zero-zero-base-pairing-branch-is-empty.md)现已通过完整原源并关闭。
 
-- **短请求9已冻结：** 只核修正后的unit3+1全p0、半权p非零及新V0 degree7目标(r·y)S_r²；792×742全原来源/三原根，成功后乘同Q_r给S_r³。全792×3有理回乘才作正结论；旧2+2/degree6不重跑。
+- **短请求9全部成功：** run44732550495的unit3+1 p0已登记，半权p非零原jets全核通过待独立登记；V0新(r·y)S_r²全792×3有理回乘为零（4.512秒），已获全V0 Bell零及三次幂正门，完整稿待登记；不运行已不需的degree9矩阵。
 
 ## R271：同w的完整源费用
 
