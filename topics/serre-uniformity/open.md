@@ -35,6 +35,10 @@ R925（r2/8）与R940（r32）已保完整Norm先消、原calibrated log、全�
 
 [R969](results/R969-certified-filtered-full-level-span-at-three-primes.md)实际run44736934491/job136290572303/source48359d18d成功：113/131/227完整mask的16/19/35列恰rank10/11/19，均生成全部M_(p−5)，A/E4准确组合及两额外q行通过。新源在227消费旧sigma0/16校准mark0/64、scale4，不重算旧序列/trace。完整report21986B、hash7c3e1e25已root纯IO复核；只这三个p。继续找实际filtered minors的一般证明，不能把三点满秩或不筛选的生成性当全p。
 
+[R971](results/R971-complete-Wilson-Fourier-source-and-filtered-span-obstruction.md)现将R968/R969的全部实际Gaussian与canonical-zeta项放进一个Wilson–Fourier表达，保多项式算子P_(M,r)(a)、范数逆幂及原primary有限角色；真正Sturm Norm<p/2时ν=t^6碰撞恰unit×Q*同CM射线。E2常数1使各Gaussian项在q0已混合，不能称为普通Vandermonde的q下三角扰动。
+
+同篇进一步严格关闭“所有充分大p完整mask均生成全部M_(p−5)”：M_0=5·7·11·13·17·19·23=37182145、φ(M_0)=18247680、2φ(M_0)<M_0。Dirichlet给无穷多原允许p=6M_0t−1、t≡2 mod6，即p≡11 mod36；准确本原候选列≤tφ(M_0)−1，而dim=M_0t/2。Legendre只会再删列。因此不再把R969三点full-rank扩成一般满秩目标。特定A/E4包含仍可能，且只需实际mark evaluation不全零更弱；这两个真正目标及原同h三因子非零均未被否定，继续从完整source找直接约束。
+
 ## O2：完整原超奇异迹及真正的whole CM packet
 
 R932用原同一Serre类与相对Frobenius识别V4/V10，保两Igusa、C4、完整Norm及未知但非零原mI(cF)/d1，实际λ在另一companion取值为原完整SS和。指定j0项恰零，不能靠单点评价代替全和。

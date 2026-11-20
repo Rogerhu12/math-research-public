@@ -4,9 +4,9 @@
 
 证明绝对C使全部无CM E/Q在p>C时模p满射，或给p→∞完整反例族。**主目标OPEN，未达README标准。**
 
-**维护会话：serre-public-astra-20261120-de0a3e3b。** 已部分克隆并真实pull main，接手serre-public-astra-20261115。最新前态逐字在[H归档](handoff-archive-2026-11-20-before-high-CM-congruence-criterion.md)，内接全部H/open旧归档、pins与关闭边界。只消费已成来源，不重做已登记结论。
+**维护会话：serre-public-astra-20261120-de0a3e3b。** 已部分克隆并真实pull main，接手serre-public-astra-20261115。最新前态逐字在[H归档](handoff-archive-2026-11-20-before-complete-Wilson-source.md)，内接全部H/open旧归档、pins与关闭边界。只消费已成来源，不重做已登记结论。
 
-**已读规则提交：a87c13cea1f822bdadcce75cb6d136d0873073d3**（2026-11-20T12:42:32.478579+00:00；终端真实git pull --rebase origin main，两README无diff）。两README完整已读，root SHA256 581402c2 / topic 35f82f3d；此前差异与原pins沿归档。
+**已读规则提交：27b283086d6f5d8b328eb8e36552bc9cd6ec4b3d**（2026-11-20T12:47:58.006851+00:00；终端真实git pull --rebase origin main，两README无diff）。两README完整已读，root SHA256 581402c2 / topic 35f82f3d；此前差异与原pins沿归档。
 
 每结论立即推；每push前且至少每小时真实pull。NFF立刻pull --rebase再推循环成功，禁force。每pull检查两README，有变只读diff并立即执行，SHA记此。PAT仅CLI，不入文件/提交，root独占main。新数学仅本公开仓库Actions；外部只纸证/IO/schema/hash/AST。raw不入Git/Release，本轮只/tmp和stdout。H<10KB、open<30KB、每MD<100KB、topic<200MB；log用Asia/Taipei≤5行，不写根LOG，不设额外审批/测试门。
 
@@ -14,13 +14,13 @@
 
 1. **同h三个原因子同时非零**：原h=6i+7、i+j=N−1、p=6N+5，必须同一个本原h使P_(h−1)(1/s)f_i g_j非零。R949/954全权正CM mark公式、R957原conic七阶极点/六次K6及λ⁴完整mask已成；评价权为h−3与p−h−2，不能换成R913的Jacobian两权。R959原整粗多项式给全失败恰(1+24X)|B_p(C,X)，X0=−1/24，fine零阶额外3；全p非零Q²源/valence均不能排这个因子。
 
-   [R964](results/R964-inverse-conductor-two-s-CM-family-and-original-sigma-heat-channel.md)逆ε2s族的真实heat源是(x³+2Ω6)σ6，全权商为−(6a)!(-864)^−a h_a/2；真正高Bol对应h_(i+2)，j≥1首p阶乘单位、j0保p+1边界。高导数关系仍不等同点值。
+   R964逆ε2s族的实际heat源(x³+2Ω6)σ6对应h_(i+2)，j0保p+1阶乘；高导数不能冒点值。R966单一K0=G0⊗H0+6F0⊗Y0及Π4∇²K0=−72F0⊗G0已成；原p−6阶jet保λ³/Rq²给U_p(C)，R959的B_p(C,X0)为准确单位乘U_p′。
 
-   [R966](results/R966-single-conductor-two-s-CM-kernel-and-original-critical-jet.md)现给单一原conductor2s双变量核K0=G0⊗H0+6F0⊗Y0，混合Gaussian与完整五项空间纸证；Π4∇²K0=−72F0⊗G0。原临界jet阶p−6，指数a=6i+4用λ³/Rq²滤子得到U_p(C)=Σ primitive·Legendre·fi gj C^a；B_p(C,X0)=(3/2)(p−7)!(-864)^(1−N)U_p′，支撑上导数可逆。仍须证明这个指定filtered jet非零；核非零本身不够。
-
-   [R968](results/R968-full-level-mixed-CM-jet-and-critical-factor.md)把同一核全局化为J_alg=e^(−E2xy/2)J_o/(6η4)，全S/T及heat系数递推准确；零参数zeta二阶算子给Z_i∈M_(p−5)(SL2,Z_(p))。原mark/E6^N=−72(-864)^−N fi gj，保全部mask后失败 iff系数共同含E4³，粗U次数≤floor(N/2)。尚无生成性或已知单位目标A/E4包含证明；不得由维数、kernel非零或三次heat后的单位推不存在共同因子。
+   R968将同源Gaussian/完整heat/零参数zeta全局化为实际Z_i∈M_(p−5)(SL2,Z_(p))，原mark/E6^N=−72(-864)^−N fi gj；全mask后失败 iff系数共同含E4³，粗U次数≤floor(N/2)。不把核非零或三阶heat后单位代共同因子排除；A/E4为同权mark单位目标。
 
    [R969](results/R969-certified-filtered-full-level-span-at-three-primes.md)run44736934491/job136290572303/source48359d18d已成功：113/131/227完整mask列16/19/35，rank10/11/19均为全M_(p−5)；A/E4组合和两额外q行全过。227消费旧0/16得新mark0/64、scale4；report21986B/hash7c3e1e25由root纯IO核。无sigma/trace重算；只有限fullspan，current request已完成。
+
+   [R971](results/R971-complete-Wilson-Fourier-source-and-filtered-span-obstruction.md)完整Wilson–Fourier源保全部Gaussian/zeta、范数逆幂及原mask；Sturm Norm<p/2时ν=t^6相等恰unit×Q*同射线，非普通Vandermonde。更强的全p full-span已严格排除：M_0=37182145、2φ(M_0)<M_0；Dirichlet给无穷多原允许p=6M_0t−1、t2mod6，原本原列数≤tφ(M_0)−1<dim M_(p−5)=M_0t/2。继续A/E4实际包含或mark functional非零，不能继续追全p满秩；两较弱目标未被否定。
 
 2. **原完整trace的一般非零**：R955实际CM Cartier nilpart恰单奇链L=2b+1，ker=kF且原λ检测coker；S非零 iff L1，失败 iff真实反角色C前像。R970现已证明两行整个原CM packet均nilpotent，链长就是整个包维数。R958 r2全两向矩阵和原R_F=−2D^(2N+1)β²C^p modtH给前像 iff ℓ_N(R_F)=0；ℓ(t^(j+1))/ℓ(t^j)=(3j+1)(3j+2)/(6j+7)²。原c_mom=Tr((3−2e0)DC/β²)≠0且S^p=−216c_momℓ(R_F)，这个比较单位不是目标moment单位。
 
@@ -33,11 +33,9 @@
 
 ## 已成比较，继续时不得偷换来源
 
-R944/947/950给完整原GM同伦、真实非零zV和低权指定对角全p非零。R953实际E_r+、正则πW=6G恢复高权Hasse边界/Igusa −1/6，底项−6^r(r−1)!F/B不能换低权水平极部；p-curvature注入非目标trace单位。R946/951/952给普遍Bol整除、偶r全障碍对称及真实O_r(H)=r!(𝒰H)^p/B^(p−r)，原F在两radical不推出whole饱和；whole饱和仍须𝒰全包零。
+R944/947/950的原GM/真实zV与低对角全p单位已成；R953高Hasse边界不能换低极部。R946/951/952整个S_w Bol整除、原F两radical和𝒰 q逆根保留；whole饱和需要𝒰全包零，nilpotent不够。R956紧支coker无SS/cusp torsion，K_r Y_F给S=6^(r−2)/r〈zV,K_rY_F〉；λ保mI(cF)^(1/p)/(36d1r!)。r2唯一δ给α；R962左项真对偶ℓTtr，r8 CM左项为零，α8=(1−5^9/147456)y_p^(1/p)−y_(25p)^(1/p)/147456，非零仍开。
 
-R956真实E_Bol=Sym^(r−1)H⊗F*ω紧支coker两端H1ω^(2−r)(−C)/S_(r+2)，SS/cusp无torsion。K_r保Y_F|SS=r!F^p/B^(p−r−1)，S=6^(r−2)/r〈zV,K_rY_F〉；原λ=mI(cF)^(1/p)/(36d1r!)乘pair。r2唯一负δ插值给K2Y_F=αV4，α=([Q^p]Y_F)^(1/p)。R962全M8非trivial U5=92160、左项真对偶ℓTtr/双次25U5^tr，故r8 CM左项消失；α8=(1−5^9/147456)y_p^(1/p)−y_(25p)^(1/p)/147456升换独立，非零仍开。
-
-R961原g=E4²/v、Hweak=4sH_Nu²D^(N+1)t^N及F0=𝒰Hweak给Y0=−36Y_F0。全12 cusp给H_k(F,F0)=12、原高pair^p=−72及g_p H4(v,v)=93312单位；真Scholl φv=p³a_pg、a_pg_p≡1 modp³保增强整格。该单位检测Cartier链顶F0，不能代链底F。
+R961全12cusp的高pair及g_pH4=93312、Scholl φv=p³a_pg与a_pg_p≡1 modp³保真正整格。该单位检测链顶F0，不能代链底F。全公式与source在最新H归档，不重做或丢原phase/Norm。
 
 ## 已完成计算与禁止重复
 
@@ -49,7 +47,7 @@ R945两独立run44719847377/44720732478给227/h115 f18=0、857/h433 g70=0，而�
 
 ## 继承的原几何与固定Y高度缺口
 
-全部原source/pins/尺度在最新[H归档](handoff-archive-2026-11-20-before-high-CM-congruence-criterion.md)及[open归档](open-archive-2026-11-20-before-conjugate-primitive.md)，证明/SHA见[索引](results.md)。R859–932的原J_h、两CM权、det/Igusa/fullNorm/ζ²、a_h/normal顶项与全j平方比均保持；非挠/log/低单位不替代原height。
+全部原source/pins/尺度在最新[H归档](handoff-archive-2026-11-20-before-complete-Wilson-source.md)及[open归档](open-archive-2026-11-20-before-conjugate-primitive.md)，证明/SHA见[索引](results.md)。R859–932的原J_h、两CM权、det/Igusa/fullNorm/ζ²、a_h/normal顶项与全j平方比均保持；非挠/log/低单位不替代原height。
 
 固定Y的R805–930实际W/两图/全部jets/7K trace/五Z两权/共轭连接与Artin微分迹只消费，λ0=1及t首项比不是height。旧R907四必要artifact实404、request待原字节，摘要不能代数组；五672铅笔/九NormΦ/端点格尚缺。Φ=QZ/qχ正乘、DN先−dlogQN再Gal7；254极阶/U272/两t/dual7保留。真real Rcal I_Z³、YP/FM128/634及508rank507、P1 c/a、原σ/cY/eη/d/N、nonp/Poincaré/splitting/height仍开。R870实际合法好约化niPiξj非零才判支持，YL1零非rank0，UE=dY+2period、End⁰G=F/torus≥g+1及μ3qφ*=0不删Y。旧六失败run/空artifact不重复；budget false FINAL非负数学结论。
 

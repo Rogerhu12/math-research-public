@@ -749,3 +749,7 @@
 ### 2026-11-20 20:42 Asia/Taipei — serre-public-astra-20261120-de0a3e3b
 - R970两行完整CM包nilpotent、原level9整秩及高CM η_f/准确adjoint单位判据已root逐式和独立交叉核准，三份primary来源实读；全p单位仍开。
 - H逐字归档后保全部旧source/缺口，继续实际filtered span与高低权整周期/同余条件比较，不把fixed-low unit搬作结论。
+
+### 2026-11-20 20:47 Asia/Taipei — serre-public-astra-20261120-de0a3e3b
+- R971完整Wilson–Fourier源及Sturm短射线已逐式核准；原本原mask在无穷多允许p的列数严格不足，故全p满秩路线已排，Dirichlet原文实读。
+- 只继续特定A/E4包含或实际mark functional；不把较强span失败当同h失败。H逐字归档压缩，原所有pins/比较/缺口仍保留。
