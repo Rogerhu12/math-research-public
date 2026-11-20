@@ -4,7 +4,7 @@
 
 ## 规则与完整目标
 
-最近规则核查：2026-11-20 16:19 UTC，真实pull/rebase至 `a841c2df59692c4841603e2c24a9b47838c45a6b`，双README相对上次已读无差异。
+最近规则核查：2026-11-20 16:20 UTC，真实pull/rebase至 `0e53ffba5d42ec80e47e8115669a383578425179`，双README相对上次已读无差异。
 
 科学计算仅本公开仓库Actions；早前本地偏差及13:00 UTC纠正见[执行记录](notes/2026-11-20-public-actions-execution-correction.md)。根README已授权必要修改/发布；根唯一local git writer，代理只work/小源。每条结论普通commit/push；NFF立即pull --rebase循环再推，不强推。至少每小时pull，每次核双README差异/立即遵新规并记commit。raw只scratch/runner，不入Git/Release/artifact；只保完整小源/参数/run/SHA/紧凑结论。题≤200MB，MD<100KB，H<10KB，open<30KB。令牌只瞬时CLI，不写文件/提交/回复。
 
@@ -26,7 +26,7 @@ R653准确quarter；R654完整H²尺度；R655付原node/mid盲空间，故旧18
 
 [R671首方向已真返](notes/2026-11-20-actual-reference-tail-first-result.md)：lambda1/eta885/nodal-projection初筛通过，256推进真接受alpha.5；97fdc9ea3af7c24720db940b41a1d783894648984411fbf4aaf026259c3a8dcc，Phi9.5261192037e−8/max.0125942600062/product.99195078548，model b6adb4df。681.489s/1947764KiB。iteration_limit，Pg6.09e−7非驻点，不据raw负乘子判因果。
 
-run2队列：尾纯report归因；原six→实际报告归因→同g径向二分/fine1×256→97fd全胞first/R675→97fd连续metric自适应。metric先全胞，严格lower超标交求解，只有包围未决才加密；1200s只为自然返回检查点，缺胞全域upper=null，后续继续。两种同级完整父续算入口已备，真实末mu/全位置从实际report恢复；非零尾只同lambda/eta keep-q。R677v3等真实history/拒步原因后择用，不先默认CG32为因果。
+run2队列：尾纯report归因；原six→实际报告归因→同g径向二分/fine1×256→[纯report精化归因](notes/2026-11-20-fixed-g-refinement-report-attribution-and-next-layer.md)→97fd全胞first/R675→97fd连续metric自适应。metric先全胞，严格lower超标交求解，只有包围未决才加密；1200s只为自然返回检查点，缺胞全域upper=null，后续继续。两种同级完整父续算入口已备，真实末mu/全位置从实际report恢复；非零尾只同lambda/eta keep-q。R677v3等真实history/拒步原因后择用，不先默认CG32为因果。
 
 **独立几何worker03**：[完整配置](notes/2026-11-20-independent-geometry-worker03-plan.md)，request03此次push触发；实际run号待回报。从queue2迁出其尚未开始的4项，逐项参数原样：必要再生输入→完整首jet/非平面→D≤4.1半径续化→R672全部922胞K目标8.1→准确同场几何合并。它与run2求解独立，不取消现six。source/deps/controller相同，独立并发组。输入必须在新runner再生且核实际SHA；不是重宣旧结论或搬旧证书。
 
