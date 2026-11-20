@@ -223,3 +223,5 @@
 2026-11-20 17:28 UTC / Astra-larger-resume-24b2ab87-20261120：独立完整几何消费者6c02新增真实f476 producer+8ca kernel分支，保原8ca兼容；核实际bundle/node/四deps/profile/原first祖先、完整逐胞正E/W²与真实max。缺胞K仍未付，target8.1不冒reach硬门；11原helper AST与整块Fraction reach/marker/held公式不变。仅源码/AST/文本核，无科学/fixture/queue变化，当前worker03原8ca自然运行。
 
 2026-11-20 17:37 UTC / Astra-larger-resume-24b2ab87-20261120：R680数值helper5bc完整刊：固定父branch/radius/norm真实c_i(d)，显式tau，正越界行两遍row-QR最小原范数修正，秩亏整次退回且全旧Cj直接复查；真实模型/row-cache/源码绑定，不把总max代每行。严格L/gamma/tau未付，helper不接受场/不改mu，完整Phi/全点及corrected模型由后续driver承担。仅静态/AST，无science/fixture/实际SOC；接线继续。
+
+2026-11-20 17:40 UTC / Astra-larger-resume-24b2ab87-20261120：R681角矩源da083ae9完整刊：直接复用当前R664正块/完整moving-frame cache，21×50角矩保全部原角权与全M场；按全部observed行Hermite重建真实B_H=(b-h)+h，非legacy行cache。gamma=k/(scale² C0)，原R双侧白化仅利用逐项零块，无单位J扫描/巨大Q/新场读。root与独立静态接口核无具体缺陷，仅AST/源码，不宣称数值PSD/耗时/改善；原线性QP与真实几何分责。
