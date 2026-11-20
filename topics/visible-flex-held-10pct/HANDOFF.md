@@ -6,7 +6,7 @@
 
 连通闭C²嵌入、C²连续族；固定有内点H且diamH≥.2D，整像δhold≥.1D及含反射δE>0，全时reach≥.03D。同一完整g/全部物理参数/时间范围下，完整metric≤1e−6且空间/频率/时间精化降至求解或机器地板；全部闭合与Cartesian两jet接口须实际支付。
 
-- 部分克隆工作树 /workspace/scratch/1b6d88ecddf3/math-research-public。已读规则提交：`615047a18e76d0632fba87a074f2f30603bbd96c`；12:23 UTC本地真实pull --rebase至该提交，双README无变。每次pull检查双README差异，至少每小时一次；API比较不冒充pull。
+- 部分克隆工作树 /workspace/scratch/1b6d88ecddf3/math-research-public。已读规则提交：`cc9c405a5e6b3ead7f8ccd3a529c03fab321066a`；12:25 UTC本地真实pull --rebase至该提交，双README无变。每次pull检查双README差异，至少每小时一次；API比较不冒充pull。
 - root独占git，逐结论推送，NFF立即pull --rebase/核双README后再推，禁force；令牌只在命令行。11:06 UTC终端已恢复。
 - 根§12优先实际数学/求解，不重复身份核查/双审；§15再生场、网格、矩阵不入Git/Release/artifacts，只存源/参数/命令/hash/小标量。H<10KB、单MD<100KB、目录<200MB，不写根LOG。
 - 压缩不撤销旧结果。完整旧断点见[接手H](https://github.com/Rogerhu12/math-research-public/blob/9288f266d1f242b594d70a714e20340fcb876023/topics/visible-flex-held-10pct/HANDOFF.md)和[本次H到73e060](https://github.com/Rogerhu12/math-research-public/blob/73e060110b34d302cc86f920a7b054590afbe8fd/topics/visible-flex-held-10pct/HANDOFF.md)；其链接的具体note优先于压缩摘要。
@@ -19,7 +19,7 @@ R55多段profile独立source `/workspace/scratch/1b6d88ecddf3/m3-work/multistage
 
 **宽窗S=.5/b=.2、τ=1、目标k=.2的λ0完整lift实际复接通过**：622点/一次全步/metric5.45534e−7；原support核相同，但完整未投影lift改变有限模型，δ/c仍重解。raw在m3-work/newg-wide-lambda0-tau1-linear；[实际返回与新M8核心正性盒](notes/2026-11-20-m3-newg-wide-lambda0-lift-and-core-positive-box.md)。q[.0599,.0601]、|c6|≤.001/其余六≤.0001给ρ≥.3057、τ1整λ κ≥.2，不能搬给新增高模或Frenet域。
 
-后续λ=.002的M8/M16原linearDN均收敛但metric未门，固定同一λ扩大未知空间；m3最新M24已实报631点/metric6.48242e−7过原前缀门，完整记录正写，真尾尚无返回。新g真尾独立work绑定multistage-source-v2/本profile/原chart与tail，禁止旧live bootstrap回落旧g；已有native源链准备。全部δ/c仍为设计未知，非冻结g族。
+λ=.002/M8真收敛但metric3.19321e−5、operator2.68683e−5未门，主要R在ψ26—50投影外；[M8终态](notes/2026-11-20-m3-newg-wide-lambda0002-m8-terminal.md)。保持λ扩大未知空间；m3最新M24已实报631点/metric6.48242e−7过原前缀门，完整记录正写，真尾尚无返回。新g真尾独立work绑定multistage-source-v2/本profile/原chart与tail，禁止旧live bootstrap回落旧g；已有native源链准备。全部δ/c仍为设计未知，非冻结g族。
 
 ## 旧g live和真实审计
 
