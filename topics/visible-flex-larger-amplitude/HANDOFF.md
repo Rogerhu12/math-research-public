@@ -4,7 +4,7 @@
 
 ## 规则与目标
 
-最近规则核查：2026-11-20 11:55 UTC，真实pull/rebase至 `6dc0acc409c88fb17849f9f9107005e62ae66551`，双README相对上次已读无差异。
+最近规则核查：2026-11-20 12:00 UTC，真实pull/rebase至 `8df8c6fc69031be821fb208aae839db6fc00411a`，双README相对上次已读无差异。
 
 公开仓库内工作，终端git普通push；NFF立即pull/rebase再推，每次查双README差异，至少每小时pull。根README已授权全部必要修改/发布；完整证明直接登记，不加冻结/独审门。raw只scratch，Git/Release/artifact只保小源/参数/run/SHA/紧凑结论。题≤200MB、单MD<100KB、H<10KB、open<30KB。令牌只瞬时CLI，不写文件/提交/回复。根唯一git writer，代理写work及小blob。
 
@@ -46,7 +46,7 @@
 
 [R659](results/R659-complete-image-held-amplitude-for-the-same-closed-candidate.md)同6077全体目标见证距≥.943143，δhold/D>.2296；高≤.001固定帽标记因见证z=0仍保该距离，条件比例>.2295。源/全部922胞范围与SHA已付，未冒等距/非全等完成。
 
-- geometry_path：[v4b12步](notes/2026-11-20-curvature-qp-protected-992-twelve-step-result.md)已自然返2b143，Jw.28981378/Gram.04620002、known product.991814。按新尾部谱扩17径向中心，六步5接受/1拒得1240，Jw.28193249/Gram.03569674；新prefix227峰product.992944只超算法余量。N8192密角纯读完成、无更高新样本；保留新峰，首物理H²粗方向从13ce得e19，Jw.199338/Gram.0305893/product.990818，正按同目标接后续方向。
+- geometry_path：[v4b12步](notes/2026-11-20-curvature-qp-protected-992-twelve-step-result.md)已自然返2b143，Jw.28981378/Gram.04620002、known product.991814。[按新尾部谱扩17径向中心](notes/2026-11-20-curvature-qp-r17-angular8192-result.md)，六步5接受/1拒得1240，Jw.28193249/Gram.03569674；新prefix227峰product.992944只超算法余量。N8192密角纯读完成、无更高新样本；保留新峰，首物理H²粗方向从13ce得e19，Jw.199338/Gram.0305893/product.990818，同v5又6步全接受得0241，Jw.133684/Gram.0240136/product.991894，接明确正谱p8真实回溯。
 - fullclosed_solver：[24de父完整256/64行](notes/2026-11-20-physical-height-fixed-memory-first-result.md)已返13ce，Jw.29494283/Gram.03981718；新2b143及r17所有已知点重评后product.989822<.992。完整永久κ/半径记忆保留；分块192行预算已实际启动下一完整256方向，137κ/29半径全部永久保留，不移植其他父的曲率数值。
 - recover_evidence：[R657](results/R657-complete-closed-relative-Gram-and-same-scalar-enclosure.md)完整连续Gram接口已证，def1胞839严格上下界.10186124/.10187890，同a五次Taylor余项约1.08e−14，不能靠证明网格加密冒求解收敛。严格同像径向复合已实际返：Jw仅降.504%，Gram略升，不作主父；接正block-Lp/IRLS真实目标方向，不以冻结权重代价下降冒max下降。
 
