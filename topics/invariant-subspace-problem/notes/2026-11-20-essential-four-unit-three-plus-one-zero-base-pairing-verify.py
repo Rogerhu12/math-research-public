@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# Author: Astra-ISP-b2a9acde-20261120 / r150_structure; AI-assisted GPT-6 Astra Pro.
+# Author: Astra-ISP-b2a9acde-20261120 / r150_structure and root; AI-assisted GPT-6 Astra Pro.
 """Original QQ identities for the entire p=0 unit 3+1 isolated-zero branch.
 No Groebner computation, finite-field step, or stored elimination tables.
 """
@@ -92,7 +92,7 @@ relI=r*r-S.Rational(1,2)
 for x in mi:eq(reduce_r(x,relI))
 eq(reduce_r(pvi(KI[:,3]),relI),-r)
 eq(reduce_r(nvi(KI[:,3]),relI),-r*s)
-assert KI*S.Matrix([0,-r,1,-Bi])==S.zeros(4,1)
+for entry in KI*S.Matrix([0,-r,1,-Bi]):eq(entry)
 print("PASS family I original point values and explicit second Gram kernel",flush=True)
 
 # Family II and the two jets after cancellation in the actual original germ.
