@@ -6,7 +6,7 @@
 
 - **普通复可分无限维Hilbert ISP未完成。** 只有全体有界算子的存在定理或完整反例才收尾；子问题完成继续open，不以阶段或时限停止。
 - **最近成功实际pull与已读规则提交：** e7e7b9ec349f1bec3d775f1eab35fd5869e27a79，2026-11-20 10:46:24 UTC，Actions run44722024572/job136239897518；真实git pull --rebase成功，两README未变，原日志已核。下一实际pull不得迟于11:46 UTC。
-- **最近API同步及规则核对：** `95dad3c11774cfe1b59339aa363b586a9cdc48fb`（2026-11-20 10:52:17 UTC）；两README blob均未变。API快照不冒称实际git pull，另记真实执行回执。
+- **最近API同步及规则核对：** `ae9e8102e9c3bcef36a2b4add790cd47d2ffd298`（2026-11-20 10:53:21 UTC）；两README blob均未变。API快照不冒称实际git pull，另记真实执行回执。
 - 根README blob282e86b03385d3b6245ce7100ae2e2af7b103c2d、课题4d6570e9cf346431ab781a1290076a6321aaaa00已全文读。每次pull比两README，只读新diff并立即遵守；至少每小时及发布前同步，SHA写H。
 - 仅授权Rogerhu12/math-research-public。root独占main/H/open/results/log和发布，代理只交proof blob；每条结论单独提交推送，非快进立即更新/rebase重试成功，不force。用户PAT仅CLI环境，不进文件/config/日志。
 - 根规则15：可重算数组/数据/证书不进Git、Release或新工件；仅源码、参数、运行身份/SHA及正式证明。MD/API UTF8<100KB、H≤10000B、open尽量≤30KB、topic≤200MB、log每条≤5行、数学美元符及AI署名，不写根LOG。
@@ -40,8 +40,9 @@ M=kerT、N=closure BM；N=M未证。保same-w/u、全部partial、真intersectio
 
 ## 原Deddens与非复制来源
 
-- 全D_A localizing但范数不闭；统一c族全非localizing、范数闭包无非零紧。所有A不变子商排严格分级移位/有限块直和相似；未知shift part未排。完整外部状态见[文献刷新](notes/2026-11-20-literature-refresh-b2a9.md)，无可采用的完整答案。
-- 有限头B⊗I属D_A恰下三角，最优c为至多2N原端点矩阵范数最大值；核心收缩SOT稠密但无统一c。[硬/全复软copy](results/R12-appendix-soft-copying-fixed-ball-fifth-order-cost-barrier.md)固定非零球需Σlogc≥c₀n⁵−O(n²)，原幂仅四次，全部相位/适应/有界放大不救；一般来源仍开。
-- [负幂域/等距共轭](results/R12-appendix-deddens-negative-domains-and-isometric-conjugation.md)：同一c保全部RanA^k和负幂，Φ=AXA⁻¹、Ψ互逆保c；实际u_n=Φ⁻ⁿ(R_n)u_(n−1)。∩A^kM稠密但未付源增长。
-- [有限平均/无损多项式](results/R12-appendix-finite-conjugation-average-and-lossless-polynomial-head-cost.md)：有限Φ周期N给准确Π多项式，c(p(A_m))夹逼‖p(A)‖，逆Fejér准确提升成本inf=‖p(A)‖，平均不自动保一般输入。
-- **[全交换子的最优成本与收缩多项式逼近](results/R12-appendix-contractive-polynomial-density-of-full-haar-commutant.md)已闭。** 原块身份给p_m(A)与压缩头之op差≤ε_m‖X‖，ε_m=(N+(1−α0)⁻²)α_m/β_(N−1)→0；规范后真多项式逐项范数≤‖X‖且SOT趋X。再取同一个细头，c(C_m)≤‖X‖、C_m与ΠC_m同强趋X且op差趋零。已将先前κ改进到最优1；全D成本与任意平均连续性另核。
+- 此前完整D_A/shift/core/copy/平均及全部适用边界保[本次H快照](notes/2026-11-20-handoff-before-full-deddens-optimal-heads-b2a9.md)、[结果索引](results.md)与[文献刷新](notes/2026-11-20-literature-refresh-b2a9.md)。全D_A localizing但范数不闭，所有统一c族非localizing；范数闭包/交换子无非零紧。硬/全复软copy的五次成本门已闭，不重做。普通ISP仍开。
+- [负幂域与等距共轭](results/R12-appendix-deddens-negative-domains-and-isometric-conjugation.md)：同一最优c保全部RanA^k和负幂，Φ=AXA⁻¹、Ψ互逆保c；实际u_n=Φ⁻ⁿ(R_n)u_(n−1)。∩A^kM稠密但无源增长预算。
+- **[整个D_A最优成本有限头逼近](results/R12-appendix-full-deddens-algebra-optimal-cost-finite-head-approximation.md)已闭。** 对任意X∈D_A，取B_m=tril E_m(X)，δ_m=Nα_m/β_(N−1)→0；完整2N端点的两段分别用无carry的Φ^q、Φ^(q−N)压缩同一个尾常向量，c(B_m)≤(1+2δ_m)c(X)。规范后C_m逐项c≤c(X)、SOT趋X；固定成本球的全部有限输入像恰是有限头像范数闭包，最小有限插值成本若有限则达到。没有自动给任意目标有限成本。
+- **[全交换子的最优多项式/双逼近](results/R12-appendix-contractive-polynomial-density-of-full-haar-commutant.md)已闭。** 精确跨头块给真多项式范数≤‖X‖、SOT趋X；再同一细头C_m与ΠC_m同强趋X、op差趋零，统一c≤‖X‖最优。替代先前κ>1。一般平均的连续性另核，不能由全D最优逼近自动推出。
+- 当前主门是同一条变化来源序列的实际凸最优费用及原不变量；有限头2N成本约束与负幂原像都已付，未付任意递推目标的预算。
+

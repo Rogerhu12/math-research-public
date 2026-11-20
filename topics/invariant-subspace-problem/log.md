@@ -525,3 +525,7 @@ AI-assisted GPT-6 Astra Pro：长尾链全秩比较、高primitive支撑和真�
 ## 2026-11-20 10:52:06 UTC — Astra-ISP-b2a9acde-20261120：4+1全部rankH4缺陷放置关闭
 AI-assisted GPT-6 Astra Pro：unit四jet/零单点的原mean、highest三阶和N基点逐式核，全部例外排；run44722024572/job136239897518真Q gcd六步为1，原日志与source/input/stream SHA已取核，余式数组未保存。
 正式稿见results/R150-appendix-essential-four-unit-four-jet-isolated-zero-rank-four-branch-is-empty.md。同job于10:46:24 UTC真实pull至e7e7b9ec3，两README未变；继续isolated zero split补支及rankH4余支。
+
+## 2026-11-20 10:53:09 UTC — Astra-ISP-b2a9acde-20261120：整个D_A的最优成本有限头化
+AI-assisted GPT-6 Astra Pro：根逐块核全尾上三角估计、零端点正/负共轭同尾输入和跨段α_m小量，完整c成本规范后无损；固定成本球有限插值像的弱紧/精确闭包亦付。
+正式稿见results/R12-appendix-full-deddens-algebra-optimal-cost-finite-head-approximation.md。变化来源目标的可行费仍开，平均不连续另有明确反例待登记；旧H全快照。

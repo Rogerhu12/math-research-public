@@ -130,3 +130,5 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 **[最高carry新核的高primitive支撑与固定N族残余阶已闭](results/R271-appendix-high-primitive-support-and-uniform-low-carry-residue-order.md)。** 长尾链l≥d+r−1不丢核；真实K(s)的分级框架而非kerX(0,0)给完整Galerkin系数a_ν支撑≤1+ν，非正交primitive只用于可行比较。统一低carry缩s下最高t极点系数有(R−5d−r+13)/2阶（相应J*≥1），而整个q未同阶。移动m的常数/有效邻域未付，固定最大s和最小旧s均有明确缺口；继续强权公共尺度、多参数及真实费用。
 
 **[unit四jet加孤立零点的rankH4整支已空](results/R150-appendix-essential-four-unit-four-jet-isolated-zero-rank-four-branch-is-empty.md)。** B=0、B≠0/A=0、regular及C=0除法边界全部由原mean/highest/N处理；regular的H6/M8原必要多项式由run44722024572/job136239897518精确整数pseudo-remainder六步得到Q gcd1。保源码、输入、运行/SHA，不保存计算余式。divisor4+1两种rankH4缺陷放置全闭；isolated zero的split单位长度4仍开。
+
+**[全D_A最优成本有限头化已闭](results/R12-appendix-full-deddens-algebra-optimal-cost-finite-head-approximation.md)。** 原上三角块全尾norm≤c α_m/β_(N−1)，成本零端点的两段分别用无carry的Φ^q和Φ^(q−N)保持同一尾常向量；另一端点跨段仅δ_m c。故tril E_m(X)成本≤(1+2δ)c(X)，规范后逐项最优c、SOT趋X。固定成本球的有限输入像弱紧且恰为有限头像norm闭包，若精确插值成本有限则能达到。继续变化来源的具体最优费用，不假任意目标可行或平均连续。

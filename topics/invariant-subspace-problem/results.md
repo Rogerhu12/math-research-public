@@ -346,3 +346,5 @@
 - **R271 高primitive新核支撑与统一低carry残余阶（2026-11-20，已证明）：** [完整物理真核解析、源传播和pole费用](results/R271-appendix-high-primitive-support-and-uniform-low-carry-residue-order.md)对l≥d+r−1的尾链秩不降，新增约束只在高初始孔级；完整H-Galerkin系数逐阶保孔传播，非正交链只作可行比较。N族统一低carry缩s时最高t极点系数阶至少(R−5d−r+13)/2（J*≥1），含全部s^{−(2d−6)}逆损失。固定参数O范围，未付移动m常数或实际R=d费用。
 
 - **R150 单位四jet加孤立零点的rankH4为空（2026-11-20，已证明）：** [全原源、例外支及精确Q消去](results/R150-appendix-essential-four-unit-four-jet-isolated-zero-rank-four-branch-is-empty.md)逐项施加完整mean四式、最高前三阶及N基点，关闭B/A/C零分支；regular只余原H6/M8，run44722024572精确六步gcd1。原日志已取，源/参数/SHA保留，计算余式不存。divisor4+1两种rank4放置全闭，split单位补支另解。
+
+- **原整个Deddens代数的最优成本有限头近似（2026-11-20，已证明）：** [同尾输入、正负共轭两段与完整端点预算](results/R12-appendix-full-deddens-algebra-optimal-cost-finite-head-approximation.md)给c(tril E_m X)≤(1+2δ_m)c(X)，δ_m→0；规范后固定最优成本球内SOT逼近。全部有限输入的该成本球像弱紧，恰是同成本有限头像的norm闭包，有限最小插值成本可达。保实际负幂域，不宣任意目标可行或自动Π连续。
