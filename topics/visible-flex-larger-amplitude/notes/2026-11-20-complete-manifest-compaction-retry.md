@@ -1,0 +1,11 @@
+# 完整位置清单的字节级排版修复与真实错误读取
+
+公开run44748103105/1第33步的pair在5.788347434秒返回exit1；两支各约2秒exit1，均无完整report、无方向，不能称为QP数学失败。实际comparison SHA a3347bf6b93b69404fc33699eba743637fd571b44df989edc2ca799e662fd176。
+
+代码检查发现旧完整QP和新R671 driver均在读manifest时拒绝大于100000B；当前返回的完整位置manifest实际119473B，超过该检查。当前只是已确定的入口冲突，具体真实trace由本次紧凑准备同时读取。保全部位置的修复是只移除JSON排版空白：保持所有键、每个tuple、顺序、保护位、输入身份；roundtrip JSON值逐项相等，原文件不改。新文件仍要求≤100000B，若仍太大则明确报错，不删除点。这里不改既刊科学driver或原边界。
+
+完整入口compact_witness_manifest_actions.py SHA 79014ae97d975c213e72bcfca423e735d678fcb9b82a93ac525f7fe42a0a8b9d；使用stdlib JSON/hash与读取指定已返日志，无任何场/标量科学评价。原完整manifest SHA db108e8241b7c4b8a9ba4e1f4c48d26415e9c2ca002a042d45c11b9e7bc2fa1d。原pair和R671的失败记录保留；新step IDs以02结尾，输出分别full-phi-margin-pair-compact、exact-tail-full-phi-first-compact，不覆盖失败目录。父c4a3、实际mu、全部目标/原坐标/永久位置与原计划相同。
+
+精确argv/输入/输出/摘要映射在computations/resume-20261120-followups.json。公开实际读取的trace与新manifest SHA由同run后继阶段登记；当前不虚构日志文字或求解结果。
+
+执行身份与是否已运行以正文各项状态为准，未执行准备源不冒称已有数值结果。临时数组沿原输入链再生；纯位置替代输入保计算语义，不冒称原raw报告的路径或逐字SHA。
