@@ -1,18 +1,18 @@
 # 交接：可见振幅的精确闭等距族
 
-维护会话：`visible-exact-astra-ac637-20261120`；更新：2026-11-20 10:22:46 UTC。
+维护会话：`visible-exact-astra-ac637-20261120`；更新：2026-11-20 10:25:56 UTC。
 **总任务未完成；继续研究，不等用户回复。**
 
 ## 规则读点与接续来源
 
 部分克隆：`/workspace/scratch/ac637cfcc78d/math-research-public`。终端 git 已恢复，无 AGENTS。
-2026-11-20 10:22:46 UTC 实际pull/rebase至 `782fbff1c1154869ad43c71728e3c6fe02140c8f`；已读规则提交同上，两README相对96edc6770空diff。每次pull后核规则差异；下次实际pull最迟11:22:46 UTC。
+2026-11-20 10:25:56 UTC 实际pull/rebase至 `d34abe793f4d4e7893faaffb366d8f66c86e5370`；已读规则提交同上，两README相对96edc6770空diff。每次pull后核规则差异；下次实际pull最迟11:25:56 UTC。
 
 接手前完整 H（含全部递归原页、成功/失败/恢复身份和未付义务）见 [2026-11-16 完整检查点](https://github.com/Rogerhu12/math-research-public/blob/882aa9b74efeaac682df43c197820e7280156357/topics/visible-flex-exact-nearby/HANDOFF.md)。本页只压缩索引；`open.md` 及所链接的原证明、适用域、均值、物理角、所有边界和误差费用继续有效。旧成功结论不重算。
 
 新科学数值用本公开仓库 Actions；本机用于证明、编辑及静态检查。每条实质结论更新 H 并独立提交推送；推前实际 pull，非快进立刻 rebase 再推，不 force。规则15：只留脚本、参数、run、hash 和小结论，不入库新数组/可重算证书，topic≤200 MB。3份未被当前输入引用的旧大数组/删除库存已按规15移为Git历史指针，见 `notes/2026-11-20-reproducible-data-history-pointers.json`；原字节可恢复、不重算。
 
-前会话自设的全部活跃工作流静态白名单导致纯只读运行被他题阻断，非数学条件。根规12不要求这道行政门。本会话改为每次发布前在实际 rebase 后精确计算整个 topic 与输出字节数；竞争 push 后重算。数学输入、21个原件身份、mean/ports及原五图50条定义均保留；先做R139的3条必要预算目标，余47条明确未算。
+根规12下移除无关workflow静态白名单，仍逐次rebase后核全topic和输出容量；21原件、mean/ports、五图50条定义保留。先做R139的3条预算目标，余47条未算。
 
 ## 完成标准与当前同一对象
 
@@ -29,7 +29,7 @@ geometry `43584188751/26` **仅条件性**：同η0真 wholecore（含帽）C0�
 
 [R136](results/R136-stable-complete-joint-centre-columns.md)（已证明）：完整WJK核改用固定128/256宽度源列与稳定Green作用；保全五collar项、两三角、193 atoms和同点signed合并，原图1–3/真无限tail不变。源码已合入并AST通过，未运行新科学数值。
 
-[R139](results/R139-necessary-budget-for-fixed-W2C-comparison.md)（已证明）：固定WVC旧费用给G(K)≥109/120+(963/80)(K+ε)；故任一已选low-family比较数L≥1/128即排除当前充分界配方，非真实范数下界/非奇异性。已给精确剩余K预算式；L首次44716804300/1在全部155panel准备后因零端点区间长度检查停止，0scalar；正在窄修reference后续算未成目标。
+[R139](results/R139-necessary-budget-for-fixed-W2C-comparison.md)（已证明）：固定WVC旧费用给G(K)≥109/120+(963/80)(K+ε)；L≥1/128排除既定充分界配方，不推奇异。首次44716804300/1完成155panel准备后零端点区间检查失败、0scalar。[包含修复](results/R139-supplement-certified-zero-endpoint-interval-continuation.md)已保真非负外包/原检查，v2只接续未成3条。
 
 [R137](results/R137-continuous-signed-centre-and-exact-endpoint-system.md)（已证明）：完整连续WJK中心I−Hc可逆等价于1217态/609端点矩阵非奇异，证明无aux-only核及Fredholm闭合；原finite投影/ρ/lift缺陷明确另付。当前只备193低态/97端点浮点诊断，未给非奇异或全逆证书。
 
@@ -56,9 +56,9 @@ geometry `43584188751/26` **仅条件性**：同η0真 wholecore（含帽）C0�
 当前模块：owner `fourfold_codazzi_collar_volterra_dual_candidate.py`；完整输入恢复/执行为同前缀 `public_worker.py`；reader 为 `readonly.py`、`readonly_core.py`；math 为 `true_collar_signed_packet_math.py`、`signed_semiseparable_kernel_math.py`、`collar_dual_feedback_math.py`、`W2C_signed_reference_math.py`（都在 scripts/）。完整 native 数据与29整球仅恢复旧字节，不调用旧 producer。
 
 1. `joint_kernel` 的稳定graph4已按R136合入；现实现独立低family比较预算诊断，先算原graph3的3条新scalar。若L≥1/128，按固定WVC旧常数可直接排除此充分界配方；其余47条未算，不反推奇异。
-2. `positive_inverse` 的R137与精确BVP接口、低193/97诊断模块已合入且AST通过；公共workflow `fourfold-codazzi-low193-endpoint-diagnostic-public.yml` 随本提交触发；仅midpoint比较算子启发式，完整CFB/原均值端口/实际family误差未付。
+2. `positive_inverse` 的R137及低193/97诊断已合入，继续R141真panel/真实根的双侧Green认证；midpoint诊断未证实际逆，完整CFB/原均值端口/实际family误差仍付。
 3. `global_route` 已完成R138及旋转能量补篇，接着核实际mixed边界费用/残差吸收；R135只排固定线性核连续化，R520小振幅不替验收。
-4. root维护git与记录、接续两公共诊断：low-family44716804300/1保存0scalar失败；97endpoint44717190551为YAML解析失败、jobs0。窄修reference非负区间及YAML后只算未成目标，原21原件/7模块/50父目标不变。代理不动git。
+4. root维护git与记录；两workflow的v2清单已生成（low-family65、endpoint64输入），保旧失败/marker，使用修复reference SHA6aa0dbd8及新marker。本提交触发接续L三量和首次endpoint科学；原endpoint44717190551为YAML失败、jobs0，现block scalar已修。代理不动git。
 
 ## 正侧以外仍未付的接口
 

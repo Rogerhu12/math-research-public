@@ -244,7 +244,8 @@ jobs:
         with:
           python-version: '3.12.14'
       - name: Install fixed published Arb and floating runtimes
-        run: python -m pip install --disable-pip-version-check --only-binary=:all: python-flint==0.9.0 numpy==2.3.5 scipy==1.16.3
+        run: |
+          python -m pip install --disable-pip-version-check --only-binary=:all: python-flint==0.9.0 numpy==2.3.5 scipy==1.16.3
       - name: Admit original inputs and compute one complete low193 diagnostic
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

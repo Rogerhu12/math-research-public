@@ -163,6 +163,8 @@ WIC真tail κ=3已闭；WPN仍须完整e+3dt<1。WPS/WVC/WCTRA充分门均false�
 
 [R139](results/R139-necessary-budget-for-fixed-W2C-comparison.md)给固定旧费用下的必要门K+ε<1/128。当前先独立计算完整low-family比较L的3条记录；若L≥1/128，登记此配方不可能通过并转直接中心BVP，余47条未算。若未触发排除，只复用这3条继续原新目标，不能称finite门已通过。
 
+首轮44716804300/1在155panel准备后保存0scalar失败；[零端点包含修复](results/R139-supplement-certified-zero-endpoint-interval-continuation.md)只改已证明非负量的球表示，v2清单保旧回执并接续未成3条。endpoint首轮44717190551为YAML解析失败、jobs0；格式修复和同reference pin后才作首次科学。
+
 [R137](results/R137-continuous-signed-centre-and-exact-endpoint-system.md)已将同一连续signed-centre inverse精确改成1217态/609端点问题，排除aux-only核；不是有限Qf直接逆证书，S.18c投影/lift缺陷与ρ因子仍需付。先进行全193低态/97端点的midpoint比较诊断以选稳定双侧传播；CFB、高family、真实系数差及全输出norm均未付。
 
 [R138](results/R138-residual-sensitive-Codazzi-frame-and-geometric-Jacobi-bridge.md)给同Qrepair的实际径向重建、frame/位置/height残差及完整方向桥；193 mixed行不能当Dirichlet，WVC η替换主部差仍是角导源。下一步接rotation-field真实边界能量并付残差吸收，而非从形式椭圆性推全逆。

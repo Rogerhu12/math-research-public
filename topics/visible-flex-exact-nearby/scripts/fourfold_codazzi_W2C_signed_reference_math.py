@@ -68,13 +68,73 @@ def _upper(api, value):
     return -api.lower(-value)
 
 
+def _nonnegative_interval(api, lower, upper):
+    """An outward interval whose REPRESENTED lower endpoint is nonnegative.
+
+    The caller has already proved the enclosed real quantity lies between
+    the supplied nonnegative endpoints.  A generic outward ball for [0,U]
+    can have a slightly negative lower endpoint because its radius rounds
+    outwards.  Recenter a symmetric ball by its exact directed endpoint:
+    B=[-R,R] implies B+R=[0,2R].  The checked endpoint identities avoid any
+    reliance on an unchecked ball constructor or on an absolute-value trick.
+    This adds only the ordinary ball-radius rounding, not a power-of-two hull.
+    """
+    lo, hi = api.lower(lower), _upper(api, upper)
+    require(api.zero <= lo <= hi, "proved nonnegative interval endpoints")
+    value = api.interval(lo, hi)
+    if api.lower(value) >= 0:
+        return value
+    cap = _upper(api, value)
+    require(cap >= hi, "outward original nonnegative-interval cap")
+    half = cap/2
+    symmetric = api.interval(-half, half)
+    radius = _upper(api, symmetric)
+    require(api.lower(symmetric) == -radius,
+            "exact symmetric directed ball endpoints")
+    value = symmetric+radius
+    require(api.lower(value) == 0 and _upper(api, value) >= hi,
+            "exact zero endpoint and complete outward nonnegative hull")
+    return value
+
+
 def _clip(api, value, lower, upper=None):
     lo = max(api.lower(value), api.lower(lower))
     hi = _upper(api, value)
     if upper is not None:
         hi = min(hi, _upper(api, upper))
     require(lo <= hi, "true reference invariant intersects the complete enclosure")
+    if lo >= 0:
+        return _nonnegative_interval(api, lo, hi)
     return api.interval(lo, hi)
+
+
+def _geometric_partial_length(domain, box, direction):
+    """Nonnegative hull justified by the exact affine radial-box geometry."""
+    domain.validate_box(box)
+    require(direction in ("prefix", "suffix"), "true partial length direction")
+    i, a, b = box
+    require(0 <= a <= b <= 1, "exact affine position inside the actual panel")
+    lo, hi = (a, b) if direction == "prefix" else (1-b, 1-a)
+    require(0 <= lo <= hi <= 1 and domain.api.lower(domain.full_length(i)) > 0,
+            "true partial length is a nonnegative fraction of a positive panel")
+    # The supplied raw enclosure already contains every root and position.
+    # Intersecting with [0,infinity) uses the proved geometry above.
+    return _clip(domain.api, domain.partial_length(box, direction), domain.api.zero)
+
+
+def _geometric_ordered_span(domain, left, right):
+    """The same-cell ordered triangle has length h*(v-u)>=0 exactly."""
+    domain.validate_box(left)
+    domain.validate_box(right)
+    i, a, b = left
+    k, c, d = right
+    require(i == k and 0 <= a <= b <= 1 and 0 <= c <= d <= 1 and a <= d,
+            "nonempty exact ordered same-panel set")
+    lo, hi = max(0, c-b), max(0, d-a)
+    require(0 <= lo <= hi <= 1 and domain.api.lower(domain.full_length(i)) > 0,
+            "true ordered separation is a nonnegative panel fraction")
+    box, length = domain.ordered_span(left, right)
+    return box, _clip(domain.api, length, domain.api.zero)
 
 
 def _positive_lower(api, value, label):
@@ -119,7 +179,7 @@ class _ScalarProducts:
         self.tree = [api.one for _ in range(2*self.size)]
         self.tree[self.size:self.size+self.n] = list(values)
         for i in range(self.size-1, 0, -1):
-            self.tree[i] = self.tree[2*i] * self.tree[2*i+1]
+            self.tree[i] = _clip(api, self.tree[2*i] * self.tree[2*i+1], api.zero, api.one)
 
     def between(self, left, right):
         require(type(left) is int and type(right) is int
@@ -130,14 +190,14 @@ class _ScalarProducts:
         right += self.size
         while left < right:
             if left % 2:
-                before = before * self.tree[left]
+                before = _clip(self.api, before * self.tree[left], self.api.zero, self.api.one)
                 left += 1
             if right % 2:
                 right -= 1
-                after = self.tree[right] * after
+                after = _clip(self.api, self.tree[right] * after, self.api.zero, self.api.one)
             left //= 2
             right //= 2
-        return before * after
+        return _clip(self.api, before * after, self.api.zero, self.api.one)
 
 
 class SignedReferenceProfiles:
@@ -229,7 +289,7 @@ class SignedReferenceProfiles:
         for i in range(n):
             H[i+1] = _clip(api, tau[i]*tau[i]*H[i]+sigma[i], api.zero,
                             api.one/_positive_lower(api, p[i+1], "next impedance"))
-            g[i+1] = g[i]*tau[i]
+            g[i+1] = _clip(api, g[i]*tau[i], api.zero, api.one)
             gi[i+1] = gi[i]*inverse_tau[i]
         self.mode[j] = {
             "p": p, "H": H, "g": g, "g_inverse": gi,
@@ -246,16 +306,16 @@ class SignedReferenceProfiles:
         if key in self.cache:
             return dict(self.cache[key])
         api, data = self.api, self.mode[j]
-        remaining = self.domain.partial_length(box, "suffix")
+        remaining = _geometric_partial_length(self.domain, box, "suffix")
         p, _, _, _ = self._segment(j, i, remaining, data["p"][i+1])
-        elapsed = self.domain.partial_length(box, "prefix")
+        elapsed = _geometric_partial_length(self.domain, box, "prefix")
         _, tau, sigma, inverse_tau = self._segment(j, i, elapsed, p)
         H = _clip(api, tau*tau*data["H"][i]+sigma, api.zero,
                     api.one/_positive_lower(api, p, "interior impedance"))
         K = _clip(api, api.one-p*H, api.zero, api.one)
         value = {
             "p": p, "H": H, "K": K,
-            "g": data["g"][i]*tau,
+            "g": _clip(api, data["g"][i]*tau, api.zero, api.one),
             "g_inverse": data["g_inverse"][i]*inverse_tau,
         }
         self.cache[key] = value
@@ -269,22 +329,23 @@ class SignedReferenceProfiles:
         require(li <= ri, "whole ordered reference boxes")
         data = self.mode[j]
         if li == ri:
-            _, length = self.domain.ordered_span(left, right)
+            _, length = _geometric_ordered_span(self.domain, left, right)
             return self._segment(j, li, length, self.at(j, right)["p"])[1]
-        first = self._segment(j, li, self.domain.partial_length(left, "suffix"),
+        first = self._segment(j, li, _geometric_partial_length(self.domain, left, "suffix"),
                               data["p"][li+1])[1]
         middle = data["products"].between(li+1, ri)
-        last = self._segment(j, ri, self.domain.partial_length(right, "prefix"),
+        last = self._segment(j, ri, _geometric_partial_length(self.domain, right, "prefix"),
                              self.at(j, right)["p"])[1]
-        return first*middle*last
+        return _clip(self.api, first*middle*last, self.api.zero, self.api.one)
 
     def to_right(self, j, box):
         """True propagation from any point of the box to the actual outer end."""
         self.domain.validate_box(box)
         i, data = self.domain.cell_index(box), self.mode[j]
-        first = self._segment(j, i, self.domain.partial_length(box, "suffix"),
+        first = self._segment(j, i, _geometric_partial_length(self.domain, box, "suffix"),
                               data["p"][i+1])[1]
-        return first*data["products"].between(i+1, self.n)
+        return _clip(self.api, first*data["products"].between(i+1, self.n),
+                     self.api.zero, self.api.one)
 
 
 def prepare_signed_reference_profiles(api, domain, etas, qs, diagonals,
@@ -521,7 +582,7 @@ def _complete_decay_mass(api, rate_lower, rate_upper, length):
         return api.zero
     lower = api.lower(lo*_phi1_range(api, _clip(api, ru*hi, api.zero)))
     upper = _upper(api, hi*_phi1_range(api, _clip(api, rl*lo, api.zero)))
-    return api.interval(max(api.zero, lower), upper)
+    return _nonnegative_interval(api, max(api.zero, lower), upper)
 
 
 def _complete_rate_bounds(profiles, j, box):
@@ -610,7 +671,7 @@ class _CompleteModalIntegral:
         part = self.domain.partial_box(box, "prefix")
         return self.km.add(self.api,
             self.km.scale(self.api, tau, self.before(i)),
-            self._integral_box(part, self.domain.partial_length(box, "prefix")))
+            self._integral_box(part, _geometric_partial_length(self.domain, box, "prefix")))
 
     def suffix(self, box):
         self.domain.validate_box(box)
@@ -621,7 +682,7 @@ class _CompleteModalIntegral:
                self.profiles.ordered_decay(self.j, box, endpoint))
         part = self.domain.partial_box(box, "suffix")
         return self.km.add(self.api,
-            self._integral_box(part, self.domain.partial_length(box, "suffix")),
+            self._integral_box(part, _geometric_partial_length(self.domain, box, "suffix")),
             self.km.scale(self.api, tau, self.after(i+1)))
 
 
@@ -810,7 +871,7 @@ def _complete_two_decay_mass(api, m_lower, m_upper, n_lower, n_upper, length):
         return api.exp(-first*h)*_phi1_range(api,_clip(api,gap*h,api.zero))
     low=api.lower(lo*average(mu,nu,hi))
     high=_upper(api,hi*average(ml,nl,lo))
-    return api.interval(max(api.zero,low),high)
+    return _nonnegative_interval(api,max(api.zero,low),high)
 
 
 class CompleteModalSandwich:
@@ -935,7 +996,7 @@ class _StableModalSandwichPair:
         dn=self.profiles.ordered_decay(self.nmode,endpoint,box)
         part=self.domain.partial_box(box,"prefix")
         ml,mu,nl,nu=self._rates(part)
-        length=self.domain.partial_length(box,"prefix")
+        length=_geometric_partial_length(self.domain,box,"prefix")
         value=self.parent.contractions(self.m,self.nmode,part)[0]
         return dm*dn*self._before(i)+\
             _complete_decay_mass(self.api,ml+nl,mu+nu,length)*value
@@ -947,7 +1008,7 @@ class _StableModalSandwichPair:
         dn=self.profiles.ordered_decay(self.nmode,box,endpoint)
         part=self.domain.partial_box(box,"suffix")
         ml,mu,nl,nu=self._rates(part)
-        length=self.domain.partial_length(box,"suffix")
+        length=_geometric_partial_length(self.domain,box,"suffix")
         value=self.parent.contractions(self.m,self.nmode,part)[3]
         return _complete_decay_mass(self.api,ml+nl,mu+nu,length)*value+\
             dm*dn*self._after(i+1)
@@ -985,7 +1046,7 @@ class _StableModalSandwichPair:
         return query(0,self.count)
 
     def _partial(self,left,right):
-        box,length=self.domain.ordered_span(left,right)
+        box,length=_geometric_ordered_span(self.domain,left,right)
         if _upper(self.api,length)==0:
             return self._identity()
         dm=self.profiles.ordered_decay(self.m,left,right)

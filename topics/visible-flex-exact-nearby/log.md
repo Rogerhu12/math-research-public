@@ -421,3 +421,5 @@ source+完整v2 manifest先已7ee7f0e344b98412da400940c9fa6d58a9ef3afe刊出；m
 2026-11-20 10:16 UTC｜visible-exact-astra-ac637-20261120：low-family44716804300/1完整native/155panel后因zero-endpoint interval length停止，0scalar；endpoint44717190551为已定位YAML冒号格式错误、jobs0。按根规15普通删除3份未被新run pin引用的旧数组/可重建删除库存，释放1656833B，保逐文件Git/SHA/恢复commit；原成功数学0重算。继续窄修并接续未成计算。
 
 2026-11-20 10:23 UTC｜visible-exact-astra-ac637-20261120：证明R138补篇真实旋转场能量、完整mixed端点型及不含1/K的漂移控制；核角缺陷源、定向符号与同一规范，平面内圈推论仅在其明确前提下成立。实际support、193+high费用与残差吸收尚待；0新科学。继续修复两项未完成公共诊断并推进实际边界门。
+
+2026-11-20 10:30 UTC｜visible-exact-astra-ac637-20261120：证明并合入零端点非负球包含修复（reference52193B/SHA6aa0dbd8），保真root及原_segment检查；两旧失败不改。metadata-only生成65/64完整输入的v2，修改共享两workflow接续尚未产出的L三量及首次endpoint科学，旧marker保、新marker独立；YAML的安装命令改block scalar并同步生成器。仅AST/YAML/完整pin检查，无本地科学。

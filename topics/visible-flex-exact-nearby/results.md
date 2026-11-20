@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R139补篇：零端点区间的包含修复与未完成目标接续](results/R139-supplement-certified-zero-endpoint-interval-continuation.md)：先证真实affine长度非负，再用经核对的对称球平移给非负外包；保留严格长度检查、真实根、原算子及三目标。44716804300/1的0scalar失败原样保留，修复本身不判断预算门。
+
 - [R138补篇：真实旋转场能量及完整端点型](results/R138-supplement-rotation-energy-and-complete-endpoint-form.md)：给出角缺陷的无角导源方程、完整residual能量误差、193及high真实边界型；正平方控制漂移旋转的常数不含1/K，并证明平面内圈的限定刚性推论。当前support、实际端点费用及残差吸收仍待，未授全逆。
 
 - [R138：Codazzi残差到几何Jacobi的非循环桥](results/R138-residual-sensitive-Codazzi-frame-and-geometric-Jacobi-bridge.md)：正交径向重建给完整frame/位置/height残差与方向式；193真实mixed行、初始接口、mean与WVC额外η主部差不删；R32星形应变源具体化，真实边界正性/全逆未证。

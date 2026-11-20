@@ -10,7 +10,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: r137-wvc-low193-endpoint-midpoint-v1
+  group: r137-wvc-low193-endpoint-midpoint-v2
   cancel-in-progress: false
 
 jobs:
@@ -29,12 +29,13 @@ jobs:
             README.md
             topics/visible-flex-exact-nearby/README.md
             topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_collar_volterra_dual_public_worker.py
-            topics/visible-flex-exact-nearby/notes/2026-11-20-low193-endpoint-diagnostic-inputs.json
+            topics/visible-flex-exact-nearby/notes/2026-11-20-low193-endpoint-diagnostic-v2-inputs.json
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12.14'
       - name: Install fixed published Arb and floating runtimes
-        run: python -m pip install --disable-pip-version-check --only-binary=:all: python-flint==0.9.0 numpy==2.3.5 scipy==1.16.3
+        run: |
+          python -m pip install --disable-pip-version-check --only-binary=:all: python-flint==0.9.0 numpy==2.3.5 scipy==1.16.3
       - name: Admit original inputs and compute one complete low193 diagnostic
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -42,4 +43,4 @@ jobs:
           OMP_NUM_THREADS: '1'
           MKL_NUM_THREADS: '1'
         run: |
-          python topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_collar_volterra_dual_public_worker.py --repo "$GITHUB_WORKSPACE" --manifest topics/visible-flex-exact-nearby/notes/2026-11-20-low193-endpoint-diagnostic-inputs.json --manifest-sha e25d9ed912ccb3fd2c5c1b8cdf3e3ad7911621413798c202565a9a7a3bf45b09
+          python topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_collar_volterra_dual_public_worker.py --repo "$GITHUB_WORKSPACE" --manifest topics/visible-flex-exact-nearby/notes/2026-11-20-low193-endpoint-diagnostic-v2-inputs.json --manifest-sha 2a902529c6cab0415425531bd44ce865eb120f0b6ecee296a5bddc39cdb20021
