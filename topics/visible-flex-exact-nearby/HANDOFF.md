@@ -1,12 +1,12 @@
 # 交接：可见振幅的精确闭等距族
 
-维护会话：`visible-exact-astra-ac637-20261120`；更新：2026-11-20 15:59:51 UTC。
+维护会话：`visible-exact-astra-ac637-20261120`；更新：2026-11-20 16:01:24 UTC。
 **总任务未完成；继续研究，不等用户回复。**
 
 ## 规则读点与接续来源
 
 部分克隆：`/workspace/scratch/ac637cfcc78d/math-research-public`。终端 git 已恢复，无 AGENTS。
-2026-11-20 15:59:51 UTC 实际pull/rebase至 `c1fc35b177a0dc4d96bebc201a5684ea93126d96`；已读规则提交同上，两README相对96edc6770空diff。每次pull后核规则差异；下次实际pull最迟16:59:51 UTC。
+2026-11-20 16:01:24 UTC 实际pull/rebase至 `ce3d8f81bdea973b6cf6d9a804270935ee149751`；已读规则提交同上，两README相对96edc6770空diff。每次pull后核规则差异；下次实际pull最迟17:01:24 UTC。
 
 接手前完整 H（含全部递归原页、成功/失败/恢复身份和未付义务）见 [2026-11-16 完整检查点](https://github.com/Rogerhu12/math-research-public/blob/882aa9b74efeaac682df43c197820e7280156357/topics/visible-flex-exact-nearby/HANDOFF.md)。本页只压缩索引；`open.md` 及所链接的原证明、适用域、均值、物理角、所有边界和误差费用继续有效。旧成功结论不重算。
 
@@ -38,7 +38,7 @@ geometry `43584188751/26` **仅条件性**：同η0真 wholecore（含帽）C0�
 1. **R141实际低逆。** 44730452579/1最新查询仍运行，71pins/768bits；先完整Green/defect，ε≥1只保2成目标/false，ε<1才4源/193atoms/wholebox。共享worker98ef3773不动，未产字段不读。原L三量、K>80及47未算目标原样。[GM准确矩](results/R141-supplement-exact-cell-Green-moments-and-shared-output-covariances.md)、[GI接线](results/R141-supplement-exact-cell-moment-provider-and-shared-lifecycle.md)已成pure；[CC真子域系数](results/R141-supplement-genuine-child-coefficients-and-unchanged-hybrid-sources.md)保每closed原row交段先signed assembly再hull/交parent、wholeη/mean与trueh。常量2源parent缓存、varying3源child key；不改active，不预称ε/速度。
 2. **完整响应冻结。** FB44734581045、GH5 44736533396、GH4 44740105701不重算；D44745017016十球body<6.594/complete<7.236、旧线程0数学失败保；加权GH44746534556给GB<8.131/HB<30/HZ与Hroot<12/outer<.151，均upper。真实97+96物理外行仍未闭，参考D不冒actual。
 3. **R138范围。** 原轴/mean/X/Y、GB44745355257、signed96/97 44745192261、high44750653724及RS44758362539都冻结。原high lower>.7226只给真DF根压缩；low96核迹单射dim≤96非全逆。RDA局部Γ<1001/1000与SGA五球/body门成功；当前SG/RA/relative整门已由RX排，换真DH或加大Gram不修该门，不能推BVP奇异。不同相关body谱或直接R141可继续。
-4. **真实物理源与两WPN。** 14列224量、两行精确提升、18实际输入源对纯合同已成，N24480 tail/jump/193独立/7ports全保；actual58/224/32待。[NA44765046846](results/R141-supplement-actual-complete-positive-Newton-source.md)18门7量全成，full及low<7.044651e−8、high97–288<1.102257e−15；旧真根→.9/whole7721只读，1341/1346新外尾交段。selectedδ*不设为半径端点，physicalmean是1/m，角共轭H*不是height。Robin/physicalmean/height实际值仍独立。
+4. **真实物理源与两WPN。** 14列224量、两行精确提升、18实际输入源对纯合同已成，N24480 tail/jump/193独立/7ports全保；actual58/224/32待。[NA44765046846](results/R141-supplement-actual-complete-positive-Newton-source.md)18门7量全成，full及low<7.044651e−8、high97–288<1.102257e−15；旧真根→.9/whole7721只读，1341/1346新外尾交段。selectedδ*不设为半径端点，physicalmean是1/m，角共轭H*不是height。[O外端两值合同](results/R141-supplement-selected-physical-outer-residual-values.md)已证：原F20真实值+同θ商差/逆角/1/m/完整DN，仅读raw84KB与端点/族界；新两量actual待，height/farlabel及Z proposal边界差仍独立。
 5. 当前global推进真正不同的相关谱majorant，positive接物理外端两值，joint完善不同child矩积分接线，root接公开actual与发布；只有原actual后才选必要low新目标。负侧/mean/ν/腰/γ/全matching不省，目标仍是同一固定度量闭族。
 
 ## 正侧以外仍未付的接口

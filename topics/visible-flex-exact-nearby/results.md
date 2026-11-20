@@ -370,3 +370,8 @@
 ## 2026-11-20：真正child系数包围与完整源不变
 
 [CC完整证明](results/R141-supplement-genuine-child-coefficients-and-unchanged-hybrid-sources.md)与两个pure provider已成：closed原row交段、原65cubic/repair、同wholeδ mean和η，完整signed primitive先于hull；根padding不用作true h。CHL保193×128后得mean准确0，不扩到AL/fullfeedback。GM接线常量2源parent缓存/varying3源child缓存，逐点PSD和两三角/atoms保；没有已有target或active44730452579变更，无科学或ε<1主张。
+
+
+## 2026-11-20：同成员实际外Robin与physicalmean两值消费公式
+
+[O1–14完整证明](results/R141-supplement-selected-physical-outer-residual-values.md)及[pure math](scripts/fourfold_codazzi_selected_physical_outer_values_math.py)保原F20 whole128+无限尾实际值、19旧完整记录、同fB图与selectedδ*。同θ商差/逆角1/4/fullmean/真1/m给两个真实值；旧dC仅共同导数×方向幅度缩1/100，repair不缩。math未执行；height/farlabel/knownZνproposal边界差、7ports/两WPN/fullinverse不授。

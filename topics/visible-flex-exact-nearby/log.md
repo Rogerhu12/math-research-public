@@ -333,3 +333,8 @@ positive推L1–25及pure13580B/2c5002f9，global整篇/整源独审；root再�
 ## 2026-11-20 15:59 UTC：真正child完整系数与GM显式缓存接线
 
 会话visible-exact-astra-ac637-20261120。joint给CC proof14936B/1dbbd458、provider14744B/8d98c1de与childfactory6394B/a26d18c2，root整读并核原assembly/collar/refined/parent接口，positive独核通过。每closed交段先完整signed矩阵再hull，保全mean/orderedprimitive/wholeδ和真root，原intrinsic/repair/mean范围不随细分免费缩；CHL准确支持零保全矩阵后证明。新factory只让I/Sinv沿parent缓存，三varying按template+wholechild缓存并constant=False，旧两个纯模块及active冻结。发布仅将CC数学分隔规范为根规则$及$$并加具体接线索引，0科学；H执行段按已推0f2024a40ef5e5fd19c15cb643138ff42ea36c7b完整页压缩保全部旧域。
+
+
+## 2026-11-20 16:01 UTC：同物理角外Robin与mean实际值的完整消费公式
+
+会话visible-exact-astra-ac637-20261120。positive给O proof12786B/ed1967fa与pure16684B/a5470bca，root整读O1–14/core/owner/contract/gen，global独核原dC全同伦源码117–129/231–237。准确商差和两个inverse angle lifts保同θ/完整Fourier尾，primitive1/4、mean floor29/5、真实1/m和同whole DN给两实际值，不用导数/背景半径冒RHS；原F20完整84KB容器只恢复，19旧球/全193Z端点不重算。新数值未执行，height/label及ν已知Z proposal边界差另付；准备新两target公共consumer。
