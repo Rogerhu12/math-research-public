@@ -1,12 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-16 17:45:09 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-ac637-20261120，更新 2026-11-20 09:28 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 规则、读点与完整前页
 
 只在公开Rogerhu12/math-research-public及自身Actions做新数学；本机/代码模式只证明、文字、JSON/AST/hash/元数据。root管main/H/open/results/log，代理只交小blob。每结论独推，禁force；非FF立即实际git pull --rebase后保远端循环。PAT仅用户原话所给临时CLI/env，不写文件/输出/connector。根规12不新增审批门；根规15不存新数组/data/证书/artifact/Release，旧成功禁止重算。每新consumer预/立即启动计全publication+并行pending+120000B≤200MB；实际完成/失败仅按全部实际输出≤200MB保存，不另虚设postreserve。
-原partial/sparse checkout=/workspace/scratch/0df957a82d09/math-research-public，无AGENTS。本机16:31起无usable executor，每publication前/ref失败后仍真CLI尝试记错误；根规8暂UTF8<100KB集成，API核不冒pull，环境恢复即回CLI。最近实际公共pull为只读43920213897/1：17:37:23.005578 UTC→dc9e88ed14cc5120d4706966db45d22b9425ce25，另两次拒推后真rebase至未推本地deaf32dd（末17:37:25.641776）；两README全diff均空。全四回执及失败补存见notes/2026-11-16-R133-W2C-readonly-AST-failure-and-publication-recovery.json；下一真pull≤18:37:23。既有visible-exact-readme-pull.yml仍为纯运维备用；17:15成功run全日志/回执与此前迁盘细节保前页。
-最近只读README核：d86a3e8eaf36842458b78ff9a4c4b9833140d87b；根21bd547f56590b7f2dd279d0297efb289a9b2783，题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。最近已读规则diff2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1。两README同旧时不重读全文。
+当前partial/sparse checkout=/workspace/scratch/ac637cfcc78d/math-research-public；终端已恢复，无AGENTS。2026-11-20 09:24 UTC实际git pull --rebase origin main至882aa9b74efeaac682df43c197820e7280156357；已读两README并核从d86a3e8e的diff：根仅新增held-10pct课题行、题无变。已读规则提交882aa9b74efeaac682df43c197820e7280156357；后续每次pull核diff，下一pull不晚于10:24 UTC。旧环境失败、旧读点和完整执行细账保[接手前H](https://github.com/Rogerhu12/math-research-public/blob/882aa9b74efeaac682df43c197820e7280156357/topics/visible-flex-exact-nearby/HANDOFF.md)。
+新读到前会话最后自动回执43921663540/1：23 AST已过；在native恢复前因另一课题serre-source-publication-recovery未列入静态workflow白名单而停，readonly/science均false、科学child0、目标0。完整execution/report已在notes/collar_volterra_dual_readonly_ci/run-43921663540-1，不重复已成功AST目标。根规12不把行政包装当数学进展；接手优先完成WJK联合核、有效逆界和真正core接口。
+
 [截至W2C collar模块刊出的完整旧H](https://github.com/Rogerhu12/math-research-public/blob/9dfc7348e31a4467d392000fa83ba69f19e514be/topics/visible-flex-exact-nearby/HANDOFF.md)9797B/Git0bc65097c8dc614166e4f1d152228ae1b62a748b/SHA f323ccb5f1d763ce62a36bd366881b3762f42bb4546f93139b0b92cac22f8a9c，保全部递归前页、旧球/域/单位/mean/失败lost/每次cleanup精确恢复和未付门。本页只更新索引，未删数学义务。open原完整条件继续有效；H≤10000B/open≤30000B/每MD<100000B。
 
 ## 同一对象与总验收
