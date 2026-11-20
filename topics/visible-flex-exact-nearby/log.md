@@ -219,3 +219,7 @@ science31180B/1bd839a4、worker31695B/2cd84dd9、gen14142B/ed1c53e5、合同1269
 ## 2026-11-20：原全部high根型实际严格正与接收器Neumann门
 
 44750653724/1完整32768闭格/41记录，actual53310B/f3f97be6、exec15691B/e753dd0e；science19.66021421000002s、child19.754728083999993s/0。root/positive独核24当前bytes/SHA/blob/4AST、6原件完整恢复、26字段41保存球、whole signed及4旧execution全引用；从job136337349911完整日志取5README并逐canonical链重建7442cbac7bee25b975d275bbf4a1d5d1c8cdbeb2c3894ccceec045ef99faa4be，与exec exact。actual lower≈.7226197347、κ≈.09013464455严格两门true；41完整球逐条抄录核同。只授fixed Qrepair原high压缩/两parity辅助逆，旧96/97负型与fullinverse=false保；0旧targets/新数组，结果冻结。H执行节完整前文索引50ea0be3b。
+
+## 2026-11-20：固定全域能量的根读出预算严格排除
+
+global推N1–15，root整篇有理比较/准确mean与环境dual独核，joint交叉审通过。旧M12>18.9/M22<2.404/M11<.457给W96²>148+79843/601000；new high完整球只取b0<1/b1,b2<2/g0<3。R9统一实现αE²>74，完整exact Gram亦由人工root代数测试（不冒PDE解）及Xi<22给αE²>7104/121>58。CE>32是原所选上界预算的数值事实，非最优物理常数下界；只排固定R15/R30门，不排actual逆。0科学/旧重算，原high实际和负两模同存。

@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R138固定全域CE根迹预算严格排除](results/R138-supplement-fixed-global-energy-root-receiver-budget-excluded.md)：旧两模迫W96²>148，新actual整球给统一R9 αE²>74；即便exact receiver Gram，同mean/环境dual仍迫αE²>7104/121>58，固定R15/R30门不能过。仅排已选全域预算，非实际BVP核或最优CE下界；0新科学，不再为该配方造大矩阵。
+
 - [R138实际原high根压缩严格正](results/R138-supplement-actual-original-high-root-lower-bound.md)：44750653724/1完整32768闭格、24pins/6恢复/26字段41球，high lower>.7226、κ<.091，5README链全核重建。fixed Qrepair真实frame/完整mean/两primitive与原无限high保留，旧96/97负方向原样；结果冻结，仅高压缩和辅助逆，不授完整BVP或WVC低逆。
 
 - [R138原全部high压缩的新标量合同](notes/2026-11-20-R138-original-high-root-lower-bound-contract.md)：24当前/6原件、26字段41新球首次封包，actual C2、signed平方负部、完整mean及两primitive全保；系数分部积分/194谱隙给更紧费用，另存κ与F2完整源列。root/joint数学及运维整审，metadata逐字复现，旧signed三项不重算；actual high正性和所有relative门仍待。
