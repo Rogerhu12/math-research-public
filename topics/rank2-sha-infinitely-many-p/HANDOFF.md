@@ -5,7 +5,7 @@
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近实际部分克隆/pull及已读规则提交：`81afdb177ffe3bba99352a0158ec328fa8d9b244`；2026-11-20 14:12:12 UTC 实际pull --rebase，两README相对159e2714差异为空；下一次最迟一小时内。
+- 最近实际部分克隆/pull及已读规则提交：`64df087a802550ff06cf6f7602d1fd25a7377cf8`；2026-11-20 14:14:41 UTC 实际pull --rebase，两README相对81afdb17差异为空；下一次最迟一小时内。
 - 仅写公开main；每条完整结论即提交，推前pull --rebase；非快进循环，不强推、不存令牌。数学只在公开Actions执行；重算输出不入库/Release、不分块，只存源/args/run/hash。
 - H<10KB、MD<100KB、open尽量<30KB、文件<5MB、题≤200MB；log每轮≤5行，不写根LOG。所有旧授权/规则已读，未变化。
 
@@ -64,3 +64,5 @@ R934同P全J双jet为(−B|C,−11t^(r_src−2)w^(−s)F(t,g)^4/a−EB|C)；B保
 [R925§23](results/R925-original-ys-affine-rings-and-complete-divisor-ideals.md)：原P152/mixedF144完整低核由RR严格全局生成，J/J0两图全A理想准确给拉回厚除子；同子集全曲线长度2256/1080认证早停且余行全回代。端点配对N=(2/vnew)A+B同时付真零理想；两组各达标才返complete_divisor。当前须先补全核读者，未动运行或冒PASS。
 
 [R935](results/R935-original-negative-fringe-all-correctors-budget-exclusion.md)：同原负fringe的1≤τ≤d0+1，对全部原R/S无须B∈H3；整双jet与三低行迫严格f0，C分量两支均得d_D≥s+2。全十九角准确给N_D−2s≥D+r_src+13+2j，否则原全p³无解；三长松弛保额外s，不自动排全部临界输入。
+
+R931§11独立循环单位范数helper已存：全307×306双包含认证R·1+I=A才返同原R/(detI)及厚Res(d,c)；原单位/omega/全306回代保，miss回所有π层。未接运行、无新PASS。

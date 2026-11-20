@@ -351,3 +351,13 @@ $$
 独立入口只请求r29、phase=shadow、trace_method=artinian，原F/P两个公共PASS、q_precision2453、batch64、minimal核、固定Sage10.6镜像保同源。source只读且数学容器断网，令牌仅host公共回执读者使用。现有完整Tate及closed/local作业不变、不取消。新工作流按同一进程依次支付预门、完整几何/原极次数、四E及全厚迹；最终明确all_intersection_closed_points_computed=false，以全部原长账及Norm定理认证完整迹。实际run/job/source在建立后登记，不预填结果。
 
 实际公开运行已建立：run `44747799006` / job `136327515753`，source `632cef5af919da67776803cd36346a5cc3941363`，创建于2026-11-20 13:50:06 UTC；状态 in_progress。此前推送遇远端推进，已立即pull --rebase、核两README差异为空后重推成功；实际运行以此最终source为准，不用被重写的本地提交号。尚无任何新数学PASS。
+
+## 11. 同原单位的完整循环商与可选范数算法
+
+[完整证明](../notes/2026-11-20-original-cyclic-unit-thick-norm.md)及独立 helper `original_ys_cyclic_unit_norm.py` 已完整写出并作源码检查。当前32源运行/基础工具/上层消费器均未改，没有新数学或性能PASS。
+
+只在同一原完整理想I满足R·1+I=A时，才有由实际单位诱导的原R代数同构A/I≅R/(d)，d是完整HNF首一行列式，保所有重复因子。整个307×306矩阵的H=UM和全部原行反向成员关系认证完整HNF；恰为单位阵才接受。全变换给每个原基的gamma像，所有306基/理想行、实际单位、omega、d·1和真全长逐项返回；实际值h还须h−c·1∈I。
+
+因此其完整厚范数恰为Res(d,c)，目标仍原k；完整gcd认证单位，常数范数按全长幂返回，空商为1。非循环明确miss，只有norm_unit_with_fallback继续原所有π层并保其完整错误/回执，try的miss本身不认证所给值为单位。算法不假设理想约化、闭点横坐标分离或一般循环性，完整HNF本身的成本也未实测。
+
+源SHA256 `b3b2bfc21328e164de64845bc906efbaa01d143f6de7d80829c1bbbd4d775eb8`，证明SHA256 `602ce98ca9d1106d505dda15c6525573ffb4122ce58fa43a9cd7b6a7fb038e0e`；root/global全文核，只有AST/文本身份门。后续只有真实应用和公开接受门通过后，才能声明此路线实际命中或给出原shadow。
