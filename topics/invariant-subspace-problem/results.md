@@ -77,3 +77,5 @@
 - **R271 一般长坏链的完整解析Schur及三个真幂旗（2026-11-20，已证明）：** [有限生成恒等式与全部物理费用](results/R271-appendix-general-head-long-bad-chain-analytic-schur-and-three-true-power-flags.md)用整个退化核的3d列无逆参数化，原最高导数统一成U A幂，精确合同给三旧真幂旗与全部新增秩。原核/合同/662a逆费用明列，最长坏链显式秩一且N型最低局部孔m+2；强尾还原只一κ≤4^R y^(2d)。短链和完整实际源仍开，不视作物理正交分块。
 
 - **R271 一般N头的完整高孔Schur补空间及原参数明确界（2026-11-20，已证明）：** [全部长短坏链、全强段常数和γ替代接口](results/R271-appendix-general-head-high-hole-schur-complement-and-complete-residue-cost.md)在m≥5/r3/偶R≥d构造最低孔A0=(R−d)/2+m+2的全新增约束补空间，精确候选与最小物理范数给整个最高极点阶(R−3d)/2+2m+3。C_m只含已付883a/阶乘头费，强段仅4^R y^(2d)，原s*=e⁻¹⁰⁷⁰重标度不破坏逆芽费用；固定γ<1/16的较弱几何孔界足以留负R预算。完整Zγ与原t正则费仍未闭。
+
+- **R150 V0本质四维的四不同物理支撑点全空（2026-11-20，已证明）：** [原Gaussian完整梯度及全部零均值分支](results/R150-appendix-zero-third-cumulant-reduced-essential-four-section-is-empty.md)保V=0点的V方向梯度；三活跃配对全非零被原节点普通矩排，余下一零边对应W±。最高式/mean迫聚合均值与二阶矩零，完整H梯度化为非零D乘一条含非零p1系数的极线，矛盾。包含∞及a_i零，不借外均值规范；重数型仍开。

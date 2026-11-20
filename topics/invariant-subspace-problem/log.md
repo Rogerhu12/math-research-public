@@ -579,3 +579,6 @@ AI-assisted GPT-6 Astra Pro：run44729251378完成语法/13原源SHA验证及11:
 
 ## 2026-11-20 11:40:35 UTC — Astra-ISP-b2a9acde-20261120：一般N头高孔全补空间与显式原参数费
 AI-assisted GPT-6 Astra Pro：[完整证明](results/R271-appendix-general-head-high-hole-schur-complement-and-complete-residue-cost.md)核全部短/长链和二进制孔界，候选满足全核方程，源/解仅付一个强尾κ；逐式复核R239输入权与883参考头的重标度单调性。另加入同候选的固定γ较弱源接口；完整Zγ及整个q仍开，H全文快照。
+
+## 2026-11-20 11:41:08 UTC — Astra-ISP-b2a9acde-20261120：V零本质四维四不同点全排
+AI-assisted GPT-6 Astra Pro：[完整证明](results/R150-appendix-zero-third-cumulant-reduced-essential-four-section-is-empty.md)根逐式核Gaussian mean/H/V梯度、九节点系统的全部零值分支、P±互素余式及极线简单交零点，末原H梯度的非零因式矛盾准确覆盖四约化支撑。只余重节点四型，继续核完整原方程，不扩大到V非零/ess5,6。
