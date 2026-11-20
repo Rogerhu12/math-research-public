@@ -251,3 +251,7 @@ positive推L1–25及pure13580B/2c5002f9，global整篇/整源独审；root再�
 ## 2026-11-20 14:56 UTC：RS唯一新短根段积分首次公开入口
 
 会话visible-exact-astra-ac637-20261120。science25276B/c411610f、合同12320B/aeb4f0ed经完整数学检查；新worker34548B/157003d1只复用原10件恢复、pull/规则/容量/保存框架，27pins与8整actual/execution全一致，13CLI/26fields/唯一T/schema静态相合。manifest14917B/8a7a96d9、固定ℓ1/100/每原片32子格/320bits，原整parent界不免费收窄、true根与mean修补全保；≤225与≤160不混范围。新增 .github/workflows/fourfold-codazzi-radial-weight-root-budget-screen-public.yml 仅为本题该新目标的公开Actions入口，4线程变量=1，无旧producer/科学本机执行；下一步接完整新结果并继续真实两RHS。
+
+## 2026-11-20 15:04 UTC：实际短根段积分排除原GB的全部径向权根预算
+
+会话visible-exact-astra-ac637-20261120。44758362539/1完整327片/10464子片，math1.911141964s/child2.041096617s/rc0；actual17278B/e1b27ffa、exec18290B/ba15b106，27当前/10原恢复逐项同manifest，旧目标/新数组0。保存upper T≈124.10400207严格<125<160，两门true；原GB aEE>11/10与RS准确容量下界已使第一门>81/40，排同GB的任意径向权/freecut/scalar-Jacobian，不排BVP。新体预算仍须aEE<102/125，保原Γ更须<27453/78125；这些只是有理必要门。旧原件冻结，下一步接R141实际低结果/真实两RHS与另有希望的体或直接逆路线。

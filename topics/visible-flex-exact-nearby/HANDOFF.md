@@ -1,18 +1,16 @@
 # 交接：可见振幅的精确闭等距族
 
-维护会话：`visible-exact-astra-ac637-20261120`；更新：2026-11-20 14:56:44 UTC。
+维护会话：`visible-exact-astra-ac637-20261120`；更新：2026-11-20 15:05:08 UTC。
 **总任务未完成；继续研究，不等用户回复。**
 
 ## 规则读点与接续来源
 
 部分克隆：`/workspace/scratch/ac637cfcc78d/math-research-public`。终端 git 已恢复，无 AGENTS。
-2026-11-20 14:56:44 UTC 实际pull/rebase至 `f193faea798591415060f65e59bc144a5d8650b4`；已读规则提交同上，两README相对96edc6770空diff。每次pull后核规则差异；下次实际pull最迟15:56:44 UTC。
+2026-11-20 15:05:08 UTC 实际pull/rebase至 `0548fef0739228013c0f085d166217a2cfa3de1b`；已读规则提交同上，两README相对96edc6770空diff。每次pull后核规则差异；下次实际pull最迟16:05:08 UTC。
 
 接手前完整 H（含全部递归原页、成功/失败/恢复身份和未付义务）见 [2026-11-16 完整检查点](https://github.com/Rogerhu12/math-research-public/blob/882aa9b74efeaac682df43c197820e7280156357/topics/visible-flex-exact-nearby/HANDOFF.md)。本页只压缩索引；`open.md` 及所链接的原证明、适用域、均值、物理角、所有边界和误差费用继续有效。旧成功结论不重算。
 
-新科学数值用本公开仓库 Actions；本机用于证明、编辑及静态检查。每条实质结论更新 H 并独立提交推送；推前实际 pull，非快进立刻 rebase 再推，不 force。规则15：只留脚本、参数、run、hash 和小结论，不入库新数组/可重算证书，topic≤200 MB。3份未被当前输入引用的旧大数组/删除库存已按规15移为Git历史指针，见 `notes/2026-11-20-reproducible-data-history-pointers.json`；原字节可恢复、不重算。[200份旧stdout](notes/2026-11-20-more-legacy-stdout-history-pointers.json)与[199份旧stdout](notes/2026-11-20-next-legacy-stdout-history-pointers.json)均保完整Git指针；后者按530ebf1bb释放665730B、净601365B，8724保护路径交集0，当前运行pins未改。
-
-根规12共享workflow仍逐次rebase核topic容量；原L3/50冻结、完整centre下界排旧配方，余47不为该配方计算。三轮旧数组/log的完整原字节恢复表、规则与失败/成功身份逐字保于[6a6e0d39d完整H](https://github.com/Rogerhu12/math-research-public/blob/6a6e0d39d514ea6a9bb86f78f374c268533cfdf5/topics/visible-flex-exact-nearby/HANDOFF.md)；按所链Git指针恢复、不重算，当前运行pins未改。
+科学仅本公开仓库Actions；本机证明/编辑/静态元数据。每条结论独立推前pull、核两README；非FF立刻rebase循环，不force。规15只留脚本/参数/run/hash/小结论，topic≤200MB、H<10KB。原数组/log的全部恢复与成功/失败资格见[6329adde0完整H](https://github.com/Rogerhu12/math-research-public/blob/6329adde0dd0e885480ab178b82bae22717aafb6/topics/visible-flex-exact-nearby/HANDOFF.md)及其递归表；最新[199日志指针](notes/2026-11-20-next-legacy-stdout-history-pointers.json)保530ebf1bb原字节、净释放601365B/保护交集0。仅普通历史指针删除，当前科学/native/pins不改，旧成功不重算。
 
 ## 完成标准与同一对象
 
@@ -48,7 +46,7 @@ WIC原m160/N24480真tail逆κ=3已证；原WPN trial只有完整e+3dt<1才授双
 1. R141低有向44730452579/1仍运行：71pins/768bits，先Green/defect，过门才4源/193atoms/wholebox；未产字段不读。共享worker98ef3773不动。原L44724797559三量、centre44727185157的K>80及全部旧false冻结，余47不算。
 2. F_B44734581045、GH5 44736533396、GH4 44740105701均冻结。[D44745017016](results/R141-supplement-actual-reference-boundary-lifts-and-complete-193-observations.md)10球body<6.594/complete<7.236，旧44742799448线程0数学失败保；[加权GH44746534556](results/R141-supplement-actual-radially-weighted-high-response.md)5球GB<8.131/HB<30/HZ及Hroot<12/outer<.151，均upper。真实97+96外行未闭。
 3. R138轴44730968113/mean44733403315/X44737045152/Y44740320925及旧false冻结。[GB44745355257](results/R138-supplement-actual-capped-Hhalf-body-absorption-and-root-allowance.md)body三门true、C_allow lower>367；根r仍旧Y。原[96/97负型44745192261](results/R138-supplement-actual-negative-original-root-96-97-form.md)det<−353/显式型<−146，只排全rootdata非负/仅H²费，不推核。
-4. RT/relative/HP/HC全部解析资格见所链完整H与原proof；[HC44750653724实际](results/R138-supplement-actual-original-high-root-lower-bound.md)原high lower>.7226/κ<.091，只fixed trueDF根压缩。[固定全域CE预算](results/R138-supplement-fixed-global-energy-root-receiver-budget-excluded.md)严格排，[low96核读出](results/R138-supplement-original-low96-root-trace-injectivity-on-homogeneous-kernel.md)单射/dim≤96，非全逆。[LC加权容量](results/R138-supplement-localized-eta-balanced-energy-and-root-capacity.md)与[权无关筛查](results/R138-supplement-radial-weight-independent-root-budget-screen.md)纯证明已闭；RS新短段单T已封包待Actions：27pins/10原恢复/320bits/每格32子片；未预宣排除。
+4. RT/relative/HP/HC全部解析资格见所链完整H与原proof；[HC44750653724实际](results/R138-supplement-actual-original-high-root-lower-bound.md)原high lower>.7226/κ<.091，只fixed trueDF根压缩。[固定全域CE预算](results/R138-supplement-fixed-global-energy-root-receiver-budget-excluded.md)严格排，[low96核读出](results/R138-supplement-original-low96-root-trace-injectivity-on-homogeneous-kernel.md)单射/dim≤96，非全逆。[LC加权容量](results/R138-supplement-localized-eta-balanced-energy-and-root-capacity.md)与[权无关筛查](results/R138-supplement-radial-weight-independent-root-budget-screen.md)纯证明已闭；[RS实际44758362539](results/R138-supplement-actual-radial-weight-root-budget-screen.md)327片/10464子片给完整upper T<125，两225/160门true；仅排原GB的全部径向权/scalar-Jacobian预算，非BVP。换体预算须另证，不再为旧预算做Gram。
 5. [14列224量端口](results/R141-supplement-original-seven-ports-after-the-physical-gate.md)及[WPN两行准确提升](results/R141-supplement-both-WPN-rows-by-exact-WOB-source-lifting.md)纯合同已证；保一般L2、原24480全尾与独立193，actual58/224/32仍待。positive组装真实ν/Newton/接口两RHS，global推进新T，joint容量维护，root继续接实际低结果与推送；旧trial门/negative/mean/全matching不省。
 
 ## 正侧以外仍未付的接口

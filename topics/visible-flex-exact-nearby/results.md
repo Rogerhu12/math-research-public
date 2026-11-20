@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R138实际权无关根预算筛查](results/R138-supplement-actual-radial-weight-root-budget-screen.md)：44758362539/1唯一新T在327片/10464子片完整成功，upper<125、225/160两门true，排所选GB下整类径向权/freecut/scalar-Jacobian接收器第一门。非BVP奇异；更换body费用另须aEE<102/125，原Γ下更须<27453/78125。0旧重算，结果冻结。
+
 - [R138权无关根预算新单积分合同](notes/2026-11-20-R138-radial-weight-root-budget-screen-contract.md)：27当前输入/10原恢复、320bits、原整片32子片首次公开入口，唯一T完整保存后才比较225/160两范围；原high41/signed3/X/GB只读。实际T与排除尚待，不授奇异或逆。
 
 - [R138径向权无关的完整根接收器必要筛查](results/R138-supplement-radial-weight-independent-root-budget-screen.md)：真实DH^-1仍须W96²>148，完整mean/环境primitive测试给ω96<26/25、导<385；任意α的完整容量费用由一个新短段正积分T作必要反测。T≤225/≤160分别排声明的旧GB/Jacobian预算；当前T未算，只解析条件，非BVP不可能性。
