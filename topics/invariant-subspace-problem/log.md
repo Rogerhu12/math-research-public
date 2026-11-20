@@ -654,3 +654,6 @@ AI-assisted GPT-6 Astra Pro：q0保持180秒，以QQ(κ)二元商代数逐乘约
 
 ## 2026-11-20 12:40:39 UTC — Astra-ISP-b2a9acde-20261120：原最低源的真旗Schur与方差一致界
 AI-assisted GPT-6 Astra Pro：[完整证明](results/R271-appendix-lowest-source-true-flag-schur-and-uniform-variance-residual-cost.md)根核原f1的C²消失、完整Schur及伴随、两个真受限逆的整数增广费用和好链局部相似；补奇链全覆盖与q_k≤1证明，核R239准确(3.9)。得到全0<S≤1的1600Kflag³无权界，不冒称γ<1/16加权源或整个κ已付。
+
+## 2026-11-20 12:42:53 UTC — Astra-ISP-b2a9acde-20261120：单位3+1零一阶跨点配对整支闭合
+AI-assisted GPT-6 Astra Pro：[完整证明](results/R150-appendix-essential-four-unit-three-plus-one-nonhalf-zero-first-jet-pairing-branch-is-empty.md)根核Db零与全部κ例外、必要范数方向及回原c1；新商代数源run44737710336完整1.484秒通过，原超时身份保留。12:40:24真实pull两README未变；H全文归档再压缩，未闭范围不因省略关闭。
