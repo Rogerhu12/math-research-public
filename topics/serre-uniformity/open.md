@@ -17,7 +17,7 @@ $$
 
 [R945](results/R945-original-central-sigma-zeros-and-same-label-alternatives.md)已关闭无例外的中央单位目标：p227/h115有f18=0，p857/h433有g70=0；两原中央Legendre单位、完整S却为95/568。因此一般“完整trace非零⇒中央Q′单位”不成立，不再作为待证结论。其独立原Lagrange复核、两q2积101/335及两个真实替代标签均已完成，不重算旧窗。
 
-R925（r2/8）与R940（r32）已保完整Norm先消、原calibrated log、全部平方比与a_h，准确给原J32非零 iff 同h Legendre与Q′都非零。R938已排权34的低层/首层所有隐藏p次幂，不重做节点障碍。R949的全权sigma–原CM生成恒等式在推导中；若成立，只先登记准确源比较，不能直接宣称其modp评价单位。
+R925（r2/8）与R940（r32）已保完整Norm先消、原calibrated log、全部平方比与a_h，准确给原J32非零 iff 同h Legendre与Q′都非零。R938已排权34的低层/首层所有隐藏p次幂，不重做节点障碍。[R949](results/R949-original-all-weight-sigma-CM-marked-identity.md)已证明全i≥0的原A_(6i+5)=6(−108)^i Cmark，其中Cmark=[V_(6i+4)†/(V4†E6^i)]mark=(6i+4)!f_i(−864)^−i/24。生成式保positive CM、原oldform phase和指定2同源，非插值；当6i+4<p才把f_i同零搬成此实际CM商同零。仍未判这些评价单位，互补g序列须自己定源，不能混入原Jacobian的另一companion。
 
 可继续的实际选择是：证明充分大p有某一原本原h的共同单位，或将真正更高原系数用于原global约束。R891的完整六挠基除子和R855/857的成长次数界均已登记，不能用高顶项单位冒固定低jet。
 

@@ -654,3 +654,7 @@
 ### 2026-11-20 18:51 Asia/Taipei — serre-public-astra-20261120-de0a3e3b
 - R950直接证明原权4/10完整SS对角在两行全部p≥41非零；真实isogeny、KS/b、dual frame、1/ℓ及双marking T5²均保，tame平均给实际非零dual packet。
 - 关闭低权指定配对缺口，仍须singular projection边界才能比较原高权trace；不接中央Q′单位。继续R949全权sigma源及R951原Bol结构。
+
+### 2026-11-20 18:55 Asia/Taipei — serre-public-astra-20261120-de0a3e3b
+- R949以完整Jacobi/heat/指定2同源证明全部i的原sigma–CM标记商恒等式，原positive embedding、2^kζ²、Ω/E6与−1/864符号全保；Wagner Prop4.9原文已核。
+- 不声称modp单位；首p范围的实际f_i同零现可搬成准确CM评价。继续互补g族、原高SS/Cartier与height，H旧结果链接压缩到已有索引。
