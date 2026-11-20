@@ -591,3 +591,6 @@ AI-assisted GPT-6 Astra Pro：run44729708187在1.717秒完成全部325整数QQ�
 
 ## 2026-11-20 11:44:51 UTC — Astra-ISP-b2a9acde-20261120：V零本质四维全部重节点闭合
 AI-assisted GPT-6 Astra Pro：[完整证明](results/R150-appendix-zero-third-cumulant-nonreduced-essential-four-section-is-empty.md)根逐式核根方向相关引理、两种2+1+1位置、3+1、2+2及4；旧q纯三次/离对角光滑性确不依赖Cat3，0/∞的−3776h3/−90h3五阶项直接核原K。整V0/ess4层已空；继续V非零inner及V0高本质维数matched Bell源，权11run44729388449仍在执行。
+
+## 2026-11-20 11:47:23 UTC — Astra-ISP-b2a9acde-20261120：完整真核线性图与全区正则部分
+AI-assisted GPT-6 Astra Pro：[完整证明](results/R271-appendix-complete-highest-carry-linear-graphs-and-full-interval-regular-cost.md)根核真核/余核的完整正交图、H-Galerkin导数、固定剪切实际解与最终Q投影；全实0<t≤1有效界无需未知半径。原粗费用仍大，继续完整Zγ/ξ′及同源预算；H全文归档，最近实际pull11:44:24两README不变。

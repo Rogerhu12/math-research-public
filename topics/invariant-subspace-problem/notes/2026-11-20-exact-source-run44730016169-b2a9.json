@@ -1,0 +1,24 @@
+{
+  "format": "isp-execution-identity-v1",
+  "runId": 44730016169,
+  "jobId": 136267067883,
+  "sourceCommit": "723f748d291139aeea1599a40224e02bab6b1430",
+  "sourceSHA256": "6980790e4381c06db175625d76314b2e611ec4164941c02abab54b488055b50d",
+  "decodedWholeLogSHA256": "1c7fe80a6bbca90ac50589d85e52fc355130c902c6e0c2f1c3e4e9d406ee520b",
+  "orderedSourceAndPassLinesSHA256": "4dbef94e616d88f8c57029d0b9ebb72c53d3ba930e048653bc1837a005950df2",
+  "actualPull": {
+    "actualPullRebaseSucceeded": true,
+    "beforeCommit": "723f748d291139aeea1599a40224e02bab6b1430",
+    "executionEnvironment": "GitHubActions",
+    "format": "isp-789f-actual-actions-pull-v1",
+    "remoteCommit": "723f748d291139aeea1599a40224e02bab6b1430",
+    "rulesGitBlobs": {
+      "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+      "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+    },
+    "rulesUnchanged": true,
+    "runId": "44730016169",
+    "utc": "2026-11-20 11:44:24 UTC"
+  },
+  "note": "Complete original general two-plus-two source and all exceptional candidates checked; full branch proof is registered separately after review. No computed coefficient arrays are persisted."
+}

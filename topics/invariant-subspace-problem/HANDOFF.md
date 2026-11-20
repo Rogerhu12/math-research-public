@@ -5,13 +5,13 @@
 ## 主目标、规则与执行
 
 - **普通复可分无限维Hilbert ISP未完成。** 只有全体有界算子的存在定理或完整反例才收尾；子问题完成继续open，不以阶段或时限停止。
-- **最近成功实际pull与已读规则提交：** 2e0fa3a4681ece419bb10fbfb933e6c9b2c1606a，2026-11-20 11:42:04 UTC，Actions run44729708187/job136266025002；真实git pull --rebase成功，两README未变，原日志已核。下一实际pull不得迟于12:42 UTC。
-- **最近API同步及规则核对：** `c9cd98f3f517863ca112320636dd48d40f2c9470`（2026-11-20 11:44:55 UTC）；两README blob均未变。API快照不冒称实际git pull，另记真实执行回执。
+- **最近成功实际pull与已读规则提交：** 723f748d291139aeea1599a40224e02bab6b1430，2026-11-20 11:44:24 UTC，Actions run44730016169/job136267067883；真实git pull --rebase成功，两README未变，原日志已核。下一实际pull不得迟于12:44 UTC。
+- **最近API同步及规则核对：** `b7355d11b91ee6c6baa616785f880f042d32f2a4`（2026-11-20 11:47:29 UTC）；两README blob均未变。API快照不冒称实际git pull，另记真实执行回执。
 - 根README blob282e86b03385d3b6245ce7100ae2e2af7b103c2d、课题4d6570e9cf346431ab781a1290076a6321aaaa00已全文读。每次pull比两README，只读新diff并立即遵守；至少每小时及发布前同步，SHA写H。
 - 仅授权Rogerhu12/math-research-public。root独占main/H/open/results/log和发布，代理只交proof blob；每条结论单独提交推送，非快进立即更新/rebase重试成功，不force。用户PAT仅CLI环境，不进文件/config/日志。
 - 根规则15：可重算数组/数据/证书不进Git、Release或新工件；仅源码、参数、运行身份/SHA及正式证明。MD/API UTF8<100KB、H≤10000B、open尽量≤30KB、topic≤200MB、log每条≤5行、数学美元符及AI署名，不写根LOG。
 - 本地executor于2026-11-20 09:49 UTC断开/environment unavailable；依根规则8以小文本API发布，逐次读取最新main/两README，非force条件更新失败即重读重建。API不冒称实际pull，另由只读Actions保持小时pull。实际请求sequence54已成功，下一递增55。恢复本地先处理未推a06d8dbd8与远端等价内容，勿重复推。
-- 此前结论/输入/完整SHA/失败与未闭项保[前H快照](notes/2026-11-20-handoff-before-general-high-hole-b2a9.md)、[完整open](notes/2026-11-20-open-before-unit-two-plus-one-b2a9.md)、[结果索引](results.md)及其归档链；省略不算关闭。原clone约96MB，旧TMP不假存活。
+- 此前结论/输入/完整SHA/失败与未闭项保[前H快照](notes/2026-11-20-handoff-before-full-interval-regular-b2a9.md)、[完整open](notes/2026-11-20-open-before-unit-two-plus-one-b2a9.md)、[结果索引](results.md)及其归档链；省略不算关闭。原clone约96MB，旧TMP不假存活。
 
 ## R150：原Bell非零临界点与完整来源
 
@@ -42,8 +42,9 @@ M=kerT、N=closure BM；N=M未证。保same-w/u、全部partial、真intersectio
 - 旧高primitive/真核过滤已付，原低carry固定阶及失败范围保前H；完整物理源系数孔级≤1+ν，不借代数primitive正交性。
 - **中位强尾尺度已付：** 同一非正交primitive投影与尾相似κ≤4^R；c=(m+R/2)⁻²移入头后完整奇高度MP的全R成本为64^R乘明确y幂/阶乘，原头883a不变。准确公式见[正式稿](results/R271-appendix-median-strong-tail-scaling-four-power-condition-and-full-odd-height-cost.md)，实际源/新母窗仍开。
 - 三位N头五短链高孔原BigInt核/主子式已由run44724947207闭：固定q₋₁=O(s^(R/2−3))，原强权全s界10^100·4^R(3+R/2)^16 s^(R/2−3)Z_R。实际源及整个q仍开；正式证明/全部身份见索引和前H。
-- **[一般长坏链解析Schur](results/R271-appendix-general-head-long-bad-chain-analytic-schur-and-three-true-power-flags.md)已证：** l≥n+3的整个核由三无逆jet列参数化；原Schur合同为GA^(q+2)、GA^q、GA^(q−2)三真实幂旗，新增秩(d−l+2)+ +(d−l)+ +(d−l−2)+，全候选≤72l(l+1)(n+2)^6·49^n e^{662a}‖ξ‖。只付长坏链，短链/完整源另付；非正交还原只一个κ≤4^R y^(2d)。
+- **一般长坏链解析Schur已闭：** 全核3d无逆jet列，原型合同于三旧真幂旗，全部新增秩与662a候选费见[正式稿](results/R271-appendix-general-head-long-bad-chain-analytic-schur-and-three-true-power-flags.md)。非正交还原只付一次κ，勿当物理直和。
 - **[一般N头高孔完整补空间](results/R271-appendix-general-head-high-hole-schur-complement-and-complete-residue-cost.md)已证：** m≥5、r3、偶R≥d，全部长短坏链最低孔A0=(R−d)/2+m+2，完整q₋₁≤C_m4^R y^(2d)s^((R−3d)/2+2m+3)Z(s)；logC_m≤883a+8dlog(2d)。原s*=e⁻¹⁰⁷⁰重标度保持221/441界。另γ界为C_m4^Ry^(2d)s^(m+2−d)γ^(A0−1)Zγ；γ<1/16即可有负R预算，实际Zγ及正则部分仍待付。
+- **[完整真核线性图与全区正则界](results/R271-appendix-complete-highest-carry-linear-graphs-and-full-interval-regular-cost.md)已证：** 奇r/偶R，真核/余核分别是固定自由块⊥底坐标I的线性图，Π′、Q′≤2L，L=max(‖Z†T‖,‖TZ†‖)。全0<t≤1有‖q−t⁻¹q₋₁‖≤K0(h+1)[h1+(4h+2)L+2]‖f‖，K0、L全原常数已列。未知有效半径已消除，粗正则费/真实ξ、ξ′仍过大，继续实际预算。
 - **当前主门：** 增长强段的旧carry源残余及真实费用，允许高度/同w倒数和发散、负部返回与全帽逆后误差。G_reg/carry、Haar循环及归档open均继续。
 
 ## 原Deddens与非复制来源

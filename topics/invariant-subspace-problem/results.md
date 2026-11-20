@@ -81,3 +81,5 @@
 - **R150 V0本质四维的四不同物理支撑点全空（2026-11-20，已证明）：** [原Gaussian完整梯度及全部零均值分支](results/R150-appendix-zero-third-cumulant-reduced-essential-four-section-is-empty.md)保V=0点的V方向梯度；三活跃配对全非零被原节点普通矩排，余下一零边对应W±。最高式/mean迫聚合均值与二阶矩零，完整H梯度化为非零D乘一条含非零p1系数的极线，矛盾。包含∞及a_i零，不借外均值规范；重数型仍开。
 
 - **R150 V0本质四维的全部重节点排除，整层闭合（2026-11-20，已证明）：** [完整四重数型及根方向相关性引理](results/R150-appendix-zero-third-cumulant-nonreduced-essential-four-section-is-empty.md)逐一覆盖4、3+1、2+2、2+1+1以及基点全部位置/∞；保H_RY非零相关项，完整mean及二阶梯度的系数比矛盾排主要族，局部4的原五阶奇零点排0/∞。与四不同点结果合并，V=0完整临界⇒essT3≠4。一般V≠0、ess5/6、完整Bell幂来源与ISP均仍未闭。
+
+- **R271 完整真核线性图及全实最高carry正则界（2026-11-20，已证明）：** [完整物理核/余核、Galerkin导数和精确剪切解](results/R271-appendix-complete-highest-carry-linear-graphs-and-full-interval-regular-cost.md)在奇r/偶R给固定自由块⊥线性图，底坐标I保证全区Π′/Q′≤2L。最终物理投影保留后，全0<t≤1的q−t⁻¹q₋₁≤K0(h+1)[h1+(4h+2)L+2]‖f‖；全部原64^R/4^R及头、S费用明列。无需未知有效半径，粗正则上界仍未满足实际倒数预算。

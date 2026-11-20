@@ -63,7 +63,7 @@ $$
 
 小头不逐级继承：原m2/R2有 $\kappa^2<e^{-2000}$，但[原m3/R0/r3](results/R271-appendix-actual-eight-head-triple-hole-cost-lower-bound-and-highest-carry-pole.md)反有 $\kappa^2>e^{38000}$ 和非消失 $t^{-1}$ 极点；两者均不在旧联合高度窗。固定偶R的低头阶只能按各自范围使用。
 
-[一般长坏链的完整解析 Schur 与三个真实幂旗](results/R271-appendix-general-head-long-bad-chain-analytic-schur-and-three-true-power-flags.md)现已证明：l≥n+3时无A逆的合同、完整新增秩及候选费用均明确，最长坏链最低局部N孔为m+2。[一般N头全部长短链高孔补空间及显式费用](results/R271-appendix-general-head-high-hole-schur-complement-and-complete-residue-cost.md)进一步给m≥5、r3、偶R≥d的A0=(R−d)/2+m+2，整个q₋₁有C_m4^Ry^(2d)s^((R−3d)/2+2m+3)Z(s)上界，logC_m≤883a+8dlog(2d)，原s*=e⁻¹⁰⁷⁰重标度已核。较弱的固定γ孔加权源界也可用：显式s成本独立R，γ<1/16即可压4^R。真正剩余为完整Zγ(s*)的移动参数上界、原t正则部分及增长R母窗；不把合同当物理正交分解。
+[一般长坏链的完整解析 Schur 与三个真实幂旗](results/R271-appendix-general-head-long-bad-chain-analytic-schur-and-three-true-power-flags.md)现已证明：l≥n+3时无A逆的合同、完整新增秩及候选费用均明确，最长坏链最低局部N孔为m+2。[一般N头全部长短链高孔补空间及显式费用](results/R271-appendix-general-head-high-hole-schur-complement-and-complete-residue-cost.md)进一步给m≥5、r3、偶R≥d的A0=(R−d)/2+m+2，整个q₋₁有C_m4^Ry^(2d)s^((R−3d)/2+2m+3)Z(s)上界，logC_m≤883a+8dlog(2d)，原s*=e⁻¹⁰⁷⁰重标度已核。较弱的固定γ孔加权源界也可用：显式s成本独立R，γ<1/16即可压4^R。[完整真核线性图与全区间正则界](results/R271-appendix-complete-highest-carry-linear-graphs-and-full-interval-regular-cost.md)现已消除未知t有效半径：全0<t≤1有明确的q−t⁻¹q₋₁界，保完整Galerkin与最终余核正交投影。该粗界仍过大；真正剩余为完整Zγ(s*)、ξ/ξ′或孔相关乘积的有效费用，以及增长R母窗；不把合同当物理正交分解。
 
 ### 2.2 仍需接合的原返回接口
 
