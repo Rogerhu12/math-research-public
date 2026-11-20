@@ -40,7 +40,9 @@ R946/951/952原Bol障碍O_r(H)=r!(𝒰H)^p/B^(p−r)|SS、kerO=ker𝒰；whole�
 
 [R978](results/R978-original-Robert-coordinate-and-pure-Hurwitz-mirror.md)：源E+的[-p]modp=T^(p²)，Milne严格整LT同构g′0=1取τ^(p²−1)=p、X=τ^(3(p−1))、ϖ=ηX且η^m=−1。F7(gT)=Δ⁴T48H(T)/7，H∈1+T⁶O[[T]]；完整半kernel先给V7=ξC0X8G(X)、G整，再于e=m<p−1取log，所有j≥m项按j−m v_p(j)≥m严格消失。纯σ定义log(σz/z)=−ΣG_N z^N/N；仅所选N_j=3(p−1)j<m·3(p−1)=p²−1经unit regularizer48证G_N/N整，并准确B_j=24η^(−j)(ζ^j−1)G_N/N modp。低G_(a(p−1))单位，**S非零 iff G_(n(p−1))单位**；高低指标和p²−1不提供反射非零。保原root/embedding，未引新period、未在高ramification直接截σ log。
 
-当前须证实际G_(n(p−1))高系数普遍非零，或与balanced c_n建立真实整reciprocity；N_low+N_high=p²−1、低unit和Frobenius pair整体非零都不单独证明高unit。真实logΔ生成式正在审，不把其Cayley坐标直接当ϖ。
+[R979](results/R979-balanced-Kronecker-and-normalized-discriminant-Taylor-source.md)：同一实际discriminant有准确Ramanujan/Cayley源，u=(τ−ζ)/(τ−barζ)、T=Ω²Imζ·u/π（原PL参数的−3倍），log[Δ(τ(u))/((1−u)^12Δζ)]=12Σ(n−1)!c_nT^n。E−/E+保Ω²相位，实际n3mod6有c_n+=−c_n−；粗W=T³的m−b项准确12(n−1)!c_n，是p-unit比例。D_C=[p(1−u_p)]^12 exp G_+(T_p³)保原p12及normalized differential；仍无W到ϖ的整比较，不能将complex式代为p-adic截断。
+
+当前须证实际G_(n(p−1))高系数普遍非零，或与balanced c_n建立真实整reciprocity。N_low+N_high=p²−1、低unit和Frobenius pair整体非零都不单独证明高unit；原生mirror的实际指数及规范须逐条核。不把Cayley坐标直接当ϖ，也不删factorial/p幂。
 
 ## O3：固定低权cohomology与原Igusa投影的边界
 

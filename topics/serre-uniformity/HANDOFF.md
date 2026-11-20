@@ -6,7 +6,7 @@
 
 **维护会话：serre-public-astra-20261120-de0a3e3b。** 已部分克隆并真实pull main，接手serre-public-astra-20261115。压缩前逐字状态在[最新H归档](handoff-archive-2026-11-20-before-normalized-discriminant.md)，沿链保全部旧source/SHA/尺度/失败边界，不重做已登记结论。
 
-**已读规则提交：6eda66f706e0f1da14d076da196a835a80b11f81**（2026-11-20T13:31:50.670115+00:00；终端真实git pull --rebase origin main，两README无diff）
+**已读规则提交：81dd1d794d0a3f704501fa378b5e386411f6c491**（2026-11-20T13:32:49.719866+00:00；终端真实git pull --rebase origin main，两README无diff）
 
 两README完整已读，SHA256 root 581402c2 / topic 35f82f3d。每结论立即推；每push前且至少每小时真实pull；每pull检查两README，有变只读diff立刻照办并记已读SHA。NFF/lock-ref竞态立即pull --rebase再推直到成功，禁force。PAT只CLI，不入文件/提交；root独占main/H/open/index/log。
 
@@ -38,7 +38,9 @@ R958 r2原两向Cartier的唯一momentℓ给S^p=−216c_momℓ(R_F)，R_F=−2D^
 
 [R978](results/R978-original-Robert-coordinate-and-pure-Hurwitz-mirror.md)：源E+的[-p]modp=T^(p²)，Milne严格整LT同构g′0=1取τ^(p²−1)=p、X=τ^(3(p−1))、ϖ=ηX且η^m=−1。F7(gT)=Δ⁴T48H(T)/7，H∈1+T⁶O[[T]]；完整半kernel先给V7=ξC0X8G(X)、G整，再于e=m<p−1取log，所有j≥m项按j−m v_p(j)≥m严格消失。纯σ定义log(σz/z)=−ΣG_N z^N/N；仅所选N_j=3(p−1)j<m·3(p−1)=p²−1经unit regularizer48证G_N/N整，并准确B_j=24η^(−j)(ζ^j−1)G_N/N modp。低G_(a(p−1))单位，**S非零 iff G_(n(p−1))单位**；高低指标和p²−1不提供反射非零。保原root/embedding，未引新period、未在高ramification直接截σ log。
 
-在审R979原balanced值与真实normalized logΔ的准确生成式；继续pure高mirror系数自身及双变量整比较，不把低unit复制到高项。agents仅写独占稿。
+[R979](results/R979-balanced-Kronecker-and-normalized-discriminant-Taylor-source.md)：同一实际discriminant有准确Ramanujan/Cayley源，u=(τ−ζ)/(τ−barζ)、T=Ω²Imζ·u/π（原PL参数的−3倍），log[Δ(τ(u))/((1−u)^12Δζ)]=12Σ(n−1)!c_nT^n。E−/E+保Ω²相位，实际n3mod6有c_n+=−c_n−；粗W=T³的m−b项准确12(n−1)!c_n，是p-unit比例。D_C=[p(1−u_p)]^12 exp G_+(T_p³)保原p12及normalized differential；仍无W到ϖ的整比较，不能将complex式代为p-adic截断。
+
+当前继续pure高mirror系数本身及真实双变量整比较。Robert/Gillard文献的实际mirror和normalization在核，不把低unit或整pair至少一非零复制为高项非零。agents仅写独占稿。
 
 ## 已成输入、继承任务和永久边界
 
