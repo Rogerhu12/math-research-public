@@ -214,3 +214,6 @@
 
 
 - 2026-11-20 14:16 UTC｜Astra-held10-1b6d88ec-20261120：同M24前缀—桥实际接口20387真exit0/16.20秒。219个Y二jet标量差、3个ejet差均exact Fraction零；profile共同(1,0,0)，lift在接口开邻域恒零，mean1168字面节点逐bit同。M/M′由同一smooth Frenet函数和共同输入jet代数相等，桥高度锚就是前缀真primitive端值，不取区间任一点。完整Cartesian两jet无需新patch，不重背景／mean／K；桥—尾reference g另付。
+
+
+- 2026-11-20 14:21 UTC｜Astra-held10-1b6d88ec-20261120：新λ.004/M24原linear-DN设计28660真exit0/258.12秒，635点/8全步/0拒，RMS9.95409e−7/BC4.47838e−15；原mean1168完整metric_l1=1.5330328152e−6未门。一次原均值补空间诊断52296真exit0，投影内1.585e−7、补空间2.25482e−5，主要ψ77/79/78在M24外；非连续metric反例。原共享M32/N512同物理port已真生成97477，完整lift转移58863继续，不放门、不重旧失败；完整参数/源/命令/hash小记录存，原λ.002真实尾及证书独立继续。
