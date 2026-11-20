@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R138原high压缩与相对根迹接收器](results/R138-supplement-original-high-compression-and-relative-root-receivers.md)：保low96/high97、fullmean与实际弱核同图，准确dual接收器及同L2逆导数界已证；高压缩逆必须保low96修正，完整high正性和finite W把负部交真根迹，再接GB相对三门。root/joint独核，0新数；actual high、全尾cross/finite Gram及三门仍待。
+
 - [R141实际径向加权完整高响应](results/R141-supplement-actual-radially-weighted-high-response.md)：44746534556/1完整4802格双扫、154panels/152parents与全4650旧gap/frame，5球成功：GB<8.131、HB<30、HZ/Hroot<12、outer<.151。79pins/21恢复/39字段25门及旧全对象已核，0旧目标/新数组，结果冻结；原无限high/mean/feedback全保，实际低逆/物理外行/finiteρ/七ports/两rhs未付。
 
 - [R138截顶曲率的自由根迹与有限读出](results/R138-supplement-capped-curvature-root-trace-and-finite-receivers.md)：非零环境k的精确step free-outer根迹与全高k^−2/3界、两端signed相关式均已证；k0根−外完整保。mean0接收器以密度dual变角，各端点负阶费√Γ，给finite Gram与原非归一能量2π接口；未知场不假设mean0。root/global独核纯解析通过，actual Gram/根门未付，旧Y r不改。

@@ -203,3 +203,7 @@ joint推RT1–19，root/global独核全篇：step势固定根值/自由外端的
 ## 2026-11-20：径向加权高响应实际完整成功
 
 44746534556/1成功5target/5whole球，153定义/154body panels/152parents，原4650行与4801context intersections保留，新共同细分4802格双向完整。root/positive整审79当前bytes/SHA/blob/receipt、28AST/9模块/39字段25门、全部参数/scope、21恢复15033/13771B canonical对象、原29记录和GH5/GH4同reference、4README空diff。actual56554B/6e32b9ef、exec57850B/d96bd113，math98.156560632s/child108.933231214s/0。完整球GB≈8.130665、HB≈29.431294、HZ/Hroot≈11.693139、outer≈.15068478，各仅upper；旧targets/高sweep/low/矩阵数组全0。actual已冻结，真实low/physical97+96/finiteρ/7ports/两RHS待。
+
+## 2026-11-20：原高压缩与相对体能量的准确根接收器
+
+global推R1–30，root全篇独核，joint独核high/low/非齐次接口；准确μ由X配对的周期平均读出，V0消t′给A与同L2逆对偶，P′mean0只源自周期导数而P/h均值保留。导数落even restriction、同κ付逆，moving w与ψ密度仅一次，环境源另√AΘ。原PH乘子逆保PL96修正，完整high正性加finite W支付low负型，所有尾与mean/两primitive保；只形成条件相对三门。实际弱核归属按V§9及G.13原全图核实，无高边界正则循环；0新科学/旧目标重算。H执行节全文保0710c0bb6不可变指针。
