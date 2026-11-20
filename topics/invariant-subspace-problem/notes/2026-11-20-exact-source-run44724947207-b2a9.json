@@ -1,0 +1,45 @@
+{
+  "format": "isp-exact-run-identity-v1",
+  "session": "Astra-ISP-b2a9acde-20261120",
+  "runId": 44724947207,
+  "jobId": 136249870826,
+  "frozenCommit": "a945aec4331160c285f6187b0cecb3bc2e92db39",
+  "sources": [
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-20-essential-four-reduced-three-double-zero-verify.py",
+      "sha256": "e40779b9596d56b3c592a023f28c9c1af395d00d470dfe60d2cb3fc98ae4ade0",
+      "parameters": [],
+      "resultOutputSha256": "52ed23cd365d3e33c0c8bfc05ed274cc6629822f266f4442b68b15dbffa2b0a5"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/scripts/verify-r271-three-bit-highest-carry-principal-minors.mjs",
+      "sha256": "2413523513b60f8296990491b759e3721cac3ed9925150ef273f33f803359c42",
+      "parameters": {
+        "r": 3,
+        "tailLengths": [
+          1,
+          3,
+          5,
+          7,
+          9
+        ],
+        "integerScale": 36
+      },
+      "resultOutputSha256": "b33b2ae3a473ae1bdffbb857d457c7a2f4558d6b3b55e889eef46625f16c4469",
+      "reconstructionSha256": "8e351cbeb79369058872f1a42e91dcb06ffa52e48293c27e9c98c7306da09446"
+    }
+  ],
+  "dependencies": {
+    "sympy": "1.13.3",
+    "mpmath": "1.3.0",
+    "node": "24.22.2"
+  },
+  "decodedJobLogSha256": "993d4afe61b0f8da2e665d1fa783be4b97e854cb34c94dab7fe0749c3c280aab",
+  "actualPullUtc": "2026-11-20 11:07:23 UTC",
+  "rulesReadAt": "a945aec4331160c285f6187b0cecb3bc2e92db39",
+  "rulesGitBlobs": {
+    "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+    "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+  },
+  "computedOutputRetained": false
+}

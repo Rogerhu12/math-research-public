@@ -5,8 +5,8 @@
 ## 主目标、规则与执行
 
 - **普通复可分无限维Hilbert ISP未完成。** 只有全体有界算子的存在定理或完整反例才收尾；子问题完成继续open，不以阶段或时限停止。
-- **最近成功实际pull与已读规则提交：** fae69f6c767bdfbca9ba3ecfa396353fb91a66dd，2026-11-20 10:59:14 UTC，Actions run44723783966/job136245961458；真实git pull --rebase成功，两README未变，原日志已核。下一实际pull不得迟于11:59 UTC。
-- **最近API同步及规则核对：** `fea36d7d86dc6229b23f5af13bd7ba53e0b362d1`（2026-11-20 11:07:13 UTC）；两README blob均未变。API快照不冒称实际git pull，另记真实执行回执。
+- **最近成功实际pull与已读规则提交：** a945aec4331160c285f6187b0cecb3bc2e92db39，2026-11-20 11:07:23 UTC，Actions run44724947207/job136249870826；真实git pull --rebase成功，两README未变，原日志已核。下一实际pull不得迟于12:07 UTC。
+- **最近API同步及规则核对：** `b846823aa4d05ff26c15c3e97df277658f835511`（2026-11-20 11:10:10 UTC）；两README blob均未变。API快照不冒称实际git pull，另记真实执行回执。
 - 根README blob282e86b03385d3b6245ce7100ae2e2af7b103c2d、课题4d6570e9cf346431ab781a1290076a6321aaaa00已全文读。每次pull比两README，只读新diff并立即遵守；至少每小时及发布前同步，SHA写H。
 - 仅授权Rogerhu12/math-research-public。root独占main/H/open/results/log和发布，代理只交proof blob；每条结论单独提交推送，非快进立即更新/rebase重试成功，不force。用户PAT仅CLI环境，不进文件/config/日志。
 - 根规则15：可重算数组/数据/证书不进Git、Release或新工件；仅源码、参数、运行身份/SHA及正式证明。MD/API UTF8<100KB、H≤10000B、open尽量≤30KB、topic≤200MB、log每条≤5行、数学美元符及AI署名，不写根LOG。
@@ -15,18 +15,15 @@
 
 ## R150：原Bell非零临界点与完整来源
 
-- 全W31/W127、原相对模/扩张/来源费、quintic259/稳定C60/最少Γ120、全局9/10生成与56图、权7–10均已闭，不重算。原4q+15δ图册仍须每图真实g_i^Ni来源，再按N=1+Σ(Ni−1)粘合，几何覆盖不代判空。
-- **[完整权十](results/R150-appendix-complete-weight-ten-rank-and-characteristic-zero-delta-square-obstruction.md)：** 旧run43926933406已成，根恢复原独核；ΓE10=13697、δ14b²非成员、μ10核2171全Koszul，200/120核111/31。δ原十八来源权≤12排除。
-- **[原权11–14严格门](results/R150-appendix-original-koszul-two-cycles-and-weight-eleven-through-fourteen-rank-ceilings.md)：** ΓE≤36782/90012/203542/430212；qb³/b⁴/δb³增广负门36783/90013/203543。新大矩阵尚未运行，未宣成员性。
-- 全essT3≤3 matched Bell零，但W±Cat3真临界点存在；不判Cat3层空。Bell非零只可能ess4/5/6。
-- [ess4外均值长度五](results/R150-appendix-essential-four-outer-mean-length-five-algebra-and-rank-defects.md)：Cat(y)=3、W=essT3维4、y∉W，唯一原除子D/全jets与同一L,ν给全矩，原highest及全部low梯度保留。**[所有rankH3已空](results/R150-appendix-essential-four-all-rank-three-second-moment-branches-are-empty.md)**，包括全部合流/半权/∞；只余rankH4/5。
-- rankH4非单位块长度5/4/3的全部支路均已排，证明索引及保同一L/K/原矩的局部规范详前H；半权及∞全含。
-- 长度2单零的K_active=0单位补支已排（原mean/highest/Gram秩及W±不交）；非零Gram另解，勿放宽范围。
-- unit三重点+长度2单零已空：原mean四式、zero base的highest/N和Gram秩闭全部支（见结果索引）。divisor3+2两种rank4缺陷放置全闭。
-- **[unit四jet+孤立零点也已空](results/R150-appendix-essential-four-unit-four-jet-isolated-zero-rank-four-branch-is-empty.md)。** 原mean四式/highest三阶/N基点全核，所有除法例外排；regular的H6/M8原必要式在短run44722024572精确Q gcd=1（六步），只存源/运行/SHA。divisor4+1两种rank4缺陷放置全闭；isolated zero只余split unit长度4。
-- **[unit2+1加长度2单零整支已空](results/R150-appendix-essential-four-unit-two-plus-one-double-zero-rank-four-branch-is-empty.md)：** 原QQ重建3mean/3N、det/rank-one及3gcd在run44723783966通过；半权/零差/θ0,−3/det零/A零全部另证。长度2单零只余unit三约化点；源/运行/SHA保留，不存余式。
-- **进行中原源计算：** 短Actions请求sequence3，仅运行新的三约化unit补双零原QQ消去与R271五短链高孔principal minor的BigInt精确重建。两源已提交，尚待原运行；不存证书向量/消元数组。R150完整稿仍核其退化分支；R271只是极点系数，不预填实际费用。
-- **当前仍开：** rankH4的其余长度2单零及零单点；全部rankH5单位支。y∈W、ess5/6、完整Bell幂来源/算子桥也仍开。代理的新支路稿先经根核再登记，不将草稿预填为结论。
+- 全W31/W127、相对模/扩张/来源费、quintic259/C60/minΓ120、全局9/10生成与56图、权7–10已闭不重算。若做4q+15δ图册，仍须每图真实幂来源并以N=1+Σ(Ni−1)粘合，几何覆盖不代判空。
+- [原权十](results/R150-appendix-complete-weight-ten-rank-and-characteristic-zero-delta-square-obstruction.md)ΓE10=13697、δ14b²非成员、μ10核2171全Koszul；200/120核111/31。旧run43926933406原身份已恢复，勿重跑。
+- [权11–14严格门](results/R150-appendix-original-koszul-two-cycles-and-weight-eleven-through-fourteen-rank-ceilings.md)ΓE≤36782/90012/203542/430212；qb³/b⁴/δb³新增广负门36783/90013/203543。新大矩阵未运行，非成员性未宣。
+- 全essT3≤3 matched Bell零，W±Cat3真临界点存在，勿判Cat3整层空；Bell非零只可能ess4/5/6。
+- [ess4外均值原长度五代数](results/R150-appendix-essential-four-outer-mean-length-five-algebra-and-rank-defects.md)：Cat(y)=3、dimW4、y∉W，唯一D/全jets与同一L,ν给全矩。所有rankH3已排，含全部合流/半权/∞。
+- **rankH4的全部proper局部单零（块长度2–5）已排。** 最新[三约化unit补双零](results/R150-appendix-essential-four-reduced-three-double-zero-rank-four-branch-is-empty.md)保U标量/两值/生成元、m零/非零全支；原mean仅三族，完整highest解cross再以原N排。run44724947207原QQ残差/resultant通过，源SHA e40779b9596d56b3c592a023f28c9c1af395d00d470dfe60d2cb3fc98ae4ade0。unit2+1先由run44723783966闭；此前各局部证明见结果索引。
+- **rankH4只余孤立零单点，unit长度4为3+1、2+2、2+1+1或1⁴。** unit单四jet已由原H6/M8 gcd1闭（run44722024572）。divisor4+1及3+2全部rank4放置闭。
+- 全部rankH5单位支、inner mean y∈W、ess5/6、原Bell幂来源/算子桥仍开。inner mean不能从V的低秩支撑自动得到y/H共同支撑，须保退化分支；代理在做原V=0支。草稿不预填结论。
+- R271短链源与上述R150源同run44724947207已完成，原log已取；其完整新证明独立下一提交，非整个实际费用。
 
 ## R271：同w的完整源费用
 

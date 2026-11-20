@@ -63,3 +63,5 @@
 - **R150 单位2+1补空间与双点单零的rankH4为空（2026-11-20，已证明）：** [完整原mean/N、全部例外和有理消去](results/R150-appendix-essential-four-unit-two-plus-one-double-zero-rank-four-branch-is-empty.md)排零差/半权/θ=0,−3/行列式零及A=0，再从全active最高解第二cross列；原N给R28与F7的Q gcd1。run44723783966原源20.221秒通过，SHA与原日志已核，未存输出数组。长度2单零仅余单位三约化点，split单位四与rankH5继续。
 
 - **R271 原强尾中位尺度与完整MP的指数强段费用（2026-11-20，已证明）：** [精确条件数、同primitive投影及所有尺度费用](results/R271-appendix-median-strong-tail-scaling-four-power-condition-and-full-odd-height-cost.md)给κ(T̃)=[(m+R)!m!/(m+R/2)!²]²≤4^R，非正交primitive投影保同一算子且norm≤4^R；公共尺度c转入头cL_h。偶R≥d/奇r的完整物理MP付64^R和y^(4d+6r−6)，强段对数降为O(R)+(d+r)log(m+R)。不付Galerkin源系数/有效邻域或新母窗。
+
+- **R150 三约化unit补双点单零的rankH4整支为空（2026-11-20，已证明）：** [全cross退化、原Frobenius方程及完整N排除](results/R150-appendix-essential-four-reduced-three-double-zero-rank-four-branch-is-empty.md)处理U标量/两值/生成元及m零/非零；生成元仅三mean族，原highest确定V后N给六残差，末两quartic resultant=7325267546603520000。run44724947207原QQ全过。所有rank4 proper局部单零长度2–5因此关闭；只余isolated zero配split unit四及rank5/inner/ess5/6。
