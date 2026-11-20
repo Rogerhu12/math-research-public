@@ -255,3 +255,7 @@ positive推L1–25及pure13580B/2c5002f9，global整篇/整源独审；root再�
 ## 2026-11-20 15:04 UTC：实际短根段积分排除原GB的全部径向权根预算
 
 会话visible-exact-astra-ac637-20261120。44758362539/1完整327片/10464子片，math1.911141964s/child2.041096617s/rc0；actual17278B/e1b27ffa、exec18290B/ba15b106，27当前/10原恢复逐项同manifest，旧目标/新数组0。保存upper T≈124.10400207严格<125<160，两门true；原GB aEE>11/10与RS准确容量下界已使第一门>81/40，排同GB的任意径向权/freecut/scalar-Jacobian，不排BVP。新体预算仍须aEE<102/125，保原Γ更须<27453/78125；这些只是有理必要门。旧原件冻结，下一步接R141实际低结果/真实两RHS与另有希望的体或直接逆路线。
+
+## 2026-11-20 15:09 UTC：真实物理WPN源对、完整径向尾与可复用旧界
+
+会话visible-exact-astra-ac637-20261120。positive完成S1–19/proof21702B/7985e1fa及pure17871B/dde36315，root整读原两行/范数/18输入和ν完整metric依据，global/joint分别核tail与S9–12。只让真实完整data驱动B/E/P/T四量，原h/π与低jump sqrt(ab/h)|Sj|保持N24480；P已含tail，S^-1只在raw B/E付8，mean/physical三源两路径不删。WOBSA43844596176全37球只读；continuousZ原完整source同δ0，selected资格另匹配，旧qsharp在9/10边界不冒R=25/8。S19给真实外残差而非导数界，无future224/32或实际source包伪造；下一步接同member桥及新正区Newton源。

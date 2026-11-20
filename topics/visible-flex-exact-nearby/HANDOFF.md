@@ -1,12 +1,12 @@
 # 交接：可见振幅的精确闭等距族
 
-维护会话：`visible-exact-astra-ac637-20261120`；更新：2026-11-20 15:05:08 UTC。
+维护会话：`visible-exact-astra-ac637-20261120`；更新：2026-11-20 15:15:24 UTC。
 **总任务未完成；继续研究，不等用户回复。**
 
 ## 规则读点与接续来源
 
 部分克隆：`/workspace/scratch/ac637cfcc78d/math-research-public`。终端 git 已恢复，无 AGENTS。
-2026-11-20 15:05:08 UTC 实际pull/rebase至 `0548fef0739228013c0f085d166217a2cfa3de1b`；已读规则提交同上，两README相对96edc6770空diff。每次pull后核规则差异；下次实际pull最迟16:05:08 UTC。
+2026-11-20 15:15:24 UTC 实际pull/rebase至 `f07b11989f5409f915645e20158cd4250570159c`；已读规则提交同上，两README相对96edc6770空diff。每次pull后核规则差异；下次实际pull最迟16:15:24 UTC。
 
 接手前完整 H（含全部递归原页、成功/失败/恢复身份和未付义务）见 [2026-11-16 完整检查点](https://github.com/Rogerhu12/math-research-public/blob/882aa9b74efeaac682df43c197820e7280156357/topics/visible-flex-exact-nearby/HANDOFF.md)。本页只压缩索引；`open.md` 及所链接的原证明、适用域、均值、物理角、所有边界和误差费用继续有效。旧成功结论不重算。
 
@@ -47,7 +47,7 @@ WIC原m160/N24480真tail逆κ=3已证；原WPN trial只有完整e+3dt<1才授双
 2. F_B44734581045、GH5 44736533396、GH4 44740105701均冻结。[D44745017016](results/R141-supplement-actual-reference-boundary-lifts-and-complete-193-observations.md)10球body<6.594/complete<7.236，旧44742799448线程0数学失败保；[加权GH44746534556](results/R141-supplement-actual-radially-weighted-high-response.md)5球GB<8.131/HB<30/HZ及Hroot<12/outer<.151，均upper。真实97+96外行未闭。
 3. R138轴44730968113/mean44733403315/X44737045152/Y44740320925及旧false冻结。[GB44745355257](results/R138-supplement-actual-capped-Hhalf-body-absorption-and-root-allowance.md)body三门true、C_allow lower>367；根r仍旧Y。原[96/97负型44745192261](results/R138-supplement-actual-negative-original-root-96-97-form.md)det<−353/显式型<−146，只排全rootdata非负/仅H²费，不推核。
 4. RT/relative/HP/HC全部解析资格见所链完整H与原proof；[HC44750653724实际](results/R138-supplement-actual-original-high-root-lower-bound.md)原high lower>.7226/κ<.091，只fixed trueDF根压缩。[固定全域CE预算](results/R138-supplement-fixed-global-energy-root-receiver-budget-excluded.md)严格排，[low96核读出](results/R138-supplement-original-low96-root-trace-injectivity-on-homogeneous-kernel.md)单射/dim≤96，非全逆。[LC加权容量](results/R138-supplement-localized-eta-balanced-energy-and-root-capacity.md)与[权无关筛查](results/R138-supplement-radial-weight-independent-root-budget-screen.md)纯证明已闭；[RS实际44758362539](results/R138-supplement-actual-radial-weight-root-budget-screen.md)327片/10464子片给完整upper T<125，两225/160门true；仅排原GB的全部径向权/scalar-Jacobian预算，非BVP。换体预算须另证，不再为旧预算做Gram。
-5. [14列224量端口](results/R141-supplement-original-seven-ports-after-the-physical-gate.md)及[WPN两行准确提升](results/R141-supplement-both-WPN-rows-by-exact-WOB-source-lifting.md)纯合同已证；保一般L2、原24480全尾与独立193，actual58/224/32仍待。positive组装真实ν/Newton/接口两RHS，global推进新T，joint容量维护，root继续接实际低结果与推送；旧trial门/negative/mean/全matching不省。
+5. [14列224量端口](results/R141-supplement-original-seven-ports-after-the-physical-gate.md)及[WPN两行准确提升](results/R141-supplement-both-WPN-rows-by-exact-WOB-source-lifting.md)纯合同已证；保一般L2、原24480全尾与独立193，actual58/224/32仍待。[真实物理源对接线](results/R141-supplement-actual-physical-source-pairs-and-reusable-bounds.md)保18项输入/原24480 tail/low jump及ν显式0的准确范围，四新量须实际data全付。positive继续同member/Newton实源，global另研根/body，joint矩积分，root接实际低结果；negative/mean/全matching不省。
 
 ## 正侧以外仍未付的接口
 

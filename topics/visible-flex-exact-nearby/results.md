@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R141真实物理源对与原径向尾接线](results/R141-supplement-actual-physical-source-pairs-and-reusable-bounds.md)：完整signed F/e、原24480 ordinary/jump tail与B/E/P/T四量纯核已证；18实际输入缺项不填0，原WOBSA/连续Z只读，δ0不冒selected。ν显式0具完整metric/exterior依据，S19保真实Robin/physicalmean残差；实际data大小/逆/负区matching继续待，0新科学。
+
 - [R138实际权无关根预算筛查](results/R138-supplement-actual-radial-weight-root-budget-screen.md)：44758362539/1唯一新T在327片/10464子片完整成功，upper<125、225/160两门true，排所选GB下整类径向权/freecut/scalar-Jacobian接收器第一门。非BVP奇异；更换body费用另须aEE<102/125，原Γ下更须<27453/78125。0旧重算，结果冻结。
 
 - [R138权无关根预算新单积分合同](notes/2026-11-20-R138-radial-weight-root-budget-screen-contract.md)：27当前输入/10原恢复、320bits、原整片32子片首次公开入口，唯一T完整保存后才比较225/160两范围；原high41/signed3/X/GB只读。实际T与排除尚待，不授奇异或逆。
