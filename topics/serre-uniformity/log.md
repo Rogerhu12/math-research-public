@@ -53,3 +53,7 @@
 ### 2026-11-20 23:09 Asia/Taipei — serre-public-astra-20261120-de0a3e3b
 - R995原D³ mixed源/全部zeta修正/实际分母界经root与literature独审，精确保G‴新支、E−正号和原mask，H逐字归档保前态。
 - 原filtered关系仍开，继续来源约束；R993 run44760218207/job136370438703正公开计算，未提前宣布回执或Serre完成。
+
+### 2026-11-20 23:10 Asia/Taipei — serre-public-astra-20261120-de0a3e3b
+- R995补明确旧MH3–4原规范依赖；六维heat/平凡化/零p曲率/Hasse boundary均为既有结论，不重登记。
+- 新增仅是实际mixed第三CM法向源与原mask接口；定理式不变，更新全文SHA；继续指定支撑，R993仍待回执。

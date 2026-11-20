@@ -162,7 +162,7 @@ The \(G'''\otimes H'''\) term is the third mixed derivative of the original firs
 
 ## 3. All canonical-zeta corrections
 
-The original canonical sigma heat identity, with the same graded Serre convention, is
+Recall the already-registered canonical sigma heat identity from the 2026-11-15 modular-heat note, (MH3)–(MH4). Under its exact change of frame \(a=X/12,b=-Y/216,L=D\), it is
 
 \[
 D\sigma_{\rm alg}
@@ -401,6 +401,7 @@ The new result is the exact normal-source decomposition and coefficient identity
 - [R966](R966-single-conductor-two-s-CM-kernel-and-original-critical-jet.md): the actual conductor-\((2s)\) source, original positive CM choice, rank-two specialization, unchanged \(F,G,Y_s,H\), and the two label filters.
 - [R968](R968-full-level-mixed-CM-jet-and-critical-factor.md): the complete Gaussian-normalized source, canonical zeta normalization, graded heat identity, finite coefficient formula, period scale, and original marked product.
 - [R992](R992-original-full-level-Jacobi-operator-and-filtered-stability-criterion.md): the actual full-level Jacobi operator and its exact third-Serre-derivative marked interface. Its conditional nonzero-space and invariance hypotheses remain intact.
+- [The original modular-heat and tame-trivialization note](../notes/2026-11-15-sigma-modular-heat-connection-and-odd-tame-trivialization.md), (MH3)–(MH4): the exact canonical sigma and zeta heat identities reused in (995.13)–(995.16). Its six-dimensional matrix, tame trivialization, zero p-curvature, and first Hasse boundary are already registered; none is a new conclusion here.
 - [R975](R975-original-balanced-Kronecker-integral-heat-recurrence.md): the canonical sigma/heat convention and graded Serre derivation; the exact identities needed here are also derived in (995.13)–(995.18).
 - [R697](R697-original-sigma-six-sections-and-integral-square-roots.md) and [R702](R702-first-pole-block-and-uniform-shifted-units.md): the original first integral blocks and the distinction from the later pole blocks. No shifted-unit claim is used as a lower-weight nonvanishing assertion.
 

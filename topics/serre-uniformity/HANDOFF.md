@@ -6,7 +6,7 @@
 
 **维护会话：serre-public-astra-20261120-de0a3e3b。** 已部分克隆并真实pull main，接手serre-public-astra-20261115。压缩前逐字状态在[最新H归档](handoff-archive-2026-11-20-before-coarse-normal-jet.md)，沿链保全部旧source/SHA/尺度/失败边界，不重做已登记结论。
 
-**已读规则提交：248592d7fabd01b1b8c548237400767e9ecec001**（2026-11-20T15:09:40.233886+00:00；终端真实git pull --rebase origin main，两README无diff）
+**已读规则提交：f66672aae75ed4b78dd89c1fd92d3003cbba6085**（2026-11-20T15:10:34.711254+00:00；终端真实git pull --rebase origin main，两README无diff）
 
 两README完整已读，SHA256 root 581402c2 / topic 35f82f3d。每结论立即推；每push前且至少每小时真实pull；每pull检查两README，有变只读diff立刻照办并记已读SHA。NFF/lock-ref竞态立即pull --rebase再推直到成功，禁force。PAT只CLI，不入文件/提交；root独占main/H/open/index/log。
 
@@ -20,7 +20,7 @@ R969三点actual span核已过；R971严格排全p full-span，未排特定A/E4�
 
 [R992](results/R992-original-full-level-Jacobi-operator-and-filtered-stability-criterion.md)：在整个原M_(p−5)、F=Y^NP(z),z=X³/Y²上，真实Serre D给 **G(F)=[D²(XF)+X²F/144]/[X²(1−z)]**，全表观分母消去。诱导L=z(1−z)∂²+(4/3−7z/3)∂−55/144，Jacobi B_d有互异λd=−(d+5/12)(d+11/12)、mark1；kerG正是Tate A/E4，标量B_k(1)^−1。**原filtered V≠0且G(V)⊂V⇒同h三因子非零**，两假设均尚未一般证明。旧R969p227 central i18为pivot（组合13）、全局非零但mark0，严格排逐列本征；三个旧满秩点的G稳定无需重算。原E+帧G(F)(0,864)=(25F−D³F)(0,864)/144；下一步是actual heat/kernel作用，不能从算子与mask交换冒稳定。
 
-[R995](results/R995-original-mixed-source-for-the-first-coarse-CM-normal-jet.md)：原E−/Y−864、K=G⊗H+6F⊗Y_s、∇=∂−6ζ下，Π4DJ=Π4D²J=0使完整D³(∇²J)的两个中间Leibniz块真消；实际三支为G‴/216⊗𝒜+12uF′⊗(3𝑀−12G)+F⊗(12𝑀−144G+6ℛ)。全部P1/P2/P3与216P1P2保留，𝒜=∇²H‴，ζ修正不消G‴支。Ψ_ij首项=(a+1)(a+2)(a+3)g_(i+1)𝒜_j/216；原G(Z)mark=(25Z+Ψ)/144，E−正号/原mask/尺度不换。两个实际Taylor阶≤p−4,p−5、ζ权≤p−2，均整。root/literature逐式独审；新项尚无原retained关系，不冒G稳定或同h。
+[R995](results/R995-original-mixed-source-for-the-first-coarse-CM-normal-jet.md)：原E−/Y−864、K=G⊗H+6F⊗Y_s、∇=∂−6ζ下，Π4DJ=Π4D²J=0使完整D³(∇²J)的两个中间Leibniz块真消；实际三支为G‴/216⊗𝒜+12uF′⊗(3𝑀−12G)+F⊗(12𝑀−144G+6ℛ)。复用旧MH3–4热式，全部P1/P2/P3与216P1P2保留，𝒜=∇²H‴，ζ修正不消G‴支。Ψ_ij首项=(a+1)(a+2)(a+3)g_(i+1)𝒜_j/216；原G(Z)mark=(25Z+Ψ)/144，E−正号/原mask/尺度不换。两个实际Taylor阶≤p−4,p−5、ζ权≤p−2，均整。root/literature逐式独审；新项尚无原retained关系，不冒G稳定或同h。
 
 ## O2：原完整trace及高坐标单位
 
