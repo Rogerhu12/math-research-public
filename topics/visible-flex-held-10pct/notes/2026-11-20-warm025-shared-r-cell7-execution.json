@@ -1,0 +1,68 @@
+{
+  "status": "entire_shared_R_cell7_continuously_certified",
+  "source": "scripts/resume_n4/certify_q060_shared_r_tail_batch.py",
+  "source_sha256": "c646bd4a918aa467212870d437718f22451903a0141242fa5ebf3166ba376aac",
+  "checkpoint_sha256": "302662026a7e213647d8bfb2813f970174c8c919bb6f4d406e073ef9f3c110de",
+  "manifest_snapshot_sha256": "eb888868e3911d6c649357e3224bf7dbd0029e0217527250c30a7fdd61b70ccf",
+  "full_certificate_summary_sha256": "0d9c3ea0151ad4996dea843e14c0cfd32e228f96bbda89ecf61d01115b05b2a1",
+  "input_maps_digest_sha256": "777d52dde0d91de1c63b3bbbed04f7b9ed5e623a2e2c9628e26db718fc576092",
+  "stages": [
+    1008,
+    1151
+  ],
+  "stage_count": 144,
+  "spans": 2308,
+  "scalar_endpoint_equalities": 2118744,
+  "exact_internal_common_R_and_Cartesian_two_jet_interfaces": 143,
+  "deep_collar_node_exactly_preserved": true,
+  "deep_collar_data_sha256": "9d2699cc2add8567a138a6411981446dd6e130bc6ad88136cf67bcb3066c850b",
+  "literal_radius_range_exact": [
+    "1821664769296115/36028797018963968",
+    "1845442050727263/36028797018963968"
+  ],
+  "maxima": {
+    "continuous_metric_operator_upper": {
+      "upper": 4.885241844350768e-25,
+      "attained_bound_stage": 1024
+    },
+    "normalized_first_jet_upper": {
+      "upper": 5.944946954966075e-25,
+      "attained_bound_stage": 1008
+    },
+    "normalized_covariant_Hessian_upper": {
+      "upper": 4.677262337420267e-18,
+      "attained_bound_stage": 1090
+    },
+    "principal_curvature_upper": {
+      "upper": 8.000000000000002,
+      "attained_bound_stage": 1008
+    },
+    "position_perturbation_upper": {
+      "upper": 4.3538443920114114e-29,
+      "attained_bound_stage": 1032
+    }
+  },
+  "oracle_provenance": {
+    "definition_sha256": "e764e2cc370f0b7a8a55324f2744702017c16690195f45db92ca66b9781bae56",
+    "constants_sha256": "1a1bcd1679f9f3b507c19bed8f3a1310fda81ac16452ad164edef3e95d82dfc9",
+    "normalization_certificate_sha256": "0b7222717ce302b6e5d5654a3764f9c75892c9e15c1416cb04bb532cea880598",
+    "kernel_sha256": "b7a8dc501dc3dbbe4ccb14d6b4ea2b4b85849d14b9551a94f5c23798d7985806",
+    "oracle_sha256": "d133b3ed5b9e5b5a8e15e3a6bb49b3969b65abbd77fbb17a9d0af835d28c1901",
+    "interval_digits": 60,
+    "coefficient_tolerance": "1/100000000000000",
+    "variation_tolerance": "1/1000000000000000000000",
+    "normalization_definition": "(rCut - true_r160 - integral_A) / integral_B",
+    "calibration_roots": "The 160 recorded binary calibrationAlpha values, unchanged.",
+    "coordinate": "Original cell/segment/x locator; C2 surface jets use physical R=r(x).",
+    "mean_contract": "Only the rotational background height relative to its cut; no nonrotating mean is supplied or reset.",
+    "finite_oracle_transfer_certified": false
+  },
+  "seconds": 407.9783547640036,
+  "original_BVP_solves": 0,
+  "new_shooting_iterations": 0,
+  "full_H": false,
+  "global_tail_complete": false,
+  "mean_reset": false,
+  "mean_contract": "Node k accumulates the existing native increments from stages N-1 down to k, in this fixed binary64 order. Slot0 is perturbation mean, slot1 is background primitive; the finite deepest node is the existing zero anchor. Every adjacent stage shares this one node array.",
+  "command": "OPENBLAS_NUM_THREADS=1 python math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4/certify_q060_shared_r_tail_batch.py --manifest n4-work/q060-tail-geometry/shared-full-cell7-snapshot.json --constants n4-work/q060-tail-geometry/constants.json --normalization-certificate n4-work/q060-tail-geometry/tight-integrals-certificate.json --outdir n4-work/q060-tail-geometry/shared-full-cell7-certificates --stages 1008,1009,1010,1011,1012,1013,1014,1015,1016,1017,1018,1019,1020,1021,1022,1023,1024,1025,1026,1027,1028,1029,1030,1031,1032,1033,1034,1035,1036,1037,1038,1039,1040,1041,1042,1043,1044,1045,1046,1047,1048,1049,1050,1051,1052,1053,1054,1055,1056,1057,1058,1059,1060,1061,1062,1063,1064,1065,1066,1067,1068,1069,1070,1071,1072,1073,1074,1075,1076,1077,1078,1079,1080,1081,1082,1083,1084,1085,1086,1087,1088,1089,1090,1091,1092,1093,1094,1095,1096,1097,1098,1099,1100,1101,1102,1103,1104,1105,1106,1107,1108,1109,1110,1111,1112,1113,1114,1115,1116,1117,1118,1119,1120,1121,1122,1123,1124,1125,1126,1127,1128,1129,1130,1131,1132,1133,1134,1135,1136,1137,1138,1139,1140,1141,1142,1143,1144,1145,1146,1147,1148,1149,1150,1151"
+}
