@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R137实际平衡低193诊断](results/R137-supplement-actual-balanced-low193-endpoint-diagnostic.md)：44721851908/1成功，155panel/1424各向步/156分界全成；raw端点SVmin0.3246747972249881，全分界SVmin0.23275370836518908。65输入/25AST/24门/原138prefix整对象核，只有中点模型浮点结果；所有真实逆、全区间、CFB/193atoms/finiteρ认证均未给。已成目标冻结。
+
 - [R138实际全频外端负能量](results/R138-supplement-actual-outer-rotation-energy-and-mean-defect.md)：同周期圆锚/真实physical DN给完整B_R及修改型均≤−2πa²s_R||c_perp||²_H^-1/2，独立mean正项已吸收；周期提升H_R=az c0 e_z、p_R=0，初值受负型控制。原Qδ零stable齐次核由已付强/弱given-head图唯一性取得外端能量域；不移授hybrid A_c，内端/体吸收仍待。
 
 - [R139实际mean atom结果](results/R139-supplement-actual-mean-atom-floor-not-excluding-fixed-recipe.md)：44721682192/1完整27门/3个独立lower记录成功，P_lower≈5.27012349e−10未达1/16384，故未证明排除原配方；不表示原门通过。70当前/21原件/25AST与原scope全核，原50条及原L三量仍0；这3条冻结，不重算。

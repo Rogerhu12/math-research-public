@@ -167,7 +167,7 @@ WIC真tail κ=3已闭；WPN仍须完整e+3dt<1。WPS/WVC/WCTRA充分门均false�
 
 首轮44716804300/1在155panel准备后保存0scalar失败；[零端点包含修复](results/R139-supplement-certified-zero-endpoint-interval-continuation.md)只改已证明非负量的球表示，v2清单保旧回执并接续未成3条。endpoint首轮44717190551为YAML解析失败、jobs0；格式修复和同reference pin后才作首次科学。
 
-[R137](results/R137-continuous-signed-centre-and-exact-endpoint-system.md)已将同一连续signed-centre inverse精确改成1217态/609端点问题，排除aux-only核；不是有限Qf直接逆证书，S.18c投影/lift缺陷与ρ因子仍需付。先进行全193低态/97端点的midpoint比较诊断以选稳定双侧传播；CFB、高family、真实系数差及全输出norm均未付。
+[R137](results/R137-continuous-signed-centre-and-exact-endpoint-system.md)已将同一连续signed-centre inverse精确改成1217态/609端点问题，排除aux-only核；不是有限Qf直接逆证书，S.18c投影/lift缺陷与ρ因子仍需付。[实际完整诊断](results/R137-supplement-actual-balanced-low193-endpoint-diagnostic.md)44721851908/1已成并冻结：155panel/156分界，raw端点SVmin≈0.3247、全分界≈0.2328，均为浮点中点模型。继续新的严格双侧Green/source/193atoms/whole区间认证；CFB、高family、真实系数差及finiteρ全保。
 
 首次endpoint科学44719196304/1因单panel256步预算止于138panel计划，0传播/0SV；新独立balanced续算保原raw矩阵hash，使用原S对角相似变换，逐panel接口返回raw正交帧，完整155panel计划后才传播，step∞4/总8192/wall1800不放宽。它仍是浮点比较诊断，所有proved flags为false。
 

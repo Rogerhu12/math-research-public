@@ -1,12 +1,12 @@
 # 交接：可见振幅的精确闭等距族
 
-维护会话：`visible-exact-astra-ac637-20261120`；更新：2026-11-20 10:58:33 UTC。
+维护会话：`visible-exact-astra-ac637-20261120`；更新：2026-11-20 11:01:12 UTC。
 **总任务未完成；继续研究，不等用户回复。**
 
 ## 规则读点与接续来源
 
 部分克隆：`/workspace/scratch/ac637cfcc78d/math-research-public`。终端 git 已恢复，无 AGENTS。
-2026-11-20 10:58:33 UTC 实际pull/rebase至 `c4dbe5cc35de971329ec488fa7593d45885d39ec`；已读规则提交同上，两README相对96edc6770空diff。每次pull后核规则差异；下次实际pull最迟11:58:33 UTC。
+2026-11-20 11:01:12 UTC 实际pull/rebase至 `19dde9dbf5b7c6ff3bd359cfea6ba0acb7131d07`；已读规则提交同上，两README相对96edc6770空diff。每次pull后核规则差异；下次实际pull最迟12:01:12 UTC。
 
 接手前完整 H（含全部递归原页、成功/失败/恢复身份和未付义务）见 [2026-11-16 完整检查点](https://github.com/Rogerhu12/math-research-public/blob/882aa9b74efeaac682df43c197820e7280156357/topics/visible-flex-exact-nearby/HANDOFF.md)。本页只压缩索引；`open.md` 及所链接的原证明、适用域、均值、物理角、所有边界和误差费用继续有效。旧成功结论不重算。
 
@@ -31,7 +31,7 @@ geometry `43584188751/26` **仅条件性**：同η0真 wholecore（含帽）C0�
 
 [R139](results/R139-necessary-budget-for-fixed-W2C-comparison.md)已证G(K)≥109/120+(963/80)(K+ε)，L≥1/128排既定配方。[实际atom必要门](results/R139-supplement-actual-mean-atom-floor-not-excluding-fixed-recipe.md)44721682192/1成功3lower，P≈5.27012349e−10未达1/16384，未排除也未通过。3条冻结，原50条及原L三量仍0；继续未成L，不能重算atom成功。
 
-[R137](results/R137-continuous-signed-centre-and-exact-endpoint-system.md)（已证明）：完整连续WJK中心I−Hc可逆等价于1217态/609端点矩阵非奇异，证明无aux-only核及Fredholm闭合；原finite投影/ρ/lift缺陷明确另付。当前只备193低态/97端点浮点诊断，未给非奇异或全逆证书。
+[R137](results/R137-continuous-signed-centre-and-exact-endpoint-system.md)（已证明）：完整连续WJK中心I−Hc可逆等价于1217态/609端点矩阵非奇异，证明无aux-only核及Fredholm闭合；原finite投影/ρ/lift缺陷明确另付。[193/97浮点诊断](results/R137-supplement-actual-balanced-low193-endpoint-diagnostic.md)已成：端点SVmin≈.3247、156分界≈.2328；不是真实逆或全区间证书。
 
 [R138](results/R138-residual-sensitive-Codazzi-frame-and-geometric-Jacobi-bridge.md)（已证明）：同Qrepair的Codazzi残差经正交径向重建给frame/位置/高度Darboux与Jacobi缺陷，保初值、193真实mixed行和WVC额外η主部差；无指数残差包络及R32应变接口均明确。尚未给真实边界正性、onto或全逆。
 
@@ -55,8 +55,8 @@ geometry `43584188751/26` **仅条件性**：同η0真 wholecore（含帽）C0�
 
 readonly44712172133/1成功（60 current/23 AST/21原件/18门，0科学）；旧43921663540/1为0科学运维失败，两份完整回执保在 `notes/collar_volterra_dual_readonly_ci/`。恢复/执行用 `fourfold_codazzi_collar_volterra_dual_public_worker.py`；各新源码、完整清单与适用域见result/manifest，21原件与29整球只读恢复，旧producer不调用。graph4最终版尚未launch。
 
-1. 原L三量v3：69完整输入/SHA09b8c0d0；reference e57正pivot+endpoint-hull，原owner/3目标/参数不变，新marker，atom成功只读不重算。`joint_kernel` R140完整192/mean1分块已备，审R141；原50条仍0。
-2. `positive_inverse` 的低193/97 scaled续算44721851908/1已success：155panel/1424各向步/156分界，浮点诊断待根完整登记，非真实逆。原失败prefix保。R141双侧Green首次严格认证继续，CFB/mean/实际family仍付。
+1. 原L三量v3公开44723722475/1运行：69完整输入/SHA09b8c0d0；reference e57正pivot+endpoint-hull，原owner/3目标/参数不变，新marker，atom成功只读不重算。`joint_kernel` R140完整192/mean1分块已备，审R141；原50条仍0。
+2. `positive_inverse` 的低193/97 scaled续算44721851908/1已success：155panel/1424各向步/156分界，根全收据已核并登记，成功冻结；非真实逆。原失败prefix保。R141双侧Green首次严格认证继续，CFB/mean/实际family仍付。
 3. `global_route` 已完成几何桥/旋转能量、actual support与outer负型；继续真实inner low96/high stable/mean边界及体残差吸收，不能把stable行当c=0。R135/R520不替验收。
 4. root维护git与记录；L44719196440/1为0scalar正pivot失败，endpoint44719196304/1为第139panel超256步、0传播/0SV，两失败完整保。atom必要门已完成未排除；v3只续原L三量、scaled结果已成不重算，原50条仍0。代理不动git。
 
