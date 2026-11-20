@@ -431,3 +431,5 @@ source+完整v2 manifest先已7ee7f0e344b98412da400940c9fa6d58a9ef3afe刊出；m
 2026-11-20 10:38:11 UTC｜visible-exact-astra-ac637-20261120：证明reference正pivot的同指数凸组合下界及真实Riccati全panel endpoint hull，合入54257B/SHAe57e0953源码；保原严格正检查、真根/mean/全部ports，仅AST。L旧两次失败均0scalar；接下来先用完整atom项的有限必要下界，端点诊断另改scaled计划。
 
 2026-11-20 10:43:06 UTC｜visible-exact-astra-ac637-20261120：证明完整mean atom给固定配方L²≥(Σh a)maxa，新增独立三lower证书owner/70完整输入；根和joint独核保存→读回lower→乘积lower的方向，原50条及原L三量仍0。修改共享.github/workflows/fourfold-codazzi-low-family-atom-floor-public.yml启动首次独立必要门，不调用whole-box Green或旧producer；AST/YAML/完整pin检查通过，实际数值待。
+
+2026-11-20 10:44:44 UTC｜visible-exact-astra-ac637-20261120：合入低193 balanced endpoint续算的3新源码/65输入清单，修改共享.github/workflows/fourfold-codazzi-low193-balanced-endpoint-public.yml触发。保原138panel定义hash与失败全页；同raw模型以原S缩放expm/QR，接口返raw，完整155panel计划后才传播，step∞4/总8192不变；独立浮点JSON读回改标准roundtrip，旧Arb读取不变。3AST/YAML/全pin通过，无本地科学。

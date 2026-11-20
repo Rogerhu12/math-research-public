@@ -167,6 +167,8 @@ WIC真tail κ=3已闭；WPN仍须完整e+3dt<1。WPS/WVC/WCTRA充分门均false�
 
 [R137](results/R137-continuous-signed-centre-and-exact-endpoint-system.md)已将同一连续signed-centre inverse精确改成1217态/609端点问题，排除aux-only核；不是有限Qf直接逆证书，S.18c投影/lift缺陷与ρ因子仍需付。先进行全193低态/97端点的midpoint比较诊断以选稳定双侧传播；CFB、高family、真实系数差及全输出norm均未付。
 
+首次endpoint科学44719196304/1因单panel256步预算止于138panel计划，0传播/0SV；新独立balanced续算保原raw矩阵hash，使用原S对角相似变换，逐panel接口返回raw正交帧，完整155panel计划后才传播，step∞4/总8192/wall1800不放宽。它仍是浮点比较诊断，所有proved flags为false。
+
 [R138](results/R138-residual-sensitive-Codazzi-frame-and-geometric-Jacobi-bridge.md)给同Qrepair的实际径向重建、frame/位置/height残差及完整方向桥；193 mixed行不能当Dirichlet，WVC η替换主部差仍是角导源。下一步接rotation-field真实边界能量并付残差吸收，而非从形式椭圆性推全逆。
 
 [R138补篇](results/R138-supplement-rotation-energy-and-complete-endpoint-form.md)已给具体旋转能量、完整端点型及不除以K的漂移估计；下一步在同一193+high实际边界域核support、初始角缺陷和端点费用，使b_*+e_*<2。当前root未证平面，outer graph不能当常旋转；mean/源/弱强域和同一全局规范保留。
