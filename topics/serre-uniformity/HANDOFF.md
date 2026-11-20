@@ -4,9 +4,9 @@
 
 证明绝对C使所有无CM E/Q在p>C时模p满射，或给p→∞完整反例族。**主目标OPEN，尚未达README标准。**
 
-**维护会话：serre-public-astra-20261120-de0a3e3b。** 已部分克隆并真实pull main，接手serre-public-astra-20261115。压缩前逐字状态在[最新H归档](handoff-archive-2026-11-20-before-second-end-column-receipt.md)，沿链保全部旧source/SHA/尺度/失败边界，不重做已登记结论。
+**维护会话：serre-public-astra-20261120-de0a3e3b。** 已部分克隆并真实pull main，接手serre-public-astra-20261115。压缩前逐字状态在[最新H归档](handoff-archive-2026-11-20-before-projected-scalar-source.md)，沿链保全部旧source/SHA/尺度/失败边界，不重做已登记结论。
 
-**已读规则提交：ab0586b030b1eed333c6fdd3d6de0841bf4ee9a6**（2026-11-20T15:43:32.348379+00:00；终端真实git pull --rebase origin main，两README无diff）
+**已读规则提交：dd35cfacdb6a3fee858536653158f5b0cfab5df1**（2026-11-20T15:45:00.939860+00:00；终端真实git pull --rebase origin main，两README无diff）
 
 两README完整已读，SHA256 root 581402c2 / topic 35f82f3d。每结论立即推；每push前且至少每小时真实pull；每pull检查两README，有变只读diff立刻照办并记已读SHA。NFF/lock-ref竞态立即pull --rebase再推直到成功，禁force。PAT只CLI，不入文件/提交；root独占main/H/open/index/log。
 
@@ -26,7 +26,9 @@ R969三点actual span核已过；R971严格排全p full-span，未排特定A/E4�
 
 [R997](results/R997-original-epsilon-vector-and-unitary-boundary-source.md)：实际ε-vector=(6d0)^−1Σ ε(r)Ψ_(Hr)在旧UH36空间，基独立性及常数矩阵证明。λ^−1J(λu,λv)=Θε(v,u)保交换轴，原Π4/L²作用t/z，lift Lz³Lt²及反射mask保同h；首p矩形整。必须保完整bulk及Π shifts。原边界指定critical k≤7零、k8两端单位，不是R995 normal jet或原critical单位；旧UH/MH曲率只消费。
 
-[R999](results/R999-certified-second-end-column-and-filtered-space-nonzero.md)：run44764524952/job136385485790/source84a8cad4b全成功，0.0138129s/预算真/exit0。完整R968及独立ODE给(p−13)!CT Z_(p−13,7)=319435001/40320，分子11863×26927分别被mod6/mod9排除；原P10=−7·1279/3^5单位，全部因子经完整试除认证，四坏列表真空。故11∤p+1⇒V≠0，合R996得 **55∤p+1⇒原filtered V≠0**；不推CM mark/G稳定。root纯IO全回执核，payload10156B SHA6d208b8d83cc8e2efc612e43f4d8f21084a45916384106636dcb1a77a557b7aa；全部pins/试除范围/stream hash见结果，request已完。
+[R999](results/R999-certified-second-end-column-and-filtered-space-nonzero.md)：run44764524952/job136385485790/source84a8cad4b成功0.0138129s。双exact给(p−13)!CT Z_(p−13,7)=319435001/40320，11863×26927原类排除；原P10=−7·1279/3^5单位，完整试除/四坏列表空。11∤p+1⇒V≠0，合R996得 **55∤p+1⇒原V≠0**；CM mark/G稳定仍开。payload10156B SHA6d208b8d83cc8e2efc612e43f4d8f21084a45916384106636dcb1a77a557b7aa，root纯IO全核；sources/证素/尺度见回执，request已完不重跑。
+
+[R1000](results/R1000-original-projected-scalar-heat-source-and-masked-boundary.md)：原T=Π4 Lz²Θε的完整bulk C=(UL+LU)Θ4+L²{∂z∂t(Θ5−Θ4)/6+(3X/2)zt(Θ3−Θ4)}保双shift。p[z^p]T=48AJ3，故真实有限源𝒟T_<p=C_<p+8Az^(p−1)∂tJ3；仅完整C矩形可约化。自身边界d1、真lift净+1→2而原mask只d4，故 **所有连接迭代均被原mask杀**。令Sε=WopΛC_<p，真实[𝒟^(p−1)Sε]_p+1=−72·6^6B7Σw_i fi gj z^(p−h+1)t^h。完整bulk指定观测非零仍开，低项48非目标。root/audit全文独审；旧曲率只消费，无数学执行。
 
 ## O2：原完整trace及高坐标单位
 
@@ -38,9 +40,9 @@ R972–985的完整ring-class/AH/Robert/normalized Δ/strict LT源与全部尺�
 
 R986/987真global rational LT与Poincare两open源：𝒯=Z+β^-1J_s^p、误差首q−3，R594/R658旧formal分解不重登；gluing给C(xZ^jω)=β^(1−j)j!L_jω，pL_p=−βZ。第二Frob有限取消/曲率−βW不推near-p单位；完整公式和来源保最新H归档。
 
-[R988](results/R988-original-pure-balanced-Cartier-contraction-and-high-trace.md)：完整Cartier与真正theta对称给 **G_(j(p−1))=−j!β^−j c_j+，1≤j≤p−2**；原r2/8、n=p−r有G_high=−β^(r−1)c_n+/(r−1)!、G_highstar=β^r c_n+/r!。原AH高坐标 **γ1=−24η^(−(m−b))(χσ−1)β^(r−1)c_n+/r!**，所有外因子单位、c_n+=−c_n−，故 **原S≠0 iff c_(p−r)±单位 iff F_(p−r)(0,−864)非零**，补成R974逆向而不反除period比。实际p-basis b0=−βB_(p−1)、b6=−β7 B_(p−7)/6!，参数差首影响q−3完整保。低a3/9 pure显式−β−3、−8β−9/35只校准已知unit；真正near-p系数全p单位、同h与height仍开。
+[R988](results/R988-original-pure-balanced-Cartier-contraction-and-high-trace.md)：真Cartier给G_(j(p−1))=−j!β^−j c_j+（1≤j≤p−2），原n=p−r有G_high=−β^(r−1)c_n+/(r−1)!，γ1=−24η^(−(m−b))(χσ−1)β^(r−1)c_n+/r!。全部外因子单位，c+=−c−，故 **原S≠0 iff c_(p−r)±单位 iff F_(p−r)(0,−864)非零**；不反除period比。低pure单位/真实p-basis/参数差q−3见结果与归档，不代near-p单位。
 
-[R990](results/R990-original-hypergeometric-fixed-r-coefficient.md)：原(E,X,Y)=(0,0,864)的三Ramanujan ODE逐式匹配 A=2F1(1/12,7/12;2/3;z)、B=2F1(5/12,11/12;4/3;z)，T=−uB/(24A)、z=u³/432。m=(p−r)/3、k=floor(p/12)时B真截成degree k Jacobi多项式；H=((1−z)B²)^−1、f_i=H_i/(1−3i)、Q=4+12zB′/B−z/(1−z)，**c_(p−r)+=(-32)^m(r−1)! [z^m]Qf^−r/4**。全分母在m<ℓ=(p+1)/3内单位，固定r2/8给O(M(p))、O(p)内存。B根/三个cusp极部准确、首resonance Hℓ=B(1)^−2单位；不能跨ℓ反除，目标系数非零仍开。
+[R990](results/R990-original-hypergeometric-fixed-r-coefficient.md)：原Ramanujan源A=2F1(1/12,7/12;2/3;z)、B=2F1(5/12,11/12;4/3;z)，T=−uB/(24A)、z=u³/432。m=(p−r)/3<ℓ=(p+1)/3，B为degree floor(p/12)真Jacobi多项式；H=((1−z)B²)^−1、f_i=H_i/(1−3i)、Q=4+12zB′/B−z/(1−z)，**c_(p−r)+=(-32)^m(r−1)![z^m]Qf^−r/4**。全分母单位、首resonance Hℓ=B(1)^−2单位，不可跨ℓ反除；完整ODE/roots/cusps与尺度保结果，目标系数非零仍开。
 
 ## 当前实际工作：两新窗口完成后继续一般非零
 
@@ -48,7 +50,7 @@ R991已完整认证R989旧r8差集349点（1000..20000），原三路/全hash见
 
 [R994](results/R994-certified-original-combined-windows-through-200000.md)：run44760218207/job136370438703/source248592d7f成功531.337922156s。真正新r8 2622点、新r2 1386点共4008全非零/无尾；四新点原三路、完整wp ODE及各首resonance核过。root纯IO全回执核；payload2865567B SHA e764dff838bb24b18c8fec7f7634c2044f403e59e23a349cc00d0554c000dc8d。仅有限S单位；所有sources/rows/pins见结果与归档，已完不重跑。
 
-继续R995 actual G关系与55|p+1剩余V非零；R997之后R1000完整bulk/自身边界稿由root与audit独审中。R998公开请求已由R999完成，不重触发；O2真实Poincare trace桥、period defect非退化继续，主目标OPEN。
+继续R995/R1000真实bulk与G关系、55|p+1剩余V非零；O2真实Poincare trace/multiplication桥、period defect非退化继续。R998请求已由R999完成，不重触发；主目标OPEN。
 
 ## 继承任务与永久边界
 

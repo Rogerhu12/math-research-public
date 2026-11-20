@@ -26,6 +26,8 @@ R969公开三点113/131/227得到全mask rank10/11/19、A/E4组合及额外两q�
 
 [R999](results/R999-certified-second-end-column-and-filtered-space-nonzero.md)：run44764524952/job136385485790/source84a8cad4b全成功，0.0138129s/预算真/exit0。完整R968及独立ODE给(p−13)!CT Z_(p−13,7)=319435001/40320，分子11863×26927分别被mod6/mod9排除；原P10=−7·1279/3^5单位，全部因子经完整试除认证，四坏列表真空。故11∤p+1⇒V≠0，合R996得 **55∤p+1⇒原filtered V≠0**；不推CM mark/G稳定。root纯IO全回执核，payload10156B SHA6d208b8d83cc8e2efc612e43f4d8f21084a45916384106636dcb1a77a557b7aa；全部pins/试除范围/stream hash见结果，request已完。
 
+[R1000](results/R1000-original-projected-scalar-heat-source-and-masked-boundary.md)：原T=Π4 Lz²Θε的完整bulk C=(UL+LU)Θ4+L²{∂z∂t(Θ5−Θ4)/6+(3X/2)zt(Θ3−Θ4)}保双shift。p[z^p]T=48AJ3，故真实有限源𝒟T_<p=C_<p+8Az^(p−1)∂tJ3；仅完整C矩形可约化。自身边界d1、真lift净+1→2而原mask只d4，故 **所有连接迭代均被原mask杀**。令Sε=WopΛC_<p，真实[𝒟^(p−1)Sε]_p+1=−72·6^6B7Σw_i fi gj z^(p−h+1)t^h。完整bulk指定观测非零仍开，低项48非目标。root/audit全文独审；旧曲率只消费，无数学执行。
+
 ## O2：完整原超奇异迹、真正CM packet及近顶unit系数
 
 原全SS和S含所有点、t0权1/非零H根权3/fine12/椭圆零项；指定j0项为零不能代全和。R936/939/941原trace、Jacobi ODE和CT公式全部已成，源C负RHS、β^p=β、Tate E6=−c6、η12=−6sD、KS正号保全。R963公开允许r2的1000<p≤1e5全部1582点无零；R967独立κ/g_p两点尺度通过，只有限证据。

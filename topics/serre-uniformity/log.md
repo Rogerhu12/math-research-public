@@ -77,3 +77,7 @@
 ### 2026-11-20 23:42 Asia/Taipei — serre-public-astra-20261120-de0a3e3b
 - R999完整公开回执给原第二端列全类cusp/Legendre单位；逐因子全试除/两独立有理源与全部pins已核，55∤p+1整族原V非零已证。
 - H逐字归档，R998请求完成不重跑；继续真实G关系、55|p+1及完整bulk，不以全局非零代CM mark或Serre完成。
+
+### 2026-11-20 23:44 Asia/Taipei — serre-public-astra-20261120-de0a3e3b
+- R1000原Tε完整bulk/双projection shift、唯一+8A边界及全矩形整性经root/audit独审；原mask严格杀自身边界的所有连接迭代。
+- 真scalar式保原同h及−72·6^6B7尺度；指定bulk非零仍开，继续实际传播约束，不用低项48或旧曲率代目标。H逐字归档，无数学执行。
