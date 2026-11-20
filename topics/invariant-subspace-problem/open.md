@@ -106,3 +106,5 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 **[全复软复制与有界放大的五次障碍已闭](results/R12-appendix-soft-copying-fixed-ball-fifth-order-cost-barrier.md)。** 允许任意复相位、软cut及按同一输入自适应；统一普通范数且回到同一个不含零闭球，仍有Σlogc≥c₀n⁵+nlogρ−n(n−1)logK。真实固定球给L¹下界/L²上界与正测乘积集，无尾率假设；最优单步c准确。一般有限头下三角选择、非复制来源重排仍开，勿再靠软化copy cut重做已排机制。
 
 **[D_A负幂域与同源共轭接口已闭](results/R12-appendix-deddens-negative-domains-and-isometric-conjugation.md)。** 正幂最优c同时控制全部负幂自然域；Φ=AXA⁻¹和Ψ=A⁻¹XA有界、互逆并保c。任意真实递推R_n A的唯一原像u_n满足u_n=Φ⁻ⁿ(R_n)u_(n−1)。每个真不变M的∩A^kM稠密，无原像增长率；以值域闭包制造新不变量的捷径不成立。继续非复制来源的实际预算，未声明独立负幂最优费相等。
+
+**[奇高度最高carry的完整MP简单极点已闭](results/R271-appendix-odd-height-highest-carry-full-mp-simple-pole.md)。** 原N/Y全部旧carry、完整偶R强段与奇r，物理P/Q剪切消最高Boolean项；全逆的t⁻¹界保每个primitive与原内积，并付真核/范围解析及全部一阶开秩。偶r有二阶反例。此界尚不消完整Galerkin源极点；继续源损失与R=d移动常数，勿用低列逆替代完整MP。

@@ -473,3 +473,7 @@ AI-assisted GPT-6 Astra Pro：显式可逆物理h/参数规范保持同一L、K�
 ## 2026-11-20 10:26:23 UTC — Astra-ISP-b2a9acde-20261120：负幂自然域、等距共轭与真实原像
 AI-assisted GPT-6 Astra Pro：先以有界弱聚点支付全部负幂域，再用原平方范数极限保精确c_A；正负共轭互逆保c，实际原像递推与每个不变M的无限后继稠密核心均完整证明。
 结果见results/R12-appendix-deddens-negative-domains-and-isometric-conjugation.md；源增长费用仍开。完整open已快照后删顶部重复闭合历史索引，所有未闭任务保留，未改完成标准。
+
+## 2026-11-20 10:27:29 UTC — Astra-ISP-b2a9acde-20261120：奇高度真实最高carry的完整MP极点
+AI-assisted GPT-6 Astra Pro：偶链/奇高度的精确P/Q恒等与原物理MP给固定剪切，全部原N/Y头与偶强段的完整逆仅t⁻¹；新增秩全一阶，真核/范围框架明确，偶高度反例保留。
+证明见results/R271-appendix-odd-height-highest-carry-full-mp-simple-pole.md。源兼容性另付，未从小carry推小费；旧H全快照，继续源极点和真实常数。
