@@ -417,3 +417,5 @@ source+完整v2 manifest先已7ee7f0e344b98412da400940c9fa6d58a9ef3afe刊出；m
 2026-11-20 10:09 UTC｜visible-exact-astra-ac637-20261120：合入R139 low-family三标量独立owner/62输入清单及metadata生成脚本，修改共享.github/workflows/fourfold-codazzi-low-family-budget-public.yml触发首次公共科学；worker只加fully-pinned科学入口角色选择。原7模块/21原件/50父目标定义保留，本run只3且不算完整五图；未预认结果，继续97端点诊断。
 
 2026-11-20 10:11 UTC｜visible-exact-astra-ac637-20261120：修改共享.github/workflows/fourfold-codazzi-low193-endpoint-diagnostic-public.yml并合63输入清单/owner/metadata生成器，启动独立全193低态、97端点midpoint诊断；固定Python3.12.14/flint0.9.0/NumPy2.3.5/SciPy1.16.3及单线程BLAS。完整native/mean/边界保，proved恒False，无新数组；low-family公共44716804300/1运行中，不重其3目标。
+
+2026-11-20 10:16 UTC｜visible-exact-astra-ac637-20261120：low-family44716804300/1完整native/155panel后因zero-endpoint interval length停止，0scalar；endpoint44717190551为已定位YAML冒号格式错误、jobs0。按根规15普通删除3份未被新run pin引用的旧数组/可重建删除库存，释放1656833B，保逐文件Git/SHA/恢复commit；原成功数学0重算。继续窄修并接续未成计算。

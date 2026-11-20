@@ -1,0 +1,33 @@
+{
+  "kind": "rule15_history_restoration_pointers",
+  "created_utc": "2026-11-20T10:16:31.460748+00:00",
+  "reason": "Keep space for current scientific source and small outcomes; large reproducible arrays and a reproducible deletion inventory remain byte-for-byte recoverable from normal Git history.",
+  "current_diagnostic_pins_untouched": true,
+  "old_scientific_targets_recomputed": 0,
+  "files": [
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/data_cleanup/run-43679889657-1/deletion-manifest.json.gz",
+      "bytes": 1132207,
+      "sha256": "bc3f23987ac4ab967b97d02df6ad260c4adccde45c34716031be057ab5da29e9",
+      "git_blob_sha": "715531d42239b5ff1dbe40b2bbdd5a2114c75a0c",
+      "restore_commit": "3731c70d223185aaafa76815924609747d175cf9",
+      "restoration": "git show restore_commit:path; verify bytes and SHA256; no scientific producer rerun"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02_d5_jet_interval_inputs.npz",
+      "bytes": 386775,
+      "sha256": "0d17500ac49c845b402145c4d0a48170b7163ec0d7e6ed6f0eedcc1c649ca59b",
+      "git_blob_sha": "ff0847846fee05f421b26449caa3caa35344df9f",
+      "restore_commit": "3731c70d223185aaafa76815924609747d175cf9",
+      "restoration": "git show restore_commit:path; verify bytes and SHA256; no scientific producer rerun"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02_d5_actual_parameter_direction.npz",
+      "bytes": 137851,
+      "sha256": "8db5d57d65ea49cfe3a0df250714392300c98feeb2e0de2774aacbb4764d89ab",
+      "git_blob_sha": "064aba18dc55c1bdf618d13ec37db4f3dfa7664c",
+      "restore_commit": "3731c70d223185aaafa76815924609747d175cf9",
+      "restoration": "git show restore_commit:path; verify bytes and SHA256; no scientific producer rerun"
+    }
+  ]
+}

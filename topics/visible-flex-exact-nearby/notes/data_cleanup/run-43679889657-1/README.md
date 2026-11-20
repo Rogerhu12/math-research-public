@@ -21,3 +21,5 @@ git show <predeletion_commit>:<original_path> > <temporary_scientific_file>
 ~~~
 
 Verify the original byte count and SHA-256 before using the file with its unchanged scientific manifest. Restore only required files to an independent temporary science tree. This copies original bytes; it neither recomputes an accepted stage nor grants a new result. Do not recommit the data or upload it to a Release. Both old successes and failures remain identified by their original public commits and runs.
+
+2026-11-20 storage update: the large compressed deletion inventory itself is now kept only in normal Git history under root rule15. Its complete identity and byte-for-byte restoration commit are in `../../2026-11-20-reproducible-data-history-pointers.json`. The original process/publication receipts and hashes above remain unchanged; no accepted scientific target was rerun.
