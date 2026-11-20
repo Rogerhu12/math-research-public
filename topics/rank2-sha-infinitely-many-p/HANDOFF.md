@@ -5,7 +5,7 @@
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近实际部分克隆/pull及已读规则提交：`236befec1936c97127970c4824754a0edcfacd65`；2026-11-20 10:34:46 UTC 实际pull --rebase，两README相对baf49621差异为空；下一次最迟一小时内。
+- 最近实际部分克隆/pull及已读规则提交：`9d882bab6371c5e491bce84b6c00802f9773b3a9`；2026-11-20 10:39:11 UTC 实际pull --rebase，两README相对236befec差异为空；下一次最迟一小时内。
 - 仅写公开仓库main；每条完整结论即提交，推前pull --rebase，非快进循环；不强推、不存令牌。数学执行沿用公开Actions。重算输出不入库/Release、不分块，只存源/args/run/hash。
 - H<10KB，MD<100KB，open尽量<30KB，文件<5MB、题≤200MB；log每轮≤5行，不写根LOG。接手库存34,714,584B，旧完整交接保存在[接手档](notes/2026-11-20-handoff-before-resume-08eb2b79.md)。
 
@@ -16,12 +16,11 @@
 ## 第一门：原映射、完整函数域RR、原shadow
 
 全部原Z角色/Euler/period/端点与R831符号保；7993只检测canonical。R858/859整shadow及固定ell检测不跨无穷p/ordinary。
-- **F已完整认证**：[R909§7](results/R909-original-F-small-prime-and-compatible-dixon-continuation.md)，run43906594646/job133436977753；ℓ1000003/N512，全1429行/QQ/原支/0..6120通过。原F17/微分/∞→O，dF≥1080；完整source/hash见该节。
-- **P已完整认证**：[R906§8](results/R906-original-P-small-prime-and-compatible-dixon-continuation.md)，run44714703201/job136215000168/sourceb688d6ac703fec422a7c864bcdc997cc553185fd；ℓ1000003/N512、原1226行/三根/QQ/短支/同基4287高展开、完整0..4284恒等式全过。原u/λ/微分/∞→O/整返回17均保；resultd3371b55…cb8915、QQ坐标358238d2…e7be67。旧失败/完整hash见续接注。
+- **F/P均完整认证**：F见[R909§7](results/R909-original-F-small-prime-and-compatible-dixon-continuation.md)，run43906594646/job133436977753，ℓ1000003/N512、全部1429行/QQ/原支/0..6120；P见[R906§8](results/R906-original-P-small-prime-and-compatible-dixon-continuation.md)，run44714703201/job136215000168/sourceb688d6ac，全部1226行/三根/3168QQ/短支/同基高展开及0..4284。原u/λ/微分/∞→O/整返回17均保，完整source/hash在原节与最新完整H；dF≥1080，不猜精确degree。
 - **旧函数域RR未PASS**：306/eta48/fricke24/tate24/tate19/R910/R919/R922均未过全末端。全部卡点/源/hash见[续接注](notes/2026-11-20-old-job-outcomes-and-exact-P-certificate.md)。修复后的quotient-only run44713040079/job136209307176仍运行，原D直接正规化/九尖点/Au/Av/branch/D0未PASS；不冒U/RR。
 - **R917全局q格已PASS**：run43919854829/job133483895189/source4519983a157b9d4ac2049b47cd8cb01c8bf478ce；原ℓ29/120×205完整QQ基、单位子式/整变换/全约化秩/同S全过，result5a1d6494…eb663b。仅完整L(DS)/忠实jets，degree48坐标/闭点/四块接口未付。
 - **原U的t-adic已结束无PASS**：run44716168767/job136220022445/sourcef5f75e1b3，原H/A/B全部Newton残差至4096项通过，但有理候选未恢复，于10:23:30 UTC达精度上限。不是U不存在；不盲目重复，先走下项全局截面分式。
-- **R924已证**：[完整截面除子代数与原接口](results/R924-original-section-divisor-algebras-and-shadow-interface.md)。同R917全格/真实乘法保每闭点、非约化长度、原射影坐标、局部参数及共零。D_S是51个二次双点，cusp为4个一次+2个16次；TUV同M4分式的完整窗到1003。原Y全格666维/三退化权j^m及分母ρ_j、原ys恢复与全consumer尺度均保。新`rank2-sha-original-section-algebras`三路公开producer已请求、待实际回执，不把构造定理记成计算PASS。
+- **R924已证**：[完整截面除子代数与原接口](results/R924-original-section-divisor-algebras-and-shadow-interface.md)。同R917全格/真实乘法保每闭点、非约化长度、原射影坐标、局部参数及共零。D_S是51个二次双点，cusp为4个一次+2个16次；TUV同M4分式的完整窗到1003。原Y全格666维/三退化权j^m及分母ρ_j、原ys恢复与全consumer尺度均保。**TUV实际PASS**：run44720444485/job136234503706/sourceadf27f9ed，22.868s、三完整核维20，result2eeb9e3e…ae5657，详§11。该run的DS/job136234504131与cusp/job136234504114仍运行。另请求Y全格/三退化/原ys前端，未冒大交除子或shadow。
 
 R880/883全18×9/双轴/原A,C/四完整除子00/01/11/12及返回保；Norm含ell²已过。两原映射证书齐，consumer仍缺完整原函数/闭点接口，尚未请求；真实成本2256+r*dF或2256(r+1)，闭点度数/边界/Artin不删。主目标仍开。
 

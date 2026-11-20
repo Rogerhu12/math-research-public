@@ -73,3 +73,5 @@
 - [R906§8](../results/R906-original-P-small-prime-and-compatible-dixon-continuation.md)：原P实际态射已认证，run44714703201/job136215000168/sourceb688d6ac；原1226行/3168有理坐标/短支/同PARI高基及特征零0..4284恒等式全过。原u/λ/微分/∞→O和17整Hecke返回保持；resultd3371b55…cb8915。与R909的F证书齐，原RR/闭点/shadow及无穷p仍开。
 
 - [R924](../results/R924-original-section-divisor-algebras-and-shadow-interface.md)：同原完整截面格与真实乘法恢复任意截面零除子的全Artin代数、剩余域/重数/参数及共零；原D_S为51个二次双点、36 cusp为4个一次和2个16次。TUV同M4分式以全极帽714及最大1004项准确恢复；Y全格666维、三退化j^m/ρ_j、原ys和完整shadow尺度保留。构造定理已证，公开有限代数/原shadow实际回执尚待。
+
+- [R924§11](../results/R924-original-section-divisor-algebras-and-shadow-interface.md)：原TUV同完整M4分式实际PASS，run44720444485/job136234503706/sourceadf27f9ed，22.868秒；全0..715/731/1003、三核均20，分母∞阶1/17/289，原全局身份准确。result2eeb9e3e…ae5657。DS/cusp仍运行；Y全666维/三退化/ys前端另请求，原shadow未算。
