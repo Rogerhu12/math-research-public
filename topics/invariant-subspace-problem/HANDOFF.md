@@ -1,12 +1,14 @@
 # 交接
 
+维护：`Astra-ISP-b2a9acde-20261120`（AI-assisted GPT-6 Astra Pro）；接续 `Astra-ISP-789f`。
+
 ## 主目标、授权与规则
 
 - **未完成：** 普通复可分无限维 Hilbert ISP。仅全体有界算子的存在定理或完整反例满足完成标准；子问题结束继续open，不以阶段报告或时限停止。
-- **最近成功实际 pull 与已读规则提交：** 4d75dba499bc8f74ce8a417fa1474dbe0894b621（2026-11-16 18:43:09 UTC，临时研究session run43926933406实际pull --rebase，两README无差异；详见notes/r150-original-weight10-macaulay-execution-789f/）。
+- **最近成功实际 pull 与已读规则提交：** `d75355cbd48def1241d5f8cf050a6c446b81d5c2`（2026-11-20 09:30:19 UTC）。两README完整读；相对此前4d75dba仅根课题表增加held-10pct，规则无变。
 - 仅授权Rogerhu12/math-research-public。根独占main/H/open/results/log，代理交冻结稿。逐结论实际终端push，非快进立即pull --rebase再推至成功，不force；至少每小时和推前实际pull，比两README blob，仅新diff重读并立即遵守。
-- 根README blob21bd547f56590b7f2dd279d0297efb289a9b2783、课题4d6570e9cf346431ab781a1290076a6321aaaa00已完整读。令牌仅CLI环境或已有Actions secret，不进文件/日志/config。规则15：可重算数组/数据/证书不进Git、Release或新工件，仅源码/参数/运行身份/SHA及正式证明。API仅UTF8<100KB，MD<100KB，H≤10000B，open尽量≤30KB，topic≤200MB，log每条≤5行、数学美元符、AI署名，不写根LOG。
-- 当前本地executor不可用；实际终端Actions仍可用，算术固定Python3.12.14/flint0.9。原临时输出须核完整物理/逻辑SHA后复用，不能假定已结束job存活。
+- 根README blob282e86b03385d3b6245ce7100ae2e2af7b103c2d、课题4d6570e9cf346431ab781a1290076a6321aaaa00已完整读。令牌仅CLI环境或已有Actions secret，不进文件/日志/config。规则15：可重算数组/数据/证书不进Git、Release或新工件，仅源码/参数/运行身份/SHA及正式证明。API仅UTF8<100KB，MD<100KB，H≤10000B，open尽量≤30KB，topic≤200MB，log每条≤5行、数学美元符、AI署名，不写根LOG。
+- 本地executor已恢复；部分克隆仅本课题，当前约96MB。旧作业TMP不假存活，先核已提交执行回执与原日志再决定续算。
 - 完整此前状态、所有未列开放项保[刚归档H](notes/2026-11-16-handoff-before-quintic259-minimal120-789f.md)、[完整open](notes/2026-11-16-open-before-weight10-input-audit-789f.md)及归档链；省略不算关闭。
 
 ## 当前实际执行接续
@@ -18,7 +20,7 @@
 
 - **[原五次Koszul259与最少120列原梯度呈示已闭](results/R150-appendix-actual-quintic-koszul259-stable-sixty-and-minimal-onehundredtwenty-presentation.md)。** run43924670391实际D5秩126、K5秩259、原unit45；全部300右端115500、16关系6160及双逆134162坐标全真。原E恒等及同原单位给全部有序N²C真降次，C60稳定且F/C60=原G11商；加六mean的十字面倍得完整Γ120，Bell至多130。原Γ9=4552排≤9关系，故min_B Γ=120、min_B C=60；不是B秩/自由性。权10新13728来源核≥31，不宣恰31。四步raw与全部父相位根/normal独立核同；尚无δb²新目标或Bell单位。
 
-- **完整权10原矩阵执行包已就绪，发布后dispatch。** [接口](notes/2026-11-16-r150-original-weight10-full-macaulay127-interface-789f.md)：同新job控制→七父重建→full，完整77276×13808/200源/δb²，不用旧std候选。核心22c/1748/4099冻结，单bitplane+原DAG/完整子式审计+独立全13808左证或正10/18/17门；600/900/1200/1800后最多3×1800，仅真实75+eligible+全SHA/新整列签名才续，决定仅run/参数/SHA入Git。170/180分钟同job、各段及长算28分钟内真实pull；完整TMP不跨已关闭job。当前无完整秩/目标声明。
+- **完整权10旧作业已有成功退出回执，待核数学输出。** run43926933406/resume2实际exit0、613.557秒，原完整回执7111字节/SHA18d153d4004127805dbdb80aad8c50008025be7d31fc85a25c7c51360ecee54e。根正取完整日志；未核前不预报秩/目标，不重跑。[接口](notes/2026-11-16-r150-original-weight10-full-macaulay127-interface-789f.md)及源码/全部父来源保持。R150结构与R271真实费用由两个独立代理继续，另代理补新文献；根独占共享记录与提交。
 
 ## R150已付结构与仍开范围
 
