@@ -4,7 +4,7 @@
 
 ## 规则与完整目标
 
-最近规则核查：2026-11-20 13:03 UTC，真实pull/rebase至 `fdf3951b3b106a07e8d34c8e0eabaa0baf5855a4`，双README相对上次已读无差异。
+最近规则核查：2026-11-20 13:03 UTC，真实pull/rebase至 `65191ffda055a26c73985f1cd1dce9ea98302a6d`，双README相对上次已读无差异。
 
 科学计算仅公开Actions；本会话此前本地执行的偏差及13:00 UTC纠正见[执行记录](notes/2026-11-20-public-actions-execution-correction.md)。公开仓库内工作；终端git普通push，每条结论推一次，NFF立即pull/rebase再推。至少每小时pull；每次查根/本题README差异，变更立刻读/执行。根README已授权必要修改/发布。根唯一git writer，代理只work/小blob。raw只scratch；Git/Release/artifact只保完整小源/参数/run/SHA/紧凑结论。题≤200MB、单MD<100KB、H<10KB、open<30KB。令牌只瞬时CLI，不写文件/提交/回复。
 
@@ -26,7 +26,7 @@ carrier在work/recover_evidence/gauss6-current-three/same-scalar-gauss-observati
 
 | 实际父 | 同目标与误差 | 当前已付范围 |
 |---|---|---|
-| a04f9faf，v7/r22续6 | Phi1.1393712529996e−7 / maxGram.01323315849；Jw.19567657 | 六方向/十trial均有接受；known product.991829297719；仅有限screen |
+| [a04f9faf，v7/r22续6](notes/2026-11-20-curvature-qp-spectral-hessian-r22-next-six-result.md) | Phi1.1393712529996e−7 / maxGram.01323315849；Jw.19567657 | 六方向/十trial均有接受；known product.991829297719；仅有限screen |
 | [0241，v5](notes/2026-11-20-curvature-qp-physical-h2-next-six-result.md) | Jw.13368399852 / maxGram.02401357847 | R663闭嵌入/非全等；紧D≤4.096356，marker held/D>.22314、grip>.21960 |
 | [077087，v7首4](notes/2026-11-20-curvature-qp-spectral-hessian-four-step-result.md) | Phi1.81982008095e−7 / maxGram.01495643901 | R665全浸入；新R667角相关补界已返全sigma≥.14208798，完整稿待随即推送 |
 
