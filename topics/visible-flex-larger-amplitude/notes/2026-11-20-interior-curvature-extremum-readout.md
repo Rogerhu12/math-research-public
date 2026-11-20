@@ -66,4 +66,4 @@ python "$topic/scripts/read_closed_local_extremum_20261120.py" \
  --out "$work/root/gauss-six-step-local-curvature.json"
 ```
 
-第二次将 bundle 改为第二父，`--stage 1643 --angle 5 --diameter-point-lower 4.09152646644`，使用新输出路径。完整实际报告仅保 scratch；上述源、输入身份、参数和结论足以重现。本条没有新增严格存在、全域上界、闭面 reach 或相位振幅结论。
+第二次将 bundle 改为第二父，`--stage 1643 --angle 5 --diameter-point-lower 4.09152646644`，使用新输出路径。两份实际报告 SHA256 分别为 `e36b039f6cdca4954b105d64fe50ea1624019a94c8912d1298b287f997bf45fb`、`d89a71494f93d81e9a958e81a9687bc20a82740a2c171cf798b54661bc70a571`。完整实际报告仅保 scratch；上述源、输入身份、参数和结论足以重现。本条没有新增严格存在、全域上界、闭面 reach 或相位振幅结论。

@@ -4,7 +4,7 @@
 
 ## 规则与来源
 
-最近规则核查：2026-11-20 11:02 UTC，真实pull/rebase至 `30a125ffa3a28c7c421a40a56d21bd64e13e6efa`，双README相对上次已读无差异。
+最近规则核查：2026-11-20 11:06 UTC，真实pull/rebase至 `d5d1ed2031ad192e3795e9f76184aee876900ac9`，双README相对上次已读无差异。
 
 公开仓库内工作；终端git普通push，NFF立即pull/rebase再推，每次检查双README差异，至少每小时pull。原README授权全部必要修改/发布，无需再问；完整证明直接登记，不加冻结/独审/额外验收流程。可重算raw只scratch，Git/Release/artifact不存；只保源、参数、run/SHA及紧凑结论。题≤200MB、单MD<100KB、H<10KB、open<30KB。令牌仅瞬时CLI，不写文件/提交/回复。旧完整责任保[11/20早期交接](https://github.com/Rogerhu12/math-research-public/blob/e6503907bb671290bd2b6e3c4051d98c3958a6d1/topics/visible-flex-larger-amplitude/HANDOFF.md)及open§1–7，不把failed/partial/unreturned互换。
 
@@ -28,13 +28,13 @@ R648原全开放prefix连续Gram<4.94e−7，R651 K≤7.04608，R652加权支持
 
 [完整free六jet转置与旧点投影首步](notes/2026-11-20-fullfree-cotangent-projected-first-result.md)已返：新接口proxy只读错误在0方向前修复；完整core/Θ/ρ/ρ′/H cotangent必要CS≤5.46e−15。0c535父active6/rank4，256inner、alpha1/4仅旧点SSE371→297.505/Gram.165765，未证新点通过，不升级父。
 
-**当前实际父2038**：[全部Gauss曲率QP六步](notes/2026-11-20-curvature-qp-gauss-six-step-result.md)从e8自然exit0/154.45秒。新目标Jw采用.5原Simpson+.5新Gauss径向正权，原/新增行全部保留；Jw9.30173755→1.3604706615368882，all_raw5114.116→1108.668910、legacy_raw1277.030→276.849373，三种范数不得混减。全7377×513点maxGram .122504569922、K7.935384160596、Dlb4.087221451205、必要产品.973010170942、detmin.9333233、H1.911389351352。父work/geometry_path/curvature-qp-gauss-six-step.npz，SHA `2038ba41e2001036eebe8bc43fccbb54b8d9ccf180f73139420798de278bcaa9`。K最坏新增stage6772/cell821，s1.013469930054/phi.638136007760；半径最大stage7132。仍不接近1e−6。
+**Gauss粗子空间父2038**：[全部Gauss曲率QP六步](notes/2026-11-20-curvature-qp-gauss-six-step-result.md)从e8自然exit0/154.45秒。新目标Jw采用.5原Simpson+.5新Gauss径向正权，原/新增行全部保留；Jw9.30173755→1.3604706615368882，all_raw5114.116→1108.668910、legacy_raw1277.030→276.849373，三种范数不得混减。全7377×513点maxGram .122504569922、K7.935384160596、Dlb4.087221451205、必要产品.973010170942、detmin.9333233、H1.911389351352。父work/geometry_path/curvature-qp-gauss-six-step.npz，SHA `2038ba41e2001036eebe8bc43fccbb54b8d9ccf180f73139420798de278bcaa9`。K最坏新增stage6772/cell821，s1.013469930054/phi.638136007760；半径最大stage7132。仍不接近1e−6。
 
-**新胞内峰已查**：[任意位置局部读出](notes/2026-11-20-interior-curvature-extremum-readout.md)在2038胞821找到K7.99135769/产品.97987346，仍过已知点.98。同目标续12步3a3父已自然返，Jw.345598/Gram.0547030，但Gauss产品.979353下另有胞内K8.09521096/产品.99365310；仍<1，不冒真实reach失败。新位置必须接入约束/线搜，不能只按Gauss升级父。
+**新胞内峰已查**：[任意位置局部读出](notes/2026-11-20-interior-curvature-extremum-readout.md)在2038胞821找到K7.99135769/产品.97987346，仍过已知点.98。[同目标续12步3a3](notes/2026-11-20-curvature-qp-gauss-twelve-step-02-result.md)已自然返，Jw.345598/Gram.0547030，但Gauss产品.979353下另有胞内K8.09521096/产品.99365310；仍<1，不冒真实reach失败。新位置必须接入约束/线搜，不能只按Gauss升级父。
 
 **更好可行父def1**：[全Gauss完整H²投影首步](notes/2026-11-20-gauss-fullspace-projected-first-result.md)从2038真实256inner/361.71秒，alpha1/4接受；Jw.981295539514、all_raw926.550658/legacy231.298204、Gram.101865681992，Gauss产品.973007294180。完整observed转置CS≤3.69e−14、active16/rank8；非无约束full收敛。一次新增任意点cell821 u.110229249059/phi.637233178888给K7.969807246586/产品.977918933825<.98。父work/fullclosed_solver/gauss-h2-projected-first-fixed/final.npz，SHA `def1ccbded6c463a014a71a39f259c59501412d5c84afec07ce7253c9dc34f5d`，原始与局部均仅数值必要筛选。
 
-**正在续：** geometry_path接任意(u,phi)约束/回溯响应阻尼；3a3恢复的负右端禁止向零缩步，失败回def1。fullclosed_solver下一完整方向解耦物理平滑H与−χ补偿并加该任意点。recover_evidence占R656，用真实αS+β/S/R/准确core端口及向外算术做完整q+lift连续几何接口；2038胞821已返K≤8.077130178、支持≥.448878962，续881/895同父，不提前全922批。根读3a3全Gauss加权残差谱供后续空间选择。
+**正在续：** geometry_path接任意(u,phi)约束/回溯响应阻尼；3a3恢复的负右端禁止向零缩步，失败回def1。fullclosed_solver下一完整方向解耦物理平滑H与−χ补偿并加该任意点。recover_evidence占R656，用真实αS+β/S/R/准确core端口及向外算术做完整q+lift连续几何接口；2038胞821已返K≤8.077130178、支持≥.448878962，续881/895同父，不提前全922批。[真实加权谱](notes/2026-11-20-gauss-weighted-residual-spectrum.md)已返：90%角能量≤mode7，49.39%目标在s1.1–1.6，峰为径向伸长；优先物理H/径向与几何恢复，不盲扩频。
 
 ## 已完成数值及失败，不重复
 
