@@ -229,3 +229,5 @@
 2026-11-20 17:40 UTC / Astra-larger-resume-24b2ab87-20261120：有限追读实际warm separated-QR→pulse DOP853→Hold/mode路径，未见可直接归因的未固定RNG/未赋值槽/时钟数学停止。JSON seconds确可变raw/report SHA，但warm NPZ无该元数据，不能解释实际有限max差。两workflow未锁完整image/wheel/BLAS/libm/CPU分派，未据此猜定原因；af89实际摘要均iteration_budget，不冒time_budget。无science/fixture/参数改动，不重算追历史SHA；同场绑定继续。
 
 2026-11-20 17:52 UTC / Astra-larger-resume-24b2ab87-20261120：R681独立v4 dd595105完整刊：None字节绑定委派原v3；固定PBP/已付Hd共轭系数，原欧氏Pg停止、R668释放首步欧氏向内后明确重启。启用分支以实际alpha||d||判零，稳定范数/除法避免缩放误判；B失效明确截断并付末真实诊断，不链内换identity。beta_bg首方案1/mu²属预条件而非新范数。仅源码/AST，真实PCG未跑；不据此声称扩大几何步长。
+
+2026-11-20 17:52 UTC / Astra-larger-resume-24b2ab87-20261120：R680独立SOC源805/9b完整刊：冻结原/R671→全位置→12接点，保父A/C至方向结束；仅首满步真Phi/domain过且几何拒时修正一次。修正自己的A*z/真Phi/全永久几何及新点全读，实际corrected模型控ratio/mu；失败原射线继续。未来SOC父完整body AST重建+明确准备态planner，不编辑report/绕旧guard。主QP与原ray诊断保原样，新schema消费者须分开读。tau显式未选/严格阈值未付，只有源码/AST，无数值SOC或预排。
