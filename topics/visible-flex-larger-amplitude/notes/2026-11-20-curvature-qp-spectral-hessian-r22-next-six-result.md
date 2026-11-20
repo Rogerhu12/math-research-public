@@ -203,4 +203,4 @@ The `iteration_budget` status means only that the six declared directions
 completed. The independent complete-space exact-Hessian inequality direction from the preceding 35f field has since returned da088: actual Phi=1.168356583131e-7 and maximum error=0.01329666734. Its newly reread finite product is 0.991850018963. It is weaker than a04f on the two actual metric measures, so a04f remains the continuation parent; its complete source and result are recorded separately.
 
 
-公开源码路径均对应实际执行的同SHA字节；临时数组沿原输入链再生。纯位置输入若替代原诊断清单，计算语义保持，文件路径与输入清单SHA不冒称原raw报告逐字相同。
+执行身份与是否已运行以正文各项状态为准，未执行准备源不冒称已有数值结果。临时数组沿原输入链再生；纯位置替代输入保计算语义，不冒称原raw报告的路径或逐字SHA。

@@ -123,4 +123,4 @@ python math-research-public/topics/visible-flex-larger-amplitude/scripts/resume_
 
 完整二次模型与必要小模型来源见[准备记录](2026-11-20-fullspace-inequality-qp-preparation.md)；后续执行遵循[公开Actions纠正记录](2026-11-20-public-actions-execution-correction.md)。
 
-公开源码路径均对应实际执行的同SHA字节；临时数组沿原输入链再生。纯位置输入若替代原诊断清单，计算语义保持，文件路径与输入清单SHA不冒称原raw报告逐字相同。
+执行身份与是否已运行以正文各项状态为准，未执行准备源不冒称已有数值结果。临时数组沿原输入链再生；纯位置替代输入保计算语义，不冒称原raw报告的路径或逐字SHA。

@@ -261,3 +261,9 @@
 - [R667：同角C1补界与077087完整闭嵌入](results/R667-same-angle-C1-transfer-and-complete-closed-embedding.md) — 保全原模/解析尾，只补799未付及50弱正胞，全sigma≥.14208798；同场准确非平面、四固定p4和整像见证给全t嵌入、强C²及含反射δE>0。完整K/reach和共同g精化仍未付。
 
 - [R668：面内尚未驻点时的可行负乘子释放](results/R668-feasible-release-before-face-stationarity.md) — 单位内向释放方向、严格下降及正行缩放不变量完整证明；近相关行按rho而非raw lambda选择。独立v2源保留旧版本，实际新数值仍待公开Actions，不替工作集覆盖与非线性检验。
+
+### R669. 同 g 旋转参考尾、固定帽的无穷小唯一性与末胞高度判据
+
+已证明。准确区分 FullHold cosine 归零端 $T$ 与 lift 宽度，并核本模型 $T=S$；同 g 轴对称 Hold 参考尾曲率不超过 $5/2$。完整材料 Fourier 模的 $2\times2$ 线性系统及尾端积分估计证明固定平帽时无非零无穷小等距场；受迫系统可消去 metric 导数。当前五次高度末片的 Darboux $t^3,t^5,t^7,t^8$ 系数强制矛盾，排除该固定表示的字面准确根，未给正误差地板或否定精化/$10^{-6}$。完整 Actions-only 源含准确末端系数读取及同 g analytic C² 混合诊断；发表时均未执行新科学计算。
+
+[完整证明](results/R669-same-g-axisymmetric-tail-linear-uniqueness-and-endpoint-defect.md)。

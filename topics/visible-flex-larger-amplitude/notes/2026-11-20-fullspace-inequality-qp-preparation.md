@@ -106,4 +106,4 @@ literal C 存在 scratch 的 float64 memmap，Cz 按 32768 列分块读取；活
 OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 python math-research-public/topics/visible-flex-larger-amplitude/scripts/resume_20261120/check_feasible_active_cg.py --source math-research-public/topics/visible-flex-larger-amplitude/scripts/resume_20261120/fullspace_feasible_active_cg.py --out work/fullclosed_solver/feasible-active-cg-small-check-reproduction.json
 ```
 
-公开源码路径均对应实际执行的同SHA字节；临时数组沿原输入链再生。纯位置输入若替代原诊断清单，计算语义保持，文件路径与输入清单SHA不冒称原raw报告逐字相同。
+执行身份与是否已运行以正文各项状态为准，未执行准备源不冒称已有数值结果。临时数组沿原输入链再生；纯位置替代输入保计算语义，不冒称原raw报告的路径或逐字SHA。

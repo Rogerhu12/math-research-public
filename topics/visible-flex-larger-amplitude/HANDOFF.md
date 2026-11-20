@@ -4,7 +4,7 @@
 
 ## 规则与完整目标
 
-最近规则核查：2026-11-20 13:55 UTC，真实pull/rebase至 `05b50e7cd0778687884919c9d3cda4f027783a1e`，双README相对上次已读无差异。
+最近规则核查：2026-11-20 14:01 UTC，真实pull/rebase至 `61a5935495380fa12d052e5ad7dba22d7b8a5932`，双README相对上次已读无差异。
 
 科学计算仅公开Actions；本会话此前本地执行的偏差及13:00 UTC纠正见[执行记录](notes/2026-11-20-public-actions-execution-correction.md)。公开仓库内工作；终端git普通push，每条结论推一次，NFF立即pull/rebase再推。至少每小时pull；每次查根/本题README差异，变更立刻读/执行。根README已授权必要修改/发布。根唯一git writer，代理只work/小blob。raw只scratch；Git/Release/artifact只保完整小源/参数/run/SHA/紧凑结论。题≤200MB、单MD<100KB、H<10KB、open<30KB。令牌只瞬时CLI，不写文件/提交/回复。
 
@@ -30,11 +30,11 @@
 | [0241，v5](notes/2026-11-20-curvature-qp-physical-h2-next-six-result.md) | Jw.13368399852 / maxGram.02401357847 | R663闭嵌入/非全等；紧D≤4.096356，marker held/D>.22314、grip>.21960 |
 | [077087，v7首4](notes/2026-11-20-curvature-qp-spectral-hessian-four-step-result.md) | Phi1.81982008095e−7 / maxGram.01495643901 | [R667](results/R667-same-angle-C1-transfer-and-complete-closed-embedding.md)全sigma≥.14208798、闭嵌入/固定marker非全等；完整K仍未付 |
 
-a04路径work/geometry_path/curvature-qp-spectral-hessian-r22-next-six.npz，SHA `a04f9faf228c3785ab785314eb14836bdad598a6d6ac826c4abf15100225f4e0`。0241路径work/geometry_path/curvature-qp-physical-h2-next-six.npz，SHA `0241f7144f82b485350f684e999c8fb3fa71c94a942339da0bfa9f00bdb30023`。所有已返科学数值为本地结果，不能冒称Actions运行。
+a04路径work/geometry_path/curvature-qp-spectral-hessian-r22-next-six.npz，SHA `a04f9faf228c3785ab785314eb14836bdad598a6d6ac826c4abf15100225f4e0`。0241路径work/geometry_path/curvature-qp-physical-h2-next-six.npz，SHA `0241f7144f82b485350f684e999c8fb3fa71c94a942339da0bfa9f00bdb30023`。上表历史数值为本地结果；本轮公开Actions返回独立记下节，不继承旧SHA。
 
 - geometry_path：v7同p8/.001/.05准确残差Hessian及真gradient；2534列首6得bede但新821盆末product.99240164超内部余量；三方向恢复35f；后六得a04。完整原失败/两次启动0trial错误/全部CLI分别刊。1053κ/165radius/9protected只携位置，后继逐点读新场。[完整Actions配方](notes/2026-11-20-actions-a04-chain-recipe.md)含25/28阶段及所有纯位置责任；[公开入口](notes/2026-11-20-public-actions-continuation-entry.md)本次提交触发，实际状态见下节/后续run记录。
 - fullclosed_solver：首完整Phi不等式QP从35f自然返da088，256乘积/641.84s，仅1/4接受；Phi1.16835658e−7/max.01329667，弱于a04，不退主父。新增a04位置复读product.991850018963。192线性行含28条821近重复，却漏真实低phi拒峰；该峰始终保留于非线性screen。[R668](results/R668-feasible-release-before-face-stationarity.md)已证未驻点时按单位可行方向下降率提前释放；v2源尚未科学执行。工作集另补实际峰覆盖，下一完整方向在Actions运行。
-- recover_evidence：R667同角Q256/前24模、所有原模及解析尾仍付；只补原799未付胞，再补50个弱正胞，完整sigma≥.14208798/normal≥.08558693。077非平面准确Fraction唯一新检查已返，四固定p4后含反射δE>0；新a04证书尚未启动。正推实际同g尾结构，新的数值安排Actions。
+- recover_evidence：[R669](results/R669-same-g-axisymmetric-tail-linear-uniqueness-and-endpoint-defect.md)证明同g准确旋转尾、固定帽的无穷小唯一性及quintic末高度的t8无精确根；不推非线性不可能/误差地板。末胞真S准确抵消。完整Actions后处理源已刊，direct/endpoint/tail应用尚未执行。
 - root：0241全K本地45381因执行地点规则纠正Ctrl-C exit130；最后落盘1146次覆盖（全922粗+224细），全胞有效上界最大8.5913381808，850胞≤8.1；层2/72胞已启动但没有保存的新批，未返量不作0。保全部已有raw/source/SHA和scope，不称全运行完成或reach已付。R666仍留给真正全K/reach；后续公开Actions继续数学工作。
 
 ## 已付连续几何与严格接口

@@ -95,4 +95,4 @@ OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 python math-research-
 OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 python math-research-public/topics/visible-flex-larger-amplitude/scripts/resume_20261120/read_full_step_curvature_channels.py --repo math-research-public --bundle work/geometry_path/curvature-qp-physical-h2-next-six.npz --direction work/fullclosed_solver/gauss-angular-h2-0241-first/direction-000.npz --point-source math-research-public/topics/visible-flex-larger-amplitude/scripts/resume_20261120/fullclosed_point_cotangent_working.py --geometry-source math-research-public/topics/visible-flex-larger-amplitude/scripts/resume_20261120_curvature_qp.py --point 188,0,.5553010452146021 --point 182,0,.5614369683661447 --point 188,0,.5009630056335 --out work/fullclosed_solver/angular-h2-full-step-curvature-channels.json
 ```
 
-公开源码路径均对应实际执行的同SHA字节；临时数组沿原输入链再生。纯位置输入若替代原诊断清单，计算语义保持，文件路径与输入清单SHA不冒称原raw报告逐字相同。
+执行身份与是否已运行以正文各项状态为准，未执行准备源不冒称已有数值结果。临时数组沿原输入链再生；纯位置替代输入保计算语义，不冒称原raw报告的路径或逐字SHA。

@@ -33,4 +33,4 @@ python math-research-public/topics/visible-flex-larger-amplitude/scripts/resume_
 
 为公开复现，另有纯位置参数文件 `math-research-public/topics/visible-flex-larger-amplitude/notes/2026-11-20-r17-angular8192-locations-only.json`，3,718 bytes、SHA256 `4b53ab5c93701611ef52d7cfb57b26a650a888a0324c2edd17535f25220666a0`，完整保留本次reader实际消费的45+7坐标、carrier SHA及原清单SHA，没有旧几何诊断。上条CLI可将fixed-manifest换成该纯参数文件重现同一计算语义；它不声称与原诊断清单文件SHA相同。原top-level grid坐标本来就属于已付全Gauss扫描，本reader没有假装额外重扫它们。
 
-公开源码路径均对应实际执行的同SHA字节；临时数组沿原输入链再生。纯位置输入若替代原诊断清单，计算语义保持，文件路径与输入清单SHA不冒称原raw报告逐字相同。
+执行身份与是否已运行以正文各项状态为准，未执行准备源不冒称已有数值结果。临时数组沿原输入链再生；纯位置替代输入保计算语义，不冒称原raw报告的路径或逐字SHA。
