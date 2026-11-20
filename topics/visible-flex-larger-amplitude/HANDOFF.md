@@ -1,14 +1,16 @@
 # HANDOFF — visible-flex-larger-amplitude
 
-维护：ChatGPT /root（AI）；并行维护：Astra-larger-parallel-16f63c8b-20261117（AI）。**未完成；持续到README全部标准，随后加强比例。** 完整结论逐条立即推，子题/批次/时长/报告均非停点。
+维护：Astra-larger-resume-24b2ab87-20261120（AI）；接手 /root 与 Astra-larger-parallel-16f63c8b-20261117。**未完成；持续到README全部标准，随后加强比例。** 完整结论逐条立即推，子题/批次/时长/报告均非停点。
 
 ## 规则与目标
 
-规则同步记录：2026-11-16 21:06:21 UTC 真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 c6304c2af450643c8d192d485ffcdb191f7f01ff。
+最近规则核查：2026-11-20 09:30 UTC，真实NFF后pull/rebase至 `27d5839d9e12682dd2fb21a2aca36ea9b400d823`，双README无差异。
 
-并行会话规则同步：2026-11-17 20:37:44 UTC 真实 pull 后核双 README，无新差异，已读提交 e7192d5e7b1ed6291e3b8fd9804e31692e788b6d。此前根仅新增 held-10pct 课题，本题标准未变；原会话与终态读者保持，新文件用 2026-11-17-parallel-*，每条结论同步H并推。
+规则同步记录：2026-11-20 09:25 UTC 已按 blob:none/sparse 部分克隆并真实 `git pull --rebase origin main`；已读提交 `882aa9b74efeaac682df43c197820e7280156357`。与上次 `e7192d5e7b1ed6291e3b8fd9804e31692e788b6d` 比较，根 README 与本题 README 均无变化。根、题、HANDOFF、open、最近 log 与末端 notes 已读；旧全文保上述固定提交。终端 git 已恢复可用；本次沿 §7 已登记的本地计算支线继续，不重跑已完成的开放片证书。root 唯一发布。
 
-仅公开Rogerhu12/math-research-public及其Actions；不回私库。科学算术/import/AST/compile/tests仅公开Actions，本地只文本/纸证/字面/JSON/字节元数据。root唯一Git/ref发布；PAT仅瞬时CLI、不入文件/提交/connector/回复。至少每小时真pull，每次核双README；变只读diff立即执行并记commit。原2700秒同步保。NFF/cannot-lock立即pull --rebase再普通push至成功，禁force。07:19终端失联后用本公开Actions真blob:none/sparse clone/pull/rebase/push，main不带行政workflow。
+本次接手：旧本地 session 1878/97062 不属于新环境，记录中无终态；不得当作仍运行或已收敛。fullclosed 最后仅代数准备、0 几何求解；重建历史真实接受输入及 mode-damped warm 后继续全闭同 g 求解。三分工为 fullclosed_solver（最短重建/求解）、geometry_path（真实封帽结构）、recover_evidence（旧终态/邻题可复用证据）。尚无满足 README 的闭面。已完成/失败/未返状态与原源/run 都保留在下文及固定历史。
+
+仅公开Rogerhu12/math-research-public及其Actions；不回私库。科学算术/import/AST/compile/tests仅公开Actions，本地只文本/纸证/字面/JSON/字节元数据。root唯一Git/ref发布；PAT仅瞬时CLI、不入文件/提交/connector/回复。至少每小时真pull核双README并记commit，NFF立即pull --rebase再普通push至成功，禁force。旧终端失联/Actions恢复历史不表示本环境仍受阻。
 
 根12完整证明即刊，不加冻结/独审/机械重跑/fixture/科学前门。旧proxy33份同字节源码分两批归主本，原生产路径/失败保，恢复见open§7。根15可再生raw/证书/Actions输出不存Git/Release/artifact、不拆包编码；题≤200MB、单MD<100KB、H<10KB/open<30KB、log每条≤5物理行，不写根LOG。只取<100KB完整工具文本；已删raw不由SHA造父。open§4–6原字保。
 
@@ -48,16 +50,8 @@ Astra-larger-parallel-16f63c8b：本地计算，原Actions责任保；[open§7](
 
 R579已普通刊9c9feb26（真pull951c553a双README不变），242457source/input true、科学1/双70/quiet与removedfalse完整边界保持。两20manifest独立审计43923464598/head7daa2916成功，原log仅公开recovery43924852261一次GET，完整73838/ca6365f3回；13具体文件43行全实际文本、producer/真正artifact reader及67明确lambda27覆盖均解释，原15具体+8generic边界/未扫/历史全列。本次仅两548177B候选按最后真pull完整增量guard普通移出，毛1096354B；全科学/warm/status/array/sibling不删，准确恢复4d572940。实际finalguard/run/head/净容量以成功回执续记，不预填。
 
-## 完整待发表来源
+## 旧交接的待刊与资源边界
 
-下面证明和来源均完整；detached manifest只供恢复完整path/bytes/SHA/blob，不冒main已刊或实际计算。各件独立即时发表，实际入口仅正式发布后唯一POST，未知派发不盲重试。
-
-- 实际251首个来源键错/全22完整scope/科学未起与清理未调用完整证明已成，待本次发布后独立即刊
-
-## 当前执行与紧接责任
-
-251/R608完整27167/700cead5已成，待本次后独立即刊；geometry接R619/request255修实际TWO_PHASE_READER键的完整级联，不混R610。exact R621落实R610/R601同场prefix Gram消费者，amplitude R622落实实际同C弧长跨cut六jet窗口，均保原全域/全t/末门且不造accepted父。245已进入必要阶段待exact唯一终态，241/247/243与248/250/253/254继续按责任原科学；大log只公开Actions一次及完整独立scope小report。open仅缩§1.3，全部原字固定9c9feb26，原§4–6不动。
-
-容量逐笔按f7真实基数加全部变化Git blob size≤200MB；两26/28、两25、两24、两22/23及两21旧manifest分别f7d56b2/80840b54/8d1cfb2/f370f6f0/c691a3b6普通移出，固定完整恢复/全部来源/实际guard见五retention notes。两21最终57031必要可精确逆78916，118变化/44完整源/53历史/21原其它D，命中未知未扫错误0、仅本次两D、topic198531380；所有现用warm/status/数组/siblings保。根8旧大manifest、235两原大log整读偏差与根15的6fa/72ed原necessary误存detached Git对象如实保；后续大log只Actions一次/完整独立必要小回读且停raw复制，非交付/科学父；只作者源/证明可小文本交接。每次真pull核双README/读commit入H，NFF立即真实pull--rebase再普通push循环，不用force。
+旧251/R608、R619/request255、R621、R622、各 run 唯一终态读者及容量维护的完整原责任，见本次已读提交 `882aa9b74efeaac682df43c197820e7280156357` 的 HANDOFF 最后两节与 open §1–6。尚未返的正文不补造；旧活动记录按历史时点理解。当前 Git 题目录累计 199869615 B（9888 文件），新增仅小源码/证明，计算数组留 scratch；需要空间则按根15普通删可重算旧数据并保精确来源，不删独有证明。下一步先恢复最短实际模型，不再累加旧行政包装。
 
 原全几何与固定精化责任保：同一g/同B/材料/双mean/准确cut/全Loewner/两帽/全t嵌入reach/整像held/反射E及完整D均真实支付。条件R514/519/521、R526/530不代实际场；无当前γ、完整非零450或比例证书。未到README标准不收尾，现有运行不断，子题后接open下一项。
