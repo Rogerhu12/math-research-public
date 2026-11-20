@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R138原全部high压缩的新标量合同](notes/2026-11-20-R138-original-high-root-lower-bound-contract.md)：24当前/6原件、26字段41新球首次封包，actual C2、signed平方负部、完整mean及两primitive全保；系数分部积分/194谱隙给更紧费用，另存κ与F2完整源列。root/joint数学及运维整审，metadata逐字复现，旧signed三项不重算；actual high正性和所有relative门仍待。
+
 - [R138原high principal与signed完整余项](results/R138-supplement-original-high-principal-and-signed-compact-bound.md)：原388分界的对称principal误差以actual a″支付，完整六local/mean rank/两环境primitive不删；保几何符号后的平方负部给更紧单侧下界，不能作cross尾。root/global独核，0新科学；实际全圈系数和high正性门尚未算。
 
 - [R138原high压缩与相对根迹接收器](results/R138-supplement-original-high-compression-and-relative-root-receivers.md)：保low96/high97、fullmean与实际弱核同图，准确dual接收器及同L2逆导数界已证；高压缩逆必须保low96修正，完整high正性和finite W把负部交真根迹，再接GB相对三门。root/joint独核，0新数；actual high、全尾cross/finite Gram及三门仍待。

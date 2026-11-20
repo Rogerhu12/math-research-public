@@ -1,12 +1,12 @@
 # 交接：可见振幅的精确闭等距族
 
-维护会话：`visible-exact-astra-ac637-20261120`；更新：2026-11-20 14:01:45 UTC。
+维护会话：`visible-exact-astra-ac637-20261120`；更新：2026-11-20 14:08:38 UTC。
 **总任务未完成；继续研究，不等用户回复。**
 
 ## 规则读点与接续来源
 
 部分克隆：`/workspace/scratch/ac637cfcc78d/math-research-public`。终端 git 已恢复，无 AGENTS。
-2026-11-20 14:01:45 UTC 实际pull/rebase至 `e4223a7d739499049bacd75cf9cd913e707e616f`；已读规则提交同上，两README相对96edc6770空diff。每次pull后核规则差异；下次实际pull最迟15:01:45 UTC。
+2026-11-20 14:08:38 UTC 实际pull/rebase至 `dbd32d7f5f66ba5c23d713c46f1866098e10db9e`；已读规则提交同上，两README相对96edc6770空diff。每次pull后核规则差异；下次实际pull最迟15:08:38 UTC。
 
 接手前完整 H（含全部递归原页、成功/失败/恢复身份和未付义务）见 [2026-11-16 完整检查点](https://github.com/Rogerhu12/math-research-public/blob/882aa9b74efeaac682df43c197820e7280156357/topics/visible-flex-exact-nearby/HANDOFF.md)。本页只压缩索引；`open.md` 及所链接的原证明、适用域、均值、物理角、所有边界和误差费用继续有效。旧成功结论不重算。
 
@@ -48,7 +48,7 @@ WIC原m160/N24480真tail逆κ=3已证；WPN只有完整e+3dt<1才授双边逆、
 1. 原L44724797559/1三量与centre44727185157/1的K>80冻结；只排旧配方，余47不算。R141低有向44730452579/1仍运行：71pins/768bits，先完整Green/defect，过门才4源/193atoms/wholebox，未产字段不读；共享worker98ef3773不改。
 2. F_B44734581045/1、GH五源44736533396/1、旧四响应44740105701/1冻结。[D实际44745017016/1](results/R141-supplement-actual-reference-boundary-lifts-and-complete-193-observations.md)82pins/10球，body<6.594、complete<7.236；原44742799448零数学线程失败保。[加权GH实际44746534556/1](results/R141-supplement-actual-radially-weighted-high-response.md)79pins/5球、4802格，GB<8.131/HB<30/HZ与Hroot<12/outer<.151，均upper；真实97+96外行仍待。
 3. R138轴44730968113/mean44733403315/X44737045152/Y44740320925与各完整false均冻结。[GB实际44745355257/1](results/R138-supplement-actual-capped-Hhalf-body-absorption-and-root-allowance.md)body三门true，条件C_allow lower>367；根r仍旧Y H2/3。[96/97实际44745192261/1](results/R138-supplement-actual-negative-original-root-96-97-form.md)det<−353/显式型<−146，排全rootdata非负及仅H²费，不推global核。
-4. [RT完整根迹](results/R138-supplement-capped-curvature-root-trace-and-finite-receivers.md)保free-outer、环境k0、mean0密度dual/Gram/2π。[相对根接收器](results/R138-supplement-original-high-compression-and-relative-root-receivers.md)已证准确mean读出/dual、同L2逆导数界、原high压缩逆低96修正及相对三门；[HP完整原high界](results/R138-supplement-original-high-principal-and-signed-compact-bound.md)已付仅actual二导的principal小余项、六局部项/fullmean/两primitive及signed平方负部，actual high正性和finite接收Gram未付。global_route/joint_kernel续high系数，positive_inverse续完整低返回/真实外块，root逐结论审记推。finiteρ/七ports/两RHS及所有原接口仍独立。
+4. [RT完整根迹](results/R138-supplement-capped-curvature-root-trace-and-finite-receivers.md)保free-outer、环境k0、mean0密度dual/Gram/2π。[相对根接收器](results/R138-supplement-original-high-compression-and-relative-root-receivers.md)已证准确mean读出/dual、同L2逆导数界、原high压缩逆低96修正及相对三门；[HP完整原high界](results/R138-supplement-original-high-principal-and-signed-compact-bound.md)已付仅actual二导的principal小余项、六局部项/fullmean/两primitive及signed平方负部，[HC公开包](notes/2026-11-20-R138-original-high-root-lower-bound-contract.md)24pins/41新球首次push，actual high/κ与finite接收Gram待。global_route/joint_kernel续相对费用，positive_inverse续完整低返回/真实外块，root逐结论审记推。finiteρ/七ports/两RHS及所有原接口仍独立。
 
 ## 正侧以外仍未付的接口
 

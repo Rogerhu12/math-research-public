@@ -187,3 +187,5 @@ R138的[几何桥](results/R138-residual-sensitive-Codazzi-frame-and-geometric-J
 [相对根接收器与原high压缩](results/R138-supplement-original-high-compression-and-relative-root-receivers.md)已证准确μ/mean及对偶Wz=−ρ⁻¹(〈P′,w〉+〈P,h〉)，P′mean0但P/h完整mean；A*同一个L2小门同时付odd/even与导数，不另借H1收缩。原high乘子压缩逆必须保low96的Schur修正；只需high正性，有限low负部由W和PL两真根迹支付，接GB完整三门。V§9/G.13给实际弱核同图资格；原high正性、全尾cross、finite Gram/相对三门仍未actual，旧96/97三球只读跳过重算。
 
 [HP原high全压缩](results/R138-supplement-original-high-principal-and-signed-compact-bound.md)给principal误差≤2^(1/6)/32·388^(-4/3)||a″||，只需同actual C2；完整无输入导数型含六local、mean rank及两环境primitive（I费1），先保全部符号再只付三个平方项负部可给单侧更紧门。负部费不能冒充双侧范数或cross尾。真实Aqq用含actual Z的几何恒等式，原high97不提高；全圈系数/严格high lower尚待新公开计算，旧三矩阵项不重算。
+
+[HC新单侧high消费者](notes/2026-11-20-R138-original-high-root-lower-bound-contract.md)24当前/6原件、26字段/41新球、32768闭格/320bits首次公开。actual C2由完整X缺陷，c/c′先消商；b′平均分部积分与环境194分谱gap收紧完整mean/primitive，原high388不动。source/worker/gen和全部pins、旧6恢复、metadata逐字复现已核；旧axis/mean/X/signed3项仅读。完整下界与κ、F2源系数尚待actual，false门不推奇异。
