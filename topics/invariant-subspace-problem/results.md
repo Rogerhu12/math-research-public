@@ -314,3 +314,5 @@
 - **R150 ess4外均值的全部rankH3支路为空（2026-11-20，已证明）：** [完整六种局部代数组合及物理conic排除](results/R150-appendix-essential-four-all-rank-three-second-moment-branches-are-empty.md)保全部原mean/H/highest、非约化jets、半权、零配对和∞。活跃三重点及双点由完整mean和等向三jet分类排除，零双点保原多项式零点重数，最后W± conic以−5645t+11625、−29965t−501535排平方坐标分裂。整个原长度五支路只余rankH4/5；内均值、ess5/6及Bell来源仍开。
 
 - **原自适应硬复制的五次精确成本门（2026-11-20，已证明）：** [完整递推、最优成本和圆柱计数](results/R12-appendix-adaptive-hard-cut-copying-fifth-order-cost-barrier.md)对任意实际深度序列J_i，正范数输出给统一正测存活集；合并全部嵌套后仍至少δn个最大圆柱，Jensen给Σlogc≥c₀n⁵。最优c_A(R_J)=√(α0⁻²+α_{J−1}⁻²)，原幂对数至多(940/7)n⁴，故准确移幂预算不趋零。仅关闭硬copy家族，不宣输出范数发散或一般Deddens失败。
+
+- **原复软复制返回固定非零球的五次成本障碍（2026-11-20，已证明）：** [完整复权最优费用及固定球证明](results/R12-appendix-soft-copying-fixed-ball-fifth-order-cost-barrier.md)允许软截断、任意相位、自适应及统一有界放大；正测大乘积集与最大dyadic圆柱给c₀n⁵下界，有界放大仅减O(n²)。收缩软权仅需实际正范数下界；标准Deddens预算无法压过原四次幂衰减。不排一般有限头或非复制重排。

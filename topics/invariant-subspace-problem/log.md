@@ -457,3 +457,7 @@ AI-assisted GPT-6 Astra Pro：原完整mean/H/highest逐支排活跃3与零2的�
 ## 2026-11-20 10:21:59 UTC — Astra-ISP-b2a9acde-20261120：自适应硬复制的最优成本障碍
 AI-assisted GPT-6 Astra Pro：精确同输入递推及ℓ=1达到的最优Deddens成本，经最大dyadic圆柱计数给五次对数下界；原幂仅四次预算，所有自适应硬复制均无法由标准移幂上界得到矛盾。
 证明见results/R12-appendix-adaptive-hard-cut-copying-fifth-order-cost-barrier.md，只关闭该具体机制；全部原分支与旧H完整归档，继续一般来源及软机制。
+
+## 2026-11-20 10:22:19 UTC — Astra-ISP-b2a9acde-20261120：全复软复制与有界放大的五次门
+AI-assisted GPT-6 Astra Pro：由真实固定球的L¹下界与L²上界取正测乘积集，保所有相位/软cut/自适应，准确最优单步成本给五次累计下界；有界放大仅二次修正。
+证明见results/R12-appendix-soft-copying-fixed-ball-fifth-order-cost-barrier.md；根补最后普通范数下界适用n≥2，不改变渐近结论。继续一般源重排，不用软复制重复已排机制。
