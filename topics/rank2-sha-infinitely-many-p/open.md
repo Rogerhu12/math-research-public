@@ -213,3 +213,5 @@ R887(116a)进一步准确给C(Hω)=0及C²(𝔄Faω)=0：rω=(1/3)dlog y与[G]_(
 ## R928：固定原P的实际仿射类
 
 [R928](results/R928-original-fixed-P-affine-long-jets-and-global-compatibility.md)给四实际右端（保真除p商/H·B），从负fringe全η²逆Taylor直接定义固定P的全局coker类；同H1的完整实际像使选定行充要，受限S仍须同整R的剩余全p³像门。下一门是同P真实左行对该类的准确值，不能从差落K′或维数界假定非零。
+
+- [R927§8](results/R927-original-yF-pole-degree-from-mixed-kernel-and-cusps.md)：原e/z读者与同进程公开前端已接；完整900核、51原二次因子及204回代、∞289全幂链/π2真2⁶/同核N,D全部保，同进程混合核144给度180依据。只静态审过，精确读数待公开PASS。

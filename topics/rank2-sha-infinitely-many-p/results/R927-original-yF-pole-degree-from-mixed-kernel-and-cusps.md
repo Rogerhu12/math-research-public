@@ -414,3 +414,27 @@ $$
 
 
 §6–7经root独立逐类地方阶推导和全文核，theta另独审完整frame/2^6/289厚度；§7.2的满射补强亦双审。全部均为符号推导，实际e、z仍未填写。
+
+## 8. 两个完整有限读数的同进程公开实现
+
+2026-11-20：已把§7落实为[原有限读者](../scripts/original_yF_finite_pole_degree.py)与[公开producer](../scripts/produce-original-yf-finite-pole-degree.py)。[完整实现契约](../notes/2026-11-20-original-yF-finite-reader-contract.md)逐项说明输入、框架、真实有限代数、回代与接受门。当前只登记已审源码和公开请求；**尚未取得本读者的实际PASS，不填写e、z或dF。**
+
+本入口严格只接受r=29。宿主先鉴定既有原F/P的完整特征零PASS，经stdin送入断网、只读源码的固定Sage10.6容器；token仅留宿主读者。数学进程按顺序重建原cube、817项完整DS与Frobenius、2453项正规化及全部六厚cusp。全部原对象保留在同一进程，helper不重建另一份模型或有限域。
+
+degree180的依据也在同进程中：必填`cube_receipt`含刚完成的原混合F核144、秩1116、完整0..1428窗及原S³坐标。helper核同选中坐标和来源，再引用§1的RR证明。RF的900×2280完整核与6941项原全局恒等式另核原回执，并由同一完整核给极度240；不能以紧缩R2中的单个分式替代全900条分母。
+
+e门把完整204维DS的F²约化投影逐分量回到51个原二次残域，核204→102→204两矩阵恒等式。全部R6 recipes以真实R2成对乘积和单位h³求值；完整900×102限制像除核秩外，还逐个比较其标准行基与全部活跃因子的完整直积理想。所有非约化输入和204坐标回代保留，回执准确声明只对R6计算约化值。
+
+z门重新核原∞因子的全部289幂链、666截面值和120×666的真实π2矩阵，保每条recipe的2⁶倍率。对全部900条分母读剩余值；有单位时只用同一核行的配对N/D，逐次求完整289项逆，最后回到原306维代数核D·D⁻¹=e及D·RF=N。真正首阶须在0..192且为4的倍数；全部分母剩余值零才由已证全局生成性给z=0。
+
+返回值保e、z、dF、原全部上下文和两读数的完整矩阵。公开回执只输出度数、接受门、原点身份、源码和矩阵哈希；不写重算数据文件。最终仍明确区分约化精确dF、完整全局pole ideals、四大交理想、shadow及无穷p结论，后四门未由本实现支付。
+
+| 文件 | SHA256 |
+|---|---|
+| `original_yF_finite_pole_degree.py` | `5d577d06decc79026ae0b1f454ade3d3a4602864e5feca4d14b9389ab4d09fb4` |
+| `produce-original-yf-finite-pole-degree.py` | `4d5e93be8cf6807dc166221f3d09ba392abcdd6c637139d6baff3f55905a14ea` |
+| `launch-original-yf-finite-pole-degree.py` | `f0a74ee2c5a92c7196303b4b995593183321f5c0ff8014f3a04570d6ce8060ce` |
+| `ci/original-yf-finite-pole-degree-request.json` | `e84c6ea21708c02d5627e57cf806da75766c1fe86c055ed8ba642df24b0dfbfc` |
+| `.github/workflows/rank2-sha-original-yf-finite-pole-degree.yml` | `759611eef00da88e6638ee89f6e86741c65d003c9b5cdaf7c3da74dd90318eb5` |
+
+root已全文核helper、四前端与原生产者接口；theta独审完整RR/DS/289/π2读数，deep另独审全部真实owner/receipt/labels/矩阵shape与调用契约，global独审root四前端。AST、JSON/YAML及同一25项源码manifest静态检查通过，未在本地执行数学。请求固定原F/P认证source/run/job/result，实际运行回执另补。

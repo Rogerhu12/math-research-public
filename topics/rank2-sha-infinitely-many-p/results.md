@@ -426,3 +426,5 @@
 - [R927§6–7](results/R927-original-yF-pole-degree-from-mixed-kernel-and-cusps.md)：同原dF=2160+9(e−z)，e/z皆偶且界102/96，dF为18倍/1296..3078且不等2256；原RF全900分母以RR满射读DS约化rank=e，原∞289厚因子足读2z≤192，实际两值待付。
 
 - [R928](results/R928-original-fixed-P-affine-long-jets-and-global-compatibility.md)：原固定P的四actual长/短前缀右端保真除p商及H·B，负fringe二次逆Taylor给直接可读的全局兼容类；同H1实际像使选定行充要，受限S的全p³整像门仍独立，未假固定类非零。
+
+- [R927§8](results/R927-original-yF-pole-degree-from-mixed-kernel-and-cusps.md)：原e/z读者与同进程公开前端已接；完整900核、51原二次因子及204回代、∞289全幂链/π2真2⁶/同核N,D全部保，同进程混合核144给度180依据。只静态审过，精确读数待公开PASS。

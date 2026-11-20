@@ -1,0 +1,44 @@
+name: Rank2 original yF finite pole degree
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/rank2-sha-original-yf-finite-pole-degree.yml'
+      - 'topics/rank2-sha-infinitely-many-p/ci/original-yf-finite-pole-degree-request.json'
+      - 'topics/rank2-sha-infinitely-many-p/scripts/launch-original-yf-finite-pole-degree.py'
+      - 'topics/rank2-sha-infinitely-many-p/scripts/produce-original-yf-finite-pole-degree.py'
+      - 'topics/rank2-sha-infinitely-many-p/scripts/original_yF_finite_pole_degree.py'
+  workflow_dispatch:
+permissions:
+  contents: read
+  actions: read
+concurrency:
+  group: rank2-original-yf-finite-pole-degree
+  cancel-in-progress: false
+jobs:
+  original-yf-finite-pole-degree:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          filter: blob:none
+          sparse-checkout: |
+            .github/workflows
+            topics/rank2-sha-infinitely-many-p/scripts
+            topics/rank2-sha-infinitely-many-p/ci
+          persist-credentials: false
+      - name: Pull the pinned Sage 10.6 image
+        shell: bash
+        run: |
+          set -euo pipefail
+          docker pull sagemath/sagemath@sha256:19995db6194f4a4bab18ce9a88556fd15b9ed5e916b4504fefe618a7796ddbdb
+      - name: Authenticate original full PASS and read both complete finite degrees
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PYTHONDONTWRITEBYTECODE: '1'
+        run: |
+          set -euo pipefail
+          timeout --kill-after=45s 21000s python3 topics/rank2-sha-infinitely-many-p/scripts/launch-original-yf-finite-pole-degree.py
