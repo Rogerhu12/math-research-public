@@ -145,3 +145,7 @@ source30569B/3fca5cd0、worker30709B/2a119f1c、generator14465B/0534051b、contr
 ## 2026-11-20：完整复合物理预算实际完成，所选吸收门仍false
 
 44740320925/1新预算全4651格成功；root整读8482B/19b489ce科学结果及15211B/2e4cea61执行，19当前pins/receipt整表、9原件恢复整对象、22字段/17球、全部接口/partition/旧X身份全核。新k0/k−1/3/k−1/2显示约.00011610/.00024956/.00037351，E0/E1约.0013868/2.7194；rE/rB约.01783/.01977，aEE/aEB/aBB约66.32/145.46/79.76。C*=0的body三门仍false，只是此完整上界未授吸收，不推实际奇异。5pull/四完整README空diff；child3.357561271999998s/0，0旧传播/旧target/新数组。科学冻结，后继须新推更紧完整能量或外响应，根finite+tail/全频逆/最终族仍待。
+
+## 2026-11-20：完整根源消元与真实轴包络凹性
+
+root整读F1–13，并与joint核F2准确H交叉抵消、F3环境I范数、F7对偶/Young、F9a顶点主系数对称投影及F11 shorted变分凹性。F13两处operatorname纯排版修正，不改数学。完整原轴nominal/error球授四顶点矩形，不裁负q、不把粗display当输入；actual λ与紧致尾未有时Cmov仅条件式。0新科学/旧target重算，根mean/H/fullspace及原96/97域全保；H长段转为此前实际head的完整不可变H索引。

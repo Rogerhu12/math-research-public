@@ -171,11 +171,11 @@ R138的[几何桥](results/R138-residual-sensitive-Codazzi-frame-and-geometric-J
 
 [真实root全角型](results/R138-supplement-complete-root-angular-form-and-two-scalar-geometry.md)保low even96=0、97起high stable、独立mean与H；高频主符号正不授finite正性或mean消元。[轴首次合同](notes/2026-11-20-R138-root-axis-support-contract.md)11当前/10原件保全4650闭行和原接口，[44730968113/1实际包围](results/R138-supplement-actual-same-anchor-root-axis-support.md)已整审冻结，全4650行/3594接口，完整nominal/error给−.356<q<−.006、.970<s<1.320；后继读回完整三球而非只读q sign flag。完整全角型、分母、finite+tail、体残差吸收及实际全逆继续待付。
 
-[R138体能量/根迹](results/R138-supplement-Volterra-Grushin-energy-and-root-defect-trace.md)已付同真DF弱核能量、K≥x/120及完整Grushin/root H^-1/3迹。[X实际预算](results/R138-supplement-actual-physical-budget-and-false-absorption.md)44737045152/1全4651格已核冻结，实际根Z/P与C1可复用；逐factor的body3门false。[Y精确复合](results/R138-supplement-composed-physical-Hessian-and-smoothing-budget.md)已证，保mean并用I:H^-τ→L²；[Y实际44740320925/1](results/R138-supplement-actual-composed-physical-budget.md)19当前/9原件已核冻结，aEE/aEB/aBB≈66.32/145.46/79.76，body3门仍false；更紧体预算/根型C*仍待；hybrid额外主部差不免。
+[R138体能量/根迹](results/R138-supplement-Volterra-Grushin-energy-and-root-defect-trace.md)已付同真DF弱核能量、K≥x/120及完整Grushin/root H^-1/3迹。[X实际预算](results/R138-supplement-actual-physical-budget-and-false-absorption.md)44737045152/1全4651格已核冻结，实际根Z/P与C1可复用；逐factor的body3门false。[Y精确复合](results/R138-supplement-composed-physical-Hessian-and-smoothing-budget.md)已证，保mean并用I:H^-τ→L²；[Y实际44740320925/1](results/R138-supplement-actual-composed-physical-budget.md)19当前/9原件已核冻结，aEE/aEB/aBB≈66.32/145.46/79.76，body3门仍false；[F根源/凹性](results/R138-supplement-root-source-elimination-and-concave-finite-gate.md)给Cmov与四顶点资格；更紧体预算/实际根型C*待；hybrid额外主部差不免。
 
 [R138实际全角比较](results/R138-supplement-actual-root-angular-comparison-and-mean-readout.md)付同轴完整2π理想角ODE至真实periodic frame/位置的C0费<1.1e−6/4e−5；C0不免费授高导。完整mean的实际离零见下；根finite+tail仍待。
 
-[R138实际全圈mean44733403315](results/R138-supplement-actual-full-circle-root-mean-denominator.md)全8192闭格、11当前/6历史已核冻结，严格17/20<D<87/100、mean逆费<20/17；真实frame费用全计。只消费原定义，不重轴/旧geometry；根finite+tail、体吸收与全逆仍待。
+[mean44733403315](results/R138-supplement-actual-full-circle-root-mean-denominator.md)全8192闭格及真实frame费已核冻结，17/20<D<87/100、逆<20/17；根finite+tail/体吸收/全逆未付，原资格不扩。
 
 [R141 F Bc实际](results/R141-supplement-actual-complete-FBc-raw-comparison.md)44734581045/1冻结3球，raw upper<8828，不是lower或奇异；全五项/true J*保。[真实G_H五源actual](results/R141-supplement-actual-five-GH-source-fees.md)44736533396/1成功冻结5球：两窗centre/full差H1/3四率与ΔBLH raw一率；原L连续whole-kernel资格已核，base0/negative原图不重算。[四响应44740105701/1](results/R141-supplement-actual-four-complete-high-responses.md)16当前/4球已核冻结：H_B<110、H_Z/Hroot<44、outer<.563，只upper。CFB/真实97+96外方块/finiteρ/7ports/两rhs仍待。
 
