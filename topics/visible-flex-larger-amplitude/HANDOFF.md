@@ -4,7 +4,7 @@
 
 ## 规则与来源
 
-最近规则核查：2026-11-20 10:53 UTC，真实pull/rebase至 `d9b9539847a87eacd3dd5448e2e36c169f57be68`，双README相对上次已读无差异。
+最近规则核查：2026-11-20 11:00 UTC，真实pull/rebase至 `a47d2b400f600f0fbf2eaba492a6ab7d136d743e`，双README相对上次已读无差异。
 
 公开仓库内工作；终端git普通push，NFF立即pull/rebase再推，每次检查双README差异，至少每小时pull。原README授权全部必要修改/发布，无需再问；完整证明直接登记，不加冻结/独审/额外验收流程。可重算raw只scratch，Git/Release/artifact不存；只保源、参数、run/SHA及紧凑结论。题≤200MB、单MD<100KB、H<10KB、open<30KB。令牌仅瞬时CLI，不写文件/提交/回复。旧完整责任保[11/20早期交接](https://github.com/Rogerhu12/math-research-public/blob/e6503907bb671290bd2b6e3c4051d98c3958a6d1/topics/visible-flex-larger-amplitude/HANDOFF.md)及open§1–7，不把failed/partial/unreturned互换。
 
@@ -30,7 +30,9 @@ R648原全开放prefix连续Gram<4.94e−7，R651 K≤7.04608，R652加权支持
 
 **当前实际父2038**：[全部Gauss曲率QP六步](notes/2026-11-20-curvature-qp-gauss-six-step-result.md)从e8自然exit0/154.45秒。新目标Jw采用.5原Simpson+.5新Gauss径向正权，原/新增行全部保留；Jw9.30173755→1.3604706615368882，all_raw5114.116→1108.668910、legacy_raw1277.030→276.849373，三种范数不得混减。全7377×513点maxGram .122504569922、K7.935384160596、Dlb4.087221451205、必要产品.973010170942、detmin.9333233、H1.911389351352。父work/geometry_path/curvature-qp-gauss-six-step.npz，SHA `2038ba41e2001036eebe8bc43fccbb54b8d9ccf180f73139420798de278bcaa9`。K最坏新增stage6772/cell821，s1.013469930054/phi.638136007760；半径最大stage7132。仍不接近1e−6。
 
-**正在续：** geometry_path从2038以同carrier/目标/有界点记忆再做12步；fullclosed_solver同父跑完整H²投影方向，新的observed六jet转置CS≤3.69e−14、active16/rank8，实际已入256inner LSMR。一次legacy统计shape错误发生于0方向前，修后initial Jw与QP逐字一致，不混入科学预算。recover_evidence用已有向外算术/严π/FFT/Bernstein核建立完整q+解析lift的连续D/支持/K界，先cell821；按真实αS+β节点及准确core派生端口重建，不把浮点carrier当严格数学输入，不重跑旧prefix。
+**新胞内峰已查**：[任意位置局部读出](notes/2026-11-20-interior-curvature-extremum-readout.md)在2038胞821找到K7.99135769/产品.97987346，仍过已知点.98。同目标续12步3a3父已自然返，Jw.345598/Gram.0547030，但Gauss产品.979353下另有胞内K8.09521096/产品.99365310；仍<1，不冒真实reach失败。新位置必须接入约束/线搜，不能只按Gauss升级父。
+
+**正在续：** geometry_path接任意(u,phi)几何约束与回溯响应阻尼；从3a3恢复时右端可负，零方向不再可行，禁止旧向零缩步修复；失败则回2038。fullclosed_solver同2038跑完整H²投影256inner，observed转置CS≤3.69e−14、active16/rank8；下一方向解耦物理平滑H与−χ补偿。recover_evidence用已有向外算术/Bernstein核建立完整q+解析lift的连续D/支持/K/可选见证距离界，先2038胞821；按真实αS+β节点及准确core派生端口重建，不冒binary载体为严格输入，不重跑旧prefix。
 
 ## 已完成数值及失败，不重复
 
