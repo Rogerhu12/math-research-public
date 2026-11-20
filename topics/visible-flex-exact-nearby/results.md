@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R141 D边界零数学线程恢复](notes/2026-11-20-reference-boundary-lifts-zero-math-thread-recovery.md)：原44742799448/1已保全19准入/0定义/0剖面/0Gram/0球/0数学秒失败；原79pins与全部科学合同不动，82输入v2只补3线程与新marker。root逐件metadata核并重建同清单/入口，原两目标仍未算，首次push新入口；不授任何逆门。
+
 - [R138完整截顶曲率H1/2 Grushin与根费预算](results/R138-supplement-capped-curvature-Hhalf-Grushin-and-root-budget.md)：全整数频率含环境零模，根不加条件，||z||L²H1/2≤(5/2)√Gcap+(3/√2)||z(R)||；辅助Neumann只用于能量正交lift。接Z后仅需读whole X/Y算5新body球，若body门过再求C_allow=detM/(2r^TadjM r)的lower；根r保旧H2/3资格。root/positive独审纯解析通过，实际预算与根C*未付。
 
 - [R138更紧外端提升与截顶曲率能量](results/R138-supplement-sharper-outer-lift-and-capped-curvature-energy.md)：同完整外图的n∈4N两列先合并，环境频组正交并保mean，付ω_R≤(8/5)√B；原曲率证书授K≥min(46x,1/40)。两个能量方向先用Hilbert直和Minkowski，省原√2；给后继body H1/2消费式，根H2/3费用不冒领。root/joint独核、0新数/旧重算，实际body/根门仍待。

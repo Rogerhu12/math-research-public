@@ -163,3 +163,7 @@ root新推Z1–12，joint独核全通过。n∈4N的环境n−1/n/n+1频组不�
 joint给GB1–24，root与positive整篇独核通过：低频薄层亏损+一端Poincare、中/高频短条带覆盖全整数，25/4零外迹平方界；辅助混合BC lift能量正交、step势比较方向与完整cosh积分/F最大值给9/2。全环境零模保留，不对未知方向加根Neumann；与Z8/5外界接新的wE/wB及3系数，根H2/3与Y rE/rB不改。正矩阵Cauchy给有向lower C_allow的半余量，未声称实际根C*已付，0新科学。
 
 D边界首run44742799448/1已保存完整actual/exec失败：19只读准入门成功，缺3个线程env使reference/profiles/Gram/targets/scalars全0、数学0秒；旧/新数学均未完成。按原零前缀保79pins准备独立v2运维恢复，shared worker保持不变。
+
+## 2026-11-20：D边界零数学失败的独立线程恢复
+
+原44742799448/1完整actual51083B/eaeb74c5、exec58697B/7491a9f2与19准入/全部0进度已核；仅缺3线程env，数学0秒。新gen13171B/7e139255从原70121B清单及旧gen AST保79pins/21历史/25门39字段、全部参数和science，追加完整失败2JSON+新gen成82pins。root逐bytes/SHA/blob、operation仅marker差、metadata重建逐字同核；恢复清单72957B/38ff0e8f、workflow1790B/95306551仅换新清单/并发/3env。旧失败与marker保留，共享worker98ef3773不变，首次push剩余原2目标；0旧成功重算，未授数值或逆。

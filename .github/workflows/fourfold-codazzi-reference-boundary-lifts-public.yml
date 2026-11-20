@@ -10,7 +10,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: reference-boundary-lifts-first-v1
+  group: reference-boundary-lifts-thread-recovery-v2
   cancel-in-progress: false
 
 jobs:
@@ -29,7 +29,7 @@ jobs:
             README.md
             topics/visible-flex-exact-nearby/README.md
             topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_collar_volterra_dual_public_worker.py
-            topics/visible-flex-exact-nearby/notes/2026-11-20-reference-boundary-lifts-inputs.json
+            topics/visible-flex-exact-nearby/notes/2026-11-20-reference-boundary-lifts-thread-recovery-inputs.json
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12.14'
@@ -38,5 +38,8 @@ jobs:
       - name: Evaluate complete exact-reference boundary Grams
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          OPENBLAS_NUM_THREADS: '1'
+          OMP_NUM_THREADS: '1'
+          MKL_NUM_THREADS: '1'
         run: |
-          python topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_collar_volterra_dual_public_worker.py --repo "$GITHUB_WORKSPACE" --manifest topics/visible-flex-exact-nearby/notes/2026-11-20-reference-boundary-lifts-inputs.json --manifest-sha 9c4f0afe00aa1a5c1b3adb0f57df15d0773c67b8b163894eb06071b7e08f95f8
+          python topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_collar_volterra_dual_public_worker.py --repo "$GITHUB_WORKSPACE" --manifest topics/visible-flex-exact-nearby/notes/2026-11-20-reference-boundary-lifts-thread-recovery-inputs.json --manifest-sha 38ff0e8f5f3ca03a752a5836ec43baa72a31aefcf29a2d3e4421d0d399323f6d
