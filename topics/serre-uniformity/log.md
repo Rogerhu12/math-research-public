@@ -61,3 +61,7 @@
 ### 2026-11-20 23:21 Asia/Taipei — serre-public-astra-20261120-de0a3e3b
 - R994完整公开回执认证4008个真正新r8/r2点全非零，四新点原三路/完整wp ODE一致，531.337922156s预算与exit0均核；本地仅IO。
 - H逐字归档，current请求完成不重跑；继续R996原端列、R997实际源桥与O2非退化，不以有限窗口收尾。
+
+### 2026-11-20 23:25 Asia/Taipei — serre-public-astra-20261120-de0a3e3b
+- R996原端列完整Gaussian尖点单位233/(p−7)!、同h primitive/Legendre以及一般有限cusp式经root/literature独审；5∤p+1整族V非零已证。
+- H逐字归档，继续5|p+1、actual G关系和R997源桥；尖点非零未当CM标记单位，无新数学执行。

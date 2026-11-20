@@ -4,9 +4,9 @@
 
 证明绝对C使所有无CM E/Q在p>C时模p满射，或给p→∞完整反例族。**主目标OPEN，尚未达README标准。**
 
-**维护会话：serre-public-astra-20261120-de0a3e3b。** 已部分克隆并真实pull main，接手serre-public-astra-20261115。压缩前逐字状态在[最新H归档](handoff-archive-2026-11-20-before-combined-window-receipt.md)，沿链保全部旧source/SHA/尺度/失败边界，不重做已登记结论。
+**维护会话：serre-public-astra-20261120-de0a3e3b。** 已部分克隆并真实pull main，接手serre-public-astra-20261115。压缩前逐字状态在[最新H归档](handoff-archive-2026-11-20-before-end-column-cusp-unit.md)，沿链保全部旧source/SHA/尺度/失败边界，不重做已登记结论。
 
-**已读规则提交：d4713f8c9e0c7a81e4882307a6ba7c15bf30ffc7**（2026-11-20T15:24:44.471873+00:00；终端真实git pull --rebase origin main，两README无diff）
+**已读规则提交：9596c6740dc99e1a971e6e4f9173b289e6f93339**（2026-11-20T15:25:23.613298+00:00；终端真实git pull --rebase origin main，两README无diff）
 
 两README完整已读，SHA256 root 581402c2 / topic 35f82f3d。每结论立即推；每push前且至少每小时真实pull；每pull检查两README，有变只读diff立刻照办并记已读SHA。NFF/lock-ref竞态立即pull --rebase再推直到成功，禁force。PAT只CLI，不入文件/提交；root独占main/H/open/index/log。
 
@@ -18,9 +18,11 @@ p=6N+5，h=6i+7，i+j=N−1，须同h使原primitive/Legendre mask下P_(h−1)(1
 
 R969三点actual span核已过；R971严格排全p full-span，未排特定A/E4包含。R945中央零与完整S单位并存，完整trace不推同h；R734原primitive Legendre单位已成不能独完O1。
 
-[R992](results/R992-original-full-level-Jacobi-operator-and-filtered-stability-criterion.md)：在整个原M_(p−5)、F=Y^NP(z),z=X³/Y²上，真实Serre D给 **G(F)=[D²(XF)+X²F/144]/[X²(1−z)]**，全表观分母消去。诱导L=z(1−z)∂²+(4/3−7z/3)∂−55/144，Jacobi B_d有互异λd=−(d+5/12)(d+11/12)、mark1；kerG正是Tate A/E4，标量B_k(1)^−1。**原filtered V≠0且G(V)⊂V⇒同h三因子非零**，两假设均尚未一般证明。旧R969p227 central i18为pivot（组合13）、全局非零但mark0，严格排逐列本征；三个旧满秩点的G稳定无需重算。原E+帧G(F)(0,864)=(25F−D³F)(0,864)/144；下一步是actual heat/kernel作用，不能从算子与mask交换冒稳定。
+[R992](results/R992-original-full-level-Jacobi-operator-and-filtered-stability-criterion.md)：全M_(p−5)上真实G(F)=[D²(XF)+X²F/144]/[X²(1−z)]无表观分母；Jacobi简单谱/各mark1、kernel=Tate A/E4。**原filtered V非零且G稳定⇒同h三因子非零**；不需满秩。旧p227中央pivot非零global/零mark已排逐列本征；旧三个满秩点不重算。E+标记(25F−D³F)/144，全部谱/尺度/条件保最新H归档及结果。
 
-[R995](results/R995-original-mixed-source-for-the-first-coarse-CM-normal-jet.md)：原E−/Y−864、K=G⊗H+6F⊗Y_s、∇=∂−6ζ下，Π4DJ=Π4D²J=0使完整D³(∇²J)的两个中间Leibniz块真消；实际三支为G‴/216⊗𝒜+12uF′⊗(3𝑀−12G)+F⊗(12𝑀−144G+6ℛ)。复用旧MH3–4热式，全部P1/P2/P3与216P1P2保留，𝒜=∇²H‴，ζ修正不消G‴支。Ψ_ij首项=(a+1)(a+2)(a+3)g_(i+1)𝒜_j/216；原G(Z)mark=(25Z+Ψ)/144，E−正号/原mask/尺度不换。两个实际Taylor阶≤p−4,p−5、ζ权≤p−2，均整。root/literature逐式独审；新项尚无原retained关系，不冒G稳定或同h。
+[R995](results/R995-original-mixed-source-for-the-first-coarse-CM-normal-jet.md)：复用旧MH热式，原Π4D³(∇²J)完整三支G‴/216、12uF′、F及全部ζ修正已核；原E−标记(25Z+Ψ)/144保正号/mask，两个Taylor阶≤p−4,p−5、ζ权≤p−2均整。新partner ∇²H‴不是旧g；所有式/尺度见结果与最新H归档，尚无原retained关系，不冒稳定。
+
+[R996](results/R996-original-end-column-cusp-unit-and-filtered-space-nonzero.md)：原末列Z_(p−7,1)=12T_(p−7,3)的完整norm-one Gaussian给尖点常数233/(p−7)!；p233为8mod9，原允许类排除，故此列全p全局非零。原h=p−4的primitive iff5∤p+1、Legendre=P4(1/s)=19/9单位，故 **5∤p+1整族的原filtered V≠0已证**。5|p+1时此列被删；CM mark/实际G稳定仍开。一般cusp完整式a!CT Z_ab=[v^b](∂−6ζ0)²Π3(e^v(1−v/2)^(-b−6))保全Gaussian/ζ，首p整界和单Bernoulli简式已核，不假其为原Legendre。
 
 ## O2：原完整trace及高坐标单位
 
@@ -52,7 +54,7 @@ R991已完整认证R989旧r8差集349点（1000..20000），原三路/全hash见
 
 [R994](results/R994-certified-original-combined-windows-through-200000.md)：R993公开run44760218207/job136370438703/source248592d7fabd01b1b8c548237400767e9ecec001已成功，531.337922156s且final预算真/exit0。新r8的20000..200000共2622点（20021..199877），新r2的100000..200000共1386点（100019..199967），总4008全非零/无尾段；各行首两点20021/20117/100019/100103原三路一致、完整wp ODE及全部首resonance核过。root纯IO逐块重组8段contract/7段summary，核全部sources/列表/rows/flags；payload2865567B SHA e764dff838bb24b18c8fec7f7634c2044f403e59e23a349cc00d0554c000dc8d。R988给这两个有限集原S单位，不推全p/同h/height；current R993 request完成，禁止重触发。method c1913358/script2e60046f及全部pins在回执，无raw artifact。
 
-继续R995实际filtered关系；R996在审原端列尖点非零（5∤p+1整族），R997在写原J与UH36完整源桥，O2实际残数/period defect的非退化仍开。下一理论空号R998。主目标OPEN。
+继续R995实际filtered关系；R996已证5∤p+1整族原V非零，继续5|p+1与actual G作用；R997在写原J与UH36完整源桥，O2实际残数/period defect的非退化仍开。下一理论空号R998。主目标OPEN。
 
 ## 继承任务与永久边界
 
