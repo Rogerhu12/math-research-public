@@ -1,12 +1,12 @@
 # 交接：可见振幅的精确闭等距族
 
-维护会话：`visible-exact-astra-ac637-20261120`；更新：2026-11-20 10:44:56 UTC。
+维护会话：`visible-exact-astra-ac637-20261120`；更新：2026-11-20 10:49:37 UTC。
 **总任务未完成；继续研究，不等用户回复。**
 
 ## 规则读点与接续来源
 
 部分克隆：`/workspace/scratch/ac637cfcc78d/math-research-public`。终端 git 已恢复，无 AGENTS。
-2026-11-20 10:44:56 UTC 实际pull/rebase至 `b8bcbb76dbee3b66c24e0be8c368f8d493816193`；已读规则提交同上，两README相对96edc6770空diff。每次pull后核规则差异；下次实际pull最迟11:44:56 UTC。
+2026-11-20 10:49:37 UTC 实际pull/rebase至 `7242de8640aa3d1b7782c72a1d086a0abd7ddf15`；已读规则提交同上，两README相对96edc6770空diff。每次pull后核规则差异；下次实际pull最迟11:49:37 UTC。
 
 接手前完整 H（含全部递归原页、成功/失败/恢复身份和未付义务）见 [2026-11-16 完整检查点](https://github.com/Rogerhu12/math-research-public/blob/882aa9b74efeaac682df43c197820e7280156357/topics/visible-flex-exact-nearby/HANDOFF.md)。本页只压缩索引；`open.md` 及所链接的原证明、适用域、均值、物理角、所有边界和误差费用继续有效。旧成功结论不重算。
 
@@ -25,11 +25,11 @@ geometry `43584188751/26` **仅条件性**：同η0真 wholecore（含帽）C0�
 
 ## 本会话新增结论
 
-[R135](results/R135-no-harmonic-interpolation-of-disjoint-sign-bendings.md)（已证明）：固定浸入中心 X，增量一直位于同一线性无穷小弯曲核的连续等距路径只有平移；点态旋转向量到二次Gram的纤维至多4点。故不交支集符号族及双场圆周插值不能直接替代真正非线性闭合。此为限定方案的排除，不是本题完成，也不排一般弯曲。
+[R135](results/R135-no-harmonic-interpolation-of-disjoint-sign-bendings.md)：固定浸入中心的同一线性弯曲核内，连续等距路径只有平移（Gram纤维≤4点）；仅排符号/圆周插值，不排一般非线性弯曲。
 
 [R136](results/R136-stable-complete-joint-centre-columns.md)（已证明）：完整WJK核改用固定128/256宽度源列与稳定Green作用；保全五collar项、两三角、193 atoms和同点signed合并，原图1–3/真无限tail不变。源码已合入并AST通过，未运行新科学数值。
 
-[R139](results/R139-necessary-budget-for-fixed-W2C-comparison.md)已证G(K)≥109/120+(963/80)(K+ε)，L≥1/128排既定充分界配方。[均值atom补篇](results/R139-supplement-mean-atom-lower-budget-for-fixed-comparison.md)给L²≥(Σh a)maxa，可用3个独立lower证书检验≥1/16384；原50条仍0，不推奇异。新70输入清单/独立owner已封包，本提交触发Actions，实际判定待。
+[R139](results/R139-necessary-budget-for-fixed-W2C-comparison.md)已证G(K)≥109/120+(963/80)(K+ε)，L≥1/128排既定配方。[实际atom必要门](results/R139-supplement-actual-mean-atom-floor-not-excluding-fixed-recipe.md)44721682192/1成功3lower，P≈5.27012349e−10未达1/16384，未排除也未通过。3条冻结，原50条及原L三量仍0；继续未成L，不能重算atom成功。
 
 [R137](results/R137-continuous-signed-centre-and-exact-endpoint-system.md)（已证明）：完整连续WJK中心I−Hc可逆等价于1217态/609端点矩阵非奇异，证明无aux-only核及Fredholm闭合；原finite投影/ρ/lift缺陷明确另付。当前只备193低态/97端点浮点诊断，未给非奇异或全逆证书。
 
@@ -58,9 +58,9 @@ geometry `43584188751/26` **仅条件性**：同η0真 wholecore（含帽）C0�
 当前模块：owner `fourfold_codazzi_collar_volterra_dual_candidate.py`；完整输入恢复/执行为同前缀 `public_worker.py`；reader 为 `readonly.py`、`readonly_core.py`；math 为 `true_collar_signed_packet_math.py`、`signed_semiseparable_kernel_math.py`、`collar_dual_feedback_math.py`、`W2C_signed_reference_math.py`（都在 scripts/）。完整 native 数据与29整球仅恢复旧字节，不调用旧 producer。
 
 1. `joint_kernel` 的R136 graph4已合；[正pivot/endpoint hull](results/R139-supplement-positive-reference-pivot-and-endpoint-hull.md)修复SHAe57e0953仅AST，0新scalar。转先用mean atom直接检验固定L预算，原50条仍0；并行R140分开192/mean1费用，保全源权。
-2. `positive_inverse` 的低193/97 scaled续算已合入（65输入/SHA44af8273），本提交触发；原138panel定义hash/0传播失败全保，完整155panel计划先保存、步∞4/总8192不放宽。R141真根双侧Green认证在写，CFB/mean/实际family仍付。
+2. `positive_inverse` 的低193/97 scaled续算44721851908/1运行中（65输入/SHA44af8273）；原138panel定义hash/0传播失败全保，完整155panel计划先保存、步∞4/总8192不放宽。R141真根双侧Green认证在写，CFB/mean/实际family仍付。
 3. `global_route` 已完成R138几何桥/旋转能量及actual support，接着核outer真实graph的端点型和mean初始角缺陷；R135/R520不替验收。
-4. root维护git与记录；v2的L44719196440/1仍0scalar、正pivot球下端失败（零长度已过）；endpoint44719196304/1完整输入后计划第139panel超单panel256预算，0传播/0SV。已保存两失败；下一步用mean atom直接必要门并改完整scaled endpoint计划，原50条仍0。代理不动git。
+4. root维护git与记录；L44719196440/1为0scalar正pivot失败，endpoint44719196304/1为第139panel超256步、0传播/0SV，两失败完整保。atom必要门已完成未排除；接续原L三量并等待scaled endpoint，原50条仍0。代理不动git。
 
 ## 正侧以外仍未付的接口
 

@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R139实际mean atom结果](results/R139-supplement-actual-mean-atom-floor-not-excluding-fixed-recipe.md)：44721682192/1完整27门/3个独立lower记录成功，P_lower≈5.27012349e−10未达1/16384，故未证明排除原配方；不表示原门通过。70当前/21原件/25AST与原scope全核，原50条及原L三量仍0；这3条冻结，不重算。
+
 - [R139均值atom必要门](results/R139-supplement-mean-atom-lower-budget-for-fixed-comparison.md)：原完整193观测比较含b_k≥1，故所选L²≥(Σh_k a_k)maxa_k；乘积的下界≥1/16384即排旧配方。独立3个lower证书程序已封包，不求whole-box Green，不计原50条中的任何一条，不推真实奇异；实际数值待Actions。
 
 - [R139正pivot与endpoint hull补篇](results/R139-supplement-positive-reference-pivot-and-endpoint-hull.md)：同一指数的完整凸组合给严格正分母下界，自治Riccati解的单调性给全panel端点凸包；两者仅与原球相交，保全部严格正检查。修复已合源、仅AST，44719196440/1零scalar失败不改。
