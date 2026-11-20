@@ -6,7 +6,7 @@
 
 连通闭C²嵌入连续族；固定有内点H、diamH≥.2D；整像δhold≥.1D、含反射的δE>0；全时reach≥.03D。固定全部g/物理参数/时间范围，完整metric≤1e−6且空间/频率/时间精化下降至求解/机器地板。条件比例窗、开放前缀、有限接受均非完成；完成后继续增大比例。
 
-- 工作树 `/workspace/scratch/1b6d88ecddf3/math-research-public`；已部分克隆并真实pull。已读规则提交：`e322d609cf9df9dde31cf51b31ecbcb132bdb69d`；API差异核对双README无变化。最后真实pull为09:48 UTC到c9db159ff；本次API比较不冒充pull。环境恢复后先pull，随后至少每小时核规则。
+- 工作树 `/workspace/scratch/1b6d88ecddf3/math-research-public`；已部分克隆并真实pull。已读规则提交：`1b15600b4b170c8bcbe6d2abef8c9b2a54118adc`；API差异核对双README无变化。最后真实pull为09:48 UTC到c9db159ff；本次API比较不冒充pull。环境恢复后先pull，随后至少每小时核规则。
 - root独占终端git发布。每条结论同步H/log并立即push；NFF即pull --rebase、核双README并重推，禁force。首次接手提交d75355cbd已推。
 - 根§12：不重复旧身份审计/双审流程，优先实际求解。根§15：可再生场、网格、矩阵/输出不入Git/Release/CI；只留源/参数/命令/hash和紧凑数值。H<10KB，单MD<100KB，目录<200MB，不写根LOG。
 - `/workspace/scratch/7322d0dee069`明确不存在。旧91205(λ.82)/27744(M24)终态未知；新再生不是原进程续接，也不把丢失路径判为数学失败。完整旧断点见882aa9b74的H及[中断记录](notes/2026-11-18-execution-environment-interruption-recovery.md)。
@@ -48,7 +48,7 @@
 - R36/37/39/41是真积分与余项转移；R39的误差<5.940838571e−9仅在同对象有限主部过门时用，不偷移到新核心。
 - R52材料曲率新核：周长2π、凸闭合、精确圆弧/全参数jets；c>1/k−π/(n sinπ/n)。条件D≤2.65时n3(k=.2,S=.21)held>.1039D，n4(k=.2,S=.2)>.1172D。插柱D²≤D0²+4ℓZ0+ℓ²、支撑扣ℓ/2，首负K特征窗有有理界。完整BVP/固定g/标记仍缺，见[新核有限谱与窗](notes/2026-11-20-material-curvature-core-design-and-spectrum.md)。
 
-- R53从原真实单位弧长核心出发，κλ=κ0+λχ(k−κ0)+λβW精确保均值/闭合；λ0原核、λ1圆弧，完整参数jets已证。明确q∈[.0599,.0601]控制盒内整个(λ,τ)方形κ≥.2。有限源待实际执行；不证BVP沿路径可解、不消除R20障碍。
+- R53从原真实单位弧长核心出发，κλ=κ0+λχ(k−κ0)+λβW精确保均值/闭合；λ0原核、λ1圆弧，完整参数jets已证。明确q∈[.0599,.0601]控制盒内整个(λ,τ)方形κ≥.2。support与真实旧raw的独立provider源均已保存、待实际执行；不证BVP沿路径可解、不消除R20障碍。
 
 ## 接着做
 
