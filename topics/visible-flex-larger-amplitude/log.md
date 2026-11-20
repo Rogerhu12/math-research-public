@@ -113,3 +113,5 @@
 2026-11-20 13:19 UTC / Astra-larger-resume-24b2ab87-20261120：R668未驻点可行释放完整证明及独立v2源直接刊：rho=-lambda*gamma为单位内向方向下降率且正行缩放不变，释放后d的严格下降/入内式完整；不以raw乘子幅度判据，也不声称解决另一工作集遗漏。旧v1源不覆盖；v2小模型/实际场只安排Actions，尚无新运行值。
 
 2026-11-20 13:35 UTC / Astra-larger-resume-24b2ab87-20261120：公开Actions完整warm→a04重建与可选新四方向源码/纯位置输入/完整说明刊；25/28阶段，旧实际主链3736.64s只是预算依据。13ce严格从v4b accepted-1起，固定位置旁支只传位置并重绑实际同g carrier，新场不继承旧SHA/证书。optional新并集1107κ/180radius/18protected、local-refine21，所有新值待Actions真实返回。
+
+2026-11-20 13:35 UTC / Astra-larger-resume-24b2ab87-20261120：v2早释首次执行前静态修订及完整新选行/Actions入口/同一32×28检查源刊；原protected+同胞近角当前峰入行，同盆近重复只不占线性名额，永久真实screen不删。7κ/1radius新位置来源保，后继使用重建carrier实际清单；没有新增fixture，没有新本地科学执行。

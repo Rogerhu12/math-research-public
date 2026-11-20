@@ -1,0 +1,77 @@
+{
+  "schema": "immutable-complete-QP-new-locations-only-v1",
+  "carrier_sha256": "71fdec7b9b471cc7e202a859e6907de256f8117f252798baaad794ccab918112",
+  "bundle_sha256": "da08825437612ebbaba58f84d84d5118bf322b43bc6c9d05820fbfa052c25284",
+  "sources": [
+    {
+      "path": "work/fullclosed_solver/gauss-spectral-inequality-35f-first/report.json",
+      "sha256": "553a6a1223c6b1dd49b65a035a81bed3a5f5804c3247e5657bb6fe33b0a0c1b8"
+    },
+    {
+      "path": "work/fullclosed_solver/inequality-35f-final-a04-and-local.json",
+      "sha256": "9904a1c5d036f2dbb7aee9a410ebf92515a132bfb7cf5d7630b5aad9491f65a6"
+    }
+  ],
+  "curvature_points": [
+    [
+      113,
+      0.16939530676686776,
+      0.11351457830353745
+    ],
+    [
+      230,
+      0.8306046932331322,
+      0.6350680461846554
+    ],
+    [
+      821,
+      0.5581579496809472,
+      0.016478460891918352
+    ],
+    [
+      821,
+      0.13187279340493013,
+      0.43591228643395774
+    ],
+    [
+      230,
+      0.8908955383672883,
+      0.6351251489366238
+    ],
+    [
+      113,
+      0.20388289776549648,
+      0.11306019144366328
+    ],
+    [
+      821,
+      0.557082202638,
+      0.01647875344
+    ]
+  ],
+  "radius_points": [
+    [
+      881,
+      0.0,
+      0.41901618741906266
+    ]
+  ],
+  "protected_curvature_points": [
+    [
+      821,
+      0.557082202638,
+      0.01647875344
+    ],
+    [
+      113,
+      0.16939530676686776,
+      0.11351457830353745
+    ],
+    [
+      230,
+      0.8306046932331322,
+      0.6350680461846554
+    ]
+  ],
+  "scope": "Only already-paid actual point coordinates; no inherited curvature/radius values. Includes the permanent point that rejected full/half steps even though it was absent from linear rows. Future numerical reads only in public Actions."
+}

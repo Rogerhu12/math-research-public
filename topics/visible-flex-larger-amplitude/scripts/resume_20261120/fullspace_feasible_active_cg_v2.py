@@ -284,7 +284,12 @@ def solve(operator, residual, row_matrix, bounds, *, damping,
                 del literal_row, unit_direction, inverse
                 # All remaining inactive inequalities still pass the literal
                 # maximum-feasible-step test; no extrapolated feasibility claim.
-                continue
+                # Use this released-face descent direction for that line test
+                # immediately, before considering another early release at the
+                # same advance count.
+                projected_gradient = -direction
+                pg2 = float(projected_gradient @ projected_gradient)
+                pg_norm = np.sqrt(pg2)
         if pg_norm <= gradient_tolerance:
             if not face.indices or not release_values:
                 status = 'numerical_kkt_tolerance'

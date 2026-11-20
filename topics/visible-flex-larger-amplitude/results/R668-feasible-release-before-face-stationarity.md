@@ -99,10 +99,12 @@ $$
 
 ## 完整实现及尚未执行的范围
 
-独立修正版 `scripts/resume_20261120/fullspace_feasible_active_cg_v2.py`，20195字节，SHA256 `7a241c6fcce7f4f232ecf8bcecf3bccb1d0b923d881b1b8ce7ef188b1ac6665d`。旧实际运行源保留原路径/原字节。
+独立修正版 `scripts/resume_20261120/fullspace_feasible_active_cg_v2.py`，20521字节，SHA256 `c131b45649e87be2e7f71088d817edb6402a74a4cb50a6b13018e252217f88f7`。旧实际运行源保留原路径/原字节。
 
 新源在每8次前进、换面或面内达到阈值时考虑释放；要求单位方向下降率超过 `max(gradient_tolerance, .1*projected_gradient_norm)`。释放的符号仍按原完整行/梯度直接读出，全部未选活动行仍接受原最大可行步长截断。最终所有primal、乘子、互补性和投影残差照旧报告；微小单位释放方向但仍有raw负乘子时使用不同终止标签，不冒准确KKT。
 
 本条完整精确代数证明已经成立；修正版代码尚未进行科学执行，其实际小模型与全场效果留待公开Actions真实返回。固定种子小模型的新执行可使用已刊 `check_feasible_active_cg.py --source fullspace_feasible_active_cg_v2.py --out NEW_SCRATCH_JSON`，必须用新输出路径；不能把旧v1的检查值冒作v2返回。该旧检查器的released_rows字段只计旧事件名，v2的提前释放数量应读新源transitions的新事件名，不据旧字段零值断言未释放。
 
 公开源码路径均对应实际执行的同SHA字节；临时数组沿原输入链再生。纯位置输入若替代原诊断清单，计算语义保持，文件路径与输入清单SHA不冒称原raw报告逐字相同。
+
+2026-11-20、首次科学执行前的静态修订：释放一行后立即使用该已检查方向作literal最大可行步长测试，避免在同一advance计数上先连续释放其它行；证明不变。初版未执行字节保留在提交4dc63ac9d91df7f149baf7893c1381df2f113333。新增实际峰选行与Actions入口见[完整准备](../notes/2026-11-20-early-release-diverse-qp-actions-entry.md)；新的同一32×28检查器已修正事件计数，仍未科学执行。
