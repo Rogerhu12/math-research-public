@@ -23,6 +23,179 @@
           "projected_gradient": "cases.0.qp.final_face_projected_gradient_norm"
         }
       }
+    },
+    {
+      "id": "continue-exact-endpoint-01",
+      "script": "topics/visible-flex-larger-amplitude/scripts/resume_20261120/actions_closed_postprocess.py",
+      "parent_bundle": "geometry_path/curvature-qp-spectral-hessian-r22-union-next-four.npz",
+      "args": [
+        "endpoint",
+        "--repo",
+        "{repo}",
+        "--work",
+        "{work}",
+        "--bundle",
+        "{work}/geometry_path/curvature-qp-spectral-hessian-r22-union-next-four.npz",
+        "--carrier",
+        "{work}/recover_evidence/gauss6-current-three/same-scalar-gauss-observations.npz",
+        "--manifest",
+        "{work}/geometry_path/curvature-qp-spectral-hessian-r22-union-next-four-witnesses.json",
+        "--out",
+        "{work}/postprocess/continue-endpoint-height.json"
+      ],
+      "outputs": [
+        "postprocess/continue-endpoint-height.json"
+      ],
+      "scope": "One exact symbolic final-cell coefficient read on the actual new continuation; no field scan or inherited certificate",
+      "summary": {
+        "postprocess/continue-endpoint-height.json": {
+          "b3_zero": "coefficients.0.all_coefficients_zero",
+          "b4_zero": "coefficients.1.all_coefficients_zero",
+          "b3_height_term_bound_exact": "coefficients.0.whole_cell_height_term_upper_exact",
+          "b3_velocity_term_bound_exact": "coefficients.0.whole_cell_velocity_term_upper_exact",
+          "b4_velocity_term_bound_exact": "coefficients.1.whole_cell_velocity_term_upper_exact",
+          "b5_velocity_term_bound_exact": "coefficients.2.whole_cell_velocity_term_upper_exact",
+          "true_symbolic_width": "last_cell_width_exact",
+          "seconds": "seconds"
+        }
+      }
+    },
+    {
+      "id": "continue-analytic-tail-diagnostic-01",
+      "script": "topics/visible-flex-larger-amplitude/scripts/resume_20261120/actions_closed_postprocess.py",
+      "parent_bundle": "geometry_path/curvature-qp-spectral-hessian-r22-union-next-four.npz",
+      "args": [
+        "tail",
+        "--repo",
+        "{repo}",
+        "--work",
+        "{work}",
+        "--bundle",
+        "{work}/geometry_path/curvature-qp-spectral-hessian-r22-union-next-four.npz",
+        "--carrier",
+        "{work}/recover_evidence/gauss6-current-three/same-scalar-gauss-observations.npz",
+        "--manifest",
+        "{work}/geometry_path/curvature-qp-spectral-hessian-r22-union-next-four-witnesses.json",
+        "--angles",
+        "2048",
+        "--stage-block",
+        "64",
+        "--line-trials",
+        "8",
+        "--out",
+        "{work}/postprocess/continue-exact-analytic-tail.json"
+      ],
+      "outputs": [
+        "postprocess/continue-exact-analytic-tail.json"
+      ],
+      "scope": "Same original g, full analytic C2 blend only; all original rows and permanent arbitrary points reread; no fake quintic output member or continuous certificate",
+      "summary": {
+        "postprocess/continue-exact-analytic-tail.json": {
+          "promising_finite_diagnostic": "promising_finite_diagnostic",
+          "best_eligible_step": "best_eligible_step",
+          "changed_tail_observation_rows": "changed_tail_observation_rows",
+          "largest_a_carrier_disagreement": "largest_original_a_carrier_disagreement",
+          "seconds": "seconds",
+          "trial_0_step": "trials.0.step",
+          "trial_0_spectral_phi": "trials.0.spectral_phi",
+          "trial_0_max_relative_gram": "trials.0.max_relative_gram",
+          "trial_0_weighted_gram_sse": "trials.0.weighted_gram_sse",
+          "trial_0_necessary_reach_product_at_all_read_points": "trials.0.necessary_reach_product_at_all_read_points",
+          "trial_1_step": "trials.1.step",
+          "trial_1_spectral_phi": "trials.1.spectral_phi",
+          "trial_1_max_relative_gram": "trials.1.max_relative_gram",
+          "trial_1_weighted_gram_sse": "trials.1.weighted_gram_sse",
+          "trial_1_necessary_reach_product_at_all_read_points": "trials.1.necessary_reach_product_at_all_read_points",
+          "trial_2_step": "trials.2.step",
+          "trial_2_spectral_phi": "trials.2.spectral_phi",
+          "trial_2_max_relative_gram": "trials.2.max_relative_gram",
+          "trial_2_weighted_gram_sse": "trials.2.weighted_gram_sse",
+          "trial_2_necessary_reach_product_at_all_read_points": "trials.2.necessary_reach_product_at_all_read_points",
+          "trial_3_step": "trials.3.step",
+          "trial_3_spectral_phi": "trials.3.spectral_phi",
+          "trial_3_max_relative_gram": "trials.3.max_relative_gram",
+          "trial_3_weighted_gram_sse": "trials.3.weighted_gram_sse",
+          "trial_3_necessary_reach_product_at_all_read_points": "trials.3.necessary_reach_product_at_all_read_points",
+          "trial_4_step": "trials.4.step",
+          "trial_4_spectral_phi": "trials.4.spectral_phi",
+          "trial_4_max_relative_gram": "trials.4.max_relative_gram",
+          "trial_4_weighted_gram_sse": "trials.4.weighted_gram_sse",
+          "trial_4_necessary_reach_product_at_all_read_points": "trials.4.necessary_reach_product_at_all_read_points",
+          "trial_5_step": "trials.5.step",
+          "trial_5_spectral_phi": "trials.5.spectral_phi",
+          "trial_5_max_relative_gram": "trials.5.max_relative_gram",
+          "trial_5_weighted_gram_sse": "trials.5.weighted_gram_sse",
+          "trial_5_necessary_reach_product_at_all_read_points": "trials.5.necessary_reach_product_at_all_read_points",
+          "trial_6_step": "trials.6.step",
+          "trial_6_spectral_phi": "trials.6.spectral_phi",
+          "trial_6_max_relative_gram": "trials.6.max_relative_gram",
+          "trial_6_weighted_gram_sse": "trials.6.weighted_gram_sse",
+          "trial_6_necessary_reach_product_at_all_read_points": "trials.6.necessary_reach_product_at_all_read_points",
+          "trial_7_step": "trials.7.step",
+          "trial_7_spectral_phi": "trials.7.spectral_phi",
+          "trial_7_max_relative_gram": "trials.7.max_relative_gram",
+          "trial_7_weighted_gram_sse": "trials.7.weighted_gram_sse",
+          "trial_7_necessary_reach_product_at_all_read_points": "trials.7.necessary_reach_product_at_all_read_points",
+          "trial_8_step": "trials.8.step",
+          "trial_8_spectral_phi": "trials.8.spectral_phi",
+          "trial_8_max_relative_gram": "trials.8.max_relative_gram",
+          "trial_8_weighted_gram_sse": "trials.8.weighted_gram_sse",
+          "trial_8_necessary_reach_product_at_all_read_points": "trials.8.necessary_reach_product_at_all_read_points"
+        }
+      }
+    },
+    {
+      "id": "continue-direct-complete-first-geometry-01",
+      "script": "topics/visible-flex-larger-amplitude/scripts/resume_20261120/actions_closed_postprocess.py",
+      "parent_bundle": "geometry_path/curvature-qp-spectral-hessian-r22-union-next-four.npz",
+      "args": [
+        "direct",
+        "--repo",
+        "{repo}",
+        "--work",
+        "{work}",
+        "--bundle",
+        "{work}/geometry_path/curvature-qp-spectral-hessian-r22-union-next-four.npz",
+        "--carrier",
+        "{work}/recover_evidence/gauss6-current-three/same-scalar-gauss-observations.npz",
+        "--manifest",
+        "{work}/geometry_path/curvature-qp-spectral-hessian-r22-union-next-four-witnesses.json",
+        "--plan",
+        "256:1,512:2,1024:4,2048:8",
+        "--low-modes",
+        "24",
+        "--taylor-degree",
+        "8",
+        "--beta",
+        "1/4",
+        "--target-support",
+        ".14",
+        "--cells",
+        "all",
+        "--out",
+        "{work}/postprocess/continue-direct-first-geometry.json"
+      ],
+      "outputs": [
+        "postprocess/continue-direct-first-geometry.json",
+        "postprocess/continue-direct-first-geometry-nonplanar.json"
+      ],
+      "scope": "Full exact same-g q plus complete analytic lift; all 922 cells/all angles/caps/mirrors, own D/held and nonplanar application, no old field certificate inheritance",
+      "summary": {
+        "postprocess/continue-direct-first-geometry.json": {
+          "embedding_certified": "embedding_certified",
+          "target_support_paid": "target_support_paid",
+          "complete_scope": "complete_scope",
+          "covered_support_lower": "covered_support_lower",
+          "covered_minimum_normal_squared_lower": "covered_minimum_normal_squared_lower",
+          "continuous_diameter_upper": "continuous_diameter_upper",
+          "continuous_fixed_witness_distance_lower": "continuous_fixed_witness_distance_lower",
+          "conditional_four_marker_held_ratio_lower": "conditional_four_marker_held_ratio_lower",
+          "conditional_four_marker_grip_ratio_lower": "conditional_four_marker_grip_ratio_lower",
+          "marker_support_lower": "marker_support_lower",
+          "four_fixed_markers_pay_positive_Euclidean_shape_distance": "four_fixed_markers_pay_positive_Euclidean_shape_distance",
+          "seconds": "seconds"
+        }
+      }
     }
   ]
 }
