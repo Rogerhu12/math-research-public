@@ -14,6 +14,8 @@
 
 - **R935（已证明）**：[固定权10/34原本原Legendre双标签](results/R935-bounded-weight10-34-primitive-Legendre-pair.md)。h8/h32均始终本原，固定递推整数a11不被p整除时两个原因子不同时零；充分p>10^22。给原权34完整六维整空间，不预设其T5核或低Q′非零，不等于原critical product/height。SHA256 428fe14dc1be5c6d6ed5cf11bcad4ab462f76098139194b26f1edc63ba47d3bb。
 
+- **R936（已证明的全SS显式迹公式）**：[原完整超奇异配对的多项式迹](results/R936-explicit-polynomial-trace-of-the-whole-supersingular-pairing.md)。在Fp²[t]/(tH_N)维N+1中得S^p=12c_r²Tr((3−2e0)R)，保t0项、全部SS/椭圆零项、原相位与未知d1/cF。实际伴随P_J由完整三角整基确定；未证trace非零或与高层Q′相等。SHA256 1155086d9fb076fa52c38734f15c67265b07c11f95791bd09ec0331d36eb5e21。
+
 ## 当前原高度、函数与同标签接口
 
 - **R808（已证明）**：[原cuspidal Gram商与真实period/split/Howe链](results/R808-original-cuspidal-Gram-quotient-and-Howe-chain.md)。R727全部群元素的整Gram把原轨道格非退化约化商准确识别为Sym^(2r)det^(−r)，r=min(h−1,p−h)；原e0、Frob-Hermitian、Tζ平均像和N_h同时运输。位置Cartan与链内SL2严格区分，链中心规范与Hasse连接准确匹配；实际sigma原单项式仍经Kraw混合，同h配对非零未得。 SHA256 c24889c8d8407447dc38e14b583d002c289697b1b75376af7ea5348c4f6a03db。

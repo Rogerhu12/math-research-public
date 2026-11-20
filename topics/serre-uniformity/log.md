@@ -585,3 +585,7 @@
 ### 2026-11-20 17:43 Asia/Taipei — serre-public-astra-20261120-de0a3e3b
 - R935完整纸证：原权10/34双本原标签的Legendre零不能同时出现，例外仅固定a11素因子，充分p>10^22；完整权34六维整空间已给。
 - 没有冒称T5核、同h低Q′或height已成；续固定五Hecke行与原标记单位。H压缩旧Y细节并逐字归档，原所有已成来源/框架保留。
+
+### 2026-11-20 17:46 Asia/Taipei — serre-public-astra-20261120-de0a3e3b
+- R936完整纸证：原SS和降为维(p+1)/6有限代数迹，明确全部点/权/原标架与非零来源尺度，不假设和非零或Q′比较。
+- 新增课题外workflow `.github/workflows/serre-current-exact-research.yml`：公开运行原六素数trace及固定权34五Hecke行/a11，临时输出仅记run/SHA；本地只AST，不生成数学数组。
