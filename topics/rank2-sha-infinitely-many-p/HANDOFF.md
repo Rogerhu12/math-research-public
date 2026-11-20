@@ -5,13 +5,13 @@
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近实际部分克隆/pull及已读规则提交：`137a4f9f34ab04fa08fe82bf84b72750424cfcb6`；2026-11-20 13:45:45 UTC 实际pull --rebase，两README相对6db41339差异为空；下一次最迟一小时内。
+- 最近实际部分克隆/pull及已读规则提交：`07d63cfd8583e1b8db0ab6c318461dc3388d7739`；2026-11-20 13:49:56 UTC 实际pull --rebase，两README相对d35c32f4差异为空；下一次最迟一小时内。
 - 仅写公开main；每条完整结论即提交，推前pull --rebase；非快进循环，不强推、不存令牌。数学只在公开Actions执行；重算输出不入库/Release、不分块，只存源/args/run/hash。
 - H<10KB、MD<100KB、open尽量<30KB、文件<5MB、题≤200MB；log每轮≤5行，不写根LOG。所有旧授权/规则已读，未变化。
 
 ## 完整检查点与当前分工
 
-[最新完整H](notes/2026-11-20-handoff-before-six-digit-central-reader.md)逐字保全部旧条件、源/run/hash及归档链；入口[results](results.md)、[R901–950索引](notes/PROOF-INDEX-R901-R950.md)、[open](open.md)；旧已付项的完整链接保该检查点。root唯一metadata/ref写者并整合公开门；global续原ordinary/global底，deep续同P真实forcing，theta续四指定中央/边界并交叉审源码。四主门均保留；R364/R561/R654/R712及主目标仍开。
+[最新完整H](notes/2026-11-20-handoff-before-complete-artinian-run.md)逐字保全部旧条件、源/run/hash及归档链；入口[results](results.md)、[R901–950索引](notes/PROOF-INDEX-R901-R950.md)、[open](open.md)；旧已付项的完整链接保该检查点。root唯一metadata/ref写者并整合公开门；global续原ordinary/global底，deep续同P真实forcing，theta续四指定中央/边界并交叉审源码。四主门均保留；R364/R561/R654/R712及主目标仍开。
 
 ## 第一门：同原映射、完整函数环与原shadow
 
@@ -25,14 +25,14 @@
 
 R880/883全18×9/双轴/原A,C及四完整交除子00/01/11/12保持；Norm含ell²旧回归已过。四大交除子和原shadow未算，完整成本2256+r*dF或2256(r+1)，全闭点度/厚长度/无穷边界/Artin不删。有限AJ非零不替无穷p/ordinary桥。
 
-[R931](results/R931-original-complete-shadow-artinian-norm-and-base-prime-layers.md)以完整理想精确分离ramified/共同3m/输出O，原extra厚代数上真有椭圆点；双辅助/双加法chart及厚Norm给同原全Tate迹。全部π层至多306维商、原k范数/完整长度保，未拆κ仍保全d/厚度；基础helper三审后接源，上层Miller续接；完整E/shadow未付。
+[R931§1–10](results/R931-original-complete-shadow-artinian-norm-and-base-prime-layers.md)同原E以全理想分离ram/共同3m/O，余厚代数真椭圆点、双辅助双图Miller及全π层原k Norm保全部度/厚度。基础9b2a00b0、上层a543c957全审接源；独立32源完整artinian请求将先核两原图1530长/共零图与非Fp范数，再付全部E/trace。尚无新PASS，旧Tate继续。
 
 ## 第二门：原全局底、ordinary与增广阶
 
 R885/897同finite/wild范数、全Artin/尺度/旧副本及spDn=Ep,n cn整unit保；整族除T恰所有tame底类零。R891原anti-Kummer/全交域/17惯性/双点cup已给c1非零⇒Selbal=E c1、usual core0；不能改套core1。未付c1非零、ordinary或无穷p。
 R893只在c1非零前提给原本原D=UZ°、Uunit、ccan=H Dfun D、Ccan=H Dfun²，阶s/2s；ordinary/canonical底非零恰s=0。derived底不能复用未除T strict核。R900/901真实Aq=−(q+1)²/q、根号/Möbius/端点/格/old-new O/(h)保；奇compact BK零不替finite Selmer零，偶新乘积整除仍开。
-R908附A、R913已付全部原新增惰性位finite/wild局部零；tame D固定跨p/n/q，wild Dp=p^cp D只固定每p。Igusa/Drinfeld/原CM-Shapiro/全部常数与真局部T/(q+1)均保，不作角色平均；Möbius新项同杀，同格可除T才继承。不能再索新增位局部非零；cp0/global/ordinary/s0未付，新增位modp H0非零不许可无条件Nakayama。
-R921m≤e=v_p(q+1)的完整残余H¹有提升线L/连接线C；原j_*是diag(u,0)，corestriction是diag(0,1)，βm(C)=−u p^(e−m) modh同构整H²[p^m]，kerβ=BL。全局Bockstein的q定位读C，ordinary两p位H0=0。几何loc零仅控L，原derived C/global/ordinary/s0未判。
+R908附A/R913原新增惰性位finite/wild局部零已付；tame D跨p/n/q固定，wild Dp=p^cp D仅逐p固定。全Igusa/Drinfeld/CM-Shapiro/尺度及真T/(q+1)保；同格可除T才继承，不能索新增位局部非零或因modp H0非零用Nakayama。cp0/global/ordinary/s0仍开。
+R921原残余H¹=提升L/连接C，j_*=diag(u,0)、cor=diag(0,1)；m≤e=v_p(q+1)，βm(C)=−u p^(e−m) modh同构整H²[p^m]、kerβ=BL。全局β的q定位读C，ordinary两p位H0=0；几何loc零仅控L，真实derived C/global/s0未判。
 
 ## 第三门：四原中央与真正全边界
 

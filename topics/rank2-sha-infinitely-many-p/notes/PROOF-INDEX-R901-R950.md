@@ -137,3 +137,5 @@
 - [R931§9](../results/R931-original-complete-shadow-artinian-norm-and-base-prime-layers.md)：全厚基础helper三审接源，准确有效商/全Fitting/paired图核回收/原k所有π层Norm与全长度门保；源9b2a00b0…355f。尚未接上层Miller或实际计算shadow，不触发盲目重跑。
 
 - [R933附A](../results/R933-original-first-frobenius-coefficient-and-sixth-gaussian-block.md)：同原W严格低系数完整支付五块p^(7−h)及γ p6，H唯一r0=5s−1分母先准确提出p，恢复真L5 modp7。实际E_p=4γ^6jS−(4γ)^6jU modp7全部可读；S/U同charge B与规范2的K6真carry精确抵消，−9/35不能脱离全部低卷积独立迫非零。
+
+- [R931§10](../results/R931-original-complete-shadow-artinian-norm-and-base-prime-layers.md)：完整厚Tate/Miller上层三审接源，原六类长度账/全厚曲线/双辅助双图/每line单位/原k Norm及6M^-1/18×9双轴齐。独立32源公开入口先核两原图1530长度、共零图回收与非Fp范数，再走全部四E/trace；未冒实际PASS，旧Tate作业继续。

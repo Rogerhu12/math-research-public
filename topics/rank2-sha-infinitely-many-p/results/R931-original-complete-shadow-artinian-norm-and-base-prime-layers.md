@@ -309,3 +309,43 @@ $$
 Norm实际构造所有H_j=I+π^jA，核全部306行的包含坐标、商关系与诱导算子，直到完整HNF稳定；每层用原k的resultant并沿原嵌入交核，最后核Σdegπ·dimV_j=degdetI。全π因子实际乘回，不把原k范数降到Fp，也不把厚度或剩余次数模ell。源码不自动无限缓存图核/乘法算子；详细成本保在契约，不冒速度保证。
 
 本次只接基础源，不触发新数学作业。四E构造、ram/common3m/outputO分离、原厚椭圆点和Miller链、原双轴/乘6及18×9仍由后续上层消费器逐门接入并实际执行。原完整Tate作业保其source继续；本节不能据此填任何shadow值或关闭ordinary/无穷p门。
+
+## 10. 完整上层、两图真实验收与独立公开入口
+
+完整上层现在接源：[源码](../scripts/original_ys_artinian_shadow_consumer.py)及[全部契约/证明](../notes/2026-11-20-original-artinian-shadow-consumer-contract.md)。global实现，root/theta全文独审，deep另核来源API和全部厚分区。源码的993行均已静态核对原bridge/reuse/ideal/local/closed/Tate API；这里只登记实现和公开请求，不登记数学PASS。
+
+| 文件 | SHA256 |
+|---|---|
+| original_ys_artinian_shadow_consumer.py | `a543c957c539fecef082cf26860cb321a3731d0c19e29e34205d8346f279c2e4` |
+| launch-original-artinian-shadow.py | `1d3848ada1077029d8ffd7b1882711730f0e109ac2d831e7dedc2cdd70263038` |
+| produce-original-artinian-shadow.py | `f83cba8aae5cb15380483f007f1bfec18a646161443c48edd686e0cb7871ba90` |
+| original-artinian-shadow-request.json | `1510d21b2ffc5fa2a8f9d890f2c7c884465b8aaccc35bc2168062b6a4d7caa87` |
+| rank2-sha-original-artinian-shadow.yml | `c82f7483c18531cf6d424dae6663e63a640334fbd20c421ac49c49572c2ebabb` |
+
+契约SHA256为 `8ec59c4e30a97fe7a69edcddbc8ff4689cb5aeed17f99c4b4ea3d5c47ab3ab42`。基础helper仍为§9的 `9b2a00b0a92b697ae509f649c840060afffad2677cbae768dbda8573c56e355f`，未重新改动。host/producer两份完整清单同序同集合、32个互异源；上层14份直接依赖全在其中。全部Python只作AST，JSON/YAML解析通过；没有本地数学。
+
+### 10.1 同原两图的真实厚范数预门
+
+为核实新接口在原环上完整执行，新的producer在同进程原cube、紧缩截面、306全乘法及全部maps之后，对两张实际原图各作下述门。设R=k[ξ]、A仍为同一个R自由秩306的正规化，c是调用者实际k=F_(r²)的乘法生成元，令
+
+$$
+\pi=\xi^2-c,\quad\rho=\xi-1,\quad I=\pi^2\rho A.
+$$
+
+c不是平方，所以π真不可约，且与ρ互素。原完整长度准确为1530，π厚部为1224，ρ部为306。代码以全HNF/Fitting和完整商回乘实际检查这份分离与两个CRT幂等元，再核ξ的全厚单位逆。原分式(πξ)/π在π整支上同时为零；必须以整个paired图核恢复真实ξ，不能只求模I的πx=πξ。
+
+A是原R自由模，故标量ξ在A/I的范数等于其在R/(π²ρ)的范数的306次方。后者为(-c)²·1=c²，所以
+
+$$
+\operatorname{Norm}_{A/I\,/k}(\xi)=(-c)^{612}.
+$$
+
+对r29/41，r+1=30/42均不整除612；由于c的阶恰r²−1，该结果**不在F_r**。新门实际核范数、完整1530长度和这一非素域属性，直接检查原k嵌入/相对结果式是否保持。所有π层都实际执行；空商范数另核为1。该预门使用完整原Y而非另造测试曲线，仍不能代替四大E的后续门。
+
+### 10.2 同一四E的完整上层
+
+上层沿实际v=ξ²−1的完整零理想与既有全分歧来源，分别保留有限/无穷所有被消项的长度；余部实际核v为单位。此后Zero(c0)=r Zero(xp)严格来自同一真实幂，Pole(y2)=r Pole(yp)也保持原对象。幂采用每步全截回I的准确I+J^e，恒等式I+(I+J^a)(I+J^b)=I+J^(a+b)支付全部重数；共同pole/zero的3m、输出O及其余厚代数恰还原六类全长度。
+
+原xout/yout经完整图核恢复，并在全厚商上实际核y²=x³+1。禁止集用全部原有理点的两坐标完整理想，常数输出/零生成元仍由I保证全秩，不调用零主理想。U/2U两辅助和两条加法图都核全厚支集/单位；每条Miller分子和分母均须单位，原f_T(R)在Norm前除去，因此自动带完整长度幂。每层Norm回原k后才取最终指数，原6M^(-1)、四个独立输出、W/反射、九点和全18×9/双轴逐字保持。
+
+独立入口只请求r29、phase=shadow、trace_method=artinian，原F/P两个公共PASS、q_precision2453、batch64、minimal核、固定Sage10.6镜像保同源。source只读且数学容器断网，令牌仅host公共回执读者使用。现有完整Tate及closed/local作业不变、不取消。新工作流按同一进程依次支付预门、完整几何/原极次数、四E及全厚迹；最终明确all_intersection_closed_points_computed=false，以全部原长账及Norm定理认证完整迹。实际run/job/source在建立后登记，不预填结果。
