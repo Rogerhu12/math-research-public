@@ -1,16 +1,16 @@
 # 交接：可见振幅的精确闭等距族
 
-维护会话：`visible-exact-astra-ac637-20261120`；更新：2026-11-20 13:37:05 UTC。
+维护会话：`visible-exact-astra-ac637-20261120`；更新：2026-11-20 13:39:10 UTC。
 **总任务未完成；继续研究，不等用户回复。**
 
 ## 规则读点与接续来源
 
 部分克隆：`/workspace/scratch/ac637cfcc78d/math-research-public`。终端 git 已恢复，无 AGENTS。
-2026-11-20 13:37:05 UTC 实际pull/rebase至 `0e2acb2e1500fdb8f645551af802db43189453f9`；已读规则提交同上，两README相对96edc6770空diff。每次pull后核规则差异；下次实际pull最迟14:37:05 UTC。
+2026-11-20 13:39:10 UTC 实际pull/rebase至 `106bcc69f1cd4030f62052979cc1b02c2df91e50`；已读规则提交同上，两README相对96edc6770空diff。每次pull后核规则差异；下次实际pull最迟14:39:10 UTC。
 
 接手前完整 H（含全部递归原页、成功/失败/恢复身份和未付义务）见 [2026-11-16 完整检查点](https://github.com/Rogerhu12/math-research-public/blob/882aa9b74efeaac682df43c197820e7280156357/topics/visible-flex-exact-nearby/HANDOFF.md)。本页只压缩索引；`open.md` 及所链接的原证明、适用域、均值、物理角、所有边界和误差费用继续有效。旧成功结论不重算。
 
-新科学数值用本公开仓库 Actions；本机用于证明、编辑及静态检查。每条实质结论更新 H 并独立提交推送；推前实际 pull，非快进立刻 rebase 再推，不 force。规则15：只留脚本、参数、run、hash 和小结论，不入库新数组/可重算证书，topic≤200 MB。3份未被当前输入引用的旧大数组/删除库存已按规15移为Git历史指针，见 `notes/2026-11-20-reproducible-data-history-pointers.json`；原字节可恢复、不重算。
+新科学数值用本公开仓库 Actions；本机用于证明、编辑及静态检查。每条实质结论更新 H 并独立提交推送；推前实际 pull，非快进立刻 rebase 再推，不 force。规则15：只留脚本、参数、run、hash 和小结论，不入库新数组/可重算证书，topic≤200 MB。3份未被当前输入引用的旧大数组/删除库存已按规15移为Git历史指针，见 `notes/2026-11-20-reproducible-data-history-pointers.json`；原字节可恢复、不重算。[另200份旧stdout](notes/2026-11-20-more-legacy-stdout-history-pointers.json)按106bcc69f完整Git指针释放821697B，23清单237路径交集0，当前运行pins未改。
 
 根规12共享workflow仍逐次rebase核topic容量；原L3/50冻结、完整centre下界排旧配方，余47不为该配方计算。三轮旧数组/log的完整原字节恢复表、规则与失败/成功身份逐字保于[6a6e0d39d完整H](https://github.com/Rogerhu12/math-research-public/blob/6a6e0d39d514ea6a9bb86f78f374c268533cfdf5/topics/visible-flex-exact-nearby/HANDOFF.md)；按所链Git指针恢复、不重算，当前运行pins未改。
 

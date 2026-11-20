@@ -179,3 +179,7 @@ source20629B/7249ee69、worker29103B/e3b9a174、gen11084B/cafe9d54、contract521
 ## 2026-11-20：完整H1/2体预算实际通过与根费下界
 
 44745355257/1成功6球；root逐17当前bytes/SHA/blob、whole manifest/exec receipts相等、26字段/6目标顺序/全旧X/Y引用核。actual8886B/5b5f374f、exec11639B/9bc00f39，child.08971855299999731s/0；7pull链/4完整空README差异，0历史/旧science/ODE/积分。wE/wB约26.51635/9.213535，aEE/aEB/aBB约1.10988/.730579/.119853，body3门true；严格保存lower C_allow≈367.117748给可用条件C*≤367。实际根C*未有，根r保Y原H2/3，不授全逆/两RHS/最终族；本实际结论冻结。
+
+## 2026-11-20：按原Git指针释放旧stdout容量
+
+为后继完整小结论与当前低长run留容量，在106bcc69f1cd4030f62052979cc1b02c2df91e50逐件核200份旧stdout日志path/bytes/SHA/blob；gross821697B，完整63007B恢复清单2026-11-20-more-legacy-stdout-history-pointers.json。仅旧notes run<44000000000、2026-11-12 cap日志及ci_43275872327 forward logs；不动科学source/native/array/actual/execution。23清单（含待发weighted）递归237当前/历史路径与删表交集0；当前R141低71、D82、两模20、GB17、weighted79及成功GH清单各bytes/SHA保持。旧v1/v2历史清单的assembly/reference/worker本已被此前修复替换，不把旧pin冒当前pin，完整恢复仍用原提交。所有旧成功/失败/参数/数值原字留Git，0科学重算，不重写已推历史；删除后topic198864305B（不含本段新增文字）。
