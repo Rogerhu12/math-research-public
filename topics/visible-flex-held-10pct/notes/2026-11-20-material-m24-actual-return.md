@@ -85,3 +85,19 @@ python "$REPO/topics/visible-flex-held-10pct/scripts/resume_m3/continue_actual_m
 原trueDN、射击和原metric全通过才报有限接受；失败照原门记录。
 随后需显式将最终δ并入冻结cfg、固定q/全部c与完整均值合同，才可
 调用固定物理场精化接口。这里没有完整闭合、C²族、reach或held结论。
+
+## 真实入口故障：未启动 M24 真尾
+
+2026-11-20 12:36:12 UTC，Actions run44720589640 以 failure 终止。
+worker 读新命令时发现诊断请求中的 input/native 两个顶层字段未获
+既有白名单允许，抛出 ValueError: Diagnostic top key is not whitelisted。
+这发生在 subprocess 启动之前；因此没有新的 M24 真尾或失败数学迭代。
+上面的五阶段 M24 前缀已完成，其原结果不被此入口错误撤销。
+
+请求已删掉两个不合规诊断键，保原白名单，没有放开数据导出。
+原 runner 已结束，当前环境没有该旧 M24 原场副本，不能声称仍可直接
+接续它。源、参数、命令及小结果均已发布；若以后确有数学需要，须按
+记录必要再生，而不是伪造原 checkpoint 或称重算为新结论。
+
+当前新g M24的原真尾在独立本地 session42787 持续，固定参数接口实测
+转接该实际新g；没有为这个旧reach障碍模型重复整条计算链。
