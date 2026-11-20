@@ -293,3 +293,5 @@
 - [R678：仅增频率时的同场、同有限目标与完整步长范数](results/R678-frequency-only-refinement-and-identical-parent-functional.md) — 原观察carrier/全部权/a/N不变，准确模态包含保持六jet及完整DI/height/H²母范数和coarse增广最小商范数；原/零或非零R671自然父完整入口已刊，实际新M求解及持续精化尚未执行。
 
 - [R680：原完整步范数中的有限几何二阶修正](results/R680-true-geometric-step-second-order-correction.md) — 正部真实越界与三阶向内项的最小范数构造，完整证明局部非线性可行并保持所选原线性不等式；未选点与真Phi接受费用分开，未实施或预设当前拒步原因。
+
+- [R682：严格度量见证、准确位置及完整新点导数](results/R682-exact-metric-witnesses-and-full-space-observations.md) — 消费lower自身来源及准确s/π角；新增正权须明列新有限目标，给出全free Jv/VJP、rho分母链及R664精确拼接；真实见证与新点实现尚待实际返回，不把不可行硬上限塞给零步QP。

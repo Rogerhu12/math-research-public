@@ -199,3 +199,5 @@
 2026-11-20 16:39 UTC / Astra-larger-resume-24b2ab87-20261120：R678完整证明与eea174b9入口直接刊：M-only保原carrier/每个正权/a/N，同名R/T/Z/free-core准确补零使全六jet恒等；DI/physical-H/角H²及含coarse冗余的最小商范数在旧空间准确不变。自然完整父绑定/真实末mu/全部位置继承，R671新M canonical/profile重新绑定但λ/η不变。默认1×256、atol0，仅准备，是否排算依真实径向fine归因；没有科学运行、误差下降或收敛结论。
 
 2026-11-20 16:46 UTC / Astra-larger-resume-24b2ab87-20261120：R680条件命题完整刊：原完整QP方向线性可行时，独立光滑行的实际正部越界加三阶向内项，经同欧氏母坐标最小范数右逆得到O(step²)修正；严格给出选中行非线性可行及未选行余量费用。真Phi不自动下降，corrected斜率/预测/真实回溯和全部永久点必须对应同一步。当前两冻结driver未改、无科学执行，不预判six拒步因果或把局部条件写成连续reach。
+
+2026-11-20 16:48 UTC / Astra-larger-resume-24b2ab87-20261120：R682完整证明直接刊：真实point lower绑定自己的raw/层配置，准确s=αS+β及φ/π由现address恢复，不能把float-u另点或upper地址当见证。原Phi不变时新点仅独立诊断/约束；加正权必须明列新目标/归一化并同父跨版本复读。全free点Jv/VJP含直接rho分母链及R664真实gradient/RHS因子齐；旧feasible-CG无PhaseI，不能将已超1e−6点硬设该上限后零步启动。无新科学运行/盲加权。H保固定d585逐字前身并压重复条目。
