@@ -384,3 +384,5 @@
 - [R915 附A](results/R915-original-connection-integral-window-and-second-digit-kernel.md)：原完整E(F)=E^q S_c V_c(F)/V_c^q付两窗精确三角递推；a≡(logVc)′−p⁻²(logSc)′ modp^(p−2)，j=e的额外p因子保。明确新L_conn=2p²−2并重付严格<2p²的LT端点，同ψp/Φp modp⁵给全部a_j modp²，含原c的实际lift；不延改R912旧L或增加四中央零。
 
 - [R922](results/R922-original-primitive-middle-remainder-and-unchanged-coordinate-certificate.md)原对称Phi17差先真除x−v，各伪余式立即消系数content并全式复乘；次数严格降、一次即停。仅候选，仍须同eta48域两完整Phi/绝对支/两Atkin才认原U。新独立公开运行只付U，不冒正规化/RR/shadow，无PASS。
+
+- [R923](results/R923-original-v66-complete-boundary-trace-and-fixed-denominator.md)：原V66在共同E17模型的完整因式给固定分母D66=154224，保−17/11物理缩放、原绝对根与全部Hall/Galois相位。完整全迹有3/4+o(1)高度，非零赋值同界；原首边界零恰等价约3p/4个Gaussian块的模p前缀全零。四来源的全迹接口均有，中央零到边界零及无穷p联合非零仍开。

@@ -57,26 +57,15 @@ R5 已反证 arXiv:1703.02215 所用统一有限 lifting 引理；否定该论�
 
 ### 原 P/F 的当前实际运行
 
-原 P 固定 R874 的全 q 必要理想生成元 u=(915+1097θ+2962eps2)/55569、λ=(68+7a−13a²)/3、vnew=(−34−17a+11a²)/3、a³17。R875 的准次数376和整逆返回17不替 Hom 证书。
+接手前所有精确source/run/job见[完整旧open](notes/2026-11-20-open-before-v66-trace-and-run-recovery.md)；全部原u、λ、vnew、整返回17与认证界保持。
 
-- 旧 P run43835679463/job133191600105/source969b3f439e706e539595424e18ddb573197475fa 已在14:59 UTC取消。[R898](results/R898-original-hecke-map-weight-four-exclusion-and-degree-lower-bound.md)由真实完整基与818×648满列秩严格排权4/权2比值；条件函数次数≥324。权6只53素数/1585bits/rank904，未认证也未排除；基298秒已成。
-- 旧 F run43839815472/job133205402538/source7920cb48d5b63b01a0d200c4a5ba584b128657aa 于15:27取消；[R904](results/R904-original-first-factor-weight-two-exclusion-and-polar-bound.md)付k2矩阵1021×852在1000000007满列秩的完整权8/2比值排除、条件权6截面极除子≥180/dF≥1080（附A由原k4全秩上界已证）；k4仅84素数/2512bits/rank1116，无PASS。原8ΔC³=HB²(A²−17ΔB²)²和末端612(k+6)不变，不假 Manin1。
-- [R889](results/R889-original-two-map-newton-germs-and-exact-normalization.md)同原 Newton germ 全残差/唯一性已证。run43883945027，P job133356889710、F job133356889202，尚无PASS。
-- [R892](results/R892-original-two-map-pari-rational-basis-and-unchanged-certification.md)同一 PARI 完整有理 M2 基/QQ/全前缀/seed及全认证已付。run43888054599，P job133371441947、F job133371442286，尚无PASS。
-- [R899](results/R899-original-P-single-prime-dixon-and-complete-certification.md)首run43895102858/job133396398465正常完成：三嵌入秩904/free863，全部1226行modℓ¹²⁸为零，三根恢复过，但3827bits仍不足有理重建，未到char0证书。同ℓ1000000033/N256/k6续轮run43901392214/job133418654415/source7ef59c0deec0b81f6776a17c48a075d1ec679452已运行，原全部条件保持；只有最终原证书通过才认map。
-
-
-- [R906](results/R906-original-P-small-prime-and-compatible-dixon-continuation.md)：同原P的小分裂素数/精度续接完整已证：Sage10.6源码付LinBox模数上限94906266，CI在[1000000,1001000]内选首个合格素数；原完整1226×1056/三根/全基与char0末端不变，512→1024从已验向量真整除续接，底域chart只算一次。无高度界、无预报PASS；旧P256/F任务继续。新run43903661921/job133426625444/source92c23e425e8c3b1e58a0594616a7d2ac1aae2ea9已进入数学步骤，无PASS。
-
-- [R905](results/R905-original-F-single-prime-dixon-and-complete-certification.md)同F原Sage基/权4固定素数Dixon已证并请求：ℓ1000000007/N256，原1429行/QQ短支/6120完整证书保；首run43898903977/job133409854237在数学开始前因runpy路径失败；修复source6a1a9b66b2a0cfaa9e8dbde3692ad3a023793af4的新run43899744213/job133412821010已在16:26 UTC以137结束：全部1429行modℓ²⁵⁶、1260个QQ重建和原短支已过，高Sage基6123扩展未完成完整证书；无PASS，R909自身PARI基任务继续。
-
-R881 r29 的P19位/F12位与τ=(2,0,1)仍只是formal数据。所有精确 source/hash 由完整H和各执行注保持，不搬到新基。
-
-- [R909](results/R909-original-F-small-prime-and-compatible-dixon-continuation.md)已完成原F实际映射：run43906594646/job133436977753/source135b50ff04a12c51dd1b9de583a20b2bed19cbed，ℓ1000003/N512、全部1429行/QQ重建/原短支及0..6120完整特征零恒等式通过；保原dx/(2y)=f dq/q及∞→O，dF≥1080。最终hash5193c929a0369e957a0495f12c5af244243f2b4ed444ba305bba963dfdc4831f。自身PARI基确定性重算，不跨旧Sage坐标；原P/RR仍缺。
+- 原F已由R909完整认证：run43906594646/job133436977753/source135b50ff04a12c51dd1b9de583a20b2bed19cbed；ℓ1000003/N512、1429行/QQ/原短支/0..6120，结果hash5193c929a0369e957a0495f12c5af244243f2b4ed444ba305bba963dfdc4831f。
+- 原P旧R899P256与R906小素数512两run均结束137。全部1226行/三根/QQ重建已过，得到同一hash358238d2595ab4e7873fa41729e725528ab3904cc803d5d1aca22ce010e7be67，原短支通过，高基4287项已扩但完整恒等式未返回。
+- 新run44711820528/source7dd40baad保相同精确候选及全部原0..4284认证，用三条QQ多项式模a³−17及共同乘积前缀消除高阶矩阵重复运算；依赖身份完整证明、旧日志hash见[续接注](notes/2026-11-20-old-job-outcomes-and-exact-P-certificate.md)。尚无P PASS。
 
 ### 真 RR 与完整消费者
 
-R882 原18源/绝对B0B2/全17方块/36cusps/D204及旧DS返回不变。五个实际任务尚无RR PASS：
+R882 原18源/绝对B0B2/全17方块/36cusps/D204及旧DS返回不变。旧任务均未取得RR PASS；接手已亲读结束日志，最新状态和新quotient-only执行见续接注。以下保留原source入口：
 
 - 306 run43850251992/job133240631228 与 eta48 run43850252040/job133240628667，source acf294c6e07c20618f2acc9dfab863c34e8c8cb9，均于16:35 UTC取消；前者停在次数306可分性gcd，后者已选原次数48因子但停在原U的函数域gcd，均未到正规化/RR。详见[完整实际卡点及中间hash](notes/2026-11-16-original-rr-stopped-before-normalization.md)。
 - fricke24 run43860032290/job133274126644，source be4e0074e90508b3f7bd6e2ce3ee083165049288。
@@ -187,7 +176,7 @@ R887(116a)进一步准确给C(Hω)=0及C²(𝔄Faω)=0：rω=(1/3)dlog y与[G]_(
 - [R919](results/R919-original-polynomial-ring-middle-recovery-and-unchanged-rr-certificate.md)：原多项式环内逐系数真除法/复乘与次数严格下降，余式在一次处停止而不造无用S0；所得仅作候选，仍由原eta域的两完整Phi/绝对支/两Atkin及全四RR末端认证。新独立公开路径已请求，尚无PASS，不猜当前R910实际卡点。
 
 
-重读已发表 [R708](results/R708-original-mod-p-prefix-and-integral-gaussian-return.md) 后的接续校准：原 m34/72/136 已有非零迹赋值≤3/4+o(1)，故大p边界零等价于约3p/4个原 Gaussian 块 g_m,h 的模p前缀零；不必将两位门当唯一途径。这些指标读 z^(dh)=w^(sh)，实际最高次数仍是 O(p²)，不能借 R887 仅前五块的替换免费延长。原中央零只给含真实除p商的部分和，不自动给逐行零；V66尚需其自身全迹范围。此处更新既有门的优先级，不登记新定理。
+重读已发表 [R708](results/R708-original-mod-p-prefix-and-integral-gaussian-return.md) 后的接续校准：原 m34/72/136 已有非零迹赋值≤3/4+o(1)，故大p边界零等价于约3p/4个原 Gaussian 块 g_m,h 的模p前缀零；不必将两位门当唯一途径。这些指标读 z^(dh)=w^(sh)，实际最高次数仍是 O(p²)，不能借 R887 仅前五块的替换免费延长。原中央零只给含真实除p商的部分和，不自动给逐行零；V66此门已由R923补齐。此处更新既有门的优先级，不登记新定理。
 
 ## R918：原首 Bockstein 对稳定方向的实际新约束
 
@@ -218,3 +207,7 @@ R887(116a)进一步准确给C(Hω)=0及C²(𝔄Faω)=0：rω=(1/3)dlog y与[G]_(
 - [R915 附A](results/R915-original-connection-integral-window-and-second-digit-kernel.md)：原完整E(F)=E^q S_c V_c(F)/V_c^q付两窗精确三角递推；a≡(logVc)′−p⁻²(logSc)′ modp^(p−2)，j=e的额外p因子保。明确新L_conn=2p²−2并重付严格<2p²的LT端点，同ψp/Φp modp⁵给全部a_j modp²，含原c的实际lift；不延改R912旧L或增加四中央零。
 
 - [R922](results/R922-original-primitive-middle-remainder-and-unchanged-coordinate-certificate.md)原对称Phi17差先真除x−v，各伪余式立即消系数content并全式复乘；次数严格降、一次即停。仅候选，仍须同eta48域两完整Phi/绝对支/两Atkin才认原U。新独立公开运行只付U，不冒正规化/RR/shadow，无PASS。
+
+## R923：第四来源原全迹接口已补齐
+
+[R923](results/R923-original-v66-complete-boundary-trace-and-fixed-denominator.md)：原V66在共同E17模型的完整因式给固定分母D66=154224，保−17/11物理缩放、原绝对根与全部Hall/Galois相位。完整全迹有3/4+o(1)高度，非零赋值同界；原首边界零恰等价约3p/4个Gaussian块的模p前缀全零。四来源的全迹接口均有，中央零到边界零及无穷p联合非零仍开。
