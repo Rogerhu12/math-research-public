@@ -87,3 +87,5 @@
 - [R925](../results/R925-original-ys-affine-rings-and-complete-divisor-ideals.md)：同原ys的J=SY/(ys²+3)²给完整306过滤自由基、两正规化图表与所有共零/零极/原交理想；2453精度及全W8窗严付，完整多项式核保饱和，六cusp含289重分支。原有限判别式为[ys(ys²−1)(ys²−9)]^288。已证明并接公开完整环前端；全部46971乘法/完整大交除子/shadow尚待实际回执。
 
 - [R926](../results/R926-original-cube-roots-in-sections-and-complete-identities.md)：原已存在RF/Ri以V6/V6、V4/V4全2313/1429项恢复；保原F=A5/(B2 S³)及P=A3/B3，清分母残差分别属L28+4P_T、L18+2P_T，全检查至6940/4286严格付全局身份。原M2同基延2725/6941、原ω两Fp分量与首项1保持；证明已核，实际cube任务尚待。
+
+- [R925§6.2.1、§7.4、§10–11](../results/R925-original-ys-affine-rings-and-complete-divisor-ideals.md)：完整norm与包含关系认证理想积早停；同原最大理想完整HNF给精确点身份，hash仅索引。原六cusp纤维各Fp[ν]/ν^289×Fp×Fp16，F16真约化投影、全289幂基与666原射影坐标接受门已证。截面/理想/helper接入，两新公开请求待实际回执，原大交除子/shadow未付。

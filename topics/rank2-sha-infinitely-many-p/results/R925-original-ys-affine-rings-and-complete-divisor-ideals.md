@@ -328,6 +328,26 @@ $$
 
 若 $I,J$ 的完整行基为 $H_I,H_J$，对 $J$ 的每条基元 $v_j$，$H_IM_{v_j}$ 是 $I v_j$ 的完整 $R$-基；这些行模之和恰为 $IJ$。逐个把这306行与当前306行 Hermite 基合并，保持整个和的 Hermite 形式即可。每一步至多612行、306列，不需一次保存306²条乘积行。理想幂用同一准确乘积和平方完成；任一步都保存完整模，而非按“看起来相同”的行数截断。
 
+### 6.2.1 由全 norm 和包含认证理想积早停
+
+设 $I,J\subset\mathcal A$ 为已认证的非零整理想，$v_1,\ldots,v_{306}$ 是 $J$ 的完整 $k[\xi]$ 基。算法按固定顺序构造
+$$
+K_j=\sum_{i=1}^j I v_i\subset IJ.
+$$
+每个 $Iv_i$ 都是实际 $\mathcal A$-理想，所以 $K_j$ 也是，且 Hermite 返回式和双包含给其完整多项式行模。令 $N(I)=\det H_I$ 取首一规范。由于 $\mathcal A$ 是已认证的 Dedekind 整环，有
+$$
+N(IJ)=N(I)N(J),\qquad N(IJ)\mid N(K_j).
+$$
+若在任一步实际得到完整多项式等式
+$$
+N(K_j)=N(I)N(J),
+$$
+则 $IJ/K_j$ 是有限 $k[\xi]$-模，且
+$$
+\dim_k(IJ/K_j)=\deg N(K_j)-\deg N(IJ)=0.
+$$
+故 $K_j=IJ$，可以立即结束后续生成块；此为整个理想相等的证书。若前面均不满足，继续到全部 306 块必得 $IJ$。实现必须记录实际读取的 `tested_basis_blocks`、可用的 `total_available_basis_blocks`、完整 norm 等式及包含理由，不能把提前结束记成已经执行所有生成块。
+
 ### 6.3 直接构造原有效交除子
 
 仍使用 R883/R924 的同一循环呈现、同一输入 $y_1,y_p$ 和同一输出。令
@@ -441,6 +461,20 @@ v_Q(a)\le v_\pi\det M_a,
 $$
 因为 $v_\pi\det M_a=\sum_{Q'|\pi}[\kappa(Q'):k_\pi]v_{Q'}(a)$。所以 $1+\max(v_\pi\det M_a,v_\pi\det M_b)$ 已足够作为 $M$。第二图表对 $\pi=\xi_\infty$ 同理。该界可保守但有限；不能以固定短 jet 失败就删掉高阶共零点。
 
+### 7.4 同一原整环中的最大理想给精确点身份
+
+固定原 $k=\mathbf F_{r^2}$（含同一个 $\omega$）、同一原 $\mathcal A$ 的有序完整整基及其已认证乘法。对第一图表的闭点 $Q$，§7.3 的剩余映射核给实际最大理想 $\mathfrak q_Q\subset\mathcal A$。它作为 $k[\xi]$ 的满秩子模具有唯一的首一上三角 Hermite 行基 $H_Q$。因此对同一图表中的两个闭点，
+$$
+Q=Q'\quad\Longleftrightarrow\quad
+\mathfrak q_Q=\mathfrak q_{Q'}
+\quad\Longleftrightarrow\quad H_Q=H_{Q'}.
+$$
+据此可用“原有序整基的身份、原常数字段表示、图表、完整 $H_Q$”的规范序列作为点键；hash 只是该完整序列的索引。若只存 hash，消费时遇到相同 hash 仍应比较完整 $H_Q$，不把 hash 无碰撞当数学假设。原常数字段的有限域系数按既定 $\omega$ 基编码。不同切割或不同残域生成元选择产生同一个核时，Hermite 基相同，所以这种点身份不依赖任意选择的残余域多项式。
+
+第二图表同理用 $\mathcal A_\infty$ 的同一有序基及 $k[s]$ 最大理想，只保 $s=0$ 的点。它们全在 $\operatorname{Supp}(P_\infty)$，与第一图表的点集不交；图表标记即可避免重复计算，无须把两张图表中整个重叠区域都列出。
+
+这种键之所以代表原点，依据是 R925 已证明的实际整环恒等 $\mathcal A=\Gamma(Y-\operatorname{Supp}(P_\infty),\mathcal O_Y)$，不是剩余域次数、剩余多项式或一个投影点集。剩余域中的原 $\omega$ 嵌入仍须按 §7.2 的实际映射保存；不能由这个键推断椭圆曲线输出值或迹。§7.3 的完整 666 个射影坐标继续提供独立的几何回代与跨不同整基比较入口。消费者在固定同一整基内对各切割求交、合并点和读取重数时，可以直接使用上述完整最大理想键。
+
 ## 8. 原 consumer 的完整接口和当前执行门
 
 由§5–7得到现有消费者所需的准确 `function_divisor`、`poles`、`Divisor.list/degree/multiplicity`、`Q.degree/residue_field`、`valuation` 和 `reduce`。第一图表加第二图表的零纤维给全部原点，且所有比较都经§7.3的原射影坐标。
@@ -480,3 +514,154 @@ root与两名独立审阅者已静态逐行核原J单位精度、全部2449项co
 | `produce-original-y-affine-normalization.py` | `22b2a9566485c542f375e15c9b41ae05054124f2cd0f5efba71244a0f39d2ed3` |
 
 首实际请求为[run44724912327](https://github.com/Rogerhu12/math-research-public/actions/runs/44724912327) / job136249752863 / source `fea36d7d86dc6229b23f5af13bd7ba53e0b362d1`，当前运行中，尚无成功回执。
+
+## 10. 六个完整厚cusp纤维的实际读取门
+
+状态：本说明的几何与代数形状已证明；对应实现只做了静态/语法检查，
+尚未据此登记任何公开数学执行 PASS。
+
+### 10.1. 同一个原覆盖及全部纤维
+
+沿用 R883、R924、R925 的原 $Y=X_0(3468)$、
+$\xi=y_s:Y\to X_0(12)\simeq\mathbf P^1$、次数306。
+取 $k_0=\mathbf F_r$，$r=29,41$。
+原 $X_0(12)$ 的六个 cusp 在这个坐标中是
+
+$$
+\xi=0,\ 1,\ -1,\ 3,\ -3,\ \infty.
+$$
+
+每个纤维有18个几何点：一个原有理 cusp 的分歧指数为289，
+另外17个点的分歧指数为1。这可由 R883 的 $T$ cusp 阶289和1，
+$Y\to X_0(867)$ 在每个 cusp 的指数2，以及 $T(\xi)$ 在六个显示值的局部阶2核定。
+它也直接等于忘去 $17^2$ 结构时的 cusp 宽度比。
+
+这17个简单点包括一个有理点和一个由 $\mathbf Q(\zeta_{17})$ 给出的16点 packet。
+在两个原素位上，$29\bmod17=12$、$41\bmod17=7$ 都有阶16，
+所以该 packet 是一个次数16的闭点。
+
+因此每个完整纤维的有限代数准确为
+
+$$
+\boxed{k_0[\nu]/(\nu^{289})\ \times\ k_0\ \times\ \mathbf F_{r^{16}}.}\tag{1}
+$$
+
+这里的厚分量同构使用原光滑曲线在有理 cusp 的 DVR 及其真实参数；
+不假定 $\xi-a$ 是那个参数。事实上在厚点它的阶是289。
+六个完整纤维的 scheme 长度之和是1836，约化支集的几何点数是108，
+在 $k_0$ 上有12个有理闭点和6个次数16闭点。
+不能把这些三种计数混为一谈。
+
+### 10.2. 全 Frobenius 的准确形状
+
+令 $F$ 是整个306维代数上的实际 $r$ 次 Frobenius，按行向量约定表示。
+在厚分量上，它把 $\nu^j$ 送至 $\nu^{rj}$，故
+
+$$
+\operatorname{rank}F
+=17+1+\left\lfloor\frac{288}{r}\right\rfloor
+=\begin{cases}27,&r=29,\\25,&r=41.\end{cases}
+$$
+
+因 $r^2>289$，$F^2$ 杀掉全部288维 nilradical，并且
+$\operatorname{rank}F^2=18$。但是 $F^2$ 在次数16残域上仍有阶8，
+所以它不是约化投影。真正的规范约化投影可取
+
+$$
+\boxed{P_{\rm red}=F^{16},\quad P_{\rm red}^2=P_{\rm red},
+\quad\operatorname{rank}P_{\rm red}=18.}\tag{2}
+$$
+
+同样有 $F^{18}=F^2$。完整特征多项式与固定空间维数是
+
+$$
+\det(X-F)=X^{288}(X-1)^2(X^{16}-1),
+$$
+$$
+\dim\ker(F^d-1)=2+\gcd(d,16)\qquad(d\ge1).\tag{3}
+$$
+
+其中次数16残域的特征多项式是 $X^{16}-1$，可由有限域正规基定理得到。
+厚分量只贡献一个固定常数方向，其余288个特征根为零。
+这些公式在实现中均用整个实际 Frobenius 算子检查，不由维数直接预填。
+
+### 10.3. 真实厚局部代数的认证
+
+先用完整固定代数 $\ker(F-1)$ 的实际乘法分裂三个 primitive idempotent，
+再以(2)计算每个局部分量的约化域。必须实际得到
+
+$$
+(\text{局部长度},\text{剩余次数})=(289,1),(1,1),(16,16).
+$$
+
+在289维分量中，取完整 nilradical 的任意基。
+因为原局部环是 DVR，某个基元 $\nu$ 必不在最大理想平方中。
+程序通过全乘法算子的秩288找到这样的原参数，并准确验证
+
+$$
+1,\nu,\ldots,\nu^{288}\text{ 的秩为289},\qquad
+\nu^{288}\ne0,\quad\nu^{289}=0.\tag{4}
+$$
+
+这完整认证(1)的厚分量，保留全部高阶信息。
+只核 $\nu^{r^2}=0$ 或只核 nilradical 维数288均不够替代(4)。
+每个参数向量保留在同一原图表的基坐标中，因而也给原局部参数的实际全局提升。
+
+### 10.4. 同一全局曲线的全部点标签
+
+第一图表使用 R925 的原 $J$，第二图表使用 $J_0=\xi^4J$。
+完整666条原权二基 $F_i$ 在有限纤维的坐标是 $F_i/J$，
+在无穷纤维的坐标是 $F_i/J_0$。
+两者都先在整个有限代数中读取，不先投到约化支集。
+
+为了形成闭点的规范标签，才使用(2)投到真实残域，
+在固定的次数16 cyclotomic 域模型中对全部666个实际射影坐标归一化，
+并对完整 $r$-Frobenius 轨道取规范代表。
+全局线丛次数1224大于 $2g+1=1119$，故它很充足；
+这些全部坐标区分原曲线的几何点。
+实际还核18个原 $k_0$ 闭点标签互不重复。
+
+标签基域是 $k_0$。后续原消费者扩到 $k=\mathbf F_{r^2}$ 时，
+每个次数16闭点会分成两个次数8闭点；须按原 $\omega$ 嵌入使用 $r^2$ 轨道，
+不能继续把完整 $r$ 轨道当作一个 $k$ 点。
+全部未约化坐标仍与标签一起留在进程中。
+
+### 10.5. 与完整 different 的核对
+
+$\Gamma_0(12)$ 没有椭圆稳定子；在这些好素数处，忘去 $17^2$ 结构在非 cusp 开集上 étale。
+六个厚 cusp 的指数289与 $r$ 互素，各贡献 different 次数288，
+总数为1728，恰是
+
+$$
+(2g_Y-2)+2\cdot306=1116+612.
+$$
+
+所以原仿射整闭包相对 $k_0[\xi]$ 的判别式理想是
+
+$$
+\bigl(\xi(\xi^2-1)(\xi^2-9)\bigr)^{288}.
+$$
+
+这里全局几何证明不等于已经实际算出 trace Gram determinant。
+本次代码读取的具体有限证据是六个真实完整局部代数及其全部点标签；
+不把它扩写为四个大交除子或原 shadow 已计算。
+
+实现：`original_ys_cusp_fibers.py`；
+前端：`produce-original-y-cusp-fibers.py`。
+前置输入为实际完整两图表正规化与同一666条原全局截面的环坐标。
+
+## 11. 精确整环接口与新公开请求
+
+`original_section_ring_embedding.py` 在完整W4的1225个Laurent项上将全部666条原M2/J读到同一306整基，并以同权反转给M2/J0。原map入口另核两个R917源的完整QQ205基、同有理饱和变换、全部共同M2/RR/S前缀；原三退化各j^m、F分母B2*S³和调用者原ω不变。此处返回的是同一原函数在两图表的分式，尚未把它的分母当作极除子。
+
+`original_ys_divisor_ideal_tools.py` 只消费该真实整环。它使用完整多项式minimal kernel及明确检查饱和性的verifier；Hermite返回式加反向完整余式核两包含。§6.2.1的完整norm早停保全理想；零极、真实交理想与无穷s-primary都保全部共零/长度。根代理已亲读Sage官方kernel/Hermite接口定义；另由 `rank2-sha-original-polynomial-module-api.yml` 在固定Sage10.6镜像检查两原特征及其二次常数域的实际API语义，包含同秩但非饱和假核被拒和删零行后的完整变换。这个小检查只确认后端语义，不认证原曲线除子。
+
+`rank2-sha-original-y-cusp-fibers.yml` 为新六纤维在同进程重建原完整格和全乘法表，再读取§10的六个306维真实纤维、全289局部幂基及666原射影标签。所有输出对象保在进程内，只打印来源/参数/hash与结论。root和两名独立审阅者已核代码/原窗口/两图表/真实单位/全部Frobenius门；本地仅AST/YAML静态检查。两项新请求均待实际回执，四大交除子/shadow尚未计算。
+
+| 新源文件 | SHA256 |
+|---|---|
+| `original_section_ring_embedding.py` | `d43d5c31bf6b0ac69bbc80a532efbb458349299f6229c2dfa70f4b2952274687` |
+| `original_ys_divisor_ideal_tools.py` | `661075eecb9c7ba67da615c89fd3b7dbf2834b08ca8e1534c1713894dc1226d7` |
+| `original_ys_cusp_fibers.py` | `f52462aef8786928b5ad827b9351fee510273b5a3ae8c802201b95b790aea2cd` |
+| `produce-original-y-cusp-fibers.py` | `3ee7a55cb4e90f23357ef8e5219c42cf95235b86703dbc3bfe19825e5981d313` |
+| `check-original-polynomial-module-api.py` | `5180a0acfc0fa622540569f21f8fbd4bd41281e318a03230da621dd04f0d307a` |
