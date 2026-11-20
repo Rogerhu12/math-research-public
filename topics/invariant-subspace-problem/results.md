@@ -107,3 +107,5 @@
 - **R150 unit3+1非半权q非零图的第二mean系数零边界为空（2026-11-20，已证明）：** [完整原源与除数返回](results/R150-appendix-essential-four-unit-three-plus-one-nonhalf-second-mean-coefficient-zero-branch-is-empty.md)先证s≠x、p0≠0，再在gamma=0用原mean合法消q²。两个关于b的QQ结式gcd仅x¹⁰(x−1/2)⁹，零根分别回原mean排除；run44737090302全部恒等式/gcd通过。只关闭q非零图该边界，q0与真正一般支仍需独立处理。
 
 - **R150 unit3+1非半权q非零图的原二次梯度基值非零（2026-11-20，已证明）：** [完整原highest/mean返回](results/R150-appendix-essential-four-unit-three-plus-one-nonhalf-low-gradient-base-value-is-nonzero.md)由p0非零让n0=0迫m=0，原n1分成x=b与2xs=b；前者原n2明确非零，后者两个原mean迫半权。原c0另排T=2x²−b=0，全部除数已逐个支付；run44737090302原QQ源全过。未把一般支或q0判空。
+
+- **R271 原最低forcing的完整真旗Schur与全方差一致源界（2026-11-20，已证明）：** [完整受限逆与原物理费用](results/R271-appendix-lowest-source-true-flag-schur-and-uniform-variance-residual-cost.md)利用实际C²f1=0，在完整F0的三真幂旗给精确两块Schur、Ca/S与C²a/S²全区间界及真实ξ0有限极限。两个受限逆以整数增广矩阵/完整好链参数和原221a、4^R相似支付，得ξ0≤1600Kflag³对全0<S≤1。无未知有效半径或假环境逆；此为无权界，64^R及Zγ成本仍需实际配平。

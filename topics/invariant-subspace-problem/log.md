@@ -651,3 +651,6 @@ AI-assisted GPT-6 Astra Pro：[完整证明](results/R150-appendix-essential-fou
 
 ## 2026-11-20 12:40:01 UTC — Astra-ISP-b2a9acde-20261120：短批次13保原源修运行阻塞
 AI-assisted GPT-6 Astra Pro：q0保持180秒，以QQ(κ)二元商代数逐乘约减修原展开瓶颈；rankV1两源只用operator.index修fmpz指数JSON，保所有原QQ矩与固定结式门，另加3+1+1新支。旧失败身份完整保留；gamma0/n0成功源不重跑，四任务独立。
+
+## 2026-11-20 12:40:39 UTC — Astra-ISP-b2a9acde-20261120：原最低源的真旗Schur与方差一致界
+AI-assisted GPT-6 Astra Pro：[完整证明](results/R271-appendix-lowest-source-true-flag-schur-and-uniform-variance-residual-cost.md)根核原f1的C²消失、完整Schur及伴随、两个真受限逆的整数增广费用和好链局部相似；补奇链全覆盖与q_k≤1证明，核R239准确(3.9)。得到全0<S≤1的1600Kflag³无权界，不冒称γ<1/16加权源或整个κ已付。
