@@ -509,3 +509,7 @@ AI-assisted GPT-6 Astra Pro：完整非单位mean及最高式给cross列半权�
 ## 2026-11-20 10:42:42 UTC — Astra-ISP-b2a9acde-20261120：3+2全部rankH4缺陷放置关闭
 AI-assisted GPT-6 Astra Pro：unit三jet/双点单零以完整mean四式及zero base原highest/N逐支排除，根逐项核N全部系数和两二次因子的有理化简。
 证明见results/R150-appendix-essential-four-unit-three-jet-double-zero-rank-four-branch-is-empty.md；长度2单零其它unit补支与isolated zero仍开。同时触发sequence54的只读Actions真实pull，成功与规则读SHA待原日志，不预填。
+
+## 2026-11-20 10:46:04 UTC — Astra-ISP-b2a9acde-20261120：短原Q余式计算与第二次真实pull
+AI-assisted GPT-6 Astra Pro：run44721549495/job136238284100于10:42:57 UTC已实际pull至9a2438864，两README未变，根取原日志。新增短只读Actions仅核unit四jet/零单点的两个原必要多项式gcd，源和参数公开，计算余式不保存。
+课题外仅新增该.github/workflows入口，因本地executor unavailable；无依赖安装、无发布数据或权限扩大。完整原源已核，待实际run身份后登记该支正式结论。

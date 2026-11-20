@@ -1,0 +1,48 @@
+name: ISP R150 short exact identities
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'topics/invariant-subspace-problem/notes/2026-11-20-r150-short-exact-request-b2a9.json'
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: isp-r150-short-exact-b2a9
+  cancel-in-progress: false
+jobs:
+  exact:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    env:
+      ISP_PIN: ${{ github.sha }}
+    steps:
+      - name: Partial checkout, actual pull, rule check, and frozen exact source
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p "$RUNNER_TEMP/isp-r150-short-exact"
+          cd "$RUNNER_TEMP/isp-r150-short-exact"
+          git init -q
+          git remote add origin https://github.com/Rogerhu12/math-research-public.git
+          git sparse-checkout init --no-cone
+          git sparse-checkout set --no-cone '/README.md' '/topics/invariant-subspace-problem/README.md'
+          timeout 120s git fetch --no-tags --filter=blob:none --depth=1 origin "$ISP_PIN"
+          git checkout -b main FETCH_HEAD
+          export ISP_BEFORE_PULL="$(git rev-parse HEAD)"
+          timeout 120s git pull --rebase origin main
+          export ISP_AFTER_PULL="$(git rev-parse HEAD)"
+          python - <<'PY'
+          import datetime,json,os,subprocess
+          rules=['README.md','topics/invariant-subspace-problem/README.md']
+          expected={'README.md':'282e86b03385d3b6245ce7100ae2e2af7b103c2d','topics/invariant-subspace-problem/README.md':'4d6570e9cf346431ab781a1290076a6321aaaa00'}
+          before,after=os.environ['ISP_BEFORE_PULL'],os.environ['ISP_AFTER_PULL']
+          diff=subprocess.check_output(['git','diff',before,after,'--',*rules],text=True)
+          blobs={p:subprocess.check_output(['git','hash-object',p],text=True).strip() for p in rules}
+          receipt={'format':'isp-789f-actual-actions-pull-v1','remoteCommit':after,'beforeCommit':before,'utc':datetime.datetime.now(datetime.timezone.utc).strftime('%Y-%m-%d %H:%M:%S UTC'),'actualPullRebaseSucceeded':True,'rulesUnchanged':not diff and blobs==expected,'rulesGitBlobs':blobs,'executionEnvironment':'GitHubActions','runId':os.environ['GITHUB_RUN_ID']}
+          if diff: print(diff,flush=True)
+          print('ISP_PULL_RECEIPT '+json.dumps(receipt,sort_keys=True),flush=True)
+          if not receipt['rulesUnchanged']: raise SystemExit('README changed; root must read and follow the exact differences')
+          PY
+          git show "$ISP_PIN:topics/invariant-subspace-problem/notes/2026-11-20-r150-unit-four-isolated-zero-gcd-b2a9.py" > "$RUNNER_TEMP/isp-r150-unit-four-gcd.py"
+          timeout 20s python "$RUNNER_TEMP/isp-r150-unit-four-gcd.py"
