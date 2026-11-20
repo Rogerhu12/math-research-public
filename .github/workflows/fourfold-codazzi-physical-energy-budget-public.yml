@@ -1,0 +1,42 @@
+name: R138 complete physical energy budget
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/fourfold-codazzi-physical-energy-budget-public.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: r138-complete-physical-energy-budget-v1
+  cancel-in-progress: false
+
+jobs:
+  complete-physical-energy:
+    if: github.repository == 'Rogerhu12/math-research-public' && github.run_attempt == 1
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            README.md
+            topics/visible-flex-exact-nearby/README.md
+            topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_physical_energy_budget_public_worker.py
+            topics/visible-flex-exact-nearby/notes/2026-11-20-R138-physical-energy-budget-inputs.json
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12.14'
+      - name: Install the fixed directed runtime
+        run: python -m pip install --disable-pip-version-check python-flint==0.9.0
+      - name: Restore original bytes and enclose the complete physical energy budget
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_physical_energy_budget_public_worker.py --repo "$GITHUB_WORKSPACE" --manifest topics/visible-flex-exact-nearby/notes/2026-11-20-R138-physical-energy-budget-inputs.json --manifest-sha 5058a2fa68512524be46b9505a28513024e2f990231ff670de14b7876bfbea47

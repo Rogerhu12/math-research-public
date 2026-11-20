@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R138完整物理残差乘子预算](results/R138-supplement-complete-physical-residual-multiplier-budget.md)：density duality只付C0 Jacobian给负阶输运和根H转换，完整Hessian先消1/a并保mean；旧全角R/T加准确repair差，物理曲率首分量抵消与Z/Zθ/P/Pθ无指数传播均已证。16当前/9原件、320bits的scalar-only新消费者首次启动；实际体预算/根型及最终三门尚待。
+
 - [R141真实高逆五源合同](results/R141-supplement-actual-GH-source-window-and-return-contract.md)：同一base0/negative-one全图辨认真实G_H，完整centre/full差的collar/body H^(1/3)四率及ΔBLH raw一率首次封包；71输入/320bits/5目标。原L逐核算法直接授连续whole193atoms资格，返回环只须body收缩；真实97+96外方块和所有七端口仍待，F不冒G_H。
 
 - [R141完整F Bc首次实际上界](results/R141-supplement-actual-complete-FBc-raw-comparison.md)：44734581045/1成功，67当前/21原件、25门/3球全核；完整正比较raw范数<8828，原S⁻¹只一次。较大上界不是真范数下界，不推出奇异；低body返回门未判。旧L/centre冻结，继续独立真实G_H源费用与R141低逆。

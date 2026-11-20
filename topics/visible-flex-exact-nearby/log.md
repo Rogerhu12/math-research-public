@@ -111,3 +111,9 @@ root整读proof/最小math5272B/SHA05d57d2f/owner23096B/SHAd6521c92/generator，
 ## 2026-11-20：真实高逆五个完整源率首次封包
 
 math7938B/SHAcd8cdf92、owner24497B/SHA38363391、proof15333B/SHAd351d03c、generator19175B/SHA8e1310fc；root逐源码全读并由global独核H1/3窗口、整155panel、原S⁻¹一次、centre mean exactzero/full mean保、五率支持、旧L连续whole193atoms、97+96真实outer方块。71当前bytes/SHA/blob/AST、37字段25门、全oldscope、sharedworker40772B/98ef3773和manifest63939B/SHA69449ea01bbdfc202d6a6c763661a13f42efdcb08303fd356b1b32dc2f09887f均核；metadata generator重建逐字同，0科学。320bits/5新targets、数学1800s/child3000s，共享workflow首次push；F/GH/低Green/旧L/atoms/旧50均不重算，七ports/finiteρ/两RHS仍独立待付。
+
+## 2026-11-20：完整物理残差预算公式与首次公开消费者
+
+X最终SHA39342cb482b3ae3dba007d442eefd998209f9adac0030d2b4cd0735be68c67c5，root/joint独核density负阶与根密度、完整逆角mean/Hessian、物理曲率首分量抵消、三角Z/C1传播、outer真实逆角repair、V18/22/24组合；X11背景A0与X10 r3φ=0资格明确。source29696B/716fde1b逐源码全核，旧4650/7722整行与germ只读，0旧producer/geometry/mean/axis计算，新一个scalar预算含每32格完整恢复态。worker29791B/abf05607沿已成mean规则，root整读diff/运维并由positive独审；gen13067B/eb141c11。16当前bytes/SHA/blob、9历史身份、22字段/AST/YAML与metadata逐字再现核，manifest11147B/5058a2fa68512524be46b9505a28513024e2f990231ff670de14b7876bfbea47。共享workflow首次push，320bits/child5400s，无新数组；body-only比较明确假定C*=0供诊断，实际根型和全逆仍false。
+
+positive独审worker/gen/contract/YAML全部通过：空index仍push、非FF即时rebase、30min实际规则检查和science后完整pins复核均保。若单cell内异常，failure文件可能有当前cell部分状态，明示failure且禁止resume；只有已保存successful unfinished整32格checkpoint可按原定义续算。不得将失败局部态当完整前缀。

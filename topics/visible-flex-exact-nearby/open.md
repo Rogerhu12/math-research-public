@@ -171,9 +171,9 @@ R138的[几何桥](results/R138-residual-sensitive-Codazzi-frame-and-geometric-J
 
 [真实root全角型](results/R138-supplement-complete-root-angular-form-and-two-scalar-geometry.md)保low even96=0、97起high stable、独立mean与H；高频主符号正不授finite正性或mean消元。[轴首次合同](notes/2026-11-20-R138-root-axis-support-contract.md)11当前/10原件保全4650闭行和原接口，[44730968113/1实际包围](results/R138-supplement-actual-same-anchor-root-axis-support.md)已整审冻结，全4650行/3594接口，完整nominal/error给−.356<q<−.006、.970<s<1.320；后继读回完整三球而非只读q sign flag。完整全角型、分母、finite+tail、体残差吸收及实际全逆继续待付。
 
-[R138体能量/根迹](results/R138-supplement-Volterra-Grushin-energy-and-root-defect-trace.md)已给同真Qrepair齐次核的有限能量辨认、K≥x/120和反向Volterra HS界；Grushin常数209/78、419/156及完整H^(-1/3)根缺陷消去任意未知体范数。下一项须实际付k_s/C_E/C_H/角图/E0/E1与全根型C_*，再验证A<2、C<1、T²<4(2−A)(1−C)。这些仍未数值通过；真实DF与WVC hybrid额外主部差继续独立，不能据此宣布无核。
+[R138体能量/根迹](results/R138-supplement-Volterra-Grushin-energy-and-root-defect-trace.md)已付同真DF弱核能量、K≥x/120及完整Grushin/root H^-1/3迹。[X完整物理预算](results/R138-supplement-complete-physical-residual-multiplier-budget.md)进一步保完整mean Hessian、repair与真实角转换；16当前/9原件、320bits首次scalar-only公开计算k_s/E0/E1/几何与根Z/P。实际体预算和根型C*待保存球后才判A<2、C<1、T²<4(2−A)(1−C)；hybrid额外主部差不免。
 
-[R138实际全角比较](results/R138-supplement-actual-root-angular-comparison-and-mean-readout.md)已用旧完整角缺陷和repair支付完整2π理想角ODE到真实periodic frame/位置的C0差<1.1e−6/4e−5；没有将角ODE端点免费拼圈。完整mean分母D=<rho(A0X+B0Y)>·ell，只用frame值及已知系数一阶导，因此下一最小角消费者可先算D并付C0转移，不依赖轴位置重算。D离零已由下述首次actual完成；有限根型/真正高尾导数仍待。
+[R138实际全角比较](results/R138-supplement-actual-root-angular-comparison-and-mean-readout.md)付同轴完整2π理想角ODE至真实periodic frame/位置的C0费<1.1e−6/4e−5；C0不免费授高导。完整mean的实际离零见下；根finite+tail仍待。
 
 [R138实际全圈mean44733403315](results/R138-supplement-actual-full-circle-root-mean-denominator.md)全8192闭格、11当前/6历史已核冻结，严格17/20<D<87/100、mean逆费<20/17；真实frame费用全计。只消费原定义，不重轴/旧geometry；根finite+tail、体吸收与全逆仍待。
 
