@@ -226,3 +226,6 @@
 
 
 - 2026-11-20 14:35 UTC｜Astra-held10-1b6d88ec-20261120：.5→.75完整谐波初猜仅一次原state-only probe93992已真exit0，1152stage/attempt=completed=1，norm10783.5736161、minA.7103966/minD.9993787；0Newton/0DN/不接受。原linear补偿与cap20000、全部域/残差定义保留；无已付改善依据，54314原uniform继续且不再probe，同档原norm待自然返回。终态/完整argv/env/hash存，H压缩只移去已链接历史细节。
+
+
+- 2026-11-20 14:43 UTC｜Astra-held10-1b6d88ec-20261120：同一.75目标的原uniform初猜由54314自然返回，norm6438.708166133377、原fresh-J call11秒926.34594；已做唯一完整谐波probe为10783.5736161，实比1.67480391063。没有新增flow，没有降低初始残差；保留原正在求解的uniform主线，不作完整算法性能比较。补入原note与比较SHA，不再probe。

@@ -6,7 +6,7 @@
 
 连通闭C²嵌入、C²连续族；固定有内点H且diamH≥.2D，整像δhold≥.1D及含反射δE>0，全时reach≥.03D。同一完整g/全部物理参数/时间范围下，完整metric≤1e−6且空间/频率/时间精化降至求解或机器地板；全部闭合与Cartesian两jet接口须实际支付。
 
-- 部分克隆工作树 /workspace/scratch/1b6d88ecddf3/math-research-public。已读规则提交：`e89f27441f9fe752fb7c21675767d46b11ca863b`；14:36 UTC本地真实pull --rebase至该提交，双README无变。每次pull核差异，至少每小时一次；API比较不冒充pull。
+- 部分克隆工作树 /workspace/scratch/1b6d88ecddf3/math-research-public。已读规则提交：`0da528f13317fd3ba894cbcabe715048a93c858e`；14:43 UTC本地真实pull --rebase至该提交，双README无变。每次pull核差异，至少每小时一次；API比较不冒充pull。
 - root独占git，逐结论推送，NFF立即pull --rebase/核双README后再推，禁force；令牌只在命令行。
 - 根§12优先实际数学/求解，不重复身份核查/双审；§15再生场、网格、矩阵不入Git/Release/artifacts，只存源/参数/命令/hash/小标量。H<10KB、单MD<100KB、目录<200MB，不写根LOG。
 - 压缩不撤销旧结果。完整旧断点见[接手H](https://github.com/Rogerhu12/math-research-public/blob/9288f266d1f242b594d70a714e20340fcb876023/topics/visible-flex-held-10pct/HANDOFF.md)及[本次H到01954](https://github.com/Rogerhu12/math-research-public/blob/01954ce52ce769093d8368e8f5c9d4a980191a84/topics/visible-flex-held-10pct/HANDOFF.md)；具体note优先于摘要。
@@ -21,7 +21,7 @@
 
 [M24加权核心邻域](notes/2026-11-20-m24-weighted-core-neighborhood.md)已严格付全23c及任意新增有限高模：q[.0599,.0601]、加权距离≤.01给ρ>.485、τ1全λ核心κ∈[.2,4.86)；未来真实返回必须核成员资格，非全曲面界。
 
-当前真实尾：chord3 session54314，目录m3-work/newg-wide-lambda0p002-m24-actual-chord3-r1。原.25已过；**.5完整返回**残差9.47489311e−10，检查点12674cc4…125a53，1153×48全finite，3fresh-J+7state/6接受步，最终fresh-original；原finite audit metric8.22e−15只属暖档。14:20 UTC自动接.75→.9→fullH，原M24/N512/steps16/parts16/2workers、shoot36/原门/outer8不变。[.5实录](notes/2026-11-20-m3-m24-chord-warm050.md)、[.25及原取消/ENOENT与完整命令](notes/2026-11-20-m3-m24-original-warm025-and-chord-continuation.md)。[唯一新初猜probe](notes/2026-11-20-m3-full-harmonic-warm-probe050-to075.md)93992已exit0：norm10783.57、原域通过，1次state/0Newton/0DN；保原54314、不再probe，同档uniform初值尚待返回。fullH/外迭代仍欠；最终重新绑定完整g/δ/q/c/均值后再场细化。
+当前真实尾：chord3 session54314，目录m3-work/newg-wide-lambda0p002-m24-actual-chord3-r1。原.25已过；**.5完整返回**残差9.47489311e−10，检查点12674cc4…125a53，1153×48全finite，3fresh-J+7state/6接受步，最终fresh-original；原finite audit metric8.22e−15只属暖档。14:20 UTC自动接.75→.9→fullH，原M24/N512/steps16/parts16/2workers、shoot36/原门/outer8不变。[.5实录](notes/2026-11-20-m3-m24-chord-warm050.md)、[.25及原取消/ENOENT与完整命令](notes/2026-11-20-m3-m24-original-warm025-and-chord-continuation.md)。[唯一新初猜probe](notes/2026-11-20-m3-full-harmonic-warm-probe050-to075.md)93992已exit0：norm10783.57、原域通过，1次state/0Newton/0DN；保原54314、不再probe，同档uniform已自然返回6438.708，probe为其1.674804倍，未改善，新增flow0。fullH/外迭代仍欠；最终重新绑定完整g/δ/q/c/均值后再场细化。
 
 [λ.004/M24实际设计](notes/2026-11-20-m3-newg-lambda0004-m24-return.md)635点/8全步收敛，但原metric1.53303e−6未门；原mean1168诊断主缺陷在ψ77/79等表示外。M32原同物理port／完整lift转移58863已真过，原BVP78016在算。54314不动，非fixed-g精化。
 
