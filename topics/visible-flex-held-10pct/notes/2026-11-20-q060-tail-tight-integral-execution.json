@@ -1,0 +1,101 @@
+{
+  "status": "executed_exit_0",
+  "scope": "Same R58 true background. Validated total variation and C4 Simpson; only the normalization substitution component has a full relative metric bound. Not a full JS pointwise-profile or nonrotating map certificate.",
+  "command": [
+    "OPENBLAS_NUM_THREADS=1",
+    "python",
+    "/workspace/scratch/1b6d88ecddf3/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4/certify_q060_background_integrals_tight.py",
+    "--input",
+    "/workspace/scratch/1b6d88ecddf3/n4-work/q060-tail-geometry/constants.json",
+    "--out",
+    "/workspace/scratch/1b6d88ecddf3/n4-work/q060-tail-geometry/tight-integrals-certificate.json",
+    "--cells",
+    "32",
+    "--tol",
+    "1e-12",
+    "--variation-tol",
+    "1e-18"
+  ],
+  "source_sha256": "b7a8dc501dc3dbbe4ccb14d6b4ea2b4b85849d14b9551a94f5c23798d7985806",
+  "input_sha256": "1a1bcd1679f9f3b507c19bed8f3a1310fda81ac16452ad164edef3e95d82dfc9",
+  "output_sha256": "0b7222717ce302b6e5d5654a3764f9c75892c9e15c1416cb04bb532cea880598",
+  "seconds": 30.88090911999825,
+  "cells": 32,
+  "interval_digits": 60,
+  "complete_integrals": {
+    "A": {
+      "lower": 0.15317832155140565,
+      "upper": 0.15317832155159344,
+      "lower_exact": "1379707663720297/9007199254740992",
+      "upper_exact": "2759415327443977/18014398509481984",
+      "width": 1.8774247359176205e-13
+    },
+    "B": {
+      "lower": 0.000600767704064772,
+      "upper": 0.0006007677041961638,
+      "lower_exact": "5541104042316463/9223372036854775808",
+      "upper_exact": "5541104043528339/9223372036854775808",
+      "width": 1.3139168111972142e-13
+    },
+    "AH": {
+      "lower": 0.019367511429630245,
+      "upper": 0.019367511429632556,
+      "lower_exact": "2791152552242451/144115188075855872",
+      "upper_exact": "87223517257587/4503599627370496",
+      "width": 2.3010998968789234e-15
+    },
+    "BH": {
+      "lower": 2.1125029789362222e-05,
+      "upper": 2.112502995542106e-05,
+      "lower_exact": "6235008289181685/295147905179352825856",
+      "upper_exact": "6235008338193603/295147905179352825856",
+      "width": 1.660588275632122e-13
+    }
+  },
+  "exact_normalization": {
+    "lower": 161.1632545693438,
+    "upper": 161.16325460490376,
+    "lower_exact": "2835213957907473/17592186044416",
+    "upper_exact": "5670427917066101/35184372088832",
+    "width": 3.555992321431476e-08
+  },
+  "exact_height": {
+    "lower": 0.022772089983358203,
+    "upper": 0.022772090010874296,
+    "lower_exact": "3281804030831981/144115188075855872",
+    "upper_exact": "820451008699367/36028797018963968",
+    "width": 2.7516086643068482e-11
+  },
+  "cell0_inner_radius": {
+    "lower": 0.13552134105721653,
+    "upper": 0.13552134106763647,
+    "lower_exact": "2441335444344121/18014398509481984",
+    "upper_exact": "1220667722265915/9007199254740992",
+    "width": 1.0419895229527003e-11
+  },
+  "normalization_error": {
+    "lower": -2.0615443699518416e-08,
+    "upper": 1.4944479514796356e-08,
+    "lower_exact": "-3115317771394943/151115727451828646838272",
+    "upper_exact": "4516691786534805/302231454903657293676544",
+    "width": 3.555992321431476e-08
+  },
+  "height_error": {
+    "lower": -1.2938067439036018e-11,
+    "upper": 1.457801920403247e-11,
+    "lower_exact": "-4004137928439287/309485009821345068724781056",
+    "upper_exact": "2255839208267873/154742504910672534362390528",
+    "width": 2.7516086643068482e-11
+  },
+  "normalization_only_metric_gap": {
+    "lower": 0.0,
+    "upper": 4.954037113551542e-10,
+    "lower_exact": "0",
+    "upper_exact": "598906337790159/1208925819614629174706176",
+    "width": 4.954037113551541e-10
+  },
+  "independent_point_derivative_implementation_checks": 135,
+  "actual_tail_or_BVP_rerun": false,
+  "full_nonlinear_or_closed_geometry_certified": false,
+  "full_reproducible_outputs_in_git": false
+}
