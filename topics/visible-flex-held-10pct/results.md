@@ -95,8 +95,14 @@
 - [R55：原短ramp的必要reach障碍与低曲率首段](results/R55-flat-ramp-reach-obstruction-and-soft-start.md)。已证明：R5经典C³前提下k=.2接原m3/n4短ramp必有局部K>26，排除reach/D≥.03；给新多段低曲率首段和δ∈[.06,.063]首完整cycle全角|X|<1.32的精确Bernstein证书。非所有C²解排除，非完整新BVP/闭族。
 
 
+R55补充：[较宽设计盒与条件完整D≤2.69](notes/2026-11-20-soft-start-wide-design-box.md)，新r∈[1.05,1.1]首cycle的50个精确盒已真过，未外推旧盒。真实尾/帽可使用的[条件窗口](notes/2026-11-20-soft-start-tail-closure-budget.md)仍以所声明R21背景为前提；当前4.625尾不继承3.125的旧界。
+
 ## R56. C² jet 范围的连续度量证书
 
 [完整证明](results/R56-c2-jet-range-continuous-metric-certificate.md)。固定实际图与真实g，以中心一阶jet、全盒二阶jet及g的一阶范围构造局部缺陷矩阵；先代数相消再按真实中心归一化，给完整连续relative operator上界。严格余量和收敛积分/反函数/mean oracle下有限细分可终止，无需C³；当前λ=.02场或新g场尚无该证书，不是新闭族或固定参数收敛结果。
 
-R55补充：[较宽设计盒与条件完整D≤2.69](notes/2026-11-20-soft-start-wide-design-box.md)，新r∈[1.05,1.1]首cycle的50个精确盒已真过，未外推旧盒。真实尾/帽可使用的[条件窗口](notes/2026-11-20-soft-start-tail-closure-budget.md)仍以所声明R21背景为前提；当前4.625尾不继承3.125的旧界。
+
+
+## R57. 新软启动中间准确曲率的必要reach障碍
+
+[完整证明](results/R57-soft-start-intermediate-curvature-obstruction.md)。新r∈[1.05,1.1]、准确k=.45在第二升速段仍保开圆片时K>50/3，排该精确C³设计的reach门；局部重启R5处理两段之间退化点。最终k∈[.2,.205]首段χ>.52；τ0的损耗预算不填R8正K退化延拓缺口。全部严格积分已执行，未重新求BVP，也非任意C²或整体不存在结论。

@@ -6,7 +6,7 @@
 
 连通闭C²嵌入、C²连续族；固定有内点H且diamH≥.2D，整像δhold≥.1D及含反射δE>0，全时reach≥.03D。同一完整g/全部物理参数/时间范围下，完整metric≤1e−6且空间/频率/时间精化降至求解或机器地板；全部闭合与Cartesian两jet接口须实际支付。
 
-- 部分克隆工作树 /workspace/scratch/1b6d88ecddf3/math-research-public。已读规则提交：`d1e48c72df4ab14d63e2f5ed1082302e00219ccf`；12:00 UTC本地真实pull --rebase至该提交，双README无变。每次pull检查双README差异，至少每小时一次；API比较不冒充pull。
+- 部分克隆工作树 /workspace/scratch/1b6d88ecddf3/math-research-public。已读规则提交：`e5751a29cd8ad32780b21d8a0c96c4031b424944`；12:04 UTC本地真实pull --rebase至该提交，双README无变。每次pull检查双README差异，至少每小时一次；API比较不冒充pull。
 - root独占git，逐结论推送，NFF立即pull --rebase/核双README后再推，禁force；令牌只在命令行。11:06 UTC终端已恢复。
 - 根§12优先实际数学/求解，不重复身份核查/双审；§15再生场、网格、矩阵不入Git/Release/artifacts，只存源/参数/命令/hash/小标量。H<10KB、单MD<100KB、目录<200MB，不写根LOG。
 - 压缩不撤销旧结果。完整旧断点见[接手H](https://github.com/Rogerhu12/math-research-public/blob/9288f266d1f242b594d70a714e20340fcb876023/topics/visible-flex-held-10pct/HANDOFF.md)和[本次H到73e060](https://github.com/Rogerhu12/math-research-public/blob/73e060110b34d302cc86f920a7b054590afbe8fd/topics/visible-flex-held-10pct/HANDOFF.md)；其链接的具体note优先于压缩摘要。
@@ -33,6 +33,7 @@ R55多段profile独立source `/workspace/scratch/1b6d88ecddf3/m3-work/multistage
 
 - R52/53材料κ核心保持周长2π、凸闭合及准确圆弧；四实现接口已过，不是BVP存在。旧λ.02控制已补正性盒；旧5.2二导预算不搬。[扩盒/完整lift](notes/2026-11-20-m3-lifted-mode-transfer-and-expanded-core-box.md)。升M必须补aχ(Inew−Iold)，系数1，真实新维linearDN必须导出，不能只补零。
 - R55排原短ramp在R5准确C³圆片前提下K>26，不排所有C²或λ<1。新宽盒r∈[1.05,1.1]首cycle全角|X|<1.34由50个新精确盒支付。若实际完整闭图再付D0≤2.68/K≤12.3/support≥.087，R54的S=.5/b=.2/k=.2、H宽.54/相位.45和柱长ℓ≤.01给D≤2.69、reach/D≥.03022335、H径比>.2006459、m3held>.1097823。[宽盒](notes/2026-11-20-soft-start-wide-design-box.md)。只有首cycle已付，完整bridge/尾/帽仍待。
+- R57在新g证明准确k=.45仍有受保护开圆片且K>50/3，结合D≥2排reach/D≥.03；仅R5精确C³前提。τ0的χ<.415只到正K入口，不填R8退化延拓缺口；最终k∈[.2,.205]首段χ>.52。建议λ<1先降k，再λ→1；设计中间节点允许暂不满足reach。[R57](results/R57-soft-start-intermediate-curvature-obstruction.md)。
 - q060尾首valley4.625不同R21的3.125，旧h/w/K不能直接继承。[tail条件窗口](notes/2026-11-20-soft-start-tail-closure-budget.md)。geometry负责新ShortBridge真实积分；n4负责当前4.625背景真实h/w/κ。即使背景过门，非旋转新尾的实际扰动两jet仍须付。
 - R56给C²实际图/真实C¹目标g的连续矩阵证书，先相消再归一化；严格余量和收敛oracle下有限细分终止。当前无新候选已付其范围输入。[R56](results/R56-c2-jet-range-continuous-metric-certificate.md)。完整Frenet residual identity和C²标量T·Rθ已证，DFT/梯形仍只诊断。
 - FrozenPhysicalField场固定参数接口已备未执行，只改场、入口消元，保全部真DN；兼容债η=rT−CA⁻¹rE，不能偷放q/c/mean。[接口](notes/2026-11-20-n4-fixed-physical-field-refinement.md)。背景校准/warp设置也必须冻结或支付同一精确定义的求值误差；一次H请求本身未增加这些物理未知。
@@ -47,4 +48,4 @@ R55多段profile独立source `/workspace/scratch/1b6d88ecddf3/m3-work/multistage
 
 ## 持续接续
 
-[R1—R56索引](results.md)。继续新g幅度→原真尾→准确材料圆弧与完整尾/圆领/帽；并接旧live实际返回比较M12误差。最终仍须同一Cartesian二jet、固定完整g/参数/全时间误差下降、全图D/曲率/支撑/reach、固定H与全O(3)非全等。没有阶段完成即停止的许可。
+[R1—R57索引](results.md)。继续新g幅度→原真尾→准确材料圆弧与完整尾/圆领/帽；并接旧live实际返回比较M12误差。最终仍须同一Cartesian二jet、固定完整g/参数/全时间误差下降、全图D/曲率/支撑/reach、固定H与全O(3)非全等。没有阶段完成即停止的许可。
