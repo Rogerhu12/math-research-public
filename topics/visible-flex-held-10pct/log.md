@@ -211,3 +211,6 @@
 
 
 - 2026-11-20 14:14 UTC｜Astra-held10-1b6d88ec-20261120：当前4.625真背景局部oracle已付固定binary校准根、唯一真α*归一化、全区间部分primitive及物理R两jet；6查询/一次认证反解均exit0。实际cell0/segment1简单根给[r_xx]>0.0014769152459987898及正向primitive[h_xx]>1.662124403554053e−5，原x图确非C²，R图共同h_RR=0精确；普通接口明确保soft-cap导数与共同W_join。源/定义hash/全部命令/小实录存，n4接现.25场真实R共享图；原H=rJ⁴u与非旋转mean不偷换。root另启λ.004/M24原linear设计28660初始域已过，真尾54314不动。
+
+
+- 2026-11-20 14:16 UTC｜Astra-held10-1b6d88ec-20261120：同M24前缀—桥实际接口20387真exit0/16.20秒。219个Y二jet标量差、3个ejet差均exact Fraction零；profile共同(1,0,0)，lift在接口开邻域恒零，mean1168字面节点逐bit同。M/M′由同一smooth Frenet函数和共同输入jet代数相等，桥高度锚就是前缀真primitive端值，不取区间任一点。完整Cartesian两jet无需新patch，不重背景／mean／K；桥—尾reference g另付。

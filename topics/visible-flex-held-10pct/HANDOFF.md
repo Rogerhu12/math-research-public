@@ -6,7 +6,7 @@
 
 连通闭C²嵌入、C²连续族；固定有内点H且diamH≥.2D，整像δhold≥.1D及含反射δE>0，全时reach≥.03D。同一完整g/全部物理参数/时间范围下，完整metric≤1e−6且空间/频率/时间精化降至求解或机器地板；全部闭合与Cartesian两jet接口须实际支付。
 
-- 部分克隆工作树 /workspace/scratch/1b6d88ecddf3/math-research-public。已读规则提交：`1a9ebdafe689e34620ba9def2392db663983fd96`；14:15 UTC本地真实pull --rebase至该提交，双README无变。每次pull核差异，至少每小时一次；API比较不冒充pull。
+- 部分克隆工作树 /workspace/scratch/1b6d88ecddf3/math-research-public。已读规则提交：`6e04f7d7662fdc04ff1dc792a52a0643bded7ae4`；14:17 UTC本地真实pull --rebase至该提交，双README无变。每次pull核差异，至少每小时一次；API比较不冒充pull。
 - root独占git，逐结论推送，NFF立即pull --rebase/核双README后再推，禁force；令牌只在命令行。11:06 UTC终端恢复。
 - 根§12优先实际数学/求解，不重复身份核查/双审；§15再生场、网格、矩阵不入Git/Release/artifacts，只存源/参数/命令/hash/小标量。H<10KB、单MD<100KB、目录<200MB，不写根LOG。
 - 压缩不撤销旧结果。完整旧断点见[接手H](https://github.com/Rogerhu12/math-research-public/blob/9288f266d1f242b594d70a714e20340fcb876023/topics/visible-flex-held-10pct/HANDOFF.md)及[本次H到01954](https://github.com/Rogerhu12/math-research-public/blob/01954ce52ce769093d8368e8f5c9d4a980191a84/topics/visible-flex-held-10pct/HANDOFF.md)；具体note优先于摘要。
@@ -39,7 +39,7 @@ Actions run44720589640/job136234983080于12:36 UTC因请求input/native诊断键
 - **R59/R60桥已连续通过**：[R60](results/R60-actual-m24-c2-bridge-and-continuous-metric.md)绑定M24 linear、共享Hermite/解析延拓真primitive/mean1168。全角全径向metric<9.3e−7、半径<1.245/support>.3986798571/K<8.367444；同新prefix绝对z0∈[.44631325197234495,.47839691621379593]，保持完整lift/精确入口二jet。旧clipped函数非C²小差；全部表示/GL/均值转换及1830盒来源见R60，不搬到新trueDN场。
 - R56一般连续矩阵证书不重证；[mean1168解析角二导](notes/2026-11-20-m3-m24-fixed-mean-angular-second-jet.md)只作诊断。root桥旧alias原型撤销，R60只用修复源真实终态。
 - [M24真核心区间](notes/2026-11-20-m24-r53-true-core-jet-certificate.md)已付反函数/真实积分/全角κ<1.984、|Γ3|<5.298、|Γ4|<125.035；原mean1168缓存位置差<7.3e−13，仅节点。严格mean1168与外角2336数组在geometry-work；root前缀程序直接用真核心。2336角二导包围使插值余项>门，故同源4672必要细化已真过。root全prefix证书session2559在算，源certify_prefix_metric_interval_taylor.py/explicit_m24_prefix_pieces.py与[实际入口](notes/2026-11-20-m24-prefix-continuous-metric-entry.md)已存；均值/参数不变，尚未全覆盖。[同图尺寸/support](notes/2026-11-20-m24-prefix-continuous-position-support.md)已395盒真过：|F|<1.14、F·n>.504、|U×V|>.799；root同次K仍在算。中央接口已由下述R61修补，不从lift标签推精确相等。
-- **R61中央精确C²入口已付**：[实际证明](notes/2026-11-20-m24-exact-material-cylinder-inlet.md)。固定材料θ、L=1/1000 Hermite修补在内端精确接真Γ(θ)+s ez，外端修正两jet严格零；局部重新认证metric≤8.19863e−7/K≤2.18421，半径<1.14/support>.504。原mean1168是固定输入，补丁可含z零模，不冒称仍解旧演化方程。仅当前λ.002图；geometry接续prefix—bridge共同接口。
+- **R61中央精确C²入口已付**：[实际证明](notes/2026-11-20-m24-exact-material-cylinder-inlet.md)。固定材料θ、L=1/1000 Hermite修补在内端精确接真Γ(θ)+s ez，外端修正两jet严格零；局部重新认证metric≤8.19863e−7/K≤2.18421，半径<1.14/support>.504。原mean1168是固定输入，补丁可含z零模，不冒称仍解旧演化方程。仅当前λ.002图；[前缀—桥共同接口](notes/2026-11-20-m24-prefix-bridge-exact-shared-seam.md)219个Yjet差／3个ejet差精确零，同mean1168/M/M′与真高度锚相同，无需patch；geometry接桥—尾reference g。
 - [M24固定参数转换](notes/2026-11-20-m3-m24-fixed-parameter-reinterpretation.md)已真执行，δ吸收/新p0=0/23c同，完整参考与mean1168/GL6有限检查差0；FrozenPhysicalField场修正尚未执行，保原真DN。[场接口](notes/2026-11-20-n4-fixed-physical-field-refinement.md)。WeightedTailPort的H循环不更新背景assemble；calibrationSteps/warp积分设置却可能换g。完整ready/config/source/checkpoint wrapper已语法过，未跑新尾；[完整g合同](notes/2026-11-20-n4-frozen-tail-metric-identity.md)。
 
 ## 不重做的旧断点及接续
