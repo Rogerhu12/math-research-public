@@ -167,3 +167,6 @@
 
 
 - 2026-11-20 12:46 UTC｜Astra-held10-1b6d88ec-20261120：M24设计→固定参数adapter已真exit0：δ吸收原p0后固定.06413464104697915，新p0=log(.06/.06)=0、23c逐位同；631节点/42断面/1168角完整参考jet、RHS、mean/dmean、GL6高度差全0，chart回转2.22e−16。只是参数转换，原trueDN继续，场Newton/真正C²对象另付；修正核心note数学排版。
+
+
+- 2026-11-20 12:46 UTC｜Astra-held10-1b6d88ec-20261120：M24桥原GL64节点/权重精确矩与Taylor证书真exit0：解析延拓到实际end后，对R59参考二jet误差≤(7.451e−12,8.005e−12,2.779e−10)，只半径相对g转移≤1.637e−12。actual span比三binary段长和大31/2^58，原literal clip导数非小差，明确不混；公共Hermite修补另有预算，未更换live图。

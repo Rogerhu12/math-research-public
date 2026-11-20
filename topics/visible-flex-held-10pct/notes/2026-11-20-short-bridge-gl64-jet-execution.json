@@ -1,0 +1,84 @@
+{
+  "status": "executed_exit_0",
+  "scope": "Exact rational GL64 moments, true ShortBridge parameter/endpoint comparisons, and explicit terminal analytic extension. Not live full-field C2 or metric acceptance.",
+  "command": [
+    "OPENBLAS_NUM_THREADS=1",
+    "python",
+    "/workspace/scratch/1b6d88ecddf3/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4/certify_short_bridge_quadrature_jet_gap.py",
+    "--run",
+    "/workspace/scratch/1b6d88ecddf3/m3-work/newg-wide-lambda0p002-m24-linear/run.json",
+    "--source",
+    "/workspace/scratch/1b6d88ecddf3/m3-work/runtime-source/bundle/topics/visible-flex-larger-amplitude/computations/root_short_bridge.py",
+    "--prefix-end",
+    "0.49457743382696573",
+    "--end",
+    "1.4252697037606197",
+    "--extension",
+    "1e-12",
+    "--out",
+    "/workspace/scratch/1b6d88ecddf3/n4-work/short-bridge-m24-gl64-extended-gap.json"
+  ],
+  "certificate_source_sha256": "d02b262f52bbfe9daa5f2654cb0b47de6e6ec75937cdf16c1b1d97d0bf81153c",
+  "short_bridge_source_sha256": "7e00a3336a302ba94c751c09e6f75749d6973c86605269538c8f0b44c60779b4",
+  "input_run_sha256": "c44b6fd2fbb13cc9ce0451cc6ab1d3c06521de0622de27190bde94c4c550462a",
+  "output_sha256": "d9f7adabdf1621f97c637795c0b342bf18c9c05b07579325929c705637aef1dd",
+  "exact_rule_node_weight_sha256": "187d0cabd1c24a2131bc6aa47ad8f27cf141bde760ce05277fc1e49f95cb7072",
+  "moments_through": 84,
+  "interval_digits": 85,
+  "normalized_analytic_domain_upper_exact": "1000000000001/1000000000000",
+  "source_endpoints": {
+    "prefix_end": "0.49457743382696573",
+    "end": "1.4252697037606197",
+    "exact_span": "4191465360069805/4503599627370496",
+    "span_minus_bridge_L": "1/9007199254740992"
+  },
+  "source_parameters": {
+    "peak": "1.5069323382251065",
+    "eps": "0.015965997142447508",
+    "L1": "0.565099626834415",
+    "L2": "np.float64(0.34832173342948536)",
+    "L3": "0.017270909669753535",
+    "L": "np.float64(0.9306922699336538)"
+  },
+  "endpoint_scale_minus_one": {
+    "lower": -2.4666697423469555e-17,
+    "upper": -2.4666697401485776e-17,
+    "lower_exact": "-8004800971394381/324518553658426726783156020576256",
+    "upper_exact": "-8004800964260237/324518553658426726783156020576256"
+  },
+  "phase_gap_upper": 2.1517234867210353e-15,
+  "phase_derivative_gap_upper": 1.2178220211055729e-13,
+  "pulled_primitive_jet_upper": {
+    "sin": [
+      7.435028508401203e-12,
+      7.988707705642836e-12,
+      2.7789712026561006e-10
+    ],
+    "cos": [
+      7.45000065625447e-12,
+      8.004794814493901e-12,
+      2.777969505247534e-10
+    ]
+  },
+  "clipped_radius_value_to_true_primitive": {
+    "upper": 2.445900694493365e-13,
+    "upper_exact": "605575680365851/2475880078570760549798248448"
+  },
+  "clipped_hand_geo_jet_to_analytic_phase_upper": [
+    1.9885328758924765e-16,
+    1.1881427994001419e-14
+  ],
+  "radius_only_relative_metric_transfer": {
+    "upper": 1.6360539762504115e-12,
+    "upper_exact": "2025336723632437/1237940039285380274899124224"
+  },
+  "available_shared_jet_repair_maximum_upper": [
+    1.2484756830210852e-11,
+    1.104650953332617e-10,
+    1.4505403075251777e-09
+  ],
+  "live_map_repair_applied": false,
+  "libm_roundoff_certified": false,
+  "full_field_metric_certified": false,
+  "full_reproducible_outputs_in_git": false
+}
