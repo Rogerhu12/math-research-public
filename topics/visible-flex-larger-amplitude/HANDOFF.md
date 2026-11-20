@@ -4,7 +4,7 @@
 
 ## 规则与目标
 
-最近规则核查：2026-11-20 11:27 UTC，真实pull/rebase至 `27e206e68b1f4ec06b12679e785ca196698edd28`，双README相对上次已读无差异。
+最近规则核查：2026-11-20 11:34 UTC，真实pull/rebase至 `062773f222513ee80186868db57e463b2007670e`，双README相对上次已读无差异。
 
 公开仓库内工作，终端git普通push；NFF立即pull/rebase再推，每次查双README差异，至少每小时pull。根README已授权全部必要修改/发布；完整证明直接登记，不加冻结/独审门。raw只scratch，Git/Release/artifact只保小源/参数/run/SHA/紧凑结论。题≤200MB、单MD<100KB、H<10KB、open<30KB。令牌只瞬时CLI，不写文件/提交/回复。根唯一git writer，代理写work及小blob。
 
@@ -46,7 +46,7 @@
 
 - geometry_path：v4b从6077跑12步，µ.04、safety.992/linear.9918，双821 basin与已付prefix峰永久保护，每次接受独立NPZ；原1280粗列/全部同g行不改。
 - fullclosed_solver：已完成物理H首256，诚实保单峰旧scope/双峰后读；后继完整投影32行强制所有已知κ/半径及拒绝prefix位置，整线搜不淘汰。已接v4b首实盘24de父并行，57κ/13半径、64行/rank49、新半径CS4.82e−15，256实际已启动。
-- recover_evidence：占R657，def1胞839连续Gram已返严格上下界约.10186125/.10187889，保留抵消、同a五次Taylor余项约1.08e−14；说明该父必须继续求解，不能靠证明网格加密达1e−6。完整证明/源在整理，不重扫其他胞。
+- recover_evidence：[R657](results/R657-complete-closed-relative-Gram-and-same-scalar-enclosure.md)完整连续Gram接口已证，def1胞839严格上下界.10186124/.10187890，同a五次Taylor余项约1.08e−14，不能靠证明网格加密冒求解收敛。现探索固定g而保持像的单调径向重参数化，一次真实composition目标诊断；不把高次compose场冒原quintic。
 
 ## 复现与不重跑
 

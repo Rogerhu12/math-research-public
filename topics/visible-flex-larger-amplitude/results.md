@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- **R657（完整闭场连续 relative Gram 接口已证明）**：[径向抵消、完整解析角余项与准确同 g 标量](results/R657-complete-closed-relative-Gram-and-same-scalar-enclosure.md)：先展开全部 Bernstein Gram 分子为 P＋C cosδ＋S sinδ，保解析 lift、原符号节点及准确 a；有限／非带限角链和五次／高阶标量余项全部向外。固定 def1 的完整胞839真误差已严格夹于 0.10186124 与 0.10187890，不能靠证书加密变成 1e−6；标量截断相对贡献≤1.743772e−14。其余921胞未扫，非全域解或完成声明。
+
 - **R656（完整闭场的连续几何包围已证明）**：[准确 q＋未截断解析 lift 的径向／全角向外界](results/R656-fullclosed-continuous-geometry-with-complete-analytic-lift.md)：保原 alpha*S+beta 节点、准确 S/R 与全部自由系数，Bernstein＋严格三角余项同时包围实际主曲率、A₁/₄ 支持、半径与握持 witness。固定 2038 父的完整胞 821／881／895 已以 IEEE 向外算术分别给 K≤8.077131／6.482645／6.591227，三个胞支持均正；完整非零 χ 与帽已处理。其余 919 胞未覆盖，尚非全局 D／reach／held 或连续度量证书。
 
 - **R655（径向真实盲空间与 Gauss 控制已证明）**：[节点／中点 Gram 的 920 维有限幅度不变空间](results/R655-node-midpoint-blind-space-and-Gauss-control.md)：固定 H/core 时非均匀 J 节点网格有准确 J−3 维纯 Z0 盲空间，全部旧角值非线性 Gram 严格不变；五点准确控制 quintic 导数，完整六次 lift 的 Fs 用每 piece 六点，给正权积分与上确界常数。保原同 g 标量与全部未知量，不冒连续 Gram 或 reach 证书。
