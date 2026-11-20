@@ -291,3 +291,5 @@
 - [R675补充：非零解析尾的零高度角模非平面证明](results/R675-nonzero-analytic-tail-zero-mode-corollary.md) — 同场嵌入加FullHold非恒多项式角，利用cosine非有理性排除水平开片；独立v2保准确高Z与解析尾两种覆盖，不继承旧证书，尚未运行。
 
 - [R678：仅增频率时的同场、同有限目标与完整步长范数](results/R678-frequency-only-refinement-and-identical-parent-functional.md) — 原观察carrier/全部权/a/N不变，准确模态包含保持六jet及完整DI/height/H²母范数和coarse增广最小商范数；原/零或非零R671自然父完整入口已刊，实际新M求解及持续精化尚未执行。
+
+- [R680：原完整步范数中的有限几何二阶修正](results/R680-true-geometric-step-second-order-correction.md) — 正部真实越界与三阶向内项的最小范数构造，完整证明局部非线性可行并保持所选原线性不等式；未选点与真Phi接受费用分开，未实施或预设当前拒步原因。
