@@ -292,3 +292,37 @@ role: metric_point
 有限点目标下降、所有新增点通过，都不支付完整连续 $10^{-6}$。完整原活动域仍须每个原胞/真实 scalar piece 全覆盖，帽与镜像依原准确接口处理。平帽使用平面度量；若加入固定 marker 图，帽上使用各相位共同的图诱导度量，不能把它称为旧平面 $g$ 未变。最终全域/全相位 metric 结论仍只由相应同场完整上界给出。本说明不支付新的 metric、embedding、reach、精化收敛或课题完成结论。
 
 执行身份与是否已运行以正文各项状态为准，未执行准备源不冒称已有数值结果。临时数组沿原输入链再生；纯位置替代输入保计算语义，不冒称原raw报告的路径或逐字SHA。
+
+## 10. 准确点适配的最小实现边界
+
+这是对现有源的进一步静态定位，没有新增科学执行。无需改写冻结的 FullHold、ObservationPlan 或 canonical factory。现有代码没有名为 `scalar_exact_point` 的公开函数，但已有 `full.affine_time(alpha,beta)` 与 `full.at_box(sbox)`：后者返回同一点的 `a` 盒和相对 cut 的高度增量，cut 前该高度量为 `None`。新尾活动区已由原 factory 限制在 cut 后；`ctx._angle_curvature(sbox)` 可直接消费该准确时间盒。禁止先转 float-u 再调用 `reference_at/lift_at/pullback_at`，因为那会重新定义点。
+
+最小独立适配器只需承担以下五项明确责任：
+
+| 接口 | 准确输入与输出 | 不变条件 |
+|---|---|---|
+| `locate_symbolic_point` | $(\alpha,\beta)$、原 cell hint → cell、准确宽度和 $u$ 分子/分母/盒 | 不用浮点近邻、clamp 或猜测代替符号位置 |
+| `scalar_exact_point` | 同 FullHold 点 → $a$ 及 $h,h',h'',f,f',f'',k,k',k''$ 九列、载体误差 | 九列独立于当前自由 $H$；原 scalar 不换 |
+| `hermite_point_tables` | 同一符号点 → 三阶输出乘六个端 jet 的权表 | 原 shared quintic 不重新拟合；旧观察权不改 |
+| `angle_point_tables` | 准确 $\phi/\pi$ → 全部角基底载体、误差与身份 | 不强制投到旧角 grid，不丢准确相位 |
+| `RaggedMetricPoints` | 固定点表 → `residual/jvp/vjp` | 每次当前 core/$\rho$/转角/$H$ 重读；不隐含赋目标质量 |
+
+构造位置时先在符号系数上相减，再求盒：
+
+$$
+h_i=(\alpha_{i+1}-\alpha_i)S+\beta_{i+1}-\beta_i,
+\qquad u=\frac{(\alpha-\alpha_i)S+\beta-\beta_i}{h_i}.
+$$
+
+这保留共同 $S$ 的消去，不先将两个宽时间盒相减。准确节点使用相应端 jet 恒等权。若现有 $S$ 盒仍不能判定不同表达式的先后，位置归属未付，不能改用浮点猜测。
+
+需要补的小 scalar helper 是同一个 quintic cutoff 的准确点 jet：分别使用原 $\chi$ 的 $[S-\mathrm{width},S]$ 和原 $\eta$ 两个符号端点，直接包围其零/一/二阶导数，再按R671组合九列。它不需要新的积分定义。尤其不能拿 f122 为某个父 $H$ 形成的 $z=Hh+k$ 表当固定新点表；那会冻结原本允许变化的高度方向。实际当前值仍须组成
+
+$$V=\operatorname{synth}(U)+f'e_r+(h'H+k')e_z.$$
+
+已刊单点 `pullback` 从 view 的 `observation_cells`、`observation_weights`、`lift_scalar` 取径向表，故可构造直接持有这些预制表的 view，调用 `pullback(view,prepared,0,0,cotangent)`，不经 `pullback_at` 重查。六jet及角导数使用原 rotating-phi 正交分量约定，角导数包含基底旋转，不混用Cartesian余向量。
+
+旧 `pullback` 会从 `view.phi` 重新作 NumPy sin/cos。因此最小直接复用必须让 fields/Jv 使用相同载体算术，同时保准确 $\pi r$ 身份和误差。若选择整数trig盒的中点或轴上准确零作载体，应另加小的 `pullback_from_tables` 消费同一 co/si；不能用两份不同角表后仍声称Jv/VJP配对。
+
+物理 pullback 外还须准确加一次第6节的直接 $a\rho$ 分母链。多个点可将局部贡献累加到一个完整 jet/core/H 缓冲，最后调用一次原 `_free_adjoint`；无须为每点保存一条百万维余向量。全部core、节点三jet、H及固定端口政策保持。以上仅定位可复用与必新增的函数边界，未写或运行一个假定失败位置的新适配器；外层目标/约束策略仍按第5节真实选择。
+

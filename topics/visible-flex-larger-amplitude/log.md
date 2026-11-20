@@ -205,3 +205,5 @@
 2026-11-20 16:54 UTC / Astra-larger-resume-24b2ab87-20261120：R679完整证明刊：固定同场/径向/M/全范数时N→2N，quarter旧列2k、端点2/内部4准确保，Phi为旧偶/新奇各半，gradient/正残差Hessian同分解、同场max单调、w_min减半。明确条件π²B2/(3N²)均值/πLE/N峰间界但实际常数未付；新Phi不能减旧Phi冒求解下降。最小共同buffer reader保父/子even/odd/all，新H或N不冒时间相位；无新科学/driver/排算。
 
 2026-11-20 17:03 UTC / Astra-larger-resume-24b2ab87-20261120：R681新完整结构刊：沿用R654，物理W=(Q,I)/sqrt2及一般K的(Q,K)框架避开零场核；Q/QT用局部差分/原B无需巨大Q。先把当前Cartesian六张量共轭到moving R/T/Z（现缓存本已如此），再用0–24角矩保全部点/高模/正谱权恢复2534粗列Gram；真实Hermite(b−h)+h高度列不换理想b。原q/mu²||z||²不变的SPD/PCG/释放责任齐，无科学/新driver/条件数改善承诺。
+
+2026-11-20 17:04 UTC / Astra-larger-resume-24b2ab87-20261120：R682补具体五函数职责：真实full.affine_time/at_box与_angle_curvature可直接保αS+β；只补准确cutoff/Hermite/角表，不经float-u重查。缓存九列h/f/k而非已代父H的z；当前core/H每次更新。原single-view pullback直接消费预制权，角表/rotating-frame一致，直接rho分母链加一次；多点汇总一个fulljet后free_adjoint，无新科学/大源/排算。
