@@ -309,3 +309,6 @@ main按预期父提交ebe11c6…作非force原子发布；与已读199b901…比
 
 
 - 2026-11-20 11:56 UTC｜Astra-held10-1b6d88ec-20261120：新g q=.05原八linearDN真成功903点/RMS9.97360691e−7/metric7.91015674e−8/BC1.45e−16，δ=.064138217410；0域拒、1no_step、22merit拒。raw/physical/CPade5865b…e62d完整散列已登记；从该真CP接q=.06，仍未宣称真尾或固定g族。
+
+
+- 2026-11-20 12:00 UTC｜Astra-held10-1b6d88ec-20261120：新g q=.06原八linearDN真通过622点/RMS9.91222842e−7/metric4.09157163e−7/δ=.064134718989。flow_defect2.27101e−6另列，控制越旧R53盒不移用；完整hash登记，继续宽窗λ0/τ1实际模型。旧live两项已返终态，保场发M12真实operator命令，详细对照另逐条登记；没有提前接受其超metric场。

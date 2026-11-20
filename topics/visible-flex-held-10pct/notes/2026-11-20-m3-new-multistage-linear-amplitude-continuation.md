@@ -185,3 +185,38 @@ DomainNewton 为 calls=5、accepted_steps=7、merit 拒绝=22、domain 拒绝=0�
 | `physical.npz` | `9726c59db6ed27fed83569750a761afe1c6a497d3fd88d7d95fac07bff6ae750` |
 | `checkpoint.json.gz` | `ade5865bc8fdc7e22a29fef229cb6ee75d648e732f3cd7f5d68cae874851e62d` |
 | `run.json` | `036bdff387b0d75c0571896225033ff171b2b678f255eda32d330ca4df4e4052` |
+
+## q=.060：新 g 的完整幅度暖锚
+
+Q=.06，PREVIOUS=newg-q050-linear，TAG=newg-q060-linear。
+上一 checkpoint SHA256 为
+`ade5865bc8fdc7e22a29fef229cb6ee75d648e732f3cd7f5d68cae874851e62d`。
+实际 exit 0，solver_success=true，622 点，5 个网格，约 98.45 秒。
+
+| 指标 | 实际值 |
+|---|---:|
+| 最大 collocation RMS | 9.912228419659946e-07 |
+| metric_l1 | 4.0915716285294446e-07 |
+| flow_defect | 2.2710106762803862e-06 |
+| Darboux l1 | 0.0006569682836882621 |
+| physical BC max | 1.0186975093434908e-16 |
+| 曲率采样最大值 | 8.900697822270415 |
+| delta | 0.06413471898892625 |
+
+DomainNewton 为 calls=5、accepted_steps=12、merit 拒绝=33、domain 拒绝=0、no_step=1、最小 alpha=0.03125。物理 c6,...,c24 为
+
+    [0.0004660413545445234, -4.513133403089269e-05, 2.1365381257287638e-06, 9.165669175004054e-07, 4.3695810197724855e-08, 7.099644019307281e-09, 1.2891436997542135e-08]
+
+| 返回文件 | SHA256 |
+|---|---|
+| raw `inner-00.npz` | `0ab581024f94d79edc6278683f5ab7471e88af5ea509cf40aa6e2f0225fca215` |
+| `physical.npz` | `f36f099ece34fff885539142991fa7fdda8132ee582181973a5a153c279c09e3` |
+| `checkpoint.json.gz` | `4ebecc79f0401947dd76800ac2957cdf029ffdb6236fc2d67e9e9adaa4f7b35f` |
+| `run.json` | `104f6cf51469874e7f9a49bff72896e76aa9394d7b070107bc16a16fae4445fd` |
+
+这里原 metric_l1 门通过，但 flow_defect=2.27101e-6 单列为其实际值，
+没有把它改名成更强的全角流方程门通过。c9、c12 等也已超出旧 R53
+控制盒；旧盒的具体曲率/相位数字不能移用。后续新宽窗材料入口
+设 S=.5、b=.2、目标 k=.2，先在 lambda=0、tau=1 复接完整精确
+lift 模型，再从小正 lambda 求解；不经过未经耗尽门支付的
+lambda=1、tau=0 准确圆片。该后续过程独立记录，本幅度表不预报其成功。

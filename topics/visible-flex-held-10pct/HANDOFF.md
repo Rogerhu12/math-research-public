@@ -6,7 +6,7 @@
 
 连通闭C²嵌入、C²连续族；固定有内点H且diamH≥.2D，整像δhold≥.1D及含反射δE>0，全时reach≥.03D。同一完整g/全部物理参数/时间范围下，完整metric≤1e−6且空间/频率/时间精化降至求解或机器地板；全部闭合与Cartesian两jet接口须实际支付。
 
-- 部分克隆工作树 /workspace/scratch/1b6d88ecddf3/math-research-public。已读规则提交：`316851a5b419e559316f5ce225037f34fde2103e`；11:57 UTC本地真实pull --rebase至该提交，双README无变。每次pull检查双README差异，至少每小时一次；API比较不冒充pull。
+- 部分克隆工作树 /workspace/scratch/1b6d88ecddf3/math-research-public。已读规则提交：`d1e48c72df4ab14d63e2f5ed1082302e00219ccf`；12:00 UTC本地真实pull --rebase至该提交，双README无变。每次pull检查双README差异，至少每小时一次；API比较不冒充pull。
 - root独占git，逐结论推送，NFF立即pull --rebase/核双README后再推，禁force；令牌只在命令行。11:06 UTC终端已恢复。
 - 根§12优先实际数学/求解，不重复身份核查/双审；§15再生场、网格、矩阵不入Git/Release/artifacts，只存源/参数/命令/hash/小标量。H<10KB、单MD<100KB、目录<200MB，不写根LOG。
 - 压缩不撤销旧结果。完整旧断点见[接手H](https://github.com/Rogerhu12/math-research-public/blob/9288f266d1f242b594d70a714e20340fcb876023/topics/visible-flex-held-10pct/HANDOFF.md)和[本次H到73e060](https://github.com/Rogerhu12/math-research-public/blob/73e060110b34d302cc86f920a7b054590afbe8fd/topics/visible-flex-held-10pct/HANDOFF.md)；其链接的具体note优先于压缩摘要。
@@ -15,7 +15,7 @@
 
 R55多段profile独立source `/workspace/scratch/1b6d88ecddf3/m3-work/multistage-source-v2`；全部段长按δ/.06缩放，原ShortBridge curvature4/peak_fraction.2不变。二jet/chart接口实际通过。线性mode3根δ=.06414432506418023、残差3.38e−13；参考参数为 scripts/resume_m3/multistage_profile_linear_root.json。[源码/校准/重建](notes/2026-11-20-m3-multistage-profile-provider-and-interface.md)。
 
-**q=.006/.012/.02/.03/.04/.05全原八linearDN已真过**，没有H1替代。末 q=.05：903点/RMS9.97360691e−7/metric_l1 7.91015674e−8/BC1.45207e−16，δ=.0641382174100334。完整场在上述scratch的 `newg-q050-linear`；checkpoint SHAade5865bc8fdc7e22a29fef229cb6ee75d648e732f3cd7f5d68cae874851e62d。**q=.06正从此真CP续算**，原门不变。q=.03的中途RMS平台最终自行通过3260点，未重启或放门。[首解](notes/2026-11-20-m3-new-multistage-q006-original-linear-dn.md)、[各步完整参数/hash](notes/2026-11-20-m3-new-multistage-linear-amplitude-continuation.md)。
+**q=.006/.012/.02/.03/.04/.05/.06全原八linearDN已真过**，没有H1替代。末 q=.06：622点/RMS9.91222842e−7/metric_l1 4.09157163e−7/BC1.02e−16，δ=.06413471898892626。完整场在上述scratch的 `newg-q060-linear`；checkpoint SHA4ebecc79f0401947dd76800ac2957cdf029ffdb6236fc2d67e9e9adaa4f7b35f。原门不变；flow_defect2.27101e−6仍单列，c已越旧R53盒。接宽窗λ0/τ1完整lift模型，实际返回另记。q=.03的中途RMS平台最终自行通过3260点，未重启或放门。[首解](notes/2026-11-20-m3-new-multistage-q006-original-linear-dn.md)、[各步完整参数/hash](notes/2026-11-20-m3-new-multistage-linear-amplitude-continuation.md)。
 
 δ/c仍是设计未知，不是同一冻结g的族。新g真尾必须独立work绑定新source/profile/原chart与tail，不能复用旧live bootstrap自动读旧g。m3-work/newg-native已实际安装shared/periodic/native源链，尚未调用真尾。后续宽窗S=.5/b=.2先在λ=0选τ=1，再逐步圆化到最终k=.2；不能搬当前旧live的S=.21数值。
 
@@ -26,8 +26,8 @@ R55多段profile独立source `/workspace/scratch/1b6d88ecddf3/m3-work/multistage
 - 旧H1暖恢复q=.006→.06已全过，末605点/metric3.45348e−8；raw在height-warm-resume01-05-q0.0600000/inner-00.npz。它仍欠首原DN约−4.20e−6，不当trueDN。原q006失败/暖重网格/STATS已登记，不重跑。
 - λ=.02全原linearDN再生真过605点/RMS9.99096e−7，但metric_l1 2.39286785e−5未门。源场 `material-lam002-linear`：raw SHA2a6f97324986437e2f065bf29e98d55b48e43cf19a3bb9fc321fad7b27d197a4；physical SHA c54e932618ef7c0f9f16df4e3f2a016983922eba2fb9deb0d64306bcdec04dff。[返回](notes/2026-11-20-live-material-lambda002-return.json)。
 - 同场固定mean512审计真exit0：N1024 operator峰2.1302182e−5，完整R=2.26536e−4，径向缺陷仅2.96e−8；ψ26—50壳主导，mean512/1024差2.44e−15。只换当前径向导数最多改节点metric<6e−8，不能解释超门。[实际审计](notes/2026-11-20-material-actual-audits-and-tail-start.md)。这是浮点同场事实，不是连续真实g证书。
-- 首trueDN在ready前因LD继承覆盖被原native guard拒，calls0，不是数学尾失败。清子环境且同Python/NumPy/SciPy导入已真过；**当前held10-clean-runtime-and-m12-01中的M8真尾仍在material-runtime-retry01，native_ready后尚无终态**。
-- M12真实port/完整lift已exit0，角求积256付原N>144，二jet差≤4e−15；初猜/port在 `material-lam002-m12-transfer-v2`，未作BVP接受。[记录](notes/2026-11-20-material-m12-full-transfer-return.md)。**已排队held10-material-m12-linear-01**，等当前命令结束后从该初猜解原M12 linearDN，λ=.02及原门不变。新请求同时保读M8最终数据，勿丢终态。
+- 首trueDN在ready前因LD继承覆盖被原native guard拒，calls0，不是数学尾失败。清子环境且同Python/NumPy/SciPy导入已真过；**M8真尾已有终态**：两外迭代过原trueDN与射击门，但prefix metric2.39288e−5仍未门；目录material-runtime-retry01，完整seam与返回另记。
+- M12真实port/完整lift已exit0，角求积256付原N>144，二jet差≤4e−15；初猜/port在 `material-lam002-m12-transfer-v2`，未作BVP接受。[记录](notes/2026-11-20-material-m12-full-transfer-return.md)。M12原linearDN已真过605点/两全步，metric_l1降至7.61134e−6仍未门。**新命令held10-material-m12-operator-01**对这个真实场作mean512固定的N512/1024 operator审计，λ未前进。
 
 ## 几何、证书与尚欠步骤
 
