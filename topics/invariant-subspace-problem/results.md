@@ -324,3 +324,5 @@
 - **原Deddens负幂自然域与等距共轭（2026-11-20，已证明）：** [完整域支付、真实原像及稠密核心](results/R12-appendix-deddens-negative-domains-and-isometric-conjugation.md)由原归一化二幂的弱极限与准确平方范数极限，先证X保持全部RanA^k，再无因子损失地以同一c_A控制负幂。Φ=AXA⁻¹和Ψ=A⁻¹XA互逆保c，任意R_n A递推保唯一原像公式；∩A^kM在每个真实不变M中稠密。未付原像增长，不把裸逆延为有界或生成闭不变量。
 
 - **R271 奇高度最高carry的完整简单逆极点（2026-11-20，已证明）：** [全部原头/强段、物理剪切与真核解析](results/R271-appendix-odd-height-highest-carry-full-mp-simple-pole.md)以偶链无长度r推出D^(r−1)=D^rP+QD^r，原物理MP明确构造P/Q，再精确左右剪切消最高Boolean项。原N/Y、任意偶R与奇r的完整逆至多t⁻¹，全部新增秩一阶开齐；偶r最小例有t⁻²。未宣原源消奇性。
+
+- **R271 原最高carry逆的883统一常数与R=d预算（2026-11-20，已证明）：** [原逆芽、实际相似及全部强段费用](results/R271-appendix-odd-height-highest-carry-explicit-883-cost-and-d-sized-budget.md)保真实输入列W_j给参考头441a，旧头221a；完整sl2条件数含((n−1)!)²(2n−1)!B_R³，合成R=d逆≤t⁻¹exp(883a+21nlogx)。原t指数1400a主阶，完整源若另有二阶/次主阶系数才余517a；此源条件未得，真实费用仍开。

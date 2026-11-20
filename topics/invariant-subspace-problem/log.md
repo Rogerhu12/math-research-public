@@ -477,3 +477,7 @@ AI-assisted GPT-6 Astra Pro：先以有界弱聚点支付全部负幂域，再�
 ## 2026-11-20 10:27:29 UTC — Astra-ISP-b2a9acde-20261120：奇高度真实最高carry的完整MP极点
 AI-assisted GPT-6 Astra Pro：偶链/奇高度的精确P/Q恒等与原物理MP给固定剪切，全部原N/Y头与偶强段的完整逆仅t⁻¹；新增秩全一阶，真核/范围框架明确，偶高度反例保留。
 证明见results/R271-appendix-odd-height-highest-carry-full-mp-simple-pole.md。源兼容性另付，未从小carry推小费；旧H全快照，继续源极点和真实常数。
+
+## 2026-11-20 10:27:52 UTC — Astra-ISP-b2a9acde-20261120：最高carry全逆883常数与R=d预算
+AI-assisted GPT-6 Astra Pro：根重读R239原逆芽/权位置/221常数，逐核新参考441、完整sl2阶乘/强段费及两次物理剪切，得到原R=d的883统一逆界与条件517余量。
+完整证明见results/R271-appendix-odd-height-highest-carry-explicit-883-cost-and-d-sized-budget.md。未宣完整Galerkin源二阶；继续源极点和旧carry残余，不把常数预算替代实际费用。

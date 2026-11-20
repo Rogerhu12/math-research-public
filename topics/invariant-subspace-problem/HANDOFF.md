@@ -7,7 +7,7 @@
 - **未完成：** 普通复可分无限维 Hilbert ISP。仅全体有界算子的存在定理或完整反例满足完成标准；子问题结束继续open，不以阶段报告或时限停止。
 - **最近成功实际 pull 与已读规则提交：** `c439767c4c31c29ff502ecd470b8780ca724d08d`（2026-11-20 10:03:22 UTC，Actions run44715907411/job136219123185）。真实pull --rebase成功，两README blob未变，原日志已取核。
 - 仅授权Rogerhu12/math-research-public。根独占main/H/open/results/log，代理交冻结稿。逐结论实际终端push，非快进立即pull --rebase再推至成功，不force；至少每小时和推前实际pull，比两README blob，仅新diff重读并立即遵守。
-- **最近API同步及规则核对：** `d8ba182736c9bfc017fd46340b2fdf8b7296049f`（2026-11-20 10:27:34 UTC）；两README blob均未变。API快照不冒称实际git pull，另记真实执行回执。
+- **最近API同步及规则核对：** `93ea328201bb907943f0375dc49d77043d5f0b4c`（2026-11-20 10:27:56 UTC）；两README blob均未变。API快照不冒称实际git pull，另记真实执行回执。
 - 根README blob282e86b03385d3b6245ce7100ae2e2af7b103c2d、课题4d6570e9cf346431ab781a1290076a6321aaaa00已完整读。令牌仅CLI环境或已有Actions secret，不进文件/日志/config。规则15：可重算数组/数据/证书不进Git、Release或新工件，仅源码/参数/运行身份/SHA及正式证明。API仅UTF8<100KB，MD<100KB，H≤10000B，open尽量≤30KB，topic≤200MB，log每条≤5行、数学美元符、AI署名，不写根LOG。
 - actual-pull工作流已修当前根README预期blob；本地不可用时继续用真实Actions pull维持至少每小时同步，两README变动即读差异。
 - 2026-11-20 09:49 UTC本地executor断开且environment unavailable；已成小文本用GitHub接口按根规则8提交，恢复后先检查未推本地a06d8dbd8与远端等价内容，避免重复。原部分克隆约96MB，旧TMP不假存活。
@@ -47,6 +47,6 @@ M=kerT，N=closure BM；N=M仍开。保same-w/u、全部partial、真intersectio
 - [完整纯远孔门](results/R271-appendix-dual-tower-kernel-only-error-pure-far-height-representatives-and-joint-reciprocal-budget.md)：全kerC^r Galerkin与全((C*)^r)†，canonical误差只乘范数≤1真核列；非零锚必要Σκ⁻²有限，实际费用尚开。
 - [四维头消奇](results/R271-appendix-actual-four-head-triple-hole-cost-cancellation-and-fixed-even-prefix-central-order.md)：m2/R2全核给κ²<e⁻²⁰⁰⁰；固定偶R的全MP t⁻¹、ξ=O_R(t²)，R≥4全q=O_R(t²)、固定Schur中央分量O_R(t^{R/2})。所有常数/邻域非统一，小头不在旧高度窗，不能逐头套。
 - **[分离高度令R=d](results/R271-appendix-separated-height-bands-exact-full-head-bessel-and-d-sized-prefix-budget.md)。** m∈4ℕ≥20,d=2^m,x=m+d,Q=4d；I_m取floor(√(x+1)/(8(m+1)))上半带。跨头全β行正交/Bessel1，同一w/Q联合倒数门成立；不借旧帽运输，实际费用未付。
-- **[奇高度最高carry完整MP仅简单极点](results/R271-appendix-odd-height-highest-carry-full-mp-simple-pole.md)已闭。** 任意原N/Y旧头、偶R、奇r，全部Jordan链偶长⇒D^(r−1)=D^rP+QD^r；显式物理剪切消最高Boolean项，参考相似给全逆≤t⁻¹(1+rbM_r)²‖Xhat1†‖。全部新增秩一阶开齐且真核/范围解析；偶r可二阶极点。未证源消奇。
+- **[奇高度最高carry完整MP仅简单极点](results/R271-appendix-odd-height-highest-carry-full-mp-simple-pole.md)已闭。** 任意原N/Y旧头、偶R、奇r，全部Jordan链偶长⇒D^(r−1)=D^rP+QD^r；显式物理剪切消最高Boolean项，参考相似给全逆≤t⁻¹(1+rbM_r)²‖Xhat1†‖。全部新增秩一阶开齐且真核/范围解析；偶r可二阶极点。未证源消奇。[统一真实常数](results/R271-appendix-odd-height-highest-carry-explicit-883-cost-and-d-sized-budget.md)已付：a=16^(m−2)、n=2^(m−1)，旧/参考头条件数e^{221a}/e^{441a}，R=d完整逆≤t⁻¹exp(883a+21nlog(m+2n))。只有另证完整ξ≤L t²且logL=o(a)，才有517a主阶余量。
 - 主门：增长R=d与允许高度的完整源实际费用、同w倒数和发散、负部返回与全帽逆后误差。G_reg/carry、Haar循环及归档open继续。
 
