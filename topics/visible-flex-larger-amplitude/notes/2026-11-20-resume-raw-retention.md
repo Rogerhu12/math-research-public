@@ -178,3 +178,28 @@ python topics/visible-flex-larger-amplitude/computations/tail_r33_high_joint_box
 ~~~
 
 恢复先核上述输入SHA；计时与路径可能不同，所以逐字历史输出用git show恢复。旧报告实际2.5392517930004033秒、峰RSS73304KiB，五个gate true且failure null；low46_held_fixed=true、low_feedback_paid=false、whole_head_closed=false，始终仅是固定低46场的条件高块响应。R33既有证明不改。R33 §13的旧raw链接应依本节恢复，不再称当前树可打开；未来消费者若用该旧报告须显式传入scratch恢复路径，完整源码和参数不缺。
+
+## 2026-11-20 第六次容量操作：R33 常strip低源后的旧联合盒
+
+普通移出 notes/2026-11-12-tail-r33-plateau2-high-joint-wide-low.json，657103B，SHA256 7306027ee5e4e1b29cf9881c4962fef1cf6b8894fa4f979973f5d7a78265587f；Git blob0998ee9426c0054011649519b337eb2340ee4eb0。逐字文件已核可从固定公开提交870b797170b94046c25ab4209722265aa8637174恢复，scratch副本保留。当前closed链不依赖它。仅核字节、源和元数据；没有重跑科学结论。
+
+该raw实际adapter SHA为b27785f57335d8e9f288f30132afc25cba51995ad87152e3242b5a5311d8e212，并非当前带domain-weight-floor的a60eb9…版本。此次从当前adapter移除后来新增的floor参数/三行weight替换/输出标签，精确还原2647B原source并核得相同SHA；完整字节另存 computations/tail_r33_refined_high_joint_box_before_floor.py，原文件不改。该恢复只处理源文本，没有执行科学代码。它按同目录载入完整base tail_r33_high_joint_box.py（6729B，SHA0883e4fd68fa2941588236ab6b8e921fb0b0b1b8193aa7fce6f5aeec208386be）；另两import源closure_real_head_source_enclosure.py/closure_real_head_green_enclosure.py的完整字节及SHA已在第五节登记且仍保。不能用只带SHA的说明替代这些完整源。
+
+三个实际输入与第四节完全相同：density-window SHA0b493a5278ce08d12ed1d83add9dd3214125d971e746c750dfa42efa0729ace9；middle-causal-box-v2 SHA07c428b0c1a1977985200172dbee0bf14ae57e5fd4ea97ddebdf9b671479b3e6；middle-wide-low-density SHA4c79356c3791dd491fbf5c4222a0051ab0046923718f1f26ba1be09eef1fd089。本次再次逐字核固定8ef38046e8b04adc6da1093c0730e1fc8747c2c9中的三件输入，其blob与第四节表一致。arb192；infinite-radius-log2=-110直接由raw准确mantissa1/binary_exponent−110确认；z_log2=-2231从同middle继承；这个旧adapter没有domain-weight-floor。
+
+完整恢复与公开Actions scratch复算命令：
+
+~~~sh
+mkdir -p "$r33scratch"
+for name in 2026-11-12-tail-r33-plateau2-density-window.json.gz 2026-11-12-tail-r33-plateau2-middle-causal-box-v2.json.gz 2026-11-12-tail-r33-plateau2-middle-wide-low-density.json.gz; do
+  git show 8ef38046e8b04adc6da1093c0730e1fc8747c2c9:topics/visible-flex-larger-amplitude/notes/$name > "$r33scratch/$name"
+done
+git show 870b797170b94046c25ab4209722265aa8637174:topics/visible-flex-larger-amplitude/notes/2026-11-12-tail-r33-plateau2-high-joint-wide-low.json > "$r33scratch/original-wide-low-joint.json"
+python topics/visible-flex-larger-amplitude/computations/tail_r33_refined_high_joint_box_before_floor.py \
+ --density "$r33scratch/2026-11-12-tail-r33-plateau2-density-window.json.gz" \
+ --middle "$r33scratch/2026-11-12-tail-r33-plateau2-middle-causal-box-v2.json.gz" \
+ --wide-hybrid "$r33scratch/2026-11-12-tail-r33-plateau2-middle-wide-low-density.json.gz" \
+ --infinite-radius-log2 -110 --out "$r33scratch/recomputed-wide-low-joint.json"
+~~~
+
+恢复核原SHA；复算计时/路径字段可不同，逐字原报告以固定git show恢复。实际旧报告五个gate全true、failure=null，elapsed1.3349231330003022秒、峰RSS117968KiB；phase2-manifest只明记all_jobs_in_this_manifest_exited=true，本条不补造该进程原poll退出码。low46_held_fixed=true、low_feedback_paid=false、whole_head_closed=false，仍只付固定低46的条件高响应，不冒后来的新coupling范数或完整闭解。旧phase2-manifest中的raw路径是历史记录；此后消费者须显式指向上述scratch恢复文件，不能误称当前树仍有raw。
