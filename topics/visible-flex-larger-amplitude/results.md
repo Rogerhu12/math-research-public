@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- **R656（完整闭场的连续几何包围已证明）**：[准确 q＋未截断解析 lift 的径向／全角向外界](results/R656-fullclosed-continuous-geometry-with-complete-analytic-lift.md)：保原 alpha*S+beta 节点、准确 S/R 与全部自由系数，Bernstein＋严格三角余项同时包围实际主曲率、A₁/₄ 支持、半径与握持 witness。固定 2038 父的完整胞 821／881／895 已以 IEEE 向外算术分别给 K≤8.077131／6.482645／6.591227，三个胞支持均正；完整非零 χ 与帽已处理。其余 919 胞未覆盖，尚非全局 D／reach／held 或连续度量证书。
+
 - **R655（径向真实盲空间与 Gauss 控制已证明）**：[节点／中点 Gram 的 920 维有限幅度不变空间](results/R655-node-midpoint-blind-space-and-Gauss-control.md)：固定 H/core 时非均匀 J 节点网格有准确 J−3 维纯 Z0 盲空间，全部旧角值非线性 Gram 严格不变；五点准确控制 quintic 导数，完整六次 lift 的 Fs 用每 piece 六点，给正权积分与上确界常数。保原同 g 标量与全部未知量，不冒连续 Gram 或 reach 证书。
 
 - **R654（完整 H² 坐标范数与端口谱界已证明）**：[全部 quintic 缺陷、准确小块端口及同范数增广](results/R654-complete-integrated-H2-norm-and-endpoint-spectrum.md)：保留全部 A/E/D/core/H；D/h 尺度与真实胞内二阶导数平方积分以 1/11、18 统一等价，原 L² 与新 H² 端口的对角归一化条件数均不依赖最小胞宽或角模；粗列同范数白化最多减半平方步范数。非闭解、曲率或 reach 证书。

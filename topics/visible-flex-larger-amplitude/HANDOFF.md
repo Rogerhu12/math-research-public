@@ -4,7 +4,7 @@
 
 ## 规则与来源
 
-最近规则核查：2026-11-20 11:06 UTC，真实pull/rebase至 `d5d1ed2031ad192e3795e9f76184aee876900ac9`，双README相对上次已读无差异。
+最近规则核查：2026-11-20 11:12 UTC，真实pull/rebase至 `6387a5a69b5d8d5a05b66d3f10978beb18fa0829`，双README相对上次已读无差异。
 
 公开仓库内工作；终端git普通push，NFF立即pull/rebase再推，每次检查双README差异，至少每小时pull。原README授权全部必要修改/发布，无需再问；完整证明直接登记，不加冻结/独审/额外验收流程。可重算raw只scratch，Git/Release/artifact不存；只保源、参数、run/SHA及紧凑结论。题≤200MB、单MD<100KB、H<10KB、open<30KB。令牌仅瞬时CLI，不写文件/提交/回复。旧完整责任保[11/20早期交接](https://github.com/Rogerhu12/math-research-public/blob/e6503907bb671290bd2b6e3c4051d98c3958a6d1/topics/visible-flex-larger-amplitude/HANDOFF.md)及open§1–7，不把failed/partial/unreturned互换。
 
@@ -34,7 +34,7 @@ R648原全开放prefix连续Gram<4.94e−7，R651 K≤7.04608，R652加权支持
 
 **更好可行父def1**：[全Gauss完整H²投影首步](notes/2026-11-20-gauss-fullspace-projected-first-result.md)从2038真实256inner/361.71秒，alpha1/4接受；Jw.981295539514、all_raw926.550658/legacy231.298204、Gram.101865681992，Gauss产品.973007294180。完整observed转置CS≤3.69e−14、active16/rank8；非无约束full收敛。一次新增任意点cell821 u.110229249059/phi.637233178888给K7.969807246586/产品.977918933825<.98。父work/fullclosed_solver/gauss-h2-projected-first-fixed/final.npz，SHA `def1ccbded6c463a014a71a39f259c59501412d5c84afec07ce7253c9dc34f5d`，原始与局部均仅数值必要筛选。
 
-**正在续：** geometry_path接任意(u,phi)约束/回溯响应阻尼；3a3恢复的负右端禁止向零缩步，失败回def1。fullclosed_solver下一完整方向解耦物理平滑H与−χ补偿并加该任意点。recover_evidence占R656，用真实αS+β/S/R/准确core端口及向外算术做完整q+lift连续几何接口；2038胞821已返K≤8.077130178、支持≥.448878962，续881/895同父，不提前全922批。[真实加权谱](notes/2026-11-20-gauss-weighted-residual-spectrum.md)已返：90%角能量≤mode7，49.39%目标在s1.1–1.6，峰为径向伸长；优先物理H/径向与几何恢复，不盲扩频。
+**正在续：** geometry_path已用v4a跑3a3任意点恢复，负右端用一般半空间投影，不向零缩步；首方向线性可行但真线搜全拒，µ已增，失败回def1。fullclosed_solver已从def1启动物理H三角坐标/任意点的完整256方向。[R656](results/R656-fullclosed-continuous-geometry-with-complete-analytic-lift.md)完整连续几何接口已证：真实αS+β/S/R/core端口、未截断lift、向外Bernstein/角余项；固定2038胞821/881/895给K≤8.077131/6.482645/6.591227，支持均正，帽/witness同付，其余919胞未扫。recover_evidence转def1胞839连续Gram的抵消保留接口，不拿几何分量大盒冒小metric误差。[真实加权谱](notes/2026-11-20-gauss-weighted-residual-spectrum.md)已返：90%角能量≤mode7，49.39%目标在s1.1–1.6，峰为径向伸长；优先物理H/径向与几何恢复，不盲扩频。
 
 ## 已完成数值及失败，不重复
 
