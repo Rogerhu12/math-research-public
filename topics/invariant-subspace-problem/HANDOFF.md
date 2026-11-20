@@ -5,8 +5,8 @@
 ## 主目标、规则与执行
 
 - **普通复可分无限维Hilbert ISP未完成。** 只有全体有界算子的存在定理或完整反例才收尾；子问题完成继续open，不以阶段或时限停止。
-- **最近成功实际pull与已读规则提交：** 9a2438864d44ac440b4ac822c02ccf3092fcbd5f，2026-11-20 10:42:57 UTC，Actions run44721549495/job136238284100；真实git pull --rebase成功，两README未变，原日志已核。下一实际pull不得迟于11:42 UTC。
-- **最近API同步及规则核对：** `2ecb48e6bb3abd62d4a37f3b99a9426afd85b03f`（2026-11-20 10:48:46 UTC）；两README blob均未变。API快照不冒称实际git pull，另记真实执行回执。
+- **最近成功实际pull与已读规则提交：** e7e7b9ec349f1bec3d775f1eab35fd5869e27a79，2026-11-20 10:46:24 UTC，Actions run44722024572/job136239897518；真实git pull --rebase成功，两README未变，原日志已核。下一实际pull不得迟于11:46 UTC。
+- **最近API同步及规则核对：** `95dad3c11774cfe1b59339aa363b586a9cdc48fb`（2026-11-20 10:52:17 UTC）；两README blob均未变。API快照不冒称实际git pull，另记真实执行回执。
 - 根README blob282e86b03385d3b6245ce7100ae2e2af7b103c2d、课题4d6570e9cf346431ab781a1290076a6321aaaa00已全文读。每次pull比两README，只读新diff并立即遵守；至少每小时及发布前同步，SHA写H。
 - 仅授权Rogerhu12/math-research-public。root独占main/H/open/results/log和发布，代理只交proof blob；每条结论单独提交推送，非快进立即更新/rebase重试成功，不force。用户PAT仅CLI环境，不进文件/config/日志。
 - 根规则15：可重算数组/数据/证书不进Git、Release或新工件；仅源码、参数、运行身份/SHA及正式证明。MD/API UTF8<100KB、H≤10000B、open尽量≤30KB、topic≤200MB、log每条≤5行、数学美元符及AI署名，不写根LOG。
@@ -23,7 +23,7 @@
 - **rankH4在非单位局部块长度5、4、3均已排除：** [5](results/R150-appendix-essential-four-local-five-jet-rank-four-branch-is-empty.md)、[4](results/R150-appendix-essential-four-local-four-jet-rank-four-branch-is-empty.md)、[3](results/R150-appendix-essential-four-local-three-jet-rank-four-branches-are-empty.md)。允许物理规范保同一L/K/矩，最高与mean/H原梯度逐支迫禁等向三jet或2+1；半权及∞全含。
 - [长度2单零的全等向单位补支已空](results/R150-appendix-essential-four-double-zero-rank-four-isotropic-active-branch-is-empty.md)：原mean令cross列只取0/2d0，最高及真Gram秩排两支；W±根集互斥排剩余三点支。只排K_active=0，非零Gram另解。
 - **[unit三重点+长度2单零也已空](results/R150-appendix-essential-four-unit-three-jet-double-zero-rank-four-branch-is-empty.md)。** 原mean四式、zero base的原highest/N及真Gram秩逐支排，非零支只余两二次因子且各自矛盾，无CAS。divisor3+2两种rank4缺陷放置全闭；长度2单零的unit补因子仅余2+1/三个单点。
-- **运行中：** unit四jet+isolated zero的完整原源已根核，短只读Actions正在执行Q[r]的H/M精确gcd；只存源码/参数/运行SHA，不保存可重算余式表，待实际run后登记整支结果。
+- **[unit四jet+孤立零点也已空](results/R150-appendix-essential-four-unit-four-jet-isolated-zero-rank-four-branch-is-empty.md)。** 原mean四式/highest三阶/N基点全核，所有除法例外排；regular的H6/M8原必要式在短run44722024572精确Q gcd=1（六步），只存源/运行/SHA。divisor4+1两种rank4缺陷放置全闭；isolated zero只余split unit长度4。
 - **当前仍开：** rankH4的其余长度2单零及零单点；全部rankH5单位支。y∈W、ess5/6、完整Bell幂来源/算子桥也仍开。代理的新支路稿先经根核再登记，不将草稿预填为结论。
 
 ## R271：同w的完整源费用

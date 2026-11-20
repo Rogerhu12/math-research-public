@@ -128,3 +128,5 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 **[原全部交换子的最优收缩多项式/有限头逼近已闭](results/R12-appendix-contractive-polynomial-density-of-full-haar-commutant.md)。** 直接从原A=J_N⊗I+e0,N−1⊗B_m的精确块关系，压缩上三角和多项式截断误差≤ε_m‖X‖且ε_m→0；真多项式单位球SOT稠密于{A}'单位球。由无损细头，双逼近C_m/ΠC_m的统一c最优恰‖X‖。先前κ>1门现关闭；不假一般平均连续，不产生紧交换子或统一localizing。
 
 **[最高carry新核的高primitive支撑与固定N族残余阶已闭](results/R271-appendix-high-primitive-support-and-uniform-low-carry-residue-order.md)。** 长尾链l≥d+r−1不丢核；真实K(s)的分级框架而非kerX(0,0)给完整Galerkin系数a_ν支撑≤1+ν，非正交primitive只用于可行比较。统一低carry缩s下最高t极点系数有(R−5d−r+13)/2阶（相应J*≥1），而整个q未同阶。移动m的常数/有效邻域未付，固定最大s和最小旧s均有明确缺口；继续强权公共尺度、多参数及真实费用。
+
+**[unit四jet加孤立零点的rankH4整支已空](results/R150-appendix-essential-four-unit-four-jet-isolated-zero-rank-four-branch-is-empty.md)。** B=0、B≠0/A=0、regular及C=0除法边界全部由原mean/highest/N处理；regular的H6/M8原必要多项式由run44722024572/job136239897518精确整数pseudo-remainder六步得到Q gcd1。保源码、输入、运行/SHA，不保存计算余式。divisor4+1两种rankH4缺陷放置全闭；isolated zero的split单位长度4仍开。

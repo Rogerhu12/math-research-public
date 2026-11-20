@@ -1,0 +1,31 @@
+{
+  "algorithm": "primitive integer pseudo-remainders with positive leading coefficient",
+  "allIntermediateDegreesStrictlyDecrease": true,
+  "computedArraysSaved": false,
+  "elapsedSeconds": 0.00016563299999461378,
+  "exactGcdOne": true,
+  "format": "isp-r150-unit-four-isolated-zero-exact-gcd-v1",
+  "gcdDegree": 0,
+  "inputSHA256": "579b72d74be190d52a1128f1c58646e9952d47d03ae42eea163458b1323c1524",
+  "remainderStreamSHA256": "ba5154856f4c0ed1ee08d91cc9e08ff6126aba29269d9e58abe5d812001d6cff",
+  "runId": "44722024572",
+  "sourceCommit": "e7e7b9ec349f1bec3d775f1eab35fd5869e27a79",
+  "sourceSHA256": "002d10bfdc6837cde7befb32f8a64eae5a708f48b267d89407071846766ae094",
+  "steps": 6,
+  "utc": "2026-11-20 10:46:24 UTC",
+  "jobId": 136239897518,
+  "actualPull": {
+    "actualPullRebaseSucceeded": true,
+    "beforeCommit": "e7e7b9ec349f1bec3d775f1eab35fd5869e27a79",
+    "executionEnvironment": "GitHubActions",
+    "format": "isp-789f-actual-actions-pull-v1",
+    "remoteCommit": "e7e7b9ec349f1bec3d775f1eab35fd5869e27a79",
+    "rulesGitBlobs": {
+      "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+      "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+    },
+    "rulesUnchanged": true,
+    "runId": "44722024572",
+    "utc": "2026-11-20 10:46:24 UTC"
+  }
+}

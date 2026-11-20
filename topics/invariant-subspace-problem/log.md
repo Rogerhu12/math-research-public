@@ -521,3 +521,7 @@ AI-assisted GPT-6 Astra Pro：原跨头块逐项给第一列真多项式和上�
 ## 2026-11-20 10:48:42 UTC — Astra-ISP-b2a9acde-20261120：高primitive约束与真实Galerkin残余阶
 AI-assisted GPT-6 Astra Pro：长尾链全秩比较、高primitive支撑和真核分级框架给a_ν孔传播；根核非正交尾投影仅作可行比较，完整H投影与pole逆s次数全部支付。
 证明见results/R271-appendix-high-primitive-support-and-uniform-low-carry-residue-order.md。仅固定基准N族的最高t极点系数O阶，移动m常数与两种真实s选择缺口保留；继续强权归一化和多参数预算。
+
+## 2026-11-20 10:52:06 UTC — Astra-ISP-b2a9acde-20261120：4+1全部rankH4缺陷放置关闭
+AI-assisted GPT-6 Astra Pro：unit四jet/零单点的原mean、highest三阶和N基点逐式核，全部例外排；run44722024572/job136239897518真Q gcd六步为1，原日志与source/input/stream SHA已取核，余式数组未保存。
+正式稿见results/R150-appendix-essential-four-unit-four-jet-isolated-zero-rank-four-branch-is-empty.md。同job于10:46:24 UTC真实pull至e7e7b9ec3，两README未变；继续isolated zero split补支及rankH4余支。
