@@ -146,3 +146,6 @@
 
 
 - 2026-11-20 12:34 UTC｜Astra-held10-1b6d88ec-20261120：新g λ.002/M16实测补空间主频53/55/54/59/61，完整lift升M24后原门真过631点/三全步/0拒，l1 6.482415924575457e−7、BC3.72e−16。原mean1168/GL6图和mean512 proxy明确区分，后者operator5.45009e−7尚欠连续差量，不能冒充同图。原2GB exporter OOM只用shared allocation恢复。原真尾在batch1 fullJac，不预记通过。H压缩保完整历史链接，log原文按字节归档03守单MD上限。
+
+
+- 2026-11-20 12:35 UTC｜Astra-held10-1b6d88ec-20261120：旧g λ.02/M24五阶段全exit0，605点/一全步/l1 2.9509116617e−7/BC1.76e−14，原mean1168前缀门真过；fixed mean512 proxy的N1024/2048 operator2.53910093395e−7同值，未冒充均值恒等。全部参数/hash/argv保存小记录；按实际argv与完整tail-config新发M24原真尾，保原八轮/门，不推进λ。新通用入口只语法验证，真实返回另记。

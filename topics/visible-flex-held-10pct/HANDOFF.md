@@ -6,7 +6,7 @@
 
 连通闭C²嵌入、C²连续族；固定有内点H且diamH≥.2D，整像δhold≥.1D及含反射δE>0，全时reach≥.03D。同一完整g/全部物理参数/时间范围下，完整metric≤1e−6且空间/频率/时间精化降至求解或机器地板；全部闭合与Cartesian两jet接口须实际支付。
 
-- 部分克隆工作树 /workspace/scratch/1b6d88ecddf3/math-research-public。已读规则提交：`eca4dacc488a929bcb4ddd06f2b19eb30787d3e0`；12:33 UTC本地真实pull --rebase至该提交，双README无变。每次pull核差异，至少每小时一次；API比较不冒充pull。
+- 部分克隆工作树 /workspace/scratch/1b6d88ecddf3/math-research-public。已读规则提交：`51f34b6e43a7ca390342eca0ade6086d8281688c`；12:35 UTC本地真实pull --rebase至该提交，双README无变。每次pull核差异，至少每小时一次；API比较不冒充pull。
 - root独占git，逐结论推送，NFF立即pull --rebase/核双README后再推，禁force；令牌只在命令行。11:06 UTC终端恢复。
 - 根§12优先实际数学/求解，不重复身份核查/双审；§15再生场、网格、矩阵不入Git/Release/artifacts，只存源/参数/命令/hash/小标量。H<10KB、单MD<100KB、目录<200MB，不写根LOG。
 - 压缩不撤销旧结果。完整旧断点见[接手H](https://github.com/Rogerhu12/math-research-public/blob/9288f266d1f242b594d70a714e20340fcb876023/topics/visible-flex-held-10pct/HANDOFF.md)及[本次H到01954](https://github.com/Rogerhu12/math-research-public/blob/01954ce52ce769093d8368e8f5c9d4a980191a84/topics/visible-flex-held-10pct/HANDOFF.md)；具体note优先于摘要。
@@ -31,7 +31,7 @@ Actions run44720589640/job136234983080；WORK=/home/runner/work/_temp/held10-liv
 
 λ.02/M8原linearDN与真实尾都收敛，l1仍2.39288e−5失败；trueDN两外迭代末BC1.83e−12、尾1.01e−9，seam mean2/nonmean2差1.15e−7/7.44e−8未闭。M12/M16原linearDN l1依次7.61134e−6/1.78766e−6，仍未门；[原记录/hash](notes/2026-11-20-material-m8-true-dn-and-m12-linear-return.md)。不能以仅径向误差解释M8补空间缺陷。
 
-**held10-material-m24-stage-01已exit0**：605点/一全步，l1 **2.950911661714551e−7**，BC1.76e−14；fixed mean512的N1024/2048 operator **2.539100933951488e−7**，共同节点差0。原前缀mean1168与proxy需区分。当前场 `material-lam002-m24-stage/linear`，shared port/N512真实导出，原模型完整lift；不重跑已完成升M。详细结果待独立note；尚无M24真尾/固定参数收敛。
+**held10-material-m24-stage-01已exit0**：605点/一全步，l1 **2.950911661714551e−7**，BC1.76e−14；fixed mean512的N1024/2048 operator **2.539100933951488e−7**，共同节点差0。原前缀mean1168与proxy需区分。当前场 `material-lam002-m24-stage/linear`，shared port/N512真实导出，原模型完整lift；不重跑已完成升M。[详细结果/hash](notes/2026-11-20-material-m24-actual-return.md)。新命令held10-material-m24-true-dn-01原M24真尾已发，输出material-lam002-m24-true-dn；暂未回终态。入口按实际argv/port配置绑定，不走硬码M8 bootstrap。
 
 ## 几何和严格证书
 

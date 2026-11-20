@@ -1,0 +1,304 @@
+{
+  "schema": "held10-actual-old-m24-prefix-v1",
+  "live_command": "held10-material-m24-stage-01",
+  "live_source_commit": "8cfcb41ee7485552c41b36174bf0f8a93fd1b30f",
+  "status": "finished",
+  "returncode": 0,
+  "script_sha256": "17f9dda15081dd0698abd6b311a6a63837b4603ebef6e39a7ec79367f58f7373",
+  "diagnostics": {
+    "complete_surface": false,
+    "linear_return": {
+      "domain_newton_stats": {
+        "accepted_steps": 1,
+        "calls": 1,
+        "minimum_alpha": 1,
+        "no_step": 0,
+        "rejected_domain_trials": 0,
+        "rejected_merit_trials": 0
+      },
+      "error": null,
+      "metric_l1": 2.950911661714551e-7,
+      "nodes": 605,
+      "p": [
+        -1.5881496901682128e-8,
+        0.13120161699350005,
+        -0.1780893894096512,
+        -0.012239582745718305,
+        0.9760713258613792,
+        -15.908197833445834,
+        109.99359158180181,
+        -64.88400799058947,
+        -65.21950603667904,
+        98.17480610718374,
+        -73.95331951349833,
+        31.5857875839445,
+        3.082270464194492,
+        -19.78998286869577,
+        20.22432143607083,
+        -11.839649903678376,
+        2.2948294290107034,
+        3.7690610653573975,
+        -5.2149833320193055,
+        3.389946530736844,
+        -0.5764642812696947,
+        0.43018286137893796,
+        2.768287511582238,
+        1.8606339126548033
+      ],
+      "physical_bc_max": 1.761764479935745e-14,
+      "physical_controls": [
+        0.0004723258211766002,
+        -0.00003846730811248465,
+        -1.586249923845092e-7,
+        7.589930629898084e-7,
+        -7.422128781172487e-7,
+        3.079116605304326e-7,
+        -6.488400799058947e-8,
+        -6.521950603667903e-8,
+        9.817480610718375e-8,
+        -7.395331951349834e-8,
+        3.1585787583944505e-8,
+        3.082270464194492e-9,
+        -1.978998286869577e-8,
+        2.022432143607083e-8,
+        -1.1839649903678378e-8,
+        2.2948294290107037e-9,
+        3.769061065357397e-9,
+        -5.214983332019306e-9,
+        3.389946530736844e-9,
+        -5.764642812696948e-10,
+        4.30182861378938e-10,
+        2.768287511582238e-9,
+        1.8606339126548034e-9
+      ],
+      "physical_sha256": "90750aa2d47bc57786ef5d86448dc0b79d0faa40c598b4c6adf022b6ae49255d",
+      "raw_sha256": "8aee00ee6d6468a032e491833f570a8fcd360f493cce583a51d3d75e80e5e4d3",
+      "rms": 9.990839180580315e-7,
+      "run_sha256": "32f872e18640756fc64d7c8e08a436a8c03572b8300831e595fe7a8cc39a2bc1",
+      "solver_success": true
+    },
+    "mean_nodes": 512,
+    "modes": 24,
+    "operator_rows": [
+      {
+        "angular": 1024,
+        "common_node_component_difference": [
+          0,
+          0,
+          0
+        ],
+        "legacy_max_component_fft_l1": 2.950911703046636e-7,
+        "peak": {
+          "components": [
+            -2.539100933951488e-7,
+            -2.8094490856098124e-17,
+            7.516908873128614e-9
+          ],
+          "operator_norm": 2.539100933951488e-7,
+          "psi": 3.141592653589793,
+          "radial_index": 144,
+          "s": 0.08820768573127918,
+          "theta": 3.141592653589793
+        },
+        "sample_operator_max": 2.539100933951488e-7
+      },
+      {
+        "angular": 2048,
+        "common_node_component_difference": [
+          0,
+          0,
+          0
+        ],
+        "legacy_max_component_fft_l1": 2.9509117387576213e-7,
+        "peak": {
+          "components": [
+            -2.539100933951488e-7,
+            -2.8094490856098124e-17,
+            7.516908873128614e-9
+          ],
+          "operator_norm": 2.539100933951488e-7,
+          "psi": 3.141592653589793,
+          "radial_index": 144,
+          "s": 0.08820768573127918,
+          "theta": 3.141592653589793
+        },
+        "sample_operator_max": 2.539100933951488e-7
+      }
+    ],
+    "original_numerical_gates": {
+      "bc_tol": 1e-7,
+      "max_nodes": 6000,
+      "original_outer_budget": 8,
+      "physical_bc_tol": 2e-9,
+      "tol": 0.000001
+    },
+    "physical_controls_frozen": false,
+    "port_export": {
+      "allocation_only_manifest_sha256": "fde6aa7b9bd4313e71116764c73679bd4c7ed4e3be421aa6cd206fb1b8799716",
+      "background_parameters_intentionally_changed": false,
+      "new_quadrature": 512,
+      "old_quadrature": 256,
+      "original_node_heap_unchanged": true,
+      "port_sha256": "42369d1571413fd4ecccea43ccfef233f4b97506f71e28b86ed9735c28c2d93b",
+      "tail_config_sha256": "37bc9073d2dba1d110b165b5febbb054d1dd1a8ca09ec23b86e2d76c39f08f46"
+    },
+    "source_modes": 16,
+    "source_raw_sha256": "dca4d0d92d9b4b3647ce8698ff308adf656fe57d8d640d0d58bea464f8a6e51a",
+    "source_run_sha256": "4e88f97cf58db1c76a44261c593e8d78f49a33913b63838bbcd0fe8e3868cb02",
+    "transfer": {
+      "check_angular": 2336,
+      "check_s": 103,
+      "core_homotopy": 0.02,
+      "exact_lift_coefficient": 1,
+      "inlet_projection_change_max": 8.88378746274874e-8,
+      "meridian_two_jets_checked": true,
+      "port_resolution_change": null,
+      "reference_two_jet_checks": {
+        "position": 3.3308497693360055e-16,
+        "psi": 3.9770214568543847e-16,
+        "psi_psi": 1.336885555457667e-15,
+        "rho": 0,
+        "s": 4.9842178335760865e-16,
+        "s_psi": 1.8355097950909483e-15,
+        "s_s": 8.662585850030506e-15
+      }
+    },
+    "transfer_result": {
+      "angular": 768,
+      "initial_raw": "/home/runner/work/_temp/held10-live/material-lam002-m24-stage/transfer/initial.npz",
+      "initial_raw_sha256": "60d6e78b92798b070909d5a6bc6453488d85c2d5815ec4338e181f11b4d12f8e",
+      "modes": 24,
+      "port": "/home/runner/work/_temp/held10-live/material-lam002-m24-stage/linear-port.json",
+      "port_sha256": "42369d1571413fd4ecccea43ccfef233f4b97506f71e28b86ed9735c28c2d93b",
+      "tail_config": null
+    },
+    "true_tail_requested": false
+  },
+  "stages": [
+    {
+      "argv": [
+        "/opt/hostedtoolcache/Python/3.12.16/x64/bin/python",
+        "/home/runner/work/math-research-public/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/install_shared_tail_engines.py",
+        "--copy-from",
+        "/home/runner/work/_temp/held10-live/runtime-source/bundle/topics/visible-flexible-closed-surface",
+        "--source-topic",
+        "/home/runner/work/_temp/held10-live/material-lam002-m24-stage/shared-port-source",
+        "--manifest",
+        "/home/runner/work/_temp/held10-live/material-lam002-m24-stage/shared-install.json",
+        "--export-modules",
+        "/home/runner/work/_temp/held10-live/material-lam002-m24-stage/shared-modules"
+      ],
+      "name": "shared_port_source",
+      "returncode": 0,
+      "status": "finished"
+    },
+    {
+      "argv": [
+        "/opt/hostedtoolcache/Python/3.12.16/x64/bin/python",
+        "/home/runner/work/math-research-public/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/recovered_q021/export_original_worker_port.py",
+        "--source-topic",
+        "/home/runner/work/_temp/held10-live/material-lam002-m24-stage/shared-port-source",
+        "--config",
+        "/home/runner/work/_temp/held10-live/material-lam002-m24-stage/tail-settings.json",
+        "--out",
+        "/home/runner/work/_temp/held10-live/material-lam002-m24-stage/linear-port.json"
+      ],
+      "name": "actual_linear_port",
+      "returncode": 0,
+      "status": "finished"
+    },
+    {
+      "argv": [
+        "/opt/hostedtoolcache/Python/3.12.16/x64/bin/python",
+        "/home/runner/work/math-research-public/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/prepare_lifted_mode_restart.py",
+        "--source-run",
+        "/home/runner/work/_temp/held10-live/material-lam002-m16-linear/run.json",
+        "--modes",
+        "24",
+        "--port",
+        "/home/runner/work/_temp/held10-live/material-lam002-m24-stage/linear-port.json",
+        "--outdir",
+        "/home/runner/work/_temp/held10-live/material-lam002-m24-stage/transfer"
+      ],
+      "name": "complete_reference_transfer",
+      "returncode": 0,
+      "status": "finished"
+    },
+    {
+      "argv": [
+        "/opt/hostedtoolcache/Python/3.12.16/x64/bin/python",
+        "/home/runner/work/math-research-public/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/portable_prefix_continue.py",
+        "--source-topic",
+        "/home/runner/work/_temp/held10-live/runtime-source/bundle/topics/visible-flexible-closed-surface",
+        "--short-bridge",
+        "/home/runner/work/_temp/held10-live/runtime-source/bundle/topics/visible-flex-larger-amplitude/computations/root_short_bridge.py",
+        "--profile",
+        "/home/runner/work/_temp/held10-live/inputs/q060-profile.json",
+        "--chart",
+        "/home/runner/work/_temp/held10-live/inputs/reference/chart.json",
+        "--port",
+        "/home/runner/work/_temp/held10-live/material-lam002-m24-stage/linear-port.json",
+        "--raw-restart",
+        "/home/runner/work/_temp/held10-live/material-lam002-m24-stage/transfer/initial.npz",
+        "--core-module",
+        "/home/runner/work/math-research-public/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/material_support_factory.py",
+        "--core-config",
+        "/home/runner/work/math-research-public/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/material_support_lam002.json",
+        "--amplitude",
+        ".06",
+        "--warp-reference",
+        ".06",
+        "--modes",
+        "24",
+        "--angular",
+        "768",
+        "--audit-angular",
+        "512",
+        "--nodes",
+        "401",
+        "--max-nodes",
+        "6000",
+        "--tol",
+        "1e-6",
+        "--bc-tol",
+        "1e-7",
+        "--physical-bc-tol",
+        "2e-9",
+        "--outdir",
+        "/home/runner/work/_temp/held10-live/material-lam002-m24-stage/linear"
+      ],
+      "name": "original_linear_dn",
+      "returncode": 0,
+      "status": "finished"
+    },
+    {
+      "argv": [
+        "/opt/hostedtoolcache/Python/3.12.16/x64/bin/python",
+        "/home/runner/work/math-research-public/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/audit_full_relative_metric.py",
+        "--model-adapter",
+        "/home/runner/work/math-research-public/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/actual_m3_metric_model.py",
+        "--model-config",
+        "/home/runner/work/_temp/held10-live/material-lam002-m24-stage/linear/run.json",
+        "--physical",
+        "/home/runner/work/_temp/held10-live/material-lam002-m24-stage/linear/physical.npz",
+        "--mean-nodes",
+        "512",
+        "--angular",
+        "1024",
+        "2048",
+        "--out",
+        "/home/runner/work/_temp/held10-live/material-lam002-m24-stage/relative-metric.json"
+      ],
+      "name": "relative_operator_audit",
+      "returncode": 0,
+      "status": "finished"
+    }
+  ],
+  "result": {
+    "complete_surface": false,
+    "original_finite_prefix_gates_passed": true,
+    "physical": "/home/runner/work/_temp/held10-live/material-lam002-m24-stage/linear/physical.npz",
+    "run": "/home/runner/work/_temp/held10-live/material-lam002-m24-stage/linear/run.json"
+  },
+  "mean_scope": "Original finite prefix uses mean1168 with GL6 height. Operator rows use declared fixed mean512 proxy; no continuous identity proof between those maps."
+}

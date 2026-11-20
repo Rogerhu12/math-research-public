@@ -1,44 +1,42 @@
 {
-  "id": "held10-material-m24-stage-01",
-  "read_rules_commit": "3f2b9d43a7d40613d2410082573094a5a32f485f",
-  "script": "topics/visible-flex-held-10pct/scripts/resume_m3/extend_material_mode_stage.py",
+  "id": "held10-material-m24-true-dn-01",
+  "read_rules_commit": "892655985f7c5874d4bf7e8521487636b306a44c",
+  "script": "topics/visible-flex-held-10pct/scripts/resume_m3/continue_actual_mode_true_tail.py",
   "args": [
     "--repo",
     "@REPO@",
     "--source-run",
-    "@WORK@/material-lam002-m16-linear/run.json",
+    "@WORK@/material-lam002-m24-stage/linear/run.json",
     "--tail-config",
-    "@WORK@/material-lam002-m16-transfer/tail-settings.json",
+    "@WORK@/material-lam002-m24-stage/tail-settings.json",
     "--outdir",
-    "@WORK@/material-lam002-m24-stage",
-    "--modes",
-    "24",
-    "--mean-nodes",
-    "512",
-    "--angular",
-    "1024",
-    "2048"
+    "@WORK@/material-lam002-m24-true-dn",
+    "--workers",
+    "2"
   ],
   "diagnostics": [
     {
-      "path": "@WORK@/material-lam002-m24-stage/mode-stage.json",
+      "path": "@WORK@/material-lam002-m24-true-dn/true-tail-stage.json",
       "keys": [
         "status",
         "error",
-        "diagnostics",
+        "input",
+        "native",
         "result",
         "stages"
       ]
     },
     {
-      "path": "@WORK@/material-lam002-m24-stage/linear/run.json",
+      "path": "@WORK@/material-lam002-m24-true-dn/actual/run.json",
       "keys": [
         "solver_success",
         "error",
         "raw_return",
         "prefix_audit",
         "domain_newton_stats",
-        "domain_error_counts"
+        "domain_error_counts",
+        "actual_outer_checks",
+        "tail_seam"
       ]
     }
   ]
