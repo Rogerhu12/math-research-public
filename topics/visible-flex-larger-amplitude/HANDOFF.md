@@ -4,7 +4,7 @@
 
 ## 规则与来源
 
-最近规则核查：2026-11-20 10:33 UTC，真实pull/rebase至 `aed814feb34513789ef06dd23ec4191196e9e68d`，双README相对上次已读无差异。
+最近规则核查：2026-11-20 10:38 UTC，真实pull/rebase至 `dce7585c350679f27e3b83a58588def9582fcd5a`，双README相对上次已读无差异。
 
 公开仓库内工作；终端git普通push，NFF立即pull/rebase再推，每次检查双README差异，至少每小时pull。原README授权全部必要修改/发布，无需再问；完整证明直接登记，不加冻结/独审/额外验收流程。可重算raw只scratch，Git/Release/artifact不存；只保源、参数、run/SHA及紧凑结论。题≤200MB、单MD<100KB、H<10KB、open<30KB。令牌仅瞬时CLI，不写文件/提交/回复。旧完整责任保[11/20早期交接](https://github.com/Rogerhu12/math-research-public/blob/e6503907bb671290bd2b6e3c4051d98c3958a6d1/topics/visible-flex-larger-amplitude/HANDOFF.md)及open§1–7，不把failed/partial/unreturned互换。
 
@@ -18,9 +18,13 @@ R648原全开放prefix连续Gram<4.94e−7，R651 K≤7.04608，R652加权支持
 
 [完整镜像D/K说明](notes/2026-11-20-closed-diameter-curvature-necessary-screen.md)：原上片+z镜像+±H两盘是中心对称体，D=2max|F|；R248轴向相位保此体半径，后加固定盘内标记不移除活动点对。故D≥2|H|，所有原stage/角点给Dlb，.03DlbK≤1是必要点条件，非reach充分证书。不能拿单半体直径或另一个Ft冒D0。
 
-**当前推进父**：[完整H²+动态必要几何首步](notes/2026-11-20-fullclosed-integrated-h2-reach-screen-first-result.md)从63维af89真实父满步：SSE6430.555→1277.03040673224，点Gram.586426→.333294625491，K7.21125→7.95866429405，Dlb4.06505794196，产品.970572944878≤.98；H1.93961750135，detmin.80764896。256inner/83.99秒，端口残差2.29e−17（浮点不是严格零）。父在work/fullclosed_solver/integrated-h2-reach-screen-first/final.npz，SHA `e8b2ca40e184157abba15c3c85ebdd651e38cbb4035edb2cfd652c8b57ad0637`。仍远超1e−6，且全部仅节点/中点。
+**已完成必要筛选第一父**：[完整H²+动态必要几何首步](notes/2026-11-20-fullclosed-integrated-h2-reach-screen-first-result.md)从63维af89真实父满步：SSE6430.555→1277.03040673224，点Gram.586426→.333294625491，K7.21125→7.95866429405，Dlb4.06505794196，产品.970572944878≤.98；H1.93961750135，detmin.80764896。256inner/83.99秒，端口残差2.29e−17（浮点不是严格零）。父在work/fullclosed_solver/integrated-h2-reach-screen-first/final.npz，SHA `e8b2ca40e184157abba15c3c85ebdd651e38cbb4035edb2cfd652c8b57ad0637`。仍远超1e−6，且全部仅节点/中点。
 
-活动工作：geometry_path从此父做1280物理列的曲率活动约束QP（解析κ和D点导数、原SSE及全点产品真验收）；fullclosed_solver准备同导数到全部free的精确伴随并做完整投影约束方向；recover_evidence的[R655](results/R655-node-midpoint-blind-space-and-Gauss-control.md)已证明真实920维Z0有限幅度恒Gram盲空间、完整5/6Gauss导数控制；正在实现同g6Gauss补采样。不能因为节点残差下降而掩盖胞内振荡。geometry的实际曲率QP目前已返前四步：SSE1277→484.626、点Gram.207040、产品.976984，六步未返终态时不冒完整；最后父随后单独登记。
+**当前推进父**：[曲率约束QP六步](notes/2026-11-20-curvature-qp-six-step-result.md)从e8自然exit0，39.33秒：SSE1277.030→371.1451889934、点Gram.333295→.1801261227、K7.98227764563、Dlb4.08253071692、产品.977636810378，H1.92533722377。真实父work/geometry_path/curvature-qp-six-step.npz，SHA `0c53537771085266634794d82a0f133e2d1f149d1af7e0248e136d9ceee6812d`。解析κ/D导数必要CS误差≤5.36e−16；非连续证书。
+
+[同父相位几何点读](notes/2026-11-20-curvature-qp-phase-geometry-readout.md)：beta1/4支持min_sample .336913；core旋转见证最近sample距.953644，除Dlb比.233591。两者都是上方近似，不能声称reach或held达标。后续仍沿R650/R645做最终同场连续覆盖。
+
+活动：geometry_path已从0c535续12步bounded active-memory QP，记所有被拒最坏点并在当前场重求导；fullclosed_solver从同父启动完整H²投影约束256方向，T仍覆盖原完整free、P仅当前必要活跃切空间；recover_evidence的[R655](results/R655-node-midpoint-blind-space-and-Gauss-control.md)已证920维有限幅度盲空间，正在实现原1845行前缀+5532同g6Gauss，先读af89/e8/0c三个真实父。新增点未付前不称全域正确。
 
 ## 已完成数值及失败，不重复
 
