@@ -98,3 +98,5 @@
 ## R56. C² jet 范围的连续度量证书
 
 [完整证明](results/R56-c2-jet-range-continuous-metric-certificate.md)。固定实际图与真实g，以中心一阶jet、全盒二阶jet及g的一阶范围构造局部缺陷矩阵；先代数相消再按真实中心归一化，给完整连续relative operator上界。严格余量和收敛积分/反函数/mean oracle下有限细分可终止，无需C³；当前λ=.02场或新g场尚无该证书，不是新闭族或固定参数收敛结果。
+
+R55补充：[较宽设计盒与条件完整D≤2.69](notes/2026-11-20-soft-start-wide-design-box.md)，新r∈[1.05,1.1]首cycle的50个精确盒已真过，未外推旧盒。真实尾/帽可使用的[条件窗口](notes/2026-11-20-soft-start-tail-closure-budget.md)仍以所声明R21背景为前提；当前4.625尾不继承3.125的旧界。

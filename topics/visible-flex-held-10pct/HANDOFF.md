@@ -6,7 +6,7 @@
 
 连通闭C²嵌入连续族；固定有内点H、diamH≥.2D，整像δhold≥.1D且含反射δE>0；全时reach≥.03D。同一个完整g/全部物理参数/时间范围下，完整metric≤1e−6，空间/频率/时间精化继续下降至求解或机器地板；实际闭合与C²接口均要付清。完成后继续增大比例。
 
-- 部分克隆工作树 /workspace/scratch/1b6d88ecddf3/math-research-public。已读规则提交：`816436e5a8b6d3c832c70e87e6885b0d6b4501a6`；11:52 UTC本地真实pull --rebase至该提交，双README无变。每次pull检查双README差异，至少每小时一次；API比较不冒充pull。
+- 部分克隆工作树 /workspace/scratch/1b6d88ecddf3/math-research-public。已读规则提交：`cd6ca5c9c5ea3016bc3ba8e596da47c63aebcb00`；11:53 UTC本地真实pull --rebase至该提交，双README无变。每次pull检查双README差异，至少每小时一次；API比较不冒充pull。
 - 11:06 UTC终端恢复；root独占git，逐结论推送，NFF立即rebase/核README再推，禁force。令牌只在命令行。旧失联进程不假作当前运行。
 - 根§12优先实际求解，不重做身份核查/双审；§15可再生场、网格、矩阵不入Git/Release/CI artifacts。只存源、参数、命令/hash及紧凑标量。H<10KB、单MD<100KB、目录<200MB，不写根LOG。
 - 历史细节在[原接手H](https://github.com/Rogerhu12/math-research-public/blob/9288f266d1f242b594d70a714e20340fcb876023/topics/visible-flex-held-10pct/HANDOFF.md)及[本次完整H到a4f89c](https://github.com/Rogerhu12/math-research-public/blob/a4f89c80f0f0b7e5db0f2fb4520b0c3abe8a9861/topics/visible-flex-held-10pct/HANDOFF.md)；压缩摘要不撤销旧结论/失败。
@@ -29,7 +29,7 @@ R55多段provider已安装独立source副本，复用原turn_ramp，全部段长
 ## 新几何与数值路线
 
 - **R52—54均为条件设计**。R52/53材料κ核保精确周长、凸闭合、圆弧与全部参数jets，四接口已实际过，非BVP存在。λ.02控制已付扩大盒/κ≥.2；旧5.2二导预算不移用。[传递与新盒](notes/2026-11-20-m3-lifted-mode-transfer-and-expanded-core-box.md)。
-- R54 S=.5/b=.2/k=.2、H材料宽.54/相位.45，H径>.53973756，柱长仅0<ℓ≤.01。若全图D0≤2.64及完整曲率/支撑/标记付清，则n3 held>.111439D、n4>.132023D。当前计算仍S=.21，不能搬宽窗数值。**R55已证原短ramp的经典C³准确圆片K>26、reach/D<.02**，非所有C²或λ.02排除。新多段首段在κ<12.5时耗尽S=.5保护窗；δ∈[.06,.063]首cycle严格|X|<1.32，50个精确Bernstein盒已真过。新g线性根与首非线性场已实际取得，需r≤1.1宽盒，旧盒不外推；[R55](results/R55-flat-ramp-reach-obstruction-and-soft-start.md)。
+- R54的S=.5/b=.2/k=.2、H材料宽.54/相位.45允许柱长ℓ≤.01。R55排原短ramp的准确C³圆片K>26，不排任意C²或λ<1。**新宽盒r∈[1.05,1.1]、首cycle全角|X|<1.34**由50个新精确Bernstein盒真付，覆盖实际δ≈.06414。若完整闭图另付D0≤2.68/K≤12.3/support≥.087，则插柱后D≤2.69、reach/D≥.03022335、H径比>.2006459、m3 held>.1097823；这是条件预算，非实际全图。见[R55](results/R55-flat-ramp-reach-obstruction-and-soft-start.md)、[宽盒](notes/2026-11-20-soft-start-wide-design-box.md)。当前尾首valley4.625不同R21的3.125，旧h/w/K不继承；[tail条件窗口](notes/2026-11-20-soft-start-tail-closure-budget.md)。
 - 完整lift升M补aχ(Inew−Iold)，系数1而非λ.02；真实高维linearDN必须实际导出，禁止只补零。升M后若δ/c仍自由，只是设计延拓，不是完成标准#5。
 - 全部固定参数场接口FrozenPhysicalField已备未执行：只改场、入口消元、保全部真实DN；兼容债η=rT−CA⁻¹rE，不能偷放q/c/mean。[固定接口](notes/2026-11-20-n4-fixed-physical-field-refinement.md)。
 - 完整Frenet残差界已证：∂s(G/a²)=2Fθ·Rθ/a²，保实际G/完整mean/moving convection。C²直接T·Rθ只需混合jet；当前DFT/梯形均为诊断。R56已给只用C²二jet范围的连续矩阵证书，先相消再归一化并证明严格余量下有限细分可终止；尚无新候选已付其范围输入。[R56](results/R56-c2-jet-range-continuous-metric-certificate.md)。[残差定理](notes/2026-11-20-n4-full-frenet-residual-metric-bound.md)、[同场壳入口](notes/2026-11-20-n4-readonly-full-residual-shell-entry.md)。
