@@ -129,3 +129,7 @@ positive独审worker/gen/contract/YAML全部通过：空index仍push、非FF即�
 ## 2026-11-20：完整Hessian复合与真实积分平滑
 
 root新推Y1–18，global/joint分别逐式核：准确mean μ/m=−m〈c〉、Pc Hessian先乘完整逆、s/t局部三角项、完整primitive及mean rank，ambient local符号和C1费全保。I:H^-τ_fourfold→L²准确17^(τ/2)/4，只付输出C0，无res二次角导；IC=(Φ−θ)/m=−Iφ(v−m)∘Φ/m²给合法nonmean费。r3仅在s中抵消，t保均值但角导0，文字已按joint核正。X完整根4majorant与Γ/A/CE/CH/CW/不变hB/wB/zB只读复用；新组合k/E/积分/gate尚未运行，旧Xfalse和mean全保。
+
+## 2026-11-20：已成五源与真实高图的四项响应首次消费封包
+
+math16888B/8ea2a23e、worker27356B/cc49d939、generator10662B/2c6fdf19、contract5313B/8dd68c8d，root整读并由global独核正交输入RMS与外trace 5/388资格。16当前bytes/SHA/blob/AST完整核，metadata重建manifest7546B/87e75f8e001601fa8ed6279d7b3e0735799a336a31b4e39b0bac9b0f2194bc35与workflow逐字同；0历史native恢复、0旧科学调用。首次push启动独立4小target，保存完整display radius并读回包含，再用第二项保存upper算外trace；旧第5源整球保留，实际反馈/physical/finiteρ/7ports/两rhs全false。worker实际push成功才返回、每30min pull核两README，原结果不改。
