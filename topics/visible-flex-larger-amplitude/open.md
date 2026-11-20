@@ -126,3 +126,5 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 [唯一模态衰减计划](notes/2026-11-17-parallel-model-fullclosed-mode-damped-plan.md)/[生成结果](notes/2026-11-17-parallel-model-fullclosed-mode-damped-result.md)/[独立读出](notes/2026-11-17-parallel-geometry-fullclosed-mode-damped-readout.md)：632d/9bf60/17697与48624/b361同g/同923 mesh/同R/S/H，前819节点三jet原字；只一次生成与残差，Gram.6551089575、点det .662628，仍失败。prefix s1节点3.6123873e−5，禁止只修尾或A-only；全闭未知量并未冻结prefix。90MB原残差只scratch供后续，不重做基残差。
 
 [双积分实际准备](notes/2026-11-17-parallel-root-fullclosed-integrated-coordinate-preparation.md)d429/f653/e6e968：1333209坐标/964端口、168个2×2+157个4×4块，完整G作用差1.67e−16、lift转置4.82e−14、端口3.16e−15。仅异质测试尺度/0几何调用，原warm未改；浮点repair反增末误差1.42e−14如实保，不冒准确闭解。
+
+2026-11-20接续见[最新交接](HANDOFF.md)：同g全闭点Gram从.655降至.310475；全域、全t与精化责任仍未付。

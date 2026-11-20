@@ -4,7 +4,7 @@
 
 ## 规则与已读版本
 
-最后真实终端 `git pull --rebase origin main`：2026-11-20 09:45 UTC，已读 `2e4e85b21fe2981ba97ca49440874c6db62c09bf`，双 README 未变。随后终端已成功推送到 `e6503907bb671290bd2b6e3c4051d98c3958a6d1`。环境中断后，本次只读 API 核到 main `9288f266d1f242b594d70a714e20340fcb876023`：根 README blob `282e86b03385d3b6245ce7100ae2e2af7b103c2d`、题 README blob `bff8aea253a9e6a7a4fac28d810ac454c5499fec` 均与已读相同；没有将 API 读取说成真实 pull。
+最近规则核查：2026-11-20 10:07 UTC，真实pull/rebase至 `56660f41d85d9b79c54f66f89b423b0c8551c82d`，双README相对上次已读无差异。
 
 仍只在公开仓库及其公开 Actions 工作。根12：完整证明直接发表，不加冻结、独审或额外机械门；根15：数组、证书及可重算 raw 不存 Git/Release/artifact，只存完整小源码、参数、run、SHA与紧凑结论，题≤200MB、单MD<100KB、HANDOFF<10KB、open<30KB。PAT只瞬时CLI，不入文件或connector；本次connector用已有连接。root唯一commit/ref发布，子agent只造完整UTF8小blob。终端失联时根8允许connector传完整小于100KB文本；不分块编码数据。恢复后仍至少每小时真实pull、核双README差异并记录，NFF立即rebase后普通push，不force。
 
@@ -22,11 +22,13 @@
 - [63维物理子空间](notes/2026-11-20-physical-fit-six-step-result.md)确实完成6步：raw SSE24260.05384→6430.55548，点Gram.655109→.586426，点det最小.728890，H→1.939215771562。原完整算子末读与子空间目标相对差1.123e−12；仍远超1e−6。真实候选SHA `af89a4414fb0cee35d75dba5530e9b45b62abd248ddf7509cca92c2a9696a505`。源与公式同刊，不把有限低维空间当完整解。
 - 首全空间128次LSMR方向确实完成：完整SSE24260.05384→23196.32439、全步下降，但点Gram反增到.670964，劣于63维父；最大A增量.093493，全部节点/中点曲率点值7.79724→7.79856。未有reach或连续metric证书。新min mesh h=1.5625e−5，没有字面极微胞。完整来源与配方随后刊。
 
-## 断线与紧接工作
+## 执行恢复与紧接工作
 
-2026-11-20 09:55:54 UTC 更新：[执行环境故障记录](notes/2026-11-20-execution-failover.md)。09:49 UTC起执行服务断线，随后环境明确 unavailable；新的173维拟合**未启动**，新预条件准备也未执行，不是数学失败或审批拒绝。最后本地commit5732b26e6未确认推送，现按完整小文本恢复已跑源码/说明，root统一普通更新main。
+09:49–约10:03 UTC执行服务断线，曾明确unavailable，已按[故障记录](notes/2026-11-20-execution-failover.md)保存恢复源；随后环境恢复且原raw全在，未发生再生成。新Actions未创建/启动，不冒填run。本次终端已重新接管提交推送。
 
-下一实际动作：公开Actions真正blob:none/sparse clone/pull，重建唯一真实输入及同g完整warm，再复现63维父，接173维完整粗三jet（位置/速度/加速度）拟合；同时准备完整空间正列尺度均衡/物理附加列或双积分L²尺度。保所有原方程与精确端口，真实下降点继续推进，不能以预算/阶段/时长收尾。新Actions尚未在本交接中冒填run或启动状态。
+[173维粗三jet六步](notes/2026-11-20-physical-threejet-six-step-result.md)现实际完成：原SSE6430.55548→817.5061370945、点Gram.586426→.310475030101、点det≥.79764877，H1.863443905458；原完整算子与子空间SSE相对差2.15e−12。候选SHA `f062a4b2684c09e55f90265468699eea638ee8739f3e16d99fa6bd874036971a`，本地work/root/physical-threejet-six-step.npz；仅点值，仍未达。
+
+下一实际动作已启动：fullclosed_solver从该父执行完整原1332245自由变量加173物理附加列的正均衡LM（16固定Rademacher探测、µ.01、首256 inner，work/fullclosed_solver/augmented-first）。同父补读采样曲率max14.0934，SSE下降不等同reach改善。geometry_path推全模极分解/径向带状方向；recover_evidence完善双积分L²端口谱界。所有原方程与精确端口保留，真实下降点持续推进，不以方向/预算/时长收尾。
 
 ## 原证明、剩余几何与容量
 
