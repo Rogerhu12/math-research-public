@@ -1,0 +1,70 @@
+{
+  "status": "true_core_and_required_angle_inputs_certified",
+  "mean1168": {
+    "source_run_sha256": "c44b6fd2fbb13cc9ce0451cc6ab1d3c06521de0622de27190bde94c4c550462a",
+    "physical_sha256": "f2e22fe19bb0b6fdeff79c4fa99363d9be6cbb1ef382fd882679a2b717a3030d",
+    "source_sha256": "4c3a3c5c6a8226fdf0cd3f423f32f86288f508495f80f9d6f24f24be123e48f4",
+    "oracle_source_sha256": "743ed9b9a38cbc4ec2a3bf5b6d8d340cdc3d5c330bb37626ed453707e7bde197",
+    "mean_kernel_sha256": "ab08dc1dc7f24f6e92e3d64fcc530767cb66f5ae5a2940f953460a3274b6a1a5",
+    "interval_kernel_sha256": "6234c458d303dfd2e47dcf1e1a6ee54a3d466118a8aea4d76f66013154c034e7",
+    "nodes": 1168,
+    "continuous_all_angle_bounds": {
+      "kappa": 1.9834503116289222,
+      "kappa_u": 4.338121897502922,
+      "kappa_uu": 117.12951034676142,
+      "Gamma3": 5.297673630526215,
+      "Gamma4": 125.03410397906096
+    },
+    "beta_interval": [
+      0.7287692832695271,
+      0.7287692832696786
+    ],
+    "true_core_interval_width_maxima": {
+      "F": 1.1159415405637143e-12,
+      "Ft": 3.6423988825085025e-14,
+      "Ftt": 8.482103908136197e-14,
+      "Fttt": 1.241617919589544e-12
+    },
+    "cached_value_distance_upper": {
+      "F": 7.234937624143207e-13,
+      "Ft": 2.3550671332458828e-14,
+      "Ftt": 6.406054196284061e-14,
+      "Fttt": 8.229808229791804e-13,
+      "H": 7.274421040861601e-13,
+      "H1": 4.2642149240958794e-14,
+      "H2": 1.2921215989478057e-13
+    },
+    "seconds": 63.6386533900004,
+    "interval_output_sha256": "f46ee567bf78d8bdac0ceb7c60db92a058f693fd3f532f714125180b911f918c"
+  },
+  "external2336": {
+    "source_run_sha256": "c44b6fd2fbb13cc9ce0451cc6ab1d3c06521de0622de27190bde94c4c550462a",
+    "physical_sha256": "f2e22fe19bb0b6fdeff79c4fa99363d9be6cbb1ef382fd882679a2b717a3030d",
+    "oracle_source_sha256": "743ed9b9a38cbc4ec2a3bf5b6d8d340cdc3d5c330bb37626ed453707e7bde197",
+    "exporter_source_sha256": "748c56dc2ab0ab343c0719f506cd155ade58ef210c199a5718d36646c7c5afba",
+    "nodes": 2336,
+    "material_parts": 6332,
+    "maximum_parts_per_query": 7,
+    "point_width_maxima": {
+      "F": 1.1159415405637143e-12,
+      "Ft": 3.6446540230272723e-14,
+      "Ftt": 8.482103908136197e-14,
+      "Fttt": 1.241617919589544e-12
+    },
+    "box_width_maxima": {
+      "F": 0.010804232852944413,
+      "Ft": 0.002998013726130622,
+      "Ftt": 0.010434895646156407,
+      "Fttt": 0.16517388081077064
+    },
+    "seconds": 130.76817983400178,
+    "interval_output_sha256": "0569ce07d1b4721b30c653d4f13db290a4ef5a6f6f4ce03a89ac71c030919234"
+  },
+  "full_outputs_sha256": {
+    "newg-m24-r53-core1168-certificate.json": "07a97eb8230609e853a343683c44e9fe67e06f70384e53f4717a73623ca97218",
+    "newg-m24-r53-core2336-angles.json": "b5550aaef503363a4f3e75f10649bb1671d829a7d5109321d8261dc23f6ea66c"
+  },
+  "finite_cache_bounds_not_uniform_float_function_error": true,
+  "full_prefix_metric_certified": false,
+  "regenerable_arrays_committed": false
+}
