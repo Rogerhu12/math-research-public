@@ -406,3 +406,5 @@
 - [R926](results/R926-original-cube-roots-in-sections-and-complete-identities.md)：原已存在RF/Ri以V6/V6、V4/V4全2313/1429项恢复；保原F=A5/(B2 S³)及P=A3/B3，清分母残差分别属L28+4P_T、L18+2P_T，全检查至6940/4286严格付全局身份。原M2同基延2725/6941、原ω两Fp分量与首项1保持；完整producer已独审接公开请求，实际cube回执尚待。
 
 - [R925§6.2.1、§7.4、§10–11](results/R925-original-ys-affine-rings-and-complete-divisor-ideals.md)：完整norm与包含关系认证理想积早停；同原最大理想完整HNF给精确点身份，hash仅索引。原六cusp纤维各Fp[ν]/ν^289×Fp×Fp16，F16真约化投影、全289幂基与666原射影坐标接受门已证。截面/理想/helper接入，固定Sage饱和核/Hermite实际PASS；六厚纤维运行中，大交除子/shadow未付。
+
+- [R925§13](results/R925-original-ys-affine-rings-and-complete-divisor-ideals.md)：完整闭点/真实κ嵌入及全部primary提升；原q\q²参数、完整norm上界与q幂成员关系精确赋值，612×306整模等于q^v后读任意阶共同零比值。源码全文独审接入，待原输入实际门，不冒shadow。

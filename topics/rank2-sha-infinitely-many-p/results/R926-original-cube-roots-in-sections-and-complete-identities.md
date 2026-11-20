@@ -189,3 +189,5 @@ host先鉴定§6所述真实F/P完整证书，再以固定镜像断网运行；�
 | `rank2-sha-original-cube-sections.yml` | `6a5c98af159b8a181ecd6644ea91061eabc26302c853e31df8ae082fe9b51479` |
 
 原始F/P凭据分别钉在run43906594646/job133436977753/source135b50ff04a12c51dd1b9de583a20b2bed19cbed和run44714703201/job136215000168/sourceb688d6ac703fec422a7c864bcdc997cc553185fd；完整result hash见请求JSON及R909§7、R906§8。
+
+首实际请求为 [run44728285578/job136261182683](https://github.com/Rogerhu12/math-research-public/actions/runs/44728285578/job/136261182683)，source `17ea1c0ce98ea82ca6feeadd6fbf4b5989d90964`，当前运行中，未登记成功。

@@ -513,7 +513,7 @@ root与两名独立审阅者已静态逐行核原J单位精度、全部2449项co
 | `original_affine_multiplication.py` | `ff55083ab0e25d6b44991b64fa9cdc63d397842add1c474459e42986437e65a2` |
 | `produce-original-y-affine-normalization.py` | `22b2a9566485c542f375e15c9b41ae05054124f2cd0f5efba71244a0f39d2ed3` |
 
-首实际请求为[run44724912327](https://github.com/Rogerhu12/math-research-public/actions/runs/44724912327) / job136249752863 / source `fea36d7d86dc6229b23f5af13bd7ba53e0b362d1`，当前运行中，尚无成功回执。
+首实际请求为[run44724912327](https://github.com/Rogerhu12/math-research-public/actions/runs/44724912327) / job136249752863 / source `fea36d7d86dc6229b23f5af13bd7ba53e0b362d1`，首请求时运行中；其完整成功回执现见§12。
 
 ## 10. 六个完整厚cusp纤维的实际读取门
 
@@ -715,3 +715,111 @@ W0到W8的所有带权单项式均实际达到完整维数与秩，完整M4=J²W
 [run44726729229/job136255921243](https://github.com/Rogerhu12/math-research-public/actions/runs/44726729229/job/136255921243) 在 source `155a07fd16deb83bc20a98a84eac54e8ea17ae22`、2026-11-20 11:20:54 UTC 完成，耗时0.104388202秒。实际固定Sage10.6分别核r29、r41及常数扩张次数1、2：真正完整多项式minimal kernel通过饱和性验证；乘以变量后虽同秩且乘积为零的非饱和假核被拒；Hermite完整零行核通过；删零行所得2×3变换的完整返回与反向包含都通过。
 
 result SHA256为 `ae4f08c8d1df87379823430b3b348a475bb1319f8e934553973e708868a68e12`；完整日志为 `d3e26108a8bb4995f26fb8ede58f79b974dec5f65b502703dd3e87346846f2db`。脚本/helper hash仍为§11所列 `5180a0ac…307a` / `661075ee…226d7`。这付清了所用后端的实际接口语义；原曲线真实理想及其全局值仍须以原输入另行通过。
+
+
+## 13. 原参数、准确赋值及任意阶共零后的剩余值
+
+本补充对应 `original_ys_local_value_tools.py`，只消费 R925 已认证的同一整环、完整最大理想和实际剩余映射。代码的本地状态仅为 AST/静态检查；所有数学执行仍须公开 Actions。它不自行构造另一条曲线、改变原常数嵌入或宣称已经计算椭圆迹。
+
+### 13.1. 完整最大理想的幂就是原地方赋值条件
+
+令 $\mathcal A$ 是 R925 的第一或第二原图表，$R=k[\xi]$ 或 $k[s]$，$Q$ 是其闭点，$\mathfrak q=\mathfrak q_Q$ 是原剩余映射 $\mathcal A\to\kappa(Q)$ 的完整核。由于 $\mathcal A$ 是 Dedekind 整环，对每个整元素 $a$ 和 $n\ge0$，
+$$
+a\in\mathfrak q^n\quad\Longleftrightarrow\quad v_Q(a)\ge n.
+\tag{L1}
+$$
+其他地方的整性由 $a\in\mathcal A$ 已经保证。所有 $\mathfrak q^n$ 都用原理想乘法和完整 Hermite 行基表示；§6.2 的 norm 等式早停仍只在已证明整个理想相等时使用。
+
+完整 $\mathfrak q/\mathfrak q^2$ 是一维 $\kappa(Q)$-空间，特别是非零。故 $\mathfrak q$ 的306条 $R$-基行中至少一条 $\varpi$ 不属于 $\mathfrak q^2$。实际核
+$$
+\varpi\in\mathfrak q,\qquad \varpi\notin\mathfrak q^2
+\tag{L2}
+$$
+即证 $v_Q(\varpi)=1$，得到原 DVR 的真实参数。即使 $Q$ 是覆盖的289重 cusp，(L2)仍有效；算法不把基函数 $\pi(\xi)$ 的一个高阶零自动当参数。
+
+### 13.2. Norm 提供有限终止界，完整理想成员关系给准确值
+
+对非零整元素 $a$，由完整乘法矩阵 $M_a$ 的 Hermite 行模读取整个主理想 $(a)$，并取其首一 norm $N(a)\in R$。若基素多项式为 $\pi$，令
+$$
+e_\pi=v_\pi N(a),\qquad
+f_Q=[\kappa(Q):k_\pi].
+$$
+原有限覆盖的 norm 赋值式给
+$$
+e_\pi=\sum_{Q'\mid\pi}
+[\kappa(Q'):k_\pi]v_{Q'}(a).
+\tag{L3}
+$$
+各项都非负，故
+$$
+0\le v_Q(a)\le\left\lfloor e_\pi/f_Q\right\rfloor.
+\tag{L4}
+$$
+当实际剩余值不为0时，直接得 $v_Q(a)=0$。否则在(L4)的有限区间内，对完整理想 $\mathfrak q^n$ 的 Hermite 余式做二分判定，并最终实际核
+$$
+a\in\mathfrak q^v,\qquad a\notin\mathfrak q^{v+1}.
+\tag{L5}
+$$
+这样得到准确 $v_Q(a)=v$；norm 只提供终止界，不能替代按原闭点的成员关系。代码的 cache 以 hash 分桶后继续比较完整元素，避免把 hash 的无碰撞性当数学假设。
+
+### 13.3. 共零后的首项由完整多项式模方程唯一确定
+
+给定非零 $a\in\mathcal A$，准确赋值为 $v>0$，取 $M=v+1$。在完整商 $\mathcal A/\mathfrak q^M$ 内逐步相乘并约化，得到 $\varpi^v$ 的准确代表 $p_v$。因为 $M>v$，
+$$
+v_Q(p_v)=v,
+\qquad (p_v)+\mathfrak q^M=\mathfrak q^v.
+\tag{L6}
+$$
+第二式可逐地方核：在 $Q$ 上取两赋值的较小者 $v$；在其他地方 $\mathfrak q^M$ 为单位理想。
+
+令 $H_M$ 是 $\mathfrak q^M$ 的完整 $R$-行基。构造612×306多项式矩阵
+$$
+S=\begin{pmatrix}M_{p_v}\\H_M\end{pmatrix}.
+\tag{L7}
+$$
+用完整 Hermite 变换 $H=US$，并核全部输入行对 $H$ 的余式为0，认证其与 $S$ 是同一整个多项式行模。算法额外要求
+$$
+H=H_{\mathfrak q^v},
+\tag{L8}
+$$
+这直接核(L6)在同一原整基中的完整实现。随后以 $H$ 的首一上三角主元作准确多项式除法，解 $cH=a$。令 $(x,y)=cU$，则完整回代为
+$$
+xM_{p_v}+yH_M=a.
+\tag{L9}
+$$
+从而 $p_vx\equiv a\pmod{\mathfrak q^M}$。所有系数都在 $R$ 内；没有在分式域求解后清分母冒充全模。
+
+若 $x'$ 是另一解，则 $\varpi^v(x-x')\in\mathfrak q^M$，所以 $v_Q(x-x')\ge M-v=1$。故 $x$ 的剩余值与解的选择无关，恰是 $a/\varpi^v$ 的实际首项。由准确赋值 $v_Q(a)=v$，它非零，程序也实际验证非零。
+
+### 13.4. 原分式读取和消费者接口
+
+对同一原分式 $a/b$，先保持 $b\ne0$。若 $b(Q)\ne0$，直接在原 $\kappa(Q)$ 中取 $a(Q)/b(Q)$。否则读取准确 $v_a,v_b$：$v_a>v_b$ 时值为0；$v_a<v_b$ 时是原函数的真正极点，接口报带准确极阶的 `OriginalLocalPoleError`，留给消费者原有射影延拓。
+
+当 $v_a=v_b=v>0$ 时，用同一个原参数 $\varpi$、同一个完整 $\mathfrak q^{v+1}$ 和同一个(L7)同时解两个目标 $a,b$。各自首项为 $\bar x_a,\bar x_b\ne0$，得到
+$$
+(a/b)(Q)=\bar x_a/\bar x_b\in\kappa(Q).
+\tag{L10}
+$$
+因此任意高共同零阶都会被准确消去；不存在固定短 jet 失败就删除原点的路径。原 $k\hookrightarrow\kappa(Q)$ 的实际嵌入沿用闭点 helper，入口重新检查原常数域生成元的像；这固定了原 $\omega$，不会独立更换其根。
+
+可用接口为 `OriginalAffineLocalReader(engine, original_basis_identity=None)`，方法 `uniformizer(point)`、`valuation(point,a)`、`fraction_valuation(point,(a,b))`、`leading_coefficient(point,a)` 和 `reduce_fraction(point,(a,b))`。同一原 engine 可直接消费；若使用另一个操作适配器对象，必须给完全相同的原有序整基身份，并比较原最大理想完整矩阵。两张图表分别调用各自 reader，第二图表仍只消费 $s=0$。
+
+此层把 R925 的地方求值入口做成有限多项式模算法。后续消费者仍须保原全部 $m_Q,k_Q$、原常数反射和 Artin 顺序、原射影极点规则及完整椭圆曲线迹；局部值接口本身不推断任何 shadow 非零。
+
+
+### 13.5. 完整剩余域和原最大理想的实现认证
+
+`original_ys_closed_point_tools.py` 实现§7的全部基素因子、完整primary块、实际闭点、剩余映射和原最大理想。root已全文审阅，另由global独审；局部值层经deep独审。这里给两个不能省略的算法细节。
+
+令B为(40)的真实小代数，维数D≤306，底域大小q≥29。实际q次幂算子F满足F²杀死全部nilradical，因为q²>D；其像U恰为唯一有限étale系数子代数。**F²本身一般不是投影。** 在U的全基中读F²限制的可逆矩阵T，若C为F²全行在U中的坐标，则实际约化投影是P=C T⁻¹ U。代码核P²=P、rank(P)=dim(U)、P F²=F² P=F²及原单位返回。F首先由实际p次幂矩阵及完整半线性复合得到，原常数嵌入不变。
+
+完整固定代数ker(F−1)为kπ的有限直积。逐个使用其全部基元的真实乘法矩阵，按全部线性特征因子分裂，得到所有primitive idempotent；不枚举可能很大的整个kπ。每个实际剩余因子中，按Frobenius避开全部最大真子域得到生成元α，再实际核完整幂基满秩、最小多项式不可约及全部原环基到该残域的映射。选择α只改变原残域的内部坐标；多项式商与原生有限域的正反同构在生成元和原底域生成元上均回代，原ω像沿原嵌入保留。Sage官方 [field_extension接口](https://doc.sagemath.org/html/en/reference/polynomial_rings/sage/rings/polynomial/polynomial_quotient_ring.html#sage.rings.polynomial.polynomial_quotient_ring.PolynomialQuotientRing_domain.field_extension) 明确给出域、商到域、域到商三个返回对象；固定版本的实际使用仍由新原输入公开门核验。
+
+对完整norm中π的指数e，π^e湮灭整个primary商，所以小纤维幂等元的初始误差在(π)内，经e↦3e²−2e³至多ceil(log2(e))次必变成精确零。程序检查完整误差为零才接受，之后构造全部局部primary理想并按真实norm次数读重数；所有分量总长必须返回原理想长度。原点身份用完整最大理想HNF，重复hash后继续比较完整矩阵。
+
+| 新源文件 | SHA256 |
+|---|---|
+| `original_ys_closed_point_tools.py` | `705edc3584e74d295473940178282ff734c765a73dfbd2789ce74c2a32ed561a` |
+| `original_ys_local_value_tools.py` | `a954fdaf928bda3d731ecd88eecf6d418aa11bd77d7f17f03dde1683a9f3a21b` |
+
+本节完整证明与源码已接入；没有把静审写成实际原闭点、共同零首项或原shadow的计算PASS。
