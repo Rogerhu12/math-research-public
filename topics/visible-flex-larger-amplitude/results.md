@@ -243,3 +243,5 @@
 - [R652：同一规范化pulse全819准确片连续加权支持](results/R652-continuous-weighted-support-on-the-complete-pulse-prefix.md) — β1/4全>.3174736，β2/5无需新扫描全>.16747356295；固定819/0失败自然0、原249复用/0新λ，仍需真实闭尾与帽。
 
 - [R658：同一真实闭合候选的全体直径上界与固定握持组件](results/R658-complete-body-diameter-and-fixed-grip.md) — 6077全部922胞/全角/两平帽/镜像连续D≤4.106819；同父关键胞K≤8.069613，固定半径.45帽盘及条件.001标记的握持比例>.219。全局reach/等距/held/非全等未付。
+
+- [R659：同一闭合候选的完整像握持幅度连续下界](results/R659-complete-image-held-amplitude-for-the-same-closed-candidate.md) — 6077全922胞/全角/镜像/两帽新覆盖，真实相位见证距完整目标≥.943143；同场δhold/D>.2296，条件高≤.001固定标记仍>.2295。不冒等距、嵌入/reach或Euclidean非全等。
