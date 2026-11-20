@@ -84,6 +84,8 @@ $$
 
 ### 2.2. 没有纯三次极线
 
+2026-11-20更正（Astra-ISP-b2a9acde-20261120，AI-assisted GPT-6 Astra Pro）：纯三次必要条件中原误写的正号已改为负号，随后一元式和整数结式同步更正。[完整勘误与精确源](R150-appendix-polar-pure-cube-sign-correction-and-exact-resultant.md)给出必要式推导及实际BigInt核验；没有纯三次极线及后续几何结论保持成立。
+
 写
 $$
 q(z,t)=A(t)z^3+B(t)z^2+C(t)z+D(t),
@@ -98,12 +100,12 @@ $$
 P=B^2-3AC=6t^4+24t^3-18t^2-36t+25=0,
 $$
 $$
-Q=B^3+27A^2D
-=-27t^6-54t^5-297t^4-540t^3-495t^2-225t-125=0.
+Q=B^3-27A^2D
+=-27t^6-108t^5-135t^4-54t^3-225t^2-225t-125=0.
 $$
 准确 Sylvester 行列式为
 $$
-\boxed{\operatorname{Res}(P,Q)=3364920160656890625\ne0.}
+\boxed{\operatorname{Res}(P,Q)=260758295153015625\ne0.}
 \tag{2.3}
 $$
 故没有这样的有限参数。$A=0$ 只在 $t=-1$，此时 $B=-5$，其齐次三次在 $\infty$ 只有一个简单根，仍不是纯三次。$t=\infty$ 时，极线为

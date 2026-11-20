@@ -4,6 +4,8 @@ All polynomial identities and the pure-cube obstruction resultant are over Z.
 The degree-eight discriminant factor is certified squarefree by a nonzero
 resultant modulo 103.  No finite-field zero is lifted to characteristic zero.
 """
+# Corrected 2026-11-20 by Astra-ISP-b2a9acde-20261120 / root; AI-assisted GPT-6 Astra Pro.
+# The pure-cube condition is B^3 - 27*A^2*D, with the corresponding exact resultant.
 from pathlib import Path
 import json
 
@@ -101,12 +103,12 @@ def verify():
     squarefree=detmod(sylvester(E,derivative));assert squarefree==18
     assert evaluate(E,0)==9600 and evaluate(E,-1)==13900
     P=add(power(B,2),scale(mul(A,C1),-3))
-    Q=add(power(B,3),scale(mul(power(A,2),D),27))
+    Q=add(power(B,3),scale(mul(power(A,2),D),-27))
     assert P==[25,-36,-18,24,6]
-    assert Q==[-125,-225,-495,-540,-297,-54,-27]
+    assert Q==[-125,-225,-225,-54,-135,-108,-27]
     resultant=bareiss(sylvester(P,Q))
-    assert resultant==3364920160656890625
-    assert resultant%103==15
+    assert resultant==260758295153015625
+    assert resultant%103==56
     assert evaluate(A,-1)==0 and evaluate(B,-1)==-5
     # q(z,infinity)=z+1 as a binary cubic: it has one simple and one double root.
     infinity_fiber=[C[i][3] for i in range(4)]

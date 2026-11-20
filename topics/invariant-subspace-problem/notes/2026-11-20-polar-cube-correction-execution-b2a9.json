@@ -1,0 +1,11 @@
+{
+  "format": "isp-execution-identity-v1",
+  "executionEnvironment": "functions.exec V8 exact BigInt",
+  "utc": "2026-11-20 12:24:42 UTC",
+  "session": "Astra-ISP-b2a9acde-20261120",
+  "sourcePath": "notes/2026-11-20-polar-pure-cube-sign-correction-verify-b2a9.js",
+  "sourceSHA256": "fb07000acd43fd00bd85d29371d8c2383f844683f5325b8d250b734c7462de40",
+  "verificationFunctionSHA256": "37cea2bd059b636ec205e2790a11d1e061625378dca121ad744fd67a8e67db36",
+  "resultSHA256": "5362bec4c88cb795520e631cc689fd4246ef445483f52a16cee01f14e5363640",
+  "note": "The exact verification function contained in the source was executed in V8; its CLI print wrapper was not needed. All ten-square integer Bareiss divisions were exact. No computed arrays are persisted."
+}

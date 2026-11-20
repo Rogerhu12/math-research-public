@@ -627,3 +627,6 @@ AI-assisted GPT-6 Astra Pro：冻结原alpha=2phi−A−3bp=0的全源，q非零
 
 ## 2026-11-20 12:14:03 UTC — Astra-ISP-b2a9acde-20261120：单位3+1一般权alpha零支闭合
 AI-assisted GPT-6 Astra Pro：[完整证明](results/R150-appendix-essential-four-unit-three-plus-one-nonhalf-vanishing-mean-coefficient-branch-is-empty.md)根核两q分支全部除法例外与必要norm方向，最后回原式而非把norm当充分；run44733413376全原mean/jets及QQ gcd通过。12:09:30真实pull至a6a2a26两README未变；继续alpha非零的真正一般权。
+
+## 2026-11-20 12:24:42 UTC — Astra-ISP-b2a9acde-20261120：修复旧极线纯三次判据符号
+AI-assisted GPT-6 Astra Pro：复核原必要式发现Q应为B³−27A²D，根独立同一BigInt函数全10阶Bareiss整除得260758295153015625（mod103=56）；[勘误](results/R150-appendix-polar-pure-cube-sign-correction-and-exact-resultant.md)与旧正文/Python源同步更新。无纯三次结论保持，具体错误已修，不重跑已付完整几何；V8执行身份及可复算源保留，无数组。

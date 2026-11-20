@@ -97,3 +97,5 @@
 - **R150 整个V0临界层的三个原匹配Bell均零，I0准确指数三（2026-11-20，已证明）：** [完整最高消元、全792行QQ证书及显式乘子定义](results/R150-appendix-zero-third-cumulant-all-matched-bell-values-vanish-and-exact-index-three.md)保全部17低梯度/三原根，实际run44732550495给(r·y)S_r²∈I0，乘同Q_r得S_r³；与已付平方非成员合成准确指数3。原V0匹配值零含y0及任意Cat/H秩/ess维数；不宣高维层空，也不宣一般V≠0或全Jacobian同幂。
 
 - **R150 单位3+1一般非半权的一阶mean系数零支为空（2026-11-20，已证明）：** [完整q分支与原norm必要式证明](results/R150-appendix-essential-four-unit-three-plus-one-nonhalf-vanishing-mean-coefficient-branch-is-empty.md)令alpha=2phi−A−3bp；q非零的无除法mean消去量非零，q0的两个11/13次QQ障碍gcd=(v−1)²，回原式仅半权。run44733413376全部原式通过；真正剩余p、alpha非零且b≠1/2，不宣整支已空。
+
+- **R150 原极线纯三次判据的具体符号更正（2026-11-20，已修复）：** [正确必要式与完整整数结式](results/R150-appendix-polar-pure-cube-sign-correction-and-exact-resultant.md)修正Q=B³−27A²D并精确求得260758295153015625≠0。原no-pure-cubic几何结论成立，旧正文/验证源同步更新；不是重做已有完整几何分类，旧正号与旧数值不再作证。

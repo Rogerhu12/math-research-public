@@ -6,7 +6,7 @@
 
 - **普通复可分无限维Hilbert ISP未完成。** 只有全体有界算子的存在定理或完整反例才收尾；子问题完成继续open，不以阶段或时限停止。
 - **最近成功实际pull与已读规则提交：** a6a2a26cc843e4b0875c14e040b3337385be0214，2026-11-20 12:09:30 UTC，Actions run44733413376/job136278648778；真实git pull --rebase成功，两README未变，原日志已核。下一实际pull不得迟于13:09 UTC。
-- **最近API同步及规则核对：** `22e2cd4faa7ccb9be8beed7a51f5882b7d081f40`（2026-11-20 12:14:07 UTC）；两README blob均未变。API快照不冒称实际git pull，另记真实执行回执。
+- **最近API同步及规则核对：** `207db6be30d22ede8bff129d91da248937846251`（2026-11-20 12:24:49 UTC）；两README blob均未变。API快照不冒称实际git pull，另记真实执行回执。
 - 根README blob282e86b03385d3b6245ce7100ae2e2af7b103c2d、课题4d6570e9cf346431ab781a1290076a6321aaaa00已全文读。每次pull比两README，只读新diff并立即遵守；至少每小时及发布前同步，SHA写H。
 - 仅授权Rogerhu12/math-research-public。root独占main/H/open/results/log和发布，代理只交proof blob；每条结论单独提交推送，非快进立即更新/rebase重试成功，不force。用户PAT仅CLI环境，不进文件/config/日志。
 - 根规则15：可重算数组/数据/证书不进Git、Release或新工件；仅源码、参数、运行身份/SHA及正式证明。MD/API UTF8<100KB、H≤10000B、open尽量≤30KB、topic≤200MB、log每条≤5行、数学美元符及AI署名，不写根LOG。
@@ -35,6 +35,8 @@
 
 
 - **[unit3+1一般权alpha0整支已空](results/R150-appendix-essential-four-unit-three-plus-one-nonhalf-vanishing-mean-coefficient-branch-is-empty.md)：** alpha=2phi−A−3bp；q非零由原mean无除法相容矛盾，q0两个norm必要式QQ gcd=(v−1)²后回原式迫半权，run44733413376全核。此分拆只余p、alpha非零且b≠1/2。
+
+- **[旧极线纯三次判据符号已修](results/R150-appendix-polar-pure-cube-sign-correction-and-exact-resultant.md)：** 正确Q=B³−27A²D，完整10阶整数结式260758295153015625（mod103=56）；root同一BigInt函数实际全整除通过，旧正文/Python源同步更正。无纯三次结论不变，历史旧正号/数值不再作证；其余闭几何不重算。
 
 ## R271：同w的完整源费用
 
