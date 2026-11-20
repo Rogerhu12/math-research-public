@@ -4,7 +4,7 @@
 
 ## 规则与完整目标
 
-最近规则核查：2026-11-20 13:19 UTC，真实pull/rebase至 `42830c8a6e9a26d101178a9bb96e53dd8a9d0167`，双README相对上次已读无差异。
+最近规则核查：2026-11-20 13:19 UTC，真实pull/rebase至 `8a26b78c24e86c0079c29219ec489adbeb5a399f`，双README相对上次已读无差异。
 
 科学计算仅公开Actions；本会话此前本地执行的偏差及13:00 UTC纠正见[执行记录](notes/2026-11-20-public-actions-execution-correction.md)。公开仓库内工作；终端git普通push，每条结论推一次，NFF立即pull/rebase再推。至少每小时pull；每次查根/本题README差异，变更立刻读/执行。根README已授权必要修改/发布。根唯一git writer，代理只work/小blob。raw只scratch；Git/Release/artifact只保完整小源/参数/run/SHA/紧凑结论。题≤200MB、单MD<100KB、H<10KB、open<30KB。令牌只瞬时CLI，不写文件/提交/回复。
 
@@ -33,7 +33,7 @@ carrier在work/recover_evidence/gauss6-current-three/same-scalar-gauss-observati
 a04路径work/geometry_path/curvature-qp-spectral-hessian-r22-next-six.npz，SHA `a04f9faf228c3785ab785314eb14836bdad598a6d6ac826c4abf15100225f4e0`。0241路径work/geometry_path/curvature-qp-physical-h2-next-six.npz，SHA `0241f7144f82b485350f684e999c8fb3fa71c94a942339da0bfa9f00bdb30023`。所有已返科学数值为本地结果，不能冒称Actions运行。
 
 - geometry_path：v7同p8/.001/.05准确残差Hessian及真gradient；2534列首6得bede但新821盆末product.99240164超内部余量；三方向恢复35f；后六得a04。完整原失败/两次启动0trial错误/全部CLI分别刊。1053κ/165radius/9protected只携位置，后继逐点读新场。下一四方向尚未启动；正编warm到a04的公开Actions完整重建入口。
-- fullclosed_solver：首完整Phi不等式QP从35f自然返da088，256乘积/641.84s，仅1/4接受；Phi1.16835658e−7/max.01329667，弱于a04，不退主父。新增a04位置复读product.991850018963。192线性行含28条821近重复，却漏真实低phi拒峰；该峰始终保留于非线性screen。近相关活动行与负乘子释放滞后均按真实范围处理，修源/证明后在公开Actions求新方向，当前无本地科学进程。
+- fullclosed_solver：首完整Phi不等式QP从35f自然返da088，256乘积/641.84s，仅1/4接受；Phi1.16835658e−7/max.01329667，弱于a04，不退主父。新增a04位置复读product.991850018963。192线性行含28条821近重复，却漏真实低phi拒峰；该峰始终保留于非线性screen。[R668](results/R668-feasible-release-before-face-stationarity.md)已证未驻点时按单位可行方向下降率提前释放；v2源尚未科学执行。工作集另补实际峰覆盖，下一完整方向在Actions运行。
 - recover_evidence：R667同角Q256/前24模、所有原模及解析尾仍付；只补原799未付胞，再补50个弱正胞，完整sigma≥.14208798/normal≥.08558693。077非平面准确Fraction唯一新检查已返，四固定p4后含反射δE>0；新a04证书尚未启动。正推实际同g尾结构，新的数值安排Actions。
 - root：0241全K本地45381因执行地点规则纠正Ctrl-C exit130；最后落盘1146次覆盖（全922粗+224细），全胞有效上界最大8.5913381808，850胞≤8.1；层2/72胞已启动但没有保存的新批，未返量不作0。保全部已有raw/source/SHA和scope，不称全运行完成或reach已付。R666仍留给真正全K/reach；后续公开Actions继续数学工作。
 
@@ -43,11 +43,9 @@ a04路径work/geometry_path/curvature-qp-spectral-hessian-r22-next-six.npz，SHA
 
 [R657](results/R657-complete-closed-relative-Gram-and-same-scalar-enclosure.md)完整抵消保持连续relative Gram和同a Taylor已证；唯一实际def1/胞839范围[.10186124,.10187890]。证明加密不能替求解收敛。
 
-[R658](results/R658-complete-body-diameter-and-fixed-grip.md)：6077全922胞/全角/两帽/镜像D≤4.106819。相同父胞821 K≤8.069613、support≥.4574082，.03DK≤.9942132只本胞。半径.45固定帽盘diam=.9；条件高≤.001marker后D≤4.108819，握持大小比例>.219。
+[R658](results/R658-complete-body-diameter-and-fixed-grip.md)/[R659](results/R659-complete-image-held-amplitude-for-the-same-closed-candidate.md)：6077全922胞/两帽/镜像D≤4.106819、整像held≥.943143，比>.2296；固定帽盘diam=.9。条件.001外marker后D≤4.108819、held比>.2295。6077胞821的K≤8.069613只本胞，不移用其他父。
 
-[R659](results/R659-complete-image-held-amplitude-for-the-same-closed-candidate.md)：同6077全体目标距离≥.943143，δhold/D>.2296；见证z0且H>1使条件固定.001帽图仍保该距离，比例>.2295。求和下标已校为j1至M；执行源/值不变。
-
-[R661](results/R661-complete-nonplanar-activity-and-four-fixed-markers.md)：同6077准确Fraction全922胞无平面开片，两轴端点>.4541且逐胞非零高度多项式。四互异p4固定图盘K≤5、A1/4支持≥64/267，支撑圆心仿射独立。配R659后，**若另付全族嵌入**则含反射δE>0；不提前说当前已嵌入。
+[R661](results/R661-complete-nonplanar-activity-and-four-fixed-markers.md)：6077全922胞准确非平面；四互异半径p4固定图，H>1时K≤5、A支持≥64/267。配真实幅度且另付嵌入才给含反射δE>0；0241/077各自应用已在R663/R667支付。
 
 [R660](results/R660-positive-spectral-Gram-blocks-and-maximum-control.md)：正谱Lp完整3×3块/原全空间normal与transpose/带scale有限max界已证；Φ0仅普遍下界，未证明原模型有根。p>2冻结二次式非MM，须真Φ回溯。原[22列同像试验](notes/2026-11-20-exact-radial-reparameterization-first-trial.md)只减Jw .504%且max略升；新p8径向诊断虽max降但不优于主父，均不替主线。
 
