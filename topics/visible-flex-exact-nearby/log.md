@@ -175,3 +175,7 @@ science32478B/817f033d、worker30041B/96785db2、gen11751B/20cba007、contract99
 ## 2026-11-20：已成X/Y的完整H1/2体预算首次消费封包
 
 source20629B/7249ee69、worker29103B/e3b9a174、gen11084B/cafe9d54、contract5218B/33903ab5，root整源/worker差异/完整合同与gen读审，global独核GB20/21与GB23 lower方向。17当前bytes/SHA/blob/AST、26字段/5+1分支/YAML全核，0历史；metadata再现manifest8217B/375a1ffc16af7834d92ec044cb33078705150fc88ce76bbe639d74754f87443f及workflow逐字同。新五upper每条写盘读回contains后消费，3门全过才保存第6lower；完整原X/Y false保留，根r只读旧Y不冒新H1/2迹。0旧科学/ODE/积分/数组，首次push独立公开workflow。H当前续点压缩前全文索引81dd1d794，保全部原资格。
+
+## 2026-11-20：完整H1/2体预算实际通过与根费下界
+
+44745355257/1成功6球；root逐17当前bytes/SHA/blob、whole manifest/exec receipts相等、26字段/6目标顺序/全旧X/Y引用核。actual8886B/5b5f374f、exec11639B/9bc00f39，child.08971855299999731s/0；7pull链/4完整空README差异，0历史/旧science/ODE/积分。wE/wB约26.51635/9.213535，aEE/aEB/aBB约1.10988/.730579/.119853，body3门true；严格保存lower C_allow≈367.117748给可用条件C*≤367。实际根C*未有，根r保Y原H2/3，不授全逆/两RHS/最终族；本实际结论冻结。
