@@ -10,6 +10,8 @@
 
 - **R933（已证明）**：[同h Legendre因子与固定第二类微分Cartier](results/R933-same-label-Legendre-factor-and-fixed-Cartier-differential.md)。在原E*:v²=w³+6w+7上，U=[w^(p−1)]f^m、V=[w^(p−2)]f^m，保δ与同h，315δL_h=283U−224V；固定β=(224w−283)dw/(2v)满足Cβ=−315δL_hω。原因子零等价β约化后有显式有理原函数；未证明非零，不混ordinary与该条件，不触及Q′或height。SHA256 6ec44e35fae255b54ddcedef37a44de34bbf59882beecc7a46fd20bb8c5e18b1。
 
+- **R934（已证明的辅助反例；窗口为有限计算证据）**：[允许p41原h25的Legendre零](results/R934-admissible-same-label-Legendre-zero-at-41.md)。P24=P16，原x²=27下九项和164=4·41，因子恰零而A单位；全p单h非零目标关闭。run44711592515扫描2406素数至1e5只有41零；不外推充分大p，不重开R707，不否定Serre一致性。SHA256 c4cae5c4c9ac7b136383e7fe63801bf0b117ad4cf9074e4fcbdfecb3dac361f6。
+
 ## 当前原高度、函数与同标签接口
 
 - **R808（已证明）**：[原cuspidal Gram商与真实period/split/Howe链](results/R808-original-cuspidal-Gram-quotient-and-Howe-chain.md)。R727全部群元素的整Gram把原轨道格非退化约化商准确识别为Sym^(2r)det^(−r)，r=min(h−1,p−h)；原e0、Frob-Hermitian、Tζ平均像和N_h同时运输。位置Cartan与链内SL2严格区分，链中心规范与Hasse连接准确匹配；实际sigma原单项式仍经Kraw混合，同h配对非零未得。 SHA256 c24889c8d8407447dc38e14b583d002c289697b1b75376af7ea5348c4f6a03db。

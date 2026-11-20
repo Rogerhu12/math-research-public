@@ -94,3 +94,9 @@ R859–R898原BT/Drinfeld/Igusa/cusp/整theta lift、两旗(6,6)/rank36源全部
 ### R933：同h因子的固定第二类微分接口
 
 [R933](results/R933-same-label-Legendre-factor-and-fixed-Cartier-differential.md)已完整证明：在原有理辅助曲线E*:v²=w³+6w+7上，原L_h=P_(h−1)(1/s)满足315δL_h=283U_p−224V_p，其中U/V是f^((p−1)/2)的p−1/p−2系数，U_p≠0沿R929。固定β=(224w−283)dw/(2v)的Cartier为−315δL_hω，且L_h=0等价β在Fp(E*)有显式有理原函数。下一缺口因此可准确研究该固定微分的约化Cartier零；char0非恰当性与普通性都不排除个别p的零。窗口另以公开Actions计算，仅为有限证据；实际Serre来源仍须p≡2,5mod9。Q′_h(0)与全局height缺口不变。
+
+### R934：全p固定中央标签非零目标已排除
+
+[R934](results/R934-admissible-same-label-Legendre-zero-at-41.md)完整纸证p41、原h25、原x=1/s下P24(x)=P16(x)=0；41 mod9=5确在实际来源范围。未移位A仍为单位，R929不撤销；R707固定层分类不重做。R925的该标签J32于是必零，无关Q′是否零，但不能倒推出Q′本身为零。公开run44711592515在2406个p5mod12素数≤100000仅见41零；有限窗口不说明充分大p。
+
+下一项改为：充分大p的固定β Cartier约束，或保同一实际CM源/primitive条件的可变h；R932完整SS总和独立继续。禁止再把“每个允许p的这一固定h因子非零”列作可证目标。
