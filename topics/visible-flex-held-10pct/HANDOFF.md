@@ -6,7 +6,7 @@
 
 连通闭C²嵌入连续族；固定有内点H、diamH≥.2D；整像δhold≥.1D、含反射的δE>0；全时reach≥.03D。固定全部g/物理参数/时间范围，完整metric≤1e−6且空间/频率/时间精化下降至求解/机器地板。条件比例窗、开放前缀、有限接受均非完成；完成后继续增大比例。
 
-- 工作树 `/workspace/scratch/1b6d88ecddf3/math-research-public`；已部分克隆并真实pull。已读规则提交：`9a4224f9e8d5be07731aef86acca864652d902f5`；API差异核对双README无变化。最近真实pull为10:36 UTC公开live worker到3bfc61f2a85、双README无变化；后续API比较不冒充pull。持续至少每小时实际pull并核规则。
+- 工作树 `/workspace/scratch/1b6d88ecddf3/math-research-public`；已部分克隆并真实pull。已读规则提交：`67b0e08aa90218fb283fef7629b0c84a7849ece5`；API差异核对双README无变化。最近真实pull为10:36 UTC公开live worker到3bfc61f2a85、双README无变化；后续API比较不冒充pull。持续至少每小时实际pull并核规则。
 - root独占终端git发布。每条结论同步H/log并立即push；NFF即pull --rebase、核双README并重推，禁force。首次接手提交d75355cbd已推。
 - 根§12：不重复旧身份审计/双审流程，优先实际求解。根§15：可再生场、网格、矩阵/输出不入Git/Release/CI；只留源/参数/命令/hash和紧凑数值。H<10KB，单MD<100KB，目录<200MB，不写根LOG。
 - `/workspace/scratch/7322d0dee069`明确不存在。旧91205(λ.82)/27744(M24)终态未知；新再生不是原进程续接，也不把丢失路径判为数学失败。完整旧断点见882aa9b74的H及[中断记录](notes/2026-11-18-execution-environment-interruption-recovery.md)。
@@ -20,11 +20,9 @@ m2新切角族未改善H/q≈.0121，细点曲率9.00474，停止同族；新的
 
 ## m3旧断点：必须保留的事实
 
-- 原q060余弦真锚CP4755143b：1934点、RMS9.97758523e−7、BC9.17879e−12、metric3.79125e−8，3真尾/208J；mean2/nonmean2 seam6.64415e−11/9.57232e−8，仍未闭合。完整物理参数在q060_cosine_reference_binding，原全场缺失。
-- R45路径λ.02/.04/.08/.16/.32/.64有限锚都有完整metric未门；最后λ.64 CPf55b4f、metric8.726888546e−4、mean2差8.881645419e−4，原native真尾7682be/9.168793301e−10/208J已过。旧field不可读，不重复登记接受结论。
-- 直接λ1/38274真实失败：4212点、maxnodes/RMS1.06820865，随后正根margin−2.533498598e−7、无完整metric/0新尾。后λ.82从f55b启动91205，qseed.05336960976112643，终态未知。same-provider strict partial源1a5a已保存但需要实际raw/CP，不能凭hash造输入。
-- 旧q.04 raw λ.02同g M8→M16 metric8.30078e−5→9.35726e−5变坏；canon/parts16/exact-lift/free-c6未补角谱。旧λ1 q.0399/M16/a.21多入口、短a.01、完整/半步两jet、q060旧直接入口均有真实失败，不无改变重跑。
-- R47—49固定槽/完整补偿付同参考场与正根、均值；标准partial仍有(1−λ)差。当前exact lift系数为1，升M用aχΔI，不能误乘材料λ；新BVP/高维DN/metric仍另付。
+- 原q060真余弦锚CP4755143b：1934点/RMS9.97758523e−7/metric3.79125e−8，3真尾/208J，mean2/nonmean2 seam6.64415e−11/9.57232e−8，未闭合。完整参数在q060_cosine_reference_binding，旧全场缺失。
+- R45 λ.02/.04/.08/.16/.32/.64均有限接受但metric未门；末CPf55b4f、metric8.726888546e−4/mean2差8.881645419e−4，真尾7682be原门过。直接λ1/38274失败4212点/RMS1.06820865后root−2.53350e−7；λ.82/91205失联未知，same-provider源1a5a未执行。
+- 旧q.04 raw λ.02 M8→M16 metric8.30078e−5→9.35726e−5变坏；旧λ1/M16多入口/短弧/两jet/partial各失败详见历史notes，不无改变重跑。R47—49固定槽/完整补偿保同参考场/正根/均值；当前lift系数1，升M用aχΔI而非λ_core aχΔI，真实新BVP/高维DN/metric另付。
 
 ## n4旧断点：必须保留的事实
 
@@ -50,6 +48,8 @@ R53补充已证整个旧控制盒、tau=0时核心C0/C1/C2变化分别<(.01936,.
 两高度/单高度恢复的正确分支条件是SH=DH−CH K⁻¹B可逆；冷步右端−rH+CH K⁻¹E，目标高度接近不保证步小。固定线性共振的非零入口必有非零cut高度，但有限幅条件数仍待实测。精确块消元和未执行helper见[Schur响应](notes/2026-11-20-n4-height-anchor-schur-response.md)；m3只换H3并保高7DN，n4两H针对双共振。
 
 R54宽材料窗S=.5/b=.2/k=.2，H横宽.54/相位.45，精确扫窗留.005余量；H径>.53973756，只需0<柱长≤.01。条件D0≤2.64、完整曲率/支撑付清时n3 held>.111439D、n4>.132023D，原两ramp在v=.19<k前保证窗耗尽。三重单调核的非零三阶矩可续R6。仅条件设计，当前S=.21计算不变，见[R54](results/R54-transverse-held-arc-and-short-cylinder-window.md)。
+
+固定全g/q/c的场校正接口已备：只解场、消去固定入口，全部真DN保留为兼容残差；η=rT−CA⁻¹rE及矩形LSMR步骤不准偷调新c/mean。原fixed=True只冻profile，不能当全参数固定；实现尚未执行，见[冻结接口](notes/2026-11-20-n4-fixed-physical-field-refinement.md)。
 
 ## 接着做
 

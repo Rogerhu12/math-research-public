@@ -6,7 +6,7 @@ At fixed q, profile, chart and physical core, the continuous reference transfer
 is Y_new(s)=embed(Y_old(s))+a(s)*chi(s)*(I_new-embed(I_old)).
 The lift coefficient is one; material-core homotopy lambda is NOT a factor.
 """
-import argparse, hashlib, importlib.util, json, sys
+import argparse, hashlib, importlib.util, json, subprocess, sys
 from pathlib import Path
 import numpy as np
 from scipy.interpolate import PPoly
@@ -46,6 +46,8 @@ def main():
     ap=argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--source-run",type=Path,required=True)
     ap.add_argument("--raw",type=Path)
+    ap.add_argument("--port",type=Path,help="Optional enlarged port with the identical physical metric")
+    ap.add_argument("--tail-config",type=Path,help="Original tail settings; when needed regenerate only its modes for the larger linear port")
     ap.add_argument("--modes",type=int,required=True)
     ap.add_argument("--angular",type=int)
     ap.add_argument("--check-angular",type=int,default=2048)
@@ -69,8 +71,21 @@ def main():
     source=Path(option("--source-topic")); short=Path(option("--short-bridge"))
     cfg=json.loads(Path(option("--profile")).read_text())
     chart=json.loads(Path(option("--chart")).read_text())
-    port_path=Path(option("--port"))
+    a.outdir.mkdir(parents=True,exist_ok=False)
+    port_path=a.port or Path(option("--port"))
     port=json.loads(port_path.read_text())
+    if new_m>len(port["linearSlope"]):
+        if not a.tail_config:
+            raise ValueError("Provide --tail-config to regenerate the same metric's larger linear port, or provide --port")
+        tail_config=json.loads(a.tail_config.read_text())
+        tail_config["modes"]=new_m
+        config_path=a.outdir/"tail-settings.json"
+        config_path.write_text(json.dumps(tail_config,indent=2)+"\n")
+        port_path=a.outdir/"linear-port.json"
+        exporter=Path(__file__).parent/"recovered_q021/export_original_worker_port.py"
+        subprocess.run([sys.executable,str(exporter),"--source-topic",str(source),
+                        "--config",str(config_path),"--out",str(port_path)],check=True)
+        port=json.loads(port_path.read_text())
     port["cut"]["_prefix_bridge"]=cfg["prefix_bridge"]
     port["_sha256"]=sha(port_path)
     if (cfg!=rec["physical_profile"] or chart!=rec["angular_chart"]
@@ -172,7 +187,6 @@ def main():
             checks[name]=max(checks[name],float(np.max(np.linalg.norm(delta,axis=2))))
     if max(checks.values())>1e-7:
         raise FloatingPointError("Physical reference transfer failed: "+str(checks))
-    a.outdir.mkdir(parents=True,exist_ok=False)
     dest=a.outdir/"initial.npz"
     np.savez_compressed(dest,x=x,y=y1,p=p1,pscale=new.pscale)
     result=dict(scope=__doc__,status="nodal_initial_guess_ready",
@@ -190,7 +204,9 @@ def main():
                          check_s=len(sample),meridian_two_jets_checked=pp is not None,
                          inlet_projection_change_max=float(abs(di).max()),
                          exact_lift_coefficient=1,core_homotopy=settings.get("homotopy")),
-        result=dict(initial_raw=str(dest.resolve()),initial_raw_sha256=sha(dest)),
+        result=dict(initial_raw=str(dest.resolve()),initial_raw_sha256=sha(dest),
+                    port=str(port_path.resolve()),port_sha256=sha(port_path),
+                    modes=new_m,angular=nt),
         common_mean_height_scope="The identical angular frame and s jet preserve its original mean-height reconstruction; the reported raw jets omit that common term.",
         stored_representation="Only nodal Y is stored. The continuous transferred reference has the stated identity; a new BVP interpolant is not claimed identical.",
         accepted_bvp=False,metric_gate_paid=False,true_tail_paid=False,
@@ -199,4 +215,15 @@ def main():
     print(json.dumps(result,allow_nan=False))
 
 if __name__=="__main__":
-    main()
+    try:
+        main()
+    except Exception as exc:
+        # Leave a compact failure visible to the same-runner diagnostic reader.
+        if "--outdir" in sys.argv:
+            directory=Path(sys.argv[sys.argv.index("--outdir")+1])
+            directory.mkdir(parents=True,exist_ok=True)
+            file=directory/"transfer.json"
+            if not file.exists():
+                file.write_text(json.dumps(dict(status="error",error=repr(exc),
+                    complete_surface=False,metric_gate_paid=False),indent=2)+"\n")
+        raise

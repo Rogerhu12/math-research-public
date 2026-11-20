@@ -164,4 +164,17 @@ def main():
 
 
 if __name__=='__main__':
-    sys.exit(main())
+    try:
+        sys.exit(main())
+    except Exception as exc:
+        import traceback
+        try:
+            directory=Path(sys.argv[sys.argv.index('--workdir')+1]).resolve()
+            target=directory/'material-corrector-summary.json'
+            state=json.loads(target.read_text()) if target.exists() else {}
+            state.update(status='corrector_error',error=repr(exc),
+                         traceback=traceback.format_exc()[-6000:],complete_surface=False)
+            target.write_text(json.dumps(state,indent=2)+'\\n')
+        except Exception:
+            pass
+        raise

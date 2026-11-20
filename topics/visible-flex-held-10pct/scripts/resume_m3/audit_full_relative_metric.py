@@ -314,6 +314,7 @@ def audit_loaded_model(obj, physical, *, angular=(512, 1024), radial=None,
         rows=output_rows)
 
 
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--model-adapter", type=Path, required=True)
@@ -325,21 +326,35 @@ def main():
     parser.add_argument("--radial", type=float, nargs="*")
     parser.add_argument("--physical-harmonics", type=int, default=24)
     args = parser.parse_args()
-    spec = importlib.util.spec_from_file_location("_held10_actual_model_adapter", args.model_adapter)
-    adapter = importlib.util.module_from_spec(spec)
-    spec.loader.exec_module(adapter)
-    obj = adapter.load_model(json.loads(args.model_config.read_text()))
-    result = audit_loaded_model(
-        obj, load_physical(args.physical), angular=args.angular, radial=args.radial,
-        mean_nodes=args.mean_nodes, physical_harmonics=args.physical_harmonics)
-    result["audit_source_sha256"] = hashlib.sha256(Path(__file__).read_bytes()).hexdigest()
-    result["diagnostics"] = {key: result[key] for key in (
-        "radial_samples", "mean_rule", "mean_nodes", "full_prefix_certified", "rows")}
-    args.out.parent.mkdir(parents=True, exist_ok=True)
-    args.out.write_text(json.dumps(result, indent=2, allow_nan=False)+"\n")
-    print(json.dumps(dict(out=str(args.out), radial_samples=result["radial_samples"],
-                         observed_operator=[row["sample_operator_max"] for row in result["rows"]],
-                         full_prefix_certified=False)), flush=True)
+    try:
+        spec = importlib.util.spec_from_file_location("_held10_actual_model_adapter", args.model_adapter)
+        adapter = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(adapter)
+        obj = adapter.load_model(json.loads(args.model_config.read_text()))
+        result = audit_loaded_model(
+            obj, load_physical(args.physical), angular=args.angular, radial=args.radial,
+            mean_nodes=args.mean_nodes, physical_harmonics=args.physical_harmonics)
+        result["status"] = "evaluated"
+        result["audit_source_sha256"] = hashlib.sha256(Path(__file__).read_bytes()).hexdigest()
+        result["diagnostics"] = {key: result[key] for key in (
+            "radial_samples", "mean_rule", "mean_nodes", "full_prefix_certified", "rows")}
+        args.out.parent.mkdir(parents=True, exist_ok=True)
+        args.out.write_text(json.dumps(result, indent=2, allow_nan=False)+"\n")
+        print(json.dumps(dict(out=str(args.out), radial_samples=result["radial_samples"],
+                             observed_operator=[row["sample_operator_max"] for row in result["rows"]],
+                             full_prefix_certified=False)), flush=True)
+    except Exception as error:
+        import traceback
+        message = type(error).__name__+": "+str(error)
+        trace = traceback.format_exc()[-8000:]
+        result = dict(status="error", error=message, traceback=trace,
+                      full_prefix_certified=False,
+                      diagnostics=dict(error=message, traceback=trace,
+                                       full_prefix_certified=False))
+        args.out.parent.mkdir(parents=True, exist_ok=True)
+        args.out.write_text(json.dumps(result, indent=2, allow_nan=False)+"\n")
+        print(json.dumps(dict(status="error", out=str(args.out), error=message)), flush=True)
+        raise SystemExit(1)
 
 
 if __name__ == "__main__":

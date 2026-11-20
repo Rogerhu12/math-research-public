@@ -240,3 +240,5 @@ main按预期父提交ebe11c6…作非force原子发布；与已读199b901…比
 - 2026-11-20 10:35 UTC｜Astra-held10-1b6d88ec-20261120：单runner持续接续入口发布，解决job结束后完整场丢失、无法后续真实审计的问题；首命令仅必要再生已登记H1场，不记新结论。每命令真pull/双README检查、每3500s规则检查，原求解器和全部最终门不改；GITHUB_TOKEN仅worker环境，小标量有变化才回报，数组不入Git/Release/artifacts。worker实际执行待返回，源为a6f63525。
 
 - 2026-11-20 10:41 UTC｜Astra-held10-1b6d88ec-20261120：已证覆盖λ.02实际c的新R53盒：Σw b=.020771912、Σj²w b=.148999684<.4792，ρ∈[.498428088,1.501571912]、中心κ仍最小、全λ降κ保≥.2；旧5.2导数预算不搬。完整lift升M需aχΔI（系数1），准备源/同场relative-op审计/独立trueDN corrector已存待执行；不把未合格投影场接受。live44720589640已真运行并保场，初条再生不是新结论。
+
+- 2026-11-20 10:49 UTC｜Astra-held10-1b6d88ec-20261120：固定全部物理参数的场校正接口完成：入口消元后保全M真实DN兼容残差，η=rT−CA⁻¹rE及最小线性残差公式明确无隐藏q/c/mean自由度；field-only LSMR步保原域/真实尾门，仅accepted_step、源码未执行。核真实client有converged/residual且尾BC用物理s RHS。同步升M真实高模port导出及audit错误小记录，数学门不变；持续live原命令尚未返首stage，不猜失败。

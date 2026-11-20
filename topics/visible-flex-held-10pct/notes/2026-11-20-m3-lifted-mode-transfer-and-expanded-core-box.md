@@ -60,7 +60,8 @@ X(s,psi)。其计算一、二阶导数的传递分别加 h' 和 h'' 倍的相同
 
     python -u "$TOPIC/scripts/resume_m3/prepare_lifted_mode_restart.py" \
       --source-run "$WORK/material-lam002-linear/run.json" \
-      --modes 12 --outdir "$WORK/material-lam002-m12-transfer"
+      --modes 12 --tail-config "$WORK/inputs/q060-tail.json" \
+      --outdir "$WORK/material-lam002-m12-transfer"
 
 它由原 run.json 的完整调用恢复同一输入，核对原 raw 的记录 hash，
 保留原 q/delta/warp/实际核心控制，构造上述传递。若原 physical.npz
@@ -68,6 +69,12 @@ X(s,psi)。其计算一、二阶导数的传递分别加 h' 和 h'' 倍的相同
 计算 jet；默认至少 2048 角点和约百个 s 点。它保存所有检查值，
 有限重建差超过 1e-7 时拒绝生成初始化。这个阈值只检查传递实现，
 完全不是新的等距验收阈值。
+
+原 bootstrap 的 port 只有八个 linearSlope。若升到 M=12，脚本用
+--tail-config 指定的完整原设置，只修改数值 modes，调用原 exporter
+真实生成新高模 DN，并要求 physical parameters/cut 与旧记录相同。
+也可 --port 直接提供已导出的同物理较大 port；不补零 DN。
+后续必须使用 transfer.json 中 result.port 指出的该 port。
 
 输出 initial.npz 可交未改的 portable_prefix_continue.py
 --raw-restart；此时目标 M 与 pscale 已匹配。transfer.json 的
