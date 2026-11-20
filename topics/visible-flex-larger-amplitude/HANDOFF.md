@@ -4,7 +4,7 @@
 
 ## 规则与目标
 
-最近规则核查：2026-11-20 11:41 UTC，真实pull/rebase至 `f8cc86a92c4ff4030bcc798fd0fac0bb6f083d44`，双README相对上次已读无差异。
+最近规则核查：2026-11-20 11:42 UTC，真实pull/rebase至 `a624bf4e72868608d59e174cbdd7191c162f1412`，双README相对上次已读无差异。
 
 公开仓库内工作，终端git普通push；NFF立即pull/rebase再推，每次查双README差异，至少每小时pull。根README已授权全部必要修改/发布；完整证明直接登记，不加冻结/独审门。raw只scratch，Git/Release/artifact只保小源/参数/run/SHA/紧凑结论。题≤200MB、单MD<100KB、H<10KB、open<30KB。令牌只瞬时CLI，不写文件/提交/回复。根唯一git writer，代理写work及小blob。
 
@@ -30,7 +30,7 @@
 | [3a3续12步](notes/2026-11-20-curvature-qp-gauss-twelve-step-02-result.md) | .34559814 / .05470304 | 胞821产品.993655；v4a三次真实恢复全拒 |
 | [def1完整256](notes/2026-11-20-gauss-fullspace-projected-first-result.md) | .98129554 / .10186568 | 原单峰过，新增低phi峰产品.983179 |
 | [61a620物理H首步](notes/2026-11-20-physical-height-first-result.md) | .83836863 / .09341222 | 双峰/局部D复读产品.982831，未过旧.98 |
-| **6077，v4b起点** | **.36916145 / .04536289** | **全已知点产品.989229，过新.992；仍非连续全域证书** |
+| [6077，v4b起点](notes/2026-11-20-curvature-qp-arbitrary-def1-result.md) | **.36916145 / .04536289** | **全已知点产品.989229，过新.992；仍非连续全域证书** |
 
 6077实际父：work/geometry_path/curvature-qp-arbitrary-def1-six-step.npz，SHA `607732377449f07611553ebc1ad1e7f2aa20e835d3f613a3018ae56957dd6941`。它来自def1的v4a六步中4次接受；最终复搜低phi basin后未过旧.98，原结果如实保。def1在work/fullclosed_solver/gauss-h2-projected-first-fixed/final.npz，SHA `def1ccbded6c463a014a71a39f259c59501412d5c84afec07ce7253c9dc34f5d`；2038在work/geometry_path/curvature-qp-gauss-six-step.npz，SHA `2038ba41e2001036eebe8bc43fccbb54b8d9ccf180f73139420798de278bcaa9`。
 
