@@ -6,14 +6,14 @@
 
 连通闭C²嵌入连续族；固定有内点H、diamH≥.2D，整像δhold≥.1D且含反射δE>0；全时reach≥.03D。同一个完整g/全部物理参数/时间范围下，完整metric≤1e−6，空间/频率/时间精化继续下降至求解或机器地板；实际闭合与C²接口均要付清。完成后继续增大比例。
 
-- 部分克隆工作树 /workspace/scratch/1b6d88ecddf3/math-research-public。已读规则提交：`135a0835a1bb6fe87d2094d2f1bfb6fd54278847`；11:48 UTC本地真实pull --rebase至该提交，双README无变。每次pull检查双README差异，至少每小时一次；API比较不冒充pull。
+- 部分克隆工作树 /workspace/scratch/1b6d88ecddf3/math-research-public。已读规则提交：`35585d1e2e3611aa5ab92e2533fe2ca9ab8f85bf`；11:51 UTC本地真实pull --rebase至该提交，双README无变。每次pull检查双README差异，至少每小时一次；API比较不冒充pull。
 - 11:06 UTC终端恢复；root独占git，逐结论推送，NFF立即rebase/核README再推，禁force。令牌只在命令行。旧失联进程不假作当前运行。
 - 根§12优先实际求解，不重做身份核查/双审；§15可再生场、网格、矩阵不入Git/Release/CI artifacts。只存源、参数、命令/hash及紧凑标量。H<10KB、单MD<100KB、目录<200MB，不写根LOG。
 - 历史细节在[原接手H](https://github.com/Rogerhu12/math-research-public/blob/9288f266d1f242b594d70a714e20340fcb876023/topics/visible-flex-held-10pct/HANDOFF.md)及[本次完整H到a4f89c](https://github.com/Rogerhu12/math-research-public/blob/a4f89c80f0f0b7e5db0f2fb4520b0c3abe8a9861/topics/visible-flex-held-10pct/HANDOFF.md)；压缩摘要不撤销旧结论/失败。
 
 ## 新物理g的实际主线
 
-R55多段provider已安装独立source副本，复用原turn_ramp，全部段长按δ/.06缩放；原chart/二jet接口已实际核过，不改旧tag。原bridge curvature4不变，BackwardLine实际根δ=.06414432506418023、r=1.0690720844，残差3.38e−13；这是线性浮点入口，旧r≤1.05盒不外推。来源/完整重建命令见[provider与校准](notes/2026-11-20-m3-multistage-profile-provider-and-interface.md)，实际参数scripts/resume_m3/multistage_profile_linear_root.json。新g **q=.006全原八linearDN真过**：598点/RMS9.98024e−7/metric_l1 5.59034e−9/物理BC7.44e−19，δ=.064144254302。实际完整场在scratch `m3-work/newg-q006-linear`，raw/physical/checkpoint/hash与命令见[首解](notes/2026-11-20-m3-new-multistage-q006-original-linear-dn.md)。非H1初始化。接续q=.012/.02均真过，末606点/RMS9.90273e−7/metric1.92236e−8，δ=.064143513122；[幅度实际记录](notes/2026-11-20-m3-new-multistage-linear-amplitude-continuation.md)。q=.03仍运行，暂见RMS约1.90e−6平台，不判终态。δ/c仍是设计变量；真尾/圆化/全图尚欠。
+R55多段provider已安装独立source副本，复用原turn_ramp，全部段长按δ/.06缩放；原chart/二jet接口已实际核过，不改旧tag。原bridge curvature4不变，BackwardLine实际根δ=.06414432506418023、r=1.0690720844，残差3.38e−13；这是线性浮点入口，旧r≤1.05盒不外推。来源/完整重建命令见[provider与校准](notes/2026-11-20-m3-multistage-profile-provider-and-interface.md)，实际参数scripts/resume_m3/multistage_profile_linear_root.json。新g **q=.006全原八linearDN真过**：598点/RMS9.98024e−7/metric_l1 5.59034e−9/物理BC7.44e−19，δ=.064144254302。实际完整场在scratch `m3-work/newg-q006-linear`，raw/physical/checkpoint/hash与命令见[首解](notes/2026-11-20-m3-new-multistage-q006-original-linear-dn.md)。非H1初始化。接续q=.012/.02均真过，末606点/RMS9.90273e−7/metric1.92236e−8，δ=.064143513122；[幅度实际记录](notes/2026-11-20-m3-new-multistage-linear-amplitude-continuation.md)。q=.03原程序最终真过3260点/RMS9.98464e−7/metric2.94709e−8，δ=.064142411489；中途1.90e−6平台未变门/重启。q=.04正从其实际CP续算。δ/c仍是设计变量；真尾/圆化/全图尚欠。
 
 ## 当前真实运行与立即接续
 

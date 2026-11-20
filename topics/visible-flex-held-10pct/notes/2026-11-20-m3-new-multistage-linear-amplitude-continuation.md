@@ -97,3 +97,35 @@ DomainNewton 为 calls=5、accepted_steps=9、merit 拒绝=2、domain 拒绝=0�
 | `physical.npz` | `da3a9dbc68a76d21ba49732509d9502265a778d2b797a8a686c4e9813fe258a8` |
 | `checkpoint.json.gz` | `e1d6f4e35183dae1bf4ab9f1a4780d58b3f33516706bd04a6a3280d7d0798795` |
 | `run.json` | `e43d1e6dd58476f48f6a541114001d649983c733d139d884294087e180ef5424` |
+
+## q=.030：原过程中暂时停滞后仍真正通过
+
+Q=.03，PREVIOUS=newg-q020-linear，TAG=newg-q030-linear。
+上一 checkpoint SHA256 为
+`e1d6f4e35183dae1bf4ab9f1a4780d58b3f33516706bd04a6a3280d7d0798795`。
+实际 exit 0，solver_success=true，3260 点，13 个网格，约 539.90 秒。
+第4至12网格曾在 RMS 约 1.65e-6 至 1.90e-6 上细分而近乎停滞；
+没有提前将它判成失败、重启或修改节点/误差门。第13网格原程序
+自行返回合格解，因此没有调用备用诊断或暖重采样入口。
+
+| 指标 | 实际值 |
+|---|---:|
+| 最大 collocation RMS | 9.984644275882486e-07 |
+| metric_l1 | 2.947089136789924e-08 |
+| flow_defect | 3.569610216610256e-08 |
+| Darboux l1 | 0.00013103869600281854 |
+| physical BC max | 1.4532768551358674e-16 |
+| 曲率采样最大值 | 7.950516416986867 |
+| delta | 0.06414241148929038 |
+
+DomainNewton 为 calls=13、accepted_steps=12、merit 拒绝=200、domain 拒绝=0、no_step=8、最小 alpha=7.62939453125e-06。这些聚合计数
+不改变实际终态已经通过的事实。物理 c6,...,c24 为
+
+    [0.00011448040791908074, -5.5270311133079374e-06, 1.282850073708944e-07, 2.729718229010271e-08, 5.138239656005629e-10, -2.7298947073734487e-11, -4.0536269649923596e-11]
+
+| 返回文件 | SHA256 |
+|---|---|
+| raw `inner-00.npz` | `242d3c36a10390ce8c7297302f7f03c03ad7fb72dc51a8b95d2051706ca3adb1` |
+| `physical.npz` | `80582bd3dc0f836b9434bb9c907eeca89378c00b9ad899036b8d226a9f09aa00` |
+| `checkpoint.json.gz` | `201fa920349aa4aeef9cae6c722000b6d05b8ee52bdf0e4e6a6a87ae455d587c` |
+| `run.json` | `7fa5053a7b772f6b244f338658bb1db69e3ab5ed81e4ec90afd8b140d45e5325` |
