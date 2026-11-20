@@ -1,0 +1,55 @@
+{
+  "date_utc": "2026-11-20",
+  "session": 2559,
+  "actual_exit_code": 0,
+  "scope": "Explicit true-core mean1168 C2 prefix at lambda .002; full radial and angular certificate. Does not certify a changed true-DN field, lambda 1, full tail, closed family, or fixed-parameter convergence.",
+  "reproduction_command": "python -u topics/visible-flex-held-10pct/scripts/resume_m3/certify_prefix_metric_interval_taylor.py --source-run /workspace/scratch/1b6d88ecddf3/m3-work/newg-wide-lambda0p002-m24-linear/run.json --physical /workspace/scratch/1b6d88ecddf3/m3-work/newg-wide-lambda0p002-m24-linear/physical.npz --core-mean-intervals /workspace/scratch/1b6d88ecddf3/geometry-work/newg-m24-r53-core1168-intervals.npz --core-mean-certificate /workspace/scratch/1b6d88ecddf3/geometry-work/newg-m24-r53-core1168-certificate.json --core-angle-intervals /workspace/scratch/1b6d88ecddf3/geometry-work/newg-m24-r53-core4672-angles.npz --core-angle-certificate /workspace/scratch/1b6d88ecddf3/geometry-work/newg-m24-r53-core4672-angles.json --interval-kernel topics/visible-flex-held-10pct/scripts/finite_closure/m3_m8_closed_map/interval_geometry_kernel.py --target 9.7e-7 --out /workspace/scratch/1b6d88ecddf3/root-work/m24-prefix-continuous-metric-certificate.json",
+  "original_report_sha256": "ab7b96f85b4ae7b98acb69360b72362edb7d646c479cda70213a0275500a8d88",
+  "certificate": {
+    "status": "explicit_C2_prefix_continuous_metric_certified",
+    "target": 9.7e-07,
+    "source_sha256": "6b36ccd6bab54fa35c6fe62a433f417faf7a51b80c35b798b17567eb22714986",
+    "pieces_source_sha256": "1a0a45db78a9aa62884459a6542d20f6995ea152962030919fbbb74d8aee573e",
+    "derivative_kernel_sha256": "fe99f0afc6ed90dac1b9b3616c857421fa621901958dfbafdbb26191c5766bb2",
+    "interval_wrapper_sha256": "ab08dc1dc7f24f6e92e3d64fcc530767cb66f5ae5a2940f953460a3274b6a1a5",
+    "source_run_sha256": "c44b6fd2fbb13cc9ce0451cc6ab1d3c06521de0622de27190bde94c4c550462a",
+    "physical_sha256": "f2e22fe19bb0b6fdeff79c4fa99363d9be6cbb1ef382fd882679a2b717a3030d",
+    "mean_nodes": 1168,
+    "angular_nodes": 4672,
+    "angular_step_upper": 0.001344859868831705,
+    "core_mean_certificate_sha256": "07a97eb8230609e853a343683c44e9fe67e06f70384e53f4717a73623ca97218",
+    "core_angle_certificate_sha256": "b78d1e73dd058f5668706810ecde1383ca9ed0a696c2ff12e24ae55c51ab89eb",
+    "core_mean_intervals_sha256": "f46ee567bf78d8bdac0ceb7c60db92a058f693fd3f532f714125180b911f918c",
+    "core_angle_intervals_sha256": "714de484be1cce998f74604b9d588f38084b4e4132dc3c4b84279235aaf34f35",
+    "interval_kernel_sha256": "6234c458d303dfd2e47dcf1e1a6ee54a3d466118a8aea4d76f66013154c034e7",
+    "explicit_shared_C2_object": true,
+    "true_R53_core_used": true,
+    "endpoint_normalized_profile": true,
+    "complete_surface": false,
+    "accepted": 1065,
+    "attempts": 1735,
+    "splits": 670,
+    "peak": 9.695183718076938e-07,
+    "root_lower": 0.6155363309310901,
+    "angular_second_upper": 0.8825316161180434,
+    "principal_curvature_upper": 9.6498117548569,
+    "curvature_unresolved_cells": 0,
+    "curvature_peak_interval": [
+      0.36203250899654216,
+      0.3621471286404692
+    ],
+    "peak_interval": [
+      0.4257573470046878,
+      0.4266480527515596
+    ],
+    "peak_components": {
+      "point_operator": 2.757483082069683e-07,
+      "radial_first": 1.0871448116864314e-06,
+      "radial_second": 6.611245899334829,
+      "angular_second": 0.1714444506534626,
+      "angular_interpolation_error": 3.876033427961874e-08,
+      "fixed_mean_root": 0.7639290957392147
+    },
+    "seconds": 3540.0320036400008
+  }
+}

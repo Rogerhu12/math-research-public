@@ -2,7 +2,7 @@
 
 日期：2026-11-20。维护：Astra-held10-1b6d88ec-20261120。
 
-**本条记录明确对象、必要的角细化和已启动的完整计算；截至本文登记，没有全前缀通过结论。** [R60](../results/R60-actual-m24-c2-bridge-and-continuous-metric.md)已处理桥段，本条接 $0\le s\le s_b$ 的含核心 lift 部分。真实尾另在 chord3 session54314 运行。
+**实际完整计算已 exit 0：全前缀连续 metric≤9.695183718076938e−7、曲率≤9.6498117548569，曲率未决区间0。** [R62](../results/R62-actual-m24-complete-prefix-and-bridge-certificate.md)合并已付入口修补、精确桥接缝和统一目标g，给出整个开放连接器的结论。本文保留真实计算的方法与开发断点。 [R60](../results/R60-actual-m24-c2-bridge-and-continuous-metric.md)已处理桥段，本条接 $0\le s\le s_b$ 的含核心 lift 部分。真实尾另在 chord3 session54314 运行。
 
 ## 1. 绑定与对象
 
@@ -19,7 +19,7 @@ Z_*'=\frac1{1168}\sum W_z(s,\psi_j),\quad Z_*(0)=0.
 $$
 $W_z$ 保留真实 Frenet、正根和对流；不假定有限场已经等距。目标为 $ds^2+a_*^2d\theta_*^2$。
 
-此定义不宣称入口恰好逐字等于 $\Gamma(\theta_0)$：原 $Y(0)$ 与冻结 initial 的系数差约 $1.7424\cdot10^{-13}$，原角样条首值为 1.0000000000000002。精确中央柱/镜像接口仍须另行规范，不能由 lift 的名称推成已经闭合。
+此定义不宣称入口恰好逐字等于 $\Gamma(\theta_0)$：原 $Y(0)$ 与冻结 initial 的系数差约 $1.7424\cdot10^{-13}$，原角样条首值为 1.0000000000000002。精确中央柱接口已由 [R61](../results/R61-actual-m24-exact-c2-cylinder-inlet.md)另行规范；本条原始未修补图不能由 lift 的名称推成已经闭合。
 
 ## 2. 当前连续计算的办法
 
@@ -85,7 +85,7 @@ $$
 
 ## 5. 当前执行
 
-完整计算为 session2559，目标 $9.7\cdot10^{-7}$。源被冻结，后续读实际进度及最终 JSON；本条不预写通过。
+完整计算 session2559 已实际 exit0，用时3540.0320036400008秒。目标 $9.7\cdot10^{-7}$ 下，395个原片经过670次必要二分，1735次尝试、1065个接受闭区间完成全覆盖；全metric≤9.695183718076938e−7，同次全K≤9.6498117548569、曲率未决0。源保持冻结；[真实终态/命令/hash](2026-11-20-m24-prefix-continuous-metric-execution.json)已保存。
 
 | 源 | SHA256 |
 | --- | --- |
@@ -108,4 +108,4 @@ python -u "$HELD10_SCRIPTS/certify_prefix_metric_interval_taylor.py" \
   --out "$HELD10_WORK/root-work/m24-prefix-continuous-metric-certificate.json"
 ~~~
 
-当前对象仍是 $\lambda=.002$ 的指定 linear 场。即使此计算通过，也不能移用到未来更新的 trueDN 场，不能替代中央/尾部精确接口、准确圆弧、完整闭族、全时 reach 或冻结全部参数后的精化。
+当前对象仍是 $\lambda=.002$ 的指定 linear 场。本次计算已通过，仍不能移用到未来更新的 trueDN 场，不能替代中央/尾部精确接口、准确圆弧、完整闭族、全时 reach 或冻结全部参数后的精化。

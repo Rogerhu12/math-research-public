@@ -125,3 +125,7 @@ R55补充：[较宽设计盒与条件完整D≤2.69](notes/2026-11-20-soft-start
 ## R61. 实际 M24 真核心的精确 C² 圆柱入口
 
 [完整结论](results/R61-actual-m24-exact-c2-cylinder-inlet.md)。同g／固定材料θ的显式L=1/1000修补精确接真核心圆柱，并在外端严格消零两jet；5片×4672闭角盒给局部metric≤8.19863e−7、K≤2.18421、半径<1.14/support>.504。只支付当前λ.002前缀中央接缝，不是完整闭族或固定参数精化。
+
+## R62. 实际 M24 完整真核心前缀和桥的连续证书
+
+[完整结论](results/R62-actual-m24-complete-prefix-and-bridge-certificate.md)。指定λ.002/M24线性场的真R53核心、完整lift及固定mean1168，1065径向闭区间×4672角盒实际全过metric≤9.695184e−7/K≤9.649812、未决0；合R61入口/精确桥缝和已声明统一target g，整个开放连接器保持同metric界，半径<1.245/support>.3986798571。不是新trueDN场、λ1、全尾或完整闭族。
