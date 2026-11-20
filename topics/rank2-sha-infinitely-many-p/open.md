@@ -217,4 +217,4 @@ R887(116a)进一步准确给C(Hω)=0及C²(𝔄Faω)=0：rω=(1/3)dlog y与[G]_(
 
 ## R929：原系数后两位与完整 Gaussian 前缀
 
-[R929](results/R929-original-hypergeometric-two-digit-blocks-and-gaussian-prefix.md)原r_n精确三带与单位积付整个n<p²的p logΘ modp³，p倍指标保额外一位；原F/κ与R614直接U/W整性给严格n<(p²−1)/6内原g modp²，四源全J≤p−2前缀/物理缩放及第一真carry均保。不是中央⇒边界或联合非零；下一门直接用这些同源实际系数判断原部分和。
+[R929](results/R929-original-hypergeometric-two-digit-blocks-and-gaussian-prefix.md)原r_n精确三带与单位积付整个n<p²的p logΘ modp³，p倍指标保额外一位；原F/κ与R614直接U/W整性给严格n<(p²−1)/6内原g modp²，四源全J≤p−2前缀/物理缩放及第一真carry均保。不是中央⇒边界或联合非零；下一门直接用这些同源实际系数判断原部分和。 附A由真实duplication/两负块反射给g_p≡2Q_p+p(Q_p²+L_p^U/2) modp²，保Q_p的第二位及原全块倒数商，完整D0列逐项返回。

@@ -615,3 +615,164 @@ R708/R923 的高度结果把原边界零等价为
 
 全文为有限乘积和原形式身份的符号证明。没有数值验证回执，
 也没有把前缀读取或第一 carry 的支付标记为主目标非零。
+
+## 附录 A — 同一原单位积的 Fermat 2 闭式
+
+保持正文全部规范。本附录只对正文指定的
+\[
+G_p=U_{1/3}(p)/U_{5/6}(p)=r_p/4,\qquad
+g_p=(G_p-1)/p
+\]
+给出一个全原始输入的下一位闭式。没有换掉 \(r_p\) 或其提升。
+对现有 results、notes 的 \(r_p/4\)、相应单位积及同阶式作文本核对，
+未找到下述模 p³ 闭式；R865 的既有谐和式与本附录继续相容。
+全文为手证，无数学执行。
+
+记
+\[
+\alpha=1/3,\quad\beta=5/6,\quad
+S_\alpha=
+\sum_{\substack{0\le j<p\\p\nmid\alpha+j}}\frac1{\alpha+j},
+\quad
+K_\alpha=
+\sum_{\substack{0\le j<p\\p\nmid\alpha+j}}\frac1{(\alpha+j)^2}.
+\tag{A1}
+\]
+各非零剩余类恰出现一次，因此
+\[
+S_\alpha,K_\alpha\in p\mathbf Z_p,\qquad
+L_\alpha=S_\alpha/p\in\mathbf Z_p.
+\tag{A2}
+\]
+正文的 \(L_p^U=(S_\alpha-S_\beta)/p\) 仍是同一个实际有限和。
+
+### A.1 真实 p 因子保留后的 duplication
+
+特征零的倍分式
+\[
+(\alpha)_p(\alpha+1/2)_p
+=2^{-2p}(2\alpha)_{2p}
+\]
+在左边分别抽出 \(2p/3\)、\(p/6\)，总积为 \(p^2/9\)；
+右边的两个 p 因子则为 \(p/3\)、\(4p/3\)，总积为 \(4p^2/9\)。
+所以准确有
+\[
+\boxed{
+U_{1/3}(p)U_{5/6}(p)
+=2^{2-2p}U_{2/3}(2p).
+}
+\tag{A3}
+\]
+这里的 \(2^{2-2p}\) 包含这两个真实 p 因子比产生的 4，
+不能只留下普通 duplication 的 \(2^{-2p}\)。
+
+对右端作 \(j\mapsto2p-1-j\)。因为
+\[
+(2p-1-j)+2/3=2p-(j+1/3),
+\]
+且被保留的单位数目为 \(2p-2\)，所有负号相乘为一。
+因此右端的单位积恰为 \(\alpha\) 在块号 \(-2,-1\) 的两个完整块：
+\[
+U_{2/3}(2p)
+=
+\prod_{\substack{0\le j<p\\p\nmid\alpha+j}}(\alpha+j-2p)
+\prod_{\substack{0\le j<p\\p\nmid\alpha+j}}(\alpha+j-p).
+\tag{A4}
+\]
+这仍是特征零的准确式。
+
+对任一整数 b，有限单位积展开及(A2)给
+\[
+\prod_{\substack{0\le j<p\\p\nmid\alpha+j}}(\alpha+j+bp)
+\equiv U_\alpha(p)(1+bpS_\alpha)\pmod{p^3}.
+\tag{A5}
+\]
+二阶项
+\(b^2p^2(S_\alpha^2-K_\alpha)/2\) 属于 p³，
+故对负块号也没有额外项。
+由(A4)–(A5)，
+\[
+U_{2/3}(2p)
+\equiv U_\alpha(p)^2(1-3pS_\alpha)\pmod{p^3}.
+\]
+代回(A3)并只约实际单位，得到
+\[
+\boxed{
+G_p\equiv
+2^{2p-2}(1+3pS_\alpha)
+=2^{2p-2}(1+3p^2L_\alpha)
+\pmod{p^3}.
+}
+\tag{A6}
+\]
+
+### A.2 同一个全块倒数和与原 Fermat 商
+
+在(A3)对应的偶、奇指标上逐项取倒数，有准确恒等
+\[
+S_\alpha+S_\beta
+=2\sum_{\substack{0\le j<2p\\p\nmid2/3+j}}
+\frac1{2/3+j}.
+\tag{A7}
+\]
+反射(A4)给右边的和为负的两个 \(\alpha\) 负块倒数和。
+每个负块满足
+\[
+\sum_{\substack{0\le j<p\\p\nmid\alpha+j}}
+\frac1{\alpha+j+bp}
+\equiv S_\alpha-bpK_\alpha
+\equiv S_\alpha\pmod{p^2}.
+\]
+于是
+\[
+S_\beta\equiv-5S_\alpha\pmod{p^2},\qquad
+\boxed{L_p^U\equiv6L_\alpha\pmod p.}
+\tag{A8}
+\]
+
+令原整数 Fermat 商为
+\[
+Q_p=\frac{2^{p-1}-1}{p}\in\mathbf Z.
+\]
+由 \(2^{2p-2}=(1+pQ_p)^2\)，(A6)–(A8)给
+\[
+\boxed{
+g_p\equiv
+2Q_p+p(Q_p^2+3L_\alpha)
+\equiv2Q_p+p\left(Q_p^2+\frac{L_p^U}{2}\right)
+\pmod{p^2}.
+}
+\tag{A9}
+\]
+特别 \(g_p\equiv2q_p(2)\pmod p\)。
+这里模 p² 需要 \(Q_p\bmod p^2\)，不能只把其首剩余类代回。
+第二位的 \(L_p^U\) 也没有被设为零。
+
+### A.3 原 p 倍对数列的实际返回
+
+继续正文(26)的 \(B,\vartheta,\mathcal I B\)。
+把(A9)代回同一个 \(D_0\)，逐项合并得到
+\[
+\boxed{
+\begin{aligned}
+D_0={}&\mathcal I B+6(B-1)
++2pQ_p\{(B-1)+6\vartheta B\}\\
+&+p^2\left\{
+-Q_p^2(B-1)
++\left(\frac{L_p^U}{2}-4Q_p^2\right)\vartheta B
++(12Q_p^2+3L_p^U)\vartheta^2B
+\right\}
+\pmod{p^3}.
+\end{aligned}}
+\tag{A10}
+\]
+例如 p² 的 \(B-1,\vartheta B,\vartheta^2B\) 系数分别是
+\(-Q_p^2,L_p^U/2-4Q_p^2,12Q_p^2+3L_p^U\)。
+所以正文最容易因额外除 p 丢失的 Frobenius 常数列，
+其新首修正已完全接回原 Fermat 2；
+再下一位仍保同一个明确全块倒数商。
+
+所有非 p 倍指标中的 \(g_p\) 也可按(A9)代入正文(17)–(27)，
+原三带、实际单位因子和四完整来源均不改变。
+这不是给 \(D_0\) 新增一个消失条件，
+也不由 \(Q_p\) 或 \(L_p^U\) 的显示形式推出四中央非零。
