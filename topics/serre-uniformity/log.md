@@ -594,3 +594,7 @@
 - R937实际rank5/原CM核/标记比1350702136960已成，固定B34例外保留；同run给a11=14958957622875578640，原normal低层和同h Q′仍须证明。
 - R936首公开run44713602498六个完整SS和非零（71/107仅aux），严格保全点与来源；只记参数/run/SHA，无数组或artifact。终端环境unavailable，沿旧Actions真实git恢复发布。
 - 本push规则：公开Actions真实pull至bbfbd2a14a522e665d28a4a80ac40edbd990bc3b（2026-11-20T09:57:38.080011+00:00），两README SHA581402c2/35f82f3d无diff；终端失联用本仓库恢复发布，主目标OPEN。
+
+### 2026-11-20 18:05 Asia/Taipei — serre-public-astra-20261120-de0a3e3b
+- 明确纠正R936标准E6=−c6、η12负号、KS正号及实际B/F求值；原b/C定义、trace和六公开值因偶幂严格保持，未重跑已成算术。三路独立核对原cusp/Weierstrass/theta来源。
+- R920原标记−24s独立成立，R937不变；终端恢复，R937此前经公开恢复run44715068884实际pull后推至ba6fe7a2。新R938/R939仍逐条审核，主目标OPEN。

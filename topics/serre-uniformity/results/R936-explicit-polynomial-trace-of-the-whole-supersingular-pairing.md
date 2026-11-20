@@ -2,7 +2,7 @@
 
 Date: 2026-11-20. Session: serre-public-astra-20261120-de0a3e3b / handoff_audit.
 
-**Status: paper proof of the trace formula and the finite computation contract below. No prime has been evaluated in this note.** This continues R932, without asserting its sum is nonzero and without identifying that sum with R925's $Q'_h(0)$. The original quotient, positive cubic transport, determinant correction, full norm characters, oldform phase, and the unknown nonzero source scalar of R932 remain unchanged.
+**Status: proved whole-trace formula, with six finite values in §8. The Tate-frame signs in §3 and §6 were explicitly corrected on 2026-11-20; see §9. The formula and the six values are unchanged.** This continues R932, without asserting general nonvanishing and without identifying the sum with R925's $Q'_h(0)$. The original quotient, positive cubic transport, determinant correction, full norm characters, oldform phase, and the unknown nonzero source scalar of R932 remain unchanged.
 
 ## 1. Statement and conventions
 
@@ -149,10 +149,10 @@ c_6=-432D(1-8u^3),\qquad
 $$
 Indeed $c_4^3-c_6^2=-186624D^2=1728(-108D^2)$, and $c_4^3/\Delta$ is (ET14). These equations fix the normalization used here directly from the Weierstrass equation; no discriminant constant from an external transcription is imported.
 
-With algebraic modular forms normalized on the Tate curve, $E_4(E_u,\omega)=c_4$ and $E_6(E_u,\omega)=c_6$. The original marked cusp fixes the evaluations
+With algebraic modular forms normalized on the Tate curve, $E_4(E_u,\omega)=c_4$ and $E_6(E_u,\omega)=-c_6=432D(1-8u^3)$. The minus sign is fixed, for example, by the Tate cusp short equation $Y^2=X^3-X/48+1/864$: its $c_6=-1$, whereas $E_6(Q^6)$ has constant term one. The original marked cusp fixes the evaluations
 $$
 V_4^\dagger(E_u,\omega)=12sD,\qquad
-\eta^{12}(E_u,\omega)=6sD,
+\eta^{12}(E_u,\omega)=-6sD,
 $$
 $$
 (E_6/\eta^{12})(E_u,\omega)=24s(1-8u^3).
@@ -168,15 +168,15 @@ Comparing $Q^{-6}$ and $Q^{-3}$ in (ET14) gives
 $C^6=-1/110592$ and $C^3=s/576$. Choose the branch
 $C=1/(4s)$, which changes only the coordinate by a deck cube root if a different $u$ representative was originally used. The weight-zero function (ET13), as well as $t=u^3$, is unchanged by that choice. Then $V_4^\dagger=c_4/(4su)=12sD$.
 
-The identity $\eta^{24}=\Delta$ gives $\eta^{12}=\pm6sD$. The positive sign is fixed by the same cusp: $u\sim(4s)^{-1}Q^{-1}$, so the weight-six Hodge-frame factor satisfies $c_6/E_6(Q^6)\sim Q^{-6}/8$. Therefore the evaluation of $\eta^{12}\sim Q^3$ is $Q^{-3}/8$, exactly the leading term of $6sD$. This proves (ET17) in the specified phase, rather than choosing an untracked square root.
+The identity $\eta^{24}=\Delta$ gives $\eta^{12}=\pm6sD$. The negative sign is fixed by the same cusp: $u\sim(4s)^{-1}Q^{-1}$, so the weight-six Hodge-frame factor satisfies $(-c_6)/E_6(Q^6)\sim-Q^{-6}/8$. Therefore the evaluation of $\eta^{12}\sim Q^3$ is $-Q^{-3}/8$, exactly the leading term of $-6sD$. Both numerator and denominator in $E_6/\eta^{12}$ acquire the corrected minus sign, so its value in (ET17) is unchanged. This proves the evaluations in the specified phase, without choosing a new square root or cusp.
 
 The Kodaira–Spencer form in this frame is
 $$
-\operatorname{KS}(\omega^2)=-\frac{du}{D}.
+\operatorname{KS}(\omega^2)=\frac{du}{D}.
 \tag{ET18}
 $$
 To see it without choosing a Gauss–Manin connection matrix, use the algebraic modular identity
-$d j/j=-(E_6/E_4)\operatorname{KS}(\omega^2)$ on the locus where the displayed quotients are defined. Substitution of (ET14) and (ET16) gives (ET18); both sides then extend across the removable $j=0,1728$ expressions on $D\ne0$.
+$d j/j=-(E_6/E_4)\operatorname{KS}(\omega^2)$ on the locus where the displayed quotients are defined. Substitution of (ET14), (ET16), and $E_6=-c_6$ gives (ET18); both sides then extend across the removable $j=0,1728$ expressions on $D\ne0$.
 
 ## 4. The Hasse polynomial and all supersingular points
 
@@ -284,7 +284,7 @@ Truncate only after the proved cutoff. This construction neither scans the origi
 At a supersingular point with $D\ne0$, the connection term in $\partial_{p-1}\mathcal A$ is multiplied by $\mathcal A$ and vanishes. Thus (ET18) implies
 $$
 \mathcal B(E_u,\omega)
-\equiv-D\,\frac{d}{du}\mathcal A(E_u,\omega)
+\equiv D\,\frac{d}{du}\mathcal A(E_u,\omega)
 \pmod{\mathcal A}.
 \tag{ET26}
 $$
@@ -292,7 +292,7 @@ Using (ET20) and then reducing modulo $uH_N(u^3)$ gives
 $$
 \frac{\mathcal B(E_u,\omega)}{D^{N+1}}
 \equiv
--D\bigl(H_N(t)+3tH'_N(t)\bigr)=b(t).
+D\bigl(H_N(t)+3tH'_N(t)\bigr)=-b(t).
 \tag{ET27}
 $$
 This equality is asserted on the supersingular finite algebra, exactly where it is used; it is not an identity of arbitrary connection-dependent extensions away from that algebra.
@@ -305,7 +305,7 @@ by squarefreeness and (ET21). Hence $b$ is a unit in $L$.
 
 Evaluation of (ET6) with (ET17) gives
 $$
-F(E_u,\omega)=D^{J+1}C(t).
+F(E_u,\omega)=(-1)^J D^{J+1}C(t).
 \tag{ET28}
 $$
 Because $k_-=6J+4$ and $p+1=6(N+1)$,
@@ -313,7 +313,7 @@ $$
 (J+1)(p+1)-(N+1)k_-=2N+2.
 \tag{ET29}
 $$
-Substitution of (ET27–29) in (ET13) proves that its value on every $D\ne0$ supersingular branch is exactly $R(t)$ in (ET8).
+Substitution of (ET27–29) in (ET13) proves that its value on every $D\ne0$ supersingular branch is exactly $R(t)$ in (ET8). Indeed the extra scalar is $(-1)^{J(p+1)-k_-}=1$, since $p+1$ and $k_-$ are both even. The finite polynomials $C,b$ in (ET8) have deliberately been kept unchanged: they now have their correct explicit relation to the actual section evaluations, rather than being silently rescaled.
 
 The point $t=0$ has one $u$ preimage. Every nonzero root of $H_N(t)$ has three distinct $u$ preimages. Thus
 $$
@@ -354,7 +354,7 @@ All derivations above are paper algebra. No new arithmetic has been executed loc
 
 ## Executable consumer
 
-The exact consumer is `scripts/R936_whole_supersingular_trace.py`, run through the public `serre-current-exact-research.yml` workflow. Script, exact parameters, source commit, run ID and deterministic output SHA are retained; raw polynomial arrays and matrices are temporary and are not committed. No computed value is asserted by this formula proof.
+The exact consumer is `scripts/R936_whole_supersingular_trace.py`, run through the public `serre-current-exact-research.yml` workflow. Script, exact parameters, source commit, run ID and deterministic output SHA are retained; raw polynomial arrays and matrices are temporary and are not committed. The formula proof is independent of the finite values subsequently recorded in §8.
 
 ## 8. 首次公开精确值（2026-11-20）
 
@@ -374,3 +374,14 @@ The exact consumer is `scripts/R936_whole_supersingular_trace.py`, run through t
 临时输出为 106489 bytes，确定性 SHA256 为 e3241fb803c302caa2a3676d4079f528a2954c4a40d73d7654524d8888546c42。只保留参数、来源、run 与摘要；可再生多项式数组不上传 artifact、不入 Git/Release。
 
 这是六个有限值，仍未证明一般素数的全和非零，也未证明它等于原 $Q'_h(0)$。特别地 $p=41$ 的全和非零与 R934 同标签 Legendre 因子为零同时成立，不能用前者修复后者。
+
+## 9. Explicit correction of the Tate-frame signs
+
+The first published versions (source d051e06c and update ba6fe7a2) incorrectly identified the Tate-normalized $E_6$ with the Weierstrass invariant $c_6$, and consequently gave the wrong signs for $\eta^{12}$ and KS in the displayed family. The corrected signs are now incorporated in §§3 and 6. The [complete sign audit](../notes/R936-Tate-frame-sign-correction.md) proves them directly from the standard Tate cusp, the unchanged original Fourier phase and the actual Hodge frame.
+
+The definitions of the auxiliary polynomials $C,b$ in ET8 have not been changed. Their correct relations are
+$$
+F(E_u,\omega)=(-1)^J D^{J+1}C,\qquad
+\mathcal B(E_u,\omega)=-D^{N+1}b\quad\text{on }L.
+$$
+Thus the actual modular function acquires the sign $(-1)^{J(p+1)-k_-}=1$. This proves, without a new arithmetic run, that ET9, the entire original $S$, all six values in §8, and their recorded source/output hashes remain valid. The unknown source scalar in ET10 is unchanged. The ratio $E_6/\eta^{12}=24s(1-8t)$ is also unchanged, so the independently proved original R920 marked ratio and R937 remain valid. No phase has been reselected to conceal the error.

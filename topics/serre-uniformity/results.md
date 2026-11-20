@@ -14,7 +14,7 @@
 
 - **R935（已证明）**：[固定权10/34原本原Legendre双标签](results/R935-bounded-weight10-34-primitive-Legendre-pair.md)。h8/h32均始终本原，固定递推整数a11不被p整除时两个原因子不同时零；充分p>10^22。给原权34完整六维整空间，不预设其T5核或低Q′非零，不等于原critical product/height。SHA256 428fe14dc1be5c6d6ed5cf11bcad4ab462f76098139194b26f1edc63ba47d3bb。
 
-- **R936（已证明的全SS显式迹公式）**：[原完整超奇异配对的多项式迹](results/R936-explicit-polynomial-trace-of-the-whole-supersingular-pairing.md)。在Fp²[t]/(tH_N)维N+1中得S^p=12c_r²Tr((3−2e0)R)，保t0项、全部SS/椭圆零项、原相位与未知d1/cF。实际伴随P_J由完整三角整基确定；未证trace非零或与高层Q′相等。首公开run44713602498六全和非零，仅有限值；当前SHA256 83a2ab3f42d47bd76a5d66c2ef8818191e3504511bffd0680d5844e9f21fb361。
+- **R936（已证明的全SS显式迹公式）**：[原完整超奇异配对的多项式迹](results/R936-explicit-polynomial-trace-of-the-whole-supersingular-pairing.md)。在Fp²[t]/(tH_N)维N+1中得S^p=12c_r²Tr((3−2e0)R)，保t0项、全部SS/椭圆零项、原相位与未知d1/cF。实际伴随P_J由完整三角整基确定；未证trace非零或与高层Q′相等。首公开run44713602498六全和非零，仅有限值；Tate标架符号已显式勘正，偶幂证明完整和不变；当前SHA256 c0d0693657c3287446bcccba7572757ebdc366786a221b0eedc2aefd3ef3bb85。
 
 - **R937（精确计算与模p推论已证明）**：[原权34 Hecke核与标记单位](results/R937-original-weight34-Hecke-kernel-and-marked-unit.md)。实际五行rank5，固定B34外核唯一为原V34†线，标记比1350702136960、fine阶2p−35；明确保留固定坏素数与原Tate index。run44713602498同时给a11=14958957622875578640；未证normal低层/同h Q′或height。SHA256 186b5cb12fe99fb89575c03b9b6f4699dc26dc41fef1fbe1ddbb953da18c4b14。
 

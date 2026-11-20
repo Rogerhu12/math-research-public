@@ -112,3 +112,5 @@ R859–R898原BT/Drinfeld/Igusa/cusp/整theta lift、两旗(6,6)/rank36源全部
 [R936](results/R936-explicit-polynomial-trace-of-the-whole-supersingular-pairing.md)给S^p=12c_r²Tr_L((3−2e0)R)，L=Fp²[t]/(tH_N)，维N+1=(p+1)/6。H_N由原Weierstrass模型Hasse系数直接给出，原伴随P_J由全整三角基与原CM theta/ζ² oldform确定，分母b在整个L是单位。保t0的权1、非零根权3、三个椭圆点每点四个fine来源的零贡献；不额外乘Igusa p−1。R932原d1/mI/cF保持。
 
 run44713602498已成功，41/47/59/71/83/107的S^p分别39/34/16/70/14/24，71/107只辅助；全点/双trace检查通过，确定SHA见R936。有限结果不证明全p非零；还须比较R924实际高层线性系数，不能直接令trace等于Q′_h(0)。
+
+R936的原Tate标架错误已明确勘正：[审计](notes/R936-Tate-frame-sign-correction.md)证明E6=−c6、η12=−6sD、KS=+du/D；保既有b/C定义时实际B/F变号，偶幂使全trace与六值恰不变。R920/R937原标记比由原theta恒等式独立保持；禁止继续引用旧负KS推新的奇阶公式。
