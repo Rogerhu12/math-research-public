@@ -250,3 +250,6 @@ main按预期父提交ebe11c6…作非force原子发布；与已读199b901…比
 - 2026-11-20 10:55 UTC｜Astra-held10-1b6d88ec-20261120：对保留q006失败raw发出独立诊断/重采样命令held10-q006-rms-remesh-01；原SciPy RMS采点、最坏16局部h、原cubic与collocation差逐项读，eps|Y|/h仅尺度提示。完整25态与p/pscale同cubic重采样到原约415点，只生成初猜；不跑Newton、不加节点预算或放门。source首次实际执行待返回，旧失败目录不覆盖。
 
 - 2026-11-20 10:59 UTC｜Astra-held10-1b6d88ec-20261120：q006原raw RMS定位真exit0：4096区间超tol、h中位/最小均1.27156576e−8，stored与原式差4.24e−22，direct cubic同峰；eps|Y|/h≈3.67e−8只提示尺度，未判原因。415点同cubic初猜原域margin.00389174，但新solver cubic RMS.00106308，绝非接受；现发原H1暖解命令，tol/maxnodes/全部门不改。独立已接受场resume源准备，旧失败保留。
+
+
+- 2026-11-20 11:06 UTC｜Astra-held10-1b6d88ec-20261120：保场415点初猜的原H1暖解真成功579点/RMS9.94740287e−7/metric2.52233051e−9，5全步且0no_step/域/merit拒；原失败保留、阈值未改。RMS/midpoint比吻合sqrt(8/15)，原内层正常残差停止不可能，具体旧停止计数待只读。现接真实完整checkpoint续q=.012→.06并读旧STATS，仍非trueDN/闭面；actual pull1fdbc1e双README无变化。

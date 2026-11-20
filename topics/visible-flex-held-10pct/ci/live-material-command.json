@@ -1,48 +1,34 @@
 {
-  "id": "held10-q006-warm-remesh-01",
-  "read_rules_commit": "fae69f6c767bdfbca9ba3ecfa396353fb91a66dd",
-  "script": "topics/visible-flex-held-10pct/scripts/resume_m3/height_anchor_prefix_lowmode.py",
+  "id": "held10-q060-warm-resume-01",
+  "read_rules_commit": "a5120c6a294950c69bfa67d515d494298fcd611c",
+  "script": "topics/visible-flex-held-10pct/scripts/resume_m3/resume_height_amplitude_path.py",
   "args": [
-    "--height-record",
-    "@REPO@/topics/visible-flex-held-10pct/scripts/resume_transfer/q060_exact_saved_inner_resume_terminal.json",
-    "--height-count",
-    "1",
-    "--amplitude",
-    ".006",
-    "--warp-reference",
-    ".006",
-    "--source-topic",
-    "@WORK@/runtime-source/bundle/topics/visible-flexible-closed-surface",
-    "--short-bridge",
-    "@WORK@/runtime-source/bundle/topics/visible-flex-larger-amplitude/computations/root_short_bridge.py",
-    "--profile",
-    "@WORK@/inputs/q060-profile.json",
-    "--chart",
-    "@WORK@/inputs/reference/chart.json",
-    "--port",
-    "@WORK@/inputs/q060-port.json",
-    "--nodes",
-    "401",
-    "--max-nodes",
-    "6000",
-    "--raw-restart",
-    "@WORK@/q006-rms-remesh-01/initial.npz",
-    "--outdir",
-    "@WORK@/height-q006-warm01"
+    "--repo",
+    "@REPO@",
+    "--workdir",
+    "@WORK@",
+    "--accepted-prefix",
+    "@WORK@/height-q006-warm01",
+    "--prefix",
+    "height-warm-resume01"
   ],
   "diagnostics": [
     {
-      "path": "@WORK@/height-q006-warm01/run.json",
+      "path": "@WORK@/height-warm-resume01.json",
       "keys": [
-        "solver_success",
-        "error",
-        "raw_return",
-        "prefix_audit",
-        "physical_sha256",
+        "status",
+        "stages",
+        "accepted_raw",
+        "accepted_directory"
+      ]
+    },
+    {
+      "path": "@WORK@/height-path-00-q0.0060000/run.json",
+      "keys": [
         "domain_newton_stats",
         "domain_error_counts",
-        "original_linear_DN_physical_residual",
-        "original_nonlinear_DN_accepted"
+        "solver_success",
+        "error"
       ]
     }
   ]
