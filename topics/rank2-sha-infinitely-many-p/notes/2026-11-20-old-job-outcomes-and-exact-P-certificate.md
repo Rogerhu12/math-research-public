@@ -172,3 +172,13 @@ $t,T$ 两生成元上成立，不另选根或相位。U的两个完整Atkin等�
 ### 5.1 t-adic 首次实际精度上限
 
 公开 run `44716168767` / job `136220022445` / source `f5f75e1b3f128bd3f0a021539833116a1d5d2b8e` 已于2026-11-20 10:23:30 UTC结束。原Tate全方程及可分性、完整H和两Atkin系数身份之后，同一原逆元的全部48坐标残差在1到4096的每次倍增均通过；4096项阶段elapsed=1053.997秒。每次逐坐标有理恢复均无候选，1054.864秒以明确的precision-cap ArithmeticError退出。没有进入原两Phi的最终全局候选门，不是原U不存在或函数域身份失败，也不记RR/shadow PASS。后续优先执行R924已证的原TUV截面分式恢复，保留此有界尝试避免无变化重跑。
+
+## 6. 独立 quotient-only 的实际终点：有限极大整环未返回
+
+[run44713040079/job136209307176](https://github.com/Rogerhu12/math-research-public/actions/runs/44713040079/job/136209307176)，来源 `7a116c1d89a9e498d2bce808f28a9a5e647bf71d`，2026-11-20 09:42:50 UTC启动；15:33:58 UTC日志报告退出137，job结局failure。完整原始日志39132字节，SHA256 `e92fbd547dedc12a08e2d2dca42a56804122e3314cae84470542ab0588e40fc3`。
+
+最后实际回执在09:43:41 UTC：旧完整次数24 genus19方程及可分特化已返回，随后进入`quotient-only: original D ready, no eta48 inversion attempted`和`tate19: finite maximal order start`。后一阶段没有任何完成回执。前一ready字样仅指原函数域对象已构造，不能读作正规化、极大整环或RR已完成。
+
+本任务确实绕过原eta48 U逆元，仍停在有限极大整环；原D完整正规化、九cusp、Au/Av、branch、D0均未付。日志显示公开入口配置`timeout --kill-after=30s 21000`，实际长运行后退出137；仅由退出码不能区分是否另有内存原因，也不能推出数学不存在。完整数学输出未生成，只有旧已付方程阶段的回执，不登记末端PASS。
+
+无变化来源不重跑。正在推进的原306两图截面/完整理想路线保其自己独立的对象、证明与真实运行，不能反向填补这条旧D来源的未完成门。

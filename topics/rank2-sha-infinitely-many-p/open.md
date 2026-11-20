@@ -66,7 +66,7 @@ R5 已反证 arXiv:1703.02215 所用统一有限 lifting 引理；否定该论�
 
 [本次全量归档](notes/2026-11-20-open-after-consumer-and-long-connection.md)逐字保此前全部旧运行、公式与未闭门；只收拢当前实际接口，不删除其它前沿。R882原18源/绝对B0B2/全17方块/36cusps/D204与R880/883全18×9/双轴/原A,C、四完整除子00/01/11/12保。闭点d不可先模ell；完整Frob/Atkin/边界、真dF成本2256+r*dF或2256(r+1)、全地方Kummer负floor和Σef不变。Norm含ell²点回归run43870209568已过，不重复无变化测试。
 
-旧306/eta48/fricke24/tate24/tate19/R910/R919/R922路线仍未全末端PASS；实际卡点/source/run/job见[续接注](notes/2026-11-20-old-job-outcomes-and-exact-P-certificate.md)。quotient-only run44713040079/job136209307176仍运行，原D完整正规化/九cusp/Au/Av/branch/D0尚待。t-adic U已在4096精度上限结束无全局候选，不能作不存在结论，不盲目重跑。
+旧306/eta48/fricke24/tate24/tate19/R910/R919/R922路线仍未全末端PASS；实际卡点/source/run/job见[续接注](notes/2026-11-20-old-job-outcomes-and-exact-P-certificate.md)。quotient-only44713040079于15:33退出137，有限极大整环未返；D/九cusp/Au/Av/branch/D0尚待。t-adic U已在4096精度上限结束无全局候选，不能作不存在结论，不盲目重跑。
 
 [R924](results/R924-original-section-divisor-algebras-and-shadow-interface.md)的同原截面路径已有实际成果：§11–12的run44720444485付完整TUV分式、全204维DS及51二次双点、全36cusp与120原射影标号；§13 run44721065286/job136236619274付Y完整666格、三真实退化和原ys全核360；§14 run44721641472/job136238600337付全非约化DS上的TUV值；§15 run44723394686/job136244599223付真F/P全PASS鉴定后的原vF/三Yi截面（F核144、P两核152及第三原QY），全部原u/常数嵌入/Artin保持。完整hash逐节存，不冒旧degree48函数域RR接口。
 

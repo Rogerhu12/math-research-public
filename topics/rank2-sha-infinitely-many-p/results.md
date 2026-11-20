@@ -488,3 +488,5 @@
 - [R927§11](results/R927-original-yF-pole-degree-from-mixed-kernel-and-cusps.md)：原F完整144/双图全低B、整像及两colon/回乘已接独立31源公开门；真SY/J、q/q0、原常数/首行/所有余行与两1296 boundary保。仅AST和源码接口核，无实际完整除子/E/shadow PASS。
 
 - [R927§12](results/R927-original-yF-pole-degree-from-mixed-kernel-and-cusps.md)：原I+=IA:IC=IA:qA可用一次完整[q·Id;−HA]整核投影准确给出；原I−=(qb/a)I+用全部306源整像，保两最终乘积与双图边界。独立scalar-colon helper已存，未接当前run或冒速度/PASS；§11.1原F任务44765106737/source31c234ea1实际启动。
+
+- [旧quotient实际终点](notes/2026-11-20-old-job-outcomes-and-exact-P-certificate.md)：run44713040079/job136209307176/source7a116c1d8于15:33退出137，最后为原次数24域的有限极大整环开始；没有完整D/九cusp/Au/Av/branch/D0回执。完整log e92fbd54…e40fc3已核，不作数学反证或盲目重跑。

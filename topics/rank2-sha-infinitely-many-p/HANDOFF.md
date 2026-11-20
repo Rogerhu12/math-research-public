@@ -5,7 +5,7 @@
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近实际部分克隆/pull及已读规则提交：`45d33ff79e747e2ddd7b8f4c28dae326fc348c70`；2026-11-20 15:42:33 UTC 实际pull --rebase，两README相对f2a3dc66差异为空；下一次最迟一小时内。
+- 最近实际部分克隆/pull及已读规则提交：`74e1ca264a87d14916c7cd51d55b51b5500425a7`；2026-11-20 15:44:24 UTC 实际pull --rebase，两README相对45d33ff7差异为空；下一次最迟一小时内。
 - 仅写公开main；每条完整结论即提交，推前pull --rebase；非快进循环，不强推、不存令牌。数学只在公开Actions执行；重算输出不入库/Release、不分块，只存源/args/run/hash。
 - H<10KB、MD<100KB、open尽量<30KB、文件<5MB、题≤200MB；log每轮≤5行，不写根LOG。规则已读未变。
 
@@ -17,7 +17,7 @@
 
 原Z角色/Euler/period/端点/R831符号保持；7993仅canonical，R858/859固定ell shadow不跨无穷p/ordinary。原u/λ/vnew/微分/∞O/整返回17、三退化j^m/S³/原ω/Artin(2,0,1)全保。
 - 原F/P特征零完整PASS见R909§7、R906§8，全1429/1226行与高恒等式/原支保；完整source/run/hash见原节，不猜Manin1。
-- 旧306/eta/fricke/tate/R910/919/922卡点全见[续接注](notes/2026-11-20-old-job-outcomes-and-exact-P-certificate.md)。quotient-only run44713040079/job136209307176仍运行，原D/九cusp/Au/Av/branch/D0未付；t-adic U仅4096上限无候选，不作非存在结论、不盲目重跑。
+- 旧306/eta/fricke/tate/R910/919/922卡点全见[续接注](notes/2026-11-20-old-job-outcomes-and-exact-P-certificate.md)。quotient-only44713040079/job136209307176于15:33退出137，有限极大整环未返；原D/九cusp/Au/Av/branch/D0未付；t-adic U仅4096上限无候选，不作非存在结论、不盲目重跑。
 - R924§11–15原TUV/DS204/36cusp/Y666/ys核360/DS值/vF与三Yi核144/152全PASS；全部厚结构、原身份及run/hash见原节。
 - R925完整306表/整核API/六厚cusp全289与666坐标已PASS。旧closed/local44730598782、新完整Tate44744769424及closed/local44744769326仍运行；新source6e97468ea，全部job/hash见§22及完整H。
 - R926§11 run44732115204/job136274270348/source192c28161原紧缩及maps全PASS；低核84/76/74/74、1633/1429交叉、七方程/W/反射与同L权2/3保，全部hash在原节。完整pole/E/trace未算。
