@@ -72,7 +72,7 @@ R5 已反证 arXiv:1703.02215 所用统一有限 lifting 引理；否定该论�
 
 [R925](results/R925-original-ys-affine-rings-and-complete-divisor-ideals.md)由J=SY/(ys²+3)²建立原306完整过滤自由基和两张正规化图表；完整多项式核保原共零，六cusp含289重分支；§12 r29完整环实际PASS：run44724912327/job136249752863/sourcefea36d7d8，h0..4=1,2,68,360,666，全部46971乘积/两图表/单位过；14个权4元保完整W8，不复制r41。§13完整闭点/真实κ与q\q²参数、任意阶共零首项读者已独审；§16原Fp²两π/π²及八原点共零值run44730598782运行；§17原完整consumer桥与trace已独审接入；三退化、全HNF理想和局部值仍须实际门，才进入consumer。
 
-[R926](results/R926-original-cube-roots-in-sections-and-complete-identities.md)已证明原RF/Ri的同次分式完整低窗2313/1429与全清分母身份窗6941/4287项；原M2延长2725/6941保持同基/整变换/旧前缀，保S³和原ω，不增加新根或换Artin。§8原cube实际PASS（run44728285578），全部高窗及核900/280/278/278过；§9严推根极次数240/452/454/454，低权紧缩正在实现。**四大交除子和原shadow未算，完整consumer尚未请求；固定ell非零亦不替跨无穷p/ordinary桥。**
+[R926](results/R926-original-cube-roots-in-sections-and-complete-identities.md)已证明原RF/Ri的同次分式完整低窗2313/1429与全清分母身份窗6941/4287项；原M2延长2725/6941保持同基/整变换/旧前缀，保S³和原ω，不增加新根或换Artin。§8原cube实际PASS（run44728285578），全部高窗及核900/280/278/278过；§9严推根极次数240/452/454/454，§10同L最小权恰2/3，紧缩helper已三审接入待实算。**四大交除子和原shadow未算，完整consumer尚未请求；固定ell非零亦不替跨无穷p/ordinary桥。**
 
 ## 原端点：真实范数与剩余增广阶
 

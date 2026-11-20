@@ -5,7 +5,7 @@
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近实际部分克隆/pull及已读规则提交：`ec5c83ce6e1447a9bc2984be2b9f3bcbc5263765`；2026-11-20 11:50:42 UTC 实际pull --rebase，两README相对a7ff9c18差异为空；下一次最迟一小时内。
+- 最近实际部分克隆/pull及已读规则提交：`815a8556574a63a2ba86832e4fd267cf13a722ea`；2026-11-20 11:57:20 UTC 实际pull --rebase，两README相对ec5c83ce差异为空；下一次最迟一小时内。
 - 仅写公开main；每条完整结论即提交，推前pull --rebase；非快进循环，不强推、不存令牌。数学只在公开Actions执行；重算输出不入库/Release、不分块，只存源/args/run/hash。
 - H<10KB、MD<100KB、open尽量<30KB、文件<5MB、题≤200MB；log每轮≤5行，不写根LOG。所有旧授权/规则已读，未变化。
 
@@ -21,8 +21,8 @@
 - [R924](results/R924-original-section-divisor-algebras-and-shadow-interface.md)§11–15均实际PASS：原TUV三核20；DS全204维/51二次双点；36base cusp；Y全666格/三退化各120/ys核360；DS三222/102/204及T=−27；vF/三Yi同次分式全核144/152。原u/ω/j^m/S³/Artin(2,0,1)保；全部run/source/hash见原节及最新完整H。
 - [R925](results/R925-original-ys-affine-rings-and-complete-divisor-ideals.md)§12原完整环PASS：run44724912327/job136249752863/sourcefea36d7d8，h0..4=1,2,68,360,666，306基权数1/65/226/14，全46971乘积/双图表/真实单位过；592.379s，result473e35bc…7188c。2453精度保全W8，不外推r41。
 - §12.1固定Sage多项式饱和核/Hermite API PASS（run44726729229/job136255921243）；§14六厚cusp PASS（run44726729349/job136255921310/source155a07fd）：六全289幂基/666坐标，18Fp闭点/108几何点/1836长度，759.772s，result0ebfe876…02b50。Fp²仍须按原ω分为度1,1,8,8。
-- §6–7及13已证完整norm早停/同原最大理想身份/真实κ嵌入/任意阶共零局部值；§15原表全系数收缩保两图表与原域。对应源码已独审，§16原Fp²的π/π²全primary、真实612×306整零极核与八点共零值已请求：run44730598782/source135a0835a运行中。§17原完整consumer桥/trace已全文独审入库，正接低权紧缩，尚无新maps/geometry/E/shadow PASS。
-- [R926](results/R926-original-cube-roots-in-sections-and-complete-identities.md)全低核2313/1429及全局恒等门6941/4287已证，保同原M2基2725/6941、S³、原ω/首项。§8原cube实际PASS：run44728285578/job136261182683/source17ea1c0ce，699.266s，result0ca08546…ed19d；全核900/280/278/278与全部高窗过。§9严推原根极次240/452/454/454，低权R2/R3紧缩正在实现，不代yF的dF。
+- §6–7及13已证完整norm早停/同原最大理想身份/真实κ嵌入/任意阶共零局部值；§15原表全系数收缩保两图表与原域。对应源码已独审，§16原Fp²的π/π²全primary、真实612×306整零极核与八点共零值已请求：run44730598782/job136269050475/source135a0835a运行中。§17原完整consumer桥/trace已全文独审入库，正接低权紧缩，尚无新maps/geometry/E/shadow PASS。
+- [R926](results/R926-original-cube-roots-in-sections-and-complete-identities.md)全低核2313/1429及全局恒等门6941/4287已证，保同原M2基2725/6941、S³、原ω/首项。§8原cube实际PASS：run44728285578/job136261182683/source17ea1c0ce，699.266s，result0ca08546…ed19d；全核900/280/278/278与全部高窗过。§9严推原根极次240/452/454/454，§10同L最小权恰2/3，完整紧缩helper三审接入，待新公开门，不代yF的dF。
 
 R880/883全18×9/双轴/原A,C/四完整交除子00/01/11/12及返回保；Norm含ell²已过。四大交除子与原shadow仍未算：真实成本2256+r*dF或2256(r+1)，全部闭点度数/非约化长度/无穷边界/Artin不删。原AJ非零仍不替无穷p/ordinary桥。
 
