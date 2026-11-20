@@ -5,13 +5,13 @@
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近实际部分克隆/pull及已读规则提交：`3d3fae54d48c472970335652bc1e184f43667884`；2026-11-20 14:59:34 UTC 实际pull --rebase，两README相对2e83c285差异为空；下一次最迟一小时内。
+- 最近实际部分克隆/pull及已读规则提交：`0e23c53794c24e39559e8dede6a4c9b5b5722665`；2026-11-20 15:02:45 UTC 实际pull --rebase，两README相对3d3fae54差异为空；下一次最迟一小时内。
 - 仅写公开main；每条完整结论即提交，推前pull --rebase；非快进循环，不强推、不存令牌。数学只在公开Actions执行；重算输出不入库/Release、不分块，只存源/args/run/hash。
 - H<10KB、MD<100KB、open尽量<30KB、文件<5MB、题≤200MB；log每轮≤5行，不写根LOG。规则已读未变。
 
 ## 完整检查点与当前分工
 
-[最新完整H](notes/2026-11-20-handoff-before-original-maps-PASS.md)逐字保全部旧条件、源/run/hash及归档链；入口[results](results.md)、[R901–950索引](notes/PROOF-INDEX-R901-R950.md)、[open](open.md)；旧已付项的完整链接保该检查点。root唯一metadata/ref写者并整合公开门；global续原ordinary/global底，deep续同P真实forcing，theta续四指定中央/边界并交叉审源码。四主门均保留；R364/R561/R654/R712及主目标仍开。
+[最新完整H](notes/2026-11-20-handoff-before-low-P-public-gate.md)逐字保全部旧条件、源/run/hash及归档链；入口[results](results.md)、[R901–950索引](notes/PROOF-INDEX-R901-R950.md)、[open](open.md)；旧已付项的完整链接保该检查点。root唯一metadata/ref写者并整合公开门；global续原ordinary/global底，deep续同P真实forcing，theta续四指定中央/边界并交叉审源码。四主门均保留；R364/R561/R654/R712及主目标仍开。
 
 ## 第一门：同原映射、完整函数环与原shadow
 
@@ -25,7 +25,7 @@
 
 R880/883全18×9/双轴/原A,C及四完整交除子00/01/11/12保持；Norm含ell²旧回归已过。四大交除子和原shadow未算，完整成本2256+r*dF或2256(r+1)，全闭点度/厚长度/无穷边界/Artin不删。有限AJ非零不替无穷p/ordinary桥。
 
-[R931§1–10](results/R931-original-complete-shadow-artinian-norm-and-base-prime-layers.md)同原E以全理想分离ram/共同3m/O，余厚代数真椭圆点、双辅助双图Miller及全π层原k Norm保全部度/厚度。基础9b2a00b0、上层a543c957全审接源；独立32源artinian run44747799006/job136327515753/source632cef5af已启动：先核两原图1530长/共零与非Fp范数，再付全E/trace。尚无新PASS，旧Tate继续。
+R931§1–10同原E完整厚Tate/Miller/π层Norm保全度及18×9。独立32源run44747799006/job136327515753/source632cef5af仍运行；先核双图1530长/非Fp范数，再付全E/trace，无新PASS。全部基础/上层源hash和六类长度门见原节。
 
 ## 第二门：原全局底、ordinary与增广阶
 
@@ -69,4 +69,4 @@ R936在K+e₊>3κ、2≤τ≤d₀+1给全T_J真左行，指定B∈H3时值−11U
 
 R937附A/B已付全部同q native Y_j（1≤j≤d₀−1）对这些固定行的零响应；β₁仍非零。给定H3加该族的陪集还可用J>3κ，或高τ的J+e₊>3κ且n+e₊>2κ：全真列构造左行、保H₊相继除F，仍读原单位并杀任意G₀后的全H1。其它WD的有限交点类定位正在继续。
 
-R925§25原P152全核两图零极读者已实现：全部原矩阵/两投影/P2Frob、j³及3114完整坐标、两符号2256/全余行/完整boundary保。仅r29静态核对，待公开运行，不代F或四E。
+R925§25.1原P152全核两图零极读者已接独立30源公开门；真实P-only六pair保原embedding flag=False，全核第一向量与实际y双图返回，两个2256/所有余行/完整boundary保。helper e2891650，三方静核无数学执行，待实际run；不代F/四E/shadow。

@@ -159,9 +159,12 @@ class OriginalLowPCompleteDivisors:
     Supply the actual original FractionModel and both authenticated tools.
     A standalone caller can construct that same model from the real section
     embedding; a full consumer supplies its existing model and functions.
+    With endpoint_section_fractions it may construct only the six real P
+    pairs, preserving the base embedding's original F/P completeness flag.
     No artificial 'complete consumer' context is manufactured here.
     """
-    def __init__(self, model, original_tools_by_chart, progress=None):
+    def __init__(self, model, original_tools_by_chart, progress=None, *,
+                 endpoint_section_fractions=None):
         from original_ys_fraction_bridge import OriginalFractionModel
         assert isinstance(model, OriginalFractionModel)
         self.model, self.embedding, self.affine = model, model.embedding, model.affine
@@ -174,7 +177,30 @@ class OriginalLowPCompleteDivisors:
         assert set(self.tools) == {False, True}
         assert self.embedding["original_affine_context"] is self.affine
         assert model.k is self.k and int(model.prime) == 29
-        assert self.embedding["certificate"]["F_and_P_fractions_built"] is True
+        full_map_fractions = self.embedding["certificate"]["F_and_P_fractions_built"]
+        assert type(full_map_fractions) is bool
+        if endpoint_section_fractions is None:
+            assert full_map_fractions is True
+            self.endpoint_section_fractions = self.embedding["P"]
+            pair_origin = "actual complete original F/P embedding"
+        else:
+            # A P-only caller keeps the base embedding's truthful flag false.
+            # All six supplied pairs are still authenticated below against the
+            # first vector of each entire original kernel on BOTH charts.
+            assert set(endpoint_section_fractions) == {0, 1, 2}
+            assert all(set(endpoint_section_fractions[i]) == {1, 4}
+                       for i in (0, 1, 2))
+            self.endpoint_section_fractions = endpoint_section_fractions
+            pair_origin = "explicit actual six original P endpoint section pairs"
+        for i in (0, 1, 2):
+            for j in (1, 4):
+                pair = self.endpoint_section_fractions[i][j]
+                assert pair["section_power"] == 3
+                assert pair["common_infinity_shift"] == 12
+                for key in ("numerator", "denominator"):
+                    assert pair[key].base_ring() is model.P and len(pair[key]) == 306
+                for key in ("infinity_numerator", "infinity_denominator"):
+                    assert pair[key].base_ring() is model.S and len(pair[key]) == 306
         for flag in (False, True):
             tool = self.tools[flag]
             assert isinstance(tool, OriginalArtinianNormTools)
@@ -194,6 +220,9 @@ class OriginalLowPCompleteDivisors:
             original_normalization_signature_sha256=self.tools[False].signature,
             original_constants=field_description(self.k),
             original_ordered_Y_M2_basis=self.embedding["coordinate_basis_id"],
+            actual_endpoint_section_pair_origin=pair_origin,
+            underlying_embedding_F_and_P_fractions_built=full_map_fractions,
+            underlying_embedding_certificate_unchanged=True,
             source_dependencies=list(SOURCE_DEPENDENCIES),
             helper_sha256=hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),
             current_consumer_or_workflow_modified=False,
@@ -266,7 +295,7 @@ class OriginalLowPCompleteDivisors:
                    for flag in (False, True)}
         stopped_at = None
         complete_rows_hash = hashlib.sha256()
-        original_pair = self.embedding["P"][index][j]
+        original_pair = self.endpoint_section_fractions[index][j]
         degrees = {}
         for a in range(count):
             N = self._unflatten(values.row(a), slots)

@@ -145,3 +145,39 @@ divisor = reader.complete_endpoint_divisor(i, j, actual_y, label)
 这份契约仅对应已写候选源码和静态核对，不登记新的数学 PASS。
 
 审阅：root推导并实现，global全文核原矩阵/旧首向量、完整两投影及P2全Frobenius、同源recipe与全帧/两图、全部原A理想/2256两符号早停及余行回代；只有AST与源码核对。源码SHA256 `80ecda38f71805cbc40394ca8b49bbc9ed3204325f832251d2b495d08aef4f79`。
+
+## 6. 独立六端点公开门及真实 P-only 输入
+
+新增关键字参数 `endpoint_section_fractions`。默认调用仍要求原
+embedding 的 `F_and_P_fractions_built=True`；若显式传入六个原
+P pair，则允许来自 `with_map_fractions=False` 的真实基础嵌入，
+不修改其 certificate，不填不存在的完整 F/P 或七映射 context。
+显式输入必须准确为 i=0,1,2 与 j=1,4 的3×2组，每组为原 R3
+双图306坐标、真实父环和共同框位移12。完整核第一向量的双图
+向量恒等式以及给定实际函数的双图交叉恒等式仍在主计算中逐项验收。
+
+独立 producer 先认证同一 F/P 两份完整特征零 PASS，再重建原
+map_sections（原基窗1429）、原306正规化（q2453/batch64）及
+同一个 fast adapter。只从真实基础 embedding 的
+`section_coordinates` 和 `same_degree_fraction` 构造上述六对；
+每个实际端点为 `(2/vnew_i)*pi_j(Y_i)+1`，用真正的
+OriginalFractionModel 与两个认证的原 chart engines/normtools。
+P2 的所选系数与双图全部坐标另核 P1 的常数 Frobenius。
+
+随后调用本件完整152核读者，每端点两个符号必须分别2256，
+全部余行两图返回，最终实际无穷边界理想与有限理想的总长度一致。
+六项全部通过才给本独立门 PASS；原 Y 上 F 分式、cube、四 E、
+全部交点及 shadow 的完成字段仍为 false。原完整消费者和此前
+运行仍保持原来源，本接口不向其 cache 注入未认证对象。
+
+host/producer 的显式清单均为同序30源，实际依赖全部列入；
+原读取器只在 host 收到只读令牌，数学容器网络关闭且源码只读。
+请求固定 r29/q2453/batch64/minimal、同一 Sage10.6 镜像与原
+F/P run/job/source/result pins。新 workflow 使用独立 concurrency
+组、不取消旧运行、360分钟上限，只由本入口五个源路径触发。
+
+当前 helper SHA256 为
+`e289165044a280cedb47910b6ca7893942a25b19a8116f06662f803e62bd65bb`。
+root 全文核四前端与完整返回，global 核真实 API/传递依赖及参数增量，
+theta 核 full152/两图/函数及输出范围；全部仅 AST/JSON/YAML/源码检查。
+实际公开执行及其 source/run/job/hash 另记 R925§25.1，不能由静审预填成功。

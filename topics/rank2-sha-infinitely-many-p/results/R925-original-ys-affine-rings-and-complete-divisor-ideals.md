@@ -1204,3 +1204,30 @@ $$
 同一152配对的N=(2/vnew)A+B和D=B先在两图逐第一向量对回给定原函数，再以全部原乘法行构造两个符号的A理想。同一子集的零、极全曲线次数各达2256才能早停，随后所有余N/D两图成员均返回；∞的完整det最低指数只用来先读真实厚长度，最终仍构造完整boundary并核实际长度。返回原function对象及positive/negative/两boundary的完整schema。
 
 仅静态核对；原yF、四E、所有厚范数/闭点/原trace继续各自接受门，不把六P的实现冒作整个geometry或shadow。源SHA256 `80ecda38f71805cbc40394ca8b49bbc9ed3204325f832251d2b495d08aef4f79`、契约SHA256 `0790b542a325c72ffc9871e3586c00424f07e0bdac88a4f04679811a4cfbf13e`；root实现/global全文核，尚无新的数学或性能PASS。
+
+### 25.1 独立六 P 完整零极的公开入口
+
+新增独立30源入口；[更新契约§6](../notes/2026-11-20-original-low-P-complete-divisors-contract.md)
+完整说明真实 P-only 输入。基础 embedding 保
+`F_and_P_fractions_built=False`，由其原 R3 截面 API 实际构造六对，
+显式交给读者；默认完整消费者入口仍要求原 flag=True。
+每一原核的第一向量、原 N=(2/vnew)A+B 和 D、给定实际端点函数
+在两图都严格返回，未用同维替代、便利分式或伪造完整七映射 context。
+
+| 文件 | SHA256 |
+|---|---|
+| original_low_p_complete_divisors.py | `e289165044a280cedb47910b6ca7893942a25b19a8116f06662f803e62bd65bb` |
+| launch-original-low-p-divisors.py | `fdd7bdf94941fd6fa1f31d930e5e7a405b255d543169564491c9896699e8e28a` |
+| produce-original-low-p-divisors.py | `ab3c83ac2b5ae2269179c6fe32704afd64e1e6695c21209b1c6bbda87c3fab45` |
+| original-low-p-divisors-request.json | `cf273a0a0f1fe700277b602db380d13fad43592a4dcdbbfaf842f4670a3f20ef` |
+| rank2-sha-original-low-p-divisors.yml | `097799b13106fa8f77438295edd13306ad28f8b53258d4a3324ed97bc782bfe6` |
+
+同一两份原特征零 PASS pins、r29、原基窗1429、正规化窗2453、
+batch64/minimal 与固定 Sage10.6 镜像保持。host/producer 两份显式
+30源清单逐字相同，全部实际导入路径核对；只有 AST/JSON/YAML 检查，
+没有本地数学执行。公开数学容器断网、只读源，凭据仅送 host 的原 PASS 读者。
+六端点各自真实零、极理想及完整无穷边界全部通过才返回本门成功；
+四个大 E、原 yF 和完整 shadow 保各自独立接受门。
+
+workflow 为新的独立固定组且 cancel-in-progress=false；本次接源不取消
+或修改旧运行。实际建立的 run/job/source 随后补记；启动和静审都不是 PASS。
