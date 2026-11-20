@@ -1,13 +1,12 @@
 # 交接：可见振幅的精确闭等距族
 
-维护会话：`visible-exact-astra-ac637-20261120`；更新：2026-11-20 09:54 UTC。
+维护会话：`visible-exact-astra-ac637-20261120`；更新：2026-11-20 10:00 UTC。
 **总任务未完成；继续研究，不等用户回复。**
 
 ## 规则读点与接续来源
 
 部分克隆：`/workspace/scratch/ac637cfcc78d/math-research-public`。终端 git 已恢复，无 AGENTS。
-2026-11-20 09:40 UTC 实际 `git pull --rebase --autostash origin main` 至 `72d8a04358d88b1a5ef8f5571b123b14040aa8cd`；已读根/题 README，已读规则提交同上。相对前会话最后读点 `d86a3e8e`，根只新增 held-10pct 课题行，题 README 不变；本次拉取两文件 diff 空。每次 pull 后继续核两 README 差异，下一次实际 pull 不晚于 10:39 UTC。
-2026-11-20 09:50 起执行环境返回 `No usable execution environment`；09:54 再尝试真实 pull 仍同错，不把 API 读取冒充 pull。当前仅 GitHub 集成可用，按根规8以小 UTF-8 文本继续；09:54 核 `6de107b037d8e4811340ec6dcc784a4e1f7746c9` 的两 README diff 空，最新已读规则提交为此。执行恢复后立即实际 pull/rebase。
+2026-11-20 10:00 UTC 实际 `git pull --rebase --autostash origin main` 至 `ba6fe7a25b83322caa21ba1bc11ba31e52002127`；已读规则提交同上，根/题 README 相对96edc677的diff均空。09:50–09:58执行环境短暂断连时只以GitHub小文本继续，API不算pull；现已恢复。下一次实际pull不晚于11:00 UTC；每次pull后核两README差异。
 
 接手前完整 H（含全部递归原页、成功/失败/恢复身份和未付义务）见 [2026-11-16 完整检查点](https://github.com/Rogerhu12/math-research-public/blob/882aa9b74efeaac682df43c197820e7280156357/topics/visible-flex-exact-nearby/HANDOFF.md)。本页只压缩索引；`open.md` 及所链接的原证明、适用域、均值、物理角、所有边界和误差费用继续有效。旧成功结论不重算。
 
@@ -28,6 +27,8 @@ geometry `43584188751/26` **仅条件性**：同η0真 wholecore（含帽）C0�
 
 [R135](results/R135-no-harmonic-interpolation-of-disjoint-sign-bendings.md)（已证明）：固定浸入中心 X，增量一直位于同一线性无穷小弯曲核的连续等距路径只有平移；点态旋转向量到二次Gram的纤维至多4点。故不交支集符号族及双场圆周插值不能直接替代真正非线性闭合。此为限定方案的排除，不是本题完成，也不排一般弯曲。
 
+[R136](results/R136-stable-complete-joint-centre-columns.md)（已证明）：完整WJK核改用固定128/256宽度源列与稳定Green作用；保全五collar项、两三角、193 atoms和同点signed合并，原图1–3/真无限tail不变。源码已合入并AST通过，未运行新科学数值。
+
 ## 已有可复用的正侧链
 
 - WIC：原 m160 真 tail 的全系统逆界 κ=3、N=24480 已证。完整 reference、ρ2、193 mean/head、97 root+96 outer、7 ports、两 RHS 资格保留。
@@ -46,7 +47,7 @@ geometry `43584188751/26` **仅条件性**：同η0真 wholecore（含帽）C0�
 
 当前模块：owner `fourfold_codazzi_collar_volterra_dual_candidate.py`；完整输入恢复/执行为同前缀 `public_worker.py`；reader 为 `readonly.py`、`readonly_core.py`；math 为 `true_collar_signed_packet_math.py`、`signed_semiseparable_kernel_math.py`、`collar_dual_feedback_math.py`、`W2C_signed_reference_math.py`（都在 scripts/）。完整 native 数据与29整球仅恢复旧字节，不调用旧 producer。
 
-1. `joint_kernel` 已完成 graph4 固定宽度 signed columns：完整 collar、两 Green 三角、193 atoms、同点合并后 abs，稳定 Gf 和逐 parent 缓存。最终源码 81237B/SHA256 `a756bd51f61778fc15e907f39934126e91882878bb89076804b057919aa6061d` 与13802B证明位于本会话 scratch `joint_kernel_work/`，断连前 AST 通过；尚未合入或运行。预留 R136。
+1. `joint_kernel` 的稳定graph4已按R136合入；现实现独立低family比较预算诊断，先算原graph3的3条新scalar。若L≥1/128，按固定WVC旧常数可直接排除此充分界配方；其余47条未算，不反推奇异。
 2. `positive_inverse` 已推导连续 WJK 中心的1217状态/609端点系统，无 aux-only 伪核；与原 finite Qf 的投影/ρ差另付。R137及精确接口在未推本地文件；准备193低态/97端点的非认证浮点诊断，先看匹配角，再付全高反馈及实际误差。尚无可逆数值证书。
 3. `global_route` 核查真正core/腰/ν/完整frame匹配与可替代结构，避免重复已证明的条件Schur。Ghomi等正亏格等距嵌入族不是已知连续弯曲；R520仅小振幅，均不替本题验收。
 4. root 维护 main/H/open/results/log。首次科学运行尚未启动；先加入 K=0 的比较配方预算检验，若其严格下端≥1，可排除既定充分界配方而诚实保留 graph4/5 未算；不能反推实际算子奇异。代理不动git。

@@ -158,3 +158,5 @@ WIC真tail κ=3已闭；WPN仍须完整e+3dt<1。WPS/WVC/WCTRA充分门均false�
 2026-11-20新公共run44712172133/1已通过完整native输入读取；0新科学目标、0旧重算。原43921663540/1失败是他题workflow静态白名单阻塞；根规12下已移除此行政门，实际每次rebase后仍核全topic+输出≤200MB。新科学数值继续用本仓库Actions；每结论独推、非FF立即实际rebase循环，pull后两README差异记H。
 
 [R135](results/R135-no-harmonic-interpolation-of-disjoint-sign-bendings.md)只排固定浸入中心的线性弯曲核内路径（至多平移）。这封住Ghomi等离散符号族的简单连续化，不排一般非线性修正，不计本题完成。主线继续精确core/全频逆与可见比例。
+
+[R136](results/R136-stable-complete-joint-centre-columns.md)关闭graph4递归高秩实现缺口：以稳定源列保完整核和193观察，源码已合入、仅AST。首次科学运行先判断low-family比较预算；连续中心端点逆、真实finite转换与最终非线性义务不变。

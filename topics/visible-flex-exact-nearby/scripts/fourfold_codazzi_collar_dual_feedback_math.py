@@ -90,6 +90,32 @@ def _minus(km,api,operator,label):
 
 
 def complete_joint_operator_graph(api,km,ctx):
+    """Materialize only the bounded-width complete joint-kernel interface.
+
+    The old symbolic DAG is retained below as an exact algebraic definition,
+    but even its eager zero endpoint matrices grow with its compound ranks.
+    Graphs1--3 use their complete scalar comparisons, and graph4 uses the
+    proved column realization of the identical WJK formula. No high-rank DAG
+    is allocated by the scientific entry point.
+    """
+    required=("same_WVC_reference","same_actual_S_and_all_seven_ports",
+              "all_coefficient_pieces_and_raw_identity_transmissions",
+              "true_signed_collar_not_zero_reference_packet",
+              "Bc_and_BLHc_external_support_160","trial_support_224",
+              "centre_residual_support_288","whole_family_support_416",
+              "ordinary_dr_pairing_and_complete_Gf_atoms")
+    require(all(ctx.qualifications.get(key) is True for key in required),
+            "all original actual-domain and exact-support qualifications")
+    require(ctx.operators["G0"].atom_count==0
+            and ctx.operators["Gf"].atom_count==193
+            and len(ctx.operators["Bc"].inputs)==193,
+            "complete original head, mean and output observations")
+    return {"Hc":CompleteJointCentreColumns(api,km,ctx),
+            "same_exact_WJK7_and_all_five_collar_terms":True,
+            "all_other_ports_remain_in_complete_owner_contract":True}
+
+
+def _uncompressed_joint_operator_graph(api,km,ctx):
     """Exact WJK operator algebra before any norm or absolute value.
 
     ctx supplies local multiplication maps I/Pc/Pb/chi/chi_prime/psi/psi_prime,
@@ -613,6 +639,11 @@ class CompleteGraphNorms:
     def complete(self,operator,emit,prefix):
         require(prefix not in self.used,"a whole new norm target is evaluated once")
         self.used.add(prefix)
+        if isinstance(operator,CompleteJointCentreColumns):
+            require(prefix=="complete_joint_signed_centre",
+                    "the compressed columns represent only the complete joint centre")
+            return operator.complete_schur(self.ctx.signed_centre_schur_weights,
+                                           emit,prefix,self.ctx.progress)["norm"]
         if isinstance(operator,self.km.SignedKernel):
             require(prefix=="complete_joint_signed_centre",
                     "only the complete signed centre uses this componentwise receiver")
@@ -1159,3 +1190,364 @@ def prepare_complete_kernel_context(api,km,reference,collar,admitted,provider,ol
         "centre_trial_band":224,"centre_residual_band":288,"full_family_band":416,
         "old_completed_norm_targets_recomputed":0})
     return ctx
+
+
+class CompleteJointCentreColumns:
+    """WJK.7,13,14,21 through stable matrix-field actions, one source panel.
+
+    This is an enclosure of the SAME signed kernel, not a new approximate
+    inverse. All five collar terms are retained. Each source column contains
+    the joint low remainder and feedback after ONE common Gf, before abs.
+    Complete physical mean and all193 atoms are present in every column.
+
+    The two external high supports are K0=97..160. The intermediate carrier
+    K1=97..224 is exact for this projected joint map: each centre multiplication
+    has bandwidth64 and each displayed word has at most three such factors.
+    A path from K0 to K0 cannot pass outside K1 in a word of length <=3.
+    This support observation does NOT truncate the actual inverse, the centre
+    residual288, the family residual416, or any graph1--3 norm leg.
+
+    G0 actions use the stable signed reference integral backend, with no
+    division by a global decay and no growing semiseparable factor ranks.
+    WholePanelIntegral handles true ordinary integrals, including J* to R.
+    The source point remains a parameter in its entire original panel. The
+    field enclosures include both triangles when source/output boxes overlap.
+    """
+    def __init__(self,api,km,ctx):
+        self.api,self.km,self.ctx=api,km,ctx
+        self.domain=ctx.domain;self.ref=ctx.reference_module
+        self.K0=tuple((c,j) for c in (0,1) for j in range(97,161))
+        self.K1=tuple((c,j) for c in (0,1) for j in range(97,225))
+        self.low=ctx.operators["Gf"].inputs
+        self.active=tuple((c,j) for c in (0,1) for j in range(33,97))
+        self.low_position={x:i for i,x in enumerate(self.low)}
+        self.k1_position={x:i for i,x in enumerate(self.K1)}
+        self.k0_rows=[self.k1_position[x] for x in self.K0]
+        self.active_columns=[self.low_position[x] for x in self.active]
+        require(len(self.K0)==128 and len(self.K1)==256
+                and len(self.low)==193 and len(self.active)==128,
+                "complete joint-centre carriers and physical mean")
+        self.Gf=ctx.operators["Gf"]
+        self.G0=self.ref.complete_signed_reference_kernel(api,self.domain,
+            ctx.reference_profiles,tuple(range(97,161)),
+            [api.one for _ in self.domain.cells],ctx.reference_thetas,
+            False,False,km,coordinates=self.K0,label="joint_column_raw_G0_128")
+        require(self.Gf.atom_count==193 and self.G0.atom_count==0,
+                "all low observations, no invented high atom")
+        self.A10=self._centre_field(self.K1,self.K0,"joint_A10",cache_all=True)
+        self.A00=self._field(128,128,
+            lambda box:self._restrict_rows(self.A10.at(box)),"joint_A00_from_same_A10")
+        self.A11=self._centre_field(self.K1,self.K1,"joint_A11")
+        self.A01=self._centre_field(self.K0,self.K1,"joint_A01")
+        self.BLH=self._centre_field(self.active,self.K0,"joint_BLH_active",cache_all=True)
+        self.integral_A10=km.WholePanelIntegral(self.A10,"joint_collar_A_primitive")
+        self.I0=km.eye(api,128)
+        self.I10=self._embed_rows(self.I0)
+        self.collar_right=self.domain.point(0,self.domain.fone)
+
+    def _centre_field(self,outputs,inputs,label,cache_all=False):
+        # The context provider uses one whole coefficient hull per original
+        # parent; partial boxes do not alter it. Store the repeated A10 and
+        # BLH fields once per parent, instead of reconstructing their signed
+        # primitive factors for every source panel. A00 shares A10 scalars.
+        # At most153 fixed-size matrices are retained by each complete cache.
+        cache={}
+        def at(box):
+            key=self.ctx.parent_indices[self.domain.cell_index(box)]
+            if key not in cache:
+                if not cache_all and len(cache)>=2:
+                    cache.pop(next(iter(cache)))
+                cache[key]=self.ctx.centre_matrix(outputs,inputs,box)
+            return cache[key]
+        return self.km.Field(self.domain,len(outputs),len(inputs),at,label)
+
+    def _embed_rows(self,matrix):
+        require(matrix.rows==128,"full external K0 rows")
+        zero=[self.api.zero]*matrix.cols
+        lookup={target:source for source,target in enumerate(self.k0_rows)}
+        return self.km.Matrix(256,matrix.cols,
+            [list(matrix.values[lookup[i]]) if i in lookup else list(zero)
+             for i in range(256)])
+
+    def _restrict_rows(self,matrix):
+        require(matrix.rows==256,"whole intermediate K1 carrier")
+        return self.km.Matrix(128,matrix.cols,
+                              [list(matrix.values[i]) for i in self.k0_rows])
+
+    def _field(self,rows,cols,callback,label):
+        return self.km.Field(self.domain,rows,cols,callback,label)
+
+    def _is_collar(self,box):
+        return self.ctx.parent_indices[self.domain.cell_index(box)]==0
+
+    def _orientation(self,r,s):
+        ri,si=self.domain.cell_index(r),self.domain.cell_index(s)
+        if ri!=si:
+            return 1 if ri>si else -1
+        if r[1]>=s[2]:
+            return 1
+        if r[2]<=s[1]:
+            return -1
+        return 0
+
+    def _reference_D0(self,box):
+        api,km=self.api,self.km
+        i=self.domain.cell_index(box)
+        eta,q=self.ctx.reference_etas[i],self.ctx.reference_qs[i]
+        position={x:i for i,x in enumerate(self.K0)}
+        out=[[api.zero]*128 for _ in range(128)]
+        for j in range(97,161):
+            odd,even=position[(0,j)],position[(1,j)]
+            out[odd][even]=4*j*eta*q*q
+            out[even][odd]=4*j*eta
+        return km.Matrix(128,128,out)
+
+    def _Jstar(self,field,label,support=None):
+        """Exactly Pc(r) int_r^R field, with only one cached body-tail matrix.
+
+        The output lives on the FIRST collar panel. It does not need every
+        ordinary suffix matrix. The optional support is an EXACT zero-support
+        identity of this source field, not a numerical smallness threshold.
+        """
+        km,api=self.km,self.api
+        tail=[]
+        def evaluate(box):
+            if not self._is_collar(box):
+                return km.zeros(api,field.rows,field.cols)
+            require(self.domain.cell_index(box)==0,"one complete genuine-root collar panel")
+            if not tail:
+                value=km.zeros(api,field.rows,field.cols)
+                for i in range(1,len(self.domain.cells)):
+                    whole=self.domain.whole_cell_box(i)
+                    if support is None or support(whole):
+                        value=km.add(api,value,km.scale(api,self.domain.full_length(i),
+                                                       field.at(whole)))
+                tail.append(value)
+            part=self.domain.partial_box(box,"suffix")
+            first=km.scale(api,self.domain.partial_length(box,"suffix"),field.at(part))
+            return km.add(api,first,tail[0])
+        return self._field(field.rows,field.cols,evaluate,label)
+
+    def _collar_primitive(self,s,r):
+        """A[s,r] for ordered collar points; caller retains the indicator."""
+        require(self._is_collar(s) and self._is_collar(r),
+                "both true variable-root collar boxes")
+        return self.integral_A10.between(s,r)
+
+    def _column(self,s):
+        api,km,ctx=self.api,self.km,self.ctx
+        source_collar=self._is_collar(s)
+        xs,_,psis,_=ctx.cutoff(s)
+        label="joint_source_panel_"+str(self.domain.cell_index(s))
+        # A point source in K0, not in an invented discretized radial space.
+        g=self._field(128,128,lambda r:self.G0.kernel(r,s,self._orientation(r,s)),
+                      label+":G0_source")
+        def e00(r):
+            return km.add(api,self.A00.at(r),
+                          km.scale(api,-api.one,self._reference_D0(r)))
+        if source_collar:
+            # chi(s)=0, hence Fbb and k0 vanish identically for these columns.
+            body_feedback=None
+            Tc=km.add(api,self.I10,self._collar_primitive(s,self.collar_right))
+            def primitive_at(r):
+                if not self._is_collar(r):
+                    return Tc
+                order=self._orientation(r,s)
+                if order==-1:
+                    return km.zeros(api,256,128)
+                value=km.add(api,self.I10,self._collar_primitive(s,r))
+                return km.hull(api,km.zeros(api,256,128),value) if order==0 else value
+            def U(r):
+                return km.scale(api,ctx.cutoff(r)[2],primitive_at(r))
+            def S(r):
+                if self._is_collar(r):
+                    order=self._orientation(r,s)
+                    if order==-1:
+                        return km.zeros(api,256,128)
+                    value=km.scale(api,-api.one,km.multiply(api,self.A11.at(r),
+                                               self._collar_primitive(s,r)))
+                    return km.hull(api,km.zeros(api,256,128),value) if order==0 else value
+                _,_,psi,psip=ctx.cutoff(r)
+                if api.upper(api.magnitude(psi))+api.upper(api.magnitude(psip))==0:
+                    return km.zeros(api,256,128)
+                return km.add(api,km.scale(api,psip,Tc),
+                              km.scale(api,-psi,km.multiply(api,self.A11.at(r),Tc)))
+            signed_S=self._field(256,128,S,label+":LcU_minus_Pc")
+            def chi_S(r):
+                chi=ctx.cutoff(r)[0]
+                if api.upper(api.magnitude(chi))==0:
+                    return km.zeros(api,128,128)
+                return km.scale(api,chi,self._restrict_rows(signed_S.at(r)))
+            P0Sforcing=self._field(128,128,chi_S,label+":chi_S")
+            P0S=self.ref.apply_G_to_matrix_field(self.G0,P0Sforcing,km,label+":G_chi_S")
+            def collar_and_body(r):
+                return km.add(api,self._restrict_rows(U(r)),
+                    km.scale(api,-ctx.cutoff(r)[0],P0S["body"].at(r)))
+            tail_source=signed_S
+        else:
+            # Exact WJK.13--14. The two chi-prime paths are already cancelled.
+            def chi2_E_G(r):
+                chi=ctx.cutoff(r)[0]
+                if api.upper(api.magnitude(chi))==0:
+                    return km.zeros(api,128,128)
+                return km.scale(api,chi**2,km.multiply(api,e00(r),g.at(r)))
+            force=self._field(128,128,chi2_E_G,label+":chi2_E_G_source")
+            body_feedback=self.ref.apply_G_to_matrix_field(
+                self.G0,force,km,label+":G_chi2_E_G")
+            def collar_and_body(r):
+                xr=ctx.cutoff(r)[0]
+                first=km.scale(api,xr*xs*(2*api.one-(xr*xr+xs*xs)/2),g.at(r))
+                second=km.scale(api,xr*xs,body_feedback["body"].at(r))
+                # V Pb(1-chi^2 Pi0), after the exact external Pi0 restriction.
+                if self._is_collar(r) and api.upper(api.magnitude(psis))>0:
+                    ar=self.integral_A10.between(r,self.collar_right)
+                    vr=km.add(api,km.scale(api,-api.one,self.I0),self._restrict_rows(ar))
+                    third=km.scale(api,psis*(api.one-xs*xs),vr)
+                    return km.add(api,first,second,third)
+                return km.add(api,first,second)
+            def k0(r):
+                xr,xp,_,_=ctx.cutoff(r)
+                if api.upper(api.magnitude(xr))+api.upper(api.magnitude(xp))==0:
+                    return km.zeros(api,256,128)
+                raw=g.at(r)
+                generator=km.add(api,km.multiply(api,self.A10.at(r),raw),
+                    km.scale(api,-api.one,self._embed_rows(
+                        km.multiply(api,self._reference_D0(r),raw))))
+                return km.scale(api,xs,km.add(api,km.scale(api,xp,self._embed_rows(raw)),
+                                              km.scale(api,-xr,generator)))
+            tail_source=self._field(256,128,k0,label+":complete_k0")
+
+        # V(k0+S) = -J* psi(k0+S) + J* A J* psi(k0+S).
+        # J* keeps its whole transition/body tail; only its OUTPUT is on Pc.
+        def psi_k0S(r):
+            psi=ctx.cutoff(r)[2]
+            if api.upper(api.magnitude(psi))==0:
+                return km.zeros(api,256,128)
+            return km.scale(api,psi,tail_source.at(r))
+        weighted=self._field(256,128,psi_k0S,label+":psi_k0S")
+        t0=self._Jstar(weighted,label+":true_Jstar_psi_k0S",
+            support=lambda r:api.upper(api.magnitude(ctx.cutoff(r)[2]))>0)
+        def A_Jstar(r):
+            if not self._is_collar(r):
+                return km.zeros(api,128,128)
+            return km.multiply(api,self.A01.at(r),t0.at(r))
+        t1=self._Jstar(self._field(128,128,A_Jstar,label+":A_Jstar_psi_k0S"),
+            label+":true_Jstar_A_Jstar_psi_k0S",support=self._is_collar)
+        def F(r):
+            value=collar_and_body(r)
+            if self._is_collar(r):
+                value=km.add(api,value,self._restrict_rows(t0.at(r)),
+                              km.scale(api,-api.one,t1.at(r)))
+            return value
+
+        # Bc includes the SAME physical S(s)^-1, including every even column.
+        B=ctx.centre_matrix(self.K0,self.active,s)
+        q=ctx.reference_qs[self.domain.cell_index(s)]
+        B=km.Matrix(128,128,[[x if self.active[j][0]==0 else x/q
+                             for j,x in enumerate(row)] for row in B.values])
+        def low_forcing(r):
+            active=km.product(api,self.BLH.at(r),F(r),B)
+            out=[[api.zero]*128 for _ in range(193)]
+            for k,row in zip(self.active_columns,active.values):
+                out[k]=list(row)
+            return km.Matrix(193,128,out)
+        forcing=self._field(193,128,low_forcing,label+":complete_BLH_F_Bc")
+        feedback=self.ref.apply_G_to_matrix_field(self.Gf,forcing,km,
+                                                  label+":same_full_Gf_feedback")
+        Mc=ctx.operators["Mc"].local.at(s)
+        require(Mc.shape==(193,193),"complete low remainder and physical mean")
+        def combine(direct,returned):
+            require(direct.shape==(193,193) and returned.shape==(193,128),
+                    "whole direct and feedback source columns")
+            rows=[list(row) for row in direct.values]
+            for a in range(193):
+                for b,col in enumerate(self.active_columns):
+                    rows[a][col]+=returned.values[a][b]
+            return km.Matrix(193,193,rows)
+        def body(r):
+            direct=km.multiply(api,self.Gf.kernel(r,s,self._orientation(r,s)),Mc)
+            return combine(direct,feedback["body"].at(r))
+        def atoms():
+            direct=km.multiply(api,self.Gf.atom_kernel(s),Mc)
+            return combine(direct,feedback["atoms"]())
+        return {"body":self._field(193,193,body,label+":joint_same_point_body"),
+                "atoms":atoms,"physical_mean_and_all193_atoms":True,
+                "whole_source_box":s}
+
+    def complete_schur(self,weights,emit,prefix,progress=None):
+        """Same continuous/atomic Schur test, traversed source-panel first.
+
+        Every temporary column is released before the next source panel. No
+        entire radial kernel matrix, completed array target or file is created.
+        A completed column is a private portion of this one whole new norm.
+        """
+        api,km,domain=self.api,self.km,self.domain
+        n=len(domain.cells);iw,bw,aw=weights["input"],weights["body"],weights["atoms"]
+        require(len(iw)==len(bw)==n and all(len(w)==193 for w in iw+bw)
+                and len(aw)==193 and all(api.lower(x)>0 for w in iw+bw+[aw] for x in w),
+                "all complete positive physical Schur weights")
+        iu=[[api.upper(x) for x in w] for w in iw]
+        bu=[[api.upper(x) for x in w] for w in bw]
+        au=[api.upper(x) for x in aw]
+        lengths=[api.upper(domain.full_length(i)) for i in range(n)]
+        native=hasattr(api,"arb_mat") and hasattr(api.zero,"abs_upper")
+        if native:
+            # python-flint arb.abs_upper returns an exact directed upper.
+            # Native matrix-vector contractions avoid a Python scalar
+            # multiplication/addition for every entry of every radial tile.
+            native_input=[api.arb_mat([[x] for x in w]) for w in iu]
+            native_body=[api.arb_mat([w]) for w in bu]
+            native_atoms=api.arb_mat([au])
+        def complete_weighted_sums(value,j,i=None):
+            if native:
+                absolute=api.arb_mat([[x.abs_upper() for x in row] for row in value.values])
+                rr=absolute*native_input[j]
+                cc=(native_atoms if i is None else native_body[i])*absolute
+                # Finiteness of every nonnegative row/column sum is checked
+                # here; a nonfinite entry cannot cancel in either contraction.
+                return ([api.upper(rr[a,0]) for a in range(193)],
+                        [api.upper(cc[0,b]) for b in range(193)])
+            rr=[api.zero]*193;cc=[api.zero]*193
+            observation=au if i is None else bu[i]
+            for a in range(193):
+                for b in range(193):
+                    magnitude=api.upper(api.magnitude(value.values[a][b]))
+                    rr[a]+=magnitude*iu[j][b]
+                    cc[b]+=magnitude*observation[a]
+            return [api.upper(x) for x in rr],[api.upper(x) for x in cc]
+        rows=[[api.zero]*193 for _ in range(n)]
+        columns=[[api.zero]*193 for _ in range(n)]
+        atoms=[api.zero]*193
+        for j in range(n):
+            if progress is not None:
+                progress("joint_source_panel_started",{"source_panel":j+1,"total":n,
+                    "comparison_panels_not_finite_reference_cells":True})
+            source=self._column(domain.whole_cell_box(j))
+            hs=lengths[j]
+            for i in range(n):
+                hr=lengths[i]
+                value=source["body"].at(domain.whole_cell_box(i))
+                rr,cc=complete_weighted_sums(value,j,i)
+                for a in range(193):
+                    rows[i][a]+=hs*rr[a]
+                    columns[j][a]+=hr*cc[a]
+            value=source["atoms"]()
+            rr,cc=complete_weighted_sums(value,j)
+            for a in range(193):
+                atoms[a]+=hs*rr[a]
+                columns[j][a]+=cc[a]
+            if progress is not None:
+                progress("complete_joint_source_panel",{"completed":j+1,"total":n,
+                    "whole_signed_low_and_feedback_combined_before_abs":True,
+                    "all193_output_atoms_and_physical_mean_retained":True,
+                    "temporary_columns_not_new_array_targets":True})
+            del source
+        row=max([api.upper(rows[i][a]/api.lower(bw[i][a]))
+                 for i in range(n) for a in range(193)]+
+                [api.upper(atoms[a]/api.lower(aw[a])) for a in range(193)])
+        column=max(api.upper(columns[j][b]/api.lower(iw[j][b]))
+                   for j in range(n) for b in range(193))
+        row=emit(prefix+"_row_ratio_upper",row)
+        column=emit(prefix+"_column_ratio_upper",column)
+        norm=emit(prefix+"_norm_upper",api.sqrt(row*column))
+        return {"row":row,"column":column,"norm":norm}

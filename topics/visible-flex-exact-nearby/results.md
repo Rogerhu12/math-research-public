@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R136：完整联合中心核的稳定源列表示](results/R136-stable-complete-joint-centre-columns.md)：同WJK算子的固定128/256高带源列，全部collar项、真J*至R、193 atoms与同点signed合并后abs；源码AST通过，未算新数值，不授finite逆。
+
 - [W2C 真 collar 有符号系数与完整族差源码合同](notes/2026-11-16-R133-true-collar-signed-packet-interface.json)：原65 signed offsets、13 intrinsic complex、193族误差及实际η均按原字段绑定；完整二次差和三primitive词、真实mean行与转置伴随、body与collar各自域及224/896费用已实现。源码无入口、无文件读写；只做纯式/字段核，未执行科学或AST，完整consumer仍在接线。
 
 - [WCTRA：clipped scalar-trace 候选的完整实际结果](results/R133-supplement-actual-clipped-scalar-trace-candidate-and-false-finite-gate.md)：43901776543/1全36新＋20原复制、五独立前缀、24结构门、45当前/19历史/16AST与全部原范围保留；充分门11976.30849仍false，不推出奇异。根核全部56表项、23完整JSON块/组合与原文件、45输入和16AST逐字吻合，old0/lost0；此36冻结。

@@ -405,3 +405,5 @@ source+完整v2 manifest先已7ee7f0e344b98412da400940c9fa6d58a9ef3afe刊出；m
 2026-11-20 09:40 UTC｜visible-exact-astra-ac637-20261120：证明R135固定浸入中心的线性弯曲核内等距路径只有平移（Gram纤维≤4点），已核Ghomi等原文的连续族缺口；仅排具体方案，不计完成。公共44712172133/1完整native读取成功，0科学/0旧重算；实际pull至72d8a04358d88b1a5ef8f5571b123b14040aa8cd，两README空diff。继续graph4/同算子有限状态逆和非线性接口。
 
 2026-11-20 09:54 UTC｜visible-exact-astra-ac637-20261120：09:50执行环境断连；09:54真实pull再次返回No usable execution environment，API核main 6de107b037d8e4811340ec6dcc784a4e1f7746c9及两README空diff，不冒充pull。按根规8继续小文本登记；R136完整signed-column源码与证明、R137连续端点系统已在scratch写出，待恢复合入；继续预算必要门及高度/曲率残差桥，不把任何未执行数值计成功。
+
+2026-11-20 10:00 UTC｜visible-exact-astra-ac637-20261120：证明并合入R136完整WJK稳定源列表示，fixed128/256支持不截真tail，所有collar项/193atoms/signed合并保留；源码81237B/SHA a756bd51f61778fc15e907f39934126e91882878bb89076804b057919aa6061d、仅AST。执行恢复后真实pull至ba6fe7a25b83322caa21ba1bc11ba31e52002127、两README空diff；继续先算低family预算必要门，再推进全逆。
