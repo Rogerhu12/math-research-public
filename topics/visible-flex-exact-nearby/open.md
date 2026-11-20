@@ -177,6 +177,6 @@ R138的[几何桥](results/R138-residual-sensitive-Codazzi-frame-and-geometric-J
 
 [R138实际全圈mean44733403315](results/R138-supplement-actual-full-circle-root-mean-denominator.md)全8192闭格、11当前/6历史已核冻结，严格17/20<D<87/100、mean逆费<20/17；真实frame费用全计。只消费原定义，不重轴/旧geometry；根finite+tail、体吸收与全逆仍待。
 
-[R141完整F Bc实际](results/R141-supplement-actual-complete-FBc-raw-comparison.md)44734581045/1已成3球：正比较raw范数<8828。全Rc五项/true J*至R/原S⁻¹一次保；只是upper，不推实际范数大或奇异。67当前/21原件/25门已核冻结，低body返回门尚未判；独立真实G_H五项source费用继续，原family/physical/finiteρ/7ports/两rhs全待。
+[R141 F Bc实际](results/R141-supplement-actual-complete-FBc-raw-comparison.md)44734581045/1冻结3球，raw upper<8828，不是lower或奇异；全五项/true J*保。[真实G_H五源合同](results/R141-supplement-actual-GH-source-window-and-return-contract.md)71输入/320bits首次launch：两窗口centre/full差H1/3四率与ΔBLH raw一率；原L连续whole-kernel资格已核，base0/negative原图不重算。CFB/真实97+96外方块/finiteρ/7ports/两rhs仍待。
 
 公开科学只用本仓库Actions，规则15只留脚本/参数/run/hash/小结论；0旧成功重算，非FF立即rebase推到成功，每次pull两README差异记H。readonly44712172133成功与旧43921663540运维失败保持原范围；无静态他题workflow行政白名单，逐次仍核topic≤200MB。

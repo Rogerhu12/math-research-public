@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R141真实高逆五源合同](results/R141-supplement-actual-GH-source-window-and-return-contract.md)：同一base0/negative-one全图辨认真实G_H，完整centre/full差的collar/body H^(1/3)四率及ΔBLH raw一率首次封包；71输入/320bits/5目标。原L逐核算法直接授连续whole193atoms资格，返回环只须body收缩；真实97+96外方块和所有七端口仍待，F不冒G_H。
+
 - [R141完整F Bc首次实际上界](results/R141-supplement-actual-complete-FBc-raw-comparison.md)：44734581045/1成功，67当前/21原件、25门/3球全核；完整正比较raw范数<8828，原S⁻¹只一次。较大上界不是真范数下界，不推出奇异；低body返回门未判。旧L/centre冻结，继续独立真实G_H源费用与R141低逆。
 
 - [旧公开日志完整历史恢复表](notes/2026-11-20-legacy-public-log-history-pointers.json)：25份非当前运行输入的stdout/failure日志878034B移为原Git字节指针；path/blob/bytes/SHA全保，三个当前运行清单逐件复核不变，原基础清单只核路径交集。普通提交，不改旧成功/失败或重算科学。
