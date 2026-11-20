@@ -299,3 +299,7 @@ positive推L1–25及pure13580B/2c5002f9，global整篇/整源独审；root再�
 ## 2026-11-20 15:36 UTC：完整正区Newton七源首次公共入口
 
 会话visible-exact-astra-ac637-20261120。owner28879B/b9f50688、pure18365B/b92230d4与原R12/R16–18全审；worker31944B/009e4f6a使用private原path快照+实际checkout环境，双层gzip准确恢复raw3/positive4。manifest17776B/8866c547有29pins/34参数/18门/36字段/7新scalar，源/worker CLI与runtime/失败prefix逐项相合；gen17506B/251acc44、合同7626B/81d5ae6c。旧CRA真根→.9、whole7721/mean/修补与方向包络仅读，只补新外尾，physicalmean N21窄修已pin f37eb7ef。首次workflow push触发，四线程1、0本机science，actual结果及独立外功能/逆尚待。
+
+## 2026-11-20 15:39 UTC：根锚谱组合必要门及统一lambda路线排除
+
+会话visible-exact-astra-ac637-20261120。global/joint用已有完整high41：b0<.98/b1<1.01/b2<1.03/gm0<2.01保mean与环境primitive，root核得ω96<1/导<377；新试探integrand逐点≤24/25旧，不拆未存项、不求新积分，whole T<125给改进T<120。RN完整真DH门须aEE<23/30、wE<22、Csp<23；若用已成λ<3/4统一Schur，原signed项已迫W96²>475，根费>19/5，单独排此预算。proof7614B/af42b4f2；不排actual BVP/真DH^-1/新角相关逆。H与open当前续点按已发布f2a3dc66c保完整旧页后压缩，全部原scope递归继续。

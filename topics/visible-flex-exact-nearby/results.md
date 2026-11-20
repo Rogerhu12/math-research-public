@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R138根锚与谱体组合的必要筛查](results/R138-supplement-root-anchored-spectral-budget-necessary-screen.md)：原high41更紧有理给ω96<1/导<377，同试探逐点≤24/25原integrand，whole T直接导改进T<120；故须aEE<23/30、wE<22、Csp<23。原已选统一λ-Schur更迫根费>19/5，单独排该算法；true DH^-1与更多可达约束仍开放，0新积分，SG三松门仍有效。
+
 - [R141正区Newton普通源七量首次公开合同](notes/2026-11-20-R141-positive-Newton-ordinary-source-contract.md)：29当前/原raw3+positive4、34参数/18门/36字段，owner与pure按同selected pair接旧CRA/Z/方向增量。只新外尾及完整full/low/high合成，private snapshot保原path、七量保存读回；N21已恢复1/m原式。首次push，实际七量待，外功能值/全逆另付。
 
 - [R138实际真根局部漂移预算](results/R138-supplement-actual-root-anchored-local-drift-budget.md)：44762838206/1完整327片，Dloc<3/4000、Gamma<1001/1000、sqrtGamma<2001/2000，预设101/100及新旧预算比较均true。15pins/原positive4+germ1、两球保存读回，0旧目标；付RA同根层单次Jacobian，不授容量Gram/新body/根负部/全逆。
