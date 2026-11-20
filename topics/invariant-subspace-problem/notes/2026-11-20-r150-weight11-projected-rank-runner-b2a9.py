@@ -6,7 +6,7 @@ The paid weight-ten matrix is never recomputed. Its immutable parent sources are
 rebuilt solely because their temporary original coefficient streams are absent.
 """
 import argparse, ast, datetime, gc, hashlib, importlib.util, json, os
-import resource, signal, struct, subprocess, sys, time
+import operator, resource, signal, struct, subprocess, sys, time
 from collections import Counter
 from pathlib import Path
 from types import SimpleNamespace
@@ -29,6 +29,13 @@ HEADER_SHA="03272796bb20c883291d27c9a0b796197f8295ccd9b16552c13894657dc8afd3"
 
 def need(v,s):
     if not v: raise ValueError(s)
+def target_exponents(ex):
+    # FLINT may expose fmpz exponents. __index__ is exact integer conversion;
+    # unlike int(float), it cannot silently truncate a nonintegral exponent.
+    ee=tuple(operator.index(e) for e in ex)
+    need(len(ee)==17 and all(0<=e<=11 for e in ee) and not any(ee[12:])
+         and sum(ee[:6])+2*sum(ee[6:12])==11,"whole exact weight-eleven target exponents")
+    return ee
 def canon(x):
     return json.dumps(x,sort_keys=True,separators=(",",":"),ensure_ascii=True).encode("ascii")
 def sha(b):
@@ -190,10 +197,9 @@ def build_input(a,PINS,dest):
         target=q*bell**3; ts=[]
         for ex,cf in target.to_dict().items():
             cf=int(cf)%127
-            need(len(ex)==17 and not any(ex[12:]) and sum(ex[:6])+2*sum(ex[6:12])==11,
-                 "whole original weight-eleven q*b^3")
-            need(cf and all(type(e) is int and 0<=e<=11 for e in ex),"integer target exponents")
-            key=sum(int(ex[i])<<(5*i) for i in range(12))<<4
+            ex=target_exponents(ex)
+            need(cf!=0,"nonzero original target coefficient")
+            key=sum(ex[i]<<(5*i) for i in range(12))<<4
             ts.append((key,cf))
         ts.sort(); need(ts and len({k for k,c in ts})==len(ts),"canonical full target terms")
         targets.append(tuple(ts))
@@ -239,8 +245,19 @@ def main():
     need(tuple(sys.version_info[:3])==(3,12,14),"pinned Python3.12.14")
     import flint
     need(flint.__version__=="0.9.0","pinned python-flint0.9.0")
+    probe_ctx=flint.nmod_mpoly_ctx.get(tuple("exponent_control_%d"%i for i in range(17)),127,"lex")
+    zg=probe_ctx.gens()
+    probe=zg[0]**2*sum((zg[i]*zg[6+i] for i in range(6)),probe_ctx.constant(0))**3
+    probe_types=set(); probe_count=0
+    for ee,cc in probe.to_dict().items():
+        probe_types.update(type(e).__name__ for e in ee)
+        target_exponents(ee)
+        need(0<int(cc)<127,"exact control coefficient")
+        probe_count+=1
+    need(probe_count==56,"complete same-runtime exponent control")
+    event("exact-integer-exponent-control",terms=probe_count,originalTypes=sorted(probe_types))
     req=json.loads(args.request.read_bytes())
-    need(req["format"]=="isp-original-weight11-projected-rank-request-v1" and req["sequence"]==2,
+    need(req["format"]=="isp-original-weight11-projected-rank-request-v1" and req["sequence"]==3,
          "this frozen request")
     need(identity(Path(__file__))["sha256"]==req["runnerSHA256"],"frozen runner source")
     need(req["nativeSHA256"]==NATIVE_SHA and req["bitplaneHeaderSHA256"]==HEADER_SHA,"frozen new native source")

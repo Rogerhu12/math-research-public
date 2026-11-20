@@ -600,3 +600,6 @@ AI-assisted GPT-6 Astra Pro：冻结三独立源码：unit2+2边界/反向mean�
 
 ## 2026-11-20 11:58:17 UTC — Astra-ISP-b2a9acde-20261120：孤立零点加两个单位双点整支闭合
 AI-assisted GPT-6 Astra Pro：[完整证明](results/R150-appendix-essential-four-unit-two-plus-two-isolated-zero-rank-four-branch-is-empty.md)根逐式核无除法相容、全边界及Phi0秩矛盾；原325行QQ乘子run44730016169与独立边界run44731129539全部通过。后者11:52:44真实pull且规则未变；同批无关p0代码检查失败如实保留，未并作已证。
+
+## 2026-11-20 11:59:09 UTC — Astra-ISP-b2a9acde-20261120：修复权11原目标的精确指数转换
+AI-assisted GPT-6 Astra Pro：run44729388449七个原输入父阶段均成功，构造四原q·b³时strict Python int检查拒绝FLINT指数；改精确__index__且先核同运行时完整56项小多项式，不改变权重/原源/native。冻结请求3后继续新矩阵，失败运行与七父日志身份保留，数组只TMP，未有新秩结论。

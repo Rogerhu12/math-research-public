@@ -1,9 +1,9 @@
 {
   "format": "isp-original-weight11-projected-rank-request-v1",
-  "sequence": 2,
+  "sequence": 3,
   "session": "Astra-ISP-b2a9acde-20261120",
-  "createdUtc": "2026-11-20 11:39:23 UTC",
-  "runnerSHA256": "72173eb5013b5994725100e7969028faebfb3228422c487eacc9967f1504549f",
+  "createdUtc": "2026-11-20 11:59:09 UTC",
+  "runnerSHA256": "f14db8ea32a5b2d35444ad8919fc56d7a9f32f6650a20c1914afb9d9d0a1a5c4",
   "nativeSHA256": "d1dad93a00276355d2fdb3f815e01fde5ee428e72f1ca074063e961e7aa62253",
   "bitplaneHeaderSHA256": "03272796bb20c883291d27c9a0b796197f8295ccd9b16552c13894657dc8afd3",
   "nativeSeconds": 14400,
@@ -48,6 +48,6 @@
   },
   "actualPullMaximumIntervalSeconds": 1800,
   "arraysToGitReleaseOrArtifacts": false,
-  "previousRunId": 44729251378,
-  "change": "Fix event label argument collision before any parent computation; identical mathematical input and native consumer."
+  "previousRunId": 44729388449,
+  "change": "Replace strict Python int identity with the exact __index__ protocol for FLINT exponent tuples. A full56-term same-runtime polynomial control runs before rebuilding parents; all mathematical source, weight checks, and native inputs are unchanged."
 }

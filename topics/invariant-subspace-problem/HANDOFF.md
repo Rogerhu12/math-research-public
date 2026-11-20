@@ -6,7 +6,7 @@
 
 - **普通复可分无限维Hilbert ISP未完成。** 只有全体有界算子的存在定理或完整反例才收尾；子问题完成继续open，不以阶段或时限停止。
 - **最近成功实际pull与已读规则提交：** 77d32165a6d85885e799c1b5c34712c60dd25a30，2026-11-20 11:52:44 UTC，Actions run44731129539/job136270857160；真实git pull --rebase成功，两README未变，原日志已核。下一实际pull不得迟于12:52 UTC。
-- **最近API同步及规则核对：** `1d2f52cacf0e0aeddc554adcac427590d32e1f65`（2026-11-20 11:58:27 UTC）；两README blob均未变。API快照不冒称实际git pull，另记真实执行回执。
+- **最近API同步及规则核对：** `a373a7c89a2399012f53bae7387032a7d34b2dc5`（2026-11-20 11:59:12 UTC）；两README blob均未变。API快照不冒称实际git pull，另记真实执行回执。
 - 根README blob282e86b03385d3b6245ce7100ae2e2af7b103c2d、课题4d6570e9cf346431ab781a1290076a6321aaaa00已全文读。每次pull比两README，只读新diff并立即遵守；至少每小时及发布前同步，SHA写H。
 - 仅授权Rogerhu12/math-research-public。root独占main/H/open/results/log和发布，代理只交proof blob；每条结论单独提交推送，非快进立即更新/rebase重试成功，不force。用户PAT仅CLI环境，不进文件/config/日志。
 - 根规则15：可重算数组/数据/证书不进Git、Release或新工件；仅源码、参数、运行身份/SHA及正式证明。MD/API UTF8<100KB、H≤10000B、open尽量≤30KB、topic≤200MB、log每条≤5行、数学美元符及AI署名，不写根LOG。
@@ -25,7 +25,7 @@
 - 全部rankH5单位支、inner mean y∈W、ess5/6、原Bell幂来源/算子桥仍开。inner mean不能从V低秩自动得到y/H共同支撑，退化支另证。草稿不预填结论。
 
 
-- **新权11待修复续算：** run44729388449/job136264948202已完整重建七个原输入父阶段，在目标指数的type(e) is int检查失败（FLINT精确整数类型）；新矩阵尚未运行。修复应保整数精确转换/权重检验并先做同运行时小控制，冻结请求3；不重跑旧权10矩阵。40000行投影保全150646原行/37568列/四q·b³，门36786。
+- **新权11请求3已冻结：** run44729388449完整七父后因FLINT指数类型检查失败；已改精确__index__转换，先核同运行时56项多项式再重建输入。数学原源/native不改，旧权10矩阵不重算；保150646原行/37568列/四q·b³，40000行投影只取秩下界，门36786。native14400秒，每30分钟真实pull；尚无新rank。
 
 - **[unit2+2孤立零点整支已空](results/R150-appendix-essential-four-unit-two-plus-two-isolated-zero-rank-four-branch-is-empty.md)：** 任意权含半权、A0、B+D0和Phi0全例外；正规原325行QQ证书run44730016169及独立边界run44731129539全部通过。rankH4孤立零点仅余unit3+1、2+1+1、1⁴。
 

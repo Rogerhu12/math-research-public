@@ -1,0 +1,111 @@
+{
+  "format": "isp-failed-execution-identity-v1",
+  "runId": 44729388449,
+  "jobId": 136264948202,
+  "sourceCommit": "5459d0492f7afaddf8d5e87913a2df0633acbbd6",
+  "runnerSHA256": "72173eb5013b5994725100e7969028faebfb3228422c487eacc9967f1504549f",
+  "decodedWholeLogSHA256": "7d8f83fa18697175821d36eff266b6bbc0b4ee5d9d8f2e7850fb47839f5fc22c",
+  "actualPull": {
+    "actualPullRebaseSucceeded": true,
+    "beforeCommit": "5459d0492f7afaddf8d5e87913a2df0633acbbd6",
+    "executionEnvironment": "GitHubActions",
+    "format": "isp-789f-actual-actions-pull-v1",
+    "remoteCommit": "5459d0492f7afaddf8d5e87913a2df0633acbbd6",
+    "rulesGitBlobs": {
+      "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+      "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+    },
+    "rulesUnchanged": true,
+    "runId": "44729388449",
+    "utc": "2026-11-20 11:39:46 UTC"
+  },
+  "completedParentExecutionIdentities": [
+    {
+      "elapsedSeconds": 22.216987174000003,
+      "event": "child-return",
+      "exitCode": 0,
+      "log": {
+        "bytes": 40369,
+        "path": "01-original-ten-parameter-model116-180-attempt1.log",
+        "sha256": "041532bb8204adf3039aea4a3993189d40a707b07d4996d24c1b260f74203dc4"
+      },
+      "name": "original-ten-parameter-model116-180-attempt1",
+      "outerBudget": false
+    },
+    {
+      "elapsedSeconds": 40.024412996,
+      "event": "child-return",
+      "exitCode": 0,
+      "log": {
+        "bytes": 5296,
+        "path": "02-original-parameter-seed-compression50-180-attempt1.log",
+        "sha256": "c5c5c07048f926e3b2d275fbcbf1cfafac164ef7fb5d46306124b9917db9256b"
+      },
+      "name": "original-parameter-seed-compression50-180-attempt1",
+      "outerBudget": false
+    },
+    {
+      "elapsedSeconds": 14.208781768000009,
+      "event": "child-return",
+      "exitCode": 0,
+      "log": {
+        "bytes": 29614,
+        "path": "03-original-mean-first30-final180-attempt1.log",
+        "sha256": "48a020444fbf6936e8986e849da79492c8f1415c1dfb20f1df305b5f820fcc85"
+      },
+      "name": "original-mean-first30-final180-attempt1",
+      "outerBudget": false
+    },
+    {
+      "elapsedSeconds": 85.85438701300001,
+      "event": "child-return",
+      "exitCode": 0,
+      "log": {
+        "bytes": 58972,
+        "path": "04-original-weight8-complete-prepare180-attempt1.log",
+        "sha256": "53d61aa411ad52181dc347ea0f1fda2c10254a9804d87ace18a11086201bd7b0"
+      },
+      "name": "original-weight8-complete-prepare180-attempt1",
+      "outerBudget": false
+    },
+    {
+      "elapsedSeconds": 57.037401848,
+      "event": "child-return",
+      "exitCode": 0,
+      "log": {
+        "bytes": 86229,
+        "path": "05-original-weight8-complete-final180-attempt1.log",
+        "sha256": "10560f5cf3de4115c174b316dda3255313b7875238656467e9d73ce77ea0c3cd"
+      },
+      "name": "original-weight8-complete-final180-attempt1",
+      "outerBudget": false
+    },
+    {
+      "elapsedSeconds": 243.361347972,
+      "event": "child-return",
+      "exitCode": 0,
+      "log": {
+        "bytes": 49698,
+        "path": "06-original-complete210-all-sources900-attempt1.log",
+        "sha256": "821ca32ee0053e5ab8b5d71133e337e7b6b5fc953ad029b08df8e99e334ff3a4"
+      },
+      "name": "original-complete210-all-sources900-attempt1",
+      "outerBudget": false
+    },
+    {
+      "elapsedSeconds": 194.73074104100004,
+      "event": "child-return",
+      "exitCode": 0,
+      "log": {
+        "bytes": 3974,
+        "path": "07-original-delta-weight10-prepare600-attempt1.log",
+        "sha256": "c8f6385ace67b50e049d884bc98ff6cb78b9c8e459da698ec63ad196963293fa"
+      },
+      "name": "original-delta-weight10-prepare600-attempt1",
+      "outerBudget": false
+    }
+  ],
+  "failure": "Strict type(e) is int rejected FLINT exact exponent scalars at the original four targets. Seven parents completed, but the new weight11 native rank matrix was never started.",
+  "nextRequestSequence": 3,
+  "computedArraysPersisted": false
+}
