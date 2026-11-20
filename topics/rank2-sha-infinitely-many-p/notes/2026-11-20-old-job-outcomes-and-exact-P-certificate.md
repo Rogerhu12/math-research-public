@@ -64,3 +64,21 @@ $A^2(A+vB)^2B^2=(A(A+vB)B)^2$ 仅为结合律。
 [有理多项式 FLINT 文档](https://doc.sagemath.org/html/en/reference/polynomial_rings/sage/rings/polynomial/polynomial_rational_flint.html)。
 共享文件仅改本题 `.github/workflows/rank2-sha-original-P-small-prime-dixon.yml` 的
 依赖/触发清单，确保新 helper 存在；仍只在公开 Actions 做数学执行。
+
+## 3. 真正规化的依赖拆分
+
+第七个旧任务 R922 run43927286602/job133510000884 同样以137结束，
+最后确认原eta48可分特化，未到 U 的最终恢复。完整日志hash
+`19fc4d5c1e35ffd770568e38e3de55feb902a0b6eaa16d025e3c14b3b1414c04`。
+逐行检查旧geometry-first函数可见，它仍先建立原48次域的
+$dT/dt$ 及 $a_t=-T/(24t\,dT/dt)$，之后才调用 quotient_divisors；
+因此其“最后可分特化”的日志不表示正规化算法已经运行。
+
+新 `produce-original-quotient-geometry-only.py` 直接由同一完整Tate方程
+建立同一个24次域 $D=\mathbf F_{29}(s)[L]$，立即调用原
+`quotient_divisors`；该函数只读取 D,s,L，逐字保留全部九尖点、
+Au、Av、branch、D0和canonical degree的检查。这是可精确验证的依赖拆分，
+没有替换几何对象或下游条件。它只报告原商的正规化/除子结果；
+U、eta48坐标、完整RR基、两原映射和shadow仍分别需要原有认证。
+新本题workflow为 `.github/workflows/rank2-sha-original-quotient-geometry.yml`，
+使用同一固定Sage镜像、prime29、原q4500/trace170方程；不保存重算输出。
