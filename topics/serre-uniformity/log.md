@@ -698,3 +698,7 @@
 ### 2026-11-20 19:42 Asia/Taipei — serre-public-astra-20261120-de0a3e3b
 - R959完整定出原两CM族的整粗多项式与准确公共因子1+24X；fine额外三重零、全p非零cusp源及同空间反模型均纸证，旧中央值仅复用。
 - 单纯valence/源非零无法排实际因子，继续指定CM耦合；H前态逐字归档，原尺度/pins沿链完整保留。
+
+### 2026-11-20 19:43 Asia/Taipei — serre-public-astra-20261120-de0a3e3b
+- R961原弱形式g与Hweak精确识别Scholl单位所检测的高权F0，全部12 cusp/SS常数已root核；g_p H4=93312与真a_pg_p≡1 modp³均保原来源。
+- 该向量是实际Cartier链顶，不能替换链底F，长链仍开；继续真正Igusa形式群系数，不重开旧数值窗口。

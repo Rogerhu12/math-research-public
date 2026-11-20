@@ -6,7 +6,7 @@
 
 **维护会话：serre-public-astra-20261120-de0a3e3b。** 已部分克隆并真实pull main，接手serre-public-astra-20261115。最新前态逐字在[H归档](handoff-archive-2026-11-20-before-conjugate-primitive.md)与[open归档](open-archive-2026-11-20-before-conjugate-primitive.md)，内接全部旧pins/公式/关闭边界。只消费已成来源，不重做已登记结论。
 
-**已读规则提交：367ea7fcc1f295c173427239389ca38863bfe790**（2026-11-20T11:43:07.929276+00:00；终端真实git pull --rebase origin main，两README无diff）。相比b77de2c7仅根课题表新增held-10pct；两README完整已读。root SHA256 581402c2 / topic 35f82f3d。此前来源与原pins沿[旧归档](handoff-archive-2026-11-16-before-Igusa-Frobenius-residues.md)。
+**已读规则提交：424f1e069cc9610ad40aaf3e1751c70b52448a7c**（2026-11-20T11:43:41.621557+00:00；终端真实git pull --rebase origin main，两README无diff）。相比b77de2c7仅根课题表新增held-10pct；两README完整已读。root SHA256 581402c2 / topic 35f82f3d。此前来源与原pins沿[旧归档](handoff-archive-2026-11-16-before-Igusa-Frobenius-residues.md)。
 
 每结论立即推；每push前且至少每小时真实pull。NFF立刻pull --rebase再推循环成功，禁force。每pull检查两README，有变只读diff并立即执行，SHA记此。PAT仅CLI，不入文件/提交，root独占main。新数学仅本公开仓库Actions；外部只纸证/IO/schema/hash/AST。raw不入Git/Release，本轮只/tmp和stdout。H<10KB、open<30KB、每MD<100KB、topic<200MB；log用Asia/Taipei≤5行，不写根LOG，不设额外审批/测试门。
 
@@ -27,6 +27,8 @@ R946普遍T^r=6^rA^rD_r；R951完整concomitant证偶r障碍配对对称，F在�
 [R956](results/R956-original-trace-as-a-fixed-low-weight-Cartier-edge-pairing.md)真实E_Bol=Sym^(r−1)H⊗F*ω的紧支coker两端H1ω^(2−r)(−C)/S_(r+2)，SS/cusp无torsion；cσW=−6^r(r−1)!sF确认来源。K_r由Cartier(A^(r−1)YρKρ)定义，实际Y_F|SS=r!F^p/B^(p−r−1)。S=6^(r−2)/r〈zV,K_rY_F〉，λ=mI(cF)^(1/p)/(36d1r!)乘pair。r2负δ插值唯一，K2Y_F=αV4、α=([Q^p]Y_F)^(1/p)，非零仍开。
 
 [R962](results/R962-original-weight-eight-left-term-and-weight-ten-edge-coordinate.md)完整M8非trivial两线的U5=92160，实际Bol左项对偶ℓTtr，双次25U5^tr单位，故r8 CM零primary左项消失；真实K8 coker同构原V10线。α8=(1−5^9/147456)y_p^(1/p)−y_(25p)^(1/p)/147456准确且不依升换，S=(6^6/8)α8〈zV,V10〉；α8非零仍开。
+
+[R961](results/R961-actual-weak-Frobenius-unit-and-Cartier-cokernel-top.md)实际g=E4²/v、Hweak=4sH_Nu²D^(N+1)t^N、F0=𝒰Hweak满足Y0=Ag−36D2Hweak=−36Y_F0。全12 cusp给H_k(F,F0)=12、原高类pair^p=−72；g_p·H4(v,v)=93312单位。真Scholl基[v,g]中φv=p³a_pg、a_pg_p≡1 modp³，原标记/增强整局部格保全。它精确检测CM Cartier链顶F0，不能换成链底F；α_F/L1仍开。
 
 ## 已成来源与精确回执
 

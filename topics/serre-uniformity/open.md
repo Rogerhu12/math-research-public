@@ -93,6 +93,8 @@ $$
 
 [R962](results/R962-original-weight-eight-left-term-and-weight-ten-edge-coordinate.md)已关闭上一段r8左项的实际CM局部化问题：完整M8=⟨E4²,E4v,v²⟩，真实非trivialδ两线由T5送到共轭mark，系数1920s/16s，返回U5=92160单位。实际Bol水平生成元同源因子ℓ^(r−1)、raw Hodge/Serre对偶ℓ^(2−r)给左项真实对偶ℓT_ℓ^tr，双次为25U5^tr；因此原非trivial/U5零primary的左项确为零，K8在实际coker该部分同构至原V10线。完整S10非trivial块的真投影1−U5/147456给α8=(1−5^9/147456)y_p^(1/p)−y_(25p)^(1/p)/147456。S=(6^6/8)α8〈zV,V10〉且α8不依Y_F升换；所需α8非零仍未证。不能由coker一维把这个指定插值类当非零，r2/r8的具体标量仍须实际晶体或源比较。
 
+[R961](results/R961-actual-weak-Frobenius-unit-and-Cartier-cokernel-top.md)已给真实低晶体单位的高权来源，而同时确定其边界：g=E4²/v为原弱权4第二基，Hweak=4sH_Nu²D^(N+1)t^N主部Q^−1，F0=𝒰Hweak为原高权cusp形式；Y0=Ag−36D2Hweak=−36Y_F0且K2Y_F0=−g_p^(1/p)v/36。完整12 cusp concomitant各−2、全SS和24，故H_k(F,F0)=12、〈v_high,F0〉^p=−72，g_p H4(v,v)=93312=12·6^5为单位。Scholl原整基[v,g]中φv=p³a_pg、φg=b_pv，真实增强整局部格（〈3〉=3）给a_pg_p≡1 modp³，保σ逆根/Q宽6/原tame return。这个已识别单位检测的是实际Cartier-coker顶F0；命名F在链底，若L≥3它仍可落Cartier像。故不能由低晶体单位替换α_F，须继续真正Igusa因子的链长/形式群系数或实际F到coker比较；不再以抽象FL重复此路线。
+
 ## O4：原Abel零集、正秩像与真正高度
 
 R921/R924的实际整completed Hom、两节点极界、完整inertia和原a_h均已解决相应normal首层问题。中央p^−a_h G_h整restricted且最高项单位；几何开盘零数由最小单位下标决定，不是有理零数或height。
