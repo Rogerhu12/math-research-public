@@ -1,23 +1,48 @@
 {
-  "id": "held10-q006-rms-remesh-01",
-  "read_rules_commit": "723a79feca14e78036ad4c80bc42ed66fe8598b6",
-  "script": "topics/visible-flex-held-10pct/scripts/resume_m3/diagnose_and_remesh_prefix_raw.py",
+  "id": "held10-q006-warm-remesh-01",
+  "read_rules_commit": "fae69f6c767bdfbca9ba3ecfa396353fb91a66dd",
+  "script": "topics/visible-flex-held-10pct/scripts/resume_m3/height_anchor_prefix_lowmode.py",
   "args": [
-    "--source-run",
-    "@WORK@/height-path-00-q0.0060000/run.json",
+    "--height-record",
+    "@REPO@/topics/visible-flex-held-10pct/scripts/resume_transfer/q060_exact_saved_inner_resume_terminal.json",
+    "--height-count",
+    "1",
+    "--amplitude",
+    ".006",
+    "--warp-reference",
+    ".006",
+    "--source-topic",
+    "@WORK@/runtime-source/bundle/topics/visible-flexible-closed-surface",
+    "--short-bridge",
+    "@WORK@/runtime-source/bundle/topics/visible-flex-larger-amplitude/computations/root_short_bridge.py",
+    "--profile",
+    "@WORK@/inputs/q060-profile.json",
+    "--chart",
+    "@WORK@/inputs/reference/chart.json",
+    "--port",
+    "@WORK@/inputs/q060-port.json",
     "--nodes",
     "401",
+    "--max-nodes",
+    "6000",
+    "--raw-restart",
+    "@WORK@/q006-rms-remesh-01/initial.npz",
     "--outdir",
-    "@WORK@/q006-rms-remesh-01"
+    "@WORK@/height-q006-warm01"
   ],
   "diagnostics": [
     {
-      "path": "@WORK@/q006-rms-remesh-01/diagnostic.json",
+      "path": "@WORK@/height-q006-warm01/run.json",
       "keys": [
-        "status",
+        "solver_success",
         "error",
-        "diagnostics",
-        "result"
+        "raw_return",
+        "prefix_audit",
+        "physical_sha256",
+        "domain_newton_stats",
+        "domain_error_counts",
+        "original_linear_DN_physical_residual",
+        "original_nonlinear_DN_accepted"
       ]
     }
   ]
