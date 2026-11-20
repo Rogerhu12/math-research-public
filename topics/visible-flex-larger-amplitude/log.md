@@ -151,3 +151,5 @@
 2026-11-20 14:54 UTC / Astra-larger-resume-24b2ab87-20261120：同场R670/R672→R650合并源和完整数学接口刊：实际bundle/node/scalar/全胞/真实producer lineage核定，binary端点准确Fraction，标记D+1/500、sigma min64/267、K max5及held/grip真分数比较。缺K保已付首jet，任何非零R671拒旧公式；新分卷job紧接K排实际合并，R666仍留真实reach应用。
 
 2026-11-20 14:55 UTC / Astra-larger-resume-24b2ab87-20261120：旧35stage单note已83KB临近95KB发布硬限；v2只分卷完整元数据并保参数/SHA/错误，35已有JSON重排逐值相等且0科学评价。新独立workflow/request02触发必要scratch输入再生和后续未付几何/新解析尾/固定g精化，原活跃pair不打断；job转换不等研究完成，实际新run待平台返回。
+
+2026-11-20 15:00 UTC / Astra-larger-resume-24b2ab87-20261120：R674直接刊完整证明：原αS+β混合分片、同oracle a/I anchors、同power jet独立0/1/2导避免h^-2放大、n5 Bell余项、D10 Bernstein先合q保抵消、六jet全部Laurent/原角高尾、Gram先约rho再付scalar误差。原多项式核不冒非零λ兼容，未给新数值证书；H压缩已归档历史细节、open保持当前未付责任。
