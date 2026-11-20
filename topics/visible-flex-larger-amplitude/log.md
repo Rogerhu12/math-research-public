@@ -239,3 +239,5 @@
 2026-11-20 18:01 UTC / Astra-larger-resume-24b2ab87-20261120：run44758209061阶段36–38真返：97fd同λ1/eta885→7fd35275，v3 256/alpha.5，Phi8.52075845e−8/max.01209078，满步虽更降却product1.00126764；末mu原值，QP未驻点，11raw负乘子的最大规范化gain低于真实释放阈值。非同父v2/v3因果比较。同7fd完整f122全922嵌入/support.29456、D4.11896941、held/D.22806068；b36准确高Z见证全胞活动非平面已付，旧first NP/marker flag不伪改，K/reach/Euclidean幅度/连续metric及精化仍未付。完整输入/源/输出SHA刊，H压缩保上版。
 
 2026-11-20 18:05 UTC / Astra-larger-resume-24b2ab87-20261120：40e复合完整body binder与3f launcher刊并直接排实际7fd父：冻结base→100e→805→f96→明确复合身份，未来全body重建；初次父仍425f真实核，全部历史位置/同λ1 eta885/g/原μ/范数及.992筛保。一次256、atol0/rtol1e−6、tau0、beta1/μ²；真实corrected预测/Phi/全几何过才接受，原ray fallback及PCG失败如实。仅源/AST已完成，队列已写、科学未返，不加fixture或待批门。
+
+2026-11-20 18:10 UTC / Astra-larger-resume-24b2ab87-20261120：新纯JSON归因adc90刊且排在实际复合方向后：原d/QP、原ray及corrected d+e分开，SOC接受后父统计/预测/末mu跟实际修正；f96构造、v4 apply/截断失败、全旧slack/QR/全真筛原因完整读，不新增arrays/J/fixture或因果断言。原930d/912不改。两位置计数selector按4d9真实字段修正；队列仅紧凑序列化并保所有旧id/参数/顺序，避免95KB元数据上限，无科学重跑。
