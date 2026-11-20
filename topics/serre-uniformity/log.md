@@ -793,3 +793,7 @@
 ### 2026-11-20 21:42 Asia/Taipei — serre-public-astra-20261120-de0a3e3b
 - R980原Robert1980 level1全文扫描定义/ThmA/Weierstrass/显式b_t、1978 pair与1982/1986边界已root实读核准；准确S_k=G_k和−288/B_p尺度登记。
 - 低star 4p−2/10p−8单位是新明确输入，高star并非同一指数；H逐字归档压缩，继续R981实际系数压缩和mixed比较，不停在反射判据。
+
+### 2026-11-20 21:47 Asia/Taipei — serre-public-astra-20261120-de0a3e3b
+- R982两个低mixed系数的精确theta阶乘与Robert反射经root纸核，严格排共同α/ξ的literal Frobenius模型；只复用旧通用c3/c6，不执行新样本。
+- 带index修正及单near-p比较仍未否定；继续R981 canonical系数压缩，并准备公开检验明确的factorial修正候选而非无目标扫零。

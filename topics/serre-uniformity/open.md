@@ -44,6 +44,8 @@ R946/951/952原Bol障碍O_r(H)=r!(𝒰H)^p/B^(p−r)|SS、kerO=ker𝒰；whole�
 
 [R980](results/R980-original-level-one-Hurwitz-reflection-and-distinct-mirror-pairs.md)：Robert1980 level1 Thm8完整适用，原S_k恰G_k、源E4=0/E6=864，B_p=E_(p+1)(E+,ω)单位。对t=a,n有G_(t(p−1)+p+1)=B_pG_(t(p−1))/(12t) modp。低star=4p−2/10p−8已单位；高star=np+a=p²−rp+r+1单位仍恰S非零，**两反射对不相连**。原γ1=−288η^(−(m−b))(χσ−1)B_p^−1G_(np+a)，γ0保p次embedding。Robert1978 pair只至少一非零；Gillard1982高level排N0不妨Robertlevel1；1986共轭单项等价须F/Q abelian，本环类域dihedral不适用。
 
+[R982](results/R982-theta-symmetry-obstruction-to-a-common-Frobenius-scalar.md)严格排除literal barλ→λ^p加共同α/ξ的比较模型：原theta对称给H_(j,j)=jH_(j−1,j+1)，j3/6的c+=1/6、−1/900均unit；Robert反射G_K=βG_L/(p+1−j)迫α/β同时−3/2与−6/5，矛盾。只排共同标量模型，不排带index-factorial/Gamma/carry修正或单个near-p比较。近p lowstar与c_n B_p^r同权不构成等式。
+
 当前须证实际G_(n(p−1))高系数普遍非零，或与balanced c_n建立真实整reciprocity。N_low+N_high=p²−1、低unit和Frobenius pair整体非零都不单独证明高unit；原生mirror的实际指数及规范须逐条核。不把Cayley坐标直接当ϖ，也不删factorial/p幂。
 
 ## O3：固定低权cohomology与原Igusa投影的边界

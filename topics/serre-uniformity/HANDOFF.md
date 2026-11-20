@@ -6,7 +6,7 @@
 
 **维护会话：serre-public-astra-20261120-de0a3e3b。** 已部分克隆并真实pull main，接手serre-public-astra-20261115。压缩前逐字状态在[最新H归档](handoff-archive-2026-11-20-before-Hurwitz-reflection.md)，沿链保全部旧source/SHA/尺度/失败边界，不重做已登记结论。
 
-**已读规则提交：cbffb49f57d36f2e2e1cf586daf41b5c4f84e181**（2026-11-20T13:42:48.613966+00:00；终端真实git pull --rebase origin main，两README无diff）
+**已读规则提交：ad1f397deee043ec984c4cb454743440535e91c9**（2026-11-20T13:47:27.568271+00:00；终端真实git pull --rebase origin main，两README无diff）
 
 两README完整已读，SHA256 root 581402c2 / topic 35f82f3d。每结论立即推；每push前且至少每小时真实pull；每pull检查两README，有变只读diff立刻照办并记已读SHA。NFF/lock-ref竞态立即pull --rebase再推直到成功，禁force。PAT只CLI，不入文件/提交；root独占main/H/open/index/log。
 
@@ -41,6 +41,8 @@ R977原E+g3−4/Δ−432、真实C=<Ω/p>和φ*ω_C=ω给D_C=p^12Δ(pτ)/Δτ∈
 [R979](results/R979-balanced-Kronecker-and-normalized-discriminant-Taylor-source.md)：同一实际discriminant有准确Ramanujan/Cayley源，u=(τ−ζ)/(τ−barζ)、T=Ω²Imζ·u/π（原PL参数的−3倍），log[Δ(τ(u))/((1−u)^12Δζ)]=12Σ(n−1)!c_nT^n。E−/E+保Ω²相位，实际n3mod6有c_n+=−c_n−；粗W=T³的m−b项准确12(n−1)!c_n，是p-unit比例。D_C=[p(1−u_p)]^12 exp G_+(T_p³)保原p12及normalized differential；仍无W到ϖ的整比较，不能将complex式代为p-adic截断。
 
 [R980](results/R980-original-level-one-Hurwitz-reflection-and-distinct-mirror-pairs.md)：Robert1980 level1 Thm8完整适用，原S_k恰G_k、源E4=0/E6=864，B_p=E_(p+1)(E+,ω)单位。对t=a,n有G_(t(p−1)+p+1)=B_pG_(t(p−1))/(12t) modp。低star=4p−2/10p−8已单位；高star=np+a=p²−rp+r+1单位仍恰S非零，**两反射对不相连**。原γ1=−288η^(−(m−b))(χσ−1)B_p^−1G_(np+a)，γ0保p次embedding。Robert1978 pair只至少一非零；Gillard1982高level排N0不妨Robertlevel1；1986共轭单项等价须F/Q abelian，本环类域dihedral不适用。
+
+[R982](results/R982-theta-symmetry-obstruction-to-a-common-Frobenius-scalar.md)严格排除literal barλ→λ^p加共同α/ξ的比较模型：原theta对称给H_(j,j)=jH_(j−1,j+1)，j3/6的c+=1/6、−1/900均unit；Robert反射G_K=βG_L/(p+1−j)迫α/β同时−3/2与−6/5，矛盾。只排共同标量模型，不排带index-factorial/Gamma/carry修正或单个near-p比较。近p lowstar与c_n B_p^r同权不构成等式。
 
 在推R981真实canonical f(X)=L(s)/s的两digit Lucas/共振压缩及新pure系数校准method/consumer；尚未执行。旧R973 c_n/B只消费，先纸证后公开Actions；root独占workflow/request/git。agents只写独占稿，继续双变量整Frobenius比较，不预设W=ϖ或高低unit互推。
 
