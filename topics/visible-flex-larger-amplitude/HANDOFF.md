@@ -4,7 +4,7 @@
 
 ## 规则与完整目标
 
-最近规则核查：2026-11-20 12:25 UTC，真实pull/rebase至 `629eb1749e0df097ee74c5c43e0a1690df77b3c9`，双README相对上次已读无差异。
+最近规则核查：2026-11-20 12:28 UTC，真实pull/rebase至 `88de2e120c5c0272b67cd988bfa97580cbcab738`，双README相对上次已读无差异。
 
 公开仓库内工作；终端git普通push，每条结论推一次，NFF立即pull/rebase再推。至少每小时pull；每次查根/本题README差异，变更立刻读/执行。根README已授权必要修改/发布。根唯一git writer，代理只work/小blob。raw只scratch；Git/Release/artifact只保完整小源/参数/run/SHA/紧凑结论。题≤200MB、单MD<100KB、H<10KB、open<30KB。令牌只瞬时CLI，不写文件/提交/回复。
 
@@ -33,10 +33,10 @@ carrier在work/recover_evidence/gauss6-current-three/same-scalar-gauss-observati
 
 0241：work/geometry_path/curvature-qp-physical-h2-next-six.npz，SHA `0241f7144f82b485350f684e999c8fb3fa71c94a942339da0bfa9f00bdb30023`。6077：work/geometry_path/curvature-qp-arbitrary-def1-six-step.npz，SHA `607732377449f07611553ebc1ad1e7f2aa20e835d3f613a3018ae56957dd6941`。
 
-- geometry_path：v6从0241新启正谱p8/.001/.05真实Φ六方向，原同g/全部行/H²/.992保持。首6已自然返8d7407，max .01577338，Φ1.97949e−7；Jw反升.206198，明确是换目标权衡，未冒旧Jw改善。同v6后4已返ca3679，Φ1.90728e−7/max.01507269；v7准确残差Hessian同1964空间已启动，首满步接受，继续4方向。
+- geometry_path：[v6](notes/2026-11-20-curvature-qp-spectral-p8-six-step-result.md)从0241新启正谱p8/.001/.05真实Φ六方向，原同g/全部行/H²/.992保持。首6已自然返8d7407，max .01577338，Φ1.97949e−7；Jw反升.206198，明确是换目标权衡，未冒旧Jw改善。同v6后4已返ca3679，Φ1.90728e−7/max.01507269；v7准确残差Hessian同1964空间已启动，首满步接受，继续4方向。
 - fullclosed_solver：ddd644方向已自然返，仅1/16接受；真实新峰微分归因显示prefix净δκ的79%来自m≥33，Fφφ/Y主导。已从0241实际启动νc24平滑转折角H²尺度（旧角权×sqrt(1+(ν/24)²)，core同乘，H不动），同新范数粗白化。全历史位置永久screen；当前working set取7protected+真实near-active至192。新256已返5b1e仅1/32接受，Jw.13264642/max.02387469；邻角新峰仍限制步长，下一研究真实带余量不等式。p8交geometry。
 - recover_evidence：[R662](results/R662-complete-closed-C0-difference-and-inherited-size-amplitude.md)连续C0差实际全922胞1.54s返，0241对6077 ε≤.028621856；传D≤4.164063、held/D>.219622（条件.001marker>.219516），完整证明/源已刊。无需角网格或重扫旧D/held；8d新父同源已返held/D>.219123；现优先R664正谱残差变量精确Hessian，区别于完整x-Hessian。
-- root：[R663](results/R663-complete-closed-embedding-and-fixed-marker-noncongruence.md)0241全922胞first-jet已自然返415.66s，0未付盒，support≥.37782381、D≤4.111673。同父非平面全胞另返；四固定p4标记后全相位嵌入/强C²连续/含反射δE>0已付，held/D>.22231、握持>.21878。全域reach/metric/精化仍未付；后继父须另付差界。
+- root：[R663](results/R663-complete-closed-embedding-and-fixed-marker-noncongruence.md)0241全922胞first-jet已自然返415.66s，0未付盒，support≥.37782381、D≤4.111673。同父非平面全胞另返；四固定p4标记后全相位嵌入/强C²连续/含反射δE>0已付，held/D>.22231、握持>.21878。全域reach/metric/精化仍未付；后继父须另付差界。0241全域K自适应Q2048/r1→8192/r8→32768/r32，目标8.1，已启动45381；不预报结果。
 
 ## 已付连续几何与严格接口
 
