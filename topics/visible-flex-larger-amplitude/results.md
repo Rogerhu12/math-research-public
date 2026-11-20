@@ -283,3 +283,5 @@
 - [R674：准确参考尾的连续 profile、完整六 jet 与同角余项](results/R674-reference-tail-continuous-profile-and-same-angle-remainders.md) — 同原a/I oracle和符号节点的Taylor/Bell三阶包围、degree10先合并、完整角高尾及rho约消后的Gram误差证明；新非零lambda连续消费者的严格接口，无候选数值或旧证书移用。
 
 - [R675：同场嵌入与准确高度角模排除活动平面开片](results/R675-embedded-activity-nonplanarity-from-height-jets.md) — 嵌入直接付两轴迹非零，角解析延拓与每原胞非零高Z三jet排任意平面开片；适用R671且无径向解析或新轴oracle，平帽允许，条件消费者不冒marker/reach。
+
+- [R676：固定同一度量的符号网格／频率精化与完整观察迁移](results/R676-fixed-metric-refinement-and-complete-observation-transfer.md)：已证明原／固定 R671 模型的准确符号二分、quintic 嵌套与频率补零；实际 binary 新 jet 单独支付向外六 jet 差界，同 FullHold 原 oracle 重新取全部新点，保留全部旧残差正权及永久位置，另读共同父 grid 比较。提供 Actions-only 完整 fine QP 桥，精确位置键不再 round13；尚无本条新数值应用，不把转移、跨层异权 Phi 或一次求解冒充同 g 误差收敛。
