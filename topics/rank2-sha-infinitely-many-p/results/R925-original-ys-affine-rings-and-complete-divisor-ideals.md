@@ -1024,3 +1024,21 @@ root已全文审前端、可选加速的全部diff及真实612×306核入口；d
 | `produce-original-ys-closed-local-check.py` | `bff04b4d8c421a035d8798541b58521c536921a363873b9c78946557b727932f` |
 
 §13所列closed helper旧hash保留为最初静审版本；本次仅添加有完整原输入验证的可选零纤维加速与相同关系格后的复用，generic数学路径未改。其余已PASS的原环与六纤维producer源码均未改。
+
+
+## 17. 同一原consumer的完整实现桥
+
+[完整实现证明](../notes/2026-11-20-original-normalization-consumer-bridge-proof.md)逐项对应R883/R924已证明的原消费者；不重新提出另一种循环或另一组端点。root全文核桥、旧循环和新trace读者，deep独审全部公式与接口。
+
+`original_ys_fraction_bridge.py` 将同原vF/Yi/RF/Ri经三条真实退化读入原306整基，直接复用原theta17、lambda/h/dnew和Artin(2,0,1)，实际要求七条椭圆式、W端点及常数反射的完整环恒等。W的实现先用已证明π2∘W=π2、π1∘W=π4及原根身份，再按拉回函子性作用于实际表达式；没有以swapped参数自行假定一个新自同构。
+
+两完整向量只约消准确公共k[ξ]因子，并对全部612坐标复乘返回；共同图表界取所有实际坐标的max(deg+d_i)，去掉人为的公共s幂但保每个真实极点。若提供R926§9的新低权对象，必须逐根核其与同一个旧cube对象的完整交叉恒等回执，原6/4根方程证书保持独立。
+
+几何入口读原T/v的全108/54支集、六个2256极次数及真正yF的dF；四交理想入口保原两种循环呈示、全部极理想乘积和实际源投影为全模的有效性门，完整有限图表加s=0返回原总次数。trace读者对每点保全e_Q、d_Q、m_Q、k_Q、真实原κ和任意共同零后的值；原Tate/scalar迹、九点反射、完整18×9/双轴和A/C最终返回均保持。已有旧consumer文件不改。
+
+| 源文件 | SHA256 |
+|---|---|
+| `original_ys_fraction_bridge.py` | `b7969c69468509c9d436c7bd465a3a6097dc577006339eca1652aea216509398` |
+| `original_ys_normalized_shadow_consumer.py` | `bb91fd32ce7f438494a92cf24f53418fb95c3a98813ced72e4c8b1db8a2ceab9` |
+
+本次只接入已经完整静审的实现，实际math请求前端正在整合R926低权紧缩；maps、完整pole geometry、四理想、所有闭点/迹各层均须自己实际通过，不预填任何新PASS。最终有限shadow若非零，仍不自动替ordinary或无穷p门。
