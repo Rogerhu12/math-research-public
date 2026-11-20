@@ -1,0 +1,57 @@
+{
+  "maintenance": "Astra-held10-1b6d88ec-20261120 / geometry_advance",
+  "date_utc": "2026-11-20",
+  "status": "actual_exit0_true_bridge_cut_trace_enclosed",
+  "source": "scripts/resume_m3/export_m24_true_bridge_cut_r_jets.py",
+  "source_sha256": "793c4de6c16eb1b28f2690d06f981477c92f5ecb31463f6c271305a35e371429",
+  "run_sha256": "c44b6fd2fbb13cc9ce0451cc6ab1d3c06521de0622de27190bde94c4c550462a",
+  "physical_sha256": "f2e22fe19bb0b6fdeff79c4fa99363d9be6cbb1ef382fd882679a2b717a3030d",
+  "inputs_sha256": {
+    "reference_seam": "532536975977e00290efa3af6fe4d19fe0e24e5a23db3fb69616c4e6de8e74e2",
+    "bridge_jet_certificate": "d9f7adabdf1621f97c637795c0b342bf18c9c05b07579325929c705637aef1dd",
+    "height_contract": "1b4147e58ff934f3784e981fb72d43044c26a4a069e883d871a7fcc2a6528a19",
+    "mean_cache": "f46ee567bf78d8bdac0ceb7c60db92a058f693fd3f532f714125180b911f918c",
+    "mean_kernel": "ab08dc1dc7f24f6e92e3d64fcc530767cb66f5ae5a2940f953460a3274b6a1a5",
+    "interval_kernel": "6234c458d303dfd2e47dcf1e1a6ee54a3d466118a8aea4d76f66013154c034e7"
+  },
+  "npz_sha256": "9f91cad1aea020ddbd852e7c6133434612c324d0fbf6597f6f7c668b5b98ce8a",
+  "certificate_sha256": "5e737935ac071e759e1d6cf0b2589026ca8564f1b82f283cd769ea5bd676dc6d",
+  "actual_exit_code": 0,
+  "seconds": 6.223674693999783,
+  "mean_nodes": 1168,
+  "psi_sha256": "f4834f978de38046e374b020d2a928d293fc405f794159e40e2271f4ee9bd9cf",
+  "M_cut": {
+    "lower": 0.07980484249261179,
+    "upper": 0.07980484249296435,
+    "lower_exact": "5750544942593401/72057594037927936",
+    "upper_exact": "2875272471309403/36028797018963968"
+  },
+  "M_prime_cut": {
+    "lower": 1.8402691922751635,
+    "upper": 1.8402691922996577,
+    "lower_exact": "4143917824295915/2251799813685248",
+    "upper_exact": "4143917824351071/2251799813685248"
+  },
+  "frenet_root_lower": 0.006117377246004584,
+  "R_coordinate": "ahat(s), the already unified target radius, not actual a_star(s)",
+  "actual_a_star_differences_retained": true,
+  "e_value_first_second_exact": [
+    "0",
+    "0",
+    "0"
+  ],
+  "core_lift_identically_zero_near_cut": true,
+  "qY_endpoint_exact_scalars": 219,
+  "planar_modes": 49,
+  "height_modes": 25,
+  "position_zero_mode": "Original true primitive Z_cut, not an interval midpoint",
+  "tail_field_attached": false,
+  "warm025_matched": false,
+  "future_fullH_matched": false,
+  "new_background_integrals": 0,
+  "new_BVP_or_shooting": 0,
+  "new_core_evaluations": 0,
+  "common_node_rule": "Both adjoining pieces reference the same computable-real trace expressions; interval midpoint copies do not prove exact C2",
+  "command": "python \"$TOPIC/scripts/resume_m3/export_m24_true_bridge_cut_r_jets.py\" --source-run \"$M3WORK/newg-wide-lambda0p002-m24-linear/run.json\" --physical \"$M3WORK/newg-wide-lambda0p002-m24-linear/physical.npz\" --reference-seam \"$WORK/m24-bridge-tail-reference-seam-certificate.json\" --bridge-jet-certificate \"$N4WORK/short-bridge-m24-gl64-extended-gap.json\" --height-contract \"$WORK/m24-cut-height-contract-certificate.json\" --mean-cache \"$WORK/newg-m24-r53-core1168-intervals.npz\" --mean-kernel \"$TOPIC/scripts/resume_m3/certify_r59_fixed_mean_ranges.py\" --interval-kernel \"$TOPIC/scripts/finite_closure/m3_m8_closed_map/interval_geometry_kernel.py\" --out-npz \"$WORK/m24-true-bridge-cut-r-jets.npz\" --out \"$WORK/m24-true-bridge-cut-r-jets-certificate.json\"",
+  "data_policy": "Reproducible arrays and complete trace certificates remain scratch"
+}

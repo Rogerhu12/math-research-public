@@ -6,7 +6,7 @@
 
 连通闭C²嵌入、C²连续族；固定有内点H且diamH≥.2D，整像δhold≥.1D及含反射δE>0，全时reach≥.03D。同一完整g/全部物理参数/时间范围下，完整metric≤1e−6且空间/频率/时间精化降至求解或机器地板；全部闭合与Cartesian两jet接口须实际支付。
 
-- 部分克隆工作树 /workspace/scratch/1b6d88ecddf3/math-research-public。已读规则提交：`34096a34653632410085cf469259f90431baf5f9`；15:01 UTC本地真实pull --rebase至该提交，双README无变。每次pull核差异，至少每小时一次；API比较不冒充pull。
+- 部分克隆工作树 /workspace/scratch/1b6d88ecddf3/math-research-public。已读规则提交：`da34ea30adb8e8a8f9e6e898d2f5f3ff559fe23e`；15:04 UTC本地真实pull --rebase至该提交，双README无变。每次pull核差异，至少每小时一次；API比较不冒充pull。
 - root独占git，逐结论推送，NFF立即pull --rebase/核双README后再推，禁force；令牌只在命令行。
 - 根§12优先实际数学/求解，不重复身份核查/双审；§15再生场、网格、矩阵不入Git/Release/artifacts，只存源/参数/命令/hash/小标量。H<10KB、单MD<100KB、目录<200MB，不写根LOG。
 - 压缩不撤销旧结果。完整旧断点见[接手H](https://github.com/Rogerhu12/math-research-public/blob/9288f266d1f242b594d70a714e20340fcb876023/topics/visible-flex-held-10pct/HANDOFF.md)及[本次H到01954](https://github.com/Rogerhu12/math-research-public/blob/01954ce52ce769093d8368e8f5c9d4a980191a84/topics/visible-flex-held-10pct/HANDOFF.md)；具体note优先于摘要。
@@ -21,7 +21,7 @@
 
 [M24加权核心邻域](notes/2026-11-20-m24-weighted-core-neighborhood.md)已严格付全23c及任意新增有限高模：q[.0599,.0601]、加权距离≤.01给ρ>.485、τ1全λ核心κ∈[.2,4.86)；未来真实返回必须核成员资格，非全曲面界。
 
-当前真实尾：chord3 session54314，目录m3-work/newg-wide-lambda0p002-m24-actual-chord3-r1。原.25已过；**.5完整返回**残差9.47489311e−10，检查点12674cc4…125a53，1153×48全finite，3fresh-J+7state/6接受步，最终fresh-original；原finite audit metric8.22e−15只属暖档。14:20 UTC自动接.75→.9→fullH，原M24/N512/steps16/parts16/2workers、shoot36/原门/outer8不变。[.5实录](notes/2026-11-20-m3-m24-chord-warm050.md)、[.25及原取消/ENOENT与完整命令](notes/2026-11-20-m3-m24-original-warm025-and-chord-continuation.md)。[唯一新初猜probe](notes/2026-11-20-m3-full-harmonic-warm-probe050-to075.md)93992已exit0：norm10783.57、原域通过，1次state/0Newton/0DN；保原54314、不再probe，同档uniform已自然返回6438.708，probe为其1.674804倍，未改善，新增flow0。fullH/外迭代仍欠；最终重新绑定完整g/δ/q/c/均值后再场细化。
+当前真实尾：chord3 session54314，m3-work/newg-wide-lambda0p002-m24-actual-chord3-r1。原.25/.5已接受；.5残差9.47489311e−10、1153×48 finite，末态fresh-original。现接.75→.9→fullH/outer8，原M24/N512/steps16/parts16/2workers/shoot36/门不变。[.5实录](notes/2026-11-20-m3-m24-chord-warm050.md)、[.25及取消/ENOENT/完整命令](notes/2026-11-20-m3-m24-original-warm025-and-chord-continuation.md)。[唯一full-harmonic probe](notes/2026-11-20-m3-full-harmonic-warm-probe050-to075.md)10783.57对原uniform6438.708，差1.674804倍，未改善且不再做此probe。fullH/外迭代未完成，最终重新绑定完整g/参数/mean再场细化。
 
 [λ.004/M24实际设计](notes/2026-11-20-m3-newg-lambda0004-m24-return.md)635点/8全步收敛，但原metric1.53303e−6未门；原mean1168诊断主缺陷在ψ77/79等表示外。[M32实际78016](notes/2026-11-20-m3-newg-lambda0004-m32-accepted.md)已真exit0/860点，原metric7.604677e−7/BC2.84346e−12通过，原mean1552。新λ.008/M32 session76535已启，860点初始域已过；δ/c仍设计自由，非fixed-g。54314不动。
 
@@ -36,7 +36,7 @@
 - **R58真4.625背景**固定binary校准根/唯一真归一α*，h<.025835/w≤.41/K≤8，含混合口/深尾/平盘；[R58](results/R58-q060-valley-background-height-and-curvature.md)。[局部G16](notes/2026-11-20-q060-local-gauss-uniform-primitive-certificate.md)合α的g分项<1.374e−8，非IEEE/libm。[真局部oracle](notes/2026-11-20-q060-true-background-local-oracle.md)已付部分积分/反解，x二阶跳非零而物理R图C²。
 - [.25共享R图](notes/2026-11-20-warm025-shared-r-adjacent-stages.md)已付stage0/127/128/143/144全部各自R×θ：metric分别≤6.588e−9/1.128e−9/8.717e−12/8.688e−12/7.808e−12，K均<8.04。共用真g，保原H=rJ⁴u和独立非旋转mean；127/128及143/144接口严格共二jet，已付stage0/127整图不改。全1152导出79634/连续证书并行，保deep唯一锚；fullH仍欠。
 - **R59/R60桥已连续通过**：[R60](results/R60-actual-m24-c2-bridge-and-continuous-metric.md)绑定M24 linear、共享Hermite/解析延拓真primitive/mean1168。全角全径向metric<9.3e−7、半径<1.245/support>.3986798571/K<8.367444；同新prefix绝对z0∈[.44631325197234495,.47839691621379593]，保持完整lift/精确入口二jet。旧clipped函数非C²小差；全部表示/GL/均值转换及1830盒来源见R60，不搬到新trueDN场。
-- [桥—真尾统一目标g](notes/2026-11-20-m24-bridge-true-tail-reference-metric.md)已付：最后.001的精确Hermite修正目标a，接真Rc/wc弧长两jet；实际R60图/mean不变，转换后全桥metric<9.301e−7。是冻结前明示new g，不是旧g精化；实际Cartesian尾接缝仍欠。
+- [桥—真尾统一目标g](notes/2026-11-20-m24-bridge-true-tail-reference-metric.md)已付：最后.001的精确Hermite修正目标a，接真Rc/wc弧长两jet；实际R60图/mean不变，转换后全桥metric<9.301e−7。是冻结前明示new g，非旧g精化。[切口完整R两jet](notes/2026-11-20-m24-true-bridge-cut-r-two-jet.md)已按R=ahat(s)导出：mean1168的M/M′与实际a*微差都保留，Zc保持同一符号；真实尾Cartesian接缝仍欠。
 - R56一般连续矩阵证书不重证；[mean1168解析角二导](notes/2026-11-20-m3-m24-fixed-mean-angular-second-jet.md)只作诊断。root桥旧alias原型撤销，R60只用修复源真实终态。
 - [真R53核心](notes/2026-11-20-m24-r53-true-core-jet-certificate.md)反函数/真积分/全角Γ3/Γ4已付；mean1168缓存位置差<7.3e−13仅节点。[R62完整前缀](results/R62-actual-m24-complete-prefix-and-bridge-certificate.md)2559已真exit0：1065闭区间×4672角盒，metric≤9.695184e−7/K≤9.649812、未决0；合R61/精确桥缝/统一target g得整个开放连接器同metric界、半径<1.245/support>.3986798571。仅当前λ.002 linear，不能移新场；完整尾/闭族仍欠。
 - **R61中央精确C²入口已付**：[实际证明](notes/2026-11-20-m24-exact-material-cylinder-inlet.md)。固定材料θ、L=1/1000 Hermite修补在内端精确接真Γ(θ)+s ez，外端修正两jet严格零；局部重新认证metric≤8.19863e−7/K≤2.18421，半径<1.14/support>.504。原mean1168是固定输入，补丁可含z零模，不冒称仍解旧演化方程。仅当前λ.002图；[前缀—桥共同接口](notes/2026-11-20-m24-prefix-bridge-exact-shared-seam.md)219个Yjet差／3个ejet差精确零，同mean1168/M/M′与真高度锚相同，无需patch；[.25深圆领](notes/2026-11-20-warm025-deep-collar-certified.md)已真过918精确jet等式，metric<3.772e−30/K<8.001并接R58平盘；[同桥高度已绑定](notes/2026-11-20-m24-cut-height-and-tail-mean-contract.md)：Zc≥.4981646，保原尾μc且定义zb=Zc+μc，.49<zb<1.27，消除组件高度条件；仅常数槽相接。n4接共享R全尾。
