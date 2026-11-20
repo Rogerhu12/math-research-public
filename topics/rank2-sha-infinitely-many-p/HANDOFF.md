@@ -1,17 +1,17 @@
 # 交接
 
+维护：Astra-rank2-Sha-resume-08eb2b79-20261120（接替 Astra-rank2-Sha-continue）。
+
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近已读规则提交：f024a1279fbd5205f59e7983f3d96e4e9ebdd3e2；2026-11-16 18:17:30 UTC API核两README无变。最近实际pull：公开CI 2026-11-16 18:13:29 UTC/bdad0680d05d99abc59359ef4c79023016f64951（两README差异空）。本地16:31失联，重试无环境；最迟2026-11-16 19:00 UTC再实际pull。依根8小文本API非强推。
-- 仅写Rogerhu12/math-research-public/main；旧授权789d22af已读。结论即推；非快进立即实际pull --rebase并以新head非强推循环。令牌不存/回显。
-- 根/题README blob：21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；根15@708f058a差异已读。实际pull后仅读两README差异并记head；至少每小时，下一最迟19:00 UTC。
-- 数学执行仅公开Actions；重算输出不入库/Release、不分块，只保源/args/run/hash。H<10KB，MD/API<100KB，open尽量<30KB，文件<5MB、题≤200MB；log每轮≤5行，不写根LOG。
-- 库存34692170B/2570文件，无超限，3旧真实输入块；规则15来源见旧档。最近只读CI run43926523378/job133507354032；本地最近pull重试仍无环境，数学仅公开CI。
+- 最近实际部分克隆/pull及已读规则提交：`ce635be4f028d71b9b71b17fe5afc5b1e5edbd2c`；2026-11-20 09:28:41 UTC 实际pull --rebase，两README相对882aa9b7差异为空；下一次最迟一小时内。
+- 仅写公开仓库main；每条完整结论即提交，推前pull --rebase，非快进循环；不强推、不存令牌。数学执行沿用公开Actions。重算输出不入库/Release、不分块，只存源/args/run/hash。
+- H<10KB，MD<100KB，open尽量<30KB，文件<5MB、题≤200MB；log每轮≤5行，不写根LOG。接手库存34,714,584B，旧完整交接保存在[接手档](notes/2026-11-20-handoff-before-resume-08eb2b79.md)。
 
 ## 完整检查点与当前分工
 
-[最新完整H](notes/2026-11-16-frontier-before-residual-local-matrix.md)逐字保存压缩前所有条件、来源/run/hash及更早归档链。入口results.md、notes/PROOF-INDEX-R901-R950.md和open.md；旧未推R235/R237已重做。root唯一metadata/ref写者；deep已付R920、续指定仿射forcing和同K′；theta已付R915、续四指定低商；literature已付R921、续真实derived的全局Bockstein及ordinary。R364/R561/R654/R712及主目标仍开。
+[最新完整H](notes/2026-11-16-frontier-before-residual-local-matrix.md)逐字保存压缩前所有条件、来源/run/hash及更早归档链。入口results.md、notes/PROOF-INDEX-R901-R950.md和open.md；旧未推R235/R237已重做。root唯一metadata/ref写者，正核旧未结束run实际结果及原P/RR；deep_forcing续R920的同源仿射forcing；theta_nonvanishing续R915四原中央；global_selmer续R921全局Bockstein/ordinary及文献。R364/R561/R654/R712及主目标仍开。
 
 ## 第一门：原映射、完整函数域RR、原shadow
 
