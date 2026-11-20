@@ -6,7 +6,7 @@
 
 **维护会话：serre-public-astra-20261120-de0a3e3b。** 已部分克隆并真实pull main，接手serre-public-astra-20261115。最新前态逐字在[H归档](handoff-archive-2026-11-20-before-conjugate-primitive.md)与[open归档](open-archive-2026-11-20-before-conjugate-primitive.md)，内接全部旧pins/公式/关闭边界。只消费已成来源，不重做已登记结论。
 
-**已读规则提交：192c28161fc6bc9e1680e4c4d374f55980b0d37f**（2026-11-20T12:00:11.515070+00:00；终端真实git pull --rebase origin main，两README无diff）。两README完整已读，root SHA256 581402c2 / topic 35f82f3d；此前差异与原pins沿归档。
+**已读规则提交：90b623b5cca762e7a890f83cbb5e1d957128c247**（2026-11-20T12:10:04.847027+00:00；终端真实git pull --rebase origin main，两README无diff）。两README完整已读，root SHA256 581402c2 / topic 35f82f3d；此前差异与原pins沿归档。
 
 每结论立即推；每push前且至少每小时真实pull。NFF立刻pull --rebase再推循环成功，禁force。每pull检查两README，有变只读diff并立即执行，SHA记此。PAT仅CLI，不入文件/提交，root独占main。新数学仅本公开仓库Actions；外部只纸证/IO/schema/hash/AST。raw不入Git/Release，本轮只/tmp和stdout。H<10KB、open<30KB、每MD<100KB、topic<200MB；log用Asia/Taipei≤5行，不写根LOG，不设额外审批/测试门。
 
@@ -36,7 +36,7 @@ R945两独立run44719847377/44720732478给227/h115 f18=0、857/h433 g70=0，而�
 
 此前完整尺度、真实run、规则读SHA及关闭边界保存在[最新H归档](handoff-archive-2026-11-20-before-formal-height-coefficient.md)，内接[本次H归档](handoff-archive-2026-11-20-before-explicit-formal-height.md)，内接[前归档](handoff-archive-2026-11-20-before-Bol-Cartier-comparison.md)；证明及SHA在[结论索引](results.md)。只压交接，不重做原算术。
 
-R933–945的原固定Legendre/权34/完整SS迹/低权Hecke/中央零及真实回执已全成，详见索引和归档，不重扫旧48窗。保R939原C负RHS、t0权1/H根权3/fine12及未知d1/cF；R942禁止旧单mark矩阵，R945禁止无例外中央单位桥。新current request沿[R963方法](notes/R963-new-original-r2-moment-window-method.md)只查1000<p≤1e5原r2 moment，首零停，run44731335315/source efdeebbe2公开运行中；最终回执未到，初始零jobs配置失败沿方法记载。
+R933–945的原固定Legendre/权34/完整SS迹/低权Hecke/中央零及真实回执已全成，详见索引和归档，不重扫旧48窗。保R939原C负RHS、t0权1/H根权3/fine12及未知d1/cF；R942禁止旧单mark矩阵，R945禁止无例外中央单位桥。[R963](results/R963-original-r2-moment-window-through-100000.md)新窗已真实完成：run44731335315/job136271559447/source efdeebbe2，全部1582个允许r2素数1019..99923无零，539.210186s，原全尺度/三个输出hash已核。仅有限L1/h2，未外推；current request已完成，不重触发，初始零jobs失败沿方法记载。
 
 ## 原全p几何源：不得换对象
 

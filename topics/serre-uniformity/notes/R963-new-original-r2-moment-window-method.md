@@ -21,3 +21,7 @@ Runtime API reference: [official python-flint 0.9.0 nmod_poly documentation](htt
 ## Initial workflow receipt
 
 Run [44731159673](https://github.com/Rogerhu12/math-research-public/actions/runs/44731159673), source `cd6ca5c9c5ea3016bc3ba8e596da47c63aebcb00`, failed before jobs were created. The job API returned an empty list. YAML parsing identified the unquoted colon in the pip installation command. The command is now a block scalar; the unchanged consumer is requested again. This run performed no mathematical calculation.
+
+## Completed public execution
+
+The corrected request completed in run [44731335315](https://github.com/Rogerhu12/math-research-public/actions/runs/44731335315), job `136271559447`, source `efdeebbe23cf971f0d66d39e53964e99a9ccc67c`. All 1,582 requested new primes finished in 539.210186 seconds with no zero, failure or uncompleted tail. The exact finite assertion, original scales and independently checked output hashes are recorded in [R963](../results/R963-original-r2-moment-window-through-100000.md). This request is complete and must not be re-executed as new work.

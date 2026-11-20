@@ -68,6 +68,8 @@
 
 - **R962（原权八左项全核与权十指定系数）**：[实际M8及Bol左项Hecke作用](results/R962-original-weight-eight-left-term-and-weight-ten-edge-coordinate.md)。完整M8三基与双mark T5给非trivial两线U5=92160单位；同源/KS/Serre保全部归一后左项真对偶为ℓT_ℓ^tr，故r8原CM零primary左项为零，真实K8 edge同构原V10线。原投影给α8=(1−5^9/147456)y_p^(1/p)−y_(25p)^(1/p)/147456、S=(6^6/8)α8〈zV,V10〉，升换独立但α8非零仍开；无新数值扫描。SHA256 c01b63e616110b426e057c401aa224ae4365adb84cbb9dff75111f5629963b57。
 
+- **R963（公开Actions有限认证）**：[原r2 moment新窗至100000](results/R963-original-r2-moment-window-through-100000.md)。run44731335315/job136271559447/source efdeebbe23cf971f0d66d39e53964e99a9ccc67c完成1000<p≤1e5且p≡11 mod12、2/5 mod9的全部1582素数（1019..99923），539.210186s，无零/无失败/无尾段。原H0/C=sC0、全SS权和S尺度逐p核准；root独立IO复核全部row/prefix/summary hashes。该有限窗由既成定理得L1/h2，不外推全p或原Q′，旧窗未重跑，无raw artifact入Git。SHA256 8259c94ba3474395d47debe638bf776c696821df848e310c647d9027c561c826。
+
 - **R964（原逆特征CM族与完整热通道）**：[conductor2s逆族及原sigma混合导数](results/R964-inverse-conductor-two-s-CM-family-and-original-sigma-heat-channel.md)。完整原Jacobi源变号给H_(6a)^inv/η4=E4E6^(a−1)R̃_(a−1)(U)，整R̃；原CM处零函数的混合w导数恰12πiη4(x³+2Ω6)σ6。完整heat与原period给R̃_(a−1)(−1/1728)=−(6a)!(-864)^−a h_a/2。真实Θ_Q^r W_k=A^(r+1)H_(r+2)^inv对应同h的h_(i+2)，j≥1首p比较单位，j0端点保阶乘。未由高导数推出mark值相等，原公共因子/同h三因子非零仍开。SHA256 e468aa9e92435631fc688b29f518e0f1c6e71366c5b8d1f7faf5f7f6f2a4c461。
 
 ## 当前原高度、函数与同标签接口

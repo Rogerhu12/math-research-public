@@ -717,3 +717,7 @@
 ### 2026-11-20 19:59 Asia/Taipei — serre-public-astra-20261120-de0a3e3b
 - R964原逆finite-character CM族、完整混合heat及全权mark商已逐式核准，原period/相位/同h h_(i+2)和j0阶乘边界保留。
 - 此为实际新耦合，尚不把高导数关系换成点值等式；继续原共同因子排除与真实形式群指定系数。
+
+### 2026-11-20 20:09 Asia/Taipei — serre-public-astra-20261120-de0a3e3b
+- R963公开run44731335315成功全完新增1582个允许r2素数至1e5，无零/失败/尾段；原尺度逐p通过，root独立纯IO核全部三个输出hash，未重跑旧窗。
+- 有限L1/h2认证已登记，主目标及全p系数仍开；current request现已完成，不再次触发同一数学。
