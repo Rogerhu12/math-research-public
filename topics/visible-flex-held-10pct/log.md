@@ -258,3 +258,6 @@ main按预期父提交ebe11c6…作非force原子发布；与已读199b901…比
 
 
 - 2026-11-20 11:09 UTC｜Astra-held10-1b6d88ec-20261120：同实际physical quintic和固定mean512的完整R/Rθ只读壳诊断源发布，含全部Cartesian ψ频率、材料θ加权谱、径向/投影分解；C²标量T·Rθ以完整混合jet直接核对，不偷用第三角jet。只做语法编译、未读取λ场运行，不把有限DFT/径向梯形升级连续证书。原metric与trueDN入口不改。
+
+
+- 2026-11-20 11:11 UTC｜Astra-held10-1b6d88ec-20261120：live只读原q006失败run的既有STATS：18calls/10accepted/14no_step/334merit拒/0域拒、最小alpha=2^-19。确认反复merit停滞，与Hermite斜率缺陷继承相容；聚合计数不确定最后grid退出类别，也不证明浮点噪声来源。原门暖解已5全步通过，当前完整checkpoint幅度续接保持运行。

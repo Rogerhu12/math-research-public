@@ -116,9 +116,9 @@ r_mid=1.5*cr/h，此条件必推出归一化 midpoint 残差 L2
 完整步 alpha=1 被接受时还会沿用旧 factor 作 modified Newton。
 这些返回没有自动改成 singular，外层仍会按 RMS 做网格细分。
 
-现有公开小记录没有导出该原 run 的 domain_newton_stats，所以
-尚不能在这几种原因中选定一种。后续只读原 run.json 的已有
-计数即可，不必重跑 Newton，也不据此改算法或发新验收门。
+首次诊断的小记录没有导出该原 run 的 domain_newton_stats，因此
+当时不能在这些原因中选定一种。随后已按只读方式取得聚合计数，
+见第 7 节；仍没有最后一个网格的逐调用停止原因，不改算法或验收门。
 
 ## 5. 已生成但尚须实际求解的保场初猜
 
@@ -153,3 +153,37 @@ max_nodes=6000、域/边界/完整 metric 检查。暖解命令已发出；
 命令 held10-q006-warm-remesh-01 已 returncode=0，实际 pull 至 1fdbc1e0337313137be3bed19b35d9643100e059，双 README 无变化。579 节点、RMS=9.947402870695902e-7、原 metric_l1=2.5223305069605293e-9；5 次内层调用共接受5个全步，no_step、域拒绝、merit拒绝均0。raw SHA256=9763fb14879c17f3011bf0ec92a1a68402124f58083512636dedeb4ba6911975；physical SHA256=889fca11fd3d36e617bf5104200ab75d3e1b8276c217c0de057aa80c6d2dbd9b。完整紧凑返回见同日 q006-warm-remesh-return.json。
 
 同一原方程与阈值通过说明这次小区间停滞可以由完整场重采样暖解绕过；没有修改tol/maxnodes/p scales，也不由此选择旧失败的具体停止原因。此成功仍为H1+高7原linearDN初始化；首原linearDN欠5.024514865270223e-7，所有原非线性DN及完整闭面仍未付。接续命令只从该真实完整checkpoint推进其余幅度，不回到cold入口。
+
+
+## 7. 随后的只读 STATS：反复 merit 停滞已有实际记录
+
+继续幅度路径时，live worker 从同一失败 run.json 只读投影得到：
+
+    calls = 18
+    accepted_steps = 10
+    minimum_alpha = 1.9073486328125e-6 = 2^-19
+    no_step = 14
+    rejected_domain_trials = 0
+    rejected_merit_trials = 334
+    domain_error_counts = {}
+
+因此现在可以确认：该次失败运行确实反复触发了 merit 回溯后
+no_step，完全没有域拒绝。第 3 节的 Hermite 斜率缺陷定位与此
+实际行为相容：内层多次不再改场，外层继续细分并继承未消除的
+平均斜率缺陷。它已经不只是“可能发生 no_step”的源码推测。
+
+这些是全运行聚合计数，不能反推最后一个 grid 的最后一次调用
+具体以 no_step、分解预算还是迭代预算结束；也没有据此证明
+Jacobian 条件数或所有浮点噪声的定量来源。第 4 节的正常内层
+残差门不可能通过的判断保持有效。
+
+原 merit 使用完整 Newton step（包含归一化参数）的欧氏平方
+范数。此次最末物理 c7/c8 约为 -5.25e-16/1.81e-16，而参数
+pscale 至少 1e-9，因此有些归一化参数变化可大于局部场变化。
+这提供一种需要进一步区分的尺度解释；没有测得逐步 merit
+分解，故不把它写成已确认原因，也不改 pscale 或回溯规则。
+
+第 6 节在相同原方程、域与验收门下的 415 点全场暖启动已经
+真实通过，且 5 次调用只需 5 个全步、没有 no_step。这是本次
+可执行的处理结果。后续从该接受 checkpoint 继续 q=.012 到 .06；
+不重走 cold、不把旧失败改标接受，也没有放宽任何标准。
