@@ -41,3 +41,7 @@
 ### 2026-11-20 22:44 Asia/Taipei — serre-public-astra-20261120-de0a3e3b
 - R991公开新r8差集349点全部完成且无零，首两点原三路一致；root纯IO核全部pins/request/rows/summary/payload，H逐字归档保前态。
 - current request完成不重跑，有限原trace非零由R988精确推出；继续一般near-p单位和O1同h，未宣Serre完成。
+
+### 2026-11-20 23:00 Asia/Taipei — serre-public-astra-20261120-de0a3e3b
+- R992实际Jacobi算子/简单谱/Hasse kernel及三次Serre标记经root与literature全文独审；旧p227 pivot语义严格排逐列本征，本地仅IO。
+- 保留原filtered V非零与G稳定两缺口，继续actual heat作用；R993新差集消费者在准备，未提前记执行。H逐字归档保完整前态。

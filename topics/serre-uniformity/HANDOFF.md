@@ -4,9 +4,9 @@
 
 证明绝对C使所有无CM E/Q在p>C时模p满射，或给p→∞完整反例族。**主目标OPEN，尚未达README标准。**
 
-**维护会话：serre-public-astra-20261120-de0a3e3b。** 已部分克隆并真实pull main，接手serre-public-astra-20261115。压缩前逐字状态在[最新H归档](handoff-archive-2026-11-20-before-r8-window-receipt.md)，沿链保全部旧source/SHA/尺度/失败边界，不重做已登记结论。
+**维护会话：serre-public-astra-20261120-de0a3e3b。** 已部分克隆并真实pull main，接手serre-public-astra-20261115。压缩前逐字状态在[最新H归档](handoff-archive-2026-11-20-before-Jacobi-operator.md)，沿链保全部旧source/SHA/尺度/失败边界，不重做已登记结论。
 
-**已读规则提交：590ac349d4bf1f111d814e277e6efa6879043d22**（2026-11-20T14:44:33.818768+00:00；终端真实git pull --rebase origin main，两README无diff）
+**已读规则提交：5d98b781dbad30feec13ce1eb0de28b64cdb8b7e**（2026-11-20T15:01:08.927323+00:00；终端真实git pull --rebase origin main，两README无diff）
 
 两README完整已读，SHA256 root 581402c2 / topic 35f82f3d。每结论立即推；每push前且至少每小时真实pull；每pull检查两README，有变只读diff立刻照办并记已读SHA。NFF/lock-ref竞态立即pull --rebase再推直到成功，禁force。PAT只CLI，不入文件/提交；root独占main/H/open/index/log。
 
@@ -17,6 +17,8 @@
 p=6N+5，h=6i+7，i+j=N−1，须同h使原primitive/Legendre mask下P_(h−1)(1/s)fi gj≠0。R949/954/957–959全失败 iff (1+24X)|原B_p(C,X)，X0=−1/24，fine额外阶3。R964逆CM族只控h_(i+2)；R966/968完整heat/Gaussian源给Z_i∈M_(p−5)，mark/E6^N=−72(-864)^−N fi gj。须实际filtered span含A/E4或mark functional非零。
 
 R969三点actual span核已过；R971严格排全p full-span，未排特定A/E4包含。R945中央零与完整S单位并存，完整trace不推同h；R734原primitive Legendre单位已成不能独完O1。
+
+[R992](results/R992-original-full-level-Jacobi-operator-and-filtered-stability-criterion.md)：在整个原M_(p−5)、F=Y^NP(z),z=X³/Y²上，真实Serre D给 **G(F)=[D²(XF)+X²F/144]/[X²(1−z)]**，全表观分母消去。诱导L=z(1−z)∂²+(4/3−7z/3)∂−55/144，Jacobi B_d有互异λd=−(d+5/12)(d+11/12)、mark1；kerG正是Tate A/E4，标量B_k(1)^−1。**原filtered V≠0且G(V)⊂V⇒同h三因子非零**，两假设均尚未一般证明。旧R969p227 central i18为pivot（组合13）、全局非零但mark0，严格排逐列本征；三个旧满秩点的G稳定无需重算。原E+帧G(F)(0,864)=(25F−D³F)(0,864)/144；下一步是actual heat/kernel作用，不能从算子与mask交换冒稳定。
 
 ## O2：原完整trace及高坐标单位
 
@@ -30,15 +32,7 @@ R974原TU格Ω_f±/P_n整，adjoint=u_n c_n P_n²/(Ω+Ω−)，u_n=2^(n+2)3^((n�
 
 R975 U_n=n!(n−1)!c_n整heat递推，U_n=F_n(12g2,−216g3)/12，F_n=(R^(n−1)E)|E0；Wilson c_(p−r)=−r!(r−1)!F_(p−r)(0,−864)/12。n<p均整，近p阶单位仍开，不从R^p高导数单位反除。
 
-R972 a=r+1,n=p+1−a,m=(p+1)/3,b=a/3；原χ核conductor-p环类L，L_P=Qp²(ϖ)、ϖ^m=−p。真实low/high HT分别kill u1/u0，AH次数b与m−b。DFG全部假设/低T=O/Euler给global H1=1,H2=0,A_Lχ0及原始unit线γ0λ1ϖ^b+γ1λ0ϖ^(m−b)，γ0单位且S非零 iffγ1非零。保Fil+1/upper break/e=m整log；cσ保两线。
-
-R976 fixed7 U7的完整elliptic格/Rubin same-χ Gras给真实unit生成元；48和χσ−1全原p单位，ray w_R准确消。log系数γ0=B_b^p、γ1=B_(m−b)。R977 normalized D_C=p12Δ(pτ)/Δτ、V7²=ξ²D_C⁴、logU7=2log(D_C^σ/D_C)，vϖD_C4；δ=D_C/ϖ⁴高log仍开。
-
-R978 strict整LT g′0=1，τ^(p²−1)=p，X=τ^(3(p−1))，ϖ=ηX、η^m=−1。原F7先完整半kernel norm再e=m取log，j−m vpj界排高carry；pure logσ定义保无factorial，B_j=24η^(−j)(ζ^j−1)G_N/N，N=3(p−1)j。低G_(a(p−1))单位，S非零 iff高G_(n(p−1))单位，高低指标和q−1不提供非零传递。
-
-R979 normalized logΔ在T=Ω²Imζ·u/π=−3旧PL参数有系数12(n−1)!c_n，粗W=T³近顶与c_n成unit比；E±原n有c_n+=−c_n−。原p12/Ω²相位保，尚无W→ϖ整transport。
-
-R980原Robert level1 S_k=G_k、E+=E4=0/E6=864，B_p单位；G_(t(p−1)+p+1)=B_pG_(t(p−1))/(12t)，t=a,n。低star4p−2/10p−8单位，高star np+a仍未知；γ1=−288η^(−(m−b))(χσ−1)B_p^−1G_(np+a)。两对不相连，1978 pair非both，1986 abelian/Q不适用。
+R972/R976–980真实ring-class/AH/Robert/normalized Δ完整源及全部尺度见最新H归档。原χ faithful、e=m=(p+1)/3、两个HT条件互补；global unit线γ0单位、S非零 iffγ1非零，cσ不交换两线。fixed7真实unit生成元，原half norm后取log、strict LT和η均保；高pure/lowpure各自Robert mirror不同对，低unit不能移给高。R988下文已给高γ1与balanced准确尺度，period比不反除。
 
 R982原theta/Robert对称已排literal共同α/ξ模型；R983又以独立exact rational反例排指定factorial共ξ，均不排真正mixed比较。
 
@@ -60,7 +54,7 @@ R987真实两open gluing给 C(xZ^jω)=β^(1−j)j!L_jω（0≤j≤p−1），逐
 
 [R991回执](results/R991-certified-original-r8-balanced-window-through-20000.md)：R989公开run44755320789/job136353398270/source3766ab06110a57ab35b95fe5469ed40cd5ce6564，1.998924778s完成1000<p≤20000、p5mod12且p2/5mod9的全部349个r8新素数（1013..19973），全非零/无尾段。1013/1049的R990、原Chazy/CDQ、原E− sigma单carry三路一致；每p首resonance核过。root纯IO复核完整request/rows/summary与payload245369B、SHA fea55f009c33e1b120e50c1fd9ff2a23aba25c999d863f506a72105fabfb86aa。R988给此有限集原S单位；不推全p/同h/height。current request已完成，不重触发；无raw artifact。
 
-R989 script96b3bbf3/method430459e1、R9905c35e728及全部pins见回执。legendre继续O1实际masked mark；literature/audit继续真正fixed-r Frobenius/Hasse接口与目标系数非零，root接可复核的新结论。下一空号R992。主目标仍OPEN。
+R989 script96b3bbf3/method430459e1、R9905c35e728及全部pins见R991回执。legendre/literature继续R992原filtered G-action及真实Frobenius系数桥；audit准备R993真正新差集首零搜索（r8仅20000..200000，r2仅100000..200000），620s硬预算与首两个各行/首零三路原核，尚未提交触发，不记计算完成。下一空号R994。主目标仍OPEN。
 
 ## 继承任务与永久边界
 
