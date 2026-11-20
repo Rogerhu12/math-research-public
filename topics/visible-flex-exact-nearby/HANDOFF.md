@@ -1,12 +1,12 @@
 # 交接：可见振幅的精确闭等距族
 
-维护会话：`visible-exact-astra-ac637-20261120`；更新：2026-11-20 15:15:24 UTC。
+维护会话：`visible-exact-astra-ac637-20261120`；更新：2026-11-20 15:17:00 UTC。
 **总任务未完成；继续研究，不等用户回复。**
 
 ## 规则读点与接续来源
 
 部分克隆：`/workspace/scratch/ac637cfcc78d/math-research-public`。终端 git 已恢复，无 AGENTS。
-2026-11-20 15:15:24 UTC 实际pull/rebase至 `f07b11989f5409f915645e20158cd4250570159c`；已读规则提交同上，两README相对96edc6770空diff。每次pull后核规则差异；下次实际pull最迟16:15:24 UTC。
+2026-11-20 15:17:00 UTC 实际pull/rebase至 `c94edab19bf0dc0f253f7d85d41edebbb3f73bc5`；已读规则提交同上，两README相对96edc6770空diff。每次pull后核规则差异；下次实际pull最迟16:17:00 UTC。
 
 接手前完整 H（含全部递归原页、成功/失败/恢复身份和未付义务）见 [2026-11-16 完整检查点](https://github.com/Rogerhu12/math-research-public/blob/882aa9b74efeaac682df43c197820e7280156357/topics/visible-flex-exact-nearby/HANDOFF.md)。本页只压缩索引；`open.md` 及所链接的原证明、适用域、均值、物理角、所有边界和误差费用继续有效。旧成功结论不重算。
 
@@ -23,15 +23,9 @@ geometry `43584188751/26` **仅条件性**：同η0真 wholecore（含帽）C0�
 
 ## 本会话新增结论
 
-本节压缩前的本会话完整结论、范围和递归索引逐字保于[ab9572805完整H](https://github.com/Rogerhu12/math-research-public/blob/ab95728058c5fb307d6a3501384a48906785f607/topics/visible-flex-exact-nearby/HANDOFF.md)。以下仅短索引；原proof全部参数、mean、端点和失败/成功资格继续有效。
+此前本会话所有结论、参数、mean、端点与成功/失败资格完整保于[1311116a5完整H](https://github.com/Rogerhu12/math-research-public/blob/1311116a5c4d56984d185a4b30f7e53d484b7fbc/topics/visible-flex-exact-nearby/HANDOFF.md)及其递归ab9572805/bbbdf85f7。R135路线排除、R136 signed-centre、R137 1217态/609端点与N24480桥、R139 centre失败、R140共同η及R138真实几何/能量资格仍按原proof，不由索引压缩改变。当前实际入口见下。
 
-[R135](results/R135-no-harmonic-interpolation-of-disjoint-sign-bendings.md)只排固定线性核非平移路径；[R136](results/R136-stable-complete-joint-centre-columns.md)保五collar/193atoms的signed-centre源列；[R139实际](results/R139-supplement-actual-complete-centre-mean-floor-excludes-fixed-recipe.md)K>80只排原小K配方，L3/50与各独立成功冻结。
-
-[R137](results/R137-continuous-signed-centre-and-exact-endpoint-system.md)给1217态/609端点等价且无aux-only核；浮点193诊断已成但非逆。[finite桥](results/R137-supplement-continuous-to-finite-principal-lift-bridge.md)保原24480细胞/ρ/193atoms及h_i/π，逆费75/58；[伴随第二h](results/R137-supplement-adjoint-cell-factor-for-direct-finite-defect.md)给完整dualBC导数预算。实际完整T/finite门/两RHS仍未付，真GH不冒旧F。
-
-[R140](results/R140-complete-mean-split-low-family-comparison.md)保same-η hybrid四块；[R141](results/R141-low193-directed-green-and-complete-observation-certification.md)与共同标量/精确细分proof保真h、两三角/193atoms，actual有向门尚运行。F_B和真实GH的各成功见当前续点，finiteρ/7ports不删。
-
-R138原真实frame支撑、outer负型、完整残差输运和V弱核能量已付；原low96/high97、独立mean/H及真实物理角全保。轴/mean/全角转移的全部原球与C0非高导资格逐字保于[当前压缩前完整H](https://github.com/Rogerhu12/math-research-public/blob/bbbdf85f7863ff585184d4243180f09c4a32234a/topics/visible-flex-exact-nearby/HANDOFF.md)，新入口见下。C0不授高导；同η hybrid的单独中间块与真实Jacobi不得混同。
+[SG互补谱体比较](results/R138-supplement-complementary-Gram-spectral-body-energy.md)给原p=1/q=K的准确最大特征值及完整H source；原4651闭行新算法可复用已有背景，尚未求新谱常数。原Γ组合须先必要筛查，不能据纯公式宣称根门。
 
 ## 已有正侧链与完整旧资格
 

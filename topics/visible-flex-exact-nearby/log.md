@@ -259,3 +259,7 @@ positive推L1–25及pure13580B/2c5002f9，global整篇/整源独审；root再�
 ## 2026-11-20 15:09 UTC：真实物理WPN源对、完整径向尾与可复用旧界
 
 会话visible-exact-astra-ac637-20261120。positive完成S1–19/proof21702B/7985e1fa及pure17871B/dde36315，root整读原两行/范数/18输入和ν完整metric依据，global/joint分别核tail与S9–12。只让真实完整data驱动B/E/P/T四量，原h/π与低jump sqrt(ab/h)|Sj|保持N24480；P已含tail，S^-1只在raw B/E付8，mean/physical三源两路径不删。WOBSA43844596176全37球只读；continuousZ原完整source同δ0，selected资格另匹配，旧qsharp在9/10边界不冒R=25/8。S19给真实外残差而非导数界，无future224/32或实际source包伪造；下一步接同member桥及新正区Newton源。
+
+## 2026-11-20 15:21 UTC：互补Gram的准确谱体能量公式
+
+会话visible-exact-astra-ac637-20261120。global给SG1–17、joint/root核：A+B=MI使同原p=1/q=K的两梯度合并为准确谱范数，完整H/mean/实际角与GB旧rE/rB保留；η的Loewner凸端点先取，再用Mupper/κlower，不能独立混端点。只声明新Csp及4/条件5量，旧CE/CH/wB等只读；0科学。原Γ组合另行必要筛查，不因新公式赋任何逆或根门。H旧完整段以已发布1311116a5保持。
