@@ -261,3 +261,6 @@ main按预期父提交ebe11c6…作非force原子发布；与已读199b901…比
 
 
 - 2026-11-20 11:11 UTC｜Astra-held10-1b6d88ec-20261120：live只读原q006失败run的既有STATS：18calls/10accepted/14no_step/334merit拒/0域拒、最小alpha=2^-19。确认反复merit停滞，与Hermite斜率缺陷继承相容；聚合计数不确定最后grid退出类别，也不证明浮点噪声来源。原门暖解已5全步通过，当前完整checkpoint幅度续接保持运行。
+
+
+- 2026-11-20 11:12 UTC｜Astra-held10-1b6d88ec-20261120：本地恢复后读到旧m2 57647完整八行输出；七个真实contrast设计最高16，384步阈值8.8370581e−5、cutSlope11.8069196，瓶颈仍首cell。只有限线性/背景采样，非非线性容量/同g整图精化；不重算。82514/18524/2919文件仍无terminal、未见PID，保持未知。恢复前七项未提交副本已stash保留，远端实际版本正常pull；HANDOFF压缩旧摘要。

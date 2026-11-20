@@ -6,7 +6,7 @@
 
 连通闭C²嵌入连续族；固定有内点H、diamH≥.2D；整像δhold≥.1D、含反射的δE>0；全时reach≥.03D。固定全部g/物理参数/时间范围，完整metric≤1e−6且空间/频率/时间精化下降至求解/机器地板。条件比例窗、开放前缀、有限接受均非完成；完成后继续增大比例。
 
-- 工作树 `/workspace/scratch/1b6d88ecddf3/math-research-public`；已部分克隆并真实pull。已读规则提交：`aff174a6538f51467f6dd16d60772c675fca8095`；11:11 UTC本地真实pull --rebase至该提交，双README无变化；暖解worker亦真pull至1fdbc1e03373。持续至少每小时实际pull并核规则。
+- 工作树 `/workspace/scratch/1b6d88ecddf3/math-research-public`；已部分克隆并真实pull。已读规则提交：`c4c4600b2ff1e1271dcc46be63277598b3368f72`；11:12 UTC本地真实pull --rebase至该提交，双README无变化；暖解worker亦真pull至1fdbc1e03373。持续至少每小时实际pull并核规则。
 - root独占终端git发布。每条结论同步H/log并立即push；NFF即pull --rebase、核双README并重推，禁force。首次接手提交d75355cbd已推。
 - 根§12：不重复旧身份审计/双审流程，优先实际求解。根§15：可再生场、网格、矩阵/输出不入Git/Release/CI；只留源/参数/命令/hash和紧凑数值。H<10KB，单MD<100KB，目录<200MB，不写根LOG。
 - `/workspace/scratch/7322d0dee069`明确不存在。旧91205(λ.82)/27744(M24)终态未知；新再生不是原进程续接，也不把丢失路径判为数学失败。完整旧断点见882aa9b74的H及[中断记录](notes/2026-11-18-execution-environment-interruption-recovery.md)。
@@ -14,8 +14,8 @@
 ## 本轮恢复与实际新进展
 
 已按manifest恢复原70源/原profile/chart/port，portable bootstrap/continue保原方程、域门及真尾。m3材料q=.01/M8失败3698点/RMS3.7868；n4 q=.01/M12被过松三角guard阻止，改解析插值guard后q=.02/M8真实密点Frenet root≈−.0271771失败。均0新尾/闭合，详见[m3终态](notes/2026-11-20-m3-material-first-terminal-and-cosine-entry.md)、[n4终态](notes/2026-11-20-n4-recovered-environment-and-new-entry.md)。
-m2新切角族未改善H/q≈.0121，细点曲率9.00474，停止同族；新的cell对比57647失联终态未知，见[逆设计](notes/2026-11-20-m2-controlled-meridian-design.md)。
-本次82514(m3旧support q.01恢复)、18524(n4 M20冷场)、2919(n4两高度)、57647(m2新cell)均终态未知；不凭断连判失败、不重做旧结论。可恢复时先读真实输出。最后状态/源见[本次中断](notes/2026-11-20-execution-interruption-and-continuation.md)。
+m2新切角族未改善H/q≈.0121，细点曲率9.00474，停止同族；57647八行实际输出已恢复，contrast16细步线性阈值8.83706e−5，非非线性容量，见[cell记录](notes/2026-11-20-m2-cell-contrast-recovered-result.md)。
+本次82514(m3旧support q.01恢复)、18524(n4 M20冷场)、2919(n4两高度)均终态未知；不凭断连判失败、不重做旧结论。可恢复时先读真实输出。最后状态/源见[本次中断](notes/2026-11-20-execution-interruption-and-continuation.md)。
 分工：m3实际前缀—尾/新核，n4双高度/Schur诊断，geometry材料核/条件几何，root整合/实际运行/逐条推送。
 
 ## m3旧断点：必须保留的事实
@@ -41,9 +41,7 @@ m2新切角族未改善H/q≈.0121，细点曲率9.00474，停止同族；新的
 - R36/37/39/41是真积分与余项转移；R39的误差<5.940838571e−9仅在同对象有限主部过门时用，不偷移到新核心。
 - R52材料曲率新核：周长2π、凸闭合、精确圆弧/全参数jets；c>1/k−π/(n sinπ/n)。条件D≤2.65时n3(k=.2,S=.21)held>.1039D，n4(k=.2,S=.2)>.1172D。插柱D²≤D0²+4ℓZ0+ℓ²、支撑扣ℓ/2，首负K特征窗有有理界。完整BVP/固定g/标记仍缺，见[新核有限谱与窗](notes/2026-11-20-material-curvature-core-design-and-spectrum.md)。
 
-- R53从原真实单位弧长核心出发，κλ=κ0+λχ(k−κ0)+λβW精确保均值/闭合；λ0原核、λ1圆弧，完整参数jets已证。明确q∈[.0599,.0601]控制盒内整个(λ,τ)方形κ≥.2。support及通用provider接support的四组接口检查已真通过，实际n4 raw尚未测；不证BVP沿路径可解、不消除R20障碍。
-
-R53旧盒tau0的C0/C1/C2预算<(.01936,.016,.16683)λ，整个λ/tau核心κ∈[.2,1943/665)；不是BVP逆界或整曲面证书，见[定量补充](notes/2026-11-20-material-flattening-closeness-and-core-bounds.md)。
+- R53真实κ同伦保均值/闭合，λ0原核/λ1圆弧；旧盒tau0 C0/C1/C2步长<(.01936,.016,.16683)λ、全λ/tau κ∈[.2,1943/665)。四接口真过，n4 raw尚未测；旧盒不含λ.02新c，后者用已补新盒。非BVP逆界/整面证书，见[定量补充](notes/2026-11-20-material-flattening-closeness-and-core-bounds.md)。
 
 两高度/单高度恢复的正确分支条件是SH=DH−CH K⁻¹B可逆；冷步右端−rH+CH K⁻¹E，目标高度接近不保证步小。固定线性共振的非零入口必有非零cut高度，但有限幅条件数仍待实测。精确块消元和未执行helper见[Schur响应](notes/2026-11-20-n4-height-anchor-schur-response.md)；m3只换H3并保高7DN，n4两H针对双共振。
 
@@ -59,4 +57,4 @@ R54宽材料窗S=.5/b=.2/k=.2，H横宽.54/相位.45，精确扫窗留.005余量
 
 后续实际同场operator/完整lift谱审计、固定均值和原trueDN校正（失败场只作初猜，最终门不放）。同场升M/aχΔI及高模真实port导出源已备；新严格控制盒覆盖λ.02实际c、保κ≥.2，旧锐C2常数不搬，见[传递/新盒](notes/2026-11-20-m3-lifted-mode-transfer-and-expanded-core-box.md)。
 live44720589640/job136234983080保场；每显式命令前真pull/核规则，仅小标量入ci。首q006再生失败4675点/RMS1.17371e−6，原raw仍在height-path-00-q0.0060000。原式RMS证4096小区间h≈1.27e−8；旧STATS真返14no_step/334merit拒/0域拒，未归舍入；415点完整重采样初猜交原H1暖解已真过579点/RMS9.9474e−7/metric2.5223e−9，5全步/0拒绝。见[暖解与Hermite诊断](notes/2026-11-20-m3-q006-rms-hermite-defect-and-warm-remesh.md)、[实际暖解返回](notes/2026-11-20-q006-warm-remesh-return.json)。
-当前命令held10-q060-warm-resume-01从height-q006-warm01完整checkpoint续q=.012→.06，同门/失败减幅步；附只读原失败STATS以定位原因。仍欠全部真实DN、圆弧/闭合、固定全部g精化、全时reach及δE；不在中间报告停止。未知本地82514/18524/2919/57647待恢复原输出。
+当前命令held10-q060-warm-resume-01从height-q006-warm01完整checkpoint续q=.012→.06，同门/失败减幅步；附只读原失败STATS以定位原因。仍欠全部真实DN、圆弧/闭合、固定全部g精化、全时reach及δE；不在中间报告停止。本地82514/18524/2919恢复文件仍无terminal、未见PID，保持未知；m2输出已登记。
