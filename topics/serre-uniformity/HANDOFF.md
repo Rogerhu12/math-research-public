@@ -2,57 +2,56 @@
 
 ## 目标、授权、维护与规则
 
-证明绝对C使全部无CM E/Q在p>C时模p满射，或构造p→∞完整反例族。**主目标OPEN，未达本课题README标准。**
+证明绝对C使全部无CM E/Q在p>C时模p满射，或给p→∞完整反例族。**主目标OPEN，未达README标准。**
 
-**维护会话：serre-public-astra-20261120-de0a3e3b。** 已部分克隆并真实pull main，接手serre-public-astra-20261115。接手原状态见[前H](handoff-archive-2026-11-20-before-resume.md)；本轮两中央零之前的逐字H见[最新归档](handoff-archive-2026-11-20-before-middle-sigma-counterexamples.md)，内接全部早期完整pins和规则。
+**维护会话：serre-public-astra-20261120-de0a3e3b。** 已部分克隆并真实pull main，接手serre-public-astra-20261115。最新前态逐字在[H归档](handoff-archive-2026-11-20-before-conjugate-primitive.md)与[open归档](open-archive-2026-11-20-before-conjugate-primitive.md)，内接全部旧pins/公式/关闭边界。只消费已成来源，不重做已登记结论。
 
-**已读规则提交：34e4a6640b9dc6d0a7738e938af6b31c59b9bb50**（2026-11-20T10:45:16.521745+00:00；终端真实git pull --rebase origin main，两README无diff）。相比b77de2c7仅根课题表新增held-10pct；两README完整已读。root SHA256 581402c2 / topic 35f82f3d。此前来源与原pins沿[旧归档](handoff-archive-2026-11-16-before-Igusa-Frobenius-residues.md)。
+**已读规则提交：c57a9ae2e024eb248e935406eb1b77ef18710910**（2026-11-20T10:49:50.435443+00:00；终端真实git pull --rebase origin main，两README无diff）。相比b77de2c7仅根课题表新增held-10pct；两README完整已读。root SHA256 581402c2 / topic 35f82f3d。此前来源与原pins沿[旧归档](handoff-archive-2026-11-16-before-Igusa-Frobenius-residues.md)。
 
-每结论立即推；每push前且至少每小时真实pull。NFF立即pull --rebase再推循环至成功，禁force。每pull检查根/课题README，有变只读diff并立即遵守，读SHA记本页。PAT仅CLI，不入文件/提交；root独占main。
-新数学仅本公开仓库Actions，外部只纸证/IO/schema/hash/AST。raw仅当前必要一日artifact，不入Git/Release；本轮只临时/tmp与stdout。H<10KB、open<30KB、每MD<100KB、topic<200MB（现114M）。log用Asia/Taipei每项≤5行，无独立测试门。终端已恢复；旧失联恢复沿归档。
+每结论立即推；每push前且至少每小时真实pull。NFF立刻pull --rebase再推循环成功，禁force。每pull检查两README，有变只读diff并立即执行，SHA记此。PAT仅CLI，不入文件/提交，root独占main。新数学仅本公开仓库Actions；外部只纸证/IO/schema/hash/AST。raw不入Git/Release，本轮只/tmp和stdout。H<10KB、open<30KB、每MD<100KB、topic<200MB；log用Asia/Taipei≤5行，不写根LOG，不设额外审批/测试门。
 
-## 当前最重要断点：中央低项与完整迹必须分开
+## 当前工作入口与断点
 
-[R945](results/R945-original-central-sigma-zeros-and-same-label-alternatives.md)：run44719847377与独立Lagrange run44720732478/source2ca40e872都成功。p227/h115为f18=0,g18=136；p857/h433为f71=176,g70=0。中央Legendre皆单位而完整S=95/568，**原Q′恰零，故无例外的全trace非零⇒中央Q′单位已排除**；不否定充分大p/有限例外或Serre。
-两原q2的sigma积分别101/335，Q中心阶恰2；整scalar/w有唯一pR0根，可能仍为中心，非全Abel零。实际替代p227/h151的f24g12=16且旧Legendre单位；p857/h445新Legendre298乘旧sigma187为21，R940给其Q′单位。四中央值复核完毕，旧48窗/trace/Legendre/顶端不重算。继续全p同h选择或原height，不再追不存在的无例外中央单位桥。
+1. **全p同h选择**：R945已排除无例外的“完整trace非零⇒中央Q′单位”。继续真实同标签Legendre·sigma或全局height；R949正在证明全权sigma–原CM生成式，尚未登记。
+2. **原完整trace**：R946把whole CM packet饱和准确降为O_r(M_CM)=0；R947有低权非零类及显式极部，但原Igusa投影在SS有极点，不能直接搬成原高权trace。R950正在核低权配对的真实Hecke伴随，尚未登记。
+3. **原全Abel/height**：R948草稿给两有限p的Qp二次scalar根与另一个原坐标分离，待登记；不排正秩非零MW像。原固定Y真height仍缺，下列来源直接消费。
 
-[R944](results/R944-original-CM-Gauss-Manin-homotopy-and-supersingular-principal-parts.md)已证明原ΩV=6∇Z+6^r r!ΨF及全SS最高极部−g_Pρ^r/A^r，保正KS/相对Frobenius/原两权。未识别为完整trace范数。
+## 最新已成：原类、完整商与两个中央零
 
-## 本轮已成全p原来源结果
+[R944](results/R944-original-CM-Gauss-Manin-homotopy-and-supersingular-principal-parts.md)：原fine全六上ΩV=6∇Z+6^r r!ΨF，保正KS/相对Frobenius/原两CM权；全SS最高极部−g_Pρ^r/A^r准确来自R932，全部低项保留，非任意亚纯cohomology断言。
 
-[R933](results/R933-same-label-Legendre-factor-and-fixed-Cartier-differential.md)：固定E*:v²=w³+6w+7的β=(224w−283)ω，315δL=283U−224V，Cβ=−315δLω。普通性不控制第二类系数。[R934](results/R934-admissible-same-label-Legendre-zero-at-41.md)：允许p41/h25的原因子严格零；2406个p5mod12素数≤1e5仅41零。全p单h因子单位目标关闭，不重开固定41分类。
+[R945](results/R945-original-central-sigma-zeros-and-same-label-alternatives.md)：run44719847377及独立44720732478/source2ca40e872成功。p227/h115的f18=0,g18=136；p857/h433的f71=176,g70=0。中央Legendre单位而完整S=95/568非零，原Q′恰零。**无例外中央单位桥已被反例排除**，不否定充分大p/有限例外或Serre。两q2的积101/335单位，中心阶恰2；scalar/w的pR0根可仍为0。实际替代227/h151 sigma16配旧Legendre单位；857/h445新Legendre298乘旧sigma187为21，R940给Q′单位。旧48窗/trace/顶端/Legendre不重算。
 
-[R935](results/R935-bounded-weight10-34-primitive-Legendre-pair.md)：p5mod12原h8/h32始终本原，固定a11=14958957622875578640外两个Legendre不同时零，充分p>10^22。**同标签sigma不能互借。** 旧[三分位双标签](notes/2026-11-16-sigma-two-swapped-primitive-labels-at-thirds.md)543d03f8已覆盖全部允许p的两个本原标签并证明至少一个Legendre单位；不要重证或再列中央/三分位共同零为必要障碍。
+[R946](results/R946-universal-Bol-divisibility-and-final-supersingular-obstruction.md)：fine全六任意2≤r≤p−2，整个S_(p+1−r)有T^r=6^rA^rD_r；原下降保中心parity/双角色。最后一A恰由O_r=(D_rH/B)|SS控制。SS完整商含S_w对偶及真实CM支撑，不能用支撑杀整商；具体O像仍开。若饱和真成立，R918/R942低权广义零线才给原trace非零，仍不推中央Q′。
 
-[R937](results/R937-original-weight34-Hecke-kernel-and-marked-unit.md)：原权34五T5行rank5，固定B34外核唯一V34†，mark比1350702136960、fine阶2p−35。[R938](results/R938-original-weight34-normal-function-and-inertia-exclusion.md)：全inertia/两节点极界排低层及首层隐藏p次幂；原b0=34(p−1)、κx^(g−3)y、β/α=35A0/34、J=(p−35)/6、p^−a_h整restricted/顶项单位，保ε/a_h。
-[R940](results/R940-original-weight34-critical-source-comparison.md)：f5=−270862728/5123589312701234375，固定坏素数已在B34。完整log/Norm先消给全部平方比；原J32非零 iff 同h Legendre·Q′非零，实际临界积f_(t+2)g_(t−3)，保Γ/Z/u_GF/两CM权/a_h，未判一般低Q′。
+[R947](results/R947-original-low-weight-conjugate-primitive-and-singular-Igusa-projection.md)：命名原F有完整theta周期。W=6Z+6^(r+1)r!Gtilde σ^r/A^p给∇W=ΩV，全部SS极部恰−V_P B_P^(p−r−2)σ^r/((r+1)A^p)。换帧/Čech/Hodge过滤证明zV非零；其对角p次方=−ΣV_P^(p+1)/B_P^(r+2)/(r+1)，尚未判对角非零。原投影PΩ=6ΦV、PZ=G/a^(rp)、PΨ=0，恢复ΦV=d(G/a^(rp))；P在SS极阶rp并杀水平主部，原高权极部来自正则剩余项，不能忽略这个边界。
 
-[R936](results/R936-explicit-polynomial-trace-of-the-whole-supersingular-pairing.md)：原S^p=12c_r²Tr_L((3−2e0)R)，L=Fp²[t]/(tH)，保t0权1、其他H根权3、椭圆点零项、fine度12及原d1/cF。run44713602498六值已成，71/107仅aux。[Tate勘误](notes/R936-Tate-frame-sign-correction.md)纠正E6=−c6、η12=−6sD、KS=+du/D；原F/B变号，偶幂严格保持trace/脚本/旧值，禁止沿旧奇阶符号推论。
-[R939](results/R939-original-Jacobi-Hasse-and-denominator-free-supersingular-trace.md)：原H Jacobi ODE、β′=−H/3、全L β^p=β，故R=D^(2N+2)C^(p+1)β^(r−2)。r2原C唯一负右侧ODE，两行S∈Fp。run44716895805的48个新完整和皆非零，所有身份通过；[回执](notes/2026-11-20-R939-window-and-weight34-sigma-receipt.md)保SHA。
-[R941](results/R941-original-supersingular-trace-and-CM-constant-term.md)：全留数给T=6χ CT(F^(p+1)B^(r−1)/Δ^m)=−χ/[6^(r−2)(r−1)!] CT(F^pΘ_Q^(r−1)F/Δ^m)，原Q/Frobenius/点权/d1/cF全保；一般不消仍开。
-[R942](results/R942-original-complete-weight10-double-Hecke-zero-primary-line.md)：完整四维权10的T5经共轭marking再回原marking，T5²非零值147456/666²，全广义零部分仅V10†（p≥41）；run44718206366核新W/Z/phase。高权完整CM packet的额外Hasse饱和仍开，不能由低权一维外推。
-[R943](results/R943-original-p11-central-and-third-label-Cartier-interfaces.md)：p11中央C((2w−1)ω)=εLω；固定三挠E_T的H=−P_((p−2)/3)(T)、准确GM/半线性及四个旧合法端点的第二类Cartier表达，E_x到共轭的3同源微分乘s。旧双标签不共零只引用；203原允许p≤10000中央/selected第三位皆无零仅有限窗，不判同h sigma。
+## 本轮原来源结果：后续直接引用
 
-[R946](results/R946-universal-Bol-divisibility-and-final-supersingular-obstruction.md)：fine全六任意2≤r≤p−2上整个S_(p+1−r)有T^r=6^r A^r D_r；原下降保parity。全CM packet再除一A恰等价O_r=(D_rH/B)|SS为零。SS完整商含S_w对偶及真实CM支撑，不能按支撑杀整商；具体O像仍开。若它为零，R918/R942低权广义零线才真给trace非零，仍不推中央Q′。
+[R933](results/R933-same-label-Legendre-factor-and-fixed-Cartier-differential.md)：原E*:v²=w³+6w+7的固定第二类β=(224w−283)ω，315δL=283U−224V。普通性不判Cβ单位。[R934](results/R934-admissible-same-label-Legendre-zero-at-41.md)：p41/h25原因子恰零，2406个p5mod12素数≤1e5只41零仅有限窗，不重开R707。
+[R935](results/R935-bounded-weight10-34-primitive-Legendre-pair.md)：p5原h8/h32都本原，固定a11=14958957622875578640外Legendre不共零，p>10^22充分。旧[第三位双标签](notes/2026-11-16-sigma-two-swapped-primitive-labels-at-thirds.md)543d03f8已覆盖全部允许p的双本原Legendre选择；同h sigma不能互借。
+[R937](results/R937-original-weight34-Hecke-kernel-and-marked-unit.md)固定B34外五T5行rank5、核原V34†，mark比1350702136960、fine阶2p−35。[R938](results/R938-original-weight34-normal-function-and-inertia-exclusion.md)全inertia/两节点排全部隐藏p次幂，b0=34(p−1)、κx^(g−3)y、β/α=35A0/34、J=(p−35)/6，保a_h。
+[R940](results/R940-original-weight34-critical-source-comparison.md)f5=−270862728/5123589312701234375，坏素数已含B34；全部平方比保Γ/Z/uGF/两权/Norm先消/a_h，真J32非零 iff 同h Legendre·Q′非零，临界积f_(t+2)g_(t−3)。
+[R936](results/R936-explicit-polynomial-trace-of-the-whole-supersingular-pairing.md)S^p=12c_r²Tr_L((3−2e0)R)，L=Fp²[t]/tH，t0权1、其他根3、椭圆零项/fine12/d1/cF保全。[Tate勘误](notes/R936-Tate-frame-sign-correction.md)：E6=−c6、η12=−6sD、KS=+du/D；F/B变号而偶幂trace不变。
+[R939](results/R939-original-Jacobi-Hasse-and-denominator-free-supersingular-trace.md)H Jacobi ODE、β′=−H/3、全L β^p=β，R=D^(2N+2)C^(p+1)β^(r−2)；r2原C负右侧唯一ODE，S∈Fp。run44713602498六值（71/107仅aux）和44716895805另48值皆非零，有限窗不证明全p。
+[R941](results/R941-original-supersingular-trace-and-CM-constant-term.md)全留数得T=−χ/[6^(r−2)(r−1)!] CT(F^pΘ_Q^(r−1)F/Δ^m)，Q/Frobenius/全部点权/d1/cF保留。
+[R942](results/R942-original-complete-weight10-double-Hecke-zero-primary-line.md)完整四维权10经共轭marking返回后T5²非零值147456/666²，广义零部分仅原V10†，p≥41；高权packet不自动一维。
+[R943](results/R943-original-p11-central-and-third-label-Cartier-interfaces.md)原p11中央第二类及固定三挠E_T的Hasse/GM/四端点Cartier、3同源微分乘s全证；9+9符号证书通过。203原p≤10000窗只有限证据，旧第三位不共零不重证。
 
-## 原全p几何链：已成与真正缺口
+## 原全p几何源：不得换对象
 
-原R859–898的BT/Drinfeld/Igusa/cusp/整theta、两旗/36源已成；R904 K^p独立不判指定jet。保持原J_h、β̄=P_(h−1)(1/s)/P_(h−1)(0)、J32=(6B)^5(P_(h−1)(1/s)fi gj)^p/12；不混h、两CM权、半周期、det扩张或ζ²相位。
-R906真qTpJ=qB TpB保a_h；R908/910/911两αp线定上半r=2h−p−1/下半0，R916真整注入ann给Ω contentπ^pr，原q另π^ea_h，不能用残域/饱和捷径。
-R913原两伴随k−=2p+2−2h与k+=2h−p+1、全Norm/Hecke标度、单双Igusa/C4保持。R918/R920真V4/V10及mark单位独立成立，未受R936符号勘误影响。
-R921/R924真completed Hom延拓/节点排低层p次幂；b0=k+(p−1)，κx^(g−1)y、β/α=5A/4或11A/10，原c1用y。p^−a_h G_h整restricted，modp次数J=(p−5)/6或(p−11)/6、最高项单位，content恰p^a_h；开盘几何零数按最小单位下标，不冒有理零数。
-R925全校准log≡id、char0先消N_h给全部(q_j/q_J)²=[(3J)!/(3j)!·(81B⁶)^(j−J)Σ_j/f_*]²，v(c_cal)=a_h−1−v(N_h)/2；不令N_h或c_cal单位，不选共同平方根符号。
-R932同一Serre类经F_dR识别V4/V10，G=Θ_Q^(r−1)F且∂G=A^rV/6；原λ=非零mI(cF)^(1/p)/(d1·6^r(r−1)!)乘完整SS和，指定j0项零。一般全和不消与原低系数是不同问题；最新中央零断点见页首。
+R859–898的BT/Drinfeld/Igusa/cusp/36theta源及两旗已成；R904 K^p独立不判指定jet。保原J_h、β̄=P_(h−1)(1/s)/P_(h−1)(0)、J32=(6B)^5(P_(h−1)(1/s)fi gj)^p/12，不混h/两权/半周期/det/ζ²。
+R906 qTpJ=qBTpB保a_h；R908/910/911两αp线给上半r=2h−p−1，R916真整ann给Ω contentπ^pr、原q另π^ea_h。R913两权k−=2p+2−2h、k+=2h−p+1保全Norm/Hecke/单双Igusa/C4。
+R918/R920原V4/V10标记单位独立于Tate勘误。R921/R924真completed Hom延拓/节点排低层，中央κx^(g−1)y、β/α=5A/4或11A/10，p^−a_h G整restricted、顶项单位、content恰p^a_h。R925完整校准log≡id、char0先消N_h给全j平方比，v(c_cal)=a_h−1−v(N_h)/2，不选无依据共同平方根符号。
+R932原非零Serre类经F_dR识别V4/V10，G=Θ_Q^(r−1)F、∂G=A^rV/6，原λ为非零mI(cF)^(1/p)/(d1·6^r(r−1)!)乘完整SS和，j0指定项零。该全和与高Q′已由R945证明须分开。
 
-## 原固定Y高度路线：已成来源直接消费
+## 原固定Y高度：有效来源与真正缺口
 
-全部原pins/尺度/两帧/七重datum/执行身份沿[归档](handoff-archive-2026-11-20-before-constant-terms.md)及其旧归档。R805–930的W/两图/146、418、273jets、真cY/127全纯、七trace/K固定DK272、五Z/两权、三十共轭、七连接与完整Artin微分迹均已成，不重算。原char0未展开处仍未展开，模单位不冒char0阶。
-R927参考已成：同λ0=1、完整2+6/0+8、Normρ阶−508/0，原t首项466867763/728442038、比315436983；267项只需9、旧254极阶/U272/两t/dual7保全。**辅助有限域比值不是p-adic高度。**
-R907 j1旧run43924786163止于core前配置KeyError；[schema已修](notes/R907-inherited-transport-configuration-repair.md)，但四直接原artifact真实404，request待原字节，摘要不代数组。五目标672铅笔/九NormΦ/端点格仍未成；Φ=QZ/qχ正乘，DN先−dlogQN再Gal7，同实际函数/原t/dual7不可省。
-真正高度仍缺real Rcal I_Z³、YP/FM128/634及508rank507、P1 c/a、原σ/cY、活跃eη、d/N、完整nonp、Poincaré/splitting/height。R870原16ni与1959位d*须合法好约化niPiξj非零才判支持；YL1零非rank0，UE=dY+2period，End⁰G=F/torus≥g+1，μ3qφ*=0不删Y。
-六旧run终态全部failure、artifacts列表空，具体pre-core/预算/143/404分别见[真实核查](notes/2026-11-20-resumption-and-run-availability.md)；从有效断点继续，不把预算false FINAL造负结论。
+R805–930原W/两图/146、418、273jets、真cY/127全纯、七trace/K固定DK272、五Z/两权、三十共轭、七连接/完整Artin微分迹已成；全部pins见最新open归档，不重算。特征零未展开处仍未展开。
+R927参考同λ0=1、完整2+6/0+8、Normρ阶−508/0，原t首项466867763/728442038、比315436983；267项只需9，254极阶/U272/两t/dual7不省。**这个辅助有限域比不是p-adic高度。**
+R907旧43924786163止core前KeyError；[schema已修](notes/R907-inherited-transport-configuration-repair.md)，四必要原artifact真实404/request待字节，摘要不能代数组。五目标672铅笔/九NormΦ/端点格未成，Φ=QZ/qχ正乘，DN先−dlogQN再Gal7。六旧run终态与空artifact见[真实核查](notes/2026-11-20-resumption-and-run-availability.md)，预算false FINAL非负数学结论。
+真正缺real Rcal I_Z³、YP/FM128/634及508rank507、P1 c/a、原σ/cY、活跃eη、d/N、完整nonp/Poincaré/splitting/height。R870原16ni及1959位d*须合法好约化niPiξj非零才判支持；YL1零非rank0，UE=dY+2period，End⁰G=F/torus≥g+1，μ3qφ*=0不删Y。
 
-## 永久关闭边界
+## 不可重开的边界
 
-R317只剩完整Nns、p2或5mod9、a³+db³=1/p|b，D/bc无上界。R707固定41八CM已闭，不外推。R575正CM根号−及逆twist秩零撤回、R706 h1真实sigma零保留。非挠/log/rank/Abel单位/深盘根数非height。
-原RF e2b87b99/SP a06a80ea/ZA268fa3fb/41S133d64af/41C569aa684，b/s/λζ²一次、CRT6逆、246/82^10、P0P1/ν/theta二挠/fullCorr/nonp/splitting沿全部归档。ordinary43/776bitGaussian5已排，R779 Shapiroθ同Σ/C4已闭。主目标仍OPEN。
+R317只剩完整Nns、p≡2或5mod9、a³+db³=1/p|b，D/bc无上界。R707固定41八CM已闭，不外推。R575正CM根号−/逆twist秩零撤回，R706 h1零保留；非挠/log/rank/Abel单位/深盘根数都非height。原RF/SP/ZA/41S/41C、b/s/λζ²一次、CRT6逆、246/82^10、P0P1/ν/theta二挠/fullCorr/nonp全部沿归档。ordinary43/776bitGaussian5与R779 Shapiro同Σ/C4已闭。主目标仍OPEN。

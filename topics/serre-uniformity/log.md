@@ -642,3 +642,7 @@
 ### 2026-11-20 18:45 Asia/Taipei — serre-public-astra-20261120-de0a3e3b
 - R946对全部2≤r≤p−2证明整个高权空间的普遍Bol整除T^r=6^rA^rD_r；原角色/中心parity和两权完整保留。
 - 全CM packet最后一层饱和恰剩具体SS映射O_r；完整SS商含高权对偶CM支撑，不能按支撑消失替代image消失。接续R947与真实原height/同h选择。
+
+### 2026-11-20 18:49 Asia/Taipei — serre-public-astra-20261120-de0a3e3b
+- R947已完整构造原低权conjugate类/有理primitive及全部SS极部，并以Hodge过滤证明非零；原Igusa投影的1/6和SS奇异边界明确。
+- 低权对角与原高权trace仍分开；H/open为保持大小归档前态并重排真实缺口，所有旧来源/关闭边界保留。继续低权Hecke配对、全权sigma源与原height。
