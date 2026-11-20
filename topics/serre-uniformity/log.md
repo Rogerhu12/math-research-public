@@ -666,3 +666,7 @@
 ### 2026-11-20 19:05 Asia/Taipei — serre-public-astra-20261120-de0a3e3b
 - R952完整识别最后Hasse障碍为实际逆p半线性Cartier，精确O_r=r!(𝒰H)^p/B^(p−r)且ker相同；原q、角色、Igusa与Norm尺度保留。
 - 全packet饱和恰为𝒰全包零，不能以nilpotent或命名F零代替；继续实际长链及原边界，不重算旧窗。
+
+### 2026-11-20 19:06 Asia/Taipei — serre-public-astra-20261120-de0a3e3b
+- R953完整识别实际E_r+修改、正则πW=6G及原高权Hasse边界，全部Igusa尺度、−1/6和原mI/d1保留；底Hodge正则剩余项与低权水平极部分开。
+- 全局p-curvature/cohomology sheaf另证F_r注入，原高权指定配对仍未判非零；继续真实CM长链与同h联合单位。

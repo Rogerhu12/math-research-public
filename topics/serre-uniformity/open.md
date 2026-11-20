@@ -75,7 +75,7 @@ $$
 $$
 [R950](results/R950-original-low-weight-supersingular-diagonal-and-Hecke-adjunction.md)现在已证明这个**指定低权对角对原两行全部p≥41非零**：直接全SS isogeny计算给KS/b乘ℓ与dual frame、1/ℓ完全相消的Hecke伴随，再以tame单位平均和R918/R942完整低权广义零线得到非零值。未从F_r像的Hecke型反推原像型，也不需要其全局注入。这个低权子问题关闭；真正高权比较如下。
 
-真正原来源投影已准确给出PΩ=6ΦV、PZ=G/a^(rp)、PΨ=0，恢复R932的ΦV=d(G/a^(rp))。但P在SS有极阶rp，杀W的水平p次极部；原Igusa主部来自P作用于正则剩余项。必须计算这个明确边界才能把固定低权类搬成原高权残数和；不能把两个不同指数的和按一个未核单位等同。
+真正原来源投影给PΩ=6ΦV、PZ=G/a^(rp)、PΨ=0，但P在SS有rp极点并杀W水平p次极部。[R953](results/R953-original-high-weight-boundary-complex-and-regular-projection.md)已完整计算该边界：正则π:E_r→ω^(pr)满足πW=6G，真实修改E_r+允许σ^r/A^p，原高权Serre类是Hasse序列的δ((G|SS)^(1/p))。它不依primitive选择，Igusa全配对准确为−B_r(V,H)/6，S=c_r B_r(V,F)，原mI(cF)^(1/p)/d1保全。正则剩余项的底Hodge系数为−6^r(r−1)!F_P/B_P，因此与含V_P的低权极部确实不同。p-curvature=−N及绝对F_*连接复形的cohomology sheaf给原F_r全局注入，保相对Frobenius twist与log cusp；这一步关闭，但注入也不迫指定高权边界评价非零。继续真实regular remainder、CM Cartier长链及低/高配对的实际关系。
 
 ## O4：原Abel零集、正秩像与真正高度
 

@@ -48,6 +48,8 @@
 
 - **R952（准确Cartier算子与最后Hasse障碍）**：[全空间Cartier公式](results/R952-exact-Cartier-formula-for-the-last-Hasse-obstruction.md)。整个fine S_w、w=p+1−r∈[3,p−1]上构造真实逆p半线性𝒰，q系数为a_pn^(1/p)，完整换帧/角色/Igusa 1/6保留；O_r(H)=r!(𝒰H)^p/B^(p−r)|SS，且kerO_r=ker𝒰。故whole packet饱和恰等价实际𝒰整包为零，不能用nilpotent或命名F被杀代替；R951配对准确为r!H_w(H′,𝒰H)。未证原高权trace一般非零。SHA256 b4dcb361f7557c7501aa75bf6b1d481b82ff2dc629156182623deaf8b1d78f43。
 
+- **R953（原高权边界与正则投影完整识别）**：[实际修改连接及原高权边界](results/R953-original-high-weight-boundary-complex-and-regular-projection.md)。正则π:E_r→ω^(pr)保πW=6G；真实E_r+的两项quotient给δ((G|SS)^(1/p))，准确恢复原Igusa主部与−1/6配对、全S和mI(cF)/d1。底Hodge正则剩余项为−6^r(r−1)!F_P/B_P，不能换成低权水平极部。p-curvature全局公式与曲线上cohomology sheaf谱列证明F_r注入，保绝对/相对Frobenius扭曲及log cusp；高权指定评价非零仍开放。SHA256 0575f4a140d41db88b5c54c050d275c2e6eade5fbb5b79162a8994b49ab72086。
+
 ## 当前原高度、函数与同标签接口
 
 - **R808（已证明）**：[原cuspidal Gram商与真实period/split/Howe链](results/R808-original-cuspidal-Gram-quotient-and-Howe-chain.md)。R727全部群元素的整Gram把原轨道格非退化约化商准确识别为Sym^(2r)det^(−r)，r=min(h−1,p−h)；原e0、Frob-Hermitian、Tζ平均像和N_h同时运输。位置Cartan与链内SL2严格区分，链中心规范与Hasse连接准确匹配；实际sigma原单项式仍经Kraw混合，同h配对非零未得。 SHA256 c24889c8d8407447dc38e14b583d002c289697b1b75376af7ea5348c4f6a03db。
