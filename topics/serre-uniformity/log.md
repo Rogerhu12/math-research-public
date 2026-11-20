@@ -569,3 +569,7 @@
 ### 2026-11-20 17:32 Asia/Taipei — serre-public-astra-20261120-de0a3e3b
 - 新增原同h Legendre偏移公开Actions窗口：p≤100000、p≡5 mod12，保R317允许mod9标记；脚本仅在Actions做算术，输出确定摘要SHA，不上传artifact。
 - 课题外修改 `.github/workflows/serre-same-label-legendre.yml`，为新缺口提供公开计算；本地仅读码/AST。有限窗口不作一致性证明，接续原固定第二类微分的Cartier解释。
+
+### 2026-11-20 17:33 Asia/Taipei — serre-public-astra-20261120-de0a3e3b
+- R933完整纸证：保原s/δ/d=3s平移扭曲与同h，315δL_h=283U−224V；固定β=(224w−283)ω的Cartier给原因子，零等价显式有理原函数。
+- 未从U普通单位推出偏移非零；Q′、全SS源比较和height仍开。H/open/索引同步，下一步消费公开窗口并研究固定β约化结构。

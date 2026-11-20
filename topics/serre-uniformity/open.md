@@ -90,3 +90,7 @@ R859–R898原BT/Drinfeld/Igusa/cusp/整theta lift、两旗(6,6)/rank36源全部
 [R932原Frobenius/全SS配对](results/R932-original-Igusa-Frobenius-line-and-supersingular-residue-pairing.md)：原λ的同一Serre类v由F_Ov=0和注入F_dR给非零exact微分，χ+不变、ζ²经p次变ζ；R918整S4或R920实际T5零核识别到V_(r+2)†，r=2/8，未混两weights非零Hecke值。G=Θ_Q^(r−1)V_(p+1−r)†权rp，∂G=A^rV/6，真实primitive G/a^(rp)；每个SS唯一极部g_P z^(−rp)。原λ在另一companion取值等于非零原尺度m_I(c_F)^(1/p)/(d1·6^r(r−1)!)乘全SS Σg_P^(1+1/p)/b_P^r；完整Norm/两Igusa/C4/标架尺度保全，原j0标记项恰0。总和非零与Q′源比较仍未闭合，继续该实际总和，不以单点单位代替。
 
 下一实际缺口为此完整残数和的原源约束、与R924/R925指定Q′_h(0)的比较；同h Legendre偏移单位仍须独立成立。原a_h/两CM伴随/Norm/参数/正商/height均保留，不把Cartier核一维推作无长零Jordan链。
+
+### R933：同h因子的固定第二类微分接口
+
+[R933](results/R933-same-label-Legendre-factor-and-fixed-Cartier-differential.md)已完整证明：在原有理辅助曲线E*:v²=w³+6w+7上，原L_h=P_(h−1)(1/s)满足315δL_h=283U_p−224V_p，其中U/V是f^((p−1)/2)的p−1/p−2系数，U_p≠0沿R929。固定β=(224w−283)dw/(2v)的Cartier为−315δL_hω，且L_h=0等价β在Fp(E*)有显式有理原函数。下一缺口因此可准确研究该固定微分的约化Cartier零；char0非恰当性与普通性都不排除个别p的零。窗口另以公开Actions计算，仅为有限证据；实际Serre来源仍须p≡2,5mod9。Q′_h(0)与全局height缺口不变。

@@ -6,6 +6,10 @@
 
 截至R832的前版索引逐字保存在[完整索引归档](results-archive-2026-11-15-before-R833.md)，相对链接保持原目录，内接更早全部证明和归档。固定p41全部129盘已由[R707](results/R707-complete-level41-rational-point-classification.md)分类关闭；一般完整正规化子及全p原高度仍开放。以下保留R808以来的当前接口与实际计算；历史“待计算”以同项较晚的真实certified结果为准。
 
+## 新增结论（2026-11-20）
+
+- **R933（已证明）**：[同h Legendre因子与固定第二类微分Cartier](results/R933-same-label-Legendre-factor-and-fixed-Cartier-differential.md)。在原E*:v²=w³+6w+7上，U=[w^(p−1)]f^m、V=[w^(p−2)]f^m，保δ与同h，315δL_h=283U−224V；固定β=(224w−283)dw/(2v)满足Cβ=−315δL_hω。原因子零等价β约化后有显式有理原函数；未证明非零，不混ordinary与该条件，不触及Q′或height。SHA256 6ec44e35fae255b54ddcedef37a44de34bbf59882beecc7a46fd20bb8c5e18b1。
+
 ## 当前原高度、函数与同标签接口
 
 - **R808（已证明）**：[原cuspidal Gram商与真实period/split/Howe链](results/R808-original-cuspidal-Gram-quotient-and-Howe-chain.md)。R727全部群元素的整Gram把原轨道格非退化约化商准确识别为Sym^(2r)det^(−r)，r=min(h−1,p−h)；原e0、Frob-Hermitian、Tζ平均像和N_h同时运输。位置Cartan与链内SL2严格区分，链中心规范与Hasse连接准确匹配；实际sigma原单项式仍经Kraw混合，同h配对非零未得。 SHA256 c24889c8d8407447dc38e14b583d002c289697b1b75376af7ea5348c4f6a03db。

@@ -6,7 +6,7 @@
 
 **维护会话：serre-public-astra-20261120-de0a3e3b。** 从远端main接续serre-public-astra-20261115，已部分克隆并真实pull；不重做已登记结论。接手前完整状态见[前H](handoff-archive-2026-11-20-before-resume.md)。
 
-**已读规则提交：96edc677044b6ad7c7fd3aa2f65bf77d9c0e27a1**（2026-11-20，终端git pull --rebase origin main）。相比b77de2c7仅根课题表新增held-10pct；两README完整已读。root SHA256 581402c2 / topic 35f82f3d。此前来源与原pins沿[旧归档](handoff-archive-2026-11-16-before-Igusa-Frobenius-residues.md)。
+**已读规则提交：7dd40baad2aea0abe82867420d30ca7cac8e381a**（2026-11-20，终端git pull --rebase origin main）。相比b77de2c7仅根课题表新增held-10pct；两README完整已读。root SHA256 581402c2 / topic 35f82f3d。此前来源与原pins沿[旧归档](handoff-archive-2026-11-16-before-Igusa-Frobenius-residues.md)。
 
 每结论立即推；每push前且至少每小时真实pull，NFF立即pull --rebase再推至成功，禁force。每pull比两README，有变只读diff即遵守并记H。PAT仅CLI，root独占main。新数学仅本公开Actions，外部仅纸证/IO/schema/hash/AST；raw仅当前必要一日artifact，不入Git/Release。H<10KB/open<30KB/每MD<100KB/topic<200MB；日志Asia/Taipei≤5行，无独立测试门。终端git已恢复；旧run终态已核实。
 
@@ -60,6 +60,8 @@ R913原λ_h对应k−=2p+2−2h，L̄对应k+=2h−p+1；两tame伴随/整Θ/ζ�
 [R929](results/R929-original-Legendre-auxiliary-ordinary-curve-and-central-shift.md)新证全p≥41、p5mod12：原λ=(1−1/s)/2的j2048/3曲线以d=3s twist成E*:v²=w³+6w+7；(-4,9i)真4阶，a_p≡2mod4配Hasse界迫普通。原A=P_((p−1)/2)(1/s)是单位，实际phase δ_p=(-27)^((p−1)/4)、δ²=−1且a_p=δ_p A。原h=(p+9)/2偏移恰(169A+896xA′)/105，零等价A′/A=−169/(896x)；此等式尚未排除、Q′_h(0)仍未知，不能用未移位单位冒J32非零。原模型/微分d^−1/2/两prime类边界完整保留。
 
 [R932原Frobenius/全SS配对](results/R932-original-Igusa-Frobenius-line-and-supersingular-residue-pairing.md)：原λ的同一Serre类v由F_Ov=0和注入F_dR给非零exact微分，χ+不变、ζ²经p次变ζ；R918整S4或R920实际T5零核识别到V_(r+2)†，r=2/8，未混两weights非零Hecke值。G=Θ_Q^(r−1)V_(p+1−r)†权rp，∂G=A^rV/6，真实primitive G/a^(rp)；每个SS唯一极部g_P z^(−rp)。原λ在另一companion取值等于非零原尺度m_I(c_F)^(1/p)/(d1·6^r(r−1)!)乘全SS Σg_P^(1+1/p)/b_P^r；完整Norm/两Igusa/C4/标架尺度保全，原j0标记项恰0。总和非零与Q′源比较仍未闭合，继续该实际总和，不以单点单位代替。
+
+[R933](results/R933-same-label-Legendre-factor-and-fixed-Cartier-differential.md)新证315δL_h=283U−224V；原E*上固定β=(224w−283)ω有Cβ=−315δL_hω。零等价β在Fp(E*)有显式有理原函数；未证非零/Q′/height，继续固定微分的Cartier约束。
 
 ## 永久关闭边界
 
