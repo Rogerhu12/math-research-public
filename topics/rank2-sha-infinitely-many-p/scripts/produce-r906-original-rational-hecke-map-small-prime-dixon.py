@@ -210,33 +210,11 @@ def initial_exact_germ_check(sol,qrows,bval):
     return check==0
 
 def strict_original_certificate(weight,sol,qrows):
-    dim=len(qrows)
-    bound=612*(weight+1)
-    precision=bound+3
-    qhigh=rational_product_rows(weight,precision,high=True)
-    assert all(row[:len(qrows[i])]==qrows[i] for i,row in enumerate(qhigh))
-    ring=PowerSeriesRing(F,"Q",default_prec=precision)
-    Q=ring.gen()
-    A=ring([sum((sol[i]*qhigh[i][j] for i in range(dim)),F.zero())
-            for j in range(precision)]).add_bigoh(precision)
-    B=ring([sum((sol[dim+i]*qhigh[i][j] for i in range(dim)),F.zero())
-            for j in range(precision)]).add_bigoh(precision)
-    assert B!=0 and B.valuation()>=1 and A.valuation()==B.valuation()-1
-    LQ=LaurentSeriesRing(F,"Q",default_prec=precision)
-    Y=LQ(A)/LQ(B)
-    assert Y[-1]==-1 and Y[0]==-(vnew+3)/2
-    C=(Q*A.derivative())*B-A*(Q*B.derivative())
-    h=Q*ring(f[:precision]).add_bigoh(precision)**3
-    residual=(C**3-h*A**2*(A+vnew*B)**2*B**2).add_bigoh(bound+1)
-    bad=next((j for j in range(bound+1) if residual[j]!=0),None)
-    info={"bound":bound,"full_0_through_bound_identity":bad is None,
-          "coordinate_coefficients_sha256":digest([coords(x) for x in sol]),
-          "global_product_basis_high_sha256":hash_rows(qhigh),
-          "B_order_at_infinity":int(B.valuation())}
-    if bad is not None:
-        info["first_nonzero_index"]=bad
-        info["first_nonzero_value"]=coords(residual[bad])
-    return bad is None,info
+    from original_cubic_q_certificate import strict_original_cubic_certificate
+    return strict_original_cubic_certificate(
+        weight, sol, qrows, field=F, vnew=vnew, original_f=f,
+        forms2=forms2, low_m2=q2low, recipes=recipes_by_power[weight//2],
+        progress=progress, digest=digest, coords=coords)
 
 def choose_eligible_small_prime(weight, qrows, low_order):
     """A finite deterministic CI search; exhaustion never excludes the map."""

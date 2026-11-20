@@ -6,6 +6,7 @@ on:
       - '.github/workflows/rank2-sha-original-P-small-prime-dixon.yml'
       - 'topics/rank2-sha-infinitely-many-p/scripts/original_padic_dixon_map.py'
       - 'topics/rank2-sha-infinitely-many-p/scripts/original_small_prime_dixon_map.py'
+      - 'topics/rank2-sha-infinitely-many-p/scripts/original_cubic_q_certificate.py'
       - 'topics/rank2-sha-infinitely-many-p/scripts/produce-r906-original-rational-hecke-map-small-prime-dixon.py'
       - 'topics/rank2-sha-infinitely-many-p/ci/original-P-small-prime-dixon-request.json'
   workflow_dispatch:
@@ -34,6 +35,7 @@ jobs:
             /topics/rank2-sha-infinitely-many-p/scripts/original_pari_m2_basis.py
             /topics/rank2-sha-infinitely-many-p/scripts/original_padic_dixon_map.py
             /topics/rank2-sha-infinitely-many-p/scripts/original_small_prime_dixon_map.py
+            /topics/rank2-sha-infinitely-many-p/scripts/original_cubic_q_certificate.py
             /topics/rank2-sha-infinitely-many-p/scripts/produce-r906-original-rational-hecke-map-small-prime-dixon.py
             /topics/rank2-sha-infinitely-many-p/ci/original-rational-hecke-map-request.json
             /topics/rank2-sha-infinitely-many-p/ci/original-P-small-prime-dixon-request.json

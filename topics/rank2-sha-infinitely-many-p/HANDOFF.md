@@ -5,7 +5,7 @@
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近实际部分克隆/pull及已读规则提交：`ce635be4f028d71b9b71b17fe5afc5b1e5edbd2c`；2026-11-20 09:28:41 UTC 实际pull --rebase，两README相对882aa9b7差异为空；下一次最迟一小时内。
+- 最近实际部分克隆/pull及已读规则提交：`6a9e3137f825248eaed3b9cb24ece7ea96067e8c`；2026-11-20 09:34:00 UTC 实际pull --rebase，两README相对ce635be4差异为空；下一次最迟一小时内。
 - 仅写公开仓库main；每条完整结论即提交，推前pull --rebase，非快进循环；不强推、不存令牌。数学执行沿用公开Actions。重算输出不入库/Release、不分块，只存源/args/run/hash。
 - H<10KB，MD<100KB，open尽量<30KB，文件<5MB、题≤200MB；log每轮≤5行，不写根LOG。接手库存34,714,584B，旧完整交接保存在[接手档](notes/2026-11-20-handoff-before-resume-08eb2b79.md)。
 
@@ -17,11 +17,11 @@
 
 全部原Z角色/Euler/period/端点与R831符号保；7993只检测canonical。R858/859整shadow及固定ell检测不跨无穷p/ordinary。
 - **F已完整认证**：[R909§7](results/R909-original-F-small-prime-and-compatible-dixon-continuation.md)，run43906594646/job133436977753；ℓ1000003/N512，全1429行/QQ/原支/0..6120通过。原F17/微分/∞→O，dF≥1080；完整source/hash见该节。
-- **P未PASS**：R899P256 run43901392214/job133418654415/source7ef59c0deec0b81f6776a17c48a075d1ec679452；R906小素数512→1024 run43903661921/job133426625444/source92c23e425e8c3b1e58a0594616a7d2ac1aae2ea9。全三嵌入/1226行/QQ/0..4284门保持；原u、λ、vnew、整返回17不变。旧N128只高度不足，不是不存在。
+- **P未PASS（旧两run均结束137）**：R899P256 run43901392214/job133418654415/source7ef59c0deec0b81f6776a17c48a075d1ec679452；R906小素数512→1024 run43903661921/job133426625444/source92c23e425e8c3b1e58a0594616a7d2ac1aae2ea9。全三嵌入/1226行/QQ/0..4284门保持；原u、λ、vnew、整返回17不变。旧N128只高度不足，不是不存在。
 - R889/R892旧双P/F及R905失败全部job/source见完整归档；不可跨Sage/PARI基。
-- 旧306、eta48、fricke24、tate24已停，实际均未到正规化；全部阶段/hash见notes/2026-11-16-original-rr-stopped-before-normalization.md。tate24 run43865460680在18:10 exit137：34.754s完整24方程已付、最后仍U。tate19 run43866568746/job133296518979待日志。
-- R910修复run43913500850/job133461459569/source9cba81c50855cbcbeaf0997c537f81d385cad3cc运行。完整可分特化/线性关系及两原Phi，q4500/ξ170/两Atkin/全四27+27+33+33/205行保；首run回转编译失败，无PASS。
-- [R919](results/R919-original-polynomial-ring-middle-recovery-and-unchanged-rr-certificate.md)逐系数真除、一次停止、原全部末端门保持；run43922594376/job133493496664/source45b7e91f3d7dfdcf667999634dd23e669d71acf5运行。§6新geometry-first路径先做不依赖U的真实正规化/四RR，后仍须U及两Phi/两Atkin才返回完整context；run43924337986/job133499674320/source1d6aacce8f37443bebf0965e16a80edaa86ae524已执行。旧路径继续，不猜未返回日志。
+- 旧306、eta48、fricke24、tate24已停，实际均未到正规化；全部阶段/hash见notes/2026-11-16-original-rr-stopped-before-normalization.md。tate24 run43865460680在18:10 exit137：34.754s完整24方程已付、最后仍U。tate19 run43866568746/job133296518979已结束137，最后仍U恢复。
+- R910修复run43913500850/job133461459569/source9cba81c50855cbcbeaf0997c537f81d385cad3cc已结束137，最后为单个原域逆元。完整可分特化/线性关系及两原Phi，q4500/ξ170/两Atkin/全四27+27+33+33/205行保；首run回转编译失败，无PASS。
+- [R919](results/R919-original-polynomial-ring-middle-recovery-and-unchanged-rr-certificate.md)逐系数真除、一次停止、原全部末端门保持；run43922594376/job133493496664/source45b7e91f3d7dfdcf667999634dd23e669d71acf5已结束137（单个原域逆元）。§6新geometry-first路径先做不依赖U的真实正规化/四RR，后仍须U及两Phi/两Atkin才返回完整context；run43924337986/job133499674320/source1d6aacce8f37443bebf0965e16a80edaa86ae524已执行。旧路径继续，不猜未返回日志。
 - [R922](results/R922-original-primitive-middle-remainder-and-unchanged-coordinate-certificate.md)原对称Phi17差先真除x−v，各伪余式立即消系数content并全式复乘；次数严格降、一次即停。仅候选，仍须同eta48域两完整Phi/绝对支/两Atkin才认原U。新独立公开运行只付U，不冒正规化/RR/shadow，无PASS。
 - **全局q格已PASS**：[R917§8](results/R917-original-global-rr-lattice-from-saturated-q-jets.md)，run43919854829/job133483895189/source4519983a157b9d4ac2049b47cd8cb01c8bf478ce；ℓ29/120×205完整QQ基、单位固定子式/整变换/全约化秩/同S均过，2.549s。result5a1d6494…eb663b、RRjets765f854d…2b0fb。全部L(DS)已付，**degree48坐标/闭点/现有四块接口仍未付**。
 
