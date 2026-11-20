@@ -1,12 +1,12 @@
 # 交接：可见振幅的精确闭等距族
 
-维护会话：`visible-exact-astra-ac637-20261120`；更新：2026-11-20 12:35:16 UTC。
+维护会话：`visible-exact-astra-ac637-20261120`；更新：2026-11-20 12:43:15 UTC。
 **总任务未完成；继续研究，不等用户回复。**
 
 ## 规则读点与接续来源
 
 部分克隆：`/workspace/scratch/ac637cfcc78d/math-research-public`。终端 git 已恢复，无 AGENTS。
-2026-11-20 12:35:16 UTC 实际pull/rebase至 `8721b0e937de21743b13693299b3eb3d6188b02b`；已读规则提交同上，两README相对96edc6770空diff。每次pull后核规则差异；下次实际pull最迟13:35:16 UTC。
+2026-11-20 12:43:15 UTC 实际pull/rebase至 `290af8d29b4438f2f18f35544135dc25e59d1949`；已读规则提交同上，两README相对96edc6770空diff。每次pull后核规则差异；下次实际pull最迟13:43:15 UTC。
 
 接手前完整 H（含全部递归原页、成功/失败/恢复身份和未付义务）见 [2026-11-16 完整检查点](https://github.com/Rogerhu12/math-research-public/blob/882aa9b74efeaac682df43c197820e7280156357/topics/visible-flex-exact-nearby/HANDOFF.md)。本页只压缩索引；`open.md` 及所链接的原证明、适用域、均值、物理角、所有边界和误差费用继续有效。旧成功结论不重算。
 
@@ -54,7 +54,7 @@ WIC原m160/N24480真tail逆κ=3已证；WPN只有完整e+3dt<1才授双边逆、
 本节先前完整状态与规则/输入恢复说明逐字保于[6dc0acc40的H](https://github.com/Rogerhu12/math-research-public/blob/6dc0acc409c88fb17849f9f9107005e62ae66551/topics/visible-flex-exact-nearby/HANDOFF.md)。旧成功、失败、全部域/单位和未付义务不变。
 
 1. 原L44724797559/1冻结3/50，centre44727185157/1独立1条给K>80，余47不再为已排配方算；atom/endpoint成功及所有旧0scalar失败均冻结。
-2. positive_inverse：R141有向44730452579/1运行，71输入/768bits，先完整defect，ε<1后才4源/193atoms/wholebox。[F Bc实际44734581045/1](results/R141-supplement-actual-complete-FBc-raw-comparison.md)已核冻结，raw upper<8828非lower；[真实G_H五源](results/R141-supplement-actual-GH-source-window-and-return-contract.md)44736533396/1已启动，71输入/320bits，base0/negative完整原图只读；CFB/finiteρ/7ports/真实97+96外行未删。
+2. positive_inverse：R141有向44730452579/1运行，71输入/768bits，先完整defect，ε<1后才4源/193atoms/wholebox。[F Bc实际44734581045/1](results/R141-supplement-actual-complete-FBc-raw-comparison.md)已核冻结，raw upper<8828非lower；[真实G_H五源44736533396/1](results/R141-supplement-actual-five-GH-source-fees.md)成功冻结，71输入/25门/5球，centre两率约9.53/240.48，完整原高图只读；CFB/finiteρ/7ports/真实97+96外行未删。
 3. global_route：R138轴44730968113/1与mean44733403315/1成功冻结，完整nominal/error及mean球/资格见上。[X完整物理预算](results/R138-supplement-complete-physical-residual-multiplier-budget.md)16当前/9原件、320bits首次公开封包；仅消费原4650/7722闭行和germ，实际体吸收/根finite+tail仍待。
 4. joint_kernel已给R137 finite桥，复核能量与直接signed投影缺陷；root逐结论审、记、推。公共worker每轮实际push成功才返回，非FF即时rebase。
 
