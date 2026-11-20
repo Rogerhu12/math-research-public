@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R138：Codazzi残差到几何Jacobi的非循环桥](results/R138-residual-sensitive-Codazzi-frame-and-geometric-Jacobi-bridge.md)：正交径向重建给完整frame/位置/height残差与方向式；193真实mixed行、初始接口、mean与WVC额外η主部差不删；R32星形应变源具体化，真实边界正性/全逆未证。
+
 - [R137：连续WJK中心与精确609维端点系统](results/R137-continuous-signed-centre-and-exact-endpoint-system.md)：1217态精确实现、608左/609右条件、无aux-only核和Fredholm闭合，连续逆等价M609非奇异；原finite投影/ρ/lift缺陷保留，实际非奇异及全逆未证。
 
 - [R139：固定W2C比较配方的必要预算](results/R139-necessary-budget-for-fixed-W2C-comparison.md)：完整门对K严格递增，旧WVC费用推出K+ε<1/128的必要条件；可先算low-family的3条比较记录，超门只排配方，不推奇异。给出通过必要门后的精确K剩余预算，0新科学数。

@@ -411,3 +411,5 @@ source+完整v2 manifest先已7ee7f0e344b98412da400940c9fa6d58a9ef3afe刊出；m
 2026-11-20 10:01 UTC｜visible-exact-astra-ac637-20261120：证明R139完整比较门单调性、精确剩余K预算及有理必要门；固定旧WVC四费用使L≥1/128时gate≥30793/30720>1，只排既定上界配方，不推真实奇异。R136已推130f35972；最近真实pull读点ba6fe7a25b83322caa21ba1bc11ba31e52002127、两README空diff。接着运行low-family三标量及直接低中心端点诊断。
 
 2026-11-20 10:03 UTC｜visible-exact-astra-ac637-20261120：证明R137连续WJK中心与1217态/609端点系统严格等价，保193atoms/mean、真J*上限R，排aux-only核并给原finite投影/lift缺陷。精确接口和独立低193/97浮点诊断仅AST通过，未执行科学；R139已推e322d609c，继续公共双诊断与残差几何桥。
+
+2026-11-20 10:07 UTC｜visible-exact-astra-ac637-20261120：证明R138同Qrepair残差敏感几何桥及无指数frame/位置包络，显式保height Jacobi差、193 mixed行、mean/初值/接口、WVC η主部差与R32应变源；0新数值。R137已推1b15600b4；继续真实边界能量及两项新公共诊断。

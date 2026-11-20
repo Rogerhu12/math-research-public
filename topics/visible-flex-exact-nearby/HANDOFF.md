@@ -1,12 +1,12 @@
 # 交接：可见振幅的精确闭等距族
 
-维护会话：`visible-exact-astra-ac637-20261120`；更新：2026-11-20 10:03 UTC。
+维护会话：`visible-exact-astra-ac637-20261120`；更新：2026-11-20 10:07 UTC。
 **总任务未完成；继续研究，不等用户回复。**
 
 ## 规则读点与接续来源
 
 部分克隆：`/workspace/scratch/ac637cfcc78d/math-research-public`。终端 git 已恢复，无 AGENTS。
-2026-11-20 10:01 UTC实际 `git pull --rebase --autostash origin main` 至 `130f3597296497036845be7dd694d5d2c716bdb3`；已读规则提交同上，根/题 README 相对96edc677的diff均空。09:50–09:58执行短暂断连现已恢复，期间API不算pull。下一次实际pull不晚于11:01 UTC；每次pull后核两README差异。
+2026-11-20 10:04 UTC实际 `git pull --rebase --autostash origin main` 至 `c439767c4c31c29ff502ecd470b8780ca724d08d`；已读规则提交同上，两README相对96edc677空diff。09:50–09:58执行短断连现已恢复，API不算pull。下一次实际pull不晚于11:04 UTC；每次pull后核规则差异。
 
 接手前完整 H（含全部递归原页、成功/失败/恢复身份和未付义务）见 [2026-11-16 完整检查点](https://github.com/Rogerhu12/math-research-public/blob/882aa9b74efeaac682df43c197820e7280156357/topics/visible-flex-exact-nearby/HANDOFF.md)。本页只压缩索引；`open.md` 及所链接的原证明、适用域、均值、物理角、所有边界和误差费用继续有效。旧成功结论不重算。
 
@@ -33,6 +33,8 @@ geometry `43584188751/26` **仅条件性**：同η0真 wholecore（含帽）C0�
 
 [R137](results/R137-continuous-signed-centre-and-exact-endpoint-system.md)（已证明）：完整连续WJK中心I−Hc可逆等价于1217态/609端点矩阵非奇异，证明无aux-only核及Fredholm闭合；原finite投影/ρ/lift缺陷明确另付。当前只备193低态/97端点浮点诊断，未给非奇异或全逆证书。
 
+[R138](results/R138-residual-sensitive-Codazzi-frame-and-geometric-Jacobi-bridge.md)（已证明）：同Qrepair的Codazzi残差经正交径向重建给frame/位置/高度Darboux与Jacobi缺陷，保初值、193真实mixed行和WVC额外η主部差；无指数残差包络及R32应变接口均明确。尚未给真实边界正性、onto或全逆。
+
 ## 已有可复用的正侧链
 
 - WIC：原 m160 真 tail 的全系统逆界 κ=3、N=24480 已证。完整 reference、ρ2、193 mean/head、97 root+96 outer、7 ports、两 RHS 资格保留。
@@ -53,7 +55,7 @@ geometry `43584188751/26` **仅条件性**：同η0真 wholecore（含帽）C0�
 
 1. `joint_kernel` 的稳定graph4已按R136合入；现实现独立低family比较预算诊断，先算原graph3的3条新scalar。若L≥1/128，按固定WVC旧常数可直接排除此充分界配方；其余47条未算，不反推奇异。
 2. `positive_inverse` 的R137与精确BVP接口、低193/97诊断模块已合入且AST通过；在独立scratch准备公共owner/workflow。仅midpoint比较算子启发式，完整CFB/原均值端口/实际family误差未付。
-3. `global_route` 核查真正core/腰/ν/完整frame匹配与可替代结构，避免重复已证明的条件Schur。Ghomi等正亏格等距嵌入族不是已知连续弯曲；R520仅小振幅，均不替本题验收。
+3. `global_route` 完成R138残差敏感几何桥，继续不依赖全正height法向的rotation-field边界能量；实际mixed边界正性/残差吸收仍未证。R135已排固定线性核连续化，小振幅R520不替验收。
 4. root 维护 main/H/open/results/log。首次科学运行尚未启动；先加入 K=0 的比较配方预算检验，若其严格下端≥1，可排除既定充分界配方而诚实保留 graph4/5 未算；不能反推实际算子奇异。代理不动git。
 
 ## 正侧以外仍未付的接口
