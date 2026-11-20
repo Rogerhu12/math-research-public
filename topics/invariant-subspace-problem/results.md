@@ -69,3 +69,5 @@
 - **R271 原三位N头最高carry极点的高孔主子式与锐化阶（2026-11-20，已证明）：** [完整物理极点、五短链精确源与显式源界](results/R271-appendix-three-bit-highest-carry-high-hole-principal-minor-residue-order.md)用全新增秩的高孔非奇异主子式，保非正交尾相似和完整Galerkin；得固定参数q₋₁=O(s^(R/2−3))。原强权下全0<s≤1还给10^100·4^R(3+R/2)^16 s^(R/2−3)Z_R(s)，Z_R为明确完整高孔加权残差。run44724947207 BigInt全核通过；实际Z_R、整个q与移动m费用仍开。
 
 - **R150 第三累积量零且rankH3/mean在值域外的整支排除（2026-11-20，已证明）：** [原J2、完整梯度迹与双线性因式证明](results/R150-appendix-zero-third-cumulant-rank-three-outer-range-exclusion.md)从原highest给H=J2⁻¹d2/6和τ2=b/6，mean/N与三维迹冲突迫F=b=τ2=τ3=0；h非零则N分裂，h零则rankN≤2再分裂，最终不可能的四维K全等向空间。无需Cat3(y)=3；V=0/ess4只余rankH4且y在其唯一length4原jets支撑。
+
+- **R150 孤立零点加unit2+2半权的rankH4整支为空（2026-11-20，已证明）：** [原四mean分类、真实值/jet和无除法兼容式](results/R150-appendix-essential-four-unit-two-plus-two-half-isolated-zero-rank-four-branch-is-empty.md)排全部四族与零配对例外；末族以3h n′−2n h′=0给原f(q²)/g(q²)的QQ gcd1，无须除u或m。run44727076042原源通过。只闭a=b=1/2，unit2+2一般权及其它split单位四仍开。

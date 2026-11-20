@@ -1,0 +1,35 @@
+{
+  "format": "isp-exact-run-identity-v1",
+  "runId": 44727076042,
+  "jobId": 136257087646,
+  "frozenCommit": "5bd3fd23c037e85ab1587bd684799cd389726da1",
+  "sources": [
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-20-essential-four-unit-two-plus-two-half-isolated-zero-verify.py",
+      "sha256": "dbc2e5ec82604944438960ed0e3d9bcf3638c5260093767dd377d6b862561779",
+      "parameters": [],
+      "outputSha256": "025f2bdb9d39f4c86c0b37618019ddd67b11b43d77e453ef6f431c753823b1b3"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-20-r150-weight11-projected-rank-b2a9.cpp",
+      "sha256": "d1dad93a00276355d2fdb3f815e01fde5ee428e72f1ca074063e961e7aa62253",
+      "parameters": [
+        "--selftest"
+      ],
+      "fullWeight11Run": false
+    }
+  ],
+  "dependencies": {
+    "sympy": "1.13.3",
+    "mpmath": "1.3.0",
+    "bitplaneHeaderSha256": "03272796bb20c883291d27c9a0b796197f8295ccd9b16552c13894657dc8afd3"
+  },
+  "decodedJobLogSha256": "af614e24da8f13e6d0070da04a59b3080b46bfecab665b1a3244fcdf73ee6da9",
+  "actualPullUtc": "2026-11-20 11:22:32 UTC",
+  "rulesReadAt": "5bd3fd23c037e85ab1587bd684799cd389726da1",
+  "rulesGitBlobs": {
+    "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+    "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+  },
+  "computedOutputRetained": false
+}

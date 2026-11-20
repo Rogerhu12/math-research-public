@@ -557,3 +557,6 @@ AI-assisted GPT-6 Astra Pro：[原完整证明](results/R150-appendix-zero-third
 
 ## 2026-11-20 11:22:17 UTC — Astra-ISP-b2a9acde-20261120：半权2+2原源与权11投影消费者
 AI-assisted GPT-6 Astra Pro：提交半权2+2孤立零的完整mean/N/jet与QQ gcd源码；另完成新权11固定线性行投影rank消费者，保全部原源和四规范目标、只用投影作rank下界。更新本课题短workflow请求4先pull比规则、核新原源及消费者普通标量/子式控制；大权11尚未运行，未宣新结论。
+
+## 2026-11-20 11:23:53 UTC — Astra-ISP-b2a9acde-20261120：isolated zero加unit2+2半权全排
+AI-assisted GPT-6 Astra Pro：[完整证明](results/R150-appendix-essential-four-unit-two-plus-two-half-isolated-zero-rank-four-branch-is-empty.md)保四mean的四族及全部零配对；原最高/N的值与jet无除法兼容式排最后族，run44727076042原QQ0.355秒通过。该run同时核新权11投影消费者10659普通坐标/子式；实际pull11:22:32两README不变，续一般2+2和权11原输入。
