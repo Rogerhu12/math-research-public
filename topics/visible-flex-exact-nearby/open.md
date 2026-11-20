@@ -151,6 +151,8 @@ G以S/T E1856给physical C²整盘/曲率<2/径长<8e−6及同world position/no
 
 ## 8. 当前执行续点与新增路线
 
+本节在2026-11-20新增内容的压缩前完整资格另见[b4a1734e5原open](https://github.com/Rogerhu12/math-research-public/blob/b4a1734e5cc8500898faa243ddaeec7b6f636c54/topics/visible-flex-exact-nearby/open.md#8-当前执行续点与新增路线)；以下缩写不删其任何mean、端点、rho或未付门。
+
 本节压缩前的全部原成功/失败、数值球、参数、单位、mean、边界和恢复身份，逐字保于[6dc0acc40完整open第8节](https://github.com/Rogerhu12/math-research-public/blob/6dc0acc409c88fb17849f9f9107005e62ae66551/topics/visible-flex-exact-nearby/open.md#8-当前执行续点与新增路线)，并递归保接手前882aa9b74全部记录。压缩不扩大任何结论范围，成功数学不重算。
 
 WIC原24480细胞真tail κ=3已闭；WPN只有完整e+3dt<1才授逆。WPS/WVC/WCTRA旧false门不是奇异结论。W2C仍保WJK完整signed P+Q*−Q*LcP、五collar项、true J*至R和193atoms/7ports/两RHS；同对象合核后才abs。完整mean、真ν/负radialhead/finite物理列/高频/非线性matching继续各自保留。
@@ -161,9 +163,7 @@ WIC原24480细胞真tail κ=3已闭；WPN只有完整e+3dt<1才授逆。WPS/WVC/
 
 [R137主篇](results/R137-continuous-signed-centre-and-exact-endpoint-system.md)给完整1217态/609端点与无aux-only核；[44721851908实际诊断](results/R137-supplement-actual-balanced-low193-endpoint-diagnostic.md)只浮点中点模型，端点/分界SVmin≈.3247/.2328。成功冻结；第139panel/0传播旧失败不重分类。
 
-[R137有限桥](results/R137-supplement-continuous-to-finite-principal-lift-bridge.md)保持原N24480真细胞、同S/D/ρ/193atoms/full CFB。精确Q_D source缺陷有h_i/π，finite试逆误差=P_f(T−I)Q_DHW_D；可付直接signed η_f，或完整(6/5)M_C M_mesh。η_f<1后含原ρ逆≤(75/58)C_T/(1−η_f)。**完整连续T、该新门、actual Schur余项仍待**；R141 low-only T不足，两个真实RHS和全部ports/finite/physical义务不删。
-
-[R137伴随细胞因子](results/R137-supplement-adjoint-cell-factor-for-direct-finite-defect.md)再给μ_Q≤C_adj,h与η_f≤(6/5)μ_Q M_mesh；完整伴随source/193atoms通过真实dualBC进入，1024原F状态的系数导数公式不求输入或scalar upper的导数。新预算必须保持原24480细胞/所有内部真跳资格；low Green只要求body反馈收缩，atoms完整作输出费用。该导数预算/连续逆/严格门仍待，不能把actual G_H当旧F。
+[R137有限桥](results/R137-supplement-continuous-to-finite-principal-lift-bridge.md)与[伴随第二h](results/R137-supplement-adjoint-cell-factor-for-direct-finite-defect.md)保原N24480/S/D/ρ/193atoms/full CFB；h_i/π投影与完整dualBC导数给η_f<1后的75/58逆费。实际完整T、μ_Q/η_f、新Schur余项与两RHS仍未付；low Green不等full T，真GH不冒旧F，全部硬跳资格见原proof。
 
 [R141](results/R141-low193-directed-green-and-complete-observation-certification.md)及[精确细分](results/R141-supplement-exact-refinement-and-compact-directed-grams.md)公开44730452579/1运行。71输入/768bits、H_i/n_i与真h_i/n_i、1424旧cuts、逐entry包含全保；先完整defect，ε<1后才4源/193atoms/whole-box，否则完整两目标false。实际输出未登记；CFB/finiteρ/7ports和两RHS仍待，不重旧浮点目标。
 
@@ -177,6 +177,6 @@ R138的[几何桥](results/R138-residual-sensitive-Codazzi-frame-and-geometric-J
 
 [mean44733403315](results/R138-supplement-actual-full-circle-root-mean-denominator.md)全8192闭格及真实frame费已核冻结，17/20<D<87/100、逆<20/17；根finite+tail/体吸收/全逆未付，原资格不扩。
 
-[R141 F Bc实际](results/R141-supplement-actual-complete-FBc-raw-comparison.md)44734581045/1冻结3球，raw upper<8828，不是lower或奇异；全五项/true J*保。[真实G_H五源actual](results/R141-supplement-actual-five-GH-source-fees.md)44736533396/1成功冻结5球：两窗centre/full差H1/3四率与ΔBLH raw一率；原L连续whole-kernel资格已核，base0/negative原图不重算。[四响应44740105701/1](results/R141-supplement-actual-four-complete-high-responses.md)16当前/4球已核冻结：H_B<110、H_Z/Hroot<44、outer<.563，只upper。CFB/真实97+96外方块/finiteρ/7ports/两rhs仍待。
+[R141 F Bc实际](results/R141-supplement-actual-complete-FBc-raw-comparison.md)44734581045/1冻结3球，raw upper<8828，不是lower或奇异；全五项/true J*保。[真实G_H五源actual](results/R141-supplement-actual-five-GH-source-fees.md)44736533396/1成功冻结5球：两窗centre/full差H1/3四率与ΔBLH raw一率；原L连续whole-kernel资格已核，base0/negative原图不重算。[四响应44740105701/1](results/R141-supplement-actual-four-complete-high-responses.md)16当前/4球已核冻结：H_B<110、H_Z/Hroot<44、outer<.563，只upper。[D右97/联合193边界lift](results/R141-supplement-reference-boundary-lifts-and-physical-outer-block-gate.md)79当前/21原件、2目标10球首次封包，actual待；真实97+96方块正矩阵门只给解析合同。CFB/finiteρ/7ports/两rhs仍待。
 
 公开科学只用本仓库Actions，规则15只留脚本/参数/run/hash/小结论；0旧成功重算，非FF立即rebase推到成功，每次pull两README差异记H。readonly44712172133成功与旧43921663540运维失败保持原范围；无静态他题workflow行政白名单，逐次仍核topic≤200MB。

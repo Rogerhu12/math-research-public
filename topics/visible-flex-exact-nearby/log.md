@@ -149,3 +149,7 @@ source30569B/3fca5cd0、worker30709B/2a119f1c、generator14465B/0534051b、contr
 ## 2026-11-20：完整根源消元与真实轴包络凹性
 
 root整读F1–13，并与joint核F2准确H交叉抵消、F3环境I范数、F7对偶/Young、F9a顶点主系数对称投影及F11 shorted变分凹性。F13两处operatorname纯排版修正，不改数学。完整原轴nominal/error球授四顶点矩形，不裁负q、不把粗display当输入；actual λ与紧致尾未有时Cmov仅条件式。0新科学/旧target重算，根mean/H/fullspace及原96/97域全保；H长段转为此前实际head的完整不可变H索引。
+
+## 2026-11-20：原D完整边界lift与实际物理外行消费公式
+
+proof13079B/d12b90d9、math11238B/ffb9185a、owner27516B/4f585a3b、generator13313B/dc0dd610；root整读B1–21/新math/owner diff/gen/YAML，global独审均通过。只准备153原定义及96lowprofiles，16 whole boxes×155×96，joint同模signed2×2 Gram先积后abs、mean/Theta/193观察不删；不准备actual centre/family或highreference/Green。79当前bytes/SHA/blob/AST、21历史逐字同旧GH5清单、39字段25门/原18准入全核；metadata重建manifest70121B/9c4f0afe00aa1a5c1b3adb0f57df15d0773c67b8b163894eb06071b7e08f95f8和workflow逐字同，共享worker40772B/98ef3773未改。2目标10球、320bits/3600s科学cap首次push；实际低高/外方块/finiteρ/7ports/两RHS仍false。open第8节细胞桥重复解释压缩，完整原文以本次前b4a1734e5 immutable open保留。

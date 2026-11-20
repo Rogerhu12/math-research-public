@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R141原D边界lift与真正97+96外行门](results/R141-supplement-reference-boundary-lifts-and-physical-outer-block-gate.md)：原153 signed D/155panel/真root的右97及联合193输入，10个body/root97/outer96/atoms/complete norm新目标首次封包；同模两列先积signed Gram再abs，独立mean与Theta一次保全。79当前/21原件、39字段25门整审；未来完整低逆与实际GH接内部body门，再接真正2×2正矩阵外行判据，实际门未宣称通过。
+
 - [R138根型完整源消元与轴坐标凹性](results/R138-supplement-root-source-elimination-and-concave-finite-gate.md)：准确分部积分消直接H×ω交叉，保两份mean并给完整H^-1/3源常数Cmov；还须实际齐次λ>0。逆乘子压缩的shorted变分给(q,s)矩阵凹性，完整原轴球可用四顶点包络；非实际顶点先作even-fourfold主系数投影。root/joint核证明，0新数，不授根正性或body门。
 
 - [R138实际完整复合预算](results/R138-supplement-actual-composed-physical-budget.md)：44740320925/1全4651闭格、19当前/9原件/22字段完整审通过，5sup/2积分/10derived全存；k−1/2≈.000373513，rE/rB≈.01783/.01977，aEE/aEB/aBB≈66.32/145.46/79.76。body3充分门仍false，成功结果冻结且不推奇异；旧X全部球只读，0旧传播/target。更紧完整体估计与根型C*仍须新证明/目标。
