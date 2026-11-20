@@ -1,0 +1,25 @@
+{
+  "status": "bridge_true_tail_reference_seam_certified",
+  "source_sha256": "4da750d6b18071f23edcdc484cec9e67140c0b8c11697e57fbfb1853ef0572f8",
+  "source_run_sha256": "c44b6fd2fbb13cc9ce0451cc6ab1d3c06521de0622de27190bde94c4c550462a",
+  "physical_sha256": "f2e22fe19bb0b6fdeff79c4fa99363d9be6cbb1ef382fd882679a2b717a3030d",
+  "tail_oracle_sha256": "d133b3ed5b9e5b5a8e15e3a6bb49b3969b65abbd77fbb17a9d0af835d28c1901",
+  "patch_length_exact": "1/1000",
+  "old_JS_minus_true_w_exact": "19/72057594037927936",
+  "old_JS_minus_true_wR_exact": "-14941442363739515/2433889152438200360801677606912",
+  "reused_radius_gap_triangle_upper": 7.679517527964208e-12,
+  "target_radius_correction_0_1_2_upper": [
+    1.0000000015472972e-11,
+    5.000000007736486e-08,
+    0.0002000000004653431
+  ],
+  "new_complete_bridge_metric_upper": 9.300668896944213e-07,
+  "new_reference_metric_explicit": true,
+  "old_R60_map_and_mean_unchanged": true,
+  "target_radius_common_two_jet_exact": true,
+  "no_new_background_integrals": true,
+  "nonrotating_Cartesian_tail_seam_proved": false,
+  "full_tail_solve_asserted": false,
+  "exit_code": 0,
+  "complete_output_sha256": "532536975977e00290efa3af6fe4d19fe0e24e5a23db3fb69616c4e6de8e74e2"
+}
