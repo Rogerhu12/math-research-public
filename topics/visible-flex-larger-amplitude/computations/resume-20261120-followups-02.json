@@ -126,6 +126,67 @@
       "scope": "The actual newly reconstructed bundle must match its own coarse report; use its returned mu for lambda=1 eta885 nodal projection and one complete direction only if the true new initial field passes every necessary point screen; no old result inherited"
     },
     {
+      "id": "reconstructed-R671-returned-bottleneck-diagnosis-02",
+      "script": "topics/visible-flex-larger-amplitude/scripts/resume_20261120/full_phi_qp_bottleneck_report.py",
+      "parent_bundle": "exact-tail-full-phi-actual-coarse/final.npz",
+      "args": [
+        "--report",
+        "{work}/exact-tail-full-phi-actual-coarse/report.json",
+        "--out",
+        "{work}/postprocess/reference-tail-bottleneck.json"
+      ],
+      "outputs": [
+        "postprocess/reference-tail-bottleneck.json"
+      ],
+      "summary": {
+        "postprocess/reference-tail-bottleneck.json": {
+          "field_evaluations": "field_evaluations",
+          "J_or_Jtranspose_calls": "J_or_Jtranspose_calls",
+          "new_fixtures": "new_fixtures",
+          "outward_certification": "outward_certification",
+          "actual_direction_count": "reports.0.actual_direction_count",
+          "actual_report_complete": "reports.0.report_complete",
+          "final_bundle_sha256": "reports.0.final_bundle_sha256",
+          "direction_0_mu": "reports.0.directions.0.damping",
+          "direction_0_old_Phi": "reports.0.directions.0.old_merit",
+          "direction_0_full_step_model_Phi": "reports.0.directions.0.full_step_predicted_merit",
+          "direction_0_new_Phi": "reports.0.directions.0.new_merit",
+          "direction_0_accepted_alpha": "reports.0.directions.0.accepted_alpha",
+          "direction_0_status": "reports.0.directions.0.linear.qp_status",
+          "direction_0_advances": "reports.0.directions.0.linear.advances",
+          "direction_0_projected_gradient": "reports.0.directions.0.linear.final_face_projected_gradient_norm",
+          "direction_0_gradient_over_tolerance": "reports.0.directions.0.linear.projected_gradient_over_tolerance",
+          "direction_0_face_additions": "reports.0.directions.0.linear.successful_face_additions",
+          "direction_0_face_releases": "reports.0.directions.0.linear.release_count",
+          "direction_0_longest_fixed_face": "reports.0.directions.0.linear.longest_fixed_face_advances",
+          "direction_0_effective_CG32_restarts": "reports.0.directions.0.linear.v2_effective_forced_same_face_restart_count",
+          "direction_0_actual_product_accounting_matches": "reports.0.directions.0.linear.v2_product_accounting_matches",
+          "direction_0_damping_energy_ratio": "reports.0.directions.0.Hessian_and_ray_scalars.damping_to_data_ray_energy_ratio",
+          "direction_0_face_gap_over_drop": "reports.0.directions.0.Hessian_and_ray_scalars.fixed_face_bound_relative_to_achieved_drop",
+          "direction_0_trial_count": "reports.0.directions.0.nonlinear.trial_count",
+          "direction_0_trial_0_alpha": "reports.0.directions.0.nonlinear.trials.0.alpha",
+          "direction_0_trial_0_Phi": "reports.0.directions.0.nonlinear.trials.0.Phi",
+          "direction_0_trial_0_reason": "reports.0.directions.0.nonlinear.trials.0.rejection_or_acceptance",
+          "direction_0_trial_0_geometry_evaluated": "reports.0.directions.0.nonlinear.trials.0.curvature_evaluated",
+          "direction_0_trial_0_product": "reports.0.directions.0.nonlinear.trials.0.true_known_point_product",
+          "direction_0_trial_0_actual_to_same_alpha_predicted_drop": "reports.0.directions.0.nonlinear.trials.0.actual_to_same_alpha_predicted_drop",
+          "direction_0_trial_1_alpha": "reports.0.directions.0.nonlinear.trials.1.alpha",
+          "direction_0_trial_1_Phi": "reports.0.directions.0.nonlinear.trials.1.Phi",
+          "direction_0_trial_1_reason": "reports.0.directions.0.nonlinear.trials.1.rejection_or_acceptance",
+          "direction_0_trial_1_geometry_evaluated": "reports.0.directions.0.nonlinear.trials.1.curvature_evaluated",
+          "direction_0_trial_1_product": "reports.0.directions.0.nonlinear.trials.1.true_known_point_product",
+          "direction_0_trial_1_actual_to_same_alpha_predicted_drop": "reports.0.directions.0.nonlinear.trials.1.actual_to_same_alpha_predicted_drop",
+          "direction_0_trial_2_alpha": "reports.0.directions.0.nonlinear.trials.2.alpha",
+          "direction_0_trial_2_Phi": "reports.0.directions.0.nonlinear.trials.2.Phi",
+          "direction_0_trial_2_reason": "reports.0.directions.0.nonlinear.trials.2.rejection_or_acceptance",
+          "direction_0_trial_2_geometry_evaluated": "reports.0.directions.0.nonlinear.trials.2.curvature_evaluated",
+          "direction_0_trial_2_product": "reports.0.directions.0.nonlinear.trials.2.true_known_point_product",
+          "direction_0_trial_2_actual_to_same_alpha_predicted_drop": "reports.0.directions.0.nonlinear.trials.2.actual_to_same_alpha_predicted_drop"
+        }
+      },
+      "scope": "The same already published report-only consumer now reads the actual R671 direction; no new field/J/oracle evaluation, no speculative followup QP and no old-model geometry interpretation"
+    },
+    {
       "id": "reconstructed-original-full-phi-six-actual-mu-02",
       "script": "topics/visible-flex-larger-amplitude/scripts/resume_20261120/launch_full_phi_original_from_coarse.py",
       "parent_bundle": "geometry_path/curvature-qp-spectral-hessian-r22-union-next-four.npz",
