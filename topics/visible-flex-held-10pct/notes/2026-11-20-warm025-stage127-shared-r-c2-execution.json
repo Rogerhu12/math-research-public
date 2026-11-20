@@ -1,0 +1,233 @@
+{
+  "date_utc": "2026-11-20",
+  "scope": "Actual .25 finite stage127, explicit literal R mesh and shared Cartesian/Fourier two jets; continuous true-R58 metric and curvature bounds for this component only.",
+  "sources": {
+    "topics/visible-flex-held-10pct/scripts/resume_n4/extract_q060_stage_from_native_record.py": "4eecd166b16aa66cd91a520baafb1530950a0462617c126db1ee507c92cb5f8c",
+    "topics/visible-flex-held-10pct/scripts/resume_n4/export_q060_saved_stage_r_jets.mjs": "1d4884dd2163c5641277065bc38e384c5fa2478098f582e93512929fbf2593a2",
+    "topics/visible-flex-held-10pct/scripts/resume_n4/certify_q060_stage127_r_quintic.py": "4a2bcb9f9e749ce62663d3b8768029ed7c19cbde03a7068eaab3f6552f36fe94"
+  },
+  "existing_checkpoint": "302662026a7e213647d8bfb2813f970174c8c919bb6f4d406e073ef9f3c110de",
+  "native_record": {
+    "path": "/workspace/scratch/1b6d88ecddf3/m3-work/newg-native-m24/runs/actual-lambda0p002/0009-jac-record.json",
+    "sha256": "a15afe15bdea350f03ea282c475deece4179f59c72f227b0bac9b5ec00980e7a"
+  },
+  "native_input": {
+    "path": "/workspace/scratch/1b6d88ecddf3/m3-work/newg-native-m24/runs/actual-lambda0p002/0009-jac-input.bin",
+    "sha256": "e3980af39b382fdad3fbc350ea0dca0c757dfe4be6572fea9ec731e5c8a82ffd"
+  },
+  "native_output": {
+    "path": "/workspace/scratch/1b6d88ecddf3/m3-work/newg-native-m24/runs/actual-lambda0p002/0009-jac-output.bin",
+    "sha256": "2d45ebf9406f8726ac0ae89723e89da1b46e7f21bfb6aa489d2c5bfe4e095eeb"
+  },
+  "native_metadata": {
+    "path": "/workspace/scratch/1b6d88ecddf3/m3-work/newg-native-m24/runs/actual-lambda0p002/static-metadata.json.gz",
+    "sha256": "61cb025b5128c13cfe6db52a583ecbabf418ebc00e9b6bae98145719b353b869"
+  },
+  "native_manifest": {
+    "path": "/workspace/scratch/1b6d88ecddf3/m3-work/newg-native-m24/native-source/native-manifest.json",
+    "sha256": "66f068dffd2e5010f87875280eaf0dbe29a2a8ce50db6e7dce32a414626f9c3d"
+  },
+  "binding": {
+    "all_1152_input_maximum_difference": 0.0,
+    "original_response_residual": 1.8946163107633334e-10,
+    "inner_mean_perturbation_and_background": [
+      -2.692206334612768e-10,
+      0.0009253164581766512
+    ],
+    "mean_contract": "Two distinct saved local increments, accumulated from the finite deepest port in descending stage order. Slot 2M is perturbation mean; slot 2M+1 is background primitive. This is a numerical existing-flow primitive, not a newly certified continuous one."
+  },
+  "artifacts": {
+    "stage127-saved-native-input.json": {
+      "sha256": "33d5702e69ac7598fc356123c04ea03a35bf6e816f6976115f136ce054c1c70e",
+      "bytes": 16372
+    },
+    "stage127-literal-r-data.json": {
+      "sha256": "45b86d8328d47dc61a4dba399e066332a0f1774b1cc945df9d89b5604fed2cd1",
+      "bytes": 608629
+    },
+    "stage127-true-background-quintic-certificate.json": {
+      "sha256": "4475a596ab271b470032ed443ab1603623674956981dfe14113e5783aba12ba1",
+      "bytes": 72173
+    }
+  },
+  "execution": [
+    {
+      "session": 23736,
+      "exit_code": 0,
+      "action": "read and match saved native call9 only"
+    },
+    {
+      "session": 18855,
+      "exit_code": 0,
+      "seconds": 8.205242157,
+      "nodes": 18,
+      "midpoints": 17,
+      "maximum_source_finite_metric": 2.0556052525544474e-21,
+      "maximum_planar_projection_errors": [
+        9.57195770268342e-24,
+        3.4420106475345963e-22,
+        3.7830017709158285e-14
+      ],
+      "original_replay_end_vs_native": {
+        "first48MaximumAbsoluteDifference": 8.673617379884035e-19,
+        "meanIncrementDifferences": [
+          3.3138468906524264e-26,
+          -1.64959666477775e-19
+        ]
+      }
+    },
+    {
+      "session": 65113,
+      "exit_code": 0,
+      "seconds": 68.83704765600123
+    }
+  ],
+  "true_background": {
+    "oracle_provenance": {
+      "definition_sha256": "e764e2cc370f0b7a8a55324f2744702017c16690195f45db92ca66b9781bae56",
+      "constants_sha256": "1a1bcd1679f9f3b507c19bed8f3a1310fda81ac16452ad164edef3e95d82dfc9",
+      "normalization_certificate_sha256": "0b7222717ce302b6e5d5654a3764f9c75892c9e15c1416cb04bb532cea880598",
+      "kernel_sha256": "b7a8dc501dc3dbbe4ccb14d6b4ea2b4b85849d14b9551a94f5c23798d7985806",
+      "oracle_sha256": "d133b3ed5b9e5b5a8e15e3a6bb49b3969b65abbd77fbb17a9d0af835d28c1901",
+      "interval_digits": 60,
+      "coefficient_tolerance": "1/100000000000000",
+      "variation_tolerance": "1/1000000000000000000000",
+      "normalization_definition": "(rCut - true_r160 - integral_A) / integral_B",
+      "calibration_roots": "The 160 recorded binary calibrationAlpha values, unchanged.",
+      "coordinate": "Original cell/segment/x locator; C2 surface jets use physical R=r(x).",
+      "mean_contract": "Only the rotational background height relative to its cut; no nonrotating mean is supplied or reset.",
+      "finite_oracle_transfer_certified": false
+    },
+    "cover": {
+      "literal_radius_bounds": [
+        "4907972894358845/36028797018963968",
+        "613765877257567/4503599627370496"
+      ],
+      "source_cover": [
+        [
+          0,
+          0,
+          "999999/1000000",
+          "1"
+        ],
+        [
+          0,
+          1,
+          "0",
+          "62501/1000000"
+        ]
+      ],
+      "left_radius": {
+        "lower": 0.13622361208160472,
+        "upper": 0.13622361209323397,
+        "lower_exact": "3502446476484948245505974062181989754870445330488864863118929/25711008708143844408671393477458601640355247900524685364822016",
+        "upper_exact": "3502446476783947237773440714062373226155719244485845412862239/25711008708143844408671393477458601640355247900524685364822016"
+      },
+      "right_radius": {
+        "lower": 0.13628340317321977,
+        "upper": 0.13628340318488663,
+        "lower_exact": "875995941440533015692546551568434180023225262563575810814109/6427752177035961102167848369364650410088811975131171341205504",
+        "upper_exact": "7007967532124196075305107083150460863865398835516542678716777/51422017416287688817342786954917203280710495801049370729644032"
+      },
+      "w_range": {
+        "lower": 0.01112281824804677,
+        "upper": 0.011514288681339363,
+        "lower_exact": "2287831014677054227406134646177926484169114853640391394394101/205688069665150755269371147819668813122841983204197482918576128",
+        "upper_exact": "9473407249727950280240187924410001253769459876475242734876259/822752278660603021077484591278675252491367932816789931674304512"
+      },
+      "auxiliary_w0_exact": "6524701845243485/576460752303423488",
+      "maximum_abs_w_minus_w0_exact": "161041595509867397344698265365789943823016029412768393131619/822752278660603021077484591278675252491367932816789931674304512",
+      "strict_monotone_cover_verified": true,
+      "w0_scope": "Auxiliary constant in an exact error decomposition, not a new background or an alpha choice."
+    }
+  },
+  "conclusions": {
+    "status": "explicit_C2_stage_true_metric_gate_passed",
+    "radius_mesh_definition": "Exact binary64 radiusJS knot values, explicitly selected; no true-R interval midpoint is used as a breakpoint.",
+    "map_definition": "The original true R58 rotational background plus Fourier coefficients interpolated by the unique exact quintic in physical R matching each pair of shared literal value/first/second jets.",
+    "mean_definition": "Perturbation mean at the inner endpoint is the original saved native increment sum. The outer endpoint uses the same saved stage increment. Interior values are the original RK replay. The target background primitive must be supplied separately; do not add the background mean slot to the perturbation twice.",
+    "literal_shared_two_jet_identities_checked": 15606,
+    "spans": 17,
+    "all_angle_and_continuous_radius": true,
+    "continuous_metric_operator_upper": {
+      "lower": 1.1276927598946531e-09,
+      "upper": 1.1276927598946533e-09,
+      "lower_exact": "3891524692952545576970684976736081841294519394282314019674447/3450873173395281893717377931138512726225554486085193277581262111899648",
+      "upper_exact": "7783049385905091153941369953472163682589038788564628039348895/6901746346790563787434755862277025452451108972170386555162524223799296"
+    },
+    "continuous_metric_gate": "1e-6",
+    "metric_gate_passed": true,
+    "position_perturbation_upper": {
+      "lower": 6.081949454397154e-08,
+      "upper": 6.081949454397155e-08,
+      "lower_exact": "6558761316914128842205589162061668248091592784652513716111407/107839786668602559178668060348078522694548577690162289924414440996864",
+      "upper_exact": "409922582307133052637849322628854265505724549040782107256963/6739986666787659948666753771754907668409286105635143120275902562304"
+    },
+    "normalized_first_jet_upper": {
+      "lower": 2.0252180056304984e-06,
+      "upper": 2.025218005630499e-06,
+      "lower_exact": "3412485588821964115917832454320785373784872948413847493077261/1684996666696914987166688442938726917102321526408785780068975640576",
+      "upper_exact": "1706242794410982057958916227160392686892436474206923746538631/842498333348457493583344221469363458551160763204392890034487820288"
+    },
+    "normalized_covariant_hessian_upper": {
+      "lower": 0.0009426012352620451,
+      "upper": 0.0009426012352620452,
+      "lower_exact": "12408437026882349907440065089749701253198457173874818000188715/13164036458569648337239753460458804039861886925068638906788872192",
+      "upper_exact": "6204218513441174953720032544874850626599228586937409000094359/6582018229284824168619876730229402019930943462534319453394436096"
+    },
+    "principal_curvature_absolute_upper": {
+      "lower": 8.000975008639745,
+      "upper": 8.000975008639747,
+      "lower_exact": "803566945784288221442115180499341321743300498202192291018091/100433627766186892221372630771322662657637687111424552206336",
+      "upper_exact": "6428535566274305771536921443994730573946403985617538328144731/803469022129495137770981046170581301261101496891396417650688"
+    },
+    "reference_geometric_bounds": {
+      "maximum_slope_exact": "41/100",
+      "maximum_absolute_principal_curvature_exact": "8",
+      "source": "R58 true 4.625 background, with the tight normalization proof. These are not old 3.125 bounds."
+    },
+    "midpoint_literal_reference_jet_difference_upper": [
+      {
+        "lower": 1.3869114984890185e-20,
+        "upper": 1.3869114984890188e-20,
+        "lower_exact": "6577904844689423506617128990924027204744817676704895439995961/474284397516047136454946754595585670566993857190463750305618264096412179005177856",
+        "upper_exact": "3288952422344711753308564495462013602372408838352447719997981/237142198758023568227473377297792835283496928595231875152809132048206089502588928"
+      },
+      {
+        "lower": 1.1890125052413974e-14,
+        "upper": 1.1890125052413976e-14,
+        "lower_exact": "5378056332468624386682679638953955758348182594606185614363525/452312848583266388373324160190187140051835877600158453279131187530910662656",
+        "upper_exact": "2689028166234312193341339819476977879174091297303092807181763/226156424291633194186662080095093570025917938800079226639565593765455331328"
+      },
+      {
+        "lower": 5.854189556798437e-10,
+        "upper": 5.854189556798439e-10,
+        "lower_exact": "8080826277410617503391979018112898824854647894100035311570381/13803492693581127574869511724554050904902217944340773110325048447598592",
+        "upper_exact": "505051642338163593961998688632056176553415493381252206973149/862718293348820473429344482784628181556388621521298319395315527974912"
+      }
+    ],
+    "midpoint_difference_scope": "Exact all-angle Fourier l1 bounds at the 17 saved midpoint radii; reference arrays are finite literal data, not a continuous PDE solution.",
+    "planar_second_jet_selection": "Recorded fourth-order finite differences used only as explicit finite common node parameters.",
+    "source_fd_step_comparison": {
+      "node": 1,
+      "xi": 0.027593061460454912,
+      "planarRRMaximumCoefficientDifference": 2.443485540154726e-14,
+      "scope": "FD stability diagnostic only; both sets are possible finite literal choices."
+    },
+    "global_tail_completed": false,
+    "full_H_response": false
+  },
+  "commands": [
+    "OPENBLAS_NUM_THREADS=1 python math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4/extract_q060_stage_from_native_record.py --checkpoint m3-work/newg-wide-lambda0p002-m24-actual/tail_0001.json.gz --native-record m3-work/newg-native-m24/runs/actual-lambda0p002/0009-jac-record.json --stage 127 --out n4-work/q060-tail-geometry/stage127-saved-native-input.json",
+    "OPENBLAS_NUM_THREADS=1 node math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4/export_q060_saved_stage_r_jets.mjs --input n4-work/q060-tail-geometry/stage127-saved-native-input.json --out n4-work/q060-tail-geometry/stage127-literal-r-data.json",
+    "OPENBLAS_NUM_THREADS=1 python math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4/certify_q060_stage127_r_quintic.py --data n4-work/q060-tail-geometry/stage127-literal-r-data.json --constants n4-work/q060-tail-geometry/constants.json --normalization-certificate n4-work/q060-tail-geometry/tight-integrals-certificate.json --out n4-work/q060-tail-geometry/stage127-true-background-quintic-certificate.json"
+  ],
+  "bvp_solves_executed": 0,
+  "shooting_iterations_executed": 0,
+  "scope_limits": [
+    "Only existing .25 warm, not full-H response",
+    "Only one contiguous stage, not the whole finite tail or global closure",
+    "Literal node rr choices do not certify original PDE or continuous JS/FD derivatives",
+    "Global prefix/tail Cartesian and mean seam not certified here"
+  ]
+}
