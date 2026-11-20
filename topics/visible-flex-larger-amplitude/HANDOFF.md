@@ -4,7 +4,7 @@
 
 ## 规则与目标
 
-最近规则核查：2026-11-20 11:34 UTC，真实pull/rebase至 `062773f222513ee80186868db57e463b2007670e`，双README相对上次已读无差异。
+最近规则核查：2026-11-20 11:41 UTC，真实pull/rebase至 `f8cc86a92c4ff4030bcc798fd0fac0bb6f083d44`，双README相对上次已读无差异。
 
 公开仓库内工作，终端git普通push；NFF立即pull/rebase再推，每次查双README差异，至少每小时pull。根README已授权全部必要修改/发布；完整证明直接登记，不加冻结/独审门。raw只scratch，Git/Release/artifact只保小源/参数/run/SHA/紧凑结论。题≤200MB、单MD<100KB、H<10KB、open<30KB。令牌只瞬时CLI，不写文件/提交/回复。根唯一git writer，代理写work及小blob。
 
@@ -54,4 +54,4 @@
 
 纯metric 173/314/674/1280/2648维旧子代K14至44；全M160 polar K95055、弱列尺度K2748，均不再当几何父。旧节点/中点QP 0c535/c71已由Gauss揭必要产品>1；不回用。旧cap16仅176Jv/176VJP、exit130、0完整方向/试步/接受；原L²未跑。09:49–约10:03UTC执行故障已恢复，未实际启动新Actions；重复5732本地保backup并rebase跳过，不改远端史。源/失败/原任务未返责任均见固定历史H及notes。
 
-[容量记录](notes/2026-11-20-resume-raw-retention.md)保已移出旧R168可重算报告的源/参数/hash/固定历史恢复，当前研究不使用它。真正闭等距、全域metric、全t嵌入/reach、固定H/完整D/整像held/含反射E与固定参数精化仍未完成；继续实际求解与open下一子题。
+[容量记录](notes/2026-11-20-resume-raw-retention.md)保已移出旧R168及R33可重算报告的源/参数/hash/固定历史恢复，当前研究不使用它。真正闭等距、全域metric、全t嵌入/reach、固定H/完整D/整像held/含反射E与固定参数精化仍未完成；继续实际求解与open下一子题。
