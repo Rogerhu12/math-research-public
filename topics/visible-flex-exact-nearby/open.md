@@ -177,6 +177,6 @@ R138的[几何桥](results/R138-residual-sensitive-Codazzi-frame-and-geometric-J
 
 [R138实际全圈mean44733403315](results/R138-supplement-actual-full-circle-root-mean-denominator.md)全8192闭格、11当前/6历史已核冻结，严格17/20<D<87/100、mean逆费<20/17；真实frame费用全计。只消费原定义，不重轴/旧geometry；根finite+tail、体吸收与全逆仍待。
 
-[R141独立完整F Bc比较](results/R141-supplement-receiver-free-complete-FBc-comparison.md)已证明Π0(P_B−Q*Rc)全部source-only正比较及body-only CFB消费；原Rc五项先精确消去collar常项、再取三角上界，J*仍至R，返回投影只属有限F。67输入/21历史、320bits、1target3球首次push，不调用低Green/atoms/旧50目标。原S⁻¹只一次；actual G_H/family/physical/finiteρ/两rhs仍待，后继读回球才能判门。
+[R141完整F Bc实际](results/R141-supplement-actual-complete-FBc-raw-comparison.md)44734581045/1已成3球：正比较raw范数<8828。全Rc五项/true J*至R/原S⁻¹一次保；只是upper，不推实际范数大或奇异。67当前/21原件/25门已核冻结，低body返回门尚未判；独立真实G_H五项source费用继续，原family/physical/finiteρ/7ports/两rhs全待。
 
 公开科学只用本仓库Actions，规则15只留脚本/参数/run/hash/小结论；0旧成功重算，非FF立即rebase推到成功，每次pull两README差异记H。readonly44712172133成功与旧43921663540运维失败保持原范围；无静态他题workflow行政白名单，逐次仍核topic≤200MB。
