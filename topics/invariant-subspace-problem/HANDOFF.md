@@ -7,8 +7,9 @@
 - **未完成：** 普通复可分无限维 Hilbert ISP。仅全体有界算子的存在定理或完整反例满足完成标准；子问题结束继续open，不以阶段报告或时限停止。
 - **最近成功实际 pull 与已读规则提交：** `59462e513099b833a30d1d23d6a48ec615a96835`（2026-11-20 09:47:09 UTC）。两README完整读；相对此前4d75dba仅根课题表增加held-10pct，规则无变。
 - 仅授权Rogerhu12/math-research-public。根独占main/H/open/results/log，代理交冻结稿。逐结论实际终端push，非快进立即pull --rebase再推至成功，不force；至少每小时和推前实际pull，比两README blob，仅新diff重读并立即遵守。
+- **最近API同步及规则核对：** `9288f266d1f242b594d70a714e20340fcb876023`（2026-11-20 09:51 UTC）；两README blob均未变。此为API快照，不冒称实际git pull；本地恢复后补实际pull。
 - 根README blob282e86b03385d3b6245ce7100ae2e2af7b103c2d、课题4d6570e9cf346431ab781a1290076a6321aaaa00已完整读。令牌仅CLI环境或已有Actions secret，不进文件/日志/config。规则15：可重算数组/数据/证书不进Git、Release或新工件，仅源码/参数/运行身份/SHA及正式证明。API仅UTF8<100KB，MD<100KB，H≤10000B，open尽量≤30KB，topic≤200MB，log每条≤5行、数学美元符、AI署名，不写根LOG。
-- 本地executor已恢复；部分克隆仅本课题，当前约96MB。旧作业TMP不假存活，先核已提交执行回执与原日志再决定续算。
+- 2026-11-20 09:49 UTC本地executor断开且environment unavailable；已成小文本用GitHub接口按根规则8提交，恢复后先检查未推本地a06d8dbd8与远端等价内容，避免重复。原部分克隆约96MB，旧TMP不假存活。
 - 完整此前状态、所有未列开放项保[刚归档H](notes/2026-11-16-handoff-before-quintic259-minimal120-789f.md)、[完整open](notes/2026-11-16-open-before-weight10-input-audit-789f.md)及归档链；省略不算关闭。
 
 ## 当前实际执行接续
@@ -21,13 +22,11 @@
 
 - 全W31/W127原rank-one模、非裂扩张、Ann/共同指数及全部整来源费已闭，保[结果索引](results.md)及H归档，不重算。
 - 全essT3≤3 matched Bell零，但真W±Cat3临界点存在；不判Cat3空。Bell非零仍ess4/5/6，单点或两原子来源不覆盖例外。
+- **[ess4外均值的原长度五代数](results/R150-appendix-essential-four-outer-mean-length-five-algebra-and-rank-defects.md)已闭。** Cat(y)=3、essT3=W为4且y∉W，完整Hankel约束强制唯一长度五曲线除子D及全部原jets；同一Frobenius代数的L,ν给全部y/H/V/T3，不除L。完整H仅rank3/4/5，所有非单位缺陷已分类；中心三次奇点Z²∈CL²，七分拆已全列。原highest与全部low gradients仍须同解，未排Bell非零；y∈W与ess5/6也仍开。
 - 原全局9×57/9×56、free32、十低基、全部56图册和原35节点/degree80对偶正规化已付；全Bell由4q+15δ覆盖。仍须每图真实$g_i^{N_i}$原来源后按$N=1+\sum(N_i-1)$粘合，不以几何代替判空。各完整source、例外与来源费见归档/索引。
-- **[实际完整210/200原来源](results/R150-appendix-actual-complete210-parameter-columns-and-all200-original-gradient-sources.md)：** 24均值+80交换子二字像十向量/十八源全真，Bell槽0，最终291.639秒exit0。根独立1040/1872递推坐标、104原乘回及权9/10全真；新增7034750向量项/2707447来源项。全部106phase双SHA。不是新秩/GB/单位。
 - **[原E权七/八维数夹逼与完整梯度商非零类已闭](results/R150-appendix-original-characteristic-zero-low-weight-rank-sandwich-and-source-bounds.md)。** 完整E200权上界与同原模127非零子式夹得$\dim_E\Gamma_7=312,\dim_E\Gamma_8=1312$，商维7442/16362。原四规范$q_jb^2$在完整$S/J_{17}$中线性独立，$b\delta_{14}$及六个$y_i b\delta_{14}$分别非成员；不宣六类联合独立。原十八源过滤在E及任意扩域保持，排非零规范q组合来源权≤10和δ≤9；保中间G5。不是有限域系数提升，不限J17候选来源次数，但仍不排加Bell后的更高权来源或更高b幂。
 - 原权8全17674×1386秩1312、74全核、root原unit det4/1307876核坐标已闭；14高列全原换源，36低种子一轮完整106、第二轮稳定是上界，不认最小轮2。
-- 原E低20因子化、精确坐标及原四次95降次完整源/hash保归档与[索引](results.md)，不重算。
 
-- 原E200/210完整呈示及权5/6/7/8/9/10来源分组保[原证明](results/R150-appendix-original-koszul-fiftyfive-quotient-and-characteristic-zero-twohundredten-presentation.md)；本次原120删除80个权10冗余二字低来源，旧全部原200数组仍供完整权10任务。
 
 ## 新文献方向与原模型
 
