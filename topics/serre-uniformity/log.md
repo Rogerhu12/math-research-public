@@ -618,3 +618,7 @@
 ### 2026-11-20 18:22 Asia/Taipei — serre-public-astra-20261120-de0a3e3b
 - R941已证明完整SS迹的原CM常数项式，两行统一为原F^p Θ_Q^(r−1)F/Δ^m；全留数与权2整除消项保原点权、Q/Frobenius、d1/cF。
 - 常数项一般非零/高Q′来源桥仍开；未借范数正性或抽象乘性一。独立核读原来源并逐条推送，继续完整Hecke packet与实际sigma比较。
+
+### 2026-11-20 18:24 Asia/Taipei — serre-public-astra-20261120-de0a3e3b
+- R942完整群/coset/两marking证明及run44718206366新系数通过：T5²的147456与666²排除低权所有长零Jordan链，实际原V10†为全广义零线。
+- 保det5中途共轭、det25返回与原Norm标度；高权整个CM packet的theta饱和仍待，未从低权一维冒称完整trace或Q′非零。

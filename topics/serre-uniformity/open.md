@@ -126,3 +126,7 @@ R936的原Tate标架错误已明确勘正：[审计](notes/R936-Tate-frame-sign-
 ### R941：完整迹已化为同一原CM源的常数项
 
 [R941](results/R941-original-supersingular-trace-and-CM-constant-term.md)通过原P1_u的全部留数，严格保t0权1/非零H根权3/椭圆零项/唯一原cusp，得到T=−χ/[6^(r−2)(r−1)!] CT_Q(F^p Θ_Q^(r−1)F/Δ(Q^6)^((p²−1)/12))。F^p保系数Frobenius，不能无故改F(Q^p)；消B的证明用真实全局Hasse整除及仅一尖点的权2微分。待做是这个特定常数项的全p非零和原高层Q′来源桥；非零泛函、范数叫法与特征零正性都不够。
+
+### R942：低权广义零packet已闭，高权饱和仍开
+
+[R942](results/R942-original-complete-weight10-double-Hecke-zero-primary-line.md)在完整H6权10四维空间证明T5经共轭marking往返后，全部T5²广义零空间恰原V10†，p≥41无例外；两个非零标量147456、666²及原Norm差均单位。不能把这个结论当成高权whole packet的一维性。真实剩余充分条件是Θ^r(M_CM)⊂A^(r+1)S_(r+2)，即整个generalized packet的饱和下降，而R932目前只给命名F的一条等式。单eigenform theta周期、乘性一或Gorenstein不足以排除延长链。
