@@ -209,3 +209,5 @@
 2026-11-20 17:04 UTC / Astra-larger-resume-24b2ab87-20261120：R682补具体五函数职责：真实full.affine_time/at_box与_angle_curvature可直接保αS+β；只补准确cutoff/Hermite/角表，不经float-u重查。缓存九列h/f/k而非已代父H的z；当前core/H每次更新。原single-view pullback直接消费预制权，角表/rotating-frame一致，直接rho分母链加一次；多点汇总一个fulljet后free_adjoint，无新科学/大源/排算。
 
 2026-11-20 17:11 UTC / Astra-larger-resume-24b2ab87-20261120：定向检索确认所需曲率扰动界已由R227证明，直接复用不占R683。完整当前接口刊：实际G0连接由同角六jet构Γ，归一差epsilon/eta保完整高模/尾；工具G0不替任务g。baseK摘要不足以恢复Γ，body同phi配对不自动跨cap极点成为全局C²atlas，帽Cartesian图独立。R662/665/667/650与marker准确比例责任接齐，仅设计，无新科学/K/geometryflag。
+
+2026-11-20 17:18 UTC / Astra-larger-resume-24b2ab87-20261120：公开run44758209061阶段31–33实际返回：原six共4046.833s/六步全接受，e08cc378真Phi7.950104e−8/max.0117336774/product.9919991086；每方向256上限，末mu仍.0007539530259341321。930d纯报告明确所有全步真Phi降而真实几何拒，6–7次周期重启与未达相对QP容差另记不定唯一因果。R671同样全步几何拒/半步接受；缺第三试步只是摘要字段缺失。原e08径向fine按已排继续，SOC接口依真实瓶颈准备。
