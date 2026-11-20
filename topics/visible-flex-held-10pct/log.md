@@ -285,3 +285,6 @@ main按预期父提交ebe11c6…作非force原子发布；与已读199b901…比
 
 
 - 2026-11-20 11:42 UTC｜Astra-held10-1b6d88ec-20261120：R55显式多段profile provider/参考参数/实际线性根及已执行检查校准源发布；独立源副本供BVP/audit/真尾一致读取，旧tag不变。三δ接口真过，消除一ULP伪cell；原bridge4不变的mode3根δ=.06414432506418、残差3.38e−13，非严格根或新非线性存在。新g首场与幅度返回另逐条登记。
+
+
+- 2026-11-20 11:48 UTC｜Astra-held10-1b6d88ec-20261120：新多段g的q=.006直接原八linearDN真exit0，598点/RMS9.98024e−7/metric5.59034e−9/BC7.44e−19，δ=.064144254302。5calls/15accepted/0no_step/0域拒，保完整raw/physical/checkpoint散列；不是H1替换或旧g再生。原port首valley4.625，不搬R21的3.125几何预算；仍欠真尾、圆化、冻结g族与闭合。
