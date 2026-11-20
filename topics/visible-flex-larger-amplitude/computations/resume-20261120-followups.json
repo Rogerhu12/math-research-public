@@ -1,6 +1,6 @@
 {
   "parent_request_id": "visible-larger-resume-20261120-01",
-  "finish_when_done": false,
+  "finish_when_done": true,
   "steps": [
     {
       "id": "early-release-original-qp-01",
@@ -500,89 +500,6 @@
         "full-phi-margin-pair-compact/margin-0998/inequality-rows-*"
       ],
       "scope": "Actual c4a3 continuation and its returned damping; two complete original-coordinate Phi QPs with identical v2/source/working eligibility cutoff and every permanent point, only .992/.998 safety bands differ; no reach certificate; same complete positions after JSON-whitespace compaction only, fresh output and actual retry after initialization failure"
-    },
-    {
-      "id": "continue-R671-full-phi-first-02",
-      "script": "topics/visible-flex-larger-amplitude/scripts/resume_20261120/launch_full_phi_exact_tail_actions.py",
-      "parent_bundle": "geometry_path/curvature-qp-spectral-hessian-r22-union-next-four.npz",
-      "args": [
-        "--repo",
-        "{repo}",
-        "--work",
-        "{work}",
-        "--bundle",
-        "{work}/geometry_path/curvature-qp-spectral-hessian-r22-union-next-four.npz",
-        "--carrier",
-        "{work}/recover_evidence/gauss6-current-three/same-scalar-gauss-observations.npz",
-        "--manifest",
-        "{work}/geometry_path/curvature-qp-spectral-hessian-r22-union-next-four-witnesses-compact.json",
-        "--node-report",
-        "{work}/fullclosed_solver/data/fullclosed-hold-warm.json",
-        "--scalar-input",
-        "{work}/fullclosed_solver/data/pulse-a5-complete-base.json.gz",
-        "--eta-start-node",
-        "885",
-        "--lambda-value",
-        "1",
-        "--source-lambda",
-        "0",
-        "--migration",
-        "nodal-projection",
-        "--damping",
-        "0.0007539530259341321",
-        "--directions",
-        "1",
-        "--maxiter",
-        "256",
-        "--active-rows",
-        "192",
-        "--reach-safety-factor",
-        ".992",
-        "--active-band",
-        ".025",
-        "--outdir",
-        "{work}/exact-tail-full-phi-first-compact"
-      ],
-      "outputs": [
-        "exact-tail-full-phi-first-compact/report.json",
-        "exact-tail-full-phi-first-compact/final.npz",
-        "exact-tail-full-phi-first-compact/exact-tail-lift-profiles.json",
-        "exact-tail-full-phi-first-compact/exact-tail-lift-profiles.npz"
-      ],
-      "summary": {
-        "exact-tail-full-phi-first-compact/report.json": {
-          "complete": "complete",
-          "factory_context_required": "factory_context_required",
-          "lambda": "exact_tail_lambda",
-          "parent_lambda": "exact_tail_parent_lambda",
-          "model_identity": "exact_tail_context.model_identity_sha256",
-          "final_bundle_sha256": "final_bundle_sha256",
-          "initial_Phi": "initial.spectral.phi_normalized",
-          "initial_max_gram": "initial.max_relative_gram",
-          "initial_product": "initial_curvature_filter.necessary_reach_product",
-          "initial_known_point_pass": "initial_curvature_filter.passed",
-          "stop_before_linear": "stopped_before_linear_iteration",
-          "final_Phi": "current.spectral.phi_normalized",
-          "final_max_gram": "current.max_relative_gram",
-          "final_weighted_sse": "current.radial_weighted_frobenius_sse",
-          "final_product": "final_curvature_filter.necessary_reach_product",
-          "final_known_point_pass": "final_curvature_filter.passed",
-          "accepted": "directions.0.accepted",
-          "alpha": "directions.0.accepted_alpha",
-          "iterations": "directions.0.qp.advances",
-          "projected_gradient": "directions.0.qp.final_face_projected_gradient_norm",
-          "maximum_linear_violation": "directions.0.qp.maximum_linear_violation",
-          "height_step": "directions.0.height_step",
-          "final_damping": "final_damping",
-          "sample_target": "sample_target",
-          "seconds": "seconds",
-          "rss_KiB": "process_peak_rss_KiB"
-        }
-      },
-      "cleanup_generated_patterns": [
-        "exact-tail-full-phi-first-compact/inequality-rows-*"
-      ],
-      "scope": "New R671 lambda=1 exact same-g lift, full nodal projection seed followed by actual all-row/all-point screening and one full-space Phi QP only if feasible; no old field or certificate inheritance; same complete positions after JSON-whitespace compaction only, fresh output and actual retry after initialization failure"
     }
   ]
 }
