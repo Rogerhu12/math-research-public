@@ -815,7 +815,7 @@ $$
 
 完整固定代数ker(F−1)为kπ的有限直积。逐个使用其全部基元的真实乘法矩阵，按全部线性特征因子分裂，得到所有primitive idempotent；不枚举可能很大的整个kπ。每个实际剩余因子中，按Frobenius避开全部最大真子域得到生成元α，再实际核完整幂基满秩、最小多项式不可约及全部原环基到该残域的映射。选择α只改变原残域的内部坐标；多项式商与原生有限域的正反同构在生成元和原底域生成元上均回代，原ω像沿原嵌入保留。Sage官方 [field_extension接口](https://doc.sagemath.org/html/en/reference/polynomial_rings/sage/rings/polynomial/polynomial_quotient_ring.html#sage.rings.polynomial.polynomial_quotient_ring.PolynomialQuotientRing_domain.field_extension) 明确给出域、商到域、域到商三个返回对象；固定版本的实际使用仍由新原输入公开门核验。
 
-对完整norm中π的指数e，π^e湮灭整个primary商，所以小纤维幂等元的初始误差在(π)内，经e↦3e²−2e³至多ceil(log2(e))次必变成精确零。程序检查完整误差为零才接受，之后构造全部局部primary理想并按真实norm次数读重数；所有分量总长必须返回原理想长度。原点身份用完整最大理想HNF，重复hash后继续比较完整矩阵。
+对完整norm中π的指数e，π^e湮灭整个primary商，所以小纤维幂等元的初始误差在(π)内，幂等元经ε↦3ε²−2ε³至多ceil(log2(e))次必变成精确零。程序检查完整误差为零才接受，之后构造全部局部primary理想并按真实norm次数读重数；所有分量总长必须返回原理想长度。原点身份用完整最大理想HNF，重复hash后继续比较完整矩阵。
 
 | 新源文件 | SHA256 |
 |---|---|
@@ -823,3 +823,175 @@ $$
 | `original_ys_local_value_tools.py` | `a954fdaf928bda3d731ecd88eecf6d418aa11bd77d7f17f03dde1683a9f3a21b` |
 
 本节完整证明与源码已接入；没有把静审写成实际原闭点、共同零首项或原shadow的计算PASS。
+
+
+## 14. 六个完整厚cusp纤维的实际成功回执
+
+2026-11-20 11:33:36 UTC，[run44726729349/job136255921310](https://github.com/Rogerhu12/math-research-public/actions/runs/44726729349/job/136255921310) 在source `155a07fd16deb83bc20a98a84eac54e8ea17ae22` 完成，固定Sage10.6、r29、q2453、batch64，耗时759.771730582秒。root已读取完整日志并独立核result和日志SHA256。本进程重新完整构造原306整环，再核666条原截面在两图表中的全坐标，最后读取全部六个纤维。
+
+在 ξ=0,1,−1,3,−3,∞ 每处，全部306维真实纤维均得到三个局部分量，(全长度,残域次数)为(289,1)、(1,1)、(16,16)。实际p-Frobenius秩27、平方秩18、nilradical维288，特征多项式为X^288(X−1)^2(X^16−1)；全部1至16次固定空间维数与2+gcd(n,16)相符，F16为真实约化投影且F18=F²。每处厚分支都实际找到原ν并验证完整289条幂基满秩、ν^288非零及ν^289=0。
+
+全部原666个射影坐标在未约化局部代数中保留，规范闭点标签只在真实约化映射之后形成。所得18个原Fp闭点互异：12个有理点（其中6个为厚分支）、6个次数16点；几何点总数108、完整scheme长度1836、tame different总数1728。这里仍只列Fp闭点；原Fp²消费者必须沿原ω将次数16分为两个次数8闭点，不能以这18个标签直接替代其点集。
+
+同一截面坐标转换完整秩666，原J/J0单位回代及J0的2453项同M2成员关系均通过。完整坐标基身份为 `84e7607edb5ec5bc78cb5a11108d07bf58ff11e7b3ea228c6cd2f477bf9929a2`；原乘法签名仍为§12的 `5ce8e795…aed8`，原环不变。
+
+| 回执 | SHA256 |
+|---|---|
+| 完整最终result | `0ebfe8763fb9579bb919ff7c3f5069ce53d8ec43e02d58cc330d101092302b50` |
+| 完整六纤维子result | `c0a16658c7e618a0ce26968f16ae22e526b08fa19113b8511952c6ba11cfdade` |
+| 完整job日志 | `4845084168d607ec408148b6328f695b79f4e7dc45100dc0240a9159ce90fd79` |
+| 同进程完整正规化result | `dc9d902e82c66e7c4b2672cebed208271473caec1f86f8b9a9f31b76838f1ba1` |
+| 全666截面有限图表坐标 | `f563e0342ce864fa3bb0bf76906b1d5fe67b171958537fb158ef8c005da64211` |
+| 全666截面无穷图表坐标 | `9bb1dc26c39b9a5c4481f810d2711e490cf7aca8bad0374bd63d029d1b0feaa0` |
+
+源码hash与§11所列一致；每个纤维的全表、Frobenius、参数幂基和原666坐标hash均在该公开完整result中。只把source/args/run/hash及数学结论登记，不保存重算坐标文件。本次不声称原大交除子、任意函数共零值或shadow已计算。
+
+
+## 15. 原306整环的精确批量系数收缩
+
+**状态：代数恒等式已证明；新适配脚本仅通过静态语法与独立只读检查，实际数学执行待公开 Actions。**
+
+本注只说明 `original_affine_fast_operations.py` 对已认证乘法的实现等价性，不产生新的全局模型、除子或 shadow 结论。其输入是 `original_affine_multiplication.py` 的完整原环 context，包括已经逐个完成全局零界检验的 46,971 个对称基乘积、原单位和两张正规化图表。原 `certificate`、乘法签名和 `product_blocks` 对象均原样保留。
+
+### 15.1. 原表与行向量约定
+
+设 $k=\mathbb F_r$，$r\in\{29,41\}$，完整原环为
+
+$$
+A=\bigoplus_{i=0}^{305} k[t]b_i,\qquad d_i\le4.
+$$
+
+原全局认证给出所有 $b_ib_j$ 的唯一展开
+
+$$
+b_i b_j=\sum_{k,e} C_{ij;k,e}\,t^e b_k,
+\qquad C_{ij;k,e}\in k,\quad 0\le e\le d_i+d_j-d_k.
+\tag{1}
+$$
+
+每个权 $m=d_i+d_j$ 的完整 `recipe` 是所有 $(k,e)$，其中 $0\le e\le m-d_k$；`product_blocks[m]` 的一行就是式 (1) 的全部系数。`product_pair_positions` 指明该行。适配器检查全对称 pair 的位置无重复、无遗漏，权和正确，所有表行恰被占用。
+
+对输入 $x=\sum_i x_i(t)b_i$，行向量约定要求
+
+$$
+(M_x)_{jk}=\sum_i x_i(t)\sum_e C_{ij;k,e}t^e,
+\qquad yM_x=xy.
+\tag{2}
+$$
+
+原慢 API 对每个 $i,j$ 构造一次整行多项式，再相乘相加。新 API 先在 $k$ 上完成式 (2) 的系数收缩，最后每个输出多项式只构造一次。
+
+### 15.2. 固定一行的完整收缩
+
+固定 $j$ 和输入权 $a$，令 $I_a=\{i:d_i=a\}$，$m=a+d_j$。定义原生有限域矩阵
+
+$$
+S_{j,a}[i,(k,e)]=C_{ij;k,e}\qquad(i\in I_a).
+$$
+
+这只是从原权 $m$ 表选取真实行，不重新恢复任何函数。写
+
+$$
+x_i(t)=\sum_r x_{i,r}t^r,\qquad
+X_a[r,i]=x_{i,r}.
+$$
+
+实际执行先检查每个 $x_i$ 是否为严格零多项式，只保留
+$I_a(x)=\{i\in I_a:x_i\ne0\}$。在 $X_a$ 和 $S_{j,a}$ 上同时删去其余列、行，式 (3) 不变，因为删去的每项都是 $0\cdot C_{ij;k,e}$。原表的 $(k,e)$ 列仍全部保留。代码直接从原表选取 $I_a(x)$ 对应行，绝不先拷贝整个 $I_a$ 表再删行；单个基元输入因此只为每个 $j$ 选取一条原乘积行。
+
+一次完整矩阵乘法给出
+
+$$
+B_{j,a}=X_aS_{j,a},\qquad
+B_{j,a}[r,(k,e)]=\sum_{i\in I_a}x_{i,r}C_{ij;k,e}.
+\tag{3}
+$$
+
+将该数放到输出 $(j,k)$ 的 $t^{r+e}$ 系数，随后对全部 $a,r,e$ 相加，所得系数恰为式 (2)。这是对任意多项式输入的恒等式，不依赖稀疏性或次数小。
+
+脚本预先构造每个权的 `plans`。每一原 `recipe` 列在各指数组中恰出现一次；无效输出列选取专门附加的零列。因此分组、补零与列选择没有丢掉任一原表系数，也没有重复计数。每个 $(j,a)$ 的选行矩阵只创建一次，供全部输入次数和常数分量共享。
+
+### 15.3. 无穷图表仍是同一原表
+
+原另一图表的完整自由基为 $c_i=t^{-d_i}b_i$，参数 $s=t^{-1}$。由式 (1) 直接得到
+
+$$
+c_ic_j=\sum_{k,e} C_{ij;k,e}\,s^{d_i+d_j-d_k-e}c_k.
+\tag{4}
+$$
+
+指数非负性已经属于原全局乘法认证。对 $x=\sum_i x_i(s)c_i$，式 (3) 完全不变，只把每项置入输出次数
+
+$$
+r+a+d_j-d_k-e.
+\tag{5}
+$$
+
+脚本的另一组 `plans` 完整执行式 (5)，同样恰好消费每个原列一次。输入多项式已经是 $c_i$ 基的系数，故无需再反转输入多项式。
+
+在两张图表上，所有输出列都满足
+
+$$
+\deg(M_x)_{jk}\le
+\max_{i:x_i\ne0}(\deg x_i+d_i)+d_j-d_k.
+\tag{6}
+$$
+
+该界直接来自每项指数，脚本对所有非零输出多项式逐项检查。
+
+### 15.4. 原二次常数域的处理
+
+若调用者给定其原有 $K=\mathbb F_{r^2}$，令 $\gamma=K.\mathrm{gen}()$。脚本保留此同一个域对象，不构造新域或新 $\omega$。每个输入系数唯一写成 $u+v\gamma$，其中 $u,v\in k$，并在实际原域中检查重组等式。
+
+因为所有 $C_{ij;k,e}$ 均在 $k$，式 (3) 对两个分量独立成立：
+
+$$
+(X_{a,0}+\gamma X_{a,1})S_{j,a}
+=X_{a,0}S_{j,a}+\gamma X_{a,1}S_{j,a}.
+\tag{7}
+$$
+
+最后用调用者的同一个 $\gamma$ 回拼。因此线性算子 $M_x$ 的构造不需要另算任何 $\gamma^2$ 交叉项；执行 $yM_x$ 时，原多项式环中的真实乘法自动处理这些项。常数拆分与回拼的缓存最多含 $r^2$ 个常数，每个首次出现的值都验证实际域内的互逆转换。
+
+### 15.5. 完整返回与有限兼容检查的不同作用
+
+每次调用，包括所有后续密集输入，均执行以下完整步骤：
+
+1. 读取输入的所有多项式系数，按实际原常数域拆分。
+2. 对每个实际非零权类和常数分量计算完整式 (3)，记录全部收缩矩阵的哈希。
+3. 完成式 (2) 或 (5) 的全指数散射。
+4. 一次构造每个输出多项式，再从全部输出多项式中重新拆出全部系数，与散射矩阵逐项相等。
+5. 记录所有输出系数的完整哈希、系数数量、原表签名与选行、散射方案的哈希。
+
+多项式超过真实次数的系数为零是精确代数事实，这里没有未知的幂级数尾项。没有使用抽样点、随机向量或随机素数。
+
+此外，每个实际常数域首次使用时，都在两张图表上比较真实原单位及一个含两基坐标、次数分别为 2 和 3 的确定性稀疏输入。比较的是全部 $306\times306$ 矩阵，与原慢 API 完全一致。这个检查只用来查 API 或变量约定的兼容问题；任意密集输入的正确性来自式 (2)–(7) 及该次完整系数返回，不能把稀疏检查冒作所有输入的证明。
+
+### 15.6. 缓存、精度与接口
+
+适配器只保留有界的原生 $k$ 选行矩阵缓存，默认计账预算为 64 MiB；不缓存数千万个多项式对象。固定 $(j,a)$ 的未缓存矩阵在一次算子中也只创建一次，不随输入次数或二次域分量重复拷贝。预算控制的是额外保留的数值表，原已认证结构表本身不复制。
+
+缓存键还包含真实非零坐标的有序元组：整个权类均非零的密集输入照常复用全组 selector，部分非零输入仅复制自己的严格非零行。稀疏基元在实际权类大小为 65、226 或 14 时，也只复制一行；未读取的零行不是额外假设。receipt 分别记录实际复制的素域项数和因严格零输入而省去的项数，后续性能结论须以 Actions 实际计时为准。
+
+Sage 10.6 原源码 `matrix_modn_dense_float.pyx` 与 `matrix_modn_dense_double.pyx` 明确分别使用 32 位和 64 位单元。计账采用每项 8 字节再加行与对象余量。`matrix_from_columns` 支持重复、重排下标，附加零列可被多次引用；有限域元素的多项式代表以原域生成元为基。这些 API 均已只读核对原项目源码或官方文档。
+
+- [Sage 10.6 小素数矩阵源码](https://github.com/sagemath/sage/blob/10.6/src/sage/matrix/matrix_modn_dense_float.pyx)
+- [Sage 10.6 双精度矩阵单元源码](https://github.com/sagemath/sage/blob/10.6/src/sage/matrix/matrix_modn_dense_double.pyx)
+- [Sage 官方矩阵选列说明](https://doc.sagemath.org/html/en/reference/matrices/sage/matrix/matrix_modn_dense_float.html)
+- [Sage 官方有限域系数表示说明](https://doc.sagemath.org/html/en/reference/finite_rings/sage/rings/finite_rings/element_base.html)
+
+新 helper 不访问 Laurent 展开或 q 展开，故新增精度损失严格为 0。已付的全局零界仍完全由原完整乘法认证承担。
+
+公开构造函数为：
+
+```python
+build_original_affine_fast_operations(
+    affine_context, progress=None, selector_cache_mib=64
+) -> (adapted_context, receipt)
+```
+
+原 `multiplication_matrix`、`multiply`、`product_coordinates`、`chart` 与 `constant_extension` 接口保持不变；新增 `multiplication_matrix_with_certificate`、`coefficient_contraction_summary` 和 `last_coefficient_contraction`。全部调用都被顺序哈希摘要覆盖；原乘法 `certificate` 与原结构表对象保持原样。
+
+本注没有声称新适配层已在 Actions 实际通过，也没有声称六个厚 cusp 纤维、原大交除子或最终 shadow 已由该适配层完成。
+
+本次接入源码 `original_affine_fast_operations.py` 的SHA256为 `f1bfef0145de4a8c7ed0f3478272d62482a2b7e7607011c5b0af099f7bc2a22a`；root全文及稀疏修正均已静审，尚待原输入公开门。

@@ -212,4 +212,4 @@ R887(116a)进一步准确给C(Hω)=0及C²(𝔄Faω)=0：rω=(1/3)dlog y与[G]_(
 
 - [R925](results/R925-original-ys-affine-rings-and-complete-divisor-ideals.md)：同原ys的J=SY/(ys²+3)²给完整306过滤自由基、两正规化图表与所有共零/零极/原交理想；2453精度及全W8窗严付，完整多项式核保饱和，六cusp含289重分支。原有限判别式为[ys(ys²−1)(ys²−9)]^288。§12已实际PASS全部46971乘积/两图表/单位，h2=68且14个权4元；大交除子/shadow仍待。
 
-- [R925§6.2.1、§7.4、§10–11](results/R925-original-ys-affine-rings-and-complete-divisor-ideals.md)：完整norm与包含关系认证理想积早停；同原最大理想完整HNF给精确点身份，hash仅索引。原六cusp纤维各Fp[ν]/ν^289×Fp×Fp16，F16真约化投影、全289幂基与666原射影坐标接受门已证。截面/理想/helper接入，固定Sage饱和核/Hermite实际PASS；六厚纤维运行中，大交除子/shadow未付。
+- [R925§6.2.1、§7.4、§10–11](results/R925-original-ys-affine-rings-and-complete-divisor-ideals.md)：完整norm与包含关系认证理想积早停；同原最大理想完整HNF给精确点身份，hash仅索引。原六cusp纤维各Fp[ν]/ν^289×Fp×Fp16，F16真约化投影、全289幂基与666原射影坐标接受门已证。截面/理想/helper接入，固定Sage饱和核/Hermite与六厚纤维均实际PASS，全部289幂基/666坐标保；大交除子/shadow未付。

@@ -586,3 +586,5 @@
 - 2026-11-20 11:29:47 UTC / Astra-rank2-Sha-resume-08eb2b79-20261120：R925§12原完整306环实际PASS即推，root独立核全result/log；h2=68、14个权4元、全46971乘积/两图表/单位均过，592.379秒。固定Sage整核/Hermite实际API亦PASS；R926完整cube源码经独审接公开请求，六厚cusp仍运行，不冒大除子/shadow。
 
 - 2026-11-20 11:33:35 UTC / Astra-rank2-Sha-resume-08eb2b79-20261120：R925§13原完整κ/primary及任意阶共零局部读者全证即推；root全文审、两助手分层独审，F²用像上逆才得约化投影，612×306全HNF等于q^v保真实首项。接入两helper，仅AST未冒实际局部PASS；cube run44728285578/job136261182683已运行。
+
+- 2026-11-20 11:36:57 UTC / Astra-rank2-Sha-resume-08eb2b79-20261120：R925§14原六厚cusp实际PASS即推，完整result/log独立核hash；18Fp闭点/108几何点/1836长、全289幂基及666原坐标过，759.772秒。§15原表精确Fp系数收缩经全文审接入，稀疏仅删严格零项；Fp²闭点/局部值与原cube继续公开门。
