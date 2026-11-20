@@ -281,3 +281,5 @@
 - [R672：完整同角六 jet 包围与真实欧氏曲率自适应连续上界](results/R672-complete-lowmode-sixjet-curvature-with-laurent-remainders.md) — 完整 $( -\rho^2+i\rho_\phi)P_K$ Laurent 支撑、全部原高模／解析尾和准确径向三 jet 均保留；同角真第一形式形算子上界完整证明，只细化未付预算胞。源码仅公开 Actions，当前无新应用；不冒原模型 reach，也不向 R671 非多项式 lift 继承 degree6 证书。
 
 - [R674：准确参考尾的连续 profile、完整六 jet 与同角余项](results/R674-reference-tail-continuous-profile-and-same-angle-remainders.md) — 同原a/I oracle和符号节点的Taylor/Bell三阶包围、degree10先合并、完整角高尾及rho约消后的Gram误差证明；新非零lambda连续消费者的严格接口，无候选数值或旧证书移用。
+
+- [R675：同场嵌入与准确高度角模排除活动平面开片](results/R675-embedded-activity-nonplanarity-from-height-jets.md) — 嵌入直接付两轴迹非零，角解析延拓与每原胞非零高Z三jet排任意平面开片；适用R671且无径向解析或新轴oracle，平帽允许，条件消费者不冒marker/reach。

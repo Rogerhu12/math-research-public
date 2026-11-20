@@ -332,6 +332,51 @@
       "scope": "Fresh complete continuous first geometry of this canonical R671 lambda=1 field using the same original integer scalar and all angular tails; no old-field certificate, no reach/metric/marker conclusion from mere source preparation"
     },
     {
+      "id": "reconstructed-R671-embedded-activity-nonplanarity-02",
+      "script": "topics/visible-flex-larger-amplitude/scripts/resume_20261120/exact_reference_tail_nonplanarity.py",
+      "parent_bundle": "exact-tail-full-phi-actual-coarse/final.npz",
+      "args": [
+        "--repo",
+        "{repo}",
+        "--bundle",
+        "{work}/exact-tail-full-phi-actual-coarse/final.npz",
+        "--embedding-report",
+        "{work}/postprocess/reference-tail-first-geometry.json",
+        "--node-report",
+        "{work}/fullclosed_solver/data/fullclosed-hold-warm.json",
+        "--out",
+        "{work}/postprocess/reference-tail-activity-nonplanarity.json"
+      ],
+      "outputs": [
+        "postprocess/reference-tail-activity-nonplanarity.json"
+      ],
+      "summary": {
+        "postprocess/reference-tail-activity-nonplanarity.json": {
+          "status": "status",
+          "model_identity_sha256": "model_identity_sha256",
+          "J": "J",
+          "M": "M",
+          "inherited_same_field_global_embedding": "inherited_same_field_global_embedding",
+          "exact_symbolic_positive_widths_paid": "exact_symbolic_positive_widths_paid",
+          "all_cells_nonzero_height_mode_condition_paid": "all_cells_nonzero_height_mode_condition_paid",
+          "activity_nonplanarity_certified": "activity_nonplanarity_certified",
+          "all_original_cells_nonplanar": "all_original_cells_nonplanar",
+          "two_mirrored_active_sheets_included": "two_mirrored_active_sheets_included",
+          "no_planar_open_patch_meeting_activity_interiors": "no_planar_open_patch_meeting_activity_interiors",
+          "known_flat_cap_interiors_excluded": "known_flat_cap_interiors_excluded",
+          "selected_witness_count": "selected_witness_count",
+          "minimum_selected_absolute_value_exact": "minimum_selected_absolute_value_exact",
+          "scalar_oracle_calls": "scalar_oracle_calls",
+          "field_evaluations": "field_evaluations",
+          "repeated_embedding_calculation": "repeated_embedding_calculation",
+          "four_fixed_marker_construction_performed": "four_fixed_marker_construction_performed",
+          "Euclidean_shape_amplitude_certified": "Euclidean_shape_amplitude_certified",
+          "seconds": "seconds"
+        }
+      },
+      "scope": "R675 consumes only the actual same-field complete embedding and exact high-Z endpoint jets; no new field/oracle calls or inherited old nonplanarity; flat caps allowed, unpaid sufficient hypotheses stay unpaid"
+    },
+    {
       "id": "reconstructed-current-direct-first-geometry-02",
       "script": "topics/visible-flex-larger-amplitude/scripts/resume_20261120/actions_closed_postprocess.py",
       "parent_bundle": "geometry_path/curvature-qp-spectral-hessian-r22-union-next-four.npz",
