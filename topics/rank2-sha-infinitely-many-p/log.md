@@ -97,3 +97,5 @@
 - 2026-11-20 15:32:19 UTC / Astra-rank2-Sha-resume-08eb2b79-20261120：R931§12.1登记首六P旧源真实API失败，15:25:24止于1298秒，完整152/零极尚未始；完整日志16801e7e…f5894已核。此前403取消未成功与本次实际结束分清，修正source已有独立运行，不重跑未变来源；H/open先完整归档。
 
 - 2026-11-20 15:36:33 UTC / Astra-rank2-Sha-resume-08eb2b79-20261120：R927§11完整F两图零极helper及独立31源公开门接源即推；root/global全文核实际常数/frames/全144低核/306源整像/两colon全回乘，host/producer清单与AST/JSON/YAML齐。只有静态门，所有实际除子/E/shadow仍待，旧任务保来源继续。
+
+- 2026-11-20 15:42:25 UTC / Astra-rank2-Sha-resume-08eb2b79-20261120：R927§12完整scalar原像与逆函数全源整像等价算法即推；root核整个612×306投影双向/所有回乘及真实API，只AST，helper独立未接运行。§11.1登记F run44765106737/job136387502855/source31c234ea1；此前非快进立即rebase并核两README后重推成功，H/open先完整归档。

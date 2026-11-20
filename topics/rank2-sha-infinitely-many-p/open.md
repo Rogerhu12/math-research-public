@@ -2,7 +2,7 @@
 
 主目标：固定一条 E/Q，完整证明 rank≥2 且无穷不同 p 的通常全 Sha(E/Q)[p∞] 有限。**未完成，持续研究；不在阶段结果、时限或建议处停下。**
 
-[完整前档](notes/2026-11-20-open-before-six-P-native-api-outcome.md)保全部旧问题、公式、条件、预算与归档链；[旧H](notes/2026-11-16-frontier-before-padic-reconstruction.md)保旧source/run/job。未重写的门均仍有效。
+[完整前档](notes/2026-11-20-open-before-scalar-colon-gate.md)保全部旧问题、公式、条件、预算与归档链；[旧H](notes/2026-11-16-frontier-before-padic-reconstruction.md)保旧source/run/job。未重写的门均仍有效。
 
 ## O1. 固定曲线的秩：已完成
 
@@ -261,4 +261,4 @@ R937附A/B：同q全部合法native尾方向对两条固定行零响应；给定
 
 ## R927§10：完整原F双图零极门
 
-[R927§10](results/R927-original-yF-pole-degree-from-mixed-kernel-and-cusps.md)已付原144低B、同a/b整像与两图标量q/q0，IA/IB全度4752/1080且不交；IC=IA+qIB后的完整两colon/回乘给真零极，1296仅末端核验。§11独立31源入口已接，完整除子/shadow实际PASS仍待。
+[R927§10](results/R927-original-yF-pole-degree-from-mixed-kernel-and-cusps.md)已付原144低B、同a/b整像与两图标量q/q0，IA/IB全度4752/1080且不交；IC=IA+qIB后的完整两colon/回乘给真零极，1296仅末端核验。§11原F run44765106737已启动；§12单scalar核/逆整像独立未接，完整除子/shadow仍待。

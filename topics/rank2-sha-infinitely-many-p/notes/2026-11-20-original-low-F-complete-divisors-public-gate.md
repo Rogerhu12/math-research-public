@@ -23,3 +23,7 @@
 完整31源列表见两个前端的`SOURCE_FILES`，其余依赖仍是仓库当前已登记源码；本次新增整像依赖`original_ys_integral_image_tools.py`的SHA256为`268ae368f0aea343b1490d2245d19475e82c193a3dd4f2e0cc747aec49ff86c0`。
 
 状态仅为已接源并请求运行。即使独立F零极门将来通过，也不表示cube、六P完整除子、四个E、全闭点/trace、shadow、ordinary或无穷p通过；所有相应flags准确保持false。实际run/job/source及结果须另按公开回执登记。
+
+### 11.1 独立原F公开任务实际启动
+
+2026-11-20 15:37:17 UTC，[run44765106737/job136387502855](https://github.com/Rogerhu12/math-research-public/actions/runs/44765106737/job/136387502855) 已启动并进入原PASS鉴定及数学步骤。完整来源为 `31c234ea1d801217a5bc43d52c381fbee0448ca0`。推送曾被非快进拒绝，立即pull --rebase后复核两README无差异并成功重推；source以实际run head为准。这里仅登记运行，不预填任何完整F除子或shadow PASS。
