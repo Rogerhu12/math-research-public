@@ -193,3 +193,5 @@
 2026-11-20 16:24 UTC / Astra-larger-resume-24b2ab87-20261120：独立geometry03实际run44772201880/1已API确认in_progress、source e0d4892a，控制器真实索引已生成；原44758209061仍运行。H与调度说明绑定实际run，不冒几何已返，继续两支未付工作。
 
 2026-11-20 16:34 UTC / Astra-larger-resume-24b2ab87-20261120：第七次普通退存568918B的R33 plateau2低到高列raw：原SHA9bc4a1f2、固定717d/blob69f完整保；实际77ba主源及三完整依赖、五准确输入各固定commit/blob/SHA/全CLI刊。joint严格用d7e57 coupling-metric，不混旧wide-low。旧low→high已付而reverse/full-head未付保持，无科学重算/历史重写。
+
+2026-11-20 16:35 UTC / Astra-larger-resume-24b2ab87-20261120：独立R671几何合并器521187ae完整刊：分别消费b36/v1或df8/v2真实schema/source，实际bundle/node/model/同first SHA全部绑定；高Z/非零解析尾两集合互斥完整覆盖，每项数量及旧all-height flag如实。原9da未改，R650/R661/Fraction几何公式原文保持。仅源码/AST核对，未科学消费、未预排，已有b36全付不重复运行。

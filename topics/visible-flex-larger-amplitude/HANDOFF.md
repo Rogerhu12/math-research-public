@@ -4,7 +4,7 @@
 
 ## 规则与完整目标
 
-最近规则核查：2026-11-20 16:34 UTC，真实pull/rebase至 `86ffb25d8f60e3ae75c1f3990db6d5618f690a87`，双README相对上次已读无差异。
+最近规则核查：2026-11-20 16:35 UTC，真实pull/rebase至 `ebe1e1989cdb4d84fc1b80d39918961024e44ada`，双README相对上次已读无差异。
 
 科学计算仅本公开仓库Actions；早前本地偏差及13:00 UTC纠正见[执行记录](notes/2026-11-20-public-actions-execution-correction.md)。根README已授权必要修改/发布；根唯一local git writer，代理只work/小源。每条结论普通commit/push；NFF立即pull --rebase循环再推，不强推。至少每小时pull，每次核双README差异/立即遵新规并记commit。raw只scratch/runner，不入Git/Release/artifact；只保完整小源/参数/run/SHA/紧凑结论。题≤200MB，MD<100KB，H<10KB，open<30KB。令牌只瞬时CLI，不写文件/提交/回复。
 
@@ -42,13 +42,13 @@ run2队列：尾纯report归因；原six→实际报告归因→同g径向二分
 - R672：全M/未截断Laurent六jet与真实形算子K；完整实际应用归worker03，R666编号保留最终同场reach应用。
 - R673：固定面gap与真实射线，负乘子须分开；不用旧高mu数值代新mu。
 - R674：共同a/I Taylor jet及独立导数余项、profile误差；f122 first/K和fd4 tight Gram全源齐，新全域自适应5d04728c已排。旧盒限制不自动缩余项。
-- R675：嵌入+准确高Z jet排平面开片，b36消费者已排；解析非零尾另有cos(alpha)非有理性替代证明，v2仅准备，不自动被旧合并器接受。
+- R675：嵌入+准确高Z jet排平面开片，b36消费者已排；解析非零尾另有cos(alpha)非有理性替代证明，v2及独立521187ae合并器仅准备；旧合并器仍只认旧证明，已有全付不重复消费。
 - R676：同g符号二分/补零/旧行正权/全部永久点/六jet转移差；真实fine solve源齐。跨层Phi权变只比较共同父泛函，单次转移或fine不冒持续精化收敛。
 - R677：同QP可靠残差刷新/固定面长CG与正确预条件度量，v3 fb4ec6b8准备未跑；每32真残差成本显式，是否采用依真实归因。
 
 R650/R661提供同场support/K加四固定p4 marker的全t reach/grip/held/E框架。R656/R657支付连续几何/Gram接口；R658/R659付6077整面幅度，R663/R667付各自0241/077几何，均不继承到别场。R660正谱目标/有限max、R664正Hessian保原全空间。R668实际v2例Actions通过/2release，旧fixture不再加。
 
-主要新入口与说明都在scripts/resume_20261120/及notes/2026-11-20-*：完整父绑定4d9dd319、原同级18ba10e5、尾同级425fd1d1、R676转移2e8ae998/fine100e57c6；新尾几何合并9da689fa只认f122+b36。raw只各runner，不从旧note数字重造候选。
+主要新入口与说明都在scripts/resume_20261120/及notes/2026-11-20-*：完整父绑定4d9dd319、原同级18ba10e5、尾同级425fd1d1、R676转移2e8ae998/fine100e57c6；新尾合并9da689fa认f122+b36；独立521187ae认真实b36或df8，保互斥全胞覆盖与真实旧flag。raw只各runner，不从旧note数字重造候选。
 
 ## 复现与不重做
 
