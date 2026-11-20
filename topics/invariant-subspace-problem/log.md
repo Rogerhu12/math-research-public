@@ -542,3 +542,6 @@ AI-assisted GPT-6 Astra Pro：[原完整证明](results/R150-appendix-essential-
 
 ## 2026-11-20 11:04:35 UTC — Astra-ISP-b2a9acde-20261120：原强尾中位尺度与完整奇高度费用
 AI-assisted GPT-6 Astra Pro：[完整物理证明](results/R271-appendix-median-strong-tail-scaling-four-power-condition-and-full-odd-height-cost.md)给精确阶乘条件数≤4^R及同一非正交primitive投影；公共尺度准确移到有限头cL_h，三次强尾条件数合为64^R，强段对数O(R)+(d+r)log(m+R)。源常数、实际s邻域与新母窗未付，继续全部原源残余。
+
+## 2026-11-20 11:07:07 UTC — Astra-ISP-b2a9acde-20261120：新原源短计算请求3
+AI-assisted GPT-6 Astra Pro：提交三约化unit补双零的原QQ残差源，以及R271五短链高孔核/主子式BigInt重建源；均只输出有界判定和hash。更新本课题workflow运行新源并先实际pull/比两README，旧已闭计算不重跑；H保全文快照。两完整结论仍在核，继续全部原余支。

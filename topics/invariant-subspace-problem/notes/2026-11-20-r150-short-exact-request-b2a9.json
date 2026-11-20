@@ -1,13 +1,31 @@
 {
   "format": "isp-r150-short-exact-request-v1",
-  "sequence": 2,
+  "sequence": 3,
   "session": "Astra-ISP-b2a9acde-20261120",
-  "createdUtc": "2026-11-20 10:59:00 UTC",
-  "task": "Exact QQ reconstruction of original gradients and gcd contradictions for unit-two-plus-one / double-zero rank-four branch",
-  "sourcePath": "topics/invariant-subspace-problem/notes/2026-11-20-essential-four-unit-two-plus-one-double-zero-verify.py",
+  "createdUtc": "2026-11-20 11:07:07 UTC",
+  "task": "New exact original reduced-three double-zero identities and full three-bit highest-carry high-hole principal minors",
+  "sourcePaths": [
+    "topics/invariant-subspace-problem/notes/2026-11-20-essential-four-reduced-three-double-zero-verify.py",
+    "topics/invariant-subspace-problem/scripts/verify-r271-three-bit-highest-carry-principal-minors.mjs"
+  ],
   "dependencies": {
     "sympy": "1.13.3",
-    "mpmath": "1.3.0"
+    "mpmath": "1.3.0",
+    "node": "runner-provided; actual version in run identity"
+  },
+  "parameters": {
+    "r271": {
+      "r": 3,
+      "tailLengths": [
+        1,
+        3,
+        5,
+        7,
+        9
+      ],
+      "integerScale": 36,
+      "finiteFieldForCandidateSelectionOnly": 1000003
+    }
   },
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
