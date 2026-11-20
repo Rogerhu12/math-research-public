@@ -1,0 +1,89 @@
+--- a/original_ys_local_value_tools.py
++++ b/original_ys_local_value_tools.py
+@@ -197,7 +197,7 @@
+         return parameter
+ 
+     def valuation(self, point, value):
+-        """The exact v_Q of an integral element; zero has value infinity."""
++        """Exact v_Q via the complete original pole bound; zero has value infinity."""
+         state = self._point_state(point)
+         value = self.engine.element(value)
+         if value.is_zero():
+@@ -217,15 +217,33 @@
+             }
+         else:
+             assert state["maximal"].contains(value)
+-            principal = self._principal_ideal(value)
+-            norm_order = self.engine.polynomial_valuation(
+-                principal.determinant, state["pi"])
+-            # v_pi Norm(a)=sum_{Q'|pi} f(Q'/pi)*v_Q'(a).
+-            # All terms are nonnegative, and f(Q/pi) is the ACTUAL residue degree.
+-            upper = norm_order//state["relative_degree"]
++            # R925 section 19: in either authenticated chart, a polynomial
++            # coordinate of degree e on a basis vector of weight d has poles
++            # bounded by (e+d) times the complete opposite degree-306 fiber.
++            # The complete closed-point degree is over the ORIGINAL constants,
++            # not the residue degree over the selected base polynomial prime.
++            weights = tuple(int(w) for w in self.engine.chart["original_basis_weights"])
++            assert len(weights) == self.engine.dimension == 306
++            assert all(0 <= w <= 4 for w in weights)
++            support = [(i,int(polynomial.degree()),weights[i])
++                       for i,polynomial in enumerate(value) if polynomial]
++            assert support
++            weight_bound = max(e+w for i,e,w in support)
++            upper = (306*weight_bound)//state["degree"]
+             assert upper >= 1
+-            lower, beyond = 1, upper+1
++            lower, beyond = 1, min(2,upper+1)
+             history = []
++            # Search outward from the actual simple residue zero.  The first
++            # failed whole-ideal query brackets the TRUE order; a large global
++            # upper bound does not force a large initial ideal power.
++            while beyond <= upper:
++                contained = self._power_ideal(state, beyond).contains(value)
++                history.append([beyond, bool(contained)])
++                if not contained:
++                    break
++                lower = beyond
++                beyond = min(2*beyond,upper+1)
++            assert lower < beyond <= upper+1
+             while beyond-lower > 1:
+                 midpoint = (lower+beyond)//2
+                 contained = self._power_ideal(state, midpoint).contains(value)
+@@ -235,18 +253,30 @@
+                 else:
+                     beyond = midpoint
+             order = lower
+-            assert self._power_ideal(state, order).contains(value)
+-            assert not self._power_ideal(state, order+1).contains(value)
++            in_exact = self._power_ideal(state, order).contains(value)
++            in_next = self._power_ideal(state, order+1).contains(value)
++            assert in_exact and not in_next
++            assert 1 <= order <= upper
+             record = {
+                 "operation": "exact integral valuation",
+                 "point_fingerprint": point["fingerprint"],
+                 "element_sha256": key, "valuation": order,
+-                "full_principal_ideal_sha256": polynomial_matrix_digest(principal.basis),
+-                "complete_principal_norm_sha256": polynomial_digest(principal.determinant),
+-                "base_prime_norm_order": norm_order,
+-                "actual_residue_degree_over_base_prime": state["relative_degree"],
++                "bound_method": "complete original two-chart global pole bound",
++                "original_complete_fiber_degree": 306,
++                "original_integral_basis_weights_sha256": digest(weights),
++                "actual_nonzero_coordinate_degree_weight_data": support,
++                "actual_coordinate_weight_bound": weight_bound,
++                "proved_global_pole_degree_upper_bound": 306*weight_bound,
++                "actual_full_residue_degree_over_original_constants": state["degree"],
+                 "proved_integral_valuation_upper_bound": upper,
++                "no_principal_ideal_or_norm_computed_for_initial_bound": True,
+                 "complete_ideal_membership_search": history,
++                "final_two_complete_memberships": [[order, bool(in_exact)],
++                                                   [order+1, bool(in_next)]],
++                "complete_q_to_actual_order_sha256": polynomial_matrix_digest(
++                    self._power_ideal(state, order).basis),
++                "complete_q_to_next_order_sha256": polynomial_matrix_digest(
++                    self._power_ideal(state, order+1).basis),
+                 "exact_membership_in_q_power_and_not_next_power": True,
+             }
+         state["valuation_buckets"].setdefault(key, []).append({
