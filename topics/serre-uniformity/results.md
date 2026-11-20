@@ -56,6 +56,8 @@
 
 - **R957（原Legendre滤子的固定极阶CM卷积核）**：[原同标签完整滤子与CM卷积](results/R957-original-Legendre-filter-as-a-fixed-pole-CM-convolution.md)。两Jacobi族同一正CM格点保原−s oldform系数；p−7角矩标记值准确为(3/2)(p−7)!·(−864)^(1−N)乘Σ(6i+4)fi gj C^(6i+3)。原Legendre平均在conic上化成七阶极点、显式六次K6与Δ^((p−13)/2)，全部退化值由多项式恒等式覆盖；λ⁴平均保完整本原mask。原三个因子同h非零等价所得marked polynomial非零，但该非零仍未证。SHA256 b9583df8363c0b9c4324ba43160e4756111cdcca20e74fca83e4ffddb84bd2be。
 
+- **R958（原r2完整Cartier矩阵与单矩判据）**：[两向全空间Cartier及原迹比较](results/R958-original-r2-Cartier-matrices-and-one-moment-trace-criterion.md)。新反角色L_-双对角算子给完整两向Fr逆矩阵，保同H6/原C负号/全SS权；整个双角色ker恰kF。真实前像 iff ℓ_N(−2D^(2N+1)β²C^p mod tH)=0；明确非零c_mom=Tr((3−2e0)DC/β²)及S^p=−216c_momℓ_N(R_F)准确连接原迹。只证线性比较标量单位，指定moment非零仍开；无新扫描、不外推r8/Q′。SHA256 61553ac826bd8e7f904efba85aca36bcccbfd635b743515f7e5b9e1b892b89f2。
+
 ## 当前原高度、函数与同标签接口
 
 - **R808（已证明）**：[原cuspidal Gram商与真实period/split/Howe链](results/R808-original-cuspidal-Gram-quotient-and-Howe-chain.md)。R727全部群元素的整Gram把原轨道格非退化约化商准确识别为Sym^(2r)det^(−r)，r=min(h−1,p−h)；原e0、Frob-Hermitian、Tζ平均像和N_h同时运输。位置Cartan与链内SL2严格区分，链中心规范与Hasse连接准确匹配；实际sigma原单项式仍经Kraw混合，同h配对非零未得。 SHA256 c24889c8d8407447dc38e14b583d002c289697b1b75376af7ea5348c4f6a03db。

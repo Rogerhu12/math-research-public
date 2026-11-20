@@ -6,14 +6,14 @@
 
 **维护会话：serre-public-astra-20261120-de0a3e3b。** 已部分克隆并真实pull main，接手serre-public-astra-20261115。最新前态逐字在[H归档](handoff-archive-2026-11-20-before-conjugate-primitive.md)与[open归档](open-archive-2026-11-20-before-conjugate-primitive.md)，内接全部旧pins/公式/关闭边界。只消费已成来源，不重做已登记结论。
 
-**已读规则提交：673affa0f24273205d85315a853efac340479e85**（2026-11-20T11:18:52.278145+00:00；终端真实git pull --rebase origin main，两README无diff）。相比b77de2c7仅根课题表新增held-10pct；两README完整已读。root SHA256 581402c2 / topic 35f82f3d。此前来源与原pins沿[旧归档](handoff-archive-2026-11-16-before-Igusa-Frobenius-residues.md)。
+**已读规则提交：090d0785401ef3c16ea2e40f61bf0fa3d6cfafcf**（2026-11-20T11:25:23.838541+00:00；终端真实git pull --rebase origin main，两README无diff）。相比b77de2c7仅根课题表新增held-10pct；两README完整已读。root SHA256 581402c2 / topic 35f82f3d。此前来源与原pins沿[旧归档](handoff-archive-2026-11-16-before-Igusa-Frobenius-residues.md)。
 
 每结论立即推；每push前且至少每小时真实pull。NFF立刻pull --rebase再推循环成功，禁force。每pull检查两README，有变只读diff并立即执行，SHA记此。PAT仅CLI，不入文件/提交，root独占main。新数学仅本公开仓库Actions；外部只纸证/IO/schema/hash/AST。raw不入Git/Release，本轮只/tmp和stdout。H<10KB、open<30KB、每MD<100KB、topic<200MB；log用Asia/Taipei≤5行，不写根LOG，不设额外审批/测试门。
 
 ## 当前工作入口与断点
 
 1. **全p同h选择**：R945已排无例外“完整trace非零⇒中央Q′单位”。R949/954两原序列的CM mark公式全常数已定；[R957](results/R957-original-Legendre-filter-as-a-fixed-pole-CM-convolution.md)给原共同格点、Legendre平均的七阶conic极点/六次K6闭式及λ⁴完整primitive mask。准确marked polynomial的系数恰单位乘同h的P_(h−1)fi gj，非零仍开；固定核非零/全Fourier非零不能代原mark非零，两评价权h−3/p−h−2不是R913两权。
-2. **原完整trace**：[R955](results/R955-original-Cartier-nilpotent-packet-is-a-single-odd-chain.md)证实际CM包的Cartier nilpotent部分N恰单奇链L=2m+1，ker=kF、coker由原λ非零检测。原trace非零 iff L=1；失败 iff原W^-有Cω=Φ_w(F)的前像，最短坏链3。先完整U5零primary再Cartier Fitting，不假设整包nilpotent；实际共轭mark返回同一H6，不添第二低权核。R952 whole饱和仍是更强充分条件；R950低权对角已闭，继续排真实L≥3。
+2. **原完整trace**：[R955](results/R955-original-Cartier-nilpotent-packet-is-a-single-odd-chain.md)证实际CM包的Cartier nilpotent部分N恰单奇链L=2m+1，ker=kF、coker由原λ非零检测。原trace非零 iff L=1；失败 iff原W^-有Cω=Φ_w(F)的前像，最短坏链3。先完整U5零primary再Cartier Fitting，不假设整包nilpotent；实际共轭mark返回同一H6，不添第二低权核。R952 whole饱和仍是更强充分条件；R950低权对角已闭。[R958](results/R958-original-r2-Cartier-matrices-and-one-moment-trace-criterion.md)给r2全两向Cartier矩阵：L_-t^j=(3j+1)(3j+2)t^j−(6j+7)²t^(j+1)，真实R_F=−2D^(2N+1)β²C^p mod tH。原前像存在 iff ℓ_N(R_F)=0；精确S^p=−216c_momℓ_N(R_F)，c_mom=Tr((3−2e0)DC/β²)已证非零。继续判指定moment，不把c_mom单位当trace单位。
 3. **原全Abel/height**：[R948](results/R948-rational-quadratic-Abel-root-and-original-coordinate-separation.md)已证两有限p的二次scalar根在pZp，非中心iff真char0 M2≠0，v(w*)=2+v(M2)−ν/2；两例ν0/M5阶−5。另一真实h按R727全tail分离额外根，原开盘全Abel零集仅中心；仍不排正秩非零MW像或替代height。
 
 ## 最新已成：原类、完整商与两个中央零

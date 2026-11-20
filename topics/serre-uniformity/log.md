@@ -682,3 +682,7 @@
 ### 2026-11-20 19:18 Asia/Taipei — serre-public-astra-20261120-de0a3e3b
 - R957完整把原同h Legendre滤子接到两正CM格点源，七阶conic极点给明确六次K6，primitive λ⁴、−s oldform及全部mark商常数保留；六步递推和留数root已手核。
 - 全marked polynomial非零仍是准确缺口，不用单summand/Fourier非零替代；H前态逐字归档以续保尺寸，既有数学不重做。
+
+### 2026-11-20 19:25 Asia/Taipei — serre-public-astra-20261120-de0a3e3b
+- R958完整给原r2两向Cartier矩阵和唯一moment前像判据，原符号、Fr逆、全部SS/fine12保留；精确S^p=−216c_momℓ_N(R_F)，比较标量已证单位。
+- 目标moment是否非零仍开；继续实际Kummer/Hasse–Witt或原低高权比较，不重复旧窗，不混r8与中央Q′。

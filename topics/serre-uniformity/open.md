@@ -62,6 +62,8 @@ $$
 
 [R955](results/R955-original-Cartier-nilpotent-packet-is-a-single-odd-chain.md)把所需trace非零进一步缩成较弱、且**等价**的实际条件：先在原两δ空间取真实U5=(T5orig)²的完整零primary，再取Cartier nilpotent Fitting部分N。R952和完整低权核给ker(C|N)=kF；λ杀U5可逆及Cartier可逆部分，所以在N/coker非零。N因此是一条L=2m+1的单链，两δ维数m+1/m；它恰为实际CM packet的Cartier nilpotent部分。原trace非零当且仅当m=0。失败则且仅则存在原W^-中的真实前像Cω=Φ_w(F)，可取在N中；最短坏链3。这里并未假设整个CM包nilpotent，也不再要求先证明整包Cartier为零。实际前像会有R952指定非零O像，theta商有最后Hasse极点，不能再次拿低权简单核去杀它；必须处理这些真实极点/原几何源。pre/post的u方向保持分开，u³不变与真实v的δ角色才是同一H6基分解的来源。
 
+[R958](results/R958-original-r2-Cartier-matrices-and-one-moment-trace-criterion.md)已完整给r2原两角色空间：D^(N+1)P(t)、u²D^(N+1)K(t)，deg≤N/N−1；同一H6与实际u方向保留。L_+沿R939复用，新L_-t^j=(3j+1)(3j+2)t^j−(6j+7)²t^(j+1)。两向Cartier严格为L0=H、L1=tH中真实绝对Frobenius逆，不仅是系数不动的t↦t^p。整个两角色空间已有ker=kF，反向单射。唯一矩ℓ_N(1)=1、ℓ_N(t^(j+1))/ℓ_N(t^j)=(3j+1)(3j+2)/(6j+7)²给原前像存在 iff ℓ_N(R_F)=0，其中R_F=−2D^(2N+1)β²C^p mod tH保原F负号。准确c_mom=Tr((3−2e0)DC/β²)≠0来自R951完整配对与étale trace非退化，且S^p=−216c_momℓ_N(R_F)。这个线性trace单位已证，但所需moment仍未证非零；不以每个moment系数单位替代其线性组合，不外推r8或中央Q′。
+
 ## O3：固定低权cohomology与原Igusa投影的边界
 
 [R944](results/R944-original-CM-Gauss-Manin-homotopy-and-supersingular-principal-parts.md)给原fine base上
