@@ -247,3 +247,5 @@
 2026-11-20 18:24 UTC / Astra-larger-resume-24b2ab87-20261120：run447582阶段39–40真返：7fd同R671 fd4/5d严格已覆盖lower .011952653235030912>1e−6，完整upper=null/checkpoint_unfinished；1200s仅自然返回准入，不冒全覆盖或任务完成。当前场必须变更，非包围细化即可达标/非误差地板。细化daff纯报告读九trial：前8个同规则真Phi皆降而原.992几何拒，1/256才接；QP仍256未驻点。完整数值/源/输出身份刊，无新数组/fixture；PCG+SOC真实续算继续。
 
 2026-11-20 18:27 UTC / Astra-larger-resume-24b2ab87-20261120：R679仅N→2N完整e738入口/说明刊：同g/M/全自由量/原carrier和权、nu_c母范数/实际末mu不变；old grids各自N准确解码后并literal点，old/805/40e整body父均支持。共同新reader同block分偶/奇/全，按N/N/2N质量各自归一，parent/final仅同泛函比较；外部final新增粗基布局及15既有策略字段核，自启动原已继承。普通失败完整值null，完整几何不继承；只有AST/source准备，无科学/fixture或新队列。
+
+2026-11-20 18:36 UTC / Astra-larger-resume-24b2ab87-20261120：run447582阶段41/42真返：3f/40e同7fd父→3ef8，原ray1/16，Phi8.454713899e−8/max.01204893；v4 256仍iteration_limit，coarse固定SPD构造/256应用0失败，成本分项如实。SOC26/fullrank，e/d .22978但全旧C slack −.0001067679，故proposal不可用且修正真Phi/几何未执行/null；不归假rank/新峰/三阶失败。原回退与末mu回放正确，继续全旧行约束SOC；不继承旧场连续证书，不称任务完成。
