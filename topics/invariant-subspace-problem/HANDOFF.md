@@ -6,7 +6,7 @@
 
 - **普通复可分无限维Hilbert ISP未完成。** 只有全体有界算子的存在定理或完整反例才收尾；子问题完成继续open，不以阶段或时限停止。
 - **最近成功实际pull与已读规则提交：** 77d32165a6d85885e799c1b5c34712c60dd25a30，2026-11-20 11:52:44 UTC，Actions run44731129539/job136270857160；真实git pull --rebase成功，两README未变，原日志已核。下一实际pull不得迟于12:52 UTC。
-- **最近API同步及规则核对：** `a373a7c89a2399012f53bae7387032a7d34b2dc5`（2026-11-20 11:59:12 UTC）；两README blob均未变。API快照不冒称实际git pull，另记真实执行回执。
+- **最近API同步及规则核对：** `d812452ab11d887fa15d1cf94e45efd6726f4851`（2026-11-20 12:01:32 UTC）；两README blob均未变。API快照不冒称实际git pull，另记真实执行回执。
 - 根README blob282e86b03385d3b6245ce7100ae2e2af7b103c2d、课题4d6570e9cf346431ab781a1290076a6321aaaa00已全文读。每次pull比两README，只读新diff并立即遵守；至少每小时及发布前同步，SHA写H。
 - 仅授权Rogerhu12/math-research-public。root独占main/H/open/results/log和发布，代理只交proof blob；每条结论单独提交推送，非快进立即更新/rebase重试成功，不force。用户PAT仅CLI环境，不进文件/config/日志。
 - 根规则15：可重算数组/数据/证书不进Git、Release或新工件；仅源码、参数、运行身份/SHA及正式证明。MD/API UTF8<100KB、H≤10000B、open尽量≤30KB、topic≤200MB、log每条≤5行、数学美元符及AI署名，不写根LOG。
@@ -31,7 +31,7 @@
 
 - **[V0/essT3=4整层已空](results/R150-appendix-zero-third-cumulant-nonreduced-essential-four-section-is-empty.md)：** rank3外值域、独立双二次/单基点与四约化已闭；现全4、3+1、2+2、2+1+1重数型也由完整Gaussian mean/H-gradient排除。保H_RY相关项，0/∞用原五阶奇零点。一般V≠0 inner ess4及V0/ess5,6仍开，matched Bell正证书继续。
 
-- **短请求8已执行：** run44731129539的unit2+2边界通过；unit3+1 p0在符号矩阵未化简比较处失败，已定位等价逐项化简修复，尚待全核。V0 degree6全267源列模秩267/三目标增广270，正在核完整次数上界以登记精确范围；不据此判断高幂或几何空。
+- **[V0原三个匹配平方在完整六变量理想中均非成员](results/R150-appendix-zero-third-cumulant-degree-six-three-matched-squares-are-not-members.md)：** run44731129539全267源列/270增广列模103均满列，列数上界给两个QQ秩夹逼；三有理目标商类独立，扩标量覆盖每个原根。不排更高幂或根基；转新degree9 S³。unit3+1 p0已修符号化简检查，待全核。
 
 ## R271：同w的完整源费用
 

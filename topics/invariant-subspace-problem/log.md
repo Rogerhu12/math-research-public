@@ -603,3 +603,6 @@ AI-assisted GPT-6 Astra Pro：[完整证明](results/R150-appendix-essential-fou
 
 ## 2026-11-20 11:59:09 UTC — Astra-ISP-b2a9acde-20261120：修复权11原目标的精确指数转换
 AI-assisted GPT-6 Astra Pro：run44729388449七个原输入父阶段均成功，构造四原q·b³时strict Python int检查拒绝FLINT指数；改精确__index__且先核同运行时完整56项小多项式，不改变权重/原源/native。冻结请求3后继续新矩阵，失败运行与七父日志身份保留，数组只TMP，未有新秩结论。
+
+## 2026-11-20 12:01:28 UTC — Astra-ISP-b2a9acde-20261120：V0三个原匹配平方的精确非成员
+AI-assisted GPT-6 Astra Pro：[完整证明](results/R150-appendix-zero-third-cumulant-degree-six-three-matched-squares-are-not-members.md)根核原17梯度/H图、462×267完整次数来源和原三根目标；实际模267/270均达全列数，两个QQ秩夹逼给三目标共同独立，进而每个原根平方非成员。未声称QQ solve或高幂失败，已转degree9新目标，不重跑六次矩阵。
