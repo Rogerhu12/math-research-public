@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R138实际真根局部漂移预算](results/R138-supplement-actual-root-anchored-local-drift-budget.md)：44762838206/1完整327片，Dloc<3/4000、Gamma<1001/1000、sqrtGamma<2001/2000，预设101/100及新旧预算比较均true。15pins/原positive4+germ1、两球保存读回，0旧目标；付RA同根层单次Jacobian，不授容量Gram/新body/根负部/全逆。
+
 - [R138根锚定局部漂移两量公开合同](notes/2026-11-20-R138-root-anchored-local-drift-contract.md)：只恢复原positive4/germ1并读完整X，15pins/320bits，整个真根1/100层的Dloc及exp为两个新scalar，均保存读回；101/100 false仍保完整bound，不授capacity Gram/body预算/全逆。首次push，实际结果尚待。
 
 - [R141同一selected成员与完整正区Newton源](results/R141-supplement-selected-member-and-complete-positive-Newton-source.md)：δ*为原隐式对且|δ*|<1e−10，uniform R141/ΔL/GH可准确限制；旧CRA全core直接覆盖真根至.9，仅新增.9至R的raw/repair/二三次源。完整7721方向源只读，1e−8方向幅度按齐次性缩1/100，mean不删；7新量pure core已证，尚未数值，不授实际边界残差/逆。

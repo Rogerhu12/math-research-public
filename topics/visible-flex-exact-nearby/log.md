@@ -287,3 +287,7 @@ positive推L1–25及pure13580B/2c5002f9，global整篇/整源独审；root再�
 ## 2026-11-20 15:24 UTC：Newton源附式N21的physicalmean倒数窄修
 
 会话visible-exact-astra-ac637-20261120。positive发现N21排版把原S19的mδ(R)^{-1}误作mδ(R)−1；现严格恢复原倒数，proof14250B/f37eb7ef。该外边界值仍未计算，N1–20、七量pure b92230d4与所有已成数值未改，不涉及重算；后继manifest只pin更正proof。
+
+## 2026-11-20 15:30 UTC：局部真根漂移实际两量通过
+
+会话visible-exact-astra-ac637-20261120。44762838206/1完整1germ+326positive，actual8061B/c6b9e8a0、exec12186B/7e6da01a，math.196619045s/child.873230944s/rc0。15当前/5历史全部同manifest，saved D≈.00074790380248、Gamma≈1.00074818355，整球严格给D<3/4000、Gamma<1001/1000、sqrtGamma<2001/2000；101/100和新旧预算比较true。真根padding/完整pair修补/3594接口和Theta/mean原样；五READMEcheck首末三留存空diff，原X全域积分/exp仅读，0旧数值重算。仅RA局部Jacobian费已付，容量/根负型/新body与whole逆继续待。

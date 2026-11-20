@@ -1,12 +1,12 @@
 # 交接：可见振幅的精确闭等距族
 
-维护会话：`visible-exact-astra-ac637-20261120`；更新：2026-11-20 15:25:08 UTC。
+维护会话：`visible-exact-astra-ac637-20261120`；更新：2026-11-20 15:31:00 UTC。
 **总任务未完成；继续研究，不等用户回复。**
 
 ## 规则读点与接续来源
 
 部分克隆：`/workspace/scratch/ac637cfcc78d/math-research-public`。终端 git 已恢复，无 AGENTS。
-2026-11-20 15:25:08 UTC 实际pull/rebase至 `deab68f0dc31e19c8caa3a2fc1eae35b0bb66452`；已读规则提交同上，两README相对96edc6770空diff。每次pull后核规则差异；下次实际pull最迟16:25:08 UTC。
+2026-11-20 15:31:00 UTC 实际pull/rebase至 `f8b9c57788f1c7731a5debd9a8edecaef712d41d`；已读规则提交同上，两README相对96edc6770空diff。每次pull后核规则差异；下次实际pull最迟16:31:00 UTC。
 
 接手前完整 H（含全部递归原页、成功/失败/恢复身份和未付义务）见 [2026-11-16 完整检查点](https://github.com/Rogerhu12/math-research-public/blob/882aa9b74efeaac682df43c197820e7280156357/topics/visible-flex-exact-nearby/HANDOFF.md)。本页只压缩索引；`open.md` 及所链接的原证明、适用域、均值、物理角、所有边界和误差费用继续有效。旧成功结论不重算。
 
@@ -25,7 +25,7 @@ geometry `43584188751/26` **仅条件性**：同η0真 wholecore（含帽）C0�
 
 此前本会话所有结论、参数、mean、端点与成功/失败资格完整保于[1311116a5完整H](https://github.com/Rogerhu12/math-research-public/blob/1311116a5c4d56984d185a4b30f7e53d484b7fbc/topics/visible-flex-exact-nearby/HANDOFF.md)及其递归ab9572805/bbbdf85f7。R135路线排除、R136 signed-centre、R137 1217态/609端点与N24480桥、R139 centre失败、R140共同η及R138真实几何/能量资格仍按原proof，不由索引压缩改变。当前实际入口见下。
 
-[SG互补谱体比较](results/R138-supplement-complementary-Gram-spectral-body-energy.md)给原p=1/q=K的准确最大特征值及完整H source；原4651闭行新算法可复用已有背景，尚未求新谱常数。[SE必要筛查](results/R138-supplement-actual-old-Gamma-spectral-box-budget-excluded.md)现已严格排原Γ+该谱box算法：已选Csp>11，第一门>5040209/2500000；仅排预算，不排实际BVP，停止该配方数值。 [RA真根锚定](results/R138-supplement-root-anchored-local-drift-and-capacity.md)的配对免另一次density因子，能量保sqrt(Gammaloc)，Theta/mean/QH尾不省；[局部D/Gamma公开入口](notes/2026-11-20-R138-root-anchored-local-drift-inputs.json)已封15pins/原5件/320bits/两scalar，首次push触发，actual尚待；close101/100为比较非逆。
+[SG互补谱体比较](results/R138-supplement-complementary-Gram-spectral-body-energy.md)给原p=1/q=K的准确最大特征值及完整H source；原4651闭行新算法可复用已有背景，尚未求新谱常数。[SE必要筛查](results/R138-supplement-actual-old-Gamma-spectral-box-budget-excluded.md)现已严格排原Γ+该谱box算法：已选Csp>11，第一门>5040209/2500000；仅排预算，不排实际BVP，停止该配方数值。 [RA真根锚定](results/R138-supplement-root-anchored-local-drift-and-capacity.md)的配对免另一次density因子，能量保sqrt(Gammaloc)，Theta/mean/QH尾不省；[局部D/Gamma公开入口](notes/2026-11-20-R138-root-anchored-local-drift-inputs.json)已封15pins/原5件/320bits/两scalar，[actual44762838206](results/R138-supplement-actual-root-anchored-local-drift-budget.md)327片两球已成：D<3/4000、Gamma<1001/1000，根层sqrtGamma<2001/2000；仍非capacity/root门。
 
 ## 已有正侧链与完整旧资格
 
