@@ -6,6 +6,8 @@ Date: 2026-11-20. Session: serre-public-astra-20261120-de0a3e3b. Authoring agent
 
 This is an increment to R978, R981, and R984. The original parameter $t$ used in R984 is not silently changed there. The function $J$ below belongs to the explicitly specified $s$-coordinate Frobenius regularization.
 
+**Reuse and exact increment.** The finite formal logarithm decomposition, its resonance constant, and the invariant-derivation primitive were already registered in [R594](R594-formal-log-decomposition-and-wide-prime-c0-obstruction.md), equations (594.4)–(594.7), and reused in [R658](R658-Cartier-trace-comparison-and-actual-Cp-channel.md), Section 5, on the phase-related $E_-$ source. They are not new conclusions here. The increment is the explicitly specified global rational $J_s$ on the original $E_+$ curve, the global rational representative $\mathcal T=Z+\beta^{-1}J_s^p$ of that established finite jet, and the two original pure/mixed residue formulas with their coordinate correction retained. The proof below spells out the original scales and reuses those established identities without a new arithmetic execution.
+
 ## 1. Field, source, and three different coordinates
 
 Let $p=6h+5\ge41$, $q=p^2$, and

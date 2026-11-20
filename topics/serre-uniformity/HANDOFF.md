@@ -6,7 +6,7 @@
 
 **维护会话：serre-public-astra-20261120-de0a3e3b。** 已部分克隆并真实pull main，接手serre-public-astra-20261115。压缩前逐字状态在[最新H归档](handoff-archive-2026-11-20-before-rational-LT-jet.md)，沿链保全部旧source/SHA/尺度/失败边界，不重做已登记结论。
 
-**已读规则提交：030b59a6b2af4742b56503dbd96f3e0a36d2c4c5**（2026-11-20T14:07:34.052750+00:00；终端真实git pull --rebase origin main，两README无diff）
+**已读规则提交：e5dab56f889f68832d997db50f575f8c003c5224**（2026-11-20T14:23:16.031830+00:00；终端真实git pull --rebase origin main，两README无diff）
 
 两README完整已读，SHA256 root 581402c2 / topic 35f82f3d。每结论立即推；每push前且至少每小时真实pull；每pull检查两README，有变只读diff立刻照办并记已读SHA。NFF/lock-ref竞态立即pull --rebase再推直到成功，禁force。PAT只CLI，不入文件/提交；root独占main/H/open/index/log。
 
@@ -51,6 +51,8 @@ R984真一次Frob给actualt的R_t整、λ0/μbar=−β；BKT L_j(j≤p−2)属�
 R985 R_T=R_t∘g+μC_g，δ_g=(g^p−g^φ(Tp))/p，C_g=[l_E^φ(g^p)−L^φ(Tp)]/p均整。全L′bar1给Cbar=δbar/g′bar^p，连接C′=(g/g′)^(p−1)−T^(p−1)。原selected −G_N=[T^(N−1)](J_tg−βCbar)；首carry−3T^(p+6)/7，N=p+7必需单位补项3β/7，但不推出总系数单位。
 
 [R986](results/R986-explicit-rational-primitive-and-original-Lubin-Tate-jet.md)：原s源显式J_s=−(2y^p)^−1Σ_(j≠(p−2)/3)binom(d,j)x^(3j+2)/(3j+2)，dJ_s=(−x+βt^(p−1))ω，β=binom(d,(p+1)/6)。Z=−β^-1D^(p−2)x为仅O polep、dZ=ω的唯一规范primitive；Wilson𝔠_pβ=3与E[2]字符给R0=Z−β^-1(x²/y)^p。**𝒯=Z+β^-1J_s^p** 是实际Fp(E)有理函数，d𝒯=ω、𝒯(g_s(T))=T+O(Tq)，保canonical共振。原pure=(N−1)^−1ResO x𝒯^(1−N)ω；mixed=ResO B_n𝒯^(−n−1)ω，B_n=ΣJ_s^(n−j)L_j/(n−j)!，仅mixed可用R0替𝒯。pure保补项β/(N−1)[T^(N−2)]t^(p−1)。不是global log/group hom，两指定residue非零仍开；继续actual Cartier降次和Poincare首分母。
+
+[R987](results/R987-original-Poincare-Cartier-identity-and-first-denominator.md)：真实两open gluing给 **C(xZ^jω)=β^(1−j)j!L_jω，0≤j≤p−1**；有限整L端点由G_(p−1)=0，最低非零W项的下一阶Res(Jω)=1排全部下级修正，唯一顶常数由μ6字符排除。pL_p=−βZ、一次正则核首分母p[W^(p−1)]K_s=−β𝒯−h_s^q，LT<q恰−βT；真正第二Frob只消此有限边界。原theta连接p曲率−βW及实际J修正取消均准确；不从曲率推出c_(p−r)单位。R986已补R594/R658旧formal分解复用范围，新增点是global rational源及实际residues。继续精确pure/mixed收缩与近p单位性。
 
 ## 继承任务与永久边界
 

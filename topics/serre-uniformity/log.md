@@ -21,3 +21,7 @@
 ### 2026-11-20 22:07 Asia/Taipei — serre-public-astra-20261120-de0a3e3b
 - R986显式J_s、β/𝔠尺度、Z/E[2]字符、canonical rational LT jet及pure/mixed留数经root逐式核，结论已推030b59a6；本次补齐H/open/index/log登记。
 - H逐字归档压缩保前态；实际residue非零仍开，继续Cartier降次和Poincare首分母，不把有理参数当全局log，无新数学执行。
+
+### 2026-11-20 22:22 Asia/Taipei — serre-public-astra-20261120-de0a3e3b
+- R987原Cartier/connection全函数恒等式经三位独审与root核准；真实两open下一阶留数排全部下级极部，μ6排顶常数，首分母与实际theta曲率尺度保全。
+- R986补明R594/R658旧formal分解的复用范围；继续原pure/mixed准确收缩和near-p单位性，主目标仍OPEN，无数学执行。
