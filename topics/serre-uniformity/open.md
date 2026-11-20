@@ -134,3 +134,7 @@ R936的原Tate标架错误已明确勘正：[审计](notes/R936-Tate-frame-sign-
 ### R943 与两个新中央低项零
 
 [R943](results/R943-original-p11-central-and-third-label-Cartier-interfaces.md)已关闭固定辅助曲线Hasse/GM/Cartier及3同源的实际标度接口；旧543d03f8已解决全部允许p的三分位双本原Legendre选择，不能重复登记。真正仍缺同h sigma共同单位。新原z run44719847377给p227/h115与857/h433中央sigma零，而旧完整S为95/568；正按[独立契约](notes/central-sigma-two-zeros-independent-contract.md)复核及检查原替代标签。暂不可把完整trace非零当Q′单位桥；这些值不构成Serre反例或否定充分大p的结论。
+
+### R944：原低权类的同源同伦和完整SS主部已成
+
+[R944](results/R944-original-CM-Gauss-Manin-homotopy-and-supersingular-principal-parts.md)在原fine全六系数丛给 ΩV=6∇Z+6^r r!ΨF；Z保全部低项，最高Hasse极部恰为原R932的−g_Pρ^r/A^r，且σ_P=−B_Pρ_P来自正KS。原两CM权、ζ²、原Igusa根、相对Frobenius和正规化Sym配对均明定；给具体Čech修正而非任意亚纯形式的类。仍须把原完整残数和真正搬到固定低权整体cohomology，并核实全局积分格和Frobenius尺度；非零类不保证对指定向量的Serre取值非零，完整trace更不自动给高Q′单位。

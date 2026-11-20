@@ -630,3 +630,7 @@
 ### 2026-11-20 18:36 Asia/Taipei — serre-public-astra-20261120-de0a3e3b
 - R943固定三挠曲线/中央第二类Cartier全审完成，run44719847377的9个有理证书与9个Q(s)尺度全过；旧双标签不共零直接引用，不重证。
 - 同run新发现p227/857原中央sigma零但完整S非零；发起仅两例的独立Lagrange复核及同h替代目标，H逐字归档并优先记录此断点，不冒主目标已成。
+
+### 2026-11-20 18:40 Asia/Taipei — serre-public-astra-20261120-de0a3e3b
+- R944完整给出同一原CM源的Gauss–Manin同伦及全部SS主部，最高项准确为R932的−g_P；正KS、两权、相对Frobenius和Čech修正全保留。
+- 未将低权非零类当原全trace范数或Q′单位；独立sigma run44720732478已成功，接续登记两中央零及实际替代标签。

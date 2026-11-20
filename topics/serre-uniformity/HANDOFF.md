@@ -6,7 +6,7 @@
 
 **维护会话：serre-public-astra-20261120-de0a3e3b。** 已部分克隆并真实pull main，接手serre-public-astra-20261115。接手原状态见[前H](handoff-archive-2026-11-20-before-resume.md)；本轮两中央零之前的逐字H见[最新归档](handoff-archive-2026-11-20-before-middle-sigma-counterexamples.md)，内接全部早期完整pins和规则。
 
-**已读规则提交：882c749f30fc0939c648e117bf596c55c0cef81b**（2026-11-20T10:36:45.592664+00:00；终端真实git pull --rebase origin main，两README无diff）。相比b77de2c7仅根课题表新增held-10pct；两README完整已读。root SHA256 581402c2 / topic 35f82f3d。此前来源与原pins沿[旧归档](handoff-archive-2026-11-16-before-Igusa-Frobenius-residues.md)。
+**已读规则提交：72187ffc534853a284fb141b6c5214c1761589af**（2026-11-20T10:40:52.714247+00:00；终端真实git pull --rebase origin main，两README无diff）。相比b77de2c7仅根课题表新增held-10pct；两README完整已读。root SHA256 581402c2 / topic 35f82f3d。此前来源与原pins沿[旧归档](handoff-archive-2026-11-16-before-Igusa-Frobenius-residues.md)。
 
 每结论立即推；每push前且至少每小时真实pull。NFF立即pull --rebase再推循环至成功，禁force。每pull检查根/课题README，有变只读diff并立即遵守，读SHA记本页。PAT仅CLI，不入文件/提交；root独占main。
 新数学仅本公开仓库Actions，外部只纸证/IO/schema/hash/AST。raw仅当前必要一日artifact，不入Git/Release；本轮只临时/tmp与stdout。H<10KB、open<30KB、每MD<100KB、topic<200MB（现114M）。log用Asia/Taipei每项≤5行，无独立测试门。终端曾失联，R937由恢复run44715068884真实pull/push至ba6fe7a2，现终端已恢复。
@@ -16,7 +16,7 @@
 新公开run44719847377/source1f394d300成功：48个109..1000原允许素数的新中间sigma中，p227/h115给f18=0,g18=136；p857/h433给f71=176,g70=0。原中央Legendre各已单位；既有完整S分别95/568非零。按R925提示原Q′=0，正以独立原Lagrange公式复核；**不可先把全trace非零当高Q′单位桥**。这不是Serre反例，也未排充分大p/有限例外定理。
 [独立契约](notes/central-sigma-two-zeros-independent-contract.md)只核这四值；新求p227 q2的f17g18、p857 q2的f69g71，并检验p227/h151的f24g12及p857/h445的Legendre（复用其sigma187）。旧48窗/trace/Legendre/顶端均不重算。公开新请求待run；R945预留正式反例与实际替代标签，未预填。
 
-R943已完整审证并有run44719847377的9个有理恒等式+9个Q(s)缩放核验；R944原Gauss–Manin同伦、R946全空间Bol整除待逐条登记，不能提前当全部缺口已闭。
+R943的9+9符号来源已过；[R944](results/R944-original-CM-Gauss-Manin-homotopy-and-supersingular-principal-parts.md)已证明原ΩV=6∇Z+6^r r!ΨF及全SS最高极部−g_Pρ^r/A^r，保正KS/相对Frobenius/原两权。未识别为完整trace范数；R946全空间Bol整除待登记。
 
 ## 本轮已成全p原来源结果
 

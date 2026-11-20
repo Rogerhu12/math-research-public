@@ -30,6 +30,8 @@
 
 - **R943（固定原曲线接口，完整证明）**：[p11中央与旧三分位的Cartier表达](results/R943-original-p11-central-and-third-label-Cartier-interfaces.md)。保odd-m符号、原E*第二类微分；固定三挠E_T的Hasse=−Legendre、准确GM、半线性和四个旧合法端点的Cartier尺度，以及到共轭的3同源。旧543d03f8本原/不共零仅复用；新9+9全符号证书公开通过，203素数窗只有限证据，不判同h sigma。SHA256 419820bcbacb4a7ad472008122773c62c6648c87639cf83e820e049ff25c9a01。
 
+- **R944（完整原源同伦）**：[原CM Gauss–Manin同伦与全部SS主部](results/R944-original-CM-Gauss-Manin-homotopy-and-supersingular-principal-parts.md)。在原fine全六基底证明 ΩV=6∇Z+6^r r!ΨF，Z的原Hasse极阶≤r且最高系数恰−g_Pρ^r；相对Frobenius、正KS、原两CM权、Igusa根与配对阶乘均显式保留。给实际Čech正则化，不冒全局crystalline范数或完整trace非零。SHA256 6e339fd80a23ba9887cf80b55a3c7c57338b3df013bdc39b832aebc257bd4d71。
+
 ## 当前原高度、函数与同标签接口
 
 - **R808（已证明）**：[原cuspidal Gram商与真实period/split/Howe链](results/R808-original-cuspidal-Gram-quotient-and-Howe-chain.md)。R727全部群元素的整Gram把原轨道格非退化约化商准确识别为Sym^(2r)det^(−r)，r=min(h−1,p−h)；原e0、Frob-Hermitian、Tζ平均像和N_h同时运输。位置Cartan与链内SL2严格区分，链中心规范与Hasse连接准确匹配；实际sigma原单项式仍经Kraw混合，同h配对非零未得。 SHA256 c24889c8d8407447dc38e14b583d002c289697b1b75376af7ea5348c4f6a03db。
