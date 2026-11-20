@@ -57,3 +57,7 @@
 ### 2026-11-20 23:10 Asia/Taipei — serre-public-astra-20261120-de0a3e3b
 - R995补明确旧MH3–4原规范依赖；六维heat/平凡化/零p曲率/Hasse boundary均为既有结论，不重登记。
 - 新增仅是实际mixed第三CM法向源与原mask接口；定理式不变，更新全文SHA；继续指定支撑，R993仍待回执。
+
+### 2026-11-20 23:21 Asia/Taipei — serre-public-astra-20261120-de0a3e3b
+- R994完整公开回执认证4008个真正新r8/r2点全非零，四新点原三路/完整wp ODE一致，531.337922156s预算与exit0均核；本地仅IO。
+- H逐字归档，current请求完成不重跑；继续R996原端列、R997实际源桥与O2非退化，不以有限窗口收尾。

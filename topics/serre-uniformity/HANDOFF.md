@@ -4,9 +4,9 @@
 
 证明绝对C使所有无CM E/Q在p>C时模p满射，或给p→∞完整反例族。**主目标OPEN，尚未达README标准。**
 
-**维护会话：serre-public-astra-20261120-de0a3e3b。** 已部分克隆并真实pull main，接手serre-public-astra-20261115。压缩前逐字状态在[最新H归档](handoff-archive-2026-11-20-before-coarse-normal-jet.md)，沿链保全部旧source/SHA/尺度/失败边界，不重做已登记结论。
+**维护会话：serre-public-astra-20261120-de0a3e3b。** 已部分克隆并真实pull main，接手serre-public-astra-20261115。压缩前逐字状态在[最新H归档](handoff-archive-2026-11-20-before-combined-window-receipt.md)，沿链保全部旧source/SHA/尺度/失败边界，不重做已登记结论。
 
-**已读规则提交：f66672aae75ed4b78dd89c1fd92d3003cbba6085**（2026-11-20T15:10:34.711254+00:00；终端真实git pull --rebase origin main，两README无diff）
+**已读规则提交：6048938e89d320648d9b9c21fbba4038d83e1ec5**（2026-11-20T15:22:23.916190+00:00；终端真实git pull --rebase origin main，两README无diff）
 
 两README完整已读，SHA256 root 581402c2 / topic 35f82f3d。每结论立即推；每push前且至少每小时真实pull；每pull检查两README，有变只读diff立刻照办并记已读SHA。NFF/lock-ref竞态立即pull --rebase再推直到成功，禁force。PAT只CLI，不入文件/提交；root独占main/H/open/index/log。
 
@@ -46,11 +46,13 @@ R984–987真实Frob整核、strict坐标carry、global rational LT实现及Poin
 
 [R990](results/R990-original-hypergeometric-fixed-r-coefficient.md)：原(E,X,Y)=(0,0,864)的三Ramanujan ODE逐式匹配 A=2F1(1/12,7/12;2/3;z)、B=2F1(5/12,11/12;4/3;z)，T=−uB/(24A)、z=u³/432。m=(p−r)/3、k=floor(p/12)时B真截成degree k Jacobi多项式；H=((1−z)B²)^−1、f_i=H_i/(1−3i)、Q=4+12zB′/B−z/(1−z)，**c_(p−r)+=(-32)^m(r−1)! [z^m]Qf^−r/4**。全分母在m<ℓ=(p+1)/3内单位，固定r2/8给O(M(p))、O(p)内存。B根/三个cusp极部准确、首resonance Hℓ=B(1)^−2单位；不能跨ℓ反除，目标系数非零仍开。
 
-## 当前实际工作：新窗口完成后继续一般非零
+## 当前实际工作：两新窗口完成后继续一般非零
 
-[R991回执](results/R991-certified-original-r8-balanced-window-through-20000.md)：R989公开run44755320789/job136353398270/source3766ab06110a57ab35b95fe5469ed40cd5ce6564，1.998924778s完成1000<p≤20000、p5mod12且p2/5mod9的全部349个r8新素数（1013..19973），全非零/无尾段。1013/1049的R990、原Chazy/CDQ、原E− sigma单carry三路一致；每p首resonance核过。root纯IO复核完整request/rows/summary与payload245369B、SHA fea55f009c33e1b120e50c1fd9ff2a23aba25c999d863f506a72105fabfb86aa。R988给此有限集原S单位；不推全p/同h/height。R989 request已完成，不重触发；无raw artifact。
+R991已完整认证R989旧r8差集349点（1000..20000），原三路/全hash见回执与H归档；不重跑。
 
-R989冻结源及pins见R991。[R993方法](notes/R993-original-combined-disjoint-window-method.md)已逐式/全代码审定：新增wp/CDQ保完整ODE，method c1913358、script 2e60046f。现提交真正新差集（r8仅20000..200000、r2仅100000..200000），620s含15s收尾；各行首两点/首零三源核，完整chunk/hash/尾段及final预算回执才验收。公开run44760218207/job136370438703/source248592d7f已进入计算，回执待R994；R995已证三次Serre正常jet，继续原filtered关系。主目标仍OPEN。
+[R994](results/R994-certified-original-combined-windows-through-200000.md)：R993公开run44760218207/job136370438703/source248592d7fabd01b1b8c548237400767e9ecec001已成功，531.337922156s且final预算真/exit0。新r8的20000..200000共2622点（20021..199877），新r2的100000..200000共1386点（100019..199967），总4008全非零/无尾段；各行首两点20021/20117/100019/100103原三路一致、完整wp ODE及全部首resonance核过。root纯IO逐块重组8段contract/7段summary，核全部sources/列表/rows/flags；payload2865567B SHA e764dff838bb24b18c8fec7f7634c2044f403e59e23a349cc00d0554c000dc8d。R988给这两个有限集原S单位，不推全p/同h/height；current R993 request完成，禁止重触发。method c1913358/script2e60046f及全部pins在回执，无raw artifact。
+
+继续R995实际filtered关系；R996在审原端列尖点非零（5∤p+1整族），R997在写原J与UH36完整源桥，O2实际残数/period defect的非退化仍开。下一理论空号R998。主目标OPEN。
 
 ## 继承任务与永久边界
 
