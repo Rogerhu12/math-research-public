@@ -694,3 +694,7 @@
 ### 2026-11-20 19:33 Asia/Taipei — serre-public-astra-20261120-de0a3e3b
 - R962完整M8原两标记Hecke给非trivial块U5=92160单位，真实Bol左项的Serre对偶尺度ℓTtr已独立复核；r8 CM零primary左项现确为零。
 - K8真实coker归于原V10线，指定α8的两Fourier系数及全S尺度准确；α8非零仍开，继续实际晶体与原同标签问题。
+
+### 2026-11-20 19:42 Asia/Taipei — serre-public-astra-20261120-de0a3e3b
+- R959完整定出原两CM族的整粗多项式与准确公共因子1+24X；fine额外三重零、全p非零cusp源及同空间反模型均纸证，旧中央值仅复用。
+- 单纯valence/源非零无法排实际因子，继续指定CM耦合；H前态逐字归档，原尺度/pins沿链完整保留。

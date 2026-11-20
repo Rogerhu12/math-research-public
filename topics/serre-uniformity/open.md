@@ -25,6 +25,8 @@ R925（r2/8）与R940（r32）已保完整Norm先消、原calibrated log、全�
 
 可继续的实际选择是：证明充分大p有某一原本原h的共同单位，或将真正更高原系数用于原global约束。R891的完整六挠基除子和R855/857的成长次数界均已登记，不能用高顶项单位冒固定低jet。
 
+[R959](results/R959-exact-coarse-CM-factor-criterion-for-the-original-antidiagonal.md)现把原mark缺口化成真实粗坐标因子。完整theta S/T证明W_(6j+2)/η⁴为全SL2权6j形式，故odd quotient=R_j(U)、R_j∈Z[U]且deg≤floor(j/2)；原full graph给even quotient=P_i(X)∈Z[1/6][X]、deg≤i，保原inert2和ζ² oldform。X=sη12/E6、U=−X²/3，mark X0=−1/24；(1−24X)(1+24X)=E4³/E6²使粗一次零恰fine三次。原完整visible antidiagonal全失败 iff (1+24X)整除准确B_p(C,X)，不混C=1。R734复用给Q²源多项式全p非零，但该因子cusp值1，且实际同权/同角色/visible支持的模形式示例也有fine阶4；这些一般约束与valence不足。R945两中央零分别来自even阶≥4/odd阶≥3，未重算。继续必须用指定P_i/R_j的真正耦合或span来排这个因子，不把未知span作输入。
+
 ## O2：完整原超奇异迹及真正的whole CM packet
 
 R932用原同一Serre类与相对Frobenius识别V4/V10，保两Igusa、C4、完整Norm及未知但非零原mI(cF)/d1，实际λ在另一companion取值为原完整SS和。指定j0项恰零，不能靠单点评价代替全和。

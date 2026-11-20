@@ -60,6 +60,8 @@
 
 - **R958（原r2完整Cartier矩阵与单矩判据）**：[两向全空间Cartier及原迹比较](results/R958-original-r2-Cartier-matrices-and-one-moment-trace-criterion.md)。新反角色L_-双对角算子给完整两向Fr逆矩阵，保同H6/原C负号/全SS权；整个双角色ker恰kF。真实前像 iff ℓ_N(−2D^(2N+1)β²C^p mod tH)=0；明确非零c_mom=Tr((3−2e0)DC/β²)及S^p=−216c_momℓ_N(R_F)准确连接原迹。只证线性比较标量单位，指定moment非零仍开；无新扫描、不外推r8/Q′。SHA256 61553ac826bd8e7f904efba85aca36bcccbfd635b743515f7e5b9e1b892b89f2。
 
+- **R959（原反对角的准确粗CM因子判据）**：[全局CM多项式与原mark额外重数](results/R959-exact-coarse-CM-factor-criterion-for-the-original-antidiagonal.md)。完整S/T给odd全SL2整R_j(U)，原graph及inert2相位给even有理整P_i(X)。原同h全部失败恰(1+24X)|B_p(C,X)，X0=−1/24，fine零阶从1跳≥4；Q²源全p非零复用R734，不能排该因子。实际同空间同权/角色/visible支持反模型证明一般valence约束不够；只复用两中央零，不冒CM耦合非零。SHA256 a888b4f8650ea58e361a8f175ee649d3e78e3e2f39909156d608ca30259b43f2。
+
 - **R962（原权八左项全核与权十指定系数）**：[实际M8及Bol左项Hecke作用](results/R962-original-weight-eight-left-term-and-weight-ten-edge-coordinate.md)。完整M8三基与双mark T5给非trivial两线U5=92160单位；同源/KS/Serre保全部归一后左项真对偶为ℓT_ℓ^tr，故r8原CM零primary左项为零，真实K8 edge同构原V10线。原投影给α8=(1−5^9/147456)y_p^(1/p)−y_(25p)^(1/p)/147456、S=(6^6/8)α8〈zV,V10〉，升换独立但α8非零仍开；无新数值扫描。SHA256 c01b63e616110b426e057c401aa224ae4365adb84cbb9dff75111f5629963b57。
 
 ## 当前原高度、函数与同标签接口
