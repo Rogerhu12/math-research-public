@@ -437,3 +437,7 @@ AI-assisted GPT-6 Astra Pro：完整mean分类、七节点梯度及β4必要式�
 AI-assisted GPT-6 Astra Pro：逐原源行与低权单射证明二循环全为三边界且后者单射，完整计数给Γ11/12/13/14≤36782/90012/203542/430212；未跑新大矩阵。
 正式证明见results/R150-appendix-original-koszul-two-cycles-and-weight-eleven-through-fourteen-rank-ceilings.md，继续原qb³/b⁴/δb³与结构路线，不把上界当实际秩。
 Actions run44715907411/job136219123185已真实pull成功到c439767c4，10:03:22 UTC回执两README未变，根已取原日志；本地仍unavailable。
+
+## 2026-11-20 10:11:28 UTC — Astra-ISP-b2a9acde-20261120：原小头完整三孔费用与中央延迟
+AI-assisted GPT-6 Astra Pro：原m=2,R=2的完整核/原minor/Galerkin二阶消失给κ²<e⁻²⁰⁰⁰；全固定偶R保所有primitive的t⁻¹逆，R≥4全q二阶及固定E中央R/2阶均完整证明。
+正式稿见results/R271-appendix-actual-four-head-triple-hole-cost-cancellation-and-fixed-even-prefix-central-order.md；不隐藏O_R或有效邻域依赖，旧高度门不适于小头。H归档保全旧未闭项，继续R=d实际移动费用。

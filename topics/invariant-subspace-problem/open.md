@@ -106,3 +106,7 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 ## 原权十一至十四的完整秩界与新目标
 
 [第二Koszul循环的完整证明](results/R150-appendix-original-koszul-two-cycles-and-weight-eleven-through-fourteen-rank-ceilings.md)给ΓE11≤36782、ΓE12≤90012、ΓE13≤203542、ΓE14≤430212。权12起必须扣去第三Koszul边界，不能把所有形式二关系误当独立。下一原qb³/b⁴/δb³增广秩分别达到36783/90013/203543才足作特征零负门；四q一起若达36786才给四类独立。权11矩阵完整150646×37568（最少120呈示为37088列）；本次没有计算其秩或目标余式。
+
+## 原四维头的真实费用消奇与移动范围
+
+[完整有限头定理](results/R271-appendix-actual-four-head-triple-hole-cost-cancellation-and-fixed-even-prefix-central-order.md)已给实际m=2,R=2三孔费用κ²<e⁻²⁰⁰⁰，固定任意偶R的全MP逆O(t⁻¹)与残差O(t²)；R≥4完整q=O(t²)，固定中央新方向投影O(t^{R/2})。这些常数和有效邻域依赖R,c,S，实际小头又不满足旧联合高度门，不能直接得到倒数和矛盾。继续对实际A_m的全部carry与可变r、R给可用统一费用，不把固定E的延迟泄漏当移动谱投影成本。

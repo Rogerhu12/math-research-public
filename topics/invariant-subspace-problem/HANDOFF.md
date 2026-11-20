@@ -7,7 +7,7 @@
 - **未完成：** 普通复可分无限维 Hilbert ISP。仅全体有界算子的存在定理或完整反例满足完成标准；子问题结束继续open，不以阶段报告或时限停止。
 - **最近成功实际 pull 与已读规则提交：** `c439767c4c31c29ff502ecd470b8780ca724d08d`（2026-11-20 10:03:22 UTC，Actions run44715907411/job136219123185）。真实pull --rebase成功，两README blob未变，原日志已取核。
 - 仅授权Rogerhu12/math-research-public。根独占main/H/open/results/log，代理交冻结稿。逐结论实际终端push，非快进立即pull --rebase再推至成功，不force；至少每小时和推前实际pull，比两README blob，仅新diff重读并立即遵守。
-- **最近API同步及规则核对：** `569c7d7660b8b6be94d67088073ace8b60ae4356`（2026-11-20 10:08:46 UTC）；两README blob均未变。API快照不冒称实际git pull，另记真实执行回执。
+- **最近API同步及规则核对：** `3f1d15bab458c036fc2e71a4e551d6944f0a81b3`（2026-11-20 10:11:32 UTC）；两README blob均未变。API快照不冒称实际git pull，另记真实执行回执。
 - 根README blob282e86b03385d3b6245ce7100ae2e2af7b103c2d、课题4d6570e9cf346431ab781a1290076a6321aaaa00已完整读。令牌仅CLI环境或已有Actions secret，不进文件/日志/config。规则15：可重算数组/数据/证书不进Git、Release或新工件，仅源码/参数/运行身份/SHA及正式证明。API仅UTF8<100KB，MD<100KB，H≤10000B，open尽量≤30KB，topic≤200MB，log每条≤5行、数学美元符、AI署名，不写根LOG。
 - actual-pull工作流已修当前根README预期blob；本地不可用时继续用真实Actions pull维持至少每小时同步，两README变动即读差异。
 - 2026-11-20 09:49 UTC本地executor断开且environment unavailable；已成小文本用GitHub接口按根规则8提交，恢复后先检查未推本地a06d8dbd8与远端等价内容，避免重复。原部分克隆约96MB，旧TMP不假存活。
@@ -37,14 +37,12 @@
 - **[移位相似表示及交织成本](results/R12-appendix-shift-similarity-subquotients-and-intertwiner-power-cost.md)已闭。** 原A及任意非零闭不变子商的归一化二幂WOT趋I/2，故不与严格分级算子值移位及任意有限维块的直和相似，包含全部标量加权置换。任一非零双向有界交织必须令移位二幂范数/原A二幂范数趋∞。仅排准确类别，未知shift part仍不被排除，普通ISP仍开。
 - 最新文献状态见[刷新记录](notes/2026-11-20-literature-refresh-b2a9.md)；未找到可采用的完整外部答案，已有声称不作黑箱。
 
-## R271真实投影返回与剩余交叉
+## R271真实投影返回与实际费用
 
-M=kerT，N=closure BM；N=M仍开。保持same-w/u、全部partial、真intersection旗和MP自然域；真帽外投影、负前缀/未来/carry不删。此前完整native/adjoint-D/相邻整行/creation返回保归档及open。
-- 全高度coherent跨头Bessel≤2，同actual W与原PV−PK/全Q给ΣΔ≤(4+8Ση²)||w||²；各H_C(s),s≥S受控，共同log选择付Σlogx F1；原源不自动是真核。
-- 原两孔无罚源/完整K2 Schur保全部primitive、Z/AZ和全U来源；偶R给kerC⊂RanC。全K2比较仅(1−ε)⁻¹而不含头条件数；原完整逆费及跨旗余源尚开。
-- 全高度一次真MP保512^j，c*=2·512²及s∈[c*S,2c*S]给||D†(C+D)f_s||²≤(1+47616c*)ε_s。same-w使q1、z1−P_xw及残余−Cq1平方可和；仅f_s保原PV/PK。CD†循环、终端真空/完整修复未付。
-- 整个低旗hfrak∈F(2d−1)⊖F2的全Schur能量qℓ−q1已跨头可和，真池<2、boson<4；正则与高旗Schur不能删，低forcing不保证低输出。
-- **[最优两孔费/同Q锚/倒数门](results/R271-appendix-optimal-two-far-source-saturation-same-q-anchor-and-complete-schur-direction.md)**：全首核严格极小$\kappa_{\rm opt}^2=S^{-1}\zeta\le S^{-1}$；同真V_Q/K_Q及低支撑给原τ14锚误差≤e⁻⁵ᵈ⁴||w||。非零锚必要ΣS/ζ<∞，仍缺实际费用上界$c_m$且Σ1/c_m发散。完整Schur比较只给费用下界，方向不能反用。
-- **[真实核旗适配正远孔来源与无包络倒数门已闭](results/R271-appendix-true-kernel-flag-adapted-positive-far-representatives-and-envelope-free-reciprocal-budget.md)。** 对同一$v\in\ker C$，$\mathfrak h_v=C^\dagger v-C^*\Gamma v$的第$r+1$正交真旗用完整$((C^*)^r)^\dagger$搬到第$r$远孔；全部层保精确$f_1-F_{\rm fl}=k+L^*\Psi$，同原$Q/U_n$、全部$h$段和真帽来源不变。物理费为$S^{-1}\|e_0-(I+S\Gamma)v\|^2+\sum\sigma_r^2\|q_r\|^2$，不压低旗逆。同一$w$锚误差除$\kappa$后直接吸收，非零锚必要$\sum\kappa_m^{-2}<\infty$，无需先付$\eta_m\kappa_m$包络；实际费用上界仍开。
-- **[单远孔代表、只乘核列的双塔误差及整高度倒数门已闭](results/R271-appendix-dual-tower-kernel-only-error-pure-far-height-representatives-and-joint-reciprocal-budget.md)。** 每个$r$先在整个强头真Galerkin核投影，完整$((C^*)^r)^\dagger$给纯$r$远孔代表；canonical $W/V$运输后核项是真物理最小投影，误差只乘范数≤1核列。所有$r\le1+\lfloor\sqrt{x+1}/(8(m+1))\rfloor$同原$Q/w$，全高度Bessel与统一吸收给非零锚必要$\sum_{m,r}\kappa_{m,r}^{-2}<\infty$。只累计高度数乘$\eta_m^2$，不累计双塔误差；完整强头费用上界及帽逆后的误差仍开，未证$N=M$。
-- 普通封口仍须same-w负部≤c_m Q||F_mu||²且Σ1/c_m发散。Chebyshev logQ35d⁴/6超过26d³母窗，公共塔中段指数障碍保留，真C高j尾已付、中段继续。G_reg/carry、Haar循环、正常有限秩链及归档其它open均开放。
+M=kerT，N=closure BM；N=M仍开。必须保持same-w/u、全部partial、真intersection旗和MP自然域；真帽外投影、负前缀/未来/carry不删。完整此前结论和全部未闭分支保[旧H快照](notes/2026-11-20-handoff-before-koszul-and-height-b2a9.md)、open及结果索引；省略不算关闭。
+
+- 已付旧τ14全高度coherent跨头Bessel≤2、同actual W的全PV−PK能量、一次真MP的512^j和共同log选择、低旗Schur源跨头可和、相邻creation/adjoint-D完整返回。它们不控制核外第二逆、终端真空或任意kernel-input，旧所有母窗/帽参数继续保留。
+- 已付两孔严格极小、同Q原锚和无包络吸收；完整Schur比较只给费用下界，不能反向付上界。完整纯两孔来源保所有强头自由，真实费用上界仍开。
+- **[原纯远孔代表与整高度倒数门](results/R271-appendix-dual-tower-kernel-only-error-pure-far-height-representatives-and-joint-reciprocal-budget.md)已闭。** 每r先在完整kerC^r做Galerkin，再用完整((C*)^r)†；canonical W/V误差只乘范数≤1的真实物理核投影。各r保原同Q/w、全部h及真帽外投影；非零锚必要Σ_{m,r}κ⁻²<∞。实际费用不能用低旗逆、压缩逆或任意便宜来源代替。
+- **[原四维头三孔消奇及固定偶强段](results/R271-appendix-actual-four-head-triple-hole-cost-cancellation-and-fixed-even-prefix-central-order.md)已闭。** 实际N头m=2,R=2以完整11列核/5阶原minor给κ²<e⁻²⁰⁰⁰；固定任意偶R全primitive的MP至多t⁻¹、Galerkin残差O(t²)。R≥4全q=O(t²)，固定一阶Schur中央E的P_Eq=O(t^{R/2})，未改成移动小奇值投影。该小头不在旧高度/年龄窗；所有O_R常数和有效邻域非统一，未换成实际A_m。
+- 剩余主门：对同一w的实际移动强头与允许高度付费用c_{m,r}且Σc⁻¹发散；还须原负部返回与全帽逆后误差、same-w完整来源。G_reg/carry、Haar循环、正常有限秩链及全部归档open仍开。

@@ -304,3 +304,5 @@
 - **R150 ess4外均值的全约化五点rankH3分支为空（2026-11-20，已证明）：** [原完整方程的全分支排除](results/R150-appendix-essential-four-reduced-five-point-rank-three-branch-is-empty.md)先由完整mean给全等向或单半权分类；全等向用剩余梯度相矛盾，半权保全部节点必要方程，迫两零点配对列相等，再用同一五次极线的简单零点与活跃三次的双零点矛盾。零配对、半权及∞均覆盖，无GB单位假设；合流与rankH4/5仍开。
 
 - **R150 原权11–14的Koszul循环和完整秩上界（2026-11-20，已证明）：** [交替三指标证明与全部计数](results/R150-appendix-original-koszul-two-cycles-and-weight-eleven-through-fourteen-rank-ceilings.md)由已付原μ7单射、权≤10全Koszul核推出K2在t≤14的核恰K3像、K3单射。原ΓE上界36782/90012/203542/430212及200/120来源核下界全给，权12起保165/1320/7425第三边界。新qb³/b⁴/δb³原增广门36783/90013/203543；未跑新大矩阵，未宣成员性。
+
+- **R271 实际四维头的三孔消奇与固定中央阶（2026-11-20，已证明）：** [完整物理核、MP和全部primitive证明](results/R271-appendix-actual-four-head-triple-hole-cost-cancellation-and-fixed-even-prefix-central-order.md)以11核列和5阶原minor给实际m=2,R=2的κ²<e⁻²⁰⁰⁰；固定任意偶R的全MP至多t⁻¹，残差O(t²)，R≥4全q=O(t²)，固定中央E分量O(t^{R/2})。全部物理来源保留，O_R非统一；不以小头代移动A_m或调用其不满足的旧高度门。
