@@ -1,11 +1,8 @@
 {
-  "request_id": "Astra-held10-1b6d88ec-20261120-material-H8-01",
-  "read_rules_commit": "79ac325db64dbdc656714ef828a6da91fc7b30bd",
-  "scope": "New H8-anchored q060 initialization, then true material-curvature homotopy; unknown previous executor jobs are not claimed restored.",
-  "physical_amplitude": 0.06,
-  "modes": 8,
-  "first_homotopy": 0.02,
-  "curvature_blend": 0,
-  "run_arrays_policy": "temporary runner storage only; no uploaded arrays or artifacts",
-  "acceptance": "Original domain/BC/DN/metric gates remain; job status is not a surface-completion claim."
+  "request_id": "Astra-held10-1b6d88ec-20261120-material-H1-amplitude-02",
+  "read_rules_commit": "b30b99638a078fba661fdc7652db201e19bc8c20",
+  "scope": "New one-height/seven-DN amplitude initializer, then actual material homotopy and true-tail gates",
+  "replaces_failed_run": 44716641927,
+  "rerun_completed_core_checks": false,
+  "complete_surface": false
 }

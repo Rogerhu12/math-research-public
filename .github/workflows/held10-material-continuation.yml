@@ -56,22 +56,17 @@ jobs:
       - name: Restore declared source and physical inputs
         run: |
           python topics/visible-flex-held-10pct/scripts/resume_m3/portable_bootstrap.py --repo "$GITHUB_WORKSPACE" --workdir "$RUNNER_TEMP/held10-material" > "$RUNNER_TEMP/held10-bootstrap.log" 2>&1
-      - name: Check the actual material-core interface
+      - name: Recover by one low height and seven original DNs
         run: |
-          python topics/visible-flex-held-10pct/scripts/resume_transfer/check_material_flattening_core.py --support-source "$RUNNER_TEMP/held10-material/runtime-source/bundle/topics/visible-flexible-closed-surface/notes/fixed_metric_mode3_core.py" --out "$RUNNER_TEMP/held10-material/R53-core-check.json" > "$RUNNER_TEMP/held10-core-check.log" 2>&1
-      - name: Recover q060 from its eight actual cut heights
-        run: |
-          HELD_WORK="$RUNNER_TEMP/held10-material"
-          HELD_TOPIC="$GITHUB_WORKSPACE/topics/visible-flex-held-10pct"
-          python -u "$HELD_TOPIC/scripts/resume_m3/height_anchor_prefix.py" \
-            --height-record "$HELD_TOPIC/scripts/resume_transfer/q060_exact_saved_inner_resume_terminal.json" \
-            --source-topic "$HELD_WORK/runtime-source/bundle/topics/visible-flexible-closed-surface" \
-            --short-bridge "$HELD_WORK/runtime-source/bundle/topics/visible-flex-larger-amplitude/computations/root_short_bridge.py" \
-            --profile "$HELD_WORK/inputs/q060-profile.json" --chart "$HELD_WORK/inputs/reference/chart.json" \
-            --port "$HELD_WORK/inputs/q060-port.json" \
-            --control-record "$HELD_TOPIC/scripts/resume_closed/q060_cosine_reference_binding.json" \
-            --amplitude .06 --warp-reference .06 --nodes 401 --max-nodes 6000 \
-            --outdir "$HELD_WORK/height-q060" > "$RUNNER_TEMP/held10-height.log" 2>&1
+          python -u topics/visible-flex-held-10pct/scripts/resume_m3/height_amplitude_path.py --repo "$GITHUB_WORKSPACE" --workdir "$RUNNER_TEMP/held10-material" > "$RUNNER_TEMP/held10-height.log" 2>&1
+          python - <<'PY'
+          import json, os
+          from pathlib import Path
+          result=json.loads((Path(os.environ['RUNNER_TEMP'])/'held10-material/height-amplitude-path.json').read_text())
+          assert result['status']=='q060_initializer_ready'
+          with open(os.environ['GITHUB_ENV'],'a') as stream:
+              print('HELD_INITIAL_RAW='+result['accepted_raw'],file=stream)
+          PY
       - name: Solve the new material homotopy at lambda .02
         run: |
           HELD_WORK="$RUNNER_TEMP/held10-material"
@@ -81,7 +76,7 @@ jobs:
             --short-bridge "$HELD_WORK/runtime-source/bundle/topics/visible-flex-larger-amplitude/computations/root_short_bridge.py" \
             --profile "$HELD_WORK/inputs/q060-profile.json" --chart "$HELD_WORK/inputs/reference/chart.json" \
             --port "$HELD_WORK/inputs/q060-port.json" --amplitude .06 --warp-reference .06 \
-            --nodes 401 --max-nodes 6000 --raw-restart "$HELD_WORK/height-q060/inner-00.npz" \
+            --nodes 401 --max-nodes 6000 --raw-restart "$HELD_INITIAL_RAW" \
             --core-module "$HELD_TOPIC/scripts/resume_m3/material_support_factory.py" \
             --core-config "$HELD_TOPIC/scripts/resume_m3/material_support_lam002.json" \
             --outdir "$HELD_WORK/material-lam002-linear" > "$RUNNER_TEMP/held10-linear.log" 2>&1
@@ -108,16 +103,17 @@ jobs:
           import hashlib, json, os
           from pathlib import Path
           root=Path(os.environ['RUNNER_TEMP']);work=root/'held10-material'
-          for name in ('R53-core-check.json','material-continuation.json'):
+          for name in ('height-amplitude-path.json','material-continuation.json'):
               path=work/name
               if path.exists():
                   text=path.read_text()
                   print(json.dumps(dict(file=name,sha256=hashlib.sha256(path.read_bytes()).hexdigest(),record=json.loads(text))),flush=True)
-          for name in ('height-q060','material-lam002-linear'):
-              path=work/name/'run.json'
+          for directory in sorted(work.glob('height-*'))+[work/'material-lam002-linear']:
+              name=directory.name
+              path=directory/'run.json'
               if path.exists():
                   d=json.loads(path.read_text())
-                  keys=('solver_success','error','traceback','raw_return','prefix_audit','domain_newton_stats','domain_error_counts','boundary_kind','original_linear_DN_physical_residual','original_nonlinear_DN_accepted')
+                  keys=('solver_success','error','traceback','raw_return','prefix_audit','domain_newton_stats','domain_error_counts','boundary_kind','original_linear_DN_physical_residual','original_nonlinear_DN_accepted','height_count','initializer_height_amplitude','prescribed_physical_height')
                   print(json.dumps(dict(stage=name,run_sha256=hashlib.sha256(path.read_bytes()).hexdigest(),record={k:d[k] for k in keys if k in d})),flush=True)
           for name in ('held10-bootstrap.log','held10-core-check.log','held10-height.log','held10-linear.log','held10-true-tail.log'):
               path=root/name
