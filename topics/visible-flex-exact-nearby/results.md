@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R139均值atom必要门](results/R139-supplement-mean-atom-lower-budget-for-fixed-comparison.md)：原完整193观测比较含b_k≥1，故所选L²≥(Σh_k a_k)maxa_k；乘积的下界≥1/16384即排旧配方。独立3个lower证书程序已封包，不求whole-box Green，不计原50条中的任何一条，不推真实奇异；实际数值待Actions。
+
 - [R139正pivot与endpoint hull补篇](results/R139-supplement-positive-reference-pivot-and-endpoint-hull.md)：同一指数的完整凸组合给严格正分母下界，自治Riccati解的单调性给全panel端点凸包；两者仅与原球相交，保全部严格正检查。修复已合源、仅AST，44719196440/1零scalar失败不改。
 
 - [R138实际正支撑补篇](results/R138-supplement-actual-positive-support-for-repaired-physical-frame.md)：复用旧完整几何、角缺陷和修补证书，证明同一全周期外端锚、准确η0/ν0、全[0,25/8]的Qrepair物理径向frame满足|F|<319/250、F·n>9/10。扇区运输仅作比较，保6143接口/mean/真实逆角；支付能量support，不授实际闭合或全逆。

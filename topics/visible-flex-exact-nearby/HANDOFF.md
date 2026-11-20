@@ -1,12 +1,12 @@
 # 交接：可见振幅的精确闭等距族
 
-维护会话：`visible-exact-astra-ac637-20261120`；更新：2026-11-20 10:38:19 UTC。
+维护会话：`visible-exact-astra-ac637-20261120`；更新：2026-11-20 10:43:42 UTC。
 **总任务未完成；继续研究，不等用户回复。**
 
 ## 规则读点与接续来源
 
 部分克隆：`/workspace/scratch/ac637cfcc78d/math-research-public`。终端 git 已恢复，无 AGENTS。
-2026-11-20 10:38:19 UTC 实际pull/rebase至 `48892004737d24a79a360207dea4a7532f049abf`；已读规则提交同上，两README相对96edc6770空diff。每次pull后核规则差异；下次实际pull最迟11:38:19 UTC。
+2026-11-20 10:43:42 UTC 实际pull/rebase至 `eb62d3f8e6d347751386025d5d03bb9d2211e26e`；已读规则提交同上，两README相对96edc6770空diff。每次pull后核规则差异；下次实际pull最迟11:43:42 UTC。
 
 接手前完整 H（含全部递归原页、成功/失败/恢复身份和未付义务）见 [2026-11-16 完整检查点](https://github.com/Rogerhu12/math-research-public/blob/882aa9b74efeaac682df43c197820e7280156357/topics/visible-flex-exact-nearby/HANDOFF.md)。本页只压缩索引；`open.md` 及所链接的原证明、适用域、均值、物理角、所有边界和误差费用继续有效。旧成功结论不重算。
 
@@ -29,7 +29,7 @@ geometry `43584188751/26` **仅条件性**：同η0真 wholecore（含帽）C0�
 
 [R136](results/R136-stable-complete-joint-centre-columns.md)（已证明）：完整WJK核改用固定128/256宽度源列与稳定Green作用；保全五collar项、两三角、193 atoms和同点signed合并，原图1–3/真无限tail不变。源码已合入并AST通过，未运行新科学数值。
 
-[R139](results/R139-necessary-budget-for-fixed-W2C-comparison.md)（已证明）：固定WVC旧费用给G(K)≥109/120+(963/80)(K+ε)；L≥1/128排除既定充分界配方，不推奇异。首次44716804300/1完成155panel准备后零端点区间检查失败、0scalar。[包含修复](results/R139-supplement-certified-zero-endpoint-interval-continuation.md)已保真非负外包/原检查，v2只接续未成3条。
+[R139](results/R139-necessary-budget-for-fixed-W2C-comparison.md)已证G(K)≥109/120+(963/80)(K+ε)，L≥1/128排既定充分界配方。[均值atom补篇](results/R139-supplement-mean-atom-lower-budget-for-fixed-comparison.md)给L²≥(Σh a)maxa，可用3个独立lower证书检验≥1/16384；原50条仍0，不推奇异。新70输入清单/独立owner已封包，本提交触发Actions，实际判定待。
 
 [R137](results/R137-continuous-signed-centre-and-exact-endpoint-system.md)（已证明）：完整连续WJK中心I−Hc可逆等价于1217态/609端点矩阵非奇异，证明无aux-only核及Fredholm闭合；原finite投影/ρ/lift缺陷明确另付。当前只备193低态/97端点浮点诊断，未给非奇异或全逆证书。
 

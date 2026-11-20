@@ -1,0 +1,42 @@
+name: R139 complete mean-atom necessary floor
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/fourfold-codazzi-low-family-atom-floor-public.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: r139-w2c-mean-atom-floor-v1
+  cancel-in-progress: false
+
+jobs:
+  complete-mean-atom-necessary-floor:
+    if: github.repository == 'Rogerhu12/math-research-public' && github.run_attempt == 1
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            README.md
+            topics/visible-flex-exact-nearby/README.md
+            topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_collar_volterra_dual_public_worker.py
+            topics/visible-flex-exact-nearby/notes/2026-11-20-low-family-mean-atom-floor-inputs.json
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12.14'
+      - name: Install fixed directed runtime
+        run: python -m pip install --disable-pip-version-check python-flint==0.9.0
+      - name: Compute three independent mean-atom lower certificates
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_collar_volterra_dual_public_worker.py --repo "$GITHUB_WORKSPACE" --manifest topics/visible-flex-exact-nearby/notes/2026-11-20-low-family-mean-atom-floor-inputs.json --manifest-sha d2ba289f34561793a6315cf643d30b2f27f2e04a00445d8cec6d33583227552e

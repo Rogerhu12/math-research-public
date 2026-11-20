@@ -161,7 +161,7 @@ WIC真tail κ=3已闭；WPN仍须完整e+3dt<1。WPS/WVC/WCTRA充分门均false�
 
 [R136](results/R136-stable-complete-joint-centre-columns.md)关闭graph4递归高秩实现缺口：以稳定源列保完整核和193观察，源码已合入、仅AST。首次科学运行先判断low-family比较预算；连续中心端点逆、真实finite转换与最终非线性义务不变。
 
-[R139](results/R139-necessary-budget-for-fixed-W2C-comparison.md)给固定旧费用下的必要门K+ε<1/128。当前先独立计算完整low-family比较L的3条记录；若L≥1/128，登记此配方不可能通过并转直接中心BVP，余47条未算。若未触发排除，只复用这3条继续原新目标，不能称finite门已通过。
+[R139](results/R139-necessary-budget-for-fixed-W2C-comparison.md)给固定旧费用下的必要门K+ε<1/128。[mean atom补篇](results/R139-supplement-mean-atom-lower-budget-for-fixed-comparison.md)进一步给L²≥(Σh a)maxa；当前先算其3个独立lower证书，若乘积下界≥1/16384则排旧配方并转分块/直接中心BVP。原五图50条仍0；未触发排除不表示finite门通过。
 
 首轮44716804300/1在155panel准备后保存0scalar失败；[零端点包含修复](results/R139-supplement-certified-zero-endpoint-interval-continuation.md)只改已证明非负量的球表示，v2清单保旧回执并接续未成3条。endpoint首轮44717190551为YAML解析失败、jobs0；格式修复和同reference pin后才作首次科学。
 
