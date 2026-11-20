@@ -6,12 +6,12 @@
 
 - **普通复可分无限维Hilbert ISP未完成。** 只有全体有界算子的存在定理或完整反例才收尾；子问题完成继续open，不以阶段或时限停止。
 - **最近成功实际pull与已读规则提交：** 35d0d768258a205cd0d78552fb7fbfa4018ec70a，2026-11-20 12:03:16 UTC，Actions run44732550495/job136275725868；真实git pull --rebase成功，两README未变，原日志已核。下一实际pull不得迟于13:03 UTC。
-- **最近API同步及规则核对：** `aa4ae8a39fe6c23e73d2f7f6a3a6a158253e7d64`（2026-11-20 12:06:20 UTC）；两README blob均未变。API快照不冒称实际git pull，另记真实执行回执。
+- **最近API同步及规则核对：** `d11e3c828ff5e2367a56b9f887f585d7fa22ef3a`（2026-11-20 12:08:08 UTC）；两README blob均未变。API快照不冒称实际git pull，另记真实执行回执。
 - 根README blob282e86b03385d3b6245ce7100ae2e2af7b103c2d、课题4d6570e9cf346431ab781a1290076a6321aaaa00已全文读。每次pull比两README，只读新diff并立即遵守；至少每小时及发布前同步，SHA写H。
 - 仅授权Rogerhu12/math-research-public。root独占main/H/open/results/log和发布，代理只交proof blob；每条结论单独提交推送，非快进立即更新/rebase重试成功，不force。用户PAT仅CLI环境，不进文件/config/日志。
 - 根规则15：可重算数组/数据/证书不进Git、Release或新工件；仅源码、参数、运行身份/SHA及正式证明。MD/API UTF8<100KB、H≤10000B、open尽量≤30KB、topic≤200MB、log每条≤5行、数学美元符及AI署名，不写根LOG。
 - 本地executor已断开；依根规则8小文本API逐次读最新main/规则、非force条件更新，另以只读Actions实际小时pull。pull请求sequence54成功，下一55。恢复本地先处理未推a06d8dbd8的远端等价内容，勿重复推。
-- 此前结论/输入/完整SHA/失败与未闭项保[前H快照](notes/2026-11-20-handoff-before-general-odd-height-b2a9.md)、[完整open](notes/2026-11-20-open-before-unit-two-plus-one-b2a9.md)、[结果索引](results.md)及其归档链；省略不算关闭。原clone约96MB，旧TMP不假存活。
+- 此前结论/输入/完整SHA/失败与未闭项保[前H快照](notes/2026-11-20-handoff-before-complete-vzero-b2a9.md)、[完整open](notes/2026-11-20-open-before-unit-two-plus-one-b2a9.md)、[结果索引](results.md)及其归档链；省略不算关闭。原clone约96MB，旧TMP不假存活。
 
 ## R150：原Bell非零临界点与完整来源
 
@@ -22,18 +22,17 @@
 - [ess4外均值原长度五代数](results/R150-appendix-essential-four-outer-mean-length-five-algebra-and-rank-defects.md)：Cat(y)=3、dimW4、y∉W，唯一D/全jets与同一L,ν给全矩。所有rankH3已排，含全部合流/半权/∞。
 - **rankH4全部proper局部单零（长度2–5）已排。** 三约化补支与unit2+1精确原源分别run44724947207/44723783966；所有零差/半权/合流/∞及除法例外保正式证明和前H，勿重做。
 - **rankH4只余孤立零单点，unit长度4为3+1、2+1+1或1⁴。** unit单四jet已由原H6/M8 gcd1闭（run44722024572）。divisor4+1及3+2全部rank4放置闭。
-- 全部rankH5单位支、inner mean y∈W、ess5/6、原Bell幂来源/算子桥仍开。inner mean不能从V低秩自动得到y/H共同支撑，退化支另证。草稿不预填结论。
+- 一般V≠0的rankH5单位支、inner mean y∈W、ess5/6及全局Bell幂来源/算子桥仍开。inner mean不能从V低秩自动得到y/H共同支撑，退化支另证。草稿不预填结论。
 
 - **新权11请求3已冻结：** run44729388449完整七父后因FLINT指数类型检查失败；已改精确__index__转换，先核同运行时56项多项式再重建输入。数学原源/native不改，旧权10矩阵不重算；保150646原行/37568列/四q·b³，40000行投影只取秩下界，门36786。native14400秒，每30分钟真实pull；尚无新rank。
 
 - **unit2+2孤立零点整支已空**：全权/全边界与Phi0例外，原325行QQ及独立边界分别run44730016169/44731129539全核；正式证明见结果索引。
 - **[unit3+1半权整支已空](results/R150-appendix-essential-four-unit-three-plus-one-half-isolated-zero-branch-is-empty.md)：** 全p0已闭；p非零的全部A/h/零和例外与正规五次/六次QQ gcd1已核。run44732550495全原mean/三jets通过；此分拆只余b≠1/2且p≠0。
 
-- **[V0/essT3=4整层已空](results/R150-appendix-zero-third-cumulant-nonreduced-essential-four-section-is-empty.md)：** rank3外值域、独立双二次/单基点与四约化已闭；现全4、3+1、2+2、2+1+1重数型也由完整Gaussian mean/H-gradient排除。保H_RY相关项，0/∞用原五阶奇零点。一般V≠0 inner ess4及V0/ess5,6仍开，matched Bell正证书继续。
+- **V0/essT3=4整层已空**，双二次单基点与全部长度4分拆完整原梯度证明见索引；这比匹配值零更强，不将高本质维层也宣空。
 
-- **[V0原三个匹配平方在完整六变量理想中均非成员](results/R150-appendix-zero-third-cumulant-degree-six-three-matched-squares-are-not-members.md)：** run44731129539全267源列/270增广列模103均满列，列数上界给两个QQ秩夹逼；三有理目标商类独立，扩标量覆盖每个原根。不排更高幂或根基；转新degree9 S³。[unit3+1全部p0支](results/R150-appendix-essential-four-unit-three-plus-one-isolated-zero-zero-base-pairing-branch-is-empty.md)现已通过完整原源并关闭。
+- **[整个V0层的三个原matched Bell均零](results/R150-appendix-zero-third-cumulant-all-matched-bell-values-vanish-and-exact-index-three.md)：** 无Cat/H秩/ess/支撑限制，含y0。非零y由原highest确定H(y)，完整17低梯度理想I0有(r·y)S_r²∈I0，乘同Q_r给S_r³；run44732550495全792×3 QQ回乘0。结合平方非成员，每个原匹配量在I0商中准确指数3。勿搬成一般V≠0/全Jacobian同幂；备用degree9不运行。
 
-- **短请求9全部成功：** run44732550495的unit3+1 p0已登记，半权整支已独立登记；V0新(r·y)S_r²全792×3有理回乘为零（4.512秒），已获全V0 Bell零及三次幂正门，完整稿待登记；不运行已不需的degree9矩阵。
 
 ## R271：同w的完整源费用
 

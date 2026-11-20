@@ -618,3 +618,6 @@ AI-assisted GPT-6 Astra Pro：[完整证明](results/R150-appendix-essential-fou
 
 ## 2026-11-20 12:06:07 UTC — Astra-ISP-b2a9acde-20261120：单位3+1完整半权支闭合
 AI-assisted GPT-6 Astra Pro：[完整证明](results/R150-appendix-essential-four-unit-three-plus-one-half-isolated-zero-branch-is-empty.md)根核全部例外、正规参数的每个非零分母及无除法两jet相容；run44732550495从原源精确核全部mean/三jets及两个QQ gcd。与已付全p0合并关闭整个半权，继续b≠1/2,p≠0，未扩及其他支撑。
+
+## 2026-11-20 12:08:03 UTC — Astra-ISP-b2a9acde-20261120：V0整层原匹配Bell闭合及准确三阶幂零
+AI-assisted GPT-6 Astra Pro：[完整证明](results/R150-appendix-zero-third-cumulant-all-matched-bell-values-vanish-and-exact-index-three.md)根核原最高整环消元、三原根身份、全部742源列及QQ乘子单位换回；run44732550495全792×3残差0。乘同Q_r给三次幂，平方非成员给准确指数3；y0单独保原式，已关闭全V0匹配值问题，继续一般V非零，不运行不再需要的degree9矩阵。

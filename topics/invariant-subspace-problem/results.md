@@ -93,3 +93,5 @@
 - **R150 孤立零点加单位3+1的p零整支为空（2026-11-20，已证明）：** [完整原mean两族、全部例外与真实germ证明](results/R150-appendix-essential-four-unit-three-plus-one-isolated-zero-zero-base-pairing-branch-is-empty.md)保任意Frobenius权及∞，非零A由原N二阶jet=-3排，A0两族由完整Gram第二核和合法原曲线germ取消后的非零相容式排。run44732550495全部QQ恒等式通过；p非零及其余分拆仍开。
 
 - **R150 孤立零点加单位3+1的半权整支为空（2026-11-20，已证明）：** [全原mean、三个jets及无遗漏例外证明](results/R150-appendix-essential-four-unit-three-plus-one-half-isolated-zero-branch-is-empty.md)在p非零时保A0、h0、A+h0，正规分支的原五次/六次相容多项式QQ gcd1；结合全p0结果关闭整个a=b=1/2分支。run44732550495全部原系数通过，只余一般非半权p非零。
+
+- **R150 整个V0临界层的三个原匹配Bell均零，I0准确指数三（2026-11-20，已证明）：** [完整最高消元、全792行QQ证书及显式乘子定义](results/R150-appendix-zero-third-cumulant-all-matched-bell-values-vanish-and-exact-index-three.md)保全部17低梯度/三原根，实际run44732550495给(r·y)S_r²∈I0，乘同Q_r得S_r³；与已付平方非成员合成准确指数3。原V0匹配值零含y0及任意Cat/H秩/ess维数；不宣高维层空，也不宣一般V≠0或全Jacobian同幂。
