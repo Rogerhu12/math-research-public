@@ -131,9 +131,11 @@ R936的原Tate标架错误已明确勘正：[审计](notes/R936-Tate-frame-sign-
 
 [R942](results/R942-original-complete-weight10-double-Hecke-zero-primary-line.md)在完整H6权10四维空间证明T5经共轭marking往返后，全部T5²广义零空间恰原V10†，p≥41无例外；两个非零标量147456、666²及原Norm差均单位。不能把这个结论当成高权whole packet的一维性。真实剩余充分条件是Θ^r(M_CM)⊂A^(r+1)S_(r+2)，即整个generalized packet的饱和下降，而R932目前只给命名F的一条等式。单eigenform theta周期、乘性一或Gorenstein不足以排除延长链。
 
-### R943 与两个新中央低项零
+### R943/R945：固定曲线接口、中央反例与真实替代标签
 
-[R943](results/R943-original-p11-central-and-third-label-Cartier-interfaces.md)已关闭固定辅助曲线Hasse/GM/Cartier及3同源的实际标度接口；旧543d03f8已解决全部允许p的三分位双本原Legendre选择，不能重复登记。真正仍缺同h sigma共同单位。新原z run44719847377给p227/h115与857/h433中央sigma零，而旧完整S为95/568；正按[独立契约](notes/central-sigma-two-zeros-independent-contract.md)复核及检查原替代标签。暂不可把完整trace非零当Q′单位桥；这些值不构成Serre反例或否定充分大p的结论。
+[R943](results/R943-original-p11-central-and-third-label-Cartier-interfaces.md)已关闭固定辅助曲线Hasse/GM/Cartier和3同源的真实尺度；旧543d03f8已解决全部允许p三分位双本原Legendre选择，不重证。仍须同h sigma共同单位。
+
+[R945](results/R945-original-central-sigma-zeros-and-same-label-alternatives.md)由两个独立原参数算法精确证明p227/h115与857/h433的中央sigma零；原Legendre单位、完整S=95/568却非零。因此未经例外限定的S非零⇒中央Q′单位已被反例关闭，不能继续列为待证桥。两原q2对应积101/335非零，中心零阶恰2；Hensel只给scalar/w在pR0的唯一根，可能仍为0，非全Abel或有理点。实际p227/h151的sigma16与旧Legendre单位，p857/h445新Legendre298乘旧sigma187得21，两个同h临界jet均非零。全p或充分大p的同h选择及原height仍开；不能用这两有限替代宣布主目标闭合。
 
 ### R944：原低权类的同源同伦和完整SS主部已成
 

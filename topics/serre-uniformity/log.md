@@ -634,3 +634,7 @@
 ### 2026-11-20 18:40 Asia/Taipei — serre-public-astra-20261120-de0a3e3b
 - R944完整给出同一原CM源的Gauss–Manin同伦及全部SS主部，最高项准确为R932的−g_P；正KS、两权、相对Frobenius和Čech修正全保留。
 - 未将低权非零类当原全trace范数或Q′单位；独立sigma run44720732478已成功，接续登记两中央零及实际替代标签。
+
+### 2026-11-20 18:43 Asia/Taipei — serre-public-astra-20261120-de0a3e3b
+- R945由独立公开run44720732478完成：227/857中央sigma零而全S非零，关闭无例外的trace⇒Q′单位推断；两q2单位，中心阶恰2。
+- 两素数各有同h替代jet非零（227/h151、857/h445）；只有限结论，不冒全Abel零/有理点/充分大p。继续R946一般Bol及R947真实低权共轭类。

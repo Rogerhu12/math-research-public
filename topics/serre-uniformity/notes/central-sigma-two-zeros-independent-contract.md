@@ -1,6 +1,6 @@
 # 两个新中央 σ 零的独立复核与实际替代标签
 
-2026-11-20，serre-public-astra-20261120-de0a3e3b。原坐标 run `44719847377` 已成功；本篇的第二公式复核仍待新公开 run，不预填结果。
+2026-11-20，serre-public-astra-20261120-de0a3e3b。原坐标 run `44719847377` 与第二公式 run `44720732478` 均已成功；精确结果及范围见 [R945](../results/R945-original-central-sigma-zeros-and-same-label-alternatives.md)。原执行契约如下，目标未扩大。
 
 第一算法保持原 $y^2=x^3-1$、$dz=dx/(2y)$、$y\sim-z^{-3}$、$c=0$ 和 σ 规范，精确得到：
 
@@ -37,3 +37,7 @@ $$
 为处理已经发现的零，还只计算两个新的同标签替代目标：227 的旧合法三分位 $h=151$ 取原 $f_{24}g_{12}$（其 Legendre 单位直接复用旧窗口）；857 的原权 34 标签 $h=445$ 只算新 $P_{444}(1/s)=P_{412}(1/s)$（原 σ 积 187、$p\nmid B_{34}$ 已由第一 run 给出，绝不重算）。新目标允许为零，不以失败或删除处理。
 
 脚本 `scripts/central_sigma_two_zeros_lagrange.py --output /tmp/central-sigma-two-zeros-lagrange.json` 只在本公开仓库 Actions 执行。整个 48 素数窗、完整迹、两个 Legendre 窗口和已登记原顶端值均不重跑；原 $z$ 系列不重新生成。仅保存来源、参数、摘要与 SHA，不把可重生有限加数数组提交到 Git 或 Release。
+
+## 实际执行回执
+
+run `44720732478`，job `136235472207`，source `2ca40e8720ff441fb29b700ca99e5582bb60b1a4`，全部目标与恒等式通过；输出 SHA256 `217d9ff8f89c3270b8af2d0226fabb70662bff5874c526302933feaa66e08aad`。四中央值独立吻合；两个原q2的积101/335非零；227/h151的sigma积16非零；857/h445的新Legendre为298，与既有sigma187乘积21。证明及不能外推的边界统一在R945，原48窗和trace等未重做。

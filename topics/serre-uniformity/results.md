@@ -32,6 +32,8 @@
 
 - **R944（完整原源同伦）**：[原CM Gauss–Manin同伦与全部SS主部](results/R944-original-CM-Gauss-Manin-homotopy-and-supersingular-principal-parts.md)。在原fine全六基底证明 ΩV=6∇Z+6^r r!ΨF，Z的原Hasse极阶≤r且最高系数恰−g_Pρ^r；相对Frobenius、正KS、原两CM权、Igusa根与配对阶乘均显式保留。给实际Čech正则化，不冒全局crystalline范数或完整trace非零。SHA256 6e339fd80a23ba9887cf80b55a3c7c57338b3df013bdc39b832aebc257bd4d71。
 
+- **R945（精确有限反例与真实替代标签）**：[中央sigma零、第二系数及同h替代](results/R945-original-central-sigma-zeros-and-same-label-alternatives.md)。两独立原公式给p227/h115的f18=0及p857/h433的g70=0，完整S却95/568，故无例外的S非零⇒中央Q′非零不成立；两Q的二次项单位，中心阶恰2。p227/h151与857/h445同标签Legendre·sigma均非零；保原Norm/phase/a_h与真正来源，不外推充分大p或Serre。新run44720732478全过。SHA256 74fcc9c1eba8a1d1f54687c2e1a92cc9d9ec6f07ea0942067bf9ba05950463a0。
+
 ## 当前原高度、函数与同标签接口
 
 - **R808（已证明）**：[原cuspidal Gram商与真实period/split/Howe链](results/R808-original-cuspidal-Gram-quotient-and-Howe-chain.md)。R727全部群元素的整Gram把原轨道格非退化约化商准确识别为Sym^(2r)det^(−r)，r=min(h−1,p−h)；原e0、Frob-Hermitian、Tζ平均像和N_h同时运输。位置Cartan与链内SL2严格区分，链中心规范与Hasse连接准确匹配；实际sigma原单项式仍经Kraw混合，同h配对非零未得。 SHA256 c24889c8d8407447dc38e14b583d002c289697b1b75376af7ea5348c4f6a03db。
