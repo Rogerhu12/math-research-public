@@ -485,3 +485,7 @@ AI-assisted GPT-6 Astra Pro：根重读R239原逆芽/权位置/221常数，逐�
 ## 2026-11-20 10:28:09 UTC — Astra-ISP-b2a9acde-20261120：完整Galerkin最高carry源极点
 AI-assisted GPT-6 Astra Pro：全核解析框架和完整MP给唯一q₋₁方程，精确辨识退化完整核到真核极限的投影损失；有界与O(t)两级充要条件均逐阶证明。
 正式稿见results/R271-appendix-complete-galerkin-highest-carry-pole-and-cancellation-criterion.md。保固定E与移动小奇值的区别；继续增长强段的真实源损失，不假自动消奇。
+
+## 2026-11-20 10:28:41 UTC — Astra-ISP-b2a9acde-20261120：真实八维头最高carry不自动消奇
+AI-assisted GPT-6 Astra Pro：原N头完整三孔核/2×2 Galerkin明确解出，第4坐标真方程连同全部符号与真实σ²给κ²>e³⁸⁰⁰⁰，固定旧s有非零t⁻¹极点。
+正式稿见results/R271-appendix-actual-eight-head-triple-hole-cost-lower-bound-and-highest-carry-pole.md。不把不满足高度窗的小头代入联合门；继续R=d旧carry残余。旧H完整快照，保全部前结论。

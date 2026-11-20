@@ -328,3 +328,5 @@
 - **R271 原最高carry逆的883统一常数与R=d预算（2026-11-20，已证明）：** [原逆芽、实际相似及全部强段费用](results/R271-appendix-odd-height-highest-carry-explicit-883-cost-and-d-sized-budget.md)保真实输入列W_j给参考头441a，旧头221a；完整sl2条件数含((n−1)!)²(2n−1)!B_R³，合成R=d逆≤t⁻¹exp(883a+21nlogx)。原t指数1400a主阶，完整源若另有二阶/次主阶系数才余517a；此源条件未得，真实费用仍开。
 
 - **R271 完整Galerkin源的最高carry极点及准确抵消条件（2026-11-20，已证明）：** [真核极限、原源投影损失及下一阶判据](results/R271-appendix-complete-galerkin-highest-carry-pole-and-cancellation-criterion.md)给E1*q₋₁=P_K(f−H0a0)，q₋₁在固定一阶新范围唯一。q有界等价于退化全核Galerkin解属真核极限；q=O(t)等价于ξ0=0及P_Kξ1=0。保原自然域、全核、完整MP，不以固定Schur方向代移动谱投影，增长R实际残余仍开。
+
+- **R271 真实八维N头的巨大三孔费用及非消失极点（2026-11-20，已证明）：** [全真核、显式Galerkin与原坐标下界](results/R271-appendix-actual-eight-head-triple-hole-cost-lower-bound-and-highest-carry-pole.md)在m3/R0/r3的原s=e⁻¹⁰⁷⁰、t=e⁻¹⁷⁹⁶⁰，完整解必有‖q‖>1/(52000ts)，准确远尾σ因子给κ²>e³⁸⁰⁰⁰。所有抵消符号已控制，固定s的t⁻¹极点非零。小头超旧高度窗，仅排自动逐头继承，R=d源残余继续。
