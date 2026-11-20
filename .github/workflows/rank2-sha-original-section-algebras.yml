@@ -1,0 +1,77 @@
+name: Rank2 original complete section algebras and eta fractions
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/rank2-sha-original-section-algebras.yml'
+      - 'topics/rank2-sha-infinitely-many-p/scripts/section_quotient_algebra.py'
+      - 'topics/rank2-sha-infinitely-many-p/scripts/finite_section_frobenius.py'
+      - 'topics/rank2-sha-infinitely-many-p/scripts/produce-original-ds-section-algebra.py'
+      - 'topics/rank2-sha-infinitely-many-p/scripts/produce-original-complete-cusp-algebra.py'
+      - 'topics/rank2-sha-infinitely-many-p/scripts/produce-original-tuv-section-fractions.py'
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: rank2-original-section-algebras
+  cancel-in-progress: false
+jobs:
+  original-section:
+    name: original-${{ matrix.target }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - target: ds
+            script: produce-original-ds-section-algebra.py
+            args: '--prime 29 --q-precision 817 --max-unit-trials 64 --batch-size 128 --with-frobenius'
+          - target: cusps
+            script: produce-original-complete-cusp-algebra.py
+            args: '--prime 29 --q-precision 817'
+          - target: tuv
+            script: produce-original-tuv-section-fractions.py
+            args: '--prime 29 --q-precision 1005'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          filter: blob:none
+          sparse-checkout: |
+            topics/rank2-sha-infinitely-many-p/scripts
+          persist-credentials: false
+      - name: Certify the complete original object
+        shell: bash
+        env:
+          RANK2_SCRIPT: ${{ matrix.script }}
+          RANK2_ARGUMENTS: ${{ matrix.args }}
+          RANK2_TARGET: ${{ matrix.target }}
+        run: |
+          set -euo pipefail
+          RANK2_IMAGE='sagemath/sagemath@sha256:19995db6194f4a4bab18ce9a88556fd15b9ed5e916b4504fefe618a7796ddbdb'
+          RANK2_CONTAINER="rank2-section-$RANK2_TARGET-$GITHUB_RUN_ID-$GITHUB_RUN_ATTEMPT"
+          RANK2_ROOT_README_SHA=$(git rev-parse HEAD:README.md)
+          RANK2_TOPIC_README_SHA=$(git rev-parse HEAD:topics/rank2-sha-infinitely-many-p/README.md)
+          cleanup_rank2_section() {
+            docker rm -f "$RANK2_CONTAINER" >/dev/null 2>&1 || true
+          }
+          trap cleanup_rank2_section EXIT
+          trap 'exit 130' INT
+          trap 'exit 143' TERM
+          docker pull "$RANK2_IMAGE"
+          read -r -a RANK2_ARGV <<< "$RANK2_ARGUMENTS"
+          timeout --kill-after=30s 21000 docker run --rm --name "$RANK2_CONTAINER" --network none \
+            -e GITHUB_ACTIONS=true \
+            -e GITHUB_REPOSITORY="$GITHUB_REPOSITORY" \
+            -e RANK2_SOURCE_SHA="$GITHUB_SHA" \
+            -e RANK2_RUN_ID="$GITHUB_RUN_ID" \
+            -e RANK2_RUN_ATTEMPT="$GITHUB_RUN_ATTEMPT" \
+            -e RANK2_IMAGE="$RANK2_IMAGE" \
+            -e RANK2_ROOT_README_SHA="$RANK2_ROOT_README_SHA" \
+            -e RANK2_TOPIC_README_SHA="$RANK2_TOPIC_README_SHA" \
+            -e PYTHONDONTWRITEBYTECODE=1 \
+            -e OMP_NUM_THREADS=4 \
+            -v "$GITHUB_WORKSPACE:/work:ro" -w /work \
+            --entrypoint /usr/bin/sage "$RANK2_IMAGE" -python \
+            "topics/rank2-sha-infinitely-many-p/scripts/$RANK2_SCRIPT" "${RANK2_ARGV[@]}"

@@ -524,3 +524,15 @@ $$
 - Brian Conrad, *Structure near the cusps*, 2001 课程讲义，[原文](https://math.stanford.edu/~conrad/vigregroup/vigre01/cusps.pdf)；完整 Tate cusp 模型及其参数标号。原 cusp 域与 Galois packet 公式亦见 [Magma 官方手册：Cusps and Rational Points](https://magma.maths.usyd.edu.au/magma/handbook/text/1670)。
 - PARI/GP 官方 [Modular forms](https://pari.math.u-bordeaux.fr/dochtml/html-stable/Modular_forms.html)：`mfinit` 的 flag 4 为完整模形式空间、flag 1 为完整 cusp 空间；`mfbasis` 对 trivial character 的基系数在 $\mathbf Q$，`mfcoefs` 延长同一实际全局基。其“generalized modular forms”说明也要求先有全局模形式身份，不能将任意形式导数或商自动视为模形式。
 
+
+## 10. 首批公开执行入口（尚待实际末端）
+
+工作流 `rank2-sha-original-section-algebras.yml` 在同一固定 Sage10.6 镜像内并行运行三个原对象；数学进程断网、源码只读、不接收仓库令牌，不产生输出数据文件。源码保以下完整门：
+
+- `produce-original-ds-section-algebra.py --prime 29 --q-precision 817 --max-unit-trials 64 --batch-size 128 --with-frobenius`：完整R2/SR1和R4/SR3、204维单位矩阵、全部20910对基乘积、Frobenius与51个完整二次双点。每分量在完整四维局部环求真实frame逆元，读取全部120个原射影坐标及其幂零部分。
+- `produce-original-complete-cusp-algebra.py --prime 29 --q-precision 817`：独立PARI全S4的288维整格、完整S8的696维乘积秩、36维全商与S²单位、全部Frobenius/剩余域，并读取原120个f_i/S。
+- `produce-original-tuv-section-fractions.py --prime 29 --q-precision 1005`：先在ZZ准确整除生成原eta级数，再于同完整M4解全部T/U/V核；完整差帽714，最大检查至1003，保整个核和选出的截面分式。分母不自动在D_S上是单位，后续读取必须另付该门或使用§5.1。
+
+两个闭点前端以同M2前205系数hash作为原射影基身份，将真实全坐标运至固定剩余域模型，再取完整p-Frobenius轨道的规范代表，实际核各轨道长度及所有闭点互异。它们当前给Fp闭点；未来原Fp²消费者须按原常数嵌入拆p²轨道，不能合并两个不同的原k点。
+
+只有各自RESULT与SHA256实际产出且全部门通过后，才在此登记run/job/source及结果哈希。本节的代码入口不冒已运行或原shadow成功。
