@@ -4,7 +4,7 @@
 
 ## 规则与完整目标
 
-最近规则核查：2026-11-20 16:48 UTC，真实pull/rebase至 `d58584b44e0bc239747d220c1db9b2338a39617b`，双README相对上次已读无差异。
+最近规则核查：2026-11-20 16:55 UTC，真实pull/rebase至 `e6bd16d2d3b043aa0431b1ae24ac9770cd174741`，双README相对上次已读无差异。
 
 科学计算仅本公开仓库Actions；早前本地偏差及13:00 UTC纠正见[执行记录](notes/2026-11-20-public-actions-execution-correction.md)。根README已授权必要修改/发布；根唯一local git writer，代理只work/小源。每条结论普通commit/push；NFF立即pull --rebase循环再推，不强推。至少每小时pull，每次核双README差异/立即遵新规并记commit。raw只scratch/runner，不入Git/Release/artifact；只保完整小源/参数/run/SHA/紧凑结论。题≤200MB，MD<100KB，H<10KB，open<30KB。令牌只瞬时CLI，不写文件/提交/回复。
 
@@ -46,6 +46,7 @@ run2队列：尾纯report归因；原six→实际报告归因→同g径向二分
 - R676：同g符号二分/补零/旧行正权/全部永久点/六jet转移差；真实fine solve源齐。跨层Phi权变只比较共同父泛函，单次转移或fine不冒持续精化收敛。
 - R677：同QP可靠残差刷新/固定面长CG与正确预条件度量，v3 fb4ec6b8准备未跑；每32真残差成本显式，是否采用依真实归因。
 - R678：仅增M准确补零保同场六jet、原carrier/全权/N及完整母/商范数；eea174b9入口仅准备，依径向实际归因择用。
+- R679：N倍增的旧偶/新奇Phi各半、同场max取两者max，旧点归一权减半；共同旧N/新odd归因及条件角余项已证，仅接口设计未排算。
 - R680：完整坐标正部越界加三阶项给条件二阶几何修正，保原选中线性可行；真Phi/全点另付，仅证明未实施。
 - R682：严格metric lower用自己配置的准确s/π角身份，已有address可复用；新增正权必换Phi版本，全free点导数/分母链已证，超标硬门不可直接交零步feasible-CG。
 
