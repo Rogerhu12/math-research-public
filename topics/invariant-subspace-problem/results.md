@@ -332,3 +332,5 @@
 - **R271 真实八维N头的巨大三孔费用及非消失极点（2026-11-20，已证明）：** [全真核、显式Galerkin与原坐标下界](results/R271-appendix-actual-eight-head-triple-hole-cost-lower-bound-and-highest-carry-pole.md)在m3/R0/r3的原s=e⁻¹⁰⁷⁰、t=e⁻¹⁷⁹⁶⁰，完整解必有‖q‖>1/(52000ts)，准确远尾σ因子给κ²>e³⁸⁰⁰⁰。所有抵消符号已控制，固定s的t⁻¹极点非零。小头超旧高度窗，仅排自动逐头继承，R=d源残余继续。
 
 - **R150 非单位长度三局部块的全部rankH4支路为空（2026-11-20，已证明）：** [全单位长度2分拆、半权及原H梯度排除](results/R150-appendix-essential-four-local-three-jet-rank-four-branches-are-empty.md)以保持同一L/矩的物理规范给准确中心三次；外单位双点全mean排，约化非半权靠三/四阶highest，半权以完整N的R·线性因式强制配对消失再排等向2+1。所有分拆及∞覆盖，rankH4仅余局部长度2单零或零单点。
+
+- **原有限共轭平均、准确多项式与无损截断成本（2026-11-20，已证明）：** [有限周期、细圆柱压缩与准确提升](results/R12-appendix-finite-conjugation-average-and-lossless-polynomial-head-cost.md)使有限头下三角B的完整N项平均成为原A多项式；对任意固定次数p，细圆柱排高次返回，给c_A(p(A_m))≤‖p(A)‖及α_m误差夹逼。逆Fejér系数准确提升p(A)，全部有限头提升成本下确界恰‖p(A)‖。未宣平均保任意输入插值。

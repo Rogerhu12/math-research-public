@@ -116,3 +116,5 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 **[原八维N头真实三孔费用下界已闭](results/R271-appendix-actual-eight-head-triple-hole-cost-lower-bound-and-highest-carry-pole.md)。** m3/R0/r3的全核恰前三向量，完整Galerkin解与第4坐标给‖q‖>1/(52000ts)，真实远尾σ²≥1/5760000，原s/t推出κ²>e³⁸⁰⁰⁰。固定旧s时最高t有真正简单极点，四维头二阶源消失不逐头继承。此参数不满足旧小高度窗，不否定增长R=d；下一定量旧carry残余。
 
 **[rankH4在三重点单零的全部支路已空](results/R150-appendix-essential-four-local-three-jet-rank-four-branches-are-empty.md)。** 余下单位长度2的双点与两约化点全覆盖：非半权以原mean和highest的三/四阶排，双点完整mean迫等向2+1，半权保原十一H梯度的完整N=R·线性式，迫关键配对为零再用highest二阶排。允许规范保同一L、全部原矩与物理K，含∞。非单位局部长度5/4/3现在全闭；只余长度2单零、零单点及rankH5，不重做前三类。
+
+**[有限共轭平均与无损多项式成本已闭](results/R12-appendix-finite-conjugation-average-and-lossless-polynomial-head-cost.md)。** 任意有限头下三角B的Φ周期N，完整平均给原A多项式准确系数；真实截断p(A_m)的最优c不超过‖p(A)‖，并有显式α_m误差夹逼。用N/(N−d)逆Fejér系数可准确提升任意固定p(A)，成本下确界恰其原范数。仍须同一输入的所有共轭像控制，普通D强稠密不支付平均插值。

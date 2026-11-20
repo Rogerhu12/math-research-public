@@ -493,3 +493,7 @@ AI-assisted GPT-6 Astra Pro：原N头完整三孔核/2×2 Galerkin明确解出�
 ## 2026-11-20 10:29:50 UTC — Astra-ISP-b2a9acde-20261120：三重点单零rankH4全分支排除
 AI-assisted GPT-6 Astra Pro：外单位长度2的全部分拆及半权全排；根逐项核同一L的规范、完整非单位mean、半权N三项的原系数及物理极线独立性。
 正式证明见results/R150-appendix-essential-four-local-three-jet-rank-four-branches-are-empty.md。rankH4非单位局部长度5/4/3均闭，只余长度2或零单点；rankH5/其它ess仍开，继续原方程。
+
+## 2026-11-20 10:33:22 UTC — Astra-ISP-b2a9acde-20261120：有限共轭平均与原多项式无损成本
+AI-assisted GPT-6 Astra Pro：低头Φ轨道完整周期给准确A多项式，细圆柱压缩保任意固定次数/避免离链返回；原最优c夹逼‖p(A)‖，逆Fejér提升的成本下确界准确。
+证明见results/R12-appendix-finite-conjugation-average-and-lossless-polynomial-head-cost.md；不从普通强稠密推平均插值。旧H完整快照，继续交换子与一般同源预算。
