@@ -302,3 +302,5 @@
 - **R150 全ess4外均值分支的原长度五代数（2026-11-20，已证明）：** [唯一原除子、全秩缺陷与完整方程](results/R150-appendix-essential-four-outer-mean-length-five-algebra-and-rank-defects.md)从Cat3及原Hankel差分推出唯一长度五曲线除子、完整合流jets和同一Frobenius代数，非单位L亦保精确y/H/V/T3。H仅rank3/4/5，所有缺陷与七分拆的完整中心奇点均已分类；全秩时原低梯度N非零。原highest及全部low gradients仍需同时满足，不判Bell非零层空，不扩及y∈W或ess5/6。
 
 - **R150 ess4外均值的全约化五点rankH3分支为空（2026-11-20，已证明）：** [原完整方程的全分支排除](results/R150-appendix-essential-four-reduced-five-point-rank-three-branch-is-empty.md)先由完整mean给全等向或单半权分类；全等向用剩余梯度相矛盾，半权保全部节点必要方程，迫两零点配对列相等，再用同一五次极线的简单零点与活跃三次的双零点矛盾。零配对、半权及∞均覆盖，无GB单位假设；合流与rankH4/5仍开。
+
+- **R150 原权11–14的Koszul循环和完整秩上界（2026-11-20，已证明）：** [交替三指标证明与全部计数](results/R150-appendix-original-koszul-two-cycles-and-weight-eleven-through-fourteen-rank-ceilings.md)由已付原μ7单射、权≤10全Koszul核推出K2在t≤14的核恰K3像、K3单射。原ΓE上界36782/90012/203542/430212及200/120来源核下界全给，权12起保165/1320/7425第三边界。新qb³/b⁴/δb³原增广门36783/90013/203543；未跑新大矩阵，未宣成员性。

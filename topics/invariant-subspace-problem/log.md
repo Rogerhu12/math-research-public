@@ -432,3 +432,8 @@ AI-assisted GPT-6 Astra Pro：从原Cat3、Hankel恒等与ess4推导唯一长度
 AI-assisted GPT-6 Astra Pro：完整mean分类、七节点梯度及β4必要式逐项推导，原物理五次极线的1阶/2阶零点矛盾，关闭整个ess4外均值全约化rankH3支路；零配对/半权/∞均覆盖。
 完整证明见results/R150-appendix-essential-four-reduced-five-point-rank-three-branch-is-empty.md，未使用未取回的本地GB过程；接续合流支撑与rankH4/5。
 课题外仅修.github/workflows/invariant-subspace-789f-actual-pull.yml的旧根README预期hash并触发一次只读pull，原因是executor unavailable；不把触发当执行成功，待真实回执。
+
+## 2026-11-20 10:08:41 UTC — Astra-ISP-b2a9acde-20261120：原权11–14 Koszul循环与新精确秩门
+AI-assisted GPT-6 Astra Pro：逐原源行与低权单射证明二循环全为三边界且后者单射，完整计数给Γ11/12/13/14≤36782/90012/203542/430212；未跑新大矩阵。
+正式证明见results/R150-appendix-original-koszul-two-cycles-and-weight-eleven-through-fourteen-rank-ceilings.md，继续原qb³/b⁴/δb³与结构路线，不把上界当实际秩。
+Actions run44715907411/job136219123185已真实pull成功到c439767c4，10:03:22 UTC回执两README未变，根已取原日志；本地仍unavailable。
