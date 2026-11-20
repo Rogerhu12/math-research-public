@@ -1,18 +1,18 @@
 # 交接：可见振幅的精确闭等距族
 
-维护会话：`visible-exact-astra-ac637-20261120`；更新：2026-11-20 11:26:11 UTC。
+维护会话：`visible-exact-astra-ac637-20261120`；更新：2026-11-20 11:35:31 UTC。
 **总任务未完成；继续研究，不等用户回复。**
 
 ## 规则读点与接续来源
 
 部分克隆：`/workspace/scratch/ac637cfcc78d/math-research-public`。终端 git 已恢复，无 AGENTS。
-2026-11-20 11:26:11 UTC 实际pull/rebase至 `4c0daefe1f51a8e5bc106407c12a40f991b34e43`；已读规则提交同上，两README相对96edc6770空diff。每次pull后核规则差异；下次实际pull最迟12:26:11 UTC。
+2026-11-20 11:35:31 UTC 实际pull/rebase至 `9ed23a55afed20bdbd3f231197cf560618e6fb6d`；已读规则提交同上，两README相对96edc6770空diff。每次pull后核规则差异；下次实际pull最迟12:35:31 UTC。
 
 接手前完整 H（含全部递归原页、成功/失败/恢复身份和未付义务）见 [2026-11-16 完整检查点](https://github.com/Rogerhu12/math-research-public/blob/882aa9b74efeaac682df43c197820e7280156357/topics/visible-flex-exact-nearby/HANDOFF.md)。本页只压缩索引；`open.md` 及所链接的原证明、适用域、均值、物理角、所有边界和误差费用继续有效。旧成功结论不重算。
 
 新科学数值用本公开仓库 Actions；本机用于证明、编辑及静态检查。每条实质结论更新 H 并独立提交推送；推前实际 pull，非快进立刻 rebase 再推，不 force。规则15：只留脚本、参数、run、hash 和小结论，不入库新数组/可重算证书，topic≤200 MB。3份未被当前输入引用的旧大数组/删除库存已按规15移为Git历史指针，见 `notes/2026-11-20-reproducible-data-history-pointers.json`；原字节可恢复、不重算。
 
-根规12下移除无关workflow静态白名单，仍逐次rebase后核全topic和输出容量；21原件、mean/ports、五图50条定义保留。原L三量已成冻结（3/50），余47条未算。
+根规12下移除无关workflow静态白名单，仍逐次rebase后核全topic和输出容量；21原件、mean/ports、五图50条定义保留。原L三量冻结（3/50）；完整centre下界已排固定配方，余47不再为此配方算。
 
 另4份旧flow log/index已按规15转Git历史指针：[完整恢复表](notes/2026-11-20-legacy-flow-log-history-pointers.json)；75活跃输入原样，旧结论/失败全文可恢复。
 
@@ -57,10 +57,10 @@ WIC原m160/N24480真tail逆κ=3已证；WPN只有完整e+3dt<1才授双边逆、
 
 readonly44712172133/1成功（60 current/23 AST/21原件/18门，0科学）；旧43921663540/1为0科学运维失败，两份完整回执保在 `notes/collar_volterra_dual_readonly_ci/`。恢复/执行用 `fourfold_codazzi_collar_volterra_dual_public_worker.py`；各新源码、完整清单与适用域见result/manifest，21原件与29整球只读恢复，旧producer不调用。graph4最终版尚未launch。
 
-1. 原L v4 44724797559/1成功3/50、L≈3.79236e−5，原atom/endpoint成功也冻结。[centre mean下界](results/R139-supplement-complete-joint-centre-mean-atom-lower-bound.md)已证，公开44727185157/1运行（75输入/SHAe08f6821）；B_HL mean严格0，先判固定小K配方，余47未算。
+1. 原L v4冻结3/50、L≈3.79236e−5。完整centre mean[实际44727185157/1](results/R139-supplement-actual-complete-centre-mean-floor-excludes-fixed-recipe.md)成功：155panel、J_lower≈6409.59094，K>80，严格排原小K配方；75输入/25AST/27门全核，独立1条冻结，余47不再为此配方算。不推真实奇异，继续直接逆。
 2. `positive_inverse` 的低193/97 scaled续算44721851908/1已success：155panel/1424各向步/156分界，根全收据已核并登记，成功冻结；非真实逆。原失败prefix保。R141已登记，首次directed owner在备，CFB/mean/实际family仍付。
 3. `global_route` 已完成几何桥/旋转能量、actual support与outer负型；继续真实inner low96/high stable/mean边界及体残差吸收，不能把stable行当c=0。R135/R520不替验收。
-4. root维护git与记录；L三次失败均0scalar全保，旧endpoint第139panel超256步/0传播失败全保。atom未排除、scaled结果已成冻结；原L已成3/50，余47未算。代理不动git。
+4. root维护git与记录；L三次0scalar失败、旧endpoint第139panel/0传播失败全保。atom/endpoint/L/centre下界各自成功冻结，代理不动git。
 
 ## 正侧以外仍未付的接口
 

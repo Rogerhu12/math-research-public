@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R139实际完整中心下界与固定配方排除](results/R139-supplement-actual-complete-centre-mean-floor-excludes-fixed-recipe.md)：44727185157/1成功、75输入/25AST/27门，全部155panel给有向J_lower≈6409.59094，故K>80，严格排除要求K<1/128的原小中心配方。独立1条冻结；原3/50已成、余47不再为此配方计算。不推真实奇异，继续直接逆和几何能量。
+
 - [R139完整中心均值原子下界](results/R139-supplement-complete-joint-centre-mean-atom-lower-bound.md)：degree32支持使纯mean输入的整个CFB严格0，原root-mean atom核恰−a00/q，因此完整有限接收器中心K²≥∫|a00/q|²dr。一个全155panel下界达到1/16384即排固定小K配方，不排实际逆；新75输入/一lower目标首次Actions，数值未得。
 
 - [R139实际完整低频族差三量](results/R139-supplement-actual-complete-low-family-budget.md)：44724797559/1成功，72当前/21原件/24AST/27门，完整L≈3.7923616923e−5，未触发1/128排除门。原50条中3条完成冻结、余47未算；五完整graph、finite门和逆均未给，旧三次0scalar失败全保。

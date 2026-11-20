@@ -1,5 +1,9 @@
 # 研究日志：visible-flex-exact-nearby
 
+## 2026-11-20：完整centre下界首次成功并排除原配方
+
+44727185157/1全155panel/146正距离、唯一J_lower=[6409.59093747500317968874325858840528173828638122141989445756634629317488577 +/-3.16e-72]，所以K>80，原要求K<1/128的小中心配方严格排除。actual90908B/SHA7eedd938、exec56440B/SHA0aff9f66、report527B/SHA74602c24；root逐项核75+worker bytes/SHA/blob、actual/execution回执全等、25AST/27门/七模块与所有原scope整对象。child0/88.13578711900001s、数学78.91366354299998s，四次pull规则一致，0旧重算/数组。原3/50已成冻结，独立此1条不计原50，余47不再为已排除配方计算；不推实际奇异，继续R141/R137直接逆和真实几何边界。全部CFB/finiteρ/ports/physical/negative/nonlinear义务仍在。
+
 此前完整日志（含递归旧索引、所有成功/失败和限制）逐字转存至[截至实际 outer 能量](notes/2026-11-20-log-through-actual-outer-energy.md)，原路径身份 `c4dbe5cc35de971329ec488fa7593d45885d39ec` / 99053 B / SHA256 `a0ab943f1943a85793739db5fd774c99c53d1a733a6d93419a56d8b0739afdc6`。未删改旧结论、数值或失败边界；归档正文低于100KB，无科学重算。
 
 ## 2026-11-20：原低频 L 三量 v3 续算
