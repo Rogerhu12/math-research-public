@@ -6,7 +6,7 @@
 
 **维护会话：serre-public-astra-20261120-de0a3e3b。** 已部分克隆并真实pull main，接手serre-public-astra-20261115。最新前态逐字在[H归档](handoff-archive-2026-11-20-before-CM-kernel-and-trace-calibration.md)，内接全部H/open旧归档、pins与关闭边界。只消费已成来源，不重做已登记结论。
 
-**已读规则提交：0678b13f231e0cd3f023052cf3cd654b6e8d50a1**（2026-11-20T12:15:06.073226+00:00；终端真实git pull --rebase origin main，两README无diff）。两README完整已读，root SHA256 581402c2 / topic 35f82f3d；此前差异与原pins沿归档。
+**已读规则提交：ae48dd9dbb79cb3ac4cfd1320f8d854cb98eef01**（2026-11-20T12:21:08.772872+00:00；终端真实git pull --rebase origin main，两README无diff）。两README完整已读，root SHA256 581402c2 / topic 35f82f3d；此前差异与原pins沿归档。
 
 每结论立即推；每push前且至少每小时真实pull。NFF立刻pull --rebase再推循环成功，禁force。每pull检查两README，有变只读diff并立即执行，SHA记此。PAT仅CLI，不入文件/提交，root独占main。新数学仅本公开仓库Actions；外部只纸证/IO/schema/hash/AST。raw不入Git/Release，本轮只/tmp和stdout。H<10KB、open<30KB、每MD<100KB、topic<200MB；log用Asia/Taipei≤5行，不写根LOG，不设额外审批/测试门。
 
@@ -20,7 +20,7 @@
 
 2. **原完整trace的一般非零**：R955实际CM Cartier nilpart恰单奇链L=2b+1，ker=kF且原λ检测coker；S非零 iff L1，失败 iff真实反角色C前像。先全U5零primary再Cartier Fitting，不假定整包nilpotent。R958 r2全两向矩阵和原R_F=−2D^(2N+1)β²C^p modtH给前像 iff ℓ_N(R_F)=0；ℓ(t^(j+1))/ℓ(t^j)=(3j+1)(3j+2)/(6j+7)²。原c_mom=Tr((3−2e0)DC/β²)≠0且S^p=−216c_momℓ(R_F)，这个比较单位不是目标moment单位。
 
-   [R960](results/R960-original-r2-Igusa-formal-height-and-Jacobi-coefficient.md)真±1 Igusa曲线y^d=uD^(N+1)H(u³)，d=(p−1)/2；完整逆字符Hodge维3N+1/1，不变δ块可逆。实际一维formal高度h=L+1。保重数smooth lift、原Abel坐标给κ=(1/p)[x^j]a^(2p+2) modp，j=(p²−1)/3，a=(1−x/4)^(N+1)Hrev/H_N，m=(p−2)/3。除p整性及degree≤m算术lift独立已证；原Tate w0=24给κ=(1/2)[Q^(p²)]F(E2²−E4)。κ非零 iff h2 iff S非零仍开，不能将此Igusa factor认作原CM target。R965正整理κ与原trace的精确单位比较，登记前不当已成结论。
+   [R960](results/R960-original-r2-Igusa-formal-height-and-Jacobi-coefficient.md)真±1 Igusa曲线y^d=uD^(N+1)H(u³)，d=(p−1)/2；完整逆字符Hodge维3N+1/1，不变δ块可逆。实际一维formal高度h=L+1。保重数smooth lift、原Abel坐标给κ=(1/p)[x^j]a^(2p+2) modp，j=(p²−1)/3，a=(1−x/4)^(N+1)Hrev/H_N，m=(p−2)/3。除p整性及degree≤m算术lift独立已证；原Tate w0=24给κ=(1/2)[Q^(p²)]F(E2²−E4)。κ非零 iff h2 iff S非零仍开，不能将此Igusa factor认作原CM target。[R965](results/R965-exact-original-trace-calibration-of-the-Igusa-height-coefficient.md)已精确证明𝒰Z=72Y_F、α∈Fp和κ=36α=−g_pT=−g_pS^p/432。完整fine SS Frobenius与δ唯一性保原mark；原高primitive的全d cusp留数给g_p=48[x^(m+1)]a²单位。原λ=−12mI(cF)^(1/p)κ/(d1g_p)，源常数不删；仍需κ非零。
 
 3. **原Abel与真正height**：R948两个有限p的二次scalar根确在pZp，非中心 iff真char0 M2≠0，v(w*)=2+v(M2)−ν/2；另一真实h按R727完整tail分离，原开盘全Abel零集只中心。仍不排非零MW像，更不是p-adic height非零；固定Y缺口见下。
 
@@ -34,7 +34,7 @@ R961原g=E4²/v、Hweak=4sH_Nu²D^(N+1)t^N及F0=𝒰Hweak给Y0=−36Y_F0。全12
 
 ## 已完成计算与禁止重复
 
-[R963](results/R963-original-r2-moment-window-through-100000.md)新窗run44731335315/job136271559447/source efdeebbe23cf971f0d66d39e53964e99a9ccc67c已成功：允许r2且1000<p≤1e5全部1582个（1019..99923）无零，539.210186s，无尾段。原H0/C=sC0、SS权1/3/fine12及迹矩尺度逐p通过；三个输出hash root独立IO复核。只有该有限窗L1/h2；current request已完成，不重触发。
+[R963](results/R963-original-r2-moment-window-through-100000.md)新窗run44731335315/job136271559447/source efdeebbe23cf971f0d66d39e53964e99a9ccc67c已成功：允许r2且1000<p≤1e5全部1582个（1019..99923）无零，539.210186s，无尾段。原H0/C=sC0、SS权1/3/fine12及迹矩尺度逐p通过；三个输出hash root独立IO复核。只有该有限窗L1/h2，不重触发。R967新request只在1019/1031计算先前未算的κ和独立η乘积g_p，消费旧T而不重算moment/trace；验证κ=−g_pT与g_p=48B_*，待真实Actions回执。
 
 旧R936/939六值和另48素数≤1000已成；R943固定p11/第三位及9+9原符号证书已成；R734全p本原Legendre单位标签存在及旧543d03f8三分位结论只复用。R933–940原固定第二类Cartier、p41 Legendre零、权34核/mark/normal/固定B34已成。R939保原C负RHS、β^p=β、t0权1/H根权3/fine12、未知d1/cF；R942禁止已撤回的单mark Hecke矩阵。
 

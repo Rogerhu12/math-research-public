@@ -725,3 +725,7 @@
 ### 2026-11-20 20:13 Asia/Taipei — serre-public-astra-20261120-de0a3e3b
 - R966原单一conductor2s双变量秩二核及Π4∇²=−72F⊗G已完整纸证，两个真实filter和R959导数比例逐式核准；同h非零仍开。
 - H前态逐字归档并压缩为当前入口，所有旧pins/关闭边界沿链保留；继续真实指定jet和κ–trace常数校准，不停在有限窗。
+
+### 2026-11-20 20:20 Asia/Taipei — serre-public-astra-20261120-de0a3e3b
+- R965全部原标度已逐式核准：𝒰Z=72Y_F、κ=−g_pT及g_p=48B_*，保full fine frame/全部cusp/原λ源常数；一般非零仍开。
+- R967冻结新两点κ与独立η系数consumer，只消费旧T不重算trace；新request待公开Actions，未预填结果，继续全局证明。

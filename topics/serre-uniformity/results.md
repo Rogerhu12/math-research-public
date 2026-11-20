@@ -72,6 +72,8 @@
 
 - **R964（原逆特征CM族与完整热通道）**：[conductor2s逆族及原sigma混合导数](results/R964-inverse-conductor-two-s-CM-family-and-original-sigma-heat-channel.md)。完整原Jacobi源变号给H_(6a)^inv/η4=E4E6^(a−1)R̃_(a−1)(U)，整R̃；原CM处零函数的混合w导数恰12πiη4(x³+2Ω6)σ6。完整heat与原period给R̃_(a−1)(−1/1728)=−(6a)!(-864)^−a h_a/2。真实Θ_Q^r W_k=A^(r+1)H_(r+2)^inv对应同h的h_(i+2)，j≥1首p比较单位，j0端点保阶乘。未由高导数推出mark值相等，原公共因子/同h三因子非零仍开。SHA256 e468aa9e92435631fc688b29f518e0f1c6e71366c5b8d1f7faf5f7f6f2a4c461。
 
+- **R965（原高度系数与完整trace的准确标度）**：[全fine Cartier插值及原高primitive](results/R965-exact-original-trace-calibration-of-the-Igusa-height-coefficient.md)。全fine SS的Fp²最大模型与η4保框架给真正𝒰Z=72Y_F，α∈Fp、κ=36α=−g_pT=−g_pS^p/432。实际高primitive和全d cusp留数另给g_p=48[x^(m+1)]a²单位；原λ=−12mI(cF)^(1/p)κ/(d1g_p)，源相位/Norm/度完整保留。κ一般非零仍开，未把低单位或完整trace换成指定normal系数；无新数学执行。SHA256 31ecfb9d81f55d82af870ac930dde52d81209d5f62916c26fc7ffac653ee36d5。
+
 - **R966（单一原CM核与准确临界jet）**：[conductor2s秩二核及原同h筛选](results/R966-single-conductor-two-s-CM-kernel-and-original-critical-jet.md)。两个真实平移乘子/完整五项空间给原K0=G0⊗H0+6F0⊗Y0，精确Π4∇²K0=−72F0⊗G0。先导数再取p−6阶jet，保λ³/Rq²得到原U_p(C)=Σ primitive·Legendre·fi gj C^(6i+4)；R959 B_p(C,X0)是明确单位乘U_p′，首p支撑上导数可逆。真正单源已接上，但该指定filtered jet非零仍开；未重做旧六秩addition或外推kernel非零。SHA256 9a55d001d8f3dacb1414f09be7aeebd9f03c95b3b7d286b56184c5221e755830。
 
 ## 当前原高度、函数与同标签接口
