@@ -18,6 +18,8 @@
 
 - **R937（精确计算与模p推论已证明）**：[原权34 Hecke核与标记单位](results/R937-original-weight34-Hecke-kernel-and-marked-unit.md)。实际五行rank5，固定B34外核唯一为原V34†线，标记比1350702136960、fine阶2p−35；明确保留固定坏素数与原Tate index。run44713602498同时给a11=14958957622875578640；未证normal低层/同h Q′或height。SHA256 186b5cb12fe99fb89575c03b9b6f4699dc26dc41fef1fbe1ddbb953da18c4b14。
 
+- **R938（完整证明）**：[权34首normal函数与inertia排除](results/R938-original-weight34-normal-function-and-inertia-exclusion.md)。固定B34外，原b0=34(p−1)，低层和首层隐藏p次幂由全inertia/两节点极界排除；κx^(g−3)y、β/α=35A0/34、J=(p−35)/6与原p^−a_h整restricted/最高项单位已成。保ε/a_h，不宣称低Q′非零。SHA256 40f916d1a016fcb0950cd3581facdb2bf82dfd20b29c216eb7ae86acb559ef6e。
+
 ## 当前原高度、函数与同标签接口
 
 - **R808（已证明）**：[原cuspidal Gram商与真实period/split/Howe链](results/R808-original-cuspidal-Gram-quotient-and-Howe-chain.md)。R727全部群元素的整Gram把原轨道格非退化约化商准确识别为Sym^(2r)det^(−r)，r=min(h−1,p−h)；原e0、Frob-Hermitian、Tζ平均像和N_h同时运输。位置Cartan与链内SL2严格区分，链中心规范与Hasse连接准确匹配；实际sigma原单项式仍经Kraw混合，同h配对非零未得。 SHA256 c24889c8d8407447dc38e14b583d002c289697b1b75376af7ea5348c4f6a03db。

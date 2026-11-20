@@ -105,7 +105,7 @@ R859–R898原BT/Drinfeld/Igusa/cusp/整theta lift、两旗(6,6)/rank36源全部
 
 [R935](results/R935-bounded-weight10-34-primitive-Legendre-pair.md)完整证明原p5mod12的h8=(p+9)/2、h32=(p+33)/2均本原，且在固定递推整数a11的素因子外不能同时有Legendre零；p>10^22是无计算充分界。权34完整六维原整空间是B_a=V4†E6^(5−a)η^(12a)，a=0..5。
 
-[R937](results/R937-original-weight34-Hecke-kernel-and-marked-unit.md)现已完成实际五T5行rank5，固定B34外核恰原V34†线，原标记比1350702136960、fine阶2p−35；完整有限坏整数与实际公开run见证明。下一实际问题为权34原normal低层排除与同标签低项，不能把权10的低层极阶界直接搬到权34。两个实际sigma pair分别(f_t,g_(t−1))和(f_(t+2),g_(t−3))；某标签Legendre单位不允许借另一个标签的sigma值。全SS配对及全局height继续独立。
+[R937](results/R937-original-weight34-Hecke-kernel-and-marked-unit.md)现已完成实际五T5行rank5，固定B34外核恰原V34†线，原标记比1350702136960、fine阶2p−35；完整有限坏整数与实际公开run见证明。[R938](results/R938-original-weight34-normal-function-and-inertia-exclusion.md)已用完整inertia与两节点极界排除低层及首层隐藏p次幂，给真κx^(g−3)y、β/α=35A0/34与J=(p−35)/6的原整校准。下一实际问题为权34同标签低项/临界积；最高项单位仍不推出Q′单位。两个实际sigma pair分别(f_t,g_(t−1))和(f_(t+2),g_(t−3))；某标签Legendre单位不允许借另一个标签的sigma值。全SS配对及全局height继续独立。
 
 ### R936：完整超奇异总和的实际有限代数
 
@@ -114,3 +114,7 @@ R859–R898原BT/Drinfeld/Igusa/cusp/整theta lift、两旗(6,6)/rank36源全部
 run44713602498已成功，41/47/59/71/83/107的S^p分别39/34/16/70/14/24，71/107只辅助；全点/双trace检查通过，确定SHA见R936。有限结果不证明全p非零；还须比较R924实际高层线性系数，不能直接令trace等于Q′_h(0)。
 
 R936的原Tate标架错误已明确勘正：[审计](notes/R936-Tate-frame-sign-correction.md)证明E6=−c6、η12=−6sD、KS=+du/D；保既有b/C定义时实际B/F变号，偶幂使全trace与六值恰不变。R920/R937原标记比由原theta恒等式独立保持；禁止继续引用旧负KS推新的奇阶公式。
+
+### R938：权34原normal层已关闭，低系数仍开
+
+[R938](results/R938-original-weight34-normal-function-and-inertia-exclusion.md)保持原UV=επ^12、整completed Hom、所有完整inertia与Tate index，已证明b0=34(p−1)、真κx^(g−3)y及primitive calibrated多项式次数J。低层极界可超过p，所需x^p/x^(2p)已逐一角色排除；首层p/2p不可见极项亦已独立排除，禁止重复这两障碍。待做：原顶配对(35,2)的f5准确非零/固定坏因子，以及原第五jet中同h的f_(t+2)g_(t−3)与Q′比较。
