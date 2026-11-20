@@ -16,7 +16,7 @@ R964逆finite-character族控制h_(i+2)而非fi，j0须保p+1阶乘。R966单源
 
 R969公开三点113/131/227得到全mask rank10/11/19、A/E4组合及额外两q行通过，仅有限。R971完整Wilson–Fourier源已保每一Gaussian/zeta、范数逆幂与原角色；Sturm短CM射线碰撞判据不是普通Vandermonde。M0=37182145、2φ(M0)<M0及Dirichlet给无穷多原允许p列数小于空间维数，**全p full-span路线已排除**。仍可推进特定A/E4包含、实际mark functional非零或原指定家族的共同因子排除；这些较弱目标未被否定，也尚未证明。
 
-[R992](results/R992-original-full-level-Jacobi-operator-and-filtered-stability-criterion.md)：在整个原M_(p−5)、F=Y^NP(z),z=X³/Y²上，真实Serre D给 **G(F)=[D²(XF)+X²F/144]/[X²(1−z)]**，全表观分母消去。诱导L=z(1−z)∂²+(4/3−7z/3)∂−55/144，Jacobi B_d有互异λd=−(d+5/12)(d+11/12)、mark1；kerG正是Tate A/E4，标量B_k(1)^−1。**原filtered V≠0且G(V)⊂V⇒同h三因子非零**，两假设均尚未一般证明。旧R969p227 central i18为pivot（组合13）、全局非零但mark0，严格排逐列本征；三个旧满秩点的G稳定无需重算。原E+帧G(F)(0,864)=(25F−D³F)(0,864)/144；下一步是actual heat/kernel作用，不能从算子与mask交换冒稳定。
+[R992](results/R992-original-full-level-Jacobi-operator-and-filtered-stability-criterion.md)：在整个原M_(p−5)、F=Y^NP(z),z=X³/Y²上，真实Serre D给 **G(F)=[D²(XF)+X²F/144]/[X²(1−z)]**，全表观分母消去。诱导L=z(1−z)∂²+(4/3−7z/3)∂−55/144，Jacobi B_d有互异λd=−(d+5/12)(d+11/12)、mark1；kerG正是Tate A/E4，标量B_k(1)^−1。**原filtered V≠0且G(V)⊂V⇒同h三因子非零**，非零假设现由R996/999覆盖55∤p+1，稳定性仍未一般证明。旧R969p227 central i18为pivot（组合13）、全局非零但mark0，严格排逐列本征；三个旧满秩点的G稳定无需重算。原E+帧G(F)(0,864)=(25F−D³F)(0,864)/144；下一步是actual heat/kernel作用，不能从算子与mask交换冒稳定。
 
 [R995](results/R995-original-mixed-source-for-the-first-coarse-CM-normal-jet.md)：原E−/Y−864、K=G⊗H+6F⊗Y_s、∇=∂−6ζ下，Π4DJ=Π4D²J=0使完整D³(∇²J)的两个中间Leibniz块真消；实际三支为G‴/216⊗𝒜+12uF′⊗(3𝑀−12G)+F⊗(12𝑀−144G+6ℛ)。复用旧MH3–4热式，全部P1/P2/P3与216P1P2保留，𝒜=∇²H‴，ζ修正不消G‴支。Ψ_ij首项=(a+1)(a+2)(a+3)g_(i+1)𝒜_j/216；原G(Z)mark=(25Z+Ψ)/144，E−正号/原mask/尺度不换。两个实际Taylor阶≤p−4,p−5、ζ权≤p−2，均整。root/literature逐式独审；新项尚无原retained关系，不冒G稳定或同h。
 
@@ -24,7 +24,7 @@ R969公开三点113/131/227得到全mask rank10/11/19、A/E4组合及额外两q�
 
 [R997](results/R997-original-epsilon-vector-and-unitary-boundary-source.md)：实际原ε-vector=(6d0)^−1Σ_(r mod6)ε(r)Ψ_(Hr)确在旧UH36空间，靠CM整源/108基独立性/常数theta矩阵证明，非仅coset支持。**λ^−1J(λu,λv)=Θε(v,u)**保交换轴/Gaussian/相位；原Π4变t轴、L²变z轴，lift Lz³Lt²与w_d→w_(−d)保同h。完整首p矩形整；其source须保bulk [𝒟,Lz]=−wp∂t−6Dζ+(3X0/2)t及Π shift。原边界首导数(B/6)γ_(p−1)(z)G″(t)被Π4杀；指定critical Π4Lz²𝒟^kR在k≤7全零，k8仅两端且g2/h2准确单位（89被mod9排），不是R995 D³Z/原critical单位。旧UH/MH曲率不重登；root/audit全文独审。
 
-[R998方法](notes/R998-original-second-end-column-execution-method.md)冻结并提交新j1原端列的短公开请求：a=p−13,b7,h=p−10，完整R968 single/double项（含单位轨道零项）与独立整数ODE双核精确cusp有理数，P10两路、四个固定整数全因子分解及逐因子完整试除；仅分类真实因子，原坏因子不预设为空。30s consumer/45s wrapper，stdout和/tmp，无旧窗或j0重算；method ec9edd293d1a44fd35f4f70a89bfce6d62fcc0e02e639d4ecb839ff8f2eb67ca，script b4a76a3dd37088c7dab1f8083723b0d51f123f566b3d485226070a82a524062b。root/audit全代码及源独审，只本地AST/hash；R999待公开回执，不提前登记exception set。
+[R999](results/R999-certified-second-end-column-and-filtered-space-nonzero.md)：run44764524952/job136385485790/source84a8cad4b全成功，0.0138129s/预算真/exit0。完整R968及独立ODE给(p−13)!CT Z_(p−13,7)=319435001/40320，分子11863×26927分别被mod6/mod9排除；原P10=−7·1279/3^5单位，全部因子经完整试除认证，四坏列表真空。故11∤p+1⇒V≠0，合R996得 **55∤p+1⇒原filtered V≠0**；不推CM mark/G稳定。root纯IO全回执核，payload10156B SHA6d208b8d83cc8e2efc612e43f4d8f21084a45916384106636dcb1a77a557b7aa；全部pins/试除范围/stream hash见结果，request已完。
 
 ## O2：完整原超奇异迹、真正CM packet及近顶unit系数
 
