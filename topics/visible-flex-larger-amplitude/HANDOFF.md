@@ -4,7 +4,7 @@
 
 ## 规则与目标
 
-最近规则核查：2026-11-20 09:41 UTC，真实pull/rebase至 `ed665be48b32f11139e0d024457b762e0ce78f43`，双README相对上次已读无差异。
+最近规则核查：2026-11-20 09:45 UTC，真实pull/rebase至 `2e4e85b21fe2981ba97ca49440874c6db62c09bf`，双README相对上次已读无差异。
 
 规则同步记录：2026-11-20 09:25 UTC 已按 blob:none/sparse 部分克隆并真实 `git pull --rebase origin main`；已读提交 `882aa9b74efeaac682df43c197820e7280156357`。与上次 `e7192d5e7b1ed6291e3b8fd9804e31692e788b6d` 比较，根 README 与本题 README 均无变化。根、题、HANDOFF、open、最近 log 与末端 notes 已读；旧全文保上述固定提交。终端 git 已恢复可用；本次沿 §7 已登记的本地计算支线继续，不重跑已完成的开放片证书。root 唯一发布。
 
@@ -28,7 +28,7 @@ Astra-larger-parallel-16f63c8b：本地计算，原Actions责任保；[open§7](
 
 旧本地LM 97062/1878只保存启动/第8方向恢复记录，无终态；新环境没有这些进程或数组。邻题held-10pct已刊低幅闭图held/D>.005462656，本题所需.2仍未到；new-mechanism无已刊全门候选。成功job标签不替科学结果。
 
-本次fullclosed_solver正在从历史提交60321451c的真实M96/.99接受blob（SHA b4d2b98abc1da2dd149ca28e83ea17963a0d2a50b3c454baabc92f6229b412ff）恢复最短已刊生成链；其新算输出另记SHA，不冒丢失raw。geometry_path分析闭合结构；recover_evidence转做原Gram同模型批量FFT。[R653](results/R653-exact-quarter-angle-closed-Gram-reduction.md)已证明准确角向约化：原11335680行变为2839455带重数行，保完整目标/JᵀJ/Jᵀr/全部未知量；[batch+quarter](notes/2026-11-20-resume-batched-quarter-implementation.md)已实现，必要小输入CS/转置/正常矩阵对照通过；尚无新非线性接受。
+本次fullclosed_solver已从历史提交60321451c的真实M96/.99接受blob（SHA b4d2b98abc1da2dd149ca28e83ea17963a0d2a50b3c454baabc92f6229b412ff）完成最短已刊生成链，真实923节点mode-damped warm SHA `79c161cc11a0743209ca3947e2b0f51f7ab7046e14ebfadf519f5d6e7259edba`；新算身份独立，不冒丢失raw。首128迭代全空间方向及6步物理子空间拟合现已开始。geometry_path分析闭合结构；recover_evidence转做原Gram同模型批量FFT。[R653](results/R653-exact-quarter-angle-closed-Gram-reduction.md)已证明准确角向约化：原11335680行变为2839455带重数行，保完整目标/JᵀJ/Jᵀr/全部未知量；[batch+quarter](notes/2026-11-20-resume-batched-quarter-implementation.md)已实现，必要小输入CS/转置/正常矩阵对照通过；尚无新非线性接受。
 
 ## 当前固定历史与已发表结论
 
@@ -38,6 +38,6 @@ R579已普通刊9c9feb26（真pull951c553a双README不变），242457source/inpu
 
 ## 旧交接的待刊与资源边界
 
-旧251/R608、R619/request255、R621、R622、各 run 唯一终态读者及容量维护的完整原责任，见本次已读提交 `882aa9b74efeaac682df43c197820e7280156357` 的 HANDOFF 最后两节与 open §1–6。尚未返的正文不补造；旧活动记录按历史时点理解。当前 Git 题目录累计 199869615 B（9888 文件），新增仅小源码/证明，计算数组留 scratch；需要空间则按根15普通删可重算旧数据并保精确来源，不删独有证明。下一步先恢复最短实际模型，不再累加旧行政包装。
+旧251/R608、R619/request255、R621、R622、各 run 唯一终态读者及容量维护的完整原责任，见本次已读提交 `882aa9b74efeaac682df43c197820e7280156357` 的 HANDOFF 最后两节与 open §1–6。尚未返的正文不补造；旧活动记录按历史时点理解。[根15容量维护](notes/2026-11-20-resume-raw-retention.md)普通移出旧R168可重算993245B数组报告，源/参数/输入manifest/正文全保，精确恢复2d56baaaa；新增仅小源码/证明，计算数组留scratch。下一步先恢复最短实际模型，不再累加旧行政包装。
 
 原全几何与固定精化责任保：同一g/同B/材料/双mean/准确cut/全Loewner/两帽/全t嵌入reach/整像held/反射E及完整D均真实支付。条件R514/519/521、R526/530不代实际场；无当前γ、完整非零450或比例证书。未到README标准不收尾，现有运行不断，子题后接open下一项。
