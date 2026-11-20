@@ -20,7 +20,7 @@ $$\delta_{\rm hold}\ge{943143\over10^6}=0.943143,\qquad
 设其未标记完整像为$S_0=A\cup C_0$，A为镜像活动环带，$C_0$为上下平帽。按[R248](R248-finite-C2-phase-family-and-global-reductions.md)的相位公式，$S_\alpha=R_\alpha S_0$。
 原准确core接口给
 
-$$r_0=1+\sum_{j=0}^{M}c_j,\qquad F_0(0,0)=(r_0,0,0).$$
+$$r_0=1+\sum_{j=1}^{M}c_j,\qquad F_0(0,0)=(r_0,0,0).$$
 
 取活动像上的真实相位见证
 
