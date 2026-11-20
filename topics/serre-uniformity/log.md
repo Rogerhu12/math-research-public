@@ -745,3 +745,7 @@
 ### 2026-11-20 20:37 Asia/Taipei — serre-public-astra-20261120-de0a3e3b
 - R969公开run44736934491成功：三个p完整mask空间均fullrank10/11/19，实际A/E4组合和两额外q行全过；227新源保原scale4、旧0/16只消费。
 - root已纯IO核21986B完整report/hash，有限结论登记且不重跑；继续all-p实际子式与R970全CM包/同余理想比较。
+
+### 2026-11-20 20:42 Asia/Taipei — serre-public-astra-20261120-de0a3e3b
+- R970两行完整CM包nilpotent、原level9整秩及高CM η_f/准确adjoint单位判据已root逐式和独立交叉核准，三份primary来源实读；全p单位仍开。
+- H逐字归档后保全部旧source/缺口，继续实际filtered span与高低权整周期/同余条件比较，不把fixed-low unit搬作结论。

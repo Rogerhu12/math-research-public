@@ -80,6 +80,11 @@ $$
 
 [R963有限认证](results/R963-original-r2-moment-window-through-100000.md)已完成全部1000<p≤1e5的允许r2素数：1582个、1019..99923，无零/失败/尾段；run44731335315/job136271559447/source efdeebbe23cf971f0d66d39e53964e99a9ccc67c，539.210186s。原H0/C相位/全SS权及迹矩比较逐p通过，root独立IO核全输出hash；此有限范围L1/h2，不控制p>1e5。旧48窗未重跑，也未替代同h Q′或真正height。
 
+
+[R970](results/R970-original-Cartier-packet-and-high-CM-congruence-ideal.md)已经补上R955尚未假设的整包结论：两原行w=p−1/p−7的完整M_CM均为Cartier nilpotent，且L=dim M_CM恰为原primitive level9、weight w的完整classical Hecke局部尖点模秩。证明保Γ6到Γ0(36)的全部整格和Q、det返回d与h0的差r0、实际σ⁻¹T_p及原rawHecke比例；不是未经运输的一分量T_p。局部niveau2残余不可约排所有ordinary constituent；2/3实际type与完整H6 multiplicity各给一条原线，不按两Weil分量再乘2。
+
+由此原S非零 iff高CM f的完整同余理想η_f单位 iff Tilouine–Urban Thm3.1(b)中精确Manin-period-normalized adjoint值单位；r2还由R965等价κ非零。坏链等价真正的primitive level9非CM congruence，而非抽象自扩张。R970为等价判据，尚未证明所有这些随p变权的η_f都是单位，也不把S或其valuation等同L值。固定低权4/10的单位不能未经实际整周期/不同crystalline local conditions的比较搬过来；普通Katz/Ohta/Hida理论不可直接用于这里的inert supersingular p。接下来须证明此高权unit，或处理其确切非CM同余阻碍，不重复已闭合的nilpotence和multiplicity。
+
 ## O3：固定低权cohomology与原Igusa投影的边界
 
 [R944](results/R944-original-CM-Gauss-Manin-homotopy-and-supersingular-principal-parts.md)给原fine base上
