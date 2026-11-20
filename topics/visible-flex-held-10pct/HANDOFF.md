@@ -6,7 +6,7 @@
 
 连通闭C²嵌入、C²连续族；固定有内点H且diamH≥.2D，整像δhold≥.1D及含反射δE>0，全时reach≥.03D。同一完整g/全部物理参数/时间范围下，完整metric≤1e−6且空间/频率/时间精化降至求解或机器地板；全部闭合与Cartesian两jet接口须实际支付。
 
-- 部分克隆工作树 /workspace/scratch/1b6d88ecddf3/math-research-public。已读规则提交：`cc9c405a5e6b3ead7f8ccd3a529c03fab321066a`；12:25 UTC本地真实pull --rebase至该提交，双README无变。每次pull检查双README差异，至少每小时一次；API比较不冒充pull。
+- 部分克隆工作树 /workspace/scratch/1b6d88ecddf3/math-research-public。已读规则提交：`d2461797a6afe8b7dd69f2b725587b051276d904`；12:27 UTC本地真实pull --rebase至该提交，双README无变。每次pull检查双README差异，至少每小时一次；API比较不冒充pull。
 - root独占git，逐结论推送，NFF立即pull --rebase/核双README后再推，禁force；令牌只在命令行。11:06 UTC终端已恢复。
 - 根§12优先实际数学/求解，不重复身份核查/双审；§15再生场、网格、矩阵不入Git/Release/artifacts，只存源/参数/命令/hash/小标量。H<10KB、单MD<100KB、目录<200MB，不写根LOG。
 - 压缩不撤销旧结果。完整旧断点见[接手H](https://github.com/Rogerhu12/math-research-public/blob/9288f266d1f242b594d70a714e20340fcb876023/topics/visible-flex-held-10pct/HANDOFF.md)和[本次H到73e060](https://github.com/Rogerhu12/math-research-public/blob/73e060110b34d302cc86f920a7b054590afbe8fd/topics/visible-flex-held-10pct/HANDOFF.md)；其链接的具体note优先于压缩摘要。
@@ -19,7 +19,7 @@ R55多段profile独立source `/workspace/scratch/1b6d88ecddf3/m3-work/multistage
 
 **宽窗S=.5/b=.2、τ=1、目标k=.2的λ0完整lift实际复接通过**：622点/一次全步/metric5.45534e−7；原support核相同，但完整未投影lift改变有限模型，δ/c仍重解。raw在m3-work/newg-wide-lambda0-tau1-linear；[实际返回与新M8核心正性盒](notes/2026-11-20-m3-newg-wide-lambda0-lift-and-core-positive-box.md)。q[.0599,.0601]、|c6|≤.001/其余六≤.0001给ρ≥.3057、τ1整λ κ≥.2，不能搬给新增高模或Frenet域。
 
-λ=.002/M8真收敛但metric3.19321e−5、operator2.68683e−5未门，主要R在ψ26—50投影外；[M8终态](notes/2026-11-20-m3-newg-wide-lambda0002-m8-terminal.md)。保持λ扩大未知空间；m3最新M24已实报631点/metric6.48242e−7过原前缀门，完整记录正写，真尾尚无返回。新g真尾独立work绑定multistage-source-v2/本profile/原chart与tail，禁止旧live bootstrap回落旧g；已有native源链准备。全部δ/c仍为设计未知，非冻结g族。
+λ=.002/M8真收敛但metric3.19321e−5、operator2.68683e−5未门，主要R在ψ26—50投影外；[M8终态](notes/2026-11-20-m3-newg-wide-lambda0002-m8-terminal.md)。M16同λ原linearDN真过但l1 4.27249e−6/operator3.56981e−6仍未门；[实际频壳/完整升M/返回](notes/2026-11-20-m3-newg-wide-m8-actual-spectrum-and-m16-entry.md)。保持λ扩大未知空间；m3最新M24已实报631点/metric6.48242e−7过原前缀门，完整记录正写，真尾尚无返回。新g真尾独立work绑定multistage-source-v2/本profile/原chart与tail，禁止旧live bootstrap回落旧g；已有native源链准备。全部δ/c仍为设计未知，非冻结g族。
 
 ## 旧g live和真实审计
 
@@ -46,7 +46,7 @@ R55多段profile独立source `/workspace/scratch/1b6d88ecddf3/m3-work/multistage
 - m3真锚CP4755143b：1934点/metric3.79125e−8、3真尾/208J，mean2/nonmean2 seam6.64e−11/9.57e−8；未闭合。
 - 旧normal λ≤.64有限接受但metric未门，末CPf55b4f metric8.72689e−4；λ1/38274失败RMS1.0682/Frenet−2.5335e−7；λ.82/91205未知。旧q.04 M8→M16 metric8.30e−5→9.36e−5变坏，勿原样重跑。
 - n4 b.16/λ.02/M20的96568真联合成功：CPdb78f248，2282点、4真尾/1240J、metric8.91023e−7；q=.012488348123231355和19c仍自由，fixed=True仅冻profile。seam−4.40e−9/3.19e−7，未闭合。M24/27744前两真尾过，raw56594；第三尾/终态未知。
-- 本次材料冷q.01/m3、q.02/n4和H8冷恢复均真失败，见原note，不无改变重跑。82514/18524/2919恢复后文件无terminal/PID，仍未知。m2 57647已恢复八行，contrast16/384步阈值8.8370581e−5，仅线性采样；切角子午线也未改善H/q≈.0121。
+- 本次材料冷q.01/m3、q.02/n4和H8均已真失败，勿原样重跑。82514/18524/2919无terminal/PID仍未知；m2 57647已恢复八行，未提供非线性闭面。细节按上方完整历史H及原note。
 - R28/29/31低幅闭C²有限族全时metric<1e−6、D≤2.301491469394、reach≥.1、H径比>.69794、δE>0，但held/D仅>.005462656。尾32→64误差降12.66倍、二阶层差.00629485，不证C²极限。R36/37/39的5.94084e−9余项只适用其同对象。
 
 ## 持续接续
