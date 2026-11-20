@@ -6,7 +6,7 @@
 
 **维护会话：serre-public-astra-20261120-de0a3e3b。** 已部分克隆并真实pull main，接手serre-public-astra-20261115。此前逐字状态在[最新H归档](handoff-archive-2026-11-20-before-balanced-Kronecker-receipt.md)，沿链保全部旧source、SHA、尺度、失败边界，不重做已登记结论。
 
-**已读规则提交：b4a1734e5cc8500898faa243ddaeec7b6f636c54**（2026-11-20T13:12:20.149557+00:00；终端真实git pull --rebase origin main，两README无diff）
+**已读规则提交：acd459dd04b3c1aa805e7c26ed8f5da4eb28239e**（2026-11-20T13:14:29.680021+00:00；终端真实git pull --rebase origin main，两README无diff）
 
 两README完整已读，SHA256 root 581402c2 / topic 35f82f3d。每结论立即推；每push前且至少每小时真实pull；每pull检查两README，有变只读diff立刻照办并记已读SHA。NFF/lock-ref竞态立即pull --rebase再推直到成功，禁force。PAT只CLI，不入文件/提交；root独占main/H/open/index/log。
 
@@ -41,7 +41,9 @@ S≠0 iff高CM完整classical η_f单位 iff TU准确Manin-period-normalized adj
 
 [R974](results/R974-original-balanced-coefficient-and-one-sided-CM-period-bridge.md)已完整纸证：原Manin periods Ω_f±/P_n均p整，P_n=(Ω_−/(2πi))^n；KS一般整性定理去unit regularizer、critical additive periods及12个真实Manin cosets直接给整parabolic格。原TU值准确为u_n c_n P_n²/(Ω+Ω−)，u_n=2^(n+2)3^((n−8)/2)(n−1)!单位，保3处primitive3/4删除、n奇的i符号及E±1尺度。故 **c_n单位⇒η_f单位⇒原S非零**；不是逆向或数值等式。R973四点可直接消费，all-p c_n单位仍开。
 
-在审新纸证：R972预留真实low/high FL局部条件、环类域global line及两AH坐标；R975预留通用balanced整多项式heat递推；R976预留真实Robert环类单位的精确局部标量。**未登记前不得把这些候选论证当既成定理。** agents各自notes，root逐式/source核后单独推。
+[R975](results/R975-original-balanced-Kronecker-integral-heat-recurrence.md)原c_n的通用U_n=n!(n−1)!c_n满足U1=0,U2=−g2/12，U_n=(6g3∂g2+g2²∂g3/3)U_(n−1)−(n−1)(n−2)g2 U_(n−2)/12，因此U_n∈Z[1/6][g2,g3]、n<p时c_n整。保原g3=4、E4=12g2/E6=−216g3和polar κ0=1；U_n=F_n(12g2,−216g3)/12，F_n=(R^(n−1)E)|E=0。Wilson准确给c_(p−r)=−r!(r−1)! F_(p−r)(0,−864)/12 modp；所需F值非零仍开，不能倒推高导数单位。
+
+在审新纸证：R972预留真实low/high FL局部条件、环类域global line及两AH坐标；R976预留真实Robert环类单位的精确局部标量。**未登记前不得把这些候选论证当既成定理。** agents各自notes，root逐式/source核后单独推。
 
 ## 已成计算与比较：只消费
 

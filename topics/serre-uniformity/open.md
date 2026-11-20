@@ -93,6 +93,8 @@ $$
 
 [R974](results/R974-original-balanced-coefficient-and-one-sided-CM-period-bridge.md)现闭合R973所需的**单向**整周期桥：对原TU Manin periods直接证Ω_f±/P_n∈O_p，P_n=(Ω_−/(2πi))^n；真实adjoint归一值=u_n c_n P_n²/(Ω+Ω−)，u_n=2^(n+2)3^((n−8)/2)(n−1)!单位，保3处Euler/原σ/全部尺度。结合R970 η整性，c_n单位足以推出η单位及原S非零。此方向不需要先证period比是单位，但没有逆向；R973四点仅有限消费。接下来须证明实际c_(p−2)或c_(p−8)全p单位，不能以系数整性、有限值或低period单位替代。
 
+[R975](results/R975-original-balanced-Kronecker-integral-heat-recurrence.md)已给原bare c_n的完整整多项式递推，U_n=n!(n−1)!c_n∈Z[1/6][g2,g3]；n<p时c_n整，独立于R973 pole取消。准确Ramanujan表达/Wilson把剩余单位问题写成F_(p−r)(0,−864)≠0，F_n=(R^(n−1)E)|E=0，比例−r!(r−1)!/12是单位。该具体近p阶值仍需证明；高阶R^p单位、homogeneity或旧sigma-block刚性均不能未经精确关系倒推它。R974的unit假设尚未全p满足。
+
 ## O3：固定低权cohomology与原Igusa投影的边界
 
 [R944](results/R944-original-CM-Gauss-Manin-homotopy-and-supersingular-principal-parts.md)给原fine base上

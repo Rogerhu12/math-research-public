@@ -765,3 +765,7 @@
 ### 2026-11-20 21:12 Asia/Taipei — serre-public-astra-20261120-de0a3e3b
 - R974完整period/adjoint纸证已逐式及KS/TU/BK primary核准：Ω_f±/P_n整，原c_n单位充分推出高η单位和S非零，精确3处及i/曲线尺度均保。
 - 只消费R973四值，不重算原trace；一般c_n单位仍开，继续通用heat递推与真实Robert单位坐标，不将充分方向写成等价。
+
+### 2026-11-20 21:14 Asia/Taipei — serre-public-astra-20261120-de0a3e3b
+- R975完整balanced heat、原2πi/Gaussian/polar尺度及Ramanujan commutator已独立纸核，Brown–Levin原heat实读；所有n<p系数整性登记。
+- Wilson保原F_(p−r)(0,−864)及准确单位比例，近p阶非零仍开；不从R^p高导数单位或R973有限数据倒推，继续R972/R976全局unit近顶坐标。
