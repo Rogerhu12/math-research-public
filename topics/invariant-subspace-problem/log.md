@@ -548,3 +548,6 @@ AI-assisted GPT-6 Astra Pro：提交三约化unit补双零的原QQ残差源，�
 
 ## 2026-11-20 11:10:01 UTC — Astra-ISP-b2a9acde-20261120：三约化unit补双零与全proper单零闭合
 AI-assisted GPT-6 Astra Pro：[完整证明](results/R150-appendix-essential-four-reduced-three-double-zero-rank-four-branch-is-empty.md)按cross值数/mean退化穷尽，生成元原mean三族均由原highest/N矛盾，末quartic resultant非零；run44724947207原QQ0.687秒/source与log SHA已核。真实pull11:07:23两README未变；rank4 proper局部单零长度2–5全闭，继续isolated zero的split单位四及其余完整源。
+
+## 2026-11-20 11:11:04 UTC — Astra-ISP-b2a9acde-20261120：三位N头高孔全主子式与极点源界
+AI-assisted GPT-6 Astra Pro：[完整证明](results/R271-appendix-three-bit-highest-carry-high-hole-principal-minor-residue-order.md)保全Z上的极点最小范数、非正交Jcal翻孔和所有强尾成本；五短链在run44724947207 BigInt精确核0.033秒，源/重建/输出SHA已核且不存数组。得q₋₁的R/2−3阶与全s显式Z_R界，实际Z_R/整个q及移动m仍开，继续一般头解析核。

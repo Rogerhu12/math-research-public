@@ -65,3 +65,5 @@
 - **R271 原强尾中位尺度与完整MP的指数强段费用（2026-11-20，已证明）：** [精确条件数、同primitive投影及所有尺度费用](results/R271-appendix-median-strong-tail-scaling-four-power-condition-and-full-odd-height-cost.md)给κ(T̃)=[(m+R)!m!/(m+R/2)!²]²≤4^R，非正交primitive投影保同一算子且norm≤4^R；公共尺度c转入头cL_h。偶R≥d/奇r的完整物理MP付64^R和y^(4d+6r−6)，强段对数降为O(R)+(d+r)log(m+R)。不付Galerkin源系数/有效邻域或新母窗。
 
 - **R150 三约化unit补双点单零的rankH4整支为空（2026-11-20，已证明）：** [全cross退化、原Frobenius方程及完整N排除](results/R150-appendix-essential-four-reduced-three-double-zero-rank-four-branch-is-empty.md)处理U标量/两值/生成元及m零/非零；生成元仅三mean族，原highest确定V后N给六残差，末两quartic resultant=7325267546603520000。run44724947207原QQ全过。所有rank4 proper局部单零长度2–5因此关闭；只余isolated zero配split unit四及rank5/inner/ess5/6。
+
+- **R271 原三位N头最高carry极点的高孔主子式与锐化阶（2026-11-20，已证明）：** [完整物理极点、五短链精确源与显式源界](results/R271-appendix-three-bit-highest-carry-high-hole-principal-minor-residue-order.md)用全新增秩的高孔非奇异主子式，保非正交尾相似和完整Galerkin；得固定参数q₋₁=O(s^(R/2−3))。原强权下全0<s≤1还给10^100·4^R(3+R/2)^16 s^(R/2−3)Z_R(s)，Z_R为明确完整高孔加权残差。run44724947207 BigInt全核通过；实际Z_R、整个q与移动m费用仍开。
