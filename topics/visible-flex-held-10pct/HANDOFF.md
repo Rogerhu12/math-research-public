@@ -6,7 +6,7 @@
 
 连通闭C²嵌入连续族；固定有内点H、diamH≥.2D；整像δhold≥.1D、含反射的δE>0；全时reach≥.03D。固定全部g/物理参数/时间范围，完整metric≤1e−6且空间/频率/时间精化下降至求解/机器地板。条件比例窗、开放前缀、有限接受均非完成；完成后继续增大比例。
 
-- 工作树 `/workspace/scratch/1b6d88ecddf3/math-research-public`；已部分克隆并真实pull。已读规则提交：`b30b99638a078fba661fdc7652db201e19bc8c20`；API差异核对双README无变化。最近真实pull为10:08 UTC公开Actions到569c7d766、双README无差异；后续API比较不冒充pull。环境恢复后先pull，随后至少每小时核规则。
+- 工作树 `/workspace/scratch/1b6d88ecddf3/math-research-public`；已部分克隆并真实pull。已读规则提交：`c8c302b5657d7cbdb527a8049492a6dbef9a9e33`；API差异核对双README无变化。最近已读真实pull为10:08 UTC到569c7d766；新run44718341266在10:20 UTC真实pull/双README检查已成功，完整SHA待返回；后续API比较不冒充pull。持续至少每小时实际pull并核规则。
 - root独占终端git发布。每条结论同步H/log并立即push；NFF即pull --rebase、核双README并重推，禁force。首次接手提交d75355cbd已推。
 - 根§12：不重复旧身份审计/双审流程，优先实际求解。根§15：可再生场、网格、矩阵/输出不入Git/Release/CI；只留源/参数/命令/hash和紧凑数值。H<10KB，单MD<100KB，目录<200MB，不写根LOG。
 - `/workspace/scratch/7322d0dee069`明确不存在。旧91205(λ.82)/27744(M24)终态未知；新再生不是原进程续接，也不把丢失路径判为数学失败。完整旧断点见882aa9b74的H及[中断记录](notes/2026-11-18-execution-environment-interruption-recovery.md)。
@@ -34,7 +34,7 @@ m2新切角族未改善H/q≈.0121，细点曲率9.00474，停止同族；新的
 
 ## 已证结论与不可移用的边界
 
-[R1—R53索引](results.md)；此前完整历史摘要保留在[9288f266d的HANDOFF](https://github.com/Rogerhu12/math-research-public/blob/9288f266d1f242b594d70a714e20340fcb876023/topics/visible-flex-held-10pct/HANDOFF.md)，旧结论/失败不重算。
+[R1—R54索引](results.md)；此前完整历史摘要保留在[9288f266d的HANDOFF](https://github.com/Rogerhu12/math-research-public/blob/9288f266d1f242b594d70a714e20340fcb876023/topics/visible-flex-held-10pct/HANDOFF.md)，旧结论/失败不重算。
 
 - R1/R3/R4/R19/19A/R32/R38/R46：精确圆弧换握持条件窗，均要求实际二维刚体片、最终完整D/曲率/支撑/标记，不可借旧常数给新核。R5/R8/R9/R40只有局部传播与条件障碍，非全局不存在。
 - R28/R29/R31实际M16/64有限闭C²图全时metric<1e−6、D≤2.301491469394、reach≥.1、H径比>.69794、δE>0；held/D仅>.005462656。32→64尾metric降12.66倍，二阶层差.00629485，不证C²极限。不重复低幅铺盒。
@@ -48,6 +48,8 @@ m2新切角族未改善H/q≈.0121，细点曲率9.00474，停止同族；新的
 R53补充已证整个旧控制盒、tau=0时核心C0/C1/C2变化分别<(.01936,.016,.16683)λ；λ=.02预算(.0003872,.00032,.0033366)。整个λ/tau方形κ∈[.2,1943/665)，通用raw另给绝对积分相位界；不替代BVP逆界/完整曲面曲率。见[定量补充](notes/2026-11-20-material-flattening-closeness-and-core-bounds.md)。
 
 两高度/单高度恢复的正确分支条件是SH=DH−CH K⁻¹B可逆；冷步右端−rH+CH K⁻¹E，目标高度接近不保证步小。固定线性共振的非零入口必有非零cut高度，但有限幅条件数仍待实测。精确块消元和未执行helper见[Schur响应](notes/2026-11-20-n4-height-anchor-schur-response.md)；m3只换H3并保高7DN，n4两H针对双共振。
+
+R54宽材料窗S=.5/b=.2/k=.2，H横宽.54/相位.45，精确扫窗留.005余量；H径>.53973756，只需0<柱长≤.01。条件D0≤2.64、完整曲率/支撑付清时n3 held>.111439D、n4>.132023D，原两ramp在v=.19<k前保证窗耗尽。三重单调核的非零三阶矩可续R6。仅条件设计，当前S=.21计算不变，见[R54](results/R54-transverse-held-arc-and-short-cylinder-window.md)。
 
 ## 接着做
 
