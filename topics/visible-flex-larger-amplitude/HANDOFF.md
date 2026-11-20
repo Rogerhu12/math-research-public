@@ -4,7 +4,7 @@
 
 ## 规则与完整目标
 
-最近规则核查：2026-11-20 15:26 UTC，真实pull/rebase至 `8638c7c87bf32909285890762744c973c0fe1303`，双README相对上次已读无差异。
+最近规则核查：2026-11-20 15:30 UTC，真实pull/rebase至 `93e6a647edd1f5e228eb6a834ec4c559e1f854a9`，双README相对上次已读无差异。
 
 科学计算仅公开Actions；本会话此前本地执行的偏差及13:00 UTC纠正见[执行记录](notes/2026-11-20-public-actions-execution-correction.md)。公开仓库内工作；终端git普通push，每条结论推一次，NFF立即pull/rebase再推。至少每小时pull；每次查根/本题README差异，变更立刻读/执行。根README已授权必要修改/发布。根唯一git writer，代理只work/小blob。raw只scratch；Git/Release/artifact只保完整小源/参数/run/SHA/紧凑结论。题≤200MB、单MD<100KB、H<10KB、open<30KB。令牌只瞬时CLI，不写文件/提交/回复。
 
@@ -30,10 +30,10 @@
 
 [公开c4a3](notes/2026-11-20-actions-actual-continuation-and-margin-pair.md)Phi1.123140298934e−7/max.01319655308/product.991903936925，实际mu=.0007539530259341321。独立全922首jet已付嵌入/held；[同父pair02](notes/2026-11-20-actual-full-phi-margin-pair-result.md)两支256真接受半步；.992 d5d8284 Phi9.559233977e−8/max.0126118/product.99195008优先继续，.998仅对照。
 
-- geometry_path：[R671](results/R671-exact-reference-tail-affine-lift.md)新准确尾lift保全部自由坐标与原g/core/帽；λ1含精确末段但完整连接未解。[工厂实现](notes/2026-11-20-exact-reference-tail-factory.md)已刊，observed/native/六jet/任意点pullback/物理H全接、canonical新身份，只AST未科学跑。同候选[radius专项源](notes/2026-11-20-R670-radius-continuation.md)已刊/下个分卷job排D≤4.1与全K；[R674](results/R674-reference-tail-continuous-profile-and-same-angle-remainders.md)原a/I Taylor/Bell/完整六jet角尾已证；[新first/K核](notes/2026-11-20-exact-reference-tail-continuous-kernel.md)及[紧Gram核](notes/2026-11-20-exact-reference-tail-tight-gram-kernel.md)全源已刊，实际R671全胞首几何已排，随后[R675](results/R675-embedded-activity-nonplanarity-from-height-jets.md)以同场嵌入/准确高Z排平面开片，无新轴迹oracle。
-- fullclosed_solver：旧完整QP仅1/4接受且弱于a04，192行近重复/漏峰已登记不重做。[R668](results/R668-feasible-release-before-face-stationarity.md)v2原例Actions实际pass/2release；初次manifest字节限失败已用纯排版修复；02完整pair两支已返，全部位置保。原7377行/全部坐标/永久点全保。[R673](results/R673-full-Phi-damping-face-gap-and-true-ray-continuation.md)固定面gap及真射线下降已证，fresh Jv/实际射线消费者齐待用；[R671完整QP](notes/2026-11-20-exact-tail-complete-phi-driver.md)已排c4a3/λ1/η885/节点投影/同mu；旧01初始化失败/02发布失败保留，新job从真实mu继续。
-- recover_evidence：[R669](results/R669-same-g-axisymmetric-tail-linear-uniqueness-and-endpoint-defect.md)线性唯一性/quintic末t8无精确根已证，不推误差地板。[R670](results/R670-direct-same-angle-first-geometry-with-complete-tails.md)c4a3实际全922嵌入，sigma≥.28948、D≤4.119228、marked held/D≥.227934、含反射E正。末b3/b4非零；八个简单blend均未降Phi，不重跑。[同场精确合并源](notes/2026-11-20-same-candidate-exact-geometry-combination.md)已刊并排；[R676](results/R676-fixed-metric-refinement-and-complete-observation-transfer.md)固定g符号二分/补零/全部旧行与永久点/连续六jet转移误差及fine solve源已刊；实际末mu绑定后续接口中，转移不冒精化收敛。
-- root：0241本地K因地点纠正exit130；1146保存attempt覆盖全922粗+224细，全胞有效max8.5913381808、850胞≤8.1。层2/72胞已起但无保存新batch，未返非0，完整源/SHA/scope保执行记录。[R672](results/R672-complete-lowmode-sixjet-curvature-with-laurent-remainders.md)全六jet同角K算法已证，原模/完整Laurent尾/真第一形式保持，新Actions应用待跑；R666留实际全K/reach。
+- geometry_path：[R671](results/R671-exact-reference-tail-affine-lift.md)准确尾保原g/core/帽及全部自由量；λ1末段准确、完整连接未解。[工厂](notes/2026-11-20-exact-reference-tail-factory.md)与[R674](results/R674-reference-tail-continuous-profile-and-same-angle-remainders.md)已刊；[连续first/K](notes/2026-11-20-exact-reference-tail-continuous-kernel.md)、[紧Gram](notes/2026-11-20-exact-reference-tail-tight-gram-kernel.md)全源齐，已排实际新场首几何→[R675](results/R675-embedded-activity-nonplanarity-from-height-jets.md)同场嵌入/高Z非平面消费。旧R67102实跑数值未付，不冒未跑或成功。
+- fullclosed_solver：[R668](results/R668-feasible-release-before-face-stationarity.md)v2原例Actions实际pass/2release；同父pair两支已返。当前原7377行/所有自由量/永久点完整六方向已排；[返回归因](notes/2026-11-20-returned-full-phi-bottleneck-diagnosis.md)紧接，按实际面变化/CG32重启/真trial区别瓶颈。[R673](results/R673-full-Phi-damping-face-gap-and-true-ray-continuation.md)固定面gap/真实射线及完整消费者可继续使用；不抄旧高mu数值。
+- recover_evidence：[R669](results/R669-same-g-axisymmetric-tail-linear-uniqueness-and-endpoint-defect.md)末端无精确quintic根不推误差地板；b3/b4非零、八简单blend无改善不重做。[R676](results/R676-fixed-metric-refinement-and-complete-observation-transfer.md)同g符号二分/补零/全部旧行与永久点/连续六jet转移差与fine solve源已刊，当前真实父report末mu/新增位置绑定入口中；转移不冒精化收敛。
+- root：[R670](results/R670-direct-same-angle-first-geometry-with-complete-tails.md)c4a3全922嵌入sigma≥.28948、D≤4.119228、marked held/D≥.227934、含反射E正。[radius源](notes/2026-11-20-R670-radius-continuation.md)、[R672全K](results/R672-complete-lowmode-sixjet-curvature-with-laurent-remainders.md)及[精确合并](notes/2026-11-20-same-candidate-exact-geometry-combination.md)同候选排队，R666留实际reach。旧0241本地K地点纠正exit130；1146保存attempt全922粗+224细，max8.5913381808、850胞≤8.1，层2/72未返，不抄新值。
 
 ## 已付连续几何与严格接口
 
@@ -49,9 +49,9 @@
 
 ## 复现、旧责任与不重做
 
-所有原数组仍在work，完整旧交接与未返责任保[d9ddccf6固定H](https://github.com/Rogerhu12/math-research-public/blob/d9ddccf6aa92e603dc30bfc4e2e01886340a6d35/topics/visible-flex-larger-amplitude/HANDOFF.md)、log/open/notes。旧2038/3a3/def1/61a620、v4a LRU遗漏、r17密角新增峰均有完整源码/预算/失败记录，不重做已登记结论，不改旧scope。
+旧本地原数组保work；公开raw仅各runner，必要输入沿完整配方再生。完整旧交接与未返责任保[d9ddccf6固定H](https://github.com/Rogerhu12/math-research-public/blob/d9ddccf6aa92e603dc30bfc4e2e01886340a6d35/topics/visible-flex-larger-amplitude/HANDOFF.md)、log/open/notes。旧2038/3a3/def1/61a620、v4a LRU遗漏、r17密角新增峰均有完整源码/预算/失败记录，不重做已登记结论，不改旧scope。
 
-完整重建配方保历史60321451c输入b4d2b98至a04的全部实际链及纯位置责任；每个实跑源版本独立保存。Python3.12.14/NumPy2.3.5/SciPy1.17.0/单BLAS。
+本次压缩前完整H保[e069b03c](https://github.com/Rogerhu12/math-research-public/blob/e069b03c5e7ac02ab9aa0d057ecf4774cdeb7bf4/topics/visible-flex-larger-amplitude/HANDOFF.md)。重建配方保60321451c输入b4d2b98至a04全链及纯位置责任；每个实跑源版本独立保存。Python3.12.14/NumPy2.3.5/SciPy1.17.0/单BLAS。
 
 纯metric旧方向K14–44、polar K95055、弱列K2748已败；旧节点/中点0c535/c71被Gauss揭产品>1，不回用。旧cap16只176Jv/176VJP、exit130、0完整方向/试步；原L²未跑。R648/R651/R652仅旧开放prefix，不能当新闭场证书。09:49故障与重复5732跳过有原记录，未改远端历史。
 

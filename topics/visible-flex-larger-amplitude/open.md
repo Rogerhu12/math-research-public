@@ -101,7 +101,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 ## 7. 本并行会话的实际数学与几何路线
 
-全部原结论/参数/失败/来源/运行账/未付逐字保[b8ce06f1固定open](https://github.com/Rogerhu12/math-research-public/blob/b8ce06f1c230c7a1c6fcf80ff60ad3e798dad9e4/topics/visible-flex-larger-amplitude/open.md)，内续e228/7245/ecd/ddf/c87所有旧链。仅压§7，§1–6原字保；本地计算，原Actions责任不变。[完整结果索引](results.md)。
+全部原结论/参数/失败/来源/运行账/未付逐字保[b8ce06f1固定open](https://github.com/Rogerhu12/math-research-public/blob/b8ce06f1c230c7a1c6fcf80ff60ad3e798dad9e4/topics/visible-flex-larger-amplitude/open.md)，内续e228/7245/ecd/ddf/c87所有旧链。仅压§7，§1–6原字保；旧本地计算属历史，当前科学仅公开Actions。[完整结果索引](results.md)。
 
 **已完成开放前缀。** 同26e53/q4096的R638/640/642全818胞坐标/嵌入；[R648](results/R648-continuous-Gram-on-the-complete-pulse-prefix.md)全819准确片连续relative Gram<4.94e−7，含1−5/2^60后微片。[R651](results/R651-continuous-curvature-on-the-complete-pulse-prefix.md)原818/818自然0，E≥.9943730/det≥.02754673，K≤7.21309；root六胞Q8192/8sub8158复用λ后完整并集K≤7.04608（最坏旧817），仅证书细化。[R652](results/R652-continuous-weighted-support-on-the-complete-pulse-prefix.md)全819/0失败/异常/剩余自然0，β1/4支持>.3174736（最坏410），β2/5>.16747356295；原249+新570、0新λ。[同额恢复](notes/2026-11-17-parallel-model-second-interruption-recovery.md)保全部中断账；这两批已结束，不重开。aa1 hold R644嵌入、R646仅四胞六片Gram、R645同像见证>.9588，均非闭面/完整held。
 
@@ -127,4 +127,4 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 [双积分实际准备](notes/2026-11-17-parallel-root-fullclosed-integrated-coordinate-preparation.md)d429/f653/e6e968：1333209坐标/964端口、168个2×2+157个4×4块，完整G作用差1.67e−16、lift转置4.82e−14、端口3.16e−15。仅异质测试尺度/0几何调用，原warm未改；浮点repair反增末误差1.42e−14如实保，不冒准确闭解。
 
-当前实际父/run见[HANDOFF](HANDOFF.md)。R669末端障碍不推误差地板；R670已付公开c4a3首jet。R671/R674保同g/全部自由量并给新解析尾完整连续余项，连接待解；同µ全空间QP、全K/reach与固定g真实精化继续，阶段或job结束不是停点。
+当前父/run见[HANDOFF](HANDOFF.md)。R669不推误差地板；R670付c4a3首jet；R671/R674解析尾连接待解，R675非平面/R676固定g精化源已刊。实际全空间QP→报告归因→fine solve与同场全K/reach继续，阶段或job结束不是停点。

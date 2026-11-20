@@ -1,0 +1,13 @@
+# 返回的完整QP：内迭代与真实非线性拒步分开归因
+
+新消费者full_phi_qp_bottleneck_report.py完整源SHA256为930d832f92cf61021f394b835fb9ab0e14ae0d1ce3ca4a72f597a65e09bab0b0，15121B。只读已经返回的完整JSON，导入已刊R673标量源9124229786200659f1c9dc73620eecd75dda6493990f684149471d7003263b9d，不读场或方向数组、不调F/J/J转置、不新增fixture。
+
+源码检查确认冻结v2 c131b45649e87be2e7f71088d817edb6402a74a4cb50a6b13018e252217f88f7在每32次实际Hessian推进时重读梯度与字面约束，同时即使活动面没有变化也会把CG方向重置。这个源码事实本身不证明它是当前数值瓶颈。消费者把实际history、transitions、推进数及operator计数合并：区分真正加入/释放活动面、零长blocker、固定面上的有效32步重启和最长固定面段，保每方向状态/梯度/线性违差。源默认计划的计数与实际operator计数若不一致如实列false，不改成观测成立。
+
+每个实际trial完整保alpha、真Phi、定义域/Armijo/已知点几何是否实际调用及product、同alpha二次预测下降比、新位置数。原报告有些默认curvature_feasible=true的trial根本未调用几何；本源明确分开，不能把未调用算作通过。R673阻尼/数据Hessian射线能量、固定面gap只作真实返回标量的普通浮点诊断，不冒向外最优性、全域metric或reach证书。
+
+分卷run44758209061/1中排在实际原模型六方向之后。全部原trial保raw；公开记录选每方向主要标量及前3个trial，若有后续trial则从同raw另作紧凑结论，不删除实际成本和失败。少于6个方向或少于3个trial时，控制器把缺字段作为summary_errors保留；不补零、不伪造接受结果。当前只有静态源码阅读/AST，尚无这个新消费者的实际数值返回。
+
+完整命令：python scripts/resume_20261120/full_phi_qp_bottleneck_report.py --report RUNWORK/full-phi-original-six-actual-coarse/report.json --out RUNWORK/postprocess/original-full-six-bottleneck.json。实际绝对路径、固定source commit、完整argv及输入/输出SHA由同公开job记录。
+
+执行身份与是否已运行以正文各项状态为准，未执行准备源不冒称已有数值结果。临时数组沿原输入链再生；纯位置替代输入保计算语义，不冒称原raw报告的路径或逐字SHA。
