@@ -1130,3 +1130,15 @@ $$
 因此普通向量乘积无需先构造306×306的多项式算子；完整矩阵API原样保留给真正需要它的理想门。默认128个pair、32个次数的native块保全部系数，最大表行复制241920个Fp元素，结果累加器为f(Wx+Wy+1)306个元素。完整证明另计输入与pair多项式、回拆矩阵、旧cache和native内部工作区，不将这些元素计数冒称实测RSS或每种输入的速度提升。
 
 补丁的稳定源为§15的 `f1bfef0145de4a8c7ed0f3478272d62482a2b7e7607011c5b0af099f7bc2a22a`；补丁SHA256 `c3097062e767e9aecfd751e3562b3c88e63386c6ef5714bc0d6b748d0351ef77`，应用后源码SHA256 `1e0ffc3533022e17ca3da39e6cdd85997425f1150f6bb943d8e9a500e632c67b`。root/deep逐段核算法及原API，global实现与自审；本地只有AST/源码/补丁检查。原三个公开运行各保既定来源，后续按其真实回执决定执行层，不重复盲跑。
+
+## 21. 同一完整原函数、交理想及厚闭点的精确复用
+
+[完整证明与内存定位](../notes/2026-11-20-original-exact-intersection-reuse.md)和[完整补丁](../scripts/original-exact-intersection-reuse.patch)保存另一个已独审候选；稳定bridge/trace与运行请求尚未改动。它只共享当前同进程已经完整计算的原对象，四个原pair的输出函数、真实重数及完整迹仍逐组计算。
+
+函数命中须同一个原model，且是同一个被保留的实际fraction对象，或原306坐标分子和分母分别全部相等。只给相同hash、短展开、degree或norm不能命中。此门逐一支付同原v、xp、yp及r后，可复用准确的v^((r−2)/3)xp^r与yp^r。
+
+原有效除子E=div(y1−yp^r)+Pole(y1)+rPole(yp)由其完整原输入决定。除两个函数等式外，候选还核两图表完整pole ideals的同对象或全canonical HNF基相等，并保同一six/geometry/engine/registry。首次计算仍支付全源投影、完整graph kernel、两图理想和全部∞边界，之后才共享这些实际对象。特别在dF<2256的已定循环呈示中，输入不依赖b，所以有效除子确有E00=E01、E11=E12；输出点依赖b，不能据此合并两条迹。
+
+闭点分解只在完整finite/infinity/boundary ideals、差函数g及registry逐对象相同时共享，每次重新核Σe_Q[κ(Q):k]=degE。原全部primary厚度、真实域嵌入与边界都在，原18×9及双轴门不变。缓存至多四项，仅省同一对象的重复计算，不省首份不同理想的峰值，也不声称实际已有命中。
+
+补丁SHA256为 `6b59b77463c0ec9db2b58cef875ab7a700a43c40b71372cf2b94d426b3aad680`，原bridge/trace来源为§17两hash。root/deep全文独核；未来应用时必须将新增`original_ys_exact_reuse.py`同时纳入host/producer依赖manifest，不能只应用数学文件而遗漏来源鉴定。当前没有新的数学执行或性能结果。

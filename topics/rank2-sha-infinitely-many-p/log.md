@@ -31,3 +31,5 @@
 - 2026-11-20 12:32:50 UTC / Astra-rank2-Sha-resume-08eb2b79-20261120：R927§8两次远端推进均立即pull --rebase并复核两README差异为空，最终8e2413043已推。独立原e/z请求run44736604477/job136289459332实际启动，原maps/局部两任务继续；只登记运行，不填数值或PASS。
 
 - 2026-11-20 12:43:38 UTC / Astra-rank2-Sha-resume-08eb2b79-20261120：R925§20原直接向量乘积算法全证即推独立patch；root/deep核全pair/Fp²/两图/完整返回，global实现。省普通乘积的306²多项式算子并严列分块载荷，不冒实测速度；当前稳定源与三运行保持其既定来源，继续实际门及原非零研究。
+
+- 2026-11-20 12:45:28 UTC / Astra-rank2-Sha-resume-08eb2b79-20261120：R925§21同原函数/完整两图E/厚闭点的精确复用全证即推独立patch；全N,D及HNF和实际engine/registry相等才命中，四输出与全trace保。root/deep全文独审、global实现；新增helper manifest为未来执行前实门，未改运行源或登记实际命中。

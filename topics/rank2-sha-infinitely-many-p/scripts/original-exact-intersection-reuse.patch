@@ -1,0 +1,397 @@
+--- /dev/null
++++ b/topics/rank2-sha-infinitely-many-p/scripts/original_ys_exact_reuse.py
+@@ -0,0 +1,190 @@
++"""Exact, bounded reuse inside ONE original four-intersection computation.
++
++This helper is a PROPOSAL until its separate public execution is accepted.
++Keys retain the original fraction objects.  A hit requires object identity
++or equality of both complete 306-coordinate numerator/denominator vectors.
++Unequal representations of an equal function are harmless cache misses.
++No hash, norm, degree, prefix or residue is ever an equality oracle.
++"""
++import os
++if (os.environ.get("GITHUB_ACTIONS") != "true" or
++        os.environ.get("GITHUB_REPOSITORY") != "Rogerhu12/math-research-public"):
++    raise SystemExit("Run this mathematical helper only in the public research Actions.")
++
++
++def same_complete_original_fraction(left, right, model, fraction_type):
++    """Return an exact equality reason, or None without asserting inequality."""
++    assert type(left) is fraction_type and type(right) is fraction_type
++    assert left.model is right.model is model
++    if left is right:
++        return "same retained OriginalFraction object"
++    if (left.numerator == right.numerator and
++            left.denominator == right.denominator):
++        return "both whole original numerator and denominator vectors equal"
++    return None
++
++
++def _same_fraction_tuple(left, right, model, fraction_type):
++    assert len(left) == len(right)
++    reasons = [same_complete_original_fraction(a,b,model,fraction_type)
++               for a,b in zip(left,right)]
++    return reasons if all(reasons) else None
++
++
++class OriginalExactIntersectionReuse:
++    """At most four power bundles and four complete two-chart ideals."""
++    def __init__(self, six, geometry):
++        assert geometry["six"] is six
++        self.six, self.geometry = six, geometry
++        self.model = six["model"]
++        self.fraction_type = type(six["ys"])
++        self.prime = int(six["prime"])
++        self.engines = geometry["engines"]
++        self.registry = geometry["registry"]
++        self.power_bundles, self.intersections = [], []
++        self.power_queries = self.power_hits = 0
++        self.intersection_queries = self.intersection_hits = 0
++
++    def frobenius_fractions(self, v, xp, yp, prime, endpoint_pair):
++        assert int(prime) == self.prime
++        inputs = (v,xp,yp)
++        self.power_queries += 1
++        for entry in self.power_bundles:
++            reasons = _same_fraction_tuple(
++                entry["inputs"],inputs,self.model,self.fraction_type)
++            if reasons is not None:
++                assert entry["prime"] == self.prime
++                self.power_hits += 1
++                return entry["c0"],entry["y2"],{
++                    "reused":True,"first_endpoint_pair":list(entry["first_pair"]),
++                    "current_endpoint_pair":list(endpoint_pair),
++                    "exact_input_equalities":reasons,
++                    "prime_and_original_model_identical":True,
++                    "hash_used_to_decide_equality":False,
++                }
++        c0 = v**((self.prime-2)//3)*xp**self.prime
++        y2 = yp**self.prime
++        self.power_bundles.append({
++            "inputs":inputs,"prime":self.prime,"c0":c0,"y2":y2,
++            "first_pair":tuple(endpoint_pair),
++        })
++        assert len(self.power_bundles) <= 4
++        return c0,y2,{
++            "reused":False,"first_endpoint_pair":list(endpoint_pair),
++            "current_endpoint_pair":list(endpoint_pair),
++            "true_original_function_powers_computed":True,
++            "prime_and_original_model_identical":True,
++            "hash_used_to_decide_equality":False,
++        }
++
++    def _pole_equalities(self, old_sources, new_sources):
++        reasons = []
++        for old,new in zip(old_sources,new_sources):
++            for flag in (False,True):
++                previous,current = (value["charts"][flag]["negative"]
++                                    for value in (old,new))
++                assert previous.engine is current.engine is self.engines[flag]
++                if previous is current:
++                    reason = "same complete original pole ideal object"
++                else:
++                    assert previous.basis == current.basis
++                    assert previous.determinant == current.determinant
++                    assert previous.length == current.length
++                    reason = "whole canonical pole Hermite bases equal"
++                reasons.append({"infinity_chart":flag,"reason":reason})
++        return reasons
++
++    def find_intersection(self, y1, yp, poles1, polesp, prime, endpoint_pair):
++        assert int(prime) == self.prime
++        self.intersection_queries += 1
++        for entry in self.intersections:
++            reasons = _same_fraction_tuple(
++                entry["input_functions"],(y1,yp),self.model,self.fraction_type)
++            if reasons is None:
++                continue
++            assert entry["prime"] == self.prime
++            assert entry["six"] is self.six and entry["geometry"] is self.geometry
++            assert entry["registry"] is self.registry
++            assert all(entry["engines"][flag] is self.engines[flag] for flag in (False,True))
++            pole_reasons = self._pole_equalities(
++                entry["pole_sources"],(poles1,polesp))
++            self.intersection_hits += 1
++            return entry,{
++                "reused":True,"first_endpoint_pair":list(entry["first_pair"]),
++                "current_endpoint_pair":list(endpoint_pair),
++                "exact_y1_yp_equalities":reasons,
++                "both_complete_pole_ideal_equalities":pole_reasons,
++                "same_original_two_chart_engines_and_registry":True,
++                "same_entire_effective_divisor_including_infinity":True,
++                "output_functions_or_trace_reused":False,
++                "hash_used_to_decide_equality":False,
++            }
++        return None,{
++            "reused":False,"current_endpoint_pair":list(endpoint_pair),
++            "output_functions_or_trace_reused":False,
++            "hash_used_to_decide_equality":False,
++        }
++
++    def remember_intersection(self, y1, yp, poles1, polesp, g, ideals,
++                              infinity_boundary, degree_receipt, chart_records,
++                              boundary_receipt, endpoint_pair):
++        assert not g.is_zero() and g.model is self.model
++        assert all(ideals[flag].engine is self.engines[flag] for flag in (False,True))
++        assert infinity_boundary.engine is self.engines[True]
++        degree = int(degree_receipt["original_complete_projective_intersection_degree"])
++        assert ideals[False].length+infinity_boundary.length == degree
++        entry = {
++            "kind":"same_original_complete_intersection_shared_data",
++            "six":self.six,"geometry":self.geometry,"engines":self.engines,
++            "registry":self.registry,"prime":self.prime,
++            "input_functions":(y1,yp),"pole_sources":(poles1,polesp),
++            "g":g,"ideals":ideals,"infinity_boundary":infinity_boundary,
++            "degree_receipt":degree_receipt,"complete_degree":degree,
++            "chart_records":chart_records,"boundary_receipt":boundary_receipt,
++            "first_pair":tuple(endpoint_pair),
++            "closed_points":None,"closed_point_decomposition_receipt":None,
++        }
++        self.intersections.append(entry)
++        assert len(self.intersections) <= 4
++        return entry
++
++    def receipt(self):
++        return {
++            "power_bundle_queries":self.power_queries,
++            "distinct_true_power_bundles":len(self.power_bundles),
++            "exact_true_power_reuse_hits":self.power_hits,
++            "complete_intersection_queries":self.intersection_queries,
++            "distinct_complete_two_chart_intersections":len(self.intersections),
++            "exact_complete_intersection_reuse_hits":self.intersection_hits,
++            "every_key_retains_its_actual_original_fraction_objects":True,
++            "nonidentical_objects_require_both_complete_coordinate_vectors_equal":True,
++            "norm_hash_degree_prefix_or_residue_used_as_equality_oracle":False,
++            "whole_ideal_objects_shared_not_copied":True,
++            "all_four_output_functions_and_trace_loops_retained":True,
++        }
++
++
++def validate_shared_original_intersection(context, item, shared):
++    """The shared decomposition belongs to these exact complete ideal objects."""
++    assert shared["kind"] == "same_original_complete_intersection_shared_data"
++    assert shared["six"] is context["six"]
++    assert shared["geometry"] is context["geometry_context"]
++    assert shared["registry"] is context["registry"]
++    assert all(shared["engines"][flag] is context["engines"][flag] for flag in (False,True))
++    assert item["finite_ideal"] is shared["ideals"][False]
++    assert item["full_infinity_chart_ideal"] is shared["ideals"][True]
++    assert item["infinity_boundary_ideal"] is shared["infinity_boundary"]
++    assert item["g"] is shared["g"]
++    assert int(item["complete_degree"]) == shared["complete_degree"]
++    model = context["six"]["model"]
++    assert _same_fraction_tuple(shared["input_functions"],(item["y1"],item["yp"]),
++                                model,type(context["six"]["ys"])) is not None
++    return {
++        "same_entire_original_intersection_ideal_objects":True,
++        "same_original_engines_registry_and_fraction_sources":True,
++        "first_endpoint_pair":list(shared["first_pair"]),
++        "current_endpoint_pair":list(item["endpoint_pair"]),
++        "full_projective_degree":shared["complete_degree"],
++        "hash_used_to_decide_equality":False,
++        "output_functions_and_trace_are_still_current_pair_specific":True,
++    }
+--- a/topics/rank2-sha-infinitely-many-p/scripts/original_ys_fraction_bridge.py
++++ b/topics/rank2-sha-infinitely-many-p/scripts/original_ys_fraction_bridge.py
+@@ -23,6 +23,7 @@
+ from original_ys_closed_point_tools import (
+     OriginalClosedPointRegistry, decompose_complete_ideal)
+ import original_shadow_relative_six_tools as legacy
++from original_ys_exact_reuse import OriginalExactIntersectionReuse
+ 
+ ORIGINAL_FOUR_PAIRS = ((0,0),(0,1),(1,1),(1,2))
+ 
+@@ -582,6 +583,7 @@
+     cusps,v_support = geometry["original_cusp_points"],geometry["original_v_signed_support"]
+     use_endpoint_output = first_degree < 2256
+     intersections, intersection_receipts = {}, []
++    exact_reuse = OriginalExactIntersectionReuse(six,geometry)
+     for a,b in ORIGINAL_FOUR_PAIRS:
+         if use_endpoint_output:
+             a0,y1 = six["A"][a]["x0"],six["A"][a]["y0"]
+@@ -599,9 +601,11 @@
+                   endpoint_pair=[a,b],cyclic_presentation=presentation,
+                   original_prime=prime,xp_bound=xp.pole_weight_bound,
+                   yp_bound=yp.pole_weight_bound)
+-        c0 = six["vs"]**((prime-2)//3)*xp**prime
+-        y2 = yp**prime
+-        g = y1-y2
++        c0,y2,power_reuse_record = exact_reuse.frobenius_fractions(
++            six["vs"],xp,yp,prime,(a,b))
++        shared,ideal_reuse_record = exact_reuse.find_intersection(
++            y1,yp,p1,pp,prime,(a,b))
++        g = shared["g"] if shared is not None else y1-y2
+         assert not g.is_zero()
+         xout = a0*output_x/c0
+         _progress(progress,"original true Frobenius fractions built",
+@@ -609,48 +613,76 @@
+                   frobenius_x_bound=c0.pole_weight_bound,
+                   frobenius_y_bound=y2.pole_weight_bound,
+                   output_x_bound=xout.pole_weight_bound)
+-        ideals, records = {}, []
+-        for flag in (False,True):
+-            engine = engines[flag]
+-            _progress(progress,"building complete original intersection chart",
+-                      endpoint_pair=[a,b],infinity_chart=flag,
+-                      common_difference_bound=g.pole_weight_bound)
+-            pole_product = engine.ideal_product(
+-                p1["charts"][flag]["negative"],
+-                engine.ideal_power(pp["charts"][flag]["negative"],prime,
+-                                   "original r times yp poles"),
+-                "original complete input pole product")
+-            N,D = g.chart_pair(flag)
+-            ideal = engine.integral_fraction_multiple(
+-                pole_product,N,D,"original E_%d%d effective ideal" % (a,b))
+-            ideals[flag] = ideal
+-            records.append({"infinity_chart":flag,
+-                            "both_complete_pole_product":pole_product.receipt,
+-                            "whole_effective_intersection":ideal.receipt})
+-        infinity_boundary,boundary_receipt = engines[True].infinity_boundary(ideals[True])
+-        degree_receipt = certify_complete_intersection_degree(
+-            ideals[False],infinity_boundary,prime,first_degree)
++        if shared is None:
++            ideals, records = {}, []
++            for flag in (False,True):
++                engine = engines[flag]
++                _progress(progress,"building complete original intersection chart",
++                          endpoint_pair=[a,b],infinity_chart=flag,
++                          common_difference_bound=g.pole_weight_bound)
++                pole_product = engine.ideal_product(
++                    p1["charts"][flag]["negative"],
++                    engine.ideal_power(pp["charts"][flag]["negative"],prime,
++                                       "original r times yp poles"),
++                    "original complete input pole product")
++                N,D = g.chart_pair(flag)
++                ideal = engine.integral_fraction_multiple(
++                    pole_product,N,D,"original E_%d%d effective ideal" % (a,b))
++                ideals[flag] = ideal
++                records.append({"infinity_chart":flag,
++                                "both_complete_pole_product":pole_product.receipt,
++                                "whole_effective_intersection":ideal.receipt})
++            infinity_boundary,boundary_receipt = engines[True].infinity_boundary(ideals[True])
++            degree_receipt = certify_complete_intersection_degree(
++                ideals[False],infinity_boundary,prime,first_degree)
++            shared = exact_reuse.remember_intersection(
++                y1,yp,p1,pp,g,ideals,infinity_boundary,degree_receipt,
++                records,boundary_receipt,(a,b))
++        else:
++            ideals = shared["ideals"]
++            records = shared["chart_records"]
++            infinity_boundary = shared["infinity_boundary"]
++            boundary_receipt = shared["boundary_receipt"]
++            degree_receipt = shared["degree_receipt"]
++            _progress(progress,"same entire original intersection reused by exact identity",
++                      endpoint_pair=[a,b],first_endpoint_pair=list(shared["first_pair"]),
++                      full_projective_degree=shared["complete_degree"],
++                      output_and_trace_still_pair_specific=True)
+         item = {"endpoint_pair":(a,b),"cyclic_presentation":presentation,
+                 "a0":a0,"y1":y1,"xp":xp,"yp":yp,"c0":c0,"y2":y2,"g":g,
+                 "output_x":output_x,"output_y":output_y,"xout":xout,
+                 "finite_ideal":ideals[False],"full_infinity_chart_ideal":ideals[True],
+                 "infinity_boundary_ideal":infinity_boundary,
+-                "complete_degree":degree_receipt["original_complete_projective_intersection_degree"]}
++                "complete_degree":degree_receipt["original_complete_projective_intersection_degree"],
++                "exact_shared_intersection":shared}
+         decomposition_records = None
+         if decompose_intersections:
+-            finite_points,finite_receipt = decompose_complete_ideal(
+-                engines[False],ideals[False],registry,label="original E_%d%d finite" % (a,b),
+-                progress=progress)
+-            infinity_points,infinity_receipt = decompose_complete_ideal(
+-                engines[True],ideals[True],registry,label="original E_%d%d infinity" % (a,b),
+-                only_infinity_boundary=True,progress=progress)
+-            item["closed_points"] = finite_points+infinity_points
++            if shared["closed_points"] is None:
++                finite_points,finite_receipt = decompose_complete_ideal(
++                    engines[False],ideals[False],registry,label="original E_%d%d finite" % (a,b),
++                    progress=progress)
++                infinity_points,infinity_receipt = decompose_complete_ideal(
++                    engines[True],ideals[True],registry,label="original E_%d%d infinity" % (a,b),
++                    only_infinity_boundary=True,progress=progress)
++                shared["closed_points"] = finite_points+infinity_points
++                shared["closed_point_decomposition_receipt"] = {
++                    "finite":finite_receipt,"entire_infinity_boundary":infinity_receipt,
++                    "whole_projective_degree":shared["complete_degree"],
++                    "every_thick_local_length_included":True,
++                    "first_endpoint_pair":list(shared["first_pair"]),
++                }
++            item["closed_points"] = shared["closed_points"]
+             assert sum(p["full_local_k_length"] for p in item["closed_points"]) == item["complete_degree"]
+-            decomposition_records = [finite_receipt,infinity_receipt]
++            assert sum(int(p["point"]["degree_over_original_constants"])*
++                       int(p["intersection_multiplicity"]) for p in item["closed_points"]) == item["complete_degree"]
++            decomposition_records = shared["closed_point_decomposition_receipt"]
++            item["closed_point_decomposition_receipt"] = decomposition_records
+         intersections[a,b] = item
+         record = {"endpoint_pair":[a,b],"cyclic_presentation":presentation,
+                   "complete_original_degree":degree_receipt,
+                   "same_original_difference":g.receipt(),
++                  "exact_original_true_power_reuse":power_reuse_record,
++                  "exact_complete_ideal_reuse":ideal_reuse_record,
+                   "same_original_output_x":xout.receipt(),
+                   "same_original_output_y":output_y.receipt(),
+                   "both_complete_ideal_charts":records,
+@@ -671,6 +703,7 @@
+         "actual_complete_original_geometry":geometry_receipt,
+         "same_original_four_pairs":[list(pair) for pair in ORIGINAL_FOUR_PAIRS],
+         "complete_intersections":intersection_receipts,
++        "exact_reuse_with_whole_original_sources":exact_reuse.receipt(),
+         "all_same_original_rational_output_fractions_retained":True,
+         "all_closed_intersection_points_decomposed":bool(decompose_intersections),
+         "local_output_values_and_original_shadow_computed":False,
+@@ -681,6 +714,7 @@
+         "six":six,"geometry_context":geometry,"engines":engines,"registry":registry,
+         "original_basis_identity":basis_identity,
+         "first_map_degree":first_degree,"intersections":intersections,
++        "exact_original_reuse_context":exact_reuse,
+         "complete_principal_divisor_cache":cache,
+         "original_cusp_points":cusps,"original_v_signed_support":v_support,
+         "certificate":receipt,
+--- a/topics/rank2-sha-infinitely-many-p/scripts/original_ys_normalized_shadow_consumer.py
++++ b/topics/rank2-sha-infinitely-many-p/scripts/original_ys_normalized_shadow_consumer.py
+@@ -19,6 +19,7 @@
+ from original_ys_closed_point_tools import decompose_complete_ideal
+ from original_ys_local_value_tools import OriginalAffineLocalReader
+ from original_ys_fraction_bridge import ORIGINAL_FOUR_PAIRS
++from original_ys_exact_reuse import validate_shared_original_intersection
+ import original_shadow_relative_six_tools as legacy
+ 
+ 
+@@ -28,6 +29,25 @@
+ 
+ def _complete_pair_points(context, item, progress):
+     """Read every finite point and exactly the missing s=0 boundary."""
++    shared = item.get("exact_shared_intersection")
++    shared_record = None
++    if shared is not None:
++        shared_record = validate_shared_original_intersection(context,item,shared)
++        if shared["closed_points"] is not None:
++            points = shared["closed_points"]
++            assert sum(int(p["full_local_k_length"]) for p in points) == item["complete_degree"]
++            assert sum(int(p["point"]["degree_over_original_constants"])*
++                       int(p["intersection_multiplicity"]) for p in points) == item["complete_degree"]
++            item["closed_points"] = points
++            record = dict(shared["closed_point_decomposition_receipt"])
++            record["exact_complete_ideal_reuse"] = shared_record
++            item["closed_point_decomposition_receipt"] = record
++            progress("same complete original closed-point decomposition reused",
++                     endpoint_pair=list(item["endpoint_pair"]),
++                     first_endpoint_pair=list(shared["first_pair"]),
++                     complete_degree=int(item["complete_degree"]),
++                     all_current_pair_outputs_and_traces_still_to_read=True)
++            return points,record
+     if "closed_points" in item:
+         points = item["closed_points"]
+         assert sum(int(p["full_local_k_length"]) for p in points) == item["complete_degree"]
+@@ -50,6 +70,11 @@
+               "whole_projective_degree":int(item["complete_degree"]),
+               "every_thick_local_length_included":True}
+     item["closed_point_decomposition_receipt"] = record
++    if shared is not None:
++        assert shared["closed_points"] is None
++        shared["closed_points"] = points
++        shared["closed_point_decomposition_receipt"] = record
++        record["first_endpoint_pair"] = list(shared["first_pair"])
+     return points,record
+ 
+ 

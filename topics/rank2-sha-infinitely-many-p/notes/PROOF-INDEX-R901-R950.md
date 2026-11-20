@@ -113,3 +113,5 @@
 - [R927§8](../results/R927-original-yF-pole-degree-from-mixed-kernel-and-cusps.md)：原e/z读者与同进程公开前端已接；完整900核、51原二次因子及204回代、∞289全幂链/π2真2⁶/同核N,D全部保，同进程混合核144给度180依据。只静态审过，精确读数待公开PASS。
 
 - [R925§20](../results/R925-original-ys-affine-rings-and-complete-divisor-ideals.md)：原完整表的unordered pair直接向量乘积全证，原Fp²/两weighted图/全系数返回保，普通乘积不必构造306²多项式算子；完整补丁与静态独审已存，稳定源及当前运行不变，无实测PASS。
+
+- [R925§21](../results/R925-original-ys-affine-rings-and-complete-divisor-ideals.md)：同原fraction/两图完整pole ideal及same engines/registry全等时，可精确共享真r次幂、同一有效E及全部厚闭点；四pair输出和完整迹仍各自读。补丁/证明已独审保存，执行前须补新增helper manifest，未冒实际命中或PASS。
