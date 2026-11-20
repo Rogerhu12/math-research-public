@@ -6,7 +6,7 @@
 
 **维护会话：serre-public-astra-20261120-de0a3e3b。** 从远端main接续serre-public-astra-20261115，已部分克隆并真实pull；不重做已登记结论。接手前完整状态见[前H](handoff-archive-2026-11-20-before-resume.md)；权34登记前逐字状态见[本次归档](handoff-archive-2026-11-20-before-weight34-normal.md)。
 
-**已读规则提交：f3ebd35e6d54020b2c6d59d48d2d876221d23c1e**（2026-11-20T10:07:16.957180+00:00；终端真实git pull --rebase origin main，两README无diff）。相比b77de2c7仅根课题表新增held-10pct；两README完整已读。root SHA256 581402c2 / topic 35f82f3d。此前来源与原pins沿[旧归档](handoff-archive-2026-11-16-before-Igusa-Frobenius-residues.md)。
+**已读规则提交：ee707acb755974ec9a3e4cb8c6f60e565dc6df27**（2026-11-20T10:09:56.863165+00:00；终端真实git pull --rebase origin main，两README无diff）。相比b77de2c7仅根课题表新增held-10pct；两README完整已读。root SHA256 581402c2 / topic 35f82f3d。此前来源与原pins沿[旧归档](handoff-archive-2026-11-16-before-Igusa-Frobenius-residues.md)。
 
 每结论立即推；每push前且至少每小时真实pull，NFF立即pull --rebase再推至成功，禁force。每pull比两README，有变只读diff即遵守并记H。PAT仅CLI，root独占main。新数学仅本公开Actions，外部仅纸证/IO/schema/hash/AST；raw仅当前必要一日artifact，不入Git/Release。H<10KB/open<30KB/每MD<100KB/topic<200MB；日志Asia/Taipei≤5行，无独立测试门。09:48UTC环境曾unavailable；R937以公开恢复run44715068884真实pull/push至ba6fe7a2。终端现恢复，继续实际pull/rebase/push，PAT不入文件。旧run终态已核实。
 
@@ -53,17 +53,19 @@ R913原λ_h对应k−=2p+2−2h，L̄对应k+=2h−p+1；两tame伴随/整Θ/ζ�
 
 [R929](results/R929-original-Legendre-auxiliary-ordinary-curve-and-central-shift.md)已证p5mod12原辅助E*:v²=w³+6w+7普通，未移位A单位；原同h偏移未被普通性控制，R934在p41/h25严格为零，禁止再列全p单h非零目标。原s/δ/d=3s、微分及两prime类边界沿证明与归档，不改变来源。
 
-[R932原Frobenius/全SS配对](results/R932-original-Igusa-Frobenius-line-and-supersingular-residue-pairing.md)：原λ的同一Serre类v由F_Ov=0和注入F_dR给非零exact微分，χ+不变、ζ²经p次变ζ；R918整S4或R920实际T5零核识别到V_(r+2)†，r=2/8，未混两weights非零Hecke值。G=Θ_Q^(r−1)V_(p+1−r)†权rp，∂G=A^rV/6，真实primitive G/a^(rp)；每个SS唯一极部g_P z^(−rp)。原λ在另一companion取值等于非零原尺度m_I(c_F)^(1/p)/(d1·6^r(r−1)!)乘全SS Σg_P^(1+1/p)/b_P^r；完整Norm/两Igusa/C4/标架尺度保全，原j0标记项恰0。总和非零与Q′源比较仍未闭合，继续该实际总和，不以单点单位代替。
+[R932原Frobenius/全SS配对](results/R932-original-Igusa-Frobenius-line-and-supersingular-residue-pairing.md)：同一Serre类经注入F_dR识别到原V4/V10线；G=Θ_Q^(r−1)V_(p+1−r)†，∂G=A^rV/6，保ζ²经p次变ζ、全Norm/两Igusa/C4。完整原λ=非零mI(cF)^(1/p)/(d1·6^r(r−1)!)乘全SS和；指定j0项恰0。全和一般非零及高Q′来源比较仍开，不把单点单位或一维kernel当作无长Jordan链。
 
 [R933](results/R933-same-label-Legendre-factor-and-fixed-Cartier-differential.md)新证315δL_h=283U−224V；原E*上固定β=(224w−283)ω有Cβ=−315δL_hω。零等价β在Fp(E*)有显式有理原函数；R934已给41零，续大p/多h及独立Q′/height。
 
 [R935](results/R935-bounded-weight10-34-primitive-Legendre-pair.md)已证：p5mod12原h8=(p+9)/2、h32=(p+33)/2均本原；固定正整数a11外，两Legendre因子不同时零，充分p>10^22。对应k+=10/34；a11=14958957622875578640已由run44713602498算出；两标签sigma不得混用。
 
-[R936](results/R936-explicit-polynomial-trace-of-the-whole-supersingular-pairing.md)已证完整SS和化为维N+1的Fp²[t]/(tH_N)迹：S^p=12c_r²Tr((3−2e0)R)。t0与所有点权保全，d1/cF仍未知非零原尺度；非零和高Q′比较未成。run44713602498/source d051e06c成功，41/47/59/71/83/107全和分别39/34/16/70/14/24，71/107仅aux；有限非零不外推。原Tate E6/η/KS符号已据[完整审计](notes/R936-Tate-frame-sign-correction.md)更正；F/B求值变号在偶幂中消失，原trace/六值/脚本均保持。
+[R936](results/R936-explicit-polynomial-trace-of-the-whole-supersingular-pairing.md)：完整SS和=12c_r²Tr((3−2e0)R)，维(p+1)/6，保t0/全部权/d1/cF。run44713602498/source d051e06c六全和非零（71/107仅aux），精确值与SHA见证明；有限窗不外推。[Tate勘误](notes/R936-Tate-frame-sign-correction.md)纠正E6/η/KS与F/B求值；偶幂证明原trace/六值/脚本恰保持。
 
 [R937](results/R937-original-weight34-Hecke-kernel-and-marked-unit.md)已成：权34五T5行rank5，除固定B34=D34·C34外实际primitive源是原V34†线，标记比C34=1350702136960、fine阶2p−35；完整核向量/坏整数/run/SHA见证明。原标记−24s由R920 theta等式独立证明，不受R936勘误影响。
 
 [R938](results/R938-original-weight34-normal-function-and-inertia-exclusion.md)已证（p不整除B34）：原b0=34(p−1)，完整inertia与两节点整极界排除低层x^p/x^(2p)，首层也排隐形p/2p极项。真首函数κx^(g−3)y，β/α=35A0/34；J=(p−35)/6，p^−a_h G_h整restricted且modp次数J、最高项单位。保原ε/a_h；低Q′与同h临界积仍开，下一项接top(35,2)的准确f5单位常数。
+
+[R939](results/R939-original-Jacobi-Hasse-and-denominator-free-supersingular-trace.md)已证：原H满足固定Jacobi ODE；β=b+4tH、β′=−H/3、全L上β^p=β（Baker原尺度由t0校定）。故R=D^(2N+2)C^(p+1)β^(r−2)无分母；保全点/源比例。r2原C唯一解3tD C″+(2−24t)C′−3C=−sH/9；两行C∈sFp[t]、完整S∈Fp。一般非零/高Q′仍开；新Actions请求109..1000实际允许新素数，且计算权34固定f5，尚待回执。
 
 ## 永久关闭边界
 

@@ -1,35 +1,32 @@
 {
-  "rules_last_read_commit": "2e4e85b21fe2981ba97ca49440874c6db62c09bf",
   "readme_sha256": {
     "root": "581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102",
     "topic": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
   },
+  "rules_last_read_commit": "56660f41d85d9b79c54f66f89b423b0c8551c82d",
   "computations": [
     {
-      "name": "weight34-inert-Hecke-and-fixed-Legendre-integer",
-      "script": "weight34_inert_hecke_row.py",
-      "script_sha256": "b4265e5314a248dac3c1ffac63a2a4a29b63d75db1ba388ff90b1892bd799556",
+      "name": "weight34-original-fixed-sigma-top",
+      "script": "weight34_sigma_top.py",
+      "script_sha256": "053dc98d70ce13f980f9f35ae98c837dca866c72bf348feab98d98c10b2de7e9",
       "arguments": [
         "--output",
-        "/tmp/weight34-inert-hecke-row.json"
+        "/tmp/weight34-sigma-top.json"
       ]
     },
     {
-      "name": "original-whole-SS-trace",
-      "script": "R936_whole_supersingular_trace.py",
-      "script_sha256": "6dc82247decc1f16dc17a2a2bee81756f6447dc62a0f83cf98b819ed8285d5a9",
+      "name": "new-original-primes-and-R939-exact-identities",
+      "script": "R939_trace_window.py",
+      "script_sha256": "f84ebe39808e9a07903ea95131c9c9b4b19cc76fdcb77225d94278833604c1a6",
       "arguments": [
-        "--primes",
-        "41",
-        "47",
-        "59",
-        "71",
-        "83",
-        "107",
+        "--minimum",
+        "109",
+        "--maximum",
+        "1000",
         "--output",
-        "/tmp/whole-ss-trace.json"
+        "/tmp/R939-window.json"
       ]
     }
   ],
-  "storage": "Temporary outputs and stdout summaries only; retain parameters, run ID, source SHA and deterministic output hash, without data artifacts."
+  "storage": "Temporary outputs and stdout summaries only; retain source/parameters/run/hash. No raw data artifacts or regenerated six old R936 primes."
 }

@@ -20,6 +20,8 @@
 
 - **R938（完整证明）**：[权34首normal函数与inertia排除](results/R938-original-weight34-normal-function-and-inertia-exclusion.md)。固定B34外，原b0=34(p−1)，低层和首层隐藏p次幂由全inertia/两节点极界排除；κx^(g−3)y、β/α=35A0/34、J=(p−35)/6与原p^−a_h整restricted/最高项单位已成。保ε/a_h，不宣称低Q′非零。SHA256 40f916d1a016fcb0950cd3581facdb2bf82dfd20b29c216eb7ae86acb559ef6e。
 
+- **R939（完整证明）**：[原Jacobi Hasse与无分母全SS迹](results/R939-original-Jacobi-Hasse-and-denominator-free-supersingular-trace.md)。原H固定ODE、β′=−H/3、全tH上β^p=β，使R=D^(2N+2)C^(p+1)β^(r−2)；Baker尺度由原t0校定。r2原C满足唯一负右侧ODE，全部原trace/S下降Fp；保Tate勘误、原phase、t0权与d1/cF，不冒一般非零/Q′。SHA256 3b09e7afe019133a336d1588c29a7a44f996c0cee57ed5c92b70119fcad6d10c。
+
 ## 当前原高度、函数与同标签接口
 
 - **R808（已证明）**：[原cuspidal Gram商与真实period/split/Howe链](results/R808-original-cuspidal-Gram-quotient-and-Howe-chain.md)。R727全部群元素的整Gram把原轨道格非退化约化商准确识别为Sym^(2r)det^(−r)，r=min(h−1,p−h)；原e0、Frob-Hermitian、Tζ平均像和N_h同时运输。位置Cartan与链内SL2严格区分，链中心规范与Hasse连接准确匹配；实际sigma原单项式仍经Kraw混合，同h配对非零未得。 SHA256 c24889c8d8407447dc38e14b583d002c289697b1b75376af7ea5348c4f6a03db。

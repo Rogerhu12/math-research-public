@@ -602,3 +602,7 @@
 ### 2026-11-20 18:06 Asia/Taipei — serre-public-astra-20261120-de0a3e3b
 - R938已证：原权34低层x^p/x^(2p)由完整inertia排除，首层p/2p极项亦排；首函数κx^(g−3)y、β/α=35A0/34与J=(p−35)/6，保原节点ε和a_h。
 - 固定B34外原整校准/最高项单位已成；低Q′未成，继续原top(35,2)的f5和同h第五jet比较。H前态逐字归档，不重原权10/低层。
+
+### 2026-11-20 18:09 Asia/Taipei — serre-public-astra-20261120-de0a3e3b
+- R939已证原Jacobi Hasse ODE及Baker全L恒等β^p=β，完整SS分母准确消去；r2原C满足负右侧唯一二阶ODE，两行原trace/S下降Fp，保全部标架/相位/点权。
+- 新公开请求求原固定f5与109..1000允许新素数的完整trace及ODE身份；六旧p不重算，本地只AST/IO/hash。一般非零、高Q′来源比较和Serre主目标仍OPEN。
