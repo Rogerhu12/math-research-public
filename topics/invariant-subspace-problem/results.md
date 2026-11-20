@@ -300,3 +300,5 @@
 - **原算子全部非零闭不变子商的移位相似障碍（2026-11-20，已证明）：** [完整弱逃逸及交织成本证明](results/R12-appendix-shift-similarity-subquotients-and-intertwiner-power-cost.md)由原二幂弱极限I/2排除与任意重数严格分级移位及有限维块直和的有界相似，包含全部标量加权置换；任何非零双向有界交织强制二幂范数比趋∞。补R105仅酉范围，不排未知shift parts，不解决普通ISP。
 
 - **R150 全ess4外均值分支的原长度五代数（2026-11-20，已证明）：** [唯一原除子、全秩缺陷与完整方程](results/R150-appendix-essential-four-outer-mean-length-five-algebra-and-rank-defects.md)从Cat3及原Hankel差分推出唯一长度五曲线除子、完整合流jets和同一Frobenius代数，非单位L亦保精确y/H/V/T3。H仅rank3/4/5，所有缺陷与七分拆的完整中心奇点均已分类；全秩时原低梯度N非零。原highest及全部low gradients仍需同时满足，不判Bell非零层空，不扩及y∈W或ess5/6。
+
+- **R150 ess4外均值的全约化五点rankH3分支为空（2026-11-20，已证明）：** [原完整方程的全分支排除](results/R150-appendix-essential-four-reduced-five-point-rank-three-branch-is-empty.md)先由完整mean给全等向或单半权分类；全等向用剩余梯度相矛盾，半权保全部节点必要方程，迫两零点配对列相等，再用同一五次极线的简单零点与活跃三次的双零点矛盾。零配对、半权及∞均覆盖，无GB单位假设；合流与rankH4/5仍开。

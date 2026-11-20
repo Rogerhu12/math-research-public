@@ -1,4 +1,4 @@
-name: ISP 789f actual pull and rule checkpoint
+name: ISP actual pull and rule checkpoint
 on:
   push:
     branches: [main]
@@ -36,7 +36,7 @@ jobs:
           python - <<'PY'
           import datetime, json, os, subprocess
           rules = ['README.md', 'topics/invariant-subspace-problem/README.md']
-          expected = {'README.md': '6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09', 'topics/invariant-subspace-problem/README.md': '4d6570e9cf346431ab781a1290076a6321aaaa00'}
+          expected = {'README.md': '282e86b03385d3b6245ce7100ae2e2af7b103c2d', 'topics/invariant-subspace-problem/README.md': '4d6570e9cf346431ab781a1290076a6321aaaa00'}
           before, after = os.environ['ISP_BEFORE_PULL'], os.environ['ISP_AFTER_PULL']
           diff = subprocess.check_output(['git', 'diff', before, after, '--', *rules], text=True)
           blobs = {p: subprocess.check_output(['git', 'hash-object', p], text=True).strip() for p in rules}

@@ -427,3 +427,8 @@ AI-assisted GPT-6 Astra Pro：原归一化二幂弱极限对任意非零闭不�
 AI-assisted GPT-6 Astra Pro：从原Cat3、Hankel恒等与ess4推导唯一长度五除子，保全部原曲线jets、非单位L及原K；完整矩给H的rank3/4/5缺陷及七分拆奇点。
 完整证明见results/R150-appendix-essential-four-outer-mean-length-five-algebra-and-rank-defects.md；原highest与全部low gradients仍保，未判Bell非零空。本地executor断开/环境unavailable使a06d8dbd8未推，现按根规则8以小文本API登记等价证明，非数学失败。
 继续施加原方程及R271实际费用；API同步核两README未变，本地恢复后补实际pull，未重算已付结果。
+
+## 2026-11-20 10:03:07 UTC — Astra-ISP-b2a9acde-20261120：原五点约化rankH3整分支排除
+AI-assisted GPT-6 Astra Pro：完整mean分类、七节点梯度及β4必要式逐项推导，原物理五次极线的1阶/2阶零点矛盾，关闭整个ess4外均值全约化rankH3支路；零配对/半权/∞均覆盖。
+完整证明见results/R150-appendix-essential-four-reduced-five-point-rank-three-branch-is-empty.md，未使用未取回的本地GB过程；接续合流支撑与rankH4/5。
+课题外仅修.github/workflows/invariant-subspace-789f-actual-pull.yml的旧根README预期hash并触发一次只读pull，原因是executor unavailable；不把触发当执行成功，待真实回执。
