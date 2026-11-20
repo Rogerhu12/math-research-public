@@ -156,3 +156,25 @@ python topics/visible-flex-larger-amplitude/computations/tail_r33_refined_high_j
 `tail_r33_quadratic_high_box.py --joint-reference` 与 `tail_r33_low_to_high_column.py --joint` 等消费者
 须显式传入上述恢复到scratch的原报告路径。没有把历史引用伪称成当前可直接打开的raw，
 没有改写原结论、历史或输入身份。当前 fullclosed 链不依赖此旧文件。
+
+## 2026-11-20 第五次容量操作：R33 原始联合高盒
+
+本次仅普通移出可重算数组报告 notes/2026-11-12-tail-r33-plateau2-high-joint-box.json，469230 B，SHA256 ba0ea67bdbf503742998f062daa24c047d58fa1260883dddb17d514938f3b614，Git blob8125c86a9f21bd75735515804811545d15ff8e1b。逐字旧文件可从固定公开提交1e7143497538a45d7613059f80aaa1ce0c77af48恢复，scratch副本保留；不改历史、不重算旧结论。当前closed链不依赖此旧报告。
+
+原实际主源computations/tail_r33_high_joint_box.py，6729B，SHA0883e4fd68fa2941588236ab6b8e921fb0b0b1b8193aa7fce6f5aeec208386be仍在当前树。两件import依赖closure_real_head_source_enclosure.py（20321B，SHA97ff78a171b284cd8d5acc8dc233bcfe1f0b7c428ce2fbbd5b7104bd0ecb8c47）、closure_real_head_green_enclosure.py（11896B，SHA4b2e74d07f678e11631c51cf01831a4c1e588e8d207c144e2f1dace8413022e0）也保留。三件已与固定8ef38046e8b04adc6da1093c0730e1fc8747c2c9逐字核对一致。完整两个输入与第四节同名density-window和middle-causal-box-v2；其准确SHA分别0b493a5278ce08d12ed1d83add9dd3214125d971e746c750dfa42efa0729ace9、07c428b0c1a1977985200172dbee0bf14ae57e5fd4ea97ddebdf9b671479b3e6，固定8ef38046e8b04adc6da1093c0730e1fc8747c2c9可逐字恢复，blob也已在第四节给出。
+
+完整参数：arb精度192bit；--infinite-radius-log2 -90；z_log2=-2231由同middle输入继承；没有--domain-weight-floor适配。公开Actions scratch复算完整命令：
+
+~~~sh
+mkdir -p "$r33scratch"
+for name in 2026-11-12-tail-r33-plateau2-density-window.json.gz 2026-11-12-tail-r33-plateau2-middle-causal-box-v2.json.gz; do
+  git show 8ef38046e8b04adc6da1093c0730e1fc8747c2c9:topics/visible-flex-larger-amplitude/notes/$name > "$r33scratch/$name"
+done
+git show 1e7143497538a45d7613059f80aaa1ce0c77af48:topics/visible-flex-larger-amplitude/notes/2026-11-12-tail-r33-plateau2-high-joint-box.json > "$r33scratch/original-high-joint-box.json"
+python topics/visible-flex-larger-amplitude/computations/tail_r33_high_joint_box.py \
+ --density "$r33scratch/2026-11-12-tail-r33-plateau2-density-window.json.gz" \
+ --middle "$r33scratch/2026-11-12-tail-r33-plateau2-middle-causal-box-v2.json.gz" \
+ --infinite-radius-log2 -90 --out "$r33scratch/recomputed-high-joint-box.json"
+~~~
+
+恢复先核上述输入SHA；计时与路径可能不同，所以逐字历史输出用git show恢复。旧报告实际2.5392517930004033秒、峰RSS73304KiB，五个gate true且failure null；low46_held_fixed=true、low_feedback_paid=false、whole_head_closed=false，始终仅是固定低46场的条件高块响应。R33既有证明不改。R33 §13的旧raw链接应依本节恢复，不再称当前树可打开；未来消费者若用该旧报告须显式传入scratch恢复路径，完整源码和参数不缺。
