@@ -116,3 +116,8 @@ R55补充：[较宽设计盒与条件完整D≤2.69](notes/2026-11-20-soft-start
 ## R59. 新短桥的严格参考几何与两种实际扰动窗口
 
 [完整证明](results/R59-soft-start-short-bridge-geometry.md)。当前cut参数、原curvature4的真实积分桥已付半径<1.21、support>.74、K≤4、桥高(.3801,.3813)。给完整材料坐标/Cartesian两jet的两种充分窗口，备选使用|n−n0|≤√2η1；实际桥若支付它则半径<1.34、K<12.3且cut高度自动落在尾窗口。源积分和数值profile不同，差纳入V；尚未认证实际非旋转连续场。
+
+
+## R60. 实际 M24 显式 C² 桥的连续几何与完整相对度量
+
+[完整证明](results/R60-actual-m24-c2-bridge-and-continuous-metric.md)。指定新g/λ.002/M24 linear场以共同Hermite、解析背景真primitive、固定mean1168定义真实C²桥；同前缀已付z0∈[.44631325,.47839692]。完整Laurent相消/径向区间Taylor的1830盒给oracle metric≤8.986281e−7，合显式转换后真实桥全角全径向metric<9.3e−7；同时半径<1.245/support>.3986798571/K<8.367444。仅桥组件，不是全前缀、真尾、λ1或固定参数闭族。

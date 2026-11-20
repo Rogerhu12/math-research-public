@@ -1,0 +1,54 @@
+{
+  "scope": "Continuous Gram bounds for the M24 bridge's declared numerical jet oracle.\n\nFixed mean nodes, exact binary polynomial coefficients, analytic endpoint\nextension, and real trigonometry are explicit. The background radius is the\nfinite GL real function but its supplied radial slope is -sin(phi). Thus a\nseparate C2-object/target-metric transfer is REQUIRED. This is not by itself a\nclosed-surface certificate, nor does it change any original solver gate.\n",
+  "source_sha256": "fe99f0afc6ed90dac1b9b3616c857421fa621901958dfbafdbb26191c5766bb2",
+  "run_sha256": "c44b6fd2fbb13cc9ce0451cc6ab1d3c06521de0622de27190bde94c4c550462a",
+  "physical_sha256": "f2e22fe19bb0b6fdeff79c4fa99363d9be6cbb1ef382fd882679a2b717a3030d",
+  "mean_nodes": 1168,
+  "exp_order": 12,
+  "target": 9e-07,
+  "C2_object_transfer_included": false,
+  "whole_surface": false,
+  "status": "continuous_jet_oracle_metric_certified",
+  "accepted": 1830,
+  "splits": 1512,
+  "attempts": 3342,
+  "peak": 8.986280795398593e-07,
+  "root_min": 2.526681016634668e-07,
+  "peak_interval": [
+    0.9647059317031346,
+    0.9651514106441587
+  ],
+  "seconds": 1009.640527386,
+  "execution": {
+    "session_id": 58879,
+    "observed_exit_code": 0,
+    "output_sha256": "0bc13cc9d39bce280dffd5cbd0da055cffc439b5bdde6ea696c7b56e2f38e9f7"
+  },
+  "command": [
+    "python",
+    "-u",
+    "topics/visible-flex-held-10pct/scripts/resume_m3/certify_bridge_metric_fourier_taylor.py",
+    "--source-run",
+    "/workspace/scratch/1b6d88ecddf3/m3-work/newg-wide-lambda0p002-m24-linear/run.json",
+    "--physical",
+    "/workspace/scratch/1b6d88ecddf3/m3-work/newg-wide-lambda0p002-m24-linear/physical.npz",
+    "--interval-kernel",
+    "topics/visible-flex-held-10pct/scripts/finite_closure/m3_m8_closed_map/interval_geometry_kernel.py",
+    "--target",
+    "9e-7",
+    "--out",
+    "/workspace/scratch/1b6d88ecddf3/root-work/m24-bridge-gram-certificate.json"
+  ],
+  "derived_explicit_C2_bridge": {
+    "same_object_transfer_upper": 3e-08,
+    "full_continuous_relative_operator_upper": 9.3e-07,
+    "mean_nodes": 1168,
+    "absolute_inlet_height": [
+      0.44631325197234495,
+      0.47839691621379593
+    ],
+    "whole_surface": false,
+    "true_nonlinear_tail_certified": false,
+    "fixed_all_parameter_refinement_certified": false
+  }
+}

@@ -6,7 +6,7 @@
 
 本条绑定新多段 profile、\(q=.06,\lambda=.002,\tau=1,S=.5,b=.2\) 的 M24 实际场。它把 [R59](../results/R59-soft-start-short-bridge-geometry.md) 的条件几何窗落实到该场的**整个桥段**，径向和角向均为连续范围；同时给出一个明确定义的新 \(C^2\) 桥图，而不把舍入后的分片系数或末端 upper-clip 字面函数称为 \(C^2\)。
 
-在唯一尚待本条外支付的绝对入口高度条件
+绝对入口高度已由[同对象前缀证书](2026-11-20-m24-prefix-absolute-height-certificate.md)支付，并落在原条件
 \[
 z_0\in[7/20,51/100]
 \tag{1}
@@ -25,7 +25,7 @@ z_0\in[7/20,51/100]
 <3\cdot10^{-8}.
 \tag{3}
 \]
-标量组合器实际给出的更小有理上界为 \(1.581650113\cdot10^{-8}\)。式 (3) 是转换误差；原先有限节点的 metric 数值不因此升级为连续证书。若另证旧数学接口的全桥连续误差小于 \(9\cdot10^{-7}\)，则新图在对应新半径度量下的全桥误差小于 \(9.3\cdot10^{-7}\)。
+标量组合器实际给出的更小有理上界为 \(1.581650113\cdot10^{-8}\)。式 (3) 是转换误差；原先有限节点的 metric 数值不因此升级为连续证书。[R60](../results/R60-actual-m24-c2-bridge-and-continuous-metric.md)随后已实际证明旧数学接口全桥连续误差小于 \(9\cdot10^{-7}\)，故新图在对应新半径度量下的全桥误差小于 \(9.3\cdot10^{-7}\)。
 
 ## 1. 被绑定的实际输入
 
@@ -346,10 +346,44 @@ d_V\le\frac{\Delta G_{\psi\psi}}{a\rho^2}
 
 运行前三源时分别给 --source-run、--physical、--support-dir、--out；共享 mean 源另给 --mean-nodes 1168 与 --interval-kernel。组合器接收上述同场的 --shared、--nonmean、--mean、--background 四个输出，检查输入 SHA 与源 SHA 一致，只重算很小的角多项式范围与有理标量组合，不重跑已付背景积分或 BVP。
 
+先按本条输入记录恢复同一场，并按 [GL64 背景证书](2026-11-20-short-bridge-gl64-primitive-jet-certificate.md)生成背景输出。以下是四个已执行步骤的完整可搬迁命令：
+
+~~~bash
+HELD10_WORK=/workspace/scratch/1b6d88ecddf3
+HELD10_REPO="$HELD10_WORK/math-research-public"
+HELD10_SCRIPTS="$HELD10_REPO/topics/visible-flex-held-10pct/scripts/resume_m3"
+mkdir -p "$HELD10_WORK/geometry-work"
+python "$HELD10_SCRIPTS/certify_r59_shared_jet_transfer.py" \
+  --source-run "$HELD10_WORK/m3-work/newg-wide-lambda0p002-m24-linear/run.json" \
+  --physical "$HELD10_WORK/m3-work/newg-wide-lambda0p002-m24-linear/physical.npz" \
+  --support-dir "$HELD10_SCRIPTS" \
+  --out "$HELD10_WORK/geometry-work/newg-m24-r59-shared-jets.json"
+python "$HELD10_SCRIPTS/certify_r59_c2_nonmean_ranges.py" \
+  --source-run "$HELD10_WORK/m3-work/newg-wide-lambda0p002-m24-linear/run.json" \
+  --physical "$HELD10_WORK/m3-work/newg-wide-lambda0p002-m24-linear/physical.npz" \
+  --support-dir "$HELD10_SCRIPTS" \
+  --out "$HELD10_WORK/geometry-work/newg-m24-r59-c2-nonmean-certificate.json"
+python "$HELD10_SCRIPTS/certify_r59_shared_fixed_mean_ranges.py" \
+  --source-run "$HELD10_WORK/m3-work/newg-wide-lambda0p002-m24-linear/run.json" \
+  --physical "$HELD10_WORK/m3-work/newg-wide-lambda0p002-m24-linear/physical.npz" \
+  --support-dir "$HELD10_SCRIPTS" --mean-nodes 1168 \
+  --interval-kernel "$HELD10_REPO/topics/visible-flex-held-10pct/scripts/finite_closure/m3_m8_closed_map/interval_geometry_kernel.py" \
+  --out "$HELD10_WORK/geometry-work/newg-m24-r59-c2-mean-certificate.json"
+python "$HELD10_SCRIPTS/combine_r59_m24_c2_geometry.py" \
+  --source-run "$HELD10_WORK/m3-work/newg-wide-lambda0p002-m24-linear/run.json" \
+  --physical "$HELD10_WORK/m3-work/newg-wide-lambda0p002-m24-linear/physical.npz" \
+  --support-dir "$HELD10_SCRIPTS" \
+  --shared "$HELD10_WORK/geometry-work/newg-m24-r59-shared-jets.json" \
+  --nonmean "$HELD10_WORK/geometry-work/newg-m24-r59-c2-nonmean-certificate.json" \
+  --mean "$HELD10_WORK/geometry-work/newg-m24-r59-c2-mean-certificate.json" \
+  --background "$HELD10_WORK/n4-work/short-bridge-m24-gl64-extended-gap.json" \
+  --out "$HELD10_WORK/geometry-work/newg-m24-r59-c2-geometry-combination.json"
+~~~
+
 ## 8. 仍明确保留的义务
 
 本文原先保留的 (1) 绝对入口高度已由[同日完整前缀证书](2026-11-20-m24-prefix-absolute-height-certificate.md)支付：同一公共 Hermite / mean1168 / 真 primitive 对象的 \(z_0\in[.44631325197234495,.47839691621379593]\)。端点归一轮廓在桥入口精确给 \((a,a',a'')=(1,0,0)\)，公共高度 primitive 与桥为 \(C^2\)；因此 (2) 的桥几何结论不再欠该高度假设。
 
 prefix 的其余接口与 tail 的完整 \(C^2\) 接缝、真实非线性 DN、完整闭面的 reach/自交、完整同一 \(g\) 族或最终 held 比例仍未支付。也没有支付旧 GL6 高度查询与新真均值 primitive 的全域位置差；本条直接为新真 primitive 对象证明几何范围。
 
-旧 finite metric、源程序手填 jet、literal clipped 函数导数、新 \(C^2\) 图四者在本文中保持区分。式 (3) 使一个明确的连续数学接口证书可以传递到新图；它不替代仍欠的连续 metric 基线证书，也不对所有 machine/libm 求值误差作笼统背书。
+旧 finite metric、源程序手填 jet、literal clipped 函数导数、新 \(C^2\) 图四者在本文中保持区分。式 (3) 使一个明确的连续数学接口证书可以传递到新图；连续 metric 基线已另由 R60 支付；这仍不对所有 machine/libm 求值误差作笼统背书。
