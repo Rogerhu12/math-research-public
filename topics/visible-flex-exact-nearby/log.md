@@ -55,3 +55,7 @@ root整读U篇并修排版，joint独核主符号、C4/reflection拉回后环境
 ## 2026-11-20：公开推送重试的空index修复
 
 joint发现旧worker在nonFF后rebased本地commit可能因空index而跳过push；root已窄修marker/最终outcome两循环，index只决定是否commit，每轮必须实际push成功才结束。拒绝仍立刻pull/rebase并核两README/完整容量。源40772B/SHA98ef3773eab06178df086c5dcf551103c7cd3e00a5eca1c73cbfee089af84b1c，AST；无科学或旧结果修改。新R141将绑定新worker。
+
+## 2026-11-20：R141共同标量whole-box包含已证
+
+root完整核V.1–10、entrywise正指数尾、short signed powers及原Gram/whole-point wrappers；原true h/S/mean/193atoms/源role均不变。来源joint草稿整读后只去草稿标题和旧2048bits说明，改为调用方声明精度；纯模块AST，无导入或科学。该方法不单独解决长panel的carrier条件数，新精确refinement随后封包。H本会话说明压缩前完整保于immutable c9cd98f3f517863ca112320636dd48d40f2c9470，原资格不变。

@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R141共同标量短程包围](results/R141-supplement-shared-scalar-whole-box-factors.md)：固定点指数加signed Taylor完整余项给整box因子包含，内部dyadic balance不替换实际S，保同模型/真根/h、全部source/193atoms与两三角。root整读proof/源码及AST，0科学；长panel条件数仍须明确细分支付。
+
 - [公开发布重试修复](notes/2026-11-20-publication-retry-after-empty-index.md)：非FF后空index不代表本地rebased commit已上远端；marker和outcome循环现均以实际push成功为退出条件。只改运维控制流、AST，旧科学身份/结果不变。
 
 - [R138真实根端全角型与两标量几何](results/R138-supplement-complete-root-angular-form-and-two-scalar-geometry.md)：原low even96=0、97起全部high stable及独立mean准确化成单一全角二次型；均值分母完整显示且须实际离零，高频主符号2a²s/[m²(−v)]|xi|^-2/3为正，有限部分/尾费用未过门。同一外锚根几何只需二维正交ODE，保whole真根、repair、角C0/C1和全部接口；源码准备不作数值成功。
