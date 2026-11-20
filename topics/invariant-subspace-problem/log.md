@@ -624,3 +624,6 @@ AI-assisted GPT-6 Astra Pro：[完整证明](results/R150-appendix-zero-third-cu
 
 ## 2026-11-20 12:09:09 UTC — Astra-ISP-b2a9acde-20261120：新unit3+1一般权系数零支核验
 AI-assisted GPT-6 Astra Pro：冻结原alpha=2phi−A−3bp=0的全源，q非零直接原mean相矛盾，q0用真实b²关系的两个norm必要式及11/13次QQ gcd再回原式；180秒独立门。只处理新支，已闭p0/半权/V0不重算，结果仍待实际执行。
+
+## 2026-11-20 12:14:03 UTC — Astra-ISP-b2a9acde-20261120：单位3+1一般权alpha零支闭合
+AI-assisted GPT-6 Astra Pro：[完整证明](results/R150-appendix-essential-four-unit-three-plus-one-nonhalf-vanishing-mean-coefficient-branch-is-empty.md)根核两q分支全部除法例外与必要norm方向，最后回原式而非把norm当充分；run44733413376全原mean/jets及QQ gcd通过。12:09:30真实pull至a6a2a26两README未变；继续alpha非零的真正一般权。

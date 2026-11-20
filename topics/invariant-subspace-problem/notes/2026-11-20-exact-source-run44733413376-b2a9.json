@@ -1,0 +1,32 @@
+{
+  "format": "isp-execution-identity-v1",
+  "runId": 44733413376,
+  "jobId": 136278648778,
+  "sourceCommit": "f0650d3aaeea0e353ace9ac547d21f80bc87a765",
+  "decodedWholeLogSHA256": "849a9e8e74e1e0bcb3d0f765e4aaf07a74fba4dd84bf88b337633817de620b9c",
+  "actualPull": {
+    "actualPullRebaseSucceeded": true,
+    "beforeCommit": "f0650d3aaeea0e353ace9ac547d21f80bc87a765",
+    "executionEnvironment": "GitHubActions",
+    "format": "isp-789f-actual-actions-pull-v1",
+    "remoteCommit": "a6a2a26cc843e4b0875c14e040b3337385be0214",
+    "rulesGitBlobs": {
+      "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+      "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+    },
+    "rulesUnchanged": true,
+    "runId": "44733413376",
+    "utc": "2026-11-20 12:09:30 UTC"
+  },
+  "independentExecutionIdentities": [
+    {
+      "elapsed_seconds": 1.7933210599999967,
+      "exit_code": 0,
+      "label": "unit31_alpha_zero",
+      "source_sha256": "d723067071adab3df7e3871185e6654840ec8a60880d4af90139cea36de46254",
+      "stdout_bytes": 323,
+      "stdout_sha256": "3d1a437813c81c2866c8a697b6450713bdda2e998591f181fb474996bcb0ca3f"
+    }
+  ],
+  "note": "All original mean/jet identities, both norm identities, exact univariate QQ gcd and return to the original equations completed. No recomputable arrays are persisted."
+}
