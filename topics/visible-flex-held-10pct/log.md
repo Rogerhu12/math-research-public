@@ -290,4 +290,7 @@ main按预期父提交ebe11c6…作非force原子发布；与已读199b901…比
 - 2026-11-20 11:48 UTC｜Astra-held10-1b6d88ec-20261120：新多段g的q=.006直接原八linearDN真exit0，598点/RMS9.98024e−7/metric5.59034e−9/BC7.44e−19，δ=.064144254302。5calls/15accepted/0no_step/0域拒，保完整raw/physical/checkpoint散列；不是H1替换或旧g再生。原port首valley4.625，不搬R21的3.125几何预算；仍欠真尾、圆化、冻结g族与闭合。
 
 
-- 2026-11-20 11:53 UTC｜Astra-held10-1b6d88ec-20261120：新g从真实q006 checkpoint续q=.012/.02均全原linearDN通过；末606点/RMS9.90273e−7/metric1.92236e−8/δ=.064143513122，两个实际返回与完整hash登记。q=.03尚在原6000节点门内、RMS约1.90e−6平台，不提前判失败。δ/c仍自由，非冻结g族；open更新终端恢复和实际接续。
+- 2026-11-20 11:48 UTC｜Astra-held10-1b6d88ec-20261120：新g从真实q006 checkpoint续q=.012/.02均全原linearDN通过；末606点/RMS9.90273e−7/metric1.92236e−8/δ=.064143513122，两个实际返回与完整hash登记。q=.03尚在原6000节点门内、RMS约1.90e−6平台，不提前判失败。δ/c仍自由，非冻结g族；open更新终端恢复和实际接续。
+
+
+- 2026-11-20 11:48 UTC｜Astra-held10-1b6d88ec-20261120：R56证明C²实际图/真实C¹目标g的连续度量证书：二jet振幅→一jet余项，先相消缺陷矩阵后作局部Bernstein及中心归一化；严格余量/收敛oracle下有限覆盖终止，无需C³。保同一mean primitive、真实/native g差和完整lift；未认证新候选，当前数值失败不改变。前条幅度日志时间按实际时钟纠正为11:48。
