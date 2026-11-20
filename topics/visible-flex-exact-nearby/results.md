@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R138完整复合Hessian及积分平滑预算](results/R138-supplement-composed-physical-Hessian-and-smoothing-budget.md)：准确μ/m=−m〈c〉，DPc[t]Pc⁻¹先相乘变小三角局部项；完整mean秩项仍在，积分I:H^-τ→L²只付17^(τ/2)/4，输出只需C0，residual二次角导消失。真实IC逆角式和r3仅在s中抵消均已核；可只读X根4全域majorant及旧几何常数另算新组合门，未声称新门通过。
+
 - [R138实际物理预算及false吸收门](results/R138-supplement-actual-physical-budget-and-false-absorption.md)：44737045152/1全4651闭格，16当前/9原件已核；根Z/Zθ/P/Pθ上界显示约4.94e−8/7.23e−6/2.92e−8/4.83e−6，亦控全正区。完整因子链aEE/aEB/aBB约1.37e8/3.02e8/1.67e8，body-only三门均false；成功冻结，不推奇异。更强精确复合估计是独立新目标，旧传播不重做。
 
 - [R141实际五项真实高源费用](results/R141-supplement-actual-five-GH-source-fees.md)：44736533396/1整155panel/4650闭行，centre H1/3 collar/body约9.5295724/240.4746331，族差约2.7299567e−5/4.6479230e−4，ΔBLH raw约1.8495446e−5。71当前/21原件、37字段/25门/5球全核冻结；原高图/L/GH action均不重算，实际返回门仍待。

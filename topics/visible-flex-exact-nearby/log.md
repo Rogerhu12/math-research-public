@@ -125,3 +125,7 @@ positive独审worker/gen/contract/YAML全部通过：空index仍push、非FF即�
 ## 2026-11-20：完整物理预算实际完成及false门
 
 44737045152/1全4651闭格、16当前/9原件/22字段root核；科学15024B/1259c368、执行14233B/999555ea、child3.597906945999995s/0。实际根4球Z/Zθ/P/Pθ显示约4.94e−8/7.23e−6/2.92e−8/4.83e−6，单调majorant也控全正区；Γ≈1.1839/AΘ≈2.4946。完整逐factor负阶乘子粗放大，aEE/aEB/aBB约1.37e8/3.02e8/1.67e8；诊断C*=0的3充分门均false，非奇异。5pull/4完整README空diff、全部旧对象/接口/mean保留，0旧science/新数组；成功冻结。root与global已独核精确Hessian×inverse先复合新公式，将另立新预算，旧X传播不重做。
+
+## 2026-11-20：完整Hessian复合与真实积分平滑
+
+root新推Y1–18，global/joint分别逐式核：准确mean μ/m=−m〈c〉、Pc Hessian先乘完整逆、s/t局部三角项、完整primitive及mean rank，ambient local符号和C1费全保。I:H^-τ_fourfold→L²准确17^(τ/2)/4，只付输出C0，无res二次角导；IC=(Φ−θ)/m=−Iφ(v−m)∘Φ/m²给合法nonmean费。r3仅在s中抵消，t保均值但角导0，文字已按joint核正。X完整根4majorant与Γ/A/CE/CH/CW/不变hB/wB/zB只读复用；新组合k/E/积分/gate尚未运行，旧Xfalse和mean全保。
