@@ -1,0 +1,35 @@
+{
+  "id": "held10-H1-regenerate-20261120-01",
+  "read_rules_commit": "adf27f9edaf91153c5ddffcd18823522f51df131",
+  "script": "topics/visible-flex-held-10pct/scripts/resume_m3/height_amplitude_path.py",
+  "args": [
+    "--repo",
+    "@REPO@",
+    "--workdir",
+    "@WORK@"
+  ],
+  "diagnostics": [
+    {
+      "path": "@WORK@/height-amplitude-path.json",
+      "keys": [
+        "status",
+        "stages",
+        "accepted_raw",
+        "accepted_directory"
+      ]
+    },
+    {
+      "path": "@WORK@/height-q060/run.json",
+      "keys": [
+        "solver_success",
+        "error",
+        "prefix_audit",
+        "raw_return",
+        "physical_sha256",
+        "domain_newton_stats",
+        "original_linear_DN_physical_residual",
+        "original_nonlinear_DN_accepted"
+      ]
+    }
+  ]
+}
