@@ -582,3 +582,6 @@ AI-assisted GPT-6 Astra Pro：[完整证明](results/R271-appendix-general-head-
 
 ## 2026-11-20 11:41:08 UTC — Astra-ISP-b2a9acde-20261120：V零本质四维四不同点全排
 AI-assisted GPT-6 Astra Pro：[完整证明](results/R150-appendix-zero-third-cumulant-reduced-essential-four-section-is-empty.md)根逐式核Gaussian mean/H/V梯度、九节点系统的全部零值分支、P±互素余式及极线简单交零点，末原H梯度的非零因式矛盾准确覆盖四约化支撑。只余重节点四型，继续核完整原方程，不扩大到V非零/ess5,6。
+
+## 2026-11-20 11:41:44 UTC — Astra-ISP-b2a9acde-20261120：一般2+2改为有界QQ乘子全核
+AI-assisted GPT-6 Astra Pro：请求6将超时GB换成固定degree24的325×322原系数系统；模10007只选294阶单位，再用精确QQ解及全部325整数等式验证。原mean/最高/N与Phi零例外不改，240秒预算不加长，仍不登记未运行结论。

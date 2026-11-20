@@ -17,6 +17,10 @@ jobs:
     env:
       ISP_PIN: ${{ github.sha }}
     steps:
+      - name: Select exact arithmetic Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12.14"
       - name: Partial checkout, actual pull, rule check, and frozen exact source
         shell: bash
         run: |
@@ -46,12 +50,12 @@ jobs:
           PY
           git show "$ISP_PIN:topics/invariant-subspace-problem/notes/2026-11-20-essential-four-unit-two-plus-two-general-isolated-zero-verify.py" > "$RUNNER_TEMP/isp-r150-general-two-plus-two.py"
           python -m venv "$RUNNER_TEMP/isp-r150-short-venv"
-          "$RUNNER_TEMP/isp-r150-short-venv/bin/python" -m pip install --quiet sympy==1.13.3 mpmath==1.3.0
+          "$RUNNER_TEMP/isp-r150-short-venv/bin/python" -m pip install --quiet sympy==1.13.3 mpmath==1.3.0 python-flint==0.9.0
           python - <<'PY'
           import hashlib,os
           p=os.path.join(os.environ['RUNNER_TEMP'],'isp-r150-general-two-plus-two.py')
           h=hashlib.sha256(open(p,'rb').read()).hexdigest()
-          assert h=='22ff3026c4ae2e490ada704fec947f75f4e771b499e960b601b739c1e2ad310b'
+          assert h=='3901eca56452a3ef995442befc9ddc7b993d59bf165812ab6fa9c47811af3704'
           print('ISP_SOURCE_SHA256 '+h,flush=True)
           PY
           timeout 240s "$RUNNER_TEMP/isp-r150-short-venv/bin/python" "$RUNNER_TEMP/isp-r150-general-two-plus-two.py"

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # Author: Astra-ISP-b2a9acde-20261120 / r150_structure; AI-assisted GPT-6 Astra Pro.
 """Exact QQ source check for the general unit 2+2 plus isolated-zero branch.
-This is a bounded two-variable reduction after the complete structural mean
+This is a bounded coefficient solve after the complete structural mean
 classification; no original Bell generator is replaced by a finite-field claim.
 """
 import sympy as s
@@ -91,15 +91,68 @@ mu=s.Poly(V["mu"],rr,tt,domain=s.QQ)
 def prim(p):
     return p.clear_denoms()[1].primitive()[1]
 gens=[prim(qa),prim(qb),prim(mu)]
-print("PASS original compatibility has Phi^2 factors; QQ reduction starts",flush=True)
+print("PASS original compatibility has Phi^2 factors; bounded QQ solve starts",flush=True)
 
-# The only algebraic computation not supplied as a displayed hand identity:
-# Delta*Phi^2 belongs to the ideal of these three explicit original sources.
-gb=s.groebner([p.as_expr() for p in gens],rr,tt,
-              order="grevlex",domain=s.QQ,method="buchberger")
+# A fixed degree-24 coefficient solve replaces the timed-out Groebner step.
+# The three ideal generators are unchanged under this invertible triangular
+# transformation, and all later equalities are checked over the integers.
+from flint import fmpz_mat
+f1=qa-qb
+f2=qa+qb+s.Poly(tt,rr,tt,domain=s.QQ)*f1
+bounded_gens=[prim(f1),prim(f2),prim(mu)]
+assert [int(p.total_degree()) for p in bounded_gens]==[9,10,14]
+Dmax=24
+monomials=[(i,d-i) for d in range(Dmax,-1,-1) for i in range(d,-1,-1)]
+row_index={e:i for i,e in enumerate(monomials)}
+columns=[]
+for pol in bounded_gens:
+    coeff={e:int(c) for e,c in pol.as_dict().items()}
+    for d in range(Dmax-int(pol.total_degree())+1):
+        for i in range(d,-1,-1):
+            shift=(i,d-i)
+            col=[0]*len(monomials)
+            for e,c in coeff.items():
+                col[row_index[(e[0]+shift[0],e[1]+shift[1])]]=c
+            columns.append(col)
 target=Delta*Phi**2
-assert s.expand(gb.reduce(target)[1])==0
-print("PASS QQ membership Delta*Phi^2 in (ca/Phi^2, cb/Phi^2, mu)",
+tv=[0]*len(monomials)
+for e,c in s.Poly(target,rr,tt,domain=s.QQ).as_dict().items():
+    tv[row_index[e]]=int(c)
+assert (len(monomials),len(columns))==(325,322)
+
+# This modular step ONLY picks a nonsingular square coefficient block.
+# No membership assertion is lifted from it.  The recovered rational
+# multipliers are checked against all 325 original coefficient rows below.
+prime=10007
+basis={}
+picked=[]
+pivot_rows=[]
+for j,col in enumerate(columns):
+    v=[x%prime for x in col]
+    for i in range(len(v)):
+        fac=v[i]
+        if not fac:
+            continue
+        if i in basis:
+            brow=basis[i]
+            v[i:]=[(x-fac*y)%prime for x,y in zip(v[i:],brow[i:])]
+        else:
+            inv=pow(fac,-1,prime)
+            v[i:]=[(x*inv)%prime for x in v[i:]]
+            basis[i]=v
+            picked.append(j)
+            pivot_rows.append(i)
+            break
+assert len(picked)==294
+square=fmpz_mat([[columns[j][i] for j in picked] for i in pivot_rows])
+rhs=fmpz_mat([[tv[i]] for i in pivot_rows])
+solution=square.solve(rhs)
+numerator,denominator=solution.numer_denom()
+wide=fmpz_mat([[columns[j][i] for j in picked] for i in range(len(monomials))])
+expected=fmpz_mat([[int(denominator)*z] for z in tv])
+assert wide*numerator==expected
+assert int(denominator)!=0
+print("PASS exact QQ multipliers: degree24, rows325, source columns322, block294",
       "seconds",round(monotonic()-started,3),flush=True)
 
 # Therefore Phi !=0 is impossible on Delta !=0.  All Phi=0 exceptions are

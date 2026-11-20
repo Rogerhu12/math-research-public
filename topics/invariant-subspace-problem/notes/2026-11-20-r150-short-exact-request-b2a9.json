@@ -1,27 +1,35 @@
 {
   "format": "isp-r150-short-exact-request-v1",
-  "sequence": 5,
+  "sequence": 6,
   "session": "Astra-ISP-b2a9acde-20261120",
-  "createdUtc": "2026-11-20 11:30:26 UTC",
-  "task": "General unit two-plus-two isolated-zero original QQ source membership and all Phi-zero candidates",
+  "createdUtc": "2026-11-20 11:41:44 UTC",
+  "task": "Original general unit2+2 exact integer verification of rational coefficient multipliers; all exceptional candidates",
   "sourcePaths": [
     "topics/invariant-subspace-problem/notes/2026-11-20-essential-four-unit-two-plus-two-general-isolated-zero-verify.py"
   ],
-  "sourceSHA256": "22ff3026c4ae2e490ada704fec947f75f4e771b499e960b601b739c1e2ad310b",
+  "sourceSHA256": "3901eca56452a3ef995442befc9ddc7b993d59bf165812ab6fa9c47811af3704",
   "dependencies": {
     "sympy": "1.13.3",
-    "mpmath": "1.3.0"
+    "mpmath": "1.3.0",
+    "pythonFlint": "0.9.0",
+    "python": "3.12.14"
   },
   "parameters": {
     "timeoutSeconds": 240,
     "field": "QQ",
-    "groebnerOrder": "grevlex",
-    "membershipTarget": "(4*r^2-t^2-1)*(t^2+1)^2"
+    "degreeBound": 24,
+    "coefficientRows": 325,
+    "sourceColumns": 322,
+    "modularSelectionOnly": 10007,
+    "selectedSquareSize": 294,
+    "finalValidation": "all325 coefficient equations over ZZ after exact rational solve"
   },
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
   },
   "maximumJobMinutes": 8,
-  "computedArraysToBeSaved": false
+  "computedArraysToBeSaved": false,
+  "previousRunId": 44728182826,
+  "previousFailure": "Buchberger 240 second budget; replaced by bounded coefficient solve, not extended"
 }
