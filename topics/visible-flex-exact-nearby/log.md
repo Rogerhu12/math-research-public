@@ -187,3 +187,7 @@ source20629B/7249ee69、worker29103B/e3b9a174、gen11084B/cafe9d54、contract521
 ## 2026-11-20：真实高源的径向加权功能与首次公开封包
 
 proof10083B/94b453ca、math17375B/6bb32619、owner28755B/a97d5076、gen13902B/daa3cb9d；root整读proof/math/owner/gen并核旧P11–15接口，global/joint独核完整两支max、parent cache与2×2正响应范数。79当前bytes/SHA/blob/AST，原71列表/21历史/7modules/50参数逐字同，39字段25门/5目标5球/YAML3线程均核；metadata再现manifest70834B/f544cf42442f81c2c2edcd0e4e5f5c5402161d10640c2be43a394ae534b4f0a1及workflow逐字同。152 source parents、至多4803格双scalar sweeps，新保存GB后才组四响应，保存HZ后才外迹5/388。0旧GH5/GH4/高Riccati/ordinary sweep/低逆/数组，首次push新workflow，共享worker98ef原样。旧所有源/mean/ports与actual外行/finiteρ/两rhs不免。
+
+## 2026-11-20：原D参考边界提升实际完整成功
+
+44745017016/1完成153reference/96low/155Gram panel、2target10球，actual55295B/087ebd3a、exec58602B/827fb78a，math147.80307273s/child158.63352760800004s/0。root/positive整审82当前bytes/SHA/blob与manifest/receipt相等、39字段25门、完整参数/scope/原GH参考链/29复制球、21恢复完整对象与15033/13771B canonical hashes，4README空diff。body两upper<6.594、complete<7.236，各独立upper不推范数下界或等值。原线程零数学失败与marker保留；本次10球冻结，actual centre/family/Gf/GH/lowinverse/旧targets全0。只授原D/S/Theta参考lift，实际97+96/finiteρ/七ports/两RHS未付。

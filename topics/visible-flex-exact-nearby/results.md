@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R141实际完整D边界lift](results/R141-supplement-actual-reference-boundary-lifts-and-complete-193-observations.md)：44745017016/1成功2target/10whole balls，right97和joint193的body/root97/outer96/atoms193/complete全部保，body<6.594、complete<7.236。82pins/21恢复/39字段25门及原D/S链已核，数学147.803s，0旧目标/actual packets；仅参考D lift，实际低逆/physical97+96/finiteρ/7ports/两rhs尚待。
+
 - [R141径向加权真实高源与四响应](results/R141-supplement-radially-weighted-actual-high-source-response.md)：新功能将完整源径向分布与旧4650gap/frame阻尼合成，双向scalar sweep保wholecell，max由两输入半区和两Z输出正交得；原feedback、mean/ports与两区2×2 norm不删。79当前/21历史、39字段25门、5新球首次push，root/global/joint数学及运维核，旧GH5/GH4/低逆/高Riccati不重算，实际反馈与物理门待。
 
 - [R138实际全频H1/2体预算通过](results/R138-supplement-actual-capped-Hhalf-body-absorption-and-root-allowance.md)：44745355257/1成功6球，wE/wB≈26.5164/9.21354，aEE/aEB/aBB≈1.10988/.730579/.119853，3body门全true；第6球C_allow lower>367。17pins/26字段/7pull/完整旧X/Y已核，根r保持旧H2/3路径；actual C*未付，仅条件C*≤367给半矩阵余量，不授全逆。
