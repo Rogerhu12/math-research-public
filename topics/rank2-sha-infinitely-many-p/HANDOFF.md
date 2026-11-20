@@ -5,7 +5,7 @@
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近实际部分克隆/pull及已读规则提交：`a06daaeb27241a930fb4ab793f51e4d8d48742ed`；2026-11-20 13:31:39 UTC 实际pull --rebase，两README相对a06daaeb差异为空；下一次最迟一小时内。
+- 最近实际部分克隆/pull及已读规则提交：`6db41339551602fc66fc6de1bc5262861ad66af1`；2026-11-20 13:33:10 UTC 实际pull --rebase，两README相对a06daaeb差异为空；下一次最迟一小时内。
 - 仅写公开main；每条完整结论即提交，推前pull --rebase；非快进循环，不强推、不存令牌。数学只在公开Actions执行；重算输出不入库/Release、不分块，只存源/args/run/hash。
 - H<10KB、MD<100KB、open尽量<30KB、文件<5MB、题≤200MB；log每轮≤5行，不写根LOG。所有旧授权/规则已读，未变化。
 
@@ -25,7 +25,7 @@
 
 R880/883全18×9/双轴/原A,C及四完整交除子00/01/11/12保持；Norm含ell²旧回归已过。四大交除子和原shadow未算，完整成本2256+r*dF或2256(r+1)，全闭点度/厚长度/无穷边界/Artin不删。有限AJ非零不替无穷p/ordinary桥。
 
-[R931](results/R931-original-complete-shadow-artinian-norm-and-base-prime-layers.md)以完整理想精确分离ramified/共同3m/输出O，原extra厚代数上真有椭圆点；双辅助/双加法chart及厚Norm给同原全Tate迹。全部π层至多306维商、原k范数/完整长度保，未拆κ仍保全d/厚度；helper在实现，完整E与shadow未付。
+[R931](results/R931-original-complete-shadow-artinian-norm-and-base-prime-layers.md)以完整理想精确分离ramified/共同3m/输出O，原extra厚代数上真有椭圆点；双辅助/双加法chart及厚Norm给同原全Tate迹。全部π层至多306维商、原k范数/完整长度保，未拆κ仍保全d/厚度；基础helper三审后接源，上层Miller续接；完整E/shadow未付。
 
 ## 第二门：原全局底、ordinary与增广阶
 

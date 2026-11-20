@@ -297,3 +297,15 @@ $$
 证明依赖R883正文及附B/G的原完整交重、真实三次分歧、唯一额外提升和原Tate规范；R925的原完整正规化/理想；所有新的消零、厚范数及π层身份已在上文给出。没有新增自由函数、删去原边界或将闭点次数模ell。
 
 来源：[R883](R883-original-relative-six-shadow-and-complete-boundary.md)、[R925](R925-original-ys-affine-rings-and-complete-divisor-ideals.md)、[R927§9](R927-original-yF-pole-degree-from-mixed-kernel-and-cusps.md)。最后一项已实际确定r29的d_F=1296及F_first，每E的应核全长度39840；本篇不替代其尚未完成的完整E接受门。
+
+## 9. 基础完整运算 helper 已接源
+
+[原源](../scripts/original_ys_artinian_norm_tools.py)共37221字节，SHA256 `9b2a00b0a92b697ae509f649c840060afffad2677cbae768dbda8573c56e355f`；[全部接口及实现证明](../notes/2026-11-20-original-artinian-norm-tools-contract.md) SHA256 `29b4ea5c418003634e455225db950a621c7d6ab38a452ee55ce5e2713b118b5b`。global实现，root/deep分别全文审查，逐项对回原 ideal/local/closed/fast API；本地仅AST和源码检查，尚无公开数学回执。
+
+入口绑定同一个原 engine、306权基/完整乘法回执、实际k=F_(r²)与调用者原ω；所有理想必须来自这个engine。已实现完整理想和、有效商、Fitting厚分离及CRT、原分式全paired图核与任意共零回收、全厚单位逆、全π层范数。I=A的空商明确返回长度零/范数1。
+
+有效商只在I包含于C的全HNF门后构造；每个完整核的候选都包含真正I:C，达到准确monic Norm(I)/Norm(C)才早停，最终仍全核(I:C)C=I。Fitting每次平方后加回I，完整HNF稳定及互补乘积/长度付清所有厚分量。分式始终以同paired图核的真单位分母组合回收，不能用一个可能有共零的D乘法方程替代。
+
+Norm实际构造所有H_j=I+π^jA，核全部306行的包含坐标、商关系与诱导算子，直到完整HNF稳定；每层用原k的resultant并沿原嵌入交核，最后核Σdegπ·dimV_j=degdetI。全π因子实际乘回，不把原k范数降到Fp，也不把厚度或剩余次数模ell。源码不自动无限缓存图核/乘法算子；详细成本保在契约，不冒速度保证。
+
+本次只接基础源，不触发新数学作业。四E构造、ram/common3m/outputO分离、原厚椭圆点和Miller链、原双轴/乘6及18×9仍由后续上层消费器逐门接入并实际执行。原完整Tate作业保其source继续；本节不能据此填任何shadow值或关闭ordinary/无穷p门。

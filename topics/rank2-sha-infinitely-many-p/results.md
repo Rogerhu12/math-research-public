@@ -450,3 +450,5 @@
 - [R925§22](results/R925-original-ys-affine-rings-and-complete-divisor-ideals.md)：三个已审优化实际接源，31份host/producer清单全等；原请求推进完整shadow，旧运行保来源继续，新增完整closed/local门并行。仍逐层实际支付全部图、极理想、四E和全Tate迹，未冒新PASS或接入未完成的R931路径。
 
 - [R934](results/R934-original-fixed-quartic-entire-affine-branch-pair.md)：同P负fringe整个J双jet恰为(−B|C,−11t^(r_src−2)w^(−s)F(t,g)^4/a−EB|C)，原ξ经完整逆Taylor退出；B由固定P/R_b两条真除p支读数确定，不能默删。真全局左行的forcing至多15项，B∈H3分支τ0/1被低行排除、τ≥d0+2双jet类零，其余至多13项仍须实际像判定。
+
+- [R931§9](results/R931-original-complete-shadow-artinian-norm-and-base-prime-layers.md)：全厚基础helper三审接源，准确有效商/全Fitting/paired图核回收/原k所有π层Norm与全长度门保；源9b2a00b0…355f。尚未接上层Miller或实际计算shadow，不触发盲目重跑。
