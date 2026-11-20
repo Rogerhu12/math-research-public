@@ -398,3 +398,7 @@
 - [R924§13](results/R924-original-section-divisor-algebras-and-shadow-interface.md)：原Y完整666维M2/1225忠实整格与1532高窗、三退化全120秩/j=1,2,4及ρ_j、原ys全1332×1532核360实际PASS，run44721065286/job136236619274，190.932秒；resultf8918b05…c6f720。两原F/P真实PASS鉴定后的截面低核已请求，cube根与四交除子仍未付。
 
 - [R924§14](results/R924-original-section-divisor-algebras-and-shadow-interface.md)：原TUV在全204维非约化D_S上的值实际PASS，run44721641472/job136238600337，254.228秒；三222核/102限制/204单位、全部51原局部值及T=−27·1全过，result9d331e26…6d2f09。同DS乘法表hash保持。F/P截面首run仅checkout缺workflow，已补重请求；cube/大交除子仍开。
+
+- [R924§15](results/R924-original-section-divisor-algebras-and-shadow-interface.md)：原vF和三Yi截面实际PASS，run44723394686/job136244599223/source7ffa56588，305.261秒；真F/P先鉴定，F核144/P两核152/原第三QY和Artin全保，F=A5/(B2 S³)、P=A3/B3，result0a8cc7cf…8e7f9f。cube/四交除子/shadow仍开。
+
+- [R925](results/R925-original-ys-affine-rings-and-complete-divisor-ideals.md)：同原ys的J=SY/(ys²+3)²给完整306过滤自由基、两正规化图表与所有共零/零极/原交理想；2453精度及全W8窗严付，完整多项式核保饱和，六cusp含289重分支。原有限判别式为[ys(ys²−1)(ys²−9)]^288。已证明并接公开完整环前端；全部46971乘法/完整大交除子/shadow尚待实际回执。

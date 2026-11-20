@@ -212,3 +212,7 @@ R887(116a)进一步准确给C(Hω)=0及C²(𝔄Faω)=0：rω=(1/3)dlog y与[G]_(
 ## R923：第四来源原全迹接口已补齐
 
 [R923](results/R923-original-v66-complete-boundary-trace-and-fixed-denominator.md)：原V66在共同E17模型的完整因式给固定分母D66=154224，保−17/11物理缩放、原绝对根与全部Hall/Galois相位。完整全迹有3/4+o(1)高度，非零赋值同界；原首边界零恰等价约3p/4个Gaussian块的模p前缀全零。四来源的全迹接口均有，中央零到边界零及无穷p联合非零仍开。
+
+- [R924§15](results/R924-original-section-divisor-algebras-and-shadow-interface.md)：原vF和三Yi截面实际PASS，run44723394686/job136244599223/source7ffa56588，305.261秒；真F/P先鉴定，F核144/P两核152/原第三QY和Artin全保，F=A5/(B2 S³)、P=A3/B3，result0a8cc7cf…8e7f9f。cube/四交除子/shadow仍开。
+
+- [R925](results/R925-original-ys-affine-rings-and-complete-divisor-ideals.md)：同原ys的J=SY/(ys²+3)²给完整306过滤自由基、两正规化图表与所有共零/零极/原交理想；2453精度及全W8窗严付，完整多项式核保饱和，六cusp含289重分支。原有限判别式为[ys(ys²−1)(ys²−9)]^288。已证明并接公开完整环前端；全部46971乘法/完整大交除子/shadow尚待实际回执。
