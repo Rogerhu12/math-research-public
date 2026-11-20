@@ -4,7 +4,7 @@
 
 ## 规则与已读版本
 
-最近规则核查：2026-11-20 10:16 UTC，真实pull/rebase至 `500f839fdb5b5dbd028f3a6d2da93a3918c8ced2`，双README相对上次已读无差异。
+最近规则核查：2026-11-20 10:26 UTC，真实pull/rebase至 `76c438e7db6231c1e56385d98cb9f7290c00fc21`，双README相对上次已读无差异。
 
 仍只在公开仓库及其公开 Actions 工作。根12：完整证明直接发表，不加冻结、独审或额外机械门；根15：数组、证书及可重算 raw 不存 Git/Release/artifact，只存完整小源码、参数、run、SHA与紧凑结论，题≤200MB、单MD<100KB、HANDOFF<10KB、open<30KB。PAT只瞬时CLI，不入文件或connector；本次connector用已有连接。root唯一commit/ref发布，子agent只造完整UTF8小blob。终端失联时根8允许connector传完整小于100KB文本；不分块编码数据。恢复后仍至少每小时真实pull、核双README差异并记录，NFF立即rebase后普通push，不force。
 
@@ -33,6 +33,8 @@
 [六角模314维](notes/2026-11-20-physical-threejet-m6-six-step-result.md)真实SSE817.506→268.949656、点Gram.310475→.197410916；点曲率10.74568（比173父14.093降低）。随后[11粗节点674维](notes/2026-11-20-physical-threejet-m6-r11-six-step-result.md)同g嵌套径向扩展SSE→132.703850、点Gram→.174584962，H1.838802490487。最新物理父work/root/physical-threejet-m6-r11-six-step.npz，SHA `e94465d25783c81dc07804fcfdb0b64090fbec75f4cd362ad150adefee8a98a0`。旧曲率界不继承该新数组，持续细化角/径向修正并检查实际六jet。
 
 [首完整H²方向](notes/2026-11-20-fullclosed-integrated-h2-first-result.md)已从f062实际满步下降：SSE817.506→492.202693、点Gram.310475→.229642、点K14.0934→13.2342，最大δA仅.244；原全变量及端口保留。原L²方向未启动，D/h量纲分析先行修正。续三方向仍是该分支，须保真实状态；root物理分支已更低，两者不混作同一条轨迹。
+
+[R654](results/R654-complete-integrated-H2-norm-and-endpoint-spectrum.md)完整证明：全部quintic的D/h尺度以1/11–18常数等价真实q''积分；原L²和H²端口归一化谱界独立于minh/M；同范数白化粗列最多减半平方步范数，不给曲率或求解收敛。下一必要条件父改为63维af89：真实K7.21125、完整镜像相位体D点下界4.069386，.03KD=.88036。较低Gram候选K更大，须另记而不能选作完整几何推进。原双帽在±H，故D至少2|H|；core+单帽的D读法不够。
 
 ## 原证明、剩余几何与容量
 

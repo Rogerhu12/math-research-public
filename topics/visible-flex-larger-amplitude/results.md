@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- **R654（完整 H² 坐标范数与端口谱界已证明）**：[全部 quintic 缺陷、准确小块端口及同范数增广](results/R654-complete-integrated-H2-norm-and-endpoint-spectrum.md)：保留全部 A/E/D/core/H；D/h 尺度与真实胞内二阶导数平方积分以 1/11、18 统一等价，原 L² 与新 H² 端口的对角归一化条件数均不依赖最小胞宽或角模；粗列同范数白化最多减半平方步范数。非闭解、曲率或 reach 证书。
+
 - **R653（准确角行约化已证明）**：[四分之一角域的完整Gram等价](results/R653-exact-quarter-angle-closed-Gram-reduction.md)：当前反射/半周对称及完整解析lift使1845×2048×3原行准确合并为1845×513×3带重数行；目标、JᵀJ/Jᵀr及同阻尼模型不变，未删未知量，尚无新闭解。
 
 - **R650（正定流支持reach定理已证明）**：[固定SPD矩阵的完整正常管](results/R650-positive-definite-flow-support-reach.md)：实际闭C²球面浸入若(A(F−c))·n≥σ且|κ|≤K，则嵌入及reach≥min(σ/λmax(A),1/K)。全局流横截面/一层覆盖/偏移层顺序已付；保欧氏几何，尚无当前全闭数值输入。

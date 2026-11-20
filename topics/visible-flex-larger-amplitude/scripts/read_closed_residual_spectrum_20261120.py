@@ -75,6 +75,35 @@ def main():
                   continuous_geometry_certified=False)
     if args.curvature:
         report['point_curvature'] = helper.point_curvatures(operator, x)
+        prepared = operator.prepare(x)
+        maximum_radius = 0.
+        radius_where = None
+        for stage in range(operator.P):
+            y = operator.stage_jets(prepared.jets, stage)[0]
+            chi, _, _, lift, _, _ = operator.lift_scalar[stage]
+            position = operator.synth(y)+lift*prepared.er
+            position[:, 2] += chi*prepared.height
+            radius = np.linalg.norm(position, axis=1)
+            k = int(np.argmax(radius))
+            if radius[k] > maximum_radius:
+                maximum_radius = float(radius[k])
+                radius_where = dict(stage=stage, s=float(operator.times[stage]),
+                                    phi=float(operator.phi[k]))
+        # The closed model includes reflection in z=0. Together with its
+        # pi angular symmetry this contains -F for every active-body F.
+        # Axial phase rotation preserves these radii; adding fixed interior
+        # cap markers does not remove the unchanged active-body point pairs.
+        diameter_lower = 2*maximum_radius
+        curvature = report['point_curvature']
+        report['closed_body_diameter_point_lower'] = dict(
+            value=diameter_lower, maximum_radius_point=radius_where,
+            cap_height_lower=2*abs(float(prepared.height)),
+            scope='Reflected closed body and its axial phase family only; '
+                  'a different family reference F0 must be assessed separately',
+            reach_ratio_necessary_point_product=(.03*diameter_lower*
+                curvature['maximum_absolute_principal_curvature'])
+                if curvature.get('complete') else None,
+            interval_certified=False)
     args.out.write_text(json.dumps(report, indent=2)+'\n')
     print(json.dumps(report), flush=True)
 
