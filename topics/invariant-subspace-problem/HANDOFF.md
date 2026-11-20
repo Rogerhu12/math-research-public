@@ -6,7 +6,7 @@
 
 - **普通复可分无限维Hilbert ISP未完成。** 只有全体有界算子的存在定理或完整反例才收尾；子问题完成继续open，不以阶段或时限停止。
 - **最近成功实际pull与已读规则提交：** a6a2a26cc843e4b0875c14e040b3337385be0214，2026-11-20 12:09:30 UTC，Actions run44733413376/job136278648778；真实git pull --rebase成功，两README未变，原日志已核。下一实际pull不得迟于13:09 UTC。
-- **最近API同步及规则核对：** `01954ce52ce769093d8368e8f5c9d4a980191a84`（2026-11-20 12:27:54 UTC）；两README blob均未变。API快照不冒称实际git pull，另记真实执行回执。
+- **最近API同步及规则核对：** `cf9ca5ad7db3f06ff97addd3562eec3a08b321bf`（2026-11-20 12:29:13 UTC）；两README blob均未变。API快照不冒称实际git pull，另记真实执行回执。
 - 根README blob282e86b03385d3b6245ce7100ae2e2af7b103c2d、课题4d6570e9cf346431ab781a1290076a6321aaaa00已全文读。每次pull比两README，只读新diff并立即遵守；至少每小时及发布前同步，SHA写H。
 - 仅授权Rogerhu12/math-research-public。root独占main/H/open/results/log和发布，代理只交proof blob；每条结论单独提交推送，非快进立即更新/rebase重试成功，不force。用户PAT仅CLI环境，不进文件/config/日志。
 - 根规则15：可重算数组/数据/证书不进Git、Release或新工件；仅源码、参数、运行身份/SHA及正式证明。MD/API UTF8<100KB、H≤10000B、open尽量≤30KB、topic≤200MB、log每条≤5行、数学美元符及AI署名，不写根LOG。
@@ -37,7 +37,7 @@ M=kerT、N=closure BM；N=M未证。始终保same-w/u、全部partial、真inter
 - [精确源极点](results/R271-appendix-complete-galerkin-highest-carry-pole-and-cancellation-criterion.md)：K=kerX0、E1=P_cokerX0 X1|K、F0=kerE1，E1*q₋₁=P_K(f−H0a0)。有界恰退化全K-Galerkin解属F0；O(t)还须ξ0=0且P_Kξ1=0。固定E不代移动谱投影。
 - **[任意奇高度全Hankel合同/高孔费](results/R271-appendix-general-odd-height-hankel-congruence-and-complete-high-hole-cost.md)：** m≥5、偶R≥d、任意奇r，全部长短坏链和旧真A幂旗保留；A0=min(max(0,(R−n−r+3)/2),m+(R−d+r+1)/2)。全q₋₁≤C_mr4^Ry^(2(d+r−3))s^(2A0−m−R−r+1)γ^(A0−1)Zγ；C_mr全阶乘/exp(12r²/n)明确、原s*=e⁻¹⁰⁷⁰缩放有效。非正交还原只付一次κ；实际γ<1/16加权Zγ仍开。
 - **[全区间正则界](results/R271-appendix-complete-highest-carry-linear-graphs-and-full-interval-regular-cost.md)：** 真核/余核是固定自由块⊥底坐标I的线性图，Π′、Q′≤2L；全0<t≤1有q−t⁻¹q₋₁的明确K0、h、h1、L费用。有效半径已付，粗费用仍大，需实际源/导数或孔相关乘积。
-- 当前新结构稿待根登记：可逆最高单位U(A)不改同一个完整F0；旧头相似后的辅助分级、保原Gram的能量预条件与合法Chebyshev尾界。另原最低列的真旗Schur可消S伪发散，旗逆费必须实际付，不把无权界当Zγ。
+- **[最高单位不变/辅助分级与真实能量已证](results/R271-appendix-highest-unit-invariant-true-kernel-and-graded-physical-energy.md)：** U(A)不改同一完整F0；规范方向的真极限另以全头cyclic维数补齐。旧头相似后F0辅助分级，保原Gram的K_D预条件有S/R无关正谱界及带宽n−1，完整源Chebyshev尾界合法。粗条件数只允γ近1，未付γ<1/16；四头相关式阻止免费删混级费。原最低列S一致真旗稿继续核。
 - 小头m2/R2 κ²<e⁻²⁰⁰⁰、m3/R0/r3 κ²>e³⁸⁰⁰⁰且极点非零，均非旧联合窗；不能逐级外推。原m3高孔/一般r3已闭范围保前H和索引，不重算。
 - 全部返回接口继续：旧carry真实源、完整负部合并与同w倒数和、核外第二逆/第三旗、帽逆伴随后误差。固定公共多项式塔的指数障碍只排原家族，不排实际源专属lift；不能以小残量、另一个核或任意有限层替换原项。
 

@@ -633,3 +633,6 @@ AI-assisted GPT-6 Astra Pro：复核原必要式发现Q应为B³−27A²D，根�
 
 ## 2026-11-20 12:27:49 UTC — Astra-ISP-b2a9acde-20261120：新短批次11与完整状态压缩
 AI-assisted GPT-6 Astra Pro：并行冻结unit3+1余q0原QQ门与一般V非零rank1/自身五重均值极线新支；后者保全部QQ梯度、degree/分母控制及固定160阶结式，∞独立核。H全文归档再压缩，原开放/已闭范围与归档链保留；旧纯三次勘误已独立推，不重跑旧几何。
+
+## 2026-11-20 12:29:09 UTC — Astra-ISP-b2a9acde-20261120：最高单位不变及完整物理能量分级
+AI-assisted GPT-6 Astra Pro：[完整证明](results/R271-appendix-highest-unit-invariant-true-kernel-and-graded-physical-energy.md)根核交换子商、任意方向模同态、规范族generic维数补段、原Gram能量压缩与Chebyshev尾界；没有假原物理P_F0保级。实际forcing核原定义，四头相关式独立逐项核；γ近1粗界不冒充γ<1/16费用，继续真旗与源专属改善。

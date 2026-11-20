@@ -65,6 +65,8 @@ $$
 
 [一般长坏链的完整解析 Schur 与三个真实幂旗](results/R271-appendix-general-head-long-bad-chain-analytic-schur-and-three-true-power-flags.md)现已证明：l≥n+3时无A逆的合同、完整新增秩及候选费用均明确，最长坏链最低局部N孔为m+2。[一般N头全部长短链高孔补空间及显式费用](results/R271-appendix-general-head-high-hole-schur-complement-and-complete-residue-cost.md)进一步给m≥5、r3、偶R≥d的A0=(R−d)/2+m+2，整个q₋₁有C_m4^Ry^(2d)s^((R−3d)/2+2m+3)Z(s)上界，logC_m≤883a+8dlog(2d)，原s*=e⁻¹⁰⁷⁰重标度已核。较弱的固定γ孔加权源界也可用：显式s成本独立R，γ<1/16即可压4^R。[完整真核线性图与全区间正则界](results/R271-appendix-complete-highest-carry-linear-graphs-and-full-interval-regular-cost.md)现已消除未知t有效半径：全0<t≤1有明确的q−t⁻¹q₋₁界，保完整Galerkin与最终余核正交投影。[任意奇高度的完整Hankel合同与高孔费用](results/R271-appendix-general-odd-height-hankel-congruence-and-complete-high-hole-cost.md)现进一步覆盖全部奇r：A0取短/长链两真实孔门的最小值，包含大r短链主导；C_mr中的阶乘、r²/n、全部R相似费均明确。没有人为小r限制，仍保原允许窗及Q支持。正则粗界仍过大；真正剩余为完整Zγ(s*)、ξ/ξ′或孔相关乘积的有效费用，以及增长R母窗；不把合同当物理正交分解。
 
+[最高单位不变、辅助分级与真实能量预条件](results/R271-appendix-highest-unit-invariant-true-kernel-and-graded-physical-energy.md)现已证明：完整F0不依赖实际V方向中的可逆U(A)，规范方向的真核用同generic维数补齐。保全部原物理Gram后，K_D预条件确有辅助带宽n−1及S/R无关正谱界，因此完整实际源的Chebyshev尾界不再有P_F0保级缺口。但粗条件数只允许γ接近1，尚不能支付高孔门所需γ<1/16；四头两列相关式表明不能免费丢掉混级费。继续实际源专属/块能量改善。
+
 ### 2.2 仍需接合的原返回接口
 
 - 旧 $\tau14$ 下全高度同w Bessel/能量、一次物理MP及共同log方差均已付；后继 $CD^\dagger$、核外第二逆和真正完整最小源仍开。一次界不自动反复适用，真核终式不保初始阻尼。
