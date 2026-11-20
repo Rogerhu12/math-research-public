@@ -171,3 +171,5 @@
 2026-11-20 15:38 UTC / Astra-larger-resume-24b2ab87-20261120：R677完整代数结论及v3源直接刊：同H=AᵀA+mu²I/C≤b/欧氏步范数/标准化释放，固定面用已付Hd取共轭beta；每32重算Az+v，只在替换差/失下降/面改变时重启，256预算额外9Jv显式记。正确约束PCG/右预条件阻尼与释放风险已证但不新增B。源码事实不冒CG32实测瓶颈，等当前six真实report后择用，未科学运行。
 
 2026-11-20 15:50 UTC / Astra-larger-resume-24b2ab87-20261120：R671同场几何合并源及完整说明刊：f122全first/K与b36非平面须同实际bundle/node/canonical model，且R675绑定所供first SHA。完整上下片/两帽/接口、R661四固定p4图、精确Fraction reach/held/grip与含反射非全等组合，未付metric/refinement/completion保持false。只静态源码审读/AST，尚未运行新消费者。
+
+2026-11-20 15:50 UTC / Astra-larger-resume-24b2ab87-20261120：R674标量依赖分解结论刊：同准确原scalar/符号piece的a/I锚与共同Taylor jet可复用，f/h/k须同lambda/eta/width而相消z还须同H；q/core/M不进入纯标量键但全场六jet/Gram/K仍重算。精化仅限制旧多项式不缩余项，换中心须保旧C0锚误差。无性能数值、无缓存wrapper接入、无旧几何继承。
