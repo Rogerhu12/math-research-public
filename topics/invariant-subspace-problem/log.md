@@ -645,3 +645,6 @@ AI-assisted GPT-6 Astra Pro：[完整证明](results/R150-appendix-rank-one-thir
 
 ## 2026-11-20 12:38:07 UTC — Astra-ISP-b2a9acde-20261120：单位3+1的第二mean系数零边界闭合
 AI-assisted GPT-6 Astra Pro：[完整证明](results/R150-appendix-essential-four-unit-three-plus-one-nonhalf-second-mean-coefficient-zero-branch-is-empty.md)根核每个被除因子、原最高对p0=0的要求及结式仅作必要条件；run44737090302原QQ源全过。新真除数s≠x、p0≠0保整个q非零图；q0仍待商代数重核不提前关闭，12:35:56实际pull两README未变。
+
+## 2026-11-20 12:38:52 UTC — Astra-ISP-b2a9acde-20261120：单位3+1原低梯度基值非零
+AI-assisted GPT-6 Astra Pro：[完整证明](results/R150-appendix-essential-four-unit-three-plus-one-nonhalf-low-gradient-base-value-is-nonzero.md)根核原highest迫m=0而非仅用相容范数、两原mean分支及每一除数；run44737090302全部QQ恒等式通过。得到T、n0、m均非零，为同一原一般图提供合法除数；q0仍独立待核，不新增充分性假设。

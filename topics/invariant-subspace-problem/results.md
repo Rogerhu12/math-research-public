@@ -105,3 +105,5 @@
 - **R150 一阶展平秩一V的自身五重均值极线整支为空（2026-11-20，已证明）：** [完整原源与射影两图证明](results/R150-appendix-rank-one-third-cumulant-quintuple-mean-at-own-point-exclusion.md)保非零V、全部物理Hankel键及原加权缩放；三个原二次梯度给QQ实度80结式，103单位分母/首项与固定160阶行列式27严格升特征零，∞四阶77。run44736004677独立成功，1.90793秒；一般s、极线重根及全部η覆盖。只关闭P_y∝Δ_s⁵，其他V1分配及高秩V仍开。
 
 - **R150 unit3+1非半权q非零图的第二mean系数零边界为空（2026-11-20，已证明）：** [完整原源与除数返回](results/R150-appendix-essential-four-unit-three-plus-one-nonhalf-second-mean-coefficient-zero-branch-is-empty.md)先证s≠x、p0≠0，再在gamma=0用原mean合法消q²。两个关于b的QQ结式gcd仅x¹⁰(x−1/2)⁹，零根分别回原mean排除；run44737090302全部恒等式/gcd通过。只关闭q非零图该边界，q0与真正一般支仍需独立处理。
+
+- **R150 unit3+1非半权q非零图的原二次梯度基值非零（2026-11-20，已证明）：** [完整原highest/mean返回](results/R150-appendix-essential-four-unit-three-plus-one-nonhalf-low-gradient-base-value-is-nonzero.md)由p0非零让n0=0迫m=0，原n1分成x=b与2xs=b；前者原n2明确非零，后者两个原mean迫半权。原c0另排T=2x²−b=0，全部除数已逐个支付；run44737090302原QQ源全过。未把一般支或q0判空。
