@@ -6,7 +6,7 @@
 
 **维护会话：serre-public-astra-20261120-de0a3e3b。** 从远端main接续serre-public-astra-20261115，已部分克隆并真实pull；不重做已登记结论。接手前完整状态见[前H](handoff-archive-2026-11-20-before-resume.md)。
 
-**已读规则提交：37f129348352be7b599f0b70f0fe0fd1f5c81a23**（2026-11-20，终端git pull --rebase origin main）。相比b77de2c7仅根课题表新增held-10pct；两README完整已读。root SHA256 581402c2 / topic 35f82f3d。此前来源与原pins沿[旧归档](handoff-archive-2026-11-16-before-Igusa-Frobenius-residues.md)。
+**已读规则提交：7a116c1d89a9e498d2bce808f28a9a5e647bf71d**（2026-11-20，终端git pull --rebase origin main）。相比b77de2c7仅根课题表新增held-10pct；两README完整已读。root SHA256 581402c2 / topic 35f82f3d。此前来源与原pins沿[旧归档](handoff-archive-2026-11-16-before-Igusa-Frobenius-residues.md)。
 
 每结论立即推；每push前且至少每小时真实pull，NFF立即pull --rebase再推至成功，禁force。每pull比两README，有变只读diff即遵守并记H。PAT仅CLI，root独占main。新数学仅本公开Actions，外部仅纸证/IO/schema/hash/AST；raw仅当前必要一日artifact，不入Git/Release。H<10KB/open<30KB/每MD<100KB/topic<200MB；日志Asia/Taipei≤5行，无独立测试门。终端git已恢复；旧run终态已核实。
 
@@ -27,23 +27,17 @@
 
 **新窗口已成**：run44711592515，2406个p5mod12素数≤100000仅41零（属允许mod9）；精确九项和证明与SHA见[R934](results/R934-admissible-same-label-Legendre-zero-at-41.md)。全p固定h非零目标关闭，续大p/多h。
 
-## 原Y高度路线：只补当前缺口
+## 原Y高度路线：沿已成来源，不重做
 
-完整来源、全部SHA/原选行列/整数锚/σ/七重datum/ρ-t帧及证明链接逐字在[本次前H](handoff-archive-2026-11-16-before-ordinary-auxiliary-and-reference-norms.md)；正式results不变，全部旧数据直接消费。
+完整原pins/尺度/两帧/七重datum及逐项执行身份见[压缩前H](handoff-archive-2026-11-20-before-bounded-weights.md)与其中旧归档；已证文件不变。
 
-R805–R883原W/两图/146/418/273jets与参考254P0铅笔、R860真cY、R866的127全纯已成。R896五低权、R894 DN/QN、R899全K固定418、R900 DK272/QK、R902三十严格共轭已成；初始2rhs不代全基。R901真run43893483097/dbfb172d：126新+2旧翻转、3976stage/五418/QZ/t首项/准确下降datum；FINAL69da20e9/3987manifest e3e4eefd/art14251161202。QZj=Fj(NQj)^qj QK^−pj正乘，终末基未称K固定，下降矩阵/real立方未成。
+已登记完成：R805–883的W/两图/146、418、273jets与254P0参考；R860真cY；R866的127全纯；R894/899/900的原七trace、K固定418与DK272；R901五Z翻转；R902三十共轭；R903五128/400/144与P0帧；R905七连接；R914完整反射与P1jets；R917两端正常order；R923两端272目标267项；R919/922/926/928/930完整Artin微分迹与七目标连接。原char0有理表达未展开处仍未展开，模单位不冒char0阶。
 
-[R903实际认证](results/R903-certified-original-five-Iz-two-weight-RR-and-marked-frames.md)：43921416613/280f1840，136stage/五128、400、144、两图272和原P0帧全成；FINAL99d7e2b6/148manifest7f7913ce/art14254777999。Φ=QZ/qχ无extra τ，首项c^(254−m)保留；char0坐标未展开，K固定/P1/real立方未成。R907真43924786163/source532c4d4c排队j1，按真R903/R901/R899/ARTIN，corecf905290/helper7e4a8d88/wrapperb8a5f94b不改；原128→672/A272/E2176/19584坐标CH9、九正范数/NormΦ/dual7，先成首方向再续其余。
+[R927参考](results/R927-certified-original-reference-two-endpoint-norm-frames.md)已成，禁止重算：原43922183082核心19stage，success43923552968只IO复用；同λ0=1、块2+6/0+8，Normρ阶−508/0，原t首项466867763/728442038、比315436983，FINAL09de0ae8。参考源267项只取9、254极阶/U272/两t/dual7全保。**该模辅助素数比值不是p-adic高度。**
 
-R905七原连接43893738459：全272/670/544秩543/全回代与同minor准确char0DAG成；FINAL24045a35/manifestb11afeda/art14238516346。原α_DN须先−dlogQN再Gal7，五组合保负χ一次/真cY/κν/极化/两帧，未得σ/cY数值。
+R907 j1实际止于core前，schema已修但四原输入artifact404；五目标672铅笔/九NormΦ、端点格仍未成。待完整原数组恢复才运行，元数据不代数组。Φ=QZ/qχ正乘，DN先−dlogQN再Gal7；同一实际函数与原未缩放t、dual7均不可省。
 
-R914原146反射/273 P1jets已成，ρ1=ι*ρ0/c1=−c0/原t帧保留。R917两端真173stage：原discrim6→index1→disc4，271项/完整2+3+3，det−ρ^−1。R923真43915625047：655stage/317原件、两端d0/V和272目标267项/全部原方程；先B逆后ρ6整除。完整原run/SHA/证明见前H，五目标理想/NmΦ未成。
-
-R919九δP/全八维微分迹/272正常像、R922共享R的4系数/全RG=Mg/127²零块、R926七d/y与277×272全式、R928新8δK/商法则/目标g,h与两2176维J式均实际完成；原run/SHA/全来源逐字在本次前H。V=K/P_U，δ先于约化，ℓ_t全E单位且J不求逆。[R930实际认证](results/R930-certified-original-seven-whole-Artin-target-connections-and-differential-traces.md)：43921420577/280f1840，277stage/10.262631072s；七d(U)全E单位、t0，七2176值及三种272迹全通过。FINAL13793936/288manifest1261b9cf/art14254752421，85旧件直接复用；αDN仍须−dlogQN后Gal7，σ/cY/五Picard/height未成。
-
-[R927参考实际认证](results/R927-certified-original-reference-two-endpoint-norm-frames.md)：原43922183082/e56cbda0核心19stage；修IO后43923552968/4b005ba1真success，仅复用原FINAL09de0ae8/core05a10f65，core_reexecuted=false。两端同λ0=1、原辅助素点块2+6/0+8，Normρ阶−508/0、LC155035654/728442038，原t首项466867763/728442038、比315436983。全8维/九坐标/64反向式/254极阶/U272/两t/dual7保真；新35manifest08edf041/art14253699467，v29b必要IO已读。模content不冒char0新阶；五目标从R907真实铅笔继续，参考19stage不重。
-
-五Lj128/144已成；YP/FM128/634/508rank507、P1 c/a、eη支持、d/N/nonp/Poincaré/splitting/height仍缺。I_Z不代real Rcal I_Z³；R870原16ni/1959bitd*及7-primary仅合法好约化niPiξj非零时判支持。
+真正高度仍缺：real Rcal I_Z³、YP/FM128/634与508rank507、P1 c/a、原σ/cY数值、活跃eη、d/N、完整nonp、Poincaré/splitting/height。R870原16ni/1959位d*及7-primary挠判仅在合法好约化niPiξj非零后判支持；YL1零不等于rank0，UE=dY+2period、End⁰G=F/torus≥g+1、μ3qφ*=0不删Y。
 
 ## 全p原标号
 
@@ -62,6 +56,8 @@ R913原λ_h对应k−=2p+2−2h，L̄对应k+=2h−p+1；两tame伴随/整Θ/ζ�
 [R932原Frobenius/全SS配对](results/R932-original-Igusa-Frobenius-line-and-supersingular-residue-pairing.md)：原λ的同一Serre类v由F_Ov=0和注入F_dR给非零exact微分，χ+不变、ζ²经p次变ζ；R918整S4或R920实际T5零核识别到V_(r+2)†，r=2/8，未混两weights非零Hecke值。G=Θ_Q^(r−1)V_(p+1−r)†权rp，∂G=A^rV/6，真实primitive G/a^(rp)；每个SS唯一极部g_P z^(−rp)。原λ在另一companion取值等于非零原尺度m_I(c_F)^(1/p)/(d1·6^r(r−1)!)乘全SS Σg_P^(1+1/p)/b_P^r；完整Norm/两Igusa/C4/标架尺度保全，原j0标记项恰0。总和非零与Q′源比较仍未闭合，继续该实际总和，不以单点单位代替。
 
 [R933](results/R933-same-label-Legendre-factor-and-fixed-Cartier-differential.md)新证315δL_h=283U−224V；原E*上固定β=(224w−283)ω有Cβ=−315δL_hω。零等价β在Fp(E*)有显式有理原函数；R934已给41零，续大p/多h及独立Q′/height。
+
+[R935](results/R935-bounded-weight10-34-primitive-Legendre-pair.md)已证：p5mod12原h8=(p+9)/2、h32=(p+33)/2均本原；固定正整数a11外，两Legendre因子不同时零，充分p>10^22。对应k+=10/34；完整权34六维空间已给，实际T5核唯一性/低Q′/normal源/height仍未成，下一步算固定T5五行。
 
 ## 永久关闭边界
 

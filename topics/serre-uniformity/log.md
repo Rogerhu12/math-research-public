@@ -581,3 +581,7 @@
 ### 2026-11-20 17:41 Asia/Taipei — serre-public-astra-20261120-de0a3e3b
 - 修R907真实pre-core KeyError：只用已验证父inventory补旧transport配置SHA，保五项来源身份及原strict检查；实际R872旧/新schema和两种错配通过IO检查，core不变未执行。
 - 四个直接原artifact实测404，request准确标待原字节；不以摘要替代数组、不启动必缺输入的算术。H保持最新，继续全p证明/新小Actions。
+
+### 2026-11-20 17:43 Asia/Taipei — serre-public-astra-20261120-de0a3e3b
+- R935完整纸证：原权10/34双本原标签的Legendre零不能同时出现，例外仅固定a11素因子，充分p>10^22；完整权34六维整空间已给。
+- 没有冒称T5核、同h低Q′或height已成；续固定五Hecke行与原标记单位。H压缩旧Y细节并逐字归档，原所有已成来源/框架保留。

@@ -100,3 +100,9 @@ R859–R898原BT/Drinfeld/Igusa/cusp/整theta lift、两旗(6,6)/rank36源全部
 [R934](results/R934-admissible-same-label-Legendre-zero-at-41.md)完整纸证p41、原h25、原x=1/s下P24(x)=P16(x)=0；41 mod9=5确在实际来源范围。未移位A仍为单位，R929不撤销；R707固定层分类不重做。R925的该标签J32于是必零，无关Q′是否零，但不能倒推出Q′本身为零。公开run44711592515在2406个p5mod12素数≤100000仅见41零；有限窗口不说明充分大p。
 
 下一项改为：充分大p的固定β Cartier约束，或保同一实际CM源/primitive条件的可变h；R932完整SS总和独立继续。禁止再把“每个允许p的这一固定h因子非零”列作可证目标。
+
+### R935：大p的Legendre因子可限于原权10/34二选一
+
+[R935](results/R935-bounded-weight10-34-primitive-Legendre-pair.md)完整证明原p5mod12的h8=(p+9)/2、h32=(p+33)/2均本原，且在固定递推整数a11的素因子外不能同时有Legendre零；p>10^22是无计算充分界。权34完整六维原整空间是B_a=V4†E6^(5−a)η^(12a)，a=0..5。
+
+下一实际问题：取原T5的有限个目标Fourier行，证明该六维空间的核除固定有限素数外是V34†线；继续原标记单位/normal输运与同标签低项，不能把权10的单行rank搬到权34。两个实际sigma pair分别(f_t,g_(t−1))和(f_(t+2),g_(t−3))；某标签Legendre单位不允许借另一个标签的sigma值。全SS配对及全局height继续独立。

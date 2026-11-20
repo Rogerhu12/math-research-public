@@ -12,6 +12,8 @@
 
 - **R934（已证明的辅助反例；窗口为有限计算证据）**：[允许p41原h25的Legendre零](results/R934-admissible-same-label-Legendre-zero-at-41.md)。P24=P16，原x²=27下九项和164=4·41，因子恰零而A单位；全p单h非零目标关闭。run44711592515扫描2406素数至1e5只有41零；不外推充分大p，不重开R707，不否定Serre一致性。SHA256 c4cae5c4c9ac7b136383e7fe63801bf0b117ad4cf9074e4fcbdfecb3dac361f6。
 
+- **R935（已证明）**：[固定权10/34原本原Legendre双标签](results/R935-bounded-weight10-34-primitive-Legendre-pair.md)。h8/h32均始终本原，固定递推整数a11不被p整除时两个原因子不同时零；充分p>10^22。给原权34完整六维整空间，不预设其T5核或低Q′非零，不等于原critical product/height。SHA256 428fe14dc1be5c6d6ed5cf11bcad4ab462f76098139194b26f1edc63ba47d3bb。
+
 ## 当前原高度、函数与同标签接口
 
 - **R808（已证明）**：[原cuspidal Gram商与真实period/split/Howe链](results/R808-original-cuspidal-Gram-quotient-and-Howe-chain.md)。R727全部群元素的整Gram把原轨道格非退化约化商准确识别为Sym^(2r)det^(−r)，r=min(h−1,p−h)；原e0、Frob-Hermitian、Tζ平均像和N_h同时运输。位置Cartan与链内SL2严格区分，链中心规范与Hasse连接准确匹配；实际sigma原单项式仍经Kraw混合，同h配对非零未得。 SHA256 c24889c8d8407447dc38e14b583d002c289697b1b75376af7ea5348c4f6a03db。
