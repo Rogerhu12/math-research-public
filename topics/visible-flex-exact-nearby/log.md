@@ -247,3 +247,7 @@ positive推L1–25及pure13580B/2c5002f9，global整篇/整源独审；root再�
 ## 2026-11-20 14:51 UTC：旧stdout精确历史指针释放容量
 
 会话visible-exact-astra-ac637-20261120。joint静态清单后root在已发布530ebf1bb重查：3879 input/manifest roots、6208 JSON/1203 AST/283 workflow及13未来输入共8724保护路径，与199个旧CI43275872327 g0日志交集0。完整指针64365B/39a652b5保每个原bytes/SHA/blob及不可变提交；逐当前字节核同后普通删除665730B，扣清单净601365B，0科学/旧重算，不删actual/execution/native或任何当前pin。无额外冻结流程、不改历史；下一步发布RS新单积分并接R141实际输出。
+
+## 2026-11-20 14:56 UTC：RS唯一新短根段积分首次公开入口
+
+会话visible-exact-astra-ac637-20261120。science25276B/c411610f、合同12320B/aeb4f0ed经完整数学检查；新worker34548B/157003d1只复用原10件恢复、pull/规则/容量/保存框架，27pins与8整actual/execution全一致，13CLI/26fields/唯一T/schema静态相合。manifest14917B/8a7a96d9、固定ℓ1/100/每原片32子格/320bits，原整parent界不免费收窄、true根与mean修补全保；≤225与≤160不混范围。新增 .github/workflows/fourfold-codazzi-radial-weight-root-budget-screen-public.yml 仅为本题该新目标的公开Actions入口，4线程变量=1，无旧producer/科学本机执行；下一步接完整新结果并继续真实两RHS。

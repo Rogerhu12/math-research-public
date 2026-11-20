@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R138权无关根预算新单积分合同](notes/2026-11-20-R138-radial-weight-root-budget-screen-contract.md)：27当前输入/10原恢复、320bits、原整片32子片首次公开入口，唯一T完整保存后才比较225/160两范围；原high41/signed3/X/GB只读。实际T与排除尚待，不授奇异或逆。
+
 - [R138径向权无关的完整根接收器必要筛查](results/R138-supplement-radial-weight-independent-root-budget-screen.md)：真实DH^-1仍须W96²>148，完整mean/环境primitive测试给ω96<26/25、导<385；任意α的完整容量费用由一个新短段正积分T作必要反测。T≤225/≤160分别排声明的旧GB/Jacobian预算；当前T未算，只解析条件，非BVP不可能性。
 
 - [R141原WPN两行的准确WOB源提升](results/R141-supplement-both-WPN-rows-by-exact-WOB-source-lifting.md)：一般L2体源与独立endpoint193完整转为两ordinary高源、raw低源和两个边界端口，a=k+w只对w取迹；原24480有限/径向尾准确保。纯32量合同经root/global独审，须真实58+224通过才消费；新直接fourblock逆仍条件性，旧finiteρ/trial门、实际ν/RHS与negative/非线性不改。0科学/假manifest。
