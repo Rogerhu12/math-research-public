@@ -267,3 +267,9 @@
 已证明。准确区分 FullHold cosine 归零端 $T$ 与 lift 宽度，并核本模型 $T=S$；同 g 轴对称 Hold 参考尾曲率不超过 $5/2$。完整材料 Fourier 模的 $2\times2$ 线性系统及尾端积分估计证明固定平帽时无非零无穷小等距场；受迫系统可消去 metric 导数。当前五次高度末片的 Darboux $t^3,t^5,t^7,t^8$ 系数强制矛盾，排除该固定表示的字面准确根，未给正误差地板或否定精化/$10^{-6}$。完整 Actions-only 源含准确末端系数读取及同 g analytic C² 混合诊断；发表时均未执行新科学计算。
 
 [完整证明](results/R669-same-g-axisymmetric-tail-linear-uniqueness-and-endpoint-defect.md)。
+
+### R670. 完整同角低模包围与新父自身的连续首 jet 几何
+
+已证明。完整 Laurent/Taylor 与全部高模尾付清后，对同一闭角弧、准确 radial Bernstein 胞同时包围 $X,V,T$，直接取 $N=T\times V$、带符号 $(A_\beta X)\cdot N/|N|$、正面积及速度下界。无需旧父逐胞证书或历史 SHA；完整覆盖即按正定流给新父自身的闭嵌入。相同 $X$ 盒同时付 $D$ 与正确保留 $\pm p$ 的完整 held 界，另接两盘、镜像和条件四 marker。Actions-only 源默认低24模、Taylor8、256/1→512/2→1024/4→2048/8，只精化支持预算未付胞；发表时没有新候选应用数值，不冒 full K、reach 或 metric 证书。
+
+[完整证明](results/R670-direct-same-angle-first-geometry-with-complete-tails.md)。
