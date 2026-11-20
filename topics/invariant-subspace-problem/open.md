@@ -28,6 +28,8 @@ rank$H=4$ 的非单位局部块长度5、4、3已排；长度2单零的三种单
 
 全部 ess$T_3\le3$ 已给 matched Bell 零；原 $W_\pm$ 上确有 Cat3 真临界点，不能把 Cat3 整层判空。Bell 非零只可能在 V≠0 且 ess4/5/6。原两原子开集的例外和有限32全参数模型仍按原范围，不能先删 $D=0$ 或合流。
 
+**一般V非零的新增秩一分支：[自身五重均值极线整支为空](results/R150-appendix-rank-one-third-cumulant-quintuple-mean-at-own-point-exclusion.md)。** 一阶展平rankV1给原V=v u(s)³；原highest迫P_y非零且整除k_s³。P_y∝Δ_s⁵这一完整支已由原QQ十七低梯度、十六最高式、degree80/单位分母及固定160阶Sylvester特征零门排除，∞另有四阶门，全部特殊s均保。一般其他重数分配和更高rankV不由此关闭；Δ_s⁴Δ_t、Δ_s³Δ_t²新检查仍待实际结果。
+
 ### 1.2 原权十一及更高幂
 
 [权11–14严格门](results/R150-appendix-original-koszul-two-cycles-and-weight-eleven-through-fourteen-rank-ceilings.md)为
