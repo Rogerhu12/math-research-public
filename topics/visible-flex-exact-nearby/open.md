@@ -163,6 +163,8 @@ WIC原24480细胞真tail κ=3已闭；WPN只有完整e+3dt<1才授逆。WPS/WVC/
 
 [R137有限桥](results/R137-supplement-continuous-to-finite-principal-lift-bridge.md)保持原N24480真细胞、同S/D/ρ/193atoms/full CFB。精确Q_D source缺陷有h_i/π，finite试逆误差=P_f(T−I)Q_DHW_D；可付直接signed η_f，或完整(6/5)M_C M_mesh。η_f<1后含原ρ逆≤(75/58)C_T/(1−η_f)。**完整连续T、该新门、actual Schur余项仍待**；R141 low-only T不足，两个真实RHS和全部ports/finite/physical义务不删。
 
+[R137伴随细胞因子](results/R137-supplement-adjoint-cell-factor-for-direct-finite-defect.md)再给μ_Q≤C_adj,h与η_f≤(6/5)μ_Q M_mesh；完整伴随source/193atoms通过真实dualBC进入，1024原F状态的系数导数公式不求输入或scalar upper的导数。新预算必须保持原24480细胞/所有内部真跳资格；low Green只要求body反馈收缩，atoms完整作输出费用。该导数预算/连续逆/严格门仍待，不能把actual G_H当旧F。
+
 [R141](results/R141-low193-directed-green-and-complete-observation-certification.md)及[精确细分](results/R141-supplement-exact-refinement-and-compact-directed-grams.md)公开44730452579/1运行。71输入/768bits、H_i/n_i与真h_i/n_i、1424旧cuts、逐entry包含全保；先完整defect，ε<1后才4源/193atoms/whole-box，否则完整两目标false。实际输出未登记；CFB/finiteρ/7ports和两RHS仍待，不重旧浮点目标。
 
 R138的[几何桥](results/R138-residual-sensitive-Codazzi-frame-and-geometric-Jacobi-bridge.md)、[旋转能量](results/R138-supplement-rotation-energy-and-complete-endpoint-form.md)、[实际support](results/R138-supplement-actual-positive-support-for-repaired-physical-frame.md)、[实际outer负型](results/R138-supplement-actual-outer-rotation-energy-and-mean-defect.md)与[准确残差输运](results/R138-supplement-exact-residual-transport-and-fixed-interior-point.md)均保同Qrepair/η0/ν0及原真实frame。固定p=e_z/2有support>2/5；H保守输运源无方向角导，但H不设0，WVC hybrid额外差继续单付。

@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R137直接有限缺陷的第二细胞因子](results/R137-supplement-adjoint-cell-factor-for-direct-finite-defect.md)：完整伴随Poincaré给μ_Q≤||Λ_h∂r[ι*(T−I)*P_f*]||，η_f≤(6/5)μ_Q M_mesh；两个原h_i/π各在正确一侧。完整193原子保真实dual边界，1024辅助态给可算导数而不求输入导数；body收缩/atom输出可复用low Green。完整逆/新导数预算/严格门仍待。
+
 - [R138实际全根圈mean分母](results/R138-supplement-actual-full-circle-root-mean-denominator.md)：44733403315/1全8192闭角格、11当前/6历史完整核；真实periodic frame的saved decimal球约.8581216916±.0044947521，严格17/20<D<87/100，mean消元逆费<20/17。原轴不读/不重算，1新target冻结；finite+high尾/体吸收/全逆仍待。
 
 - [R138全圈mean分母首次公开合同](notes/2026-11-20-R138-root-mean-angular-contract.md)：11当前/6历史原件、320bits/8192完整闭角格，Rodrigues正交传播和whole-cell积分保同Qrepair/真根/完整mean与所有模式；加W.16真实frame费，保存完整decimal球再判号。源与worker双审/全pin核，首次Actions；不读取或重算轴q/s，不授根正型/全逆。

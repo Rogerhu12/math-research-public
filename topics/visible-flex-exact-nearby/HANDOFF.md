@@ -1,12 +1,12 @@
 # 交接：可见振幅的精确闭等距族
 
-维护会话：`visible-exact-astra-ac637-20261120`；更新：2026-11-20 12:13:39 UTC。
+维护会话：`visible-exact-astra-ac637-20261120`；更新：2026-11-20 12:14:52 UTC。
 **总任务未完成；继续研究，不等用户回复。**
 
 ## 规则读点与接续来源
 
 部分克隆：`/workspace/scratch/ac637cfcc78d/math-research-public`。终端 git 已恢复，无 AGENTS。
-2026-11-20 12:13:39 UTC 实际pull/rebase至 `3f2b9d43a7d40613d2410082573094a5a32f485f`；已读规则提交同上，两README相对96edc6770空diff。每次pull后核规则差异；下次实际pull最迟13:13:39 UTC。
+2026-11-20 12:14:52 UTC 实际pull/rebase至 `e79d3e493e0e4d64c1d876b9d625a10b6271f926`；已读规则提交同上，两README相对96edc6770空diff。每次pull后核规则差异；下次实际pull最迟13:14:52 UTC。
 
 接手前完整 H（含全部递归原页、成功/失败/恢复身份和未付义务）见 [2026-11-16 完整检查点](https://github.com/Rogerhu12/math-research-public/blob/882aa9b74efeaac682df43c197820e7280156357/topics/visible-flex-exact-nearby/HANDOFF.md)。本页只压缩索引；`open.md` 及所链接的原证明、适用域、均值、物理角、所有边界和误差费用继续有效。旧成功结论不重算。
 
@@ -33,7 +33,7 @@ geometry `43584188751/26` **仅条件性**：同η0真 wholecore（含帽）C0�
 
 [R139实际排除](results/R139-supplement-actual-complete-centre-mean-floor-excludes-fixed-recipe.md)：完整centre K>80排原小K配方，不推奇异。原L3/50、独立atom3条、centre下界1条各自冻结；余47不再为此配方算。
 
-[R137](results/R137-continuous-signed-centre-and-exact-endpoint-system.md)：完整连续centre逆等价1217态/609端点非奇异，无aux-only核；finite投影/lift/ρ仍待。[193诊断](results/R137-supplement-actual-balanced-low193-endpoint-diagnostic.md)只有浮点SVmin约.3247/.2328，成功冻结。[finite桥](results/R137-supplement-continuous-to-finite-principal-lift-bridge.md)已证同平均lift的h_i/π缺陷、P_f(T−I)抵消及含原ρ的75/58逆界；完整T、η_f<1与actual余项仍待。
+[R137](results/R137-continuous-signed-centre-and-exact-endpoint-system.md)：完整连续centre逆等价1217态/609端点非奇异，无aux-only核；finite投影/lift/ρ仍待。[193诊断](results/R137-supplement-actual-balanced-low193-endpoint-diagnostic.md)只有浮点SVmin约.3247/.2328，成功冻结。[finite桥](results/R137-supplement-continuous-to-finite-principal-lift-bridge.md)已证同平均lift的h_i/π缺陷、P_f(T−I)抵消及含原ρ的75/58逆界；[伴随第二h](results/R137-supplement-adjoint-cell-factor-for-direct-finite-defect.md)保193dual端点，μ_Q由Λ_h伴随导数界控制；完整T、该预算、η_f<1与actual余项仍待。
 
 [R140](results/R140-complete-mean-split-low-family-comparison.md)保same-eta hybrid四块/primitive/mean与核后RMS，0数值。[R141](results/R141-low193-directed-green-and-complete-observation-certification.md)给有向低193/193atoms/whole-box合同，实际ε<1未付；七ports/CFB/finiteρ不删。[共同标量包围](results/R141-supplement-shared-scalar-whole-box-factors.md)已证signed Taylor及完整positive tail，保持同模型/真h/S/各源/两三角，只AST。
 
