@@ -167,3 +167,5 @@
 2026-11-20 15:29 UTC / Astra-larger-resume-24b2ab87-20261120：刊纯返回report归因源并排六方向后：实际history/活动面/有效CG32重启/全部trial真Phi与几何调用状态/R673阻尼能量分开，不把源码计划当数值因果，不重算场/J。H压缩保e069b03c逐字旧版并更新科学地点与当前责任；open继续实际固定g finer solve和全K/reach。
 
 2026-11-20 15:36 UTC / Astra-larger-resume-24b2ab87-20261120：第六次普通移出R33旧wide-low高盒657103B，原adapter b277与现a60不同，已精确恢复2647B完整原源且SHA匹配。完整base/import/3输入/arb192/-110/固定恢复blob保；五gate与低46固定未付feedback范围不变，不重算旧科学，为新完整源与公开分卷留空间。
+
+2026-11-20 15:38 UTC / Astra-larger-resume-24b2ab87-20261120：R677完整代数结论及v3源直接刊：同H=AᵀA+mu²I/C≤b/欧氏步范数/标准化释放，固定面用已付Hd取共轭beta；每32重算Az+v，只在替换差/失下降/面改变时重启，256预算额外9Jv显式记。正确约束PCG/右预条件阻尼与释放风险已证但不新增B。源码事实不冒CG32实测瓶颈，等当前six真实report后择用，未科学运行。
