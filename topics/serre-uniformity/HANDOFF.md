@@ -6,7 +6,7 @@
 
 **维护会话：serre-public-astra-20261120-de0a3e3b。** 已部分克隆并真实pull main，接手serre-public-astra-20261115。最新前态逐字在[H归档](handoff-archive-2026-11-20-before-conjugate-primitive.md)与[open归档](open-archive-2026-11-20-before-conjugate-primitive.md)，内接全部旧pins/公式/关闭边界。只消费已成来源，不重做已登记结论。
 
-**已读规则提交：73e060110b34d302cc86f920a7b054590afbe8fd**（2026-11-20T11:53:55.269307+00:00；终端真实git pull --rebase origin main，两README无diff）。相比b77de2c7仅根课题表新增held-10pct；两README完整已读。root SHA256 581402c2 / topic 35f82f3d。此前来源与原pins沿[旧归档](handoff-archive-2026-11-16-before-Igusa-Frobenius-residues.md)。
+**已读规则提交：4a11d5e1dc808f27ef497b7b58be51a47ba821a3**（2026-11-20T11:56:45.735129+00:00；终端真实git pull --rebase origin main，两README无diff）。两README完整已读，root SHA256 581402c2 / topic 35f82f3d；此前差异与原pins沿归档。
 
 每结论立即推；每push前且至少每小时真实pull。NFF立刻pull --rebase再推循环成功，禁force。每pull检查两README，有变只读diff并立即执行，SHA记此。PAT仅CLI，不入文件/提交，root独占main。新数学仅本公开仓库Actions；外部只纸证/IO/schema/hash/AST。raw不入Git/Release，本轮只/tmp和stdout。H<10KB、open<30KB、每MD<100KB、topic<200MB；log用Asia/Taipei≤5行，不写根LOG，不设额外审批/测试门。
 
@@ -18,25 +18,23 @@
 
 ## 最新同源比较与关闭边界
 
-R944保原fine ΩV=6∇Z+6^r r!ΨF及全SS主部；R947给真实∇W=ΩV和zV，R950低权指定对角全p非零。R953正则πW=6G/真实E_r+恢复原高权Hasse边界及Igusa −1/6，正则底项−6^r(r−1)!F/B不同于低权极部；p-curvature另证F_r注入，非目标trace非零。
+R944/947/950完整原同伦、真实zV和低权指定对角全p非零已成。R953真实E_r+恢复原高权Hasse边界/Igusa −1/6，正则底项−6^r(r−1)!F/B不同于低权极部；p-curvature注入不是指定trace单位。R946/951/952普遍Bol整除、偶r完整障碍对称及实际O_r(H)=r!(𝒰H)^p/B^(p−r)已成；命名F在radical，whole饱和仍需𝒰全包零。
 
-[R945](results/R945-original-central-sigma-zeros-and-same-label-alternatives.md)两独立run44719847377/44720732478证p227/h115 f18=0,g18=136及p857/h433 f71=176,g70=0；中央Legendre单位，完整S=95/568却非零，故无例外中央单位桥已排。q2积101/335单位，中心阶2；原替代227/h151 sigma16及857/h445 Legendre298×sigma187=21非零。保原有限scope，不否定最终全p，也不重扫48窗。
+R945两独立run44719847377/44720732478给227/h115 f18=0、857/h433 g70=0，而完整S=95/568，排除无例外中央单位桥。两Q二次项101/335单位；替代227/h151 sigma16、857/h445 Legendre298×sigma187=21已成。仅有限scope，完整原回执/尺度沿归档，不重算。
 
-R946普遍T^r=6^rA^rD_r；R951完整concomitant证偶r障碍配对对称，F在两radical非whole饱和。R952真实O_r(H)=r!(𝒰H)^p/B^(p−r)|SS且ker相同，q系数a_pn^(1/p)；全packet饱和恰𝒰全包零，不能用nilpotent代替。当前只需R955等价的单奇链L=1，见入口2。
+[R956](results/R956-original-trace-as-a-fixed-low-weight-Cartier-edge-pairing.md)真实E_Bol=Sym^(r−1)H⊗F*ω紧支coker两端为H1ω^(2−r)(−C)/S_(r+2)，无SS/cusp torsion。K_r保真实Y_F|SS=r!F^p/B^(p−r−1)，S=6^(r−2)/r〈zV,K_rY_F〉；λ=mI(cF)^(1/p)/(36d1r!)乘pair。r2唯一负δ插值给K2Y_F=αV4，α=([Q^p]Y_F)^(1/p)，非零仍开。
 
-[R956](results/R956-original-trace-as-a-fixed-low-weight-Cartier-edge-pairing.md)真实E_Bol=Sym^(r−1)H⊗F*ω的紧支coker两端H1ω^(2−r)(−C)/S_(r+2)，SS/cusp无torsion；cσW=−6^r(r−1)!sF确认来源。K_r由Cartier(A^(r−1)YρKρ)定义，实际Y_F|SS=r!F^p/B^(p−r−1)。S=6^(r−2)/r〈zV,K_rY_F〉，λ=mI(cF)^(1/p)/(36d1r!)乘pair。r2负δ插值唯一，K2Y_F=αV4、α=([Q^p]Y_F)^(1/p)，非零仍开。
+[R962](results/R962-original-weight-eight-left-term-and-weight-ten-edge-coordinate.md)完整M8非trivial U5=92160，Bol左项真对偶ℓTtr/双次25U5^tr，故r8 CM左项消失。原K8 coker同构V10；α8=(1−5^9/147456)y_p^(1/p)−y_(25p)^(1/p)/147456不依升换，S=(6^6/8)α8〈zV,V10〉，非零仍开。
 
-[R962](results/R962-original-weight-eight-left-term-and-weight-ten-edge-coordinate.md)完整M8非trivial两线的U5=92160，实际Bol左项对偶ℓTtr，双次25U5^tr单位，故r8 CM零primary左项消失；真实K8 coker同构原V10线。α8=(1−5^9/147456)y_p^(1/p)−y_(25p)^(1/p)/147456准确且不依升换，S=(6^6/8)α8〈zV,V10〉；α8非零仍开。
+[R961](results/R961-actual-weak-Frobenius-unit-and-Cartier-cokernel-top.md)原g=E4²/v、Hweak=4sH_Nu²D^(N+1)t^N及F0=𝒰Hweak给Y0=−36Y_F0。全12 cusp给H_k(F,F0)=12、原高pair^p=−72、g_p H4(v,v)=93312单位；真Scholl φv=p³a_pg、a_pg_p≡1 modp³。此源精确检测Cartier链顶F0，不能替换链底F。
 
-[R961](results/R961-actual-weak-Frobenius-unit-and-Cartier-cokernel-top.md)实际g=E4²/v、Hweak=4sH_Nu²D^(N+1)t^N、F0=𝒰Hweak满足Y0=Ag−36D2Hweak=−36Y_F0。全12 cusp给H_k(F,F0)=12、原高类pair^p=−72；g_p·H4(v,v)=93312单位。真Scholl基[v,g]中φv=p³a_pg、a_pg_p≡1 modp³，原标记/增强整局部格保全。它精确检测CM Cartier链顶F0，不能换成链底F；α_F/L1仍开。
+[R960](results/R960-original-r2-Igusa-formal-height-and-Jacobi-coefficient.md)原±1 Igusa曲线y^d=uD^(N+1)H(u³)、d=(p−1)/2，完整逆字符Hodge维3N+1/1；不变δ块已证可逆。实际一维formal factor高度h=L+1，故原S非零 iff h2。保重数smooth lift与原Abel坐标给κ=(1/p)[x^((p²−1)/3)]a(x)^(2p+2) modp，a=(1−x/4)^(N+1)Hrev/H_N；除p整性与degree≤(p−2)/3的纯算术lift独立已证。原Tate支w0=24给同一κ=(1/2)[Q^(p²)]F(E2²−E4)。仍需κ非零；不把此Igusa factor冒充原CM target。
 
 ## 已成来源与精确回执
 
-R933–962的完整尺度、真实run、规则读SHA及关闭边界保存在[本次H归档](handoff-archive-2026-11-20-before-explicit-formal-height.md)，内接[前归档](handoff-archive-2026-11-20-before-Bol-Cartier-comparison.md)；证明及SHA在[结论索引](results.md)。只压交接，不重做原算术。
+此前完整尺度、真实run、规则读SHA及关闭边界保存在[最新H归档](handoff-archive-2026-11-20-before-formal-height-coefficient.md)，内接[本次H归档](handoff-archive-2026-11-20-before-explicit-formal-height.md)，内接[前归档](handoff-archive-2026-11-20-before-Bol-Cartier-comparison.md)；证明及SHA在[结论索引](results.md)。只压交接，不重做原算术。
 
-R933/934固定第二类Cartier与p41 Legendre零已成；R935原h8/h32在固定a11外不共零，旧543d03f8三分位本原双标签已覆盖全部允许p。R937–940原权34核、mark单位、normal首层/J32比较及固定B34均成，仍未判变化临界积。
-R936/939保L=Fp²[t]/tH、t0权1/H根权3/fine12和未知d1/cF；β^p=β，原C唯一负RHS ODE，Tate勘误E6=−c6/η12=−6sD/KS=+du/D。原完整trace六值及另48值皆非零只有限窗。R941常数项公式保F^p及全部点权。R942权10完整double T5²的广义零部分仅V10，非零值147456/666²，禁止旧错误单mark矩阵。
-R943固定p11/第三位Cartier、9+9原符号证书已成；203素数窗非全p。R945两独立run44719847377/44720732478的中央零及替代标签见上；新current request按[R963方法](notes/R963-new-original-r2-moment-window-method.md)只请求1000<p≤1e5的原r2 moment，首零停；620s预算/原尺度与完整前像核验，首run44731159673因安装行YAML冒号解析而零jobs，已修为block scalar再请求；尚无新算术回执。
+R933–945的原固定Legendre/权34/完整SS迹/低权Hecke/中央零及真实回执已全成，详见索引和归档，不重扫旧48窗。保R939原C负RHS、t0权1/H根权3/fine12及未知d1/cF；R942禁止旧单mark矩阵，R945禁止无例外中央单位桥。新current request沿[R963方法](notes/R963-new-original-r2-moment-window-method.md)只查1000<p≤1e5原r2 moment，首零停，run44731335315/source efdeebbe2公开运行中；最终回执未到，初始零jobs配置失败沿方法记载。
 
 ## 原全p几何源：不得换对象
 

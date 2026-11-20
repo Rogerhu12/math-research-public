@@ -66,6 +66,10 @@ $$
 
 [R958](results/R958-original-r2-Cartier-matrices-and-one-moment-trace-criterion.md)已完整给r2原两角色空间：D^(N+1)P(t)、u²D^(N+1)K(t)，deg≤N/N−1；同一H6与实际u方向保留。L_+沿R939复用，新L_-t^j=(3j+1)(3j+2)t^j−(6j+7)²t^(j+1)。两向Cartier严格为L0=H、L1=tH中真实绝对Frobenius逆，不仅是系数不动的t↦t^p。整个两角色空间已有ker=kF，反向单射。唯一矩ℓ_N(1)=1、ℓ_N(t^(j+1))/ℓ_N(t^j)=(3j+1)(3j+2)/(6j+7)²给原前像存在 iff ℓ_N(R_F)=0，其中R_F=−2D^(2N+1)β²C^p mod tH保原F负号。准确c_mom=Tr((3−2e0)DC/β²)≠0来自R951完整配对与étale trace非退化，且S^p=−216c_momℓ_N(R_F)。这个线性trace单位已证，但所需moment仍未证非零；不以每个moment系数单位替代其线性组合，不外推r8或中央Q′。
 
+[R960](results/R960-original-r2-Igusa-formal-height-and-Jacobi-coefficient.md)现把这个等价障碍放在真实几何对象上：原±1 Igusa归一化为y^d=uD^(N+1)H(u³)，d=(p−1)/2；两个完整逆μ_d字符的Hodge维为3N+1和1，δ不变块可逆。Rosati逆字符与connected–étale给实际一维formal factor的高度h=L+1，偶数2..2N+2。令m=(p−2)/3、j=(p²−1)/3，对保重数smooth lift取a(x)=(1−x/4)^(N+1)Hrev(x)/H_N，则κ=(1/p)[x^j]a(x)^(2p+2) modp，系数除p确整且对degree≤m的任意纯算术lift独立。κ非零 iff h2 iff原S非零。原Tate支w0=24接同一κ=(1/2)[Q^(p²)]F(E2²−E4)，F是原V_(p−1)†。这些公式没有证明κ非零；O_Qp2作用仅迫偶高，不排h4，更不能把该Igusa factor与原正CM target同一化。继续准确评价这个实际系数，R961的g_p单位仍只检测链顶。
+
+新[R963执行方法](notes/R963-new-original-r2-moment-window-method.md)仅检查1000<p≤1e5的允许r2素数，原尺度与全SS权不变、首零停，run44731335315/source efdeebbe23cf971f0d66d39e53964e99a9ccc67c运行中。结果只登记实际完成覆盖；没有重开旧48窗，也未预设无零。
+
 ## O3：固定低权cohomology与原Igusa投影的边界
 
 [R944](results/R944-original-CM-Gauss-Manin-homotopy-and-supersingular-principal-parts.md)给原fine base上
