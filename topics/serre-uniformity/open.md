@@ -42,6 +42,8 @@ R946/951/952原Bol障碍O_r(H)=r!(𝒰H)^p/B^(p−r)|SS、kerO=ker𝒰；whole�
 
 [R979](results/R979-balanced-Kronecker-and-normalized-discriminant-Taylor-source.md)：同一实际discriminant有准确Ramanujan/Cayley源，u=(τ−ζ)/(τ−barζ)、T=Ω²Imζ·u/π（原PL参数的−3倍），log[Δ(τ(u))/((1−u)^12Δζ)]=12Σ(n−1)!c_nT^n。E−/E+保Ω²相位，实际n3mod6有c_n+=−c_n−；粗W=T³的m−b项准确12(n−1)!c_n，是p-unit比例。D_C=[p(1−u_p)]^12 exp G_+(T_p³)保原p12及normalized differential；仍无W到ϖ的整比较，不能将complex式代为p-adic截断。
 
+[R980](results/R980-original-level-one-Hurwitz-reflection-and-distinct-mirror-pairs.md)：Robert1980 level1 Thm8完整适用，原S_k恰G_k、源E4=0/E6=864，B_p=E_(p+1)(E+,ω)单位。对t=a,n有G_(t(p−1)+p+1)=B_pG_(t(p−1))/(12t) modp。低star=4p−2/10p−8已单位；高star=np+a=p²−rp+r+1单位仍恰S非零，**两反射对不相连**。原γ1=−288η^(−(m−b))(χσ−1)B_p^−1G_(np+a)，γ0保p次embedding。Robert1978 pair只至少一非零；Gillard1982高level排N0不妨Robertlevel1；1986共轭单项等价须F/Q abelian，本环类域dihedral不适用。
+
 当前须证实际G_(n(p−1))高系数普遍非零，或与balanced c_n建立真实整reciprocity。N_low+N_high=p²−1、低unit和Frobenius pair整体非零都不单独证明高unit；原生mirror的实际指数及规范须逐条核。不把Cayley坐标直接当ϖ，也不删factorial/p幂。
 
 ## O3：固定低权cohomology与原Igusa投影的边界
