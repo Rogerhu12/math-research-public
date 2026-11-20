@@ -231,3 +231,7 @@ root提出受限核路线，global/joint独核，joint写KI1–15，root逐V9/V2
 ## 2026-11-20：完整七粗端口及物理非齐次列的可执行接法
 
 positive推P1–16与pure模块15478B/c316efd9，root整读proof/math并逐N10–13、B1/B14–21、W9/W13核；global独审physical三源双注入/Sc=U/H^-1/rootmixed通过。原7高端口加7非齐次列，共14×16=224完整新scalar合同，原root97/outer96/joint193与mean全保；只有58量物理门真正通过才可算。原core18986B/72c17fb9、metadata routes26482B/b9648da6及ops11989B/8e19d38d同时入库，joint独核真实D+weighted metadata逐字复现5b6076f6；低未提供→ready false，无假科学/marker。早期core合同仅更新D已成状态和正确链接，不改任何数学/已冻结源。当前0新数值；两WPN RHS、low jump/ν及finite对象桥继续待。
+
+## 2026-11-20：真实速度的平衡能量与完整径向根容量
+
+global发现两个梯度Gram在η^-1/η权下互补，joint写LC1–19，root/global全部独核。两prefactor同1/(σ|v|)，完整H直和费用αγ(u²+Kv²)/|v|；α缩放与容量反向缩放同步，不能免费缩CE。自由外值比较给正容量与完整反向DtN，q0极限/真h单调方向及k0均保。将根角χ固定径向延拓到测试函数，两能量分别乘χ′与1/χ′，准确授N_pq(Tχa)≤√g N_pq(a)，从而可消费完整weightedGram；不混intrinsicη0与η=−γm。0新科学/旧target，未授新预算通过。H旧R138长段逐字保本次前实际head '+head+'。

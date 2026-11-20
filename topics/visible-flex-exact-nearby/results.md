@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R138真实η平衡与径向加权根容量](results/R138-supplement-localized-eta-balanced-energy-and-root-capacity.md)：互补梯度Gram准确消cross，完整H修正保；径向p/q的freeouter容量给真cell递推与k0处理，mean0密度在准确容量范数下仅√Γ，完整weightedGram可保。root/global独审纯解析，0新数；新容量/尾/接收器门仍未付。
+
 - [R141实际物理门后的完整七端口与14列响应](results/R141-supplement-original-seven-ports-after-the-physical-gate.md)：14×16=224新量的pure实现已全审，保原7rough/8high观察、两low源、root-even96/right97、physical height/Robin/mean双注入及joint193。仅真实58门通过后消费；当前low完整结果未供，metadata各失败/两目标分流不冒逆，weighted不冒GH4。0科学/假manifest，原两RHS与finiteρ未付。
 
 - [R138真实齐次核的原low96读出单射](results/R138-supplement-original-low96-root-trace-injectivity-on-homogeneous-kernel.md)：zL=0时实际high与完整源费给Qsrc<25，唯一density后C*<125/2<367，GB半余量迫E=B=0并归零h。完整weak图/mean/两primitive及2π保留，故同fixed真DF0实核dim≤96；不是核为0、onto、逆或ν增广结论，0新科学。
