@@ -6,7 +6,7 @@
 
 **维护会话：serre-public-astra-20261120-de0a3e3b。** 已部分克隆并真实pull main，接手serre-public-astra-20261115。最新前态逐字在[H归档](handoff-archive-2026-11-20-before-conjugate-primitive.md)与[open归档](open-archive-2026-11-20-before-conjugate-primitive.md)，内接全部旧pins/公式/关闭边界。只消费已成来源，不重做已登记结论。
 
-**已读规则提交：9685b950d87f579b41fee47aac1ba5271a42a58c**（2026-11-20T11:26:23.657689+00:00；终端真实git pull --rebase origin main，两README无diff）。相比b77de2c7仅根课题表新增held-10pct；两README完整已读。root SHA256 581402c2 / topic 35f82f3d。此前来源与原pins沿[旧归档](handoff-archive-2026-11-16-before-Igusa-Frobenius-residues.md)。
+**已读规则提交：c64a7948d766876112b1adcebfb652098ad6149a**（2026-11-20T11:33:46.841438+00:00；终端真实git pull --rebase origin main，两README无diff）。相比b77de2c7仅根课题表新增held-10pct；两README完整已读。root SHA256 581402c2 / topic 35f82f3d。此前来源与原pins沿[旧归档](handoff-archive-2026-11-16-before-Igusa-Frobenius-residues.md)。
 
 每结论立即推；每push前且至少每小时真实pull。NFF立刻pull --rebase再推循环成功，禁force。每pull检查两README，有变只读diff并立即执行，SHA记此。PAT仅CLI，不入文件/提交，root独占main。新数学仅本公开仓库Actions；外部只纸证/IO/schema/hash/AST。raw不入Git/Release，本轮只/tmp和stdout。H<10KB、open<30KB、每MD<100KB、topic<200MB；log用Asia/Taipei≤5行，不写根LOG，不设额外审批/测试门。
 
@@ -28,7 +28,7 @@
 
 R947原W满足∇W=ΩV、全极部−V_PB^(p−r−2)σ^r/((r+1)A^p)，zV非零；R950低权指定对角全p单位。R953正则πW=6G/真实E_r+给原高权Hasse边界，保Igusa −1/6/全Norm，底Hodge正则剩余项−6^r(r−1)!F/B；p-curvature/谱列另证F_r注入。
 
-[R956](results/R956-original-trace-as-a-fixed-low-weight-Cartier-edge-pairing.md)现给原高低准确比较：E_Bol=Sym^(r−1)H⊗F*ω的紧支连接coker两端为H1ω^(2−r)(−C)与S_(r+2)，全部SS/cusp无torsion。真实K_rY由Cartier(A^(r−1)YρKρ)定义，原插值Y_F|SS=r!F^p/B^(p−r−1)。S=6^(r−2)/r·〈zV,K_rY_F〉，λ=mI(cF)^(1/p)/(36d1r!)乘此pair；cσW=−6^r(r−1)!sF确认同源。r2负δ插值唯一，K2Y_F=αV4、α=([Q^p]Y_F)^(1/p)；α≠0仍待证，r8保完整M8左项。继续真实divided Frobenius/Cartier比较，不用抽象低权单位替代。
+[R956](results/R956-original-trace-as-a-fixed-low-weight-Cartier-edge-pairing.md)现给原高低准确比较：E_Bol=Sym^(r−1)H⊗F*ω的紧支连接coker两端为H1ω^(2−r)(−C)与S_(r+2)，全部SS/cusp无torsion。真实K_rY由Cartier(A^(r−1)YρKρ)定义，原插值Y_F|SS=r!F^p/B^(p−r−1)。S=6^(r−2)/r·〈zV,K_rY_F〉，λ=mI(cF)^(1/p)/(36d1r!)乘此pair；cσW=−6^r(r−1)!sF确认同源。r2负δ插值唯一，K2Y_F=αV4、α=([Q^p]Y_F)^(1/p)；α≠0仍待证。[R962](results/R962-original-weight-eight-left-term-and-weight-ten-edge-coordinate.md)现证r8完整M8非trivial两线的U5=92160，真实左项Serre对偶为25U5^tr，故CM零primary左项消失；K8在真实coker零primary上同构原V10线。α8=(1−5^9/147456)y_p^(1/p)−y_(25p)^(1/p)/147456精确且不依插值升换，非零仍开。继续真实divided Frobenius/Cartier比较，不用抽象低权单位替代。
 
 ## 已成来源与精确回执
 

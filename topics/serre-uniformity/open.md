@@ -89,6 +89,8 @@ $$
 
 更强的原源比较是cσW=−6^r(r−1)!sF及完整留数恒等式〈zV,K_rY〉^p=6^r(r−1)!ΣF_PY_P/B_P²。取指定实际插值Y_F|SS=r!F^p/B^(p−r−1)，得S=6^(r−2)/r〈zV,K_rY_F〉与原λ=mI(cF)^(1/p)/(36d1r!)乘该pair；升换Y_F+A U不变因zV杀全低权U_low像。r2 M2(H6)=0、S4仅原δ+线，负δ插值唯一且K2Y_F=αV4、α=([Q^p]Y_F)^(1/p)。因此原trace单位 iff α≠0，α零 iff实际反角色Cartier前像存在；这个具体α仍未判非零。r8必须保coker的M8左项和完整S10，实际K8Y_F在原CM线的分量仍待识别。后继只可把这个具体Cartier/插值操作与真实整CM晶体的divided Frobenius比较，不能由一般FL单位、抽象height2或R950低对角冒名完成。
 
+[R962](results/R962-original-weight-eight-left-term-and-weight-ten-edge-coordinate.md)已关闭上一段r8左项的实际CM局部化问题：完整M8=⟨E4²,E4v,v²⟩，真实非trivialδ两线由T5送到共轭mark，系数1920s/16s，返回U5=92160单位。实际Bol水平生成元同源因子ℓ^(r−1)、raw Hodge/Serre对偶ℓ^(2−r)给左项真实对偶ℓT_ℓ^tr，双次为25U5^tr；因此原非trivial/U5零primary的左项确为零，K8在实际coker该部分同构至原V10线。完整S10非trivial块的真投影1−U5/147456给α8=(1−5^9/147456)y_p^(1/p)−y_(25p)^(1/p)/147456。S=(6^6/8)α8〈zV,V10〉且α8不依Y_F升换；所需α8非零仍未证。不能由coker一维把这个指定插值类当非零，r2/r8的具体标量仍须实际晶体或源比较。
+
 ## O4：原Abel零集、正秩像与真正高度
 
 R921/R924的实际整completed Hom、两节点极界、完整inertia和原a_h均已解决相应normal首层问题。中央p^−a_h G_h整restricted且最高项单位；几何开盘零数由最小单位下标决定，不是有理零数或height。

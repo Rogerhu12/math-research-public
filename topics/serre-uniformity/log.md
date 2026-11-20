@@ -690,3 +690,7 @@
 ### 2026-11-20 19:26 Asia/Taipei — serre-public-astra-20261120-de0a3e3b
 - R956完整证明原Bol紧支复形、Cartier边及指定SS插值，真实W收缩与完整留数给原高trace和固定低pair的准确常数；SS/cusp/Fr/原d1与mI均保留。
 - r2归于唯一插值的具体α非零，r8保完整M8与S10；继续真实divided Frobenius对象比较，未宣称原trace或同h单位全p成立。
+
+### 2026-11-20 19:33 Asia/Taipei — serre-public-astra-20261120-de0a3e3b
+- R962完整M8原两标记Hecke给非trivial块U5=92160单位，真实Bol左项的Serre对偶尺度ℓTtr已独立复核；r8 CM零primary左项现确为零。
+- K8真实coker归于原V10线，指定α8的两Fourier系数及全S尺度准确；α8非零仍开，继续实际晶体与原同标签问题。

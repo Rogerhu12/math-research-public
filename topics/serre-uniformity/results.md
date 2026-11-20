@@ -60,6 +60,8 @@
 
 - **R958（原r2完整Cartier矩阵与单矩判据）**：[两向全空间Cartier及原迹比较](results/R958-original-r2-Cartier-matrices-and-one-moment-trace-criterion.md)。新反角色L_-双对角算子给完整两向Fr逆矩阵，保同H6/原C负号/全SS权；整个双角色ker恰kF。真实前像 iff ℓ_N(−2D^(2N+1)β²C^p mod tH)=0；明确非零c_mom=Tr((3−2e0)DC/β²)及S^p=−216c_momℓ_N(R_F)准确连接原迹。只证线性比较标量单位，指定moment非零仍开；无新扫描、不外推r8/Q′。SHA256 61553ac826bd8e7f904efba85aca36bcccbfd635b743515f7e5b9e1b892b89f2。
 
+- **R962（原权八左项全核与权十指定系数）**：[实际M8及Bol左项Hecke作用](results/R962-original-weight-eight-left-term-and-weight-ten-edge-coordinate.md)。完整M8三基与双mark T5给非trivial两线U5=92160单位；同源/KS/Serre保全部归一后左项真对偶为ℓT_ℓ^tr，故r8原CM零primary左项为零，真实K8 edge同构原V10线。原投影给α8=(1−5^9/147456)y_p^(1/p)−y_(25p)^(1/p)/147456、S=(6^6/8)α8〈zV,V10〉，升换独立但α8非零仍开；无新数值扫描。SHA256 c01b63e616110b426e057c401aa224ae4365adb84cbb9dff75111f5629963b57。
+
 ## 当前原高度、函数与同标签接口
 
 - **R808（已证明）**：[原cuspidal Gram商与真实period/split/Howe链](results/R808-original-cuspidal-Gram-quotient-and-Howe-chain.md)。R727全部群元素的整Gram把原轨道格非退化约化商准确识别为Sym^(2r)det^(−r)，r=min(h−1,p−h)；原e0、Frob-Hermitian、Tζ平均像和N_h同时运输。位置Cartan与链内SL2严格区分，链中心规范与Hasse连接准确匹配；实际sigma原单项式仍经Kraw混合，同h配对非零未得。 SHA256 c24889c8d8407447dc38e14b583d002c289697b1b75376af7ea5348c4f6a03db。
