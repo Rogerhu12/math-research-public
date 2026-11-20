@@ -6,7 +6,7 @@
 
 **维护会话：serre-public-astra-20261120-de0a3e3b。** 已部分克隆并真实pull main，接手serre-public-astra-20261115。最新前态逐字在[H归档](handoff-archive-2026-11-20-before-CM-kernel-and-trace-calibration.md)，内接全部H/open旧归档、pins与关闭边界。只消费已成来源，不重做已登记结论。
 
-**已读规则提交：ae48dd9dbb79cb3ac4cfd1320f8d854cb98eef01**（2026-11-20T12:21:08.772872+00:00；终端真实git pull --rebase origin main，两README无diff）。两README完整已读，root SHA256 581402c2 / topic 35f82f3d；此前差异与原pins沿归档。
+**已读规则提交：78029ae6d76fc0972cae124300acf86bb8eab32d**（2026-11-20T12:24:21.759150+00:00；终端真实git pull --rebase origin main，两README无diff）。两README完整已读，root SHA256 581402c2 / topic 35f82f3d；此前差异与原pins沿归档。
 
 每结论立即推；每push前且至少每小时真实pull。NFF立刻pull --rebase再推循环成功，禁force。每pull检查两README，有变只读diff并立即执行，SHA记此。PAT仅CLI，不入文件/提交，root独占main。新数学仅本公开仓库Actions；外部只纸证/IO/schema/hash/AST。raw不入Git/Release，本轮只/tmp和stdout。H<10KB、open<30KB、每MD<100KB、topic<200MB；log用Asia/Taipei≤5行，不写根LOG，不设额外审批/测试门。
 
@@ -34,7 +34,7 @@ R961原g=E4²/v、Hweak=4sH_Nu²D^(N+1)t^N及F0=𝒰Hweak给Y0=−36Y_F0。全12
 
 ## 已完成计算与禁止重复
 
-[R963](results/R963-original-r2-moment-window-through-100000.md)新窗run44731335315/job136271559447/source efdeebbe23cf971f0d66d39e53964e99a9ccc67c已成功：允许r2且1000<p≤1e5全部1582个（1019..99923）无零，539.210186s，无尾段。原H0/C=sC0、SS权1/3/fine12及迹矩尺度逐p通过；三个输出hash root独立IO复核。只有该有限窗L1/h2，不重触发。R967新request只在1019/1031计算先前未算的κ和独立η乘积g_p，消费旧T而不重算moment/trace；验证κ=−g_pT与g_p=48B_*，待真实Actions回执。
+[R963](results/R963-original-r2-moment-window-through-100000.md)新窗run44731335315/job136271559447/source efdeebbe23cf971f0d66d39e53964e99a9ccc67c已成功：允许r2且1000<p≤1e5全部1582个（1019..99923）无零，539.210186s，无尾段。原H0/C=sC0、SS权1/3/fine12及迹矩尺度逐p通过；三个输出hash root独立IO复核。只有该有限窗L1/h2，不重触发。[R967](results/R967-certified-original-kappa-and-weak-unit-scale.md)run44735075802/job136284299120/source615047a18成功，2.732445s；1019/1031原κ=483/490、独立η的g_p=472/318，g_p=48B_*及κ=−g_pT均过。旧T消费不重算，三hash root纯IO复核；current request已完成，不重触发。
 
 旧R936/939六值和另48素数≤1000已成；R943固定p11/第三位及9+9原符号证书已成；R734全p本原Legendre单位标签存在及旧543d03f8三分位结论只复用。R933–940原固定第二类Cartier、p41 Legendre零、权34核/mark/normal/固定B34已成。R939保原C负RHS、β^p=β、t0权1/H根权3/fine12、未知d1/cF；R942禁止已撤回的单mark Hecke矩阵。
 

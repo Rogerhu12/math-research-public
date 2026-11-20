@@ -76,6 +76,8 @@
 
 - **R966（单一原CM核与准确临界jet）**：[conductor2s秩二核及原同h筛选](results/R966-single-conductor-two-s-CM-kernel-and-original-critical-jet.md)。两个真实平移乘子/完整五项空间给原K0=G0⊗H0+6F0⊗Y0，精确Π4∇²K0=−72F0⊗G0。先导数再取p−6阶jet，保λ³/Rq²得到原U_p(C)=Σ primitive·Legendre·fi gj C^(6i+4)；R959 B_p(C,X0)是明确单位乘U_p′，首p支撑上导数可逆。真正单源已接上，但该指定filtered jet非零仍开；未重做旧六秩addition或外推kernel非零。SHA256 9a55d001d8f3dacb1414f09be7aeebd9f03c95b3b7d286b56184c5221e755830。
 
+- **R967（公开Actions两点原尺度认证）**：[原κ与独立弱单位](results/R967-certified-original-kappa-and-weak-unit-scale.md)。run44735075802/job136284299120/source615047a18全完2.732445s：1019/1031直接modp²系数除p给κ483/490，独立η原相位给g_p472/318；g_p=48B_*及κ=−g_pT全部通过。旧T/H0直接消费，未重算moment/trace；三hash root独立纯IO复核，无raw/artifact入Git。只有限校准，非全p或同h normal结论。SHA256 e50de47555a6e12bfccbacde09f3fb8dae04df20294f2d909ad3b6305aa98bd7。
+
 ## 当前原高度、函数与同标签接口
 
 - **R808（已证明）**：[原cuspidal Gram商与真实period/split/Howe链](results/R808-original-cuspidal-Gram-quotient-and-Howe-chain.md)。R727全部群元素的整Gram把原轨道格非退化约化商准确识别为Sym^(2r)det^(−r)，r=min(h−1,p−h)；原e0、Frob-Hermitian、Tζ平均像和N_h同时运输。位置Cartan与链内SL2严格区分，链中心规范与Hasse连接准确匹配；实际sigma原单项式仍经Kraw混合，同h配对非零未得。 SHA256 c24889c8d8407447dc38e14b583d002c289697b1b75376af7ea5348c4f6a03db。

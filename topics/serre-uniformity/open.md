@@ -72,7 +72,7 @@ $$
 
 [R960](results/R960-original-r2-Igusa-formal-height-and-Jacobi-coefficient.md)现把这个等价障碍放在真实几何对象上：原±1 Igusa归一化为y^d=uD^(N+1)H(u³)，d=(p−1)/2；两个完整逆μ_d字符的Hodge维为3N+1和1，δ不变块可逆。Rosati逆字符与connected–étale给实际一维formal factor的高度h=L+1，偶数2..2N+2。令m=(p−2)/3、j=(p²−1)/3，对保重数smooth lift取a(x)=(1−x/4)^(N+1)Hrev(x)/H_N，则κ=(1/p)[x^j]a(x)^(2p+2) modp，系数除p确整且对degree≤m的任意纯算术lift独立。κ非零 iff h2 iff原S非零。原Tate支w0=24接同一κ=(1/2)[Q^(p²)]F(E2²−E4)，F是原V_(p−1)†。这些公式没有证明κ非零；O_Qp2作用仅迫偶高，不排h4，更不能把该Igusa factor与原正CM target同一化。继续准确评价这个实际系数，R961的g_p单位仍只检测链顶。
 
-[R965](results/R965-exact-original-trace-calibration-of-the-Igusa-height-coefficient.md)已封闭这个实际系数与原trace的准确单位：全fine SS上F^(p²)=B^((p−1)²)F，真正Cartier降权给𝒰Z=72Y_F，故κ=36α=−g_pT。原高primitive R的d个cusp留数另证g_p=48[x^(m+1)]a²≠0；原λ保−12mI(cF)^(1/p)κ/(d1g_p)。比较单位已明，κ非零和同h normal桥仍开。R967新consumer只求1019/1031尚未计算的κ与独立η-product g_p，旧T直接消费；实际回执待Actions，不重算R963。
+[R965](results/R965-exact-original-trace-calibration-of-the-Igusa-height-coefficient.md)已封闭这个实际系数与原trace的准确单位：全fine SS上F^(p²)=B^((p−1)²)F，真正Cartier降权给𝒰Z=72Y_F，故κ=36α=−g_pT。原高primitive R的d个cusp留数另证g_p=48[x^(m+1)]a²≠0；原λ保−12mI(cF)^(1/p)κ/(d1g_p)。比较单位已明，κ非零和同h normal桥仍开。[R967](results/R967-certified-original-kappa-and-weak-unit-scale.md)新consumer已公开成功：run44735075802/job136284299120/source615047a18，2.732445s；1019/1031的κ483/490与独立η-product g_p472/318通过两条原尺度等式，三输出hash root纯IO复核。旧T直接消费不重算；只两点校准，不扩全p结论。
 
 [R963有限认证](results/R963-original-r2-moment-window-through-100000.md)已完成全部1000<p≤1e5的允许r2素数：1582个、1019..99923，无零/失败/尾段；run44731335315/job136271559447/source efdeebbe23cf971f0d66d39e53964e99a9ccc67c，539.210186s。原H0/C相位/全SS权及迹矩比较逐p通过，root独立IO核全输出hash；此有限范围L1/h2，不控制p>1e5。旧48窗未重跑，也未替代同h Q′或真正height。
 

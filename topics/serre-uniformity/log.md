@@ -729,3 +729,7 @@
 ### 2026-11-20 20:20 Asia/Taipei — serre-public-astra-20261120-de0a3e3b
 - R965全部原标度已逐式核准：𝒰Z=72Y_F、κ=−g_pT及g_p=48B_*，保full fine frame/全部cusp/原λ源常数；一般非零仍开。
 - R967冻结新两点κ与独立η系数consumer，只消费旧T不重算trace；新request待公开Actions，未预填结果，继续全局证明。
+
+### 2026-11-20 20:24 Asia/Taipei — serre-public-astra-20261120-de0a3e3b
+- R967公开run44735075802成功两点原κ/弱单位独立计算，2.732445s；κ483/490、g_p472/318，原两标度等式均过，旧trace未重跑。
+- root已实读回执并纯IO核三hash，完整有限范围登记；继续全层指定jet与all-p高CM同余/高度系数，不以两点为收尾。
