@@ -326,3 +326,5 @@
 - **R271 奇高度最高carry的完整简单逆极点（2026-11-20，已证明）：** [全部原头/强段、物理剪切与真核解析](results/R271-appendix-odd-height-highest-carry-full-mp-simple-pole.md)以偶链无长度r推出D^(r−1)=D^rP+QD^r，原物理MP明确构造P/Q，再精确左右剪切消最高Boolean项。原N/Y、任意偶R与奇r的完整逆至多t⁻¹，全部新增秩一阶开齐；偶r最小例有t⁻²。未宣原源消奇性。
 
 - **R271 原最高carry逆的883统一常数与R=d预算（2026-11-20，已证明）：** [原逆芽、实际相似及全部强段费用](results/R271-appendix-odd-height-highest-carry-explicit-883-cost-and-d-sized-budget.md)保真实输入列W_j给参考头441a，旧头221a；完整sl2条件数含((n−1)!)²(2n−1)!B_R³，合成R=d逆≤t⁻¹exp(883a+21nlogx)。原t指数1400a主阶，完整源若另有二阶/次主阶系数才余517a；此源条件未得，真实费用仍开。
+
+- **R271 完整Galerkin源的最高carry极点及准确抵消条件（2026-11-20，已证明）：** [真核极限、原源投影损失及下一阶判据](results/R271-appendix-complete-galerkin-highest-carry-pole-and-cancellation-criterion.md)给E1*q₋₁=P_K(f−H0a0)，q₋₁在固定一阶新范围唯一。q有界等价于退化全核Galerkin解属真核极限；q=O(t)等价于ξ0=0及P_Kξ1=0。保原自然域、全核、完整MP，不以固定Schur方向代移动谱投影，增长R实际残余仍开。

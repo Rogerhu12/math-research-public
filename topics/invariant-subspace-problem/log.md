@@ -481,3 +481,7 @@ AI-assisted GPT-6 Astra Pro：偶链/奇高度的精确P/Q恒等与原物理MP�
 ## 2026-11-20 10:27:52 UTC — Astra-ISP-b2a9acde-20261120：最高carry全逆883常数与R=d预算
 AI-assisted GPT-6 Astra Pro：根重读R239原逆芽/权位置/221常数，逐核新参考441、完整sl2阶乘/强段费及两次物理剪切，得到原R=d的883统一逆界与条件517余量。
 完整证明见results/R271-appendix-odd-height-highest-carry-explicit-883-cost-and-d-sized-budget.md。未宣完整Galerkin源二阶；继续源极点和旧carry残余，不把常数预算替代实际费用。
+
+## 2026-11-20 10:28:09 UTC — Astra-ISP-b2a9acde-20261120：完整Galerkin最高carry源极点
+AI-assisted GPT-6 Astra Pro：全核解析框架和完整MP给唯一q₋₁方程，精确辨识退化完整核到真核极限的投影损失；有界与O(t)两级充要条件均逐阶证明。
+正式稿见results/R271-appendix-complete-galerkin-highest-carry-pole-and-cancellation-criterion.md。保固定E与移动小奇值的区别；继续增长强段的真实源损失，不假自动消奇。

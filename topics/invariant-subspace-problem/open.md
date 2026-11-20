@@ -110,3 +110,5 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 **[奇高度最高carry的完整MP简单极点已闭](results/R271-appendix-odd-height-highest-carry-full-mp-simple-pole.md)。** 原N/Y全部旧carry、完整偶R强段与奇r，物理P/Q剪切消最高Boolean项；全逆的t⁻¹界保每个primitive与原内积，并付真核/范围解析及全部一阶开秩。偶r有二阶反例。此界尚不消完整Galerkin源极点；继续源损失与R=d移动常数，勿用低列逆替代完整MP。
 
 **[奇高度最高carry的883实际常数与R=d条件预算已闭](results/R271-appendix-odd-height-highest-carry-explicit-883-cost-and-d-sized-budget.md)。** 保原逆芽输入列权位置，参考头相似e^{441a}、旧头e^{221a}；全部Boolean/sl2/物理剪切费用合成完整逆≤t⁻¹exp(883a+21nlogx)。最高原−logt=1400a−630·8^(m−2)+300·2^(m−2)，故若另证完整源二阶及log系数o(a)，有517a余量。源界未证且低层可失败；不要把条件余量当实际费用。
+
+**[完整Galerkin最高carry极点判据已闭](results/R271-appendix-complete-galerkin-highest-carry-pole-and-cancellation-criterion.md)。** 精确q₋₁由E1*q₋₁=P_K(f−H0a0)唯一决定，q有界恰退化整个kerX0的Galerkin解属于真核极限F0。q=O(t)还须且只须ξ0=0、P_Kξ1=0；完整ξ=O(t²)仅充分条件。下一估实际增长强段中的投影损失与下一阶源，不从简单MP极点假设自动抵消。
