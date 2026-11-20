@@ -6,12 +6,12 @@
 
 - **普通复可分无限维Hilbert ISP未完成。** 只有全体有界算子的存在定理或完整反例才收尾；子问题完成继续open，不以阶段或时限停止。
 - **最近成功实际pull与已读规则提交：** 77d32165a6d85885e799c1b5c34712c60dd25a30，2026-11-20 11:52:44 UTC，Actions run44731129539/job136270857160；真实git pull --rebase成功，两README未变，原日志已核。下一实际pull不得迟于12:52 UTC。
-- **最近API同步及规则核对：** `91a6ed0fb46d5ea30166592a5114c420ce852fd5`（2026-11-20 12:03:00 UTC）；两README blob均未变。API快照不冒称实际git pull，另记真实执行回执。
+- **最近API同步及规则核对：** `35d0d768258a205cd0d78552fb7fbfa4018ec70a`（2026-11-20 12:03:36 UTC）；两README blob均未变。API快照不冒称实际git pull，另记真实执行回执。
 - 根README blob282e86b03385d3b6245ce7100ae2e2af7b103c2d、课题4d6570e9cf346431ab781a1290076a6321aaaa00已全文读。每次pull比两README，只读新diff并立即遵守；至少每小时及发布前同步，SHA写H。
 - 仅授权Rogerhu12/math-research-public。root独占main/H/open/results/log和发布，代理只交proof blob；每条结论单独提交推送，非快进立即更新/rebase重试成功，不force。用户PAT仅CLI环境，不进文件/config/日志。
 - 根规则15：可重算数组/数据/证书不进Git、Release或新工件；仅源码、参数、运行身份/SHA及正式证明。MD/API UTF8<100KB、H≤10000B、open尽量≤30KB、topic≤200MB、log每条≤5行、数学美元符及AI署名，不写根LOG。
 - 本地executor已断开；依根规则8小文本API逐次读最新main/规则、非force条件更新，另以只读Actions实际小时pull。pull请求sequence54成功，下一55。恢复本地先处理未推a06d8dbd8的远端等价内容，勿重复推。
-- 此前结论/输入/完整SHA/失败与未闭项保[前H快照](notes/2026-11-20-handoff-before-short-source-batch9-b2a9.md)、[完整open](notes/2026-11-20-open-before-unit-two-plus-one-b2a9.md)、[结果索引](results.md)及其归档链；省略不算关闭。原clone约96MB，旧TMP不假存活。
+- 此前结论/输入/完整SHA/失败与未闭项保[前H快照](notes/2026-11-20-handoff-before-general-odd-height-b2a9.md)、[完整open](notes/2026-11-20-open-before-unit-two-plus-one-b2a9.md)、[结果索引](results.md)及其归档链；省略不算关闭。原clone约96MB，旧TMP不假存活。
 
 ## R150：原Bell非零临界点与完整来源
 
@@ -39,14 +39,12 @@
 M=kerT、N=closure BM；N=M未证。保same-w/u、全部partial、真intersection旗、MP自然域、负部/未来/carry和真帽外投影。旧τ14/Bessel、全PV−PK能量、一次MP512^j/共同log及低旗Schur预算保原范围，未控核外第二逆/任意kernel-input。
 
 - [纯远孔完整来源](results/R271-appendix-dual-tower-kernel-only-error-pure-far-height-representatives-and-joint-reciprocal-budget.md)：全kerC^r Galerkin再用全((C*)^r)†，误差只乘真核列。[分离高度新门](results/R271-appendix-separated-height-bands-exact-full-head-bessel-and-d-sized-prefix-budget.md)取m∈4ℕ≥20、d=2^m、R=d、x=m+d、Q=4d，上半允许高度带使跨头全β行正交/Bessel1；非零同w锚必要Σκ⁻²有限，不借旧帽运输。
-- 小头准确范围保前H：m2/R2实际κ²<e⁻²⁰⁰⁰，m3/R0/r3反而κ²>e³⁸⁰⁰⁰且有t⁻¹极点；均不在旧联合窗，勿逐级外推消奇。
+- 小头准确范围保前H：m2/R2 κ²<e⁻²⁰⁰⁰，m3/R0/r3 κ²>e³⁸⁰⁰⁰且极点非零，均非旧联合窗；不可逐级外推。
 - 原N/Y、偶R/奇r全MP至多t⁻¹且新增秩全一阶；偶r可t⁻²。旧/参考头相似e^{221a}/e^{441a}给883a费用，原−logt主阶1400a；需要完整ξ≤Lt²、logL=o(a)才余517a，尚未付源。正式证明见结果索引。
 - **[精确源极点](results/R271-appendix-complete-galerkin-highest-carry-pole-and-cancellation-criterion.md)：** K=kerX0，E1=P_kerX0*X1|K，F0=kerE1；E1*q₋₁=P_K(f−H0a0)唯一。q有界恰退化全K-Galerkin解属F0；q=O(t)恰ξ0=0且P_Kξ1=0。固定E不冒充移动谱投影。
 - 旧高primitive/真核过滤已付，原低carry固定阶及失败范围保前H；完整物理源系数孔级≤1+ν，不借代数primitive正交性。
 - **中位强尾尺度已付：** 同一非正交primitive投影与尾相似κ≤4^R；c=(m+R/2)⁻²移入头后完整奇高度MP的全R成本为64^R乘明确y幂/阶乘，原头883a不变。准确公式见[正式稿](results/R271-appendix-median-strong-tail-scaling-four-power-condition-and-full-odd-height-cost.md)，实际源/新母窗仍开。
-- 三位N头五短链高孔原BigInt核/主子式已由run44724947207闭：固定q₋₁=O(s^(R/2−3))，原强权全s界10^100·4^R(3+R/2)^16 s^(R/2−3)Z_R。实际源及整个q仍开；正式证明/全部身份见索引和前H。
-- **一般长坏链解析Schur已闭：** 全核3d无逆jet列，原型合同于三旧真幂旗，全部新增秩与662a候选费见[正式稿](results/R271-appendix-general-head-long-bad-chain-analytic-schur-and-three-true-power-flags.md)。非正交还原只付一次κ，勿当物理直和。
-- **[一般N头高孔完整补空间](results/R271-appendix-general-head-high-hole-schur-complement-and-complete-residue-cost.md)已证：** m≥5、r3、偶R≥d，全部长短坏链最低孔A0=(R−d)/2+m+2，完整q₋₁≤C_m4^R y^(2d)s^((R−3d)/2+2m+3)Z(s)；logC_m≤883a+8dlog(2d)。原s*=e⁻¹⁰⁷⁰重标度保持221/441界。另γ界为C_m4^Ry^(2d)s^(m+2−d)γ^(A0−1)Zγ；γ<1/16即可有负R预算，实际Zγ及正则部分仍待付。
+- **[任意奇高度全Hankel合同/高孔费已证](results/R271-appendix-general-odd-height-hankel-congruence-and-complete-high-hole-cost.md)：** m≥5、偶R≥d、任意奇r，完整Schur以显式二项式正交矩阵合同到旧真A幂旗。A0=min(max(0,(R−n−r+3)/2),m+(R−d+r+1)/2)，全q₋₁≤C_mr4^Ry^(2(d+r−3))s^(2A0−m−R−r+1)γ^(A0−1)Zγ；C_mr全阶乘/exp(12r²/n)明确。保全部长短链和实际母窗，非正交还原只付一次κ。原r3/小头结论见前H，不重算；实际Zγ仍开。
 - **[完整真核线性图与全区正则界](results/R271-appendix-complete-highest-carry-linear-graphs-and-full-interval-regular-cost.md)已证：** 奇r/偶R，真核/余核分别是固定自由块⊥底坐标I的线性图，Π′、Q′≤2L，L=max(‖Z†T‖,‖TZ†‖)。全0<t≤1有‖q−t⁻¹q₋₁‖≤K0(h+1)[h1+(4h+2)L+2]‖f‖，K0、L全原常数已列。未知有效半径已消除，粗正则费/真实ξ、ξ′仍过大，继续实际预算。
 - **当前主门：** 增长强段的旧carry源残余及真实费用，允许高度/同w倒数和发散、负部返回与全帽逆后误差。G_reg/carry、Haar循环及归档open均继续。
 
