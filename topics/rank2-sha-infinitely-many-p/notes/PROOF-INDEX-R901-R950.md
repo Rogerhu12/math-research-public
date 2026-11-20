@@ -115,3 +115,5 @@
 - [R925§20](../results/R925-original-ys-affine-rings-and-complete-divisor-ideals.md)：原完整表的unordered pair直接向量乘积全证，原Fp²/两weighted图/全系数返回保，普通乘积不必构造306²多项式算子；完整补丁与静态独审已存，稳定源及当前运行不变，无实测PASS。
 
 - [R925§21](../results/R925-original-ys-affine-rings-and-complete-divisor-ideals.md)：同原fraction/两图完整pole ideal及same engines/registry全等时，可精确共享真r次幂、同一有效E及全部厚闭点；四pair输出和完整迹仍各自读。补丁/证明已独审保存，执行前须补新增helper manifest，未冒实际命中或PASS。
+
+- [R929](../results/R929-original-hypergeometric-two-digit-blocks-and-gaussian-prefix.md)：同一r_n在全n<p²矩形的精确三带/模p³单位积给完整p logΘ，p倍列额外一位与实际g_p保留；严格R614整窗中还原原g modp²，四来源全前缀/原κ/物理缩放与第一真除p carry齐。中央到边界及联合非零仍开。

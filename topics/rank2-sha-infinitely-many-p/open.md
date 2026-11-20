@@ -208,10 +208,13 @@ R887(116a)进一步准确给C(Hω)=0及C²(𝔄Faω)=0：rω=(1/3)dlog y与[G]_(
 
 [R923](results/R923-original-v66-complete-boundary-trace-and-fixed-denominator.md)：原V66在共同E17模型的完整因式给固定分母D66=154224，保−17/11物理缩放、原绝对根与全部Hall/Galois相位。完整全迹有3/4+o(1)高度，非零赋值同界；原首边界零恰等价约3p/4个Gaussian块的模p前缀全零。四来源的全迹接口均有，中央零到边界零及无穷p联合非零仍开。
 
-- [R924§15](results/R924-original-section-divisor-algebras-and-shadow-interface.md)：原vF和三Yi截面实际PASS，run44723394686/job136244599223/source7ffa56588，305.261秒；真F/P先鉴定，F核144/P两核152/原第三QY和Artin全保，F=A5/(B2 S³)、P=A3/B3，result0a8cc7cf…8e7f9f。cube/四交除子/shadow仍开。
 
 ## R928：固定原P的实际仿射类
 
 [R928](results/R928-original-fixed-P-affine-long-jets-and-global-compatibility.md)给四实际右端（保真除p商/H·B），从负fringe全η²逆Taylor直接定义固定P的全局coker类；同H1的完整实际像使选定行充要，受限S仍须同整R的剩余全p³像门。下一门是同P真实左行对该类的准确值，不能从差落K′或维数界假定非零。
 
 - [R927§8](results/R927-original-yF-pole-degree-from-mixed-kernel-and-cusps.md)：原e/z读者与同进程公开前端已接；完整900核、51原二次因子及204回代、∞289全幂链/π2真2⁶/同核N,D全部保，同进程混合核144给度180依据。只静态审过，精确读数待公开PASS。
+
+## R929：原系数后两位与完整 Gaussian 前缀
+
+[R929](results/R929-original-hypergeometric-two-digit-blocks-and-gaussian-prefix.md)原r_n精确三带与单位积付整个n<p²的p logΘ modp³，p倍指标保额外一位；原F/κ与R614直接U/W整性给严格n<(p²−1)/6内原g modp²，四源全J≤p−2前缀/物理缩放及第一真carry均保。不是中央⇒边界或联合非零；下一门直接用这些同源实际系数判断原部分和。
