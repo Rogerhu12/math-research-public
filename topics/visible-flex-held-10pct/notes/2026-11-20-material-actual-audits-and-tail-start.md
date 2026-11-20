@@ -43,3 +43,11 @@ corrector-actual-00/run.json返回RuntimeError('Weighted stage-tail initializati
 接续命令只读保留启动日志与原文件散列，确定具体运行错误；同时用已发布完整lift传递入口准备M12，实际导出同物理tail的12模linear port。保持全部旧q/profile/chart/核心控制，新控制取零，补偿系数为1；该输出仍只是初猜。后续重解的δ/c若变化，属于设计延拓，不是固定全部物理参数的精化证明。
 
 完整小标量及来源另见同日 material-actual-audits-and-tail-start.json。原始输出/全场只留临时runner；新命令、已发布源与hash可复现。
+
+## 5. 原stderr已给出的两种启动原因
+
+随后只读命令 held10-inspect-worker-stderr-01 已实际exit0。corrector的tail_worker_exit.json确认为initialization-eof、returncode1、calls0；stderr指向原native_batch_adapter.mjs对LD_PRELOAD/LD_LIBRARY_PATH的原检查，错误为Unreviewed dynamic-loader overrides。没有实际非线性尾响应。修复在新的子进程环境中移除这两个动态库覆盖项，先用同一Python执行NumPy/SciPy导入；通过后才重新准备原native运行。原manifest检查及全部求解门保留，旧失败目录不覆盖。
+
+M12 exporter的真实错误不同：invalid momentum engine options，原要求N>4*M*spacing。M12、spacing3需要N>144，原尾数值quadrature128不满足。现将导出的数值quadrature升到256，并显式指定同一稀疏Python helper；完整物理tail参数、切口、profile/chart和core仍逐项保持。高M配更多求积点是数值分辨率改变，绝非降低门槛或新物理g。
+
+新命令在material-runtime-retry01下重试原M8真尾，同时在material-lam002-m12-transfer-v2生成同物理图的完整lift初猜。两项都只依实际返回记结果；当前没有预记尾成功或M12新场。原日志及两审计完整JSON的SHA见material-startup-error-record.json，原大输出继续只留runner。

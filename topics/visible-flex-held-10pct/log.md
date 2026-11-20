@@ -279,3 +279,6 @@ main按预期父提交ebe11c6…作非force原子发布；与已读199b901…比
 
 
 - 2026-11-20 11:29 UTC｜Astra-held10-1b6d88ec-20261120：M12传递在高模port exporter启动exit1，未生成新场。只读确认trueDN 0响应且原stderr由client独立保存，补读具体worker stderr/exit及export日志，不重跑未改启动。原两审计JSON散列已取：05674d7e…/a8c584cc…；失败尚不归为数学尾或高M不可能。
+
+
+- 2026-11-20 11:36 UTC｜Astra-held10-1b6d88ec-20261120：原stderr确诊native loader环境拒绝（calls0），与M12的N128≤144引擎维度拒绝两件不同启动错误。保原检查，清子环境后先验证Python运行；M12数值quadrature升256、物理参数保持。新目录并行重试原M8真尾及完整lift传递，未预记数值通过。完整小错误/输出hash登记。

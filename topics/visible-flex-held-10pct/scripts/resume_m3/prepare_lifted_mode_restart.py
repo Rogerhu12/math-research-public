@@ -6,7 +6,7 @@ At fixed q, profile, chart and physical core, the continuous reference transfer
 is Y_new(s)=embed(Y_old(s))+a(s)*chi(s)*(I_new-embed(I_old)).
 The lift coefficient is one; material-core homotopy lambda is NOT a factor.
 """
-import argparse, hashlib, importlib.util, json, subprocess, sys
+import argparse, hashlib, importlib.util, json, os, subprocess, sys
 from pathlib import Path
 import numpy as np
 from scipy.interpolate import PPoly
@@ -74,17 +74,33 @@ def main():
     a.outdir.mkdir(parents=True,exist_ok=False)
     port_path=a.port or Path(option("--port"))
     port=json.loads(port_path.read_text())
+    port_resolution_change=None
     if new_m>len(port["linearSlope"]):
         if not a.tail_config:
             raise ValueError("Provide --tail-config to regenerate the same metric's larger linear port, or provide --port")
         tail_config=json.loads(a.tail_config.read_text())
+        old_quadrature=int(tail_config["quadrature"])
+        if old_quadrature<1:
+            raise ValueError("Positive original angular quadrature is required")
         tail_config["modes"]=new_m
+        # The original momentum engine requires N > 4*M*spacing. Raising M
+        # without raising an inadequate numerical quadrature cannot start it.
+        quadrature=old_quadrature
+        while quadrature<=4*new_m*int(tail_config["spacing"]):
+            quadrature*=2
+        tail_config["quadrature"]=quadrature
+        port_resolution_change=dict(old_modes=old_m,new_modes=new_m,
+                                    old_quadrature=old_quadrature,new_quadrature=quadrature,
+                                    physical_parameters_changed=False)
         config_path=a.outdir/"tail-settings.json"
         config_path.write_text(json.dumps(tail_config,indent=2)+"\n")
         port_path=a.outdir/"linear-port.json"
         exporter=Path(__file__).parent/"recovered_q021/export_original_worker_port.py"
+        export_env=dict(os.environ,VISIBLE_FLEX_SPARSE_PYTHON=sys.executable,
+                        VISIBLE_FLEX_SPARSE_LINEAR_HELPER=str(
+                            Path(__file__).parent.parent/"nonlinear_tail/m3_sparse_shooting_deliverable/sparse_shooting_linear.py"))
         subprocess.run([sys.executable,str(exporter),"--source-topic",str(source),
-                        "--config",str(config_path),"--out",str(port_path)],check=True)
+                        "--config",str(config_path),"--out",str(port_path)],check=True,env=export_env)
         port=json.loads(port_path.read_text())
     port["cut"]["_prefix_bridge"]=cfg["prefix_bridge"]
     port["_sha256"]=sha(port_path)
@@ -203,10 +219,12 @@ def main():
         diagnostics=dict(reference_two_jet_checks=checks,check_angular=N,
                          check_s=len(sample),meridian_two_jets_checked=pp is not None,
                          inlet_projection_change_max=float(abs(di).max()),
-                         exact_lift_coefficient=1,core_homotopy=settings.get("homotopy")),
+                         exact_lift_coefficient=1,core_homotopy=settings.get("homotopy"),
+                         port_resolution_change=port_resolution_change),
         result=dict(initial_raw=str(dest.resolve()),initial_raw_sha256=sha(dest),
                     port=str(port_path.resolve()),port_sha256=sha(port_path),
-                    modes=new_m,angular=nt),
+                    modes=new_m,angular=nt,
+                    tail_config=str(config_path.resolve()) if port_resolution_change else None),
         common_mean_height_scope="The identical angular frame and s jet preserve its original mean-height reconstruction; the reported raw jets omit that common term.",
         stored_representation="Only nodal Y is stored. The continuous transferred reference has the stated identity; a new BVP interpolant is not claimed identical.",
         accepted_bvp=False,metric_gate_paid=False,true_tail_paid=False,

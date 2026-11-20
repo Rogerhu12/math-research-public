@@ -1,35 +1,51 @@
 {
-  "id": "held10-inspect-worker-stderr-01",
-  "read_rules_commit": "f67e6f76bd679e432c0efedd8386349b4e1cc34f",
-  "script": "topics/visible-flex-held-10pct/scripts/resume_m3/inspect_tail_start_and_transfer.py",
+  "id": "held10-clean-runtime-and-m12-01",
+  "read_rules_commit": "fdf9e4b8a5a25ca8d9829c784849e498b01e20d7",
+  "script": "topics/visible-flex-held-10pct/scripts/resume_m3/retry_material_runtime_and_transfer.py",
   "args": [
     "--repo",
     "@REPO@",
     "--workdir",
-    "@WORK@",
-    "--source-run",
-    "@WORK@/material-lam002-linear/run.json",
-    "--modes",
-    "12",
-    "--outdir",
-    "@WORK@/material-lam002-m12-transfer",
-    "--inspect-only"
+    "@WORK@"
   ],
   "diagnostics": [
     {
-      "path": "@WORK@/material-tail-startup-inspection.json",
+      "path": "@WORK@/material-runtime-retry-status.json",
       "keys": [
         "status",
-        "diagnostics"
+        "error",
+        "diagnostics",
+        "stages"
       ]
     },
     {
-      "path": "@WORK@/material-lam002-m12-transfer/transfer.json",
+      "path": "@WORK@/material-lam002-m12-transfer-v2/transfer.json",
       "keys": [
         "status",
         "error",
         "diagnostics",
         "result"
+      ]
+    },
+    {
+      "path": "@WORK@/material-runtime-retry01/material-corrector-summary.json",
+      "keys": [
+        "status",
+        "error",
+        "stages"
+      ]
+    },
+    {
+      "path": "@WORK@/material-runtime-retry01/corrector-actual-00/run.json",
+      "keys": [
+        "solver_success",
+        "error",
+        "raw_return",
+        "prefix_audit",
+        "actual_outer_checks",
+        "tail_seam",
+        "domain_newton_stats",
+        "domain_error_counts"
       ]
     }
   ]
