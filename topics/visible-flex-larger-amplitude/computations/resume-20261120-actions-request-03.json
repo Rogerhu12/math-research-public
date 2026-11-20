@@ -1,0 +1,15 @@
+{
+  "schema": "visible-larger-public-research-request-v1",
+  "request_id": "visible-larger-resume-20261120-03",
+  "rules_read_commit": "ff06cce6391db39bb38274f08df9d2afc0cf09df",
+  "rules_sha256": {
+    "README.md": "581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102",
+    "topics/visible-flex-larger-amplitude/README.md": "3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d"
+  },
+  "recipe": "topics/visible-flex-larger-amplitude/scripts/resume_20261120/rebuild_a04_chain.py",
+  "stop_after": "continue",
+  "followup_file": "topics/visible-flex-larger-amplitude/computations/resume-20261120-followups-03.json",
+  "controller_budget_seconds": 20000,
+  "continuation_purpose": "Dedicated independent geometry worker: regenerate only the necessary scratch input chain through the declared continue stage, then consume that runner actual field for complete first geometry, radius refinement, complete curvature and exact combination. This moves independent geometry out of the solver queue; historical conclusions and candidate hashes are not inherited or reclassified as new.",
+  "prior_run_id": "44758209061"
+}

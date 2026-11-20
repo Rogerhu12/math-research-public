@@ -1,0 +1,204 @@
+{
+  "parent_request_id": "visible-larger-resume-20261120-03",
+  "finish_when_done": false,
+  "steps": [
+    {
+      "id": "reconstructed-current-direct-first-geometry-03",
+      "script": "topics/visible-flex-larger-amplitude/scripts/resume_20261120/actions_closed_postprocess.py",
+      "parent_bundle": "geometry_path/curvature-qp-spectral-hessian-r22-union-next-four.npz",
+      "args": [
+        "direct",
+        "--repo",
+        "{repo}",
+        "--work",
+        "{work}",
+        "--bundle",
+        "{work}/geometry_path/curvature-qp-spectral-hessian-r22-union-next-four.npz",
+        "--carrier",
+        "{work}/recover_evidence/gauss6-current-three/same-scalar-gauss-observations.npz",
+        "--manifest",
+        "{work}/geometry_path/curvature-qp-spectral-hessian-r22-union-next-four-witnesses.json",
+        "--plan",
+        "256:1,512:2,1024:4,2048:8",
+        "--low-modes",
+        "24",
+        "--taylor-degree",
+        "8",
+        "--beta",
+        "1/4",
+        "--target-support",
+        ".14",
+        "--cells",
+        "all",
+        "--out",
+        "{work}/postprocess/continue-direct-first-geometry.json"
+      ],
+      "outputs": [
+        "postprocess/continue-direct-first-geometry.json",
+        "postprocess/continue-direct-first-geometry-nonplanar.json"
+      ],
+      "scope": "Regenerate the complete same-field certificate needed by the new runner from its actual rebuilt inputs; no historical byte or old scientific conclusion is silently inherited",
+      "summary": {
+        "postprocess/continue-direct-first-geometry.json": {
+          "embedding_certified": "embedding_certified",
+          "target_support_paid": "target_support_paid",
+          "complete_scope": "complete_scope",
+          "covered_support_lower": "covered_support_lower",
+          "covered_minimum_normal_squared_lower": "covered_minimum_normal_squared_lower",
+          "continuous_diameter_upper": "continuous_diameter_upper",
+          "continuous_fixed_witness_distance_lower": "continuous_fixed_witness_distance_lower",
+          "conditional_four_marker_held_ratio_lower": "conditional_four_marker_held_ratio_lower",
+          "conditional_four_marker_grip_ratio_lower": "conditional_four_marker_grip_ratio_lower",
+          "marker_support_lower": "marker_support_lower",
+          "four_fixed_markers_pay_positive_Euclidean_shape_distance": "four_fixed_markers_pay_positive_Euclidean_shape_distance",
+          "seconds": "seconds"
+        }
+      }
+    },
+    {
+      "id": "continue-radius-target-41-over10-03",
+      "script": "topics/visible-flex-larger-amplitude/scripts/resume_20261120/actions_refine_closed_radius.py",
+      "parent_bundle": "geometry_path/curvature-qp-spectral-hessian-r22-union-next-four.npz",
+      "args": [
+        "--repo",
+        "{repo}",
+        "--bundle",
+        "{work}/geometry_path/curvature-qp-spectral-hessian-r22-union-next-four.npz",
+        "--node-report",
+        "{work}/fullclosed_solver/data/fullclosed-hold-warm.json",
+        "--first-geometry",
+        "{work}/postprocess/continue-direct-first-geometry.json",
+        "--diameter-target",
+        "4.1",
+        "--plan",
+        "2048:2,4096:4,8192:8",
+        "--out",
+        "{work}/postprocess/continue-direct-radius-refined.json"
+      ],
+      "outputs": [
+        "postprocess/continue-direct-radius-refined.json"
+      ],
+      "scope": "Same actual member; keep all complete original bounds and reread only radius-obstructing cells; all Fourier/Laurent tails remain",
+      "summary": {
+        "postprocess/continue-direct-radius-refined.json": {
+          "radius_continuation_state": "radius_continuation_state",
+          "body_diameter_target_paid": "body_diameter_target_paid",
+          "published_diameter_upper_within_target": "published_diameter_upper_within_target",
+          "continuous_diameter_upper": "continuous_diameter_upper",
+          "conditional_four_marker_diameter_upper": "conditional_four_marker_diameter_upper",
+          "covered_support_lower": "covered_support_lower",
+          "continuous_fixed_witness_distance_lower": "continuous_fixed_witness_distance_lower",
+          "conditional_four_marker_held_ratio_lower": "conditional_four_marker_held_ratio_lower",
+          "conditional_four_marker_grip_ratio_lower": "conditional_four_marker_grip_ratio_lower",
+          "new_cell_cover_seconds": "new_cell_cover_seconds",
+          "seconds": "seconds"
+        }
+      }
+    },
+    {
+      "id": "continue-complete-sixjet-curvature-03",
+      "script": "topics/visible-flex-larger-amplitude/scripts/resume_20261120/actions_closed_curvature.py",
+      "parent_bundle": "geometry_path/curvature-qp-spectral-hessian-r22-union-next-four.npz",
+      "args": [
+        "--repo",
+        "{repo}",
+        "--work",
+        "{work}",
+        "--bundle",
+        "{work}/geometry_path/curvature-qp-spectral-hessian-r22-union-next-four.npz",
+        "--carrier",
+        "{work}/recover_evidence/gauss6-current-three/same-scalar-gauss-observations.npz",
+        "--manifest",
+        "{work}/geometry_path/curvature-qp-spectral-hessian-r22-union-next-four-witnesses.json",
+        "--first-geometry-report",
+        "{work}/postprocess/continue-direct-first-geometry.json",
+        "--levels",
+        "256:1:24,512:2:32,1024:4:48,2048:8:64,4096:16:96",
+        "--target",
+        "8.1",
+        "--taylor-degree",
+        "12",
+        "--radial-block",
+        "4",
+        "--cells",
+        "all",
+        "--out",
+        "{work}/postprocess/continue-full-curvature.json"
+      ],
+      "outputs": [
+        "postprocess/continue-full-curvature.json"
+      ],
+      "scope": "R672 complete all-cell/all-angle Euclidean curvature with all original modes, full analytic Laurent tails and actual first fundamental form; only unpaid cells refined; 8.1 is a bound target, not assumed reach",
+      "summary": {
+        "postprocess/continue-full-curvature.json": {
+          "complete_scope": "complete_scope",
+          "continuous_curvature_upper": "continuous_curvature_upper",
+          "target_certified": "target_certified",
+          "full_closed_immersion_certified": "full_closed_immersion_certified",
+          "target_paid_cell_count": "target_paid_cell_count",
+          "new_core_rho_lower": "new_core_rho_lower",
+          "conditional_four_p4_marker_curvature_upper": "conditional_four_p4_marker_curvature_upper",
+          "seconds": "seconds",
+          "peak_rss_kib": "peak_rss_kib"
+        }
+      }
+    },
+    {
+      "id": "continue-exact-same-candidate-geometry-combination-03",
+      "script": "topics/visible-flex-larger-amplitude/scripts/resume_20261120/actions_closed_geometry_combine.py",
+      "parent_bundle": "geometry_path/curvature-qp-spectral-hessian-r22-union-next-four.npz",
+      "args": [
+        "--bundle",
+        "{work}/geometry_path/curvature-qp-spectral-hessian-r22-union-next-four.npz",
+        "--node-report",
+        "{work}/fullclosed_solver/data/fullclosed-hold-warm.json",
+        "--first-geometry",
+        "{work}/postprocess/continue-direct-radius-refined.json",
+        "--curvature",
+        "{work}/postprocess/continue-full-curvature.json",
+        "--out",
+        "{work}/postprocess/continue-exact-geometry-combination.json"
+      ],
+      "outputs": [
+        "postprocess/continue-exact-geometry-combination.json"
+      ],
+      "summary": {
+        "postprocess/continue-exact-geometry-combination.json": {
+          "same_field_identity_paid": "same_field_identity_paid",
+          "body_complete_scope": "body_complete_scope",
+          "curvature_complete_scope": "curvature_complete_scope",
+          "all_t_closed_C2_embedding_certified": "all_t_closed_C2_embedding_certified",
+          "all_t_strong_C2_phase_continuity_certified": "all_t_strong_C2_phase_continuity_certified",
+          "all_t_reach_lower_certified": "all_t_reach_lower_certified",
+          "fixed_grip_has_relative_interior": "fixed_grip_has_relative_interior",
+          "all_original_cells_nonplanar": "all_original_cells_nonplanar",
+          "positive_Euclidean_shape_distance_including_reflections_certified": "positive_Euclidean_shape_distance_including_reflections_certified",
+          "geometric_targets_certified": "geometric_targets_certified",
+          "metric_certified": "metric_certified",
+          "fixed_metric_refinement_certified": "fixed_metric_refinement_certified",
+          "topic_completion_certified": "topic_completion_certified",
+          "marked_diameter_upper_exact": "marked_diameter_upper.exact",
+          "marked_diameter_upper_decimal_floor": "marked_diameter_upper.decimal_floor",
+          "marked_support_lower_exact": "marked_support_lower.exact",
+          "marked_support_lower_decimal_floor": "marked_support_lower.decimal_floor",
+          "marked_curvature_upper_exact": "marked_curvature_upper.exact",
+          "marked_curvature_upper_decimal_floor": "marked_curvature_upper.decimal_floor",
+          "marked_witness_distance_lower_exact": "marked_witness_distance_lower.exact",
+          "marked_witness_distance_lower_decimal_floor": "marked_witness_distance_lower.decimal_floor",
+          "marked_reach_lower_exact": "marked_reach_lower.exact",
+          "marked_reach_lower_decimal_floor": "marked_reach_lower.decimal_floor",
+          "reach_over_diameter_lower_exact": "reach_over_diameter_lower.exact",
+          "reach_over_diameter_lower_decimal_floor": "reach_over_diameter_lower.decimal_floor",
+          "held_over_diameter_lower_exact": "held_over_diameter_lower.exact",
+          "held_over_diameter_lower_decimal_floor": "held_over_diameter_lower.decimal_floor",
+          "grip_over_diameter_lower_exact": "grip_over_diameter_lower.exact",
+          "grip_over_diameter_lower_decimal_floor": "grip_over_diameter_lower.decimal_floor",
+          "reach_over_D_target_paid": "targets_certified.reach_over_D",
+          "held_over_D_target_paid": "targets_certified.held_over_D",
+          "grip_over_D_target_paid": "targets_certified.grip_over_D"
+        }
+      },
+      "scope": "Exact rational R650 combination on the same actual candidate; full marked embedding/held/grip/noncongruence preserved even if K is unpaid; compare 3/100 and 1/5 exactly, metric/refinement/completion stay false"
+    }
+  ]
+}
