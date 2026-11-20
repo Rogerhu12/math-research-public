@@ -275,3 +275,7 @@ positive推L1–25及pure13580B/2c5002f9，global整篇/整源独审；root再�
 ## 2026-11-20 15:19 UTC：原同格Green两三角准确矩及源无关递推复用
 
 会话visible-exact-astra-ac637-20261120。joint给GM1–17与pure21692B/abd5146e，root整读并对照原congruence/packed recursion：HS²=h²(trace(PtUPZ)+traceY−2trace(PtY))保signed抵消，五193 block Taylor/doubling无需579dense/Kronecker/Sylvester逆。逐点W(s)先由完整box付PSD diagonal majorant，不能用constant冒积分；trueh/mean/root97/outer96保。A/B/K可一次复用、J/right两批原精度流，无新增pack费。proof12861B/5005310c；未改active R141或创建新owner，0科学，无实际收缩/速度保证。
+
+## 2026-11-20 15:20 UTC：同选定成员的正区Newton源最小补尾合同
+
+会话visible-exact-astra-ac637-20261120。positive给N1–21及pure18365B/b92230d4，root整读并核原R2/R12/R16–18：δ*来自原implicit pair，不设为1e−10；R141共同η/ΔL/GH uniform限制后同WOBSA选定normalization。CRA整个[0,.9]直接限制到真根，旧whole7721 source三球只读；仅补[.9,25/8] raw/centre repair/完整二三次源，旧e0/e1因真实方向线性缩1/100，mean rank保。七量依序保存读回，high不混f0低背景，trueRobin/physicalmean仍独立。proof14247B/65f0b43b；0科学，准备新公开consumer。

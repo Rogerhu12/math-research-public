@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R141同一selected成员与完整正区Newton源](results/R141-supplement-selected-member-and-complete-positive-Newton-source.md)：δ*为原隐式对且|δ*|<1e−10，uniform R141/ΔL/GH可准确限制；旧CRA全core直接覆盖真根至.9，仅新增.9至R的raw/repair/二三次源。完整7721方向源只读，1e−8方向幅度按齐次性缩1/100，mean不删；7新量pure core已证，尚未数值，不授实际边界残差/逆。
+
 - [R141同格两三角的准确矩积分与输出复用](results/R141-supplement-exact-cell-Green-moments-and-shared-output-covariances.md)：signed完整HS²可由五个193矩阵的block Taylor/doubling取得，无Sylvester谱假设；variable source先付逐点PSD协方差majorant，不能当constant。源无关A/B/K共享与两批J/right流保原pack/trueh/193atoms；纯core已整审，未改运行中的44730452579，未产新defect或逆。
 
 - [R138真实根锚定的局部漂移与容量](results/R138-supplement-root-anchored-local-drift-and-capacity.md)：辅助flow在真r*取恒等初值，根接收配对无需再作density变换，能量仍完整付sqrt(Gammaloc)；actual Theta/source mean、旧rE/rB及QH尾不删。与独立旧全域body估计可并用，局部D/Gamma两scalar仍未求；仅新解析接收器，非根门或全逆。
