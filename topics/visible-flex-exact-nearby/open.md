@@ -171,8 +171,8 @@ R138的[几何桥](results/R138-residual-sensitive-Codazzi-frame-and-geometric-J
 
 [R138体能量/根迹](results/R138-supplement-Volterra-Grushin-energy-and-root-defect-trace.md)已给同真Qrepair齐次核的有限能量辨认、K≥x/120和反向Volterra HS界；Grushin常数209/78、419/156及完整H^(-1/3)根缺陷消去任意未知体范数。下一项须实际付k_s/C_E/C_H/角图/E0/E1与全根型C_*，再验证A<2、C<1、T²<4(2−A)(1−C)。这些仍未数值通过；真实DF与WVC hybrid额外主部差继续独立，不能据此宣布无核。
 
-[R138实际全角比较](results/R138-supplement-actual-root-angular-comparison-and-mean-readout.md)已用旧完整角缺陷和repair支付完整2π理想角ODE到真实periodic frame/位置的C0差<1.1e−6/4e−5；没有将角ODE端点免费拼圈。完整mean分母D=<rho(A0X+B0Y)>·ell，只用frame值及已知系数一阶导，因此下一最小角消费者可先算D并付C0转移，不依赖轴位置重算。D离零/有限根型/真正高尾导数仍待。
+[R138实际全角比较](results/R138-supplement-actual-root-angular-comparison-and-mean-readout.md)已用旧完整角缺陷和repair支付完整2π理想角ODE到真实periodic frame/位置的C0差<1.1e−6/4e−5；没有将角ODE端点免费拼圈。完整mean分母D=<rho(A0X+B0Y)>·ell，只用frame值及已知系数一阶导，因此下一最小角消费者可先算D并付C0转移，不依赖轴位置重算。D离零已由下述首次actual完成；有限根型/真正高尾导数仍待。
 
-[R138最小全圈mean公开合同](notes/2026-11-20-R138-root-mean-angular-contract.md)11当前/6历史已完整双审和静核，320bits/8192整个闭角格、同真根/所有模式/mean和W.16实际frame费；只消费原axis文件的load/definition，不运行轴q/s，不建W2C context。首次push启动，保存完整decimal D球后判号；零未分离也只登记完整包围。根finite+tail、体吸收与全逆仍待。
+[R138最小全圈mean公开合同](notes/2026-11-20-R138-root-mean-angular-contract.md)11当前/6历史已完整双审和静核，320bits/8192整个闭角格、同真根/所有模式/mean和W.16实际frame费；只消费原axis文件的load/definition，不运行轴q/s，不建W2C context。[实际44733403315/1](results/R138-supplement-actual-full-circle-root-mean-denominator.md)已完成全8192格且saved D严格17/20<D<87/100，mean逆费<20/17；1新target冻结，原轴不读/不重算。根finite+tail、体吸收与全逆仍待。
 
 公开科学只用本仓库Actions，规则15只留脚本/参数/run/hash/小结论；0旧成功重算，非FF立即rebase推到成功，每次pull两README差异记H。readonly44712172133成功与旧43921663540运维失败保持原范围；无静态他题workflow行政白名单，逐次仍核topic≤200MB。

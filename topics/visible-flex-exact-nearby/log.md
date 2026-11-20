@@ -87,3 +87,7 @@ W补篇7475B/SHA36150e78e3fade8bd8f0af293177deed6150d507601a84b7a426999cf5390df9
 ## 2026-11-20：根mean完整圆周首次公开封包
 
 source12961B/SHAaffc4dd2、worker27817B/SHA95cadbb2、generator11488B/SHA1f3f9c4d、合同5092B/SHAdca2a49e；manifest8539B/SHA2b71e82c6822d99dc10ce2167d1b29ca70f0bc832c28938bdb9e9f79d729eb47，11当前/6历史。root整读源码、合同、worker差异、generator/YAML，与joint独立核8192whole-cell Rodrigues和全部误差、同局部proper rotation/ell读出、W16真实frame转移及saved decimal sign。逐当前bytes/SHA/blob/历史blob全核，0本机科学。marker成功push后才单child，失败保完整小前缀、旧q/s不重算、无正域4650或W2C重建；根能量/逆仍false。共享workflow单次push启动。
+
+## 2026-11-20：全根圈实际mean分母首次正分离
+
+44733403315/1实际8192闭角格完成，完整saved decimal D≈.8581216916±.0044947521，严格17/20<D<87/100；chi<1，W16真实frame费约1.0571e−6已计，mean逆费<20/17。root核11当前bytes/SHA/blob、manifest整表、6历史blob及恢复回执、actual hash/scope整对象、4完整README空diff/总5次链。actual4131B/SHAde3a1460；child0/1.997779750999996s，0旧q/s或producer/目标重算/数组。1新target冻结，不授根finite/high尾或体吸收；H当前R138长段改为本次pull前的完整不可变H索引保所有资格。

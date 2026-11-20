@@ -1,12 +1,12 @@
 # 交接：可见振幅的精确闭等距族
 
-维护会话：`visible-exact-astra-ac637-20261120`；更新：2026-11-20 12:09:06 UTC。
+维护会话：`visible-exact-astra-ac637-20261120`；更新：2026-11-20 12:13:39 UTC。
 **总任务未完成；继续研究，不等用户回复。**
 
 ## 规则读点与接续来源
 
 部分克隆：`/workspace/scratch/ac637cfcc78d/math-research-public`。终端 git 已恢复，无 AGENTS。
-2026-11-20 12:09:06 UTC 实际pull/rebase至 `d5439ce3f687c458611abf06e575d9adc757958d`；已读规则提交同上，两README相对96edc6770空diff。每次pull后核规则差异；下次实际pull最迟13:09:06 UTC。
+2026-11-20 12:13:39 UTC 实际pull/rebase至 `3f2b9d43a7d40613d2410082573094a5a32f485f`；已读规则提交同上，两README相对96edc6770空diff。每次pull后核规则差异；下次实际pull最迟13:13:39 UTC。
 
 接手前完整 H（含全部递归原页、成功/失败/恢复身份和未付义务）见 [2026-11-16 完整检查点](https://github.com/Rogerhu12/math-research-public/blob/882aa9b74efeaac682df43c197820e7280156357/topics/visible-flex-exact-nearby/HANDOFF.md)。本页只压缩索引；`open.md` 及所链接的原证明、适用域、均值、物理角、所有边界和误差费用继续有效。旧成功结论不重算。
 
@@ -37,13 +37,9 @@ geometry `43584188751/26` **仅条件性**：同η0真 wholecore（含帽）C0�
 
 [R140](results/R140-complete-mean-split-low-family-comparison.md)保same-eta hybrid四块/primitive/mean与核后RMS，0数值。[R141](results/R141-low193-directed-green-and-complete-observation-certification.md)给有向低193/193atoms/whole-box合同，实际ε<1未付；七ports/CFB/finiteρ不删。[共同标量包围](results/R141-supplement-shared-scalar-whole-box-factors.md)已证signed Taylor及完整positive tail，保持同模型/真h/S/各源/两三角，只AST。
 
-R138[几何桥](results/R138-residual-sensitive-Codazzi-frame-and-geometric-Jacobi-bridge.md)及[旋转能量](results/R138-supplement-rotation-energy-and-complete-endpoint-form.md)保真实残差、mean/193mixed行/hybrid差，不以形式椭圆性授逆。[实际support](results/R138-supplement-actual-positive-support-for-repaired-physical-frame.md)同Qrepair/η0/ν0全[0,25/8]有|F|<319/250、F·n>9/10；[actual outer负型](results/R138-supplement-actual-outer-rotation-energy-and-mean-defect.md)付全频DN/mean初值，原Qδ零stable齐次核能量域已识别，不移授hybrid。
+R138此前完整各补篇与全部scope保于[均值运行前的H](https://github.com/Rogerhu12/math-research-public/blob/f6731a96976a0ed03615032770aff23b56e5aebc/topics/visible-flex-exact-nearby/HANDOFF.md)。同Qrepair全域物理frame support、outer负型、准确H输运及真DF弱核能量已付；固定p=e_z/2有support>2/5。V的K≥x/120、Volterra根权、Grushin209/78和419/156将未知体范数化为两原能量。hybrid差、实际residual与完整根型吸收仍待。
 
-[准确输运](results/R138-supplement-exact-residual-transport-and-fixed-interior-point.md)用单一p=e_z/2有support>2/5，H守恒输运无方向角导源，完整能量/Sobolev费用保。[真实root全角型](results/R138-supplement-complete-root-angular-form-and-two-scalar-geometry.md)保low96/high stable/mean/H，高频主符号正但finite/均值分母/体吸收仍待。
-
-[体能量与根迹](results/R138-supplement-Volterra-Grushin-energy-and-root-defect-trace.md)已付K≥x/120、Volterra根权与Grushin209/78、419/156；未知体Sobolev范数化为两原能量，真DF弱核具有限能量。实际residual预算/完整根型吸收三门仍待，hybrid不免。
-
-[全角比较/mean读出](results/R138-supplement-actual-root-angular-comparison-and-mean-readout.md)已付真实periodic frame/位置C0转移<1.1e−6/4e−5；完整分母只读frame值，无须先等C1。新角ODE/实际分母和全根型仍待。
+[轴44730968113](results/R138-supplement-actual-same-anchor-root-axis-support.md)保完整nominal/error球给−.356<q<−.006、.970<s<1.320，宽展示球不可单用。[全角转移](results/R138-supplement-actual-root-angular-comparison-and-mean-readout.md)付frame/位置C0费<1.1e−6/4e−5；[全圈mean44733403315](results/R138-supplement-actual-full-circle-root-mean-denominator.md)已付17/20<D<87/100，mean逆费<20/17，两个成功冻结。真实low96/high stable/mean/H不删，finite+tail及体吸收尚待。
 
 ## 已有正侧链与完整旧资格
 
@@ -57,7 +53,7 @@ WIC原m160/N24480真tail逆κ=3已证；WPN只有完整e+3dt<1才授双边逆、
 
 1. 原L44724797559/1冻结3/50，centre44727185157/1独立1条给K>80，余47不再为已排配方算；atom/endpoint成功及所有旧0scalar失败均冻结。
 2. positive_inverse：R141有向44730452579/1运行，71输入/768bits，先完整defect，ε<1后才4源/193atoms/wholebox。接着闭完整high反馈；CFB/finiteρ/7ports未删。
-3. global_route：R138已付support/outer/输运/root主符号；[根轴44730968113/1](results/R138-supplement-actual-same-anchor-root-axis-support.md)已核冻结：全4650行，完整nominal/error给−.356<q<−.006、.970<s<1.320；宽展示球不可单凭flag消费。[全圈mean首次合同](notes/2026-11-20-R138-root-mean-angular-contract.md)11当前/6原件、8192闭角格/SHA2b71e82c，首次push启动；轴不重算。继续finite+tail与体吸收。
+3. global_route：R138已付support/outer/输运/root主符号；[根轴44730968113/1](results/R138-supplement-actual-same-anchor-root-axis-support.md)已核冻结：全4650行，完整nominal/error给−.356<q<−.006、.970<s<1.320；宽展示球不可单凭flag消费。[全圈mean44733403315/1](results/R138-supplement-actual-full-circle-root-mean-denominator.md)全8192格已正分离，1/D<20/17，11当前/6原件核全；轴不重算。继续finite+tail与体吸收。
 4. joint_kernel已给R137 finite桥，复核能量与直接signed投影缺陷；root逐结论审、记、推。公共worker每轮实际push成功才返回，非FF即时rebase。
 
 ## 正侧以外仍未付的接口

@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R138实际全根圈mean分母](results/R138-supplement-actual-full-circle-root-mean-denominator.md)：44733403315/1全8192闭角格、11当前/6历史完整核；真实periodic frame的saved decimal球约.8581216916±.0044947521，严格17/20<D<87/100，mean消元逆费<20/17。原轴不读/不重算，1新target冻结；finite+high尾/体吸收/全逆仍待。
+
 - [R138全圈mean分母首次公开合同](notes/2026-11-20-R138-root-mean-angular-contract.md)：11当前/6历史原件、320bits/8192完整闭角格，Rodrigues正交传播和whole-cell积分保同Qrepair/真根/完整mean与所有模式；加W.16真实frame费，保存完整decimal球再判号。源与worker双审/全pin核，首次Actions；不读取或重算轴q/s，不授根正型/全逆。
 
 - [R138真根全角比较与mean读出](results/R138-supplement-actual-root-angular-comparison-and-mean-readout.md)：只读既有全圈几何/角缺陷，证明同轴初值的完整2π理想角ODE与真实periodic Qrepair frame/位置之差分别<1.1e−6、4e−5。完整mean分母改写为只含frame值的平均，故C0费足以转授其实际球；未算新角ODE/分母，真正高尾导数费用不免。
