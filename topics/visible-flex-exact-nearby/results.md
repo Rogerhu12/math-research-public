@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R138原Gamma的谱闭行预算仍排除](results/R138-supplement-actual-old-Gamma-spectral-box-budget-excluded.md)：原positive第1000行已选预算迫Csp>11，既成X/Y球给aEEsp>918705/2500000；RS完整T<125使原Γ根费>4121504/2500000，和>2。只排该box算法和原Γ组合，不授真实谱范数下界或BVP奇异；无新科学，不运行这条已排配方。
+
 - [R138互补Gram的准确谱体预算](results/R138-supplement-complementary-Gram-spectral-body-energy.md)：原p=1/q=K梯度Gram可用准确最大特征值替代trace和，保完整H/mean/真实角与旧body范数；同闭行η端点的Loewner凸包给新算法，只消费旧完整背景。新谱常数尚未求值，原Γ组合另有必要筛查，不授根门或逆，0科学。
 
 - [R141真实物理源对与原径向尾接线](results/R141-supplement-actual-physical-source-pairs-and-reusable-bounds.md)：完整signed F/e、原24480 ordinary/jump tail与B/E/P/T四量纯核已证；18实际输入缺项不填0，原WOBSA/连续Z只读，δ0不冒selected。ν显式0具完整metric/exterior依据，S19保真实Robin/physicalmean残差；实际data大小/逆/负区matching继续待，0新科学。
