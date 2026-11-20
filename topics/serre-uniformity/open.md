@@ -24,6 +24,8 @@ R969公开三点113/131/227得到全mask rank10/11/19、A/E4组合及额外两q�
 
 [R997](results/R997-original-epsilon-vector-and-unitary-boundary-source.md)：实际原ε-vector=(6d0)^−1Σ_(r mod6)ε(r)Ψ_(Hr)确在旧UH36空间，靠CM整源/108基独立性/常数theta矩阵证明，非仅coset支持。**λ^−1J(λu,λv)=Θε(v,u)**保交换轴/Gaussian/相位；原Π4变t轴、L²变z轴，lift Lz³Lt²与w_d→w_(−d)保同h。完整首p矩形整；其source须保bulk [𝒟,Lz]=−wp∂t−6Dζ+(3X0/2)t及Π shift。原边界首导数(B/6)γ_(p−1)(z)G″(t)被Π4杀；指定critical Π4Lz²𝒟^kR在k≤7全零，k8仅两端且g2/h2准确单位（89被mod9排），不是R995 D³Z/原critical单位。旧UH/MH曲率不重登；root/audit全文独审。
 
+[R998方法](notes/R998-original-second-end-column-execution-method.md)冻结并提交新j1原端列的短公开请求：a=p−13,b7,h=p−10，完整R968 single/double项（含单位轨道零项）与独立整数ODE双核精确cusp有理数，P10两路、四个固定整数全因子分解及逐因子完整试除；仅分类真实因子，原坏因子不预设为空。30s consumer/45s wrapper，stdout和/tmp，无旧窗或j0重算；method ec9edd293d1a44fd35f4f70a89bfce6d62fcc0e02e639d4ecb839ff8f2eb67ca，script b4a76a3dd37088c7dab1f8083723b0d51f123f566b3d485226070a82a524062b。root/audit全代码及源独审，只本地AST/hash；R999待公开回执，不提前登记exception set。
+
 ## O2：完整原超奇异迹、真正CM packet及近顶unit系数
 
 原全SS和S含所有点、t0权1/非零H根权3/fine12/椭圆零项；指定j0项为零不能代全和。R936/939/941原trace、Jacobi ODE和CT公式全部已成，源C负RHS、β^p=β、Tate E6=−c6、η12=−6sD、KS正号保全。R963公开允许r2的1000<p≤1e5全部1582点无零；R967独立κ/g_p两点尺度通过，只有限证据。

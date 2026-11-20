@@ -6,7 +6,7 @@
 
 **维护会话：serre-public-astra-20261120-de0a3e3b。** 已部分克隆并真实pull main，接手serre-public-astra-20261115。压缩前逐字状态在[最新H归档](handoff-archive-2026-11-20-before-original-unitary-source.md)，沿链保全部旧source/SHA/尺度/失败边界，不重做已登记结论。
 
-**已读规则提交：870b797170b94046c25ab4209722265aa8637174**（2026-11-20T15:30:28.710492+00:00；终端真实git pull --rebase origin main，两README无diff）
+**已读规则提交：8e97376ea301fd22494040758b4ec089efde2ea0**（2026-11-20T15:33:42.650809+00:00；终端真实git pull --rebase origin main，两README无diff）
 
 两README完整已读，SHA256 root 581402c2 / topic 35f82f3d。每结论立即推；每push前且至少每小时真实pull；每pull检查两README，有变只读diff立刻照办并记已读SHA。NFF/lock-ref竞态立即pull --rebase再推直到成功，禁force。PAT只CLI，不入文件/提交；root独占main/H/open/index/log。
 
@@ -46,7 +46,7 @@ R991已完整认证R989旧r8差集349点（1000..20000），原三路/全hash见
 
 [R994](results/R994-certified-original-combined-windows-through-200000.md)：R993公开run44760218207/job136370438703/source248592d7fabd01b1b8c548237400767e9ecec001已成功，531.337922156s且final预算真/exit0。新r8的20000..200000共2622点（20021..199877），新r2的100000..200000共1386点（100019..199967），总4008全非零/无尾段；各行首两点20021/20117/100019/100103原三路一致、完整wp ODE及全部首resonance核过。root纯IO逐块重组8段contract/7段summary，核全部sources/列表/rows/flags；payload2865567B SHA e764dff838bb24b18c8fec7f7634c2044f403e59e23a349cc00d0554c000dc8d。R988给这两个有限集原S单位，不推全p/同h/height；current R993 request完成，禁止重触发。method c1913358/script2e60046f及全部pins在回执，无raw artifact。
 
-继续R995实际filtered关系；R996已证5∤p+1整族原V非零，继续5|p+1与actual G作用；R997已证完整原源/边界深度，继续Tε真实bulk。R998在准备j1尖点常数的极短公开exact核（无prime窗口），R999留回执；O2残数/period defect非退化仍开。主目标OPEN。
+继续R995实际filtered关系；R996已证5∤p+1整族原V非零，继续5|p+1与actual G作用；R997已证完整原源/边界深度，继续Tε真实bulk。R998已冻结新j1尖点exact核：method ec9edd29/script b4a76a3d，30s/全试除/双有理通道；现提交公开请求，无prime窗口，R999待回执；O2残数/period defect非退化仍开。主目标OPEN。
 
 ## 继承任务与永久边界
 

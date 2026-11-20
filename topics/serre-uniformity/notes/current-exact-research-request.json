@@ -3,36 +3,30 @@
     "root": "581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102",
     "topic": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
   },
-  "rules_last_read_commit": "5d98b781dbad30feec13ce1eb0de28b64cdb8b7e",
-  "execution_attempt": "R993 one bounded first-zero falsification search on genuinely new disjoint original windows: r8 20000<p<=200000 and r2 100000<p<=200000, merged in increasing p; the frozen R989 request is completed and not rerun.",
+  "rules_last_read_commit": "870b797170b94046c25ab4209722265aa8637174",
+  "execution_attempt": "R998 fixed second original end column only, j=1. New exact cusp rational, original P10, complete factorizations and finite bad-factor classification. R993 is completed; no old prime window or j=0 constant is rerun.",
   "computations": [
     {
-      "name": "original-balanced-combined-disjoint-window",
-      "script": "original_balanced_combined_disjoint_window.py",
-      "script_sha256": "2e60046ffa0ea7cbf7534ad796bba8e4fd1086a5ef7198312089a73d96793f7e",
+      "name": "original-second-end-column-cusp",
+      "script": "original_second_end_column_cusp_consumer.py",
+      "script_sha256": "b4a76a3dd37088c7dab1f8083723b0d51f123f566b3d485226070a82a524062b",
       "arguments": [
-        "--budget-seconds",
-        "620",
+        "--seconds",
+        "30",
         "--output",
-        "/tmp/R993-combined-disjoint-window.json"
-      ]
+        "/tmp/serre-second-end-column-cusp.json"
+      ],
+      "wrapper_timeout_seconds": 45
     }
   ],
   "source_sha256": {
-    "scripts/original_r8_balanced_new_window.py": "96b3bbf3ec77c3c75a3870adebd9f348e7849f52b17dcda245f56229682f7160",
-    "notes/R989-original-r8-sparse-heat-and-Kronecker-window-method.md": "430459e1a80765b48efe83b1255a4f0a0bfbc7998dad5e8c3e039d2a8a76c4c0",
-    "results/R990-original-hypergeometric-fixed-r-coefficient.md": "5c35e72804eee83dde2c74af68232dea3a57c5d97ba39026a07329a7db25a7a1",
-    "results/R975-original-balanced-Kronecker-integral-heat-recurrence.md": "56ab77273393f6db838daea1a3973e1d9da69525eb120e665dccea88f64de101",
-    "results/R988-original-pure-balanced-Cartier-contraction-and-high-trace.md": "db82c7e799a7e54b7d91da329e4e6c113add5a98a519aab82df2a2e70de470a7",
-    "notes/R973-original-balanced-Kronecker-four-prime-execution-method.md": "32d4c836cacbb0467c668a4a968be62fe759cd188a3365bdfb9da9583d076269",
-    "results/R963-original-r2-moment-window-through-100000.md": "8259c94ba3474395d47debe638bf776c696821df848e310c647d9027c561c826",
-    "results/R991-certified-original-r8-balanced-window-through-20000.md": "1dfc30c1e246a778955c6470d7c668a83c017b6ee76055b16f548611c211d354",
-    "notes/R993-original-combined-disjoint-window-method.md": "c19133588a246f770f0a05820aff1d8046d87c83a898e1a6ec1cd240a00b6f06"
+    "results/R968-full-level-mixed-CM-jet-and-critical-factor.md": "186efc0cb109befcce458f931779802027d30193cfec687131f8fda5e10ccaaa",
+    "results/R996-original-end-column-cusp-unit-and-filtered-space-nonzero.md": "ee4e728d30dd08f9a40c3de54fc8660574c9ee8d04c4383f77a420d7076b7c1d",
+    "notes/R998-original-second-end-column-execution-method.md": "ec9edd293d1a44fd35f4f70a89bfce6d62fcc0e02e639d4ecb839ff8f2eb67ca"
   },
-  "runtime": "Python plus python-flint==0.9.0; public Rogerhu12/math-research-public Actions only, guarded before any mathematics including the sieve.",
-  "storage": "Stdout and runner scratch only; no artifacts, raw coefficient arrays, or Releases. Print exact requested sets, every completed row, and every uncompleted tail.",
-  "prior_coverage": "R991 completed original r8 through 20000; R963 completed original r2 through 100000; earlier R936/R939 and R973/R983 inputs are below the respective new lower endpoints. All old mathematical windows excluded.",
-  "independent_checks": "First two new primes in each row, if reached, and first zero: fixed-r hypergeometric main channel, original Chazy/CDQ, and original E-minus sigma via fast wp/CDQ with complete defining ODE residual and single carry.",
-  "budget_and_acceptance": "620 seconds total including source receipts, sieve, scratch and stdout; 15 seconds reserved for parent finalization. Accept only complete nonzero new sets or independently verified first zero, plus successful final budget receipt, exit zero, and successful job. Incomplete or failed tails remain unproved.",
-  "large_event_protocol": "For combined_event_chunk envelopes, require every zero-based index exactly once and consistent metadata; concatenate json_fragment in index order; verify ASCII byte length and SHA256, then JSON-decode original event. Do not accept chunk envelopes as a mathematical summary."
+  "runtime": "Python standard library only: exact Fraction arithmetic and complete trial division; public repository Actions only.",
+  "storage": "Stdout plus runner /tmp scratch only; no artifacts, Releases, committed raw reports, sigma arrays, or prime window.",
+  "fixed_scope": "Original b=7,a=p-13,h=p-10; complete R968 zeta terms including unit-orbit zeros; independent integer ODE cusp channel; two original P10 channels; only the four resulting fixed integer numerators/denominators are factored.",
+  "acceptance": "Consumer total <=30 seconds including hashing, arithmetic, scratch and stdout; all exact-route comparisons and complete factor/primality certificates must pass, with final timing within budget, exit zero and successful job. The true bad-factor lists may be nonempty. Outer wrapper timeout is 45 seconds.",
+  "mathematical_boundary": "Only global cusp nonzero-space scope, never CM marked unit or G-stability. The original mod6 label and modp representative remain distinct."
 }
