@@ -48,7 +48,7 @@ $$
 命名F满足此式，整个广义packet仍未证。精确完整序列
 $$
 0\longrightarrow M_r\longrightarrow H^0(\mathrm{SS},\omega^r)
-\longrightarrow S_w^ee\longrightarrow0
+\longrightarrow S_w^\vee\longrightarrow0
 $$
 表明最后商含真实CM支撑，不能借Serre-weight支撑杀整个商。实际任务只是、也必须是具体O像消失。[支持注](notes/R946-Hecke-localization-and-theta-saturation.md)已证w<p时全theta注入，所以若此饱和成立，R918/R942才可把完整高权packet压到原线，继而真正推出λ(F)非零。抽象乘性一、Gorenstein、完美配对或唯一eigenline都不够。
 
@@ -77,7 +77,7 @@ $$
 
 R921/R924的实际整completed Hom、两节点极界、完整inertia和原a_h均已解决相应normal首层问题。中央p^−a_h G_h整restricted且最高项单位；几何开盘零数由最小单位下标决定，不是有理零数或height。
 
-R945两中央Q中心阶恰2，scalar/w在pR0有唯一根，可能仍为中心。替代227/h151与857/h445同h临界积非零已成。R948正将既有R727全尾准则用于另一原坐标并下降二次根到Qp；这是这两个有限素数的原全Abel**零**集问题，不是一般rational point排除。原候选可能有非零Mordell–Weil像，仍须真正global/height关系。
+R945两中央Q中心阶恰2，scalar/w在pR0有唯一根，可能仍为中心。替代227/h151与857/h445同h临界积非零已成。[R948](results/R948-rational-quadratic-Abel-root-and-original-coordinate-separation.md)已由原共同phase和顶参考把二次根降到pZp；非中心 iff char0 M2非零，v(w*)=2+v(M2)−ν/2，ν在两例为0且v(M5)=−5。另一原坐标按R727完整tail准则只有中心零，故这两个有限p的原开盘全Abel**零**集恰中心；这不等于一般rational point排除。原候选可能有非零Mordell–Weil像，仍须真正global/height关系。
 
 R575关于正CM角色Ψθκ4、根号−1和中心值零的更正继续生效；相反twist的实际商/秩零断言已撤回。非挠、log、rank、深盘简单根、nonzero Abel坐标不能替代实际height。需要保原σ/cY、eη、d/N、完整nonp、Poincaré和splitting，而非只给模p单位。
 

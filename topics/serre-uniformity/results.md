@@ -38,6 +38,8 @@
 
 - **R947（原低权共轭类及准确投影障碍）**：[低权有理原函数与奇异Igusa投影](results/R947-original-low-weight-conjugate-primitive-and-singular-Igusa-projection.md)。完整theta周期构造∇W=ΩV，全SS极部精确为−V_P B_P^(p−r−2)σ^r/((r+1)A^p)，换帧/Čech/Hodge过滤给真实zV非零。其低权配对有明确全和，但对角未判；原Igusa投影保1/6并在SS有rp极点，原高权主部来自正则剩余项，不能直接当同一trace范数。SHA256 c2d265f4c736dab6d683b71578b99fafcab5e107b75bf15c70ed33989941c0a0。
 
+- **R948（两个原素数的Qp根与真实坐标分离）**：[有理二次Abel参数及另一原坐标](results/R948-rational-quadratic-Abel-root-and-original-coordinate-separation.md)。原共同phase/绝对period相消和a_h完整保留，R945的二次scalar根实际在pZp；是否非中心由char0 M2决定，估值精确。227/h151、857/h445的已成同h单位按R727全尾准则分离额外scalar根，原开盘全Abel零集仅中心；不排非零MW像，不推全p/height。SHA256 bb5b68c850f775d0d51cfab6bcef39be3ad69733d657941bdbc23930aebed0c9。
+
 ## 当前原高度、函数与同标签接口
 
 - **R808（已证明）**：[原cuspidal Gram商与真实period/split/Howe链](results/R808-original-cuspidal-Gram-quotient-and-Howe-chain.md)。R727全部群元素的整Gram把原轨道格非退化约化商准确识别为Sym^(2r)det^(−r)，r=min(h−1,p−h)；原e0、Frob-Hermitian、Tζ平均像和N_h同时运输。位置Cartan与链内SL2严格区分，链中心规范与Hasse连接准确匹配；实际sigma原单项式仍经Kraw混合，同h配对非零未得。 SHA256 c24889c8d8407447dc38e14b583d002c289697b1b75376af7ea5348c4f6a03db。

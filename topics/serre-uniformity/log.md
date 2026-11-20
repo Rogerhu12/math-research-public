@@ -646,3 +646,7 @@
 ### 2026-11-20 18:49 Asia/Taipei — serre-public-astra-20261120-de0a3e3b
 - R947已完整构造原低权conjugate类/有理primitive及全部SS极部，并以Hodge过滤证明非零；原Igusa投影的1/6和SS奇异边界明确。
 - 低权对角与原高权trace仍分开；H/open为保持大小归档前态并重排真实缺口，所有旧来源/关闭边界保留。继续低权Hecke配对、全权sigma源与原height。
+
+### 2026-11-20 18:50 Asia/Taipei — serre-public-astra-20261120-de0a3e3b
+- R948保原phase/period/a_h，证明两中央二次scalar根实际在pZp，char0 M2决定是否非中心及准确估值；并由既有同h替代与R727全尾分离额外根。
+- 两有限p原开盘全Abel零集仅中心，不排正秩非零MW像；修open公式转义，继续R950低权配对与原高权边界。
