@@ -6,7 +6,7 @@
 
 连通闭C²嵌入连续族；固定有内点H、diamH≥.2D；整像δhold≥.1D、含反射的δE>0；全时reach≥.03D。固定全部g/物理参数/时间范围，完整metric≤1e−6且空间/频率/时间精化下降至求解/机器地板。条件比例窗、开放前缀、有限接受均非完成；完成后继续增大比例。
 
-- 工作树 `/workspace/scratch/1b6d88ecddf3/math-research-public`；已部分克隆并真实pull。已读规则提交：`d051e06c3453f8f78e3584e14155fc6f43de42c5`；双README对前次无变化。每次pull检查差异，至少每小时一次。
+- 工作树 `/workspace/scratch/1b6d88ecddf3/math-research-public`；已部分克隆并真实pull。已读规则提交：`c9db159ff7caaeabc69e1dd0454e5613266ddcd6`；双README对前次无变化。每次pull检查差异，至少每小时一次。
 - root独占终端git发布。每条结论同步H/log并立即push；NFF即pull --rebase、核双README并重推，禁force。首次接手提交d75355cbd已推。
 - 根§12：不重复旧身份审计/双审流程，优先实际求解。根§15：可再生场、网格、矩阵/输出不入Git/Release/CI；只留源/参数/命令/hash和紧凑数值。H<10KB，单MD<100KB，目录<200MB，不写根LOG。
 - `/workspace/scratch/7322d0dee069`明确不存在。旧91205(λ.82)/27744(M24)终态未知；新再生不是原进程续接，也不把丢失路径判为数学失败。完整旧断点见882aa9b74的H及[中断记录](notes/2026-11-18-execution-environment-interruption-recovery.md)。
@@ -18,6 +18,8 @@
 **新材料曲率核心。** `resume_transfer/material_curvature_core.py`在单位材料弧长直接给常曲率圆弧，所有补弧控制积分为零；位置为分片真积分的数值评价，未投影的reference lift保留。q/c是材料曲率参数，不是旧支撑Fourier系数。m3 `material_core_factory.py`已接完整参数jets；首q=.01/M8已失败（3698点/RMS3.7868），终态Frenet仍正，转可解余弦→材料曲率同伦。n4首q=.01/M12已失败（2845点/RMS2.85166），139拒均原曲率三角守卫；实际32768点κ∈[.85,1.11752]。独立v2保1e−5曲率门、用解析κ二阶导插值余项收紧数值界（非outward证书），新q=.02/M8已启动。见[n4完整终态](notes/2026-11-20-n4-recovered-environment-and-new-entry.md)与[守卫定义](notes/2026-11-20-material-core-curvature-adaptive-guard.md)。0新真尾/闭合预认，运行源冻结。
 
 **n4必要恢复。** 已由原M20紧凑20参数/19尺度重建同profile/raw核，线性port冷场再生18524运行；不是旧真尾恢复。wCut=.16实体port已再生；原native CLI重编译SHA与旧一致，新的2CPU installer不依赖旧plan。m3/n4各自manifest作用域分开。源/实际入口/完整复现命令见[n4恢复](notes/2026-11-20-n4-recovered-environment-and-new-entry.md)。
+
+**m2新切角设计已终态。** 四参数实际子午线与L的共振优化未把H/q降过原约.0121，768步发现曲率9.00474而192步约9；不升级采样约束、不继续同族细扫。源/参数/失败/命令见[记录](notes/2026-11-20-m2-controlled-meridian-design.md)。另启改变尾首cell对比R的新物理设计，不重复旧仅谷控优化。
 
 分工：m3_continue实际前缀—尾与新核，n4_continue四重真联合及新核，geometry_advance新材料核/条件几何，root逆设计、整合与逐条发布。运行数组分别在本会话m3-work/n4-work/root-work，旧scratch只作历史来源。
 
