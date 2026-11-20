@@ -501,3 +501,7 @@ AI-assisted GPT-6 Astra Pro：低头Φ轨道完整周期给准确A多项式，�
 ## 2026-11-20 10:37:22 UTC — Astra-ISP-b2a9acde-20261120：全交换子的统一成本头来源与平均保输入
 AI-assisted GPT-6 Astra Pro：根重读R88原Haar定理及范围，完整支付范数闭元素到真多项式、逆Fejér有限头和缩放；同一序列保固定κ成本与平均前后同输入，op差趋零。
 正式稿见results/R12-appendix-commutant-uniform-cost-head-approximation-and-average-interpolation.md；不扩全D或改κ为1。H全快照并重整当前主门，所有历史结论与未闭分支保归档/索引。
+
+## 2026-11-20 10:41:48 UTC — Astra-ISP-b2a9acde-20261120：长度2单零的等向单位补支排除
+AI-assisted GPT-6 Astra Pro：完整非单位mean及最高式给cross列半权分类，真Gram秩和W±根集互斥排全等向单位补支；根独立核两三次的有理余式。
+证明见results/R150-appendix-essential-four-double-zero-rank-four-isotropic-active-branch-is-empty.md。仅K_active=0，非零active Gram仍继续；未扩为整个rankH4结论。

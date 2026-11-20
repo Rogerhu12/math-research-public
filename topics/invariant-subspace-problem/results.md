@@ -336,3 +336,5 @@
 - **原有限共轭平均、准确多项式与无损截断成本（2026-11-20，已证明）：** [有限周期、细圆柱压缩与准确提升](results/R12-appendix-finite-conjugation-average-and-lossless-polynomial-head-cost.md)使有限头下三角B的完整N项平均成为原A多项式；对任意固定次数p，细圆柱排高次返回，给c_A(p(A_m))≤‖p(A)‖及α_m误差夹逼。逆Fejér系数准确提升p(A)，全部有限头提升成本下确界恰‖p(A)‖。未宣平均保任意输入插值。
 
 - **原全部交换子的统一成本有限头及平均插值（2026-11-20，已证明）：** [原R88、真多项式及同一有限头提升](results/R12-appendix-commutant-uniform-cost-head-approximation-and-average-interpolation.md)对任意X∈{A}'给c(C_l)≤κ‖X‖，C_l和有限共轭平均ΠC_l同强趋X，且两者普通op范数差趋零。κ=(1+ρ)³/(1−ρ)固定，源/平均的同一有限输入族误差实付；不宣κ=1、c差趋零或全D保成本近似。
+
+- **R150 长度2单零rankH4的等向单位补支为空（2026-11-20，已证明）：** [原完整mean、cross列及W±支撑排除](results/R150-appendix-essential-four-double-zero-rank-four-isotropic-active-branch-is-empty.md)只在K_active=0假设下，精确半权子集分类与highest/Gram秩关闭所有分支；P±无共同根以原有理余式直接证明。保全部∞和非单位L，不把受限等向子支扩大成整个长度2单零问题。

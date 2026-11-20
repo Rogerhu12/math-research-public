@@ -120,3 +120,5 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 **[有限共轭平均与无损多项式成本已闭](results/R12-appendix-finite-conjugation-average-and-lossless-polynomial-head-cost.md)。** 任意有限头下三角B的Φ周期N，完整平均给原A多项式准确系数；真实截断p(A_m)的最优c不超过‖p(A)‖，并有显式α_m误差夹逼。用N/(N−d)逆Fejér系数可准确提升任意固定p(A)，成本下确界恰其原范数。仍须同一输入的所有共轭像控制，普通D强稠密不支付平均插值。
 
 **[原全交换子的统一成本有限头与平均保输入已闭](results/R12-appendix-commutant-uniform-cost-head-approximation-and-average-interpolation.md)。** 仅用原Haar R88及本次无损提升，得到c(C_l)≤κ‖X‖固定、C_l与真多项式ΠC_l同SOT趋X，且普通op范数‖C_l−ΠC_l‖→0；任意同一有限输入族均保。κ=(1+ρ)³/(1−ρ)，未降为1，未扩全D。下一研究尾误差精化和受原来源约束的实际预算，不以强近似推统一localizing或紧交换子。
+
+**[rankH4长度2单零且单位长度3全等向的子支已空](results/R150-appendix-essential-four-double-zero-rank-four-isotropic-active-branch-is-empty.md)。** 完整原mean给U_i∈{0,2d0}与半权子集，highest及真Gram秩排所有cross列；最后以W±两个三点根集互斥排支撑重合矛盾。只闭K_active=0，未假设一般单位补因子全等向；正文保准确非单位mean接口供其余支路继续。
