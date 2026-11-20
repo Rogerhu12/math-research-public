@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R138真根全角比较与mean读出](results/R138-supplement-actual-root-angular-comparison-and-mean-readout.md)：只读既有全圈几何/角缺陷，证明同轴初值的完整2π理想角ODE与真实periodic Qrepair frame/位置之差分别<1.1e−6、4e−5。完整mean分母改写为只含frame值的平均，故C0费足以转授其实际球；未算新角ODE/分母，真正高尾导数费用不免。
+
 - [R138根轴两标量实际包围](results/R138-supplement-actual-same-anchor-root-axis-support.md)：44730968113/1全4650闭行/3594接口完成，11当前/10历史回执全核；完整nominal与误差球推出−.356<q<−.006、.970<s<1.320。保存的宽展示q球不单独授负性，后继消费完整三个球；两个新量冻结，0旧重算。全角/mean分母/根型和全逆仍待。
 
 - [R138体能量与真根缺陷迹](results/R138-supplement-Volterra-Grushin-energy-and-root-defect-trace.md)：已付K≥(r−r*)/120，反向Volterra的平方核权取消根奇性；显式209/78和419/156给旋转体H^(2/3)/根H^(1/3)，完整缺陷有H^(−1/3)根迹。残差吸收只剩两个原能量及已知系数预算，原真DF弱核体能量合法；实际系数/根型三标量门仍待，hybrid差不免。

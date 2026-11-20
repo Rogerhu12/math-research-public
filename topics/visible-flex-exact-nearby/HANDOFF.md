@@ -1,12 +1,12 @@
 # 交接：可见振幅的精确闭等距族
 
-维护会话：`visible-exact-astra-ac637-20261120`；更新：2026-11-20 12:00:22 UTC。
+维护会话：`visible-exact-astra-ac637-20261120`；更新：2026-11-20 12:01:16 UTC。
 **总任务未完成；继续研究，不等用户回复。**
 
 ## 规则读点与接续来源
 
 部分克隆：`/workspace/scratch/ac637cfcc78d/math-research-public`。终端 git 已恢复，无 AGENTS。
-2026-11-20 12:00:22 UTC 实际pull/rebase至 `d09b8b8b042695483ff380e100e1fd774f38aaec`；已读规则提交同上，两README相对96edc6770空diff。每次pull后核规则差异；下次实际pull最迟13:00:22 UTC。
+2026-11-20 12:01:16 UTC 实际pull/rebase至 `e060ee931f43dcf303d391eeaa1f9f697c5c50a2`；已读规则提交同上，两README相对96edc6770空diff。每次pull后核规则差异；下次实际pull最迟13:01:16 UTC。
 
 接手前完整 H（含全部递归原页、成功/失败/恢复身份和未付义务）见 [2026-11-16 完整检查点](https://github.com/Rogerhu12/math-research-public/blob/882aa9b74efeaac682df43c197820e7280156357/topics/visible-flex-exact-nearby/HANDOFF.md)。本页只压缩索引；`open.md` 及所链接的原证明、适用域、均值、物理角、所有边界和误差费用继续有效。旧成功结论不重算。
 
@@ -42,6 +42,8 @@ R138[几何桥](results/R138-residual-sensitive-Codazzi-frame-and-geometric-Jaco
 [准确输运](results/R138-supplement-exact-residual-transport-and-fixed-interior-point.md)用单一p=e_z/2有support>2/5，H守恒输运无方向角导源，完整能量/Sobolev费用保。[真实root全角型](results/R138-supplement-complete-root-angular-form-and-two-scalar-geometry.md)保low96/high stable/mean/H，高频主符号正但finite/均值分母/体吸收仍待。
 
 [体能量与根迹](results/R138-supplement-Volterra-Grushin-energy-and-root-defect-trace.md)已付K≥x/120、Volterra根权与Grushin209/78、419/156；未知体Sobolev范数化为两原能量，真DF弱核具有限能量。实际residual预算/完整根型吸收三门仍待，hybrid不免。
+
+[全角比较/mean读出](results/R138-supplement-actual-root-angular-comparison-and-mean-readout.md)已付真实periodic frame/位置C0转移<1.1e−6/4e−5；完整分母只读frame值，无须先等C1。新角ODE/实际分母和全根型仍待。
 
 ## 已有正侧链与完整旧资格
 
