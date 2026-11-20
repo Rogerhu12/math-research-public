@@ -6,7 +6,7 @@
 
 **维护会话：serre-public-astra-20261120-de0a3e3b。** 已部分克隆并真实pull main，接手serre-public-astra-20261115。最新前态逐字在[H归档](handoff-archive-2026-11-20-before-conjugate-primitive.md)与[open归档](open-archive-2026-11-20-before-conjugate-primitive.md)，内接全部旧pins/公式/关闭边界。只消费已成来源，不重做已登记结论。
 
-**已读规则提交：424f1e069cc9610ad40aaf3e1751c70b52448a7c**（2026-11-20T11:43:41.621557+00:00；终端真实git pull --rebase origin main，两README无diff）。相比b77de2c7仅根课题表新增held-10pct；两README完整已读。root SHA256 581402c2 / topic 35f82f3d。此前来源与原pins沿[旧归档](handoff-archive-2026-11-16-before-Igusa-Frobenius-residues.md)。
+**已读规则提交：77d32165a6d85885e799c1b5c34712c60dd25a30**（2026-11-20T11:52:39.718276+00:00；终端真实git pull --rebase origin main，两README无diff）。相比b77de2c7仅根课题表新增held-10pct；两README完整已读。root SHA256 581402c2 / topic 35f82f3d。此前来源与原pins沿[旧归档](handoff-archive-2026-11-16-before-Igusa-Frobenius-residues.md)。
 
 每结论立即推；每push前且至少每小时真实pull。NFF立刻pull --rebase再推循环成功，禁force。每pull检查两README，有变只读diff并立即执行，SHA记此。PAT仅CLI，不入文件/提交，root独占main。新数学仅本公开仓库Actions；外部只纸证/IO/schema/hash/AST。raw不入Git/Release，本轮只/tmp和stdout。H<10KB、open<30KB、每MD<100KB、topic<200MB；log用Asia/Taipei≤5行，不写根LOG，不设额外审批/测试门。
 
@@ -36,7 +36,7 @@ R933–962的完整尺度、真实run、规则读SHA及关闭边界保存在[本
 
 R933/934固定第二类Cartier与p41 Legendre零已成；R935原h8/h32在固定a11外不共零，旧543d03f8三分位本原双标签已覆盖全部允许p。R937–940原权34核、mark单位、normal首层/J32比较及固定B34均成，仍未判变化临界积。
 R936/939保L=Fp²[t]/tH、t0权1/H根权3/fine12和未知d1/cF；β^p=β，原C唯一负RHS ODE，Tate勘误E6=−c6/η12=−6sD/KS=+du/D。原完整trace六值及另48值皆非零只有限窗。R941常数项公式保F^p及全部点权。R942权10完整double T5²的广义零部分仅V10，非零值147456/666²，禁止旧错误单mark矩阵。
-R943固定p11/第三位Cartier、9+9原符号证书已成；203素数窗非全p。R945两独立run44719847377/44720732478的中央零及替代标签见上；current request仍指已完成第二run，不能重触发旧数学。
+R943固定p11/第三位Cartier、9+9原符号证书已成；203素数窗非全p。R945两独立run44719847377/44720732478的中央零及替代标签见上；新current request按[R963方法](notes/R963-new-original-r2-moment-window-method.md)只请求1000<p≤1e5的原r2 moment，首零停；620s预算/原尺度与完整前像核验，尚待真实run回执。
 
 ## 原全p几何源：不得换对象
 
