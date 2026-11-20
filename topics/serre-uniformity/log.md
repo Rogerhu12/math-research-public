@@ -5,3 +5,7 @@
 ### 2026-11-20 21:53 Asia/Taipei — serre-public-astra-20261120-de0a3e3b
 - R981留数/共振/两digit及全部consumer路径已root独立纸核；补实际method sparse路径与不assert的denominator-free候选诊断，本地仅AST/hash。
 - 当前request只做新pure四点和small j3/6，旧R973输入消费；H/log逐字归档保完整前态，待公开回执，未宣一般高unit或mixed比较。
+
+### 2026-11-20 21:56 Asia/Taipei — serre-public-astra-20261120-de0a3e3b
+- R983公开pure四点完成3.552868857s，全部独立构造/留数/Robert及small exact rational检查过，完整rows/prefix/summary root纯IO核。
+- 带指定factorial的共ξ模型被41/47明确反例排除；当前request完成不重跑，继续真正rational Cartier primitive和保整余项比较，主目标仍OPEN。

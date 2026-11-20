@@ -48,7 +48,7 @@ R946/951/952原Bol障碍O_r(H)=r!(𝒰H)^p/B^(p−r)|SS、kerO=ker𝒰；whole�
 
 当前须证实际G_(n(p−1))高系数普遍非零，或与balanced c_n建立真实整reciprocity。N_low+N_high=p²−1、低unit和Frobenius pair整体非零都不单独证明高unit；原生mirror的实际指数及规范须逐条核。不把Cayley坐标直接当ϖ，也不删factorial/p幂。
 
-[R981](results/R981-original-pure-Hurwitz-residue-compression.md)已证原pure G_N的留数公式及包含唯一分母p共振的两digit输入压缩；末收缩O(p)、中间series O(p²)，不宣总线性。当前request改为四p的新pure指标，41/47用独立exact rational ℘并加j3/6诊断；旧R973 c_n/B仅消费。factorial修正候选25β³G_K6=4G_K3明确未证、输出不assert；待R983公共回执。一般高G_N单位和真实mixed比较仍开。
+[R981](results/R981-original-pure-Hurwitz-residue-compression.md)已证原pure G_N的留数公式及包含唯一分母p共振的两digit输入压缩；末收缩O(p)、中间series O(p²)，不宣总线性。当前request改为四p的新pure指标，41/47用独立exact rational ℘并加j3/6诊断；旧R973 c_n/B仅消费。factorial修正候选25β³G_K6=4G_K3明确未证、输出不assert；[R983](results/R983-certified-pure-Hurwitz-coordinates-and-factorial-model-counterexamples.md)公共run44748379140已成功3.552868857s，四点全部核过；factorial共ξ被41/47反例严格否定，denominator-free差10/31，独立exact rational已核。current request已完不重跑。一般高G_N单位和保整余项的真实mixed比较仍开。
 
 ## O3：固定低权cohomology与原Igusa投影的边界
 
