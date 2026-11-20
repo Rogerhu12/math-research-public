@@ -91,6 +91,8 @@ $$
 
 [R973](results/R973-certified-balanced-Kronecker-coefficients-at-four-primes.md)已新增原g3=4、无Gaussian的balanced c_n=[z^n w^(n−1)]σ(z+w)/(σzσw)，n=p−2/p−8；四新p41/47/227/857的residue13/4/171/317全单位，完整exact rational与原single-pole独立核全过，run44740851091成功15.197670298s。这里只是新系数有限认证，源模权2n与高CM权n+1不混同，旧trace/同h不重算。继续审精确adjoint/Manin整周期桥及all-p coefficient单位；不得将四点或系数整性写成一般非零。
 
+[R974](results/R974-original-balanced-coefficient-and-one-sided-CM-period-bridge.md)现闭合R973所需的**单向**整周期桥：对原TU Manin periods直接证Ω_f±/P_n∈O_p，P_n=(Ω_−/(2πi))^n；真实adjoint归一值=u_n c_n P_n²/(Ω+Ω−)，u_n=2^(n+2)3^((n−8)/2)(n−1)!单位，保3处Euler/原σ/全部尺度。结合R970 η整性，c_n单位足以推出η单位及原S非零。此方向不需要先证period比是单位，但没有逆向；R973四点仅有限消费。接下来须证明实际c_(p−2)或c_(p−8)全p单位，不能以系数整性、有限值或低period单位替代。
+
 ## O3：固定低权cohomology与原Igusa投影的边界
 
 [R944](results/R944-original-CM-Gauss-Manin-homotopy-and-supersingular-principal-parts.md)给原fine base上

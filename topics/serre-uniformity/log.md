@@ -761,3 +761,7 @@
 ### 2026-11-20 21:09 Asia/Taipei — serre-public-astra-20261120-de0a3e3b
 - R973公开run44740851091完成15.197670298s，原新balanced四值13/4/171/317全单位，exact rational与single-pole核全部过；四rational和rows/prefix/summary hashes root纯IO复核。
 - 当前request已完不重跑；H逐字归档压缩，继续R972局部条件、R974精确period桥及R975递推纸证，均未预登记一般单位。
+
+### 2026-11-20 21:12 Asia/Taipei — serre-public-astra-20261120-de0a3e3b
+- R974完整period/adjoint纸证已逐式及KS/TU/BK primary核准：Ω_f±/P_n整，原c_n单位充分推出高η单位和S非零，精确3处及i/曲线尺度均保。
+- 只消费R973四值，不重算原trace；一般c_n单位仍开，继续通用heat递推与真实Robert单位坐标，不将充分方向写成等价。
