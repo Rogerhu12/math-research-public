@@ -46,6 +46,8 @@
 
 - **R951（实际Bol障碍配对的精确对称性）**：[Bol concomitant与完整SS障碍](results/R951-Bol-concomitant-and-supersingular-obstruction-symmetry.md)。整个fine源上的J_r=δO_r有B_r(H,H′)=ΣD_rH·H′/B²，显式形式伴随与全局cusp concomitant证明交换两变量乘(−1)^r。非水平AB修正由C/A²全留数消去，原偶r为对称；保双角色/transpose/度。命名F在两radical但whole packet不自动消失，且J零仅使O落M_r。SHA256 1ed202bb2b988e3b49cbfdeed5bdf58cb36641438f6c58811098bfdd72416835。
 
+- **R952（准确Cartier算子与最后Hasse障碍）**：[全空间Cartier公式](results/R952-exact-Cartier-formula-for-the-last-Hasse-obstruction.md)。整个fine S_w、w=p+1−r∈[3,p−1]上构造真实逆p半线性𝒰，q系数为a_pn^(1/p)，完整换帧/角色/Igusa 1/6保留；O_r(H)=r!(𝒰H)^p/B^(p−r)|SS，且kerO_r=ker𝒰。故whole packet饱和恰等价实际𝒰整包为零，不能用nilpotent或命名F被杀代替；R951配对准确为r!H_w(H′,𝒰H)。未证原高权trace一般非零。SHA256 b4dcb361f7557c7501aa75bf6b1d481b82ff2dc629156182623deaf8b1d78f43。
+
 ## 当前原高度、函数与同标签接口
 
 - **R808（已证明）**：[原cuspidal Gram商与真实period/split/Howe链](results/R808-original-cuspidal-Gram-quotient-and-Howe-chain.md)。R727全部群元素的整Gram把原轨道格非退化约化商准确识别为Sym^(2r)det^(−r)，r=min(h−1,p−h)；原e0、Frob-Hermitian、Tζ平均像和N_h同时运输。位置Cartan与链内SL2严格区分，链中心规范与Hasse连接准确匹配；实际sigma原单项式仍经Kraw混合，同h配对非零未得。 SHA256 c24889c8d8407447dc38e14b583d002c289697b1b75376af7ea5348c4f6a03db。

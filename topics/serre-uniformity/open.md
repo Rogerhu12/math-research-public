@@ -54,6 +54,8 @@ $$
 
 [R951](results/R951-Bol-concomitant-and-supersingular-obstruction-symmetry.md)已识别J_r=δO_r的全SS配对ΣD_rH·H′/B²。形式伴随与完整concomitant证明交换变量为(−1)^r；原r2/8是对称，命名F在两radical，但不能因此杀整个CM packet。证明明确处理∂(AB)=B²−A²E4/144，不能把AB当水平。即使J_r(M_CM)=0也只把O像放到M_r|SS，还须处理这个真实核。
 
+[R952](results/R952-exact-Cartier-formula-for-the-last-Hasse-obstruction.md)现在把最后障碍识别为实际Cartier：O_r(H)=r!(𝒰H)^p/B^(p−r)|SS，且kerO_r=ker𝒰；𝒰H的q系数是a_pn^(1/p)。换帧、全SS、双tame角色的p逆变换及真实Igusa微分1/6均保留，不用未经运输的线性U_p冒名。具体whole packet问题因此恰为𝒰(M_CM)=0；命名F被杀或whole包nilpotent仍不够。R951的双线性式等于r!H_w(H′,𝒰H)，这里w是实际高权，不能与R950低权对角互换。继续求实际Cartier链的长度与原λ(F)。
+
 ## O3：固定低权cohomology与原Igusa投影的边界
 
 [R944](results/R944-original-CM-Gauss-Manin-homotopy-and-supersingular-principal-parts.md)给原fine base上

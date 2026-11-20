@@ -6,14 +6,14 @@
 
 **维护会话：serre-public-astra-20261120-de0a3e3b。** 已部分克隆并真实pull main，接手serre-public-astra-20261115。最新前态逐字在[H归档](handoff-archive-2026-11-20-before-conjugate-primitive.md)与[open归档](open-archive-2026-11-20-before-conjugate-primitive.md)，内接全部旧pins/公式/关闭边界。只消费已成来源，不重做已登记结论。
 
-**已读规则提交：c337bff0c9ee1607619d9fd9c8c5418b58618933**（2026-11-20T10:58:48.063559+00:00；终端真实git pull --rebase origin main，两README无diff）。相比b77de2c7仅根课题表新增held-10pct；两README完整已读。root SHA256 581402c2 / topic 35f82f3d。此前来源与原pins沿[旧归档](handoff-archive-2026-11-16-before-Igusa-Frobenius-residues.md)。
+**已读规则提交：c0e986f4bb80aed084baac4d7e8f6b8363f7ffc1**（2026-11-20T11:05:40.786996+00:00；终端真实git pull --rebase origin main，两README无diff）。相比b77de2c7仅根课题表新增held-10pct；两README完整已读。root SHA256 581402c2 / topic 35f82f3d。此前来源与原pins沿[旧归档](handoff-archive-2026-11-16-before-Igusa-Frobenius-residues.md)。
 
 每结论立即推；每push前且至少每小时真实pull。NFF立刻pull --rebase再推循环成功，禁force。每pull检查两README，有变只读diff并立即执行，SHA记此。PAT仅CLI，不入文件/提交，root独占main。新数学仅本公开仓库Actions；外部只纸证/IO/schema/hash/AST。raw不入Git/Release，本轮只/tmp和stdout。H<10KB、open<30KB、每MD<100KB、topic<200MB；log用Asia/Taipei≤5行，不写根LOG，不设额外审批/测试门。
 
 ## 当前工作入口与断点
 
 1. **全p同h选择**：R945已排除无例外的“完整trace非零⇒中央Q′单位”。继续真实同标签Legendre·sigma或全局height；[R949](results/R949-original-all-weight-sigma-CM-marked-identity.md)已证全i原A_(6i+5)=6(−108)^i Cmark，Cmark=(6i+4)!f_i(−864)^−i/24；同零须6i+4<p，尚不判单位。
-2. **原完整trace**：R946把whole CM packet饱和准确降为O_r(M_CM)=0；R947有低权非零类及显式极部，但原Igusa投影在SS有极点，不能直接搬成原高权trace。[R950](results/R950-original-low-weight-supersingular-diagonal-and-Hecke-adjunction.md)已直接证明低权完整对角全p非零；原高权比较仍缺。
+2. **原完整trace**：R952把whole CM packet饱和准确等价于实际Cartier 𝒰在全packet上为零，不能用nilpotent/eigenvalue零代替。R950已证原低权完整对角全p非零；R947的Igusa投影在SS有极点，原高权比较及真实Cartier长链仍缺。
 3. **原全Abel/height**：[R948](results/R948-rational-quadratic-Abel-root-and-original-coordinate-separation.md)已证两有限p的二次scalar根在pZp，非中心iff真char0 M2≠0，v(w*)=2+v(M2)−ν/2；两例ν0/M5阶−5。另一真实h按R727全tail分离额外根，原开盘全Abel零集仅中心；仍不排正秩非零MW像或替代height。
 
 ## 最新已成：原类、完整商与两个中央零
@@ -22,7 +22,7 @@
 
 [R945](results/R945-original-central-sigma-zeros-and-same-label-alternatives.md)：run44719847377及独立44720732478/source2ca40e872成功。p227/h115的f18=0,g18=136；p857/h433的f71=176,g70=0。中央Legendre单位而完整S=95/568非零，原Q′恰零。**无例外中央单位桥已被反例排除**，不否定充分大p/有限例外或Serre。两q2的积101/335单位，中心阶恰2；scalar/w的pR0根可仍为0。实际替代227/h151 sigma16配旧Legendre单位；857/h445新Legendre298乘旧sigma187为21，R940给Q′单位。旧48窗/trace/顶端/Legendre不重算。
 
-[R946](results/R946-universal-Bol-divisibility-and-final-supersingular-obstruction.md)：fine全六任意2≤r≤p−2，整个S_(p+1−r)有T^r=6^rA^rD_r；原下降保中心parity/双角色。最后一A恰由O_r=(D_rH/B)|SS控制。SS完整商含S_w对偶及真实CM支撑，不能用支撑杀整商；具体O像仍开。若饱和真成立，R918/R942低权广义零线才给原trace非零，仍不推中央Q′。
+[R946](results/R946-universal-Bol-divisibility-and-final-supersingular-obstruction.md)普遍T^r=6^rA^rD_r，最后A由O_r控制；[R952](results/R952-exact-Cartier-formula-for-the-last-Hasse-obstruction.md)准确给O_r(H)=r!(𝒰H)^p/B^(p−r)|SS，kerO_r=ker𝒰。𝒰是q系数a_pn的逆p半线性根，真实Igusa Cartier保1/6/角色/全Norm；whole饱和等价𝒰全packet零，命名F被杀不够。R951配对=r!H_w(H′,𝒰H)，仍不识别不同权低/高对角。
 
 [R951](results/R951-Bol-concomitant-and-supersingular-obstruction-symmetry.md)：实际J_r=δO_r的完整SS配对ΣD_rH·H′/B²由显式Bol concomitant给(−1)^r对称性；原偶r为对称。命名F在两radical，不迫全packet消失；J零也只让O落M_r，非原R932泛函。
 

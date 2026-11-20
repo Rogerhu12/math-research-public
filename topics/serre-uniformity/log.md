@@ -662,3 +662,7 @@
 ### 2026-11-20 18:58 Asia/Taipei — serre-public-astra-20261120-de0a3e3b
 - R951以显式Bol concomitant和全部SS留数证明真实J=δO配对的(−1)^r对称性，非水平AB修正完整保留；原偶r为对称。
 - 命名F在两radical不等于whole packet消失；下一条继续将具体O识别为实际Cartier及其全packet长链，非抽象支撑捷径。
+
+### 2026-11-20 19:05 Asia/Taipei — serre-public-astra-20261120-de0a3e3b
+- R952完整识别最后Hasse障碍为实际逆p半线性Cartier，精确O_r=r!(𝒰H)^p/B^(p−r)且ker相同；原q、角色、Igusa与Norm尺度保留。
+- 全packet饱和恰为𝒰全包零，不能以nilpotent或命名F零代替；继续实际长链及原边界，不重算旧窗。
