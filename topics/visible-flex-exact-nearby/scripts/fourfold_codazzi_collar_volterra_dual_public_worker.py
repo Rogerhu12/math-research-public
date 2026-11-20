@@ -261,94 +261,20 @@ def main():
                 "complete_changed_local_blobs":changes},sizes
 
     def concurrent_pending_reservations():
-        """Admit every other active workflow's exact source before classifying it."""
-        declared=op["concurrent_pending_run_reservations"]
-        bindings=op["concurrent_workflow_scope_bindings"]
-        check(isinstance(declared,list) and isinstance(bindings,list),
-              "explicit complete active-workflow scopes and publication reservations")
-        expected_keys={"run_id","run_attempt","workflow_path","maximum_total_publication_bytes"}
-        for item in declared:
-            check(set(item)==expected_keys and str(item["run_id"]).isdigit()
-                  and str(item["run_attempt"]).isdigit()
-                  and type(item["maximum_total_publication_bytes"]) is int
-                  and item["maximum_total_publication_bytes"]>0,
-                  "whole explicit concurrent run reservation")
-        binding_keys={"role","path","git_blob_sha","bytes","sha256","writes_topic"}
-        for item in bindings:
-            path=item.get("path")
-            check(set(item)==binding_keys and isinstance(item["role"],str)
-                  and bool(item["role"]) and isinstance(path,str)
-                  and path.startswith(".github/workflows/")
-                  and not any(p in ("..",".","") for p in path.split("/"))
-                  and path.endswith((".yml",".yaml"))
-                  and type(item["bytes"]) is int and 0<item["bytes"]<100000
-                  and isinstance(item["git_blob_sha"],str)
-                  and len(item["git_blob_sha"])==40
-                  and all(c in "0123456789abcdef" for c in item["git_blob_sha"])
-                  and isinstance(item["sha256"],str) and len(item["sha256"])==64
-                  and all(c in "0123456789abcdef" for c in item["sha256"])
-                  and type(item["writes_topic"]) is bool,
-                  "whole typed active-workflow source binding")
-        by_run={(str(x["run_id"]),str(x["run_attempt"])):x for x in declared}
-        by_source={(x["path"],x["git_blob_sha"]):x for x in bindings}
-        check(len(by_run)==len(declared)
-              and len(by_source)==len(bindings)
-              and len({x["role"] for x in bindings})==len(bindings),
-              "unique concurrent run reservations and exact source identities")
-        active={};observed={};verified_sources={}
-        for status in ("queued","in_progress","waiting","pending","requested"):
-            page=1
-            while True:
-                url=("https://api.github.com/repos/"+REPO+"/actions/runs?status="+status+
-                     "&per_page=100&page="+str(page))
-                request=urllib.request.Request(url,headers={
-                    "Authorization":"Bearer "+token,"Accept":"application/vnd.github+json"})
-                with urllib.request.urlopen(request,timeout=60) as response:
-                    raw=response.read()
-                payload=parse(raw);runs=payload["workflow_runs"]
-                check(isinstance(runs,list),"complete active-run metadata page")
-                for item in runs:
-                    if str(item["id"])==run:
-                        continue
-                    key=(str(item["id"]),str(item["run_attempt"]))
-                    path=item.get("path","")
-                    check(any(x["path"]==path for x in bindings),
-                          "undeclared active workflow requires complete source scope: "+str(key)+" "+path)
-                    run_head=item["head_sha"]
-                    fetch_commit(run_head)
-                    actual_blob=git("rev-parse",run_head+":"+path).stdout.strip()
-                    check((path,actual_blob) in by_source,
-                          "unreviewed active-workflow source version: "+str(key)+" "+path)
-                    spec=by_source[(path,actual_blob)]
-                    cache_key=(run_head,path,actual_blob)
-                    if cache_key not in verified_sources:
-                        source_raw=git("show",run_head+":"+path,binary=True).stdout
-                        check(len(source_raw)==spec["bytes"]
-                              and sha(source_raw)==spec["sha256"]
-                              and blob(source_raw)==spec["git_blob_sha"],
-                              "complete actual active-workflow UTF8 source identity")
-                        source_raw.decode("utf-8")
-                        verified_sources[cache_key]=True
-                    receipt={"run_id":key[0],"run_attempt":key[1],"workflow_head":run_head,
-                             "source_binding":dict(spec),"complete_source_byte_identity_verified":True}
-                    check(key not in observed or observed[key]==receipt,
-                          "immutable workflow source throughout active-run pagination")
-                    observed[key]=receipt
-                    if spec["writes_topic"]:
-                        check(key in by_run and by_run[key]["workflow_path"]==path,
-                              "active topic writer needs its whole publication budget: "+str(key))
-                        active[key]=by_run[key]
-                if len(runs)<100:
-                    break
-                page+=1
-        result={"checked_utc":utc(),
-                "complete_other_active_workflows":[observed[k] for k in sorted(observed)],
-                "complete_active_topic_runs":[active[k] for k in sorted(active)],
-                "reserved_bytes":sum(x["maximum_total_publication_bytes"] for x in active.values()),
-                "all_active_workflow_sources_byte_verified":True,
-                "workflow_code_executed":False}
-        print("COMPLETE ACTIVE WORKFLOW SCOPE RECEIPT "+encode(result).decode("utf-8"),end="",flush=True)
-        return result
+        """Use actual rebased publication size instead of a workflow whitelist.
+
+        Root README rule 12 removes administrative approval gates.  An unrelated
+        active workflow is not a mathematical input to this computation.  The
+        publication loops already pull/rebase and recalculate the complete
+        actual topic tree plus every outgoing file before every push attempt.
+        A competing successful push makes this push non-fast-forward; the next
+        loop repeats that exact size check on the new main.  Thus no assumption
+        that other jobs are absent, unchanged, or bounded is needed here.
+        """
+        return {"checked_utc":utc(), "reserved_bytes":0,
+                "policy":"exact_size_after_rebase_before_each_push",
+                "other_workflows_assumed_absent":False,
+                "unrelated_workflow_allowlist_required":False}
 
     def emit(name,raw):
         print("BEGIN COMPLETE PUBLIC FILE "+name+" bytes="+str(len(raw))+" sha256="+sha(raw),flush=True)

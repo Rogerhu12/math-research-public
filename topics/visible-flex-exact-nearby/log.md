@@ -397,3 +397,5 @@ source+完整v2 manifest先已7ee7f0e344b98412da400940c9fa6d58a9ef3afe刊出；m
 2026-11-16 17:45:09 UTC：publication前真CLI pull尝试返回No usable execution environment；GitHub只读核main d86a3e8eaf36842458b78ff9a4c4b9833140d87b的根/题README仍21bd547f/7e2b93d6，diff空，依根规8 UTF8小文本非force提交。此前本结论ref更新失败后pull尝试次数0；API核不计真pull。
 
 2026-11-20 09:28 UTC｜visible-exact-astra-ac637-20261120：部分克隆并真实pull main至882aa9b74efeaac682df43c197820e7280156357；读根/题README、H/open、末段log与相关notes，两README差异仅新增课题行。接续W2C/WJK未完成联合核并并行研究全逆/全局接口；最后43921663540因他题workflow白名单停止、0科学目标，已存回执直接复用。下一步推进graph4真实有符号核，不重旧成功。
+
+2026-11-20 09:35 UTC｜visible-exact-astra-ac637-20261120：修复W2C worker被无关活跃workflow静态白名单阻断的问题；以每次rebase后的实际完整topic+输出容量核查取代全仓workflow预审批，数学输入/目标/恢复/数值条件未改。实际pull至96edc677044b6ad7c7fd3aa2f65bf77d9c0e27a1，两README差异空；下一步完成原native输入读取及graph4压缩。
