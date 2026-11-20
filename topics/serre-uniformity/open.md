@@ -117,7 +117,7 @@ R936的原Tate标架错误已明确勘正：[审计](notes/R936-Tate-frame-sign-
 
 ### R938：权34原normal层已关闭，低系数仍开
 
-[R938](results/R938-original-weight34-normal-function-and-inertia-exclusion.md)保持原UV=επ^12、整completed Hom、所有完整inertia与Tate index，已证明b0=34(p−1)、真κx^(g−3)y及primitive calibrated多项式次数J。低层极界可超过p，所需x^p/x^(2p)已逐一角色排除；首层p/2p不可见极项亦已独立排除，禁止重复这两障碍。原顶配对(35,2)的f5已在run44716895805准确求出，p≥41的单位例外为41/71/3877，见[回执](notes/2026-11-20-R939-window-and-weight34-sigma-receipt.md)；待做原第五jet中同h的f_(t+2)g_(t−3)与Q′比较。
+[R938](results/R938-original-weight34-normal-function-and-inertia-exclusion.md)保持原UV=επ^12、整completed Hom、所有完整inertia与Tate index，已证明b0=34(p−1)、真κx^(g−3)y及primitive calibrated多项式次数J。低层极界可超过p，所需x^p/x^(2p)已逐一角色排除；首层p/2p不可见极项亦已独立排除，禁止重复这两障碍。原顶配对(35,2)的f5已在run44716895805准确求出，p≥41的单位例外为41/71/3877，见[回执](notes/2026-11-20-R939-window-and-weight34-sigma-receipt.md)；[R940](results/R940-original-weight34-critical-source-comparison.md)已完成原第五jet中同h的f_(t+2)g_(t−3)与Q′的完整平方比较；仍待证明某一实际本原标签的Legendre与这个同h低项共同非零，不能从顶项单位推断。
 
 ### R939：全SS分母已消去，原CM常数项仍待非零
 

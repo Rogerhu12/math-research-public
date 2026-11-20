@@ -20,7 +20,9 @@
 
 - **R938（完整证明）**：[权34首normal函数与inertia排除](results/R938-original-weight34-normal-function-and-inertia-exclusion.md)。固定B34外，原b0=34(p−1)，低层和首层隐藏p次幂由全inertia/两节点极界排除；κx^(g−3)y、β/α=35A0/34、J=(p−35)/6与原p^−a_h整restricted/最高项单位已成。保ε/a_h，不宣称低Q′非零。SHA256 40f916d1a016fcb0950cd3581facdb2bf82dfd20b29c216eb7ae86acb559ef6e。
 
-- **R939（完整证明）**：[原Jacobi Hasse与无分母全SS迹](results/R939-original-Jacobi-Hasse-and-denominator-free-supersingular-trace.md)。原H固定ODE、β′=−H/3、全tH上β^p=β，使R=D^(2N+2)C^(p+1)β^(r−2)；Baker尺度由原t0校定。r2原C满足唯一负右侧ODE，全部原trace/S下降Fp；保Tate勘误、原phase、t0权与d1/cF，不冒一般非零/Q′。SHA256 3b09e7afe019133a336d1588c29a7a44f996c0cee57ed5c92b70119fcad6d10c。
+- **R939（完整证明）**：[原Jacobi Hasse与无分母全SS迹](results/R939-original-Jacobi-Hasse-and-denominator-free-supersingular-trace.md)。原H固定ODE、β′=−H/3、全tH上β^p=β，使R=D^(2N+2)C^(p+1)β^(r−2)；Baker尺度由原t0校定。r2原C满足唯一负右侧ODE，全部原trace/S下降Fp；保Tate勘误、原phase、t0权与d1/cF，不冒一般非零/Q′。当前SHA256 5360279e688f9bd9c96156164b71ffd96a93bf2ac288e2a07445c07e8f26d065。
+
+- **R940（完整同源比较）**：[原权34低系数与同标签临界源](results/R940-original-weight34-critical-source-comparison.md)。原f5=−270862728/5123589312701234375，固定单位例外已含于B34；保原Γ/Z/u_GF/J32、两个CM权、Norm先消后约化、a_h及平方相位。真临界积f_(t+2)g_(t−3)与Q′_h(0)按原最高项单位精确比较，J32非零当且仅当该同h Legendre与Q′皆非零；未证明这个非零。SHA256 9fdd5966a9d75566d9fc71f2e192920f20bad6afc53f8a81db80dd217b9400d8。
 
 ## 当前原高度、函数与同标签接口
 
