@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- **R653（准确角行约化已证明）**：[四分之一角域的完整Gram等价](results/R653-exact-quarter-angle-closed-Gram-reduction.md)：当前反射/半周对称及完整解析lift使1845×2048×3原行准确合并为1845×513×3带重数行；目标、JᵀJ/Jᵀr及同阻尼模型不变，未删未知量，尚无新闭解。
+
 - **R650（正定流支持reach定理已证明）**：[固定SPD矩阵的完整正常管](results/R650-positive-definite-flow-support-reach.md)：实际闭C²球面浸入若(A(F−c))·n≥σ且|κ|≤K，则嵌入及reach≥min(σ/λmax(A),1/K)。全局流横截面/一层覆盖/偏移层顺序已付；保欧氏几何，尚无当前全闭数值输入。
 
 - **R649（实际普通支持障碍已证明）**：[同26e53/共同hold旧段的严格负支持及任意中心障碍](results/R649-ordinary-support-obstruction-for-the-actual-pulse-and-hold.md)：14点准确有理读取复用R648 λ预算，s=.8/π2实际支持负；半转加镜像排任意共同中心及两种法向。只排普通正支持R10工具，不排reach、内向闭合或加权流路线。
