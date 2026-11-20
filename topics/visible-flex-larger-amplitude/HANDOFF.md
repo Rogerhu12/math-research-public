@@ -4,7 +4,7 @@
 
 ## 规则与来源
 
-最近规则核查：2026-11-20 10:38 UTC，真实pull/rebase至 `dce7585c350679f27e3b83a58588def9582fcd5a`，双README相对上次已读无差异。
+最近规则核查：2026-11-20 10:47 UTC，真实pull/rebase至 `e7e7b9ec349f1bec3d775f1eab35fd5869e27a79`，双README相对上次已读无差异。
 
 公开仓库内工作；终端git普通push，NFF立即pull/rebase再推，每次检查双README差异，至少每小时pull。原README授权全部必要修改/发布，无需再问；完整证明直接登记，不加冻结/独审/额外验收流程。可重算raw只scratch，Git/Release/artifact不存；只保源、参数、run/SHA及紧凑结论。题≤200MB、单MD<100KB、H<10KB、open<30KB。令牌仅瞬时CLI，不写文件/提交/回复。旧完整责任保[11/20早期交接](https://github.com/Rogerhu12/math-research-public/blob/e6503907bb671290bd2b6e3c4051d98c3958a6d1/topics/visible-flex-larger-amplitude/HANDOFF.md)及open§1–7，不把failed/partial/unreturned互换。
 
@@ -20,11 +20,15 @@ R648原全开放prefix连续Gram<4.94e−7，R651 K≤7.04608，R652加权支持
 
 **已完成必要筛选第一父**：[完整H²+动态必要几何首步](notes/2026-11-20-fullclosed-integrated-h2-reach-screen-first-result.md)从63维af89真实父满步：SSE6430.555→1277.03040673224，点Gram.586426→.333294625491，K7.21125→7.95866429405，Dlb4.06505794196，产品.970572944878≤.98；H1.93961750135，detmin.80764896。256inner/83.99秒，端口残差2.29e−17（浮点不是严格零）。父在work/fullclosed_solver/integrated-h2-reach-screen-first/final.npz，SHA `e8b2ca40e184157abba15c3c85ebdd651e38cbb4035edb2cfd652c8b57ad0637`。仍远超1e−6，且全部仅节点/中点。
 
-**当前推进父**：[曲率约束QP六步](notes/2026-11-20-curvature-qp-six-step-result.md)从e8自然exit0，39.33秒：SSE1277.030→371.1451889934、点Gram.333295→.1801261227、K7.98227764563、Dlb4.08253071692、产品.977636810378，H1.92533722377。真实父work/geometry_path/curvature-qp-six-step.npz，SHA `0c53537771085266634794d82a0f133e2d1f149d1af7e0248e136d9ceee6812d`。解析κ/D导数必要CS误差≤5.36e−16；非连续证书。
+**旧采样范围的QP父**：[曲率约束QP六步](notes/2026-11-20-curvature-qp-six-step-result.md)从e8自然exit0，39.33秒：SSE1277.030→371.1451889934、点Gram.333295→.1801261227、K7.98227764563、Dlb4.08253071692、产品.977636810378，H1.92533722377。真实父work/geometry_path/curvature-qp-six-step.npz，SHA `0c53537771085266634794d82a0f133e2d1f149d1af7e0248e136d9ceee6812d`。解析κ/D导数必要CS误差≤5.36e−16；非连续证书。
 
 [同父相位几何点读](notes/2026-11-20-curvature-qp-phase-geometry-readout.md)：beta1/4支持min_sample .336913；core旋转见证最近sample距.953644，除Dlb比.233591。两者都是上方近似，不能声称reach或held达标。后续仍沿R650/R645做最终同场连续覆盖。
 
-活动：geometry_path已从0c535续12步bounded active-memory QP，记所有被拒最坏点并在当前场重求导；fullclosed_solver从同父启动完整H²投影约束256方向，T仍覆盖原完整free、P仅当前必要活跃切空间；recover_evidence的[R655](results/R655-node-midpoint-blind-space-and-Gauss-control.md)已证920维有限幅度盲空间，正在实现原1845行前缀+5532同g6Gauss，先读af89/e8/0c三个真实父。新增点未付前不称全域正确。
+[同g六Gauss实际读出](notes/2026-11-20-same-g-six-Gauss-readout.md)已保原1845行并加5532行，共7377；全部1332245自由变量、准确a/S/R与解析lift不改。a载体误差≤2.4815221e−13，carrier work/recover_evidence/gauss6-current-three/same-scalar-gauss-observations.npz，SHA `71fdec7b9b471cc7e202a859e6907de256f8117f252798baaad794ccab918112`。af89/e8新K7.211809/7.966177仍过必要界；0c535新K8.200299、产品1.004339，故撤销几何父选择。其[记忆QP十二步](notes/2026-11-20-curvature-qp-memory-twelve-step-result.md)旧点SSE80.9223/Gram.0732499虽下降，但新K8.220342、产品1.008969，亦不续作几何父。
+
+[完整free六jet转置与旧点投影首步](notes/2026-11-20-fullfree-cotangent-projected-first-result.md)已返：新接口proxy只读错误在0方向前修复；完整core/Θ/ρ/ρ′/H cotangent必要CS≤5.46e−15。0c535父active6/rank4，256inner、alpha1/4仅旧点SSE371→297.505/Gram.165765，未证新点通过，不升级父。
+
+**活动及当前选择：** geometry_path重新从六Gauss仍过界e8做全部7377点QP，新目标为.5原Simpson+.5新Gauss的径向积分正权，全部旧/新增行保；已返前4步weighted SSE9.30174→2.07126、all_raw5114.12→1451.26、legacy_raw1277.03→362.33，全点Gram.153155、K7.93504、Dlb4.08447、产品.972312。六步终态随后另刊，新weighted目标不可与旧raw相减。fullclosed_solver同步通用stage cotangent及相同积分权的完整投影方向；recover_evidence转完整q+lift连续D上界/支持下界/K上界，先查已有Bernstein/整数接口再选1个新胞试读，不重做旧prefix证书。
 
 ## 已完成数值及失败，不重复
 
