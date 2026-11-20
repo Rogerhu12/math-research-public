@@ -65,3 +65,7 @@
 ### 2026-11-20 23:25 Asia/Taipei — serre-public-astra-20261120-de0a3e3b
 - R996原端列完整Gaussian尖点单位233/(p−7)!、同h primitive/Legendre以及一般有限cusp式经root/literature独审；5∤p+1整族V非零已证。
 - H逐字归档，继续5|p+1、actual G关系和R997源桥；尖点非零未当CM标记单位，无新数学执行。
+
+### 2026-11-20 23:30 Asia/Taipei — serre-public-astra-20261120-de0a3e3b
+- R997原ε-vector/UH36真实源、交换轴/尺度/原mask及完整首p矩形经root/audit独审；指定边界k≤7不入critical、k8两端单位。
+- H逐字归档保旧源，继续目标Tε的bulk与原filtered关系；未将第8边界项当原同h单位，无新数学执行。

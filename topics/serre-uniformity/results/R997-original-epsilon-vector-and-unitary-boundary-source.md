@@ -1,0 +1,482 @@
+# R997 — The original epsilon vector and unitary boundary source
+
+Date: 2026-11-20. Author: serre-public-astra-20261120-de0a3e3b / literature_frontier.
+
+**Status: proved source comparison and transported finite operators; no nonvanishing theorem.** The old unitary-cross-heat note (UH below) already proves its finite theta model, both Frobenius relations, the complete boundary, the cross-oscillator curvature, and the finite primitive/Legendre operator. None of those general statements is registered again here. The new comparison locates the actual R966/R968 conductor-$(2s)$ source as one specified constant theta vector in that model. It fixes the necessary exchange of the two characteristic coordinates and transports the original meromorphic derivative, projection, and mask accordingly. Its first nonzero boundary is then computed for this actual scalar vector, and the original projection kills that boundary.
+
+The six-dimensional sigma heat matrix and its separable trivializations are the already proved MH/FT inputs. They do not imply a new stability assertion for the filtered R992 space. All calculations below are paper identities. No arithmetic consumer is executed.
+
+## 1. Actual conventions
+
+Keep $\mathcal O=\mathbf Z[\zeta]$, $\zeta^2+\zeta+1=0$, the positive $s=1+2\zeta=i\sqrt3$, and $\epsilon=\epsilon_{2s}$ of R954/R966. Thus $\epsilon(\alpha)$ is the unique unit with $\epsilon(\alpha)\alpha\equiv1\pmod{2s}$ when $(\alpha,2s)=1$, and is zero otherwise. In particular $\epsilon$ is constant on cosets modulo $6\mathcal O$, since $6\mathcal O\subset 2s\mathcal O$.
+
+The complete original source, with algebraic elliptic variables, is
+
+$$
+\mathscr J(x,y;\tau)=
+\frac{e^{-E_2xy/2}}{6\eta^4}
+\sum_{\alpha\in\mathcal O}\epsilon(\alpha)
+ e^{\alpha x+\bar\alpha y}q^{N\alpha/6},
+\qquad q=e^{2\pi i\tau}.
+\tag{997.1}
+$$
+
+This is exactly R968(968.2), not a new theta normalization. Put
+
+$$
+H=\begin{pmatrix}2&-1\\-1&2\end{pmatrix},\qquad
+C=\begin{pmatrix}1&\zeta\\1&\zeta^2\end{pmatrix},\qquad
+\mathsf S=\begin{pmatrix}0&1\\1&0\end{pmatrix}.
+\tag{997.2}
+$$
+
+UH proves $CH^{-1}C^t=\mathsf S$ and $(C^{-1})^tHC^{-1}=\mathsf S$. Use its same fixed-discriminant normalization
+
+$$
+\lambda=d_0\eta^{-2},\quad d_0^{12}=-432,\quad
+a=\lambda^4E_4/12,\quad b=-\lambda^6E_6/216,
+$$
+$$
+X_0=a/3,\quad Y_0=b,\quad Y_0^2=X_0^3+16,
+\quad D=\lambda^2\theta_q,
+\quad D\lambda=-\lambda^3E_2/12.
+\tag{997.3}
+$$
+
+The choice of $d_0$ is the UH choice whose CM rigidification is the original curve $c^2=q_0^3-1$ and its positive period. Equivalently, at the original CM point it makes $\lambda$ the inverse of R968's period ratio. We do not introduce another twelfth root or rescale the CM source afterward. The notation $X_0,Y_0$ here is the auxiliary curve of UH; it is not the pair $(E_4,E_6)$ used in R995.
+
+For $\rho\in\mathbf Z^2/(6H)\mathbf Z^2$, write UH's actual theta basis as
+
+$$
+\Psi_\rho(w)=
+\eta^{-2}e^{-E_2\lambda^2w^tHw/4}
+\sum_{n\in\mathbf Z^2+(6H)^{-1}\rho}
+q^{3n^tHn}e^{6\lambda n^tHw}.
+\tag{997.4}
+$$
+
+All finite theta and three-isogeny data are those already fixed in UH on its tame level cover. In particular the theta-group matrices there are constant and the full $108$ functions in (997.4) are a basis.
+
+## 2. The actual constant vector, including the coordinate exchange
+
+For $r=(r_1,r_2)$ modulo $6$, put
+
+$$
+e_r=\epsilon(r_1+r_2\zeta),\qquad
+\Theta_\epsilon(z,t)=\frac1{6d_0}
+\sum_{r\in(\mathbf Z/6\mathbf Z)^2}
+e_r\Psi_{Hr}\bigl(C^{-1}(z,t)^t\bigr).
+\tag{997.5}
+$$
+
+Column vectors are understood in the argument of $C^{-1}$. The $36$ indices $Hr$ are distinct modulo $6H\mathbf Z^2$: equality of two such indices is equivalent to equality of $r$ modulo $6$. This describes the support of a single specified vector. It does not identify the entire span of those $36$ basis vectors with the invariant space below.
+
+There is an exact characteristic-zero identity
+
+$$
+\boxed{
+\lambda^{-1}\mathscr J(\lambda u,\lambda v;\tau)
+=\Theta_\epsilon(v,u).
+}
+\tag{997.6}
+$$
+
+Here is a direct termwise proof. The coset indexed by $Hr$ has $n\in\mathbf Z^2+r/6$. Write $6n=(A,B)^t$ and $\alpha=A+B\zeta$. Then
+
+$$
+3n^tHn=N\alpha/6.
+$$
+
+If $(z,t)^t=Cw$, the identity $H C^{-1}=C^t\mathsf S$ gives
+
+$$
+6\lambda n^tHw=\lambda(\alpha t+\bar\alpha z),
+\qquad w^tHw=2zt.
+$$
+
+Taking $(z,t)=(v,u)$ gives the exponent $\lambda(\alpha u+\bar\alpha v)$ of (997.1), and the Gaussian becomes $e^{-E_2\lambda^2uv/2}$. Finally
+
+$$
+\frac{\lambda^{-1}}{6\eta^4}
+=\frac1{6d_0\eta^2}.
+$$
+
+Every lattice term, finite character, and scalar therefore agrees. Omitting the exchange $(z,t)=(v,u)$ would replace the original finite-character source by its transpose.
+
+### 2.1 Why this vector belongs to the actual $36$-dimensional invariant space
+
+UH uses the cyclic-three subgroup specializing to $E_0[s]$ and its fixed theta-group linearization. Its invariant space has dimension $36$. The subgroup is not, in general, the real subgroup generated by $1/3$. Consequently membership in the index set $H(\mathbf Z/6)^2$ alone is not a proof of invariance.
+
+At the CM point, R966 and (997.6) give the complete function identity
+
+$$
+\boxed{
+\Theta_\epsilon(z,t)|_{P_0}
+=G(t)H_s(z)+6F(t)Y_s(z),
+}
+\tag{997.7}
+$$
+
+where on the original $E_-$ curve
+
+$$
+S=\sigma^6,\quad F=q_0S,\quad G=-q_0cS,
+\quad Y_s=cS,\quad H_s=(q_0^3+2)S.
+$$
+
+Under $(z,t)^t=Cw$, this is the pullback of an actual section of $L_6\boxtimes L_6$ through the UH degree-three isogeny. It is therefore invariant under the selected kernel with exactly UH's fixed linearization. Each kernel operator is a constant matrix in the $108$ theta basis on the tame level cover. Apply such a matrix minus the identity to the constant vector in (997.5). The resulting linear combination of the $108$ theta functions is zero at the CM fiber by (997.7). Their linear independence on that fiber makes every constant coefficient zero. Thus the same vector is invariant throughout the family.
+
+This proves membership of the specific original vector without misidentifying either a coset subspace or a different cyclic-three line.
+
+## 3. The scalar heat equation and the actual two Frobenius relations
+
+Equation (997.6) also fixes the derivative convention. For a homogeneous coefficient of weight $k$,
+
+$$
+D(\lambda^k f)=\lambda^{k+2}
+\left(\theta_q f-kE_2f/12\right).
+$$
+
+Thus R968's graded Serre heat equation transports to
+
+$$
+\boxed{
+\mathcal D\Theta_\epsilon=0,\qquad
+\mathcal D=D-\frac16\partial_z\partial_t
+-\frac{3X_0}{2}zt.
+}
+\tag{997.8}
+$$
+
+This is the scalar theta-basis realization of UH's connection. A nonconstant algebraic value basis introduces its already proved finite matrix $M$; (997.8) does not discard that matrix from a fixed algebraic basis.
+
+Let $p\ge41$, $p\equiv5\pmod6$, and fix the original prime of $\mathbf Z[\zeta]$. The following comparison can also be proved directly from (997.1), rather than inferring it from the ambient theta space:
+
+$$
+\boxed{
+\partial_x^p\mathscr J
+=A_H\partial_y\mathscr J+\tfrac12E_{p+1}x\mathscr J,
+\qquad
+\partial_y^p\mathscr J
+=A_H\partial_x\mathscr J+\tfrac12E_{p+1}y\mathscr J.
+}
+\tag{997.9}
+$$
+
+The identities are in the integral Hurwitz coefficient model modulo $p$. The Gaussian in (997.1), the complete lattice series, and $1/(6\eta^4)$ all have $p$-integral Hurwitz Fourier coefficients. In characteristic $p$, $\partial_x^p$ is a derivation in this ring. Its action on the mixed Gaussian is zero, since the resulting factor is $(-E_2y/2)^p$ and the ordinary product $y^p=p!\gamma_p(y)$ is zero. On a lattice exponential it replaces $\alpha^p$ by $\bar\alpha$; the finite coefficient $\epsilon(\alpha)$ is unchanged, since this is a linear differential operator, not Frobenius applied to the entire source.
+
+Restoring the Gaussian after this differentiation gives the Fourier identity
+
+$$
+\partial_x^p\mathscr J=\partial_y\mathscr J+\tfrac12E_2x\mathscr J.
+$$
+
+Every individual coefficient has the same modular weight after inserting $A_H$ and $E_{p+1}$ as in (997.9). Their Fourier expansions are $1$ and $E_2$ modulo $p$. The fixed-weight $q$-expansion principle proves (997.9). The transposed calculation is identical. The extra $E_{p+1}/2$ term is essential; one cannot use a bare exchange of the two derivatives.
+
+Write $A$ for UH's original Hasse polynomial on its auxiliary curve, and $B_0=DA$. Its exact normalization is
+
+$$
+A=\lambda^{p-1}A_H,\qquad
+B_0=\lambda^{p+1}E_{p+1}/12.
+\tag{997.10}
+$$
+
+The second identity follows either from the same Fourier expansions or from $12D_{p-1}A_H=E_{p+1}$ in characteristic $p$. Scaling (997.9) through (997.6) now gives
+
+$$
+\boxed{
+\partial_z^p\Theta_\epsilon=A\partial_t\Theta_\epsilon+6B_0z\Theta_\epsilon,
+\qquad
+\partial_t^p\Theta_\epsilon=A\partial_z\Theta_\epsilon+6B_0t\Theta_\epsilon.
+}
+\tag{997.11}
+$$
+
+These are exactly UH15 for the actual original vector. Their general form was already proved in UH; the new point is the explicit source and scalar calibration (997.5)–(997.10).
+
+## 4. The original meromorphic operator and projection
+
+Let $\sigma_{a,b}$ be the canonical zero-quadratic-parameter sigma function of
+
+$$
+c^2=q_0^3-aq_0/4-b/4.
+$$
+
+The actual scaling is
+
+$$
+\sigma_{a,b}(v)=\lambda^{-1}\sigma_{\rm alg}(\lambda v),
+\qquad \zeta_{a,b}(v)=\lambda\zeta_{\rm alg}(\lambda v).
+$$
+
+Set $L_v=\partial_v-6\zeta_{a,b}(v)$, and likewise $L_z$ in the $z$ variable. Then
+
+$$
+L_v^2\bigl(\lambda^{-1}\mathscr J(\lambda u,\lambda v)\bigr)
+=\lambda(\nabla_y^{\rm alg})^2\mathscr J(\lambda u,\lambda v).
+\tag{997.12}
+$$
+
+The original first-variable projection therefore becomes the **second** UH-variable projection:
+
+$$
+\boxed{
+\Pi_4^uL_v^2\bigl(\lambda^{-1}\mathscr J(\lambda u,\lambda v)\bigr)
+=\left.\Pi_4^t L_z^2\Theta_\epsilon(z,t)\right|_{(z,t)=(v,u)}.
+}
+\tag{997.13}
+$$
+
+For $a+b=p-6$, the coefficient on the left is precisely $\lambda^{p-5}Z_{a,b}$ of R968. At the original CM point, (997.7) gives
+
+$$
+\boxed{
+\Pi_4^tL_z^2\Theta_\epsilon|_{P_0}=-72F(t)G(z).
+}
+\tag{997.14}
+$$
+
+Here $L_z^2Y_s=-12G$, and the first-variable unit classes in R966 kill the other tensor. No section or theta phase is substituted.
+
+The canonical zeta function is not being reduced as an unrestricted ordinary or Hurwitz series. Equations (997.12)–(997.14) are exact characteristic-zero identities; reduction uses only R968/R995's proved finite ranges, in which the required separate Taylor factorials and weighted Eisenstein coefficients are $p$-integral. The unrestricted Hurwitz argument in §3 applies to $\mathscr J$, not automatically to its meromorphic zeta derivatives.
+
+### 4.1 The entire projected first-$p$ rectangle is integral
+
+There is a slightly stronger finite range for this specified projection. The unit orbit in (997.1) implies that every monomial of $\mathscr J$ satisfies $a-b\equiv1\pmod6$. The mixed Gaussian preserves this difference. After $\Pi_4^u$, the first exponent is $4\pmod6$ and the second exponent is $3\pmod6$, hence at least three.
+
+For any output exponent $0\le b<p$, the leading second derivative only needs an input exponent $b+2\le p+1$. Among the allowed input exponents $3\pmod6$, the largest in this interval is $p-2$, since $p\equiv5\pmod6$. Thus this input factorial is still a unit. In a term involving the canonical zeta coefficient $\beta_n=B_{2n}E_{2n}/(2n)!$, the actual input exponent $l\ge3$ obeys $b=l+2n-2$, so $2n\le b-1\le p-2$. With two non-leading zeta coefficients the same reasoning gives $2(n+m)\le b-1$. All these weighted Eisenstein and factorial denominators are units. The first bad zeta index $2n=p-1$ could only contribute to output degree at least $p$, outside this rectangle.
+
+Consequently the complete finite polynomial
+
+$$
+T_\epsilon=
+\left[\Pi_4^tL_z^2\Theta_\epsilon\right]_{\deg_z<p,\,\deg_t<p}
+\tag{997.14a}
+$$
+
+is well-defined over the characteristic-$p$ auxiliary function field. In particular $T_\epsilon(P_0)=-72F_{<p}(t)G_{<p}(z)$. This assertion concerns the entire indicated finite rectangle, not a reduction of the unrestricted meromorphic series. The old cross-curvature may be applied to this polynomial. Its actual source is $\mathcal D T_\epsilon$, which includes the bulk commutator in (997.18) and the class-projection terms, as well as its own truncation boundary. It is not obtained by merely applying the projected meromorphic operator to $\mathcal R_\epsilon$ below.
+
+## 5. Exact mask transport through the exchanged axes
+
+Retain the original labels
+
+$$
+p=6N+5,\quad i+j=N-1,\quad h=6i+7,
+$$
+$$
+w_i=\mathbf1_{\gcd(h,p+1)=1}P_{h-1}(1/s).
+\tag{997.15}
+$$
+
+On the exchanged variables, the critical monomial of (997.14) is
+
+$$
+z^{6j+1}t^{6i+4}.
+$$
+
+The old UH fivefold lift must accordingly be transposed. Write its commuting Frobenius operators as
+
+$$
+\mathcal L_z=A\partial_t+6B_0z,\qquad
+\mathcal L_t=A\partial_z+6B_0t.
+$$
+
+The lift for this target is $\mathcal L_z^3\mathcal L_t^2$, not $\mathcal L_z^2\mathcal L_t^3$. At $P_0$, it multiplies the critical term by $(6B)^5z^3t^2$, where $B=B_0(P_0)$ is the same old nonzero Cartier constant. The exponents become
+
+$$
+z^{p-h}t^{h-1}.
+\tag{997.16}
+$$
+
+For an integer-difference chain $V_d$, where $d=\deg_z-\deg_t$, define
+
+$$
+h_d^{\rm op}=(p+1-d)/2.
+$$
+
+If this is an integer with $7\le h_d^{\rm op}\le p-4$ and $h_d^{\rm op}\equiv1\pmod6$, set
+
+$$
+\mathcal W^{\rm op}|_{V_d}
+=\mathbf1_{\gcd(h_d^{\rm op},p+1)=1}
+P_{h_d^{\rm op}-1}(1/s)\,I;
+$$
+
+otherwise set it to zero. This is exactly UH's $\mathcal W$ conjugated by the exchange of the two variables, equivalently $w_d^{\rm op}=w_{-d}$. It is still a horizontal operator on the finite cross-heat module, since that module preserves the integer difference. In particular it keeps the original $h$ in (997.15); it does not replace it by an independently chosen label or retain the unexchanged mask by convention.
+
+Taking the degree-$p-1$ part after the transposed lift, the precise marked expression is
+
+$$
+\boxed{
+\left[\mathcal W^{\rm op}\mathcal L_z^3\mathcal L_t^2
+T_\epsilon\big|_{P_0}\right]_{p-1}
+=-72(6B)^5\sum_{i+j=N-1}w_if_ig_jz^{p-h}t^{h-1}.
+}
+\tag{997.17}
+$$
+
+All these exponents are below $p$. The nonzero scalar and the distinct monomials retain the original same-label criterion. Equation (997.17) fixes the transported operator; it does not prove its value nonzero.
+
+In particular the horizontality of $\mathcal W^{\rm op}$ does **not** make $\Pi_4^tL_z^2$ horizontal. The latter has the actual commutator
+
+$$
+\boxed{
+[\mathcal D,L_z]
+=-q_0(z)\partial_t-6D\zeta_{a,b}(z)
++\frac{3X_0}{2}t.
+}
+\tag{997.18}
+$$
+
+This follows from $[\partial_z,L_z]=6q_0$ and $[zt,L_z]=-t$. The class projection also fails to commute with the cross derivatives: $\Pi_j^t\partial_t=\partial_t\Pi_{j+1}^t$ and $\Pi_j^t t=t\Pi_{j-1}^t$. R995 computes the first coarse CM normal jet with precisely these contributions retained. Neither (997.8) nor the finite mask removes its three new branches.
+
+## 6. The actual scalar boundary and its projected cancellation
+
+Let $P_\epsilon$ be the first-$p$ rectangle of $\Theta_\epsilon$ in the Hurwitz basis, and let $\mathcal R_\epsilon=\mathcal D P_\epsilon$. By (997.11), UH18 applies with the **actual scalar** coefficients of $\Theta_\epsilon$. All two edges and the corner are retained; no new boundary formula is assumed.
+
+The CM axes in (997.7) are
+
+$$
+\Theta_\epsilon(0,t)=G(t),\qquad
+\Theta_\epsilon(z,0)=0,
+\qquad \Theta_\epsilon(0,0)=0,
+\tag{997.19}
+$$
+
+because $H_s(0)=1$ while $F(0)=G(0)=Y_s(0)=0$. Since $A(P_0)=0$, the scalar boundary itself is zero at $P_0$. Its first connection derivative is the definite nonzero source
+
+$$
+\boxed{
+(\mathcal D\mathcal R_\epsilon)(P_0)
+=\frac B6\gamma_{p-1}(z)\,G_{<p}''(t).
+}
+\tag{997.20}
+$$
+
+The corner in UH19 is zero here because the actual constant term is zero, and the other axis contributes zero. The last possible edge terms are covered by UH17; at $P_0$ their Hasse factor is zero.
+
+Nonzero in (997.20) can be checked in the actual source without a numerical computation. On $E_-:c^2=q_0^3-1$,
+
+$$
+q_0=t^{-2}+t^4/7+\cdots,\quad
+c=-t^{-3}+2t^3/7+\cdots,\quad
+\sigma=t-t^7/210+\cdots.
+$$
+
+Thus $G=t-6t^7/35+\cdots$ and $G''=-36t^5/5+\cdots$. The coefficient of $\gamma_{p-1}(z)t^5$ in (997.20) is nonzero for every prime in the present range.
+
+But this nonzero source does not survive the original projected meromorphic operator:
+
+$$
+\boxed{
+\Pi_4^tL_z^2
+\bigl((\mathcal D\mathcal R_\epsilon)(P_0)\bigr)=0.
+}
+\tag{997.21}
+$$
+
+Indeed every exponent of $G''$ is $5$ modulo six, whereas $L_z^2$ acts only on $z$. One may commute the projection past this second-variable-independent operator and kill the $t$ factor first. Thus this assertion requires no reduction of a high zeta coefficient.
+
+This is a source-specific cancellation. It is compatible with UH's warning that a nonzero full theta boundary does not force the named $FG$ component, and with R995's later nontrivial normal coupling. It is not a new all-prime zero statement for the critical product.
+
+### 6.1 The first possible entry of these boundary iterates into the critical band
+
+The order of operations matters here. In this subsection consider
+
+$$
+\mathcal B_k=
+\left[\Pi_4^tL_z^2
+  \left.(\mathcal D^k\mathcal R_\epsilon)\right|_{P_0}
+\right]_{\deg_z+\deg_t=p-6}.
+\tag{997.22}
+$$
+
+The last coefficient extraction retains the original exponents $\deg_z=6j+1$, $\deg_t=6i+4$. This is a specified boundary-connection iterate. It is not the third Serre derivative of a column in R995, and $\Pi_4^tL_z^2$ has not been commuted through $\mathcal D$.
+
+The exact lower bound, before any primitive or Legendre filter, is
+
+$$
+\boxed{\mathcal B_k=0\quad(0\le k\le7).}
+\tag{997.23}
+$$
+
+Here is a support proof retaining both edges. Put $E_z(t)=\Theta_\epsilon(0,t)$ and $E_t(z)=\Theta_\epsilon(z,0)$. The two edges of UH18 have the forms
+
+$$
+\frac A6\gamma_{p-1}(z)E_z''(t),\qquad
+\frac A6\gamma_{p-1}(t)E_t''(z),
+$$
+
+with UH's exact last-edge coefficients understood. The corner coefficient is identically zero for this scalar source: its $a_{00}$ and $a_{11}$ both have unit-difference class zero, whereas $\Theta_\epsilon$ has class $-1$.
+
+For the first edge, $E_z(P_0)=G$, and at least one base derivative must hit $A$ before a term can survive at $P_0$. Every $t$ exponent of $E_z''$ is $5\pmod6$. Let $l$ count the cross derivatives $\partial_z\partial_t$ in a term and let $u$ count the potential multiplications $zt$. To survive $\Pi_4^t$ one needs $l-u\equiv1\pmod6$. The $z$ endpoint starts at $p-1$, and $L_z^2$ can lower its exponent by at most two. Since every original critical $z$ exponent is at most $p-10$, one needs $l-u\ge7$. Thus at least seven cross-lowering operations and one activating base derivative are required: $k\ge8$.
+
+For the second edge, both $A(P_0)$ and $E_t(P_0)$ are zero. In fact the exact scalar heat equation gives
+
+$$
+(DE_t)(P_0)=H_s'/6,
+$$
+
+so at least two base derivatives are required to activate their product. The $t$ endpoint is $p-1\equiv4\pmod6$ and is unaffected by $L_z^2$. Thus the same projection requires $l-u\equiv0\pmod6$, and the bound $\deg_t\le p-7$ requires $l-u\ge6$. Again $k\ge8$.
+
+These estimates also retain derivatives of the potential coefficient $X_0$. A potential multiplication raises both exponents, so it can never improve the required net lowering; its vanishing at $P_0$ can only require more base derivatives. The possible last-edge $A^2$ term has total degree $2p-3$ before $L_z^2$. Even eight cross derivatives and that second-order operator cannot lower it into total degree $p-6$ for $p\ge41$. Thus no omitted endpoint changes (997.23).
+
+This also explains the distinction from pure Serre differentiation: iterating the base derivative $D$ alone never moves either fixed $p-1$ endpoint. The cross part of $\mathcal D$ is necessary to enter the critical band at all.
+
+At $k=8$ the support argument is sharp. Only two original endpoints occur, and their exact values are
+
+$$
+\boxed{
+\begin{aligned}
+\mathcal B_8={}&
+-\frac{8B(p-14)(p-15)13!}{6^8(p-8)!4!}\,g_2\,
+ z^{p-10}t^4\\
+&+\frac{112B\,12!}{6^8(p-7)!}\,h_2\,
+ zt^{p-7},
+\end{aligned}}
+\tag{997.24}
+$$
+
+where $g_2=[t^{13}]G$ and $h_2=[z^{12}]H_s$. To check the constants, the first edge at this order has exactly seven cross derivatives and one derivative of $A$. The binomial placement count is eight, so its contribution before $L_z^2$ is
+
+$$
+-\frac{8B}{6^8}\gamma_{p-8}(z)G^{(9)}(t).
+$$
+
+The leading Laurent part of $L_z^2$ sends $z^d$ to $(d-6)(d-7)z^{d-2}$, and $[t^4]G^{(9)}=13!g_2/4!$. This gives the first line of (997.24). The second edge has exactly six cross derivatives and two base derivatives. Since
+
+$$
+D^2(AE_t'')(P_0)=2B(DE_t'')(P_0)=BH_s'''/3,
+$$
+
+its contribution before $L_z^2$ is $(56B/6^8)\gamma_{p-7}(t)H_s^{(9)}(z)$. Here $[z^3]H_s^{(9)}=12!h_2/3!$, and the second-order operator multiplies this term by $12$. This gives the second line. Higher regular zeta terms cannot contribute to the two specified endpoint coefficients. No term with a potential multiplication has enough net lowering at order eight.
+
+Both fixed source constants can be evaluated on paper from the original Weierstrass equation:
+
+$$
+g_2=-\frac{1068}{25025},\qquad h_2=-\frac6{1925}.
+\tag{997.25}
+$$
+
+For example $q_0=t^{-2}+t^4/7+t^{10}/637+\cdots$ and
+
+$$
+S=t^6\left(1-\frac{t^6}{35}
++\frac{59t^{12}}{175175}+\cdots\right).
+$$
+
+Multiplying $-q_0cS$ and $(q_0^3+2)S$ gives (997.25). The only prime at least $41$ in these numerators is $89$, and $89\equiv8\pmod9$ is excluded from the original application. Thus both coefficients in (997.24) are nonzero for every original allowed prime. This is an exact assertion about the indicated **eighth boundary iterate**, not about the un-differentiated critical product. Applying the original mask may still remove these endpoint labels, and the higher iterates and the bulk source of $T_\epsilon$ are not determined by (997.24).
+
+## 7. Remaining exact issue
+
+The original mixed source is now identified with one constant vector of the actual UH invariant family, including its finite character, scalar, component exchange, canonical meromorphic derivative, and mask. The actual first boundary is explicit and nonzero, while its immediate original projection is zero. These facts do not establish that the R995 three branches lie in the span of the same retained columns, nor that the R992 filtered subspace is invariant or has a nonzero marked functional.
+
+To continue, one must control the displayed nonhorizontal operator on this **specific** theta vector, or prove a relation among R995's actual $g_{i+1}\mathsf A_j$, $f_i\mathsf M_j$, and $f_i\mathsf R_j$ with the original mask. An invertible theta basis change, the old zero curvature of the finite connection, or the nonzero boundary (997.20) alone does not do so.
+
+## Dependencies
+
+- [R954](R954-original-odd-sigma-and-conductor-two-s-CM-evaluations.md), [R966](R966-single-conductor-two-s-CM-kernel-and-original-critical-jet.md), and [R968](R968-full-level-mixed-CM-jet-and-critical-factor.md): the actual conductor, positive embedding, original rank-two specialization, Gaussian, graded heat equation, canonical zeta and finite coefficient integrality.
+- [UH: unitary cross heat and primitive source](../notes/2026-11-15-sigma-unitary-cross-heat-and-primitive-source.md), especially UH2–UH19 and UH25–UH29: the actual degree-three family, fixed theta linearization, finite tame model, general Frobenius/boundary identities, and mask. Those theorems are used, not re-proved as new conclusions.
+- [MH](../notes/2026-11-15-sigma-modular-heat-connection-and-odd-tame-trivialization.md), [FT](../notes/2026-11-15-sigma-full-heat-tame-trivialization-and-even-source.md), and [OP](../notes/2026-11-15-sigma-first-p-oscillator-curvature-and-Hasse-source.md): the original canonical sigma normalization, fixed-discriminant derivative, complete heat connection, Hasse normalization and nonzero $B$.
+- [R992](R992-original-full-level-Jacobi-operator-and-filtered-stability-criterion.md) and [R995](R995-original-mixed-source-for-the-first-coarse-CM-normal-jet.md): the conditional filtered-stability criterion and its actual first coarse normal source.
+

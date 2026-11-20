@@ -22,6 +22,8 @@ R969公开三点113/131/227得到全mask rank10/11/19、A/E4组合及额外两q�
 
 [R996](results/R996-original-end-column-cusp-unit-and-filtered-space-nonzero.md)：原末列Z_(p−7,1)=12T_(p−7,3)的完整norm-one Gaussian给尖点常数233/(p−7)!；p233为8mod9，原允许类排除，故此列全p全局非零。原h=p−4的primitive iff5∤p+1、Legendre=P4(1/s)=19/9单位，故 **5∤p+1整族的原filtered V≠0已证**。5|p+1时此列被删；CM mark/实际G稳定仍开。一般cusp完整式a!CT Z_ab=[v^b](∂−6ζ0)²Π3(e^v(1−v/2)^(-b−6))保全Gaussian/ζ，首p整界和单Bernoulli简式已核，不假其为原Legendre。
 
+[R997](results/R997-original-epsilon-vector-and-unitary-boundary-source.md)：实际原ε-vector=(6d0)^−1Σ_(r mod6)ε(r)Ψ_(Hr)确在旧UH36空间，靠CM整源/108基独立性/常数theta矩阵证明，非仅coset支持。**λ^−1J(λu,λv)=Θε(v,u)**保交换轴/Gaussian/相位；原Π4变t轴、L²变z轴，lift Lz³Lt²与w_d→w_(−d)保同h。完整首p矩形整；其source须保bulk [𝒟,Lz]=−wp∂t−6Dζ+(3X0/2)t及Π shift。原边界首导数(B/6)γ_(p−1)(z)G″(t)被Π4杀；指定critical Π4Lz²𝒟^kR在k≤7全零，k8仅两端且g2/h2准确单位（89被mod9排），不是R995 D³Z/原critical单位。旧UH/MH曲率不重登；root/audit全文独审。
+
 ## O2：完整原超奇异迹、真正CM packet及近顶unit系数
 
 原全SS和S含所有点、t0权1/非零H根权3/fine12/椭圆零项；指定j0项为零不能代全和。R936/939/941原trace、Jacobi ODE和CT公式全部已成，源C负RHS、β^p=β、Tate E6=−c6、η12=−6sD、KS正号保全。R963公开允许r2的1000<p≤1e5全部1582点无零；R967独立κ/g_p两点尺度通过，只有限证据。

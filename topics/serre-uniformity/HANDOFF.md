@@ -4,9 +4,9 @@
 
 证明绝对C使所有无CM E/Q在p>C时模p满射，或给p→∞完整反例族。**主目标OPEN，尚未达README标准。**
 
-**维护会话：serre-public-astra-20261120-de0a3e3b。** 已部分克隆并真实pull main，接手serre-public-astra-20261115。压缩前逐字状态在[最新H归档](handoff-archive-2026-11-20-before-end-column-cusp-unit.md)，沿链保全部旧source/SHA/尺度/失败边界，不重做已登记结论。
+**维护会话：serre-public-astra-20261120-de0a3e3b。** 已部分克隆并真实pull main，接手serre-public-astra-20261115。压缩前逐字状态在[最新H归档](handoff-archive-2026-11-20-before-original-unitary-source.md)，沿链保全部旧source/SHA/尺度/失败边界，不重做已登记结论。
 
-**已读规则提交：9596c6740dc99e1a971e6e4f9173b289e6f93339**（2026-11-20T15:25:23.613298+00:00；终端真实git pull --rebase origin main，两README无diff）
+**已读规则提交：870b797170b94046c25ab4209722265aa8637174**（2026-11-20T15:30:28.710492+00:00；终端真实git pull --rebase origin main，两README无diff）
 
 两README完整已读，SHA256 root 581402c2 / topic 35f82f3d。每结论立即推；每push前且至少每小时真实pull；每pull检查两README，有变只读diff立刻照办并记已读SHA。NFF/lock-ref竞态立即pull --rebase再推直到成功，禁force。PAT只CLI，不入文件/提交；root独占main/H/open/index/log。
 
@@ -24,25 +24,17 @@ R969三点actual span核已过；R971严格排全p full-span，未排特定A/E4�
 
 [R996](results/R996-original-end-column-cusp-unit-and-filtered-space-nonzero.md)：原末列Z_(p−7,1)=12T_(p−7,3)的完整norm-one Gaussian给尖点常数233/(p−7)!；p233为8mod9，原允许类排除，故此列全p全局非零。原h=p−4的primitive iff5∤p+1、Legendre=P4(1/s)=19/9单位，故 **5∤p+1整族的原filtered V≠0已证**。5|p+1时此列被删；CM mark/实际G稳定仍开。一般cusp完整式a!CT Z_ab=[v^b](∂−6ζ0)²Π3(e^v(1−v/2)^(-b−6))保全Gaussian/ζ，首p整界和单Bernoulli简式已核，不假其为原Legendre。
 
+[R997](results/R997-original-epsilon-vector-and-unitary-boundary-source.md)：实际原ε-vector=(6d0)^−1Σ_(r mod6)ε(r)Ψ_(Hr)确在旧UH36空间，靠CM整源/108基独立性/常数theta矩阵证明，非仅coset支持。**λ^−1J(λu,λv)=Θε(v,u)**保交换轴/Gaussian/相位；原Π4变t轴、L²变z轴，lift Lz³Lt²与w_d→w_(−d)保同h。完整首p矩形整；其source须保bulk [𝒟,Lz]=−wp∂t−6Dζ+(3X0/2)t及Π shift。原边界首导数(B/6)γ_(p−1)(z)G″(t)被Π4杀；指定critical Π4Lz²𝒟^kR在k≤7全零，k8仅两端且g2/h2准确单位（89被mod9排），不是R995 D³Z/原critical单位。旧UH/MH曲率不重登；root/audit全文独审。
+
 ## O2：原完整trace及高坐标单位
 
 R955/R970整个原CM packet为Cartier nilpotent单链，L=dim包=rank level9高权p−1/p−7完整classical Hecke模；**原S≠0 iff L1 iff完整η_f单位 iff准确TU adjoint值单位**。保Γ6/Γ036整格、det返回、σ⁻¹T_p和2/3 type，无两Weil增倍；坏链是真非CM congruence。
 
 R958 r2原moment S^p=−216c_momℓ(R_F)，R_F=−2D^(2N+1)β²C^p，目标moment仍开。R960/965真实Igusa因子h=L+1，κ=(1/p)[x^((p²−1)/3)]a^(2p+2)=36α=−g_pT=−g_pS^p/432，g_p=48[x^(m+1)]a²单位。**不能把该因子换成固定CM椭圆源height2**；链顶单位不推链底。
 
-R973/R983原四点balanced/pure与独立核已认证，sources/jobs/hashes见回执及H归档，只消费不重跑。
+R972–985的完整ring-class/AH/Robert/normalized Δ/strict LT源与全部尺度见最新H归档及各结果：原χ faithful、两HT条件互补，global unit线γ0单位、S非零 iffγ1非零，cσ不换两线。fixed7真实生成元与半norm、ϖ=ηX相位保；高pure/低pure属不同mirror，低unit不能搬给高。R975原整heat给所有n<p的c_n整但近p单位未证；R974 TU原period不反除。R973/R983四点完整核只消费；R982/983只排指定共同α/ξ及factorial模型。R984/985真一次Frob整余项及strict除p carry−3T^(p+6)/7不能删。
 
-R974原TU格Ω_f±/P_n整，adjoint=u_n c_n P_n²/(Ω+Ω−)，u_n=2^(n+2)3^((n−8)/2)(n−1)!单位；原先只得c_n单位⇒η单位⇒S非零；R988现从实际Cartier/Robert源补逆向，仍不假period比单位。KS/Manin/3Euler/i尺度保。
-
-R975 U_n=n!(n−1)!c_n整heat递推，U_n=F_n(12g2,−216g3)/12，F_n=(R^(n−1)E)|E0；Wilson c_(p−r)=−r!(r−1)!F_(p−r)(0,−864)/12。n<p均整，近p阶单位仍开，不从R^p高导数单位反除。
-
-R972/R976–980真实ring-class/AH/Robert/normalized Δ完整源及全部尺度见最新H归档。原χ faithful、e=m=(p+1)/3、两个HT条件互补；global unit线γ0单位、S非零 iffγ1非零，cσ不交换两线。fixed7真实unit生成元，原half norm后取log、strict LT和η均保；高pure/lowpure各自Robert mirror不同对，低unit不能移给高。R988下文已给高γ1与balanced准确尺度，period比不反除。
-
-R982原theta/Robert对称已排literal共同α/ξ模型；R983又以独立exact rational反例排指定factorial共ξ，均不排真正mixed比较。
-
-R981原pure留数/唯一共振/two-digit压缩与R983四点全核已成；R983 run44748379140准确否定指定factorial共ξ模型（41/47差10/31），不重跑。
-
-R984–987真实Frob整核、strict坐标carry、global rational LT实现及Poincare两open Cartier全证，准确公式/源/边界见最新H归档及各结果。保μbar=−β、R_T=R_tg+μC_g、首carry−3T^(p+6)/7、𝒯=Z+β^-1J_s^p、参数误差q−3与首分母pL_p=−βZ；R594/R658旧formal分解不重登。真实gluing给C(xZ^jω)=β^(1−j)j!L_jω，非共同scalar；第二Frob有限取消和theta曲率−βW不推near-p unit。
+R986/987真global rational LT与Poincare两open源：𝒯=Z+β^-1J_s^p、误差首q−3，R594/R658旧formal分解不重登；gluing给C(xZ^jω)=β^(1−j)j!L_jω，pL_p=−βZ。第二Frob有限取消/曲率−βW不推near-p单位；完整公式和来源保最新H归档。
 
 [R988](results/R988-original-pure-balanced-Cartier-contraction-and-high-trace.md)：完整Cartier与真正theta对称给 **G_(j(p−1))=−j!β^−j c_j+，1≤j≤p−2**；原r2/8、n=p−r有G_high=−β^(r−1)c_n+/(r−1)!、G_highstar=β^r c_n+/r!。原AH高坐标 **γ1=−24η^(−(m−b))(χσ−1)β^(r−1)c_n+/r!**，所有外因子单位、c_n+=−c_n−，故 **原S≠0 iff c_(p−r)±单位 iff F_(p−r)(0,−864)非零**，补成R974逆向而不反除period比。实际p-basis b0=−βB_(p−1)、b6=−β7 B_(p−7)/6!，参数差首影响q−3完整保。低a3/9 pure显式−β−3、−8β−9/35只校准已知unit；真正near-p系数全p单位、同h与height仍开。
 
@@ -54,7 +46,7 @@ R991已完整认证R989旧r8差集349点（1000..20000），原三路/全hash见
 
 [R994](results/R994-certified-original-combined-windows-through-200000.md)：R993公开run44760218207/job136370438703/source248592d7fabd01b1b8c548237400767e9ecec001已成功，531.337922156s且final预算真/exit0。新r8的20000..200000共2622点（20021..199877），新r2的100000..200000共1386点（100019..199967），总4008全非零/无尾段；各行首两点20021/20117/100019/100103原三路一致、完整wp ODE及全部首resonance核过。root纯IO逐块重组8段contract/7段summary，核全部sources/列表/rows/flags；payload2865567B SHA e764dff838bb24b18c8fec7f7634c2044f403e59e23a349cc00d0554c000dc8d。R988给这两个有限集原S单位，不推全p/同h/height；current R993 request完成，禁止重触发。method c1913358/script2e60046f及全部pins在回执，无raw artifact。
 
-继续R995实际filtered关系；R996已证5∤p+1整族原V非零，继续5|p+1与actual G作用；R997在写原J与UH36完整源桥，O2实际残数/period defect的非退化仍开。下一理论空号R998。主目标OPEN。
+继续R995实际filtered关系；R996已证5∤p+1整族原V非零，继续5|p+1与actual G作用；R997已证完整原源/边界深度，继续Tε真实bulk。R998在准备j1尖点常数的极短公开exact核（无prime窗口），R999留回执；O2残数/period defect非退化仍开。主目标OPEN。
 
 ## 继承任务与永久边界
 
