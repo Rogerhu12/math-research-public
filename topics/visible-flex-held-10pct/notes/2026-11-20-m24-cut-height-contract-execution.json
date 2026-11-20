@@ -1,0 +1,52 @@
+{
+  "maintenance": "Astra-held10-1b6d88ec-20261120 / geometry_advance",
+  "date_utc": "2026-11-20",
+  "status": "actual_exit0_exact_height_placement_contract",
+  "source": "scripts/resume_m3/certify_m24_cut_height_contract.py",
+  "source_sha256": "bf277d27852e9eab8f5961d723ae3d142562a6df740c8a82766eddf1e6720070",
+  "input_sha256": {
+    "prefix_height": "377b11526dec1d130985da5bf6d21e3db43db744fad57e1c09b8cc0d70e2e18e",
+    "bridge_mean": "be9ab23875fde1844d63d937bb4636b47c0f7587789a363f8f27563f683d80a7",
+    "bridge_nonmean": "efc203e308631d248948d08810c43c57a72f6f2b2521e90cefa71e251a5c406e",
+    "bridge_geometry": "af5451fad5c24595407e3f64790037cdd12213d325bbda87b0e6def2132f30bc",
+    "stage_data": "2c0623b00159fdbf4c52f161d1c33068ae425610b0f1fd6bcc278bd1e3b9c662",
+    "stage_packet": "5936ad766213c5b8aa49dab5898815911280860dbaac34906c6347240f6d2ea8"
+  },
+  "output_sha256": "1b4147e58ff934f3784e981fb72d43044c26a4a069e883d871a7fcc2a6528a19",
+  "run_sha256": "c44b6fd2fbb13cc9ce0451cc6ab1d3c06521de0622de27190bde94c4c550462a",
+  "physical_sha256": "f2e22fe19bb0b6fdeff79c4fa99363d9be6cbb1ef382fd882679a2b717a3030d",
+  "mean_nodes": 1168,
+  "tail_checkpoint_sha256": "302662026a7e213647d8bfb2813f970174c8c919bb6f4d406e073ef9f3c110de",
+  "actual_exit_code": 0,
+  "seconds": 0.011805465001089033,
+  "cut_primitive_Z": {
+    "lower_exact": "323327335331885717351012557115889/649037107316853453566312041152512",
+    "upper_exact": "317488781630213/250000000000000",
+    "lower": 0.49816463756368945,
+    "upper": 1.2699551265208522
+  },
+  "tail_background_Z_b": {
+    "lower_exact": "323327574284682668548709208281585/649037107316853453566312041152512",
+    "upper_exact": "183019874964629320183203767533569/144115188075855872000000000000000",
+    "lower": 0.498165005728767,
+    "upper": 1.2699554946859297
+  },
+  "saved_tail_perturbation_mean_at_cut_exact": "1738610422407493/4722366482869645213696",
+  "definition": "Z_b = same true mean1168 bridge Z_cut + unchanged saved warm .25 nonrotating tail mean at cut",
+  "broad_window_exact": [
+    "49/100",
+    "127/100"
+  ],
+  "R58_placement_window_satisfied": true,
+  "new_integrals": 0,
+  "new_nonlinear_solves": 0,
+  "mean_reset": false,
+  "mean512_identified_with_mean1168": false,
+  "full_Cartesian_cut_seam_claimed": false,
+  "command": "python \"$TOPIC/scripts/resume_m3/certify_m24_cut_height_contract.py\" --prefix-height \"$N4WORK/prefix-z0-normalized-certificate.json\" --bridge-mean \"$WORK/newg-m24-r59-c2-mean-certificate.json\" --bridge-nonmean \"$WORK/newg-m24-r59-c2-nonmean-certificate.json\" --bridge-geometry \"$WORK/newg-m24-r59-c2-geometry-combination.json\" --stage-data \"$WORK/stage0000-literal-r-data.json\" --stage-packet \"$WORK/stage0000-saved-native-input.json\" --out \"$WORK/m24-cut-height-contract-certificate.json\"",
+  "unpaid": [
+    "different nonconstant warm .25 vs full H trace",
+    "cut first and second Cartesian jets",
+    "full tail coverage and whole family"
+  ]
+}

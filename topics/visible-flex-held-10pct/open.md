@@ -15,7 +15,7 @@
 
 - 已接受.25 warm 的 stage127 现以字面R结点/共同Cartesian二jet定义实际C²图，17完整径向块×全角连续metric≤1.127693e−9、K≤8.000976，真R58背景未换；15606端点等式精确。相邻全stage的唯一节点共用、fullH和切口接缝继续，详见 [stage127证书](notes/2026-11-20-warm025-stage127-shared-r-c2-certificate.md)。
 
-- [.25深圆领与平盘](notes/2026-11-20-warm025-deep-collar-certified.md)已用实际stage1151内端459个字面两jet参数构造并认证：918精确端点等式，metric<3.772e−30/K<8.001；z_b∈[.1,1.28]时盘组件嵌入、radius<1.34/support>.09。全尾须共用此唯一外端数据；常数高度放置、fullH与前缀接缝继续。
+- [.25深圆领与平盘](notes/2026-11-20-warm025-deep-collar-certified.md)已用实际stage1151内端459个字面两jet参数构造并认证：918精确端点等式，metric<3.772e−30/K<8.001；z_b∈[.1,1.28]时盘组件嵌入、radius<1.34/support>.09。全尾须共用此唯一外端数据；[同桥高度合同](notes/2026-11-20-m24-cut-height-and-tail-mean-contract.md)已付Zc≥.4981646，保原μc、zb=Zc+μc严格在(.49,1.27)，本盘和stage0的高度窗已满足。只常数槽对齐，fullH与Cartesian两jet仍欠。
 
 - [.25 cut stage0](notes/2026-11-20-warm025-stage0-continuous-r-map.md)已付16完整R块/全角metric≤6.587613e−9、K<8.04；14688精确端点等式，真实cut半径逐字相等，z_b窗下radius<1.34/support>.08889。linear全模与低模二次项精确同频合并，其余二次项严格余项支付，未截掉图模式。全1152段batch79634正在共用唯一接点，保stage0/127和deep锚；fullH尚欠。
 
