@@ -61,6 +61,6 @@
 
 ## 当前公开Actions执行
 
-run [44748103105/1](https://github.com/Rogerhu12/math-research-public/actions/runs/44748103105)，源码`e2c5e4a538d47d64ba62900e4271137e2312778f`；[实际紧凑记录](notes/2026-11-20-public-actions-44748103105-1.md)。当前`followup_waiting`/running，返回阶段33；退出码未返。
+run [44748103105/1](https://github.com/Rogerhu12/math-research-public/actions/runs/44748103105)，源码`e2c5e4a538d47d64ba62900e4271137e2312778f`；[实际紧凑记录](notes/2026-11-20-public-actions-44748103105-1.md)。当前`followup:continue-R671-full-phi-first-01`/failed，返回阶段34；退出码1。
 
-Actions规则核查：2026-11-20 14:40:28 UTC，真实pull至`a5c6514bd28f3e49b918d8e6195ec421168f1849`，双README相对已读无变化。
+Actions规则核查：2026-11-20 14:40:36 UTC，真实pull至`efb9069e185ed10e4504ef17122f9992b9b3a888`，双README相对已读无变化。
