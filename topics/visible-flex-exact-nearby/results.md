@@ -345,3 +345,8 @@
 截至045ac035的全部原索引逐字保[posterior常数前完整索引](notes/2026-11-16-results-before-complete-posterior-constants.md)。它包含每个原球、域、单位、mean、失败/lost、恢复及全部未付条件和更早递归原档；原证明与成功禁重义务不变。
 
 - **R135（已证明，限定路线排除）**：[同一浸入中心的线性弯曲核内没有非平移等距路径](results/R135-no-harmonic-interpolation-of-disjoint-sign-bendings.md)。点态Gram纤维至多4点；排除符号插值与双场圆周替换，不排一般非线性弯曲，不作为总完成。
+
+
+## 2026-11-20：同选定成员正侧Newton七源实际完成
+
+[NA完整结论](results/R141-supplement-actual-complete-positive-Newton-source.md)记录44765046846/1的18门、7个完整有向scalar：full/low<7.044651e−8、高97–288<1.102257e−15。29当前/7历史原件准确，原CRA核/germ/whole7721仅读，仅新外尾1341/1346交段。所有mean/物理振幅/连续修补费用保留；外端Robin/physicalmean/height、low/物理逆、两WPN及最终族未授。

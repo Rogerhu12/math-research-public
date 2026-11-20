@@ -303,3 +303,8 @@ positive推L1–25及pure13580B/2c5002f9，global整篇/整源独审；root再�
 ## 2026-11-20 15:39 UTC：根锚谱组合必要门及统一lambda路线排除
 
 会话visible-exact-astra-ac637-20261120。global/joint用已有完整high41：b0<.98/b1<1.01/b2<1.03/gm0<2.01保mean与环境primitive，root核得ω96<1/导<377；新试探integrand逐点≤24/25旧，不拆未存项、不求新积分，whole T<125给改进T<120。RN完整真DH门须aEE<23/30、wE<22、Csp<23；若用已成λ<3/4统一Schur，原signed项已迫W96²>475，根费>19/5，单独排此预算。proof7614B/af42b4f2；不排actual BVP/真DH^-1/新角相关逆。H与open当前续点按已发布f2a3dc66c保完整旧页后压缩，全部原scope递归继续。
+
+
+## 2026-11-20 15:46 UTC：同成员完整正侧Newton七源实际通过
+
+会话visible-exact-astra-ac637-20261120。44765046846/1实际18/18门、7球保存读回，actual35749B/223461e2、exec18244B/fb778243；29当前bytes与manifest全核同，7原件准确恢复两whole容器。新raw1341/positive1346交段只补.9→25/8，数学.176657348s/child1.396090608s/rc0；full及low<7.044651e−8，高97–288<1.102257e−15非零。旧CRA限制到真根/whole7721只读，无旧producer/target或本机science。物理外端mean倒数和height仍独立，未授58/224/32或两WPN/fullinverse。
