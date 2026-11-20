@@ -4,7 +4,7 @@
 
 ## 规则与完整目标
 
-最近规则核查：2026-11-20 16:03 UTC，真实pull/rebase至 `3d1618c56deb223eaf0aafce05132b60737b266b`，双README相对上次已读无差异。
+最近规则核查：2026-11-20 16:07 UTC，真实pull/rebase至 `ac621c70e43ca34f25c76d2e2358bae04d86c5a7`，双README相对上次已读无差异。
 
 科学计算仅公开Actions；本会话此前本地执行的偏差及13:00 UTC纠正见[执行记录](notes/2026-11-20-public-actions-execution-correction.md)。公开仓库内工作；终端git普通push，每条结论推一次，NFF立即pull/rebase再推。至少每小时pull；每次查根/本题README差异，变更立刻读/执行。根README已授权必要修改/发布。根唯一git writer，代理只work/小blob。raw只scratch；Git/Release/artifact只保完整小源/参数/run/SHA/紧凑结论。题≤200MB、单MD<100KB、H<10KB、open<30KB。令牌只瞬时CLI，不写文件/提交/回复。
 
@@ -24,7 +24,7 @@
 
 ## 当前实际场与并行工作
 
-[公开持续运行分卷](notes/2026-11-20-public-actions-paginated-continuation.md)：原44748103105 pair已真返；R67102已起后自然返但95KB发布故障未留可核数值。新44758209061正在再生输入；[实际mu后继](notes/2026-11-20-actual-coarse-bound-complete-continuations.md)已排R6711方向和原.992六完整方向，再全胞几何。
+[公开持续运行分卷](notes/2026-11-20-public-actions-paginated-continuation.md)：原44748103105 pair已真返；其R67102因95KB发布故障未留可核数值。新44758209061已再生同c4a3；[实际mu后继](notes/2026-11-20-actual-coarse-bound-complete-continuations.md)中R6711方向已真返，[97fd终态](notes/2026-11-20-actual-reference-tail-first-result.md)Phi9.5261192e−8/max.01259426/product.99195079，alpha.5；原.992六方向/真实精化与全胞几何继续。
 
 旧a04/0241/077完整身份在既刊结论；R663/R667几何只各自候选，不移用新场。
 
