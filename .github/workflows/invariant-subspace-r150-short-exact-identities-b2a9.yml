@@ -44,9 +44,11 @@ jobs:
           print('ISP_PULL_RECEIPT '+json.dumps(receipt,sort_keys=True),flush=True)
           if not receipt['rulesUnchanged']: raise SystemExit('README changed; root must read and follow the exact differences')
           PY
-          git show "$ISP_PIN:topics/invariant-subspace-problem/notes/2026-11-20-essential-four-reduced-three-double-zero-verify.py" > "$RUNNER_TEMP/isp-r150-reduced-three.py"
-          git show "$ISP_PIN:topics/invariant-subspace-problem/scripts/verify-r271-three-bit-highest-carry-principal-minors.mjs" > "$RUNNER_TEMP/isp-r271-highest-carry-principal-minors.mjs"
+          git show "$ISP_PIN:topics/invariant-subspace-problem/notes/2026-11-20-essential-four-unit-two-plus-two-half-isolated-zero-verify.py" > "$RUNNER_TEMP/isp-r150-half-two-plus-two.py"
+          git show "$ISP_PIN:topics/invariant-subspace-problem/notes/2026-11-20-r150-weight11-projected-rank-b2a9.cpp" > "$RUNNER_TEMP/isp-r150-weight11-projected-rank.cpp"
+          git show "$ISP_PIN:topics/invariant-subspace-problem/notes/2026-11-15-r150-original-f127-bitplane-789f.hpp" > "$RUNNER_TEMP/2026-11-15-r150-original-f127-bitplane-789f.hpp"
           python -m venv "$RUNNER_TEMP/isp-r150-short-venv"
           "$RUNNER_TEMP/isp-r150-short-venv/bin/python" -m pip install --quiet sympy==1.13.3 mpmath==1.3.0
-          timeout 120s "$RUNNER_TEMP/isp-r150-short-venv/bin/python" "$RUNNER_TEMP/isp-r150-reduced-three.py"
-          timeout 30s node "$RUNNER_TEMP/isp-r271-highest-carry-principal-minors.mjs"
+          timeout 120s "$RUNNER_TEMP/isp-r150-short-venv/bin/python" "$RUNNER_TEMP/isp-r150-half-two-plus-two.py"
+          g++ -O3 -march=native -std=c++17 "$RUNNER_TEMP/isp-r150-weight11-projected-rank.cpp" -o "$RUNNER_TEMP/isp-r150-weight11-projected-rank"
+          timeout 30s "$RUNNER_TEMP/isp-r150-weight11-projected-rank" --selftest

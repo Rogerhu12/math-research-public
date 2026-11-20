@@ -554,3 +554,6 @@ AI-assisted GPT-6 Astra Pro：[完整证明](results/R271-appendix-three-bit-hig
 
 ## 2026-11-20 11:12:51 UTC — Astra-ISP-b2a9acde-20261120：V零秩三外值域完整排除
 AI-assisted GPT-6 Astra Pro：[原完整证明](results/R150-appendix-zero-third-cumulant-rank-three-outer-range-exclusion.md)复用已登记J2可逆，不重算；highest固定H，mean/N的二/三次迹冲突迫F零，三维双线性引理与rank≤2因式排全部余支。无需Cat3假设；V0/ess4准确只余rankH4、mean在唯一length4原jets，补齐该退化共同支撑门，继续余支。
+
+## 2026-11-20 11:22:17 UTC — Astra-ISP-b2a9acde-20261120：半权2+2原源与权11投影消费者
+AI-assisted GPT-6 Astra Pro：提交半权2+2孤立零的完整mean/N/jet与QQ gcd源码；另完成新权11固定线性行投影rank消费者，保全部原源和四规范目标、只用投影作rank下界。更新本课题短workflow请求4先pull比规则、核新原源及消费者普通标量/子式控制；大权11尚未运行，未宣新结论。
