@@ -60,3 +60,49 @@ python topics/visible-flex-larger-amplitude/computations/tail_r33_quadratic_high
 `closure_recovery2_preflight.py` 的默认high还引用此报告；复跑这些历史消费者时
 显式传入恢复到scratch的路径。本次不声称没有旧引用，不声称重跑了旧R33，
 不删除其数学结论、源、参数或输入身份。当前fullclosed链不使用此报告。
+
+## 12:42 UTC：第三次容量操作，R33强M20逐胞高联合盒
+
+为继续保存新的完整求解与连续几何源码，普通移出
+`notes/2026-11-12-tail-r33-strong-m20-high-joint-box.json`，657776 B，
+SHA256 `708479849d3fa7c4786503bc72844285f5988eef76a9590063a8d13612ff1e29`。
+这是213胞高块的可再生数组报告，不是作者源码、原始问题输入或数学证明。
+原R33正文、[强M20完整结果说明](2026-11-12-tail-r33-strong-m20-high-response.md)和
+[完整重建manifest](2026-11-12-tail-r33-strong-m20-high-response-manifest.json)全部保留。
+后者SHA `1e002b64f899ef2bf64163f512be94e185d0f8fbf005da82504f51fa5d7bfd60`，
+包含density/local/wide/causal/joint/column的全部源码、完整命令、输入SHA、算术payload SHA及真实运行状态。
+
+本次已逐字核实当前两个执行源仍与原报告相同：
+`computations/tail_r33_high_joint_box.py` SHA `0883e4fd68fa2941588236ab6b8e921fb0b0b1b8193aa7fce6f5aeec208386be`；
+`computations/tail_r33_refined_high_joint_box.py` SHA `a60eb9ed85b9490cfb54ee1e945457f56972635e945c94d1b1de04048192af34`。
+原三个完整直接输入为：
+
+| 输入 | 原SHA256 | 再生责任 |
+|---|---|---|
+| `strong-m20-density-window.json.gz`（文件名前缀均为`2026-11-12-tail-r33-`） | `3dc23cefdaafb0210548d868d85e5f81f231d9069dcec6670b7684dcbd1eb5a3` | manifest的density完整命令与五个原输入 |
+| `strong-m20-middle-causal-box.json.gz` | `77ecd5fc17cb9d0c1290da2f0eb65a64c81262968f14b3596c0dd9d855bb547b` | 原即未提交派生数组；manifest的causal完整命令 |
+| `strong-m20-middle-wide-low-density.json.gz` | `d90cfb688f4f1430fc9e7277ddc6ba234ac9a62762e661ab117396e6f4789663` | 原即未提交派生数组；manifest的wide完整命令 |
+
+原arb精度192，z_log2从同一middle载入为−2224，infinite-radius-log2=−96，domain-weight-floor=true。
+从本题目录并在scratch复建上述依赖后，原完整joint命令为：
+
+~~~sh
+OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python computations/tail_r33_refined_high_joint_box.py \
+ --density notes/2026-11-12-tail-r33-strong-m20-density-window.json.gz \
+ --middle notes/2026-11-12-tail-r33-strong-m20-middle-causal-box.json.gz \
+ --wide-hybrid notes/2026-11-12-tail-r33-strong-m20-middle-wide-low-density.json.gz \
+ --infinite-radius-log2 -96 --domain-weight-floor \
+ --out /tmp/R33-strong-m20-new-joint.json
+~~~
+
+源是完整实际执行的adapter加完整base，不以单个SHA代替源码。上游原未提交大数组必须按manifest重建，不能冒称当前仓库已有原文件。
+重新计算路径/计时/输入压缩字节字段可不同，纯算术payload比较约定见原manifest；若需要逐字原输出，固定历史恢复最直接：
+
+~~~sh
+git show 60592e4f58d80a20e6a575b7d900ec807a9e7374:topics/visible-flex-larger-amplitude/notes/2026-11-12-tail-r33-strong-m20-high-joint-box.json > /tmp/R33-strong-m20-original-joint.json
+~~~
+
+该历史blob为`180780ac9ac93ab18ac4411eb5a7c7a71a7a7d0a`；恢复后核上述SHA，
+旧`tail_r33_low_to_high_column.py --joint`等消费者显式指向该scratch文件。旧R33/结果说明里的链接和manifest路径是原历史记录，不声称移出后仍能直接打开当前raw路径。
+原完整算术报告五个gate均true、failure=null，实际记录3.108668秒；原最终poll退出码未保留，
+本次仍不补造exit0，不重跑已结束旧结论、不创建Actions、不改变已证明/失败范围。当前fullclosed链不使用此文件。

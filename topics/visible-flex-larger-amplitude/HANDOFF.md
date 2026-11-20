@@ -4,7 +4,7 @@
 
 ## 规则与完整目标
 
-最近规则核查：2026-11-20 12:36 UTC，真实pull/rebase至 `74fcb9bd84e64bb8ace19ea7d2846d583447417f`，双README相对上次已读无差异。
+最近规则核查：2026-11-20 12:42 UTC，真实pull/rebase至 `5aaba1c38ab1c064d5c05b8418ceb4f8a47247e7`，双README相对上次已读无差异。
 
 公开仓库内工作；终端git普通push，每条结论推一次，NFF立即pull/rebase再推。至少每小时pull；每次查根/本题README差异，变更立刻读/执行。根README已授权必要修改/发布。根唯一git writer，代理只work/小blob。raw只scratch；Git/Release/artifact只保完整小源/参数/run/SHA/紧凑结论。题≤200MB、单MD<100KB、H<10KB、open<30KB。令牌只瞬时CLI，不写文件/提交/回复。
 
@@ -60,4 +60,4 @@ carrier在work/recover_evidence/gauss6-current-three/same-scalar-gauss-observati
 
 纯metric旧方向K14–44、polar K95055、弱列K2748已败；旧节点/中点0c535/c71被Gauss揭产品>1，不回用。旧cap16只176Jv/176VJP、exit130、0完整方向/试步；原L²未跑。R648/R651/R652仅旧开放prefix，不能当新闭场证书。09:49执行故障后环境已恢复，未实际启动新Actions；重复5732本地backup/rebase跳过，未改远端历史。
 
-[容量记录](notes/2026-11-20-resume-raw-retention.md)保普通移出R168/R33可重算报告的完整源/输入/参数/SHA/固定历史恢复及旧消费者责任。当前主线不依赖这些旧raw。R663已付0241全t嵌入/H/D/整像held/含反射E；同一候选的全域metric/固定参数精化/全t reach尚未合并完成，持续求解与open下一子题。
+[容量记录](notes/2026-11-20-resume-raw-retention.md)保三次普通移出R168/R33可重算报告的完整源/输入/参数/SHA/固定历史恢复及旧消费者责任。当前主线不依赖这些旧raw。R663已付0241全t嵌入/H/D/整像held/含反射E；同一候选的全域metric/固定参数精化/全t reach尚未合并完成，持续求解与open下一子题。
