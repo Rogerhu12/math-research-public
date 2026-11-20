@@ -1188,3 +1188,13 @@ $$
 当前两图原E的所有极乘积/真r次幂/N,D保持同对象，完整∞边界、四pair、各自输出及全trace继续核。新法只是避免该处大图核及源HNF；分母HNF和像HNF本身仍可能昂贵，未承诺实测加速或RAM界。原engine、当前请求和既有运行保持其来源。
 
 源SHA256 `268ae368f0aea343b1490d2245d19475e82c193a3dd4f2e0cc747aec49ff86c0`，完整注SHA256 `fc906b45ce2c7960c775cfad0e39401a068086bf96ae319b1885cadc9d877420`；root推导实现、theta核全源等价，只有AST/源码检查，无新数学PASS。
+
+## 25. 原P全152低核的两图完整零极读者
+
+§23的P部分现有独立实现 `original_low_p_complete_divisors.py`，详见[完整契约](../notes/2026-11-20-original-low-P-complete-divisors-contract.md)。它限定当前r29，不借RF900或未付的r41数据，也未接现有运行。
+
+读者重建原solve_packet的整个1226×1056矩阵，全部152自由列/两投影、旧第一向量和第三embedding整矩阵/整核Frobenius均返回。全部R3 recipes由真实120条M2拉回及原完整乘法构造一次，j³保持；完整权12的3114个原k坐标构成线性读者，全部系数回填核验，无新同维空间。
+
+同一152配对的N=(2/vnew)A+B和D=B先在两图逐第一向量对回给定原函数，再以全部原乘法行构造两个符号的A理想。同一子集的零、极全曲线次数各达2256才能早停，随后所有余N/D两图成员均返回；∞的完整det最低指数只用来先读真实厚长度，最终仍构造完整boundary并核实际长度。返回原function对象及positive/negative/两boundary的完整schema。
+
+仅静态核对；原yF、四E、所有厚范数/闭点/原trace继续各自接受门，不把六P的实现冒作整个geometry或shadow。源SHA256 `80ecda38f71805cbc40394ca8b49bbc9ed3204325f832251d2b495d08aef4f79`、契约SHA256 `0790b542a325c72ffc9871e3586c00424f07e0bdac88a4f04679811a4cfbf13e`；root实现/global全文核，尚无新的数学或性能PASS。

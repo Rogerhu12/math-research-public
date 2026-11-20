@@ -5,13 +5,13 @@
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近实际部分克隆/pull及已读规则提交：`c5ed1a50c01f14da06d6f072614b1df2073b934a`；2026-11-20 14:37:40 UTC 实际pull --rebase，两README相对bbbdf85f差异为空；下一次最迟一小时内。
+- 最近实际部分克隆/pull及已读规则提交：`2f05f87f025570b6d3970c267fd593408d9333ec`；2026-11-20 14:48:39 UTC 实际pull --rebase，两README相对c5ed1a50差异为空；下一次最迟一小时内。
 - 仅写公开main；每条完整结论即提交，推前pull --rebase；非快进循环，不强推、不存令牌。数学只在公开Actions执行；重算输出不入库/Release、不分块，只存源/args/run/hash。
 - H<10KB、MD<100KB、open尽量<30KB、文件<5MB、题≤200MB；log每轮≤5行，不写根LOG。规则已读未变。
 
 ## 完整检查点与当前分工
 
-[最新完整H](notes/2026-11-20-handoff-before-quadratic-horizontal-dual.md)逐字保全部旧条件、源/run/hash及归档链；入口[results](results.md)、[R901–950索引](notes/PROOF-INDEX-R901-R950.md)、[open](open.md)；旧已付项的完整链接保该检查点。root唯一metadata/ref写者并整合公开门；global续原ordinary/global底，deep续同P真实forcing，theta续四指定中央/边界并交叉审源码。四主门均保留；R364/R561/R654/R712及主目标仍开。
+[最新完整H](notes/2026-11-20-handoff-before-complete-low-P-reader.md)逐字保全部旧条件、源/run/hash及归档链；入口[results](results.md)、[R901–950索引](notes/PROOF-INDEX-R901-R950.md)、[open](open.md)；旧已付项的完整链接保该检查点。root唯一metadata/ref写者并整合公开门；global续原ordinary/global底，deep续同P真实forcing，theta续四指定中央/边界并交叉审源码。四主门均保留；R364/R561/R654/R712及主目标仍开。
 
 ## 第一门：同原映射、完整函数环与原shadow
 
@@ -19,8 +19,8 @@
 - 原F/P特征零完整PASS见R909§7、R906§8，全1429/1226行与高恒等式/原支保；完整source/run/hash见原节，不猜Manin1。
 - 旧306/eta/fricke/tate/R910/919/922卡点全见[续接注](notes/2026-11-20-old-job-outcomes-and-exact-P-certificate.md)。quotient-only run44713040079/job136209307176仍运行，原D/九cusp/Au/Av/branch/D0未付；t-adic U仅4096上限无候选，不作非存在结论、不盲目重跑。
 - R924§11–15原TUV/DS204/36cusp/Y666/ys核360/DS值/vF与三Yi核144/152全PASS；全部厚结构、原身份及run/hash见原节。
-- R925§12–22原306全乘法、整核API及六厚cusp全289幂基/666坐标已PASS，完整run/hash存原节。旧Fp²/612核/八点值仍待run44730598782。§19–21三已审补丁现接运行源，31源manifest两侧相同；完整shadow run44744769424/job136317138101及closed/local run44744769326/job136317137332已启动，source6e97468ea；旧运行继续，无新PASS。
-- R926§8–10原cube全身份/完整核实际PASS（run44728285578/source17ea1c0ce）；严推RF/Ri极度240/452/454/454及同L最小权2/3。紧缩全核/R8R7交叉与完整maps待run44732115204/job136274270348/source192c28161；原M2/首项/ω及后续geometry/四E/全trace门全保。
+- R925完整306表/整核API/六厚cusp全289与666坐标已PASS。旧closed/local44730598782、maps44732115204，新完整Tate44744769424与closed/local44744769326仍运行；新source6e97468ea，全部job/hash见§22及完整H，无新PASS。
+- R926原cube已PASS（44728285578/source17ea1c0ce）；RF/Ri极度240/452/454/454与同L最小权2/3已证。紧缩/完整交叉待上述maps/source192c28161，原M2/首项/ω及全部后续门保。
 - [R927§9](results/R927-original-yF-pole-degree-from-mixed-kernel-and-cusps.md)原e/z完整实际PASS：run44736604477/job136289459332/source8e2413043，e=0、z=96、dF=1296；原900核/DS51二次因子全rank0、∞289首idx192/微分2⁶及回代齐，1611.709秒。F_first、每E全度39840、E00=E01/E11=E12的分支已付；完整pole/E及shadow未算。result ed95578b…cfab6、全源/日志hash在原节。
 
 R880/883全18×9/双轴/原A,C及四完整交除子00/01/11/12保持；Norm含ell²旧回归已过。四大交除子和原shadow未算，完整成本2256+r*dF或2256(r+1)，全闭点度/厚长度/无穷边界/Artin不删。有限AJ非零不替无穷p/ordinary桥。
@@ -68,3 +68,5 @@ R931§11同原单位HNF，或§11.1真h=c·1 mod I，均付厚Res(detI,c)，值m
 [R936](results/R936-original-positive-horizontal-dual-and-fixed-quartic-value.md)：原正水平全H⁰(N³(−Z+))在K+e+>3κ时给确定λ+及完整Z商的唯一ν，真杀原T_J。2≤τ≤d0+1的同P评价为−11U*(0)/a−λ+((EB−3bB)|C)；已指定B∈H3才得单位非零、排该原陪集全p³。可进入旧T cutoff后≤12位条带，不排其它WD陪集。
 
 [R937](results/R937-original-quadratic-horizontal-dual-and-same-H1-obstruction.md)：原Q+=(E−3b)(E−3b+1)沿完整2H+消失，n=h+τ−2且n+2e+>3κ给真四行左行。指定B∈H3、d0+2≤τ<min(h+2,ell)时值为原单位28ζ0^(−s)uhat0³e0/a；每个兼容G0后同ρ2杀全F²H1而残差不变。双jet已零仍排该陪集，τ=h/h+1精度保，一般B偏移不删。
+
+R925§25原P152全核两图零极读者已实现：全部原矩阵/两投影/P2Frob、j³及3114完整坐标、两符号2256/全余行/完整boundary保。仅r29静态核对，待公开运行，不代F或四E。
