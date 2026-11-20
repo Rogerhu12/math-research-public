@@ -330,3 +330,5 @@
 - **R271 完整Galerkin源的最高carry极点及准确抵消条件（2026-11-20，已证明）：** [真核极限、原源投影损失及下一阶判据](results/R271-appendix-complete-galerkin-highest-carry-pole-and-cancellation-criterion.md)给E1*q₋₁=P_K(f−H0a0)，q₋₁在固定一阶新范围唯一。q有界等价于退化全核Galerkin解属真核极限；q=O(t)等价于ξ0=0及P_Kξ1=0。保原自然域、全核、完整MP，不以固定Schur方向代移动谱投影，增长R实际残余仍开。
 
 - **R271 真实八维N头的巨大三孔费用及非消失极点（2026-11-20，已证明）：** [全真核、显式Galerkin与原坐标下界](results/R271-appendix-actual-eight-head-triple-hole-cost-lower-bound-and-highest-carry-pole.md)在m3/R0/r3的原s=e⁻¹⁰⁷⁰、t=e⁻¹⁷⁹⁶⁰，完整解必有‖q‖>1/(52000ts)，准确远尾σ因子给κ²>e³⁸⁰⁰⁰。所有抵消符号已控制，固定s的t⁻¹极点非零。小头超旧高度窗，仅排自动逐头继承，R=d源残余继续。
+
+- **R150 非单位长度三局部块的全部rankH4支路为空（2026-11-20，已证明）：** [全单位长度2分拆、半权及原H梯度排除](results/R150-appendix-essential-four-local-three-jet-rank-four-branches-are-empty.md)以保持同一L/矩的物理规范给准确中心三次；外单位双点全mean排，约化非半权靠三/四阶highest，半权以完整N的R·线性因式强制配对消失再排等向2+1。所有分拆及∞覆盖，rankH4仅余局部长度2单零或零单点。

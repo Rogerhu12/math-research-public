@@ -7,7 +7,7 @@
 - **未完成：** 普通复可分无限维 Hilbert ISP。仅全体有界算子的存在定理或完整反例满足完成标准；子问题结束继续open，不以阶段报告或时限停止。
 - **最近成功实际 pull 与已读规则提交：** `c439767c4c31c29ff502ecd470b8780ca724d08d`（2026-11-20 10:03:22 UTC，Actions run44715907411/job136219123185）。真实pull --rebase成功，两README blob未变，原日志已取核。
 - 仅授权Rogerhu12/math-research-public。根独占main/H/open/results/log，代理交冻结稿。逐结论实际终端push，非快进立即pull --rebase再推至成功，不force；至少每小时和推前实际pull，比两README blob，仅新diff重读并立即遵守。
-- **最近API同步及规则核对：** `1154285d32eacf4548278ea33e1b3294b4c68901`（2026-11-20 10:28:46 UTC）；两README blob均未变。API快照不冒称实际git pull，另记真实执行回执。
+- **最近API同步及规则核对：** `103415c6d75aa9fab0b611e5dd0de3a7604c05f6`（2026-11-20 10:29:54 UTC）；两README blob均未变。API快照不冒称实际git pull，另记真实执行回执。
 - 根README blob282e86b03385d3b6245ce7100ae2e2af7b103c2d、课题4d6570e9cf346431ab781a1290076a6321aaaa00已完整读。令牌仅CLI环境或已有Actions secret，不进文件/日志/config。规则15：可重算数组/数据/证书不进Git、Release或新工件，仅源码/参数/运行身份/SHA及正式证明。API仅UTF8<100KB，MD<100KB，H≤10000B，open尽量≤30KB，topic≤200MB，log每条≤5行、数学美元符、AI署名，不写根LOG。
 - actual-pull工作流已修当前根README预期blob；本地不可用时继续用真实Actions pull维持至少每小时同步，两README变动即读差异。
 - 2026-11-20 09:49 UTC本地executor断开且environment unavailable；已成小文本用GitHub接口按根规则8提交，恢复后先检查未推本地a06d8dbd8与远端等价内容，避免重复。原部分克隆约96MB，旧TMP不假存活。
@@ -28,7 +28,7 @@
 - [ess4外均值原长度五代数](results/R150-appendix-essential-four-outer-mean-length-five-algebra-and-rank-defects.md)：Cat(y)=3、essT3=W维4且y∉W，唯一原长度五除子D/全部物理jets，同一L,ν给全矩，未除非单位L；原highest及全部low梯度同时保留。y∈W与ess5/6尚开。
 - **[全部rankH3支路已空](results/R150-appendix-essential-four-all-rank-three-second-moment-branches-are-empty.md)。** 活跃3与零2的六局部代数组合全排，含非约化、半权、零配对及∞；最后W± conic显式余式排平方坐标分裂。只余rankH4/5。
 - **[单五重点rankH4已空](results/R150-appendix-essential-four-local-five-jet-rank-four-branch-is-empty.md)。** 同一L=t，νt³=1、νt⁴≠0，原highest局部0/3/6阶迫K02=K03=K22=0，矛盾等向三jet。
-- **[4+1在四重点单零的rankH4已空](results/R150-appendix-essential-four-local-four-jet-rank-four-branch-is-empty.md)。** 物理h/参数变换以ν̃(f)=ν(h⁻³f(ht))保持同一L和原全矩；全部非半权由原highest/mean的无共同权根排，半权用完整物理二次恒等及mean排。含∞。仍开：L零于长度3/2局部块、零单点及rankH5单位支；4+1在单点零不被本条排除。
+- **rankH4非单位局部长度4及3也已全空：** [长度4](results/R150-appendix-essential-four-local-four-jet-rank-four-branch-is-empty.md)、[长度3](results/R150-appendix-essential-four-local-three-jet-rank-four-branches-are-empty.md)。物理h/参数规范保同一L/K/全矩；原highest/mean及三重点半权的完整N梯度迫等向2+1。所有剩余单位分拆、半权、∞均含。rank4只余长度2单零或零单点；rank5及其它ess分支仍开。
 
 ## Deddens与原模型
 
