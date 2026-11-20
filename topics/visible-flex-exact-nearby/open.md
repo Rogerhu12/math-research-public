@@ -162,3 +162,5 @@ WIC真tail κ=3已闭；WPN仍须完整e+3dt<1。WPS/WVC/WCTRA充分门均false�
 [R136](results/R136-stable-complete-joint-centre-columns.md)关闭graph4递归高秩实现缺口：以稳定源列保完整核和193观察，源码已合入、仅AST。首次科学运行先判断low-family比较预算；连续中心端点逆、真实finite转换与最终非线性义务不变。
 
 [R139](results/R139-necessary-budget-for-fixed-W2C-comparison.md)给固定旧费用下的必要门K+ε<1/128。当前先独立计算完整low-family比较L的3条记录；若L≥1/128，登记此配方不可能通过并转直接中心BVP，余47条未算。若未触发排除，只复用这3条继续原新目标，不能称finite门已通过。
+
+[R137](results/R137-continuous-signed-centre-and-exact-endpoint-system.md)已将同一连续signed-centre inverse精确改成1217态/609端点问题，排除aux-only核；不是有限Qf直接逆证书，S.18c投影/lift缺陷与ρ因子仍需付。先进行全193低态/97端点的midpoint比较诊断以选稳定双侧传播；CFB、高family、真实系数差及全输出norm均未付。

@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R137：连续WJK中心与精确609维端点系统](results/R137-continuous-signed-centre-and-exact-endpoint-system.md)：1217态精确实现、608左/609右条件、无aux-only核和Fredholm闭合，连续逆等价M609非奇异；原finite投影/ρ/lift缺陷保留，实际非奇异及全逆未证。
+
 - [R139：固定W2C比较配方的必要预算](results/R139-necessary-budget-for-fixed-W2C-comparison.md)：完整门对K严格递增，旧WVC费用推出K+ε<1/128的必要条件；可先算low-family的3条比较记录，超门只排配方，不推奇异。给出通过必要门后的精确K剩余预算，0新科学数。
 
 - [R136：完整联合中心核的稳定源列表示](results/R136-stable-complete-joint-centre-columns.md)：同WJK算子的固定128/256高带源列，全部collar项、真J*至R、193 atoms与同点signed合并后abs；源码AST通过，未算新数值，不授finite逆。
