@@ -1,0 +1,23 @@
+{
+  "format": "isp-execution-identity-v1",
+  "runId": 44729708187,
+  "jobId": 136266025002,
+  "sourceCommit": "2e0fa3a4681ece419bb10fbfb933e6c9b2c1606a",
+  "sourceSHA256": "3901eca56452a3ef995442befc9ddc7b993d59bf165812ab6fa9c47811af3704",
+  "decodedWholeLogSHA256": "e59b3badb5f5e1373fb16c31fc6c69098a80a66868cf986fefb5cea9b11f4f69",
+  "actualPull": {
+    "actualPullRebaseSucceeded": true,
+    "beforeCommit": "2e0fa3a4681ece419bb10fbfb933e6c9b2c1606a",
+    "executionEnvironment": "GitHubActions",
+    "format": "isp-789f-actual-actions-pull-v1",
+    "remoteCommit": "2e0fa3a4681ece419bb10fbfb933e6c9b2c1606a",
+    "rulesGitBlobs": {
+      "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+      "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+    },
+    "rulesUnchanged": true,
+    "runId": "44729708187",
+    "utc": "2026-11-20 11:42:04 UTC"
+  },
+  "note": "Bounded QQ multipliers passed all325 exact integer coefficient equations at 1.717 seconds; subsequent sig=-1 expected matrix check failed. Root located a sign typo in the displayed D entry. No complete-branch conclusion was registered."
+}

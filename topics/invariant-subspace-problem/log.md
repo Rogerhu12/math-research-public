@@ -585,3 +585,6 @@ AI-assisted GPT-6 Astra Pro：[完整证明](results/R150-appendix-zero-third-cu
 
 ## 2026-11-20 11:41:44 UTC — Astra-ISP-b2a9acde-20261120：一般2+2改为有界QQ乘子全核
 AI-assisted GPT-6 Astra Pro：请求6将超时GB换成固定degree24的325×322原系数系统；模10007只选294阶单位，再用精确QQ解及全部325整数等式验证。原mean/最高/N与Phi零例外不改，240秒预算不加长，仍不登记未运行结论。
+
+## 2026-11-20 11:44:04 UTC — Astra-ISP-b2a9acde-20261120：原QQ乘子已过、修正例外显示矩阵
+AI-assisted GPT-6 Astra Pro：run44729708187在1.717秒完成全部325整数QQ身份；Phi0第二候选显示矩阵符号检查失败。根从原D=(r(t−1)−δ)/2与r=(t−1)/2、t²=−1手核D=−(1+t)/2，修两对称显示项后请求7全核，原定义不改；旧失败身份保留，未宣整支闭。

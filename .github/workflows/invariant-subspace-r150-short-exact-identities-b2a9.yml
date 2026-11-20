@@ -55,7 +55,7 @@ jobs:
           import hashlib,os
           p=os.path.join(os.environ['RUNNER_TEMP'],'isp-r150-general-two-plus-two.py')
           h=hashlib.sha256(open(p,'rb').read()).hexdigest()
-          assert h=='3901eca56452a3ef995442befc9ddc7b993d59bf165812ab6fa9c47811af3704'
+          assert h=='6980790e4381c06db175625d76314b2e611ec4164941c02abab54b488055b50d'
           print('ISP_SOURCE_SHA256 '+h,flush=True)
           PY
           timeout 240s "$RUNNER_TEMP/isp-r150-short-venv/bin/python" "$RUNNER_TEMP/isp-r150-general-two-plus-two.py"

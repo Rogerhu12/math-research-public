@@ -181,8 +181,8 @@ for sig in (1,-1):
     else:
         eq(VC["p"]);eq(VC["q"],(1-tt)/4)
         eq(VC["p1"]);eq(VC["q1"])
-        expected=s.Matrix([[0,0,1,0],[0,0,(1-tt)/2,0],
-                           [1,(1-tt)/2,0,0],[0,0,0,0]])
+        expected=s.Matrix([[0,0,1,0],[0,0,-(1+tt)/2,0],
+                           [1,-(1+tt)/2,0,0],[0,0,0,0]])
     assert KC==expected
     for k0 in ("n","n1","o","o1"):eq(VC[k0])
 print("PASS all Phi=0 candidates have the explicit rank-two Gram obstruction",

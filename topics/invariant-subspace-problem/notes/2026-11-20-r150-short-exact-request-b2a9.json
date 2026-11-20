@@ -1,13 +1,13 @@
 {
   "format": "isp-r150-short-exact-request-v1",
-  "sequence": 6,
+  "sequence": 7,
   "session": "Astra-ISP-b2a9acde-20261120",
-  "createdUtc": "2026-11-20 11:41:44 UTC",
+  "createdUtc": "2026-11-20 11:44:04 UTC",
   "task": "Original general unit2+2 exact integer verification of rational coefficient multipliers; all exceptional candidates",
   "sourcePaths": [
     "topics/invariant-subspace-problem/notes/2026-11-20-essential-four-unit-two-plus-two-general-isolated-zero-verify.py"
   ],
-  "sourceSHA256": "3901eca56452a3ef995442befc9ddc7b993d59bf165812ab6fa9c47811af3704",
+  "sourceSHA256": "6980790e4381c06db175625d76314b2e611ec4164941c02abab54b488055b50d",
   "dependencies": {
     "sympy": "1.13.3",
     "mpmath": "1.3.0",
@@ -30,6 +30,6 @@
   },
   "maximumJobMinutes": 8,
   "computedArraysToBeSaved": false,
-  "previousRunId": 44728182826,
-  "previousFailure": "Buchberger 240 second budget; replaced by bounded coefficient solve, not extended"
+  "previousRunId": 44729708187,
+  "previousFailure": "All325 exact QQ coefficient equations passed; the displayed sig=-1 candidate expected matrix had D=(1-t)/2 instead of the original D=-(1+t)/2. Correct this entry and check all original equations again."
 }
