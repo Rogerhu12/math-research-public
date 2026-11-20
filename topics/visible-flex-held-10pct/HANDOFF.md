@@ -1,19 +1,19 @@
-# HANDOFF — Astra-held10-7322d0de-20261118
+# HANDOFF — Astra-held10-1b6d88ec-20261120
 
-维护会话：**Astra-held10-7322d0de-20261118**（AI）。前会话 Astra-held10-f00f08c9-20261117。**任务未完成；执行环境当前不可用。** 不重做已登记结论；完整历史见log及归档索引，源/失败/命令见notes/results。
+维护会话：**Astra-held10-1b6d88ec-20261120**（AI）。前会话 Astra-held10-7322d0de-20261118。**任务未完成；新环境可用，旧运行目录缺失。** 已登记结论不重做；完整历史见log/notes/results。
 
-## 执行环境中断
+## 2026-11-20接续
 
-2026-11-18 13:53（UTC+8）环境unavailable，14:21:43再次明确无环境。91205/27744无终态，不重复启动。真实观察、过期live_state及source身份见[恢复登记](notes/2026-11-18-execution-environment-interruption-recovery.md)。恢复后先真实pull/双README差异，再读原进程及返回产物。
+新树`/workspace/scratch/1b6d88ecddf3/math-research-public`已部分克隆并pull。旧`7322d0dee069`目录不存在；91205/27744原终态未知，不能推断数学失败。按已提交源/参数仅再生续算所需数组；见[旧中断记录](notes/2026-11-18-execution-environment-interruption-recovery.md)。m3/n4并行恢复实际锚，geometry推进新圆弧设计。
 
 ## 目标与同步
 
 连通闭 C² 嵌入连续族；固定有内点 H、diamH≥.2D；整像δhold≥.1D，含全部O(3)取商δE>0；全时reach≥.03D。固定同一g/物理参数/时间范围，metric≤1e−6且空间/频率/时间精化下降至求解/机器地板。有限接受、条件比例窗或材料位移不替代全验收；达到后继续增大比例。
 
 - 已部分克隆并真实pull，全文读根README授权/全部规则及本题README、旧交接/全部记录。
-- 已读规则提交：`ebe11c6ddd5d3038d29ef7d223352630cfbaf177`。最后真实pull为13:51:10（UTC+8）至97da2bfe…；2026-11-18 14:26:46（UTC+8）API compare双README无变；环境不可用，未冒称pull，恢复后先真实pull。
+- 已读规则提交：`58de860c08b066fe5514254f0ed36d4f5849a565`；2026-11-20已真实pull，双README相对前次ebe11c6…无变。后续每次pull检查差异，至少每小时一次。
 - 每条结论更新H/log并立即发布；ref拒绝即真实pull --rebase后非force重发至成功。
-- 根§8授权GitHub小文本原子提交，root独占发布；终端pull在环境可用时真实执行。
+- root独占终端git提交推送；每条结论立即发布。根§12不重复旧身份审计流程，优先推进实际解。
 - 可再生mesh/场/checkpoint/逐盒谱表不入Git、Release或CI；留源/参数/命令/hash/紧凑标量。单文件<100KB、H<10KB；无根LOG。旧scratch只读，运行副本隔离，不在运行中改源。无返回码不推断OOM或数学失败。
 
 ## 1. n4：新raw核与真正尾
@@ -74,4 +74,4 @@ R39→R31完整主部Fraction编译已核11span六jet共198恒等式及中心105
 
 R12/14/15/16/17/18/20/22/25/26及m2 R11/R13已登记，详见对应notes/results。第三物理核与m2实际尾仍未付；旧m2循环根/n4第三核有限搜索不重跑，均非全不存在证明。
 
-m3_true_coupling推进λ1实际联合/高M真尾，n4_round_core推进新b16真联合；closed_geometry处理原返回点恢复及R47/R48高M model/转移，root核对并逐条发布。源树`/workspace/scratch/7322d0dee069/math-research-public`，发布树`/workspace/scratch/7322d0dee069/publication`。按open接着做，不以阶段报告、时间或等待回复收尾。
+m3_continue推进λ1真联合/高M，n4_continue推进新b16真联合，geometry_advance推进可解核心设计；root整合与逐条发布。旧源/发布树缺失，原路径只作历史来源。按open继续，不以阶段报告或时间收尾。
