@@ -1,11 +1,14 @@
 #!/usr/bin/env sage-python
 """Optional exact norm shortcut on one SAME original R931 thick quotient.
 
-The only shortcut gate is R*1 + I = A, checked on the complete 307 by 306
+The whole-quotient gate is R*1 + I = A, checked on the complete 307 by 306
 polynomial module.  On a hit, A/I is the ORIGINAL R/(det I), including all
-repeated factors, and its norm is one resultant in the original k.  On a
-miss, try_norm_unit returns None and norm_unit_with_fallback explicitly
-calls the unchanged OriginalArtinianNormTools.norm_unit.
+repeated factors.  If that gate misses, the SAME HNF also tests whether
+the actual value h lies in R*1+I.  In this weaker case h=c*1 mod I and its
+norm is still Res(det I,c), by the full R-module determinant formula; no
+cyclic algebra isomorphism is claimed.  Only if both gates miss does
+try_norm_unit return None; the explicit wrapper then uses the unchanged
+OriginalArtinianNormTools.norm_unit on all original base-prime layers.
 
 This module does not modify or monkey-patch the R931 tools, the upper
 consumer, a running workflow, a curve, a point, or a constant embedding.
@@ -49,9 +52,10 @@ class OriginalCyclicUnitNormShortcut:
     be the first integral basis row.
 
     prepare(I) returns (context, receipt), or (None, a certified miss).
-    try_norm_unit(I,h) returns (norm, receipt), or (None, the miss receipt).
+    try_norm_unit(I,h) also tests the actual scalar-value gate on a quotient
+    miss, and returns (norm, receipt), or (None, its precise value miss).
     norm_unit_with_fallback(I,h) always uses the original all-pi-layer norm
-    if the exact cyclic-unit gate misses.  It never calls a finite-field
+    if both exact gates miss.  It never calls a finite-field
     approximation or treats a failed mathematical assertion as a miss.
     """
     def __init__(self, original_tools, progress=None):
@@ -67,6 +71,7 @@ class OriginalCyclicUnitNormShortcut:
         self.progress = progress or _default_progress
         self.receipts = []
         self._prepared = {}
+        self._scalar_modules = {}
         assert self.n == 306
         assert self.R is self.engine.R and self.k is self.engine.k
         assert self.R.base_ring() is self.k
@@ -84,6 +89,7 @@ class OriginalCyclicUnitNormShortcut:
             "source_dependencies": list(SOURCE_DEPENDENCIES),
             "helper_sha256": hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),
             "norm_only_optional_adapter": True,
+            "same_full_HNF_also_tests_each_actual_scalar_value": True,
             "base_norm_tools_or_upper_consumer_modified": False,
             "performance_or_cyclicity_assumed": False,
             "closed_point_decomposition_or_original_shadow_claimed": False,
@@ -210,9 +216,17 @@ class OriginalCyclicUnitNormShortcut:
                 positive_missing_module_length=int(index_polynomial.degree()),
                 missing_module_determinant_sha256=polynomial_digest(index_polynomial),
                 original_norm_not_computed=True,
-                original_base_prime_layer_fallback_required=True)
+                actual_scalar_value_gate_still_available=True,
+                whole_quotient_cyclic_isomorphism_claimed=False)
+            retained_basis = matrix(self.R, full_basis)
+            retained_basis.set_immutable()
+            retained_transform = matrix(self.R, U[:self.n, :])
+            retained_transform.set_immutable()
+            self._scalar_modules[id(I)] = dict(
+                ideal=I, original_hnf=original_hnf, basis=retained_basis,
+                transform=retained_transform, certificate=receipt)
             self._prepared[id(I)] = (I, original_hnf, None, receipt)
-            self.progress("original cyclic-unit gate miss; use exact pi layers",
+            self.progress("original cyclic-unit gate miss; retain actual value test",
                           label=label, full_quotient_length=I.length,
                           positive_missing_module_length=int(index_polynomial.degree()))
             return None, receipt
@@ -258,9 +272,101 @@ class OriginalCyclicUnitNormShortcut:
                       full_HNF_elapsed_seconds=hnf_elapsed)
         return context, receipt
 
+    def _try_scalar_value_norm(self, I, h, gate_receipt, label):
+        """Use h=c*1 mod I, without asserting that 1 generates A/I.
+
+        The stored basis and transform are from the SAME already verified
+        307-row HNF.  No new Hermite computation or Smith computation is
+        made.  Smith factors occur only in the proof of the determinant
+        formula, not in this algorithm.
+        """
+        I = self._authenticate(I)
+        data = self._scalar_modules[id(I)]
+        assert data["ideal"] is I and data["original_hnf"] == I.basis
+        assert data["certificate"] is gate_receipt
+        H, U0 = data["basis"], data["transform"]
+        assert H.base_ring() is self.R and U0.base_ring() is self.R
+        assert H.nrows() == H.ncols() == self.n
+        assert U0.nrows() == self.n and U0.ncols() == self.n+1
+        assert H != self.identity and not I.is_unit()
+        coefficients = vector(self.R, self.n)
+        remainder = vector(self.R, h)
+        for j in range(self.n):
+            quotient, residual = remainder[j].quo_rem(H[j, j])
+            coefficients[j] = quotient
+            if quotient:
+                remainder -= quotient*H.row(j)
+            assert remainder[j] == residual
+        assert all(not remainder[j] or remainder[j].degree() < H[j, j].degree()
+                   for j in range(self.n))
+        assert coefficients*H+remainder == h
+        common = dict(
+            label=label, complete_quotient_gate=gate_receipt,
+            original_integral_value_sha256=element_digest(h),
+            same_307_row_HNF_reused=True,
+            full_value_division_coordinates_sha256=element_digest(coefficients),
+            full_value_remainder_sha256=element_digest(remainder),
+            all_306_value_coordinates_returned=True,
+            whole_quotient_cyclic_isomorphism_claimed=False)
+        if not remainder.is_zero():
+            return None, self._record(
+                "actual_original_scalar_value_gate_miss", **common,
+                status="miss_actual_value_not_in_R_unit_plus_I",
+                actual_value_not_in_complete_R_unit_plus_I=True,
+                original_norm_not_computed=True,
+                proposed_value_unit_status_not_certified=True,
+                original_base_prime_layer_fallback_required=True)
+
+        source = matrix(self.R, [self.unit]).stack(I.basis)
+        source_coordinates = coefficients*U0
+        assert source_coordinates.base_ring() is self.R
+        assert len(source_coordinates) == self.n+1
+        assert source_coordinates*source == h
+        raw_c = self.R(source_coordinates[0])
+        ideal_coordinates = vector(self.R, source_coordinates[1:])
+        assert raw_c*self.unit+ideal_coordinates*I.basis == h
+        d = I.determinant
+        assert d and d.leading_coefficient() == 1
+        assert int(d.degree()) == I.length and I.length > 0
+        assert I.contains(d*self.unit)
+        c = self.R(raw_c % d)
+        assert I.contains(h-c*self.unit)
+        assert c.gcd(d) == 1, "The proposed original Artin value is not a full unit."
+        answer = d.resultant(c)
+        assert answer.parent() is self.k and answer != 0
+        constant_check = False
+        if c.degree() <= 0:
+            assert answer == self.k(c[0])**I.length
+            constant_check = True
+        receipt = self._record(
+            "complete_original_thick_norm_by_scalar_value_resultant", **common,
+            status="hit_actual_R_scalar_on_full_original_module",
+            original_307_row_source_coordinates_sha256=element_digest(source_coordinates),
+            actual_original_source_transform_return_verified=True,
+            actual_h_minus_c_times_true_unit_in_entire_ideal=True,
+            d_times_true_original_unit_in_entire_ideal=True,
+            complete_ideal_hnf_sha256=polynomial_matrix_digest(I.basis),
+            full_monic_modulus_sha256=polynomial_digest(d),
+            full_quotient_length=I.length,
+            degree_d_equals_full_original_k_length=True,
+            actual_scalar_polynomial_sha256=polynomial_digest(c),
+            actual_value_acts_as_scalar_c_on_entire_original_R_module=True,
+            complete_scalar_gcd_is_one=True,
+            resultant_argument_order="Res(det I,c), with det I monic",
+            norm_in_original_quadratic_constants=finite_field_coordinates(answer, self.k),
+            norm_target_prime_field_used=False,
+            repeated_factors_and_nonreduced_lengths_preserved=True,
+            constant_to_full_length_checked_when_applicable=constant_check,
+            extra_HNF_or_Smith_factorization_computed=False,
+            polynomial_factorization_or_base_prime_extension_used=False)
+        self.progress("actual original scalar-value norm certified", label=label,
+                      full_quotient_length=I.length,
+                      norm_coordinates=finite_field_coordinates(answer, self.k))
+        return answer, receipt
+
     def try_norm_unit(self, ideal, value,
                       label="optional same original cyclic-unit norm"):
-        """Return (None, miss) ONLY when the exact cyclic-unit gate misses.
+        """Return (None, miss) only if h is not in the full module R*1+I.
 
         A hit checks the proposed value by its full scalar gcd.  A gate miss
         makes no claim that the proposed value is a unit: the caller must
@@ -271,13 +377,7 @@ class OriginalCyclicUnitNormShortcut:
         h = self.tools._element(value)
         context, gate_receipt = self.prepare(I, label + ": complete quotient gate")
         if context is None:
-            return None, self._record(
-                "cyclic_unit_norm_not_taken", label=label,
-                status="miss_original_unit_not_cyclic",
-                complete_gate=gate_receipt,
-                original_integral_value_sha256=element_digest(h),
-                original_norm_not_computed=True,
-                original_base_prime_layer_fallback_required=True)
+            return self._try_scalar_value_norm(I, h, gate_receipt, label)
         assert context["tools"] is self.tools and context["ideal"] is I
         assert context["original_hnf"] == I.basis
         d, gamma = context["modulus"], context["gamma"]
@@ -334,9 +434,12 @@ class OriginalCyclicUnitNormShortcut:
         h = self.tools._element(value)
         answer, attempt = self.try_norm_unit(I, h, label)
         if answer is not None:
+            method = ("actual_R_scalar_on_full_original_module"
+                      if attempt["status"] == "hit_actual_R_scalar_on_full_original_module"
+                      else "same_original_cyclic_unit_resultant")
             return answer, self._record(
                 "original_norm_optional_gate_dispatch", label=label,
-                selected_method="same_original_cyclic_unit_resultant",
+                selected_method=method,
                 cyclic_unit_attempt=attempt,
                 original_base_prime_layer_fallback_invoked=False)
         answer, fallback = self.tools.norm_unit(I, h, label + ": exact pi-layer fallback")
@@ -354,6 +457,7 @@ class OriginalCyclicUnitNormShortcut:
             "completed_operations": len(self.receipts),
             "operation_receipts_sha256": digest(self.receipts),
             "prepared_exact_ideal_objects": len(self._prepared),
+            "noncyclic_ideals_retaining_exact_scalar_value_test": len(self._scalar_modules),
             "complete_original_nonreduced_operations_only": True,
             "original_shadow_computed": False,
         }

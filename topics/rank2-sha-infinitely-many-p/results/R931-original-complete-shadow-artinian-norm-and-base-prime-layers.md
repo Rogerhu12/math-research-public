@@ -361,3 +361,11 @@ $$
 因此其完整厚范数恰为Res(d,c)，目标仍原k；完整gcd认证单位，常数范数按全长幂返回，空商为1。非循环明确miss，只有norm_unit_with_fallback继续原所有π层并保其完整错误/回执，try的miss本身不认证所给值为单位。算法不假设理想约化、闭点横坐标分离或一般循环性，完整HNF本身的成本也未实测。
 
 源SHA256 `b3b2bfc21328e164de64845bc906efbaa01d143f6de7d80829c1bbbd4d775eb8`，证明SHA256 `602ce98ca9d1106d505dda15c6525573ffb4122ce58fa43a9cd7b6a7fb038e0e`；root/global全文核，只有AST/文本身份门。后续只有真实应用和公开接受门通过后，才能声明此路线实际命中或给出原shadow。
+
+### 11.1 全商不循环时，读取这次真实标量值
+
+[完整短补证](../notes/2026-11-20-original-scalar-value-thick-norm.md)给严格较弱的实际值门。沿同一次已认证HNF，K的行模是R·1+I；即使K不是单位阵，也可完整除这次真实h。余式为零时，以原307行变换直接返回h=c0·1+bH_I，降c=c0 mod d后仍核d·1∈I及h−c·1∈I。于是h在整个原A/I上等于标量c作用。
+
+原完整R-module的Smith因子乘积为d=det H_I，故完整厚范数仍是Res(d,c)，无须全商循环或实际计算Smith分解。gcd(c,d)=1准确支付单位门，原k、omega、所有重复因子和全长度保持。只有真实值仍不在R·1+I时才回原所有π层；这种miss不认证单位，原fallback的错误保留。
+
+独立helper已更新至SHA256 `d5d1761bbf63f6a558b71d9d7fd2cd165bd1576c3c3400737be62011e10138ed`，原版b3b2bfc2仍由§11及git历史标识。root/global全文核增量、仅AST；未接当前32源consumer或触发重跑，没有新数学/性能PASS。

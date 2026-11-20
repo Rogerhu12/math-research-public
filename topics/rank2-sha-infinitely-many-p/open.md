@@ -243,7 +243,7 @@ R925§23以原P152/F144完整低核全局生成两图厚理想，长度2256/1080
 
 [R935](results/R935-original-negative-fringe-all-correctors-budget-exclusion.md)：全原R/S的首法向与严格f0给d_D≥s+2；§7第二法向在d0+2≤τ<min(h,ell)读28首项并分C重数0/1/2。但当前2κ<T≤3κ的共同预算已被原P的d_D≥4κ+3r_src蕴含，不是新排除；真实H1/全余核及受限S继续。
 
-[R931§11](results/R931-original-complete-shadow-artinian-norm-and-base-prime-layers.md)：全单位HNF认证R·1+I=A才有同原厚商R/(detI)与原k范数Res(d,c)；全306/omega/厚长度保。可选helper已存，miss回原全部π层，未接运行。
+R931§11/11.1同原单位HNF认证全商循环或这次真h=c·1 mod I，完整R-module给原k Res(detI,c)，全厚度/omega/gcd保；值miss回全π层，独立helper仍未接运行。
 
 ## R936：同P正水平真左行的实际评价
 

@@ -73,3 +73,5 @@
 - 2026-11-20 14:27:10 UTC / Astra-rank2-Sha-resume-08eb2b79-20261120：R925§24同原完整理想的全分母HNF整像证明与独立helper即推；逐306源基整除/完整VM_D返回严格付旧source=unit门，无分式域清分母或子模替换。仅AST/源码，无新运行或性能PASS；H/open先归档，继续真正固定左行和公开门。
 
 - 2026-11-20 14:29:12 UTC / Astra-rank2-Sha-resume-08eb2b79-20261120：R936原正水平真左行完整证明即推；root全文回核全H0列/完整Z商ν/原T_J两式，K+e+>3κ且指定B∈H3时实际值−11U*(0)/a非零。保一般B偏移、严格窗和≤12条带，不排全WD；H/open先归档，续实际陪集及全像。
+
+- 2026-11-20 14:30:59 UTC / Astra-rank2-Sha-resume-08eb2b79-20261120：R931§11.1实际标量值范数增量即推；同307 HNF完整返回h=c·1 mod I，原全R-module行列式付Res(detI,c)而不假全商循环，全部厚度/原k及fallback保。root/global全文核、仅AST，独立helper未接运行；继续中央原类与公开全门。
