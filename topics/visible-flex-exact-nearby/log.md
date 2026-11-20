@@ -35,3 +35,7 @@ proof26086B/SHAbaca5c8b，纯模块24606B/SHA9ffc5c32。root与joint_kernel独�
 ## 2026-11-20：完整centre mean原子下界与首次公开目标
 
 proof7532B/SHAb69206d0；root/positive_inverse/joint_kernel独核degree32→输出≤64、B_HL mean=0、完整root-mean核−a00/q。K对象准确为ordinary L2→P_f有限接收器，原子不被投影丢弃；全域signed距离下界≥1/16384即排固定配方，不推出实际奇异。新owner33188B/SHA794cc3d9，75输入manifest74663B/SHAe08f68211772528adac26363757f43998328f3d2a7f9dbbcea5f59f4db86a7af；原72逐项保留、已成L三球完整只读。root整读owner/metadata/1record保存后lower比较，核75+worker bytes/SHA/blob、AST/YAML、字段和新marker；0本机科学。新增共享workflow单次push启动，所有旧成功/失败不改。
+
+## 2026-11-20：旧flow日志/索引普通历史归档
+
+在fresh 090d0785401ef3c16ea2e40f61bf0fa3d6cfafcf 核四旧path/blob/bytes/SHA，普通删除g0.log、两个同blob index与seed observed_index，gross1059324B。完整restore_commit/path/blob/bytes/SHA见2026-11-20-legacy-flow-log-history-pointers.json；旧成功/失败/原球/参数及嵌套身份逐字保Git历史，不重算。完整75当前输入逐项SHA仍同且无四path直接引用，不宣称全历史无引用；原candidate/native/当前源码不动。公开centre mean新目标44727185157/1运行中。

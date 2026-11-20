@@ -1,0 +1,45 @@
+{
+  "kind": "rule15_complete_legacy_flow_log_and_index_history_pointers",
+  "reason": "Ordinary removal of old reproducible execution log and index copies to keep current proof sources and small outcomes within the topic limit. All previous scientific successes, failures, values and input pointers are retained byte-for-byte in reachable Git history.",
+  "current_75_file_manifest_sha256": "e08f68211772528adac26363757f43998328f3d2a7f9dbbcea5f59f4db86a7af",
+  "all_75_current_hashes_unchanged": true,
+  "direct_target_path_matches_in_complete_75_file_closure": 0,
+  "no_claim_of_absence_from_all_historical_references": true,
+  "original_candidates_native_files_and_current_sources_removed": 0,
+  "scientific_targets_recomputed": 0,
+  "gross_removed_bytes": 1059324,
+  "files": [
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/step5_complete_flow_ci_43301401638/logs/g0.log",
+      "bytes": 275766,
+      "git_blob_sha": "fba3d0208172dc024f242d0296dceff66c6aaa17",
+      "sha256": "5779dab4f3c9baf5f5332f1e44228bdaa3d14b87b9414c1622c4a6835871b777",
+      "restore_commit": "090d0785401ef3c16ea2e40f61bf0fa3d6cfafcf",
+      "restoration": "git show restore_commit:path; verify bytes, Git blob and SHA256; no scientific recomputation"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/step5_forward_density_prefix_checks/prefix0110/index.json",
+      "bytes": 261278,
+      "git_blob_sha": "08136250c3277df5edec251266588e1b83c16306",
+      "sha256": "d08e5286abb48e84918d76f145e6e3f16da941675e3d65846e996ef9736b54eb",
+      "restore_commit": "090d0785401ef3c16ea2e40f61bf0fa3d6cfafcf",
+      "restoration": "git show restore_commit:path; verify bytes, Git blob and SHA256; no scientific recomputation"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/step5_complete_flow_ci_43301401638/g0/index.json",
+      "bytes": 261278,
+      "git_blob_sha": "08136250c3277df5edec251266588e1b83c16306",
+      "sha256": "d08e5286abb48e84918d76f145e6e3f16da941675e3d65846e996ef9736b54eb",
+      "restore_commit": "090d0785401ef3c16ea2e40f61bf0fa3d6cfafcf",
+      "restoration": "git show restore_commit:path; verify bytes, Git blob and SHA256; no scientific recomputation"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/step5_parameter_ci_seed_prefix0056/observed_index.json",
+      "bytes": 261002,
+      "git_blob_sha": "f6ceb4d7911ae8266a4a448b6ebbcc1020470714",
+      "sha256": "6fbf9d88cdb0654048ddd56e2c84f4da5bc886f77721141b7a270267fbde1c71",
+      "restore_commit": "090d0785401ef3c16ea2e40f61bf0fa3d6cfafcf",
+      "restoration": "git show restore_commit:path; verify bytes, Git blob and SHA256; no scientific recomputation"
+    }
+  ]
+}
