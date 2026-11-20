@@ -4,7 +4,7 @@
 
 ## 规则与完整目标
 
-最近规则核查：2026-11-20 16:55 UTC，真实pull/rebase至 `e6bd16d2d3b043aa0431b1ae24ac9770cd174741`，双README相对上次已读无差异。
+最近规则核查：2026-11-20 17:03 UTC，真实pull/rebase至 `c51c97f0a48dbe470b916d901268bf13196090e4`，双README相对上次已读无差异。
 
 科学计算仅本公开仓库Actions；早前本地偏差及13:00 UTC纠正见[执行记录](notes/2026-11-20-public-actions-execution-correction.md)。根README已授权必要修改/发布；根唯一local git writer，代理只work/小源。每条结论普通commit/push；NFF立即pull --rebase循环再推，不强推。至少每小时pull，每次核双README差异/立即遵新规并记commit。raw只scratch/runner，不入Git/Release/artifact；只保完整小源/参数/run/SHA/紧凑结论。题≤200MB，MD<100KB，H<10KB，open<30KB。令牌只瞬时CLI，不写文件/提交/回复。
 
@@ -48,6 +48,7 @@ run2队列：尾纯report归因；原six→实际报告归因→同g径向二分
 - R678：仅增M准确补零保同场六jet、原carrier/全权/N及完整母/商范数；eea174b9入口仅准备，依径向实际归因择用。
 - R679：N倍增的旧偶/新奇Phi各半、同场max取两者max，旧点归一权减半；共同旧N/新odd归因及条件角余项已证，仅接口设计未排算。
 - R680：完整坐标正部越界加三阶项给条件二阶几何修正，保原选中线性可行；真Phi/全点另付，仅证明未实施。
+- R681：当前J的物理coarse框架及一般K修正、moving-frame全正谱角矩0–24、SPD/活动面PCG已证；沿用R654，无新PCG运行或改善结论。
 - R682：严格metric lower用自己配置的准确s/π角身份，已有address可复用；新增正权必换Phi版本，全free点导数/分母链已证，超标硬门不可直接交零步feasible-CG。
 
 R650/R661提供同场support/K加四固定p4 marker的全t reach/grip/held/E框架。R656/R657支付连续几何/Gram接口；R658/R659付6077整面幅度，R663/R667付各自0241/077几何，均不继承到别场。R660正谱目标/有限max、R664正Hessian保原全空间。R668实际v2例Actions通过/2release，旧fixture不再加。

@@ -297,3 +297,5 @@
 - [R682：严格度量见证、准确位置及完整新点导数](results/R682-exact-metric-witnesses-and-full-space-observations.md) — 消费lower自身来源及准确s/π角；新增正权须明列新有限目标，给出全free Jv/VJP、rho分母链及R664精确拼接；真实见证与新点实现尚待实际返回，不把不可行硬上限塞给零步QP。
 
 - [R679：角网格倍增的准确分解与共同旧角归因](results/R679-dyadic-angular-refinement-and-common-grid-attribution.md) — Phi/梯度/正残差Hessian的旧偶与新奇半和、固定场max单调、旧归一权减半及带未付导数常数的一致性界；N-only保物理场/范数但有限目标改变，实际新网格未运行。
+
+- [R681：当前J的物理coarse框架与原QP预条件](results/R681-current-J-coarse-frame-preconditioning.md) — 冗余坐标的正确W/一般K修正、局部Q转置、moving-frame全正谱角矩和同母范数SPD/PCG完整证明；全变量/全观察保留，尚无新PCG运行或已证加速。

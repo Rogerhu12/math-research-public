@@ -203,3 +203,5 @@
 2026-11-20 16:48 UTC / Astra-larger-resume-24b2ab87-20261120：R682完整证明直接刊：真实point lower绑定自己的raw/层配置，准确s=αS+β及φ/π由现address恢复，不能把float-u另点或upper地址当见证。原Phi不变时新点仅独立诊断/约束；加正权必须明列新目标/归一化并同父跨版本复读。全free点Jv/VJP含直接rho分母链及R664真实gradient/RHS因子齐；旧feasible-CG无PhaseI，不能将已超1e−6点硬设该上限后零步启动。无新科学运行/盲加权。H保固定d585逐字前身并压重复条目。
 
 2026-11-20 16:54 UTC / Astra-larger-resume-24b2ab87-20261120：R679完整证明刊：固定同场/径向/M/全范数时N→2N，quarter旧列2k、端点2/内部4准确保，Phi为旧偶/新奇各半，gradient/正残差Hessian同分解、同场max单调、w_min减半。明确条件π²B2/(3N²)均值/πLE/N峰间界但实际常数未付；新Phi不能减旧Phi冒求解下降。最小共同buffer reader保父/子even/odd/all，新H或N不冒时间相位；无新科学/driver/排算。
+
+2026-11-20 17:03 UTC / Astra-larger-resume-24b2ab87-20261120：R681新完整结构刊：沿用R654，物理W=(Q,I)/sqrt2及一般K的(Q,K)框架避开零场核；Q/QT用局部差分/原B无需巨大Q。先把当前Cartesian六张量共轭到moving R/T/Z（现缓存本已如此），再用0–24角矩保全部点/高模/正谱权恢复2534粗列Gram；真实Hermite(b−h)+h高度列不换理想b。原q/mu²||z||²不变的SPD/PCG/释放责任齐，无科学/新driver/条件数改善承诺。
