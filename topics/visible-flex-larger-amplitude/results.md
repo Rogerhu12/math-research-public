@@ -289,3 +289,5 @@
 - [R677：低阻尼固定面CG、原步度量及可靠残差刷新](results/R677-low-damping-fixed-face-CG-and-reliable-updates.md) — 同完整QP的可行下降/相邻H共轭证明，独立v3保原目标与释放、每32真残差替换且无强制重启；额外成本透明，正确PCG/半步锁mu边界齐，尚待真实归因选择应用。
 
 - [R675补充：非零解析尾的零高度角模非平面证明](results/R675-nonzero-analytic-tail-zero-mode-corollary.md) — 同场嵌入加FullHold非恒多项式角，利用cosine非有理性排除水平开片；独立v2保准确高Z与解析尾两种覆盖，不继承旧证书，尚未运行。
+
+- [R678：仅增频率时的同场、同有限目标与完整步长范数](results/R678-frequency-only-refinement-and-identical-parent-functional.md) — 原观察carrier/全部权/a/N不变，准确模态包含保持六jet及完整DI/height/H²母范数和coarse增广最小商范数；原/零或非零R671自然父完整入口已刊，实际新M求解及持续精化尚未执行。

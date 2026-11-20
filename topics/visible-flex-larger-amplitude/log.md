@@ -195,3 +195,5 @@
 2026-11-20 16:34 UTC / Astra-larger-resume-24b2ab87-20261120：第七次普通退存568918B的R33 plateau2低到高列raw：原SHA9bc4a1f2、固定717d/blob69f完整保；实际77ba主源及三完整依赖、五准确输入各固定commit/blob/SHA/全CLI刊。joint严格用d7e57 coupling-metric，不混旧wide-low。旧low→high已付而reverse/full-head未付保持，无科学重算/历史重写。
 
 2026-11-20 16:35 UTC / Astra-larger-resume-24b2ab87-20261120：独立R671几何合并器521187ae完整刊：分别消费b36/v1或df8/v2真实schema/source，实际bundle/node/model/同first SHA全部绑定；高Z/非零解析尾两集合互斥完整覆盖，每项数量及旧all-height flag如实。原9da未改，R650/R661/Fraction几何公式原文保持。仅源码/AST核对，未科学消费、未预排，已有b36全付不重复运行。
+
+2026-11-20 16:39 UTC / Astra-larger-resume-24b2ab87-20261120：R678完整证明与eea174b9入口直接刊：M-only保原carrier/每个正权/a/N，同名R/T/Z/free-core准确补零使全六jet恒等；DI/physical-H/角H²及含coarse冗余的最小商范数在旧空间准确不变。自然完整父绑定/真实末mu/全部位置继承，R671新M canonical/profile重新绑定但λ/η不变。默认1×256、atol0，仅准备，是否排算依真实径向fine归因；没有科学运行、误差下降或收敛结论。
