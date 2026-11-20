@@ -6,7 +6,7 @@
 
 连通闭C²嵌入、C²连续族；固定有内点H且diamH≥.2D，整像δhold≥.1D及含反射δE>0，全时reach≥.03D。同一完整g/全部物理参数/时间范围下，完整metric≤1e−6且空间/频率/时间精化降至求解或机器地板；全部闭合与Cartesian两jet接口须实际支付。
 
-- 部分克隆工作树 /workspace/scratch/1b6d88ecddf3/math-research-public。已读规则提交：`b7628c3911941a3b9abf3fabd4744083d3246ff6`；12:43 UTC本地真实pull --rebase至该提交，双README无变。每次pull核差异，至少每小时一次；API比较不冒充pull。
+- 部分克隆工作树 /workspace/scratch/1b6d88ecddf3/math-research-public。已读规则提交：`70e1680880d610d129533af17602029274c9956d`；12:46 UTC本地真实pull --rebase至该提交，双README无变。每次pull核差异，至少每小时一次；API比较不冒充pull。
 - root独占git，逐结论推送，NFF立即pull --rebase/核双README后再推，禁force；令牌只在命令行。11:06 UTC终端恢复。
 - 根§12优先实际数学/求解，不重复身份核查/双审；§15再生场、网格、矩阵不入Git/Release/artifacts，只存源/参数/命令/hash/小标量。H<10KB、单MD<100KB、目录<200MB，不写根LOG。
 - 压缩不撤销旧结果。完整旧断点见[接手H](https://github.com/Rogerhu12/math-research-public/blob/9288f266d1f242b594d70a714e20340fcb876023/topics/visible-flex-held-10pct/HANDOFF.md)及[本次H到01954](https://github.com/Rogerhu12/math-research-public/blob/01954ce52ce769093d8368e8f5c9d4a980191a84/topics/visible-flex-held-10pct/HANDOFF.md)；具体note优先于摘要。
@@ -29,11 +29,9 @@
 
 ## 旧g：M24前缀已过，旧runner现已结束
 
-Actions run44720589640/job136234983080于12:36 UTC失败结束。新M24真尾请求的input/native诊断键被既有白名单拒绝，发生于求解启动前；已删请求两键，不改白名单。旧场仅存原runner，当前不可接续；必要时按发布命令再生，不能报新结论。固定场实测转本地新g。旧短ramp仍受R55障碍。
+Actions run44720589640/job136234983080于12:36 UTC因新请求input/native诊断键未获白名单允许而结束；发生于求解启动前，**没有M24真尾**。已删请求两键，不扩白名单。旧场只在原runner，当前不可接续；必要再生须按已发布命令，不算新结论。固定场实测转本地新g；旧短ramp仍受R55 reach障碍。
 
-λ.02/M8原linearDN与真实尾都收敛，l1仍2.39288e−5失败；trueDN两外迭代末BC1.83e−12、尾1.01e−9，seam mean2/nonmean2差1.15e−7/7.44e−8未闭。M12/M16原linearDN l1依次7.61134e−6/1.78766e−6，仍未门；[原记录/hash](notes/2026-11-20-material-m8-true-dn-and-m12-linear-return.md)。不能以仅径向误差解释M8补空间缺陷。
-
-**held10-material-m24-stage-01已exit0**：605点/一全步，l1 **2.950911661714551e−7**，BC1.76e−14；fixed mean512的N1024/2048 operator **2.539100933951488e−7**，共同节点差0。原前缀mean1168与proxy需区分。当前场 `material-lam002-m24-stage/linear`，shared port/N512真实导出，原模型完整lift；不重跑已完成升M。[详细结果/hash](notes/2026-11-20-material-m24-actual-return.md)。新命令held10-material-m24-true-dn-01因上述诊断键失败，**没有启动M24真尾**。通用入口按实际argv/port配置绑定；修正请求仅为未来必要重建保留。
+旧λ.02/M8真实尾末BC1.83e−12/尾1.01e−9但l1 2.39288e−5未门；M12/M16 l1 7.61134e−6/1.78766e−6仍未门，[全部终态](notes/2026-11-20-material-m8-true-dn-and-m12-linear-return.md)。M24原linear前缀已真过605点/一全步/l1 **2.950911661714551e−7**/BC1.76e−14；mean512 proxy的operator **2.539100933951488e−7**不混原mean1168。[M24参数/源/完整命令/hash](notes/2026-11-20-material-m24-actual-return.md)。不重复已完成升M或旧M8暖恢复。
 
 ## 几何和严格证书
 
@@ -42,7 +40,7 @@ Actions run44720589640/job136234983080于12:36 UTC失败结束。新M24真尾请
 - **R58当前4.625谷尾背景**固定binary校准根、真实积分，已付h(.3)<.025835、w≤.41、K≤8，含混合端/深尾/C²平盘；z_b[.1,1.28]可付背景support>.087/半径1.34。[R58](results/R58-q060-valley-background-height-and-curvature.md)。原[tail窗口](notes/2026-11-20-soft-start-tail-closure-budget.md)三背景条件现已适用，实际非旋转V/mean/接缝和JS有限求值差仍欠。
 - **R59原bridge真实积分**已付|Xi|<1.21/support>.74/K≤4、桥高(.3801,.3813)。实际V备选窗(|V|,η1,η2)=(.13,.12,5.5)或(.13,.2,3.8)，不可混用；法线界√2η1。z0[.35,.51]自动cut mean(.6001,1.0213)。[R59](results/R59-soft-start-short-bridge-geometry.md)。[M8桥有限诊断](notes/2026-11-20-newg-r59-bridge-actual-diagnostic.md)有余量但不替连续证书；[M8非均值连续界](notes/2026-11-20-newg-r59-nonmean-continuous-ranges.md)已付(.024956,.167415,1.350944)；正在绑定M24原mean1168与公共Hermite两jet。[M8 mean512连续界](notes/2026-11-20-newg-r59-fixed-mean-continuous-ranges.md)已付|M−b|<.01/|M′−b′|<.283；真原函数与GL6须分开。M24末端clip不具C²小差，正在显式定义解析延拓背景/真primitive与共享jet对象，不能把小区间忽略。
 - R56为C²图/真实C¹g建立先相消再归一化的连续矩阵证书；严格余量与收敛oracle给有限细分终止，当前新场尚无完整范围输入。[R56](results/R56-c2-jet-range-continuous-metric-certificate.md)。DFT/梯形只诊断。
-- FrozenPhysicalField固定全部参数接口已备未执行，只改场/入口消元，保原真DN；固定p0须用log(qactual/qgauge)，不是设计δ增量。[场接口](notes/2026-11-20-n4-fixed-physical-field-refinement.md)。WeightedTailPort的H循环不更新背景assemble；calibrationSteps/warp积分设置却可能换g。完整ready/config/source/checkpoint wrapper已语法过，未跑新尾；[完整g合同](notes/2026-11-20-n4-frozen-tail-metric-identity.md)。
+- [M24固定参数转换](notes/2026-11-20-m3-m24-fixed-parameter-reinterpretation.md)已真执行，δ吸收/新p0=0/23c同，完整参考与mean1168/GL6有限检查差0；FrozenPhysicalField场修正尚未执行，保原真DN。[场接口](notes/2026-11-20-n4-fixed-physical-field-refinement.md)。WeightedTailPort的H循环不更新背景assemble；calibrationSteps/warp积分设置却可能换g。完整ready/config/source/checkpoint wrapper已语法过，未跑新尾；[完整g合同](notes/2026-11-20-n4-frozen-tail-metric-identity.md)。
 
 ## 不重做的旧断点及接续
 
