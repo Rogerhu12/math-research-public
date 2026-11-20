@@ -6,7 +6,7 @@
 
 连通闭C²嵌入连续族；固定有内点H、diamH≥.2D；整像δhold≥.1D、含反射的δE>0；全时reach≥.03D。固定全部g/物理参数/时间范围，完整metric≤1e−6且空间/频率/时间精化下降至求解/机器地板。条件比例窗、开放前缀、有限接受均非完成；完成后继续增大比例。
 
-- 工作树 `/workspace/scratch/1b6d88ecddf3/math-research-public`；已部分克隆并真实pull。已读规则提交：`79ac325db64dbdc656714ef828a6da91fc7b30bd`；API差异核对双README无变化。最后真实pull为09:48 UTC到c9db159ff；本次API比较不冒充pull。环境恢复后先pull，随后至少每小时核规则。
+- 工作树 `/workspace/scratch/1b6d88ecddf3/math-research-public`；已部分克隆并真实pull。已读规则提交：`b9d5c8587864991fd835deca4ff40d5d25b81148`；API差异核对双README无变化。最近真实pull为10:08 UTC公开Actions到569c7d766、双README无差异；后续API比较不冒充pull。环境恢复后先pull，随后至少每小时核规则。
 - root独占终端git发布。每条结论同步H/log并立即push；NFF即pull --rebase、核双README并重推，禁force。首次接手提交d75355cbd已推。
 - 根§12：不重复旧身份审计/双审流程，优先实际求解。根§15：可再生场、网格、矩阵/输出不入Git/Release/CI；只留源/参数/命令/hash和紧凑数值。H<10KB，单MD<100KB，目录<200MB，不写根LOG。
 - `/workspace/scratch/7322d0dee069`明确不存在。旧91205(λ.82)/27744(M24)终态未知；新再生不是原进程续接，也不把丢失路径判为数学失败。完整旧断点见882aa9b74的H及[中断记录](notes/2026-11-18-execution-environment-interruption-recovery.md)。
@@ -48,10 +48,10 @@
 - R36/37/39/41是真积分与余项转移；R39的误差<5.940838571e−9仅在同对象有限主部过门时用，不偷移到新核心。
 - R52材料曲率新核：周长2π、凸闭合、精确圆弧/全参数jets；c>1/k−π/(n sinπ/n)。条件D≤2.65时n3(k=.2,S=.21)held>.1039D，n4(k=.2,S=.2)>.1172D。插柱D²≤D0²+4ℓZ0+ℓ²、支撑扣ℓ/2，首负K特征窗有有理界。完整BVP/固定g/标记仍缺，见[新核有限谱与窗](notes/2026-11-20-material-curvature-core-design-and-spectrum.md)。
 
-- R53从原真实单位弧长核心出发，κλ=κ0+λχ(k−κ0)+λβW精确保均值/闭合；λ0原核、λ1圆弧，完整参数jets已证。明确q∈[.0599,.0601]控制盒内整个(λ,τ)方形κ≥.2。support与真实旧raw的独立provider源均已保存、待实际执行；不证BVP沿路径可解、不消除R20障碍。
+- R53从原真实单位弧长核心出发，κλ=κ0+λχ(k−κ0)+λβW精确保均值/闭合；λ0原核、λ1圆弧，完整参数jets已证。明确q∈[.0599,.0601]控制盒内整个(λ,τ)方形κ≥.2。support及通用provider接support的四组接口检查已真通过，实际n4 raw尚未测；不证BVP沿路径可解、不消除R20障碍。
 
 ## 接着做
 
-先恢复执行能力并读取本次82514/18524/2919/57647真实输出；环境失联不判进程失败、不重复已登记结论。详细最后观察和恢复命令见[本次断连记录](notes/2026-11-20-execution-interruption-and-continuation.md)。GitHub连接仍可用，解析/源继续发布。新独立Actions `held10-material-continuation.yml` 请求已发布，待确认run；先真实pull核规则、恢复源，再核心接口检查→新H8锚初始化→λ.02原linear DN→原native真DN及后续同伦。所有数组同runner临时用、不上传，细节见[公开接续](notes/2026-11-20-public-material-continuation.md)。
+先恢复执行能力并读取本次82514/18524/2919/57647真实输出；环境失联不判进程失败、不重复已登记结论。详细最后观察和恢复命令见[本次断连记录](notes/2026-11-20-execution-interruption-and-continuation.md)。GitHub连接仍可用，解析/源继续发布。公开Actions44716641927真终态：R53四接口检查过，但H8 cold首网格后加密初评margin−7.9073e−7、18.47s失败，无raw/metric/材料λ/真尾。已转新H3一条+高7原DN和小幅continuation入口；不重复H8 cold或R53已过检查。见[真实返回](notes/2026-11-20-public-material-first-return.md)，源/链见[公开接续](notes/2026-11-20-public-material-continuation.md)。
 
 继续余弦必要再生及两条新核心改进路径，读取真实返回、保raw与实际参数；合格前缀接同H真实尾，失败按具体残差改表示/设计，不放宽原门。不在恢复工程、条件窗或中间报告停止。新材料核的圆弧不再要求λ→1，但其实际曲率控制、全图径向/角谱误差、固定全部g精化、中央柱成本、全时reach、标记δE都还必须支付。已有其他O项按open继续。
