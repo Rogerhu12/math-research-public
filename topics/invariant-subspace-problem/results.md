@@ -75,3 +75,5 @@
 - **R150 V0本质四维的独立双二次与唯一简单基点（2026-11-20，已证明）：** [原完整归约](results/R150-appendix-zero-third-cumulant-essential-four-independent-quadrics-and-basepoint-reduction.md)由原J2迹与四维线性代数把相关性压至N=0；原H的Frobenius配对迫q²=fq=0，等向三jet分类及最高式/极线gcd≤3排全部length4型。故C,N独立；不可约二次的次数界排五次投影，剩余只有唯一简单基点的双有理四次物理曲线。未判余支空、不扩到V非零或ess5/6。
 
 - **R271 一般长坏链的完整解析Schur及三个真幂旗（2026-11-20，已证明）：** [有限生成恒等式与全部物理费用](results/R271-appendix-general-head-long-bad-chain-analytic-schur-and-three-true-power-flags.md)用整个退化核的3d列无逆参数化，原最高导数统一成U A幂，精确合同给三旧真幂旗与全部新增秩。原核/合同/662a逆费用明列，最长坏链显式秩一且N型最低局部孔m+2；强尾还原只一κ≤4^R y^(2d)。短链和完整实际源仍开，不视作物理正交分块。
+
+- **R271 一般N头的完整高孔Schur补空间及原参数明确界（2026-11-20，已证明）：** [全部长短坏链、全强段常数和γ替代接口](results/R271-appendix-general-head-high-hole-schur-complement-and-complete-residue-cost.md)在m≥5/r3/偶R≥d构造最低孔A0=(R−d)/2+m+2的全新增约束补空间，精确候选与最小物理范数给整个最高极点阶(R−3d)/2+2m+3。C_m只含已付883a/阶乘头费，强段仅4^R y^(2d)，原s*=e⁻¹⁰⁷⁰重标度不破坏逆芽费用；固定γ<1/16的较弱几何孔界足以留负R预算。完整Zγ与原t正则费仍未闭。

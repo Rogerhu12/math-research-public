@@ -576,3 +576,6 @@ AI-assisted GPT-6 Astra Pro：冻结只读runner/参数，逐条原210来源对�
 
 ## 2026-11-20 11:39:23 UTC — Astra-ISP-b2a9acde-20261120：修复新权11启动日志参数
 AI-assisted GPT-6 Astra Pro：run44729251378完成语法/13原源SHA验证及11:38:42实际pull后，在首父计算前因event的name参数重复而失败；已改事件形参并冻结请求2，数学输入/native不改。原失败source/log身份保留，没有计算数据或新rank结论。
+
+## 2026-11-20 11:40:35 UTC — Astra-ISP-b2a9acde-20261120：一般N头高孔全补空间与显式原参数费
+AI-assisted GPT-6 Astra Pro：[完整证明](results/R271-appendix-general-head-high-hole-schur-complement-and-complete-residue-cost.md)核全部短/长链和二进制孔界，候选满足全核方程，源/解仅付一个强尾κ；逐式复核R239输入权与883参考头的重标度单调性。另加入同候选的固定γ较弱源接口；完整Zγ及整个q仍开，H全文快照。
