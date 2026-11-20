@@ -4,7 +4,7 @@
 
 ## 规则与已读版本
 
-最近规则核查：2026-11-20 10:07 UTC，真实pull/rebase至 `56660f41d85d9b79c54f66f89b423b0c8551c82d`，双README相对上次已读无差异。
+最近规则核查：2026-11-20 10:09 UTC，真实pull/rebase至 `dcbed6940b71222371a6fa4b2655c7533f8fd339`，双README相对上次已读无差异。
 
 仍只在公开仓库及其公开 Actions 工作。根12：完整证明直接发表，不加冻结、独审或额外机械门；根15：数组、证书及可重算 raw 不存 Git/Release/artifact，只存完整小源码、参数、run、SHA与紧凑结论，题≤200MB、单MD<100KB、HANDOFF<10KB、open<30KB。PAT只瞬时CLI，不入文件或connector；本次connector用已有连接。root唯一commit/ref发布，子agent只造完整UTF8小blob。终端失联时根8允许connector传完整小于100KB文本；不分块编码数据。恢复后仍至少每小时真实pull、核双README差异并记录，NFF立即rebase后普通push，不force。
 
@@ -28,7 +28,7 @@
 
 [173维粗三jet六步](notes/2026-11-20-physical-threejet-six-step-result.md)现实际完成：原SSE6430.55548→817.5061370945、点Gram.586426→.310475030101、点det≥.79764877，H1.863443905458；原完整算子与子空间SSE相对差2.15e−12。候选SHA `f062a4b2684c09e55f90265468699eea638ee8739f3e16d99fa6bd874036971a`，本地work/root/physical-threejet-six-step.npz；仅点值，仍未达。
 
-下一实际动作已启动：fullclosed_solver从该父执行完整原1332245自由变量加173物理附加列的正均衡LM（16固定Rademacher探测、µ.01、首256 inner，work/fullclosed_solver/augmented-first）。同父补读采样曲率max14.0934，SSE下降不等同reach改善。geometry_path推全模极分解/径向带状方向；recover_evidence完善双积分L²端口谱界。所有原方程与精确端口保留，真实下降点持续推进，不以方向/预算/时长收尾。
+[首完整列均衡方向](notes/2026-11-20-fullclosed-column-equilibration-curvature-failure.md)已真实结束：256 inner/76.7秒，满步Gram209.65，alpha1/32才SSE817.506→792.530、点Gram.310475→.300837；但采样曲率14.0934→2748.11，全步A最大49727。弱normal列的反尺度放大严重，不能作reach进展，不继续同尺度。保留其完整失败报告，下一父仍选较平滑f062的173维末场。fullclosed_solver接完整双积分L²+173，geometry_path实现全模极分解/带状方向；root准备按剩余误差扩充物理子空间。全部原方程/精确端口保留，不以方向/预算/时长收尾。
 
 ## 原证明、剩余几何与容量
 
