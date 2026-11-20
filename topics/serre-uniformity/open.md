@@ -58,6 +58,8 @@ $$
 
 [R952](results/R952-exact-Cartier-formula-for-the-last-Hasse-obstruction.md)现在把最后障碍识别为实际Cartier：O_r(H)=r!(𝒰H)^p/B^(p−r)|SS，且kerO_r=ker𝒰；𝒰H的q系数是a_pn^(1/p)。换帧、全SS、双tame角色的p逆变换及真实Igusa微分1/6均保留，不用未经运输的线性U_p冒名。具体whole packet问题因此恰为𝒰(M_CM)=0；命名F被杀或whole包nilpotent仍不够。R951的双线性式等于r!H_w(H′,𝒰H)，这里w是实际高权，不能与R950低权对角互换。继续求实际Cartier链的长度与原λ(F)。
 
+[R955](results/R955-original-Cartier-nilpotent-packet-is-a-single-odd-chain.md)把所需trace非零进一步缩成较弱、且**等价**的实际条件：先在原两δ空间取真实U5=(T5orig)²的完整零primary，再取Cartier nilpotent Fitting部分N。R952和完整低权核给ker(C|N)=kF；λ杀U5可逆及Cartier可逆部分，所以在N/coker非零。N因此是一条L=2m+1的单链，两δ维数m+1/m；它恰为实际CM packet的Cartier nilpotent部分。原trace非零当且仅当m=0。失败则且仅则存在原W^-中的真实前像Cω=Φ_w(F)，可取在N中；最短坏链3。这里并未假设整个CM包nilpotent，也不再要求先证明整包Cartier为零。实际前像会有R952指定非零O像，theta商有最后Hasse极点，不能再次拿低权简单核去杀它；必须处理这些真实极点/原几何源。pre/post的u方向保持分开，u³不变与真实v的δ角色才是同一H6基分解的来源。
+
 ## O3：固定低权cohomology与原Igusa投影的边界
 
 [R944](results/R944-original-CM-Gauss-Manin-homotopy-and-supersingular-principal-parts.md)给原fine base上

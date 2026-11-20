@@ -6,14 +6,14 @@
 
 **维护会话：serre-public-astra-20261120-de0a3e3b。** 已部分克隆并真实pull main，接手serre-public-astra-20261115。最新前态逐字在[H归档](handoff-archive-2026-11-20-before-conjugate-primitive.md)与[open归档](open-archive-2026-11-20-before-conjugate-primitive.md)，内接全部旧pins/公式/关闭边界。只消费已成来源，不重做已登记结论。
 
-**已读规则提交：6bd8ed4e173f8b8154c147ef32b358d7763b2149**（2026-11-20T11:08:51.599093+00:00；终端真实git pull --rebase origin main，两README无diff）。相比b77de2c7仅根课题表新增held-10pct；两README完整已读。root SHA256 581402c2 / topic 35f82f3d。此前来源与原pins沿[旧归档](handoff-archive-2026-11-16-before-Igusa-Frobenius-residues.md)。
+**已读规则提交：6b594ecbd7ae3397aa7c5b08ab006ba47d14439a**（2026-11-20T11:11:39.702425+00:00；终端真实git pull --rebase origin main，两README无diff）。相比b77de2c7仅根课题表新增held-10pct；两README完整已读。root SHA256 581402c2 / topic 35f82f3d。此前来源与原pins沿[旧归档](handoff-archive-2026-11-16-before-Igusa-Frobenius-residues.md)。
 
 每结论立即推；每push前且至少每小时真实pull。NFF立刻pull --rebase再推循环成功，禁force。每pull检查两README，有变只读diff并立即执行，SHA记此。PAT仅CLI，不入文件/提交，root独占main。新数学仅本公开仓库Actions；外部只纸证/IO/schema/hash/AST。raw不入Git/Release，本轮只/tmp和stdout。H<10KB、open<30KB、每MD<100KB、topic<200MB；log用Asia/Taipei≤5行，不写根LOG，不设额外审批/测试门。
 
 ## 当前工作入口与断点
 
 1. **全p同h选择**：R945已排除无例外的“完整trace非零⇒中央Q′单位”。R949给全i的Cmark=(6i+4)!f_i(−864)^−i/24；[R954](results/R954-original-odd-sigma-and-conductor-two-s-CM-evaluations.md)给conductor2s家族Dmark=(6j+1)!g_j(−864)^−j。两原序列全常数已定，同零须阶乘<p；同h权h−3/p−h−2不是R913两权，仍须本原Legendre·fi·gj联合非零或真正height。
-2. **原完整trace**：R952把whole CM packet饱和准确等价于实际Cartier 𝒰在全packet上为零，不能用nilpotent/eigenvalue零代替。R950已证原低权完整对角全p非零；R947的Igusa投影在SS有极点，原高权比较及真实Cartier长链仍缺。
+2. **原完整trace**：[R955](results/R955-original-Cartier-nilpotent-packet-is-a-single-odd-chain.md)证实际CM包的Cartier nilpotent部分N恰单奇链L=2m+1，ker=kF、coker由原λ非零检测。原trace非零 iff L=1；失败 iff原W^-有Cω=Φ_w(F)的前像，最短坏链3。先完整U5零primary再Cartier Fitting，不假设整包nilpotent；实际共轭mark返回同一H6，不添第二低权核。R952 whole饱和仍是更强充分条件；R950低权对角已闭，继续排真实L≥3。
 3. **原全Abel/height**：[R948](results/R948-rational-quadratic-Abel-root-and-original-coordinate-separation.md)已证两有限p的二次scalar根在pZp，非中心iff真char0 M2≠0，v(w*)=2+v(M2)−ν/2；两例ν0/M5阶−5。另一真实h按R727全tail分离额外根，原开盘全Abel零集仅中心；仍不排正秩非零MW像或替代height。
 
 ## 最新已成：原类、完整商与两个中央零
