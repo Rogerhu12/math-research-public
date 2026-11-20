@@ -139,3 +139,5 @@
 2026-11-20 14:35 UTC / Astra-larger-resume-24b2ab87-20261120：公开28主阶段+4后处理真实返；c4a3 Phi1.1231403e−7/max.01319655/product.99190394。R670该父全922嵌入/幅度新应用已付，简单8blend全部未降Phi、末b3/b4非零，分别诚实登记。原v2例真实pass后即以返回mu .0007539530259341321排同父.992/.998完整256QP，全部永久点保留；每项完整原源/输入/参数/run/SHA既刊，不预定结果。
 
 2026-11-20 14:36 UTC / Astra-larger-resume-24b2ab87-20261120：R671完整42476B工厂及9389B说明刊：原g/符号节点、9标量、fixed k全部六jet、observed/native真基场与Jv/VJP、隔离任意点pullback、物理H补偿及新bundle模型身份完整；λ0回原类，迁移只初猜，无旧证书。全文阅读/AST/源SHA完成，无本地科学或额外fixture门槛；H压缩旧细节到既有完整来源，当前未完成责任保持。
+
+2026-11-20 14:39 UTC / Astra-larger-resume-24b2ab87-20261120：新R671完整driver/launcher/说明刊，动态observed/native/六jet/point pullback/物理H/coarse全部同context；λ0帽诊断改读正确legacy endpoint，canonical身份冲突拒绝。只文本/AST/argv已读，无本地science。已排c4a3同实际mu、λ1/η885/nodal-projection真实初猜screen及完整1×256QP，旧pair/重建源不改，初猜失败不冒已接受或PhaseI。
