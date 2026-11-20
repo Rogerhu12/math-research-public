@@ -1,0 +1,576 @@
+{
+  "scope": "Executed true-background local interval oracle and an actual source-x chart jump. No BVP, no new shooting, no finite nonrotating C2 or full-H acceptance claim.",
+  "date_utc": "2026-11-20",
+  "status": "complete_for_declared_background_queries_and_chart_obstruction",
+  "sources": {
+    "topics/visible-flex-held-10pct/scripts/resume_n4/q060_true_background_oracle.py": "d133b3ed5b9e5b5a8e15e3a6bb49b3969b65abbd77fbb17a9d0af835d28c1901",
+    "topics/visible-flex-held-10pct/scripts/resume_n4/certify_q060_background_chart_jump.py": "20644ecb70567be7b3f62b717ec9fec2865ac45bd15011bb487382f4a5b4bfd3"
+  },
+  "provenance": {
+    "definition_sha256": "e764e2cc370f0b7a8a55324f2744702017c16690195f45db92ca66b9781bae56",
+    "constants_sha256": "1a1bcd1679f9f3b507c19bed8f3a1310fda81ac16452ad164edef3e95d82dfc9",
+    "normalization_certificate_sha256": "0b7222717ce302b6e5d5654a3764f9c75892c9e15c1416cb04bb532cea880598",
+    "kernel_sha256": "b7a8dc501dc3dbbe4ccb14d6b4ea2b4b85849d14b9551a94f5c23798d7985806",
+    "oracle_sha256": "d133b3ed5b9e5b5a8e15e3a6bb49b3969b65abbd77fbb17a9d0af835d28c1901",
+    "interval_digits": 60,
+    "coefficient_tolerance": "1/100000000000000",
+    "variation_tolerance": "1/1000000000000000000000",
+    "normalization_definition": "(rCut - true_r160 - integral_A) / integral_B",
+    "calibration_roots": "The 160 recorded binary calibrationAlpha values, unchanged.",
+    "coordinate": "Original cell/segment/x locator; C2 surface jets use physical R=r(x).",
+    "mean_contract": "Only the rotational background height relative to its cut; no nonrotating mean is supplied or reset.",
+    "finite_oracle_transfer_certified": false
+  },
+  "alpha_enclosure": {
+    "lower": 161.1632545693438,
+    "upper": 161.16325460490376,
+    "lower_exact": "2835213957907473/17592186044416",
+    "upper_exact": "5670427917066101/35184372088832"
+  },
+  "native_binding": {
+    "status": "physical_inputs_and_stage_coordinates_bound",
+    "definition_sha256": "e764e2cc370f0b7a8a55324f2744702017c16690195f45db92ca66b9781bae56",
+    "checked_parameter_keys": [
+      "R",
+      "a",
+      "calibrationSteps",
+      "capMode",
+      "capTransition",
+      "curvatureBound",
+      "cuspAwareQuadrature",
+      "delta0",
+      "etaPower",
+      "etaRatioAtN0",
+      "maxCachedBetas",
+      "orientation",
+      "prefixEnd",
+      "prefixR",
+      "prefixReturnStart",
+      "protectCell",
+      "pulseCaps",
+      "quadratureTolerance",
+      "rCut",
+      "rejoinIndexOffset",
+      "rejoinR20At",
+      "slopeCap",
+      "spacing",
+      "valleyCaps",
+      "valleyControls",
+      "wCut",
+      "warpSteps",
+      "warpWeightLevels",
+      "width"
+    ],
+    "depth": 8,
+    "parts": 16,
+    "stages": 1152,
+    "finite_scope": {
+      "M": 24,
+      "spacing": 3,
+      "quadrature": 512,
+      "steps": 16,
+      "projectionFloor": 0.05,
+      "orientation": 1,
+      "cuspAwareFlow": true,
+      "stageCount": 1152
+    },
+    "field_transfer_certified": false,
+    "state_contract": "states[k+1] is the inner endpoint of stage k; u=H/r_JS^4. A true-R shared-C2 map must explicitly specify physical H and physical-R jets, and its original nonrotating mean primitive."
+  },
+  "existing_checkpoint": {
+    "path": "m3-work/newg-wide-lambda0p002-m24-actual/tail_0001.json.gz",
+    "sha256": "302662026a7e213647d8bfb2813f970174c8c919bb6f4d406e073ef9f3c110de",
+    "accepted_response_scope": "only the original 0.25 warm request",
+    "residual": 1.8946163107633334e-10,
+    "converged": true,
+    "state_shape": [
+      1153,
+      48
+    ],
+    "raw_node": [
+      0,
+      144,
+      288,
+      432,
+      576,
+      720,
+      864,
+      1008,
+      1152
+    ],
+    "source_factory_sha256": "740e672edee58cff7a15f89d75e181577dd439c1c62777c57d0d0ab1af32141e",
+    "mean_slots_serialized_in_checkpoint": false
+  },
+  "executions": [
+    {
+      "session": 9233,
+      "exit_code": 0,
+      "seconds": 111.70799450399863,
+      "queries": [
+        {
+          "kind": "source",
+          "cell": 0,
+          "segment": 8,
+          "left": "1"
+        },
+        {
+          "kind": "stage",
+          "stage": 0,
+          "left": "0",
+          "right": "1"
+        },
+        {
+          "kind": "source",
+          "cell": 0,
+          "segment": 4,
+          "left": "1/2"
+        },
+        {
+          "kind": "source",
+          "cell": 0,
+          "segment": 0,
+          "left": "0"
+        },
+        {
+          "kind": "stage",
+          "stage": 1151,
+          "left": "1/2"
+        },
+        {
+          "kind": "source",
+          "cell": 159,
+          "segment": 0,
+          "left": "0"
+        }
+      ],
+      "query_sha256": "3cb9df6bb9663706c9395318c2b1de57aca46e337d865268a3c85904ae04e357",
+      "metadata_sha256": "0631e3f222c88815574698ccefd5ca4e7bfe6473929928957060fa7a9b7ef53a",
+      "out_sha256": "e8b32bf00c0366faa16b7b0e4e48469d7f00f2cd374cf97153553b449d847a11",
+      "results": [
+        {
+          "request": {
+            "kind": "source",
+            "cell": 0,
+            "segment": 8,
+            "left": "1"
+          },
+          "source_x": [
+            "1",
+            "1"
+          ],
+          "ranges": {
+            "r": {
+              "lower": 0.3,
+              "upper": 0.3
+            },
+            "height_drop_to_cut": {
+              "lower": 0.0,
+              "upper": 0.0
+            },
+            "h_R": {
+              "lower": 0.08,
+              "upper": 0.08
+            },
+            "h_RR": {
+              "lower": -1.866666666666667,
+              "upper": -1.8666666666666667
+            },
+            "r_x": {
+              "lower": 2.598076211353316e-05,
+              "upper": 2.5980762113533162e-05
+            },
+            "meridian_curvature": {
+              "lower": -1.8488889638984833,
+              "upper": -1.8488889638984831
+            },
+            "angular_curvature": {
+              "lower": 0.2658174076096333,
+              "upper": 0.26581740760963335
+            }
+          }
+        },
+        {
+          "request": {
+            "kind": "stage",
+            "stage": 0,
+            "left": "0",
+            "right": "1"
+          },
+          "source_x": [
+            "15/16",
+            "1"
+          ],
+          "ranges": {
+            "r": {
+              "lower": 0.29999835289025056,
+              "upper": 0.3
+            },
+            "height_drop_to_cut": {
+              "lower": 0.0,
+              "upper": 1.3177129726732838e-07
+            },
+            "h_R": {
+              "lower": 0.07999999999999999,
+              "upper": 0.08000303114633585
+            },
+            "h_RR": {
+              "lower": -1.8701968439474432,
+              "upper": -1.7603691365830607
+            },
+            "r_x": {
+              "lower": 2.5932703449745586e-05,
+              "upper": 2.7549575599844813e-05
+            },
+            "meridian_curvature": {
+              "lower": -1.8523855205851079,
+              "upper": -1.7436025265876394
+            },
+            "angular_curvature": {
+              "lower": 0.26581734355983727,
+              "upper": 0.26582893875101915
+            }
+          }
+        },
+        {
+          "request": {
+            "kind": "source",
+            "cell": 0,
+            "segment": 4,
+            "left": "1/2"
+          },
+          "source_x": [
+            "1/2",
+            "1/2"
+          ],
+          "ranges": {
+            "r": {
+              "lower": 0.2557157699521046,
+              "upper": 0.25571576995733797
+            },
+            "height_drop_to_cut": {
+              "lower": 0.001307511816125376,
+              "upper": 0.0013075118161882976
+            },
+            "h_R": {
+              "lower": 0.005204828694660746,
+              "upper": 0.005204828694660747
+            },
+            "h_RR": {
+              "lower": -0.0014943646454376482,
+              "upper": -0.0014943646451079846
+            },
+            "r_x": {
+              "lower": 0.04222877889916376,
+              "upper": 0.04222877890847962
+            },
+            "meridian_curvature": {
+              "lower": -0.0014943039234446291,
+              "upper": -0.0014943039231149788
+            },
+            "angular_curvature": {
+              "lower": 0.020353684862406657,
+              "upper": 0.02035368486282321
+            }
+          }
+        },
+        {
+          "request": {
+            "kind": "source",
+            "cell": 0,
+            "segment": 0,
+            "left": "0"
+          },
+          "source_x": [
+            "0",
+            "0"
+          ],
+          "ranges": {
+            "r": {
+              "lower": 0.13552134105814048,
+              "upper": 0.13552134106992453
+            },
+            "height_drop_to_cut": {
+              "lower": 0.02185461364530009,
+              "upper": 0.021854613646014653
+            },
+            "h_R": {
+              "lower": 0.011259136924887605,
+              "upper": 0.011259136924887607
+            },
+            "h_RR": {
+              "lower": -0.0072685597989077255,
+              "upper": -0.007268559797305406
+            },
+            "r_x": {
+              "lower": 0.0007022413303377282,
+              "upper": 0.0007022413304925341
+            },
+            "meridian_curvature": {
+              "lower": -0.007267177884914267,
+              "upper": -0.007267177883312253
+            },
+            "angular_curvature": {
+              "lower": 0.08307491096079693,
+              "upper": 0.08307491096802058
+            }
+          }
+        },
+        {
+          "request": {
+            "kind": "stage",
+            "stage": 1151,
+            "left": "1/2"
+          },
+          "source_x": [
+            "1/32",
+            "1/16"
+          ],
+          "ranges": {
+            "r": {
+              "lower": 0.05056136930126389,
+              "upper": 0.050561384382556286
+            },
+            "height_drop_to_cut": {
+              "lower": 0.022772024922056,
+              "upper": 0.02277202492305905
+            },
+            "h_R": {
+              "lower": 2.0622576155606754e-08,
+              "upper": 2.0622576425384836e-08
+            },
+            "h_RR": {
+              "lower": -1.791377896353663e-08,
+              "upper": -1.7913778691764098e-08
+            },
+            "r_x": {
+              "lower": 4.819138720384623e-07,
+              "upper": 4.819138730454012e-07
+            },
+            "meridian_curvature": {
+              "lower": -1.7913778963536618e-08,
+              "upper": -1.7913778691764088e-08
+            },
+            "angular_curvature": {
+              "lower": 4.0787206298729337e-07,
+              "upper": 4.0787218998179553e-07
+            }
+          }
+        },
+        {
+          "request": {
+            "kind": "source",
+            "cell": 159,
+            "segment": 0,
+            "left": "0"
+          },
+          "source_x": [
+            "0",
+            "0"
+          ],
+          "ranges": {
+            "r": {
+              "lower": 0.04999999999999999,
+              "upper": 0.049999999999999996
+            },
+            "height_drop_to_cut": {
+              "lower": 0.0227720899833582,
+              "upper": 0.0227720900108743
+            },
+            "h_R": {
+              "lower": 3.0473949783964537e-134,
+              "upper": 3.047394978396454e-134
+            },
+            "h_RR": {
+              "lower": -4.266352969755037e-132,
+              "upper": -4.2663529697550364e-132
+            },
+            "r_x": {
+              "lower": 6.931810317975702e-78,
+              "upper": 6.9318103179757025e-78
+            },
+            "meridian_curvature": {
+              "lower": -4.266352969755037e-132,
+              "upper": -4.2663529697550364e-132
+            },
+            "angular_curvature": {
+              "lower": 6.094789956792909e-133,
+              "upper": 6.09478995679291e-133
+            }
+          }
+        }
+      ]
+    },
+    {
+      "session": 2332,
+      "exit_code": 0,
+      "seconds": 42.16792087700014,
+      "queries": [
+        {
+          "kind": "radius",
+          "cell": 0,
+          "segment": 8,
+          "left": "0.29998",
+          "x_tolerance": "1e-10"
+        }
+      ],
+      "query_sha256": "ee25531130b11452e4deed383c75128954aa1e78c17c2234c45e32396100901c",
+      "out_sha256": "0b7f8ec7a8449e55abd356c63ffbe2fd2302306f7e22b9d34d27c69f107ed9c9",
+      "results": [
+        {
+          "request": {
+            "kind": "radius",
+            "cell": 0,
+            "segment": 8,
+            "left": "0.29998",
+            "x_tolerance": "1e-10"
+          },
+          "source_x": [
+            "8717913405263545484140263278005886288733628906741896737795967/12855504354071922204335696738729300820177623950262342682411008",
+            "4358956702912653294876687914887071254058046380696046965341661/6427752177035961102167848369364650410088811975131171341205504"
+          ],
+          "inverse_iterations": 7,
+          "x_tolerance_met": true,
+          "ranges": {
+            "r": {
+              "lower": 0.29997999999999997,
+              "upper": 0.29998
+            },
+            "height_drop_to_cut": {
+              "lower": 1.6002077417071115e-06,
+              "upper": 1.6002077427790351e-06
+            },
+            "h_R": {
+              "lower": 0.08001561059516062,
+              "upper": 0.08001561059516275
+            },
+            "h_RR": {
+              "lower": -0.314561012623279,
+              "upper": -0.3145610124672103
+            },
+            "r_x": {
+              "lower": 0.0001542050161518466,
+              "upper": 0.00015420501622835097
+            },
+            "meridian_curvature": {
+              "lower": -0.3115640461168734,
+              "upper": -0.3115640459622915
+            },
+            "angular_curvature": {
+              "lower": 0.26588667303673924,
+              "upper": 0.26588667303674635
+            }
+          }
+        }
+      ]
+    },
+    {
+      "exit_code": 0,
+      "seconds": 0.15362673200070276,
+      "out_sha256": "719d9b609ac6f02047ed31f6e408564fe8d0b2512d99b96b912f5faa8f352eae",
+      "root": {
+        "cell": 0,
+        "segment": 1,
+        "left_exact": "19882896209810553912987611/11529215046068469760000000000",
+        "right_exact": "4970724052452638478246903/2882303761517117440000000000",
+        "width_exact": "1/11529215046068469760000000000",
+        "bisections": 61,
+        "bracket_verified": true,
+        "unique_simple_zero_verified": true
+      },
+      "at_root": {
+        "w": {
+          "lower": 0.011254026986701002,
+          "upper": 0.011254026986701004
+        },
+        "w_xx": {
+          "lower": 0.005908783355104807,
+          "upper": 0.0059087833551048075
+        },
+        "r_x": {
+          "lower": 0.0007016643401473256,
+          "upper": 0.0007016643403021449
+        },
+        "r_xx_left": {
+          "lower": -0.0007384401021645676,
+          "upper": -0.0007384401021645637
+        },
+        "r_xx_right": {
+          "lower": 0.0007384751438342222,
+          "upper": 0.0007384751438342263
+        },
+        "r_xx_jump": {
+          "lower": 0.0014769152459987898,
+          "upper": 0.00147691524599879
+        },
+        "Z_xx_left": {
+          "lower": -8.31042483782229e-06,
+          "upper": -8.310424837822245e-06
+        },
+        "Z_xx_right": {
+          "lower": 8.310819197718243e-06,
+          "upper": 8.310819197718288e-06
+        },
+        "Z_xx_jump": {
+          "lower": 1.662124403554053e-05,
+          "upper": 1.6621244035540533e-05
+        },
+        "h_R_common": {
+          "lower": 0.011254026986701002,
+          "upper": 0.011254026986701004
+        },
+        "h_RR_common": {
+          "lower": 0.0,
+          "upper": 0.0
+        }
+      },
+      "join_checks": [
+        {
+          "inner": [
+            0,
+            4,
+            1
+          ],
+          "outer": [
+            0,
+            5,
+            0
+          ],
+          "physical_h_R_and_h_RR_ranges_overlap": true
+        },
+        {
+          "inner": [
+            1,
+            8,
+            1
+          ],
+          "outer": [
+            0,
+            0,
+            0
+          ],
+          "physical_h_R_and_h_RR_ranges_overlap": true
+        }
+      ]
+    }
+  ],
+  "commands": [
+    "OPENBLAS_NUM_THREADS=1 python math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4/q060_true_background_oracle.py --constants n4-work/q060-tail-geometry/constants.json --normalization-certificate n4-work/q060-tail-geometry/tight-integrals-certificate.json --queries n4-work/q060-tail-geometry/true-oracle-queries.json --metadata m3-work/newg-bounded-chord-native/runs/actual-lambda0p002-chord3-r1/static-metadata.json.gz --out n4-work/q060-tail-geometry/true-oracle-results.json",
+    "OPENBLAS_NUM_THREADS=1 python math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4/q060_true_background_oracle.py --constants n4-work/q060-tail-geometry/constants.json --normalization-certificate n4-work/q060-tail-geometry/tight-integrals-certificate.json --queries n4-work/q060-tail-geometry/true-oracle-inverse-query.json --out n4-work/q060-tail-geometry/true-oracle-inverse-result.json",
+    "OPENBLAS_NUM_THREADS=1 python math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4/certify_q060_background_chart_jump.py --constants n4-work/q060-tail-geometry/constants.json --normalization-certificate n4-work/q060-tail-geometry/tight-integrals-certificate.json --out n4-work/q060-tail-geometry/true-background-chart-jump.json"
+  ],
+  "coordinate_contract": {
+    "source_x": "original cell and segment x; native xi maps by rawLeft+(rawRight-rawLeft)*xi",
+    "regular_surface_coordinate": "physical R=r(x)",
+    "source_x_C2": false,
+    "actual_simple_root_jump_certified": true,
+    "native_height": "H_j=r_JS^4*u_j; preserving u while replacing r_JS by true R changes the physical field",
+    "height_sign": "oracle z_relative_to_cut is h(R)-h(rCut) with h_R=+w; the upper-cap vertical coordinate uses its negative plus the existing cut height",
+    "nonrotating_mean": "not supplied or reset by this background oracle"
+  },
+  "bvp_solves_executed": 0,
+  "unpaid": [
+    "original JS values/IEEE/libm to the true mathematical primitive",
+    "full-H nonlinear tail and prefix coupling",
+    "a concrete nonrotating shared-physical-R C2 map and its metric/curvature/closure"
+  ]
+}
