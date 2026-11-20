@@ -1,12 +1,12 @@
 # 交接：可见振幅的精确闭等距族
 
-维护会话：`visible-exact-astra-ac637-20261120`；更新：2026-11-20 10:49:37 UTC。
+维护会话：`visible-exact-astra-ac637-20261120`；更新：2026-11-20 10:52:55 UTC。
 **总任务未完成；继续研究，不等用户回复。**
 
 ## 规则读点与接续来源
 
 部分克隆：`/workspace/scratch/ac637cfcc78d/math-research-public`。终端 git 已恢复，无 AGENTS。
-2026-11-20 10:49:37 UTC 实际pull/rebase至 `7242de8640aa3d1b7782c72a1d086a0abd7ddf15`；已读规则提交同上，两README相对96edc6770空diff。每次pull后核规则差异；下次实际pull最迟11:49:37 UTC。
+2026-11-20 10:52:55 UTC 实际pull/rebase至 `e21d4f93ac34dedc112671ea603dcfe965f52db5`；已读规则提交同上，两README相对96edc6770空diff。每次pull后核规则差异；下次实际pull最迟11:52:55 UTC。
 
 接手前完整 H（含全部递归原页、成功/失败/恢复身份和未付义务）见 [2026-11-16 完整检查点](https://github.com/Rogerhu12/math-research-public/blob/882aa9b74efeaac682df43c197820e7280156357/topics/visible-flex-exact-nearby/HANDOFF.md)。本页只压缩索引；`open.md` 及所链接的原证明、适用域、均值、物理角、所有边界和误差费用继续有效。旧成功结论不重算。
 
@@ -39,6 +39,8 @@ geometry `43584188751/26` **仅条件性**：同η0真 wholecore（含帽）C0�
 
 [实际support](results/R138-supplement-actual-positive-support-for-repaired-physical-frame.md)已用旧全域证书闭合：固定η0/ν0、同全周期外端锚的Qrepair物理径向frame在[0,25/8]满足|F|<319/250、F·n>9/10。角图/6143接口/repair转移全付；能量可取p=0、σ=1，实际边界费用仍待。
 
+[实际outer负型](results/R138-supplement-actual-outer-rotation-energy-and-mean-defect.md)已闭：真实全频DN使B_R及修改型≤−2πa²s_R||c_perp||²_H^-1/2，mean正项/初始H_R已付；原Qδ零stable齐次核有强窗。只剩内端真实行及体吸收；不得免费移授hybrid A_c。
+
 ## 已有可复用的正侧链
 
 - WIC：原 m160 真 tail 的全系统逆界 κ=3、N=24480 已证。完整 reference、ρ2、193 mean/head、97 root+96 outer、7 ports、两 RHS 资格保留。
@@ -51,15 +53,11 @@ geometry `43584188751/26` **仅条件性**：同η0真 wholecore（含帽）C0�
 
 ## 接手时真实执行停点与当前分工
 
-新readonly清单 `notes/2026-11-20-W2C-native-readonly-inputs.json` 已随54996e463推送；只更换已读规则与worker运维，所有旧数学模块/输入pin原样。公共run `44712172133/1` 已成功完成此前未进入的完整native读取：60 current、23 AST、21历史原件、18输入检查全过；0科学目标、0旧重算。execution/report已自动推送，graph4最终版尚未launch。
-
-旧 `43921663540/1` 是AST后运维失败，0科学；原execution/report完整保于 `notes/collar_volterra_dual_readonly_ci/run-43921663540-1/`，不重算旧成功。
-
-当前模块：owner `fourfold_codazzi_collar_volterra_dual_candidate.py`；完整输入恢复/执行为同前缀 `public_worker.py`；reader 为 `readonly.py`、`readonly_core.py`；math 为 `true_collar_signed_packet_math.py`、`signed_semiseparable_kernel_math.py`、`collar_dual_feedback_math.py`、`W2C_signed_reference_math.py`（都在 scripts/）。完整 native 数据与29整球仅恢复旧字节，不调用旧 producer。
+readonly44712172133/1成功（60 current/23 AST/21原件/18门，0科学）；旧43921663540/1为0科学运维失败，两份完整回执保在 `notes/collar_volterra_dual_readonly_ci/`。恢复/执行用 `fourfold_codazzi_collar_volterra_dual_public_worker.py`；各新源码、完整清单与适用域见result/manifest，21原件与29整球只读恢复，旧producer不调用。graph4最终版尚未launch。
 
 1. `joint_kernel` 的R136 graph4已合；[正pivot/endpoint hull](results/R139-supplement-positive-reference-pivot-and-endpoint-hull.md)修复SHAe57e0953仅AST，0新scalar。转先用mean atom直接检验固定L预算，原50条仍0；并行R140分开192/mean1费用，保全源权。
 2. `positive_inverse` 的低193/97 scaled续算44721851908/1运行中（65输入/SHA44af8273）；原138panel定义hash/0传播失败全保，完整155panel计划先保存、步∞4/总8192不放宽。R141真根双侧Green认证在写，CFB/mean/实际family仍付。
-3. `global_route` 已完成R138几何桥/旋转能量及actual support，接着核outer真实graph的端点型和mean初始角缺陷；R135/R520不替验收。
+3. `global_route` 已完成几何桥/旋转能量、actual support与outer负型；继续真实inner low96/high stable/mean边界及体残差吸收，不能把stable行当c=0。R135/R520不替验收。
 4. root维护git与记录；L44719196440/1为0scalar正pivot失败，endpoint44719196304/1为第139panel超256步、0传播/0SV，两失败完整保。atom必要门已完成未排除；接续原L三量并等待scaled endpoint，原50条仍0。代理不动git。
 
 ## 正侧以外仍未付的接口

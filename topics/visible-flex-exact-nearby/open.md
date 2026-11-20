@@ -176,3 +176,5 @@ WIC真tail κ=3已闭；WPN仍须完整e+3dt<1。WPS/WVC/WCTRA充分门均false�
 [R138补篇](results/R138-supplement-rotation-energy-and-complete-endpoint-form.md)已给具体旋转能量、完整端点型及不除以K的漂移估计；下一步在同一193+high实际边界域核support、初始角缺陷和端点费用，使b_*+e_*<2。当前root未证平面，outer graph不能当常旋转；mean/源/弱强域和同一全局规范保留。
 
 [实际support补篇](results/R138-supplement-actual-positive-support-for-repaired-physical-frame.md)已支付上述support：同固定η0/ν0、同全圈周期外端锚、全[0,25/8]的Qrepair物理径向frame有F·n>9/10、|F|<319/250；旧证书只读复用。继续支付实际193+high端点型、初始角缺陷与残差吸收，未完成的GC/外帽世界匹配不因此消失。
+
+[actual outer能量补篇](results/R138-supplement-actual-outer-rotation-energy-and-mean-defect.md)已支付真实全频外端负型及mean初始角缺陷，并识别原Qδ零stable齐次核的H^1/6外迹。现在须代入真正inner low even96=0、high stable的M^(1/3)(−J h1)+h2=0及独立mean；不能改成physical c=0。内部残差吸收、一般粗源常数、hybrid与真DF的差源仍保留。
