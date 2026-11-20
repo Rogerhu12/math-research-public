@@ -308,3 +308,8 @@ positive推L1–25及pure13580B/2c5002f9，global整篇/整源独审；root再�
 ## 2026-11-20 15:46 UTC：同成员完整正侧Newton七源实际通过
 
 会话visible-exact-astra-ac637-20261120。44765046846/1实际18/18门、7球保存读回，actual35749B/223461e2、exec18244B/fb778243；29当前bytes与manifest全核同，7原件准确恢复两whole容器。新raw1341/positive1346交段只补.9→25/8，数学.176657348s/child1.396090608s/rc0；full及low<7.044651e−8，高97–288<1.102257e−15非零。旧CRA限制到真根/whole7721只读，无旧producer/target或本机science。物理外端mean倒数和height仍独立，未授58/224/32或两WPN/fullinverse。
+
+
+## 2026-11-20 15:48 UTC：全域互补Gram谱体预算首次公开入口
+
+会话visible-exact-astra-ac637-20261120。新source30446B/0ff56334、合同12121B/badef522、worker36595B/472ebb5c与gen14196B/651dca5c已封；manifest13216B/59361c5b，26当前/5历史/27字段/11CLI。全4651闭片的新谱max完成后才与旧CE upper取min；四新upper依序save/readback，body三门全过才第5lower，分母a/d用upper，false条件或必要门保whole成功而不伪零/逆。完整旧X/Y/GB/RS只读，原mean/真根/3594接口/old根r向量保；原Gamma根路线不重启。本机仅AST/hash/metadata，唯一新child由首次workflow push触发，实际待。
