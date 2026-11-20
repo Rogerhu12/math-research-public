@@ -257,3 +257,5 @@
 - [R664：正谱残差的准确Hessian、真实梯度及完整空间拉回](results/R664-positive-spectral-residual-Hessian-and-true-gradient-pullback.md) — 同Phi的正差商3×3二阶块完整证明，真实gradient保持；完整native LSMR右端B逆转置而非B乘旧残差。准确残差Hessian不冒完整场Hessian/全局MM，全部原正权行保持。
 
 - [R665：连续C1差、法线锥传递及077087的完整浸入](results/R665-continuous-C1-normal-cone-transfer-and-complete-immersion.md) — 全部922胞准确派生/完整解析lift的一阶差与正法线长度已付；仅123胞正支撑、799未付，完整成功/松界失败范围分明，不冒新候选闭嵌入。
+
+- [R667：同角C1补界与077087完整闭嵌入](results/R667-same-angle-C1-transfer-and-complete-closed-embedding.md) — 保全原模/解析尾，只补799未付及50弱正胞，全sigma≥.14208798；同场准确非平面、四固定p4和整像见证给全t嵌入、强C²及含反射δE>0。完整K/reach和共同g精化仍未付。
