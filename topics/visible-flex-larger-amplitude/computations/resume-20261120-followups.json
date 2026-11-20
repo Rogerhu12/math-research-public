@@ -196,6 +196,96 @@
           "seconds": "seconds"
         }
       }
+    },
+    {
+      "id": "continue-same-parent-full-phi-margin-pair-01",
+      "script": "topics/visible-flex-larger-amplitude/scripts/resume_20261120/launch_full_phi_margin_pair_actions.py",
+      "parent_bundle": "geometry_path/curvature-qp-spectral-hessian-r22-union-next-four.npz",
+      "args": [
+        "--repo",
+        "{repo}",
+        "--work",
+        "{work}",
+        "--bundle",
+        "{work}/geometry_path/curvature-qp-spectral-hessian-r22-union-next-four.npz",
+        "--carrier",
+        "{work}/recover_evidence/gauss6-current-three/same-scalar-gauss-observations.npz",
+        "--manifest",
+        "{work}/geometry_path/curvature-qp-spectral-hessian-r22-union-next-four-witnesses.json",
+        "--damping",
+        "0.0007539530259341321",
+        "--maxiter",
+        "256",
+        "--active-rows",
+        "192",
+        "--qp-rtol",
+        "1e-6",
+        "--qp-atol",
+        "1e-12",
+        "--concurrency",
+        "2",
+        "--outdir",
+        "{work}/full-phi-margin-pair"
+      ],
+      "outputs": [
+        "full-phi-margin-pair/comparison-report.json",
+        "full-phi-margin-pair/margin-0992/report.json",
+        "full-phi-margin-pair/margin-0998/report.json",
+        "full-phi-margin-pair/margin-0992/final.npz",
+        "full-phi-margin-pair/margin-0998/final.npz"
+      ],
+      "summary": {
+        "full-phi-margin-pair/comparison-report.json": {
+          "same_actual_parent": "comparison.same_actual_parent",
+          "same_actual_sources": "comparison.same_actual_sources",
+          "same_initial_statistics": "comparison.same_initial_statistics",
+          "same_initial_working_locations": "comparison.same_initial_ordered_working_locations",
+          "both_reports_complete": "comparison.both_reports_complete",
+          "both_actual_directions_computed": "comparison.both_actual_directions_computed",
+          "actual_common_damping": "explicit_common_damping",
+          "margin_0992_returncode": "children.0.returncode",
+          "margin_0992_complete": "children.0.complete",
+          "margin_0992_accepted_directions": "children.0.accepted_directions",
+          "margin_0992_final_bundle_sha256": "children.0.final_bundle_sha256",
+          "margin_0992_Phi": "children.0.final.phi_normalized",
+          "margin_0992_max_gram": "children.0.final.max_relative_gram",
+          "margin_0992_weighted_sse": "children.0.final.radial_weighted_frobenius_sse",
+          "margin_0992_product": "children.0.final_point_filter.necessary_reach_product",
+          "margin_0992_known_point_pass": "children.0.final_point_filter.passed",
+          "margin_0992_alpha": "children.0.directions.0.accepted_alpha",
+          "margin_0992_releases": "children.0.directions.0.release_events",
+          "margin_0992_iterations": "children.0.directions.0.qp.advances",
+          "margin_0992_projected_gradient": "children.0.directions.0.qp.final_face_projected_gradient_norm",
+          "margin_0992_maximum_linear_violation": "children.0.directions.0.qp.maximum_linear_violation",
+          "margin_0992_selected_rows": "children.0.directions.0.selected_rows",
+          "margin_0992_new_permanent_curvature_locations": "children.0.final_curvature_location_count",
+          "margin_0992_new_permanent_radius_locations": "children.0.final_radius_location_count",
+          "margin_0992_seconds": "children.0.wall_seconds",
+          "margin_0998_returncode": "children.1.returncode",
+          "margin_0998_complete": "children.1.complete",
+          "margin_0998_accepted_directions": "children.1.accepted_directions",
+          "margin_0998_final_bundle_sha256": "children.1.final_bundle_sha256",
+          "margin_0998_Phi": "children.1.final.phi_normalized",
+          "margin_0998_max_gram": "children.1.final.max_relative_gram",
+          "margin_0998_weighted_sse": "children.1.final.radial_weighted_frobenius_sse",
+          "margin_0998_product": "children.1.final_point_filter.necessary_reach_product",
+          "margin_0998_known_point_pass": "children.1.final_point_filter.passed",
+          "margin_0998_alpha": "children.1.directions.0.accepted_alpha",
+          "margin_0998_releases": "children.1.directions.0.release_events",
+          "margin_0998_iterations": "children.1.directions.0.qp.advances",
+          "margin_0998_projected_gradient": "children.1.directions.0.qp.final_face_projected_gradient_norm",
+          "margin_0998_maximum_linear_violation": "children.1.directions.0.qp.maximum_linear_violation",
+          "margin_0998_selected_rows": "children.1.directions.0.selected_rows",
+          "margin_0998_new_permanent_curvature_locations": "children.1.final_curvature_location_count",
+          "margin_0998_new_permanent_radius_locations": "children.1.final_radius_location_count",
+          "margin_0998_seconds": "children.1.wall_seconds"
+        }
+      },
+      "cleanup_generated_patterns": [
+        "full-phi-margin-pair/margin-0992/inequality-rows-*",
+        "full-phi-margin-pair/margin-0998/inequality-rows-*"
+      ],
+      "scope": "Actual c4a3 continuation and its returned damping; two complete original-coordinate Phi QPs with identical v2/source/working eligibility cutoff and every permanent point, only .992/.998 safety bands differ; no reach certificate"
     }
   ]
 }
