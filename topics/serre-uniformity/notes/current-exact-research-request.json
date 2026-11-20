@@ -3,19 +3,19 @@
     "root": "581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102",
     "topic": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
   },
-  "rules_last_read_commit": "0678b13f231e0cd3f023052cf3cd654b6e8d50a1",
-  "execution_attempt": "R967 new original kappa and independent weak eta coefficient only; consumes completed R963 traces without recomputing them.",
+  "rules_last_read_commit": "76c2294a5c276ffda82a0aba347565eec1912e36",
+  "execution_attempt": "R969 new full-level filtered Hasse-quotient span only; completed R967 request is not repeated.",
   "computations": [
     {
-      "name": "original-kappa-scale-two-prime-consumer",
-      "script": "r2_original_kappa_scale_two_prime_consumer.py",
-      "script_sha256": "950616f303be3241dafaf3f7ef308c65eda26a08c1f0506e862db6d2e490d2e8",
+      "name": "original-full-level-filtered-Hasse-span-three-prime-consumer",
+      "script": "full_level_critical_hasse_span_three_prime_consumer.py",
+      "script_sha256": "5bb625faec68b4276677213e948456df188af75c94f1fab9121946088790445a",
       "arguments": [
         "--budget-seconds",
-        "620"
+        "240"
       ]
     }
   ],
-  "runtime": "python-flint==0.9.0, binary wheel; public repository Actions only",
-  "storage": "Stdout only; no artifacts or arrays. Fixed primes 1019 and 1031. Verify original kappa=-g_p*T and g_p=48*B_*; any budget stop reports only the completed prefix."
+  "runtime": "Python standard library; public repository Actions only",
+  "storage": "Stdout only; no artifacts or arrays. Fixed 113,131,227, full primitive and Legendre mask. Consume R945 products 0/16 at 227 only as new-source cross checks; no sigma or trace rescan. Report exact combination or normalized separating functional, preserving incomplete scope on failure."
 }

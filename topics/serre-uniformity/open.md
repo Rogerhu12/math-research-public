@@ -33,6 +33,8 @@ R925（r2/8）与R940（r32）已保完整Norm先消、原calibrated log、全�
 
 [R968](results/R968-full-level-mixed-CM-jet-and-critical-factor.md)已给同一源的真正全层版：J_alg=e^(−E2xy/2)J_o/(6η4)的完整heat递推与零参数zeta二阶算子使Z_i属于M_(p−5)(SL2,Z_(p))。原mark/E6^N=−72(-864)^−N fi gj，完整mask后全失败恰系数共同含E4³；等价粗U=Δ/E6²多项式含1+1728U，次数≤floor(N/2)。这是原同h目标的新小空间，不宣称与R959图层多项式离mark相等。可能的真正单位目标A/E4也同权且mark单位，但它落入完整mask后的实际Z_i span尚未证明；方向数/三阶heat/不筛选的生成性不能代替。
 
+R969新执行契约已冻结：仅113/131/227，对完整mask实际Z_i与A/E4做全Sturm坐标的准确包含测试，保两额外q行；source来自一次完整primary CM和真实mixed heat，不重算sigma或trace。227只消费R945已有0/16两标量核新mark尺度。若不包含，分离泛函只否定该强span目标，不推出原乘积全零；真实回执待公开Actions。
+
 ## O2：完整原超奇异迹及真正的whole CM packet
 
 R932用原同一Serre类与相对Frobenius识别V4/V10，保两Igusa、C4、完整Norm及未知但非零原mI(cF)/d1，实际λ在另一companion取值为原完整SS和。指定j0项恰零，不能靠单点评价代替全和。

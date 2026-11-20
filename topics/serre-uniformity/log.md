@@ -737,3 +737,7 @@
 ### 2026-11-20 20:25 Asia/Taipei — serre-public-astra-20261120-de0a3e3b
 - R968全S/T mixed source、准确heat/zeta系数、首p整性与−72(-864)^−N标度已完整核准，保全mask后共同E4³判据登记；生成性/单位目标包含未证。
 - results旧索引逐字归档保<100KB，旧结论/source/完成回执完整沿链；继续actual filtered span与高CM同余，不重做已成窗口。
+
+### 2026-11-20 20:34 Asia/Taipei — serre-public-astra-20261120-de0a3e3b
+- R969冻结并逐式审完三个固定素数的actual filtered Z_i span消费者，完整Sturm/额外两行/原mask及准确组合或分离见证均保留；本地仅AST/IO/hash。
+- 新request消费旧227的0/16核原尺度，不重算sigma/trace；此前R967已完成，当前只请求新问题，真实输出待公开Actions。
