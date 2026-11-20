@@ -121,3 +121,7 @@ R55补充：[较宽设计盒与条件完整D≤2.69](notes/2026-11-20-soft-start
 ## R60. 实际 M24 显式 C² 桥的连续几何与完整相对度量
 
 [完整证明](results/R60-actual-m24-c2-bridge-and-continuous-metric.md)。指定新g/λ.002/M24 linear场以共同Hermite、解析背景真primitive、固定mean1168定义真实C²桥；同前缀已付z0∈[.44631325,.47839692]。完整Laurent相消/径向区间Taylor的1830盒给oracle metric≤8.986281e−7，合显式转换后真实桥全角全径向metric<9.3e−7；同时半径<1.245/support>.3986798571/K<8.367444。仅桥组件，不是全前缀、真尾、λ1或固定参数闭族。
+
+## R61. 实际 M24 真核心的精确 C² 圆柱入口
+
+[完整结论](results/R61-actual-m24-exact-c2-cylinder-inlet.md)。同g／固定材料θ的显式L=1/1000修补精确接真核心圆柱，并在外端严格消零两jet；5片×4672闭角盒给局部metric≤8.19863e−7、K≤2.18421、半径<1.14/support>.504。只支付当前λ.002前缀中央接缝，不是完整闭族或固定参数精化。

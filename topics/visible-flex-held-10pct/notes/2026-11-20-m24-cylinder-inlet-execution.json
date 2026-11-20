@@ -1,0 +1,30 @@
+{
+  "status": "executed_and_continuously_certified",
+  "source_run_sha256": "c44b6fd2fbb13cc9ce0451cc6ab1d3c06521de0622de27190bde94c4c550462a",
+  "physical_sha256": "f2e22fe19bb0b6fdeff79c4fa99363d9be6cbb1ef382fd882679a2b717a3030d",
+  "inlet_source_sha256": "8c52fa241fa8c42f3fb2d8656843f4038485cf723bcbf082d6e44017c8542720",
+  "inlet_output_sha256": "91f819b0d0da78ad974a0a2815aece0e4f26b9b9af5119c84055e89a7b938cd6",
+  "patch_source_sha256": "2ea54f16fb7c2619a8b08fbb8193b794adec86dd637930b088582d4b06e8caa9",
+  "patch_output_sha256": "fa601e8534a7480b369cd5c07f3f04ddeb259f785b6e30159f55e49c38103acf",
+  "local_sessions": {
+    "inlet": 53097,
+    "patch": 65611
+  },
+  "exit_codes": [
+    0,
+    0
+  ],
+  "length_exact": "1/1000",
+  "accepted_local_cells": 5,
+  "angular_boxes": 4672,
+  "mean_nodes": 1168,
+  "same_material_metric": true,
+  "new_C2_map_explicit": true,
+  "exact_inlet_and_outer_two_jets": true,
+  "metric_upper": 8.198628090604838e-07,
+  "principal_curvature_upper": 2.184207126065487,
+  "radius_upper": 1.1393302427229688,
+  "support_lower": 0.504183075876027,
+  "whole_closed_surface": false,
+  "refinement_convergence_proved": false
+}
