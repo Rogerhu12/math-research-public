@@ -183,3 +183,5 @@
 2026-11-20 16:03 UTC / Astra-larger-resume-24b2ab87-20261120：非零R671完整父同模型续算入口刊：完整parent AST/实际final SHA/原scalar与观测/全部canonical source先绑定，真实末mu及永久点共享恢复；lambda/物理eta不可改，强制同lambda keep-q，仅初始化场不变，后续QP可产生新场。入口未科学运行；另将既刊纯JSON瓶颈消费者排在实际R671首方向后，不添加QP预算。H压缩历史摘要保c1fc35b1完整旧版，为真实Actions状态留容量。
 
 2026-11-20 16:07 UTC / Astra-larger-resume-24b2ab87-20261120：run44758209061阶段30 R671真实exit0/681.489s刊：actual c4a3/末mu .0007539530259341321，lambda1/eta885新场初筛通过，256完整QP真接受半步；97fdc9ea Phi9.5261192037e−8/max.0125942600062/product.99195078548，modelb6adb4df。完整输出/源/参数/SHA及1947764KiB保，iteration_limit/Pg非驻点；旧失败run不补值。无连续metric/K/reach/精化继承，同job各后继继续。
+
+2026-11-20 16:13 UTC / Astra-larger-resume-24b2ab87-20261120：全域metric调度完整源/说明刊并排实际97fd：不重写fd4/f122/R657，按同场逐胞已返界取min upper/max严格点lower；全域缺胞upper=null、failed/unreturned独立，准确1/1000000比较。auto Q2048起/五层，panels128，1200s只停止新调用并保完整raw检查点供续作。真实超标不浪费证书加密，解/refinement/geometry/completion均不凭调度宣称。当前仅静态审读/AST，数值未返。
