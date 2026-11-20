@@ -30,11 +30,11 @@ def main():
     parser.add_argument("--prime", type=int, choices=(29, 41), default=29)
     args = parser.parse_args()
     set_random_seed(20261116)
-    poly, tate_certificate = geometry.direct_tate_atkin_polynomial(args.prime)
-    Ks = poly.base_ring()
+    k, Ks, poly, tate_certificate = geometry.direct_tate_atkin_polynomial(args.prime)
+    assert poly.base_ring() is Ks
     D = Ks.extension(poly, "L_atkin")
     fields = {
-        "constants": Ks.constant_base_field(),
+        "constants": k,
         "quotient": D, "quotient_base": Ks,
         "quotient_polynomial": poly,
         "L_atkin": D.gen(), "s_atkin": D(Ks.gen()),

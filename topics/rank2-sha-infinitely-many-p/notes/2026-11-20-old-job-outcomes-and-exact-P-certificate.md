@@ -82,3 +82,5 @@ Au、Av、branch、D0和canonical degree的检查。这是可精确验证的依�
 U、eta48坐标、完整RR基、两原映射和shadow仍分别需要原有认证。
 新本题workflow为 `.github/workflows/rank2-sha-original-quotient-geometry.yml`，
 使用同一固定Sage镜像、prime29、原q4500/trace170方程；不保存重算输出。
+
+首quotient-only run44712364182/job136206970253已完成同一Tate方程认证，随后因调用者把原4返回值误读为2而退出。已按原函数return k,Ks,polynomial,result修复，数学输入/条件无变。完整原日志hash0eb8ba7926a54d6f84be6e610a379c040a1a8bcae616e6eea342d22e3a6d3ce4；此失败不提供正规化结果。
