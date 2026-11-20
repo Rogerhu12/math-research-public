@@ -233,3 +233,5 @@
 2026-11-20 17:52 UTC / Astra-larger-resume-24b2ab87-20261120：R680独立SOC源805/9b完整刊：冻结原/R671→全位置→12接点，保父A/C至方向结束；仅首满步真Phi/domain过且几何拒时修正一次。修正自己的A*z/真Phi/全永久几何及新点全读，实际corrected模型控ratio/mu；失败原射线继续。未来SOC父完整body AST重建+明确准备态planner，不编辑report/绕旧guard。主QP与原ray诊断保原样，新schema消费者须分开读。tau显式未选/严格阈值未付，只有源码/AST，无数值SOC或预排。
 
 2026-11-20 17:57 UTC / Astra-larger-resume-24b2ab87-20261120：run44758209061阶段34/35自然返：同g J923→1845，M160/N2048保，全部7377父行在20285细行内；fine256仅alpha1/256，daffb002，finite max.01173084/product.9919991579。共同父Phi7.95010419e−8→7.94767479e−8，比.99969441946；细规则Phi不跨权相减。六jet转移Fss包围.001959非实际误差等号，二阶证书不继承；new-only max未付，一层不证收敛。追加同源纯JSON九trial归因，不重跑场/solve，不据小改善猜频率地板。
+
+2026-11-20 17:57 UTC / Astra-larger-resume-24b2ab87-20261120：R681完整driver最小增强f96刊：真实当前bridge/DI/H/B/R/全正权角矩，actual mutable mu、固定beta1/mu²，不重复gamma；额外field/J/JT=0，构造算术成本如实分记。构造数值不可用明确None→冻结v3，身份布局错误不吞；v4应用失败不链内替换。清理Gc及frame/factor保SOC父A，四种完整源AST接点匹配。只源文本/AST，未来父必须重建冻结→manifest→SOC→f96全body，不以锚点冒身份；尚无实际PCG。
