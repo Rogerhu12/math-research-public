@@ -2,7 +2,7 @@
 
 主目标：固定一条 E/Q，完整证明 rank≥2 且无穷不同 p 的通常全 Sha(E/Q)[p∞] 有限。**未完成，持续研究；不在阶段结果、时限或建议处停下。**
 
-[本次整理前完整 open](notes/2026-11-20-open-before-integral-image-reader.md)逐字保存全部旧问题、公式、条件、预算、来源和更早归档入口；[同期完整 HANDOFF](notes/2026-11-16-frontier-before-padic-reconstruction.md)保已运行 source/run/job 与各原理论检查点。下列未重写的旧门仍有效，编号缺席不表示完成。
+[本次整理前完整 open](notes/2026-11-20-open-before-positive-horizontal-dual.md)逐字保存全部旧问题、公式、条件、预算、来源和更早归档入口；[同期完整 HANDOFF](notes/2026-11-16-frontier-before-padic-reconstruction.md)保已运行 source/run/job 与各原理论检查点。下列未重写的旧门仍有效，编号缺席不表示完成。
 
 ## O1. 固定曲线的秩：已完成
 
@@ -211,9 +211,7 @@ R923：原V66在共同E17模型的完整因式给固定分母D66=154224，保−
 
 ## R928：固定原P的实际仿射类
 
-[R928](results/R928-original-fixed-P-affine-long-jets-and-global-compatibility.md)给四实际右端（保真除p商/H·B），从负fringe全η²逆Taylor直接定义固定P的全局coker类；同H1的完整实际像使选定行充要，受限S仍须同整R的剩余全p³像门。下一门是同P真实左行对该类的准确值，不能从差落K′或维数界假定非零。
-
-- [R927§9](results/R927-original-yF-pole-degree-from-mixed-kernel-and-cusps.md)：完整900核/DS204/∞289已实际PASS e=0,z=96,dF=1296；原身份/回代/微分2⁶全保，后续F_first与每E39840须核完整理想，未付shadow。
+R928/R934保真除p商与B给固定P全局coker类；同H1只付选定行，受限S全p³门独立。R936已给正水平实际左行及其完整B偏移，仍须定位实际陪集。
 
 ## R929：原系数后两位与完整 Gaussian 前缀
 
@@ -246,3 +244,7 @@ R925§23以原P152/F144完整低核全局生成两图厚理想，长度2256/1080
 [R935](results/R935-original-negative-fringe-all-correctors-budget-exclusion.md)：全原R/S的首法向与严格f0给d_D≥s+2；§7第二法向在d0+2≤τ<min(h,ell)读28首项并分C重数0/1/2。但当前2κ<T≤3κ的共同预算已被原P的d_D≥4κ+3r_src蕴含，不是新排除；真实H1/全余核及受限S继续。
 
 [R931§11](results/R931-original-complete-shadow-artinian-norm-and-base-prime-layers.md)：全单位HNF认证R·1+I=A才有同原厚商R/(detI)与原k范数Res(d,c)；全306/omega/厚长度保。可选helper已存，miss回原全部π层，未接运行。
+
+## R936：同P正水平真左行的实际评价
+
+[R936](results/R936-original-positive-horizontal-dual-and-fixed-quartic-value.md)：原正水平全H⁰(N³(−Z+))在K+e+>3κ时给确定λ+及完整Z商的唯一ν，真杀原T_J。2≤τ≤d0+1的同P评价为−11U*(0)/a−λ+((EB−3bB)|C)；已指定B∈H3才得单位非零、排该原陪集全p³。可进入旧T cutoff后≤12位条带，不排其它WD陪集。
