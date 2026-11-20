@@ -316,3 +316,5 @@
 - **原自适应硬复制的五次精确成本门（2026-11-20，已证明）：** [完整递推、最优成本和圆柱计数](results/R12-appendix-adaptive-hard-cut-copying-fifth-order-cost-barrier.md)对任意实际深度序列J_i，正范数输出给统一正测存活集；合并全部嵌套后仍至少δn个最大圆柱，Jensen给Σlogc≥c₀n⁵。最优c_A(R_J)=√(α0⁻²+α_{J−1}⁻²)，原幂对数至多(940/7)n⁴，故准确移幂预算不趋零。仅关闭硬copy家族，不宣输出范数发散或一般Deddens失败。
 
 - **原复软复制返回固定非零球的五次成本障碍（2026-11-20，已证明）：** [完整复权最优费用及固定球证明](results/R12-appendix-soft-copying-fixed-ball-fifth-order-cost-barrier.md)允许软截断、任意相位、自适应及统一有界放大；正测大乘积集与最大dyadic圆柱给c₀n⁵下界，有界放大仅减O(n²)。收缩软权仅需实际正范数下界；标准Deddens预算无法压过原四次幂衰减。不排一般有限头或非复制重排。
+
+- **R150 单长度五局部支撑的rankH4为空（2026-11-20，已证明）：** [原最高梯度0/3/6阶的完整局部证明](results/R150-appendix-essential-four-local-five-jet-rank-four-branch-is-empty.md)以同一外均值元素L作参数t，仅用ν(t³)=1、ν(t⁴)≠0，依次迫K02、K03及K22为零；六阶全部其它分拆均在t⁵中消失。产生不可能的等向三jet，有限/无限点皆覆盖。该除子类型只余rankH5，其他rankH4/5继续。

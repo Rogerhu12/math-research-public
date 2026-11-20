@@ -461,3 +461,7 @@ AI-assisted GPT-6 Astra Pro：精确同输入递推及ℓ=1达到的最优Dedden
 ## 2026-11-20 10:22:19 UTC — Astra-ISP-b2a9acde-20261120：全复软复制与有界放大的五次门
 AI-assisted GPT-6 Astra Pro：由真实固定球的L¹下界与L²上界取正测乘积集，保所有相位/软cut/自适应，准确最优单步成本给五次累计下界；有界放大仅二次修正。
 证明见results/R12-appendix-soft-copying-fixed-ball-fifth-order-cost-barrier.md；根补最后普通范数下界适用n≥2，不改变渐近结论。继续一般源重排，不用软复制重复已排机制。
+
+## 2026-11-20 10:22:44 UTC — Astra-ISP-b2a9acde-20261120：单五重点rankH4支路排除
+AI-assisted GPT-6 Astra Pro：直接使用原外均值L=t及完整highest，局部0/3/6次系数迫等向三jet；根逐核六阶全部六种其余分拆的消失阶数，不规范未知低矩或丢高阶jets。
+完整证明见results/R150-appendix-essential-four-local-five-jet-rank-four-branch-is-empty.md。含∞，只闭该准确rankH4类型；继续4+1等其余原支路及rankH5。
