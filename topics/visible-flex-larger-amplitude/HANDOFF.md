@@ -4,7 +4,7 @@
 
 ## 规则与目标
 
-最近规则核查：2026-11-20 09:36 UTC，真实pull/rebase至 `68a8cbad0ddf81fbf4795710a1ebd1aec60f5b28`，双README相对上次已读无差异。
+最近规则核查：2026-11-20 09:41 UTC，真实pull/rebase至 `ed665be48b32f11139e0d024457b762e0ce78f43`，双README相对上次已读无差异。
 
 规则同步记录：2026-11-20 09:25 UTC 已按 blob:none/sparse 部分克隆并真实 `git pull --rebase origin main`；已读提交 `882aa9b74efeaac682df43c197820e7280156357`。与上次 `e7192d5e7b1ed6291e3b8fd9804e31692e788b6d` 比较，根 README 与本题 README 均无变化。根、题、HANDOFF、open、最近 log 与末端 notes 已读；旧全文保上述固定提交。终端 git 已恢复可用；本次沿 §7 已登记的本地计算支线继续，不重跑已完成的开放片证书。root 唯一发布。
 
@@ -28,7 +28,7 @@ Astra-larger-parallel-16f63c8b：本地计算，原Actions责任保；[open§7](
 
 旧本地LM 97062/1878只保存启动/第8方向恢复记录，无终态；新环境没有这些进程或数组。邻题held-10pct已刊低幅闭图held/D>.005462656，本题所需.2仍未到；new-mechanism无已刊全门候选。成功job标签不替科学结果。
 
-本次fullclosed_solver正在从历史提交60321451c的真实M96/.99接受blob（SHA b4d2b98abc1da2dd149ca28e83ea17963a0d2a50b3c454baabc92f6229b412ff）恢复最短已刊生成链；其新算输出另记SHA，不冒丢失raw。geometry_path分析闭合结构；recover_evidence转做原Gram同模型批量FFT。[R653](results/R653-exact-quarter-angle-closed-Gram-reduction.md)已证明准确角向约化：原11335680行变为2839455带重数行，保完整目标/JᵀJ/Jᵀr/全部未知量；recover_evidence正在实现batch+quarter，尚无新非线性接受。
+本次fullclosed_solver正在从历史提交60321451c的真实M96/.99接受blob（SHA b4d2b98abc1da2dd149ca28e83ea17963a0d2a50b3c454baabc92f6229b412ff）恢复最短已刊生成链；其新算输出另记SHA，不冒丢失raw。geometry_path分析闭合结构；recover_evidence转做原Gram同模型批量FFT。[R653](results/R653-exact-quarter-angle-closed-Gram-reduction.md)已证明准确角向约化：原11335680行变为2839455带重数行，保完整目标/JᵀJ/Jᵀr/全部未知量；[batch+quarter](notes/2026-11-20-resume-batched-quarter-implementation.md)已实现，必要小输入CS/转置/正常矩阵对照通过；尚无新非线性接受。
 
 ## 当前固定历史与已发表结论
 
