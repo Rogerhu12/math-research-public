@@ -251,3 +251,5 @@
 - [R661：全部活动径向片的无平面开片证明与四个固定标记组件](results/R661-complete-nonplanar-activity-and-four-fixed-markers.md) — 同6077全部922胞准确两轴非零迹和高度非零jet，免预设纬圈单射；四互异p4图盘仿射独立、K≤5/支持≥64/267，配已有整像幅度后在全族嵌入另付的条件下推出含反射δE>0。
 
 - [R662：完整闭合场的连续C0差及直径/整像幅度传递](results/R662-complete-closed-C0-difference-and-inherited-size-amplitude.md) — 同S/R准确节点的全部922胞、全角、两帽无角网格差界完整证明；0241对6077 ε≤.028621856，严格held/D>.21962，条件.001固定帽图>.21951。完整q高度抵消/派生T/analytic phase保，C0不冒曲率/reach。
+
+- [R663：同一0241闭合场的完整嵌入及固定标记后的非全等](results/R663-complete-closed-embedding-and-fixed-marker-noncongruence.md) — 全922胞/全角/两帽/镜像一阶连续覆盖零未付，support≥.37782381；完整闭相位族加四固定p4图仍嵌入，逐胞准确非平面配R238支付含反射δE>0。更紧D给held/D>.22231、握持>.21878；reach/metric/精化仍未付。
