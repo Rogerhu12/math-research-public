@@ -273,3 +273,5 @@
 已证明。完整 Laurent/Taylor 与全部高模尾付清后，对同一闭角弧、准确 radial Bernstein 胞同时包围 $X,V,T$，直接取 $N=T\times V$、带符号 $(A_\beta X)\cdot N/|N|$、正面积及速度下界。无需旧父逐胞证书或历史 SHA；完整覆盖即按正定流给新父自身的闭嵌入。相同 $X$ 盒同时付 $D$ 与正确保留 $\pm p$ 的完整 held 界，另接两盘、镜像和条件四 marker。Actions-only 源默认低24模、Taylor8、256/1→512/2→1024/4→2048/8，只精化支持预算未付胞；发表时没有新候选应用数值，不冒 full K、reach 或 metric 证书。
 
 [完整证明](results/R670-direct-same-angle-first-geometry-with-complete-tails.md)。
+
+- [R671：准确旋转参考尾的解析lift扩充，保留全部原自由坐标](results/R671-exact-reference-tail-affine-lift.md) — 同g、core/帽三jet、原自由量保持；λ0旧空间，λ1含准确末段并消除R669特定五次障碍。完整六jet/Jv/transpose及准确quintic高度补偿已证，不替完整非圆连接或数值证书。

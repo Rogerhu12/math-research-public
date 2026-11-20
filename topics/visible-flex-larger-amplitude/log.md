@@ -125,3 +125,5 @@
 2026-11-20 14:02 UTC / Astra-larger-resume-24b2ab87-20261120：R670完整直接X/V/T同角区间、全部有限高模和Laurent/Taylor尾、signed支持及SPD流覆盖证明刊。真实±p两见证补齐quarter反射，完整盘/镜像D/held与固定marker条件明确；新父非平面需实际独立读。只细化未付/低于.14预算胞，尚无新应用/全K/reach/metric证书。
 
 2026-11-20 14:03 UTC / Astra-larger-resume-24b2ab87-20261120：已返35f满步只被内部.992余量截断的实际范围及.992/.998全连续差预算刊；.998探索不当reach许可。独立同父同µv2双分支源完整，activeband .025/.031保持工作候选cutoff .967，其余完整源/192行/256/全观察与永久位置相同。仅AST/argv准备，尚未科学执行；实际父/µ由本轮公开返回明确选定。
+
+2026-11-20 14:05 UTC / Astra-larger-resume-24b2ab87-20261120：R671完整新affine lift与三jet端口/全自由量/λ0旧空间/λ1准确同g末段证明刊；Darboux t8缺项由b6交叉项准确补齐。η在S-width前恒1使H补偿仍原quintic，完整六jet/core/H Jv及transpose已推；尚无新求解或完整非圆连接证明，旧证书不继承。open更新现已付几何与真正剩余目标，H保持实际状态。

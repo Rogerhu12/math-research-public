@@ -117,7 +117,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 [真实完整算子准备](notes/2026-11-17-parallel-geometry-fullclosed-gram-actual-probe.md)e7aa/803f/f091，全部11335680行与1332245自由度，一次CS-Jv相对7.635e−15、伴随4.126e−14；输入仿射无改。该旧warm node/mid Gram147.4063/147.2810，点det .20964，明确未达；原304MB数组只scratch供FFT对照，无重算dense。[完整双积分坐标](notes/2026-11-17-parallel-root-fullclosed-double-integrated-coordinates.md)保A/E/D，964端口2×2/4×4 SPD及两suffix转置已证；数值准备另刊，不虚构闭解。
 
-**完整未付。** 真正闭合解、同g全连续Gram与求解精化、闭尾/Cartesian帽/准确六jet、固定有内点H/完整D、整像held、含反射E3、全t reach/强C²均未达。R633/635仅排指定设计；R240/632/625/627/629接口不替真实闭源，子题/预算/时长不是停点。精化固定g/参数/t至机器或原容差后继续增比例。
+**当前未付总目标。** R663/R667已对各自0241/077付闭嵌入、held/固定marker与含反射E；仍无同一候选合并全域metric≤1e−6、固定g精化和全t reach≥.03D。旧条件接口不替真实闭源；子题/预算/时长不是停点，完成后继续增比例。
 
 [逐字副本恢复](notes/2026-11-17-parallel-duplicate-plan-retention.md)及[旧索引恢复](notes/2026-11-17-parallel-historical-index-retention.md)保全部旧路径/SHA/blob/参数/失败；原11份188321B之后本次22份116935B再归同字节主本，恢复各e22877bb/b6699f14；原生产basename/cwd、source-freeze及六负结果不改，两不同版本保。仅manifest当前路径/历史映射改，所有SHA逐字核。
 
@@ -127,4 +127,4 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 [双积分实际准备](notes/2026-11-17-parallel-root-fullclosed-integrated-coordinate-preparation.md)d429/f653/e6e968：1333209坐标/964端口、168个2×2+157个4×4块，完整G作用差1.67e−16、lift转置4.82e−14、端口3.16e−15。仅异质测试尺度/0几何调用，原warm未改；浮点repair反增末误差1.42e−14如实保，不冒准确闭解。
 
-2026-11-20接续及当前真实父见[最新交接](HANDOFF.md)；全域、全t与固定g精化责任仍未付。
+当前实际父/run及紧接工作见[HANDOFF](HANDOFF.md)。R669付固定帽线性唯一性/quintic末端障碍而无误差地板；R670付新父完整首jet几何算法；R671准确尾lift保同g/原自由量，完整连接待解。公开Actions先完成实际续算，再读取末端/同g尾试步/连续几何，按真实父做同µ全空间余量比较；全域metric、全t reach与固定g精化继续。
