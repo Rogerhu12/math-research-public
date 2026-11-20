@@ -106,3 +106,53 @@ git show 60592e4f58d80a20e6a575b7d900ec807a9e7374:topics/visible-flex-larger-amp
 旧`tail_r33_low_to_high_column.py --joint`等消费者显式指向该scratch文件。旧R33/结果说明里的链接和manifest路径是原历史记录，不声称移出后仍能直接打开当前raw路径。
 原完整算术报告五个gate均true、failure=null，实际记录3.108668秒；原最终poll退出码未保留，
 本次仍不补造exit0，不重跑已结束旧结论、不创建Actions、不改变已证明/失败范围。当前fullclosed链不使用此文件。
+
+## 13:51 UTC：第四次容量操作，R33 plateau2 高联合盒
+
+为公开 Actions 续算完整源码与后继证明腾出空间，普通移出
+`notes/2026-11-12-tail-r33-plateau2-high-joint-coupling-metric.json`，657791 B，
+SHA256 `d7e57f6a7df2b928dd6de9aa8ad0289538134e104f57f6960f9b423c72927bbc`。
+这是213胞可重算高块数组报告，不是源码、原始问题输入或证明。原 R33 §14.3、生成器与全部条件范围保留。
+本次只核对字节、源码与来源，没有重跑科学计算。
+
+完整实际执行源为 `computations/tail_r33_high_joint_box.py`
+（SHA256 `0883e4fd68fa2941588236ab6b8e921fb0b0b1b8193aa7fce6f5aeec208386be`）
+及 `computations/tail_r33_refined_high_joint_box.py`
+（SHA256 `a60eb9ed85b9490cfb54ee1e945457f56972635e945c94d1b1de04048192af34`），
+两件仍在当前树且逐字匹配原执行源。arb192，`z_log2=-2231` 从同一 middle 继承，
+`--infinite-radius-log2 -110 --domain-weight-floor`。完整三个输入为：
+
+| 输入（均在原notes） | SHA256 | 固定历史Git blob |
+|---|---|---|
+| `2026-11-12-tail-r33-plateau2-density-window.json.gz` | `0b493a5278ce08d12ed1d83add9dd3214125d971e746c750dfa42efa0729ace9` | `e0f0dbee70503b828f2722cf56bc2f2884731d4b` |
+| `2026-11-12-tail-r33-plateau2-middle-causal-box-v2.json.gz` | `07c428b0c1a1977985200172dbee0bf14ae57e5fd4ea97ddebdf9b671479b3e6` | `e9e1063af8f0d02a138915509313f490453260da` |
+| `2026-11-12-tail-r33-plateau2-middle-wide-low-density.json.gz` | `4c79356c3791dd491fbf5c4222a0051ab0046923718f1f26ba1be09eef1fd089` | `9ee6a92c89d2cf637fdcad5bc9ef6815bf1ac7d8` |
+
+三个输入均已逐字核实可从固定公开历史 `8ef38046e8b04adc6da1093c0730e1fc8747c2c9` 恢复；
+本次报告可从 `0e2acb2e1500fdb8f645551af802db43189453f9` 恢复，blob
+`d2b2b2dde5c59f3440ca7b4ecee788074d15b994`。精确旧输出恢复及完整复算命令如下；
+复算应在公开 Actions 的 scratch 中执行，示例 `r33scratch` 指向该临时目录。
+
+~~~sh
+mkdir -p "$r33scratch"
+for name in 2026-11-12-tail-r33-plateau2-density-window.json.gz 2026-11-12-tail-r33-plateau2-middle-causal-box-v2.json.gz 2026-11-12-tail-r33-plateau2-middle-wide-low-density.json.gz; do
+  git show 8ef38046e8b04adc6da1093c0730e1fc8747c2c9:topics/visible-flex-larger-amplitude/notes/$name > "$r33scratch/$name"
+done
+git show 0e2acb2e1500fdb8f645551af802db43189453f9:topics/visible-flex-larger-amplitude/notes/2026-11-12-tail-r33-plateau2-high-joint-coupling-metric.json > "$r33scratch/original-joint.json"
+python topics/visible-flex-larger-amplitude/computations/tail_r33_refined_high_joint_box.py \
+ --density "$r33scratch/2026-11-12-tail-r33-plateau2-density-window.json.gz" \
+ --middle "$r33scratch/2026-11-12-tail-r33-plateau2-middle-causal-box-v2.json.gz" \
+ --wide-hybrid "$r33scratch/2026-11-12-tail-r33-plateau2-middle-wide-low-density.json.gz" \
+ --infinite-radius-log2 -110 --domain-weight-floor \
+ --out "$r33scratch/new-joint.json"
+~~~
+
+恢复后核上述输入SHA。重新计算的路径、计时等字段可能不同，逐字旧输出应使用固定历史恢复。
+原 R33 §14.3 记录本组工具全部正式 exit0；本报告真实耗时 `1.6880759199993918s`、峰值RSS `117812 KiB`，
+五个gate均true、failure=null。`low46_held_fixed=true`，`low_feedback_paid=false`，`whole_head_closed=false`：
+该结果一直只付条件高块响应，不是全闭合解。
+
+11:41段中“第三件仍在当前notes”是当时状态；自本次普通移出后，旧
+`tail_r33_quadratic_high_box.py --joint-reference` 与 `tail_r33_low_to_high_column.py --joint` 等消费者
+须显式传入上述恢复到scratch的原报告路径。没有把历史引用伪称成当前可直接打开的raw，
+没有改写原结论、历史或输入身份。当前 fullclosed 链不依赖此旧文件。
