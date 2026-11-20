@@ -1,12 +1,12 @@
 # 交接：可见振幅的精确闭等距族
 
-维护会话：`visible-exact-astra-ac637-20261120`；更新：2026-11-20 12:01:16 UTC。
+维护会话：`visible-exact-astra-ac637-20261120`；更新：2026-11-20 12:09:06 UTC。
 **总任务未完成；继续研究，不等用户回复。**
 
 ## 规则读点与接续来源
 
 部分克隆：`/workspace/scratch/ac637cfcc78d/math-research-public`。终端 git 已恢复，无 AGENTS。
-2026-11-20 12:01:16 UTC 实际pull/rebase至 `e060ee931f43dcf303d391eeaa1f9f697c5c50a2`；已读规则提交同上，两README相对96edc6770空diff。每次pull后核规则差异；下次实际pull最迟13:01:16 UTC。
+2026-11-20 12:09:06 UTC 实际pull/rebase至 `d5439ce3f687c458611abf06e575d9adc757958d`；已读规则提交同上，两README相对96edc6770空diff。每次pull后核规则差异；下次实际pull最迟13:09:06 UTC。
 
 接手前完整 H（含全部递归原页、成功/失败/恢复身份和未付义务）见 [2026-11-16 完整检查点](https://github.com/Rogerhu12/math-research-public/blob/882aa9b74efeaac682df43c197820e7280156357/topics/visible-flex-exact-nearby/HANDOFF.md)。本页只压缩索引；`open.md` 及所链接的原证明、适用域、均值、物理角、所有边界和误差费用继续有效。旧成功结论不重算。
 
@@ -57,7 +57,7 @@ WIC原m160/N24480真tail逆κ=3已证；WPN只有完整e+3dt<1才授双边逆、
 
 1. 原L44724797559/1冻结3/50，centre44727185157/1独立1条给K>80，余47不再为已排配方算；atom/endpoint成功及所有旧0scalar失败均冻结。
 2. positive_inverse：R141有向44730452579/1运行，71输入/768bits，先完整defect，ε<1后才4源/193atoms/wholebox。接着闭完整high反馈；CFB/finiteρ/7ports未删。
-3. global_route：R138已付support/outer/输运/root主符号；[根轴44730968113/1](results/R138-supplement-actual-same-anchor-root-axis-support.md)已核冻结：全4650行，完整nominal/error给−.356<q<−.006、.970<s<1.320；宽展示球不可单凭flag消费。继续实际全角分母/finite+tail与体吸收。
+3. global_route：R138已付support/outer/输运/root主符号；[根轴44730968113/1](results/R138-supplement-actual-same-anchor-root-axis-support.md)已核冻结：全4650行，完整nominal/error给−.356<q<−.006、.970<s<1.320；宽展示球不可单凭flag消费。[全圈mean首次合同](notes/2026-11-20-R138-root-mean-angular-contract.md)11当前/6原件、8192闭角格/SHA2b71e82c，首次push启动；轴不重算。继续finite+tail与体吸收。
 4. joint_kernel已给R137 finite桥，复核能量与直接signed投影缺陷；root逐结论审、记、推。公共worker每轮实际push成功才返回，非FF即时rebase。
 
 ## 正侧以外仍未付的接口

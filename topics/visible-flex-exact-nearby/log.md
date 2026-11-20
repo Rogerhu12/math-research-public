@@ -83,3 +83,7 @@ R138补篇14616B/SHA6fa19e880913f52695ca5a28535e175a8523ab58989b77d31d8fe5128d79
 ## 2026-11-20：真根完整角比较与无frame导数的mean分母
 
 W补篇7475B/SHA36150e78e3fade8bd8f0af293177deed6150d507601a84b7a426999cf5390df9。root整读并对原angular实际表和S支持输入核来源；真实逆角差保留，商差三分量202/113/104与速度300epsilon完整，第二分量a/m_c<8·101/100明确。全2π skew传播给frame<1.1e−6、位置<4e−5，不假设比较路径闭合；mean g_m准确均值式只含X/Y值，C0转移费保全。此为解析复用，0新科学/0旧重算；新角ODE、实际D/finite+tail仍待，不能凭C0授高导乘子。
+
+## 2026-11-20：根mean完整圆周首次公开封包
+
+source12961B/SHAaffc4dd2、worker27817B/SHA95cadbb2、generator11488B/SHA1f3f9c4d、合同5092B/SHAdca2a49e；manifest8539B/SHA2b71e82c6822d99dc10ce2167d1b29ca70f0bc832c28938bdb9e9f79d729eb47，11当前/6历史。root整读源码、合同、worker差异、generator/YAML，与joint独立核8192whole-cell Rodrigues和全部误差、同局部proper rotation/ell读出、W16真实frame转移及saved decimal sign。逐当前bytes/SHA/blob/历史blob全核，0本机科学。marker成功push后才单child，失败保完整小前缀、旧q/s不重算、无正域4650或W2C重建；根能量/逆仍false。共享workflow单次push启动。
