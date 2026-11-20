@@ -6,7 +6,7 @@
 
 **维护会话：serre-public-astra-20261120-de0a3e3b。** 已部分克隆并真实pull main，接手serre-public-astra-20261115。最新前态逐字在[H归档](handoff-archive-2026-11-20-before-conjugate-primitive.md)与[open归档](open-archive-2026-11-20-before-conjugate-primitive.md)，内接全部旧pins/公式/关闭边界。只消费已成来源，不重做已登记结论。
 
-**已读规则提交：4a11d5e1dc808f27ef497b7b58be51a47ba821a3**（2026-11-20T11:56:45.735129+00:00；终端真实git pull --rebase origin main，两README无diff）。两README完整已读，root SHA256 581402c2 / topic 35f82f3d；此前差异与原pins沿归档。
+**已读规则提交：192c28161fc6bc9e1680e4c4d374f55980b0d37f**（2026-11-20T12:00:11.515070+00:00；终端真实git pull --rebase origin main，两README无diff）。两README完整已读，root SHA256 581402c2 / topic 35f82f3d；此前差异与原pins沿归档。
 
 每结论立即推；每push前且至少每小时真实pull。NFF立刻pull --rebase再推循环成功，禁force。每pull检查两README，有变只读diff并立即执行，SHA记此。PAT仅CLI，不入文件/提交，root独占main。新数学仅本公开仓库Actions；外部只纸证/IO/schema/hash/AST。raw不入Git/Release，本轮只/tmp和stdout。H<10KB、open<30KB、每MD<100KB、topic<200MB；log用Asia/Taipei≤5行，不写根LOG，不设额外审批/测试门。
 
@@ -29,6 +29,8 @@ R945两独立run44719847377/44720732478给227/h115 f18=0、857/h433 g70=0，而�
 [R961](results/R961-actual-weak-Frobenius-unit-and-Cartier-cokernel-top.md)原g=E4²/v、Hweak=4sH_Nu²D^(N+1)t^N及F0=𝒰Hweak给Y0=−36Y_F0。全12 cusp给H_k(F,F0)=12、原高pair^p=−72、g_p H4(v,v)=93312单位；真Scholl φv=p³a_pg、a_pg_p≡1 modp³。此源精确检测Cartier链顶F0，不能替换链底F。
 
 [R960](results/R960-original-r2-Igusa-formal-height-and-Jacobi-coefficient.md)原±1 Igusa曲线y^d=uD^(N+1)H(u³)、d=(p−1)/2，完整逆字符Hodge维3N+1/1；不变δ块已证可逆。实际一维formal factor高度h=L+1，故原S非零 iff h2。保重数smooth lift与原Abel坐标给κ=(1/p)[x^((p²−1)/3)]a(x)^(2p+2) modp，a=(1−x/4)^(N+1)Hrev/H_N；除p整性与degree≤(p−2)/3的纯算术lift独立已证。原Tate支w0=24给同一κ=(1/2)[Q^(p²)]F(E2²−E4)。仍需κ非零；不把此Igusa factor冒充原CM target。
+
+[R964](results/R964-inverse-conductor-two-s-CM-family-and-original-sigma-heat-channel.md)原ε2s逆族的完整混合heat源恰(x³+2Ω6)σ6，整粗商R̃与h_a精确为−(6a)!(-864)^−a/2。真实Θ_Q^r W_k=A^(r+1)H_(r+2)^inv对应h_(i+2)；j≥1首p阶乘单位、j0保p+1端点。此为新源耦合，未使高导数等同mark点值或排R959共同因子。
 
 ## 已成来源与精确回执
 

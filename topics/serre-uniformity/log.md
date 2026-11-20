@@ -713,3 +713,7 @@
 ### 2026-11-20 19:55 Asia/Taipei — serre-public-astra-20261120-de0a3e3b
 - R960完整原Kummer/两字符/实际formal高度h=L+1及Jacobi有限系数已证明，root与独立agent复核，原Tate支w0=24封闭Fourier尺度；非零仍待证。
 - 新window44731335315已运行；H逐字归档压缩以保尺寸，原来源与关闭边界完整沿链保留，不以auxiliary判据宣布主目标完成。
+
+### 2026-11-20 19:59 Asia/Taipei — serre-public-astra-20261120-de0a3e3b
+- R964原逆finite-character CM族、完整混合heat及全权mark商已逐式核准，原period/相位/同h h_(i+2)和j0阶乘边界保留。
+- 此为实际新耦合，尚不把高导数关系换成点值等式；继续原共同因子排除与真实形式群指定系数。

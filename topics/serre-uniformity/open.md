@@ -27,6 +27,8 @@ R925（r2/8）与R940（r32）已保完整Norm先消、原calibrated log、全�
 
 [R959](results/R959-exact-coarse-CM-factor-criterion-for-the-original-antidiagonal.md)现把原mark缺口化成真实粗坐标因子。完整theta S/T证明W_(6j+2)/η⁴为全SL2权6j形式，故odd quotient=R_j(U)、R_j∈Z[U]且deg≤floor(j/2)；原full graph给even quotient=P_i(X)∈Z[1/6][X]、deg≤i，保原inert2和ζ² oldform。X=sη12/E6、U=−X²/3，mark X0=−1/24；(1−24X)(1+24X)=E4³/E6²使粗一次零恰fine三次。原完整visible antidiagonal全失败 iff (1+24X)整除准确B_p(C,X)，不混C=1。R734复用给Q²源多项式全p非零，但该因子cusp值1，且实际同权/同角色/visible支持的模形式示例也有fine阶4；这些一般约束与valence不足。R945两中央零分别来自even阶≥4/odd阶≥3，未重算。继续必须用指定P_i/R_j的真正耦合或span来排这个因子，不把未知span作输入。
 
+[R964](results/R964-inverse-conductor-two-s-CM-family-and-original-sigma-heat-channel.md)给原odd族真正的逆finite-character companion：完整Jacobi源的逆族在CM处恒零，混合w导数因其零值消去非齐次乘子，恰12πiη4(x³+2Ω6)σ6。H_(6a)^inv=η4E4E6^(a−1)R̃_(a−1)(U)，R̃∈Z[U]；原H0=(x0³+2)σ0⁶=Σh_a z^(6a)的全权准确商为R̃_(a−1)(−1/1728)=−(6a)!(-864)^−a h_a/2。原Θ_Q^r W_k=A^(r+1)H_(r+2)^inv在i+j=N−1时控制h_(i+2)，不是f_i；j≥1时6(i+2)<p，j0时p+1阶乘不能删。仍须把真实高导数关系转成足够的原点值约束，不能直接断言g_j与新h_(i+2)同零，更未排原Legendre·f_i·g_j的共同失败。
+
 ## O2：完整原超奇异迹及真正的whole CM packet
 
 R932用原同一Serre类与相对Frobenius识别V4/V10，保两Igusa、C4、完整Norm及未知但非零原mI(cF)/d1，实际λ在另一companion取值为原完整SS和。指定j0项恰零，不能靠单点评价代替全和。
