@@ -2,7 +2,7 @@
 
 主目标：固定一条 E/Q，完整证明 rank≥2 且无穷不同 p 的通常全 Sha(E/Q)[p∞] 有限。**未完成，持续研究；不在阶段结果、时限或建议处停下。**
 
-[本次整理前完整 open](notes/2026-11-16-open-before-padic-reconstruction.md)逐字保存全部旧问题、公式、条件、预算、来源和更早归档入口；[同期完整 HANDOFF](notes/2026-11-16-frontier-before-padic-reconstruction.md)保已运行 source/run/job 与各原理论检查点。下列未重写的旧门仍有效，编号缺席不表示完成。
+[本次整理前完整 open](notes/2026-11-20-open-after-exact-dF1296.md)逐字保存全部旧问题、公式、条件、预算、来源和更早归档入口；[同期完整 HANDOFF](notes/2026-11-16-frontier-before-padic-reconstruction.md)保已运行 source/run/job 与各原理论检查点。下列未重写的旧门仍有效，编号缺席不表示完成。
 
 ## O1. 固定曲线的秩：已完成
 
@@ -95,7 +95,7 @@ R897附B进一步付清一条实际限制：原Δ来源pull到full ray再trace�
 
 R901附B原全新CM商整比较：ACR完整ν_n、p′ Borel矩阵单位及真full-q/T运输给V_A=L_A⊗S_A；原两范数核整饱和等于H¹(I1I2⊗T)，唯一返回A_i=O[Gi]/N_i，N12=(σ1−1)(σ2−1)Naug且scalar p格阶不变。old/new余核O/(h)、邻点dual余核(O/(q+1))^(q−1)及原共同目标次数保，不冒原AJ非零或标量乘积整除。
 
-[R908](results/R908-original-inert-augmentation-specialization-and-point-shadow.md)：同原双新增广类在新惰性q₁的整cochain计算给loc_all N12=u₁(σ₂−1)a12，u₁=(q₁+1)/h₁为单位；全部素点/CM frame/finite-wild Euler与原D点尺度保持。a12非零及精确p阶等价完整局部向量，给原全局标量整除反门；尚无实际非零、首层或ordinary loc结论。最高/三mixed的单新根数相反，最高奇数消失不删除整个对角。附A已给完整原全群环代表：同一固定D独立p、旧prime-to-p tame层n及新增q，使D loc_q rawD_nq=0；任意有限新集合的全部增广坐标也被D杀掉。完整Igusa和Drinfeld求和保全部常数/覆盖/CM来源，ordinary总系数为(q−1)u(q+1)/q。因此p∤D时a12fin确实零，wild增广也零；p|D只给阶≤p^v_p(D)，非平凡finite wild层尚未覆盖。下一步转原全局非零及ordinary p位，不能再从此tame新增位索取非零。
+[R908及附A](results/R908-original-inert-augmentation-specialization-and-point-shadow.md)原双增loc_all N12=u₁(σ₂−1)a12及全CM/finite-wild/原D尺度均保；附A真实Igusa/Drinfeld全求和已付固定D的tame新增位局部零。R913继续覆盖完整finite wild，见下；不再从该新增位索非零，转同原global/ordinary底。旧完整式、常数及所有当时限制存本次完整归档。
 
 ## 第三实际门：同P/R/S与实际有限类
 
@@ -222,3 +222,7 @@ R887(116a)进一步准确给C(Hω)=0及C²(𝔄Faω)=0：rω=(1/3)dlog y与[G]_(
 ## R930：同一真实首核的联合尾像
 
 [R930](results/R930-original-quartic-native-tail-joint-right-inverse.md)同原quartic的Y_j=t^{−(τ+j)}P在σ_t≥τ+m、ell≤s−h−m时给原K1末m尾三角右逆；同q返回qt²H3及负fringe自动σ=τ−δ−1，δ≤−4付全末三尾。它们β1非零，只可按准确页数同调S或较早R；其它normal响应/受限S差格/固定R928类仍须真付。
+
+## R931：完整厚代数的原Tate求迹
+
+[R931](results/R931-original-complete-shadow-artinian-norm-and-base-prime-layers.md)以完整理想精确分离ramified/共同3m/输出O，原extra厚代数上真有椭圆点；双辅助/双加法chart及厚Norm给同原全Tate迹。全部π层至多306维商、原k范数/完整长度保，未拆κ仍保全d/厚度；helper在实现，完整E与shadow未付。

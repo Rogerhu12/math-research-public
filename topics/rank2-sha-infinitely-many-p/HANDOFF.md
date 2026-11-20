@@ -5,13 +5,13 @@
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近实际部分克隆/pull及已读规则提交：`8c29bf0d9cbdf602860ac46abb138aacb90370ed`；2026-11-20 13:12:44 UTC 实际pull --rebase，两README相对b5f4e207差异为空；下一次最迟一小时内。
+- 最近实际部分克隆/pull及已读规则提交：`8ff20bbcfffb8a0a0536c6d21d2e51f7f7e58387`；2026-11-20 13:15:07 UTC 实际pull --rebase，两README相对8c29bf0d差异为空；下一次最迟一小时内。
 - 仅写公开main；每条完整结论即提交，推前pull --rebase；非快进循环，不强推、不存令牌。数学只在公开Actions执行；重算输出不入库/Release、不分块，只存源/args/run/hash。
 - H<10KB、MD<100KB、open尽量<30KB、文件<5MB、题≤200MB；log每轮≤5行，不写根LOG。所有旧授权/规则已读，未变化。
 
 ## 完整检查点与当前分工
 
-[最新完整H](notes/2026-11-20-handoff-before-native-tail-right-inverse.md)逐字保全部旧条件、源/run/hash及归档链；入口results.md、notes/PROOF-INDEX-R901-R950.md、open.md。root唯一metadata/ref写者并整合公开门；global续原ordinary/global底，deep续同P真实forcing，theta续四指定中央/边界并交叉审源码。四主门均保留；R364/R561/R654/R712及主目标仍开。
+[最新完整H](notes/2026-11-20-handoff-after-exact-dF1296.md)逐字保全部旧条件、源/run/hash及归档链；入口results.md、notes/PROOF-INDEX-R901-R950.md、open.md。root唯一metadata/ref写者并整合公开门；global续原ordinary/global底，deep续同P真实forcing，theta续四指定中央/边界并交叉审源码。四主门均保留；R364/R561/R654/R712及主目标仍开。
 
 ## 第一门：同原映射、完整函数环与原shadow
 
@@ -19,17 +19,19 @@
 - 原F/P特征零完整PASS分别见[R909§7](results/R909-original-F-small-prime-and-compatible-dixon-continuation.md)、[R906§8](results/R906-original-P-small-prime-and-compatible-dixon-continuation.md)：全1429/1226行、QQ/原支及0..6120/4284均付，全部run/source/hash见原节/完整H；不猜Manin1或约化精确dF。
 - 旧306/eta/fricke/tate/R910/919/922卡点全见[续接注](notes/2026-11-20-old-job-outcomes-and-exact-P-certificate.md)。quotient-only run44713040079/job136209307176仍运行，原D/九cusp/Au/Av/branch/D0未付；t-adic U仅4096上限无候选，不作非存在结论、不盲目重跑。
 - [R924§11–15](results/R924-original-section-divisor-algebras-and-shadow-interface.md)原TUV/DS204/51二次双点、36base cusp、Y666/ys核360、DS值及vF/三Yi核144/152全部实际PASS；原身份/非约化结构、全部run/source/hash保持于原节和完整H。
-- [R925§12–21](results/R925-original-ys-affine-rings-and-complete-divisor-ideals.md)：原306整环全46971乘积/两图/14权4元、固定整核API及六厚cusp全289幂基/666坐标/18闭点已实际PASS，完整回执在原节。Fp²两π/π²全primary、612×306核及八点共零值待run44730598782/job136269050475/source135a0835a。完整κ/任意共零/全consumer已独审；§19全权界/q幂patch保存、§20直接向量乘积、§21同原函数/完整E/厚闭点精确复用均全证，后两patch保存，未动运行源或冒性能PASS。
-- [R926§8–10](results/R926-original-cube-roots-in-sections-and-complete-identities.md)：原RF6941/三Ri4287全局身份与核900/280/278/278实际PASS（run44728285578/source17ea1c0ce），同M2高窗/原首项/ω均保。严推根极度240/452/454/454及同L最低权2/3；紧缩全低核与R8/R7交叉仍待新实际门。原cube→紧缩→306环→完整maps同进程请求run44732115204/job136274270348/source192c28161运行，后续geometry/四E/全trace未冒PASS。
+- [R925§12–21](results/R925-original-ys-affine-rings-and-complete-divisor-ideals.md)原306两图全乘法、整核API及六厚cusp全289幂基/666坐标已实际PASS；完整run/源/hash存原节。Fp²两π/π²全primary、612核及八点共零值仍待run44730598782/job136269050475/source135a0835a。§19权界、§20直接向量乘积、§21全E/厚闭点复用均全证并存patch，未动运行源或冒性能PASS。
+- [R926§8–10](results/R926-original-cube-roots-in-sections-and-complete-identities.md)原cube全身份/完整核实际PASS（run44728285578/source17ea1c0ce）；严推RF/Ri极度240/452/454/454及同L最小权2/3。紧缩全核/R8R7交叉与完整maps待run44732115204/job136274270348/source192c28161；原M2/首项/ω及后续geometry/四E/全trace门全保。
 - [R927§9](results/R927-original-yF-pole-degree-from-mixed-kernel-and-cusps.md)原e/z完整实际PASS：run44736604477/job136289459332/source8e2413043，e=0、z=96、dF=1296；原900核/DS51二次因子全rank0、∞289首idx192/微分2⁶及回代齐，1611.709秒。F_first、每E全度39840、E00=E01/E11=E12的分支已付；完整pole/E及shadow未算。result ed95578b…cfab6、全源/日志hash在原节。
 
 R880/883全18×9/双轴/原A,C及四完整交除子00/01/11/12保持；Norm含ell²旧回归已过。四大交除子和原shadow未算，完整成本2256+r*dF或2256(r+1)，全闭点度/厚长度/无穷边界/Artin不删。有限AJ非零不替无穷p/ordinary桥。
+
+[R931](results/R931-original-complete-shadow-artinian-norm-and-base-prime-layers.md)以完整理想精确分离ramified/共同3m/输出O，原extra厚代数上真有椭圆点；双辅助/双加法chart及厚Norm给同原全Tate迹。全部π层至多306维商、原k范数/完整长度保，未拆κ仍保全d/厚度；helper在实现，完整E与shadow未付。
 
 ## 第二门：原全局底、ordinary与增广阶
 
 R885/897同finite/wild范数、全Artin/尺度/旧副本及spDn=Ep,n cn整unit保；整族除T恰所有tame底类零。R891原anti-Kummer/全交域/17惯性/双点cup已给c1非零⇒Selbal=E c1、usual core0；不能改套core1。未付c1非零、ordinary或无穷p。
 R893只在c1非零前提给原本原D=UZ°、Uunit、ccan=H Dfun D、Ccan=H Dfun²，阶s/2s；ordinary/canonical底非零恰s=0。derived底不能复用未除T strict核。R900/901真实Aq=−(q+1)²/q、根号/Möbius/端点/格/old-new O/(h)保；奇compact BK零不替finite Selmer零，偶新乘积整除仍开。
-[R908附A](results/R908-original-inert-augmentation-specialization-and-point-shadow.md)、[R913](results/R913-original-wild-inert-specialization-and-augmentation-stability.md)已付原新增惰性位全部局部零：tame固定D独立p/n/q；wild Dp=p^cp D只固定每p且独立n/q/b。原R/Igusa/Drinfeld/常数/(q−1)u(q+1)/q、diamond/det/half-norm/sf/整CM-Shapiro均保；先回原局部T/(q+1)才取零，不作p角色平均。Möbius新项同杀，同格可除T才保零；不再向此处索局部非零，不推cp=0、global、ordinary或s0。新增位modp H0非零，不能无条件Nakayama。
+[R908附A](results/R908-original-inert-augmentation-specialization-and-point-shadow.md)、[R913](results/R913-original-wild-inert-specialization-and-augmentation-stability.md)已付全部原新增惰性位finite/wild局部零；tame D固定跨p/n/q，wild Dp=p^cp D只固定每p。Igusa/Drinfeld/原CM-Shapiro/全部常数与真局部T/(q+1)均保，不作角色平均；Möbius新项同杀，同格可除T才继承。不能再索新增位局部非零；cp0/global/ordinary/s0未付，新增位modp H0非零不许可无条件Nakayama。
 [R921](results/R921-original-inert-residual-local-matrix-and-integral-bockstein.md)m≤e=v_p(q+1)的完整残余H¹有提升线L/连接线C；原j_*是diag(u,0)，corestriction是diag(0,1)，βm(C)=−u p^(e−m) modh同构整H²[p^m]，kerβ=BL。全局Bockstein的q定位读C，ordinary两p位H0=0。几何loc零仅控L，原derived C/global/ordinary/s0未判。
 
 ## 第三门：四原中央与真正全边界
@@ -45,7 +47,7 @@ R887全原运输/α/五窗、C³η[2]=−α^(1/p³)rω及实际带权伴随/DRν
 
 原P134/十九角/charge40/10980/39carry/全部WD/TM/TJ保；完整p³才付同R的J/p²。R872/888/890全oR/H¹/合法提升/TF-adj/Cech保，47/8只迫oR非零；K2零且d<κ+s+2才返V2+J3含t²，A4不换整O_H−。
 R902/903端点单射不可相加；R907真TG=EG−aF³、两native尾/六维Qf/真GRes保持。R911全五/六长能量与原重复19角、R914先Qf(T)消零纤维的8/9截止/真实秩界及d∞≤6全存原节/完整H；原quartic只付L≤h，不能借L>h。
-R916只在原f=λY²(Y−1)、1≤ordF(t,0)≤2给K∞≤1；完整19角Pn·k[t]≤Mn及同T前缀读唯一Bn+c(t)Yn，εF0/1替d∞，原Λ未判。R918三首13带在δ=r+2h−s∈[−13,−1]给同q卷积unit·a(G)及稳定核β1单射；δ≥0三带零iff深J=T+13，q(0,Y)=cY的native式、δ0首值/δ>0再深1及全部U0/高轴/导数/同R,S保，非稳定核仍开。
+R916原指定f的低t阶才给K∞≤1，完整19角/所有charge/同T前缀保；R918负fringe三首13带给同q稳定核β1单射及δ0/native高轴读数，非稳定核与实际Λ未判。R916/918的全部精确式及适用门存原节/完整H，不能跨分支使用。
 [R920及附A](results/R920-original-first-bockstein-kernel-and-short-euler-chains.md)K′=K∩ker完整β1，三首13带深J=T+13；δ∈[−13,−1]真相邻后继由2h<J迫a=0/H=EG，K′∞=0。S=min(J,s−4)=T+11是已付窗，真实三/四来源链给3dimK′≤2nJ或4dimK′≤3nJ。同P两全p³解仅在ΔR∈jH3时入jK′；固定一解且S全原格自由时可延类是R+jK′，受限S只保必要式，未判p⁴或固定forcing。
 R834/836/837预算、R840同Kcorr/Hcorr、R842指定WT[b0]及2κ<T≤3κ保持；R895/896只排τ1 quartic低松弛，O4/O6/O7仍开。
 

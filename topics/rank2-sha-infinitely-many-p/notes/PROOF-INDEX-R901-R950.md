@@ -123,3 +123,5 @@
 - [R925§19.1](../results/R925-original-ys-affine-rings-and-complete-divisor-ideals.md)：原完整权界的局部阶实现补丁已独审保存；完整d/倍增二分/最后全q^v及q^(v+1)成员门保，不先算主理想范数，不动当前稳定源，等待实际应用门。
 
 - [R927§9](../results/R927-original-yF-pole-degree-from-mixed-kernel-and-cusps.md)：原e/z实际PASS（run44736604477/source8e2413043），e=0,z=96,dF=1296；DS51因子全900分母rank0，∞289真局部首idx192及完整回代齐。F_first/每E39840与两对相同E分支确定，完整pole/E/shadow仍待；result ed95578b…cfab6。
+
+- [R931](../results/R931-original-complete-shadow-artinian-norm-and-base-prime-layers.md)：原E的ramified/共同3m/输出O以完整理想分离，余extra厚代数确有原椭圆点；同辅助/双加法chart的厚Norm给完整原Tate迹。仅基π分解和全部≤306维层det保全κ度/厚度/原k，不冒执行或shadow非零。
