@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R138真实齐次核的原low96读出单射](results/R138-supplement-original-low96-root-trace-injectivity-on-homogeneous-kernel.md)：zL=0时实际high与完整源费给Qsrc<25，唯一density后C*<125/2<367，GB半余量迫E=B=0并归零h。完整weak图/mean/两primitive及2π保留，故同fixed真DF0实核dim≤96；不是核为0、onto、逆或ν增广结论，0新科学。
+
 - [R138固定全域CE根迹预算严格排除](results/R138-supplement-fixed-global-energy-root-receiver-budget-excluded.md)：旧两模迫W96²>148，新actual整球给统一R9 αE²>74；即便exact receiver Gram，同mean/环境dual仍迫αE²>7104/121>58，固定R15/R30门不能过。仅排已选全域预算，非实际BVP核或最优CE下界；0新科学，不再为该配方造大矩阵。
 
 - [R138实际原high根压缩严格正](results/R138-supplement-actual-original-high-root-lower-bound.md)：44750653724/1完整32768闭格、24pins/6恢复/26字段41球，high lower>.7226、κ<.091，5README链全核重建。fixed Qrepair真实frame/完整mean/两primitive与原无限high保留，旧96/97负方向原样；结果冻结，仅高压缩和辅助逆，不授完整BVP或WVC低逆。

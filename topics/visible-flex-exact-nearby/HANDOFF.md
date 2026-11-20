@@ -1,12 +1,12 @@
 # 交接：可见振幅的精确闭等距族
 
-维护会话：`visible-exact-astra-ac637-20261120`；更新：2026-11-20 14:24:44 UTC。
+维护会话：`visible-exact-astra-ac637-20261120`；更新：2026-11-20 14:25:58 UTC。
 **总任务未完成；继续研究，不等用户回复。**
 
 ## 规则读点与接续来源
 
 部分克隆：`/workspace/scratch/ac637cfcc78d/math-research-public`。终端 git 已恢复，无 AGENTS。
-2026-11-20 14:24:44 UTC 实际pull/rebase至 `28046fc2957c3476c00359ad37f17df800ef6011`；已读规则提交同上，两README相对96edc6770空diff。每次pull后核规则差异；下次实际pull最迟15:24:44 UTC。
+2026-11-20 14:25:58 UTC 实际pull/rebase至 `f6ef3cfe681bc0288fa610e124f52775a51bbe9a`；已读规则提交同上，两README相对96edc6770空diff。每次pull后核规则差异；下次实际pull最迟15:25:58 UTC。
 
 接手前完整 H（含全部递归原页、成功/失败/恢复身份和未付义务）见 [2026-11-16 完整检查点](https://github.com/Rogerhu12/math-research-public/blob/882aa9b74efeaac682df43c197820e7280156357/topics/visible-flex-exact-nearby/HANDOFF.md)。本页只压缩索引；`open.md` 及所链接的原证明、适用域、均值、物理角、所有边界和误差费用继续有效。旧成功结论不重算。
 
@@ -48,7 +48,7 @@ WIC原m160/N24480真tail逆κ=3已证；WPN只有完整e+3dt<1才授双边逆、
 1. R141低有向44730452579/1仍运行：71pins/768bits，先Green/defect，过门才4源/193atoms/wholebox；未产字段不读。共享worker98ef3773不动。原L44724797559三量、centre44727185157的K>80及全部旧false冻结，余47不算。
 2. F_B44734581045、GH5 44736533396、GH4 44740105701均冻结。[D44745017016](results/R141-supplement-actual-reference-boundary-lifts-and-complete-193-observations.md)10球body<6.594/complete<7.236，旧44742799448线程0数学失败保；[加权GH44746534556](results/R141-supplement-actual-radially-weighted-high-response.md)5球GB<8.131/HB<30/HZ及Hroot<12/outer<.151，均upper。真实97+96外行未闭。
 3. R138轴44730968113/mean44733403315/X44737045152/Y44740320925及旧false冻结。[GB44745355257](results/R138-supplement-actual-capped-Hhalf-body-absorption-and-root-allowance.md)body三门true、C_allow lower>367；根r仍旧Y。原[96/97负型44745192261](results/R138-supplement-actual-negative-original-root-96-97-form.md)det<−353/显式型<−146，只排全rootdata非负/仅H²费，不推核。
-4. RT/relative/HP/HC全部解析资格见其原proof；[HC实际44750653724/1](results/R138-supplement-actual-original-high-root-lower-bound.md)24pins/6恢复、26字段41球已核冻结，原全部high下界>.7226、κ<.091；5README链全重建。仅fixed trueDF根压缩与两parity辅助逆，未授全逆。[固定全域CE根迹预算](results/R138-supplement-fixed-global-energy-root-receiver-budget-excluded.md)即便exact Gram也已严格排，勿再为该预算做矩阵。global_route/joint_kernel续有限根障碍与局部能量，positive_inverse续真正外块/七ports及两RHS路由，root审记推；finiteρ/mean/全部接口仍待。
+4. RT/relative/HP/HC全部解析资格见其原proof；[HC实际44750653724/1](results/R138-supplement-actual-original-high-root-lower-bound.md)24pins/6恢复、26字段41球已核冻结，原全部high下界>.7226、κ<.091；5README链全重建。仅fixed trueDF根压缩与两parity辅助逆，未授全逆。[固定全域CE根迹预算](results/R138-supplement-fixed-global-energy-root-receiver-budget-excluded.md)即便exact Gram也已严格排，勿再为该预算做矩阵。[low96核读出单射](results/R138-supplement-original-low96-root-trace-injectivity-on-homogeneous-kernel.md)已证：zL=0时完整源费<25、physical费<125/2<367，原真实齐次核dim≤96；无onto/逆/ν增广。global_route/joint_kernel续有限根障碍与局部能量，positive_inverse续真正外块/七ports及两RHS路由，root审记推；finiteρ/mean/全部接口仍待。
 
 ## 正侧以外仍未付的接口
 

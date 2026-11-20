@@ -223,3 +223,7 @@ science31180B/1bd839a4、worker31695B/2cd84dd9、gen14142B/ed1c53e5、合同1269
 ## 2026-11-20：固定全域能量的根读出预算严格排除
 
 global推N1–15，root整篇有理比较/准确mean与环境dual独核，joint交叉审通过。旧M12>18.9/M22<2.404/M11<.457给W96²>148+79843/601000；new high完整球只取b0<1/b1,b2<2/g0<3。R9统一实现αE²>74，完整exact Gram亦由人工root代数测试（不冒PDE解）及Xi<22给αE²>7104/121>58。CE>32是原所选上界预算的数值事实，非最优物理常数下界；只排固定R15/R30门，不排actual逆。0科学/旧重算，原high实际和负两模同存。
+
+## 2026-11-20：真实齐次核到原low96根坐标的单射
+
+root提出受限核路线，global/joint独核，joint写KI1–15，root逐V9/V26/V28与F8完整正文再核。zL=0时不留θ损失，actualλ>7/10、CHcross<4、Cq<19给完整Qsrc<173/7<25；仅AT<5/2一次density费后C*<125/2<367<actual GB allowance，半矩阵余量迫E=B=0。H/rootH在吸收后才置零，K>0和完整DΨ逆给原方向零，原weak trace/transmission无独立端态。归一2π与fullmean均保，严格仅fixed真DF0实对称kernel读出单射/dim≤96，无Fredholm/onto/逆/ν增广前提或结论。0新科学/旧重算。

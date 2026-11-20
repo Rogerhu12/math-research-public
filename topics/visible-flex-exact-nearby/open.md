@@ -193,3 +193,5 @@ R138的[几何桥](results/R138-residual-sensitive-Codazzi-frame-and-geometric-J
 [HC实际44750653724/1](results/R138-supplement-actual-original-high-root-lower-bound.md)24当前/6原恢复、26字段41球、32768闭格已核冻结：原全部high压缩lower>.7226，κ<.091付同odd/even两restriction。actual C2/六local/fullmean/两primitive保，全部旧signed对象原样嵌套；5次README全链重建一致。只付fixed Qrepair trueDF根型，不授WVC低逆或完整边值逆，原96/97负方向继续有效。后继无需重算任何41球。
 
 [固定全域CE根预算排除](results/R138-supplement-fixed-global-energy-root-receiver-budget-excluded.md)已证：旧96/97整球迫所有原R23接收器||We96||²>148；实际b0<1使R9统一预算αE²>74。即便exact Gram，完整mean的测试根w96与同环境H1/2对偶给Xi<22、αE²>7104/121>58，故保持原X全域CE的R15/R30门不可能通过。只排这套已选预算，不推最优CE下界/可达迹/BVP奇异；不得为该配方继续构造大矩阵。新的局部能量或直接逆仍可研究，high正性/κ原成功保。
+
+[真实齐次核的low96读出单射](results/R138-supplement-original-low96-root-trace-injectivity-on-homogeneous-kernel.md)已闭：在原real symmetric/fixedν/trueDF0同域，若zL=0，actual λ>7/10/CHcross<4/Cq<19给Qsrc<173/7<25；唯一密度AT<5/2后C*<125/2<367，GB半矩阵余量强迫E=B=0，再由完整H与DΨ归零原h。V9弱图/mean/两primitive及2π全保，故kernel→R96 injective、dim_R≤96。非核恰0、非onto/定量逆，未涉及ν增广或非齐次两RHS；有限剩余继续。
