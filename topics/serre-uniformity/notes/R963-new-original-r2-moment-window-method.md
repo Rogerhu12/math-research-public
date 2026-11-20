@@ -17,3 +17,7 @@ At a zero it constructs the complete opposite-deck polynomial `Ktilde` and check
 The JSONL stdout contains a start record, compact per-prime original values, a complete certificate only at the first zero, and a final summary. The summary hashes arithmetic rows, the certificate if present, the stdout prefix, and the uncompleted prime list. A persistent subprocess permits a truthful budget summary even if a polynomial operation is interrupted. No raw arrays or regenerated outputs are committed or released; this request uses no artifact upload.
 
 Runtime API reference: [official python-flint 0.9.0 nmod_poly documentation](https://python-flint.readthedocs.io/en/latest/nmod_poly.html), including monic gcd, inverse series and `pow_mod` with a reversed-modulus inverse. The actual run ID, source SHA, outcome and finite coverage will be recorded from the public Actions receipt.
+
+## Initial workflow receipt
+
+Run [44731159673](https://github.com/Rogerhu12/math-research-public/actions/runs/44731159673), source `cd6ca5c9c5ea3016bc3ba8e596da47c63aebcb00`, failed before jobs were created. The job API returned an empty list. YAML parsing identified the unquoted colon in the pip installation command. The command is now a block scalar; the unchanged consumer is requested again. This run performed no mathematical calculation.
