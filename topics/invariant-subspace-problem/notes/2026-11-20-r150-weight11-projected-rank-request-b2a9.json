@@ -1,0 +1,51 @@
+{
+  "format": "isp-original-weight11-projected-rank-request-v1",
+  "sequence": 1,
+  "session": "Astra-ISP-b2a9acde-20261120",
+  "createdUtc": "2026-11-20 11:38:17 UTC",
+  "runnerSHA256": "899b978eac0fab79716e1bff4fc8d65ba90fd09735045fc513e5c690d80255f4",
+  "nativeSHA256": "d1dad93a00276355d2fdb3f815e01fde5ee428e72f1ca074063e961e7aa62253",
+  "bitplaneHeaderSHA256": "03272796bb20c883291d27c9a0b796197f8295ccd9b16552c13894657dc8afd3",
+  "nativeSeconds": 14400,
+  "maximumJobMinutes": 345,
+  "runtime": {
+    "python": "3.12.14",
+    "pythonFlint": "0.9.0",
+    "compiler": "g++ -O3 -march=native -std=c++17"
+  },
+  "originalInput": {
+    "rows": 150646,
+    "sourceColumns": 37568,
+    "generators": 200,
+    "generatorTerms": 8037189,
+    "targets": "the four fixed original canonical q_j(y)*b^3*e0",
+    "weight": 11,
+    "prime": 127,
+    "coefficientRoot": 100
+  },
+  "linearRowProjection": {
+    "outputRows": 40000,
+    "hashesPerOriginalCoordinate": 5,
+    "seedHex": "4252414e43483131",
+    "purpose": "rank lower bound only"
+  },
+  "fourClassThreshold": 36786,
+  "knownCharacteristicZeroSourceCeiling": 36782,
+  "paidParentRequestSHA256": "2dc4a2725835c6aa3f3c09f4b48dad893e8da2165266e2634ca3b1da49744e50",
+  "parentStepIndices": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "paidWeightTenMatrixIsNotRerun": true,
+  "rulesGitBlobs": {
+    "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+    "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+  },
+  "actualPullMaximumIntervalSeconds": 1800,
+  "arraysToGitReleaseOrArtifacts": false
+}

@@ -5,8 +5,8 @@
 ## 主目标、规则与执行
 
 - **普通复可分无限维Hilbert ISP未完成。** 只有全体有界算子的存在定理或完整反例才收尾；子问题完成继续open，不以阶段或时限停止。
-- **最近成功实际pull与已读规则提交：** 5bd3fd23c037e85ab1587bd684799cd389726da1，2026-11-20 11:22:32 UTC，Actions run44727076042/job136257087646；真实git pull --rebase成功，两README未变，原日志已核。下一实际pull不得迟于12:22 UTC。
-- **最近API同步及规则核对：** `17ea1c0ce98ea82ca6feeadd6fbf4b5989d90964`（2026-11-20 11:31:32 UTC）；两README blob均未变。API快照不冒称实际git pull，另记真实执行回执。
+- **最近成功实际pull与已读规则提交：** 56680484c0cd565a2855e450de0214b7f76c9cae，2026-11-20 11:30:42 UTC，Actions run44728182826/job136260843338；真实git pull --rebase成功，两README未变，原日志已核。下一实际pull不得迟于12:30 UTC。
+- **最近API同步及规则核对：** `793dc4f0c8467a78513fd4628ba0547beb9c339f`（2026-11-20 11:38:22 UTC）；两README blob均未变。API快照不冒称实际git pull，另记真实执行回执。
 - 根README blob282e86b03385d3b6245ce7100ae2e2af7b103c2d、课题4d6570e9cf346431ab781a1290076a6321aaaa00已全文读。每次pull比两README，只读新diff并立即遵守；至少每小时及发布前同步，SHA写H。
 - 仅授权Rogerhu12/math-research-public。root独占main/H/open/results/log和发布，代理只交proof blob；每条结论单独提交推送，非快进立即更新/rebase重试成功，不force。用户PAT仅CLI环境，不进文件/config/日志。
 - 根规则15：可重算数组/数据/证书不进Git、Release或新工件；仅源码、参数、运行身份/SHA及正式证明。MD/API UTF8<100KB、H≤10000B、open尽量≤30KB、topic≤200MB、log每条≤5行、数学美元符及AI署名，不写根LOG。
@@ -26,9 +26,9 @@
 
 - **V=0/rankH3且y在RanH外已空。** 原J2/mean/N迹及rank≤2因式给完整排除，无需Cat3假设；V0/ess4只余rankH4、y在唯一length4原jets。一般V≠0 inner mean仍开。
 
-- **新权11消费者已过控制：** run44727076042用普通标量独核投影、rank及所选子式，共10659坐标。固定线性行投影只作全增广秩下界，保原150646行/37568源/四规范q·b³。尚未跑权11大矩阵；root正在接原全父重建，未宣新非成员性。
+- **新权11全原输入运行已请求：** 2026-11-20-r150-weight11-projected-rank-request-b2a9.json，sequence1；只重建原200生成元的遗失TMP输入，不重跑权10矩阵。40000行固定线性投影、四规范q·b³保原150646/37568全矩阵；消费者已过run44727076042的10659普通标量/子式控制。原增广门36786，尚无新秩；原数组仅TMP，runner每30分钟实际pull/比规则。
 
-- **[isolated zero+unit2+2半权已空](results/R150-appendix-essential-four-unit-two-plus-two-half-isolated-zero-rank-four-branch-is-empty.md)：** 完整原mean四族及所有零配对排除；3h n′−2n h′保u/m零例外，最后原f/g QQ gcd1，run44727076042通过。只闭半权，一般a、1−a仍开；新原QQ兼容式成员检验请求sequence5已冻结，结果待实际run，不预宣全支闭。
+- **[isolated zero+unit2+2半权已空](results/R150-appendix-essential-four-unit-two-plus-two-half-isolated-zero-rank-four-branch-is-empty.md)：** 完整原mean四族及所有零配对排除；3h n′−2n h′保u/m零例外，最后原f/g QQ gcd1，run44727076042通过。只闭半权，一般a、1−a仍开；原QQ请求5在run44728182826/240秒exit124，前置恒等式通过但成员门未完成；改短证书，勿空续或预宣全闭。
 
 - **[V0/ess4双二次独立与唯一简单基点](results/R150-appendix-zero-third-cumulant-essential-four-independent-quadrics-and-basepoint-reduction.md)已证：** 相关二次只可能N=0的rank2限制型；原Frobenius配对给q²=fq=0，所有length4型用等向三jet/原最高式及极线gcd≤3排除。故C,N独立、物理投影必为有唯一简单基点的四次曲线；只归约到原两支撑族，尚未判该余支空。
 

@@ -569,3 +569,7 @@ AI-assisted GPT-6 Astra Pro：冻结原mean参数化、两局部/一全mean无�
 
 ## 2026-11-20 11:31:27 UTC — Astra-ISP-b2a9acde-20261120：一般长坏链的全Schur解析合同
 AI-assisted GPT-6 Astra Pro：[完整证明](results/R271-appendix-general-head-long-bad-chain-analytic-schur-and-three-true-power-flags.md)根核有限二项式生成恒等式、高幂共同U、无逆合同/真核旗及物理候选费，精确覆盖整个长链退化核。短坏链和原加权Galerkin源仍未闭；H全文归档压缩，继续一般高孔与实际源。
+
+## 2026-11-20 11:38:17 UTC — Astra-ISP-b2a9acde-20261120：权11全原输入与新投影秩运行
+AI-assisted GPT-6 Astra Pro：冻结只读runner/参数，逐条原210来源对照完整200向量，重建同四规范q·b³，全部150646行/37568来源保留；旧权10矩阵不重跑。native14400秒/任务345分钟、每30分钟实际pull比规则，数据只TMP，尚无新rank结论。
+同次记录run44728182826的一般2+2 QQ门240秒exit124及原source/log SHA，前置恒等式通过而成员门未完成；11:30:42实际pull规则未变，继续短证书，不以失败登记空性。

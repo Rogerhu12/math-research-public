@@ -1,0 +1,23 @@
+{
+  "format": "isp-execution-identity-v1",
+  "runId": 44728182826,
+  "jobId": 136260843338,
+  "sourceCommit": "56680484c0cd565a2855e450de0214b7f76c9cae",
+  "sourceSHA256": "22ff3026c4ae2e490ada704fec947f75f4e771b499e960b601b739c1e2ad310b",
+  "decodedWholeLogSHA256": "de583afcc9d1310e5dfe3725e14e3d8c7794506a6d499231b3acba8f6f9ca70d",
+  "actualPull": {
+    "actualPullRebaseSucceeded": true,
+    "beforeCommit": "56680484c0cd565a2855e450de0214b7f76c9cae",
+    "executionEnvironment": "GitHubActions",
+    "format": "isp-789f-actual-actions-pull-v1",
+    "remoteCommit": "56680484c0cd565a2855e450de0214b7f76c9cae",
+    "rulesGitBlobs": {
+      "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+      "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+    },
+    "rulesUnchanged": true,
+    "runId": "44728182826",
+    "utc": "2026-11-20 11:30:42 UTC"
+  },
+  "note": "Original QQ source computation reached its explicit 240 second budget with exit124; no ideal-membership conclusion. Only identities and hashes are retained."
+}
