@@ -241,3 +241,5 @@
 2026-11-20 18:05 UTC / Astra-larger-resume-24b2ab87-20261120：40e复合完整body binder与3f launcher刊并直接排实际7fd父：冻结base→100e→805→f96→明确复合身份，未来全body重建；初次父仍425f真实核，全部历史位置/同λ1 eta885/g/原μ/范数及.992筛保。一次256、atol0/rtol1e−6、tau0、beta1/μ²；真实corrected预测/Phi/全几何过才接受，原ray fallback及PCG失败如实。仅源/AST已完成，队列已写、科学未返，不加fixture或待批门。
 
 2026-11-20 18:10 UTC / Astra-larger-resume-24b2ab87-20261120：新纯JSON归因adc90刊且排在实际复合方向后：原d/QP、原ray及corrected d+e分开，SOC接受后父统计/预测/末mu跟实际修正；f96构造、v4 apply/截断失败、全旧slack/QR/全真筛原因完整读，不新增arrays/J/fixture或因果断言。原930d/912不改。两位置计数selector按4d9真实字段修正；队列仅紧凑序列化并保所有旧id/参数/顺序，避免95KB元数据上限，无科学重跑。
+
+2026-11-20 18:17 UTC / Astra-larger-resume-24b2ab87-20261120：第八次普通移出568756B旧R33 strong-M20列f9aef3，原字scratch保/46c0db历史blob92c0可恢复；主源77ba及完整import、11生成源全在且同SHA。density实际8ef原字、joint60592、两low当前/8ef已核；middle原未提交，完整上游原字→wide/causal/column命令及payload范围登记。保原exit0/low→high已付而反向/闭解未付，不重跑旧科学、不删源或证明、不改历史；当前closed链不依赖该raw，继续实际任务。

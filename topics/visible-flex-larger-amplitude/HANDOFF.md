@@ -4,7 +4,7 @@
 
 ## 规则与完整目标
 
-最近规则核查：2026-11-20 18:10 UTC，真实pull/rebase至 `f4d5cc22ba03d1eb64d0b713ce5efe516498d401`，双README相对上次已读无差异。
+最近规则核查：2026-11-20 18:17 UTC，真实pull/rebase至 `cfc959a9d9609dd2837bdf3d466241b405e05a12`，双README相对上次已读无差异。
 
 科学计算仅本公开仓库Actions；早前本地偏差及13:00 UTC纠正见[执行记录](notes/2026-11-20-public-actions-execution-correction.md)。根README已授权必要修改/发布；根唯一local git writer，代理只work/小源。每条结论普通commit/push；NFF立即pull --rebase循环再推，不强推。至少每小时pull，每次核双README差异/立即遵新规并记commit。raw只scratch/runner，不入Git/Release/artifact；只保完整小源/参数/run/SHA/紧凑结论。题≤200MB，MD<100KB，H<10KB，open<30KB。令牌只瞬时CLI，不写文件/提交/回复。
 
@@ -55,7 +55,7 @@ R650/R661提供同场support/K加四固定p4 marker的全t reach/grip/held/E框�
 
 ## 复现与不重做
 
-再生配方rebuild_a04_chain.py保60321451c/b4d2b98完整链；Python3.12.14/NumPy2.3.5/SciPy1.17.0/单BLAS。旧warm、Gauss盲点、八blend、纯metric高K、cap16未完整方向、0241地点纠正等完整已登记边界在下列上版H及对应记录，不重做。R648/651/652仅开放prefix。七次raw普通移出保源/输入/历史恢复见[容量记录](notes/2026-11-20-resume-raw-retention.md)，不改历史。
+再生配方rebuild_a04_chain.py保60321451c/b4d2b98完整链；Python3.12.14/NumPy2.3.5/SciPy1.17.0/单BLAS。旧warm、Gauss盲点、八blend、纯metric高K、cap16未完整方向、0241地点纠正等完整已登记边界在下列上版H及对应记录，不重做。R648/651/652仅开放prefix。八次raw普通移出保源/输入/历史恢复见[容量记录](notes/2026-11-20-resume-raw-retention.md)，不改历史。
 
 本次压缩前H保[129a5685](https://github.com/Rogerhu12/math-research-public/blob/129a5685042ec47ad9c971fb95d5a8e42497ccab/topics/visible-flex-larger-amplitude/HANDOFF.md)，内链此前完整交接。所有未付责任继续按open推进；不是等待用户确认的阶段停点。
 

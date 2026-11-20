@@ -297,3 +297,101 @@ R33 §14.3 明确记载本组工具均正式退出0，phase2 manifest 记
 移出后，确需该完整导数列的旧消费者须先按本段恢复到 scratch 并显式传入实际路径；不再称原 raw 链接在当前树仍可打开。
 当前 `resume_20261120` 与本轮完整 closed 求解/几何入口无该旧报告的路径引用，其明确输入链也不以该报告为输入。
 本操作不将小源、原问题材料或数学证明一起删除，不改写已有提交；root 已执行上述普通移出；释放568918 B后继续当前公开求解与完整几何任务。
+
+## 第八次容量操作：R33 strong M20 低到高完整列账本
+
+2026-11-20，Astra-larger-resume-24b2ab87-20261120 / fullclosed_solver。root已普通移出该可重算旧raw，完整原字节保在scratch；以下记录实际恢复入口及全部再生责任。
+
+本次只普通移出可重算派生报告 `notes/2026-11-12-tail-r33-strong-m20-low-to-high-column.json`，568756 B，SHA256 `f9aef3bff332ad24babf007e8c5e6fd5d58a64a169e8099a8af95b557ffc42bc`。完整原输出的固定公开提交为 `46c0db11b34296b7c05223842f7d34594fb66ab9`，Git blob `92c0edb20a05059cfb639c374e72a5751326e488`；本次已核当前完整原字节摘要及该历史 blob 身份。它是胞12–224共213行的导数列账本，不是原始问题、源码或证明。R33 §17、[原强 M20 说明](2026-11-12-tail-r33-strong-m20-high-response.md)及[完整重建 manifest](2026-11-12-tail-r33-strong-m20-high-response-manifest.json)全部保留，不改原结论。
+
+### 完整源与五个直接输入
+
+主源 `computations/tail_r33_low_to_high_column.py` 6317 B，SHA256 `77ba11616af520796b5ccd9cab542e64633227cf7086b83360fd2f3fe303f6e3`，仍在当前树并与原执行源逐字相同。完整仓库 import 链为 `closure_real_head_source_enclosure.py`、`closure_real_head_green_enclosure.py`、`closure_projective_interval_column.py`；连同主源的完整 SHA/固定历史 blob 已在第七次容量操作登记，四件均继续保留。外部算术依赖为 python-flint；不补造原报告未记录的 Python/python-flint 版本。
+
+本次另逐字核 manifest 的全部11件生成源码，当前均与原 manifest SHA 相同；因此 density/local/wide/causal/joint/column 的完整生成链仍有真实源文件，不能用只有 SHA 的清单代替源码。最短 middle 重建使用的三个额外源为：
+
+| 源文件，均在 `computations/` | 字节 | SHA256 |
+|---|---:|---|
+| `tail_r33_middle_wide_low_density.py` | 3769 | `b0d80bbd21d51d5f2de04bc66293f28470ec6d6a236c7bfdfea5e0fa396af336` |
+| `tail_r33_middle_hybrid_density.py` | 9430 | `465b2a6a6cb5e28fd2f35ddbf489e0f3594348b66ba844468526523136c1b8fc` |
+| `tail_r33_middle_causal_box.py` | 11768 | `9b9c5b5fd0c76a853dc07aa6c4f5ceaea54594e445e961320c7debf3bd867346` |
+
+五个原直接输入的完整身份如下，文件名前缀/路径不省略：
+
+| 输入，均在原 `notes/` | 原 SHA256 | 原字恢复方式 |
+|---|---|---|
+| `2026-11-12-tail-r33-strong-m20-density-window.json.gz` | `3dc23cefdaafb0210548d868d85e5f81f231d9069dcec6670b7684dcbd1eb5a3` | 240299 B；固定 `8ef38046e8b04adc6da1093c0730e1fc8747c2c9`；blob `05cdc755c012a328b8531b6a4433125b3854b0b1` |
+| `2026-11-12-tail-r33-strong-m20-middle-causal-box.json.gz` | `77ecd5fc17cb9d0c1290da2f0eb65a64c81262968f14b3596c0dd9d855bb547b` | 原1978834 B，原即未提交；必须按下述 manifest 链重建，不声称有 Git 原字 blob |
+| `2026-11-12-tail-r33-strong-m20-high-joint-box.json` | `708479849d3fa7c4786503bc72844285f5988eef76a9590063a8d13612ff1e29` | 657776 B；固定 `60592e4f58d80a20e6a575b7d900ec807a9e7374`；blob `180780ac9ac93ab18ac4411eb5a7c7a71a7a7d0a` |
+| `2026-11-12-closure-newg-strong-m20-real-box.json` | `81f8f89aa5ca4ce18d4ea55c33e5fc0d63a8f1776090725af0ab032bc2e703c7` | 当前590044 B逐字匹配；固定 `8ef38046e8b04adc6da1093c0730e1fc8747c2c9`；blob `6a9b14728d0b3d7538c41c5fcfdc4a982c9356be` |
+| `2026-11-12-closure-newg-strong-m20-real-low-far-lift.json` | `41bc0b2407ea83415be43363e212bac2024b1c5d0c9d80fa6684a6d6abe9c2e3` | 当前305825 B逐字匹配；同一 `8ef38046e8b04adc6da1093c0730e1fc8747c2c9`；blob `3ed049d03e242200162e7b9fb2d16054dd8e0c24` |
+
+density 的定向 `git log` 明确记录原加入提交 `8ef38046e8b04adc6da1093c0730e1fc8747c2c9`，后由 `2be1ad966256bc04307f67d86ebabcc21e27d686` 普通移出。本次已实际核上述 density 原压缩字节 SHA；不再猜测 joint 的 `60592…` 提交也含 density。density、middle、joint 当前均不在 main，不能把历史路径说成当前仍可打开。
+
+### 原未提交 middle 的完整恢复路径
+
+完整 manifest 的 `rebuild_order` 是 density→local→wide→causal→joint→column，已包含每段完整命令、源/输入 SHA 和算术 payload SHA。为取得本列的五个输入，最短路径是先恢复已有历史 density、local 及下列固定材料，只新生成原未提交的 wide 和 causal；joint 使用上表的准确原文件，无需重跑已完成联合盒。
+
+以下五件上游原字节本次也已从固定 `8ef38046e8b04adc6da1093c0730e1fc8747c2c9` 核对，与 manifest 全部相同：
+
+| 原文件名，均在 `notes/` | SHA256 | Git blob |
+|---|---|---|
+| `2026-11-12-closure-positive-highband-38.json.gz` | `cf293799252e8beb9ef15ff27dba1ebbe698186cee3258b6f9df34ab8dff5600` | `1bb3cb191977a335488553c70b6e502ed32490eb` |
+| `2026-11-12-closure-middle-high-subhead24.json.gz` | `33acb8d33185b539fef61bbcf91b9d46422625e50fef5101039b858a4e603948` | `2181fca42b2f0447358e0ccbee433c54498975c4` |
+| `2026-11-12-tail-r33-strong-m20-middle-local-homogeneous.json.gz` | `799031c1cd3442c46fac1a0a958fbfa11cf9767dadf2388586509418bb63b2d3` | `05483c8d97481ade4ff2be3f275a6134e2a38b3f` |
+| `2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json` | `563a99973230a7f15d1c1ba8537edae34bc02158a0cfff90160d37f57e3ab2f6` | `4fa8a8a7ae5d482cd0eaf35790db85201bbac4a3` |
+| `2026-11-12-closure-middle-high-subhead16to23.json.gz` | `ae75b84ff4e9a55e5ba538a3651c71d0e3dcd19344aac35249ca553d3438b03b` | `65421d003e4f178cb92833bb9defb3cfcadeafb7` |
+
+wide 原压缩 SHA 为 `d90cfb688f4f1430fc9e7277ddc6ba234ac9a62762e661ab117396e6f4789663`，原算术 payload SHA 为 `33a5437fb63561cfd39db55d22567b49ba484486e57eeb74df5eafffd1ad8838`；causal 的原算术 payload SHA 为 `59212b299a86aa4f98a7bd191083b36f0b6938d137192e9d75035401860889c5`。两件原均明确未提交，不能捏造历史 blob。新运行计时/RSS/输入摘要及压缩字节可能不同，须按 manifest 给出的完整 payload 规则比较算术内容；本次没有运行或宣称新文件已通过这些比较。
+
+### 全部参数及公开 Actions scratch 命令
+
+主列源只有五个输入路径和 `--out`，没有额外数值 CLI 开关；Arb 精度为源中固定192bit，胞12–224共213行。`z_log2=-2224` 与无限半径 $2^{-96}$ 由准确 strong-M20 joint 继承，不可换成第七次 plateau2 的 −2231/−110。原联合盒用 `--domain-weight-floor`，但本列没有这个 CLI 参数。
+
+以下仅为未来确需旧材料时的完整恢复/复算命令，本次未执行科学步骤。`r33scratch` 是 Actions 的独立 scratch 目录。源码先逐字核上述 SHA 与 manifest，再使用当前保留的完整小源；输入原字按固定历史恢复：
+
+~~~sh
+r33src="$REPO/topics/visible-flex-larger-amplitude/computations"
+r33in="$r33scratch/inputs"
+mkdir -p "$r33in"
+for name in 2026-11-12-tail-r33-strong-m20-density-window.json.gz 2026-11-12-tail-r33-strong-m20-middle-local-homogeneous.json.gz 2026-11-12-closure-positive-highband-38.json.gz 2026-11-12-closure-middle-high-subhead24.json.gz 2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json 2026-11-12-closure-middle-high-subhead16to23.json.gz 2026-11-12-closure-newg-strong-m20-real-box.json 2026-11-12-closure-newg-strong-m20-real-low-far-lift.json; do
+  git show 8ef38046e8b04adc6da1093c0730e1fc8747c2c9:topics/visible-flex-larger-amplitude/notes/$name > "$r33in/$name"
+done
+git show 60592e4f58d80a20e6a575b7d900ec807a9e7374:topics/visible-flex-larger-amplitude/notes/2026-11-12-tail-r33-strong-m20-high-joint-box.json > "$r33in/2026-11-12-tail-r33-strong-m20-high-joint-box.json"
+git show 46c0db11b34296b7c05223842f7d34594fb66ab9:topics/visible-flex-larger-amplitude/notes/2026-11-12-tail-r33-strong-m20-low-to-high-column.json > "$r33scratch/original-strong-m20-low-to-high-column.json"
+OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python "$r33src/tail_r33_middle_wide_low_density.py" \
+ --density "$r33in/2026-11-12-tail-r33-strong-m20-density-window.json.gz" \
+ --positive "$r33in/2026-11-12-closure-positive-highband-38.json.gz" \
+ --subhead "$r33in/2026-11-12-closure-middle-high-subhead24.json.gz" \
+ --local "$r33in/2026-11-12-tail-r33-strong-m20-middle-local-homogeneous.json.gz" \
+ --ready "$r33in/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json" \
+ --extra-positive "$r33in/2026-11-12-closure-middle-high-subhead16to23.json.gz" \
+ --out "$r33in/2026-11-12-tail-r33-strong-m20-middle-wide-low-density.json.gz"
+OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python "$r33src/tail_r33_middle_causal_box.py" \
+ --density "$r33in/2026-11-12-tail-r33-strong-m20-density-window.json.gz" \
+ --positive "$r33in/2026-11-12-closure-positive-highband-38.json.gz" \
+ --subhead "$r33in/2026-11-12-closure-middle-high-subhead24.json.gz" \
+ --local "$r33in/2026-11-12-tail-r33-strong-m20-middle-local-homogeneous.json.gz" \
+ --hybrid "$r33in/2026-11-12-tail-r33-strong-m20-middle-wide-low-density.json.gz" \
+ --ready "$r33in/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json" \
+ --extra-positive "$r33in/2026-11-12-closure-middle-high-subhead16to23.json.gz" \
+ --z-log2 -2224 \
+ --out "$r33in/2026-11-12-tail-r33-strong-m20-middle-causal-box.json.gz"
+OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python "$r33src/tail_r33_low_to_high_column.py" \
+ --density "$r33in/2026-11-12-tail-r33-strong-m20-density-window.json.gz" \
+ --middle "$r33in/2026-11-12-tail-r33-strong-m20-middle-causal-box.json.gz" \
+ --joint "$r33in/2026-11-12-tail-r33-strong-m20-high-joint-box.json" \
+ --low-box "$r33in/2026-11-12-closure-newg-strong-m20-real-box.json" \
+ --low-far "$r33in/2026-11-12-closure-newg-strong-m20-real-low-far-lift.json" \
+ --out "$r33scratch/recomputed-strong-m20-low-to-high-column.json"
+~~~
+
+需要逐字原列时只用上述固定 `git show`，无需生成 middle。不得把新复算输出预定为旧完整 SHA；本列原算术 payload SHA 为 `d0a21e1d4a7a6ca06b32eaf582768ddc57afa325b0559bd8dc66579aac6016d8`，其排除字段/序列化规则在完整 manifest 中保留。
+
+### 原状态与现有引用
+
+原列 `low_to_high_paid=true`、`high_to_low_paid=false`、`full_head_closed=false`；最坏中频胞100。原实际 session26802 正式退出0，耗时 `0.7507356370006164s`，峰RSS `74788 KiB`。joint2606 的退出码原未保存，完整 JSON 已有五门通过；本次不将它补写为 exit0。
+
+完整文件名定向检索仅得到三件历史引用文件：R33 §17、原强 M20 说明、完整强 M20 manifest。它们按原状态保留，不把数据链接改写成新的科学结论。移出后确需原列的消费者须先恢复 scratch 并显式传真实路径；当前 `scripts/resume_20261120` 与 `.github` 中没有该文件的路径引用，当前完整闭面求解/几何链不以它为输入。
+
+本次只是必要元数据/源码/输入身份和静态引用核查，没有重算旧结论、没有科学导入执行、没有删除源码或证明，也没有历史重写。单件普通移出释放568756 B；新增说明和后继小源占用另计。
