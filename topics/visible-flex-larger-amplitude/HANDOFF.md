@@ -4,7 +4,7 @@
 
 ## 规则与完整目标
 
-最近规则核查：2026-11-20 17:40 UTC，真实pull/rebase至 `a9fe42bdacec83ab5429229132f867e7bd42ead5`，双README相对上次已读无差异。
+最近规则核查：2026-11-20 17:40 UTC，真实pull/rebase至 `b44731cc49bda05a6e000b1c2a4879d3b839705a`，双README相对上次已读无差异。
 
 科学计算仅本公开仓库Actions；早前本地偏差及13:00 UTC纠正见[执行记录](notes/2026-11-20-public-actions-execution-correction.md)。根README已授权必要修改/发布；根唯一local git writer，代理只work/小源。每条结论普通commit/push；NFF立即pull --rebase循环再推，不强推。至少每小时pull，每次核双README差异/立即遵新规并记commit。raw只scratch/runner，不入Git/Release/artifact；只保完整小源/参数/run/SHA/紧凑结论。题≤200MB，MD<100KB，H<10KB，open<30KB。令牌只瞬时CLI，不写文件/提交/回复。
 
@@ -28,7 +28,7 @@ R653准确quarter；R654完整H²尺度；R655付原node/mid盲空间，故旧18
 
 run2后续：e08同g径向二分/fine1×256→[纯report精化归因](notes/2026-11-20-fixed-g-refinement-report-attribution-and-next-layer.md)→R671同97fd父v3续1×256→实际返回场全first/R675/连续metric；[新队列说明](notes/2026-11-20-R671-actual-diagnosis-v3-continuation-queue.md)。metric先全胞，严格lower超标交求解，只有包围未决才加密；1200s只为自然返回检查点，缺胞全域upper=null，后续继续。两种同级完整父续算入口已备，真实末mu/全位置从实际report恢复；非零尾只同lambda/eta keep-q。实际QP未收敛，CG32不单独定因果；v3已排未启，R680仍准备。
 
-**独立几何worker03**：[run44772201880/1](https://github.com/Rogerhu12/math-research-public/actions/runs/44772201880)，初源e0d4892a，[实际索引](notes/2026-11-20-public-actions-44772201880-1.md)。[真实新场756936ee首jet/半径已返](notes/2026-11-20-geometry03-actual-field-and-radius-return.md)，不是c4a3；warm起字节不同，成因未归。全922嵌入sigma≥.29654，Dbody≤4.09930034/Dmarked≤4.10130034，held/D≥.22886895、grip/D≥.21944259。原8ca全K目标8.1未返，继而同场准确组合；不得跨run继承证书。逐胞续接f476仅准备，不改已admit核。
+**独立几何worker03**：[run44772201880/1](https://github.com/Rogerhu12/math-research-public/actions/runs/44772201880)，初源e0d4892a，[实际索引](notes/2026-11-20-public-actions-44772201880-1.md)。[真实新场756936ee首jet/半径已返](notes/2026-11-20-geometry03-actual-field-and-radius-return.md)，不是c4a3；warm起字节不同；[有限静态核对](notes/2026-11-20-warm-reproduction-static-scope.md)未见简单RNG/未赋值缺陷，实际成因未归。全922嵌入sigma≥.29654，Dbody≤4.09930034/Dmarked≤4.10130034，held/D≥.22886895、grip/D≥.21944259。原8ca全K目标8.1未返，继而同场准确组合；不得跨run继承证书。逐胞续接f476仅准备，不改已admit核。
 
 旧run44748103105已failure结束：pair02真返；R67102已起并自然返但95KB发布故障无可核数值，非未启动/数学失败。[同父两余量实际pair](notes/2026-11-20-actual-full-phi-margin-pair-result.md)均半步接受；.992余量更大，旧场证书不移用97fd。
 

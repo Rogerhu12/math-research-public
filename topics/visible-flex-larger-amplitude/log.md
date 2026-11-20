@@ -225,3 +225,5 @@
 2026-11-20 17:37 UTC / Astra-larger-resume-24b2ab87-20261120：R680数值helper5bc完整刊：固定父branch/radius/norm真实c_i(d)，显式tau，正越界行两遍row-QR最小原范数修正，秩亏整次退回且全旧Cj直接复查；真实模型/row-cache/源码绑定，不把总max代每行。严格L/gamma/tau未付，helper不接受场/不改mu，完整Phi/全点及corrected模型由后续driver承担。仅静态/AST，无science/fixture/实际SOC；接线继续。
 
 2026-11-20 17:40 UTC / Astra-larger-resume-24b2ab87-20261120：R681角矩源da083ae9完整刊：直接复用当前R664正块/完整moving-frame cache，21×50角矩保全部原角权与全M场；按全部observed行Hermite重建真实B_H=(b-h)+h，非legacy行cache。gamma=k/(scale² C0)，原R双侧白化仅利用逐项零块，无单位J扫描/巨大Q/新场读。root与独立静态接口核无具体缺陷，仅AST/源码，不宣称数值PSD/耗时/改善；原线性QP与真实几何分责。
+
+2026-11-20 17:40 UTC / Astra-larger-resume-24b2ab87-20261120：有限追读实际warm separated-QR→pulse DOP853→Hold/mode路径，未见可直接归因的未固定RNG/未赋值槽/时钟数学停止。JSON seconds确可变raw/report SHA，但warm NPZ无该元数据，不能解释实际有限max差。两workflow未锁完整image/wheel/BLAS/libm/CPU分派，未据此猜定原因；af89实际摘要均iteration_budget，不冒time_budget。无science/fixture/参数改动，不重算追历史SHA；同场绑定继续。
