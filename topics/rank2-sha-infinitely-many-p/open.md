@@ -2,7 +2,7 @@
 
 主目标：固定一条 E/Q，完整证明 rank≥2 且无穷不同 p 的通常全 Sha(E/Q)[p∞] 有限。**未完成，持续研究；不在阶段结果、时限或建议处停下。**
 
-[本次整理前完整 open](notes/2026-11-20-open-before-source-nef-comparison.md)逐字保存全部旧问题、公式、条件、预算、来源和更早归档入口；[同期完整 HANDOFF](notes/2026-11-16-frontier-before-padic-reconstruction.md)保已运行 source/run/job 与各原理论检查点。下列未重写的旧门仍有效，编号缺席不表示完成。
+[本次整理前完整 open](notes/2026-11-20-open-before-integral-image-reader.md)逐字保存全部旧问题、公式、条件、预算、来源和更早归档入口；[同期完整 HANDOFF](notes/2026-11-16-frontier-before-padic-reconstruction.md)保已运行 source/run/job 与各原理论检查点。下列未重写的旧门仍有效，编号缺席不表示完成。
 
 ## O1. 固定曲线的秩：已完成
 
@@ -239,7 +239,7 @@ R925§22三个已审优化已接完整Tate与closed/local公开运行44744769424
 
 R934整个J双jet与B原真除p偏移已付，forcing≤15项。B∈H3才有τ0/1低行失败、τ≥d0+2双jet类零；其余≤13项仍须原H1/受限S。完整式见R934及归档。
 
-[R925§23](results/R925-original-ys-affine-rings-and-complete-divisor-ideals.md)：原P152/mixedF144完整低核由RR严格全局生成，J/J0两图全A理想准确给拉回厚除子；同子集全曲线长度2256/1080认证早停且余行全回代。端点配对N=(2/vnew)A+B同时付真零理想；两组各达标才返complete_divisor。当前须先补全核读者，未动运行或冒PASS。
+R925§23以原P152/F144完整低核全局生成两图厚理想，长度2256/1080及全余行返回认证早停；P配对N同时给零理想。§24全分母HNF逐306源行精确除法，完整gI等价旧图核source=unit；独立helper已存，均未接运行。
 
 ## R935：同一原全部修正的准确预算排除
 

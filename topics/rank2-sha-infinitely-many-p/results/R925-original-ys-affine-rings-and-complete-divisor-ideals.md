@@ -1178,3 +1178,13 @@ $$
 同一个非空原子集在两图定义 D_I=π*D+E_I、E_I有效。有限图全长度加另一图完整边界长度达到6degD，就严格有 E_I=0；仍须回代全部余行两图成员关系。目标 P=2256、mixed D′=1080 是全曲线次数，不能只用于有限图。原端点 y=2Y_i/vnew+1 的完整配对分子 Nα=(2/vnew)Aα+Bα 同时准确生成真实零理想；零、极两组分别达2256且全成员回代后，才可返回真正的 complete_divisor 全 schema。
 
 当前 F/P context 只保所选 N/D；执行前须在同原 germ/完整 recipes/零界下恢复全部144/152核，不能虚构已有字段或借 RF900 替换。mixed 分母必须取裸 B∈R2，仍保原 yF 的全 cusp 修正；原四E/全shadow/ordinary门不被这个算法证明替代。完整注 SHA256 `982b4e782d1ec4998689486228f89502e8ac3ff36248a0ce1454a1362225cffb`。
+
+## 24. 同一完整原理想的整分式像与全分母Hermite除法
+
+[完整证明与实现契约](../notes/2026-11-20-original-complete-integral-image-reader.md)及独立helper `original_ys_integral_image_tools.py` 已写。它只用于给定完整I和固定非零g=N/D时求gI，尚未接入运行，不替代一般零极或厚商分式图核。
+
+同原306秩整环上，先付完整H=U M_D和全部反向行包含，再对整个W=H_I M_N作多项式三角除法，必须全部余式零并完整C H=W。令V=C U，核整个V M_D=H_I M_N。由于D非零且原A为整环，V每行就是一个原源基的唯一真实整像；全部306源基保留，所以row_R(V)=gI完整相等。最终仍完整HNF返回。这个门与旧612×306图核的source=R^306严格等价，不是field-rank、逐行清分母或仅长度验证；任一源行不整就失败。
+
+当前两图原E的所有极乘积/真r次幂/N,D保持同对象，完整∞边界、四pair、各自输出及全trace继续核。新法只是避免该处大图核及源HNF；分母HNF和像HNF本身仍可能昂贵，未承诺实测加速或RAM界。原engine、当前请求和既有运行保持其来源。
+
+源SHA256 `268ae368f0aea343b1490d2245d19475e82c193a3dd4f2e0cc747aec49ff86c0`，完整注SHA256 `fc906b45ce2c7960c775cfad0e39401a068086bf96ae319b1885cadc9d877420`；root推导实现、theta核全源等价，只有AST/源码检查，无新数学PASS。

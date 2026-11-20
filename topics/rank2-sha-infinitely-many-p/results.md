@@ -462,3 +462,5 @@
 - [R935](results/R935-original-negative-fringe-all-correctors-budget-exclusion.md)：全原R/S的首法向与严格f0给d_D≥s+2；§7第二法向在d0+2≤τ<min(h,ell)读28首项并分C重数0/1/2。但当前2κ<T≤3κ的共同预算已被原P的d_D≥4κ+3r_src蕴含，不是新排除；真实H1/全余核及受限S继续。
 
 - [R931§11](results/R931-original-complete-shadow-artinian-norm-and-base-prime-layers.md)：完整307×306原单位HNF若认证R·1+I=A，则同原厚商A/I≅R/(detI)，全306返回/omega/真实值保；范数为原k的Res(d,c)，重复因子和全长度不删。独立可选helper已存，非循环明确回原全部π层，尚未应用到运行或冒PASS。
+
+- [R925§24](results/R925-original-ys-affine-rings-and-complete-divisor-ideals.md)：已知完整I的整分式像可用同原M_D的全HNF H=U M_D，逐306源行准确除得C H=H_I M_N，再V=C U完整回代；row(V)=gI等价旧图核source=unit门。独立helper已存，仅整环非零D适用，不改运行或声称成本/PASS。
