@@ -1,0 +1,188 @@
+{
+  "commit": "a4f89c80f0f0b7e5db0f2fb4520b0c3abe8a9861",
+  "complete_surface": false,
+  "diagnostics": {
+    "material-lam002-linear/run.json": {
+      "actual_outer_checks": [],
+      "domain_error_counts": {},
+      "domain_newton_stats": {
+        "accepted_steps": 2,
+        "calls": 1,
+        "minimum_alpha": 1,
+        "no_step": 0,
+        "rejected_domain_trials": 0,
+        "rejected_merit_trials": 0
+      },
+      "physical_sha256": "c54e932618ef7c0f9f16df4e3f2a016983922eba2fb9deb0d64306bcdec04dff",
+      "prefix_audit": {
+        "chart_rho_min": 0.5199999999999999,
+        "core": {
+          "base_mode": 3,
+          "circle_curvature": 0.6842250734411209,
+          "compensation_beta": 0.007781045371335493,
+          "core_kind": "material-curvature-flattening",
+          "curvature_blend": 0,
+          "curvature_guard": {
+            "lower": 0.6839453981051052,
+            "method": "R53-convex-mixture",
+            "upper": 1.974124802417725
+          },
+          "curvature_lower_bound": 0.6839453981051052,
+          "curvature_radius_lower": 0.5065535870757982,
+          "curvature_radius_upper": 1.4621050200360075,
+          "curvature_upper_bound": 1.974124802417725,
+          "exact_perimeter": 6.283185307179586,
+          "halfwidth": 0.21,
+          "halfwidth_coordinate": "material-arclength",
+          "homotopy": 0.02,
+          "implementation_validation": "not yet executed when source was saved",
+          "integration_cells": 64,
+          "original_kind": "PlanarSupportCore",
+          "physical_parameters": [
+            0.06,
+            0.0004725400446617046,
+            -3.8521439125598574e-05,
+            -1.5795677829145083e-07,
+            8.168052457432283e-07,
+            -9.145049581707425e-07,
+            1.153796938038138e-07,
+            -1.0022617291652065e-06
+          ],
+          "quadrature_order": 12,
+          "reflection_roundoff": 1.73749903353837e-14,
+          "scope": "core design only; no full metric, tail, or closed-surface claim",
+          "support_amplitude": 0.06,
+          "target_curvature": 0.2,
+          "transition": 0.25,
+          "transition_cells": 24
+        },
+        "darboux_l1": 0.018769561421974328,
+        "dn_matrix": {
+          "physical_modes": 8,
+          "psi_modes": 8,
+          "scope": "Exact identity of angles at cut; truncated represented height has M physical modes."
+        },
+        "flow_defect": 0.00022653590651032355,
+        "height_max": 0.7826758277989899,
+        "inlet": {
+          "first": 0,
+          "metric_l1": 0,
+          "position": 0,
+          "scope": "The analytical reference lift retains the exact core and its two angular jets; quadrature/inversion roundoff is audited separately.",
+          "second": 0,
+          "unlifted_projection": {
+            "first": 9.481417583724841e-06,
+            "metric_l1": 2.2894705149110504e-07,
+            "position": 2.940975330089173e-07,
+            "second": 0.0003574318788707285
+          }
+        },
+        "kappa_sample": 9.41164017663759,
+        "metric_l1": 2.3928678464055847e-05,
+        "physical_bc_max": 6.88294240125311e-13,
+        "radius_max": 1.0902024764590243,
+        "root_min": 0.002484872825556539,
+        "samples_psi": 512,
+        "samples_s": 1358,
+        "scope": "Sampled physical metric and Cartesian Darboux tensor after exact chain rule. Finite FFT l1 is not a continuous-angle proof. Linear finite port only; full nonlinear mean and Cartesian seam are unpaid.",
+        "support_amplitude": 0.06,
+        "terminal_height_coeff_max": 0.00016741649440800974
+      },
+      "raw_return": {
+        "actual_core_control_meaning": "normal-angle support coefficients",
+        "actual_core_corrections": [
+          0.0004725400446617046,
+          -3.8521439125598574e-05,
+          -1.5795677829145083e-07,
+          8.168052457432283e-07,
+          -9.145049581707425e-07,
+          1.153796938038138e-07,
+          -1.0022617291652065e-06
+        ],
+        "candidate_H": [
+          -0.00016741649440800974,
+          5.010835471243423e-06,
+          7.318444467856739e-07,
+          -1.3774356011436784e-08,
+          -1.6488333353037797e-09,
+          -4.320924552201014e-10,
+          1.0490228672864962e-10,
+          -1.9223569227407954e-10
+        ],
+        "core_summary": {
+          "base_mode": 3,
+          "circle_curvature": 0.6842250734411209,
+          "compensation_beta": 0.007781045371335493,
+          "core_kind": "material-curvature-flattening",
+          "curvature_blend": 0,
+          "curvature_guard": {
+            "lower": 0.6839453981051052,
+            "method": "R53-convex-mixture",
+            "upper": 1.974124802417725
+          },
+          "curvature_lower_bound": 0.6839453981051052,
+          "curvature_radius_lower": 0.5065535870757982,
+          "curvature_radius_upper": 1.4621050200360075,
+          "curvature_upper_bound": 1.974124802417725,
+          "exact_perimeter": 6.283185307179586,
+          "halfwidth": 0.21,
+          "halfwidth_coordinate": "material-arclength",
+          "homotopy": 0.02,
+          "implementation_validation": "not yet executed when source was saved",
+          "integration_cells": 64,
+          "original_kind": "PlanarSupportCore",
+          "physical_parameters": [
+            0.06,
+            0.0004725400446617046,
+            -3.8521439125598574e-05,
+            -1.5795677829145083e-07,
+            8.168052457432283e-07,
+            -9.145049581707425e-07,
+            1.153796938038138e-07,
+            -1.0022617291652065e-06
+          ],
+          "quadrature_order": 12,
+          "reflection_roundoff": 1.73749903353837e-14,
+          "scope": "core design only; no full metric, tail, or closed-surface claim",
+          "support_amplitude": 0.06,
+          "target_curvature": 0.2,
+          "transition": 0.25,
+          "transition_cells": 24
+        },
+        "file": "inner-00.npz",
+        "legacy_input_controls": [
+          0.0004725400446617046,
+          -3.8521439125598574e-05,
+          -1.5795677829145083e-07,
+          8.168052457432283e-07,
+          -9.145049581707425e-07,
+          1.153796938038138e-07,
+          -1.0022617291652065e-06
+        ],
+        "message": "The algorithm converged to the desired accuracy.",
+        "nodes": 605,
+        "parameters": [
+          -2.097038382519753e-08,
+          0.13126112351714017,
+          -0.17833999595184527,
+          -0.012188023016315653,
+          1.0504182687027115,
+          -19.601015049955905,
+          41.21645440522613,
+          -1002.2617291652065
+        ],
+        "rms": 9.990958677553353e-07,
+        "sha256": "2a6f97324986437e2f065bf29e98d55b48e43cf19a3bb9fc321fad7b27d197a4",
+        "status": 0,
+        "success": true
+      },
+      "solver_success": true
+    }
+  },
+  "id": "held10-lambda002-from-warm-01",
+  "returncode": 0,
+  "schema": "held10-live-material-v1",
+  "script": "topics/visible-flex-held-10pct/scripts/resume_m3/portable_prefix_continue.py",
+  "script_sha256": "6dafa9551d5ae4a4f4d59e1b2d4c177efdc6b823e0a7ade826974e4ecdc5c9ea",
+  "status": "finished"
+}

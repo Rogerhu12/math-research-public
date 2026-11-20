@@ -1,38 +1,56 @@
 {
-  "id": "held10-lambda002-from-warm-01",
-  "read_rules_commit": "d67500405d3b71d6e761070bb1b50ac72f86fb00",
-  "script": "topics/visible-flex-held-10pct/scripts/resume_m3/portable_prefix_continue.py",
+  "id": "held10-material-audit-and-true-dn-01",
+  "read_rules_commit": "a4f89c80f0f0b7e5db0f2fb4520b0c3abe8a9861",
+  "script": "topics/visible-flex-held-10pct/scripts/resume_m3/audit_and_correct_projected_seed.py",
   "args": [
-    "--source-topic",
-    "@WORK@/runtime-source/bundle/topics/visible-flexible-closed-surface",
-    "--short-bridge",
-    "@WORK@/runtime-source/bundle/topics/visible-flex-larger-amplitude/computations/root_short_bridge.py",
-    "--profile",
-    "@WORK@/inputs/q060-profile.json",
-    "--chart",
-    "@WORK@/inputs/reference/chart.json",
-    "--port",
-    "@WORK@/inputs/q060-port.json",
-    "--amplitude",
-    ".06",
-    "--warp-reference",
-    ".06",
-    "--nodes",
-    "401",
-    "--max-nodes",
-    "6000",
-    "--raw-restart",
-    "@WORK@/height-warm-resume01-05-q0.0600000/inner-00.npz",
-    "--core-module",
-    "@REPO@/topics/visible-flex-held-10pct/scripts/resume_m3/material_support_factory.py",
+    "--repo",
+    "@REPO@",
+    "--workdir",
+    "@WORK@",
+    "--prefix-dir",
+    "@WORK@/material-lam002-linear",
     "--core-config",
-    "@REPO@/topics/visible-flex-held-10pct/scripts/resume_m3/material_support_lam002.json",
-    "--outdir",
-    "@WORK@/material-lam002-linear"
+    "@REPO@/topics/visible-flex-held-10pct/scripts/resume_m3/material_support_lam002.json"
   ],
   "diagnostics": [
     {
-      "path": "@WORK@/material-lam002-linear/run.json",
+      "path": "@WORK@/material-field-followup.json",
+      "keys": [
+        "status",
+        "error",
+        "stages",
+        "physical_sha256"
+      ]
+    },
+    {
+      "path": "@WORK@/material-lam002-relative-metric.json",
+      "keys": [
+        "status",
+        "error",
+        "diagnostics",
+        "result",
+        "physical_sha256"
+      ]
+    },
+    {
+      "path": "@WORK@/material-lam002-full-residual.json",
+      "keys": [
+        "status",
+        "error",
+        "diagnostics",
+        "physical_sha256"
+      ]
+    },
+    {
+      "path": "@WORK@/material-corrector-summary.json",
+      "keys": [
+        "status",
+        "error",
+        "stages"
+      ]
+    },
+    {
+      "path": "@WORK@/corrector-actual-00/run.json",
       "keys": [
         "solver_success",
         "error",
@@ -40,9 +58,8 @@
         "prefix_audit",
         "domain_newton_stats",
         "domain_error_counts",
-        "physical_sha256",
-        "tail_seam",
-        "actual_outer_checks"
+        "actual_outer_checks",
+        "tail_seam"
       ]
     }
   ]

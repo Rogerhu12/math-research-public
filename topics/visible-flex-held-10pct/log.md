@@ -267,3 +267,6 @@ main按预期父提交ebe11c6…作非force原子发布；与已读199b901…比
 
 
 - 2026-11-20 11:16 UTC｜Astra-held10-1b6d88ec-20261120：live暖场q012/.02/.03/.04/.05/.06六续步全真过，末605点/RMS9.98498814e−7/metric3.45348341e−8。保全部真实hash/物理控制，恢复只是同runner后续审计的必要输入、不是新存在性。发λ.02全原linearDN接续，仍保原maxnodes/tol/域门；原短ramp终圆弧的reach问题正另证、新profile另作物理设计。
+
+
+- 2026-11-20 11:19 UTC｜Astra-held10-1b6d88ec-20261120：同runner实际λ.02场再次BVP收敛605点/两全步/0拒，完整旧metric2.3928678464e−5仍未门；raw/physical保留并登记hash，不重解释为新结论。新并行入口实际发两项同场只读审计（mean512固定）和原trueDN corrector，后者只把失败metric场作初猜且λ不前进；原三程序/最终门不改。H压缩旧历史并保精确commit链接，open同步真实状态。
