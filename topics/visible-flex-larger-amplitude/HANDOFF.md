@@ -57,6 +57,6 @@
 
 ## 当前公开Actions执行
 
-run [44758209061/1](https://github.com/Rogerhu12/math-research-public/actions/runs/44758209061)，源码`4ae162196553e6ce2ef28a6a35bea2d0d567883e`；[实际紧凑记录](notes/2026-11-20-public-actions-44758209061-1.md)。当前`followup:reconstructed-R671-full-phi-actual-mu-02`/completed，返回阶段30；退出码0。
+run [44758209061/1](https://github.com/Rogerhu12/math-research-public/actions/runs/44758209061)，源码`4ae162196553e6ce2ef28a6a35bea2d0d567883e`；[实际紧凑记录](notes/2026-11-20-public-actions-44758209061-1.md)。当前`followup:reconstructed-original-full-phi-six-actual-mu-02`/running，返回阶段30；退出码未返。
 
-Actions规则核查：2026-11-20 16:03:29 UTC，真实pull至`3814487cdd407f87210901779af452ef76cac207`，双README相对已读无变化。
+Actions规则核查：2026-11-20 16:04:08 UTC，真实pull至`5c2d9375b1ddd97afaf50ec0863bbaa099629c1c`，双README相对已读无变化。
