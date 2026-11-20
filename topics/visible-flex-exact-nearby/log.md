@@ -47,3 +47,7 @@ proof7532B/SHAb69206d0；root/positive_inverse/joint_kernel独核degree32→输�
 ## 2026-11-20：准确残差输运、固定内点和完整能量缺陷
 
 proof11269B/SHA9610799407861a9f7c5eca250c9c3370975219879f088b479c7f0e36371ae31d。root与joint独立核D²Psi的完整mean/primitive、epsilon共同角导、H守恒输运、C4/reflection环境均值、修正能量各符号及H^-1/2 Fourier估计；固定p=e_z/2与新outer初值常数10和1/20000均由同实际support/外锚重付。没有令H=0，未将辅助旋转当原radial变分，hybrid差未删；内端型/Grushin体控制/实际残差吸收继续未付。0科学数值。
+
+## 2026-11-20：真实root全角型与两标量几何入口
+
+root整读U篇并修排版，joint独核主符号、C4/reflection拉回后环境均值零（不做无权平均交换）、局部ell确定mean及同完整外锚使C1转移终端差0。准确low96/high97起根域、独立mean与H全部保留；U.8分母须实际离零后才消元，positive principal+compact不授finite正性。新轴ODE与正交误差/16epsilon修补已双核，待公开首次两标量计算；65 Fourier数组只作私有定义，不按规15公开。whole真root/germ/原4650行及接口保，不重旧几何。proof12364B/SHAb2accff252c6f2db52a2fe0e8e24538f99418c1a1fed12730861d31987fc5b16，0本机科学。

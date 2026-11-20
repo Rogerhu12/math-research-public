@@ -1,6 +1,6 @@
 # 待解：同一个精确闭等距族的剩余实际接口
 
-更新2026-11-16。**总任务未完成，持续工作，不等用户。**
+更新2026-11-20。**总任务未完成，持续工作，不等用户。**
 本页及H全部递归前页见[当前完整检查点](notes/2026-11-16-actual-tail-and-terminal-before-scaled-jets-checkpoint.md)1fe66a45/40345/35475095；其内逐字保存共同sign补正、ab95e8019daf1e70de9de0c50a4f0b88ff51c3ef及全部既有原球/域/单位/mean/失败/lost/恢复和未付义务。压缩仅索引，旧成功禁止重算。
 
 ## 1. 总验收与同一个对象
@@ -153,19 +153,19 @@ G以S/T E1856给physical C²整盘/曲率<2/径长<8e−6及同world position/no
 
 截至2026-11-16的本节完整追加记录、所有旧球/域/mean/端点/失败/恢复身份及未付义务，保于[接手前完整open第8节](https://github.com/Rogerhu12/math-research-public/blob/882aa9b74efeaac682df43c197820e7280156357/topics/visible-flex-exact-nearby/open.md#8-执行规则与当前可恢复记录)。这里只压缩索引；已成功数学不重算，原proof范围不扩大。
 
-WIC真tail κ=3已闭；WPN仍须完整e+3dt<1。WPS/WVC/WCTRA充分门均false，不推奇异。W2C固定原WVC，完整signed-centre须用WJK的P+Q*−Q*LcP、五collar项、真J*至R与同Gf后合核；现正补graph4压缩及直接有限状态边值实现。全mean/193head、97root+96outer、7ports、两rhs、真ν/负head/有限物理列/高频/非线性matching均独立保留。
+WIC真tail κ=3已闭；WPN仍须完整e+3dt<1。WPS/WVC/WCTRA充分门均false，不推奇异。W2C固定原WVC，完整signed-centre须用WJK的P+Q*−Q*LcP、五collar项、真J*至R与同Gf后合核；原小K配方现已严格排除，转直接有限状态边值逆。全mean/193head、97root+96outer、7ports、两rhs、真ν/负head/有限物理列/高频/非线性matching均独立保留。
 
 2026-11-20新公共run44712172133/1已通过完整native输入读取；0新科学目标、0旧重算。原43921663540/1失败是他题workflow静态白名单阻塞；根规12下已移除此行政门，实际每次rebase后仍核全topic+输出≤200MB。新科学数值继续用本仓库Actions；每结论独推、非FF立即实际rebase循环，pull后两README差异记H。
 
 [R135](results/R135-no-harmonic-interpolation-of-disjoint-sign-bendings.md)只排固定浸入中心的线性弯曲核内路径（至多平移）。这封住Ghomi等离散符号族的简单连续化，不排一般非线性修正，不计本题完成。主线继续精确core/全频逆与可见比例。
 
-[R136](results/R136-stable-complete-joint-centre-columns.md)关闭graph4递归高秩实现缺口：以稳定源列保完整核和193观察，源码已合入、仅AST。首次科学运行先判断low-family比较预算；连续中心端点逆、真实finite转换与最终非线性义务不变。
+[R136](results/R136-stable-complete-joint-centre-columns.md)关闭graph4递归高秩实现缺口：以稳定源列保完整核和193观察，源码已合入、仅AST。原smallK配方已由完整centre下界排除，保留本表示供直接逆；真实finite转换与非线性义务不变。
 
 [R139](results/R139-necessary-budget-for-fixed-W2C-comparison.md)给固定旧费用的必要门K+ε<1/128。[原L实际三量](results/R139-supplement-actual-complete-low-family-budget.md)44724797559/1已成并冻结：L≈3.7923616923e−5，未触发排除；原50条已成3条，余47未算，五完整graph/finite门/逆均未给。
 
 [完整中心均值原子](results/R139-supplement-complete-joint-centre-mean-atom-lower-bound.md)已证纯mean的CFB严格0与K²≥∫|a00/q|²；[实际44727185157/1](results/R139-supplement-actual-complete-centre-mean-floor-excludes-fixed-recipe.md)全155panel给J_lower≈6409.59094，K>80，严格排除原小K配方。该独立1条冻结，原余47不再为此配方计算；不推真实算子奇异，转R141/R137直接逆并继续几何能量。
 
-[独立mean atom结果](results/R139-supplement-actual-mean-atom-floor-not-excluding-fixed-recipe.md)44721682192/1已成3条必要下界，乘积≈5.27012349e−10未达1/16384；成功冻结，不计原50条。[R140完整分块](results/R140-complete-mean-split-low-family-comparison.md)已证192/mean1四块与保核权RMS，新配方未算；当前原L已小，先判断完整centre是否能过预算。
+[独立mean atom结果](results/R139-supplement-actual-mean-atom-floor-not-excluding-fixed-recipe.md)44721682192/1已成3条必要下界，乘积≈5.27012349e−10未达1/16384；成功冻结，不计原50条。[R140完整分块](results/R140-complete-mean-split-low-family-comparison.md)已证192/mean1四块与保核权RMS，新配方未算；原配方现已排除，此新未算配方不计已成量。
 
 三次原L失败44716804300/44719196440/44723722475均0scalar，完整回执保在各自CI目录；[零端点](results/R139-supplement-certified-zero-endpoint-interval-continuation.md)、[正pivot/endpoint hull](results/R139-supplement-positive-reference-pivot-and-endpoint-hull.md)、[正乘积](results/R139-supplement-directed-upper-products-for-complete-Green-comparison.md)包含修复均不改原对象。旧endpoint YAML/jobs0与第139panel/0传播失败也原样保留；后续成功不重分类旧失败。
 
@@ -184,3 +184,5 @@ WIC真tail κ=3已闭；WPN仍须完整e+3dt<1。WPS/WVC/WCTRA充分门均false�
 [actual outer能量补篇](results/R138-supplement-actual-outer-rotation-energy-and-mean-defect.md)已支付真实全频外端负型及mean初始角缺陷，并识别原Qδ零stable齐次核的H^1/6外迹。现在须代入真正inner low even96=0、high stable的M^(1/3)(−J h1)+h2=0及独立mean；不能改成physical c=0。内部残差吸收、一般粗源常数、hybrid与真DF的差源仍保留。
 
 [残差输运补篇](results/R138-supplement-exact-residual-transport-and-fixed-interior-point.md)已将D²Psi[R,h]唯一方向角导−epsilon x_theta纳入辅助Vomega，得到H_r+partial_theta(epsilon H)=S且S无方向角导；同一固定p=e_z/2给support>2/5并重付outer常数。完整修正能量及保守H^-1/2输运界已证，仍须实际inner全角型和体能量控制W=L2H1/2后完成吸收；不能免费替换hybrid与真DF。
+
+[真实root全角型](results/R138-supplement-complete-root-angular-form-and-two-scalar-geometry.md)已保low even96=0、97起high stable、独立mean与H缺陷。完整mean分母及有限角型须实际核；正高频主符号只给有限入口，不授有限正性。先新算同外锚轴上(q,s)两标量，再付全角比较/真实C0-C1转移、mean分母及完整finite+tail，不重旧geometry。

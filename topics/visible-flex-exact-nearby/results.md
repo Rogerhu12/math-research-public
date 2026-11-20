@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R138真实根端全角型与两标量几何](results/R138-supplement-complete-root-angular-form-and-two-scalar-geometry.md)：原low even96=0、97起全部high stable及独立mean准确化成单一全角二次型；均值分母完整显示且须实际离零，高频主符号2a²s/[m²(−v)]|xi|^-2/3为正，有限部分/尾费用未过门。同一外锚根几何只需二维正交ODE，保whole真根、repair、角C0/C1和全部接口；源码准备不作数值成功。
+
 - [R138准确残差输运与固定内点](results/R138-supplement-exact-residual-transport-and-fixed-interior-point.md)：同Qrepair取固定p=e_z/2得全域support>2/5、|F−p|<222/125；重付外端初值常数10与1/20000。Hessian共同角输运纳入辅助旋转后，H满足无方向角导源的守恒输运式；完整均值、修正能量及H^-1/2费用保留。C4/反射消环境均值；实际内端正型/最终吸收仍待。
 
 - [R139实际完整中心下界与固定配方排除](results/R139-supplement-actual-complete-centre-mean-floor-excludes-fixed-recipe.md)：44727185157/1成功、75输入/25AST/27门，全部155panel给有向J_lower≈6409.59094，故K>80，严格排除要求K<1/128的原小中心配方。独立1条冻结；原3/50已成、余47不再为此配方计算。不推真实奇异，继续直接逆和几何能量。
