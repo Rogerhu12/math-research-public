@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R141实际完整高频四响应](results/R141-supplement-actual-four-complete-high-responses.md)：44740105701/1完成4目标/4完整球，H_B<110、body与root状态各<44、outer even H^-5/6<.563。16 current bytes/SHA/blob、21字段、完整旧对象/资格及5次规则检查已审；旧五源与高图只读，无native恢复或旧科学。结果冻结，实际内部反馈/physical97+96/原finiteρ/七ports/两rhs仍待。
+
 - [R138复合物理预算首次公开消费者](notes/2026-11-20-R138-composed-physical-energy-budget-contract.md)：19当前/9原件、same4651闭格/320bits，只读X全域Z/P与C1、旧几何能量球。精确复合完整mean、I平滑与真实IC均落实；5新sup/2积分/10顺序derived组成一个新预算，按完整保存球判body-only门，真实root C*仍独立。root整读diff/合同并与两分工独审，全部pins和metadata逐字复现；0旧传播或旧target重算。
 
 - [R141已成五源及高图的四响应消费合同](notes/2026-11-20-actual-GH-saved-response-contract.md)：完整5源球与原base0/negative全图只读，三个正交窗口RMS及外trace为4个新小量；16当前/0历史、320bits、600秒科学cap首次封包。全部75位球包含原upper且保存读回后消费；source/worker及metadata逐字复核，0本机科学，实际低高反馈/physical97+96/finiteρ/ports仍未闭。
