@@ -235,3 +235,5 @@
 2026-11-20 17:57 UTC / Astra-larger-resume-24b2ab87-20261120：run44758209061阶段34/35自然返：同g J923→1845，M160/N2048保，全部7377父行在20285细行内；fine256仅alpha1/256，daffb002，finite max.01173084/product.9919991579。共同父Phi7.95010419e−8→7.94767479e−8，比.99969441946；细规则Phi不跨权相减。六jet转移Fss包围.001959非实际误差等号，二阶证书不继承；new-only max未付，一层不证收敛。追加同源纯JSON九trial归因，不重跑场/solve，不据小改善猜频率地板。
 
 2026-11-20 17:57 UTC / Astra-larger-resume-24b2ab87-20261120：R681完整driver最小增强f96刊：真实当前bridge/DI/H/B/R/全正权角矩，actual mutable mu、固定beta1/mu²，不重复gamma；额外field/J/JT=0，构造算术成本如实分记。构造数值不可用明确None→冻结v3，身份布局错误不吞；v4应用失败不链内替换。清理Gc及frame/factor保SOC父A，四种完整源AST接点匹配。只源文本/AST，未来父必须重建冻结→manifest→SOC→f96全body，不以锚点冒身份；尚无实际PCG。
+
+2026-11-20 18:01 UTC / Astra-larger-resume-24b2ab87-20261120：run44758209061阶段36–38真返：97fd同λ1/eta885→7fd35275，v3 256/alpha.5，Phi8.52075845e−8/max.01209078，满步虽更降却product1.00126764；末mu原值，QP未驻点，11raw负乘子的最大规范化gain低于真实释放阈值。非同父v2/v3因果比较。同7fd完整f122全922嵌入/support.29456、D4.11896941、held/D.22806068；b36准确高Z见证全胞活动非平面已付，旧first NP/marker flag不伪改，K/reach/Euclidean幅度/连续metric及精化仍未付。完整输入/源/输出SHA刊，H压缩保上版。
