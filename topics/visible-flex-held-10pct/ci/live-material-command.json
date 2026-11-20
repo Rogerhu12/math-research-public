@@ -1,47 +1,33 @@
 {
-  "id": "held10-material-m12-operator-01",
-  "read_rules_commit": "425838feb9bc499dbb84fc2126b4bc36480df075",
-  "script": "topics/visible-flex-held-10pct/scripts/resume_m3/audit_full_relative_metric.py",
+  "id": "held10-material-m16-transfer-01",
+  "read_rules_commit": "cdf11123ec33f90ab41ff8bfb804b9229e1996b6",
+  "script": "topics/visible-flex-held-10pct/scripts/resume_m3/prepare_lifted_mode_restart.py",
   "args": [
-    "--model-adapter",
-    "@REPO@/topics/visible-flex-held-10pct/scripts/resume_m3/actual_m3_metric_model.py",
-    "--model-config",
+    "--source-run",
     "@WORK@/material-lam002-m12-linear/run.json",
-    "--physical",
-    "@WORK@/material-lam002-m12-linear/physical.npz",
-    "--mean-nodes",
-    "512",
-    "--angular",
-    "512",
-    "1024",
-    "--out",
-    "@WORK@/material-lam002-m12-relative-metric.json"
+    "--modes",
+    "16",
+    "--tail-config",
+    "@WORK@/material-lam002-m12-transfer-v2/tail-settings.json",
+    "--outdir",
+    "@WORK@/material-lam002-m16-transfer"
   ],
   "diagnostics": [
+    {
+      "path": "@WORK@/material-lam002-m16-transfer/transfer.json",
+      "keys": [
+        "status",
+        "error",
+        "diagnostics",
+        "result"
+      ]
+    },
     {
       "path": "@WORK@/material-lam002-m12-relative-metric.json",
       "keys": [
         "status",
         "error",
         "diagnostics"
-      ]
-    },
-    {
-      "path": "@WORK@/material-lam002-m12-linear/run.json",
-      "keys": [
-        "solver_success",
-        "error",
-        "raw_return",
-        "prefix_audit",
-        "domain_newton_stats"
-      ]
-    },
-    {
-      "path": "@WORK@/material-runtime-retry01/material-corrector-summary.json",
-      "keys": [
-        "status",
-        "error",
-        "stages"
       ]
     }
   ]

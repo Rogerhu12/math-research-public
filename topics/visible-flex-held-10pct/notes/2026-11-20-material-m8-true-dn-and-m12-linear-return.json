@@ -1,0 +1,169 @@
+{
+  "scope": "Actual old-g fixed-lambda comparison; design controls remain free; no closed-surface claim",
+  "complete_surface": false,
+  "live_run": 44720589640,
+  "live_terminal_source_commit": "815a8556574a63a2ba86832e4fd267cf13a722ea",
+  "m8_true_dn": {
+    "status": "finite_stage_failed",
+    "process_returncode": 0,
+    "accepted": false,
+    "solver_success": true,
+    "raw_sha256": "82e594a7e0fe1aec54d04123a7efc4894ba8d5595a493412d17885023ade1c59",
+    "run_sha256": "0f0e090af51e0e0d49889e8ebbe226ad39244a464bd395899052da9a0ef1fe75",
+    "nodes": 605,
+    "rms": 9.994103825385873e-7,
+    "metric_l1": 0.00002392882822893711,
+    "p": [
+      -2.0595878004807003e-8,
+      0.1312611236871992,
+      -0.17833999960914437,
+      -0.012188055234933744,
+      1.0504185984216328,
+      -19.601016093043434,
+      41.21563287999211,
+      -1002.2751909592511
+    ],
+    "physical_controls": [
+      0.0004725400452739171,
+      -0.00003852143991557518,
+      -1.579571958447413e-7,
+      8.168055021326615e-7,
+      -9.145050068370343e-7,
+      1.1537739405893467e-7,
+      -0.0000010022751909592512
+    ],
+    "actual_outer_checks": [
+      {
+        "actual_bc": 0.000001544040987219283,
+        "actual_tail": 7.2276365976222e-10,
+        "outer": 0
+      },
+      {
+        "actual_bc": 1.827555864236694e-12,
+        "actual_tail": 9.165499601207053e-10,
+        "outer": 1
+      }
+    ],
+    "tail_seam": {
+      "angular_samples": 512,
+      "cut_metric_c1_fft_l1": 0.00001763541317271273,
+      "cut_metric_fft_l1": 8.395963087835089e-7,
+      "mean_first_actual": 0.0798093295435127,
+      "mean_first_expected": 0.07980933448030975,
+      "mean_first_mismatch": -4.936797040611118e-9,
+      "mean_second_actual": 1.8400725789103025,
+      "mean_second_expected": 1.840072463647764,
+      "mean_second_mismatch": 1.1526253862470526e-7,
+      "nonmean_first_mismatch": 3.6508527259405644e-14,
+      "nonmean_second_mismatch": 7.441353943634708e-8,
+      "scope": "Actual finite nonlinear DN and full mean/nonmean height two-jet. Cut chart is identity through order two. Sampled C1 metric defect is explicit; full Cartesian alignment and infinite closure remain separate.",
+      "tail_converged": true,
+      "tail_record": "tail_0008.json.gz",
+      "tail_shooting_residual": 1.0118582511856337e-9
+    },
+    "stats": {
+      "accepted_steps": 3,
+      "calls": 2,
+      "minimum_alpha": 1,
+      "no_step": 0,
+      "rejected_domain_trials": 0,
+      "rejected_merit_trials": 0
+    }
+  },
+  "m12_linear": {
+    "solver_success": true,
+    "raw_sha256": "4f27506c169e31b40513317c13921f59414a75a27b6132d04f38d4bede8d1dc8",
+    "nodes": 605,
+    "rms": 9.99081085735273e-7,
+    "metric_l1": 0.0000076113375582238974,
+    "flow_defect": 0.00009236253815842251,
+    "physical_bc_max": 2.39455150833467e-14,
+    "audit_angular": 592,
+    "audit_radial": 1358,
+    "p": [
+      -1.667867050206334e-8,
+      0.13118620117739418,
+      -0.17802365350399507,
+      -0.012450966622469804,
+      0.9757925597068262,
+      -15.880492896122506,
+      110.02674837183919,
+      -64.58106784366086,
+      -58.54660091008129,
+      84.23809821726914,
+      -7.632888850134047,
+      197.1663463756197
+    ],
+    "physical_controls": [
+      0.00047227032423861903,
+      -0.00003845310915686293,
+      -1.6136452742720863e-7,
+      7.587762944280279e-7,
+      -7.409202765614915e-7,
+      3.080044783221917e-7,
+      -6.458106784366086e-8,
+      -5.8546600910081295e-8,
+      8.423809821726914e-8,
+      -7.632888850134048e-9,
+      1.9716634637561972e-7
+    ],
+    "stats": {
+      "accepted_steps": 2,
+      "calls": 1,
+      "minimum_alpha": 1,
+      "no_step": 0,
+      "rejected_domain_trials": 0,
+      "rejected_merit_trials": 0
+    }
+  },
+  "metric_l1_reduction_from_original_m8": 3.1438204232843923,
+  "m12_relative_operator": {
+    "mean_nodes": 512,
+    "radial_samples": 1358,
+    "rows": [
+      {
+        "sample_operator_max": 0.0000068295052851007935,
+        "legacy_max_component_fft_l1": 0.000007611337499763785,
+        "common_node_component_difference": [
+          0,
+          0,
+          0
+        ],
+        "operator_peak": {
+          "components": [
+            0.0000066020937281585645,
+            0.0000012560771436897003,
+            -1.0826785235007463e-7
+          ],
+          "operator_norm": 0.0000068295052851007935,
+          "psi": 5.485515297479052,
+          "radial_index": 188,
+          "s": 0.10882018367283212,
+          "theta": 5.568111865962475
+        }
+      },
+      {
+        "sample_operator_max": 0.000006851340731034565,
+        "legacy_max_component_fft_l1": 0.0000076113375532854506,
+        "common_node_component_difference": [
+          0,
+          0,
+          0
+        ],
+        "operator_peak": {
+          "components": [
+            0.000006603494685952782,
+            -0.0000013130335393355536,
+            -1.0482060230909696e-7
+          ],
+          "operator_norm": 0.000006851340731034565,
+          "psi": 4.988505522204105,
+          "radial_index": 188,
+          "s": 0.10882018367283212,
+          "theta": 4.906456072566383
+        }
+      }
+    ],
+    "continuous_certificate": false
+  }
+}
