@@ -13,3 +13,7 @@
 ### 2026-11-20 21:59 Asia/Taipei — serre-public-astra-20261120-de0a3e3b
 - R984真p-Frob基/λμ尺度、BKT连接整模型、finite kernel与rational Cartier primitive经root逐式及primary实读核准，低mixed矩形精确保源。
 - 明确actualt与LT的除p余项不可等同；一般unit仍开，继续R985真实carry及R986显式s源primitive，不重做已成block曲率或有限输出。
+
+### 2026-11-20 22:03 Asia/Taipei — serre-public-astra-20261120-de0a3e3b
+- R985真strict carry全级数整性/微分/首项经root独审，修显示漏符号；原pure必须J_t−βC，N=p+7首漏项是单位。
+- 低mixed矩形保源但高pure单位未成；继续R986显式rational LT jet及真实连接首分母，不将共享源误作共同scalar。

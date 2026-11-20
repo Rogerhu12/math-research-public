@@ -6,7 +6,7 @@
 
 **维护会话：serre-public-astra-20261120-de0a3e3b。** 已部分克隆并真实pull main，接手serre-public-astra-20261115。压缩前逐字状态在[最新H归档](handoff-archive-2026-11-20-before-pure-Hurwitz-residue.md)，沿链保全部旧source/SHA/尺度/失败边界，不重做已登记结论。
 
-**已读规则提交：1628bd3435a9dbaa1eba7d3fa93b65c9940a6dcb**（2026-11-20T13:59:50.440010+00:00；终端真实git pull --rebase origin main，两README无diff）
+**已读规则提交：fab713c9e006ccff7fcd3bf89ae1a3894fc33007**（2026-11-20T14:04:09.009128+00:00；终端真实git pull --rebase origin main，两README无diff）
 
 两README完整已读，SHA256 root 581402c2 / topic 35f82f3d。每结论立即推；每push前且至少每小时真实pull；每pull检查两README，有变只读diff立刻照办并记已读SHA。NFF/lock-ref竞态立即pull --rebase再推直到成功，禁force。PAT只CLI，不入文件/提交；root独占main/H/open/index/log。
 
@@ -47,6 +47,8 @@ R981新pure Hurwitz留数/两digit压缩已独立纸核：s=x^−1/2，f=L(s)/s�
 R983公开run44748379140/job136329516699/source0c4cef11e3825245b8e3edf13f38a6f5fe1749f0成功3.552868857s；四p的low/lowstar/high/highstar为41:9/30/15/36，47:18/13/40/35，227:132/158/191/44，857:625/36/708/855。全部独立输入/留数/Lagrange/Robert及small rational核通过；rows14804B/hash08698e1b、prefix1028f332、summaryacc2d0c6已root纯IO核。**factorial共ξ模型被否**：small41/47 ξ3/ξ6/ξn=4/1/22、26/43/25，25β³G_K6−4G_K3=10/31。只否该准确修正，不否真mixed比较。**current R981 request已完，不重触发**。继续R984真实有限整Poincare/Cartier primitive，保Guerzhoy整余项和原g(T)，不猜共同scalar。
 
 [R984](results/R984-frobenius-regularized-finite-Kronecker-kernel-and-rational-Cartier-descent.md)：Guerzhoy真一次Frobenius给actualt的R=ζ(l_E)−(μ/p)l_E^φ(t^p)整，λ0、μbar=−β。BKT connection L_j在j≤p−2均属原A[x,y]；有限K=e^(RW)Ξ整且仅simplepole，精确保原c_n。其ν_t=−xω+βt^(p−1)f^pdt有rational primitive J_t，Rbar−J_t=h^p且h无常数，故c_n=[T^n]ΣJ_t(gT)^(n−j)L_j(gT)/(n−j)!。仅i≤p−2矩形可丢h^p影响；高pure不能丢actualt→LT的除p坐标carry。一般unit未证，继续R985 carry及R986不同s源的显式J_s。
+
+[R985](results/R985-strict-coordinate-Frobenius-carry-and-original-pure-Hurwitz-coefficients.md)：实际R_T=R_t∘g+μC_g，δ_g=(g^p−g^φ(Tp))/p，C_g=[l_E^φ(g^p)−L^φ(Tp)]/p均整。全级数L′bar=1给C_gbar=δ_gbar/g′bar^p；连接核C′=(g/g′)^(p−1)−T^(p−1)。所选p∤N−1、N<q−1准确−G_N=[T^(N−1)](J_t(gT)−βC_gbar)。首carry=−3T^(p+6)/7，所以N=p+7的遗漏修正3β/7全原p单位，不能以J选择消掉；低mixed i≤p−2仍不受影响。未由非零修正推总系数非零。
 
 ## 继承任务与永久边界
 

@@ -52,6 +52,8 @@ R946/951/952原Bol障碍O_r(H)=r!(𝒰H)^p/B^(p−r)|SS、kerO=ker𝒰；whole�
 
 [R984](results/R984-frobenius-regularized-finite-Kronecker-kernel-and-rational-Cartier-descent.md)：Guerzhoy真一次Frobenius给actualt的R=ζ(l_E)−(μ/p)l_E^φ(t^p)整，λ0、μbar=−β。BKT connection L_j在j≤p−2均属原A[x,y]；有限K=e^(RW)Ξ整且仅simplepole，精确保原c_n。其ν_t=−xω+βt^(p−1)f^pdt有rational primitive J_t，Rbar−J_t=h^p且h无常数，故c_n=[T^n]ΣJ_t(gT)^(n−j)L_j(gT)/(n−j)!。仅i≤p−2矩形可丢h^p影响；高pure不能丢actualt→LT的除p坐标carry。一般unit未证，继续R985 carry及R986不同s源的显式J_s。
 
+[R985](results/R985-strict-coordinate-Frobenius-carry-and-original-pure-Hurwitz-coefficients.md)：实际R_T=R_t∘g+μC_g，δ_g=(g^p−g^φ(Tp))/p，C_g=[l_E^φ(g^p)−L^φ(Tp)]/p均整。全级数L′bar=1给C_gbar=δ_gbar/g′bar^p；连接核C′=(g/g′)^(p−1)−T^(p−1)。所选p∤N−1、N<q−1准确−G_N=[T^(N−1)](J_t(gT)−βC_gbar)。首carry=−3T^(p+6)/7，所以N=p+7的遗漏修正3β/7全原p单位，不能以J选择消掉；低mixed i≤p−2仍不受影响。未由非零修正推总系数非零。
+
 ## O3：固定低权cohomology与原Igusa投影的边界
 
 [R944](results/R944-original-CM-Gauss-Manin-homotopy-and-supersingular-principal-parts.md)给原fine base上
