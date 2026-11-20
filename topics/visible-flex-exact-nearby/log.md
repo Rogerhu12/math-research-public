@@ -407,3 +407,5 @@ source+完整v2 manifest先已7ee7f0e344b98412da400940c9fa6d58a9ef3afe刊出；m
 2026-11-20 09:54 UTC｜visible-exact-astra-ac637-20261120：09:50执行环境断连；09:54真实pull再次返回No usable execution environment，API核main 6de107b037d8e4811340ec6dcc784a4e1f7746c9及两README空diff，不冒充pull。按根规8继续小文本登记；R136完整signed-column源码与证明、R137连续端点系统已在scratch写出，待恢复合入；继续预算必要门及高度/曲率残差桥，不把任何未执行数值计成功。
 
 2026-11-20 10:00 UTC｜visible-exact-astra-ac637-20261120：证明并合入R136完整WJK稳定源列表示，fixed128/256支持不截真tail，所有collar项/193atoms/signed合并保留；源码81237B/SHA a756bd51f61778fc15e907f39934126e91882878bb89076804b057919aa6061d、仅AST。执行恢复后真实pull至ba6fe7a25b83322caa21ba1bc11ba31e52002127、两README空diff；继续先算低family预算必要门，再推进全逆。
+
+2026-11-20 10:01 UTC｜visible-exact-astra-ac637-20261120：证明R139完整比较门单调性、精确剩余K预算及有理必要门；固定旧WVC四费用使L≥1/128时gate≥30793/30720>1，只排既定上界配方，不推真实奇异。R136已推130f35972；最近真实pull读点ba6fe7a25b83322caa21ba1bc11ba31e52002127、两README空diff。接着运行low-family三标量及直接低中心端点诊断。

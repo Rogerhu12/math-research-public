@@ -160,3 +160,5 @@ WIC真tail κ=3已闭；WPN仍须完整e+3dt<1。WPS/WVC/WCTRA充分门均false�
 [R135](results/R135-no-harmonic-interpolation-of-disjoint-sign-bendings.md)只排固定浸入中心的线性弯曲核内路径（至多平移）。这封住Ghomi等离散符号族的简单连续化，不排一般非线性修正，不计本题完成。主线继续精确core/全频逆与可见比例。
 
 [R136](results/R136-stable-complete-joint-centre-columns.md)关闭graph4递归高秩实现缺口：以稳定源列保完整核和193观察，源码已合入、仅AST。首次科学运行先判断low-family比较预算；连续中心端点逆、真实finite转换与最终非线性义务不变。
+
+[R139](results/R139-necessary-budget-for-fixed-W2C-comparison.md)给固定旧费用下的必要门K+ε<1/128。当前先独立计算完整low-family比较L的3条记录；若L≥1/128，登记此配方不可能通过并转直接中心BVP，余47条未算。若未触发排除，只复用这3条继续原新目标，不能称finite门已通过。

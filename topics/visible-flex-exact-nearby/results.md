@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R139：固定W2C比较配方的必要预算](results/R139-necessary-budget-for-fixed-W2C-comparison.md)：完整门对K严格递增，旧WVC费用推出K+ε<1/128的必要条件；可先算low-family的3条比较记录，超门只排配方，不推奇异。给出通过必要门后的精确K剩余预算，0新科学数。
+
 - [R136：完整联合中心核的稳定源列表示](results/R136-stable-complete-joint-centre-columns.md)：同WJK算子的固定128/256高带源列，全部collar项、真J*至R、193 atoms与同点signed合并后abs；源码AST通过，未算新数值，不授finite逆。
 
 - [W2C 真 collar 有符号系数与完整族差源码合同](notes/2026-11-16-R133-true-collar-signed-packet-interface.json)：原65 signed offsets、13 intrinsic complex、193族误差及实际η均按原字段绑定；完整二次差和三primitive词、真实mean行与转置伴随、body与collar各自域及224/896费用已实现。源码无入口、无文件读写；只做纯式/字段核，未执行科学或AST，完整consumer仍在接线。
