@@ -5,13 +5,13 @@
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近实际部分克隆/pull及已读规则提交：`74e1ca264a87d14916c7cd51d55b51b5500425a7`；2026-11-20 15:44:24 UTC 实际pull --rebase，两README相对45d33ff7差异为空；下一次最迟一小时内。
+- 最近实际部分克隆/pull及已读规则提交：`0400ed61bc42269c996cafb4a86b008b96ce699f`；2026-11-20 15:47:18 UTC 实际pull --rebase，两README相对2c36670e差异为空；下一次最迟一小时内。
 - 仅写公开main；每条完整结论即提交，推前pull --rebase；非快进循环，不强推、不存令牌。数学只在公开Actions执行；重算输出不入库/Release、不分块，只存源/args/run/hash。
 - H<10KB、MD<100KB、open尽量<30KB、文件<5MB、题≤200MB；log每轮≤5行，不写根LOG。规则已读未变。
 
 ## 完整检查点与当前分工
 
-[最新完整H](notes/2026-11-20-handoff-before-scalar-colon-gate.md)逐字保全部旧条件、源/run/hash及归档链；入口[results](results.md)、[R901–950索引](notes/PROOF-INDEX-R901-R950.md)、[open](open.md)；旧已付项的完整链接保该检查点。root唯一metadata/ref写者并整合公开门；global续原ordinary/global底，deep续同P真实forcing，theta续四指定中央/边界并交叉审源码。四主门均保留；R364/R561/R654/R712及主目标仍开。
+[最新完整H](notes/2026-11-20-handoff-before-full-fiber-first-source.md)逐字保全部旧条件、源/run/hash及归档链；入口[results](results.md)、[R901–950索引](notes/PROOF-INDEX-R901-R950.md)、[open](open.md)；旧已付项的完整链接保该检查点。root唯一metadata/ref写者并整合公开门；global续原ordinary/global底，deep续同P真实forcing，theta续四指定中央/边界并交叉审源码。四主门均保留；R364/R561/R654/R712及主目标仍开。
 
 ## 第一门：同原映射、完整函数环与原shadow
 
@@ -21,7 +21,7 @@
 - R924§11–15原TUV/DS204/36cusp/Y666/ys核360/DS值/vF与三Yi核144/152全PASS；全部厚结构、原身份及run/hash见原节。
 - R925完整306表/整核API/六厚cusp全289与666坐标已PASS。旧closed/local44730598782、新完整Tate44744769424及closed/local44744769326仍运行；新source6e97468ea，全部job/hash见§22及完整H。
 - R926§11 run44732115204/job136274270348/source192c28161原紧缩及maps全PASS；低核84/76/74/74、1633/1429交叉、七方程/W/反射与同L权2/3保，全部hash在原节。完整pole/E/trace未算。
-- [R927§9](results/R927-original-yF-pole-degree-from-mixed-kernel-and-cusps.md)原e/z完整实际PASS：run44736604477/job136289459332/source8e2413043，e=0、z=96、dF=1296；原900核/DS51二次因子全rank0、∞289首idx192/微分2⁶及回代齐，1611.709秒。F_first、每E全度39840、E00=E01/E11=E12的分支已付；完整pole/E及shadow未算。result ed95578b…cfab6、全源/日志hash在原节。
+- R927§9 run44736604477/job136289459332/source8e2413043原e0/z96/dF1296实际PASS；全900/DS51/∞289/2⁶返回及所有hash在原节。F_first、每E39840、两对相同E分支已付，完整pole/E/shadow未算。
 
 R880/883全18×9/双轴/原A,C及四完整交除子00/01/11/12保持；Norm含ell²旧回归已过。四大交除子和原shadow未算，完整成本2256+r*dF或2256(r+1)，全闭点度/厚长度/无穷边界/Artin不删。有限AJ非零不替无穷p/ordinary桥。
 
@@ -76,3 +76,5 @@ R931§12修正source3a7bbe995的四入口15:12 UTC均已运行：六P44761009320
 [R938](results/R938-original-full-source-finite-offsets-and-affine-carry.md)：原jH3+D2/D3正是全Z_m限制核；四低门杀物理长2m，只余away的真实源像；有限概形全长m(d_D−3κ−2)，不认像维等于全长。行下降及合法lift不变齐。§9精确读实际≤13/≤12位carry；m≤T时若第一p²修正存在，它已迫ell3(beta3)=c2≠0，不能再借同页消零。K2不变/受限S及联合后页保。
 
 R927§10–12原mixedF全144/IB1080/IA4752、不交及q/q0双框保；原IC与全两商/回乘/边界才给零极1296，全部条件在原节。独立31源run44765106737/job136387502855/source31c234ea1于15:37实际启动。§12单scalar核及逆函数整像helper独立未接，当前run仍两通用colon；完整除子/E/shadow无新PASS。
+
+R938附A原首项R1=(Y−1)^4A2，两个有限类同读全部3系数；D2 t²由真实v0(H)≥4迫，有限图/第四例外节点厚限制合长2m>2，不能猜degF0=3。原三列只付全Wlow满像；τ=h+1末行补−12(uhat0/e0)²A2(1)/q(P_C)，实际K1/K2及全页仍待。

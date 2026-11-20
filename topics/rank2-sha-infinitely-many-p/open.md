@@ -2,7 +2,7 @@
 
 主目标：固定一条 E/Q，完整证明 rank≥2 且无穷不同 p 的通常全 Sha(E/Q)[p∞] 有限。**未完成，持续研究；不在阶段结果、时限或建议处停下。**
 
-[完整前档](notes/2026-11-20-open-before-scalar-colon-gate.md)保全部旧问题、公式、条件、预算与归档链；[旧H](notes/2026-11-16-frontier-before-padic-reconstruction.md)保旧source/run/job。未重写的门均仍有效。
+[完整前档](notes/2026-11-20-open-before-full-fiber-first-source.md)保全部旧问题、公式、条件、预算与归档链；[旧H](notes/2026-11-16-frontier-before-padic-reconstruction.md)保旧source/run/job。未重写的门均仍有效。
 
 ## O1. 固定曲线的秩：已完成
 
@@ -233,11 +233,7 @@ R931§12/12.1：Artinian44747799006与首六P44759336052均实际触旧absolute_
 
 R933附A已完整付原W五块p^(7−h)、γ p6及r0真除p端点，恢复L5 modp7和实际E_p=4γ^6jS−(4γ)^6jU。规范2的K6真carry相消，−9/35不能单独迫非零。
 
-R925§22三个已审优化已接完整Tate与closed/local公开运行44744769424/44744769326，31源全等，旧作业保来源继续；无新增PASS。
-
-R934保同P全J双jet及B真除p偏移，完整式见原节；R936/937继续实际陪集及同H1，受限S全p³仍独立。
-
-R925§23/25.1原P152完整低核两图零极读者已接独立30源公开入口；真实P-only输入和原函数双图全返，两个2256、全部余行与完整boundary保，尚无计算PASS。§24全分母HNF整像独立helper仍未接消费者。
+R925§25六P独立30源保真实P-only、全152/双2256/余行/完整boundary，尚无PASS；§24全整像已用于独立F来源，完整消费者仍待。
 
 ## R935：同一原全部修正的准确预算排除
 
@@ -262,3 +258,5 @@ R937附A/B：同q全部合法native尾方向对两条固定行零响应；给定
 ## R927§10：完整原F双图零极门
 
 [R927§10](results/R927-original-yF-pole-degree-from-mixed-kernel-and-cusps.md)已付原144低B、同a/b整像与两图标量q/q0，IA/IB全度4752/1080且不交；IC=IA+qIB后的完整两colon/回乘给真零极，1296仅末端核验。§11原F run44765106737已启动；§12单scalar核/逆整像独立未接，完整除子/shadow仍待。
+
+R938附A付R1=(Y−1)^4A2及beta2/3的完整A2读取；原两图含末例外厚节点，保degF0=1/2/3，2m>2给唯一恢复。三列仅付Wlow三维满像，实际K1/K2像仍待；τ=h+1末normal补−12(uhat0/e0)²A2(1)/q(P_C)，全部carry/受限S继续。
