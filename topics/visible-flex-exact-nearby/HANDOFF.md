@@ -6,7 +6,7 @@
 ## 规则读点与接续来源
 
 部分克隆：`/workspace/scratch/ac637cfcc78d/math-research-public`。终端 git 已恢复，无 AGENTS。
-2026-11-20 10:04 UTC实际 `git pull --rebase --autostash origin main` 至 `c439767c4c31c29ff502ecd470b8780ca724d08d`；已读规则提交同上，两README相对96edc677空diff。09:50–09:58执行短断连现已恢复，API不算pull。下一次实际pull不晚于11:04 UTC；每次pull后核规则差异。
+2026-11-20 10:07 UTC实际pull/rebase至 `e890359bc1cd209ea554934413c2548c6964d23a`；已读规则提交同上，两README空diff。09:50–09:58执行短断连现已恢复，API不算pull。下一次实际pull不晚于11:07 UTC；每次pull后核规则差异。
 
 接手前完整 H（含全部递归原页、成功/失败/恢复身份和未付义务）见 [2026-11-16 完整检查点](https://github.com/Rogerhu12/math-research-public/blob/882aa9b74efeaac682df43c197820e7280156357/topics/visible-flex-exact-nearby/HANDOFF.md)。本页只压缩索引；`open.md` 及所链接的原证明、适用域、均值、物理角、所有边界和误差费用继续有效。旧成功结论不重算。
 
@@ -56,7 +56,7 @@ geometry `43584188751/26` **仅条件性**：同η0真 wholecore（含帽）C0�
 1. `joint_kernel` 的稳定graph4已按R136合入；现实现独立低family比较预算诊断，先算原graph3的3条新scalar。若L≥1/128，按固定WVC旧常数可直接排除此充分界配方；其余47条未算，不反推奇异。
 2. `positive_inverse` 的R137与精确BVP接口、低193/97诊断模块已合入且AST通过；在独立scratch准备公共owner/workflow。仅midpoint比较算子启发式，完整CFB/原均值端口/实际family误差未付。
 3. `global_route` 完成R138残差敏感几何桥，继续不依赖全正height法向的rotation-field边界能量；实际mixed边界正性/残差吸收仍未证。R135已排固定线性核连续化，小振幅R520不替验收。
-4. root 维护 main/H/open/results/log。首次科学运行尚未启动；先加入 K=0 的比较配方预算检验，若其严格下端≥1，可排除既定充分界配方而诚实保留 graph4/5 未算；不能反推实际算子奇异。代理不动git。
+4. root 维护 main/H/open/results/log。新workflow `fourfold-codazzi-low-family-budget-public.yml` 随本提交触发首次low-family三标量计算；清单62current/21原件、原7模块完整保留，只算原50条中的3条。worker仅新增已pin角色入口选择，原science默认不变；实际run及结果随后记入H。代理不动git。
 
 ## 正侧以外仍未付的接口
 

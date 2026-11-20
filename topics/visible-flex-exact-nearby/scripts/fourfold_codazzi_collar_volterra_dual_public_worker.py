@@ -528,7 +528,10 @@ def main():
               pending["reserved_bytes"]+RESERVE<=LIMIT,
               "full publication, concurrent pending outputs and reserve before science")
         native_args=restore()
-        command=[sys.executable,str(root/manifest["scientific_modules"][0]["path"]),
+        entry_role=op.get("scientific_entry_role","science")
+        entries=[item for item in manifest["files"] if item["role"]==entry_role]
+        check(len(entries)==1,"one fully pinned scientific entry role")
+        command=[sys.executable,str(root/entries[0]["path"]),
                  "--repo",str(root),"--manifest",str(mpath),"--manifest-sha",args.manifest_sha,
                  "--bits",str(manifest["parameters"][op.get("bits_parameter","bits")]),"--out",str(output),*native_args]
         state["actual_scientific_checkout"]=git("rev-parse","HEAD").stdout.strip()
