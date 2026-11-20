@@ -234,4 +234,8 @@ positive推P1–16与pure模块15478B/c316efd9，root整读proof/math并逐N10�
 
 ## 2026-11-20：真实速度的平衡能量与完整径向根容量
 
-global发现两个梯度Gram在η^-1/η权下互补，joint写LC1–19，root/global全部独核。两prefactor同1/(σ|v|)，完整H直和费用αγ(u²+Kv²)/|v|；α缩放与容量反向缩放同步，不能免费缩CE。自由外值比较给正容量与完整反向DtN，q0极限/真h单调方向及k0均保。将根角χ固定径向延拓到测试函数，两能量分别乘χ′与1/χ′，准确授N_pq(Tχa)≤√g N_pq(a)，从而可消费完整weightedGram；不混intrinsicη0与η=−γm。0新科学/旧target，未授新预算通过。H旧R138长段逐字保本次前实际head '+head+'。
+global发现两个梯度Gram在η^-1/η权下互补，joint写LC1–19，root/global全部独核。两prefactor同1/(σ|v|)，完整H直和费用αγ(u²+Kv²)/|v|；α缩放与容量反向缩放同步，不能免费缩CE。自由外值比较给正容量与完整反向DtN，q0极限/真h单调方向及k0均保。将根角χ固定径向延拓到测试函数，两能量分别乘χ′与1/χ′，准确授N_pq(Tχa)≤√g N_pq(a)，从而可消费完整weightedGram；不混intrinsicη0与η=−γm。0新科学/旧target，未授新预算通过。H旧R138长段逐字保本次前实际head bbbdf85f7863ff585184d4243180f09c4a32234a。
+
+## 2026-11-20：原WPN两完整右端的准确WOB提升
+
+positive推L1–25及pure13580B/2c5002f9，global整篇/整源独审；root再逐WOB24–31/WDS2–3/WHVA完整界和原exact q floor核同。k=F+C*EcEc*e、a=k+w让任意L2不求导/取迹，只w承担端点；原d97与Theta b96分别由w真迹恢复。准确源是ALk/BHLk、root-even−Ec*e、right97=(Theta eodd,emean)，无多余p0c，fullmean保。原N24480与两行经正交分解全恢复，only58/224实际成功后另算32整响应，能给同原square的新直接双边逆而不改旧trial/finiteρ false。原WHVA四界与D mean子列只读，完整root pair给k=0，独立low jump保阶跃及负endpoint；ν/germ/negative/接口RHS与roughbaseline原域不扩。证明14771B/29f71c87，0新科学/假manifest，topic未完成。

@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R141原WPN两行的准确WOB源提升](results/R141-supplement-both-WPN-rows-by-exact-WOB-source-lifting.md)：一般L2体源与独立endpoint193完整转为两ordinary高源、raw低源和两个边界端口，a=k+w只对w取迹；原24480有限/径向尾准确保。纯32量合同经root/global独审，须真实58+224通过才消费；新直接fourblock逆仍条件性，旧finiteρ/trial门、实际ν/RHS与negative/非线性不改。0科学/假manifest。
+
 - [R138真实η平衡与径向加权根容量](results/R138-supplement-localized-eta-balanced-energy-and-root-capacity.md)：互补梯度Gram准确消cross，完整H修正保；径向p/q的freeouter容量给真cell递推与k0处理，mean0密度在准确容量范数下仅√Γ，完整weightedGram可保。root/global独审纯解析，0新数；新容量/尾/接收器门仍未付。
 
 - [R141实际物理门后的完整七端口与14列响应](results/R141-supplement-original-seven-ports-after-the-physical-gate.md)：14×16=224新量的pure实现已全审，保原7rough/8high观察、两low源、root-even96/right97、physical height/Robin/mean双注入及joint193。仅真实58门通过后消费；当前low完整结果未供，metadata各失败/两目标分流不冒逆，weighted不冒GH4。0科学/假manifest，原两RHS与finiteρ未付。

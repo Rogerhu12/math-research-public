@@ -1,12 +1,12 @@
 # 交接：可见振幅的精确闭等距族
 
-维护会话：`visible-exact-astra-ac637-20261120`；更新：2026-11-20 14:35:00 UTC。
+维护会话：`visible-exact-astra-ac637-20261120`；更新：2026-11-20 14:44:10 UTC。
 **总任务未完成；继续研究，不等用户回复。**
 
 ## 规则读点与接续来源
 
 部分克隆：`/workspace/scratch/ac637cfcc78d/math-research-public`。终端 git 已恢复，无 AGENTS。
-2026-11-20 14:35:00 UTC 实际pull/rebase至 `1a0e9ccf080a51136d7baf1c5b13d577f4b1c22d`；已读规则提交同上，两README相对96edc6770空diff。每次pull后核规则差异；下次实际pull最迟15:35:00 UTC。
+2026-11-20 14:44:10 UTC 实际pull/rebase至 `8fd09c3c5f5305eca35ca9e8a7a27812405eb38b`；已读规则提交同上，两README相对96edc6770空diff。每次pull后核规则差异；下次实际pull最迟15:44:10 UTC。
 
 接手前完整 H（含全部递归原页、成功/失败/恢复身份和未付义务）见 [2026-11-16 完整检查点](https://github.com/Rogerhu12/math-research-public/blob/882aa9b74efeaac682df43c197820e7280156357/topics/visible-flex-exact-nearby/HANDOFF.md)。本页只压缩索引；`open.md` 及所链接的原证明、适用域、均值、物理角、所有边界和误差费用继续有效。旧成功结论不重算。
 
@@ -39,7 +39,7 @@ R138原真实frame支撑、outer负型、完整残差输运和V弱核能量已�
 
 本段压缩前全文保于 [d080a9e66的HANDOFF](https://github.com/Rogerhu12/math-research-public/blob/d080a9e660c3ba751740c7523e2ac73f352151f6/topics/visible-flex-exact-nearby/HANDOFF.md)，含全部公式/端点/mean/失败和proof索引。
 
-WIC原m160/N24480真tail逆κ=3已证；WPN只有完整e+3dt<1才授双边逆、两RHS与root-even I96。WPS60/WVC56/WCTRA既成门约635240.55/11066.29746/11976.30849均false，不表示奇异、不重算；本轮仍固定WVC。W2C两侧Volterra候选保true J*到R、完整family及dual H1。WJK F=P+Q*−Q*LcP只能在同(r,s)的完整signed centre下合χ′后abs，保五collar项、两三角、193atoms、7ports、2RHS；不能对individual residual删项。
+WIC原m160/N24480真tail逆κ=3已证；原WPN trial只有完整e+3dt<1才授双边逆、两RHS与root-even I96。WPS60/WVC56/WCTRA既成门约635240.55/11066.29746/11976.30849均false，不表示奇异、不重算；本轮仍固定WVC。W2C两侧Volterra候选保true J*到R、完整family及dual H1。WJK F=P+Q*−Q*LcP只能在同(r,s)的完整signed centre下合χ′后abs，保五collar项、两三角、193atoms、7ports、2RHS；不能对individual residual删项。
 
 ## 当前执行续点与分工
 
@@ -48,7 +48,7 @@ WIC原m160/N24480真tail逆κ=3已证；WPN只有完整e+3dt<1才授双边逆、
 1. R141低有向44730452579/1仍运行：71pins/768bits，先Green/defect，过门才4源/193atoms/wholebox；未产字段不读。共享worker98ef3773不动。原L44724797559三量、centre44727185157的K>80及全部旧false冻结，余47不算。
 2. F_B44734581045、GH5 44736533396、GH4 44740105701均冻结。[D44745017016](results/R141-supplement-actual-reference-boundary-lifts-and-complete-193-observations.md)10球body<6.594/complete<7.236，旧44742799448线程0数学失败保；[加权GH44746534556](results/R141-supplement-actual-radially-weighted-high-response.md)5球GB<8.131/HB<30/HZ及Hroot<12/outer<.151，均upper。真实97+96外行未闭。
 3. R138轴44730968113/mean44733403315/X44737045152/Y44740320925及旧false冻结。[GB44745355257](results/R138-supplement-actual-capped-Hhalf-body-absorption-and-root-allowance.md)body三门true、C_allow lower>367；根r仍旧Y。原[96/97负型44745192261](results/R138-supplement-actual-negative-original-root-96-97-form.md)det<−353/显式型<−146，只排全rootdata非负/仅H²费，不推核。
-4. RT/relative/HP/HC全部解析资格见其原proof；[HC实际44750653724/1](results/R138-supplement-actual-original-high-root-lower-bound.md)24pins/6恢复、26字段41球已核冻结，原全部high下界>.7226、κ<.091；5README链全重建。仅fixed trueDF根压缩与两parity辅助逆，未授全逆。[固定全域CE根迹预算](results/R138-supplement-fixed-global-energy-root-receiver-budget-excluded.md)即便exact Gram也已严格排，勿再为该预算做矩阵。[low96核读出单射](results/R138-supplement-original-low96-root-trace-injectivity-on-homogeneous-kernel.md)已证：zL=0时完整源费<25、physical费<125/2<367，原真实齐次核dim≤96；无onto/逆/ν增广。[LC平衡能量/加权容量](results/R138-supplement-localized-eta-balanced-energy-and-root-capacity.md)已证，actual容量/Gram待；global_route/joint_kernel续局部能量，positive_inverse续[14列224量条件端口](results/R141-supplement-original-seven-ports-after-the-physical-gate.md)后的两RHS路由，root审记推；finiteρ/mean/全部接口仍待。
+4. RT/relative/HP/HC全部解析资格见其原proof；[HC实际44750653724/1](results/R138-supplement-actual-original-high-root-lower-bound.md)24pins/6恢复、26字段41球已核冻结，原全部high下界>.7226、κ<.091；5README链全重建。仅fixed trueDF根压缩与两parity辅助逆，未授全逆。[固定全域CE根迹预算](results/R138-supplement-fixed-global-energy-root-receiver-budget-excluded.md)即便exact Gram也已严格排，勿再为该预算做矩阵。[low96核读出单射](results/R138-supplement-original-low96-root-trace-injectivity-on-homogeneous-kernel.md)已证：zL=0时完整源费<25、physical费<125/2<367，原真实齐次核dim≤96；无onto/逆/ν增广。[LC平衡能量/加权容量](results/R138-supplement-localized-eta-balanced-energy-and-root-capacity.md)已证，actual容量/Gram待；[14列224量端口](results/R141-supplement-original-seven-ports-after-the-physical-gate.md)及[WPN两行准确提升](results/R141-supplement-both-WPN-rows-by-exact-WOB-source-lifting.md)纯合同已审；后者保一般L2与原24480尾/独立193，actual58/224/32未付。旧trial门、ν/negative/mean/非线性继续待。
 
 ## 正侧以外仍未付的接口
 

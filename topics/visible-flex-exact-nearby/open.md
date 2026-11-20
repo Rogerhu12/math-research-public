@@ -155,7 +155,7 @@ G以S/T E1856给physical C²整盘/曲率<2/径长<8e−6及同world position/no
 
 本节压缩前的全部原成功/失败、数值球、参数、单位、mean、边界和恢复身份，逐字保于[6dc0acc40完整open第8节](https://github.com/Rogerhu12/math-research-public/blob/6dc0acc409c88fb17849f9f9107005e62ae66551/topics/visible-flex-exact-nearby/open.md#8-当前执行续点与新增路线)，并递归保接手前882aa9b74全部记录。压缩不扩大任何结论范围，成功数学不重算。
 
-WIC原24480细胞真tail κ=3已闭；WPN只有完整e+3dt<1才授逆。WPS/WVC/WCTRA旧false门不是奇异结论。W2C仍保WJK完整signed P+Q*−Q*LcP、五collar项、true J*至R和193atoms/7ports/两RHS；同对象合核后才abs。完整mean、真ν/负radialhead/finite物理列/高频/非线性matching继续各自保留。
+WIC原24480细胞真tail κ=3已闭；原WPN trial只有完整e+3dt<1才授逆。WPS/WVC/WCTRA旧false门不是奇异结论。W2C仍保WJK完整signed P+Q*−Q*LcP、五collar项、true J*至R和193atoms/7ports/两RHS；同对象合核后才abs。完整mean、真ν/负radialhead/finite物理列/高频/非线性matching继续各自保留。
 
 [R139完整centre实际](results/R139-supplement-actual-complete-centre-mean-floor-excludes-fixed-recipe.md)44727185157/1给J_lower≈6409.59094、K>80，严格排原要求K<1/128的小中心配方。原L44724797559/1三量已成（3/50），L≈3.7923616923e−5；余47不再为被排配方算。独立atom44721682192/1三lower未排配方，也不计原50。上述成功冻结，各原0scalar失败及包含修复均保；不推出actual奇异。
 
@@ -199,3 +199,5 @@ R138的[几何桥](results/R138-residual-sensitive-Codazzi-frame-and-geometric-J
 [真正外块后的14列/16行端口](results/R141-supplement-original-seven-ports-after-the-physical-gate.md)解析与pure source已全审：原7rough输入/8high输出、两ordinary low、root-even96、chartedright97及physical height/Robin/mean全保，224新量只在真实58门通过后算。rough只H^-1，smoothhead才用Sc=U；三物理源同时进高d3与g97，rootmixed按原9还原，joint193不误作输入正交。[完整input分流](notes/2026-11-20-completed-low-physical-outer-publication-plan.md)保未供/失败prefix/完整2门false/完整7成功，weighted不冒GH4。core/source/metadata均已入库，当前0新科学，无假low结果/manifest；raw低jump、实际ν/两RHS和finiteρ接口未付。
 
 [LC真实η平衡能量与加权根容量](results/R138-supplement-localized-eta-balanced-energy-and-root-capacity.md)已证：原两个梯度以η^-1/η加权后2×2 offdiag准确抵消，费用αM/(σ|v|)及完整H修正均不付额外2。原drift给径向p=α/η,q=αηK；freeouter容量用全真实cell反向DtN，长度不一律取lower，环境k0保根−外。任意径向容量的mean0 density转授准确≤√Γ，保完整weighted Gram而不退回被排旧Sobolev预算。固定intrinsicη0/原数据不改，所有新容量/finiteGram/尾门未算。
+
+[两WPN行的准确WOB提升](results/R141-supplement-both-WPN-rows-by-exact-WOB-source-lifting.md)解析已闭：对独立(F,e)置k=F+C*EcEc*e、a=k+w，ordinary ALk/BHLk与root-even−c/参考right97完整注入，任意L2不取迹。原24480有限/whole径向尾和193独立atoms均准确保；pure32量仅在真实58门/224表完成后消费旧WHVA四界与D mean子列，实际尚未执行。若新全部门成功可直接证原fourblock双边逆，不将旧finiteρ/trial门改true。root pair恒等和完整low jump阶跃/负endpoint已证；实际ν、physical两RHS大小、negative/全几何及非线性仍未付。
