@@ -753,20 +753,119 @@
       "scope": "Pure JSON/hash attribution, also reports missing or failed fine stages. Compare only the same complete parent finite functional; keep changed fine-rule values separate. New-only maxima remain unpaid except the documented same-array transfer inference. No new arrays, field, J, oracle, fixture or time-grid task."
     },
     {
-      "id": "reconstructed-R671-complete-first-geometry-02",
-      "script": "topics/visible-flex-larger-amplitude/scripts/resume_20261120/exact_reference_tail_interval.py",
+      "id": "actual-R671-v3-full-phi-continuation-02",
+      "script": "topics/visible-flex-larger-amplitude/scripts/resume_20261120/launch_full_phi_exact_tail_from_completed_report.py",
       "parent_bundle": "exact-tail-full-phi-actual-coarse/final.npz",
       "args": [
         "--repo",
         "{repo}",
+        "--work",
+        "{work}",
+        "--parent-report",
+        "{work}/exact-tail-full-phi-actual-coarse/report.json",
         "--bundle",
         "{work}/exact-tail-full-phi-actual-coarse/final.npz",
+        "--carrier",
+        "{work}/recover_evidence/gauss6-current-three/same-scalar-gauss-observations.npz",
+        "--node-report",
+        "{work}/fullclosed_solver/data/fullclosed-hold-warm.json",
+        "--scalar-input",
+        "{work}/fullclosed_solver/data/pulse-a5-complete-base.json.gz",
+        "--manifest",
+        "{work}/geometry_path/curvature-qp-spectral-hessian-r22-union-next-four-witnesses-compact.json",
+        "--qp-source",
+        "{repo}/topics/visible-flex-larger-amplitude/scripts/resume_20261120/fullspace_feasible_active_cg_v3.py",
+        "--directions",
+        "1",
+        "--maxiter",
+        "256",
+        "--active-rows",
+        "192",
+        "--qp-atol",
+        "0",
+        "--qp-rtol",
+        "1e-6",
+        "--outdir",
+        "{work}/exact-tail-full-phi-v3-continuation"
+      ],
+      "outputs": [
+        "exact-tail-full-phi-v3-continuation/report.json",
+        "exact-tail-full-phi-v3-continuation/final.npz",
+        "exact-tail-full-phi-v3-continuation/exact-tail-lift-profiles.json",
+        "exact-tail-full-phi-v3-continuation/exact-tail-lift-profiles.npz",
+        "exact-tail-full-phi-v3-continuation-continuation-inputs/continuation-plan.json"
+      ],
+      "summary": {
+        "exact-tail-full-phi-v3-continuation/report.json": {
+          "complete": "complete",
+          "final_bundle_sha256": "final_bundle_sha256",
+          "initial_damping": "initial_damping",
+          "initial_Phi": "initial.spectral.phi_normalized",
+          "initial_max_gram": "initial.max_relative_gram",
+          "initial_Jw": "initial.radial_weighted_frobenius_sse",
+          "initial_product": "initial_curvature_filter.necessary_reach_product",
+          "initial_known_point_pass": "initial_curvature_filter.passed",
+          "final_Phi": "current.spectral.phi_normalized",
+          "final_max_gram": "current.max_relative_gram",
+          "final_Jw": "current.radial_weighted_frobenius_sse",
+          "final_product": "final_curvature_filter.necessary_reach_product",
+          "final_known_point_pass": "final_curvature_filter.passed",
+          "sample_target": "sample_target",
+          "peak_rss_KiB": "process_peak_rss_KiB",
+          "direction_0_accepted": "directions.0.accepted",
+          "direction_0_alpha": "directions.0.accepted_alpha",
+          "direction_0_Phi": "directions.0.new_merit",
+          "direction_0_damping": "directions.0.damping",
+          "direction_0_qp_status": "directions.0.qp.status",
+          "direction_0_qp_advances": "directions.0.qp.advances",
+          "direction_0_qp_initial_gradient": "directions.0.qp.initial_gradient_norm",
+          "direction_0_qp_gradient_tolerance": "directions.0.qp.gradient_tolerance",
+          "direction_0_qp_projected_gradient": "directions.0.qp.final_face_projected_gradient_norm",
+          "direction_0_qp_minimum_multiplier": "directions.0.qp.minimum_multiplier",
+          "direction_0_qp_maximum_linear_violation": "directions.0.qp.maximum_linear_violation",
+          "direction_0_product": "directions.0.accepted_curvature_filter.necessary_reach_product",
+          "direction_0_bundle_sha256": "directions.0.accepted_bundle_sha256",
+          "direction_0_seconds": "directions.0.seconds",
+          "factory_context_required": "factory_context_required",
+          "lambda": "exact_tail_lambda",
+          "parent_lambda": "exact_tail_parent_lambda",
+          "model_identity": "exact_tail_context.model_identity_sha256",
+          "QP_matvec": "directions.0.qp.operator_products.matvec",
+          "QP_rmatvec": "directions.0.qp.operator_products.rmatvec",
+          "longest_same_face_advances": "directions.0.qp.longest_same_face_advances",
+          "final_actual_linear_residual_relative_defect": "directions.0.qp.final_actual_linear_residual_relative_defect",
+          "negative_raw_multiplier_count": "directions.0.qp.final_normalized_release_diagnostics.negative_raw_multiplier_count",
+          "largest_normalized_release_gain": "directions.0.qp.final_normalized_release_diagnostics.largest_normalized_descent_gain",
+          "actual_release_threshold": "directions.0.qp.final_normalized_release_diagnostics.actual_release_threshold",
+          "actual_linear_residual_recomputed": "directions.0.qp.reliable_update.actual_linear_residual_recomputed",
+          "unconditional_periodic_Krylov_restart": "directions.0.qp.reliable_update.unconditional_periodic_Krylov_restart",
+          "original_qp_and_norm_preserved": "directions.0.qp.reliable_update.original_quadratic_and_Euclidean_step_norm_preserved",
+          "first_trial_alpha": "directions.0.trials.0.alpha",
+          "first_trial_Phi": "directions.0.trials.0.merit",
+          "first_trial_true_geometry_pass": "directions.0.trials.0.curvature_feasible",
+          "first_trial_product": "directions.0.trials.0.curvature_filter.necessary_reach_product"
+        }
+      },
+      "cleanup_generated_patterns": [
+        "exact-tail-full-phi-v3-continuation/inequality-rows-*"
+      ],
+      "scope": "Continue the actual 97fd R671 member after its observed incomplete QP and seven unconditional CG32 restarts; keep lambda/eta/g/mesh/M/N/all rows/norm/mu/all permanent locations and .992/.025, explicit frozen reliable-update v3 for one 256-advance direction, not a causal same-parent v2-v3 comparison or an SOC/geometry-margin relaxation"
+    },
+    {
+      "id": "reconstructed-R671-complete-first-geometry-02",
+      "script": "topics/visible-flex-larger-amplitude/scripts/resume_20261120/exact_reference_tail_interval.py",
+      "parent_bundle": "exact-tail-full-phi-v3-continuation/final.npz",
+      "args": [
+        "--repo",
+        "{repo}",
+        "--bundle",
+        "{work}/exact-tail-full-phi-v3-continuation/final.npz",
         "--node-report",
         "{work}/fullclosed_solver/data/fullclosed-hold-warm.json",
         "--scalar-input",
         "{work}/fullclosed_solver/data/pulse-a5-complete-base.json.gz",
         "--reference-carrier",
-        "{work}/exact-tail-full-phi-actual-coarse/exact-tail-lift-profiles.npz",
+        "{work}/exact-tail-full-phi-v3-continuation/exact-tail-lift-profiles.npz",
         "--mode",
         "first",
         "--cells",
@@ -815,17 +914,17 @@
           "status": "status"
         }
       },
-      "scope": "Fresh complete continuous first geometry of this canonical R671 lambda=1 field using the same original integer scalar and all angular tails; no old-field certificate, no reach/metric/marker conclusion from mere source preparation"
+      "scope": "Fresh complete continuous first geometry of this canonical R671 lambda=1 field using the same original integer scalar and all angular tails; no old-field certificate, no reach/metric/marker conclusion from mere source preparation This not-yet-started consumer now reads the actual returned identical-model v3 continuation member and its own profile; no 97fd geometry is predeclared or transferred."
     },
     {
       "id": "reconstructed-R671-embedded-activity-nonplanarity-02",
       "script": "topics/visible-flex-larger-amplitude/scripts/resume_20261120/exact_reference_tail_nonplanarity.py",
-      "parent_bundle": "exact-tail-full-phi-actual-coarse/final.npz",
+      "parent_bundle": "exact-tail-full-phi-v3-continuation/final.npz",
       "args": [
         "--repo",
         "{repo}",
         "--bundle",
-        "{work}/exact-tail-full-phi-actual-coarse/final.npz",
+        "{work}/exact-tail-full-phi-v3-continuation/final.npz",
         "--embedding-report",
         "{work}/postprocess/reference-tail-first-geometry.json",
         "--node-report",
@@ -860,23 +959,23 @@
           "seconds": "seconds"
         }
       },
-      "scope": "R675 consumes only the actual same-field complete embedding and exact high-Z endpoint jets; no new field/oracle calls or inherited old nonplanarity; flat caps allowed, unpaid sufficient hypotheses stay unpaid"
+      "scope": "R675 consumes only the actual same-field complete embedding and exact high-Z endpoint jets; no new field/oracle calls or inherited old nonplanarity; flat caps allowed, unpaid sufficient hypotheses stay unpaid This not-yet-started consumer now reads the actual returned identical-model v3 continuation member and its own profile; no 97fd geometry is predeclared or transferred."
     },
     {
       "id": "actual-R671-full-domain-relative-Gram-adaptive-02",
       "script": "topics/visible-flex-larger-amplitude/scripts/resume_20261120/exact_reference_tail_metric_adaptive.py",
-      "parent_bundle": "exact-tail-full-phi-actual-coarse/final.npz",
+      "parent_bundle": "exact-tail-full-phi-v3-continuation/final.npz",
       "args": [
         "--repo",
         "{repo}",
         "--bundle",
-        "{work}/exact-tail-full-phi-actual-coarse/final.npz",
+        "{work}/exact-tail-full-phi-v3-continuation/final.npz",
         "--node-report",
         "{work}/fullclosed_solver/data/fullclosed-hold-warm.json",
         "--scalar-input",
         "{work}/fullclosed_solver/data/pulse-a5-complete-base.json.gz",
         "--reference-carrier",
-        "{work}/exact-tail-full-phi-actual-coarse/exact-tail-lift-profiles.npz",
+        "{work}/exact-tail-full-phi-v3-continuation/exact-tail-lift-profiles.npz",
         "--levels",
         "auto",
         "--panels",
@@ -974,7 +1073,7 @@
           "highest_strict_lower_2_lower_degree": "bottlenecks.highest_strict_lower.2.lower_configuration.scalar_degree"
         }
       },
-      "scope": "Frozen complete fd4 kernel on the actual 97fd R671 model: first cover every unpaid original cell, then refine only enclosure-unresolved cells. Genuine point lower bounds identify the need to change the field; missing cells leave complete upper null. Exact README target retained. 1200s is only a natural-return checkpoint admission budget; no research completion or abandoned active call."
+      "scope": "Frozen complete fd4 kernel on the actual 97fd R671 model: first cover every unpaid original cell, then refine only enclosure-unresolved cells. Genuine point lower bounds identify the need to change the field; missing cells leave complete upper null. Exact README target retained. 1200s is only a natural-return checkpoint admission budget; no research completion or abandoned active call. This not-yet-started consumer now reads the actual returned identical-model v3 continuation member and its own profile; no 97fd geometry is predeclared or transferred."
     }
   ]
 }
