@@ -23,3 +23,7 @@ proof18881B/SHA2db0c69c、纯数学源17807B/SHA359e03a9。根整读四块推导
 ## 2026-11-20：原L三量v4首次继续
 
 72完整输入新manifest83494B/SHA382cbdc96a44d990113609d352388ecce3f42f04041620d1134eaec6d43e38be，原69件仅current assembly换af84dcfd，原owner/worker/七角色/三目标/参数/gates及全部历史continuation原字保留；新增正乘积证明及第三失败actual/execution。新v4 marker，v1/v2/v3失败和独立atom/endpoint成功都只读。根逐件核72+worker的bytes/SHA/blob、AST/YAML，0科学；共享budget workflow只改manifest/hash/concurrency，push触发唯一新child。
+
+## 2026-11-20：R141完整有向Green/观察/whole区间合同已证明
+
+proof26086B/SHAbaca5c8b，纯模块24606B/SHA9ffc5c32。root与joint_kernel独立整读：97/96 carrier顺序、两个same-panel三角、远panel Gram、193 atoms、body Neumann与atoms identity、receiver/point-column两Gram及raw SV下界逐项核；h_i和同actual-eta hybrid均保。trial dyadic与覆盖后的exact rational13/80准确区分；原moving-phi mean不冒physical-theta转换。源码全AST，0导入/0科学；七ports/jump adapter未实现、CFB/finiteρ未授，真实ε<1仍需首次Actions。

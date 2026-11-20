@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R141完整有向低193 Green认证](results/R141-low193-directed-green-and-complete-observation-certification.md)：证明97/96双侧chart、全body两三角及root97+outer96 Gram、同真根长度的系数缺陷Neumann转授、atoms identity和逐点whole区间投影/SV下界。原same-eta hybrid范围明确，七ports/CFB/finiteρ仍待；核心源AST、0科学，实际缺陷小量未求值。
+
 - [R139完整Green正乘积补篇](results/R139-supplement-directed-upper-products-for-complete-Green-comparison.md)：44723722475/1在完整context后仍0scalar，严格平方根检查失败。已证明先取非负profile的directed upper点再按原完整正公式运算保持包含，signed kernel/目标/参数/193 atoms均不改；修复AST，新assembly SHAaf84dcfd，预算仍未完成。
 
 - [R140完整192/mean1族差与保核权RMS](results/R140-complete-mean-split-low-family-comparison.md)：同一原moving-phi/same-eta hybrid差上证明四块完整费用，保三有序primitive、独立mean rank与193 atoms；source平方平均只在完整Green核权之后使用，全部4650行/交段保留。新三量配方源码已成、0新数，不删CFB/finiteρ，不移授自然eta_c背景。

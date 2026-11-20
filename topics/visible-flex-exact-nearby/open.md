@@ -173,6 +173,8 @@ WIC真tail κ=3已闭；WPN仍须完整e+3dt<1。WPS/WVC/WCTRA充分门均false�
 
 [R137](results/R137-continuous-signed-centre-and-exact-endpoint-system.md)已将同一连续signed-centre inverse精确改成1217态/609端点问题，排除aux-only核；不是有限Qf直接逆证书，S.18c投影/lift缺陷与ρ因子仍需付。[实际完整诊断](results/R137-supplement-actual-balanced-low193-endpoint-diagnostic.md)44721851908/1已成并冻结：155panel/156分界，raw端点SVmin≈0.3247、全分界≈0.2328，均为浮点中点模型。继续新的严格双侧Green/source/193atoms/whole区间认证；CFB、高family、真实系数差及finiteρ全保。
 
+[R141](results/R141-low193-directed-green-and-complete-observation-certification.md)已闭严格低193认证的解析合同：真h_i保留的精确比较、97/96双侧chart、两Green三角/193atoms、实际系数缺陷ε<1后的完整source及增广二类逆，以及全box真实投影/SV下界。核心源码AST，实际数值未算；原七port输入adapter/CFB/finiteρ仍保。首次owner正备，不重做44721851908成功浮点诊断。
+
 首次endpoint科学44719196304/1因单panel256步预算止于138panel计划，0传播/0SV；新独立balanced续算保原raw矩阵hash，使用原S对角相似变换，逐panel接口返回raw正交帧，完整155panel计划后才传播，step∞4/总8192/wall1800不放宽。它仍是浮点比较诊断，所有proved flags为false。
 
 [R138](results/R138-residual-sensitive-Codazzi-frame-and-geometric-Jacobi-bridge.md)给同Qrepair的实际径向重建、frame/位置/height残差及完整方向桥；193 mixed行不能当Dirichlet，WVC η替换主部差仍是角导源。下一步接rotation-field真实边界能量并付残差吸收，而非从形式椭圆性推全逆。
