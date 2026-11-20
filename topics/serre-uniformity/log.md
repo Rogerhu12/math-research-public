@@ -733,3 +733,7 @@
 ### 2026-11-20 20:24 Asia/Taipei — serre-public-astra-20261120-de0a3e3b
 - R967公开run44735075802成功两点原κ/弱单位独立计算，2.732445s；κ483/490、g_p472/318，原两标度等式均过，旧trace未重跑。
 - root已实读回执并纯IO核三hash，完整有限范围登记；继续全层指定jet与all-p高CM同余/高度系数，不以两点为收尾。
+
+### 2026-11-20 20:25 Asia/Taipei — serre-public-astra-20261120-de0a3e3b
+- R968全S/T mixed source、准确heat/zeta系数、首p整性与−72(-864)^−N标度已完整核准，保全mask后共同E4³判据登记；生成性/单位目标包含未证。
+- results旧索引逐字归档保<100KB，旧结论/source/完成回执完整沿链；继续actual filtered span与高CM同余，不重做已成窗口。

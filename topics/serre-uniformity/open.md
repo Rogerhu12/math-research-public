@@ -31,6 +31,8 @@ R925（r2/8）与R940（r32）已保完整Norm先消、原calibrated log、全�
 
 [R966](results/R966-single-conductor-two-s-CM-kernel-and-original-critical-jet.md)已把原F0⊗G0放回一个具体CM源：完整conductor2s二变量J_o的固定mixed Gaussian在原mark成为真正L6⊠L6截面，全部五个允许张量系数由η4的前三次Ramanujan导数定出，原K0=G0⊗H0+6F0⊗Y0。Π4^u(∂v−6ζ0(v))²K0=−72F0(u)G0(v)，未投影的极点项整体被杀。再u=Ct,v=t取p−6阶jet，用指数a=6i+4对应的λ³和Rq²两个原filter，得到准确U_p(C)。原B_p(C,X0)=(3/2)(p−7)!(-864)^(1−N)U_p′，全支撑a<p均单位，因此U_p零与R959粗因子完全等价。现在应直接限制这个单源的指定filtered jet；源本身非零、秩二或C1总和都不能代此断言。
 
+[R968](results/R968-full-level-mixed-CM-jet-and-critical-factor.md)已给同一源的真正全层版：J_alg=e^(−E2xy/2)J_o/(6η4)的完整heat递推与零参数zeta二阶算子使Z_i属于M_(p−5)(SL2,Z_(p))。原mark/E6^N=−72(-864)^−N fi gj，完整mask后全失败恰系数共同含E4³；等价粗U=Δ/E6²多项式含1+1728U，次数≤floor(N/2)。这是原同h目标的新小空间，不宣称与R959图层多项式离mark相等。可能的真正单位目标A/E4也同权且mark单位，但它落入完整mask后的实际Z_i span尚未证明；方向数/三阶heat/不筛选的生成性不能代替。
+
 ## O2：完整原超奇异迹及真正的whole CM packet
 
 R932用原同一Serre类与相对Frobenius识别V4/V10，保两Igusa、C4、完整Norm及未知但非零原mI(cF)/d1，实际λ在另一companion取值为原完整SS和。指定j0项恰零，不能靠单点评价代替全和。
