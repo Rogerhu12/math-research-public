@@ -1,0 +1,15 @@
+{
+  "schema": "visible-larger-public-research-request-v1",
+  "request_id": "visible-larger-resume-20261120-02",
+  "rules_read_commit": "ede1b7cb39061058e941e8735eed742ecf9fea59",
+  "rules_sha256": {
+    "README.md": "581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102",
+    "topics/visible-flex-larger-amplitude/README.md": "3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d"
+  },
+  "recipe": "topics/visible-flex-larger-amplitude/scripts/resume_20261120/rebuild_a04_chain.py",
+  "stop_after": "continue",
+  "followup_file": "topics/visible-flex-larger-amplitude/computations/resume-20261120-followups-02.json",
+  "controller_budget_seconds": 20000,
+  "continuation_purpose": "Regenerate only the necessary scratch input chain in a fresh public runner; continue unpaid geometry, exact-tail solving and same-g refinement with bounded publication volumes. Prior conclusions are retained, not reclassified as new.",
+  "prior_run_id": "44748103105"
+}

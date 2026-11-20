@@ -4,7 +4,7 @@
 
 ## 规则与完整目标
 
-最近规则核查：2026-11-20 14:54 UTC，真实pull/rebase至 `23d3f26e6f846171bdf1fe2068e2cc3a5f1c6b1e`，双README相对上次已读无差异。
+最近规则核查：2026-11-20 14:55 UTC，真实pull/rebase至 `ede1b7cb39061058e941e8735eed742ecf9fea59`，双README相对上次已读无差异。
 
 科学计算仅公开Actions；本会话此前本地执行的偏差及13:00 UTC纠正见[执行记录](notes/2026-11-20-public-actions-execution-correction.md)。公开仓库内工作；终端git普通push，每条结论推一次，NFF立即pull/rebase再推。至少每小时pull；每次查根/本题README差异，变更立刻读/执行。根README已授权必要修改/发布。根唯一git writer，代理只work/小blob。raw只scratch；Git/Release/artifact只保完整小源/参数/run/SHA/紧凑结论。题≤200MB、单MD<100KB、H<10KB、open<30KB。令牌只瞬时CLI，不写文件/提交/回复。
 
@@ -23,6 +23,8 @@
 .98旧余量和.992当前余量都只是算法screen，不能把超它们称真实reach失败；.03DlbK≤1仅必要条件，更不能称reach证明。所有发现位置永久非线性重读，旧点数值不移用新场。
 
 ## 当前实际场与并行工作
+
+[公开持续运行分卷](notes/2026-11-20-public-actions-paginated-continuation.md)：原44748103105活跃pair自然待返；request02新job再生必要输入并继续未付任务，R671后继以实际admission/返值为准。
 
 | 实际父 | 同目标与误差 | 当前已付范围 |
 |---|---|---|

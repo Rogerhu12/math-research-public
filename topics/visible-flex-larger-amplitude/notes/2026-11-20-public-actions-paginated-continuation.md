@@ -1,0 +1,15 @@
+# 持续公开运行的有界分卷与第二次输入接续
+
+原run44748103105/1在35条实际返回后，单文件记录已83021B，冻结控制器有95000B硬限；继续向该文件无限追加会导致发布失败。新v2控制器只改变紧凑元数据排版，不改任何科学命令、源、数值或目标：每一完整stage record放入约58000B以内的卷，实际卷含标题必须小于60000B，总索引另小于95000B。全部原字段/完整argv/输入和输出SHA保留，还补显式summary_errors与missing_outputs，失败不重复复制为另一份同样大record。
+
+完整source为scripts/resume_20261120/public_actions_controller_v2.py，SHA591ad0fee2536226a7455370f8f0996d0f61192c522f0966357078f47b260848。根已逐行读其相对冻结v1的diff；本地只把已有35条JSON元数据重排，逐值恢复相等，索引2750B、两卷56757/24569B，场或scalar评价0次。此项不是科学fixture或新启动门，不能冒称新数值试算。
+
+本次提交的独立workflow触发request02；仍Python3.12.14/NumPy2.3.5/SciPy1.17.0/单BLAS，所有科学只在公开Actions，raw仅RUNNER_TEMP。仓库中只保源/完整参数/实际run/SHA/紧凑结论。每个返回仍即时pull/双README差异检查/commit/push，NFF循环rebase不force；输入源码独立固定worktree，runner科学子进程不持发布令牌。原v1字节、正在算的原pair02均保持，不中断活跃子进程。
+
+request02使用既刊完整28阶段配方再生临时输入，不把旧结论重复登记为新发现。不同runner上的新数组仍按实际SHA记录，只有实际相同才可声称相同；每一步真实mu由返回记录决定。原runner的raw不移入Git、Release或artifact，也不以未保存数组冒充可复现性。
+
+当前第二队列先准备实际重建父的R670首jet必要输入再生、同场radius专项续化、R672全K以及准确R650合并。R671 lambda1/eta885/nodal-projection新QP将优先接入此新job，使用它自身返回mu。原队列已撤回尚未受理的R67102请求并在既定工作后自然结束；是否已受理由runner真实journal为准，若更新到达时已启动则仍自然观察其返回，不中断也不把它写成未启动。本次job转换不是课题完成或停止，HANDOFF中的全域metric和精化责任继续。
+
+实际新run编号由GitHub事件返回后登记。精确workflow、请求、followup队列均公开；尚无新run数值结果，不伪造启动成功或结果。
+
+执行身份与是否已运行以正文各项状态为准，未执行准备源不冒称已有数值结果。临时数组沿原输入链再生；纯位置替代输入保计算语义，不冒称原raw报告的路径或逐字SHA。
