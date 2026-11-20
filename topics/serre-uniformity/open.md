@@ -50,6 +50,8 @@ R946/951/952原Bol障碍O_r(H)=r!(𝒰H)^p/B^(p−r)|SS、kerO=ker𝒰；whole�
 
 [R981](results/R981-original-pure-Hurwitz-residue-compression.md)已证原pure G_N的留数公式及包含唯一分母p共振的两digit输入压缩；末收缩O(p)、中间series O(p²)，不宣总线性。当前request改为四p的新pure指标，41/47用独立exact rational ℘并加j3/6诊断；旧R973 c_n/B仅消费。factorial修正候选25β³G_K6=4G_K3明确未证、输出不assert；[R983](results/R983-certified-pure-Hurwitz-coordinates-and-factorial-model-counterexamples.md)公共run44748379140已成功3.552868857s，四点全部核过；factorial共ξ被41/47反例严格否定，denominator-free差10/31，独立exact rational已核。current request已完不重跑。一般高G_N单位和保整余项的真实mixed比较仍开。
 
+[R984](results/R984-frobenius-regularized-finite-Kronecker-kernel-and-rational-Cartier-descent.md)：Guerzhoy真一次Frobenius给actualt的R=ζ(l_E)−(μ/p)l_E^φ(t^p)整，λ0、μbar=−β。BKT connection L_j在j≤p−2均属原A[x,y]；有限K=e^(RW)Ξ整且仅simplepole，精确保原c_n。其ν_t=−xω+βt^(p−1)f^pdt有rational primitive J_t，Rbar−J_t=h^p且h无常数，故c_n=[T^n]ΣJ_t(gT)^(n−j)L_j(gT)/(n−j)!。仅i≤p−2矩形可丢h^p影响；高pure不能丢actualt→LT的除p坐标carry。一般unit未证，继续R985 carry及R986不同s源的显式J_s。
+
 ## O3：固定低权cohomology与原Igusa投影的边界
 
 [R944](results/R944-original-CM-Gauss-Manin-homotopy-and-supersingular-principal-parts.md)给原fine base上

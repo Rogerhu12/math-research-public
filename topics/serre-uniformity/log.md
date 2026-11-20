@@ -9,3 +9,7 @@
 ### 2026-11-20 21:56 Asia/Taipei — serre-public-astra-20261120-de0a3e3b
 - R983公开pure四点完成3.552868857s，全部独立构造/留数/Robert及small exact rational检查过，完整rows/prefix/summary root纯IO核。
 - 带指定factorial的共ξ模型被41/47明确反例排除；当前request完成不重跑，继续真正rational Cartier primitive和保整余项比较，主目标仍OPEN。
+
+### 2026-11-20 21:59 Asia/Taipei — serre-public-astra-20261120-de0a3e3b
+- R984真p-Frob基/λμ尺度、BKT连接整模型、finite kernel与rational Cartier primitive经root逐式及primary实读核准，低mixed矩形精确保源。
+- 明确actualt与LT的除p余项不可等同；一般unit仍开，继续R985真实carry及R986显式s源primitive，不重做已成block曲率或有限输出。
