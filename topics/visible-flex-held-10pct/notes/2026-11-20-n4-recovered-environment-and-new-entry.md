@@ -127,3 +127,38 @@ export VISIBLE_FLEX_SPARSE_PYTHON="$(command -v python)"
 ```
 
 三份新入口使用同一个实际厚 cut 来源，但旧 raw 支的幅度、控制与新材料曲率核参数意义不同，不能互用其配置/结论。
+
+
+## 新材料 q=.01 / M12 首跑的真实终态与可定位阻塞
+
+`material-q010-m12-v1` 已真实返回 `exit=0`，但 `solve_bvp.success=false`：
+317→949→2845 节点，最大 RMS 从 `1.37` 增至 `2.851656713827804`，
+最后 BC 约 `1.89e-5`，因将再添 5688 节点超过本次 3000 节点预算而停止。
+inner 用时 `327.815516678` 秒，全保存路径完成于 `346.803461575` 秒。
+这只是否定上述独立新设计的本次冷初值求解；不是旧 n4 原联立锚的失败，
+也不构成材料曲率核的不可解结论。
+
+原 `trace_domain_newton` 事件已保留实际异常字符串。全部 139 次 domain 拒绝
+均为 `Material core curvature guard failed`，不是 Frenet 域失败；9 次接受，
+0 次 merit 拒绝，2 次 no-step，最小步长 `7.62939453125e-6`。
+终态 q 仍为 `.01`，新设计的 `delta=.030176956777387156`、
+`vd=.25034415650177905`。原三角曲率下界只有 `1.3664604496921307e-5`；
+同一实际曲率在 32768 均匀材料节点上却处于 `[.85,1.1175122692540416]`。
+这是明确的基函数抵消使 l1 下界过松的诊断；有限节点数值不替代连续域证明。
+
+几何线新增 `material_curvature_core_adaptive_guard.py`
+（SHA256 `5d26b8497f4ed5b66351ca7cefd110d200488fb80ce26b42bec8b68ab5fdb645`）
+保留定义核心和原 `1e-5` 正曲率门，以全角 `||kappa''||` 上界的
+`h^2 ||kappa''||/8` 插值误差收紧域下界；节点是 binary64，并非 outward 区间认证。
+下一新设计选择 q=.02、M8：既降低原窗口控制列病态，又让旧 profile 的
+材料特征窗可在首 ramp 内耗尽。不会无改变重跑 q=.01/M12。
+
+已启动的新命令（尚无成功或尾部结论）：
+
+```bash
+cp "$HELD10_TOPIC/scripts/resume_transfer/material_curvature_core_adaptive_guard.py"   "$HELD10_WORK/material-source/material_curvature_core_adaptive_guard.py"
+python -u "$HELD10_TOPIC/scripts/resume_n4/material_curvature_prefix.py"   --source-topic "$HELD10_WORK/source/bundle/topics/visible-flexible-closed-surface"   --loader "$HELD10_WORK/loader"   --core-source "$HELD10_WORK/material-source/material_curvature_core_adaptive_guard.py"   --definition "$HELD10_TOPIC/scripts/resume_n4_tail/native_raw_fullH_coupled_terminal.json"   --port "$HELD10_WORK/w016-port24.json" --out "$HELD10_WORK/material-q020-m8-v2/seed"   --q .02 --modes 8 --nodes 301 --tol 1e-7 --max-nodes 3000   > "$HELD10_WORK/material-q020-m8-v2.log" 2>&1
+```
+
+两次设计的完整场与逐事件 trace 只留 scratch，按根 §15 不入 Git；
+上述脚本、冻结源哈希、参数及命令足以再生本次诊断。
