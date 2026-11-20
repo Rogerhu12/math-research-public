@@ -6,7 +6,7 @@
 
 **维护会话：serre-public-astra-20261120-de0a3e3b。** 已部分克隆并真实pull main，接手serre-public-astra-20261115。压缩前逐字状态在[最新H归档](handoff-archive-2026-11-20-before-near-prime-coefficient-window.md)，沿链保全部旧source/SHA/尺度/失败边界，不重做已登记结论。
 
-**已读规则提交：4af4fe6106988cd418df4ac95700213274d23ed8**（2026-11-20T14:33:58.952215+00:00；终端真实git pull --rebase origin main，两README无diff）
+**已读规则提交：19b2b16fb11393dd1cfdbe3103555b31bddf3cb3**（2026-11-20T14:37:48.079733+00:00；终端真实git pull --rebase origin main，两README无diff）
 
 两README完整已读，SHA256 root 581402c2 / topic 35f82f3d。每结论立即推；每push前且至少每小时真实pull；每pull检查两README，有变只读diff立刻照办并记已读SHA。NFF/lock-ref竞态立即pull --rebase再推直到成功，禁force。PAT只CLI，不入文件/提交；root独占main/H/open/index/log。
 
@@ -58,9 +58,9 @@ R987真实两open gluing给 C(xZ^jω)=β^(1−j)j!L_jω（0≤j≤p−1），逐
 
 [R990](results/R990-original-hypergeometric-fixed-r-coefficient.md)：原(E,X,Y)=(0,0,864)的三Ramanujan ODE逐式匹配 A=2F1(1/12,7/12;2/3;z)、B=2F1(5/12,11/12;4/3;z)，T=−uB/(24A)、z=u³/432。m=(p−r)/3、k=floor(p/12)时B真截成degree k Jacobi多项式；H=((1−z)B²)^−1、f_i=H_i/(1−3i)、Q=4+12zB′/B−z/(1−z)，**c_(p−r)+=(-32)^m(r−1)! [z^m]Qf^−r/4**。全分母在m<ℓ=(p+1)/3内单位，固定r2/8给O(M(p))、O(p)内存。B根/三个cusp极部准确、首resonance Hℓ=B(1)^−2单位；不能跨ℓ反除，目标系数非零仍开。
 
-## 当前实际工作
+## 当前实际工作：R989新r8差集
 
-R987已推923e858c74c3d241cce1afa9b3df242bf89320bb；R988已推fa06c6fda15f2321c9c5af4babcf098d992fe438。R989由audit准备真正未覆盖r8的1000<p≤20000差集、新μ3 heat/CDQ及原Kronecker单carry卷积独立对照，尚未执行。R990真GM/hypergeometric固定r公式已root/legendre全审、audit核算法；将作新窗主通道。legendre已转O1实际A/E4或mark非零。任何有限无零只有限结论；首零须原来源独立确认。root继续全证明核验与最小新公开consumer，规则/登记/git独占不变。
+[R989方法](notes/R989-original-r8-sparse-heat-and-Kronecker-window-method.md)及consumer全经root纸核/AST（无本地数学）。新请求只1000<p≤20000、p5mod12且p2/5mod9；R990 B/H/f/Q主通道，首两个新p与首零用原Chazy/CDQ及E− sigma单carry卷积独立核。620s强制预算，完成全窗或真源确认首零才成功，其他状态列全尾；stdout/scratch、无artifact。script96b3bbf3/method430459e1/R9905c35e728，当前请求待本次push公开执行，不假已完成。R988/R990已推fa06c6fda/1a0e9ccf0；legendre继续O1实际mark，literature继续fixed-r非零，root核回执后接真正剩余问题。
 
 ## 继承任务与永久边界
 

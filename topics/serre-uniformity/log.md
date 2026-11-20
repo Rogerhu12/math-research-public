@@ -33,3 +33,7 @@
 ### 2026-11-20 22:33 Asia/Taipei — serre-public-astra-20261120-de0a3e3b
 - R990实际Ramanujan/超几何源、全部Lagrange尺度、有限Frobenius降幂及B根/cusp首resonance经root与legendre全文独核，audit核O(M(p))算法；修一处TeX反斜线。
 - H逐字归档保前态；继续R989未覆盖r8差集的原源独立核与全p非零，O1专攻实际mark；没有把resonance单位当目标单位，无新执行。
+
+### 2026-11-20 22:37 Asia/Taipei — serre-public-astra-20261120-de0a3e3b
+- R989两独立算法全文与consumer逐行核过：CDQ配对/shift、原sigma single carry两负相消、模型相位和强制失败尾段；本地只AST/hash。
+- 提交真正新r8差集请求1000..20000，R990主通道、首两个新p及首零原源核；workflow补齐所有source sparse路径并逐hash验证，等公开回执。

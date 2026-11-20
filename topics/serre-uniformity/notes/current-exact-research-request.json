@@ -3,20 +3,33 @@
     "root": "581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102",
     "topic": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
   },
-  "rules_last_read_commit": "ad1f397deee043ec984c4cb454743440535e91c9",
-  "execution_attempt": "R981 new pure Hurwitz coordinates and explicitly unproved mixed-comparison probes; completed R973 balanced coefficients and B values are consumed, not recomputed.",
+  "rules_last_read_commit": "4af4fe6106988cd418df4ac95700213274d23ed8",
+  "execution_attempt": "R989 genuinely new original r=8 difference set 1000<p<=20000; R990 fixed-r main channel, independent original Chazy-CDQ and E-minus sigma single-carry checks at the first two new primes and the first zero. All old windows excluded.",
   "computations": [
     {
-      "name": "original-pure-Hurwitz-four-prime-consumer",
-      "script": "original_pure_hurwitz_four_prime_consumer.py",
-      "script_sha256": "cb311d2d8544512f96999b63665b411d1ed9ebb0b8bc70435026422fc6fc6bc7",
+      "name": "original-r8-balanced-new-window",
+      "script": "original_r8_balanced_new_window.py",
+      "script_sha256": "96b3bbf3ec77c3c75a3870adebd9f348e7849f52b17dcda245f56229682f7160",
       "arguments": [
+        "--minimum",
+        "1000",
+        "--maximum",
+        "20000",
         "--budget-seconds",
-        "620"
+        "620",
+        "--output",
+        "/tmp/R989-r8-window.json"
       ]
     }
   ],
+  "source_sha256": {
+    "notes/R989-original-r8-sparse-heat-and-Kronecker-window-method.md": "430459e1a80765b48efe83b1255a4f0a0bfbc7998dad5e8c3e039d2a8a76c4c0",
+    "results/R990-original-hypergeometric-fixed-r-coefficient.md": "5c35e72804eee83dde2c74af68232dea3a57c5d97ba39026a07329a7db25a7a1",
+    "results/R975-original-balanced-Kronecker-integral-heat-recurrence.md": "56ab77273393f6db838daea1a3973e1d9da69525eb120e665dccea88f64de101",
+    "results/R988-original-pure-balanced-Cartier-contraction-and-high-trace.md": "db82c7e799a7e54b7d91da329e4e6c113add5a98a519aab82df2a2e70de470a7",
+    "notes/R973-original-balanced-Kronecker-four-prime-execution-method.md": "32d4c836cacbb0467c668a4a968be62fe759cd188a3365bdfb9da9583d076269"
+  },
   "runtime": "Python plus python-flint==0.9.0; public repository Actions only",
-  "storage": "Stdout only; no artifacts or coefficient arrays. Fixed 41,47,227,857; original E+ y^2=x^3+1, omega=dx/(2y), g3=-4. Independent Lucas/Wilson and strip-p input construction, bounded and positive residue powers, nonsingular Lagrange checks; exact rational wp at 41/47 only. At 41/47 two additional j3/6 pure indices test a precise factorial-corrected candidate without asserting it. Record all zeros and failures. No old supersingular trace, same-label sigma scan, or balanced coefficient computation.",
-  "method_sha256": "bec9763d31321b217f6afaeb46349edcd061f3a87dbc462b44f35cd1867d013f"
+  "storage": "Stdout and runner scratch only; no artifacts, raw coefficient arrays, or Releases. Print complete requested set and certified rows. Stop only after whole requested window or an independently verified first zero; all failed or timed-out states identify uncompleted tail.",
+  "prior_coverage": "R936/R939 original r8 through 1000 and R973/R983 41,47,227,857 excluded. R963 1000<p<=100000 is r2 only and disjoint. No old mathematical result is rerun."
 }
