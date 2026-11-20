@@ -75,3 +75,7 @@ R137补篇15169B/SHAca1bef3199fd3c721c743991bc387810d075e5dd0d6a2c06ab4dc47ffa14
 ## 2026-11-20：Volterra–Grushin体能量及完整真根迹
 
 R138补篇14616B/SHA6fa19e880913f52695ca5a28535e175a8523ab58989b77d31d8fe5128d79d047，root整读并由joint独立交叉审。K≥x/120来自既有完整曲率输入；反向Volterra核HS²含x/K，两个漂移方向保准确moving drift/Jacobian，只C1 flow插值已足。209/78、419/156逐式核，H^(-1/3)根迹保完整mean；P14–15真高图raw L2与负窗唯一性合法辨认弱核能量，不从outer迹倒推body。残差现在是两原能量二次式，实际系数和根型三门仍待。原hybrid额外项未删，0新科学数值。
+
+## 2026-11-20：同外锚真根两标量首次实际完成
+
+44730968113/1、actual2963B/SHAb300ea20、exec13491B/SHAa8979dff、report500B/SHA37c47f7e。root核全部11当前bytes/SHA/blob及完整manifest回执相等、10历史blob与worker逐字恢复回执一致、4保留完整README空diff/总5次链、实际child0/1.608078293999995s。全4650闭行/3594接口、2新标量完成，0旧producer/重算/新数组。nominal q≈−.1806777904、s≈1.1447391896、总误差≈.1743645336严格推出−.356<q<−.006和.970<s<1.320；合并展示q球较宽，后继必须从完整中心/误差球复用。仅轴几何，full角/分母/根型/逆未授，成功冻结。

@@ -167,7 +167,7 @@ WIC原24480细胞真tail κ=3已闭；WPN只有完整e+3dt<1才授逆。WPS/WVC/
 
 R138的[几何桥](results/R138-residual-sensitive-Codazzi-frame-and-geometric-Jacobi-bridge.md)、[旋转能量](results/R138-supplement-rotation-energy-and-complete-endpoint-form.md)、[实际support](results/R138-supplement-actual-positive-support-for-repaired-physical-frame.md)、[实际outer负型](results/R138-supplement-actual-outer-rotation-energy-and-mean-defect.md)与[准确残差输运](results/R138-supplement-exact-residual-transport-and-fixed-interior-point.md)均保同Qrepair/η0/ν0及原真实frame。固定p=e_z/2有support>2/5；H保守输运源无方向角导，但H不设0，WVC hybrid额外差继续单付。
 
-[真实root全角型](results/R138-supplement-complete-root-angular-form-and-two-scalar-geometry.md)保low even96=0、97起high stable、独立mean与H；高频主符号正不授finite正性或mean消元。[轴首次合同](notes/2026-11-20-R138-root-axis-support-contract.md)11当前/10原件保全4650闭行和原接口，44730968113/1已返回success，完整actual输出正审。完整全角型、分母、finite+tail、体残差吸收及实际全逆继续待付。
+[真实root全角型](results/R138-supplement-complete-root-angular-form-and-two-scalar-geometry.md)保low even96=0、97起high stable、独立mean与H；高频主符号正不授finite正性或mean消元。[轴首次合同](notes/2026-11-20-R138-root-axis-support-contract.md)11当前/10原件保全4650闭行和原接口，[44730968113/1实际包围](results/R138-supplement-actual-same-anchor-root-axis-support.md)已整审冻结，全4650行/3594接口，完整nominal/error给−.356<q<−.006、.970<s<1.320；后继读回完整三球而非只读q sign flag。完整全角型、分母、finite+tail、体残差吸收及实际全逆继续待付。
 
 [R138体能量/根迹](results/R138-supplement-Volterra-Grushin-energy-and-root-defect-trace.md)已给同真Qrepair齐次核的有限能量辨认、K≥x/120和反向Volterra HS界；Grushin常数209/78、419/156及完整H^(-1/3)根缺陷消去任意未知体范数。下一项须实际付k_s/C_E/C_H/角图/E0/E1与全根型C_*，再验证A<2、C<1、T²<4(2−A)(1−C)。这些仍未数值通过；真实DF与WVC hybrid额外主部差继续独立，不能据此宣布无核。
 
