@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R138复合物理预算首次公开消费者](notes/2026-11-20-R138-composed-physical-energy-budget-contract.md)：19当前/9原件、same4651闭格/320bits，只读X全域Z/P与C1、旧几何能量球。精确复合完整mean、I平滑与真实IC均落实；5新sup/2积分/10顺序derived组成一个新预算，按完整保存球判body-only门，真实root C*仍独立。root整读diff/合同并与两分工独审，全部pins和metadata逐字复现；0旧传播或旧target重算。
+
 - [R141已成五源及高图的四响应消费合同](notes/2026-11-20-actual-GH-saved-response-contract.md)：完整5源球与原base0/negative全图只读，三个正交窗口RMS及外trace为4个新小量；16当前/0历史、320bits、600秒科学cap首次封包。全部75位球包含原upper且保存读回后消费；source/worker及metadata逐字复核，0本机科学，实际低高反馈/physical97+96/finiteρ/ports仍未闭。
 
 - [R138完整复合Hessian及积分平滑预算](results/R138-supplement-composed-physical-Hessian-and-smoothing-budget.md)：准确μ/m=−m〈c〉，DPc[t]Pc⁻¹先相乘变小三角局部项；完整mean秩项仍在，积分I:H^-τ→L²只付17^(τ/2)/4，输出只需C0，residual二次角导消失。真实IC逆角式和r3仅在s中抵消均已核；可只读X根4全域majorant及旧几何常数另算新组合门，未声称新门通过。

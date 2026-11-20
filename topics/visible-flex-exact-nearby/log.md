@@ -133,3 +133,7 @@ root新推Y1–18，global/joint分别逐式核：准确mean μ/m=−m〈c〉、
 ## 2026-11-20：已成五源与真实高图的四项响应首次消费封包
 
 math16888B/8ea2a23e、worker27356B/cc49d939、generator10662B/2c6fdf19、contract5313B/8dd68c8d，root整读并由global独核正交输入RMS与外trace 5/388资格。16当前bytes/SHA/blob/AST完整核，metadata重建manifest7546B/87e75f8e001601fa8ed6279d7b3e0735799a336a31b4e39b0bac9b0f2194bc35与workflow逐字同；0历史native恢复、0旧科学调用。首次push启动独立4小target，保存完整display radius并读回包含，再用第二项保存upper算外trace；旧第5源整球保留，实际反馈/physical/finiteρ/7ports/两rhs全false。worker实际push成功才返回、每30min pull核两README，原结果不改。
+
+## 2026-11-20：完整复合物理预算首次公开封包
+
+source30569B/3fca5cd0、worker30709B/2a119f1c、generator14465B/0534051b、contract6328B/e0e96c10；root逐新source/worker/gen差异、whole合同、保存/惰性恢复路径与Y1–18独核，两分工数学及运维审均通过。19当前bytes/SHA/blob与AST全核，9历史清单逐字同已核X原件，22字段和原4651分割hash不变；metadata重建manifest12584B/c12794d7b0e817332ad57395ebbf206582b2779a02ee38292dec1e622fc8c197及workflow逐字同。只读X complete actual/exec与其全部false门、全域4majorant/几何常数；0旧frame传播/能量目标/axis/mean/旧producer，新5sup/2积分/10derived逐完整ball保存读回。首次push独立Actions，实际门与根C*尚待，完整mean/η0/ν0/Qrepair/全接口不变。
