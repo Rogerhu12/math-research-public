@@ -96,3 +96,7 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 ## R271首头真实两孔的下一费用
 
 [完整一孔核与真实两孔正Schur](results/R271-appendix-first-head-true-one-hole-kernel-elimination-and-two-hole-positive-schur.md)现已闭：F1投掉原首头的完整dark/coherent核，F2=q♯ω2−λz♯ω1通过原低伴随像保同PV−PK及同完整matched来源；F1⊥F2，准确费γ2²=σ2²<q,(I+λAA*)⁻¹q>，λ=σ2²/S。移动一/二孔全头Bessel与同w全cut误差均付，真帽逆伴随仍保外投影和n+2h+R<Q。**仍须控制这个原q来源的γ2移动费用**；不以任意头Green界、首逆≤1或虚拟Boolean尾替代。固定首头非零锚只迫Σγ2⁻²<∞，尚未矛盾，N=M仍开。此前全部核外/carry开放项保留。
+
+## 移位表示与交织的剩余范围
+
+**[有界相似及全部非零闭不变子商的移位障碍已闭](results/R12-appendix-shift-similarity-subquotients-and-intertwiner-power-cost.md)。** 原二幂弱极限I/2排除严格分级算子值移位和有限维块的直和，包括全部标量加权置换。任何非零双向有界交织均须满足完整移位二幂范数与原A二幂范数之比趋∞。更大向后移位的限制/商仍可能满足该范数损失，不能假设未知限制中有限支撑稠密；此范围继续开放。

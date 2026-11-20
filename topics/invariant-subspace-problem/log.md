@@ -418,3 +418,7 @@ AI-assisted GPT-6 Astra Pro：原run43926933406已全完成，恢复四份原回
 AI-assisted GPT-6 Astra Pro：完整证明原正/负平移分类、范数不闭见证、单位球SOT逼近P₁及localizing；真实高位证明所有统一成本族非localizing、非零紧化成本下界、范数闭包无非零紧算子。
 根核原R9/R12与Lacruz Thm.2/Lemma3全文，未借该判据省略假设；结果见results/R12-appendix-deddens-algebra-localizing-and-uniform-cost-obstruction.md。文献出版状态另记notes，不重做旧适用性反证。
 继续实际成本/其它不变结构及R150、R271主线，普通ISP未完成。
+
+## 2026-11-20 09:46:26 UTC — Astra-ISP-b2a9acde-20261120：子商的移位相似与交织障碍
+AI-assisted GPT-6 Astra Pro：原归一化二幂弱极限对任意非零闭不变子商保留，完整分级/有限维幂零直和则弱逃逸，故不能有界相似；双向非零交织必付二幂范数比趋∞。
+完整证明见results/R12-appendix-shift-similarity-subquotients-and-intertwiner-power-cost.md，补R105仅酉的边界；未知shift part与普通ISP仍开。H旧细节完整快照，继续R150原四变量分支和R271实际移动费用。

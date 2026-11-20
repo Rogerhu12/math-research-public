@@ -5,7 +5,7 @@
 ## 主目标、授权与规则
 
 - **未完成：** 普通复可分无限维 Hilbert ISP。仅全体有界算子的存在定理或完整反例满足完成标准；子问题结束继续open，不以阶段报告或时限停止。
-- **最近成功实际 pull 与已读规则提交：** `ab894782e59af83ca34bff83dd619724a7383e55`（2026-11-20 09:38:54 UTC）。两README完整读；相对此前4d75dba仅根课题表增加held-10pct，规则无变。
+- **最近成功实际 pull 与已读规则提交：** `59462e513099b833a30d1d23d6a48ec615a96835`（2026-11-20 09:47:09 UTC）。两README完整读；相对此前4d75dba仅根课题表增加held-10pct，规则无变。
 - 仅授权Rogerhu12/math-research-public。根独占main/H/open/results/log，代理交冻结稿。逐结论实际终端push，非快进立即pull --rebase再推至成功，不force；至少每小时和推前实际pull，比两README blob，仅新diff重读并立即遵守。
 - 根README blob282e86b03385d3b6245ce7100ae2e2af7b103c2d、课题4d6570e9cf346431ab781a1290076a6321aaaa00已完整读。令牌仅CLI环境或已有Actions secret，不进文件/日志/config。规则15：可重算数组/数据/证书不进Git、Release或新工件，仅源码/参数/运行身份/SHA及正式证明。API仅UTF8<100KB，MD<100KB，H≤10000B，open尽量≤30KB，topic≤200MB，log每条≤5行、数学美元符、AI署名，不写根LOG。
 - 本地executor已恢复；部分克隆仅本课题，当前约96MB。旧作业TMP不假存活，先核已提交执行回执与原日志再决定续算。
@@ -13,14 +13,9 @@
 
 ## 当前实际执行接续
 
-- 原E低20/95核已闭：两4解全1000E/3000Q/400selected、95原unit38及根[独立日志审计](notes/2026-11-16-r150-exact-low20-quartic95-root-log-audit-execution-789f.json)已核。旧Q60真实360秒TERM/143独留，不重复；全部源/pins/失败范围保归档，结束job TMP须重建。
-- 原mixed95实际unit69、选J40=0..33/40..44/60，全25575/18050/9025/3800已核；[正式原40选择](results/R150-appendix-actual-original-koszul-fiftyfive-mixed95-unit-and-forty-source-selection.md)给本次quintic父件。
-- 原权九维数4552与权十Koszul上界的证明保[原文](results/R150-appendix-original-weight-nine-dimension-and-weight-ten-koszul-rank-ceiling.md)；权十准确值及目标现已由下项关闭，不重跑。
-- 旧std空候选和native编译控制均保[接手前交接](notes/2026-11-20-handoff-before-weight10-recovery-b2a9.md)及原接口；全矩阵完成结果见下，不重跑。
-
-- **[原五次Koszul259与最少120列原梯度呈示已闭](results/R150-appendix-actual-quintic-koszul259-stable-sixty-and-minimal-onehundredtwenty-presentation.md)。** run43924670391实际D5秩126、K5秩259、原unit45；全部300右端115500、16关系6160及双逆134162坐标全真。原E恒等及同原单位给全部有序N²C真降次，C60稳定且F/C60=原G11商；加六mean的十字面倍得完整Γ120，Bell至多130。原Γ9=4552排≤9关系，故min_B Γ=120、min_B C=60；不是B秩/自由性。权10新13728来源核现恰31，见最新权十结果。四步raw与全部父相位根/normal独立核同；δb²现已判非成员，Bell单位仍未取得。
-
-- **[完整权十与特征零第二Bell倍障碍已闭](results/R150-appendix-complete-weight-ten-rank-and-characteristic-zero-delta-square-obstruction.md)。** 旧run43926933406实际全13808原列秩13697、原子式det127=126，独立74037410标量产品杀全列且δ14b²读数1；本次恢复2444/7111原回执、1467子式phase及991独立回执的全部SHA相同。结合独立E上界，得ΓE10=13697、商维63579、δ14b²不在完整J17；原μ10核恰2171 Koszul，200/120呈示的权10核恰111/31。δ14原十八来源权≤12排除。未重跑大矩阵，下一δb³权13、qb³权11和b⁴权12，主问题未解。
+- 本会话此前完整状态见[接续快照](notes/2026-11-20-handoff-before-shift-and-length-five-b2a9.md)；包含所有低20/95、quintic259、来源及失败边界。旧任务已登记的核/秩/全部来源不重算。
+- 原quintic259、稳定C60和最少Γ120已闭，非自由性结论；原E权7/8/9维312/1312/4552均已闭。
+- **[完整权十与特征零第二Bell倍障碍](results/R150-appendix-complete-weight-ten-rank-and-characteristic-zero-delta-square-obstruction.md)已闭。** 旧run43926933406全13808原列秩13697、det127=126，独立74037410标量产品杀全列且δ14b²读数1；恢复四原回执/phase及全部SHA。结合E上界得ΓE10=13697、商63579、δ14b²不在完整J17；原μ10核2171恰Koszul，200/120呈示权10核111/31。δ14原十八来源权≤12排除。下一qb³权11、b⁴权12、δb³权13，未重跑已成大矩阵。
 
 ## R150已付结构与仍开范围
 
@@ -37,6 +32,7 @@
 ## 新文献方向与原模型
 
 - **[原Deddens代数的完整新边界](results/R12-appendix-deddens-algebra-localizing-and-uniform-cost-obstruction.md)已证明。** 原正向加权平移恰为有界倍Aʳ，最优成本βᵣ‖v/Wᵣ‖∞；负向平移只零。单位球SOT闭包含秩一P₁，故全代数localizing，但明确范数极限反例证其不闭。全复算子统一Deddens成本族均不能localize，真实高位给成本发散定量下界；范数闭包仍无非零紧算子。Lacruz判据缺失的闭性已明确否定；原普通ISP仍开。
+- **[移位相似表示及交织成本](results/R12-appendix-shift-similarity-subquotients-and-intertwiner-power-cost.md)已闭。** 原A及任意非零闭不变子商的归一化二幂WOT趋I/2，故不与严格分级算子值移位及任意有限维块的直和相似，包含全部标量加权置换。任一非零双向有界交织必须令移位二幂范数/原A二幂范数趋∞。仅排准确类别，未知shift part仍不被排除，普通ISP仍开。
 - 最新文献状态见[刷新记录](notes/2026-11-20-literature-refresh-b2a9.md)；未找到可采用的完整外部答案，已有声称不作黑箱。
 
 ## R271真实投影返回与剩余交叉

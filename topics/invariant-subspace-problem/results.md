@@ -296,3 +296,5 @@
 
 
 - **R150 完整全W31由九原平方生成（2026-11-16）：** [严格原U=M及全ann证明](results/R150-appendix-whole-normal-square-module-over-D31-is-generated-by-nine-squares.md)以原155×224恒宽colon、全82 formal核及真精度24→20→16→12→8，实际完整field长度22,22,19,18,17。保free16+J1得Tp=(2,2,2,3,4)长13=H2，故全部残差为0。AnnU=h*(31⁵,31²(s−2),(s−2)²)，h*/h0全W系数指数5/2最小；完整D型/八生成/扩张继承M。57.531秒原计算/42.987秒独立重放与root原raw/十payload皆核，未新增4212展开费。
+
+- **原算子全部非零闭不变子商的移位相似障碍（2026-11-20，已证明）：** [完整弱逃逸及交织成本证明](results/R12-appendix-shift-similarity-subquotients-and-intertwiner-power-cost.md)由原二幂弱极限I/2排除与任意重数严格分级移位及有限维块直和的有界相似，包含全部标量加权置换；任何非零双向有界交织强制二幂范数比趋∞。补R105仅酉范围，不排未知shift parts，不解决普通ISP。
