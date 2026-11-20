@@ -2,7 +2,7 @@
 
 **主要目标仍OPEN。** 完整证明绝对常数C，或给出p→∞完整无CM反例族；有限素数、条件结论、低权/局部Abel/部分子群均不够。
 
-截至R976的逐字前态在[最新open归档](open-archive-2026-11-20-before-normalized-discriminant.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重新计算已成输入。
+截至R1000的逐字前态在[最新open归档](open-archive-2026-11-21-before-norm-seven-source.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重新计算已成输入。
 
 ## O1：全p同一真实本原标签的临界非零
 
@@ -27,6 +27,8 @@ R969公开三点113/131/227得到全mask rank10/11/19、A/E4组合及额外两q�
 [R999](results/R999-certified-second-end-column-and-filtered-space-nonzero.md)：run44764524952/job136385485790/source84a8cad4b全成功，0.0138129s/预算真/exit0。完整R968及独立ODE给(p−13)!CT Z_(p−13,7)=319435001/40320，分子11863×26927分别被mod6/mod9排除；原P10=−7·1279/3^5单位，全部因子经完整试除认证，四坏列表真空。故11∤p+1⇒V≠0，合R996得 **55∤p+1⇒原filtered V≠0**；不推CM mark/G稳定。root纯IO全回执核，payload10156B SHA6d208b8d83cc8e2efc612e43f4d8f21084a45916384106636dcb1a77a557b7aa；全部pins/试除范围/stream hash见结果，request已完。
 
 [R1000](results/R1000-original-projected-scalar-heat-source-and-masked-boundary.md)：原T=Π4 Lz²Θε的完整bulk C=(UL+LU)Θ4+L²{∂z∂t(Θ5−Θ4)/6+(3X/2)zt(Θ3−Θ4)}保双shift。p[z^p]T=48AJ3，故真实有限源𝒟T_<p=C_<p+8Az^(p−1)∂tJ3；仅完整C矩形可约化。自身边界d1、真lift净+1→2而原mask只d4，故 **所有连接迭代均被原mask杀**。令Sε=WopΛC_<p，真实[𝒟^(p−1)Sε]_p+1=−72·6^6B7Σw_i fi gj z^(p−h+1)t^h。完整bulk指定观测非零仍开，低项48非目标。root/audit全文独审；旧曲率只消费，无数学执行。
+
+[R1001](results/R1001-norm-seven-dual-Poincare-source-and-original-filtered-tensor.md)：α=2+s,Nα7，Wα=(x³−cα)σ6、cα=−(2+6s)/7。真dual产品Pα=αWα(z)Wbar(t)K(αz,t)K(z,−barαt)=−σ(αz+t)σ(z−barαt)/(barα σz²σt²)，两cross取消、M†M8I给L6×L6轴pole≤2。完整Π4zΠ0tP=V⊗Wbar+F⊗(Aαx³+Cα)S，V=x4S；减全部polar后x^−1∇t给 **−6Aα F⊗G**，Aα=4(5+6s)/7、Norm16·19/7单位。原critical完整卷积/全部原mask已给，单K总阶≤p−6整；全首p投影唯一p边界−6Bz^(p−1)Wbar，减V支真消。裸balanced trace虽unit比例，乘积必须保所有卷积，高carry/near-p非零仍开；root/literature全文独审，无执行。
 
 ## O2：完整原超奇异迹、真正CM packet及近顶unit系数
 
@@ -74,9 +76,9 @@ R988已建立实际G_(n(p−1))与balanced c_n的准确整比较；当前须证�
 
 [R990](results/R990-original-hypergeometric-fixed-r-coefficient.md)：原(E,X,Y)=(0,0,864)的三Ramanujan ODE逐式匹配 A=2F1(1/12,7/12;2/3;z)、B=2F1(5/12,11/12;4/3;z)，T=−uB/(24A)、z=u³/432。m=(p−r)/3、k=floor(p/12)时B真截成degree k Jacobi多项式；H=((1−z)B²)^−1、f_i=H_i/(1−3i)、Q=4+12zB′/B−z/(1−z)，**c_(p−r)+=(-32)^m(r−1)! [z^m]Qf^−r/4**。全分母在m<ℓ=(p+1)/3内单位，固定r2/8给O(M(p))、O(p)内存。B根/三个cusp极部准确、首resonance Hℓ=B(1)^−2单位；不能跨ℓ反除，目标系数非零仍开。
 
-[R989方法与公开请求](notes/R989-original-r8-sparse-heat-and-Kronecker-window-method.md)已完成逐式/代码核验：原μ3 heat化Chazy双卷积，CDQ每有序对唯一归属；原E− sigma首pole和整数binomial单carry两负相消，双和收成一次乘法。新窗口只1000<p≤20000、p5mod12且p2/5mod9，明确与R939旧r8、R963旧r2及四点balanced数据不交。R990为主通道，首两个新p及首零用Chazy/原sigma独立核；620s内完整差集或已真核首零才成功，失败列全尾。[R991](results/R991-certified-original-r8-balanced-window-through-20000.md)现已认证：run44755320789在1.998924778s完成全部349新素数（1013..19973），均非零，1013/1049三路原源一致、每p首resonance核过，无错误/尾段；完整payload245369B、SHA fea55f009c33e1b120e50c1fd9ff2a23aba25c999d863f506a72105fabfb86aa由root纯IO复核。依R988有限集原S亦非零；不外推全p/同h/height。R989 request已完整完成，禁止重跑旧窗。
+[R989方法](notes/R989-original-r8-sparse-heat-and-Kronecker-window-method.md)/[R991回执](results/R991-certified-original-r8-balanced-window-through-20000.md)：真正新r8 1000<p≤20000共349点全非零，run44755320789成功1.998924778s；1013/1049原三路与每p首resonance一致。payload245369B SHAfea55f009c33e1b120e50c1fd9ff2a23aba25c999d863f506a72105fabfb86aa，全部source/方法/receipt在结果和逐字归档。R988只给该有限集原S单位，已完不重跑。
 
-[R993方法与新请求](notes/R993-original-combined-disjoint-window-method.md)现冻结：仅r8的20000<p≤200000及r2的100000<p≤200000，按p合并顺序；首两点各行与首零三路原源核。新独立sigma通道由原wp的CDQ并完整ODE残差校验，旧R989只复用已hash的三个通用helper，旧窗口不重跑。620s含15s收尾；大事件分块须逐index重组并核ASCII bytes/SHA；完整差集非零或已三核首零、final预算成功且作业exit0才验收。method c19133588a246f770f0a05820aff1d8046d87c83a898e1a6ec1cd240a00b6f06，consumer 2e60046ffa0ea7cbf7534ad796bba8e4fd1086a5ef7198312089a73d96793f7e；[R994回执](results/R994-certified-original-combined-windows-through-200000.md)已完整核准：run44760218207/job136370438703/source248592d7f，531.337922156s、final预算真/exit0；新r8共2622、新r2共1386，合4008全部非零、无尾段，四个指定新点原三路一致。8段contract/7段summary完整重组，payload2865567B SHA e764dff838bb24b18c8fec7f7634c2044f403e59e23a349cc00d0554c000dc8d；全部first-resonance/原wp ODE核过。R988给这两个有限集原S非零，仍不推全p/同h/height；current R993 request完成，不重跑。
+[R993方法](notes/R993-original-combined-disjoint-window-method.md)/[R994回执](results/R994-certified-original-combined-windows-through-200000.md)：run44760218207/job136370438703/source248592d7f成功531.337922156s。新r8 20000..200000共2622点、新r2 100000..200000共1386点，4008全非零/无尾，四指定新点原三路、完整wp ODE及各首resonance均过。payload2865567B SHAe764dff838bb24b18c8fec7f7634c2044f403e59e23a349cc00d0554c000dc8d；全部source pins/8+7分块/预算与exit0已核，仅有限S单位，不推全p/同h/height，已完不重跑。
 
 ## O3：固定低权cohomology与原Igusa投影的边界
 

@@ -81,3 +81,7 @@
 ### 2026-11-20 23:44 Asia/Taipei — serre-public-astra-20261120-de0a3e3b
 - R1000原Tε完整bulk/双projection shift、唯一+8A边界及全矩形整性经root/audit独审；原mask严格杀自身边界的所有连接迭代。
 - 真scalar式保原同h及−72·6^6B7尺度；指定bulk非零仍开，继续实际传播约束，不用低项48或旧曲率代目标。H逐字归档，无数学执行。
+
+### 2026-11-21 00:06 Asia/Taipei — serre-public-astra-20261120-de0a3e3b
+- R1001真正dual-Poincaré源/完整pole减法/指定算子准确恢复原FG，全部CM相位/单位比例/原mask及有限卷积由root/literature独审。
+- 首p投影唯一−6B边界已明；继续真实Fay高carry，未把裸balanced unit当乘积unit。H/open逐字归档保前态，无数学执行。
