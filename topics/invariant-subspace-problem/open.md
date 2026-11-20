@@ -22,7 +22,7 @@ rank$H=4$ 的非单位局部块长度5、4、3已排；长度2单零的三种单
 
 当前依次处理：
 
-1. 孤立零单点，单位长度4补空间分拆 $3+1,\ 2+2,\ 2+1+1,\ 1+1+1+1$。单位单四重点已闭；[两个单位双点均为半权的完整子支](results/R150-appendix-essential-four-unit-two-plus-two-half-isolated-zero-rank-four-branch-is-empty.md)现在也由全mean/值jet及无除法QQ gcd排除，一般2+2权仍须处理。
+1. 孤立零单点，单位长度4补空间只余 $3+1,\ 2+1+1,\ 1+1+1+1$。单位单四重点已闭；[两个单位双点的整个任意权分支](results/R150-appendix-essential-four-unit-two-plus-two-isolated-zero-rank-four-branch-is-empty.md)现亦关闭：全部边界与零值、正规原325行QQ乘子和Phi零秩矛盾均已精确核实，不重做。
 2. 全部 rank$H=5$，即 $L$ 为单位的七种长度五除子分拆。
 3. 内均值 $y\in W$ 与 ess$T_3=5,6$。不能把 $V$ 自己的低秩支撑自动当作 $y,H,V$ 的共同支撑；降秩情况及完整原梯度必须保留。[V=0、rankH3且y在RanH外的整支](results/R150-appendix-zero-third-cumulant-rank-three-outer-range-exclusion.md)现已由原J2/迹/二次因式排除；所以V=0且ess4只余rankH4、y在其唯一length4原jets支撑。[双二次独立及唯一简单基点归约](results/R150-appendix-zero-third-cumulant-essential-four-independent-quadrics-and-basepoint-reduction.md)进一步排除全部相关二次/N=0例外，物理投影须为有唯一简单基点的四次曲线。[四不同点整支](results/R150-appendix-zero-third-cumulant-reduced-essential-four-section-is-empty.md)已由原完整节点普通矩梯度、全部a_i零例外和原H-gradient因式排除；[全部重节点型](results/R150-appendix-zero-third-cumulant-nonreduced-essential-four-section-is-empty.md)随后亦由保根方向相关性的完整Gaussian梯度与原极线几何排除。因此V=0、essT3=4整层现已关闭；继续一般V≠0内均值ess4，以及V0和一般ess5/6的原matched Bell问题。
 

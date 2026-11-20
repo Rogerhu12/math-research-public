@@ -1,0 +1,48 @@
+{
+  "format": "isp-execution-identity-v1",
+  "runId": 44731129539,
+  "jobId": 136270857160,
+  "sourceCommit": "77d32165a6d85885e799c1b5c34712c60dd25a30",
+  "decodedWholeLogSHA256": "463f02d99cd7b0a5d4d3ba89c4faffaa645e1253fd769b52c8b41b4b4e571b49",
+  "actualPull": {
+    "actualPullRebaseSucceeded": true,
+    "beforeCommit": "77d32165a6d85885e799c1b5c34712c60dd25a30",
+    "executionEnvironment": "GitHubActions",
+    "format": "isp-789f-actual-actions-pull-v1",
+    "remoteCommit": "77d32165a6d85885e799c1b5c34712c60dd25a30",
+    "rulesGitBlobs": {
+      "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+      "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+    },
+    "rulesUnchanged": true,
+    "runId": "44731129539",
+    "utc": "2026-11-20 11:52:44 UTC"
+  },
+  "independentExecutionIdentities": [
+    {
+      "elapsed_seconds": 0.6619292009999995,
+      "exit_code": 1,
+      "label": "unit31_zero_base",
+      "source_sha256": "136eb4d472d668da73e33d360bddf29b5b0cbd9869fd217ef52e266e4a49708f",
+      "stdout_bytes": 390,
+      "stdout_sha256": "04576bc2a2ca43b214b3a396ad6309c701d218258edf22d1352ff061faf76531"
+    },
+    {
+      "elapsed_seconds": 1.0792283130000015,
+      "exit_code": 0,
+      "label": "vzero_degree6",
+      "source_sha256": "baa36d716e7f15b2a6ba7f3739cebdf3f5e6d98b9f4e305bf1a2c9716125ff54",
+      "stdout_bytes": 4200,
+      "stdout_sha256": "59fff8d17833ba785069c4c3264b9826edcf002be3a66bc86cef36599a356653"
+    },
+    {
+      "elapsed_seconds": 1.3823568379999998,
+      "exit_code": 0,
+      "label": "unit22_boundaries",
+      "source_sha256": "a2f39931923d3f1fc4f42f8372f0b0f3b566ce70bf205c22ae7bbc8cdae2cb24",
+      "stdout_bytes": 267,
+      "stdout_sha256": "ddc021ef8901dc8a3524e83fbfc9d7bc4782053ccea35501eb454bc7a66ee3af"
+    }
+  ],
+  "note": "Independent unit22 boundaries completed. Unit31 stopped at an unexpanded symbolic matrix equality; its corrected complete check is a later run. V0 degree6 original controls and modular computation completed; mathematical interpretation is a separate proof. No recomputable output arrays are persisted."
+}

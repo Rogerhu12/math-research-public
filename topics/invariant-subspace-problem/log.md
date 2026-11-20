@@ -597,3 +597,6 @@ AI-assisted GPT-6 Astra Pro：[完整证明](results/R271-appendix-complete-high
 
 ## 2026-11-20 11:52:20 UTC — Astra-ISP-b2a9acde-20261120：新原源短批次8
 AI-assisted GPT-6 Astra Pro：冻结三独立源码：unit2+2边界/反向mean、unit3+1全p零值jet、V0完整17低梯度的degree6 matched Bell正门；只读job先实际pull后并行，最后全原QQ产品才可登记。V0只试462×267的三QQ目标、wall180/1024MiB，模失败不作负结论；不存数组/乘子，H全文快照。
+
+## 2026-11-20 11:58:17 UTC — Astra-ISP-b2a9acde-20261120：孤立零点加两个单位双点整支闭合
+AI-assisted GPT-6 Astra Pro：[完整证明](results/R150-appendix-essential-four-unit-two-plus-two-isolated-zero-rank-four-branch-is-empty.md)根逐式核无除法相容、全边界及Phi0秩矛盾；原325行QQ乘子run44730016169与独立边界run44731129539全部通过。后者11:52:44真实pull且规则未变；同批无关p0代码检查失败如实保留，未并作已证。

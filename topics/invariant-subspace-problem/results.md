@@ -83,3 +83,5 @@
 - **R150 V0本质四维的全部重节点排除，整层闭合（2026-11-20，已证明）：** [完整四重数型及根方向相关性引理](results/R150-appendix-zero-third-cumulant-nonreduced-essential-four-section-is-empty.md)逐一覆盖4、3+1、2+2、2+1+1以及基点全部位置/∞；保H_RY非零相关项，完整mean及二阶梯度的系数比矛盾排主要族，局部4的原五阶奇零点排0/∞。与四不同点结果合并，V=0完整临界⇒essT3≠4。一般V≠0、ess5/6、完整Bell幂来源与ISP均仍未闭。
 
 - **R271 完整真核线性图及全实最高carry正则界（2026-11-20，已证明）：** [完整物理核/余核、Galerkin导数和精确剪切解](results/R271-appendix-complete-highest-carry-linear-graphs-and-full-interval-regular-cost.md)在奇r/偶R给固定自由块⊥线性图，底坐标I保证全区Π′/Q′≤2L。最终物理投影保留后，全0<t≤1的q−t⁻¹q₋₁≤K0(h+1)[h1+(4h+2)L+2]‖f‖；全部原64^R/4^R及头、S费用明列。无需未知有效半径，粗正则上界仍未满足实际倒数预算。
+
+- **R150 孤立零点加两个单位双点的任意权整支为空（2026-11-20，已证明）：** [全部原 mean/值 jet、边界与 QQ 成员证明](results/R150-appendix-essential-four-unit-two-plus-two-isolated-zero-rank-four-branch-is-empty.md)包括半权、A0、B+D0、两Frobenius零权及Phi0；正规原325行整数等式与边界分别由run44730016169/44731129539全核。rankH4孤立零点仅余unit3+1、2+1+1及四约化；rankH5、inner与ess5/6仍开。
