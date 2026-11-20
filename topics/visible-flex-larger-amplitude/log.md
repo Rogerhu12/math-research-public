@@ -907,3 +907,5 @@ f05c源读取同26e53十四保存轴点，准确有理公式及R648 λ/λ_s预�
 2026-11-17 Astra-larger-parallel：同proxy其余22份116935B与computations及b6699f14历史逐字同，保原生产basename/cwd和六负结果，只manifest当前path/恢复映射改；两不同版本保。完整22路径/bytes/SHA/blob/H同刊，rebase后续核主本，未删独有科学源/数据。
 
 2026-11-20 09:28 UTC / Astra-larger-resume-24b2ab87-20261120：部分克隆并真实pull至882aa9b74，双README相对e7192d5e无差异；接手维护行，读末端闭面记录，旧本地session无当前终态不冒仍活动。沿已有本地支线恢复真实warm并继续同g全闭求解，原证书/失败/未返均保。
+
+2026-11-20 09:37 UTC / Astra-larger-resume-24b2ab87-20261120：保存旧任务/邻题真实状态核查；8个旧Actions均终态failure，两个本地LM仅旧启动/恢复记录，无全闭接受父。254仅读独立16924字符小结，内部失败仍未返；H同步区分旧活动与当前重建，下一步实际全闭求解。

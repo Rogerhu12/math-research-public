@@ -4,7 +4,7 @@
 
 ## 规则与目标
 
-最近规则核查：2026-11-20 09:30 UTC，真实NFF后pull/rebase至 `27d5839d9e12682dd2fb21a2aca36ea9b400d823`，双README无差异。
+最近规则核查：2026-11-20 09:34 UTC，真实pull/rebase至 `8294ba5d6610243d6189e1c884f1e473470fb5a5`，双README相对上次已读无差异。
 
 规则同步记录：2026-11-20 09:25 UTC 已按 blob:none/sparse 部分克隆并真实 `git pull --rebase origin main`；已读提交 `882aa9b74efeaac682df43c197820e7280156357`。与上次 `e7192d5e7b1ed6291e3b8fd9804e31692e788b6d` 比较，根 README 与本题 README 均无变化。根、题、HANDOFF、open、最近 log 与末端 notes 已读；旧全文保上述固定提交。终端 git 已恢复可用；本次沿 §7 已登记的本地计算支线继续，不重跑已完成的开放片证书。root 唯一发布。
 
@@ -22,27 +22,13 @@
 
 Astra-larger-parallel-16f63c8b：本地计算，原Actions责任保；[open§7](open.md#7-本并行会话的实际数学与几何路线)保完整源/失败/预算。R648全连续Gram<4.94e−7、R651全K≤7.04608、R652全819 β1/4支持>.3174736/β2/5>.16747356295均已刊，非闭reach。efe92/1878全Gram与0f/97062原Pr各自24/20继续，numerical唯一终态。真正全闭模型M160/923节点/11335680角值行/1332245自由度，准确Hold oracle、三jet圆端口与完整J/FFT对照已刊；原warm401255 Gram147失败保。[唯一mode-damped初猜](notes/2026-11-17-parallel-geometry-fullclosed-mode-damped-readout.md)9bf60/b361实际降至.655109仍不合格，prefix原节点3.6124e−5须一同求解。[完整双积分实际准备](notes/2026-11-17-parallel-root-fullclosed-integrated-coordinate-preparation.md)e6e968通过，0几何重算；生产尺度/首方向继续，尚无闭解。R650流reach/标记接口不替D/H/held/反射E3/reach/全t/同g精化。
 
-## 实际活动run与唯一终态读者
+## 2026-11-20 实际运行状态
 
-| 请求/结果 | run / source / compute | 责任及最近metadata |
-|---|---|---|
-| 235/R560 | 43883302810 /63a1cb3b5c85fca6606e43502df60be03e695b81 /133354643341 +133479471654 | exact两终态唯一已读；R560全采样/两边界停/必要全返/真清理本次刊 |
-| 245/R587 | 43894406245 /566452cdf2665f9d9bde257f8d9cb3690c7db2a3 /133393934544 | exact；16:59前1–18成功、19完整采样 |
-| 246/R590 | 43897098674 /f70acbf1886f0f363c3c1d6b60760438f59e545c /133403519298 +133480137925 | root公开reader各原log一次；R590源true/科学1/双70/removedfalse本次刊 |
-| 247/R592 | 43899155015 /3ca6bddf9912c27f36a1a4a978bd65b8502063a4 /133410760515 | geometry；16:50 step17factory failure、19sampling running，终因待实际必要 |
-| 242/R579 | 43900562629 /c3e91b762a6536a9820cf87e4dd1a9e898d88d62 /133415703033 +133491512913 | exact通过行政各原log一次已读；457source/input true、科学1/双70/removedfalse本次刊 |
-| 241/R577 | 43901322004 /7af9e725e58983a740d3cb53c66b73166914e247 /133418415682 | geometry；16:50 step17factory failure/18deep成功/19全采样 |
-| 243/R582 | 43903254017 /beb6e2e462ca66ec0c600b2331352f5e06a72903 /133463966998 | amplitude；17:10前1–14成功/15完整连续E cover running |
-| 248/R595 | 43903713053 /b38a46a6d0f34f250cff6d13c64ffafa65931ef8 /133426820200 | exact；16:59前1–10成功/11原科学 |
-| 244/R585 | 43908088860 /46dff6066560f2153b998085403aa2b24b7bab3c /133442289891 +133442684519 | exact两终态已读；R585联合guard/必要超限本次刊，科学未起 |
-| 249/R598 | 43914437629 /9e13243d17d5fe736352a9a40b88d75f79b8d744 /133464707666 +133466521315 | geometry两终态已唯一读；R598源guard/双超限/未起本次刊 |
-| 250/R607 | 43916489518 /25265e7eaca1b00a879311032a8520546516416c /133471931060 | amplitude唯一；17:46前1–10成功/11原科学 |
-| 253/R614 | 43922725201 /4d572940046abc277049507545cbfbaf5785bc60 /133493981603 | amplitude唯一；18:01前1–10完/11原科学 |
-| 254/R618 | 43925089252 /d7004165729d01491f6a67375a8860d6ede73086 /133502332118 | amplitude唯一；18:06前1–9成功含全471syntax、10原输入 |
-| 251/R608 | 43923406697 /699106189c165644414cca1cb2d318b9d296a1a0 /133496377503 +133496549560 | geometry唯一；18:02两job终态failure，step3来源停，原logs0次待完整必要 |
-| 252/R609 | 43917735686 /af8930100294bcf4d52430343e1e33932e2565f0 /133476367763 +133476653331 | exact两终态已唯一完整读；R609桥合取fail/487426未返/科学未起本次刊 |
+[本次恢复核查](notes/2026-11-20-resume-recovery-evidence.md)：旧request241/243/245/247/248/250/253/254当前全部completed/failure，不再等候；原compute大log没有重读。唯一新读取的是254独立小结job133632676762（16924字符），source准备通过但source/science完整必要体543251/191002均超旧90K，内部科学原因未返，不能造接受父。此前所有run/head/job及唯一读者账完整保在 `882aa9b74efeaac682df43c197820e7280156357` 的本文件；原已刊结论不变。
 
-只看running metadata；每个终态job指定读者一次，root不复子日志。官方notes保各唯一POST200/run/head；未知派发不重试。228实际头只有H规则行不同，其source/.github/双README同。
+旧本地LM 97062/1878只保存启动/第8方向恢复记录，无终态；新环境没有这些进程或数组。邻题held-10pct已刊低幅闭图held/D>.005462656，本题所需.2仍未到；new-mechanism无已刊全门候选。成功job标签不替科学结果。
+
+本次fullclosed_solver正在从历史提交60321451c的真实M96/.99接受blob（SHA b4d2b98abc1da2dd149ca28e83ea17963a0d2a50b3c454baabc92f6229b412ff）恢复最短已刊生成链；其新算输出另记SHA，不冒丢失raw。geometry_path分析闭合结构；recover_evidence转做原Gram同模型批量FFT。root推导准确角向对称约化，保原全部独立残差与正常方程；尚无新非线性接受。
 
 ## 当前固定历史与已发表结论
 
