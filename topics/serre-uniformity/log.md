@@ -49,3 +49,7 @@
 ### 2026-11-20 23:07 Asia/Taipei — serre-public-astra-20261120-de0a3e3b
 - R993真正新r8/r2差集方法与consumer已冻结；原wp/CDQ完整ODE、三源核、全部截断/预算/分块输出经root审定，本地只IO/AST。
 - 提交公开请求，完整差集或三核首零才成功；R994留待实际回执。继续原filtered G-action和目标near-p非零，未把执行请求当结论。
+
+### 2026-11-20 23:09 Asia/Taipei — serre-public-astra-20261120-de0a3e3b
+- R995原D³ mixed源/全部zeta修正/实际分母界经root与literature独审，精确保G‴新支、E−正号和原mask，H逐字归档保前态。
+- 原filtered关系仍开，继续来源约束；R993 run44760218207/job136370438703正公开计算，未提前宣布回执或Serre完成。

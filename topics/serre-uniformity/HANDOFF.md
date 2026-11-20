@@ -4,9 +4,9 @@
 
 证明绝对C使所有无CM E/Q在p>C时模p满射，或给p→∞完整反例族。**主目标OPEN，尚未达README标准。**
 
-**维护会话：serre-public-astra-20261120-de0a3e3b。** 已部分克隆并真实pull main，接手serre-public-astra-20261115。压缩前逐字状态在[最新H归档](handoff-archive-2026-11-20-before-Jacobi-operator.md)，沿链保全部旧source/SHA/尺度/失败边界，不重做已登记结论。
+**维护会话：serre-public-astra-20261120-de0a3e3b。** 已部分克隆并真实pull main，接手serre-public-astra-20261115。压缩前逐字状态在[最新H归档](handoff-archive-2026-11-20-before-coarse-normal-jet.md)，沿链保全部旧source/SHA/尺度/失败边界，不重做已登记结论。
 
-**已读规则提交：735f59a1905ab37a5bcf18674f37aef8184235b8**（2026-11-20T15:07:59.958449+00:00；终端真实git pull --rebase origin main，两README无diff）
+**已读规则提交：248592d7fabd01b1b8c548237400767e9ecec001**（2026-11-20T15:09:40.233886+00:00；终端真实git pull --rebase origin main，两README无diff）
 
 两README完整已读，SHA256 root 581402c2 / topic 35f82f3d。每结论立即推；每push前且至少每小时真实pull；每pull检查两README，有变只读diff立刻照办并记已读SHA。NFF/lock-ref竞态立即pull --rebase再推直到成功，禁force。PAT只CLI，不入文件/提交；root独占main/H/open/index/log。
 
@@ -19,6 +19,8 @@ p=6N+5，h=6i+7，i+j=N−1，须同h使原primitive/Legendre mask下P_(h−1)(1
 R969三点actual span核已过；R971严格排全p full-span，未排特定A/E4包含。R945中央零与完整S单位并存，完整trace不推同h；R734原primitive Legendre单位已成不能独完O1。
 
 [R992](results/R992-original-full-level-Jacobi-operator-and-filtered-stability-criterion.md)：在整个原M_(p−5)、F=Y^NP(z),z=X³/Y²上，真实Serre D给 **G(F)=[D²(XF)+X²F/144]/[X²(1−z)]**，全表观分母消去。诱导L=z(1−z)∂²+(4/3−7z/3)∂−55/144，Jacobi B_d有互异λd=−(d+5/12)(d+11/12)、mark1；kerG正是Tate A/E4，标量B_k(1)^−1。**原filtered V≠0且G(V)⊂V⇒同h三因子非零**，两假设均尚未一般证明。旧R969p227 central i18为pivot（组合13）、全局非零但mark0，严格排逐列本征；三个旧满秩点的G稳定无需重算。原E+帧G(F)(0,864)=(25F−D³F)(0,864)/144；下一步是actual heat/kernel作用，不能从算子与mask交换冒稳定。
+
+[R995](results/R995-original-mixed-source-for-the-first-coarse-CM-normal-jet.md)：原E−/Y−864、K=G⊗H+6F⊗Y_s、∇=∂−6ζ下，Π4DJ=Π4D²J=0使完整D³(∇²J)的两个中间Leibniz块真消；实际三支为G‴/216⊗𝒜+12uF′⊗(3𝑀−12G)+F⊗(12𝑀−144G+6ℛ)。全部P1/P2/P3与216P1P2保留，𝒜=∇²H‴，ζ修正不消G‴支。Ψ_ij首项=(a+1)(a+2)(a+3)g_(i+1)𝒜_j/216；原G(Z)mark=(25Z+Ψ)/144，E−正号/原mask/尺度不换。两个实际Taylor阶≤p−4,p−5、ζ权≤p−2，均整。root/literature逐式独审；新项尚无原retained关系，不冒G稳定或同h。
 
 ## O2：原完整trace及高坐标单位
 
@@ -38,13 +40,7 @@ R982原theta/Robert对称已排literal共同α/ξ模型；R983又以独立exact 
 
 R981原pure留数/唯一共振/two-digit压缩与R983四点全核已成；R983 run44748379140准确否定指定factorial共ξ模型（41/47差10/31），不重跑。
 
-R984真一次Frob保actualt整R_t、λ0/μbar=−β与BKT finite integral kernel；其rational J_t满足R_tbar−J_t=h^p无常数，低mixed矩形保原c_n，不能用于无carry的高pure。
-
-R985 R_T=R_t∘g+μC_g，Cbar=δ_gbar/g′bar^p，δ_g=(g^p−g^φ(Tp))/p；原pure −G_N=[T^(N−1)](J_tg−βCbar)。首carry−3T^(p+6)/7已证必要，不推总系数单位。
-
-R986原s源global rational J_s满足dJ_s=(−x+βt^(p−1))ω，Z=−β^-1D^(p−2)x、dZ=ω；β=binom((p−1)/2,(p+1)/6)、𝔠_pβ=3。实际𝒯=Z+β^-1J_s^p，d𝒯=ω且𝒯(g_sT)=T+O(T^q)，原pure/mixed有指定rational residues。R594/R658早已证明formal log分解，R986只新增global rational实现/原residue校准；不称global log或群同态。
-
-R987真实两open gluing给 C(xZ^jω)=β^(1−j)j!L_jω（0≤j≤p−1），逐阶Res(J_sω)=1排低修正、μ6排顶常数。pL_p=−βZ，真实one-sided首分母p[W^(p−1)]K=−β𝒯−h^q；LT<q为−βT，第二Frob只有限取消；实际theta曲率−βW不推near-p unit。
+R984–987真实Frob整核、strict坐标carry、global rational LT实现及Poincare两open Cartier全证，准确公式/源/边界见最新H归档及各结果。保μbar=−β、R_T=R_tg+μC_g、首carry−3T^(p+6)/7、𝒯=Z+β^-1J_s^p、参数误差q−3与首分母pL_p=−βZ；R594/R658旧formal分解不重登。真实gluing给C(xZ^jω)=β^(1−j)j!L_jω，非共同scalar；第二Frob有限取消和theta曲率−βW不推near-p unit。
 
 [R988](results/R988-original-pure-balanced-Cartier-contraction-and-high-trace.md)：完整Cartier与真正theta对称给 **G_(j(p−1))=−j!β^−j c_j+，1≤j≤p−2**；原r2/8、n=p−r有G_high=−β^(r−1)c_n+/(r−1)!、G_highstar=β^r c_n+/r!。原AH高坐标 **γ1=−24η^(−(m−b))(χσ−1)β^(r−1)c_n+/r!**，所有外因子单位、c_n+=−c_n−，故 **原S≠0 iff c_(p−r)±单位 iff F_(p−r)(0,−864)非零**，补成R974逆向而不反除period比。实际p-basis b0=−βB_(p−1)、b6=−β7 B_(p−7)/6!，参数差首影响q−3完整保。低a3/9 pure显式−β−3、−8β−9/35只校准已知unit；真正near-p系数全p单位、同h与height仍开。
 
@@ -54,7 +50,7 @@ R987真实两open gluing给 C(xZ^jω)=β^(1−j)j!L_jω（0≤j≤p−1），逐
 
 [R991回执](results/R991-certified-original-r8-balanced-window-through-20000.md)：R989公开run44755320789/job136353398270/source3766ab06110a57ab35b95fe5469ed40cd5ce6564，1.998924778s完成1000<p≤20000、p5mod12且p2/5mod9的全部349个r8新素数（1013..19973），全非零/无尾段。1013/1049的R990、原Chazy/CDQ、原E− sigma单carry三路一致；每p首resonance核过。root纯IO复核完整request/rows/summary与payload245369B、SHA fea55f009c33e1b120e50c1fd9ff2a23aba25c999d863f506a72105fabfb86aa。R988给此有限集原S单位；不推全p/同h/height。R989 request已完成，不重触发；无raw artifact。
 
-R989冻结源及pins见R991。[R993方法](notes/R993-original-combined-disjoint-window-method.md)已逐式/全代码审定：新增wp/CDQ保完整ODE，method c1913358、script 2e60046f。现提交真正新差集（r8仅20000..200000、r2仅100000..200000），620s含15s收尾；各行首两点/首零三源核，完整chunk/hash/尾段及final预算回执才验收。公开运行待R994，不提前记完成；legendre/literature继续actual filtered G-action，R995为三次Serre正常jet。主目标仍OPEN。
+R989冻结源及pins见R991。[R993方法](notes/R993-original-combined-disjoint-window-method.md)已逐式/全代码审定：新增wp/CDQ保完整ODE，method c1913358、script 2e60046f。现提交真正新差集（r8仅20000..200000、r2仅100000..200000），620s含15s收尾；各行首两点/首零三源核，完整chunk/hash/尾段及final预算回执才验收。公开run44760218207/job136370438703/source248592d7f已进入计算，回执待R994；R995已证三次Serre正常jet，继续原filtered关系。主目标仍OPEN。
 
 ## 继承任务与永久边界
 
