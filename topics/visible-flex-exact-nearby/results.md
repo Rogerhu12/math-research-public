@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R138体能量与真根缺陷迹](results/R138-supplement-Volterra-Grushin-energy-and-root-defect-trace.md)：已付K≥(r−r*)/120，反向Volterra的平方核权取消根奇性；显式209/78和419/156给旋转体H^(2/3)/根H^(1/3)，完整缺陷有H^(−1/3)根迹。残差吸收只剩两个原能量及已知系数预算，原真DF弱核体能量合法；实际系数/根型三标量门仍待，hybrid差不免。
+
 - [R137连续逆到原有限核心之桥](results/R137-supplement-continuous-to-finite-principal-lift-bridge.md)：原24480真细胞上的同平均齐次主部提升给完整source的h_i/π投影缺陷；P_f(T−I)消去identity，η_f≤(6/5)M_C M_mesh<1后有限逆≤(75/58)C_T/(1−η_f)，已含原ρ。193atoms/full CFB/mean与两RHS全保；连续逆和新严格门仍待实付。
 
 - [R138根轴两标量公开输入合同](notes/2026-11-20-R138-root-axis-support-contract.md)：11当前输入/10历史原件，独立新child只消费原4650闭行和准确dyadic轴定义，求同外锚真根(q,s)及完整误差；原角数组只私有定义。source/worker整审、AST/全pin核，首次Actions；未授全角/分母/根正型/逆。

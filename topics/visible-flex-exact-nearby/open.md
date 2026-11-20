@@ -169,4 +169,6 @@ R138的[几何桥](results/R138-residual-sensitive-Codazzi-frame-and-geometric-J
 
 [真实root全角型](results/R138-supplement-complete-root-angular-form-and-two-scalar-geometry.md)保low even96=0、97起high stable、独立mean与H；高频主符号正不授finite正性或mean消元。[轴首次合同](notes/2026-11-20-R138-root-axis-support-contract.md)11当前/10原件保全4650闭行和原接口，44730968113/1已返回success，完整actual输出正审。完整全角型、分母、finite+tail、体残差吸收及实际全逆继续待付。
 
+[R138体能量/根迹](results/R138-supplement-Volterra-Grushin-energy-and-root-defect-trace.md)已给同真Qrepair齐次核的有限能量辨认、K≥x/120和反向Volterra HS界；Grushin常数209/78、419/156及完整H^(-1/3)根缺陷消去任意未知体范数。下一项须实际付k_s/C_E/C_H/角图/E0/E1与全根型C_*，再验证A<2、C<1、T²<4(2−A)(1−C)。这些仍未数值通过；真实DF与WVC hybrid额外主部差继续独立，不能据此宣布无核。
+
 公开科学只用本仓库Actions，规则15只留脚本/参数/run/hash/小结论；0旧成功重算，非FF立即rebase推到成功，每次pull两README差异记H。readonly44712172133成功与旧43921663540运维失败保持原范围；无静态他题workflow行政白名单，逐次仍核topic≤200MB。
