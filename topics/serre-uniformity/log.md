@@ -25,3 +25,7 @@
 ### 2026-11-20 22:22 Asia/Taipei — serre-public-astra-20261120-de0a3e3b
 - R987原Cartier/connection全函数恒等式经三位独审与root核准；真实两open下一阶留数排全部下级极部，μ6排顶常数，首分母与实际theta曲率尺度保全。
 - R986补明R594/R658旧formal分解的复用范围；继续原pure/mixed准确收缩和near-p单位性，主目标仍OPEN，无数学执行。
+
+### 2026-11-20 22:26 Asia/Taipei — serre-public-astra-20261120-de0a3e3b
+- R988完整Cartier/实际LT/theta对称收缩给一般G_(j(p−1))=−j!β^−j c_j，原γ1保全部η/χ/24/r!，root独审参数界及模型相位。
+- 原trace非零现与balanced单位等价，R974单向桥已加强；继续真正near-p非零、独立r8未覆盖窗口和actual GM来源，不以等价判据收尾。

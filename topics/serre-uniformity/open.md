@@ -28,7 +28,7 @@ R946/951/952原Bol障碍O_r(H)=r!(𝒰H)^p/B^(p−r)|SS、kerO=ker𝒰；whole�
 
 [R973](results/R973-certified-balanced-Kronecker-coefficients-at-four-primes.md)原E−:y²=x³−1/g3=4/无Gaussian的balanced c_n=[z^n w^(n−1)]σ(z+w)/(σzσw)，n=p−2/p−8，公开41/47/227/857 residues13/4/171/317全unit，exact rational和原single-pole独立核通过。源模权2n与高CM权n+1区分；run44740851091已完，不重触发，不重算旧trace/同h。
 
-[R974](results/R974-original-balanced-coefficient-and-one-sided-CM-period-bridge.md)用KS一般整性、unit regularizer、critical additive periods及12个真实Manin cosets给原TU整parabolic格Ω_f±/P_n整，P_n=(Ω−/(2πi))^n。准确adjoint值=u_n c_n P_n²/(Ω+Ω−)，u_n=2^(n+2)3^((n−8)/2)(n−1)!单位，3处Euler/i符号/E±尺度完整。故**c_n单位⇒η单位⇒S非零**，仅充分方向，未断言period比单位或逆向。
+[R974](results/R974-original-balanced-coefficient-and-one-sided-CM-period-bridge.md)用KS一般整性、unit regularizer、critical additive periods及12个真实Manin cosets给原TU整parabolic格Ω_f±/P_n整，P_n=(Ω−/(2πi))^n。准确adjoint值=u_n c_n P_n²/(Ω+Ω−)，u_n=2^(n+2)3^((n−8)/2)(n−1)!单位，3处Euler/i符号/E±尺度完整。该文原先给**c_n单位⇒η单位⇒S非零**；R988现由实际Cartier/Robert来源补成等价，未反除period比或断言其单位。
 
 [R975](results/R975-original-balanced-Kronecker-integral-heat-recurrence.md)原bare U_n=n!(n−1)!c_n属于Z[1/6][g2,g3]，准确heat递推保polar κ0=1。U_n=F_n(12g2,−216g3)/12，F_n=(R^(n−1)E)|E0；Wilson给c_(p−r)=−r!(r−1)!F_(p−r)(0,−864)/12 modp。所有n<p整性已证，具体近p阶F单位仍开；不能由R^p高导数单位/一般homogeneity反除未知混合项。
 
@@ -46,9 +46,9 @@ R946/951/952原Bol障碍O_r(H)=r!(𝒰H)^p/B^(p−r)|SS、kerO=ker𝒰；whole�
 
 [R982](results/R982-theta-symmetry-obstruction-to-a-common-Frobenius-scalar.md)严格排除literal barλ→λ^p加共同α/ξ的比较模型：原theta对称给H_(j,j)=jH_(j−1,j+1)，j3/6的c+=1/6、−1/900均unit；Robert反射G_K=βG_L/(p+1−j)迫α/β同时−3/2与−6/5，矛盾。只排共同标量模型，不排带index-factorial/Gamma/carry修正或单个near-p比较。近p lowstar与c_n B_p^r同权不构成等式。
 
-当前须证实际G_(n(p−1))高系数普遍非零，或与balanced c_n建立真实整reciprocity。N_low+N_high=p²−1、低unit和Frobenius pair整体非零都不单独证明高unit；原生mirror的实际指数及规范须逐条核。不把Cayley坐标直接当ϖ，也不删factorial/p幂。
+R988已建立实际G_(n(p−1))与balanced c_n的准确整比较；当前须证其中等价的高系数普遍非零。N_low+N_high=p²−1、低unit和Frobenius pair整体非零都不单独证明高unit；原生mirror的实际指数及规范须逐条核。不把Cayley坐标直接当ϖ，也不删factorial/p幂。
 
-[R981](results/R981-original-pure-Hurwitz-residue-compression.md)已证原pure G_N的留数公式及包含唯一分母p共振的两digit输入压缩；末收缩O(p)、中间series O(p²)，不宣总线性。当前request改为四p的新pure指标，41/47用独立exact rational ℘并加j3/6诊断；旧R973 c_n/B仅消费。factorial修正候选25β³G_K6=4G_K3明确未证、输出不assert；[R983](results/R983-certified-pure-Hurwitz-coordinates-and-factorial-model-counterexamples.md)公共run44748379140已成功3.552868857s，四点全部核过；factorial共ξ被41/47反例严格否定，denominator-free差10/31，独立exact rational已核。current request已完不重跑。一般高G_N单位和保整余项的真实mixed比较仍开。
+[R981](results/R981-original-pure-Hurwitz-residue-compression.md)已证原pure G_N的留数公式及包含唯一分母p共振的两digit输入压缩；末收缩O(p)、中间series O(p²)，不宣总线性。当前request改为四p的新pure指标，41/47用独立exact rational ℘并加j3/6诊断；旧R973 c_n/B仅消费。factorial修正候选25β³G_K6=4G_K3明确未证、输出不assert；[R983](results/R983-certified-pure-Hurwitz-coordinates-and-factorial-model-counterexamples.md)公共run44748379140已成功3.552868857s，四点全部核过；factorial共ξ被41/47反例严格否定，denominator-free差10/31，独立exact rational已核。current request已完不重跑。一般高G_N单位仍开；保整余项的真实mixed比较由R988完成。
 
 [R984](results/R984-frobenius-regularized-finite-Kronecker-kernel-and-rational-Cartier-descent.md)：Guerzhoy真一次Frobenius给actualt的R=ζ(l_E)−(μ/p)l_E^φ(t^p)整，λ0、μbar=−β。BKT connection L_j在j≤p−2均属原A[x,y]；有限K=e^(RW)Ξ整且仅simplepole，精确保原c_n。其ν_t=−xω+βt^(p−1)f^pdt有rational primitive J_t，Rbar−J_t=h^p且h无常数，故c_n=[T^n]ΣJ_t(gT)^(n−j)L_j(gT)/(n−j)!。仅i≤p−2矩形可丢h^p影响；高pure不能丢actualt→LT的除p坐标carry。一般unit未证，继续R985 carry及R986不同s源的显式J_s。
 
@@ -57,6 +57,8 @@ R946/951/952原Bol障碍O_r(H)=r!(𝒰H)^p/B^(p−r)|SS、kerO=ker𝒰；whole�
 [R986](results/R986-explicit-rational-primitive-and-original-Lubin-Tate-jet.md)：原s源显式J_s=−(2y^p)^−1Σ_(j≠(p−2)/3)binom(d,j)x^(3j+2)/(3j+2)，dJ_s=(−x+βt^(p−1))ω，β=binom(d,(p+1)/6)。Z=−β^-1D^(p−2)x为仅O polep、dZ=ω的唯一规范primitive；Wilson𝔠_pβ=3与E[2]字符给R0=Z−β^-1(x²/y)^p。**𝒯=Z+β^-1J_s^p** 是实际Fp(E)有理函数，d𝒯=ω、𝒯(g_s(T))=T+O(Tq)，保canonical共振。原pure=(N−1)^−1ResO x𝒯^(1−N)ω；mixed=ResO B_n𝒯^(−n−1)ω，B_n=ΣJ_s^(n−j)L_j/(n−j)!，仅mixed可用R0替𝒯。pure保补项β/(N−1)[T^(N−2)]t^(p−1)。不是global log/group hom，两指定residue非零仍开；继续actual Cartier降次和Poincare首分母。
 
 [R987](results/R987-original-Poincare-Cartier-identity-and-first-denominator.md)：真实两open gluing给 **C(xZ^jω)=β^(1−j)j!L_jω，0≤j≤p−1**；有限整L端点由G_(p−1)=0，最低非零W项的下一阶Res(Jω)=1排全部下级修正，唯一顶常数由μ6字符排除。pL_p=−βZ、一次正则核首分母p[W^(p−1)]K_s=−β𝒯−h_s^q，LT<q恰−βT；真正第二Frob只消此有限边界。原theta连接p曲率−βW及实际J修正取消均准确；不从曲率推出c_(p−r)单位。R986已补R594/R658旧formal分解复用范围，新增点是global rational源及实际residues。继续精确pure/mixed收缩与近p单位性。
+
+[R988](results/R988-original-pure-balanced-Cartier-contraction-and-high-trace.md)：完整Cartier与真正theta对称给 **G_(j(p−1))=−j!β^−j c_j+，1≤j≤p−2**；原r2/8、n=p−r有G_high=−β^(r−1)c_n+/(r−1)!、G_highstar=β^r c_n+/r!。原AH高坐标 **γ1=−24η^(−(m−b))(χσ−1)β^(r−1)c_n+/r!**，所有外因子单位、c_n+=−c_n−，故 **原S≠0 iff c_(p−r)±单位 iff F_(p−r)(0,−864)非零**，补成R974逆向而不反除period比。实际p-basis b0=−βB_(p−1)、b6=−β7 B_(p−7)/6!，参数差首影响q−3完整保。低a3/9 pure显式−β−3、−8β−9/35只校准已知unit；真正near-p系数全p单位、同h与height仍开。
 
 ## O3：固定低权cohomology与原Igusa投影的边界
 

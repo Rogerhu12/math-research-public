@@ -6,7 +6,7 @@
 
 **维护会话：serre-public-astra-20261120-de0a3e3b。** 已部分克隆并真实pull main，接手serre-public-astra-20261115。压缩前逐字状态在[最新H归档](handoff-archive-2026-11-20-before-rational-LT-jet.md)，沿链保全部旧source/SHA/尺度/失败边界，不重做已登记结论。
 
-**已读规则提交：e5dab56f889f68832d997db50f575f8c003c5224**（2026-11-20T14:23:16.031830+00:00；终端真实git pull --rebase origin main，两README无diff）
+**已读规则提交：9d60f5532c4f6c94290dd1c4e07ad4bae325f254**（2026-11-20T14:27:05.114007+00:00；终端真实git pull --rebase origin main，两README无diff）
 
 两README完整已读，SHA256 root 581402c2 / topic 35f82f3d。每结论立即推；每push前且至少每小时真实pull；每pull检查两README，有变只读diff立刻照办并记已读SHA。NFF/lock-ref竞态立即pull --rebase再推直到成功，禁force。PAT只CLI，不入文件/提交；root独占main/H/open/index/log。
 
@@ -26,7 +26,7 @@ R958 r2原moment S^p=−216c_momℓ(R_F)，R_F=−2D^(2N+1)β²C^p，目标momen
 
 R973原E−/g3=4/无Gaussian的balanced c_n在41/47/227/857为13/4/171/317、旧B11/10/179/489。run44740851091/job136303836405/source f3f947dab32911ac0a40040ceb24242d4595488d全核已完；所有hash在回执/归档，只消费。
 
-R974原TU格Ω_f±/P_n整，adjoint=u_n c_n P_n²/(Ω+Ω−)，u_n=2^(n+2)3^((n−8)/2)(n−1)!单位；故c_n单位⇒η单位⇒S非零，只单向，不假period比单位。KS/Manin/3Euler/i尺度保。
+R974原TU格Ω_f±/P_n整，adjoint=u_n c_n P_n²/(Ω+Ω−)，u_n=2^(n+2)3^((n−8)/2)(n−1)!单位；原先只得c_n单位⇒η单位⇒S非零；R988现从实际Cartier/Robert源补逆向，仍不假period比单位。KS/Manin/3Euler/i尺度保。
 
 R975 U_n=n!(n−1)!c_n整heat递推，U_n=F_n(12g2,−216g3)/12，F_n=(R^(n−1)E)|E0；Wilson c_(p−r)=−r!(r−1)!F_(p−r)(0,−864)/12。n<p均整，近p阶单位仍开，不从R^p高导数单位反除。
 
@@ -53,6 +53,8 @@ R985 R_T=R_t∘g+μC_g，δ_g=(g^p−g^φ(Tp))/p，C_g=[l_E^φ(g^p)−L^φ(Tp)]/
 [R986](results/R986-explicit-rational-primitive-and-original-Lubin-Tate-jet.md)：原s源显式J_s=−(2y^p)^−1Σ_(j≠(p−2)/3)binom(d,j)x^(3j+2)/(3j+2)，dJ_s=(−x+βt^(p−1))ω，β=binom(d,(p+1)/6)。Z=−β^-1D^(p−2)x为仅O polep、dZ=ω的唯一规范primitive；Wilson𝔠_pβ=3与E[2]字符给R0=Z−β^-1(x²/y)^p。**𝒯=Z+β^-1J_s^p** 是实际Fp(E)有理函数，d𝒯=ω、𝒯(g_s(T))=T+O(Tq)，保canonical共振。原pure=(N−1)^−1ResO x𝒯^(1−N)ω；mixed=ResO B_n𝒯^(−n−1)ω，B_n=ΣJ_s^(n−j)L_j/(n−j)!，仅mixed可用R0替𝒯。pure保补项β/(N−1)[T^(N−2)]t^(p−1)。不是global log/group hom，两指定residue非零仍开；继续actual Cartier降次和Poincare首分母。
 
 [R987](results/R987-original-Poincare-Cartier-identity-and-first-denominator.md)：真实两open gluing给 **C(xZ^jω)=β^(1−j)j!L_jω，0≤j≤p−1**；有限整L端点由G_(p−1)=0，最低非零W项的下一阶Res(Jω)=1排全部下级修正，唯一顶常数由μ6字符排除。pL_p=−βZ、一次正则核首分母p[W^(p−1)]K_s=−β𝒯−h_s^q，LT<q恰−βT；真正第二Frob只消此有限边界。原theta连接p曲率−βW及实际J修正取消均准确；不从曲率推出c_(p−r)单位。R986已补R594/R658旧formal分解复用范围，新增点是global rational源及实际residues。继续精确pure/mixed收缩与近p单位性。
+
+[R988](results/R988-original-pure-balanced-Cartier-contraction-and-high-trace.md)：完整Cartier与真正theta对称给 **G_(j(p−1))=−j!β^−j c_j+，1≤j≤p−2**；原r2/8、n=p−r有G_high=−β^(r−1)c_n+/(r−1)!、G_highstar=β^r c_n+/r!。原AH高坐标 **γ1=−24η^(−(m−b))(χσ−1)β^(r−1)c_n+/r!**，所有外因子单位、c_n+=−c_n−，故 **原S≠0 iff c_(p−r)±单位 iff F_(p−r)(0,−864)非零**，补成R974逆向而不反除period比。实际p-basis b0=−βB_(p−1)、b6=−β7 B_(p−7)/6!，参数差首影响q−3完整保。低a3/9 pure显式−β−3、−8β−9/35只校准已知unit；真正near-p系数全p单位、同h与height仍开。
 
 ## 继承任务与永久边界
 
