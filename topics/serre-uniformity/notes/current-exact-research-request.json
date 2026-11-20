@@ -3,13 +3,13 @@
     "root": "581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102",
     "topic": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
   },
-  "rules_last_read_commit": "27b283086d6f5d8b328eb8e36552bc9cd6ec4b3d",
-  "execution_attempt": "R973 new balanced Kronecker coefficients only; completed R969 full-level span request is not repeated.",
+  "rules_last_read_commit": "ad1f397deee043ec984c4cb454743440535e91c9",
+  "execution_attempt": "R981 new pure Hurwitz coordinates and explicitly unproved mixed-comparison probes; completed R973 balanced coefficients and B values are consumed, not recomputed.",
   "computations": [
     {
-      "name": "original-balanced-Kronecker-four-prime-consumer",
-      "script": "original_balanced_kronecker_four_prime_consumer.py",
-      "script_sha256": "240a7053fb713b2084e84117182b70da92f8c75fb2870a6a7272b186719721df",
+      "name": "original-pure-Hurwitz-four-prime-consumer",
+      "script": "original_pure_hurwitz_four_prime_consumer.py",
+      "script_sha256": "cb311d2d8544512f96999b63665b411d1ed9ebb0b8bc70435026422fc6fc6bc7",
       "arguments": [
         "--budget-seconds",
         "620"
@@ -17,5 +17,6 @@
     }
   ],
   "runtime": "Python plus python-flint==0.9.0; public repository Actions only",
-  "storage": "Stdout only; no artifacts or coefficient arrays. Fixed 41,47,227,857; original E0 y^2=x^3-1, omega=dx/(2y), no Gaussian. Exact rational target and independent first-pole/binomial-carry reduction; record zero/nonunit as mathematical output. No old supersingular trace or same-label sigma rescan."
+  "storage": "Stdout only; no artifacts or coefficient arrays. Fixed 41,47,227,857; original E+ y^2=x^3+1, omega=dx/(2y), g3=-4. Independent Lucas/Wilson and strip-p input construction, bounded and positive residue powers, nonsingular Lagrange checks; exact rational wp at 41/47 only. At 41/47 two additional j3/6 pure indices test a precise factorial-corrected candidate without asserting it. Record all zeros and failures. No old supersingular trace, same-label sigma scan, or balanced coefficient computation.",
+  "method_sha256": "bec9763d31321b217f6afaeb46349edcd061f3a87dbc462b44f35cd1867d013f"
 }
