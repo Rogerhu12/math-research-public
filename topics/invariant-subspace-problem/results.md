@@ -1,5 +1,7 @@
 # 已得结果
 
+**[完整权十与特征零第二Bell倍障碍已闭](results/R150-appendix-complete-weight-ten-rank-and-characteristic-zero-delta-square-obstruction.md)。** 旧run43926933406实际全13808原列秩13697、原子式det127=126，独立74037410标量产品杀全列且δ14b²读数1；本次恢复2444/7111原回执、1467子式phase及991独立回执的全部SHA相同。结合独立E上界，得ΓE10=13697、商维63579、δ14b²不在完整J17；原μ10核恰2171 Koszul，200/120呈示的权10核恰111/31。δ14原十八来源权≤12排除。未重跑大矩阵，下一δb³权13、qb³权11和b⁴权12，主问题未解。
+
 **[原五次Koszul259与最少120列原梯度呈示已闭](results/R150-appendix-actual-quintic-koszul259-stable-sixty-and-minimal-onehundredtwenty-presentation.md)。** run43924670391实际D5秩126、K5秩259、原unit45；全部300右端115500、16关系6160及双逆134162坐标全真。原E恒等及同原单位给全部有序N²C真降次，C60稳定且F/C60=原G11商；加六mean的十字面倍得完整Γ120，Bell至多130。原Γ9=4552排≤9关系，故min_B Γ=120、min_B C=60；不是B秩/自由性。权10新13728来源核≥31，不宣恰31。四步raw与全部父相位根/normal独立核同；尚无δb²新目标或Bell单位。
 
 **[原权九准确维数及权十严格秩上界已闭](results/R150-appendix-original-weight-nine-dimension-and-weight-ten-koszul-rank-ceiling.md)。** 原完整μ6单射使2171条权10 Koszul独立，故原M10秩≤44133、完整$\Gamma_{E,10}$维≤13697；原Q/7权9秩给$\dim_E\Gamma_9=4552$。E200来源权≤9无关系，权10核至少111维，不宣恰111。未来同原增广秩≥13698可严格升E负；field左证若来源秩更低不能单独提升。尚无新权10实际秩或目标结果。

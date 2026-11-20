@@ -5,7 +5,7 @@
 ## 主目标、授权与规则
 
 - **未完成：** 普通复可分无限维 Hilbert ISP。仅全体有界算子的存在定理或完整反例满足完成标准；子问题结束继续open，不以阶段报告或时限停止。
-- **最近成功实际 pull 与已读规则提交：** `d75355cbd48def1241d5f8cf050a6c446b81d5c2`（2026-11-20 09:30:19 UTC）。两README完整读；相对此前4d75dba仅根课题表增加held-10pct，规则无变。
+- **最近成功实际 pull 与已读规则提交：** `54996e4633960ba2d6daf3127b31f537f9d50420`（2026-11-20 09:35:34 UTC）。两README完整读；相对此前4d75dba仅根课题表增加held-10pct，规则无变。
 - 仅授权Rogerhu12/math-research-public。根独占main/H/open/results/log，代理交冻结稿。逐结论实际终端push，非快进立即pull --rebase再推至成功，不force；至少每小时和推前实际pull，比两README blob，仅新diff重读并立即遵守。
 - 根README blob282e86b03385d3b6245ce7100ae2e2af7b103c2d、课题4d6570e9cf346431ab781a1290076a6321aaaa00已完整读。令牌仅CLI环境或已有Actions secret，不进文件/日志/config。规则15：可重算数组/数据/证书不进Git、Release或新工件，仅源码/参数/运行身份/SHA及正式证明。API仅UTF8<100KB，MD<100KB，H≤10000B，open尽量≤30KB，topic≤200MB，log每条≤5行、数学美元符、AI署名，不写根LOG。
 - 本地executor已恢复；部分克隆仅本课题，当前约96MB。旧作业TMP不假存活，先核已提交执行回执与原日志再决定续算。
@@ -15,12 +15,12 @@
 
 - 原E低20/95核已闭：两4解全1000E/3000Q/400selected、95原unit38及根[独立日志审计](notes/2026-11-16-r150-exact-low20-quartic95-root-log-audit-execution-789f.json)已核。旧Q60真实360秒TERM/143独留，不重复；全部源/pins/失败范围保归档，结束job TMP须重建。
 - 原mixed95实际unit69、选J40=0..33/40..44/60，全25575/18050/9025/3800已核；[正式原40选择](results/R150-appendix-actual-original-koszul-fiftyfive-mixed95-unit-and-forty-source-selection.md)给本次quintic父件。
-- **[原权九准确维数及权十严格秩上界已闭](results/R150-appendix-original-weight-nine-dimension-and-weight-ten-koszul-rank-ceiling.md)。** 原完整μ6单射使2171条权10 Koszul独立，故原M10秩≤44133、完整$\Gamma_{E,10}$维≤13697；原Q/7权9秩给$\dim_E\Gamma_9=4552$。E200来源权≤9无关系，权10核至少111维，不宣恰111。未来同原增广秩≥13698可严格升E负；field左证若来源秩更低不能单独提升。尚无新权10实际秩或目标结果。
-- 权十旧std592.369秒75仅START，不空续。**[native/checker实际编译控制已闭](notes/2026-11-16-r150-original-weight10-macaulay-controls127-actual-789f.md)**：run43922052588，8.019秒exit0，全244990/2048256/43/93412与断点往返真；root/literature独立raw/manifest/binding SHA核同。完整77276×13808尚未生成；full driver/原子式审计与完整运行包已全文审及交叉核。
+- 原权九维数4552与权十Koszul上界的证明保[原文](results/R150-appendix-original-weight-nine-dimension-and-weight-ten-koszul-rank-ceiling.md)；权十准确值及目标现已由下项关闭，不重跑。
+- 权十旧std592.369秒75仅START，不空续。**[native/checker实际编译控制已闭](notes/2026-11-16-r150-original-weight10-macaulay-controls127-actual-789f.md)**：run43922052588，8.019秒exit0，全244990/2048256/43/93412与断点往返真；root/literature独立raw/manifest/binding SHA核同。全矩阵旧run已完成，最新结果见下；本控制不重跑。
 
-- **[原五次Koszul259与最少120列原梯度呈示已闭](results/R150-appendix-actual-quintic-koszul259-stable-sixty-and-minimal-onehundredtwenty-presentation.md)。** run43924670391实际D5秩126、K5秩259、原unit45；全部300右端115500、16关系6160及双逆134162坐标全真。原E恒等及同原单位给全部有序N²C真降次，C60稳定且F/C60=原G11商；加六mean的十字面倍得完整Γ120，Bell至多130。原Γ9=4552排≤9关系，故min_B Γ=120、min_B C=60；不是B秩/自由性。权10新13728来源核≥31，不宣恰31。四步raw与全部父相位根/normal独立核同；尚无δb²新目标或Bell单位。
+- **[原五次Koszul259与最少120列原梯度呈示已闭](results/R150-appendix-actual-quintic-koszul259-stable-sixty-and-minimal-onehundredtwenty-presentation.md)。** run43924670391实际D5秩126、K5秩259、原unit45；全部300右端115500、16关系6160及双逆134162坐标全真。原E恒等及同原单位给全部有序N²C真降次，C60稳定且F/C60=原G11商；加六mean的十字面倍得完整Γ120，Bell至多130。原Γ9=4552排≤9关系，故min_B Γ=120、min_B C=60；不是B秩/自由性。权10新13728来源核现恰31，见最新权十结果。四步raw与全部父相位根/normal独立核同；δb²现已判非成员，Bell单位仍未取得。
 
-- **完整权10旧作业已有成功退出回执，待核数学输出。** run43926933406/resume2实际exit0、613.557秒，原完整回执7111字节/SHA18d153d4004127805dbdb80aad8c50008025be7d31fc85a25c7c51360ecee54e。根正取完整日志；未核前不预报秩/目标，不重跑。[接口](notes/2026-11-16-r150-original-weight10-full-macaulay127-interface-789f.md)及源码/全部父来源保持。R150结构与R271真实费用由两个独立代理继续，另代理补新文献；根独占共享记录与提交。
+- **[完整权十与特征零第二Bell倍障碍已闭](results/R150-appendix-complete-weight-ten-rank-and-characteristic-zero-delta-square-obstruction.md)。** 旧run43926933406实际全13808原列秩13697、原子式det127=126，独立74037410标量产品杀全列且δ14b²读数1；本次恢复2444/7111原回执、1467子式phase及991独立回执的全部SHA相同。结合独立E上界，得ΓE10=13697、商维63579、δ14b²不在完整J17；原μ10核恰2171 Koszul，200/120呈示的权10核恰111/31。δ14原十八来源权≤12排除。未重跑大矩阵，下一δb³权13、qb³权11和b⁴权12，主问题未解。
 
 ## R150已付结构与仍开范围
 

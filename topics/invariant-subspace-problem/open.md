@@ -1,8 +1,10 @@
 # 未解决的问题
 
-**[原五次Koszul259与最少120列原梯度呈示已闭](results/R150-appendix-actual-quintic-koszul259-stable-sixty-and-minimal-onehundredtwenty-presentation.md)。** run43924670391实际D5秩126、K5秩259、原unit45；全部300右端115500、16关系6160及双逆134162坐标全真。原E恒等及同原单位给全部有序N²C真降次，C60稳定且F/C60=原G11商；加六mean的十字面倍得完整Γ120，Bell至多130。原Γ9=4552排≤9关系，故min_B Γ=120、min_B C=60；不是B秩/自由性。权10新13728来源核≥31，不宣恰31。四步raw与全部父相位根/normal独立核同；尚无δb²新目标或Bell单位。
+**[完整权十与特征零第二Bell倍障碍已闭](results/R150-appendix-complete-weight-ten-rank-and-characteristic-zero-delta-square-obstruction.md)。** 旧run43926933406实际全13808原列秩13697、原子式det127=126，独立74037410标量产品杀全列且δ14b²读数1；本次恢复2444/7111原回执、1467子式phase及991独立回执的全部SHA相同。结合独立E上界，得ΓE10=13697、商维63579、δ14b²不在完整J17；原μ10核恰2171 Koszul，200/120呈示的权10核恰111/31。δ14原十八来源权≤12排除。未重跑大矩阵，下一δb³权13、qb³权11和b⁴权12，主问题未解。
 
-**[原权九准确维数及权十严格秩上界已闭](results/R150-appendix-original-weight-nine-dimension-and-weight-ten-koszul-rank-ceiling.md)。** 原完整μ6单射使2171条权10 Koszul独立，故原M10秩≤44133、完整$\Gamma_{E,10}$维≤13697；原Q/7权9秩给$\dim_E\Gamma_9=4552$。E200来源权≤9无关系，权10核至少111维，不宣恰111。未来同原增广秩≥13698可严格升E负；field左证若来源秩更低不能单独提升。尚无新权10实际秩或目标结果。
+**[原五次Koszul259与最少120列原梯度呈示已闭](results/R150-appendix-actual-quintic-koszul259-stable-sixty-and-minimal-onehundredtwenty-presentation.md)。** run43924670391实际D5秩126、K5秩259、原unit45；全部300右端115500、16关系6160及双逆134162坐标全真。原E恒等及同原单位给全部有序N²C真降次，C60稳定且F/C60=原G11商；加六mean的十字面倍得完整Γ120，Bell至多130。原Γ9=4552排≤9关系，故min_B Γ=120、min_B C=60；不是B秩/自由性。权10新13728来源核现恰31，见最新权十结果。四步raw与全部父相位根/normal独立核同；δb²现已判非成员，Bell单位仍未取得。
+
+**[原权九准确维数及权十严格秩上界已闭](results/R150-appendix-original-weight-nine-dimension-and-weight-ten-koszul-rank-ceiling.md)。** 原完整μ6单射使2171条权10 Koszul独立，故原M10秩≤44133、完整$\Gamma_{E,10}$维≤13697；原Q/7权9秩给$\dim_E\Gamma_9=4552$。E200来源权≤9无关系；最新原增广秩已达13698，权10核恰111并给E负证，见页首结果。
 
 此前完整open及所有未列任务保[本次快照](notes/2026-11-16-open-before-quintic259-minimal120-789f.md)，未列不算关闭。
 
@@ -10,13 +12,13 @@
 
 **[原E权七/八维数夹逼与完整梯度商非零类已闭](results/R150-appendix-original-characteristic-zero-low-weight-rank-sandwich-and-source-bounds.md)。** 完整E200权上界与同原模127非零子式夹得$\dim_E\Gamma_7=312,\dim_E\Gamma_8=1312$，商维7442/16362。原四规范$q_jb^2$在完整$S/J_{17}$中线性独立，$b\delta_{14}$及六个$y_i b\delta_{14}$分别非成员；不宣六类联合独立。原十八源过滤在E及任意扩域保持，排非零规范q组合来源权≤10和δ≤9；保中间G5。不是有限域系数提升，不限J17候选来源次数，但仍不排加Bell后的更高权来源或更高b幂。
 
-新问题仍为δb²权10、qb³权11；已完成的权七/八无需再消元。
+新问题为qb³权11、b⁴权12、δb³权13；已完成的权七至十不重算。
 
 **[单远孔代表、只乘核列的双塔误差及整高度倒数门已闭](results/R271-appendix-dual-tower-kernel-only-error-pure-far-height-representatives-and-joint-reciprocal-budget.md)。** 每个$r$先在整个强头真Galerkin核投影，完整$((C^*)^r)^\dagger$给纯$r$远孔代表；canonical $W/V$运输后核项是真物理最小投影，误差只乘范数≤1核列。所有$r\le1+\lfloor\sqrt{x+1}/(8(m+1))\rfloor$同原$Q/w$，全高度Bessel与统一吸收给非零锚必要$\sum_{m,r}\kappa_{m,r}^{-2}<\infty$。只累计高度数乘$\eta_m^2$，不累计双塔误差；完整强头费用上界及帽逆后的误差仍开，未证$N=M$。
 
-原40混合单位、原degree5来源和完整120呈示已闭；继续完整权十δb²原矩阵/原左证、权十一qb³及R271真实费用。原200/210历史证明与全部未列开放项保本次快照。
+原40混合单位、原degree5来源和完整120呈示已闭；继续权十一qb³、权十二b⁴、权十三δb³及R271真实费用。原200/210历史证明与全部未列开放项保本次快照。
 
-**[权十完整候选真实预算边界已闭](results/R150-appendix-original-delta-weight-ten-homogeneous-candidate-budget-boundary.md)。** 完整父/200输入/2000 SSI全真；std555.227秒仅START、whole592.369秒75，无第9验证，不空续。根独立重建2172字节semantic及2027/3469 raw SHA全同。完整77276×13808 native/checker已真实编译控制，[full driver/原子式/独立全列与严格续接接口](notes/2026-11-16-r150-original-weight10-full-macaulay127-interface-789f.md)已全文审；发布后新job控制→全父重建→完整矩阵。无实际rank/目标结论。
+**[权十完整候选真实预算边界已闭](results/R150-appendix-original-delta-weight-ten-homogeneous-candidate-budget-boundary.md)。** 完整父/200输入/2000 SSI全真；std555.227秒仅START、whole592.369秒75，无第9验证，不空续。根独立重建2172字节semantic及2027/3469 raw SHA全同。完整77276×13808 native/checker已真实编译控制，[full driver/原子式/独立全列与严格续接接口](notes/2026-11-16-r150-original-weight10-full-macaulay127-interface-789f.md)已实际完整完成，新增准确秩/特征零δb²非成员见页首；旧std空候选失败范围保持，不重跑。
 
 **R271实际费用继续。** 已付最优两孔锚、真旗代表、无包络倒数门和本次纯高度联合门；完整强头逆的实际费用及匹配/帽逆后的真实误差仍开。全部此前状态与未闭接口保[本次完整open快照](notes/2026-11-16-open-before-pure-far-height-789f.md)及归档链，未列不算关闭。
 
