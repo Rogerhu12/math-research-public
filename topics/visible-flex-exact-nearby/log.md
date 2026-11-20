@@ -191,3 +191,7 @@ proof10083B/94b453ca、math17375B/6bb32619、owner28755B/a97d5076、gen13902B/da
 ## 2026-11-20：原D参考边界提升实际完整成功
 
 44745017016/1完成153reference/96low/155Gram panel、2target10球，actual55295B/087ebd3a、exec58602B/827fb78a，math147.80307273s/child158.63352760800004s/0。root/positive整审82当前bytes/SHA/blob与manifest/receipt相等、39字段25门、完整参数/scope/原GH参考链/29复制球、21恢复完整对象与15033/13771B canonical hashes，4README空diff。body两upper<6.594、complete<7.236，各独立upper不推范数下界或等值。原线程零数学失败与marker保留；本次10球冻结，actual centre/family/Gf/GH/lowinverse/旧targets全0。只授原D/S/Theta参考lift，实际97+96/finiteρ/七ports/两RHS未付。
+
+## 2026-11-20：原96/97根型实际严格负方向
+
+44745192261/1完整32768角格+32768非局部格成功；root/global核20当前bytes/SHA/blob/receipt与34字段、6原恢复、whole axis/mean/X逐对象同、实际保存球/全部scope与5pull链。actual36248B/95c80fde、exec14435B/f66a976a，science55.778553555s/child55.887457631s/0；完整det<−353，z=(1,−264577/30440)完整型<−146，负结论来自保存球而非run状态。只排全rootdata齐次非负及全数据仅H²费式，不授全域可达性或BVP奇异；原low96/high97/mean/H不动。私有26738688B包含缓存仅hash，0旧target/新数组。成功冻结，续根迹相对体能量与独立低高逆。

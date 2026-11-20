@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R138实际原96/97严格负根型](results/R138-supplement-actual-negative-original-root-96-97-form.md)：44745192261/1全32768格及非局部项、20pins/6原件/34字段已核，完整det<−353且显式有理向量(1,−264577/30440)的型<−146。whole axis/mean/X与actual C2/mean/primitive完整；只排全rootdata非负或仅H²费的充分路线，不排可达迹或实际BVP逆。旧高低分界不改，结果冻结。
+
 - [R141实际完整D边界lift](results/R141-supplement-actual-reference-boundary-lifts-and-complete-193-observations.md)：44745017016/1成功2target/10whole balls，right97和joint193的body/root97/outer96/atoms193/complete全部保，body<6.594、complete<7.236。82pins/21恢复/39字段25门及原D/S链已核，数学147.803s，0旧目标/actual packets；仅参考D lift，实际低逆/physical97+96/finiteρ/7ports/两rhs尚待。
 
 - [R141径向加权真实高源与四响应](results/R141-supplement-radially-weighted-actual-high-source-response.md)：新功能将完整源径向分布与旧4650gap/frame阻尼合成，双向scalar sweep保wholecell，max由两输入半区和两Z输出正交得；原feedback、mean/ports与两区2×2 norm不删。79当前/21历史、39字段25门、5新球首次push，root/global/joint数学及运维核，旧GH5/GH4/低逆/高Riccati不重算，实际反馈与物理门待。
