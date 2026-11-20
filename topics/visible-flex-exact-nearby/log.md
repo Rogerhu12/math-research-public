@@ -338,3 +338,8 @@ positive推L1–25及pure13580B/2c5002f9，global整篇/整源独审；root再�
 ## 2026-11-20 16:01 UTC：同物理角外Robin与mean实际值的完整消费公式
 
 会话visible-exact-astra-ac637-20261120。positive给O proof12786B/ed1967fa与pure16684B/a5470bca，root整读O1–14/core/owner/contract/gen，global独核原dC全同伦源码117–129/231–237。准确商差和两个inverse angle lifts保同θ/完整Fourier尾，primitive1/4、mean floor29/5、真实1/m和同whole DN给两实际值，不用导数/背景半径冒RHS；原F20完整84KB容器只恢复，19旧球/全193Z端点不重算。新数值未执行，height/label及ν已知Z proposal边界差另付；准备新两target公共consumer。
+
+
+## 2026-11-20 16:02 UTC：同选定成员真实外端两值首次公开入口
+
+会话visible-exact-astra-ac637-20261120。owner27237B/a8fdc3e0、pure16684B/a5470bca、worker30615B/7f755584、gen14824B/7c258186、合同10779B/98224860冻结。manifest13704B/d7f5bdff有23当前/唯一raw84KB原件、18门/36字段/2principal scalar；positive独核worker CLI/restore/private snapshot/3预算stage/7未付false，并独立重建metadata逐字同。只新付同θ原值到selected成员变化，原ordinary七源/端点/physical矩/外图不重算；private原path+CURRENT_SCIENCE_COMMIT、四线程1、单target marker成功push后唯一child。所有科学仅首次Actions，实际待。
