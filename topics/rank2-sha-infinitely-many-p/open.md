@@ -2,7 +2,7 @@
 
 主目标：固定一条 E/Q，完整证明 rank≥2 且无穷不同 p 的通常全 Sha(E/Q)[p∞] 有限。**未完成，持续研究；不在阶段结果、时限或建议处停下。**
 
-[本次整理前完整 open](notes/2026-11-20-open-before-mixed-F-scalar-divisors.md)逐字保存全部旧问题、公式、条件、预算、来源和更早归档入口；[同期完整 HANDOFF](notes/2026-11-16-frontier-before-padic-reconstruction.md)保已运行 source/run/job 与各原理论检查点。下列未重写的旧门仍有效，编号缺席不表示完成。
+[完整前档](notes/2026-11-20-open-before-six-P-native-api-outcome.md)保全部旧问题、公式、条件、预算与归档链；[旧H](notes/2026-11-16-frontier-before-padic-reconstruction.md)保旧source/run/job。未重写的门均仍有效。
 
 ## O1. 固定曲线的秩：已完成
 
@@ -223,7 +223,7 @@ R928/R934保真除p商与B给固定P全局coker类；同H1只付选定行，受�
 
 ## R931：完整厚代数的原Tate求迹
 
-R931§12：Artinian44747799006在完整maps后因原Givaro缺absolute_degree失败，1530/非Fp预门未开始。基础/闭点/Tate现用同域degree+card=p^degree保绝对次数及全部原嵌入；四入口修正源独立继续。首六P44759336052继承旧错，取消API403，仍保原source；无新范数/完整除子/trace PASS。
+R931§12/12.1：Artinian44747799006与首六P44759336052均实际触旧absolute_degree失败，完整范数/152核除子未始；日志全hash见原节。同域degree+card修复已接四入口独立来源，原κ/嵌入保持；无新范数/除子/trace PASS。
 
 ## R932：同源尾调整的完整normal回传
 
@@ -261,4 +261,4 @@ R937附A/B：同q全部合法native尾方向对两条固定行零响应；给定
 
 ## R927§10：完整原F双图零极门
 
-[R927§10](results/R927-original-yF-pole-degree-from-mixed-kernel-and-cusps.md)：完整144混合核给IA/IB全度4752/1080且不交；原SY/J=(ξ²+3)²使a=q·yF·b，q=−θ³ξ³(ξ²−9)³(ξ²−1)，另图q0=s¹²q(1/s)。同选中a/b的完整整像给IA，IC=IA+qIB后两有效商及全回乘准确给真零极；1296只作最终核验，未冒实际计算或shadow。全低B、整像、共同零和全商读者正接入独立公开门。
+[R927§10](results/R927-original-yF-pole-degree-from-mixed-kernel-and-cusps.md)已付原144低B、同a/b整像与两图标量q/q0，IA/IB全度4752/1080且不交；IC=IA+qIB后的完整两colon/回乘给真零极，1296仅末端核验。独立全源读者正接公开门，尚无完整除子或shadow PASS。

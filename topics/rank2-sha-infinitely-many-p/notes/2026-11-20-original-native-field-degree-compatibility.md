@@ -78,3 +78,9 @@ root核故障全文和最终边界并核全部增量；global实现闭点集中�
 其每个实际用途，theta交核相对/绝对次数、原嵌入和Frobenius。
 本地仅AST、JSON、YAML、日志与hash检查；新门仍须公开Actions实际执行。
 准确新source/run/job在R931§12和HANDOFF随建立补记。
+
+## 首六P实际结局： 首六P旧来源已实际触同一API错误
+
+公开 [run44759336052/job136367382447](https://github.com/Rogerhu12/math-research-public/actions/runs/44759336052/job/136367382447) 于2026-11-20 15:25:24 UTC 报错，随后job为failure；原来源 `da34ea30adb8e8a8f9e6e898d2f5f3ff559fe23e` 不变。它已经重建原完整306正规化、基础embedding及六组原P截面对，在第一次 `OriginalArtinianNormTools` 初始化时停在旧第105行：`self.k.absolute_degree()` 缺API。数学段停止于1298.002615103秒；完整152核读者与六组零极理想尚未开始，不能把前端部分阶段认作它们的PASS。
+
+原始完整日志226382字节，SHA256 `16801e7e4ca4e2a3b31631a0b9b2cb67cf59f23815a6cfd16dff52d41b0f5894`。本轮只核日志和原源码，无本地数学。此前取消接口403确未取消该任务；现在登记的是它自己的实际失败结局。§12已修此处，同一修正source `3a7bbe9951d6d3c605851e42184a7d0ba8647669` 的独立六P run44761009320/job136373215932继续；未额外重启未变来源。
