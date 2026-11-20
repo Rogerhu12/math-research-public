@@ -260,11 +260,36 @@ class SignedReferenceProfiles:
         _positive_lower(api, c, "positive nonroot reference speed")
         omega = api.sqrt(a*a+c*c*q*q)
         _positive_lower(api, omega, "tracefree frequency")
-        decay = api.exp(-omega*length)
-        e = decay*decay
+        decay = _clip(api, api.exp(-omega*length), api.zero, api.one)
+        e = _clip(api, decay*decay, api.zero, api.one)
+        e_lo, e_hi = max(api.zero, api.lower(e)), min(api.one, _upper(api, e))
+        omega_lo = _positive_lower(api, omega, "tracefree frequency endpoint")
+        omega_hi = _upper(api, omega)
         A = (api.one+e)/2
-        B = (api.one-e)/(2*omega)
+        # B is nonnegative, including the exact zero-length endpoint.  Its
+        # directed endpoint formula avoids a spurious negative radius tail.
+        B = _nonnegative_interval(api,
+            max(api.zero, api.lower((api.one-e_hi)/(2*omega_hi))),
+            _upper(api, (api.one-e_lo)/(2*omega_lo)))
         den = A+B*(a+c*p_right)
+        # The two appearances of e in A and B are the SAME value.  For each
+        # exact reference and segment,
+        # den=e+(1-e)*d, d=(omega+a+c*p_right)/(2*omega)>0.
+        # omega>=abs(a) and c,p_right>0 give the strict lower below without
+        # subtracting two independently enclosed near-equal quantities.
+        raw_d = (omega+a+c*p_right)/(2*omega)
+        d_lo = max(api.lower(raw_d), api.lower(
+            _positive_lower(api, c, "pivot speed endpoint")
+            *_positive_lower(api, p_right, "pivot impedance endpoint")/(2*omega_hi)))
+        d_hi = _upper(api, raw_d)
+        require(0 < d_lo <= d_hi and 0 <= e_lo <= e_hi <= 1,
+                "complete positive convex-pivot data")
+        e_min = e_lo if d_lo <= 1 else e_hi
+        e_max = e_lo if d_hi >= 1 else e_hi
+        pivot_lo = api.lower(e_min+(api.one-e_min)*d_lo)
+        pivot_hi = _upper(api, e_max+(api.one-e_max)*d_hi)
+        require(0 < pivot_lo <= pivot_hi, "strict convex-combination pivot enclosure")
+        den = _clip(api, den, pivot_lo, pivot_hi)
         _positive_lower(api, den, "complete scaled impedance pivot")
         p_left = (B*c*q*q+p_right*(A-B*a))/den
         p_left = _clip(api, p_left, self.pstar)
@@ -308,6 +333,13 @@ class SignedReferenceProfiles:
         api, data = self.api, self.mode[j]
         remaining = _geometric_partial_length(self.domain, box, "suffix")
         p, _, _, _ = self._segment(j, i, remaining, data["p"][i+1])
+        # For each fixed exact reference a scalar autonomous Riccati solution
+        # is monotone or constant on this cell.  Hence every interior p lies
+        # between its two true endpoint values.  Hull the already enclosed
+        # endpoints, preserving the entire underlying parameter/root domain.
+        p = _clip(api, p,
+            min(api.lower(data["p"][i]), api.lower(data["p"][i+1])),
+            max(_upper(api, data["p"][i]), _upper(api, data["p"][i+1])))
         elapsed = _geometric_partial_length(self.domain, box, "prefix")
         _, tau, sigma, inverse_tau = self._segment(j, i, elapsed, p)
         H = _clip(api, tau*tau*data["H"][i]+sigma, api.zero,

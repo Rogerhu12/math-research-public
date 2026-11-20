@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R139正pivot与endpoint hull补篇](results/R139-supplement-positive-reference-pivot-and-endpoint-hull.md)：同一指数的完整凸组合给严格正分母下界，自治Riccati解的单调性给全panel端点凸包；两者仅与原球相交，保全部严格正检查。修复已合源、仅AST，44719196440/1零scalar失败不改。
+
 - [R138实际正支撑补篇](results/R138-supplement-actual-positive-support-for-repaired-physical-frame.md)：复用旧完整几何、角缺陷和修补证书，证明同一全周期外端锚、准确η0/ν0、全[0,25/8]的Qrepair物理径向frame满足|F|<319/250、F·n>9/10。扇区运输仅作比较，保6143接口/mean/真实逆角；支付能量support，不授实际闭合或全逆。
 
 - [R139补篇：零端点区间的包含修复与未完成目标接续](results/R139-supplement-certified-zero-endpoint-interval-continuation.md)：先证真实affine长度非负，再用经核对的对称球平移给非负外包；保留严格长度检查、真实根、原算子及三目标。44716804300/1的0scalar失败原样保留，修复本身不判断预算门。

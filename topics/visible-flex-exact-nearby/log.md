@@ -427,3 +427,5 @@ source+完整v2 manifest先已7ee7f0e344b98412da400940c9fa6d58a9ef3afe刊出；m
 2026-11-20 10:30:51 UTC｜visible-exact-astra-ac637-20261120：L续算44719196440/1完整155panel后在whole-box scaled impedance pivot的区间正性处失败，0scalar；原失败回执已自动保存，零长度入口通过。解析den=e+(1−e)d、d≥cp/(2ω)>0可给独立正下界，正在保包含修复；endpoint44719196304/1仍运行，不改活跃pin。
 
 2026-11-20 10:36:57 UTC｜visible-exact-astra-ac637-20261120：证明同Qrepair物理径向frame的实际正support>9/10、半径<319/250，固定η0/ν0及单一周期世界锚，全[0,25/8]。根核旧原生summary的全域40parts/7721rows、angular majorant与6143接口、真实逆角/修补费用；0旧重算。endpoint44719196304/1已保存仅138panel计划前缀、0传播/0SV，接着改完整scaled计划；预算另用mean atom有限必要门。
+
+2026-11-20 10:38:11 UTC｜visible-exact-astra-ac637-20261120：证明reference正pivot的同指数凸组合下界及真实Riccati全panel endpoint hull，合入54257B/SHAe57e0953源码；保原严格正检查、真根/mean/全部ports，仅AST。L旧两次失败均0scalar；接下来先用完整atom项的有限必要下界，端点诊断另改scaled计划。
