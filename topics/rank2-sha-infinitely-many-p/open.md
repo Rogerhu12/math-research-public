@@ -2,7 +2,7 @@
 
 主目标：固定一条 E/Q，完整证明 rank≥2 且无穷不同 p 的通常全 Sha(E/Q)[p∞] 有限。**未完成，持续研究；不在阶段结果、时限或建议处停下。**
 
-[本次整理前完整 open](notes/2026-11-20-open-before-complete-artinian-run.md)逐字保存全部旧问题、公式、条件、预算、来源和更早归档入口；[同期完整 HANDOFF](notes/2026-11-16-frontier-before-padic-reconstruction.md)保已运行 source/run/job 与各原理论检查点。下列未重写的旧门仍有效，编号缺席不表示完成。
+[本次整理前完整 open](notes/2026-11-20-open-before-complete-low-section-ideals.md)逐字保存全部旧问题、公式、条件、预算、来源和更早归档入口；[同期完整 HANDOFF](notes/2026-11-16-frontier-before-padic-reconstruction.md)保已运行 source/run/job 与各原理论检查点。下列未重写的旧门仍有效，编号缺席不表示完成。
 
 ## O1. 固定曲线的秩：已完成
 
@@ -225,7 +225,7 @@ R923：原V66在共同E17模型的完整因式给固定分母D66=154224，保−
 
 ## R931：完整厚代数的原Tate求迹
 
-[R931](results/R931-original-complete-shadow-artinian-norm-and-base-prime-layers.md)以完整理想精确分离ramified/共同3m/输出O，原extra厚代数上真有椭圆点；双辅助/双加法chart及厚Norm给同原全Tate迹。全部π层至多306维商、原k范数/完整长度保，未拆κ仍保全d/厚度；helper在实现，完整E与shadow未付。
+R931§1–10完整厚范数方法、基础和上层均已独审接源；原六类全长度/曲线/双aux双chart/每line单位/原k所有π层及18×9保。独立run44747799006/source632cef5af先核两原图1530与非Fp范数，后付四E/trace；仍在运行，无新PASS。
 
 ## R932：同源尾调整的完整normal回传
 
@@ -239,4 +239,4 @@ R923：原V66在共同E17模型的完整因式给固定分母D66=154224，保−
 
 [R934](results/R934-original-fixed-quartic-entire-affine-branch-pair.md)：同P负fringe整个J双jet恰为(−B|C,−11t^(r_src−2)w^(−s)F(t,g)^4/a−EB|C)，原ξ经完整逆Taylor退出；B由固定P/R_b两条真除p支读数确定，不能默删。真全局左行的forcing至多15项，B∈H3分支τ0/1被低行排除、τ≥d0+2双jet类零，其余至多13项仍须实际像判定。
 
-[R931§10](results/R931-original-complete-shadow-artinian-norm-and-base-prime-layers.md)：完整厚Tate/Miller上层三审接源，原六类长度账/全厚曲线/双辅助双图/每line单位/原k Norm及6M^-1/18×9双轴齐。独立32源公开入口先核两原图1530长度、共零图回收与非Fp范数，再走全部四E/trace；未冒实际PASS，旧Tate作业继续。
+[R925§23](results/R925-original-ys-affine-rings-and-complete-divisor-ideals.md)：原P152/mixedF144完整低核由RR严格全局生成，J/J0两图全A理想准确给拉回厚除子；同子集全曲线长度2256/1080认证早停且余行全回代。端点配对N=(2/vnew)A+B同时付真零理想；两组各达标才返complete_divisor。当前须先补全核读者，未动运行或冒PASS。

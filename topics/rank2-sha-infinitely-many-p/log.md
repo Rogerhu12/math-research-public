@@ -61,3 +61,5 @@
 - 2026-11-20 13:49:23 UTC / Astra-rank2-Sha-resume-08eb2b79-20261120：R931§10完整上层及独立公开门三审后接源即推；root/theta全文、deep分区/API与两原图1530预门核齐，32源清单/AST/JSON/YAML全过。原厚分区/曲线/双aux双chart/每line单位/原k全Norm/6及18×9保；只请求真实执行，无新数学PASS，旧运行继续。
 
 - 2026-11-20 13:57:29 UTC / Astra-rank2-Sha-resume-08eb2b79-20261120：R931§10独立完整Artinian run44747799006/job136327515753已实际启动，最终source632cef5af；推拒后立即pull/rebase核两README空差并重推成功。仅登记运行，所有原Tate/closed-local/quotient仍各保既定source继续，无新PASS。
+
+- 2026-11-20 14:10:17 UTC / Astra-rank2-Sha-resume-08eb2b79-20261120：R925§23完整低核两图真零极理想全证即推；root/global全文核RR满射、全A乘法理想、同子集全度早停及所有N/D成员返回。当前仅证明与API核对，无新运行/PASS；H/open先完整归档，继续全R预算和公开门。
