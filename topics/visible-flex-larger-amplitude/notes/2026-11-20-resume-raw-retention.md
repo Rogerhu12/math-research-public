@@ -203,3 +203,97 @@ python topics/visible-flex-larger-amplitude/computations/tail_r33_refined_high_j
 ~~~
 
 恢复核原SHA；复算计时/路径字段可不同，逐字原报告以固定git show恢复。实际旧报告五个gate全true、failure=null，elapsed1.3349231330003022秒、峰RSS117968KiB；phase2-manifest只明记all_jobs_in_this_manifest_exited=true，本条不补造该进程原poll退出码。low46_held_fixed=true、low_feedback_paid=false、whole_head_closed=false，仍只付固定低46的条件高响应，不冒后来的新coupling范数或完整闭解。旧phase2-manifest中的raw路径是历史记录；此后消费者须显式指向上述scratch恢复文件，不能误称当前树仍有raw。
+
+## 第七次容量操作：R33 plateau2 低到高完整列账本
+
+2026-11-20，Astra-larger-resume-24b2ab87-20261120 / geometry_path。
+
+**已普通移出下述可重算旧 raw，原字节保留 scratch，完整公开历史仍可准确恢复。** 已读前六次操作与 R33 §13–14 的上下游。
+当前 R33 名下超过300KB的报告只剩 plateau2 与 strong-M20 两份低到高列账本，已没有另一份达到该尺寸的 wide 联合盒。
+本次普通移出同一 plateau2 wide/coupling 链的
+`notes/2026-11-12-tail-r33-plateau2-low-to-high-coupling-column.json`：
+
+- 568918 B；SHA256 `9bc4a1f2f026958e5f92ef411dd38ee184fcf5a255fb1929774d780b001b3fdb`；
+- 固定已核恢复提交 `717d87e6745a54226c6c98cc781dbce10bc7575b`；
+- Git blob `69f629bae4c9c1ccce151a594ae275bc13467415`。
+
+它是原胞12至224共213行的可重算导数列账本，不是源码、问题原始定义或证明。
+R33 §14.2–14.3、原 phase2 manifest 和完整小源保留。
+本次只读取必要元数据、核源码/输入/原输出字节及静态引用，再普通移出该派生 raw；没有科学重跑、没有启动新 Actions、没有历史重写。
+
+### 完整实际源码
+
+主源当前仍逐字匹配原报告的 `source_sha256`。两个直接 import 及一个传递 import 也全部存在，且已与固定公开历史
+`8ef38046e8b04adc6da1093c0730e1fc8747c2c9` 逐字核对一致；不需要另造恢复版源码。
+四个文件均在 `computations/`：
+
+| 文件 | 字节 | SHA256 | 该历史 Git blob |
+|---|---:|---|---|
+| `tail_r33_low_to_high_column.py` | 6317 | `77ba11616af520796b5ccd9cab542e64633227cf7086b83360fd2f3fe303f6e3` | `5347816069e2d13352c4fde783ebade0793283bf` |
+| `closure_real_head_source_enclosure.py` | 20321 | `97ff78a171b284cd8d5acc8dc233bcfe1f0b7c428ce2fbbd5b7104bd0ecb8c47` | `7fe97d00cdc7271590c8e21bf2f5991c953dcd31` |
+| `closure_real_head_green_enclosure.py` | 11896 | `4b2e74d07f678e11631c51cf01831a4c1e588e8d207c144e2f1dace8413022e0` | `d2ecd12c72080f93c435bc43a4de50fcc41043ba` |
+| `closure_projective_interval_column.py` | 3594 | `45997a1d5be6326a1ebbe85ac4240ea7d9dde1c2fb6acdf832460dade89e4f97` | `bd0e759f32cc41958d3d0de4279e5c46fbbc56c1` |
+
+最后一件是 green 模块的加载依赖，即使本生成器只消费 green 的 `load_json/ball`，仍需保留完整文件。
+除标准库外，这条完整 import 链使用 python-flint。原源准确设置 `ctx.prec=192`；原报告没有另外保存 Python/python-flint 版本，本次不补造版本。
+
+### 五个准确直接输入
+
+文件均在原 `notes/`。表中 joint 使用其另列提交，其余四件均从
+`8ef38046e8b04adc6da1093c0730e1fc8747c2c9` 恢复：
+
+| 文件 | SHA256 | 固定 Git blob |
+|---|---|---|
+| `2026-11-12-tail-r33-plateau2-density-window.json.gz` | `0b493a5278ce08d12ed1d83add9dd3214125d971e746c750dfa42efa0729ace9` | `e0f0dbee70503b828f2722cf56bc2f2884731d4b` |
+| `2026-11-12-tail-r33-plateau2-middle-causal-box-v2.json.gz` | `07c428b0c1a1977985200172dbee0bf14ae57e5fd4ea97ddebdf9b671479b3e6` | `e9e1063af8f0d02a138915509313f490453260da` |
+| `2026-11-12-tail-r33-plateau2-high-joint-coupling-metric.json` | `d7e57f6a7df2b928dd6de9aa8ad0289538134e104f57f6960f9b423c72927bbc` | `d2b2b2dde5c59f3440ca7b4ecee788074d15b994` |
+| `2026-11-12-closure-plateau2-box.json` | `5474b056b5012e290e5efd3bebb2b6f4681b42150a53d03f03b61c55b8c59ceb` | `cb262f7a9df223c4128736aed61d403509a72c65` |
+| `2026-11-12-closure-plateau2-nonlinear-low-far-lift.json` | `ba839f5b7c0eb8587ab2ff6bc9985399eceb0eb02d7aa649e83dc47fde2b4da2` | `1acb53bd231e0c4bd022952ee6cc04bc68dae37f` |
+
+joint 的固定恢复提交为 `0e2acb2e1500fdb8f645551af802db43189453f9`；其完整再生源与三个直接输入已在第四次容量操作登记。
+必须使用这里的 **coupling-metric** joint，不能把第六次的旧 wide-low joint 当作相同距离权输入。
+本次五件均通过固定 commit 的完整原字节 SHA 核对。density、middle、joint 已不在当前 main；low-box、low-far 仍在且逐字匹配上述 SHA。
+
+### 全部实际参数与恢复命令
+
+主源没有额外数值 CLI 开关：五个输入路径与输出路径均为必需参数，Arb精度192bit和原胞12–224是源中的准确常数。
+`z_log2=-2231` 从相同 joint 继承；其 `infinite_radius` 的准确端点都是 mantissa1、binary exponent−110。
+这些不是本列生成器可以任意重设的隐藏默认值。
+
+以下命令只供未来确需该历史材料时在公开 Actions 的 scratch 执行；本次没有执行科学命令：
+
+~~~sh
+mkdir -p "$r33scratch/source" "$r33scratch/inputs"
+for name in tail_r33_low_to_high_column.py closure_real_head_source_enclosure.py closure_real_head_green_enclosure.py closure_projective_interval_column.py; do
+  git show 8ef38046e8b04adc6da1093c0730e1fc8747c2c9:topics/visible-flex-larger-amplitude/computations/$name > "$r33scratch/source/$name"
+done
+for name in 2026-11-12-tail-r33-plateau2-density-window.json.gz 2026-11-12-tail-r33-plateau2-middle-causal-box-v2.json.gz 2026-11-12-closure-plateau2-box.json 2026-11-12-closure-plateau2-nonlinear-low-far-lift.json; do
+  git show 8ef38046e8b04adc6da1093c0730e1fc8747c2c9:topics/visible-flex-larger-amplitude/notes/$name > "$r33scratch/inputs/$name"
+done
+git show 0e2acb2e1500fdb8f645551af802db43189453f9:topics/visible-flex-larger-amplitude/notes/2026-11-12-tail-r33-plateau2-high-joint-coupling-metric.json > "$r33scratch/inputs/2026-11-12-tail-r33-plateau2-high-joint-coupling-metric.json"
+git show 717d87e6745a54226c6c98cc781dbce10bc7575b:topics/visible-flex-larger-amplitude/notes/2026-11-12-tail-r33-plateau2-low-to-high-coupling-column.json > "$r33scratch/original-low-to-high-column.json"
+python "$r33scratch/source/tail_r33_low_to_high_column.py" \
+ --density "$r33scratch/inputs/2026-11-12-tail-r33-plateau2-density-window.json.gz" \
+ --middle "$r33scratch/inputs/2026-11-12-tail-r33-plateau2-middle-causal-box-v2.json.gz" \
+ --joint "$r33scratch/inputs/2026-11-12-tail-r33-plateau2-high-joint-coupling-metric.json" \
+ --low-box "$r33scratch/inputs/2026-11-12-closure-plateau2-box.json" \
+ --low-far "$r33scratch/inputs/2026-11-12-closure-plateau2-nonlinear-low-far-lift.json" \
+ --out "$r33scratch/recomputed-low-to-high-column.json"
+~~~
+
+恢复后先核上表源码/输入 SHA。gzip 输入按原压缩字节计算身份，再解压 JSON；不要重新压缩后冒同一输入 SHA。
+复算的输入路径、计时和RSS等字段可能不同；要取得逐字原输出，使用固定 `git show` 恢复，不把一次新运行的输出 SHA 预定为历史 SHA。
+
+### 原结论与消费者影响
+
+原报告 `complex_mean_domain_paid=true`、`low_to_high_paid=true`，但
+`high_to_low_paid=false`、`full_head_closed=false`。原记录耗时
+`0.8076283440004772s`、峰RSS `75000 KiB`，最坏中频胞120。
+R33 §14.3 明确记载本组工具均正式退出0，phase2 manifest 记
+`all_jobs_in_this_manifest_exited=true`；没有新的运行记录，也没有本公开仓库的旧 run 编号可补写。
+
+本次完整文件名的定向检索得到两个明确历史引用：R33 §14.3 的数据链接与
+`notes/2026-11-12-tail-r33-phase2-manifest.json` 的原文件条目。它们应作为历史记录保留，不重写科学结论。
+移出后，确需该完整导数列的旧消费者须先按本段恢复到 scratch 并显式传入实际路径；不再称原 raw 链接在当前树仍可打开。
+当前 `resume_20261120` 与本轮完整 closed 求解/几何入口无该旧报告的路径引用，其明确输入链也不以该报告为输入。
+本操作不将小源、原问题材料或数学证明一起删除，不改写已有提交；root 已执行上述普通移出；释放568918 B后继续当前公开求解与完整几何任务。

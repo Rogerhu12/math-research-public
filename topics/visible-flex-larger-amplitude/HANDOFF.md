@@ -4,7 +4,7 @@
 
 ## 规则与完整目标
 
-最近规则核查：2026-11-20 16:25 UTC，真实pull/rebase至 `ff09bdbcd236846baba15a8ebd638fa3958b77db`，双README相对上次已读无差异。
+最近规则核查：2026-11-20 16:34 UTC，真实pull/rebase至 `86ffb25d8f60e3ae75c1f3990db6d5618f690a87`，双README相对上次已读无差异。
 
 科学计算仅本公开仓库Actions；早前本地偏差及13:00 UTC纠正见[执行记录](notes/2026-11-20-public-actions-execution-correction.md)。根README已授权必要修改/发布；根唯一local git writer，代理只work/小源。每条结论普通commit/push；NFF立即pull --rebase循环再推，不强推。至少每小时pull，每次核双README差异/立即遵新规并记commit。raw只scratch/runner，不入Git/Release/artifact；只保完整小源/参数/run/SHA/紧凑结论。题≤200MB，MD<100KB，H<10KB，open<30KB。令牌只瞬时CLI，不写文件/提交/回复。
 
@@ -54,7 +54,7 @@ R650/R661提供同场support/K加四固定p4 marker的全t reach/grip/held/E框�
 
 重建配方rebuild_a04_chain.py保60321451c输入b4d2b98至a04/continue全链，每个实际源版本齐；Python3.12.14/NumPy2.3.5/SciPy1.17.0/单BLAS。已登记旧2038/3a3/def1/61a620、v4a LRU遗漏、r17新增峰、旧节点/中点被Gauss揭产品>1等结果不重做；纯metric旧方向K14–44/polar95055/弱2748已败。旧cap16只有176Jv/176VJP、exit130、0完整方向/试步，原L²未跑。
 
-旧0241本地K地点纠正exit130；保存1146 attempt含全部922粗+224细、max8.5913381808、850胞≤8.1，后续未返，不抄新值。R648/R651/R652只旧开放prefix。09:49故障/重复5732跳过均有原记录。六次旧raw普通移出完整源/输入/参数/历史恢复见[容量记录](notes/2026-11-20-resume-raw-retention.md)，不改历史。
+旧0241本地K地点纠正exit130；保存1146 attempt含全部922粗+224细、max8.5913381808、850胞≤8.1，后续未返，不抄新值。R648/R651/R652只旧开放prefix。09:49故障/重复5732跳过均有原记录。七次旧raw普通移出完整源/输入/参数/历史恢复见[容量记录](notes/2026-11-20-resume-raw-retention.md)，不改历史。
 
 本次压缩前逐字H保[ff06cce6](https://github.com/Rogerhu12/math-research-public/blob/ff06cce6391db39bb38274f08df9d2afc0cf09df/topics/visible-flex-larger-amplitude/HANDOFF.md)，其中链到c1fc/e069及d9dd原交接。所有未付责任继续按open推进；不是等待用户确认的阶段停点。
 
