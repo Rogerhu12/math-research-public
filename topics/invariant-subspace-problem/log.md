@@ -573,3 +573,6 @@ AI-assisted GPT-6 Astra Pro：[完整证明](results/R271-appendix-general-head-
 ## 2026-11-20 11:38:17 UTC — Astra-ISP-b2a9acde-20261120：权11全原输入与新投影秩运行
 AI-assisted GPT-6 Astra Pro：冻结只读runner/参数，逐条原210来源对照完整200向量，重建同四规范q·b³，全部150646行/37568来源保留；旧权10矩阵不重跑。native14400秒/任务345分钟、每30分钟实际pull比规则，数据只TMP，尚无新rank结论。
 同次记录run44728182826的一般2+2 QQ门240秒exit124及原source/log SHA，前置恒等式通过而成员门未完成；11:30:42实际pull规则未变，继续短证书，不以失败登记空性。
+
+## 2026-11-20 11:39:23 UTC — Astra-ISP-b2a9acde-20261120：修复新权11启动日志参数
+AI-assisted GPT-6 Astra Pro：run44729251378完成语法/13原源SHA验证及11:38:42实际pull后，在首父计算前因event的name参数重复而失败；已改事件形参并冻结请求2，数学输入/native不改。原失败source/log身份保留，没有计算数据或新rank结论。

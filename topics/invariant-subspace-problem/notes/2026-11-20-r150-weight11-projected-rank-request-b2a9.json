@@ -1,9 +1,9 @@
 {
   "format": "isp-original-weight11-projected-rank-request-v1",
-  "sequence": 1,
+  "sequence": 2,
   "session": "Astra-ISP-b2a9acde-20261120",
-  "createdUtc": "2026-11-20 11:38:17 UTC",
-  "runnerSHA256": "899b978eac0fab79716e1bff4fc8d65ba90fd09735045fc513e5c690d80255f4",
+  "createdUtc": "2026-11-20 11:39:23 UTC",
+  "runnerSHA256": "72173eb5013b5994725100e7969028faebfb3228422c487eacc9967f1504549f",
   "nativeSHA256": "d1dad93a00276355d2fdb3f815e01fde5ee428e72f1ca074063e961e7aa62253",
   "bitplaneHeaderSHA256": "03272796bb20c883291d27c9a0b796197f8295ccd9b16552c13894657dc8afd3",
   "nativeSeconds": 14400,
@@ -47,5 +47,7 @@
     "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
   },
   "actualPullMaximumIntervalSeconds": 1800,
-  "arraysToGitReleaseOrArtifacts": false
+  "arraysToGitReleaseOrArtifacts": false,
+  "previousRunId": 44729251378,
+  "change": "Fix event label argument collision before any parent computation; identical mathematical input and native consumer."
 }

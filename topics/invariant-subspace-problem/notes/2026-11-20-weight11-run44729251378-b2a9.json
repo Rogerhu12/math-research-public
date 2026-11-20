@@ -1,0 +1,23 @@
+{
+  "format": "isp-execution-identity-v1",
+  "runId": 44729251378,
+  "jobId": 136264465623,
+  "sourceCommit": "33802dc4c6171c04af836d012964a5775e05ea27",
+  "runnerSHA256": "899b978eac0fab79716e1bff4fc8d65ba90fd09735045fc513e5c690d80255f4",
+  "decodedWholeLogSHA256": "d59d0db5cd8201641e19db1a4819466751f9942981dc025f4e04dfc8f352e13b",
+  "actualPull": {
+    "actualPullRebaseSucceeded": true,
+    "beforeCommit": "33802dc4c6171c04af836d012964a5775e05ea27",
+    "executionEnvironment": "GitHubActions",
+    "format": "isp-789f-actual-actions-pull-v1",
+    "remoteCommit": "33802dc4c6171c04af836d012964a5775e05ea27",
+    "rulesGitBlobs": {
+      "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+      "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+    },
+    "rulesUnchanged": true,
+    "runId": "44729251378",
+    "utc": "2026-11-20 11:38:42 UTC"
+  },
+  "note": "Python source and all13 immutable input sources validated; event label TypeError occurred before the first parent execution. No weight11 calculation result. Corrected in the next request."
+}

@@ -47,8 +47,8 @@ def module(p,h,name):
     spec=importlib.util.spec_from_file_location(name,p)
     m=importlib.util.module_from_spec(spec); spec.loader.exec_module(m)
     return m
-def event(name,**kw):
-    print(json.dumps({"event":name,**kw},sort_keys=True),flush=True)
+def event(event_name,**kw):
+    print(json.dumps({"event":event_name,**kw},sort_keys=True),flush=True)
 def invert4(a):
     z=[[(int(x)%127) for x in row]+[int(i==j) for j in range(4)] for i,row in enumerate(a)]
     det=1
@@ -240,7 +240,7 @@ def main():
     import flint
     need(flint.__version__=="0.9.0","pinned python-flint0.9.0")
     req=json.loads(args.request.read_bytes())
-    need(req["format"]=="isp-original-weight11-projected-rank-request-v1" and req["sequence"]==1,
+    need(req["format"]=="isp-original-weight11-projected-rank-request-v1" and req["sequence"]==2,
          "this frozen request")
     need(identity(Path(__file__))["sha256"]==req["runnerSHA256"],"frozen runner source")
     need(req["nativeSHA256"]==NATIVE_SHA and req["bitplaneHeaderSHA256"]==HEADER_SHA,"frozen new native source")
