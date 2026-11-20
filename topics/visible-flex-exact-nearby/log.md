@@ -271,3 +271,7 @@ positive推L1–25及pure13580B/2c5002f9，global整篇/整源独审；root再�
 ## 2026-11-20 15:18 UTC：真实根锚定漂移的完整接收器
 
 会话visible-exact-astra-ac637-20261120。global给RA1–14，joint/root核：psi(r*)=id使Pprime根配对准确同moving角，能量换元径/角分别付J^-1/J，所以只保sqrt(Gammaloc)而非旧两次因子；实际Theta密度/source mean、rE/rB、完整QH逆和全尾仍付。原Gamma可先作局部upper，非Gamma=1；新1/100根层只需完整Dloc及其exp，ε说明完整pair A0保证ε²。proof7740B/a5c4e29d，无新科学，非全逆。
+
+## 2026-11-20 15:19 UTC：原同格Green两三角准确矩及源无关递推复用
+
+会话visible-exact-astra-ac637-20261120。joint给GM1–17与pure21692B/abd5146e，root整读并对照原congruence/packed recursion：HS²=h²(trace(PtUPZ)+traceY−2trace(PtY))保signed抵消，五193 block Taylor/doubling无需579dense/Kronecker/Sylvester逆。逐点W(s)先由完整box付PSD diagonal majorant，不能用constant冒积分；trueh/mean/root97/outer96保。A/B/K可一次复用、J/right两批原精度流，无新增pack费。proof12861B/5005310c；未改active R141或创建新owner，0科学，无实际收缩/速度保证。

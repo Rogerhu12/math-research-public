@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R141同格两三角的准确矩积分与输出复用](results/R141-supplement-exact-cell-Green-moments-and-shared-output-covariances.md)：signed完整HS²可由五个193矩阵的block Taylor/doubling取得，无Sylvester谱假设；variable source先付逐点PSD协方差majorant，不能当constant。源无关A/B/K共享与两批J/right流保原pack/trueh/193atoms；纯core已整审，未改运行中的44730452579，未产新defect或逆。
+
 - [R138真实根锚定的局部漂移与容量](results/R138-supplement-root-anchored-local-drift-and-capacity.md)：辅助flow在真r*取恒等初值，根接收配对无需再作density变换，能量仍完整付sqrt(Gammaloc)；actual Theta/source mean、旧rE/rB及QH尾不删。与独立旧全域body估计可并用，局部D/Gamma两scalar仍未求；仅新解析接收器，非根门或全逆。
 
 - [R138原Gamma的谱闭行预算仍排除](results/R138-supplement-actual-old-Gamma-spectral-box-budget-excluded.md)：原positive第1000行已选预算迫Csp>11，既成X/Y球给aEEsp>918705/2500000；RS完整T<125使原Γ根费>4121504/2500000，和>2。只排该box算法和原Γ组合，不授真实谱范数下界或BVP奇异；无新科学，不运行这条已排配方。
