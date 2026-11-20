@@ -1,18 +1,18 @@
 # 交接：可见振幅的精确闭等距族
 
-维护会话：`visible-exact-astra-ac637-20261120`；更新：2026-11-20 11:08:07 UTC。
+维护会话：`visible-exact-astra-ac637-20261120`；更新：2026-11-20 11:19:01 UTC。
 **总任务未完成；继续研究，不等用户回复。**
 
 ## 规则读点与接续来源
 
 部分克隆：`/workspace/scratch/ac637cfcc78d/math-research-public`。终端 git 已恢复，无 AGENTS。
-2026-11-20 11:08:07 UTC 实际pull/rebase至 `d5ee5b81b14d436d832a220e19d5d92cb5d8f867`；已读规则提交同上，两README相对96edc6770空diff。每次pull后核规则差异；下次实际pull最迟12:08:07 UTC。
+2026-11-20 11:19:01 UTC 实际pull/rebase至 `2572a196265902000e3b5ca85df37608c053efc9`；已读规则提交同上，两README相对96edc6770空diff。每次pull后核规则差异；下次实际pull最迟12:19:01 UTC。
 
 接手前完整 H（含全部递归原页、成功/失败/恢复身份和未付义务）见 [2026-11-16 完整检查点](https://github.com/Rogerhu12/math-research-public/blob/882aa9b74efeaac682df43c197820e7280156357/topics/visible-flex-exact-nearby/HANDOFF.md)。本页只压缩索引；`open.md` 及所链接的原证明、适用域、均值、物理角、所有边界和误差费用继续有效。旧成功结论不重算。
 
 新科学数值用本公开仓库 Actions；本机用于证明、编辑及静态检查。每条实质结论更新 H 并独立提交推送；推前实际 pull，非快进立刻 rebase 再推，不 force。规则15：只留脚本、参数、run、hash 和小结论，不入库新数组/可重算证书，topic≤200 MB。3份未被当前输入引用的旧大数组/删除库存已按规15移为Git历史指针，见 `notes/2026-11-20-reproducible-data-history-pointers.json`；原字节可恢复、不重算。
 
-根规12下移除无关workflow静态白名单，仍逐次rebase后核全topic和输出容量；21原件、mean/ports、五图50条定义保留。先做R139的3条预算目标，余47条未算。
+根规12下移除无关workflow静态白名单，仍逐次rebase后核全topic和输出容量；21原件、mean/ports、五图50条定义保留。原L三量已成冻结（3/50），余47条未算。
 
 ## 完成标准与同一对象
 
@@ -29,7 +29,7 @@ geometry `43584188751/26` **仅条件性**：同η0真 wholecore（含帽）C0�
 
 [R136](results/R136-stable-complete-joint-centre-columns.md)（已证明）：完整WJK核改用固定128/256宽度源列与稳定Green作用；保全五collar项、两三角、193 atoms和同点signed合并，原图1–3/真无限tail不变。源码已合入并AST通过，未运行新科学数值。
 
-[R139](results/R139-necessary-budget-for-fixed-W2C-comparison.md)已证G(K)≥109/120+(963/80)(K+ε)，L≥1/128排既定配方。[实际atom必要门](results/R139-supplement-actual-mean-atom-floor-not-excluding-fixed-recipe.md)44721682192/1成功3lower，P≈5.27012349e−10未达1/16384，未排除也未通过。3条冻结，原50条及原L三量仍0；继续未成L，不能重算atom成功。
+[R139](results/R139-necessary-budget-for-fixed-W2C-comparison.md)已证G(K)≥109/120+(963/80)(K+ε)，L≥1/128排既定配方。[实际atom必要门](results/R139-supplement-actual-mean-atom-floor-not-excluding-fixed-recipe.md)44721682192/1成功3lower，P≈5.27012349e−10未达1/16384，未排除也未通过。独立3条冻结；[原L](results/R139-supplement-actual-complete-low-family-budget.md)44724797559/1也已成3/50，L≈3.79236e−5，未排除；两组均不重算。
 
 [R137](results/R137-continuous-signed-centre-and-exact-endpoint-system.md)（已证明）：完整连续WJK中心I−Hc可逆等价于1217态/609端点矩阵非奇异，证明无aux-only核及Fredholm闭合；原finite投影/ρ/lift缺陷明确另付。[193/97浮点诊断](results/R137-supplement-actual-balanced-low193-endpoint-diagnostic.md)已成：端点SVmin≈.3247、156分界≈.2328；不是真实逆或全区间证书。
 
@@ -45,24 +45,20 @@ geometry `43584188751/26` **仅条件性**：同η0真 wholecore（含帽）C0�
 
 [R141](results/R141-low193-directed-green-and-complete-observation-certification.md)已证完整97/96 Green/193atoms与whole-box转授；核心AST、0数值，ε<1未付，七ports/CFB/finiteρ未删。
 
-## 已有可复用的正侧链
+## 已有正侧链与完整旧资格
 
-- WIC：原 m160 真 tail 的全系统逆界 κ=3、N=24480 已证。完整 reference、ρ2、193 mean/head、97 root+96 outer、7 ports、两 RHS 资格保留。
-- WPN：若同完整算子的 e+3dt<1，才得到双边 Neumann 逆、两 RHS 误差和指定 root-even I96。实际小门未过。
-- WPS60、WVC56、WCTRA：完整既成数值分别给约635240.55、11066.29746、11976.30849 的充分门，均 false；不能反推算子奇异。已成目标不重算。WCTRA不替换本轮固定WVC参考。
-- W2H/W2C：固定 WVC 上的双侧 collar-Volterra 候选，V=Vb+ψ(JB+JAJB)，W=Wb+ψ(−JC*+JA*JC*)。真 J* 积分上限 R；两 collar residual 二阶，transition、family Δ、true dual H1 和 mean 均完整。
-- WJK：F=P+Q*−Q*LcP，body 的 χ′只在共同Gf下的完整 signed centre 核精确消；actual 两 residual 不删。必须同(r,s)合完整有符号核后再 abs；不能用旧171加正项冒小界。对应五 collar 项、两 Green 三角、193 atoms、7 ports 和两 RHS 全保。
+本段压缩前全文保于 [d080a9e66的HANDOFF](https://github.com/Rogerhu12/math-research-public/blob/d080a9e660c3ba751740c7523e2ac73f352151f6/topics/visible-flex-exact-nearby/HANDOFF.md)，含全部公式/端点/mean/失败和proof索引。
 
-相关 proof 是 `results/R133-supplement-{analytic-inherited-tail-and-weighted-impedance-circuit,complete-paired-Neumann-reconstruction-and-root96-normalization,complete-collar-Volterra-dual-feedback-candidate,joint-centre-Green-kernel-and-complete-collar-cross-terms}.md`。
+WIC原m160/N24480真tail逆κ=3已证；WPN只有完整e+3dt<1才授双边逆、两RHS与root-even I96。WPS60/WVC56/WCTRA既成门约635240.55/11066.29746/11976.30849均false，不表示奇异、不重算；本轮仍固定WVC。W2C两侧Volterra候选保true J*到R、完整family及dual H1。WJK F=P+Q*−Q*LcP只能在同(r,s)的完整signed centre下合χ′后abs，保五collar项、两三角、193atoms、7ports、2RHS；不能对individual residual删项。
 
 ## 接手时真实执行停点与当前分工
 
 readonly44712172133/1成功（60 current/23 AST/21原件/18门，0科学）；旧43921663540/1为0科学运维失败，两份完整回执保在 `notes/collar_volterra_dual_readonly_ci/`。恢复/执行用 `fourfold_codazzi_collar_volterra_dual_public_worker.py`；各新源码、完整清单与适用域见result/manifest，21原件与29整球只读恢复，旧producer不调用。graph4最终版尚未launch。
 
-1. 原L三量v3 44723722475/1失败0scalar（sqrt非负球表示）。[正乘积修复](results/R139-supplement-directed-upper-products-for-complete-Green-comparison.md)已证，assembly af84dcfd；reference e57、原owner/3目标/参数不变；v4 72输入/SHA382cbdc9新marker首次续算。`joint_kernel` R140已登记，审R141并补whole-box指数因素；原50条仍0。
+1. 原L v4 44724797559/1成功3/50、L≈3.79236e−5，原atom/endpoint成功也冻结。`joint_kernel`准备完整centre mean-atom的新必要lower门，B_HL mean严格0；先判断固定小K配方，余47条未算。
 2. `positive_inverse` 的低193/97 scaled续算44721851908/1已success：155panel/1424各向步/156分界，根全收据已核并登记，成功冻结；非真实逆。原失败prefix保。R141已登记，首次directed owner在备，CFB/mean/实际family仍付。
 3. `global_route` 已完成几何桥/旋转能量、actual support与outer负型；继续真实inner low96/high stable/mean边界及体残差吸收，不能把stable行当c=0。R135/R520不替验收。
-4. root维护git与记录；L三次失败均0scalar全保，旧endpoint第139panel超256步/0传播失败全保。atom未排除、scaled结果已成冻结；原L三量与50条仍0。代理不动git。
+4. root维护git与记录；L三次失败均0scalar全保，旧endpoint第139panel超256步/0传播失败全保。atom未排除、scaled结果已成冻结；原L已成3/50，余47未算。代理不动git。
 
 ## 正侧以外仍未付的接口
 

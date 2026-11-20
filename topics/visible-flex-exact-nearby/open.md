@@ -161,15 +161,11 @@ WIC真tail κ=3已闭；WPN仍须完整e+3dt<1。WPS/WVC/WCTRA充分门均false�
 
 [R136](results/R136-stable-complete-joint-centre-columns.md)关闭graph4递归高秩实现缺口：以稳定源列保完整核和193观察，源码已合入、仅AST。首次科学运行先判断low-family比较预算；连续中心端点逆、真实finite转换与最终非线性义务不变。
 
-[R139](results/R139-necessary-budget-for-fixed-W2C-comparison.md)给固定旧费用下的必要门K+ε<1/128。[mean atom补篇](results/R139-supplement-mean-atom-lower-budget-for-fixed-comparison.md)进一步给L²≥(Σh a)maxa；当前先算其3个独立lower证书，若乘积下界≥1/16384则排旧配方并转分块/直接中心BVP。原五图50条仍0；未触发排除不表示finite门通过。
+[R139](results/R139-necessary-budget-for-fixed-W2C-comparison.md)给固定旧费用的必要门K+ε<1/128。[原L实际三量](results/R139-supplement-actual-complete-low-family-budget.md)44724797559/1已成并冻结：L≈3.7923616923e−5，未触发排除；原50条已成3条，余47未算，五完整graph/finite门/逆均未给。
 
-[mean atom实际结果](results/R139-supplement-actual-mean-atom-floor-not-excluding-fixed-recipe.md)44721682192/1已成3条下界，乘积下界≈5.27012349e−10未达门；不排除旧配方也不授充分门。该成功冻结；下一步只接续正pivot修复后的原完整L三量，原五图50条仍0。
+[独立mean atom结果](results/R139-supplement-actual-mean-atom-floor-not-excluding-fixed-recipe.md)44721682192/1已成3条必要下界，乘积≈5.27012349e−10未达1/16384；成功冻结，不计原50条。[R140完整分块](results/R140-complete-mean-split-low-family-comparison.md)已证192/mean1四块与保核权RMS，新配方未算；当前原L已小，先判断完整centre是否能过预算。
 
-[R140完整分块](results/R140-complete-mean-split-low-family-comparison.md)已证同原moving-phi与same-eta hybrid的四块费用及保核权source RMS，193 atoms/mean/primitive/原4650行全保；新配方未运行。若原L预算过粗，可对同完整算子首次计算新三量，不从旧上界减费；CFB/finiteρ另付。
-
-首轮44716804300/1在155panel准备后保存0scalar失败；[零端点包含修复](results/R139-supplement-certified-zero-endpoint-interval-continuation.md)只改已证明非负量的球表示，v2清单保旧回执并接续未成3条。endpoint首轮44717190551为YAML解析失败、jobs0；格式修复和同reference pin后才作首次科学。
-
-第三次44723722475/1仍0scalar，非负球乘积使sqrt guard失败；[完整Green正乘积修复](results/R139-supplement-directed-upper-products-for-complete-Green-comparison.md)已证，只在正比较私有副本先取有向上端点，不改signed kernel。新assembly af84dcfd；原L三量全未成，须新marker续算。全部三次失败及独立atom/endpoint成功各自保留。
+三次原L失败44716804300/44719196440/44723722475均0scalar，完整回执保在各自CI目录；[零端点](results/R139-supplement-certified-zero-endpoint-interval-continuation.md)、[正pivot/endpoint hull](results/R139-supplement-positive-reference-pivot-and-endpoint-hull.md)、[正乘积](results/R139-supplement-directed-upper-products-for-complete-Green-comparison.md)包含修复均不改原对象。旧endpoint YAML/jobs0与第139panel/0传播失败也原样保留；后续成功不重分类旧失败。
 
 [R137](results/R137-continuous-signed-centre-and-exact-endpoint-system.md)已将同一连续signed-centre inverse精确改成1217态/609端点问题，排除aux-only核；不是有限Qf直接逆证书，S.18c投影/lift缺陷与ρ因子仍需付。[实际完整诊断](results/R137-supplement-actual-balanced-low193-endpoint-diagnostic.md)44721851908/1已成并冻结：155panel/156分界，raw端点SVmin≈0.3247、全分界≈0.2328，均为浮点中点模型。继续新的严格双侧Green/source/193atoms/whole区间认证；CFB、高family、真实系数差及finiteρ全保。
 

@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R139实际完整低频族差三量](results/R139-supplement-actual-complete-low-family-budget.md)：44724797559/1成功，72当前/21原件/24AST/27门，完整L≈3.7923616923e−5，未触发1/128排除门。原50条中3条完成冻结、余47未算；五完整graph、finite门和逆均未给，旧三次0scalar失败全保。
+
 - [R141完整有向低193 Green认证](results/R141-low193-directed-green-and-complete-observation-certification.md)：证明97/96双侧chart、全body两三角及root97+outer96 Gram、同真根长度的系数缺陷Neumann转授、atoms identity和逐点whole区间投影/SV下界。原same-eta hybrid范围明确，七ports/CFB/finiteρ仍待；核心源AST、0科学，实际缺陷小量未求值。
 
 - [R139完整Green正乘积补篇](results/R139-supplement-directed-upper-products-for-complete-Green-comparison.md)：44723722475/1在完整context后仍0scalar，严格平方根检查失败。已证明先取非负profile的directed upper点再按原完整正公式运算保持包含，signed kernel/目标/参数/193 atoms均不改；修复AST，新assembly SHAaf84dcfd，预算仍未完成。
