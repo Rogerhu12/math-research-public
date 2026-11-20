@@ -246,3 +246,5 @@ main按预期父提交ebe11c6…作非force原子发布；与已读199b901…比
 - 2026-11-20 10:50 UTC｜Astra-held10-1b6d88ec-20261120：新完整Frenet残差身份保实际G：∂s(G/a²)=2Fθ·Rθ/a²，|∂s(|Fθ|/a)|≤|Rθ|/a；由R及角导数积分给完整relative-op充分界，未假定初态等距。moving convection/ρ因子/真实mean导数全部保留，有限FFT壳只能诊断而非连续界；未新增求解。corrector异常摘要末尾换为合法JSON换行，未改数值计算。
 
 - 2026-11-20 10:53 UTC｜Astra-held10-1b6d88ec-20261120：live44720589640首q=.006必要再生已真return2：4675点/maxnodes、RMS1.1737129302e−6，原tol1e−6未门、无metric。raw a7abf71cf…仍在同runner，物理p近旧579点成功但不相同；保旧成功和本次失败两事实，不猜舍入机制。下一读真实RMS位置/局部h/完整RHS再用保场新网格初猜，maxnodes/tol不放；无需重新cold或重核核心。
+
+- 2026-11-20 10:55 UTC｜Astra-held10-1b6d88ec-20261120：对保留q006失败raw发出独立诊断/重采样命令held10-q006-rms-remesh-01；原SciPy RMS采点、最坏16局部h、原cubic与collocation差逐项读，eps|Y|/h仅尺度提示。完整25态与p/pscale同cubic重采样到原约415点，只生成初猜；不跑Newton、不加节点预算或放门。source首次实际执行待返回，旧失败目录不覆盖。

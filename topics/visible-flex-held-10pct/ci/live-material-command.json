@@ -1,34 +1,23 @@
 {
-  "id": "held10-H1-regenerate-20261120-01",
-  "read_rules_commit": "adf27f9edaf91153c5ddffcd18823522f51df131",
-  "script": "topics/visible-flex-held-10pct/scripts/resume_m3/height_amplitude_path.py",
+  "id": "held10-q006-rms-remesh-01",
+  "read_rules_commit": "723a79feca14e78036ad4c80bc42ed66fe8598b6",
+  "script": "topics/visible-flex-held-10pct/scripts/resume_m3/diagnose_and_remesh_prefix_raw.py",
   "args": [
-    "--repo",
-    "@REPO@",
-    "--workdir",
-    "@WORK@"
+    "--source-run",
+    "@WORK@/height-path-00-q0.0060000/run.json",
+    "--nodes",
+    "401",
+    "--outdir",
+    "@WORK@/q006-rms-remesh-01"
   ],
   "diagnostics": [
     {
-      "path": "@WORK@/height-amplitude-path.json",
+      "path": "@WORK@/q006-rms-remesh-01/diagnostic.json",
       "keys": [
         "status",
-        "stages",
-        "accepted_raw",
-        "accepted_directory"
-      ]
-    },
-    {
-      "path": "@WORK@/height-q060/run.json",
-      "keys": [
-        "solver_success",
         "error",
-        "prefix_audit",
-        "raw_return",
-        "physical_sha256",
-        "domain_newton_stats",
-        "original_linear_DN_physical_residual",
-        "original_nonlinear_DN_accepted"
+        "diagnostics",
+        "result"
       ]
     }
   ]
