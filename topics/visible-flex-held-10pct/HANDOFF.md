@@ -6,7 +6,7 @@
 
 连通闭C²嵌入、C²连续族；固定有内点H且diamH≥.2D，整像δhold≥.1D及含反射δE>0，全时reach≥.03D。同一完整g/全部物理参数/时间范围下，完整metric≤1e−6且空间/频率/时间精化降至求解或机器地板；全部闭合与Cartesian两jet接口须实际支付。
 
-- 部分克隆工作树 /workspace/scratch/1b6d88ecddf3/math-research-public。已读规则提交：`da34ea30adb8e8a8f9e6e898d2f5f3ff559fe23e`；15:04 UTC本地真实pull --rebase至该提交，双README无变。每次pull核差异，至少每小时一次；API比较不冒充pull。
+- 部分克隆工作树 /workspace/scratch/1b6d88ecddf3/math-research-public。已读规则提交：`087ae837712f2cda02652612865dc524ad1cd0b2`；15:05 UTC本地真实pull --rebase至该提交，双README无变。每次pull核差异，至少每小时一次；API比较不冒充pull。
 - root独占git，逐结论推送，NFF立即pull --rebase/核双README后再推，禁force；令牌只在命令行。
 - 根§12优先实际数学/求解，不重复身份核查/双审；§15再生场、网格、矩阵不入Git/Release/artifacts，只存源/参数/命令/hash/小标量。H<10KB、单MD<100KB、目录<200MB，不写根LOG。
 - 压缩不撤销旧结果。完整旧断点见[接手H](https://github.com/Rogerhu12/math-research-public/blob/9288f266d1f242b594d70a714e20340fcb876023/topics/visible-flex-held-10pct/HANDOFF.md)及[本次H到01954](https://github.com/Rogerhu12/math-research-public/blob/01954ce52ce769093d8368e8f5c9d4a980191a84/topics/visible-flex-held-10pct/HANDOFF.md)；具体note优先于摘要。
@@ -23,7 +23,7 @@
 
 当前真实尾：chord3 session54314，m3-work/newg-wide-lambda0p002-m24-actual-chord3-r1。原.25/.5已接受；.5残差9.47489311e−10、1153×48 finite，末态fresh-original。现接.75→.9→fullH/outer8，原M24/N512/steps16/parts16/2workers/shoot36/门不变。[.5实录](notes/2026-11-20-m3-m24-chord-warm050.md)、[.25及取消/ENOENT/完整命令](notes/2026-11-20-m3-m24-original-warm025-and-chord-continuation.md)。[唯一full-harmonic probe](notes/2026-11-20-m3-full-harmonic-warm-probe050-to075.md)10783.57对原uniform6438.708，差1.674804倍，未改善且不再做此probe。fullH/外迭代未完成，最终重新绑定完整g/参数/mean再场细化。
 
-[λ.004/M24实际设计](notes/2026-11-20-m3-newg-lambda0004-m24-return.md)635点/8全步收敛，但原metric1.53303e−6未门；原mean1168诊断主缺陷在ψ77/79等表示外。[M32实际78016](notes/2026-11-20-m3-newg-lambda0004-m32-accepted.md)已真exit0/860点，原metric7.604677e−7/BC2.84346e−12通过，原mean1552。新λ.008/M32 session76535已启，860点初始域已过；δ/c仍设计自由，非fixed-g。54314不动。
+[λ.004/M24](notes/2026-11-20-m3-newg-lambda0004-m24-return.md)metric1.53303e−6未门、ψ77/79主导后，[M32/.004](notes/2026-11-20-m3-newg-lambda0004-m32-accepted.md)已860点过原metric7.604677e−7；[M32/.008](notes/2026-11-20-m3-newg-lambda0008-m32-accepted.md)76535已863点过metric7.844246e−7/BC6.08e−15。原mean1552，δ/c设计自由。λ.016/M32 session45287已启，初始域过；非fixed-g，54314不动。
 
 ## 旧g：已停用的已知断点
 
