@@ -59,3 +59,7 @@ joint发现旧worker在nonFF后rebased本地commit可能因空index而跳过push
 ## 2026-11-20：R141共同标量whole-box包含已证
 
 root完整核V.1–10、entrywise正指数尾、short signed powers及原Gram/whole-point wrappers；原true h/S/mean/193atoms/源role均不变。来源joint草稿整读后只去草稿标题和旧2048bits说明，改为调用方声明精度；纯模块AST，无导入或科学。该方法不单独解决长panel的carrier条件数，新精确refinement随后封包。H本会话说明压缩前完整保于immutable c9cd98f3f517863ca112320636dd48d40f2c9470，原资格不变。
+
+## 2026-11-20：R141首次精确细分有向证书封包
+
+root完整整读新proof19224B/SHAee1b654b、refined38569B/SHAcf8c859a、owner42669B/SHA7298f95a、metadata generator18692B/SHA18679334与shared scalar全部源码；global独核H_i/n_i和真h_i/n_i、C/D递推/Gram/atoms、逐entry compact包含及saved-upper gate，joint另核chart/cache。只存mid/rad私有内存、不发布数组；768bits，最多1536格，当前先保1424cuts且每格span≤4，四wholebox/order16，每节点carrier刷新。先完整comparison+defect；strict ε<1后4源/193atoms/wholepoint共7目标，否则完整2目标不推奇异。新71输入清单65130B/SHAb501e9322e9e2c00c909a618a908ea05fb720364b3170da1085e51b5d6243c25绑定新worker98ef3773及新shared纯注释版；root全71+worker bytes/SHA/blob、11模块、AST/YAML核，0本机科学。原L/centre/endpoint全部只读冻结；新增共享workflow单push启动。open只压缩已冻结诊断/旧桥重复文字，其完整条件仍在原proof/actual及本提交前open。

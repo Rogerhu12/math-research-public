@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R141精确细分与紧凑有向Gram](results/R141-supplement-exact-refinement-and-compact-directed-grams.md)：原H_i与真h_i同除n_i，保全部1424旧cuts；逐entry Arb核mid64/rad64包含、同父模板只复用常量、每节点carrier/各源/193atoms独立完整。root整审全部proof/source/owner，global独核；71输入/768bits首次公开封包，真实ε门尚未求值，CFB/finiteρ/7ports未删。
+
 - [R141共同标量短程包围](results/R141-supplement-shared-scalar-whole-box-factors.md)：固定点指数加signed Taylor完整余项给整box因子包含，内部dyadic balance不替换实际S，保同模型/真根/h、全部source/193atoms与两三角。root整读proof/源码及AST，0科学；长panel条件数仍须明确细分支付。
 
 - [公开发布重试修复](notes/2026-11-20-publication-retry-after-empty-index.md)：非FF后空index不代表本地rebased commit已上远端；marker和outcome循环现均以实际push成功为退出条件。只改运维控制流、AST，旧科学身份/结果不变。

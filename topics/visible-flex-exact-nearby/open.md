@@ -171,13 +171,13 @@ WIC真tail κ=3已闭；WPN仍须完整e+3dt<1。WPS/WVC/WCTRA充分门均false�
 
 [R137](results/R137-continuous-signed-centre-and-exact-endpoint-system.md)已将同一连续signed-centre inverse精确改成1217态/609端点问题，排除aux-only核；不是有限Qf直接逆证书，S.18c投影/lift缺陷与ρ因子仍需付。[实际完整诊断](results/R137-supplement-actual-balanced-low193-endpoint-diagnostic.md)44721851908/1已成并冻结：155panel/156分界，raw端点SVmin≈0.3247、全分界≈0.2328，均为浮点中点模型。继续新的严格双侧Green/source/193atoms/whole区间认证；CFB、高family、真实系数差及finiteρ全保。
 
-[R141](results/R141-low193-directed-green-and-complete-observation-certification.md)已闭严格低193认证的解析合同：真h_i保留的精确比较、97/96双侧chart、两Green三角/193atoms、实际系数缺陷ε<1后的完整source及增广二类逆，以及全box真实投影/SV下界。核心源码AST，实际数值未算；原七port输入adapter/CFB/finiteρ仍保。首次owner正备，不重做44721851908成功浮点诊断。
+[R141](results/R141-low193-directed-green-and-complete-observation-certification.md)及[精确细分补篇](results/R141-supplement-exact-refinement-and-compact-directed-grams.md)首个有向owner已双审/AST：71输入，768bits，原H_i/n_i与真h_i/n_i、1424旧cuts全保，紧凑球逐entry包含。先完整defect，ε<1后才4源/193atoms/whole-box；否则完整两目标false结果。首次Actions尚无数值，CFB/finiteρ/7ports/2RHS仍待；不重旧浮点诊断。
 
-首次endpoint科学44719196304/1因单panel256步预算止于138panel计划，0传播/0SV；新独立balanced续算保原raw矩阵hash，使用原S对角相似变换，逐panel接口返回raw正交帧，完整155panel计划后才传播，step∞4/总8192/wall1800不放宽。它仍是浮点比较诊断，所有proved flags为false。
+原endpoint44719196304/1第139panel/0传播失败整回执保留；后继44721851908/1完整浮点诊断已冻结，原step/cap/同raw模型和false proved范围见其实际结果，均不重算。
 
-[R138](results/R138-residual-sensitive-Codazzi-frame-and-geometric-Jacobi-bridge.md)给同Qrepair的实际径向重建、frame/位置/height残差及完整方向桥；193 mixed行不能当Dirichlet，WVC η替换主部差仍是角导源。下一步接rotation-field真实边界能量并付残差吸收，而非从形式椭圆性推全逆。
+[R138几何桥](results/R138-residual-sensitive-Codazzi-frame-and-geometric-Jacobi-bridge.md)已闭实际frame/位置/height残差；193mixed行、WVC η主部差源保留，仍需真实边界及体吸收。
 
-[R138补篇](results/R138-supplement-rotation-energy-and-complete-endpoint-form.md)已给具体旋转能量、完整端点型及不除以K的漂移估计；下一步在同一193+high实际边界域核support、初始角缺陷和端点费用，使b_*+e_*<2。当前root未证平面，outer graph不能当常旋转；mean/源/弱强域和同一全局规范保留。
+[旋转能量](results/R138-supplement-rotation-energy-and-complete-endpoint-form.md)保完整端点/mean/缺陷与无1/K漂移；真实root不冒平面，outer不冒常旋转，全部弱强域/单一规范继续有效。
 
 [实际support补篇](results/R138-supplement-actual-positive-support-for-repaired-physical-frame.md)已支付上述support：同固定η0/ν0、同全圈周期外端锚、全[0,25/8]的Qrepair物理径向frame有F·n>9/10、|F|<319/250；旧证书只读复用。继续支付实际193+high端点型、初始角缺陷与残差吸收，未完成的GC/外帽世界匹配不因此消失。
 
