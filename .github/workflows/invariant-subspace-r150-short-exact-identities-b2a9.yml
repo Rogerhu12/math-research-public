@@ -48,17 +48,17 @@ jobs:
           print('ISP_PULL_RECEIPT '+json.dumps(receipt,sort_keys=True),flush=True)
           if not receipt['rulesUnchanged']: raise SystemExit('README changed; root must read and follow the exact differences')
           PY
-          git show "$ISP_PIN:topics/invariant-subspace-problem/notes/2026-11-20-essential-four-unit-three-plus-one-gamma-zero-verify.py" > "$RUNNER_TEMP/isp-unit31_gamma_zero.py"
-          git show "$ISP_PIN:topics/invariant-subspace-problem/notes/2026-11-20-essential-four-unit-three-plus-one-n-zero-verify.py" > "$RUNNER_TEMP/isp-unit31_n_zero.py"
+          git show "$ISP_PIN:topics/invariant-subspace-problem/notes/2026-11-20-essential-four-unit-three-plus-one-q-zero-verify.py" > "$RUNNER_TEMP/isp-unit31_q_zero.py"
           git show "$ISP_PIN:topics/invariant-subspace-problem/notes/2026-11-20-r150-rank-one-v-four-plus-one-classification-b2a9.py" > "$RUNNER_TEMP/isp-rankone_v_four_one.py"
           git show "$ISP_PIN:topics/invariant-subspace-problem/notes/2026-11-20-r150-rank-one-v-three-plus-two-exclusion-b2a9.py" > "$RUNNER_TEMP/isp-rankone_v_three_two.py"
+          git show "$ISP_PIN:topics/invariant-subspace-problem/notes/2026-11-20-r150-rank-one-v-three-plus-one-plus-one-classification-b2a9.py" > "$RUNNER_TEMP/isp-rankone_v_three_one_one.py"
           python -m venv "$RUNNER_TEMP/isp-r150-short-venv"
           "$RUNNER_TEMP/isp-r150-short-venv/bin/python" -m pip install --quiet sympy==1.13.3 mpmath==1.3.0 python-flint==0.9.0
           "$RUNNER_TEMP/isp-r150-short-venv/bin/python" - <<'PY'
           import concurrent.futures,hashlib,json,os,subprocess,sys,time
           from pathlib import Path
           root=Path(os.environ['RUNNER_TEMP'])
-          jobs=[{"label":"unit31_gamma_zero","file":"isp-unit31_gamma_zero.py","source_sha256":"dcbec1c0afeec4ede34dc899540855e0d39c8b229ba88b4aaaa928f9c32afc9b","seconds":180,"args":[]},{"label":"unit31_n_zero","file":"isp-unit31_n_zero.py","source_sha256":"de6f7b9b56e9420cf8d7a836e2fd4ff4dd2035654784a6b52f7a772f01b0f8c9","seconds":180,"args":[]},{"label":"rankone_v_four_one","file":"isp-rankone_v_four_one.py","source_sha256":"775ab3d5e7d8fcb6974a1fbad7f802b3387cde8aaa00d92a8b59dcd4c8906868","seconds":210,"args":["--wall-seconds","180","--memory-mib","1024"]},{"label":"rankone_v_three_two","file":"isp-rankone_v_three_two.py","source_sha256":"c8b8a09aaed1f0490b658d3579ef779d942ff102f47e3bcb0723cfba82a573d0","seconds":210,"args":["--wall-seconds","180","--memory-mib","1024"]}]
+          jobs=[{"label":"unit31_q_zero","file":"isp-unit31_q_zero.py","source_sha256":"0dfb482af62883fcf5e7c79af96d2b1a5a2a726a973320c5ff93be86d94fb397","seconds":180,"args":[]},{"label":"rankone_v_four_one","file":"isp-rankone_v_four_one.py","source_sha256":"287be34869102ae107519fc580e45d9d630d12bd407cedf3264beb82416489ba","seconds":210,"args":["--wall-seconds","180","--memory-mib","1024"]},{"label":"rankone_v_three_two","file":"isp-rankone_v_three_two.py","source_sha256":"0ced5cf39d85863d7e81f127ff130a0aa1936b36534c42287c72d0fe2c2ccf6b","seconds":210,"args":["--wall-seconds","180","--memory-mib","1024"]},{"label":"rankone_v_three_one_one","file":"isp-rankone_v_three_one_one.py","source_sha256":"914f0d8857394ffa16b6e45b56c1ce39c4d94c82e14fff5144a686d9ecbe489d","seconds":210,"args":["--wall-seconds","180","--memory-mib","1024"]}]
           for j in jobs:
               source=root/j['file']
               assert hashlib.sha256(source.read_bytes()).hexdigest()==j['source_sha256']

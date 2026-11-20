@@ -6,7 +6,7 @@
 
 - **普通复可分无限维Hilbert ISP未完成。** 只有全体有界算子的存在定理或完整反例才收尾；子问题完成继续open，不以阶段或时限停止。
 - **最近成功实际pull与已读规则提交：** 22be0640434aef3aeb6572b557aaf94b9ff259ef，2026-11-20 12:35:56 UTC，Actions run44737090302/job136291084777；真实git pull --rebase成功，两README未变，原日志已核。下一实际pull不得迟于13:35 UTC。
-- **最近API同步及规则核对：** `ab25fd6bb5b8da86d51e10611956fedd1a278dcf`（2026-11-20 12:38:56 UTC）；两README blob均未变。API快照不冒称实际git pull，另记真实执行回执。
+- **最近API同步及规则核对：** `dc4818d6fbc8b14ae5d6e2b9f821841048ed826a`（2026-11-20 12:40:07 UTC）；两README blob均未变。API快照不冒称实际git pull，另记真实执行回执。
 - 根README blob282e86b03385d3b6245ce7100ae2e2af7b103c2d、课题4d6570e9cf346431ab781a1290076a6321aaaa00已全文读。每次pull比两README，只读新diff并立即遵守；至少每小时及发布前同步，SHA写H。
 - 仅授权Rogerhu12/math-research-public。root独占main/H/open/results/log和发布，代理只交proof blob；每条结论单独提交推送，非快进立即更新/rebase重试成功，不force。用户PAT仅CLI环境，不进文件/config/日志。
 - 根规则15：可重算数组/数据/证书不进Git、Release或新工件；仅源码、参数、运行身份/SHA及正式证明。MD/API UTF8<100KB、H≤10000B、open尽量≤30KB、topic≤200MB、log每条≤5行、数学美元符及AI署名，不写根LOG。
@@ -21,9 +21,9 @@
 - **全essT3≤3的原matched Bell已零。** W±上确有Cat3真临界点，不能把该层宣空；一般V非零Bell非零只能ess4/5/6。
 - **[整个V0临界层的三个原Bell均零](results/R150-appendix-zero-third-cumulant-all-matched-bell-values-vanish-and-exact-index-three.md)：** 无Cat/H秩/ess/支撑限制，含y0。原highest解H(y)，完整17低梯度I0有(r·y)S_r²∈I0，乘Q_r得S_r³；run44732550495全792×3 QQ回乘0。平方非成员给每个原根准确指数3；不搬成全Jacobian同幂，degree9无需运行。另V0/ess4整层已空的更强几何结论保索引，不把ess5/6宣空。
 - **外均值ess4主支：** Cat(y)=3、dimW4、y∉W，唯一原length5代数保同L,ν及全jets。全部rankH3、全部rankH4 proper局部单零（长度2–5）、孤立零点加unit单四jet/两个双点均已空。包括半权、零权、零配对、合流及∞，正式源与执行身份见索引和前H。
-- **unit3+1孤立零点：** 全p0、全半权及alpha=2phi−A−3bp=0已闭；分别run44732550495/44733413376。真正剩余p、alpha非零且b≠1/2；请求11的q0源原恒等式已过、norm展开180秒超时，正改原生QQ(κ)商代数，未宣闭。q非零图的gamma0现已由run44737090302原QQ结式关闭，s≠x、p0≠0同时成立；n0=0两原mean分支也闭合，T=2x²−b、n0、m均非零；不以q0闭合为前提。
+- **unit3+1孤立零点：** 全p0、全半权及alpha=2phi−A−3bp=0已闭；分别run44732550495/44733413376。真正剩余p、alpha非零且b≠1/2；请求11的q0源原恒等式已过、norm展开180秒超时，请求13已改原生QQ(κ)二元商代数再核，未宣闭。q非零图的gamma0现已由run44737090302原QQ结式关闭，s≠x、p0≠0同时成立；n0=0两原mean分支也闭合，T=2x²−b、n0、m均非零；不以q0闭合为前提。
 - 孤立零点的unit2+1+1、unit1⁴，全部rankH5单位支，一般V≠0 inner mean和ess5/6仍开。inner不能从V自己低秩自动推y/H共同支撑，全部原低梯度仍保。
-- **新rankV1门：** [自身五重均值极线整支已空](results/R150-appendix-rank-one-third-cumulant-quintuple-mean-at-own-point-exclusion.md)：run44736004677全QQ原源、实度80/80、固定160阶mod103=27、∞4阶77，全部特殊s保留。请求12的Δ_s⁴Δ_t/Δ_s³Δ_t²全QQ构造后hash遇fmpz序列化失败，结式未执行；正修精确整数编码重跑，其余V1及一般V仍开。
+- **新rankV1门：** [自身五重均值极线整支已空](results/R150-appendix-rank-one-third-cumulant-quintuple-mean-at-own-point-exclusion.md)：run44736004677全QQ原源、实度80/80、固定160阶mod103=27、∞4阶77，全部特殊s保留。请求12的Δ_s⁴Δ_t/Δ_s³Δ_t²全QQ构造后hash遇fmpz序列化失败，结式未执行；请求13改operator.index精确编码重跑，另核Δ_s³(q_s/Δ_t)全新支；其余V1及一般V仍开。
 - **[旧纯三次判据已修](results/R150-appendix-polar-pure-cube-sign-correction-and-exact-resultant.md)：** 正确Q=B³−27A²D，root同一BigInt函数全10阶整数结式260758295153015625（mod103=56）；旧正文/Python源同步更正。无纯三次结论保持，旧正号/数值不再作证，其余闭几何不重跑。
 - 原4212来源枚举/系数高度、全局Bell自然幂及完整算子桥仍开。图册须每图真实幂来源并N=1+Σ(Ni−1)粘合；几何覆盖、V0子层证书不代全局原来源/实际费用。
 

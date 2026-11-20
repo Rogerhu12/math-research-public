@@ -648,3 +648,6 @@ AI-assisted GPT-6 Astra Pro：[完整证明](results/R150-appendix-essential-fou
 
 ## 2026-11-20 12:38:52 UTC — Astra-ISP-b2a9acde-20261120：单位3+1原低梯度基值非零
 AI-assisted GPT-6 Astra Pro：[完整证明](results/R150-appendix-essential-four-unit-three-plus-one-nonhalf-low-gradient-base-value-is-nonzero.md)根核原highest迫m=0而非仅用相容范数、两原mean分支及每一除数；run44737090302全部QQ恒等式通过。得到T、n0、m均非零，为同一原一般图提供合法除数；q0仍独立待核，不新增充分性假设。
+
+## 2026-11-20 12:40:01 UTC — Astra-ISP-b2a9acde-20261120：短批次13保原源修运行阻塞
+AI-assisted GPT-6 Astra Pro：q0保持180秒，以QQ(κ)二元商代数逐乘约减修原展开瓶颈；rankV1两源只用operator.index修fmpz指数JSON，保所有原QQ矩与固定结式门，另加3+1+1新支。旧失败身份完整保留；gamma0/n0成功源不重跑，四任务独立。

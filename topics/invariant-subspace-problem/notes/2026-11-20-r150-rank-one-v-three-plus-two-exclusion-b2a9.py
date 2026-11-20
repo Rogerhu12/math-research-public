@@ -29,6 +29,7 @@ import resource
 import signal
 import time
 from pathlib import Path
+from operator import index
 
 MODULUS = 1009
 K = [
@@ -53,7 +54,7 @@ def digest(obj):
 
 def prec(poly):
     d = poly.to_dict()
-    return [[list(e),str(d[e])] for e in sorted(d)]
+    return [[[index(a) for a in e],str(d[e])] for e in sorted(d)]
 
 def phash(items):
     return digest([prec(p) for p in items])

@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-# Author: Astra-ISP-b2a9acde-20261120 / r150_structure and root; AI-assisted GPT-6 Astra Pro.
 """Original QQ verification for q=0, alpha!=0 in the nonhalf unit3+1 chart.
 AI-assisted research: Astra-ISP / r150_structure.
 Only exact expansions, quadratic remainders and univariate QQ gcds.
@@ -74,53 +73,84 @@ Sn=(k+1)*u*u+u+k
 eq((k+2)*Sn+D,Q)
 print("PASS complete mean factorization and Db=0 boundary",flush=True)
 
+# Keep every operation in the two-dimensional quotient over QQ(kappa).
+# In particular, never expand the degree-seven point compatibility into
+# generic SymPy rational expressions before taking the quadratic remainder.
 field=S.QQ.frac_field(k)
-def quadratic_reducer(rel):
-    pr=S.Poly(rel,u,domain=field)
-    def red(z):
-        return S.rem(S.Poly(clean(z),u,domain=field),pr).as_expr()
-    return red
-def norm_of(z,red,L,M):
-    z=S.Poly(red(z),u,domain=field)
-    aa=z.nth(0);cc=z.nth(1)
-    return clean(aa*aa+L*aa*cc-M*cc*cc)
-def qq_numerator(z):
-    return S.Poly(S.fraction(clean(z))[0],k,domain=S.QQ)
-def sources_in_quad(bb,xx,rel):
-    red=quadratic_reducer(rel)
-    sb={b:bb,x:xx}
-    pp,nn,ss,nt,cc=[red(z.subs(sb,simultaneous=True))
-                    for z in [p0,n0,ps,ns,c1]]
-    chi=red(nn**3*ss**2-nt**3*pp**2)
-    return red,cc,chi
+fz=field.zero;fo=field.one
+fk=field.from_sympy(k)
+def fr(z):return field.from_sympy(S.sympify(z))
+original=[S.Poly(z,b,x,k,domain=S.QQ) for z in [p0,n0,ps,ns,c1]]
+maxexp=[max(e[i] for pp in original for e,_ in pp.terms()) for i in range(3)]
+
+def quotient_sources(bb,xx,L,M):
+    def add(v,w):return (v[0]+w[0],v[1]+w[1])
+    def neg(v):return (-v[0],-v[1])
+    def mul(v,w):
+        z=v[1]*w[1]
+        return (v[0]*w[0]+M*z,v[0]*w[1]+v[1]*w[0]+L*z)
+    def power(v,n):
+        out=(fo,fz)
+        while n:
+            if n&1:out=mul(out,v)
+            n//=2
+            if n:v=mul(v,v)
+        return out
+    bases=[bb,xx,(fk,fz)]
+    powers=[]
+    for v,degree in zip(bases,maxexp):
+        line=[(fo,fz)]
+        for _ in range(degree):line.append(mul(line[-1],v))
+        powers.append(line)
+    values=[]
+    for pp in original:
+        ans=(fz,fz)
+        for ee,cc in pp.terms():
+            term=(fr(cc),fz)
+            for i,j in enumerate(ee):term=mul(term,powers[i][j])
+            ans=add(ans,term)
+        values.append(ans)
+    pp,nn,ss,nt,cc=values
+    chi=add(mul(power(nn,3),power(ss,2)),
+            neg(mul(power(nt,3),power(pp,2))))
+    def norm(v):
+        aa,dd=v
+        return aa*aa+L*aa*dd-M*dd*dd
+    return norm(cc),norm(chi)
+
+def numerator_poly(z):
+    return S.Poly(z.numer.as_expr(),k,domain=S.QQ)
 
 # Q=0 component. k, k+1 and k+2 have already been excluded geometrically.
-L=-2/(k+1)
-M=-(k*k+k+2)/((k+1)*(k+2))
-red,cc,chi=sources_in_quad(-1/(2*k*(k+2)),u/(2*k),u*u-L*u-M)
-nc=norm_of(cc,red,L,M);nh=norm_of(chi,red,L,M)
+L=fr(-2/(k+1))
+M=fr(-(k*k+k+2)/((k+1)*(k+2)))
+nc,nh=quotient_sources((fr(-1/(2*k*(k+2))),fz),
+                       (fz,fr(1/(2*k))),L,M)
 H10=(k**10+11*k**9+49*k**8+99*k**7+125*k**6+175*k**5
      +226*k**4+152*k**3-32*k*k-48*k+32)
-eq(nc,9*(k+1)*H10/(256*k**12*(k+2)**9))
-gc=S.gcd(qq_numerator(nc),qq_numerator(nh)).monic()
+assert nc==fr(9*(k+1)*H10/(256*k**12*(k+2)**9))
+gc=S.gcd(numerator_poly(nc),numerator_poly(nh)).monic()
 assert gc==S.Poly(k+1,k,domain=S.QQ),gc
-print("PASS Q component: original-source norm gcd=kappa+1",flush=True)
+print("PASS Q component: original-source quotient norms and gcd=kappa+1",
+      "seconds",round(monotonic()-started,3),flush=True)
 
-# u^2+1=0 component: handle k^2+4=0 before rationalizing the weight.
-redI=quadratic_reducer(u*u+1)
-eq(redI(D.subs(k,2*u)))
-eq(redI(D.subs(k,-2*u)),4*(u+1))
-eq(redI((u-1)*(k*k+4)-(k+2*u)*D))
+# u^2+1=0: handle k^2+4=0 before rationalizing the weight.
+def small_red(z):
+    return S.rem(S.Poly(S.expand(z),u,domain=S.QQ.frac_field(k)),
+                 S.Poly(u*u+1,u,domain=S.QQ.frac_field(k))).as_expr()
+eq(small_red(D.subs(k,2*u)))
+eq(small_red(D.subs(k,-2*u)),4*(u+1))
+eq(small_red((u-1)*(k*k+4)-(k+2*u)*D))
 ce=S.rem(S.Poly(c1.subs({b:-S.Rational(1,16),x:-S.Rational(1,4)},
                        simultaneous=True),k,domain=S.QQ),
          S.Poly(k*k+4,k,domain=S.QQ)).as_expr()
 eq(ce,-243*(k+4)/65536)
 assert S.gcd(S.Poly(ce,k,domain=S.QQ),
              S.Poly(k*k+4,k,domain=S.QQ)).degree()==0
-red,cc,chi=sources_in_quad((k+2*u)/(2*k*(k*k+4)),u/(2*k),u*u+1)
-nc=norm_of(cc,red,0,-1);nh=norm_of(chi,red,0,-1)
-eq(nc,45*(k*k+1)**4*(5*k*k+8*k+4)/(128*k**12*(k*k+4)**4))
-gc=S.gcd(qq_numerator(nc),qq_numerator(nh)).monic()
+nc,nh=quotient_sources((fr(1/(2*(k*k+4))),fr(1/(k*(k*k+4)))),
+                       (fz,fr(1/(2*k))),fz,-fo)
+assert nc==fr(45*(k*k+1)**4*(5*k*k+8*k+4)/(128*k**12*(k*k+4)**4))
+gc=S.gcd(numerator_poly(nc),numerator_poly(nh)).monic()
 assert gc==S.Poly((k*k+1)**4,k,domain=S.QQ),gc
 ce=S.rem(S.Poly(c1.subs({b:-S.Rational(1,6),x:-S.Rational(1,2)},
                        simultaneous=True),k,domain=S.QQ),
@@ -128,7 +158,7 @@ ce=S.rem(S.Poly(c1.subs({b:-S.Rational(1,6),x:-S.Rational(1,2)},
 eq(ce,-(3*k+11)/27)
 assert S.gcd(S.Poly(ce,k,domain=S.QQ),
              S.Poly(k*k+1,k,domain=S.QQ)).degree()==0
-print("PASS u^2+1 component: original-source norm gcd and both exceptional returns",
-      flush=True)
+print("PASS u^2+1 component: original-source quotient norms and both exceptional returns",
+      "seconds",round(monotonic()-started,3),flush=True)
 print("ALL PASS: unit3+1 nonhalf alpha-nonzero q-zero sources",
       "seconds",round(monotonic()-started,3),flush=True)
