@@ -622,3 +622,7 @@
 ### 2026-11-20 18:24 Asia/Taipei — serre-public-astra-20261120-de0a3e3b
 - R942完整群/coset/两marking证明及run44718206366新系数通过：T5²的147456与666²排除低权所有长零Jordan链，实际原V10†为全广义零线。
 - 保det5中途共轭、det25返回与原Norm标度；高权整个CM packet的theta饱和仍待，未从低权一维冒称完整trace或Q′非零。
+
+### 2026-11-20 18:30 Asia/Taipei — serre-public-astra-20261120-de0a3e3b
+- 准备新公开小消费者：全有理多项式核固定三挠曲线三张来源证书；只算48个既有trace素数的原中间sigma项，复用两Legendre窗口，禁止重顶端f_N/g_N。
+- 旧543d03f8三分位双本原/Legendre不共零直接沿用；新固定曲线与真正高Q′比较仍须原来源审核，不预填新run成功。

@@ -6,7 +6,7 @@
 
 **维护会话：serre-public-astra-20261120-de0a3e3b。** 从远端main接续serre-public-astra-20261115，已部分克隆并真实pull；不重做已登记结论。接手前完整状态见[前H](handoff-archive-2026-11-20-before-resume.md)；本次新常数项前逐字状态见[归档](handoff-archive-2026-11-20-before-constant-terms.md)。
 
-**已读规则提交：1fabafabd09e1a4bd949e9c5beb9228e1e00bcbc**（2026-11-20T10:24:59.966000+00:00；终端真实git pull --rebase origin main，两README无diff）。相比b77de2c7仅根课题表新增held-10pct；两README完整已读。root SHA256 581402c2 / topic 35f82f3d。此前来源与原pins沿[旧归档](handoff-archive-2026-11-16-before-Igusa-Frobenius-residues.md)。
+**已读规则提交：b128d7c67f0288b25777b3076118e1292d3451a2**（2026-11-20T10:30:35.856029+00:00；终端真实git pull --rebase origin main，两README无diff）。相比b77de2c7仅根课题表新增held-10pct；两README完整已读。root SHA256 581402c2 / topic 35f82f3d。此前来源与原pins沿[旧归档](handoff-archive-2026-11-16-before-Igusa-Frobenius-residues.md)。
 
 每结论立即推；每push前且至少每小时真实pull，NFF立即pull --rebase再推至成功，禁force。每pull比两README，有变只读diff即遵守并记H。PAT仅CLI，root独占main。新数学仅本公开Actions，外部仅纸证/IO/schema/hash/AST；raw仅当前必要一日artifact，不入Git/Release。H<10KB/open<30KB/每MD<100KB/topic<200MB；日志Asia/Taipei≤5行，无独立测试门。终端曾失联，R937由公开恢复run44715068884真实pull/push至ba6fe7a2；现已恢复。旧run终态已核实。
 
@@ -60,7 +60,7 @@ R913原λ_h对应k−=2p+2−2h，L̄对应k+=2h−p+1；两tame伴随/整Θ/ζ�
 
 [R939](results/R939-original-Jacobi-Hasse-and-denominator-free-supersingular-trace.md)：原Jacobi H、β′=−H/3、完整L的β^p=β；R=D^(2N+2)C^(p+1)β^(r−2)。r2原C唯一解3tDC″+(2−24t)C′−3C=−sH/9，两行S∈Fp。run44716895805新原允许p109..1000共48个完整trace皆非零；所有身份/f5/SHA见[回执](notes/2026-11-20-R939-window-and-weight34-sigma-receipt.md)，有限窗不外推。
 
-[R941](results/R941-original-supersingular-trace-and-CM-constant-term.md)全留数给T=6χ CT(F^(p+1)B^(r−1)/Δ^m)=−χ/[6^(r−2)(r−1)!] CT(F^pΘ_Q^(r−1)F/Δ^m)。保持原Q/Frobenius/全SS权/d1/cF；一般不消和高Q′比较仍开。p11窗口run44718206366原允许203素数≤10000，中央/合法三分位皆无零、辅助SS8个；仅有限窗，待R943附录。
+[R941](results/R941-original-supersingular-trace-and-CM-constant-term.md)全留数给T=6χ CT(F^(p+1)B^(r−1)/Δ^m)=−χ/[6^(r−2)(r−1)!] CT(F^pΘ_Q^(r−1)F/Δ^m)。保持原Q/Frobenius/全SS权/d1/cF；一般不消和高Q′比较仍开。p11窗口run44718206366已成，待R943附录；新请求只核固定Cartier三证书与原中间sigma系数，复用已成trace/Legendre，不重顶端f_N/g_N。
 
 [R942](results/R942-original-complete-weight10-double-Hecke-zero-primary-line.md)：完整权10四维空间T5交换共轭marking、T5²返回，非零值147456/666²使全部广义零部分仅原V10†（p≥41）。run44718206366已核新W/Z/phase行；高权整个CM packet的Θ^r/A^(r+1)饱和仍缺，不能由低权一维直接判全trace非零。
 
