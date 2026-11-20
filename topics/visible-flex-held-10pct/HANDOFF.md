@@ -6,7 +6,7 @@
 
 连通闭C²嵌入连续族；固定有内点H、diamH≥.2D；整像δhold≥.1D、含反射的δE>0；全时reach≥.03D。固定全部g/物理参数/时间范围，完整metric≤1e−6且空间/频率/时间精化下降至求解/机器地板。条件比例窗、开放前缀、有限接受均非完成；完成后继续增大比例。
 
-- 工作树 `/workspace/scratch/1b6d88ecddf3/math-research-public`；已部分克隆并真实pull。已读规则提交：`3beffda987e8c53ff8931e4becbee74aefcf0dd7`；API差异核对双README无变化。最后真实pull为09:48 UTC到c9db159ff；本次API比较不冒充pull。环境恢复后先pull，随后至少每小时核规则。
+- 工作树 `/workspace/scratch/1b6d88ecddf3/math-research-public`；已部分克隆并真实pull。已读规则提交：`e322d609cf9df9dde31cf51b31ecbcb132bdb69d`；API差异核对双README无变化。最后真实pull为09:48 UTC到c9db159ff；本次API比较不冒充pull。环境恢复后先pull，随后至少每小时核规则。
 - root独占终端git发布。每条结论同步H/log并立即push；NFF即pull --rebase、核双README并重推，禁force。首次接手提交d75355cbd已推。
 - 根§12：不重复旧身份审计/双审流程，优先实际求解。根§15：可再生场、网格、矩阵/输出不入Git/Release/CI；只留源/参数/命令/hash和紧凑数值。H<10KB，单MD<100KB，目录<200MB，不写根LOG。
 - `/workspace/scratch/7322d0dee069`明确不存在。旧91205(λ.82)/27744(M24)终态未知；新再生不是原进程续接，也不把丢失路径判为数学失败。完整旧断点见882aa9b74的H及[中断记录](notes/2026-11-18-execution-environment-interruption-recovery.md)。
@@ -15,7 +15,7 @@
 
 **可搬迁恢复已实现。** `resume_m3/portable_bootstrap.py`按原manifest恢复70文件、既有sparse-v2与原物理port/chart；不依赖旧launch-plan。新chart有自身hash，不冒充旧数组。`portable_prefix_solve.py`先保存raw再做后处理，保原物理方程/域门/真尾/8outer；旧q060冷启动在原RMS附加点失败，只是必要再生路径失败。已加入原五点域检查，见[完整命令与观察](notes/2026-11-20-m3-portable-recovery-and-material-entry.md)。
 
-**新材料曲率核心。** `resume_transfer/material_curvature_core.py`在单位材料弧长直接给常曲率圆弧，所有补弧控制积分为零；位置为分片真积分的数值评价，未投影的reference lift保留。q/c是材料曲率参数，不是旧支撑Fourier系数。m3 `material_core_factory.py`已接完整参数jets；首q=.01/M8已失败（3698点/RMS3.7868），终态节点Frenet正但不是连续证书；控制单位校正/7列Jac诊断及82514未知状态见[终态记录](notes/2026-11-20-m3-material-first-terminal-and-cosine-entry.md)。转可解余弦→材料曲率同伦。n4首q=.01/M12已失败（2845点/RMS2.85166），139拒均原曲率三角守卫；实际32768点κ∈[.85,1.11752]。独立v2保1e−5曲率门、用解析κ二阶导插值余项收紧数值界（非outward证书），新q=.02/M8已真实Frenet密点失败（root约−.0271771），转旧高度锚恢复。见[n4完整终态](notes/2026-11-20-n4-recovered-environment-and-new-entry.md)与[守卫定义](notes/2026-11-20-material-core-curvature-adaptive-guard.md)。0新真尾/闭合预认，运行源冻结。
+**新核心首跑已终态。** 材料κ参数不同于旧支撑系数。m3首q=.01/M8失败3698点/RMS3.7868；控制单位/节点Frenet与7列Jac诊断见[m3终态](notes/2026-11-20-m3-material-first-terminal-and-cosine-entry.md)。n4首q=.01/M12失败2845点/RMS2.85166，139拒全为过松κ三角界；独立v2保1e−5门并用解析插值余项收紧数值界（非outward证书），q=.02/M8仍密点Frenet失败root≈−.0271771，见[n4终态](notes/2026-11-20-n4-recovered-environment-and-new-entry.md)。0新真尾/闭合。原源/新源分别冻结。
 
 **n4必要恢复。** 已由原M20紧凑20参数/19尺度重建同profile/raw核，线性port冷场再生18524最后二网格、终态未知；新两高度锚2919已启动后失联、终态未知（H4=−9.4227216659e−6/H8=−3.5119114617e−8，保sigma=−1）；不是旧真尾恢复。wCut=.16实体port已再生；原native CLI重编译SHA与旧一致，新的2CPU installer不依赖旧plan。m3/n4各自manifest作用域分开。源/实际入口/完整复现命令见[n4恢复](notes/2026-11-20-n4-recovered-environment-and-new-entry.md)。
 
@@ -39,7 +39,7 @@
 
 ## 已证结论与不可移用的边界
 
-[R1—R52索引](results.md)；此前完整历史摘要保留在[9288f266d的HANDOFF](https://github.com/Rogerhu12/math-research-public/blob/9288f266d1f242b594d70a714e20340fcb876023/topics/visible-flex-held-10pct/HANDOFF.md)，旧结论/失败不重算。
+[R1—R53索引](results.md)；此前完整历史摘要保留在[9288f266d的HANDOFF](https://github.com/Rogerhu12/math-research-public/blob/9288f266d1f242b594d70a714e20340fcb876023/topics/visible-flex-held-10pct/HANDOFF.md)，旧结论/失败不重算。
 
 - R1/R3/R4/R19/19A/R32/R38/R46：精确圆弧换握持条件窗，均要求实际二维刚体片、最终完整D/曲率/支撑/标记，不可借旧常数给新核。R5/R8/R9/R40只有局部传播与条件障碍，非全局不存在。
 - R28/R29/R31实际M16/64有限闭C²图全时metric<1e−6、D≤2.301491469394、reach≥.1、H径比>.69794、δE>0；held/D仅>.005462656。32→64尾metric降12.66倍，二阶层差.00629485，不证C²极限。不重复低幅铺盒。
@@ -47,6 +47,8 @@
 - R20/R22/R33/R34是有限主频/冻结矩下的圆弧障碍，不能因换坐标忽略。R35/42/43/44/45给有限控制空间、补迹/同伦；R47/48/49付高M lift/均值条件，R50端点C4稠密性无统一率/Jac逆/BVP。R51为真实法向主矩下的有符号圆心必要界，非10%排除。
 - R36/37/39/41是真积分与余项转移；R39的误差<5.940838571e−9仅在同对象有限主部过门时用，不偷移到新核心。
 - R52材料曲率新核：周长2π、凸闭合、精确圆弧/全参数jets；c>1/k−π/(n sinπ/n)。条件D≤2.65时n3(k=.2,S=.21)held>.1039D，n4(k=.2,S=.2)>.1172D。插柱D²≤D0²+4ℓZ0+ℓ²、支撑扣ℓ/2，首负K特征窗有有理界。完整BVP/固定g/标记仍缺，见[新核有限谱与窗](notes/2026-11-20-material-curvature-core-design-and-spectrum.md)。
+
+- R53从原真实单位弧长核心出发，κλ=κ0+λχ(k−κ0)+λβW精确保均值/闭合；λ0原核、λ1圆弧，完整参数jets已证。明确q∈[.0599,.0601]控制盒内整个(λ,τ)方形κ≥.2。有限源待实际执行；不证BVP沿路径可解、不消除R20障碍。
 
 ## 接着做
 
