@@ -1,0 +1,96 @@
+{
+  "identity": {
+    "kind": "R138_same_Qrepair_true_root_full_circle_mean_denominator_v1",
+    "source_sha256": "affc4dd2ead1e74ce91f3c87bbd2fb279c449758a70dfe427ade2b05077febd9",
+    "definition_source_sha256": "d152f31cef53c1d58099cf3d1f994d2dad9d31d6a75cb42a7d9e54a35c17ae79",
+    "candidate_sha256": "ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413",
+    "germ_sha256": "397f9b428c787823994f8c849ad7d1f9209220c3c6e8907b38be562b3cbc9864",
+    "object_sha256": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+    "repair_definition_sha256": "440866a368f68b472bc904c90fbe9862f2ff13e9f884ffced6a4819c04866a47",
+    "eta": "-7789843107295549/4611686018427387904",
+    "actual_nu": "-2572625729470897/72057594037927936",
+    "exact_root_interval": [
+      "1191984371497/5000000000000",
+      "2383968743003/10000000000000"
+    ],
+    "complete_angular_interval": "[0,2*pi]",
+    "cells": 8192,
+    "arithmetic_bits": 320,
+    "actual_periodic_frame_fee": "11/10000000",
+    "frame_at_zero": "X=e_z,Y=e_y,n=e_x; one proper ambient rotation",
+    "projection_vector": "ell=X(root,0)=local e_z"
+  },
+  "complete": true,
+  "proved": true,
+  "failure": null,
+  "completed_cells": 8192,
+  "current_target": null,
+  "original_scientific_calls": 0,
+  "old_axis_target_calls": 0,
+  "old_geometry_target_calls": 0,
+  "arrays_published": false,
+  "scope": {
+    "same_Qrepair_actual_periodic_frame": true,
+    "actual_mean_denominator_nonzero": true,
+    "actual_mean_denominator_positive": true,
+    "full_root_energy_positive": false,
+    "positive_inverse_proved": false,
+    "final_topic_complete": false
+  },
+  "completed_integral_prefix": {
+    "kind": "complete_decimal_ball_v1",
+    "midpoint_integer": "858121691573291287101517706970644893714487143214110869551979679154892561564",
+    "radius_integer": "4493694935361202693055580512997955174930222616679362366135434192019783681",
+    "decimal_exponent": "-75"
+  },
+  "coefficient_integral_prefix_upper": {
+    "kind": "complete_decimal_ball_v1",
+    "midpoint_integer": "961019454074446645876812486213084496363071452134386386649097974006652047096",
+    "radius_integer": "2",
+    "decimal_exponent": "-75"
+  },
+  "accumulated_frame_error_upper": {
+    "kind": "complete_decimal_ball_v1",
+    "midpoint_integer": "420459828191614102776444015523022760748211986707208066775734104189293723710",
+    "radius_integer": "2",
+    "decimal_exponent": "-77"
+  },
+  "seconds": 1.9066021130000053,
+  "ideal_mean_denominator": {
+    "kind": "complete_decimal_ball_v1",
+    "midpoint_integer": "858121691573291287101517706970644893714487143214110869551979679154892561564",
+    "radius_integer": "4493694935361202693055580512997955174930222616679362366135434192019783681",
+    "decimal_exponent": "-75"
+  },
+  "complete_mean_direction_coefficient_upper": {
+    "kind": "complete_decimal_ball_v1",
+    "midpoint_integer": "961019454074446645876812486213084496363071452134386386649097974006652047096",
+    "radius_integer": "2",
+    "decimal_exponent": "-75"
+  },
+  "actual_frame_transfer_fee": {
+    "kind": "complete_decimal_ball_v1",
+    "midpoint_integer": "105712139948189131046449373483439294599937859734782502531400777140731725180",
+    "radius_integer": "2",
+    "decimal_exponent": "-80"
+  },
+  "actual_mean_denominator": {
+    "kind": "complete_decimal_ball_v1",
+    "midpoint_integer": "858121691573291287101517706970644893714487143214110869551979679154892561563",
+    "radius_integer": "4494752086473044587234950888639350779647447765370766928251482779190034433",
+    "decimal_exponent": "-75"
+  },
+  "maximum_complete_cell_connection_error_upper": {
+    "kind": "complete_decimal_ball_v1",
+    "midpoint_integer": "98025253616729665930908429674936642159963648665732203987549712510473788158",
+    "radius_integer": "2",
+    "decimal_exponent": "-77"
+  },
+  "complete_frame_error_upper": {
+    "kind": "complete_decimal_ball_v1",
+    "midpoint_integer": "420459828191614102776444015523022760748211986707208066775734104189293723710",
+    "radius_integer": "2",
+    "decimal_exponent": "-77"
+  },
+  "strict_sign_uses_complete_saved_decimal_ball": true
+}
