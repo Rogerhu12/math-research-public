@@ -348,3 +348,5 @@
 - **R150 单位四jet加孤立零点的rankH4为空（2026-11-20，已证明）：** [全原源、例外支及精确Q消去](results/R150-appendix-essential-four-unit-four-jet-isolated-zero-rank-four-branch-is-empty.md)逐项施加完整mean四式、最高前三阶及N基点，关闭B/A/C零分支；regular只余原H6/M8，run44722024572精确六步gcd1。原日志已取，源/参数/SHA保留，计算余式不存。divisor4+1两种rank4放置全闭，split单位补支另解。
 
 - **原整个Deddens代数的最优成本有限头近似（2026-11-20，已证明）：** [同尾输入、正负共轭两段与完整端点预算](results/R12-appendix-full-deddens-algebra-optimal-cost-finite-head-approximation.md)给c(tril E_m X)≤(1+2δ_m)c(X)，δ_m→0；规范后固定最优成本球内SOT逼近。全部有限输入的该成本球像弱紧，恰是同成本有限头像的norm闭包，有限最小插值成本可达。保实际负幂域，不宣任意目标可行或自动Π连续。
+
+- **有限共轭平均在同一成本球上的强不连续反例（2026-11-20，已证明）：** [原高位、共同细头及准确方差证明](results/R12-appendix-finite-conjugation-average-discontinuity-at-uniform-cost.md)构造真有限头B_m，普通norm→0且c≤2，但ΠB_m SOT→−I/4；缩放给c≤8而Π趋I。高位同输入方差为‖f‖²/(4m)，全部归一/截断误差实付。只关闭统一成本下的自动平均连续化，不动特选交换子双逼近。

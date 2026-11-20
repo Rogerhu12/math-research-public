@@ -132,3 +132,5 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 **[unit四jet加孤立零点的rankH4整支已空](results/R150-appendix-essential-four-unit-four-jet-isolated-zero-rank-four-branch-is-empty.md)。** B=0、B≠0/A=0、regular及C=0除法边界全部由原mean/highest/N处理；regular的H6/M8原必要多项式由run44722024572/job136239897518精确整数pseudo-remainder六步得到Q gcd1。保源码、输入、运行/SHA，不保存计算余式。divisor4+1两种rankH4缺陷放置全闭；isolated zero的split单位长度4仍开。
 
 **[全D_A最优成本有限头化已闭](results/R12-appendix-full-deddens-algebra-optimal-cost-finite-head-approximation.md)。** 原上三角块全尾norm≤c α_m/β_(N−1)，成本零端点的两段分别用无carry的Φ^q和Φ^(q−N)保持同一尾常向量；另一端点跨段仅δ_m c。故tril E_m(X)成本≤(1+2δ)c(X)，规范后逐项最优c、SOT趋X。固定成本球的有限输入像弱紧且恰为有限头像norm闭包，若精确插值成本有限则能达到。继续变化来源的具体最优费用，不假任意目标可行或平均连续。
+
+**[有限Π在统一成本球上仍强不连续已闭](results/R12-appendix-finite-conjugation-average-discontinuity-at-uniform-cost.md)。** 原E_j=A_(j+1)^(2^j)/d_j与更细A_M幂同cost≤1、均近N_j，但Π分别为N_j/2及(1−2^j/2^M)N_j。取同一大头和j=m,…,2m−1块平均，得到真实B_m的op范数→0、c≤2，而ΠB_m SOT→−I/4；同一个任意非零输入的极限失真明确。不能从全D最优逼近自动付Π插值，专门构造的交换子双逼近仍有效。

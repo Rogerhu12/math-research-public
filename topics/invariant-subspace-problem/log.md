@@ -529,3 +529,7 @@ AI-assisted GPT-6 Astra Pro：unit四jet/零单点的原mean、highest三阶和N
 ## 2026-11-20 10:53:09 UTC — Astra-ISP-b2a9acde-20261120：整个D_A的最优成本有限头化
 AI-assisted GPT-6 Astra Pro：根逐块核全尾上三角估计、零端点正/负共轭同尾输入和跨段α_m小量，完整c成本规范后无损；固定成本球有限插值像的弱紧/精确闭包亦付。
 正式稿见results/R12-appendix-full-deddens-algebra-optimal-cost-finite-head-approximation.md。变化来源目标的可行费仍开，平均不连续另有明确反例待登记；旧H全快照。
+
+## 2026-11-20 10:53:53 UTC — Astra-ISP-b2a9acde-20261120：统一成本仍不能自动平均保输入
+AI-assisted GPT-6 Astra Pro：根提出并独核高位块强化，E_j与共同细头归一化幂之差op→0、c≤2，Π像却SOT→−I/4；准确同输入方差及共同头两个误差预算全付。
+证明见results/R12-appendix-finite-conjugation-average-discontinuity-at-uniform-cost.md。不与c成本收缩或特选交换子双逼近矛盾；继续实际变化来源费用，不再使用自动平均连续化。
