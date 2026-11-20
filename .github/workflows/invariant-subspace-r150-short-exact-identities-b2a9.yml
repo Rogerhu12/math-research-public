@@ -44,5 +44,7 @@ jobs:
           print('ISP_PULL_RECEIPT '+json.dumps(receipt,sort_keys=True),flush=True)
           if not receipt['rulesUnchanged']: raise SystemExit('README changed; root must read and follow the exact differences')
           PY
-          git show "$ISP_PIN:topics/invariant-subspace-problem/notes/2026-11-20-r150-unit-four-isolated-zero-gcd-b2a9.py" > "$RUNNER_TEMP/isp-r150-unit-four-gcd.py"
-          timeout 20s python "$RUNNER_TEMP/isp-r150-unit-four-gcd.py"
+          git show "$ISP_PIN:topics/invariant-subspace-problem/notes/2026-11-20-essential-four-unit-two-plus-one-double-zero-verify.py" > "$RUNNER_TEMP/isp-r150-unit-two-plus-one.py"
+          python -m venv "$RUNNER_TEMP/isp-r150-short-venv"
+          "$RUNNER_TEMP/isp-r150-short-venv/bin/python" -m pip install --quiet sympy==1.13.3 mpmath==1.3.0
+          timeout 120s "$RUNNER_TEMP/isp-r150-short-venv/bin/python" "$RUNNER_TEMP/isp-r150-unit-two-plus-one.py"

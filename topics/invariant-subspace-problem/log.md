@@ -533,3 +533,6 @@ AI-assisted GPT-6 Astra Pro：根逐块核全尾上三角估计、零端点正/�
 ## 2026-11-20 10:53:53 UTC — Astra-ISP-b2a9acde-20261120：统一成本仍不能自动平均保输入
 AI-assisted GPT-6 Astra Pro：根提出并独核高位块强化，E_j与共同细头归一化幂之差op→0、c≤2，Π像却SOT→−I/4；准确同输入方差及共同头两个误差预算全付。
 证明见results/R12-appendix-finite-conjugation-average-discontinuity-at-uniform-cost.md。不与c成本收缩或特选交换子双逼近矛盾；继续实际变化来源费用，不再使用自动平均连续化。
+
+## 2026-11-20 10:59:00 UTC — Astra-ISP-b2a9acde-20261120：unit2+1原梯度精确源与短运行
+AI-assisted GPT-6 Astra Pro：提交原QQ重建/三univariate gcd的源码与参数，请求sequence2；调整本课题共享workflow以运行该新源并先做真实pull/两README差异守卫，旧unit4不重跑。无数据/证书工件，结果尚待原运行；H全文快照后压缩，继续未闭分支。

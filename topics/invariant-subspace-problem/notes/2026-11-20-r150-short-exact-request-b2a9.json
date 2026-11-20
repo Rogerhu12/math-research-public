@@ -1,10 +1,14 @@
 {
   "format": "isp-r150-short-exact-request-v1",
-  "sequence": 1,
+  "sequence": 2,
   "session": "Astra-ISP-b2a9acde-20261120",
-  "createdUtc": "2026-11-20 10:46:04 UTC",
-  "task": "Exact rational gcd for original unit-four / isolated-zero branch",
-  "sourcePath": "topics/invariant-subspace-problem/notes/2026-11-20-r150-unit-four-isolated-zero-gcd-b2a9.py",
+  "createdUtc": "2026-11-20 10:59:00 UTC",
+  "task": "Exact QQ reconstruction of original gradients and gcd contradictions for unit-two-plus-one / double-zero rank-four branch",
+  "sourcePath": "topics/invariant-subspace-problem/notes/2026-11-20-essential-four-unit-two-plus-one-double-zero-verify.py",
+  "dependencies": {
+    "sympy": "1.13.3",
+    "mpmath": "1.3.0"
+  },
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
