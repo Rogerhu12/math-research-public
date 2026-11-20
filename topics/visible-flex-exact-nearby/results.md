@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R138更紧外端提升与截顶曲率能量](results/R138-supplement-sharper-outer-lift-and-capped-curvature-energy.md)：同完整外图的n∈4N两列先合并，环境频组正交并保mean，付ω_R≤(8/5)√B；原曲率证书授K≥min(46x,1/40)。两个能量方向先用Hilbert直和Minkowski，省原√2；给后继body H1/2消费式，根H2/3费用不冒领。root/joint独核、0新数/旧重算，实际body/根门仍待。
+
 - [R141原D边界lift与真正97+96外行门](results/R141-supplement-reference-boundary-lifts-and-physical-outer-block-gate.md)：原153 signed D/155panel/真root的右97及联合193输入，10个body/root97/outer96/atoms/complete norm新目标首次封包；同模两列先积signed Gram再abs，独立mean与Theta一次保全。79当前/21原件、39字段25门整审；未来完整低逆与实际GH接内部body门，再接真正2×2正矩阵外行判据，实际门未宣称通过。
 
 - [R138根型完整源消元与轴坐标凹性](results/R138-supplement-root-source-elimination-and-concave-finite-gate.md)：准确分部积分消直接H×ω交叉，保两份mean并给完整H^-1/3源常数Cmov；还须实际齐次λ>0。逆乘子压缩的shorted变分给(q,s)矩阵凹性，完整原轴球可用四顶点包络；非实际顶点先作even-fourfold主系数投影。root/joint核证明，0新数，不授根正性或body门。
