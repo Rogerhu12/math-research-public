@@ -6,7 +6,7 @@
 
 **维护会话：serre-public-astra-20261120-de0a3e3b。** 已部分克隆并真实pull main，接手serre-public-astra-20261115。最新前态逐字在[H归档](handoff-archive-2026-11-20-before-conjugate-primitive.md)与[open归档](open-archive-2026-11-20-before-conjugate-primitive.md)，内接全部旧pins/公式/关闭边界。只消费已成来源，不重做已登记结论。
 
-**已读规则提交：4743949b93e45c6d0850ea2807362a6732c32af0**（2026-11-20T10:55:33.735408+00:00；终端真实git pull --rebase origin main，两README无diff）。相比b77de2c7仅根课题表新增held-10pct；两README完整已读。root SHA256 581402c2 / topic 35f82f3d。此前来源与原pins沿[旧归档](handoff-archive-2026-11-16-before-Igusa-Frobenius-residues.md)。
+**已读规则提交：c337bff0c9ee1607619d9fd9c8c5418b58618933**（2026-11-20T10:58:48.063559+00:00；终端真实git pull --rebase origin main，两README无diff）。相比b77de2c7仅根课题表新增held-10pct；两README完整已读。root SHA256 581402c2 / topic 35f82f3d。此前来源与原pins沿[旧归档](handoff-archive-2026-11-16-before-Igusa-Frobenius-residues.md)。
 
 每结论立即推；每push前且至少每小时真实pull。NFF立刻pull --rebase再推循环成功，禁force。每pull检查两README，有变只读diff并立即执行，SHA记此。PAT仅CLI，不入文件/提交，root独占main。新数学仅本公开仓库Actions；外部只纸证/IO/schema/hash/AST。raw不入Git/Release，本轮只/tmp和stdout。H<10KB、open<30KB、每MD<100KB、topic<200MB；log用Asia/Taipei≤5行，不写根LOG，不设额外审批/测试门。
 
@@ -23,6 +23,8 @@
 [R945](results/R945-original-central-sigma-zeros-and-same-label-alternatives.md)：run44719847377及独立44720732478/source2ca40e872成功。p227/h115的f18=0,g18=136；p857/h433的f71=176,g70=0。中央Legendre单位而完整S=95/568非零，原Q′恰零。**无例外中央单位桥已被反例排除**，不否定充分大p/有限例外或Serre。两q2的积101/335单位，中心阶恰2；scalar/w的pR0根可仍为0。实际替代227/h151 sigma16配旧Legendre单位；857/h445新Legendre298乘旧sigma187为21，R940给Q′单位。旧48窗/trace/顶端/Legendre不重算。
 
 [R946](results/R946-universal-Bol-divisibility-and-final-supersingular-obstruction.md)：fine全六任意2≤r≤p−2，整个S_(p+1−r)有T^r=6^rA^rD_r；原下降保中心parity/双角色。最后一A恰由O_r=(D_rH/B)|SS控制。SS完整商含S_w对偶及真实CM支撑，不能用支撑杀整商；具体O像仍开。若饱和真成立，R918/R942低权广义零线才给原trace非零，仍不推中央Q′。
+
+[R951](results/R951-Bol-concomitant-and-supersingular-obstruction-symmetry.md)：实际J_r=δO_r的完整SS配对ΣD_rH·H′/B²由显式Bol concomitant给(−1)^r对称性；原偶r为对称。命名F在两radical，不迫全packet消失；J零也只让O落M_r，非原R932泛函。
 
 [R947](results/R947-original-low-weight-conjugate-primitive-and-singular-Igusa-projection.md)：命名原F有完整theta周期。W=6Z+6^(r+1)r!Gtilde σ^r/A^p给∇W=ΩV，全部SS极部恰−V_P B_P^(p−r−2)σ^r/((r+1)A^p)。换帧/Čech/Hodge过滤证明zV非零；其对角p次方=−ΣV_P^(p+1)/B_P^(r+2)/(r+1)，对角非零现由R950真实isogeny/双marking伴随、tame平均及R918/R942完整低权线证明，不用F_r注入。原投影PΩ=6ΦV、PZ=G/a^(rp)、PΨ=0，恢复ΦV=d(G/a^(rp))；P在SS极阶rp并杀水平主部，原高权极部来自正则剩余项，不能忽略这个边界。
 

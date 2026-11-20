@@ -52,6 +52,8 @@ $$
 $$
 表明最后商含真实CM支撑，不能借Serre-weight支撑杀整个商。实际任务只是、也必须是具体O像消失。[支持注](notes/R946-Hecke-localization-and-theta-saturation.md)已证w<p时全theta注入，所以若此饱和成立，R918/R942才可把完整高权packet压到原线，继而真正推出λ(F)非零。抽象乘性一、Gorenstein、完美配对或唯一eigenline都不够。
 
+[R951](results/R951-Bol-concomitant-and-supersingular-obstruction-symmetry.md)已识别J_r=δO_r的全SS配对ΣD_rH·H′/B²。形式伴随与完整concomitant证明交换变量为(−1)^r；原r2/8是对称，命名F在两radical，但不能因此杀整个CM packet。证明明确处理∂(AB)=B²−A²E4/144，不能把AB当水平。即使J_r(M_CM)=0也只把O像放到M_r|SS，还须处理这个真实核。
+
 ## O3：固定低权cohomology与原Igusa投影的边界
 
 [R944](results/R944-original-CM-Gauss-Manin-homotopy-and-supersingular-principal-parts.md)给原fine base上

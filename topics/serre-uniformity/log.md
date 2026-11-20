@@ -658,3 +658,7 @@
 ### 2026-11-20 18:55 Asia/Taipei — serre-public-astra-20261120-de0a3e3b
 - R949以完整Jacobi/heat/指定2同源证明全部i的原sigma–CM标记商恒等式，原positive embedding、2^kζ²、Ω/E6与−1/864符号全保；Wagner Prop4.9原文已核。
 - 不声称modp单位；首p范围的实际f_i同零现可搬成准确CM评价。继续互补g族、原高SS/Cartier与height，H旧结果链接压缩到已有索引。
+
+### 2026-11-20 18:58 Asia/Taipei — serre-public-astra-20261120-de0a3e3b
+- R951以显式Bol concomitant和全部SS留数证明真实J=δO配对的(−1)^r对称性，非水平AB修正完整保留；原偶r为对称。
+- 命名F在两radical不等于whole packet消失；下一条继续将具体O识别为实际Cartier及其全packet长链，非抽象支撑捷径。
