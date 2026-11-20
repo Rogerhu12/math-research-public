@@ -5,13 +5,13 @@
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近实际部分克隆/pull及已读规则提交：`2f05f87f025570b6d3970c267fd593408d9333ec`；2026-11-20 14:48:39 UTC 实际pull --rebase，两README相对c5ed1a50差异为空；下一次最迟一小时内。
+- 最近实际部分克隆/pull及已读规则提交：`2e83c285fea7516316f414f88157b0b38c8a2e71`；2026-11-20 14:57:44 UTC 实际pull --rebase，两README相对6329adde差异为空；下一次最迟一小时内。
 - 仅写公开main；每条完整结论即提交，推前pull --rebase；非快进循环，不强推、不存令牌。数学只在公开Actions执行；重算输出不入库/Release、不分块，只存源/args/run/hash。
 - H<10KB、MD<100KB、open尽量<30KB、文件<5MB、题≤200MB；log每轮≤5行，不写根LOG。规则已读未变。
 
 ## 完整检查点与当前分工
 
-[最新完整H](notes/2026-11-20-handoff-before-complete-low-P-reader.md)逐字保全部旧条件、源/run/hash及归档链；入口[results](results.md)、[R901–950索引](notes/PROOF-INDEX-R901-R950.md)、[open](open.md)；旧已付项的完整链接保该检查点。root唯一metadata/ref写者并整合公开门；global续原ordinary/global底，deep续同P真实forcing，theta续四指定中央/边界并交叉审源码。四主门均保留；R364/R561/R654/R712及主目标仍开。
+[最新完整H](notes/2026-11-20-handoff-before-full-J-affine-gates.md)逐字保全部旧条件、源/run/hash及归档链；入口[results](results.md)、[R901–950索引](notes/PROOF-INDEX-R901-R950.md)、[open](open.md)；旧已付项的完整链接保该检查点。root唯一metadata/ref写者并整合公开门；global续原ordinary/global底，deep续同P真实forcing，theta续四指定中央/边界并交叉审源码。四主门均保留；R364/R561/R654/R712及主目标仍开。
 
 ## 第一门：同原映射、完整函数环与原shadow
 
@@ -57,16 +57,16 @@ R930原Y_j=t^{−(τ+j)}P在σ_t≥τ+m、ell≤s−h−m时给K1末m尾右逆�
 
 R932同因子合法提升给R930全四β1代表，ξ/C1/C2与移位保；同A_b逆末m尾且ε²首响应单位(2u0/3ae0)b_v。仅需旧m0<s轴，受限S仍核全差格，不冒whole-coker左行。
 
-R934同P全J双jet为(−B|C,−11t^(r_src−2)w^(−s)F(t,g)^4/a−EB|C)；B保原P/R_b两真除p读数，真左行forcing≤15项。仅B∈H3分支τ0/1低行失败、τ≥d0+2双jet类零；其余≤13项仍须同H1/受限S原像，不默删B。
+R934完整固定双jet与B真除p输入、低行失败及≤13项forcing见原节；B不得删。R936/937只排各自实际已识别的陪集，同H1之后受限S全p³门独立。
 
-[R925§23](results/R925-original-ys-affine-rings-and-complete-divisor-ideals.md)：原P152/mixedF144完整低核由RR严格全局生成，J/J0两图全A理想准确给拉回厚除子；同子集全曲线长度2256/1080认证早停且余行全回代。端点配对N=(2/vnew)A+B同时付真零理想；两组各达标才返complete_divisor。当前须先补全核读者，未动运行或冒PASS。
+R925§23原P152/mixedF144完整低核由RR全局生成；两图全A理想与同子集全曲线长度2256/1080、配对N=(2/vnew)A+B严格付真正零极，全部余行须返回。P读者见§25；mixedF仍需原cusp修正。
 
 [R935](results/R935-original-negative-fringe-all-correctors-budget-exclusion.md)：全原R/S的首法向与严格f0给d_D≥s+2；§7第二法向在d0+2≤τ<min(h,ell)读28首项并分C重数0/1/2。但当前2κ<T≤3κ的共同预算已被原P的d_D≥4κ+3r_src蕴含，不是新排除；真实H1/全余核及受限S继续。
 
 R931§11同原单位HNF，或§11.1真h=c·1 mod I，均付厚Res(detI,c)，值miss回全π层；R925§24全分母HNF逐306源行准确除法，完整返回gI，等价旧图核source=unit。两个独立helper均未接运行/无新PASS。
 
-[R936](results/R936-original-positive-horizontal-dual-and-fixed-quartic-value.md)：原正水平全H⁰(N³(−Z+))在K+e+>3κ时给确定λ+及完整Z商的唯一ν，真杀原T_J。2≤τ≤d0+1的同P评价为−11U*(0)/a−λ+((EB−3bB)|C)；已指定B∈H3才得单位非零、排该原陪集全p³。可进入旧T cutoff后≤12位条带，不排其它WD陪集。
+R936在K+e₊>3κ、2≤τ≤d₀+1给全T_J真左行，指定B∈H3时值−11U*(0)/a；一般B偏移必须保。R937在n+2e₊>3κ、d₀+2≤τ<min(h+2,ell)给原28单位与每个兼容G₀后同H1左行；τ=h/h+1严格窗已付，均不自动排全WD。
 
-[R937](results/R937-original-quadratic-horizontal-dual-and-same-H1-obstruction.md)：原Q+=(E−3b)(E−3b+1)沿完整2H+消失，n=h+τ−2且n+2e+>3κ给真四行左行。指定B∈H3、d0+2≤τ<min(h+2,ell)时值为原单位28ζ0^(−s)uhat0³e0/a；每个兼容G0后同ρ2杀全F²H1而残差不变。双jet已零仍排该陪集，τ=h/h+1精度保，一般B偏移不删。
+R937附A/B已付全部同q native Y_j（1≤j≤d₀−1）对这些固定行的零响应；β₁仍非零。给定H3加该族的陪集还可用J>3κ，或高τ的J+e₊>3κ且n+e₊>2κ：全真列构造左行、保H₊相继除F，仍读原单位并杀任意G₀后的全H1。其它WD的有限交点类定位正在继续。
 
 R925§25原P152全核两图零极读者已实现：全部原矩阵/两投影/P2Frob、j³及3114完整坐标、两符号2256/全余行/完整boundary保。仅r29静态核对，待公开运行，不代F或四E。

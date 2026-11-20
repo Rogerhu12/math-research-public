@@ -155,3 +155,5 @@
 - [R937](../results/R937-original-quadratic-horizontal-dual-and-same-H1-obstruction.md)：原Q+=(E−3b)(E−3b+1)沿完整2H+消失，n=h+τ−2且n+2e+>3κ给真四行左行。指定B∈H3、d0+2≤τ<min(h+2,ell)时值为原单位28ζ0^(−s)uhat0³e0/a；每个兼容G0后同ρ2杀全F²H1而残差不变。双jet已零仍排该陪集，τ=h/h+1精度保，一般B偏移不删。
 
 - [R925§25](../results/R925-original-ys-affine-rings-and-complete-divisor-ideals.md)：原P完整1226×1056/152核、两投影/旧首行/P2全Frob读者已存；同原M2/j³的完整3114坐标准确送两图N/D，两个符号分别2256早停后全部余行返回，最终完整boundary与schema保持。仅r29静态实现，未接运行或冒P/F/四E/shadow PASS。
+
+- [R937附A/B](../results/R937-original-quadratic-horizontal-dual-and-same-H1-obstruction.md)：同q全部合法native尾方向对两条固定行零响应；给定H3加该族的陪集在J>3κ，或高τ的J+e₊>3κ且n+e₊>2κ时，完整实际列与相继除F给非零单位左行，且每个兼容G₀后的同H1残差不变。β₁/一般B/其它WD及受限S保。
