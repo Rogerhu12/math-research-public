@@ -3,19 +3,19 @@
     "root": "581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102",
     "topic": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
   },
-  "rules_last_read_commit": "76c2294a5c276ffda82a0aba347565eec1912e36",
-  "execution_attempt": "R969 new full-level filtered Hasse-quotient span only; completed R967 request is not repeated.",
+  "rules_last_read_commit": "27b283086d6f5d8b328eb8e36552bc9cd6ec4b3d",
+  "execution_attempt": "R973 new balanced Kronecker coefficients only; completed R969 full-level span request is not repeated.",
   "computations": [
     {
-      "name": "original-full-level-filtered-Hasse-span-three-prime-consumer",
-      "script": "full_level_critical_hasse_span_three_prime_consumer.py",
-      "script_sha256": "5bb625faec68b4276677213e948456df188af75c94f1fab9121946088790445a",
+      "name": "original-balanced-Kronecker-four-prime-consumer",
+      "script": "original_balanced_kronecker_four_prime_consumer.py",
+      "script_sha256": "240a7053fb713b2084e84117182b70da92f8c75fb2870a6a7272b186719721df",
       "arguments": [
         "--budget-seconds",
-        "240"
+        "620"
       ]
     }
   ],
-  "runtime": "Python standard library; public repository Actions only",
-  "storage": "Stdout only; no artifacts or arrays. Fixed 113,131,227, full primitive and Legendre mask. Consume R945 products 0/16 at 227 only as new-source cross checks; no sigma or trace rescan. Report exact combination or normalized separating functional, preserving incomplete scope on failure."
+  "runtime": "Python plus python-flint==0.9.0; public repository Actions only",
+  "storage": "Stdout only; no artifacts or coefficient arrays. Fixed 41,47,227,857; original E0 y^2=x^3-1, omega=dx/(2y), no Gaussian. Exact rational target and independent first-pole/binomial-carry reduction; record zero/nonunit as mathematical output. No old supersingular trace or same-label sigma rescan."
 }

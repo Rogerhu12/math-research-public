@@ -6,7 +6,7 @@
 
 **维护会话：serre-public-astra-20261120-de0a3e3b。** 已部分克隆并真实pull main，接手serre-public-astra-20261115。最新前态逐字在[H归档](handoff-archive-2026-11-20-before-complete-Wilson-source.md)，内接全部H/open旧归档、pins与关闭边界。只消费已成来源，不重做已登记结论。
 
-**已读规则提交：27b283086d6f5d8b328eb8e36552bc9cd6ec4b3d**（2026-11-20T12:47:58.006851+00:00；终端真实git pull --rebase origin main，两README无diff）。两README完整已读，root SHA256 581402c2 / topic 35f82f3d；此前差异与原pins沿归档。
+**已读规则提交：4a5e1e0178e2ea303c068cd96dd5a78e78f56352**（2026-11-20T13:02:32.979230+00:00；终端真实git pull --rebase origin main，两README无diff）。两README完整已读，root SHA256 581402c2 / topic 35f82f3d；此前差异与原pins沿归档。
 
 每结论立即推；每push前且至少每小时真实pull。NFF立刻pull --rebase再推循环成功，禁force。每pull检查两README，有变只读diff并立即执行，SHA记此。PAT仅CLI，不入文件/提交，root独占main。新数学仅本公开仓库Actions；外部只纸证/IO/schema/hash/AST。raw不入Git/Release，本轮只/tmp和stdout。H<10KB、open<30KB、每MD<100KB、topic<200MB；log用Asia/Taipei≤5行，不写根LOG，不设额外审批/测试门。
 
@@ -28,6 +28,8 @@
 
 
    [R970](results/R970-original-Cartier-packet-and-high-CM-congruence-ideal.md)两行原w=p−1/p−7已证明：完整CM包全Cartier nilpotent，L=dim M_CM=rank S_w(Γ0(9))_m；S非零 iff原高CM完整classical同余理想η_f单位 iff按Tilouine–Urban精确Manin periods归一的adjoint值单位。完整Γ6→Γ0(36)整格、两det返回d/h0、r0不能擦除；原rawHecke比例及σ⁻¹T_p均保留。局部niveau2不可约迫全包非ordinary，2/3局部type与H6真multiplicity给level9一线。坏链等价实际primitive level9非CM congruence；r2还等价κ非零。不能换固定低权period或宣称数值/valuation等式；all-p η_f单位仍开。
+
+   R973新[执行契约](notes/R973-original-balanced-Kronecker-four-prime-execution-method.md)冻结原E0/g3=4无Gaussian的balanced c_n=[z^n w^(n−1)]σ(z+w)/(σzσw)，n=p−2/p−8；完整exact rational与原−B single-pole独立核，首p分母逐项抵消已纸证。当前request只算新41/47/227/857四值，未预填unit；公开Actions待回执，不重跑旧S/同h。此系数模权2n、source CM权n+1严格区分；真正adjoint/Manin桥及all-p unit仍待闭合。
 
 3. **原Abel与真正height**：R948两个有限p的二次scalar根确在pZp，非中心 iff真char0 M2≠0，v(w*)=2+v(M2)−ν/2；另一真实h按R727完整tail分离，原开盘全Abel零集只中心。仍不排非零MW像，更不是p-adic height非零；固定Y缺口见下。
 

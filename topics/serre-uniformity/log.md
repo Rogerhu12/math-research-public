@@ -753,3 +753,7 @@
 ### 2026-11-20 20:47 Asia/Taipei — serre-public-astra-20261120-de0a3e3b
 - R971完整Wilson–Fourier源及Sturm短射线已逐式核准；原本原mask在无穷多允许p的列数严格不足，故全p满秩路线已排，Dirichlet原文实读。
 - 只继续特定A/E4包含或实际mark functional；不把较强span失败当同h失败。H逐字归档压缩，原所有pins/比较/缺口仍保留。
+
+### 2026-11-20 21:02 Asia/Taipei — serre-public-astra-20261120-de0a3e3b
+- R973原balanced Kronecker新source、exact rational与single-pole算法已独立纸审，保g3=4/无Gaussian/原B符号及模权2n；本地只AST和hash。
+- 新request仅四个固定p的新目标，待公开回执，不预设单位、不重跑旧trace或同h；继续模符号积分方向与真正高adjoint尺度。
