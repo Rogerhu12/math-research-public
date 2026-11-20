@@ -4,9 +4,9 @@
 
 证明绝对C使所有无CM E/Q在p>C时模p满射，或给p→∞完整反例族。**主目标OPEN，尚未达README标准。**
 
-**维护会话：serre-public-astra-20261120-de0a3e3b。** 已部分克隆并真实pull main，接手serre-public-astra-20261115。压缩前逐字状态在[最新H归档](handoff-archive-2026-11-21-before-norm-seven-source.md)，沿链保全部旧source/SHA/尺度/失败边界，不重做已登记结论。
+**维护会话：serre-public-astra-20261120-de0a3e3b。** 已部分克隆并真实pull main，接手serre-public-astra-20261115。压缩前逐字状态在[最新H归档](handoff-archive-2026-11-21-before-ten-step-theta-jets.md)，沿链保全部旧source/SHA/尺度/失败边界，不重做已登记结论。
 
-**已读规则提交：6fa37a2b3ca3be7926a6b35627ef1987219c2a7a**（2026-11-20T16:06:56.112450+00:00；终端真实git pull --rebase origin main，两README无diff）
+**已读规则提交：3a1c3b0679da00d183100e3bff3f046003038809**（2026-11-20T16:10:03.236824+00:00；终端真实git pull --rebase origin main，两README无diff）
 
 两README完整已读，SHA256 root 581402c2 / topic 35f82f3d。每结论立即推；每push前且至少每小时真实pull；每pull检查两README，有变只读diff立刻照办并记已读SHA。NFF/lock-ref竞态立即pull --rebase再推直到成功，禁force。PAT只CLI，不入文件/提交；root独占main/H/open/index/log。
 
@@ -20,17 +20,19 @@ R969三点actual span核已过；R971严格排全p full-span，未排特定A/E4�
 
 [R992](results/R992-original-full-level-Jacobi-operator-and-filtered-stability-criterion.md)：全M_(p−5)上G(F)=[D²(XF)+X²F/144]/[X²(1−z)]分母消去；Jacobi互异谱、各mark1、kernel=Tate A/E4。**原V≠0且G稳定⇒同h非零**。旧227 central global非零/mark零排逐列本征；E+ mark(25F−D³F)/144。全部源与谱见结果/归档。
 
-[R995](results/R995-original-mixed-source-for-the-first-coarse-CM-normal-jet.md)：复用旧MH热式，原Π4D³(∇²J)完整三支G‴/216、12uF′、F及全部ζ修正已核；原E−标记(25Z+Ψ)/144保正号/mask，首p整界全证。新partner ∇²H‴不是旧g，尚无原retained关系，不冒稳定；完整尺度保结果/归档。
+[R995](results/R995-original-mixed-source-for-the-first-coarse-CM-normal-jet.md)：原Π4D³(∇²J)完整G‴/216、12uF′、F三支及全ζ修正已核，E−mark(25Z+Ψ)/144和首p整界保；新partner非旧g，尚无retained关系/G稳定。
 
 [R996](results/R996-original-end-column-cusp-unit-and-filtered-space-nonzero.md)：完整norm-one Gaussian给Z_(p−7,1)尖点233/(p−7)!；233为8mod9排除。h=p−4 primitive iff5∤p+1，P4=19/9单位，故该整族V≠0。完整一般cusp保Π3、Gaussian、ζ和平方法及首p界；不假与Legendre相同，不推CM mark。
 
-[R997](results/R997-original-epsilon-vector-and-unitary-boundary-source.md)：实际ε-vector=(6d0)^−1Σ ε(r)Ψ_(Hr)在旧UH36空间，基独立性及常数矩阵证明。λ^−1J(λu,λv)=Θε(v,u)保交换轴，原Π4/L²作用t/z，lift Lz³Lt²及反射mask保同h；首p矩形整。必须保完整bulk及Π shifts。原边界指定critical k≤7零、k8两端单位，不是R995 normal jet或原critical单位；旧UH/MH曲率只消费。
+[R997](results/R997-original-epsilon-vector-and-unitary-boundary-source.md)：实际ε-vector在旧UH36，λ^−1J(λu,λv)=Θε(v,u)保交换轴，原Π4/L²与lift Lz³Lt²、反射mask准确；首p矩形整。指定原边界critical k≤7零/k8两端单位，不是D³ normal或原critical单位，完整bulk必须保。
 
-[R999](results/R999-certified-second-end-column-and-filtered-space-nonzero.md)：run44764524952/job136385485790/source84a8cad4b成功0.0138129s。双exact给(p−13)!CT Z_(p−13,7)=319435001/40320，11863×26927原类排除；原P10=−7·1279/3^5单位，完整试除/四坏列表空。11∤p+1⇒V≠0，合R996得 **55∤p+1⇒原V≠0**；CM mark/G稳定仍开。payload10156B SHA6d208b8d83cc8e2efc612e43f4d8f21084a45916384106636dcb1a77a557b7aa，root纯IO全核；sources/证素/尺度见回执，request已完不重跑。
+[R999](results/R999-certified-second-end-column-and-filtered-space-nonzero.md)：公开run44764524952成功，j1 cusp319435001/40320、分子11863×26927排原类；P10=−7·1279/3^5单位，完整双源/全试除/四坏列表空。合R996得 **55∤p+1⇒原V≠0**，CM mark/G稳定仍开。payload10156B SHA6d208b8d及全部pins见回执，request已完不重跑。
 
-[R1000](results/R1000-original-projected-scalar-heat-source-and-masked-boundary.md)：原T=Π4 Lz²Θε的完整bulk C=(UL+LU)Θ4+L²{∂z∂t(Θ5−Θ4)/6+(3X/2)zt(Θ3−Θ4)}保双shift。p[z^p]T=48AJ3，故真实有限源𝒟T_<p=C_<p+8Az^(p−1)∂tJ3；仅完整C矩形可约化。自身边界d1、真lift净+1→2而原mask只d4，故 **所有连接迭代均被原mask杀**。令Sε=WopΛC_<p，真实[𝒟^(p−1)Sε]_p+1=−72·6^6B7Σw_i fi gj z^(p−h+1)t^h。完整bulk指定观测非零仍开，低项48非目标。root/audit全文独审；旧曲率只消费，无数学执行。
+[R1000](results/R1000-original-projected-scalar-heat-source-and-masked-boundary.md)：原Tε完整bulk保UL+LU及Π5/Π3双shift；pT_zp=48AJ3给+8A自身边界，完整C矩形整。边界经真lift后d2，原mask需d4，故所有连接迭代均被杀。实际[𝒟^(p−1)WopΛC]_p+1=−72·6^6B7Σw_i fi gj z^(p−h+1)t^h；指定bulk非零仍开，低48非目标，旧曲率不重登。
 
 [R1001](results/R1001-norm-seven-dual-Poincare-source-and-original-filtered-tensor.md)：α=2+s,Nα7，Wα=(x³−cα)σ6、cα=−(2+6s)/7。真dual产品Pα=αWα(z)Wbar(t)K(αz,t)K(z,−barαt)=−σ(αz+t)σ(z−barαt)/(barα σz²σt²)，两cross取消、M†M8I给L6×L6轴pole≤2。完整Π4zΠ0tP=V⊗Wbar+F⊗(Aαx³+Cα)S，V=x4S；减全部polar后x^−1∇t给 **−6Aα F⊗G**，Aα=4(5+6s)/7、Norm16·19/7单位。原critical完整卷积/全部原mask已给，单K总阶≤p−6整；全首p投影唯一p边界−6Bz^(p−1)Wbar，减V支真消。裸balanced trace虽unit比例，乘积必须保所有卷积，高carry/near-p非零仍开；root/literature全文独审，无执行。
+
+[R1002](results/R1002-ten-step-theta-companion-and-four-free-CM-jets.md)：真实W_(p−9)/η4=f权p−11，full Katz输入仍p−9，十步 L=T0…T−9=A^−1(A²D)^10A^−9，右6^−10A11XY。仅有限u至X11、∂u=1+O(X15)，不假完整charp primitive。J=<1,X³,X6,X9,X12>上rank1，kernel为A9u^e(e0/3/6/9)，特解c*X12单位；实际f的ord∈{0,3,6,9,12}且受global weight界。原末列(p−7)!Z=432D³f+75XDf−9Yf，mark/Y0^N=79R0−96R1；局部方程允许该值零或非零，不能代实际global归一。root/audit/literature全文独审，无执行。
 
 ## O2：原完整trace及高坐标单位
 
@@ -52,7 +54,7 @@ R991已完整认证R989旧r8差集349点（1000..20000），原三路/全hash见
 
 [R994](results/R994-certified-original-combined-windows-through-200000.md)：run44760218207/job136370438703/source248592d7f成功531.337922156s。真正新r8 2622点、新r2 1386点共4008全非零/无尾；四新点原三路、完整wp ODE及各首resonance核过。root纯IO全回执核；payload2865567B SHA e764dff838bb24b18c8fec7f7634c2044f403e59e23a349cc00d0554c000dc8d。仅有限S单位；所有sources/rows/pins见结果与归档，已完不重跑。
 
-继续R1001 dual源的真正Fay/Hirota高carry，保单balanced与乘积卷积区别；R995/R1000 bulk/G关系及55|p+1剩余V非零仍开。R1002十次theta的四自由局部jet稿已独审、待root全文审，不凭局部方程推末列CM单位。O2近p非退化及全局height继续，主目标OPEN。
+继续R1001实际dual源的Fay/Hirota高carry；R1003完整norm3/Hadamard十二项稿准备中。R1002局部四自由jet已成，继续原全局W/CM归一约束；55|p+1剩余V非零、G稳定、O2近p单位及真正height仍开，主目标OPEN。
 
 ## 继承任务与永久边界
 

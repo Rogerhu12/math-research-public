@@ -30,6 +30,8 @@ R969公开三点113/131/227得到全mask rank10/11/19、A/E4组合及额外两q�
 
 [R1001](results/R1001-norm-seven-dual-Poincare-source-and-original-filtered-tensor.md)：α=2+s,Nα7，Wα=(x³−cα)σ6、cα=−(2+6s)/7。真dual产品Pα=αWα(z)Wbar(t)K(αz,t)K(z,−barαt)=−σ(αz+t)σ(z−barαt)/(barα σz²σt²)，两cross取消、M†M8I给L6×L6轴pole≤2。完整Π4zΠ0tP=V⊗Wbar+F⊗(Aαx³+Cα)S，V=x4S；减全部polar后x^−1∇t给 **−6Aα F⊗G**，Aα=4(5+6s)/7、Norm16·19/7单位。原critical完整卷积/全部原mask已给，单K总阶≤p−6整；全首p投影唯一p边界−6Bz^(p−1)Wbar，减V支真消。裸balanced trace虽unit比例，乘积必须保所有卷积，高carry/near-p非零仍开；root/literature全文独审，无执行。
 
+[R1002](results/R1002-ten-step-theta-companion-and-four-free-CM-jets.md)：真实W_(p−9)/η4=f权p−11，full Katz输入仍p−9，十步 L=T0…T−9=A^−1(A²D)^10A^−9，右6^−10A11XY。仅有限u至X11、∂u=1+O(X15)，不假完整charp primitive。J=<1,X³,X6,X9,X12>上rank1，kernel为A9u^e(e0/3/6/9)，特解c*X12单位；实际f的ord∈{0,3,6,9,12}且受global weight界。原末列(p−7)!Z=432D³f+75XDf−9Yf，mark/Y0^N=79R0−96R1；局部方程允许该值零或非零，不能代实际global归一。root/audit/literature全文独审，无执行。
+
 ## O2：完整原超奇异迹、真正CM packet及近顶unit系数
 
 原全SS和S含所有点、t0权1/非零H根权3/fine12/椭圆零项；指定j0项为零不能代全和。R936/939/941原trace、Jacobi ODE和CT公式全部已成，源C负RHS、β^p=β、Tate E6=−c6、η12=−6sD、KS正号保全。R963公开允许r2的1000<p≤1e5全部1582点无零；R967独立κ/g_p两点尺度通过，只有限证据。
