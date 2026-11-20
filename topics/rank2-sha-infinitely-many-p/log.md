@@ -45,3 +45,5 @@
 - 2026-11-20 13:12:33 UTC / Astra-rank2-Sha-resume-08eb2b79-20261120：R927§9原两读数完整PASS即登记推送，run44736604477/job136289459332/source8e2413043，e0/z96/dF1296，1611.709秒；51因子全rank0、∞289首192/单位逆/原回代保。完整hash已复核，后续F_first与每E39840确定，完整E及shadow继续；两其它任务仍运行。
 
 - 2026-11-20 13:15:00 UTC / Astra-rank2-Sha-resume-08eb2b79-20261120：R931完整原shadow厚代数范数全证即推；root推导/global全文独核全extra曲线式、Fitting厚分离、原图核回收、两辅助/加法chart及全π层det范数，完整κ度/交重/原k保。H/open先全文归档；基础helper续接，未冒完整E或shadow结果。
+
+- 2026-11-20 13:20:06 UTC / Astra-rank2-Sha-resume-08eb2b79-20261120：R932同源尾调整全normal向量即推；root/theta全文核d-primitive清分母/同Gauss提升/原ξ与全Euler项、真实S_j移位及窗内单位联动。完整H/open先归档再压重复链接；只读旧m0轴，不将普通行代表当整个余核左行，继续同P实际偏移。

@@ -2,7 +2,7 @@
 
 主目标：固定一条 E/Q，完整证明 rank≥2 且无穷不同 p 的通常全 Sha(E/Q)[p∞] 有限。**未完成，持续研究；不在阶段结果、时限或建议处停下。**
 
-[本次整理前完整 open](notes/2026-11-20-open-after-exact-dF1296.md)逐字保存全部旧问题、公式、条件、预算、来源和更早归档入口；[同期完整 HANDOFF](notes/2026-11-16-frontier-before-padic-reconstruction.md)保已运行 source/run/job 与各原理论检查点。下列未重写的旧门仍有效，编号缺席不表示完成。
+[本次整理前完整 open](notes/2026-11-20-open-after-artinian-norm.md)逐字保存全部旧问题、公式、条件、预算、来源和更早归档入口；[同期完整 HANDOFF](notes/2026-11-16-frontier-before-padic-reconstruction.md)保已运行 source/run/job 与各原理论检查点。下列未重写的旧门仍有效，编号缺席不表示完成。
 
 ## O1. 固定曲线的秩：已完成
 
@@ -20,7 +20,7 @@ R409/R595/R636/R647 的原 prime diagonal、forcing、Cartier 以及 R673/R676 �
 
 R863/H22、R876/879、R884A–I 已付全部原 norm-three/norm-two trace、old/new/cross、质量与低配对。原特征零 Ĉp=(p+1)cint、DR3、Γ16 及 Fermat 项不能提前约化或删去；trace 质量是单位不表示原 B 非零。UΘ4 完整三纤维 run43870426107 已通过，所有参数/hash在原执行注。
 
-[R887](results/R887-original-z-all-cm-transport-and-exact-hasse-normalization.md)目前已付：
+R887目前已付：
 
 - 同原 Z 的全部固定 CM/torsion cocycle、绝对 sigma/Mumford 倍率与原 G/P2 初值缺陷；ρp cp=1、Fp=−cp^-1 D^(p−2)x，不增加水平自由度。
 - 同一有限 p 基的所有 Z^p 折回、∇a^p=−aH^p、原 P2 的 adj 公式及 Pm 五块窗口。Pm 降二挠极但新增 Z 根补留数 Fν,p=T_m,p DRν∈X(X+1)k[X]≤s−1。
@@ -60,7 +60,7 @@ R5 已反证 arXiv:1703.02215 所用统一有限 lifting 引理；否定该论�
 接手前所有精确source/run/job见[完整旧open](notes/2026-11-20-open-before-v66-trace-and-run-recovery.md)；全部原u、λ、vnew、整返回17与认证界保持。
 
 - 原F已由R909完整认证：run43906594646/job133436977753/source135b50ff04a12c51dd1b9de583a20b2bed19cbed；ℓ1000003/N512、1429行/QQ/原短支/0..6120，结果hash5193c929a0369e957a0495f12c5af244243f2b4ed444ba305bba963dfdc4831f。
-- 原P现由[R906§8](results/R906-original-P-small-prime-and-compatible-dixon-continuation.md)完整认证：run44714703201/job136215000168/sourceb688d6ac703fec422a7c864bcdc997cc553185fd，原1226行/QQ/短支/同基高展开和全部0..4284恒等式均过；u、λ、原微分、∞→O及整返回17保持。结果hashd3371b55fbdbf8999f2ed6da76cc004a78eba733ff5e7977bce4149e4ecb8915，坐标仍358238d2…e7be67。此前失败和新等价算术见[续接注](notes/2026-11-20-old-job-outcomes-and-exact-P-certificate.md)。
+- 原P现由R906§8完整认证：run44714703201/job136215000168/sourceb688d6ac703fec422a7c864bcdc997cc553185fd，原1226行/QQ/短支/同基高展开和全部0..4284恒等式均过；u、λ、原微分、∞→O及整返回17保持。结果hashd3371b55fbdbf8999f2ed6da76cc004a78eba733ff5e7977bce4149e4ecb8915，坐标仍358238d2…e7be67。此前失败和新等价算术见[续接注](notes/2026-11-20-old-job-outcomes-and-exact-P-certificate.md)。
 
 ### 真 RR、完整原函数环与消费者
 
@@ -78,7 +78,7 @@ R5 已反证 arXiv:1703.02215 所用统一有限 lifting 引理；否定该论�
 
 R885（原文件入口见results索引）保同D、spD=Ep原AJ、原q/q⁴/4/Artin/旧副本和C5=-216。Ep真unit，Coleman有限余核支付Dfun(0)=Ep原ordinary loc；不能丢增广零。
 
-[R897](results/R897-original-endpoint-complete-wild-tame-system-and-specialization.md)现已完整给同一 finite/wild tame 系统：一侧ray普通CM商到反对角的准确识别、全部split norm/divisor-sum/统一格与n1原端点，各n有spDn=Ep,n cn且Ep,n整群环unit。R886的τ/γ辅助集最高rank-one归一保原同底。整族除T恰要求所有tame底类都零；单n1零只给trace零。
+R897现已完整给同一 finite/wild tame 系统：一侧ray普通CM商到反对角的准确识别、全部split norm/divisor-sum/统一格与n1原端点，各n有spDn=Ep,n cn且Ep,n整群环unit。R886的τ/γ辅助集最高rank-one归一保原同底。整族除T恰要求所有tame底类都零；单n1零只给trace零。
 
 R891已直接证明原受限辅助集的anti-Kummer、17惯性Sah/Nakayama双点selector、完整四角cochain及κq(σ)=−c1(Frq)，由共轭两点global cup得 **c1≠0⇒Selbal=E c1**。扩大系数一次固定O0投影后平坦返回；坏位统一指数保。无需再补旧JNS接口，usual core0不能改套MR core1。
 
@@ -86,16 +86,16 @@ R893在上述非零前提下，实际Castella Cor4.6.1/控制给R814固定Heegne
 
 R897附B进一步付清一条实际限制：原Δ来源pull到full ray再trace到单侧，真Mackey关系多出h=p^vp(q−1)；γ集使Pq为unit、17惯性使restriction保持整阶，所以归一分母无界。它只排该组原pull/trace操作，不排新的单侧非平凡来源。
 
-[R900](results/R900-original-inert-layer-parity-and-exact-one-prime-return.md)同原惰性raw norm Aℓ=−(ℓ+1)²/ℓ，真实Gauss/全部坏位给wχ=(−1)^(1+#新惰性)。实际τ后已发表compact BK零杀奇数支撑；单ℓ全Dℓ=Aℓ/hℓ resD1，真可除−(ℓ+1)，有限原类同式且Ep,ℓ全保。附A完整保旧split层，所有惰性子集有同原格Möbius分解；奇数全新块严格0，奇数总层只付min v_p(ℓ+1)整除，偶数新块未付乘积整除。惰性主理想在任prime-to-ℓ原环类塔Frob恒1，所以R891所需长剩余次数不可套；不推s0。
+R900同原惰性raw norm Aℓ=−(ℓ+1)²/ℓ，真实Gauss/全部坏位给wχ=(−1)^(1+#新惰性)。实际τ后已发表compact BK零杀奇数支撑；单ℓ全Dℓ=Aℓ/hℓ resD1，真可除−(ℓ+1)，有限原类同式且Ep,ℓ全保。附A完整保旧split层，所有惰性子集有同原格Möbius分解；奇数全新块严格0，奇数总层只付min v_p(ℓ+1)整除，偶数新块未付乘积整除。惰性主理想在任prime-to-ℓ原环类塔Frob恒1，所以R891所需长剩余次数不可套；不推s0。
 
-[R901](results/R901-original-inert-endpoint-test-matrix-and-local-period.md)新增惰性真ℓ²端点/三old矩阵只02及20反号；原单位向量Iℓ=(ℓ+1)/ℓ³，volK1 Euler归一=(ℓ+1)⁻²，YZZ实际Haar=(ℓ−1)/(ℓ²(ℓ+1))。附A构造不除群阶的整不变泛函，真Kirillov格与邻点商格的coinvariant去torsion=O，原端点取1而为生成元；不能把球向量商格改成augmentation-kernel，也尚未证明该自然格与全局CM/Shapiro格的饱和比较。全χ/绝对度数及p非unit保，局部非零不付双新全局非零/乘积整除。
+R901新增惰性真ℓ²端点/三old矩阵只02及20反号；原单位向量Iℓ=(ℓ+1)/ℓ³，volK1 Euler归一=(ℓ+1)⁻²，YZZ实际Haar=(ℓ−1)/(ℓ²(ℓ+1))。附A构造不除群阶的整不变泛函，真Kirillov格与邻点商格的coinvariant去torsion=O，原端点取1而为生成元；不能把球向量商格改成augmentation-kernel，也尚未证明该自然格与全局CM/Shapiro格的饱和比较。全χ/绝对度数及p非unit保，局部非零不付双新全局非零/乘积整除。
 
 **下一实质门：** 原c1非零、Dfun阶s=0及同目标p的无穷性。继续实际同源关系或新的合法几何输入，不能把条件rank1或一个辅助层非零当成ordinary loc注入。
 
 
 R901附B原全新CM商整比较：ACR完整ν_n、p′ Borel矩阵单位及真full-q/T运输给V_A=L_A⊗S_A；原两范数核整饱和等于H¹(I1I2⊗T)，唯一返回A_i=O[Gi]/N_i，N12=(σ1−1)(σ2−1)Naug且scalar p格阶不变。old/new余核O/(h)、邻点dual余核(O/(q+1))^(q−1)及原共同目标次数保，不冒原AJ非零或标量乘积整除。
 
-[R908及附A](results/R908-original-inert-augmentation-specialization-and-point-shadow.md)原双增loc_all N12=u₁(σ₂−1)a12及全CM/finite-wild/原D尺度均保；附A真实Igusa/Drinfeld全求和已付固定D的tame新增位局部零。R913继续覆盖完整finite wild，见下；不再从该新增位索非零，转同原global/ordinary底。旧完整式、常数及所有当时限制存本次完整归档。
+R908及附A原双增loc_all N12=u₁(σ₂−1)a12及全CM/finite-wild/原D尺度均保；附A真实Igusa/Drinfeld全求和已付固定D的tame新增位局部零。R913继续覆盖完整finite wild，见下；不再从该新增位索非零，转同原global/ordinary底。旧完整式、常数及所有当时限制存本次完整归档。
 
 ## 第三实际门：同P/R/S与实际有限类
 
@@ -115,12 +115,12 @@ o(R)=0\ \Longrightarrow\ 14s\le3B_D^2+8D-26-12j.
 $$
 所以p/D²>141/28（含47/8）迫o(R)非零，仍未排完整p³。第二核在d<κ+s+2时零类返V2+J3且含t²，同P的完整o类固定整[t]R；不能借不同来源重选有限类。
 
-[R895](results/R895-original-quartic-same-corrector-intersection-and-small-slack-exclusion.md)不假oR零，由同R交数和同P有效除子得
+R895不假oR零，由同R交数和同P有效除子得
 $$
 N_D-2s=\ell+\delta_D\ge D+16+2j.
 $$
 反门≤D+15+2j真排原τ1 quartic p³；δ可负，三长记号须另加s。
-[R896](results/R896-original-small-slack-prime-density-and-quartic-exclusion.md)取逐p最小N_D≥2s时，统一低松弛集在p11mod12中密度12/47、全素数3/47。只排该quartic来源，不覆盖一般K1，也不授权改已固定D/k旗标。
+R896取逐p最小N_D≥2s时，统一低松弛集在p11mod12中密度12/47、全素数3/47。只排该quartic来源，不覆盖一般K1，也不授权改已固定D/k旗标。
 
 **下一实质门：** 同一实际有限类与全K1高前缀、β1、R/S后页的联合约束；未覆盖quartic及非F²来源仍需处理。不再重复全局reader已付分类。
 
@@ -132,12 +132,12 @@ R840须用同Kcorr/Hcorr支付两个高前缀，再用同F²L1付第三3η/第�
 当前未闭范围是原R836的2κ<T≤3κ，不能拿quartic的另一范围冒已付。
 即使第四短段延到T−h，也不能从V0,V1,V2∈V_T推V_T对E稳定；
 第三长行仍缺同E³G的ell_eff..T尾。V1=0分支中EG=FA、A∈H2，只有A|C=0才回已排块。
-[R902](results/R902-original-four-block-kernel-and-first-normal-injectivity.md)新付同原四块核中V1=0分支单射H⁰(N²(−H*P))，H*=min(T,h+ell_eff)；H*>2κ真使G↦V1单射。ell_eff≥T−h时进一步进入W_T∩H⁰(N³(−TP−Z−))，同指定完整目标/同V1至多一来源。所有T−h>κ、T>3z−、3b<p、F0非零和qsrc H3返回/真帽仍需成立；未证明实际像满、Euler稳定、指定[b0]消失或删其它WD列。继续非零V1的同一二步链。
+R902新付同原四块核中V1=0分支单射H⁰(N²(−H*P))，H*=min(T,h+ell_eff)；H*>2κ真使G↦V1单射。ell_eff≥T−h时进一步进入W_T∩H⁰(N³(−TP−Z−))，同指定完整目标/同V1至多一来源。所有T−h>κ、T>3z−、3b<p、F0非零和qsrc H3返回/真帽仍需成立；未证明实际像满、Euler稳定、指定[b0]消失或删其它WD列。继续非零V1的同一二步链。
 
 
-[R903](results/R903-original-positive-horizontal-endpoint-and-joint-normal-values.md)：原全四块核的正水平值V1−3bV0单射已证：最高charge真帽ord0 a≤3(e_++μ01)、全局L=E−3b除F及最高系数逼c0。原r2/m0=3/b≥5时κ≥(b−3)e_++3b自动付帽门，非零核必要T+e_+≤3κ；同U±保共同V2与D3(U−−U+)=3b res U−，不相加独立秩或认实际像满。
+R903：原全四块核的正水平值V1−3bV0单射已证：最高charge真帽ord0 a≤3(e_++μ01)、全局L=E−3b除F及最高系数逼c0。原r2/m0=3/b≥5时κ≥(b−3)e_++3b自动付帽门，非零核必要T+e_+≤3κ；同U±保共同V2与D3(U−−U+)=3b res U−，不相加独立秩或认实际像满。
 
-[R907](results/R907-original-two-step-successor-and-six-dimensional-fiber-feedback.md)：原全四块核内V0(H)=V1(G)唯一迫H=TG=EG−a(G)F³，a由原第四短行固定；两条完整native尾仍须共同通过。r2/m3所有纯charge真帽给稳定部分零纤维单射，明确六维Tf/Qf并以3b+7步原四块测试精确读K∞；未认全K稳定或指定forcing已解。 原L≤h时等价V3高T及V4−6ae³的同L尾；L>h真迫a0。下一步仍是实际非稳定部分与同指定目标。
+R907：原全四块核内V0(H)=V1(G)唯一迫H=TG=EG−a(G)F³，a由原第四短行固定；两条完整native尾仍须共同通过。r2/m3所有纯charge真帽给稳定部分零纤维单射，明确六维Tf/Qf并以3b+7步原四块测试精确读K∞；未认全K稳定或指定forcing已解。 原L≤h时等价V3高T及V4−6ae³的同L尾；L>h真迫a0。下一步仍是实际非稳定部分与同指定目标。
 
 ## 持续执行
 
@@ -145,7 +145,7 @@ R840须用同Kcorr/Hcorr支付两个高前缀，再用同F²L1付第三3η/第�
 
 R907§6.1：若第四短窗L>h，实际相邻后继先迫a(G)=0；原全charge单位投影给K∞=0及∩_{j=0}^{3b}T^{-j}K=0。只排完整共同测试，不排单个非稳定K元素，仍需原forcing提供真实后继。
 
-[R910](results/R910-original-rr-separable-specialization-and-middle-subresultant.md)：保持全次数的一个无重根特化严格认证泛型可分；原两Phi17的线性子结式经非零首项唯一恢复同U，整eta分母求值后复核两完整关系。新同tate19 producer保全四RR块/两Atkin/205行及DS返回，仅替换已定位gcd卡点；实际新run尚未取得PASS。
+R910：保持全次数的一个无重根特化严格认证泛型可分；原两Phi17的线性子结式经非零首项唯一恢复同U，整eta分母求值后复核两完整关系。新同tate19 producer保全四RR块/两Atkin/205行及DS返回，仅替换已定位gcd卡点；实际新run尚未取得PASS。
 
 R910首run43912835484/job133459031944/source d622da0c在子结式多元回转中触发RecursionError；已改直接k[x,v][Z]系数向量读取原线性项，完整数学门不变并重请求；无RR PASS。
 
@@ -155,11 +155,11 @@ R887§20同原Fa的共同有限p算子满足L^p=V^pL；全部Fa的A加权Cartier
 
 R887(116a)进一步准确给C(Hω)=0及C²(𝔄Faω)=0：rω=(1/3)dlog y与[G]_(p−1)=−r^p严格相消。共同非零质量不传到最终中央；继续同Wν和全部带权伴随。
 
-- [R911](results/R911-original-five-six-long-root-energy-and-short-successor-chains.md)：固定五/六长行的完整重复根能量给13(T−vG)≤27κ+312b及16(T−vG)≤27κ+384b；保十九角/真实3C。L>h时实际三/四项后继链反门给整K维数≤2dimVT/3或3dimVT/4；同F且余因子unit的当前quartic强制L≤h，不能借此补它的forcing。
+- R911：固定五/六长行的完整重复根能量给13(T−vG)≤27κ+312b及16(T−vG)≤27κ+384b；保十九角/真实3C。L>h时实际三/四项后继链反门给整K维数≤2dimVT/3或3dimVT/4；同F且余因子unit的当前quartic强制L≤h，不能借此补它的forcing。
 
-- [R912](results/R912-original-p-division-and-complete-two-digit-boundary-input.md)：原[p]除点函数/首一Φp给完整𝒯^p²=𝒯(pv−v^p²)S/Sc；全2p²−p−9窗代入误差p⁵，规范根除p²后保p³。原多项式modp⁵严格恢复LT坐标modp⁴和原根modp²，完整V⁶Vc^(−m)R^(−m)P(bv⁶V⁶)支付全部两位输入/首层因子；中央零⇒全部边界零仍开。
+- R912：原[p]除点函数/首一Φp给完整𝒯^p²=𝒯(pv−v^p²)S/Sc；全2p²−p−9窗代入误差p⁵，规范根除p²后保p³。原多项式modp⁵严格恢复LT坐标modp⁴和原根modp²，完整V⁶Vc^(−m)R^(−m)P(bv⁶V⁶)支付全部两位输入/首层因子；中央零⇒全部边界零仍开。
 
-- [R914](results/R914-original-nonstable-kernel-eight-nine-step-cutoff-and-joint-rank.md)：在原T−h≤L<T（含L≤h）的真实窗口，Qf(T)先把同源合成送入全零纤维，再准确使T=E；R911五/六长反门给K∞=∩₀⁸T^(−j)K或∩₀⁹，故9dimK≤8dimVT+d∞或10dimK≤9dimVT+d∞，d∞≤6。全部反馈a_i/实际GRes左边保，不判指定forcing。
+- R914：在原T−h≤L<T（含L≤h）的真实窗口，Qf(T)先把同源合成送入全零纤维，再准确使T=E；R911五/六长反门给K∞=∩₀⁸T^(−j)K或∩₀⁹，故9dimK≤8dimVT+d∞或10dimK≤9dimVT+d∞，d∞≤6。全部反馈a_i/实际GRes左边保，不判指定forcing。
 
 - [R917](results/R917-original-global-rr-lattice-from-saturated-q-jets.md)：原X0(867)全尖点线束deg204的204m+1个jet给整饱和像；任一已认证QQ模形式基经严格终止的逐ℓ饱和，准确恢复全部M2m/ℓ及原L(mDS)。固定子式赋值逐步下降，无高度猜测；完整全局q格不冒现有degree48坐标/闭点/全部RR前端PASS。
 
@@ -172,7 +172,7 @@ R887(116a)进一步准确给C(Hω)=0及C²(𝔄Faω)=0：rω=(1/3)dlog y与[G]_(
 - [R919](results/R919-original-polynomial-ring-middle-recovery-and-unchanged-rr-certificate.md)：原多项式环内逐系数真除法/复乘与次数严格下降，余式在一次处停止而不造无用S0；所得仅作候选，仍由原eta域的两完整Phi/绝对支/两Atkin及全四RR末端认证。新独立公开路径已请求，尚无PASS，不猜当前R910实际卡点。
 
 
-重读已发表 [R708](results/R708-original-mod-p-prefix-and-integral-gaussian-return.md) 后的接续校准：原 m34/72/136 已有非零迹赋值≤3/4+o(1)，故大p边界零等价于约3p/4个原 Gaussian 块 g_m,h 的模p前缀零；不必将两位门当唯一途径。这些指标读 z^(dh)=w^(sh)，实际最高次数仍是 O(p²)，不能借 R887 仅前五块的替换免费延长。原中央零只给含真实除p商的部分和，不自动给逐行零；V66此门已由R923补齐。此处更新既有门的优先级，不登记新定理。
+重读已发表 R708 后的接续校准：原 m34/72/136 已有非零迹赋值≤3/4+o(1)，故大p边界零等价于约3p/4个原 Gaussian 块 g_m,h 的模p前缀零；不必将两位门当唯一途径。这些指标读 z^(dh)=w^(sh)，实际最高次数仍是 O(p²)，不能借 R887 仅前五块的替换免费延长。原中央零只给含真实除p商的部分和，不自动给逐行零；V66此门已由R923补齐。此处更新既有门的优先级，不登记新定理。
 
 ## R918：原首 Bockstein 对稳定方向的实际新约束
 
@@ -184,11 +184,11 @@ R887(116a)进一步准确给C(Hω)=0及C²(𝔄Faω)=0：rω=(1/3)dlog y与[G]_(
 
 ## R915：实际连接整窗与原中央核的第二位
 
-[R915](results/R915-original-connection-integral-window-and-second-digit-kernel.md)附B将原a_j连续整窗准确推到j<N=p(p−1)，首a_N赋值−2且p²a_N≡−pc；全C_r,k/两位反馈保原Vc，长输入p³−p须重付。旧全i单位核1+p²及binom(i+2,2)a1/(mc²)不变；四来源/regular/真除p商均保，中央→边界仍开。
+R915附B将原a_j连续整窗准确推到j<N=p(p−1)，首a_N赋值−2且p²a_N≡−pc；全C_r,k/两位反馈保原Vc，长输入p³−p须重付。旧全i单位核1+p²及binom(i+2,2)a1/(mc²)不变；四来源/regular/真除p商均保，中央→边界仍开。
 
 ## R913：完整finite wild惰性局部零及同格除T
 
-[R913](results/R913-original-wild-inert-specialization-and-augmentation-stability.md)同一finite wild全层新增惰性位D_p loc raw=0，D_p=p^c_pD只固定每p且不随n/q/b。原diamond表/完整det/half-norm/sf/整CM-Shapiro全保，不作p角色平均；先回原局部T/(q+1)才取零。全部Möbius新项同杀，若实际同格可除T则局部零保持；不推s0/global/ordinary，未付c_p=0或跨p统一尺度。
+R913同一finite wild全层新增惰性位D_p loc raw=0，D_p=p^c_pD只固定每p且不随n/q/b。原diamond表/完整det/half-norm/sf/整CM-Shapiro全保，不作p角色平均；先回原局部T/(q+1)才取零。全部Möbius新项同杀，若实际同格可除T则局部零保持；不推s0/global/ordinary，未付c_p=0或跨p统一尺度。
 
 ## R920：完整首 Bockstein 核的真实三／四来源链
 
@@ -200,7 +200,7 @@ R887(116a)进一步准确给C(Hω)=0及C²(𝔄Faω)=0：rω=(1/3)dlog y与[G]_(
 
 [R921](results/R921-original-inert-residual-local-matrix-and-integral-bockstein.md)m≤e=v_p(q+1)时完整残余H¹有原整提升线L和H0连接线C。原j_*到Shapiro(U,S)矩阵diag(u,0)，corestriction为diag(0,1)；β_m(C)=−u p^(e−m) modh同构到整H²[p^m]，kerβ=BL。完整全局Bockstein的q定位准确读C坐标，原ordinary两p位H0=0；全素点/其它群环/wild均保。几何loc零只控L，未判原derived C/global/ordinary/s0。
 
-- [R915附A](results/R915-original-connection-integral-window-and-second-digit-kernel.md)：原Vc/Sc三角式给aj两位；新Lconn=2p²−2的严格LT窗已重付，同ψp/Φp modp⁵和原c lift均保，未延改R912旧窗或增中央零。
+- R915附A：原Vc/Sc三角式给aj两位；新Lconn=2p²−2的严格LT窗已重付，同ψp/Φp modp⁵和原c lift均保，未延改R912旧窗或增中央零。
 
 - [R922](results/R922-original-primitive-middle-remainder-and-unchanged-coordinate-certificate.md)原对称Phi17差先真除x−v，各伪余式立即消系数content并全式复乘；次数严格降、一次即停。仅候选，仍须同eta48域两完整Phi/绝对支/两Atkin才认原U。新独立公开运行只付U，不冒正规化/RR/shadow，无PASS。
 
@@ -226,3 +226,7 @@ R887(116a)进一步准确给C(Hω)=0及C²(𝔄Faω)=0：rω=(1/3)dlog y与[G]_(
 ## R931：完整厚代数的原Tate求迹
 
 [R931](results/R931-original-complete-shadow-artinian-norm-and-base-prime-layers.md)以完整理想精确分离ramified/共同3m/输出O，原extra厚代数上真有椭圆点；双辅助/双加法chart及厚Norm给同原全Tate迹。全部π层至多306维商、原k范数/完整长度保，未拆κ仍保全d/厚度；helper在实现，完整E与shadow未付。
+
+## R932：同源尾调整的完整normal回传
+
+[R932](results/R932-original-quartic-complete-normal-tail-adjustment.md)同R930全部方向以d-primitive因子同提升再撤回原规范，完整四块β1代表保ξ/C1/C2与真尾移位；同A_b(t)逆全部末m尾并返回所有normal。非零尾目标有ε² normal首单位(2u0/3ae0)b_v，严格在原窗；这不是whole-coker左行。仅需旧m0的<s轴，受限S仍核整差格；下一步同P固定偏移/真实左行值。
