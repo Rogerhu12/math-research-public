@@ -349,3 +349,5 @@ $$
 原xout/yout经完整图核恢复，并在全厚商上实际核y²=x³+1。禁止集用全部原有理点的两坐标完整理想，常数输出/零生成元仍由I保证全秩，不调用零主理想。U/2U两辅助和两条加法图都核全厚支集/单位；每条Miller分子和分母均须单位，原f_T(R)在Norm前除去，因此自动带完整长度幂。每层Norm回原k后才取最终指数，原6M^(-1)、四个独立输出、W/反射、九点和全18×9/双轴逐字保持。
 
 独立入口只请求r29、phase=shadow、trace_method=artinian，原F/P两个公共PASS、q_precision2453、batch64、minimal核、固定Sage10.6镜像保同源。source只读且数学容器断网，令牌仅host公共回执读者使用。现有完整Tate及closed/local作业不变、不取消。新工作流按同一进程依次支付预门、完整几何/原极次数、四E及全厚迹；最终明确all_intersection_closed_points_computed=false，以全部原长账及Norm定理认证完整迹。实际run/job/source在建立后登记，不预填结果。
+
+实际公开运行已建立：run `44747799006` / job `136327515753`，source `632cef5af919da67776803cd36346a5cc3941363`，创建于2026-11-20 13:50:06 UTC；状态 in_progress。此前推送遇远端推进，已立即pull --rebase、核两README差异为空后重推成功；实际运行以此最终source为准，不用被重写的本地提交号。尚无任何新数学PASS。

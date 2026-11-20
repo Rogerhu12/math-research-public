@@ -5,7 +5,7 @@
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近实际部分克隆/pull及已读规则提交：`07d63cfd8583e1b8db0ab6c318461dc3388d7739`；2026-11-20 13:49:56 UTC 实际pull --rebase，两README相对d35c32f4差异为空；下一次最迟一小时内。
+- 最近实际部分克隆/pull及已读规则提交：`ad13c21fcd73d4a57044a0bef9409602ae0e5916`；2026-11-20 13:57:54 UTC 实际pull --rebase，两README相对ed3b46b4差异为空；下一次最迟一小时内。
 - 仅写公开main；每条完整结论即提交，推前pull --rebase；非快进循环，不强推、不存令牌。数学只在公开Actions执行；重算输出不入库/Release、不分块，只存源/args/run/hash。
 - H<10KB、MD<100KB、open尽量<30KB、文件<5MB、题≤200MB；log每轮≤5行，不写根LOG。所有旧授权/规则已读，未变化。
 
@@ -25,7 +25,7 @@
 
 R880/883全18×9/双轴/原A,C及四完整交除子00/01/11/12保持；Norm含ell²旧回归已过。四大交除子和原shadow未算，完整成本2256+r*dF或2256(r+1)，全闭点度/厚长度/无穷边界/Artin不删。有限AJ非零不替无穷p/ordinary桥。
 
-[R931§1–10](results/R931-original-complete-shadow-artinian-norm-and-base-prime-layers.md)同原E以全理想分离ram/共同3m/O，余厚代数真椭圆点、双辅助双图Miller及全π层原k Norm保全部度/厚度。基础9b2a00b0、上层a543c957全审接源；独立32源完整artinian请求将先核两原图1530长/共零图与非Fp范数，再付全部E/trace。尚无新PASS，旧Tate继续。
+[R931§1–10](results/R931-original-complete-shadow-artinian-norm-and-base-prime-layers.md)同原E以全理想分离ram/共同3m/O，余厚代数真椭圆点、双辅助双图Miller及全π层原k Norm保全部度/厚度。基础9b2a00b0、上层a543c957全审接源；独立32源artinian run44747799006/job136327515753/source632cef5af已启动：先核两原图1530长/共零与非Fp范数，再付全E/trace。尚无新PASS，旧Tate继续。
 
 ## 第二门：原全局底、ordinary与增广阶
 
