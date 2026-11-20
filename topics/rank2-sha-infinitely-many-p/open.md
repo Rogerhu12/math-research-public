@@ -2,7 +2,7 @@
 
 主目标：固定一条 E/Q，完整证明 rank≥2 且无穷不同 p 的通常全 Sha(E/Q)[p∞] 有限。**未完成，持续研究；不在阶段结果、时限或建议处停下。**
 
-[本次整理前完整 open](notes/2026-11-20-open-before-full-fixed-P-forcing.md)逐字保存全部旧问题、公式、条件、预算、来源和更早归档入口；[同期完整 HANDOFF](notes/2026-11-16-frontier-before-padic-reconstruction.md)保已运行 source/run/job 与各原理论检查点。下列未重写的旧门仍有效，编号缺席不表示完成。
+[本次整理前完整 open](notes/2026-11-20-open-before-six-digit-central-reader.md)逐字保存全部旧问题、公式、条件、预算、来源和更早归档入口；[同期完整 HANDOFF](notes/2026-11-16-frontier-before-padic-reconstruction.md)保已运行 source/run/job 与各原理论检查点。下列未重写的旧门仍有效，编号缺席不表示完成。
 
 ## O1. 固定曲线的秩：已完成
 
@@ -233,7 +233,7 @@ R923：原V66在共同E17模型的完整因式给固定分母D66=154224，保−
 
 ## R933：原首Frobenius系数的严格低读取
 
-[R933](results/R933-original-first-frobenius-coefficient-and-sixth-gaussian-block.md)原σ倍点以单位64^p−4从严格<p的同f/W、pc及Q_p(2)直接恢复实际f_p；四真实第六块完整返回。R615的Wp=1/35只引用，旧Cartier模型差不重登。中央仍需真实L5 modp7后除p6，R929两位不足；−9/35不能脱离原S/U低卷积与carry作矛盾。
+[R933附A](results/R933-original-first-frobenius-coefficient-and-sixth-gaussian-block.md)：同原W严格低系数完整支付五块p^(7−h)及γ p6，H唯一r0=5s−1分母先准确提出p，恢复真L5 modp7。实际E_p=4γ^6jS−(4γ)^6jU modp7全部可读；S/U同charge B与规范2的K6真carry精确抵消，−9/35不能脱离全部低卷积独立迫非零。
 
 [R925§22](results/R925-original-ys-affine-rings-and-complete-divisor-ideals.md)：三个已审优化实际接源，31份host/producer清单全等；原请求推进完整shadow，旧运行保来源继续，新增完整closed/local门并行。仍逐层实际支付全部图、极理想、四E和全Tate迹，未冒新PASS或接入未完成的R931路径。
 

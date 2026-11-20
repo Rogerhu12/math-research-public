@@ -5,13 +5,13 @@
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近实际部分克隆/pull及已读规则提交：`6db41339551602fc66fc6de1bc5262861ad66af1`；2026-11-20 13:33:10 UTC 实际pull --rebase，两README相对a06daaeb差异为空；下一次最迟一小时内。
+- 最近实际部分克隆/pull及已读规则提交：`137a4f9f34ab04fa08fe82bf84b72750424cfcb6`；2026-11-20 13:45:45 UTC 实际pull --rebase，两README相对6db41339差异为空；下一次最迟一小时内。
 - 仅写公开main；每条完整结论即提交，推前pull --rebase；非快进循环，不强推、不存令牌。数学只在公开Actions执行；重算输出不入库/Release、不分块，只存源/args/run/hash。
 - H<10KB、MD<100KB、open尽量<30KB、文件<5MB、题≤200MB；log每轮≤5行，不写根LOG。所有旧授权/规则已读，未变化。
 
 ## 完整检查点与当前分工
 
-[最新完整H](notes/2026-11-20-handoff-before-full-fixed-P-forcing.md)逐字保全部旧条件、源/run/hash及归档链；入口[results](results.md)、[R901–950索引](notes/PROOF-INDEX-R901-R950.md)、[open](open.md)；旧已付项的完整链接保该检查点。root唯一metadata/ref写者并整合公开门；global续原ordinary/global底，deep续同P真实forcing，theta续四指定中央/边界并交叉审源码。四主门均保留；R364/R561/R654/R712及主目标仍开。
+[最新完整H](notes/2026-11-20-handoff-before-six-digit-central-reader.md)逐字保全部旧条件、源/run/hash及归档链；入口[results](results.md)、[R901–950索引](notes/PROOF-INDEX-R901-R950.md)、[open](open.md)；旧已付项的完整链接保该检查点。root唯一metadata/ref写者并整合公开门；global续原ordinary/global底，deep续同P真实forcing，theta续四指定中央/边界并交叉审源码。四主门均保留；R364/R561/R654/R712及主目标仍开。
 
 ## 第一门：同原映射、完整函数环与原shadow
 
@@ -43,7 +43,7 @@ R923补全V66 Hall迹与固定分母154224，原Galois/物理−17/11保。连R7
 
 R929全n<p²三带/单位积给p logΘ modp³及p倍列额外位，R614严格整窗返原g modp²；四原前缀/κ/物理缩放及第一真carry保。附A实际g_p≡2Q_p+p(Q_p²+L_p^U/2) modp²，Q第二位及D0完整返回；不能推出中央⇒边界。
 
-R933同原σ倍点单位64^p−4从严格<p的f/W/pc/Q₂恢复实际f_p并返四第六块；R615与旧Cartier差仅引用。中央真L5/p6需L5 modp7，R929两位不足；−9/35仍须保S/U低卷积和carry。
+R933原σ倍点单位64^p−4恢复实际f_p与四第六块，旧R615/Cartier仅引用。附A已从原H/W有限单位积全付L5 modp7：五块p^(7−h)、γ p6及r0=5s−1真除p端点保。实际E_p=4γ^6jS−(4γ)^6jU；同B/规范2真K6商相消，−9/35仍须所有低卷积，尚未迫无穷非零。
 
 ## 第四门：同P/R/S的真实forcing
 
@@ -59,4 +59,4 @@ R930同原quartic的Y_j=t^{−(τ+j)}P在σ_t≥τ+m、ell≤s−h−m时给原K
 
 [R932](results/R932-original-quartic-complete-normal-tail-adjustment.md)同R930全部方向以d-primitive因子同提升再撤回原规范，完整四块β1代表保ξ/C1/C2与真尾移位；同A_b(t)逆全部末m尾并返回所有normal。非零尾目标有ε² normal首单位(2u0/3ae0)b_v，严格在原窗；这不是whole-coker左行。仅需旧m0的<s轴，受限S仍核整差格；下一步同P固定偏移/真实左行值。
 
-[R934](results/R934-original-fixed-quartic-entire-affine-branch-pair.md)：同P负fringe整个J双jet恰为(−B|C,−11t^(r_src−2)w^(−s)F(t,g)^4/a−EB|C)，原ξ经完整逆Taylor退出；B由固定P/R_b两条真除p支读数确定，不能默删。真全局左行的forcing至多15项，B∈H3分支τ0/1被低行排除、τ≥d0+2双jet类零，其余至多13项仍须实际像判定。
+R934同P全J双jet为(−B|C,−11t^(r_src−2)w^(−s)F(t,g)^4/a−EB|C)；B保原P/R_b两真除p读数，真左行forcing≤15项。仅B∈H3分支τ0/1低行失败、τ≥d0+2双jet类零；其余≤13项仍须同H1/受限S原像，不默删B。
