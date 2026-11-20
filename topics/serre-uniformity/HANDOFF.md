@@ -2,27 +2,28 @@
 
 ## 目标、授权与已读规则
 
-证明绝对C使全部无CM E/Q在p>C时模p满射，或给p→∞完整反例族。**主目标OPEN，未达README标准；持续研究，不以阶段报告收尾。** 会话serre-public-astra-20261115，从远端main续接；旧未推分支不存在，私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
+证明绝对C使全部无CM E/Q在p>C时模p满射，或给p→∞完整反例族。**主目标OPEN，未达README标准。**
 
-**已读规则提交：b77de2c73aa4565ab4f3c09f1884b455b6b3d4f5**（2026-11-16T18:12:53.476611+00:00；公开Actions真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。完整此前状态逐字在[本次前H](handoff-archive-2026-11-16-before-Igusa-Frobenius-residues.md)，内接全部旧归档与原pins/公式/关闭边界；不重做旧结果。
+**维护会话：serre-public-astra-20261120-de0a3e3b。** 从远端main接续serre-public-astra-20261115，已部分克隆并真实pull；不重做已登记结论。接手前完整状态见[前H](handoff-archive-2026-11-20-before-resume.md)。
 
-每结论立即推；每push前且至少每小时真实pull，NFF立即pull --rebase再推至成功，禁force。每pull比两README，有变只读diff即遵守并记H。PAT仅CLI，root独占main。新数学仅本公开Actions，外部仅纸证/IO/schema/hash/AST；raw仅当前必要一日artifact，不入Git/Release。H<10KB/open<30KB/每MD<100KB/topic<200MB；日志Asia/Taipei≤5行，无独立测试门。终端失联，恢复workflow实际partial/sparse pull发布。
+**已读规则提交：9e8bd1a770eef7391df11bf17826bb18f0ba4ba2**（2026-11-20，终端git pull --rebase origin main）。相比b77de2c7仅根课题表新增held-10pct；两README完整已读。root SHA256 581402c2 / topic 35f82f3d。此前来源与原pins沿[旧归档](handoff-archive-2026-11-16-before-Igusa-Frobenius-residues.md)。
 
-## 正在执行
+每结论立即推；每push前且至少每小时真实pull，NFF立即pull --rebase再推至成功，禁force。每pull比两README，有变只读diff即遵守并记H。PAT仅CLI，root独占main。新数学仅本公开Actions，外部仅纸证/IO/schema/hash/AST；raw仅当前必要一日artifact，不入Git/Release。H<10KB/open<30KB/每MD<100KB/topic<200MB；日志Asia/Taipei≤5行，无独立测试门。终端git已恢复；旧run终态已核实。
 
-|任务|实际run / job|原断点与身份|
+## 本次核实的旧任务终态
+
+2026-11-20六run均completed/failure，artifacts列表均空；保留日志与来源哈希见[恢复核查](notes/2026-11-20-resumption-and-run-availability.md)。前次完整pins/有效断点见[前H](handoff-archive-2026-11-20-before-resume.md)，不臆填新进度。
+
+|任务|最后run|实际终态|
 |---|---|---|
-|R787 primal670后|43912581432 / 133458306139|source33d44d4d；原670/f756e254/8c9052ec；core93d3d72b/wrapperdff10f45|
-|R824原27+244从693后|43912577191 / 133458143804|source33d44d4d；原current761b228c/liftf8972f29；core1ece3cf4/wrapperc5907739|
-|R854原41 N224|43921950983/source0840161e|原43880489423/20984736，1174stage/1184manifest729e2e；core1feb579a/wrapperf6b97a7d|
-|R787半dual638后|43923558852已排队，源4b005ba1|393efa24；638/current8cec5c72，coreffe5dcff/wrapper1552e403|
-|R815准确Γ586后|43908105148 / 133442347214|84a31a9b；core80516ff9/wrapperab725da0，原Γ586/17520bit，g696已成不重|
+|R787 primal原670后|43912581432|complete=false，退出1；曾上传14275737009，现不可列出|
+|R824原693后|43912577191|runner shutdown143，无新产物|
+|R854 N224|43921950983|预算124，1625已成stage；四响应/height仍false|
+|R787半dual原638后|43923558852|failure；job日志404，未推断原因|
+|R815原Γ586后|43908105148|complete=false；曾上传14274072540，现不可列出；g696不重|
+|R907 j1|43924786163|KeyError configuration_sha256，止于core前；无新数学|
 
-R824旧43877576209实际runner shutdown143，无新artifact；R787旧43897255536 failure且无数学artifact，内部原因未臆测。两者原693/670请求不变续算，不能填新进度。R815 requesta469e685/原art14246345143/manifest42e141cb/currentd361a554，v24仅元数据，不代完整Γ；全部53原输入原样。完整tail/尺度/Trace/旧缺receipt严格分支沿前态。
-
-[R854 N112→N224](notes/R854-original-p41-N112-ended-and-N224-continuation.md)：原真125/1174stage/1184manifest729e2e/art14248459820，无单位图/Dixon/四球。仅精度224和真resume变，旧profile0..111/逆/行组合/低位复用。h*=最大Smith指数且≥112；充分N≥R+h*+δ−w*+7s，不预保224。完整原pins/证明在前H及正文。
-
-半dual真638：父43869450077/393efa24，真124、FINAL7cbc76e5/52manifestbb0fdf5b/current8cec5c72/art14253788112；本次43923558852排队从638同core续。全35840乘回/17920准确重构/三carrier/1481件/370锚保真，518仅CM；未决定A.1，完整位及在途叶复用。
+R907先修真实源schema再接原输入；缺产物不能用摘要替代数组。新理论接R932全SS和源比较、R929同h偏移；公开Actions检测偏移原非零目标，旧完成结论不重跑。
 
 ## 原Y高度路线：只补当前缺口
 
