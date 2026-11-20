@@ -1,0 +1,47 @@
+name: Complete receiver-free WJK F Bc raw norm
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/fourfold-codazzi-complete-FBc-raw-public.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: complete-wjk-fbc-raw-first
+  cancel-in-progress: false
+
+jobs:
+  complete-FBc-raw-L2:
+    if: github.repository == 'Rogerhu12/math-research-public' && github.run_attempt == 1
+    runs-on: ubuntu-latest
+    timeout-minutes: 75
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            README.md
+            topics/visible-flex-exact-nearby/README.md
+            topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_collar_volterra_dual_public_worker.py
+            topics/visible-flex-exact-nearby/notes/2026-11-20-complete-FBc-raw-inputs.json
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12.14'
+      - name: Install fixed directed runtime
+        run: |
+          python -m pip install --disable-pip-version-check --only-binary=:all: python-flint==0.9.0
+      - name: Run original readonly restoration and one complete new source norm
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          OPENBLAS_NUM_THREADS: '1'
+          OMP_NUM_THREADS: '1'
+          MKL_NUM_THREADS: '1'
+          PYTHONUNBUFFERED: '1'
+        run: |
+          python topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_collar_volterra_dual_public_worker.py --repo "$GITHUB_WORKSPACE" --manifest topics/visible-flex-exact-nearby/notes/2026-11-20-complete-FBc-raw-inputs.json --manifest-sha 743c49f915562f304d44518a96fd4d6c35ec542c8ba6ae20a0b812d930e35ef4

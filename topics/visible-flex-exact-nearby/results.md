@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R141完整F Bc原态比较](results/R141-supplement-receiver-free-complete-FBc-comparison.md)：独立新目标为Π0 F Bc S⁻¹原态L2完整row/column/norm，保P/Q*/Rc五项、true J*至R和准确128/256/288支持；三角上界完整，未借signed抵消。67输入/320bits、源/owner整审，首次Actions；未来同low Green仅要求body CFB小门，193atoms仍付输出。F不等于真实G_H，不重旧50目标。
+
 - [R137直接有限缺陷的第二细胞因子](results/R137-supplement-adjoint-cell-factor-for-direct-finite-defect.md)：完整伴随Poincaré给μ_Q≤||Λ_h∂r[ι*(T−I)*P_f*]||，η_f≤(6/5)μ_Q M_mesh；两个原h_i/π各在正确一侧。完整193原子保真实dual边界，1024辅助态给可算导数而不求输入导数；body收缩/atom输出可复用low Green。完整逆/新导数预算/严格门仍待。
 
 - [R138实际全根圈mean分母](results/R138-supplement-actual-full-circle-root-mean-denominator.md)：44733403315/1全8192闭角格、11当前/6历史完整核；真实periodic frame的saved decimal球约.8581216916±.0044947521，严格17/20<D<87/100，mean消元逆费<20/17。原轴不读/不重算，1新target冻结；finite+high尾/体吸收/全逆仍待。

@@ -95,3 +95,7 @@ source12961B/SHAaffc4dd2、worker27817B/SHA95cadbb2、generator11488B/SHA1f3f9c4
 ## 2026-11-20：原有限缺陷的第二细胞因子
 
 proof10024B/SHA1ccf9cef8dbca5eb1caf8b475f6fd2a1ab2799acbc63c5e4783b640619270d97，root整读并独核D9 resolvent、D10–11积分分部端点符号、D12–15完整adjoint derivative、两个h_i各侧位置及D16–17 body/atom分块。原S/D硬跳位于fine网格边界；Qrepair角系数连续而径向导可跳，broken H1条件明确。μ_Q可比粗||T−I||小，但实际adjoint预算和完整T未付；旧F/真实GH严格分开、ρ/两rhs全保，0科学数值。
+
+## 2026-11-20：完整F Bc原态源范数首次封包
+
+root整读proof/最小math5272B/SHA05d57d2f/owner23096B/SHAd6521c92/generator，并核原kernel forward/reverse质量、privatecaps、支持投影与Astar160方向。保存75位球后contains(original_upper)且字节读回，原S⁻¹只一次；未来body CFB门与193atoms输出分开，不把F当真GH。完整67当前+worker/21历史blob、AST/YAML、36字段25门与原scope整对象核同，0科学。proof只改会话署名，metadata重新冻结；独立新1target/3球、child3600s/科学2400s，单次push启动共享workflow，旧L/centre/endpoint均不重算。
