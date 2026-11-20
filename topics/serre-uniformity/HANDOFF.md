@@ -6,7 +6,7 @@
 
 **维护会话：serre-public-astra-20261120-de0a3e3b。** 从远端main接续serre-public-astra-20261115，已部分克隆并真实pull；不重做已登记结论。接手前完整状态见[前H](handoff-archive-2026-11-20-before-resume.md)。
 
-**已读规则提交：f8541d522c51f83f5c77255c04494b9539767575**（2026-11-20，终端git pull --rebase origin main）。相比b77de2c7仅根课题表新增held-10pct；两README完整已读。root SHA256 581402c2 / topic 35f82f3d。此前来源与原pins沿[旧归档](handoff-archive-2026-11-16-before-Igusa-Frobenius-residues.md)。
+**已读规则提交：37f129348352be7b599f0b70f0fe0fd1f5c81a23**（2026-11-20，终端git pull --rebase origin main）。相比b77de2c7仅根课题表新增held-10pct；两README完整已读。root SHA256 581402c2 / topic 35f82f3d。此前来源与原pins沿[旧归档](handoff-archive-2026-11-16-before-Igusa-Frobenius-residues.md)。
 
 每结论立即推；每push前且至少每小时真实pull，NFF立即pull --rebase再推至成功，禁force。每pull比两README，有变只读diff即遵守并记H。PAT仅CLI，root独占main。新数学仅本公开Actions，外部仅纸证/IO/schema/hash/AST；raw仅当前必要一日artifact，不入Git/Release。H<10KB/open<30KB/每MD<100KB/topic<200MB；日志Asia/Taipei≤5行，无独立测试门。终端git已恢复；旧run终态已核实。
 
@@ -23,7 +23,7 @@
 |R815原Γ586后|43908105148|complete=false；曾上传14274072540，现不可列出；g696不重|
 |R907 j1|43924786163|KeyError configuration_sha256，止于core前；无新数学|
 
-R907先修真实源schema再接原输入；缺产物不能用摘要替代数组。新理论接R932全SS和源比较、R929同h偏移；公开Actions检测偏移原非零目标，旧完成结论不重跑。
+[R907源schema已修](notes/R907-inherited-transport-configuration-repair.md)；四原artifact实测404，request标待原字节；core未跑，摘要不代数组。新理论接R932全SS和源比较、R929同h偏移；公开Actions检测偏移原非零目标，旧完成结论不重跑。
 
 **新窗口已成**：run44711592515，2406个p5mod12素数≤100000仅41零（属允许mod9）；精确九项和证明与SHA见[R934](results/R934-admissible-same-label-Legendre-zero-at-41.md)。全p固定h非零目标关闭，续大p/多h。
 

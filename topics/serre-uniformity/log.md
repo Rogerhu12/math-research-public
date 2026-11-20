@@ -577,3 +577,7 @@
 ### 2026-11-20 17:36 Asia/Taipei — serre-public-astra-20261120-de0a3e3b
 - R934严格反例：p41/h25原Legendre因子=0，九项和164=4·41；与A单位相容，原允许mod9也满足，全p固定h非零目标关闭。
 - 实际run44711592515/source6a9e3137f成功：2406素数≤1e5仅41零；只存脚本/参数/run/SHA。H/open/索引同步，继续大p或多h及R932独立全SS，不重做固定41分类。
+
+### 2026-11-20 17:41 Asia/Taipei — serre-public-astra-20261120-de0a3e3b
+- 修R907真实pre-core KeyError：只用已验证父inventory补旧transport配置SHA，保五项来源身份及原strict检查；实际R872旧/新schema和两种错配通过IO检查，core不变未执行。
+- 四个直接原artifact实测404，request准确标待原字节；不以摘要替代数组、不启动必缺输入的算术。H保持最新，继续全p证明/新小Actions。

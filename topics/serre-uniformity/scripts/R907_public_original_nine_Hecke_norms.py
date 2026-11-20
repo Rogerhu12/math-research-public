@@ -95,6 +95,26 @@ def identity(source):
         d["configuration_stage"]=plain(source["configuration_stage"])
     return d
 
+def seal_inherited_transport(source,route):
+    """Bind an old transport descriptor to its already verified carrier identity.
+
+    Called only after the parent's manifest, inventory, source identities and
+    carried bytes have been checked.  Some original request descriptors predate
+    configuration_sha256; the verified inventory supplies that exact value.
+    Existing values must agree, and all five immutable source fields must agree
+    before a missing configuration field may be filled.
+    """
+    assert all(str(source[k])==str(route[k]) for k in BASE)
+    configuration=source["configuration_sha256"]
+    assert re.fullmatch(r"[0-9a-f]{64}",configuration)
+    sealed=dict(route)
+    if sealed.get("configuration_sha256") is None:
+        sealed["configuration_sha256"]=configuration
+    else:
+        assert sealed["configuration_sha256"]==configuration
+    same_source(source,sealed)
+    return sealed
+
 def expected_tag(item,sources,inputs):
     return {"result":RESULT,"source_sha256":item["core_sha256"],
         "helper_sha256":item["helper_sha256"],"original_Artin_helper_sha256":ARTIN_SHA,
@@ -266,7 +286,7 @@ class Registry:
         for label,source in inv["sources"].items():
             route=inherited_routes.get(label)
             if route is not None and label not in self.routes:
-                same_source(source,route);self.routes[label]=dict(route)
+                self.routes[label]=seal_inherited_transport(source,route)
             h=self.add(label,source)
             if h.route is None and label in self.routes:
                 h.route=self.routes[label]

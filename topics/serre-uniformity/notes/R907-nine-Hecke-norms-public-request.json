@@ -1,14 +1,14 @@
 {
   "result": "R907-original-Iz-pencils-and-nine-Hecke-norm-generators",
   "p": 41,
-  "producer_inputs_pending": false,
+  "producer_inputs_pending": true,
   "session": "serre-public-astra-20261115",
   "core": "R907_original_Iz_pencils_and_nine_Hecke_norms.py",
   "core_sha256": "cf905290bf90c1af7247dcd8b6f96f403e8f965cdee628ee01178c036c139d45",
   "helper": "R907_complete_pencil_norm_algebra.py",
   "helper_sha256": "7e4a8d882b15b202fed6e440e09b00db03ec7d605103245dfbf912ecfdbd8d57",
   "wrapper": "R907_public_original_nine_Hecke_norms.py",
-  "wrapper_sha256": "b8a5f94b5f4454d173eb4177f8c61917ba696eeffef1cb828b78b54f028f7e80",
+  "wrapper_sha256": "117564612ccabd496c069f5f9a569a48f33aaf86d10f7eff12664a65f4c78161",
   "original_Artin_helper": "R885_whole_Artin_algebra.py",
   "original_Artin_helper_sha256": "e47cd50d254700b98446866297d79694c100f1435c46f3b4f42e3835763f897d",
   "stdlib_io": "R890_public_original_Ef_eight_flip_and_marked_frame.py",
@@ -155,9 +155,9 @@
   "budget_minutes": 300,
   "minimum_free_disk_bytes": 536870912,
   "resume": null,
-  "rules_last_read_commit": "5c920c39966b5c7ac854564bf1a3841288d0133a",
+  "rules_last_read_commit": "1f5cf9209132f663199b50e74ec76abf0bdb4473",
   "readme_sha256": {
-    "root": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
+    "root": "581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102",
     "topic": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
   },
   "all_new_mathematics_only_in_public_Actions": true,
@@ -182,5 +182,17 @@
       "result": "R899-original-K-fixed-seven-trace-RR-basis",
       "required": "source-audit.inputs plus original QN leaf inventory/carrier and already completed a0 interpolation; true completed source pinned above"
     }
+  },
+  "source_transport_blocker": {
+    "observed_on": "2026-11-20",
+    "reason": "All four pinned direct artifacts return HTTP 404; original bytes must be restored before compute.",
+    "artifact_ids": [
+      14254777999,
+      14251161202,
+      14234003349,
+      14218009053
+    ],
+    "mathematical_core_unchanged": true,
+    "historical_configuration_repair": "Verified parent inventory supplies a missing configuration_sha256 only after all five immutable source identities agree."
   }
 }
