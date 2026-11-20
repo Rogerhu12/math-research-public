@@ -1,0 +1,470 @@
+{
+  "status": "three_actual_shared_R_stages_continuously_certified",
+  "session": "Astra-held10-1b6d88ecddf3-20261120/n4_continue",
+  "checkpoint": {
+    "path": "/workspace/scratch/1b6d88ecddf3/m3-work/newg-wide-lambda0p002-m24-actual/tail_0001.json.gz",
+    "sha256": "302662026a7e213647d8bfb2813f970174c8c919bb6f4d406e073ef9f3c110de"
+  },
+  "native_record": {
+    "path": "/workspace/scratch/1b6d88ecddf3/m3-work/newg-native-m24/runs/actual-lambda0p002/0009-jac-record.json",
+    "sha256": "a15afe15bdea350f03ea282c475deece4179f59c72f227b0bac9b5ec00980e7a"
+  },
+  "native_metadata": {
+    "path": "/workspace/scratch/1b6d88ecddf3/m3-work/newg-native-m24/runs/actual-lambda0p002/static-metadata.json.gz",
+    "sha256": "61cb025b5128c13cfe6db52a583ecbabf418ebc00e9b6bae98145719b353b869"
+  },
+  "native_manifest": {
+    "path": "/workspace/scratch/1b6d88ecddf3/m3-work/newg-native-m24/native-source/native-manifest.json",
+    "sha256": "66f068dffd2e5010f87875280eaf0dbe29a2a8ce50db6e7dce32a414626f9c3d"
+  },
+  "source_topic": "/workspace/scratch/1b6d88ecddf3/m3-work/newg-native-m24/native-source",
+  "source_sha256": {
+    "scripts/resume_n4/extract_q060_native_mean_chain.py": "51edadb5ca1e2a6c36369c7965788065ff79ab44ce21a219c6d36e3aae896945",
+    "scripts/resume_n4/export_q060_shared_r_tail_batch.mjs": "379848293df82db3125707a07864f4d8a1ce452f82947a84815c3d788fe64f27",
+    "scripts/resume_n4/certify_q060_shared_r_tail_batch.py": "c646bd4a918aa467212870d437718f22451903a0141242fa5ebf3166ba376aac"
+  },
+  "frozen_polynomial_library_sha256": "4a2bcb9f9e749ce62663d3b8768029ed7c19cbde03a7068eaab3f6552f36fe94",
+  "oracle_provenance": {
+    "definition_sha256": "e764e2cc370f0b7a8a55324f2744702017c16690195f45db92ca66b9781bae56",
+    "constants_sha256": "1a1bcd1679f9f3b507c19bed8f3a1310fda81ac16452ad164edef3e95d82dfc9",
+    "normalization_certificate_sha256": "0b7222717ce302b6e5d5654a3764f9c75892c9e15c1416cb04bb532cea880598",
+    "kernel_sha256": "b7a8dc501dc3dbbe4ccb14d6b4ea2b4b85849d14b9551a94f5c23798d7985806",
+    "oracle_sha256": "d133b3ed5b9e5b5a8e15e3a6bb49b3969b65abbd77fbb17a9d0af835d28c1901",
+    "interval_digits": 60,
+    "coefficient_tolerance": "1/100000000000000",
+    "variation_tolerance": "1/1000000000000000000000",
+    "normalization_definition": "(rCut - true_r160 - integral_A) / integral_B",
+    "calibration_roots": "The 160 recorded binary calibrationAlpha values, unchanged.",
+    "coordinate": "Original cell/segment/x locator; C2 surface jets use physical R=r(x).",
+    "mean_contract": "Only the rotational background height relative to its cut; no nonrotating mean is supplied or reset.",
+    "finite_oracle_transfer_certified": false
+  },
+  "mean_chain_sha256": "157a699fafd83967b318acd5f23bff602a83cd08394fd0d321a266d9e7218f97",
+  "mean_chain_original_input_match": true,
+  "mean_cut_two_slots": [
+    3.681650775547157e-07,
+    0.02277202492794494
+  ],
+  "anchors": {
+    "reuse_stages": {
+      "0": {
+        "path": "/workspace/scratch/1b6d88ecddf3/geometry-work/stage0000-literal-r-data.json",
+        "preserve": true
+      },
+      "127": {
+        "path": "/workspace/scratch/1b6d88ecddf3/n4-work/q060-tail-geometry/stage127-literal-r-data.json",
+        "preserve": true
+      },
+      "1151": {
+        "path": "/workspace/scratch/1b6d88ecddf3/geometry-work/stage1151-literal-r-data.json",
+        "preserve": false
+      }
+    },
+    "node_anchors": [
+      {
+        "node": 1152,
+        "path": "/workspace/scratch/1b6d88ecddf3/geometry-work/stage1151-literal-r-data.json",
+        "endpoint": "inner"
+      }
+    ]
+  },
+  "batch": {
+    "source_stages": [
+      127,
+      128,
+      143,
+      144
+    ],
+    "assemblies": 1,
+    "seconds": 14.599215027,
+    "manifest_sha256": "b94273325ed6060decb4879a9b70a13e1eae8f6282642bfc78a6391523596d79",
+    "files": [
+      {
+        "stage": 144,
+        "path": "/workspace/scratch/1b6d88ecddf3/n4-work/q060-tail-geometry/shared-pair-batch/stage-0144.json.gz",
+        "sha256": "81d86c0d124db1d14b76f55ee0f5099ae4227c5fff26fc9110b5cbae299bd122",
+        "bytes": 153857,
+        "mapHash": "ed21c4ac14965fbc2e1a7189e43209747d0120434581d3c096d7832c62ca88d8",
+        "nodes": 17,
+        "midpoints": 16,
+        "previouslyCertifiedMapPreserved": false
+      },
+      {
+        "stage": 143,
+        "path": "/workspace/scratch/1b6d88ecddf3/n4-work/q060-tail-geometry/shared-pair-batch/stage-0143.json.gz",
+        "sha256": "29878c0e7abcc47d8aca409d70606205e077f00b59109e230b6c7b7bae6bbf0b",
+        "bytes": 154275,
+        "mapHash": "e03e14481feac8923d6b5aeab49b4bddb007f4ab08d9b8d13e520a505fa9f5e9",
+        "nodes": 17,
+        "midpoints": 16,
+        "previouslyCertifiedMapPreserved": false
+      },
+      {
+        "stage": 128,
+        "path": "/workspace/scratch/1b6d88ecddf3/n4-work/q060-tail-geometry/shared-pair-batch/stage-0128.json.gz",
+        "sha256": "274ac30e6d12cb32153c71a2adc104be635aa976112f23a17f50d9743b436193",
+        "bytes": 154905,
+        "mapHash": "c6a9b5e14f29ccd434dc7cff50bd8e1dee34f21d57f1566cb6974c91223da573",
+        "nodes": 17,
+        "midpoints": 16,
+        "previouslyCertifiedMapPreserved": false
+      },
+      {
+        "stage": 127,
+        "path": "/workspace/scratch/1b6d88ecddf3/n4-work/q060-tail-geometry/shared-pair-batch/stage-0127.json.gz",
+        "sha256": "02f3b8048b4a939260c6870c482dc0b0411ea08505df2673ce76da5549bfb844",
+        "bytes": 166918,
+        "mapHash": "eebd48d6902f3601d881414c50f9b70a3c6d6cdc8e19020041cd901f83937f27",
+        "nodes": 18,
+        "midpoints": 17,
+        "previouslyCertifiedMapPreserved": true
+      }
+    ],
+    "interfaces": [
+      {
+        "outerStage": 143,
+        "innerStage": 144,
+        "node": 144,
+        "exactSharedRadiusAndCartesianTwoJets": true
+      },
+      {
+        "outerStage": 127,
+        "innerStage": 128,
+        "node": 128,
+        "exactSharedRadiusAndCartesianTwoJets": true
+      }
+    ],
+    "interface_repairs": [
+      {
+        "node": 145,
+        "receivingStage": 144,
+        "endpoint": "inner",
+        "canonical": {
+          "kind": "outer_stage_inner_endpoint",
+          "stage": 144,
+          "endpoint": "inner"
+        },
+        "originalRadius": 0.13550582359026203,
+        "canonicalRadius": 0.13550582359026203,
+        "radiusDifference": 0,
+        "maximumJetDifferences": [
+          0,
+          0,
+          0
+        ],
+        "meanDifference": 0,
+        "physicalHeightMaximumDifference": 0
+      },
+      {
+        "node": 144,
+        "receivingStage": 144,
+        "endpoint": "outer",
+        "canonical": {
+          "kind": "outer_stage_inner_endpoint",
+          "stage": 143,
+          "endpoint": "inner"
+        },
+        "originalRadius": 0.1355213410631327,
+        "canonicalRadius": 0.1355213410631327,
+        "radiusDifference": 0,
+        "maximumJetDifferences": [
+          1.550963648536927e-25,
+          6.3527471044072525e-21,
+          4.840644172680043e-13
+        ],
+        "meanDifference": 0,
+        "physicalHeightMaximumDifference": 0
+      },
+      {
+        "node": 144,
+        "receivingStage": 143,
+        "endpoint": "inner",
+        "canonical": {
+          "kind": "outer_stage_inner_endpoint",
+          "stage": 143,
+          "endpoint": "inner"
+        },
+        "originalRadius": 0.1355213410631327,
+        "canonicalRadius": 0.1355213410631327,
+        "radiusDifference": 0,
+        "maximumJetDifferences": [
+          0,
+          0,
+          0
+        ],
+        "meanDifference": 0,
+        "physicalHeightMaximumDifference": 0
+      },
+      {
+        "node": 143,
+        "receivingStage": 143,
+        "endpoint": "outer",
+        "canonical": {
+          "kind": "outer_stage_inner_endpoint",
+          "stage": 142,
+          "endpoint": "inner"
+        },
+        "originalRadius": 0.13556523126501296,
+        "canonicalRadius": 0.13556523126501296,
+        "radiusDifference": 0,
+        "maximumJetDifferences": [
+          0,
+          0,
+          5.041810840257318e-14
+        ],
+        "meanDifference": 0,
+        "physicalHeightMaximumDifference": 0
+      },
+      {
+        "node": 129,
+        "receivingStage": 128,
+        "endpoint": "inner",
+        "canonical": {
+          "kind": "outer_stage_inner_endpoint",
+          "stage": 128,
+          "endpoint": "inner"
+        },
+        "originalRadius": 0.13617971902495946,
+        "canonicalRadius": 0.13617971902495946,
+        "radiusDifference": 0,
+        "maximumJetDifferences": [
+          0,
+          0,
+          0
+        ],
+        "meanDifference": 0,
+        "physicalHeightMaximumDifference": 0
+      },
+      {
+        "node": 128,
+        "receivingStage": 128,
+        "endpoint": "outer",
+        "canonical": {
+          "kind": "previously_certified_stage_endpoint",
+          "stage": 127,
+          "endpoint": "inner",
+          "path": "/workspace/scratch/1b6d88ecddf3/n4-work/q060-tail-geometry/stage127-literal-r-data.json",
+          "sha256": "45b86d8328d47dc61a4dba399e066332a0f1774b1cc945df9d89b5604fed2cd1"
+        },
+        "originalRadius": 0.13622361278883402,
+        "canonicalRadius": 0.13622361278883402,
+        "radiusDifference": 0,
+        "maximumJetDifferences": [
+          0,
+          0,
+          1.6574292673132954e-13
+        ],
+        "meanDifference": 0,
+        "physicalHeightMaximumDifference": 0
+      },
+      {
+        "node": 128,
+        "receivingStage": 127,
+        "endpoint": "inner",
+        "canonical": {
+          "kind": "previously_certified_stage_endpoint",
+          "stage": 127,
+          "endpoint": "inner",
+          "path": "/workspace/scratch/1b6d88ecddf3/n4-work/q060-tail-geometry/stage127-literal-r-data.json",
+          "sha256": "45b86d8328d47dc61a4dba399e066332a0f1774b1cc945df9d89b5604fed2cd1"
+        },
+        "originalRadius": 0.13622361278883402,
+        "canonicalRadius": 0.13622361278883402,
+        "radiusDifference": 0,
+        "maximumJetDifferences": [
+          0,
+          0,
+          0
+        ],
+        "meanDifference": 0,
+        "physicalHeightMaximumDifference": 0
+      },
+      {
+        "node": 127,
+        "receivingStage": 127,
+        "endpoint": "outer",
+        "canonical": {
+          "kind": "previously_certified_stage_endpoint",
+          "stage": 127,
+          "endpoint": "outer",
+          "path": "/workspace/scratch/1b6d88ecddf3/n4-work/q060-tail-geometry/stage127-literal-r-data.json",
+          "sha256": "45b86d8328d47dc61a4dba399e066332a0f1774b1cc945df9d89b5604fed2cd1"
+        },
+        "originalRadius": 0.13628340173212172,
+        "canonicalRadius": 0.13628340173212172,
+        "radiusDifference": 0,
+        "maximumJetDifferences": [
+          0,
+          0,
+          0
+        ],
+        "meanDifference": 0,
+        "physicalHeightMaximumDifference": 0
+      }
+    ]
+  },
+  "continuous_certificates": {
+    "stages": [
+      {
+        "stage": 128,
+        "spans": 16,
+        "shared_two_jet_scalar_equalities": 14688,
+        "map_hash": "c6a9b5e14f29ccd434dc7cff50bd8e1dee34f21d57f1566cb6974c91223da573",
+        "sha256": "599ae5d9e816a20d84ae1b4fcd4aeebbfed6cc7e8a421ab4f982c0c20ac11a41",
+        "seconds": 64.59490096400259,
+        "continuous_metric_operator_upper": {
+          "lower": 8.716665715219651e-12,
+          "upper": 8.716665715219653e-12
+        },
+        "normalized_first_jet_upper": {
+          "lower": 2.0035457814635527e-06,
+          "upper": 2.003545781463553e-06
+        },
+        "normalized_covariant_Hessian_upper": {
+          "lower": 7.342217110302158e-05,
+          "upper": 7.342217110302159e-05
+        },
+        "principal_curvature_upper": {
+          "lower": 8.000105479294156,
+          "upper": 8.000105479294158
+        },
+        "position_perturbation_upper": {
+          "lower": 6.073140775075461e-08,
+          "upper": 6.073140775075463e-08
+        },
+        "true_source_cover": [
+          [
+            0,
+            0,
+            "937499/1000000",
+            "1"
+          ],
+          [
+            0,
+            1,
+            "0",
+            "1/1000000"
+          ]
+        ],
+        "true_w_range": {
+          "lower": 0.011254032847027338,
+          "upper": 0.011254351849435379
+        },
+        "executed_Gram_method": "all_linear_Fourier_merged_all_quadratic_norm_bounded"
+      },
+      {
+        "stage": 143,
+        "spans": 16,
+        "shared_two_jet_scalar_equalities": 14688,
+        "map_hash": "e03e14481feac8923d6b5aeab49b4bddb007f4ab08d9b8d13e520a505fa9f5e9",
+        "sha256": "4fc52b3d44a142f3d31d6c9f19db219e87f4901020cfcd4f984732237a4b5022",
+        "seconds": 4.8845864920003805,
+        "continuous_metric_operator_upper": {
+          "lower": 8.687424201658617e-12,
+          "upper": 8.687424201658619e-12
+        },
+        "normalized_first_jet_upper": {
+          "lower": 1.994628449388696e-06,
+          "upper": 1.9946284493886963e-06
+        },
+        "normalized_covariant_Hessian_upper": {
+          "lower": 7.350593229930631e-05,
+          "upper": 7.350593229930633e-05
+        },
+        "principal_curvature_upper": {
+          "lower": 8.000105420376208,
+          "upper": 8.00010542037621
+        },
+        "position_perturbation_upper": {
+          "lower": 5.976764028526255e-08,
+          "upper": 5.976764028526257e-08
+        },
+        "true_source_cover": [
+          [
+            1,
+            8,
+            "999999/1000000",
+            "1"
+          ],
+          [
+            0,
+            0,
+            "0",
+            "62501/1000000"
+          ]
+        ],
+        "true_w_range": {
+          "lower": 0.011258817902909621,
+          "upper": 0.011259136926692243
+        },
+        "executed_Gram_method": "all_linear_Fourier_merged_all_quadratic_norm_bounded"
+      },
+      {
+        "stage": 144,
+        "spans": 16,
+        "shared_two_jet_scalar_equalities": 14688,
+        "map_hash": "ed21c4ac14965fbc2e1a7189e43209747d0120434581d3c096d7832c62ca88d8",
+        "sha256": "784d9e0d16b856ff0c2ab78ee36c382d1667ed9b7cf631d53c5e0bad53238106",
+        "seconds": 5.47642832800193,
+        "continuous_metric_operator_upper": {
+          "lower": 7.807771160004468e-12,
+          "upper": 7.80777116000447e-12
+        },
+        "normalized_first_jet_upper": {
+          "lower": 1.994017724643642e-06,
+          "upper": 1.9940177246436424e-06
+        },
+        "normalized_covariant_Hessian_upper": {
+          "lower": 7.350665596924195e-05,
+          "upper": 7.350665596924196e-05
+        },
+        "principal_curvature_upper": {
+          "lower": 8.000105411328137,
+          "upper": 8.00010541132814
+        },
+        "position_perturbation_upper": {
+          "lower": 5.970333916182926e-08,
+          "upper": 5.970333916182927e-08
+        },
+        "true_source_cover": [
+          [
+            1,
+            8,
+            "937499/1000000",
+            "1"
+          ],
+          [
+            0,
+            0,
+            "0",
+            "1/1000000"
+          ]
+        ],
+        "true_w_range": {
+          "lower": 0.011259136919783322,
+          "upper": 0.011259249716582102
+        },
+        "executed_Gram_method": "all_linear_Fourier_merged_all_quadratic_norm_bounded"
+      }
+    ],
+    "seconds": 75.1432858900007,
+    "summary_sha256": "b178a205bfda1977924351579fc3f2f198d5b2de031b1890e81645d028205bf1",
+    "scalar_endpoint_equalities_total": 44064,
+    "original_BVP_solves": 0,
+    "shooting_iterations": 0,
+    "full_H": false,
+    "global_tail_complete": false,
+    "Cartesian_prefix_seam": false,
+    "all_R_and_all_angles": true
+  },
+  "commands": [
+    "OPENBLAS_NUM_THREADS=1 python math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4/extract_q060_native_mean_chain.py --checkpoint m3-work/newg-wide-lambda0p002-m24-actual/tail_0001.json.gz --native-record m3-work/newg-native-m24/runs/actual-lambda0p002/0009-jac-record.json --out n4-work/q060-tail-geometry/warm025-native-mean-chain.json",
+    "OPENBLAS_NUM_THREADS=1 node math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4/export_q060_shared_r_tail_batch.mjs --input n4-work/q060-tail-geometry/warm025-native-mean-chain.json --stages 127,128,143,144 --anchors n4-work/q060-tail-geometry/warm025-shared-stage-anchors.json --outdir n4-work/q060-tail-geometry/shared-pair-batch",
+    "OPENBLAS_NUM_THREADS=1 python math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4/certify_q060_shared_r_tail_batch.py --manifest n4-work/q060-tail-geometry/shared-pair-batch/manifest.json --constants n4-work/q060-tail-geometry/constants.json --normalization-certificate n4-work/q060-tail-geometry/tight-integrals-certificate.json --outdir n4-work/q060-tail-geometry/shared-pair-certificates --stages 128,143,144"
+  ],
+  "not_claimed": [
+    "No exact original PDE derivative certificate is inferred from selected FD nodal second jets.",
+    "No IEEE or JS elementary-function transfer is needed to define the new finite nodal map; the true background is certified directly.",
+    "No full-H tail or whole-surface completion is claimed."
+  ]
+}
