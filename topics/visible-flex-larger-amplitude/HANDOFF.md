@@ -63,6 +63,6 @@ R650/R661提供同场support/K加四固定p4 marker的全t reach/grip/held/E框�
 
 ## 当前公开Actions执行
 
-run [44772201880/1](https://github.com/Rogerhu12/math-research-public/actions/runs/44772201880)，源码`e0d4892aabfec77f64c33a9cc34da9ff3cf39ba4`；[实际紧凑记录](notes/2026-11-20-public-actions-44772201880-1.md)。当前`followup:continue-complete-sixjet-curvature-03`/running，返回阶段30；退出码未返。
+run [44758209061/1](https://github.com/Rogerhu12/math-research-public/actions/runs/44758209061)，源码`4ae162196553e6ce2ef28a6a35bea2d0d567883e`；[实际紧凑记录](notes/2026-11-20-public-actions-44758209061-1.md)。当前`followup_waiting`/running，返回阶段42；退出码未返。
 
-Actions规则核查：2026-11-20 19:50:28 UTC，真实pull至`5124f434797b7c9910753411b35cb0d41106b109`，双README相对已读无变化。
+Actions规则核查：2026-11-20 20:10:17 UTC，真实pull至`e63554e2d6cd2e8236c7fd853e653b344d1c3659`，双README相对已读无变化。
