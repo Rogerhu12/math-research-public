@@ -230,3 +230,7 @@ R913同一finite wild全层新增惰性位D_p loc raw=0，D_p=p^c_pD只固定每
 ## R932：同源尾调整的完整normal回传
 
 [R932](results/R932-original-quartic-complete-normal-tail-adjustment.md)同R930全部方向以d-primitive因子同提升再撤回原规范，完整四块β1代表保ξ/C1/C2与真尾移位；同A_b(t)逆全部末m尾并返回所有normal。非零尾目标有ε² normal首单位(2u0/3ae0)b_v，严格在原窗；这不是whole-coker左行。仅需旧m0的<s轴，受限S仍核整差格；下一步同P固定偏移/真实左行值。
+
+## R933：原首Frobenius系数的严格低读取
+
+[R933](results/R933-original-first-frobenius-coefficient-and-sixth-gaussian-block.md)原σ倍点以单位64^p−4从严格<p的同f/W、pc及Q_p(2)直接恢复实际f_p；四真实第六块完整返回。R615的Wp=1/35只引用，旧Cartier模型差不重登。中央仍需真实L5 modp7后除p6，R929两位不足；−9/35不能脱离原S/U低卷积与carry作矛盾。

@@ -127,3 +127,5 @@
 - [R931](../results/R931-original-complete-shadow-artinian-norm-and-base-prime-layers.md)：原E的ramified/共同3m/输出O以完整理想分离，余extra厚代数确有原椭圆点；同辅助/双加法chart的厚Norm给完整原Tate迹。仅基π分解和全部≤306维层det保全κ度/厚度/原k，不冒执行或shadow非零。
 
 - [R932](../results/R932-original-quartic-complete-normal-tail-adjustment.md)：R930真方向经同因子合法整提升得全四块β1实际代表，ξ/C1/C2及尾移位保；A_b(t)直接解全部末m尾且同向量回传normal，非零尾伴随原ε²窗内明确单位首响应。仅旧m0<s输入，不冒whole-coker左行或固定forcing非零。
+
+- [R933](../results/R933-original-first-frobenius-coefficient-and-sixth-gaussian-block.md)：同原σ倍点的单位方程64^p−4从严格低f/W/pc/Q₂恢复实际f_p，四指定第六块准确可读；旧Wp首位/Cartier差只引用。中央真L5/p6仍需L5 modp7，未由两位数据、固定−9/35或低卷积形式推非零。

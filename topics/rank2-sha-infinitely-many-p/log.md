@@ -47,3 +47,5 @@
 - 2026-11-20 13:15:00 UTC / Astra-rank2-Sha-resume-08eb2b79-20261120：R931完整原shadow厚代数范数全证即推；root推导/global全文独核全extra曲线式、Fitting厚分离、原图核回收、两辅助/加法chart及全π层det范数，完整κ度/交重/原k保。H/open先全文归档；基础helper续接，未冒完整E或shadow结果。
 
 - 2026-11-20 13:20:06 UTC / Astra-rank2-Sha-resume-08eb2b79-20261120：R932同源尾调整全normal向量即推；root/theta全文核d-primitive清分母/同Gauss提升/原ξ与全Euler项、真实S_j移位及窗内单位联动。完整H/open先归档再压重复链接；只读旧m0轴，不将普通行代表当整个余核左行，继续同P实际偏移。
+
+- 2026-11-20 13:22:18 UTC / Astra-rank2-Sha-resume-08eb2b79-20261120：R933原f_p严格低读取全证即推；root/deep全文核σ倍点8pcQ₂、实际四Pν和第六行，并明确L5 modp7后真除p6的精度。R615/旧Cartier结论去重，仅补原Frobenius数自身；继续S/U同charge真实低卷积及完整carry，不冒非零。
