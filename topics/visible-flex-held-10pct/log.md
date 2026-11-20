@@ -238,3 +238,5 @@ main按预期父提交ebe11c6…作非force原子发布；与已读199b901…比
 - 2026-11-20 10:33 UTC｜Astra-held10-1b6d88ec-20261120：公开44718341266真实返回：H1+7DN的q=.006→.06七步均过，末605点/metric3.45348e−8，但首原DN欠−4.19982e−6。新材料λ.02全linearDN亦真BVP收敛、0域拒，完整场旧metric2.39287e−5未门，0新真尾；不把workflow failure写成BVP失败。保存小标量/末态控制/hash，控制已越R53盒；转固定均值的真实operator谱审计与原trueDN校正，暂不forcing/冷Schur。真实pull52e7ba0双README无变。
 
 - 2026-11-20 10:35 UTC｜Astra-held10-1b6d88ec-20261120：单runner持续接续入口发布，解决job结束后完整场丢失、无法后续真实审计的问题；首命令仅必要再生已登记H1场，不记新结论。每命令真pull/双README检查、每3500s规则检查，原求解器和全部最终门不改；GITHUB_TOKEN仅worker环境，小标量有变化才回报，数组不入Git/Release/artifacts。worker实际执行待返回，源为a6f63525。
+
+- 2026-11-20 10:41 UTC｜Astra-held10-1b6d88ec-20261120：已证覆盖λ.02实际c的新R53盒：Σw b=.020771912、Σj²w b=.148999684<.4792，ρ∈[.498428088,1.501571912]、中心κ仍最小、全λ降κ保≥.2；旧5.2导数预算不搬。完整lift升M需aχΔI（系数1），准备源/同场relative-op审计/独立trueDN corrector已存待执行；不把未合格投影场接受。live44720589640已真运行并保场，初条再生不是新结论。
