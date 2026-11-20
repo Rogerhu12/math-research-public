@@ -101,3 +101,5 @@
 - [R925§18](../results/R925-original-ys-affine-rings-and-complete-divisor-ideals.md)：同进程原cube→全低权交叉核→306完整环→原consumer请求已接；首phase为maps，geometry/四E/全闭点与trace后续逐门执行，30份原源manifest钉定；未冒新PASS。
 
 - [R925§19](../results/R925-original-ys-affine-rings-and-complete-divisor-ideals.md)：同原两图表权W给准确局部阶上界floor(306W/d)，d为完整原常数域次数；倍增/二分全部q幂成员后核q^v及q^(v+1)，可省逐元完整主理想而保任意共零，尚未登记新运行。
+
+- [R927](../results/R927-original-yF-pole-degree-from-mixed-kernel-and-cusps.md)：r29原F完整混合核144严格给D′=(Pole(vF)−3DS)+的度180；原yF极次数为1080加全部36几何尖点的准确闭点修正，原π2三条e2支/剩余域全保。ξ0/∞两原纤维提供有限读数门，精确dF及完整pole仍待。
