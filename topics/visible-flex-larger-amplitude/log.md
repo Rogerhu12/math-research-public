@@ -111,3 +111,5 @@
 2026-11-20 13:18 UTC / Astra-larger-resume-24b2ab87-20261120：完整Phi余量不等式首256自然返da088，1/4真接受，Phi1.16835658e−7/max.01329667，新增a04点后product.991850018963，仍弱于a04。完整4源/原纯位置/所有3trial/KKT残差及本地来源刊；28条821同盆近重复与低phi实际拒峰未线性化的证据保，负raw乘子不冒主因。
 
 2026-11-20 13:19 UTC / Astra-larger-resume-24b2ab87-20261120：R668未驻点可行释放完整证明及独立v2源直接刊：rho=-lambda*gamma为单位内向方向下降率且正行缩放不变，释放后d的严格下降/入内式完整；不以raw乘子幅度判据，也不声称解决另一工作集遗漏。旧v1源不覆盖；v2小模型/实际场只安排Actions，尚无新运行值。
+
+2026-11-20 13:35 UTC / Astra-larger-resume-24b2ab87-20261120：公开Actions完整warm→a04重建与可选新四方向源码/纯位置输入/完整说明刊；25/28阶段，旧实际主链3736.64s只是预算依据。13ce严格从v4b accepted-1起，固定位置旁支只传位置并重绑实际同g carrier，新场不继承旧SHA/证书。optional新并集1107κ/180radius/18protected、local-refine21，所有新值待Actions真实返回。
