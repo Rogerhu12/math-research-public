@@ -1,30 +1,57 @@
 {
-  "id": "held10-clean-runtime-and-m12-01",
-  "read_rules_commit": "fdf9e4b8a5a25ca8d9829c784849e498b01e20d7",
-  "script": "topics/visible-flex-held-10pct/scripts/resume_m3/retry_material_runtime_and_transfer.py",
+  "id": "held10-material-m12-linear-01",
+  "read_rules_commit": "92c13764955367bd5c57c556dca4c805755b8e0c",
+  "script": "topics/visible-flex-held-10pct/scripts/resume_m3/portable_prefix_continue.py",
   "args": [
-    "--repo",
-    "@REPO@",
-    "--workdir",
-    "@WORK@"
+    "--source-topic",
+    "@WORK@/runtime-source/bundle/topics/visible-flexible-closed-surface",
+    "--short-bridge",
+    "@WORK@/runtime-source/bundle/topics/visible-flex-larger-amplitude/computations/root_short_bridge.py",
+    "--profile",
+    "@WORK@/inputs/q060-profile.json",
+    "--chart",
+    "@WORK@/inputs/reference/chart.json",
+    "--port",
+    "@WORK@/material-lam002-m12-transfer-v2/linear-port.json",
+    "--raw-restart",
+    "@WORK@/material-lam002-m12-transfer-v2/initial.npz",
+    "--core-module",
+    "@REPO@/topics/visible-flex-held-10pct/scripts/resume_m3/material_support_factory.py",
+    "--core-config",
+    "@REPO@/topics/visible-flex-held-10pct/scripts/resume_m3/material_support_lam002.json",
+    "--amplitude",
+    ".06",
+    "--warp-reference",
+    ".06",
+    "--modes",
+    "12",
+    "--angular",
+    "384",
+    "--audit-angular",
+    "512",
+    "--nodes",
+    "401",
+    "--max-nodes",
+    "6000",
+    "--tol",
+    "1e-6",
+    "--bc-tol",
+    "1e-7",
+    "--physical-bc-tol",
+    "2e-9",
+    "--outdir",
+    "@WORK@/material-lam002-m12-linear"
   ],
   "diagnostics": [
     {
-      "path": "@WORK@/material-runtime-retry-status.json",
+      "path": "@WORK@/material-lam002-m12-linear/run.json",
       "keys": [
-        "status",
+        "solver_success",
         "error",
-        "diagnostics",
-        "stages"
-      ]
-    },
-    {
-      "path": "@WORK@/material-lam002-m12-transfer-v2/transfer.json",
-      "keys": [
-        "status",
-        "error",
-        "diagnostics",
-        "result"
+        "raw_return",
+        "prefix_audit",
+        "domain_newton_stats",
+        "domain_error_counts"
       ]
     },
     {
@@ -46,6 +73,15 @@
         "tail_seam",
         "domain_newton_stats",
         "domain_error_counts"
+      ]
+    },
+    {
+      "path": "@WORK@/material-runtime-retry-status.json",
+      "keys": [
+        "status",
+        "error",
+        "diagnostics",
+        "stages"
       ]
     }
   ]

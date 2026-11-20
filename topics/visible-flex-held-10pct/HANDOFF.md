@@ -6,7 +6,7 @@
 
 连通闭C²嵌入连续族；固定有内点H、diamH≥.2D，整像δhold≥.1D且含反射δE>0；全时reach≥.03D。同一个完整g/全部物理参数/时间范围下，完整metric≤1e−6，空间/频率/时间精化继续下降至求解或机器地板；实际闭合与C²接口均要付清。完成后继续增大比例。
 
-- 部分克隆工作树 /workspace/scratch/1b6d88ecddf3/math-research-public。已读规则提交：`35585d1e2e3611aa5ab92e2533fe2ca9ab8f85bf`；11:51 UTC本地真实pull --rebase至该提交，双README无变。每次pull检查双README差异，至少每小时一次；API比较不冒充pull。
+- 部分克隆工作树 /workspace/scratch/1b6d88ecddf3/math-research-public。已读规则提交：`816436e5a8b6d3c832c70e87e6885b0d6b4501a6`；11:52 UTC本地真实pull --rebase至该提交，双README无变。每次pull检查双README差异，至少每小时一次；API比较不冒充pull。
 - 11:06 UTC终端恢复；root独占git，逐结论推送，NFF立即rebase/核README再推，禁force。令牌只在命令行。旧失联进程不假作当前运行。
 - 根§12优先实际求解，不重做身份核查/双审；§15可再生场、网格、矩阵不入Git/Release/CI artifacts。只存源、参数、命令/hash及紧凑标量。H<10KB、单MD<100KB、目录<200MB，不写根LOG。
 - 历史细节在[原接手H](https://github.com/Rogerhu12/math-research-public/blob/9288f266d1f242b594d70a714e20340fcb876023/topics/visible-flex-held-10pct/HANDOFF.md)及[本次完整H到a4f89c](https://github.com/Rogerhu12/math-research-public/blob/a4f89c80f0f0b7e5db0f2fb4520b0c3abe8a9861/topics/visible-flex-held-10pct/HANDOFF.md)；压缩摘要不撤销旧结论/失败。
@@ -22,13 +22,13 @@ R55多段provider已安装独立source副本，复用原turn_ramp，全部段长
 1. 旧g/H1暖恢复q=.006→.06全过，末605点/RMS9.98499e−7/metric3.45348e−8；raw在height-warm-resume01-05-q0.0600000/inner-00.npz。它仍欠首原linearDN约−4.20e−6和全部trueDN。原q006失败及暖重网格的具体RMS/STATS见[原记录](notes/2026-11-20-m3-q006-rms-hermite-defect-and-warm-remesh.md)，不重判/重跑。
 2. **λ=.02全原linearDN已再次实际收敛并保场**：material-lam002-linear/，605点、RMS9.99095868e−7、两全步/0域或merit拒；旧metric_l1=2.3928678464e−5未门。raw SHA2a6f97324986437e2f065bf29e98d55b48e43cf19a3bb9fc321fad7b27d197a4；physical SHA c54e932618ef7c0f9f16df4e3f2a016983922eba2fb9deb0d64306bcdec04dff。必要再生不是新物理结论，见[本次返回](notes/2026-11-20-live-material-lambda002-return.json)。
 3. **同场两审计已实际exit0**：operator N512/1024峰2.1279782e−5/2.1302182e−5，R=2.26536e−4，径向缺陷仅2.96e−8；ψ26—50壳主导，mean差2.44e−15。当前场径向导数替换只能改节点metric<6e−8，转扩大未知场表示。trueDN在ready首行之前启动失败，0实际尾响应/验收尚待日志确认，不能判数学不收敛。见[实际审计](notes/2026-11-20-material-actual-audits-and-tail-start.md)。
-4. 两项startup已确诊：native原guard拒LD_PRELOAD/LD_LIBRARY_PATH继承覆盖，calls0；M12 port的128角点不满足原N>4M×spacing=144。**当前held10-clean-runtime-and-m12-01**：先在清loader环境验证同Python/NumPy/SciPy，再新目录material-runtime-retry01重试原M8真尾；同时用256数值求积导出真实M12 port并完整lift到material-lam002-m12-transfer-v2。不移除guard、不改物理g/最终门、不覆盖旧失败；summary material-runtime-retry-status.json。
+4. native loader守卫保持，清LD继承后同Python/NumPy/SciPy真导入。旧M8 trueDN在material-runtime-retry01进入native_ready，尚无终态。**M12传递已真exit0**，新port数值角求积256满足原N>144，完整二jet差≤4.00e−15，初猜/port在material-lam002-m12-transfer-v2；[实际记录](notes/2026-11-20-material-m12-full-transfer-return.md)。已排队held10-material-m12-linear-01，当前clean-runtime命令结束后从该初猜解原M12 linearDN，λ=.02及原门不变。
 
 旧44718341266成功场已失，仅记录保留；本次为必要再生。离散下界与真实operator均已排除“仅FFT-l1保守”解释，非严格连续g证书。
 
 ## 新几何与数值路线
 
-- **R52—54均为条件设计**。R52材料κ核精确周长/凸闭合/圆弧；R53从原真实核圆化保均值/全部参数jets，四接口已实际过，非BVP存在。旧tau0盒C0/C1/C2步长<(.01936,.016,.16683)λ；λ.02新控制越旧盒，已补严格扩大盒覆盖并保κ≥.2，旧5.2二导预算不移用。[传递与新盒](notes/2026-11-20-m3-lifted-mode-transfer-and-expanded-core-box.md)。
+- **R52—54均为条件设计**。R52/53材料κ核保精确周长、凸闭合、圆弧与全部参数jets，四接口已实际过，非BVP存在。λ.02控制已付扩大盒/κ≥.2；旧5.2二导预算不移用。[传递与新盒](notes/2026-11-20-m3-lifted-mode-transfer-and-expanded-core-box.md)。
 - R54 S=.5/b=.2/k=.2、H材料宽.54/相位.45，H径>.53973756，柱长仅0<ℓ≤.01。若全图D0≤2.64及完整曲率/支撑/标记付清，则n3 held>.111439D、n4>.132023D。当前计算仍S=.21，不能搬宽窗数值。**R55已证原短ramp的经典C³准确圆片K>26、reach/D<.02**，非所有C²或λ.02排除。新多段首段在κ<12.5时耗尽S=.5保护窗；δ∈[.06,.063]首cycle严格|X|<1.32，50个精确Bernstein盒已真过。新g线性根与首非线性场已实际取得，需r≤1.1宽盒，旧盒不外推；[R55](results/R55-flat-ramp-reach-obstruction-and-soft-start.md)。
 - 完整lift升M补aχ(Inew−Iold)，系数1而非λ.02；真实高维linearDN必须实际导出，禁止只补零。升M后若δ/c仍自由，只是设计延拓，不是完成标准#5。
 - 全部固定参数场接口FrozenPhysicalField已备未执行：只改场、入口消元、保全部真实DN；兼容债η=rT−CA⁻¹rE，不能偷放q/c/mean。[固定接口](notes/2026-11-20-n4-fixed-physical-field-refinement.md)。

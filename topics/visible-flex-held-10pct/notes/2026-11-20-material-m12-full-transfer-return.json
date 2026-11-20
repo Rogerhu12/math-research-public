@@ -1,0 +1,51 @@
+{
+  "source_live_id": "held10-clean-runtime-and-m12-01",
+  "read_at_utc": "2026-11-20 11:46 UTC",
+  "kind": "actual_finite_transfer_only",
+  "complete_surface": false,
+  "diagnostics": {
+    "check_angular": 2048,
+    "check_s": 103,
+    "core_homotopy": 0.02,
+    "exact_lift_coefficient": 1,
+    "inlet_projection_change_max": 0.0000021505121850230283,
+    "meridian_two_jets_checked": true,
+    "port_resolution_change": {
+      "new_modes": 12,
+      "new_quadrature": 256,
+      "old_modes": 8,
+      "old_quadrature": 128,
+      "physical_parameters_changed": false
+    },
+    "reference_two_jet_checks": {
+      "position": 3.19264533430656e-16,
+      "psi": 3.3917531705969593e-16,
+      "psi_psi": 7.947987303456224e-16,
+      "rho": 0,
+      "s": 2.3281675882275486e-16,
+      "s_psi": 7.351053198070336e-16,
+      "s_s": 3.999211501054847e-15
+    }
+  },
+  "result": {
+    "angular": 384,
+    "initial_raw": "/home/runner/work/_temp/held10-live/material-lam002-m12-transfer-v2/initial.npz",
+    "initial_raw_sha256": "58546880d4d66e4ab0ddd8bc538e07eeb090cd4f5b70a234f14e061f5d9d057e",
+    "modes": 12,
+    "port": "/home/runner/work/_temp/held10-live/material-lam002-m12-transfer-v2/linear-port.json",
+    "port_sha256": "e59fd73d1ca019ff9891d72af9a31489cc90e64c5cb8a199eb2882ecd7ef3f38",
+    "tail_config": "/home/runner/work/_temp/held10-live/material-lam002-m12-transfer-v2/tail-settings.json"
+  },
+  "status": "nodal_initial_guess_ready",
+  "clean_runtime": {
+    "clean_python_returncode": 0,
+    "clean_python_stderr": "",
+    "clean_python_stdout": "{\"numpy\": \"2.3.5\", \"scipy\": \"1.17.0\"}\n",
+    "loader_override_presence_before": {
+      "LD_LIBRARY_PATH": true,
+      "LD_PRELOAD": false
+    },
+    "loader_overrides_present_after": false,
+    "native_guard_unchanged": true
+  }
+}
