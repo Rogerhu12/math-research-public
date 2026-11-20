@@ -227,3 +227,5 @@
 2026-11-20 17:40 UTC / Astra-larger-resume-24b2ab87-20261120：R681角矩源da083ae9完整刊：直接复用当前R664正块/完整moving-frame cache，21×50角矩保全部原角权与全M场；按全部observed行Hermite重建真实B_H=(b-h)+h，非legacy行cache。gamma=k/(scale² C0)，原R双侧白化仅利用逐项零块，无单位J扫描/巨大Q/新场读。root与独立静态接口核无具体缺陷，仅AST/源码，不宣称数值PSD/耗时/改善；原线性QP与真实几何分责。
 
 2026-11-20 17:40 UTC / Astra-larger-resume-24b2ab87-20261120：有限追读实际warm separated-QR→pulse DOP853→Hold/mode路径，未见可直接归因的未固定RNG/未赋值槽/时钟数学停止。JSON seconds确可变raw/report SHA，但warm NPZ无该元数据，不能解释实际有限max差。两workflow未锁完整image/wheel/BLAS/libm/CPU分派，未据此猜定原因；af89实际摘要均iteration_budget，不冒time_budget。无science/fixture/参数改动，不重算追历史SHA；同场绑定继续。
+
+2026-11-20 17:52 UTC / Astra-larger-resume-24b2ab87-20261120：R681独立v4 dd595105完整刊：None字节绑定委派原v3；固定PBP/已付Hd共轭系数，原欧氏Pg停止、R668释放首步欧氏向内后明确重启。启用分支以实际alpha||d||判零，稳定范数/除法避免缩放误判；B失效明确截断并付末真实诊断，不链内换identity。beta_bg首方案1/mu²属预条件而非新范数。仅源码/AST，真实PCG未跑；不据此声称扩大几何步长。

@@ -4,7 +4,7 @@
 
 ## 规则与完整目标
 
-最近规则核查：2026-11-20 17:40 UTC，真实pull/rebase至 `b44731cc49bda05a6e000b1c2a4879d3b839705a`，双README相对上次已读无差异。
+最近规则核查：2026-11-20 17:52 UTC，真实pull/rebase至 `06a3b593f2e921f5c2734872410e2dba4e353e91`，双README相对上次已读无差异。
 
 科学计算仅本公开仓库Actions；早前本地偏差及13:00 UTC纠正见[执行记录](notes/2026-11-20-public-actions-execution-correction.md)。根README已授权必要修改/发布；根唯一local git writer，代理只work/小源。每条结论普通commit/push；NFF立即pull --rebase循环再推，不强推。至少每小时pull，每次核双README差异/立即遵新规并记commit。raw只scratch/runner，不入Git/Release/artifact；只保完整小源/参数/run/SHA/紧凑结论。题≤200MB，MD<100KB，H<10KB，open<30KB。令牌只瞬时CLI，不写文件/提交/回复。
 
@@ -30,7 +30,7 @@ run2后续：e08同g径向二分/fine1×256→[纯report精化归因](notes/2026
 
 **独立几何worker03**：[run44772201880/1](https://github.com/Rogerhu12/math-research-public/actions/runs/44772201880)，初源e0d4892a，[实际索引](notes/2026-11-20-public-actions-44772201880-1.md)。[真实新场756936ee首jet/半径已返](notes/2026-11-20-geometry03-actual-field-and-radius-return.md)，不是c4a3；warm起字节不同；[有限静态核对](notes/2026-11-20-warm-reproduction-static-scope.md)未见简单RNG/未赋值缺陷，实际成因未归。全922嵌入sigma≥.29654，Dbody≤4.09930034/Dmarked≤4.10130034，held/D≥.22886895、grip/D≥.21944259。原8ca全K目标8.1未返，继而同场准确组合；不得跨run继承证书。逐胞续接f476仅准备，不改已admit核。
 
-旧run44748103105已failure结束：pair02真返；R67102已起并自然返但95KB发布故障无可核数值，非未启动/数学失败。[同父两余量实际pair](notes/2026-11-20-actual-full-phi-margin-pair-result.md)均半步接受；.992余量更大，旧场证书不移用97fd。
+旧run44748103105因95KB发布失败结束；R67102已自然返但无可核数值。[pair真返](notes/2026-11-20-actual-full-phi-margin-pair-result.md)，两者半步接受、.992余量更大；旧场证书不移用新场。
 
 ## 已证结果与当前源
 
@@ -44,9 +44,9 @@ run2后续：e08同g径向二分/fine1×256→[纯report精化归因](notes/2026
 - R676：同g符号二分/补零/旧行正权/全部永久点/六jet转移差；真实fine solve源齐。跨层Phi权变只比较共同父泛函，单次转移或fine不冒持续精化收敛。
 - R677：同QP可靠残差/固定面长CG，v3 fb4已排；R673面gap和规范化释放另付，raw负乘子不定因果。
 - R678：仅增M准确补零保同场六jet、原carrier/全权/N及完整母/商范数；eea174b9入口仅准备，依径向实际归因择用。
-- R679：N倍增的旧偶/新奇Phi各半、同场max取两者max，旧点归一权减半；共同旧N/新odd归因及条件角余项已证，仅接口设计未排算。
+- R679：N倍增旧偶/新奇Phi各半、max取并；共同N/odd归因及条件角余项已证，仅设计。
 - R680条件二阶修正：[父行helper5bc](notes/2026-11-20-parent-row-SOC-helper.md)仅准备；固定branch/radius/norm、QR原范数及全C检查，严格L/tau未付，driver接线中，无实际SOC接受。
-- R681：当前J物理coarse框架/一般K、moving-frame正谱角矩及SPD/PCG已证；[隐式小模块324513a1](notes/2026-11-20-R681-implicit-coarse-frame-source-interface.md)仅准备，[角矩da083ae9](notes/2026-11-20-R681-current-coarse-moments-source-interface.md)已齐未跑，PCG接线中，无改善结论。
+- R681：当前J物理coarse框架/一般K、moving-frame正谱角矩及SPD/PCG已证；[隐式小模块324513a1](notes/2026-11-20-R681-implicit-coarse-frame-source-interface.md)仅准备，[角矩da083ae9](notes/2026-11-20-R681-current-coarse-moments-source-interface.md)已齐未跑；[固定PCG v4 dd595105](notes/2026-11-20-R681-fixed-preconditioned-QP-v4-interface.md)准备，原欧氏停止/释放首步不变，无改善结论。
 - R682：严格metric lower用自己配置的准确s/π角身份，已有address可复用；新增正权必换Phi版本，全free点导数/分母链已证，超标硬门不可直接交零步feasible-CG。
 
 R650/R661提供同场support/K加四固定p4 marker的全t reach/grip/held/E框架。K差直接复用R227；[当前诱导联络接口](notes/2026-11-20-induced-connection-curvature-transfer-interface.md)仅准备，不另编号或继承K。R656/R657支付连续几何/Gram接口；R658/R659付6077整面幅度，R663/R667付各自0241/077几何，均不继承到别场。R660正谱目标/有限max、R664正Hessian保原全空间。R668实际v2例Actions通过/2release，旧fixture不再加。
@@ -59,7 +59,7 @@ R650/R661提供同场support/K加四固定p4 marker的全t reach/grip/held/E框�
 
 旧0241地点纠正exit130：1146 attempt/922粗+224细、850胞≤8.1，后续未返且不抄新值。R648/651/652只开放prefix。七次raw普通移出保源/输入/历史恢复见[容量记录](notes/2026-11-20-resume-raw-retention.md)，不改历史。
 
-本次压缩前H保[f1d20a2e](https://github.com/Rogerhu12/math-research-public/blob/f1d20a2ea8c6f9ecc817692a01aa6fb24be8f747/topics/visible-flex-larger-amplitude/HANDOFF.md)，内链此前完整交接。所有未付责任继续按open推进；不是等待用户确认的阶段停点。
+本次压缩前H保[0cd24600](https://github.com/Rogerhu12/math-research-public/blob/0cd24600ff52cfc29ab9dc71c7b5e646e51374cc/topics/visible-flex-larger-amplitude/HANDOFF.md)，内链此前完整交接。所有未付责任继续按open推进；不是等待用户确认的阶段停点。
 
 ## 当前公开Actions执行
 
