@@ -174,7 +174,7 @@ if __name__=='__main__':
             state=json.loads(target.read_text()) if target.exists() else {}
             state.update(status='corrector_error',error=repr(exc),
                          traceback=traceback.format_exc()[-6000:],complete_surface=False)
-            target.write_text(json.dumps(state,indent=2)+'\\n')
+            target.write_text(json.dumps(state,indent=2)+'\n')
         except Exception:
             pass
         raise

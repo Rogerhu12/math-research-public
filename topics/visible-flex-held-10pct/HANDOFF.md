@@ -6,7 +6,7 @@
 
 连通闭C²嵌入连续族；固定有内点H、diamH≥.2D；整像δhold≥.1D、含反射的δE>0；全时reach≥.03D。固定全部g/物理参数/时间范围，完整metric≤1e−6且空间/频率/时间精化下降至求解/机器地板。条件比例窗、开放前缀、有限接受均非完成；完成后继续增大比例。
 
-- 工作树 `/workspace/scratch/1b6d88ecddf3/math-research-public`；已部分克隆并真实pull。已读规则提交：`67b0e08aa90218fb283fef7629b0c84a7849ece5`；API差异核对双README无变化。最近真实pull为10:36 UTC公开live worker到3bfc61f2a85、双README无变化；后续API比较不冒充pull。持续至少每小时实际pull并核规则。
+- 工作树 `/workspace/scratch/1b6d88ecddf3/math-research-public`；已部分克隆并真实pull。已读规则提交：`514634898dbfcfe19814cd4851edfc087c8251d5`；API差异核对双README无变化。最近真实pull为10:36 UTC公开live worker到3bfc61f2a85、双README无变化；后续API比较不冒充pull。持续至少每小时实际pull并核规则。
 - root独占终端git发布。每条结论同步H/log并立即push；NFF即pull --rebase、核双README并重推，禁force。首次接手提交d75355cbd已推。
 - 根§12：不重复旧身份审计/双审流程，优先实际求解。根§15：可再生场、网格、矩阵/输出不入Git/Release/CI；只留源/参数/命令/hash和紧凑数值。H<10KB，单MD<100KB，目录<200MB，不写根LOG。
 - `/workspace/scratch/7322d0dee069`明确不存在。旧91205(λ.82)/27744(M24)终态未知；新再生不是原进程续接，也不把丢失路径判为数学失败。完整旧断点见882aa9b74的H及[中断记录](notes/2026-11-18-execution-environment-interruption-recovery.md)。
@@ -50,6 +50,8 @@ R53补充已证整个旧控制盒、tau=0时核心C0/C1/C2变化分别<(.01936,.
 R54宽材料窗S=.5/b=.2/k=.2，H横宽.54/相位.45，精确扫窗留.005余量；H径>.53973756，只需0<柱长≤.01。条件D0≤2.64、完整曲率/支撑付清时n3 held>.111439D、n4>.132023D，原两ramp在v=.19<k前保证窗耗尽。三重单调核的非零三阶矩可续R6。仅条件设计，当前S=.21计算不变，见[R54](results/R54-transverse-held-arc-and-short-cylinder-window.md)。
 
 固定全g/q/c的场校正接口已备：只解场、消去固定入口，全部真DN保留为兼容残差；η=rT−CA⁻¹rE及矩形LSMR步骤不准偷调新c/mean。原fixed=True只冻profile，不能当全参数固定；实现尚未执行，见[冻结接口](notes/2026-11-20-n4-fixed-physical-field-refinement.md)。
+
+已证完整R=Fs−V下∂s(G/a²)=2Fθ·Rθ/a²，保留已有metric缺陷、moving角图与真实mean；R及其角导数给连续operator充分界，但尚未数值支付，见[残差界](notes/2026-11-20-n4-full-frenet-residual-metric-bound.md)。
 
 ## 接着做
 
