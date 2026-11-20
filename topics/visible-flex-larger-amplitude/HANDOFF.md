@@ -4,7 +4,7 @@
 
 ## 规则与完整目标
 
-最近规则核查：2026-11-20 17:22 UTC，真实pull/rebase至 `39a35b2021b124f32e0af67be927367aad35d2b7`，双README相对上次已读无差异。
+最近规则核查：2026-11-20 17:22 UTC，真实pull/rebase至 `a0f1909476d47830213271fd130a8ece738e4dc3`，双README相对上次已读无差异。
 
 科学计算仅本公开仓库Actions；早前本地偏差及13:00 UTC纠正见[执行记录](notes/2026-11-20-public-actions-execution-correction.md)。根README已授权必要修改/发布；根唯一local git writer，代理只work/小源。每条结论普通commit/push；NFF立即pull --rebase循环再推，不强推。至少每小时pull，每次核双README差异/立即遵新规并记commit。raw只scratch/runner，不入Git/Release/artifact；只保完整小源/参数/run/SHA/紧凑结论。题≤200MB，MD<100KB，H<10KB，open<30KB。令牌只瞬时CLI，不写文件/提交/回复。
 
@@ -39,7 +39,7 @@ run2后续：e08同g径向二分/fine1×256→[纯report精化归因](notes/2026
 - R669：准确同g轴对称尾线性唯一性与quintic末端条件；b3/b4非零不推非线性不可能或正误差地板；八简单blend已无改善，不重做。
 - R670：完整同角首jet连续核，c4a3全922/帽/镜像嵌入sigma≥.28948，D≤4.119228，marked held/D≥.227934、含反射E正；未付全K/metric。
 - R671：同g新f/h/k解析尾完整工厂，lambda1可准确表示末段；整体连接仍待求解。必须全native/observed/六jet/点/高度接口用新context。
-- R672：全M/未截断Laurent六jet与真实形算子K；完整实际应用归worker03，R666编号保留最终同场reach应用。
+- R672：全M/完整Laurent六jet真形算子K归worker03；[逐胞续接f476](notes/2026-11-20-R672-complete-curvature-continuation.md)仅准备，旧8ca不改，R666留最终同场reach。
 - R673：固定面gap与真实射线，负乘子须分开；不用旧高mu数值代新mu。
 - R674：共同a/I Taylor jet及独立导数余项、profile误差；f122 first/K和fd4 tight Gram全源齐，新全域自适应5d04728c已排。旧盒限制不自动缩余项。
 - R675：高Z或非零解析尾排活动平面开片。b36已排，df8及521187ae双证明合并器仅准备，旧flag如实不伪改。

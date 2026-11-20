@@ -213,3 +213,5 @@
 2026-11-20 17:18 UTC / Astra-larger-resume-24b2ab87-20261120：公开run44758209061阶段31–33实际返回：原six共4046.833s/六步全接受，e08cc378真Phi7.950104e−8/max.0117336774/product.9919991086；每方向256上限，末mu仍.0007539530259341321。930d纯报告明确所有全步真Phi降而真实几何拒，6–7次周期重启与未达相对QP容差另记不定唯一因果。R671同样全步几何拒/半步接受；缺第三试步只是摘要字段缺失。原e08径向fine按已排继续，SOC接口依真实瓶颈准备。
 
 2026-11-20 17:22 UTC / Astra-larger-resume-24b2ab87-20261120：R681小模块324513a1完整刊：DI.inverse真实转置、Q/QT、按实际槽scale独立组GN再得literal K、一般K的W/WT与原坐标SPD应用。输入当前全部观测normalized-Phi的Gc责任显式，母范数/阻尼/变量不变，无巨大Q或单位J扫描；小SPD失效如实可回原solver、不加jitter。仅静态逐槽阅读/AST，未科学运行/未接PCG或角矩，无性能改善结论。
+
+2026-11-20 17:22 UTC / Astra-larger-resume-24b2ab87-20261120：R672最小调度源f476完整刊，仍逐胞调用冻结8ca核，完整模态/角域/符号分片不改。旧实际checkpoint或本producer raw journal核同bundle/node/source/first后复用，每胞原子返回立即统计；先未覆盖后>8.1，预算只关新admission。缺胞全域upper=null，失败/未返回/已有界分清；新producer不伪装8ca。跨job只紧凑集合/统一界设计，未实现导入，不改已启动任务，不新增science/fixture。
