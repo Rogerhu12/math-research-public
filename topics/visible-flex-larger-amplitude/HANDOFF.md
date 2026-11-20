@@ -61,6 +61,6 @@
 
 ## 当前公开Actions执行
 
-run [44748103105/1](https://github.com/Rogerhu12/math-research-public/actions/runs/44748103105)，源码`e2c5e4a538d47d64ba62900e4271137e2312778f`；[实际紧凑记录](notes/2026-11-20-public-actions-44748103105-1.md)。当前`followup_waiting`/running，返回阶段34；退出码未返。
+run [44748103105/1](https://github.com/Rogerhu12/math-research-public/actions/runs/44748103105)，源码`e2c5e4a538d47d64ba62900e4271137e2312778f`；[实际紧凑记录](notes/2026-11-20-public-actions-44748103105-1.md)。当前`followup:continue-compact-complete-witness-manifest-01`/completed，返回阶段35；退出码0。
 
-Actions规则核查：2026-11-20 14:43:37 UTC，真实pull至`7c56b4bcfd9c88e5bbc1e7820f0d3f05654f084a`，双README相对已读无变化。
+Actions规则核查：2026-11-20 14:43:45 UTC，真实pull至`983a43edc856f88515d0a47198a822a5ad8e6bf7`，双README相对已读无变化。
