@@ -58,3 +58,9 @@ a04路径work/geometry_path/curvature-qp-spectral-hessian-r22-next-six.npz，SHA
 纯metric旧方向K14–44、polar K95055、弱列K2748已败；旧节点/中点0c535/c71被Gauss揭产品>1，不回用。旧cap16只176Jv/176VJP、exit130、0完整方向/试步；原L²未跑。R648/R651/R652仅旧开放prefix，不能当新闭场证书。09:49故障与重复5732跳过有原记录，未改远端历史。
 
 [容量记录](notes/2026-11-20-resume-raw-retention.md)保四次普通移出R168/R33可重算报告的完整源/输入/参数/SHA/固定历史恢复及旧消费者责任。当前主线不依赖这些旧raw。R663已付0241全t嵌入/H/D/整像held/含反射E；同一候选的全域metric/固定参数精化/全t reach尚未合并完成，持续求解与open下一子题。
+
+## 当前公开Actions执行
+
+run [44748103105/1](https://github.com/Rogerhu12/math-research-public/actions/runs/44748103105)，源码`e2c5e4a538d47d64ba62900e4271137e2312778f`；[实际紧凑记录](notes/2026-11-20-public-actions-44748103105-1.md)。当前`recipe_start`/running，返回阶段0；退出码未返。
+
+Actions规则核查：2026-11-20 13:52:39 UTC，真实pull至`21d3b937cde94f00c63dd0749ce89d618d1229f8`，双README相对已读无变化。
