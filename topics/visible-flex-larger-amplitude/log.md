@@ -215,3 +215,5 @@
 2026-11-20 17:22 UTC / Astra-larger-resume-24b2ab87-20261120：R681小模块324513a1完整刊：DI.inverse真实转置、Q/QT、按实际槽scale独立组GN再得literal K、一般K的W/WT与原坐标SPD应用。输入当前全部观测normalized-Phi的Gc责任显式，母范数/阻尼/变量不变，无巨大Q或单位J扫描；小SPD失效如实可回原solver、不加jitter。仅静态逐槽阅读/AST，未科学运行/未接PCG或角矩，无性能改善结论。
 
 2026-11-20 17:22 UTC / Astra-larger-resume-24b2ab87-20261120：R672最小调度源f476完整刊，仍逐胞调用冻结8ca核，完整模态/角域/符号分片不改。旧实际checkpoint或本producer raw journal核同bundle/node/source/first后复用，每胞原子返回立即统计；先未覆盖后>8.1，预算只关新admission。缺胞全域upper=null，失败/未返回/已有界分清；新producer不伪装8ca。跨job只紧凑集合/统一界设计，未实现导入，不改已启动任务，不新增science/fixture。
+
+2026-11-20 17:26 UTC / Astra-larger-resume-24b2ab87-20261120：worker03实际输入链产生756936ee而非c4a3，warm起字节不同，后续6077 restoration_failed按真实状态保，原因未归不重跑。eaa完整922首jet真返sigma.2965427454/嵌入；0faa只半径瓶颈续化真返Dbody4.0993003369、Dmarked4.1013003369、held/D .2288689533、grip/D .2194425977。完整SHA/CLI/耗时见实际卷，无跨场K/reach继承；原8ca已排自然返回，R666仍未付。

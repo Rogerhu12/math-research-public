@@ -4,7 +4,7 @@
 
 ## 规则与完整目标
 
-最近规则核查：2026-11-20 17:22 UTC，真实pull/rebase至 `a0f1909476d47830213271fd130a8ece738e4dc3`，双README相对上次已读无差异。
+最近规则核查：2026-11-20 17:26 UTC，真实pull/rebase至 `e0b5d2e2bd559ceb1bceb91ccd75f13593dbf304`，双README相对上次已读无差异。
 
 科学计算仅本公开仓库Actions；早前本地偏差及13:00 UTC纠正见[执行记录](notes/2026-11-20-public-actions-execution-correction.md)。根README已授权必要修改/发布；根唯一local git writer，代理只work/小源。每条结论普通commit/push；NFF立即pull --rebase循环再推，不强推。至少每小时pull，每次核双README差异/立即遵新规并记commit。raw只scratch/runner，不入Git/Release/artifact；只保完整小源/参数/run/SHA/紧凑结论。题≤200MB，MD<100KB，H<10KB，open<30KB。令牌只瞬时CLI，不写文件/提交/回复。
 
@@ -28,7 +28,7 @@ R653准确quarter；R654完整H²尺度；R655付原node/mid盲空间，故旧18
 
 run2后续：e08同g径向二分/fine1×256→[纯report精化归因](notes/2026-11-20-fixed-g-refinement-report-attribution-and-next-layer.md)→97fd全胞first/R675→97fd连续metric自适应。metric先全胞，严格lower超标交求解，只有包围未决才加密；1200s只为自然返回检查点，缺胞全域upper=null，后续继续。两种同级完整父续算入口已备，真实末mu/全位置从实际report恢复；非零尾只同lambda/eta keep-q。实际QP仍远超相对容差，6–7次CG32重启不单独定因果；R677v3与R680修正按已返几何拒因择用。
 
-**独立几何worker03**：[完整配置](notes/2026-11-20-independent-geometry-worker03-plan.md)，实际[run44772201880/1](https://github.com/Rogerhu12/math-research-public/actions/runs/44772201880)已启动，初始源e0d4892a；[实际索引](notes/2026-11-20-public-actions-44772201880-1.md)持续记返回。从queue2迁出其尚未开始的4项，逐项参数原样：必要再生输入→完整首jet/非平面→D≤4.1半径续化→R672全部922胞K目标8.1→准确同场几何合并。它与run2求解独立，不取消现six。source/deps/controller相同，独立并发组。输入必须在新runner再生且核实际SHA；不是重宣旧结论或搬旧证书。
+**独立几何worker03**：[run44772201880/1](https://github.com/Rogerhu12/math-research-public/actions/runs/44772201880)，初源e0d4892a，[实际索引](notes/2026-11-20-public-actions-44772201880-1.md)。[真实新场756936ee首jet/半径已返](notes/2026-11-20-geometry03-actual-field-and-radius-return.md)，不是c4a3；warm起字节不同，成因未归。全922嵌入sigma≥.29654，Dbody≤4.09930034/Dmarked≤4.10130034，held/D≥.22886895、grip/D≥.21944259。原8ca全K目标8.1未返，继而同场准确组合；不得跨run继承证书。逐胞续接f476仅准备，不改已admit核。
 
 旧run44748103105已failure结束：pair02真返；R67102已起并自然返但95KB发布故障无可核数值，非未启动/数学失败。[同父两余量实际pair](notes/2026-11-20-actual-full-phi-margin-pair-result.md)均半步接受；.992余量更大，旧场证书不移用97fd。
 
@@ -59,9 +59,9 @@ R650/R661提供同场support/K加四固定p4 marker的全t reach/grip/held/E框�
 
 重建配方rebuild_a04_chain.py保60321451c输入b4d2b98至a04/continue全链，每个实际源版本齐；Python3.12.14/NumPy2.3.5/SciPy1.17.0/单BLAS。已登记旧2038/3a3/def1/61a620、v4a LRU遗漏、r17新增峰、旧节点/中点被Gauss揭产品>1等结果不重做；纯metric旧方向K14–44/polar95055/弱2748已败。旧cap16只有176Jv/176VJP、exit130、0完整方向/试步，原L²未跑。
 
-旧0241本地K地点纠正exit130；保存1146 attempt含全部922粗+224细、max8.5913381808、850胞≤8.1，后续未返，不抄新值。R648/R651/R652只旧开放prefix。09:49故障/重复5732跳过均有原记录。七次旧raw普通移出完整源/输入/参数/历史恢复见[容量记录](notes/2026-11-20-resume-raw-retention.md)，不改历史。
+旧0241地点纠正exit130：1146 attempt/922粗+224细、850胞≤8.1，后续未返且不抄新值。R648/651/652只开放prefix。七次raw普通移出保源/输入/历史恢复见[容量记录](notes/2026-11-20-resume-raw-retention.md)，不改历史。
 
-本次压缩前H保[3f504f08](https://github.com/Rogerhu12/math-research-public/blob/3f504f08d370f1e95376037ba51ff22c9f196ef1/topics/visible-flex-larger-amplitude/HANDOFF.md)，内链此前完整交接。所有未付责任继续按open推进；不是等待用户确认的阶段停点。
+本次压缩前H保[e0b5d2e2](https://github.com/Rogerhu12/math-research-public/blob/e0b5d2e2bd559ceb1bceb91ccd75f13593dbf304/topics/visible-flex-larger-amplitude/HANDOFF.md)，内链此前完整交接。所有未付责任继续按open推进；不是等待用户确认的阶段停点。
 
 ## 当前公开Actions执行
 
