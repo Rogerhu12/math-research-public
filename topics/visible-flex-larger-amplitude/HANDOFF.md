@@ -4,7 +4,7 @@
 
 ## 规则与完整目标
 
-最近规则核查：2026-11-20 14:05 UTC，真实pull/rebase至 `788e7acffa70decc919807192a8c86e65c78a480`，双README相对上次已读无差异。
+最近规则核查：2026-11-20 14:12 UTC，真实pull/rebase至 `95cb1ed8e9bb8066277fa0d19ecb836d673df96a`，双README相对上次已读无差异。
 
 科学计算仅公开Actions；本会话此前本地执行的偏差及13:00 UTC纠正见[执行记录](notes/2026-11-20-public-actions-execution-correction.md)。公开仓库内工作；终端git普通push，每条结论推一次，NFF立即pull/rebase再推。至少每小时pull；每次查根/本题README差异，变更立刻读/执行。根README已授权必要修改/发布。根唯一git writer，代理只work/小blob。raw只scratch；Git/Release/artifact只保完整小源/参数/run/SHA/紧凑结论。题≤200MB、单MD<100KB、H<10KB、open<30KB。令牌只瞬时CLI，不写文件/提交/回复。
 
@@ -33,7 +33,7 @@
 a04路径work/geometry_path/curvature-qp-spectral-hessian-r22-next-six.npz，SHA `a04f9faf228c3785ab785314eb14836bdad598a6d6ac826c4abf15100225f4e0`。0241路径work/geometry_path/curvature-qp-physical-h2-next-six.npz，SHA `0241f7144f82b485350f684e999c8fb3fa71c94a942339da0bfa9f00bdb30023`。上表历史数值为本地结果；本轮公开Actions返回独立记下节，不继承旧SHA。
 
 - geometry_path：v7/r22从bede超内部余量，经35f恢复后六方向得a04；全部失败/启动错误/CLI已刊，永久位置只继承地址。[R671](results/R671-exact-reference-tail-affine-lift.md)完整准确尾lift保全部自由坐标及core/帽，λ1空间含同g精确末段，未证明完整连接；实现准备中。[完整Actions配方](notes/2026-11-20-actions-a04-chain-recipe.md)含25/28阶段及所有纯位置责任；[公开入口](notes/2026-11-20-public-actions-continuation-entry.md)本次提交触发，实际状态见下节/后续run记录。
-- fullclosed_solver：首完整Phi不等式QP从35f自然返da088，256乘积/641.84s，仅1/4接受；Phi1.16835658e−7/max.01329667，弱于a04，不退主父。新增a04位置复读product.991850018963。192线性行含28条821近重复，却漏真实低phi拒峰；该峰始终保留于非线性screen。[R668](results/R668-feasible-release-before-face-stationarity.md)已证未驻点时按单位可行方向下降率提前释放；v2源尚未科学执行。工作集另补实际峰覆盖，下一完整方向在Actions运行。
+- fullclosed_solver：首完整Phi不等式QP从35f自然返da088，256乘积/641.84s，仅1/4接受；Phi1.16835658e−7/max.01329667，弱于a04，不退主父。新增a04位置复读product.991850018963。旧192行近重复/漏实际峰已明确，永久非线性点全保。[R668](results/R668-feasible-release-before-face-stationarity.md)已证未驻点时按单位可行方向下降率提前释放；v2源尚未科学执行。v2补实际峰覆盖；[R673](results/R673-full-Phi-damping-face-gap-and-true-ray-continuation.md)固定面gap/真射线下降已证。同父.992/.998及一次fresh Jv按实际返回接续，新R671工厂另接。
 - recover_evidence：[R669](results/R669-same-g-axisymmetric-tail-linear-uniqueness-and-endpoint-defect.md)证明同g准确旋转尾、固定帽的无穷小唯一性及quintic末高度的t8无精确根；不推非线性不可能/误差地板。末胞真S准确抵消。[R670](results/R670-direct-same-angle-first-geometry-with-complete-tails.md)全模/解析尾直接同角首jet覆盖给新父D/held/嵌入接口；direct/endpoint/tail源码齐，应用待本轮父返回。
 - root：0241全K本地45381因执行地点规则纠正Ctrl-C exit130；最后落盘1146次覆盖（全922粗+224细），全胞有效上界最大8.5913381808，850胞≤8.1；层2/72胞已启动但没有保存的新批，未返量不作0。保全部已有raw/source/SHA和scope，不称全运行完成或reach已付。R666仍留给真正全K/reach；后续公开Actions继续数学工作。
 

@@ -275,3 +275,5 @@
 [完整证明](results/R670-direct-same-angle-first-geometry-with-complete-tails.md)。
 
 - [R671：准确旋转参考尾的解析lift扩充，保留全部原自由坐标](results/R671-exact-reference-tail-affine-lift.md) — 同g、core/帽三jet、原自由量保持；λ0旧空间，λ1含准确末段并消除R669特定五次障碍。完整六jet/Jv/transpose及准确quintic高度补偿已证，不替完整非圆连接或数值证书。
+
+- [R673：完整Phi阻尼、活动面误差界与真实接受射线后继](results/R673-full-Phi-damping-face-gap-and-true-ray-continuation.md) — 同半Phi单位、固定面及可行对偶gap完整证明；冗余核不自动成为CG慢模。已付方向下降条件与接受点fresh Jv后的一维Armijo存在性明确，有限点与连续reach不混，两源应用未运行。

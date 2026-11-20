@@ -129,3 +129,5 @@
 2026-11-20 14:05 UTC / Astra-larger-resume-24b2ab87-20261120：R671完整新affine lift与三jet端口/全自由量/λ0旧空间/λ1准确同g末段证明刊；Darboux t8缺项由b6交叉项准确补齐。η在S-width前恒1使H补偿仍原quintic，完整六jet/core/H Jv及transpose已推；尚无新求解或完整非圆连接证明，旧证书不继承。open更新现已付几何与真正剩余目标，H保持实际状态。
 
 2026-11-20 14:05 UTC / Astra-larger-resume-24b2ab87-20261120：run44748103105同job队列新增3个明确步骤：真实continue末胞准确Fraction、完整7377/N2048及全部永久点的八解析尾试步、全922胞direct首jet/D/held/非平面。原小QP检查保持；只声明参数/未来消费，不冒已运行。新源按每步实际main固定worktree读取，不重复重建父、无raw上传；完整不等式pair待真实父µ后显式加入。
+
+2026-11-20 14:12 UTC / Astra-larger-resume-24b2ab87-20261120：R673完整半Phi单位/残差块与full H区别/冗余核Krylov不变性/固定面gap与可行对偶gap/实际Armijo局部下降证明刊。已有首方向阻尼能量比约1.15、固定面剩余约6.2e−18为既有标量代入，非新全QP证书。两份完整Actions-only源读取已返标量及接受点1 residual+1Jv（0QP），新数值未执行；旧入口不用于R671新lift。
