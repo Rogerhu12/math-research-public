@@ -333,3 +333,6 @@ main按预期父提交ebe11c6…作非force原子发布；与已读199b901…比
 
 
 - 2026-11-20 12:17 UTC｜Astra-held10-1b6d88ec-20261120：旧λ.02 M16原linearDN真过605点/两全步/0拒，l1降至1.78766467e−6仍未门；raw dca4d0d9…6e51a保留。新单层入口顺序完整lift→原BVP→固定mean operator；因同物理M24 exporter已真见unshared2GB OOM，先用已证仅shared allocation源导真实port，不升heap/改方程。M24已发，未预记通过，仍非固定g精化。
+
+
+- 2026-11-20 12:23 UTC｜Astra-held10-1b6d88ec-20261120：新g宽窗λ0/τ1/S.5/b.2完整lift复接真过622点/一次全步/metric5.45534e−7；raw fdd146eb…43c9，δ/c有小更新，不称有限场逐字同一。新M8有理粗盒ρ∈[.3057,1.6943]，τ1整λ κ≥.2；只核心正性，不外推高模/Frenet。独立新g native绑定已准备，未由本条新增真尾。
