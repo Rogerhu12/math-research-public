@@ -1,0 +1,377 @@
+{
+  "identity": {
+    "kind": "R138_same_Qrepair_complete_physical_energy_budget_v1",
+    "source_sha256": "716fde1b56617680898ed61e7ebc0da0177c086e1a0f8865e36a5d7ff9b6a2eb",
+    "arithmetic_bits": 320,
+    "original_positive_sha256": "ea17451120f8c368ea3e5d4ee511a9d1d03d8a97705e7bd36cf9d015a8d9d93d",
+    "original_angular_sha256": "7a3dd2c1d48b611f5d9a6bd8c2d7ebeeeb4c2f6a7c2bcc4f61f4d012be4e2f90",
+    "original_germ_sha256": "397f9b428c787823994f8c849ad7d1f9209220c3c6e8907b38be562b3cbc9864",
+    "original_candidate_sha256": "ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413",
+    "intrinsic_object_sha256": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+    "exact_repair_definition_sha256": "440866a368f68b472bc904c90fbe9862f2ff13e9f884ffced6a4819c04866a47",
+    "exact_alpha": "6890507429876859/9007199254740992",
+    "exact_eta": "-7789843107295549/4611686018427387904",
+    "exact_nu": "-2572625729470897/72057594037927936",
+    "fixed_point": "(0,0,1/2)",
+    "exact_true_root_interval": [
+      "1191984371497/5000000000000",
+      "2383968743003/10000000000000"
+    ],
+    "conservative_integration_interval": [
+      "1191984371497/5000000000000",
+      "25/8"
+    ],
+    "original_positive_rows": 4650,
+    "original_angular_rows": 7722,
+    "original_positive_interfaces": 3594,
+    "original_angular_interfaces": 6143,
+    "original_positive_interface_metadata_sha256": "2a6908d127649ee76213bb192a59be1f42ee7e9d1b229fe11d54f843449a34a0",
+    "original_angular_interface_metadata_sha256": "75a10a82683e5c71df25f3621bce5044d93293c2aeaca15aa1871a695517086f",
+    "new_complete_closed_cell_count": 4651,
+    "new_common_partition_sha256": "b86e1b057e14b61d09364dc8dc0969a2650c727104abcdf8d39e67cc9dcd14a6",
+    "full_repair_A0": "1/250000000000000000",
+    "full_repair_angular_bound": "128*4/10^18",
+    "full_repair_mean_bound": "1/250000000000000000",
+    "physical_period": "2*pi"
+  },
+  "complete": true,
+  "proved": true,
+  "failure": null,
+  "completed_closed_cells": 4651,
+  "outer_initial_physical_defect": {
+    "Z": {
+      "kind": "complete_decimal_ball_v1",
+      "midpoint_integer": "23624847145764005037582055753818333637226662750087954095242334785624161645368974",
+      "radius_integer": "2",
+      "decimal_exponent": "-97"
+    },
+    "Z_theta": {
+      "kind": "complete_decimal_ball_v1",
+      "midpoint_integer": "12288064570410020497061749288433452734307431276181167555216612740577200069460352",
+      "radius_integer": "2",
+      "decimal_exponent": "-96"
+    },
+    "P": {
+      "kind": "complete_decimal_ball_v1",
+      "midpoint_integer": "0",
+      "radius_integer": "0",
+      "decimal_exponent": "0"
+    },
+    "P_theta": {
+      "kind": "complete_decimal_ball_v1",
+      "midpoint_integer": "0",
+      "radius_integer": "0",
+      "decimal_exponent": "0"
+    }
+  },
+  "same_outer_anchor_comparison": {
+    "original_anchor_E": {
+      "kind": "complete_decimal_ball_v1",
+      "midpoint_integer": "23511761699361387529855999317925159129000000647560905146741869553891132502924342",
+      "radius_integer": "2",
+      "decimal_exponent": "-97"
+    },
+    "original_anchor_E_phi": {
+      "kind": "complete_decimal_ball_v1",
+      "midpoint_integer": "12170064046973795221021190042188991071000000300329992286086011657141829032466929",
+      "radius_integer": "2",
+      "decimal_exponent": "-96"
+    },
+    "same_physical_angle_repair_F0": {
+      "kind": "complete_decimal_ball_v1",
+      "midpoint_integer": "69608995311488331653160518625858351834457174204947120941934844729116888688950297",
+      "radius_integer": "2",
+      "decimal_exponent": "-98"
+    },
+    "same_physical_angle_repair_F1": {
+      "kind": "complete_decimal_ball_v1",
+      "midpoint_integer": "8952785303608646781886313414652861630775273536079795324569208497442261934144623",
+      "radius_integer": "2",
+      "decimal_exponent": "-95"
+    }
+  },
+  "old_scientific_target_calls": 0,
+  "old_primitive_calls": 0,
+  "old_geometry_ODE_calls": 0,
+  "published_Fourier_or_frame_arrays": 0,
+  "scope": {
+    "same_fixed_eta_nu_and_Qrepair": true,
+    "full_real_angular_circle": true,
+    "true_root_not_replaced_by_interval_endpoint": true,
+    "complete_means_retained": true,
+    "complete_original_interfaces_retained": true,
+    "physical_Qrepair_defects_have_no_interface_atoms": true,
+    "original_unrepaired_interface_fees_not_deleted": true,
+    "actual_DF_not_WVC_hybrid": true,
+    "root_boundary_form_constant_paid": false,
+    "full_positive_inverse_proved": false,
+    "final_topic_complete": false
+  },
+  "physical_defect_state": {
+    "Z": {
+      "kind": "complete_decimal_ball_v1",
+      "midpoint_integer": "49411321498492015364418137004768773135357010947811420810315689638081297968753764",
+      "radius_integer": "2",
+      "decimal_exponent": "-87"
+    },
+    "Z_theta": {
+      "kind": "complete_decimal_ball_v1",
+      "midpoint_integer": "72308063620189183513320852738743239499669558928332525158931900233275177055439646",
+      "radius_integer": "2",
+      "decimal_exponent": "-85"
+    },
+    "P": {
+      "kind": "complete_decimal_ball_v1",
+      "midpoint_integer": "29245731395100362031483619803949884001975431032435997149876955056564555242055750",
+      "radius_integer": "2",
+      "decimal_exponent": "-87"
+    },
+    "P_theta": {
+      "kind": "complete_decimal_ball_v1",
+      "midpoint_integer": "48307566256707193121811603481730945236850725231616704504468005268761458200951347",
+      "radius_integer": "2",
+      "decimal_exponent": "-85"
+    }
+  },
+  "new_scalar_suprema": {
+    "C_E": {
+      "kind": "complete_decimal_ball_v1",
+      "midpoint_integer": "32133034194825832928594722632742406215464529065888925517304037975149829296448955",
+      "radius_integer": "2",
+      "decimal_exponent": "-78"
+    },
+    "C_H": {
+      "kind": "complete_decimal_ball_v1",
+      "midpoint_integer": "38190247329119641538336326080665724405194707267005201087639307808556214017035024",
+      "radius_integer": "2",
+      "decimal_exponent": "-79"
+    },
+    "A_Theta": {
+      "kind": "complete_decimal_ball_v1",
+      "midpoint_integer": "24946286044812325416278735757078656279579626595796875319581948519732275606714366",
+      "radius_integer": "2",
+      "decimal_exponent": "-79"
+    },
+    "C_W": {
+      "kind": "complete_decimal_ball_v1",
+      "midpoint_integer": "20379759175753435540838415810035830089181508401537681385691118808834283946837364",
+      "radius_integer": "2",
+      "decimal_exponent": "-78"
+    },
+    "E_0": {
+      "kind": "complete_decimal_ball_v1",
+      "midpoint_integer": "28981723457591824247245812894550719797567809107354609360881493371731728231504927",
+      "radius_integer": "2",
+      "decimal_exponent": "-76"
+    },
+    "E_1": {
+      "kind": "complete_decimal_ball_v1",
+      "midpoint_integer": "29005840791431739264038742640890204743775987481673547821056815767637533257845871",
+      "radius_integer": "2",
+      "decimal_exponent": "-76"
+    },
+    "k_0": {
+      "kind": "complete_decimal_ball_v1",
+      "midpoint_integer": "47150169347801947709017095728772560647306759979364812528953863839461905379655959",
+      "radius_integer": "2",
+      "decimal_exponent": "-82"
+    },
+    "k_minus_one_third": {
+      "kind": "complete_decimal_ball_v1",
+      "midpoint_integer": "11188388395732140276040988320198775293520774080836429357821367157267207003593330",
+      "radius_integer": "2",
+      "decimal_exponent": "-78"
+    },
+    "k_minus_one_half": {
+      "kind": "complete_decimal_ball_v1",
+      "midpoint_integer": "6414584683258600933733643231008833805319891851211829313309403730324398506883337",
+      "radius_integer": "2",
+      "decimal_exponent": "-76"
+    },
+    "epsilon": {
+      "kind": "complete_decimal_ball_v1",
+      "midpoint_integer": "9157941244961986808581927315940307461267527849595234272932429968190358095205173",
+      "radius_integer": "2",
+      "decimal_exponent": "-86"
+    },
+    "epsilon_theta": {
+      "kind": "complete_decimal_ball_v1",
+      "midpoint_integer": "23957109826604813086598683629757231148988500286148281728214731154321759592267589",
+      "radius_integer": "2",
+      "decimal_exponent": "-86"
+    },
+    "repair_residual_A0": {
+      "kind": "complete_decimal_ball_v1",
+      "midpoint_integer": "44100231804014795116476543891646371948037280183155474466620941005369963667379461",
+      "radius_integer": "2",
+      "decimal_exponent": "-93"
+    },
+    "physical_curvature_defect": {
+      "kind": "complete_decimal_ball_v1",
+      "midpoint_integer": "67456732691486713592664800722018980991481818849041634012157793423905254187202000",
+      "radius_integer": "2",
+      "decimal_exponent": "-86"
+    },
+    "physical_curvature_defect_theta": {
+      "kind": "complete_decimal_ball_v1",
+      "midpoint_integer": "17712692744320680586251038674274135738813899120714865912376170666468427856846751",
+      "radius_integer": "2",
+      "decimal_exponent": "-83"
+    }
+  },
+  "new_scalar_integrals": {
+    "drift_derivative_integral": {
+      "kind": "complete_decimal_ball_v1",
+      "midpoint_integer": "16881443712866428300586283156372475154137287086395950190186216907627825323493498",
+      "radius_integer": "2",
+      "decimal_exponent": "-80"
+    },
+    "epsilon_derivative_integral": {
+      "kind": "complete_decimal_ball_v1",
+      "midpoint_integer": "25671885754321567603640664207069254367469135290847887859223847631846931428047024",
+      "radius_integer": "2",
+      "decimal_exponent": "-87"
+    },
+    "Volterra_J0": {
+      "kind": "complete_decimal_ball_v1",
+      "midpoint_integer": "8803389313897518421866744849417124838945655364196881202484410524992925948109561",
+      "radius_integer": "2",
+      "decimal_exponent": "-83"
+    },
+    "root_source_Kminus_squared": {
+      "kind": "complete_decimal_ball_v1",
+      "midpoint_integer": "16201330949669268257601106376019349494737559333834746810339200755130392651828102",
+      "radius_integer": "2",
+      "decimal_exponent": "-80"
+    }
+  },
+  "current_exact_left": "1191984371497/5000000000000",
+  "current_wall_seconds": 3.4555541880000007,
+  "complete_derived_energy_bounds": {
+    "E_epsilon": {
+      "kind": "complete_decimal_ball_v1",
+      "midpoint_integer": "10000000128359429595414989271657131629241101283669353702027149496334140515541667",
+      "radius_integer": "2",
+      "decimal_exponent": "-79"
+    },
+    "Gamma": {
+      "kind": "complete_decimal_ball_v1",
+      "midpoint_integer": "11839004305764705526606440712912222578677033661093841977412013064146134655673470",
+      "radius_integer": "2",
+      "decimal_exponent": "-79"
+    },
+    "h_E": {
+      "kind": "complete_decimal_ball_v1",
+      "midpoint_integer": "9382637976548560215677193068897813530067734105266260400576877371665344336386806",
+      "radius_integer": "2",
+      "decimal_exponent": "-81"
+    },
+    "h_B": {
+      "kind": "complete_decimal_ball_v1",
+      "midpoint_integer": "8495003236911017522862935853675567873048752056960281850684686076465110226985853",
+      "radius_integer": "2",
+      "decimal_exponent": "-83"
+    },
+    "w_E": {
+      "kind": "complete_decimal_ball_v1",
+      "midpoint_integer": "21741257190418212345628468213658917440084777633920637123397740065950085659601378",
+      "radius_integer": "2",
+      "decimal_exponent": "-77"
+    },
+    "w_B": {
+      "kind": "complete_decimal_ball_v1",
+      "midpoint_integer": "23972994525988319872403901390035408597592362207120423168638461664758383584482493",
+      "radius_integer": "2",
+      "decimal_exponent": "-77"
+    },
+    "z_E": {
+      "kind": "complete_decimal_ball_v1",
+      "midpoint_integer": "30783537257236532659948947256478166909902896875756353598125650625002993766078920",
+      "radius_integer": "2",
+      "decimal_exponent": "-77"
+    },
+    "z_B": {
+      "kind": "complete_decimal_ball_v1",
+      "midpoint_integer": "33902935062337625223113906027725006818332179888678741844668571360582380829260465",
+      "radius_integer": "2",
+      "decimal_exponent": "-77"
+    },
+    "root_Kminus": {
+      "kind": "complete_decimal_ball_v1",
+      "midpoint_integer": "40250876946557659139998699171267378487289822906517876320788707209553257512149154",
+      "radius_integer": "2",
+      "decimal_exponent": "-80"
+    },
+    "r_E": {
+      "kind": "complete_decimal_ball_v1",
+      "midpoint_integer": "8751424450089265430915183637128302349551032779362201147648430966908600925028198",
+      "radius_integer": "2",
+      "decimal_exponent": "-77"
+    },
+    "r_B": {
+      "kind": "complete_decimal_ball_v1",
+      "midpoint_integer": "9649349070232354384790147823513567776661573199085970631960513667346956079663614",
+      "radius_integer": "2",
+      "decimal_exponent": "-77"
+    },
+    "a_EE": {
+      "kind": "complete_decimal_ball_v1",
+      "midpoint_integer": "13699738356077916292006679112237773502167155681890471588691815066840381538528036",
+      "radius_integer": "2",
+      "decimal_exponent": "-71"
+    },
+    "a_EB": {
+      "kind": "complete_decimal_ball_v1",
+      "midpoint_integer": "30211382504017201592098743044579220830713947915974707993276691144806788000178995",
+      "radius_integer": "2",
+      "decimal_exponent": "-71"
+    },
+    "a_BB": {
+      "kind": "complete_decimal_ball_v1",
+      "midpoint_integer": "16655931826252768035414181105971854877074215559641527589229022608671346949443853",
+      "radius_integer": "2",
+      "decimal_exponent": "-71"
+    },
+    "root_density_H_minus_one_third_norm": {
+      "kind": "complete_decimal_ball_v1",
+      "midpoint_integer": "15794393323205651198526413484432991553406725195873859957302543080369415951463650",
+      "radius_integer": "2",
+      "decimal_exponent": "-79"
+    }
+  },
+  "body_only_sufficient_comparison": {
+    "root_constant_for_this_diagnostic": "0; actual root constant remains independent",
+    "E_coefficient_less_than_2": false,
+    "B_coefficient_less_than_1": false,
+    "cross_discriminant_positive": false,
+    "false_is_not_a_singularity_claim": true
+  },
+  "stage": "complete-new-physical-scalar-budget",
+  "actual_root_physical_defect": {
+    "Z": {
+      "kind": "complete_decimal_ball_v1",
+      "midpoint_integer": "49411321498492015364418137004768773135357010947811420810315689638081297968753766",
+      "radius_integer": "1",
+      "decimal_exponent": "-87"
+    },
+    "Z_theta": {
+      "kind": "complete_decimal_ball_v1",
+      "midpoint_integer": "72308063620189183513320852738743239499669558928332525158931900233275177055439648",
+      "radius_integer": "1",
+      "decimal_exponent": "-85"
+    },
+    "P": {
+      "kind": "complete_decimal_ball_v1",
+      "midpoint_integer": "29245731395100362031483619803949884001975431032435997149876955056564555242055752",
+      "radius_integer": "1",
+      "decimal_exponent": "-87"
+    },
+    "P_theta": {
+      "kind": "complete_decimal_ball_v1",
+      "midpoint_integer": "48307566256707193121811603481730945236850725231616704504468005268761458200951349",
+      "radius_integer": "1",
+      "decimal_exponent": "-85"
+    }
+  },
+  "wall_seconds": 3.4564910580000046
+}
