@@ -1,4 +1,4 @@
-name: R133 W2C complete native readonly diagnostic revision 2
+name: R133 W2C complete native native readonly diagnostic resumed 2026-11-20
 
 on:
   push:
@@ -30,7 +30,7 @@ jobs:
             README.md
             topics/visible-flex-exact-nearby/README.md
             topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_collar_volterra_dual_public_worker.py
-            topics/visible-flex-exact-nearby/notes/2026-11-16-R133-W2C-readonly-preflight-v2-current-inputs.json
+            topics/visible-flex-exact-nearby/notes/2026-11-20-W2C-native-readonly-inputs.json
       - name: Install the fixed Python runtime for readonly parsing
         uses: actions/setup-python@v5
         with:
@@ -41,5 +41,5 @@ jobs:
         run: |
           python topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_collar_volterra_dual_public_worker.py \
             --repo "$GITHUB_WORKSPACE" \
-            --manifest topics/visible-flex-exact-nearby/notes/2026-11-16-R133-W2C-readonly-preflight-v2-current-inputs.json \
-            --manifest-sha 7de945f95b8046f97db1a73fc017c3930cabe8c7aa6fa6c8d67d192e7930b59f
+            --manifest topics/visible-flex-exact-nearby/notes/2026-11-20-W2C-native-readonly-inputs.json \
+            --manifest-sha 44fd47701db731a52e5d4427c785d89ad95fd80ce69504a82d97cc9111341376
