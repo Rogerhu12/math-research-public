@@ -2,7 +2,7 @@
 
 主目标：固定一条 E/Q，完整证明 rank≥2 且无穷不同 p 的通常全 Sha(E/Q)[p∞] 有限。**未完成，持续研究；不在阶段结果、时限或建议处停下。**
 
-[本次整理前完整 open](notes/2026-11-20-open-before-positive-horizontal-dual.md)逐字保存全部旧问题、公式、条件、预算、来源和更早归档入口；[同期完整 HANDOFF](notes/2026-11-16-frontier-before-padic-reconstruction.md)保已运行 source/run/job 与各原理论检查点。下列未重写的旧门仍有效，编号缺席不表示完成。
+[本次整理前完整 open](notes/2026-11-20-open-before-quadratic-horizontal-dual.md)逐字保存全部旧问题、公式、条件、预算、来源和更早归档入口；[同期完整 HANDOFF](notes/2026-11-16-frontier-before-padic-reconstruction.md)保已运行 source/run/job 与各原理论检查点。下列未重写的旧门仍有效，编号缺席不表示完成。
 
 ## O1. 固定曲线的秩：已完成
 
@@ -200,7 +200,7 @@ R920一般原零纤维的K′=K∩ker完整β1：三首13带使前三实际行�
 
 R921m≤e=v_p(q+1)时完整残余H¹有原整提升线L和H0连接线C。原j_*到Shapiro(U,S)矩阵diag(u,0)，corestriction为diag(0,1)；β_m(C)=−u p^(e−m) modh同构到整H²[p^m]，kerβ=BL。完整全局Bockstein的q定位准确读C坐标，原ordinary两p位H0=0；全素点/其它群环/wild均保。几何loc零只控L，未判原derived C/global/ordinary/s0。
 
-- R915附A：原Vc/Sc三角式给aj两位；新Lconn=2p²−2的严格LT窗已重付，同ψp/Φp modp⁵和原c lift均保，未延改R912旧窗或增中央零。
+R915附A完整Vc/Sc两位与Lconn=2p²−2/ψp/Φp modp⁵输入均保于原节，未增加中央零。
 
 - R922原对称Phi17差先真除x−v，各伪余式立即消系数content并全式复乘；次数严格降、一次即停。仅候选，仍须同eta48域两完整Phi/绝对支/两Atkin才认原U。新独立公开运行只付U，不冒正规化/RR/shadow，无PASS。
 
@@ -231,7 +231,7 @@ R931§1–10完整厚范数方法、基础和上层均已独审接源；原六�
 
 ## R933：原首Frobenius系数的严格低读取
 
-[R933附A](results/R933-original-first-frobenius-coefficient-and-sixth-gaussian-block.md)：同原W严格低系数完整支付五块p^(7−h)及γ p6，H唯一r0=5s−1分母先准确提出p，恢复真L5 modp7。实际E_p=4γ^6jS−(4γ)^6jU modp7全部可读；S/U同charge B与规范2的K6真carry精确抵消，−9/35不能脱离全部低卷积独立迫非零。
+R933附A已完整付原W五块p^(7−h)、γ p6及r0真除p端点，恢复L5 modp7和实际E_p=4γ^6jS−(4γ)^6jU。规范2的K6真carry相消，−9/35不能单独迫非零。
 
 R925§22三个已审优化已接完整Tate与closed/local公开运行44744769424/44744769326，31源全等，旧作业保来源继续；无新增PASS。
 
@@ -248,3 +248,7 @@ R931§11/11.1同原单位HNF认证全商循环或这次真h=c·1 mod I，完整R
 ## R936：同P正水平真左行的实际评价
 
 [R936](results/R936-original-positive-horizontal-dual-and-fixed-quartic-value.md)：原正水平全H⁰(N³(−Z+))在K+e+>3κ时给确定λ+及完整Z商的唯一ν，真杀原T_J。2≤τ≤d0+1的同P评价为−11U*(0)/a−λ+((EB−3bB)|C)；已指定B∈H3才得单位非零、排该原陪集全p³。可进入旧T cutoff后≤12位条带，不排其它WD陪集。
+
+## R937：双jet之后的同H1真实非零行
+
+[R937](results/R937-original-quadratic-horizontal-dual-and-same-H1-obstruction.md)：原Q+=(E−3b)(E−3b+1)沿完整2H+消失，n=h+τ−2且n+2e+>3κ给真四行左行。指定B∈H3、d0+2≤τ<min(h+2,ell)时值为原单位28ζ0^(−s)uhat0³e0/a；每个兼容G0后同ρ2杀全F²H1而残差不变。双jet已零仍排该陪集，τ=h/h+1精度保，一般B偏移不删。

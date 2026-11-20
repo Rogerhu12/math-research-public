@@ -5,13 +5,13 @@
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近实际部分克隆/pull及已读规则提交：`bbbdf85f7863ff585184d4243180f09c4a32234a`；2026-11-20 14:31:18 UTC 实际pull --rebase，两README相对0d72e236差异为空；下一次最迟一小时内。
+- 最近实际部分克隆/pull及已读规则提交：`c5ed1a50c01f14da06d6f072614b1df2073b934a`；2026-11-20 14:37:40 UTC 实际pull --rebase，两README相对bbbdf85f差异为空；下一次最迟一小时内。
 - 仅写公开main；每条完整结论即提交，推前pull --rebase；非快进循环，不强推、不存令牌。数学只在公开Actions执行；重算输出不入库/Release、不分块，只存源/args/run/hash。
-- H<10KB、MD<100KB、open尽量<30KB、文件<5MB、题≤200MB；log每轮≤5行，不写根LOG。所有旧授权/规则已读，未变化。
+- H<10KB、MD<100KB、open尽量<30KB、文件<5MB、题≤200MB；log每轮≤5行，不写根LOG。规则已读未变。
 
 ## 完整检查点与当前分工
 
-[最新完整H](notes/2026-11-20-handoff-before-positive-horizontal-dual.md)逐字保全部旧条件、源/run/hash及归档链；入口[results](results.md)、[R901–950索引](notes/PROOF-INDEX-R901-R950.md)、[open](open.md)；旧已付项的完整链接保该检查点。root唯一metadata/ref写者并整合公开门；global续原ordinary/global底，deep续同P真实forcing，theta续四指定中央/边界并交叉审源码。四主门均保留；R364/R561/R654/R712及主目标仍开。
+[最新完整H](notes/2026-11-20-handoff-before-quadratic-horizontal-dual.md)逐字保全部旧条件、源/run/hash及归档链；入口[results](results.md)、[R901–950索引](notes/PROOF-INDEX-R901-R950.md)、[open](open.md)；旧已付项的完整链接保该检查点。root唯一metadata/ref写者并整合公开门；global续原ordinary/global底，deep续同P真实forcing，theta续四指定中央/边界并交叉审源码。四主门均保留；R364/R561/R654/R712及主目标仍开。
 
 ## 第一门：同原映射、完整函数环与原shadow
 
@@ -37,13 +37,11 @@ R921原残余H¹=提升L/连接C，j_*=diag(u,0)、cor=diag(0,1)；m≤e=v_p(q+1
 ## 第三门：四原中央与真正全边界
 
 S34/T72/U136/V66、CM13/Euler/Schwartz/p²p³与通常全Selmer不变；固定E−11 rank≥2已付，仍缺同一无穷p集的原J′非零。C24三行/c*全保；R863/876/879/884的低配对保特征零Ĉp/DR3/Γ16/Fermat，质量unit不替四B非零。
-R887全原运输/α/五窗、C³η[2]=−α^(1/p³)rω及实际带权伴随/DRν保；L^p=V^pL和质量再Cartier零不能删四方向。R912原[p]完整两位/严格窗及原除p²后p³输入已付；仍缺中央零⇒全边界零。
+R887全运输/α/五窗及C³η[2]精确式、带权伴随和DRν保持；质量再Cartier零不能删四方向。R912原[p]完整两位/严格窗和真除p²保，仍缺中央⇒全边界。
 R915附A/B的原ζ/ψp/Φp两位与Lucas严格整窗保；a_j整到p²−p−1，首后项v=−2且p²a_N≡−pc。全C_r,k/Vc反馈及新窗输入门见原文。
 R923补全V66 Hall迹与固定分母154224，原Galois/物理−17/11保。连R707/708的m34/72/136，四来源全迹工具齐：非零迹赋值≤3/4+o(1)，边界零iff约3p/4个原Gaussian块modp全零。真实z^(dh)=w^(sh)窗仍O(p²)，五块不替全窗；原中央只给保真实除p商的部分和，中央到边界及无穷联合非零仍开。
 
-R929全n<p²三带、p logΘ modp³、严格整窗原g两位及g_p真实Fermat2第二位已付；原四前缀/κ/物理量与全carry见原文，中央⇒边界仍开。
-
-R933原σ倍点单位64^p−4恢复实际f_p与四第六块，旧R615/Cartier仅引用。附A已从原H/W有限单位积全付L5 modp7：五块p^(7−h)、γ p6及r0=5s−1真除p端点保。实际E_p=4γ^6jS−(4γ)^6jU；同B/规范2真K6商相消，−9/35仍须所有低卷积，尚未迫无穷非零。
+R929全n<p²单位积/原g两位/Fermat2真carry已付。R933及附A从原σ倍点与H/W全付f_p、四第六块和L5 modp7，五块p^(7−h)/γ p6/r0真除p端点保。实际E_p=4γ^6jS−(4γ)^6jU；规范2的K6真carry相消，不能单独用−9/35迫非零，中央⇒边界仍开。
 
 ## 第四门：同P/R/S的真实forcing
 
@@ -68,3 +66,5 @@ R934同P全J双jet为(−B|C,−11t^(r_src−2)w^(−s)F(t,g)^4/a−EB|C)；B保
 R931§11同原单位HNF，或§11.1真h=c·1 mod I，均付厚Res(detI,c)，值miss回全π层；R925§24全分母HNF逐306源行准确除法，完整返回gI，等价旧图核source=unit。两个独立helper均未接运行/无新PASS。
 
 [R936](results/R936-original-positive-horizontal-dual-and-fixed-quartic-value.md)：原正水平全H⁰(N³(−Z+))在K+e+>3κ时给确定λ+及完整Z商的唯一ν，真杀原T_J。2≤τ≤d0+1的同P评价为−11U*(0)/a−λ+((EB−3bB)|C)；已指定B∈H3才得单位非零、排该原陪集全p³。可进入旧T cutoff后≤12位条带，不排其它WD陪集。
+
+[R937](results/R937-original-quadratic-horizontal-dual-and-same-H1-obstruction.md)：原Q+=(E−3b)(E−3b+1)沿完整2H+消失，n=h+τ−2且n+2e+>3κ给真四行左行。指定B∈H3、d0+2≤τ<min(h+2,ell)时值为原单位28ζ0^(−s)uhat0³e0/a；每个兼容G0后同ρ2杀全F²H1而残差不变。双jet已零仍排该陪集，τ=h/h+1精度保，一般B偏移不删。

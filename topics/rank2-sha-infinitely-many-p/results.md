@@ -468,3 +468,5 @@
 - [R936](results/R936-original-positive-horizontal-dual-and-fixed-quartic-value.md)：原正水平全H⁰(N³(−Z+))在K+e+>3κ时给确定λ+及完整Z商的唯一ν，真杀原T_J。2≤τ≤d0+1的同P评价为−11U*(0)/a−λ+((EB−3bB)|C)；已指定B∈H3才得单位非零、排该原陪集全p³。可进入旧T cutoff后≤12位条带，不排其它WD陪集。
 
 - [R931§11.1](results/R931-original-complete-shadow-artinian-norm-and-base-prime-layers.md)：同一次单位HNF还可认证这次h=c·1 mod I；全商不循环亦由完整R-module的Smith行列式给原k Res(detI,c)，全厚度/gcd单位门保持。独立helper已更新，值miss才回全π层，仍未接运行。
+
+- [R937](results/R937-original-quadratic-horizontal-dual-and-same-H1-obstruction.md)：原Q+=(E−3b)(E−3b+1)沿完整2H+消失，n=h+τ−2且n+2e+>3κ给真四行左行。指定B∈H3、d0+2≤τ<min(h+2,ell)时值为原单位28ζ0^(−s)uhat0³e0/a；每个兼容G0后同ρ2杀全F²H1而残差不变。双jet已零仍排该陪集，τ=h/h+1精度保，一般B偏移不删。
