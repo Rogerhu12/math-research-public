@@ -189,3 +189,5 @@ R138的[几何桥](results/R138-residual-sensitive-Codazzi-frame-and-geometric-J
 [HP原high全压缩](results/R138-supplement-original-high-principal-and-signed-compact-bound.md)给principal误差≤2^(1/6)/32·388^(-4/3)||a″||，只需同actual C2；完整无输入导数型含六local、mean rank及两环境primitive（I费1），先保全部符号再只付三个平方项负部可给单侧更紧门。负部费不能冒充双侧范数或cross尾。真实Aqq用含actual Z的几何恒等式，原high97不提高；全圈系数/严格high lower尚待新公开计算，旧三矩阵项不重算。
 
 [HC新单侧high消费者](notes/2026-11-20-R138-original-high-root-lower-bound-contract.md)24当前/6原件、26字段/41新球、32768闭格/320bits首次公开。actual C2由完整X缺陷，c/c′先消商；b′平均分部积分与环境194分谱gap收紧完整mean/primitive，原high388不动。source/worker/gen和全部pins、旧6恢复、metadata逐字复现已核；旧axis/mean/X/signed3项仅读。完整下界与κ、F2源系数尚待actual，false门不推奇异。
+
+[HC实际44750653724/1](results/R138-supplement-actual-original-high-root-lower-bound.md)24当前/6原恢复、26字段41球、32768闭格已核冻结：原全部high压缩lower>.7226，κ<.091付同odd/even两restriction。actual C2/六local/fullmean/两primitive保，全部旧signed对象原样嵌套；5次README全链重建一致。只付fixed Qrepair trueDF根型，不授WVC低逆或完整边值逆，原96/97负方向继续有效。后继无需重算任何41球。
