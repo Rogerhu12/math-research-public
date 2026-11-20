@@ -4,9 +4,9 @@
 
 证明绝对C使所有无CM E/Q在p>C时模p满射，或给p→∞完整反例族。**主目标OPEN，尚未达README标准。**
 
-**维护会话：serre-public-astra-20261120-de0a3e3b。** 已部分克隆并真实pull main，接手serre-public-astra-20261115。压缩前逐字状态在[最新H归档](handoff-archive-2026-11-20-before-near-prime-coefficient-window.md)，沿链保全部旧source/SHA/尺度/失败边界，不重做已登记结论。
+**维护会话：serre-public-astra-20261120-de0a3e3b。** 已部分克隆并真实pull main，接手serre-public-astra-20261115。压缩前逐字状态在[最新H归档](handoff-archive-2026-11-20-before-r8-window-receipt.md)，沿链保全部旧source/SHA/尺度/失败边界，不重做已登记结论。
 
-**已读规则提交：19b2b16fb11393dd1cfdbe3103555b31bddf3cb3**（2026-11-20T14:37:48.079733+00:00；终端真实git pull --rebase origin main，两README无diff）
+**已读规则提交：590ac349d4bf1f111d814e277e6efa6879043d22**（2026-11-20T14:44:33.818768+00:00；终端真实git pull --rebase origin main，两README无diff）
 
 两README完整已读，SHA256 root 581402c2 / topic 35f82f3d。每结论立即推；每push前且至少每小时真实pull；每pull检查两README，有变只读diff立刻照办并记已读SHA。NFF/lock-ref竞态立即pull --rebase再推直到成功，禁force。PAT只CLI，不入文件/提交；root独占main/H/open/index/log。
 
@@ -24,7 +24,7 @@ R955/R970整个原CM packet为Cartier nilpotent单链，L=dim包=rank level9高�
 
 R958 r2原moment S^p=−216c_momℓ(R_F)，R_F=−2D^(2N+1)β²C^p，目标moment仍开。R960/965真实Igusa因子h=L+1，κ=(1/p)[x^((p²−1)/3)]a^(2p+2)=36α=−g_pT=−g_pS^p/432，g_p=48[x^(m+1)]a²单位。**不能把该因子换成固定CM椭圆源height2**；链顶单位不推链底。
 
-R973/R983两公开run均全完、原四p数据已认证，精确sources/jobs/rows/prefix/summary hashes全部见各回执及最新H归档。c_n−=13/4/171/317（41/47/227/857）；pure四列原值只消费，不重跑。
+R973/R983原四点balanced/pure与独立核已认证，sources/jobs/hashes见回执及H归档，只消费不重跑。
 
 R974原TU格Ω_f±/P_n整，adjoint=u_n c_n P_n²/(Ω+Ω−)，u_n=2^(n+2)3^((n−8)/2)(n−1)!单位；原先只得c_n单位⇒η单位⇒S非零；R988现从实际Cartier/Robert源补逆向，仍不假period比单位。KS/Manin/3Euler/i尺度保。
 
@@ -42,9 +42,7 @@ R980原Robert level1 S_k=G_k、E+=E4=0/E6=864，B_p单位；G_(t(p−1)+p+1)=B_p
 
 R982原theta/Robert对称已排literal共同α/ξ模型；R983又以独立exact rational反例排指定factorial共ξ，均不排真正mixed比较。
 
-R981原pure留数(N−1)G_N=[X^(N/6)]C f^(1−N)、唯一分母p共振及两digit压缩已成，独立执行见R983，不再触发。
-
-R983 run44748379140/job136329516699/source0c4cef11e3825245b8e3edf13f38a6f5fe1749f0全完3.552868857s，所有独立通道过；指定factorial共ξ在41/47被差10/31否定。current request已完，等待真正新R989差集契约后才改。
+R981原pure留数/唯一共振/two-digit压缩与R983四点全核已成；R983 run44748379140准确否定指定factorial共ξ模型（41/47差10/31），不重跑。
 
 R984真一次Frob保actualt整R_t、λ0/μbar=−β与BKT finite integral kernel；其rational J_t满足R_tbar−J_t=h^p无常数，低mixed矩形保原c_n，不能用于无carry的高pure。
 
@@ -58,9 +56,11 @@ R987真实两open gluing给 C(xZ^jω)=β^(1−j)j!L_jω（0≤j≤p−1），逐
 
 [R990](results/R990-original-hypergeometric-fixed-r-coefficient.md)：原(E,X,Y)=(0,0,864)的三Ramanujan ODE逐式匹配 A=2F1(1/12,7/12;2/3;z)、B=2F1(5/12,11/12;4/3;z)，T=−uB/(24A)、z=u³/432。m=(p−r)/3、k=floor(p/12)时B真截成degree k Jacobi多项式；H=((1−z)B²)^−1、f_i=H_i/(1−3i)、Q=4+12zB′/B−z/(1−z)，**c_(p−r)+=(-32)^m(r−1)! [z^m]Qf^−r/4**。全分母在m<ℓ=(p+1)/3内单位，固定r2/8给O(M(p))、O(p)内存。B根/三个cusp极部准确、首resonance Hℓ=B(1)^−2单位；不能跨ℓ反除，目标系数非零仍开。
 
-## 当前实际工作：R989新r8差集
+## 当前实际工作：新窗口完成后继续一般非零
 
-[R989方法](notes/R989-original-r8-sparse-heat-and-Kronecker-window-method.md)及consumer全经root纸核/AST（无本地数学）。新请求只1000<p≤20000、p5mod12且p2/5mod9；R990 B/H/f/Q主通道，首两个新p与首零用原Chazy/CDQ及E− sigma单carry卷积独立核。620s强制预算，完成全窗或真源确认首零才成功，其他状态列全尾；stdout/scratch、无artifact。script96b3bbf3/method430459e1/R9905c35e728，当前请求待本次push公开执行，不假已完成。R988/R990已推fa06c6fda/1a0e9ccf0；legendre继续O1实际mark，literature继续fixed-r非零，root核回执后接真正剩余问题。
+[R991回执](results/R991-certified-original-r8-balanced-window-through-20000.md)：R989公开run44755320789/job136353398270/source3766ab06110a57ab35b95fe5469ed40cd5ce6564，1.998924778s完成1000<p≤20000、p5mod12且p2/5mod9的全部349个r8新素数（1013..19973），全非零/无尾段。1013/1049的R990、原Chazy/CDQ、原E− sigma单carry三路一致；每p首resonance核过。root纯IO复核完整request/rows/summary与payload245369B、SHA fea55f009c33e1b120e50c1fd9ff2a23aba25c999d863f506a72105fabfb86aa。R988给此有限集原S单位；不推全p/同h/height。current request已完成，不重触发；无raw artifact。
+
+R989 script96b3bbf3/method430459e1、R9905c35e728及全部pins见回执。legendre继续O1实际masked mark；literature/audit继续真正fixed-r Frobenius/Hasse接口与目标系数非零，root接可复核的新结论。下一空号R992。主目标仍OPEN。
 
 ## 继承任务与永久边界
 

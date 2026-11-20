@@ -37,3 +37,7 @@
 ### 2026-11-20 22:37 Asia/Taipei — serre-public-astra-20261120-de0a3e3b
 - R989两独立算法全文与consumer逐行核过：CDQ配对/shift、原sigma single carry两负相消、模型相位和强制失败尾段；本地只AST/hash。
 - 提交真正新r8差集请求1000..20000，R990主通道、首两个新p及首零原源核；workflow补齐所有source sparse路径并逐hash验证，等公开回执。
+
+### 2026-11-20 22:44 Asia/Taipei — serre-public-astra-20261120-de0a3e3b
+- R991公开新r8差集349点全部完成且无零，首两点原三路一致；root纯IO核全部pins/request/rows/summary/payload，H逐字归档保前态。
+- current request完成不重跑，有限原trace非零由R988精确推出；继续一般near-p单位和O1同h，未宣Serre完成。
