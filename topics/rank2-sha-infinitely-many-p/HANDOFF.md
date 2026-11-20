@@ -5,13 +5,13 @@
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近实际部分克隆/pull及已读规则提交：`7b008f70df08d430d35114d733dc274529261e14`；2026-11-20 12:54:09 UTC 实际pull --rebase，两README相对dd662262差异为空；下一次最迟一小时内。
+- 最近实际部分克隆/pull及已读规则提交：`9c9905fa814ef313fbc8a51c6996e2f2a156b4e7`；2026-11-20 12:56:07 UTC 实际pull --rebase，两README相对7b008f70差异为空；下一次最迟一小时内。
 - 仅写公开main；每条完整结论即提交，推前pull --rebase；非快进循环，不强推、不存令牌。数学只在公开Actions执行；重算输出不入库/Release、不分块，只存源/args/run/hash。
 - H<10KB、MD<100KB、open尽量<30KB、文件<5MB、题≤200MB；log每轮≤5行，不写根LOG。所有旧授权/规则已读，未变化。
 
 ## 完整检查点与当前分工
 
-[最新完整H](notes/2026-11-20-handoff-before-two-digit-gaussian.md)逐字保全部旧条件、源/run/hash及归档链；入口results.md、notes/PROOF-INDEX-R901-R950.md、open.md。root唯一metadata/ref写者并整合公开门；global续原ordinary/global底，deep续同P真实forcing，theta续四指定中央/边界并交叉审源码。四主门均保留；R364/R561/R654/R712及主目标仍开。
+[最新完整H](notes/2026-11-20-handoff-before-native-tail-right-inverse.md)逐字保全部旧条件、源/run/hash及归档链；入口results.md、notes/PROOF-INDEX-R901-R950.md、open.md。root唯一metadata/ref写者并整合公开门；global续原ordinary/global底，deep续同P真实forcing，theta续四指定中央/边界并交叉审源码。四主门均保留；R364/R561/R654/R712及主目标仍开。
 
 ## 第一门：同原映射、完整函数环与原shadow
 
@@ -44,9 +44,11 @@ R887全原运输/α/五窗、C³η[2]=−α^(1/p³)rω及实际带权伴随/DRν
 ## 第四门：同P/R/S的真实forcing
 
 原P134/十九角/charge40/10980/39carry/全部WD/TM/TJ保；完整p³才付同R的J/p²。R872/888/890全oR/H¹/合法提升/TF-adj/Cech保，47/8只迫oR非零；K2零且d<κ+s+2才返V2+J3含t²，A4不换整O_H−。
-R902/903端点单射不可相加；R907唯一TG=EG−aF³、两native尾/六维Qf/实际GRes左端保，m4/m5是真Jacobian迹，不除Ft/f2。R911全五/六长能量13(T−vG)≤27κ+312b、16(T−vG)≤27κ+384b保重复/19角；当前unit quartic强制L≤h，不能借L>h。R914先Qf(T)消零纤维才T=E，五/六反门给8/9截止、9dimK≤8nT+d∞或10dimK≤9nT+d∞，d∞≤6。
+R902/903端点单射不可相加；R907真TG=EG−aF³、两native尾/六维Qf/真GRes保持。R911全五/六长能量与原重复19角、R914先Qf(T)消零纤维的8/9截止/真实秩界及d∞≤6全存原节/完整H；原quartic只付L≤h，不能借L>h。
 R916只在原f=λY²(Y−1)、1≤ordF(t,0)≤2给K∞≤1；完整19角Pn·k[t]≤Mn及同T前缀读唯一Bn+c(t)Yn，εF0/1替d∞，原Λ未判。R918三首13带在δ=r+2h−s∈[−13,−1]给同q卷积unit·a(G)及稳定核β1单射；δ≥0三带零iff深J=T+13，q(0,Y)=cY的native式、δ0首值/δ>0再深1及全部U0/高轴/导数/同R,S保，非稳定核仍开。
 [R920及附A](results/R920-original-first-bockstein-kernel-and-short-euler-chains.md)K′=K∩ker完整β1，三首13带深J=T+13；δ∈[−13,−1]真相邻后继由2h<J迫a=0/H=EG，K′∞=0。S=min(J,s−4)=T+11是已付窗，真实三/四来源链给3dimK′≤2nJ或4dimK′≤3nJ。同P两全p³解仅在ΔR∈jH3时入jK′；固定一解且S全原格自由时可延类是R+jK′，受限S只保必要式，未判p⁴或固定forcing。
 R834/836/837预算、R840同Kcorr/Hcorr、R842指定WT[b0]及2κ<T≤3κ保持；R895/896只排τ1 quartic低松弛，O4/O6/O7仍开。
 
 [R928](results/R928-original-fixed-P-affine-long-jets-and-global-compatibility.md)从原P写完整四前缀右端，H·B与真除p商保；负fringe的η²逆Taylor给固定全局兼容类（同陪集基点不变），同H1像给选定行充要。原受限S剩余全p³像门仍须同整R；固定类实际值/非零正续接，不把选定行核当K′。
+
+[R930](results/R930-original-quartic-native-tail-joint-right-inverse.md)同原quartic的Y_j=t^{−(τ+j)}P在σ_t≥τ+m、ell≤s−h−m时给原K1末m尾三角右逆；同q返回qt²H3及负fringe自动σ=τ−δ−1，δ≤−4付全末三尾。它们β1非零，只可按准确页数同调S或较早R；其它normal响应/受限S差格/固定R928类仍须真付。

@@ -117,3 +117,5 @@
 - [R925§21](../results/R925-original-ys-affine-rings-and-complete-divisor-ideals.md)：同原fraction/两图完整pole ideal及same engines/registry全等时，可精确共享真r次幂、同一有效E及全部厚闭点；四pair输出和完整迹仍各自读。补丁/证明已独审保存，执行前须补新增helper manifest，未冒实际命中或PASS。
 
 - [R929](../results/R929-original-hypergeometric-two-digit-blocks-and-gaussian-prefix.md)：同一r_n在全n<p²矩形的精确三带/模p³单位积给完整p logΘ，p倍列额外一位与实际g_p保留；严格R614整窗中还原原g modp²，四来源全前缀/原κ/物理缩放与第一真除p carry齐。中央到边界及联合非零仍开。 附A由真实duplication/两负块反射给g_p≡2Q_p+p(Q_p²+L_p^U/2) modp²，保Q_p的第二位及原全块倒数商，完整D0列逐项返回。
+
+- [R930](../results/R930-original-quartic-native-tail-joint-right-inverse.md)：原t松弛下真实Y_j=t^{−(τ+j)}P给完整K1到末m carry的三角右逆，完整H·B归并；同q的负fringe有σ=τ−δ−1、δ≤−4付三尾联合满射。其β1投影非零，准确S页数/normal响应/受限差格保，未冒K′或固定forcing非零。

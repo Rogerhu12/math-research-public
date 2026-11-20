@@ -200,7 +200,7 @@ R887(116a)进一步准确给C(Hω)=0及C²(𝔄Faω)=0：rω=(1/3)dlog y与[G]_(
 
 [R921](results/R921-original-inert-residual-local-matrix-and-integral-bockstein.md)m≤e=v_p(q+1)时完整残余H¹有原整提升线L和H0连接线C。原j_*到Shapiro(U,S)矩阵diag(u,0)，corestriction为diag(0,1)；β_m(C)=−u p^(e−m) modh同构到整H²[p^m]，kerβ=BL。完整全局Bockstein的q定位准确读C坐标，原ordinary两p位H0=0；全素点/其它群环/wild均保。几何loc零只控L，未判原derived C/global/ordinary/s0。
 
-- [R915 附A](results/R915-original-connection-integral-window-and-second-digit-kernel.md)：原完整E(F)=E^q S_c V_c(F)/V_c^q付两窗精确三角递推；a≡(logVc)′−p⁻²(logSc)′ modp^(p−2)，j=e的额外p因子保。明确新L_conn=2p²−2并重付严格<2p²的LT端点，同ψp/Φp modp⁵给全部a_j modp²，含原c的实际lift；不延改R912旧L或增加四中央零。
+- [R915附A](results/R915-original-connection-integral-window-and-second-digit-kernel.md)：原Vc/Sc三角式给aj两位；新Lconn=2p²−2的严格LT窗已重付，同ψp/Φp modp⁵和原c lift均保，未延改R912旧窗或增中央零。
 
 - [R922](results/R922-original-primitive-middle-remainder-and-unchanged-coordinate-certificate.md)原对称Phi17差先真除x−v，各伪余式立即消系数content并全式复乘；次数严格降、一次即停。仅候选，仍须同eta48域两完整Phi/绝对支/两Atkin才认原U。新独立公开运行只付U，不冒正规化/RR/shadow，无PASS。
 
@@ -213,8 +213,12 @@ R887(116a)进一步准确给C(Hω)=0及C²(𝔄Faω)=0：rω=(1/3)dlog y与[G]_(
 
 [R928](results/R928-original-fixed-P-affine-long-jets-and-global-compatibility.md)给四实际右端（保真除p商/H·B），从负fringe全η²逆Taylor直接定义固定P的全局coker类；同H1的完整实际像使选定行充要，受限S仍须同整R的剩余全p³像门。下一门是同P真实左行对该类的准确值，不能从差落K′或维数界假定非零。
 
-- [R927§8](results/R927-original-yF-pole-degree-from-mixed-kernel-and-cusps.md)：原e/z读者与同进程公开前端已接；完整900核、51原二次因子及204回代、∞289全幂链/π2真2⁶/同核N,D全部保，同进程混合核144给度180依据。只静态审过，精确读数待公开PASS。
+- [R927§8](results/R927-original-yF-pole-degree-from-mixed-kernel-and-cusps.md)：完整900核/DS204/∞289读者及同进程公开请求已接，原身份/回代/微分2⁶保，精确e/z待实际PASS。
 
 ## R929：原系数后两位与完整 Gaussian 前缀
 
 [R929](results/R929-original-hypergeometric-two-digit-blocks-and-gaussian-prefix.md)原r_n精确三带与单位积付整个n<p²的p logΘ modp³，p倍指标保额外一位；原F/κ与R614直接U/W整性给严格n<(p²−1)/6内原g modp²，四源全J≤p−2前缀/物理缩放及第一真carry均保。不是中央⇒边界或联合非零；下一门直接用这些同源实际系数判断原部分和。 附A由真实duplication/两负块反射给g_p≡2Q_p+p(Q_p²+L_p^U/2) modp²，保Q_p的第二位及原全块倒数商，完整D0列逐项返回。
+
+## R930：同一真实首核的联合尾像
+
+[R930](results/R930-original-quartic-native-tail-joint-right-inverse.md)同原quartic的Y_j=t^{−(τ+j)}P在σ_t≥τ+m、ell≤s−h−m时给原K1末m尾三角右逆；同q返回qt²H3及负fringe自动σ=τ−δ−1，δ≤−4付全末三尾。它们β1非零，只可按准确页数同调S或较早R；其它normal响应/受限S差格/固定R928类仍须真付。
