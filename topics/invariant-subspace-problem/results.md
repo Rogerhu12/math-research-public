@@ -103,3 +103,5 @@
 - **R271 最高可逆单位不改变全真核、辅助分级及合法物理能量尾界（2026-11-20，已证明）：** [交换子商、全核维数与Chebyshev完整证明](results/R271-appendix-highest-unit-invariant-true-kernel-and-graded-physical-energy.md)把实际方向换成同一F0的规范方向，保全部强尾和原非正交头Gram；真实K_D预条件谱界与S/R无关且带宽n−1。得完整a0/ξ0辅助尾界，但粗条件数仍不支付γ<1/16；四头精确相关式保留真实混级成本，不宣ISP结论。
 
 - **R150 一阶展平秩一V的自身五重均值极线整支为空（2026-11-20，已证明）：** [完整原源与射影两图证明](results/R150-appendix-rank-one-third-cumulant-quintuple-mean-at-own-point-exclusion.md)保非零V、全部物理Hankel键及原加权缩放；三个原二次梯度给QQ实度80结式，103单位分母/首项与固定160阶行列式27严格升特征零，∞四阶77。run44736004677独立成功，1.90793秒；一般s、极线重根及全部η覆盖。只关闭P_y∝Δ_s⁵，其他V1分配及高秩V仍开。
+
+- **R150 unit3+1非半权q非零图的第二mean系数零边界为空（2026-11-20，已证明）：** [完整原源与除数返回](results/R150-appendix-essential-four-unit-three-plus-one-nonhalf-second-mean-coefficient-zero-branch-is-empty.md)先证s≠x、p0≠0，再在gamma=0用原mean合法消q²。两个关于b的QQ结式gcd仅x¹⁰(x−1/2)⁹，零根分别回原mean排除；run44737090302全部恒等式/gcd通过。只关闭q非零图该边界，q0与真正一般支仍需独立处理。

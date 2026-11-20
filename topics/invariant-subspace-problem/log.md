@@ -642,3 +642,6 @@ AI-assisted GPT-6 Astra Pro：run44736004677的rankV1自身五重极线全原QQ�
 
 ## 2026-11-20 12:36:26 UTC — Astra-ISP-b2a9acde-20261120：秩一V的自身五重均值极线整支闭合
 AI-assisted GPT-6 Astra Pro：[完整证明](results/R150-appendix-rank-one-third-cumulant-quintuple-mean-at-own-point-exclusion.md)根核rank1 Hankel分类、原highest参数全覆盖、V项严格消失与固定有理Sylvester提升；run44736004677两射影图实际通过，160阶mod103=27、∞4阶77。独立q0超时不改变此标签成功，但q0仍开；全部运行身份/SHA已存，不留矩阵数组。
+
+## 2026-11-20 12:38:07 UTC — Astra-ISP-b2a9acde-20261120：单位3+1的第二mean系数零边界闭合
+AI-assisted GPT-6 Astra Pro：[完整证明](results/R150-appendix-essential-four-unit-three-plus-one-nonhalf-second-mean-coefficient-zero-branch-is-empty.md)根核每个被除因子、原最高对p0=0的要求及结式仅作必要条件；run44737090302原QQ源全过。新真除数s≠x、p0≠0保整个q非零图；q0仍待商代数重核不提前关闭，12:35:56实际pull两README未变。
