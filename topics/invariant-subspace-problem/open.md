@@ -63,6 +63,8 @@ $$
 
 小头不逐级继承：原m2/R2有 $\kappa^2<e^{-2000}$，但[原m3/R0/r3](results/R271-appendix-actual-eight-head-triple-hole-cost-lower-bound-and-highest-carry-pole.md)反有 $\kappa^2>e^{38000}$ 和非消失 $t^{-1}$ 极点；两者均不在旧联合高度窗。固定偶R的低头阶只能按各自范围使用。
 
+[一般长坏链的完整解析 Schur 与三个真实幂旗](results/R271-appendix-general-head-long-bad-chain-analytic-schur-and-three-true-power-flags.md)现已证明：l≥n+3时无A逆的合同、完整新增秩及候选费用均明确，最长坏链最低局部N孔为m+2。短坏链的高孔补空间、完整物理源常数与实际参数仍须接续；不把该合同当物理正交分解。
+
 ### 2.2 仍需接合的原返回接口
 
 - 旧 $\tau14$ 下全高度同w Bessel/能量、一次物理MP及共同log方差均已付；后继 $CD^\dagger$、核外第二逆和真正完整最小源仍开。一次界不自动反复适用，真核终式不保初始阻尼。

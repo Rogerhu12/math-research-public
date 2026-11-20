@@ -73,3 +73,5 @@
 - **R150 孤立零点加unit2+2半权的rankH4整支为空（2026-11-20，已证明）：** [原四mean分类、真实值/jet和无除法兼容式](results/R150-appendix-essential-four-unit-two-plus-two-half-isolated-zero-rank-four-branch-is-empty.md)排全部四族与零配对例外；末族以3h n′−2n h′=0给原f(q²)/g(q²)的QQ gcd1，无须除u或m。run44727076042原源通过。只闭a=b=1/2，unit2+2一般权及其它split单位四仍开。
 
 - **R150 V0本质四维的独立双二次与唯一简单基点（2026-11-20，已证明）：** [原完整归约](results/R150-appendix-zero-third-cumulant-essential-four-independent-quadrics-and-basepoint-reduction.md)由原J2迹与四维线性代数把相关性压至N=0；原H的Frobenius配对迫q²=fq=0，等向三jet分类及最高式/极线gcd≤3排全部length4型。故C,N独立；不可约二次的次数界排五次投影，剩余只有唯一简单基点的双有理四次物理曲线。未判余支空、不扩到V非零或ess5/6。
+
+- **R271 一般长坏链的完整解析Schur及三个真幂旗（2026-11-20，已证明）：** [有限生成恒等式与全部物理费用](results/R271-appendix-general-head-long-bad-chain-analytic-schur-and-three-true-power-flags.md)用整个退化核的3d列无逆参数化，原最高导数统一成U A幂，精确合同给三旧真幂旗与全部新增秩。原核/合同/662a逆费用明列，最长坏链显式秩一且N型最低局部孔m+2；强尾还原只一κ≤4^R y^(2d)。短链和完整实际源仍开，不视作物理正交分块。
