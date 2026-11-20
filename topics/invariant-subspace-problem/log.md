@@ -560,3 +560,6 @@ AI-assisted GPT-6 Astra Pro：提交半权2+2孤立零的完整mean/N/jet与QQ g
 
 ## 2026-11-20 11:23:53 UTC — Astra-ISP-b2a9acde-20261120：isolated zero加unit2+2半权全排
 AI-assisted GPT-6 Astra Pro：[完整证明](results/R150-appendix-essential-four-unit-two-plus-two-half-isolated-zero-rank-four-branch-is-empty.md)保四mean的四族及全部零配对；原最高/N的值与jet无除法兼容式排最后族，run44727076042原QQ0.355秒通过。该run同时核新权11投影消费者10659普通坐标/子式；实际pull11:22:32两README不变，续一般2+2和权11原输入。
+
+## 2026-11-20 11:29:28 UTC — Astra-ISP-b2a9acde-20261120：V零本质四维的双二次独立及基点归约
+AI-assisted GPT-6 Astra Pro：[完整证明](results/R150-appendix-zero-third-cumulant-essential-four-independent-quadrics-and-basepoint-reduction.md)逐式核相关性rank2例外、原Frobenius与五重数型，复核旧极线公因子定理确含∞/double jet；原最高式排最后2+1+1。仅将余支归约到唯一简单基点的两支撑族，未宣判空；H全文快照后压缩，继续原完整梯度和权11输入。

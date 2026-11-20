@@ -6,12 +6,12 @@
 
 - **普通复可分无限维Hilbert ISP未完成。** 只有全体有界算子的存在定理或完整反例才收尾；子问题完成继续open，不以阶段或时限停止。
 - **最近成功实际pull与已读规则提交：** 5bd3fd23c037e85ab1587bd684799cd389726da1，2026-11-20 11:22:32 UTC，Actions run44727076042/job136257087646；真实git pull --rebase成功，两README未变，原日志已核。下一实际pull不得迟于12:22 UTC。
-- **最近API同步及规则核对：** `5791d0bf6d239296e044a050569d53e1e39f7c02`（2026-11-20 11:23:58 UTC）；两README blob均未变。API快照不冒称实际git pull，另记真实执行回执。
+- **最近API同步及规则核对：** `c10fe102981ace04679db870ec556fbb62de3c6b`（2026-11-20 11:29:32 UTC）；两README blob均未变。API快照不冒称实际git pull，另记真实执行回执。
 - 根README blob282e86b03385d3b6245ce7100ae2e2af7b103c2d、课题4d6570e9cf346431ab781a1290076a6321aaaa00已全文读。每次pull比两README，只读新diff并立即遵守；至少每小时及发布前同步，SHA写H。
 - 仅授权Rogerhu12/math-research-public。root独占main/H/open/results/log和发布，代理只交proof blob；每条结论单独提交推送，非快进立即更新/rebase重试成功，不force。用户PAT仅CLI环境，不进文件/config/日志。
 - 根规则15：可重算数组/数据/证书不进Git、Release或新工件；仅源码、参数、运行身份/SHA及正式证明。MD/API UTF8<100KB、H≤10000B、open尽量≤30KB、topic≤200MB、log每条≤5行、数学美元符及AI署名，不写根LOG。
 - 本地executor于2026-11-20 09:49 UTC断开/environment unavailable；依根规则8以小文本API发布，逐次读取最新main/两README，非force条件更新失败即重读重建。API不冒称实际pull，另由只读Actions保持小时pull。实际请求sequence54已成功，下一递增55。恢复本地先处理未推a06d8dbd8与远端等价内容，勿重复推。
-- 此前结论/输入/完整SHA/失败与未闭项保[前H快照](notes/2026-11-20-handoff-before-reduced-three-b2a9.md)、[完整open](notes/2026-11-20-open-before-unit-two-plus-one-b2a9.md)、[结果索引](results.md)及其归档链；省略不算关闭。原clone约96MB，旧TMP不假存活。
+- 此前结论/输入/完整SHA/失败与未闭项保[前H快照](notes/2026-11-20-handoff-before-vzero-basepoint-b2a9.md)、[完整open](notes/2026-11-20-open-before-unit-two-plus-one-b2a9.md)、[结果索引](results.md)及其归档链；省略不算关闭。原clone约96MB，旧TMP不假存活。
 
 ## R150：原Bell非零临界点与完整来源
 
@@ -20,15 +20,17 @@
 - [权11–14严格门](results/R150-appendix-original-koszul-two-cycles-and-weight-eleven-through-fourteen-rank-ceilings.md)ΓE≤36782/90012/203542/430212；qb³/b⁴/δb³新增广负门36783/90013/203543。新大矩阵未运行，非成员性未宣。
 - 全essT3≤3 matched Bell零，W±Cat3真临界点存在，勿判Cat3整层空；Bell非零只可能ess4/5/6。
 - [ess4外均值原长度五代数](results/R150-appendix-essential-four-outer-mean-length-five-algebra-and-rank-defects.md)：Cat(y)=3、dimW4、y∉W，唯一D/全jets与同一L,ν给全矩。所有rankH3已排，含全部合流/半权/∞。
-- **rankH4的全部proper局部单零（块长度2–5）已排。** 最新[三约化unit补双零](results/R150-appendix-essential-four-reduced-three-double-zero-rank-four-branch-is-empty.md)保U标量/两值/生成元、m零/非零全支；原mean仅三族，完整highest解cross再以原N排。run44724947207原QQ残差/resultant通过，源SHA e40779b9596d56b3c592a023f28c9c1af395d00d470dfe60d2cb3fc98ae4ade0。unit2+1先由run44723783966闭；此前各局部证明见结果索引。
+- **rankH4全部proper局部单零（长度2–5）已排。** 三约化补支与unit2+1精确原源分别run44724947207/44723783966；所有零差/半权/合流/∞及除法例外保正式证明和前H，勿重做。
 - **rankH4只余孤立零单点，unit长度4为3+1、2+2、2+1+1或1⁴。** unit单四jet已由原H6/M8 gcd1闭（run44722024572）。divisor4+1及3+2全部rank4放置闭。
 - 全部rankH5单位支、inner mean y∈W、ess5/6、原Bell幂来源/算子桥仍开。inner mean不能从V低秩自动得到y/H共同支撑，退化支另证。草稿不预填结论。
 
-- **[V=0/rankH3且y在RanH外已空](results/R150-appendix-zero-third-cumulant-rank-three-outer-range-exclusion.md)：** 原J2可逆给H=J2⁻¹d2/6，完整mean/N迹矛盾迫F=0；三维等向向量引理与rank≤2二次因式排余支。无需Cat3假设；V=0/ess4只余rankH4、y在唯一原length4共同jets。继续该余支及一般V≠0 inner mean。
+- **V=0/rankH3且y在RanH外已空。** 原J2/mean/N迹及rank≤2因式给完整排除，无需Cat3假设；V0/ess4只余rankH4、y在唯一length4原jets。一般V≠0 inner mean仍开。
 
 - **新权11消费者已过控制：** run44727076042用普通标量独核投影、rank及所选子式，共10659坐标。固定线性行投影只作全增广秩下界，保原150646行/37568源/四规范q·b³。尚未跑权11大矩阵；root正在接原全父重建，未宣新非成员性。
 
 - **[isolated zero+unit2+2半权已空](results/R150-appendix-essential-four-unit-two-plus-two-half-isolated-zero-rank-four-branch-is-empty.md)：** 完整原mean四族及所有零配对排除；3h n′−2n h′保u/m零例外，最后原f/g QQ gcd1，run44727076042通过。只闭半权，一般a、1−a仍开。
+
+- **[V0/ess4双二次独立与唯一简单基点](results/R150-appendix-zero-third-cumulant-essential-four-independent-quadrics-and-basepoint-reduction.md)已证：** 相关二次只可能N=0的rank2限制型；原Frobenius配对给q²=fq=0，所有length4型用等向三jet/原最高式及极线gcd≤3排除。故C,N独立、物理投影必为有唯一简单基点的四次曲线；只归约到原两支撑族，尚未判该余支空。
 
 ## R271：同w的完整源费用
 
@@ -40,7 +42,7 @@ M=kerT、N=closure BM；N=M未证。保same-w/u、全部partial、真intersectio
 - [883费用](results/R271-appendix-odd-height-highest-carry-explicit-883-cost-and-d-sized-budget.md)：a=16^(m−2)，旧/参考头e^{221a}/e^{441a}；原−logt主阶1400a。只有完整ξ≤Lt²且logL=o(a)才余517a，源条件未付。
 - **[精确源极点](results/R271-appendix-complete-galerkin-highest-carry-pole-and-cancellation-criterion.md)：** K=kerX0，E1=P_kerX0*X1|K，F0=kerE1；E1*q₋₁=P_K(f−H0a0)唯一。q有界恰退化全K-Galerkin解属F0；q=O(t)恰ξ0=0且P_Kξ1=0。固定E不冒充移动谱投影。
 - **[高primitive支撑与原N残余阶](results/R271-appendix-high-primitive-support-and-uniform-low-carry-residue-order.md)已闭。** 尾链l≥d+r−1不新增核约束，故只在起始孔j≥J*；完整物理Galerkin用真核解析框架给a_ν孔级≤1+ν，非正交尾投影只作可行比较。低carry统一缩s时q₋₁=O(s^{(R−5d−r+13)/2})（J*≥1），全pole逆付s^{−(2d−6)}。固定参数O常数/邻域非统一，原移动m两种取s均有缺口，R=d无正阶。
-- **[中位强尾尺度费用](results/R271-appendix-median-strong-tail-scaling-four-power-condition-and-full-odd-height-cost.md)已闭：** κ(T̃)精确阶乘比≤4^R，同一非正交primitive投影亦≤4^R。c=(m+R/2)⁻²全移入头，原偶R≥d/奇r完整MP≤t⁻¹e^{883a}64^R(1+rb)²8^{2r−2}y^{4d+6r−6}/[((n−1)!)²(d−1)!(r!)³]。强段对数O(R)+(d+r)log(m+R)，源系数和新母窗仍开。
+- **中位强尾尺度已付：** 同一非正交primitive投影与尾相似κ≤4^R；c=(m+R/2)⁻²移入头后完整奇高度MP的全R成本为64^R乘明确y幂/阶乘，原头883a不变。准确公式见[正式稿](results/R271-appendix-median-strong-tail-scaling-four-power-condition-and-full-odd-height-cost.md)，实际源/新母窗仍开。
 - **[三位N头高孔主子式](results/R271-appendix-three-bit-highest-carry-high-hole-principal-minor-residue-order.md)已闭：** 五短链的原BigInt核/支撑/全新增秩主子式在run44724947207全部通过。真实极点最小性与Jcal翻孔给固定R,c,S的q₋₁=O(s^(R/2−3))；原强权全0<s≤1有10^100·4^R(3+R/2)^16 s^(R/2−3)Z_R(s)，Z_R=‖Σg≥R/2+1 s^(1−g)P_gξ0‖是完整物理源。实际Z_R与整个q仍未控，不泛化m3半高孔门。
 - **当前主门：** 增长强段的旧carry源残余及真实费用，允许高度/同w倒数和发散、负部返回与全帽逆后误差。G_reg/carry、Haar循环及归档open均继续。
 

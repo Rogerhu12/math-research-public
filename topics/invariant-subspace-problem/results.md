@@ -71,3 +71,5 @@
 - **R150 第三累积量零且rankH3/mean在值域外的整支排除（2026-11-20，已证明）：** [原J2、完整梯度迹与双线性因式证明](results/R150-appendix-zero-third-cumulant-rank-three-outer-range-exclusion.md)从原highest给H=J2⁻¹d2/6和τ2=b/6，mean/N与三维迹冲突迫F=b=τ2=τ3=0；h非零则N分裂，h零则rankN≤2再分裂，最终不可能的四维K全等向空间。无需Cat3(y)=3；V=0/ess4只余rankH4且y在其唯一length4原jets支撑。
 
 - **R150 孤立零点加unit2+2半权的rankH4整支为空（2026-11-20，已证明）：** [原四mean分类、真实值/jet和无除法兼容式](results/R150-appendix-essential-four-unit-two-plus-two-half-isolated-zero-rank-four-branch-is-empty.md)排全部四族与零配对例外；末族以3h n′−2n h′=0给原f(q²)/g(q²)的QQ gcd1，无须除u或m。run44727076042原源通过。只闭a=b=1/2，unit2+2一般权及其它split单位四仍开。
+
+- **R150 V0本质四维的独立双二次与唯一简单基点（2026-11-20，已证明）：** [原完整归约](results/R150-appendix-zero-third-cumulant-essential-four-independent-quadrics-and-basepoint-reduction.md)由原J2迹与四维线性代数把相关性压至N=0；原H的Frobenius配对迫q²=fq=0，等向三jet分类及最高式/极线gcd≤3排全部length4型。故C,N独立；不可约二次的次数界排五次投影，剩余只有唯一简单基点的双有理四次物理曲线。未判余支空、不扩到V非零或ess5/6。
