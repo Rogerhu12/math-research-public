@@ -313,3 +313,8 @@ positive推L1–25及pure13580B/2c5002f9，global整篇/整源独审；root再�
 ## 2026-11-20 15:48 UTC：全域互补Gram谱体预算首次公开入口
 
 会话visible-exact-astra-ac637-20261120。新source30446B/0ff56334、合同12121B/badef522、worker36595B/472ebb5c与gen14196B/651dca5c已封；manifest13216B/59361c5b，26当前/5历史/27字段/11CLI。全4651闭片的新谱max完成后才与旧CE upper取min；四新upper依序save/readback，body三门全过才第5lower，分母a/d用upper，false条件或必要门保whole成功而不伪零/逆。完整旧X/Y/GB/RS只读，原mean/真根/3594接口/old根r向量保；原Gamma根路线不重启。本机仅AST/hash/metadata，唯一新child由首次workflow push触发，实际待。
+
+
+## 2026-11-20 15:50 UTC：准确cell moments最小后继provider与共享寿命
+
+会话visible-exact-astra-ac637-20261120。joint给adapter11345B/8171fb10和完整GI10228B/ba05b49e，root已整读原source_matrix/packed接线，记录纯结论。whole-parent缓存仅复用同一包围、不声称系数恒定；defect用真Hparent/hparent，三种varying源保GM PSD费用、high0不再构无用AL。A/B/K只一次、J/right两批，保193原atoms与node舍入，point结束前shared不释放；以后若无原private carrier须如实记必要物化，不冒旧字节恢复或第二旧模型目标。未改运行中owner/manifest，不为性能重跑成功目标，0科学。
