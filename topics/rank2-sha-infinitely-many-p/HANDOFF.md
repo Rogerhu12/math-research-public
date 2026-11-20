@@ -5,20 +5,20 @@
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近实际部分克隆/pull及已读规则提交：`413645f46f15e3e325449876a1c4718a251a1d27`；2026-11-20 14:10:39 UTC 实际pull --rebase，两README相对ad13c21f差异为空；下一次最迟一小时内。
+- 最近实际部分克隆/pull及已读规则提交：`81afdb177ffe3bba99352a0158ec328fa8d9b244`；2026-11-20 14:12:12 UTC 实际pull --rebase，两README相对159e2714差异为空；下一次最迟一小时内。
 - 仅写公开main；每条完整结论即提交，推前pull --rebase；非快进循环，不强推、不存令牌。数学只在公开Actions执行；重算输出不入库/Release、不分块，只存源/args/run/hash。
 - H<10KB、MD<100KB、open尽量<30KB、文件<5MB、题≤200MB；log每轮≤5行，不写根LOG。所有旧授权/规则已读，未变化。
 
 ## 完整检查点与当前分工
 
-[最新完整H](notes/2026-11-20-handoff-before-complete-low-section-ideals.md)逐字保全部旧条件、源/run/hash及归档链；入口[results](results.md)、[R901–950索引](notes/PROOF-INDEX-R901-R950.md)、[open](open.md)；旧已付项的完整链接保该检查点。root唯一metadata/ref写者并整合公开门；global续原ordinary/global底，deep续同P真实forcing，theta续四指定中央/边界并交叉审源码。四主门均保留；R364/R561/R654/R712及主目标仍开。
+[最新完整H](notes/2026-11-20-handoff-before-all-correctors-budget.md)逐字保全部旧条件、源/run/hash及归档链；入口[results](results.md)、[R901–950索引](notes/PROOF-INDEX-R901-R950.md)、[open](open.md)；旧已付项的完整链接保该检查点。root唯一metadata/ref写者并整合公开门；global续原ordinary/global底，deep续同P真实forcing，theta续四指定中央/边界并交叉审源码。四主门均保留；R364/R561/R654/R712及主目标仍开。
 
 ## 第一门：同原映射、完整函数环与原shadow
 
 原Z角色/Euler/period/端点/R831符号保持；7993仅canonical，R858/859固定ell shadow不跨无穷p/ordinary。原u/λ/vnew/微分/∞O/整返回17、三退化j^m/S³/原ω/Artin(2,0,1)全保。
-- 原F/P特征零完整PASS分别见R909§7、R906§8：全1429/1226行、QQ/原支及0..6120/4284均付，全部run/source/hash见原节/完整H；不猜Manin1或约化精确dF。
+- 原F/P特征零完整PASS见R909§7、R906§8，全1429/1226行与高恒等式/原支保；完整source/run/hash见原节，不猜Manin1。
 - 旧306/eta/fricke/tate/R910/919/922卡点全见[续接注](notes/2026-11-20-old-job-outcomes-and-exact-P-certificate.md)。quotient-only run44713040079/job136209307176仍运行，原D/九cusp/Au/Av/branch/D0未付；t-adic U仅4096上限无候选，不作非存在结论、不盲目重跑。
-- R924§11–15原TUV/DS204/51二次双点、36base cusp、Y666/ys核360、DS值及vF/三Yi核144/152全部实际PASS；原身份/非约化结构、全部run/source/hash保持于原节和完整H。
+- R924§11–15原TUV/DS204/36cusp/Y666/ys核360/DS值/vF与三Yi核144/152全PASS；全部厚结构、原身份及run/hash见原节。
 - R925§12–22原306全乘法、整核API及六厚cusp全289幂基/666坐标已PASS，完整run/hash存原节。旧Fp²/612核/八点值仍待run44730598782。§19–21三已审补丁现接运行源，31源manifest两侧相同；完整shadow run44744769424/job136317138101及closed/local run44744769326/job136317137332已启动，source6e97468ea；旧运行继续，无新PASS。
 - R926§8–10原cube全身份/完整核实际PASS（run44728285578/source17ea1c0ce）；严推RF/Ri极度240/452/454/454及同L最小权2/3。紧缩全核/R8R7交叉与完整maps待run44732115204/job136274270348/source192c28161；原M2/首项/ω及后续geometry/四E/全trace门全保。
 - [R927§9](results/R927-original-yF-pole-degree-from-mixed-kernel-and-cusps.md)原e/z完整实际PASS：run44736604477/job136289459332/source8e2413043，e=0、z=96、dF=1296；原900核/DS51二次因子全rank0、∞289首idx192/微分2⁶及回代齐，1611.709秒。F_first、每E全度39840、E00=E01/E11=E12的分支已付；完整pole/E及shadow未算。result ed95578b…cfab6、全源/日志hash在原节。
@@ -55,10 +55,12 @@ R834/836/837预算、R840同Kcorr/Hcorr、R842指定WT[b0]及2κ<T≤3κ保持�
 
 [R928](results/R928-original-fixed-P-affine-long-jets-and-global-compatibility.md)从原P写完整四前缀右端，H·B与真除p商保；负fringe的η²逆Taylor给固定全局兼容类（同陪集基点不变），同H1像给选定行充要。原受限S剩余全p³像门仍须同整R；固定类实际值/非零正续接，不把选定行核当K′。
 
-R930同原quartic的Y_j=t^{−(τ+j)}P在σ_t≥τ+m、ell≤s−h−m时给原K1末m尾三角右逆；同q返回qt²H3及负fringe自动σ=τ−δ−1，δ≤−4付全末三尾。它们β1非零，只可按准确页数同调S或较早R；其它normal响应/受限S差格/固定R928类仍须真付。
+R930原Y_j=t^{−(τ+j)}P在σ_t≥τ+m、ell≤s−h−m时给K1末m尾右逆；负fringe δ≤−4付三尾。β1非零，须保真实页数和受限S差格，不能当K′。
 
-[R932](results/R932-original-quartic-complete-normal-tail-adjustment.md)同R930全部方向以d-primitive因子同提升再撤回原规范，完整四块β1代表保ξ/C1/C2与真尾移位；同A_b(t)逆全部末m尾并返回所有normal。非零尾目标有ε² normal首单位(2u0/3ae0)b_v，严格在原窗；这不是whole-coker左行。仅需旧m0的<s轴，受限S仍核整差格；下一步同P固定偏移/真实左行值。
+R932同因子合法提升给R930全四β1代表，ξ/C1/C2与移位保；同A_b逆末m尾且ε²首响应单位(2u0/3ae0)b_v。仅需旧m0<s轴，受限S仍核全差格，不冒whole-coker左行。
 
 R934同P全J双jet为(−B|C,−11t^(r_src−2)w^(−s)F(t,g)^4/a−EB|C)；B保原P/R_b两真除p读数，真左行forcing≤15项。仅B∈H3分支τ0/1低行失败、τ≥d0+2双jet类零；其余≤13项仍须同H1/受限S原像，不默删B。
 
 [R925§23](results/R925-original-ys-affine-rings-and-complete-divisor-ideals.md)：原P152/mixedF144完整低核由RR严格全局生成，J/J0两图全A理想准确给拉回厚除子；同子集全曲线长度2256/1080认证早停且余行全回代。端点配对N=(2/vnew)A+B同时付真零理想；两组各达标才返complete_divisor。当前须先补全核读者，未动运行或冒PASS。
+
+[R935](results/R935-original-negative-fringe-all-correctors-budget-exclusion.md)：同原负fringe的1≤τ≤d0+1，对全部原R/S无须B∈H3；整双jet与三低行迫严格f0，C分量两支均得d_D≥s+2。全十九角准确给N_D−2s≥D+r_src+13+2j，否则原全p³无解；三长松弛保额外s，不自动排全部临界输入。

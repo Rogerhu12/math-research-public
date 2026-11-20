@@ -458,3 +458,5 @@
 - [R931§10](results/R931-original-complete-shadow-artinian-norm-and-base-prime-layers.md)：完整厚Tate/Miller上层三审接源，原六类长度账/全厚曲线/双辅助双图/每line单位/原k Norm及6M^-1/18×9双轴齐。独立32源公开入口先核两原图1530长度、共零图回收与非Fp范数，再走全部四E/trace；未冒实际PASS，旧Tate作业继续。
 
 - [R925§23](results/R925-original-ys-affine-rings-and-complete-divisor-ideals.md)：原P152/mixedF144完整低核由RR严格全局生成，J/J0两图全A理想准确给拉回厚除子；同子集全曲线长度2256/1080认证早停且余行全回代。端点配对N=(2/vnew)A+B同时付真零理想；两组各达标才返complete_divisor。当前须先补全核读者，未动运行或冒PASS。
+
+- [R935](results/R935-original-negative-fringe-all-correctors-budget-exclusion.md)：同原负fringe的1≤τ≤d0+1，对全部原R/S无须B∈H3；整双jet与三低行迫严格f0，C分量两支均得d_D≥s+2。全十九角准确给N_D−2s≥D+r_src+13+2j，否则原全p³无解；三长松弛保额外s，不自动排全部临界输入。

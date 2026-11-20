@@ -2,7 +2,7 @@
 
 主目标：固定一条 E/Q，完整证明 rank≥2 且无穷不同 p 的通常全 Sha(E/Q)[p∞] 有限。**未完成，持续研究；不在阶段结果、时限或建议处停下。**
 
-[本次整理前完整 open](notes/2026-11-20-open-before-complete-low-section-ideals.md)逐字保存全部旧问题、公式、条件、预算、来源和更早归档入口；[同期完整 HANDOFF](notes/2026-11-16-frontier-before-padic-reconstruction.md)保已运行 source/run/job 与各原理论检查点。下列未重写的旧门仍有效，编号缺席不表示完成。
+[本次整理前完整 open](notes/2026-11-20-open-before-all-correctors-budget.md)逐字保存全部旧问题、公式、条件、预算、来源和更早归档入口；[同期完整 HANDOFF](notes/2026-11-16-frontier-before-padic-reconstruction.md)保已运行 source/run/job 与各原理论检查点。下列未重写的旧门仍有效，编号缺席不表示完成。
 
 ## O1. 固定曲线的秩：已完成
 
@@ -235,8 +235,12 @@ R931§1–10完整厚范数方法、基础和上层均已独审接源；原六�
 
 [R933附A](results/R933-original-first-frobenius-coefficient-and-sixth-gaussian-block.md)：同原W严格低系数完整支付五块p^(7−h)及γ p6，H唯一r0=5s−1分母先准确提出p，恢复真L5 modp7。实际E_p=4γ^6jS−(4γ)^6jU modp7全部可读；S/U同charge B与规范2的K6真carry精确抵消，−9/35不能脱离全部低卷积独立迫非零。
 
-[R925§22](results/R925-original-ys-affine-rings-and-complete-divisor-ideals.md)：三个已审优化实际接源，31份host/producer清单全等；原请求推进完整shadow，旧运行保来源继续，新增完整closed/local门并行。仍逐层实际支付全部图、极理想、四E和全Tate迹，未冒新PASS或接入未完成的R931路径。
+R925§22三个已审优化已接完整Tate与closed/local公开运行44744769424/44744769326，31源全等，旧作业保来源继续；无新增PASS。
 
 [R934](results/R934-original-fixed-quartic-entire-affine-branch-pair.md)：同P负fringe整个J双jet恰为(−B|C,−11t^(r_src−2)w^(−s)F(t,g)^4/a−EB|C)，原ξ经完整逆Taylor退出；B由固定P/R_b两条真除p支读数确定，不能默删。真全局左行的forcing至多15项，B∈H3分支τ0/1被低行排除、τ≥d0+2双jet类零，其余至多13项仍须实际像判定。
 
 [R925§23](results/R925-original-ys-affine-rings-and-complete-divisor-ideals.md)：原P152/mixedF144完整低核由RR严格全局生成，J/J0两图全A理想准确给拉回厚除子；同子集全曲线长度2256/1080认证早停且余行全回代。端点配对N=(2/vnew)A+B同时付真零理想；两组各达标才返complete_divisor。当前须先补全核读者，未动运行或冒PASS。
+
+## R935：同一原全部修正的准确预算排除
+
+[R935](results/R935-original-negative-fringe-all-correctors-budget-exclusion.md)：同原负fringe的1≤τ≤d0+1，对全部原R/S无须B∈H3；整双jet与三低行迫严格f0，C分量两支均得d_D≥s+2。全十九角准确给N_D−2s≥D+r_src+13+2j，否则原全p³无解；三长松弛保额外s，不自动排全部临界输入。
