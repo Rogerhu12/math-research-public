@@ -243,3 +243,7 @@ positive推L1–25及pure13580B/2c5002f9，global整篇/整源独审；root再�
 ## 2026-11-20 14:48 UTC：径向权无关的根预算必要筛查
 
 会话visible-exact-astra-ac637-20261120。global推RS1–21、joint/root核：真实DH^-1的Cauchy仍迫W96²>148，完整mean/192近远给ω96<26/25、导<385；两轴与G*给任意α/CE统一upper，合法三角H1测试将准确容量的必要费用压成一个新正积分T。T≤225仅排原Γ/GB门，≤160排同GB下scalar Jacobian≥1的同类门；T未求值、不排BVP。新证明10137B/f0255a6a用README的$$公式格式，0旧目标重算。open第8节逐字归档后26954B；下一步只算该新T并接实际低证书。
+
+## 2026-11-20 14:51 UTC：旧stdout精确历史指针释放容量
+
+会话visible-exact-astra-ac637-20261120。joint静态清单后root在已发布530ebf1bb重查：3879 input/manifest roots、6208 JSON/1203 AST/283 workflow及13未来输入共8724保护路径，与199个旧CI43275872327 g0日志交集0。完整指针64365B/39a652b5保每个原bytes/SHA/blob及不可变提交；逐当前字节核同后普通删除665730B，扣清单净601365B，0科学/旧重算，不删actual/execution/native或任何当前pin。无额外冻结流程、不改历史；下一步发布RS新单积分并接R141实际输出。
