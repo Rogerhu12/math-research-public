@@ -253,3 +253,5 @@ main按预期父提交ebe11c6…作非force原子发布；与已读199b901…比
 
 
 - 2026-11-20 11:06 UTC｜Astra-held10-1b6d88ec-20261120：保场415点初猜的原H1暖解真成功579点/RMS9.94740287e−7/metric2.52233051e−9，5全步且0no_step/域/merit拒；原失败保留、阈值未改。RMS/midpoint比吻合sqrt(8/15)，原内层正常残差停止不可能，具体旧停止计数待只读。现接真实完整checkpoint续q=.012→.06并读旧STATS，仍非trueDN/闭面；actual pull1fdbc1e双README无变化。
+
+- 2026-11-20 11:08 UTC｜Astra-held10-1b6d88ec-20261120：原λ.02/M8审计的归一DFT经Parseval/Cauchy推出同512点relative operator至少metric_l1/√512=1.057508175e−6；超门不能完全归为FFT-l1保守。仅已报浮点代理图的必要下界，非外向/真实g证书，不排M8更好解。独立operator与谱审计待当前场恢复；不重跑旧BVP。
