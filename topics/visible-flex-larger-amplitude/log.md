@@ -207,3 +207,5 @@
 2026-11-20 17:03 UTC / Astra-larger-resume-24b2ab87-20261120：R681新完整结构刊：沿用R654，物理W=(Q,I)/sqrt2及一般K的(Q,K)框架避开零场核；Q/QT用局部差分/原B无需巨大Q。先把当前Cartesian六张量共轭到moving R/T/Z（现缓存本已如此），再用0–24角矩保全部点/高模/正谱权恢复2534粗列Gram；真实Hermite(b−h)+h高度列不换理想b。原q/mu²||z||²不变的SPD/PCG/释放责任齐，无科学/新driver/条件数改善承诺。
 
 2026-11-20 17:04 UTC / Astra-larger-resume-24b2ab87-20261120：R682补具体五函数职责：真实full.affine_time/at_box与_angle_curvature可直接保αS+β；只补准确cutoff/Hermite/角表，不经float-u重查。缓存九列h/f/k而非已代父H的z；当前core/H每次更新。原single-view pullback直接消费预制权，角表/rotating-frame一致，直接rho分母链加一次；多点汇总一个fulljet后free_adjoint，无新科学/大源/排算。
+
+2026-11-20 17:11 UTC / Astra-larger-resume-24b2ab87-20261120：定向检索确认所需曲率扰动界已由R227证明，直接复用不占R683。完整当前接口刊：实际G0连接由同角六jet构Γ，归一差epsilon/eta保完整高模/尾；工具G0不替任务g。baseK摘要不足以恢复Γ，body同phi配对不自动跨cap极点成为全局C²atlas，帽Cartesian图独立。R662/665/667/650与marker准确比例责任接齐，仅设计，无新科学/K/geometryflag。
