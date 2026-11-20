@@ -781,3 +781,7 @@
 ### 2026-11-20 21:29 Asia/Taipei — serre-public-astra-20261120-de0a3e3b
 - R977真实quotient/differential、原D=7 norm、半kernel与v_ϖD_C=4已root逐式核；保p^12及原E+/E−区别，近顶系数仅准确判据，非一般非零。
 - H/open逐字归档压缩保全部旧来源；继续严格整LT先norm后log的pure BH提取及真实logΔ比较，不重算旧结论，不把坐标或高度偷换。
+
+### 2026-11-20 21:31 Asia/Taipei — serre-public-astra-20261120-de0a3e3b
+- R978 strict integral LT、完整半kernel norm先于log、全部高carry界及pure G_N原尺度已root逐式核；Milne I2 strict iso与DLMF sigma定义实读。
+- 原γ1准确单位乘G_(n(p−1))/[n(p−1)]，低mirror单位不推出高；继续系数自身与真实双变量比较，未作任何本地数学执行。

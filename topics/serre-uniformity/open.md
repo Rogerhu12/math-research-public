@@ -38,7 +38,9 @@ R946/951/952原Bol障碍O_r(H)=r!(𝒰H)^p/B^(p−r)|SS、kerO=ker𝒰；whole�
 
 [R977](results/R977-original-Robert-norm-and-normalized-isogeny-discriminant.md)给真实几何源：E+:y²=x³+1，C=<Ω/p>，φ*ω_C=ω，D_C=Δ(E/C,ω_C)/Δ(E,ω)=p^12Δ(pτ)/Δτ∈L。完整半kernel与F7=Δ⁴/ψ7的已登记norm给V7²=ξ²D_C⁴、logU7=2log(D_C^σ/D_C)，并精确v_ϖD_C=4。令δ_p=D_C/ϖ⁴，log〈δ〉modp=Σd_jϖ^j，则γ0=2(χσ−1)d_b^p、γ1=2(χσ−1)d_(m−b)。因此低d_b单位、S非零 iff近顶d_(m−b)非零。尚未把Kummer ϖ与flat/GM坐标识别；固定源E的height2不证明不同Igusa因子height2。
 
-当前应证明上述实际近顶系数普遍非零，或与balanced c_n建立真实整reciprocity。严格整LT与完整半kernel norm的pure BH提取稿、真实logΔ生成式正在审查，未登记不作定理；任意rational log代torsion截断及任意G_N整性都不能预设。
+[R978](results/R978-original-Robert-coordinate-and-pure-Hurwitz-mirror.md)：源E+的[-p]modp=T^(p²)，Milne严格整LT同构g′0=1取τ^(p²−1)=p、X=τ^(3(p−1))、ϖ=ηX且η^m=−1。F7(gT)=Δ⁴T48H(T)/7，H∈1+T⁶O[[T]]；完整半kernel先给V7=ξC0X8G(X)、G整，再于e=m<p−1取log，所有j≥m项按j−m v_p(j)≥m严格消失。纯σ定义log(σz/z)=−ΣG_N z^N/N；仅所选N_j=3(p−1)j<m·3(p−1)=p²−1经unit regularizer48证G_N/N整，并准确B_j=24η^(−j)(ζ^j−1)G_N/N modp。低G_(a(p−1))单位，**S非零 iff G_(n(p−1))单位**；高低指标和p²−1不提供反射非零。保原root/embedding，未引新period、未在高ramification直接截σ log。
+
+当前须证实际G_(n(p−1))高系数普遍非零，或与balanced c_n建立真实整reciprocity；N_low+N_high=p²−1、低unit和Frobenius pair整体非零都不单独证明高unit。真实logΔ生成式正在审，不把其Cayley坐标直接当ϖ。
 
 ## O3：固定低权cohomology与原Igusa投影的边界
 
