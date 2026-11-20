@@ -62,22 +62,17 @@ R5 已反证 arXiv:1703.02215 所用统一有限 lifting 引理；否定该论�
 - 原F已由R909完整认证：run43906594646/job133436977753/source135b50ff04a12c51dd1b9de583a20b2bed19cbed；ℓ1000003/N512、1429行/QQ/原短支/0..6120，结果hash5193c929a0369e957a0495f12c5af244243f2b4ed444ba305bba963dfdc4831f。
 - 原P现由[R906§8](results/R906-original-P-small-prime-and-compatible-dixon-continuation.md)完整认证：run44714703201/job136215000168/sourceb688d6ac703fec422a7c864bcdc997cc553185fd，原1226行/QQ/短支/同基高展开和全部0..4284恒等式均过；u、λ、原微分、∞→O及整返回17保持。结果hashd3371b55fbdbf8999f2ed6da76cc004a78eba733ff5e7977bce4149e4ecb8915，坐标仍358238d2…e7be67。此前失败和新等价算术见[续接注](notes/2026-11-20-old-job-outcomes-and-exact-P-certificate.md)。
 
-### 真 RR 与完整消费者
+### 真 RR、完整原函数环与消费者
 
-R882 原18源/绝对B0B2/全17方块/36cusps/D204及旧DS返回不变。旧任务均未取得RR PASS；接手已亲读结束日志，最新状态和新quotient-only执行见续接注。以下保留原source入口：
+[本次全量归档](notes/2026-11-20-open-before-complete-affine-ring.md)逐字保此前全部旧运行、公式与未闭门；只收拢当前实际接口，不删除其它前沿。R882原18源/绝对B0B2/全17方块/36cusps/D204与R880/883全18×9/双轴/原A,C、四完整除子00/01/11/12保。闭点d不可先模ell；完整Frob/Atkin/边界、真dF成本2256+r*dF或2256(r+1)、全地方Kummer负floor和Σef不变。Norm含ell²点回归run43870209568已过，不重复无变化测试。
 
-- 306 run43850251992/job133240631228 与 eta48 run43850252040/job133240628667，source acf294c6e07c20618f2acc9dfab863c34e8c8cb9，均于16:35 UTC取消；前者停在次数306可分性gcd，后者已选原次数48因子但停在原U的函数域gcd，均未到正规化/RR。详见[完整实际卡点及中间hash](notes/2026-11-16-original-rr-stopped-before-normalization.md)。
-- fricke24 run43860032290/job133274126644，source be4e0074e90508b3f7bd6e2ce3ee083165049288。
-- tate24 run43865460680/job133292732291，source a82ba1e06935fbb0f199d4dc846bae876a13afc0。
-- tate19 run43866568746/job133296518979，source59c56c693debc1d98b2a99495211ddb5277a40d8。
+旧306/eta48/fricke24/tate24/tate19/R910/R919/R922路线仍未全末端PASS；实际卡点/source/run/job见[续接注](notes/2026-11-20-old-job-outcomes-and-exact-P-certificate.md)。quotient-only run44713040079/job136209307176仍运行，原D完整正规化/九cusp/Au/Av/branch/D0尚待。t-adic U已在4096精度上限结束无全局候选，不能作不存在结论，不盲目重跑。
 
-原 genus37 的54+66、genus19 的27+27+33+33全 RR，以及Q8000/t330和Q4500/ξ170的直接Newton/Padé模型均保来源。没有RR结果前不造输入。
+[R924](results/R924-original-section-divisor-algebras-and-shadow-interface.md)的同原截面路径已有实际成果：§11–12的run44720444485付完整TUV分式、全204维DS及51二次双点、全36cusp与120原射影标号；§13 run44721065286/job136236619274付Y完整666格、三真实退化和原ys全核360；§14 run44721641472/job136238600337付全非约化DS上的TUV值；§15 run44723394686/job136244599223付真F/P全PASS鉴定后的原vF/三Yi截面（F核144、P两核152及第三原QY），全部原u/常数嵌入/Artin保持。完整hash逐节存，不冒旧degree48函数域RR接口。
 
-R880/R883 的原18×9、双轴、三χ、CM投影、四完整除子00/01/11/12及真A,C判据保；闭点d不可先模ell。完整Frob/Atkin/所有边界、按真实dF选成本2256+r dF或2256(r+1)、全地方Kummer负floor与Σef全部已付。相对Tate/Norm含ell²点回归run43870209568已通过；不重复无变化测试。
+[R925](results/R925-original-ys-affine-rings-and-complete-divisor-ideals.md)由J=SY/(ys²+3)²建立原306完整过滤自由基和两张正规化图表；完整多项式核保原共零，六cusp含289重分支；r29用已付h3=360，h1/h2仍待实际核，不复制r41。首完整colon/46971乘法run44724912327/job136249752863/sourcefea36d7d8已请求，尚无PASS。后续同原三退化截面转换、完整HNF零极/交理想、每个闭点与原剩余嵌入分别核完才进入原consumer。
 
-consumer的原F/P现分别由R909§7/R906§8付清，仍须完整原RR/函数/闭点接口，核两份run/job/head/依赖hash/全末端；PARI结果必须消费其自身forms2/recipes/坐标。新线从R917真实截面乘法构造原D_S与36 cusp完整有限代数，尚无实际末端；旧原商正规化继续；t-adic U已到4096精度上限、无全局候选，不作非存在结论。**目前没有consumer请求，没有原shadow输出。**
-
-[R924](results/R924-original-section-divisor-algebras-and-shadow-interface.md)已证明另一条完整原接口：同R917全截面格的两个商及单位返回乘法恢复真实零除子的全Artin代数，不丢非约化长度；原D_S=51个二次双点，36 cusp=4个一次+2个16次。闭点须用同120维射影坐标的完整Frobenius轨道标号，不能只按残域多项式合并。TUV以原极度306和全差帽714在M4恢复；Y的666维全格、三退化j^m及ρ_j、原ys分式与原所有consumer常数/共零/完整交除子均有有限准确接口。TUV已实际PASS（R924§11，run44720444485/job136234503706，三完整核均20、全原身份保持）；DS/cusp亦已实际PASS（R924§12，jobs136234504131/136234504114）：全51非约化二次双点及36 cusp、完整Frobenius/残域/原120射影标号均付。附A已证每个原TUV可在M6的222维全核中，施加102维残域值约束选全D_S单位分母，并用现有R4商读完整非约化值；该producer已实际PASS（R924§14，run44721641472/job136238600337，三222/102/204及全T=−27均过）。Y全666维/三退化/原ys已实际PASS（R924§13，run44721065286/job136236619274，ys核360）。两原F/P真实PASS鉴定后的原vF/三Yi截面低核另请求，cube根及四大交除子/shadow仍未付。
+[R926](results/R926-original-cube-roots-in-sections-and-complete-identities.md)已证明原RF/Ri的同次分式完整低窗2313/1429与全清分母身份窗6941/4287项；原M2延长2725/6941保持同基/整变换/旧前缀，保S³和原ω，不增加新根或换Artin。实际cube producer正在写。**四大交除子和原shadow未算，完整consumer尚未请求；固定ell非零亦不替跨无穷p/ordinary桥。**
 
 ## 原端点：真实范数与剩余增广阶
 
