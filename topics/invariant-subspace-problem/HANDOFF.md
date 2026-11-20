@@ -5,7 +5,7 @@
 ## 主目标、授权与规则
 
 - **未完成：** 普通复可分无限维 Hilbert ISP。仅全体有界算子的存在定理或完整反例满足完成标准；子问题结束继续open，不以阶段报告或时限停止。
-- **最近成功实际 pull 与已读规则提交：** `54996e4633960ba2d6daf3127b31f537f9d50420`（2026-11-20 09:35:34 UTC）。两README完整读；相对此前4d75dba仅根课题表增加held-10pct，规则无变。
+- **最近成功实际 pull 与已读规则提交：** `ab894782e59af83ca34bff83dd619724a7383e55`（2026-11-20 09:38:54 UTC）。两README完整读；相对此前4d75dba仅根课题表增加held-10pct，规则无变。
 - 仅授权Rogerhu12/math-research-public。根独占main/H/open/results/log，代理交冻结稿。逐结论实际终端push，非快进立即pull --rebase再推至成功，不force；至少每小时和推前实际pull，比两README blob，仅新diff重读并立即遵守。
 - 根README blob282e86b03385d3b6245ce7100ae2e2af7b103c2d、课题4d6570e9cf346431ab781a1290076a6321aaaa00已完整读。令牌仅CLI环境或已有Actions secret，不进文件/日志/config。规则15：可重算数组/数据/证书不进Git、Release或新工件，仅源码/参数/运行身份/SHA及正式证明。API仅UTF8<100KB，MD<100KB，H≤10000B，open尽量≤30KB，topic≤200MB，log每条≤5行、数学美元符、AI署名，不写根LOG。
 - 本地executor已恢复；部分克隆仅本课题，当前约96MB。旧作业TMP不假存活，先核已提交执行回执与原日志再决定续算。
@@ -16,7 +16,7 @@
 - 原E低20/95核已闭：两4解全1000E/3000Q/400selected、95原unit38及根[独立日志审计](notes/2026-11-16-r150-exact-low20-quartic95-root-log-audit-execution-789f.json)已核。旧Q60真实360秒TERM/143独留，不重复；全部源/pins/失败范围保归档，结束job TMP须重建。
 - 原mixed95实际unit69、选J40=0..33/40..44/60，全25575/18050/9025/3800已核；[正式原40选择](results/R150-appendix-actual-original-koszul-fiftyfive-mixed95-unit-and-forty-source-selection.md)给本次quintic父件。
 - 原权九维数4552与权十Koszul上界的证明保[原文](results/R150-appendix-original-weight-nine-dimension-and-weight-ten-koszul-rank-ceiling.md)；权十准确值及目标现已由下项关闭，不重跑。
-- 权十旧std592.369秒75仅START，不空续。**[native/checker实际编译控制已闭](notes/2026-11-16-r150-original-weight10-macaulay-controls127-actual-789f.md)**：run43922052588，8.019秒exit0，全244990/2048256/43/93412与断点往返真；root/literature独立raw/manifest/binding SHA核同。全矩阵旧run已完成，最新结果见下；本控制不重跑。
+- 旧std空候选和native编译控制均保[接手前交接](notes/2026-11-20-handoff-before-weight10-recovery-b2a9.md)及原接口；全矩阵完成结果见下，不重跑。
 
 - **[原五次Koszul259与最少120列原梯度呈示已闭](results/R150-appendix-actual-quintic-koszul259-stable-sixty-and-minimal-onehundredtwenty-presentation.md)。** run43924670391实际D5秩126、K5秩259、原unit45；全部300右端115500、16关系6160及双逆134162坐标全真。原E恒等及同原单位给全部有序N²C真降次，C60稳定且F/C60=原G11商；加六mean的十字面倍得完整Γ120，Bell至多130。原Γ9=4552排≤9关系，故min_B Γ=120、min_B C=60；不是B秩/自由性。权10新13728来源核现恰31，见最新权十结果。四步raw与全部父相位根/normal独立核同；δb²现已判非成员，Bell单位仍未取得。
 
@@ -33,6 +33,11 @@
 - 原E低20因子化、精确坐标及原四次95降次完整源/hash保归档与[索引](results.md)，不重算。
 
 - 原E200/210完整呈示及权5/6/7/8/9/10来源分组保[原证明](results/R150-appendix-original-koszul-fiftyfive-quotient-and-characteristic-zero-twohundredten-presentation.md)；本次原120删除80个权10冗余二字低来源，旧全部原200数组仍供完整权10任务。
+
+## 新文献方向与原模型
+
+- **[原Deddens代数的完整新边界](results/R12-appendix-deddens-algebra-localizing-and-uniform-cost-obstruction.md)已证明。** 原正向加权平移恰为有界倍Aʳ，最优成本βᵣ‖v/Wᵣ‖∞；负向平移只零。单位球SOT闭包含秩一P₁，故全代数localizing，但明确范数极限反例证其不闭。全复算子统一Deddens成本族均不能localize，真实高位给成本发散定量下界；范数闭包仍无非零紧算子。Lacruz判据缺失的闭性已明确否定；原普通ISP仍开。
+- 最新文献状态见[刷新记录](notes/2026-11-20-literature-refresh-b2a9.md)；未找到可采用的完整外部答案，已有声称不作黑箱。
 
 ## R271真实投影返回与剩余交叉
 

@@ -1,5 +1,7 @@
 # 已得结果
 
+**[原Deddens代数的完整新边界](results/R12-appendix-deddens-algebra-localizing-and-uniform-cost-obstruction.md)已证明。** 原正向加权平移恰为有界倍Aʳ，最优成本βᵣ‖v/Wᵣ‖∞；负向平移只零。单位球SOT闭包含秩一P₁，故全代数localizing，但明确范数极限反例证其不闭。全复算子统一Deddens成本族均不能localize，真实高位给成本发散定量下界；范数闭包仍无非零紧算子。Lacruz判据缺失的闭性已明确否定；原普通ISP仍开。
+
 **[完整权十与特征零第二Bell倍障碍已闭](results/R150-appendix-complete-weight-ten-rank-and-characteristic-zero-delta-square-obstruction.md)。** 旧run43926933406实际全13808原列秩13697、原子式det127=126，独立74037410标量产品杀全列且δ14b²读数1；本次恢复2444/7111原回执、1467子式phase及991独立回执的全部SHA相同。结合独立E上界，得ΓE10=13697、商维63579、δ14b²不在完整J17；原μ10核恰2171 Koszul，200/120呈示的权10核恰111/31。δ14原十八来源权≤12排除。未重跑大矩阵，下一δb³权13、qb³权11和b⁴权12，主问题未解。
 
 **[原五次Koszul259与最少120列原梯度呈示已闭](results/R150-appendix-actual-quintic-koszul259-stable-sixty-and-minimal-onehundredtwenty-presentation.md)。** run43924670391实际D5秩126、K5秩259、原unit45；全部300右端115500、16关系6160及双逆134162坐标全真。原E恒等及同原单位给全部有序N²C真降次，C60稳定且F/C60=原G11商；加六mean的十字面倍得完整Γ120，Bell至多130。原Γ9=4552排≤9关系，故min_B Γ=120、min_B C=60；不是B秩/自由性。权10新13728来源核≥31，不宣恰31。四步raw与全部父相位根/normal独立核同；尚无δb²新目标或Bell单位。
