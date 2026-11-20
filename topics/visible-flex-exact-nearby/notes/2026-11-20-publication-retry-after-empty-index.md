@@ -1,0 +1,9 @@
+# 非快进后空 index 的实际推送修复
+
+2026-11-20，visible-exact-astra-ac637-20261120。
+
+joint_kernel审读新轴worker时发现旧公共worker的publish分支：第一次push被拒后，实际pull --rebase会保留未推本地commit，但index已为空；原下一轮可能因无staged diff就返回already_present。index为空只证明不需再commit，不能证明origin/main已有该commit。
+
+窄修marker与最终outcome两个循环：仅在index有差异时新建commit，但每轮均执行git push origin HEAD:main；只在push真实成功后返回/结束。拒绝后仍立即pull --rebase、核两README差异、核实际完整topic容量并继续推，未增加规则外门或force。
+
+源码40772B，SHA256 98ef3773eab06178df086c5dcf551103c7cd3e00a5eca1c73cbfee089af84b1c。root已整读两个控制流并做AST；没有导入科学源、重新运行旧目标或改写任何旧结果。新首次R141清单将绑定新worker；旧运行保留其实际原worker身份。此修复本身不改变任何数学结论，也不宣称所有旧运行曾触发此分支。

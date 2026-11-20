@@ -1,12 +1,12 @@
 # 交接：可见振幅的精确闭等距族
 
-维护会话：`visible-exact-astra-ac637-20261120`；更新：2026-11-20 11:39:42 UTC。
+维护会话：`visible-exact-astra-ac637-20261120`；更新：2026-11-20 11:44:28 UTC。
 **总任务未完成；继续研究，不等用户回复。**
 
 ## 规则读点与接续来源
 
 部分克隆：`/workspace/scratch/ac637cfcc78d/math-research-public`。终端 git 已恢复，无 AGENTS。
-2026-11-20 11:39:42 UTC 实际pull/rebase至 `5459d0492f7afaddf8d5e87913a2df0633acbbd6`；已读规则提交同上，两README相对96edc6770空diff。每次pull后核规则差异；下次实际pull最迟12:39:42 UTC。
+2026-11-20 11:44:28 UTC 实际pull/rebase至 `723f748d291139aeea1599a40224e02bab6b1430`；已读规则提交同上，两README相对96edc6770空diff。每次pull后核规则差异；下次实际pull最迟12:44:28 UTC。
 
 接手前完整 H（含全部递归原页、成功/失败/恢复身份和未付义务）见 [2026-11-16 完整检查点](https://github.com/Rogerhu12/math-research-public/blob/882aa9b74efeaac682df43c197820e7280156357/topics/visible-flex-exact-nearby/HANDOFF.md)。本页只压缩索引；`open.md` 及所链接的原证明、适用域、均值、物理角、所有边界和误差费用继续有效。旧成功结论不重算。
 
@@ -14,7 +14,7 @@
 
 根规12下移除无关workflow静态白名单，仍逐次rebase后核全topic和输出容量；21原件、mean/ports、五图50条定义保留。原L三量冻结（3/50）；完整centre下界已排固定配方，余47不再为此配方算。
 
-另4份旧flow log/index已按规15转Git历史指针：[完整恢复表](notes/2026-11-20-legacy-flow-log-history-pointers.json)；75活跃输入原样，旧结论/失败全文可恢复。
+另4份旧flow log/index的[完整恢复表](notes/2026-11-20-legacy-flow-log-history-pointers.json)保原字节/失败/结论；当前输入不变。
 
 ## 完成标准与同一对象
 
@@ -62,7 +62,7 @@ readonly44712172133/1成功（60 current/23 AST/21原件/18门，0科学）；�
 1. 原L v4冻结3/50、L≈3.79236e−5。完整centre mean[实际44727185157/1](results/R139-supplement-actual-complete-centre-mean-floor-excludes-fixed-recipe.md)成功：155panel、J_lower≈6409.59094，K>80，严格排原小K配方；75输入/25AST/27门全核，独立1条冻结，余47不再为此配方算。不推真实奇异，继续直接逆。
 2. `positive_inverse` 的低193/97 scaled续算44721851908/1已success：155panel/1424各向步/156分界，根全收据已核并登记，成功冻结；非真实逆。原失败prefix保。R141已登记，首次directed owner在备，CFB/mean/实际family仍付。
 3. global_route已闭[真实root全角型](results/R138-supplement-complete-root-angular-form-and-two-scalar-geometry.md)：保low96/high stable/mean/H；高频主符号正但finite/分母待算。新两标量轴ODE只读旧4650行，正备公开小入口；joint封包。继续角转移/体吸收，不以stable行冒c=0。
-4. root维护git与记录；L三次0scalar失败、旧endpoint第139panel/0传播失败全保。atom/endpoint/L/centre下界各自成功冻结，代理不动git。
+4. root维护git与记录；L三次0scalar失败、旧endpoint第139panel/0传播失败全保。atom/endpoint/L/centre下界各自成功冻结，代理不动git。公共worker已修空index重试：每轮实际push成功才返回。
 
 ## 正侧以外仍未付的接口
 

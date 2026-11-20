@@ -51,3 +51,7 @@ proof11269B/SHA9610799407861a9f7c5eca250c9c3370975219879f088b479c7f0e36371ae31d�
 ## 2026-11-20：真实root全角型与两标量几何入口
 
 root整读U篇并修排版，joint独核主符号、C4/reflection拉回后环境均值零（不做无权平均交换）、局部ell确定mean及同完整外锚使C1转移终端差0。准确low96/high97起根域、独立mean与H全部保留；U.8分母须实际离零后才消元，positive principal+compact不授finite正性。新轴ODE与正交误差/16epsilon修补已双核，待公开首次两标量计算；65 Fourier数组只作私有定义，不按规15公开。whole真root/germ/原4650行及接口保，不重旧几何。proof12364B/SHAb2accff252c6f2db52a2fe0e8e24538f99418c1a1fed12730861d31987fc5b16，0本机科学。
+
+## 2026-11-20：公开推送重试的空index修复
+
+joint发现旧worker在nonFF后rebased本地commit可能因空index而跳过push；root已窄修marker/最终outcome两循环，index只决定是否commit，每轮必须实际push成功才结束。拒绝仍立刻pull/rebase并核两README/完整容量。源40772B/SHA98ef3773eab06178df086c5dcf551103c7cd3e00a5eca1c73cbfee089af84b1c，AST；无科学或旧结果修改。新R141将绑定新worker。

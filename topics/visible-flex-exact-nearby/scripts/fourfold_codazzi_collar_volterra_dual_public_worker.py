@@ -305,15 +305,18 @@ def main():
                 atomic(root/relative,raw)
                 emit(relative,raw)
             git("add","--sparse","--",*files)
-            if git("diff","--cached","--quiet",check_return=False).returncode==0:
-                return {"commit":head,"capacity":cap,"projected_topic_bytes":projected,"already_present":True}
-            git("-c","user.name=github-actions[bot]",
-                "-c","user.email=41898282+github-actions[bot]@users.noreply.github.com",
-                "commit","-m",message)
+            already_present=git("diff","--cached","--quiet",check_return=False).returncode==0
+            if not already_present:
+                git("-c","user.name=github-actions[bot]",
+                    "-c","user.email=41898282+github-actions[bot]@users.noreply.github.com",
+                    "commit","-m",message)
+            # After a rejected push, rebase preserves the local commit while
+            # clearing the index.  An empty index is not remote publication.
+            # Always push the current HEAD and return only on actual success.
             pushed=git("push","origin","HEAD:main",check_return=False)
             if pushed.returncode==0:
                 return {"commit":git("rev-parse","HEAD").stdout.strip(),"capacity":cap,
-                        "projected_topic_bytes":projected,"already_present":False}
+                        "projected_topic_bytes":projected,"already_present":already_present}
             print("Push rejected: immediately pull --rebase and check both READMEs.",flush=True)
             pull()
 
@@ -681,10 +684,10 @@ def main():
             atomic(root/path,raw)
             emit(path,raw)
         git("add","--sparse","--",*files)
-        if git("diff","--cached","--quiet",check_return=False).returncode==0:
-            break
-        git("-c","user.name=github-actions[bot]","-c","user.email=41898282+github-actions[bot]@users.noreply.github.com",
-            "commit","-m","visible-exact: preserve complete "+manifest["problem_id"]+" outcome")
+        if git("diff","--cached","--quiet",check_return=False).returncode!=0:
+            git("-c","user.name=github-actions[bot]","-c","user.email=41898282+github-actions[bot]@users.noreply.github.com",
+                "commit","-m","visible-exact: preserve complete "+manifest["problem_id"]+" outcome")
+        # The rebased output commit may still be local even with no index diff.
         pushed=git("push","origin","HEAD:main",check_return=False)
         if pushed.returncode==0:
             print("Published complete scientific outcome "+git("rev-parse","HEAD").stdout.strip(),flush=True)

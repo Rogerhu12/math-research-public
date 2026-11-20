@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [公开发布重试修复](notes/2026-11-20-publication-retry-after-empty-index.md)：非FF后空index不代表本地rebased commit已上远端；marker和outcome循环现均以实际push成功为退出条件。只改运维控制流、AST，旧科学身份/结果不变。
+
 - [R138真实根端全角型与两标量几何](results/R138-supplement-complete-root-angular-form-and-two-scalar-geometry.md)：原low even96=0、97起全部high stable及独立mean准确化成单一全角二次型；均值分母完整显示且须实际离零，高频主符号2a²s/[m²(−v)]|xi|^-2/3为正，有限部分/尾费用未过门。同一外锚根几何只需二维正交ODE，保whole真根、repair、角C0/C1和全部接口；源码准备不作数值成功。
 
 - [R138准确残差输运与固定内点](results/R138-supplement-exact-residual-transport-and-fixed-interior-point.md)：同Qrepair取固定p=e_z/2得全域support>2/5、|F−p|<222/125；重付外端初值常数10与1/20000。Hessian共同角输运纳入辅助旋转后，H满足无方向角导源的守恒输运式；完整均值、修正能量及H^-1/2费用保留。C4/反射消环境均值；实际内端正型/最终吸收仍待。
