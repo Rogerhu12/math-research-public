@@ -107,7 +107,7 @@ git show 60592e4f58d80a20e6a575b7d900ec807a9e7374:topics/visible-flex-larger-amp
 原完整算术报告五个gate均true、failure=null，实际记录3.108668秒；原最终poll退出码未保留，
 本次仍不补造exit0，不重跑已结束旧结论、不创建Actions、不改变已证明/失败范围。当前fullclosed链不使用此文件。
 
-## 13:51 UTC：第四次容量操作，R33 plateau2 高联合盒
+## 13:49 UTC：第四次容量操作，R33 plateau2 高联合盒
 
 为公开 Actions 续算完整源码与后继证明腾出空间，普通移出
 `notes/2026-11-12-tail-r33-plateau2-high-joint-coupling-metric.json`，657791 B，

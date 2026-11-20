@@ -1,0 +1,28 @@
+{
+  "parent_request_id": "visible-larger-resume-20261120-01",
+  "finish_when_done": false,
+  "steps": [
+    {
+      "id": "early-release-original-qp-01",
+      "script": "topics/visible-flex-larger-amplitude/scripts/resume_20261120/check_feasible_active_cg_v2.py",
+      "args": [
+        "--source",
+        "{repo}/topics/visible-flex-larger-amplitude/scripts/resume_20261120/fullspace_feasible_active_cg_v2.py",
+        "--out",
+        "{work}/early-release-QP-check.json"
+      ],
+      "outputs": [
+        "early-release-QP-check.json"
+      ],
+      "summary": {
+        "early-release-QP-check.json": {
+          "passed": "passed",
+          "relative_objective_difference": "cases.0.relative_objective_difference",
+          "maximum_literal_violation": "cases.0.maximum_literal_violation",
+          "releases": "cases.0.qp.release_event_count",
+          "projected_gradient": "cases.0.qp.final_face_projected_gradient_norm"
+        }
+      }
+    }
+  ]
+}
