@@ -4,7 +4,7 @@
 
 ## 规则与目标
 
-最近规则核查：2026-11-20 11:42 UTC，真实pull/rebase至 `a624bf4e72868608d59e174cbdd7191c162f1412`，双README相对上次已读无差异。
+最近规则核查：2026-11-20 11:45 UTC，真实pull/rebase至 `40140142701fb4f99ab9b3641c023b1e83d30dc1`，双README相对上次已读无差异。
 
 公开仓库内工作，终端git普通push；NFF立即pull/rebase再推，每次查双README差异，至少每小时pull。根README已授权全部必要修改/发布；完整证明直接登记，不加冻结/独审门。raw只scratch，Git/Release/artifact只保小源/参数/run/SHA/紧凑结论。题≤200MB、单MD<100KB、H<10KB、open<30KB。令牌只瞬时CLI，不写文件/提交/回复。根唯一git writer，代理写work及小blob。
 
@@ -42,11 +42,11 @@
 
 [R656](results/R656-fullclosed-continuous-geometry-with-complete-analytic-lift.md)准确q+解析lift的连续几何接口已证：真实αS+β、准确派生core、向外Bernstein/严格角余项。固定2038胞821/881/895给K≤8.077131/6.482645/6.591227，支持正，帽/半径/witness同付，其余919胞未覆盖。
 
-根新6077胞821 Q16384/r32自然返：K≤8.069612833529575、support≥.457408220611、0未付盒，报告work/root/continuous-6077-cell821-q16384-r32.json，SHA `b57972d3258a4f8b0bc55c3e60738ee753db9a03b0af1e85554baec6f0bbe9b5`。由实际连续余量将算法screen明确改.992；未冒全局reach。根正在同6077全922胞做只读位置的轻量D向外界，Q2048/r1，不重复六jet全几何。
+[R658](results/R658-complete-body-diameter-and-fixed-grip.md)实际全922胞/全角/两帽/镜像位置覆盖自然返，6077的D≤4.106819。报告bcca1113、全源/参数刊。相同父胞821 Q16384/r32给K≤8.069613、support≥.4574082、0未付盒，.03DK≤.9942132；仅本胞，非全域reach。半径.45固定帽盘diam=.9；若接既有高≤.001固定标记，D≤4.108819且握持比例>.219，未冒标记族/held/非全等已完成。
 
-- geometry_path：v4b从6077跑12步，µ.04、safety.992/linear.9918，双821 basin与已付prefix峰永久保护，每次接受独立NPZ；原1280粗列/全部同g行不改。
-- fullclosed_solver：已完成物理H首256，诚实保单峰旧scope/双峰后读；后继完整投影32行强制所有已知κ/半径及拒绝prefix位置，整线搜不淘汰。已接v4b首实盘24de父并行，57κ/13半径、64行/rank49、新半径CS4.82e−15，256实际已启动。
-- recover_evidence：[R657](results/R657-complete-closed-relative-Gram-and-same-scalar-enclosure.md)完整连续Gram接口已证，def1胞839严格上下界.10186124/.10187890，同a五次Taylor余项约1.08e−14，不能靠证明网格加密冒求解收敛。现探索固定g而保持像的单调径向重参数化，一次真实composition目标诊断；不把高次compose场冒原quintic。
+- geometry_path：v4b12步已自然返2b143，Jw.28981378/Gram.04620002、known product.991814。按新尾部谱扩17径向中心，六步5接受/1拒得1240，Jw.28193249/Gram.03569674；新prefix227峰product.992944只超算法余量。N8192密角纯读完成、无更高新样本；保留新峰，接物理H²正则恢复/下降。
+- fullclosed_solver：24de父完整256/64行已返13ce，Jw.29494283/Gram.03981718；新2b143及r17所有已知点重评后product.989822<.992。完整永久κ/半径记忆保留；准备分块更大行矩阵以同投影接下一完整方向，不移植其他父的曲率数值。
+- recover_evidence：[R657](results/R657-complete-closed-relative-Gram-and-same-scalar-enclosure.md)完整连续Gram接口已证，def1胞839严格上下界.10186124/.10187890，同a五次Taylor余项约1.08e−14，不能靠证明网格加密冒求解收敛。严格同像径向复合已实际返：Jw仅降.504%，Gram略升，不作主父；接正block-Lp/IRLS真实目标方向，不以冻结权重代价下降冒max下降。
 
 ## 复现与不重跑
 
@@ -54,4 +54,4 @@
 
 纯metric 173/314/674/1280/2648维旧子代K14至44；全M160 polar K95055、弱列尺度K2748，均不再当几何父。旧节点/中点QP 0c535/c71已由Gauss揭必要产品>1；不回用。旧cap16仅176Jv/176VJP、exit130、0完整方向/试步/接受；原L²未跑。09:49–约10:03UTC执行故障已恢复，未实际启动新Actions；重复5732本地保backup并rebase跳过，不改远端史。源/失败/原任务未返责任均见固定历史H及notes。
 
-[容量记录](notes/2026-11-20-resume-raw-retention.md)保已移出旧R168及R33可重算报告的源/参数/hash/固定历史恢复，当前研究不使用它。真正闭等距、全域metric、全t嵌入/reach、固定H/完整D/整像held/含反射E与固定参数精化仍未完成；继续实际求解与open下一子题。
+[容量记录](notes/2026-11-20-resume-raw-retention.md)保已移出旧R168及R33可重算报告的源/参数/hash/固定历史恢复，当前研究不使用它。真正闭等距、全域metric、全t嵌入/reach、最终同一候选的固定H/完整D/整像held/含反射E与固定参数精化仍未完成；继续实际求解与open下一子题。
