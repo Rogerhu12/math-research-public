@@ -1,0 +1,137 @@
+{
+  "status": "executed_exit_0",
+  "sessions": {
+    "factory_local_data": 73047,
+    "exact_peano_constants": 26976,
+    "uniform_certificate": 6258
+  },
+  "scope": "Uniform true-integrand literal-G16 primitive error; finite source-constant algebra and IEEE/variable elementary evaluation remain unpaid.",
+  "source_sha256": {
+    "scripts/resume_n4/dump_q060_local_quadrature.mjs": "6228a469668fde3c473d4fd4e41f37f73734b2e4a58771cc06da2d968eae61f6",
+    "scripts/resume_n4/certify_q060_gauss_peano_constants.py": "6f845060dd8ee2ee66650ac538f4c94ceb6f44a713b838cebaf5bf31c1e5a924",
+    "scripts/resume_n4/certify_q060_local_quadrature.py": "3a16b0a616035609e115132a775b9cf38ccfc508be31bd8f272a7ffb1ba43a27"
+  },
+  "source_dependencies": {
+    "background_interval_kernel": {
+      "path": "scripts/resume_n4/certify_q060_background_integrals_tight.py",
+      "sha256": "b7a8dc501dc3dbbe4ccb14d6b4ea2b4b85849d14b9551a94f5c23798d7985806"
+    },
+    "weighted_factory_sha256": "740e672edee58cff7a15f89d75e181577dd439c1c62777c57d0d0ab1af32141e",
+    "local_factory_sha256": "4a109f26b0e6c9741dfff678c0fe42da4935bfda9c605e55688e97848aef0dd6"
+  },
+  "input_output_sha256": {
+    "constants.json": "1a1bcd1679f9f3b507c19bed8f3a1310fda81ac16452ad164edef3e95d82dfc9",
+    "local-quadrature-cache-final.json": "3b99ab1c14b22c754072e45c2889010bb3f586ecad6df290f24bfb9103f70bc0",
+    "local-gauss-rules-final.json": "324ab693638649833f40a4efd8c607eeed3027aea0f524cee635ced6fa429243",
+    "local-gauss-peano-final.json": "6430235234a42e1e224fc85aa875082e3ccde9194ae2132c44ebccf129c65707",
+    "tight-integrals-certificate.json": "0b7222717ce302b6e5d5654a3764f9c75892c9e15c1416cb04bb532cea880598",
+    "local-quadrature-certificate-final.json": "75b372105557899b6e4366748397c9de8872e238234ccbb63820244a51fbd955"
+  },
+  "actual_commands": [
+    [
+      "node",
+      "/workspace/scratch/1b6d88ecddf3/n4-work/dump_q060_local_quadrature.mjs",
+      "/workspace/scratch/1b6d88ecddf3/m3-work/runtime-source/bundle/topics/visible-flexible-closed-surface",
+      "/workspace/scratch/1b6d88ecddf3/m3-work/bootstrap/q060-port.json",
+      "/workspace/scratch/1b6d88ecddf3/n4-work/q060-tail-geometry/local-quadrature-cache-final.json",
+      "/workspace/scratch/1b6d88ecddf3/n4-work/q060-tail-geometry/local-gauss-rules-final.json"
+    ],
+    [
+      "python",
+      "/workspace/scratch/1b6d88ecddf3/n4-work/certify_local_gauss_peano.py",
+      "--rules",
+      "/workspace/scratch/1b6d88ecddf3/n4-work/q060-tail-geometry/local-gauss-rules-final.json",
+      "--out",
+      "/workspace/scratch/1b6d88ecddf3/n4-work/q060-tail-geometry/local-gauss-peano-final.json"
+    ],
+    [
+      "OPENBLAS_NUM_THREADS=1",
+      "python",
+      "/workspace/scratch/1b6d88ecddf3/n4-work/certify_q060_local_quadrature.py",
+      "--kernel",
+      "/workspace/scratch/1b6d88ecddf3/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4/certify_q060_background_integrals_tight.py",
+      "--constants",
+      "/workspace/scratch/1b6d88ecddf3/n4-work/q060-tail-geometry/constants.json",
+      "--cache",
+      "/workspace/scratch/1b6d88ecddf3/n4-work/q060-tail-geometry/local-quadrature-cache-final.json",
+      "--peano",
+      "/workspace/scratch/1b6d88ecddf3/n4-work/q060-tail-geometry/local-gauss-peano-final.json",
+      "--normalization-certificate",
+      "/workspace/scratch/1b6d88ecddf3/n4-work/q060-tail-geometry/tight-integrals-certificate.json",
+      "--inspect-cells",
+      "32",
+      "--out",
+      "/workspace/scratch/1b6d88ecddf3/n4-work/q060-tail-geometry/local-quadrature-certificate-final.json"
+    ]
+  ],
+  "result": {
+    "inspect_cells": 32,
+    "cap_root_boxes": 35,
+    "certified_primitive_errors": {
+      "A": {
+        "upper": 3.3095121830737127e-10,
+        "upper_exact": "3200763782757591/9671406556917033397649408"
+      },
+      "B": {
+        "upper": 8.892549982962097e-18,
+        "upper_exact": "2885797458806127/324518553658426726783156020576256"
+      },
+      "wA": {
+        "upper": 2.072664959309585e-11,
+        "upper_exact": "6414587352882847/309485009821345068724781056"
+      },
+      "wB": {
+        "upper": 1.3152863860853626e-17,
+        "upper_exact": "4268348356590409/324518553658426726783156020576256"
+      }
+    },
+    "fixed_binary_alpha_radius_value_error": {
+      "upper": 3.309526514596681e-10,
+      "upper_exact": "6401555286712223/19342813113834066795298816"
+    },
+    "fixed_binary_alpha_height_value_error": {
+      "upper": 2.0728769351442843e-11,
+      "upper_exact": "6415243386315685/309485009821345068724781056"
+    },
+    "quadrature_only_relative_metric_error": {
+      "upper": 1.323810610219859e-08,
+      "upper_exact": "8001944134872927/604462909807314587353088"
+    },
+    "quadrature_and_prior_normalization_relative_metric_error": {
+      "upper": 1.373350982011195e-08,
+      "upper_exact": "8301397307732199/604462909807314587353088"
+    },
+    "critical_displacement_total_upper": [
+      1.0581077749056459e-17,
+      0.0,
+      8.805029940349175e-19,
+      0.0
+    ],
+    "deep_remainder_upper": [
+      4.565237077258638e-13,
+      4.90552719899968e-26,
+      1.621898021134398e-27,
+      8.596323233289653e-28
+    ],
+    "seconds": 35.36427809700035
+  },
+  "literal_rule": {
+    "nodes": 16,
+    "minimum_endpoint_node_distance_exact": "47733945222081/9007199254740992",
+    "weight_sum_exact": "144115188075855555/144115188075855872",
+    "peano8_l1_upper_exact": "1018284340652661421442752832170241063438235884808268090008257818760410343729664426854182195827046947624556970240122543150294923853782476992483059586220466022648738438584801456938832330352293265298654826523170163276020181310034468447453187/634306973506847773550994159781001305634344769946123436882550858641030206681058463216749069481350167533923704754967689112585274220674242366763762881467465493938703114555633330546299856064788318989489753307320295129642680620899226949605798136303551774720"
+  },
+  "source_critical_splits": 128,
+  "critical_displacement_halfwidth": "1/10000000000",
+  "high_order_implementation_check": {
+    "comparisons": 324,
+    "maximum_order": 8,
+    "all_contained": true,
+    "scope": "Sample implementation check only; interval bounds prove the continuous claim."
+  },
+  "unchanged_source_factory_parameters": true,
+  "nonlinear_tail_run_started": false,
+  "original_js_complete_oracle_certified": false,
+  "full_surface_certified": false,
+  "full_reproducible_outputs_committed": false
+}
