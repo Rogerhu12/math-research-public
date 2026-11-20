@@ -249,3 +249,5 @@
 - [R660：正谱Lp的完整Gram块权、原全空间正规算子及最大误差界](results/R660-positive-spectral-Gram-blocks-and-maximum-control.md) — 固定同g全部行的正3×3权、准确梯度/Cholesky转置/原orbit及带scale的有限max界完整证明；p>2真实目标回溯必要。仅原1240同像22列试验，未冒新的主父或连续误差证书。
 
 - [R661：全部活动径向片的无平面开片证明与四个固定标记组件](results/R661-complete-nonplanar-activity-and-four-fixed-markers.md) — 同6077全部922胞准确两轴非零迹和高度非零jet，免预设纬圈单射；四互异p4图盘仿射独立、K≤5/支持≥64/267，配已有整像幅度后在全族嵌入另付的条件下推出含反射δE>0。
+
+- [R662：完整闭合场的连续C0差及直径/整像幅度传递](results/R662-complete-closed-C0-difference-and-inherited-size-amplitude.md) — 同S/R准确节点的全部922胞、全角、两帽无角网格差界完整证明；0241对6077 ε≤.028621856，严格held/D>.21962，条件.001固定帽图>.21951。完整q高度抵消/派生T/analytic phase保，C0不冒曲率/reach。
