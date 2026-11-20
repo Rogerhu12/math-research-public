@@ -157,3 +157,9 @@ proof13079B/d12b90d9、math11238B/ffb9185a、owner27516B/4f585a3b、generator133
 ## 2026-11-20：外端完整两列合并与更强曲率能量
 
 root新推Z1–12，joint独核全通过。n∈4N的环境n−1/n/n+1频组不交，X⊥Y使同模源平方精确(bn²+cn²)/2；保mean频1及H_R后得ω_R²<(75/32)B<(64/25)B，外界8/5替旧粗10。原K′/K与真根区间直接授min(46x,1/40)，Hilbert直和Minkowski保持CE/CH/Γ/角图同一whole保存球而省√2。只改body H1/2的解析消费，原根H2/3/非齐次/mean/全部门未删，0新科学target或旧结果重算。
+
+## 2026-11-20：全频H1/2截顶曲率Grushin与根费半余量
+
+joint给GB1–24，root与positive整篇独核通过：低频薄层亏损+一端Poincare、中/高频短条带覆盖全整数，25/4零外迹平方界；辅助混合BC lift能量正交、step势比较方向与完整cosh积分/F最大值给9/2。全环境零模保留，不对未知方向加根Neumann；与Z8/5外界接新的wE/wB及3系数，根H2/3与Y rE/rB不改。正矩阵Cauchy给有向lower C_allow的半余量，未声称实际根C*已付，0新科学。
+
+D边界首run44742799448/1已保存完整actual/exec失败：19只读准入门成功，缺3个线程env使reference/profiles/Gram/targets/scalars全0、数学0秒；旧/新数学均未完成。按原零前缀保79pins准备独立v2运维恢复，shared worker保持不变。

@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R138完整截顶曲率H1/2 Grushin与根费预算](results/R138-supplement-capped-curvature-Hhalf-Grushin-and-root-budget.md)：全整数频率含环境零模，根不加条件，||z||L²H1/2≤(5/2)√Gcap+(3/√2)||z(R)||；辅助Neumann只用于能量正交lift。接Z后仅需读whole X/Y算5新body球，若body门过再求C_allow=detM/(2r^TadjM r)的lower；根r保旧H2/3资格。root/positive独审纯解析通过，实际预算与根C*未付。
+
 - [R138更紧外端提升与截顶曲率能量](results/R138-supplement-sharper-outer-lift-and-capped-curvature-energy.md)：同完整外图的n∈4N两列先合并，环境频组正交并保mean，付ω_R≤(8/5)√B；原曲率证书授K≥min(46x,1/40)。两个能量方向先用Hilbert直和Minkowski，省原√2；给后继body H1/2消费式，根H2/3费用不冒领。root/joint独核、0新数/旧重算，实际body/根门仍待。
 
 - [R141原D边界lift与真正97+96外行门](results/R141-supplement-reference-boundary-lifts-and-physical-outer-block-gate.md)：原153 signed D/155panel/真root的右97及联合193输入，10个body/root97/outer96/atoms/complete norm新目标首次封包；同模两列先积signed Gram再abs，独立mean与Theta一次保全。79当前/21原件、39字段25门整审；未来完整低逆与实际GH接内部body门，再接真正2×2正矩阵外行判据，实际门未宣称通过。
