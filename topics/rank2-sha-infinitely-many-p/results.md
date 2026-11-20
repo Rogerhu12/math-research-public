@@ -422,3 +422,5 @@
 - [R927](results/R927-original-yF-pole-degree-from-mixed-kernel-and-cusps.md)：r29原F完整混合核144严格给D′=(Pole(vF)−3DS)+的度180；原yF极次数为1080加全部36几何尖点的准确闭点修正，原π2三条e2支/剩余域全保。ξ0/∞两原纤维提供有限读数门，精确dF及完整pole仍待。
 
 - [R915附B](results/R915-original-connection-integral-window-and-second-digit-kernel.md)：同原ζ归一化Lucas保全部进位，使a_j整的连续终点准确为N−1=p²−p−1；v_p(a_N)=−2且p²a_N≡−pc。全C_r,k三角式与两位反馈保原Vc，输入窗p³−p须实际重付，不冒中央非零。
+
+- [R927§6–7](results/R927-original-yF-pole-degree-from-mixed-kernel-and-cusps.md)：同原dF=2160+9(e−z)，e/z皆偶且界102/96，dF为18倍/1296..3078且不等2256；原RF全900分母以RR满射读DS约化rank=e，原∞289厚因子足读2z≤192，实际两值待付。

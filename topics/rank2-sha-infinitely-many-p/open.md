@@ -64,7 +64,7 @@ R5 已反证 arXiv:1703.02215 所用统一有限 lifting 引理；否定该论�
 
 ### 真 RR、完整原函数环与消费者
 
-[本次全量归档](notes/2026-11-20-open-before-complete-affine-ring.md)逐字保此前全部旧运行、公式与未闭门；只收拢当前实际接口，不删除其它前沿。R882原18源/绝对B0B2/全17方块/36cusps/D204与R880/883全18×9/双轴/原A,C、四完整除子00/01/11/12保。闭点d不可先模ell；完整Frob/Atkin/边界、真dF成本2256+r*dF或2256(r+1)、全地方Kummer负floor和Σef不变。Norm含ell²点回归run43870209568已过，不重复无变化测试。
+[本次全量归档](notes/2026-11-20-open-after-consumer-and-long-connection.md)逐字保此前全部旧运行、公式与未闭门；只收拢当前实际接口，不删除其它前沿。R882原18源/绝对B0B2/全17方块/36cusps/D204与R880/883全18×9/双轴/原A,C、四完整除子00/01/11/12保。闭点d不可先模ell；完整Frob/Atkin/边界、真dF成本2256+r*dF或2256(r+1)、全地方Kummer负floor和Σef不变。Norm含ell²点回归run43870209568已过，不重复无变化测试。
 
 旧306/eta48/fricke24/tate24/tate19/R910/R919/R922路线仍未全末端PASS；实际卡点/source/run/job见[续接注](notes/2026-11-20-old-job-outcomes-and-exact-P-certificate.md)。quotient-only run44713040079/job136209307176仍运行，原D完整正规化/九cusp/Au/Av/branch/D0尚待。t-adic U已在4096精度上限结束无全局候选，不能作不存在结论，不盲目重跑。
 
@@ -72,7 +72,7 @@ R5 已反证 arXiv:1703.02215 所用统一有限 lifting 引理；否定该论�
 
 [R925](results/R925-original-ys-affine-rings-and-complete-divisor-ideals.md)由J=SY/(ys²+3)²建立原306完整过滤自由基和两张正规化图表；完整多项式核保原共零，六cusp含289重分支；§12 r29完整环实际PASS：run44724912327/job136249752863/sourcefea36d7d8，h0..4=1,2,68,360,666，全部46971乘积/两图表/单位过；14个权4元保完整W8，不复制r41。§13完整闭点/真实κ与q\q²参数、任意阶共零首项读者已独审；§16原Fp²两π/π²及八原点共零值run44730598782运行；§17–18原桥/trace及同进程紧缩→maps请求已接，三退化、全HNF理想/局部值各须实际门。
 
-[R926](results/R926-original-cube-roots-in-sections-and-complete-identities.md)已证明原RF/Ri的同次分式完整低窗2313/1429与全清分母身份窗6941/4287项；原M2延长2725/6941保持同基/整变换/旧前缀，保S³和原ω，不增加新根或换Artin。§8原cube实际PASS（run44728285578），全部高窗及核900/280/278/278过；§9严推根极次数240/452/454/454，§10同L最小权恰2/3，紧缩helper已三审接入待实算。[R927](results/R927-original-yF-pole-degree-from-mixed-kernel-and-cusps.md)将真实dF归约到原144混合核的180次余极与完整尖点读数，精确值待付。**四大交除子和原shadow未算，完整consumer首maps已请求；固定ell非零亦不替跨无穷p/ordinary桥。**
+[R926](results/R926-original-cube-roots-in-sections-and-complete-identities.md)已证明原RF/Ri的同次分式完整低窗2313/1429与全清分母身份窗6941/4287项；原M2延长2725/6941保持同基/整变换/旧前缀，保S³和原ω，不增加新根或换Artin。§8原cube实际PASS（run44728285578），全部高窗及核900/280/278/278过；§9严推根极次数240/452/454/454，§10同L最小权恰2/3，紧缩helper已三审接入待实算。[R927](results/R927-original-yF-pole-degree-from-mixed-kernel-and-cusps.md)§6–7给dF=2160+9(e−z)与DS全核rank/e、∞289因子/z两完整读数门，实际两值待付。**四大交除子和原shadow未算，完整consumer首maps已请求；固定ell非零亦不替跨无穷p/ordinary桥。**
 
 ## 原端点：真实范数与剩余增广阶
 
@@ -209,7 +209,3 @@ R887(116a)进一步准确给C(Hω)=0及C²(𝔄Faω)=0：rω=(1/3)dlog y与[G]_(
 [R923](results/R923-original-v66-complete-boundary-trace-and-fixed-denominator.md)：原V66在共同E17模型的完整因式给固定分母D66=154224，保−17/11物理缩放、原绝对根与全部Hall/Galois相位。完整全迹有3/4+o(1)高度，非零赋值同界；原首边界零恰等价约3p/4个Gaussian块的模p前缀全零。四来源的全迹接口均有，中央零到边界零及无穷p联合非零仍开。
 
 - [R924§15](results/R924-original-section-divisor-algebras-and-shadow-interface.md)：原vF和三Yi截面实际PASS，run44723394686/job136244599223/source7ffa56588，305.261秒；真F/P先鉴定，F核144/P两核152/原第三QY和Artin全保，F=A5/(B2 S³)、P=A3/B3，result0a8cc7cf…8e7f9f。cube/四交除子/shadow仍开。
-
-- [R925](results/R925-original-ys-affine-rings-and-complete-divisor-ideals.md)：同原ys的J=SY/(ys²+3)²给完整306过滤自由基、两正规化图表与所有共零/零极/原交理想；2453精度及全W8窗严付，完整多项式核保饱和，六cusp含289重分支。原有限判别式为[ys(ys²−1)(ys²−9)]^288。§12已实际PASS全部46971乘积/两图表/单位，h2=68且14个权4元；大交除子/shadow仍待。
-
-- [R925§6.2.1、§7.4、§10–11](results/R925-original-ys-affine-rings-and-complete-divisor-ideals.md)：完整norm与包含关系认证理想积早停；同原最大理想完整HNF给精确点身份，hash仅索引。原六cusp纤维各Fp[ν]/ν^289×Fp×Fp16，F16真约化投影、全289幂基与666原射影坐标接受门已证。截面/理想/helper接入，固定Sage饱和核/Hermite与六厚纤维均实际PASS，全部289幂基/666坐标保；大交除子/shadow未付。
