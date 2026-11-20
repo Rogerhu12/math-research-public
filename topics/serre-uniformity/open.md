@@ -54,6 +54,8 @@ R946/951/952原Bol障碍O_r(H)=r!(𝒰H)^p/B^(p−r)|SS、kerO=ker𝒰；whole�
 
 [R985](results/R985-strict-coordinate-Frobenius-carry-and-original-pure-Hurwitz-coefficients.md)：实际R_T=R_t∘g+μC_g，δ_g=(g^p−g^φ(Tp))/p，C_g=[l_E^φ(g^p)−L^φ(Tp)]/p均整。全级数L′bar=1给C_gbar=δ_gbar/g′bar^p；连接核C′=(g/g′)^(p−1)−T^(p−1)。所选p∤N−1、N<q−1准确−G_N=[T^(N−1)](J_t(gT)−βC_gbar)。首carry=−3T^(p+6)/7，所以N=p+7的遗漏修正3β/7全原p单位，不能以J选择消掉；低mixed i≤p−2仍不受影响。未由非零修正推总系数非零。
 
+[R986](results/R986-explicit-rational-primitive-and-original-Lubin-Tate-jet.md)：原s源显式J_s=−(2y^p)^−1Σ_(j≠(p−2)/3)binom(d,j)x^(3j+2)/(3j+2)，dJ_s=(−x+βt^(p−1))ω，β=binom(d,(p+1)/6)。Z=−β^-1D^(p−2)x为仅O polep、dZ=ω的唯一规范primitive；Wilson𝔠_pβ=3与E[2]字符给R0=Z−β^-1(x²/y)^p。**𝒯=Z+β^-1J_s^p** 是实际Fp(E)有理函数，d𝒯=ω、𝒯(g_s(T))=T+O(Tq)，保canonical共振。原pure=(N−1)^−1ResO x𝒯^(1−N)ω；mixed=ResO B_n𝒯^(−n−1)ω，B_n=ΣJ_s^(n−j)L_j/(n−j)!，仅mixed可用R0替𝒯。pure保补项β/(N−1)[T^(N−2)]t^(p−1)。不是global log/group hom，两指定residue非零仍开；继续actual Cartier降次和Poincare首分母。
+
 ## O3：固定低权cohomology与原Igusa投影的边界
 
 [R944](results/R944-original-CM-Gauss-Manin-homotopy-and-supersingular-principal-parts.md)给原fine base上
