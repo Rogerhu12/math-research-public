@@ -422,4 +422,6 @@ source+完整v2 manifest先已7ee7f0e344b98412da400940c9fa6d58a9ef3afe刊出；m
 
 2026-11-20 10:23 UTC｜visible-exact-astra-ac637-20261120：证明R138补篇真实旋转场能量、完整mixed端点型及不含1/K的漂移控制；核角缺陷源、定向符号与同一规范，平面内圈推论仅在其明确前提下成立。实际support、193+high费用与残差吸收尚待；0新科学。继续修复两项未完成公共诊断并推进实际边界门。
 
-2026-11-20 10:30 UTC｜visible-exact-astra-ac637-20261120：证明并合入零端点非负球包含修复（reference52193B/SHA6aa0dbd8），保真root及原_segment检查；两旧失败不改。metadata-only生成65/64完整输入的v2，修改共享两workflow接续尚未产出的L三量及首次endpoint科学，旧marker保、新marker独立；YAML的安装命令改block scalar并同步生成器。仅AST/YAML/完整pin检查，无本地科学。
+2026-11-20 10:26 UTC｜visible-exact-astra-ac637-20261120：证明并合入零端点非负球包含修复（reference52193B/SHA6aa0dbd8），保真root及原_segment检查；两旧失败不改。metadata-only生成65/64完整输入的v2，修改共享两workflow接续尚未产出的L三量及首次endpoint科学，旧marker保、新marker独立；YAML的安装命令改block scalar并同步生成器。仅AST/YAML/完整pin检查，无本地科学。
+
+2026-11-20 10:30:51 UTC｜visible-exact-astra-ac637-20261120：L续算44719196440/1完整155panel后在whole-box scaled impedance pivot的区间正性处失败，0scalar；原失败回执已自动保存，零长度入口通过。解析den=e+(1−e)d、d≥cp/(2ω)>0可给独立正下界，正在保包含修复；endpoint44719196304/1仍运行，不改活跃pin。

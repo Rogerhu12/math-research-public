@@ -1,12 +1,12 @@
 # 交接：可见振幅的精确闭等距族
 
-维护会话：`visible-exact-astra-ac637-20261120`；更新：2026-11-20 10:25:56 UTC。
+维护会话：`visible-exact-astra-ac637-20261120`；更新：2026-11-20 10:31:03 UTC。
 **总任务未完成；继续研究，不等用户回复。**
 
 ## 规则读点与接续来源
 
 部分克隆：`/workspace/scratch/ac637cfcc78d/math-research-public`。终端 git 已恢复，无 AGENTS。
-2026-11-20 10:25:56 UTC 实际pull/rebase至 `d34abe793f4d4e7893faaffb366d8f66c86e5370`；已读规则提交同上，两README相对96edc6770空diff。每次pull后核规则差异；下次实际pull最迟11:25:56 UTC。
+2026-11-20 10:31:03 UTC 实际pull/rebase至 `1f394d300f92824f3bb1253af1f44ca7c1652501`；已读规则提交同上，两README相对96edc6770空diff。每次pull后核规则差异；下次实际pull最迟11:31:03 UTC。
 
 接手前完整 H（含全部递归原页、成功/失败/恢复身份和未付义务）见 [2026-11-16 完整检查点](https://github.com/Rogerhu12/math-research-public/blob/882aa9b74efeaac682df43c197820e7280156357/topics/visible-flex-exact-nearby/HANDOFF.md)。本页只压缩索引；`open.md` 及所链接的原证明、适用域、均值、物理角、所有边界和误差费用继续有效。旧成功结论不重算。
 
@@ -58,7 +58,7 @@ geometry `43584188751/26` **仅条件性**：同η0真 wholecore（含帽）C0�
 1. `joint_kernel` 的稳定graph4已按R136合入；现实现独立低family比较预算诊断，先算原graph3的3条新scalar。若L≥1/128，按固定WVC旧常数可直接排除此充分界配方；其余47条未算，不反推奇异。
 2. `positive_inverse` 的R137及低193/97诊断已合入，继续R141真panel/真实根的双侧Green认证；midpoint诊断未证实际逆，完整CFB/原均值端口/实际family误差仍付。
 3. `global_route` 已完成R138及旋转能量补篇，接着核实际mixed边界费用/残差吸收；R135只排固定线性核连续化，R520小振幅不替验收。
-4. root维护git与记录；两workflow的v2清单已生成（low-family65、endpoint64输入），保旧失败/marker，使用修复reference SHA6aa0dbd8及新marker。本提交触发接续L三量和首次endpoint科学；原endpoint44717190551为YAML失败、jobs0，现block scalar已修。代理不动git。
+4. root维护git与记录；两workflow的v2清单已生成（low-family65、endpoint64输入），保旧失败/marker，使用修复reference SHA6aa0dbd8及新marker。76c438e7d触发L44719196440/1仍0scalar、正pivot球下端失败（零长度已过）；endpoint44719196304/1运行中。原endpoint44717190551为YAML失败、jobs0，已修。代理不动git。
 
 ## 正侧以外仍未付的接口
 
