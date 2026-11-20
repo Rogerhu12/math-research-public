@@ -171,3 +171,7 @@ D边界首run44742799448/1已保存完整actual/exec失败：19只读准入门�
 ## 2026-11-20：原96/97根型完整signed新目标
 
 science32478B/817f033d、worker30041B/96785db2、gen11751B/20cba007、contract9957B/bbc599a4，root逐源及worker/gen差异整读，joint独核7local/完整mean/两非局部项、weighted moment、真实C2与wholecell带符号余项。20当前bytes/SHA/blob/AST、6历史与已成mean逐字同、34字段/YAML/metadata再现全核；manifest11331B/2e878faa9a3b62ffd8b827b39398872cf9fe8e50c793689d19385eca61226870。原axis/mean/X整文件只读，0旧target或producer；32768格3pass私有contains缓存不公开，保存读回actual3球后才det/witness严格比较。负方向只排无条件全rootdata非负；根迹可达性/global逆仍未付。独立workflow首次push，原低长run不动。
+
+## 2026-11-20：已成X/Y的完整H1/2体预算首次消费封包
+
+source20629B/7249ee69、worker29103B/e3b9a174、gen11084B/cafe9d54、contract5218B/33903ab5，root整源/worker差异/完整合同与gen读审，global独核GB20/21与GB23 lower方向。17当前bytes/SHA/blob/AST、26字段/5+1分支/YAML全核，0历史；metadata再现manifest8217B/375a1ffc16af7834d92ec044cb33078705150fc88ce76bbe639d74754f87443f及workflow逐字同。新五upper每条写盘读回contains后消费，3门全过才保存第6lower；完整原X/Y false保留，根r只读旧Y不冒新H1/2迹。0旧科学/ODE/积分/数组，首次push独立公开workflow。H当前续点压缩前全文索引81dd1d794，保全部原资格。

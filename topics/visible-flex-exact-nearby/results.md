@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R138完整H1/2新body小消费者](notes/2026-11-20-capped-Hhalf-saved-budget-contract.md)：只读全X/Y actual+execution，5新upper保存读回后判3body门，全部过才算C_allow有向lower；旧根rE/rB的H2/3路径不变。17当前/0历史、26字段、320bits，root/global整审，metadata逐字复现；首次push，实际根C*与full逆未付。
+
 - [R138原96/97根型完整signed消费者](notes/2026-11-20-R138-root-two-mode-form-contract.md)：同原low96/high97与真实Qrepair，完整D/mean、whole-circle primitive、actual C2和原轴整球均保；32768wholecell/320bits先积signed3项再判。root/joint独核7local与非局部式、真cell误差，20当前/6原件整审，首次push新1目标；负型仅排所有rootdata非负，不冒全BVP奇异或全逆。
 
 - [R141 D边界零数学线程恢复](notes/2026-11-20-reference-boundary-lifts-zero-math-thread-recovery.md)：原44742799448/1已保全19准入/0定义/0剖面/0Gram/0球/0数学秒失败；原79pins与全部科学合同不动，82输入v2只补3线程与新marker。root逐件metadata核并重建同清单/入口，原两目标仍未算，首次push新入口；不授任何逆门。
