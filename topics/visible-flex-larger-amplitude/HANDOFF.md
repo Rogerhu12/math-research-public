@@ -4,7 +4,7 @@
 
 ## 规则与完整目标
 
-最近规则核查：2026-11-20 12:42 UTC，真实pull/rebase至 `5aaba1c38ab1c064d5c05b8418ceb4f8a47247e7`，双README相对上次已读无差异。
+最近规则核查：2026-11-20 12:45 UTC，真实pull/rebase至 `71e86b47cb04a2fffe6ee39331f660feb954ae0d`，双README相对上次已读无差异。
 
 公开仓库内工作；终端git普通push，每条结论推一次，NFF立即pull/rebase再推。至少每小时pull；每次查根/本题README差异，变更立刻读/执行。根README已授权必要修改/发布。根唯一git writer，代理只work/小blob。raw只scratch；Git/Release/artifact只保完整小源/参数/run/SHA/紧凑结论。题≤200MB、单MD<100KB、H<10KB、open<30KB。令牌只瞬时CLI，不写文件/提交/回复。
 
@@ -24,19 +24,18 @@ carrier在work/recover_evidence/gauss6-current-three/same-scalar-gauss-observati
 
 ## 当前实际场与并行工作
 
-| 实际场 | 同目标Jw / 全观察maxGram | 当前已知点范围 |
+| 实际父 | 同目标与误差 | 当前已付范围 |
 |---|---|---|
-| [0241，v5首步后续6步](notes/2026-11-20-curvature-qp-physical-h2-next-six-result.md) | .13368399852 / .02401357847 | K8.07248383、Dlb4.09578260、product.99189417；全已知点过.992 |
-| [13ce，完整物理H256](notes/2026-11-20-physical-height-fixed-memory-first-result.md) | .29494283377 / .03981717684 | 全2b/r17新点复读后product.98982168 |
-| ddd644，分块完整256 | .28448206426 / .03870743904 | 仅α1/16接受；product.98982259；非当前最佳 |
-| 6077，几何已证基准 | .36916144543 / .04536288807 | 完整D/held/非平面输入已付；metric不达，未付全域reach |
+| 35f749，v7/r22恢复终态 | Phi1.192303585763e−7 / maxGram.01334352628；Jw.19654005 | 全full并集973κ/165radius/14protected复读product.991891898405；仅有限screen |
+| [0241，v5](notes/2026-11-20-curvature-qp-physical-h2-next-six-result.md) | Jw.13368399852 / maxGram.02401357847 | R663闭嵌入/非全等；紧D≤4.096356，marker held/D>.22314、grip>.21960；K覆盖正在加密 |
+| [077087，v7首4](notes/2026-11-20-curvature-qp-spectral-hessian-four-step-result.md) | Phi1.81982008095e−7 / maxGram.01495643901 | 新R665 C1全胞浸入已付；全角l1支持仍799胞未付，不能冒嵌入 |
 
-0241：work/geometry_path/curvature-qp-physical-h2-next-six.npz，SHA `0241f7144f82b485350f684e999c8fb3fa71c94a942339da0bfa9f00bdb30023`。6077：work/geometry_path/curvature-qp-arbitrary-def1-six-step.npz，SHA `607732377449f07611553ebc1ad1e7f2aa20e835d3f613a3018ae56957dd6941`。
+35f749路径work/geometry_path/curvature-qp-spectral-hessian-r22-restore-three.npz，SHA `35f74961a297775f7e38c01cee7f9ed5516e98c48964f758f1795b76d2061ebf`。0241路径work/geometry_path/curvature-qp-physical-h2-next-six.npz，SHA `0241f7144f82b485350f684e999c8fb3fa71c94a942339da0bfa9f00bdb30023`。6077旧D/held基场身份见R658/659。
 
-- geometry_path：[v6](notes/2026-11-20-curvature-qp-spectral-p8-six-step-result.md)从0241新启正谱p8/.001/.05真实Φ六方向，原同g/全部行/H²/.992保持。首6已自然返8d7407，max .01577338，Φ1.97949e−7；Jw反升.206198，明确是换目标权衡，未冒旧Jw改善。同v6后4已返ca3679，Φ1.90728e−7/max.01507269；v7同1964四步已返077087，Φ1.81982e−7/max.0149564；2534径向增广5接受得bede/max.0133429，但新821第三盆使product.99240164仅超内部余量，正同Phi3方向恢复。
-- fullclosed_solver：ddd644方向已自然返，仅1/16接受；真实新峰微分归因显示prefix净δκ的79%来自m≥33，Fφφ/Y主导。已从0241实际启动νc24平滑转折角H²尺度（旧角权×sqrt(1+(ν/24)²)，core同乘，H不动），同新范数粗白化。全历史位置永久screen；当前working set取7protected+真实near-active至192。新256已返5b1e仅1/32接受，Jw.13264642/max.02387469；邻角新峰仍限制步长，下一研究真实带余量不等式。p8交geometry。
-- recover_evidence：[R662](results/R662-complete-closed-C0-difference-and-inherited-size-amplitude.md)连续C0差实际全922胞1.54s返，0241对6077 ε≤.028621856；传D≤4.164063、held/D>.219622（条件.001marker>.219516），完整证明/源已刊。无需角网格或重扫旧D/held；8d新父同源已返held/D>.219123；[R664](results/R664-positive-spectral-residual-Hessian-and-true-gradient-pullback.md)准确残差Hessian/真实gradient完整源已刊；当前转廉价C1支撑传递给新谱父，不重复全场扫描。
-- root：[R663](results/R663-complete-closed-embedding-and-fixed-marker-noncongruence.md)0241全922胞first-jet已自然返415.66s，0未付盒，support≥.37782381、D≤4.111673。同父非平面全胞另返；四固定p4标记后全相位嵌入/强C²连续/含反射δE>0已付，held/D>.22231、握持>.21878。[九次局部半径加密](notes/2026-11-20-0241-local-radius-refinement.md)已得D≤4.096356，marker后held/D>.22314、握持>.21960。全域reach/metric/精化未付；后继父须另付差界。0241全域K自适应Q2048/r1→8192/r8→32768/r32，目标8.1，已启动45381；不预报结果。
+- geometry_path：[v6](notes/2026-11-20-curvature-qp-spectral-p8-six-step-result.md)改目标为p8/.001/.05真Phi，所有旧Jw权衡真实保。v7消费R664正残差Hessian，保持真gradient，1964首4自然返077；按实际谱加5径向中心成2534，r22末bede新821第三盆product.99240164仅超内部余量，3方向恢复得35f。现同Phi/2534从35f接6方向，µ.012063248415、9protected；两次CLI路径手误在basis前停、0方向/0trial，原日志保，真正运行15882。
+- fullclosed_solver：旧分块13ce→ddd仅1/16、旧角H²从0241→5b1e仅1/32，真实新峰归因由高模主导变为低模约66%，完整记录保。现完整Phi不等式QP已从35f启动51104，νc24正角H²范数、2534粗列+全DI、192实际余量不等式/14protected。合并973κ/165radius全复读通过；meanPhi µ.012063248415，exact residual Hessian与正确虚拟RHS，CG内预算256。仅在z0实际可行时开始，不冒Phase-I，不加旧.0002线性margin；所有历史点仍非线性screen。
+- recover_evidence：R662完整C0传0241与8d无需重扫旧D/held；R664正谱残差Hessian完整源/证明已刊。R665传077全922胞浸入，但全角l1法线锥仅123胞support正，799未付；正以Q256/前24模+完整l1尾补同phi相关界，旧源/失败范围保留。不给任何未返全场成功旗。
+- root：[R663](results/R663-complete-closed-embedding-and-fixed-marker-noncongruence.md)0241全部922胞first-jet/非平面准确检查和四固定p4图给全t嵌入、强C²连续、含反射δE>0；[九次局部半径细化](notes/2026-11-20-0241-local-radius-refinement.md)紧D如上。全K自适应45381：Q2048/r1全922已有界，但224胞K上界>8.1；正在Q8192/r8、必要时Q32768/r32，只加密未达到目标的胞。全域reach/metric/实际精化未付，后继父不能免费继承0241证书。
 
 ## 已付连续几何与严格接口
 
