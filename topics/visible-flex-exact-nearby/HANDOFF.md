@@ -1,12 +1,12 @@
 # 交接：可见振幅的精确闭等距族
 
-维护会话：`visible-exact-astra-ac637-20261120`；更新：2026-11-20 15:53:01 UTC。
+维护会话：`visible-exact-astra-ac637-20261120`；更新：2026-11-20 15:54:43 UTC。
 **总任务未完成；继续研究，不等用户回复。**
 
 ## 规则读点与接续来源
 
 部分克隆：`/workspace/scratch/ac637cfcc78d/math-research-public`。终端 git 已恢复，无 AGENTS。
-2026-11-20 15:53:01 UTC 实际pull/rebase至 `cc0fb52718e158ed3c7f97d69048e938c50ea3d0`；已读规则提交同上，两README相对96edc6770空diff。每次pull后核规则差异；下次实际pull最迟16:53:01 UTC。
+2026-11-20 15:54:43 UTC 实际pull/rebase至 `449fefcd9f167378177c62a05f45a70bd48470bf`；已读规则提交同上，两README相对96edc6770空diff。每次pull后核规则差异；下次实际pull最迟16:54:43 UTC。
 
 接手前完整 H（含全部递归原页、成功/失败/恢复身份和未付义务）见 [2026-11-16 完整检查点](https://github.com/Rogerhu12/math-research-public/blob/882aa9b74efeaac682df43c197820e7280156357/topics/visible-flex-exact-nearby/HANDOFF.md)。本页只压缩索引；`open.md` 及所链接的原证明、适用域、均值、物理角、所有边界和误差费用继续有效。旧成功结论不重算。
 
@@ -25,13 +25,11 @@ geometry `43584188751/26` **仅条件性**：同η0真 wholecore（含帽）C0�
 
 本会话至Newton七源首次入口的完整结论、所有参数/mean/端点与成功失败资格保于[f2a3dc66c完整H](https://github.com/Rogerhu12/math-research-public/blob/f2a3dc66ca60ed4641c34cbc5dbc40885f0c3b9a/topics/visible-flex-exact-nearby/HANDOFF.md)，递归保1311116a5/ab9572805/bbbdf85f7及前会话。R135–141、同η与真实DF的区别、原SG/SE/RA及RDA两球均按原proof，不因索引压缩改变。
 
-[RN根锚组合必要筛查](results/R138-supplement-root-anchored-spectral-budget-necessary-screen.md)保true DH^-1/mean；仅收紧旧high41试探即由whole旧T推出改进T<120，须aEE<23/30、wE<22、Csp<23。已成统一λ替代DH的Schur预算单独迫根费>19/5，亦排；不排true DH^-1、角依赖压缩逆或直接R141路线。0新积分。
+[RN根锚组合必要筛查](results/R138-supplement-root-anchored-spectral-budget-necessary-screen.md)保true DH^-1/mean；仅收紧旧high41试探即由whole旧T推出改进T<120，须aEE<23/30、wE<22、Csp<23。已成统一λ替代DH的Schur预算单独迫根费>19/5，亦排；不排true DH^-1、角依赖压缩逆或直接R141路线。0新积分。 [RX完整二维排除](results/R138-supplement-actual-spectral-root-anchor-cross-budget-excluded.md)再用实际SG aEE>.7/aEB>.6与RN根EE>37/30，正方向(1,.3)得<-7/300，排当前SG/RA整门；不再为此门造Gram，原body五球成功不改。
 
 ## 已有正侧链与完整旧资格
 
-本段压缩前全文保于 [d080a9e66的HANDOFF](https://github.com/Rogerhu12/math-research-public/blob/d080a9e660c3ba751740c7523e2ac73f352151f6/topics/visible-flex-exact-nearby/HANDOFF.md)，含全部公式/端点/mean/失败和proof索引。
-
-WIC原m160/N24480真tail逆κ=3已证；原WPN trial只有完整e+3dt<1才授双边逆、两RHS与root-even I96。WPS60/WVC56/WCTRA既成门约635240.55/11066.29746/11976.30849均false，不表示奇异、不重算；本轮仍固定WVC。W2C两侧Volterra候选保true J*到R、完整family及dual H1。WJK F=P+Q*−Q*LcP只能在同(r,s)的完整signed centre下合χ′后abs，保五collar项、两三角、193atoms、7ports、2RHS；不能对individual residual删项。
+[SGA完成时完整H](https://github.com/Rogerhu12/math-research-public/blob/449fefcd9f167378177c62a05f45a70bd48470bf/topics/visible-flex-exact-nearby/HANDOFF.md)逐字保本段、d080a9e66及递归原H中的完整公式/端点/mean/失败。WIC m160/N24480 κ3已成；WPN原trial须完整e+3dt<1。WPS/WVC/WCTRA约635240.55/11066.29746/11976.30849三false冻结，非奇异。W2C trueJ*至R/fullmean、WJK同(r,s)全signed centre/五collar/两三角/193atoms/7ports/2RHS全保；原费用不省。
 
 ## 当前执行续点与分工
 

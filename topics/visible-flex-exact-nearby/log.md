@@ -323,3 +323,8 @@ positive推L1–25及pure13580B/2c5002f9，global整篇/整源独审；root再�
 ## 2026-11-20 15:52 UTC：全4651片互补谱体预算实际五量通过
 
 会话visible-exact-astra-ac637-20261120。44767124478/1 actual24640B/24c5923e、exec15484B/ce2787cd，全4651/5scalar、rc0、math.213076486s/child.678483897s。26当前与5历史逐receipt核同；原X/Y/GB/RS四对whole读取，0旧积分/漂移/CE目标。body三门true，新Csp<21.052653、aEE<.748166、aEB<.600361、条件allow lower>515.804199；完整球的纯有理端点比较还过RN强三门，不授真实根型或逆。真DH低根/源与完整二维矩阵仍须另行处理，后续优先实际值而不重跑本五量。
+
+
+## 2026-11-20 15:54 UTC：新谱体加根锚容量的完整二维门被排除
+
+会话visible-exact-astra-ac637-20261120。global从44767124478两完整decimal球和RN既成trueDH必要费给RX；root整读并核正有理方向(1,3/10)的1/15−9/100=−7/300，所有余root/source费用在该格式非负。仅排SG/RA/relative此所选充分预算，即使真实DH逆亦不能修交叉项；不是对任意矩阵Loewner比较、不声称PDE能任选E/B、不推奇异。原五量/body三门成功保持，0新积分/Gram。发布前仅补RX.2的quad排版反斜线；H旧正侧段以已推449fefcd9f167378177c62a05f45a70bd48470bf完整页递归保全后压缩。继续直接low193/真实边界值及不同signed费用路线。

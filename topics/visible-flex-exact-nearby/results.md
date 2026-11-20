@@ -360,3 +360,8 @@
 ## 2026-11-20：完整互补Gram谱体五量实际通过
 
 [SA实际结果](results/R138-supplement-actual-complete-spectral-body-energy-budget.md)记录44767124478/1全4651片及四upper/一lower；body三门true，Csp<21.052653、wE<21.4663、aEE<.748166、aEB<.600361、allow>515.804199。整球亦过RN较强Csp<23/wE<22/aEE<23/30；必要不等充分，实际根费/全逆未授。26当前/5历史与X/Y/GB/RS四whole对原样，0旧科学。
+
+
+## 2026-11-20：实际SG与根锚容量的完整交叉门排除
+
+[RX纯有理见证](results/R138-supplement-actual-spectral-root-anchor-cross-budget-excluded.md)仅读SG两整球得所选aEE>.7、aEB>.6；RN真正high Schur必要根EE>37/30，正测试(1,.3)给完整矩阵型<-7/300。原body三门和RN逐项必要门成功仍保，失败的是另一个全二维组合；没有全矩阵Loewner冒推、没有PDE可达E/B或非零核主张。无需新积分/Gram，不能靠此组合下增加high截断修复。
