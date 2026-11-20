@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R138实际正支撑补篇](results/R138-supplement-actual-positive-support-for-repaired-physical-frame.md)：复用旧完整几何、角缺陷和修补证书，证明同一全周期外端锚、准确η0/ν0、全[0,25/8]的Qrepair物理径向frame满足|F|<319/250、F·n>9/10。扇区运输仅作比较，保6143接口/mean/真实逆角；支付能量support，不授实际闭合或全逆。
+
 - [R139补篇：零端点区间的包含修复与未完成目标接续](results/R139-supplement-certified-zero-endpoint-interval-continuation.md)：先证真实affine长度非负，再用经核对的对称球平移给非负外包；保留严格长度检查、真实根、原算子及三目标。44716804300/1的0scalar失败原样保留，修复本身不判断预算门。
 
 - [R138补篇：真实旋转场能量及完整端点型](results/R138-supplement-rotation-energy-and-complete-endpoint-form.md)：给出角缺陷的无角导源方程、完整residual能量误差、193及high真实边界型；正平方控制漂移旋转的常数不含1/K，并证明平面内圈的限定刚性推论。当前support、实际端点费用及残差吸收仍待，未授全逆。

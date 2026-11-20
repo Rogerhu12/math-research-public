@@ -170,3 +170,5 @@ WIC真tail κ=3已闭；WPN仍须完整e+3dt<1。WPS/WVC/WCTRA充分门均false�
 [R138](results/R138-residual-sensitive-Codazzi-frame-and-geometric-Jacobi-bridge.md)给同Qrepair的实际径向重建、frame/位置/height残差及完整方向桥；193 mixed行不能当Dirichlet，WVC η替换主部差仍是角导源。下一步接rotation-field真实边界能量并付残差吸收，而非从形式椭圆性推全逆。
 
 [R138补篇](results/R138-supplement-rotation-energy-and-complete-endpoint-form.md)已给具体旋转能量、完整端点型及不除以K的漂移估计；下一步在同一193+high实际边界域核support、初始角缺陷和端点费用，使b_*+e_*<2。当前root未证平面，outer graph不能当常旋转；mean/源/弱强域和同一全局规范保留。
+
+[实际support补篇](results/R138-supplement-actual-positive-support-for-repaired-physical-frame.md)已支付上述support：同固定η0/ν0、同全圈周期外端锚、全[0,25/8]的Qrepair物理径向frame有F·n>9/10、|F|<319/250；旧证书只读复用。继续支付实际193+high端点型、初始角缺陷与残差吸收，未完成的GC/外帽世界匹配不因此消失。
