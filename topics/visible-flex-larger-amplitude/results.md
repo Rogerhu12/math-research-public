@@ -255,3 +255,5 @@
 - [R663：同一0241闭合场的完整嵌入及固定标记后的非全等](results/R663-complete-closed-embedding-and-fixed-marker-noncongruence.md) — 全922胞/全角/两帽/镜像一阶连续覆盖零未付，support≥.37782381；完整闭相位族加四固定p4图仍嵌入，逐胞准确非平面配R238支付含反射δE>0。更紧D给held/D>.22231、握持>.21878；reach/metric/精化仍未付。
 
 - [R664：正谱残差的准确Hessian、真实梯度及完整空间拉回](results/R664-positive-spectral-residual-Hessian-and-true-gradient-pullback.md) — 同Phi的正差商3×3二阶块完整证明，真实gradient保持；完整native LSMR右端B逆转置而非B乘旧残差。准确残差Hessian不冒完整场Hessian/全局MM，全部原正权行保持。
+
+- [R665：连续C1差、法线锥传递及077087的完整浸入](results/R665-continuous-C1-normal-cone-transfer-and-complete-immersion.md) — 全部922胞准确派生/完整解析lift的一阶差与正法线长度已付；仅123胞正支撑、799未付，完整成功/松界失败范围分明，不冒新候选闭嵌入。
