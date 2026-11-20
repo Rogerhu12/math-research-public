@@ -1,0 +1,206 @@
+{
+  "identity": {
+    "kind": "R138_same_Qrepair_composed_physical_energy_budget_v1",
+    "source_sha256": "3fca5cd0b9da843bc8c56128c31f9c307456769952dc0f64b7c3f59f66a1aff1",
+    "arithmetic_bits": 320,
+    "original_positive_sha256": "ea17451120f8c368ea3e5d4ee511a9d1d03d8a97705e7bd36cf9d015a8d9d93d",
+    "original_angular_sha256": "7a3dd2c1d48b611f5d9a6bd8c2d7ebeeeb4c2f6a7c2bcc4f61f4d012be4e2f90",
+    "original_germ_sha256": "397f9b428c787823994f8c849ad7d1f9209220c3c6e8907b38be562b3cbc9864",
+    "original_candidate_sha256": "ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413",
+    "intrinsic_object_sha256": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+    "exact_repair_definition_sha256": "440866a368f68b472bc904c90fbe9862f2ff13e9f884ffced6a4819c04866a47",
+    "exact_alpha": "6890507429876859/9007199254740992",
+    "exact_eta": "-7789843107295549/4611686018427387904",
+    "exact_nu": "-2572625729470897/72057594037927936",
+    "fixed_point": "(0,0,1/2)",
+    "exact_true_root_interval": [
+      "1191984371497/5000000000000",
+      "2383968743003/10000000000000"
+    ],
+    "conservative_integration_interval": [
+      "1191984371497/5000000000000",
+      "25/8"
+    ],
+    "original_positive_rows": 4650,
+    "original_angular_rows": 7722,
+    "original_positive_interfaces": 3594,
+    "original_angular_interfaces": 6143,
+    "original_positive_interface_metadata_sha256": "2a6908d127649ee76213bb192a59be1f42ee7e9d1b229fe11d54f843449a34a0",
+    "original_angular_interface_metadata_sha256": "75a10a82683e5c71df25f3621bce5044d93293c2aeaca15aa1871a695517086f",
+    "new_complete_closed_cell_count": 4651,
+    "new_common_partition_sha256": "b86e1b057e14b61d09364dc8dc0969a2650c727104abcdf8d39e67cc9dcd14a6",
+    "full_repair_A0": "1/250000000000000000",
+    "full_repair_angular_bound": "128*4/10^18",
+    "full_repair_mean_bound": "1/250000000000000000",
+    "physical_period": "2*pi",
+    "prior_complete_budget_sha256": "1259c3687cea0af523dd52055e88d5ee9a7b77094c218101835b6c38dfbbc7ec",
+    "prior_complete_execution_sha256": "999555eafb3c443266f1a8fed98056c9d4f448c0131ef5ffff93941b35040c92",
+    "prior_source_sha256": "716fde1b56617680898ed61e7ebc0da0177c086e1a0f8865e36a5d7ff9b6a2eb",
+    "prior_run": "44737045152/1"
+  },
+  "complete": true,
+  "proved": true,
+  "failure": null,
+  "completed_closed_cells": 4651,
+  "complete_derived_energy_bounds": {
+    "Volterra_J0": {
+      "kind": "complete_decimal_ball_v1",
+      "midpoint_integer": "34945787836338800985388551246454403313921319789030446145439810519967449626766695",
+      "radius_integer": "2",
+      "decimal_exponent": "-85"
+    },
+    "root_Kminus": {
+      "kind": "complete_decimal_ball_v1",
+      "midpoint_integer": "8224337374330544392593633476992760746177626568368587313690240817304531813378713",
+      "radius_integer": "2",
+      "decimal_exponent": "-83"
+    },
+    "h_E": {
+      "kind": "complete_decimal_ball_v1",
+      "midpoint_integer": "18693792748787787240213093362313667746273946798302244277004552305747660205365804",
+      "radius_integer": "2",
+      "decimal_exponent": "-82"
+    },
+    "w_E": {
+      "kind": "complete_decimal_ball_v1",
+      "midpoint_integer": "21685125147728355292523166411832256835438441373530037080901592709678110834942080",
+      "radius_integer": "2",
+      "decimal_exponent": "-77"
+    },
+    "z_E": {
+      "kind": "complete_decimal_ball_v1",
+      "midpoint_integer": "30704059662526437257212558047044104371957895050770150419490031598387632055141376",
+      "radius_integer": "2",
+      "decimal_exponent": "-77"
+    },
+    "r_E": {
+      "kind": "complete_decimal_ball_v1",
+      "midpoint_integer": "17834732494933725925106870995791221292682324474433693727671301031167147849395389",
+      "radius_integer": "2",
+      "decimal_exponent": "-81"
+    },
+    "r_B": {
+      "kind": "complete_decimal_ball_v1",
+      "midpoint_integer": "19766206725765889673183522094049537537522692314238824088347626643627586420510150",
+      "radius_integer": "2",
+      "decimal_exponent": "-81"
+    },
+    "a_EE": {
+      "kind": "complete_decimal_ball_v1",
+      "midpoint_integer": "6631582071952723750629467904547339559831539520663180819557939896539867500185037",
+      "radius_integer": "2",
+      "decimal_exponent": "-77"
+    },
+    "a_EB": {
+      "kind": "complete_decimal_ball_v1",
+      "midpoint_integer": "14545622627487794673324801021475450014443118351488824541661569877059512555959104",
+      "radius_integer": "2",
+      "decimal_exponent": "-77"
+    },
+    "a_BB": {
+      "kind": "complete_decimal_ball_v1",
+      "midpoint_integer": "7975528281443451517847140954925989889759747171203179696630823050573762564367388",
+      "radius_integer": "2",
+      "decimal_exponent": "-77"
+    }
+  },
+  "prior_complete_budget": {
+    "sha256": "1259c3687cea0af523dd52055e88d5ee9a7b77094c218101835b6c38dfbbc7ec",
+    "execution_sha256": "999555eafb3c443266f1a8fed98056c9d4f448c0131ef5ffff93941b35040c92",
+    "run": "44737045152/1",
+    "json_path": [],
+    "whole_original_scope_and_false_gates_retained": true
+  },
+  "reused_prior_scalar_paths": {
+    "physical_Z_Ztheta_P_Ptheta": [
+      "actual_root_physical_defect"
+    ],
+    "C_E_C_H_ATheta_CW": [
+      "new_scalar_suprema"
+    ],
+    "Gamma_Eepsilon_hB_wB_zB": [
+      "complete_derived_energy_bounds"
+    ],
+    "root_density_norm": [
+      "complete_derived_energy_bounds",
+      "root_density_H_minus_one_third_norm"
+    ]
+  },
+  "old_scientific_target_calls": 0,
+  "old_primitive_calls": 0,
+  "old_geometry_ODE_calls": 0,
+  "old_frame_propagation_steps": 0,
+  "old_energy_constant_targets_recomputed": 0,
+  "published_Fourier_or_frame_arrays": 0,
+  "scope": {
+    "same_fixed_eta_nu_and_Qrepair": true,
+    "full_real_angular_circle": true,
+    "true_root_not_replaced_by_interval_endpoint": true,
+    "complete_means_retained": true,
+    "complete_original_interfaces_retained": true,
+    "actual_DF_not_WVC_hybrid": true,
+    "root_boundary_form_constant_paid": false,
+    "full_positive_inverse_proved": false,
+    "final_topic_complete": false,
+    "primitive_to_L2_smoothing_used": true,
+    "exact_physical_C_primitive_used": true,
+    "complete_prior_X_outcome_preserved": true
+  },
+  "new_scalar_suprema": {
+    "E_0": {
+      "kind": "complete_decimal_ball_v1",
+      "midpoint_integer": "13867980253693524661458534840377070520465348613416322912079474902149070294003208",
+      "radius_integer": "2",
+      "decimal_exponent": "-82"
+    },
+    "E_1": {
+      "kind": "complete_decimal_ball_v1",
+      "midpoint_integer": "27194056473705829639504642037333815116918215383499235345005275286026880187106700",
+      "radius_integer": "2",
+      "decimal_exponent": "-79"
+    },
+    "k_0": {
+      "kind": "complete_decimal_ball_v1",
+      "midpoint_integer": "11609773819393591481894018959813484608655461486912194869273625702836741211860452",
+      "radius_integer": "2",
+      "decimal_exponent": "-83"
+    },
+    "k_minus_one_third": {
+      "kind": "complete_decimal_ball_v1",
+      "midpoint_integer": "24955928360273055506795437585779024787968613596383632496887901165250896554511948",
+      "radius_integer": "2",
+      "decimal_exponent": "-83"
+    },
+    "k_minus_one_half": {
+      "kind": "complete_decimal_ball_v1",
+      "midpoint_integer": "37351274141902790236179365196045906556852857873154640383080094583448328254474843",
+      "radius_integer": "2",
+      "decimal_exponent": "-83"
+    }
+  },
+  "new_scalar_integrals": {
+    "composed_k0_squared_integral": {
+      "kind": "complete_decimal_ball_v1",
+      "midpoint_integer": "14289418050760186152243734979253095118837311412646270756601740227954784318715546",
+      "radius_integer": "2",
+      "decimal_exponent": "-88"
+    },
+    "composed_kminus_squared_integral": {
+      "kind": "complete_decimal_ball_v1",
+      "midpoint_integer": "67639725246810233079657156794053356762256800541198292101383831322213591876812584",
+      "radius_integer": "2",
+      "decimal_exponent": "-88"
+    }
+  },
+  "current_exact_left": "1191984371497/5000000000000",
+  "current_wall_seconds": 3.215864326000002,
+  "stage": "complete-new-composed-physical-scalar-budget",
+  "body_only_sufficient_comparison": {
+    "root_constant_for_this_diagnostic": "0; actual root constant remains independent",
+    "E_coefficient_less_than_2": false,
+    "B_coefficient_less_than_1": false,
+    "cross_discriminant_positive": false,
+    "false_is_not_a_singularity_claim": true
+  },
+  "wall_seconds": 3.221159022000002
+}
