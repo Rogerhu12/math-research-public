@@ -1,35 +1,60 @@
 {
   "format": "isp-r150-short-exact-request-v1",
-  "sequence": 7,
+  "sequence": 8,
   "session": "Astra-ISP-b2a9acde-20261120",
-  "createdUtc": "2026-11-20 11:44:04 UTC",
-  "task": "Original general unit2+2 exact integer verification of rational coefficient multipliers; all exceptional candidates",
+  "createdUtc": "2026-11-20 11:52:20 UTC",
+  "task": "Independent original unit22 boundary identities; whole unit31 zero-base identities; V0 degree6 matched-Bell positive certificate attempt",
   "sourcePaths": [
-    "topics/invariant-subspace-problem/notes/2026-11-20-essential-four-unit-two-plus-two-general-isolated-zero-verify.py"
+    "topics/invariant-subspace-problem/notes/2026-11-20-essential-four-unit-two-plus-two-boundaries-verify.py",
+    "topics/invariant-subspace-problem/notes/2026-11-20-essential-four-unit-three-plus-one-zero-base-pairing-verify.py",
+    "topics/invariant-subspace-problem/notes/2026-11-20-r150-vzero-degree-six-matched-bell-certificate-b2a9.py"
   ],
-  "sourceSHA256": "6980790e4381c06db175625d76314b2e611ec4164941c02abab54b488055b50d",
+  "sourceSHA256": {
+    "topics/invariant-subspace-problem/notes/2026-11-20-essential-four-unit-two-plus-two-boundaries-verify.py": "a2f39931923d3f1fc4f42f8372f0b0f3b566ce70bf205c22ae7bbc8cdae2cb24",
+    "topics/invariant-subspace-problem/notes/2026-11-20-essential-four-unit-three-plus-one-zero-base-pairing-verify.py": "136eb4d472d668da73e33d360bddf29b5b0cbd9869fd217ef52e266e4a49708f",
+    "topics/invariant-subspace-problem/notes/2026-11-20-r150-vzero-degree-six-matched-bell-certificate-b2a9.py": "baa36d716e7f15b2a6ba7f3739cebdf3f5e6d98b9f4e305bf1a2c9716125ff54"
+  },
   "dependencies": {
+    "python": "3.12.14",
     "sympy": "1.13.3",
     "mpmath": "1.3.0",
-    "pythonFlint": "0.9.0",
-    "python": "3.12.14"
+    "pythonFlint": "0.9.0"
   },
   "parameters": {
-    "timeoutSeconds": 240,
-    "field": "QQ",
-    "degreeBound": 24,
-    "coefficientRows": 325,
-    "sourceColumns": 322,
-    "modularSelectionOnly": 10007,
-    "selectedSquareSize": 294,
-    "finalValidation": "all325 coefficient equations over ZZ after exact rational solve"
+    "jobs": [
+      {
+        "label": "unit22_boundaries",
+        "timeoutSeconds": 60,
+        "args": []
+      },
+      {
+        "label": "unit31_zero_base",
+        "timeoutSeconds": 90,
+        "args": []
+      },
+      {
+        "label": "vzero_degree6",
+        "timeoutSeconds": 210,
+        "args": [
+          "--wall-seconds",
+          "180",
+          "--memory-mib",
+          "1024"
+        ]
+      }
+    ],
+    "concurrentJobs": 3,
+    "vzeroField": "QQ[d]/original cubic",
+    "vzeroMatrix": [
+      462,
+      267
+    ],
+    "vzeroPositiveGate": "All462 rows of each of three rational coefficient targets verified; a modular miss makes no nonmembership claim"
   },
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
   },
   "maximumJobMinutes": 8,
-  "computedArraysToBeSaved": false,
-  "previousRunId": 44729708187,
-  "previousFailure": "All325 exact QQ coefficient equations passed; the displayed sig=-1 candidate expected matrix had D=(1-t)/2 instead of the original D=-(1+t)/2. Correct this entry and check all original equations again."
+  "computedArraysToBeSaved": false
 }

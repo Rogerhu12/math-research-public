@@ -48,14 +48,40 @@ jobs:
           print('ISP_PULL_RECEIPT '+json.dumps(receipt,sort_keys=True),flush=True)
           if not receipt['rulesUnchanged']: raise SystemExit('README changed; root must read and follow the exact differences')
           PY
-          git show "$ISP_PIN:topics/invariant-subspace-problem/notes/2026-11-20-essential-four-unit-two-plus-two-general-isolated-zero-verify.py" > "$RUNNER_TEMP/isp-r150-general-two-plus-two.py"
+          git show "$ISP_PIN:topics/invariant-subspace-problem/notes/2026-11-20-essential-four-unit-two-plus-two-boundaries-verify.py" > "$RUNNER_TEMP/isp-unit22_boundaries.py"
+          git show "$ISP_PIN:topics/invariant-subspace-problem/notes/2026-11-20-essential-four-unit-three-plus-one-zero-base-pairing-verify.py" > "$RUNNER_TEMP/isp-unit31_zero_base.py"
+          git show "$ISP_PIN:topics/invariant-subspace-problem/notes/2026-11-20-r150-vzero-degree-six-matched-bell-certificate-b2a9.py" > "$RUNNER_TEMP/isp-vzero_degree6.py"
           python -m venv "$RUNNER_TEMP/isp-r150-short-venv"
           "$RUNNER_TEMP/isp-r150-short-venv/bin/python" -m pip install --quiet sympy==1.13.3 mpmath==1.3.0 python-flint==0.9.0
-          python - <<'PY'
-          import hashlib,os
-          p=os.path.join(os.environ['RUNNER_TEMP'],'isp-r150-general-two-plus-two.py')
-          h=hashlib.sha256(open(p,'rb').read()).hexdigest()
-          assert h=='6980790e4381c06db175625d76314b2e611ec4164941c02abab54b488055b50d'
-          print('ISP_SOURCE_SHA256 '+h,flush=True)
+          "$RUNNER_TEMP/isp-r150-short-venv/bin/python" - <<'PY'
+          import concurrent.futures,hashlib,json,os,subprocess,sys,time
+          from pathlib import Path
+          root=Path(os.environ['RUNNER_TEMP'])
+          jobs=[{"label":"unit22_boundaries","file":"isp-unit22_boundaries.py","source_sha256":"a2f39931923d3f1fc4f42f8372f0b0f3b566ce70bf205c22ae7bbc8cdae2cb24","seconds":60,"args":[]},{"label":"unit31_zero_base","file":"isp-unit31_zero_base.py","source_sha256":"136eb4d472d668da73e33d360bddf29b5b0cbd9869fd217ef52e266e4a49708f","seconds":90,"args":[]},{"label":"vzero_degree6","file":"isp-vzero_degree6.py","source_sha256":"baa36d716e7f15b2a6ba7f3739cebdf3f5e6d98b9f4e305bf1a2c9716125ff54","seconds":210,"args":["--wall-seconds","180","--memory-mib","1024"]}]
+          for j in jobs:
+              source=root/j['file']
+              assert hashlib.sha256(source.read_bytes()).hexdigest()==j['source_sha256']
+              compile(source.read_text(),str(source),'exec')
+          def execute(j):
+              begin=time.monotonic()
+              output=root/(j['label']+'.stdout.txt')
+              try:
+                  run=subprocess.run([sys.executable,str(root/j['file']),*j['args']],stdout=subprocess.PIPE,stderr=subprocess.STDOUT,timeout=j['seconds'])
+                  data=run.stdout
+                  code=run.returncode
+              except subprocess.TimeoutExpired as e:
+                  data=e.stdout or b''
+                  code=124
+              output.write_bytes(data)
+              info={'label':j['label'],'source_sha256':j['source_sha256'],'exit_code':code,'elapsed_seconds':time.monotonic()-begin,'stdout_bytes':len(data),'stdout_sha256':hashlib.sha256(data).hexdigest()}
+              return info,data
+          failed=False
+          with concurrent.futures.ThreadPoolExecutor(max_workers=3) as pool:
+              for future in concurrent.futures.as_completed([pool.submit(execute,j) for j in jobs]):
+                  info,data=future.result()
+                  print('ISP_EXACT_BEGIN '+info['label'],flush=True)
+                  print(data[:60000].decode('utf8',errors='replace'),end='',flush=True)
+                  print('ISP_EXACT_RESULT '+json.dumps(info,sort_keys=True),flush=True)
+                  failed=failed or info['exit_code']!=0
+          if failed: raise SystemExit(1)
           PY
-          timeout 240s "$RUNNER_TEMP/isp-r150-short-venv/bin/python" "$RUNNER_TEMP/isp-r150-general-two-plus-two.py"

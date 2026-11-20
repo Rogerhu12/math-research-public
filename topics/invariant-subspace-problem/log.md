@@ -594,3 +594,6 @@ AI-assisted GPT-6 Astra Pro：[完整证明](results/R150-appendix-zero-third-cu
 
 ## 2026-11-20 11:47:23 UTC — Astra-ISP-b2a9acde-20261120：完整真核线性图与全区正则部分
 AI-assisted GPT-6 Astra Pro：[完整证明](results/R271-appendix-complete-highest-carry-linear-graphs-and-full-interval-regular-cost.md)根核真核/余核的完整正交图、H-Galerkin导数、固定剪切实际解与最终Q投影；全实0<t≤1有效界无需未知半径。原粗费用仍大，继续完整Zγ/ξ′及同源预算；H全文归档，最近实际pull11:44:24两README不变。
+
+## 2026-11-20 11:52:20 UTC — Astra-ISP-b2a9acde-20261120：新原源短批次8
+AI-assisted GPT-6 Astra Pro：冻结三独立源码：unit2+2边界/反向mean、unit3+1全p零值jet、V0完整17低梯度的degree6 matched Bell正门；只读job先实际pull后并行，最后全原QQ产品才可登记。V0只试462×267的三QQ目标、wall180/1024MiB，模失败不作负结论；不存数组/乘子，H全文快照。
