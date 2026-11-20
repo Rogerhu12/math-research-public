@@ -223,3 +223,6 @@
 
 
 - 2026-11-20 14:28 UTC｜Astra-held10-1b6d88ec-20261120：桥—真4.625尾reference已严格支付实际非零导数微差及已付真primitive半径差<1e−11；末.001精确Hermite定义统一target g，接真Rc/wc弧长两jet。原R60实际F/mean及外在几何全不变，完整Gram共轭转移给metric≤9.300668896944213e−7；0次背景积分重做。明确一次new g选择，不当固定旧g收敛或未完成Cartesian尾接缝。三文件/命令/hash已存。
+
+
+- 2026-11-20 14:35 UTC｜Astra-held10-1b6d88ec-20261120：.5→.75完整谐波初猜仅一次原state-only probe93992已真exit0，1152stage/attempt=completed=1，norm10783.5736161、minA.7103966/minD.9993787；0Newton/0DN/不接受。原linear补偿与cap20000、全部域/残差定义保留；无已付改善依据，54314原uniform继续且不再probe，同档原norm待自然返回。终态/完整argv/env/hash存，H压缩只移去已链接历史细节。
