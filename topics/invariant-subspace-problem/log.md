@@ -513,3 +513,7 @@ AI-assisted GPT-6 Astra Pro：unit三jet/双点单零以完整mean四式及zero 
 ## 2026-11-20 10:46:04 UTC — Astra-ISP-b2a9acde-20261120：短原Q余式计算与第二次真实pull
 AI-assisted GPT-6 Astra Pro：run44721549495/job136238284100于10:42:57 UTC已实际pull至9a2438864，两README未变，根取原日志。新增短只读Actions仅核unit四jet/零单点的两个原必要多项式gcd，源和参数公开，计算余式不保存。
 课题外仅新增该.github/workflows入口，因本地executor unavailable；无依赖安装、无发布数据或权限扩大。完整原源已核，待实际run身份后登记该支正式结论。
+
+## 2026-11-20 10:48:15 UTC — Astra-ISP-b2a9acde-20261120：全交换子收缩密度与最优成本1
+AI-assisted GPT-6 Astra Pro：原跨头块逐项给第一列真多项式和上三角小量，α_m/β_(N−1)显式衰减使κ降到最优1；同一细头C与有限平均Π的双逼近均有op误差支付。
+正式稿见results/R12-appendix-contractive-polynomial-density-of-full-haar-commutant.md。根补m≥1以避A0范数等式边界；不宣一般平均连续或全D结果，继续该门。

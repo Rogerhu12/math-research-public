@@ -6,7 +6,7 @@
 
 - **普通复可分无限维Hilbert ISP未完成。** 只有全体有界算子的存在定理或完整反例才收尾；子问题完成继续open，不以阶段或时限停止。
 - **最近成功实际pull与已读规则提交：** 9a2438864d44ac440b4ac822c02ccf3092fcbd5f，2026-11-20 10:42:57 UTC，Actions run44721549495/job136238284100；真实git pull --rebase成功，两README未变，原日志已核。下一实际pull不得迟于11:42 UTC。
-- **最近API同步及规则核对：** `a3688de542a743dfe9278af3a6857c11246353a6`（2026-11-20 10:46:10 UTC）；两README blob均未变。API快照不冒称实际git pull，另记真实执行回执。
+- **最近API同步及规则核对：** `8ddeddf9d4db2683aae525a7e9d470a2160392c7`（2026-11-20 10:48:20 UTC）；两README blob均未变。API快照不冒称实际git pull，另记真实执行回执。
 - 根README blob282e86b03385d3b6245ce7100ae2e2af7b103c2d、课题4d6570e9cf346431ab781a1290076a6321aaaa00已全文读。每次pull比两README，只读新diff并立即遵守；至少每小时及发布前同步，SHA写H。
 - 仅授权Rogerhu12/math-research-public。root独占main/H/open/results/log和发布，代理只交proof blob；每条结论单独提交推送，非快进立即更新/rebase重试成功，不force。用户PAT仅CLI环境，不进文件/config/日志。
 - 根规则15：可重算数组/数据/证书不进Git、Release或新工件；仅源码、参数、运行身份/SHA及正式证明。MD/API UTF8<100KB、H≤10000B、open尽量≤30KB、topic≤200MB、log每条≤5行、数学美元符及AI署名，不写根LOG。
@@ -43,4 +43,4 @@ M=kerT、N=closure BM；N=M未证。保same-w/u、全部partial、真intersectio
 - 有限头B⊗I属D_A恰下三角，最优c为至多2N原端点矩阵范数最大值；核心收缩SOT稠密但无统一c。[硬/全复软copy](results/R12-appendix-soft-copying-fixed-ball-fifth-order-cost-barrier.md)固定非零球需Σlogc≥c₀n⁵−O(n²)，原幂仅四次，全部相位/适应/有界放大不救；一般来源仍开。
 - [负幂域/等距共轭](results/R12-appendix-deddens-negative-domains-and-isometric-conjugation.md)：同一c保全部RanA^k和负幂，Φ=AXA⁻¹、Ψ互逆保c；实际u_n=Φ⁻ⁿ(R_n)u_(n−1)。∩A^kM稠密但未付源增长。
 - [有限平均/无损多项式](results/R12-appendix-finite-conjugation-average-and-lossless-polynomial-head-cost.md)：有限Φ周期N给准确Π多项式，c(p(A_m))夹逼‖p(A)‖，逆Fejér准确提升成本inf=‖p(A)‖，平均不自动保一般输入。
-- **[全交换子统一成本头逼近](results/R12-appendix-commutant-uniform-cost-head-approximation-and-average-interpolation.md)已闭。** 原R88给κ=(1+ρ)³/(1−ρ)，ρ<3e⁻⁷⁷⁰；所有X∈{A}'有真有限下三角C_l，c(C_l)≤κ‖X‖，C_l与ΠC_l同SOT趋X且‖C_l−ΠC_l‖→0。保同一任意有限输入族，未宣κ=1或全D同结论。继续一般来源与尾误差精化，不制造被已证结果排除的统一localizing/非零紧交换子。
+- **[全交换子的最优成本与收缩多项式逼近](results/R12-appendix-contractive-polynomial-density-of-full-haar-commutant.md)已闭。** 原块身份给p_m(A)与压缩头之op差≤ε_m‖X‖，ε_m=(N+(1−α0)⁻²)α_m/β_(N−1)→0；规范后真多项式逐项范数≤‖X‖且SOT趋X。再取同一个细头，c(C_m)≤‖X‖、C_m与ΠC_m同强趋X且op差趋零。已将先前κ改进到最优1；全D成本与任意平均连续性另核。

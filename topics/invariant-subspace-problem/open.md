@@ -124,3 +124,5 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 **[rankH4长度2单零且单位长度3全等向的子支已空](results/R150-appendix-essential-four-double-zero-rank-four-isotropic-active-branch-is-empty.md)。** 完整原mean给U_i∈{0,2d0}与半权子集，highest及真Gram秩排所有cross列；最后以W±两个三点根集互斥排支撑重合矛盾。只闭K_active=0，未假设一般单位补因子全等向；正文保准确非单位mean接口供其余支路继续。
 
 **[unit三重点与长度2单零的rankH4支路已空](results/R150-appendix-essential-four-unit-three-jet-double-zero-rank-four-branch-is-empty.md)。** 全mean给四条精确关系，zero base上的原highest/N加真Gram秩排z=0与非零两支；后者仅两二次因子且逐一矛盾。至此divisor3+2的两种rankH4缺陷放置全闭，长度2单零仅余unit补因子2+1与三个约化点；isolated zero其它支及rankH5继续。
+
+**[原全部交换子的最优收缩多项式/有限头逼近已闭](results/R12-appendix-contractive-polynomial-density-of-full-haar-commutant.md)。** 直接从原A=J_N⊗I+e0,N−1⊗B_m的精确块关系，压缩上三角和多项式截断误差≤ε_m‖X‖且ε_m→0；真多项式单位球SOT稠密于{A}'单位球。由无损细头，双逼近C_m/ΠC_m的统一c最优恰‖X‖。先前κ>1门现关闭；不假一般平均连续，不产生紧交换子或统一localizing。

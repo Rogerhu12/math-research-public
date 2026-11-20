@@ -340,3 +340,5 @@
 - **R150 长度2单零rankH4的等向单位补支为空（2026-11-20，已证明）：** [原完整mean、cross列及W±支撑排除](results/R150-appendix-essential-four-double-zero-rank-four-isotropic-active-branch-is-empty.md)只在K_active=0假设下，精确半权子集分类与highest/Gram秩关闭所有分支；P±无共同根以原有理余式直接证明。保全部∞和非单位L，不把受限等向子支扩大成整个长度2单零问题。
 
 - **R150 单位三jet与双点单零的rankH4为空（2026-11-20，已证明）：** [全mean四式与原最高/第二梯度排除](results/R150-appendix-essential-four-unit-three-jet-double-zero-rank-four-branch-is-empty.md)精确推导N_a及double附加项全含R，分z=0/nonzero关闭全部Gram；非零支两二次因子均与原N/mean矛盾。无CAS或有限域提升，含∞；divisor3+2全部rankH4放置关闭。
+
+- **原完整交换子的收缩多项式密度与最优头成本（2026-11-20，已证明）：** [原跨头块、第一列多项式及显式误差](results/R12-appendix-contractive-polynomial-density-of-full-haar-commutant.md)用α_m/β_(2^m−1)≤exp(−90·16^m/7)控制真实上三角与截断，给{A}'单位球=原多项式单位球SOT闭包；同一细头及Π均强趋X、op差趋零，统一c≤‖X‖最优。加强此前R88/κ界，不将一般平均自动连续化。
