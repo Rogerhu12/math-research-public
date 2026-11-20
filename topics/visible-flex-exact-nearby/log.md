@@ -121,3 +121,7 @@ positive独审worker/gen/contract/YAML全部通过：空index仍push、非FF即�
 ## 2026-11-20：真实高逆五源首次实际完成
 
 44736533396/1已成5完整目标/5球、155panel/4650闭行/4801交集。centre collar/body≈9.52957241293/240.474633106，full差≈2.72995666634e−5/4.64792301712e−4，ΔBLH raw≈1.84954461253e−5。root逐71当前bytes/SHA/blob、37字段/25门/5球、21原恢复整对象、全old参数/scope/四README空diff核；actual49719B/e7766bc9、exec54316B/2feec091、child108.07822201699999s/0。只5源率，不冒新组合H_B已算；GH/low/旧L/atoms/50图均0调用，所有实际反馈/physical97+96/finiteρ/ports/rhs不变。结果冻结，后继仅新组合消费。
+
+## 2026-11-20：完整物理预算实际完成及false门
+
+44737045152/1全4651闭格、16当前/9原件/22字段root核；科学15024B/1259c368、执行14233B/999555ea、child3.597906945999995s/0。实际根4球Z/Zθ/P/Pθ显示约4.94e−8/7.23e−6/2.92e−8/4.83e−6，单调majorant也控全正区；Γ≈1.1839/AΘ≈2.4946。完整逐factor负阶乘子粗放大，aEE/aEB/aBB约1.37e8/3.02e8/1.67e8；诊断C*=0的3充分门均false，非奇异。5pull/4完整README空diff、全部旧对象/接口/mean保留，0旧science/新数组；成功冻结。root与global已独核精确Hessian×inverse先复合新公式，将另立新预算，旧X传播不重做。

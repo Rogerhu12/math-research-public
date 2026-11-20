@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R138实际物理预算及false吸收门](results/R138-supplement-actual-physical-budget-and-false-absorption.md)：44737045152/1全4651闭格，16当前/9原件已核；根Z/Zθ/P/Pθ上界显示约4.94e−8/7.23e−6/2.92e−8/4.83e−6，亦控全正区。完整因子链aEE/aEB/aBB约1.37e8/3.02e8/1.67e8，body-only三门均false；成功冻结，不推奇异。更强精确复合估计是独立新目标，旧传播不重做。
+
 - [R141实际五项真实高源费用](results/R141-supplement-actual-five-GH-source-fees.md)：44736533396/1整155panel/4650闭行，centre H1/3 collar/body约9.5295724/240.4746331，族差约2.7299567e−5/4.6479230e−4，ΔBLH raw约1.8495446e−5。71当前/21原件、37字段/25门/5球全核冻结；原高图/L/GH action均不重算，实际返回门仍待。
 
 - [R138完整物理残差乘子预算](results/R138-supplement-complete-physical-residual-multiplier-budget.md)：density duality只付C0 Jacobian给负阶输运和根H转换，完整Hessian先消1/a并保mean；旧全角R/T加准确repair差，物理曲率首分量抵消与Z/Zθ/P/Pθ无指数传播均已证。16当前/9原件、320bits的scalar-only新消费者首次启动；实际体预算/根型及最终三门尚待。
