@@ -1,65 +1,34 @@
 {
-  "id": "held10-material-audit-and-true-dn-01",
-  "read_rules_commit": "a4f89c80f0f0b7e5db0f2fb4520b0c3abe8a9861",
-  "script": "topics/visible-flex-held-10pct/scripts/resume_m3/audit_and_correct_projected_seed.py",
+  "id": "held10-material-tail-start-and-m12-transfer-01",
+  "read_rules_commit": "3085402d766e1129c594e6954110ef7617da6b86",
+  "script": "topics/visible-flex-held-10pct/scripts/resume_m3/inspect_tail_start_and_transfer.py",
   "args": [
     "--repo",
     "@REPO@",
     "--workdir",
     "@WORK@",
-    "--prefix-dir",
-    "@WORK@/material-lam002-linear",
-    "--core-config",
-    "@REPO@/topics/visible-flex-held-10pct/scripts/resume_m3/material_support_lam002.json"
+    "--source-run",
+    "@WORK@/material-lam002-linear/run.json",
+    "--modes",
+    "12",
+    "--outdir",
+    "@WORK@/material-lam002-m12-transfer"
   ],
   "diagnostics": [
     {
-      "path": "@WORK@/material-field-followup.json",
+      "path": "@WORK@/material-tail-startup-inspection.json",
       "keys": [
         "status",
-        "error",
-        "stages",
-        "physical_sha256"
+        "diagnostics"
       ]
     },
     {
-      "path": "@WORK@/material-lam002-relative-metric.json",
-      "keys": [
-        "status",
-        "error",
-        "diagnostics",
-        "result",
-        "physical_sha256"
-      ]
-    },
-    {
-      "path": "@WORK@/material-lam002-full-residual.json",
+      "path": "@WORK@/material-lam002-m12-transfer/transfer.json",
       "keys": [
         "status",
         "error",
         "diagnostics",
-        "physical_sha256"
-      ]
-    },
-    {
-      "path": "@WORK@/material-corrector-summary.json",
-      "keys": [
-        "status",
-        "error",
-        "stages"
-      ]
-    },
-    {
-      "path": "@WORK@/corrector-actual-00/run.json",
-      "keys": [
-        "solver_success",
-        "error",
-        "raw_return",
-        "prefix_audit",
-        "domain_newton_stats",
-        "domain_error_counts",
-        "actual_outer_checks",
-        "tail_seam"
+        "result"
       ]
     }
   ]

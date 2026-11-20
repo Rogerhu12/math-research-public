@@ -270,3 +270,6 @@ main按预期父提交ebe11c6…作非force原子发布；与已读199b901…比
 
 
 - 2026-11-20 11:19 UTC｜Astra-held10-1b6d88ec-20261120：同runner实际λ.02场再次BVP收敛605点/两全步/0拒，完整旧metric2.3928678464e−5仍未门；raw/physical保留并登记hash，不重解释为新结论。新并行入口实际发两项同场只读审计（mean512固定）和原trueDN corrector，后者只把失败metric场作初猜且λ不前进；原三程序/最终门不改。H压缩旧历史并保精确commit链接，open同步真实状态。
+
+
+- 2026-11-20 11:25 UTC｜Astra-held10-1b6d88ec-20261120：两项同场审计真exit0，N1024 operator2.1302182e−5；R2.26536e−4、径向仅2.96e−8、高ψ26—50壳主导，固定mean差2.44e−15。固定当前Y的径向导数替换只能改节点metric<6e−8。trueDN未获ready首行即失败，尚非数学尾失败；现读实际日志并做M12完整lift/真实port传递，原最终门不改。

@@ -6,7 +6,7 @@
 
 连通闭C²嵌入连续族；固定有内点H、diamH≥.2D，整像δhold≥.1D且含反射δE>0；全时reach≥.03D。同一个完整g/全部物理参数/时间范围下，完整metric≤1e−6，空间/频率/时间精化继续下降至求解或机器地板；实际闭合与C²接口均要付清。完成后继续增大比例。
 
-- 部分克隆工作树 /workspace/scratch/1b6d88ecddf3/math-research-public。已读规则提交：`548911f2e91898220a9bd4117706ad9fc3e24d86`；11:19 UTC本地真实pull --rebase至该提交，双README无变。每次pull检查双README差异，至少每小时一次；API比较不冒充pull。
+- 部分克隆工作树 /workspace/scratch/1b6d88ecddf3/math-research-public。已读规则提交：`48c60892801e0f9af413bd36e20b4656daa2d1a5`；11:26 UTC本地真实pull --rebase至该提交，双README无变。每次pull检查双README差异，至少每小时一次；API比较不冒充pull。
 - 本地09:49 UTC断连，11:06恢复；m3有效场仍保存在公开Actions同runner。root独占git提交/推送；每条结论同步H/log并推，NFF立即pull --rebase/核README后再推，禁force。令牌只在命令行。
 - 根§12优先实际求解，不重做身份核查/双审；§15可再生场、网格、矩阵不入Git/Release/CI artifacts。只存源、参数、命令/hash及紧凑标量。H<10KB、单MD<100KB、目录<200MB，不写根LOG。
 - 历史细节在[原接手H](https://github.com/Rogerhu12/math-research-public/blob/9288f266d1f242b594d70a714e20340fcb876023/topics/visible-flex-held-10pct/HANDOFF.md)及[本次完整H到a4f89c](https://github.com/Rogerhu12/math-research-public/blob/a4f89c80f0f0b7e5db0f2fb4520b0c3abe8a9861/topics/visible-flex-held-10pct/HANDOFF.md)；压缩摘要不撤销旧结论/失败。
@@ -18,7 +18,8 @@
 1. H1+高7原linearDN首q=.006再生曾失败：4675点/RMS1.17371293e−6，raw仍在height-path-00-q0.0060000。原式重算证4096区间h≈1.27e−8；Hermite RMS/midpoint吻合sqrt(8/15)，STATS为18calls/10accept/14no_step/334merit拒/0域拒。不反推最终call类别或已证舍入底。
 2. 原全场415点重采样后，原门暖解真过579点/RMS9.94740287e−7/metric2.52233051e−9，5全步/0拒。随后q=.012/.02/.03/.04/.05/.06六步全过；末605点/RMS9.98498814e−7/metric3.45348341e−8。完整q060 raw在height-warm-resume01-05-q0.0600000/inner-00.npz。H1仍是初始化，首原DN欠约−4.19982e−6、全部非线性DN欠。见[暖解/停滞](notes/2026-11-20-m3-q006-rms-hermite-defect-and-warm-remesh.md)、[六步小记录](notes/2026-11-20-q060-warm-amplitude-return.json)。
 3. **λ=.02全原linearDN已再次实际收敛并保场**：material-lam002-linear/，605点、RMS9.99095868e−7、两全步/0域或merit拒；旧metric_l1=2.3928678464e−5未门。raw SHA2a6f97324986437e2f065bf29e98d55b48e43cf19a3bb9fc321fad7b27d197a4；physical SHA c54e932618ef7c0f9f16df4e3f2a016983922eba2fb9deb0d64306bcdec04dff。必要再生不是新物理结论，见[本次返回](notes/2026-11-20-live-material-lambda002-return.json)。
-4. **当前命令 held10-material-audit-and-true-dn-01**：对同physical场并行执行冻结mean512的relative operator审计、完整R/Rθ壳诊断，以及独立原trueDN corrector。失败metric场仅作为校正初猜、λ不前进、最后原BVP/BC/trueDN/metric门不放。结果依次在material-lam002-relative-metric.json、material-lam002-full-residual.json、material-corrector-summary.json及corrector-actual-00/run.json；总进度material-field-followup.json。各结论只用实际返回，不能预记成功。
+4. **同场两审计已实际exit0**：operator N512/1024峰2.1279782e−5/2.1302182e−5，R=2.26536e−4，径向缺陷仅2.96e−8；ψ26—50壳主导，mean差2.44e−15。当前场径向导数替换只能改节点metric<6e−8，转扩大未知场表示。trueDN在ready首行之前启动失败，0实际尾响应/验收尚待日志确认，不能判数学不收敛。见[实际审计](notes/2026-11-20-material-actual-audits-and-tail-start.md)。
+5. **当前held10-material-tail-start-and-m12-transfer-01**：只读corrector启动日志及实际输出hash，并从同λ.02场准备M12完整lift和真实12模linear port；输出material-tail-startup-inspection.json及material-lam002-m12-transfer/transfer.json。后续必须读result.port/initial再求解，不能补零或把传递初猜当接受。
 
 旧44718341266已结束，其7步H1和λ.02成功/metric失败仍是真事实，场已失；本次live不是旧进程续跑。[第二返回](notes/2026-11-20-public-material-second-return.md)。λ.02原512点FFT-l1给节点operator必要下界1.057508e−6；不是纯上界保守造成超门，但不是外向/真实g证书，见[离散下界](notes/2026-11-20-material-lambda002-discrete-metric-lower-bound.md)。
 
