@@ -6,7 +6,7 @@
 
 连通闭C²嵌入连续族；固定有内点H、diamH≥.2D，整像δhold≥.1D且含反射δE>0；全时reach≥.03D。同一个完整g/全部物理参数/时间范围下，完整metric≤1e−6，空间/频率/时间精化继续下降至求解或机器地板；实际闭合与C²接口均要付清。完成后继续增大比例。
 
-- 部分克隆工作树 /workspace/scratch/1b6d88ecddf3/math-research-public。已读规则提交：`48c60892801e0f9af413bd36e20b4656daa2d1a5`；11:26 UTC本地真实pull --rebase至该提交，双README无变。每次pull检查双README差异，至少每小时一次；API比较不冒充pull。
+- 部分克隆工作树 /workspace/scratch/1b6d88ecddf3/math-research-public。已读规则提交：`2748ec8d9ead74e5ea510e2e72715d22ed003222`；11:28 UTC本地真实pull --rebase至该提交，双README无变。每次pull检查双README差异，至少每小时一次；API比较不冒充pull。
 - 本地09:49 UTC断连，11:06恢复；m3有效场仍保存在公开Actions同runner。root独占git提交/推送；每条结论同步H/log并推，NFF立即pull --rebase/核README后再推，禁force。令牌只在命令行。
 - 根§12优先实际求解，不重做身份核查/双审；§15可再生场、网格、矩阵不入Git/Release/CI artifacts。只存源、参数、命令/hash及紧凑标量。H<10KB、单MD<100KB、目录<200MB，不写根LOG。
 - 历史细节在[原接手H](https://github.com/Rogerhu12/math-research-public/blob/9288f266d1f242b594d70a714e20340fcb876023/topics/visible-flex-held-10pct/HANDOFF.md)及[本次完整H到a4f89c](https://github.com/Rogerhu12/math-research-public/blob/a4f89c80f0f0b7e5db0f2fb4520b0c3abe8a9861/topics/visible-flex-held-10pct/HANDOFF.md)；压缩摘要不撤销旧结论/失败。
@@ -26,7 +26,7 @@
 ## 新几何与数值路线
 
 - **R52—54均为条件设计**。R52材料κ核精确周长/凸闭合/圆弧；R53从原真实核圆化保均值/全部参数jets，四接口已实际过，非BVP存在。旧tau0盒C0/C1/C2步长<(.01936,.016,.16683)λ；λ.02新控制越旧盒，已补严格扩大盒覆盖并保κ≥.2，旧5.2二导预算不移用。[传递与新盒](notes/2026-11-20-m3-lifted-mode-transfer-and-expanded-core-box.md)。
-- R54 S=.5/b=.2/k=.2、H材料宽.54/相位.45，H径>.53973756，柱长仅0<ℓ≤.01。若全图D0≤2.64及完整曲率/支撑/标记付清，则n3 held>.111439D、n4>.132023D。当前计算仍S=.21，不能搬宽窗数值。**原短ramp在终低κ圆弧的reach风险正单独证明，新多段缓ramp另设物理g，不把旧g假称达标。**
+- R54 S=.5/b=.2/k=.2、H材料宽.54/相位.45，H径>.53973756，柱长仅0<ℓ≤.01。若全图D0≤2.64及完整曲率/支撑/标记付清，则n3 held>.111439D、n4>.132023D。当前计算仍S=.21，不能搬宽窗数值。**R55已证原短ramp的经典C³准确圆片K>26、reach/D<.02**，非所有C²或λ.02排除。新多段首段在κ<12.5时耗尽S=.5保护窗；δ∈[.06,.063]首cycle严格|X|<1.32，50个精确Bernstein盒已真过。新g真实线性共振尚在校准，旧盒不外推；[R55](results/R55-flat-ramp-reach-obstruction-and-soft-start.md)。
 - 完整lift升M必须补aχ(Inew−Iold)，系数1而非材料λ.02；高维真实linearDN需实际导出，禁止只补零。prepare_lifted_mode_restart.py已备，等待实际谱判断。升M后若δ/c仍自由，只是设计延拓，不是完成标准#5。
 - 全部固定参数场接口FrozenPhysicalField已备未执行：只改场、入口消元、保全部真实DN；兼容债η=rT−CA⁻¹rE，不能偷放q/c/mean。[固定接口](notes/2026-11-20-n4-fixed-physical-field-refinement.md)。
 - 完整Frenet残差界已证：∂s(G/a²)=2Fθ·Rθ/a²，保实际G/完整mean/moving convection。C²直接T·Rθ只需混合jet；当前DFT/梯形均为诊断。严格连续界/新profile常数仍待支付。[残差定理](notes/2026-11-20-n4-full-frenet-residual-metric-bound.md)、[同场壳入口](notes/2026-11-20-n4-readonly-full-residual-shell-entry.md)。
@@ -41,6 +41,6 @@
 
 ## 结果索引和剩余验收
 
-[R1—R54](results.md)。R28/29/31实际低幅闭C²有限族全时metric<1e−6、D≤2.301491469394、reach≥.1、H径比>.69794、δE>0，但held/D仅>.005462656；32→64尾metric降12.66倍、二阶层差.00629485，不证C²极限。R36/37/39真积分转移的旧5.940838571e−9余项只用于其同对象，不搬到新核/新g。R1—51旧条件/障碍均按原限定，详见索引及历史H。
+[R1—R55](results.md)。R28/29/31实际低幅闭C²有限族全时metric<1e−6、D≤2.301491469394、reach≥.1、H径比>.69794、δE>0，但held/D仅>.005462656；32→64尾metric降12.66倍、二阶层差.00629485，不证C²极限。R36/37/39真积分转移的旧5.940838571e−9余项只用于其同对象，不搬到新核/新g。R1—51旧条件/障碍均按原限定，详见索引及历史H。
 
 接实际operator/残差/trueDN返回，决定高M或新缓ramp的最小改变，再解真正圆弧到完整尾/圆领/帽。必须继续核共同Cartesian两jet、同g全时误差下降、完整D/曲率/支撑/reach和全O(3)非全等；这些都尚未完成。不在阶段报告或条件窗停止。

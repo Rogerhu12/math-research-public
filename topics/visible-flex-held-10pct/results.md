@@ -91,3 +91,5 @@
 ## R54. 横向圆弧握持片与任意短中央柱的条件窗口
 
 [完整证明](results/R54-transverse-held-arc-and-short-cylinder-window.md)。材料半宽.5、曲率.2的圆弧上取宽.54的二维H，水平弦即给H径>.53973756；相位.45的完整扫窗留.005余量。因此中央柱可短至≤.01，在真实完整D≤2.65等前提下三重held/D>.111439、四重>.132023，原两ramp的保护窗在v=.19<k前已耗尽。完整曲面、全时reach、真实标记和固定参数精化仍须实际支付；未改当前S=.21计算设计。
+
+- [R55：原短ramp的必要reach障碍与低曲率首段](results/R55-flat-ramp-reach-obstruction-and-soft-start.md)。已证明：R5经典C³前提下k=.2接原m3/n4短ramp必有局部K>26，排除reach/D≥.03；给新多段低曲率首段和δ∈[.06,.063]首完整cycle全角|X|<1.32的精确Bernstein证书。非所有C²解排除，非完整新BVP/闭族。
