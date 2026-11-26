@@ -5,7 +5,7 @@
 ## 主目标、规则与执行
 
 - **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍仅全体有界算子的存在定理或完整反例；子结果不作完成。
-- **最近实际 pull / 已读规则提交：** `1ade375dc714200c75fe3aa1f2685c64aaf5c9da`（2026-11-26 07:35:18 UTC）。本次两README无新规则差异；已读根/课题README、H/open、结果索引及定点log/notes。每次pull及至少每小时比diff，记录SHA。
+- **最近实际 pull / 已读规则提交：** `ace3b5c04a2d1d6246c80914887bea26827aa509`（2026-11-26 07:38:43 UTC）。本次两README无新规则差异；已读根/课题README、H/open、结果索引及定点log/notes。每次pull及至少每小时比diff，记录SHA。
 - 私库 `QUEUE.md` 已成功更新认领，提交 `e776df496eedfa449b0475cefe140fdae7023db4`；非快进已逐次pull --rebase后重推成功。研究在公开仓库，私库仅维护QUEUE；不force，令牌仅CLI环境。
 - 工作树 `/tmp/isp-347c05929dd3/math-research-public`；root独占git/索引，代理独占TMP；每结论单推，仅存源/参数/身份/SHA。
 - 完整交接链见[最新压缩前H](notes/2026-11-26-handoff-before-opposite-regular-curves-347c.md)及其旧归档。MD<100KB、H<10KB、open尽量<30KB、topic<200MB；不写根LOG。
@@ -21,8 +21,8 @@
 - **外均值ess4：** Cat(y)=3、dimW4、y∉W，原length5保同L/ν/全jets。rankH3全闭；rankH4 proper单零长度2–5、孤立零点加unit4/2+2均闭，所有边界及∞见索引。
 - **[unit3+1孤立零点全空](results/R150-appendix-essential-four-unit-three-plus-one-isolated-zero-rank-four-branch-is-empty.md)：** 全边界与一般QQ395/1142结式闭合。rankH4孤立零点仅余unit211和unit1⁴；rankH5、V非零inner及ess5/6仍开。
 - **[unit211零配对/零基点mean全空](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-zero-base-mean-exclusion.md)：** p=q0、恰一零、pq≠0且bp+cq0均闭；QQ879/1020/1637与全部奇异/除因子纤维已付。余pq(bp+cq)≠0。
-- **[unit211相等非零配对整个分支已空](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-equal-base-pairings-complete-exclusion.md)：** q1全部l/t闭合；新k=4βt/l消元，原S/Λ0的QQ结式只余5l²−4l+1，72×80/秩70原乘子身份迫k0矛盾。自含新源19.744046秒/exit0；旧边界不重跑。只续q≠0,1及非零基点mean。
-- **[unit211相反配对六异常曲线全空](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-opposite-base-pairings-regular-exceptional-curves-exclusion.md)：** 已闭b=c、l0/½及D1D2=0；新v/w/v+w/B/G±六曲线全付，原QQ93/145与67/146，末纤维落原D1/D2零。源92.272577秒/exit0。余真正一般图有限候选，正在加原范数。
+- **[unit211相等非零配对整个分支已空](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-equal-base-pairings-complete-exclusion.md)：** q1全部l/t闭合；新k=4βt/l消元，原S/Λ0的QQ结式只余5l²−4l+1，72×80/秩70原乘子身份迫k0矛盾。自含新源19.744046秒/exit0；旧边界不重跑。一般只续q≠0,±1及非零基点mean。
+- **[unit211相反配对整个分支已空](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-opposite-base-pairings-exclusion.md)：** 原trace与单点范数差给QQ359/838/1011结式gcd仅w90(w+1)4(w²+2w−1)2，末纤维逼已闭v0/lhalf。源49.017732秒/exit0；全部前置奇异/六曲线已闭。只余一般q≠0,±1、b+cq≠0。
 - **[非零rankV1全临界层](results/R150-appendix-rank-one-third-cumulant-complete-critical-classification.md)：** 恰y=a u、H=(a³+4c)u²/(6a)、V=c u³，ac≠0，T3零；全除子/∞已闭，潜在非零Bell只余rankV≥2和ess≥4。
 - **rankV2既闭：** 全部y∈RanV只余两原子与0/2/−6/∞值均值二jet的T3零族；任意y且rankH≤1又迫ess≤3、matched Bell零。完整原梯度/∞证据保[结果索引](results.md)和前H；潜在非零Bell只余y∉RanV、rankH≥2、ess≥4。
 - **[rankV2高本质维的均值支撑等式](results/R150-appendix-rank-two-third-cumulant-outside-range-mean-essential-support-equality.md)：** y∉RanV且essT3≥4时，y∈essT3且essT3=span(y,RanH,RanV)。纯原张量缩并，不预设共同物理除子；这层属于inner-ess路线，不能套外ess长度5排除。

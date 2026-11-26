@@ -197,3 +197,5 @@ $$
 实际执行为 Python 3.12.14、SymPy 1.14.0 下运行 `python 2026-11-26-unit211-opposite-half-total-weight-347c.py`，无需 FLINT；exit 0，程序计时 1.939650 秒，峰值 RSS 50416 KiB。源码 SHA256 为 `b4aafd09dde79b792e80d591226791b52a368be77f948bdd5fd4c0b3015f3fef`；小执行记录由主交接统一登记。
 
 排除仅使用原完整临界性必需满足的条件；没有以这些条件反向制造真实临界点，没有改变物理配对或舍弃原 jet。全程未选有限点仿射坐标，因此同一原 divisor/jet 模型中允许的无穷远情形亦在这个参数排除内。本条关闭 $p=1,q=-1,b+c=1/2$ 的非零基点 mean 分支；一般 $q=-1,b+c\ne1/2$ 以及其他非零基点 mean 分支仍须继续研究。
+
+**后续完整闭合（2026-11-26）：** 本条保持原已证明范围，余下相反配对一般图已由[完整相反配对专条](R150-appendix-essential-four-unit-two-plus-one-plus-one-opposite-base-pairings-exclusion.md)关闭；整个 $p=-q\ne0$ 不再是待做分支。

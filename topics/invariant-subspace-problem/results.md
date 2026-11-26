@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R150 单位2+1+1相反非零基点配对整个分支为空（2026-11-26，已证明）：** [原trace、单点共同范数差与完整QQ消元](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-opposite-base-pairings-exclusion.md)在保全部边界后给359/838/1011次二轮结式，gcd仅w^90(w+1)^4(w²+2w−1)²；w−1迫已闭v0，二次纤维返回原M/S/c0迫已闭lhalf。自含原二次代数源49.017732秒/exit0，未选平方根或放松jet，整个p=−q≠0闭合；一般q≠0,±1继续。
+
 - **R150 单位2+1+1相反配对一般mean图的六异常曲线全空（2026-11-26，已证明）：** [原Cramer式、全部非零因子及商环除法](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-opposite-base-pairings-regular-exceptional-curves-exclusion.md)排v/w/v+w/B/G±；唯一抽象零t候选用原五维Gram秩二矛盾，三次曲线QQ93/145和67/146保全部四次/二次纤维，最终原D1或D2的平方归零。原源92.272577秒/exit0；继续真实非异常一般图，未以边界排除宣全支完成。
 
 - **R150 秩二H与V的本质五维层只余有限双约化Gaussian规范（2026-11-26，必要归约已证明）：** [完整原mean/H梯度/最高值及五阶Gram](results/R150-appendix-rank-two-second-and-third-cumulants-essential-five-reduced-gaussian-normal-form.md)排除g0和全部Hp非零；剩Hp0、F²+g²0，经所有单位根规范后C=−A、D=−B、AB=−Fg/2、2e³=−F³，Gram行列式2F²e(F−e)(2F−e)非零。F1后常数有限；原物理五次极线的二/三次完整身份仍未排空，不声称临界点存在或本层全空。

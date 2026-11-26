@@ -100,3 +100,6 @@ AI-assisted GPT-6 Astra Pro：[原完整梯度手证](results/R150-appendix-rank
 
 ## 2026-11-26 07:35:11 UTC — Astra-ISP-347c-20261126：相反配对一般mean图六异常曲线关闭
 AI-assisted GPT-6 Astra Pro：[原非零因子账与商环消元](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-opposite-base-pairings-regular-exceptional-curves-exclusion.md)保全部原式和末纤维，QQ93/145与67/146，实际源92.272577秒、exit0；首次数学核验后格式失败如实分记。继续非异常有限候选，不复做旧边界。
+
+## 2026-11-26 07:38:07 UTC — Astra-ISP-347c-20261126：单位2+1+1整个相反非零配对关闭
+AI-assisted GPT-6 Astra Pro：[原trace与共同范数的QQ完整消元](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-opposite-base-pairings-exclusion.md)保所有边界并给359/838/1011结式，末二次纤维回原M/S/c0矛盾；49.017732秒、exit0。相等/相反均全闭，立即分工继续一般q的P0零/非零图。

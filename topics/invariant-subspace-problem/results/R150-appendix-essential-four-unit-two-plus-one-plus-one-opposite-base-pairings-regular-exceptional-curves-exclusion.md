@@ -223,3 +223,5 @@ $$
 实际执行为 `PYTHONPATH=/tmp/isp-347c05929dd3/deps python 2026-11-26-unit211-opposite-regular-exceptional-curves-347c.py`，exit 0，程序计时 92.272577 秒，峰值 RSS 152380 KiB；源码 SHA256 为 `d7f3a0603557f177408150060c8fdec24b35a0bd4a3fa9a50ef2ed999f48177e`。首次全部数学核验通过后，仅最终 JSON 输出因 FLINT 整数序列化报错；只增加整数序列化支持后按上述字节完整复核通过。源码没有重跑已登记的 $\ell=0,1/2$ 或奇异 mean 面，只引用这些完整结论作为本图边界。
 
 本条唯一使用物理几何排除的是第 2.2 节明确恢复的秩二 Gram；其他各支直接与原必要方程或已知非零分母矛盾。没有改变物理配对、丢掉原 jets、从必要范数条件反推充分性，或把几何排除当作全局幂恒等式。一般图 (5.4) 中剩余的有限候选仍须继续用完整原方程消除。
+
+**后续完整闭合（2026-11-26）：** 本条保持原已证明范围，余下相反配对一般图已由[完整相反配对专条](R150-appendix-essential-four-unit-two-plus-one-plus-one-opposite-base-pairings-exclusion.md)关闭；整个 $p=-q\ne0$ 不再是待做分支。

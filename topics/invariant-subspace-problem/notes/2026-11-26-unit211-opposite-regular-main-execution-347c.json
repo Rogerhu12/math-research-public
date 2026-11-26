@@ -1,0 +1,41 @@
+{
+  "elapsedSeconds": 49.017732,
+  "finalFibers": [
+    "w=-1 forces v=0",
+    "w^2+2*w-1=0 forces v=1 then l=1/2"
+  ],
+  "gcdFactors": [
+    [
+      "w",
+      90
+    ],
+    [
+      "w+1",
+      4
+    ],
+    [
+      "w^2+2*w-1",
+      2
+    ]
+  ],
+  "ordinaryISPClaim": false,
+  "peakRssKiB": 101092,
+  "schema": "r150-unit211-opposite-regular-main-exclusion-20261126-v1",
+  "scope": "remaining q=-1 regular mean chart; with cited complete boundaries, the entire opposite-base-pairing unit211 branch is empty",
+  "secondResultantDegrees": [
+    359,
+    838,
+    1011
+  ],
+  "sourceSha256": "8d35129c88d20fe7476b82b309e1858a38d78a93f0a14aab51c2a2e338c54657",
+  "status": "all_exact_QQ_checks_pass",
+  "exitCode": 0,
+  "executionCommand": "PYTHONPATH=/tmp/isp-347c05929dd3/deps python 2026-11-26-unit211-opposite-regular-main-exclusion-347c.py",
+  "pythonVersion": "3.12.14",
+  "sympyVersion": "1.14.0",
+  "pythonFlintVersion": "0.9.0",
+  "executionOwner": "Astra-ISP-347c-20261126 / unit31_general",
+  "stdoutSha256": "559a6a7661cce189f27b7a1de9370648b9c0821d0dd0a19de6471678d9480711",
+  "rootReview": "Read complete original Frobenius reconstruction, formal quadratic algebra, trace/norm derivation, nonzero factor ledger and both original final fibers. No repeated execution.",
+  "storedArrays": false
+}

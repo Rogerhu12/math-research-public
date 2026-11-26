@@ -181,3 +181,5 @@ $$
 第一源实际 exit 0，程序计时 2.553077 秒，峰值 RSS 66876 KiB；源码 SHA256 为 `80a126c3661fd5f41ded25ab73e542de0d34bda0ae49ab4765e018ca7cabf2cd`。第二源实际 exit 0，程序计时 4.203470 秒，峰值 RSS 65216 KiB；源码 SHA256 为 `01b974c3281c3436286a5aab8b81c6418e8473d6b28d5929168348b95d4ffcc2`。两源均用 `PYTHONPATH=/tmp/isp-347c05929dd3/deps python 源文件.py` 执行，不重跑已登记的 $\ell=0,1/2$ 排除。
 
 本条保留同一原最高式、mean、第二梯度及物理 jets 的必要条件，没有把抽象范数条件当作充分条件，也没有把此图的空性当成全局幂的来源。它完整支付相反配对下 Cramer 图的全部奇异除数，允许继续研究 $D_1D_2\ne0$ 的真正一般图。
+
+**后续完整闭合（2026-11-26）：** 本条保持原已证明范围，余下相反配对一般图已由[完整相反配对专条](R150-appendix-essential-four-unit-two-plus-one-plus-one-opposite-base-pairings-exclusion.md)关闭；整个 $p=-q\ne0$ 不再是待做分支。

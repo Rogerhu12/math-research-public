@@ -111,3 +111,5 @@ $$
 实际执行命令为 `python 2026-11-26-unit211-opposite-zero-total-weight-347c.py`，exit 0，程序计时 0.883975 秒，峰值 RSS 50152 KiB。源码 SHA256 为 `6981238d8926e9053f54de013f96b09e44d8fe527ae5e98be9b755f48e1571de`。小执行记录由主交接统一登记。
 
 本条在同一原代数参数范围直接排除必要方程，无须替换物理配对、放松 jet 或假定某个原范数非零。它包含该模型允许的无穷远支撑，不据此宣称剩余相反配对权、一般非零基点 mean 或整个 ISP 已解决。
+
+**后续完整闭合（2026-11-26）：** 本条保持原已证明范围，余下相反配对一般图已由[完整相反配对专条](R150-appendix-essential-four-unit-two-plus-one-plus-one-opposite-base-pairings-exclusion.md)关闭；整个 $p=-q\ne0$ 不再是待做分支。

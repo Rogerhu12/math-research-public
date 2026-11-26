@@ -149,3 +149,5 @@ $c\ne1/2$ 和 $c=1/2$ 穷尽全部允许 $c\ne0$；没有删除 $a=0$、零 $P_i
 配套[自含 QQ 源](../notes/2026-11-26-unit-two-plus-one-plus-one-opposite-zero-mean-347c.py)直接重建原 Frobenius 运算及 $E,P,N$，验证一般权下的恒等式 (1.3)、所有参数化、所有边界值和最后两个纤维；仅依赖 SymPy 1.14.0。实际执行元数据与源码 SHA256 见[小记录](../notes/2026-11-26-unit-two-plus-one-plus-one-opposite-zero-mean-execution-347c.json)。源内计时0.734565秒、峰值49524 KiB、exit0；源码SHA256为 `46abaa66e5947384e99d149668b6f2a99c84c030583b4fa8be12877eeaf287cd`。最初一次运行只在因式形式与展开形式的结构相等断言处失败；将其改为精确有理差为零后，完整源全部通过，数学定义和目标等式未改动。
 
 本条仍是原有限临界分支的排除，未给出全局 Bell 幂来源，也未宣称已解决 Hilbert 不变子空间问题。下一剩余范围包括 $p=1,q\ne0,1$ 的其余零基点 mean 图和非零基点 mean 图。
+
+**后续完整闭合（2026-11-26）：** 本条保持原已证明范围，余下相反配对一般图已由[完整相反配对专条](R150-appendix-essential-four-unit-two-plus-one-plus-one-opposite-base-pairings-exclusion.md)关闭；整个 $p=-q\ne0$ 不再是待做分支。
