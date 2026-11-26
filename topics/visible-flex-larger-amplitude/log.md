@@ -134,3 +134,8 @@
 ### 2026-11-26 17:41:22 UTC — 当前交接容量与完整历史
 
 当前HANDOFF压为活跃依赖索引，完整前文固定于d02fe6f0e32f837225228f0fa98c5b5f131db258；保两实际CI块、全部结论/失败/未返边界的精确notes链接与执行规矩。没有删除科学源/参数/结论，未科学计算；研究仍未完成。
+
+
+### 2026-11-26 17:42:15 UTC — 新实际reference的完整固定Q输入合同
+
+刊出完整22763-byte ea94cff11a975b44a6f91d46d3d08423ce386225b6eb8154bfb3f834706c9e39纯绑定器及[全部合同](notes/2026-11-26-new-reference-literal-Q-complete-input-binding.md)。Root逐段读完整源/说明，实际AST/compile通过；两代理另核7f/4e字段。新输入schema独立保十八字参数与当前base/reference/profile/chart/初点十字段，旧05dc strict guard不改。来源路径/时长造成新SHA不证明新数学g、不免同目标永久点；尚无Actions执行或新科学结果。
