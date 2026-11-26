@@ -364,3 +364,5 @@
 - [R598 三旋转与宽十八完整块母](results/R598-three-rotations-wide-eighteen-block-mother.md)：**已证明**特殊不交profile在R586转置后的同点两一次槽只需三旋转即可保完整QQ/LLQ和全部历史；三组六正节点含Radau端点，0…10矩准确相同且实际间距>319/30000。微半宽1/12000、全块collar1/3000与(2w)^(1/4)幅明确，真高导/空间宽度预算保留；新母不继承旧χ/状态/数值根，首微宽收益不冒完整正势改善。
 
 - [R599 单调高度平帽背景的全reach充分证书](results/R599-monotone-height-flat-cap-global-reach.md)：**已证明**完整侧面单值a(z)≥rc≥τ、上下平帽C²及连续子午曲率≤1/τ给全部法向τ切圆避开正负侧/上下帽/帽内源点，故完整reach≥τ。允许a_s变号，未把局部曲率直接当reach；原实际背景的全尾正图/半径/连续曲率仍待付，非圆q不沿用此证书。
+
+- [R582有限非圆首原终态](notes/2026-11-26-r582-finite-resonant-first-original-receipt.md)：run45824332845付70.621876255科学秒，160段960944RHS、core/backward及62878端点共同Hermite完成；细Model商法因冗余H求积报错。无START/几何/Jac/优化，不能称无科学启动或数学障碍；下一仅取实际解析radius三jets，必要重建已识别内场另付全成本。
