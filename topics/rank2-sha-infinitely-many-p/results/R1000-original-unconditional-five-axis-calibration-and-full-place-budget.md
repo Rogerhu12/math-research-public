@@ -237,7 +237,7 @@ $$
 
 $$
 \boxed{Q_F=\mathcal E^{-1}\Delta_F
-=\frac F{q_F}-\frac17\sum_{r=1}^5c_{F,r}H_r}
+=\frac F{q_F}-\frac{1}{7}\sum_{r=1}^5c_{F,r}H_r}
 \tag{22}
 $$
 

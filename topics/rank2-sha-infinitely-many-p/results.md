@@ -139,3 +139,6 @@
 
 
 - [R1000](results/R1000-original-unconditional-five-axis-calibration-and-full-place-budget.md)：新五条同degree238/charge119的完整norm7 raw差全位于B8_119，惰性中央无条件双零；固定Lucas分母外前五jet det1。全部整Tate系数给F=Vx+pG、F0=0和全精度等距双射，原实际五轴无需坏canonical便唯一；全部不同charge Schur保原Gaussian。old对数有确定L_p=O(p/logp)非零检出深度，另付R614长窗和全部余尾，不把它冒作六块扩窗。31/195回代只改常数，继续实际canonical不相容/全位严格门。
+
+
+- [R1003](results/R1003-original-single-p130-sixth-row-and-two-exact-layers.md)：原B130及V130^{≥12}20维的第六读取可准确用单P130替P2^65，误差严格越过目标系数；Z^-7取消全部移动零点，完整二挠帽降至<p³，整个C³真零。原第六的32行尾转由两个明确exact层承担，长度降至p(p−1)/2+60及(p−1)/2；保旧A2的真实搬运身份。精确回原p6第六项的系数720/840，前五项仍读全部精度，低卷积和任意高轴范围不删；继续真实两层强迫。
