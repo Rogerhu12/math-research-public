@@ -163,3 +163,6 @@ AI-assisted GPT-6 Astra Pro：冻结u1缩放有限覆盖、H2+1零Hp的w∞完�
 
 ## 2026-11-26 09:51:08 UTC — Astra-ISP-347c-20261126：单位211零孤立点mean整支关闭
 AI-assisted GPT-6 Astra Pro：[完整有限纤维与原QQ交点证明](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-nonzero-base-highest-zero-isolated-mean-exclusion.md)最后独立run45789670184全过，2876/2736 gcd=(u+2)21u228(u−1)459且全根已付；1443.281305秒/297956KiB/exit0，源码和小回执固定。已逐式复核全文并合并此前全部奇异/低配对/P0零分支；继续非零m，不将此子层结论作普通ISP完成。
+
+## 2026-11-26 09:53:51 UTC — Astra-ISP-347c-20261126：真实二阶孔矩的公共方差选择
+AI-assisted GPT-6 Astra Pro：[原正能量与Γ_y接合](results/R271-appendix-critical-second-hole-moment-and-common-log-variance-selection.md)逐层核Γ=32^N、同J1来源及全部母窗，得带log方差积分≤50和每窗单一s_L的N²h趋零。纯手证已逐式审完；保留全s端点/全J/F0及真实指数清除的未付范围，继续同来源返回。

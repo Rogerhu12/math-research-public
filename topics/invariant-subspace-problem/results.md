@@ -213,3 +213,5 @@
 - **R271 同一原J1残量的近二阶真实孔矩及公共方差积分（2026-11-26，已证明）：** [位置交换子、完整carry和截权相对形式](results/R271-appendix-position-number-pullthrough-and-nearly-quadratic-physical-residual-moments.md)给全部1<p<2的N^p图范数收敛，并提高到N²/log^θ(N+c)、任意θ>1/2。真实log方差平方积分付一次s供所有前缀共用；保原未加权inverse，不假未知伴随域。θ1/2、指数清除、全J/F0仍开。
 
 - **R150 单位211的整个零孤立点均值分支关闭（2026-11-26，已证明）：** [原有限纤维覆盖、完整QQ交点及物理Gram秩返回](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-nonzero-base-highest-zero-isolated-mean-exclusion.md)支付两图所有系数退化、低曲线和孤立交点；高曲线结式671/629与2876/2736的共同因子只落已付u0/1/−2。run45789670184的0374自含源1443.281305秒/RSS297956KiB/exit0。与旧奇异面、低配对及P0零层合并，零m整支闭合，非零m继续。
+
+- **R271 原J1同源残量的真实二阶公共方差端点（2026-11-26，已证明）：** [立方位置能量与移动远孔指数权](results/R271-appendix-critical-second-hole-moment-and-common-log-variance-selection.md)保原未加权inverse及全部carry，得N²h_s点态谱量界和带log方差平方积分≤50；每个[e⁻²ᴸ,e⁻ᴸ]一次选s_L使真实二阶矩趋零，全部前缀共用。m/d/y及最高零头母窗均支付；未声称全s二阶收敛或完整J/F0、指数右逆费用。

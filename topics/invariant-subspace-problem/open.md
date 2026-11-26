@@ -108,6 +108,8 @@ $$
 
 **[同一J1源的真实孔矩](results/R271-appendix-actual-number-defect-and-uniform-first-moment-of-the-same-residual.md)及[近二阶位置权](results/R271-appendix-position-number-pullthrough-and-nearly-quadratic-physical-residual-moments.md)：** a_s=(I+T*T/s)⁻¹f1、h_s=Ta_s保原forcing。原B≤64e⁻¹⁰⁷⁰给N图范数趋零；位置权给全部1<p<2及N²/log^θ(N+c)图范数趋零（θ>1/2）。截权相对形式保全部Cayley/闭域，log方差平方积分付一次公共s，全部旧前缀共用。θ1/2、指数孔权、全J/F0以及同源物理右逆费用仍未付。
 
+**[真实二阶公共方差端点](results/R271-appendix-critical-second-hole-moment-and-common-log-variance-selection.md)：** 原a_s/h_s保持J1同forcing；真实立方位置权与Γ_y=32^N≥y、y=ceil(2^40/s)接合，得N²h_s≤3√s+4√L_s‖h_s‖/√s及带log方差积分≤50。每个趋零log窗一次选s_L，使真实N²h_sL→0并控制全部前缀；完整母窗和最高零头改基已付。仅沿此公共选择，不宣全s二阶极限；全J、真F0与指数清除仍开。
+
 ### 2.2 仍需接合的原返回接口
 
 - 旧 $\tau14$ 下全高度同w Bessel/能量、一次物理MP及共同log方差均已付；后继 $CD^\dagger$、核外第二逆和真正完整最小源仍开。一次界不自动反复适用，真核终式不保初始阻尼。
