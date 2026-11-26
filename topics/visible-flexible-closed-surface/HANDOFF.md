@@ -23,27 +23,27 @@
 
 **原M12同g完整h**：[首h实际](notes/2026-11-26-6a65-m12-actual-first-source-aligned-h-improvement.md)run45821092388，428元41846列，W6d328d4c…f00af；原297同点峰3.96742e−10、旧观察超集4.21683e−9。全时reach/D>.03105610、held/D>.05278322、含反射δE>0及三4471284B STL通过，原粗metric界4.870781e−6。[R236](results/R236-local-bernstein-angular-continuous-metric-budget.md)新局部界已在真实重生run45826114835/sourcef878ec7a全流程success，10.738s实际metric≤8.086781e−7 TRUE、同W；[R241](results/R241-actual-h428-continuous-metric-and-all-phase-geometry.md)完整实际应用已登记，仍非#5完成。R230完整原源C_X<4461.108不变。
 
-**第二热点h487请求rev5**：[完整入口](notes/2026-11-26-6a65-m12-two-hotspot-source-aligned-h.md)保旧66节点，加元176原节点17432..17490共59，487元47628列；全部两代G8含入新3896+16点，4631原查询，旧297准确点身份不变+新249点。完整11stage/同场STL/R236、90min预算、冻结源码及开始/每45min真实pull立即核双README；同一普通commit发布三个完整绑定scalar件。实际集合/本地NFF与规则变化/文件预算检查全0；真实run45833090043/sourcea060a8d1自13:50:41在跑，新场尚无退出。
+**第二热点h487请求rev5**：[完整入口](notes/2026-11-26-6a65-m12-two-hotspot-source-aligned-h.md)保全部旧节点/两代G8/旧297微窗，再加59源节点/249新微窗；487元47628列，完整11stage/同场STL/R236。90min预算、冻结源、每45min真实pull核双README，三件绑定scalar同commit发布。集合/Git规则变化/文件预算真核0；run45833090043/sourcea060a8d1自13:50:41在跑，14:20实际jobs仍in_progress，新场尚未返回。
 
 **原前缀历史**：[6400档](notes/2026-11-26-6a65-m12-prefix-radial-refinement-after-6400.md)stop7/峰4.64e−10非硬底；h160旧run发布cancelled、缺scalar，不补造数值。
 
 **强长run已结束**：[实际取消](notes/2026-11-26-6a65-solver-source003-job-cancelled-actual.md)：45778054176/job139766458381，13:38:36日志canceled。13次原Cauchy接受有效，末4c53afcd…207ce、R².1076995485/metric.263954/κ26.4014；rho仍变量。下游observer仅205857点进度，独立v2无退出/状态，不借结束raw。
 
-**cached v4已失败，v5另源准备**：45825253169/source64f20c32于13:34:59真实failure。首完整Cartesian/observer复现[旧cold首步](notes/2026-11-26-6a65-cartesian-cold-first-actual-acceptance.md)，state4a5d847e…8b4daa，不计新科学接受。pull成功后同文H marker重复使发布失败，无下一非零续步；根13:35去重，不借结束raw。[R239](results/R239-complete-cartesian-radial-block-preconditioning.md)的角通道精确主块保原λSobolev方程；[91列非零真核](notes/2026-11-26-6a65-solver-channel-blocks-actual-finite-check.md)exit0：精确块误差5.86e−16、同方程方向差1.67e−15、增广伴随1.42e−15，LSMR42/stop2；无非线性接受，7760列v5待启动。
+**cached v4已失败，v5另源准备**：[实际故障与真Git修复核](notes/2026-11-26-6a65-solver-cached-first-acceptance-marker-failure.md)：45825253169于13:34:59失败，首完整步/observer仅复现旧cold，不计新科学接受；pull后重复自己H marker使发布失败，无第二步，不借结束raw。新publisher只合并同文字节自己marker，真实NFF/README变化fixture0。[R239](results/R239-complete-cartesian-radial-block-preconditioning.md)保原λS方程；[91列非零真核](notes/2026-11-26-6a65-solver-channel-blocks-actual-finite-check.md)块误差5.86e−16、同方程方向差1.67e−15、伴随1.42e−15、LSMR42/stop2。7760列新v5待启动。
 
 **新gap固定g后段**：[旧完整链](notes/2026-11-26-6a65-geometry-gap-window-two-grid-seven-nine.md)为单组6、联合9实际接受；[J36/M24增广](notes/2026-11-26-6a65-geometry-gap-window-5292-column-refinement.md)再3步，共18。新[14行面积目标](notes/2026-11-26-6a65-geometry-gap-window-area-two-steps-and-external-stop.md)保全部13原行/固定g/5292列/两训练组，σ*=.5、strength1；非零FD2.79e−10、伴随5.73e−15。实际再2步α.5，共20，state f103e34f…82b30，R14²2.97189115=R13²2.97054664+面积.00134450；metric.994814/κ679.312/η.00513924/held.672105仍坏。第三次normal前批次外部−9，303.309s/RSS359360，原因未证，无第三保存态；[随后单步](notes/2026-11-26-6a65-geometry-gap-window-area-single-step-external-stop.md)同态重算基线后2.488s外部−9，无新normal/接受。累计仍20；无独立第三observer。[R240](results/R240-reciprocal-area-square-excludes-rank-loss.md)只在连续积分有限时排秩亏，有限样本不借证。η=σ²=|Xs×Xu|²/a²。固定区原完整成本1.6862e−8未扣；prefix metric6.865e−8仍须修或扩支撑。
 
 [R235](results/R235-reflected-third-jet-compatibility-and-exact-local-patch.md)付反射第三迹定理及node18551准确jump；当前C4不能恰消，但无sup硬底、不排C2细化。全Fourier C2补丁预算已付，未加CI场。
 
-[R237](results/R237-gap-window-continuous-angular-regularity.md)付own-zero准确短窗全角速>.4097及准确自然角逆两jet接口：同Γ95出口2048整数盒43.037s、整窗有理预算.211s真0。literal求积/舍入误差、后续W、二维浸入仍欠。
+[R237](results/R237-gap-window-continuous-angular-regularity.md)已付own-zero准确整窗角速>.4097、自然角逆完整两jets；2048整数盒及有理预算真0。literal误差、后续W和二维浸入未付。
 
-[R238](results/R238-nonorthogonal-spatial-port-length-bound.md)给非正交空间端口长度必要界；实际四轴有限代入未排新gap输入，长轴.755356<真实自由长S−b=.795674。仅准确g可借曲面曲率；不重复扣前缀.08。
+[R238](results/R238-nonorthogonal-spatial-port-length-bound.md)非正交空间端口必要长界：新gap长轴.755356<真实自由长.795674，未排输入。须准确g才能借曲面κ，不重复扣前缀.08。
 
 ## 环境与继续分工
 
 13:55执行环境明确unavailable，root新exec恢复45s失败；此前geometry只读见临时盘余59MB，外部-9原因未证，不称OOM或确定失盘。最后CLI普通push R240=ba8153c9成功。既推源码/小标量安全；未推小源码已逐字核hash建未引用blob保全，无raw上传。根仍唯一主分支写者。
 
-<!-- 6a65-root-api-rules --> 2026-11-26 14:18:28 UTC API只读核main 85f24ab1a6050470c9a72ed4931c5575e3bb35b3，双README blob未变；CLI停机，非force预期头发布，不冒literal pull。恢复后先真实pull并逐差核规矩。
+<!-- 6a65-root-api-rules --> 2026-11-26 14:19:40 UTC API只读核main d734196eaf62f5f58343e01a49175c0424655c1c，双README blob未变；CLI停机，非force预期头发布，不冒literal pull。恢复后先真实pull并逐差核规矩。
 
 外部h487继续；geometry保14行已保存20次接受及两次外部终止，准备同job准确输入重生；solver保91列完整预条件核，修重复H marker后准备新v5；exact接同g多层暖启动和频率提升。完成子问题接open下一项，不作阶段收尾。
 <!-- 6a65-ci-rules --> run 45778054176/1；实际 pull #183 至 `42d711248fdfcc164c1fa7c87770ab529ae24ca5`；2026-11-26T13:10:41+00:00；双 README 无差异，沿用根已读规则；回执原因 pre-process:Cauchy-original-then-Cartesian1-current-field。
