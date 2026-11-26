@@ -48,8 +48,8 @@
 [R711](results/R711-smooth-triangle-central-profile-and-geometric-comparison.md)/[R712](results/R712-full-positive-radius-central-second-derivative-comparison.md)准确十二片三角profile全0<r<1，scalar斜率32/31近最优；同准确初seed中央Fss低于旧一半，不迁K/reach或优化末场。[独立完整入口](notes/2026-11-26-R711-smooth-triangle-full-normal-entry.md)九执行/读取源+完整再生器已刊，192正权节点/实际(0,π)括号/原全normal与求解循环保；仅no_grad frame免无用高阶图，active全图不改。十历史ready仅准备，旧seed19及后来返回报告必须全入；未准入、未称新场。
 
 <!-- visible-larger-parallel-04:start -->
-并行公开Actions04：[run 45857104277/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45857104277)；[实际记录](notes/2026-11-26-public-actions-45857104277-1.md)。阶段`followup_waiting`/running；已返49，exit=未返。
-并行04规则核查：2026-11-26 21:40:03 UTC，真实pull至`d1fe0918d7d18b4358dbc699bdb710efb5094222`，双README无变化。
+并行公开Actions04：[run 45857104277/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45857104277)；[实际记录](notes/2026-11-26-public-actions-45857104277-1.md)。阶段`followup:complete-normalized-SO3-after48-original64-and-pure-single-admission-20261126-run04`/running；已返49，exit=未返。
+并行04规则核查：2026-11-26 21:49:59 UTC，真实pull至`7538bdab264ac3b2470e8d9c37143d0c70ef0ac6`，双README无变化。
 <!-- visible-larger-parallel-04:end -->
 
 <!-- visible-larger-parallel-05:start -->
