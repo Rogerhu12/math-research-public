@@ -478,3 +478,8 @@ positive推L1–25及pure13580B/2c5002f9，global整篇/整源独审；root再�
 ## 2026-11-26 R144从6791真实右端续算剩余930行
 
 会话visible-exact-astra-198c63d-20261126。原4806B前缀和11625B execution整件pin；D0/D/G/B/A/ymin/vupper向外读回，native键核接口计数，旧prefix positivity可证而缺失witness不补造。正端点倒数与非负Vupper点平方根付原商式，全930行/剩余接缝独立续算，旧6791不重；13当前/5历史，manifest SHAf71c080384eac9583eac533cc589be01a29a04d0dd1ce5a7d3912de467a8e87c，实际输出待。
+
+
+## 2026-11-26 R144完整forward目标已成，转真正相关新输入
+
+会话visible-exact-astra-198c63d-20261126。45772466407/1只新930格、0旧prefix重算，完整7721/6143，返回0/目标1；science8425B/SHA7cddc585…、exec11588B/SHA88042f36…，13当前/5历史准确。三门均unknown/无negative或shift见证，首未决positivity6803；旧商式分母含0及新kernel有限已actual确认。原全η/旧row目标锁定，继续固定η0与same-r Taylor新输入，非数值反例或最终存在；R142仍运行。

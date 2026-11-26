@@ -10,7 +10,9 @@
 
 ## 新增结论
 
-- [R144 forward 6791真续算合同](notes/2026-11-26-R144-forward-mean-retraction-resume6791-contract.md)：读原保存右端8个整球，只推进剩余930行，正端点单调倒数及Vupper平方根避免宽球商式indeterminate；原prefix positivity由已存lower证，旧witness缺失不补造，真实6143接口全部计入。13当前/5历史，独立公开入口已推，完整实际待。
+- [R144实际完整forward包围](results/R144-supplement-actual-forward-mean-enclosure-and-unresolved-gates.md)：45772466407/1只续930格后完整7721/6143、旧prefix重算0；positive/C0/外mean三门unknown，无严格违例，首positivity未决6803。已actual确认旧分母含0并合法修复，完整全η/旧row目标锁定；转固定η0的同r相关输入，非最终族。
+
+- [R144 forward 6791真续算合同](notes/2026-11-26-R144-forward-mean-retraction-resume6791-contract.md)：读原保存右端8个整球，只推进剩余930行，正端点单调倒数及Vupper平方根避免宽球商式indeterminate；原prefix positivity由已存lower证，旧witness缺失不补造，真实6143接口全部计入。13当前/5历史，实际45772466407/1已完整，三门unknown，详见最新actual。
 
 - [R149补篇：同点共轭缺陷与单标量整盒](results/R149-supplement-common-scalar-conjugated-defect-boxes.md)：先准确消相邻S，再以同一t的degree24 commutator Horner和完整几何尾包左右指数；155parent缓存不冻结真实varyingΔ，每cell节点及全signed true-h三角保留。纯provider已核，旧HS只读，新trace尚无实际值。
 
