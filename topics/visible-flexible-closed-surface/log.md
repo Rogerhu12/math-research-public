@@ -713,3 +713,5 @@ R208完整注入组e297410f：同3态由J30/K7/N64的932维插1/20、7/20、5/12
 - 2026-11-26 11:15 UTC｜Astra-visible-flex-6a65e705-20261126：[R227](results/R227-new-gap-first15-native-ramp-gram-certificate.md)对新gap实际保存全部768系数作准确实部配对、signed整数卷积、Bernstein及全高频尾预算；前15真实quintic格全域原生Gram谱误差<1.38e−7、面积>.40322802，35.285s实际exit0。原生目标包含椭圆角因子；末coast修复格/normalized完整链与曲率仍未付，继续下一项。
 
 - 2026-11-26 11:31 UTC｜Astra-visible-flex-6a65e705-20261126：6400同空间真实结果未降峰，API普通快进c5e6c354触发仅径向80→160的run45810358787，其他物理/频率/求积不变；补R221–R227已发表证明索引。11:20第三失联后11:28恢复，真实ls证旧/tmp丢失，11:29部分clone/pull至df25f421真0、双README未变；cold未推提交不冒运行，恢复源码并继续actual whole/Cauchy/Cartesian。
+
+- 2026-11-26 11:34 UTC｜Astra-visible-flex-6a65e705-20261126：[R228](results/R228-new-gap-first15-native-own-curvature.md)同R227实际全系数场的真单位法向与正交shape谱，96bit区间/960全域盒/0分裂证自身κ<9.866914；失盘前自然0/32.228s，源码恢复后SHA逐字一致，丢失报告不伪造。结果索引已同步；继续准确角primitive/normalized与末coast接合。

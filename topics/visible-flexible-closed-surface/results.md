@@ -5,6 +5,8 @@
 
 ## 新增结论
 
+- [R228：新gap前15单元的连续自身曲率](results/R228-new-gap-first15-native-own-curvature.md)：实际全部768系数、R227紧Gram与真实单位法向/正交shape谱区间给全域κ<9.866914，960完整闭盒/0分裂、32.228s真0；末coast修复格和normalized完整链另付，未冒whole reach。
+
 - [R227：新gap前15实际径向单元的连续原生Gram](results/R227-new-gap-first15-native-ramp-gram-certificate.md)：全768保存系数准确实部配对、整数卷积/Bernstein及全高频尾给谱相对误差<1.38e−7、面积>.40322802；末coast修复格、归一化链和曲率另付。
 
 - [R226：准确中央归一的M12参考及连续Cartesian预算](results/R226-m12-normalized-reference-and-continuous-cartesian-bounds.md)：原中央残差先准确相减、严格部分弧长及全两jet支付参考改动，metric<7.667e−8、reach/D>.03120330、held/D>.05278322及含反射δE>0；未知solver W须用自己的全域六jet界，不借参考证书。
