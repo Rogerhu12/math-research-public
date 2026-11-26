@@ -1,0 +1,311 @@
+{
+  "schema": "isp-original-labelled-L12-bounded-execution-v1",
+  "session": "Astra-ISP-347c-20261126",
+  "date_utc": "2026-11-26",
+  "repository": "Rogerhu12/math-research-public",
+  "source_commit": "f3eb4bac533921bfcaa11becb44d7e9e68cccc3e",
+  "run_id": 45831444045,
+  "job_id": 139948952361,
+  "workflow": "invariant-subspace-small-remaining-original-fibers-347c.yml",
+  "job_name": "H3-labelled-original-L12-highest-N-first",
+  "source_git_blob": "253173d7855a518466d78c4f96c6d5826067dab7",
+  "actual_outcome": "unresolved_after_900_second_true_characteristic_zero_lift",
+  "claim_unit_ideal": false,
+  "ordinary_isp_claim": false,
+  "field": "actual irreducible QQ[theta]/f12 = QQ(e,zeta12), e^3=-1/2",
+  "retained_scope": "finite H center c != 0,2, including c=-6; all physical source units explicitly retained",
+  "execution_receipt": {
+    "elapsed_seconds": 901.6181471650001,
+    "max_child_rss_kib": 2256952,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "76a81f3ad8430eabdcbcea2326f37cbe65ad4475",
+        "before": "f3eb4bac533921bfcaa11becb44d7e9e68cccc3e",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "fef43bdf8690f2eec4751d85784a266eacdd0322"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-26T13:40:57.916121+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "45831444045",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-347c-20261126",
+    "source_commit": "f3eb4bac533921bfcaa11becb44d7e9e68cccc3e",
+    "source_exit_code": 1,
+    "source_git_blob": "253173d7855a518466d78c4f96c6d5826067dab7",
+    "source_sha256": "fbb7e99d3a106861233a6fe7a45e38eb2d6ef62732654dcd1ace747b1a3befab",
+    "stdout_bytes": 6182,
+    "stdout_sha256": "5f2922f4fd5c082be7b3124dd96a55814f3158d7444af92ada706ca0a87fe3cd",
+    "stop_reason": null
+  },
+  "stages": [
+    {
+      "QQ_inverse_checks": 5,
+      "degree": 12,
+      "delta_representation_sha256": "084b5eb7cc430e06402d5ed265b32df1ee85b5e5ff35a7b22b8f85b4638e8d08",
+      "e_representation_sha256": "99e229e30e214e4a3a964885a3501841b4981617228e95b96ca93640b659408f",
+      "irreducible": true,
+      "monic_minpoly": "x^12 + (-3)*x^10 + 2*x^9 + 6*x^8 + (-11/2)*x^6 + (-21)*x^5 + 33/4*x^4 + 23/2*x^3 + 21/4*x^2 + 15/4*x + 25/16",
+      "omega_representation_sha256": "28206600f653066ec9dc0e356d16dd890f2bb50ae4e9d4d41a40dbdefc94898b",
+      "seconds": 0.03484843199998977,
+      "stage": "exact_original_constant_field_complete"
+    },
+    {
+      "degrees": [
+        0,
+        4,
+        3,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "integer_content_removed": 1,
+      "label": "original_H_zero_edge",
+      "seconds": 0.8241462009999907,
+      "sha256": "cb77e2708dcd69120219a57ce8428c653d3fb51daa4ecb91391eda3e320a34d7",
+      "stage": "labelled_original_equation",
+      "terms": 25
+    },
+    {
+      "degrees": [
+        0,
+        8,
+        5,
+        5,
+        5,
+        0,
+        0,
+        0,
+        0
+      ],
+      "integer_content_removed": 1,
+      "label": "original_cross_sum_u",
+      "seconds": 0.8269747969999912,
+      "sha256": "1853d95fbeeb55a5afd57bfae7a1fde35a10375f74b4673439f57b26302996a4",
+      "stage": "labelled_original_equation",
+      "terms": 478
+    },
+    {
+      "degrees": [
+        0,
+        8,
+        5,
+        5,
+        0,
+        5,
+        0,
+        0,
+        0
+      ],
+      "integer_content_removed": 1,
+      "label": "original_cross_sum_v",
+      "seconds": 0.8296736039999928,
+      "sha256": "6c688349448ef9b3abdc66f756fbffadad568604cea7be231b91b6387874c0cb",
+      "stage": "labelled_original_equation",
+      "terms": 478
+    },
+    {
+      "degrees": [
+        0,
+        8,
+        5,
+        0,
+        5,
+        5,
+        0,
+        2,
+        0
+      ],
+      "integer_content_removed": 1,
+      "label": "original_primitive_phase",
+      "seconds": 0.8332068580000112,
+      "sha256": "8c4d662d27cdec6848ff3b2d1d6f60dec4a578abc52fd1379246ef25c5327c67",
+      "stage": "labelled_original_equation",
+      "terms": 622
+    },
+    {
+      "degrees": [
+        0,
+        8,
+        5,
+        0,
+        5,
+        5,
+        0,
+        1,
+        1
+      ],
+      "integer_content_removed": 1,
+      "label": "original_delta_pairing",
+      "seconds": 0.8367103299999883,
+      "sha256": "864e3c9b9800be909eb467f14f5974876e910224ba156236f8807a53f26f18be",
+      "stage": "labelled_original_equation",
+      "terms": 622
+    },
+    {
+      "degrees": [
+        0,
+        12,
+        4,
+        5,
+        5,
+        5,
+        2,
+        0,
+        1
+      ],
+      "integer_content_removed": 1,
+      "label": "original_N_endpoint_a",
+      "seconds": 0.8781488520000096,
+      "sha256": "c5a407de166a65aa28ff22e38fa06c4dbbc138d7472c39e8dcdf1660417498af",
+      "stage": "labelled_original_equation",
+      "terms": 6712
+    },
+    {
+      "degrees": [
+        0,
+        12,
+        5,
+        4,
+        5,
+        5,
+        2,
+        0,
+        1
+      ],
+      "integer_content_removed": 1,
+      "label": "original_N_endpoint_b",
+      "seconds": 0.9181671039999912,
+      "sha256": "17bb89e9f4a821534fffcddca3f2e42a54f715caba4d7b224cb12cf310eac6a0",
+      "stage": "labelled_original_equation",
+      "terms": 6712
+    },
+    {
+      "degrees": [
+        0,
+        16,
+        4,
+        4,
+        4,
+        4,
+        0,
+        2,
+        1
+      ],
+      "integer_content_removed": 1,
+      "label": "original_N_central",
+      "seconds": 0.9681510259999868,
+      "sha256": "e1b37c03fe35f446944671a0a6ebd475fa8950847921af56311c2b909f0b92aa",
+      "stage": "labelled_original_equation",
+      "terms": 8500
+    },
+    {
+      "degrees": [
+        0,
+        12,
+        5,
+        5,
+        4,
+        5,
+        0,
+        0,
+        1
+      ],
+      "integer_content_removed": 1,
+      "label": "original_highest_first_u",
+      "seconds": 1.0005191109999885,
+      "sha256": "f13db01ea0c7b6a1435f329dbbec418d0c1866e7a0d824f9b395405f75bea7b9",
+      "stage": "labelled_original_equation",
+      "terms": 5498
+    },
+    {
+      "degrees": [
+        0,
+        12,
+        5,
+        5,
+        5,
+        4,
+        0,
+        0,
+        1
+      ],
+      "integer_content_removed": 1,
+      "label": "original_highest_first_v",
+      "seconds": 1.0325138979999906,
+      "sha256": "de64a714c886ce77b391f153645734c337891422c418601114c67d3962e05827",
+      "stage": "labelled_original_equation",
+      "terms": 5498
+    },
+    {
+      "degrees": [
+        1,
+        22,
+        4,
+        4,
+        8,
+        8,
+        0,
+        0,
+        0
+      ],
+      "integer_content_removed": 1,
+      "label": "only_original_physical_units",
+      "seconds": 1.1164978399999939,
+      "sha256": "51b3720594070a1de4da21edc8a2b426128583907456ab28c8083f2db98d8a2f",
+      "stage": "labelled_original_equation",
+      "terms": 13609
+    },
+    {
+      "center_minus_six_retained": true,
+      "extra_open_factors": [],
+      "field": "QQ(e,zeta12)",
+      "finite_exceptions_removed": [
+        0,
+        2
+      ],
+      "physical_unit": "c(c-2)(a-b)LA*LB*LU*LV*kV",
+      "physical_variables": [
+        "c",
+        "a",
+        "b",
+        "alpha",
+        "beta"
+      ],
+      "seconds": 1.1165833089999921,
+      "stage": "labelled_original_identities_complete"
+    },
+    {
+      "returncode": 0,
+      "seconds": 1.1231850899999927,
+      "stage": "singular_version",
+      "text": "Singular for x86_64-Linux version 4.4.1 (44105, 64 bit) Dec  6 2025 11:10:58"
+    },
+    {
+      "address_space_limit_bytes": 4294967296,
+      "bytes": 1212580,
+      "field": "actual irreducible QQ[theta]/f12",
+      "generators": 11,
+      "seconds": 1.1686780290000058,
+      "sha256": "fe8dc44bb28cbcf24282e053efd9f29467f424895790d8240c82d5406b7e7abf",
+      "stage": "singular_L12_input",
+      "wall_limit_seconds": 900
+    },
+    {
+      "limit_seconds": 900,
+      "outcome": "unresolved",
+      "seconds": 901.257928535,
+      "stage": "labelled_L12_bounded_timeout",
+      "stdout_sha256": "0f532e4ff80a098ad713360fbd6c323add16cbc54cecc6f16dc5fa0f7dc52139",
+      "text": "ISP_L12_FIELD_VERIFIED\nISP_L12_SMOKE_VERIFIED\nISP_BEGIN_LABELLED_ORIGINAL_L12_LIFT\n"
+    }
+  ],
+  "interpretation": "All original labelled equations, corrected highest first-derivative cross-k identities, number-field inverses, actual minpoly fieldcheck and tiny Singular lift smoke completed. The large original I*C=1 lift did not finish within 900 seconds. The final unit marker is absent. No physical exclusion follows. The withdrawn a2d draft was never executed and is not this source. This large gate must not be rerun without a changed mathematical input."
+}

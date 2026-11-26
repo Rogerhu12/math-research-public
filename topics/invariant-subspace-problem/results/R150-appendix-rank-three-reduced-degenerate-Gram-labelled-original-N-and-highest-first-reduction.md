@@ -4,7 +4,7 @@
 
 ## Status and purpose
 
-**Status: proved necessary reduction on the entire remaining finite-central chart; the new exact unit gate is running; no unit certificate has yet been obtained.** This replaces the large expanded trace input by individually labelled physical source points and the finite constant Gram field. It also retains the original highest first derivative at each V source. No new physical open set is introduced.
+**Status: proved necessary reduction on the entire remaining finite-central chart; the exact unit gate finished unresolved after its 900-second child limit; no unit certificate was obtained.** This replaces the large expanded trace input by individually labelled physical source points and the finite constant Gram field. It also retains the original highest first derivative at each V source. No new physical open set is introduced.
 
 The prior N-first input actually reached its 4 GiB bound without a unit certificate. That failure remains unresolved; it does not affect the exact original identities. The present source changes coordinates and equations instead of rerunning that input.
 
@@ -531,3 +531,8 @@ Until the present unit gate actually succeeds, this document proves only the exa
 
 
 The frozen source is [the labelled original source](../notes/2026-11-26-reduced-H3-labelled-original-L12-highest-N-first-347c.py), launched from f3eb4bac533921bfcaa11becb44d7e9e68cccc3e in Actions run 45831444045, job 139948952361. This is an execution identity, not a success receipt.
+
+
+### Actual bounded execution
+
+The source actually completed the exact degree-twelve field construction, all original kernel/N/highest identities and the lift smoke test. Singular then reached its 900-second limit without a unit certificate: source 901.257929 seconds, driver 901.618147165 seconds, peak child RSS 2256952 KiB, source exit1. The generated input was 1,212,580 bytes (SHA-256 fe8dc44bb28cbcf24282e053efd9f29467f424895790d8240c82d5406b7e7abf). Only field/smoke/begin-lift markers were returned; no I*C=1 marker occurred. The [actual small receipt](../notes/2026-11-26-reduced-H3-labelled-L12-unresolved-execution-347c.json) preserves the original pull/rule check and hashes. The necessary reduction remains proved; this computational gate remains unresolved and is not rerun.

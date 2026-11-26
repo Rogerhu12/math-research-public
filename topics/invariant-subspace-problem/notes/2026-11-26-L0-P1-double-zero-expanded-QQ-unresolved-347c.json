@@ -1,0 +1,66 @@
+{
+  "schema": "r150-L0-P1-double-zero-expanded-QQ-unresolved-v1",
+  "run": 45833153054,
+  "job": 139954905328,
+  "status": "unresolved: actual 4GiB bound; no unit identity",
+  "lastStages": [
+    {
+      "elapsedSeconds": 3.385151,
+      "returncode": 0,
+      "stage": "singular_version",
+      "text": "Singular for x86_64-Linux version 4.4.1 (44105, 64 bit) Dec  6 2025 11:10:58"
+    },
+    {
+      "addressSpaceLimitBytes": 4294967296,
+      "bytes": 1303944,
+      "claimExcluded": false,
+      "elapsedSeconds": 3.387915,
+      "field": "QQ",
+      "generators": 9,
+      "mode": "P1double",
+      "sha256": "b8678ddfc5283574364b5f0b36df3fe341c93351894d41a9ed6a129c70b4e6e4",
+      "stage": "singular_L0_small_original_input",
+      "wallLimitSeconds": 900
+    },
+    {
+      "claimExcluded": false,
+      "elapsedSeconds": 115.316614,
+      "identityVerified": false,
+      "mode": "P1double",
+      "returncode": 14,
+      "stage": "singular_L0_small_original_output",
+      "stdoutSha256": "01fde3a7f0e966e484f55c945377dc85368d614bc808d050f5b3930d8acc5543",
+      "text": "ISP_L0_SMALL_SMOKE_VERIFIED\nISP_BEGIN_L0_SMALL_ORIGINAL_TRUE_QQ_LIFT\n\nSingular error: no more memory\nSystem 4161728k:4200640k Appl 3623622k/365450k Malloc 3307089k/0k Valloc 681984k/365450k Pages 80675/89821 Regions 333:352 Internal: 43288\n\nhalt 14\n"
+    },
+    {
+      "elapsed_seconds": 115.38348742400001,
+      "max_child_rss_kib": 4174004,
+      "ordinary_isp_claim": false,
+      "rules_reads": [
+        {
+          "after": "f28e377f69168b22537e82f49a4993349c1fa919",
+          "before": "91fb0972f744ee62f1f95f72d4697e439b8df625",
+          "rules_git_blobs": {
+            "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+            "topics/invariant-subspace-problem/README.md": "fef43bdf8690f2eec4751d85784a266eacdd0322"
+          },
+          "rules_unchanged": true,
+          "utc": "2026-11-26T13:51:42.680875+00:00"
+        }
+      ],
+      "run_attempt": "1",
+      "run_id": "45833153054",
+      "schema": "isp-frozen-exact-actions-execution-v1",
+      "session": "Astra-ISP-347c-20261126",
+      "source_commit": "91fb0972f744ee62f1f95f72d4697e439b8df625",
+      "source_exit_code": 2,
+      "source_git_blob": "d2b0f84ab8f0457fa9afec1bf7125c1e550bd3cb",
+      "source_sha256": "8836ddc5c83f7375284b0dd052656662924bd41f967e8772f4023a952d798a00",
+      "stdout_bytes": 13056,
+      "stdout_sha256": "0728da430fa0b089ee69c15656a2c9af76ffdb7ee26fc5f4cd2761ba9c0e3f61",
+      "stop_reason": null
+    }
+  ],
+  "nextInput": "Use the original linear rho coefficient, retaining its entire leading-zero face, and complete univariate QQ projections; do not rerun the expanded ideal.",
+  "ordinaryISPClaim": false
+}

@@ -1,0 +1,74 @@
+{
+  "schema": "r150-unit211-S0-Lt0-theta-leading-zero-complete-original-exclusion-v1",
+  "run": 45833519962,
+  "job": 139956204644,
+  "conclusion": "success",
+  "finiteParameterPredecessorReceiptBlob": "70d604ec3936cb2dbdd3262d0f3ef17a14a05a0e",
+  "phi36LowFirstRationalCoefficientSha256": "52655407a6e3f75884e6eab368a02da55875314d38760241412c130b8b4455e3",
+  "mathematicalResult": {
+    "certificate": {
+      "combination": {
+        "currentWeight": 0,
+        "withPreviousAccumulator": false
+      },
+      "fieldInverseIdentitiesChecked": 30,
+      "identity": "original_resultant_combination * its_inverse = 1",
+      "inverseSha256": "55d1a92d6997905c70886c328992212033591823c482f9f1b58d77be4f3ac09d",
+      "normDegreeInLambda": 35,
+      "pair": [
+        "E1",
+        "EB"
+      ]
+    },
+    "claimExcluded": true,
+    "claimWholeS0LayerEmpty": false,
+    "elapsedSeconds": 4.73863,
+    "inputSha256": "823a286bedfe84c89295b4e65d957fbfe0edee41e1502639a0b75dc4fe18bb63",
+    "ordinaryISPClaim": false,
+    "originalResultantHistory": [
+      {
+        "pair": [
+          "E1",
+          "EB"
+        ],
+        "unitCertificateFound": true,
+        "zeroResultant": false
+      }
+    ],
+    "parameterDimension": 72,
+    "peakRssKiB": 44300,
+    "quadraticIrreducibilityAssumed": false,
+    "scope": "only the complete remaining irreducible degree-36 lambda factor of S0,Lt0,L!=0,Af!=0,J!=0,g2=0; low factors separately paid",
+    "sourceSha256": "0f44821ea3216acf683b72e0c217e1ea9933df2159ec1aed88509de0a723fedc",
+    "status": "entire_remaining_original_Lt_g2_phi36_fiber_excluded"
+  },
+  "driverReceipt": {
+    "elapsed_seconds": 4.795207188999996,
+    "max_child_rss_kib": 44856,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "883b48354b4b91b361c26e55f96b046a7ff6069f",
+        "before": "f4300897e6d3038fe26b25cf93c91e2f3c9f9cab",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "fef43bdf8690f2eec4751d85784a266eacdd0322"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-26T13:53:46.654375+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "45833519962",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-347c-20261126",
+    "source_commit": "f4300897e6d3038fe26b25cf93c91e2f3c9f9cab",
+    "source_exit_code": 0,
+    "source_git_blob": "c7fd69f5a3324be2335648b12287590e27457900",
+    "source_sha256": "0f44821ea3216acf683b72e0c217e1ea9933df2159ec1aed88509de0a723fedc",
+    "stdout_bytes": 2258,
+    "stdout_sha256": "98ec5cfff4f8144b82a5a4ffa1207ec04707befef040cd94594b14f2e432e25a",
+    "stop_reason": null
+  },
+  "scope": "Complete remaining degree36 lambda factor; combined with the preceding exact low-fiber exclusions this closes S0,Lt0,L!=0,Af!=0,J!=0,g2=0."
+}

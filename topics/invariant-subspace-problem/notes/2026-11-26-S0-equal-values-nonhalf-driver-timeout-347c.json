@@ -1,0 +1,54 @@
+{
+  "elapsed_seconds": 1270.862108467,
+  "max_child_rss_kib": 105940,
+  "ordinary_isp_claim": false,
+  "rules_reads": [
+    {
+      "after": "f3eb4bac533921bfcaa11becb44d7e9e68cccc3e",
+      "before": "f3eb4bac533921bfcaa11becb44d7e9e68cccc3e",
+      "rules_git_blobs": {
+        "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+        "topics/invariant-subspace-problem/README.md": "fef43bdf8690f2eec4751d85784a266eacdd0322"
+      },
+      "rules_unchanged": true,
+      "utc": "2026-11-26T13:40:50.494041+00:00"
+    }
+  ],
+  "run_attempt": "1",
+  "run_id": "45831444045",
+  "schema": "isp-frozen-exact-actions-execution-v1",
+  "session": "Astra-ISP-347c-20261126",
+  "source_commit": "f3eb4bac533921bfcaa11becb44d7e9e68cccc3e",
+  "source_exit_code": -9,
+  "source_git_blob": "c5837c240ce40897e8437392b5c48b5e471edda7",
+  "source_sha256": "780597f2a3900574218addf77ada47d744bcf5a8c7be737f24fe76ce345a2e86",
+  "stdout_bytes": 11396,
+  "stdout_sha256": "15ed7ce7ddb9db4725a6f71b004ffd82916067b65c2356639e7b197c81bc8b6e",
+  "stop_reason": "wall_time_limit",
+  "job_id": 139948952215,
+  "name": "S0-equal-values-nonhalf-original-QQ",
+  "completed_math": {
+    "original9inputSHA": "1ca70ab4b1840756d7251d43cddd1b0d4607b3ea9e4de35cd3aff611215d1469",
+    "parameterConjugatesRetained": true,
+    "exactPolynomialDivisionChecks": 353,
+    "all21NecessarySameLambdaPolynomialsGeneratedAtSeconds": 0.58534,
+    "completedResultantBDegrees": [
+      624,
+      624,
+      624,
+      960,
+      960,
+      912
+    ],
+    "commonBDegreeAfterEach": [
+      536,
+      238,
+      238,
+      238,
+      238,
+      238
+    ]
+  },
+  "closed": false,
+  "next": "Extract minimal finite b cover, then return to same-lambda original equations; no exclusion is claimed."
+}
