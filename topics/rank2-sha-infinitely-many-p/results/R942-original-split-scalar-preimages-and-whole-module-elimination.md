@@ -400,7 +400,7 @@ Fitting 平方、原 bad/good 互素、完整 CRT 产品和幂零厚度均不删
 
 ### 8.6. 小型公开 API 请求
 
-新增 `rank2-sha-triangular-preimage-api.yml` 独立入口，在固定 Sage 10.6 镜像和原规定公开 Actions 内执行两个小型完整模算法检查；明确使用 F29²、a²=2。它不重建原曲面，不启动第二份正规化，也不改变单 F 请求。完整矩形来源、重复不可约二次因子、零余来源和全附加块均与官方小型完整核 API 交叉。源码与定理已登记，公开运行结果待收，不预填 PASS。
+新增 `rank2-sha-triangular-preimage-api.yml` 独立入口，在固定 Sage 10.6 镜像和原规定公开 Actions 内执行两个小型完整模算法检查；明确使用 F29²、a²=2。它不重建原曲面，不启动第二份正规化，也不改变单 F 请求。完整矩形来源、重复不可约二次因子、零余来源和全附加块均与官方小型完整核 API 交叉。源码与定理已登记；公开小例实际结果见§8.7，原306对象仍待。
 
 | 来源 | SHA-256 |
 |---|---|
@@ -408,3 +408,13 @@ Fitting 平方、原 bad/good 互素、完整 CRT 产品和幂零厚度均不删
 | `check-original-triangular-preimage-api.py` | `34a09ac84aeab9b1c044ed4c6e769b4fdb2ee1d9653cd5c4365d176b1c87ec42` |
 | `original-triangular-preimage-api-request.json` | `ed80b3b87bda93897da4224c7961ae150200e89b3d85762e93b8a6de11d04430` |
 | `rank2-sha-triangular-preimage-api.yml` | `dfb146f9b825fc3a7fcd351819e360eb6a8f6093bc6c127080d59f1743988ed4` |
+
+### 8.7. 小型完整 API 的实际成功
+
+公开 [run45767886956](https://github.com/Rogerhu12/math-research-public/actions/runs/45767886956)、job139733127722、source `15609ef3fedaf7001cd58a6fe16cac7713104c16` 于2026-11-26 06:24:35 UTC通过两个完整算法检查。固定Sage10.6/指定F29²(a²=2)、12个源码AST、原全行模和全部附加源、重复分裂标量、r=3/n=2原像与官方全kernel投影HNF、重复不可约二次因子及零余来源均过。结果状态为 `both_complete_module_algorithm_API_gates_passed`。实现语义的数学/AST阶段约0.282081秒；这个微型例子不提供原306来源的性能保证或任何原除子、范数、shadow回执。
+
+- result SHA-256：`d6560cee2781baf5bedcb3cbb12ec13cbe4bbe5b0db2ec0d15369dbd4c801a61`。
+- manifest SHA-256：`707b68d42645e2e1b0ac69b58ea99b39e58cffba4b7b99a6943cf03f0d5a2092`。
+- 工具返回完整job日志UTF-8保BOM，31061 bytes，SHA-256：`6a8c12901607e5a888a914e639c6fa04a0f50f4e3b0c6811dbf66d79901ddf46`。
+
+仅结果陈述和hash登记；完整输出不入库。当前单F来源b35d61dd继续，不因小例成功追认其末端。
