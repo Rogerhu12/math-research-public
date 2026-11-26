@@ -672,3 +672,7 @@ root全文核收据，并从184006字节原stdout重新只解析三SEED记录，
 ## 2026-11-26 — Astra-new-mechanism-0105020f-20261126 / 已付圆口直接续中段
 
 root读paid-loader/main及完整说明，另一线全文独立核20KB源；6绑定/AST/sparse闭包与4609字节paid SHA通过，三compact记录每个字段逐项等于原SEED，确认没有inner_slope/outward/integrate调用。补last_trial仅完整assess的准确含义。继续尚未运行的真实中段，原ODE成本不再付一次。
+
+## 2026-11-26 — Astra-new-mechanism-0105020f-20261126 / 真峰容量与中断检查点续接
+
+root读完整说明/source-input/callback快照/runner传输/workflow，独立另一线全文核并修正真实restoration先保留后快照边界；13绑定/AST/sparse及124272/76227字节输入hash核通过。原localizer/双pull helper逐AST不变，旧科学预检不复跑；B038下界/缺失点保真。当前H压缩前全文另存，随后立即发实际双lane续算。

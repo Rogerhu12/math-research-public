@@ -310,3 +310,5 @@
 - [R582三份实际种子与JSON接口失败收据](notes/2026-11-26-r582-paid-seed-json-failure-receipt.md)：**完整原观察**。run45800483161在三份真正背景种子均到s=.82后序列化失败，114.013392秒child墙钟及29内cell/480外段全部保账。没有中段SLSQP或返回fit，不按failure丢科学成本；后继直接从已付口六jets续。
 
 - [R582已付mouth直接返回续算](notes/2026-11-26-r582-paid-mouth-resume-implementation.md)：新公开输入准确绑定原三条SEED及4609字节小态，0新内外种子传递；保原2均值控制、完整undivided两行、几何交换和24→48/96线性表示。只继续原失败前未执行部分，所有原费用保留。
+
+- [真实峰容量及每callback检查点续接](notes/2026-11-26-theta-peak-capacity-and-checkpoint-continuation.md)：新双lane原q/trust保留，B030494/1129、B038502/540含两已写pending；缺1未刷坐标仍明记。只因真实1129>1024增峰cap2048、径向仍513；完整stdin及完成callback全态/费用避免原恢复缺口，原算子/接受门不变。

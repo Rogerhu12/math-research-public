@@ -6,7 +6,7 @@
 
 ## 1. 规则与接手
 
-已部分克隆并实际 `git pull main`，公开根 README、课题 README、HANDOFF、open、results 索引及相关 log/notes 已读。公开已读提交 **4e29ab9a51f7628ddc61270af3ad7344be3dc50e**（2026-11-26 10:50 UTC；本次实际pull后根/题README空差异）；历次规则及失败原回执保原note；私有 QUEUE 的本题已改为本会话进行中并成功推送：**9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7**；最后实际pull及规则同blob读至 **c5fd979bd7793b3516aaa9f142855772720cb9b1**（2026-11-26 10:23 UTC核；本小时实际pull成功，根README空差异、QUEUE仍本会话）。其它课题的并行认领保留。
+已部分克隆并实际 `git pull main`，公开根 README、课题 README、HANDOFF、open、results 索引及相关 log/notes 已读。公开已读提交 **c6e9036cfa6ca597ce883935bd1f640a0500813a**（2026-11-26 10:52 UTC；本次实际pull后根/题README空差异）；历次规则及失败原回执保原note；私有 QUEUE 的本题已改为本会话进行中并成功推送：**9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7**；最后实际pull及规则同blob读至 **c5fd979bd7793b3516aaa9f142855772720cb9b1**（2026-11-26 10:23 UTC核；本小时实际pull成功，根README空差异、QUEUE仍本会话）。其它课题的并行认领保留。
 
 [前历交接](notes/HANDOFF-before-resonant-height-20261126.md)及原note保全部规则/成本/限定。09:18 UTC本地失联后用接口继续保存，API不冒actualpull；09:33恢复partial副本并实际双pull，完整身份见本日日志。
 
@@ -20,7 +20,7 @@
 
 旧固定g/58及ring17至joint168均已闭，完整身份/门/费用见[固定O2原文](notes/open-fixed-o2-before-finite-height-20261126.md)。58的metric辅助量.2660054、κ58不是宏观合格点；旧实例不重开。
 
-真实角峰保1536全约束/全角Ebar及全部实际峰，前[513两lane收据](notes/2026-11-26-theta-peak-capacity-continuation-implementation.md)保完整来源。[分批B030原终态](notes/2026-11-26-theta-batched-b030-original-terminal-receipt.md)run45796862274新增295.608894049秒，651终候选全完成，保留η.265137352907/V0；actual450/1021、pending494/1129、trust1.20135498。首次真实峰库1129>1024，后继保全部proposal；0自然OptimizeResult。[分批B038中断](notes/2026-11-26-theta-batched-b038-runner-interruption-receipt.md)系runner shutdown无FINAL；最后完整500径向/538峰、η.49466223/V0、trust.90101624，保两条已写pending，另1条坐标未flush不可补造。444.543697291秒仅精确下界，后约131秒墙钟区间也保；从完整START续，不用拒绝trial。
+真实角峰保1536全约束/全角Ebar及全部实际峰，前[513两lane收据](notes/2026-11-26-theta-peak-capacity-continuation-implementation.md)保完整来源。[分批B030原终态](notes/2026-11-26-theta-batched-b030-original-terminal-receipt.md)run45796862274新增295.608894049秒，651终候选全完成，保留η.265137352907/V0；actual450/1021、pending494/1129、trust1.20135498。首次真实峰库1129>1024，后继保全部proposal；0自然OptimizeResult。[分批B038中断](notes/2026-11-26-theta-batched-b038-runner-interruption-receipt.md)系runner shutdown无FINAL；最后完整500径向/538峰、η.49466223/V0、trust.90101624，保两条已写pending，另1条坐标未flush不可补造。444.543697291秒仅精确下界，后约131秒墙钟区间也保；从完整START续，不用拒绝trial。[真实续接](notes/2026-11-26-theta-peak-capacity-and-checkpoint-continuation.md)已提交：峰cap2048、径向513、完整stdin输入；完成callback即刷全状态/费用。
 
 [圆核原终态](notes/2026-11-26-circular-entry-and-small-core-continuation-receipt.md)2401.892431903新秒，最后合格仍p=.18圆；四个非圆未过stage1e−4，stage4真正156×384。[R580](results/R580-finite-tail-polynomial-kernel-obstruction-and-resonant-seed-interface.md)排当前末片有限多项式的真实核/C1入口，只限该表示。[R582](results/R582-actual-circular-tail-flat-kernel-and-resonant-entry.md)现已为实际17q背景证明真实一维全平j2尾核，保同160起始cell/DtN界；[三份实际尾种子原收据](notes/2026-11-26-r582-paid-seed-json-failure-receipt.md)run45800483161全部到s=.82，M168/169/8细化的29内cell、480外段已付，child墙钟114.013392秒；在比较JSON的numpy.bool输出失败，未开始中段。[已付口直接续算](notes/2026-11-26-r582-paid-mouth-resume-implementation.md)已提交，复用三份六jets续两控制/undivided返回，不重传ODE；完整共振/有限分支仍欠。
 
@@ -44,7 +44,7 @@
 
 [R573](results/R573-fixed-collar-curvature-and-separated-scale-reach-obstruction.md)只排固定资料后δ→0的reach/D，不排有限新输入；净位移或缩放不修复。[27态前接口](notes/2026-11-26-compact-r530-reduced-endpoint-implementation-agent.md)与[开发偏离收据](notes/2026-11-26-r530-local-development-execution-receipt-agent.md)保全部真实历史/费用，原未合格draft不再执行。
 
-[独立v2原终态](notes/2026-11-26-r530-v2-public-reduction-receipt-agent.md)局部代数核通过但完整R0求积未稳，19.0664秒child已记且无ODE/根。[R581](results/R581-exact-c2-local-ruling-with-full-history-chain.md)已付完整局部R的准确C2积分，保真二尾/chain；[新36块原run](notes/2026-11-26-r581-c2-r578-first-public-receipt-agent.md)45792219913付3.870200秒：R0的96→192差6.93e−10，加速度列同值≤7.61e−15。[R584](results/R584-centered-third-history-and-nineteen-state-full-ruling-bvp.md)已付完整ruling的可逆第三坐标及19态八根BVP；[R586](results/R586-sixfold-full-history-coefficient-projection-and-finite-integrals.md)已付完整历史六元形式平均、≤10次位置界、无四导/第三右尾的准确C3积分和合并σ分子；[完整十九态实现](notes/2026-11-26-r530-full-centered-nineteen-bvp-implementation-agent.md)已提交：Fraction完整预收、96/192同母积分、H1.1/1.3与L3/5四个真实22BC，成功后同输入精化及原ruling/历史缺陷、pose读出；尚无根。
+[此前完整记录](notes/HANDOFF-before-full-history-potential-20261126.md)保v2失败、R581稳定C2原run及全部科学成本。[R581](results/R581-exact-c2-local-ruling-with-full-history-chain.md)付真实局部R的C2积分；[R584](results/R584-centered-third-history-and-nineteen-state-full-ruling-bvp.md)付可逆中心第三坐标、19态+3参数/22BC；[R586](results/R586-sixfold-full-history-coefficient-projection-and-finite-integrals.md)付完整六元系数投影、真二尾及C3有限预收。[完整十九态实现](notes/2026-11-26-r530-full-centered-nineteen-bvp-implementation-agent.md)保同母、所有六第三槽、真实ν/缺陷和成功后pose观察，尚无实际根；完整高阶历史不因局部R温和而删除。
 
 [R578](results/R578-sixfold-six-node-positive-complete-profile-library.md)固定新36完整块、六元/六正节点共0…10矩、2e−6微半宽与真collar；保完整history及Ch<0/Ck>0，不继承旧母χ/轨道。端根与全空间仍须实际付。
 

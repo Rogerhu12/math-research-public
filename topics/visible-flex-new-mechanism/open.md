@@ -247,3 +247,7 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 [完整收据](notes/2026-11-26-r582-paid-seed-json-failure-receipt.md)确认run45800483161三份M168/169/169容差8的实际背景传递均到mouth .82，保共同归一六jets与约3853.545747的log尺度。29内cell/480外段合计2147398 RHS，114.013392秒为child墙钟而非缺失的最终科学时钟。失败仅在随后比较numpy.bool的JSON输出，SLSQP/返回fit尚未开始。后继绑定原三SEED hash/源码/参数，用最后实际六jets直接建立undivided中段，所有已付内外ODE不复跑；原尾截断界不吞并有限ODE误差。
 
 [已付口正式续算](notes/2026-11-26-r582-paid-mouth-resume-implementation.md)现独立提交：原fd4bd864科学源不改，新main只导入原字段/返回算子和时钟，完整核三口及参数身份，显式原生bool输出已付差。中段SLSQP/几何动态交换/最佳细网资格与24→48/96准确复用原定范围；last_trial指最后完成assess而非每个未完成查询。无新的内外seed调用，待原完整返回实际输出。
+
+### 从真实分批终态和完整中断检查点续解
+
+[新双lane输入](notes/2026-11-26-theta-peak-capacity-and-checkpoint-continuation.md)已提交：B030采用真实proposal494径向/1129峰，B038用完整START加2个已写pending到502/540；保原81q/trust，不补造缺失的1峰或被拒q。实际峰cap2048只响应1129>1024，径向513未改。完整状态改经SHA绑定stdin而非截断argv；每个完整callback在全部保留态更新后刷q/actual/pending/trial及尚未折入oracle费用，真实restoration低阈值保留也先更新。原1536约束/3072fine/完整分批localizer及FFT/AD/物理/接受门完全保留。B038已记录成本仍下界，未刷墙钟区间另保，后续不得改称精确总成本。
