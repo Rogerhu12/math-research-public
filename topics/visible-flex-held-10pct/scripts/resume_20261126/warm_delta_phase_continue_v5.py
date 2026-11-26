@@ -6,6 +6,10 @@ guard.  A zero-control reexpression is an independently verified initial
 representation, never an invented successful solver return.  Only genuine
 new finite passes become accepted anchors.  A metric-only failure may seed
 the original complete-lift mode transfer.  This is not fixed-g refinement.
+An optional saved metric-only return is a separate unaccepted solver seed;
+the accepted anchor and lambda bracket remain those of its saved summary.
+The optional existing streamed wrapper changes radial execution grouping,
+not the original problem, resolution, tolerances or acceptance gates.
 """
 import os
 for _key in ('OPENBLAS_NUM_THREADS','OMP_NUM_THREADS','MKL_NUM_THREADS'):
@@ -37,21 +41,29 @@ def main():
     parser.add_argument('--minimum-lambda-step',type=float,default=1e-5)
     parser.add_argument('--phase-scale',type=float,default=1.)
     parser.add_argument('--tail-settings',type=Path)
+    parser.add_argument('--resume-metric-summary',type=Path,
+        help='Resume only a saved metric-only budget return; retain its exact pending targets and accepted anchor')
+    parser.add_argument('--streamed-rhs-block',type=int,
+        help='Use the existing streamed/released-LU wrapper with this positive radial block')
     args=parser.parse_args()
     repo=args.repo.resolve();work=args.work.resolve();out=args.outdir.resolve()
     source=args.source_run.resolve()
     if work not in out.parents or work not in source.parents:
         raise ValueError('Actual fields must remain inside the declared runner work directory')
+    if args.resume_metric_summary and work not in args.resume_metric_summary.resolve().parents:
+        raise ValueError('The saved actual summary must remain in the declared work directory')
     if (not 1<=args.max_attempts<=3 or
             not all(math.isfinite(v) and 0<v<=1 for v in args.targets) or
             args.targets!=sorted(set(args.targets)) or
             args.mode_levels!=sorted(set(args.mode_levels)) or
             not all(v>0 for v in args.mode_levels) or
-            not math.isfinite(args.minimum_lambda_step) or args.minimum_lambda_step<=0):
+            not math.isfinite(args.minimum_lambda_step) or args.minimum_lambda_step<=0 or
+            (args.streamed_rhs_block is not None and args.streamed_rhs_block<1)):
         raise ValueError('Use increasing physical lambda/mode targets and at most three actual attempts')
     out.mkdir(parents=True,exist_ok=False)
     scripts=repo/'topics/visible-flex-held-10pct/scripts'
     resume=scripts/'resume_m3'
+    wrapper=scripts/'resume_20261126/streamed_release_prefix_driver.py'
     state=dict(scope=__doc__,status='preparing',stages=[],progress={},result={},
         source_run=str(source),source_run_sha256=entry.sha(source),
         source_hashes={str(HERE/name):entry.sha(HERE/name) for name in
@@ -59,6 +71,13 @@ def main():
              'warm_delta_phase_continue_v5.py')},
         model_kind=entry.KIND,fixed_metric=False,fixed_metric_refinement=False,
         actual_tail_requested=False,complete_surface=False,max_actual_attempts=args.max_attempts)
+    if args.streamed_rhs_block is not None:
+        state['source_hashes'][str(wrapper)]=entry.sha(wrapper)
+        state['execution_policy']=dict(streamed_rhs_block=args.streamed_rhs_block,
+            wrapper=str(wrapper),wrapper_sha256=entry.sha(wrapper),
+            original_driver_sha256=entry.sha(resume/'portable_prefix_continue.py'),
+            original_resolution_and_gates_unchanged=True,
+            floating_point_bit_identity_claimed=False)
     summary=out/'summary.json'
     env=dict(os.environ,OPENBLAS_NUM_THREADS='1',OMP_NUM_THREADS='1',
         MKL_NUM_THREADS='1',PYTHONUNBUFFERED='1',VISIBLE_FLEX_SPARSE_PYTHON=sys.executable,
@@ -130,7 +149,107 @@ def main():
         state['result'].setdefault('transfers',[]).append(dict(attempt=attempt,**phase_diagnostic))
         save()
         return raw_path,Path(result['port'])
+
+    def metric_resume(current_path,current):
+        previous_path=args.resume_metric_summary.resolve()
+        previous=entry.load(previous_path)
+        prior=previous.get('result') or {};last=prior.get('last_attempt') or {}
+        if (previous.get('model_kind')!=entry.KIND or
+                previous.get('status')!='actual_attempt_budget_returned' or
+                not previous.get('stages') or previous['stages'][-1]!=last or
+                last.get('metric_only_failure') is not True or last.get('accepted') is not False or
+                last.get('complete_saved_initializer') is not True or last.get('returncode')!=0 or
+                Path(prior['last_accepted_run']).resolve()!=current_path):
+            raise ValueError('Use the saved metric-only budget return and its unchanged accepted anchor')
+        seed_path=Path(last['run']).resolve()
+        if work not in seed_path.parents or entry.sha(seed_path)!=last.get('run_sha256'):
+            raise ValueError('The saved real metric-only solver return changed')
+        seed=entry.actual_input(seed_path,require_metric=False)
+        settings=seed.get('core_settings') or {}
+        if (seed.get('model_kind')!=entry.KIND or
+                seed.get('acceptance_kind')!=entry.SOLVER_RETURN or
+                seed.get('solver_invoked') is not True or
+                seed.get('finite_linear_candidate_pass') is not False or
+                settings.get('model_kind')!=entry.KIND or settings.get('fixed_metric') is not False or
+                settings.get('phase_parameter_scale_rule')!=entry.factory_module.SCALE_RULE or
+                Path(entry.option(seed,'--core-module')).resolve()!=HERE/'warm_delta_phase_factory_v5.py' or
+                entry.load(entry.option(seed,'--core-config'))!=settings):
+            raise ValueError('The unaccepted seed lacks the original v5 solver/provider semantics')
+        entry.factory_module.checked_provider(settings)
+        metric=seed['prefix_audit']['metric_l1']
+        if not entry.finite(metric) or metric<=1e-6:
+            raise ValueError('This narrow resume requires a finite metric-only failure')
+        for key in ('physical_profile','physical_tail_parameters','physical_tail_cut',
+                    'angular_chart','gauge_q','warp_reference','origin_design_run','origin_design_sha256'):
+            if seed.get(key)!=current.get(key):
+                raise ValueError('The metric seed changed the declared design input: '+key)
+        if ({k:v for k,v in settings.items() if k!='homotopy'}!=
+                {k:v for k,v in current['core_settings'].items() if k!='homotopy'}):
+            raise ValueError('The complete v5 anchor, phase family or scale changed')
+        accepted_lambda=float(current['core_settings']['homotopy'])
+        pending=prior.get('pending_targets')
+        if (not isinstance(pending,list) or not pending or
+                not all(isinstance(v,(int,float)) and math.isfinite(v) and accepted_lambda<v<=1 for v in pending) or
+                pending!=sorted(set(pending)) or prior.get('accepted_lambda')!=accepted_lambda or
+                pending[0]!=settings['homotopy'] or last.get('homotopy')!=pending[0] or
+                last.get('modes')!=seed['modes'] or
+                last.get('raw_sha256')!=seed['raw_return']['sha256'] or
+                last.get('physical_sha256')!=seed['physical_sha256']):
+            raise ValueError('The exact pending target, actual seed or accepted lambda bracket changed')
+        if '--targets' in sys.argv and args.targets!=pending:
+            raise ValueError('A metric resume retains the complete saved pending-target list')
+        larger=[v for v in args.mode_levels if v>seed['modes']]
+        if not larger:
+            raise ValueError('The saved metric-only seed needs a declared larger mode count')
+        record=dict(summary=str(previous_path),summary_sha256=entry.sha(previous_path),
+            previous_controller_source_hashes=copy.deepcopy(previous.get('source_hashes',{})),
+            current_controller_sha256=entry.sha(__file__),
+            accepted_anchor=dict(run=str(current_path),run_sha256=entry.sha(current_path),
+                homotopy=accepted_lambda,acceptance_kind=current['acceptance_kind']),
+            unaccepted_solver_seed=dict(run=str(seed_path),run_sha256=entry.sha(seed_path),
+                raw_sha256=seed['raw_return']['sha256'],physical_sha256=seed['physical_sha256'],
+                homotopy=settings['homotopy'],modes=seed['modes'],metric=metric,
+                acceptance_kind=entry.SOLVER_RETURN,finite_linear_candidate_pass=False),
+            next_modes=larger[0],pending_targets=copy.deepcopy(pending),
+            target_source='unchanged_saved_pending_targets',
+            seed_promoted_to_accepted_anchor=False,prior_solver_attempt_repeated=False)
+        state['metric_resume']=record
+        return seed_path,seed,larger[0],pending
+
+    def numerical_command(command):
+        command=list(map(str,command))
+        if args.streamed_rhs_block is None:
+            return command
+        if len(command)<2 or Path(command[1]).resolve()!=resume/'portable_prefix_continue.py':
+            raise ValueError('The streamed wrapper must call the recorded original portable driver')
+        return [sys.executable,str(wrapper),'--rhs-block',str(args.streamed_rhs_block),*command[2:]]
+
+    def execution_record(name,command,executed,directory):
+        value=dict(actual_argv=executed,original_portable_argv=list(map(str,command)),
+            wrapper_invoked=args.streamed_rhs_block is not None,
+            controller_sha256=entry.sha(__file__),original_portable_command_fabricated=False)
+        if args.streamed_rhs_block is not None:
+            provenance=directory/'radial-batching.json'
+            data=entry.load(provenance)
+            if (data.get('command')!=executed[1:] or
+                    data.get('wrapper_sha256')!=entry.sha(wrapper) or
+                    data.get('original_driver_sha256')!=entry.sha(resume/'portable_prefix_continue.py') or
+                    data.get('radial_rhs_jacobian_block')!=args.streamed_rhs_block or
+                    data.get('mathematical_parameters_changed') is not False or
+                    data.get('original_gates_relaxed') is not False):
+                raise ValueError('The actual streamed-wrapper execution provenance changed')
+            value.update(wrapper=str(wrapper),wrapper_sha256=entry.sha(wrapper),
+                streamed_rhs_block=args.streamed_rhs_block,
+                provenance=str(provenance),provenance_sha256=entry.sha(provenance),
+                floating_point_bit_identity_claimed=False)
+        path=out/(name+'-execution.json');entry.write(path,value)
+        return value,dict(record=str(path),record_sha256=entry.sha(path),
+            wrapper_invoked=value['wrapper_invoked'],
+            streamed_rhs_block=value.get('streamed_rhs_block'),
+            wrapper_sha256=value.get('wrapper_sha256'),provenance_sha256=value.get('provenance_sha256'))
     try:
+        if args.resume_metric_summary and entry.load(source).get('model_kind')!=entry.KIND:
+            raise ValueError('A metric resume must use its already verified v5 accepted anchor')
         if entry.load(source).get('model_kind')==entry.KIND:
             current_path=source;current=entry.accepted_input(source)
         else:
@@ -144,8 +263,14 @@ def main():
         targets=[v for v in args.targets if v>accepted_lambda]
         seed_path,seed=current_path,current
         M=int(current['modes'])
+        if args.resume_metric_summary:
+            seed_path,seed,M,targets=metric_resume(current_path,current)
         state['result']=dict(last_accepted_run=str(current_path),accepted_lambda=accepted_lambda,
             new_actual_solver_passes=0,full_nonlinear_tail_paid=False,complete_surface=False)
+        if args.resume_metric_summary:
+            state['result']['initial_unaccepted_solver_seed']=copy.deepcopy(
+                state['metric_resume']['unaccepted_solver_seed'])
+            state['result']['resumed_next_modes']=M
         attempts=0
         while targets and attempts<args.max_attempts:
             target=targets[0];name='attempt-%03d'%attempts;directory=out/name
@@ -160,10 +285,15 @@ def main():
             for flag,value in (('--port',port),('--modes',M),('--angular',max(int(seed['angular']),32*M))):
                 entry.replace_option(command,flag,value)
             attempts+=1
-            code=invoke(name,command)
+            executed=numerical_command(command)
+            code=invoke(name,executed)
             path=directory/'run.json';returned=entry.load(path) if path.exists() else {}
             checks=entry.gate_checks(returned);artifact_error=None;complete=False
+            execution=None;execution_summary=None
             try:
+                execution,execution_summary=execution_record(name,command,executed,directory)
+                if returned.get('command')!=list(map(str,command)):
+                    raise ValueError('The real portable driver did not record the expected literal command')
                 entry.verify_bindings(returned);entry.artifact_data(path,returned)
                 if (returned['core_settings']!=settings or
                         any(returned[k]!=seed[k] for k in ('physical_profile','physical_tail_parameters',
@@ -195,6 +325,11 @@ def main():
                     source_seed_run=str(seed_path),source_seed_run_sha256=entry.sha(seed_path),
                     actual_audit_mean_nodes=(returned.get('prefix_audit') or {}).get('samples_psi'),
                     scope_v5='Actual original fixed=False solver; delta designs g, d1 remains zero; no nonlinear tail or fixed-g refinement paid')
+                if execution is not None:
+                    returned['execution_provenance']=execution
+                    returned['execution_record']=execution_summary
+                    if args.streamed_rhs_block is not None:
+                        returned.setdefault('source_hashes',{})[str(wrapper)]=entry.sha(wrapper)
                 entry.write(path,returned)
             if accepted:
                 entry.accepted_input(path)
@@ -210,6 +345,7 @@ def main():
                 actual_delta=(returned.get('frozen_profile') or {}).get('delta'),
                 error=returned.get('error'),artifact_error=artifact_error,
                 original_finite_checks=checks,complete_saved_initializer=complete,
+                execution=execution_summary,
                 domain_newton_stats=returned.get('domain_newton_stats'),
                 domain_error_counts=returned.get('domain_error_counts'))
             state['stages'].append(row)

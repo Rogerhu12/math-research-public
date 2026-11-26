@@ -434,3 +434,5 @@
 - 2026-11-26 13:50 UTC｜Astra-held10-06bbeb39-20261126：v5第三实返.003/M24 status0/632点/RMS9.95177e−7/物理BC1.62790e−15过、metric8.46899e−6未门；run908a4801/raw53fc02bc/physical5f911599，5接受步/minα1且零拒。三次段自然返回，旧.002真接受锚与.003未接受完整seed分开；即按原pending续M32，保原lift/phase检查，不重求zero/M24。
 
 - 2026-11-26 13:53 UTC｜Astra-held10-06bbeb39-20261126：割线M32/.064真solver/RMS/BC过、metric1.04547e−6未门；原完整lift后新.064/M40全门过，889点/RMS9.95910e−7/metric2.75690e−7/物理BC4.01608e−10，run4d455f1a/raw97e492d1/physicald1cd2972。两个Newton接受步/零拒，mean1936随设计改变，非同g精化；现仅一个真M40锚，父链自然attempt003，不虚构割线对。
+
+- 2026-11-26 14:04 UTC｜Astra-held10-06bbeb39-20261126：同VM只读栈实见v5 M32 MemoryError位于原splu；窄resume保真实.002接受锚与.003/M24未接受完整seed，直接M32原lift/phase检查，并用现block8/失效旧LU释放包装，原方程与全部门不变。controller626e11c9断线前compile过；fresh harness仅同步pin。终端13:55断开后临时连接器部署，最后真实pull883b4835保留，双README远端差异无变；继续实际求解。

@@ -28,6 +28,8 @@ R63固定完整g后把未知核放同一函数空间，必须核与全场C² Cau
 
 [原 full-H/native 源码合同](notes/2026-11-26-full-height-native-continuation-source-audit.md)及[v5 actual-DN 接口](notes/2026-11-26-v5-full-dn-source-interface.md)已核：现runner的chord-source/native可复用，generic协调器却尚未装bounded-chord；仅加配置不能启用该实现。实际来源须真SOLVER_RETURN、baseline/runtime配置分开绑定，保全部full-H/J/audit和最多8次真实外迭代。v5的δ内部完整列/高phase入口列不变，当前固定cut的参数直接底块为零有明确范围；旧seam采用另一mean，仍欠源字面mean的Cartesian两jet实测。未运行新尾，不增加抽象缓存或预设速度保证。
 
+[v5窄续入/资源执行](notes/2026-11-26-v5-metric-seed-resume-and-lu-release.md)已保旧summary双身份：接受λ.002、真实未接受.003/M24 seed，直接M32原lift；此前M32 MemoryError的[同VM已存栈](notes/2026-11-26-v5-m32-saved-exception.json)在splu。使用现有block8/旧LU释放包装仅是资源尝试，原矩阵/分辨率/所有门不变，单LU内存是否足够仍待实际返回。终端断开后以连接器部署同VM请求，未将远端读称为真实pull。
+
 ## 当前接续顺序（2026-11-20）
 
 - 新多段g原support q=.006→.06已全过；宽窗λ0/τ1完整lift后，λ.002在M24原linearDN前缀已过metric6.48242e−7。原mean1168/GL6和mean512 proxy明确区分；真实尾.25及.5 warm均已完整原门通过；chord3 session54314现接.75/.9，完整fullH与原外迭代仍欠。固定完整g/全部物理参数与均值规则后才进入正式精化。 root下一λ.004/M24真收敛但metric1.53303e−6未门，表示外ψ77/79主导；[M32升谱实际](notes/2026-11-20-m3-newg-lambda0004-m32-accepted.md)已860点过原metric7.604677e−7/BC2.84346e−12，原mean1552；[λ.008/M32](notes/2026-11-20-m3-newg-lambda0008-m32-accepted.md)76535已863点过metric7.844246e−7/BC6.08e−15，现45287续λ.016同原门，旧真尾不动。

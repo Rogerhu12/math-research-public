@@ -1,25 +1,40 @@
 {
-  "id": "held10-v5-inspect-m32-saved-memory-20261126-01",
-  "read_rules_commit": "733b5725eed275815a6b3e9d93fdcdff4b9bd5f2",
-  "script": "topics/visible-flex-held-10pct/scripts/resume_20261126/inspect_saved_driver_exception.py",
+  "id": "held10-v5-metric-resume-m32-stream8-20261126-01",
+  "read_rules_commit": "28d0d1528cbaacf80872aed5542ea8bcc7fa2e03",
+  "script": "topics/visible-flex-held-10pct/scripts/resume_20261126/warm_delta_phase_continue_v5.py",
   "args": [
+    "--repo",
+    "@REPO@",
     "--work",
     "@WORK@",
-    "--run",
-    "@WORK@/fresh-v5/v5-material-design/attempt-001/run.json",
-    "--expected-run-sha",
-    "7e5509e46883bec8f573263324d04e25ee79254dd2b718427aa6771e9cc8de53",
+    "--source-run",
+    "@WORK@/fresh-v5/v5-material-design/zero-control/run.json",
+    "--resume-metric-summary",
+    "@WORK@/fresh-v5/v5-material-design/summary.json",
+    "--streamed-rhs-block",
+    "8",
+    "--max-attempts",
+    "3",
     "--outdir",
-    "@WORK@/v5-m32-saved-exception"
+    "@WORK@/v5-resume-m32-stream8"
   ],
   "diagnostics": [
+    {
+      "path": "@WORK@/v5-resume-m32-stream8/summary.json",
+      "keys": [
+        "status",
+        "stages",
+        "result",
+        "error",
+        "source_hashes"
+      ]
+    },
     {
       "path": "@WORK@/v5-m32-saved-exception/summary.json",
       "keys": [
         "status",
         "result",
-        "source_hashes",
-        "complete_surface"
+        "source_hashes"
       ]
     }
   ]

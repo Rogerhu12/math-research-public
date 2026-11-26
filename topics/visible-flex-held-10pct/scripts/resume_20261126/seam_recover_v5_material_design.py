@@ -107,7 +107,7 @@ def main():
             current/'lowq_prefix_recovery_design.py': 'a69f5c6ca118221700b16f01645b87be94afba349ca576825c47993891c22223',
             current/'warm_delta_phase_factory_v5.py': '56772568ba9ddbfcf78d65cb0104991b694a4806335914762158a58d2391fc83',
             current/'warm_delta_phase_entry_v5.py': '4628b1431b8d09ad661766012b50462dcdbfc1469c23c2b2f9f2f41e26332ba8',
-            parallel_script: '2590beb8e5dc9994ce1a045f77344caffdb0dd86361978d74c8885fc381d4338',
+            parallel_script: '626e11c9522df6367cac8724d8ea6a47b11e932469a922685c0c2cb8247356b1',
             profile: '3f4042ffe0666bf8ba5b09dca3d056f9b0604b8e4ab3367e537d924bb7b0cfcc',
             lambda0: '1168a390edc052530d5b2b0dcca02242a79e8c02006662e523cbef6ce6ba1144',
             lambda002: '5ed9c06fd52c2162304560722f71751287c81497cd15967820e1f223c7283223',
