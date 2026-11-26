@@ -1,0 +1,34 @@
+{
+  "id": "held10-material-delta-design-20261126-01",
+  "read_rules_commit": "5928df89a30203b3acbe5beccb4a4ca9ad68693e",
+  "script": "topics/visible-flex-held-10pct/scripts/resume_20261126/lowq_prefix_recovery_design.py",
+  "args": [
+    "--repo",
+    "@REPO@",
+    "--work",
+    "@WORK@",
+    "--outdir",
+    "@WORK@/design-prefix-recovery"
+  ],
+  "diagnostics": [
+    {
+      "path": "@WORK@/design-prefix-recovery/summary.json",
+      "keys": [
+        "status",
+        "progress",
+        "result",
+        "error"
+      ]
+    },
+    {
+      "path": "@WORK@/design-prefix-recovery/material-delta-design/summary.json",
+      "keys": [
+        "status",
+        "progress",
+        "result",
+        "error",
+        "stages"
+      ]
+    }
+  ]
+}

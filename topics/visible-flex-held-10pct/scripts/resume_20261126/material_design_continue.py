@@ -9,6 +9,7 @@ lambda=1 would still owe nonlinear DN, closure, time family and reach.
 import argparse
 import hashlib
 import json
+import math
 import os
 from pathlib import Path
 import subprocess
@@ -23,6 +24,56 @@ def digest(path):
 
 def load(path):
     return json.loads(Path(path).read_text())
+
+
+
+def finite_nonnegative(value, upper):
+    return (isinstance(value, (int, float)) and not isinstance(value, bool)
+            and math.isfinite(value) and 0 <= value <= upper)
+
+
+def original_finite_checks(record):
+    """Original tolerances and actual returned RMS/physical BC, separately."""
+    gates, raw = record.get('gates') or {}, record.get('raw_return') or {}
+    tolerances = all(finite_nonnegative(gates.get(key), maximum)
+                     and gates[key] > 0 for key, maximum in
+                     (('tol', 1e-6), ('bc_tol', 1e-7), ('physical_bc_tol', 2e-9)))
+    physical_bc = record.get('prefix_audit', {}).get('physical_bc_max')
+    solver = (record.get('solver_success') is True and not record.get('error')
+              and raw.get('success') is True and raw.get('status') == 0)
+    rms = tolerances and finite_nonnegative(raw.get('rms'), gates['tol'])
+    physical = tolerances and finite_nonnegative(physical_bc, gates['physical_bc_tol'])
+    return dict(tolerances=tolerances, solver=solver, rms=rms, physical_bc=physical,
+                solver_and_boundary_pass=bool(tolerances and solver and rms and physical))
+
+
+def complete_initializer(path, record):
+    """Only hash-bound complete actual raw/physical files may be promoted."""
+    raw = record.get('raw_return') or {}
+    if not raw.get('file') or not raw.get('sha256') or not record.get('physical_sha256'):
+        return False
+    pairs = ((path.parent/raw['file'], raw['sha256']),
+             (path.parent/'physical.npz', record['physical_sha256']))
+    return all(file.is_file() and digest(file) == expected for file, expected in pairs)
+
+
+def last_prefix_event(directory):
+    """Bounded actual event projection; no parameter vectors or field arrays."""
+    path = directory/'events.jsonl'
+    if not path.exists():
+        return None
+    with path.open('rb') as stream:
+        stream.seek(max(0, path.stat().st_size-16384))
+        lines = stream.read().decode('utf-8', errors='replace').splitlines()
+    for line in reversed(lines):
+        try:
+            event = json.loads(line)
+            return {key: event[key] for key in ('event', 'elapsed', 'kind', 'count',
+                'error', 'nodes', 'rms', 'success', 'status', 'metric', 'darboux')
+                if key in event and isinstance(event[key], (str, int, float, bool, type(None)))}
+        except (ValueError, TypeError):
+            continue
+    return None
 
 
 def main():
@@ -50,7 +101,9 @@ def main():
     from continue_material_true_tail import prefix_gate
     initial_run = args.source_run.resolve()
     initial = load(initial_run)
-    if not prefix_gate(initial) or not initial.get('raw_return', {}).get('success'):
+    if (not prefix_gate(initial) or
+            not original_finite_checks(initial)['solver_and_boundary_pass'] or
+            not complete_initializer(initial_run, initial)):
         raise ValueError('An actual accepted prefix must precede design continuation')
     if initial.get('actual_tail_requested') or initial.get('fixed_metric_refinement'):
         raise ValueError('This design entry only continues its declared original linear DN')
@@ -89,6 +142,10 @@ def main():
             while process.poll() is None:
                 lines = log.read_text(errors='replace').splitlines()
                 state['progress']['last_log'] = '\n'.join(lines[-3:])[-2000:]
+                if '--outdir' in command:
+                    event = last_prefix_event(Path(command[command.index('--outdir')+1]))
+                    if event is not None:
+                        state['progress']['last_actual_prefix_event'] = event
                 save()
                 time.sleep(15)
         state['progress']['returncode'] = process.returncode
@@ -162,8 +219,15 @@ def main():
             audit = result.get('prefix_audit',{})
             returned = result.get('raw_return',{})
             physical_bc = audit.get('physical_bc_max')
-            accepted = bool(code == 0 and prefix_gate(result) and returned.get('success')
-                and physical_bc is not None and physical_bc <= result['gates']['physical_bc_tol'])
+            checks = original_finite_checks(result)
+            complete = complete_initializer(path, result) if path.exists() else False
+            metric = audit.get('metric_l1')
+            accepted = bool(code == 0 and prefix_gate(result)
+                            and finite_nonnegative(metric, 1e-6)
+                            and checks['solver_and_boundary_pass'] and complete)
+            metric_only_failure = bool(code == 0 and checks['solver_and_boundary_pass']
+                and complete and isinstance(metric, (int, float))
+                and not isinstance(metric, bool) and math.isfinite(metric) and metric > 1e-6)
             row = dict(name=name, homotopy=target, modes=modes, accepted=accepted,
                        solver_success=result.get('solver_success'),error=result.get('error'),
                        metric=audit.get('metric_l1'),physical_bc_max=physical_bc,
@@ -171,7 +235,13 @@ def main():
                        raw_sha256=returned.get('sha256'),
                        run_sha256=digest(path) if path.exists() else None,
                        physical_sha256=result.get('physical_sha256'),
-                       source_run=str(seed_run),run=str(path),returncode=code)
+                       source_run=str(seed_run),run=str(path),returncode=code,
+                       original_finite_checks=checks,complete_saved_initializer=complete,
+                       metric_only_failure=metric_only_failure,
+                       domain_newton_stats=result.get('domain_newton_stats'),
+                       domain_error_counts=result.get('domain_error_counts'),
+                       actual_delta=(result.get('frozen_profile') or {}).get('delta'),
+                       actual_audit_mean_nodes=audit.get('samples_psi'))
             state['stages'].append(row)
             state['result'] = dict(last_attempt=row,last_accepted_run=str(current_run),
                                    accepted_lambda=accepted_lambda)
@@ -181,8 +251,7 @@ def main():
                 accepted_lambda = target
                 targets.pop(0)
                 seed_run,seed = current_run,current
-            elif (result.get('solver_success') and not result.get('error') and
-                  returned.get('success') and result.get('physical_sha256')):
+            elif metric_only_failure:
                 larger = [x for x in args.mode_levels if x > modes]
                 if not larger:
                     state['status'] = 'design_requires_more_modes';save();return 2

@@ -6,7 +6,7 @@
 
 连通闭C²嵌入、C²连续族；H闭、有内点且diamH≥.2D，整像δhold≥.1D、含反射δE>0，全时reach≥.03D。固定完整g/物理数据/时间范围加密到完整metric≤1e−6并持续下降。必须实际闭合和共用Cartesian两jet；λ<1不提供准确圆弧H。
 
-- 公共已完整读规则并真实pull：`5928df89a30203b3acbe5beccb4a4ca9ad68693e`；私有根README/QUEUE接手登记已推 `2f68946f2fa3e192a291c7c1393231af1a89953e`。每次pull核双README差异，至少每小时一次。root独占git，逐结论push，NFF立即pull --rebase再推，禁force；令牌只命令行。
+- 公共已完整读规则并真实pull：`0f10d07d22da99156491bc46c6c565a83c19a42e`；私有根README/QUEUE接手登记已推 `2f68946f2fa3e192a291c7c1393231af1a89953e`。每次pull核双README差异，至少每小时一次。root独占git，逐结论push，NFF立即pull --rebase再推，禁force；令牌只命令行。
 - 工作树 `/tmp/held10-astra-06bbeb395471-public3`；旧scratch已失，原/workspace盘满勿删他人文件；旧进程终态不推断。详细[接手/来源](notes/2026-11-26-resume-and-current-sources.md)。
 - 70份源及实际chart69a3e8eb...保物理输入/原门；[恢复入口](notes/2026-11-26-tail-source-recovery.md)，不当新数学结果。
 - 公共[material run45763361623](https://github.com/Rogerhu12/math-research-public/actions/runs/45763361623)：M24 cold已真实δ中心差分越域，无raw；三路parent原门拒源exit2。M16/512 cold自然status1/n5860/RMS10.0388736684未门，rawba1b5a5e。历史λ.004完整H独立尾修复native预mkdir后，[factor.25已真过](notes/2026-11-26-recorded-lambda004-tail-factor025-actual.json)：包84c10c24/res6.24244e−10且原audit返回，正求.5；该原prefix metric未门，勿称匹配耦合/fullH。
@@ -14,17 +14,18 @@
 - 05:51/09:18 UTC本地两次重置；09:31恢复后/tmp全失，已重建public3并真实pull、双README无变。远端计算与已推源码保留，未推本地记录不可假定存在。
 - 根§12优先真实数学/求解，§15可再生数组不入Git/Release/artifacts；只存源/参数/命令/hash/小标量。H<10KB、单MD<100KB、目录<200MB，不写根LOG。
 
-## 新结论与当前三路
+## 新结论与当前路线
 
 **R63已证明**：[固定g与未知核心](results/R63-fixed-metric-and-solution-core-variables.md)：g=ds²+aδ²dθ²不含单位速入口q/c；同一P/加权ℓ¹₄可求未知核，须非零支、全场C² Cauchy及残差下降。旧δ漂移design不作固定g精化。
 
-**R65已证明**：[端点核/暖补弧族](results/R65-r53-endpoint-kernel-and-warm-supported-core.md)。无限维局部核与有限解析切向单射并存，不凭此报有限Jac秩亏；暖族d0保完整锚点。**R68已证明**：[补弧坐标控制](results/R68-complement-interval-phase-controls.md)：旧Wsin全周期族存在指数近核，新补弧谱族有显式M⁻⁶曲率L²下界；M24新basis sampled cond87.52，仅表示诊断。[独立v3](notes/2026-11-26-warm-v3-complement-entry.md)已双审/排同runner下一项，从实际零锚真验后实求，不改在跑v2，不称BVP逆界或已解。
+**R65已证明**：[端点核/暖补弧族](results/R65-r53-endpoint-kernel-and-warm-supported-core.md)。无限维局部核与有限解析切向单射并存，不凭此报有限Jac秩亏；暖族d0保完整锚点。**R68已证明**：[补弧坐标控制](results/R68-complement-interval-phase-controls.md)：旧Wsin全周期族存在指数近核，新补弧谱族有显式M⁻⁶曲率L²下界；M24新basis sampled cond87.52，仅表示诊断。[v3](notes/2026-11-26-warm-v3-complement-entry.md)已从同零锚实求，当前未推进λ；不称BVP逆界。
 
 **R67已证明**：[全谐波固定帽](results/R67-universal-threefold-marker-and-euclidean-noncongruence.md)：非圆凸核总有某3j矩；全阶帽及两短柱选择给全E(3)非全等。帽成本保条件余量，仍欠实际λ1图。
 
-1. material已自然失败M16冷恢复；历史λ.004完整H独立尾修fresh目录后正真算.25（非λ.002耦合）。暖runner已重获原M24场并续核心设计，旧.25/.5/未知.75不转当本次完整尾。
+1. material原λ.004独立尾factor.25包/audit已真过，现续.5；不是原λ.002匹配耦合。旧.25/.5/未知.75不当本次接受。
 2. warm run45775899674：原M24已必要恢复；[v2十二次真实返回](notes/2026-11-26-warm-v2-continuation-final.json)均RMS未门，最后λ.0020009765625/RMS2.9935e−5，止于原最小步门，未晋失败场。随后[v3同图零锚实际通过](notes/2026-11-26-warm-v3-anchor-actual.json)：runed26f665，631点/RMS9.92715e−7/双角metric≤6.48242e−7，solver_invoked=false；[首λ.004真实失败](notes/2026-11-26-warm-v3-first-lambda-failure.json)：RMS.124646/1个tiny步，续.003；无新接受。固定完整P/anchor/chart/gauge/mean1168，只有metric单失败才升M。λ1后[真DN](notes/2026-11-26-warm-lambda1-actual-dn-entry.md)及[独立actual精化](notes/2026-11-26-actual-dn-refinement-entry.md)继续：同P的M/M+8/M+16与RK16/32/64、原fullH/J/8outer全门，五源已审；旧线性入口不可冒充。
-3. 几何必须保真primitive/mean1168和公共Cartesian两jet。R66三重高度下连续转角I=1给primitive闭合；实际I/投影误差仍欠。[新cut](notes/2026-11-26-seam-new-prefix-cut-entry.md)显式v1/v2/v3/actual门；[真Zc](notes/2026-11-26-seam-new-true-cut-height-entry.md)动态M、同projection、共右二jet、Fraction全径向积分，不搬旧Zc。[动态全尾v2](notes/2026-11-26-seam-dynamic-tail-geometry-v2.md)以实际M/N完整谱及唯一R节点定义新图，原mean链/同谱修补已接；factory/checkpoint的13项覆盖语义已修，实际三方SHA及安装后参数区绑定。R58完整背景已必要恢复。全新场的尾、修补、尺寸/reach及同问题C²差均仍需真算。
+3. [独立δ-design](notes/2026-11-26-original-delta-design-resume.md)已请求新runner：必要恢复同M24接受种子后原程序续.004/.008/.016…，M24/32/…；不重复冷M16/warm v1，实际run尚待返回。δ/mean随设计可变，未称同g精化。
+4. 几何必须保真primitive/mean1168和公共Cartesian两jet。R66三重高度下连续转角I=1给primitive闭合；实际I/投影误差仍欠。[新cut](notes/2026-11-26-seam-new-prefix-cut-entry.md)显式v1/v2/v3/actual门；[真Zc](notes/2026-11-26-seam-new-true-cut-height-entry.md)动态M、同projection、共右二jet、Fraction全径向积分，不搬旧Zc。[动态全尾v2](notes/2026-11-26-seam-dynamic-tail-geometry-v2.md)以实际M/N完整谱及唯一R节点定义新图，原mean链/同谱修补已接；factory/checkpoint的13项覆盖语义已修，实际三方SHA及安装后参数区绑定。R58完整背景已必要恢复。全新场的尾、修补、尺寸/reach及同问题C²差均仍需真算。
 
 新几何入口：[真核](notes/2026-11-26-warm-true-core-interval-extension.md)、[全前缀metric](notes/2026-11-26-warm-continuous-prefix-metric-entry.md)、[真桥metric/K/位置](notes/2026-11-26-warm-continuous-bridge-geometry-entry.md)、[两全尾C²差](notes/2026-11-26-seam-actual-tail-c2-comparison.md)。保真π/mean1168/全径向断点/唯一primitive；尾差保真实ΔZc/Δmu_cut和完整谱，未含cut修补。只有API/纯代数小检查，尚无新λ1场证书；新actual-refine的旧reader待显式适配。
 
@@ -39,9 +40,9 @@
 - 原λ.004/M24 metric1.53303e−6未门；升M32 λ.004 metric7.604677e−7、λ.008 metric7.844246e−7过，mean1552。δ/c为设计未知；λ.016旧终态未知。[M32/.008](notes/2026-11-20-m3-newg-lambda0008-m32-accepted.md)。
 - R54横向圆弧H允许柱长ℓ≤.01；R55宽盒若实际全图D0≤2.68/K≤12.3/support≥.087，则D≤2.69、reach/D>.03022335、H径比>.2006459、m3held>.1097823。[条件窗](notes/2026-11-20-soft-start-wide-design-box.md)。不是已实现比例。R55原短ramp障碍/R57中间k=.45障碍不排所有C²；最终k=.2另有首段保护窗预算。
 - R58真实4.625背景h<.025835/w≤.41/K≤8，z_b∈[.1,1.28]时尺寸/support预算已付。x图二阶有跳，物理R图才能共C²；原局部G16/α积分层已付，IEEE和新非旋转场不自动通过。
-- R60原M24显式C²桥（共同Hermite/真primitive/mean1168）：全角全径向metric<9.3e−7、半径<1.245/support>.3986798571/K<8.367444；统一目标g的末.001修正旧界<9.301e−7。同prefix真高度z0∈[.44631325,.47839692]。R64直接primitive给A−Rc约2.2575781683e−17且非零，同一目标修补后metric<9.300000001512e−7；新源已实跑，停止继续磨该微小项。不能把旧场界搬到新trueDN场。
-- R61中央L=.001显式C²入口修补，metric≤8.19863e−7/K≤2.18421/半径<1.14/support>.504。原prefix--bridge 219个Yjet和3个ejet精确相等，同mean1168/真高度，不需patch。
-- R62原M24完整前缀真core和桥：1065闭径向区间×4672角盒、metric≤9.695184e−7/K≤9.649812、未决0。合R61为完整开放连接器，不是fullH或闭族。原core积分/反函数/Γ3/Γ4已付，勿重铺盒。
+- R60旧M24桥metric<9.3e−7/半径<1.245/support>.3986798571/K<8.367444，同prefix真z0∈[.44631325,.47839692]。R64已将同一末.001目标修补收紧至metric<9.300000001512e−7，A−Rc约2.2575781683e−17且非零。旧场已付，不迁移新场、不继续磨微项。
+- R61旧L=.001精确C²入口metric≤8.19863e−7/K≤2.18421/r<1.14/support>.504；旧prefix—bridge所有共同两jet/mean1168/真高度已相同，不需再patch。
+- R62旧完整前缀1065径向×4672角盒已全过metric≤9.695184e−7/K≤9.649812；合R61是开放连接器。真core积分/反函数/Γ3/Γ4已付，勿重铺旧盒。
 - 原.25真实尾已付stage0/127/128/143/144和整cell7共R结点图；cell7的144段metric≤4.885242e−25/K<8.001、143内缝及deep锚共用。[整cell7](notes/2026-11-20-warm025-shared-r-cell7.md)。深C²圆领metric<3.772e−30/K<8.001并接R58平盘。余尾/实际fullH尚欠，不重复已付部分。
 - 原桥cut的完整两jet已导出，含非零mean导数约−.08005981069/1.86392648427，不能只接H。[两jet](notes/2026-11-20-m24-true-bridge-cut-r-two-jet.md)。Zc≥.4981646、zb=Zc+μc∈(.49,1.27)已付，仅高度常数合同。
 - 旧低幅闭族R28/29/31仅held/D>.005462656，其全C²极限未证。旧旧g线性/trueDN、n4/other unknown状态均按前H/open与notes，不重演失败链。
