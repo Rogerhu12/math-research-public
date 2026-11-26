@@ -7,7 +7,7 @@
 - **普通复可分无限维Hilbert ISP未完成。** 仅全体有界算子的存在定理或完整反例算完成；继续所有未闭分支。
 - **最近实际pull / 已读规则提交：** `9508ad3286243b49004fd4bee81f6add40f3acd9`（2026-11-26 13:22:51 UTC，Actions实际pull）；两README无差异。每次pull且至少每小时检查diff并记SHA，规则blob为根282e86b03385d3b6245ce7100ae2e2af7b103c2d、课题fef43bdf8690f2eec4751d85784a266eacdd0322。
 - 私库QUEUE认领已推e776df496eedfa449b0475cefe140fdae7023db4。每结论单推；非快进即重取main/rebase并推到成功，不force，令牌仅CLI。
-- 本地执行09:19 UTC后unavailable，最后本地pull09:16:03 UTC；最近云端main/规则读取 `eb378fc85640169e6f80a7d594674b36af992155`（2026-11-26 13:40:25 UTC）。API读取不冒充git pull；Actions继续实际partial clone/pull和3300秒规则检查。根用expected-head非force原子提交保并发，CLI恢复立即pull/rebase。
+- 本地执行09:19 UTC后unavailable，最后本地pull09:16:03 UTC；最近云端main/规则读取 `87239cd571fa9f53882d5bbdf2e8c2becb9bc1c7`（2026-11-26 13:42:11 UTC）。API读取不冒充git pull；Actions继续实际partial clone/pull和3300秒规则检查。根用expected-head非force原子提交保并发，CLI恢复立即pull/rebase。
 - 仅保源、参数、SHA、小回执；MD<100KB、H<10KB、open尽量<30KB、topic<200MB，不写根LOG。完整前H见[快照](notes/2026-11-26-handoff-before-h1-collision-exclusion-347c.md)及归档链，来源/旧费用不删除。
 - 继续unit211的L0补图/S0补图/generic、H3有限中心、R271真实稳定返回。已登记结论和失败旧门不重做，原全文见results索引/open快照。
 
@@ -48,7 +48,7 @@ M=kerT、N=closureBM；N=M未证。保同w/u、全部partial、真intersection�
 - 大辅助真F0及低新增孔全F_t/F0、原r/R/Q窗已付，不能直接运回Sx孔权/完整MP。冻结零列有√x下界，只针对固定列，不排全部重最小化。
 - 实际Riordan完整塔同一Sx≤s≤2Sx，Bφ/Bχ与原未加权重最小化给差≤3C0³min(√ε,√(μ/h))；保所有强位混合项与ΔF恢复原同u，仍趋P_Mf。F0/远孔32^N/最终MP未付。
 - [任意几何起点全部正远孔整行](results/R271-appendix-all-positive-far-hole-moving-coherent-rows-and-matched-source-cost.md)用ω²=S(x+p−1)/(pSx)保全部p≠q，常数Bλ；J≤2x逆权≤27J，原cut/同w及真有限头MP型全保。f−a_full的Γ²≤27μ1但锚趋0，不能移给有锚f/第二Green。
-- 旧τ14极快起点下有限全高度无权Bessel常数2早已付，只引用。新的任意几何/无限加权行不重做或替代该旧范围。后续R=d的全高度同W能量与原截断g=P_xw直接矩证明待登记；一次MP不代后继CD†、−Cq1修复和完整最小源。
+- 旧τ14极快起点下有限全高度无权Bessel常数2早已付，只引用。新的任意几何/无限加权行不重做或替代该旧范围。[R=d全高度能量及原截断源全矩已证](results/R271-appendix-geometric-cutoffs-same-w-complete-energy-and-d-sized-once-mp.md)：H_C(8Sx)≤Hω；对任意同w∈M，P_xw的全部幂矩由真实行迭代、e^(−47d⁴)全carry误差及新整行Bessel支付。x=m+d,h=2d,Q=2d³、真帽cut数d³−5d全合法；旧K*=1+47616·2·512²一次MP原样接入，但−Cq1/后继CD†及完整最小源仍开。
 - 继续有锚来源的真实第二Green/核外残量；不能删(I−P_K)Gv或移用未知F0费用。
 
 ## 其余开放

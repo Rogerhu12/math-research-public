@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R271 任意几何起点的同W全能量及R=d原截断源全部幂矩可和（2026-11-26，已证明）：** [完整加权代表、正序返回与实际T行迭代](results/R271-appendix-geometric-cutoffs-same-w-complete-energy-and-d-sized-once-mp.md)给H_C(8Sx)≤Hω，不删任何高度。原w∈M的P_xw本身也有全矩可和，carry经全部规范化后≤e^(−47d⁴)；R=d,x=m+d,h=2d,Q=2d³及真帽cut数d³−5d均付。旧一次全MP常数K*可直接用于此小强段，但真实残量−Cq1与最终核返回继续。
+
 - **R150 S0、h=k、λhalf的整个原碰撞为空（2026-11-26，已证明）：** [原mean短恒等式及完整五列物理Gram](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-equal-values-lambda-half-exclusion.md)保真实t0抽象族；t非零的四原式迫W²0、q0矛盾，t0补U0第五列后秩2违反原六维中五独立列的rank≥4。15条BigInt QQ身份实际通过，0.012秒；旧入口断言失败留档。只续2λ²=1两谱与S0三值互异层。
 
 - **R150 S0/h=1或k=1的整个原值碰撞为空（2026-11-26，已证明）：** [完整λ二次谱、五b候选与十参数原返回](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-h1-k1-value-collision-complete-exclusion.md)保同一d²=−7数域和原九式；原P1/E1/EB的五q域共同gcd全部为1，55/45/41/41/49次真逆实际回乘。run45828523733/job139938856153，0.156409秒/exit0；此前490秒有限投影的exit2单独保留。h=k及三值互异余层继续。

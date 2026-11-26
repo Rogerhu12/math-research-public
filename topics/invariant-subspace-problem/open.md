@@ -4,7 +4,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-26-open-before-h1-collision-exclusion-347c.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-26-open-before-d-sized-complete-energy-347c.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -83,13 +83,13 @@ rank$H=4$ 的非单位局部块长度5、4、3已排；长度2单零的三种单
 
 **既闭的完整空间/真旗范围：** 原全部新增强位全空间源、最高单位不变、全0<S≤1的任意高度真旗/Green及来源已付，原γ<1/16的绝对Zγ、真F0与完整物理MP仍开；全部准确常数、原域/同forcing、短长链及执行身份保[前完整快照](notes/2026-11-26-open-before-all-positive-far-rows-347c.md)及其归档，不重做。
 
-**[大辅助方差真实F0已取得完整逼近](results/R271-appendix-large-auxiliary-variance-true-kernel-galerkin-approximation.md)：** 对原未加权压缩inverse，低新孔≤L列真实属于全部F_t和F0，r≥2d+L给能量误差≤(16/15)32^(−L−1)。L=d、r=3d+1、R=576(m+1)²d²、Q=R+r严格满足原窗和零头改基；s=K/y给无权ξ≤e^(−2d)及真压缩源强趋P_M。原物理列加准确i0ξ后保同V/K/u/partial。剩余为Sx的绝对孔权，或把此同源列送回真正物理核/纯高度代表的全部MP和真帽费用；辅助到物理逆缩放不能由无权小残量代付。
+**[大辅助真实F0完整逼近](results/R271-appendix-large-auxiliary-variance-true-kernel-galerkin-approximation.md)已付：** 原未加权压缩inverse、全部低新增孔F_t/F0、r=3d+1及原R/Q合法窗均已付；原同u/partial与准确费用见正文及本次open快照。仍须Sx孔权或完整MP/真帽物理返回，不以无权小残量代付。
 
 **[大辅助零列不能冻结返回](results/R271-appendix-large-variance-fixed-zero-column-return-lower-bound.md)：** 固定原零列的真实核返回有√x下界；该障碍不适用于重新最小化全部列。旧准确常数及合法窗保归档，勿重做。
 
 **[真空源矩给实际物理1/y运输及全inverse权界](results/R271-appendix-vacuum-source-moments-all-strong-physical-transport-and-weighted-inverse.md)：** 原全部新增位的精确elementary/falling-factorial平方和≤ηe^(ηH)μ1；正号翻译保旧/新两个真实物理同u列，Γ_new差≤96√μ1/(√(3K)y)，一次log方差选择对全部合法x/Q给Δ/(y√K)。原完整inverse的Γ共轭≤31/30，闭自然域推广无限L_m及全级数Gram。它仍是大辅助全空间正则化源，不是物理核，也不能把增长Q的同源身份当固定cut；继续原T比较、真约束Schur及物理返回。
 
-**[原全T完整Gram逆的闭孔权界](results/R271-appendix-global-actual-operator-weighted-full-gram-inverse.md)：** c26取j=k0并完整求和给两向全carry费≤e^(−7d⁴/4)；y=m+d、s≥2²⁴/y时，全部有限/无限J的原未加权inverse共轭≤16/15，和L_m之差≤e^(−d⁴)。闭域/伴随/全级数均付，保同一个w的准确配对与旧物理列1/y差。s趋0须同时移动权起点，故未推出P_M同孔权；继续真实F0混级及物理MP返回。
+**[原全T完整Gram逆闭孔权](results/R271-appendix-global-actual-operator-weighted-full-gram-inverse.md)已付：** y=m+d、s≥2²⁴/y时原全有限/无限J inverse共轭≤16/15，完整L比较、闭域/伴随与同w身份见正文及快照。s趋零须移动权起点，不能据此推出P_M的同孔权；真F0/物理MP继续。
 
 **[指数远孔起点的全T相对Gram及真实残量](results/R271-appendix-exponential-weight-cutoff-relative-global-gram-and-actual-weighted-residual.md)：** 完整L列投影的两向Γ界≤16/15；环境正算子I+P(U*U−I)P运输原未加权最小者，既不假Γ保列空间也不付e^(81/s)。有限J/s≤ℛ_m²给整列≤9/8；准确尾截J*≥max(h−1,81e²/s,4d⁴+2)后完整列≤8/7，T/L差≤e^(−3d⁴/2)，Γ_y T a≤(8/7)√s‖f‖。原同w配对准确，真空μ1还给实际物理1/y差。y≤e^(12d³)、R576(m+1)²y²、Q=R+r合法；最高零头改基须改上限为e^(12(d/2)³)。继续同一实际残量的清除：通用Xκ右逆仍付e^(κy)且未给输出孔正则性，不把小残量当真核。
 
@@ -145,3 +145,5 @@ A单射、稠密像、拟幂零且非紧；普通非零真闭不变子空间仍�
 **[三位N头的高孔完整极点界](results/R271-appendix-three-bit-highest-carry-high-hole-principal-minor-residue-order.md)（已证明）：** 五短尾链以真正整数/有理重建证开齐全部新增秩，非正交翻孔形式与完整极点方程给q₋₁=O(s^(R/2−3))。原强权还有对所有0<s≤1的显式10^100·4^R(3+R/2)^16 s^(R/2−3)Z_R(s)，所有强段相似费用在前因子，Z_R是原完整高孔加权残差。run44724947207实际全核通过。下一仍须在实际s=e⁻¹⁰⁷⁰控制Z_R、最高t的余项，并处理一般m；不能把固定R渐近或单极点项当整个费用。
 
 **[全部正远孔的移动整行与同源费用已付](results/R271-appendix-all-positive-far-hole-moving-coherent-rows-and-matched-source-cost.md)：** ω²=S(x+p−1)/(pSx)同时控制所有p≠q交叉，几何起点的Bessel常数仍Bλ；J≤2x仅27J平方逆权。原全部cut、Q/R/J门与同w/u保留，最优Γ²是真有限头全幂Gram的MP型。实际f−a_full给Γ²≤27μ1及正物理列合成界，但该源锚趋0；不能将此费移给有锚f、a−PkerC f、第二Green或真F0。继续同一有锚来源的实际最优费用与稳定范围端点。
+
+**[任意几何起点同W全能量及R=d原截断源全矩现已付](results/R271-appendix-geometric-cutoffs-same-w-complete-energy-and-d-sized-once-mp.md)：** Hω与原H_C(8Sx)的正序支付全部1≤j<h，未删层；R=d,x=m+d,h=2d,Q=2d³、真帽cut数d³−5d合法。对任意同w∈M，原行迭代与全carry误差≤e^(−47d⁴)给P_xw本身全部规范化C幂矩可和，继而原完整inverse能量可和。旧一次全MP常数K*=1+47616·2·512²可直接用于该小强段；z1仍满足(C+D)z1=−Cq1。继续同forcing、带锚第二Green及真实残量修复，不把一次MP或源矩当N=M。
