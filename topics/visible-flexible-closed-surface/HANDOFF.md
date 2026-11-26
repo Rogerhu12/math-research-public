@@ -52,5 +52,5 @@
 外部h487继续；geometry保旧20接受，独立冷任务新请求已发，跟踪实际状态；solver保91列完整预条件核，v5新请求已发表，跟踪实际启动/退出；exact接同g多层暖启动和频率提升。完成子问题接open下一项，不作阶段收尾。
 <!-- 6a65-ci-rules --> run 45778054176/1；实际 pull #183 至 `42d711248fdfcc164c1fa7c87770ab529ae24ca5`；2026-11-26T13:10:41+00:00；双 README 无差异，沿用根已读规则；回执原因 pre-process:Cauchy-original-then-Cartesian1-current-field。
 <!-- 6a65-m12-ci-rules --> README unchanged at e74a6d1b37742414d1215bb37440b7c2fe56851c; run 45804794238 attempt 1.
-<!-- 6a65-m12-entire-half-ci-rules --> README unchanged at 1cfa701b2092e25100c934e5361ae58b4b2ad93c; run 45833090043 attempt 1; frozen numerical source a060a8d1cb7bf95d6b8d5087467cf63377e3867e.
+<!-- 6a65-m12-entire-half-ci-rules --> README unchanged at 29983ee62ad3eac1fa280850f8661272e1749f39; run 45833090043 attempt 1; frozen numerical source a060a8d1cb7bf95d6b8d5087467cf63377e3867e.
 <!-- 6a65-cartesian-cold-ci-rules --> run 45825253169/1；实际pull至 `889ec53f9daff7267daed589b1180c960a989d80`；2026-11-26T13:13:29.802537+00:00；双README无差异。
