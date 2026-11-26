@@ -10,6 +10,8 @@
 
 ## 新增结论
 
+- [真实物理58／224／32执行入口](notes/2026-11-26-physical-scalar-execution.md)（2026-11-26）：显式接受R142六新目标及原Green前缀，已成阶段仅读，完整前置成功才生成gate/ports/wpn入口；实际输出尚待，不生成占位数值。
+
 - [R143实际相关体预算](results/R143-supplement-actual-correlated-body-budget.md)：45762052058/1完整4651格六球成功；Ccorr<17.809、wE<19.745、aEE<.641002、aEB<.555960，body三门true，最优必要upper约.0378703仅未排；条件allow lower>555.584，真实根费仍待。
 
 - [R145：同selected成员ν-proposal的正区源与外两行](results/R145-selected-nu-proposal-positive-source-and-outer-rows.md)（2026-11-26，已证明）：复用完整旧球及精确多项式/角微分，full/low/high源<2.9478e−5/2.9476e−5/2.8714e−5，真实Robin<9e−12、独立physicalmean<4e−18；负/germ/root/height及全逆仍待。

@@ -383,3 +383,8 @@ positive推L1–25及pure13580B/2c5002f9，global整篇/整源独审；root再�
 ## 2026-11-26 R143实际：相关体费用完整改善
 
 会话visible-exact-astra-198c63d-20261126。45762052058/1全4651格6球，唯一child0/math.298950s；science30248B/4b2f6625、execution16646B/3ccdbc9d，30当前回执与新manifest相合。Ccorr<17.809/wE<19.745/aEE<.641002/aEB<.555960，body三门true，最优必要upper约.0378703未排，条件allow lower>555.584。只消费旧SG等球，旧目标0；真实root费用及全逆仍待，下一步保角依赖高逆与完整源交叉。
+
+
+## 2026-11-26 真实物理58／224／32阶段入口
+
+会话visible-exact-astra-198c63d-20261126。补完整低输出后的实际scalar owner/worker/manifest生成器，明确R142六新目标+旧Green前缀准入，weighted高图单独绑定，不冒旧GH4。每阶段保存读回后才可接下一阶段，目标完整分支和224/32顺序已核；旧阶段仅恢复保存记录，不重复数学。已有失败前缀路由ready=false，未造manifest或数值；新科学待低逆真实通过。
