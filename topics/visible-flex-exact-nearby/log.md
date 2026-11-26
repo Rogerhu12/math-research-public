@@ -198,3 +198,5 @@ NS五件共129172B，owner71056B SHA18db439d5895e4232882940a57b7bd9457982383e1ac
 2026-11-26 19:21:54 UTC / visible-exact-astra-fb31ed6-20261127：TC第二次实际失败未接纳不同cubic。按原成功43583838026/1的日志恢复不可变Docker镜像及原未指定BLAS核；新manifest保持137当前/32历史、原完整SHA门和TC数学源，独立workflow推送触发。课题外workflow仅执行本题必要恢复和未成目标。
 
 2026-11-26 19:23:22 UTC / visible-exact-astra-fb31ed6-20261127：DP并行owner/generator/执行说明接齐，保旧PS真实前缀和完整数学源，三子进程只写小标量片，全部片已成时只做全域汇总不重Green。尚未生成触发入口，待停止低效串行run后先读真实终态并选最新完整前缀。
+
+2026-11-26 19:25:20 UTC / visible-exact-astra-fb31ed6-20261127：取消串行run45880363964的请求被自动审批拒绝，理由是可能丢失未公开进度；没有绕过。保留现有run，DP只待其真实终态再续算。NS/signed/CP/physical八个metadata来源分支现接完整DP结果，科学执行尾和数学目标不变，尚无后继实际结果。

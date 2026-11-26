@@ -116,7 +116,8 @@ def main():
         "OLD_EXECUTION_ROLE", "OLD_MANIFEST_ROLE", "TARGETS", "RUNTIME",
         "CERTIFICATE_PARAMETERS", "GATE_SUFFIX", "SCI_FIELDS",
         "ORIGINAL_MANIFEST_PATH", "ORIGINAL_MANIFEST_SHA256",
-        "ORIGINAL_DEFECT_KIND", "STREAM_DEFECT_KIND", "ORIGINAL_DEFECT_OWNER_SHA256",
+        "ORIGINAL_DEFECT_KIND", "STREAM_DEFECT_KIND", "PARALLEL_DEFECT_KIND",
+        "PARALLEL_DEFECT_OWNER_SHA256", "PARALLEL_DEFECT_MATH_SHA256", "ORIGINAL_DEFECT_OWNER_SHA256",
         "STREAM_DEFECT_OWNER_SHA256", "STREAM_DEFECT_MATH_SHA256", "DEFECT_NORM_FIELDS"})
     require(constants["SOURCE_PATH"] == OWNER_PATH
             and constants["KIND"] == "complete_R149_low193_signed_loop_coercivity_v1"
@@ -149,12 +150,13 @@ def main():
     old_manifest_raw = (root/old_manifest_path).read_bytes()
     actual, execution, old_manifest = map(json.loads, (
         old_actual_raw, old_execution_raw, old_manifest_raw))
-    require(actual["kind"] in (constants["ORIGINAL_DEFECT_KIND"], constants["STREAM_DEFECT_KIND"])
+    require(actual["kind"] in (constants["ORIGINAL_DEFECT_KIND"], constants["STREAM_DEFECT_KIND"],
+                                constants["PARALLEL_DEFECT_KIND"])
             and old_manifest["kind"] == manifest["kind"]
             and old_manifest["repository"] == manifest["repository"]
             and old_manifest["problem_id"] == manifest["problem_id"]
-            and len(old_manifest["files"]) in (77, 85),
-            "only a whole original77 or exact PS85 source closure")
+            and len(old_manifest["files"]) in (77, 85, 88),
+            "only a whole original77, sequential PS85 or shared-Green DP88 source closure")
     require(isinstance(actual["certificate"]["defect"], dict),
             "no complete six-ball defect exists: use the unfinished PS path, never this new target")
     predecessor_additions = []
@@ -203,16 +205,16 @@ def main():
     require(len({item["role"] for item in manifest["files"]}) == len(manifest["files"])
             and len({item["path"] for item in manifest["files"]}) == len(manifest["files"]),
             "whole new entry has unique roles and paths")
-    # These two reviewed functions perform only whole metadata comparisons and
+    # These three metadata functions perform only whole metadata comparisons and
     # exact decimal-record decoding. Importing or running the scientific owner,
     # any producer entrypoint, or a numerical library is not permitted here.
-    metadata_names = {"readonly_decimal_endpoints", "completed_parent_defect"}
+    metadata_names = {"readonly_decimal_endpoints", "readonly_parallel_defect_domain", "completed_parent_defect"}
     metadata_tree = ast.parse(owner_raw.decode("utf-8"), filename=OWNER_PATH)
     metadata_nodes = [node for node in metadata_tree.body
                       if isinstance(node, ast.FunctionDef) and node.name in metadata_names]
     require({node.name for node in metadata_nodes} == metadata_names
             and len(metadata_nodes) == len(metadata_names),
-            "only the exact owner's two pure metadata admission functions")
+            "only the exact owner's three pure metadata admission functions")
     metadata_namespace = {"require": require, "Fraction": Fraction,
                           "copy": copy, "re": re, **constants}
     exec(compile(ast.Module(body=metadata_nodes, type_ignores=[]), OWNER_PATH, "exec"),

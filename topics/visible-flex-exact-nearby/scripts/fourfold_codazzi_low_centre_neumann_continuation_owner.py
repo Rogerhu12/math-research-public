@@ -271,7 +271,7 @@ def main():
         manifest_spec=specs[PREVIOUS_MANIFEST_ROLE], current_owner_spec=specs[ENTRY_ROLE],
         current_parameters=CERTIFICATE_PARAMETERS, current_runtime=RUNTIME,
         reference_actual=prefix_actual)
-    if previous["kind"] == prefix_admission.STREAMED_KIND:
+    if previous["kind"] in (prefix_admission.STREAMED_KIND, prefix_admission.PARALLEL_KIND):
         original_defect_binding = {
             "kind": "whole_completed_PS_epsilon_true_with_unchanged_execution_v1",
             "scientific": {"file": copy.deepcopy(specs[PREVIOUS_ACTUAL_ROLE]), "json_path": []},
@@ -297,7 +297,7 @@ def main():
         origin_actual = json.loads(core.read_spec(root, origin_specs["scientific"]))
         origin_execution = json.loads(core.read_spec(root, origin_specs["execution"]))
         origin_manifest = json.loads(core.read_spec(root, origin_specs["manifest"]))
-        require(origin_actual["kind"] == prefix_admission.STREAMED_KIND,
+        require(origin_actual["kind"] in (prefix_admission.STREAMED_KIND, prefix_admission.PARALLEL_KIND),
                 "direct original epsilon reference must be the actual PS outcome")
         prefix_admission.admit(origin_actual, origin_execution, origin_manifest, manifest,
             actual_spec=origin_specs["scientific"], execution_spec=origin_specs["execution"],

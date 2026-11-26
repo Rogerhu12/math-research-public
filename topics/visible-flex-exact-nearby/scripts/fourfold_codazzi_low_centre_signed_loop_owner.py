@@ -58,6 +58,9 @@ ORIGINAL_MANIFEST_PATH = TOPIC + "notes/2026-11-26-low193-parent-moment-inputs.j
 ORIGINAL_MANIFEST_SHA256 = "50e5bbf2e55ee6fa7c24cd074cb2a7bd691101c3167004b840011710ac963b7e"
 ORIGINAL_DEFECT_KIND = "complete_R142_low193_parent_moment_continuation_v1"
 STREAM_DEFECT_KIND = "complete_R142_low193_streamed_defect_continuation_v1"
+PARALLEL_DEFECT_KIND = "complete_R142_low193_parallel_source_slice_continuation_v1"
+PARALLEL_DEFECT_OWNER_SHA256 = "368e0f7f0507c7b926983b25fa09c80630142917a69c6384638ba29c168c5a2d"
+PARALLEL_DEFECT_MATH_SHA256 = "ffbbc4bdfc71bfc9289891746ef9d39df7c14f2a900b324aa56dbb4e66de46cc"
 ORIGINAL_DEFECT_OWNER_SHA256 = "8b18646640f168b47f27e7e76539886e3346689165e82159a45f0fbcdb976b91"
 STREAM_DEFECT_OWNER_SHA256 = "f45cf5788ef3be337127d65282eaf1496ef07fc1cdecb354665a86be899dd621"
 STREAM_DEFECT_MATH_SHA256 = "8873da2b7794d78af8d0be77f0508578ec6bc7f4ea9eb0f0bd63564f61b1015d"
@@ -118,7 +121,8 @@ CERTIFICATE_PARAMETERS = {
     "conjugated_defect_Taylor_degree": 24,
     "original_parent_moment_defect_run": "45761859526/1",
     "accepted_defect_provenance": ["original_complete_false_branch",
-        "original_whole_six_ball_failed_prefix", "streamed_whole_six_ball_false_branch"],
+        "original_whole_six_ball_failed_prefix", "streamed_whole_six_ball_false_branch",
+        "parallel_whole_six_ball_false_branch"],
     "whole_six_ball_defect_in_failed_execution_is_read_only": True,
     "failed_old_execution_relabelled_successful": False,
     "completed_parent_moment_manifest_sha256": "50e5bbf2e55ee6fa7c24cd074cb2a7bd691101c3167004b840011710ac963b7e",
@@ -206,6 +210,75 @@ def readonly_decimal_endpoints(record):
     return (mid-rad)*scale, (mid+rad)*scale
 
 
+def readonly_parallel_defect_domain(c):
+    """Whole saved prefix or complete disjoint union; no new integral is evaluated."""
+    counts = c["refinement"]["counts"]
+    prefix = c["source_integral_prefix"]
+    keys = ("body_HS2_upper", "root97_HS2_upper", "outer96_HS2_upper")
+    require(isinstance(prefix, dict) and set(prefix) == {
+        "kind", "source_roles", "complete_original_parent_count", "complete_parent_count",
+        "complete_refined_cell_count", "complete_model_cell_count", "whole_output_atom_count",
+        "all_real_radial_outputs_in_each_source_slice", "both_same_cell_signed_triangles_retained",
+        "moments_contract", "sums", "whole_saved_prefix_readback_used"}
+        and prefix["kind"] == "R142_complete_parent_source_integral_prefix_v1"
+        and prefix["source_roles"] == ["true_coefficient_defect"]
+        and prefix["complete_original_parent_count"] == 155
+        and prefix["complete_model_cell_count"] == 1424
+        and prefix["whole_output_atom_count"] == 193
+        and prefix["all_real_radial_outputs_in_each_source_slice"] is True
+        and prefix["both_same_cell_signed_triangles_retained"] is True
+        and prefix["whole_saved_prefix_readback_used"] is True
+        and prefix["moments_contract"] ==
+            "GM1_through17_exact_whole_cell_covariance_and_two_signed_triangles"
+        and set(prefix["sums"]) == {"true_coefficient_defect"}
+        and set(prefix["sums"]["true_coefficient_defect"]) == set(keys),
+        "whole shared-Green source-prefix semantics and three saved square balls")
+    count = prefix["complete_parent_count"]
+    require(type(count) is int and 0 <= count <= 155
+        and len(counts) == 155 and sum(counts) == 1424
+        and all(type(n) is int and n > 0 for n in counts)
+        and prefix["complete_refined_cell_count"] == sum(counts[:count]),
+        "the exact original-parent base and unchanged full refinement")
+    total = {key: readonly_decimal_endpoints(prefix["sums"]["true_coefficient_defect"][key])[1] for key in keys}
+    require(all(v >= 0 for v in total.values()), "nonnegative whole saved base bounds")
+    if count < 155:
+        records = c["disjoint_source_slices"]
+        require(c["source_slice_partition_base_parent"] == count
+            and isinstance(records, list) and 1 <= len(records) <= 3,
+            "explicit saved base plus at most three complete source intervals")
+        cursor = count
+        for record in records:
+            first, stop, accepted = (record[k] for k in
+                ("first_parent", "stop_parent", "accepted_until_parent"))
+            require(record["kind"] == "R142_disjoint_complete_parent_source_slice_v1"
+                and all(type(n) is int for n in (first, stop, accepted))
+                and first == cursor and first < stop == accepted <= 155
+                and record["accepted_parent_count"] == stop-first
+                and record["accepted_refined_cell_count"] == sum(counts[first:stop])
+                and record["complete"] is True
+                and record["source_roles"] == ["true_coefficient_defect"]
+                and record["complete_original_parent_count"] == 155
+                and record["complete_model_cell_count"] == 1424
+                and record["whole_output_atom_count"] == 193
+                and record["all_real_radial_outputs_in_each_source_slice"] is True
+                and record["both_same_cell_signed_triangles_retained"] is True
+                and record["whole_saved_slice_readback_used"] is True
+                and record["moments_contract"] == prefix["moments_contract"]
+                and set(record["sums"]) == {"true_coefficient_defect"}
+                and set(record["sums"]["true_coefficient_defect"]) == set(keys),
+                "complete disjoint all-output source slice; no gaps or reused parents")
+            for key in keys:
+                upper = readonly_decimal_endpoints(record["sums"]["true_coefficient_defect"][key])[1]
+                require(upper >= 0, "nonnegative saved whole-slice square")
+                total[key] += upper
+            cursor = stop
+        require(cursor == 155, "the entire source domain is covered exactly once")
+    for key in keys:
+        require(readonly_decimal_endpoints(c["defect"][key])[1] >= total[key],
+                "the actual complete norm contains all saved disjoint source-square uppers")
+    return True
+
+
 def completed_parent_defect(actual, execution, old_manifest, old_manifest_raw,
                             original_manifest, original_manifest_raw, green_actual,
                             manifest, specs, digest):
@@ -238,7 +311,7 @@ def completed_parent_defect(actual, execution, old_manifest, old_manifest_raw,
     require(actual["manifest_sha256"] == execution["manifest_sha256"]
                 == digest(old_manifest_raw) == specs[OLD_MANIFEST_ROLE]["sha256"]
             and actual["kind"] == old_operation["scientific_kind"]
-            and actual["kind"] in (ORIGINAL_DEFECT_KIND, STREAM_DEFECT_KIND)
+            and actual["kind"] in (ORIGINAL_DEFECT_KIND, STREAM_DEFECT_KIND, PARALLEL_DEFECT_KIND)
             and actual["run_id"] == execution["run_id"]
             and actual["run_attempt"] == execution["run_attempt"]
             and re.fullmatch(r"\d{1,20}", actual["run_id"])
@@ -256,7 +329,9 @@ def completed_parent_defect(actual, execution, old_manifest, old_manifest_raw,
             and actual["scientific_modules"] == old_operation["scientific_module_binding"]
             and actual["certificate_parameters"] == old_operation["certificate_parameters"]
             and actual["retained_scope"] == old_operation["retained_scope"]
-            and actual["runtime"] == old_operation["fixed_runtime"] == RUNTIME
+            and actual["runtime"] == old_operation["fixed_runtime"]
+            and all(actual["runtime"].get(key) == value for key, value in RUNTIME.items())
+            and (actual["kind"] == PARALLEL_DEFECT_KIND or actual["runtime"] == RUNTIME)
             and sorted(actual) == old_operation["scientific_field_names"]
             and actual["complete_current_file_receipts"] == old_manifest["files"]
             and execution["current_input_receipts"] == old_manifest["files"]
@@ -271,7 +346,9 @@ def completed_parent_defect(actual, execution, old_manifest, old_manifest_raw,
     certificate = actual["certificate"]
     progress = actual["actual_progress"]
     original = actual["kind"] == ORIGINAL_DEFECT_KIND
+    parallel = actual["kind"] == PARALLEL_DEFECT_KIND
     target = ("complete_parent_moment_true_hybrid_low_coefficient_defect" if original
+              else "complete_parallel_parent_true_hybrid_low_coefficient_defect" if parallel
               else "complete_streamed_parent_true_hybrid_low_coefficient_defect")
     minimum_gate = ("whole_same_WVC_context_and_successful_prior_model_identified"
                     if original else "whole_same_WVC_model_and_prior_source_prefix_identified")
@@ -388,6 +465,31 @@ def completed_parent_defect(actual, execution, old_manifest, old_manifest_raw,
                     "unchanged original successful false branch")
         provenance_kind = ("original_complete_false_branch" if actual["complete"] else
                            "original_whole_six_ball_failed_prefix")
+    elif parallel:
+        expected_binding = list(original_manifest["scientific_modules"]) + [
+            old_specs[role] for role in ("low_centre_parallel_defect_owner",
+                "low_centre_verified_green_math", "low_centre_verified_green_local_math",
+                "low_centre_refined_green_math", "low_centre_exact_cell_moments",
+                "low_centre_parent_moment_provider", "low_centre_streamed_parent_moments",
+                "low_centre_parallel_parent_slices")]
+        require(len(old_manifest["files"]) == 88
+                and old_operation["scientific_module_binding"] == expected_binding
+                and old_operation["scientific_entry_role"] == "low_centre_parallel_defect_owner"
+                and old_specs["low_centre_parallel_defect_owner"]["sha256"] == PARALLEL_DEFECT_OWNER_SHA256
+                and old_specs["low_centre_parallel_parent_slices"]["sha256"] == PARALLEL_DEFECT_MATH_SHA256
+                and old_specs["low_centre_streamed_parent_moments"]["sha256"] == STREAM_DEFECT_MATH_SHA256
+                and old_operation["ordered_targets"] == [target]
+                and old_operation["complete_target_counts"] == [1]
+                and actual["completed_targets"] == [target] and actual["current_target"] is None
+                and progress["new_targets_completed"] == 1
+                and progress["accepted_complete_source_parent_count"] == 155
+                and progress["current_source_panels_completed"] == 1424
+                and recorded_gate is False and marker is True and declared is not None
+                and actual["runtime"]["maximum_parallel_source_workers"] == 3
+                and actual["runtime"]["source_process_start_method"] == "fork",
+                "the complete parallel atomic six-ball outcome and unchanged directed arithmetic")
+        readonly_parallel_defect_domain(certificate)
+        provenance_kind = "parallel_whole_six_ball_false_branch"
     else:
         expected_binding = list(original_manifest["scientific_modules"]) + [
             old_specs[role] for role in ("low_centre_streamed_defect_owner",

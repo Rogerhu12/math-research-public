@@ -53,7 +53,7 @@ COERCIVITY_EXECUTION_ROLE = "completed_signed_loop_coercivity_execution"
 COERCIVITY_MANIFEST_ROLE = "completed_signed_loop_coercivity_manifest"
 PRIOR_DEFECT_KIND = "complete_R142_low193_parent_moment_continuation_v1"
 FALSE_PROVENANCE_KIND_V2 = "whole_R142_six_ball_false_branch_with_unchanged_execution_references_v2"
-R149_V2_PROVENANCE_SOURCE_SHA256 = "46b11da5fb7430576d8a38555b12f6fa57104dc8effdf2f0b88d11e181afff0b"
+R149_V2_PROVENANCE_SOURCE_SHA256 = "d55b45eec83c69f201df380703818034a7028b7003c970a2d3c3336c9fa0bb55"
 PRIOR_COERCIVITY_KIND = "complete_R149_low193_signed_loop_coercivity_v1"
 PRIOR_COERCIVITY_TARGET = "complete_same_weighted_body_signed_trace_and_symmetric_part"
 TARGETS = [
@@ -198,12 +198,13 @@ def prior_success(actual, execution):
 def qualify_saved_false_provenance(actual, execution, old_manifest, old_manifest_raw,
                                    original_manifest, original_manifest_raw, green_actual,
                                    retained_manifest, retained_specs, signed_owner_raw, signed_owner_spec):
-    """Reuse only the two exact reviewed R149 metadata functions, never its science."""
+    """Reuse only the three exact R149 metadata functions, never its science."""
     require(hashlib.sha256(signed_owner_raw).hexdigest()
                 == signed_owner_spec["sha256"] == R149_V2_PROVENANCE_SOURCE_SHA256,
             "the exact whole published v2 false-provenance definition")
     source_tree = ast.parse(signed_owner_raw.decode("utf-8"), filename=signed_owner_spec["path"])
     names = {"ORIGINAL_MANIFEST_SHA256", "ORIGINAL_DEFECT_KIND", "STREAM_DEFECT_KIND",
+        "PARALLEL_DEFECT_KIND", "PARALLEL_DEFECT_OWNER_SHA256", "PARALLEL_DEFECT_MATH_SHA256",
         "ORIGINAL_DEFECT_OWNER_SHA256", "STREAM_DEFECT_OWNER_SHA256", "STREAM_DEFECT_MATH_SHA256",
         "DEFECT_NORM_FIELDS", "OLD_MANIFEST_ROLE", "OLD_DEFECT_ROLE",
         "RUNTIME", "GATE_SUFFIX", "CERTIFICATE_PARAMETERS"}
@@ -214,11 +215,11 @@ def qualify_saved_false_provenance(actual, execution, old_manifest, old_manifest
             if isinstance(target, ast.Name) and target.id in names:
                 constants[target.id] = ast.literal_eval(node.value)
     require(set(constants) == names, "all exact literal metadata qualifications")
-    functions = {"readonly_decimal_endpoints", "completed_parent_defect"}
+    functions = {"readonly_decimal_endpoints", "readonly_parallel_defect_domain", "completed_parent_defect"}
     nodes = [node for node in source_tree.body
              if isinstance(node, ast.FunctionDef) and node.name in functions]
     require(len(nodes) == len(functions) and {node.name for node in nodes} == functions,
-            "only the two pure whole-record metadata functions")
+            "only the three pure whole-record metadata functions")
     namespace = {"require": require, "Fraction": Fraction, "copy": copy, "re": re, **constants}
     exec(compile(ast.Module(body=nodes, type_ignores=[]), signed_owner_spec["path"], "exec"), namespace)
     return namespace["completed_parent_defect"](

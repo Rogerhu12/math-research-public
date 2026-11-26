@@ -13,6 +13,9 @@ from fractions import Fraction
 
 KIND = "R142_whole_neumann_source_point_prefix_admission_v1"
 STREAMED_KIND = "complete_R142_low193_streamed_defect_continuation_v1"
+PARALLEL_KIND = "complete_R142_low193_parallel_source_slice_continuation_v1"
+PARALLEL_OWNER_SHA256 = "368e0f7f0507c7b926983b25fa09c80630142917a69c6384638ba29c168c5a2d"
+PARALLEL_MATH_SHA256 = "ffbbc4bdfc71bfc9289891746ef9d39df7c14f2a900b324aa56dbb4e66de46cc"
 CONTINUATION_KIND = "complete_R142_low193_neumann_source_point_continuation_v1"
 STREAMED_OWNER_SHA256 = "f45cf5788ef3be337127d65282eaf1496ef07fc1cdecb354665a86be899dd621"
 MODEL_CHAIN = "33fdf6eeba4d5904c961b2bedea43c5207d80fb66920017168f41f9106cc4d79"
@@ -163,6 +166,75 @@ def whole_transversality(record):
     require(decimal_endpoints(record["actual_raw_orthonormal_matching_singular_lower"])[0] > 0,
             "strict full real-radius matching lower")
 
+def whole_parallel_defect_domain(c):
+    """Whole saved prefix or complete disjoint union; no new integral is evaluated."""
+    counts = c["refinement"]["counts"]
+    prefix = c["source_integral_prefix"]
+    keys = ("body_HS2_upper", "root97_HS2_upper", "outer96_HS2_upper")
+    require(isinstance(prefix, dict) and set(prefix) == {
+        "kind", "source_roles", "complete_original_parent_count", "complete_parent_count",
+        "complete_refined_cell_count", "complete_model_cell_count", "whole_output_atom_count",
+        "all_real_radial_outputs_in_each_source_slice", "both_same_cell_signed_triangles_retained",
+        "moments_contract", "sums", "whole_saved_prefix_readback_used"}
+        and prefix["kind"] == "R142_complete_parent_source_integral_prefix_v1"
+        and prefix["source_roles"] == ["true_coefficient_defect"]
+        and prefix["complete_original_parent_count"] == 155
+        and prefix["complete_model_cell_count"] == 1424
+        and prefix["whole_output_atom_count"] == 193
+        and prefix["all_real_radial_outputs_in_each_source_slice"] is True
+        and prefix["both_same_cell_signed_triangles_retained"] is True
+        and prefix["whole_saved_prefix_readback_used"] is True
+        and prefix["moments_contract"] ==
+            "GM1_through17_exact_whole_cell_covariance_and_two_signed_triangles"
+        and set(prefix["sums"]) == {"true_coefficient_defect"}
+        and set(prefix["sums"]["true_coefficient_defect"]) == set(keys),
+        "whole shared-Green source-prefix semantics and three saved square balls")
+    count = prefix["complete_parent_count"]
+    require(type(count) is int and 0 <= count <= 155
+        and len(counts) == 155 and sum(counts) == 1424
+        and all(type(n) is int and n > 0 for n in counts)
+        and prefix["complete_refined_cell_count"] == sum(counts[:count]),
+        "the exact original-parent base and unchanged full refinement")
+    total = {key: decimal_endpoints(prefix["sums"]["true_coefficient_defect"][key])[1] for key in keys}
+    require(all(v >= 0 for v in total.values()), "nonnegative whole saved base bounds")
+    if count < 155:
+        records = c["disjoint_source_slices"]
+        require(c["source_slice_partition_base_parent"] == count
+            and isinstance(records, list) and 1 <= len(records) <= 3,
+            "explicit saved base plus at most three complete source intervals")
+        cursor = count
+        for record in records:
+            first, stop, accepted = (record[k] for k in
+                ("first_parent", "stop_parent", "accepted_until_parent"))
+            require(record["kind"] == "R142_disjoint_complete_parent_source_slice_v1"
+                and all(type(n) is int for n in (first, stop, accepted))
+                and first == cursor and first < stop == accepted <= 155
+                and record["accepted_parent_count"] == stop-first
+                and record["accepted_refined_cell_count"] == sum(counts[first:stop])
+                and record["complete"] is True
+                and record["source_roles"] == ["true_coefficient_defect"]
+                and record["complete_original_parent_count"] == 155
+                and record["complete_model_cell_count"] == 1424
+                and record["whole_output_atom_count"] == 193
+                and record["all_real_radial_outputs_in_each_source_slice"] is True
+                and record["both_same_cell_signed_triangles_retained"] is True
+                and record["whole_saved_slice_readback_used"] is True
+                and record["moments_contract"] == prefix["moments_contract"]
+                and set(record["sums"]) == {"true_coefficient_defect"}
+                and set(record["sums"]["true_coefficient_defect"]) == set(keys),
+                "complete disjoint all-output source slice; no gaps or reused parents")
+            for key in keys:
+                upper = decimal_endpoints(record["sums"]["true_coefficient_defect"][key])[1]
+                require(upper >= 0, "nonnegative saved whole-slice square")
+                total[key] += upper
+            cursor = stop
+        require(cursor == 155, "the entire source domain is covered exactly once")
+    for key in keys:
+        require(decimal_endpoints(c["defect"][key])[1] >= total[key],
+                "the actual complete norm contains all saved disjoint source-square uppers")
+    return True
+
+
 def admit(actual, execution, old_manifest, current_manifest, *,
           actual_spec, execution_spec, manifest_spec, current_owner_spec,
           current_parameters, current_runtime, reference_actual):
@@ -182,7 +254,7 @@ def admit(actual, execution, old_manifest, current_manifest, *,
                 and all(spec[key] == by_path[spec["path"]][key]
                         for key in ("bytes", "sha256", "git_blob_sha")),
                 "each complete previous input is retained under the same bytes")
-    require(actual["kind"] in (STREAMED_KIND, CONTINUATION_KIND)
+    require(actual["kind"] in (STREAMED_KIND, PARALLEL_KIND, CONTINUATION_KIND)
             and actual["kind"] == op["scientific_kind"]
             and sorted(actual) == op["scientific_field_names"]
             and actual["problem_id"] == old_manifest["problem_id"] == current_manifest["problem_id"]
@@ -223,7 +295,7 @@ def admit(actual, execution, old_manifest, current_manifest, *,
             "whole same-outcome restoration and all21 original inputs")
     kind = actual["kind"]
     model_gate = ("whole_same_WVC_model_and_prior_source_prefix_identified"
-                  if kind == STREAMED_KIND else
+                  if kind in (STREAMED_KIND, PARALLEL_KIND) else
                   "whole_same_WVC_model_and_saved_source_point_prefix_identified")
     names = [g["name"] for g in actual["gates"]]
     require(names == op["complete_gate_names"][:len(names)]
@@ -259,11 +331,17 @@ def admit(actual, execution, old_manifest, current_manifest, *,
                 "unfinished predecessor retains the actual failure or hard termination")
     old_specs = {v["role"]: v for v in old_manifest["files"]}
     owner = old_specs[op["scientific_entry_role"]]
-    if kind == STREAMED_KIND:
-        require(owner["sha256"] == STREAMED_OWNER_SHA256
-                and targets == ["complete_streamed_parent_true_hybrid_low_coefficient_defect"]
+    if kind in (STREAMED_KIND, PARALLEL_KIND):
+        expected_owner = STREAMED_OWNER_SHA256 if kind == STREAMED_KIND else PARALLEL_OWNER_SHA256
+        expected_target = ("complete_streamed_parent_true_hybrid_low_coefficient_defect"
+                           if kind == STREAMED_KIND else
+                           "complete_parallel_parent_true_hybrid_low_coefficient_defect")
+        require(owner["sha256"] == expected_owner and targets == [expected_target]
                 and done == targets,
-                "the exact published streamed-defect code and its one target")
+                "the exact published complete-defect code and its one target")
+        if kind == PARALLEL_KIND:
+            require(old_specs["low_centre_parallel_parent_slices"]["sha256"] == PARALLEL_MATH_SHA256,
+                    "same published disjoint-source algebra and shared-memory implementation")
     else:
         require(all(owner[k] == current_owner_spec[k]
                     for k in ("path", "bytes", "sha256", "git_blob_sha"))
@@ -304,16 +382,19 @@ def admit(actual, execution, old_manifest, current_manifest, *,
     if whole_point is not None:
         require(len(sources) == 4, "whole point result follows all four true source lifts")
         whole_transversality(whole_point)
-    if kind == STREAMED_KIND:
+    if kind in (STREAMED_KIND, PARALLEL_KIND):
         require(sources == {} and whole_point is None
                 and c["declared_early_end"]["ordinary_four_source_and_whole_point_certificate_not_claimed"] is True
                 and c["declared_early_end"]["actual_singularity_inferred"] is False,
                 "streamed defect explicitly did not compute source/point targets")
-        source_prefix(c["source_integral_prefix"], c["refinement"]["counts"],
-                      allowed_roles=["true_coefficient_defect"])
-        require(c["source_integral_prefix"]["complete_parent_count"] == 155
-                and c["source_integral_prefix"]["complete_refined_cell_count"] == 1424,
-                "the whole saved PS six balls follow all155 accepted true source parents")
+        if kind == PARALLEL_KIND:
+            whole_parallel_defect_domain(c)
+        else:
+            source_prefix(c["source_integral_prefix"], c["refinement"]["counts"],
+                          allowed_roles=["true_coefficient_defect"])
+            require(c["source_integral_prefix"]["complete_parent_count"] == 155
+                    and c["source_integral_prefix"]["complete_refined_cell_count"] == 1424,
+                    "the whole saved PS six balls follow all155 accepted true source parents")
     already = {TARGETS[SOURCE_ROLES.index(role)] for role in sources}
     if whole_point is not None:
         already.add(TARGETS[4])

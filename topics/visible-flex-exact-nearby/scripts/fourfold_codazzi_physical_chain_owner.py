@@ -262,7 +262,7 @@ def main():
                 "all four source receivers and the complete point target really exist")
         parent, parente, parent_manifest = (
             data(role) for role in ("parent_defect_actual", "parent_defect_execution", "parent_defect_manifest"))
-        require(parent["kind"] == qualifier.STREAMED_KIND,
+        require(parent["kind"] in (qualifier.STREAMED_KIND, qualifier.PARALLEL_KIND),
                 "the direct original defect is the genuine PS epsilon-success outcome")
         qualifier.admit(parent, parente, parent_manifest, lm,
             actual_spec=specs["parent_defect_actual"], execution_spec=specs["parent_defect_execution"],

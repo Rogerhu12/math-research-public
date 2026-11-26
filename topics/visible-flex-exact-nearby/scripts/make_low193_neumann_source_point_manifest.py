@@ -233,7 +233,7 @@ def main():
         origin_actual, origin_execution, origin_manifest = (
             json.loads(read_spec(origin_specs[which])) for which in
             ("scientific", "execution", "manifest"))
-        require(origin_actual["kind"] == admission.STREAMED_KIND,
+        require(origin_actual["kind"] in (admission.STREAMED_KIND, admission.PARALLEL_KIND),
                 "direct epsilon source is a real PS result")
         admission.admit(origin_actual, origin_execution, origin_manifest, manifest,
             actual_spec=origin_specs["scientific"], execution_spec=origin_specs["execution"],

@@ -289,7 +289,7 @@ def main():
         parent, parent_execution, parent_manifest = (
             json.loads((root/by_role[role]["path"]).read_bytes()) for role in
             ("parent_defect_actual", "parent_defect_execution", "parent_defect_manifest"))
-        require(parent["kind"] == qualifier.STREAMED_KIND,
+        require(parent["kind"] in (qualifier.STREAMED_KIND, qualifier.PARALLEL_KIND),
                 "direct original complete epsilon is a real PS outcome")
         qualifier.admit(parent, parent_execution, parent_manifest, lm,
             actual_spec=by_role["parent_defect_actual"], execution_spec=by_role["parent_defect_execution"],
