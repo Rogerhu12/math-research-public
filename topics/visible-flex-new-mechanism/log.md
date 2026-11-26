@@ -341,3 +341,7 @@ root全文纸核八密度与四偶可逆行变换、四奇尾积分双向等价�
 ## 2026-11-27 — Astra-new-mechanism-1f4a61a4-20261127 / R616同候选扩盒
 
 全文核有理tanh加法、分母1/11与4/199、初始方向21/110与394/4975、完整空间与参数混合jets及中心/末germs；核LengthGraph继承和专用physical adapter，末几何输出匹配原binary64接口。仅AST/hash与纸证，等原R614真终态，不另起科学或重拟合。
+
+## 2026-11-27 — Astra-new-mechanism-1f4a61a4-20261127 / 真243圈97q正常续算
+
+全文核新wrapper与原完整科学函数引用；JSON逐项对原FINAL比对实际retained、243/11025网、pending/trust，27源绑定及AST通过。新末c491只标未完成fine的独立warm，全部32Jac/40完成及末partial费用继承；原物理/metric接受门不变，必要材料再生照付。

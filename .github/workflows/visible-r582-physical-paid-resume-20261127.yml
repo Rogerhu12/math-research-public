@@ -1,0 +1,83 @@
+name: visible-flex actual243x1536 physical epigraph paid continuation
+on:
+  push:
+    branches: [main]
+    paths:
+      - topics/visible-flex-new-mechanism/computations/request-r582-physical-paid-resume-20261127.json
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: visible-flex-r582-physical-paid-resume-20261127
+  cancel-in-progress: false
+jobs:
+  research:
+    name: continue actual f1c8298 q and243x1536 with all11025 fine points
+    runs-on: ubuntu-24.04
+    timeout-minutes: 50
+    strategy:
+      fail-fast: false
+      max-parallel: 1
+      matrix:
+        lane: [paid-physical97]
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      PYTHONUNBUFFERED: '1'
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+      MKL_NUM_THREADS: '1'
+      NUMEXPR_NUM_THREADS: '1'
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 0
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-new-mechanism/README.md
+            /topics/visible-flex-new-mechanism/notes/2026-11-26-r582-finite-radius-only-original-receipt.md
+            /topics/visible-flex-new-mechanism/computations/request-r582-physical-paid-resume-20261127.json
+            /topics/visible-flex-new-mechanism/scripts/r582_paid_local_tail_angular_continue_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/r582_current_rows_first_continuation_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/r582_physical_epigraph_continuation_20261127.py
+            /topics/visible-flex-new-mechanism/scripts/r582_physical_epigraph_paid_resume_20261127.py
+            /topics/visible-flex-new-mechanism/scripts/r604_reference_reach_norms_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/r582_local_tail_continuation_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/r582_local_tail_columns_model_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/r582_stable_material_field_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/r582_finite_resonant_radius_only_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/r582_finite_resonant_continuation_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/r582_finite_resonant_model_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/r582_paid_resonant_field_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/r582_true_core_shooting_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/r582_continuous_mean_profile_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/r582_actual_circle_seed_and_return_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/inverse_r566_block_jacobian_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/inverse_hard_exchange_resume_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/inverse_hard_exchange_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/inverse_flat_oscillatory_tail_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/inverse_rotational_metric_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/run_inverse_state_stdin_20261126.py
+            /.github/workflows/visible-r582-local-tail-columns-20261126.yml
+            /.github/workflows/visible-r582-paid-local-tail-angular-20261126.yml
+            /.github/workflows/visible-r582-current-rows-first-20261126.yml
+            /.github/workflows/visible-r582-physical-epigraph-20261127.yml
+            /.github/workflows/visible-r582-physical-paid-resume-20261127.yml
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.12.14'
+      - name: Pull current rules and continue fixed finite nonround cores
+        env:
+          MR_TOKEN: ${{ secrets.MR_TOKEN }}
+        run: >-
+          python topics/visible-flex-new-mechanism/scripts/run_inverse_state_stdin_20261126.py
+          --request topics/visible-flex-new-mechanism/computations/request-r582-physical-paid-resume-20261127.json
+          --lane ${{ matrix.lane }}
+      # Keep all11025 actual fine points and3072 angles,real f1c8298 q,243x1536 andtrust2.
+      # The last rawc491 trial is separately unqualified; do not restore unpublished BFGS.
+      # Reuse only exactly identical paid baseline; no32 old Jacobians or40 scans replayed.
+      # Every candidate retains original complete rows/boxes/full fine geometry/metric gates.
+      # New material work and all inherited completed/partial costs remain charged.
+      # Actual public/private pull and unchanged rules; stdout only, no artifacts/cache.

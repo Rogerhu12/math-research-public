@@ -5,7 +5,7 @@
 
 ## 1. 授权、规则与全部前史
 
-公开本次实际pull且根/题README已读至 **5c4a1a5d82171108150e3f02c5baae4911b252b5**；相对继承0749a4cc规则空差异。私库本次实际pull且根README已读至 **a7891a83567e479db246d47684f7aefedd1bb328**；QUEUE认领推送 **09f8b8b54e7cfaabaa635bae5c438c7f1521289a**，本会话进行中。私库最近实际pull约19:27 UTC，下一不晚于20:27 UTC。
+公开本次实际pull且根/题README已读至 **6a052ad543c9f6da5a08da5a17b3acf47aedb069**；相对继承0749a4cc规则空差异。私库本次实际pull且根README已读至 **a7891a83567e479db246d47684f7aefedd1bb328**；QUEUE认领推送 **09f8b8b54e7cfaabaa635bae5c438c7f1521289a**，本会话进行中。私库最近实际pull约19:27 UTC，下一不晚于20:27 UTC。
 
 [本次压缩前全文](notes/HANDOFF-before-physical-epigraph-final-20261127.md)及所链[初交接](notes/HANDOFF-inherited-20261127-1f4a61a4.md)保全部旧结论、量词、失败、真实输入与完整费用；移档不重做已付门。[四来源/文献复核](notes/2026-11-27-current-four-source-topics-and-literature.md)固定已读版本及可用范围。
 
@@ -21,7 +21,7 @@
 
 [物理回溯与epigraph原终态](notes/2026-11-27-r582-physical-epigraph-original-terminal.md)run45881470977/job140121595702/sourcefe523e5c，新2370.210179923秒，32Jac/416块/114value、40完成fine及末部分scan全计。17metric+5恢复接受；真实97q SHA **f1c8298e0c7c576c1b2230b24146fbe2356e97d7ba0b7b3428dd9e87e53a52bf**，p=.181，完整11025×3072给η **6.262308445465524e−5**、物理V0、工作V4.26e−13、κ16.45256917。243×1536、trust2、pending0/角false。62878端点mesh SHA0d222bd1仍同一场。
 
-末raw q SHAc491ecf2仅完成当前行及独立epigraph提升，未完成fine，不能替代保留态。最后BFGS数组未公开，不冒恢复。正常后继从真实q/全部网格/费用继续；stage0目标2.5e−7未过，不提高p；真正通过后才增至目标.8。mean g在设计中变化，不作固定g精化。
+末raw q SHAc491ecf2仅完成当前行及独立epigraph提升，未完成fine，不能替代保留态。最后BFGS数组未公开，不冒恢复。[正常续算源](notes/2026-11-27-r582-physical-paid-resume-implementation.md)保真实q/全部网格/费用；stage0目标2.5e−7未过，不提高p；真正通过后才增至目标.8。mean g在设计中变化，不作固定g精化。
 
 新q相对旧圆参考有限δ.01801014、α.15345293、帽差.01200834；不借旧q的δ.001。几何改用**同新q全部mean/帽高、圆core半径.38**的新参考，须新付连续几何；材料seed商仍冻结原旧参考，不随比较面改变。
 
