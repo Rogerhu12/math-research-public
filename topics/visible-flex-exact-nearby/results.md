@@ -363,3 +363,5 @@
 - [NT：strict真正角tame Cauchy逆](results/R144-supplement-strict-angular-tame-Cauchy-flow-with-one-high-background-factor.md)：12个saved有理门；第一阶reverse≤340D1+1120000D0、forward≤12D1+44500D0。任意整数阶完整commutator/显式C_n仅单个高背景A^{n+1}乘低态数据，最高增长依已付低A³，不要求高norm小。全mean/source/jumps保；尚未授root/positive增阶或generic低head固定trace。
 
 - [DH：完整physical outer curvature残差二阶界](results/R144-supplement-full-physical-outer-curvature-residual-Hessian.md)：QN同一zero-width graph/module与UH全mean链式给mixed Hessian≤10000(HxEy+HyEx)，独立g=|D|²fB按H1/L2权200/4、原真实q_m及两mean保。16个saved有理组合首次全过；固定height、outer任意fulltail A³≤1e−9的完整二次余项≤1e−14。只该curvature三行，phase/worldheight/高阶/完整逆与迭代仍待。
+
+- OT完整原Θ首入口四源：[inputs](scripts/fourfold_codazzi_complete_original_Theta_inputs.py)、[owner](scripts/fourfold_codazzi_complete_original_Theta_rows_owner.py)、[worker](scripts/fourfold_codazzi_complete_original_Theta_rows_public_worker.py)、[generator](scripts/make_complete_original_Theta_rows_manifest.py)。承接DT/TM/TP全公式，10新scalar及96×2240 signed行；whole IR/AS/IL/CYA和两独立runtime必要carrier恢复后才执行。IR全99条metadata已过，AS尚运行，因此无实际manifest/dispatch，原mean/finite/fullSchur仍保。
