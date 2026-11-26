@@ -1,15 +1,16 @@
-# HANDOFF — Astra-held10-1b6d88ec-20261120
+# HANDOFF — Astra-held10-06bbeb39-20261126
 
-维护会话：**Astra-held10-1b6d88ec-20261120**（AI），接 Astra-held10-7322d0de-20261118。**未完成：仍无满足全部10%标准的实际闭族。** 从真实返回继续；完成全部标准后继续增大比例。
+维护：**Astra-held10-06bbeb39-20261126**，接 Astra-held10-1b6d88ec-20261120。**未完成：仍无满足全部10%标准的实际闭族。**
 
-## 目标与规矩
+## 当前接续与规则
 
-连通闭C²嵌入、C²连续族；固定有内点H且diamH≥.2D，整像δhold≥.1D及含反射δE>0，全时reach≥.03D。同一完整g/全部物理参数/时间范围下，完整metric≤1e−6且空间/频率/时间精化降至求解或机器地板；全部闭合与Cartesian两jet接口须实际支付。
+目标：连通闭C²连续等距嵌入族，固定有内点H且diamH≥.2D，整像δhold≥.1D、含反射δE>0，全时reach≥.03D；固定完整g/物理参数/时间范围加密至误差≤1e−6并下降。完整Cartesian二jet/闭合均须实际成立。
 
-- 部分克隆工作树 /workspace/scratch/1b6d88ecddf3/math-research-public。已读规则提交：`3665d03b577a2581f6d3a555766ad707c74fb812`；15:07 UTC本地真实pull --rebase至该提交，双README无变。每次pull核差异，至少每小时一次；API比较不冒充pull。
-- root独占git，逐结论推送，NFF立即pull --rebase/核双README后再推，禁force；令牌只在命令行。
-- 根§12优先实际数学/求解，不重复身份核查/双审；§15再生场、网格、矩阵不入Git/Release/artifacts，只存源/参数/命令/hash/小标量。H<10KB、单MD<100KB、目录<200MB，不写根LOG。
-- 压缩不撤销旧结果。完整旧断点见[接手H](https://github.com/Rogerhu12/math-research-public/blob/9288f266d1f242b594d70a714e20340fcb876023/topics/visible-flex-held-10pct/HANDOFF.md)及[本次H到01954](https://github.com/Rogerhu12/math-research-public/blob/01954ce52ce769093d8368e8f5c9d4a980191a84/topics/visible-flex-held-10pct/HANDOFF.md)；具体note优先于摘要。
+- 公共已完整读规则并真实pull：`924041880346dc5a732d7a4746e202110bf1fbf3`；私有根README/QUEUE登记已推：`2f68946f2fa3e192a291c7c1393231af1a89953e`。每次pull核双README差异，至少每小时一次；root独占git，逐结论push，NFF立即pull --rebase再推，禁force。令牌仅命令行。
+- 工作树 `/tmp/held10-astra-06bbeb395471-public`；原/workspace盘满。**旧1b6d88ec scratch不存在，54314/45287/79634未知终态不可恢复，以下“在算”仅前会话最后观察。** 必要源/场再生不当新结果。新尾/固定g/接缝三路并行，完整状态见[本次接手](notes/2026-11-26-resume-and-current-sources.md)。
+- 当前首要：恢复新g M24 λ.002起点→fullH/原外迭代→固定完整g/参数/mean规则的场精化；同时圆化推进λ1。原R1--R62及.25/.5 warm已登记事实不重算不改判。没有fullH、λ1和全图前不称10%完成。
+- 根§12优先实际求解，§15可再生数组不入Git/Release/artifacts；只保存源/参数/命令/hash/小标量，H<10KB/单MD<100KB/目录<200MB，不写根LOG。
+- 本次来源核到Sabitov(2021)、Ghomi等2611.17269及作者Hexagon2611.00534v1；均不替代本题定量验收。全部旧断点按[前会话完整H](https://github.com/Rogerhu12/math-research-public/blob/f0548477576caa2373d1626227a284ccfa9767d0/topics/visible-flex-held-10pct/HANDOFF.md)及其链接，具体note优先。
 
 ## 新g主线：M24原前缀通过，原真尾在算
 
