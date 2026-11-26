@@ -432,3 +432,8 @@
 - [R1061](results/R1061-actual-genus-two-etale-cover-and-original-three-torsion-Petri-point.md)：原X108实际无分歧九次商C:Y²=R⁶−108，原S_n落Dχ=Qz−Qw=q*Q的三挠线；两一维exact空间的有序配对为(S_n/s)R dR/Y。故原f_N单位等价于该具体theta点光滑，smooth仍开；C superspecial，邻近ordinary四角色不代证明。 §§6–8付规范Miller首a^p变分与全Cartier系数e；δ单位不代e单位。
 - 原E:V²=U³−108上的Ψ只在O有归一p极，dΨ=δω且δ单位；原Miller g_Q=U/(V−v₀)^ℓ的O首项1。形式比首a^p系数由全部移动极点/全纯微分/常数归一严格给出；原Q的slope项按实际C(F_Qω)=0消去。
 - 完整even/odd两支均只读p−1，Q处三阶伪极迫C(F_QΨω)=−eω，e为原有限卷积。没有从δ或E_N(0)单位偷换e单位，也没有混同[p]与相对Frobenius的Picard拉回；无程序或窗口执行。
+
+### 2026-11-27 04:43 Asia/Taipei — R1061新系数与原S_n的真实单位桥
+- [R1061](results/R1061-actual-genus-two-etale-cover-and-original-three-torsion-Petri-point.md)：原X108实际无分歧九次商C:Y²=R⁶−108，原S_n落Dχ=Qz−Qw=q*Q的三挠线；两一维exact空间的有序配对为(S_n/s)R dR/Y。故原f_N单位等价于该具体theta点光滑，smooth仍开；C superspecial，邻近ordinary四角色不代证明。 §§6–10已付原Miller首a^p、完整Cartier e及真实e≠0⇔S_n≠0桥；relative参数/切向2全保。原K=−sS_n，端点差单位不代K/e单位。
+- 原双覆盖的负summand A、dual C_rel∘U^m、Poincaré实际两端frame、FP局部a^p及B_E的非零三挠单位因子逐项支付。相对Cartier对base线性，系数为eω′；absolute才为e^(1/p)ω。原Petri沿q*E切向读取2S_n/s，所以确有e非零iffS_n非零，未冒数值比例。
+- 根另直接用η=z/w消全部pth因子，I′的次数<p给原K=−sS_n；端点差虽单位但不代目标卷积。H/open前态逐字归档后仅压缩已闭输入，不删除O0/同h/原bare/height支路；无数学执行。

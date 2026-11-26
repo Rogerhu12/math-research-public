@@ -413,6 +413,178 @@ $e$ 非零仍须证明。本文也未省略后续将该形式族作为 Picard �
 相对 Frobenius 记号；不能把某个错误的平移参数据此称作已付导数。
 
 
+## 9. 新系数 $e$ 与原 $S_n$ 的实际非零等价
+
+本节严格支付几何参数与局部生成元，证明
+$
+\boxed{\quad e\ne0\ \Longleftrightarrow\ S_n\ne0.\quad}
+\tag{1061.16}
+$
+这不是数值恒等式 $e=cS_n$ 的猜测，亦不从其中一个较低系数的单位推出两者非零。
+
+### 9.1 原双覆盖的两个实际 summand
+
+在 $E$ 上记 $N=\mathcal O_E(O)$，在相对 Frobenius twist 上记 $N_p$。
+§2的原双覆盖给
+$q_*\mathcal O_C=\mathcal O_E\oplus N^{-1}$。
+将 locally exact bundle 的定义推到 $E^{(p)}$，
+按覆盖 involution 的正负角色分解，得
+$
+q^{(p)}_*B_C=B_E\oplus\mathcal A,\qquad
+0\longrightarrow N_p^{-1}
+\longrightarrow F_*N^{-1}
+\longrightarrow\mathcal A\longrightarrow0.
+\tag{1061.17}
+$
+负角色的包含准确来自 $R^p=R\,U^m$；$\mathcal A$ 是秩 $p-1$、
+度零的向量丛。
+
+Grothendieck duality（以原 $\omega$ 刚化）给
+$
+0\longrightarrow\mathcal A^\vee
+\longrightarrow F_*N
+\xrightarrow{\ \mathscr C_{\rm rel}\circ U^m\ }N_p
+\longrightarrow0.
+\tag{1061.18}
+$
+该映射可在局部 $1,U,\ldots,U^{p-1}$ 基上直接核：
+Frobenius dual trace 正是 $U^{p-1}dU$ 的系数读取。
+它也由原 odd 微分
+$f\omega/R$ 的
+$\mathscr C(f\omega/R)=\mathscr C(fU^m\omega)/R$
+得到，所以没有另换双覆盖或 branch 平方根。
+
+对任意度零 $\mathcal L$，(1061.18) 两端的 $H^0$ 都是一维，
+相应 $H^1$ 都为零，因为实际线丛
+$N\otimes F^*\mathcal L$、$N_p\otimes\mathcal L$ 的度都是一。
+两条线丛间的局部行列式记为 $\phi$，它是
+$\Theta_{\mathcal A^\vee}$ 的实际局部方程。
+
+这里没有由“秩一”假设该行列式非零。
+例如 Tong Lemma 4.2.3.1(1) 从上述所有 twist 的
+$h^0=1,h^1=0$ 给 $F_*N$ 稳定，其对偶 $F_*N^{-1}$ 稳定。
+若 $\mathcal A$ 有正度真子丛，其在 $F_*N^{-1}$ 中的原像
+度至少零、秩小于 $p$，违反斜率 $-1/p$ 的稳定性。
+故 $\mathcal A$ 半稳定、度零；椭圆曲线上这类丛的一般度零 twist
+无截面，所以其 determinant theta section 并非恒零。
+这只支付存在性，不支付目标点的简单性。
+
+### 9.2 相对 Frobenius 参数与原 Miller 刚化
+
+令 $F:E\to E^{(p)}$，$V_E:E^{(p)}\to E$ 为 dual isogeny。
+对实际 Picard 点 $FP$，
+$
+F^*\mathcal L_{FP}=\mathcal L_{V_EFP}=\mathcal L_{[p]P}.
+$
+选择 Poincaré 的有理 frame $\ell_P$，
+其 divisor 为 $(P)-(O)$、在 $O$ 的极首项为 $1/z_O$。
+再乘 $N$ 的 canonical section $s_O$，则
+$
+g_P\,\ell_P^p\,s_O
+$
+是 $H^0(N\otimes F^*\mathcal L_{FP})$ 的真实局部生成元：
+其 divisor 是 $([p]P)$，且在 $O$ 的值为一。
+目标生成元 $\ell_{FP}s_O$ 也在 $O$ 的值为一。
+因此该具体 Cartier 标量与 $\phi(FP)$ 的比较因子是局部单位，
+不是尚未证明非零的 period。
+
+现在 $P=Q+A$，源参数 $a=z_O(A)$，
+目标 $FP$ 相对 $FQ=-Q$ 的局部参数为 $a^p$。
+必须用对 $k[[a]]$ 线性的相对 Cartier；不能对参数 $a$ 取 $p$ 次根。
+在 $E^{(p)}$ 的坐标 $U',V'$ 中，§8的同一次读取给
+$
+\mathscr C_{\rm rel}(F_Q\Psi\omega)=e\,\omega^{(p)}.
+$
+具体分母为 $V'-v_0^p=V'+v_0$，分子为
+$eV'+o=e(V'+v_0)$，因为 (1061.15) 的等价关系是 $o=v_0e$。
+本文先前固定的 absolute Cartier 经标量 Frobenius 逆识别后才写成
+$e^{1/p}\omega$。这两个表达不可混同为同一线性算子。
+
+由 (1061.11)–(1061.15)，$\phi(FP)$ 的 $a^p$ 系数是
+单位乘 $e$；常数项为零，任何生成元的换标在此只乘非零常数。
+因此
+$
+e\ne0
+\quad\Longleftrightarrow\quad
+\phi\text{ 在 }FQ=-Q\text{ 有简单零}.
+\tag{1061.19}
+$
+
+### 9.3 回到原 Petri 点，保留切向
+
+Serre 对偶给
+$\Theta_{\mathcal A^\vee}=[-1]^*\Theta_{\mathcal A}$，
+所以 (1061.19) 等价于 $\Theta_{\mathcal A}$ 在 $Q$ 简单。
+对原非零三挠线，$B_E$ 因子局部为单位：
+因为 $\mathcal L$ 及 $F^*\mathcal L$ 都非平凡，
+定义序列直接给 $H^0(B_E\otimes\mathcal L)=H^1(B_E\otimes\mathcal L)=0$。
+由 (1061.17)，$\Theta_{B_C}$ 限制到实际 $q^*E$ 后，
+其在 $q^*Q$ 的局部方程因而与 $\Theta_{\mathcal A}$ 相差单位。
+
+在§4固定的 Cartier 识别中，实际 Petri 输出是 $(S_n/s)q^*\omega$。
+它在 $q^*E$ 切向上的读取通过
+$\operatorname{Nm}_q\circ q^*=[2]$ 正好为
+$2S_n/s$ 乘原非零切向；相对版本取相应 Frobenius twist，非零条件完全一致。
+所以这个限制的零点简单当且仅当 $S_n\ne0$；
+结合 (1061.19) 得 (1061.16)。
+这也排除了“环境 theta 光滑但所取限制正好相切”的遗漏。
+
+## 10. 同一个原配对的另一条完整有限 primitive
+
+以下式子可独立比较§8的来源，绝不把两个不同卷积擅自相等。
+记 $\eta=z/w$，原 $u=\eta h,\nu=\eta^{-1}h$，且 $h=q^*\omega$。
+由§1的实际函数，
+$
+(\eta^3)^2=\frac{V-v_0}{V+v_0}.
+$
+由于 $\ell$ 偶，准确有
+$
+\nu=\eta^p F_Q\omega,\qquad
+u=\eta^{-p}F_Q^{-1}\omega
+$
+（等式在原覆盖上拉回）。
+
+任选多项式 $I(V)$ 满足
+$
+I'(V)=(V-v_0)^N(V+v_0)^m,\qquad \deg I=4N+3<p.
+$
+全部积分分母都为单位，且
+$
+H_+(P)=\frac{I(V)}{3U^p},\qquad dH_+=F_Q\omega.
+$
+故 $\eta^pH_+$ 是原 $\nu$ 的真实有理 primitive。
+其与 $u$ 相乘后，两个 $\eta$ 的 $p$ 次幂准确消去。
+置
+$
+K=[V^{p-1}]\,I(V)(V-v_0)^m(V+v_0)^N.
+$
+源的总次数为 $8N+5<2p-1$，只读 $p-1$ 次，于是
+$
+\beta_X(\nu,u)=\pi^*q^*
+\left(\frac{K^{1/p}}3\,\omega\right).
+$
+与原 (1061.5) 的有序符号比较，得到
+$
+\boxed{\quad K=-sS_n.\quad}
+\tag{1061.20}
+$
+$I$ 的任意常数不影响 $K$，因为附乘多项式次数 $4N+2<p-1$。
+
+另外，完全安全的 beta 积分给
+$
+I(v_0)-I(-v_0)
+=(-1)^N(2v_0)^{4N+3}\frac{N!\,m!}{(4N+3)!}\ne0.
+$
+这是端点差的单位，不是 (1061.20) 的系数单位。
+同样，分部积分仅给另一个真实系数
+$
+K_2=[V^{p-1}]\,I(V)(V^2-v_0^2)^{2N+1},\qquad
+e=-\delta K_2/3.
+$
+它的权与 $K$ 不同。§9已经几何地支付 $e\ne0\iff S_n\ne0$，
+但没有据此编造数值身份 $K_2=K$，也没有从端点差排除任一卷积相消。
+
+
 ## 来源与本次核对
 
 - [R1059](R1059-original-fN-actual-X108-Raynaud-pairing-and-inverse-central-sum.md)：原 $X_0(108)$ 函数、good 模型、固定微分尺度和 $S_n$ 配对。
@@ -422,3 +594,5 @@ $e$ 非零仍须证明。本文也未省略后续将该形式族作为 Picard �
 o1_theta给实际覆盖、三挠线和配对下降；o2_high_coefficient独立核角色、第一椭圆因子与分支线；root实读Tong所引原文，并手核全部函数域次数、无分歧性、两微分、divisor、角色、Frobenius及有序标量。无数学程序或窗口执行。
 
 补充§§6–8：o2_high_coefficient给规范Ψ递推和完整first-p Cartier系数；root独立推Miller首变分和Ψ加法律，o1_theta独立核两式；root逐项核U/V两坐标的全部次数、Q处极阶、半线性及完整slope消去。Frobenius特征方程可见Andrew Sutherland [MIT 18.783 Lecture 8](https://math.mit.edu/classes/18.783/2022/LectureSlides8.pdf)第5张幻灯片。无数学执行。
+
+补充§9：o1_theta给实际双覆盖/dual Cartier/Poincaré frame的非零桥，root独核相对Cartier的base线性、FQ参数、两个生成元、B_E单位因子及切向因子2，明确纠正relative/absolute标量约定。§10由root给原η的直接primitive与K=−sS，o2独核分部积分的K₂，所有不同权保留。全文无数学执行。

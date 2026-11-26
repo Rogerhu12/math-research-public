@@ -6,17 +6,17 @@
 
 会话 **Astra-serre-24b8836b-20261126**。本轮已部分克隆并真实pull main，读两README/H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则读至36cf1ed2。不重做已登记结论或窗口。
 
-**公开两README已读提交：22f86ae22a2cb3ebf6f662f178f6bbf88feb29b5**（2026-11-27 04:27 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
+**公开两README已读提交：7e8375e7a19529600de7f6561b526ce02b99d618**（2026-11-27 04:43 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
 
 已真实部分克隆/pull；终端再次不可用，按根规矩8用连接器小文本同步、读两README差异、带expected_sha非force提交，恢复后立即pull --rebase。拒绝即同步重基再推至成功。令牌仅CLI；根维护main/H/open/index/log，子研究独立稿，每条结论立即推。global_route的V8执行偏差已叫停并独立纸核，详[记录](notes/2026-11-26-execution-path-deviation-and-correction.md)，其输出不作证明/合规窗口。
 
-H<10KB、open尽量<30KB、每MD<100KB、topic<200MB；无可重算raw、不写根LOG。[本次逐字前态](handoff-archive-2026-11-27-before-complete-CM-coefficients.md)沿链保全部旧来源/run/hash；[open](open.md)、[索引](results.md)是完整入口。历史“R1003 norm3准备中”未交付，现R1003为范围纠错。
+H<10KB、open尽量<30KB、每MD<100KB、topic<200MB；无可重算raw、不写根LOG。[本次逐字前态](handoff-archive-2026-11-27-before-fixed-Petri-unit-bridge.md)沿链保全部旧来源/run/hash；[open](open.md)、[索引](results.md)是完整入口。历史“R1003 norm3准备中”未交付，现R1003为范围纠错。
 
 ## 最新全局实际来源
 
 [R1058](results/R1058-original-Cartier-resonance-and-complete-lowest-residue-source.md)：规范Jhat与原Q的Cartier身份、Tλ/A两pth修正已付。§§8–12以P=qJhat迁完整D/Q/Q²最低到全部P根；q根、b0、∞无残数，P非齐次Gauss forcing不删。P根至多四重（四重仅可能r1/9）、实际L_D极阶≤9。完整Q²单系数为(-3)^d[r^(d−1)]W*/P²/(dA1)，每根最多七阶导数；非零仍开。
 
-[R1056](results/R1056-original-kernel-lowest-CM-single-coefficient.md)：原核C(T₀)=(-3)^(ℓ−1)[r^(ℓ−2)]q³/j/2，全部原尺度/分母已付；不等同端点、范数或DQv。 R1056 §6现另给全p6N5的核列C_s=(-3)^d[r^(d−1)]q^(s+1)/j^(s−1)/[s(s−1)]，s2/8、d=(p−s)/3；H′=h²直接重推，不扩原bare身份。
+[R1056](results/R1056-original-kernel-lowest-CM-single-coefficient.md)：全p6N5核列C_s=(-3)^d[r^(d−1)]q^(s+1)/j^(s−1)/[s(s−1)]，s2/8、d=(p−s)/3；原H′和尺度已付，不扩bare身份，不与DQv/端点/norm混同。
 
 [R1055](results/R1055-original-complete-first-log-canonical-rational-primitive.md)：原完整v的唯一规范V=6(bU₁+b²U₂)/(A1²r^ℓ)；全商/有理代表、全部三CM极部与pth歧义均付，不跨共振。
 
@@ -24,11 +24,9 @@ H<10KB、open尽量<30KB、每MD<100KB、topic<200MB；无可重算raw、不写�
 
 [R1045](results/R1045-original-MW-annihilator-nonzero-reduction.md)/[R1046](results/R1046-original-p5-complete-CM-flag-and-MW-nonzero-reduction.md)：两行p>C_*原MW消去后M1，三CM/Euler排contact；p5双中心/∞全保。[R1047](results/R1047-original-MW-saturated-profile-and-common-zero-bound.md)给饱和系数映射、公共零重数≤n₀−rankΣ+1，n₀=(p−2)/3；最低单位/非中心仍开。
 
-R1035–40的两次真实PD、source Fp²/Hermitian、Π²=−p、完美B与实际Q已成：核一维纯正δ、负δ单射、全MW消去保Q²。p5只在好B/formal上施e₁、先减Teich，非整个J良好；原全log/积分尾/F₀与paired块重数保结果。
+R1035–40两行实际PD、Fp²/Hermitian、Π²=−p与全Q/MW消去已付；p5只在好B/formal施e₁，先减Teich，完整log/尾与paired块保原证明。R1026给C_*后原负δ首log非零；R1010非CM非挠界全p10¹⁸/p11可431。R1011实际Q简单商dim2f、rankf、End=F₀、MW=F₀β；AST不付整单位/统一半径，不搬变化X_d。
 
-R1026两尾hypergeometric给明确C_*，全p>C_*原负δ首log不零。R1010 D₀非CM非挠：全p≥10¹⁸/p5mod6，p11可431。R1011实际简单商End_Q⁰=全实F₀、dim2f、rankf、MW⊗Q=F₀β；AST不给整单位或统一半径。全部类型/导子保原结果，不搬到变化X_d。
-
-R1018–30原Fm、T5²/Z杀CM、全非约化仿射刚性、完整节点log/提升差和整τ₁/E只消费，所有相位/尺度在结果与open；H_A/H_Z新支撑仍待算，不任换λ。
+R1018–30的原Fm/节点log/完整非约化运输只消费，全部相位尺度见归档及原文；H_A/H_Z新支撑仍开。
 
 ## O0：不能省略的全局覆盖
 
@@ -36,7 +34,7 @@ R1018–30原Fm、T5²/Z杀CM、全非约化仿射刚性、完整节点log/提�
 
 ## O1：原同一保留标签
 
-[R1061](results/R1061-actual-genus-two-etale-cover-and-original-three-torsion-Petri-point.md)：原X108实际无分歧九次商C:Y²=R⁶−108，原S_n落Dχ=Qz−Qw=q*Q的三挠线；两一维exact空间的有序配对为(S_n/s)R dR/Y。故原f_N单位等价于该具体theta点光滑，smooth仍开；C superspecial，邻近ordinary四角色不代证明。 §§6–8付规范Miller首a^p变分与全Cartier系数e；δ单位不代e单位。
+[R1061](results/R1061-actual-genus-two-etale-cover-and-original-three-torsion-Petri-point.md)：原X108实际无分歧九次商C:Y²=R⁶−108，原S_n落Dχ=Qz−Qw=q*Q的三挠线；两一维exact空间的有序配对为(S_n/s)R dR/Y。故原f_N单位等价于该具体theta点光滑，smooth仍开；C superspecial，邻近ordinary四角色不代证明。 §§6–10已付原Miller首a^p、完整Cartier e及真实e≠0⇔S_n≠0桥；relative参数/切向2全保。原K=−sS_n，端点差单位不代K/e单位。
 
 [R1060](results/R1060-actual-X108-nonCM-Cartier-and-nine-torsion-ordinary-input.md)：原X108非CM四Cartier矩阵精确由B_n=P_n(3)=−a_p(E54)控制。明确九挠点/实际三次同源给原p2/5mod9时B_n≠0、非CM ordinary且核恰六CM。A_p=−S_n/3，但尚未证S_n=0⇒B_n=0，不能代原f_N单位。
 

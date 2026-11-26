@@ -2,7 +2,7 @@
 
 **主要目标仍OPEN。** 完整证明绝对常数C，或给出p→∞完整无CM反例族；有限素数、条件结论、低权/局部Abel/部分子群均不够。
 
-此前逐字状态在[最新open归档](open-archive-2026-11-27-before-complete-CM-coefficients.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重算。
+此前逐字状态在[最新open归档](open-archive-2026-11-27-before-fixed-Petri-unit-bridge.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重算。
 
 ## 原最低型：已经付清的输入与准确剩余标量
 
@@ -38,7 +38,7 @@ R1只把全部异常缩为p>37的完整N_ns；**p≡2,5 mod9只是另加小惯�
 
 ## O1：全p同一真实本原标签的临界非零
 
-[R1061](results/R1061-actual-genus-two-etale-cover-and-original-three-torsion-Petri-point.md)：原X108实际无分歧九次商C:Y²=R⁶−108，原S_n落Dχ=Qz−Qw=q*Q的三挠线；两一维exact空间的有序配对为(S_n/s)R dR/Y。故原f_N单位等价于该具体theta点光滑，smooth仍开；C superspecial，邻近ordinary四角色不代证明。 §§6–8付规范Miller首a^p变分与全Cartier系数e；δ单位不代e单位。
+[R1061](results/R1061-actual-genus-two-etale-cover-and-original-three-torsion-Petri-point.md)：原X108实际无分歧九次商C:Y²=R⁶−108，原S_n落Dχ=Qz−Qw=q*Q的三挠线；两一维exact空间的有序配对为(S_n/s)R dR/Y。故原f_N单位等价于该具体theta点光滑，smooth仍开；C superspecial，邻近ordinary四角色不代证明。 §§6–10已付原Miller首a^p、完整Cartier e及真实e≠0⇔S_n≠0桥；relative参数/切向2全保。原K=−sS_n，端点差单位不代K/e单位。
 
 [R1060](results/R1060-actual-X108-nonCM-Cartier-and-nine-torsion-ordinary-input.md)：原X108非CM四Cartier矩阵精确由B_n=P_n(3)=−a_p(E54)控制。明确九挠点/实际三次同源给原p2/5mod9时B_n≠0、非CM ordinary且核恰六CM。A_p=−S_n/3，但尚未证S_n=0⇒B_n=0，不能代原f_N单位。
 
@@ -104,11 +104,7 @@ R946/951/952原Bol障碍O_r(H)=r!(𝒰H)^p/B^(p−r)|SS、kerO=ker𝒰；whole�
 
 Γ6→Γ036的整格/Q、det返回d与h0、σ⁻¹T_p及2/3 type和multiplicity已经完整处理；坏链对应真实非CM level9 congruence，不再重复nilpotence证明。R958唯一moment原式S^p=−216c_momℓ(R_F)，c_mom单位仍不等目标moment单位。R960/965真实Igusa字符因子h=L+1及κ=36α=−g_pT=−g_pS^p/432，g_p=48[x^(m+1)]a²单位；低/弱primitive只能检测链顶，κ非零仍未知。R956真实compact-coker、R962权8左项零及α8式均已成，不用固定低权pairing代高指定评价。
 
-[R973](results/R973-certified-balanced-Kronecker-coefficients-at-four-primes.md)原E−:y²=x³−1/g3=4/无Gaussian的balanced c_n=[z^n w^(n−1)]σ(z+w)/(σzσw)，n=p−2/p−8，公开41/47/227/857 residues13/4/171/317全unit，exact rational和原single-pole独立核通过。源模权2n与高CM权n+1区分；run44740851091已完，不重触发，不重算旧trace/同h。
-
-[R974](results/R974-original-balanced-coefficient-and-one-sided-CM-period-bridge.md)用KS一般整性、unit regularizer、critical additive periods及12个真实Manin cosets给原TU整parabolic格Ω_f±/P_n整，P_n=(Ω−/(2πi))^n。准确adjoint值=u_n c_n P_n²/(Ω+Ω−)，u_n=2^(n+2)3^((n−8)/2)(n−1)!单位，3处Euler/i符号/E±尺度完整。该文原先给**c_n单位⇒η单位⇒S非零**；R988现由实际Cartier/Robert来源补成等价，未反除period比或断言其单位。
-
-[R975](results/R975-original-balanced-Kronecker-integral-heat-recurrence.md)原bare U_n=n!(n−1)!c_n属于Z[1/6][g2,g3]，准确heat递推保polar κ0=1。U_n=F_n(12g2,−216g3)/12，F_n=(R^(n−1)E)|E0；Wilson给c_(p−r)=−r!(r−1)!F_(p−r)(0,−864)/12 modp。所有n<p整性已证，具体近p阶F单位仍开；不能由R^p高导数单位/一般homogeneity反除未知混合项。
+R973–975的完整原bare/Kronecker/Manin-period与heat桥只消费：[R973固定四点回执](results/R973-certified-balanced-Kronecker-coefficients-at-four-primes.md)、[R974准确critical/adjoint尺度](results/R974-original-balanced-coefficient-and-one-sided-CM-period-bridge.md)、[R975整heat递推](results/R975-original-balanced-Kronecker-integral-heat-recurrence.md)。R988已补原S非零与bare单位的等价；不能反除未知period比、混同无穷型2n的n+1与整数中央型2k−1，或由低坐标代近p高值。全部阶乘/正负模型/来源与run逐字保本次归档，旧四点不重跑。
 
 R972–990的完整AH/Robert/Δ/LT/Cartier/超几何来源、全部相位/阶乘/唯一共振及否定的共同标量模型，逐字见[本轮压缩前态](open-archive-2026-11-26-before-R1004.md)。当前准确桥是R988：原S≠0 iff c_(p−r)±单位 iff F_(p−r)(0,−864)非零；高低两坐标不能互代。R990以k=⌊p/12⌋、ℓ=(p+1)/3、m=(p−r)/3<ℓ给c^+_(p−r)=(-32)^m(r−1)![z^m]Qf^(-r)/4；B是实际Jacobi多项式、H=1/((1−z)B²)、f_i=H_i/(1−3i)，且H_ℓ=B(1)^(-2)为单位。不得跨ℓ反除；目标近p系数仍未知。R975原heat整性、R976原生成元、R985除p carry、R986原有理LT jet、R987实际Poincare首分母均只消费已成结论；R983四点的factorial共同ξ模型已否定，旧窗口不重跑。
 
