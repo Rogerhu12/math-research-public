@@ -247,3 +247,5 @@ python "$SRC/frozen_mean_metric_interval.py" \
 紧凑 summary 字段表为 [resume-20261126-frozen-mean-gram-summary-fields.json](../computations/resume-20261126-frozen-mean-gram-summary-fields.json)，SHA256 `e17e73719c2581958842fc387b5f552738d3fc5c3fe3ecfc4185bf10453df57b`。它把已覆盖胞范围、这些胞的统一上界、目标已付胞范围、实际点下界及见证地址，与当前/冻结场和固定目标身份同时发表。下界可以来自尚未全付胞中的一个已实际返回点；其含义是整个连续 supremum 的下界，不能错误地限制到另一个上界集合。
 
 几何 K、reach 以及固定目标求解精化的实际返回仍须另外登记；本条不占用留给真正同场全域 reach 的 R666。
+
+数值producer及固定目标wrapper现见[完整数值管线](../notes/2026-11-26-frozen-mean-target-numerical-pipeline.md)；与本文共享同一manifest身份公式。本文首连续核只支持其physical variant，不能把material目标送入后冒用physical权。
