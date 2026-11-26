@@ -6,7 +6,7 @@
 
 给出连通闭 $C^2$ 嵌入族、共同度量和固定握持开区域，按完整曲面直径计 $\delta_{\rm hold}/D\ge .05$、$\delta_E>0$、全时 reach$/D\ge .03$；全域全时 metric 误差不超过 $10^{-6}$，并支付同一几何下真正加密到求解容差及可复现网格。基础之后继续 $\delta_{\rm hold}/D\ge .2$、$\delta_E/D\ge .05$ 或严格存在。
 
-- 公开根 README、课题 README 已完整读于 `f0548477576caa2373d1626227a284ccfa9767d0`；真实 `git pull --rebase origin main` 于 2026-11-26 05:16 UTC 成功。每次 pull 后比较这两个文件，至少每小时一次。最近已读公开提交 `97668fd04389bf0c9596880d8b1426f58e29020b`（2026-11-26 07:35 UTC真实pull/rebase后，双README逐差均无变化）；本轮各次推前双 README 均无差异。R211两步、R213及真实外段伸长已推。
+- 公开根 README、课题 README 已完整读于 `f0548477576caa2373d1626227a284ccfa9767d0`；真实 `git pull --rebase origin main` 于 2026-11-26 05:16 UTC 成功。每次 pull 后比较这两个文件，至少每小时一次。最近已读公开提交 `c2661e9f879cb09351873d6104ad08fdea03d115`（2026-11-26 07:38 UTC真实pull/rebase后，双README逐差均无变化）；本轮各次推前双 README 均无差异。R211两步、R213及真实外段伸长已推。
 - 私库根 README 已完整读；QUEUE 已认领并推送 `c7785184d0d9c503852fb2137e9e2c091221d080`。认领中的三次并发推拒均立即真实 pull/rebase 后再推，最后成功。私库规则比较基准 `0229299ed65827c2ace194596315e58a19c989ee` 至该提交无差异。
 - 根规矩优先：完整证明直接登记；不用旧独审/冻结流程；可重算数据不入 Git、Release 或拆块，只保脚本、参数、运行标识和哈希；单 MD<100KB、H<10KB、课题总量<200MB；不写根 LOG、不强推。令牌只在命令行进程环境。
 - 本地部分克隆在 `/tmp/visible-flex-6a65e705/math-research-public`；工作区同名路径是链接。初次检出因 /workspace 仅约14MB空闲而 ENOSPC；迁至 /tmp 后按需检出、checkout及pull均成功。旧会话本地未推原件在本环境不可用，以已推内容/可再生配方为准。
@@ -28,7 +28,7 @@
 
 **2. 强幅度主线。** gap1/Δ=.05是明确新g；原R215三步 metric=.738971，继而42固定峰点三步降到.266700，κ17.7761、held.616856、Z.510077。该完整状态K7→11新增528列，6点twojet/6876旧列标量差均0；新1553列三步后 total=.0400359581、原q=.0053349363、metric=.278403908、κ12.5859652、held.61955365、width.83248810、A=.87261117、Z=.51008177。密观察76755点实际真0：metric=.279133488在s=.13906384/u=0，κ14.25784018在s=.129366215/u=.24543693，仍未合格。
 
-正在以R219完整新帽消费这个实际末态：N64→128重新求积，保全部1553系数，原42峰点保留并添迁移峰区42点；新增闭帽/有限目标均明确重新baseline，不借旧normal。入口 `scripts/6a65-run-low-wide-expanded-peaks.cjs`，init/run；新baseline实际exit0，R²=.0461953519、metric=.279133488、κ14.25784018，初始A/Z未改。[随后3次全列LM](notes/2026-11-26-6a65-r219-three-accepted-and-dense-observation.md)均真0/alpha1，metric降为.183831154，κ却升15.13624，held.62370835、Z.50885616仍欠。152915点同场密观察真0把κ再升至15.29426448；当前按真实metric/curvature两峰作R208全列插结及新实际LM。
+正在以R219完整新帽消费这个实际末态：N64→128重新求积，保全部1553系数，原42峰点保留并添迁移峰区42点；新增闭帽/有限目标均明确重新baseline，不借旧normal。入口 `scripts/6a65-run-low-wide-expanded-peaks.cjs`，init/run；新baseline实际exit0，R²=.0461953519、metric=.279133488、κ14.25784018，初始A/Z未改。[随后3次全列LM](notes/2026-11-26-6a65-r219-three-accepted-and-dense-observation.md)均真0/alpha1，metric降为.183831154，κ却升15.13624，held.62370835、Z.50885616仍欠。152915点同场密观察真0把κ再升至15.29426448；[两真实峰驱动R208插1/24、49/120、17/40](notes/2026-11-26-6a65-r219-observed-radial-three-accepted.md)，J33→36/1694列；新baseline后三步均真0，R²=.03452887、metric=.192962、κ13.68908、held.624026仍欠。当前继续同N128完整K11→19角向空间。
 
 原件在 `/tmp/visible-flex-6a65e705/geometry-work`，当前主输入 `gap1-fixed-peak-K11-lm03-state.json` SHA256 `8f0c3d7b5cee49458cd2a6223dcc9f5125bcb03dd447790c54119ec772e3e149`；R219第三态 `low-wide-R219-lm03-state.json` SHA256 `c04b3e122fde0a4e307240b50057d4b3accdd27843c5404c9e1463bdb102f68a`；对应密观察SHA256 `3a9ee98b6889f6776ecb6b04ebc7761564e485f4c594e5491aa5d81e0008b9c4`。不提交数组。
 
