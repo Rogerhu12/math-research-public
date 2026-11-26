@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- [R216：真实Cartesian补丁的全域几何](results/R216-m12-cartesian-patch-global-geometry.md)：冻结24hex参数后，全支撑二jets有理界保全图曲率/正支撑，R10给全时reach/D>.0312、held/D>.05278与固定H；管体积矩预算保含反射δE>0，全域metric粗界<4.4e−8。对象是R21的X+W，未付G5或强比例；与R114Φ复合须另算。
+
 - [R215：半宽.895的完整新固定帽](results/R215-complete-caps-for-point-eight-nine-five-core-width.md)：真正更换凸帽并升喉，准确球包、全极点、held与全部双侧法球预算保D≤3.2、δE≥.1609及R=.097；允许Aq≥1.4、Z∈[.50,.61]、核半宽.895。完整核的metric/reach/球包/排球仍须付，新provider仅是实际求解引导。
 
 - [R214：切口切向强制的核心板宽](results/R214-developed-cut-tangent-forces-minimum-core-width.md)：准确同g测地经线与曲率界给无反射的切向超调，C²平端给严格不等式；纯有理夹定最终A阈值(.3637,.3638)和当前引导阈值(.4525,.4527)。仅必要条件，不排除已越阈值的当前四次metric场。
