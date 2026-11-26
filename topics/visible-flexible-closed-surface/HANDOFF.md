@@ -53,5 +53,5 @@
 当前CLI已恢复，工作全在/tmp；旧失联raw不在，外部−9原因未证。root主分支，exact推进M48及专用全H，solver推进q2全H，geometry推进正高度新输入。子题完成继续open，不阶段收尾。
 
 <!-- 6a65-root-literal-rules --> 2026-11-26 15:59:46 UTC 真实pull/rebase读取main 4f1cbe6e1ae02821b6906be0ad24ba47ed92c75f，双README逐差无变化；CLI已恢复，后续普通Git发布。
-<!-- 6a65-m12-angular-warm-ci-rules --> README unchanged at ad4b129edcc09592770ea062c229511aae519102; run 45847254548 attempt 1.
+<!-- 6a65-m12-angular-warm-ci-rules --> README unchanged at c021d04494bd07b4ff7a1fd4b66888e803e122c6; run 45847254548 attempt 1.
 <!-- 6a65-m12-full-normal-ci-rules --> README unchanged at 724c40189bf85488b74487693313877499a75cd3; run 45851669566 attempt 1.
