@@ -1,0 +1,27 @@
+{
+  "session": "Astra-ISP-8542378f-20261127",
+  "script": "2026-11-27-unit211-S0-Lt0-Qa-A24-curve-original-return-8542.py",
+  "parameters": [],
+  "sourceSha256": "e3fec4da9b7064faf25ccc1460a03d13f7f972ad9d4df1fd57ee47909d84f9eb",
+  "sourceBytes": 33151,
+  "actualExitCode": 0,
+  "wallSeconds": 58.80302211900016,
+  "stdoutSha256": "0fad5f623b281fc0b2b1f1d7befe67697cd4101727476994284b7f3db54cede6",
+  "stdoutBytes": 22941,
+  "limits": {
+    "alarmSeconds": 180,
+    "addressSpaceGiB": 4
+  },
+  "finalRecord": {
+    "stage": "complete",
+    "scope": "entire A24(e,k)=0 curve of the original same-eta Q5/Q4 projection on S0 Lt0",
+    "remainingQaCurve": "C83(e,k)=0",
+    "wholeS0Lt0ExclusionClaim": false,
+    "ordinaryISPClaim": false,
+    "sourceSha256": "e3fec4da9b7064faf25ccc1460a03d13f7f972ad9d4df1fd57ee47909d84f9eb",
+    "peakRssKiB": 131608,
+    "claimExcluded": true,
+    "seconds": 58.7053879920004
+  },
+  "retainedRegenerableData": false
+}

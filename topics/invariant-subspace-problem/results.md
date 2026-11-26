@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R150 S0/Lt0同eta投影的整个A_(24,20)曲线为空（2026-11-27，已证明）：** [真QQ有限覆盖与严格一元特征零证据](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-Qa-A24-curve-exclusion.md)对原Dixon两完整因子取744/888次k投影，剥已付原/ehalf因子后保799次QQ覆盖。另原P045/P035全v投影给R_(132,109)，保原k次数20/109的完整结式约化3116次与799次覆盖实际Bézout=1；Gauss引理排QQ共因子，不由多变量模判空提升。自含源58.803022秒/131608KiB/exit0；只余C83，后续C83/H33真120秒失败已保回执。
+
 - **R150 L0的整个P1系数结式K曲线为空（2026-11-27，已证明）：** [两个beta首项图、完整覆盖及原t0返回](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-L0-K-curve-complete-exclusion.md)原系数身份在b1非零图付beta单位，三原必要式精确剥两因子；1253次投影/329次13域覆盖，三域严格一元模证据、九小域原单位与46域同G点及剩余11/11投影均排。b1零迫b0零/t0，42次覆盖末两同lambda/w族由原E1/EBe排除。自含源146.591630秒/281732KiB/exit0；只续X_(34,52)与Y_(78,95)原交点。
 
 - **R150 S0/Lt0的整个u=3/2原参数纤维为空（2026-11-27，已证明）：** [三完整原投影的QQ Bézout](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-ehalf-original-exclusion.md)将P045/P035/P034及新Q4直接返回ehalf，保持全部v首项零；107/116/75次结式的实际累计原组合等于k^8(k+2)^2(k+5/2)^8，系数次数86/77/66，全乘回。各零点由原Q、bc或已闭半权排除；4.198285秒/53512KiB/exit0。未用新Q4首项非零，独立付2e−1。

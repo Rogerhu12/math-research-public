@@ -174,7 +174,4 @@ Deddens自伴MASA、全部可分重数有限成本投影、全2-adic平移距离
 [全部整幂根与闭域](results/R12-appendix-all-integer-power-root-multiplicity-and-closed-root-domains.md)已证X^q=λI_k B_m^p有界解恰当q|pk。不整除的闭稳定域根不能包含任何完整Ran B_m^r；奇p域保持由同一强恢复支付。平坦接口仍为PH⊂DomT，P的像在所有幂像内不支付此包含。
 
 
-新[同eta原四次式及整首项零面](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-same-eta-quartic-leading-zero-exclusion.md)已闭：Q4来自原线性行三阶子式，B_(11,8)整零面完整833/1282投影覆盖后，末三次k域原Q4/Q5 Bézout为1，可合法首一化。未除其k首项；旧大QQ xgcd90秒失败如实保留，不重跑。继续一般Lt0原约束。
-
-
-[整个e=1/2原纤维](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-ehalf-original-exclusion.md)已独立排除：四原必要式的107/116/75次完整v投影给累计QQ Bézout k^8(k+2)^2(k+5/2)^8，全属原/已闭单位；未用Q4首项非零，故无循环。一般Lt0可付2e−1。
+新同eta原Q4的[整首项零面](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-same-eta-quartic-leading-zero-exclusion.md)与[整个ehalf原纤维](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-ehalf-original-exclusion.md)均已独立闭合，可付B_(11,8)、2e−1；原证明无循环。新[整个A24曲线](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-Qa-A24-curve-exclusion.md)以799次QQ完整覆盖和3116次完整结式约化的保次数一元证据关闭，Qa投影只余C83。C83/H33完整QQ投影120秒SIGALRM无返回，冻结；续原N1/Qa低主子式的同点λ/f/eta与完整原mean/P/N，而不重复大投影。

@@ -1,0 +1,36 @@
+{
+  "session": "Astra-ISP-8542378f-20261127",
+  "status": "unresolved_resource_limit",
+  "operation": "Complete QQ[e] resultant Res_k(H33(e,k),C83(e,k)), with full original Qa/Dixon factors",
+  "inputs": {
+    "H33": {
+      "bidegree": [
+        33,
+        21
+      ],
+      "sha256": "56af06a2268d0e574b5d0a5f85bbf8d29e0b1e81a8e1737b55cef80d2c4d7a0e"
+    },
+    "C83": {
+      "bidegree": [
+        83,
+        64
+      ],
+      "sha256": "bf7245e09f36bd958f6705b556e0e0bf930e758f80e909b267f212889d0d769e"
+    }
+  },
+  "inputRegenerationSource": "2026-11-27-unit211-S0-Lt0-same-eta-quartic-leading-zero-return-8542.py",
+  "inputRegenerationSourceSha256": "7789a906aca59fc65611b5f109f89310d7dcf30fe3d397d0e5f7f7c9173f9690",
+  "scratchDriverSha256": "3f62af22c953fc6ba8bbd635e9a6fe2b09b8196bdafc481fba9b5c3b894a951a",
+  "alarmSeconds": 120,
+  "addressSpaceGiB": 4,
+  "observedSignal": 14,
+  "observedShellExitCode": 142,
+  "externalWallSeconds": null,
+  "stdoutSha256": "61f3b04a7c2f3c951ae294cf8b2280fac0a2c92a05b558dfa2d0b6b3ce22b973",
+  "returnedResultant": false,
+  "lastCompletedStage": "BEGIN with full input degrees; no resultant coefficients returned",
+  "mathematicalConclusion": null,
+  "doNotRepeat": true,
+  "nextInput": "Original N1/Qa lambda,f pivot: 67-term v-linear polynomial with all exceptional fibers returned, followed by original mean/N/P reconstruction.",
+  "retainedRegenerableData": false
+}
