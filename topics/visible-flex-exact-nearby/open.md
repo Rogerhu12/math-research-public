@@ -165,7 +165,7 @@ G以S/T E1856给physical C²整盘/曲率<2/径长<8e−6及同world position/no
 
 R143 correlated body已全4651；R146全418/13376使当前CV/RA根费格式失败，禁止继续该格式Gram/容量/仅DH细化，不推PDE奇异。R145/R147和[NW](results/R147-supplement-actual-same-window-negative-nu-waist.md)各旧成功锁定；NW只给ordinary零root/无impulse负ν分量，非全误差≤.005。
 
-执行环境05:48 UTC断开，09:57仍不可用；公开Actions持续。每次main更新核两README，恢复立即真实pull/rebase。≤200MB容量、H/open尺寸、旧科学不重及失败/unknown完整保留规则仍适用。最后必须同一次冻结ν*/Γ*/η/metric并构造同一连通闭嵌入族，所有最终门逐一真实通过。
+执行环境05:48 UTC断开，10:57仍不可用；公开Actions持续。每次main更新核两README，恢复立即真实pull/rebase。≤200MB容量、H/open尺寸、旧科学不重及失败/unknown完整保留规则仍适用。最后必须同一次冻结ν*/Γ*/η/metric并构造同一连通闭嵌入族，所有最终门逐一真实通过。
 
 [CS新中心完整源](results/R144-supplement-compact-centre-ordinary-and-divergence-residual.md)已证exact ordinary/divergence分解，径向常数Δκ只从angular flux准确消去、仍在ordinary项；原Rv−jR0及ξχ′完整保。五个新局部积分量消费actualρ/b后可执行；first-row H−2/3不免费删角导数，384^1/3费与所有rawjump/physical composition仍保。
 
@@ -181,4 +181,4 @@ R149 signed-loop入口已保原77pins并支持PS完整85pins；原程序在六�
 
 [LC localized全状态/完整源](results/R144-supplement-localized-full-state-C0-and-compact-source-receivers.md)及[实际入口](notes/2026-11-26-R144-localized-full-state-and-compact-sources-contract.md)全核并首启：19当前/10历史、7721行/6143join/27球，manifest862c70975a9ac155404e7f80c3dc9f00a634be68a5c72facbdd91207d97c581d。同φ E=bJ+ρχW_A区外保mean，CS五完整源和χ′质量/全jump同时保存。[actual45797426031/1](results/R144-supplement-actual-localized-full-state-and-compact-sources.md)27球完整，C0门true；五源/完整跳跃锁定，anisotropic pair显示约2.926756632289e−5。checkpoint整bytes/球contains/accepted trace全验，未来GC修正须另加。旧TM/Γ/原残差不重。
 
-[TC真根连续96试列](results/R149-supplement-true-root-continuous-PDE-trials-and-complete-residuals.md)的math/proposal/inputs及owner/worker已双核保存，原Box/FFT、exact repair、whole7721 η jets、真根共享、288支持/5窗/两mean/RW signed配对保。三自然目标逐whole candidate含球验证后正式保存；formal可领先state，all96×5 exacthex前缀与多次origin链不重算，三全成拒新science。旧40parts七个恢复defs全局闭包已核，首manifest待齐；SC真列误差/真矩阵仍只在完整P224后执行。
+[TC真根连续96试列](notes/2026-11-26-true-root-trial-residual-contract.md)首入口已推送启动：78当前/27历史、全部584新球，wholeη jets/真根/288残差/5窗/两mean/RW signed保。源码/whole输入/manifest及workflow双核，manifest948e8e3775b4a396d60e05c298f5f6c99c1f9a3ce7795de646bf3c7afa577169。formal可领先state，全96×5 exacthex/multi-origin接续不重已成；三对象齐才完整列，SC真误差/真矩阵仍等P224。

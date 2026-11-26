@@ -1,0 +1,52 @@
+name: R149 complete true-root finite trials first
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/fourfold-codazzi-true-root-trials-public.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: read
+concurrency:
+  group: visible-flex-exact-true-root-finite-trials-20261126
+  cancel-in-progress: false
+jobs:
+  complete-new-finite-trial-objects:
+    if: github.repository == 'Rogerhu12/math-research-public' && github.run_attempt == 1
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    env:
+      OPENBLAS_CORETYPE: Haswell
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+      MKL_NUM_THREADS: '1'
+      BLIS_NUM_THREADS: '1'
+      VECLIB_MAXIMUM_THREADS: '1'
+      NUMEXPR_NUM_THREADS: '1'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-exact-nearby/README.md
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_root_trial_public_worker.py
+            /topics/visible-flex-exact-nearby/notes/2026-11-26-true-root-trial-residual-inputs.json
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12.14'
+      - name: Install the fixed directed finite-trial runtime
+        run: python -m pip install --disable-pip-version-check numpy==2.3.5 python-flint==0.9.0
+      - name: Whole old inputs, true-root finite trial and only missing complete objects
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: >-
+          python topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_root_trial_public_worker.py
+          --repo "$GITHUB_WORKSPACE"
+          --manifest topics/visible-flex-exact-nearby/notes/2026-11-26-true-root-trial-residual-inputs.json
+          --manifest-sha 948e8e3775b4a396d60e05c298f5f6c99c1f9a3ce7795de646bf3c7afa577169
