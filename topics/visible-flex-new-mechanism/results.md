@@ -234,3 +234,5 @@
 - [联合预算B038的真实metric改善与角峰容量终态](notes/2026-11-26-joint-budget-b038-metric-and-peak-cap-receipt.md)：**完整单lane原观察**。848.448631589新科学秒，fine η=.853614316555、V=0、κ16.452787，243×3072；末SLSQP自然success46步。121×1536/trust1/64是真实末约束，122×3072未采用；早期细峰重启无接受而无coarse违约日志，后继同时读两者并接连续峰，不能把η改善授全门。
 
 - [R575 局部二阶均值通量与径向度量设计](results/R575-local-second-order-mean-flux-and-radial-metric-design.md)：**已证明**完整二阶度量均值给B0及J0的同场一jet公式，直接微分准确J0′=N0，帽端全平支付零积分常数，真实核心A=1/F=0给3(j²−1)²/(4R²)。正则x式在竖直口可用；常W源显式保低斜率成本。静态e0=2J0可吸收均值，未解非均值高模/完整非线性/冻结g全门。
+
+- [紧凑R530的27态接口](notes/2026-11-26-compact-r530-reduced-endpoint-implementation-agent.md)与[真实本地开发收据](notes/2026-11-26-r530-local-development-execution-receipt-agent.md)：**实现接口及失败诊断，不是有限根**。只投影ruling所读的三条真实第三历史，保两侧原8矩和chain；四条材料边界读全程球范围。3次本地开发执行已停止并如实登记、原draft保源，不冒Actions/纸证或路径；后继准确分离仿射加速度再公开执行。
