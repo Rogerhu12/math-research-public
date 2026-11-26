@@ -27,7 +27,7 @@
 
 - [R957](results/R957-original-five-source-integer-grid-and-complete-placewise-budget.md)：原新B+全部89余权给R[X,Z]自由秩2225、全部基权≤187；同权28883导子与固定D0^(M+1)将全基整返原五源。真实Λ取所有五源单项式的整数像格，实商Euclidean与有限位同格；covol倒数给非负算术度、全饱和jump乘积公式。普通卷积后切单位域，完整矩/下降阶乘给所有前缀整性；复侧和全部惰性成本全付。新J5精确读p^j r_js+i，完整参数变化最多24模p行，导子固定4r_c carry，不套旧十九角/13/52。尚未从五中央零得全深核或严格a+2b<3。
 
-- [R958](results/R958-original-e89-common-six-sigma-cm-projection.md)：同原六个sigma取实际轴(δ,2δ,γ7,barγ7,1,2γ37)，完整degree178/相位/尺度及五伴随整框架均付。同次重生原全CM矩阵，run45809854198首候选PASS：c0、q(e)=15−15ω、α=(273+156ω)/185≠0；全30维秩一投影、两CM逆、全部奇sigma相位与S/T返回通过。真实五伴随算子给W⊗Λ且Λ(0)=α，原周期νW17=(89/17)νE89；全部CM有限支与混合unit/deep条件逐支保留。可读独立伴随中央行，混合余域及无穷性仍待消费。
+- [R958](results/R958-original-e89-common-six-sigma-cm-projection.md)：同原六个sigma取实际轴(δ,2δ,γ7,barγ7,1,2γ37)，完整degree178/相位/尺度及五伴随整框架均付。同次重生原全CM矩阵，run45809854198首候选PASS：c0、q(e)=15−15ω、α=(273+156ω)/185≠0；全30维秩一投影、两CM逆、全部奇sigma相位与S/T返回通过。真实五伴随算子给W⊗Λ且Λ(0)=α，原周期νW17=(89/17)νE89；全部CM有限支与混合unit/deep条件逐支保留。可读独立伴随中央行，混合余域及无穷性仍待消费。§9进一步由完整A7逆与简单谱证明Π为有理矩阵，给共轭真W轴/非零barα和整个五伴随共轭关系；Ys=X+Z及与旧T的单位三坐标Normdet3024全部返回，三单位扇区仍保各自source projection。
 
 - [R959](results/R959-original-e65-two-independent-points.md)：固定E65两点独立；全部有限角色/390导子、α15/13、2/3/5/双13 Schwartz、split投影12倍成本、全权平方及degree390/charge195真来源已付。run45812554270同次全66列CM7/19唯一K核/mass0/首阶6/有理分母175和旧E89→真实B6≠0全部PASS。完整普通Katz平方、惰性signed整格及全部新Euler/周期/微分给r+corankSha≤2ordJ，导数非零即通常全Sha[p∞]有限；六轴只排显示B6分子有限素集。六源角帽、同原有限限制forcing与无穷非零继续。
 

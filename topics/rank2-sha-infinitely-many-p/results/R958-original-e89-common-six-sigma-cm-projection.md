@@ -585,3 +585,233 @@ $\texttt{multiprocessing.get_context('fork')}$ 上下文继承已载入的
 - 全部除法函数由实际 CM 群律重建并完成曲线/微分/分母平方回乘；首候选完整30维投影、原两个 CM 逆、四条奇 sigma 相位、六轴 Gram/两边逆/原 S,T 回传全部通过。原矩阵和生成系数没有另存文件。
 
 已付的是完整来源与明确非零投影，(43) 的中央零仍以原反证输入 $J'_{89,p}(0)=0$ 为条件。继续用该真行消费 (48) 的全部混合余域；通常全 Sha 的无穷素数结论尚未完成。
+
+
+## 9. 同一个 E89 的共轭两轴、完整伴随关系与原三坐标
+
+以下 $u=\gamma_{37}=7+3\omega$，$\bar u=4-3\omega$，
+$\alpha=(273+156\omega)/185$，并沿用本篇已核的第一候选、
+完整矩阵与原 $b=17$ 六输入。
+
+### 9.1 原完整 rank-one 投影实际上定义在 $\mathbf Q$ 上
+
+置 $A=A_7$、$e=1+\omega$。公开运行已核
+$$
+A\bar A=I,\qquad e\bar e=1,\qquad
+q(e)=15(1-\omega)\ne0,\qquad
+\Pi=q(A)/q(e).
+\tag{50}
+$$
+这里 $e$ 是整个30维算子的简单本征值。故 $\Pi$ 是沿
+$\operatorname{im}(A-eI)$ 投影到 $\ker(A-eI)$ 的唯一投影。
+另一方面，
+$$
+\bar A-\bar eI=-\bar e A^{-1}(A-eI).
+$$
+它与 $A-eI$ 的核相同、像也相同。因此共轭后的谱投影满足
+$$
+\boxed{\bar\Pi=\Pi.}
+\tag{51}
+$$
+完整基 $\sigma^{178}x^2X^j$ 定义在 $\mathbf Q$ 上，所以这是
+该**整个矩阵**的有理性；没有只从像线 $KW$ 为有理线推出
+投影有理。
+
+候选完整多项式恒等式 (11) 在 $u\mapsto\bar u$ 下逐系数共轭。
+由 (21)、(51) 及 $W_1$ 的有理系数，
+$$
+\boxed{\Pi F_{1,\bar u}=\bar\alpha W_1,\qquad
+       \bar\alpha=(117-156\omega)/185\ne0.}
+\tag{52}
+$$
+这是本次原完整矩阵证书的代数后果，不需要第二次数值运行。
+$\alpha=39(1+\omega)/(5u)$，故两个质量在当前 $p>211$ 都是单位。
+
+还可明确这里没有新增未显示的大素数分母。原 Heisenberg 共轭作用
+在模 $356$ 的有限群上有有限阶 $d$，故 $N_7^d$ 是整个
+$\mathcal S_{178}$ 的标量；原 $W$ 锚把它定为 $e^d$。
+因此 $N_7^{6d}=I$，所有特征根都是整根单位，
+$q\in\mathcal O_K[X]$。原好整格上的 $N_7$ 在
+$p\ne2,3,7$ 整，(50) 的分母只添3、5，所以本篇 $\Pi$
+在当前所有普通 $p>211$ 均整。
+
+### 9.2 两个整框架和同一个实际五伴随算子
+
+记优先候选的原整框架为 $L_+$，并置
+$$
+D=\operatorname{diag}(1,1,1,1,1,\bar u/u),\qquad
+L_-=L_+D.
+\tag{53}
+$$
+在 (22)、(24) 的构造顺序中，最后一列的每个系数都含有 $u$。
+所以 $L_-$ 仍是整矩阵，不是直接容许一个37分母的有限纤维
+换元。其首行是
+$$
+(\delta,2\delta,\gamma_7,\bar\gamma_7,1,2\bar u).
+$$
+$D\bar D^t=I$，因此
+$$
+L_-\bar L_-^t=L_+\bar L_+^t
+ =\operatorname{diag}(178,29548,27058,26406,25110,22940).
+\tag{54}
+$$
+两行列式的范数相同，均素于7、13；偶半特征的计数也不变，
+因为 $u,\bar u$ 在 $\mathcal O_K/2$ 上都是单位。
+原 p 处的整性、全部 finite CM 纤维、中心及逆由第4–5节逐项保留。
+
+用原未缩放六输入定义
+$$
+\mathcal F_+=u^{-1}(L_+)_*\rho_{\rm raw},\qquad
+\mathcal F_-=\bar u^{-1}(L_-)_*\rho_{\rm raw}.
+\tag{55}
+$$
+两边的输出坐标都记为 $(Y,\mathbf Z)$，但拉回原六输入时
+必须分别用 $L_+$、$L_-$。因为 (54) 的完整 theta 张量格相同，
+同一个**坐标中的**五伴随算子
+$$
+\mathcal C_W=\frac{q(B_7)}{15(1-\omega)}\Pi_{\mathbf Z}
+\tag{56}
+$$
+对它们分别给
+$$
+\boxed{\mathcal C_W\mathcal F_\pm
+       =W_{17}\otimes\Lambda_\pm,\qquad
+       \Lambda_+(0)=\alpha,\quad\Lambda_-(0)=\bar\alpha.}
+\tag{57}
+$$
+两条 $\Lambda_\pm$ 都是完整五变量整 Amice 卷积单位。
+(56) 相同不表示返回原输入后的两个 source projection 相同：
+$L_-\ne L_+$，其第一物理输出也不同。
+
+可进一步保留**整个伴随**的确切共轭关系。令 $Q$ 在原六输入中
+同时反射第1、2项，并交换第3、4项，其他项不变。
+sigma 奇性给 $Q_*\rho_{\rm raw}=\rho_{\rm raw}$。
+$\bar L_+Q$ 的第一行正是 $L_-$ 的第一行。置
+$$
+M=L_-(\bar L_+Q)^{-1}.
+$$
+由两个完整 Gram 和相同第一行，
+$$
+M=\operatorname{diag}(1,M_5).
+\tag{58}
+$$
+其两个方向都在当前 p 处整，因为逆只用 (54) 的固定单位分母。
+在代数 theta 来源中先逐系数共轭、再取同一相容 p 周期，
+$$
+\mathcal F_-=M_*\overline{\mathcal F_+}.
+$$
+第一轴投影与 $M$ 交换，(51) 因而给
+$$
+\boxed{\Lambda_-=(M_5)_*\overline{\Lambda_+}.}
+\tag{59}
+$$
+这里的横线先作用于原 $K$-系数；不是随意在
+$\mathbf C_p$ 上指定一个共轭自同构。
+(59) 也没有把两条伴随直接认成相等。
+
+### 9.3 同一个坏中央给两条完整条件行
+
+两个实际第一输出是
+$$
+Y_+=A+c+2u d_0,\qquad Y_-=A+c+2\bar u d_0,
+\quad
+A=\delta\xi_1+2\delta\xi_2+\gamma_7\xi_3+\bar\gamma_7\xi_4.
+\tag{60}
+$$
+在 $J'_{89,p}(0)=0$ 的同一个反证条件下，对任意完整独立伴随
+测试 $h_\pm$，准确有
+$$
+\boxed{
+\int_{Y\ {\rm unit}}(p-1)\log_p\langle Y\rangle\,h_\pm(\mathbf Z)
+\,d\nu_{\mathcal C_W\mathcal F_\pm}=0.}
+\tag{61}
+$$
+完整 Mellin 恒等式仍各带 (41) 的 $89/17$。
+也可以使用解析依赖 Mellin 参数的 $h_\pm$，因为原
+$J_{89,p}(0)=0$ 消去其导数质量项。
+
+(56) 的第 $j$ 项仍须完整展开为所有
+$E[\bar\gamma_7^j]^5$ 分支，以及六个角支；其尺度
+$\bar\gamma_7^{-5j}$、原对称 theta 中心、每个来源和每个
+混合条件全部保留。对任何原行 $r$，第 $+$ 或第 $-$ 行的
+实际分支切域分别是
+$$
+(rL_\pm^{-1})_0Y+
+ \frac{\zeta}{\bar\gamma_7^j}
+       \sum_{\ell=1}^5(rL_\pm^{-1})_\ell Z_\ell
+ \quad\hbox{满足原单位或深度条件}.
+\tag{62}
+$$
+所以 (61) 给两个已证明的有限来源和式；不能将其改写成
+未投影 $\rho_{\rm raw}$ 上的两个裸对数积分为零。
+
+### 9.4 与旧 S 管的真实单位三角及三坐标
+
+这里的两个共轭轴与旧 $Y_s=A+c+2d_0$ 有特殊的精确关系：
+$$
+u=1-3\omega\delta,\qquad
+\boxed{Y_s=(1+\omega)Y_+-\omega Y_-.}
+\tag{63}
+$$
+令
+$$
+X=(1+\omega)Y_+,\qquad Z=-\omega Y_-.
+$$
+两系数都是 $\mu_6$ 单位。在普通 $p\equiv1\bmod6$ 时，
+它们的 principal p 进对数为零；单位域也不变。
+第一来源 $W$ 的角型为零，故这两个第一轴旋转保 (57) 的 $W$
+及其首项规范。于是两条 (61) 可以准确在 $X$、$Z$ 上读取，
+而
+$$
+\boxed{Y_s=X+Z.}
+\tag{64}
+$$
+这是真实单位域中可用的加法关系，未声称中央 Mellin 可乘。
+
+保旧 $W_t=A+3\delta c+4d_0$。从原 $(A,c,d_0)$ 到
+$(X,Z,W_t)$ 的行列式准确为
+$$
+6\delta(3\delta-1),\qquad
+N\{6\delta(3\delta-1)\}=3024=2^4\,3^3\,7.
+\tag{65}
+$$
+因此当前 p 处三者是完整单位三坐标，反变换为
+$$
+d_0=\frac{-\omega X+\omega^2Z}{6\delta},\qquad
+c=\frac{W_t-(X+Z)-2d_0}{3\delta-1},\qquad
+A=X+Z-c-2d_0.
+\tag{66}
+$$
+特别 R548 的
+$$
+L_{\rm mix}=(W_t-Y_s)/2
+$$
+在这同一坐标中是 $(W_t-X-Z)/2$；原
+$u_j=cH^{-j}$、$q$ 及全部 $P_j$ 也必须把 (66) 代入完整表达式。
+
+由 (64)，旧 $Y_s$-unit 管有准确的不交分割
+$$
+\begin{aligned}
+\{Y_s\text{ unit}\}
+={}&\{X\text{ unit},\,Z\in p\mathbf Z_p\}\\
+&\sqcup\{X\in p\mathbf Z_p,\,Z\text{ unit}\}\\
+&\sqcup\{X,Z,X+Z\text{ unit}\}.
+\end{aligned}
+\tag{67}
+$$
+但这三个域都还须分别经过 (62) 的真实 source projection 返回；
+(67) 本身不把它们当成 (61) 中的独立伴随条件。
+
+还有
+$$
+X=\frac{Y_s+\delta R}{2},\qquad
+Z=\frac{Y_s-\delta R}{2},\qquad R=A+c+14d_0.
+\tag{68}
+$$
+这里只把 $R$ 当作一个实际线性输出，未给它新的曲线中央身份。
+
+这段已支付的是 (51)–(67) 的完整共轭行、两伴随关系和可用于旧
+管的实际坐标。R548(40) 中的
+$\mathcal J$、未投影的 $\rho_0((\Phi_1+\Phi_2)/2-\Phi_0)$、
+以及 $h(\Phi_1-\Phi_2)$ 仍必须逐个与 (61) 的**投影后来源和式**
+比较；没有将其中任何一项免费置零。
