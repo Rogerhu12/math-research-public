@@ -55,6 +55,6 @@
 <!-- visible-larger-parallel-04:end -->
 
 <!-- visible-larger-parallel-05:start -->
-并行公开Actions05：[run 45870334713/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45870334713)；[实际记录](notes/2026-11-26-public-actions-45870334713-1.md)。阶段`followup:actual-gamma-explicit-H-saved-KKT-matrix-diagnostics-20261126-05`/completed；已返14，exit=0。
-并行05规则核查：2026-11-26 19:48:48 UTC，真实pull至`de2f7a889c4e180d470b9cd9cd5ddb9f45303125`，双README无变化。
+并行公开Actions05：[run 45870334713/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45870334713)；[实际记录](notes/2026-11-26-public-actions-45870334713-1.md)。阶段`followup:complete-fixed-normal-plane-full-history-first-20261126-05`/failed；已返15，exit=1。
+并行05规则核查：2026-11-26 19:49:12 UTC，真实pull至`0941b3650eee97418d78c5be102a1219676e65bc`，双README无变化。
 <!-- visible-larger-parallel-05:end -->
