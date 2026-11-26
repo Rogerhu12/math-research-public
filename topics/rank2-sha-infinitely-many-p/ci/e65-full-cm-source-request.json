@@ -1,6 +1,6 @@
 {
-  "schema": "rank2-original-e65-full-cm-sixth-axis/v2",
-  "request_id": "2026-11-26-r960-r961-original-six-source-angle-and-six-sigma",
+  "schema": "rank2-original-e65-full-cm-sixth-axis/v3",
+  "request_id": "2026-11-26-r962-r963-sixth-overdetermination-and-original-h",
   "degree": 390,
   "workers": 4,
   "python_flint_version": "0.9.0",
@@ -16,7 +16,11 @@
   "args": [
     "--workers=4"
   ],
-  "scope": "Same-job complete original E65/E89 CM sources and all six jets, complete angular profile with whole returns, and actual nonzero six-sigma projection with all 66 columns, full norm7/19 sigma phases, integral Gram and all old mixed cuts.",
+  "scope": "Same original complete E65/E89 sources and every prior gate; original R548 positive h projection with both whole frames and mixed cuts, plus the actual sixth row on five-axis p^5 Hensel solution and all original C24 columns at fixed p=227. Either new zero or nonzero is reported exactly.",
   "same_job_complete_six_source_angular_profile": true,
-  "same_job_genuine_six_sigma_projection": true
+  "same_job_genuine_six_sigma_projection": true,
+  "same_job_original_h_projection": true,
+  "same_job_sixth_on_five_axis_overdetermination": true,
+  "overdetermination_prime": 227,
+  "overdetermination_precision": 5
 }

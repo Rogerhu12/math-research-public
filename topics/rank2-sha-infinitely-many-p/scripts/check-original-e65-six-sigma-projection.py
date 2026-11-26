@@ -456,6 +456,165 @@ def check_original_e65_six_sigma(coefficients, cm_context):
         assert mm([read], rows)[0] == row
         returned[name] = [enc(x) for x in read]
 
+
+    # The ORIGINAL R548 positive state h = omega^2 H_*rho_raw + rho_raw/2.
+    # A monomial rearrangement puts both odd CM7 factors in the original
+    # (c,d0) slots.  Its complete marginal difference is computed below;
+    # a zero marginal is reported honestly and never called a zero tensor.
+    data13 = division(4, 1)
+    gamma13 = data13["v"]
+    assert data13["norm"] == 13 and data13["offset_x"] == 0
+    R7 = divisions[(3, 1)]["R"]
+    pair7 = ps(pm(R7, [conj(x) for x in R7]), K(7))
+    pair13 = ps(data13["R"], gamma13)
+    pair13bar = [conj(x) for x in pair13]
+    assert pa(pair13, pair13bar) == pair7
+    assert pair7 == [K(16),K(-4),K(7)]
+    assert pa(pair13bar,pn(pair13)) == ps([K(16),K(44),ONE],neg(delta))
+    remaining_four = pexact(polynomial, pair7)
+    F13 = pm(remaining_four, pair13)
+    F13bar = pm(remaining_four, pair13bar)
+    assert pa(F13, F13bar) == polynomial
+    assert len(F13) == len(F13bar) == 65
+    omega2 = power(omega, 2)
+    h_polynomial = ps(pa(F13bar, pn(F13)), mul(omega2, K(Q(1,2))))
+    assert len(h_polynomial) == 65
+    assert h_polynomial[64] == neg(div(mul(omega2,delta), K(14)))
+
+    def project_complete_polynomial(poly):
+        assert len(poly) <= dimension
+        full = poly + [ZERO]*(dimension-len(poly))
+        vector = (Mat([[x[0]] for x in full]),
+                  Mat([[x[1]] for x in full]))
+        image = km(projection, vector)
+        coefficient = H["get_entry"](image, 64)
+        assert image == ks(source_pair, coefficient)
+        return coefficient, full
+
+    alpha13, full13 = project_complete_polynomial(F13)
+    alpha13bar, full13bar = project_complete_polynomial(F13bar)
+    alpha_h, full_h = project_complete_polynomial(h_polynomial)
+    assert add(alpha13, alpha13bar) == alpha
+    assert alpha_h == mul(mul(omega2, K(Q(1,2))), sub(alpha13bar,alpha13))
+    assert full_h[65] == ZERO
+    norm_alpha_h = mul(alpha_h, conj(alpha_h))
+    assert norm_alpha_h[1] == 0
+
+    # Both entire source frames are integral: only the FIVE companion
+    # rows are doubled.  The first row already takes H to an integral row.
+    # This proves membership in the same S390 first factor before any
+    # marginal is taken, rather than reconstructing a tensor from a marginal.
+    H6 = eye(6)
+    H6[4][4] = H6[5][5] = mul(omega2, K(Q(1,2)))
+    H6[4][5] = neg(mul(delta, K(Q(1,2))))
+    H6[5][4] = mul(add(K(2),omega), K(Q(1,2)))
+    Hadj = [[conj(H6[j][i]) for j in range(6)] for i in range(6)]
+    assert mm(H6, Hadj) == eye(6) == mm(Hadj,H6)
+    Rc = eye(6)
+    Rc[4][4] = K(-1)
+    rotated = [[row[0], row[1], row[4], row[5],
+                row[2], mul(omega2,row[3])] for row in rows]
+    h_rows = [rotated[0]] + [[mul(K(2),x) for x in row]
+                             for row in rotated[1:]]
+    eta_rows = mm(h_rows,H6)
+    assert h_rows[0] == [delta,mul(K(2),delta),a,K(18),
+                         from_omega(3,1),mul(omega2,from_omega(2,-1))]
+    assert eta_rows[0] == [delta,mul(K(2),delta),a,K(18),
+                           mul(omega2,gamma13),neg(omega)]
+    reflected_eta_row = mm(mm([h_rows[0]],Rc),H6)[0]
+    assert reflected_eta_row == [delta,mul(K(2),delta),a,K(18),
+                                 omega2,mul(omega,conj(gamma13))]
+    h_degrees = [degrees[0]]+[4*d for d in degrees[1:]]
+    h_diagonal = [[K(h_degrees[i]) if i == j else ZERO
+                   for j in range(6)] for i in range(6)]
+    parity_by_source = {}
+    for label, frame in (("rho",h_rows),("eta",eta_rows)):
+        adj = [[conj(frame[j][i]) for j in range(6)] for i in range(6)]
+        assert mm(frame,adj) == h_diagonal
+        assert all("/" not in component for row in frame for x in row
+                   for component in encw(x))
+        parity = [sum((int(x[0]+x[1]) % 2 != 0) or
+                      (int(2*x[1]) % 2 != 0) for x in row)
+                  for row in frame]
+        assert all(v % 2 == 0 for v in parity)
+        parity_by_source[label] = parity
+        inv_frame = [[div(conj(frame[j][i]),K(h_degrees[j]))
+                      for j in range(6)] for i in range(6)]
+        assert mm(frame,inv_frame) == eye(6) == mm(inv_frame,frame)
+    h_inverse = [[div(conj(h_rows[j][i]),K(h_degrees[j]))
+                  for j in range(6)] for i in range(6)]
+    h_determinant_norm = math.prod(h_degrees)
+    assert h_determinant_norm == 4**5*determinant_norm
+    assert h_determinant_norm % 7 and h_determinant_norm % 19
+
+    h_old_axes = dict(original_axes)
+    h_old_axes["E65_standard"] = axis
+    h_old_axes["Lmix"] = [div(sub(x,y),K(2)) for x,y in
+                           zip(original_axes["T72"],original_axes["S34"])]
+    u0 = [ZERO]*4+[ONE,ZERO]
+    u1 = mm([u0],Hadj)[0]
+    u2 = mm([u1],Hadj)[0]
+    assert mm([u1],Rc)[0] == [mul(omega2,x) for x in u2]
+    h_old_axes.update({"u0":u0,"u1":u1,"u2":u2})
+    h_reads = {}
+    for name, raw_row in h_old_axes.items():
+        reading = mm([raw_row],h_inverse)[0]
+        assert mm([reading],h_rows)[0] == raw_row
+        h_reads[name] = [enc(x) for x in reading]
+    h_P_blocks = []
+    for j,uj in enumerate((u0,u1,u2)):
+        raw_column = [[conj(x)] for x in uj]
+        bcol = mm(h_rows,raw_column)
+        qrow = mm([uj],h_inverse)[0]
+        assert sumk(mul(qrow[i],bcol[i][0]) for i in range(6)) == ONE
+        assert mm(h_inverse,bcol) == raw_column
+        assert mm([qrow],h_rows)[0] == uj
+        rank_one = [[mul(bcol[i][0],qrow[k]) for k in range(6)]
+                    for i in range(6)]
+        assert mm(mm(h_inverse,rank_one),h_rows) == [
+            [mul(conj(uj[i]),uj[k]) for k in range(6)] for i in range(6)]
+        h_P_blocks.append({"j":j,"b_column_Qdelta":[enc(x[0]) for x in bcol],
+                           "q_row_Qdelta":[enc(x) for x in qrow]})
+    h_reflection = mm(mm(h_rows,Rc),h_inverse)
+    assert mm(h_reflection,h_reflection) == eye(6)
+    print("R961 original R548 h marginal coefficient",enc(alpha_h),
+          "nonzero",alpha_h != ZERO,file=sys.stderr,flush=True)
+    h_receipt = {
+        "status": "PASS_NONZERO_MARGINAL" if alpha_h != ZERO else "EXACT_ZERO_MARGINAL",
+        "original_state": "h=omega^2*H_*rho_raw+rho_raw/2, as in R548",
+        "normalization": "(9*gamma37)^(-1)*Lh_*h",
+        "axis_Qomega": [encw(x) for x in h_rows[0]],
+        "whole_pair_identity": "r_gamma7*r_bargamma7=r_gamma13+r_bargamma13",
+        "all_complete_pair_coefficients_returned": True,
+        "h_marginal_formula": "omega^2*(F13bar-F13)/2",
+        "first_marginal_origin_order": 6,
+        "all_three_66_coordinate_projections_returned": True,
+        "alpha13_Qdelta": enc(alpha13),
+        "alpha13bar_Qdelta": enc(alpha13bar),
+        "alpha_h_Qdelta": enc(alpha_h),
+        "alpha_h_Qomega": encw(alpha_h),
+        "alpha_h_norm": str(norm_alpha_h[0]),
+        "alpha_h_nonzero": alpha_h != ZERO,
+        "zero_marginal_is_not_declared_zero_tensor": True,
+        "whole_h_polynomial_sha256": _digest([enc(x) for x in full_h]),
+        "whole_branch_polynomial_sha256": {
+            "13":_digest([enc(x) for x in full13]),
+            "bar13":_digest([enc(x) for x in full13bar])},
+        "theta_degrees": h_degrees,
+        "only_five_companion_rows_doubled": True,
+        "both_whole_frames_integral_orthogonal_and_invertible": True,
+        "odd_CM_coefficients_per_row": parity_by_source,
+        "determinant_norm":str(h_determinant_norm),
+        "determinant_prime_to_7_and_19":True,
+        "whole_frame_sha256":_digest([[enc(x) for x in row] for row in h_rows]),
+        "whole_eta_frame_sha256":_digest([[enc(x) for x in row] for row in eta_rows]),
+        "complete_original_mixed_output_rows_Qdelta":h_reads,
+        "actual_Pj_rank_one_blocks":h_P_blocks,
+        "actual_Rc_matrix_sha256":_digest([[enc(x) for x in row] for row in h_reflection]),
+        "finite_branch_order": "A_j*diag(1,zeta/bar(beta),...,zeta/bar(beta)); no commuting of mixed operators",
+        "full_original_q_and_cut_pullback_retained":True,
+        "R548_remainder_declared_zero":False}
+
     return {
         "status": "PASS",
         "field": "Q(delta), delta^2=-3; omega=(-1+delta)/2",
@@ -469,6 +628,7 @@ def check_original_e65_six_sigma(coefficients, cm_context):
             "rank": 1, "whole_idempotence_commutation_target_and_source_returned": True,
             "full_matrix_rational": True,
             "matrix_sha256": _digest(H["serialize_matrix"](projection))},
+        "original_h_projection": h_receipt,
         "odd_sigma_phases": phases,
         "division_functions_rebuilt": [
             {"m": key[0], "n": key[1], "norm": data["norm"],

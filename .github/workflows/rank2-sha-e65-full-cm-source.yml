@@ -9,6 +9,7 @@ name: Rank2 original E65 complete source and six-source consumers
       - "topics/rank2-sha-infinitely-many-p/scripts/original_e65_local_schwartz.py"
       - "topics/rank2-sha-infinitely-many-p/scripts/original_e65_angular_profile.py"
       - "topics/rank2-sha-infinitely-many-p/scripts/check-original-e65-six-sigma-projection.py"
+      - "topics/rank2-sha-infinitely-many-p/scripts/check-original-sixth-on-five-axis-overdetermination.py"
   workflow_dispatch:
 permissions:
   contents: read
@@ -35,7 +36,7 @@ jobs:
           root = pathlib.Path(os.environ["RANK2_CHECK_DIR"])
           prefix = "topics/rank2-sha-infinitely-many-p/"
           request = json.loads((root / (prefix + "ci/e65-full-cm-source-request.json")).read_text())
-          assert request["schema"] == "rank2-original-e65-full-cm-sixth-axis/v2"
+          assert request["schema"] == "rank2-original-e65-full-cm-sixth-axis/v3"
           assert request["python_flint_version"] == "0.9.0"
           assert request["workers"] == 4 and request["degree"] == 390
           assert request["complete_CM_norms"] == [7, 19]
@@ -43,6 +44,10 @@ jobs:
           assert request["whole_five_plus_one_actual_jets"] is True
           assert request["same_job_complete_six_source_angular_profile"] is True
           assert request["same_job_genuine_six_sigma_projection"] is True
+          assert request["same_job_original_h_projection"] is True
+          assert request["same_job_sixth_on_five_axis_overdetermination"] is True
+          assert request["overdetermination_prime"] == 227
+          assert request["overdetermination_precision"] == 5
           assert request["require_sixth_jet_independence"] is True
           assert request["output_files"] is False
           script = prefix + "scripts/check-original-e65-full-cm-sixth-axis.py"
@@ -52,6 +57,8 @@ jobs:
               "original_e65_local_schwartz.py",
               "original_e65_angular_profile.py",
               "check-original-e65-six-sigma-projection.py",
+              "check-original-sixth-on-five-axis-overdetermination.py",
+              "r941-original-six-digit-central-reader.py",
               "check-r480-actual-input-cm19.py",
               "check-r466-fixed-two-division-source.py",
               "check-r464-degree102-cm7-exact.py",
@@ -59,7 +66,7 @@ jobs:
               "check-r943-degree178-full-cm-source.py",
               "check-r732-original-type-five-cm13.py",
           ]
-          assert len(sources) == len(set(sources)) == 10
+          assert len(sources) == len(set(sources)) == 12
           for name in sources:
               p = root / (prefix + "scripts/" + name)
               ast.parse(p.read_text(), filename=str(p))
@@ -99,4 +106,12 @@ jobs:
           assert report["actual_six_jets"]["actual_six_source_angular_profile"]["status"] == "PASS"
           assert report["actual_six_sigma_projection"]["status"] == "PASS"
           assert report["actual_six_sigma_projection"]["same_job_full_CM_matrices_used"] is True
+          overdet = report["actual_six_jets"]["sixth_on_five_axis_overdetermination"]
+          assert overdet["status"] == "PASS" and overdet["prime"] == 227 and overdet["precision"] == 5
+          assert overdet["all_five_Hensel_levels_verified"] == [1,2,3,4,5]
+          assert overdet["complete_original_C24"]["hensel_new_row_pairing_minus_qZ_residual"] is True
+          h = report["actual_six_sigma_projection"]["original_h_projection"]
+          assert h["status"] in ("PASS_NONZERO_MARGINAL", "EXACT_ZERO_MARGINAL")
+          assert h["all_three_66_coordinate_projections_returned"] is True
+          assert h["both_whole_frames_integral_orthogonal_and_invertible"] is True
           PY
