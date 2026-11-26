@@ -8,7 +8,7 @@
 
 已部分克隆并实际 `git pull main`，公开根 README、课题 README、HANDOFF、open、results 索引及相关 log/notes 已读。公开已读提交 **94357c748babfa36a981882494dfdd173ddfe301**（2026-11-26 09:17 UTC；本次实际pull后根/题README空差异）；私有根初读 **85fdf1853367ef25c07f3ebdb6ae25c22a3564b8**，随后逐次 pull/rebase 检查根差异，空差异。私有 QUEUE 的本题已改为本会话进行中并成功推送：**9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7**；最后实际pull及规则同blob读至 **beff3c7458835a1397c67704ac9a95d0a4717f12**（2026-11-26 08:52 UTC；磁盘满失败后改稀疏索引，重做actualpull成功，根README空差异、QUEUE仍本会话）。其它课题的并行认领保留。
 
-各原观察note保真实双仓pull/规则blob/QUEUE回执；根/题规则均无变化。盘满和失联恢复原记录保于[先前交接](notes/HANDOFF-before-hard-restoration-20261126.md)，历次全文见[几何转向前交接](notes/HANDOFF-before-compact-geometry-20261126.md)及[非线性高度前交接](notes/HANDOFF-before-nonlinear-height-20261126.md)。API读取不冒git pull。
+各原观察note保真实双仓pull/规则blob/QUEUE回执；根/题规则均无变化。盘满和失联恢复原记录保于[先前交接](notes/HANDOFF-before-hard-restoration-20261126.md)，历次全文见[几何转向前交接](notes/HANDOFF-before-compact-geometry-20261126.md)及[非线性高度前交接](notes/HANDOFF-before-nonlinear-height-20261126.md)。API读取不冒git pull。2026-11-26 09:18 UTC本地执行环境再次不可用；最后本地push已确认成功。09:21 UTC接口读至 **c1a48b0f83a7e59f3a1439bd1fdbcd384aacda36**，根/题README仍原blob；继续接口保存论文/源与公开Actions，恢复后立即actualpull/rebase。
 
 每次pull核根/题README差异并立即执行，至少每小时一次，SHA随H更新；root独占git及共享索引。科学仅公开Actions，本地限纸证/源码/原日志解析；[3次本地开发偏离](notes/2026-11-26-r530-local-development-execution-receipt-agent.md)已如实闭账，源/参数保且已停止，不作路径或结论；根12不加机械复跑门，根15只留源码/参数/run/SHA/小结，不留可重算raw。每条完成结论即推；NFF立即pull --rebase再推。
 
@@ -22,7 +22,7 @@
 
 [R565](results/R565-parallel-oval-core-exact-reach-and-amplitude-budget.md)的平行椭圆核心与[R566](results/R566-flat-oscillatory-cap-tail-and-graph-reach.md)振荡平帽是新g输入。v2、hard、识别续接及联合预算原run逐次闭账，完整源链保于[压缩前交接](notes/HANDOFF-before-resonant-height-20261126.md)和[open](open.md)。联合预算保持R1.012/Y.3928/τ.06072，B030/B038末fine η.939819/.853614、V0，但各3072约束提议未采用。
 
-[真实角峰实现](notes/2026-11-26-real-angular-peak-exchange-implementation.md)保原1536全均匀约束/真实q/trust，另外加入实际非均匀峰，Ebar仍全角积分；actual违规覆盖内的新峰不立即重启，小峰pending待自然返回，完整fine/已定位峰共同判接受。[首启动缺依赖](notes/2026-11-26-theta-peak-import-closure-failure-and-repair.md)模型0次，已最小修复。run45785004209自然终态。[B030原收据](notes/2026-11-26-theta-peak-b030-first-real-angle-receipt.md)新增706.272697351秒，η.939819→.39843255、V0；actual257径向/258峰，pending275/287、trust.53393555。[B038收据](notes/2026-11-26-theta-peak-b038-first-real-angle-receipt.md)新增763.897576187秒，保留η.65058868/V0；actual250/213、pending303/268、trust.26696777。末trial η.5993因V.000192被拒。均径向容量终止/0自然返回；[513容量续接](notes/2026-11-26-theta-peak-capacity-continuation-implementation.md)已提交，全actual+pending保留、已付接口不重跑，连续reach/冻结g仍欠。
+真实角峰保1536全均匀约束与完整角Ebar，另外加实际峰，actual/pending/trial分开。run45785004209已闭：[B030](notes/2026-11-26-theta-peak-b030-first-real-angle-receipt.md)706.272697351新秒、η.39843255/V0、actual257径向/258峰、pending275/287；[B038](notes/2026-11-26-theta-peak-b038-first-real-angle-receipt.md)763.897576187新秒、保留η.65058868/V0、actual250/213、pending303/268。B038末trial因V.000192被拒。均径向容量终止/0自然返回。[513续接](notes/2026-11-26-theta-peak-capacity-continuation-implementation.md)已push **48e3048105f2e4e83c537beddb4bdefb99ae6e21**，run **45790610433**双lane在途；全部actual+pending及原trust保留，已付接口不重跑。连续reach/冻结g仍欠。
 
 [圆核原终态](notes/2026-11-26-circular-entry-and-small-core-continuation-receipt.md)run45778418134新增2401.892431903秒，p=.18入口V0/η8.66e−16；p=.20/.19/.185/.1825均未过stage1e−4，末η.0005411。最后合格仍圆；stage4真正156×384，235×768仅末扫描提议。[R580](results/R580-finite-tail-polynomial-kernel-obstruction-and-resonant-seed-interface.md)已证当前β×末段有限多项式不含非零真实尾核；末片跨carrier终点又排当前8基p′≠0的C1圆入口。只限原表示，不排强非圆或新空间。下一加实际背景的真实flat seed再调共振，不能仅缩p/调均值；p设计变化非同g。
 
@@ -40,9 +40,7 @@
 
 ## 5. 两母库与紧凑真实路径
 
-两母不可混用。**33母**保原20/cap/13及一次χ，R533–560已付返回层/双保持/部分p端图而净t1仍负；继续同完整F/history变高度，细条件保open原文。
-
-**R521母**不继承上述20/cap/13。R567清八矩m=A，R568付偶germ，[R570](results/R570-neutral-residence-pose-and-real-four-piece-return.md)使(PP^R)²闭scalar/frame/位置/A/T，但整个第四仍4V_P；R572从起点选母清自然Λ、环境raw self与微包总通量，内部partial/whole第四/同13仍欠。各完整证明及原适用范围不撤。
+两母不可混用：33母保原20/cap/13与一次χ，净t1仍负；R521母不承接这些门。R567/568付八矩/偶germ，[R570](results/R570-neutral-residence-pose-and-real-four-piece-return.md)的(PP^R)²闭scalar/frame/位置/A/T而完整第四仍4V_P；R572清自然Λ/raw self/微包总通量，partial/whole第四/同13仍欠。原所有适用条件保[open](open.md)及原证明。
 
 [R573](results/R573-fixed-collar-curvature-and-separated-scale-reach-obstruction.md)仅排原固定资料后δ→0时reach/D→0；净位移闭合、缩放或多消形式阶不能修复，未排新有限输入。[R530完整27态接口](notes/2026-11-26-compact-r530-reduced-endpoint-implementation-agent.md)保3个真实第三投影与4条材料边界。原[开发执行偏离](notes/2026-11-26-r530-local-development-execution-receipt-agent.md)保准确收据，未合格draft不再执行。
 
