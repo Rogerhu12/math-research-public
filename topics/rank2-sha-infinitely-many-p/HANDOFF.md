@@ -6,7 +6,7 @@
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，持续研究；有限验证、条件、接口和中间成果不算完成。**
 
-- 已部分克隆并实际pull --rebase；根/课题 README 已读至 `29e48a5c0b6a228a21122ac2834313cc084fbb6f`，相对已读版本未见规则变更。每次同步核两README差异；实际pull至少每小时，终端恢复即补做。
+- 已部分克隆并实际pull --rebase；根/课题 README 已读至 `b91da887cca5f2eed98c723683edd09cfdd0ffaa`，相对已读版本未见规则变更。每次同步核两README差异；实际pull至少每小时，终端恢复即补做。
 - 私有QUEUE已推进行中状态f3125fbaa4bc13678b0c8519d85051762c579529；私库README读至e776df4。
 - 两克隆在/tmp/rank2-sha-7d29daa5d3b1。执行环境断开，最新10:24:44 UTC重试仍不可用；依根授权用小文本GitHub tree/commit及非强制CAS，逐次核最新main/规则，竞争立即重取父提交重推。恢复先核stash/local main，不覆盖远端恢复提交，再pull --rebase。令牌未入文件/配置/日志。
 - root唯一ref和共享H/log/index写者，子代理只交不可变blob。数学执行仅公开Actions；只存源码/参数/run/hash/结论，不存可重算输出。H<10KB、MD<100KB、open尽量<30KB；不强推、不改他课题。
