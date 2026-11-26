@@ -6,11 +6,11 @@
 
 连通闭C²嵌入、C²连续族；H闭、有内点且diamH≥.2D，整像δhold≥.1D、含反射δE>0，全时reach≥.03D。固定完整g/物理数据/时间范围加密到完整metric≤1e−6并持续下降。必须实际闭合和共用Cartesian两jet；λ<1不提供准确圆弧H。
 
-- 公共已完整读规则并真实pull：`68cf8b07ad76037f0ee8a93a55143f3e32fc9c09`；私有根README/QUEUE接手登记已推 `2f68946f2fa3e192a291c7c1393231af1a89953e`。每次pull核双README差异，至少每小时一次。root独占git，逐结论push，NFF立即pull --rebase再推，禁force；令牌只命令行。
+- 公共已完整读规则并真实pull：`b462fb16a01290cd47170314928fffed2aeeb861`；私有根README/QUEUE接手登记已推 `2f68946f2fa3e192a291c7c1393231af1a89953e`。每次pull核双README差异，至少每小时一次。root独占git，逐结论push，NFF立即pull --rebase再推，禁force；令牌只命令行。
 - 工作树 `/tmp/held10-astra-06bbeb395471-public2`；原/workspace盘满，不删他人文件。旧1b6d88ec scratch不存在；54314/45287/79634最终状态仍未知。详细[本次接手/来源](notes/2026-11-26-resume-and-current-sources.md)。
 - 70份精确历史源码已恢复；M24端口/角图/tail参数/native均与旧SHA逐字相同。[可搬迁恢复入口](notes/2026-11-26-tail-source-recovery.md)。恢复仅工程输入，不作为新数学结果。
 - 直接原控制冷恢复818/418节点均exit137；batch8恢复亦被SIGKILL，最后只到Jac开始，未到LU、无accepted raw。不能说数学失败。最后Jac输入曾保存为未接受初猜；05:51 UTC共享环境重置后本地副本已丢，不能继续假设存在。
-- 第四次恢复也已SIGKILL（44.48s，peak270084KiB），仍无Jac返回、无LU；不猜原因、不再本地重复。公开[run45763361623](https://github.com/Rogerhu12/math-research-public/actions/runs/45763361623)恢复步骤已实际成功，job139718340526正在原M24/768/401线性DN恢复；最近result只含初始solver_success:false，未有raw_return，不能误判失败或通过。保场后接fullH/固定g/λ设计的并行命令`held10-material-parallel-20261126-01`已排在首命令后；严格要求首场实际通过才启动，见[入口](notes/2026-11-26-material-parallel-entry.md)。
+- 第四次本地恢复仍SIGKILL（44.48s/peak270084KiB），不猜原因。公开[run45763361623](https://github.com/Rogerhu12/math-research-public/actions/runs/45763361623)原M24冷恢复已真实域失败：−2.8750805252178435e−10，无raw/metric；进程码0仅因driver捕获异常。随后三路parent正确拒绝源exit2，没有启动子解。[实际记录](notes/2026-11-26-direct-prefix-domain-return.md)。原runner仍保源码/native，准备从M16实际场完整lift升M24，不降门；原traceback待读。通过后继续[三路入口](notes/2026-11-26-material-parallel-entry.md)。
 - 05:51 UTC共享环境失联后/tmp重置；重新部分克隆到public2，远端R63等已推成果保留。临时源按保留推导重建，R64已绑定新源实跑；fixed runner及mean接口按各自当前记录恢复，旧临时SHA不冒充新文件。公共runner和其场数据未受该本地重置影响。
 - 根§12优先真实数学/求解，§15可再生数组不入Git/Release/artifacts；只存源/参数/命令/hash/小标量。H<10KB、单MD<100KB、目录<200MB，不写根LOG。
 
