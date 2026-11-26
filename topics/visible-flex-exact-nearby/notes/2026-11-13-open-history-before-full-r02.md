@@ -1,15 +1,12 @@
-# 完整历史页恢复入口
+# 历史状态原件的永久读取入口
 
-2026-11-26。仅压缩旧open/HANDOFF的重复历史文本；没有改变任何科学结论或重写Git历史。全文及其全部原球、输入/输出身份、域/单位、mean、失败/unknown、恢复限制和未付义务继续有效，禁止重复已成科学。
+本页为旧 HANDOFF/open 的重复逐字检查点；其完整原文、所有未完成义务、失败记录、scope、单位、输入身份与引用均永久保留在下列同路径原件中，本次只移除工作树的重复副本。
 
-## 精确原件
+- 原件固定提交：`caf464381c5c41ab86c007648edf407972156569`。
+- 原路径：`topics/visible-flex-exact-nearby/notes/2026-11-13-open-history-before-full-r02.md`。
+- 原 Git blob：`332f810f63577afe44842b6003ce268954ee60d3`。
+- 原 UTF-8 字节数：30671。
+- 原 SHA-256：`989118aa144221d42b5ca3e26b6141e590b79aac5800be69bd2c1dd6c75f1df6`。
+- [逐字完整原件](https://github.com/Rogerhu12/math-research-public/blob/caf464381c5c41ab86c007648edf407972156569/topics/visible-flex-exact-nearby/notes/2026-11-13-open-history-before-full-r02.md)。
 
-[2026-11-13-open-history-before-full-r02.md 完整原文](https://github.com/Rogerhu12/math-research-public/blob/3919d213b7fafe6605c2ab55ed4212468eccfd20/topics/visible-flex-exact-nearby/notes/2026-11-13-open-history-before-full-r02.md)
-
-- 不可变提交：3919d213b7fafe6605c2ab55ed4212468eccfd20
-- 原路径：topics/visible-flex-exact-nearby/notes/2026-11-13-open-history-before-full-r02.md
-- Git blob：332f810f63577afe44842b6003ce268954ee60d3
-- UTF8字节：30671
-- SHA256：989118aa144221d42b5ca3e26b6141e590b79aac5800be69bd2c1dd6c75f1df6
-
-需要本页内容时先恢复整件并核上述身份，再沿全文原有递归历史引用读取。原页中的open/HANDOFF相对链接仍按其原目录解释；本入口不提供替代数值输入。R142、固定η0、RW和新compact/C0四份实际manifest已逐路径核，本页不在其中；不动它们的science/native/参数或任何活动pin。
+原件内的相对路径按原文件所在目录解释。以上入口不删减或改写任何研究结论、失败门、未付接口，亦不使旧成功计算获得重跑许可。本次未修改任何 native 数据、科学输出、活动 manifest 或它们引用的输入；当前主线仍以本课题 README、HANDOFF 与 open 为准。此归档仅减少相同历史文字占用，遵守根规则15的总容量限制。
