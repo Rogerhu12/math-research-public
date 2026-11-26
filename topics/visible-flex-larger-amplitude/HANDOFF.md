@@ -52,8 +52,8 @@
 [R711](results/R711-smooth-triangle-central-profile-and-geometric-comparison.md)给十二片平滑三角中央profile：全部0<r<1、scalar最大斜率32/31近最优；同r>2/π的准确初seed中央max|Fss|低于旧一半。位置/两角/真实曲率比较全保，不能冒K/reach改善；独立新入口正接线，旧运行不改。
 
 <!-- visible-larger-parallel-04:start -->
-并行公开Actions04：[run 45857104277/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45857104277)；[实际记录](notes/2026-11-26-public-actions-45857104277-1.md)。阶段`followup_waiting`/running；已返47，exit=未返。
-并行04规则核查：2026-11-26 20:52:04 UTC，真实pull至`c17aff856d7cea38e50d2996e535c1288fb67e28`，双README无变化。
+并行公开Actions04：[run 45857104277/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45857104277)；[实际记录](notes/2026-11-26-public-actions-45857104277-1.md)。阶段`followup:complete-normalized-parent-cached-backtracked-SOC-v2-after46-next64-20261126-run04`/completed；已返48，exit=0。
+并行04规则核查：2026-11-26 21:26:13 UTC，真实pull至`11273fd0828c303037de6c11e4cb9d98050e1548`，双README无变化。
 <!-- visible-larger-parallel-04:end -->
 
 <!-- visible-larger-parallel-05:start -->
