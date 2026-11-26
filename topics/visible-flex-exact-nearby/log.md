@@ -413,3 +413,8 @@ positive推L1–25及pure13580B/2c5002f9，global整篇/整源独审；root再�
 ## 2026-11-26 R147：真实selected负窗源与完整mean行
 
 会话visible-exact-astra-198c63d-20261126。原负窗Δs球按已证正预算缩到selected后给三源<(3.720478,3.718314,2.955779)e−6，腰odd保修补<1.122e−15；旧目标0。完整mean微分精确消原moving high直达块，signed scalar式保−3R0/m、reference-subtractedν方差、全jump；同selected物理角Jacobian与DN给外mean逆<50/反馈<1.2e−6/纯ν affine<2e−16。high间接回路/外mean high/height均保，source不冒response；继续真正inverse与配对。
+
+
+## 2026-11-26 历史恢复清单压缩，继续给实际逆结果留容量
+
+会话visible-exact-astra-198c63d-20261126。完整1032条stdout恢复manifest仍逐字保在f4397cf1，同path/blob0cc02779，249643B/SHA256 f6a839a2d417e4ebd64a471701244e091575c09245138f63fc60786c13e868d5；当前仅改为1401B准确历史指针，净释放248242B。所有entry路径/bytes/SHA/blob和原资格原样可取，原日志仍在92404188；R142/R146 active manifests均不依赖此路径，scientific/native/inputs无改动，无任何数学重跑。

@@ -1,18 +1,18 @@
 # 交接：可见振幅的精确闭等距族
 
-维护会话：visible-exact-astra-198c63d-20261126；更新：2026-11-26 06:15:03 UTC。
+维护会话：visible-exact-astra-198c63d-20261126；更新：2026-11-26 06:22:59 UTC。
 **总任务未完成，继续研究，不等用户回复。**
 
 ## 规则、接续与当前环境
 
 已部分浅克隆/pull并完整读根和课题README、原H/open/log及续点notes。私库QUEUE认领已推 f90ec8e0116c67cbc32c03342e6a8d2aee0ccb41。
-本次两README确认至 cded9322964abf42b23c13007d236da83b2bf0a2：每次更新前均比较上次已推提交至最新main，未见两README改动；本课题的实际新增以下列记录为准。此前终端pull后的规则差异亦为空。
+本次两README确认至 9ca2713d46a9ecd1a763535fa3447bcf0b7bdf58：每次更新前均比较上次已推提交至最新main，未见两README改动；本课题的实际新增以下列记录为准。此前终端pull后的规则差异亦为空。
 2026-11-26 05:48 UTC起执行环境unavailable，无法再做终端pull/push；按根规8暂用GitHub集成读取main、比较规则和提交每件<100KB小文本，不向API传令牌。环境恢复后立即终端pull --rebase、核两README并继续；至少每小时检查一次，非FF立即重取main并重接，绝不force。
 
 本地原路径 /tmp/visible-exact-astra-198c63d15049/math-research-public，工作区有同名软链接；无AGENTS。环境恢复前不能声称磁盘待提交文件已推。公开Actions不依赖该执行环境，R142仍在运行。
 
 压缩前的本会话完整H及全部递归历史、失败/成功/恢复身份见 [cd286116完整H](https://github.com/Rogerhu12/math-research-public/blob/cd286116ec4691a9dd1580272f75ac12c0e5c0e7/topics/visible-flex-exact-nearby/HANDOFF.md)；原完整open同提交。原882aa9b74/6329adde0/f2a3dc66c/0f2024a40各页及其递归来源继续有效。压缩仅索引，所有原式、适用域、单位、mean、false flags和未付义务不变。旧成功不重算。
-科学仅本公开仓库Actions；本机/集成只证明、编辑、静态元数据。每条结论单独及时提交。规15只留脚本/参数/run/hash/小结论，topic≤200MB、H<10KB。旧1032个stdout的历史恢复清单为 notes/2026-11-26-legacy-stdout-history-pointers.json（92404188原字节；净释放641175B）；当前scientific/native/pins未改。
+科学仅本公开仓库Actions；本机/集成只证明、编辑、静态元数据。每条结论单独及时提交。规15只留脚本/参数/run/hash/小结论，topic≤200MB、H<10KB。旧1032个stdout恢复入口为 notes/2026-11-26-legacy-stdout-history-pointers.json：完整249643B manifest原样在f4397cf1/同path，blob0cc02779、SHA256 f6a839a2d417e4ebd64a471701244e091575c09245138f63fc60786c13e868d5；入口含准确恢复法，原log仍从92404188取。当前manifest压成1401B历史指针再释放248242B，完整entries不丢；scientific/native/pins未改。
 
 ## 完成标准与同一对象
 
