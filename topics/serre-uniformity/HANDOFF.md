@@ -6,13 +6,15 @@
 
 会话 **Astra-serre-24b8836b-20261126**。本轮已部分克隆并真实pull main，读两README/H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则读至36cf1ed2。不重做已登记结论或窗口。
 
-**公开两README已读提交：555605075d85a79eec37aabd05f8150977b16de4**（2026-11-26 22:32 Asia/Taipei；本次同步两README无差异）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
+**公开两README已读提交：802221a5003e0f375e14d20b3442fee8f55382f9**（2026-11-26 22:52 Asia/Taipei；本次同步两README无差异）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
 
-执行宿主本轮断连；13:42 UTC单次恢复探测仍无环境。按根规矩8用GitHub小文本原子tree/commit、最新head检查和非force expected-head更新；并发拒绝立即在新head重建循环至成功，保其它会话。终端恢复补pull --rebase。令牌仅此前CLI使用，未存文件/提交。根维护main/H/open/index/log；子研究交数学稿。每条结论完整审后立即推。19:52纠正：global_route曾违规用会话V8做数学探索，已叫停；已知范围、时长及独立纸面重核见[执行偏差记录](notes/2026-11-26-execution-path-deviation-and-correction.md)。不得把其数字记为证明或合规窗口。
+执行宿主本轮断连；14:41 UTC单次恢复探测仍无环境。按根规矩8用GitHub小文本原子tree/commit、最新head检查和非force expected-head更新；并发拒绝立即在新head重建循环至成功，保其它会话。终端恢复补pull --rebase。令牌仅此前CLI使用，未存文件/提交。根维护main/H/open/index/log；子研究交数学稿。每条结论完整审后立即推。19:52纠正：global_route曾违规用会话V8做数学探索，已叫停；已知范围、时长及独立纸面重核见[执行偏差记录](notes/2026-11-26-execution-path-deviation-and-correction.md)。不得把其数字记为证明或合规窗口。
 
-H<10KB、open尽量<30KB、每MD<100KB、topic<200MB；无可重算raw、不写根LOG。[本次逐字前态](handoff-archive-2026-11-26-before-bare-linearization.md)沿链保全部旧来源/run/hash；[open](open.md)、[索引](results.md)是完整入口。历史“R1003 norm3准备中”未交付，现R1003为范围纠错。
+H<10KB、open尽量<30KB、每MD<100KB、topic<200MB；无可重算raw、不写根LOG。[本次逐字前态](handoff-archive-2026-11-26-before-integral-Lie-comparison.md)沿链保全部旧来源/run/hash；[open](open.md)、[索引](results.md)是完整入口。历史“R1003 norm3准备中”未交付，现R1003为范围纠错。
 
 ## 最新全局实际来源
+
+[R1035](results/R1035-original-lowest-type-integral-Lie-comparison-by-two-PD-thickenings.md)：短PD R/(ε²) 的角色缺失给实际G₁模ε²为constant；大PD(ε²)完整阶乘界给原crystal M⊗R与actual Fil graph，M_L整同构实际Lie，保split Hecke及真实本地T5/δ的协变作用。未用R→k的π-PD或Frob Fil补空间；实际配对、全部F₀/同源重数及两列取值仍须证明。
 
 [R1033](results/R1033-original-rational-CM-disc-exact-lowest-type-scale-and-tail.md)：原z=ε³w、w=(a−1)/p³；全部实际type1 Abel-log除pε后整，modp次数≤n₀=4g−1，最高系数=(2κ₁√A_tail/m)λ₀^−n₀·J(L)。完整p倍积分分母已排，formal坐标同轮廓，whole-block原M=1。最低非零w系数、实际MW饱和消去及Q简单商Néron尺度仍开，不冒唯一零点。
 
@@ -34,36 +36,21 @@ R1018原形式Fm、R1019实际A=T5²/Z=(T31−32)T5²保形式Fm及杀CM、R1021
 
 ## O1：原同一保留标签
 
-[R1031](results/R1031-original-fN-and-actual-Faber-truncation-central-derivative.md)：全部p=6N+5≥41，原f_N=0 iff R′(1/2)=0，R=[P_d(1−2z)²]≤d、d=(p−2)/3。真实AS Faber、Hasse²分拆和原二次商路径给DV_(p−1)†=(9/4)(ζ²−1)B r^p C_AS⁻¹R′，全部外因子原单位。forcing准确−(d+1)³(C_AS/9)z^d；27因子保留。中心导数单位性、primitive/Legendre同h与bare仍开。
+[R1031](results/R1031-original-fN-and-actual-Faber-truncation-central-derivative.md)：全p=6N+5≥41，原f_N=0 iff R′(1/2)=0，R=[P_d(1−2z)²]≤d、d=(p−2)/3；真实AS/Hasse²/二次商与所有单位尺度已成，forcing=−(d+1)³(C_AS/9)z^d。中心导数单位性仍开，forcing单位不替代。
 
-[R1027](results/R1027-original-level-p-squared-theta-distribution-and-constant-one.md)：全部p≥41、p5mod6原D_p=1，4η⁶C_N²=1，Σa_i²a_(N−i)²=−1/4。真实Lp²第p theta分布在Frobenius子空间为(Dv)^p；保A†拉回全部total-D阶p交叉项与刚化[p]=−Frob²双轴符号，得d_A d_A†^p=γ/κ；R1025原符号付清绝对常数。共同δ′只剩±1，原两mask/bare仍开。
+R1025/27原方向符号与绝对常平方已成：D_p=1、4η⁶C_N²=1、Σa_i²a_(N−i)²=−1/4。R1012/17/20未经筛选H全方向单位/divided差/完整scalar已成；不能代原primitive/Legendre同h或bare。
 
-p=6N+5，h=6i+7，i+j=N−1，必须同一个原本原h上
-P_(h−1)(1/s)f_i g_j≠0，s²=−3；原Norm/两CM权/相位不换。
-R968真实列Z_(6i+4,6j+1)∈M_(p−5)，CM mark=−72(−864)^−N f_i g_j。
-R949/954/957–959共同粗CM因子判据保持；全源非零不能排该因子。
-
-R1012/17/20原H全方向单位、divided差和完整scalar已成，不代筛选谱或bare。R971全p full-span、R1006全p G稳定已否；R992条件命题及特定A/E4包含仍开。R996/999保55∤p+1⇒filtered V非零；R1009端列粗CM阶≤4不代零阶mark。R995/997/1000完整mixed heat边界和R1001 norm7 polar只消费。R706旧5992 f_N单位、5991 g_N单位（唯一g零137147）不重算，不与bare互换；完整公式见open/逐字前态。
+原h=6i+7、i+j=N−1须同一本原h使P_(h−1)(1/s)fi gj≠0；原Norm/两CM权/相位不换。R949/954/957–959共同粗CM因子及R968真列保留。R971全p full-span与R1006全p G稳定已否；特定A/E4包含仍开。R996/999只给55∤p+1时filtered V≠0；R1009粗CM阶≤4不代零阶mark。R995/997/1000 mixed heat、R1001 norm7源、R1002自由jet均只消费。R706旧5992 f_N单位/5991 g_N单位（唯一g零137147）不重算。完整角色/所有例外与runs见open及逐字前态。
 
 ## O2：原高近p值
 
 [R1034](results/R1034-original-bare-coefficient-finite-linearization.md)：原两行bare准确化为单位×[z^m](N/P)；有限递推仅用模z^ℓ Wronskian，保全局K缺陷及原相位。r2给显式F₁、degN=3k+1<degP与完整分母根留数和；r8须保N/P多项式部分。仍须证原总系数非零，不能从单个总留数零冒各局部留数零。
 
-R1016原index1/2临界完整卷积单位、r8正确余层N−2及Gaussian精确值已成；全方向常平方已由R1027定一。两重卷积不代bare或原mask。
+R1015原c_(p−r)=−A_r−BT_r，保完整regular与三阶乘carry，r8余层N−2；R1016原index1/2完整卷积及Gaussian单位不能代该总差。R988原S≠0 iff c_(p−r)±≠0 iff F_(p−r)(0,−864)≠0，r2用于11mod12/r8用于5mod12，保原mod9。R990/R1005完整K共振缺陷与全部分母根不可删；旧47 J12/cusp45/其它37不重算。
 
-[R1015](results/R1015-original-class-two-Poincare-projection-and-balanced-triangular-bridge.md)：norm7实际Π22与完整余项给C22u_ℓ²=D_nc_n+R_n；§5.1原c_(p−r)=−A_r−BT_r，保完整regular A与三阶乘carry T，r8余层N−2。须证实际总和非零，不能用R1016两重卷积替代。
+R955/970原链长1等价高同余理想单位；R961低晶体单位只测coker顶F0，R972低Selmer/classgroup不强迫高坐标。R976–988 Robert/Δ/LT/Hurwitz全部尺度保留，R982/983共同scalar模型已否，R984/985除p carry不删。
 
-R955/970实际单Cartier链：原S≠0 iff链长1 iff高同余理想单位。
-R961低晶体单位只测coker顶F₀；R972低Selmer/classgroup/global-unit不强迫高坐标。
-R976–988原Robert/Δ/strict LT/Hurwitz尺度保持；R982/983共同scalar模型已否，R984/985真实除p carry不可删。
-
-[R988](results/R988-original-pure-balanced-Cartier-contraction-and-high-trace.md)：原S≠0 iff c_(p−r)±非零 iff F_(p−r)(0,−864)非零；r2用于p11mod12，r8用于p5mod12，仍保原mod9。R990/R1005有限Gauss式须保完整共振误差和全部分母根；r2尖点留数单位不代全和，旧47完整J12/cusp45/其它37已排自动相消。
-
-[实际除p坐标](notes/2026-11-26-original-high-coordinates-in-divided-Ramanujan-polynomial.md)：整𝔅_p=(R^(p−1)E+E^p−E_(p−1)E_(p+1))/p给
-c_(p−r)±=r!12^(r−1)[E^r]𝔅_p(E,0,±864)；r2标量24，r8为8!12⁷。仍未证坐标单位。
-[AS比较](notes/2026-11-26-ahlgren-samart-actual-low-coordinate-comparison.md)的C(p)=9β³/2及乘低G得−9/2仅旧低单位；新Guerzhoy/Hanson–Jameson/theta-cycle与BKO wild Λ定理均不覆盖实际tame高读数。
-
-R963/991/994全部旧窗已成；4008新差集至200000全非零，run44760218207/job136370438703完整三路/预算/hash见R994与归档，不重算、不外推全p。
+[原除p坐标](notes/2026-11-26-original-high-coordinates-in-divided-Ramanujan-polynomial.md)整𝔅_p给c_(p−r)±=r!12^(r−1)[E^r]𝔅_p(E,0,±864)，仍须证单位。[AS比较](notes/2026-11-26-ahlgren-samart-actual-low-coordinate-comparison.md)的9β³/2及乘低G得−9/2只低单位。旧R963/991/994窗口只消费：4008新差集至200000非零，run44760218207/job136370438703的完整三路/预算/hash保结果与归档，不外推全p。
 
 ## O4：高度边界保留
 
@@ -75,4 +62,4 @@ R696早已证明同一全局Φ候选Ω_actual={0}，R832已消费；不重做、
 
 固定Y的R805–930及全部runs/高维格/预算边界见open与逐字归档，只消费已成输入。R907四artifact真404仍producer_inputs_pending，不重造；预算失败不作数学负结论。固定41全129盘/8CM已由R707完成，不重开。R575旧正CM角色根号−与逆twist秩零撤回有效。R1004仅导子下界而非a/c上界，停止重复优化。
 
-当前并行：R1032/33原同格两列、已证M=1之低系数与真实MW饱和消去；两次PD/GM整搬运及实际算术Frob配对待完整证实；R1031中心导数及原primitive/Legendre同标签；R1034完整单分母系数非零。子问题完成即接open其余项，真正达到README完成标准才收尾。
+当前并行：R1032/33原同格两列、已证M=1之低系数与真实MW饱和消去；两次PD/GM整搬运R1035已成；实际算术Frob配对、原J重数与两列单位继续核；R1031中心导数及原primitive/Legendre同标签；R1034完整单分母系数非零。子问题完成即接open其余项，真正达到README完成标准才收尾。

@@ -270,3 +270,8 @@
 ### 2026-11-26 22:34 Asia/Taipei — R1034 原bare有限线性化
 - [R1034](results/R1034-original-bare-coefficient-finite-linearization.md)：原两行bare准确化为单位×[z^m](N/P)；有限递推仅用模z^ℓ Wronskian，保全局K缺陷及原相位。r2给显式F₁、degN=3k+1<degP与完整分母根留数和；r8须保N/P多项式部分。仍须证原总系数非零，不能从单个总留数零冒各局部留数零。
 - o2/root独立纸核完整K与有限精度、系数分部积分、所有递推分母、F1三类项及9b_k²、全部分母根和r8多项式项；精确候选90904b7b7fd3f950aba3b1e512dd1b336c9ed0de全文复核PASS。没有数学执行或旧窗重算；继续实际总系数非零。H/open逐字归档后收束已成低权来源，两README同步检查。
+
+
+### 2026-11-26 22:52 Asia/Taipei — R1035 原实际Lie整比较
+- [R1035](results/R1035-original-lowest-type-integral-Lie-comparison-by-two-PD-thickenings.md)：短PD R/(ε²) 的角色缺失给实际G₁模ε²为constant；大PD(ε²)完整阶乘界给原crystal M⊗R与actual Fil graph，M_L整同构实际Lie，保split Hecke及真实本地T5/δ的协变作用。未用R→k的π-PD或Frob Fil补空间；实际配对、全部F₀/同源重数及两列取值仍须证明。
+- global/o2/root独立纸核两种PD、全部阶乘和子理想、真实graph与态射自然性；global全文审候选b668422d5819b06f487345f9333519728d694de7通过，并单独核准补入的F²M=V²M=pM formal范围证明。root亲读Zink Theorem48/94、Cor95及topological basechange/Th103。未把辅助Res同源重数默认为一；实际MW配对另证。14:41 UTC一次宿主恢复探测仍无环境，继续根规矩8 GitHub小文本同步。无数学执行；H逐字归档，两README差异检查。

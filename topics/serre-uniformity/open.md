@@ -16,6 +16,8 @@ R1028真实Igusa与同阶提升差、R1029真整τ₁ Hecke/BT分裂、R1030全�
 
 [R1023](results/R1023-original-CM-divisor-complete-first-log-vector.md)准确原log首向量εΣθ_s(λ+R_p)f_s，全部真实节点、跨尾Frob、GM/Schwarzian和整分母保留。[R1024](results/R1024-original-complete-first-log-uniform-nonvanishing.md)用原两整除+中心与互素残差，证明全部p≥47、p11mod12 whole-J深度准确1/(p+1)。R1026保实际e_-单块；具体简单商Néron尺度和CM jet仍开，原H_A/H_Z不能只替换λ。
 
+[R1035](results/R1035-original-lowest-type-integral-Lie-comparison-by-two-PD-thickenings.md)：短PD R/(ε²) 的角色缺失给实际G₁模ε²为constant；大PD(ε²)完整阶乘界给原crystal M⊗R与actual Fil graph，M_L整同构实际Lie，保split Hecke及真实本地T5/δ的协变作用。未用R→k的π-PD或Frob Fil补空间；实际配对、全部F₀/同源重数及两列取值仍须证明。
+
 ## O0：全主目标覆盖（R1003恢复原范围）
 
 R1只把全部异常缩为p>37的完整N_ns；**p≡2,5 mod9只是另加小惯性I_p=C³的结论**。R317的应用另外要求整j、K=Q(√−3)、σ=1，以及实际二除法域和三除法S3商域同时一致。完整惯性、非整j、变化K、σ非平凡及异小除法域的大导子支路，均未由当前CM证明链排除。原导子下界不是上界。O1/O2研究指定辅助源，不是完整剩余情形；真正全局高度也仍待证。逐条假设见[R1003](results/R1003-global-scope-and-remaining-branches.md)，后继不得省略此覆盖缺口。
