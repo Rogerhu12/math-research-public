@@ -38,8 +38,8 @@
 02 [run45800076687/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45800076687)已终止接纳；[实际卷](notes/2026-11-26-public-actions-45800076687-1.md)真返49/exit0，16:08:14准入结束，50未执行；API总cancelled而research step成功，两者不混作49科学失败。
 
 <!-- visible-larger-parallel-03:start -->
-并行公开Actions03：[run 45820592817/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45820592817)；[实际记录](notes/2026-11-26-public-actions-45820592817-1.md)。阶段`followup:actual-independent-axisymmetric-SO3-integral-norm-first-attribution-20261126-03b`/completed；已返27，exit=0。
-并行03规则核查：2026-11-26 17:15:20 UTC，真实pull至`44ec743e9548f6723f6ff66d617670d57a7e30ae`，双README无变化。
+并行公开Actions03：[run 45820592817/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45820592817)；[实际记录](notes/2026-11-26-public-actions-45820592817-1.md)。阶段`followup:complete-same-endpoint-frozen-moment-Q-continuation-first-20261126-03b`/failed；已返28，exit=1。
+并行03规则核查：2026-11-26 17:16:05 UTC，真实pull至`a73056c1e668dd93e69c6c6515bab5b175244b10`，双README无变化。
 <!-- visible-larger-parallel-03:end -->
 
 <!-- visible-larger-parallel-04:start -->
