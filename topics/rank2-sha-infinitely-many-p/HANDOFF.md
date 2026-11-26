@@ -6,7 +6,7 @@
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。有限p、随p换曲线、条件桥和接口成功不算完成；固定有限曲线族的联合无穷非零可以再用无限鸽巢选定一条。
 
-- 两仓库已部分克隆、实际pull。公开根/课题 README 已读至 `3d10ef1404c9bfebe9c60e75187f52f611662a94`（差异为空）；每次pull检查两文件差异，至少每小时同步并更新此SHA。
+- 两仓库已部分克隆、实际pull。公开根/课题 README 已读至 `e98d150674d97eb614fbeacda1277a2b4c1fd8f7`（差异为空）；每次pull检查两文件差异，至少每小时同步并更新此SHA。
 - 私库QUEUE接手已推 `41fe885610073f478b2f5a752461ca56cfd43f09`，根README读至4b91389。两本地目录为math-research-public、math-research-private；终端可用，令牌仅进程认证，不入文件。
 - root独占git/共享H/open/log/index；结论完成即推，非快进立即pull --rebase、检查README再推至成功；不强推。数学执行用公开Actions，不保存可重算数据/矩阵/log。H<10KB、单MD<100KB。
 - 本次完整旧状态保在[压缩前H](notes/2026-11-27-handoff-before-whole-cross-spectrum.md)。它链接[接手原H](notes/2026-11-27-handoff-at-takeover-0b097461.md)、[v8前H](notes/2026-11-27-handoff-after-v8-launch-before-degree130.md)及2026-11-26全部历史链。所有未关闭旧门仍在[open](open.md)及两卷proof index，未默删。
@@ -39,7 +39,7 @@ v6已接新F11真六sigma/psi11全式、E260完整22投影、全部81分量及�
 
 实际SZ=−11δ*Phi/1215+(δ*Hperp)/3+Rnew；Hperp首项10/567，Rnew首项2/35，均非零。span{Z390,δ*Phi}加入SZ准确rank2→3；原cross算术投影−11δ*Phi/270不等于整个读数。全部精确source/log/stdout/矩阵hash在R972。继续R976全余谱和真实有限角色，不能凭投影非零赋整个cross中央零。
 
-**R973在写，未预登记**：arithmetic已构造固定E260:y²=x³+260的两个独立三下降类、全2/3/5/双13来源，目标(omega,−omega²)，对应v5索引(4,5)。须完成其完整证明/通常全群桥及同次唯一核和真实H/F投影后登记。有限Weil标签预计22=14维mu6+8维非mu6，数值块尚待v5实际回执，不预记成功。
+**R973已证**：完整W2/W5/W13全部有限角色给20标签/22维，14维mu6+8维真非mu6；E125/E12500为13-old重数二。固定E260:y²=x³+260两独立三下降像给rank≥2，全部2/3/5/双13 Schwartz、Haar、全权平方及ordinary/inert通常全Selmer桥完整付。原完整22唯一线(4,5)，v5 Π260H130=Φ260/81、Π260F130=0；其余8条primitive Q曲线质量非零/rank0，非mu6不冒Q椭圆来源。跨p非零仍开。
 
 **R977结构已证**：真实a11=(2+omega,2+omega,1,omega²,1,11)保原H0/H1正交，F11=σ130x²psi11/11首阶6/质量0；全部除法、Gram(130,1170,54,18,6,2)、双逆/半特征和四方向CM转移已付。原共同C/F carry逐支保持，E260实际非零投影仍等v6，不移用旧F130的−11/2。
 
