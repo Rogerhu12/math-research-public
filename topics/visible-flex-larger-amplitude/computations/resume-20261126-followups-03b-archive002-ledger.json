@@ -1,0 +1,93 @@
+{
+  "schema": "complete-followup-parameter-archive-preparation-v1",
+  "prepared_for_root_only": true,
+  "source_queue_path": "topics/visible-flex-larger-amplitude/computations/resume-20261126-followups-03b.json",
+  "source_queue_sha256": "3d856854bb1dc8721166bb63b1c88945769c2604f466195e80dc2ef7323ac9d1",
+  "source_queue_bytes": 65711,
+  "source_queue_git_blob_sha": "f4fc726b658b5286268d6adade640ce603aa0bd0",
+  "source_queue_path_commit": "1aa1e9ac1b786208c092e51c5f834cd6e80f69fb",
+  "actual_run_id": "45820592817",
+  "actual_job_id": "139911515943",
+  "actual_evidence": [
+    {
+      "path": "notes/2026-11-26-public-actions-45820592817-1-part-004.md",
+      "sha256": "c351e53bfb01d54f74590bc54655a9cf89063873389fc3fa6f9fea86118d27e6"
+    },
+    {
+      "path": "notes/2026-11-26-public-actions-45820592817-1-part-005.md",
+      "sha256": "a3a471fdd22ba769609e742decb7cebdeba15a095266eace3bb4e31ab8b81efe"
+    }
+  ],
+  "removed_from_active_but_fully_archived": [
+    {
+      "stage": 14,
+      "id": "actual-zero-initial-point-complete-chord-diagnostic-20261126-03b",
+      "state": "completed",
+      "returncode": 0
+    },
+    {
+      "stage": 15,
+      "id": "actual-zero-same-initial-first-eight-endpoint-trace-and-moments-20261126-03b",
+      "state": "completed",
+      "returncode": 0
+    },
+    {
+      "stage": 16,
+      "id": "actual-fixed-moment-Q-eighteen-parameter-extraction-20261126-03b",
+      "state": "completed",
+      "returncode": 0
+    },
+    {
+      "stage": 17,
+      "id": "complete-independent-axisymmetric-SO3-prior-separation-SOC-first-20261126-03b",
+      "state": "completed",
+      "returncode": 0
+    },
+    {
+      "stage": 18,
+      "id": "actual-independent-axisymmetric-SO3-prior-separation-SOC-first-20261126-03b",
+      "state": "completed",
+      "returncode": 0
+    },
+    {
+      "stage": 19,
+      "id": "complete-independent-zero-SO3-frozen-literal-moment-Q-first-20261126-03b",
+      "state": "failed",
+      "returncode": 1
+    },
+    {
+      "stage": 20,
+      "id": "actual-independent-zero-SO3-frozen-literal-moment-Q-first-20261126-03b",
+      "state": "completed",
+      "returncode": 0
+    }
+  ],
+  "retained_complete_step_ids": [
+    "complete-R696-angular-unit-first-20261126",
+    "read-complete-R696-angular-unit-first-20261126",
+    "actual-zero-initial-complete-supported-chord-diagnostic-20261126-03b",
+    "actual-axisymmetric-SO3-SOC-correction-scale-20261126-03b"
+  ],
+  "new_integral_ready_sha256": "104af2b654f1cfa0673a0c473e31aa1ae2bd878727bf2bb20408a129da90e957",
+  "new_step_ids": [
+    "complete-independent-axisymmetric-SO3-integral-norm-full64-first-20261126-03b",
+    "actual-independent-axisymmetric-SO3-integral-norm-first-attribution-20261126-03b"
+  ],
+  "archive_is_exact_full_original_queue_bytes": true,
+  "retained_step_objects_equal": true,
+  "new_step_objects_equal": true,
+  "active_candidate_sha256": "6498bff39c0e65d508bcb543d460ab2b0c6a09fa761722fca701f15a7a790de5",
+  "active_candidate_bytes": 48782,
+  "no_refs_or_science_executed": true,
+  "later_return_boundary": "Fresh evidence at16:29:35 already returns21–24; this change still removes only explicitly assigned14–20 and leaves all21-onward objects intact. Existing attempted IDs prevent replay.",
+  "root_application": {
+    "actual_archived_bytes_equal": true,
+    "actual_returned14_through20_rechecked": true,
+    "current_active_queue_sha256": "fb55187c1d2ef6ef4c94a4e1eda1de4ffceb405fe8819b9dbee14d2ff5ddb013",
+    "current_active_queue_bytes": 76310,
+    "integral_fourth_actual_manifest": "angular-unit-complete-first/report.json",
+    "integral_ready_sha256": "a177a815e29e82166fae2f67445a9b641e393dcd8fb3f0ba4becaa3d7311468f",
+    "R696_pure_before_integral": "actual-R696-angular-unit-first-complete-direction-details-20261126-03b",
+    "no_runtime_scientific_source_changed": true
+  }
+}

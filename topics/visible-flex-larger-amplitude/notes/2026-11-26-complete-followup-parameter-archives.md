@@ -10,3 +10,7 @@
 | 03b | 94917 | `5a48586c89b2821aa0f6bdba43d051ecdd94e59e7046e485deaaf85f791690ca` | 12 | [resume-20261126-followups-03b-completed-archive-001.json](../computations/resume-20261126-followups-03b-completed-archive-001.json) |
 
 实际来源：[02至44](2026-11-26-public-actions-45800076687-1.md)、[03b至13](2026-11-26-public-actions-45820592817-1-part-003.md)。完整controller源码3cb1的`run`从当前steps过滤持久attempted_ids；移出已经返回的id不取消任何子进程，也不删除其科学结论。原02控制器的同一逻辑亦保留。所有raw数组和工作报告仍只在runner，以上仅是完整可复现参数。
+
+## 2026-11-26 16:43:49 UTC — 03b第二完整参数归档
+
+原活动65711B/SHA3d856854bb1dc8721166bb63b1c88945769c2604f466195e80dc2ef7323ac9d1逐byte保[archive002](../computations/resume-20261126-followups-03b-completed-archive-002.json)，含全旧step对象及archive001指针。仅已实际返14–20移出活动（19仍失败）；21–24全对象不变，后来实际返回由attempted跳过。新加原3d9完整R696纯读取、原606 integral全方向/6d54归因，全部明确参数见[说明](2026-11-26-direct-axisymmetric-integral-norm-full-direction.md)及[完整ledger](../computations/resume-20261126-followups-03b-archive002-ledger.json)。

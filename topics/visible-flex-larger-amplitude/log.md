@@ -77,3 +77,7 @@
 ## 2026-11-26 16:27:08 UTC — 节点范数与精确径向积分控制的解析界限
 
 刊[完整共享五次反例](notes/2026-11-26-node-jet-norm-and-radial-integral-control.md)，直接多项式积分181/462、10/7、120/7，等宽准确范数平方比181/231+(20/7)(ell/h)^2+(240/7)(ell/h)^4无界；固定网格仍正/等价，未删自由量、未作本地数值或fixture。root完整读并核手推积分/比值。此解析范围不证明实际17/18失败因果；已存在integral原公式/转置独立审核，准备明确新范数全方向而不暗过旧norm restart守卫。
+
+## 2026-11-26 16:43:49 UTC — 完整积分范数方向排程与全参数归档
+
+刊[完整正定/对偶/QR解析](notes/2026-11-26-integral-so3-norm-positive-whitening-and-banded-qr.md)，原integral尚无登记失败。原606/a942/6d54完整科学源不改，fresh q.initial/同0f042和6ffc、全1×64/rest4×64、明确新mu .01；额外保真实399ae8的同材料地点，完整4manifest参数SHA a177a815e29e82166fae2f67445a9b641e393dcd8fb3f0ba4becaa3d7311468f。原3d9真实21方向pure放前。14–20原65711B完整字节归档/原指针链保，21–24未动，19真实失败不变。无本地科学或旧C/Phi/norm继承。
