@@ -410,7 +410,8 @@ P_{h-1}(1/s)f_i g_{N-1-i}\ne0.
 \]
 不能因 (1020.4) 的每个值非零，就断言它的这些指定 Fourier
 坐标非零。R1016 §7.2 的 Gaussian 精确值仍只在已证方向使用；
-本篇没有预称全方向 \(\mathcal C_N^2\) 的候选公式成立。
+后继 [R1022](R1022-original-theta-all-direction-constant-square.md) 已证明
+全方向常平方，5mod12 行常数为一；实际方向上的正负号继续保留。
 原 O2 的 bare \(A_r+BT_r\)、全局对数和 O0 覆盖继续开放。
 **Serre 主目标仍 OPEN。**
 

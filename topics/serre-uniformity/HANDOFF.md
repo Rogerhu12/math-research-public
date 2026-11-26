@@ -6,11 +6,11 @@
 
 会话 **Astra-serre-24b8836b-20261126**。本轮已部分克隆并真实pull main，读两README/H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则读至36cf1ed2。不重做已登记结论或窗口。
 
-**公开两README已读提交：439ec78f4f7685969f9bce2d7f86eb848646684d**（2026-11-26 19:18 Asia/Taipei；本次同步两README无差异）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
+**公开两README已读提交：c5e83922a8923ab7c7eb3e3b2637ef4d94e03eca**（2026-11-26 19:42 Asia/Taipei；本次同步两README无差异）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
 
 执行宿主本轮断连；08:36 UTC单次恢复探测仍无环境。按根规矩8用GitHub小文本原子tree/commit、最新head检查和非force expected-head更新；并发拒绝立即在新head重建循环至成功，保其它会话。终端恢复补pull --rebase。令牌仅此前CLI使用，未存文件/提交。根维护main/H/open/index/log；子研究交数学稿。每条结论完整审后立即推，无数学程序执行或旧窗重跑。
 
-H<10KB、open尽量<30KB、每MD<100KB、topic<200MB；无可重算raw、不写根LOG。[本次逐字前态](handoff-archive-2026-11-26-before-local-tail-rigidity.md)沿链保全部旧来源/run/hash；[open](open.md)、[索引](results.md)是完整入口。历史“R1003 norm3准备中”未交付，现R1003为范围纠错。
+H<10KB、open尽量<30KB、每MD<100KB、topic<200MB；无可重算raw、不写根LOG。[本次逐字前态](handoff-archive-2026-11-26-before-global-theta-square.md)沿链保全部旧来源/run/hash；[open](open.md)、[索引](results.md)是完整入口。历史“R1003 norm3准备中”未交付，现R1003为范围纠错。
 
 ## 最新全局实际来源
 
@@ -22,7 +22,7 @@ H<10KB、open尽量<30KB、每MD<100KB、topic<200MB；无可重算raw、不写�
 
 [R1019](results/R1019-original-CM-killing-correspondences-preserve-first-formal-layer.md)：A=T5²、Z=(T31−32)T5²作用后原P仍准确Fm\F^(m+1)，p11mod12且p>max(575,N_HA)/max(36863,N_HZ)。N为固定Norm函数lc/resultant；完整字面支撑、dlog零与无支撑SS尾已核。A/Z杀CM新部，Z另杀Q挠点；不扩大到Qp挠点，log/simple商仍开。
 
-[R1021](results/R1021-actual-full-p-affine-tail-rigidity-and-quotient-parameter.md)：实际full-p正则环经μ_(p²−1)平均，Cohen方程仅p+F_e+F_2e+…；radial chart在整个非约化O/(p)上为常数DL仿射模型，全部level作用模p真实线性。原普通p-商target eigenparameter准确u′=ε(c_Qψ+pR_Q)，R_Q仅仿射正则，六标记与c_Q单位保留；Dickson恒等式𝒟=ψ^p+C^(p−1)/ψ给首gap的具体Frob消去函数。未把仿射误差当节点有界，实际log跨尾项继续算。
+[R1021](results/R1021-actual-full-p-affine-tail-rigidity-and-quotient-parameter.md)：真实full-p Cohen/μ平均给仿射尾在非约化O/(p)上常数、level作用线性；实际商参数u′=ε(c_Qψ+pR_Q)，R_Q仅仿射正则。𝒟=ψ^p+C^(p−1)/ψ给首gap具体Frob消去；节点pole、跨尾及log仍须保。
 
 ## O0：不能省略的全局覆盖
 
@@ -30,7 +30,9 @@ H<10KB、open尽量<30KB、每MD<100KB、topic<200MB；无可重算raw、不写�
 
 ## O1：原同一保留标签
 
-[R1020](results/R1020-original-critical-convolution-complete-theta-scalar-bridge.md)：原全方向精确比值H_p/C_N=120εt·aχ(Nα)²(χᾱ+β̄)/(6B)⁵；t³=4、a=α mod s、χ为α/β mod3的唯一μ6 lift。真实index2另一vacuum系数4c_A、norm3分布负号给d₀=−36c_A；canonical三挠基尺度与Weyl二次相位全部核准。十二个同核表示不变；共同C_N保留，不代primitive/Legendre同h非零或O2 bare单位。
+[R1022](results/R1022-original-theta-all-direction-constant-square.md)：全部p≥41、p5mod6，原4η⁶C_N(η)²=D_p∈(Fp×)²方向无关，D_p=−4Σa_i²a_(N−i)²；p5mod12准确D_p=1。真实index1积分torus由trace定标到Q(μ_(p+1))，复共轭即p-Frob，primitive拉回及canonical metric给相对norm1；完整addition分布保总D阶p的cross，接回c_A²=D_pγ²/4。原方向scalar只剩共同单位及实际±号，不能删符号或代primitive/Legendre谱、bare余项。
+
+[R1020](results/R1020-original-critical-convolution-complete-theta-scalar-bridge.md)：原全方向H_p/C_N=120εt·aχ(Nα)²(χᾱ+β̄)/(6B)⁵；t³=4、χ为α/β mod3的唯一μ6 lift。保norm3的d₀=−36c_A、全部Weyl相位和同核十二不变，仍非同h或bare单位。
 
 p=6N+5，h=6i+7，i+j=N−1，必须同一个原本原h上
 P_(h−1)(1/s)f_i g_j≠0，s²=−3；原Norm/两CM权/相位不换。
@@ -51,7 +53,7 @@ R995/997/1000完整mixed heat/bulk与边界已成，mask杀自身边界迭代；
 
 ## O2：原高近p值
 
-[R1016](results/R1016-original-small-index-theta-and-complete-convolution-units.md)：原index1/2的σ、σ²临界完整卷积全T⁻单位，norm3返回U。U_(N−1)仅p5mod12在η⁶=−1六点为零；§7.1准确r8层U_(N−2)在六点单位。§7.2原尺度Gaussian值C_N(i)=−(−432)^((p−1)/4)/2、平方−1/4；全方向平方候选未证，bare/原mask仍开。
+[R1016](results/R1016-original-small-index-theta-and-complete-convolution-units.md)：原index1/2的σ、σ²临界完整卷积全T⁻单位，norm3返回U。U_(N−1)仅p5mod12在η⁶=−1六点为零；§7.1准确r8层U_(N−2)在六点单位。§7.2原尺度Gaussian值C_N(i)=−(−432)^((p−1)/4)/2、平方−1/4；全方向常平方由R1022闭合，bare/原mask仍开。
 
 [R1015](results/R1015-original-class-two-Poincare-projection-and-balanced-triangular-bridge.md)：norm7实际Π22与完整余项给C22u_ℓ²=D_nc_n+R_n；§5.1原c_(p−r)=−A_r−BT_r，保完整regular A与三阶乘carry T，r8余层N−2。须证实际总和非零，不能用R1016两重卷积替代。
 
@@ -69,9 +71,7 @@ R963/991/994全部旧窗已成；4008新差集至200000全非零，run4476021820
 
 ## O4：高度边界保留
 
-R1007原甲板相容对应的新Prym Picard类三挠，同一整高度格/自伴/清分母下高度在ℓ²Zℓ；一致基点或整splitting变化不解除。
-R1008由实际野3扭曲证原X₁和全部实际偶分支X_d的整个End_Q中央化δ，包含非CM/旧形式/重数，故nondeck自对应入口关闭。canonical d4不能反套。
-R1010/1011使用线性来源，不撤销上述高度障碍；底曲线η_h、其它完整高度及全部σ/cY、eη、d/N、nonp、Poincaré/splitting仍需保留。
+R1007同一整高度格/自伴/清分母下新Prym Picard类三挠，指定高度在ℓ²Zℓ，一致基点/splitting不解除。R1008野3扭曲证原X₁及实际偶X_d的全部End_Q中央化δ（含非CM/旧部/重数），nondeck入口关闭；canonical d4不能反套。R1010/11不撤销此障碍；底η_h、其它完整高度及全部σ/cY、eη、d/N、nonp、Poincaré数据仍保。
 
 R696早已证明同一全局Φ候选Ω_actual={0}，R832已消费；不重做、不当一般Q₃值域。R948仅关闭两个有限例Abel零集，rational候选仍可有非零MW像。Jaswal2026稿仅核方法假设，不接受其121主定理作输入。
 
@@ -79,4 +79,4 @@ R696早已证明同一全局Φ候选Ω_actual={0}，R832已消费；不重做、
 
 固定Y的R805–930及全部runs/高维格/预算边界见open与逐字归档，只消费已成输入。R907四artifact真404仍producer_inputs_pending，不重造；预算失败不作数学负结论。固定41全129盘/8CM已由R707完成，不重开。R575旧正CM角色根号−与逆twist秩零撤回有效。R1004仅导子下界而非a/c上界，停止重复优化。
 
-当前并行：R1020保完整scalar的primitive/Legendre谱；原bare高坐标的完整Fay/主部来源；R1018/19形式首层后的实际log、跨尾Frobenius校正与非CM整投影。子问题完成即接open其余项，真正达到README完成标准才收尾。
+当前并行：R1020/22保实际sign的primitive/Legendre谱；原bare高坐标的完整Fay/主部来源；R1018/19形式首层后的实际log、跨尾Frobenius校正与非CM整投影。子问题完成即接open其余项，真正达到README完成标准才收尾。

@@ -16,6 +16,8 @@ R1只把全部异常缩为p>37的完整N_ns；**p≡2,5 mod9只是另加小惯�
 
 ## O1：全p同一真实本原标签的临界非零
 
+[R1022](results/R1022-original-theta-all-direction-constant-square.md)：全部p≥41、p5mod6，原4η⁶C_N(η)²=D_p∈(Fp×)²方向无关，D_p=−4Σa_i²a_(N−i)²；p5mod12准确D_p=1。真实index1积分torus由trace定标到Q(μ_(p+1))，复共轭即p-Frob，primitive拉回及canonical metric给相对norm1；完整addition分布保总D阶p的cross，接回c_A²=D_pγ²/4。原方向scalar只剩共同单位及实际±号，不能删符号或代primitive/Legendre谱、bare余项。
+
 [R1020](results/R1020-original-critical-convolution-complete-theta-scalar-bridge.md)：原全方向精确比值H_p/C_N=120εt·aχ(Nα)²(χᾱ+β̄)/(6B)⁵；t³=4、a=α mod s、χ为α/β mod3的唯一μ6 lift。真实index2另一vacuum系数4c_A、norm3分布负号给d₀=−36c_A；canonical三挠基尺度与Weyl二次相位全部核准。十二个同核表示不变；共同C_N保留，不代primitive/Legendre同h非零或O2 bare单位。
 
 [R1017](results/R1017-original-tame-two-three-phases-and-every-direction-critical-unit.md)：全部p≥41、p5mod6，原未经筛选H_p在全部T⁻处处单位。R1013实际下降源经真半周期乘法/Frobenius符号落入V_+²，原μ6角色只留a U⊗Y+b Y⊗U；canonical三挠lift把原四点精确送到两轴，保全部相位得a,b非零且a/b∈μ6。唯一可能非零根Norm1，不在T⁻。原scalar保留，primitive/Legendre同h仍开，未接bare O2。R1013较弱统一零点界由此加强。
@@ -48,7 +50,7 @@ R969公开三点113/131/227得到全mask rank10/11/19、A/E4组合及额外两q�
 
 ## O2：完整原超奇异迹、真正CM packet及近顶unit系数
 
-[R1016](results/R1016-original-small-index-theta-and-complete-convolution-units.md)：原index1/2下降给σ、σ²的i+j=N完整卷积在全部T⁻单位；norm3准确返回U。U_(N−1)零集：11mod12为空，5mod12恰η⁶=−1六点。补充§7.1以真实Gaussian norm-p同源和J66给r8所需正确层U_(N−2)在这六点单位；η=±i时U_(N−2)/U_N=−25a¹²/(9B¹²)。核像/frame/Wilson常数全核。仍非单个高系数或完整bare差的单位，原primitive/Legendre不删。 §7.2保原theta/η尺度给Gaussian完全值C_N(i)=−(−432)^((p−1)/4)/2，平方−1/4；全方向scalar式仍未证。
+[R1016](results/R1016-original-small-index-theta-and-complete-convolution-units.md)：原index1/2下降给σ、σ²的i+j=N完整卷积在全部T⁻单位；norm3准确返回U。U_(N−1)零集：11mod12为空，5mod12恰η⁶=−1六点。补充§7.1以真实Gaussian norm-p同源和J66给r8所需正确层U_(N−2)在这六点单位；η=±i时U_(N−2)/U_N=−25a¹²/(9B¹²)。核像/frame/Wilson常数全核。仍非单个高系数或完整bare差的单位，原primitive/Legendre不删。 §7.2保原theta/η尺度给Gaussian完全值C_N(i)=−(−432)^((p−1)/4)/2，平方−1/4；全方向常平方现由R1022证明，5mod12常数为一；原mask/bare仍开。
 
 [R1015](results/R1015-original-class-two-Poincare-projection-and-balanced-triangular-bridge.md)：原norm7的完整Π2×Π2源=C22 U⊗U，给C22 u_ℓ²=D_n c_n^-+R_n；D/C两行为6/49、342/7⁸，R全保且逐项整。§5.1进一步给c_(p−r)=−A_r−BT_r，仅用原首sigma/inverse-sigma块；A为完整regular部分，T为带三移位阶乘的carry，r8余层N−2。仍须证A_r+BT_r非零，不能用R1016两重卷积替代。
 

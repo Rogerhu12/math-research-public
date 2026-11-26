@@ -605,8 +605,9 @@ o1_theta、o2_high_coefficient 与 root 分别核准了本节全部尺度、
 原 theta Wronskian、完整格指标、Wilson 符号、row-action、
 实际 CM 整性和共同 scalar；无数值执行。
 本节仅断言这六个 Gaussian 方向的完全值；
-全方向的共同 scalar 平方式仍需独立证明，
-也未从此推出原 bare \(A_r+BT_r\) 非零或 primitive/Legendre 同标签单位。
+后继 [R1022](R1022-original-theta-all-direction-constant-square.md) 已独立证明
+全方向常平方，并用本节值确定整个 5mod12 行的常数为一。
+这些结论仍未推出原 bare \(A_r+BT_r\) 非零或 primitive/Legendre 同标签单位。
 
 ## 8. 对原问题的准确适用范围
 
