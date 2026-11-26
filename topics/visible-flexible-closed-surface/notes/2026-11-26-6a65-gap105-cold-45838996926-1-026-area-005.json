@@ -1,0 +1,330 @@
+{
+  "schema": "6a65-gap105-whole-branch-cold-scalar-v1",
+  "run_id": "45838996926",
+  "run_attempt": "1",
+  "source_epoch": "1dd2ae1757346004be6a7641e492a562648baccc",
+  "controllerSHA256": "3ee599cecb1038d1b6c031b3aab857a5df479972212452ecc028370fb25d8877",
+  "requestSHA256": "6630723f4f8723f5c9630f0f67fc1a4c967efa814c4a1adbc16bf17d36844ebf",
+  "publisherSHA256": "5055b47a891bb106557842976a6f4766121edf893605fd7a551a39c223283d29",
+  "publicationAdapterMarker": "<!-- 6a65-gap105-whole-branch-cold-ci-rules -->",
+  "sourceSHA256": {
+    "6a65-geometry-gap-window-background.py": "b1b9fcbc9b069e11412cbfb38523e3d8632ba8584da55398d8cc16884d7dde2e",
+    "6a65-geometry-gap-window-cartesian.py": "ca22b417066c3e7f46470b876eabb57ed4d1673858000d31d4c99d8acc3f2f86",
+    "6a65-geometry-gap-window-two-grid-cartesian.py": "26b53da871749b90358cef659dc8c23621f649061e0a65b4b9a7f500a05398b3",
+    "6a65-geometry-gap-window-refined-cartesian.py": "1596f0f40bbc19aabd4ea28a51a516d1bbfb86cca35f8ff03ae6d34f7349acb1",
+    "6a65-geometry-area-ratio-barrier.py": "6c54c1965e1f2f8486065272402ac3062c74d460d6e0dc706fa088a6a13a090c",
+    "6a65-geometry-gap-window-area-cartesian.py": "6ae25fd9bd29920692794ea12808a634ff4e0a9a6e31502fe346cfa2eea13397",
+    "6a65-geometry-coupled-gap-prefix.py": "83bc55f4ef0977dc3cefe2332e1f2a3d4b8dbd19f3493a788719d231d1ffbb7b",
+    "6a65-geometry-cauchy-unit-t-warm.py": "75dfcbd01870df003e6814b9cb07a992df3713e01b9fcedda432a57c4569463b",
+    "6a65-cauchy-global-position.cjs": "25d0cd8db5444a0629aaa39b26e8287df68ef6f31956c27f10012a9095bffe3b",
+    "6a65-cartesian-complete-point-operator.py": "cf475476fb2b5e3a91d4438dd9dd67e54652bfd9594cc577b038ee2fd5e6f08f",
+    "6a65-cartesian-complete-stream.py": "b8cfd595b535cc33d47e2c0bc3e2b8d6a79c8163a235415115ca42c53416e4a9",
+    "6a65-cartesian-independent-experiment-v3.py": "ff8070b7915fb3d312f1e6cfcd075f7833708df89129f2cd562a3826d9d67358",
+    "6a65-cartesian-oracle-background.py": "c57d4d21f85f949f869a2c7d1d7c4e50ede7be948ce541f1b676d589ae4045a5",
+    "6a65-geometry-cauchy-short-window.py": "bcf00e15fbe036dabb14df793ef7caf246c3b00aac385f40d6469954be3c9560",
+    "6a65-actions-cartesian-channel-block-v5-20261126.py": "5055b47a891bb106557842976a6f4766121edf893605fd7a551a39c223283d29",
+    "6a65-geometry-central-gap-held-budget.py": "001f8f4907a9ed165b9ac99ec35e0144999b3f73e3a5a32ede3f6916fb67aed9",
+    "6a65-geometry-cauchy-source-radial-cuts.cjs": "3553ab18a3ca6f7de551687ba6d099484a9a06eff2736aa6cfce12368487d9e1"
+  },
+  "candidateSHA256": "9c903de99a0ca295db7d99e4dfec837db7778a7e20bc07abd6035a63e59a938d",
+  "cauchyRecipeSHA256": "4c929d16fa8304918338df1b7952f5219ab12eaf985a450f86ac022f0e4ac517",
+  "frozenSourceInventorySHA256": "cfe4dd7eeab050c505a4e4b239f500409a382439ddcdeec5e2035a66cb0b7b5a",
+  "frozenSourceFiles": 1607,
+  "requestedAttemptBudgets": {
+    "singleGridAttempts": 6,
+    "twoGridAttempts": 9,
+    "refinedAttempts": 3,
+    "areaAttempts": 12
+  },
+  "phaseProgress": {
+    "single": {
+      "attempts": 6,
+      "acceptedSteps": 6
+    },
+    "joint": {
+      "attempts": 9,
+      "acceptedSteps": 9
+    },
+    "refined": {
+      "attempts": 3,
+      "acceptedSteps": 3
+    },
+    "area": {
+      "attempts": 5,
+      "acceptedSteps": 5
+    }
+  },
+  "runtime": {
+    "python": "3.12.16 (main, Oct 26 2026, 02:48:44) [GCC 15.2.0]",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "node": "v22.23.5"
+  },
+  "inheritedAcceptedSteps": 0,
+  "sameJobNewActualInputs": true,
+  "rawRetention": "RUNNER_TEMP only; no raw artifact, Git or Release publication.",
+  "numericalSourceFrozenBeforeLivePull": true,
+  "ruleCheckIntervalSeconds": 2700,
+  "processReceipts": [
+    {
+      "label": "area-005",
+      "OSExitCode": 0,
+      "seconds": 61.0850496879998,
+      "stdoutSHA256": "d0569623851d84ad9b3999f633b1982300c89d2a483742300a301e3bbe7cacfc"
+    }
+  ],
+  "pulls": [
+    {
+      "UTC": "2026-11-26T14:54:55+00:00",
+      "fromCommit": "75f6d0adc1e7f2ee6da455453e53c9e3e5fcda49",
+      "toCommit": "85757f7795058fccbf89ee5322c6eabf472a318c",
+      "readmeDiffEmpty": true,
+      "pullCommandExit": 0
+    }
+  ],
+  "state": "actual-stage-exited-zero",
+  "originalCauchyFactoryAcceptedSteps": 0,
+  "actualPipelineAcceptedSteps": 23,
+  "legacyCertificateNamedFlagsAreNotProof": true,
+  "R233InputBytesMatch": true,
+  "literalEvaluatorRoundingCertified": false,
+  "continuousCertificate": false,
+  "strongTargetComplete": false,
+  "actualPipelineAttempts": 23,
+  "currentStateSHA256": "121ef2712f120304788c37b66b11f2d000e2a5c772496b9908456b121e56de99",
+  "actualTotalPullCount": 28,
+  "previousScalarPart": {
+    "path": "topics/visible-flexible-closed-surface/notes/2026-11-26-6a65-gap105-cold-45838996926-1-025-area-004.json",
+    "sha256": "1948045e41a7418b1d5080a29856979058ff776a2bafd2314323ffab0a873aaf"
+  },
+  "stage": "area-005",
+  "actualPrefixInputHashes": {
+    "ramp": "0e2865ed7fd2fa5e1061718cc96b8be691f5f7d1a5b9460cf11d564d799f38e7",
+    "coast": "f2c834f5b2b9d1471eabb64a3be0edcc7b6f8454f8c98d68793a60c782c46b4d"
+  },
+  "prefixCertificateScope": "Published R233 applies to its exact formal source only; literal floating evaluation remains unproved.",
+  "actualOwnCauchyInitialSHA256": "a975dc501aa3626bb31c26e28b328cec532973d9cca63532ccff13f4c5669847",
+  "actualPreparedSHA256": "f9e7d265e0b0f7efb2077aa6b796457515d684e7c9df39c4fb23c946ea66932b",
+  "actualGapSourceIdentitySHA256": "78d4afb853388f8a6e54fadbac51210f2b68ed949f6e49d53ea8db5cc77d9a43",
+  "stageResult": {
+    "accepted": true,
+    "sameJobStateSHA256": "121ef2712f120304788c37b66b11f2d000e2a5c772496b9908456b121e56de99",
+    "actualOwnBaselineSHA256": "e45506862abd554a1482aa5e724cbf425651e789a0280fe5eb4ce1b45375d395",
+    "actualOwnBaseline": {
+      "schema": "6a65-complete-original13-plus-reciprocal-area-row-v1",
+      "pointCount": 131648,
+      "rowCount": 1843072,
+      "squaredNorm": 2.7601661496343532,
+      "maxRelativeMetric": 0.9902895676213525,
+      "maxCurvature": 622.173480779726,
+      "minImmersion": 0.009044619727295129,
+      "maxRadius": 1.4749647563679682,
+      "maxAbsoluteY": 0.8277931971128701,
+      "minHeldDistance": 0.6751101849113144,
+      "maxAdjustedHeightExcess": 0.0,
+      "curvatureThresholdPoints": 0,
+      "continuousCertificate": false,
+      "strongTargetComplete": false,
+      "bothFrozenSourceGridsIncluded": true,
+      "allOriginalThirteenRowsRetained": true,
+      "groupSquaredNorm": {
+        "metric": 1.2212619232481714,
+        "curvature": 1.5379819060584405,
+        "geometry": 0.0,
+        "area": 0.0009223203277417059
+      },
+      "originalThirteenRowStatistics": {
+        "schema": "6a65-complete-fixed-g-Cartesian-point-operator-v1",
+        "pointCount": 131648,
+        "rowCount": 1711424,
+        "squaredNorm": 2.7592438293066115,
+        "maxRelativeMetric": 0.9902895676213525,
+        "maxCurvature": 622.173480779726,
+        "minImmersion": 0.009044619727295129,
+        "maxRadius": 1.4749647563679682,
+        "maxAbsoluteY": 0.8277931971128701,
+        "minHeldDistance": 0.6751101849113144,
+        "maxAdjustedHeightExcess": 0.0,
+        "curvatureThresholdPoints": 0,
+        "continuousCertificate": false,
+        "strongTargetComplete": false,
+        "bothFrozenSourceGridsIncluded": true
+      },
+      "areaBarrierStatistics": {
+        "squaredNorm": 0.0009223203277417059,
+        "minAreaRatio": 0.09510320566255971,
+        "target": 0.5,
+        "pointCount": 131648,
+        "activePoints": 269,
+        "positiveWeightActivePoints": 232,
+        "maxReciprocalViolation": 4.2574463343966995,
+        "fullActualPointDomainPositive": true,
+        "continuousAreaLowerBoundCertified": false
+      },
+      "completeValueObjectCanonicalSHA256": "ff91498fd859cb4fa8c23bf809c5673fce3f2f308e85a6aecea2db3ad0ddae56"
+    },
+    "actualSolveReportSHA256": "c29f6ec040752d894ab17217b7250a38cef295c26a470610d95e603c530e898b",
+    "dimension": 5292,
+    "evaluation": {
+      "schema": "6a65-complete-original13-plus-reciprocal-area-row-v1",
+      "pointCount": 131648,
+      "rowCount": 1843072,
+      "squaredNorm": 2.728029848661938,
+      "maxRelativeMetric": 0.989056731478033,
+      "maxCurvature": 634.4184226523644,
+      "minImmersion": 0.0101649057532405,
+      "maxRadius": 1.4759328446769786,
+      "maxAbsoluteY": 0.8290661013099877,
+      "minHeldDistance": 0.6744849143494104,
+      "maxAdjustedHeightExcess": 0.0,
+      "curvatureThresholdPoints": 0,
+      "continuousCertificate": false,
+      "strongTargetComplete": false,
+      "bothFrozenSourceGridsIncluded": true,
+      "allOriginalThirteenRowsRetained": true,
+      "groupSquaredNorm": {
+        "metric": 1.21803988214941,
+        "curvature": 1.5091964997427478,
+        "geometry": 0.0,
+        "area": 0.0007934667697797608
+      },
+      "originalThirteenRowStatistics": {
+        "schema": "6a65-complete-fixed-g-Cartesian-point-operator-v1",
+        "pointCount": 131648,
+        "rowCount": 1711424,
+        "squaredNorm": 2.727236381892158,
+        "maxRelativeMetric": 0.989056731478033,
+        "maxCurvature": 634.4184226523644,
+        "minImmersion": 0.0101649057532405,
+        "maxRadius": 1.4759328446769786,
+        "maxAbsoluteY": 0.8290661013099877,
+        "minHeldDistance": 0.6744849143494104,
+        "maxAdjustedHeightExcess": 0.0,
+        "curvatureThresholdPoints": 0,
+        "continuousCertificate": false,
+        "strongTargetComplete": false,
+        "bothFrozenSourceGridsIncluded": true
+      },
+      "areaBarrierStatistics": {
+        "squaredNorm": 0.0007934667697797608,
+        "minAreaRatio": 0.100821157269893,
+        "target": 0.5,
+        "pointCount": 131648,
+        "activePoints": 268,
+        "positiveWeightActivePoints": 232,
+        "maxReciprocalViolation": 3.9592765401564076,
+        "fullActualPointDomainPositive": true,
+        "continuousAreaLowerBoundCertified": false
+      },
+      "completeValueObjectCanonicalSHA256": "d3cadb7933be376afed451309ff36c5a304330c55468b5029a3ec203bf31996c"
+    },
+    "actualPipelineAcceptedSteps": 23,
+    "dampingStartForEachProcess": 0.0001,
+    "oneProcessOneAttempt": true,
+    "oldNumericalMetricsNotInherited": true,
+    "bothActualGroups": {
+      "training": {
+        "schema": "6a65-complete-original13-plus-reciprocal-area-row-v1",
+        "pointCount": 65792,
+        "rowCount": 921088,
+        "squaredNorm": 1.3511943180330162,
+        "maxRelativeMetric": 0.8821544328288798,
+        "maxCurvature": 634.4184226523644,
+        "minImmersion": 0.11325367528044473,
+        "maxRadius": 1.4759328446769786,
+        "maxAbsoluteY": 0.8290661013099877,
+        "minHeldDistance": 0.6744849143494104,
+        "maxAdjustedHeightExcess": 0.0,
+        "curvatureThresholdPoints": 0,
+        "continuousCertificate": false,
+        "strongTargetComplete": false,
+        "allOriginalThirteenRowsRetained": true,
+        "groupSquaredNorm": {
+          "metric": 0.5831222086144895,
+          "curvature": 0.7680061905433462,
+          "geometry": 0.0,
+          "area": 6.59188751806997e-05
+        },
+        "originalThirteenRowStatistics": {
+          "schema": "6a65-complete-fixed-g-Cartesian-point-operator-v1",
+          "pointCount": 65792,
+          "rowCount": 855296,
+          "squaredNorm": 1.3511283991578356,
+          "maxRelativeMetric": 0.8821544328288798,
+          "maxCurvature": 634.4184226523644,
+          "minImmersion": 0.11325367528044473,
+          "maxRadius": 1.4759328446769786,
+          "maxAbsoluteY": 0.8290661013099877,
+          "minHeldDistance": 0.6744849143494104,
+          "maxAdjustedHeightExcess": 0.0,
+          "curvatureThresholdPoints": 0,
+          "continuousCertificate": false,
+          "strongTargetComplete": false
+        },
+        "areaBarrierStatistics": {
+          "squaredNorm": 6.59188751806997e-05,
+          "minAreaRatio": 0.33653183397777503,
+          "target": 0.5,
+          "pointCount": 65792,
+          "activePoints": 120,
+          "positiveWeightActivePoints": 84,
+          "maxReciprocalViolation": 0.48574354494208305,
+          "fullActualPointDomainPositive": true,
+          "continuousAreaLowerBoundCertified": false
+        },
+        "completeValueObjectCanonicalSHA256": "c34236e2898f5accf2aa9744d2a65b778a671f278637037ab1711cd6ce5246e4"
+      },
+      "observer": {
+        "schema": "6a65-complete-original13-plus-reciprocal-area-row-v1",
+        "pointCount": 65856,
+        "rowCount": 921984,
+        "squaredNorm": 1.3768355306289215,
+        "maxRelativeMetric": 0.989056731478033,
+        "maxCurvature": 413.46442242871944,
+        "minImmersion": 0.0101649057532405,
+        "maxRadius": 1.4759328446769786,
+        "maxAbsoluteY": 0.8290661013099877,
+        "minHeldDistance": 0.6744849143494104,
+        "maxAdjustedHeightExcess": 0.0,
+        "curvatureThresholdPoints": 0,
+        "continuousCertificate": false,
+        "strongTargetComplete": false,
+        "allOriginalThirteenRowsRetained": true,
+        "groupSquaredNorm": {
+          "metric": 0.6349176735349207,
+          "curvature": 0.7411903091994015,
+          "geometry": 0.0,
+          "area": 0.0007275478945990611
+        },
+        "originalThirteenRowStatistics": {
+          "schema": "6a65-complete-fixed-g-Cartesian-point-operator-v1",
+          "pointCount": 65856,
+          "rowCount": 856128,
+          "squaredNorm": 1.3761079827343223,
+          "maxRelativeMetric": 0.989056731478033,
+          "maxCurvature": 413.46442242871944,
+          "minImmersion": 0.0101649057532405,
+          "maxRadius": 1.4759328446769786,
+          "maxAbsoluteY": 0.8290661013099877,
+          "minHeldDistance": 0.6744849143494104,
+          "maxAdjustedHeightExcess": 0.0,
+          "curvatureThresholdPoints": 0,
+          "continuousCertificate": false,
+          "strongTargetComplete": false
+        },
+        "areaBarrierStatistics": {
+          "squaredNorm": 0.0007275478945990611,
+          "minAreaRatio": 0.100821157269893,
+          "target": 0.5,
+          "pointCount": 65856,
+          "activePoints": 148,
+          "positiveWeightActivePoints": 148,
+          "maxReciprocalViolation": 3.9592765401564076,
+          "fullActualPointDomainPositive": true,
+          "continuousAreaLowerBoundCertified": false
+        },
+        "completeValueObjectCanonicalSHA256": "47698c2f3e73f61451c10840f6ee507b85f933d4e669e9064862df9d38a215e8"
+      }
+    }
+  }
+}
