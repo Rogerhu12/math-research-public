@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- **R700（已证明，范围以正文为准）**：[固定有限角阶下完整积分范数六jet控制](results/R700-integral-so3-full-sixjet-control.md) — 固定有限角阶与正rho条件下，Green核及全core/H链控制六个物理jet，常数不依赖最小径向胞宽；非M一致界。 原已刊证明的正式编号登记，无新科学复算。
+
 - **R699（已证明，范围以正文为准）**：[完整SO3积分范数正定白化与带状QR](results/R699-integral-so3-positive-whitening-and-banded-qr.md) — 完整十八正权行/胞、固定槽与带宽5给准确正定和同范数白化/转置，完整流式QR不加ridge或删列；浮点误差另付。 原已刊证明的正式编号登记，无新科学复算。
 
 - **R698（已证明，范围以正文为准）**：[节点jet范数反例与真实径向积分控制](results/R698-node-jet-norm-and-radial-integral-control.md) — 显式共享五次扰动给节点jet范数不能以网格无关常数控制完整径向H²；固定有限网格的正范数等价仍保。 原已刊证明的正式编号登记，无新科学复算。
