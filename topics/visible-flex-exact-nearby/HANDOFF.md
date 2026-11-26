@@ -1,12 +1,12 @@
 # 交接：可见振幅的精确闭等距族
 
-维护会话：visible-exact-astra-198c63d-20261126；更新：2026-11-26 06:39:48 UTC。
+维护会话：visible-exact-astra-198c63d-20261126；更新：2026-11-26 06:40:18 UTC。
 **总任务未完成，继续研究，不等用户回复。**
 
 ## 规则、接续与当前环境
 
 已部分浅克隆/pull并完整读根和课题README、原H/open/log及续点notes。私库QUEUE认领已推 f90ec8e0116c67cbc32c03342e6a8d2aee0ccb41。
-本次两README确认至 4eedac5286bed78823f7d2692b551e6f7ba6b901：每次更新前均比较上次已推提交至最新main，未见两README改动；本课题的实际新增以下列记录为准。此前终端pull后的规则差异亦为空。
+本次两README确认至 be4d8f6df012fbe48264f007982302f05a5929df：每次更新前均比较上次已推提交至最新main，未见两README改动；本课题的实际新增以下列记录为准。此前终端pull后的规则差异亦为空。
 2026-11-26 05:48 UTC起执行环境unavailable，无法再做终端pull/push；按根规8暂用GitHub集成读取main、比较规则和提交每件<100KB小文本，不向API传令牌。环境恢复后立即终端pull --rebase、核两README并继续；至少每小时检查一次，非FF立即重取main并重接，绝不force。
 
 本地原路径 /tmp/visible-exact-astra-198c63d15049/math-research-public，工作区有同名软链接；无AGENTS。环境恢复前不能声称磁盘待提交文件已推。公开Actions不依赖该执行环境，R142仍在运行。
@@ -24,7 +24,7 @@ geometry43584188751/26仅在同η0真wholecore含帽C0≤1e−4、|δν|≤1e−
 ## 当前实际工作与新增结论
 
 1. **R142低逆45761859526/1仍在科学step5。** job139713486035；06:36 UTC核未有完整输出。原44730452579仅成comparison Green、defect675/1424后wall cap，不是完整ε≥1。原[母格矩续算](results/R142-low193-parent-moment-continuation.md)77pins/768bits、155母格/1424cells，manifest SHA50e5bbf2e55ee6fa7c24cd074cb2a7bd691101c3167004b840011710ac963b7e。只补defect，ε<1才四源/193atoms/wholebox；必要私有载体物化不当新Green目标。active不改。[child D/σ](results/R142-supplement-genuine-child-diagonal-covariance-and-parent-moment-reuse.md)与pure provider已证，保true h/两三角/全mean；不预称优于GM或消父中点确定差，按实际结果才用。
-2. **R149不同低逆门已证明，尚无新科学。** [有符号闭环与对称部](results/R149-signed-Green-loop-and-symmetric-part-coercivity.md)：对原同一weighted L²(dr;193)缺陷K，||sym K||HS²=(||K||HS²+tr K²)/2；旧完整HS²只读，新增完整signed tr K²。原S在同点循环迹准确相消，96×97有序carrier覆盖全cell/全三角，保true signed h与varyingΔ。新θ<1才coercive inverse；负的组合upper是包围错误。旧ε/strict真假不能改名。R142实际完整结果出来后才决定启用，不能从解析式称θ已过。
+2. **R149不同低逆门已证明，尚无新科学。** [有符号闭环与对称部](results/R149-signed-Green-loop-and-symmetric-part-coercivity.md)：对原同一weighted L²(dr;193)缺陷K，||sym K||HS²=(||K||HS²+tr K²)/2；旧完整HS²只读，新增完整signed tr K²。原S在同点循环迹准确相消，96×97有序carrier覆盖全cell/全三角，保true signed h与varyingΔ。新θ<1才coercive inverse；负的组合upper是包围错误。旧ε/strict真假不能改名。[完整resolvent转授](results/R142-supplement-coercive-resolvent-complete-source-and-point-lifts.md)及pure adapter已证：b=RgB、atoms=gA+eAb、wholepoint=p+aRb，原covariance全保，γ/R独立新kind；旧strict真假不变。R142实际完整结果出来后才决定启用，不能从解析式称θ已过。
 3. **物理58→224→32入口已推cd286116。** [入口](notes/2026-11-26-physical-scalar-execution.md)及四脚本只接完整实际低逆；58全门过才224、再32，weighted high单独绑定。旧失败prefix ready=false；当前未造假manifest。新逆basis若启用须显式新kind准入，真实source/atoms/point仍须完整支付。
 4. **R143体成功、R146当前根预算已排。** [R143 actual](results/R143-supplement-actual-correlated-body-budget.md)45762052058/1全4651格六球：Ccorr<17.809、wE<19.745、aEE<.641002、aEB<.555960，body三门true；N约.0378703仅未排。[R146 actual](results/R146-supplement-actual-quadratic-cap-excludes-correlated-root-budget.md)45765780668/1全418格/13376子格：T2<102.965、必要Qupper<−.16618，严格排当前CV/RA非负费格式。32pins/10历史、science SHA5b14b6f9795a5ebe72585b2e6aaedbe0553fceefa6d2561539a457d2d82cfe18，exec SHA1ddf995ecced7309c3e091a07b443f8f8e5201565c3ce0f061e54bb96919dba8。停止该格式Gram/容量/仅细化DH；不推BVP奇异。[完整high压缩/joint source](results/R146-supplement-full-high-compression-inverse-and-joint-source-Gram.md)是不同后继工具，完整源余尾/mean仍保。
 5. **同selected源和真实mean行已补。** NA44765046846/OA44769445246完整成功仅读。[R145](results/R145-selected-nu-proposal-positive-source-and-outer-rows.md)ν源whole full/low/high<2.9478e−5/2.9476e−5/2.8714e−5，Robin<9e−12、physicalmean<4e−18。[R147](results/R147-selected-negative-nu-source-and-complete-mean-row.md)原ordinary负径向窗三源<(3.720478,3.718314,2.955779)e−6、腰odd<1.122e−15；体Pmean Aδ PH=0只对原moving high。真外mean |ωR^-1|<50、||ellR||<1.2e−6、纯ν affine<2e−16；signed式保−3R0/m、ν方差和全jump。独立height、外mean high、自然root负Sobolev及true response/fullinverse均未消。

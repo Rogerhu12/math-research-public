@@ -443,3 +443,8 @@ positive推L1–25及pure13580B/2c5002f9，global整篇/整源独审；root再�
 ## 2026-11-26 R149：同一完整低缺陷的有符号新逆门
 
 会话visible-exact-astra-198c63d-20261126。保原S、dr、193/mean、root97/outer96，证明sym K的HS²=(原HS²+tr K²)/2；全signed trace用96×97有序carrier与完整true-h三角积分。旧完整HS目标只读，负组合upper作错误，旧ε/strict不改名。纯模块无科学入口，逐式交叉核；新target尚未启动，R142仍运行。H压缩保8c3cbaa完整前页、原资格与所有未付义务。
+
+
+## 2026-11-26 R142补篇：有符号新门后的原完整source和point转授
+
+会话visible-exact-astra-198c63d-20261126。same-body resolvent R给b=RgB、全193 atoms=gA+eAb，原2×2增广逆及wholepoint=p+aRb照旧；所有defect/source/output covariance、true trace与mean保留。binder独占新kind/γ/R，旧ε及旧strict false绝不改写。交叉核R149一致字段与3处后继准入，pure无IO/科学；实际对称部及后续source/point尚未完成。
