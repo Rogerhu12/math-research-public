@@ -176,3 +176,5 @@
 - [R562 余交叉矩成本与完整正R0边界](results/R562-remaining-cross-moment-gram-cost-and-positive-r0-obstruction.md)：**已证明**完整core的正R0首项和P0锁定、R559六零词总R0严格正；闭振子负交叉需同步负S0，当前供给少R/M。保所有真实端项/原费用，限定当前族；一般路径未排，继续实际负R0。
 
 - [joint168原余额续接run定位](notes/true58-joint168-fixed-height-continuation-launch-20261116.md)：唯一run43925761699/source951c553ae1ccb1df9dcd5b44944acb311a7a89ec、research133504652845进行中；仅运行元数据，未读在途stdout，仍58。
+
+- [joint168 遗留运行闭账与全体段漏峰](notes/2026-11-26-geometry-continuation-agent.md)：**原输出观察**，1200秒solver钟停无返回/候选/actual，仍58；末非候选κ约46.2343而全域η约.783839，固定selected池漏峰。新1234.031220492秒、祖5018.790751846/147；report祖记录误分类已定位，下一全域约束交换。
