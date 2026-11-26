@@ -5,7 +5,7 @@
 
 ## 1. 规则、授权与原始记录
 
-公开已读提交 **ed4092768969b5fbfb859355cc4f8a1e3897c9d2**（2026-11-26 16:08 UTC；本次实际pull后根/题README空差异）；最后实际pull及规则同blob读至 **5a4e6154670abc3dc7272b5d372873a8d5b85856**（2026-11-26 16:08 UTC；实际pull成功，根README空差异、QUEUE仍本会话）。私有 QUEUE 仍为本会话进行中，原认领提交9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7，其他课题认领不改。
+公开已读提交 **09034d45be05d0b983c2993b5cae56a434a605bb**（2026-11-26 16:09 UTC；本次实际pull后根/题README空差异）；最后实际pull及规则同blob读至 **ee0161ad024c6a0cd41acac27d25324f34b7c24e**（2026-11-26 16:09 UTC；实际pull成功，根README空差异、QUEUE仍本会话）。私有 QUEUE 仍为本会话进行中，原认领提交9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7，其他课题认领不改。
 
 [本次压缩前全文](notes/HANDOFF-before-continuous-angular-bounds-20261126.md)及其所链[继承交接](notes/HANDOFF-inherited-20261116-1809.md)保全部结论、条件、旧失败、输入与费用；不因摘要删账。三次环境失联后已恢复；远端临时CLI和后续本地CLI均真实双pull/rebase/push。每次实际pull后查根/题README差异并执行，至少每小时；API读取不冒pull。root独占git和共享索引，每条结论即推，NFF立即pull --rebase再推至成功。
 
@@ -40,6 +40,8 @@ R576付完整turning/位置，R594付真实At/M、离解Jac与漏模传播，R59
 R596/R600只付同尾准确核至16/32及截断理论；实际口、归一和ODE误差逐次计费。全平内尾及旧R588的范围不能自动扩给新高模。所有旧强迫/插结/尺度失败完整保原索引和前史。
 
 [R606](results/R606-weighted-fourier-majorants-continuous-turning-and-metric.md)新证有限系数→六jet加权Fourier界、alias/连续turning根包围→原实际metric；不需数值e′。下一由真实11模末态支付径向系数区间/ODE/尾/舍入，不能代浮点采样即称连续证书。
+
+[R610](results/R610-finite-angular-height-clamp-rigidity.md)新证任意固定有限角带准确高度从开平帽只能轴对称，最高复频的平方能量给残差传播；当前tanh无限谱不在禁域，高频尾与全部交叉项仍须支付，不能用固定角截断冒准确闭合。
 
 ## 6. 宽母、真实记忆与完整质量式
 

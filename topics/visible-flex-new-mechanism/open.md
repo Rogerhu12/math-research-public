@@ -48,6 +48,8 @@ R602从属完整核心D已降到1.596e−19，实际e′R关系也成立于数�
 
 [R606](results/R606-weighted-fourier-majorants-continuous-turning-and-metric.md)已给有限系数→六jet加权Fourier界、alias/连续turning根包围→原实际metric。下一在真实新全谱计算中取得实际系数与预算，继续径向区间、DtN/ODE、无穷内尾和舍入。充分门失效只说明该界不足，须改权/分区/表示；不能据此排整个机制。
 
+[R610](results/R610-finite-angular-height-clamp-rigidity.md)进一步排任意固定有限角Fourier带的准确非轴对称高度从开平帽长出；仅需径向C²/EC¹，最高复频平方能量也控制真实残差。当前tanh具有无限谱，不受该有限带禁结论排除；若实际高模继续主导，须给响应自由度或强迫修正及完整尾账，不把输出截断当准确解。
+
 R574/R576保完整Darboux/turning/实际重构位置，R594保At/M、离解Jac和漏模传播。a实际失号，不能点除；有限弱质量rank不是连续逆估计。R596/R600只给声明同尾高模准确核及截断理论，旧R588尾界不能自动扩给新高模。两次八模旧成本452.797672070+464.449434512秒和所有旧强迫/插结/尺度失败均保[原末态](notes/2026-11-26-r594-paid-weak-resume-natural-final.md)，不再延长停滞八模。
 
 ## O2b-C：B030从真实工作行瓶颈继续完整物理优化

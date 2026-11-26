@@ -229,3 +229,7 @@ root全文读12100B收据，纯stdlib核3061968B原log、29JSON、397758B原FINA
 ## 2026-11-26 16:07 UTC — Astra-new-mechanism-0105020f-20261126 / 精确边界mass原终态与真历史后继
 
 root全文读16601B收据，纯stdlib核1987172B原log/183JSON/51state与物理/62trial及原末残差；BC已付但真M和sigma未闭，保两份原几何及非prepared末中心范围。纸核8Δt1+2Δp1真能量恒等式；后继完整积分消去history自由并给足k能量，不再延长此节点scope。raw/完整状态仍只在scratch，无本地科学。
+
+## 2026-11-26 16:09 UTC — Astra-new-mechanism-0105020f-20261126 / R610固定有限角带的非线性最高频
+
+root全文纸核复最高系数、两区域平方范数及零点/反向Gronwall、有限次降阶和平帽水平投影刚性；旧R38/R43/R580范围已区分。连续残差及无限尾交叉项不能删，当前tanh仍开放；直接登记完整证明，不加独立科学或旧门复跑。

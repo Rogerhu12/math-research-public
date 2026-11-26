@@ -412,3 +412,5 @@
 - [R607 prepared中心两侧首层的正四阶相容](results/R607-positive-prepared-center-leading-energy-layer.md)：**已证明（有限阶）**真运动学/完整M给显式c∈(1/6,3/4)、k‴=6和同λ>0，使B±−λm=O(s⁶)，包括Q一阶的五阶差准确清零；m正支真实实现。没有授准确首层全程、原有限宽度ruling或返回。
 
 - [R608实际圆参考的定量无限尾与平帽](results/R608-actual-circular-reference-tail-curvature-and-flat-cap.md)：**已证明**同一β=4χ(1−χ)/五次样条/无限H在δ≤2/25上z_s≥31w/32、a−rc>ℓδ/2、|κm|<1/3，且全平接完整圆盘。实际圆参考R599余下紧区间二jets需向外区间支付；不授非圆q连续reach或浮点评价精确性。
+
+- [R610有限角带高度的开帽刚性与最高残差传播](results/R610-finite-angular-height-clamp-rigidity.md)：**已证明**任意固定有限角带的完整非线性Darboux高度，从零非轴对称Cauchy数据只能保持轴对称；复最高系数涵盖sin/cos，二区域平方能量避免零点非法除法，并给连续最高残差传播。水平开平帽进一步迫真实水平投影为固定欧氏等距；不排当前无限tanh谱，截断全部尾交叉项须付回残差。
