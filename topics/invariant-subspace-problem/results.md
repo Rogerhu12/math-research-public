@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R12 同一实际源的非复制运输与全程固定球递推已构造（2026-11-27，已证明）：** [准确边费、前缀亏损与真实R_n证明](results/R12-appendix-same-source-transport-interpolation-and-sustainable-actual-recursion.md)用可测非负流分别支付普通范数与全部Deddens成本，达到精确最小普通插值范数；保持原h的截取误差趋0。N_n≥4n的显式f_n给R_nAf_(n−1)=f_n、统一普通范数及O(n⁵)累计log成本；保β_n∏c≥1/√2，不宣未知M被保持或已得矛盾预算。
+
 - **R150 S0/Lt0的整个半base权支路为空（2026-11-27，已证明）：** [ellhalf/a-half全原返回](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-half-base-weight-exclusion.md)由原M与z²−2D的52次结式给20次完整谱，低谱各返原z域由Delta/z排除；末16谱保同θ和d两根，在32维原代数中E1/EB真逆乘回1。自含源exit0/0.475966秒/30200KiB，原九式输入与52次真逆已核；后续一般图可付ell−1/2，不宣整Lt0完成。
 
 - **R12 任意非奇异加权复合算子到完整闭包自伴核的距离已确定（2026-11-27，已证明）：** [真实初终空间正交与精确距离](results/R12-appendix-exact-distance-of-all-weighted-composition-operators-to-the-closed-selfadjoint-core.md)给dist(M_vVσ,R∩R*)=dist(M_vVσ,MASA)=||v·1_移动集||∞；不要求σ是平移。无限相邻位交换的自伴酉到平移生成B距离1，证明新增范围确有B外对象。该子类闭合后继续正向同源运输插值，未把一般非对角块相加误作收缩。

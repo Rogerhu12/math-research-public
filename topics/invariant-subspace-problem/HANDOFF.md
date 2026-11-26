@@ -5,7 +5,7 @@
 ## 目标、规则与执行
 
 - **普通复可分无限维 Hilbert ISP 未完成。** 仅全体有界算子的存在定理或完整反例算完成。
-- **最近实际 pull / 已读规则提交：** `4d6ad1b275cea2191629bb1fad9951a3137941d3`（2026-11-26 20:06:28 UTC；本地部分克隆）；本次两 README diff 无变化。每次 pull 且至少每小时检查并更新本项。
+- **最近实际 pull / 已读规则提交：** `aa6939d6012a5d00066022af37477670b045e85d`（2026-11-26 20:07:43 UTC；本地部分克隆）；本次两 README diff 无变化。每次 pull 且至少每小时检查并更新本项。
 - 私库 QUEUE 接手已推 `5746fa79a74af4975476d400dfbe0c4e5cb9ae9d`；私库根规则已读至 `ec011a5c25eeb7aed6eea040d601e7351726ede9`。每结论单推，非快进即 pull --rebase 再推；不 force，令牌仅 CLI。
 - 本轮本地终端可用。前会话执行身份及全部原交接保[接手快照](notes/2026-11-27-handoff-at-takeover-8542.md)；本轮后续完整细节保[第二快照](notes/2026-11-27-handoff-before-new-tower-and-closure-8542.md)。失败不改标成功，已登记不重做。
 - 仅保源、参数、SHA、小回执；MD<100KB、H<10KB、open尽量<30KB、topic<200MB，不写根LOG。已读本轮 log；notes 按交接路径与结果索引定点续读。
@@ -56,3 +56,5 @@ Deddens本轮完整已闭结论见[索引](results.md)：D∩D*=乘法MASA，非
 范数闭包R的全部2-adic加权平移距离已确定，平移生成B中自伴核=MASA且交换子∩B=poly范数闭包；原R38的Y∈D\B保真剩余。全R对任意非平凡odometer谱投影距离≥1/π，不能据此排除连续谱Fourier乘子。新增[任意非奇异加权复合的准确距离](results/R12-appendix-exact-distance-of-all-weighted-composition-operators-to-the-closed-selfadjoint-core.md)：到R∩R*与MASA均等于权在移动集上的ess sup；无限换位实例到B距离1，确属B外。
 
 全R自伴核仍开，不以移动字符消失或一般细块小量替全B(H)唯一性。已转同一实际尾纤维的非复制运输插值，保原递推来源与费用；未知M未证被D核心保持。∩A^kM增长率、G_reg/Haar/子商及原快照中全部未闭接口继续。
+
+[原同源运输及可持续递推](results/R12-appendix-same-source-transport-interpolation-and-sustainable-actual-recursion.md)已证：逐尾流π的行质量/普通列容量/边费用平方列容量给Xh=g及真实双范数；前缀条件刻画最小普通范数，精确亏损趋0。N_n为最小dyadic≥4n、f_n=1_{r≥2n−1}有真实R_nAf_(n−1)=f_n、||R_n||≤2/α0、c≤2/α_(m_n−1)，累计log费用O(n⁵)。仍须β_n∏c≥1/√2，未知M保持与矛盾预算未付。

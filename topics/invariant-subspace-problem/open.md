@@ -118,6 +118,8 @@ A单射、稠密像、拟幂零且非紧；普通非零真闭不变子空间仍�
 
 [任意非奇异加权复合算子的自伴核距离](results/R12-appendix-exact-distance-of-all-weighted-composition-operators-to-the-closed-selfadjoint-core.md)现已完整确定：到R∩R*与MASA都等于其权在移动集的ess sup；无限二进位换位实例到平移生成B距离1。一般非复合算子仍不能无损拼合细块；当前正向推进实际尾纤维的非复制运输插值。
 
+[同一实际输入的运输插值与可持续非复制递推](results/R12-appendix-same-source-transport-interpolation-and-sustainable-actual-recursion.md)已完成：精确边费用d_rs、逐列双预算、最小普通范数前缀条件和真实亏损误差均付；显式R_nAf_(n−1)=f_n始终留固定非零球，普通范数统一，累计log成本O(n⁵)。原β_n∏c必要下界完整保留；继续真实加权流优化或未知M保持，不能把这条五次预算当矛盾。
+
 硬复制和任意复软复制（自适应、统一有界放大、固定非零球）已有五次累计成本障碍，原幂衰减只有四次；软化cut不能修复。一般有限头重排与非复制来源仍开。未知A不变空间未证被D核心保持。
 
 ## 4. 其余开放路线和范围
