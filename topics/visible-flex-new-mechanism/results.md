@@ -206,3 +206,5 @@
 - [R569线性种子的首份原终态与C²代价](notes/2026-11-26-r569-seed-first-run-receipt.md)：**完整数值观察，未授有限等距**。run45771143212自然success，39.905028348科学秒、2850383次RHS。同alpha160归一与共同外端尺度下，尾内|f_rr|约5.05e7、|v_rr|约3.94e8；外端f/fr负号排除直接单调w连接。DtN理论截断与数值积分差分开报告；换尾/相位/连接后继续实际核心shooting。
 
 - [R570 保八矩的有限姿态词与真实四段返回](results/R570-neutral-residence-pose-and-real-four-piece-return.md)：**已证明**同高度总驻留恒定的SO(3)有限词保持冻结完整八矩成本不随姿态变；按实际incoming冻结与完整能量/积分C¹控制，重解原八矩给u_σ=O(δ²)。首高尾慢图修正和原位置积分支付巨大横向分量，实际两pose方程可同解，故同χ (PP^R)²准确闭scalar全jets、frame、位置、A、T。整个第四仍4V_P、同13和有限等距/全reach/幅度仍欠。
+
+- [R571 新固定相位尾的全平核与核心线性射击零](results/R571-milder-phase-tail-flat-kernel-and-core-shooting-zero.md)：**已证明**明确新wφ=.8exp[−(2−sin(δ^-1+φ))/δ]有统一patch Hess/graph reach，单谷DtN给真实一维全平核、全部导数exp(−c/δ²)和相位连续。归一峰随φ一圈移一cell导致准确负holonomy；周期正则connector的C_core故有实际零且A_core非零，双开平帽的闭旋转背景可线性匹配。种子C²代价、有限非线性、冻结g精化和全闭reach/幅度未付。
