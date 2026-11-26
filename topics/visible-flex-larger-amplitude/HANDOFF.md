@@ -4,7 +4,7 @@
 
 ## 规则与完整目标
 
-最近规则核查：2026-11-26 20:24:15 UTC，真实pull/rebase至 `b7109d783bc008b9d388a2a72c11740b88950954`，双README相对`f27405d369913d30b89346b02a51ab20cb82ae30`无差异，继续遵守全部规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
+最近规则核查：2026-11-26 20:24:54 UTC，真实pull/rebase至 `b64a97eb11b819fcfef7f19b2ab61dc6bff97ac4`，双README相对`b7109d783bc008b9d388a2a72c11740b88950954`无差异，继续遵守全部规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
 
 科学计算仅本公开仓库Actions；执行偏差见[早前记录](notes/2026-11-20-public-actions-execution-correction.md)及[四次大JSON整读纠正](notes/2026-11-26-large-file-connector-read-correction.md)。root唯一分支写者；结论即普通推，NFF立即rebase循环，不强推。每次pull核双README差异并遵新规，至少每小时，记commit。raw只scratch/runner，不入Git/Release/artifact；保完整小源/参数/run/SHA/紧凑结论。题≤200MB、单文件<5MB、MD<100KB、H<10KB、open<30KB。令牌仅瞬时CLI。17:55终端失联后曾用云API普通快进；19:17显式/tmp恢复并新部分克隆，现恢复终端git。旧迁移完成情况未知，不假称恢复旧scratch。
 
@@ -21,7 +21,7 @@
 
 03b45820592817已返36并终止，37未启动；旧03 stage7未知。全部3–36方向/拒点/源码/参数保固定完整交接和原notes。旧[30/33](notes/2026-11-26-actual-direct-integral-second-direction-30-33.md)alpha1/32/max .501279055、QP64未驻；拒绝ray家族/地址旧raw未知，不能用05补填。原[19/20](notes/2026-11-26-actual-fixed-moment-Q-initial-failure-19-20.md)、[28/31/32](notes/2026-11-26-actual-continuation-failure-and-reader-repair-31-32.md)、[34/35](notes/2026-11-26-actual-Jstar-height-root-failure-34-35.md)、[36](notes/2026-11-26-actual-gamma-KKT-initial-failure-and-03b-exit-36.md)均未有成功场/Phi/root，不推不存在或秩亏。18字固定Q保；R697/R702/R705分别登记轴端同族/只改H恒等式/完整walker空贡献；必要弦长23不证有限根。
 
-[R703](results/R703-normal-endpoint-lifting-and-fixed-partition-jets.md)/[R707](results/R707-fixed-normal-chain-root-jet-error-propagation.md)全法向链/误差已证，尚无实际余量；[法向五源](notes/2026-11-26-fixed-normal-plane-complete-SO3-entry.md)42ea/2557/68a6/c5f1/8381排05，m32全6m/9m链、原H、七完整历史；[gamma显式H](notes/2026-11-26-added-gamma-KKT-explicit-height-entry.md)8f375/da411/c3fdd排真实30后，[实际12–16](notes/2026-11-26-public-actions-45870334713-1-part-004.md)两者初F均失败：gammaH止λ约.9641，normal完成26/32且第27失败，无场/Phi/方向；保存129 KKT矩阵数值满秩/降维Hessian正，不冒准确秩或SOSC。新固定seed继续。
+[R703](results/R703-normal-endpoint-lifting-and-fixed-partition-jets.md)/[R707](results/R707-fixed-normal-chain-root-jet-error-propagation.md)已证全法向链/误差，实际余量未付。[法向五源](notes/2026-11-26-fixed-normal-plane-complete-SO3-entry.md)42ea/2557/68a6/c5f1/8381保m32全6m/9m和全部外层。05[实际12–14 gamma-H](notes/2026-11-26-run05-actual12-14-gamma-height-failure-and-saved-KKT-matrices.md)初F失败，止λ约.9641；129保存KKT矩阵数值满秩、reduced L正，但最坏K条件约2.75e9，不冒准确秩/SOSC或归因。原H normal15/16完成26、27失败，无场/Phi/方向，完整返回见[原卷](notes/2026-11-26-public-actions-45870334713-1-part-004.md)。
 
 [实际输入](notes/2026-11-26-run05-actual-input-identities-and-same-mathematical-target.md)/[R706](results/R706-regenerated-input-same-exact-metric-definition.md)：05同warm/e640/law/chart给同数学g，reference/profile/carrier与误差盒确变；末向量不推一致。[实际7](notes/2026-11-26-run05-actual7-full-history-and-initial-word-fingerprints.md)已真读初字/完整地点，不补造旧03b集合。
 
