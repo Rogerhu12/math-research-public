@@ -4,7 +4,7 @@
 
 ## 规则与完整目标
 
-最近规则核查：2026-11-26，真实pull/rebase至 `79feb68b3903f1be540301fda88c64f70039ae74`，根及课题README相对f0548477无差异，已完整读授权及规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
+最近规则核查：2026-11-26，真实pull/rebase至 `d76da9dfcb488de89a1ac5d5ff1e525fd773eaa2`，根及课题README相对f0548477无差异，已完整读授权及规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
 
 科学计算仅本公开仓库Actions；早前本地偏差及13:00 UTC纠正见[执行记录](notes/2026-11-20-public-actions-execution-correction.md)。根README已授权必要修改/发布；根唯一local git writer，代理只work/小源。每条结论普通commit/push；NFF立即pull --rebase循环再推，不强推。至少每小时pull，每次核双README差异/立即遵新规并记commit。raw只scratch/runner，不入Git/Release/artifact；只保完整小源/参数/run/SHA/紧凑结论。题≤200MB，MD<100KB，H<10KB，open<30KB。令牌只瞬时CLI，不写文件/提交/回复。
 
@@ -44,8 +44,6 @@ R684 [首physical/p4两方向](notes/2026-11-26-actual-first-mean-design-and-amp
 
 R686完整K分块及[同场first/K/四标记消费者](notes/2026-11-26-same-field-batched-curvature-geometry-consumer.md)已刊，保原六jet/准确尾/全角，K目标由实际D推。接足够小的新候选，未有新K，不复算旧取消场。
 
-R687给中心化正项Phi、趋零finite-max界及显式残差块权比；只代数，不改当前目标或宣称新数值。
-
 R688/e3d与幅度v2/643的完整真实前史保 [v2两方向](notes/2026-11-26-actual-amplitude-v2-directions-and-own-first.md)。最新 [typedSOC stage55–57](notes/2026-11-26-actual-complete-amplitude-SOC-and-own-first.md)返2d3e053c：原ray.5/mu.01，Phi .000167270661584/max .014179633163807，QP Pg/tol572816仍未驻点。原192+5及追加2行保全；SOC真实固定行max=-9.40596e−7但全筛产品.99201661仍拒，非阈值放松问题；同父多轮完整分离与更充分内层接着做。最终点筛通过，自身全922 D≤4.118425457/L≥.938819942/embedding已付，marker/K/E3/固定g精化未付。失败新位置及各试探永保。
 
 R689固定均值连续Gram入口已刊：两准确场共同分割、公共lift平方恒等抵消、双方余项及全角全胞；只静态检查，接足够小的实际新候选，不给旧失败场虚报精化。
@@ -55,6 +53,8 @@ R689固定均值连续Gram入口已刊：两准确场共同分割、公共lift�
 R690 [完整深谷新输入证明](results/R690-quasimonotone-tail-and-deep-valley-input.md)已刊：B=积分c/c可积的唯一性判据及明确非可积深谷；保原prefix/S、更新准确R/I，参考Hold曲率≤5/2。e091 [实际stage54](notes/2026-11-26-actual-deep-valley-complete-scalar-input.md)完整无限尾已返、无振荡丢弃；300秒/1318叶未达1e−18请求，但盒有效。新factory/固定gn全求解直接续接；无非圆存在或新几何声明。
 
 新deep [完整固定gn六源入口](notes/2026-11-26-fixed-deep-scalar-complete-amplitude-solver.md)已刊排：真实64362793→明确新keep-q seed/carrier/全部位置→2×64/μ.01/新固定目标1e−9。保原q/core/H/H²/全部Gram均值/C+amp；原a被均值消去的问题已通过直接固定gn残差解决，未宣称新场已合格。4ae factory更新准确R/I，dcfa粗Gram真实用新a。旧f122/R676不能冒读新schema，独立连续reader/同profile精化在接。
+
+R691 [完整目标末端相容/Haar角矩](results/R691-frozen-physical-mean-endjet-and-material-Haar.md)已证：physical均值一般不消去三阶导数均值，真实材料Haar消去该项并给全导数。未实测当前目标违反，不设新freeze门/不排C²极限；准确Haar角矩入口继续。
 
 新科学仍仅本公开Actions。root唯一人工git writer，代理在独立scratch写小源/推导；每条完整结论即推。工作盘空间不足，本次部分克隆在临时盘，仓库提交为恢复依据，不删除别的会话数据。
 
