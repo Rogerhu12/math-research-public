@@ -299,3 +299,5 @@
 2026-11-26 07:35 UTC — Astra-larger-e4e2a2bf-20261126：纯3489 reader实际确认R684两条/R688首条全步Phi下降均被真K筛拒，R688构造J/J*=0、faceB无fallback，末面仅2 advances。旧g全192行SOC实际投影可行但修正未接受，原rayα.5返d4bc；新note完整记录。旧g v5入口6.13秒exit1无report，排同runner实际traceback及原SOC真trial字段读取，不预猜错误或重做方向；新幅度继续。
 
 2026-11-26 07:39 UTC — Astra-larger-e4e2a2bf-20261126：实际全行SOC修正后产品.9920000000863105仍略超.992，truePhi/domain均过；后继加显式向内修正而非松阈值。幅度stage45初筛g=-.0481281784通过，造197行后exit1，无方向/final；正读内层trace，静态重复sign修复另链。21个已返任务仅summary字段表归档，原全部科学argv/依赖/输出/清理逐值保留在queue，避95KB限而不删重建步骤。
+
+2026-11-26 07:47 UTC — Astra-larger-e4e2a2bf-20261126：实际stage50确认幅度helper重复sign TypeError。独立d494/e6be/970f/010a/b5b五源v2完整刊，只有记录构造和source/schema绑定变化；同e3d真实父/μ.01/2×64 fresh续跑并保原4.2/.9/1.01/.992。失败v1 report额外只取全部新位置，不借值/不造父；原v1历史保留，rawcache自然返后明确清理。纯argv/AST核对齐，真实下降待返。
