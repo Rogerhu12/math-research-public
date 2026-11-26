@@ -4,6 +4,8 @@
 
 截至R1000的逐字前态在[最新open归档](open-archive-2026-11-21-before-norm-seven-source.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重新计算已成输入。
 
+[R1014](results/R1014-original-CM-divisor-reduction-and-Igusa-Frobenius-principalization.md)：p>37、p11mod12时原X₁的compact-type纤维上red((p−1)D₀)=0，任实际商β同样成立。三个DL尾用div x=2Q−2∞；Igusa中心必须取真实b、a=b^p，G(b)^p=F(a)、divG=m(2s₁−sζ−sζ²)，m=(p−1)/2。全图是树，全部分量类均保留；因此β可减唯一(p−1)挠提升进入形式群，log无需除p。真实首lift的内在变形/节点过渡与商投影仍开，不能只用G²局部项宣布两列独立。
+
 ## O0：全主目标覆盖（R1003恢复原范围）
 
 R1只把全部异常缩为p>37的完整N_ns；**p≡2,5 mod9只是另加小惯性I_p=C³的结论**。R317的应用另外要求整j、K=Q(√−3)、σ=1，以及实际二除法域和三除法S3商域同时一致。完整惯性、非整j、变化K、σ非平凡及异小除法域的大导子支路，均未由当前CM证明链排除。原导子下界不是上界。O1/O2研究指定辅助源，不是完整剩余情形；真正全局高度也仍待证。逐条假设见[R1003](results/R1003-global-scope-and-remaining-branches.md)，后继不得省略此覆盖缺口。
