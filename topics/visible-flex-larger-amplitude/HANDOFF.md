@@ -4,9 +4,9 @@
 
 ## 规则与完整目标
 
-最近规则核查：2026-11-26，真实pull/rebase至 `27a3f2c8f76a15870bfa2673f06c900778cdf742`，根及课题README相对f0548477无差异，已完整读授权及规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
+最近规则核查：2026-11-26 14:44:06 UTC，真实pull/rebase至 `44653037c8e49b873410839f01b2ce10f49b504c`，双README相对`908ffe385ad5be14a7752c9c716e71c1a15819b1`无差异，授权及规矩继续执行。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
 
-科学计算仅本公开仓库Actions；早前本地偏差及纠正见[执行记录](notes/2026-11-20-public-actions-execution-correction.md)。root唯一分支写者；代理只scratch及未引用小源blob。每条结论普通commit/push，NFF立即pull --rebase循环再推，不强推。至少每小时pull，每次核双README差异/立即遵新规并记commit。raw只scratch/runner，不入Git/Release/artifact；保完整小源/参数/run/SHA/紧凑结论。题≤200MB、单文件<5MB、MD<100KB、H<10KB、open<30KB。令牌仅瞬时CLI。终端自13:55 UTC失联，根8准许小文本connector；恢复后补真实pull。2026-11-26 14:33:58 UTC在线核双README至`67fc1b9ffb750c4249a44ea7cf5c13b4c793a73a`无差异（不冒git pull）；raw未补造。
+科学计算仅本公开仓库Actions；早前本地偏差及纠正见[执行记录](notes/2026-11-20-public-actions-execution-correction.md)。root唯一分支写者；代理只scratch及未引用小源blob。每条结论普通commit/push，NFF立即pull --rebase循环再推，不强推。至少每小时pull，每次核双README差异/立即遵新规并记commit。raw只scratch/runner，不入Git/Release/artifact；保完整小源/参数/run/SHA/紧凑结论。题≤200MB、单文件<5MB、MD<100KB、H<10KB、open<30KB。令牌仅瞬时CLI。终端13:55 UTC起失联期间依根8以小文本connector提交；环境恢复后已重建blob:none/sparse检出并补真实pull，在线核规原字保b20f30ce及其固定历史；raw未补造。
 
 
 目标：同一固定g、闭连通C²嵌入、全t强C²连续；固定有内点H且diamH≥.2D、整像δhold≥.2D、含反射δE>0；全t reach≥.03D、整面relative metric≤1e−6；固定g/参数/范围的真实mesh和频率精化至机器或原求解容差，多t可复现网格，准确说明严格存在缺口。D为完整F0直径。R248准确相位恒等式处理全t，不新增独立t插值门。有限误差/开放片/障碍不完成。
