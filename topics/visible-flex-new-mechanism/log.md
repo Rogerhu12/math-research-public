@@ -513,3 +513,8 @@ open原28316B全文按链接层级移入open-before-fixed-E-and-K-only归档，�
 ## 2026-11-27｜B030实际56e8的新1390资格与正常续算
 
 完整审新source差分及scope，33依赖hash/AST/sparse和278477B输入核合，唯一261842B原FINAL逐字一致。原694圈/1555峰/309工作行/空pending与trust继承，新1390全fine/全部观测峰/nested资格收费且不计metric接受；旧1388不冒新资格，所有原物理/η/恢复门与参数保持。没有本地科学求值，旧队列与诊断不重跑，下一读取本次原自然终态。
+
+
+## 2026-11-27｜97q实际59a4的正常311新资格范围
+
+全文审11793B新wrapper与scope/workflow，36绑定/AST/sparse、482797B输入及479059B原FINAL逐字核合。真实311/16149-qualified/16167-required身份分列，一次新field供baseline/后端/fine，不能借f60标签授异场资格；旧298数值driver保持，全部物理/工作/box门不删。发现并修正新workflow遗留旧lane，matrix现为actual-59a4-f60-normal311；request/source绑定全合。原d613仅unqualified warmth与失败证据，原费用不覆盖，未本地执行科学。

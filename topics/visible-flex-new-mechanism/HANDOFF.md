@@ -5,7 +5,7 @@
 
 ## 1. 授权、规则与继承
 
-公开本次实际pull且根/题README已读至 **2d0a1efc319c85439706742477d5e18f8a9afd46**；根/题规则相对继承0749a4cc仍为空差异。私库实际pull/根README已读至 **2dcbca6979066ac65a5e161f6d360c2b7a49bd6b**，2026-11-26 22:28:22 UTC空diff；下次不晚于23:27 UTC。QUEUE唯一仍本会话进行中，原认领09f8b8b54e。
+公开本次实际pull且根/题README已读至 **63310d7f67d915f9936f5ec247f62ba10f81a746**；根/题规则相对继承0749a4cc仍为空差异。私库实际pull/根README已读至 **2dcbca6979066ac65a5e161f6d360c2b7a49bd6b**，2026-11-26 22:28:22 UTC空diff；下次不晚于23:27 UTC。QUEUE唯一仍本会话进行中，原认领09f8b8b54e。
 
 每次pull只读根/题README差异并记SHA，至少每小时；NFF/ref锁立即pull --rebase再推至成功。root独占git和四索引，每条结论即推；科学只公开Actions，本地只纸证/源码及原日志JSON/hash解析。根12不重放已付门；根15不存raw/可重算表，必要新场再生全计费。H<10KB/open<30KB/md<100KB；publisher活跃不改tracked。
 
@@ -19,7 +19,7 @@
 
 [298原终态](notes/2026-11-27-r582-physical-pending298-original-terminal.md)run45901312947/job140187488430/source98ded25f6；2370.257524993秒/12metric/13Jac/15fine。真q **59a4ba766a9450509bcbd539639503e8a67d9dc0a98c6c3b63f59879c29a7b45**，p=.181，16149×3072 η3.838285783e−5、物理/working V0。实际field **f60be03b0af36d5d182f21860fe69cef80439c12bb23562d63dc2b57648bf52c**，62878端点/960932RHS；原14d1在此新field的完整baseline已付，reuse=false。
 
-末d613虽η3.77629e−5更低，却fine违约2.65026e−5，被拒并采用13点。actual311×1536/trust2、pending空；新required16167未付，保留资格仅16149，无naturalreturn或stall。准备原311正常续算，永久fine/旧成本保持。p阶段2.5e−7未过；目标p=.8/末η≤1e−7，mean g仍在设计。mean坐标64:80与96；q80是首个新增tail-u，已更正分类。
+末d613虽η3.77629e−5更低，却fine违约2.65026e−5，被拒并采用13点。actual311×1536/trust2、pending空；新required16167未付，保留资格仅16149，无naturalreturn或stall。[原311正常续算](notes/2026-11-27-r582-physical-normal311-resume-implementation.md)已审发布，永久fine/旧成本保持；一次新field共用于必要新baseline与后端。p阶段2.5e−7未过；目标p=.8/末η≤1e−7，mean g仍在设计。mean坐标64:80与96；q80是首个新增tail-u，已更正分类。
 
 ## 4. B030当前56e8，旧队列已经闭合
 
