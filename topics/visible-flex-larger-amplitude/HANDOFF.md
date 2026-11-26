@@ -60,6 +60,6 @@ R691[末端相容/Haar角矩](results/R691-frozen-physical-mean-endjet-and-mater
 
 ## 当前公开Actions执行
 
-run [45762076394/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45762076394)，源码`a4a535eec561d0f8c79fb673cb7b8987dad033af`；[实际紧凑记录](notes/2026-11-26-public-actions-45762076394-1.md)。当前`followup:complete-fixed-deep-scalar-amplitude-separated-SOC-two256-20261126`/running，返回阶段66；退出码未返。
+run [45762076394/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45762076394)，源码`a4a535eec561d0f8c79fb673cb7b8987dad033af`；[实际紧凑记录](notes/2026-11-26-public-actions-45762076394-1.md)。当前`followup:complete-fixed-deep-scalar-amplitude-separated-SOC-two256-20261126`/completed，返回阶段67；退出码0。
 
-Actions规则核查：2026-11-26 09:38:46 UTC，真实pull至`0296ab9a3f76d45d3047b554a474f714c1235639`，双README相对已读无变化。
+Actions规则核查：2026-11-26 09:43:24 UTC，真实pull至`c3517fd787d6033988d4245cdef5e76626c06c69`，双README相对已读无变化。
