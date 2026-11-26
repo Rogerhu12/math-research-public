@@ -1,25 +1,18 @@
 {
-  "id": "held10-warm-one-newton-direction-20261126-01",
-  "read_rules_commit": "b8ac255dd88d9cd8ef0b43fbc6803325aee6ff1a",
-  "script": "topics/visible-flex-held-10pct/scripts/resume_20261126/seam_probe_original_newton_direction.py",
+  "id": "held10-warm-v3-complement-20261126-01",
+  "read_rules_commit": "6efac6374073c047ba6c18a88ea8b44d6f78bff9",
+  "script": "topics/visible-flex-held-10pct/scripts/resume_20261126/warm_fixed_m3_continue_v3.py",
   "args": [
+    "--repo",
+    "@REPO@",
+    "--work",
+    "@WORK@",
     "--source-run",
-    "@WORK@/warm-v3-design/reexpressed-anchor/run.json",
-    "--homotopy",
-    ".004",
+    "@WORK@/warm-v2-design/reexpressed-anchor/run.json",
     "--outdir",
-    "@WORK@/warm-one-newton-direction"
+    "@WORK@/warm-v3-design"
   ],
   "diagnostics": [
-    {
-      "path": "@WORK@/warm-one-newton-direction/observation.json",
-      "keys": [
-        "status",
-        "progress",
-        "result",
-        "error"
-      ]
-    },
     {
       "path": "@WORK@/warm-v3-design/summary.json",
       "keys": [

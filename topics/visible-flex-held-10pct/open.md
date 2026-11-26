@@ -12,7 +12,7 @@ R63固定完整g后把未知核放同一函数空间，必须核与全场C² Cau
 
 [R72](results/R72-delta-robin-response-and-phase-compatibility.md)进一步给完整δ响应（含桥转移与移动端点责任）、线性共振伴随积分及有限幅βδ/βphase条件；积分非零与实际Schur仍未测。固定d1=0、以原δ替代首phase是新的明确design选择，不能标同g精化；保原source baseδ/raw p0/chart与各自mean（M32为1552），先做真实零控制同图，再交原BVP全部门。
 
-[v5最小入口](notes/2026-11-26-v5-original-delta-phase-design-entry.md)已冻结并排probe当前v4自然返回后：保原baseδ/raw p0/chart，固定q/d1=0，未知高phase；源必须是同runner实际原R53 `fresh-one-direction/lambda002_m24/run.json`。小合成核/CLI已过，真实零锚及最多3次原BVP尚待执行。每个段返回后依据实际接受场继续，不能把预算返回当课题结束。
+[v5最小入口](notes/2026-11-26-v5-original-delta-phase-design-entry.md)已冻结；[fresh lowq直接入口](notes/2026-11-26-seam-fresh-v5-recovery.md)必要恢复实际原R53 M24后直接进入零锚及最多3次原BVP，保baseδ/raw p0/chart、固定q/d1=0与R70高phase。确认新run后撤probe备用请求以避免双跑。小合成核/CLI已过，尚无新v5接受。每个段返回后依据实际接受场继续，不能把预算返回当课题结束。
 
 [原R53完整割线入口](notes/2026-11-26-original-design-secant-entry.md)在独立material新作业必要恢复真实同M两锚后，用原计算t cubic PPoly预测完整Y/p；仅初猜，原solver/RMS/BC/metric全门决定接受。通常网格并集；若超过原max_nodes则在右场原网格评价两原PPoly，不重拟合或截状态。当前链不重启，恢复旧λ不重复计作结论。
 

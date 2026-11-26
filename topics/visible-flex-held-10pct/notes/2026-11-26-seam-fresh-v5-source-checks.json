@@ -1,0 +1,47 @@
+{
+  "status": "source_check_only_no_solver_invoked",
+  "maintainer": "Astra-held10-06bbeb39-20261126",
+  "original_source": "scripts/resume_20261126/lowq_prefix_recovery_design.py",
+  "original_sha256": "a69f5c6ca118221700b16f01645b87be94afba349ca576825c47993891c22223",
+  "new_source": "scripts/resume_20261126/seam_recover_v5_material_design.py",
+  "new_sha256": "a8992f4de1b4ddc1a07c3a932f27254d98d6013ad022ffaa6113bcdcdbf4bd8f",
+  "unchanged_recovery_block": {
+    "bytes": 6801,
+    "sha256": "c6eb048d90ffa2863234455b68c324a43869ff7a5a10b88a6d2c7141dcc4dd9a",
+    "exact_byte_equal": true
+  },
+  "original_solve_function_exact_ast_equal": true,
+  "chart_binding_and_domain_entry_exact_byte_equal": true,
+  "frozen_v5_sources": {
+    "warm_delta_phase_factory_v5.py": "56772568ba9ddbfcf78d65cb0104991b694a4806335914762158a58d2391fc83",
+    "warm_delta_phase_entry_v5.py": "4628b1431b8d09ad661766012b50462dcdbfc1469c23c2b2f9f2f41e26332ba8",
+    "warm_delta_phase_continue_v5.py": "2590beb8e5dc9994ce1a045f77344caffdb0dd86361978d74c8885fc381d4338"
+  },
+  "checks": [
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-m",
+        "py_compile",
+        "/tmp/held10-seam-v5-fresh/seam_recover_v5_material_design.py"
+      ],
+      "returncode": 0,
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/tmp/held10-seam-v5-fresh/seam_recover_v5_material_design.py",
+        "--help"
+      ],
+      "returncode": 0,
+      "stdout_sha256": "cc66a89981b4503d60762465f97dcbe4515b4cb2d2fbd5ba3173012ea7a8c58d",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "numerical_solve_executed": false,
+  "solver_invoked": false,
+  "new_accepted_field": false,
+  "complete_surface": false
+}

@@ -404,3 +404,5 @@
 - 2026-11-26 12:37 UTC｜Astra-held10-06bbeb39-20261126：原design首λ.064/M32实际solver失败，2325点/RMS.0036775874、无physical/metric，rawcf6ac0f4/run93f63b08；1步接受、21次merit拒绝、0域拒绝。控制器已从真正.032 attempt004 raw启动下一二分尝试，失败场未晋锚；当前目标未在投影中字面可见，记录不把推断值冒充观测。
 
 - 2026-11-26 12:40 UTC｜Astra-held10-06bbeb39-20261126：完整状态secant三源已双审/compile/help过；同M真实两锚以原t cubic PPoly外推全部Y/p，只有初猜，不复制接受状态。并集超原预算时用右场原网格同样评价，不改原门。10个公共running/0queued下复用已结束material通道新启4CPU作业，必要恢复至.016后接.032+；无新数值接受，run待确认。
+
+- 2026-11-26 12:43 UTC｜Astra-held10-06bbeb39-20261126：fresh v5薄入口保6801-byte原q/M24恢复块及所有门，直接接冻结v5三次段；compile/help/AST源对照过，复用已释放lowq通道新启，run待确认。secant run45821850836/job139915839771已12:41:26过原bootstrap真实运行。已核旧warm启动版有诊断热更新，撤冗余oneNewton队列并缩回当前v3同id原args/纯标量，活计算不变。
