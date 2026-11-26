@@ -290,3 +290,5 @@
 - [R576首轮有限高度原终态](notes/2026-11-26-r576-finite-height-first-natural-final.md)：**完整原观察**。run45795351410，77.036899911秒，新光滑H*共振及52列Jac已进入；ε1e−5末细η5.32656e−6、direct约5.3264e−6，仍未达门。下一复用小态和末q修正非缩放不变裁步，实际κ约9.5629只作有限观察，未授宏观/固定g/连续reach。
 
 - [R586 完整历史的准确六元投影与有限积分](results/R586-sixfold-full-history-coefficient-projection-and-finite-integrals.md)：**已证明**同一36块完整R/L/G/有序B/c只有QQ与C²Q两型，六元系数平均和≤10位置矩先于求积；真二尾保留，四导和新第三尾准确转置，整个σ′公共分子有限预收。未授新完整数值精度、十九态根或rank。
+
+- [R576函数尺度实际续解](notes/2026-11-26-r576-function-space-continuation.md)：新单lane完整保已付内口/参考H*/52q，只换实际height jets限步及真实下降/预测比回溯；同空间停滞才一次68维局部扩充，零新列保原高度。内Riccati/shoot不复跑，全部实际位置检查和费用保留，尚无新结果。
