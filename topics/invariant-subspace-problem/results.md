@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R150 S0/Lt0同eta原四次式的全部首项零面为空（2026-11-27，已证明）：** [完整参数覆盖和三次域原返回](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-same-eta-quartic-leading-zero-exclusion.md)原Qa低行与N1/均值重叠给764项Q4；B_(11,8)=32lc_vQ4的全零面，经四个完整k投影369/464/292/990次覆盖。QQ整除加保378/827次的一元模1031 Bézout核出全部共同因子；末ehalf三次k域中原Q4/Q5 Bézout=1，全部逆/除法回乘。源内34.215046秒/127252KiB/exit0；可首一化新四次式，未判一般Lt0。
+
 - **R12 任意普通真不变空间均无任何整幂的不变闭补空间（2026-11-27，已证明）：** [完整深头块数、全部字符与迹谱连通](results/R12-appendix-no-power-invariant-closed-complement-for-any-ordinary-invariant-subspace.md)对RanE=M∈LatA、E交换A^p，令Y=AE；准确有限放大交换子使每个字符像Eχ与完整J交换。其像仅有完整D长块，p次根整除迫Eχ=0或I；深尾迹的谱连通迫所有字符同选，再用det(I−E)或detE为单位得E=0/I。允许非正交闭补空间；不排除代数和稠密但非闭的分解，也不扩大到独立有限重数放大。
 
 - **R12 原尾全部整幂的有界根分类与闭根域障碍（2026-11-27，已证明）：** [完整奇幂交换子、深头Jordan计数及真实域证明](results/R12-appendix-all-integer-power-root-multiplicity-and-closed-root-domains.md)给任意λ≠0、k/p/q正整数，X^q=λI_k B_m^p存在有界解当且仅当q|pk，不预设X与B_m交换。必要性保kp个长度至少二的Jordan块；充分性用q/gcd(p,q)维companion。同一整除排除闭稳定域根包含任意完整Ran B_m^r；平坦P正则化仍须另付PH⊂DomT。

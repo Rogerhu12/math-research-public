@@ -45,13 +45,11 @@ rankH4所有proper局部单零层（长度2–5）已闭，原双点单零的单
 
 **三约化H退化Gram/ess6的准确余层：** 原F0、V二jet、Hp非零、同相位、所有H∞、中心0/2均已全闭；完整相位至多18Gram降至12，QQ四纤维/全部U幂证据见[结果索引](results.md)与本次完整快照，不重做。中心0旧b34错误Eh退出0仍无效，正确变换K/L/Eh的证明才生效。c−6只有A7/9、ab637/5580首项零边界已闭，一般范数662.582秒仍未决。余H三源全有限、c≠0,2、V可∞；原Nfirst必要归约已证但4.447MB真Ke3实际280秒触4GiB，无单位身份。[新个别源与原N/最高一阶必要系统](results/R150-appendix-rank-three-reduced-degenerate-Gram-labelled-original-N-and-highest-first-reduction.md)保5个物理源、完整12次Gram常数域和全部嵌入，Π仅原物理单位及已闭c0/2；c−6/a3零面不删，正确交叉k留在完整最高导数。新实际run45831444045/job139948952361的原身份/域检查通过，Singular900秒到时未决，无单位身份，不重跑该展开；换低次原几何，归约不作排空。非退化H Gram独立开放。
 
-单位211整个P0零支已闭，全部末纤维、半权和Gram秩二边界见结果索引，不重做；仅一般非零m/P0继续。
-
-单位211整个零孤立点mean分支已闭：QQ高曲线671/629及2876/2736只余既闭参数，全部低曲线/奇异面/物理秩均付，run45789670184、1443.281305秒/exit0；完整来源见结果索引，勿重做。
+单位211整个P0零支及整个零孤立mean分支均已闭，全部原纤维、来源和运行身份保结果索引与[完整快照](notes/2026-11-27-open-before-general-root-domains-8542.md)。只续非零m/P0，不重做原高曲线或Gram秩二边界。
 
 **[rankH3单一三重jet、rankV2的全部ess6已空](results/R150-appendix-rank-three-single-jet-second-cumulant-has-essential-dimension-at-most-five.md)：** 最后F=−m/Hp非零在保持H的合法真jet规范中，Gaussian迫p1=d0、p0p2=hb²；原N/最高的0/1/2阶式先付7/15边界，再得S³+3mS/(2e)=1而左边5/2。结合Hp0的原十六维QQ全纤维，以及所有特殊源/∞、V二jet和F2m排除，整单一三jet仅ess≤5。纯手证，无新计算；只续H2+1、三值H及原ess4/5。
 
-**[单位211非零m的整个u1图已空](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-nonzero-isolated-mean-unit-base-complete-exclusion.md)：** 共同规范p+q2后，原有限覆盖与整半权已付；两QQ高曲线结式1085/1389迫l2，原B/R01/R02/R04在整个Q九次商代数中的共同z因子为1，13次QQ真逆全部回乘。run45804559912/job139856248459、5.703188秒/94636KiB/exit0。结合全部低配对/P0零/半比例/jet边界关闭u1，不重做旧l2多变量GB。只能继续一般u≠1，不能把共同缩放再用一次；U值图和L/S系数退化面接着推进。
+单位211整个u1图已闭，完整QQ曲线/九次原商代数/13逆返回与run45804559912见结果索引和上述快照。只续u≠1，不能二次用共同缩放。
 
 **原U值图的L0准确余层：** 原三moment、E0/N0、N(V)及LS线性覆盖已付，全部原参数和失败身份保[完整快照](notes/2026-11-27-open-before-complete-G-and-actual-graph-cores-8542.md)。w0/w1、b+c0、W整曲线、P1整个双零均已闭；[整个G曲线](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-L0-G-curve-complete-exclusion.md)现也闭，原914次投影全11域/同根返回通过，25.192543秒/exit0。只续G非零下的原余交点；旧465秒/4GiB及普通域逆超时均不重跑，不改标成功。
 
@@ -174,3 +172,6 @@ Deddens自伴MASA、全部可分重数有限成本投影、全2-adic平移距离
 
 
 [全部整幂根与闭域](results/R12-appendix-all-integer-power-root-multiplicity-and-closed-root-domains.md)已证X^q=λI_k B_m^p有界解恰当q|pk。不整除的闭稳定域根不能包含任何完整Ran B_m^r；奇p域保持由同一强恢复支付。平坦接口仍为PH⊂DomT，P的像在所有幂像内不支付此包含。
+
+
+新[同eta原四次式及整首项零面](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-same-eta-quartic-leading-zero-exclusion.md)已闭：Q4来自原线性行三阶子式，B_(11,8)整零面完整833/1282投影覆盖后，末三次k域原Q4/Q5 Bézout为1，可合法首一化。未除其k首项；旧大QQ xgcd90秒失败如实保留，不重跑。继续一般Lt0原约束。

@@ -5,7 +5,7 @@
 ## 目标、规则与执行
 
 - **普通复可分无限维 Hilbert ISP 未完成。** 仅全体有界算子的存在定理或完整反例算完成。
-- **最近实际 pull / 已读规则提交：** `ab57b8cd760ef086c5334b16a65b7db8796552c2`（2026-11-26 22:23:46 UTC；本地部分克隆）；本次两 README diff 无变化。每次 pull 且至少每小时检查并更新本项。
+- **最近实际 pull / 已读规则提交：** `7771fe35ef89b1bf1b3df3d2173bc50ccb6b0982`（2026-11-26 22:28:06 UTC；本地部分克隆）；本次两 README diff 无变化。每次 pull 且至少每小时检查并更新本项。
 - 私库 QUEUE 接手已推 `5746fa79a74af4975476d400dfbe0c4e5cb9ae9d`；私库根规则2026-11-26 22:13:10 UTC已pull至 `d5fa06dffa4c0502c2498aef576cf64dd1f382f2`，diff无变、QUEUE保持本会话。每结论单推，非快进即 pull --rebase 再推；不 force，令牌仅 CLI。
 - 本轮本地终端可用。前会话执行身份及全部原交接保[接手快照](notes/2026-11-27-handoff-at-takeover-8542.md)；本轮快照链见[最新完整归档](notes/2026-11-27-handoff-before-general-root-domains-8542.md)。失败不改标成功，已登记不重做。
 - 仅保源、参数、SHA、小回执；MD<100KB、H<10KB、open尽量<30KB、topic<200MB，不写根LOG。已读本轮 log；notes 按交接路径与结果索引定点续读。
@@ -26,7 +26,7 @@
 - S0：Af0/L非零、h1/k1与整个h=k均闭。Lt0的g2零、theta余式双零、M的z首项零、u2/ell1/a0、ellhalf、原U导数w0均闭；可付theta=−r0/r1、(4λ−1)A、ell−1、ell−1/2、w。原k=4e、v=t=0、Omega=2e²−ek+2=0整支及最小P045的全部v首项零面也闭；可付4e−k、v、Omega、B44并用原首一v六次关系；u93/77整纤维也由三原投影Bézout关闭，可付77e−16。
 - 正确原三mean/Cramer、同根完整P/N、20小行列式与Dixon D8均有原组合/全部分母回乘；完整证据及执行身份见结果索引。作废的旧scratch双点均值374/580投影/PRS不可再用，已推正确源不受影响。
 - 旧05e769门smoke内存/tasks失败；6cb8四变量与dc2d的Dixon两门独立smoke均过而完整1200秒仅BEGIN、无I*C=1；全部运行身份、RSS及退出状态保最新快照/回执，不重跑。H33直接Res_k90秒SIGALRM也未决。
-- 新同eta六原式↔六改写已付，1/λ/f/eta仅生成非自由；9重叠/6乘积/1325分母全核。Qa原身份不除B，451项/v²；续新v四次原必要行及首项返回。
+- 新同eta六原式↔六改写已付，1/λ/f/eta仅生成非自由；9重叠/6乘积/1325分母全核。Qa原身份不除B，451项/v²；新Q4原四次及其整个B_(11,8)首项零面现闭（34.215秒/exit0）。833/1282完整投影的455次共同因子由QQ整除+保次数一元模Bézout核，末ehalf三次k域原返回；可首一化，普通Lt0未闭。
 - 一般LS非零的两线性Cramer四参数atlas已生成，原Delta0全保；仍未判空，旧mod1031内存/600秒失败不重跑。
 
 ### rankH3原ess6

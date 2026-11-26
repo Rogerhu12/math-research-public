@@ -1,0 +1,23 @@
+{
+  "session": "Astra-ISP-8542378f-20261127",
+  "status": "failed_exact_large_QQ_xgcd_attempt",
+  "operation": "Dres.xgcd(Qres), where Dres and Qres are the full products of the new Q4-leading-face parameter projections defined in the successful self-contained source",
+  "inputDegrees": [
+    833,
+    1282
+  ],
+  "alarmSeconds": 90,
+  "signal": 14,
+  "observedShellExitCode": 142,
+  "externalWallSeconds": null,
+  "addressSpaceGiB": 4,
+  "lastCompletedStage": "All four exact parameter resultants, degrees369/464/292/990; no QQ Bezout result returned.",
+  "scratchSourceSha256": "08ca9d819b7799233aa99a5b417edac48332cd6d9b6653f0faf593e902d0c924",
+  "stdoutSha256": "dda39e7e8d06276f39c19d23342648718907e2377d14c87509ed1c56eedd5e91",
+  "mathematicalConclusionFromFailure": null,
+  "doNotRepeat": true,
+  "replacement": "Successful self-contained source uses exact QQ division by the explicit candidate G and a degree-preserving one-variable mod1031 Bezout identity for the two cofactors. This proves the exact QQ gcd without constructing large QQ Bezout coefficients.",
+  "replacementSource": "2026-11-27-unit211-S0-Lt0-same-eta-quartic-leading-zero-return-8542.py",
+  "replacementSourceSha256": "7789a906aca59fc65611b5f109f89310d7dcf30fe3d397d0e5f7f7c9173f9690",
+  "retainedRegenerableData": false
+}

@@ -1,0 +1,30 @@
+{
+  "session": "Astra-ISP-8542378f-20261127",
+  "script": "2026-11-27-unit211-S0-Lt0-same-eta-quartic-leading-zero-return-8542.py",
+  "parameters": [],
+  "sourceSha256": "7789a906aca59fc65611b5f109f89310d7dcf30fe3d397d0e5f7f7c9173f9690",
+  "sourceBytes": 35630,
+  "actualExitCode": 0,
+  "sourceElapsedSeconds": 34.21504567899865,
+  "externalWallSeconds": null,
+  "externalWallTimeNote": "The PTY exit code was captured; only the source internal elapsed clock was retained.",
+  "stdoutBytes": 23027,
+  "stdoutSha256": "37f5092bf5c2cc74b6a0533f1a45af792232ef75b33074dd301189d4030a3c9a",
+  "peakRssKiB": 127252,
+  "limits": {
+    "alarmSeconds": 180,
+    "addressSpaceGiB": 4
+  },
+  "finalRecord": {
+    "stage": "complete",
+    "scope": "entire leading-coefficient-zero face of the original same-eta v-quartic Q4 on S0 Lt0",
+    "quarticLeadingUnitPaid": true,
+    "wholeS0Lt0ExclusionClaim": false,
+    "ordinaryISPClaim": false,
+    "sourceSha256": "7789a906aca59fc65611b5f109f89310d7dcf30fe3d397d0e5f7f7c9173f9690",
+    "peakRssKiB": 127252,
+    "claimExcluded": true,
+    "seconds": 34.21504567899865
+  },
+  "retainedRegenerableData": false
+}
