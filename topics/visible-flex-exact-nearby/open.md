@@ -187,3 +187,5 @@ G以S/T E1856给physical C²整盘/曲率<2/径长<8e−6及同world position/no
 [RW](results/R149-supplement-reflected-finite-waist-rows-from-complete-conjugacy.md)与pure模块定义同a=2H(0)的真实反射g_j、原H/K完整复合odd lift及固定L4096/N1024 exact DFT；保全部alias/truncation/旧E_H，任何midpoint不选新trial。双侧Js投影只令finite trial adjoint恒等，完整true row尾仍收费；incoming old-angle mean保，physical两半primitive和density mean不混。无新actual/signed PDE列或fullSchur，下一完成whole历史输入与96逐row保存读回。
 
 common4实际输出现锁定只读：science75f25443…/27978B，executionbdfea6f0…/13082B，全部同输入/mean/源资格保。大界有限不表示smallness或完整incoming已过；下一个六receiver必须等待真实58/224/32。
+
+[CP11补篇](results/R144-supplement-profile-weighted-mean-feedback-polynomial.md)把完整mean方程按ξ/q展开，11个same-Lm weighted source行给S=E+A0+A1b+A2b²+A3b³与L=A1+2A2b+3A3b²，原全部mean jump保E。χ/χ²按真支撑准确积分，不把K1与无关全域Z相乘；新首次receiver运行将同scan付11球，尚未实际通过。

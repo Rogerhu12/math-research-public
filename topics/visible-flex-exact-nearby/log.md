@@ -67,3 +67,7 @@ Root审完CX证明、pure math、owner/worker/generator和25whole pins。原WOB.
 ### 2026-11-26 — common4 真正首次科学执行完整通过
 
 [actual完整报告](results/R149-supplement-actual-common-high-WPN-source-unit-ball.md)45783842857/1 job139785554394：4/4、child0、complete/provedtrue、failure null。root完整核science27978B/75f2544374f60f3a1fc1118b922d9b884f59bc0a53755c17999e8c9f015e851b、exec13082B/bdfea6f0d42c098bb24f2add51c8c4e7006c71c3d6933bdf493809c5cc3363bc，全部25输入/runtime/精确schema/18槽/selected/S/projection/mean，5次pull规则空diff。新B/E/P/T均正式candidate保存读回，P只用savedB/E，旧科学0。量级大有限，不伪称强追加或完整incoming小；旧target锁定。接真实32及后续完整六receiver/高压缩，同步推进C0紧窗矩与96真反射row。
+
+### 2026-11-26 — 按真实径向位置保留11个mean反馈系数
+
+root完整展开CR16为CP1，保ξ的二次与q的三次全部11系数。相同旧Lm完整Γ/τ逐cell新weighted rows直接给C_ab，不借K1乘全域Z；χ/χ²用原固定多项式精确积分。CP7映球和Lipschitz保rawR0与−[m]，按同ρ与true compact root/density门匹配；physical角/nonmean/帽/phase仍独立。证明完成即推，交global在首次新C0实际consumer同reverse scan付齐，无旧Green或旧max重算，无当前数值结论。

@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R144 CP11：按真实径向系数的完整mean三次反馈](results/R144-supplement-profile-weighted-mean-feedback-polynomial.md)：11个same-Lm weighted rows保全部ξ/q系数和原jump，给统一S/L门；χ/χ²准确支撑积分，可与新compact moments同pass执行。无actual门值。
+
 - [R149 CX actual：完整共同高频WPN源单位球](results/R149-supplement-actual-common-high-WPN-source-unit-ball.md)：45783842857/1四新球完整通过/child0，25whole pins/320bits，formal保存读回和同源两行/全外mean均保。B/E/P/T为大但有限完整界，不授逆或smallness；目标锁定，真实32后再六receiver。
 
 - [R149 RW：真实反射target的96个有限腰行](results/R149-supplement-reflected-finite-waist-rows-from-complete-conjugacy.md)：同非零reflection phase，old完整G odd投影保一份E_H；固定Js双侧投影消有限trial adjoint，L4096/N1024严格DFT和全部alias/tail给row误差。保incoming mean和physical两半primitive/独立means，非Θ/WGB/fullSchur。[pure算法](scripts/fourfold_codazzi_reflected_waist_row_trials_math.py)已给，科学待actual。
