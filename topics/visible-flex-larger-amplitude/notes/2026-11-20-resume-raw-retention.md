@@ -491,3 +491,8 @@ root于2026-11-26 15:28:56 UTC普通移出6份已核可由完整原源/config重
 ## 20. 2026-11-26：六份旧独立 M64/M48 开放轨道
 
 root于2026-11-26 17:12:35 UTC普通移出6项共1,613,460B。[完整说明](2026-11-26-legacy-six-open-m64-retention.md)与[紧凑全部复现记录](../computations/resume-20261126-legacy-six-open-m64-retention.json)保原三源、全config/argv、原全部非轨道字段/首末row、固定1d284历史和每blob、全部失败及旧消费者。保v=.25祖先；M48实际.55到达/.5648报错/2/3目标清楚分开。仅源码/JSON复制/hash/byte/限定文本搜索，没有科学复跑、强推或raw换名参数。
+
+
+## 21. 2026-11-26：三条旧 late-boost 开放轨道
+
+2026-11-26 19:11:27 UTC，普通移出原m96/m64 .25→.65及resonant三轨道共979897B；保未删v.25祖先、原0af61/cf163完整小源、全部配置/重生argv、原非轨道字段/首末标量/数量、固定9bbafc历史及每blob/SHA，见[完整说明](2026-11-26-legacy-three-late-boost-retention.md)和[小元数据](../computations/resume-20261126-legacy-three-late-boost-retention.json)。resonant到.8020369757而在.804067域退出/目标.883903清楚保留；仍是开放片数值，不冒闭面或精化完成。没有再次整读>100KB文件，没有科学复跑；只用先前紧凑元数据/小源/树metadata，旧消费者先恢复runner。此前四次整读偏差仍明确留记录。

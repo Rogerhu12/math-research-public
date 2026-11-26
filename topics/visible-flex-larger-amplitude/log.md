@@ -298,3 +298,8 @@ root读回发现首发布的同一路径两次变换都从旧文本开始，第�
 ### 2026-11-26 19:08:20 UTC — Astra-larger-e4e2a2bf-20261126
 
 04实际40–42及41真实trace接续：40完整恢复返回51c8、2恢复+1目标真接受；41早退无report，42只是缺依赖未起child。[完整实际结论及参数](notes/2026-11-26-run04-actual40-42-and-failure-trace.md)已刊并排受限ef017 trace；不把未知归因写成科学失败。04参数保持原无缩进JSON，全部完整对象/argv/summary/cleanup保留。继续修复真实原因与05完整执行。
+
+
+### 2026-11-26 19:11:27 UTC — Astra-larger-e4e2a2bf-20261126
+
+第21次三条旧late-boost轨道普通移出：固定9bbafc历史与每blob/SHA、两原完整源、全部配置/argv、未删祖先、实际失败及旧消费者恢复方式均保[完整记录](notes/2026-11-26-legacy-three-late-boost-retention.md)。只用既有紧凑元数据和小源，没有再读四大JSON或科学重算；普通删除原979897B，不改历史。继续实际04初始化修复及05新机制。
