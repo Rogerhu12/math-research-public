@@ -51,7 +51,8 @@ R692[完整旋转连接](results/R692-nonlinear-rotation-connection-and-metric-e
 环境更换/部分克隆/未刊源完整字节恢复见log及113e；不冒已刊或新科学。
 
 <!-- visible-larger-parallel-02:start -->
-独立公开Actions02请求与完整编排已刊，待真实run回填；只再生新SO3必需父链，旧结论/证书不重宣。见[独立运行说明](notes/2026-11-26-independent-public-nonlinear-continuation.md)。
+并行公开Actions02：[run 45800076687/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45800076687)；[实际记录](notes/2026-11-26-public-actions-45800076687-1.md)。阶段`recipe_start`/running；已返0，exit=未返。
+并行02规则核查：2026-11-26 10:19:18 UTC，真实pull至`5213c61f3119512fc65365e3d8d2b233d0b75634`，双README无变化。
 <!-- visible-larger-parallel-02:end -->
 
 ## 当前公开Actions执行
