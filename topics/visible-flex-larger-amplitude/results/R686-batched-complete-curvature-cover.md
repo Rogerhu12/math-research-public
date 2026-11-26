@@ -199,3 +199,7 @@ python "$REPO/topics/visible-flex-larger-amplitude/scripts/resume_20261126/actio
 ## 8. canonical 双标签的实际读取修正
 
 初版c9fb源码错误地把带非零 `exact_tail_lambda` 补充标签的合法canonical bundle也拒绝。现ee3744b3版本只在缺canonical模型而出现任一非零lambda标签时拒绝；合法canonical双标签交冻结f122的 `_read_model` 核mandatory reference标签、optional标签与模型身份一致性。此为静态发现的入口修正，无科学运行或K数值改变；全部包围公式保持。
+
+## 同场真实直径消费入口
+
+后继[完整first／分批K／非平面／四标记合并接口](../notes/2026-11-26-same-field-batched-curvature-geometry-consumer.md)按同场实际D精确设置K目标，保本R686 producer和显式完整胞域；这是本条实际消费链，尚无新场证书返回，也不占用R666。
