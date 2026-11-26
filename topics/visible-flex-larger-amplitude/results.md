@@ -309,3 +309,5 @@
 - [R686：完整曲率的准确分块覆盖、自然返回与同场续接](results/R686-batched-complete-curvature-cover.md) — 原R670/R672/R674六jet核上的准确径向块/完整角覆盖及全胞max/min合并证明；每批自然返回、实际同场journal续接与紧凑覆盖域，未运行、不冒K或reach结论。
 
 - [R687：中心化正谱目标与趋零最大误差界](results/R687-centered-spectral-loss-and-sharp-zero-limit-bound.md) — 正项表达避免常数底相减，完整正权下的有限max双边界在损失趋零时趋零，显式L/epsilon块权比；区分原三分量坐标及完整QP，未运行、不冒连续误差或新候选。
+
+- [R689：固定有限均值目标的公共项抵消与全域连续Gram证书](results/R689-frozen-finite-mean-continuous-gram-certificate.md) — 两个准确场的公共lift平方在包围前恒等抵消，完整共同分割及双方物理余项归一化；同一个冻结目标覆盖不同mesh/M/N，严格全胞才给全域上界。完整Actions入口已刊，仅静态核查，无新误差或reach数值。
