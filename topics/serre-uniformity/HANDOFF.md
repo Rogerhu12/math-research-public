@@ -6,7 +6,7 @@
 
 **维护会话：Astra-serre-24b8836b-20261126。** 2026-11-26接手；已部分克隆并真实pull main。前态逐字见[接手归档](handoff-archive-2026-11-26-before-resume.md)，旧来源/run/hash沿原归档链保留；不重做已成结论。
 
-**已读公开规则提交：bd8cbb9d84c5ababd78a803ddbc1aea7a3a06a66**（2026-11-26 13:55 Asia/Taipei；终端断连后读取远端main并核两README无diff）。两README已读；每pull核diff记SHA，至少每小时pull。私库根规则已核36cf1ed2；QUEUE认领已推233f7479。
+**已读公开规则提交：dd82a44f606877b2ebc8fdd6c50753537bd551c3**（2026-11-26 14:03 Asia/Taipei；终端断连后读取远端main并核两README无diff）。两README已读；每pull核diff记SHA，至少每小时pull。私库根规则已核36cf1ed2；QUEUE认领已推233f7479。
 
 执行宿主现不可用；按根规矩8用GitHub小文本tree/commit及非强制ref更新继续，每次先读main核规则，拒绝即在新head重建，终端恢复后补pull --rebase。
 
@@ -30,7 +30,9 @@ R997/R1000原ε-vector、交换轴、完整bulk及+8A边界已成；原mask杀�
 
 [R1001](results/R1001-norm-seven-dual-Poincare-source-and-original-filtered-tensor.md)：真实norm7双Poincaré源在全部极部扣除后给−6Aα F⊗G，Norm Aα=16·19/7单位；完整critical卷积、首p整界和唯一p边界已证明。单balanced trace不代全乘积，高carry仍开。全部尺度与来源见结果及[前态归档](handoff-archive-2026-11-26-before-spectral-route.md)。
 
-[R1002](results/R1002-ten-step-theta-companion-and-four-free-CM-jets.md)：真实W_(p−9)/η4=f权p−11，full Katz输入仍p−9，十步 L=T0…T−9=A^−1(A²D)^10A^−9，右6^−10A11XY。仅有限u至X11、∂u=1+O(X15)，不假完整charp primitive。J=<1,X³,X6,X9,X12>上rank1，kernel为A9u^e(e0/3/6/9)，特解c*X12单位；实际f的ord∈{0,3,6,9,12}且受global weight界。原末列(p−7)!Z=432D³f+75XDf−9Yf，mark/Y0^N=79R0−96R1；局部方程允许该值零或非零，不能代实际global归一。root/audit/literature全文独审，无执行。
+[R1002](results/R1002-ten-step-theta-companion-and-four-free-CM-jets.md)：保真实full权p−9/quotient权p−11的十步theta方程；有限CM五维jet仅rank1，四自由jet不能决定实际mark。准确原端列432D³f+75XDf−9Yf，mark79R0−96R1；全部整界/尺度见结果及前态归档。
+
+[R1006](results/R1006-end-column-linear-cyclic-dimension-and-filtered-nonstability.md)：固定Eichler源在q^p前精确约化到原端列；完整Fuchs方程/有理无穷远指数、Jacobi带宽和固定Taylor子式证明端列G循环维数≥cp。与原本原列数结合，得一整无限允许素数等差族原V不G稳定。故全p稳定路线关闭；原mark与特定A/E4包含未否，继续它们。
 
 ## O2：原完整trace及高坐标单位
 
@@ -54,7 +56,7 @@ R991已完整认证R989旧r8差集349点（1000..20000），原三路/全hash见
 
 [R994](results/R994-certified-original-combined-windows-through-200000.md)：run44760218207/job136370438703/source248592d7f成功531.337922156s。真正新r8 2622点、新r2 1386点共4008全非零/无尾；四新点原三路、完整wp ODE及各首resonance核过。root纯IO全回执核；payload2865567B SHA e764dff838bb24b18c8fec7f7634c2044f403e59e23a349cc00d0554c000dc8d。仅有限S单位；所有sources/rows/pins见结果与归档，已完不重跑。
 
-继续R1001高carry与本轮norm3源/固定Eichler谱路线（尚为notes候选，旧R1003未交付稿不存在）；R1003编号已用于范围纠错。R1002局部四自由jet已成，继续原全局W/CM归一约束；55|p+1剩余V非零、G稳定、O2近p单位及真正height仍开，主目标OPEN。
+R1006已关闭全p原V稳定路线；继续原mark、特定A/E4包含、真实高carry及全局归一。55|p+1剩余V非零、O2近p单位、O0全覆盖与真正height仍开；norm3源单独不代非零。主目标OPEN。
 
 ## 全局后继
 
