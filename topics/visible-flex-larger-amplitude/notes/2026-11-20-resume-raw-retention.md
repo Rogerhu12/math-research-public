@@ -435,3 +435,15 @@ git show a026c36124a8134e3cf2b8aefbf1833589530487:topics/visible-flex-larger-amp
 ```
 
 Green输入已从固定8ef38046历史逐字核验，参考和ready为当前保留字节；全部40位恢复提交与摘要保紧凑记录。原实际resource为本地wall2.118471622467041秒、exit0、峰RSS44764KiB，无旧Actions号或已记录runtime版本；不虚构。主源cde09c4a及两完整依赖、原precision192/完整三个输入/原相对路径身份要求保留，若需要再生只能Actions执行并留raw于runner。本次仅metadata复制/字节核验，没有重算旧结果。当前新固定gn、幅度SOC及旧g face的实际输入不依赖此辅助盒。
+
+## 2026-11-26 08:39 UTC：第十二次容量操作，旧plateau2参考逐胞数组
+
+当前题约199.45 MB，普通移出旧可重算 `notes/2026-11-12-closure-plateau2-reference.json`（566084 B / `0e8fcd3ee16f27262389a91647b129b3c2f520c0b36d33a20bad580fa9fa8fb5`），仅去213个cell_rows。全部其余标量/区间字段、原完整resource命令、默认precision192/relative-radius1/500/far-strip38/far-log2-ball−2200、三源和八个输入逐字SHA及恢复提交保[紧凑记录](../computations/resume-20261126-legacy-plateau2-reference-retention.json)。八输入均从固定8ef38046历史再次逐字核验；三源当前字节均匹配。只读复制元数据及SHA，无科学重算。
+
+```sh
+git show 83de126ff488566899e7aa0dc4bdbdbf6a942fb6:topics/visible-flex-larger-amplitude/notes/2026-11-12-closure-plateau2-reference.json > /tmp/plateau2-reference.json
+```
+
+原本地resource真实wall2.5225894451141357秒、exit0、峰RSS85272KiB；旧Python/python-flint版本没有记录，不虚构。未来若消费者需要原数组，先恢复原相对路径至Actions隔离scratch，按已保完整源/argv生成；raw只留runner，不改旧证明或历史。当前新deep/幅度/旧g face输入均不依赖这份旧辅助参考。
+
+同时把当前run已实际返回的stage50–60共11项summary字段映射完整移至[第二份映射存档](../computations/resume-20261126-returned-summary-fields-02.json)；活跃queue的全部id、源、argv、父、输出、清理和scope逐值保留，仅这些已返项summary改空。恢复规则/原queue SHA/固定提交及每项真实stage均保，未删除任何执行步骤或科学参数。

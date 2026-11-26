@@ -329,3 +329,5 @@
 2026-11-26 08:33 UTC — Astra-larger-e4e2a2bf-20261126：新固定gn stage59–60真实返b788c328，2×64均原ray.5/μ.01，同固定目标max .01653648→.01426433、Phi .00084465→.00032736；全部均值/变量保留，必要K/amp真实全过、永久点2737/2731。两QP仍iteration_limit，own continuous first已排，接更充分内层/同父完整SOC与同profile精化。成功报告没有停止前键的单一摘要缺项如实登记，独立reader exit0，无缺失科学输出；未宣称达标。
 
 2026-11-26 08:36 UTC — Astra-larger-e4e2a2bf-20261126：同父多轮有限分离SOC五源9f18/effd/1c87/9c51/c74e与完整应用直接刊排真实2d3e父1×256/最多8轮。保原x/d/fullpoint及全部旧与新增typed行，逐轮原fullpoint r(d)复读、单容量mmap只追加、独立Az/真Phi/完整K与amp/永久位置；无新行或不完整拒绝则回原ray。所有源码完整逐字重建/AST/编译及独立几何审，无科学fixture；新纯reader和自身first紧随，阈值及预算不松。
+
+2026-11-26 08:39 UTC — Astra-larger-e4e2a2bf-20261126：普通移出旧plateau2参考566084B/213cell_rows，所有小字段、完整argv/defaults、三源/八输入/SHA及固定历史恢复保留；八输入逐字核验，无科学重做。已返stage50–60共11项仅summary字段完整归档，原所有执行参数/依赖/输出/清理逐值保持；active queue留足95KB空间供新固定g后继。
