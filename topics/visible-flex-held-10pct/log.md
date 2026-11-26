@@ -336,3 +336,5 @@
 - 2026-11-26 09:02 UTC｜Astra-held10-06bbeb39-20261126：真DN和集中接受门显式适配v3，完整phase定义/零锚/全部provider依赖SHA逐项保存与重验；原实际BVP/fullH/J/8外迭代与有限门不改。v3已排同runner下一命令，当前无λ1场，未执行该真DN；正在运行v2及冻结v3源码不动。
 
 - 2026-11-26 09:07 UTC｜Astra-held10-06bbeb39-20261126：尚未运行的真DN入口先记录原inner raw/SHA/status/RMS/完整H再验返回核，后续域错不会抹掉真实返回；成功数值路径及原门不变。新v3仍排队等待原v2自然终态，继续准备实际同问题精化与连续真核输入。
+
+- 2026-11-26 09:20 UTC｜Astra-held10-06bbeb39-20261126：新bridge与真Zc reader双审显式接v3，绑定完整phase/零锚/实际provider；actual来源统一调集中全门，并保原tail packet残差/背景和最终fullH身份。数学trace/mean1168/共同R公式不变；当前无新λ1/core/cut证书，不转搬旧界。

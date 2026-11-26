@@ -42,6 +42,10 @@ PSI_SHA = "f4834f978de38046e374b020d2a928d293fc405f794159e40e2271f4ee9bd9cf"
 SHORT_SHA = "7e00a3336a302ba94c751c09e6f75749d6973c86605269538c8f0b44c60779b4"
 WARM = "warm-supported-material-phase-fixed-metric"
 ACTUAL = WARM + "-actual-dn"
+WARM_LINEAR_MODELS = {
+    WARM + "-v2": "warm_fixed_m3_model_v2.py",
+    WARM + "-v3": "warm_fixed_m3_model_v3.py",
+}
 I = jets.I
 
 
@@ -95,57 +99,45 @@ def canonical_sha(value):
                                     allow_nan=False).encode()).hexdigest()
 
 
-def finite_leq(value, bound):
-    return isinstance(value, (int, float)) and math.isfinite(value) and 0 <= value <= bound
-
-
 def source_model(path, allow_intermediate):
-    """Use the versioned input gate, preserving honest reexpression provenance."""
+    """Use explicit family gates, preserving honest reexpression provenance."""
     run = read(path)
     kind = run.get("model_kind")
-    if kind == WARM + "-v2":
-        adapter = module("_seam_height_warm_v2", HERE / "warm_fixed_m3_model_v2.py")
+    if kind in WARM_LINEAR_MODELS:
+        adapter_path = HERE / WARM_LINEAR_MODELS[kind]
+        adapter = module("_seam_height_versioned_warm", adapter_path)
         run = adapter.accepted_input(path, require_lambda_one=not allow_intermediate)
+        gate = dict(validator=adapter_path.stem + ".accepted_input",
+                    source=ref(adapter_path), acceptance_kind=run["acceptance_kind"],
+                    solver_invoked=run["solver_invoked"], solver_success=run["solver_success"],
+                    raw_success=run["raw_return"]["success"])
+        if run["acceptance_kind"] == "same_cartesian_map_verified_reexpression":
+            gate["source_solver_provenance"] = run["source_solver_provenance"]
     elif kind == ACTUAL:
+        gate_path = HERE / "warm_actual_dn_acceptance.py"
+        validator = module("_seam_height_actual_gate", gate_path)
+        run = validator.accepted_actual_input(path, repo=REPO)
         adapter = module("_seam_height_actual_model", HERE / "warm_true_dn_solve.py")
-        if (run.get("error") or run.get("status") != "audited_finite_actual_dn_candidate"
-                or run.get("finite_actual_dn_candidate_pass") is not True
-                or run.get("solver_success") is not True
-                or run.get("raw_return", {}).get("success") is not True
-                or run.get("terminal_kind") != "original_actual_nonlinear_dn"
-                or run.get("actual_tail_requested") is not True
-                or run.get("original_actual_nonlinear_tail") is not True):
-            raise ValueError("Require an actual successful nonlinear-DN return")
-        gates = run["gates"]
-        for name, ceiling in (("tol", 1e-6), ("bc_tol", 1e-7), ("physical_bc_tol", 2e-9)):
-            if not finite_leq(gates.get(name), ceiling) or gates[name] == 0:
-                raise ValueError("An original nonlinear-DN finite gate changed")
-        for value, bound in ((run["raw_return"].get("rms"), gates["tol"]),
-                             (run.get("actual_scaled_bc_max"), gates["bc_tol"]),
-                             (run.get("actual_physical_bc_max"), gates["physical_bc_tol"])):
-            if not finite_leq(value, bound):
-                raise ValueError("The actual nonlinear-DN residual or boundary gate failed")
-        rows = run.get("metric_diagnostics")
-        if not rows or any(row.get("angular", 0) < 16 * (3 * int(run["modes"]) + 1)
-                           or not finite_leq(row.get("legacy_max_component_fft_l1"), 1e-6)
-                           or not finite_leq(row.get("sample_operator_max"), 1e-6)
-                           for row in rows):
-            raise ValueError("The actual full finite metric diagnostics failed")
-        raw = path.parent / run["raw_return"]["file"]
-        if sha(raw) != run["raw_return"]["sha256"]:
-            raise ValueError("The actual nonlinear-DN raw return changed")
-        # Its read-only loader independently validates the accepted lambda-one
-        # linear source and every frozen geometry/version field; it solves nothing.
+        gate = dict(validator="warm_actual_dn_acceptance.accepted_actual_input",
+                    source=ref(gate_path), acceptance_kind="actual_nonlinear_dn_return",
+                    solver_invoked=True, solver_success=True, raw_success=True,
+                    linear_source_model_kind=run["linear_source_model_kind"],
+                    linear_source_acceptance_kind=run["linear_source_acceptance_kind"],
+                    linear_source_solver_invoked=run["linear_source_solver_invoked"],
+                    finite_full_height_request_identity_checked=True,
+                    exact_infinite_tail_or_Cartesian_attachment_inferred=False)
     else:
-        raise ValueError("Use the explicit warm-v2 or warm actual-DN source contract")
+        raise ValueError("Use an explicit warm-v2, warm-v3 or warm actual-DN source contract")
     if (run.get("mean_nodes") != 1168 or not isinstance(run["modes"], int) or run["modes"] < 1
             or fq(run["gauge_q"]) != fq(.06)
             or run.get("parameter_zero_meaning") != "log(q_aux/gauge_q)"):
         raise ValueError("Retain the actual positive mode count, gauge .06 and literal mean1168 contract")
     if not allow_intermediate and run["warm_definition"]["homotopy"] != 1.:
         raise ValueError("Default geometry entry requires the actual lambda-one field")
+    # Read-only reconstruction selects the declared source family; no BVP or
+    # nonlinear tail is evaluated by load_model.
     model = adapter.load_model(dict(source_run=str(path), repo=str(REPO)))
-    return run, model, Path(adapter.__file__).resolve()
+    return run, model, Path(adapter.__file__).resolve(), gate
 
 
 def core_intervals(certificate_path, arrays_path, run_path, physical_path, run):
@@ -161,6 +153,14 @@ def core_intervals(certificate_path, arrays_path, run_path, physical_path, run):
         raise ValueError("Require the complete new true-core literal-mean1168 certificate")
     if certificate.get("warm_definition_sha256") != canonical_sha(run["warm_definition"]):
         raise ValueError("The true-core definition is not this frozen warm definition")
+    source_family = run.get("linear_source_model_kind", run["model_kind"])
+    if source_family == WARM + "-v3":
+        if (certificate.get("linear_source_model_kind") != source_family
+                or certificate.get("warm_definition") != run["warm_definition"]
+                or certificate.get("phase_basis") != run["warm_definition"]["phase_basis"]
+                or any(certificate.get(key) != run[key] for key in
+                       ("basis_anchor_v2_run", "basis_anchor_v2_sha256"))):
+            raise ValueError("The v3 true-core proof belongs to a different complete phase family or zero-control anchor")
     binding = certificate["arrays"]
     if Path(binding["path"]).resolve() != arrays_path.resolve() or sha(arrays_path) != binding["sha256"]:
         raise ValueError("True core interval arrays changed")
@@ -496,7 +496,7 @@ def main():
             raise ValueError("The reviewed outward interval kernel changed")
         jets.m.K = module("_seam_height_intervals", args.interval_kernel)
         run_path = args.source_run.resolve()
-        run, model, loader_path = source_model(run_path, args.allow_intermediate_lambda)
+        run, model, loader_path, source_gate = source_model(run_path, args.allow_intermediate_lambda)
         if sha(args.physical) != run["physical_sha256"]:
             raise ValueError("The saved actual physical field changed")
         sources = list(run.get("frozen_source_signature", {}).values())
@@ -515,8 +515,9 @@ def main():
         obj = MeanMap(model, physical, psi, lift)
         report.update(status="integrating_actual_continuous_mean",
             model_kind=run["model_kind"], homotopy=run["warm_definition"]["homotopy"],
-            source_acceptance_kind=run.get("acceptance_kind", "actual_nonlinear_dn_return"),
-            source_solver_invoked=run.get("solver_invoked"),
+            source_acceptance=source_gate,
+            source_acceptance_kind=source_gate["acceptance_kind"],
+            source_solver_invoked=source_gate["solver_invoked"],
             source_model_loader=ref(loader_path), core_mean_certificate=ref(args.core_mean_certificate),
             core_mean_intervals=ref(args.core_mean_intervals),
             literal_psi_sha256=PSI_SHA, gauge_exact=str(fq(run["gauge_q"])),

@@ -52,17 +52,23 @@ R63 固定 $g$ 分支必须带真实的 `finite_linear_candidate_pass`。
 始终保留原 gauge $.06$ 和字面 mean1168。特别地，不把未知解参数
 $q_{\rm actual}$ 代入 gauge 槽重乘已保存的 $Y$。
 
-### 暖 v2 与实际 nonlinear-DN 的显式接受门
+### 暖 v2、v3 与实际 nonlinear-DN 的显式接受门
 
-暖 v1 和上述原线性分支仍保留各自的原门。新增的 v2 分支直接调用
-`warm_fixed_m3_model_v2.accepted_input`，使用其集中核验的实际身份。
+暖 v1 和上述原线性分支仍保留各自的原门。明确列出的 v2、v3 分支分别调用
+`warm_fixed_m3_model_v2.accepted_input` 和
+`warm_fixed_m3_model_v3.accepted_input`，使用对应模型集中核验的实际身份。
+v3 是冻结补弧坐标上的另一族 supported phase 控制，完整 `phase_basis`、
+v2 零控制锚和全部实际 provider 依赖都由它的接受门绑定；本读取器不把
+v3 解释成旧有限 span，也不修改 provider 或旧证书。
 同一 Cartesian 图的重新表达保留 `solver_invoked=false`、
 `solver_success=null` 和原成功求解器出处；脚本不会补造新的求解器成功，
 也不会把未知模型版本解释成已知版本。
 
-实际 nonlinear-DN 分支使用其明确的
+实际 nonlinear-DN 分支调用集中只读门
+`warm_actual_dn_acceptance.accepted_actual_input`。它核验明确的
 `audited_finite_actual_dn_candidate`、原始 RMS、实际 scaled/physical BC、
-完整有限度量和成功返回门。只读校验原接受的 $\lambda=1$ 线性源后，
+完整有限度量和成功返回，及原 outer check、完整 checkpoint、native 源的身份。
+只读校验原接受的 $\lambda=1$ 线性源及其显式版本后，
 逐项比较冻结 profile、warm 定义、provider、角图、gauge、mean1168、
 版本化径向 chart 及物理尾参数。最终 raw、physical 和有限度量文件均核 SHA。
 
@@ -75,7 +81,7 @@ $q_{\rm actual}$ 代入 gauge 槽重乘已保存的 $Y$。
 不明序列化当作同一文件。原 `load_packet` 随后再次核实际尾残差门及背景。
 如果同时指定 `--tail-packet`，必须给这一个最终包。
 
-这些新增记录在 `source_acceptance` 中明确标出。它们证明的是实际有限返回
+这些记录连同当次集中接受门的路径和 SHA 在 `source_acceptance` 中明确标出。它们证明的是实际有限返回
 和完整输入的身份；公共 Cartesian 两jet是否一致仍由真实两侧迹及后续修补
 预算决定，不能从 full-height 请求身份推出。
 
@@ -144,3 +150,5 @@ $z_b=Z_c+\mu_c$ 的原合同下，零模位置差先符号消去，随后才计�
 解析旋转背景的完整上侧高度导数区间包含 $-w$ 和 $-w_R$。
 这些检查未构造伪造的 accepted 包，不算新前缀或 full-H 通过。
 大数组和 NPZ 仅保留在实际 runner，仓库只存源、入口和后续小执行记录。
+
+2026-11-26 的 v3 读取适配只改变实际来源的明确分支与集中门调用；上述端点、mean1168 和公共 $R$ 公式不变。当前尚无新 v3 实际 cut 数值证书。

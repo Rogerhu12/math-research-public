@@ -37,9 +37,9 @@ $$
 
 ## 2. 真核心包围与字面均值规则
 
-暖 v2 源首先经过 `warm_fixed_m3_model_v2.accepted_input` 的完整接受门。若源是同一 Cartesian 图的重新表达，保留 `solver_invoked=false` 及原求解器出处；不会把它冒充新的 BVP 返回。实际 nonlinear-DN 源另要求真实返回的 RMS、边界、完整有限度量与成功标志，再用其只读 loader 核验冻结几何。
+暖 v2、v3 源分别经过 `warm_fixed_m3_model_v2.accepted_input`、`warm_fixed_m3_model_v3.accepted_input` 的完整接受门。若源是同一 Cartesian 图的重新表达，保留 `solver_invoked=false` 及原求解器出处；不会把它冒充新的 BVP 返回。实际 nonlinear-DN 源先经过集中 `warm_actual_dn_acceptance.accepted_actual_input`，核验真实返回的 RMS、边界、完整有限度量、原 outer check、全高/J 包及全部源身份，再用只读 loader 恢复明确版本的冻结几何。输出保存所调用接受门的路径和 SHA；未知模型版本不进入计算。
 
-核心区间文件必须绑定相同 `source_run_sha256`、`physical_sha256`、实际 $M$、模型版本、warm 定义和实际 oracle/kernel/provider 源。它的 `H1,H2` 是 Cartesian 分量，形状为 `(2,1168,3)`，两层分别是严格下界和上界。原完整 `exact_lift_initial` 向量还必须逐字等于本次 loader 的实际投影；不截断高模式投影来构造核心 lift。
+核心区间文件必须绑定相同 `source_run_sha256`、`physical_sha256`、实际 $M$、模型版本、warm 定义和实际 oracle/kernel/provider 源。若实际来源为 v3，还逐项核验完整 `warm_definition`、`phase_basis`、`basis_anchor_v2_run`、`basis_anchor_v2_sha256` 和 `linear_source_model_kind`。v3 使用补弧上的真频率 $j\pi/(\pi/3-S)$；它的真核心 oracle 必须明确处理这一个完整族，不能沿用 v2 的 $3j$ 控制 span。物理状态 Fourier 频率仍是 $3j$，与核心控制频率分开绑定。它的 `H1,H2` 是 Cartesian 分量，形状为 `(2,1168,3)`，两层分别是严格下界和上界。原完整 `exact_lift_initial` 向量还必须逐字等于本次 loader 的实际投影；不截断高模式投影来构造核心 lift。
 
 特别地，均值节点是原数组
 
