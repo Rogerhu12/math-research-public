@@ -4,7 +4,7 @@
 
 ## 规则与完整目标
 
-最近规则核查：2026-11-26 23:23:13 UTC，真实pull/rebase至 `d5059cd6e4b19bea35fec2c246562d7ddbdb51ce`，双README相对`92dacc9cf4909e865cf3f9f81e5ac8b62d1fdbe5`无差异，继续遵守全部规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
+最近规则核查：2026-11-26 23:31:52 UTC，真实pull/rebase至 `040c929f0e3c6cbeee5fe67aab4c3958ac6d5db6`，双README相对`7528864052e02a9fc1fb1538972b1b5438e2f379`无差异，继续遵守全部规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
 
 科学计算仅本公开仓库Actions；执行偏差见[早前记录](notes/2026-11-20-public-actions-execution-correction.md)及[四次大JSON整读纠正](notes/2026-11-26-large-file-connector-read-correction.md)。root唯一分支写者；结论即普通推，NFF立即rebase循环，不强推。每次pull核双README差异并遵新规，至少每小时，记commit。raw只scratch/runner，不入Git/Release/artifact；保完整小源/参数/run/SHA/紧凑结论。题≤200MB、单文件<5MB、MD<100KB、H<10KB、open<30KB。令牌仅瞬时CLI。终端失联与恢复/云API普通快进记录保7774固定H；旧scratch迁移未确认，不冒恢复。
 
@@ -25,7 +25,7 @@
 
 [02父46–48](notes/2026-11-26-actual-parent-interior-restoration-entry.md)/[49终界](notes/2026-11-26-actual-run02-cached-SO3-49-and-terminal-boundary.md)保完整旧边界；02终止、50未跑。04 actual40真实父51c8，41误key/42未起child/43trace及[最小完整修复](notes/2026-11-26-actual-run04-cached-SOC-source-role-index-repair.md)均保。
 
-[04实际44/45](notes/2026-11-26-run04-actual44-45-first-backtracked-SOC-accepted.md)、[46/47](notes/2026-11-26-run04-actual46-47-second-backtracked-SOC-accepted.md)、[48/49](notes/2026-11-26-run04-actual48-49-third-backtracked-SOC-accepted.md)全保；最新a801/reportbf641、Phi .005037814、有限Gram算子max .0339045651，QP64仍未驻。原全部SOC/投影/最终memory/历史与μ保完整notes/[参数](computations/resume-20261126-run04-after48-complete-pair-parameters.json)。[04终态](notes/2026-11-26-run04-terminal-job-with-admitted-pair-unreturned.md)：50已启动后job取消，只有1–49完整返，未知新地点不冒空。[06当前八列PCG完整pair](notes/2026-11-26-run06-complete-regeneration-and-current-PCG-request.md)f3dd与全参数/四history已刊，严格由06实际第四父继承两μ，保8A+8A*/全空间/原C/PhaseI/SOC及纯读，尚未准入。
+[04最新48/49](notes/2026-11-26-run04-actual48-49-third-backtracked-SOC-accepted.md)到a801/bf641，Phi .005037814、有限Gram算子max .0339045651，QP64未驻；全三次SOC/历史/μ/原参数保完整notes及27a0固定H。[04终态](notes/2026-11-26-run04-terminal-job-with-admitted-pair-unreturned.md)50已启动后取消、仅1–49完整返，不冒空地点。[06全PCG单准入](notes/2026-11-26-run06-complete-regeneration-and-current-PCG-request.md)f3dd与全部参数/四history已刊，严格由06新第四父继承两μ，全8A+8A*/原C/PhaseI/SOC/纯读保，尚未准入。
 
 旧deep/Haar/R690–695/误差链见固定H及results/notes，不迁证；01止77、旧03 stage7未知。
 
@@ -37,11 +37,11 @@
 
 [R700](results/R700-integral-so3-full-sixjet-control.md)限固定M/正rho，QR49a1限234ac/7f未跑；全922胞/尾/浮点/隐式费用及同g真实精化未付，其他完整工具保固定交接/results。研究未完成。
 
-[R710](results/R710-supported-unit-seed-complete-angular-jet-error-bounds.md)完整均值根/两角jet/物理T费用与85e90区间核已刊；[R713](results/R713-exact-smooth-triangle-moments-and-actual-fees.md)/[82e6消费者](notes/2026-11-26-R713-smooth-triangle-actual-fee-consumer-api.md)支付准确profile矩条件；[581fb完整总均值producer](notes/2026-11-26-accurate-supported-seed-total-mean-fee-producer.md)及600s完整叶ready已刊未跑。全角/实际积分尾/三角/舍入/参考节点/normal费用未付，[centered两完整fee源](notes/2026-11-26-R715-centred-seed-fee-source-adapters.md)ded2/7596已刊未跑，cached另严格适配，不把未跑原plain当门。
+[R710](results/R710-supported-unit-seed-complete-angular-jet-error-bounds.md)/[R713](results/R713-exact-smooth-triangle-moments-and-actual-fees.md)及[完整581fb总均值producer](notes/2026-11-26-accurate-supported-seed-total-mean-fee-producer.md)条件费用链已刊；[centered两完整fee源](notes/2026-11-26-R715-centred-seed-fee-source-adapters.md)ded2/7596未跑，cached另严格绑定新reader。实际全角/积分尾/三角/舍入/节点/normal与六jet费用未付，不把未跑plain当门。
 
 [R711](results/R711-smooth-triangle-central-profile-and-geometric-comparison.md)/[R712](results/R712-full-positive-radius-central-second-derivative-comparison.md)给准确十二片profile、全正半径中央Fss低于旧一半；[十源完整入口](notes/2026-11-26-R711-smooth-triangle-full-normal-entry.md)192正权/全(0,π)/全部原normal loop保，十历史ready未准入，须入旧seed及后来所有真实报告，不迁K/reach或旧末场。
 
-[R714](results/R714-normal-frame-exact-zero-and-C1-reuse.md)/[完整实施附录](notes/2026-11-26-R714-complete-frame-cache-and-zero-template-implementation.md)及[完整cached入口](notes/2026-11-26-R714-cached-reference-centred-complete-entry.md)已刊：ba3d全核、a62c/3e47/3531/f075/509d/8b5完整源与6e07十历史ready；同调用18字值缓存/完整A/H角jet及54×18重接保全32段/变量/原loop。未准入、未测速度或working零；旧seed19责任须由真报告或另完整新合同消化，未跑plain非前门。
+[R714](results/R714-normal-frame-exact-zero-and-C1-reuse.md)/[完整实施附录](notes/2026-11-26-R714-complete-frame-cache-and-zero-template-implementation.md)及[完整cached入口](notes/2026-11-26-R714-cached-reference-centred-complete-entry.md)已刊：ba3d全核、a62c/3e47/3531/f075/509d/3803完整源与02a6十历史ready；同调用18字值缓存/完整A/H角jet及54×18重接保全32段/变量/原loop。未准入、未测速度或working零；旧seed19责任须由真报告或另完整新合同消化，未跑plain非前门。 4197初版pure旧schema遗漏已最小修复，非科学失败。
 
 [R715](results/R715-reference-centred-normal-sixjets-and-error-ledger.md)与[完整八源/db99参数](notes/2026-11-26-R715-reference-centred-smooth-triangle-full-normal-entry.md)已刊：固定同端点/逐节点中心化，物理hΔ全六jet/AD/真实Gram/K、全32段和原完整loop保，工作Fs不冒单位。全27pins/纯文本再生核同；十真实历史ready未准入，旧seed19未返不冒空历史，不要求先跑未执行plain R711。
 

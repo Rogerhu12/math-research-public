@@ -37,7 +37,7 @@ EXPECTED_OUTPUT_SHA256 = {
     'so3_reference_centred_c1_smooth_triangle_normal_lift_geometry.py': '353196a4faadc7537d04d6be139c9d9d8f47ee7e25e1f007e33588ac48cfa0ff',
     'fullclosed_reference_centred_c1_smooth_triangle_normal_lift_so3_qp.py': 'f075257aaea0930f60d905c9b02ac5cfcff61bc42d7daf337912c8a287d0f347',
     'launch_reference_centred_c1_smooth_triangle_normal_lift_so3_actions.py': '509daaab85537ae1a905eaab9f18e51b2b10a008eaf0a93714bbbe95e8782de5',
-    'read_reference_centred_c1_smooth_triangle_normal_lift_so3_report.py': '8b5a638bbd8e5ec90489a512e0c734985c845d64d8de4745268d7ebc91639f2d',
+    'read_reference_centred_c1_smooth_triangle_normal_lift_so3_report.py': '3803a72570aed98eb797f03aca6696055b299ad43e1b06673c482c1a6b25a907',
 }
 
 
@@ -365,6 +365,9 @@ def construct(parents, helper):
     read = assign(read,'REPORT_SCHEMA',REPORT_SCHEMA)
     read = assign(read,'OPERATOR_SCHEMA',OPERATOR_SCHEMA)
     read = assign(read,'ROOT_SNAPSHOT_SCHEMA',SNAPSHOT_SCHEMA)
+    read = replace(read,
+        "model.get('schema') != 'complete-R711-reference-centred-SO3-fixed-normal-plane-six-control-layer-v1'",
+        "model.get('schema') != OPERATOR_SCHEMA")
     read = replace(read,old_driver,renamed(old_driver))
     read = replace(read,"schema='actual-complete-R711-reference-centred-normal-plane-SO3-scalar-readout-v1'",
         "schema='actual-complete-R711-reference-centred-C1-normal-plane-SO3-scalar-readout-v1'")

@@ -545,3 +545,8 @@ R715严格独立seed费用两全源ded2(48220B)/7596(40316B)及9cb2完整纯再�
 ### 2026-11-26 23:21:59 UTC — Astra-larger-e4e2a2bf-20261126
 
 R714完整cached中心化独立入口七执行源闭包及88ba完整再生器、6e07完整十历史两步ready与20KB完整说明已刊。ba3d已刊原核不变；新3e校准/a62c算子/3531几何/f075 driver/509d launcher/8b5 reader完整绑定，同调用no-grad原AD真值缓存与独立active C1/零模板仅替两处frame读取，全部32stage/原矩阵/根/角jet/上游参数图/物理hΔ全六jet/真实Gram和原完整9b05loop保。根全文核完整再生器、新pure三函数及实际全chain/controlflow，纯文本七源再生逐字同、28角色SHA及原有序150argv/十历史顺序核同；geometry与solver分工独立核实际来源/ownpoint/23计数。旧seed19未返不冒空历史，未执行plain无需先跑；独立envelope机制另完整实现，不静改本十历史guard。无本地science、未实际运行或预称提速；临时source-lock表只留输出SHA。
+
+
+### 2026-11-26 23:30:04 UTC — Astra-larger-e4e2a2bf-20261126
+
+cached纯reader旧schema遗漏最小修复：已刊4197包尚未准入/执行；construction沿新完整入口发现8b5 read_report内一处旧plain operator字面guard，与其已正确新OPERATOR_SCHEMA不一致，会拒新a62c报告。完整reader3803仅该一行改OPERATOR_SCHEMA；完整再生器7a78与ready02a6仅必要pin更新，所有六其余执行体/科学loop/原参数/十历史逐字保，非科学失败。根全文核差异、纯文本重生全部输出，新reader/ready匹配、六体同原；完整note保4197实际已刊历史和遗漏，未冒旧核查保证运行。其余schema/source具体同类残留已全文核；无需fixture。未刊cached费源按新3803精确重绑，旧plain费用体不动。H缩旧04与条件费用导航保原完整proof/notes/固定H，为06/07持续更新留容量。

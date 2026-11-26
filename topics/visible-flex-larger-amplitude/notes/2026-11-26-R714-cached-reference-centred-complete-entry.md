@@ -10,6 +10,14 @@
 
 本入口有自己的 schema、完整来源及模型身份。它不要求先执行未准入的 plain R711 或 plain centered 方向。原父源码是实现与参数来源，不是需要补跑的科学前驱。
 
+### 1.1 未运行读数守卫的最小修订
+
+初版完整 cached 包已由根端普通发布为 4197ac384841b82bf2934644efdfa2020c53be24，尚未准入或执行。其纯 reader 顶部 OPERATOR_SCHEMA 已正确指向新 C1 模型，但 read_report 中另有一条旧 plain operator schema 的硬编码比较遗漏。它会拒绝新模型的真实报告；这是静态发现的纯来源守卫不匹配，不是科学运行失败。
+
+本修订对完整 reader 仅且恰把这一条比较的旧字面常量改为 OPERATOR_SCHEMA，不放宽任何来源条件。原六份科学/校准/geometry/driver/launcher/helper 完整输出字节保持，全部 28 个 runtime role 和原科学 loop 不动。完整再生器增加这一计数为一的明确替换并更新 reader 输出 SHA；ready 只更新 reader 与再生器 SHA。本文同步完整身份并保留这条实情，不抹去已刊初版历史。
+
+对完整生成源码另行检查三个旧 plain operator/report/snapshot schema 的残留、全部 schema 比较及 source role 绑定；已定位的旧 operator 比较只有这一处。本次 AST/compile 和完整再生仍是静态核，不新增科学试验。
+
 ## 2. 完整来源闭包
 
 新增七份完整源码的锁定身份如下。实际发布目录为同题的 scripts/resume_20261126；每份均小于 100,000 bytes。
@@ -22,9 +30,9 @@
 | so3_reference_centred_c1_smooth_triangle_normal_lift_geometry.py | 58,473 | 353196a4faadc7537d04d6be139c9d9d8f47ee7e25e1f007e33588ac48cfa0ff |
 | fullclosed_reference_centred_c1_smooth_triangle_normal_lift_so3_qp.py | 69,350 | f075257aaea0930f60d905c9b02ac5cfcff61bc42d7daf337912c8a287d0f347 |
 | launch_reference_centred_c1_smooth_triangle_normal_lift_so3_actions.py | 17,526 | 509daaab85537ae1a905eaab9f18e51b2b10a008eaf0a93714bbbe95e8782de5 |
-| read_reference_centred_c1_smooth_triangle_normal_lift_so3_report.py | 77,266 | 8b5a638bbd8e5ec90489a512e0c734985c845d64d8de4745268d7ebc91639f2d |
+| read_reference_centred_c1_smooth_triangle_normal_lift_so3_report.py | 77,204 | 3803a72570aed98eb797f03aca6696055b299ad43e1b06673c482c1a6b25a907 |
 
-完整纯再生器为 derive_reference_centred_c1_entry.py，33,537 bytes，SHA-256 为 88ba5b3c8475e2eeaa9de04dd7469dc13f0c1ba151a70a2256aa87e3bd5c1dd7。它先逐字核六份原完整入口源码、ba3d helper 和原完整 ready，然后按明确出现次数替换、写出全部新源码，最后强制七份输出的完整 SHA 字典等于上表。任何来源或输出漂移均停止，不能通过改一个来源标签绕过完整绑定。
+完整纯再生器为 derive_reference_centred_c1_entry.py，33,724 bytes，SHA-256 为 7a785a1005bd3e33c8311af33a8c9dc29236a165cd45de7cd869ff581f089a5b。它先逐字核六份原完整入口源码、ba3d helper 和原完整 ready，然后按明确出现次数替换、写出全部新源码，最后强制七份输出的完整 SHA 字典等于上表。任何来源或输出漂移均停止，不能通过改一个来源标签绕过完整绑定。
 
 原六份来源分别为：
 
@@ -201,7 +209,7 @@ ready 的 scalar-only selectors 包含 helper 全部 23 个实际计数，以及
 
 [reference-centred-c1-smooth-triangle-normal-full-history-run05-ready.json](../computations/reference-centred-c1-smooth-triangle-normal-full-history-run05-ready.json)。
 
-该文件 38,380 bytes，SHA-256 为 6e077b6757177548b7247a9a440542b0941d7bf8f63255fad4864ffbfe63496d。第一步完整科学入口，第二步完整纯读数。输出目录为 reference-centred-c1-smooth-triangle-normal-lift-first；纯读数保存于 postprocess/reference-centred-c1-smooth-triangle-normal-lift-first-readout.json。两步都以本次实际 reference.npz 作 controller 的 parent_bundle，故失败时不要求不存在的 final 先存在才能读报告。
+该文件 38,380 bytes，SHA-256 为 02a6f468c65ee20a7d5dbd8ace284ab2ebbddac946614b5b42feb7783fe570dc。第一步完整科学入口，第二步完整纯读数。输出目录为 reference-centred-c1-smooth-triangle-normal-lift-first；纯读数保存于 postprocess/reference-centred-c1-smooth-triangle-normal-lift-first-readout.json。两步都以本次实际 reference.npz 作 controller 的 parent_bundle，故失败时不要求不存在的 final 先存在才能读报告。
 
 数值参数沿完整原计划逐值保留：
 
@@ -264,4 +272,4 @@ python3 topics/visible-flex-larger-amplitude/scripts/resume_20261126/derive_refe
 本实现可以立即被完整公开科学入口消费。它的有效收益、实际根链成本、初场是否成功、全 C 和目标变化、连续积分及浮点费用、全域几何和后续精化，均须由本身真实返回与后续完整同场证据承担。
 
 
-根另全文核88ba完整纯再生器及三项新pure reader函数、实际完整_get_roots/_run_chain/_implicit_jet_value，纯文本再生七输出逐字匹配，全28runtime角色SHA和完整有序150字argv（仅新outdir）、十历史顺序均核同。临时来源输出表为 3807B，SHA256 `9a478da731d89f2a227fc663ef8713b5ca0cb27384b5f7de4e8f321d6c049c30`，只留摘要，不入Git/Release。未import科学模块或执行F/J/根/积分。
+根实际核revision2完整reader与已刊8b5仅此一行差异；完整ready仅reader/deriver两SHA变，全部科学argv与十历史不动。完整纯文本再生六其它执行体逐字等于已刊原体，新reader与ready逐字匹配；修订临时来源表 3807B，SHA256 `e299a7ee6f57d3fd39815b30b1a119b37298b6052cee3bc7cc39ce7f43d3f0c9`，未入Git/Release。初版原逐函数/source/参数核查保4197固定全文；此次具体遗漏与纠正不隐去，未执行科学试验。
