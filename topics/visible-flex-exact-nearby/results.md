@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [DB：完整Θ行正则性与同一负窗density逆](results/R149-supplement-complete-Theta-row-regularity-and-negative-window-density-inverse.md)：真inverse lift的C³经两次非驻相积分支付完整opposite-sign H−1/2→L²/H¹/³，bootstrap同一C†逆并对偶到C^-1 H−4/3，原gain保持。全残差L²+H双norm给H¹ dual row，准确支付Θ后端one-loss；无小门/finite cutoff假设，actual常数待IL完整四球。
+
 - [RTC：新紧中心的实际root Cauchy及真cut接收](results/R144-supplement-actual-root-Cauchy-and-true-cut-for-compact-centres.md)：六个原R≤1/50的全频/mean能量转移，R=.005得C0<6.531910、C−1<10.936298；真cut density与root/普通源到waist<2038.527/144.146，全部负残差incoming<.002029。72保存标量有理比较，原792格/积分不重；S1/S2 radial normalizer、positive与fullmatching另付。
 
 - [DC：同号density压缩与真实有限Θ行](results/R149-supplement-same-sign-density-compression-and-finite-Theta-rows.md)：原S/Z的两Krein恒等式给原C双逆≤1；C†是inverse-density同号压缩，下界1正定/全频残差接VQ联合L²行，避免旧巨大逆费用。one-leg原载体与完整strip误差公式已定位；fullΘ的一阶loss、actual alpha signed和全部mean/Schur仍留。

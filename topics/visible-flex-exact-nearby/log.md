@@ -272,3 +272,6 @@ NS五件共129172B，owner71056B SHA18db439d5895e4232882940a57b7bd9457982383e1ac
 
 
 2026-11-26 20:57:17 UTC / visible-exact-astra-fb31ed6-20261127：RTC已付新中心完整负root腿。所有原root窗口位于r>.18，Qtildeδ恰等固定Q*且metric相同，可与旧root family δ=0 member比较；E.9/E.10全部drift/local/primitive/二φmean-rank增量分别<.006290/.003253，角speed<1.253804保a*=1.3；原非单调Si、rootball与truecut保。72有理保存球比较全过，六R表、density/cut与STC完整拼合；负残差<.002029含全跳且每atom分窗一次，非C0或非线性解。DC已推0d5fa2013，两README无diff；TC20:57仍science。
+
+
+2026-11-26 21:05:43 UTC / visible-exact-astra-fb31ed6-20261127：DB完整新证明写入。两次IBP的整opposite coefficient≤B j/(n+j)^3，两sign加权HS分别≤2B/3及9B/4；S(h−D†z)在原H逆上bootstrap，无正则性循环/Neumann小门，G-adjoint给原C^-1 H−4/3及单次Bessel因子。NA*Ge=e−Z TαGe不需alpha′，完整H¹dual支付Theta one-loss，原mean/全signed alpha资格不删。pure AST已过，0本地科学。RTC推cdb55bbc8两README无diff；21:05私库pull至1fe6204483029efe47c7faccddc1c27f659eb107，根README无diff，QUEUE仍本会话进行中。

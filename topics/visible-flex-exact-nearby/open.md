@@ -186,4 +186,4 @@ R149 signed-loop与[CP/physical](notes/2026-11-26-physical-scalar-execution.md)�
 [SB](results/R144-supplement-complete-same-phi-bridge-to-selected-reference.md)原同φ坐标资格/repair/19d*费用保；最新same-metric桥用SM及SMR，真qν−Z仍不借Z。world锚/height/完整GC及最终几何余量须真实闭合。
 
 
-[DC](results/R149-supplement-same-sign-density-compression-and-finite-Theta-rows.md)：原C同号density压缩在H−1/2双逆≤1，C†是inverse-density同号块；完整VQ L²行可用全频残差认证，有限Θ输入仍须Gbar F→L²。真实one-leg/K48载体已定位，无旧ray重算；全Θ one-loss与实际alpha signed行另付。
+[DC](results/R149-supplement-same-sign-density-compression-and-finite-Theta-rows.md)给C双逆H−1/2≤1与VQ全L²行；[DB](results/R149-supplement-complete-Theta-row-regularity-and-negative-window-density-inverse.md)以true p的C³全频异号HS给H¹dual及C^-1 H−4/3，正式支付wholeΘ one-loss而保CG gain。Ep/导数actual及alpha signed行另付，原means/fullSchur不删。
