@@ -1481,6 +1481,50 @@
         }
       },
       "scope": "Pure actual stage39 failure attribution from live run45800076687 status and its original bounded final traceback. No F/J/arrays or speculative rerun; complete log stays runner. Source ef017 unchanged."
+    },
+    {
+      "id": "actual-normalized-parent-SO3-first-inner-failure-trace-20261126",
+      "script": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/read_actual_followup_failure_v2.py",
+      "parent_bundle": "deep-fixed-scalar-amplitude-first/final.npz",
+      "args": [
+        "--work",
+        "{work}",
+        "--step-id",
+        "complete-new-SO3-fixed-deep-meridian-first-20261126",
+        "--out",
+        "{work}/postprocess/normalized-parent-so3-first-inner-failure.json"
+      ],
+      "outputs": [
+        "postprocess/normalized-parent-so3-first-inner-failure.json"
+      ],
+      "summary": {
+        "postprocess/normalized-parent-so3-first-inner-failure.json": {
+          "reader_sha256": "reader_sha256",
+          "github_run_id": "github_run_id",
+          "step_id": "step_id",
+          "actual_state": "actual_state",
+          "actual_returncode": "actual_returncode",
+          "actual_source_commit": "actual_source_commit",
+          "actual_source_sha256": "actual_source_sha256",
+          "actual_parent_sha256": "actual_parent_sha256",
+          "actual_seconds": "actual_seconds",
+          "actual_log_sha256": "actual_log_sha256",
+          "actual_log_bytes": "actual_log_bytes",
+          "actual_exception_line": "actual_exception_line",
+          "actual_traceback_tail": "actual_traceback_tail",
+          "actual_exception_lines_json": "actual_exception_lines_json",
+          "actual_traceback_count": "actual_traceback_count",
+          "actual_setup_error": "actual_setup_error",
+          "actual_reported_output_count": "actual_reported_output_count",
+          "trace_is_bounded": "trace_is_bounded",
+          "full_log_published": "full_log_published",
+          "field_evaluations": "field_evaluations",
+          "J_calls": "J_calls",
+          "scientific_arrays_read": "scientific_arrays_read",
+          "retry_performed": "retry_performed"
+        }
+      },
+      "scope": "Pure bounded ALL traceback blocks from the actual stage39 same-runner log after stage41 returned only the final outer CalledProcessError; no scientific input or F/J is recomputed and no first-cause guess is promoted."
     }
   ]
 }

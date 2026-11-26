@@ -32,3 +32,7 @@ root逐diff审查、solver逐完整AST比较与compile实际通过；这都是�
 02 run45800076687 的39已实际6.164027589999932秒exit1，仅command.json返，report/initial/final缺；40仅缺final setup失败。立即追加已刊ef017纯日志读取器，定位原真实异常，不先猜成profile、导入或数值问题。02无需重建父或重放已返方向。
 
 两条完整实际求解均继续；发布终态、准备成功、静态通过和一次预算都不是本题完成。
+
+## 02 的真实外层异常与进一步纯读取
+
+stage41已实际exit0：原stage39 log SHA `6276a0471e8ae6d22c03cd74046aba82c8ab7641be0a6cf4fd8abe7d1e100311`、4332B，ef017读取产物SHA `e1267a0fb975699ba2b4aa238cc1679c229ede2d4ede75644f5605adc0d24c8b`、6978B。该读取器选择最后Traceback，所以实际仅确认外层启动器 `subprocess.CalledProcessError`；未返回内层第一原因，不能把静态profile矛盾当成已观测异常。继续追加已刊完整ef60 v2纯读取器，读取同一runner已存的全部异常块，仍无F/J、科学数组或重跑。

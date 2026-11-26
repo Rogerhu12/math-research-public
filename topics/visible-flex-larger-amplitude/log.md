@@ -400,3 +400,5 @@
 2026-11-26 12:11:39 UTC — Astra-larger-e4e2a2bf-20261126：03 v2实际stage6 312.1479秒exit0，完整report b3a0fe/reference3cb4/carrier8a0d/profilee3a06已返，无缺项；精度请求false但无限尾有效，14753四标量查询和全历史位置身份记修复note，不把准备当新场或迁旧证书。同刊a846完整全胞/全角integrand B/L组件及整篇说明/完整待用参数：真affine标量分片、准确width上的全部quintic、restricted Bernstein和全Fourier→R694；仅source AST/compile及逐式审，无本地科学，未排高误差候选全Gram或预填连续结果。节点求值/总积分/隐式根费用继续接，完整实际求解不停止。
 
 2026-11-26 12:31:41 UTC — Astra-larger-e4e2a2bf-20261126：03 job实际failure，完整终态日志确认stage7已返回后在Publisher.render单record58KB守卫异常，原return事件后于publish故exitcode/Phi/report/final未返，不推科学成功/失败，后继reader/zero未执行。普通刊3cb1/68a3两完整控制源：原返回事件先保存并打印，公开仅聚合无界缓存清理路径清单的真实count/bytes/canonicalSHA，原各大小/源/安全守卫及所有科学命令均保。原workflow仅换必要controller路径并触发03b新5step恢复；旧控制源/03队列/失败保留。另02真实39 exit1/40setupfail，排ef017原trace读取而非先重跑科学。root与solver完整diff/AST审/compile，无本地科学；新结果未预填。
+
+- 2026-11-26 12:55 UTC：02实际41仅返原stage39外层CalledProcessError，原log6276a047/4332B；续排ef60 v2纯读全部异常块，未确认内因不重跑科学。H压缩到固定9ab5完整历史链接并保02/03动态槽；真实pull 7c80b8bf双README无差异。03b实际warm已返且job仍运行；原03未返科学不回填。

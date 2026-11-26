@@ -4,7 +4,7 @@
 
 ## 规则与完整目标
 
-最近规则核查：2026-11-26，真实pull/rebase至 `4ccf4755edf37f1ca135d2f8b5f21e5a3049d690`，根及课题README相对f0548477无差异，已完整读授权及规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
+最近规则核查：2026-11-26，真实pull/rebase至 `e90987455bfd65e85e9a30da32f12b5976905b88`，根及课题README相对f0548477无差异，已完整读授权及规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
 
 科学计算仅本公开仓库Actions；早前本地偏差及纠正见[执行记录](notes/2026-11-20-public-actions-execution-correction.md)。root唯一分支写者；代理只scratch及未引用小源blob。每条结论普通commit/push，NFF立即pull --rebase循环再推，不强推。至少每小时pull，每次核双README差异/立即遵新规并记commit。raw只scratch/runner，不入Git/Release/artifact；保完整小源/参数/run/SHA/紧凑结论。题≤200MB、单文件<5MB、MD<100KB、H<10KB、open<30KB。令牌仅瞬时CLI。环境失联后的恢复及全部原字见下列固定历史；未补造raw。
 
@@ -16,19 +16,19 @@
 
 R653 quarter、R654全H²及R655旧1845+六Gauss5532=7377正权观察、.5/.5测度、所有角点、完整J/J*与R664真实Phi回溯保留。weighted/raw/legacy不混减，max/K不加权。算法.992/.025只是必要screen。原192工作行及新增幅度行、每次全历史/新位置复读、所有binary点及保护信息都保，不round13合并，不删变量或原C。新SO3有明确不同坐标/正范数，不冒原q空间双射或原范数。
 
-完整压缩前记录亦见[906da完整H](https://github.com/Rogerhu12/math-research-public/blob/906da2171454fbffb76a1f812e32993fa519d2d4/topics/visible-flex-larger-amplitude/HANDOFF.md)；此前见[402d完整H](https://github.com/Rogerhu12/math-research-public/blob/402d6157efc3443bad0c6bdb4bd12d6086165da0/topics/visible-flex-larger-amplitude/HANDOFF.md)，旧完整历史由其36cd/81150/51ab链保。旧失败/未返/适用条件及源码不重做：[results](results.md)、[open](open.md)、log和全部notes均保。44758209061 exit0、44772201880硬限取消，旧全K/raw未返，不用SHA造数据；旧场证书不跨场。R669线性唯一/有限quintic障碍不是非线性不可能；任意mean目标未保证可实现。
+压缩前完整状态见[9ab5完整H](https://github.com/Rogerhu12/math-research-public/blob/9ab5ad29d7f876fb9216c951347d188921c2fd95/topics/visible-flex-larger-amplitude/HANDOFF.md)，并循其906da/402d/36cd/81150/51ab链。旧全部失败/未返/适用条件和来源保[results](results.md)、[open](open.md)、log与notes，不重做已登记结论。旧未返K/raw不以SHA补造、不跨场迁证；线性/quintic障碍不推非线性不可能，任意mean未保证可实现。
 
 十六次raw普通移出及原小源/全部参数/恢复commit见[容量记录](notes/2026-11-20-resume-raw-retention.md)。Python3.12.14/NumPy2.3.5/SciPy1.17.0/单BLAS，SO3另CPUtorch2.5.1/float64；完整来源在[独立运行说明](notes/2026-11-26-independent-public-nonlinear-continuation.md)及实际运行卷。finite typed不冒连续，iteration_limit不冒驻点，零步不冒精化。
 
 ## 本次实际结果与继续入口
 
-R684/R688/R689旧mean及真实61/63/64/65/66保402d历史与[真实63/65/66](notes/2026-11-26-actual-multiround-SOC-acceptance-and-own-first.md)：7ebb Phi降但max升、QP未驻点；ownfirst已付，其余同场marker/K/reach/metric/精化未付。R686完整同场几何源已刊，R666 reach仍未付；02实际39首SO3 exit1/40缺final setup失败，ef017纯trace已续排。
+旧mean与真实61/63–66、R686/R666及完整来源见固定历史；7ebb Phi降而max升，QP未驻点，ownfirst以外的同场marker/K/reach/metric/精化仍未付。02实际39 exit1、40缺final setup失败；41 ef017仅返外层CalledProcessError，已续排ef60全部异常块纯读，尚未证内因。
 
 R690[深谷新输入](results/R690-quasimonotone-tail-and-deep-valley-input.md)完整证可积唯一性判据与明确非可积深谷，保prefix/S、更新R/I及参考Hold曲率界；不推非圆存在。实际54 e091无限尾盒有效但300秒未达请求精度；同源参数383168/e39保旧prepare，fresh实际identity不能硬写。
 
-[真实72/73/74](notes/2026-11-26-actual-fixed-deep-next-two256-and-attribution.md)：329e同deep g两256方向经第8/7轮SOC满步接受返9b937eea/report993556，max .01289641028→.01267927582、centeredPhi .00019719383→.00018497065、μ.0025→.000625；全原197/新增行与2785/2756点保，QP limit/Pg-tol约30620/88064，原满步仅K拒，无coarse/face fallback。ownfirst bbefd075同全922胞：D≤4.118905347、L≥.938949608、heldbody≥.227960958/embedding；tail有效但精度请求false，marker/K/reach/metric/精化未付。d146 fixed-g精化源已刊未排、旧ready指8a，不冒9b精化。
+[真实72/73/74](notes/2026-11-26-actual-fixed-deep-next-two256-and-attribution.md)：329e同deep两256经SOC满步返9b937eea/993556，max .01289641028→.01267927582、Phi .00019719383→.00018497065、μ.0025→.000625。全行/点保且QP未驻点。ownfirst bbefd075同922胞D≤4.118905347、L≥.938949608、heldbody≥.227960958/embedding；scalar请求精度false，其余同场责任未付。d146未排、旧ready指8a，不能冒9b精化。
 
-R691[准确Haar证明](results/R691-frozen-physical-mean-endjet-and-material-Haar.md)及真实71/75目标e35ce2/moments027c36已返；请求精度false，冻结仅定义。[真实76/77](notes/2026-11-26-actual-frozen-Haar-first-full-direction-and-attribution.md)b70同目标返bcdcdab/a76c4d：max .01500409671→.01406459392、centeredPhi .00018604610→.00017030316，一方向接受/末μ.01，必要K/amp通过，全部2758/2754永久点保。alpha/QP/Pg/J未读，不猜；01准入后新增纯归因和bcd ownfirst未执行，旧证书不迁。faa863完整准确Haar连续Gram核已刊未跑，全部marker/K/reach/metric/精化未付。
+R691准确Haar证明与真实71/75目标e35ce2/moments027c36已返，请求精度false，冻结仅定义。[真实76/77](notes/2026-11-26-actual-frozen-Haar-first-full-direction-and-attribution.md)返bcdcdab/a76c4d：max .01500409671→.01406459392、Phi .00018604610→.00017030316，一方向接受/末μ.01，全2758/2754点保。alpha/QP/Pg/J未读不猜，01新归因/bcd ownfirst未执行；faa863准确Haar连续Gram核已刊未跑，全部同场几何/metric/精化未付。
 
 R692[完整旋转连接](results/R692-nonlinear-rotation-connection-and-metric-error.md)完整MC/周期势/帽闭圈与无1/c全Gram/J/J*证明限经典连接类，不推任意C²存在。[原父SO3六源](notes/2026-11-26-complete-closed-SO3-meridian-solver.md)234a/9cf5/9b77/32bd已刊排02：全变量/7377×2048/原192+amp与永久点，hΔ全六jet/J/J*/几何、新正范数μ.01、4×64 PhaseI后1×16；slack不冒可行，连续积分/root/normalization费未付。
 
@@ -50,4 +50,4 @@ R692[完整旋转连接](results/R692-nonlinear-rotation-connection-and-metric-e
 
 ## 当前公开Actions执行
 
-01 [run45762076394/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45762076394) 已正常success；真实stage止于77（49 followups），11:04:33 UTC controller budget checkpoint/research_complete=false。新排归因/ownfirst未准入；不把job终态当课题完成。完整[实际记录](notes/2026-11-26-public-actions-45762076394-1.md)及76/77 note保源码/最后规则读取。当前02读取39实际失败并修复，03b完整恢复请求已刊；旧03科学未返部分不继承或补造。
+01 [run45762076394/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45762076394) 已正常success；真实stage止于77（49 followups），11:04:33 UTC controller budget checkpoint/research_complete=false。新排归因/ownfirst未准入；不把job终态当课题完成。完整[实际记录](notes/2026-11-26-public-actions-45762076394-1.md)及76/77 note保源码/最后规则读取。当前02纯读39内层真实异常后修复，03b run45820592817已真实启动/warm已返；旧03科学未返部分不回填。节点/corecap/同场积分费用并行落地，未达完成标准不停止。
