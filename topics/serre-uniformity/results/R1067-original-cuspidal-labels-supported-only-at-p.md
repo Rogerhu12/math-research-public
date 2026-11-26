@@ -485,3 +485,13 @@ $c_\chi$ 和群环系数的不同整数提升均不改变 (1067.33)。
 局部商引理由 global_route 推导，root 与 o2_high_coefficient
 分别纸核 Weierstrass 秩、Artin 固定域及完整 orbit completion；
 原模型和全部 leading-coefficient 赋值相消由 root 独立核准。
+
+
+## 后继：全 p 的明确好角色子模块
+
+[R1069](R1069-all-prime-good-cuspidal-characters-and-unique-global-labels.md)
+已去掉唯一提升结论对整个 p 正则性的要求：对原实际
+$\chi=\omega^r$ 且 $p\nmid B_r$ 的角色，global 到 p-local 同构，
+这些原 forced good 角色至少有 $\Omega(p/\log p)$ 个。
+本篇全模块的 regular 结论仍成立；其余坏角色的类群项未删除，
+同标签辅助排除仍开放。

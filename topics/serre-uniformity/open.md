@@ -31,6 +31,8 @@ R1018–40的原完整Fm/两节点Dickson/PD及好BT整比较均已付，详细�
 
 ## O0：全主目标覆盖（R1003恢复原范围）
 
+[R1069](results/R1069-all-prime-good-cuspidal-characters-and-unique-global-labels.md)：全部p>37上，原Bernoulli单位角色χ=ω^r无regular/Vandiver假设地给p-only global→local同构。Herbrand及准确ωχ⁻¹ Kummer方向杀对应real类群；奇字符正交/相对类数给good forced维数≥⌊p/4⌋−1−⌊log_p(2p((p−1)(p−2)/(24p))^((p−1)/4))⌋，故Ω(p/logp)。该真实子覆盖每原p-disk仅一global候选，总数≤p·n_Qp(p)；其余坏角色类群及同标签辅助排除仍开。
+
 [R1068](results/R1068-original-small-auxiliary-prime-necklace-point-inputs.md)：原2、3全部点由真实五/八模型、twisted Burnside及固定necklaces给出，精确点数已付。原cusps无点；仍须逐点原模单位评价与同标签排除，Frobenius相似类不代函数值。
 
 [R1067](results/R1067-original-cuspidal-labels-supported-only-at-p.md)：原规范标签仅p支撑，wild相对商/cusp交数齐备、允许非整j。regular p每个local标签唯一global候选，总数≤p·n_Qp(p)，删2/3自由度。圆单位及所有ℓ≠p的真实辅助式已付，全角色/embedding须同一y；irregular类群与共同像排除仍开。

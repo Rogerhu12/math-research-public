@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。本轮已部分克隆并真实pull main，读两README/H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则读至36cf1ed2。不重做已登记结论或窗口。
 
-**公开两README已读提交：8ff23903d1228eb1c90151fb5f4674e541e26c91**（2026-11-27 07:52 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
+**公开两README已读提交：3a3a0aed7e1a1d8c917dca253d41a559eeadda21**（2026-11-27 07:56 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
 
 已真实部分克隆/pull；07:50再试pull仍报无可用执行环境，shell未运行；按根规矩8用连接器小文本同步、读两README差异、带expected_sha非force提交，恢复后立即pull --rebase。拒绝即同步重基再推至成功。令牌仅CLI；根维护main/H/open/index/log，子研究独立稿，每条结论立即推。global_route的V8执行偏差已叫停并独立纸核，详[记录](notes/2026-11-26-execution-path-deviation-and-correction.md)，其输出不作证明/合规窗口。
 
@@ -18,7 +18,7 @@ H<10KB、open尽量<30KB、每MD<100KB、topic<200MB；无可重算raw、不写�
 
 [R1058](results/R1058-original-Cartier-resonance-and-complete-lowest-residue-source.md)：完整 $D/Q/Q^2$ 最低值已迁至全部 $P=q\widehat J$ 根，等于 $(-3)^d[r^{d-1}]W_*/P^2/(dA_1)$。所有其它极点、非齐次 forcing 与规范修正保原文；$P$ 根至多四重、每根至多七阶 jet，非零仍开。
 
-[R1056](results/R1056-original-kernel-lowest-CM-single-coefficient.md)/[R1055](results/R1055-original-complete-first-log-canonical-rational-primitive.md)：原核两列与完整v规范原函数已付；所有尺度、极部、p次幂修正见原文，单位仍开、不扩bare。
+R1055/56原核两列与完整v规范原函数已付，全部尺度/p次幂修正保原文；最低单位仍开。
 
 [R1052](results/R1052-original-complete-CM-profile-and-actual-lowest-functional.md)：完整 source/target、全返回及除 $p$ 误差已付；原全轮廓读 $[Z^k](T_c/A)(B_{\rm CM})$，保 $\kappa_1/\lambda_0$。最低 $\mathcal C(T_c)=2B(c,L_{\rm CM})$，实际全 $Q^2$ 单位/深盘仍开。
 
@@ -29,6 +29,8 @@ R1035–40 的两行实际 PD、整 $B,Q$ 与全 MW 消去已付；$p5$ 仍先�
 R1018–30原Fm/节点log/非约化运输已成，尺度保原文；H_A/H_Z新支撑仍开。
 
 ## O0：不能省略的全局覆盖
+
+[R1069](results/R1069-all-prime-good-cuspidal-characters-and-unique-global-labels.md)：全p原Bernoulli单位角色有唯一global提升，无regular/Vandiver假设；类数/正交给实际good子模块维数Ω(p/logp)，每盘一候选。坏角色类群及辅助排除仍开。
 
 [R1068](results/R1068-original-small-auxiliary-prime-necklace-point-inputs.md)：原2、3全部点由真实五/八模型、twisted Burnside及固定necklaces给出，精确点数已付。原cusps无点；仍须逐点原模单位评价与同标签排除，Frobenius相似类不代函数值。
 

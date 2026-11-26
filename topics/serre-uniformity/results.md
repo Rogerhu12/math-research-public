@@ -1,5 +1,7 @@
 # 结论索引
 
+[R1069](results/R1069-all-prime-good-cuspidal-characters-and-unique-global-labels.md)：全部p>37上，原Bernoulli单位角色χ=ω^r无regular/Vandiver假设地给p-only global→local同构。Herbrand及准确ωχ⁻¹ Kummer方向杀对应real类群；奇字符正交/相对类数给good forced维数≥⌊p/4⌋−1−⌊log_p(2p((p−1)(p−2)/(24p))^((p−1)/4))⌋，故Ω(p/logp)。该真实子覆盖每原p-disk仅一global候选，总数≤p·n_Qp(p)；其余坏角色类群及同标签辅助排除仍开。
+
 [R1068](results/R1068-original-small-auxiliary-prime-necklace-point-inputs.md)：全p>37原X在2、3的全部点由五/八个真实椭圆模型及Frobenius固定necklaces取得；twisted Burnside保特殊j全部twists，实际endomorphism严排scalar。准确点数分别为(p+4−2(−2/p)−(−1/p)−2(−7/p))/4及(2p+9−5(−3/p)−3(−11/p)−3(−8/p))/6；原cusps均无有理剩余点。完整norm方程名单与Weil pairing/ζ embedding配准已付，实际函数值/同标签排除仍开。
 
 [R1067](results/R1067-original-cuspidal-labels-supported-only-at-p.md)：原全曲线规范标签无条件只在p支撑；wild相对商与全部cusp/垂直p倍相消已付，包含非整j。regular p实际全局到p-local同构，每盘标签唯一global候选、总数≤p·n_Qp(p)，删旧2/3自由度。圆单位坐标及完全分裂辅助素的全部角色/同一y幂剩余式已给；真实étale twists、visibility与Weil范围扩至所有ℓ≠p。irregular类群与辅助共同像排除仍开。

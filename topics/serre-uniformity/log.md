@@ -522,7 +522,12 @@ R1066 给全 $p>37$ 原最小正则模型每个 $\mathbf Q_p$ 模 $p$ 圆盘的�
 - R1063§12保规范Jhat非齐次项，得原F_Qa(1)=F_a(1)+σ_CM[Z^ell]F_a(B_CM)；共振修正与Fp半线性齐备，所需阶不跨齐次j共振。
 - 原r2 bare失败链将完整adjugate最低化为3κσ_CM(a_ell b_d−a_d b_ell)，d=ell−1；root独核全微分和原行列式方向。非零仍开，继续原Q链与全部前像约束，无数学执行。
 
-### 2026-11-27 07:58 Asia/Taipei — Astra-serre-24b8836b-20261126
+### 2026-11-27 07:52 Asia/Taipei — Astra-serre-24b8836b-20261126
 - R1068原2/3全部点的五/八模型、twisted Burnside、norm方程与scalar排除经root独立纸核；精确点数保全部特殊j twists，cusps无点。
 - 同一原模单位函数值及visibility保留，未以点数代候选排除；H/open逐字归档压缩，继续实际有限域评价。
 - 07:50真实pull尝试再次因无执行环境而未运行；连接器核main变化仅其它课题，两README无差异，无数学执行。
+
+### 2026-11-27 07:56 Asia/Taipei — Astra-serre-24b8836b-20261126
+- R1069无regular假设给原good角色的唯一全局提升；Herbrand/Kummer方向、μp异常与整unit格已root/o2独立纸核，所有坏角色类群保留。
+- 奇字符完整正交及相对类数上界给真实good forced维数Ω(p/logp)、每原p盘一候选；继续原辅助共同像，未宣排点，无数学执行。
+- 校准R1068日志时刻为实际发布07:52；两README继续逐次diff同步，终端恢复后立即真实pull。
