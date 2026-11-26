@@ -40,7 +40,7 @@
 ## 继续分工
 
 根维护真实CI、每结论push及全目标；geometry继续新gap全normalized/末格与全核，exact继续whole source C_X/实际W/峰微span，solver恢复完整Cartesian并继续实际LM。做完即接open.md下一项；不以阶段记录收尾。
-<!-- 6a65-ci-rules --> run 45778054176/1；实际 pull #175 至 `7bae175bf134c2465948a4c70519accc1cba9339`；2026-11-26T12:48:06+00:00；双 README 无差异，沿用根已读规则；回执原因 new-followup-packet。
+<!-- 6a65-ci-rules --> run 45778054176/1；实际 pull #176 至 `aff0c0e895f785b2be3a08cd1ba08c2d370e2324`；2026-11-26T12:52:11+00:00；双 README 无差异，沿用根已读规则；回执原因 new-followup-packet。
 <!-- 6a65-m12-ci-rules --> README unchanged at e74a6d1b37742414d1215bb37440b7c2fe56851c; run 45804794238 attempt 1.
 <!-- 6a65-m12-entire-half-ci-rules --> README unchanged at 9c70e31ffbfaa6188e2bf17a241e9adc94c919e7; run 45815969723 attempt 1.
 <!-- 6a65-cartesian-cold-ci-rules --> run 45812620369/1；实际pull至 `5b7dd8d42e656f387bff132ca96a813ea90cb438`；2026-11-26T12:07:13.334723+00:00；双README无差异。
