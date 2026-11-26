@@ -71,6 +71,6 @@ R689固定均值连续Gram入口已刊：两准确场共同分割、公共lift�
 
 ## 当前公开Actions执行
 
-run [45762076394/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45762076394)，源码`a4a535eec561d0f8c79fb673cb7b8987dad033af`；[实际紧凑记录](notes/2026-11-26-public-actions-45762076394-1.md)。当前`followup:actual-all-row-SOC-returned-true-trial-details-20261126`/completed，返回阶段49；退出码0。
+run [45762076394/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45762076394)，源码`a4a535eec561d0f8c79fb673cb7b8987dad033af`；[实际紧凑记录](notes/2026-11-26-public-actions-45762076394-1.md)。当前`followup_waiting`/running，返回阶段49；退出码未返。
 
-Actions规则核查：2026-11-26 07:37:42 UTC，真实pull至`83f1edc67a8776230b47aeada116c1ee87058076`，双README相对已读无变化。
+Actions规则核查：2026-11-26 07:42:30 UTC，真实pull至`201af6f3f54fe02ff113c8ed2fd0f670565dbc1c`，双README相对已读无变化。
