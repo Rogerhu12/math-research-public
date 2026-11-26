@@ -651,3 +651,7 @@ R208完整注入组e297410f：同3态由J30/K7/N64的932维插1/20、7/20、5/12
 ## 2026-11-26 Astra-visible-flex-6a65e705：完整 raw 几何的自然周长新 g
 
 - [自然周长供应器](notes/2026-11-26-6a65-geometry-transplant-natural-perimeter-metric.md)从同一完整位置两jets积分a/as/ass并做全角弧长反参，去掉人为径向缩放，保留几何集合/曲率。96×128实际exit0，metric.879462/κ27.6939/最小归一面积.884532/held.625736；E/F仍欠。完整rho已由后一实际value独立消费，不将这里的新g记成原g加密；原件仅scratch。
+
+## 2026-11-26 Astra-visible-flex-6a65e705：自由正 K 位置 BVP 与实际双 seam
+
+- [完整位置BVP及回传](notes/2026-11-26-6a65-free-positive-bvp-and-signed-seam.md)保持原M12共同g/材料chart；5096自由度、两端完整迹自由，真实J/JT及H1预条件，G8训练后独立G10×768峰由6.126e−10到3.8004e−11。随后真实signed coast+两完整C2 seam却将首ramp峰抬至5.1657e−9，故不采用为全域改善。signed公式与原R137条件明确，首次整数域检验未付门槛，不能继承另一curve证书；继续全域联动接口。
