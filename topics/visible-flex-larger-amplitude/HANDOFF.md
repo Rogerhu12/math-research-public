@@ -55,6 +55,6 @@
 <!-- visible-larger-parallel-04:end -->
 
 <!-- visible-larger-parallel-05:start -->
-并行公开Actions05：[run 45870334713/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45870334713)；[实际记录](notes/2026-11-26-public-actions-45870334713-1.md)。阶段`followup:pure-complete-SO3-location-and-initial-fingerprints-v2-through30-20261126-05`/completed；已返10，exit=0。
-并行05规则核查：2026-11-26 19:46:27 UTC，真实pull至`0bdc6e95471047cd0e9f6f4782b5057529b6b331`，双README无变化。
+并行公开Actions05：[run 45870334713/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45870334713)；[实际记录](notes/2026-11-26-public-actions-45870334713-1.md)。阶段`followup:actual-run05-second-integral-complete-all-trial-families-20261126`/completed；已返11，exit=0。
+并行05规则核查：2026-11-26 19:46:37 UTC，真实pull至`7a134e4f9e2109b78de288557df2d563ac64ba4d`，双README无变化。
 <!-- visible-larger-parallel-05:end -->
