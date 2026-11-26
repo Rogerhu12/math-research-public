@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R150 单位2+1+1相反配对一般mean图的六异常曲线全空（2026-11-26，已证明）：** [原Cramer式、全部非零因子及商环除法](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-opposite-base-pairings-regular-exceptional-curves-exclusion.md)排v/w/v+w/B/G±；唯一抽象零t候选用原五维Gram秩二矛盾，三次曲线QQ93/145和67/146保全部四次/二次纤维，最终原D1或D2的平方归零。原源92.272577秒/exit0；继续真实非异常一般图，未以边界排除宣全支完成。
+
 - **R150 秩二H与V的本质五维层只余有限双约化Gaussian规范（2026-11-26，必要归约已证明）：** [完整原mean/H梯度/最高值及五阶Gram](results/R150-appendix-rank-two-second-and-third-cumulants-essential-five-reduced-gaussian-normal-form.md)排除g0和全部Hp非零；剩Hp0、F²+g²0，经所有单位根规范后C=−A、D=−B、AB=−Fg/2、2e³=−F³，Gram行列式2F²e(F−e)(2F−e)非零。F1后常数有限；原物理五次极线的二/三次完整身份仍未排空，不声称临界点存在或本层全空。
 
 - **R150 单位2+1+1相等非零基点配对整个分支为空（2026-11-26，已证明）：** [原mean、零点共同范数与完整QQ理想身份](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-equal-base-pairings-complete-exclusion.md)以k=4bc·t/l将c0化成处处合法的线性消元；四个原四次式的两轮结式只余5l²−4l+1，72×80矩阵秩70给逐项回乘的k原理想身份，迫k0矛盾。原源19.744046秒/exit0，全部分母/首项纤维及∞保真；接旧l0/½/1和t0，整个p=q≠0关闭。

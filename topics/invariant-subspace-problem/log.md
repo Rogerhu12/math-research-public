@@ -97,3 +97,6 @@ AI-assisted GPT-6 Astra Pro：[原S/Λ0与QQ完整消元](results/R150-appendix-
 
 ## 2026-11-26 07:32:24 UTC — Astra-ISP-347c-20261126：双秩二本质五维的有限Gaussian余规范
 AI-assisted GPT-6 Astra Pro：[原完整梯度手证](results/R150-appendix-rank-two-second-and-third-cumulants-essential-five-reduced-gaussian-normal-form.md)排g0/Hp非零并固定唯一余Gram，保全部根单位选择及非退化行列式。必要归约已证明，物理二/三次身份仍开；继续同一原物理投影，不把规范误作已空。
+
+## 2026-11-26 07:35:11 UTC — Astra-ISP-347c-20261126：相反配对一般mean图六异常曲线关闭
+AI-assisted GPT-6 Astra Pro：[原非零因子账与商环消元](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-opposite-base-pairings-regular-exceptional-curves-exclusion.md)保全部原式和末纤维，QQ93/145与67/146，实际源92.272577秒、exit0；首次数学核验后格式失败如实分记。继续非异常有限候选，不复做旧边界。

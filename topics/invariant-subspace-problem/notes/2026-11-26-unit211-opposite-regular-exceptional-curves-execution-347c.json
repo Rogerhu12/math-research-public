@@ -1,0 +1,29 @@
+{
+  "cubicCurveResultantDegrees": [
+    [
+      93,
+      145
+    ],
+    [
+      67,
+      146
+    ]
+  ],
+  "elapsedSeconds": 92.272577,
+  "ordinaryISPClaim": false,
+  "peakRssKiB": 152380,
+  "schema": "r150-unit211-opposite-regular-exceptional-curves-20261126-v1",
+  "scope": "p=1,q=-1,regular mean chart; v,w,v+w,B,Gminus,Gplus zero fibers all excluded",
+  "sourceSha256": "d7f3a0603557f177408150060c8fdec24b35a0bd4a3fa9a50ef2ed999f48177e",
+  "status": "all_exact_QQ_checks_pass",
+  "exitCode": 0,
+  "executionCommand": "PYTHONPATH=/tmp/isp-347c05929dd3/deps python 2026-11-26-unit211-opposite-regular-exceptional-curves-347c.py",
+  "pythonVersion": "3.12.14",
+  "sympyVersion": "1.14.0",
+  "pythonFlintVersion": "0.9.0",
+  "executionOwner": "Astra-ISP-347c-20261126 / unit31_general",
+  "stdoutSha256": "23c6a5e58c034b4916512c9c14c1ec9c6b91cfeb1b7727f1c3fa5cfa20b876f4",
+  "priorAttemptNote": "The first execution completed all mathematical assertions, then failed only in final FLINT-integer JSON serialization; current source adds default=int and was executed completely with exit 0.",
+  "rootReview": "Original reconstruction, nonzero factor ledger, quotient-ring divisions and all final original fibers reviewed without repeating the computation.",
+  "storedArrays": false
+}
