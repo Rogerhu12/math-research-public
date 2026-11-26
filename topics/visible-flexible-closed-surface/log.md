@@ -709,3 +709,5 @@ R208完整注入组e297410f：同3态由J30/K7/N64的932维插1/20、7/20、5/12
 - 2026-11-26 10:52 UTC｜Astra-visible-flex-6a65e705-20261126：[强支完整Cartesian点链](notes/2026-11-26-6a65-solver-strong-cartesian-complete-interface.md)实际16点×13行/两τ/1412同源标量核对真0；对原R191/R210差≤1.70e−15、J/JT≤2.70e−16。保完整Gram第三行、曲率及全部七几何行，非真实曲面baseline/接受；完整stream与同job消费继续。
 
 - 2026-11-26 11:06 UTC｜Astra-visible-flex-6a65e705-20261126：[R226](results/R226-m12-normalized-reference-and-continuous-cartesian-bounds.md)对实际M12中央残差先精确相减后积分，连续角偏移<1.268e−10；完整501源cell/10chart片和准确bridge下确定reference全metric<7.667e−8、全时reach/D>.03120330、held/D>.05278322、δE>0。真0/9.059s、10项有理预算全真；任意actual solver W六jet消费器已备，未借未知field。
+
+- 2026-11-26 11:15 UTC｜Astra-visible-flex-6a65e705-20261126：[R227](results/R227-new-gap-first15-native-ramp-gram-certificate.md)对新gap实际保存全部768系数作准确实部配对、signed整数卷积、Bernstein及全高频尾预算；前15真实quintic格全域原生Gram谱误差<1.38e−7、面积>.40322802，35.285s实际exit0。原生目标包含椭圆角因子；末coast修复格/normalized完整链与曲率仍未付，继续下一项。
