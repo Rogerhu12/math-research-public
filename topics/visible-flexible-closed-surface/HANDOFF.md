@@ -53,3 +53,4 @@ CI每次literal pull在首行marker记SHA；publisher只合并该行，保root�
 ## 继续顺序
 
 根：新自然周长全rho的完整LM与物理重参数输入；exact：原M12全域联动位置BVP；solver：本job K19实际求解与新Cauchy同job消费。子题结束接open.md。合格核才支付全域全时metric、完整非局部reach、固定全部参数的真正加密和完整网格；不得以当前阶段记录收尾。
+<!-- 6a65-m12-ci-rules --> README unchanged at 8d0bb00c8a7ce7c5cf5c64c9eb022d6af989b846; run 45797640490 attempt 1.
