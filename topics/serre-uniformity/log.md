@@ -397,3 +397,7 @@
 ### 2026-11-27 03:16 Asia/Taipei — R1058 原Cartier、共振和完整指定最低源
 - [R1058](results/R1058-original-Cartier-resonance-and-complete-lowest-residue-source.md)：唯一Jhat−3rJhat′=(1−r)^(2ℓ−2)/q²−A1²r^ℓ，gdb=dR_can+(r/b²)^(p−1)db且Cartier=db。全Q=Cartier(gF_a)、Tλ/A准确含两pth修正；实际最低=Σ三CM Res Fλ{g(DL)^p−g^(p+1)(DL)^(p²)}db，原D与Frob总和完整，单位仍开。
 - root逐式核canonical存在/唯一、S全部三阶res、∞次数、λ原函数的b0两pth修正和D的三CM运输；o2/global分别独核。精简H/open已闭输入，完整来源与尺度保结果/归档。03:07终端仍报无可用执行环境，继续根规矩8带expected_sha非force小文本同步，无本地数学。下一步求这条真实完整留数，而非删resonance或Q²。
+
+### 2026-11-27 03:18 Asia/Taipei — R1057指定p47深盘的实际有理点排除
+- [R1057 §5](results/R1057-certified-original-p47-actual-lowest-functional.md)：本次真实C=15支付p47一次单位；逐节核C_*仅用于自动本原、逐块全MW消去不需该界，故原X₁指定c₁的v47(w)>0深盘唯一有理点为c₁。未分类其它盘/X_d/O0；无重算。
+- root实读R1036§§5–7、R1011§§2–5、R1010§3、R1026§7，与global独核范围。原一次系数−15κ₁^15(2√A_tail)^43/(2·23·44·λ₀)为单位，H=w(h₁+wU)严格给正赋值盘唯一零。未扩张p47为完整层分类，继续全p与O0。

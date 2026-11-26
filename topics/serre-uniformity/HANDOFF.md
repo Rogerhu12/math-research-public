@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。本轮已部分克隆并真实pull main，读两README/H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则读至36cf1ed2。不重做已登记结论或窗口。
 
-**公开两README已读提交：ab61131aa09e8789ed57f5f2bdeabb159af8444e**（2026-11-27 03:16 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
+**公开两README已读提交：44fd167c413d4167490a8b3464a75318246dcdf4**（2026-11-27 03:18 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
 
 已真实部分克隆/pull；终端再次不可用，按根规矩8用连接器小文本同步、读两README差异、带expected_sha非force提交，恢复后立即pull --rebase。拒绝即同步重基再推至成功。令牌仅CLI；根维护main/H/open/index/log，子研究独立稿，每条结论立即推。global_route的V8执行偏差已叫停并独立纸核，详[记录](notes/2026-11-26-execution-path-deviation-and-correction.md)，其输出不作证明/合规窗口。
 
@@ -74,4 +74,4 @@ R696早已证明同一全局Φ候选Ω_actual={0}，R832已消费；不重做、
 
 继续实际2B(v,QD L_CM)及原norm/端点、同h与O0；已完成窗口不重开。
 
-[R1057](results/R1057-certified-original-p47-actual-lowest-functional.md)：公开run45880257064/job140117536918、源9543f2ef，原p47完整DQ(1−Q)λ非零，实际最低C(T_c)=15，留数/真实参数反演/全S三读一致，B(c,v)=0；原轮廓14非零系数、首w¹。0.066990秒/120秒，无raw。仅固定输入，不推全p或47满足C_*。
+[R1057](results/R1057-certified-original-p47-actual-lowest-functional.md)：run45880257064/job140117536918、源9543f2ef，原p47完整DQv最低C=15三读一致、Bcv0、首w¹。§5已核全MW范围，原X₁该c₁正赋值深盘唯一有理点为c₁；不推其它盘/全p/O0。
