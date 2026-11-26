@@ -86,6 +86,8 @@ $$
 
 [任意高度的完整真旗方差一致界与Green递推](results/R271-appendix-all-height-true-flag-uniform-variance-source.md)现已证明：任意r≥2、完整F⊂ker C^r且C不变、f∈F∩ker C²，全部0<S≤1有原C^j a_S/S^j及完整环境残余界；原N头全部奇r≥3的真实受限逆均已用整数增广约束、全部长链和原相似付费。r3保旧锐界，新增覆盖r≥5，并可与原能量界逐项取小。精确零方差Green列位于真实底部范围。仍未得到γ<1/16孔加权Zγ，不能把无权方差界当实际最高carry配平；继续原指定列的孔衰减与源专属lift。
 
+**[大辅助方差真实F0已取得完整逼近](results/R271-appendix-large-auxiliary-variance-true-kernel-galerkin-approximation.md)：** 对原未加权压缩inverse，低新孔≤L列真实属于全部F_t和F0，r≥2d+L给能量误差≤(16/15)32^(−L−1)。L=d、r=3d+1、R=576(m+1)²d²、Q=R+r严格满足原窗和零头改基；s=K/y给无权ξ≤e^(−2d)及真压缩源强趋P_M。原物理列加准确i0ξ后保同V/K/u/partial。剩余为Sx的绝对孔权，或把此同源列送回真正物理核/纯高度代表的全部MP和真帽费用；辅助到物理逆缩放不能由无权小残量代付。
+
 ### 2.2 仍需接合的原返回接口
 
 - 旧 $\tau14$ 下全高度同w Bessel/能量、一次物理MP及共同log方差均已付；后继 $CD^\dagger$、核外第二逆和真正完整最小源仍开。一次界不自动反复适用，真核终式不保初始阻尼。

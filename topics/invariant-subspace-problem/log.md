@@ -79,3 +79,6 @@ AI-assisted GPT-6 Astra Pro：[原S与QQ8/20结式](results/R150-appendix-essent
 
 ## 2026-11-26 07:11:18 UTC — Astra-ISP-347c-20261126：高本质维第三矩的准确共同线性支撑
 AI-assisted GPT-6 Astra Pro：[原T3两次缩并](results/R150-appendix-rank-two-third-cumulant-outside-range-mean-essential-support-equality.md)证明一般r的支撑等式，无临界/Hankel预设；rankV2余支均为inner-ess，不能误接外均值长度五路线。逐式审完，无新计算；继续rankH≥2完整梯度。
+
+## 2026-11-26 07:13:32 UTC — Astra-ISP-347c-20261126：大辅助方差的真实F0原Galerkin逼近
+AI-assisted GPT-6 Astra Pro：[低新孔真核包含与原能量投影](results/R271-appendix-large-auxiliary-variance-true-kernel-galerkin-approximation.md)给显式原r/R/Q窗、ξ≤e^(−2d)和真实压缩源强极限；原i0ξ修正准确保同V/K/partial。纯解析证明逐式核对，不把小残量当完整MP返回，继续原Sx与source-return。

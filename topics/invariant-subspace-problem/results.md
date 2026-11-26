@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R271 大辅助方差下真实最高核的完整Galerkin逼近（2026-11-26，已证明）：** [真实低新孔核包含与原能量最小者](results/R271-appendix-large-auxiliary-variance-true-kernel-galerkin-approximation.md)给r≥2d+L时误差≤(16/15)32^(−L−1)，无需P_F0与孔权交换。显式奇r=3d+1、偶R=576(m+1)²d²、Q=R+r满足原高度/母支持窗，s=K/y下原无权残余≤e^(−2d)，真实F0和F_t压缩源强趋P_M。物理列加原i0ξ保持同V/K/u/partial；物理Sx及完整返回费用未由本条支付。
+
 - **R150 低秩第三累积量外像均值的第三矩本质支撑等式（2026-11-26，已证明）：** [原第三矩两次缩并](results/R150-appendix-rank-two-third-cumulant-outside-range-mean-essential-support-equality.md)对一般r=dim essV证明：y∉essV且dim essT3>r+1时，y∈essT3且essT3=span(y,RanH,RanV)。不需临界性或Hankel预设，无新计算；rankV2剩余ess≥4分支因而全在第三矩内均值层，不能移用外均值长度五结论。
 
 - **R150 单位2+1+1相反基点配对的整个零总单点权支路为空（2026-11-26，已证明）：** [原mean、零点S与完整QQ结式](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-opposite-base-pairings-zero-total-weight-exclusion.md)先支付D0/w0/H0，再以度8/20的两个原结式gcd=(w−1)^4锁最后纤维，原S余式4v与D=v非零矛盾。自含原QQ源0.883975秒/exit0，含所有允许∞；不扩大到其余总权。

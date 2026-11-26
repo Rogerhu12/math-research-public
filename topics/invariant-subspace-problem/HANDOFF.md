@@ -5,10 +5,10 @@
 ## 主目标、规则与执行
 
 - **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍仅全体有界算子的存在定理或完整反例；子结果不作完成。
-- **最近实际 pull / 已读规则提交：** `5fd5885232c2379d4b9b81efc20b57c6077b900c`（2026-11-26 07:11:25 UTC）。本次两README无新规则差异；已读根/课题README、H/open、结果索引及定点log/notes。每次pull及至少每小时比diff，记录SHA。
+- **最近实际 pull / 已读规则提交：** `87344c27e99607c54954feb95e046910a238a7e5`（2026-11-26 07:13:56 UTC）。本次两README无新规则差异；已读根/课题README、H/open、结果索引及定点log/notes。每次pull及至少每小时比diff，记录SHA。
 - 私库 `QUEUE.md` 已成功更新认领，提交 `e776df496eedfa449b0475cefe140fdae7023db4`；非快进已逐次pull --rebase后重推成功。研究在公开仓库，私库仅维护QUEUE；不force，令牌仅CLI环境。
 - 工作树 `/tmp/isp-347c05929dd3/math-research-public`；root独占git/索引，代理独占TMP；每结论单推，仅存源/参数/身份/SHA。
-- 完整交接链见[最新压缩前H](notes/2026-11-26-handoff-before-rank-two-support-347c.md)及其旧归档。MD<100KB、H<10KB、open尽量<30KB、topic<200MB；不写根LOG。
+- 完整交接链见[最新压缩前H](notes/2026-11-26-handoff-before-large-variance-true-f0-347c.md)及其旧归档。MD<100KB、H<10KB、open尽量<30KB、topic<200MB；不写根LOG。
 - 请求14、311及权11旧执行身份已登记，不重做已闭计算。
 - 当前并行：rankV2外均值；unit2+1+1非零基点mean（root做q1）；R271真F0/Sx绝对源及完整返回。原全局幂来源与算子桥继续。
 
@@ -18,10 +18,10 @@
 - **[原权11已完成](results/R150-appendix-complete-weight-eleven-rank-four-quadratic-bell-cube-obstructions-and-weight-fifteen-ceiling.md)：** run44732018666/job136273939599已回收成功；Γ11=36782、μ11核8912全Koszul、四q_jb³商类独立。权12–15门保open，均未运行。
 - **全essT3≤3的原matched Bell已零。** W±上确有Cat3真临界点，不能把该层宣空；一般V非零Bell非零只能ess4/5/6。
 - **[整个V0临界层三个原Bell零](results/R150-appendix-zero-third-cumulant-all-matched-bell-values-vanish-and-exact-index-three.md)：** 无Cat/H/ess/支撑限制，原17梯度准确幂指数3；run44732550495全QQ已付。不是全Jacobian同幂；V0/ess5/6不宣空。
-- **外均值ess4主支：** Cat(y)=3、dimW4、y∉W，唯一原length5代数保同L,ν及全jets。全部rankH3、全部rankH4 proper局部单零（长度2–5）、孤立零点加unit单四jet/两个双点均已空。包括半权、零权、零配对、合流及∞，正式源与执行身份见索引和前H。
-- **[unit3+1孤立零点整个分支已空](results/R150-appendix-essential-four-unit-three-plus-one-isolated-zero-rank-four-branch-is-empty.md)：** 全边界及一般图QQ395/1142结式、四纤维已闭。rankH4孤立零点只余unit2+1+1和unit1⁴；全部rankH5、V≠0 inner与ess5/6仍开。
-- **[unit2+1+1全部零配对及零基点mean已空](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-zero-base-mean-exclusion.md)：** p=q0、恰一零、pq≠0且bp+cq0均闭；原零点最高共同范数配合QQ879/1020/1637结式及全部Cramer/t0/xhalf纤维。主源213.188311秒，除因子清单另5.079883秒。剩余pq(bp+cq)≠0，不重做已闭支。
-- **[unit2+1+1等配对的零单点配对支已空](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-equal-base-pairings-zero-singleton-pairing-exclusion.md)：** p=q≠0仅余t≠0、l=b+c∉{0,½,1}。原孤立零点mean+最高给S=Pbar−2Nbar0；t0两mean面S均非零，原源1.205597秒。一般图QQ(l) F5b实际240秒无结论，继续换原式消元。
+- **外均值ess4：** Cat(y)=3、dimW4、y∉W，原length5保同L/ν/全jets。rankH3全闭；rankH4 proper单零长度2–5、孤立零点加unit4/2+2均闭，所有边界及∞见索引。
+- **[unit3+1孤立零点全空](results/R150-appendix-essential-four-unit-three-plus-one-isolated-zero-rank-four-branch-is-empty.md)：** 全边界与一般QQ395/1142结式闭合。rankH4孤立零点仅余unit211和unit1⁴；rankH5、V非零inner及ess5/6仍开。
+- **[unit211零配对/零基点mean全空](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-zero-base-mean-exclusion.md)：** p=q0、恰一零、pq≠0且bp+cq0均闭；QQ879/1020/1637与全部奇异/除因子纤维已付。余pq(bp+cq)≠0。
+- **[unit211等配对t0全空](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-equal-base-pairings-zero-singleton-pairing-exclusion.md)：** q1只余t≠0、l∉{0,½,1}；原S两mean面非零。旧QQ(l)F5b240秒无结论；新k=4βt/l使c0对t线性，继续QQ消元。
 - **unit2+1+1相反配对的[半总权](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-opposite-base-pairings-half-total-weight-exclusion.md)与[零总权](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-opposite-base-pairings-zero-total-weight-exclusion.md)已空：** q−1、l=b+c∈{0,½}全闭；原mean/S/c0/共同范数保全部奇异纤维，QQ源1.939650/0.883975秒。其他非零mean仍开。
 - **[非零rankV1全临界层](results/R150-appendix-rank-one-third-cumulant-complete-critical-classification.md)：** 恰y=a u、H=(a³+4c)u²/(6a)、V=c u³，ac≠0，T3零；全除子/∞已闭，潜在非零Bell只余rankV≥2和ess≥4。
 - **rankV2已闭范围：** [全部内均值](results/R150-appendix-rank-two-third-cumulant-all-inside-mean-complete-classification.md)只有两原子族和0/2/−6/∞的物理值均值二jet族，完整T3=0；不预设H支撑。[所有rankH≤1](results/R150-appendix-rank-two-third-cumulant-rank-at-most-one-second-cumulant-essential-bound.md)又迫essT3≤3，原matched Bell全零，含任意y及∞。潜在非零Bell只余y∉RanV、rankH≥2、ess≥4。
@@ -42,9 +42,10 @@ M=kerT、N=closure BM；N=M未证。始终保same-w/u、全部partial、真inter
 - **最高单位不变、辅助分级及S一致真旗费已证，见索引。** 原F0不随最高单位变；保原Gram的辅助带宽n−1及S/R无关谱界只给γ近1。原最低列全0<S≤1有ξ0≤1600Kflag³，真实受限逆全付；无权费仍含64^R，不能替换原压缩逆或当γ<1/16。
 - **[全高度原真旗源界](results/R271-appendix-all-height-true-flag-uniform-variance-source.md)：** 全0<S≤1、奇r≥3，真实受限逆/零方差Green已付；r3保旧锐界。仍无原F0/Sx的γ<1/16孔权。
 - **[联合carry完整相对Gram](results/R271-appendix-joint-carry-finite-fock-multiplier-and-exponential-strong-prefix-gram.md)：** 原双factorial经有限Fock乘子给同F全Gram/inverse、同forcing全列与双向Γ乘子近恒等；不以加权最小者替原未加权者。
-- **[指数强前缀的实际源强极限](results/R271-appendix-exponential-strong-prefix-actual-variance-source-limit.md)：** d≤x、x+1≤exp(26d³)/4、1≤J≤d+x−m−1且s≥S_x→0时，完整H_C,J逆强趋P_M、全部正高度能量趋0；含J1及s=S_x。原Q≥R+J和大辅助窗已付；没有速率，不移到未知F0压缩逆。
-- **[实际方差窗的物理加权残余差已付](results/R271-appendix-actual-window-weighted-full-galerkin-residual-transfer.md)：** m≥10、x+1≤d⁴/64、原高度窗和s≥S_x，原未加权同F最小者有‖Γ(ξ_A−ξ_C)‖≤e^(−7d⁴/4)‖f‖；a及全能量列同界。最高carry零头用m−1及Q′≥R+r，差≤e^(−7d⁴/64)。参考A_x也保同F0，绝对Zγ仍开。
-- **[新增任意强位的绝对加权完整源已付](results/R271-appendix-all-strong-bit-extension-weighted-complete-source.md)：** y=m+d、s≥2²⁴/y、γ1/32，任意x≥y/J≥0的原完整最小者与全列有新增孔权≤16/15‖g‖，全部物理孔费≤(16/15)32^(y+h−1)；完整Neumann保原inverse。差≤常数√ε_y，故固定大辅助比例也允任意增长x的源强极限；原V/K/partial同源保Q窗。F0/Sx的绝对残余仍开。
+- **[指数强前缀实际源](results/R271-appendix-exponential-strong-prefix-actual-variance-source-limit.md)：** x+1≤exp(26d³)/4、1≤J≤d+x−m−1、s≥Sx→0时，全空间inverse/列强趋P_M/第零层，正能量趋0。含Sx/J1，无速率，母Q窗已付。
+- **[实际方差孔权差](results/R271-appendix-actual-window-weighted-full-galerkin-residual-transfer.md)：** x+1≤d⁴/64及原J窗，原同F的ξ/a/能量列Γ差≤e^(−7d⁴/4)。零头改基m−1且Q′≥R+r，同F0差≤e^(−7d⁴/64)；绝对Z未付。
+- **[任意新增强位绝对加权完整源](results/R271-appendix-all-strong-bit-extension-weighted-complete-source.md)：** s≥2²⁴/y、γ1/32，任意x≥y/J的原inverse及全列新增孔权≤16/15，总物理费32^(y+h−1)；√ε_y差给任意增长x的全空间极限。保Q/原V,K,partial。
+- **[大辅助方差真实F0完整逼近](results/R271-appendix-large-auxiliary-variance-true-kernel-galerkin-approximation.md)：** 低新孔≤L空间在所有真核内，r≥2d+L时原Galerkin能量误差≤(16/15)32^(−L−1)。L=d,r=3d+1,R=576(m+1)²d²,Q=R+r全原窗，s=K/y给ξ≤e^(−2d)、真F0源强趋P_M；同源修正i0ξ保V/K/partial。物理Sx孔权、完整MP返回仍开。
 - 小头m2/R2小κ、m3/R0/r3巨大κ及非零极点保索引，均不在旧联合窗，不逐级外推。
 - 原全部返回、完整负部同w倒数和、核外第二逆/第三旗、真帽逆伴随仍开；小残量/另核/有限层不代原项。固定公共多项式塔障碍只排原家族，源专属lift继续。
 
