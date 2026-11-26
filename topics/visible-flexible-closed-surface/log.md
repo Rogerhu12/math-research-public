@@ -190,3 +190,5 @@
 - 2026-11-26 12:38 UTC｜Astra-visible-flex-6a65e705-20261126：[新gap完整短窗源](notes/2026-11-26-6a65-geometry-gap-window-own-complete-baseline.md)同R233 master、独立sourceKind/自然g，53504点×13行自己的baseline301.650s真0；metric2.48947、窗口κ89407.07/minarea9.618e−5不合格。端口六jets实核、窗口外真尾保持；继续只在(b,S)独立修正并更新open实际入口，不借长job状态或接受数。
 
 - 2026-11-26 12:41 UTC｜Astra-visible-flex-6a65e705-20261126：[真实多步发布接口](notes/2026-11-26-6a65-solver-cartesian-multistep-publisher-check.md)本地bare Git实造NFF/H冲突再成功push，并在第三真实pull遇README差异后先发布SHA/未审H再停数值；0.387s真0。控制器保每步真非零state/observer、13行、独立计数及45min规则检查；仅接口核验，无新科学接受，v4缓存续接另立身份。
+
+- 2026-11-26 12:47 UTC｜Astra-visible-flex-6a65e705-20261126：[v4严格固定源缓存](notes/2026-11-26-6a65-solver-cartesian-v4-direct-source-cache.md)双真实oracle自然0、requests12/1，源数组逐值相同/只读及13身份篡改拒绝，1.219s真0；完整方程/全部7760列/13行/试步不变。新增显式bootstrap/350min workflow，首进程前与每45min核规则、初始20次实际尝试、已见首接受只作重生；触发不冒新的科学接受，source003仍v2不热改。
