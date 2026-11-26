@@ -540,3 +540,8 @@ R715严格独立seed费用两全源ded2(48220B)/7596(40316B)及9cb2完整纯再�
 ### 2026-11-26 23:08:26 UTC — Astra-larger-e4e2a2bf-20261126
 
 独立07完整必要warm参考重建入口：完整controller9a55仅更换已读06(acff)的slot/中文标签，完整workflowa3ba与请求ba0f、6078B queue8416及6995B说明已刊。根另核公开5ba0已为origin/main祖先且双README原blob；4e完整step与05 archive001[0]的script/parent/full ordered argv/outputs/summary逐值相同，只id/scope与来源元数据变。5613完整warm→4e全reference仅必要输入再生，所有M160/J923/N2048/P7377/原scalar全尾和十一历史payload保，finish=false；真实新字节/目标需独立绑定，seed19仍未返，不重跑或冒空历史，完整后继与history契约随后接。根实际H移出已终止04旧CI槽至27a0固定全文及已刊终态note，并压17/18导航，给07独立槽留容量；未改活动05/06槽。题外修改为新增.github/workflows/visible-larger-centered-normal-20261126-07.yml，依根README授权，仅触发本题显式请求，350分钟/原依赖/全部守卫保。无本地科学执行。
+
+
+### 2026-11-26 23:21:59 UTC — Astra-larger-e4e2a2bf-20261126
+
+R714完整cached中心化独立入口七执行源闭包及88ba完整再生器、6e07完整十历史两步ready与20KB完整说明已刊。ba3d已刊原核不变；新3e校准/a62c算子/3531几何/f075 driver/509d launcher/8b5 reader完整绑定，同调用no-grad原AD真值缓存与独立active C1/零模板仅替两处frame读取，全部32stage/原矩阵/根/角jet/上游参数图/物理hΔ全六jet/真实Gram和原完整9b05loop保。根全文核完整再生器、新pure三函数及实际全chain/controlflow，纯文本七源再生逐字同、28角色SHA及原有序150argv/十历史顺序核同；geometry与solver分工独立核实际来源/ownpoint/23计数。旧seed19未返不冒空历史，未执行plain无需先跑；独立envelope机制另完整实现，不静改本十历史guard。无本地science、未实际运行或预称提速；临时source-lock表只留输出SHA。

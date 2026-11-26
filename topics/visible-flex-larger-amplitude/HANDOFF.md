@@ -4,7 +4,7 @@
 
 ## 规则与完整目标
 
-最近规则核查：2026-11-26 23:09:59 UTC，真实pull/rebase至 `f13ed734eb2d0cdd7f75fbb5a2ab4a1fac25292f`，双README相对`9734fa784ecab699f75fe8d5dc79202c5d8cd37e`无差异，继续遵守全部规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
+最近规则核查：2026-11-26 23:23:13 UTC，真实pull/rebase至 `d5059cd6e4b19bea35fec2c246562d7ddbdb51ce`，双README相对`92dacc9cf4909e865cf3f9f81e5ac8b62d1fdbe5`无差异，继续遵守全部规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
 
 科学计算仅本公开仓库Actions；执行偏差见[早前记录](notes/2026-11-20-public-actions-execution-correction.md)及[四次大JSON整读纠正](notes/2026-11-26-large-file-connector-read-correction.md)。root唯一分支写者；结论即普通推，NFF立即rebase循环，不强推。每次pull核双README差异并遵新规，至少每小时，记commit。raw只scratch/runner，不入Git/Release/artifact；保完整小源/参数/run/SHA/紧凑结论。题≤200MB、单文件<5MB、MD<100KB、H<10KB、open<30KB。令牌仅瞬时CLI。终端失联与恢复/云API普通快进记录保7774固定H；旧scratch迁移未确认，不冒恢复。
 
@@ -41,7 +41,7 @@
 
 [R711](results/R711-smooth-triangle-central-profile-and-geometric-comparison.md)/[R712](results/R712-full-positive-radius-central-second-derivative-comparison.md)给准确十二片profile、全正半径中央Fss低于旧一半；[十源完整入口](notes/2026-11-26-R711-smooth-triangle-full-normal-entry.md)192正权/全(0,π)/全部原normal loop保，十历史ready未准入，须入旧seed及后来所有真实报告，不迁K/reach或旧末场。
 
-[R714](results/R714-normal-frame-exact-zero-and-C1-reuse.md)与[完整C1/零模板实施附录](notes/2026-11-26-R714-complete-frame-cache-and-zero-template-implementation.md)及ba3d全核已刊：零左exp的全部A/H角Leibniz、54×18上游一阶重接、另scope的原AD同字数值缓存均完整；32段/真矩阵/全部变量保。缓存仅同调用同点同字；准确零支不冒working零/提速，cached完整入口另派生。
+[R714](results/R714-normal-frame-exact-zero-and-C1-reuse.md)/[完整实施附录](notes/2026-11-26-R714-complete-frame-cache-and-zero-template-implementation.md)及[完整cached入口](notes/2026-11-26-R714-cached-reference-centred-complete-entry.md)已刊：ba3d全核、a62c/3e47/3531/f075/509d/8b5完整源与6e07十历史ready；同调用18字值缓存/完整A/H角jet及54×18重接保全32段/变量/原loop。未准入、未测速度或working零；旧seed19责任须由真报告或另完整新合同消化，未跑plain非前门。
 
 [R715](results/R715-reference-centred-normal-sixjets-and-error-ledger.md)与[完整八源/db99参数](notes/2026-11-26-R715-reference-centred-smooth-triangle-full-normal-entry.md)已刊：固定同端点/逐节点中心化，物理hΔ全六jet/AD/真实Gram/K、全32段和原完整loop保，工作Fs不冒单位。全27pins/纯文本再生核同；十真实历史ready未准入，旧seed19未返不冒空历史，不要求先跑未执行plain R711。
 
