@@ -16,17 +16,17 @@
 
 ### 当前真实输入
 
-[279原终态](notes/2026-11-27-r582-physical-pending279-original-terminal.md)：run45895078668/job140166868607/source021c6d790；新2375.001235837秒，9metric接受/12完整Jac+6未闭块/15fine。真97q binary64 SHA **14d1a961e41fa87c152eb81f22837e5e54ba5014bdc5f92f05d70dc5fb5a4445**；p=.181、fine11100×3072、η4.2622659748238665e−5、物理V0、working V9.77658e−10在原1e−8容差内。actual296×1536/trust2；2个原pending提298，新fine并集11103尚须原完整资格。
+[298原终态](notes/2026-11-27-r582-physical-pending298-original-terminal.md)：run45901312947/job140187488430/source98ded25f6；新2370.257524993秒、12metric/13完整Jac/15fine/14callback。真97q **59a4ba766a9450509bcbd539639503e8a67d9dc0a98c6c3b63f59879c29a7b45**，p=.181，16149×3072 η3.838285782595128e−5、物理/working V0。
 
-末raw6f82有原全行违约8.73222e−7，独立半步/elift才得14d1；不把raw和物理best互换。一个更低fineη候选因实际strip margin拒绝并交换库，原9次接受不掩盖这项失败。此轮只clock截止，没有自然OptimizeResult或stall。
+实际材料为 **f60be03b0af36d5d182f21860fe69cef80439c12bb23562d63dc2b57648bf52c**，62878endpoint/RHS960932，区别于旧0d/RHS960944；原14d1在新f60上完整baseline实际支付（reuse=false），随后全部12接受同一对象。有限材料仍不是无限DtN核，口小差不等于全域同场。原所有11100fine与新材料观察精确并集保留，16149资格不自动扩到当前16167。
 
-[298正常范围](notes/2026-11-27-r582-physical-pending298-resume-implementation.md)保原科学driver全部数值函数，唯一参数变化为入口279→298；全部11100旧fine、两个pending和3072角保留。原BFGS内部未保存，不伪恢复；33绑定和完整原FINAL逐字核合。正常续算原全部物理/box/metric/fine门，原raw只未合格warm。旧13完整候选、旧Jac/诊断不重做。
+末d613的fineη3.776290107e−5更低，但workingV2.65025739e−5，实际拒绝后把13个证据点采用到311。当前311×1536/trust2，pending空、proposed=current，fine16167尚欠完整资格；未自然OptimizeResult或stall。原raw/独立fraction与elift/真实best继续分轨，callback4只是η未降也拒绝。
 
 ### 阶段门与后继
 
-p未过约2.5e−7阶段门前不升级，目标仍p=.8、最终η≤1e−7。同空间出现实际自然停滞时按完整残差/真实尾形改变输入或算法组织，不只扩大角容量或延长旧已停实例。当前mean g仍随设计变；定型后必须另付同一固定g、参数与时间域的精化。
+原全部科学数值函数和门保持；按311真实库接续，永久旧fine不丢，旧Jac/诊断不重做，未存后端数组不伪恢复。p阶段约2.5e−7未过不升级；目标p=.8、末η≤1e−7。同空间真停滞时按实际残差换输入/算法，不能只延已停实例。当前mean g仍是设计变量，最终须同一g/参数/时间域精化。
 
-原62878端点mesh **0d222bd12ce8a61d0c88264c6fb5c82066f0ca058855b5bf7a670a53b483a991**保持，有限共同端点C²材料不是无限DtN核；数值evaluation误差和数学材料要分清。a237和f1已付连续几何只属于各自q，不能转给14d1。旧169/185/189/243网、物理epigraph、50Jac无接受、原finite表示失败和全部μν/核心/三种子费用见压缩前全文及[a237前史](notes/2026-11-27-r582-physical-paid-resume-original-terminal.md)，不重开原实例。
+最新mean q64:80/q80/h96全部变；连续几何应改用59a4，重新支付同mean圆参考及全C0/C1/R623K，不移旧a237/f1/0d资格。一次精确f60重建可复用同59a4原16149物理观察；再异场则同对象付全物理和连续几何。旧169/185/189/243/279/298、50Jac无接受、finite表示失败和全部μν/三种子费用见[279前史](notes/2026-11-27-r582-physical-pending279-original-terminal.md)及归档，未撤旧账。
 
 ## O2b-B：全奇位置继续下降，同时落实真正固定g的增长响应
 
@@ -84,7 +84,7 @@ p未过约2.5e−7阶段门前不升级，目标仍p=.8、最终η≤1e−7。�
 
 K-attainer的reference-normal H11和完整H11都约85.090789，投影没有消除主要宽界；它们是上界，不能冒实际曲率峰/下界。旧f1独立证书比例.00783058仅属f1，同mesh不等于同q，不能移给a237或14d1。
 
-[R623](results/R623-exact-finite-vertical-primitive-with-normalization-remainder.md)准确有限v primitive及全部归一化余项证明保持。[K-only原终态](notes/2026-11-27-r623-curvature-only-original-mesh-mismatch.md)：run45902483327/job140191333308/source18d66d1a3，新科学133.483449239秒，实际端点mesh f60be03b≠原0d222，入口真实拒绝，未开始区间K。相同62878端点/声明输入和软件不能证明相同场；新dense960932RHS、旧960944，差异已在ODE出现，根因未证。旧δ/α/K仅属原0d。接着查原场已保存重建信息；若无法准确恢复，明确新有限场并完整支付自身C0/C1/K/物理门，只能复用独立同mean参考ρ/D。禁止改标签或以小口jets差转移全域界。
+[R623](results/R623-exact-finite-vertical-primitive-with-normalization-remainder.md)准确有限v primitive及全部归一化余项证明保持。[K-only原终态](notes/2026-11-27-r623-curvature-only-original-mesh-mismatch.md)：run45902483327/job140191333308/source18d66d1a3，新科学133.483449239秒，实际端点mesh f60be03b≠原0d222，入口真实拒绝，未开始区间K。相同62878端点/声明输入和软件不能证明相同场；新dense960932RHS、旧960944，差异已在ODE出现，根因未证。旧δ/α/K仅属原0d。已核原完整端点/段dense未保存；后继转最新59a4/f60，其mean也变，完整重付自身圆参考/C0/C1/K。若同field可复用同59a4原物理观察，再异场则同对象重付物理；禁止改标签或以小口jets差转移全域界。
 
 新K完整后才接R604；[R622](results/R622-longer-intrinsic-near-pairs-and-same-bound-reach.md)仅在短证书未建立或远项限制且比例不足时另组合。若短证书已受1/K限制，更小的.9/K不可能改善，跳过。完整证书可取max，不能混新较长阈值与旧1/K。若新范围clock中断，保已闭区域最大值/原剩余栈/当前未闭cell，补剩余而不复跑已闭叶。
 

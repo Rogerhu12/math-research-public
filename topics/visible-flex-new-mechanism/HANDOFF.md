@@ -5,9 +5,9 @@
 
 ## 1. 授权、规则与前史
 
-公开本次实际pull且根/题README已读至 **22172d407a894d06983c3bc23e0b2f608886a47b**；相对继承0749a4cc根/题规则仍为空差异。私库实际pull/根README已读至 **2dcbca6979066ac65a5e161f6d360c2b7a49bd6b**，2026-11-26 22:28:22 UTC根README空差异；下一不晚于23:27 UTC。QUEUE本会话唯一进行中，原认领提交09f8b8b54e7cfaabaa635bae5c438c7f1521289a。
+公开本次实际pull且根/题README已读至 **1c67873e33cf28c031dd23e3109477812da13046**；相对继承0749a4cc根/题规则仍为空差异。私库实际pull/根README已读至 **2dcbca6979066ac65a5e161f6d360c2b7a49bd6b**，2026-11-26 22:28:22 UTC根README空差异；下一不晚于23:27 UTC。QUEUE本会话唯一进行中，原认领提交09f8b8b54e7cfaabaa635bae5c438c7f1521289a。
 
-[H全文归档](notes/HANDOFF-before-59a4-56e8-and-fixed-E-20261127.md)及其链保全部旧结论、费用、输入与量词。[当前open](open.md)已重组为真实14d1/7371/337、新K-only/固定E/原BVP；[旧open全文](notes/open-before-fixed-E-and-K-only-20261127.md)不丢旧实例。[四来源与文献](notes/2026-11-27-current-four-source-topics-and-literature.md)保已读版本和准确用途。
+[H全文归档](notes/HANDOFF-before-59a4-56e8-and-fixed-E-20261127.md)及其链保全部旧结论、费用、输入与量词。[当前open](open.md)已按真实59a4/56e8/337、新全几何/固定E/原BVP更新；[旧open全文](notes/open-before-fixed-E-and-K-only-20261127.md)不丢旧实例。[四来源与文献](notes/2026-11-27-current-four-source-topics-and-literature.md)保已读版本和准确用途。
 
 每次实际pull查根/题README差异并记SHA，至少每小时；NFF/ref锁立即pull --rebase推至成功。root独占git/四索引，每结论即推；科学只公开Actions，本地限纸证/源码与原记录解析。根12不重放已付门、根15不存raw/可重算表，必要新场再生全计费；H<10KB/open<30KB/md<100KB，publisher活跃时不改tracked。
 
@@ -15,11 +15,13 @@
 
 同一连通闭材料面、全t∈[0,1]连续C²嵌入、同一个固定g；开握持区直径≥.2D、整像不对齐变化≥.3D、全时reach≥.03D。全点/全时metric≤1e−6并同g/参数/时间域精化至机器或求解容差；完整可再生网格、连续几何与严格存在差距全付，基础后继续.5D或严格存在强目标。小幅、有限改善、接口、局部定理或时限不算完成；接open下一项不停。
 
-## 3. 97q：真实14d1继续原298库
+## 3. 97q：当前真实59a4属于新f60材料
 
-[279原终态](notes/2026-11-27-r582-physical-pending279-original-terminal.md)run45895078668/job140166868607/source021c6d790；新2375.001235837秒/9接受/12Jac+6未闭块/15fine。真97q **14d1a961e41fa87c152eb81f22837e5e54ba5014bdc5f92f05d70dc5fb5a4445**，p=.181，11100×3072 η4.2622659748238665e−5、物理V0/working V9.77658e−10<tol。actual296×1536/trust2、pending2→298/newfine11103；末raw6f82不合格，独立半步/elift才接受。一次真实strip漏峰交换；clock截止不是stall。
+[298原终态](notes/2026-11-27-r582-physical-pending298-original-terminal.md)run45901312947/job140187488430/source98ded25f6；2370.257524993秒/12metric/13Jac/15fine/14callback。真97q **59a4ba766a9450509bcbd539639503e8a67d9dc0a98c6c3b63f59879c29a7b45**，p=.181，16149×3072 η3.838285782595128e−5、物理/working V0。实际field **f60be03b0af36d5d182f21860fe69cef80439c12bb23562d63dc2b57648bf52c**，62878端点/960932RHS；原14d1在该新field完整baseline实际重付，reuse=false，未借0d资格。
 
-[正常298范围](notes/2026-11-27-r582-physical-pending298-resume-implementation.md)run **45901312947**/job140187488430/source98ded25f6，21:54:44 UTC启动，待自然原log。33绑定/全部原数值函数不改，唯一参数入口279→298，新11103须新完整资格；全部旧fine/pending保留。p阶段2.5e−7未过不增，目标p=.8/末η≤1e−7，mean g仍是设计变量。原62878端点mesh **0d222bd12ce8a61d0c88264c6fb5c82066f0ca058855b5bf7a670a53b483a991**，有限材料不冒无限核；a237/f1几何不可移给14d1。全部原费用保[前史](notes/2026-11-27-r582-physical-paid-resume-original-terminal.md)。
+末d613 η3.77629e−5虽小但fine违约2.65026e−5，真实拒绝并采用13新径向点；actual311×1536/trust2、pending空/新required16167未付。保留59a4仅16149资格，无naturalreturn或stall；按实际311继续，所有旧fine和成本不删。p阶段2.5e−7未过，目标p=.8/末η≤1e−7，mean g仍在设计。
+
+当前mean参数和h也变，旧a237/f1/0d几何与圆参考均不能转移。新几何应同一次重建59a4、付自己的mean参考/C0/C1/R623K；若精确f60可复用同q16149物理观察，否则同对象重付物理。原finite材料不是无限核；全部前史/费用由[279](notes/2026-11-27-r582-physical-pending279-original-terminal.md)及原链保留。
 
 ## 4. B030：真实56e8，旧391/1128队列已全部闭合
 
@@ -51,6 +53,6 @@ actual694圈/1555峰/309work/1536角、trust.3003387451171875；新requiredfine1
 
 [a237/R621原完整收据](notes/2026-11-27-r582-a237-normal-curvature-original-terminal.md)run45895935112/job140169696746/sourceac528e756，新665.753318451秒；mean761叶ρ≥.06072/D≤1.596499814，非圆31136叶0pending，δ≤.001983413969、α≤.02076148645、K≤86.981181881。R604已证真有限材料嵌入，reach≥.01149673962/D≤1.600466642，比例.007183367225未过.03；近帽法向H11≈环境H11，不把上界冒曲率下界。旧f1费用527.88478224秒及其独立比例.00783058仍保，不跨q。
 
-[R623](results/R623-exact-finite-vertical-primitive-with-normalization-remainder.md)准确四频primitive和完整归一化余项已付。[K-only真实终态](notes/2026-11-27-r623-curvature-only-original-mesh-mismatch.md)run45902483327/job140191333308/source18d66d1a3；新增133.483449239秒，在ExactEndpointHermite入口因实际mesh **f60be03b0af36d5d182f21860fe69cef80439c12bb23562d63dc2b57648bf52c**≠请求0d222而停止，无区间K/新reach。新dense960932RHS对旧960944，62878端点数相同仍非同场；原δ/α不得移用。核相同声明输入/软件，根因尚未证。先查已保存原场信息；无法准确恢复则新有限场须自己的全C0/C1/K和物理资格。只独立同mean参考ρ/D可复用；全部失败费用保留。
+[R623](results/R623-exact-finite-vertical-primitive-with-normalization-remainder.md)准确四频primitive和完整归一化余项已付。[K-only真实终态](notes/2026-11-27-r623-curvature-only-original-mesh-mismatch.md)run45902483327/job140191333308/source18d66d1a3；新增133.483449239秒，在ExactEndpointHermite入口因实际mesh **f60be03b0af36d5d182f21860fe69cef80439c12bb23562d63dc2b57648bf52c**≠请求0d222而停止，无区间K/新reach。新dense960932RHS对旧960944，62878端点数相同仍非同场；原δ/α不得移用。核相同声明输入/软件，根因尚未证。原完整端点/段dense未保存，当前后继改59a4/f60；其mean也变，须新参考/C0/C1/R623K，异场再付同对象物理。全部失败费用保留。
 
 [R622](results/R622-longer-intrinsic-near-pairs-and-same-bound-reach.md)只在新R604未建或far受限且比例不足时消费；1/K限制时更小.9/K不能改善而跳过。完整证书取max，不混近远项。R33/R565及joint-budget原全时间/宏观预算沿open保留；当前p=.181不得借p=.8握持见证。每条新结论即推并接开放项，只有README全部门和强目标真完成才收尾。
