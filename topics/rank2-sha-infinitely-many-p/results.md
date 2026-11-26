@@ -48,3 +48,6 @@
 - [R965](results/R965-original-e65-full-joint-dyadic-companion-unit-inverse.md)：同原Lh两全来源共J指数4且完整半特征相同；显示pure-comp u/v的Norm131/71与全中心给四码Heisenberg。绝对η=(-e0+e1+eω+eω²)/2，三项D=ΣU_rV_ωr/2满足h=Dρ、D²=−3/4及完整单位逆。原lift取指定奇次幂压到E[16]^5，保全部中心/整性/模型尺度；经Πfirst交换得到全Λh=DΛρ，不误称C_h交换。原mixedcut准确为9a/2乘三条tame中心积分，全部cut及测试顺序仍保，未给新中央零或无穷性。 §9简代表仅用输入1/5/6，原中心精确相同并同时固定S/T/W±/Z观察；与重排原34块H/P/Rc及Q深核真交换，四态h34/h56严格分开，非新forcing。
 
 - [R966](results/R966-original-e65-delta-new-and-c24-two-center-defect.md)：由原完整Fourier v3=(0,1,1)及全Gaussian/绝对lift证明Πδ390 Z=0。三指定δ译像有J(Z1)=J(Z2)=−J(Z)/2，真坏中央传播仅限这些原来源；C24旧分量3SC给SZ=ΣCj(J−Jj)/9，坏Z后留下2J′(C1J)/9交叉项。Y3=(Z1−Z2)/2是非零type3、首项εc1 z3/2^127；全Λ偶使任意全局偶mixed测试上两δ译像准确为−1/2原投影，§7.2原齐次六次q及全部cut/log证明Frem本来全局偶，直接应用但不把原mixed读数赋零。保原b/17/65/175、真正除p窗口、ordinary卷积后sum-unitcut和inert整Newton分别范围。
+
+
+- [R967](results/R967-original-e65-dyadic-principal-translates-and-mixed-readout.md)：原实半点(-1,0)的Weyl lift为3^(-195/2)倍有理B_T，B_T²=3^195；完整Weil/Hermite字典给Π0U_TZ=Z/√3，等价有理Π0B_TZ=3^97Z。与δ点合成全12有序中心，主读数系数1、−1/2、1/√3、−1/(2√3)，普通/惰性及b尺度全保。原全μ6 mixed测试可直接压缩已投影ρ/h，但不逐单码删角。实际Π0(C1J)=(9SZ−Z)/2非常数比值，排除仅由这12真中央付cross。
