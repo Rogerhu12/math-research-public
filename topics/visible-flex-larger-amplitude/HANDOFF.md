@@ -41,6 +41,11 @@ R692[完整旋转连接](results/R692-nonlinear-rotation-connection-and-metric-e
 并行02规则核查：2026-11-26 11:27:08 UTC，真实pull至`24a7609a76c554e56cf140b498408b3fc885567d`，双README无变化。
 <!-- visible-larger-parallel-02:end -->
 
+<!-- visible-larger-parallel-03:start -->
+并行公开Actions03：[run 45811843606/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45811843606)；[实际记录](notes/2026-11-26-public-actions-45811843606-1.md)。阶段`recipe_start`/running；已返0，exit=未返。
+并行03规则核查：2026-11-26 11:35:32 UTC，真实pull至`4d8fbb0322308ed6849b64f8a92d6bd1215b7bfd`，双README无变化。
+<!-- visible-larger-parallel-03:end -->
+
 ## 当前公开Actions执行
 
 01 [run45762076394/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45762076394) 已正常success；真实stage止于77（49 followups），11:04:33 UTC controller budget checkpoint/research_complete=false。新排归因/ownfirst未准入；不把job终态当课题完成。完整[实际记录](notes/2026-11-26-public-actions-45762076394-1.md)及76/77 note保源码/最后规则读取。当前02继续，另准备直接准确轴对称T0独立入口，避免其重放旧优化方向；不是旧父证书继承。
