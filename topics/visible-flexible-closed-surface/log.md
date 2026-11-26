@@ -206,3 +206,5 @@
 - 2026-11-26 13:09 UTC｜Astra-visible-flex-6a65e705-20261126：[R235](results/R235-reflected-third-jet-compatibility-and-exact-local-patch.md)完整Gram/Gauss第三迹引理支付反射M=0与K<0，原node18551完整有理Ax<−1.68/Az<−.0077；当前C4不能准确消跳但不排C2趋零。显式全Fourier C2局部补丁消本圈jump、原基线metric<2.572125e−8、消费者0.091s真0，未偷加CI；更新open真实3条主线，R236实际run45826114835已启动。
 
 - 2026-11-26 13:16 UTC｜Astra-visible-flex-6a65e705-20261126：点算子源核清minImmersion=|Xs×Xu|²/a²，是目标归一化Gram行列式；更正新gap基线/前三步/4–6三note误称面积元，所有数值/状态/接受不变。同步source003原尝试818.216s真0、α.25/R².1076995485（rho仍设计，不冒同g），新cached source value239.542s+observer401.093s真0，继续v4实际求解。
+
+- 2026-11-26 13:24 UTC｜Astra-visible-flex-6a65e705-20261126：[首原源h真实下降](notes/2026-11-26-6a65-m12-actual-first-source-aligned-h-improvement.md)run45821092388全10stage2390.296s真0，428元41846列/全步接受/800LSMR仍stop7；原297同点峰1.93343e−8→3.96742e−10约48.73倍、旧观察超集4.21683e−9。实际全时reach/D>.03105610/held>.05278322/δE>0及三完整STL再过，metric粗界4.870781e−6仍false；新热点176决定下一h，H压缩保全部实际入口。
