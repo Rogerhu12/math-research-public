@@ -6,6 +6,10 @@
 
 截至R967的前版索引逐字保存在[完整索引归档](results-archive-2026-11-20-before-R968.md)，内接R833前索引及更早全部证明。相对链接保持同目录。归档内保留R808–900真实原高度/函数/Norm/执行入口及完成回执；历史“待计算”以同项较晚的实际certified结果为准，不重做已成结论。固定p41全129盘已由[R707](results/R707-complete-level41-rational-point-classification.md)关闭；一般完整正规化子及全p原高度仍开放。
 
+## 新增结论（2026-11-27）
+
+- **R1039（已证明）**：[R1039](results/R1039-original-p5-complete-CM-normal-jet-and-rational-disc-scale.md)：p5实际ω_B经N_X=N_J和图cycle配对给全阶零环带residue；两中心完整第m层同εR_Ldb，保自身变形/3m+2自由层。原全分支E杀A_tailν、固定F=x^(2g)y，CM早于4m全零，第4m层κ₁R_L(1)dF。原z=ε³w、所有p倍积分分母给Abel-log/formal map除pε整、modp次数≤n₀=4g+1，最高泛函保κ₁/λ₀/J(L)，whole-block M=1。最低单位w项及实际MW横截仍开。
+
 ## 新增结论（2026-11-26）
 
 - **R1038（已证明）**：[R1038](results/R1038-original-p5-Raynaud-lowest-type-and-complete-first-log.md)：全部p≥41、p5mod12，补齐quadratic PS/St后仍有实际整e₁；原双中心图为二次型，e₁G[p∞]≅e₁B[p∞]是真良好块。原P=(p−1)D₀经真实twister、bounded lift和先减Teich挠点给P_B；两个节点同一Dickson消去、不添2，完整首log=εΣθ_s(λ+R_p)f_s，q_s=−r^(8g+2)/A′²。R1024纯代数不依次数奇偶，故原formal/log及e₁首log全准确Fm。未宣整个J良好或指定简单商/CM jet单位。

@@ -6,23 +6,23 @@
 
 会话 **Astra-serre-24b8836b-20261126**。本轮已部分克隆并真实pull main，读两README/H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则读至36cf1ed2。不重做已登记结论或窗口。
 
-**公开两README已读提交：df9e8785ea8f307eac8cbd29673fccc731ea27f9**（2026-11-26 23:57 Asia/Taipei；本次同步两README无差异）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
+**公开两README已读提交：435a6531532226a719f53df55d3dd4ef159b8522**（2026-11-27 00:02 Asia/Taipei；本次同步两README无差异）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
 
 执行宿主本轮断连；15:42 UTC单次恢复探测仍无环境；下次不早于16:43 UTC。按根规矩8用GitHub小文本原子tree/commit、最新head检查和非force expected-head更新；并发拒绝立即在新head重建循环至成功，保其它会话。终端恢复补pull --rebase。令牌仅此前CLI使用，未存文件/提交。根维护main/H/open/index/log；子研究交数学稿。每条结论完整审后立即推。19:52纠正：global_route曾违规用会话V8做数学探索，已叫停；已知范围、时长及独立纸面重核见[执行偏差记录](notes/2026-11-26-execution-path-deviation-and-correction.md)。不得把其数字记为证明或合规窗口。
 
-H<10KB、open尽量<30KB、每MD<100KB、topic<200MB；无可重算raw、不写根LOG。[本次逐字前态](handoff-archive-2026-11-26-before-p5-Raynaud-log.md)沿链保全部旧来源/run/hash；[open](open.md)、[索引](results.md)是完整入口。历史“R1003 norm3准备中”未交付，现R1003为范围纠错。
+H<10KB、open尽量<30KB、每MD<100KB、topic<200MB；无可重算raw、不写根LOG。[本次逐字前态](handoff-archive-2026-11-27-before-p5-CM-jet.md)沿链保全部旧来源/run/hash；[open](open.md)、[索引](results.md)是完整入口。历史“R1003 norm3准备中”未交付，现R1003为范围纠错。
 
 ## 最新全局实际来源
+
+[R1039](results/R1039-original-p5-complete-CM-normal-jet-and-rational-disc-scale.md)：p5实际ω_B经N_X=N_J和图cycle配对给全阶零环带residue；两中心完整第m层同εR_Ldb，保自身变形/3m+2自由层。原全分支E杀A_tailν、固定F=x^(2g)y，CM早于4m全零，第4m层κ₁R_L(1)dF。原z=ε³w、所有p倍积分分母给Abel-log/formal map除pε整、modp次数≤n₀=4g+1，最高泛函保κ₁/λ₀/J(L)，whole-block M=1。最低单位w项及实际MW横截仍开。
 
 [R1038](results/R1038-original-p5-Raynaud-lowest-type-and-complete-first-log.md)：全部p≥41、p5mod12，补齐quadratic PS/St后仍有实际整e₁；原双中心图为二次型，e₁G[p∞]≅e₁B[p∞]是真良好块。原P=(p−1)D₀经真实twister、bounded lift和先减Teich挠点给P_B；两个节点同一Dickson消去、不添2，完整首log=εΣθ_s(λ+R_p)f_s，q_s=−r^(8g+2)/A′²。R1024纯代数不依次数奇偶，故原formal/log及e₁首log全准确Fm。未宣整个J良好或指定简单商/CM jet单位。
 
 [R1037](results/R1037-original-Hodge-graph-operator-and-primitive-MW-annihilator.md)：实际Fil graph给整Q=ε⁻²ΦΠ，Verschiebung准确−ε²Qα；原模π矩阵为quo(r^(8g−2)a(b^p),A²) modA（系数固定）。原ODE将核化为LT=cA，核准确一维且全正δ，负δ上单射；R1026故给Λ_Q=B(v,QD·)本原且消去全部MW饱和格。指定CM值K_Q=(1/2)P_(DQv)(1)保完整Q²，仍待单位与低w系数；B(c₀,J)=−1/8不替代它。
 
-[R1036](results/R1036-original-integral-alternating-test-and-complete-MW-annihilation.md)：实际source Fp²下降/Hermitian切线给Π²=−p及原完美对称B。split-Hecke真生成F₀，原D₀非挠paired块实际仅一次C；完整v给全部MW消去。T5版K_p与Q版K_Q分别待证单位，不冒唯一零点。
+R1035/36原两次PD与source Fp²/Hermitian证明给实际Lie整比较、Π²=−p、完美对称B；split-Hecke真生成F₀，原D₀非挠paired块实际仅一次C，完整v给全部MW消去。保原全部类型/重数，不冒辅助C²。T5版K_p与Q版K_Q分别待单位。
 
-[R1035](results/R1035-original-lowest-type-integral-Lie-comparison-by-two-PD-thickenings.md)：两次真实PD给G₁模ε²常数、原Fil graph及M_L→实际Lie整同构，保全部原对应协变作用。π理想非PD，Frob像非Fil补空间；已付清比较，不回到抽象同型替代。
-
-[R1032](results/R1032-original-lowest-type-complete-CM-normal-jet-functional.md)/[R1033](results/R1033-original-rational-CM-disc-exact-lowest-type-scale-and-tail.md)：原底中心εR_Ldb、R_L=(2/m)ΣL_sθ_s/(b−s)²；完整normal递推给CM早于4m全零，第4m层κ₁R_L(1)d(x^(2g−1)y)。原z=ε³w、w=(a−1)/p³；全部实际type1 Abel-log除pε整，modπ次数≤n₀=4g−1，最高系数保κ₁、λ₀与J(L)。完整p倍积分分母已排，whole-block M=1。实际MW消去已由R1036/37完成；最低单位w下标、指定CM横截及简单商Néron格仍开。
+R1032/33在p11行已给与R1039平行的原完整CM normal/有理盘定理：F=x^(2g−1)y、n₀=4g−1，whole-block M1；全部原κ₁/λ₀与p倍积分分母保结果。原最低单位项、指定MW横截及简单商Néron格仍开。
 
 R1028/29/30原Igusa提升差、整τ₁ Hecke/BT及全分支有限角E已成；E固定dF、杀A_tailν，块内同权lift模p唯一。保原来源/系数，不冒Q简单商Néron格。
 
@@ -66,4 +66,4 @@ R696早已证明同一全局Φ候选Ω_actual={0}，R832已消费；不重做、
 
 固定Y的R805–930及全部runs/高维格/预算边界见open与逐字归档，只消费已成输入。R907四artifact真404仍producer_inputs_pending，不重造；预算失败不作数学负结论。固定41全129盘/8CM已由R707完成，不重开。R575旧正CM角色根号−与逆twist秩零撤回有效。R1004仅导子下界而非a/c上界，停止重复优化。
 
-当前并行：R1037原本原MW已成，K_Q及真实下一低w列待付；R1038 p5 Raynaud/e₁/formal/完整log已成，R1039双中心CM normal/盘尺度与R1040 p5本原消去独立候选审中；R1041原r2 Cartier/kerQ范数/bare精确桥已交候选；继续原CM极化格单位，不能以核一维代范数或K_Q。R1031中心导数/同标签、O0全部全局分支仍开。子问题完成即接open其余项，真正达到README完成标准才收尾。
+当前并行：R1037原本原MW已成，K_Q及真实下一低w列待付；R1038/39 p5 Raynaud首log与CM normal/盘M1已成，R1040 p5本原消去候选整理中；R1041原r2 Cartier/kerQ范数/bare完整桥root/global已全文PASS，随后推。继续原CM极化格单位与j1同阶回流，不能以核一维代范数或K_Q。R1031中心导数/同标签、O0全部全局分支仍开。子问题完成即接open其余项，真正达到README完成标准才收尾。

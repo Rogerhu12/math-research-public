@@ -2,27 +2,23 @@
 
 **主要目标仍OPEN。** 完整证明绝对常数C，或给出p→∞完整无CM反例族；有限素数、条件结论、低权/局部Abel/部分子群均不够。
 
-此前逐字状态在[最新open归档](open-archive-2026-11-26-before-bare-linearization.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重新计算已成输入。
+此前逐字状态在[最新open归档](open-archive-2026-11-27-before-unified-lowest-type.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重新计算已成输入。
 
-R1018已证原P=(p−1)D₀在良好J₁准确Fm，m=(p−1)/2、π₀^((p²−1)/2)=p；原六标记/zero-flux/全局Cech与e3 odd gaps保留。R1019实际A=T5²、Z=(T31−32)T5²保Fm且杀CM，Z另杀Q挠点，充分大界分别max(575,N_HA)、max(36863,N_HZ)，N为固定Norm函数lc/resultant。R1021真full-p Cohen/μ平均给全非约化O/(p)仿射刚性，原u′=ε(c_Qψ+pR_Q)、R_Q仅仿射正则。全部证明与支撑/次数界见[逐字前态](open-archive-2026-11-26-before-actual-CM-jet.md)。R1023现已付清实际首log节点和跨尾返回；实际H_A/H_Z新支撑、所选简单商Néron格及非齐次CM jet仍须核；最低惯性型整投影已由R1029完成。
-
-[R1033](results/R1033-original-rational-CM-disc-exact-lowest-type-scale-and-tail.md)：原z=ε³w、w=(a−1)/p³；全部实际type1 Abel-log除pε后整，modp次数≤n₀=4g−1，最高系数=(2κ₁√A_tail/m)λ₀^−n₀·J(L)。完整p倍积分分母已排，formal坐标同轮廓，whole-block原M=1。最低非零w系数及Q简单商Néron尺度仍开；实际MW饱和消去已由R1036/37完成，不冒唯一零点。
-
-[R1032](results/R1032-original-lowest-type-complete-CM-normal-jet-functional.md)：原p11mod12底L在中心第m层为ε(2/m)ΣL_sθ_s db/(b−s)²；逐层gluing保中心变形，CM早于4m全零。最高极部与R1030整投影给实际e₁Ω_L的4m层=κ₁R_L(1)d(x^(2g−1)y)，原κ₁保留。原Abel系数列为−κ₁√A_tail ε⁴/m·Σθ_s/(1−s)²f_s，现与首log同格；不把graded jet或whole-vector比较冒真实MW饱和空间/统一半径。
-
-R1028真实Igusa与同阶提升差、R1029真整τ₁ Hecke/BT分裂、R1030全部配对分支上的整有限角E均已成。E固定dF、杀A_tailν；块内同权lift模p唯一并保完整原首log。该块不冒Q简单商，具体Néron尺度仍开。原全部系数/角色/来源见各结果及逐字前态。
-
-[R1026](results/R1026-original-single-remainder-and-integral-CM-annihilating-log-direction.md)：固定hypergeometric两尾系数rank2给定义明确绝对C_*，全部p>C_*、p5mod6原Q∤P1−y^ℓ。实际p11mod12行，e_-=(1+ζδ+ζ²δ²)/3作用原logP的首层非零；R575/R1010完整CM方向使其杀全部CM新部，旧部亦杀。原Lie格的饱和CM商中准确Fm本原；未宣R1011具体Néron商格单位或原CM jet半径。
-
-[R1023](results/R1023-original-CM-divisor-complete-first-log-vector.md)准确原log首向量εΣθ_s(λ+R_p)f_s，全部真实节点、跨尾Frob、GM/Schwarzian和整分母保留。[R1024](results/R1024-original-complete-first-log-uniform-nonvanishing.md)用原两整除+中心与互素残差，证明全部p≥47、p11mod12 whole-J深度准确1/(p+1)。R1026保实际e_-单块；具体简单商Néron尺度和CM jet仍开，原H_A/H_Z不能只替换λ。
-
-[R1035](results/R1035-original-lowest-type-integral-Lie-comparison-by-two-PD-thickenings.md)：短PD R/(ε²) 的角色缺失给实际G₁模ε²为constant；大PD(ε²)完整阶乘界给原crystal M⊗R与actual Fil graph，M_L整同构实际Lie，保split Hecke及真实本地T5/δ的协变作用。未用R→k的π-PD或Frob Fil补空间；实际配对与全部MW消去后由R1036/37完成，指定jet取值仍开。
-
-[R1036](results/R1036-original-integral-alternating-test-and-complete-MW-annihilation.md)：原source Fp²下降与Hermitian切线给Π²=−p，B(v,w)=〈Πv,w〉整对称完美，A=B(v,T5Dw)交错。split-Hecke生成真实F₀，原J的D₀非挠paired块实际仅一次C，故完整v=ε⁻¹e₁logP定义整泛函消去全部MW及饱和格。原CM最高系数=−κ₁√A_tail λ₀^−n₀ K_p/m，K_p=(1/2)Σq_s a_s H_(s^p)仍须证非零；未宣泛函本原或唯一零点。
+## 原最低型：已经付清的输入与准确剩余标量
 
 [R1037](results/R1037-original-Hodge-graph-operator-and-primitive-MW-annihilator.md)：实际Fil graph给整Q=ε⁻²ΦΠ，Verschiebung准确−ε²Qα；原模π矩阵为quo(r^(8g−2)a(b^p),A²) modA（系数固定）。原ODE将核化为LT=cA，核准确一维且全正δ，负δ上单射；R1026故给Λ_Q=B(v,QD·)本原且消去全部MW饱和格。指定CM值K_Q=(1/2)P_(DQv)(1)保完整Q²，仍待单位与低w系数；B(c₀,J)=−1/8不替代它。
 
 [R1038](results/R1038-original-p5-Raynaud-lowest-type-and-complete-first-log.md)：全部p≥41、p5mod12，补齐quadratic PS/St后仍有实际整e₁；原双中心图为二次型，e₁G[p∞]≅e₁B[p∞]是真良好块。原P=(p−1)D₀经真实twister、bounded lift和先减Teich挠点给P_B；两个节点同一Dickson消去、不添2，完整首log=εΣθ_s(λ+R_p)f_s，q_s=−r^(8g+2)/A′²。R1024纯代数不依次数奇偶，故原formal/log及e₁首log全准确Fm。未宣整个J良好或指定简单商/CM jet单位。
+
+[R1039](results/R1039-original-p5-complete-CM-normal-jet-and-rational-disc-scale.md)：p5实际ω_B经N_X=N_J和图cycle配对给全阶零环带residue；两中心完整第m层同εR_Ldb，保自身变形/3m+2自由层。原全分支E杀A_tailν、固定F=x^(2g)y，CM早于4m全零，第4m层κ₁R_L(1)dF。原z=ε³w、所有p倍积分分母给Abel-log/formal map除pε整、modp次数≤n₀=4g+1，最高泛函保κ₁/λ₀/J(L)，whole-block M=1。最低单位w项及实际MW横截仍开。
+
+R1032/33已给p11行相应完整normal与原有理盘定理：F=x^(2g−1)y、n₀=4g−1、z=ε³w、w=(a−1)/p³；原底中心R_L=(2/m)ΣL_sθ_s/(b−s)²，CM第4m层κ₁R_L(1)dF，Abel-log除pε整且modp次数≤n₀。保所有原坐标/相位和全部p倍积分分母；whole-block M1不自动给最低单位项或指定MW泛函的单位。
+
+R1035/36实际两次PD给原M_L与Lie整比较；原source Fp²相位/Hermitian切线给Π²=−p与B整对称完美。完整split-Hecke中心F₀及原J中实际重数一已核，B(v,T5D·)消去全部MW饱和格；T5版K_p尚待非零，本原Q版见R1037。没有把辅助Res的C²冒原一次C。
+
+R1023/24/26/29已保p11整首log与原负δ本原：εΣθ_s(λ+R_p)f_s；两整除加中心用Bézout1排全零，单P1非整除给明确定义C_*；e_-杀全部该行CM新部与old。p5完整首log已由R1038单独付款。最低型是p-adic BT直和块，不冒任何预定Q简单商的Néron格。
+
+R1018/19/21原形式点、实际A=T5²与Z=(T31−32)T5²保Fm/杀CM、full-p仿射刚性均已成。其实际H_A/H_Z新支撑仍待算，不能只在R1023公式任换λ。R1028/30同阶Igusa自由修正及真实全分支E已成，不重求已算graded jet。所有常数/阈值/旧执行回执保逐字归档。
 
 ## O0：全主目标覆盖（R1003恢复原范围）
 

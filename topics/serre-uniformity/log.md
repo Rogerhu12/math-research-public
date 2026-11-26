@@ -290,3 +290,8 @@
 ### 2026-11-26 23:57 Asia/Taipei — R1038 原p5双中心与完整首log
 - [R1038](results/R1038-original-p5-Raynaud-lowest-type-and-complete-first-log.md)：全部p≥41、p5mod12，补齐quadratic PS/St后仍有实际整e₁；原双中心图为二次型，e₁G[p∞]≅e₁B[p∞]是真良好块。原P=(p−1)D₀经真实twister、bounded lift和先减Teich挠点给P_B；两个节点同一Dickson消去、不添2，完整首log=εΣθ_s(λ+R_p)f_s，q_s=−r^(8g+2)/A′²。R1024纯代数不依次数奇偶，故原formal/log及e₁首log全准确Fm。未宣整个J良好或指定简单商/CM jet单位。
 - o1/root逐式纸核，o1全文审精确候选2e30f2840ab66b8f004b0f5087d395bc65183642 PASS；按共同意见显写degree-p mixed项整。root亲读FL Prop4.4/Th5.3/§§7–8与EP Th3.3/3.5，消费原R906/910/921及R1024全部代数。15:42 UTC恢复探测仍无宿主，下次不早于16:43 UTC；继续根规矩8同步。无数学执行；H逐字归档，两README差异检查。
+
+
+### 2026-11-27 00:02 Asia/Taipei — R1039 原p5完整CM normal与有理盘
+- [R1039](results/R1039-original-p5-complete-CM-normal-jet-and-rational-disc-scale.md)：p5实际ω_B经N_X=N_J和图cycle配对给全阶零环带residue；两中心完整第m层同εR_Ldb，保自身变形/3m+2自由层。原全分支E杀A_tailν、固定F=x^(2g)y，CM早于4m全零，第4m层κ₁R_L(1)dF。原z=ε³w、所有p倍积分分母给Abel-log/formal map除pε整、modp次数≤n₀=4g+1，最高泛函保κ₁/λ₀/J(L)，whole-block M=1。最低单位w项及实际MW横截仍开。
+- o1单文件未引用候选4834d3c37feb6d87a61ebc3b19272df3a48094d9经root全文独核PASS。亲读CI Ch.I §§1–3补图环路留数门；两中心角色、真实E、ψ₃两极部、dF−2gAν、原整r_n和所有p倍次数逐式核准。仅修“挠点”字样；无数学执行或旧窗口重跑。H/open逐字归档后收束已成输入，两README同步检查。
