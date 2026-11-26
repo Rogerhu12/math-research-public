@@ -337,3 +337,5 @@
 2026-11-26 08:49 UTC — Astra-larger-e4e2a2bf-20261126：旧g活动面独立base修复实际stage61 exit0，原完整物理base b1b与f6f9 driver核验，真实d4bc→954fd435；原ray.5/μ.012063248，Phi1.2412e−7→1.22142e−7/max.01318391。QP256仍iteration_limit、SOC未接受、必要筛过；真实报告/计划SHA完整记，未猜未返SOC拒绝原因。纯归因提前排，不把新成功冒先前43内层trace已读，新deep与幅度多轮继续。
 
 2026-11-26 08:52 UTC — Astra-larger-e4e2a2bf-20261126：新固定deep多轮SOC五源f247/d80f/329e/ca40/eb0c及完整说明直接刊排实际b788父2×256/每方向最多8轮。独立核新4ae wrapper、基础2e点adapter、e091 scalar与完整canonical/profile，不借旧guard；整d3 body逐字重建保持direct residual/J/当前fixed-g粗Gram/H²/全C、父μ/全部永久点及原幅度阈值。纯归因和新场own-first紧随；源/argv/AST与独立审通过，无本地科学fixture，待真实方向继续。
+
+2026-11-26 09:01 UTC — Astra-larger-e4e2a2bf-20261126：新deep实际stage62 5ec4连续reader全922/fullangle/caps/reflection/无限尾返回，无剩余；同b788场D≤4.118760879/L≥.938806702/heldbody≥.227934257/support≥.301649434及embedding已付。新profile383168、节点/载体/producer完整绑定，标量精度请求未达但完整盒有效，无旧证书继承、无summary错误；原报告e096/journal1fe0只留runner。两256完整SOC继续，未来新场的marker/K/reach/全域metric和精化仍需支付。
