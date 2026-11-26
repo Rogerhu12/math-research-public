@@ -37,3 +37,7 @@ python -u topics/visible-flex-held-10pct/scripts/resume_20261126/lowq_prefix_rec
 原 design 子链摘要位于 `@WORK@/design-prefix-recovery/material-delta-design/summary.json`。实际 run 编号与每个真实返回另记；本文不预报恢复或 λ=1 成功。
 
 源 SHA256：恢复 parent `a69f5c6ca118221700b16f01645b87be94afba349ca576825c47993891c22223`；design controller `7f85c3b422416b867a8fd19155583c1e8758fb45729ced1445c290f628360d5d`。两源已有实际 compile/help 通过。数组只留本 runner，提交源、参数、run 编号、SHA 和必要小标量。
+
+## 实际启动
+
+[run45801006547](https://github.com/Rogerhu12/math-research-public/actions/runs/45801006547)已在10:24:19 UTC实际进入job139843898376，原bootstrap于10:25:02完成；worker已运行新请求，首观察处于原M16 port恢复。完整小启动记录见 [实际记录](2026-11-26-original-delta-design-started.json)。runner工作目录为 `/home/runner/work/_temp/held10-design`。没有据启动事件宣称前缀恢复或λ1成功。

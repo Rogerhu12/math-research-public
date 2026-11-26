@@ -1,0 +1,25 @@
+{
+  "session": "Astra-held10-06bbeb39-20261126",
+  "workflow_run": 45801006547,
+  "workflow_url": "https://github.com/Rogerhu12/math-research-public/actions/runs/45801006547",
+  "workflow_head": "9aaf55773e04c27944ba2c608efbe6ce12e5749f",
+  "job_id": 139843898376,
+  "job_started_at": "2026-11-26T10:24:19Z",
+  "bootstrap": {
+    "name": "Restore declared source and physical inputs",
+    "status": "completed",
+    "conclusion": "success",
+    "number": 6,
+    "started_at": "2026-11-26T10:24:33Z",
+    "completed_at": "2026-11-26T10:25:02Z"
+  },
+  "command_id": "held10-material-delta-design-20261126-01",
+  "script": "topics/visible-flex-held-10pct/scripts/resume_20261126/lowq_prefix_recovery_design.py",
+  "script_sha256": "a69f5c6ca118221700b16f01645b87be94afba349ca576825c47993891c22223",
+  "observed_status": "running",
+  "observed_recovery_stage": "restore_m16_linear_port",
+  "workdir": "/home/runner/work/_temp/held10-design",
+  "new_accepted_prefix": false,
+  "lambda_one_reached": false,
+  "complete_surface": false
+}
