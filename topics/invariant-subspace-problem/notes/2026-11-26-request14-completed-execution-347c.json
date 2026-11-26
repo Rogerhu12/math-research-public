@@ -1,0 +1,44 @@
+{
+  "arraysSaved": false,
+  "completedAtUtc": "2026-11-20T12:44:58Z",
+  "format": "isp-request14-recovered-execution-v1",
+  "jobId": 136295226651,
+  "labels": [
+    {
+      "elapsed_seconds": 1.0698791619999994,
+      "exit_code": 0,
+      "label": "rankone_v_four_one",
+      "source_sha256": "bbc7dc98b374c3fdf99365ce6d4f1beaa616f14b787ed3a6d273bd95b53f6c55",
+      "stdout_bytes": 2728,
+      "stdout_sha256": "a499161b1300339d35d970d3de5831fc71098cc0fd40e95e2c65f98fafa66232"
+    },
+    {
+      "elapsed_seconds": 1.4304867649999977,
+      "exit_code": 0,
+      "label": "rankone_v_three_two",
+      "source_sha256": "e5d0bb10904b7280c182e7f6adeb2f5064090e44ed6c88f73c37215a7d17bf2b",
+      "stdout_bytes": 2423,
+      "stdout_sha256": "928e1323f279dd291833f8b620c96f89a2b0797364a4ca24b273bd06c74d1154"
+    },
+    {
+      "elapsed_seconds": 1.848603298999997,
+      "exit_code": 0,
+      "label": "unit31_regular_chart",
+      "source_sha256": "93fb802a18416e0deb692e6890fd99b64b36626ef03bda55b242b04da596dd8b",
+      "stdout_bytes": 205,
+      "stdout_sha256": "c6e252e07b9472da3a6498a3f1504e3600423220bcdccb7d402ce8c0f98d1b22"
+    },
+    {
+      "elapsed_seconds": 1.8969026230000026,
+      "exit_code": 0,
+      "label": "rankone_v_two_three",
+      "source_sha256": "a6041b3fd3c6b8d39b4af09d10994343d9a338b3d734647a230bb90fe715aaeb",
+      "stdout_bytes": 2423,
+      "stdout_sha256": "f959500cbe0bd70f24495fe63c02f70e410e6a8c01dd647f7b7a04d9a2f23086"
+    }
+  ],
+  "recomputed": false,
+  "retrievedDecodedLogSha256": "149063edb8b52cc979646cb6eb3f49751da26847130af12fa86b19b526397dcc",
+  "runId": 44738311930,
+  "sourceCommit": "71e86b47cb04a2fffe6ee39331f660feb954ae0d"
+}

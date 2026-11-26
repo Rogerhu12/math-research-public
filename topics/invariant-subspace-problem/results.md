@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R150 全部秩一V高接触均值极线的完整分类（2026-11-26，已证明）：** [41/32/23三族、全部边界与统一重数推论](results/R150-appendix-rank-one-third-cumulant-high-contact-mean-divisor-classification.md)由旧请求14的完整QQ门登记41仅两T3=0真族、32/23整支空；与五重及311支合并，任意ord_s P_y≥3的rankV1临界点完整T3=0，s只在0/2/−6/∞。保q重根、合流和∞，未再运行旧源；潜在非零Bell只余低接触，另ord2余单根三次型已空。
+
 - **R150 孤立零点加单位3+1的完整rankH4支路为空（2026-11-26，已证明）：** [全部边界、原一般图与QQ消元](results/R150-appendix-essential-four-unit-three-plus-one-isolated-zero-rank-four-branch-is-empty.md)补写旧run14的x0/L0完整边界，再从原mean/局部相容/单点χ构造M,C,X；原QQ395/1142次结式gcd只余四纤维，逐一回原式均落b0/bhalf/γ0，故整个3+1支路关闭。新增源6.846828秒完整通过，仅存源码/参数/SHA；继续unit2+1+1及unit1⁴，不扩大为全局Bell。
 
 - **R150 原权十一准确秩与四个二次式乘Bell三次幂的独立性（2026-11-26，已证明）：** [完整投影下界、特征零夹逼及权十五新门](results/R150-appendix-complete-weight-eleven-rank-four-quadratic-bell-cube-obstructions-and-weight-fifteen-ceiling.md)恢复run44732018666原完整输出，36786阶投影子式mod127=45；结合独立原上界得ΓE,11=36782、原μ11核8912全Koszul，四个q_j b³类线性独立。两呈示核786/306，任意非零q组合的原十八来源权至少14；新增Γ15≤857074。未重跑矩阵，不把投影秩当上界；更高Bell幂与完整算子桥仍开。

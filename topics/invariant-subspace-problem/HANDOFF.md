@@ -5,7 +5,7 @@
 ## 主目标、规则与执行
 
 - **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍仅全体有界算子的存在定理或完整反例；子结果不作完成。
-- **最近实际 pull / 已读规则提交：** `c302b76c221378f604635c5142303944b1ac8370`（2026-11-26 05:36:24 UTC）。本次两README无新规则差异；已读根/课题README、H/open、结果索引及定点log/notes。每次pull及至少每小时比diff，记录SHA。
+- **最近实际 pull / 已读规则提交：** `cd286116ec4691a9dd1580272f75ac12c0e5c0e7`（2026-11-26 05:42:20 UTC）。本次两README无新规则差异；已读根/课题README、H/open、结果索引及定点log/notes。每次pull及至少每小时比diff，记录SHA。
 - 私库 `QUEUE.md` 已成功更新认领，提交 `e776df496eedfa449b0475cefe140fdae7023db4`；非快进已逐次pull --rebase后重推成功。研究在公开仓库，私库仅维护QUEUE；不force，令牌仅CLI环境。
 - 本地部分克隆已恢复；`/tmp/isp-347c05929dd3/math-research-public`。workspace磁盘不足已换TMP，不影响研究。root独占git/H/open/results/log；子代理只写各自TMP草稿。每个完整结论单独推送，计算只留源码/参数/身份/SHA，无数组。
 - 全部旧状态、来源和失败范围保[接手H快照](notes/2026-11-26-handoff-at-takeover-347c.md)及原归档链。MD<100KB、H<10KB、open尽量<30KB、topic<200MB；不写根LOG。
