@@ -1,0 +1,316 @@
+{
+  "schema": "r150-Lt0-mean-consistency-degenerate-line-return-v1",
+  "sourcePath": "notes/2026-11-27-unit211-S0-Lt0-mean-consistency-degenerate-line-return-8542.py",
+  "sourceSha256": "aa378c33ff3aaca8fc110097141ff51d88fc90bee5cebf6f03abd31ce64e905e",
+  "sourceBytes": 20394,
+  "session": "Astra-ISP-8542378f-20261127",
+  "observedClockUTC": "2026-11-26 20:41:07 UTC",
+  "pythonVersion": "3.12.14",
+  "pythonFlintVersion": "0.9.0",
+  "command": "PYTHONPATH=/workspace/scratch/8542378f2b73/isp_pydeps python topics/invariant-subspace-problem/notes/2026-11-27-unit211-S0-Lt0-mean-consistency-degenerate-line-return-8542.py",
+  "exitCode": 0,
+  "elapsedSeconds": 3.42119381700104,
+  "stdoutBytes": 17516,
+  "stdoutSha256": "833e73d78e64d2d560459f23b5770149e2f2e5a9bd0917ac53c116e8dd74d91b",
+  "originalTraceAndMinorChecks": [
+    {
+      "stage": "original_highest_normal_same_root_norm_identity_verified",
+      "identity": "original PB/NB minus returned PB/NB is an explicit multiple of eta^2-(1-Q)Delta",
+      "sameConjugationVerified": true,
+      "noDivisionByH": true,
+      "claimExcluded": false,
+      "seconds": 0.5534822850004275
+    },
+    {
+      "stage": "entire_original_matrix_multiplication_verified",
+      "matrixDeterminant": "-512 e(e+1)(4e-k-4) k^2 (-j)^3 D3^3",
+      "unpaidDeterminantFactors": [],
+      "halfWeightPaidBy": "R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-half-base-weight-exclusion.md",
+      "adjugateIdentities": 9,
+      "normalizedDerivedRowTerms": 205,
+      "normalizedDerivedRowPaidDivisions": [
+        [
+          "e",
+          1
+        ],
+        [
+          "k",
+          2
+        ],
+        [
+          "ell",
+          2
+        ],
+        [
+          "bc",
+          3
+        ]
+      ],
+      "claimExcluded": false,
+      "seconds": 1.3092190139996092
+    },
+    {
+      "stage": "original_normal_form_and_trace_multiplied_back",
+      "name": "N1elim",
+      "degrees": [
+        8,
+        7,
+        1,
+        1,
+        2,
+        0,
+        0
+      ],
+      "terms": 205,
+      "paidRemovals": [],
+      "allCoefficientDenominatorsVerified": true,
+      "sha256": "550897a87317b37c3fd0dbd6fb67beaf2560df1c96c47060e929b09081147371",
+      "claimExcluded": false,
+      "seconds": 1.4746405109999614
+    },
+    {
+      "stage": "original_normal_form_and_trace_multiplied_back",
+      "name": "NB_even",
+      "degrees": [
+        20,
+        15,
+        1,
+        1,
+        3,
+        0,
+        0
+      ],
+      "terms": 1501,
+      "paidRemovals": [],
+      "allCoefficientDenominatorsVerified": true,
+      "sha256": "3ecd773995c4520029fe306670a961086e8ca58e75fdd44f0af9e930757c5c67",
+      "claimExcluded": false,
+      "seconds": 1.5776542160001554
+    },
+    {
+      "stage": "original_normal_form_and_trace_multiplied_back",
+      "name": "PB_even",
+      "degrees": [
+        26,
+        19,
+        1,
+        1,
+        3,
+        0,
+        0
+      ],
+      "terms": 2570,
+      "paidRemovals": [],
+      "allCoefficientDenominatorsVerified": true,
+      "sha256": "d230166836852a9ba97f1e3b4fd59a504bb1e19aa242d558de75cc8a5d8109a1",
+      "claimExcluded": false,
+      "seconds": 1.7229153910011519
+    },
+    {
+      "stage": "original_normal_form_and_trace_multiplied_back",
+      "name": "U_moment",
+      "degrees": [
+        14,
+        13,
+        1,
+        1,
+        3,
+        0,
+        0
+      ],
+      "terms": 880,
+      "paidRemovals": [],
+      "allCoefficientDenominatorsVerified": true,
+      "sha256": "652b0db802d76fae704e510731b071de466a6807526ff4879f7fb23e3856f25d",
+      "claimExcluded": false,
+      "seconds": 1.7723364020002919
+    },
+    {
+      "stage": "original_normal_form_and_trace_multiplied_back",
+      "name": "original_mean_S1",
+      "degrees": [
+        13,
+        9,
+        1,
+        1,
+        3,
+        0,
+        0
+      ],
+      "terms": 597,
+      "paidRemovals": [],
+      "allCoefficientDenominatorsVerified": true,
+      "sha256": "0bed28199244452c2f5a1d700cb79f7db2feb7ffc1aad2d6f7684aa3462cafa9",
+      "claimExcluded": false,
+      "seconds": 1.8067731390001427
+    },
+    {
+      "stage": "original_normal_form_and_trace_multiplied_back",
+      "name": "original_mean_S2",
+      "degrees": [
+        13,
+        9,
+        1,
+        1,
+        3,
+        0,
+        0
+      ],
+      "terms": 549,
+      "paidRemovals": [],
+      "allCoefficientDenominatorsVerified": true,
+      "sha256": "c76a8d14efbc72dacbd34a1f8111beba312778dccfed306f81c3f1e03b79b1f5",
+      "claimExcluded": false,
+      "seconds": 1.8390237389994581
+    }
+  ],
+  "originalLineReturn": [
+    {
+      "stage": "original_minor_specialized_to_k4e",
+      "rows": [
+        0,
+        3,
+        4
+      ],
+      "degrees": [
+        9,
+        5
+      ],
+      "terms": 37,
+      "removedOnlyPaidFactors": [
+        [
+          "distinct_p_q",
+          4
+        ],
+        [
+          "ell",
+          9
+        ]
+      ],
+      "wholeSpecializationMultipliedBack": true,
+      "normalizedPolynomialSha256": "4c135be6b8c9f6c3d2bb344b2068e869b233f50834b4662d4a84190505f1acff",
+      "claimExcluded": false,
+      "seconds": 3.36968516700108
+    },
+    {
+      "stage": "original_minor_specialized_to_k4e",
+      "rows": [
+        0,
+        1,
+        2
+      ],
+      "degrees": [
+        16,
+        6
+      ],
+      "terms": 87,
+      "removedOnlyPaidFactors": [
+        [
+          "distinct_p_q",
+          7
+        ],
+        [
+          "ell",
+          14
+        ]
+      ],
+      "wholeSpecializationMultipliedBack": true,
+      "normalizedPolynomialSha256": "ffb9d81978b70b129ae6525ef594cd39d28d980ab751102c4dbc09682e901807",
+      "claimExcluded": false,
+      "seconds": 3.3916596550006943
+    },
+    {
+      "stage": "original_minor_specialized_to_k4e",
+      "rows": [
+        0,
+        1,
+        3
+      ],
+      "degrees": [
+        17,
+        6
+      ],
+      "terms": 93,
+      "removedOnlyPaidFactors": [
+        [
+          "distinct_p_q",
+          4
+        ],
+        [
+          "ell",
+          9
+        ]
+      ],
+      "wholeSpecializationMultipliedBack": true,
+      "normalizedPolynomialSha256": "220ddd4a6c6f3b3c81aa92c0d194eea919c18f2ef56429e98b3c0d875113305f",
+      "claimExcluded": false,
+      "seconds": 3.404789501000778
+    },
+    {
+      "stage": "full_original_line_resultant",
+      "baseRows": [
+        0,
+        3,
+        4
+      ],
+      "otherRows": [
+        0,
+        1,
+        2
+      ],
+      "parameterDegree": 90,
+      "vDegrees": [
+        5,
+        6
+      ],
+      "sha256": "9803eb2e8e2612514e9c0a33f23a88a4b250cb40931046f81b931f393deb1be6",
+      "allLeadingZeroSpecializationsRetained": true,
+      "claimExcluded": false,
+      "seconds": 3.4071891510011483
+    },
+    {
+      "stage": "full_original_line_resultant",
+      "baseRows": [
+        0,
+        3,
+        4
+      ],
+      "otherRows": [
+        0,
+        1,
+        3
+      ],
+      "parameterDegree": 95,
+      "vDegrees": [
+        5,
+        6
+      ],
+      "sha256": "2740fcc27da62fd397df26a3935df45db7d546bc261fae0f6927743543ef6d16",
+      "allLeadingZeroSpecializationsRetained": true,
+      "claimExcluded": false,
+      "seconds": 3.4093164599999
+    },
+    {
+      "stage": "actual_univariate_Bezout_multiplied_back",
+      "gcd": "e^10*(e+1)^40",
+      "bezoutDegrees": [
+        44,
+        39
+      ],
+      "gcdIsPaidUnit": true,
+      "identitySha256": "d2d2266eb1b82a37022e57b332df5a04eedf9f7abeb958ba25b67a7c77918bde",
+      "claimExcluded": true,
+      "seconds": 3.421001296999748
+    },
+    {
+      "stage": "complete",
+      "scope": "entire S0 Lt0 k=4e, equivalently Q=4(u-1)^2, including all v leading-zero fibers",
+      "ordinaryISPClaim": false,
+      "claimExcluded": true,
+      "sourceSha256": "aa378c33ff3aaca8fc110097141ff51d88fc90bee5cebf6f03abd31ce64e905e",
+      "seconds": 3.42119381700104
+    }
+  ],
+  "claimExcluded": true,
+  "scope": "entire original S0 Lt0 k=4e, Q=4(u-1)^2; ordinary ISP remains open"
+}

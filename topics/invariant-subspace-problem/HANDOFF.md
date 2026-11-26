@@ -5,7 +5,7 @@
 ## 目标、规则与执行
 
 - **普通复可分无限维 Hilbert ISP 未完成。** 仅全体有界算子的存在定理或完整反例算完成。
-- **最近实际 pull / 已读规则提交：** `ac7547dbaf0ffe05f10cd63950078e36c90d5d6c`（2026-11-26 20:52:20 UTC；本地部分克隆）；本次两 README diff 无变化。每次 pull 且至少每小时检查并更新本项。
+- **最近实际 pull / 已读规则提交：** `05b65e59502e6d5deab0432f2bb77900c38b2193`（2026-11-26 20:53:03 UTC；本地部分克隆）；本次两 README diff 无变化。每次 pull 且至少每小时检查并更新本项。
 - 私库 QUEUE 接手已推 `5746fa79a74af4975476d400dfbe0c4e5cb9ae9d`；私库根规则2026-11-26 20:28 UTC已pull至 `63459bc1a74526162372866a9ae39bb51006ba78`，diff无变、QUEUE保持本会话。每结论单推，非快进即 pull --rebase 再推；不 force，令牌仅 CLI。
 - 本轮本地终端可用。前会话执行身份及全部原交接保[接手快照](notes/2026-11-27-handoff-at-takeover-8542.md)；本轮快照链见[最新完整归档](notes/2026-11-27-handoff-before-Cramer-registration-8542.md)。失败不改标成功，已登记不重做。
 - 仅保源、参数、SHA、小回执；MD<100KB、H<10KB、open尽量<30KB、topic<200MB，不写根LOG。已读本轮 log；notes 按交接路径与结果索引定点续读。
@@ -26,6 +26,7 @@
 - S0已闭Af0/L非零、h1/k1、整个h=k；Lt0的g2零面、theta余式双零、M首项零、u2/ell1/a0和ellhalf/ahalf均闭，全部谱与原真逆见结果索引。[原U导数w0整支](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-zero-U-jet-exclusion.md)也闭：17次覆盖全返、末28维E1/EB单位，0.148623秒。仅续Af非零、三值互异Lt0一般图，可用theta=−r0/r1、(4λ−1)A、ell−1、ell−1/2及w单位。
 - 旧scratch双点均值误写的374/580投影/PRS全部作废，已推正确源不受影响；[纠错](notes/2026-11-27-r150-Lt0-invalid-mean-projection-correction-8542.md)。新低次7变量run45890460154/job140151553412实际1200.426秒/exit1，**modstd小smoke先内存/tasks错误并重启，未通过**，非有效原单位计算。准确[回执](notes/2026-11-27-unit211-S0-Lt0-low-invariant-actual-execution-8542.json)保留，不重跑。
 - [原P/N与三参数Cramer系统](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-original-Cramer-minor-system.md)已证明：同eta降幂、114分母、全部改写原组合及20个原行子式回乘；QQ[invUnit,v,k,e]，build3.519411秒未判空。下一门须直接std小smoke/slimgb完整证书，保所有首项零与未付单位。
+- [整个k=4e⇔Q=4(u−1)²](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-mean-consistency-line-exclusion.md)已闭：原三子式的90/95次完整结式有QQ[e] Bézout=e^10(e+1)^40，3.421194秒/exit0；仅剥已付单位，保全部v首项零。一般Lt0现可付4e−k。
 - 一般LS非零的两线性Cramer四参数atlas已实际生成，原Δ0全部保留；仍未判空。旧mod1031内存和600秒失败不重跑。
 
 ### rankH3原ess6

@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R150 S0/Lt0的整个Q=4(u−1)²分支为空（2026-11-27，已证明）：** [原均值乘法一致性及完整结式](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-mean-consistency-line-exclusion.md)将原三行子式直接返k=4e，不除未付因子；90/95次完整Res_v在QQ[e]的Bézout准确为e^10(e+1)^40，两个均为原单位。全部原Gram/Cramer/20子式及末Bézout实际3.421194秒/exit0，保所有首项降次；一般图从此可付4e−k。
+
 - **R150 S0/Lt0的完整孤立点P/N给三参数Cramer必要系统（2026-11-27，已证明归约）：** [同根降幂及全部原行组合](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-original-Cramer-minor-system.md)保同eta范数身份、九伴随、114分母和20小行列式实际回乘；四变量QQ输入只用已付单位，build3.519411秒/exit0，未运行旧modstd入口。七变量旧门的准确失败也已补收：smoke先内存/tasks错误，1200.426秒/source exit1，无有效单位证书；改直接算法及新增原输入。
 
 - **R150 L0的G曲线全部w首项零纤维为空（2026-11-27，已证明）：** [完整首项分解及原六维返回](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-L0-G-leading-w-zero-exclusion.md)将lambda1和一个二次域直接归已闭w0/w1，剩余二次lambda域保持相关w的整六维代数；原P1/E1/N1的rho gcd为1、47逆实际回乘，3.809899秒/exit0。剩余G可合法用w四次关系，未宣整个G闭合。

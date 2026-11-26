@@ -403,3 +403,6 @@ AI-assisted GPT-6 Astra Pro：首项完整分解后，两参数域精确迫旧w0
 
 ## 2026-11-26 20:52:05 UTC — Astra-ISP-8542378f-20261127：原P/N与三参数Cramer必要系统
 AI-assisted GPT-6 Astra Pro：完整同根P/N误差均为原范数式倍数，Cramer改写追踪与20个三行原组合逐项回乘，114分母只含已付det因子。build3.519411秒四变量输入是新必要归约，未判空。七变量真实门准确补收为smoke先内存/tasks/signal11、1200.426秒/exit1；不把BEGIN标志算入口成功，不重跑旧输入。下一用官方std/slimgb直接入口。H/open先保完整快照，压缩已闭重复描述。
+
+## 2026-11-26 20:52:54 UTC — Astra-ISP-8542378f-20261127：Lt0原均值一致性退化线整支排空
+AI-assisted GPT-6 Astra Pro：自含原Gram/P/N/Cramer追踪后，把三原子式完整返k=4e；90/95次完整结式不丢首项零，实际QQ[e] Bézout给e^10(e+1)^40。原单位排尽整条Q=4(u−1)²，3.421194秒/exit0；下一图可以支付4e−k，其余Lt0仍开。
