@@ -441,3 +441,10 @@
 ### 2026-11-27 04:45 Asia/Taipei — 持续同步与实际执行环境断点
 - 04:44:59再次请求真实git pull --rebase，服务仍返回No usable execution environment，未运行shell。随后连接器同步41336f9f3643b3af13fe9b096691f3c24b0bb140，较75e1738的三个新增提交不涉及两README或本课题；继续按根规矩8使用expected_sha非force小文本更新，真实pull最近一次仍为01:48，恢复后立即执行。
 - R1061单位桥首次ref更新遇GitHub GraphQL服务错误，已立刻freshhead检查并重建提交，第二次成功75e173839d76bbeed1c56785f266bffd2ae9208b；无force覆盖。o1随后全文核relative/absolute约定和实际frames通过。当前继续e/S_n单位、完整W*/P²与O0真实覆盖，不重跑已成窗口或R378旧Newton边界。
+
+
+### 2026-11-27 05:27 Asia/Taipei — R1063 原整 MW 消去族及真实辛商目标
+- [R1063](results/R1063-original-Hecke-and-Hodge-graph-annihilator-family.md)：原完整 $v$ 的全部整 $\Lambda_{T,j}=B(v,T\mathcal Q^{2j+1}D\,\cdot)$ 已付全 MW 消去，最低读数为 $2\bar B(\bar TQ^{2j}\bar v,QD L_{\rm CM})$。真实轨道必对 $A_Q=\bar B(\cdot,QD\cdot)$ 各向同性，维数至多 $N+1$，不能满新部；若辛商像为 Lagrangian，最低全零恰等价于 $L_{\rm new}\in\mathscr U_k+kc_0$。最大商维数及排除此包含仍开，不任换 $\lambda$、不删 $Q^2$。
+- 原完整第一槽不改变；另以整自伴新部投影定义轨道，未从首层无旧部误推完整对数无旧部。所有奇次 $\mathcal Q$ 与 $D$ 的反伴随、原整 Hecke 自伴/平衡、两行 CM/旧部及全部非挠 paired block 已逐式核对。
+- 最低系数保 R1052 全部 $\kappa_1,A_{\rm tail},\lambda_0$ 和 $Q^{2j+1}(1-Q)\lambda$。根与 o2 独立核轨道全各向同性、根基恰 $kc_0$，故撤去“将来证明全轨道满”的方向，转实际 Lagrangian 与原最低列位置。没有假定 bare 核范数单位。
+- H/open 前态逐字归档，压缩已闭输入而保全部开放范围；全文纸推，无数学程序或旧窗口执行。

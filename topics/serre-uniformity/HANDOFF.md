@@ -6,25 +6,25 @@
 
 会话 **Astra-serre-24b8836b-20261126**。本轮已部分克隆并真实pull main，读两README/H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则读至36cf1ed2。不重做已登记结论或窗口。
 
-**公开两README已读提交：41336f9f3643b3af13fe9b096691f3c24b0bb140**（2026-11-27 04:45 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
+**公开两README已读提交：8dcda4af59eb5f37480930e922abbef97be4341f**（2026-11-27 05:27 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
 
 已真实部分克隆/pull；04:44再试仍报无可用执行环境，shell未运行；按根规矩8用连接器小文本同步、读两README差异、带expected_sha非force提交，恢复后立即pull --rebase。拒绝即同步重基再推至成功。令牌仅CLI；根维护main/H/open/index/log，子研究独立稿，每条结论立即推。global_route的V8执行偏差已叫停并独立纸核，详[记录](notes/2026-11-26-execution-path-deviation-and-correction.md)，其输出不作证明/合规窗口。
 
-H<10KB、open尽量<30KB、每MD<100KB、topic<200MB；无可重算raw、不写根LOG。[本次逐字前态](handoff-archive-2026-11-27-before-fixed-Petri-unit-bridge.md)沿链保全部旧来源/run/hash；[open](open.md)、[索引](results.md)是完整入口。历史“R1003 norm3准备中”未交付，现R1003为范围纠错。
+H<10KB、open尽量<30KB、每MD<100KB、topic<200MB；无可重算raw、不写根LOG。[本次逐字前态](handoff-archive-2026-11-27-before-global-Kummer-and-annihilator-family.md)沿链保全部旧来源/run/hash；[open](open.md)、[索引](results.md)是完整入口。历史“R1003 norm3准备中”未交付，现R1003为范围纠错。
 
 ## 最新全局实际来源
 
-[R1058](results/R1058-original-Cartier-resonance-and-complete-lowest-residue-source.md)：规范Jhat与原Q的Cartier身份、Tλ/A两pth修正已付。§§8–12以P=qJhat迁完整D/Q/Q²最低到全部P根；q根、b0、∞无残数，P非齐次Gauss forcing不删。P根至多四重（四重仅可能r1/9）、实际L_D极阶≤9。完整Q²单系数为(-3)^d[r^(d−1)]W*/P²/(dA1)，每根最多七阶导数；非零仍开。
+[R1063](results/R1063-original-Hecke-and-Hodge-graph-annihilator-family.md)：原完整 $v$ 的全部整 $\Lambda_{T,j}=B(v,T\mathcal Q^{2j+1}D\,\cdot)$ 已付全 MW 消去，最低读数为 $2\bar B(\bar TQ^{2j}\bar v,QD L_{\rm CM})$。真实轨道必对 $A_Q=\bar B(\cdot,QD\cdot)$ 各向同性，维数至多 $N+1$，不能满新部；若辛商像为 Lagrangian，最低全零恰等价于 $L_{\rm new}\in\mathscr U_k+kc_0$。最大商维数及排除此包含仍开，不任换 $\lambda$、不删 $Q^2$。
 
-[R1056](results/R1056-original-kernel-lowest-CM-single-coefficient.md)：全p6N5核列C_s=(-3)^d[r^(d−1)]q^(s+1)/j^(s−1)/[s(s−1)]，s2/8、d=(p−s)/3；原H′和尺度已付，不扩bare身份，不与DQv/端点/norm混同。
+[R1058](results/R1058-original-Cartier-resonance-and-complete-lowest-residue-source.md)：完整 $D/Q/Q^2$ 最低值已迁至全部 $P=q\widehat J$ 根，等于 $(-3)^d[r^{d-1}]W_*/P^2/(dA_1)$。所有其它极点、非齐次 forcing 与规范修正保原文；$P$ 根至多四重、每根至多七阶 jet，非零仍开。
 
-[R1055](results/R1055-original-complete-first-log-canonical-rational-primitive.md)：原完整v的唯一规范V=6(bU₁+b²U₂)/(A1²r^ℓ)；全商/有理代表、全部三CM极部与pth歧义均付，不跨共振。
+[R1056](results/R1056-original-kernel-lowest-CM-single-coefficient.md) 给全 $p=6N+5$ 原核两列的完整单系数，$s=2,8$；[R1055](results/R1055-original-complete-first-log-canonical-rational-primitive.md) 给原完整 $v$ 的规范有理原函数。全部尺度、三 CM 极部与 $p$ 次幂修正保原文；未证单位，不扩 bare 身份。
 
 [R1052](results/R1052-original-complete-CM-profile-and-actual-lowest-functional.md)：完整source/target、全返回与p除法误差已付，原全轮廓精确读取[Z^k](T_c/A)(B_CM)，保κ₁/λ₀与双incidence。最低C_CM(T)=2B(c,L_CM)，实际2B(v,QD L_CM)保Q²；全p最低单位/深盘仍开。
 
-[R1045](results/R1045-original-MW-annihilator-nonzero-reduction.md)/[R1046](results/R1046-original-p5-complete-CM-flag-and-MW-nonzero-reduction.md)：两行p>C_*原MW消去后M1，三CM/Euler排contact；p5双中心/∞全保。[R1047](results/R1047-original-MW-saturated-profile-and-common-zero-bound.md)给饱和系数映射、公共零重数≤n₀−rankΣ+1，n₀=(p−2)/3；最低单位/非中心仍开。
+[R1045](results/R1045-original-MW-annihilator-nonzero-reduction.md)/[R1046](results/R1046-original-p5-complete-CM-flag-and-MW-nonzero-reduction.md) 已付两行 $p>C_*$ 的全 MW 后 $M=1$；[R1047](results/R1047-original-MW-saturated-profile-and-common-zero-bound.md) 给饱和系数映射与公共零重数界。最低单位/非中心仍开，全部原盘/相位/整尾保原文。
 
-R1035–40两行实际PD、Fp²/Hermitian、Π²=−p与全Q/MW消去已付；p5只在好B/formal施e₁，先减Teich，完整log/尾与paired块保原证明。R1026给C_*后原负δ首log非零；R1010非CM非挠界全p10¹⁸/p11可431。R1011实际Q简单商dim2f、rankf、End=F₀、MW=F₀β；AST不付整单位/统一半径，不搬变化X_d。
+R1035–40 的两行实际 PD、整 $B,Q$ 与全 MW 消去已付；$p5$ 仍先减 Teich，只在好部分施 $e_1$。R1026 支付 $C_*$ 后原负角色首 log 非零。R1010/11 给原非 CM 非挠块与实际半秩商；AST 不付整单位/统一半径，不搬变化 $X_d$。
 
 R1018–30的原Fm/节点log/完整非约化运输只消费，全部相位尺度见归档及原文；H_A/H_Z新支撑仍开。
 
@@ -38,15 +38,13 @@ R1018–30的原Fm/节点log/完整非约化运输只消费，全部相位尺度
 
 [R1060](results/R1060-actual-X108-nonCM-Cartier-and-nine-torsion-ordinary-input.md)：原X108非CM四Cartier矩阵精确由B_n=P_n(3)=−a_p(E54)控制。明确九挠点/实际三次同源给原p2/5mod9时B_n≠0、非CM ordinary且核恰六CM。A_p=−S_n/3，但尚未证S_n=0⇒B_n=0，不能代原f_N单位。
 
-[R1059](results/R1059-original-fN-actual-X108-Raynaud-pairing-and-inverse-central-sum.md)：原Θ=f27，实际X108的z³=1−3sx³、w³=1+3sx³及Ω=dx/(z²w²)保整格/q尺度；Raynaud配对给原A_p=(-1)^N3^(3N+1)Σ_i(-1)^i binom(n,i)²/(3i+1)，n=(p−2)/3。全部ζ半线性已付，f_N=t²δ′A_p/[4(p+1)]；指定和单位与同h筛选仍开。
+[R1049](results/R1049-original-fN-theta-first-direction-moment.md)、[R1059](results/R1059-original-fN-actual-X108-Raynaud-pairing-and-inverse-central-sum.md) 已付同一原 $q/\eta$ 尺度、方向矩、实际 X108 配对与 $f_N$ 的 $S_n$ 桥；原 primitive/Legendre 同 $h$ 筛选仍开。
 
-[R1049](results/R1049-original-fN-theta-first-direction-moment.md)：原方向一阶矩保全μ₆相位，§6严格给f_N=t²δ′[q^p]ΘEΘ(q⁴)/[4(p+1)]；完整36/12、奇偶交换和分母已付，指定系数与同h筛选仍开。
-
-[R1043](results/R1043-original-fN-and-Hodge-kernel-CM-endpoint.md)：全p=6N+5≥41原f_N=−T₀(1)/6，保原positive CM/oldform/fine Cartier及两行Tate符号。原B(c₀,λ)=B(c₀,v)=−18f_N/A(1)。端点非零及同h筛选仍开；它不是r2的核范数或r8 bare。
+[R1043](results/R1043-original-fN-and-Hodge-kernel-CM-endpoint.md)：全 $p=6N+5$ 原 $f_N=-T_0(1)/6$，核端点仍未证单位；不与 bare 核范数或 DQv 混同。
 
 [R1031](results/R1031-original-fN-and-actual-Faber-truncation-central-derivative.md)：f_N=0 iff有限Legendre平方截断R′(1/2)=0；原AS尺度/forcing已付，forcing单位不代中心导数单位。
 
-R1012/16/17/20/25/27未经筛选的完整theta分布、常平方1与全方向单位已成；原六标记/标量均保各结果，不能代原primitive/Legendre同h或bare。
+R1012/16/17/20/25/27 的未经筛选完整 theta 分布、常平方一及全方向单位已成，全部相位与实际来源保原文/归档；不能代同 $h$ 两 mask 或 bare。
 
 原h=6i+7须同一本原h使P_(h−1)(1/s)fi gj非零，i+j=N−1；原Norm/双CM权/相位和两个mask不删。R971 full-span、R1006全p G稳定已否；特定A/E4仍开，粗CM阶≤4不代零阶。R995–1002等已成输入只消费；R706旧5992 f_N/5991 g_N单位至200000（g零137147）不重算。全部原角色/例外/run保open和归档。
 
@@ -60,7 +58,7 @@ R1015/16、R976–1005原regular/carry/Robert/Hurwitz及K共振缺陷保原结�
 
 ## O4：高度边界保留
 
-R1007同一整高度格/自伴/清分母下新Prym Picard类三挠，指定高度在ℓ²Zℓ，一致基点/splitting不解除。R1008野3扭曲证原X₁及实际偶X_d的全部End_Q中央化δ（含非CM/旧部/重数），nondeck入口关闭；canonical d4不能反套。R1010/11不撤销此障碍；底η_h、其它完整高度及全部σ/cY、eη、d/N、nonp、Poincaré数据仍保。
+R1007/08 已证同一整自伴高度格的三挠 Picard 类与 $\ell^2$ 障碍，并由野三惯性关闭全部有理 nondeck 对应入口；未解除底 $\eta_h$、其它完整高度及全部 $\sigma/c_Y,e_\eta,d/N,$ non-$p$、Poincaré/splitting 输入。
 
 R696早已证明同一全局Φ候选Ω_actual={0}，R832已消费；不重做、不当一般Q₃值域。R948仅关闭两个有限例Abel零集，rational候选仍可有非零MW像。Jaswal2026稿仅核方法假设，不接受其121主定理作输入。
 

@@ -8,6 +8,8 @@
 
 ## 新增结论（2026-11-27）
 
+- **R1063（实际整族与各向同性已证明）**：[R1063](results/R1063-original-Hecke-and-Hodge-graph-annihilator-family.md)：原完整 $v$ 的全部整 $\Lambda_{T,j}=B(v,T\mathcal Q^{2j+1}D\,\cdot)$ 已付全 MW 消去，最低读数为 $2\bar B(\bar TQ^{2j}\bar v,QD L_{\rm CM})$。真实轨道必对 $A_Q=\bar B(\cdot,QD\cdot)$ 各向同性，维数至多 $N+1$，不能满新部；若辛商像为 Lagrangian，最低全零恰等价于 $L_{\rm new}\in\mathscr U_k+kc_0$。最大商维数及排除此包含仍开，不任换 $\lambda$、不删 $Q^2$。
+
 - **R1061（已证明的实际几何判据）**：[R1061](results/R1061-actual-genus-two-etale-cover-and-original-three-torsion-Petri-point.md)：原X108实际无分歧九次商C:Y²=R⁶−108，原S_n落Dχ=Qz−Qw=q*Q的三挠线；两一维exact空间的有序配对为(S_n/s)R dR/Y。故原f_N单位等价于该具体theta点光滑，smooth仍开；C superspecial，邻近ordinary四角色不代证明。 §§6–10已付原Miller首a^p、完整Cartier e及真实e≠0⇔S_n≠0桥；relative参数/切向2全保。原K=−sS_n，端点差单位不代K/e单位。
 
 - **R1060（单位输入已证明）**：[R1060](results/R1060-actual-X108-nonCM-Cartier-and-nine-torsion-ordinary-input.md)：原X108非CM四Cartier矩阵精确由B_n=P_n(3)=−a_p(E54)控制。明确九挠点/实际三次同源给原p2/5mod9时B_n≠0、非CM ordinary且核恰六CM。A_p=−S_n/3，但尚未证S_n=0⇒B_n=0，不能代原f_N单位。

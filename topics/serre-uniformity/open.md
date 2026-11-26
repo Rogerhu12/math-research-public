@@ -2,17 +2,18 @@
 
 **主要目标仍OPEN。** 完整证明绝对常数C，或给出p→∞完整无CM反例族；有限素数、条件结论、低权/局部Abel/部分子群均不够。
 
-此前逐字状态在[最新open归档](open-archive-2026-11-27-before-fixed-Petri-unit-bridge.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重算。
+此前逐字状态在[最新open归档](open-archive-2026-11-27-before-global-Kummer-and-annihilator-family.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重算。
 
 ## 原最低型：已经付清的输入与准确剩余标量
 
+[R1063](results/R1063-original-Hecke-and-Hodge-graph-annihilator-family.md)：原完整 $v$ 的全部整 $\Lambda_{T,j}=B(v,T\mathcal Q^{2j+1}D\,\cdot)$ 已付全 MW 消去，最低读数为 $2\bar B(\bar TQ^{2j}\bar v,QD L_{\rm CM})$。真实轨道必对 $A_Q=\bar B(\cdot,QD\cdot)$ 各向同性，维数至多 $N+1$，不能满新部；若辛商像为 Lagrangian，最低全零恰等价于 $L_{\rm new}\in\mathscr U_k+kc_0$。最大商维数及排除此包含仍开，不任换 $\lambda$、不删 $Q^2$。
+
 [R1058](results/R1058-original-Cartier-resonance-and-complete-lowest-residue-source.md)：规范Jhat与原Q的Cartier身份、Tλ/A两pth修正已付。§§8–12以P=qJhat迁完整D/Q/Q²最低到全部P根；q根、b0、∞无残数，P非齐次Gauss forcing不删。P根至多四重（四重仅可能r1/9）、实际L_D极阶≤9。完整Q²单系数为(-3)^d[r^(d−1)]W*/P²/(dA1)，每根最多七阶导数；非零仍开。
 
-[R1056](results/R1056-original-kernel-lowest-CM-single-coefficient.md)：全p6N5原核的两列C_s=(-3)^d[r^(d−1)]q^(s+1)/j^(s−1)/[s(s−1)]，s2/8、d=(p−s)/3；s2即原最低q³/j。H′=h²、所有分母/尺度已付；不与端点、bare范数、DQv混同，不扩原bare范围，单位仍开。
+[R1056](results/R1056-original-kernel-lowest-CM-single-coefficient.md) 给全 $p=6N+5$ 原核的 $s=2,8$ 两列单系数；[R1055](results/R1055-original-complete-first-log-canonical-rational-primitive.md) 给完整 $v$ 的规范原函数。原尺度、所有极部与 $p$ 次幂歧义已付；不跨共振、不扩 bare 身份，单位仍开。
 
 [R1054](results/R1054-original-lowest-CM-column-kernel-candidate-counterexample.md)：p47 K15=23排最低列恒落Q核候选。
 [R1057 §5](results/R1057-certified-original-p47-actual-lowest-functional.md)：本次真实C=15支付p47一次单位；逐节核C_*仅用于自动本原、逐块全MW消去不需该界，故原X₁指定c₁的v47(w)>0深盘唯一有理点为c₁。未分类其它盘/X_d/O0；无重算。
-[R1055](results/R1055-original-complete-first-log-canonical-rational-primitive.md)：原v的唯一规范V=6(bU₁+b²U₂)/(A1²r^ℓ)，U_i=[(1−r)^−i/3j/q]_<ℓ。全商、三CM、S₀及pth歧义已付；不跨共振，不代最低单位。
 
 [R1052](results/R1052-original-complete-CM-profile-and-actual-lowest-functional.md)：完整source/target、全返回与p除法误差已付，原全轮廓精确读取[Z^k](T_c/A)(B_CM)，保κ₁/λ₀与双incidence。最低C_CM(T)=2B(c,L_CM)，实际2B(v,QD L_CM)保Q²；全p最低单位/深盘仍开。
 
@@ -58,9 +59,9 @@ R1022/25/27原相位、D_p=1与δ′²=1全部已成，完整尺度保原结果/
 
 [R1020](results/R1020-original-critical-convolution-complete-theta-scalar-bridge.md)：原全方向比值、实际index2 vacuum、norm3分布负号和canonical三挠/Weyl二次相位全部已核，十二代表不变。完整尺度保结果与归档，不代原primitive/Legendre同h或O2单位。
 
-[R1017](results/R1017-original-tame-two-three-phases-and-every-direction-critical-unit.md)：全部p≥41、p5mod6，原未经筛选H_p在全部T⁻处处单位。R1013实际下降源经真半周期乘法/Frobenius符号落入V_+²，原μ6角色只留a U⊗Y+b Y⊗U；canonical三挠lift把原四点精确送到两轴，保全部相位得a,b非零且a/b∈μ6。唯一可能非零根Norm1，不在T⁻。原scalar保留，primitive/Legendre同h仍开，未接bare O2。R1013较弱统一零点界由此加强。
+R1017 的原 $\mu_6$ 两项源、三挠 lift 与 $T^-$ 上无零已经证明；这些全方向结论只消费，不重做，不能替代实际同 $h$ 筛选。
 
-[R1012](results/R1012-original-p-similitude-divided-high-coordinates-and-critical-bridge.md)：每个Normκ=−1方向恰12个Eisenstein norm-p表示，构成实际p-similitude。首pole在原矩形全消；四个指定divided高系数q_j的相邻差准确为aκ^pH_p(κ)/(5βᾱ)，全部未知整高带只进共同常数。等价原导数平衡系数[z^(p−3)t^(p−3)]F′(u)G(w)=(B/5)κ^p(βᾱ)^(p−3)H_p(κ)，外因子全单位。左端已由R1017给全部方向单位，仍未接bare c_(p−r)；继续真实Poincaré来源并保primitive/Legendre。
+[R1012](results/R1012-original-p-similitude-divided-high-coordinates-and-critical-bridge.md) 的实际 $p$-similitude、十二表示、完整除 $p$ 高坐标与双向导数桥，已由 [R1017](results/R1017-original-tame-two-three-phases-and-every-direction-critical-unit.md) 给未经筛选的全部方向单位；全部来源与相位保原文。未接单个 bare 高系数，原 primitive/Legendre 同 $h$ 筛选不删。
 
 本节限定原指定CM源；其R317应用受O0全部附加条件约束，D/bc无统一上界。p=6N+5、h=6i+7、i+j=N−1，原J32准确单位乘(P_(h−1)(1/s)fi gj)^p；必须同一个本原h使三个因子非零，完整Norm/两CM权/det/半周期/ζ²相位不换。
 
@@ -163,7 +164,6 @@ R907原j1 run43924786163只因pre-core配置KeyError停止；[schema修复](note
 ## O6：保留的其他全局路线与永久边界
 
 [R1004](results/R1004-exact-even-valuation-at-CM-cross-primes.md)继续R320：指定CM交叉迹差在p≡5mod12的赋值总为偶数。实际立方条件还给3|v，pⁿ同构给q≥p^(4⌈n/2⌉)+56p^(2⌈n/2⌉)+676，q7mod12给4p^(2n)+27；这些迹差的奇/偶相邻检测阈值等价，不给全局p²提升，也不限制a/c。继续真正全局参数控制。
-
 
 固定41全部129盘已由R707完整关闭，八CM/无有理尖点；不重开、不外推一般p。R101/R109等有限层尖点与整j结果保原scope，有gap的BBM全p≤97分类不能作输入。R4已排通常Runge捷径：实际提升域尖点轨道数等于无穷位数。
 
