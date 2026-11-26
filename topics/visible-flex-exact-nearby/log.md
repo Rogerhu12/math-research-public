@@ -308,3 +308,6 @@ NS五件共129172B，owner71056B SHA18db439d5895e4232882940a57b7bd9457982383e1ac
 
 
 2026-11-26 22:10:38 UTC / visible-exact-astra-fb31ed6-20261127：登记WP全正端raw hybrid费用。整区间内在B6/G14由原完整WLA与cap结论给出，M0/M1<.000139597/.000010911、LL/HL/LH<.004330/.003229/.005298，carrier97..160转窗.029061/3.396018；14个saved有理比较已过。完整PA mean-rank/三个primitive/原cross保，S^-1与左O权重、193独立atom和point不删；不冒认weighted receiver或finite门。91小metadata等义压缩已推ea5df4ce1，遇一次非FF即时rebase再推成功，两README每次无diff。
+
+
+2026-11-26 22:11:58 UTC / visible-exact-astra-fb31ed6-20261127：登记TC同trial continuation proof/owner/generator三件。原owner63363B/193a3171…逐字钉住，只9处明确metadata兼容替换与三个只读函数，8数值source完全同SHA；原必要Hermite恢复producer1如实保，原nodal QR/残差0。完整4数组和proposal/cert-plan、已成matrix自然对象、所有96×5非负hex前缀完整继承；actual_child_returncode=null拒绝，真实终态后才可造剩余域manifest。metadata/AST全patch预检已过，numerical导入0；当前run不受改动。WP已推770e64d4d，两README无diff。

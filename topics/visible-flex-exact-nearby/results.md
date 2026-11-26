@@ -333,3 +333,5 @@
 - [IR实际完整原inverse-density行](results/R149-supplement-actual-complete-original-inverse-density-rows.md)：45899761652/1完整99/99，joint H−1/2残差<.142402、L²残差<.435430、完整L行误差<.071201；全96 signed head/aliases/infinite tails/true-map误差同次保。原A/Theta/physical means与fullSchur仍独立待付，旧科学不重。
 
 - [WP：全正端raw hybrid三块完整费用](results/R144-supplement-actual-whole-positive-raw-hybrid-fees.md)：已成WLA与全cap内在球给whole B6/G14；14个纯有理比较全过，LL/HL/LH<.004330/.003229/.005298，97..160 shell转窗<.029061/3.396018。全部原S/193atoms/root97/outer96/point与原cross+增量保，未授weighted Green或low/high Schur门。
+
+- [TC同trial终态后前缀续算](results/R149-supplement-same-trial-prefix-continuation-after-input-restoration.md)：完整原63363B owner逐字钉住，仅metadata源兼容/恢复资格修复，8数值源、全4 endpoint数组、exact partition与96×5完整累加器不变。必要Hermite重物化producer1如实保，不重已完成矩阵或积分；运行中和三目标已全成均拒绝，无新manifest/实际科学启动。
