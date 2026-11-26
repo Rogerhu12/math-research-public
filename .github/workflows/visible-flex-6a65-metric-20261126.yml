@@ -1,0 +1,44 @@
+name: Visible flex 6a65 quartic metric continuation
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - topics/visible-flexible-closed-surface/ci-requests/6a65-quartic-metric-20261126.json
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: visible-flex-6a65-metric-20261126
+  cancel-in-progress: false
+
+jobs:
+  continue:
+    if: github.repository == 'Rogerhu12/math-research-public'
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - name: Partial clone only this topic
+        shell: bash
+        run: |
+          set -euo pipefail
+          git clone --filter=blob:none --sparse --depth=1 "https://github.com/$GITHUB_REPOSITORY.git" "$GITHUB_WORKSPACE"
+          cd "$GITHUB_WORKSPACE"
+          git sparse-checkout set topics/visible-flexible-closed-surface .github/workflows
+          git fetch --filter=blob:none --depth=1 origin "$GITHUB_SHA"
+          git checkout --detach "$GITHUB_SHA"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Continue complete metric steps and push scalar observations
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          python3 topics/visible-flexible-closed-surface/scripts/6a65-actions-metric-continuation-20261126.py \
+            --request topics/visible-flexible-closed-surface/ci-requests/6a65-quartic-metric-20261126.json \
+            --out-dir "$RUNNER_TEMP/visible-flex-6a65-$GITHUB_RUN_ID-$GITHUB_RUN_ATTEMPT"
+

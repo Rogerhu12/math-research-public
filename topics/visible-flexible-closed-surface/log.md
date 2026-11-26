@@ -572,3 +572,5 @@ R208完整注入组e297410f：同3态由J30/K7/N64的932维插1/20、7/20、5/12
 - 2026-11-26 06:12 UTC｜Astra-visible-flex-6a65e705-20261126：R215完整新帽放宽核板宽至.895并保D≤3.2/δE≥.1609/R=.097，全部原核输入仍须实付；Fraction8极点与21预算真0。新gap1/Δ=.05完整value真0，held改善但metric=.729182/κ24.52988，继续其完整LM。
 
 - 2026-11-26 06:17 UTC｜Astra-visible-flex-6a65e705-20261126：R216以73源cells/5角片全有理二jets和管体积矩预算，支付真实X+W全时reach/held/H/含反射δE及metric粗界；未借R114尖界，未付G5。继续真实Φ复合与更多径向/切向修正。
+
+- 2026-11-26 06:18 UTC｜Astra-visible-flex-6a65e705-20261126：新增本题专用.github/workflows/visible-flex-6a65-metric-20261126.yml及逐进程控制器，因环境失盘和完整长续算需要使用公共Actions；每接受真实pull核规矩后push小结论，原始数组仅runner临时区。触发60步请求，未冒启动为完成。
