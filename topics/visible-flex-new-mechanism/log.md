@@ -55,3 +55,7 @@ root全文读699行源、最终request/workflow及说明；纸核真M四even消�
 ## 2026-11-26 — Astra-new-mechanism-0105020f-20261126 / B030径向1025原中断回调
 
 root全文读4943字节收据，仅解析原714677字节stdout与153485字节callback，SHA01ec5978/6988077d吻合；shutdown原文与无FINAL范围全保。actual539/1218、pending571/1276及原trust分开，新科学下界/两未刷区间不混成精确总账。当前caps未命中，generic恢复包已有，继续真实末q不造重跑门。每条结论单独推。
+
+## 2026-11-26 — Astra-new-mechanism-0105020f-20261126 / R596真实尾到十六阶
+
+root全文并读R583与新有限常数补证，逐项核eta/导数、256权prefactor、54000势上界、Green吸收与前一cell倍数；相同收缩/全平/一维性证明在此有限集合一致。只登记新范围，不复做已证旧核或旧科学口；严格结果即推。
