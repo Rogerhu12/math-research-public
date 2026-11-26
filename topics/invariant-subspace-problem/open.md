@@ -64,7 +64,7 @@ $$
 
 **[一般非零mean的原U值坐标覆盖](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-original-U-value-atlas.md)已付：** 保P0=−U0³、完整三moment/值碰撞、原E0/N0图与N(V)仿射式；t系数准确为bcLS/[2(q−1)]。LS非零图只余(f,q,λ,h,k)，L0与S0全系数退化单独保留；L0/w1只余QQsqrt17的rho/f/t原九式。短原身份实际0.568990秒/exit0；旧900秒大展开exit−9不作成功。继续原必要式和物理实现。
 
-**[S0/Af0三值互异层的完整有限覆盖](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-U-value-S0-finite-parameter-cover.md)：** 原常数式的I/H非同时零给全局q图；同时零只余不可约M6，所有除数/值判别/bc/l1全付，参数至多24纤维。BigInt结式与模41身份已付；完整24维QQ代数源现接原九式/P1剪切/结果式线性身份，尚无执行结论。[S0/Af0全部值碰撞](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-U-value-S0-collision-exclusion.md)已由原h1/k1、λhalf矛盾及四次数域的原九式GB1排尽（3.961885秒/exit0）。仅续三值互异的有限24纤维及I/H非同时零图，后者已对称到(λ,z)。
+**S0/Af0的已闭例外与剩余曲面：** [完整有限覆盖](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-U-value-S0-finite-parameter-cover.md)的I=H0只余M6；[这整个24维参数族现已排空](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-U-value-S0-M6-exclusion.md)，原P1全局系数单位及E1/EB的24阶QQ结果式乘法身份都已回乘，48真逆，run45808427743/job139869664343、2.914484秒/exit0。[S0/Af0全部值碰撞](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-U-value-S0-collision-exclusion.md)亦全闭。只续三值互异I/H非同时零的全局q图，已对称为(λ,z)；不要重做M6或碰撞。S0/Af非零面与一般LS图继续。
 
 **[rankH3二重加单点的非零Hp整层ess≤5](results/R150-appendix-rank-three-double-plus-single-second-cumulant-nonzero-hp-essential-six-exclusion.md)：** 原节点/J及At/τ/γ全部零面保留，QQ93/126与两个异常谱六真逆已付，0.011089秒/exit0。勿重做，仅续Hp0四源有限层。
 

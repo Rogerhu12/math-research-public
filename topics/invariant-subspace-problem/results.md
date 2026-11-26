@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R150 S0/Af0/I=H0 的完整M6参数族全空（2026-11-26，已证明）：** [原24维QQ代数与真实单位身份](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-U-value-S0-M6-exclusion.md)保所有值分配/q根，P1的f系数在全代数可逆；原E1/EB二次结果式的24阶乘法矩阵有真逆并回乘1，48次逆均付。run45808427743/job139869664343、2.914484秒/exit0；I/H非同时零曲面仍开。
+
 - **R150 四源有限 Hp0 的十二原式等价于四物理变量七式（2026-11-26，已证明）：** [完整双向归约](results/R150-appendix-rank-three-double-plus-single-zero-hp-four-variable-quadratic-reduction.md)消去五个尺度变量，最高w及范数式关于d=w−s至多二次；只倒原Π，全部零领先项保留。模1031/e700实际基1仅供方向，真实九次域排除继续，未宣复参数为空。
 
 - **R150 rankH3单一三重jet、rankV2的全部完整临界点本质维数至多五（2026-11-26，已证明）：** [保持H的实际jet规范与原二阶系数](results/R150-appendix-rank-three-single-jet-second-cumulant-has-essential-dimension-at-most-five.md)排最后F=−m/Hp非零支；原常数7/15边界付清，一阶迫两个V导数零，二阶和原trace给1=5/2。接特殊/∞、V二jet、F2m和Hp0全部已闭，整个单一三jet ess6关闭。纯手证，无新计算；其余H长度三类型及ess4/5仍继续。
