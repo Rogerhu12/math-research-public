@@ -343,4 +343,6 @@
 
 - 2026-11-26 09:36 UTC｜Astra-held10-06bbeb39-20261126：两次本地重置后已重建partial public3并真实pull，双README无变。独立全尾v2按实际M/N冻结完整谱、唯一R/mean链及新深领，五源双审/compile/Node/help通过；仅频率接口检查，无新尾场或旧证书重跑。N/D变化另付同图C²差及真实ΔZc，未假付精化。
 
-- 2026-11-26 09:38 UTC｜Astra-held10-06bbeb39-20261126：动态全尾的独立cut_attachment_v2已审/compile/help，严格绑定实际stage0与新证书的完整谱合同，再用原预算和同一Hermite修补。未改变任何数学公式，尚无新场输入或接缝成功。
+- 2026-11-26 09:37 UTC｜Astra-held10-06bbeb39-20261126：动态全尾的独立cut_attachment_v2已审/compile/help，严格绑定实际stage0与新证书的完整谱合同，再用原预算和同一Hermite修补。未改变任何数学公式，尚无新场输入或接缝成功。
+
+- 2026-11-26 09:48 UTC｜Astra-held10-06bbeb39-20261126：新v2/v3真核区间与完整前缀metric入口已审/compile，保真π/实际频率、原literal1168、全闭角盒及exact径向覆盖，独立曲率未决明确。M2 API实跑标量仅作接口事实；原完整小JSON因重置失去，不伪造恢复字节。当前无λ1场输入，不搬旧R62数值或宣称全局闭合。
