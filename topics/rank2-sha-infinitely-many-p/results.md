@@ -31,6 +31,8 @@
 
 - [R959](results/R959-original-e65-two-independent-points.md)：固定E65两点独立；全部有限角色/390导子、α15/13、2/3/5/双13 Schwartz、split投影12倍成本、全权平方及degree390/charge195真来源已付。run45812554270同次全66列CM7/19唯一K核/mass0/首阶6/有理分母175和旧E89→真实B6≠0全部PASS。完整普通Katz平方、惰性signed整格及全部新Euler/周期/微分给r+corankSha≤2ordJ，导数非零即通常全Sha[p∞]有限；六轴只排显示B6分子有限素集。六源角帽、同原有限限制forcing与无穷非零继续。
 
+- [R961](results/R961-original-e65-common-six-sigma-cm-projection.md)：同原六sigma取(δ,2δ,γ7,barγ7,γ37,18)，完整degree390候选由真实[3]∘[3]及全部division身份给出。同次run45818310281全66维Π=P7P19返回α=25ω/(72γ37)≠0，单投影秩6/合成秩1且全矩阵有理；全Heisenberg有限阶与d7=12ω、d19=−12付当前p>211的整性及单位质量。真norm7/19两方向奇sigma相位、六行Gram/全半特征/两边逆和S/T/W±逐行返回均通过。五伴随给F65,1⊗Λ65，保65/(17·175)物理尺度、全部CM有限支和混合cut；未据此消去R548余域或证明无穷性。
+
 ## 当前几何计算入口
 
 [R942§11](results/R942-original-split-scalar-preimages-and-whole-module-elimination.md)已证明完整Popov与单列shift的全程多项式次数界，以及全部附加源的独立次数界。它修复单F v2的实际HNF瓶颈，公开小API与生产门分开登记；§13又付完整306 W基和全部厚ideal两图运输，两个独立小API实际成功；原四交/全部厚Norm/shadow没有预记PASS。

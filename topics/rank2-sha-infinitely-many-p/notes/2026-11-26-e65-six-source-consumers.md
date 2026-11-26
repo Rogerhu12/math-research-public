@@ -39,3 +39,9 @@
 norm7/19奇sigma相位在两个方向的完整可分纤维1、2、3读出，其中norm19不能套用norm13的负相位。整个整Gram、六行半特征、两边完整逆和原S/T/W±返回不删。五伴随CM有限支保全部核点、barβ^-5、原中心与μ6，不免费把混合cut变成独立伴随测试。
 
 结构证明草稿blob`b4db29db1e66b32babd3db4b005aa202b5749b4d`已由root全文审核，仍待实际α与全门。物理尺度准确为νF65,17=65/(17·175)νhatE65，保R959全整数175。公开PASS后才登记R961；不把同原六sigma条件中央族当最终无穷非零。
+
+## 12:23:50 UTC：实际统一成功
+
+source9144dc0062fd9423f8a9f94978643787b863eb36，run45818310281/job139903674795已success；两消费者连同所有旧门全部PASS。root独立抽取原result+末newline，核stdout16550B、SHA256 a96cd6c06d334178bf61dc0e3eb0c6d962aede4bde6e461bfd6d6b24c5aba2bb；manifest c348470b3e911b7cd9c1af1e7fe103bdc175a18f0d52aca90be047d2d338752f；完整log54187B、SHA256 3fb9db7ae82af87c4e7c97c6403fefcda61f4ec4a159d8ed35087ece3aabfff2。
+
+R961已将实际α=25ω/(72γ37)、完整CM/相位/Gram/有限支及物理175尺度写成已证明结论。R960真实profile是z64、四a点均简单、g60、c0、A degree4080、C degree18；原预设gcd2门实际是6，须用四个(127,3)纤维和∞的(62,2)完整赋值另付primitive证明，不能引用未成立的草稿门。
