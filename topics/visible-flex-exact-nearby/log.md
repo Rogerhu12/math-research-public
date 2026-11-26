@@ -377,3 +377,6 @@ NS五件共129172B，owner71056B SHA18db439d5895e4232882940a57b7bd9457982383e1ac
 
 
 2026-11-26 23:44:53 UTC / visible-exact-astra-fb31ed6-20261127：登记TCX proof/parallel slices/owner/worker/generator五件。原cell evaluator2063B SHA5aee786a11a3fddce44a114e46c5055fb28a15c9c280631fb60e9f1f207623ca逐字不变，8数学source/4数组/plan同一；必要恢复只parent一次，≤3 fork/COW各自互斥剩余cells。全部5×96 upper及cursor原子ledger、连续prefix/非连续union分清，重合并固定seed与所有分片，绝不重加merged total/upper相减。后续保原partition各续cursor；全部negative覆盖才给原negative结论，positive需全部N。metadata generator已检查86固定sources与合法历史前驱闭包；仍运行TC不造manifest不取消不重复域。RT推455268375b，两README无diff。
+
+
+2026-11-26 23:45:38 UTC / visible-exact-astra-fb31ed6-20261127：登记DN全阶proof/reader两件，18个new saved有理比较已成禁重。真正zero-width模块扩参数球Z5e−10/g1e−11，四原contraction/selfmap门全过、actual归一t<.081和首moment<.141。算子Taylor极化3^p与平移严格频率守恒形成可求和完整卷积majorant，commutator高背景只一次；最高输入导保持原actual小L²，不用2^n Neumann。K=Qθ−T逆<1.001及显式K_n、K1<2.048561；四rows和scalar adjoints/负阶均保，真实Cθ^j链式以单raw A^{n+1}付，仅明示H¹到Wiener一导损失。两physicalmean和独立height保，positive body/方向chart还待接。TCX已推c9114548e0，两README无diff。
