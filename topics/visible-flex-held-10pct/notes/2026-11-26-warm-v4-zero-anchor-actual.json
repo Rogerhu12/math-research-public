@@ -1,0 +1,100 @@
+{
+  "scope": "actual v4 zero-control reexpression, not a new BVP solution or lambda advance",
+  "maintainer": "Astra-held10-06bbeb39-20261126",
+  "observed_utc": "2026-11-26T11:41:28Z",
+  "actions": {
+    "run": 45806625263,
+    "job": 139863475211,
+    "url": "https://github.com/Rogerhu12/math-research-public/actions/runs/45806625263",
+    "command_id": "held10-warm-v4-full-to-complement-20261126-01",
+    "command_commit": "4a1461933362bea135d4439076c0748eee803ece"
+  },
+  "sources": {
+    "controller_sha256": "b8c18468635ebad021c19f0d61f6caec364ebb2343349c6345e25fa8cb2bc021",
+    "model_sha256": "5eb1a30dc861747bde158315b845a62bf666c32ad1b59a033daeafe41da7fabe",
+    "factory_sha256": "f303897c231639b2dd68854d7bf37cc8862eea4e52b468d5be84c856e84fbcb5",
+    "reexpression_sha256": "fcf97b89fa361ec3215dd6e6695faefdb676aabc2a8dad1640c9d4c6d509d66d",
+    "step_sha256": "36dc28b33928e6b256308ef3481acb51ccc60e9cdcb7bb8558f197a17082706d"
+  },
+  "source_v3_run": {
+    "path": "/home/runner/work/_temp/held10-probe/fresh-one-direction/v3-zero-control-anchor/run.json",
+    "sha256": "f18b57bb34e07b3d89c1a88b4d2b52fc06671c5be4bd7fc3bf0fc928cd89d65e"
+  },
+  "actual_v4_run": {
+    "path": "/home/runner/work/_temp/held10-probe/warm-v4-design/reexpressed-anchor/run.json",
+    "sha256": "b9fef50a1f4f854c3d12ea5d7303b1e68b6477a7688eb86de7e4fa36b0637888",
+    "kind": "warm-supported-material-phase-fixed-metric-v4",
+    "acceptance_kind": "same_cartesian_map_verified_reexpression",
+    "finite_linear_candidate_pass": true,
+    "lambda": 0.002,
+    "modes": 24,
+    "mean_nodes": 1168,
+    "angular": 768,
+    "gauge_q": 0.06
+  },
+  "raw": {
+    "accepted_representation": true,
+    "file": "reexpressed-raw.npz",
+    "message": "No solver invoked: identical zero-control field in a different finite phase family",
+    "nodes": 631,
+    "original_raw_sha256": "a8b69738fd4677347475e879ed085c0b5bd29fc140d835f3ec0082af7f27c4ab",
+    "rms": 9.927150339177653e-7,
+    "sha256": "a8b69738fd4677347475e879ed085c0b5bd29fc140d835f3ec0082af7f27c4ab",
+    "solver_invoked": false,
+    "status": null,
+    "success": null,
+    "phase_control_count": 24,
+    "all_phase_controls_exactly_zero": true
+  },
+  "identity": {
+    "all_raw_RMS_chart_ds_bitwise_equal": true,
+    "all_raw_RMS_chart_s_bitwise_equal": true,
+    "all_required_exact_equalities": true,
+    "bc_bitwise_equal": true,
+    "chart_join_bitwise_equal": true,
+    "chart_reference_prefix_bitwise_equal": true,
+    "core_F_bitwise_equal": true,
+    "core_Ft_bitwise_equal": true,
+    "core_Ftt_bitwise_equal": true,
+    "cr_bitwise_equal": true,
+    "f_bitwise_equal": true,
+    "fm_bitwise_equal": true,
+    "initial_projection_bitwise_equal": true,
+    "literal_common_R53_baseline": true,
+    "new_actual_phase_controls_zero": true,
+    "physical_bc_bitwise_equal": true,
+    "physical_end_bitwise_equal": true,
+    "prefix_end_bitwise_equal": true,
+    "rms_bitwise_equal": true,
+    "same_angular_projection": true,
+    "same_basis": true,
+    "same_gauge": true,
+    "same_modes": true,
+    "source_actual_phase_controls_zero": true
+  },
+  "metric_observations": [
+    {
+      "angular": 1168,
+      "ss_minus_one_fft_l1": 6.482415923885788e-7,
+      "s_theta_fft_l1": 2.1831101138734376e-7,
+      "theta_theta_minus_one_fft_l1": 3.672697100282061e-7,
+      "sample_operator_max": 5.449318619907249e-7,
+      "common_node_component_difference_max": 0,
+      "continuous_interval_certificate": false
+    },
+    {
+      "angular": 2336,
+      "ss_minus_one_fft_l1": 6.482415957165923e-7,
+      "s_theta_fft_l1": 2.1831101439953512e-7,
+      "theta_theta_minus_one_fft_l1": 3.6726971246111695e-7,
+      "sample_operator_max": 5.449318619907249e-7,
+      "common_node_component_difference_max": 0,
+      "continuous_interval_certificate": false
+    }
+  ],
+  "solver_invoked": false,
+  "new_lambda_accepted": false,
+  "actual_nonlinear_tail_paid": false,
+  "complete_surface": false,
+  "next_actual_computation": "The same runner naturally entered attempt-000, lambda .004/M24 with the original complete gates. This zero-control identity does not imply that this attempt will converge."
+}

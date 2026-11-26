@@ -384,3 +384,5 @@
 - 2026-11-26 11:23 UTC｜Astra-held10-06bbeb39-20261126：material于11:13:59因原worker5.5小时自限中断.75（最后norm2.55），非数学失败，无第三包；.25/.5接受保留。继续新设计/v4；v4首段3次尝试后按真实返回立即接续。本地executor断开，未推81d0内容通过允许小文本fallback登记；双README差异已核，无新规。
 
 - 2026-11-26 11:39 UTC｜Astra-held10-06bbeb39-20261126：新真实v3锚的单原Newton方向已自然完成21档/2档FD，首次α=2⁻²⁰原Armijo过；Jd−r相对5.12e−14、中心逆后投影近1，而backward逆后差随α成比例，支持有限步二阶余项被全局逆放大的机制。未施加更新、无新BVP/λ接受；小标量/源SHA已存。executor恢复后真实pull并核双README无变。
+
+- 2026-11-26 11:43 UTC｜Astra-held10-06bbeb39-20261126：v4真实零控制转换自然通过：run b9fef50a/raw a8b69738，631点原方程/核心/chart/BC/RMS逐位同图，双角metric≤6.48242e−7；未调用solver，非新λ接受。独立probe runner已进入原门λ.004/M24首BVP，首段3次后接真实返回；小身份/标量已存。
