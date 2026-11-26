@@ -400,3 +400,5 @@
 - [R602完整核心修正与11模实际输入](notes/2026-11-26-r602-eleven-core-completed-implementation.md)：**新数值问题，未先宣称通过**；原496q嵌入682q、新18/20/22真实DtN，完整从属核心到44模；旧tanh改固定512均值的同一高度与径向导数，256/512读数不靠换场比较，仍欠连续角/径向/ODE误差及主完成门。
 
 - [R582 97q首次完整细几何恢复](notes/2026-11-26-r582-local-tail-first-original-terminal-receipt.md)：**数值进展，仍未等距**；run45842923121在同p=.181用17恢复接受得10905×768细工作V0、η.000433487/κ16.45257，0metric接受；真实97q/169×384/trust2与全部pending保真，125.663352586秒计费，下一从未应用的179×768续接。
+
+- [R604 全闭参考的显式reach扰动证书](results/R604-normal-chord-stability-and-finite-parametric-norm-interface.md)：**已证明**从参考全法弦ρ和新全域位移/法向/切向导数/曲率界，构造所有短弦的真材料路径并排近远自交，得全闭面reach下界；给真实C1/C2及参数jets接口，不把当前有限网范数或未验证圆参考当已付。

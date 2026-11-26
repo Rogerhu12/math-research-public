@@ -443,3 +443,7 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 ### R582 97q真恢复后直接续未应用的更密角网
 
 [原终态](notes/2026-11-26-r582-local-tail-first-original-terminal-receipt.md)已付17恢复接受及完整细网工作V0，但η.000433487仍高于2.5e−7。保实际97q SHA815b1168、169×384/trust2、全部10905旧细点与pending10圈/768角；下一先实际构造179×768，不把proposal当已优化网，也不把未接受末trial当输入。已付97q方向核和旧峰比较不重跑，继续完整metric后才放大p。
+
+### R604 连续全域范数接到真实非圆候选
+
+[R604](results/R604-normal-chord-stability-and-finite-parametric-norm-interface.md)提供完整近远弦充分证书。下一先按真实开核心/两帽/全尾定义验证圆参考，再用同一有限q的实际X/Xs/aT/n及主曲率取得范数；材料端结构和纵向参数化要单独支付，不能从一个端点jet或有限网V0推出全域reach。
