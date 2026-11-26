@@ -158,3 +158,13 @@ $$
 完整922胞、原8阶工作矩已返回。按§5公式定义的可选literal Q可用，但仍未安装；它的初工作Cz最小奇异值为0.9999999999999994，与单位阵的最大工作误差为4.718447854656915e-16。这只是选择新输入的数值依据，不保证原有限残差能闭合，更不保证新路径避开后续转折。原H、全部自由点和准确目标未改；完整residual/J/Jtranspose调用均0。原字段 `new_input_or_checkpoint_or_field_written=false`，公共投影别名 `no_input_written` 取的正是这个原字段，不能反义误读。
 
 下一明确输入把这18个实际binary64 Q字冻结为两个新固定控制矩阵，再按固定theta0共轭延拓；之后所有自由core/omega/H变化都不重算Q。这需要完整新source/model/input身份和原implicit 3/6/9导数及全部真验收，不覆盖旧5b4。新坐标的.75若继续采用，是新显式数值搜索球，不继承旧球的任何IFT认证。18个确实采用的新输入参数及其完整生成规则/实际run/SHA将记录，116KB原诊断报告不转存入库。
+
+## 8. 新固定输入的18字纯提取入口
+
+完整小源 [frozen_zero_moment_input.py](../scripts/resume_20261126/frozen_zero_moment_input.py) 为19678字节、SHA256 `4dc3e1a8ba8f128e1d05176f4d0f4b18c62d278fed603cc46f7ed686f6e4e611`。它只核26b094真实trace、4341323c真实初根失败及全部原source/model/initial/target；逐字提取已存在的两个3×3矩阵的18个canonical binary64 hex字、完整bubble三节点和准确base/reference/scalar身份，形成新定义 `literal-two-bubble-endpoint-Q-v1`，不给工作矩附加严格可逆或根存在声明。
+
+[完整纯提取参数](../computations/moment-Q-eighteen-parameter-extraction-step.json) 为3630字节、SHA256 `a78605e18d9a08fd0daf2f7ec7a478d07f373d092bb83e3dad4c0e796ab18a85`，在现有03b队列紧接实际15。只输出完整小参数file和全部18个hex标量及definition/file SHA；116KB诊断原报告不进入Git。小参数是确实选定的新有限控制输入，后继固定它而不随自由变量重算；不是把诊断大数组换名保存。
+
+纯输入文件路径可绕开将来已失的runner诊断报告，但必须带同一完整file SHA和definition SHA，并经同一结构、对称和来源验证。实际report路径则必须是精确26b094及原失败434132。两条入口在同一definition中包含全部18字和同base/目标/支撑身份；不放宽为任意未绑定报告。代码仅用stdlib JSON、AST和字节/字面检查，不调用numpy、torch、moment、inverse、F、root、J或Jtranspose；原科学方程未在此执行。
+
+执行环境恢复后，完整源的AST/compile和重复literal-key检查已经真实完成。新18字的公开返回尚未读到，不预填数值或参数哈希；实际返回后立即登记，再接完整新算子/driver/reader。
