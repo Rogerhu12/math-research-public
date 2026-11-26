@@ -1,0 +1,71 @@
+{
+  "schema": "complete-run05-second-integral-all-trial-family-pure-reader-recipe-v1",
+  "executed": false,
+  "source_sha256": "625317b44fd3610903b395d6e8fd5374a4764d6930ef08fb92c33f45e15c7cd3",
+  "bound_original_reader_sha256": "6d54cbba7ff998bc98b0f39c6a26ae33c16957fb0b9dc0fffced1037212455eb",
+  "original_run03b_report_recovered": false,
+  "new_run_values_are_not_old_run_raw_values": true,
+  "source_AST_actual_status": "Execution environment unavailable; pure source text independently reviewed, not executed locally.",
+  "step": {
+    "id": "actual-run05-second-integral-complete-all-trial-families-20261126",
+    "script": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/read_axisymmetric_so3_trial_families.py",
+    "scope": "Pure complete 6d54-bound reader of this run's actual second-integral 606 report. Dynamically retain every actual trial and all six recorded geometry families plus literal K/farthest-radius/body/paired-distance witness locations, without mistaking a maximum-radius point for an active height/constant diameter branch; do not presume reach, do not fill missing checks with zero, and do not attribute these new-run values to lost old03b raw. No F/J/root/QP/geometry calculation. The always-existing actual reference is the pure input parent so an incomplete scientific report remains readable.",
+    "parent_bundle": "axisymmetric-R690-reference-v2-first/reference.npz",
+    "args": [
+      "--repo",
+      "{repo}",
+      "--report",
+      "{work}/axisymmetric-so3-integral-norm-second/report.json",
+      "--output",
+      "{work}/postprocess/axisymmetric-so3-integral-norm-second-all-trial-families.json",
+      "--verify-final-bundle"
+    ],
+    "outputs": [
+      "postprocess/axisymmetric-so3-integral-norm-second-all-trial-families.json"
+    ],
+    "summary": {
+      "postprocess/axisymmetric-so3-integral-norm-second-all-trial-families.json": {
+        "schema": "schema",
+        "source": "reader_sha256",
+        "bound_original_reader": "original_complete_reader.sha256",
+        "report": "report.sha256",
+        "bytes": "report.bytes",
+        "source_commit": "actual_source_commit",
+        "run": "github_run_id",
+        "actual_driver": "actual_driver_sha256",
+        "scientific_complete": "scientific_report_complete",
+        "complete_binding": "complete_original_validation_returned",
+        "model": "model_identity_sha256",
+        "fixed_g": "fixed_scalar_metric_identity_sha256",
+        "initial_bundle": "actual_initial_bundle_sha256",
+        "final_bundle": "actual_final_bundle_sha256",
+        "norm": "coordinate_norm.norm_identity_sha256",
+        "mu": "final_damping",
+        "directions": "actual_direction_count",
+        "trials": "actual_trial_count",
+        "all_trials_retained": "all_actual_trials_retained",
+        "failed_family_assumed": "failed_family_assumed_before_read",
+        "missing_values_zeroed": "missing_values_replaced_with_zero",
+        "actual_trial_families_json": "all_actual_trial_families_json",
+        "actual_trial_locations_json": "all_actual_trial_locations_json",
+        "actual_direction_solvers_json": "all_actual_direction_solvers_json",
+        "same_objective_change": "actual_same_objective_change",
+        "initial_Phi": "initial.Phi",
+        "final_Phi": "final.Phi",
+        "initial_max": "initial.max_relative_gram",
+        "final_max": "final.max_relative_gram",
+        "final_g": "actual_final_geometry.maximum_physical_g",
+        "final_K_product": "actual_final_geometry.necessary_reach_product",
+        "final_all_permanent": "actual_final_geometry.all_permanent_read",
+        "final_both_signs": "actual_final_geometry.both_witness_signs_read",
+        "fields": "field_evaluations",
+        "J": "J_evaluations",
+        "JT": "Jtranspose_evaluations",
+        "roots": "root_solves",
+        "scans": "geometry_scans",
+        "QP": "QP_solves",
+        "no_old_run_values_inherited": "no_other_run_trial_values_inherited"
+      }
+    }
+  }
+}
