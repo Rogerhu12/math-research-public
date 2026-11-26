@@ -43,7 +43,7 @@
 ## 继续分工
 
 根维护真实CI、每结论push及全目标；geometry继续新gap全normalized/末格与全核，exact继续whole source C_X/实际W/峰微span，solver恢复完整Cartesian并继续实际LM。做完即接open.md下一项；不以阶段记录收尾。
-<!-- 6a65-ci-rules --> run 45778054176/1；实际 pull #169 至 `04756058788b12d88b06d99053f2a1fb58713279`；2026-11-26T12:25:27+00:00；双 README 无差异，沿用根已读规则；回执原因 pre-process:short-Cauchy-earlier14-physical-clock-012。
+<!-- 6a65-ci-rules --> run 45778054176/1；实际 pull #170 至 `39b6bb69a039fdddaec4adb90800267591b6103e`；2026-11-26T12:39:35+00:00；双 README 无差异，沿用根已读规则；回执原因 pre-publish:short-Cauchy-earlier14-physical-clock step 12 exit 0 accepted True。
 <!-- 6a65-m12-ci-rules --> README unchanged at e74a6d1b37742414d1215bb37440b7c2fe56851c; run 45804794238 attempt 1.
 <!-- 6a65-m12-entire-half-ci-rules --> README unchanged at 9c70e31ffbfaa6188e2bf17a241e9adc94c919e7; run 45815969723 attempt 1.
 <!-- 6a65-cartesian-cold-ci-rules --> run 45812620369/1；实际pull至 `5b7dd8d42e656f387bff132ca96a813ea90cb438`；2026-11-26T12:07:13.334723+00:00；双README无差异。
