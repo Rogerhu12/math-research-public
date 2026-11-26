@@ -5,7 +5,7 @@
 
 ## 1. 授权、规则与完整前史
 
-公开本次实际pull且根/题README已读至 **28cfd00ee187e0377ed800adc093b38eb9a55329**；根/题规则相对继承0749a4cc均空差异。私库实际pull/根README已读至 **0fb004a642c0e796e0912d5b4aa6199a20bb6517**，QUEUE认领提交 **09f8b8b54e7cfaabaa635bae5c438c7f1521289a**；本会话仍唯一进行中，21:48:04 UTC再次实际pull且根README空差异，下一不晚于22:47 UTC。
+公开本次实际pull且根/题README已读至 **02e4d60c5bff539a645301b6e5f888904db5d9ea**；根/题规则相对继承0749a4cc均空差异。私库实际pull/根README已读至 **0fb004a642c0e796e0912d5b4aa6199a20bb6517**，QUEUE认领提交 **09f8b8b54e7cfaabaa635bae5c438c7f1521289a**；本会话仍唯一进行中，21:48:04 UTC再次实际pull且根README空差异，下一不晚于22:47 UTC。
 
 [压缩前全文](notes/HANDOFF-before-actual337-20261127.md)及其归档链保存全部旧结论、真实输入、失败/偏离、量词与完整费用；移档不重跑已付门。[四来源与文献](notes/2026-11-27-current-four-source-topics-and-literature.md)保已读版本及用途。
 
@@ -15,11 +15,11 @@
 
 同一连通闭材料面上的连续C²嵌入族、同一固定g；固定开握持区直径≥.2D、整像不对齐变化≥.3D，全时reach≥.03D。全点/全时metric≤1e−6，且同g/参数/时间域精化至机器或求解容差；完整可再生网格、连续几何和严格存在缺口均须付清。基础过后继续.5D或严格存在强目标。有限网、小幅、接口/障碍不算完成；子项完继续[open](open.md)，不以时长/中间结果结束。
 
-## 3. R582：真实97q与279正常续算
+## 3. R582：真实14d1与298正常续算
 
-[a237原终态](notes/2026-11-27-r582-physical-paid-resume-original-terminal.md)run45887805731/job140142780497/source0cce06dd，新2371.7857200480003秒、18接受/19完整Jac+另2块/20fine。真97q **a2377220dacda9eefe63f25a2000441f0169a0db5de9bc23840f90e5037a895e**，p=.181；11025×3072 η4.8302220914394944e−5、物理/working V0。actual243×1536/trust2，38原pending近点规则得proposal279(+36)，全部精确坐标留fine。末raw a14不合格、独立半步才接受，粗辅助e不冒fineη，只有clock截断。
+[279原终态](notes/2026-11-27-r582-physical-pending279-original-terminal.md)run **45895078668**/job140166868607/source021c6d790，新2375.001235837秒、9接受/12完整Jac+6未闭块/15fine；真97q **14d1a961e41fa87c152eb81f22837e5e54ba5014bdc5f92f05d70dc5fb5a4445**。p=.181，11100×3072 η4.2622659748238665e−5、物理V0/working V9.77658e−10<tol；actual296×1536/trust2、pending2→proposal298，新fine并集11103须完整资格。真实strip漏峰交换1次；末6f82 raw不合格，独立半步/elift才成14d1，只有clock截止、不冒自然stall。
 
-[279续算](notes/2026-11-27-r582-physical-pending279-resume-implementation.md)run **45895078668**/job140166868607/source021c6d790，21:00:36 UTC启动，待原终态。原driver不动、30绑定全文核；唯一数值参数243→279，新fine11076须原完整资格。未过stage2.5e−7不增p；目标p=.8/末η≤1e−7，mean g设计仍变化。原62878端点mesh **0d222bd12ce8a61d0c88264c6fb5c82066f0ca058855b5bf7a670a53b483a991**固定，必要再生计费，有限材料不冒无限核。
+[a237及前史](notes/2026-11-27-r582-physical-paid-resume-original-terminal.md)费用/18接受/19Jac+2块全保；下一正常续真14d1/全部pending及旧fine，不借a237几何。未过stage2.5e−7不增p；目标p=.8/末η≤1e−7，mean g设计仍变化。原62878端点mesh **0d222bd12ce8a61d0c88264c6fb5c82066f0ca058855b5bf7a670a53b483a991**固定；必要再生计费、有限材料不冒无限核。
 
 ## 4. B030：真实7371及未闭原队列
 
@@ -31,7 +31,7 @@
 
 [全S原60步终态](notes/2026-11-27-r613-full-position-sixty-step-terminal.md)run **45891036836**/job140153472856/source99007dd1，新2961.020285526秒/60接受/60完整Jac/166拒步；真1130q JSON SHA **238d786c6134bcbd356958c5fcf263916feb5bf1004af7e93722a30ed591e1c7**，iteration337、amp1e−5、H.5188903591561069、nextdamping1e−14、pending null。原60迭代上限，末轮仍接受，不冒驻点。
 
-全部950×256实际S奇1…127、121600行/1130列、完整QR/小R全SVD不变。merit3.47959e−6→3.58788e−7，fine1728×512 η2.524410961e−7，双直接2.524507/2.524790e−7，2e−9仍未过；末段L2下降而max回升、高频D及qnorm2628增长均保留。R615同场条件全角界5.80358648e−7，只在已采半径且仍欠径向/ODE/舍入。原R602 core1.50681e−19/全部口/canonical512高度保持；[337正常续算](notes/2026-11-27-r613-actual337-normal-continuation-scope.md)已全文核新wrapper/note/workflow、24绑定与原q/费用；原科学driver全部数值函数不改，60步/5400秒/240预留，不重做旧入场门。
+全部950×256实际S奇1…127、121600行/1130列、完整QR/小R全SVD不变。merit3.47959e−6→3.58788e−7，fine1728×512 η2.524410961e−7，双直接2.524507/2.524790e−7，2e−9仍未过；末段L2下降而max回升、高频D及qnorm2628增长均保留。R615同场条件全角界5.80358648e−7，只在已采半径且仍欠径向/ODE/舍入。原R602 core1.50681e−19/全部口/canonical512高度保持；[337正常续算](notes/2026-11-27-r613-actual337-normal-continuation-scope.md)已全文核新wrapper/note/workflow、24绑定与原q/费用；原科学driver全部数值函数不改，60步/5400秒/240预留，不重做旧入场门。run **45899589237**/job140181814100/source59ef89bf6，21:39:06 UTC启动，等原自然终态。
 
 [R617](results/R617-finite-pre-tanh-poles-and-open-cap-rigidity.md)有限pre+有限post准确开帽刚性不授误差下界。[R618](results/R618-fixed-metric-core-and-growing-post-response.md)及[真零入口](notes/2026-11-27-r618-fixed-target-evaluation-and-zero-entry.md)已付固定完整E同根/core ζ链、全2J、新角带真实强迫尾、同根e′预算、旧六jets恒等mean转移与τ0旧场/τ1全core。纯helper已全文审读未科学执行；正落实完整模型/Jac/独立post增长，E函数不得随网格改，不能把接口冒固定g根。
 

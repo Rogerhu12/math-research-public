@@ -453,3 +453,7 @@ root全文纸核八密度与四偶可逆行变换、四奇尾积分双向等价�
 ## 2026-11-27｜R623同场有限v准确原函数与完整归一化余项
 
 全文审9223B纸证/11780B纯helper并回查SameFieldRadialDesign.coefficients全部四频/index。逐频除m的准确cos2θ四阶多项式以有理Bernstein表和两层全区间de Casteljau给全角界；C=v+v(c−1)完整余项和全径向二jets用π周期11/14，水平11/7及法向转动乘环境块不删。单次原径向系数读取，已付同q globalα仅合法cap新局部α，完整K尚待新公开范围；AST/hash无科学执行。私库21:48:04 UTC实际pull至0fb004a642，根README空差异/QUEUE认领保持。
+
+## 2026-11-27｜97q真实279续算末态与14d1后继
+
+全文审10986B收据、核原4790919B log/380450B FINAL和q/三网格binary64身份。新2375.001235837秒、9metric/12完整Jac+6未闭块/15fine，true14d1在11100×3072 η4.26227e−5、物理V0/working margin原容差内；真实strip漏峰拒绝并交换到296，不能接受更低但不合格fineη。原2pending/proposal298与全部旧fine保留，新并集11103仍需新资格；末raw6f82不接受、独立半步才合格，无natural OptimizeResult。p仍.181，不移借a237连续证书；原所有费用和内部态未保存事实完整保持。
