@@ -4,7 +4,7 @@
 
 ## 规则与完整目标
 
-最近规则核查：2026-11-26 15:46:34 UTC，真实pull/rebase至 `2dc56cacb8bc67fd2670fb2962d1503e2b5d7dbd`，双README相对`e0126890e064e9f991671893427adb1ec952d9c0`无差异，授权及规矩继续执行。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
+最近规则核查：2026-11-26 15:58:18 UTC，真实pull/rebase至 `0d85f52f915054e0009eee84b4269ca91afb4911`，双README相对`c98437706d9f9ae9b0d5c284a746d21154c2eecd`无差异，授权及规矩继续执行。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
 
 科学计算仅本公开仓库Actions；早前本地偏差及纠正见[执行记录](notes/2026-11-20-public-actions-execution-correction.md)。root唯一分支写者；代理只scratch及未引用小源blob。每条结论普通commit/push，NFF立即pull --rebase循环再推，不强推。至少每小时pull，每次核双README差异/立即遵新规并记commit。raw只scratch/runner，不入Git/Release/artifact；保完整小源/参数/run/SHA/紧凑结论。题≤200MB、单文件<5MB、MD<100KB、H<10KB、open<30KB。令牌仅瞬时CLI。终端13:55 UTC起失联期间依根8以小文本connector提交；环境恢复后已重建blob:none/sparse检出并补真实pull，在线核规原字保b20f30ce及其固定历史；raw未补造。
 
@@ -33,7 +33,7 @@ R653 quarter、R654全H²及R655旧1845+六Gauss5532=7377正权观察、.5/.5测
 
 03旧run45811843606/1发布故障终止，stage7科学退出码/场/Phi/末bundle未返，不由新run回填；[完整恢复证据](notes/2026-11-26-actual-publication-failure-and-complete-recovery.md)保留。新03b运行45820592817使用3cb1/68a3完整控制修复，原科学设置和字节上限保。
 
-[03b真实3–13](notes/2026-11-26-actual-axisymmetric-first-field-and-zero-root-failure.md)：reference0f042/profile6ffc；606返fbf2/989740，max .5154401838/Phi212.1481877，1接受/末mu.01，全1283/262点双支保。原QP16未驻点、原28+amp6；六个下降拒绝全reach，最差同cell0/u.5/literalφ1.5707963267948966/branch0，幅度全负，1/128才过。[完整预补/SOC](notes/2026-11-26-SO3-prior-rejection-separation-all-row-SOC.md)02875/359ffc/faf5/fea2/f686已排03b：新父全原C后先补双曲率/当前D，再冻结全QP前缀，最多8轮同x/同锚追加全行修正、独立Az/真Phi/全筛；1×64与mu.01明确，旧缓存不假继承。全部静态/完整派生已核，尚无新实际场；.515不排昂贵证书。
+[03b真实3–13](notes/2026-11-26-actual-axisymmetric-first-field-and-zero-root-failure.md)同0f042/6ffc，606返fbf2/989740；原所有失败与source保所链记录。[真实17–18](notes/2026-11-26-actual-SO3-prior-separation-SOC-17-18.md)359ffc完整预补/SOC返b1c625/cd1af8，Phi212.1482→210.1678/max .5140674，1metric原ray alpha1/128接受，0SOC接受。QP64仍iteration_limit/Pg1915.79≫tol.002431，实际全37原行；同alpha.5锚两SOC增至39/41行，首轮真几何拒，次轮20000 sweep_limit_feasible且真Phi骤增而未读几何，不冒最小范数收敛。8真实ray及所有来源见note；原ray所有新增地点复筛保。纯修正尺度归因已追加03b；新后退SOC将先保真实可行ray，再选最近较大几何拒绝锚，所有候选在最终永久点复读后唯一接受，完整新源审阅中。
 
 [零Δ原失败与实际14–16](notes/2026-11-26-zero-initial-endpoint-replay-and-moment-input.md)完整记录保1d457全文：窄/.5/.75都首8角失败无场/J；14全弦长严格通过，15旧轨迹末候选球内仍未降、工作Cz病态，16纯抽取18字/05dc，未冒真逆或根证明。
 

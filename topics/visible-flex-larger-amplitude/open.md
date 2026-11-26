@@ -101,22 +101,20 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 ## 7. 现有闭面主线与2026-11-26续作
 
-§1–6逐字不改。此前§7的全部原词、失败、参数和链接保[01b983完整open](https://github.com/Rogerhu12/math-research-public/blob/01b98351b40385675c5cf85bdd4ea28637055a24/topics/visible-flex-larger-amplitude/open.md)及其f054链；已登记结论不重做。所有当前来源、实际run和同场责任见[HANDOFF](HANDOFF.md)与[results](results.md)。
+§1–6逐字不改。此前§7全部原词、失败、参数与链接保[f0a3完整open](https://github.com/Rogerhu12/math-research-public/blob/f0a3d6b0d04412fb6c3318992c85d76424ec25f9/topics/visible-flex-larger-amplitude/open.md)，循其01b983/f054固定历史链。已登记结论不重做；当前来源与实际运行见[HANDOFF](HANDOFF.md)、[results](results.md)和各完整note。
 
-R648/651/652仍只是开放prefix；R669/671的有限表示/线性唯一性有原适用范围。原923节点、M160、7377正权观察与全部变量/H²/永久binary地点继续保留。R248准确相位恒等式处理全t，不新增时间采样门。旧run44758209061成功退出、44772201880硬限取消已经核实；旧取消raw不可由SHA重造，不当作仍活动。
+原923节点、M160、7377正权观察与全部变量/正范数/永久binary地点继续保留；原R648/651/652只是开放prefix，R669/671有限表示/线性唯一性有原适用范围。R248准确相位恒等式处理全t，不新增独立t插值门。旧取消raw不可由SHA重造，未返科学结果不由其他run回填。
 
-当前最靠近的实际固定标量链是R690 profile383168，真实公开run45762076394/1的72/73从8a05返9b937eea。两256方向同父完整SOC第8/7轮满步接受，max .012896410280312631→.012679275819159355，centeredPhi .00019719382939143188→.00018497065288899857，μ .0025→.000625；完整原197及新增行、2785曲率/2756半径点保。末必要筛product .9917984841807964、amp通过。末面只3/12 advances，两个QP仍iteration_limit，没有coarse/face fallback；尚不能宣称粗层收敛或p4峰值平台。所有15轮完整归因见[实际72/73](notes/2026-11-26-actual-fixed-deep-next-two256-and-attribution.md)。
+1. 固定deep链9b937ee/993556的实际两256方向与所有SOC已记录，max .012679275819159355，仍未驻点。其自身first bbefd075给922全胞embedding及D/L/heldbody界，但marker/全K/reach/整面metric与同固定g精化未付；[实际72–74](notes/2026-11-26-actual-fixed-deep-next-two256-and-attribution.md)及固定历史保全参数。旧Haar bcdcdab/a76c4d max .01406459，自身连续几何和更细归因未返；01准入结束后排步没有执行，不编78/79。准确Haar定义/工作carrier精度分开，R690–695条件定理不冒非圆存在或任意C²分类。
 
-紧接责任按实际返回推进：
+2. 02真实normalized-parent SO3同d021/profile0a223/modelad017/normc4b2，[46–48](notes/2026-11-26-actual-parent-interior-restoration-entry.md)返793b/bb5c，1恢复后1metric接受，max .03677022562、真有限g −6.229263438e−9。metric alpha1/16且QP16预算终止，满步下降却真g .00283488；内层与几何截步责任均保。[完整cache继续](notes/2026-11-26-normalized-parent-cache-adoption.md)4e9e/174b/9b87/6982已排1×64/rest4×64、mu .01，真实旧cache首次新绑定/缺项原provider回退，不复算半小时固定参考当新结论。后退全行SOC完整新输入继续；原全部C/同Phi/真g验收不变。
 
-1. 9b937e自己stage74完整连续first已返bbefd075：922/922全胞、D≤4.118905347119922/L≥.9389496075349506、heldbody≥.22796095768296684及embedding；完整scalar tail有效而请求精度未达。继续该新场的marker、全K、reach、全域Gram与同固定问题精化，不迁旧证书。R686/5ec4的完整六jet/无限尾及分批journal继续使用，未返回胞不能算覆盖。
-2. 同一deep g仍有实际下降。后继方向必须绑定9b937e/993556及其完整位置，使用真实μ.000625或明确声明新μ；若改p或求值规则，须重读新baseline，不跨目标/测度相减。更充分的内层、原全C多轮分离与新表示都可继续，不能把256预算退出叫驻点。已有完整d146同profile refinement+SOC源，但当前ready仍指8a，未执行；要用更新父须先改完整来源参数。真正refinement要固定g/参数/t区间并实际下降至机器或原求解容差。
-3. [真实Haar76/77](notes/2026-11-26-actual-frozen-Haar-first-full-direction-and-attribution.md)在e35ce/027c固定目标上返bcdcdab/a76c4d，max .01500409670694389→.014064593921178363、centeredPhi .00018604609821128162→.00017030316420247091，1条真实接受/末μ.01，必要筛通过但自身连续几何未付。公开summary和完整job日志均缺alpha/QP状态/Pg/J；补归因与新场ownfirst虽已排，却在01准入结束后未执行，不能编号78/79或填输出。准确Haar定义与工作carrier精度分开，71请求精度未达；[faa863连续Gram](notes/2026-11-26-accurate-Haar-continuous-Gram-consumer.md)已刊未跑。后续必须用完整真实目标/场重建并核身份，不能由SHA造raw或换g冒续算；当前全场marker/K/reach/metric和同g精化仍欠。
-4. [完整SO3六源](notes/2026-11-26-complete-closed-SO3-meridian-solver.md)已接独立公开run45800076687/1的必要输入再生之后。冻结当次真实父T0/材料图，全部omega shared jets/free core/H与原全角正权/原192+amp/历史地点保。hDelta闭合参与全部J/J*/六jet，不能把单位T说成最终E恒1。新jet-sum范数和μ.01明确；最多4×64完整共松弛恢复后1×16真实metric方向，slack不能冒物理可行。[实际46–47](notes/2026-11-26-actual-parent-interior-restoration-entry.md)严格内点恢复后1条metric接受，返793bde/bb5c、max .0367702，真有限g<0；48证alpha1/16且QP16未驻；完整缓存续1×64及全行SOC继续，不冒连续证书。R692经典连接定理不冒非圆存在或所有C²弱类结论。
-03b独立准确轴对称输入已真实返606完整hDelta场，max .5154401838413587；零闭合原窄bubble在首block真实根失败，未产场/J。完整身份、实际数值和未付范围见[真实3–6](notes/2026-11-26-actual-axisymmetric-first-field-and-zero-root-failure.md)。真实详细归因已确认alpha1/128、QP16预算结束/Pg远超容差；全部8试步已证alpha1/2到1/64均Phi降而真实几何拒，继续具体约束族归因及全C分离；宽bubble半径.5/.75都初根失败，[固定moment-Q真实19–20](notes/2026-11-26-actual-fixed-moment-Q-initial-failure-19-20.md)同初点仍角5根失败无场；55ad完整支撑外必要式已排，按准确容量再选延拓/新初点。原同g/全部implicit链/全筛不改，新球不继旧认证；不以高误差场安排昂贵全域证书，不把根失败升格为不可能；R694全胞/节点/corecap/积分与六jet消费者并行补齐。
+3. 03b独立0f042/profile6ffc的[真实17–18](notes/2026-11-26-actual-SO3-prior-separation-SOC-17-18.md)359ffc全C预补/SOC返b1c625/cd1af8，max .5140673898、Phi210.1678161，仍仅原ray alpha1/128可行，0SOC接受。QP64未驻点；alpha.5两SOC第一几何拒、第二真Phi不降且geometry未读，sweep_limit_feasible不冒收敛。全部8ray/实际37→39→41行与所有位置保；纯尺度归因已排。新策略先求真实可行ray，再用最近较大拒绝锚作全行SOC，并对最终永久点复筛所有候选后唯一接受；不把高误差场排成昂贵证书。
 
-[R696角向单位切向新构造](results/R696-angular-unit-tangents-and-exact-closed-sections.md)已证全部对称闭截线/准确角Gram与完整core/reflection/cap六jet端口；保全部新1334847自由量、固定g与完整正范数，不把原空间双射作为未经证明结论。固定I,J和J/J*高度basis保无限平尾，H>1/20有单调凸截面初body，仍须求E/B并处理全域几何。[完整d2f8角向入口](notes/2026-11-26-R696-angular-unit-complete-entry.md)已刊排03b，保全部中心导数/原正权/约束/历史，真实三Gram均读；不能由zero初根失败否定此构造。
+4. 零闭合宽度/半径与旧工作Cz轨迹已登记，[固定Q真实19–20](notes/2026-11-26-actual-fixed-moment-Q-initial-failure-19-20.md)同cd530/初H/05dc依然角5根失败，未产场/Phi/J，不能当不可能证明。[55ad支撑外必要式](notes/2026-11-26-supported-initial-meridian-chord-necessity.md)已排：三补段/完整无限尾/全闭角，独立Q和球，严格只限本初点和support。依据真实高度容量选择同方程残差延拓或明确新H输入；新Q/新球均不继旧IFT认证。
 
-5. 真正候选达到足够小的实际误差后，完成其自身全域metric≤1e−6、闭连通C²嵌入、固定H整像20%幅度及含反射δE>0、全t reach≥.03D、同一固定问题实际网格/频率精化与多t网格交付；严格存在性缺口必须正面处理。若当前输入不足继续换输入/机制，不能停在条件定理、阶段结果或下一步建议。
+5. [R696准确角向构造](results/R696-angular-unit-tangents-and-exact-closed-sections.md)和[完整五源入口](notes/2026-11-26-R696-angular-unit-complete-entry.md)已刊并在03b执行。全部1334847自由量/完整中心s、ss导数/固定I与J/J*高度/真实binary端口/原core与反射帽保，新范数明示，真实三Gram全读；准确角恒等式不冒数值G零。首轮1×32/rest2×32、mu .01/原H，尚无新返回场，不把零闭合根失败迁为此构造障碍。E/B与全部连续几何继续求解。
 
-公开只保完整小源/参数/推导/真实标量/run/SHA；原raw、缓存、逐胞盒和完整大报告留runner或scratch。当前容量按实际已跟踪文件重新计数，不沿用§6历史值；旧raw普通移出必须保完整小结、源/参数和历史恢复。每条结论推送，冲突立即rebase重推；每次pull核双README且至少每小时一次。未达到README全部标准不得收尾，达到后继续提高比例。
+6. 真正候选达到足够小误差后，付清自身整面metric≤1e−6、闭连通C²嵌入、固定有内点H与整像20%幅度/含反射δE>0、全t reach≥.03D、同固定问题实际网格和频率精化至机器或原求解容差、多t可复现网格，并正面处理严格存在缺口。完整全胞/节点/corecap/积分/六jet链已刊，所有未付计算误差/隐式条件必须实核；partial或有限点不冒连续。输入不足就换输入/机制，未完成不停，达到后继续提高比例。
+
+公开只保完整小源/参数/证明/真实紧凑标量/run/SHA，raw/cache/逐胞盒/完整大报告只runner或scratch。旧raw普通移出保源/参数/完整结论及固定历史恢复；每条结论普通push，NFF立即rebase重推；每次真实pull核双README且至少每小时一次。当前容量实数见最新推送，不沿用旧§6历史值。
