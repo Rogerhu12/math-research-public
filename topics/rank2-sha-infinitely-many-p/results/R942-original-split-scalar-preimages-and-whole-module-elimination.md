@@ -548,6 +548,45 @@ basis_multiplier 正是通过同一个 operations.multiplication_matrix 构造�
 
 这些是待接入的源码，不是已执行回执。原两份F/P认证、q2453/batch64/minimal及34源完整绑定均保；没有以“已备”冒原六除子完成。
 
+### 9.6. 同一原 F 的全部 324 条 R2 recipe：准确的二次对应
+
+R942 §9 的原 M2 operator 复用同样作用于原 F 混合 R5/R2 核的
+**全部**二次分母来源。这里是不同于端点 R3 的准确输入：
+退化指标 j=2，原 M2 拉回矩阵为 120×306，完整原有序 R2 recipe
+为324条，每条有两个原索引；原分母核是完整 144×324 矩阵，完整
+权坐标数为1890，允许的幂为 0≤d≤8−w_i。
+
+令 b_i 为同一 embedding 的第 i 个 M2 拉回，M_i 为原完整306维
+代数中的乘法矩阵。按行向量约定，对任意原坐标行 v，
+
+    v M_i = coords(v b_i).
+
+每条原 recipe (i,j) 的像因此准确等于 coords(b_j) M_i。
+原代数交换，允许将这一条 recipe 的两个因子排序以复用 Horner 的
+同一 head；**原324条输出行的顺序及重复次数保持原样**，没有只取
+不同单项式的子矩阵。M_i 来自同一 embedding 的 actual_multiplier_cache；
+已有 operator 直接用同一对象，缺项只在同一认证 chart 构造一次。
+完整 operator 的正确性来自原全乘法构造；unit*M_i=b_i 仅作一致性
+返回，绝不把一个 unit 行测试当成全部306乘法行的证明。
+
+每次至多32条完整306来源行右乘同一个完整306×306 M_i，保留每个
+输出坐标。由原 section 乘法，输出在 L(8P∞)，所以
+deg(v_l)+w_l≤8。展为全部1890个权坐标后，对每条原有序 recipe
+都从全部坐标重建并返回其完整向量。这给出与旧逐条 engine.multiply
+完全相同的 324×1890 flat。最后计算原 **144×324** 分母核乘 flat，
+得到全部144条原分母行，不换核基、不缩秩、不选代表。
+
+新薄子类 OriginalLowFOperatorRecipeDivisors 只覆盖
+_full_denominator_reader。原 selected 分式的两图全交乘、完整混合核、
+原144行的逐行读入、同一行子集的两图 A-ideal 生成、其余全部来源
+的归属返回、完整像/colon/乘积返回和两图完整边界全部继承，
+原各个 projective degree 门也不修改。没有以 recipe 复用宣告除子
+已经返回，更没有引入新的原数值输入或替代常数域。
+
+本次失败 run 45764459557 的324行完整返回实际用到5095.377089612秒。
+该记录说明重跑时存在值得修复的重复前置成本；新 operator 读法的
+实际耗时必须由后续公开运行测量，不由代数等式估计冒充。
+
 ## 10. 完整 paired graph 与仿射单位提升：同一三角原像的两个推论
 
 R931 原厚模路径在有效理想商之后，还有两个真实费用：完整分式图调用第二个 $2n\times n$ 多项式核，分式值与单位逆再调用带全部变换矩阵的多项式单位解。只更换 §8 的有效商尚不能消除这些后继调用。本节直接使用已经证明的完整三角原像和 §3 的附加块整左除法，保留全部原来源和目标坐标。
@@ -731,7 +770,7 @@ job/run/source/result hash；完整 maps、两张正规化图、混合厚预检�
 host总管上限21000秒；数学容器保持无网络、源码只读，token只给原公开PASS reader。
 没有保存正规化或重算数据，没有改共享 bridge 或触发旧重型 workflow。
 是否实际完成仍须以未来这条完整生产 run 的回执为准；
-当前单 $F$ run45764459557 继续。
+随后单 $F$ run45764459557 已失败，准确终点见§11.1；后续v3接入见§11.10。
 
 
 ## 11. 完整多项式行模的有界次数 Hermite 算法
@@ -900,7 +939,7 @@ kernel tracking 块。需要 kernel 的旧接口仍用已经证明的完整三�
 
 新增独立 helper original_degree_bounded_row_reduction.py，函数为
 complete_degree_bounded_row_hermite。它与 R942 complete_row_hermite
-的输入输出签名相同，但此处尚未改动生产入口。
+的输入输出签名相同，其最初加入时未改生产入口；实际检查成功后的单F接入见§11.10。
 
 公开小检查应在同一个固定 Sage 10.6 镜像、明确的 F_(29²) 算法
 fixture 内执行以下全模门：小矩形输入与 Sage 官方 HNF 对照；
@@ -917,7 +956,7 @@ graph、affine augmentation 的既有 API；最后一个明确构造、全306
 
 ### 11.8 当前独立公开 API 请求
 
-此节全文与实现已由root审读，并独立复核单列shift、完整Popov、δ=0大输入、附加来源的不同次数界和旧接口；δ为完整商的k维数，非未计剩余域次数的R组合长度。新helper原始16513B SHA-256为 `963a0624b2df11e4ba11b573c9a0a1c27c5f2b07c1698acb55954771b798ce9f`。新10分钟workflow只检查明定算法fixtures和完整旧API，不改原生产入口。当前等待实际运行回执；不预记成功，也不将全306 fixture当原几何。
+此节全文与实现已由root审读，并独立复核单列shift、完整Popov、δ=0大输入、附加来源的不同次数界和旧接口；δ为完整商的k维数，非未计剩余域次数的R组合长度。新helper原始16513B SHA-256为 `963a0624b2df11e4ba11b573c9a0a1c27c5f2b07c1698acb55954771b798ce9f`。新10分钟workflow只检查明定算法fixtures和完整旧API，不改原生产入口。首次请求时等待实际回执；实际成功已登记§11.9，仍不将全306 fixture当原几何。
 
 ### 11.9 公开有界次数 API 的实际成功
 
@@ -944,3 +983,30 @@ det(U)为基域单位；非方形附加RHS保全来源整返回；δ=0且输入�
 完整paired graph、零分子、共同零分式、矩形仿射增广和非单位拒绝接口
 也全部通过。该306维例子没有生成原Y、原maps或原正规化，
 因此不冒充原除子、四交、完整厚Norm或shadow的PASS。
+
+### 11.10 只接单个原 F 的 v3 生产入口
+
+在§11.9全部实际通过后，原F入口接入有界次数HNF和§9.6全324条
+R2 recipe的完整算子复用。旧 complete_row_hermite 现在准确绑定到
+complete_degree_bounded_row_hermite；原逐列Bézout函数体已删除，
+原整像、全scalar原像和两图ideal engine的调用接口保持。
+生产开始前直接断言两个函数对象同一，并实际运行旧完整模preflight。
+F reader只将完整分母recipe读法换为薄子类，原两图、144核、1890坐标、
+全部剩余来源返回、product/colon和dF=1296的门继续执行。
+
+原请求仍为p=29、q_precision=2453、batch64、minimal，
+两份原特征零PASS的job/run/source/hash逐字保持。
+schema明确升为v3，linear_algebra标识为
+`r942-bounded-popov-split-m2`。host与数学producer的同序来源均为35项，
+新bounded和R2 helper都列入manifest与实际reader依赖；
+root审读时修正了host旧33项断言为35，未放松来源集合核验。
+R2 helper原始9579B SHA-256为
+`f15d37d389a7a8d237d1e5743dbb3d9f598c92874cd0748ff0d3cf7c37a77025`。
+
+本次更改的四个既有入口路径及新R2 helper，经当前全部57个rank2
+workflow真实源的push paths逐项审计，仅命中既有
+rank2-sha-original-low-f-divisors.yml。root另亲读该workflow；
+ubuntu-latest、360分钟、宿主21000秒、固定Sage10.6镜像、
+数学容器无网络/只读源码及token仅给公开PASS reader均保持。
+没有启动第二个原306正规化或Artinian重型任务。
+本节记录接入与等价性，实际原除子是否返回另以本次run终点登记。

@@ -211,3 +211,5 @@
 后继卷：[R951–R1000](PROOF-INDEX-R951-R1000.md)。
 
 - [R942§11.9](../results/R942-original-split-scalar-preimages-and-whole-module-elimination.md)：有界次数完整Popov/HNF API run45781623462实际成功，14源、完整附加块、实际shift8→15及全306坐标fixture全部通过；δ918/证明界1837/实际最大次数5，所有旧完整模接口亦返回。非原306几何或shadow PASS，生产另接。
+
+- [R942§9.6/11.10](../results/R942-original-split-scalar-preimages-and-whole-module-elimination.md)：同原120×306 M2算子完整返回324条有序R2/1890坐标及144分母核；bounded Popov/HNF与该薄reader已接单F v3。35源manifest完整，实际函数同一性与旧API前置；57 workflow实源path审计只触发单F，原两图/全厚/产品/边界门不改，实际原除子待run终点。

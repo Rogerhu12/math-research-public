@@ -24,7 +24,8 @@ WORKFLOW = Path(".github/workflows/rank2-sha-original-low-f-divisors.yml")
 HERE = Path(__file__).resolve().parent
 SOURCE_FILES = (
     "launch-original-low-f-divisors.py", "produce-original-low-f-divisors.py",
-    "original_low_f_complete_divisors.py", "original_ys_integral_image_tools.py",
+    "original_low_f_complete_divisors.py", "original_low_f_operator_recipes.py",
+    "original_degree_bounded_row_reduction.py", "original_ys_integral_image_tools.py",
     "original_polynomial_row_reduction.py", "original_ys_scalar_colon_tools.py",
     "original_ys_artinian_norm_tools.py", "original_ys_exact_reuse.py", "original_ys_fraction_bridge.py",
     "original_affine_fast_operations.py", "original_section_ring_embedding.py",
@@ -57,7 +58,7 @@ def request_arguments(root):
     obj = json.loads(raw)
     assert set(obj) == {"schema", "prime", "first", "packet",
                         "q_precision", "batch_size", "kernel_method", "linear_algebra"}
-    assert obj["schema"] == "rank2-original-low-f-divisors-request/v2"
+    assert obj["schema"] == "rank2-original-low-f-divisors-request/v3"
     assert type(obj["prime"]) is int and obj["prime"] == 29
     cli = ["--prime", str(obj["prime"])]
     keys = ("job", "run", "run_head", "source", "result_sha256")
@@ -77,7 +78,7 @@ def request_arguments(root):
     assert type(obj["q_precision"]) is int and obj["q_precision"] == 2453
     assert type(obj["batch_size"]) is int and obj["batch_size"] == 64
     assert obj["kernel_method"] == "minimal"
-    assert obj["linear_algebra"] == "r942-unimodular-split"
+    assert obj["linear_algebra"] == "r942-bounded-popov-split-m2"
     extra = ["--q-precision", str(obj["q_precision"]),
              "--batch-size", str(obj["batch_size"]),
              "--kernel-method", obj["kernel_method"],
@@ -97,7 +98,7 @@ def main():
     run, attempt = os.environ["GITHUB_RUN_ID"], os.environ["GITHUB_RUN_ATTEMPT"]
     assert run.isdecimal() and attempt.isdecimal()
     cli, request, request_hash, extra = request_arguments(root)
-    assert len(SOURCE_FILES) == len(set(SOURCE_FILES)) == 33
+    assert len(SOURCE_FILES) == len(set(SOURCE_FILES)) == 35
     files = [TOPIC/"scripts"/name for name in SOURCE_FILES]+[
         REQUEST, WORKFLOW, Path("README.md"), TOPIC/"README.md"]
     assert not git(root, "status", "--porcelain", "--", *map(str, files))

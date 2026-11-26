@@ -1,14 +1,14 @@
 #!/usr/bin/env sage-python
 """R942: complete original polynomial modules without a stored huge U.
 
-Every Hermite operation is a checked elementary unimodular operation on
+Every bounded Popov/Hermite operation is a checked elementary unimodular operation on
 the entire row.  An attached right block, when present, receives exactly
 the same operations.  Kernel projections are NEVER inferred from a basis
 computed without its transformation: split scalar preimages use complete
 residue kernels and full polynomial lifts instead.
 
-Only the original low-F producer opts into these classes.  All old engines
-and other consumers retain their existing implementation and provenance.
+Existing opt-in consumers retain their whole source interfaces.  The degree
+bounded reducer replaces the same HNF API; original modules are unchanged.
 """
 import os
 if (os.environ.get("GITHUB_ACTIONS") != "true" or
@@ -19,6 +19,7 @@ import hashlib
 import time
 from pathlib import Path
 from sage.all import matrix, vector
+from original_degree_bounded_row_reduction import complete_degree_bounded_row_hermite
 from original_ys_divisor_ideal_tools import (
     OriginalAffineIdeal, OriginalAffineIdealEngine, canonical, digest,
     polynomial_digest, polynomial_matrix_digest, element_digest,
@@ -30,6 +31,7 @@ from original_ys_scalar_colon_tools import (
 
 SOURCE_DEPENDENCIES = tuple(dict.fromkeys((
     "original_polynomial_row_reduction.py",
+    "original_degree_bounded_row_reduction.py",
 ) + IMAGE_DEPENDENCIES + SCALAR_DEPENDENCIES))
 
 
@@ -47,140 +49,9 @@ def _determinant_of_hermite(H):
     return value
 
 
-def complete_row_hermite(rows, attached=None, progress=None,
-                         label="whole polynomial row module"):
-    """Exact upper row HNF; record operations, not their matrix product.
-
-    The original matrix must have full column rank.  The optional attached
-    block is allowed only for a square left matrix.  It is transformed by
-    the same row operations, with no discarded rows or inferred inverse.
-    """
-    R, m, n = rows.base_ring(), int(rows.nrows()), int(rows.ncols())
-    assert m >= n and n > 0
-    report = progress or _progress
-    original = matrix(R, rows)
-    current = [vector(R, row) for row in original.rows()]
-    has_attached = attached is not None
-    if has_attached:
-        assert m == n and attached.base_ring() is R and attached.nrows() == m
-        original_attached = matrix(R, attached)
-        side = [vector(R, row) for row in original_attached.rows()]
-    else:
-        original_attached, side = None, None
-    operation_hash = hashlib.sha256()
-    counts = dict(swap=0, add=0, bezout=0, scale=0)
-    started = time.monotonic()
-    report("whole polynomial row operations start", label=label,
-           original_rows=m, original_columns=n, attached_block=has_attached)
-
-    def record(kind, indices, coefficients=()):
-        counts[kind] += 1
-        operation_hash.update(canonical(dict(
-            kind=kind, indices=list(indices),
-            coefficients=[polynomial_digest(R(c)) for c in coefficients]
-        )).encode())
-        operation_hash.update(b"\n")
-
-    def swap(i, j):
-        if i != j:
-            current[i], current[j] = current[j], current[i]
-            if has_attached:
-                side[i], side[j] = side[j], side[i]
-            record("swap", (i, j))
-
-    def add(i, j, coefficient):
-        coefficient = R(coefficient)
-        assert i != j
-        if coefficient:
-            current[i] = current[i] + coefficient*current[j]
-            if has_attached:
-                side[i] = side[i] + coefficient*side[j]
-            record("add", (i, j), (coefficient,))
-
-    for column in range(n):
-        candidates = [i for i in range(column, m) if current[i][column]]
-        assert candidates, "The supplied whole row module is not full rank."
-        pivot = min(candidates, key=lambda i: (current[i][column].degree(), i))
-        swap(column, pivot)
-        for i in range(column+1, m):
-            b = current[i][column]
-            if not b:
-                continue
-            a = current[column][column]
-            quotient, residual = b.quo_rem(a)
-            if not residual:
-                add(i, column, -quotient)
-                assert not current[i][column]
-                continue
-            g, s, t = a.xgcd(b)
-            assert g and s*a+t*b == g
-            if g.leading_coefficient() != 1:
-                scalar = R.base_ring().one()/g.leading_coefficient()
-                g, s, t = scalar*g, scalar*s, scalar*t
-            u, remainder_a = a.quo_rem(g)
-            v, remainder_b = b.quo_rem(g)
-            assert not remainder_a and not remainder_b
-            assert s*u+t*v == 1  # determinant of the complete 2-row operation
-            old_pivot, old_row = current[column], current[i]
-            current[column] = s*old_pivot+t*old_row
-            current[i] = -v*old_pivot+u*old_row
-            if has_attached:
-                old_pivot, old_row = side[column], side[i]
-                side[column] = s*old_pivot+t*old_row
-                side[i] = -v*old_pivot+u*old_row
-            assert current[column][column] == g and not current[i][column]
-            record("bezout", (column, i), (s, t, -v, u))
-        leading = current[column][column].leading_coefficient()
-        if leading != 1:
-            scalar = R.base_ring().one()/leading
-            assert scalar and scalar*leading == 1
-            current[column] = scalar*current[column]
-            if has_attached:
-                side[column] = scalar*side[column]
-            record("scale", (column,), (scalar,))
-        assert current[column][column].leading_coefficient() == 1
-        assert all(not current[i][column] for i in range(column+1, m))
-        assert all(not current[column][j] for j in range(column))
-        for i in range(column):
-            quotient, residual = current[i][column].quo_rem(current[column][column])
-            add(i, column, -quotient)
-            assert current[i][column] == residual
-        if (column+1) % 16 == 0 or column+1 == n:
-            report("whole polynomial row operations advanced", label=label,
-                   completed_columns=column+1, total_columns=n,
-                   operation_counts=dict(counts), attached_block=has_attached,
-                   reduction_elapsed_seconds=time.monotonic()-started)
-    assert all(row.is_zero() for row in current[n:])
-    H = matrix(R, current[:n])
-    assert H.nrows() == H.ncols() == n and H.is_hermite()
-    determinant = _determinant_of_hermite(H)
-    # All new rows are in the input module by the checked operations.
-    # This full division checks the opposite inclusion on EVERY source row.
-    assert _hermite_remainder_rows(original, H).is_zero()
-    transformed = matrix(R, side) if has_attached else None
-    receipt = dict(
-        method="entire elementary unimodular row operations",
-        label=label, original_shape=[m, n], full_rank=n,
-        original_rows_sha256=polynomial_matrix_digest(original),
-        complete_hermite_basis_sha256=polynomial_matrix_digest(H),
-        full_monic_determinant_sha256=polynomial_digest(determinant),
-        operation_counts=counts, full_operation_stream_sha256=operation_hash.hexdigest(),
-        all_bezout_determinants_one_checked=True,
-        all_row_scales_are_nonzero_field_units=True,
-        only_identically_zero_rows_removed=True,
-        every_original_row_returned_by_exact_hermite_division=True,
-        complete_row_module_preserved_at_every_operation=True,
-        both_polynomial_row_module_inclusions_verified=True,
-        accumulated_unimodular_matrix_constructed=False,
-        attached_block=has_attached,
-        original_attached_sha256=(polynomial_matrix_digest(original_attached)
-                                 if has_attached else None),
-        transformed_attached_sha256=(polynomial_matrix_digest(transformed)
-                                    if has_attached else None),
-        attached_block_receives_identical_complete_operations=has_attached,
-        elapsed_seconds=time.monotonic()-started)
-    return H, transformed, receipt
-
+# R942 section 11: this exact shared API now has a proved whole-run
+# degree bound; all complete attached-block and source-return callers stay.
+complete_row_hermite = complete_degree_bounded_row_hermite
 
 def full_polynomial_left_division(M, W, progress=None, label="complete left division"):
     """Return V with V*M=W, or reject any nonintegral source coordinate.

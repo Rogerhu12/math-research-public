@@ -27,16 +27,18 @@ from original_affine_fast_operations import build_original_affine_fast_operation
 from original_section_ring_embedding import build_original_section_ring_embedding
 from original_ys_fraction_bridge import OriginalFractionModel
 from original_polynomial_row_reduction import (
-    OriginalOperationHermiteEngine, operation_reduction_preflight)
+    OriginalOperationHermiteEngine, operation_reduction_preflight, complete_row_hermite)
+from original_degree_bounded_row_reduction import complete_degree_bounded_row_hermite
 from original_ys_artinian_norm_tools import OriginalArtinianNormTools
-from original_low_f_complete_divisors import OriginalLowFCompleteDivisors
+from original_low_f_operator_recipes import OriginalLowFOperatorRecipeDivisors
 
 HERE = Path(__file__).resolve().parent
 STARTED = time.monotonic()
 CURRENT_STAGE = "initialization"
 SOURCE_FILES = (
     "launch-original-low-f-divisors.py", "produce-original-low-f-divisors.py",
-    "original_low_f_complete_divisors.py", "original_ys_integral_image_tools.py",
+    "original_low_f_complete_divisors.py", "original_low_f_operator_recipes.py",
+    "original_degree_bounded_row_reduction.py", "original_ys_integral_image_tools.py",
     "original_polynomial_row_reduction.py", "original_ys_scalar_colon_tools.py",
     "original_ys_artinian_norm_tools.py", "original_ys_exact_reuse.py", "original_ys_fraction_bridge.py",
     "original_affine_fast_operations.py", "original_section_ring_embedding.py",
@@ -106,7 +108,7 @@ def build_original_f_divisors(affine, maps, progress_callback=None,
             kernel_method=kernel_method)
         tools_by_chart[flag] = OriginalArtinianNormTools(
             engine, affine, identity, omega, progress=report)
-    reader = OriginalLowFCompleteDivisors(model, tools_by_chart, progress=report)
+    reader = OriginalLowFOperatorRecipeDivisors(model, tools_by_chart, progress=report)
     assert reader.maps is maps and reader.affine is affine and reader.model is model
     assert reader.embedding is embedding and reader.kernel_context["maps"] is maps
     assert set(reader.source_receipt["source_dependencies"]).issubset(SOURCE_FILES)
@@ -229,12 +231,12 @@ def main():
     parser.add_argument("--q-precision", type=int, default=2453)
     parser.add_argument("--batch-size", type=int, default=64)
     parser.add_argument("--kernel-method", choices=("minimal",), default="minimal")
-    parser.add_argument("--linear-algebra", choices=("r942-unimodular-split",),
-                        default="r942-unimodular-split")
+    parser.add_argument("--linear-algebra", choices=("r942-bounded-popov-split-m2",),
+                        default="r942-bounded-popov-split-m2")
     args = parser.parse_args()
     assert args.prime == 29 and args.q_precision == 2453 and args.batch_size == 64
     assert args.kernel_method == "minimal"
-    assert args.linear_algebra == "r942-unimodular-split"
+    assert args.linear_algebra == "r942-bounded-popov-split-m2"
     request = pinned_request(args)
     incoming = sys.stdin.buffer.read(2*1024*1024+1)
     assert len(incoming) <= 2*1024*1024
@@ -247,6 +249,7 @@ def main():
     maps, map_receipt = map_module.build_original_map_section_fractions(
         args.prime, first, packet, q_precision=1429)
     emit("RANK2_MAP_SECTIONS", map_receipt)
+    assert complete_row_hermite is complete_degree_bounded_row_hermite
     r942_preflight = operation_reduction_preflight(maps["constants"], progress=progress)
     emit("RANK2_R942_POLYNOMIAL_API", r942_preflight)
     normalization_module = load_source(
