@@ -6,9 +6,9 @@
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，持续研究；有限验证、条件、接口和中间成果不算完成。**
 
-- 已部分克隆并实际pull --rebase；根/课题 README 已读至 `126c7c205bd4a33e3469819e1f9309457c5170a6`，相对已读版本未见规则变更。每次同步核两README差异；实际pull至少每小时，终端恢复即补做。
+- 已部分克隆并实际pull --rebase；根/课题 README 已读至 `72c3f63a1d1266ee36e16aefa8296295f645e22d`，相对已读版本未见规则变更。每次同步核两README差异；实际pull至少每小时，终端恢复即补做。
 - 私有QUEUE已推进行中状态f3125fbaa4bc13678b0c8519d85051762c579529；私库README读至e776df4。
-- 两克隆在/tmp/rank2-sha-7d29daa5d3b1。执行环境断开，最新13:49 UTC重试仍不可用；依根授权用小文本GitHub tree/commit及非强制CAS，逐次核最新main/规则，竞争立即重取父提交重推。恢复先核stash/local main，不覆盖远端恢复提交，再pull --rebase。令牌未入文件/配置/日志。
+- 两克隆在/tmp/rank2-sha-7d29daa5d3b1。执行环境断开，最新14:43 UTC重试仍不可用；依根授权用小文本GitHub tree/commit及非强制CAS，逐次核最新main/规则，竞争立即重取父提交重推。恢复先核stash/local main，不覆盖远端恢复提交，再pull --rebase。令牌未入文件/配置/日志。
 - root唯一ref和共享H/log/index写者，子代理只交不可变blob。数学执行仅公开Actions；只存源码/参数/run/hash/结论，不存可重算输出。H<10KB、MD<100KB、open尽量<30KB；不强推、不改他课题。
 
 ## 完整历史与当前任务
@@ -33,7 +33,7 @@ R942§8–13全程有界HNF/paired graph/306 W及全厚ideal两图运输已证�
 
 ### 当前唯一后继Artinian v7
 
-source6e79456aa2250a589306ba39d983ecdc46a2f267/run45838674625/job139974211422，14:24:22UTC启动；14:25 checkout/固定镜像成功，step4运行。R956§8保全部45源/hash；两个tiny真PASS，MD/完整preimage/attached原域返回门齐备，仍无原链PASS。
+source6e79456aa2250a589306ba39d983ecdc46a2f267/run45838674625/job139974211422，14:24:22UTC启动；14:48核checkout/固定镜像成功，step4仍运行。R956§8保全部45源/hash；两个tiny真PASS，MD/完整preimage/attached原域返回门齐备，仍无原链PASS。
 
 固定Sage10.6/离线只读、r29/q2453/batch64/minimal及两份原PASS pins保持；四类+一map+两geometry+一Miller绑定、全七式/两图/四交/九对/全厚/18×9均保。实际θ17=[5,10]从same六常数读取，不假定tiny坐标。不得选旧v5/v6或预记原W/除子/shadow成功。
 
@@ -66,5 +66,7 @@ R959固定E65两点独立、完整390/2,3,5/双13来源/全CM六jet已付，run4
 **R966已证**：原全Fourier/绝对三点lift给Πδ390 Z=0，真三译像中央为原值的1/−1/2/−1/2。SZ=ΣCj(J−Jj)/9，坏Z后留2J′(C1J)/9交叉读数。Y3非零type3；全Λ偶使全局偶mixed测试上译像=−1/2原投影；§7.2从原q六次齐次和全部cut/log证明Frem本来全局偶，直接适用但读数仍未消。保完整Gaussian/周期/除p窗及ordinary sum-unitcut与inert Newton范围，续同交叉及四态消费。
 
 **R967已证**：原E2 Weyl=3^(-195/2)B_T，Π0B_TZ=3^97Z；2/3全12有序中心给原读数倍率1、−1/2、1/√3、−1/(2√3)。原全μ6 mixed压缩仅已投影ρ/h，单码不冒μ6。Π0(C1J)=(9SZ−Z)/2非常数比，cross不在这12受迫投影张成；续实际其他来源及共同carry。
+
+**R968已证**：C=H0/δ、F=−ωH1/δ同时保原S/T/W±/Z/W′；degree10/210 whole核共真实符号υp=χ10λ。十二次Q使q9=0、q3=3^12·11·1069/(2^19·5^9·7^6)，三支新q保原Τ且整个四输出返回υp^n；原五深一单位网格差准确vp=8n，只读原正第一矩。完整补域及不同CM投影仍保；新q仅前四，原H_cd/Pj/Rc确实保持，继续其真实mixed余域；D156不保新q。
 
 原P134/十九角/charge40/10980、全WD/TM/TJ、旧39carry与五块52不混；R872–938合法lift/反馈/稳定K∞全部原门仍保。R939 D2∩K1=D4，R944/948的D5/平方单射带原严格条件；R938仅Wlow满像，R936/937仅指定陪集排除。O4/O6/O7、R364/R561/R654/R712全部原全群门见open及完整H链，持续处理。
