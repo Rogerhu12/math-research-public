@@ -1,0 +1,43 @@
+{
+  "schema": "6a65-independent-new-zero-Cauchy-then-Cartesian-cold-scalar-v2",
+  "run_id": "45837984058",
+  "run_attempt": "1",
+  "source_epoch": "0a26d8e0e3c017df4c0175d542fedf134663136d",
+  "controllerSHA256": "2ffb454837f278edf3c66f8e58018c8219cf0873968dadb15cea2ab2cef6cd4f",
+  "requestSHA256": "59e024de320132e79fee3741fad9d6d9662253ca974e20ab34a8cc68a979b69b",
+  "candidateSHA256": "9c903de99a0ca295db7d99e4dfec837db7778a7e20bc07abd6035a63e59a938d",
+  "frozenSourceInventorySHA256": "69e93a0d84e89d00b3432400a4b23ce18297988237f04641428b824869a044ac",
+  "frozenSourceFiles": 8220,
+  "cauchyRecipeSHA256": "4c929d16fa8304918338df1b7952f5219ab12eaf985a450f86ac022f0e4ac517",
+  "cartesianRecipeSHA256": "a5f2880cf52df4c42af2432b8187a7d0b58a8c6d7b60a1b64d05e2450fd0874c",
+  "newNoZConfigSHA256": "5316d5bc7b15ace83b060928efb1a057ef9eb35e269f1245d77578e836a1d1af",
+  "newInputNotLiveStrongCheckpoint": true,
+  "startedUTC": "2026-11-26T14:20:48.502705+00:00",
+  "stages": [],
+  "state": "before-actual-new-source-generation",
+  "rawRetention": "RUNNER_TEMP only; no Git, artifact or release raw publication.",
+  "originalStrongRunUnchanged": true,
+  "acceptedLiveCauchyStepsAdded": 0,
+  "continuousCertificate": false,
+  "strongTargetComplete": false,
+  "bootstrapSHA256": "36384dc11e5cfba77f92e09dd2c006b672240f1cd7c62779727237638c7777e6",
+  "publicationControllerSHA256": "5055b47a891bb106557842976a6f4766121edf893605fd7a551a39c223283d29",
+  "completeSourceRecomputedInThisRunner": true,
+  "previouslyObservedPrefixIsInputRegenerationOnly": true,
+  "newSolverPriorAcceptedSteps": 0,
+  "publicationPhase": "actual-original-source-generation-before-any-Cartesian-attempt",
+  "continuationEntry": "6a65-actions-cartesian-channel-block-v5-20261126.py",
+  "actualOwnAcceptedCount": 0,
+  "pulls": [
+    {
+      "UTC": "2026-11-26T14:20:49+00:00",
+      "fromCommit": "0a26d8e0e3c017df4c0175d542fedf134663136d",
+      "toCommit": "7673bcf88e452c06c93cd5199820cdeac9dcf064",
+      "readmeDiffEmpty": true,
+      "pullCommandExit": 0
+    }
+  ],
+  "actualTotalPullCount": 1,
+  "updatedUTC": "2026-11-26T14:20:49.909960+00:00",
+  "outputs": {}
+}
