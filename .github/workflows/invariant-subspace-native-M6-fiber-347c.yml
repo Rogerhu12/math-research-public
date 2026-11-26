@@ -1,0 +1,60 @@
+name: ISP complete native M6 original algebra
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'topics/invariant-subspace-problem/notes/2026-11-26-unit211-U-value-S0-M6-native-algebra-347c.py'
+      - '.github/workflows/invariant-subspace-native-M6-fiber-347c.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: isp-native-M6-fiber-347c
+  cancel-in-progress: false
+jobs:
+  exact:
+    name: ${{ matrix.label }}
+    runs-on: ubuntu-latest
+    timeout-minutes: ${{ matrix.minutes }}
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - label: unit211-S0-M6-complete-native-algebra
+            file: 2026-11-26-unit211-U-value-S0-M6-native-algebra-347c.py
+            condition: 'all'
+            seconds: 660
+            minutes: 15
+            singular: false
+    env:
+      ISP_PIN: ${{ github.sha }}
+      ISP_FILE: ${{ matrix.file }}
+      ISP_U_CONDITION: ${{ matrix.condition }}
+      ISP_SECONDS: ${{ matrix.seconds }}
+      OMP_NUM_THREADS: '1'
+      OPENBLAS_NUM_THREADS: '1'
+      MKL_NUM_THREADS: '1'
+      FLINT_NUM_THREADS: '1'
+    steps:
+      - name: Select exact arithmetic Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12.14'
+      - name: Partial checkout and frozen original equations
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p "$RUNNER_TEMP/isp-small-exact"
+          cd "$RUNNER_TEMP/isp-small-exact"
+          git init -q
+          git remote add origin https://github.com/Rogerhu12/math-research-public.git
+          git sparse-checkout init --no-cone
+          git sparse-checkout set --no-cone '/README.md' '/topics/invariant-subspace-problem/README.md'
+          timeout 120s git fetch --no-tags --filter=blob:none --depth=1 origin "$ISP_PIN"
+          git checkout -b main FETCH_HEAD
+          ISP_SOURCE_PATH="topics/invariant-subspace-problem/notes/$ISP_FILE"
+          ISP_BLOB="$(git rev-parse "$ISP_PIN:$ISP_SOURCE_PATH")"
+          git show "$ISP_PIN:$ISP_SOURCE_PATH" > "$RUNNER_TEMP/isp-small-source.py"
+          git show "$ISP_PIN:topics/invariant-subspace-problem/notes/2026-11-26-small-exact-actions-driver-347c.py" > "$RUNNER_TEMP/isp-small-driver.py"
+          python -m pip install --quiet python-flint==0.9.0 sympy==1.14.0
+          python -u "$RUNNER_TEMP/isp-small-driver.py" --checkout "$PWD" --source "$RUNNER_TEMP/isp-small-source.py" --expected-blob "$ISP_BLOB" --seconds "$ISP_SECONDS"

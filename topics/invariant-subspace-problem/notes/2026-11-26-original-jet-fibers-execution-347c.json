@@ -1,0 +1,913 @@
+{
+  "schema": "isp-original-jet-small-execution-receipts-v1",
+  "session": "Astra-ISP-347c-20261126",
+  "ordinaryISPClaim": false,
+  "executions": [
+    {
+      "job": 139865351180,
+      "name": "unit211-U-jet",
+      "receipt": {
+        "elapsed_seconds": 180.88440685,
+        "max_child_rss_kib": 533232,
+        "ordinary_isp_claim": false,
+        "rules_reads": [
+          {
+            "after": "320c15f558da139403898b4e8c3e64bbf77b2aa6",
+            "before": "4fd880e3838c2e376895973cce44952a5ee91cec",
+            "rules_git_blobs": {
+              "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+              "topics/invariant-subspace-problem/README.md": "fef43bdf8690f2eec4751d85784a266eacdd0322"
+            },
+            "rules_unchanged": true,
+            "utc": "2026-11-26T11:04:40.188175+00:00"
+          }
+        ],
+        "run_attempt": "1",
+        "run_id": "45807166646",
+        "schema": "isp-frozen-exact-actions-execution-v1",
+        "session": "Astra-ISP-347c-20261126",
+        "source_commit": "4fd880e3838c2e376895973cce44952a5ee91cec",
+        "source_exit_code": 124,
+        "source_git_blob": "5081ef08bb5aa6642a54ce8e52a83e3be6a1907c",
+        "source_sha256": "c5f5c0bdeb84fd2db577286cc95b087de379fc621049ffefb4df6463995bea91",
+        "stdout_bytes": 668,
+        "stdout_sha256": "0fc77097060528fa85211393179b2f28242f1f429e8a976273bdfb6b52ad6bef",
+        "stop_reason": null
+      },
+      "reports": [
+        {
+          "claimExcluded": false,
+          "elapsedSeconds": 0.156031,
+          "rationalCoefficientVariables": [
+            "q",
+            "lambda",
+            "h",
+            "k"
+          ],
+          "remainingPolynomialVariable": "f",
+          "sourceSha256": "c5f5c0bdeb84fd2db577286cc95b087de379fc621049ffefb4df6463995bea91",
+          "stage": "four_parameter_linear_t_graph_verified",
+          "tConstant": {
+            "denominatorDegrees": [
+              2,
+              7,
+              8,
+              8
+            ],
+            "denominatorTerms": 924,
+            "numeratorDegrees": [
+              4,
+              11,
+              11,
+              11
+            ],
+            "numeratorTerms": 3459
+          },
+          "tSlope": {
+            "denominatorDegrees": [
+              2,
+              7,
+              5,
+              5
+            ],
+            "denominatorTerms": 374,
+            "numeratorDegrees": [
+              3,
+              7,
+              8,
+              8
+            ],
+            "numeratorTerms": 890
+          },
+          "target": "jet"
+        },
+        {
+          "claimExcluded": false,
+          "elapsedSeconds": 180.812376,
+          "status": "timeout_unknown",
+          "target": "jet"
+        }
+      ]
+    },
+    {
+      "job": 139865351533,
+      "name": "h21-reduced-original-quadratics",
+      "receipt": {
+        "elapsed_seconds": 142.446722896,
+        "max_child_rss_kib": 491264,
+        "ordinary_isp_claim": false,
+        "rules_reads": [
+          {
+            "after": "320c15f558da139403898b4e8c3e64bbf77b2aa6",
+            "before": "4fd880e3838c2e376895973cce44952a5ee91cec",
+            "rules_git_blobs": {
+              "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+              "topics/invariant-subspace-problem/README.md": "fef43bdf8690f2eec4751d85784a266eacdd0322"
+            },
+            "rules_unchanged": true,
+            "utc": "2026-11-26T11:04:46.890164+00:00"
+          }
+        ],
+        "run_attempt": "1",
+        "run_id": "45807166646",
+        "schema": "isp-frozen-exact-actions-execution-v1",
+        "session": "Astra-ISP-347c-20261126",
+        "source_commit": "4fd880e3838c2e376895973cce44952a5ee91cec",
+        "source_exit_code": 0,
+        "source_git_blob": "8d084112f3c15ba913a54ee4fb97868154200b0c",
+        "source_sha256": "239dcd58040be9d580e08e8ccb5f89eaecdbc7574f1320b257d2bbb12c668ba5",
+        "stdout_bytes": 2737,
+        "stdout_sha256": "5ee7edc141a629bfcad04eafcc8d218e61fba35b9e752787f0aa88ea73370e27",
+        "stop_reason": null
+      },
+      "reports": [
+        {
+          "degrees": [
+            0,
+            0,
+            3,
+            3,
+            6
+          ],
+          "label": "source_Jred",
+          "seconds": 6.380778372000009,
+          "sha256": "19bc341ee6dd27f8216e6d5003ac6db37b13e28c4894d27f4ebf4db66c9770f2",
+          "stage": "reduced_original_equation",
+          "terms": 38
+        },
+        {
+          "degrees": [
+            0,
+            3,
+            4,
+            4,
+            7
+          ],
+          "label": "source_C3",
+          "seconds": 6.426496987999997,
+          "sha256": "9e44c51f99a96cd9e75b6a9778fac940970d06c3f385611a4424c63295a088f6",
+          "stage": "reduced_original_equation",
+          "terms": 181
+        },
+        {
+          "degrees": [
+            0,
+            2,
+            5,
+            5,
+            9
+          ],
+          "label": "highest_w_quadratic",
+          "seconds": 6.474051734,
+          "sha256": "12a5b564fc0d93a2cfaba7d5526c13abe724d57b35f5ee2a0b6d8d4dad00e347",
+          "stage": "reduced_original_equation",
+          "terms": 240
+        },
+        {
+          "degrees": [
+            0,
+            2,
+            10,
+            10,
+            20
+          ],
+          "label": "mean_norm_quadratic",
+          "seconds": 14.663977330000009,
+          "sha256": "47c625d943bf791c06e8f954c7a5a9ee056a67f457b9201b01ba262a77237c94",
+          "stage": "reduced_original_equation",
+          "terms": 2646
+        },
+        {
+          "degrees": [
+            0,
+            8,
+            8,
+            8,
+            24
+          ],
+          "label": "original_jet_scale",
+          "seconds": 33.207332351999995,
+          "sha256": "0126c8527aa0b4190b7e0ac9fd3120408258d8cfb790fefe883e669fdc49552a",
+          "stage": "reduced_original_equation",
+          "terms": 4485
+        },
+        {
+          "degrees": [
+            0,
+            5,
+            5,
+            5,
+            10
+          ],
+          "label": "original_single_ratio",
+          "seconds": 33.365798051,
+          "sha256": "86c48a24fd9a0336c3ccccd6ef2590f270c70eb2135de74b0f73e99c00e34817",
+          "stage": "reduced_original_equation",
+          "terms": 431
+        },
+        {
+          "degrees": [
+            0,
+            6,
+            8,
+            8,
+            19
+          ],
+          "label": "highest_source_derivative",
+          "seconds": 40.327530442,
+          "sha256": "e7739330a0f5408ab7409794a179ac741d49cfb6bf08bd67a3038737f7b19707",
+          "stage": "reduced_original_equation",
+          "terms": 2754
+        },
+        {
+          "degrees": [
+            1,
+            4,
+            7,
+            9,
+            15
+          ],
+          "label": "original_physical_units",
+          "seconds": 41.856727546000016,
+          "sha256": "fc213ed7bacd67885785f1d6e2ae2a356677f2ad53491f274d356b61d455cfe8",
+          "stage": "reduced_original_equation",
+          "terms": 1433
+        },
+        {
+          "returncode": 0,
+          "seconds": 41.864306524000014,
+          "stage": "singular_version",
+          "text": "Singular for x86_64-Linux version 4.4.1 (44105, 64 bit) Dec  6 2025 11:10:58"
+        },
+        {
+          "auxiliary_variables": [
+            "n=1/Pi"
+          ],
+          "bytes": 232404,
+          "constant_e": 700,
+          "constant_prime": 1031,
+          "physical_variables": [
+            "d=w-s",
+            "z",
+            "x",
+            "s"
+          ],
+          "polynomial_count": 8,
+          "seconds": 41.872762554999994,
+          "sha256": "b0b06b219217a50f6b5308aa22aede0a48b9ddf1e19e45a55d3b244ee666ccec",
+          "stage": "singular_input"
+        },
+        {
+          "outcome": "unit_reduced",
+          "returncode": 0,
+          "seconds": 141.94576490999998,
+          "stage": "singular_output",
+          "stdout_sha256": "6e31a44f763f4d6b35e323fd62cc8d49b16adcd07d489798b145beb89f942454",
+          "text": "ISP_BEGIN_REDUCED_QUADRATIC\nISP_REDUCED_BASIS_SIZE\n1\nISP_MODULAR_UNIT_REDUCED\n"
+        },
+        {
+          "scope": "modular reduced original system only; no characteristic-zero exclusion",
+          "seconds": 141.94624852699997,
+          "source_sha256": "239dcd58040be9d580e08e8ccb5f89eaecdbc7574f1320b257d2bbb12c668ba5",
+          "stage": "complete_probe"
+        }
+      ]
+    },
+    {
+      "job": 139865351586,
+      "name": "unit211-U-EC",
+      "receipt": {
+        "elapsed_seconds": 27.782607307999996,
+        "max_child_rss_kib": 122812,
+        "ordinary_isp_claim": false,
+        "rules_reads": [
+          {
+            "after": "320c15f558da139403898b4e8c3e64bbf77b2aa6",
+            "before": "4fd880e3838c2e376895973cce44952a5ee91cec",
+            "rules_git_blobs": {
+              "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+              "topics/invariant-subspace-problem/README.md": "fef43bdf8690f2eec4751d85784a266eacdd0322"
+            },
+            "rules_unchanged": true,
+            "utc": "2026-11-26T11:04:40.597421+00:00"
+          }
+        ],
+        "run_attempt": "1",
+        "run_id": "45807166646",
+        "schema": "isp-frozen-exact-actions-execution-v1",
+        "session": "Astra-ISP-347c-20261126",
+        "source_commit": "4fd880e3838c2e376895973cce44952a5ee91cec",
+        "source_exit_code": 0,
+        "source_git_blob": "5081ef08bb5aa6642a54ce8e52a83e3be6a1907c",
+        "source_sha256": "c5f5c0bdeb84fd2db577286cc95b087de379fc621049ffefb4df6463995bea91",
+        "stdout_bytes": 1324,
+        "stdout_sha256": "2f1dfcef6d1e5db3d0e8d4eb81f2930a878af965447b175c955c5f12a6cb882c",
+        "stop_reason": null
+      },
+      "reports": [
+        {
+          "claimExcluded": false,
+          "elapsedSeconds": 0.154198,
+          "rationalCoefficientVariables": [
+            "q",
+            "lambda",
+            "h",
+            "k"
+          ],
+          "remainingPolynomialVariable": "f",
+          "sourceSha256": "c5f5c0bdeb84fd2db577286cc95b087de379fc621049ffefb4df6463995bea91",
+          "stage": "four_parameter_linear_t_graph_verified",
+          "tConstant": {
+            "denominatorDegrees": [
+              2,
+              7,
+              8,
+              8
+            ],
+            "denominatorTerms": 924,
+            "numeratorDegrees": [
+              4,
+              11,
+              11,
+              11
+            ],
+            "numeratorTerms": 3459
+          },
+          "tSlope": {
+            "denominatorDegrees": [
+              2,
+              7,
+              5,
+              5
+            ],
+            "denominatorTerms": 374,
+            "numeratorDegrees": [
+              3,
+              7,
+              8,
+              8
+            ],
+            "numeratorTerms": 890
+          },
+          "target": "EC"
+        },
+        {
+          "claimExcluded": false,
+          "clearedInputSha256": "4855b679456e74ad7f2fadf63e721e5171c6c2c0a4a5bf87b3c7c50b36f46bca",
+          "coefficientProfiles": [
+            {
+              "degrees": [
+                8,
+                24,
+                23,
+                24
+              ],
+              "terms": 56058
+            },
+            {
+              "degrees": [
+                7,
+                20,
+                23,
+                24
+              ],
+              "terms": 45397
+            },
+            {
+              "degrees": [
+                6,
+                16,
+                23,
+                24
+              ],
+              "terms": 33967
+            }
+          ],
+          "elapsedSeconds": 27.72429,
+          "fDegree": 2,
+          "name": "EC",
+          "sourceSha256": "c5f5c0bdeb84fd2db577286cc95b087de379fc621049ffefb4df6463995bea91",
+          "stage": "original_condition_generated"
+        },
+        {
+          "claimLambdaLayerEmpty": false,
+          "claimPhysicalSufficiency": false,
+          "elapsedSeconds": 27.724391,
+          "ordinaryISPClaim": false,
+          "peakRssKiB": 122812,
+          "sourceSha256": "c5f5c0bdeb84fd2db577286cc95b087de379fc621049ffefb4df6463995bea91",
+          "status": "requested_original_conditions_generated",
+          "target": "EC"
+        }
+      ]
+    },
+    {
+      "job": 139865351615,
+      "name": "unit211-U-EB",
+      "receipt": {
+        "elapsed_seconds": 30.760775896,
+        "max_child_rss_kib": 121392,
+        "ordinary_isp_claim": false,
+        "rules_reads": [
+          {
+            "after": "320c15f558da139403898b4e8c3e64bbf77b2aa6",
+            "before": "4fd880e3838c2e376895973cce44952a5ee91cec",
+            "rules_git_blobs": {
+              "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+              "topics/invariant-subspace-problem/README.md": "fef43bdf8690f2eec4751d85784a266eacdd0322"
+            },
+            "rules_unchanged": true,
+            "utc": "2026-11-26T11:04:34.142776+00:00"
+          }
+        ],
+        "run_attempt": "1",
+        "run_id": "45807166646",
+        "schema": "isp-frozen-exact-actions-execution-v1",
+        "session": "Astra-ISP-347c-20261126",
+        "source_commit": "4fd880e3838c2e376895973cce44952a5ee91cec",
+        "source_exit_code": 0,
+        "source_git_blob": "5081ef08bb5aa6642a54ce8e52a83e3be6a1907c",
+        "source_sha256": "c5f5c0bdeb84fd2db577286cc95b087de379fc621049ffefb4df6463995bea91",
+        "stdout_bytes": 1325,
+        "stdout_sha256": "0c6c99fe42f3d99327fc11aeeea7f9618f1da19af97eb3d3ea1890419ab678c4",
+        "stop_reason": null
+      },
+      "reports": [
+        {
+          "claimExcluded": false,
+          "elapsedSeconds": 0.165858,
+          "rationalCoefficientVariables": [
+            "q",
+            "lambda",
+            "h",
+            "k"
+          ],
+          "remainingPolynomialVariable": "f",
+          "sourceSha256": "c5f5c0bdeb84fd2db577286cc95b087de379fc621049ffefb4df6463995bea91",
+          "stage": "four_parameter_linear_t_graph_verified",
+          "tConstant": {
+            "denominatorDegrees": [
+              2,
+              7,
+              8,
+              8
+            ],
+            "denominatorTerms": 924,
+            "numeratorDegrees": [
+              4,
+              11,
+              11,
+              11
+            ],
+            "numeratorTerms": 3459
+          },
+          "tSlope": {
+            "denominatorDegrees": [
+              2,
+              7,
+              5,
+              5
+            ],
+            "denominatorTerms": 374,
+            "numeratorDegrees": [
+              3,
+              7,
+              8,
+              8
+            ],
+            "numeratorTerms": 890
+          },
+          "target": "EB"
+        },
+        {
+          "claimExcluded": false,
+          "clearedInputSha256": "108c91e6e32c3dfea8c203644a7cc61c561c58b185f675d2fce2cb892cb92501",
+          "coefficientProfiles": [
+            {
+              "degrees": [
+                8,
+                24,
+                24,
+                23
+              ],
+              "terms": 56058
+            },
+            {
+              "degrees": [
+                7,
+                20,
+                24,
+                23
+              ],
+              "terms": 45397
+            },
+            {
+              "degrees": [
+                6,
+                16,
+                24,
+                23
+              ],
+              "terms": 33967
+            }
+          ],
+          "elapsedSeconds": 30.692115,
+          "fDegree": 2,
+          "name": "EB",
+          "sourceSha256": "c5f5c0bdeb84fd2db577286cc95b087de379fc621049ffefb4df6463995bea91",
+          "stage": "original_condition_generated"
+        },
+        {
+          "claimLambdaLayerEmpty": false,
+          "claimPhysicalSufficiency": false,
+          "elapsedSeconds": 30.692232,
+          "ordinaryISPClaim": false,
+          "peakRssKiB": 121392,
+          "sourceSha256": "c5f5c0bdeb84fd2db577286cc95b087de379fc621049ffefb4df6463995bea91",
+          "status": "requested_original_conditions_generated",
+          "target": "EB"
+        }
+      ]
+    },
+    {
+      "job": 139865351621,
+      "name": "unit211-U-E1",
+      "receipt": {
+        "elapsed_seconds": 20.551061736,
+        "max_child_rss_kib": 102836,
+        "ordinary_isp_claim": false,
+        "rules_reads": [
+          {
+            "after": "320c15f558da139403898b4e8c3e64bbf77b2aa6",
+            "before": "4fd880e3838c2e376895973cce44952a5ee91cec",
+            "rules_git_blobs": {
+              "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+              "topics/invariant-subspace-problem/README.md": "fef43bdf8690f2eec4751d85784a266eacdd0322"
+            },
+            "rules_unchanged": true,
+            "utc": "2026-11-26T11:04:36.787472+00:00"
+          }
+        ],
+        "run_attempt": "1",
+        "run_id": "45807166646",
+        "schema": "isp-frozen-exact-actions-execution-v1",
+        "session": "Astra-ISP-347c-20261126",
+        "source_commit": "4fd880e3838c2e376895973cce44952a5ee91cec",
+        "source_exit_code": 0,
+        "source_git_blob": "5081ef08bb5aa6642a54ce8e52a83e3be6a1907c",
+        "source_sha256": "c5f5c0bdeb84fd2db577286cc95b087de379fc621049ffefb4df6463995bea91",
+        "stdout_bytes": 1325,
+        "stdout_sha256": "4e8891d3960d2893d709572d8e6ae8d06a28ff6874a73593672b3e2295217823",
+        "stop_reason": null
+      },
+      "reports": [
+        {
+          "claimExcluded": false,
+          "elapsedSeconds": 0.211532,
+          "rationalCoefficientVariables": [
+            "q",
+            "lambda",
+            "h",
+            "k"
+          ],
+          "remainingPolynomialVariable": "f",
+          "sourceSha256": "c5f5c0bdeb84fd2db577286cc95b087de379fc621049ffefb4df6463995bea91",
+          "stage": "four_parameter_linear_t_graph_verified",
+          "tConstant": {
+            "denominatorDegrees": [
+              2,
+              7,
+              8,
+              8
+            ],
+            "denominatorTerms": 924,
+            "numeratorDegrees": [
+              4,
+              11,
+              11,
+              11
+            ],
+            "numeratorTerms": 3459
+          },
+          "tSlope": {
+            "denominatorDegrees": [
+              2,
+              7,
+              5,
+              5
+            ],
+            "denominatorTerms": 374,
+            "numeratorDegrees": [
+              3,
+              7,
+              8,
+              8
+            ],
+            "numeratorTerms": 890
+          },
+          "target": "E1"
+        },
+        {
+          "claimExcluded": false,
+          "clearedInputSha256": "d41d42c4ee0c5e7da02583c0c22ef0d1301f5810d7ef4f599f44b155849ff22f",
+          "coefficientProfiles": [
+            {
+              "degrees": [
+                8,
+                24,
+                23,
+                23
+              ],
+              "terms": 56512
+            },
+            {
+              "degrees": [
+                7,
+                20,
+                23,
+                23
+              ],
+              "terms": 46036
+            },
+            {
+              "degrees": [
+                6,
+                16,
+                23,
+                23
+              ],
+              "terms": 34700
+            }
+          ],
+          "elapsedSeconds": 20.479015,
+          "fDegree": 2,
+          "name": "E1",
+          "sourceSha256": "c5f5c0bdeb84fd2db577286cc95b087de379fc621049ffefb4df6463995bea91",
+          "stage": "original_condition_generated"
+        },
+        {
+          "claimLambdaLayerEmpty": false,
+          "claimPhysicalSufficiency": false,
+          "elapsedSeconds": 20.479121,
+          "ordinaryISPClaim": false,
+          "peakRssKiB": 102836,
+          "sourceSha256": "c5f5c0bdeb84fd2db577286cc95b087de379fc621049ffefb4df6463995bea91",
+          "status": "requested_original_conditions_generated",
+          "target": "E1"
+        }
+      ]
+    },
+    {
+      "job": 139865351653,
+      "name": "h21-direct-complete-original",
+      "receipt": {
+        "elapsed_seconds": 185.492880692,
+        "max_child_rss_kib": 824800,
+        "ordinary_isp_claim": false,
+        "rules_reads": [
+          {
+            "after": "320c15f558da139403898b4e8c3e64bbf77b2aa6",
+            "before": "4fd880e3838c2e376895973cce44952a5ee91cec",
+            "rules_git_blobs": {
+              "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+              "topics/invariant-subspace-problem/README.md": "fef43bdf8690f2eec4751d85784a266eacdd0322"
+            },
+            "rules_unchanged": true,
+            "utc": "2026-11-26T11:04:44.924151+00:00"
+          }
+        ],
+        "run_attempt": "1",
+        "run_id": "45807166646",
+        "schema": "isp-frozen-exact-actions-execution-v1",
+        "session": "Astra-ISP-347c-20261126",
+        "source_commit": "4fd880e3838c2e376895973cce44952a5ee91cec",
+        "source_exit_code": 0,
+        "source_git_blob": "22884090d69d27182561a1f5614c9781d3d9dae9",
+        "source_sha256": "af20c2f8d60e4ab125a003203219db04d2f95f0a246f5cfc233cca5d99cdd490",
+        "stdout_bytes": 13984,
+        "stdout_sha256": "9f058b1f7766a4004a1c19f1495875d201a2f618b578f2469569c9d6a2356206",
+        "stop_reason": null
+      },
+      "reports": [
+        {
+          "returncode": 0,
+          "seconds": 4.852814201000001,
+          "stage": "singular_version",
+          "text": "Singular for x86_64-Linux version 4.4.1 (44105, 64 bit) Dec  6 2025 11:10:58\nwith\n\tGMP(6.3.0),NTL(11.5.1),FLINT(3.4.0),\n\tomalloc,static readline(8),Plural,vspace(2),DBM,\n\tdynamic modules,OM_NDEBUG,SING_NDEBUG,\n\tCC:OPTIMIZE,GenericAdd,TableMult,no invTable,\n\teigenvalues,Gauss-Manin system,random=1795691090\nbuilt-in modules: {}\nAC_CONFIGURE_ARGS =  '--build=x86_64-linux-gnu' '--prefix=/usr' '--includedir=${prefix}/include' '--mandir=${prefix}/share/man' '--infodir=${prefix}/share/info' '--sysconfdir=/etc' '--localstatedir=/var' '--disable-option-checking' '--disable-silent-rules' '--libdir=${prefix}/lib/x86_64-linux-gnu' '--runstatedir=/run' '--disable-maintainer-mode' '--disable-dependency-tracking' '--libexecdir=/usr/libexec/x86_64-linux-gnu' '--htmldir=/usr/share/doc/singular/html' '--with-libparse' '--enable-streamio' 'build_alias=x86_64-linux-gnu' 'CFLAGS=-g -O2 -Werror=implicit-function-declaration -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/singular-o0ehYn/singular-4.4.1-p5+ds=. -flto=auto -ffat-lto-objects -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -march=x86-64-v3 -fdebug-prefix-map=/build/singular-o0ehYn/singular-4.4.1-p5+ds=/usr/src/singular-1:4.4.1-p5+ds-1build1' 'LDFLAGS=-Wl,-Bsymbolic-functions -Wl,--package-metadata={%22type%22:%22deb%22%2C%22os%22:%22ubuntu%22%2C%22name%22:%22singular%22%2C%22version%22:%221:4.4.1-p5+ds-1build1%22%2C%22architecture%22:%22amd64%22%2C%22architectureVariant%22:%22amd64v3%22} -flto=auto -ffat-lto-objects -Wl,-z,relro -Wl,-z,now -march=x86-64-v3' 'CPPFLAGS=-Wdate-time -D_FORTIFY_SOURCE=3' 'CXXFLAGS=-g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/singular-o0ehYn/singular-4.4.1-p5+ds=. -flto=auto -ffat-lto-objects -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -march=x86-64-v3 -fdebug-prefix-map=/build/singular-o0ehYn/singular-4.4.1-p5+ds=/usr/src/singular-1:4.4.1-p5+ds-1build1' 'PYTHON=/usr/bin/python3' --enable-omalloc  OMALLOC_LIBS='/build/singular-o0ehYn/singular-4.4.1-p5+ds/omalloc/libsingular-omalloc.la' OMALLOC_INCLUDES='-I/build/singular-o0ehYn/singular-4.4.1-p5+ds'  --with-Singular RESOURCES_LIBS='/build/singular-o0ehYn/singular-4.4.1-p5+ds/resources/libsingular-resources.la' RESOURCES_INCLUDES='-I/build/singular-o0ehYn/singular-4.4.1-p5+ds ' FACTORY_LIBS='/build/singular-o0ehYn/singular-4.4.1-p5+ds/factory/libsingular-factory.la' FACTORY_INCLUDES='-I/build/singular-o0ehYn/singular-4.4.1-p5+ds -I/build/singular-o0ehYn/singular-4.4.1-p5+ds/factory -I/build/singular-o0ehYn/singular-4.4.1-p5+ds/factory/include',\nCC = gcc,FLAGS :  -g -O2 -Werror=implicit-function-declaration -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/singular-o0ehYn/singular-4.4.1-p5+ds=. -flto=auto -ffat-lto-objects -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -march=x86-64-v3 -fdebug-prefix-map=/build/singular-o0ehYn/singular-4.4.1-p5+ds=/usr/src/singular-1:4.4.1-p5+ds-1build1 -pipe -fno-common -O3 -Wno-unused-function -Wno-trigraphs -Wno-unused-parameter -Wunknown-pragmas -Wno-unused-variable -fomit-frame-pointer -fwrapv -fvisibility=default -finline-functions -fno-exceptions -fconserve-space -funroll-loops -pthread -pthread,\nCXX = g++,FLAGS :  -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/singular-o0ehYn/singular-4.4.1-p5+ds=. -flto=auto -ffat-lto-objects -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -march=x86-64-v3 -fdebug-prefix-map=/build/singular-o0ehYn/singular-4.4.1-p5+ds=/usr/src/singular-1:4.4.1-p5+ds-1build1 -pipe -fno-common -O3 -Wno-unused-function -Wno-trigraphs -Wno-unused-parameter -Wunknown-pragmas -Wno-unused-variable -fomit-frame-pointer -fwrapv -fvisibility=default -finline-functions -fno-exceptions -fno-threadsafe-statics -fno-enforce-eh-"
+        },
+        {
+          "auxiliary_variables": [
+            "h",
+            "l",
+            "v",
+            "q",
+            "t"
+          ],
+          "bytes": 1331670,
+          "complete_coefficient_count": 27,
+          "constant_e": 700,
+          "constant_prime": 1031,
+          "geometric_count": 12,
+          "physical_variables": [
+            "s",
+            "w",
+            "x",
+            "z"
+          ],
+          "seconds": 4.909216108999999,
+          "sha256": "c347ffb1ada41f29b4bc44a15ad8b221ae776d68edafc6d025b16e3acae4c624",
+          "stage": "singular_input"
+        },
+        {
+          "limit_seconds": 180,
+          "outcome": "unresolved",
+          "seconds": 185.05660882200002,
+          "stage": "singular_bounded_timeout",
+          "stdout_sha256": "4fd60995ae45b2584209ecee3507d93d2a393b84ca41477f2317849c04e06d42",
+          "text": "ISP_BEGIN_DIRECT_COMPLETE_ORIGINAL\n"
+        },
+        {
+          "scope": "modular direction only; no QQ/Ke/complex exclusion claim",
+          "seconds": 185.057202601,
+          "source_sha256": "af20c2f8d60e4ab125a003203219db04d2f95f0a246f5cfc233cca5d99cdd490",
+          "stage": "complete_probe"
+        }
+      ]
+    },
+    {
+      "job": 139865351671,
+      "name": "unit211-U-P1",
+      "receipt": {
+        "elapsed_seconds": 1.557716482,
+        "max_child_rss_kib": 60388,
+        "ordinary_isp_claim": false,
+        "rules_reads": [
+          {
+            "after": "0865c20520e2041a75bb852949c521e1808f753d",
+            "before": "4fd880e3838c2e376895973cce44952a5ee91cec",
+            "rules_git_blobs": {
+              "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+              "topics/invariant-subspace-problem/README.md": "fef43bdf8690f2eec4751d85784a266eacdd0322"
+            },
+            "rules_unchanged": true,
+            "utc": "2026-11-26T11:04:32.655666+00:00"
+          }
+        ],
+        "run_attempt": "1",
+        "run_id": "45807166646",
+        "schema": "isp-frozen-exact-actions-execution-v1",
+        "session": "Astra-ISP-347c-20261126",
+        "source_commit": "4fd880e3838c2e376895973cce44952a5ee91cec",
+        "source_exit_code": 0,
+        "source_git_blob": "5081ef08bb5aa6642a54ce8e52a83e3be6a1907c",
+        "source_sha256": "c5f5c0bdeb84fd2db577286cc95b087de379fc621049ffefb4df6463995bea91",
+        "stdout_bytes": 2050,
+        "stdout_sha256": "75accd546f16a9324327cc6bf26da0fdc3d838cdc1b9ffa9824eb136553d7551",
+        "stop_reason": null
+      },
+      "reports": [
+        {
+          "claimExcluded": false,
+          "elapsedSeconds": 0.129002,
+          "rationalCoefficientVariables": [
+            "q",
+            "lambda",
+            "h",
+            "k"
+          ],
+          "remainingPolynomialVariable": "f",
+          "sourceSha256": "c5f5c0bdeb84fd2db577286cc95b087de379fc621049ffefb4df6463995bea91",
+          "stage": "four_parameter_linear_t_graph_verified",
+          "tConstant": {
+            "denominatorDegrees": [
+              2,
+              7,
+              8,
+              8
+            ],
+            "denominatorTerms": 924,
+            "numeratorDegrees": [
+              4,
+              11,
+              11,
+              11
+            ],
+            "numeratorTerms": 3459
+          },
+          "tSlope": {
+            "denominatorDegrees": [
+              2,
+              7,
+              5,
+              5
+            ],
+            "denominatorTerms": 374,
+            "numeratorDegrees": [
+              3,
+              7,
+              8,
+              8
+            ],
+            "numeratorTerms": 890
+          },
+          "target": "P1"
+        },
+        {
+          "claimExcluded": false,
+          "elapsedSeconds": 1.331646,
+          "fDegree": 1,
+          "factors": [
+            {
+              "degrees": [
+                0,
+                0,
+                1,
+                1
+              ],
+              "multiplicity": 1,
+              "polynomial": "h - k",
+              "sha256": "cb220443041f2a6c2f9a165a80afce3fd4a9664ff839f59a049fb52b1d0c742f",
+              "terms": 2
+            },
+            {
+              "degrees": [
+                5,
+                12,
+                13,
+                13
+              ],
+              "multiplicity": 1,
+              "polynomial": null,
+              "sha256": "54bbd91eea7c5aa55685ebd3a98856fe7e24aff07d70584181c8c4eca9a73e30",
+              "terms": 6656
+            },
+            {
+              "degrees": [
+                0,
+                0,
+                0,
+                1
+              ],
+              "multiplicity": 2,
+              "polynomial": "k - 1",
+              "sha256": "b2011b06f168c17a88818c9bd6c025ce3b0d61fb47f34b953f61e28c6f9c5344",
+              "terms": 2
+            },
+            {
+              "degrees": [
+                0,
+                0,
+                1,
+                0
+              ],
+              "multiplicity": 2,
+              "polynomial": "h - 1",
+              "sha256": "d29b2d29cb62985f5fc83424d7e23b7b2cc02020636145bfb764a69892ef05bc",
+              "terms": 2
+            }
+          ],
+          "stage": "original_highest_jet_f_coefficient_factors"
+        },
+        {
+          "claimExcluded": false,
+          "clearedInputSha256": "aad06ef3bc5ee0394c818702a9fb5e4bc1eedd72da41753e85b386f410a3400e",
+          "coefficientProfiles": [
+            {
+              "degrees": [
+                6,
+                16,
+                16,
+                16
+              ],
+              "terms": 16159
+            },
+            {
+              "degrees": [
+                5,
+                12,
+                16,
+                16
+              ],
+              "terms": 11554
+            }
+          ],
+          "elapsedSeconds": 1.502686,
+          "fDegree": 1,
+          "name": "P1",
+          "sourceSha256": "c5f5c0bdeb84fd2db577286cc95b087de379fc621049ffefb4df6463995bea91",
+          "stage": "original_condition_generated"
+        },
+        {
+          "claimLambdaLayerEmpty": false,
+          "claimPhysicalSufficiency": false,
+          "elapsedSeconds": 1.502799,
+          "ordinaryISPClaim": false,
+          "peakRssKiB": 60388,
+          "sourceSha256": "c5f5c0bdeb84fd2db577286cc95b087de379fc621049ffefb4df6463995bea91",
+          "status": "requested_original_conditions_generated",
+          "target": "P1"
+        }
+      ]
+    }
+  ]
+}

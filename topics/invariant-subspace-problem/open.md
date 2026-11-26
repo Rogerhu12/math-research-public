@@ -64,11 +64,11 @@ $$
 
 **[一般非零mean的原U值坐标覆盖](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-original-U-value-atlas.md)已付：** 保P0=−U0³、完整三moment/值碰撞、原E0/N0图与N(V)仿射式；t系数准确为bcLS/[2(q−1)]。LS非零图只余(f,q,λ,h,k)，L0与S0全系数退化单独保留；L0/w1只余QQsqrt17的rho/f/t原九式。短原身份实际0.568990秒/exit0；旧900秒大展开exit−9不作成功。继续原必要式和物理实现。
 
-**[S0/Af0三值互异层的完整有限覆盖](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-U-value-S0-finite-parameter-cover.md)：** 原常数式的I/H非同时零给全局q图；同时零只余不可约M6，所有除数/值判别/bc/l1全付，参数至多24纤维。真实BigInt QQ结式与模41不可约身份已通过，但未排原(f,t)纤维；继续整个九式。[S0/Af0全部值碰撞](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-U-value-S0-collision-exclusion.md)已由原h1/k1、λhalf矛盾及四次数域的原九式GB1排尽（3.961885秒/exit0）。仅续三值互异的有限24纤维及I/H非同时零图，后者已对称到(λ,z)。
+**[S0/Af0三值互异层的完整有限覆盖](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-U-value-S0-finite-parameter-cover.md)：** 原常数式的I/H非同时零给全局q图；同时零只余不可约M6，所有除数/值判别/bc/l1全付，参数至多24纤维。BigInt结式与模41身份已付；完整24维QQ代数源现接原九式/P1剪切/结果式线性身份，尚无执行结论。[S0/Af0全部值碰撞](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-U-value-S0-collision-exclusion.md)已由原h1/k1、λhalf矛盾及四次数域的原九式GB1排尽（3.961885秒/exit0）。仅续三值互异的有限24纤维及I/H非同时零图，后者已对称到(λ,z)。
 
 **[rankH3二重加单点的非零Hp整层ess≤5](results/R150-appendix-rank-three-double-plus-single-second-cumulant-nonzero-hp-essential-six-exclusion.md)：** 原节点/J及At/τ/γ全部零面保留，QQ93/126与两个异常谱六真逆已付，0.011089秒/exit0。勿重做，仅续Hp0四源有限层。
 
-**2+1型H、Hp0九次Gram的剩余ess6层：** [孤立H源w∞](results/R150-appendix-rank-three-double-plus-single-second-cumulant-zero-hp-infinity-essential-six-exclusion.md)和[任一V源∞](results/R150-appendix-rank-three-double-plus-single-second-cumulant-zero-hp-infinite-V-source-essential-six-exclusion.md)现均全闭。后者保J3全部降次，QQ150/117、157阶余商836及D8/D2完整48/12维塔范数971/748严格提升到九次域，32个QQ真逆付清；两实际源码均exit0。故只续二重H源、孤立H源和两个V源全有限的原系统，[完整等价有理重建](results/R150-appendix-rank-three-double-plus-single-zero-hp-finite-source-rational-reconstruction.md)已用P−S=ηD_H E_V消全部y与尺度平方根，正反两向均付；四有限源又有12低次原尺度/Hermite/范数式和11/16全部N/最高系数，继续真实QQ九次域原理想，模1031仅作结构探针；三约化H和ess4/5仍开。
+**2+1型H、Hp0九次Gram仅余四源全有限的ess6层：** [w∞](results/R150-appendix-rank-three-double-plus-single-second-cumulant-zero-hp-infinity-essential-six-exclusion.md)及[任一V源∞](results/R150-appendix-rank-three-double-plus-single-second-cumulant-zero-hp-infinite-V-source-essential-six-exclusion.md)均全闭，不重做。[完整有理重建](results/R150-appendix-rank-three-double-plus-single-zero-hp-finite-source-rational-reconstruction.md)保原12式及11/16全部N/最高系数；[四变量七式等价归约](results/R150-appendix-rank-three-double-plus-single-zero-hp-four-variable-quadratic-reduction.md)只倒原Π，保全部降次。run45807166646/job139865351533在mod1031/e700算得基1（141.946秒），真实QQ九次域单位身份仍须完成；同期直接39式180秒未决。三约化H、ess4/5及全局Bell继续。
 
 ## 2. R271：同一来源的完整物理费用
 
