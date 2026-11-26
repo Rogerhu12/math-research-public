@@ -1,27 +1,36 @@
 {
-  "id": "held10-material-parallel-20261126-01",
-  "read_rules_commit": "770d5f283765ae0eab14e30ca8edbed61e64a160",
-  "script": "topics/visible-flex-held-10pct/scripts/resume_20261126/material_parallel_continue.py",
+  "id": "held10-m16-lift-recovery-20261126-01",
+  "read_rules_commit": "b462fb16a01290cd47170314928fffed2aeeb861",
+  "script": "topics/visible-flex-held-10pct/scripts/resume_20261126/warm_prefix_recovery.py",
   "args": [
     "--repo",
     "@REPO@",
     "--work",
     "@WORK@",
-    "--source-run",
-    "@WORK@/m24-direct-recovery/run.json",
     "--outdir",
-    "@WORK@/material-parallel-01"
+    "@WORK@/warm-prefix-recovery"
   ],
   "diagnostics": [
     {
-      "path": "@WORK@/material-parallel-01/summary.json",
+      "path": "@WORK@/warm-prefix-recovery/summary.json",
       "keys": [
         "status",
         "scope",
         "progress",
+        "stages",
+        "result",
+        "error",
+        "exception",
+        "source_hashes"
+      ]
+    },
+    {
+      "path": "@WORK@/warm-prefix-recovery/continuations/summary.json",
+      "keys": [
+        "status",
+        "progress",
         "results",
         "stages",
-        "source_hashes",
         "error",
         "result"
       ]
