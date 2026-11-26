@@ -1,0 +1,207 @@
+{
+  "schema": "visible-source-cli-publication-batch-v1",
+  "repository": "Rogerhu12/math-research-public",
+  "queue_session": "Astra-new-mechanism-0105020f-20261126",
+  "public_rules_read_commit": "ba8153c90640843372f60bed61bca2a3e428fa8c",
+  "private_rules_read_commit": "a0a1a9c2724bade81d06ffaf7cfb1d1b9142d384",
+  "expected_readme_blobs": {
+    "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+    "topics/visible-flex-new-mechanism/README.md": "d0432faff569c8e9af7ed4809847e12880976c11"
+  },
+  "expected_private_readme_blobs": {
+    "README.md": "5ba164843b1f5802184178a82d786264404873a3"
+  },
+  "steps": [
+    {
+      "id": "r602",
+      "message": "visible-flex: eliminate the exact nonlinear core trace over every angle",
+      "files": [
+        {
+          "path": "topics/visible-flex-new-mechanism/results/R602-exact-nonlinear-core-trace-elimination.md",
+          "blob_sha": "1cbce5ea9204564ff2b13abf747062c6b89dea56",
+          "expected_old_blob": null
+        },
+        {
+          "path": "topics/visible-flex-new-mechanism/results.md",
+          "blob_sha": "8977f2a1966a8b7bb40e88225a8f1b461570f1a0",
+          "expected_old_blob": "e2fc16875873fdff94ba821686070b525a7c2ce8"
+        },
+        {
+          "path": "topics/visible-flex-new-mechanism/open.md",
+          "blob_sha": "a38e52f1f620eb89309de7f4291b5a7a7c2dd117",
+          "expected_old_blob": "ce478297e83c11c28a17f57ddea3f3a18fd4ebbd"
+        },
+        {
+          "path": "topics/visible-flex-new-mechanism/log.md",
+          "blob_sha": "401fa39b129b6a3920c23de1ca37c4f23e7bc17b",
+          "expected_old_blob": "c81c789ae0e42182c6f904aad4f74305708903ea"
+        }
+      ],
+      "handoff_replacements": [
+        {
+          "old": "[R596](results/R596-same-mild-tail-flat-kernels-through-sixteen.md)的原j≤16范围保留；[R600](results/R600-same-mild-tail-flat-kernels-through-thirty-two.md)新以B=2^32/势870000a⁻⁴付同u≥100至j32，Green<1/4、耦合<1/64，准确截断不变。实际18…32口仍未付，不以纸证冒数值口。[R587](results/R587-fixed-metric-mean-height-elimination-at-flat-cap-and-core.md)/[R588](results/R588-quantitative-common-inner-tail-and-actual-metric-bound.md)/[R591](results/R591-forced-flat-harmonics-and-third-order-shooting.md)/[R593](results/R593-exact-resonant-background-and-finite-nonresonance.md)准确均值、四模尾界、强迫与静态共振全保原范围；均未授当前数值外传、完整有限分支、固定g精化或reach。",
+          "new": "[R596](results/R596-same-mild-tail-flat-kernels-through-sixteen.md)/[R600](results/R600-same-mild-tail-flat-kernels-through-thirty-two.md)保同尾准确核至j32，Green<1/4/耦合<1/64，实际18…32口仍未付。更早均值/强迫/静态共振及其全部边界保[八模前交接](notes/HANDOFF-before-eight-mode-natural-final-20261126.md)所链R587/R588/R591/R593；不授数值外传、有限分支、固定g或reach。"
+        },
+        {
+          "old": "[R598](results/R598-three-rotations-wide-eighteen-block-mother.md)付特殊同点first槽三旋转及完整历史，18正节点0…10矩/间距>319/30000、微半宽1/12000/真collar1/3000。首微宽因子改善15625/9非新势/根数据。[新实际质量BVP](notes/2026-11-26-r598-prepared-wide-mother-original-mass-bvp-implementation-agent.md)commit92d261c4e已交run：新母全预收、共同七剩余矩+唯一∫hk=0、prepared仅初猜；每节点19微分+2原ruling、原29BC和完整正势，31AD真中心链。19行单位1、ruling单位冻结，ρ/ζ0的guard按新初猜固定单位而不改方程。每接受全状态先刷，忠实Hermite端值；原残差过门才同输入加密。[首原终态](notes/2026-11-26-r598-wide-prepared-first-public-receipt-agent.md)run45828239888付28.749599218主秒/29.946569墙秒，新guide400nfev/8916calls、八矩max.041066未闭；encode整阵/单列shape错在ρ预积分前，0mass/Jac，不作方程失败。下一从实际11参数新中心jet输入及逐列编码续，不重跑原400步。",
+          "new": "[R598](results/R598-three-rotations-wide-eighteen-block-mother.md)付完整18正块/三旋转、0…10矩与微半宽1/12000/collar1/3000；[原质量实现](notes/2026-11-26-r598-prepared-wide-mother-original-mass-bvp-implementation-agent.md)保19微分+2ruling/29BC/31AD/完整正势，原残差过门才加密。[首终态](notes/2026-11-26-r598-wide-prepared-first-public-receipt-agent.md)run45828239888付28.749599218主秒/29.946569墙秒、guide400nfev/8916calls，八矩未闭；整阵encode shape错误在rho积分前，0mass/Jac。后继从已付11参数做新中心jet/逐列原编码，不重跑旧400；旧guide必要空间比率.02747<.03也保原账。"
+        },
+        {
+          "old": "09:18及11:20 UTC两次本地失联期间仅API保存，不冒actualpull。09:33、11:28恢复后已实际双pull。",
+          "new": "09:18、11:20 UTC失联/恢复原账保留；13:54第三次失联后未发布源码仅作不可变checkpoint。root指定临时branch的CLI发布器实际clone/pull/rebase/push，双库规则读账按真实运行更新，API读取不冒pull。"
+        },
+        {
+          "old": "\n\n[八模自然终态]",
+          "new": "\n\n[R602](results/R602-exact-nonlinear-core-trace-elimination.md)新证P1*=[c(eR+2P0)P0θθ−P0θ²+(2c+1)〈P0θ²〉]/R及真实e′R=−2(2c+1)〈P0θ²〉/R；δα+2全平cutoff从属修正准确清全角coreD并保P0/既有C²门，完整参数链已付。P0≤16只引core-supported≤32，不治r≈.332主体m18。\n\n[八模自然终态]"
+        }
+      ]
+    },
+    {
+      "id": "eight-resume-final",
+      "message": "visible-flex: close paid eight-mode stagnation with stable actual-position readouts",
+      "files": [
+        {
+          "path": "topics/visible-flex-new-mechanism/notes/2026-11-26-r594-paid-weak-resume-natural-final.md",
+          "blob_sha": "a4679fe1e7c1610fa1d8260a1bafdd9ec509baf1",
+          "expected_old_blob": null
+        },
+        {
+          "path": "topics/visible-flex-new-mechanism/results.md",
+          "blob_sha": "64f0a04c9886fe14f70e486a885491700e5ef4a5",
+          "expected_old_blob": "8977f2a1966a8b7bb40e88225a8f1b461570f1a0"
+        },
+        {
+          "path": "topics/visible-flex-new-mechanism/open.md",
+          "blob_sha": "cd130912d52f00baeaba19ef5968e505a4b1c4e7",
+          "expected_old_blob": "a38e52f1f620eb89309de7f4291b5a7a7c2dd117"
+        },
+        {
+          "path": "topics/visible-flex-new-mechanism/log.md",
+          "blob_sha": "0e8b4e1e56ef18fe26a8ff1bf6a5e45d6c53ba85",
+          "expected_old_blob": "401fa39b129b6a3920c23de1ca37c4f23e7bc17b"
+        }
+      ],
+      "handoff_replacements": [
+        {
+          "old": "[八模自然终态](notes/2026-11-26-r594-eight-mode-weak-natural-final.md)run45822196061付452.79767207秒/60接受65拒绝，仍下降的迭代上限。完整496q/四新模13jets已付；ε1e−5、细η3.02631e−7/coreD1.19015e−7、m18峰1.143e−5；两direct η.007976/.017725及h≈4.44e−14未合格。[paid续接](notes/2026-11-26-r594-paid-weak-resume-implementation.md)从实际496q/末damping1e−14续60步，0旧Riccati/射击/方向门；必要dense外场全计费。原全r用有限域内中心/单侧四阶位置stencil及半步，保实际端点/完整弱行、coreD/漏模与双direct门，不冒全角证书。",
+          "new": "[首八模](notes/2026-11-26-r594-eight-mode-weak-natural-final.md)452.79767207秒/60接受65拒绝保原账；[paid续算原终态](notes/2026-11-26-r594-paid-weak-resume-natural-final.md)run45832877990再付464.449434512秒、60接受60拒绝，至iteration120仍ε1e−5，merit1.991363537e−6→1.991362792e−6已近停滞。两真实位置η3.02628e−7/3.02612e−7不再出现旧首点污染，但未过2e−9；coreD1.19015e−7/m18峰1.14314e−5仍在。下一保实际496q/四已付13jets，加18/20/22真新口及R602完整修正，不再延长原八模空间；高模需先提取r^μ，旧口/旧门0复跑。"
+        }
+      ]
+    },
+    {
+      "id": "r603",
+      "message": "visible-flex: prove prepared leading-energy compatibility and exact speed-two guide",
+      "files": [
+        {
+          "path": "topics/visible-flex-new-mechanism/results/R603-prepared-leading-energy-and-speed-two-guide.md",
+          "blob_sha": "42059e70a468940ff96c1c280e062738a1264172",
+          "expected_old_blob": null
+        },
+        {
+          "path": "topics/visible-flex-new-mechanism/results.md",
+          "blob_sha": "43ebaf73dc2ac8f1ecd3592c7d55ac255967d12b",
+          "expected_old_blob": "64f0a04c9886fe14f70e486a885491700e5ef4a5"
+        },
+        {
+          "path": "topics/visible-flex-new-mechanism/open.md",
+          "blob_sha": "560008f6e5b829074c2204bdffd3a0af3042abcc",
+          "expected_old_blob": "cd130912d52f00baeaba19ef5968e505a4b1c4e7"
+        },
+        {
+          "path": "topics/visible-flex-new-mechanism/log.md",
+          "blob_sha": "67d67f9b342a594ed46f489dc4609c818f43c3f3",
+          "expected_old_blob": "0e8b4e1e56ef18fe26a8ff1bf6a5e45d6c53ba85"
+        }
+      ],
+      "handoff_replacements": [
+        {
+          "old": "[R577](results/R577-intrinsic-geodesic-normal-chord-and-complete-reach-certificate.md)/[R579](results/R579-smooth-thick-rounded-core-with-exact-perimeter-and-macro-budget.md)保全reach门/厚核心预算；[R595](results/R595-rotational-reach-and-complete-meridian-reduction.md)付完整±子午化简。[R599](results/R599-monotone-height-flat-cap-global-reach.md)新证a(z)≥rc≥τ、平帽C²及连续子午曲率≤1/τ时全闭旋转reach≥τ，全部侧/帽对已排；当前背景仍欠全尾zs/半径/连续κ，非圆q不继承。",
+          "new": "[R577/R579全reach与厚核心](results/R579-smooth-thick-rounded-core-with-exact-perimeter-and-macro-budget.md)及[R595](results/R595-rotational-reach-and-complete-meridian-reduction.md)/[R599](results/R599-monotone-height-flat-cap-global-reach.md)保完整±子午/上下帽充分证书；真实圆背景仍欠全尾正图/半径/连续κ，非圆q不继承。"
+        },
+        {
+          "old": "[R601](results/R601-prepared-center-true-jet-and-fixed-gauge-acceleration.md)新证prepared真中心V_s=(a−H)Q_c(p−yr)/(4H³)，同一次固定ζ0使两原ruling给a=H/b=0，最高能量从s²延后s⁴；正势/权导数及二阶y4项仍在。新10参数guide从已付11参数映射，不重做旧400，原全BVP仍释放原参数。",
+          "new": "[R601](results/R601-prepared-center-true-jet-and-fixed-gauge-acceleration.md)付同一次ζ0令prepared真中心a=H/b=0，V_s=0但正势/权导数/二阶y4仍在。[R603](results/R603-prepared-leading-energy-and-speed-two-guide.md)新证共同C²收敛紧合法族、零rho入值及ε²νhat有限极限下，非零中心v必须|v|=2；先C0极限后取极限轨道jet，未排固定ε根。明定9参数同时给a=H/v=2/唯一∫hk=0，下一直接从已付11参数生成这个较强输入，旧10族未运行。"
+        }
+      ]
+    },
+    {
+      "id": "recover-original-r582-input",
+      "message": "visible-flex: recover necessary actual continuation input after workspace loss",
+      "files": [
+        {
+          "path": "topics/visible-flex-new-mechanism/scripts/r582_recover_finite_input_20261126.py",
+          "blob_sha": "4e9a0688bc92715b23dd2c66b9c2051929afb2dc",
+          "expected_old_blob": null
+        },
+        {
+          "path": ".github/workflows/visible-r582-recover-finite-input-20261126.yml",
+          "blob_sha": "4430db1783b601efd1715ab6151107d476053c7c",
+          "expected_old_blob": null
+        },
+        {
+          "path": "topics/visible-flex-new-mechanism/computations/request-r582-recover-finite-input-20261126.json",
+          "blob_sha": "36a6505af27de65fc8c991d5234cc51b4bc9ade5",
+          "expected_old_blob": null
+        },
+        {
+          "path": "topics/visible-flex-new-mechanism/log.md",
+          "blob_sha": "ca8349f54c156c7c4026705e58c1673e8e97c3ec",
+          "expected_old_blob": "67d67f9b342a594ed46f489dc4609c818f43c3f3"
+        }
+      ],
+      "handoff_replacements": [
+        {
+          "old": "\n\n## 6. 持续工作",
+          "new": "\n\n第三次环境失联导致未发布的真实97q续接输入丢失；已审[原终态输入恢复](computations/request-r582-recover-finite-input-20261126.json)仅从同job核raw/FINAL身份并提取实际q/全部物理观察及原费用。0科学/旧run重放，不存raw或端点大数组。\n\n## 6. 持续工作"
+        }
+      ]
+    },
+    {
+      "id": "r603-vtwo-mass-source",
+      "message": "visible-flex: solve original wide-mother mass equations from exact speed-two prepared input",
+      "files": [
+        {
+          "path": "topics/visible-flex-new-mechanism/scripts/r603_vtwo_center_mass_continuation_agent.py",
+          "blob_sha": "22f4e020571f597a495f7f478cc32eeabc3ab456",
+          "expected_old_blob": null
+        },
+        {
+          "path": "topics/visible-flex-new-mechanism/notes/2026-11-26-r603-vtwo-center-mass-implementation-agent.md",
+          "blob_sha": "d58454f6e9ac5dae250274a9c5e3fd3747feaeb0",
+          "expected_old_blob": null
+        },
+        {
+          "path": ".github/workflows/visible-r603-vtwo-center-mass-20261126.yml",
+          "blob_sha": "e1e910a6f80aa5df74fadba028f6a5d6f00f0963",
+          "expected_old_blob": null
+        },
+        {
+          "path": "topics/visible-flex-new-mechanism/computations/request-r603-vtwo-center-mass-20261126.json",
+          "blob_sha": "a17b3c05fe947b918d054a4378c88d44a593962f",
+          "expected_old_blob": null
+        },
+        {
+          "path": "topics/visible-flex-new-mechanism/results.md",
+          "blob_sha": "8e6879f229135271443d4b569d24ee3778b7367a",
+          "expected_old_blob": "43ebaf73dc2ac8f1ecd3592c7d55ac255967d12b"
+        },
+        {
+          "path": "topics/visible-flex-new-mechanism/open.md",
+          "blob_sha": "0df93f51ad9902403f0666f43c27c398780f6e10",
+          "expected_old_blob": "560008f6e5b829074c2204bdffd3a0af3042abcc"
+        },
+        {
+          "path": "topics/visible-flex-new-mechanism/log.md",
+          "blob_sha": "3b6b787217038b62325297e3a4e17a8070fac3fa",
+          "expected_old_blob": "ca8349f54c156c7c4026705e58c1673e8e97c3ec"
+        }
+      ],
+      "handoff_replacements": [
+        {
+          "old": "[R601](results/R601-prepared-center-true-jet-and-fixed-gauge-acceleration.md)付同一次ζ0令prepared真中心a=H/b=0，V_s=0但正势/权导数/二阶y4仍在。[R603](results/R603-prepared-leading-energy-and-speed-two-guide.md)新证共同C²收敛紧合法族、零rho入值及ε²νhat有限极限下，非零中心v必须|v|=2；先C0极限后取极限轨道jet，未排固定ε根。明定9参数同时给a=H/v=2/唯一∫hk=0，下一直接从已付11参数生成这个较强输入，旧10族未运行。",
+          "new": "[R601](results/R601-prepared-center-true-jet-and-fixed-gauge-acceleration.md)付prepared真中心a=H/b=0/V_s=0，正势仍在。[R603](results/R603-prepared-leading-energy-and-speed-two-guide.md)在声明的共同C²紧族/零rho/ε²νhat有限极限下迫非零|v|=2，不排固定ε根。[九参数原mass](notes/2026-11-26-r603-vtwo-center-mass-implementation-agent.md)直接由已付11向量给a=H/v=2/唯一∫hk=0，旧10族未跑；逐列原encode修补、19+2/29BC/31AD/完整正势与末态真实形算子保留。必要新guide/history/表全部计费，原残差过门才加密，尚无新根或宏观资格。"
+        }
+      ]
+    }
+  ]
+}
