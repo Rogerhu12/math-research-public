@@ -518,7 +518,10 @@
 - [R948](results/R948-original-five-block-full-source-filtration-and-double-curve-kernel.md)：同一五块完整K沿D_i嵌套过滤，真实深度(N,N,N,min(N,h+ell),max(ell,N−h))，各商准确注入原C线束且D5保留；给全有限h0界，不相加不同子块秩。四明确次数门下D2核零，全K注入2C上真正Cartier长N限制；Gorenstein曲线Clifford界自证。条件d≈4κ/h≈9κ/8/N≈9κ/4/χ=oκ时任意允许ell≥1给dimK≤13κ/8+oκ，另已付nD≈8κ才给同矩阵单位rank≥51κ/8；不付指定仿射forcing/深核。
 
 
-- [R942§10](results/R942-original-split-scalar-preimages-and-whole-module-elimination.md)：完整paired graph由分母HNF的全部来源原像Y及整左除法X保两投影，含零分子/共零；仿射uM−b∈rowH保全部增广坐标，最后列gcd=1恰是可整解，完整Bézout及回乘不局部化。前置零极/整分式乘I与厚值/单位逆同接已证原模算法，所有π层Norm仍沿R931。仅独立小API请求，不改运行中F或冒306/shadow PASS。
+- [R942§10](results/R942-original-split-scalar-preimages-and-whole-module-elimination.md)：完整paired graph由分母HNF的全部来源原像Y及整左除法X保两投影，含零分子/共零；仿射uM−b∈rowH保全部增广坐标，最后列gcd=1恰是可整解，完整Bézout及回乘不局部化。前置零极/整分式乘I与厚值/单位逆同接已证原模算法，所有π层Norm仍沿R931。小API45776902177已实过；生产接入blob已审未触发，F v2在完整分母HNF退出137，无原306除子/shadow PASS。
 
 
 - [R949](results/R949-original-reduced-contact-mixed-window-and-repeated-factor-budget.md)：原四长S/一短L的完整Gauss多边形与整数根计数给10S+15min(L,S/5)；物理点实际无重复分量时，十九角全成本仅3B²+8D。自然4N+ell≈B²/2且ell/N∈(1/6,1/3)严格排约化q2，故剩余q2必须有穿过物理点的真实重复因子；q1仍开。任意重数另保6Σm(m−1)C²和8Σ(3m²−2m)b全费用；在另已付max m=o(D)、x1/5下重复自交比liminf≥1/63。不从重复因子免费推出R948前提或深核。
+
+
+- [R950](results/R950-original-mixed-contact-multiplicity-four-and-forced-fivefold-factor.md)：原四长一短的全部二/三/四重混合簇给锐函数min{13S,10S+15L,max(61S/5,(15S+47L)/2)}，保单位外因子/最近根/截断，全成本3B²+32D。附录以c_m=min(m²,31m)保任意高重数与248D成本，唯一局部例外是截断下唯一最近的5/6/7/8重根。自然短比(9/41,1/3)的q2核必有此真实分量；(9/41,4/15)再排8重，x1/4只留5/6/7；q1、全有限类和高页仍开。

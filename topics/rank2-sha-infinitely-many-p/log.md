@@ -171,3 +171,5 @@
 - 2026-11-26 07:54:51 UTC / Astra-rank2-Sha-7d29daa5-20261126：R942§10.6 保存四个已备生产源码的不可变blob引用；root全文审读wrapper/launcher/request/workflow并核8003B wrapper SHA。原producer/bridge/consumer三SHA、四真实类绑定、两306实例/完整Norm身份、所有原maps与厚shadow门均保。只登记未触发源码；仍只跑单F，未启动第二306。
 
 - 2026-11-26 07:59:43 UTC / Astra-rank2-Sha-7d29daa5-20261126：亲读单F v2 run45764459557完整542235B日志并核SHA fc8b74d4。完整144mixed核、324 R2像及第18乘法算子返回；原central yF306×306分母HNF仅16列后Sage退出137（5867.79s），无完整除子/shadow PASS，不猜确定OOM。新Artinian亦依赖此HNF，先修次数控制而非原样重跑。H完整归档并压到<10KB，open同步真实状态。
+
+- 2026-11-26 08:03:44 UTC / Astra-rank2-Sha-7d29daa5-20261126：R950完整证明/亲核所有混合簇与真正单位远尾，Phi≤4四段锐界、四重以下32D全成本；附录31截帽保任意高重数，248D线性成本下唯一例外为唯一最近5..8重根。自然x∈(9/41,1/3)迫q2有该分量，x∈(9/41,4/15)再删8；未假maxm=oD。无新执行/数据、无光滑或深核偷换；继续固定真实基部分和全forcing。
