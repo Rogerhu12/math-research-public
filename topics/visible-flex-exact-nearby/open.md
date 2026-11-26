@@ -175,13 +175,13 @@ R149 signed-loop与[CP/physical](notes/2026-11-26-physical-scalar-execution.md)�
 
 原同φ坐标资格、mean/世界锚及全部scope保[eb774fb原open](https://github.com/Rogerhu12/math-research-public/blob/eb774fb06c6cb6dc51ffac0b31e5ebe833f359b1/topics/visible-flex-exact-nearby/open.md)与原proof。
 
-[LC actual](results/R144-supplement-actual-localized-full-state-and-compact-sources.md)45797426031/1：19当前/10历史，全7721行/6143join/27球、整件contains/trace已核；sameφ 1e−4门true，CS五源/χ′质量/全jump锁定。anisotropic约2.926756632289e−5仅显示，消费全保存球；未来GC修正另付，旧TM/Γ/残差不重。
+LC完整27球与sameφ门保原proof及上表，future GC修正仍须另付。
 
 [TC必要恢复](notes/2026-11-27-true-root-trial-input-restoration.md)各失败完整保原记录；mounted45884668422/1已过原cubic/14分片SHA，但proposal精确节点转float重复导致递增断言失败，三目标0；[grid修复](notes/2026-11-27-TC-proposal-grid-separation.md)保全exact分割/质量，计数不增，新入口待实际。[SC三目标入口](notes/2026-11-27-actual-signed-finite-execution.md)已齐，真PDE列仍须全P224/TC/RW/JC。
 
 [JC实际七球](results/R149-supplement-actual-joint-compound-waist-row-error.md)45887337009/1给完整96行误差<8.556891e−5、全homotopy lower>.9836159091670；原DFT/means/alias全保，SC直接消费，不授signed矩阵或fullSchur。
 
 
-[DC](results/R149-supplement-same-sign-density-compression-and-finite-Theta-rows.md)给C双逆H−1/2≤1与VQ全L²行；[DB](results/R149-supplement-complete-Theta-row-regularity-and-negative-window-density-inverse.md)以true p的C³付H¹dual/C^-1 H−4/3，保CG gain。IL45896427415/1四球已成；[IR](results/R149-supplement-complete-inverse-density-row-residuals.md)以同一96 signed head付H−1/2/L²全残差，全部alias/tail/true-map/两sign保；actual rows与alpha signed/Θ另付，原means/fullSchur保。
+[DC](results/R149-supplement-same-sign-density-compression-and-finite-Theta-rows.md)给C双逆H−1/2≤1与VQ全L²行；[DB](results/R149-supplement-complete-Theta-row-regularity-and-negative-window-density-inverse.md)以true p的C³付H¹dual/C^-1 H−4/3，保CG gain。[IL actual](results/R149-supplement-actual-original-inverse-density-lift.md)四球已成；[SDI](results/R149-supplement-actual-small-density-inverse-constants-and-Theta-errors.md)得真p′>.9749、p″<1/6、p‴<24，KC,-4/3<5/2、全Θ joint误差因子1071/1000；[IR](results/R149-supplement-complete-inverse-density-row-residuals.md)以同一96 signed head付H−1/2/L²全残差，全部alias/tail/true-map/两sign保；actual rows与alpha signed/Θ另付，原means/fullSchur保。
 
 [PA](results/R144-supplement-complete-positive-hybrid-adapter-for-compact-centres.md)保原S/Green/root97/outer96/point与完整四block。whole positive相对speed<1.893e−7，core raw low/high→low<.002130/.003499；cross仅97..160且mean行列0，direct high源/jump0不消返回高响应。下一项是whole low perturbation receiver及直接高principal/Riccati更新，原H1/3源界不能免费吸收一阶项。

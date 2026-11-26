@@ -317,3 +317,5 @@
 - [IR：原inverse-density 96行的两种完整残差](results/R149-supplement-complete-inverse-density-row-residuals.md)：b_j正频2j(1−i)，192mode finite trial、4096 directed DFT/1024全head；完整alias/infinite tail/true-map同伦误差，联合H−1/2与L²同对象无额外√96。只给E96*D+^-1 C^-1，A/Θ独立另付；实际入口正接完整IL。
 
 - [DG：完整graph经同号density压缩的原次序约消](results/R149-supplement-complete-graph-remainder-through-same-sign-density-compression.md)：完整旧R31/W复strip付true p三导、DB给KC,-4/3<2^14；whole E及全部meanrank/reference不删。原J homogeneous<2^-437、positive addition≤2^-1462 Cadd、physical96≤2^-1479 D96+2^-1470；actual6/56与完整finite/ν/phase仍待，无旧目标重算。
+
+- [IL实际四球](results/R149-supplement-actual-original-inverse-density-lift.md)：45896427415/1完整4/4，true strip误差与finite三导全存，旧目标0。[SDI实际小逆常数](results/R149-supplement-actual-small-density-inverse-constants-and-Theta-errors.md)通过19个完整saved-ball有理比较得p′>.9749、p″<1/6、p‴<24；C^-1 Bessel H−1<5/3、H−4/3<5/2，fullTheta joint error≤1.071 KG KA(ε0+10εH/9)，保alpha/全部means。原J whole homogeneous<2^-449，actual6/56与finite/fullSchur未成。
