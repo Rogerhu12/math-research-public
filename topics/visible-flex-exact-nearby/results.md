@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [RI：紧mean控制的完整低源与真实全系统接口](results/R144-supplement-compact-mean-rank-one-interface-for-full-nonmean-inverse.md)：完整物理控制列在r≥9/50为0、body带宽≤96，保χ′/mean rank/所有负区jumps；未切片内部control Schur严格为0。给kerℓ与真正ν/phase/height配对、全193观察和hybrid转授所需差，未授全逆。
+
 - [JF：真实目标96正交行的联合矩阵误差](results/R149-supplement-joint-signed-finite-matrix-error.md)：完整receiver后Bessel，列误差不额外乘√96；trial行误差保全HS、两mean和BH/KW。给有符号完整矩阵的不同权重Neumann门，actual仍需完整P224/TC/RW，不授fullSchur。
 
 - [R144 SR：由完整forward末端锐定同一compact根与全残差](results/R144-supplement-sharp-compact-root-from-completed-forward-mean.md)：−8e−13<ξ*<−7e−13，mean≤2e−7、同φ状态<3.847e−7、selected距离<3.865e−7；χ′ordinary<3.903e−12、完整第二ordinary<7.461e−8。四份原球的有理推论，无新积分，全部mean/flux/jump与metric区别保留。

@@ -212,3 +212,6 @@ NS五件共129172B，owner71056B SHA18db439d5895e4232882940a57b7bd9457982383e1ac
 
 
 2026-11-26 19:40:28 UTC / visible-exact-astra-fb31ed6-20261127：真实mounted consumed已公开（bc7de515d），原cubic/14分片SHA及owner preflight全部通过；三个新TC目标开始，未把输入恢复当数学完成。已读原记录，H/open及原恢复说明同步；本地规则复核至d613747ee4edcc7dd3562316c1a5ca74d7d20fcb，两README无diff。
+
+
+2026-11-26 19:44:38 UTC / visible-exact-astra-fb31ed6-20261127：RI证明compact terminal控制的全物理body/接口支持，并识别未切片参数冗余使内部control Schur恒0；真正ν/phase/height配对及正区返回保全。继续真实metric参数而非用坐标自由度填物理门，无新科学/旧目标重算。
