@@ -7,7 +7,7 @@
 
 完整连通闭C2嵌入族、共同g和固定握持开区域；全曲面D下held/D≥.05、含反射δE>0、全时reach/D≥.03、全域全时metric≤1e−6，并支付同一g/全部物理参数下真加密到求解容差及可复现完整网格。基础之后继续held/D≥.2、δE/D≥.05或严格存在。本题尚未完成。
 
-- 根/课题README完整读于 `f0548477576caa2373d1626227a284ccfa9767d0`；接手真实pull在05:16UTC成功。最近已读公开提交 `428c3f0d28037bebc10dde954e30ba67476d5b2a`（2026-11-26 08:14 UTC真实pull/rebase后，双README逐差均无变化）。每次真实pull后核两README差异，至少每小时；有变只读差异立即执行。本轮各次均无差异。
+- 根/课题README完整读于 `f0548477576caa2373d1626227a284ccfa9767d0`；接手真实pull在05:16UTC成功。最近已读公开提交 `70c734720738ba4e06206f48deece06b2e5a4700`（2026-11-26 08:19 UTC真实pull/rebase后，双README逐差均无变化）。每次真实pull后核两README差异，至少每小时；有变只读差异立即执行。本轮各次均无差异。
 - 私库根规矩完整读；QUEUE认领已推 `c7785184d0d9c503852fb2137e9e2c091221d080`，状态进行中（本会话/2026-11-26）。认领推拒均即时pull/rebase再推成功。
 - 每结论分条commit/push；推拒立即pull --rebase循环，不强推、不amend已发布提交。完整证明直接登记；不回到旧独审/冻结手续。可重算数组不进Git/Release/artifact，只存源码、参数、run/hash。单MD<100KB、H<10KB、课题<200MB；不写根LOG。令牌只在命令进程环境。
 - 部分克隆 `/tmp/visible-flex-6a65e705/math-research-public`；同级 `solver-work/geometry-work/exact-work` 保存raw。/workspace空间不足，勿将大数组放回。05:47旧环境/tmp丢失，05:54已重新部分克隆和冷重生，不借旧失联数组身份。
@@ -30,7 +30,7 @@
 
 [完整K19首接受](notes/2026-11-26-6a65-r219-k19-one-real-step.md)在同N128和全部84峰点零注入1152列，旧两jet/列probe差0。2846列/226238行真0：全步拒、半步收，R².03210829/metric.1921304/κ13.03759/held.622856，A.86403767/Z.50726027。末态 `r219-J36-K19-lm01-state.json` SHA `7d6fb4a770c170d7487890671e1e3865f36ac39339427f49a456fafdc04e23ef`。没有第二步，未冒同最终g收敛。
 
-**原M12同g修正。** 12槽/48弱矩和完整Gram Schur均实际能量下降但全峰未胜旧Phi：[四应力](notes/2026-11-26-6a65-four-radial-stresses-full-gram.md)、[Schur及支撑外缺口](notes/2026-11-26-6a65-full-gram-schur-and-fixed-support.md)，不重复。[首ramp三档真实C2图](notes/2026-11-26-6a65-m12-central-ramp-three-refinements.md)M95/191/383，metric 2.14436e−10→4.31484e−12→3.66688e−12、κ5.11272；中央全端迹准确。exact分工正将真实出口接准确coast并做新的连续域和正K位置BVP；未用局部改善冒整个闭图G5。
+**原M12同g修正。** 12槽/48弱矩和完整Gram Schur均实际能量下降但全峰未胜旧Phi：[四应力](notes/2026-11-26-6a65-four-radial-stresses-full-gram.md)、[Schur及支撑外缺口](notes/2026-11-26-6a65-full-gram-schur-and-fixed-support.md)，不重复。[首ramp三档真实C2图](notes/2026-11-26-6a65-m12-central-ramp-three-refinements.md)M95/191/383，metric 2.14436e−10→4.31484e−12→3.66688e−12、κ5.11272；中央全端迹准确。[R221真C2接合及整coast](results/R221-m12-ramp-generated-exact-coast-and-c2-seam.md)已用M191精确出口/6838整数叶实证D>.500627、U_t>.477172、κ<5.628725；M95/191/383接合后metric峰3.46869e−10/4.31484e−12/3.66688e−12，首ramp仍缺连续误差。exact分工继续完整自由端口的正K位置BVP；未用局部改善冒整个闭图G5。
 
 **新的完整几何输入。** [R137新端口](notes/2026-11-26-6a65-geometry-r137-new-actual-ports.md)与[双Hermite实际失败](notes/2026-11-26-6a65-geometry-r137-two-connectors-and-actual-lm.md)已登记；[中央Cauchy弱坡](notes/2026-11-26-6a65-geometry-central-cauchy-real-ramp.md)给真实精确前缀。[强前缀后三条正K Cauchy尾](notes/2026-11-26-6a65-geometry-actual-cauchy-tail-stops.md)都在metric>1e−5提前失败，未到cut，已换输入。
 
