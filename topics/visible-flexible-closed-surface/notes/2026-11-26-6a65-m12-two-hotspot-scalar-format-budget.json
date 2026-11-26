@@ -1,0 +1,26 @@
+{
+  "schema": "6a65-M12-scalar-parts-format-budget-check-v1",
+  "format_budget_only": true,
+  "no_new_field_or_mathematical_claim": true,
+  "old_actual_report_sha256": "d4acda90de06f0da69eb499cc12237a30bfd52cb355bcb78a0e213df77ae2fcb",
+  "old_actual_report_bytes": 70453,
+  "independent_actual_artificial_R236_report_sha256": "6cff41c9c77c91b3bbe1c78d31fdc388cc048a83f8e5d5a504ab90c4ff5962f5",
+  "independent_actual_artificial_R236_report_bytes": 13558,
+  "extra_main_metadata_bytes": 8192,
+  "extra_continuous_metadata_bytes": 8192,
+  "actual_serialized_part_bytes": {
+    "FORMAT_ONLY-continuous.json": 53383,
+    "FORMAT_ONLY-localized-metric.json": 14385,
+    "FORMAT_ONLY.json": 35190
+  },
+  "maximum_part_bytes": 53383,
+  "every_complete_part_below_100000_bytes": true,
+  "all_input_scalar_fields_recovered_exactly": true,
+  "each_external_part_hash_and_size_rechecked": true,
+  "publisher_fragment_taken_from_current_workflow": true,
+  "workflow_sha256": "f42752c02e657744b6c8cb693707f8bdb4064a06bdeded7f29da596bd37da369",
+  "yaml_parse_exit": 0,
+  "bash_n_blocks": 9,
+  "python_ast_blocks": 6,
+  "exit_code": 0
+}

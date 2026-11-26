@@ -1,0 +1,59 @@
+{
+  "schema": "6a65-M12-two-hotspot-prepare-contract-check-v1",
+  "script_sha256": "c74e35dbe4afcd768b4788a7d33d817395873b0e635ad5a0475e36b47363249b",
+  "selector_sha256": "8e365c5674eeea6ab3ec17e30caac1f2c16c8f12ff50d6d365bcfa1d62accedd",
+  "base_grid_sha256": "c6a687c99e27ccc27a1af4ae65c6ef42591c484c52bb65104e82a3ed1c44ed9a",
+  "first_h_grid_sha256": "1820e8994f3a16af7c9e030465ab6d4eb89ed0a8f94ae493164b6bed078bbba3",
+  "final_grid_sha256": "11464789bf6058f649ee587c02654e9bc1672e82581f402173459939dae0fde9",
+  "suffix_knots_sha256": "01431641aef199086494da699dc3c86bd9133bf5551f84edb7fe0557877801e5",
+  "old_diagnostic_cache_sha256": "6c16f10158f1cceb321d40f3a2eb7c300e9064bf233df0fc772bc2dae842fba8",
+  "final_query_file_sha256": "2ad64e01e99855502e5fc03887fb8d8ac09ccf43bcd51c9a1093f9a9c5e5dcda",
+  "elements": [
+    362,
+    428,
+    487
+  ],
+  "unknowns": 47628,
+  "all_ancestor_knots_retained": true,
+  "both_ancestor_independent_observers_retained": true,
+  "both_ancestor_point_counts": [
+    2896,
+    3424
+  ],
+  "final_G8_point_count": 3896,
+  "missing_ancestor_observer_points": 16,
+  "all_first_h_exact_query_radii_retained": true,
+  "final_exact_queries": 4631,
+  "old_297_diagnostic_points_and_source_indices_unchanged": true,
+  "diagnostic_groups": [
+    {
+      "window_exact": [
+        "54/125",
+        "109/250"
+      ],
+      "points": 297,
+      "source_spans": 74,
+      "first_source_span": 17102,
+      "last_source_span": 17175,
+      "exact_point_source_sha256": "70cf21e82e96949622b36d831feafe77bd1364d94342430334523972d2bb9f34"
+    },
+    {
+      "window_exact": [
+        "2561/5000",
+        "5141/10000"
+      ],
+      "points": 249,
+      "source_spans": 62,
+      "first_source_span": 17429,
+      "last_source_span": 17490,
+      "exact_point_source_sha256": "abcbc018655c23b9696bdbe3030eb4cd9bdf4298dc5ee3d66a67f5e6a6ae8ef5"
+    }
+  ],
+  "total_disjoint_diagnostic_points": 546,
+  "gap_not_sampled_or_claimed_observed": true,
+  "all_six_python_sources_compile": true,
+  "new_field_solve_executed": false,
+  "same_original_g": true,
+  "exact_isometry_proved": false,
+  "seconds": 0.14793803700013086
+}

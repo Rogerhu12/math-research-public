@@ -1,6 +1,6 @@
 {
   "schema": "6a65-M12-entire-half-fixed-g-request-v1",
-  "request_revision": 4,
+  "request_revision": 5,
   "scope": "Original central-to-true-cuff half including prefix, bridge, finite tail and deep collar; the radius-.6 internal seam is free.",
   "original_metric_unchanged": true,
   "true_flat_cuff_included": true,
@@ -29,10 +29,37 @@
     "old_independent_observer_retained_in_union": true
   },
   "original_g_source_angle_gauss_iteration_and_step_settings_unchanged": true,
-  "comparison_actual_run": 45815969723,
-  "comparison_actual_field_sha256": "cc306594546fd27754fa6ee8b8bcca2e329933e604d69020738ebb95cce177b3",
+  "comparison_actual_run": 45821092388,
+  "comparison_actual_field_sha256": "6d328d4cfbc5e6fdafd44705e7c8f35dfe00833b3675f53e8ae3ca2fc6cf00af",
   "same_field_localized_continuous_metric_verifier": true,
   "localized_verifier_sha256": "f69035fe51642d30f2a1a5079c3e67f36c8cb05257df89be650cb5b015327db9",
-  "input_regeneration_reason": "New explicit same-configuration h field generation is required to consume the continuous localized checker in the same live job; no previous ended field or mathematical acceptance is inferred.",
-  "trigger_history_ancestry_checked_before_local_commits": true
+  "input_regeneration_reason": "The actual h428 field reduced the original 297-point window peak by about 48.73 times and moved the global independent-observer peak to q=2.1217812728079277 in element176. This new h487 trial retains both ancestor observers and inserts the 59 original source knots of that new hotspot, while keeping the original fixed g and all other numerical settings.",
+  "trigger_history_ancestry_checked_before_local_commits": true,
+  "second_local_element": 176,
+  "second_source_aligned_h": {
+    "window": [
+      ".5122",
+      ".5141"
+    ],
+    "simple_knots": true,
+    "all_ancestor_knots_retained": true,
+    "all_ancestor_observers_retained": true,
+    "all_ancestor_exact_queries_retained": true,
+    "observed_old_element": 176,
+    "expected_new_source_knots": 59
+  },
+  "diagnostic_windows": [
+    [
+      ".432",
+      ".436"
+    ],
+    [
+      ".5122",
+      ".5141"
+    ]
+  ],
+  "frozen_numerical_source_separate_from_live_publication_worktree": true,
+  "live_rules_check_interval_seconds": 2700,
+  "job_timeout_minutes": 90,
+  "complete_scalar_report_parts": 3
 }

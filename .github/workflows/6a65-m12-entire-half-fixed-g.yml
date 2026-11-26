@@ -1,4 +1,4 @@
-name: 6a65 M12 entire half source aligned h and continuous budgets
+name: 6a65 M12 entire half two source aligned hotspots
 on:
   push:
     branches: [main]
@@ -21,7 +21,7 @@ jobs:
   entire-half:
     if: github.repository == 'Rogerhu12/math-research-public'
     runs-on: ubuntu-latest
-    timeout-minutes: 55
+    timeout-minutes: 90
     env:
       OPENBLAS_NUM_THREADS: "1"
       OMP_NUM_THREADS: "1"
@@ -61,7 +61,7 @@ jobs:
           from pathlib import Path
           p=Path('topics/visible-flexible-closed-surface/ci-requests/6a65-m12-entire-half-fixed-g.json')
           request=json.loads(p.read_text())
-          values={key:int(request[key]) for key in ('prefix_elements','tail_elements','tail_depth','order','angular','gauss','iterations','newton','block','local_element')}
+          values={key:int(request[key]) for key in ('prefix_elements','tail_elements','tail_depth','order','angular','gauss','iterations','newton','block','local_element','second_local_element')}
           for key in ('iterations','newton'):
               override=os.environ.get('M12_DISPATCH_'+key.upper())
               if override:values[key]=int(override)
@@ -75,6 +75,11 @@ jobs:
           local=request.get('source_aligned_h',{})
           if values['local_element']!=190 or local.get('window')!=['.432','.436'] or not local.get('simple_knots') or not local.get('all_old_knots_retained') or not local.get('old_independent_observer_retained_in_union'):
               raise ValueError('This h trial must preserve the original knots and observer with only the declared source-aligned insertion')
+          second=request.get('second_source_aligned_h',{})
+          if values['second_local_element']!=176 or second.get('window')!=['.5122','.5141'] or not second.get('simple_knots') or not second.get('all_ancestor_observers_retained'):
+              raise ValueError('The second measured hotspot must preserve all ancestors and the declared original source window')
+          if request.get('diagnostic_windows')!=[['.432','.436'],['.5122','.5141']]:
+              raise ValueError('Both old and new disjoint diagnostic windows are required')
           with Path(os.environ['GITHUB_ENV']).open('a') as output:
               for key,value in values.items():output.write('M12_'+key.upper()+'='+str(value)+'\n')
           print(json.dumps({**values,'fixed_original_metric':True,'finite_numerical_only':True,
@@ -102,43 +107,39 @@ jobs:
           (Path(os.environ['M12_COLD_DIR'])/'m12-prefix-data.npz.gz').write_bytes(raw)
           print(json.dumps({'prefix_blob':blob,'prefix_sha256':expected,'bytes':len(raw)}))
           PY
-      - name: Run the whole-half solve and consume its actual continuous geometry
+      - name: Freeze the trigger numerical source outside the publication worktree
         shell: bash
         run: |
           set -euo pipefail
-          python topics/visible-flexible-closed-surface/scripts/6a65-m12-entire-half-local-source-knot-cold-run.py \
-            --data "$M12_COLD_DIR/m12-prefix-data.npz.gz" \
-            --directory "$M12_COLD_DIR/entire-half" \
-            --local-element "$M12_LOCAL_ELEMENT" --diagnostic-window .432 .436 \
+          python - <<'PYFREEZE'
+          import hashlib,json,os,shutil,subprocess
+          from pathlib import Path
+          root=Path.cwd();head=subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip()
+          if head!=os.environ['GITHUB_SHA']:raise ValueError('Frozen numerical source must be the trigger commit')
+          topic=Path('topics/visible-flexible-closed-surface')
+          subprocess.run(['git','diff','--exit-code','HEAD','--','README.md',str(topic)],check=True)
+          frozen=Path(os.environ['RUNNER_TEMP'])/('visible-flex-m12-source-'+os.environ['GITHUB_RUN_ID']+'-'+os.environ['GITHUB_RUN_ATTEMPT'])
+          if frozen.exists():raise FileExistsError('Fresh frozen numerical source directory required')
+          (frozen/topic.parent).mkdir(parents=True)
+          shutil.copytree(root/topic,frozen/topic)
+          shutil.copy2(root/'README.md',frozen/'README.md')
+          record={'source_head':head,'readme_sha256':{name:hashlib.sha256((frozen/name).read_bytes()).hexdigest() for name in ('README.md',str(topic/'README.md'))},
+                  'frozen_source_is_separate_from_publication_worktree':True}
+          (Path(os.environ['M12_COLD_DIR'])/'frozen-source.json').write_text(json.dumps(record,indent=2)+'\n')
+          with Path(os.environ['GITHUB_ENV']).open('a') as output:output.write('M12_FROZEN_REPO='+str(frozen)+'\n')
+          print(json.dumps(record,indent=2))
+          PYFREEZE
+      - name: Run frozen numerical sources with live 45 minute rules checks
+        shell: bash
+        run: |
+          set -euo pipefail
+          python "$M12_FROZEN_REPO/topics/visible-flexible-closed-surface/scripts/6a65-m12-frozen-source-rules-supervisor.py" \
+            --repository "$GITHUB_WORKSPACE" --frozen-root "$M12_FROZEN_REPO" --directory "$M12_COLD_DIR" \
+            --source-head "$GITHUB_SHA" --run-id "$GITHUB_RUN_ID" --attempt "$GITHUB_RUN_ATTEMPT" \
             --prefix-elements "$M12_PREFIX_ELEMENTS" --tail-elements "$M12_TAIL_ELEMENTS" --tail-depth "$M12_TAIL_DEPTH" \
             --order "$M12_ORDER" --angular "$M12_ANGULAR" --gauss "$M12_GAUSS" \
             --iterations "$M12_ITERATIONS" --newton "$M12_NEWTON" --block "$M12_BLOCK" \
-            | tee "$M12_COLD_DIR/entire-half-cold.log"
-          env -u M12_RECOVERY_TOKEN python topics/visible-flexible-closed-surface/scripts/6a65-m12-entire-half-closed-stl.py \
-            --scripts topics/visible-flexible-closed-surface/scripts \
-            --data "$M12_COLD_DIR/m12-prefix-data.npz.gz" \
-            --grid "$M12_COLD_DIR/entire-half/entire-half-grid.json" \
-            --query-report "$M12_COLD_DIR/entire-half/entire-half-exact-tail-queries.json" \
-            --query-cache "$M12_COLD_DIR/entire-half/entire-half-exact-tail-queries.json.npz" \
-            --field "$M12_COLD_DIR/entire-half/entire-half-result.json.field.npz" \
-            --result "$M12_COLD_DIR/entire-half/entire-half-result.json" \
-            --geometry-report "$M12_COLD_DIR/entire-half/entire-half-actual-field-geometry.json" \
-            --angular 216 --prefix-intervals 64 --tail-intervals 32 \
-            --out "$M12_COLD_DIR/entire-half/entire-half-closed-stl.json" \
-            | tee "$M12_COLD_DIR/entire-half-closed-stl.log"
-      - name: Certify the same h field with localized Bernstein and angular boxes
-        shell: bash
-        run: |
-          set -euo pipefail
-          env -u M12_RECOVERY_TOKEN python topics/visible-flexible-closed-surface/scripts/6a65-m12-local-bernstein-angular-metric-budget.py \
-            --scripts topics/visible-flexible-closed-surface/scripts \
-            --data "$M12_COLD_DIR/m12-prefix-data.npz.gz" \
-            --field "$M12_COLD_DIR/entire-half/entire-half-result.json.field.npz" \
-            --grid "$M12_COLD_DIR/entire-half/entire-half-grid.json" \
-            --result "$M12_COLD_DIR/entire-half/entire-half-result.json" \
-            --correction-bounds "$M12_COLD_DIR/entire-half/entire-half-continuous-change-bounds.json" \
-            --out "$M12_COLD_DIR/entire-half/entire-half-localized-metric-budget.json" \
-            | tee "$M12_COLD_DIR/entire-half-localized-metric-budget.log"
+            | tee "$M12_COLD_DIR/entire-half-supervised.log"
       - name: Write only a compact identity receipt
         if: always()
         shell: bash
@@ -172,9 +173,15 @@ jobs:
           from pathlib import Path
           root=Path('topics/visible-flexible-closed-surface');cold=Path(os.environ['M12_COLD_DIR']);cold.mkdir(exist_ok=True)
           run=os.environ['GITHUB_RUN_ID'];attempt=os.environ['GITHUB_RUN_ATTEMPT']
-          source_head=subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip()
+          source_head=os.environ['GITHUB_SHA']
           report_path=cold/'entire-half/entire-half-result.json';receipt_path=cold/'cold-receipt.json'
           execution_path=cold/'entire-half/entire-half-cold-execution.json'
+          supervised_path=cold/'supervised-execution.json';rules_path=cold/'live-rules-checks.json'
+          supervised=json.loads(supervised_path.read_text()) if supervised_path.exists() else None
+          rules=json.loads(rules_path.read_text()) if rules_path.exists() else None
+          if (supervised and supervised.get('rules_changed')) or (rules and rules.get('rules_changed')):
+              print('Actual README change requires root review; scalar publisher must not bypass the rule guard')
+              raise SystemExit(42)
           observed=json.loads(report_path.read_text()) if report_path.exists() else None
           receipt=json.loads(receipt_path.read_text()) if receipt_path.exists() else {}
           execution=json.loads(execution_path.read_text()) if execution_path.exists() else None
@@ -202,31 +209,49 @@ jobs:
                   'finite_numerical_solve':True,'exact_isometry_proved':False,
                   'whole_family_reach_certified':geometry.get('homotopy_embedded_and_reach_transfer_proved',False),
                   'complete_three_phase_STL_generated':len(meshes.get('meshFiles',[]))==3,
-                  'source_aligned_h_trial':True,
+                  'source_aligned_h_trial':True,'second_hotspot_source_aligned_h_trial':True,
+                  'all_ancestor_independent_observers_retained':continuous_reports.get('entire-half-old-observer-union.json',{}).get('union_contains_all_recorded_ancestor_observers',False),
                   'localized_metric_validation_completed':localized_bound_to_same_field,
                   'whole_half_plus_localized_validation_completed':bool(execution and execution.get('finished') and localized_bound_to_same_field),
                   'continuous_metric_certified_from_localized_budget':bool(localized_bound_to_same_field and localized.get('continuous_metric_below_1e_6',False)),
                   'localized_verifier_changes_field_or_metric':False,
                   'old_independent_observer_superset':continuous_reports.get('entire-half-old-observer-union.json',{}).get('union_contains_full_old_independent_observer',False),
-                  'continuous_and_mesh_scalar_reports':continuous_reports,
+                  'scalar_report_layout':'three-complete-bound-parts-v2','scalar_report_parts':{},
                   'regeneration':'Run this workflow at the same source commit and request. Known public blobs and checked source hashes regenerate every temporary array.',
                   'raw_retention':'RUNNER_TEMP only. No raw Git, release, or artifact publication.',
+                  'supervised_execution':supervised,'live_rule_checks':rules,
+                  'frozen_source_supervisor_completed':bool(supervised and supervised.get('finished')),
                   'receipt':receipt,'execution':execution,'scalar_observation':observed}
           target=root/'notes'/('2026-11-26-6a65-m12-entire-half-ci-'+run+'-'+attempt+'.json')
-          raw=(json.dumps(record,indent=2,allow_nan=False)+'\n').encode()
-          if len(raw)>100000:raise ValueError('Scalar receipt unexpectedly exceeds 100 KB')
-          target.write_bytes(raw);(cold/'publish-path.txt').write_text(str(target)+'\n')
-          print(json.dumps({'publish_path':str(target),'bytes':len(raw),'sha256':hashlib.sha256(raw).hexdigest()}))
+          binding={'source_head':source_head,'run_id':run,'run_attempt':attempt,
+                   'field_sha256':observed.get('field_sha256') if observed else None,
+                   'grid_sha256':observed.get('grid_sha256') if observed else None}
+          outputs=[]
+          def save_scalar(path,value):
+              raw=(json.dumps(value,indent=2,allow_nan=False)+'\n').encode()
+              if len(raw)>=100000:raise ValueError('Complete scalar part unexpectedly exceeds 100 KB: '+str(path))
+              path.write_bytes(raw);outputs.append(path)
+              return {'path':str(path),'bytes':len(raw),'sha256':hashlib.sha256(raw).hexdigest(),**binding}
+          ordinary={key:value for key,value in continuous_reports.items() if key!='entire-half-localized-metric-budget.json'}
+          continuous_part=target.with_name(target.stem+'-continuous.json')
+          localized_part=target.with_name(target.stem+'-localized-metric.json')
+          record['scalar_report_parts']['continuous_and_mesh']=save_scalar(continuous_part,
+              {'schema':'6a65-M12-complete-continuous-and-mesh-scalar-part-v1',**binding,'reports':ordinary})
+          record['scalar_report_parts']['localized_metric']=save_scalar(localized_part,
+              {'schema':'6a65-M12-complete-localized-metric-scalar-part-v1',**binding,'report':localized or None})
+          primary=save_scalar(target,record)
+          (cold/'publish-paths.txt').write_text('\n'.join(str(path) for path in outputs)+'\n')
+          print(json.dumps({'primary':primary,'bound_scalar_parts':record['scalar_report_parts']}))
           PY
           export GIT_TERMINAL_PROMPT=0
           export GIT_CONFIG_COUNT=2 GIT_CONFIG_KEY_0=credential.helper GIT_CONFIG_VALUE_0='' GIT_CONFIG_KEY_1=credential.helper
           export GIT_CONFIG_VALUE_1='!f() { printf "username=x-access-token\npassword=%s\n" "$M12_RECOVERY_TOKEN"; }; f'
           git config user.name "Astra-visible-flex-6a65"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          report_path="$(cat "$M12_COLD_DIR/publish-path.txt")"
+          mapfile -t report_paths < "$M12_COLD_DIR/publish-paths.txt"
           handoff_path="topics/visible-flexible-closed-surface/HANDOFF.md"
           export M12_CI_SUBJECT="Record M12 entire-half fixed-g scalar run ${GITHUB_RUN_ID} attempt ${GITHUB_RUN_ATTEMPT}"
-          git add -- "$report_path"
+          git add -- "${report_paths[@]}"
           git commit -m "$M12_CI_SUBJECT"
           while true; do
             before_rules="$(git rev-parse origin/main)"
