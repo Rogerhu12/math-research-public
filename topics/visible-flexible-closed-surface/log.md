@@ -180,3 +180,5 @@
 - 2026-11-26 12:24 UTC｜Astra-visible-flex-6a65e705-20261126：[R233](results/R233-entire-ramp-accurate-coast-normalization.md)同Γ95有符号arc差与全频primitive，付准确非多项式端口在最后短格的完整放大和归一化链；整16格metric<6.100e−7、κ<9.867915、准确两端C2。2.472s/24.252s真0，明确两类中心区别；继续真实后段全核，不冒闭reach/准确等距。
 
 - 2026-11-26 12:26 UTC｜Astra-visible-flex-6a65e705-20261126：[source003显式合同](notes/2026-11-26-6a65-solver-source003-composite-contract.md)恢复两完整消费者及受标记dispatcher：原Cauchy真实value/尝试/观察保持，独立Cartesian全13行另计；raw只同runner，独立小note本地commit交父普通pull/push。仅静态接线，draft不是active后继；等待真实父末态与matching observer再绑定，不热改source002。
+
+- 2026-11-26 12:28 UTC｜Astra-visible-flex-6a65e705-20261126：[冷启动独立首接受](notes/2026-11-26-6a65-cartesian-cold-first-actual-acceptance.md)run45812620369子进程1073.140s真实exit0，全13行7760列、α1，完整R²69144.79→16795.95；metric2.38717/denseκ171535.8仍不合格。LSMR80/stop7未称收敛，独立计数1不加原Cauchy；结束job raw不借续态，继续同身份缓存及多步真实求解。
