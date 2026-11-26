@@ -125,3 +125,5 @@
 - 2026-11-26 06:02:55 UTC / Astra-rank2-Sha-7d29daa5-20261126：R939完整平方首核定理全证即推，root逐式核原M三长N/短ell、零角强制t²、有限Euler位移单位与严格度数门；geometry独核端点/除子。dD−3κ<ell下准确K1∩D2=D4，其余门仅真实restriction像界，不把jG+V2拆入K1或相加既有单位秩；续R938一般仿射类。
 
 - 2026-11-26 06:12:51 UTC / Astra-rank2-Sha-7d29daa5-20261126：E89完整30维CM run45764784007/job139722963336实际PASS，联合质量核一维、首阶6；source ab5d8cef，matrix6ee0222d…8d665。接新五jet/B5/89局部范数读者，完整系数在同run内重生且只存内存，遵根第15条；准确保W不属B89与有成本SW∈B106，不传播中央零。原Schwartz/周期/通常Selmer桥仍续。
+
+- 2026-11-26 06:14:23 UTC / Astra-rank2-Sha-7d29daa5-20261126：R940完整条件增广界已证即推；root核真实双群环导数下降、D保留、cτ的惰性Frob平方及固定Selmer复形H²tors误差，补barp H1无挠对饱和S0的准确识别。只在原c1≠0下得实际κ的有界阶与H1(J)唯一原像；不宣称JH1/scalar整除、ordinary或无穷p，继续规范新块。

@@ -6,7 +6,7 @@
 
 固定一条 E/Q，完整证明 rank≥2 且无穷不同 p 的通常全 Sha[p∞] 有限。**未完成；继续研究，不把接口、条件结论、有限验证当完成。**
 
-- 公开部分克隆、恢复稀疏检出并实际 pull --rebase；根/课题 README 已读至 `87a2a2a4fe36b2669cd9d479fde145bec3ce922a`，相对接手首读无差异。之后每次 pull 核差异，至少一小时一次。
+- 公开部分克隆、恢复稀疏检出并实际 pull --rebase；根/课题 README 已读至 `18e8aebab26dfc8b63bdb5165184bf6f6b8f709b`，相对接手首读无差异。之后每次 pull 核差异，至少一小时一次。
 - 私有队列接手已推 `f3125fbaa4bc13678b0c8519d85051762c579529`；私库根 README 已读至 `e776df4`（推前同步点）。两次非快进均立即 rebase 后重推成功。
 - 本次 clone 在 /workspace 空间不足，已移动本次两个克隆到 /tmp/rank2-sha-7d29daa5d3b1；只处理本次创建文件，恢复后 public worktree 干净。令牌未写入文件或配置。
 - 2026-11-26执行环境断开后，临时用GitHub原子tree/commit及非强制CAS同步main；逐次核两README差异，恢复环境后补git pull --rebase。未推改动从已审差异恢复，未将断开视作完成。
@@ -18,7 +18,7 @@
 前轮实际已推进至 R938 附A（2026-11-20 15:47 UTC），不是停在旧维护者名称所示的11月14日。
 
 - root：同一个 P/R/S、R938 有限类与实际 K1/K2/后页；R939已付三长窗完整D2首核；继续一般有限类/真实后页。
-- global_rank2：R885–R921 原 c1、ordinary、s=0 与新文献；R940 预留。
+- global_rank2：R940原双惰性实际下降与条件深增广已证；继续c1/ordinary/s0。
 - theta_central：四原 S34/T72/U136/V66 中央联合非零；R941两次真除p读者已证，公开227四中央实际赋值1，run45762838950全身份过；继续新增真实来源；E89的degree178完整CM已PASS，新五jet/角帽/局部范数已请求，完整算术桥继续。
 - original_geometry：旧 run 终点已核；R942完整行模/原分裂标量全厚原像已证，单F v2入口已接并请求公开运行，无新除子PASS。
 
@@ -47,6 +47,8 @@ R893 只在 c1≠0 下给 D=UZ°、Uunit、ccan=H Dfun D、Ccan=H Dfun²。s=ord
 R908/R913 finite/wild 新增惰性位loc零已付；tame D固定，wild Dp=p^cpD仅逐p固定；同格可除T才继承。R921 残余H¹提升L/连接C、j*=diag(u,0)、cor=diag(0,1)、βm(C)=−up^(e−m) modh及全局连接读数保；几何loc零只控L。c1非零、ordinary、s0和无穷p仍未付。
 
 [本轮原文范围核查](notes/2026-11-26-global-7d29.md)：Castella 2026作者版仍需κp非零，2611.09192的定理已假设Sha有限/高度非退化；新固定3-primary变曲线摘要不提供本题量词。Wan–Xiang–Xu新预稿仍限解析秩一；Scavia的非零循环定义域变动且原十八阶投影未付。私库q-bsd与selmer-to-analytic最新H也未给可移植的闭合输入。
+
+R940：原x12经π_m的实际κ恰双D导数下降；固定D后loc新q全零。c1≠0下由惰性平方检测和固定strict复形H²tors得p^Bκ=0，B=b_p+v_pD；深约化归零且唯一来自H1(J⊗T)，不等于JH1或scalar整除，不给s0/跨p结论。
 
 ## 第三门：四原中央与全部边界
 
