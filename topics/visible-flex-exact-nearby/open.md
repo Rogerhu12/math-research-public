@@ -159,7 +159,7 @@ G以S/T E1856给physical C²整盘/曲率<2/径长<8e−6及同world position/no
 | R149 physical链 | [58→224→32](notes/2026-11-26-physical-scalar-execution.md)及[PN56](results/R149-supplement-actual-positive-negative-receiver-execution.md)等待真低逆；全部L²_r head消元必须真实square通过，14原ports保持自身单位，true root96/mean/ν仍留。 |
 | common source4→6 | [source4实际](results/R149-supplement-actual-common-high-WPN-source-unit-ball.md)45783842857/1完整4/4锁定。原Xfr−4/3、state outermean与aux Ec*e保；[CXN6完整入口](results/R149-supplement-actual-common-high-negative-receiver-execution.md)已推，无actual32则无manifest。P/T同因三角，Ni/output9一次。 |
 | fixedη0 forward | 45778507038/1完整7296格/6143接口；positive mean门true，同φ C0及outer mean门false。row7147实际距离下界>1.00195589e−4、terminal mean偏移约−7.66584024e−3，不再续跑此已完整forward。改接下行compact mean中心，不推全族不存在。 |
-| compact mean/C0 | [SM](results/R144-supplement-mean-exact-compact-centres-on-the-selected-metric.md)全∣δ∣≤1e−10双端mean唯一根∣ξ∣<1.75e−11、.1275<ξ′<.166，same-metric Qδ桥<4.760e−7/φ导数<1.264e−6；实际δ*包含。AVM真κν严格负，SR/MJ/RI旧全界保原proof；新的同metric nonmean残差/DF差、全Schur/height仍待。 |
+| compact mean/C0 | [SM](results/R144-supplement-mean-exact-compact-centres-on-the-selected-metric.md)全∣δ∣≤1e−10双端mean唯一根∣ξ∣<1.75e−11、.1275<ξ′<.166，same-metric Qδ桥<4.760e−7/φ导数<1.264e−6；实际δ*包含。AVM真κν严格负，SR/MJ/RI旧全界保原proof；[SMR](results/R144-supplement-selected-metric-compact-residual-and-full-operator-fees.md)完整残差/DF body费已付，原weighted/hybrid/trace资格及fullSchur仍待。 |
 | reflected waist | [RW实际](results/R149-supplement-actual-reflected-finite-waist-rows.md)45787309600/1全96rows/480球，真a=2H(0)、signed mean、整DFT/alias/tail。[JF联合矩阵误差](results/R149-supplement-joint-signed-finite-matrix-error.md)以真target Bessel减去列误差的额外√96；完整TC/P224和signed配对仍待，source/target权重、mean及fullSchur保留。 |
 | graph高块 | [CG](results/R149-supplement-positive-feedback-in-the-complete-graph-high-block.md)准确邻接约消并保真正物理96列；actual common6/PN56未齐，新高门未通过。WDH旧homogeneous高逆保持原范围，完整巨大finite/mean/ν/phase不删。 |
 
@@ -185,4 +185,4 @@ R149 signed-loop及[CP/physical](notes/2026-11-26-physical-scalar-execution.md)�
 
 [JC实际七球](results/R149-supplement-actual-joint-compound-waist-row-error.md)45887337009/1给完整96行误差<8.556891e−5、全homotopy lower>.9836159091670；原DFT/means/alias全保，SC直接消费，不授signed矩阵或fullSchur。
 
-[SB完整同φ衔接](results/R144-supplement-complete-same-phi-bridge-to-selected-reference.md)：同η0，新中心与Qδ*完整pair A0及moving C0<1.98e−5，原repair/19d*全付。换ν的mean/ordinary源显式保，真qν−Z不借Z；未来纠正≤8e−5只是充分余量，world锚/height/完整GC仍待。
+[SB](results/R144-supplement-complete-same-phi-bridge-to-selected-reference.md)原同φ坐标资格/repair/19d*费用保；最新same-metric桥用SM及SMR，真qν−Z仍不借Z。world锚/height/完整GC及最终几何余量须真实闭合。

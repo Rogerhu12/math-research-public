@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [SMR：selected metric完整残差与全DF差](results/R144-supplement-selected-metric-compact-residual-and-full-operator-fees.md)：全ν窗四源<1.107e−7/1.705e−6/7.469e−8/1.594e−6，原6143joins全保；whole core低193/高→低费<.002634/.007711。真mean方程消去第二ordinary metric项、β非局域和mean-rank不删；weighted/hybrid/trace另付，58条已存标量有理比较通过。
+
 - [ASL：实际紧支源接收四球](results/R147-supplement-actual-support-localized-negative-nu-reception.md)：45889444013/1完整true，ordinary负ν贡献<1.87e−4、严格改善旧完整界；原两mean/全模式/源支集不减，首零目标命名失败保，真正Fν signed particular继续。
 
 - [SC实际真96列/两个完整矩阵后继](notes/2026-11-27-actual-signed-finite-execution.md)：五源实现已齐；完整58/224/32、TC3、RW96、JC7准入后算96真列误差与两signed96 gate，原carrier按全SHA必要恢复、每自然对象即推。当前前件未齐，仅metadata readiness，尚无actual manifest或科学运行。
