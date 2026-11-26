@@ -1,0 +1,53 @@
+{
+  "session": "Astra-held10-06bbeb39-20261126",
+  "observed_utc": "2026-11-26T11:15:51Z",
+  "workflow_run": 45801006547,
+  "command_id": "held10-material-delta-design-20261126-01",
+  "scope": "First current-session original M32 lambda=.016 actual finite design acceptance beyond the prior known .008 handoff. Same original gates; delta remains a design unknown.",
+  "actual_return": {
+    "accepted": true,
+    "actual_audit_mean_nodes": 1552,
+    "actual_delta": 0.06413407851992392,
+    "complete_saved_initializer": true,
+    "domain_error_counts": {},
+    "domain_newton_stats": {
+      "accepted_steps": 7,
+      "calls": 2,
+      "minimum_alpha": 0.5,
+      "no_step": 0,
+      "rejected_domain_trials": 0,
+      "rejected_merit_trials": 1
+    },
+    "error": null,
+    "homotopy": 0.016,
+    "metric": 6.748168981056152e-7,
+    "metric_only_failure": false,
+    "modes": 32,
+    "name": "attempt-003",
+    "nodes": 864,
+    "original_finite_checks": {
+      "physical_bc": true,
+      "rms": true,
+      "solver": true,
+      "solver_and_boundary_pass": true,
+      "tolerances": true
+    },
+    "physical_bc_max": 6.961299471856893e-17,
+    "physical_sha256": "ff54433f914eba44ad2a4b552f856e77c27c89f57edcdf9ff4b7d442958ad994",
+    "raw_sha256": "793bcbee3bf9c8ae9dca90a82f95880cffb82b1304e2b7391711d5ed63f5ef14",
+    "returncode": 0,
+    "rms": 9.975298973847549e-7,
+    "run": "/home/runner/work/_temp/held10-design/design-prefix-recovery/material-delta-design/attempt-003/run.json",
+    "run_sha256": "c079ed08271021c2dce4d135101d2692a9eb59eb49a685b902cefdccfb3751b7",
+    "solver_success": true,
+    "source_run": "/home/runner/work/_temp/held10-design/design-prefix-recovery/material-delta-design/attempt-002/run.json"
+  },
+  "original_finite_prefix_gates_passed": true,
+  "continuous_metric_certificate": false,
+  "actual_nonlinear_tail_paid": false,
+  "complete_cartesian_seam_paid": false,
+  "fixed_metric_refinement": false,
+  "lambda_one_reached": false,
+  "complete_surface": false,
+  "next_lambda_started": 0.032
+}

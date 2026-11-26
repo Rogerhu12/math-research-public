@@ -45,3 +45,7 @@ python -u topics/visible-flex-held-10pct/scripts/resume_20261126/lowq_prefix_rec
 ## 已恢复的 M32 原接受输入
 
 11:01 UTC实读：本次λ=.004/M24仅metric未门，经原完整lift升M32后，860点/RMS9.941928786103374e−7、metric7.60467686690455e−7、BC2.8434549427822667e−12全门通过；raw `ca2785ae119ef755e02f6e8081ee9f793ca35f7e184eff398276d95a9df238f2`，run `9f9dc6f30e0c3af639615f81b5d9c1009b2292ab42927bf5f024fefbec3d679b`，原mean1552。已续.008。此为丢失输入的必要再生，旧.004结论不重新计数；具体小记录见 [本次返回](2026-11-26-original-design-m32-recovered.json)。
+
+## 超过前会话断点的 λ=.016
+
+本次 `attempt-003` 已真正通过原有限门：M32/864点，RMS `9.975298973847549e-7`，完整有限角metric `6.748168981056152e-7`，physical BC `6.961299471856893e-17`，实际δ `0.06413407851992392`，原mean1552；7个Newton接受步、0域拒/1merit拒。raw `793bcbee3bf9c8ae9dca90a82f95880cffb82b1304e2b7391711d5ed63f5ef14`，run `c079ed08271021c2dce4d135101d2692a9eb59eb49a685b902cefdccfb3751b7`。原父链已从这个接受场启动λ=.032。前会话只有.008及.016未知，故这是新的实际推进；仍是δ可变设计、线性DN及有限metric，没有连续闭面结论。完整小记录见 [λ.016返回](2026-11-26-original-design-lambda0016-m32-accepted.json)。
