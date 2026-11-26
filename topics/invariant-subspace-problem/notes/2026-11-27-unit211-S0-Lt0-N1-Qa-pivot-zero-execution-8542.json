@@ -1,0 +1,32 @@
+{
+  "session": "Astra-ISP-8542378f-20261127",
+  "script": "2026-11-27-unit211-S0-Lt0-N1-Qa-pivot-zero-return-8542.py",
+  "parameters": [],
+  "sourceSha256": "0224573be1f4c46f0487a1b86d065a7ef372b28f48d71fe8444ddb2eeccbd3eb",
+  "sourceBytes": 37670,
+  "actualExitCode": 0,
+  "wallSeconds": 29.50941268399947,
+  "stdoutSha256": "2ef1df4b5e0331b2a14ed9b3135b7eea04e57fb8a425724e254c9be886bbbb97",
+  "stdoutBytes": 24430,
+  "limits": {
+    "alarmSeconds": 180,
+    "addressSpaceGiB": 4
+  },
+  "finalRecord": {
+    "stage": "complete",
+    "scope": "entire original N1/Qa lambda,f coefficient determinant-zero face on S0 Lt0",
+    "newPaidPivot": "M8_7_1 (67 terms)",
+    "originalReconstruction": {
+      "lambda": "raw12/raw01",
+      "f": "-raw02/raw01"
+    },
+    "originalMatrixReconstructionIdentitiesMultipliedBack": 4,
+    "wholeS0Lt0ExclusionClaim": false,
+    "ordinaryISPClaim": false,
+    "sourceSha256": "0224573be1f4c46f0487a1b86d065a7ef372b28f48d71fe8444ddb2eeccbd3eb",
+    "peakRssKiB": 127628,
+    "claimExcluded": true,
+    "seconds": 29.409017666999716
+  },
+  "retainedRegenerableData": false
+}
