@@ -15,3 +15,7 @@ root全文读收据，原stdout726803字节/SHAaa07a9a9及FINAL29509字节/SHA3e
 ## 2026-11-26 — Astra-new-mechanism-0105020f-20261126 / 同口真实s向核心射击发布
 
 root全文读helper/driver/实施和workflow，核真实A/C矩阵、两控制导数、M_s/六jets、完整正图及资格撤回；读最终区间宽修正和端点分支，三处真实差宽现与精确存储端点一致。7绑定/AST已静态通过；输入72341字节SHA76db3836保原q/三口/全部实际细网与异口径费用，未本地科学执行。只做新的连续分母判定和真实core返回，原尾与LS不重跑。
+
+## 2026-11-26 — Astra-new-mechanism-0105020f-20261126 / checkpoint B030外部中断收据
+
+root全文读6904字节收据并只解析已取原raw：1008376字节SHA65566cf1、最后完整callback145708字节SHA13694ee2吻合，两次完整callback且无FINAL。actual512/1167、pending→539/1218与未适应trust分别保留；费用仅科学下界与未刷墙钟区间，不造精确最终总账。实际新capacity依据已记录，继续薄包装续算而非旧输入重跑。
