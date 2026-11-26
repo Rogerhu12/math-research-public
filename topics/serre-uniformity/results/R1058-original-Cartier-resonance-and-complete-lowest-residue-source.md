@@ -504,6 +504,118 @@ $
 $\mathcal F_\lambda$ 和两个 Frobenius 项的总和。此界本身不给总和非零，也不关闭 O0。
 
 
+## 12. 保留完整 $Q^2$ 的同分母单系数与七阶局部式
+
+在§§8–11的规范下，先明确原输入：
+$
+\mathcal F^{(0)}=\mathcal F_\lambda,\qquad
+\mathcal F^{(i+1)}db=\mathscr C_b(g\mathcal F^{(i)}db)
+\quad(i=0,1),
+$
+$
+\mathcal F=\mathcal F^{(1)}-\mathcal F^{(2)}
+=\mathcal F_{Q_{\rm op}v},\qquad v=(1-Q_{\rm op})\lambda .
+$
+$\mathcal F^{(0)}$ 是 (1058.13) 的完整式；第二项始终保留原
+$Q_{\rm op}^2\lambda$。原次数及两非平凡角色给唯一分解
+$
+\mathcal F=\frac{bU(r)}{A_1q(r)}
++\frac{b^2V(r)}{A_1xq(r)},\qquad
+\deg U<N,\quad\deg V\le N.
+$
+置
+$
+N_*=-x^\ell U+x^{2\ell-1}V,\qquad
+W_*=N_*'q-N_*q'.
+\tag{1058.31}
+$
+则完整原最低值有以下等价式：
+$
+\boxed{\begin{aligned}
+\mathcal C_{\rm actual}
+&=\frac{c_H}{A_1}
+ \sum_{P(\alpha)=0}\operatorname{Res}_\alpha
+ \frac{r^{-d}W_*}{P^2}\,dr\\
+&=-\frac{c_H}{A_1}[r^{d-1}]\frac{W_*}{P^2}\\
+&=\frac{(-3)^d}{dA_1}[r^{d-1}]\frac{W_*}{P^2}.
+\end{aligned}}
+\tag{1058.32}
+$
+
+第一证明从 (1058.24) 开始。单点处 Cartier 留数式仍必须保留
+$p$ 次根：
+$
+\operatorname{Res}(\mathcal F_\lambda gL_D^pdb)
+=\bigl(\operatorname{Res}(\mathcal F^{(1)}L_Ddb)\bigr)^p,
+$
+$
+\operatorname{Res}(\mathcal F_\lambda g^{p+1}L_D^{p^2}db)
+=\bigl(\operatorname{Res}(\mathcal F^{(2)}L_Ddb)\bigr)^{p^2}.
+$
+全 $P(1-b^3)$ 根集由 Frobenius 保持，所写有理函数均在
+$\mathbf F_p$，所以只有取完该完整总和后才可去掉 $p,p^2$ 次方。
+于是
+$
+\mathcal C_{\rm actual}
+=-\sum_P\operatorname{Res}\mathcal F L_Ddb
+=\sum_P\operatorname{Res}K_D\,d\mathcal F.
+$
+最后一步用 $d(K_D\mathcal F)$ 的留数为零。
+
+对 $r=\alpha\ne1$ 的三个 $b$ 原像，真实三次 trace 为
+$
+\operatorname{Tr}_{b/r}\bigl(d_0(b^p)\mathcal F\bigr)
+=\frac{-x^\ell U+x^{2\ell-1}V}{A_1q}
+=\frac{N_*}{A_1q}.
+$
+这是直接使用 $\operatorname{Tr}(b^e)=0$（$3\nmid e$）及
+$\operatorname{Tr}(b^e)=3x^{e/3}$（$3\mid e$）。
+同时 $d(d_0(b^p))=0$，故 trace 与微分交换后，
+$H_0=c_Hr^{-d}q^2/P^2$ 正好消去导数的 $q^2$ 分母，给第一式。
+实际 $D$ 的两个 CM 相位已包含在 $d_0$ 中，没有增删一支。
+
+若 $P(1)=0$，其重数至多一，而 $N_*$ 含 $x^\ell$、
+$W_*$ 含 $x^{\ell-1}$，所以所写微分在 $r=1$ 仍正则；
+与原 $b=0$ 的零贡献一致。
+又 $\deg N_*\le5N+3$、$\deg W_*\le6N+2=2\deg P$，
+所以无穷为 $O(r^{-d})dr$，$d\ge13$ 使其无留数。
+除 $P$ 根外唯一额外极点是 $r=0$，其留数准确为
+$[r^{d-1}]W_*/P^2$。全局留数定理给第二式，
+$c_H=-(-3)^d/d$ 给第三式。
+
+这里还可逐根写出全部临界资料。若
+$P=(r-\alpha)^hP_\alpha$、$P_\alpha(\alpha)\ne0$、$\alpha\ne0,1$，
+则其第一式中的单点贡献（未乘 $c_H/A_1$）为
+$
+\frac1{(2h-1)!}
+\left.
+\partial_r^{2h-1}
+\left(\frac{r^{-d}W_*}{P_\alpha^2}\right)
+\right|_{r=\alpha}.
+$
+§11给 $h\le4$，故最高仅七阶，所有阶乘在 $p\ge41$ 为单位。
+这保留重根的完整留数，未假设 squarefree。
+
+独立的第二证明直接用原 Lagrange 参数。在 $r=0$ 的首 $p$ 阶，
+$x^\ell\equiv b$、$x^{2\ell-1}\equiv b^2/x$，
+所以
+$
+N_* /(A_1q)\equiv D_F\mathcal F\pmod{r^p}.
+$
+R1052 的原 $Z$ 系数公式给
+$
+\mathcal C_{\rm actual}
+=\frac{(-3)^d}{d}[r^{d-1}]
+\left(\frac{N_*}{A_1q}\right)'\widehat J^{3d}.
+$
+$3d=p-2$，在所需安全截断中
+$\widehat J^{3d}\equiv\widehat J^{-2}$，故准确回到 (1058.32)。
+这同时独立核准所有符号、$A_1$ 与 $d$ 因子。
+
+(1058.32) 使实际源与原 bare 来源可以在同一 $P^2$ 分母下比较；
+它本身仍是原指定值的恒等式，不证明两分子相同、总值非零或 O0。
+
+
 ## 来源和独立纸核
 
 - [R1037](R1037-original-Hodge-graph-operator-and-primitive-MW-annihilator.md) §§3–6、[R1040](R1040-original-p5-Hodge-graph-and-primitive-MW-annihilator.md)：两行原算子、原 $q_s$、完整商、$D$ 和插值规范。
@@ -513,3 +625,5 @@ $\mathcal F_\lambda$ 和两个 Frobenius 项的总和。此界本身不给总和
 global_route 推导规范 primitive、全 Cartier 和 $T_\lambda/A$；o2_high_coefficient 独立核 $p$ 次修正，并给全反射及完整 $D$ 后总留数；root 逐式核所有残数、无穷次数、primitive 唯一性、角色运输和半线性。本文全部为纸面证明，没有执行数学程序，没有重复旧窗口。
 
 补充§§8–11：global_route给规范P、原D源的完整迁移、非齐次Gauss式及固定重数界；o2_high_coefficient独立核forcing和重数；root逐项核CM相位、q根/b0/无穷极阶、Cartier换元、简单根留数及r1/9二阶值。全部为纸面证明，无数学程序或窗口执行。
+
+§12由global_route给完整Cartier总和/trace/分部积分证明，o2_high_coefficient以原Z的Lagrange式独立重导，root逐式核半线性、三次trace、r1与无穷、全部次数及符号；无数学执行。

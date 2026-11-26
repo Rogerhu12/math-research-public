@@ -6,7 +6,7 @@
 
 ## 原最低型：已经付清的输入与准确剩余标量
 
-[R1058](results/R1058-original-Cartier-resonance-and-complete-lowest-residue-source.md)：规范Jhat与原Q的Cartier身份、Tλ/A两pth修正已付。§§8–11以P=qJhat迁完整D/Q/Q²最低到全部P根；q根、b0、∞无残数，P非齐次Gauss forcing不删。P根至多四重（四重仅可能r1/9）、实际L_D极阶≤9；原全残数和非零仍开。
+[R1058](results/R1058-original-Cartier-resonance-and-complete-lowest-residue-source.md)：规范Jhat与原Q的Cartier身份、Tλ/A两pth修正已付。§§8–12以P=qJhat迁完整D/Q/Q²最低到全部P根；q根、b0、∞无残数，P非齐次Gauss forcing不删。P根至多四重（四重仅可能r1/9）、实际L_D极阶≤9。完整Q²单系数为(-3)^d[r^(d−1)]W*/P²/(dA1)，每根最多七阶导数；非零仍开。
 
 [R1056](results/R1056-original-kernel-lowest-CM-single-coefficient.md)：全p6N5原核的两列C_s=(-3)^d[r^(d−1)]q^(s+1)/j^(s−1)/[s(s−1)]，s2/8、d=(p−s)/3；s2即原最低q³/j。H′=h²、所有分母/尺度已付；不与端点、bare范数、DQv混同，不扩原bare范围，单位仍开。
 

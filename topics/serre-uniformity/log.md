@@ -418,3 +418,7 @@
 - [R1058](results/R1058-original-Cartier-resonance-and-complete-lowest-residue-source.md)：规范Jhat与原Q的Cartier身份、Tλ/A两pth修正已付。§§8–11以P=qJhat迁完整D/Q/Q²最低到全部P根；q根、b0、∞无残数，P非齐次Gauss forcing不删。P根至多四重（四重仅可能r1/9）、实际L_D极阶≤9；原全残数和非零仍开。
 - 根纸核P次数/首项/互素、原CM的D相位、全部S/b0/无穷极阶和非齐次Wronskian；重根不删，K′及r1/9的K″/q=−243/16给四重上界。保完整Fλ及负Q²项，未宣总和非零；不扫窗、不执行数学程序。
 - 03:49再试真实git pull --rebase，执行服务明确报无可用环境，未运行shell；连接器同步45627cbb9f6a92df8ba0add18653cd3a094f2174，两README和本题均无外部差异。按根规矩8继续expected_sha非force小文本更新，恢复后立即真实pull。
+
+### 2026-11-27 03:56 Asia/Taipei — R1058完整Q²的同P²单系数
+- [R1058](results/R1058-original-Cartier-resonance-and-complete-lowest-residue-source.md)：规范Jhat与原Q的Cartier身份、Tλ/A两pth修正已付。§§8–12以P=qJhat迁完整D/Q/Q²最低到全部P根；q根、b0、∞无残数，P非齐次Gauss forcing不删。P根至多四重（四重仅可能r1/9）、实际L_D极阶≤9。完整Q²单系数为(-3)^d[r^(d−1)]W*/P²/(dA1)，每根最多七阶导数；非零仍开。
+- 原Fλ先施实际Cartier一次/两次再作差，全部Fp稳定根和后才消p根；原D三次trace准确给N*=−x^ℓU+x^(2ℓ−1)V。r1及∞无残数，原Z的Lagrange独立给同号/同尺度；只结算既有源，未扫窗或宣单位。
