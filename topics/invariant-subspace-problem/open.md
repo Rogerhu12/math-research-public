@@ -68,6 +68,8 @@ $$
 
 **[rankH3二重加单点与V二jet的整层ess6已空](results/R150-appendix-rank-three-double-plus-single-second-cumulant-nonreduced-third-cumulant-essential-six-exclusion.md)：** 非退化H用合法F=h=g1及V真jet尺度，Gaussian/trace只给(b,c)=(-1/6,-1/4)或(1/6,1/12)。原N的常数/一次系数和V mean给C0²、C0C1、Cw²，最后N(u)分别迫平方−1/12=1/4或1/16=81/16。和退化Gram全排除合成完整V二jet闭合；另已独立排F0及约化V的e0。准确只续bgF e非零的约化V，不再探索这类二jet。
 
+**[2+1非退化H、约化V、Hp0的原九次Gram候选](results/R150-appendix-rank-three-double-plus-single-second-cumulant-zero-hp-nine-gram-candidates.md)：** 全部立方相位及Cw0由原N(u)/N(v)排除，只剩D=−C；F=h=g1时c−1/4、b=−(2e³+1)/6，完整六列Gram由G9(e)=16e9−108e8+36e7−15e6+18e4−1的至多九根确定。该结果只给完整必要归约；继续同一原曲线的2+1/两值实现及未用的完整N/最高系数，不能将一般Gram当物理解。非零Hp、三约化H与ess4/5均仍开。
+
 ## 2. R271：同一来源的完整物理费用
 
 目标仍是 $M=\ker T$、$N=\overline{BM}$ 的 $N=M$。保同一 $w/u$、全部 partial、真实 intersection 旗、MP 自然域、负前缀/未来/carry、完整帽逆伴随及外投影；所有已闭引理只能按原范围组合。

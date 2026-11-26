@@ -205,3 +205,5 @@
 - **R271 指数远孔起点的原全算子相对加权Gram与真实残量（2026-11-26，已证明）：** [完整列投影、环境Neumann及无限尾](results/R271-appendix-exponential-weight-cutoff-relative-global-gram-and-actual-weighted-residual.md)去除旧e^(81/s)损失，原完整全T列Γ界≤8/7、与L_m差≤e^(−3d⁴/2)，真实Γ_y T a≤(8/7)√s。y≤e^(12d³)及改基e^(12(d/2)³)母窗分别已付；原same-w/旧同源物理列均保准确接口。通用清除仍含e^(κy)，尚未得到真F0/Sx的绝对Z或实际核返回。
 
 - **R150 rankH3二重加单点、非约化rankV2的整个ess6为空（2026-11-26，已证明）：** [原完整常数/一次梯度和N(u)平方矛盾](results/R150-appendix-rank-three-double-plus-single-second-cumulant-nonreduced-third-cumulant-essential-six-exclusion.md)覆盖非退化H的两Gaussian分支，合法尺度及所有符号均明确；连同退化Gram得到ess≤5。另完整排F0及约化V的e0；只续bgF e均非零的约化V。本条纯显示手证，无新计算门。
+
+- **R150 非退化2+1 H的Hp0约化V层至多九个完整Gram规范（2026-11-26，已证明的必要归约）：** [原相位穷尽及九次式](results/R150-appendix-rank-three-double-plus-single-second-cumulant-zero-hp-nine-gram-candidates.md)支付全部零分母、Cw0和9种三次相位，必D=−C；G9确定完整六列矩阵，交换V标签吸收平方根。原物理曲线实现、其余极线/最高系数与非零Hp仍未闭，继续处理。

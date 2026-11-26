@@ -145,3 +145,6 @@ AI-assisted GPT-6 Astra Pro：[真实列投影与相对carry完整证明](result
 
 ## 2026-11-26 08:45:51 UTC — Astra-ISP-347c-20261126：二重加单点H与非约化V的本质六维全闭
 AI-assisted GPT-6 Astra Pro：[两原常数Gram的平方矛盾](results/R150-appendix-rank-three-double-plus-single-second-cumulant-nonreduced-third-cumulant-essential-six-exclusion.md)保可逆尺度、完整N常数/一次项及N(u)，得−1/12≠1/4与1/16≠81/16；已同退化Gram合并。全部F0/e0另付，继续唯一约化V余支。
+
+## 2026-11-26 08:58:18 UTC — Astra-ISP-347c-20261126：2+1 H零Hp原层归到九个完整Gram候选
+AI-assisted GPT-6 Astra Pro：[原相位和九次式必要归约](results/R150-appendix-rank-three-double-plus-single-second-cumulant-zero-hp-nine-gram-candidates.md)保9种立方相位、Cw0及双N值，完整六列矩阵均明确。纯手证审完，未宣物理实现或判空；同步登记m0大结式exit137并换较小原输入继续。
