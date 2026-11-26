@@ -5,7 +5,7 @@
 
 ## 1. 授权、规则与完整前史
 
-公开本次实际pull且根/题README已读至 **9515618fa868fa2a0851e00c7e05987ebcaee55b**；根/题规则相对继承0749a4cc均空差异。私库实际pull/根README已读至 **1a995ebf0c19ea771ef0684a4f22bf94da9a960e**，QUEUE认领提交 **09f8b8b54e7cfaabaa635bae5c438c7f1521289a**；本会话仍唯一进行中，21:00 UTC前再次实际pull且根README空差异，下一不晚于21:58 UTC。
+公开本次实际pull且根/题README已读至 **864c3181a71d07c440682d57448c8c345ee2dc5b**；根/题规则相对继承0749a4cc均空差异。私库实际pull/根README已读至 **1a995ebf0c19ea771ef0684a4f22bf94da9a960e**，QUEUE认领提交 **09f8b8b54e7cfaabaa635bae5c438c7f1521289a**；本会话仍唯一进行中，21:00 UTC前再次实际pull且根README空差异，下一不晚于21:58 UTC。
 
 [压缩前全文](notes/HANDOFF-before-free-center-feedback-20261127.md)及其归档链保存全部旧结论、真实输入、失败/偏离、量词与完整费用；移档不重跑已付门。[四来源与文献](notes/2026-11-27-current-four-source-topics-and-literature.md)保已读版本及用途。
 
@@ -56,6 +56,6 @@ R611旧圆证书/准确系数修复和全费用沿归档保留；R608只转适�
 
 [f1连续原终态](notes/2026-11-27-r582-retained-continuous-original-terminal.md)run **45890735034**/job140152478397/source4322a257，新527.88478224秒；新mean圆671叶reach≥.06072/D≤1.58255527。非圆39305叶完整覆盖δ.00198366681/α.01763328667/β61.2105951，R604证真有限C²嵌入，但reach/D≥.00783057847不够.03；β峰近s.86953765不冒真实曲率。准确覆盖同mesh、柱、双Cartesian帽、镜像和无限尾；seed半径商仍旧冻结参考。全部ODE/区间/原费用见收据。
 
-[R621](results/R621-normal-projected-covariant-blocks-and-reach-input.md)已付全角同cell参考法向投影、法向转动×完整环境二阶差、2×2实际主曲率K；原C0/C1/C2与新K同一次材料/mean/A-B-C读取。纯helper独立全文审读通过未执行。下一只针对真a237新mean/原mesh重新完整覆盖，精化直接K而非β，并保R604完整近远法弦；预算只是细化目标，有效宽界按实值用。几何不替固定g/宏观族。
+[R621](results/R621-normal-projected-covariant-blocks-and-reach-input.md)已付全角同cell参考法向投影、法向转动×完整环境二阶差、2×2实际主曲率K；原C0/C1/C2与新K同一次材料/mean/A-B-C读取。纯helper独立全文审读通过未执行。下一只针对真a237新mean/原mesh重新完整覆盖，精化直接K而非β，并保R604完整近远法弦；预算只是细化目标，有效宽界按实值用。[a237新完整scope](notes/2026-11-27-r582-a237-normal-curvature-implementation.md)全文核driver/note/workflow、34绑定与原q/seed/mesh；1800秒/30预留，C0/α/K精化、宽有效界保留，非有限bound清空后才判未决。新参考先过再必要重建场，无旧fine/Jac/诊断。几何不替固定g/宏观族。
 
 [results](results.md)为已证索引，[log](log.md)/notes记录每次原输入、运行、失败与完整成本。每条结论后继续真实输入，只有主README完成门及要求强目标真正通过才收尾。

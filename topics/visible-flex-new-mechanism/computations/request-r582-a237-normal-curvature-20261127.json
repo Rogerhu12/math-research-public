@@ -1,0 +1,102 @@
+{
+  "repository": "Rogerhu12/math-research-public",
+  "queue_session": "Astra-new-mechanism-1f4a61a4-20261127",
+  "expected_readme_blobs": {
+    "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+    "topics/visible-flex-new-mechanism/README.md": "d0432faff569c8e9af7ed4809847e12880976c11"
+  },
+  "expected_private_readme_blobs": {
+    "README.md": "5ba164843b1f5802184178a82d786264404873a3"
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "packages": {
+      "numpy": "2.3.5",
+      "scipy": "1.17.0"
+    },
+    "checkout_action": "11d5960a326750d5838078e36cf38b85af677262",
+    "setup_python_action": "a26af69be951a213d495a4c3e4e4022e16d87065"
+  },
+  "schema": "r582-actual-a237-normal-projected-continuous-geometry-request-v1",
+  "public_rules_read_commit": "9515618fa868fa2a0851e00c7e05987ebcaee55b",
+  "private_rules_read_commit": "1a995ebf0c19ea771ef0684a4f22bf94da9a960e",
+  "entry_point": "topics/visible-flex-new-mechanism/scripts/r582_a237_normal_curvature_reach_20261127.py",
+  "workflow": ".github/workflows/visible-r582-a237-normal-curvature-20261127.yml",
+  "common_parameters": {
+    "maximum_seconds": 1800,
+    "maximum_reference_cells": 100000,
+    "maximum_norm_cells": 250000,
+    "maximum_depth": 28,
+    "norm_refinement_depth": 6,
+    "norm_C0_budget": 0.0025,
+    "norm_C1_budget": 0.015,
+    "height_width_target": 1e-06,
+    "height_maximum_cells": 65536,
+    "principal_curvature_budget": 18.0
+  },
+  "lanes": {
+    "actual-a237-normal-curvature": {
+      "source_state_json": "{\"actual_retained_q\":[-0.004468384839399189,0.001418794175819664,-0.0007505441024715733,-0.00010799976108893328,0.0010362584114097782,-3.911845000424582e-06,0.002426562087686309,-0.004343542582700333,-0.000597842827439775,0.0001407688834186338,-0.0012408735322175543,0.0013558739828059595,0.0010636892851198132,-0.0003265053545121878,0.0010017970612613894,-0.0014249036548415642,-0.0010942474037211325,0.0004470821160495294,-0.0005938783793731757,0.001216215926381517,0.0006965515507445477,-0.00040404002166942606,0.0002797789113705458,-0.0006887689586375669,-0.0017597629076110894,0.0006021721060914728,-0.0004877810996522701,0.0008352413657074283,0.011314462931188145,-0.004943285419407464,0.006082278577438238,-0.0037353974733043815,-0.005057425772239979,-0.0011400869537754807,0.006091312864791114,-0.003615502587368723,0.00041426101035549074,9.446249385275325e-05,-0.0006698430314689811,-0.0006988353825852769,-0.00031308914574907157,-6.797264206693765e-05,0.0003835349784787494,0.0006286003015715287,0.00023300574083674804,0.00010940872757992745,-0.0003730557449161478,-0.0007455959641740168,0.00021471545705575217,-9.902826174485694e-05,0.0003627952740587789,0.0006408970052492136,-0.0005538903472552498,7.044732640296952e-05,-0.00032184006517471355,-0.00037667855884183964,0.0014966219141408377,-0.0001461337320536806,0.0004978273852831479,0.00029030943302028677,0.003344112310893716,0.002359711301509833,-0.013467100410228632,0.005795372927989711,-0.35005470100753266,-0.35311032486774135,-0.32346056034807213,-0.4605890694290308,-0.5316959144811437,-0.3276466202289664,-0.5487907891475128,-0.5026192534876823,-2.158772832252164e-05,-0.001527587711106314,-0.08779017619666096,-0.12920485232666107,-0.06017054001483854,-0.20304493513523814,-0.5178733998679821,0.13600753016047962,-0.018503738529536996,-0.007428067979629414,-0.006630024378061887,0.002650317776449183,-1.744814033154104e-12,-5.496019078877582e-09,-1.5534455818352996e-11,-4.742126986461707e-08,-0.08264593644721352,0.018421945354834643,-0.35784224013068694,-0.07056077480913733,-0.5588399662773603,0.05117805546628938,-0.001402650702184096,0.0015879819970721265,0.6942718843124706],\"comparison_reference\":\"same_actual_mean_controls_fixed_circle_core_0.38\",\"earlier_geometry_cost_receipt\":\"topics/visible-flex-new-mechanism/notes/2026-11-27-r582-retained-continuous-original-terminal.md\",\"earlier_geometry_scope\":{\"actual_q_sha256\":\"f1c8298e0c7c576c1b2230b24146fbe2356e97d7ba0b7b3428dd9e87e53a52bf\",\"job_id\":140152478397,\"new_scientific_seconds\":527.88478224,\"results_are_not_transferred_to_current_a237\":true,\"run_id\":45890735034},\"material_mesh_sha256\":\"0d222bd12ce8a61d0c88264c6fb5c82066f0ca058855b5bf7a670a53b483a991\",\"origin\":{\"FINAL_JSON_bytes\":364198,\"FINAL_JSON_sha256\":\"e3371193ba4dcaa4df4d8298c856dce0663d2c4793d0cf205d625203af35ae47\",\"job_id\":140142780497,\"new_scientific_seconds\":2371.7857200480003,\"run_id\":45887805731,\"source_commit\":\"0cce06dd57217f8b06af3a6eaf4018f445bda371\"},\"p\":0.181,\"paid_positive_chart\":{\"arithmetic_identity\":\"outward binary64 basic operations; guarded 90-digit Decimal exp/sin endpoints; interval Riemann height including infinite omitted-tail bound\",\"completed_positive_cells\":71,\"continuous_positive_z_s_chart_established\":true,\"examined_cells\":71,\"height_bound_receipt\":{\"cell_capacity_reached\":true,\"delta_cut\":0.03,\"full_height_interval_width\":1.81723612001361e-06,\"infinite_tail_is_not_redefined_by_the_cut\":true,\"no_QUADPACK_error_estimate_used_as_a_proof\":true,\"omitted_dimensionless_integral_upper_bound\":1.001471338609514e-16,\"outward_interval_Riemann_cells\":65536,\"requested_height_width_target\":1e-06},\"minimum_proved_z_s_lower_bound\":0.00785181746027538,\"mu_independent_chart\":true,\"not_a_curve_or_reach_certificate\":true,\"scope_nu\":[-0.049934319174411074,-0.04793431917441107],\"scope_s\":[0.036,0.8200000000000001],\"strict_lower_threshold\":1e-06,\"unresolved_intervals\":[]},\"paid_seed_json\":\"{\\\"schema\\\":\\\"identified-r582-paid-three-actual-mouth-seeds-v1\\\",\\\"origin\\\":{\\\"run_id\\\":45800483161,\\\"job_id\\\":139842104318,\\\"source_commit\\\":\\\"f473b765b70c44e68090f022df0bd8c1c08737a4\\\",\\\"executed_source_sha256\\\":\\\"fd4bd864c3e9e96d741b7bc896a1bf6f9d50ba54eda0c02bd898f21bd42427a4\\\",\\\"request_sha256\\\":\\\"cfc01ba8bd109b9e15ea08f84b8f8ce7e6e8ac0f7d4d8c1012289349128e4d70\\\",\\\"raw_stdout_bytes\\\":184006,\\\"raw_stdout_sha256\\\":\\\"43b936b32554a14529cf3a04be720e6822156c5cb3d0e015ed7eee3d49d8a4f5\\\",\\\"terminal_kind\\\":\\\"three_seed_transfers_completed_then_numpy_bool_JSON_failure\\\",\\\"no_mean_control_backend_started\\\":true},\\\"source_arguments\\\":{\\\"M\\\":168,\\\"rtol\\\":2e-11,\\\"atol\\\":2e-13,\\\"max_step\\\":0.15,\\\"tolerance_refinement\\\":8},\\\"seed_record_identities\\\":[{\\\"M\\\":168,\\\"tolerance_factor\\\":1,\\\"JSON_bytes\\\":12358,\\\"JSON_sha256\\\":\\\"5bb32547cae173b48ea7b98d3c6249302a0a6d5377d44f06ee6846ccdb32e1a6\\\"},{\\\"M\\\":169,\\\"tolerance_factor\\\":1,\\\"JSON_bytes\\\":12452,\\\"JSON_sha256\\\":\\\"856b33a5107a071b155f9b02ab47a70913c99861ffac36932472d79cc97bbd1a\\\"},{\\\"M\\\":169,\\\"tolerance_factor\\\":8,\\\"JSON_bytes\\\":12459,\\\"JSON_sha256\\\":\\\"83b13a9a7e28ca02dc0bd2f5f79a255a938f5fb037dfa7ede4056c86dcae68ac\\\"}],\\\"compact_seed_inputs\\\":[{\\\"M\\\":168,\\\"tolerance_factor\\\":1,\\\"inner\\\":{\\\"M\\\":168,\\\"alpha160\\\":1006.8799923538346,\\\"exact_DtN_rho161_truncation_log_bound\\\":-58.72777813465683,\\\"numerical_ODE_error_not_in_that_bound\\\":true,\\\"rho161\\\":5.795423994783555e-19,\\\"terminal_peak\\\":169,\\\"y_alpha160\\\":1,\\\"z_alpha160\\\":0.22327036078721596},\\\"outer\\\":{\\\"actual_weight_jets_at_mouth\\\":[3.031309936636054,-2.6926166800671734,-0.07688198958342195],\\\"canonical_to_mouth_C2_log_scale\\\":3853.5457473823158,\\\"chart_checkpoint_before_requested_mouth\\\":null,\\\"finite_transfer_is_not_interval_certified\\\":true,\\\"mouth_a_s\\\":-0.9947640541420094,\\\"mouth_r\\\":0.29996228496918553,\\\"mouth_s\\\":0.82,\\\"mouth_u\\\":6.2499999999999885,\\\"mouth_z_s\\\":0.012730981051657436,\\\"normalized_jets_A_As_Ass_C_Cs_Css\\\":[0.000023816204052211187,-0.0021681928579524415,0.2232929147534618,0.014167223093209908,-0.1694166622970288,1.6269262807163685],\\\"requested_mouth_reached\\\":true}},{\\\"M\\\":169,\\\"tolerance_factor\\\":1,\\\"inner\\\":{\\\"M\\\":169,\\\"alpha160\\\":1006.8799923538346,\\\"exact_DtN_rho161_truncation_log_bound\\\":-65.63553341363897,\\\"numerical_ODE_error_not_in_that_bound\\\":true,\\\"rho161\\\":5.795423994768631e-19,\\\"terminal_peak\\\":170,\\\"y_alpha160\\\":1,\\\"z_alpha160\\\":0.22327036078719148},\\\"outer\\\":{\\\"actual_weight_jets_at_mouth\\\":[3.031309936636054,-2.6926166800671734,-0.07688198958342195],\\\"canonical_to_mouth_C2_log_scale\\\":3853.5457473823076,\\\"chart_checkpoint_before_requested_mouth\\\":null,\\\"finite_transfer_is_not_interval_certified\\\":true,\\\"mouth_a_s\\\":-0.9947640541420094,\\\"mouth_r\\\":0.29996228496918553,\\\"mouth_s\\\":0.82,\\\"mouth_u\\\":6.2499999999999885,\\\"mouth_z_s\\\":0.012730981051657436,\\\"normalized_jets_A_As_Ass_C_Cs_Css\\\":[0.000023816204052211028,-0.0021681928579521874,0.22329291475343802,0.014167223093208399,-0.16941666229700894,1.6269262807163685],\\\"requested_mouth_reached\\\":true}},{\\\"M\\\":169,\\\"tolerance_factor\\\":8,\\\"inner\\\":{\\\"M\\\":169,\\\"alpha160\\\":1006.8799923538346,\\\"exact_DtN_rho161_truncation_log_bound\\\":-65.63553341363897,\\\"numerical_ODE_error_not_in_that_bound\\\":true,\\\"rho161\\\":5.795423994220177e-19,\\\"terminal_peak\\\":170,\\\"y_alpha160\\\":1,\\\"z_alpha160\\\":0.2232703607873784},\\\"outer\\\":{\\\"actual_weight_jets_at_mouth\\\":[3.031309936636054,-2.6926166800671734,-0.07688198958342195],\\\"canonical_to_mouth_C2_log_scale\\\":3853.5457473919064,\\\"chart_checkpoint_before_requested_mouth\\\":null,\\\"finite_transfer_is_not_interval_certified\\\":true,\\\"mouth_a_s\\\":-0.9947640541420094,\\\"mouth_r\\\":0.29996228496918553,\\\"mouth_s\\\":0.82,\\\"mouth_u\\\":6.2499999999999885,\\\"mouth_z_s\\\":0.012730981051657436,\\\"normalized_jets_A_As_Ass_C_Cs_Css\\\":[0.000023816204052254735,-0.0021681928580196885,0.22329291475974147,0.014167223093608572,-0.1694166623022833,1.6269262807163687],\\\"requested_mouth_reached\\\":true}}],\\\"paid_cost\\\":{\\\"finished_child_wall_seconds\\\":114.013392,\\\"child_started_at\\\":\\\"2026-11-26T10:21:24.374222Z\\\",\\\"child_completed_at\\\":\\\"2026-11-26T10:23:18.387614Z\\\",\\\"child_wall_includes_imports_and_failure_serialization\\\":true,\\\"exact_final_scientific_counter_unavailable\\\":true,\\\"successful_transfer_counters\\\":[{\\\"M\\\":168,\\\"factor\\\":1,\\\"inner_cells\\\":9,\\\"inner_RHS\\\":48582,\\\"outer_segments\\\":160,\\\"outer_RHS\\\":600476},{\\\"M\\\":169,\\\"factor\\\":1,\\\"inner_cells\\\":10,\\\"inner_RHS\\\":54068,\\\"outer_segments\\\":160,\\\"outer_RHS\\\":600476},{\\\"M\\\":169,\\\"factor\\\":8,\\\"inner_cells\\\":10,\\\"inner_RHS\\\":70172,\\\"outer_segments\\\":160,\\\"outer_RHS\\\":773624}],\\\"old_circle_stage0_source_scientific_seconds\\\":2.981966937,\\\"old_circle_full_exploration_run_scientific_seconds\\\":2401.8924319029998,\\\"old_circle_unrelated_failed_p_trials_not_replayed\\\":true},\\\"no_inner_or_outer_seed_transfer_reexecution\\\":true,\\\"numerical_seed_observations_are_not_interval_certificates\\\":true}\",\"paid_seed_json_sha256\":\"517c1f85592434ed015f2eca6de235fc5750b42a035471df2d4e10c178eb33a7\",\"prior_cost_receipt\":\"topics/visible-flex-new-mechanism/notes/2026-11-27-r582-physical-paid-resume-original-terminal.md\",\"schema\":\"actual-a237-new-mean-circle-normal-curvature-geometry-v1\"}"
+    }
+  },
+  "scope": {
+    "new_actual_q_binary64_sha256": "a2377220dacda9eefe63f25a2000441f0169a0db5de9bc23840f90e5037a895e",
+    "source_run_id": 45887805731,
+    "source_job_id": 140142780497,
+    "new_actual_mean_circle_certified_before_material_reconstruction": true,
+    "old_f1_reference_or_norm_or_reach_values_not_transferred_to_new_q": true,
+    "material_seed_frozen_old_radius_reference_unchanged": true,
+    "same_material_mesh_knots_plus_endpoint_jets_sha256": "0d222bd12ce8a61d0c88264c6fb5c82066f0ca058855b5bf7a670a53b483a991",
+    "one_same_cell_radial_angular_jet_assembly_for_original_norms_and_R621_curvature": true,
+    "complete_all_angle_radial_core_cylinder_mirror_caps_and_infinite_tail_coverage_required": true,
+    "original_full_C2_difference_reported_without_driving_refinement": true,
+    "principal_curvature_18_budget_is_refinement_target_not_acceptance_or_value_clipping": true,
+    "actual_global_R621_K_used_in_R604_instead_of_global_C2_triangle_estimate": true,
+    "lambda_bound_one_plus_global_alpha_and_normal_projection_difference_global_alpha": true,
+    "verified_positive_artanh_series_near_pair_condition_then_original_far_pair_bound": true,
+    "new_C0_C1_reference_and_current_geometry_paid_for_actual_a237": true,
+    "R608_infinite_tail_hypothesis_checked_on_actual_new_controls": true,
+    "necessary_H_and_same_endpoint_field_reconstruction_charged": true,
+    "zero_old_optimizer_Jacobian_fine_scan_seed_fit_or_diagnostic_calls": true,
+    "all_prior_scientific_costs_preserved_in_source_receipts": true,
+    "all_output_stdout_no_arrays_leaf_tables_artifacts_or_cache": true,
+    "maximum_parallel_jobs": 1,
+    "fixed_g_metric_or_README_completion_claim": false
+  },
+  "source_sha256": {
+    ".github/workflows/visible-r582-current-rows-first-20261126.yml": "63e98c12f0c032cb6ca7cff1c0ffcd4052294d9dd3580a86e82eb9f23c092fc9",
+    ".github/workflows/visible-r582-local-tail-columns-20261126.yml": "ebf17e8fb249f6ceb64fa95d02e827f27f17c30f07dce9d5d9df6edcf4cf629c",
+    ".github/workflows/visible-r582-paid-local-tail-angular-20261126.yml": "717332c13ae04370ac50a1d9d6944c754b2279335d87b91f202e46a63e83f0b7",
+    ".github/workflows/visible-r582-physical-epigraph-20261127.yml": "88d2e48d4fb878988e4805ee63210fe92ad21789362f78fa4736e7eb39fe9136",
+    ".github/workflows/visible-r582-retained-continuous-20261127.yml": "d61407303ea848e1de1466c3c14fb40a152e14abff01f3e1f29ec2269603cf32",
+    "topics/visible-flex-new-mechanism/notes/2026-11-26-r582-finite-radius-only-original-receipt.md": "e8781d68fca91b48896369af506b1ddc3ba904f81cc3d7d4eb15937c73537a4f",
+    "topics/visible-flex-new-mechanism/scripts/inverse_flat_oscillatory_tail_20261126.py": "b9c778fbeafb0d9beb061b3f472b8db1661daec5a78a63eb886a8e4770574f9b",
+    "topics/visible-flex-new-mechanism/scripts/inverse_hard_exchange_20261126.py": "304989b5b127e3d761a243aed55ca437d86012f2cd6e3357c291e1159bf48271",
+    "topics/visible-flex-new-mechanism/scripts/inverse_hard_exchange_resume_20261126.py": "befd444bfb96efc6721d1b0bad20deb25b32e915c1f789ab4d285085c2afcce4",
+    "topics/visible-flex-new-mechanism/scripts/inverse_r566_block_jacobian_20261126.py": "c0ab647ed2c6c0647c9031995696d40bc2c6717b893f67cf7c6a345c5366ef6b",
+    "topics/visible-flex-new-mechanism/scripts/inverse_rotational_metric_20261126.py": "e25dff6a411e8edc485babe6545087cfbea2b6d16cd804e6dcb51f17d8fab319",
+    "topics/visible-flex-new-mechanism/scripts/r582_actual_circle_seed_and_return_20261126.py": "fd4bd864c3e9e96d741b7bc896a1bf6f9d50ba54eda0c02bd898f21bd42427a4",
+    "topics/visible-flex-new-mechanism/scripts/r582_continuous_mean_profile_20261126.py": "35060aa3e862c4852b30396493be37d1bd688281b4a093bd1e532d964e562631",
+    "topics/visible-flex-new-mechanism/scripts/r582_current_rows_first_continuation_20261126.py": "b9e99ad9b480af09e8dd95d8d1d9ab6d14435ab222f26aef5f3ebf5a95b181e2",
+    "topics/visible-flex-new-mechanism/scripts/r582_finite_resonant_continuation_20261126.py": "f7e4c570cc11f6810973d5357a5543ec9754416ab3a55302876cc70486246d7c",
+    "topics/visible-flex-new-mechanism/scripts/r582_finite_resonant_model_20261126.py": "584f02a67af1c0e87a68dac629d6e17b9b1bad93cef2c4c65b5a3b0c2253639f",
+    "topics/visible-flex-new-mechanism/scripts/r582_finite_resonant_radius_only_20261126.py": "445e3ac5098cbaaa08f080e1be5d8172e576f72a00b825b2cb000adad83725d2",
+    "topics/visible-flex-new-mechanism/scripts/r582_local_tail_columns_model_20261126.py": "13339343918d873cb5ae37b5f2be7e21044ecfc306974fad4948232e5d466260",
+    "topics/visible-flex-new-mechanism/scripts/r582_local_tail_continuation_20261126.py": "2ef492d9652a2f9caf6c48da8fa79ed8f99b6031dfb08cad50b747c779f189a5",
+    "topics/visible-flex-new-mechanism/scripts/r582_paid_local_tail_angular_continue_20261126.py": "dc74093cc226cd8cc5a034d92acfb020d3d38f726ce85cbf24ee9b14ba89f55c",
+    "topics/visible-flex-new-mechanism/scripts/r582_paid_resonant_field_20261126.py": "1b046b20541fcee05d5c8722dfdd5a509e7018348aab7182bec77c0813a8b395",
+    "topics/visible-flex-new-mechanism/scripts/r582_physical_epigraph_continuation_20261127.py": "c0c5c1c82808ea7b54ad68cc5bfee0a921726dc2bf8dfa2ac725600859133e02",
+    "topics/visible-flex-new-mechanism/scripts/r582_retained_continuous_reach_20261127.py": "ff97eb86b1d6ff3ae50931a2eb41576ab9816dc664fc7177df846de19b0d2701",
+    "topics/visible-flex-new-mechanism/scripts/r582_same_field_mean_intervals_20261127.py": "7600caff7b89019450af2f17d195a33a554500d77201cffdaa09dfeb61e2cd71",
+    "topics/visible-flex-new-mechanism/scripts/r582_same_field_radial_intervals_20261127.py": "ed167c5850ccb4e438f02a3c8d7aac051466103af2e559c0e3356001bf3ecb28",
+    "topics/visible-flex-new-mechanism/scripts/r582_stable_material_field_20261126.py": "070acb1c46a4df055e84722227916a2997f3b6bba9bfaa3cc8c0ba820b8f71e8",
+    "topics/visible-flex-new-mechanism/scripts/r582_true_core_shooting_20261126.py": "c7f445b98cc948fb7fc920c910aed25bd60e9b14af5971de62d3c9bc3301f534",
+    "topics/visible-flex-new-mechanism/scripts/r604_reference_reach_norms_20261126.py": "31fa9fb781fef9a2acefec2d8331a3b8a41f5faf099de221363f40131d8b6737",
+    "topics/visible-flex-new-mechanism/scripts/r604_rotating_frame_continuous_norms_20261127.py": "2fa3a89f2bc2bc0e739ae69f391b06f3b44cb3033d236df632205a3c357516e0",
+    "topics/visible-flex-new-mechanism/scripts/r611_circular_reference_global_geometry_20261127.py": "eb18fb8c5bc5d44ce16aa8cfe3708197e72167e0c6885deb128816e96a902c5f",
+    "topics/visible-flex-new-mechanism/scripts/run_inverse_state_stdin_20261126.py": "7fde98e3337eb537b18b18789b125fcac57e7382e8f22c755947e907c0ea7785",
+    "topics/visible-flex-new-mechanism/scripts/r582_a237_normal_curvature_reach_20261127.py": "577211e39b11d3102cee6154bd209ada0a41a6138bedb7c69a56a67ca6f911ae",
+    "topics/visible-flex-new-mechanism/scripts/r621_normal_projected_curvature_20261127.py": "fa40dd40424cf6e0bea8f40b9bbfc485b32e971f3b5869359e0e59213c276b4a",
+    ".github/workflows/visible-r582-a237-normal-curvature-20261127.yml": "f58e1d0481d1ac368acdf9caee3ac7c58b61c49db6f030a5425ae7c175ccbb8f"
+  }
+}
