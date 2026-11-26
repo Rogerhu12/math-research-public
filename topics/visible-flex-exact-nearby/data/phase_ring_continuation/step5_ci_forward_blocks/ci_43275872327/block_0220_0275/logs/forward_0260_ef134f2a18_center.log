@@ -1,8 +1,0 @@
-{"stage": "parameter_field_sampling", "segment": 260, "N": 1280, "K": 639, "Nt": 32, "m": 32}
-{"stage": "field_node", "segment": 260, "node": 0}
-{"stage": "field_node", "segment": 260, "node": 8}
-{"stage": "field_node", "segment": 260, "node": 16}
-{"stage": "parameter_density_sampling", "segment": 260, "N": 2048, "K": 1023, "Nt": 16, "m": 16}
-{"stage": "density_node", "segment": 260, "node": 0}
-{"stage": "density_node", "segment": 260, "node": 8}
-{"stage": "complete", "segment": 260, "first_parameter_zero_mode": "[-3.575244984896033588057487505136092889535501996231957177898012778513414361445e-6 +/- 1.56e-82]", "second_parameter_zero_mode": "[5.461138249152431490836015249132309012689027218141995559003862231486276274728e-8 +/- 1.54e-84]", "errors": ["[1.8717483999934765595648456935503582e-10 +/- 2.19e-45]", "[2.5657519288487373454727835700115891e-10 +/- 2.29e-45]"], "cpu": 19.946488635, "wall": 19.94951838099996}

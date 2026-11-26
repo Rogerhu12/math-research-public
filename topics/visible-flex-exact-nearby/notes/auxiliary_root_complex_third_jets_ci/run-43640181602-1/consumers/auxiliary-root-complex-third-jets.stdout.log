@@ -1,9 +1,0 @@
-{"complete": true, "proved": false, "failure": {"type": "RuntimeError", "message": "one or more actual auxiliary-domain gaps failed; all successful prefixes are retained"}, "attempted": 4, "successful": ["1/10000", "1/2000"], "native_sha256": "6276b4b8bd117b3092ce633b7164ff99968100f10b09cbaef8850d4c03f6b24f", "seconds": 3.8672883140000067}
-Traceback (most recent call last):
-  File "/__w/_temp/visible-exact-auxiliary-root-complex-third-jets-science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_auxiliary_root_complex_third_jets.py", line 364, in <module>
-    if __name__=="__main__":main()
-                            ^^^^^^
-  File "/__w/_temp/visible-exact-auxiliary-root-complex-third-jets-science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_auxiliary_root_complex_third_jets.py", line 352, in main
-    if not doc["proved"]:raise RuntimeError("one or more actual auxiliary-domain gaps failed; all successful prefixes are retained")
-                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-RuntimeError: one or more actual auxiliary-domain gaps failed; all successful prefixes are retained

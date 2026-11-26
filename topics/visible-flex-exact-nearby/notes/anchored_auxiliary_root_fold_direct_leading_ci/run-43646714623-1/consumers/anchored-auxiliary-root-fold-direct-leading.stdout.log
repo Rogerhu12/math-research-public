@@ -1,8 +1,0 @@
-{"complete": true, "proved": false, "failure": {"type": "RuntimeError", "message": "one or more proposed new anchored cases failed; every accepted prefix is retained"}, "cases": 2, "native_sha256": "a6f6225cd993718f48b9d35533b81134f966f350b1c9ce704e61e38b34855807", "seconds": 0.02604870799999759}
-Traceback (most recent call last):
-  File "/__w/_temp/visible-exact-anchored-auxiliary-root-fold-direct-leading-science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_anchored_auxiliary_root_fold_direct_leading.py", line 556, in <module>
-    if __name__=="__main__":main()
-                            ^^^^^^
-  File "/__w/_temp/visible-exact-anchored-auxiliary-root-fold-direct-leading-science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_anchored_auxiliary_root_fold_direct_leading.py", line 549, in main
-    raise RuntimeError("one or more proposed new anchored cases failed; every accepted prefix is retained")
-RuntimeError: one or more proposed new anchored cases failed; every accepted prefix is retained
