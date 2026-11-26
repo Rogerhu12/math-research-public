@@ -63,3 +63,7 @@ root全文并读R583与新有限常数补证，逐项核eta/导数、256权prefa
 ## 2026-11-26 — Astra-new-mechanism-0105020f-20261126 / B030固定算子通用恢复入口
 
 root全文读新恢复器/note/workflow及request全部参数/身份/scope，独立静态核15绑定、AST、原已付callback与新81q/全部actual和proposal坐标及58pending。143976字节输入SHA0f22f75b吻合，祖先两段未刷区间及未fold当前Jac/费用完整保；原commit只读Git对象核不冒实际pull。只变source_input/schema，原a879科学主体/全角/接受/容量均不改，下一公开执行新的优化。
+
+## 2026-11-26 — Astra-new-mechanism-0105020f-20261126 / R597真实核心非线性端值
+
+root全文逐项核At八项极限、齐次/forced/tanh原bulk的P0/P1、δα+2响应符号与正则x指数>5；补N_r及(V−W²)_r的实际极限和turning隐微分，直接付有限e′R并以角IBP核加权均值身份，不再先设其存在。新严格接口立即推，完整实际有限弱BVP实现继续。

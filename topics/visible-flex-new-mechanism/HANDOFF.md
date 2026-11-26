@@ -6,7 +6,7 @@
 
 ## 1. 规则与接手
 
-已部分克隆并实际 `git pull main`，公开根 README、课题 README、HANDOFF、open、results 索引及相关 log/notes 已读。公开已读提交 **8190f0bea9150b8ecc5bf92c597cfc2960aa89db**（2026-11-26 12:26 UTC；本次实际pull后根/题README空差异）；历次规则及失败原回执保原note；私有 QUEUE 的本题已改为本会话进行中并成功推送：**9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7**；最后实际pull及规则同blob读至 **8bf870d68803d582214e847a5977b4c54af888f9**（2026-11-26 12:12 UTC；实际pull成功，根README空差异、QUEUE仍本会话）。其它课题的并行认领保留。
+已部分克隆并实际 `git pull main`，公开根 README、课题 README、HANDOFF、open、results 索引及相关 log/notes 已读。公开已读提交 **2a93938e96e2b339f17f434a4912ff6f0308b619**（2026-11-26 12:29 UTC；本次实际pull后根/题README空差异）；历次规则及失败原回执保原note；私有 QUEUE 的本题已改为本会话进行中并成功推送：**9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7**；最后实际pull及规则同blob读至 **8bf870d68803d582214e847a5977b4c54af888f9**（2026-11-26 12:12 UTC；实际pull成功，根README空差异、QUEUE仍本会话）。其它课题的并行认领保留。
 
 [前历交接](notes/HANDOFF-before-new-actual-runs-20261126.md)保全部原规则/成本/范围；09:18及11:20 UTC两次本地失联期间仅API保存，不冒actualpull。09:33、11:28恢复后已实际双pull。每pull核根/题README差异并执行，至少每小时；root独占git/索引，每条结论即推，NFF立即rebase重推。科学仅公开Actions，本地限纸证/源码/原日志解析；已披露3次开发偏离保原note且停止。根12不加机械复跑，根15不留可重算raw。
 
@@ -37,7 +37,7 @@
 
 [R591](results/R591-forced-flat-harmonics-and-third-order-shooting.md)付二阶j4强迫/代数e2、真实无限强迫尾及核心返回、三阶j2/j6源；近核心正bump严格给射击导数非零。[R593](results/R593-exact-resonant-background-and-finite-nonresonance.md)给新准确静态族付j2/4/6/8分母、球<1/帽比>.22；不认证当前数值H点，有限阶仍非完整分支。
 
-[R594](results/R594-exact-nonlinear-radial-acceleration-and-galerkin-leakage.md)新付完整径向加速度、离解真二jets导数及a<0时有限角主矩阵可逆；保整个已付f0新增函数列，连续漏模可界真实metric。普通全角良定/两端匹配/核心剩余项/实际a符号仍欠；下一实际有限角BVP，不以投影零冒等距。
+[R594](results/R594-exact-nonlinear-radial-acceleration-and-galerkin-leakage.md)新付完整径向加速度、离解真二jets导数及a<0时有限角主矩阵可逆；保整个已付f0新增函数列，连续漏模可界真实metric。普通全角良定/两端匹配/核心剩余项/实际a符号仍欠；[R597](results/R597-nonlinear-core-trace-and-realizable-free-order.md)付准确核心e/e′/D端值与保持P0的δα+2自由响应。下一实际有限角BVP，不以投影零冒等距。
 
 ## 5. 两母库与紧凑真实路径
 

@@ -348,3 +348,5 @@
 - [R596 同一温和尾至j16的真实全平核](results/R596-same-mild-tail-flat-kernels-through-sixteen.md)：**已证明**同一真实W/相位盒、全部整数2≤j≤16的明确单谷界与准确DtN收缩；prefactor256/势54000a⁻⁴仍付<.014的Green小量和<1/64耦合，截断误差不含浮点ODE。新10/12/14/16须各付自身数值口，未授全频逆/非线性尾。
 
 - [B030完整付费状态通用续接](notes/2026-11-26-theta-paid-state-generic-resume.md)：新入口严格绑定真实run/job、原commit上实际wrapper/a879对象、完整callback/81q/所有539/1218及571/1276提议；1025/2048不变，保两段censored成本。仅替换已审输入恢复器，不重放旧outer/接口，下一从真实末态继续科学。
+
+- [R597 完整非线性核心余项与真实自由阶](results/R597-nonlinear-core-trace-and-realizable-free-order.md)：**已证明**P=Wfr及其真实两端值给准确eR/e′R与D_R，全角弱行中均值准确消去；齐次/已付forced/tanh/bulk逐项保。新δ^(α+2)自由项保持P0和正则核心二jets而独立控制P1，补旧δ^(2+2α)阶所缺的有限源响应；有限BVP仍须实际求。

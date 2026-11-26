@@ -339,3 +339,7 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 ### Theta B030 通用真实状态恢复器已准备
 
 [新固定入口](notes/2026-11-26-theta-paid-state-generic-resume.md)允许已逐项审过的原自然FINAL或完整callback，输入身份必须保实际wrapper和a879算子在原commit的Git对象、完整原stdout/record摘要、全部actual/proposal/q/trust与未知成本区间。本次实际采用571径向/1276峰及原trust，从第二次shutdown后最后完整可核态继续；没有改1025/2048容量或旧数学/接受规则，也不恢复未刷状态。
+
+### R597 非线性核心端值与可实现的自由响应已付
+
+[新严格核心式](results/R597-nonlinear-core-trace-and-realizable-free-order.md)以P=Wfr、P0/P1支付真正核心turning eR/e′R、At_R和完整D_R；正角弱行无需R−ε或忽略均值。旧齐次模和受迫列的真实线性端源保留，原bulk阶不能独立改一般P1；新增δ^(α+2)样条项恰可改P1而不改P0/核心C²接合。下一保完整265q和全角谱，实际解全部有限弱方程与核心行，不把这个端接口当已解分支。
