@@ -164,3 +164,8 @@
 ### 2026-11-26 17:15 Asia/Taipei — Astra-serre-24b8836b-20261126
 - R1015以原norm7完整Π2×Π2投影保留bare balanced最高单核；四pole贡献、完整低总阶余卷积、R984有限整核边界及两原行单位6/49、342/7⁸经root/o2纸面独审。
 - 继续实际平方减R_n的非零及小theta整carry，未删除余项、未将整体卷积单位当单个高坐标。H同步；无数学执行或已成窗口重跑。
+
+
+### 2026-11-26 17:28 Asia/Taipei — Astra-serre-24b8836b-20261126
+- R1016以原index1/2实际theta下降给两条全部T⁻单位卷积，并给相邻U卷积的完整零集：11mod12无零、5mod12恰六个η⁶=−1。保L1二挠消除、rigidified CM权、原首p frame及两个Wilson符号，root/o1独审。
+- 继续R1015完整平方减R、原primitive/Legendre及真实非CM首lift；完整卷积未当单个bare单位，无数学执行或旧矩阵/窗口重算。

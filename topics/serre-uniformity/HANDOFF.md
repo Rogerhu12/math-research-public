@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。本轮已部分克隆并真实pull main，读两README/H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则读至36cf1ed2。不重做已登记结论或窗口。
 
-**公开两README已读提交：560ddb8e2dbcfc4256fa962c35fc0d99dee86484**（2026-11-26 17:15 Asia/Taipei；本次同步两README无差异）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
+**公开两README已读提交：c73ff50265dc80d4d19a244b39f3fd87c7c0d83f**（2026-11-26 17:28 Asia/Taipei；本次同步两README无差异）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
 
 执行宿主本轮断连；08:36 UTC单次恢复探测仍无环境。按根规矩8用GitHub小文本原子tree/commit、最新head检查和非force expected-head更新；并发拒绝立即在新head重建循环至成功，保其它会话。终端恢复补pull --rebase。令牌仅此前CLI使用，未存文件/提交。根维护main/H/open/index/log；子研究交数学稿。每条结论完整审后立即推，无数学程序执行或旧窗重跑。
 
@@ -44,6 +44,8 @@ R995/997/1000完整mixed heat/bulk与边界已成，mask杀自身边界迭代；
 独立f_N与bare c_(p−r)未有直接单位桥。R706为5992 f_N单位、5991 g_N单位且唯一g零137147；不互换。
 
 ## O2：原高近p值
+
+[R1016](results/R1016-original-small-index-theta-and-complete-convolution-units.md)：原index1/2实际下降的一维源给σ与σ²的指定i+j=N卷积在全部T⁻处处单位；norm3恒等u_i=(−27)^i a_i准确返回R1015的U=x²σ⁶。下一层U_(N−1)的零集：p11mod12为空，p5mod12恰η⁶=−1的六点；原J33 frame和完整比值已核。只控制完整卷积，不给单u_N/u_(N−1)或R1015平方减R非零，不删原FG的primitive/Legendre。
 
 [R1015](results/R1015-original-class-two-Poincare-projection-and-balanced-triangular-bridge.md)：同一norm7双Poincaré源的Π2×Π2完整投影=C22 U⊗U，U=x²σ⁶、C22=−18s/ᾱ。完整有限卷积给C22 u_ℓ²=D_n c_n^-+R_n，n=6ℓ+3，D_n=6(α^n−ᾱ^n)/ᾱ；余项保全部pole且每单核总阶≤2n−7。两原行D/C分别6/49、342/7⁸，逐项首p整性已核。原高非零准确要求u_N²−R_(p−2)/C或u_(N−1)²−R_(p−8)/C非零，仍开；不得删完整R。
 
