@@ -52,5 +52,5 @@
 
 <!-- visible-larger-parallel-05:start -->
 并行公开Actions05：[run 45870334713/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45870334713)；[实际记录](notes/2026-11-26-public-actions-45870334713-1.md)。阶段`followup:complete-supported-unit-fixed-reference-normal-full-history-first-20261126-05`/running；已返18，exit=未返。
-并行05规则核查：2026-11-26 21:21:28 UTC，真实pull至`d1a26d025f2028877a7310a04a102e512dd5647f`，双README无变化。
+并行05规则核查：2026-11-26 22:11:32 UTC，真实pull至`c89808e7c563346f66f0181cc959da8662d0fedd`，双README无变化。
 <!-- visible-larger-parallel-05:end -->
