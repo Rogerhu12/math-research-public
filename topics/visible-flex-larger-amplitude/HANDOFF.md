@@ -4,7 +4,7 @@
 
 ## 规则与完整目标
 
-最近规则核查：2026-11-26 19:41:05 UTC，真实pull/rebase至 `5a37b96940f2d553fd6350415a2f2b48a8e40714`，双README相对`5effe3678596ec6c228f0533959827c7cb69b5bb`无差异，继续遵守全部规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
+最近规则核查：2026-11-26 19:41:53 UTC，真实pull/rebase至 `66134fdb9971d8e2e2df9bf6a39cd2388a59fc20`，双README相对`5a37b96940f2d553fd6350415a2f2b48a8e40714`无差异，继续遵守全部规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
 
 科学计算仅本公开仓库Actions；执行偏差见[早前记录](notes/2026-11-20-public-actions-execution-correction.md)及[四次大JSON整读纠正](notes/2026-11-26-large-file-connector-read-correction.md)。root唯一分支写者；结论即普通推，NFF立即rebase循环，不强推。每次pull核双README差异并遵新规，至少每小时，记commit。raw只scratch/runner，不入Git/Release/artifact；保完整小源/参数/run/SHA/紧凑结论。题≤200MB、单文件<5MB、MD<100KB、H<10KB、open<30KB。令牌仅瞬时CLI。17:55终端失联后曾用云API普通快进；19:17显式/tmp恢复并新部分克隆，现恢复终端git。旧迁移完成情况未知，不假称恢复旧scratch。
 
@@ -30,6 +30,8 @@
 ## 05本场实际返回
 
 [实际5 R696](notes/2026-11-26-run05-actual5-R696-complete-reconstruction-return.md)：完整返回75b285，centered Phi1156.1555→1156.1339、max .515122897、有限g负；1 metric/0rest、μ .01。接受由完整控制流与μ推得，非直接accepted字段；α/Pg未知。后继继续全报告地点并集，非只末memory。
+
+[实际6 integral首方向](notes/2026-11-26-run05-actual6-complete-integral-first-return.md)：真实父9bf940/末c8cb4b，centered Phi213.8913→197.5846/max .506365333，直接accepted1/0rest，有限g负且全永久点/双符号重读；α/Pg未读。当前norm c06a7abc与完整目标身份保原note，续算消费本场真实输出。
 
 ## 04及旧02边界
 

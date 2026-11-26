@@ -333,3 +333,8 @@ R708支持内单位meridian完整条件构造：已正式刊[完整42式证明](
 ### 2026-11-26 19:40:36 UTC — Astra-larger-e4e2a2bf-20261126
 
 登记[05实际5完整R696返回](notes/2026-11-26-run05-actual5-R696-complete-reconstruction-return.md)：真实源5a58/7b7c、原完整1334847变量与参数、report de556b/末75b285；centered Phi1156.1555250698154→1156.1339456379355，max .5151228968972323，有限g负，1metric/0rest/μ .01。完整summary只直接给actual_metric，接受由源码唯一方向未接受必μ×4和实际μ推论；α/Pg/QP终态未读。保存全部身份/预算/工作筛/费用，不复宣旧结论或继承连续证书。HANDOFF仅压旧索引，925360固定完整快照保全部前文；不删除科学结论。
+
+
+### 2026-11-26 19:41:53 UTC — Astra-larger-e4e2a2bf-20261126
+
+登记[05实际6完整integral首方向](notes/2026-11-26-run05-actual6-complete-integral-first-return.md)：606完整1333370变量/45324288正权行、四完整历史源、norm c06a7abc；实际7f3d9c报告/末c8cb4b、centered Phi213.89131075534186→197.584579939444/max .5063653325058848，直接接受1metric/0rest、μ .01、有限g负、全永久点/双符号重读。完整来源/argv/范数/原预算/工作筛/费用保note，α/Pg/QP实际终态未知，连续三证均false；后继读本场真实父与完整报告地址，不继承旧03b场或证书。
