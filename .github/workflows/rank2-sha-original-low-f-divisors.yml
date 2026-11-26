@@ -8,6 +8,9 @@ on:
       - 'topics/rank2-sha-infinitely-many-p/scripts/launch-original-low-f-divisors.py'
       - 'topics/rank2-sha-infinitely-many-p/scripts/produce-original-low-f-divisors.py'
       - 'topics/rank2-sha-infinitely-many-p/scripts/original_low_f_complete_divisors.py'
+      - 'topics/rank2-sha-infinitely-many-p/scripts/original_polynomial_row_reduction.py'
+      - 'topics/rank2-sha-infinitely-many-p/scripts/original_ys_scalar_colon_tools.py'
+      - 'topics/rank2-sha-infinitely-many-p/scripts/original_ys_integral_image_tools.py'
   workflow_dispatch:
 permissions:
   contents: read

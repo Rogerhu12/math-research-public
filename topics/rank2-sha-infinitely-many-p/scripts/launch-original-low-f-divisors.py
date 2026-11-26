@@ -25,6 +25,7 @@ HERE = Path(__file__).resolve().parent
 SOURCE_FILES = (
     "launch-original-low-f-divisors.py", "produce-original-low-f-divisors.py",
     "original_low_f_complete_divisors.py", "original_ys_integral_image_tools.py",
+    "original_polynomial_row_reduction.py", "original_ys_scalar_colon_tools.py",
     "original_ys_artinian_norm_tools.py", "original_ys_exact_reuse.py", "original_ys_fraction_bridge.py",
     "original_affine_fast_operations.py", "original_section_ring_embedding.py",
     "original_ys_divisor_ideal_tools.py", "original_ys_closed_point_tools.py",
@@ -55,8 +56,8 @@ def request_arguments(root):
     assert len(raw) <= 32768
     obj = json.loads(raw)
     assert set(obj) == {"schema", "prime", "first", "packet",
-                        "q_precision", "batch_size", "kernel_method"}
-    assert obj["schema"] == "rank2-original-low-f-divisors-request/v1"
+                        "q_precision", "batch_size", "kernel_method", "linear_algebra"}
+    assert obj["schema"] == "rank2-original-low-f-divisors-request/v2"
     assert type(obj["prime"]) is int and obj["prime"] == 29
     cli = ["--prime", str(obj["prime"])]
     keys = ("job", "run", "run_head", "source", "result_sha256")
@@ -76,10 +77,12 @@ def request_arguments(root):
     assert type(obj["q_precision"]) is int and obj["q_precision"] == 2453
     assert type(obj["batch_size"]) is int and obj["batch_size"] == 64
     assert obj["kernel_method"] == "minimal"
+    assert obj["linear_algebra"] == "r942-unimodular-split"
     extra = ["--q-precision", str(obj["q_precision"]),
              "--batch-size", str(obj["batch_size"]),
-             "--kernel-method", obj["kernel_method"]]
-    checked.update({key:obj[key] for key in ("q_precision", "batch_size", "kernel_method")})
+             "--kernel-method", obj["kernel_method"],
+             "--linear-algebra", obj["linear_algebra"]]
+    checked.update({key:obj[key] for key in ("q_precision", "batch_size", "kernel_method", "linear_algebra")})
     return cli, checked, hashlib.sha256(raw).hexdigest(), extra
 
 
@@ -94,7 +97,7 @@ def main():
     run, attempt = os.environ["GITHUB_RUN_ID"], os.environ["GITHUB_RUN_ATTEMPT"]
     assert run.isdecimal() and attempt.isdecimal()
     cli, request, request_hash, extra = request_arguments(root)
-    assert len(SOURCE_FILES) == len(set(SOURCE_FILES)) == 31
+    assert len(SOURCE_FILES) == len(set(SOURCE_FILES)) == 33
     files = [TOPIC/"scripts"/name for name in SOURCE_FILES]+[
         REQUEST, WORKFLOW, Path("README.md"), TOPIC/"README.md"]
     assert not git(root, "status", "--porcelain", "--", *map(str, files))
@@ -143,7 +146,10 @@ def main():
         assert reader.wait(timeout=600) == 0, "Both true original PASS receipts are required."
         remaining = 21000-(time.monotonic()-started)
         assert remaining > 0
-        assert sage.wait(timeout=remaining) == 0, "The offline original low-F divisor producer failed."
+        sage_returncode = sage.wait(timeout=remaining)
+        progress("original Sage process exited", source=source, run_id=run,
+                 returncode=sage_returncode, elapsed_seconds=time.monotonic()-started)
+        assert sage_returncode == 0, "The offline original low-F divisor producer failed (returncode %s)." % sage_returncode
         success = True
         progress("both original authentication and all original complete F zero and pole divisors succeeded",
                  source=source, run_id=run, elapsed_seconds=time.monotonic()-started)

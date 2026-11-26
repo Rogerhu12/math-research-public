@@ -195,3 +195,35 @@ $$
 新实现没有宣称其失败原因已经确定，也没有宣称必定更快或低于固定内存。
 本篇目前只付完整等价算法及接口，原完整 F 除子、四 $E$、shadow、ordinary 与无穷 $p$
 仍须分别完成；来源编号和数学对象均保持原样。
+
+
+## 7. 单个原 F 公开入口已接入
+
+同一个 `rank2-sha-original-low-f-divisors.yml` 入口现选择
+`linear_algebra=r942-unimodular-split`，request schema 更新为 v2；
+原 F/P 两份完整特征零回执、原 q2453、batch64、原 Sage 镜像及数学断网均未变。
+没有启动其余四条旧入口，也没有更改它们的数学源码。
+
+这一次链保原完整144 mixed核、全B理想、所有余行及双图来源。
+`OriginalOperationHermiteEngine` 只替换理想行模基算法；
+`OriginalFullSourceImageTools` 对每张图先读整个 IA=(a/b)IB，后读整个 I-=(qb/a)I+；
+`OriginalSplitScalarColonTools` 对原 q/q0 逐重因子读取完整 I+。
+两个完整乘积返回 I+ IC=IA、I- IC=qIB 及全零极互素均实检，
+原所有长度和完整 infinity boundary 门保持。
+
+host 与 producer 的同序33源清单已逐一检查存在、AST及交叉一致性；
+source manifest 同时记录旧整像/标量 helper 和本次具体实现。
+早期 R942 小例在原 maps 常数域中运行，先于昂贵正规化；
+它验证API和全源语义，不能代替原曲面门。
+host 现在记录真实 Sage/docker 子进程 returncode；旧F的终点仍不能因此追认具体失败原因。
+
+本节只有静态接入，尚无这次运行的数学或性能 PASS。实际 run/job/source 和回执另登记。
+
+| 本次源文件 | SHA-256 |
+|---|---|
+| `original_polynomial_row_reduction.py` | `465dfb359be5777a1ea2812438d06fcabe5f3d1ec1108e413e32314481a6f7b4` |
+| `original_low_f_complete_divisors.py` | `9e539eb0ed99a558924ae4608c006e045843e625e5233740a8140b91489ddabe` |
+| `produce-original-low-f-divisors.py` | `80539892d89b2e24734644f9fcaba4c66dfe5b042f6c5decc964373714c8c705` |
+| `launch-original-low-f-divisors.py` | `77e810cb5744bbe6975a31b55002ca4dd8f359afe9914d81b30f4b102a490248` |
+| `original-low-f-divisors-request.json` | `799480af924f7e055b957b04d9fe5f68ef8570ba5d4af5b4bb6684eab25df4c6` |
+| `rank2-sha-original-low-f-divisors.yml` | `1149109e1e25409273a003b9139cecdc7a4da81879131ba6c6411a5ba0e42518` |

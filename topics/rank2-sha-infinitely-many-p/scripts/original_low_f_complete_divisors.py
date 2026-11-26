@@ -18,10 +18,12 @@ from sage.all import PowerSeriesRing, identity_matrix, matrix, vector
 from original_shadow_coordinate_tools import certificate_weight, prime_residue
 from original_shadow_relative_six_tools import fixed_artin_constants
 from original_ys_artinian_norm_tools import OriginalArtinianNormTools
-from original_ys_integral_image_tools import (
-    OriginalIntegralImageTools, SOURCE_DEPENDENCIES as IMAGE_SOURCE_DEPENDENCIES)
+from original_polynomial_row_reduction import (
+    OriginalFullSourceImageTools, OriginalSplitScalarColonTools,
+    SOURCE_DEPENDENCIES as IMAGE_SOURCE_DEPENDENCIES)
 from original_ys_divisor_ideal_tools import (
-    canonical, digest, element_digest, field_description, finite_field_coordinates)
+    canonical, digest, element_digest, field_description, finite_field_coordinates,
+    polynomial_digest, _hermite_remainder_rows)
 
 SOURCE_DEPENDENCIES = tuple(dict.fromkeys((
     "original_low_f_complete_divisors.py",
@@ -297,7 +299,7 @@ class OriginalLowFCompleteDivisors:
         for flag in (False, True):
             tool, engine = self.tools[flag], self.tools[flag].engine
             a, b = self.selected[flag]
-            images[flag] = OriginalIntegralImageTools(tool, progress=self.progress)
+            images[flag] = OriginalFullSourceImageTools(tool, progress=self.progress)
             A[flag] = images[flag].integral_fraction_multiple(
                 B[flag], a, b, "%s entire mixed numerator chart=%s" % (label, flag))
             coprime, coprime_record = tool.ideal_sum(A[flag], B[flag], label+": actual A/B coprimality")
@@ -308,10 +310,33 @@ class OriginalLowFCompleteDivisors:
             scalar_ideal = engine.ideal_from_rows(q*engine.identity, label+": full scalar cusp section ideal")
             common_scalar, scalar_record = tool.ideal_sum(A[flag], scalar_ideal, label+": common ideal scalar return")
             assert common_scalar.basis == C[flag].basis
-            positive, positive_record = tool.effective_quotient(
-                A[flag], C[flag], "%s complete zero ideal chart=%s" % (label, flag))
-            negative, negative_record = tool.effective_quotient(
-                D[flag], C[flag], "%s complete pole ideal chart=%s" % (label, flag))
+            scalar_tools = OriginalSplitScalarColonTools(tool, progress=self.progress)
+            positive, positive_record = scalar_tools.effective_scalar_preimage(
+                A[flag], q, common_ideal=C[flag],
+                label="%s complete zero ideal chart=%s" % (label, flag))
+            # R927 section 12: the ENTIRE pole ideal is the inverse of the
+            # same original yF times the ENTIRE zero ideal. Every original
+            # source row must divide integrally; the full common product
+            # is returned against the actual q*IB on this exact chart.
+            negative = images[flag].integral_fraction_multiple(
+                positive, q*b, a, "%s complete pole ideal chart=%s" % (label, flag))
+            assert _hermite_remainder_rows(D[flag].basis, C[flag].basis).is_zero()
+            required_negative, residual_negative = D[flag].determinant.quo_rem(C[flag].determinant)
+            assert not residual_negative and negative.determinant == required_negative
+            negative_product = engine.ideal_product(
+                negative, C[flag], label+": whole inverse-image pole times common return")
+            assert negative_product.basis == D[flag].basis
+            assert negative.length+C[flag].length == D[flag].length
+            negative_record = dict(
+                operation="complete original inverse-function integral image",
+                original_function_and_both_chart_frames_preserved=True,
+                full_dividend_in_divisor_inclusion_verified=True,
+                complete_norm_equality_used_only_with_proved_containment=True,
+                full_quotient_times_divisor_hnf_equals_dividend=True,
+                entire_original_inverse_function_image=negative.receipt,
+                required_monic_determinant_sha256=polynomial_digest(required_negative),
+                complete_product_return=negative_product.receipt,
+                original_split_scalar_preimage_summary=scalar_tools.receipt_summary())
             disjoint, disjoint_record = tool.ideal_sum(positive, negative, label+": true zero/pole disjointness")
             assert disjoint.is_unit()
             charts[flag] = dict(positive=positive, negative=negative)

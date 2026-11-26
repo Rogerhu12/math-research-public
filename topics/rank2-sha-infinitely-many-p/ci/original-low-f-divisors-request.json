@@ -1,5 +1,5 @@
 {
-  "schema": "rank2-original-low-f-divisors-request/v1",
+  "schema": "rank2-original-low-f-divisors-request/v2",
   "prime": 29,
   "first": {
     "job": 133436977753,
@@ -17,5 +17,6 @@
   },
   "q_precision": 2453,
   "batch_size": 64,
-  "kernel_method": "minimal"
+  "kernel_method": "minimal",
+  "linear_algebra": "r942-unimodular-split"
 }

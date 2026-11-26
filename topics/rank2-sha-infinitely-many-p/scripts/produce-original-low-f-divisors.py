@@ -26,7 +26,8 @@ from original_shadow_receipt_tools import add_pinned_arguments, pinned_request, 
 from original_affine_fast_operations import build_original_affine_fast_operations
 from original_section_ring_embedding import build_original_section_ring_embedding
 from original_ys_fraction_bridge import OriginalFractionModel
-from original_ys_divisor_ideal_tools import OriginalAffineIdealEngine
+from original_polynomial_row_reduction import (
+    OriginalOperationHermiteEngine, operation_reduction_preflight)
 from original_ys_artinian_norm_tools import OriginalArtinianNormTools
 from original_low_f_complete_divisors import OriginalLowFCompleteDivisors
 
@@ -36,6 +37,7 @@ CURRENT_STAGE = "initialization"
 SOURCE_FILES = (
     "launch-original-low-f-divisors.py", "produce-original-low-f-divisors.py",
     "original_low_f_complete_divisors.py", "original_ys_integral_image_tools.py",
+    "original_polynomial_row_reduction.py", "original_ys_scalar_colon_tools.py",
     "original_ys_artinian_norm_tools.py", "original_ys_exact_reuse.py", "original_ys_fraction_bridge.py",
     "original_affine_fast_operations.py", "original_section_ring_embedding.py",
     "original_ys_divisor_ideal_tools.py", "original_ys_closed_point_tools.py",
@@ -99,7 +101,7 @@ def build_original_f_divisors(affine, maps, progress_callback=None,
     }
     tools_by_chart = {}
     for flag in (False, True):
-        engine = OriginalAffineIdealEngine(
+        engine = OriginalOperationHermiteEngine(
             model.operations["chart"](infinity=flag), progress=report,
             kernel_method=kernel_method)
         tools_by_chart[flag] = OriginalArtinianNormTools(
@@ -156,7 +158,7 @@ def build_original_f_divisors(affine, maps, progress_callback=None,
         assert record["every_remaining_original_denominator_returned"] is True
         assert record["same_source_subset_on_both_charts"] is True
         image = record["entire_image_return"]
-        assert image["completed_operations"] == 1
+        assert image["completed_operations"] == 2
         assert image["same_original_complete_nonreduced_ideals_only"] is True
         numerator = record["full_numerator_from_entire_integral_image"]
         assert numerator["entire_source_module_maps_integrally"] is True
@@ -227,9 +229,12 @@ def main():
     parser.add_argument("--q-precision", type=int, default=2453)
     parser.add_argument("--batch-size", type=int, default=64)
     parser.add_argument("--kernel-method", choices=("minimal",), default="minimal")
+    parser.add_argument("--linear-algebra", choices=("r942-unimodular-split",),
+                        default="r942-unimodular-split")
     args = parser.parse_args()
     assert args.prime == 29 and args.q_precision == 2453 and args.batch_size == 64
     assert args.kernel_method == "minimal"
+    assert args.linear_algebra == "r942-unimodular-split"
     request = pinned_request(args)
     incoming = sys.stdin.buffer.read(2*1024*1024+1)
     assert len(incoming) <= 2*1024*1024
@@ -242,6 +247,8 @@ def main():
     maps, map_receipt = map_module.build_original_map_section_fractions(
         args.prime, first, packet, q_precision=1429)
     emit("RANK2_MAP_SECTIONS", map_receipt)
+    r942_preflight = operation_reduction_preflight(maps["constants"], progress=progress)
+    emit("RANK2_R942_POLYNOMIAL_API", r942_preflight)
     normalization_module = load_source(
         "produce-original-y-affine-normalization.py", "low_f_original_normalization")
     affine, normalization_receipt = normalization_module.build_original_y_affine_normalization(
@@ -262,6 +269,8 @@ def main():
         "prime":args.prime, "level":3468,
         "q_precision":args.q_precision, "base_map_q_precision":1429,
         "batch_size":args.batch_size, "kernel_method":args.kernel_method,
+        "linear_algebra":args.linear_algebra,
+        "complete_polynomial_module_preflight_sha256":digest(r942_preflight),
         "same_original_map_sections_result_sha256":digest(map_receipt),
         "same_original_normalization_result_sha256":digest(normalization_receipt),
         "complete_fast_operations_initial_receipt":fast_receipt,
