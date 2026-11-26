@@ -5,7 +5,7 @@
 
 ## 1. 规则、授权与原始记录
 
-公开本次实际pull且根/题README已读至 **a0baf078d83c4defba4be05475b39f077e09f02b**；相对继承0749a4cc规则空差异。私库本次实际pull且根README已读至 **41fe885610073f478b2f5a752461ca56cfd43f09**；QUEUE认领推送 **09f8b8b54e7cfaabaa635bae5c438c7f1521289a**，状态本会话进行中。继承全文见[接手原件](notes/HANDOFF-inherited-20261127-1f4a61a4.md)。
+公开本次实际pull且根/题README已读至 **0048cfef4fe7d488ab369cccad8a9252943d5c9d**；相对继承0749a4cc规则空差异。私库本次实际pull且根README已读至 **41fe885610073f478b2f5a752461ca56cfd43f09**；QUEUE认领推送 **09f8b8b54e7cfaabaa635bae5c438c7f1521289a**，状态本会话进行中。继承全文见[接手原件](notes/HANDOFF-inherited-20261127-1f4a61a4.md)。
 
 [本次压缩前全文](notes/HANDOFF-before-continuous-angular-bounds-20261126.md)及其所链[继承交接](notes/HANDOFF-inherited-20261116-1809.md)保全部结论、条件、旧失败、输入与费用；不因摘要删账。每次实际pull后查根/题README差异并执行，至少每小时；API读取不冒pull。root独占git和共享索引，每条结论即推，NFF立即pull --rebase再推至成功。
 
@@ -35,7 +35,7 @@ R576付完整turning/位置，R594付真实At/M、离解Jac与漏模传播，R59
 
 [两次八模末态](notes/2026-11-26-r594-paid-weak-resume-natural-final.md)保452.79767207+464.449434512秒、496q/四已付13jets；iteration120近停滞，ε1e−5实际位置η≈3.026e−7，未过2e−9，不再延长同空间。
 
-[11模自然终态](notes/2026-11-26-r602-eleven-core-completed-natural-final.md)：run45845035304/job139996367531，新1426.507060097秒、60接受；coreD1.596e−19，但实际η3.05743e−7未过2e−9，m30/40漏峰1.73e−5/1.64e−5。真实682q JSON15027B/SHAa752de58、H.5188901259915873、global180/damping1e−14。原18/20/22新口及13jets现已付，不重inner；[同场全谱源](notes/2026-11-26-r606-paid-full-spectrum-implementation.md)现已正式发布，24个正频2…48等角权目标、同682q/原11口/完整core；旧方向核不重跑。固定512 canonical同一f/fr/frr和完整R602六jets/Jac保留，不能回到网依赖均值。
+[11模原终态](notes/2026-11-26-r602-eleven-core-completed-natural-final.md)的1426.507060097秒、682q和原11口均继承。[全谱真实终态](notes/2026-11-27-r606-full-spectrum-natural-stall.md)run45854123850新1068.193324629秒，41接受后原682q自然STALL；实际q JSON SHAe7b9eb77、H.5188956854994686、iteration221。全谱merit降至.00429405，但真实细网η恶化至5.59672e−7，未过2e−9；主要漏模回到m4/6/8。下一添加正文紧支撑径向响应，保所有口/同canonical512无限tanh/完整R602六jets和Jac；不再延长原空间。
 
 R596/R600只付同尾准确核至16/32及截断理论；实际口、归一和ODE误差逐次计费。全平内尾及旧R588的范围不能自动扩给新高模。所有旧强迫/插结/尺度失败完整保原索引和前史。
 
@@ -63,4 +63,4 @@ R577/R579/R595/R599给完整近弦/厚核心/子午/切圆接口，实际圆参�
 
 [R608](results/R608-actual-circular-reference-tail-curvature-and-flat-cap.md)已付同解析圆参考δ≤2/25的无限尾正z_s、a>rc、κm<1/3和完整平帽，含所有振荡周期。下一真区间覆[c,L−2ℓ/25]的半径/正图/曲率，连续参考ρ与非圆扰动损耗分开支付。
 
-97q run45856511629原终态已读：[收据](notes/2026-11-27-r582-current-rows-first-original-terminal.md)，新2422.614817932秒/50Jac/49未合格callback，实际q/η未变。续明确warm trial及辅助上界修复，仍保全门。全谱run45854123850终态接续中；真历史/参考几何并行。继续B030实际可行末态；子项完成即记原证据并接[open](open.md)。严格证明在[results](results.md)，数值和成本在notes。仅全部README门真正完成才收尾。
+97q run45856511629原终态已读：[收据](notes/2026-11-27-r582-current-rows-first-original-terminal.md)，新2422.614817932秒/50Jac/49未合格callback，实际q/η未变。续明确warm trial及辅助上界修复，仍保全门。全谱末态改径向响应、真历史/参考几何并行。继续B030实际可行末态；子项完成即记原证据并接[open](open.md)。严格证明在[results](results.md)，数值和成本在notes。仅全部README门真正完成才收尾。
