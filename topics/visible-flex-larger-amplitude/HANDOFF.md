@@ -4,7 +4,7 @@
 
 ## 规则与完整目标
 
-最近规则核查：2026-11-26，真实pull/rebase至 `9ae1291f5709cab9711c21a72808c540699b751a`，根及课题README相对f0548477无差异，已完整读授权及规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
+最近规则核查：2026-11-26，真实pull/rebase至 `ab1b07a34a167d116130ed0e0c054c98512eb792`，根及课题README相对f0548477无差异，已完整读授权及规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
 
 科学计算仅本公开仓库Actions；早前本地偏差及13:00 UTC纠正见[执行记录](notes/2026-11-20-public-actions-execution-correction.md)。根README已授权必要修改/发布；root唯一分支写者；代理只scratch及未引用小源blob。每条结论普通commit/push；NFF立即pull --rebase循环再推，不强推。至少每小时pull，每次核双README差异/立即遵新规并记commit。raw只scratch/runner，不入Git/Release/artifact；只保完整小源/参数/run/SHA/紧凑结论。题≤200MB，MD<100KB，H<10KB，open<30KB。令牌只瞬时CLI，不写文件/提交/回复。
 
@@ -50,7 +50,7 @@ R689同一冻结均值连续Gram/共同分割/双方全余项入口已刊，实�
 
 R690 [完整深谷新输入证明](results/R690-quasimonotone-tail-and-deep-valley-input.md)已刊：B=积分c/c可积的唯一性判据及明确非可积深谷；保原prefix/S、更新准确R/I，参考Hold曲率≤5/2。e091 [实际stage54](notes/2026-11-26-actual-deep-valley-complete-scalar-input.md)完整无限尾已返、无振荡丢弃；300秒/1318叶未达1e−18请求，但盒有效。新factory/固定gn全求解直接续接；无非圆存在或新几何声明。
 
-新deep profile383168由[六源/prepare](notes/2026-11-26-fixed-deep-scalar-complete-amplitude-solver.md)固定；[59–62](notes/2026-11-26-actual-fixed-deep-scalar-first-directions.md)保b788与其自身first。[真实67–69](notes/2026-11-26-actual-fixed-deep-scalar-multiround-SOC.md)329e同g两条256方向分别第5/7轮SOC满步接受返8a0509fd：max.01426433→.01289641、Phi.00032736→.00019751、μ.01→.0025，QP仍limit/Pg-tol约30299/27615；末轮投影feasible不冒minnorm收敛。自身全922 first D≤4.118949376/L≥.938925927/body held≥.227952772/embedding已付；marker/K/reach/全域metric未付。已排8a05同层p4/真实μ.0025再2×256、纯归因及ownfirst；原全部点保，不跨场继承。[原同profile精化](notes/2026-11-26-same-deep-scalar-complete-refinement.md)/[a616真实SOC父适配](notes/2026-11-26-exact-SOC-parent-attribution-for-deep-refinement.md)完整刊，保eta/R/原点与共同父测度；该最小fine仍ray、实际精化未返。
+新deep profile383168由[六源/prepare](notes/2026-11-26-fixed-deep-scalar-complete-amplitude-solver.md)固定；[59–62](notes/2026-11-26-actual-fixed-deep-scalar-first-directions.md)保b788与其自身first。[真实67–69](notes/2026-11-26-actual-fixed-deep-scalar-multiround-SOC.md)329e同g两条256方向分别第5/7轮SOC满步接受返8a0509fd：max.01426433→.01289641、Phi.00032736→.00019751、μ.01→.0025，QP仍limit/Pg-tol约30299/27615；末轮投影feasible不冒minnorm收敛。自身全922 first D≤4.118949376/L≥.938925927/body held≥.227952772/embedding已付；marker/K/reach/全域metric未付。已排8a05同层p4/真实μ.0025再2×256、纯归因及ownfirst；原全部点保，不跨场继承。[同profile精化](notes/2026-11-26-same-deep-scalar-complete-refinement.md)/a616父适配及[d146完整fine+SOC六源](notes/2026-11-26-same-fixed-deep-scalar-refinement-with-separated-SOC.md)已刊，保eta/R/原点/父测度及原SOC政策；ready已填真实8a05身份，尚未排fine，不冒精化收敛。
 
 R691[末端相容/Haar角矩](results/R691-frozen-physical-mean-endjet-and-material-Haar.md)完整已证，不推存在/no-go或新freeze门。[1d12/c5a](notes/2026-11-26-frozen-true-material-Haar-target-interface.md)保全core/RT交叉/严格尾/mean/J/J*，Q/p不定义g。[实际71](notes/2026-11-26-actual-complete-material-Haar-moments.md)7ebb的2049/2049角orbit完整返027c36，Q8192/p12；精度请求未达但盒有效。已刊[完整求解五源b70](notes/2026-11-26-complete-frozen-Haar-amplitude-actions.md)，排真实moments冻结→新μ.01/1×256→纯reader，保原全变量/H²/192+amp/永久点，初始Phi重读、无旧目标比较；当前仅ray。新target/final SHA未返，不冒同g精化/新几何。
 
