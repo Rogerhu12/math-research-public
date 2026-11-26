@@ -194,3 +194,6 @@
 
 
 - [R947](../results/R947-original-e89-normalization-and-integral-conductor.md)：原完整E89角检查先给gcd(H18,G25)=4，再由同环U+=U+S4实核互素；全部6052余权与无基点pencil付完整B+_m=Theta^m a^ceil(m/89)R[t]≤floor(29m/89)−4ceil(m/89)。实际1700/424映射及二次involution排除给全函数域；monicΨ1700的固定参数导数c+权28883整返全部B+，保p饱和/指数系数/全纯及jet成本。R821原V66也在B+33，故五真源同一规范化和Hilbert主项25/89；不赋乘积中央零。
+
+
+- [R948](../results/R948-original-five-block-full-source-filtration-and-double-curve-kernel.md)：同一五块完整K沿D_i嵌套过滤，真实深度(N,N,N,min(N,h+ell),max(ell,N−h))，各商准确注入原C线束且D5保留；给全有限h0界，不相加不同子块秩。四明确次数门下D2核零，全K注入2C上真正Cartier长N限制；Gorenstein曲线Clifford界自证。条件d≈4κ/h≈9κ/8/N≈9κ/4/χ=oκ时任意允许ell≥1给dimK≤13κ/8+oκ，另已付nD≈8κ才给同矩阵单位rank≥51κ/8；不付指定仿射forcing/深核。

@@ -6,7 +6,7 @@
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，继续研究；有限验证、条件性结论、接口或中间成果均不算完成。**
 
-- 公开仓库已部分克隆并实际pull --rebase；根/课题 README 已读至 `75cabf7d634e91e5c87f588390a358b3592b041f`，相对已读版本未见规则变更。每次同步核两README差异；实际pull至少每小时，恢复终端后补做。
+- 公开仓库已部分克隆并实际pull --rebase；根/课题 README 已读至 `a4c14cfa5a350097cd8bea59702cd13e3a36e5ae`，相对已读版本未见规则变更。每次同步核两README差异；实际pull至少每小时，恢复终端后补做。
 - 私有QUEUE接手状态已推 `f3125fbaa4bc13678b0c8519d85051762c579529`，私库README读至e776df4。
 - 本次两个克隆在/tmp/rank2-sha-7d29daa5d3b1。执行环境断开，当前用根规矩授权的小文本GitHub tree/commit及非强制CAS；每次对最新main核规则、遇竞争立即重取父提交重推。恢复后先核local stash/main，不覆盖已恢复推送的远端工作，再pull --rebase。令牌未入文件/配置/日志。
 - root唯一ref及共享H/log/index写者；子代理只交不可变blob。公开Actions才做数学执行；只存源/参数/run/hash/结论，不存可重算输出。H<10KB，MD<100KB，open尽量<30KB。不强推，不改他课题。
@@ -16,7 +16,7 @@
 [接手原H](notes/2026-11-26-handoff-inherited-7d29.md)保前轮至R938附A（2026-11-20 15:47 UTC）的全部条件与来源；[本次五轴核前完整H](notes/2026-11-26-handoff-before-fifth-kernel.md)保本轮细节；[open](open.md)是当前门，[整理前完整open](notes/2026-11-26-open-before-fifth-original-source.md)保未重述公式和旧归档链。证明见results及R901–950索引。
 
 - root：R939完整三长平方核、R944完整五块平方核；继续一般有限类/实际P-R-S后页及新输入整合。
-- theta_central：R941实际中央读者、R943完整E89第五桥已证；继续四长全W的真实根能量与非平方后页。
+- theta_central：R941/R943/R946/R948已证；续新B+的真实角模型/完整来源预算与非平方后页。
 - global_rank2：R940实际双新增广、R945完整残余Selmer指数已证；继续原c1、fine/ordinary、s0。
 - original_geometry：R942两种完整模算法及小API已证/通过；单F运行继续。六P复用原M2乘法矩阵的源码已备，未触发第二次正规化；R947归一化已付；续完整paired graph/仿射单位的同原厚模读者，不启第二306。
 
@@ -62,6 +62,6 @@ R902/903单射不相加；R907/911/914稳定链和全Qf反馈、R916/918/920 K�
 
 R936/R937低/高τ真左行−11/28只排指定陪集，全部J/相继除F/native零响应与τ=h/h+1精度保。R938全Z_m限制核/物理2m/away真实源像不等全长度；首p²修正可已迫beta3非零抵消，须继续后页。附A的同A2：R1=(Y−1)^4A2，deg≤2，两有限类/末例外厚节点同读；三列只付Wlow满像，非K1/K2。末normal补同A2(1)。
 
-R939旧三长：完整D2∩K1在严格dD−3κ<ell下等于D4，不能从jG+V2入核拆项。R944新五块四长：N=s−13，dD−2κ<N时完整D2核进入D4；真实四次restriction像维≤max(0,dD−4κ−ell+1)。若dD−4κ<ell则K5∩D2=D5；再dD<5κ则整个D2单射。只该完整子源，不加旧秩；F⁵新候选的nef预算可能不允许dD<5κ，一般有限类/非平方/强迫项/受限S和高carry继续。
+R939旧三长严格门给D2∩K1=D4；R944五块旧fringe给D2核入D4、严格四次restriction门给D5，dD<5κ才全平方单射。R948扩至完整W：同K五层深度(N,N,N,min(N,h+ell),max(ell,N−h))，dimK≤h0(B−5C)+ΣH_g(dD−iκ−ni)；四次数门使D2核零，全K注入2C真实Cartier长N限制。条件dD≈4κ/h≈9κ/8/N≈9κ/4/χ=oκ，任意允许ell≥1给dimK≤13κ/8+oκ；另已付nD≈8κ才给单位rank≥51κ/8。所有均同一过滤，不加旧秩；F5预算保D5，指定forcing/受限S/高页继续。
 
 O4/O6/O7、R364/R561/R654/R712等全部旧门仍开，详open与完整归档。主目标尚未完成。
