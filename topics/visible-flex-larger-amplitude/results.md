@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- **R705（已证明，范围以正文为准）**：[三份精确初根失败报告的空物理地址贡献](results/R705-initial-root-failure-empty-location-contribution.md) — 核精确4d9识别结构与三次首残差失败的全部保存闭包，证明28/34/36贡献为空；不由计数相同猜集合，不豁免未来报告。 原已刊完整论证的正式编号，无新科学复算。
+
 - **R704（已证明，范围以正文为准）**：[eta尾的线性唯一性范围与固定控制端点扰动界](results/R704-eta-tail-uniqueness-scope-and-fixed-control-bounds.md) — eta=0恢复原可积线性尾判据，任意固定eta>0保持非L1；给同固定控制的准确指数小端点差，不能推根不存在或新flex。 原已刊完整论证的正式编号，无新科学复算。
 
 - **R703（已证明，范围以正文为准）**：[法向端点提升、共同有限分段与全部隐式jet链](results/R703-normal-endpoint-lifting-and-fixed-partition-jets.md) — 完整法向提升及共同固定分段给准确闭合、交叉Jacobian与定量收缩；全上游角jet/J/J*链保留，辅助tau不是物理t。 原已刊完整论证的正式编号，无新科学复算。
