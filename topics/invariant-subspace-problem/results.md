@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R150 秩二H与秩二V至少一方为真正二jet时不产生本质五维临界点（2026-11-26，已证明）：** [原完整低梯度、限制Gram秩与局部根阶](results/R150-appendix-rank-two-second-and-third-cumulants-with-a-tangent-support-have-essential-dimension-at-most-four.md)覆盖H约化/V切向、H切向/V约化、双切向三种类型，全部值系数零点、原Gaussian例外及∞保真；反设ess5皆矛盾，故ess≤4。纯手证引用已付原接触表/无等向2+1，不重跑计算；双约化余支和ess4仍开放。
+
 - **R150 单位2+1+1相反配对的两个奇异mean图整个排除（2026-11-26，已证明）：** [原线性mean行列式−2D1D2的全部零纤维](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-opposite-base-pairings-singular-mean-charts-exclusion.md)保原M/S/c0；D1面QQ75/115结式只余l1，两原式均矛盾，D2面QQ54/89只余v²+1与两w纤维，原M非零。两原源2.553077/4.203470秒、exit0，所有新分母已付；余真正D1D2非零图。
 
 - **R271 大辅助方差下真实最高核的完整Galerkin逼近（2026-11-26，已证明）：** [真实低新孔核包含与原能量最小者](results/R271-appendix-large-auxiliary-variance-true-kernel-galerkin-approximation.md)给r≥2d+L时误差≤(16/15)32^(−L−1)，无需P_F0与孔权交换。显式奇r=3d+1、偶R=576(m+1)²d²、Q=R+r满足原高度/母支持窗，s=K/y下原无权残余≤e^(−2d)，真实F0和F_t压缩源强趋P_M。物理列加原i0ξ保持同V/K/u/partial；物理Sx及完整返回费用未由本条支付。

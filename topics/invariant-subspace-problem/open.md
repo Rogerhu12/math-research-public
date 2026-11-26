@@ -39,6 +39,8 @@ rank$H=4$ 的非单位局部块长度5、4、3已排；长度2单零的三种单
 
 [相反配对两线性mean的全部奇异图](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-opposite-base-pairings-singular-mean-charts-exclusion.md)现亦闭合：det=−2D1D2，D1面QQ75/115、D2面QQ54/89结式和所有原式末纤维已付；u=b−c非零，l0/½另由前稿独立排除。准确剩余为q−1、u≠0、l∉{0,½}、D1D2≠0；不把Cramer一般图当完整覆盖。两源实际2.553077/4.203470秒，无重跑已闭分支。
 
+[rankH=rankV=2至少一方为二jet的完整维数界](results/R150-appendix-rank-two-second-and-third-cumulants-with-a-tangent-support-have-essential-dimension-at-most-four.md)现已证明essT3≤4：三种配对保全原Γ、H/V梯度、Gaussian零Hp例外和射影局部阶数，五维反设与原Gram秩下界矛盾。双约化时尚有g≠0、Hp0、F²+g²0分支，不能援引二jet证明删除它；所有ess4和更高rankH仍继续。
+
 ### 1.2 原权十一及更高幂
 
 [权11–14严格门](results/R150-appendix-original-koszul-two-cycles-and-weight-eleven-through-fourteen-rank-ceilings.md)为

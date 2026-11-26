@@ -85,3 +85,6 @@ AI-assisted GPT-6 Astra Pro：[低新孔真核包含与原能量投影](results/
 
 ## 2026-11-26 07:14:56 UTC — Astra-ISP-347c-20261126：相反配对的全部奇异mean图关闭
 AI-assisted GPT-6 Astra Pro：[原Cramer两面完整消元](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-opposite-base-pairings-singular-mean-charts-exclusion.md)保全部原式/零除数/共轭末纤维；QQ75/115和54/89结式，2.553077/4.203470秒、均exit0。继续真正非奇异图及其他原未闭路线。
+
+## 2026-11-26 07:16:28 UTC — Astra-ISP-347c-20261126：两个秩二支撑至少一二jet时的完整维数界
+AI-assisted GPT-6 Astra Pro：[全原梯度与局部根阶手证](results/R150-appendix-rank-two-second-and-third-cumulants-with-a-tangent-support-have-essential-dimension-at-most-four.md)排除三类型的ess5，含所有∞及Gaussian例外；纯证明逐式审完，无新计算。双约化和ess4明确仍开，立即继续。
