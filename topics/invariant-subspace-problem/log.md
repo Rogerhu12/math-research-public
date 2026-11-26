@@ -196,3 +196,6 @@ AI-assisted GPT-6 Astra Pro：[原尺度与全部异常塔证明](results/R150-a
 
 ## 2026-11-26 10:47:07 UTC — Astra-ISP-347c-20261126：原九次系数代数、稀疏U图与有限H21结构继续
 AI-assisted GPT-6 Astra Pro：[新原输入](notes/2026-11-26-coefficient-fibers-checkpoint-347c.md)承接l2真实九次必要因子，整QQ商代数只逆已回乘的单位；U图改f低次稀疏系数，H21保12条必要式和全部N/最高系数。新增专属workflow及单job安装Singular是必要执行改动；模1031门不作特征零排空，未执行结果不登记完成。
+
+## 2026-11-26 10:49:15 UTC — Astra-ISP-347c-20261126：有限H21的完整等价有理重建
+AI-assisted GPT-6 Astra Pro：[原五次消失式与正反重建](results/R150-appendix-rank-three-double-plus-single-zero-hp-finite-source-rational-reconstruction.md)保全部Γ/N/最高项，消y与尺度平方根；对称四源的12原式和11/16全系数同推，Theta与Theta*的尺度明确区分。纯手证核完，原有限域结构门仍只供推进，继续九次QQ域真实排空。

@@ -227,3 +227,5 @@
 - **R271 原完整源的实际离散方差网格与二阶物理矩（2026-11-26，已证明）：** [原N/Y阶乘幂和含正误差的网格插值](results/R271-appendix-actual-variance-grid-factorial-powers-and-complete-source-hole-moments.md)给Σ_x μ_T(Sx)/x<∞；小比较头m=O(loglogx)支付实际偶x/r3及原最高零头母窗。每物理log窗同一准确Sx使√Sx‖N²k_T‖和整列远尾占据趋零，全部真实幂行/前缀共同控制。纯手证；真F0、准确核修正和完整MP/帽费用仍开放。
 
 - **R150 二重加单点H的Hp0层、V含无穷远源时ess≤5（2026-11-26，已证明）：** [原几何尺度和完整有限塔证明](results/R150-appendix-rank-three-double-plus-single-second-cumulant-zero-hp-infinite-V-source-essential-six-exclusion.md)付全部s−2降次；150/117次QQ结式的95/62余商以157阶836提升到九次域，D8/D2全48/12维塔的F1范数971/748均非零，32个QQ逆逐项回乘。run45802044010/job139847488013、f7c6c7b9、0.636825秒/77140KiB/exit0；接既闭w∞后仅续四源全有限。
+
+- **R150 H二重加单点、Hp0、有限孤立源的完整等价有理重建（2026-11-26，已证明）：** [原五次消失式和全部尺度反演](results/R150-appendix-rank-three-double-plus-single-zero-hp-finite-source-rational-reconstruction.md)消去全部y与平方根，四几何式、一个原范数和11/16全极线系数与原完整临界系统正反等价；保V∞降次及完整Γ。四源全有限再给12条低次对称原式，所有新单位由原尺度强制；纯手证，不把归约或有限域探针当空性。

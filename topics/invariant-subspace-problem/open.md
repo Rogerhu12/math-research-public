@@ -64,7 +64,7 @@ $$
 
 **[rankH3二重加单点的非零Hp整层已闭](results/R150-appendix-rank-three-double-plus-single-second-cumulant-nonzero-hp-essential-six-exclusion.md)：** 原重节点零/等配对全排并付J分母；原N差导出G1/G2时不除At/τ/γ。完整QQ93/126结式gcd56只余Q2/Q4，全部good σ纤维由原G1/Ht的QQ真逆排除。run45795365604/job139824523000实际0.011089秒/36048KiB/exit0；与已闭[退化Gram](results/R150-appendix-rank-three-double-plus-single-second-cumulant-degenerate-gram-essential-six-exclusion.md)、[非约化V/F0/e0](results/R150-appendix-rank-three-double-plus-single-second-cumulant-nonreduced-third-cumulant-essential-six-exclusion.md)合并，仅续bgF e非零、Hp0的约化V。
 
-**2+1型H、Hp0九次Gram的剩余ess6层：** [孤立H源w∞](results/R150-appendix-rank-three-double-plus-single-second-cumulant-zero-hp-infinity-essential-six-exclusion.md)和[任一V源∞](results/R150-appendix-rank-three-double-plus-single-second-cumulant-zero-hp-infinite-V-source-essential-six-exclusion.md)现均全闭。后者保J3全部降次，QQ150/117、157阶余商836及D8/D2完整48/12维塔范数971/748严格提升到九次域，32个QQ真逆付清；两实际源码均exit0。故只续二重H源、孤立H源和两个V源全有限的原系统，下一为完整有理重建及全部N/最高系数；三约化H和ess4/5仍开。
+**2+1型H、Hp0九次Gram的剩余ess6层：** [孤立H源w∞](results/R150-appendix-rank-three-double-plus-single-second-cumulant-zero-hp-infinity-essential-six-exclusion.md)和[任一V源∞](results/R150-appendix-rank-three-double-plus-single-second-cumulant-zero-hp-infinite-V-source-essential-six-exclusion.md)现均全闭。后者保J3全部降次，QQ150/117、157阶余商836及D8/D2完整48/12维塔范数971/748严格提升到九次域，32个QQ真逆付清；两实际源码均exit0。故只续二重H源、孤立H源和两个V源全有限的原系统，[完整等价有理重建](results/R150-appendix-rank-three-double-plus-single-zero-hp-finite-source-rational-reconstruction.md)已用P−S=ηD_H E_V消全部y与尺度平方根，正反两向均付；四有限源又有12低次原尺度/Hermite/范数式和11/16全部N/最高系数，继续真实QQ九次域原理想，模1031仅作结构探针；三约化H和ess4/5仍开。
 
 ## 2. R271：同一来源的完整物理费用
 
