@@ -770,6 +770,259 @@ $h^3=2$、$h$ 的单位性及 (1061.25) 的另一非零读数，
 均不能替代指定 $P$ 的非零读数。
 由§9，(1061.27)也等价于原 $S_n=0$，本节尚未排除它。
 
+
+## 13. 实际 Miller 函数的全参数 Lamé 恒等式
+
+本节仍在同一 $E:V^2=U^3+v^2$、$v^2=-108$ 上，
+使用原 $\omega=dU/(2V)$、$\mathscr D=d/\omega$。
+另一个点写为 $R=(u_R,v_R)$，避免与固定常数 $v$ 混同。定义
+$
+r_R(T)=\frac{V(T)+v_R}{U(T)-u_R}.
+$
+一般 $R$ 时，$r_R\omega$ 的唯一极为 $R,O$，
+留数分别为 $1,-1$；以下恒等式从一般点作有理延拓。
+准确 Cartier 式为
+$
+\begin{aligned}
+\mathscr C_{\rm rel}(r_R\omega)
+ &=\{r_{R^{(p)}}-\Psi(R)\}\omega',\\
+\mathscr C_{\rm abs}(r_R\omega)
+ &=\{r_R-\Psi(R)^{1/p}\}\omega.
+\end{aligned}
+\tag{1061.28}
+$
+第一式 $r_{R^{(p)}}=(V'+v_R^p)/(U'-u_R^p)$；
+第二式在固定几何点上作绝对 Cartier，两者不可混用。
+
+直接写
+$
+r_R\omega=\frac12\frac{dU}{U-u_R}
+       +v_R\frac{\omega}{U-u_R},\qquad
+\frac{\omega}{U-u_R}
+ =\frac{(U-u_R)^{p-1}(U^3+v^2)^m}
+        {2V^p(U-u_R)^p}\,dU.
+$
+后一个分子最高次数 $(5p-5)/2<3p-1$，
+所以相对 Cartier 只读 $U^{p-1},U^{2p-1}$。
+设二者系数为 $A_R,B_R$，则
+$
+\mathscr C_{\rm rel}\!\left(\frac{\omega}{U-u_R}\right)
+ =\frac{A_R+B_RU'}{U'-u_R^p}\,\omega'.
+$
+由 $(U-u_R)^{p-1}=\sum_{a=0}^{p-1}u_R^{p-1-a}U^a$，
+第二系数准确为
+$
+B_R=\sum_{i=0}^N\binom m{2k+i}(v^2)^{N-i}u_R^{3i+1}
+   =-u_RS(u_R^3).
+$
+最高系数为 $1=-a_N$；相邻系数比为
+$
+\frac{k-i}{(2k+i)v^2}
+ =\frac{6i-1}{108(6i+2)},
+$
+与 (1061.7) 的 $a_i/a_{i-1}$ 相同，全部分母为单位。
+两个真实留数固定相对 Cartier 在 $R^{(p)},O$ 的主部，
+故与 $r_{R^{(p)}}\omega'$ 的差是正则常数倍。
+上式的 $U'$ 系数把常数准确定为
+$v_RB_R=-\Psi(R)$，证明第一式；取底域常数的 $p$ 次根给第二式。
+这里仅作有限第一矩形计算，没有在整个解析 sigma 展开中删去 $p$ 分母。
+
+对一般 $P\ne O$，取本篇 $O$ 首项为 $z_O^{p-1}$ 的原 Miller 函数
+$g_P$，其 divisor 为 $([p]P)-p(P)+(p-1)(O)$。则
+$
+\boxed{\quad
+\mathscr D\log g_P(T)=r_{[p]P}(T)+\Psi(P)^p.
+\quad}
+\tag{1061.29}
+$
+证明先在固定几何点 $P$ 用绝对 Cartier：
+$d\log g_P-r_{[p]P}\omega$ 无极，故为常数 $c(P)\omega$。
+对数微分被绝对 Cartier 固定，而 $\mathscr C_{\rm abs}(\omega)=0$；
+(1061.28) 迫 $c(P)=-\Psi([p]P)^{1/p}$。
+原 $[p]P=-P^{(p^2)}$、$\Psi$ 的奇性及 $\mathbf F_p$ 系数，
+给 $c(P)=\Psi(P)^p$。
+它在所有一般几何点成立，故是实际有理函数族的恒等式；
+没有把绝对 Cartier 对变动底参数误当线性。
+
+定义固定全部常数的多项式
+$
+\mathcal R(U)=\sum_{j=0}^N\frac{a_j}{2(3j+2)}U^{3j+2}.
+$
+全部 $3j+2\le m<p$，并有
+$
+\mathcal R'(U)=\tfrac12 US(U^3),\qquad
+\mathscr D\mathcal R=\Psi,\qquad
+\boxed{\Psi^2=U^p+2\delta\mathcal R(U).}
+\tag{1061.30}
+$
+最后一式：$\partial_U(\Psi^2)=\delta US(U^3)$，
+且 $\Psi^2$ 最高项为 $U^p$。
+减去 $U^p+2\delta\mathcal R$ 后，次数小于 $p$、导数为零；
+在 $U=0$ 值为零，故恒零。
+$\mathcal R$ 最高系数为 $-1/(2m)=1$，所以首项为 $U^m$。
+
+曲线方程直接给 $\mathscr D r_R+r_R^2=2U+u_R$。
+置
+$
+c(P)=\Psi(P)^p,\qquad t(P)=\delta\mathcal R(P)^p.
+$
+由 (1061.29)、$U([p]P)=U(P)^{p^2}$ 及 (1061.30)，
+同一实际 Miller 函数满足
+$
+\boxed{\quad
+(\mathscr D^2-2c(P)\mathscr D)g_P
+ =2\{U-t(P)\}g_P.
+\quad}
+\tag{1061.31}
+$
+这是原 Miller divisor 和 Cartier 推出的 Lamé 恒等式，
+参数、常数和函数均已指定。
+
+## 14. 原目标的 Lamé moments 与完整半截边界
+
+在上述 $O$ 首项归一的有理函数帧中，定义
+$
+M_j(P)\omega'=\mathscr C_{\rm rel}(U^jg_P\omega),\qquad
+N_j(P)\omega'=\mathscr C_{\rm rel}(U^jVg_P\omega).
+\tag{1061.32}
+$
+$0\le j\le m$ 的 $M_j$ 及 $0\le j\le m-2$ 的 $N_j$ 确为标量：
+输入在 $O$ 正则，只可能在 $P$ 有至多 $p$ 阶极；
+唯一极的留数为零，Cartier 后无极。
+更高 moments 或所有 $g_P\Psi$ moments 不自动有此性质。
+
+$g_P=z_O^{p-1}(1+\cdots)$、
+$\omega=(1+\cdots)dz_O$ 的首项给 $M_0=1$。
+对 (1061.31) 取 Cartier，又给真实旁读数 $M_1=t(P)$；
+它始终与目标 $M_m$ 区别。
+
+Cartier 消去 exact differential，分部积分允许把
+(1061.31) 的形式伴随
+$\mathscr D^2+2c\mathscr D-2U+2t$
+分别作用于 $U^j,U^jV$。由
+$
+\mathscr D^2(U^j)
+ =2j(2j+1)U^{j+1}+4j(j-1)v^2U^{j-2},
+$
+$
+\mathscr D(U^jV)=(2j+3)U^{j+2}+2jv^2U^{j-1},
+$
+得到
+$
+\begin{aligned}
+&(2j-1)(j+1)M_{j+1}+2cjN_{j-1}
+ +2j(j-1)v^2M_{j-2}+tM_j=0,\\
+&(2j+5)(j+1)N_{j+1}+c(2j+3)M_{j+2}
+ +2cjv^2M_{j-1}+2j(j-1)v^2N_{j-2}+tN_j=0.
+\end{aligned}
+\tag{1061.33}
+$
+第一行取 $0\le j\le m-1$，第二行取 $0\le j\le m-3$；
+带零整数系数的负指标项省略。
+每个参与的 moment 都在已证明的正则范围内。
+
+在原 $Q=(0,v)$，$c=t=0$，并有
+$
+M_0(Q)=1,\quad M_1(Q)=M_2(Q)=0,\quad
+N_0(Q)=v/3,\quad N_1(Q)=N_2(Q)=0.
+$
+$N_0$ 的常数来自真实展开
+$
+\begin{aligned}
+g_Q&=z_O^{p-1}\{1-(v/3)z_O^3+O(z_O^6)\},\\
+V&=-z_O^{-3}(1+O(z_O^6)),\qquad
+\omega=(1+O(z_O^6))dz_O.
+\end{aligned}
+$
+所以 $Vg_Q\omega$ 的 $z_O^{p-1}dz_O$ 系数准确为 $v/3$。
+其余四个零值由 (1061.33) 的首两步得到。
+
+令 $P=Q+A$、$a=z_O(A)$ 为本篇同一平移参数。
+由 $\mathscr D\Psi=\delta$、$\Psi(Q)=0$、
+$\mathscr D\mathcal R=\Psi$、$\mathcal R(Q)=0$，
+$
+c(P)=\delta a^p+O(a^{2p}),\qquad t(P)=O(a^{2p}).
+$
+对 $0\le i\le N$，定义
+$
+B_i=N_{3i}(Q),\qquad
+A_i=\delta^{-1}[a^p]M_{3i+2}(Q+A).
+$
+这是沿实际 $a^p$ 方向的导数，没有把 $c,t$ 当作独立自由变形。
+$M_{3i+2}(Q)=0$ 由三步递推得到；
+Miller 首变分保证低于 $a^p$ 的变分均为零。
+原目标 $M_m$ 的首 $a^p$ 系数就是 $e$：
+其 slope 的 $p$ 次幂修正乘
+$\mathscr C_{\rm rel}(U^mg_Q\omega)=0$ 而准确消失。因此
+$
+\boxed{e=\delta A_N.}
+\tag{1061.34}
+$
+
+由 (1061.33) 读基点与一阶项，得
+$
+B_0=v/3,\qquad A_0=-v/3,
+$
+$
+\begin{aligned}
+3i(6i+3)B_i+2(3i-1)(3i-2)v^2B_{i-1}&=0,\\
+(6i+1)(3i+2)A_i+2(3i+1)B_i
+ +6i(3i+1)v^2A_{i-1}&=0\quad(1\le i\le N).
+\end{aligned}
+\tag{1061.35}
+$
+所有需要除的整数非零模 $p$：
+最大线性因子分别为 $6N+3=p-2$、
+$6N+1=p-4$、$3N+2=m$。
+第一行有准确积式
+$
+B_i=\frac v3(-v^2)^i
+ \frac{(1/3)_i(2/3)_i}{(1)_i(3/2)_i}.
+$
+这给每个 $B_i$ 的单位性，不直接给非齐次第二行的 $A_i$ 单位。
+
+置
+$
+H_i=(-v^2)^i\frac{(1)_i(4/3)_i}{(5/3)_i(7/6)_i}.
+$
+它满足第二行的齐次比例
+$H_i/H_{i-1}=-6i(3i+1)v^2/((6i+1)(3i+2))$。
+逐步除以 $H_i$ 并保留 $A_0=-v/3$，得到
+$
+\boxed{\quad
+A_i=-\frac v3H_i
+ \sum_{r=0}^i\frac{(2/3)_r^2(1/6)_r}{(r!)^2(3/2)_r}.
+\quad}
+\tag{1061.36}
+$
+简化准确使用
+$
+\frac{2(3r+1)}{(3r+2)(6r+1)}\frac{B_r}{H_r}
+ =\frac v3\frac{(2/3)_r^2(1/6)_r}{(r!)^2(3/2)_r}.
+$
+对 $i\le N$，所有 Pochhammer 分母的整数因子仍小于 $p$，
+$H_i$ 为单位。故 $e\ne0$ 等价于 $i=N$ 的指定半截和非零。
+
+完整 Dixon 和不能替代这个半截。令 $n=2k-1=2N+1$，
+在 $0\le r\le n$ 上有
+$
+\frac{(2/3)_r^2(1/6)_r}{(r!)^2(3/2)_r}
+ \equiv
+\frac{(-n)_r^2(k)_r}{(r!)^2(1-n-k)_r}\pmod p.
+$
+右侧为有理数域中良定的奇终止 Dixon 型项；
+所有相关分母在该范围也非零模 $p$。
+第 $n-r$ 项恰为第 $r$ 项的负数：
+由 $(1-n-k)_n=(-1)^n(k)_n$ 及
+$\binom n{n-r}=\binom nr$ 逐项即得。
+从零到 $n$ 的完整和因而为零。
+原目标只到 $N=k-1$，保留其中一半；
+不能用完整 Gamma 求和给原半和单位。
+
+全参数 Lamé、实际 moments 和半截身份均来自同一原 Miller/Cartier。
+它们没有排除 (1061.27) 的多项式解，也未证明原 $S_n$ 非零；
+$M_1$、$B_i$ 或整段 Dixon 和不能代替目标 $M_m$ 的首变分。
+
 ## 来源与本次核对
 
 - [R1059](R1059-original-fN-actual-X108-Raynaud-pairing-and-inverse-central-sum.md)：原 $X_0(108)$ 函数、good 模型、固定微分尺度和 $S_n$ 配对。
@@ -783,3 +1036,5 @@ o1_theta给实际覆盖、三挠线和配对下降；o2_high_coefficient独立�
 补充§9：o1_theta给实际双覆盖/dual Cartier/Poincaré frame的非零桥，root独核相对Cartier的base线性、FQ参数、两个生成元、B_E单位因子及切向因子2，明确纠正relative/absolute标量约定。§10由root给原η的直接primitive与K=−sS，o2独核分部积分的K₂，所有不同权保留。全文无数学执行。
 
 补充§§11–12：o1_theta给实际三平移、有界第一原函数和h的阶乘证明；root独核原参数、完整相对Cartier和分部积分，提出并证明实际空间上的单位Cartier读数与核维数，o1逐式独核。由此支付二次有界primitive的必要充分性；没有从极阶小于p直接假设原函数也有界。无数学程序执行。
+
+补充§§13–14：o1_theta推原全参数Miller对数导数和Lamé源；root实读本篇原S递推并独核第一矩形Cartier、两处留数及Ψ²恒等式。root推完整M/N伴随递推、原Q处A/B变分和e=δA_N，o1独核全部pole范围、初值及半截身份。双方独立确认完整奇Dixon和的反对称性不支付半和单位。无数学程序执行。

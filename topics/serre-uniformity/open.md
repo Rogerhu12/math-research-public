@@ -41,7 +41,7 @@ R1只把全部异常缩为p>37的完整N_ns；**p≡2,5 mod9只是另加小惯�
 
 ## O1：全p同一真实本原标签的临界非零
 
-[R1061](results/R1061-actual-genus-two-etale-cover-and-original-three-torsion-Petri-point.md)：原X108九次étale商及原三挠线给 $e\ne0\Longleftrightarrow S_n\ne0$ 的完整Petri/Cartier桥，保相对参数与切向2。§§11–12给原有界primitive，准确 $h=2^{1-2k}$、$h^3=2$ 及 $\bar t_{\rm CM}=h^2$；实际Cartier核维数证明 $e=0$ 等价于指定二阶多项式方程存在 $\deg R\le N-1$ 解。该解仍未排除；端点差、h与另一Cartier读数单位均不代原值。
+[R1061](results/R1061-actual-genus-two-etale-cover-and-original-three-torsion-Petri-point.md)：原X108三挠线给真实 $e\ne0\Longleftrightarrow S_n\ne0$。原有界primitive满足 $h^3=2$；Cartier核给 $e=0$ 的指定二阶多项式解等价。§§13–14从同一Miller divisor推全参数Lamé、完整M/N矩和 $e=\delta A_N$，准确读一段Dixon型半和；全部旁单位及完整奇终止和均不代目标非零。
 
 [R1060](results/R1060-actual-X108-nonCM-Cartier-and-nine-torsion-ordinary-input.md)：原X108非CM四Cartier矩阵精确由B_n=P_n(3)=−a_p(E54)控制。明确九挠点/实际三次同源给原p2/5mod9时B_n≠0、非CM ordinary且核恰六CM。A_p=−S_n/3，但尚未证S_n=0⇒B_n=0，不能代原f_N单位。
 
