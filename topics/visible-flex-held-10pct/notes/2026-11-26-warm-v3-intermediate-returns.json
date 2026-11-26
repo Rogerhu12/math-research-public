@@ -1,0 +1,157 @@
+{
+  "scope": "natural original v3 BVP returns; parent continuation still running",
+  "maintainer": "Astra-held10-06bbeb39-20261126",
+  "observed_utc": "2026-11-26T11:57:21Z",
+  "source": {
+    "actions_run": 45775899674,
+    "job": 139759357062,
+    "command_id": "held10-warm-v3-complement-20261126-01",
+    "launch_commit": "f3d506e10bc30c7bb31730eb9d55b4c68c7a9cb7",
+    "script": "topics/visible-flex-held-10pct/scripts/resume_20261126/warm_fixed_m3_continue_v3.py",
+    "script_sha256": "f60f3e47b8ee2daf3c4b6e1eb086ea5498496f0ccf6699921e492e745192ddcb",
+    "result_blob_sha": "fc31f65613030c6e09e91e310fc79863ee346f22"
+  },
+  "anchor_note": "2026-11-26-warm-v3-anchor-actual.json",
+  "first_attempt_note": "2026-11-26-warm-v3-first-lambda-failure.json",
+  "rows": [
+    {
+      "name": "attempt-001",
+      "lambda": 0.003,
+      "modes": 24,
+      "accepted": false,
+      "solver_success": false,
+      "returncode": 2,
+      "raw": {
+        "file": "inner-00.npz",
+        "nodes": 3144,
+        "rms": 0.0625026081542265,
+        "sha256": "825d2383ea924a71291a6ff24152a84f183717364c846c64b9280ccd2d745a5e",
+        "status": 1,
+        "success": false
+      },
+      "scaled_bc_max": 1.7381929229287607e-13,
+      "physical_bc_max": 3.7197673377788306e-16,
+      "domain_newton_stats": {
+        "accepted_steps": 0,
+        "calls": 3,
+        "minimum_alpha": 1,
+        "no_step": 3,
+        "rejected_domain_trials": 15,
+        "rejected_merit_trials": 48
+      },
+      "auxiliary_domain_guard": {
+        "no_geometry_or_metric_guard_removed": true,
+        "original_open_domain": [
+          1e-7,
+          0.124
+        ],
+        "padded_log_precheck": [
+          -14.304684934198283,
+          1.7259370033829362
+        ],
+        "rejected_before_exp": 0,
+        "valid_function_and_jacobian_changed": false
+      },
+      "run": "/home/runner/work/_temp/held10-warm/warm-v3-design/attempt-001/run.json",
+      "run_sha256": "9047822db8e595ecbad8569bed393ede959056676f3503eeb7655be6b7fc9489",
+      "next_action": "bisect_lambda_from_last_accepted_field",
+      "next_lambda": 0.0025
+    },
+    {
+      "name": "attempt-002",
+      "lambda": 0.0025,
+      "modes": 24,
+      "accepted": false,
+      "solver_success": false,
+      "returncode": 2,
+      "raw": {
+        "file": "inner-00.npz",
+        "nodes": 3123,
+        "rms": 0.031296316760360876,
+        "sha256": "1f1e11f05fd40b24c652e3e3fb70ff13bd403ccfb0c02ac0fd06d27951ae80a4",
+        "status": 1,
+        "success": false
+      },
+      "scaled_bc_max": 1.7430501486614958e-13,
+      "physical_bc_max": 3.7204209084009323e-16,
+      "domain_newton_stats": {
+        "accepted_steps": 2,
+        "calls": 3,
+        "minimum_alpha": 9.5367431640625e-7,
+        "no_step": 3,
+        "rejected_domain_trials": 21,
+        "rejected_merit_trials": 82
+      },
+      "auxiliary_domain_guard": {
+        "no_geometry_or_metric_guard_removed": true,
+        "original_open_domain": [
+          1e-7,
+          0.124
+        ],
+        "padded_log_precheck": [
+          -14.304684934198283,
+          1.7259370033829362
+        ],
+        "rejected_before_exp": 0,
+        "valid_function_and_jacobian_changed": false
+      },
+      "run": "/home/runner/work/_temp/held10-warm/warm-v3-design/attempt-002/run.json",
+      "run_sha256": "467168c8d922bb6798cc78f3b6b1f94c499987dfd23431342e8db0b9bca046b0",
+      "next_action": "bisect_lambda_from_last_accepted_field",
+      "next_lambda": 0.0022500000000000003
+    },
+    {
+      "name": "attempt-003",
+      "lambda": 0.0022500000000000003,
+      "modes": 24,
+      "accepted": false,
+      "solver_success": false,
+      "returncode": 2,
+      "raw": {
+        "file": "inner-00.npz",
+        "nodes": 3107,
+        "rms": 0.01565946613280304,
+        "sha256": "c8b524d265184e2ecb2b602d6497f8db186f41183e032a0a2b071d4e7ab7199a",
+        "status": 1,
+        "success": false
+      },
+      "scaled_bc_max": 1.7401358132218547e-13,
+      "physical_bc_max": 3.719583616332571e-16,
+      "domain_newton_stats": {
+        "accepted_steps": 1,
+        "calls": 3,
+        "minimum_alpha": 9.5367431640625e-7,
+        "no_step": 3,
+        "rejected_domain_trials": 11,
+        "rejected_merit_trials": 72
+      },
+      "auxiliary_domain_guard": {
+        "no_geometry_or_metric_guard_removed": true,
+        "original_open_domain": [
+          1e-7,
+          0.124
+        ],
+        "padded_log_precheck": [
+          -14.304684934198283,
+          1.7259370033829362
+        ],
+        "rejected_before_exp": 0,
+        "valid_function_and_jacobian_changed": false
+      },
+      "run": "/home/runner/work/_temp/held10-warm/warm-v3-design/attempt-003/run.json",
+      "run_sha256": "8cf86bd288074d27670cbaab3c101ca280001cca0de215d8a844bef6940419e6",
+      "next_action": "bisect_lambda_from_last_accepted_field",
+      "next_lambda": 0.002125
+    }
+  ],
+  "actual_last_accepted_lambda": 0.002,
+  "next_running_target": 0.002125,
+  "failed_states_promoted": false,
+  "parent_terminal_status_known": false,
+  "interpretation": [
+    "All three returned status 1 and failed the original RMS 1e-6 gate despite small boundary residuals.",
+    "The reported minimum_alpha=1 with accepted_steps=0 is the untouched statistic, not an accepted full step.",
+    "These are v3 returns, not v4 returns. No BVP nonexistence or failure of all phase families is inferred.",
+    "Only compact scalars, configuration bounds, run IDs and hashes are retained."
+  ]
+}
