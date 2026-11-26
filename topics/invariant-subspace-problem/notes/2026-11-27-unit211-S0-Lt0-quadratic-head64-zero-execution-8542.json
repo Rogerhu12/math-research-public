@@ -1,0 +1,83 @@
+{
+  "session": "Astra-ISP-8542378f-20261127",
+  "source": "2026-11-27-unit211-S0-Lt0-quadratic-head64-zero-original-return-8542.py",
+  "sourceSha256": "354c81f9b7eb8b56105966d6a46641ed60fd59817fc09df81d1697ac919c45ff",
+  "sourceBytes": 28323,
+  "parameters": [],
+  "actualExitCode": 0,
+  "wallSeconds": 125.96050087200274,
+  "stdoutSha256": "41140ff1d8a1771a72ccf451ddf035ed79aa30d813460d01b7852bc52f566848",
+  "stdoutBytes": 16653,
+  "peakRssKiB": 115220,
+  "limits": {
+    "alarmSeconds": 240,
+    "addressSpaceGiB": 4
+  },
+  "wholeS0Lt0Excluded": false,
+  "finalRecord": {
+    "stage": "complete",
+    "scope": "entire H64=0 coefficient boundary of lambda*v and f*v in original N1/Qa mean remainders",
+    "newPaidFactor": "H64 (24 terms, bidegree 6,4)",
+    "wholeS0Lt0ExclusionClaim": false,
+    "ordinaryISPClaim": false,
+    "sourceSha256": "354c81f9b7eb8b56105966d6a46641ed60fd59817fc09df81d1697ac919c45ff",
+    "peakRssKiB": 115220,
+    "claimExcluded": true,
+    "seconds": 125.67916727600095
+  },
+  "coverRecord": {
+    "stage": "whole_quadratic_head_QQ_parameter_cover",
+    "fullDegree": 230,
+    "remainingDegree": 89,
+    "paidDivisions": [
+      [
+        "original_e",
+        11
+      ],
+      [
+        "zero_base_weight",
+        6
+      ],
+      [
+        "original_u",
+        92
+      ],
+      [
+        "entire_ehalf",
+        32
+      ]
+    ],
+    "allQQDivisionsMultipliedBack": true,
+    "fullSha256": "41759207b951ae31631783575832a5e753ccb208bb5961b0cd99cb8fe53edbbe",
+    "remainingSha256": "02c59d71c6c644c8269307071fa410a3be06e79973a53e60e1168705a9cc650b",
+    "allOriginalKLeadingZeroFibersRetained": true,
+    "claimExcluded": false,
+    "seconds": 88.0491061390021
+  },
+  "modularReturnRecord": {
+    "stage": "whole_quadratic_head_original_modular_Bezout",
+    "prime": 1031,
+    "actualQQCoverDegree": 89,
+    "modularCoverDegree": 89,
+    "fullKDegreesQQ": [
+      4,
+      109
+    ],
+    "fullKDegreesMod": [
+      4,
+      109
+    ],
+    "fullResultantModDegree": 754,
+    "coefficientDegrees": [
+      753,
+      88
+    ],
+    "coefficientSha256": "17bd5582494efe409f3bf46e674b5738783859cd7a7bc54010dcf42655cdff43",
+    "resultantModSha256": "56e9ba48775f6c88f0e46672bff7a5a2237d6766cfd35dc27d7d69495843396c",
+    "actualBezoutMultipliedBack": true,
+    "gaussLemmaLeadingUnitProvidedByActualQQCover": true,
+    "arbitraryMultivariateModularUnitUsed": false,
+    "claimExcluded": true,
+    "seconds": 125.67214380299993
+  }
+}

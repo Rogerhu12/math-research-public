@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R150 S0/Lt0原lambda·v、f·v二次首项整零面为空（2026-11-27，已证明）：** [24项H_(6,4)的完整原返回](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-quadratic-head64-zero-exclusion.md)由N1/Qa原mean余式重建准确主子式，H64与原F41给230次QQ全覆盖，剥已付参数因子后保89次。另原G132,109的完整k结式模像754次，保4/109原次数与89次首项，实际一元Bézout1；源354c81f9实际125.960501秒/115220KiB/exit0。可合法解五个二次单项式，继续原重叠及P/N，不作自由基底或一般排空声明。
+
 - **R271 N型最大carry域与严格三角重构（2026-11-27，已证明）：** [逐块唯一、准确最大域及图范数](results/R271-appendix-maximal-n-carry-domain-triangular-reconstruction.md)完整正交降列给等距U，保首缺位J给||U*J||≤1/12且第q行仅i<q有限来源。先由真实Kh∈H作Neumann解，再逐行唯一，未先假平方和；各Pq h在H时，Kh在H恰等价ρ权平方和，Sh来源上最大域和有限支撑图核心准确成立。W若已付Sh而非零，必须D*h/Kh分别非H的真实抵消；该来源/抵消仍未付，也不把N正交结构套Y。
 
 - **R150 S0/Lt0原五二次式的两参数必要曲线（2026-11-27，已证明）：** [完整20×20原矩阵与常数坐标余子式](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-five-quadrics-parameter-curve.md)实际cofactor*M=(0,…,0,D)的20项全回乘，D=65536 e⁴k¹⁰j⁶(4e−k−4)²(4e−k)D3¹⁰F_(41,33)，仅846项新因子未付，保所有消元主元零纤维。源e7fafb7b实际101.464392秒/58108KiB/exit0；10×10全伴随180秒失败留档冻结。新曲线是原理想必要条件，仍接完整N/P，不宣一般Lt0排空。

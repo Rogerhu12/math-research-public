@@ -175,13 +175,13 @@ Deddens自伴MASA、全部可分重数有限成本投影、全2-adic平移距离
 新同eta原Q4的[整首项零面](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-same-eta-quartic-leading-zero-exclusion.md)与[整个ehalf原纤维](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-ehalf-original-exclusion.md)均已独立闭合，可付B_(11,8)、2e−1；原证明无循环。新[整个A24曲线](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-Qa-A24-curve-exclusion.md)以799次QQ完整覆盖和3116次完整结式约化的保次数一元证据关闭，Qa投影只余C83。C83/H33完整QQ投影120秒SIGALRM无返回，冻结；新[原N1/Qa主子式整零面](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-N1-Qa-pivot-zero-exclusion.md)已闭，67项v一次J1可逆，四原矩阵身份给同点λ=d12/δ、f=−d02/δ。继续同eta与完整原mean/P/N，不重复大投影或把两线性行当全系统。
 
 
-[b=c整支](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-equal-singleton-weights-and-same-eta-elimination.md)已付U/Bnum；新[同eta五几何变量完整原输入](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-same-eta-five-geometry-original-system.md)保15原式、全部mean与N/P偶奇、相同eta和物理L返回。源7161bc65实际build11.280860秒/exit0，公开专用Actions运行1200秒QQ门；只有实际I*cert=[1]才排一般Lt0，构造通过不判空。
+[b=c整支](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-equal-singleton-weights-and-same-eta-elimination.md)已付U/Bnum；新[同eta五几何变量完整原输入](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-same-eta-five-geometry-original-system.md)保15原式、全部mean与N/P偶奇、相同eta和物理L返回。源7161bc65实际build11.280860秒/exit0，run45908775594已1200秒超时，独立std过、仅BEGIN、无单位，源冻结；改上述新原二次重写。
 
 
 [全交换子兼容字符喷射与平坦分母](results/R12-appendix-full-commutant-compatible-formal-jets-and-flat-root-denominators.md)已付：不整除闭稳定根的实际标量分母必须属于I∞，该范数闭理想强*稠密但与UHF零交。仍须在其中构造同源PH⊂DomT及有界分子；R267共同全部幂分母的平坦性不付这一真实域包含。
 
 
-新[五原二次式必要曲线F_(41,33)](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-five-quadrics-parameter-curve.md)由20×20原矩阵常数坐标余子式全乘回，所有首项零纤维保留；源e7fafb7b/101.464392秒/exit0。继续5×6二次单项式规则、同点原N/P与完整参数覆盖。10×10全伴随180秒失败不重跑。
+五原二次式F_(41,33)必要曲线已付；新[H_(6,4)整首项零面](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-quadratic-head64-zero-exclusion.md)由230→89次QQ覆盖和同原G132,109的一元Bézout关闭，125.960501秒/exit0。可解五个二次单项式，续三次重叠与同点原N/P；有限生成不作自由。10×10全伴随180秒失败冻结。
 
 
 [N型最大carry域](results/R271-appendix-maximal-n-carry-domain-triangular-reconstruction.md)已由有限行严格三角重构识别为ρ权平方和域；各Pq h在H且Kh在H即进总孔核心。若同W来源已付Sh∈H，非零W只可能来自D*h与Kh各非H的真实抵消；此来源与抵消排除均未付，Y不套此正交重构。
