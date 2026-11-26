@@ -6,7 +6,7 @@
 
 ## 1. 规则与接手
 
-已部分克隆并实际 `git pull main`，公开根 README、课题 README、HANDOFF、open、results 索引及相关 log/notes 已读。公开已读提交 **f88ee99ceaff212d292bea56d269a3a9af9e2a4b**（2026-11-26 13:22 UTC；本次实际pull后根/题README空差异）；历次规则及失败原回执保原note；私有 QUEUE 的本题已改为本会话进行中并成功推送：**9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7**；最后实际pull及规则同blob读至 **df005946de0f0f9cb5070c1aaddca788fdfb9644**（2026-11-26 12:50–12:53 UTC；实际pull成功，根README空差异、QUEUE仍本会话）。其它课题的并行认领保留。
+已部分克隆并实际 `git pull main`，公开根 README、课题 README、HANDOFF、open、results 索引及相关 log/notes 已读。公开已读提交 **cd5d19413ec2116f8176e003fca175a8c6e8f127**（2026-11-26 13:27 UTC；本次实际pull后根/题README空差异）；历次规则及失败原回执保原note；私有 QUEUE 的本题已改为本会话进行中并成功推送：**9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7**；最后实际pull及规则同blob读至 **df005946de0f0f9cb5070c1aaddca788fdfb9644**（2026-11-26 12:50–12:53 UTC；实际pull成功，根README空差异、QUEUE仍本会话）。其它课题的并行认领保留。
 
 [八模前交接](notes/HANDOFF-before-eight-mode-natural-final-20261126.md)及其所链前史保全部原规则/成本/范围；09:18及11:20 UTC两次本地失联期间仅API保存，不冒actualpull。09:33、11:28恢复后已实际双pull。每pull核根/题README差异并执行，至少每小时；root独占git/索引，每条结论即推，NFF立即rebase重推。科学仅公开Actions，本地限纸证/源码/原日志解析；已披露3次开发偏离保原note且停止。根12不加机械复跑，根15不留可重算raw。
 
@@ -36,7 +36,7 @@ B030的前两次callback关停和第三START关停保[原收据](notes/2026-11-2
 
 [八模自然终态](notes/2026-11-26-r594-eight-mode-weak-natural-final.md)run45822196061/job139917033661付452.79767207秒，60接受/65拒绝，迭代上限仍下降，非停滞。完整496q和四新模13jets已付；ε仍1e−5，弱merit5.39069e−6→1.99136e−6、细η3.02631e−7，coreD1.19015e−7、漏模m18峰1.143e−5。direct η.007976/.017725峰在真实内口h≈4.44e−14；尺度解释不作合格证。下一从真实496q/末damping续60步、复用四口0内Riccati；所有原r用有限域内中心/单侧四阶位置stencil及半步，不删首点、不伪核心。
 
-[R596](results/R596-same-mild-tail-flat-kernels-through-sixteen.md)准确flat范围仅j≤16，高于16不可误套。[R587](results/R587-fixed-metric-mean-height-elimination-at-flat-cap-and-core.md)/[R588](results/R588-quantitative-common-inner-tail-and-actual-metric-bound.md)/[R591](results/R591-forced-flat-harmonics-and-third-order-shooting.md)/[R593](results/R593-exact-resonant-background-and-finite-nonresonance.md)准确均值、四模尾界、强迫与静态共振全保原范围；均未授当前数值外传、完整有限分支、固定g精化或reach。
+[R596](results/R596-same-mild-tail-flat-kernels-through-sixteen.md)的原j≤16范围保留；[R600](results/R600-same-mild-tail-flat-kernels-through-thirty-two.md)新以B=2^32/势870000a⁻⁴付同u≥100至j32，Green<1/4、耦合<1/64，准确截断不变。实际18…32口仍未付，不以纸证冒数值口。[R587](results/R587-fixed-metric-mean-height-elimination-at-flat-cap-and-core.md)/[R588](results/R588-quantitative-common-inner-tail-and-actual-metric-bound.md)/[R591](results/R591-forced-flat-harmonics-and-third-order-shooting.md)/[R593](results/R593-exact-resonant-background-and-finite-nonresonance.md)准确均值、四模尾界、强迫与静态共振全保原范围；均未授当前数值外传、完整有限分支、固定g精化或reach。
 
 ## 5. 宽十八母与真实紧凑路径
 

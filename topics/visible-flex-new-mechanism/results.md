@@ -372,3 +372,5 @@
 - [R598宽母prepared原质量BVP实现](notes/2026-11-26-r598-prepared-wide-mother-original-mass-bvp-implementation-agent.md)：新18母实际192阶预收；11参数guide中唯一∫hk=0与七剩余矩共同准备，真实两侧历史/全程规范保留。每阶段19原微分+2原ruling、29BC、完整31变量AD，不除Cramer矩阵；19行单位1且原残差决定加密。ρ/ζ0 guard仅按本新初猜冻结单位，坐标/方程不变；忠实Hermite端值与实际原几何预算另报，尚无新根。
 
 - [B030完整约束下的工作行后端](notes/2026-11-26-r566-working-rows-implementation.md)：绑定第三run实际START和原81q/571径向/1276峰/原trust，局部仅形成最多512个field/orbit行、每批24真r且全1536 FFT/原mean E。全部旧粗网、fine3072、完整角定位与新违约仍决定接受；fine同margin/t门、保护原浮点r、pending/trust/成本快照完整，未把局部矩阵当全域覆盖。一次新restriction核与实际run共用Jac，0旧fine/旧parity复跑。
+
+- [R600 同一温和尾的准确全平模至j32](results/R600-same-mild-tail-flat-kernels-through-thirty-two.md)：**已证明**同一W/紧相位、同u≥100/α17起口扩至全部整数2≤j≤32；明确B=2^32、势≤870000a⁻⁴，Green≤.21315<1/4，端窗/对角吸收/邻接耦合均逐项付清，仍有原10^-3比值收缩与准确有限截断界。旧低模不重算；新18…32实际口、浮点误差/完整非线性仍待付。

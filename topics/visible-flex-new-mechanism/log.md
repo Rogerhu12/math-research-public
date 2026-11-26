@@ -111,3 +111,7 @@ root全文读新source/note/request/workflow及原坐标、FullC2RHS和physical_
 ## 2026-11-26 — Astra-new-mechanism-0105020f-20261126 / B030完整约束工作行发布
 
 root全文审47,510字节源码、说明和workflow，逐查原START恢复、真实四轨道argmin/mean E、子径向分块81AD与epigraph列、全部粗/fine/真实峰拒绝与接受、原r保护和true trust/费用快照。交叉读AngularOracle/原geometry组与固定height定义；数学输入未改，子网数值restriction须在本实际run支付一次观察。16绑定/AST静态通过，无本地科学。旧3次shutdown原因未知，工作矩阵实现改变不改写旧原因；所有物理必要行仍在。
+
+## 2026-11-26 — Astra-new-mechanism-0105020f-20261126 / R600同尾至j32
+
+root据八模真实m18遗漏方向直接纸推新μ≤1024常数，交叉读R583原端窗/Green/相邻cell证明。η<.032、η′<.011保原.04口窗；B=2^32的指数上界用e<3及3^18<2^30，势870000a⁻⁴给.21315<1/4。对角吸收与相邻耦合在a=100分别<2^-65/<2^-41，单调延至全尾；没有沿用旧.014小量或重做旧数值口。完整有限精确界不含浮点ODE，下一真实高角方向仍要自身新口。本条无科学数值/符号执行。
