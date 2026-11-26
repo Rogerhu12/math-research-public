@@ -5,9 +5,9 @@
 ## 主目标、规则与执行
 
 - **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍仅全体有界算子的存在定理或完整反例；子结果不作完成。
-- **最近实际 pull / 已读规则提交：** `1e69c1316afc149456fd0d70510311069491aa5a`（2026-11-26 05:57:02 UTC）。本次两README无新规则差异；已读根/课题README、H/open、结果索引及定点log/notes。每次pull及至少每小时比diff，记录SHA。
+- **最近实际 pull / 已读规则提交：** `45bef2abb5062b6e73f460f1d7cdc41e890a9179`（2026-11-26 06:01:17 UTC）。本次两README无新规则差异；已读根/课题README、H/open、结果索引及定点log/notes。每次pull及至少每小时比diff，记录SHA。
 - 私库 `QUEUE.md` 已成功更新认领，提交 `e776df496eedfa449b0475cefe140fdae7023db4`；非快进已逐次pull --rebase后重推成功。研究在公开仓库，私库仅维护QUEUE；不force，令牌仅CLI环境。
-- 执行环境断线重建后已重新部分克隆至 `/tmp/isp-347c05929dd3/math-research-public`；旧TMP丢失，未推送原源从工具原文恢复并核SHA。root独占git/H/open/results/log；子代理只写独占TMP。每结论单独推送，只留源码/参数/身份/SHA，无数组。
+- 执行环境断线重建后已重新部分克隆至 `/tmp/isp-347c05929dd3/math-research-public`；旧TMP丢失，未推送文件由工具记录恢复；不同字节的新源另记新执行身份。root独占git/H/open/results/log；子代理只写独占TMP。每结论单独推送，只留源码/参数/身份/SHA，无数组。
 - 全部旧状态、来源和失败范围保[接手H快照](notes/2026-11-26-handoff-at-takeover-347c.md)及原归档链。MD<100KB、H<10KB、open尽量<30KB、topic<200MB；不写根LOG。
 - 请求14现已确认run44738311930成功（2026-11-20 12:44:31–12:44:58 UTC，head71e86b47cb04a2fffe6ee39331f660feb954ae0d）；四标签输出已回收，41/32/23及unit3+1边界均已正式写证。311型旧run44737710336中单标签成功不等于全workflow成功，原身份保留。不得重跑已闭计算。
 - 当前并行：rankV1全层证明恢复登记及rankV2；unit2+1+1非零基配对；R271真实源加权费用。父代理已恢复权11并正式证明其准确范围，继续未付全局幂来源与算子桥。
@@ -21,7 +21,7 @@
 - **外均值ess4主支：** Cat(y)=3、dimW4、y∉W，唯一原length5代数保同L,ν及全jets。全部rankH3、全部rankH4 proper局部单零（长度2–5）、孤立零点加unit单四jet/两个双点均已空。包括半权、零权、零配对、合流及∞，正式源与执行身份见索引和前H。
 - **[unit3+1孤立零点整个分支已空](results/R150-appendix-essential-four-unit-three-plus-one-isolated-zero-rank-four-branch-is-empty.md)：** 原所有边界加x0/L0，及真正一般图的原mean/c1/χ之QQ395/1142次结式、四纤维返回已闭；本地源6.846828秒通过。孤立零点只余unit2+1+1、unit1⁴；全部rankH5、一般V≠0 inner和ess5/6仍开，保完整原梯度。
 - **[unit2+1+1的零基配对支已空](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-zero-base-pairings-exclusion.md)：** p=q=0全t0/半坐标/两mean面及J0/对角边界均闭；原双点最高三阶/二次二阶首项不可删。QQ结式19/17次gcd仅半权，原源1.330961秒；继续可令p=1的完整非零配对支。
-- **[rankV1全部高接触已闭](results/R150-appendix-rank-one-third-cumulant-high-contact-mean-divisor-classification.md)：** 原请求14三源和全部降次/∞已正式证明；ord_s P≥3只余s∈{0,2,−6,∞}的T3=0同点族，23型亦空。311原368阶det774等完整证据见索引。继续低接触全部除子分配及高秩V，不能提前关全rankV1。
+- **rankV1高接触及三个低接触族已闭：** [全部ord≥3](results/R150-appendix-rank-one-third-cumulant-high-contact-mean-divisor-classification.md)及[新三个低接触族](results/R150-appendix-rank-one-third-cumulant-three-low-contact-mean-divisor-classification.md)的所有存活点完整T3=0。新源保B/C的全部V贡献，QQ余因子门240/255/621及全部∞已付；恢复后新旧源码/执行身份分开。继续余下四个两根族的完整穷尽及高秩V，不提前关全层。
 - **[旧纯三次判据已修](results/R150-appendix-polar-pure-cube-sign-correction-and-exact-resultant.md)：** 正确Q=B³−27A²D，root同一BigInt函数全10阶整数结式260758295153015625（mod103=56）；旧正文/Python源同步更正。无纯三次结论保持，旧正号/数值不再作证，其余闭几何不重跑。
 - 原4212来源枚举/系数高度、全局Bell自然幂及完整算子桥仍开。图册须每图真实幂来源并N=1+Σ(Ni−1)粘合；几何覆盖、V0子层证书不代全局原来源/实际费用。
 

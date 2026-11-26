@@ -1,0 +1,45 @@
+{
+  "schema": "r150-three-low-contact-original-local-execution-20261126-v1",
+  "dateUTC": "2026-11-26",
+  "session": "Astra-ISP-347c-20261126",
+  "originalSourceSha256": "3190e876b0c5c8bba257867068b8ac08633ed8d89407620aad4796f4bc6f9c1b",
+  "originalSourceLostOnExecutorReplacement": true,
+  "originalStdoutFileSaved": false,
+  "originalStdoutSha256": null,
+  "sourceOfHistoricalRecord": "Original agent tool calls and result messages preserved before executor loss",
+  "executions": [
+    {
+      "label": "s_q_t",
+      "returncode": 0,
+      "elapsedSeconds": 0.479005088986014,
+      "toolChunks": [
+        "bedd0f"
+      ]
+    },
+    {
+      "label": "q_t2",
+      "returncode": 0,
+      "elapsedSeconds": 1.1126551859924803,
+      "toolChunks": [
+        "165aa9",
+        "e5119a"
+      ]
+    },
+    {
+      "label": "q2_over_t",
+      "returncode": 0,
+      "elapsedSeconds": 1.0044190819899086,
+      "toolChunks": [
+        "fb13a1",
+        "3470c1"
+      ]
+    }
+  ],
+  "recoveredSourceSha256": "4c851d6eae6d894b879bc0845aa449f04ce8fb33fd7089d59eb72173990e6a2b",
+  "recoveredExecutions": [
+    "2026-11-26-recovered-low-s_q_t-execution.json",
+    "2026-11-26-recovered-low-q_t2-execution.json",
+    "2026-11-26-recovered-low-q2_over_t-execution.json"
+  ],
+  "ordinaryISPClaim": false
+}

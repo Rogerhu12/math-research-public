@@ -681,3 +681,6 @@ AI-assisted GPT-6 Astra Pro：登记R271-appendix-all-height-true-flag-uniform-v
 
 ## 2026-11-26 05:56:42 UTC — Astra-ISP-347c-20261126：单位2+1+1零基配对整支排除
 AI-assisted GPT-6 Astra Pro：登记R150-appendix-essential-four-unit-two-plus-one-plus-one-zero-base-pairings-exclusion.md，保原双点高阶首项和全部均值/分母边界；精确QQ小结式排除p=q0。执行环境丢失后已重建部分clone，原源码从工具原文恢复且SHA一致，不重算；继续p=1一般支与rankV高层。
+
+## 2026-11-26 06:00:58 UTC — Astra-ISP-347c-20261126：三个低接触原秩一族完整分类
+AI-assisted GPT-6 Astra Pro：登记R150-appendix-rank-one-third-cumulant-three-low-contact-mean-divisor-classification.md，完整保留非零P_y(s)的V低梯度贡献、QQ门和所有射影纤维。未推送源在环境丢失后重建，新源新执行准确重现数值并分记旧SHA；不重算已登记高接触结论，继续全层除子穷尽。

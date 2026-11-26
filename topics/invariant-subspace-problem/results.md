@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R150 三个低接触秩一V族的完整分类（2026-11-26，已证明）：** [完整V贡献、QQ消元与全部射影纤维](results/R150-appendix-rank-one-third-cumulant-three-low-contact-mean-divisor-classification.md)处理Δ_s q_s Δ_t、q_s Δ_t²、q_s²/Δ_t，保B/C的P_y(s)非零贡献；全部存活点同点且完整T3=0。原QQ范数236/248/256、完整余因子门240/255/621及全部有限/∞门已付；丢失源重建后的新执行与旧身份分开。其余四个两根族/穷尽仍需完成。
+
 - **R150 单位2+1+1的两个基点配对同时为零时整支为空（2026-11-26，已证明）：** [完整原双点首项、均值面及全部边界](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-zero-base-pairings-exclusion.md)保双点最高三阶与二次二阶、同一m与零点列；t0及半坐标由原式/Gram秩排除，两完整mean面以QQ19/17次结式gcd和J0非零结式排除。源码1.330961秒成功，原字节从工具记录恢复且SHA相同；不重跑。unit2+1+1非零基配对仍开。
 
 - **R271 任意高度最低forcing的完整真旗与方差一致源界（2026-11-26，已证明）：** [全区间Schur、精确Green递推和全部原受限逆费用](results/R271-appendix-all-height-true-flag-uniform-variance-source.md)对任意r≥2的完整C不变F⊂ker C^r、f∈F∩ker C²给全0<S≤1的C^j a_S/S^j明确界及环境残余；原N头全部奇r≥3的受限逆已用完整整数约束/全部长链付费。新增实质为r≥5；r3优先旧锐界，并可逐项取新界与实际能量界的小值。未付γ<1/16孔加权源或N=M。

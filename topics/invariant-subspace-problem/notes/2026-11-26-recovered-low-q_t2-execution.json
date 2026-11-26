@@ -1,0 +1,95 @@
+{
+  "arguments": [
+    "q_t2"
+  ],
+  "date": "2026-11-26",
+  "executionEnvironment": "new local executor after original executor loss",
+  "exitCode": 0,
+  "format": "isp-recovered-source-new-execution-v1",
+  "label": "q_t2",
+  "pythonVersion": "3.12.14",
+  "records": [
+    {
+      "QQCofactorDegrees": [
+        184,
+        184
+      ],
+      "QQNormDegrees": [
+        248,
+        248
+      ],
+      "allOriginalVContributionsRetained": true,
+      "characteristicZeroClassificationVerified": true,
+      "cofactorSylvesterDetMod1009": 255,
+      "cofactorSylvesterDimension": 368,
+      "elapsedSeconds": 0.6322320850013057,
+      "finiteExceptionalFiberGates": {
+        "-1": {
+          "normDetMod1009": 327,
+          "normHash": "471110201aa169130a539b96367074459cde92eeb289b1a706fb3e60deb6dc6c",
+          "originalQDegree": 2,
+          "originalR01Degree": 24
+        },
+        "-6": {
+          "normDetMod1009": 838,
+          "normHash": "3c9ae7c8dd9e116f1433dd653e0792d4ce41e89270be0940af00cf783ee0b802",
+          "originalQDegree": 3,
+          "originalR01Degree": 32
+        },
+        "0": {
+          "normDetMod1009": 192,
+          "normHash": "78011759d5bac39b23f4ad028f98b7539a8c3c7d74084517517383b1374560cb",
+          "originalQDegree": 3,
+          "originalR01Degree": 32
+        },
+        "2": {
+          "normDetMod1009": 883,
+          "normHash": "46dae609f33cc239d395d469365e47b34745e98a2c01c943ac801b1a6dd83584",
+          "originalQDegree": 3,
+          "originalR01Degree": 32
+        }
+      },
+      "fullGradientHash": "2d51284a13ab4abe4e5cd2baeb8c8cea120fbaab07695b8caadeb58ad60ef64a",
+      "globalMatchedBellClaim": false,
+      "label": "q_t2",
+      "ordinaryISPClaim": false,
+      "projectiveBoundaryGates": {
+        "sInfinity_tMinus1": {
+          "detMod1009": 872,
+          "resultantHash": "9bc0b8711004aff92dd10d5b0f2cfd952d472e2b79e679b9f74e7c089f32c03f"
+        },
+        "sMinus1_tInfinity": {
+          "detMod1009": 702,
+          "resultantHash": "17981f519eb4afd29238664fa34aae94b8c2a7aebd7b845363e4afdc5d1b84f6"
+        }
+      },
+      "recoveryNote": "Reconstructed after executor loss. This execution belongs to this exact source SHA.",
+      "sourceSHA256": "4c851d6eae6d894b879bc0845aa449f04ce8fb33fd7089d59eb72173990e6a2b",
+      "stage": "complete",
+      "survivingOriginalCriticalFamilies": {
+        "-6,-6": {
+          "allOriginalGradientsIdenticallyZero": true,
+          "thirdOrdinaryMomentIdenticallyZero": true
+        },
+        "0,0": {
+          "allOriginalGradientsIdenticallyZero": true,
+          "thirdOrdinaryMomentIdenticallyZero": true
+        },
+        "2,2": {
+          "allOriginalGradientsIdenticallyZero": true,
+          "thirdOrdinaryMomentIdenticallyZero": true
+        },
+        "infinity,infinity": {
+          "allOriginalGradientsIdenticallyZero": true,
+          "thirdOrdinaryMomentIdenticallyZero": true
+        }
+      }
+    }
+  ],
+  "source": "2026-11-26-r150-rank-one-three-low-contact-families-verify.py",
+  "sourceSHA256": "4c851d6eae6d894b879bc0845aa449f04ce8fb33fd7089d59eb72173990e6a2b",
+  "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stdoutBytes": 2031,
+  "stdoutSHA256": "c6afcfe39ac992463891f5b4a7f0617d4b5f13fb369170a479393ef71afa972a",
+  "wallSeconds": 0.7474289899982978
+}

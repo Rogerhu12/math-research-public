@@ -29,7 +29,7 @@ rank$H=4$ 的非单位局部块长度5、4、3已排；长度2单零的三种单
 
 全部 ess$T_3\le3$ 已给 matched Bell 零；原 $W_\pm$ 上确有 Cat3 真临界点，不能把 Cat3 整层判空。Bell 非零只可能在 V≠0 且 ess4/5/6。原两原子开集的例外和有限32全参数模型仍按原范围，不能先删 $D=0$ 或合流。
 
-**一般V非零的秩一分支：** [全部高接触均值极线](results/R150-appendix-rank-one-third-cumulant-high-contact-mean-divisor-classification.md)现已完整分类：rankV1写V=v u(s)³，原highest迫P_y非零且整除k_s³；若ord_s P_y≥3，必为同点T3=0族，s∈{0,2,−6,∞}。证明合并已闭五重、311及原请求14的41/32全边界，保q重根与∞；23型亦整支空。当前只续ord_s P_y≤2的其余完整除子分配及高秩V，不重跑旧高接触源。全部原低梯度和非零Bell条件仍须保留。
+**一般V非零的秩一分支：** [全部高接触均值极线](results/R150-appendix-rank-one-third-cumulant-high-contact-mean-divisor-classification.md)现已完整分类：rankV1写V=v u(s)³，原highest迫P_y非零且整除k_s³；若ord_s P_y≥3，必为同点T3=0族，s∈{0,2,−6,∞}。证明合并已闭五重、311及原请求14的41/32全边界，保q重根与∞；23型亦整支空。当前只续ord_s P_y≤2的其余完整除子分配及高秩V，不重跑旧高接触源。全部原低梯度和非零Bell条件仍须保留。 [三个低接触族](results/R150-appendix-rank-one-third-cumulant-three-low-contact-mean-divisor-classification.md)现亦全闭：Δ_s q_s Δ_t、q_s Δ_t²、q_s²/Δ_t的全部临界点均T3=0，B/C原V贡献完整保留。只续四个两根族与除子穷尽及高秩V；不能用低接触部分覆盖代全分类。
 
 ### 1.2 原权十一及更高幂
 

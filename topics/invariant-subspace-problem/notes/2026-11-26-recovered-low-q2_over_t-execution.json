@@ -1,0 +1,75 @@
+{
+  "arguments": [
+    "q2_over_t"
+  ],
+  "date": "2026-11-26",
+  "executionEnvironment": "new local executor after original executor loss",
+  "exitCode": 0,
+  "format": "isp-recovered-source-new-execution-v1",
+  "label": "q2_over_t",
+  "pythonVersion": "3.12.14",
+  "records": [
+    {
+      "QQCofactorDegrees": [
+        220,
+        220
+      ],
+      "QQNormDegrees": [
+        256,
+        256
+      ],
+      "allOriginalVContributionsRetained": true,
+      "characteristicZeroClassificationVerified": true,
+      "cofactorSylvesterDetMod1009": 621,
+      "cofactorSylvesterDimension": 440,
+      "elapsedSeconds": 0.5208061630110024,
+      "finiteExceptionalFiberGates": {
+        "-1": {
+          "normDetMod1009": 307,
+          "normHash": "bb6c30e24948e54145ad9482ab80773ffda0dae771a484ccfa8be8d4e92890b1",
+          "originalQDegree": 2,
+          "originalR01Degree": 12
+        },
+        "0": {
+          "normDetMod1009": 900,
+          "normHash": "9475b22dca6f72e64d30d6b3899ad7010ad019d33f332bc0b31220d9bd5f6589",
+          "originalQDegree": 3,
+          "originalR01Degree": 20
+        }
+      },
+      "fullGradientHash": "1bdd69f240105d562c208692ba52047acf0e41500a8cb75de38454e7f33865bf",
+      "globalMatchedBellClaim": false,
+      "label": "q2_over_t",
+      "ordinaryISPClaim": false,
+      "projectiveBoundaryGates": {
+        "sInfinity_tInfinity": {
+          "detMod1009": 627,
+          "resultantHash": "e6841145061cc892a38bf5e381dde7a71f0710489826342b5a8a410663d52dad"
+        },
+        "sMinus1_tInfinity": {
+          "detMod1009": 312,
+          "resultantHash": "f2243029e4b13c17924b495c01569b5de33acc1de745d9fa85fbd27e32a83e43"
+        }
+      },
+      "recoveryNote": "Reconstructed after executor loss. This execution belongs to this exact source SHA.",
+      "sourceSHA256": "4c851d6eae6d894b879bc0845aa449f04ce8fb33fd7089d59eb72173990e6a2b",
+      "stage": "complete",
+      "survivingOriginalCriticalFamilies": {
+        "0,5": {
+          "allOriginalGradientsIdenticallyZero": true,
+          "thirdOrdinaryMomentIdenticallyZero": true
+        },
+        "infinity,-1": {
+          "allOriginalGradientsIdenticallyZero": true,
+          "thirdOrdinaryMomentIdenticallyZero": true
+        }
+      }
+    }
+  ],
+  "source": "2026-11-26-r150-rank-one-three-low-contact-families-verify.py",
+  "sourceSHA256": "4c851d6eae6d894b879bc0845aa449f04ce8fb33fd7089d59eb72173990e6a2b",
+  "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stdoutBytes": 1519,
+  "stdoutSHA256": "f0dfd2f0266e262c67d4d2ce559da62ea3f1703f0fda642a761920d0bd4b49b4",
+  "wallSeconds": 0.6295028180029476
+}
