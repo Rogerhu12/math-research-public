@@ -483,3 +483,7 @@ git show e95fea50651bcfe32aad52826caa8a692c2ff741:topics/visible-flex-larger-amp
 原完整controlled0af61a3b、probe cf163a5c、fast d6e0515c逐字核对且继续留原路径，无外部轨道输入；由原解析core与全部config产生。原Hermite到s=.65、metric样本9.51982936925333e-12/kappa样本5.157343605233196；fast到s=.45、metric样本2.5001334336138825e-11/kappa样本8.160234358656169。这些全是旧JSON转录，不是新科学计算，且都是有边界开放片，不能冒闭面、完整reach、20%整像保持或严格存在。旧runtime版本、OS exit及Actions号没记录，仍为未知。
 
 定向依赖搜索只见两件旧geometric-core-screen的原input引用；它们和[原数值几何说明](geometric-prefix-phase-screen-summary.md)原样保留，如需重读旧系数轨道先从上述固定提交恢复scratch。当前deep/Haar/SO3求解与参数不读取这两路径。只移出各41套完整系数状态和386末系数及逐径向数组，没有把数组改名参数上传，没有重做任何旧结论。
+
+## 19. 2026-11-26：六份旧独立开放轨道
+
+root于2026-11-26 15:28:56 UTC普通移出6份已核可由完整原源/config重生的Hermite/fast旧轨道，共2,276,216B；三源、全参数、全部非轨道字段、首末紧凑标量、固定ca7历史/每blob与所有失败边界完整保[第十九次记录](2026-11-26-legacy-six-open-trajectories-retention.md)及[独立JSON](../computations/resume-20261126-legacy-six-open-trajectory-retention.json)。当前scripts/计算参数无这6路径引用，7项旧notes消费者依固定历史恢复scratch，不冒全仓无引用。M64 v.45原.57/.6与domain失败原样保留；没有科学复跑、历史改写或raw换名入库。
