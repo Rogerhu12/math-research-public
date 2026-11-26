@@ -6,7 +6,7 @@
 
 ## 1. 规则与接手
 
-已部分克隆并实际 `git pull main`，公开根 README、课题 README、HANDOFF、open、results 索引及相关 log/notes 已读。公开已读提交 **5c06c53a9396cd085e160fa98d7390a0d5da5270**（2026-11-26 14:49 UTC；本次实际pull后根/题README空差异）；历次规则及失败原回执保原note；私有 QUEUE 的本题已改为本会话进行中并成功推送：**9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7**；最后实际pull及规则同blob读至 **17a1d44187eb572830728e941f368ac80a5a3fe7**（2026-11-26 14:49 UTC；实际pull成功，根README空差异、QUEUE仍本会话）。其它课题的并行认领保留。
+已部分克隆并实际 `git pull main`，公开根 README、课题 README、HANDOFF、open、results 索引及相关 log/notes 已读。公开已读提交 **9ed825bb5d42a42df3793afed209f0d44cba1c11**（2026-11-26 14:54 UTC；本次实际pull后根/题README空差异）；历次规则及失败原回执保原note；私有 QUEUE 的本题已改为本会话进行中并成功推送：**9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7**；最后实际pull及规则同blob读至 **e0856244e3a0b29ca62a2c55c664b3f795099ffc**（2026-11-26 14:54 UTC；实际pull成功，根README空差异、QUEUE仍本会话）。其它课题的并行认领保留。
 
 [八模前交接](notes/HANDOFF-before-eight-mode-natural-final-20261126.md)及其所链前史保全部原规则/成本/范围；09:18、11:20 UTC失联/恢复原账保留；13:54第三次失联后未发布源码仅作不可变checkpoint。root指定临时branch的CLI发布器实际clone/pull/rebase/push，双库规则读账按真实运行更新，API读取不冒pull。每pull核根/题README差异并执行，至少每小时；root独占git/索引，每条结论即推，NFF立即rebase重推。科学仅公开Actions，本地限纸证/源码/原日志解析；已披露4次开发偏离保原note及[恢复记录](notes/2026-11-26-r582-necessary-input-recovery-original-receipt.md)且停止。根12不加机械复跑，根15不留可重算raw。
 
@@ -48,7 +48,9 @@ B030前三次关停保[原收据](notes/2026-11-26-theta-generic-start-only-shut
 
 [R598](results/R598-three-rotations-wide-eighteen-block-mother.md)付完整18正块/三旋转、0…10矩与微半宽1/12000/collar1/3000；[原质量实现](notes/2026-11-26-r598-prepared-wide-mother-original-mass-bvp-implementation-agent.md)保19微分+2ruling/29BC/31AD/完整正势，原残差过门才加密。[首终态](notes/2026-11-26-r598-wide-prepared-first-public-receipt-agent.md)run45828239888付28.749599218主秒/29.946569墙秒、guide400nfev/8916calls，八矩未闭；整阵encode shape错误在rho积分前，0mass/Jac。后继从已付11参数做新中心jet/逐列原编码，不重跑旧400；旧guide必要空间比率.02747<.03也保原账。
 
-[R601](results/R601-prepared-center-true-jet-and-fixed-gauge-acceleration.md)付prepared真中心a=H/b=0/V_s=0，正势仍在。[R603](results/R603-prepared-leading-energy-and-speed-two-guide.md)在声明的共同C²紧族/零rho/ε²νhat有限极限下迫非零|v|=2，不排固定ε根。[九参数原mass](notes/2026-11-26-r603-vtwo-center-mass-implementation-agent.md)直接由已付11向量给a=H/v=2/唯一∫hk=0，旧10族未跑；逐列原encode修补、19+2/29BC/31AD/完整正势与末态真实形算子保留。必要新guide/history/表全部计费，原残差过门才加密，尚无新根或宏观资格。
+[R601](results/R601-prepared-center-true-jet-and-fixed-gauge-acceleration.md)付a=H/b=0/V_s=0；[R603](results/R603-prepared-leading-energy-and-speed-two-guide.md)在声明共同C²紧族/零rho/有界缩放规范下迫非零|v|=2，不排固定ε根。
+
+[九参数原mass首终态](notes/2026-11-26-r603-vtwo-first-mass-public-receipt-agent.md)run45839778794真付180.569685459主秒/181.470336墙秒，50接受/51全态/77219LSMR；末原ruling6.2885e14、BC.68010，未加密。guide中心准备准确但全程正势5.2986e14；末插值真导数差5.8568，focal/Dsample .024786<.03。下一改变全程能量/二维记忆路径与BC组织，不延长同九族。
 
 [必要输入已恢复](notes/2026-11-26-r582-necessary-input-recovery-original-receipt.md)：原raw/FINAL与81q/124圈/10835细点准确同源，科学0。已发布[97q真实尾列](notes/2026-11-26-r582-stable-material-local-tail-continuation.md)：同p=.181，同端点quintic稳定求值，16真实尾形列；完整旧细点/硬几何与原费用保留，新空间trust1明确重置，不重放旧15outer。下一据自然终态续。
 

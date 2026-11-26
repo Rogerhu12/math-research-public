@@ -394,3 +394,5 @@
 - [R582实际下一输入已恢复](notes/2026-11-26-r582-necessary-input-recovery-original-receipt.md)：**原终态证据恢复，非新科学**；run45839756631严格核同旧raw/FINAL及丢失配置，81q/124圈/10835物理点和原费用全保；科学0，尚无97q新解。
 
 - [R582同p稳定材料与16真尾列](notes/2026-11-26-r582-stable-material-local-tail-continuation.md)：**新实际97q求解输入**；完整原81q/124圈/10835细点与全部硬几何保留，同quintic稳定求值不替换场；新尾列及真导数整合，原失败门未过，不授固定g或reach。
+
+- [R603九参数首次完整质量原终态](notes/2026-11-26-r603-vtwo-first-mass-public-receipt-agent.md)：**数值未解**；run45839778794确过逐列编码进入原mass，50接受/51全态，真实ruling6.2885e14/BC.68010；完整历史和几何仍失败，180.569685459主秒及原费用全保，不把局部v=2准备当全程能量解。
