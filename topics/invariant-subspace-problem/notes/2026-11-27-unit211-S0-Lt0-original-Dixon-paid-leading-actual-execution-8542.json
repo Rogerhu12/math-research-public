@@ -1,0 +1,66 @@
+{
+  "schema": "r150-Lt0-original-Dixon-paid-leading-actual-execution-v1",
+  "runId": 45898704324,
+  "jobId": 140178911668,
+  "sourcePath": "notes/2026-11-27-unit211-S0-Lt0-original-Dixon-paid-leading-safe-slimgb-QQ-8542.py",
+  "sourceSha256": "dc2d1c5bdd4a2ad3558d96f4102f975326a73cb6f249b5814c68b79d13a9c385",
+  "runStatus": "completed",
+  "runConclusion": "failure",
+  "startedAt": "2026-11-26T21:31:22Z",
+  "completedAt": "2026-11-26T21:51:53Z",
+  "independentStdSmoke": {
+    "stage": "independent_std_smoke_return",
+    "returncode": 0,
+    "smokeVerified": true,
+    "singularDiagnosticLines": 0,
+    "stdoutSha256": "d5a1fa5529b83ebf302c540e3a5e298e7ecb2ce479c5054004d05d3187304621",
+    "stdoutBytes": 32,
+    "text": "ISP_LT0_SAFE_STD_SMOKE_VERIFIED\n",
+    "fullInputWritten": false,
+    "fullAlgorithmStarted": false,
+    "claimExcluded": false,
+    "seconds": 3.768640142999999
+  },
+  "fullOriginalGate": {
+    "stage": "actual_minor_QQ_timeout",
+    "timeoutSeconds": 1200,
+    "stdoutSha256": "8394fda1fc297d379513ff54a074946b095bd7138d2df852217dfd71c428dfd1",
+    "stdoutBytes": 37,
+    "text": "ISP_LT0_BEGIN_ORIGINAL_MINOR_QQ_LIFT\n",
+    "claimExcluded": false,
+    "seconds": 1204.141300738
+  },
+  "actualDriverReceipt": {
+    "elapsed_seconds": 1204.229038079,
+    "max_child_rss_kib": 4461008,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "40f04e82182ea7b2f3e45fa99cf71d0301a92dd5",
+        "before": "40f04e82182ea7b2f3e45fa99cf71d0301a92dd5",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-26T21:31:46.929891+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "45898704324",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "40f04e82182ea7b2f3e45fa99cf71d0301a92dd5",
+    "source_exit_code": 1,
+    "source_git_blob": "9dc626772438ad58c35084c32beb72005ba8650f",
+    "source_sha256": "dc2d1c5bdd4a2ad3558d96f4102f975326a73cb6f249b5814c68b79d13a9c385",
+    "stdout_bytes": 20570,
+    "stdout_sha256": "a0e63adcd57705b128ec669af91f1d22e031f768b7d6923c90137873fcae1cb5",
+    "stop_reason": null
+  },
+  "fullJobLogSha256": "4e0611895a1a1882a894f49efb1ad0e107a194fa9f3b122040a0900e24721b57",
+  "fullJobLogBytes": 39943,
+  "claimExcluded": false,
+  "ordinaryISPClaim": false,
+  "doNotRepeatFrozenSource": true
+}

@@ -1,0 +1,39 @@
+{
+  "session": "Astra-ISP-8542378f-20261127",
+  "script": "2026-11-27-unit211-S0-Lt0-same-eta-four-monomial-original-return-8542.py",
+  "parameters": [],
+  "sourceSha256": "cc6de2e33abfa5e8356919205e38ade41678df35be2f1c873332c71ab452f9cb",
+  "actualReturncode": 0,
+  "wallSeconds": 7.896800083000926,
+  "stdoutBytes": 15163,
+  "stdoutSha256": "de491f0713732d188259bc4957722a28db03e8990ac395d014b394f7577b99e4",
+  "retainedRegenerableData": false,
+  "purpose": "capture actual process exit and generate scratch rows for next exact original calculation",
+  "earlierExporterFailure": {
+    "returncode": 1,
+    "stage": "scratch row JSON export after complete proof marker",
+    "reason": "flint fmpz exponents require explicit int for JSON; original mathematical assertions and complete marker passed",
+    "stdoutSha256": "6ba64987ef8fe68b9c0754101ad1939681f358680cd5613b7b651c8895b0f31e"
+  },
+  "finalRecord": {
+    "stage": "complete_original_four_monomial_generation_and_consistency",
+    "sixSpecifiedOriginalGeneratorsLocalizedEquivalent": true,
+    "wholeCriticalIdealEquivalenceClaim": false,
+    "formalSpanningMonomials": [
+      "1",
+      "lambda",
+      "f",
+      "eta"
+    ],
+    "quotientFreenessClaim": false,
+    "cubicOverlapCount": 9,
+    "coprimeProductIdentityCount": 6,
+    "verifiedPaidCoefficientDenominators": 1325,
+    "returnedNecessaryRows": 16,
+    "sourceSha256": "cc6de2e33abfa5e8356919205e38ade41678df35be2f1c873332c71ab452f9cb",
+    "peakRssKiB": 43084,
+    "claimExcluded": false,
+    "ordinaryISPClaim": false,
+    "seconds": 7.6105926649997855
+  }
+}

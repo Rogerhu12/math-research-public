@@ -110,13 +110,9 @@ A单射、稠密像、拟幂零且非紧；普通非零真闭不变子空间仍�
 
 [全交换子的收缩多项式密度](results/R12-appendix-contractive-polynomial-density-of-full-haar-commutant.md)及特选同头/平均双逼近成本最优1已经闭合；不再重做。一般平均却[在统一成本球仍强不连续](results/R12-appendix-finite-conjugation-average-discontinuity-at-uniform-cost.md)：真实有限头 $B_m\to0$ 于op范数、$c(B_m)\le2$，但 $\Pi B_m\to-I/4$ 于SOT。因此全D强逼近不能直接平均成保持同输入的交换子插值。
 
-**[自伴Deddens核及全部可分重数投影已完整刻画](results/R12-appendix-selfadjoint-deddens-core-and-all-separable-multiplicity-invariant-projections.md)：** D_A∩D_A*=L∞乘法MASA；真实非零真A不变投影必有无限Deddens成本。任意可分重数中，有有限成本的不变投影只为常值重数投影；故“有界投影自动有有限成本”这一步不可用。未证明未知M被全D保持；继续同源插值及非复制来源。
 
-**[全部2-adic平移距离与具体C*自伴核已确定](results/R12-appendix-norm-closure-all-adic-translation-distances-and-concrete-crossed-product-core.md)：** t∉N0时dist(M_vU^t,R)=||v||∞，n≥0时为原W_n零点邻域的本质一致消失范数。平移生成B内R∩R*=MASA，交换子∩B=poly范数闭包；R38实际Y∈D\B，故全R自伴核仍开，不能越过这一真实剩余部分。
 
-[全部odometer非平凡谱投影已排除于整个R](results/R12-appendix-uniform-positive-distance-of-all-odometer-spectral-projections.md)，统一距离≥1/π，不限平移生成B。R∩{U}′的代数元只能标量，自伴核心内Fourier乘子谱必须连通；连续谱剩余及全R核心仍开。
 
-[任意非奇异加权复合算子的自伴核距离](results/R12-appendix-exact-distance-of-all-weighted-composition-operators-to-the-closed-selfadjoint-core.md)现已完整确定：到R∩R*与MASA都等于其权在移动集的ess sup；无限二进位换位实例到平移生成B距离1。一般非复合算子仍不能无损拼合细块；当前正向推进实际尾纤维的非复制运输插值。
 
 同一实际源的运输插值、双预算/最小普通范数和固定球真实递推已付；指定硬目标的全D最优累计log费用Θ(n⁵)，仅换实现不能降四次。原球软逆像唯一最优W_n²/(W_n²+λ)，含dyadic半径边界的四次准确常数；所有实际递推∏c≥m_n。全D连续整数前缀约束进一步迫独立软最优目标的连接普通范数dyadic无界，必须改变真实目标并付完整前缀/逆像双费。完整原身份与全部源保[压缩前页](notes/2026-11-27-open-before-tail-roots-and-closed-graph-8542.md)和[结果索引](results.md)。
 
@@ -167,3 +163,7 @@ S0/Lt0的k=4e、v=t=0、Omega=2e²−ek+2=0整支均已完整原返回排空；�
 原普通M新增约束均见结果索引：所有真有限头坐标非Fredholm；有下界时实际闭像无限维/余维且无有界尾模补空间；全部原尾强不可约，普通真M无闭A不变补空间。剩余须处理不分裂真实闭核/像或闭根图域，不能从全尾字符跳到未知限制。
 
 [原负前缀及输出条件图核心](results/R271-appendix-negative-prefix-extension-and-output-conditioned-division-graph-core.md)已付：准确T*h∈H且b(h)<∞给真实图逼近；Y_−β可取β<3/2，或带log端点。仍须由同一W规范原像证明b费用，不能将固定总孔层界换为P_q全尾范数；继续准确dyadic边界。
+
+Deddens自伴MASA、全部可分重数有限成本投影、全2-adic平移距离、具体B内核心、odometer非平凡谱投影距离≥1/π及全非奇异加权复合距离均已闭，完整链接/原边界保[快照](notes/2026-11-27-open-before-same-eta-and-output-core-8542.md)。R38真实Y∈D\B；全R自伴核、连续Fourier乘子及未知普通M的D保持仍开，不能无损拼合一般细块。
+
+[同eta四单项式原生成归约](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-same-eta-four-monomial-original-system.md)已付，六指定原式双向改写与全部重叠保留；新Qa小原必要行继续。dc2d完整门1200秒真实未决，smoke单独通过，源冻结不重跑。
