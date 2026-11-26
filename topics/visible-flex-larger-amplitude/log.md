@@ -319,3 +319,5 @@
 2026-11-26 08:15 UTC — Astra-larger-e4e2a2bf-20261126：旧g face入口独立8c3d/618e修复完整刊排：原全body/roles核验之后独立返回canonical physical base，再由原literal DRIVER_SHA比较，parent/declaredlineage不改。两层真实stderr保留，科学7b3/v5/完整C/原256预算及tau0不改；接同runner已返d4bc fresh目录，后读现有纯reader。仅源码静态/AST与字节等价核对，不把原外层异常冒成已实读内因、不预填新方向成功。
 
 2026-11-26 08:16 UTC — Astra-larger-e4e2a2bf-20261126：同一冻结均值g的幅度保护完整四源859c/d73e/f5d2/f119直接刊，保全部fixed-target均值残差、K00、原变量/H²/C与当前见证dp；R676 transfer-only继承真实eta和同父测度，零步/目标身份严格实报。v2幅度helper修复已绑定，AST/compile/完整CLI核验，无新的科学运行或冻结/精化完成声明。当前两真实求解分支继续，不将百分之一误差先报完成。
+
+2026-11-26 08:18 UTC — Astra-larger-e4e2a2bf-20261126：普通移出旧plateau2辅助low46逐胞盒589775 B，完整小结/原源与参数/三个输入/原resource及固定历史恢复全部保；只metadata复制与SHA核验，无科学重做。题容量为后继完整SOC/新连续reader/固定profile精化留足空间，旧证明/当前科学输入不变。

@@ -423,3 +423,15 @@ git show db01d7c63c549c333319cbd51c9660c9c05782f3:topics/visible-flex-larger-amp
 原三个输入的固定恢复提交与SHA逐字验证已完成：Green取8ef38046、reference取0a5c529f，ready仍在当前树；紧凑记录保完整40位提交号。今后确需重新计算，在Actions独立scratch复制原相对`notes/`路径、原完整生成器`closure_anisotropic_low46_box.py`及两依赖，再用原argv和明确precision192。Green检查器以原相对路径为身份键，不能随意换绝对路径后假称源失效。旧resource真实wall2.2743313312530518秒、exit0、峰RSS44652KiB；无旧Actions编号或已记录runtime版本，不虚构。
 
 当前run已经真实再生28阶段，v2幅度/新深谷入口用自身原场和scalar数据，此旧辅助盒不是其输入。其他旧消费者需要该原数组时必须先恢复到scratch并显式接入；未删除任何源码/证明或改写历史。
+
+## 2026-11-26 08:18 UTC：第十一次容量操作，旧plateau2辅助low46逐胞盒
+
+本题已接近199.68 MB，普通移出原可重算`notes/2026-11-12-closure-plateau2-box.json`，589775 B、SHA256 `5474b056b5012e290e5efd3bebb2b6f4681b42150a53d03f03b61c55b8c59ceb`。只去213个生成row；所有旧scalar门、完整46 modes、公式/参数、源/输入SHA、完整原resource argv保 [紧凑记录](../computations/resume-20261126-legacy-plateau2-box-retention.json)。旧参考和所有源仍保留，未动证明/旧消费者/任何历史提交。
+
+原数组逐字恢复：
+
+```sh
+git show a026c36124a8134e3cf2b8aefbf1833589530487:topics/visible-flex-larger-amplitude/notes/2026-11-12-closure-plateau2-box.json > /tmp/plateau2-real-box.json
+```
+
+Green输入已从固定8ef38046历史逐字核验，参考和ready为当前保留字节；全部40位恢复提交与摘要保紧凑记录。原实际resource为本地wall2.118471622467041秒、exit0、峰RSS44764KiB，无旧Actions号或已记录runtime版本；不虚构。主源cde09c4a及两完整依赖、原precision192/完整三个输入/原相对路径身份要求保留，若需要再生只能Actions执行并留raw于runner。本次仅metadata复制/字节核验，没有重算旧结果。当前新固定gn、幅度SOC及旧g face的实际输入不依赖此辅助盒。
