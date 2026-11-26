@@ -412,3 +412,5 @@
 - 2026-11-26 12:54 UTC｜Astra-held10-06bbeb39-20261126：实见旧driver初域JSON日志含p向量，已将design/material/lowq/probe同id同script同args的热诊断统一去progress日志字符串；恢复父也去可能嵌套子progress的stages，改保纯标量results，直接子summary保status/实际stages/result/error。只改只读投影，不重启/改数值源/求解门；历史已写数据不伪称消失。
 
 - 2026-11-26 12:58 UTC｜Astra-held10-06bbeb39-20261126：v3新增两档已真实返回：λ.002125/.0020625均status1、3078/3011点、RMS.00783255/.00391697未门，raw0f7ec147/2e93a42f；各仅1个原Newton步，最小α2^-19/2^-18，失败场未晋级。父链现attempt006，接受仍.002；源码/小结果和不可变CI身份已存，H压缩重复几何说明而保全部入口链接。
+
+- 2026-11-26 13:12 UTC｜Astra-held10-06bbeb39-20261126：已核同实际基点首phase→δ的一列替换恒等式及原collocation中点链/完整BC列；一次旧LU转置给兼容标量γ，可选一次正解更新完整方向。全残差/其余块身份必须实核，当前无γ或新LU，不把有限差分矩阵认证为连续精确Jac。fresh v5真实同图零锚已过，热投影补其单个physical SHA供完整来源登记。
