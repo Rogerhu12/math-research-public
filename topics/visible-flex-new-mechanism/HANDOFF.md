@@ -6,7 +6,7 @@
 
 ## 1. 规则与接手
 
-已部分克隆并实际 `git pull main`，公开根 README、课题 README、HANDOFF、open、results 索引及相关 log/notes 已读。公开已读提交 **9388b172bc16ca81c0d65e6f9fde49922c480cfa**（2026-11-26 10:27 UTC；本次实际pull后根/题README空差异）；历次规则及失败原回执保原note；私有 QUEUE 的本题已改为本会话进行中并成功推送：**9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7**；最后实际pull及规则同blob读至 **c5fd979bd7793b3516aaa9f142855772720cb9b1**（2026-11-26 10:23 UTC核；本小时实际pull成功，根README空差异、QUEUE仍本会话）。其它课题的并行认领保留。
+已部分克隆并实际 `git pull main`，公开根 README、课题 README、HANDOFF、open、results 索引及相关 log/notes 已读。公开已读提交 **f76431f84f21eef7fd7e58bee7b8053323d24b7e**（2026-11-26 10:34 UTC；本次实际pull后根/题README空差异）；历次规则及失败原回执保原note；私有 QUEUE 的本题已改为本会话进行中并成功推送：**9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7**；最后实际pull及规则同blob读至 **c5fd979bd7793b3516aaa9f142855772720cb9b1**（2026-11-26 10:23 UTC核；本小时实际pull成功，根README空差异、QUEUE仍本会话）。其它课题的并行认领保留。
 
 [前历交接](notes/HANDOFF-before-resonant-height-20261126.md)及原note保全部规则/成本/限定。09:18 UTC本地失联后用接口继续保存，API不冒actualpull；09:33恢复partial副本并实际双pull，完整身份见本日日志。
 
@@ -30,9 +30,9 @@
 
 ## 4. 真实平坦核到有限非线性
 
-[R569真实核及原种子](notes/2026-11-26-r569-seed-first-run-receipt.md)、[R571相位原终态](notes/2026-11-26-r571-phase-shooting-natural-final.md)、[非单调连接原终态](notes/2026-11-26-r571-connector-gain-natural-final.md)保全部输入/成本/失效范围：phase残差与高二jets未消，gain run24根/0全必要几何通过，近输入弧长缺.03043、二阶均值C2达2.51e8。继续完整有限非线性，已付尾不重跑。[R583](results/R583-finite-high-mode-flat-kernels-on-the-same-mild-tail.md)付同尾2≤j≤8真实全平核及统一DtN界；不授各模核心共振/全频逆，端校正入完整残差。
+[真实尾核、旧射击及R574/R575前史](notes/HANDOFF-before-adaptive-height-20261126.md)保全部原接口/成本/失败范围，旧种子与射击不重跑。当前有限四模来自R583真实全平核，端校正保在完整残差；二阶均值接口不替代有限非线性。
 
-[R574](results/R574-exact-nonlinear-height-equation-and-core-flux-transversality.md)给准确二次Darboux和Green核心导数；[R575](results/R575-local-second-order-mean-flux-and-radial-metric-design.md)使二阶均值通量成为同场一jets，静态e0=2J0可吸收该均值。受迫高模、有限非线性/核心C2/全局几何仍欠。[R576](results/R576-exact-turning-elimination-and-finite-nonlinear-height-interface.md)已证明完整turning唯一解E，二jets给实际E′/非线性残差/重构metric误差，准确零解的凸圈严格嵌套；C2核心通量可编码R579。[首轮高度原终态](notes/2026-11-26-r576-finite-height-first-natural-final.md)run45795351410付77.036899911秒；光滑背景新H*=.51888809215，52列Jac核1.07e−10，ε1e−5的末细η5.32656e−6仍失败，实际κ约9.5629。[函数尺度续解](notes/2026-11-26-r576-function-space-continuation.md)已提交：复用四内端/H*/52q，实际height jets限步与完整下降回溯；原空间真停滞才一次52→68局部扩充且保同场。未授冻结g或宏观解。
+[R576](results/R576-exact-turning-elimination-and-finite-nonlinear-height-interface.md)已证明完整turning唯一解E，二jets给实际E′/非线性残差/重构metric误差，准确零解的凸圈严格嵌套；C2核心通量可编码R579。[函数尺度原终态](notes/2026-11-26-r576-function-space-natural-final.md)run45798904133付60.921534391秒，原52→68局部丰富保持同高度，末细η1.77362045e−6、direct约1.7738e−6，ε仍1e−5；39实际接受，函数限步0次，末可辨下降耗尽。κ约9.5628只是有限观察。下一精确插结保现有高度、细化真实径向峰，旧内Riccati/H不重射；仍未冻结g/宏观解。
 
 [R587](results/R587-fixed-metric-mean-height-elimination-at-flat-cap-and-core.md)现付冻结完整E_*后的均值斜率根及二jets导数；快速全平类在帽端用W²有理化得真实局部根，核心ζ变量非退化。须固定完整函数/验证中段导数与核心C1输入，未付非零角模逆或收敛。
 

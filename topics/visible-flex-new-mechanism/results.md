@@ -300,3 +300,5 @@
 - [分批B038运行器中断收据](notes/2026-11-26-theta-batched-b038-runner-interruption-receipt.md)：**完整原日志，非自然科学终态**。最后完整500/538检查点η.49466223/V0，566候选已定位；runner shutdown无FINAL，保2条已写pending并明记1条坐标缺失。444.543697291秒仅精确下界及后约131秒未刷区间全保，不采用违规trial。
 
 - [完整十九态端点求解实现](notes/2026-11-26-r530-full-centered-nineteen-bvp-implementation-agent.md)：新完整Fraction/Laurent预收及同36块96/192积分，直接解四组H/L的19态+3参数/22BC。全六第三变量、真实ν恢复及原方程缺陷保留，导引猜测不冒实际路径；尚无新数值根或rank。
+
+- [R576函数尺度自然终态](notes/2026-11-26-r576-function-space-natural-final.md)：**完整原观察**。60.921534391秒，原52→68同场局部丰富将ε1e−5细η降至1.77362045e−6，direct约1.7738e−6；39步接受、函数限步0次，末可分辨下降耗尽。实际末68q完整保，不把失败标签当越域，直接转精确径向插结。

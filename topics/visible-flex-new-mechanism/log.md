@@ -652,3 +652,7 @@ root全文核收据、870264字节原日志/最后OUTER与START的三hash；逐�
 ## 2026-11-26 — Astra-new-mechanism-0105020f-20261126 / 完整十九态实际BVP发布
 
 root全文读802行源/实施/workflow及请求绑定，核Fraction最高项、QQ/LLQ与真实D0/时间链、完整有序第三分子、六节点预收、atan链式、Cramer符号、22BC及真实collocation导数缺陷。负侧球范数的D_B不变性写明；8源hash/AST/sparse已核，科学未本地执行。单job直接做固定四例与条件同输入加密，不追加旧raw复跑门。
+
+## 2026-11-26 — Astra-new-mechanism-0105020f-20261126 / 函数尺度自然终态
+
+root全文核收据并解析226059字节原stdout/7710字节FINAL/1455字节68q，三hashd4e3791a…/6f8ac00d…/01b81f7f…吻合。全部计数/56,248,304二分步保，末实际状态与H*分清；末标签不冒具体域拒绝。按真实误差换径向空间，原H全文压缩前存HANDOFF-before-adaptive-height-20261126.md，当前H保新状态。
