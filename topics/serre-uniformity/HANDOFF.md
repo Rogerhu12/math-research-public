@@ -6,19 +6,17 @@
 
 会话 **Astra-serre-24b8836b-20261126**。本轮已部分克隆并真实pull main，读两README/H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则读至36cf1ed2。不重做已登记结论或窗口。
 
-**公开两README已读提交：80523277bb465e634f6ff65e61d7a05c6409992e**（2026-11-26 21:54 Asia/Taipei；本次同步两README无差异）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
+**公开两README已读提交：5496310065e75ee570c1ac6898d881ad6927ae13**（2026-11-26 22:04 Asia/Taipei；本次同步两README无差异）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
 
 执行宿主本轮断连；13:42 UTC单次恢复探测仍无环境。按根规矩8用GitHub小文本原子tree/commit、最新head检查和非force expected-head更新；并发拒绝立即在新head重建循环至成功，保其它会话。终端恢复补pull --rebase。令牌仅此前CLI使用，未存文件/提交。根维护main/H/open/index/log；子研究交数学稿。每条结论完整审后立即推。19:52纠正：global_route曾违规用会话V8做数学探索，已叫停；已知范围、时长及独立纸面重核见[执行偏差记录](notes/2026-11-26-execution-path-deviation-and-correction.md)。不得把其数字记为证明或合规窗口。
 
-H<10KB、open尽量<30KB、每MD<100KB、topic<200MB；无可重算raw、不写根LOG。[本次逐字前态](handoff-archive-2026-11-26-before-finite-corner.md)沿链保全部旧来源/run/hash；[open](open.md)、[索引](results.md)是完整入口。历史“R1003 norm3准备中”未交付，现R1003为范围纠错。
+H<10KB、open尽量<30KB、每MD<100KB、topic<200MB；无可重算raw、不写根LOG。[本次逐字前态](handoff-archive-2026-11-26-before-CM-jet-functional.md)沿链保全部旧来源/run/hash；[open](open.md)、[索引](results.md)是完整入口。历史“R1003 norm3准备中”未交付，现R1003为范围纠错。
 
 ## 最新全局实际来源
 
-[R1030](results/R1030-integral-finite-corner-projector-and-original-CM-affine-action.md)：R434本原有限格给φ(g)≡1modp，故E=(e_triv+e_τ₁)e_N为真整角投影，原Hodge/BT作用等于R1029 e₁。全Weil分支上EF=F，F=x^(2g−1)y；R1028/29实际提升差与R1021逐层作用给E(A_tail·x^(2g−1)dx/y)=0。保A_tail随det运输；原jet前因子a及其与首log相对位置仍须算。
+[R1032](results/R1032-original-lowest-type-complete-CM-normal-jet-functional.md)：原p11mod12底L在中心第m层为ε(2/m)ΣL_sθ_s db/(b−s)²；逐层gluing保中心变形，CM早于4m全零。最高极部与R1030整投影给实际e₁Ω_L的4m层=κ₁R_L(1)d(x^(2g−1)y)，原κ₁保留。原Abel系数列为−κ₁√A_tail ε⁴/m·Σθ_s/(1−s)²f_s，现与首log同格；不把graded jet或whole-vector比较冒真实MW饱和空间/统一半径。
 
-[R1029](results/R1029-original-lowest-inertia-type-integral-Hecke-splitting.md)：原p11mod12的完整Nns谱保奇cusp/偶PS；Savitt全部剩余型逐项排τ₁与补块重合，给真实e₁∈T^s⊗Zp及原BT整分裂。special Hodge纯权m，全部原首log保留，R1026负δ首层仍本原；块内同权提升模p唯一，R1028任意提升差投后进p层。实际非齐次CM jet及所选简单商Néron格仍须算，不把p-adic类型块冒Q简单商。
-
-[R1028](results/R1028-original-Igusa-Kummer-model-and-same-order-CM-jet-correction.md)：原p11mod12中心u^m=r^(2g)A_p，完整u^-2 Hodge空间=<1,b,b²>db/u²；实际负δ线b db/u²的CM节点阶2g−2、完整权e0−p−1。整底lift可加π0^(3m+2)Ω_I，经厚度三真节点准确在ε⁴改同一t^(4g−2)dt系数。原ρ/首系数保留；指定Hecke/q_C选择的实际系数仍须求，不能默认零或冒原jet单位。
+R1028真实Igusa与同阶提升差、R1029真整τ₁ Hecke/BT分裂、R1030全部配对分支上的整有限角E均已成。E固定dF、杀A_tailν；块内同权lift模p唯一并保完整原首log。该块不冒Q简单商，具体Néron尺度仍开。原全部系数/角色/来源见各结果及逐字前态。
 
 [R1026](results/R1026-original-single-remainder-and-integral-CM-annihilating-log-direction.md)：固定hypergeometric两尾系数rank2给定义明确绝对C_*，全部p>C_*、p5mod6原Q∤P1−y^ℓ。实际p11mod12行，e_-=(1+ζδ+ζ²δ²)/3作用原logP的首层非零；R575/R1010完整CM方向使其杀全部CM新部，旧部亦杀。原Lie格的饱和CM商中准确Fm本原；未宣R1011具体Néron商格单位或原CM jet半径。
 
@@ -75,4 +73,4 @@ R696早已证明同一全局Φ候选Ω_actual={0}，R832已消费；不重做、
 
 固定Y的R805–930及全部runs/高维格/预算边界见open与逐字归档，只消费已成输入。R907四artifact真404仍producer_inputs_pending，不重造；预算失败不作数学负结论。固定41全129盘/8CM已由R707完成，不重开。R575旧正CM角色根号−与逆twist秩零撤回有效。R1004仅导子下界而非a/c上界，停止重复优化。
 
-当前并行：R1029实际整投影下的非齐次CM jet及相对整格；原primitive/Legendre同标签；原bare完整regular/carry。子问题完成即接open其余项，真正达到README完成标准才收尾。
+当前并行：R1032同格两列与真实MW饱和空间、原有理w盘尾项和Néron相对格；R1031中心导数及原primitive/Legendre同标签；原bare完整regular/carry。子问题完成即接open其余项，真正达到README完成标准才收尾。

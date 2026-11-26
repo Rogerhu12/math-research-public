@@ -8,6 +8,8 @@
 
 ## 新增结论（2026-11-26）
 
+- **R1032（已证明）**：[R1032](results/R1032-original-lowest-type-complete-CM-normal-jet-functional.md)：原p11mod12底L在中心第m层为ε(2/m)ΣL_sθ_s db/(b−s)²；逐层gluing保中心变形，CM早于4m全零。最高极部与R1030整投影给实际e₁Ω_L的4m层=κ₁R_L(1)d(x^(2g−1)y)，原κ₁保留。原Abel系数列为−κ₁√A_tail ε⁴/m·Σθ_s/(1−s)²f_s，现与首log同格；不把graded jet或whole-vector比较冒真实MW饱和空间/统一半径。
+
 - **R1031（已证明）**：[R1031](results/R1031-original-fN-and-actual-Faber-truncation-central-derivative.md)：全部p=6N+5≥41，原f_N=0 iff R′(1/2)=0，R=[P_d(1−2z)²]≤d、d=(p−2)/3。真实AS Faber、Hasse²分拆和原二次商路径给DV_(p−1)†=(9/4)(ζ²−1)B r^p C_AS⁻¹R′，全部外因子原单位。forcing准确−(d+1)³(C_AS/9)z^d；27因子保留。中心导数单位性、primitive/Legendre同h与bare仍开。
 
 - **R1030（已证明）**：[R1030](results/R1030-integral-finite-corner-projector-and-original-CM-affine-action.md)：R434本原有限格给φ(g)≡1modp，故E=(e_triv+e_τ₁)e_N为真整角投影，原Hodge/BT作用等于R1029 e₁。全Weil分支上EF=F，F=x^(2g−1)y；R1028/29实际提升差与R1021逐层作用给E(A_tail·x^(2g−1)dx/y)=0。保A_tail随det运输；原jet前因子a及其与首log相对位置仍须算。

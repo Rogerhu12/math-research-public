@@ -366,3 +366,13 @@ global_route 与 root 对整系数公式、所有分支、
 \(A_{\rm tail}\) 的 determinant 运输作纸面审核。
 没有执行数学程序或重扫已有窗口。
 Serre 主目标仍 OPEN。
+
+
+## R1032 接续：原前因子已确定
+
+[R1032](R1032-original-lowest-type-complete-CM-normal-jet-functional.md)
+已保中心自身变形及全部 normal 层，求得原底向量 \(L\) 的
+实际前因子为 \(a(L)=\kappa_1(2/m)\sum_sL_s\theta_s/(1-s)^2\)。
+因此本篇 §7 的来源比较现已完成；原 \(p\)-单位 \(\kappa_1\)
+和整 Serre 配对保留。仍须另证真实 MW 饱和空间的横截性、
+更高 normal 层的低 Taylor 项与统一原盘半径。

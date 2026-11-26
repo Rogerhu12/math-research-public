@@ -499,3 +499,13 @@ global_route 与 root 纸面逐项核完整局部类型、character 奇偶、
 底 log 保留和 (1029.20) 的完整次数。
 本篇没有数学程序或有限素数扫描。
 Serre 主目标仍 OPEN。
+
+
+## R1030–R1032 接续
+
+原整 \(e_1\) 已由 [R1030](R1030-integral-finite-corner-projector-and-original-CM-affine-action.md)
+实现为全配对分支上的明确有限角投影；
+[R1032](R1032-original-lowest-type-complete-CM-normal-jet-functional.md)
+已计算其原 CM 第 \(4m\) normal 层及完整底 Hodge 线性泛函。
+不再重复求该 graded jet。具体半秩商的 MW 饱和格、
+Néron 相对尺度及原有理盘的全部低项和尾项仍须继续。

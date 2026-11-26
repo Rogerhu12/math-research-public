@@ -255,3 +255,8 @@
 ### 2026-11-26 21:52 Asia/Taipei — R1031 原f_N的真实Faber中心导数
 - [R1031](results/R1031-original-fN-and-actual-Faber-truncation-central-derivative.md)：全部p=6N+5≥41，原f_N=0 iff R′(1/2)=0，R=[P_d(1−2z)²]≤d、d=(p−2)/3。真实AS Faber、Hasse²分拆和原二次商路径给DV_(p−1)†=(9/4)(ζ²−1)B r^p C_AS⁻¹R′，全部外因子原单位。forcing准确−(d+1)³(C_AS/9)z^d；27因子保留。中心导数单位性、primitive/Legendre同h与bare仍开。
 - o1/root完整纸核，o2核原period和27因子；AS/Borwein/Matsuda原文、R949完整来源及R918具体单位范围均实际读。没有把forcing单位当中心导数单位，无数学程序，继续原同标签和bare。
+
+
+### 2026-11-26 22:02 Asia/Taipei — R1032 原CM normal jet完整泛函
+- [R1032](results/R1032-original-lowest-type-complete-CM-normal-jet-functional.md)：原p11mod12底L在中心第m层为ε(2/m)ΣL_sθ_s db/(b−s)²；逐层gluing保中心变形，CM早于4m全零。最高极部与R1030整投影给实际e₁Ω_L的4m层=κ₁R_L(1)d(x^(2g−1)y)，原κ₁保留。原Abel系数列为−κ₁√A_tail ε⁴/m·Σθ_s/(1−s)²f_s，现与首log同格；不把graded jet或whole-vector比较冒真实MW饱和空间/统一半径。
+- global/root/o2纸核零residue与Ω(D)提升的不同职责、完整normal归纳、真实trace-zero最高极部、全分支投影及原配对。未把graded层当generic首Taylor层或全MW空间；无数学执行，两README同步无变化。

@@ -2,15 +2,13 @@
 
 **主要目标仍OPEN。** 完整证明绝对常数C，或给出p→∞完整无CM反例族；有限素数、条件结论、低权/局部Abel/部分子群均不够。
 
-此前逐字状态在[最新open归档](open-archive-2026-11-26-before-finite-corner.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重新计算已成输入。
+此前逐字状态在[最新open归档](open-archive-2026-11-26-before-CM-jet-functional.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重新计算已成输入。
 
 R1018已证原P=(p−1)D₀在良好J₁准确Fm，m=(p−1)/2、π₀^((p²−1)/2)=p；原六标记/zero-flux/全局Cech与e3 odd gaps保留。R1019实际A=T5²、Z=(T31−32)T5²保Fm且杀CM，Z另杀Q挠点，充分大界分别max(575,N_HA)、max(36863,N_HZ)，N为固定Norm函数lc/resultant。R1021真full-p Cohen/μ平均给全非约化O/(p)仿射刚性，原u′=ε(c_Qψ+pR_Q)、R_Q仅仿射正则。全部证明与支撑/次数界见[逐字前态](open-archive-2026-11-26-before-actual-CM-jet.md)。R1023现已付清实际首log节点和跨尾返回；实际H_A/H_Z新支撑、所选简单商Néron格及非齐次CM jet仍须核；最低惯性型整投影已由R1029完成。
 
-[R1030](results/R1030-integral-finite-corner-projector-and-original-CM-affine-action.md)：R434本原有限格给φ(g)≡1modp，故E=(e_triv+e_τ₁)e_N为真整角投影，原Hodge/BT作用等于R1029 e₁。全Weil分支上EF=F，F=x^(2g−1)y；R1028/29实际提升差与R1021逐层作用给E(A_tail·x^(2g−1)dx/y)=0。保A_tail随det运输；原jet前因子a及其与首log相对位置仍须算。
+[R1032](results/R1032-original-lowest-type-complete-CM-normal-jet-functional.md)：原p11mod12底L在中心第m层为ε(2/m)ΣL_sθ_s db/(b−s)²；逐层gluing保中心变形，CM早于4m全零。最高极部与R1030整投影给实际e₁Ω_L的4m层=κ₁R_L(1)d(x^(2g−1)y)，原κ₁保留。原Abel系数列为−κ₁√A_tail ε⁴/m·Σθ_s/(1−s)²f_s，现与首log同格；不把graded jet或whole-vector比较冒真实MW饱和空间/统一半径。
 
-[R1029](results/R1029-original-lowest-inertia-type-integral-Hecke-splitting.md)：原p11mod12的完整Nns谱保奇cusp/偶PS；Savitt全部剩余型逐项排τ₁与补块重合，给真实e₁∈T^s⊗Zp及原BT整分裂。special Hodge纯权m，全部原首log保留，R1026负δ首层仍本原；块内同权提升模p唯一，R1028任意提升差投后进p层。实际非齐次CM jet及所选简单商Néron格仍须算，不把p-adic类型块冒Q简单商。
-
-[R1028](results/R1028-original-Igusa-Kummer-model-and-same-order-CM-jet-correction.md)：原p11mod12中心u^m=r^(2g)A_p，完整u^-2 Hodge空间=<1,b,b²>db/u²；实际负δ线b db/u²的CM节点阶2g−2、完整权e0−p−1。整底lift可加π0^(3m+2)Ω_I，经厚度三真节点准确在ε⁴改同一t^(4g−2)dt系数。原ρ/首系数保留；指定Hecke/q_C选择的实际系数仍须求，不能默认零或冒原jet单位。
+R1028真实Igusa与同阶提升差、R1029真整τ₁ Hecke/BT分裂、R1030全部配对分支上的整有限角E均已成。E固定dF、杀A_tailν；块内同权lift模p唯一并保完整原首log。该块不冒Q简单商，具体Néron尺度仍开。原全部系数/角色/来源见各结果及逐字前态。
 
 [R1026](results/R1026-original-single-remainder-and-integral-CM-annihilating-log-direction.md)：固定hypergeometric两尾系数rank2给定义明确绝对C_*，全部p>C_*、p5mod6原Q∤P1−y^ℓ。实际p11mod12行，e_-=(1+ζδ+ζ²δ²)/3作用原logP的首层非零；R575/R1010完整CM方向使其杀全部CM新部，旧部亦杀。原Lie格的饱和CM商中准确Fm本原；未宣R1011具体Néron商格单位或原CM jet半径。
 
