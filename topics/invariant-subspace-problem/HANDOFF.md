@@ -5,10 +5,10 @@
 ## 主目标、规则与执行
 
 - **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍仅全体有界算子的存在定理或完整反例；子结果不作完成。
-- **最近实际 pull / 已读规则提交：** `1dddfd27cf3bac88d3dc3ebfd8f13993b6a1fa1a`（2026-11-26 08:38:35 UTC）。本次两README无新规则差异；已读根/课题README、H/open、结果索引及定点log/notes。每次pull及至少每小时比diff，记录SHA。
+- **最近实际 pull / 已读规则提交：** `b61c0767eaf55095f6c3edab5936e9f95658f9c1`（2026-11-26 08:44:14 UTC）。本次两README无新规则差异；已读根/课题README、H/open、结果索引及定点log/notes。每次pull及至少每小时比diff，记录SHA。
 - 私库 `QUEUE.md` 已成功更新认领，提交 `e776df496eedfa449b0475cefe140fdae7023db4`；非快进已逐次pull --rebase后重推成功。研究在公开仓库，私库仅维护QUEUE；不force，令牌仅CLI环境。
 - 工作树 `/tmp/isp-347c05929dd3/math-research-public`；root独占git/索引，代理独占TMP；每结论单推，仅存源/参数/身份/SHA。
-- 完整交接链见[最新压缩前H](notes/2026-11-26-handoff-before-rank-three-double-single-degenerate-347c.md)及其旧归档。MD<100KB、H<10KB、open尽量<30KB、topic<200MB；不写根LOG。
+- 完整交接链见[最新压缩前H](notes/2026-11-26-handoff-before-exponential-weighted-global-residual-347c.md)及其旧归档。MD<100KB、H<10KB、open尽量<30KB、topic<200MB；不写根LOG。
 - 请求14、311及权11旧执行身份已登记，不重做已闭计算。
 - 当前并行：rankV2/rankH3的ess6满支撑；unit211一般q/P0非零的m零/非零分工；R271全T孔权及允许改零列的真实Schur/MP。全局幂与算子桥继续。
 
@@ -36,16 +36,15 @@
 
 M=kerT、N=closure BM；N=M未证。始终保same-w/u、全部partial、真intersection旗、MP自然域、负前缀/未来/carry与真帽外投影。旧τ14/Bessel、PV−PK能量、一次MP与各低旗预算只保原范围；核外第二逆/任意kernel-input未付。
 
-- 旧完整Galerkin/MP、真旗代表及β行Bessel1保原窗；same-w锚必要Σκ⁻²有限。增长R/Q须重核母窗及真帽。
-- 原forcing为f1=e1⊗Ω、C²f1=0；不是任意物理一孔输入。
-- 原N/Y偶R奇r的全MP至多t⁻¹，偶r可t⁻²。旧883a/1400a预算还须全源≤Lt²且logL=o(a)，未证。
-- [精确源极点](results/R271-appendix-complete-galerkin-highest-carry-pole-and-cancellation-criterion.md)：K=kerX0、E1=P_cokerX0 X1|K、F0=kerE1，E1*q₋₁=P_K(f−H0a0)。有界恰退化全K-Galerkin解属F0；O(t)还须ξ0=0且P_Kξ1=0。固定E不代移动谱投影。
-- **原全高度/真旗既闭范围：** 任意奇r的完整Hankel合同、全0<t≤1去极点余量、最高单位不变、辅助带宽及S/R一致真旗界，均保原物理Gram/全部长链。原forcing三旗/全高度源无权界已付，但仍含粗64^R，γ近1估计不能替代γ<1/16。完整参数、自然域及来源保[结果索引](results.md)与前H；物理Sx的绝对Z仍开。
+- 旧Galerkin/MP、真旗、β行Bessel1保原窗；同w锚须Σκ⁻²有限，增长R/Q须重核母窗。forcing准确f1=e1⊗Ω、C²f1=0。
+- 原N/Y偶R奇r全MP至多t⁻¹，偶r可t⁻²；883a/1400a余量还需全源≤Lt²、logL=o(a)，未付。极点准确E1*q₋₁=P_K(f−H0a0)；有界恰全K解属F0，O(t)还需ξ0=0及P_Kξ1=0，固定E不代移动谱投影。
+- 全奇高度Hankel合同、全t余量、最高单位不变与三真幂旗源无权界已付。辅助带宽与方差一致性不支付γ<1/16；原粗64^R仍在，不能转称绝对Z。完整参数、整数来源、自然域及长链见结果索引和前H。
 - **[联合carry相对Gram](results/R271-appendix-joint-carry-finite-fock-multiplier-and-exponential-strong-prefix-gram.md)：** 同F全Gram/inverse及双向Γ乘子已付，原未加权最小者不换。
 - **[指数强前缀实际源](results/R271-appendix-exponential-strong-prefix-actual-variance-source-limit.md)：** x+1≤exp(26d³)/4、1≤J≤d+x−m−1、s≥Sx→0时，全空间inverse/列强趋P_M/第零层，正能量趋0。含Sx/J1，无速率，母Q窗已付。
 - **[实际方差孔权差](results/R271-appendix-actual-window-weighted-full-galerkin-residual-transfer.md)：** x+1≤d⁴/64及原J窗，原同F的ξ/a/能量列Γ差≤e^(−7d⁴/4)。零头改基m−1且Q′≥R+r，同F0差≤e^(−7d⁴/64)；绝对Z未付。
-- **[真空矩/物理运输](results/R271-appendix-vacuum-source-moments-all-strong-physical-transport-and-weighted-inverse.md)及[原全T完整加权逆](results/R271-appendix-global-actual-operator-weighted-full-gram-inverse.md)：** y=m+d、s≥2²⁴/y，全部有限/无限级数的原inverse闭孔权界16/15；全carry的两向权范数≤e^(−7d⁴/4)，T与L_m的逆差≤e^(−d⁴)。同源旧物理列差再加96√μ1/(√(3K)y)，同w配对准确。s趋0时权起点移动，不得推P_M同权性；真核/F0/Sx仍开。
+- **原真空矩/全逆已付：** 精确阶乘矩给物理列差96√μ1/(√(3K)y)，同w/u/partial及一次共同log方差准确；L_m逆权界31/30，旧y=m+d全T为16/15。完整来源见结果索引，新相对比较见下条；移动权起点不推P_M同权性。
 - **[大辅助方差真实F0完整逼近](results/R271-appendix-large-auxiliary-variance-true-kernel-galerkin-approximation.md)：** 低新孔≤L空间在所有真核内，r≥2d+L时原Galerkin能量误差≤(16/15)32^(−L−1)。L=d,r=3d+1,R=576(m+1)²d²,Q=R+r全原窗，s=K/y给ξ≤e^(−2d)、真F0源强趋P_M；同源修正i0ξ保V/K/partial。物理Sx孔权、完整MP返回仍开。
+- **[指数起点的原全T相对加权界](results/R271-appendix-exponential-weight-cutoff-relative-global-gram-and-actual-weighted-residual.md)：** 真实完整L列投影Γ共轭≤16/15；环境A=I+P(U*U−I)P给原最小者运输，不假Γ保列空间。J/s≤ℛ_m²的有限列≤9/8；支付J*≥max(h−1,81e²/s,4d⁴+2)后全列≤8/7、T/L差e^(−3d⁴/2)，真实Γ_y T a≤(8/7)√s‖f‖。y≤e^(12d³)母窗已付；零头改基须y≤e^(12(d/2)³)。同源清除仍缺，通用Xκ费含e^(κy)。
 - 小头m2/R2小κ、m3/R0/r3巨大κ及非零极点保索引，均不在旧联合窗，不逐级外推。
 - **[冻结大方差零列的物理返回下界](results/R271-appendix-large-variance-fixed-zero-column-return-lower-bound.md)：** 原f1正规式给‖Ca_s‖≥s/(s+49)；真核z0=a_s时‖z‖≥s/[(s+49)√Sx]，合法R=d/r3窗为≥√3·2²⁴√x/50。同F物理方差列差≥2²⁴/(700x)；仅保级双塔未投影差继承下界。允许改零列的全MP/最终投影仍开。
 

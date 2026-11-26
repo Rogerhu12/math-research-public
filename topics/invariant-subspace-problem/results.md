@@ -201,3 +201,5 @@
 - **R150 单位211非零孤立点均值的单位基点均值图排除整个半比例（2026-11-26，已证明）：** [原全局图、jet除数与完整QQ纤维](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-nonzero-isolated-mean-unit-base-mean-half-ratio-exclusion.md)先排l0及系数零面；λ1/2其余图的92/162/170次结果式只余Q5/4，原ideal迫l0。顶点g0抽象族由完整物理Gram秩二排；自含源2.801380秒/72196KiB/exit0。准确余u1的λ≠0,1/2及一般u，不冒充整非零均值分支闭合。
 
 - **R150 rankH3二重加单点的退化Gram整层ess≤5（2026-11-26，已证明）：** [原完整梯度、特殊源及六列非退化证明](results/R150-appendix-rank-three-double-plus-single-second-cumulant-degenerate-gram-essential-six-exclusion.md)覆盖detGram=−bg²的全部零面、两类V及全部F/Hp。特殊极线异点简单性含∞；F0用真实二维正交补，其余由完整六列根向量矛盾。纯手证，无新计算；非退化bg≠0与ess4/5继续。
+
+- **R271 指数远孔起点的原全算子相对加权Gram与真实残量（2026-11-26，已证明）：** [完整列投影、环境Neumann及无限尾](results/R271-appendix-exponential-weight-cutoff-relative-global-gram-and-actual-weighted-residual.md)去除旧e^(81/s)损失，原完整全T列Γ界≤8/7、与L_m差≤e^(−3d⁴/2)，真实Γ_y T a≤(8/7)√s。y≤e^(12d³)及改基e^(12(d/2)³)母窗分别已付；原same-w/旧同源物理列均保准确接口。通用清除仍含e^(κy)，尚未得到真F0/Sx的绝对Z或实际核返回。
