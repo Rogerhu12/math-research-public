@@ -1,6 +1,6 @@
 # 待解：同一个精确闭等距族的剩余实际接口
 
-更新2026-11-26。**总任务未完成，持续工作，不等用户。**
+更新2026-11-27（台北）。**总任务未完成，持续工作，不等用户。**
 本页及H全部递归前页见[当前完整检查点](notes/2026-11-16-actual-tail-and-terminal-before-scaled-jets-checkpoint.md)1fe66a45/40345/35475095；其内逐字保存共同sign补正、ab95e8019daf1e70de9de0c50a4f0b88ff51c3ef及全部既有原球/域/单位/mean/失败/lost/恢复和未付义务。压缩仅索引，旧成功禁止重算。
 
 ## 1. 总验收与同一个对象
@@ -155,25 +155,25 @@ G以S/T E1856给physical C²整盘/曲率<2/径长<8e−6及同world position/no
 
 | 路线 | 实际状态与下一项 |
 |---|---|
-| R142→PS | [actual45761859526/1](results/R142-supplement-actual-parent-moment-wall-cap-and-durable-continuation.md)预算终止且无六球；[PS真实入口](notes/2026-11-26-low193-streamed-defect-after-45761859526-inputs.json)85pins已核，run45802396138/1运行，accepted0/155，逐母格三平方全保存。新19600s/旧16800保；ε未知。true接[NS](notes/2026-11-26-R142-neumann-source-point-execution.md)五件已核，94pins只待真PS两结果；fullfalse才signed。 |
+| R142→PS | PS45802396138/1实际预算终止，ε仍未知，但完整76/155母格三积分已保存；[真实续接入口](notes/2026-11-27-low193-streamed-defect-after-45802396138-inputs.json)只算余79母格，85pins/14bindings/24gates与原数学目标不变。全六球true接[NS](notes/2026-11-26-R142-neumann-source-point-execution.md)，fullfalse才signed-loop。 |
 | R149 physical链 | [58→224→32](notes/2026-11-26-physical-scalar-execution.md)及[PN56](results/R149-supplement-actual-positive-negative-receiver-execution.md)等待真低逆；全部L²_r head消元必须真实square通过，14原ports保持自身单位，true root96/mean/ν仍留。 |
 | common source4→6 | [source4实际](results/R149-supplement-actual-common-high-WPN-source-unit-ball.md)45783842857/1完整4/4锁定。原Xfr−4/3、state outermean与aux Ec*e保；[CXN6完整入口](results/R149-supplement-actual-common-high-negative-receiver-execution.md)已推，无actual32则无manifest。P/T同因三角，Ni/output9一次。 |
-| fixedη0 forward | 45778507038/1在跑，7296格6143接口、320bits/N512/源24流25、5h/6h。旧wholeη45772466407完整但positive/C0/外mean unknown、无真违例，成功覆盖锁定不重；[suffix规范](notes/2026-11-26-R144-fixed-eta0-mean-suffix-state-spec.md)仅真未完成才用。 |
+| fixedη0 forward | 45778507038/1完整7296格/6143接口；positive mean门true，同φ C0及outer mean门false。row7147实际距离下界>1.00195589e−4、terminal mean偏移约−7.66584024e−4，不再续跑此已完整forward。改接下行compact mean中心，不推全族不存在。 |
 | compact mean/C0 | [TM actual](results/R144-supplement-actual-terminal-mean-small-root-and-density.md)45791979634/1全12 mean/root/density门true；[LC actual](results/R144-supplement-actual-localized-full-state-and-compact-sources.md)45797426031/1全7721/6143/27球，sameφ C0约1.978398124460e−5、1e−4门true。新中心五源和全jump已锁，未来真GC修正仍另加；nonmean/height/caps未成。 |
 | reflected waist | [RW实际](results/R149-supplement-actual-reflected-finite-waist-rows.md)45787309600/1全96rows/480球，真a=2H(0)、signed mean、整DFT/alias/tail。下一按[SC](results/R149-supplement-signed-finite-columns-and-full-negative-residual-sources.md)付真PDE trial/完整残差/signed pairing，不把root96子块叫fullSchur。 |
 | graph高块 | [CG](results/R149-supplement-positive-feedback-in-the-complete-graph-high-block.md)准确邻接约消并保真正物理96列；actual common6/PN56未齐，新高门未通过。WDH旧homogeneous高逆保持原范围，完整巨大finite/mean/ν/phase不删。 |
 
 R143 correlated body已全4651；R146全418/13376使当前CV/RA根费格式失败，禁止继续该格式Gram/容量/仅DH细化，不推PDE奇异。R145/R147和[NW](results/R147-supplement-actual-same-window-negative-nu-waist.md)各旧成功锁定；NW只给ordinary零root/无impulse负ν分量，非全误差≤.005。
 
-executor已恢复并实际pull/rebase至e08413ed9，两README无diff、worktree干净；workspace盘满用/tmp克隆。至少每小时pull；再断开则根规8读main/diff，恢复立即pull。公开Actions科学、容量/尺寸、旧成功禁重及全部失败/unknown保，最终须同一次冻结metric与所有门。
+本会话已在独立partial+sparse目录接手，公开main已pull至12385db351ab03292b18db4cfc40e86754aadc89并读两README。每次pull核规则差异、至少每小时一次。公开Actions科学、容量/尺寸、旧成功禁重及全部失败/unknown保，最终须同一次冻结metric与所有门。
 
 [CS新中心完整源](results/R144-supplement-compact-centre-ordinary-and-divergence-residual.md)已证exact ordinary/divergence分解，径向常数Δκ只从angular flux准确消去、仍在ordinary项；原Rv−jR0及ξχ′完整保。五个新局部积分量消费actualρ/b后可执行；first-row H−2/3不免费删角导数，384^1/3费与所有rawjump/physical composition仍保。
 
 [TM terminal→normalized constant](results/R144-supplement-terminal-mean-small-ball-controls-normalized-forward-constant.md)使用真实terminal球与waist L²界控制Dbar，保全部CP/source/jumps；actual45791979634/1已完成unique-root、统一mean/density，旧粗sameφ门false留原件。LC已另完成更紧C0，不重forward/W。
 
-[PS完整父段源积分续接](notes/2026-11-26-R142-streamed-defect-execution.md)：proof/pure/owner/generator全核，复用原worker；85pins/14bindings，真实R142三件与完整原77pins逐件核定。首manifest SHA77eebc42e5aea4870217c628455c608abd0071f8236f0c538170d50f5a23cbf3已实例化并推送启动，0/155已接受积分；每母格三球整件保存读回才推进全输出/193atoms游标。新owner19600s、worker20100s、360min job，旧16800s预算原封保留。已有完整六球优先消费，packet计数不授积分前缀。
+[PS完整父段源积分续接](notes/2026-11-26-R142-streamed-defect-execution.md)：proof/pure/owner/generator全核，复用原worker；85pins/14bindings，真实R142三件与完整原77pins逐件核定。首manifest SHA77eebc42e5aea4870217c628455c608abd0071f8236f0c538170d50f5a23cbf3原首轮已实例化并完成76/155母格；当前续接只做剩余积分；每母格三球整件保存读回才推进全输出/193atoms游标。新owner19600s、worker20100s、360min job，旧16800s预算原封保留。已有完整六球优先消费，packet计数不授积分前缀。
 
-R149 signed-loop及[CP/physical](notes/2026-11-26-physical-scalar-execution.md)已接原77/PS85完整来源与NS真四源/point；原程序在六球保存后、完成标记前失败也只消费原全球，PS则整件核六球/目标/155母格。失败状态不改，原/PS不同scope键分别核实；数学尾和trace/HS/θ/γ五目标均不变。当前真实R142缺球，PS运行中，尚无signed-loop实际manifest或运行。
+R149 signed-loop及[CP/physical](notes/2026-11-26-physical-scalar-execution.md)已接原77/PS85完整来源与NS真四源/point；原程序在六球保存后、完成标记前失败也只消费原全球，PS则整件核六球/目标/155母格。失败状态不改，原/PS不同scope键分别核实；数学尾和trace/HS/θ/γ五目标均不变。当前R142/PS尚缺完整六球，PS已有76/155真实母格前缀并启动后继；尚无signed-loop实际manifest或运行。
 
 
 

@@ -1,0 +1,46 @@
+name: R142 actual unfinished defect with durable parent integrals
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/visible-exact-low193-streamed-defect-after-45802396138.yml'
+permissions:
+  contents: write
+concurrency:
+  group: visible-exact-low193-streamed-defect
+  cancel-in-progress: false
+jobs:
+  whole-low193-streamed-defect:
+    if: github.repository == 'Rogerhu12/math-research-public' && github.run_attempt == 1
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    env:
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+      MKL_NUM_THREADS: '1'
+      NUMEXPR_NUM_THREADS: '1'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-exact-nearby/README.md
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_collar_volterra_dual_public_worker.py
+            /topics/visible-flex-exact-nearby/notes/2026-11-27-low193-streamed-defect-after-45802396138-inputs.json
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12.14'
+      - name: Install fixed directed runtime
+        run: |
+          python -m pip install --disable-pip-version-check --only-binary=:all: python-flint==0.9.0
+      - name: Continue only genuinely missing complete source parents
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: >-
+          python topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_collar_volterra_dual_public_worker.py --repo "$GITHUB_WORKSPACE"
+          --manifest topics/visible-flex-exact-nearby/notes/2026-11-27-low193-streamed-defect-after-45802396138-inputs.json --manifest-sha f10490f5c4e4e7c6dc71d3dca78dad20354a37675a6b67e24d22606974134714

@@ -181,3 +181,6 @@ NS五件共129172B，owner71056B SHA18db439d5895e4232882940a57b7bd9457982383e1ac
 ## 2026-11-26 11:33:58 UTC：CP与physical接完整NS及R149 v2，不改变数学目标
 
 七件窄补共净32926B；根全差异与所有新增metadata分支核完，CP从publish/try开始的数学尾与原实现逐字相同，physical58所有纯公式及224/32文件不动。R149 v2只AST提取原123eb575完整源的readonly_decimal_endpoints/completed_parent_defect及显式literal，固定SHA46b11da5fb7430576d8a38555b12f6fa57104dc8effdf2f0b88d11e181afff0b，全部依赖闭合；原/PS sixball全域与真实failed/complete/target状态保持，并与真实theta结果保存provenance相同。NS明确核完整四源、原PS直接整三件、全1424cells/5696point盒和同model/reference，恢复只做余下目标不减最终完整要求。physical emit改为完整candidate同bytes/全解析/球contains后formal，YAML pip改block。五科学Python已由agent实际AST核，根核全部hash/diff与数学尾一致；未造任一actual/manifest。executor重恢复但workspace仅1.2MB余，刚建无index克隆移/tmp，restore全部所选已跟踪文本后干净，真实pull至e08413ed9d050b02f9bd1e6c894b1ccc9a1bc828，两README无差异。
+
+
+2026-11-26 19:00 UTC / visible-exact-astra-fb31ed6-20261127：partial+sparse接手两仓库，读根/课题规则及H/open/log/当前notes，私库QUEUE改本会话（课题外改动仅登记责任人）。PS实际76/155母格可恢复，生成只做余79母格的续接manifest/workflow；R144 fixedη0 forward真实完整失败，转compact mean。并行修TC历史输入与推进原逆/closure；总目标仍未完成，持续研究。
