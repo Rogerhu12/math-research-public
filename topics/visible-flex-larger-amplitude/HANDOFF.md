@@ -4,7 +4,7 @@
 
 ## 规则与完整目标
 
-最近规则核查：2026-11-26 15:12:04 UTC，真实pull/rebase至 `327a621f6e7fb5a1232859d4f9ba08cd291cc8ca`，双README相对`4adf950498047e76e4a17b0f81f93d8c4f6b5b0a`无差异，授权及规矩继续执行。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
+最近规则核查：2026-11-26 15:16:11 UTC，真实pull/rebase至 `37413324ac8b062522f9f8968586a76ba71b4871`，双README相对`ad4b129edcc09592770ea062c229511aae519102`无差异，授权及规矩继续执行。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
 
 科学计算仅本公开仓库Actions；早前本地偏差及纠正见[执行记录](notes/2026-11-20-public-actions-execution-correction.md)。root唯一分支写者；代理只scratch及未引用小源blob。每条结论普通commit/push，NFF立即pull --rebase循环再推，不强推。至少每小时pull，每次核双README差异/立即遵新规并记commit。raw只scratch/runner，不入Git/Release/artifact；保完整小源/参数/run/SHA/紧凑结论。题≤200MB、单文件<5MB、MD<100KB、H<10KB、open<30KB。令牌仅瞬时CLI。终端13:55 UTC起失联期间依根8以小文本connector提交；环境恢复后已重建blob:none/sparse检出并补真实pull，在线核规原字保b20f30ce及其固定历史；raw未补造。
 
@@ -23,7 +23,7 @@ R653 quarter、R654全H²及R655旧1845+六Gauss5532=7377正权观察、.5/.5测
 
 ## 本次实际结果与继续入口
 
-旧mean61/63–66/R686/R666/7ebb保固定历史。02旧39/40绑定错误经42定位，9ca3/7e90/b534/eb26真实成功。[43–45](notes/2026-11-26-actual-normalized-parent-so3-four-restorations.md)同d021/profile0a223返3ef85/3b73：4恢复接受/metric0，g .0330860275→2.148223821e−10仍正，max .03681545019/Phi .00674444039略升；2775/2743点双支保。45证全alpha1/197行，前两face/release tol、末两KKT tol，非预算耗尽。[完整内点继续](notes/2026-11-26-actual-parent-interior-restoration-entry.md)0f542/95e90/1e207已排02，从真3ef/3b73以显式1e−8收紧Phase I搜索，原g≤0验收/范数/全部源和行不改；新输出未返不预填。
+旧mean61/63–66/R686/R666/7ebb保固定历史。02旧39/40绑定错误经42定位，实际[43–45](notes/2026-11-26-actual-normalized-parent-so3-four-restorations.md)原7e返3ef85/3b73，四恢复仍g>0且metric0；其全部原读数保ca7完整H。现在[真实46–47](notes/2026-11-26-actual-parent-interior-restoration-entry.md)0f542从同3ef续显式1e−8内点Phase I，1恢复/1metric均接受返793bde45/bb5c52e0：原g 2.148238254e−10→−6.229263438e−9，Phi .006744440395→.006732795880，max .03681545019→.03677022562；2813/2781点双支真筛通过，mu .01，同d021/profile0a223/modelad017/normc4b2/全原输入。停止仅方向预算，alpha/Pg尚未公开，已排原1e207纯归因；下一完整同场方向与严格固定参考缓存继续，不冒连续或驻点。
 
 R690深谷/旧deep两256返9b937ee/993556及自身first bbefd075、R691冻结Haar返bcdcdab/a76c4d全部精确来源/适用域/未付责任保固定889ec全文及所链notes。均未驻点/精化；旧01后排归因及ownfirst未执行。R692完整经典旋转连接证明不推任意C²或非圆存在；原父SO3六源和原完整q链仍保。
 
