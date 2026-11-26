@@ -1,0 +1,48 @@
+name: visible-flex complete circular reference interval geometry
+on:
+  push:
+    branches: [main]
+    paths:
+      - topics/visible-flex-new-mechanism/computations/request-r611-circular-global-20261127.json
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: visible-flex-r611-circular-global-20261127
+  cancel-in-progress: false
+jobs:
+  research:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 50
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      PYTHONUNBUFFERED: '1'
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 0
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-new-mechanism/README.md
+            /topics/visible-flex-new-mechanism/computations/request-r611-circular-global-20261127.json
+            /topics/visible-flex-new-mechanism/scripts/inverse_flat_oscillatory_tail_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/inverse_rotational_metric_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/r582_actual_circle_seed_and_return_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/r582_continuous_mean_profile_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/r611_circular_reference_global_geometry_20261127.py
+            /topics/visible-flex-new-mechanism/scripts/run_inverse_state_stdin_20261126.py
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.12.14'
+      - name: New complete compact interval geometry with exact infinite tail
+        env:
+          MR_TOKEN: ${{ secrets.MR_TOKEN }}
+        run: >-
+          python topics/visible-flex-new-mechanism/scripts/run_inverse_state_stdin_20261126.py
+          --request topics/visible-flex-new-mechanism/computations/request-r611-circular-global-20261127.json
+          --lane actual-circle-global

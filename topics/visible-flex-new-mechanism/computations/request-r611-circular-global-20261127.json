@@ -1,0 +1,53 @@
+{
+  "repository": "Rogerhu12/math-research-public",
+  "queue_session": "Astra-new-mechanism-1f4a61a4-20261127",
+  "expected_readme_blobs": {
+    "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+    "topics/visible-flex-new-mechanism/README.md": "d0432faff569c8e9af7ed4809847e12880976c11"
+  },
+  "expected_private_readme_blobs": {
+    "README.md": "5ba164843b1f5802184178a82d786264404873a3"
+  },
+  "public_rules_read_commit": "0048cfef4fe7d488ab369cccad8a9252943d5c9d",
+  "private_rules_read_commit": "41fe885610073f478b2f5a752461ca56cfd43f09",
+  "runtime": {
+    "python": "3.12.14",
+    "packages": {
+      "numpy": "2.3.5",
+      "scipy": "1.17.0"
+    }
+  },
+  "schema": "r611-actual-circle-complete-compact-geometry-request-v1",
+  "entry_point": "topics/visible-flex-new-mechanism/scripts/r611_circular_reference_global_geometry_20261127.py",
+  "workflow": ".github/workflows/visible-r611-circular-global-20261127.yml",
+  "common_parameters": {
+    "maximum_seconds": 2400,
+    "maximum_cells": 100000,
+    "maximum_depth": 28,
+    "height_width_target": 1e-06,
+    "height_maximum_cells": 65536
+  },
+  "lanes": {
+    "actual-circle-global": {
+      "source_state_json": "{\"R608_exact_tail_used\":true,\"mu\":-0.040019082162222074,\"nu\":-0.048942275258064924,\"previous_scope_reference\":\"2026-11-26-r582-true-core-shooting-original-terminal-receipt.md\",\"schema\":\"same-r582-circular-reference-compact-geometry-input-v1\",\"target_reach_decimal\":\"0.06072\"}"
+    }
+  },
+  "source_sha256": {
+    "topics/visible-flex-new-mechanism/scripts/inverse_flat_oscillatory_tail_20261126.py": "b9c778fbeafb0d9beb061b3f472b8db1661daec5a78a63eb886a8e4770574f9b",
+    "topics/visible-flex-new-mechanism/scripts/inverse_rotational_metric_20261126.py": "e25dff6a411e8edc485babe6545087cfbea2b6d16cd804e6dcb51f17d8fab319",
+    "topics/visible-flex-new-mechanism/scripts/r582_actual_circle_seed_and_return_20261126.py": "fd4bd864c3e9e96d741b7bc896a1bf6f9d50ba54eda0c02bd898f21bd42427a4",
+    "topics/visible-flex-new-mechanism/scripts/r582_continuous_mean_profile_20261126.py": "35060aa3e862c4852b30396493be37d1bd688281b4a093bd1e532d964e562631",
+    "topics/visible-flex-new-mechanism/scripts/r611_circular_reference_global_geometry_20261127.py": "e122807781ae6f297f519a81e000d51853b8e5d3dcf9ee755f4967ea5e65bf15",
+    "topics/visible-flex-new-mechanism/scripts/run_inverse_state_stdin_20261126.py": "7fde98e3337eb537b18b18789b125fcac57e7382e8f22c755947e907c0ea7785"
+  },
+  "scope": {
+    "new_complete_compact_two_jets": true,
+    "old_positive_chart_not_replayed": true,
+    "new_seed_or_ODE_or_optimization_calls": 0,
+    "same_R608_infinite_tail": true,
+    "circular_reference_only": true,
+    "noncircular_reach_claimed": false,
+    "maximum_parallel_jobs": 1,
+    "README_completion_claim": false
+  }
+}
