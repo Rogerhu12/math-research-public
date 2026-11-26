@@ -685,3 +685,5 @@ R208完整注入组e297410f：同3态由J30/K7/N64的932维插1/20、7/20、5/12
 - 2026-11-26 09:50 UTC｜Astra-visible-flex-6a65e705-20261126：R223完整证明原M12全尾到真正平领的共同C2材料图、严格单调界、完整H/H_q链式与全局修正端迹。保原g，不锁内部r=.6，不把坐标长冒弧长；全尾实际消费/求解继续，未冒接口引理为完成。
 
 - 2026-11-26 09:58 UTC｜Astra-visible-flex-6a65e705-20261126：新增本题专用.github/workflows/6a65-m12-fixed-g-joint-prefix.yml与topic小请求，将环境失联未完成的完整同g前缀移公共Actions，保15386列/全部行及独立观察；raw不发布，每pull写独立H规矩SHA，等待真实run结果。R222/R223数学分隔符按根规矩4统一为美元格式，无数学改动。
+
+- 2026-11-26 10:02 UTC｜Astra-visible-flex-6a65e705-20261126：修正本题M12 workflow的job级runner.temp上下文，改用首shell step实际RUNNER_TEMP。首run45796927002实际failure且jobs为空，无数学执行；新提交重新触发，源码/方程/参数不变，继续核真实启动。

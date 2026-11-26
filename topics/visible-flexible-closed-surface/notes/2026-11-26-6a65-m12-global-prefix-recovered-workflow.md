@@ -16,3 +16,9 @@
 - `topics/visible-flexible-closed-surface/ci-requests/6a65-m12-fixed-g-joint-prefix.json`：SHA256 `622dc339980476c5ba0f9b83da2fbb72e9c535b804143c143931053920dd006b`。
 
 运行后以独立的 `notes/2026-11-26-6a65-m12-global-prefix-ci-RUN-ATTEMPT.json` 核实际来源、退出前job状态、独立峰值及输出SHA；不能用workflow已触发替代数学成功。可复算的大系数文件不发布。
+
+## 首次 GitHub 启动校验失败与改正
+
+run [45796927002](https://github.com/Rogerhu12/math-research-public/actions/runs/45796927002) 对 source `4fdea93b441d027776fafb127fe1fbb5c3c09568` 立即返回 failure，实际 jobs 列表为空；没有BVP、端点恢复或数学结果。YAML/Python/bash语法通过不等于GitHub表达式上下文通过。该版本在job级env引用runner.temp；现改为首个shell step用实际RUNNER_TEMP/GITHUB_RUN_ID/GITHUB_RUN_ATTEMPT建立非秘密路径，并写GITHUB_ENV供后继步骤消费。数学脚本和参数未改，随后重新核实际作业是否启动。
+
+改正后的workflow SHA256：`5fa310bb580ccc1c6f252ea8f7d37aa11090d72d21c533e4a0ca213ff514650b`。
