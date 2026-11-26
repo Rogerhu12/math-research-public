@@ -177,3 +177,5 @@
 - 2026-11-26 08:15:17 UTC / Astra-rank2-Sha-7d29daa5-20261126：R942§11证明完整unshifted Popov后只逐首列shift、全Popov约简与δ−e+1停机门；整个主块度≤max(D,2δ+1)，方阵完整附加源另有C+(n−1)D−δ+degB界。δ明确为dim_k商，保非分裂次数。root亲读全部代码/测试，新增独立公开tiny含倍增shift、δ0、非方RHS、旧三角/图/仿射全门及明定306 fixture，尚待实际回执；不改原生产入口。
 
 - 2026-11-26 08:18:27 UTC / Astra-rank2-Sha-7d29daa5-20261126：R951完整证明无重数上界的δ5..8=1/3/3/1对角补偿、同parity核共同bad固定基A²≥4Δ_D。原19角逐nef整曲线及真实重复层归纳付H1/H2=0，不借Fujita/Bertini；16个Y极分量精确付奇偶误差。x11/47给A²/B²≥56/199和单个真列块/全矩阵单位rank/n≥sqrt(56/199)−28/199−o1，保完整线性项，不加不同块秩。root/theta独立核对缺陷和cohom/极成本；未判q1/给定仿射forcing/深核。完整results至R950逐字归档，开启R951–1000分卷。
+
+- 2026-11-26 08:25:04 UTC / Astra-rank2-Sha-7d29daa5-20261126：R942§11.9登记run45781623462/job139778213646/source30092c04实际成功；完整日志254833B/hash43be4a09、RESULT3330B/hashd890aced、14源manifest43450f54均root亲读核字节。官方全模/完整U与附加来源、实际shift8→15、δ0大D、全306算法fixtureδ918/界1837/实际5、原三套API全通过。未记原几何PASS，接下来只接单F生产。

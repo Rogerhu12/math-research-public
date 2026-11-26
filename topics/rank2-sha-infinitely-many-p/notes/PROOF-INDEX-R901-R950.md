@@ -209,3 +209,5 @@
 
 
 后继卷：[R951–R1000](PROOF-INDEX-R951-R1000.md)。
+
+- [R942§11.9](../results/R942-original-split-scalar-preimages-and-whole-module-elimination.md)：有界次数完整Popov/HNF API run45781623462实际成功，14源、完整附加块、实际shift8→15及全306坐标fixture全部通过；δ918/证明界1837/实际最大次数5，所有旧完整模接口亦返回。非原306几何或shadow PASS，生产另接。
