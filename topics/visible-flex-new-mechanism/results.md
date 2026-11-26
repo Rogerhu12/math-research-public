@@ -432,3 +432,5 @@
 - [R617有限pre-tanh的复极点与开帽刚性](results/R617-finite-pre-tanh-poles-and-open-cap-rigidity.md)：**已证明**固定有限角带V加任意有限post的σtanh(V/σ)，由无限简单复极点的完整五阶Laurent系数迫有限Φ恒等；signed最大值的Dini/Gronwall排从正半径开帽长出的非零V，再接R610。当前内帽.22的E→1及反向传播条件明确；不授有限误差正下界，不排角带增长或无限独立响应的固定g极限。
 
 - [1130q独立径向响应的完整自然终态](notes/2026-11-27-r606-compact-response-natural-stall.md)：**数值改善但未完成**；run45882634760新3336.041297306秒/56接受/57Jac，真277q细η4.378056141e−7且双直接读数同量级，完整At/M自然stall。输入d47441a4、全部原网/口/费用固定，后继换全奇实际S目标；不授固定g极限。
+
+- [R604同单元实际主曲率组合](notes/2026-11-27-r604-same-cell-principal-curvature-assembly.md)：**已证明的局部充分界**；从同cell参考两主曲率和完整H11/H12/H22，保混合项后取2×2最大特征值/同cell最小长度比平方，再作全域最大。纯消费接口尚未科学执行，不把异点极大值相加造成的损失当真实曲率，也未授任何候选reach。

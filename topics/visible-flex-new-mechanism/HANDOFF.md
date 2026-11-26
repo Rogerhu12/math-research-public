@@ -5,7 +5,7 @@
 
 ## 1. 授权、规则与全部前史
 
-公开本次实际pull且根/题README已读至 **a109355d73c4b7557581374ed4f4970153e3d135**；相对继承0749a4cc规则空差异。私库本次实际pull且根README已读至 **f7d4488a16beb49a670335f275af43094628e070**；QUEUE认领推送 **09f8b8b54e7cfaabaa635bae5c438c7f1521289a**，本会话进行中。私库本轮再pull、根README空差异且QUEUE仍唯一认领；下一不晚于21:10 UTC。
+公开本次实际pull且根/题README已读至 **42336817da80739e09e2df4fba7da5b6e11f245b**；相对继承0749a4cc规则空差异。私库本次实际pull且根README已读至 **f7d4488a16beb49a670335f275af43094628e070**；QUEUE认领推送 **09f8b8b54e7cfaabaa635bae5c438c7f1521289a**，本会话进行中。私库本轮再pull、根README空差异且QUEUE仍唯一认领；下一不晚于21:10 UTC。
 
 [本次压缩前全文](notes/HANDOFF-before-full-position-and-continuous-20261127.md)及所链[初交接](notes/HANDOFF-inherited-20261127-1f4a61a4.md)保全部旧结论、量词、失败、真实输入与完整费用；移档不重做已付门。[四来源/文献复核](notes/2026-11-27-current-four-source-topics-and-literature.md)固定已读版本及可用范围。
 
@@ -57,6 +57,6 @@ R598同十八正块/576微包宽母、微半宽1/12000、完整正势1、负侧�
 
 [R604](results/R604-normal-chord-stability-and-finite-parametric-norm-interface.md)给全法弦扰动及真实C0/C1/协变C2充分证书。[frame接口](notes/2026-11-27-r604-continuous-rotating-frame-norm-interface.md)与[R582同场径向盒](notes/2026-11-27-r582-same-field-radial-interval-interface.md)已发布：精确端jets/Bernstein、原全部97q控制、同圆角core全角界。[当前/参考a,z](notes/2026-11-27-r582-same-field-mean-interval-interface.md)及直接差jets已备；[R608新q适用性](notes/2026-11-27-r608-tail-transfer-to-retained-circle-agent.md)确认16控制仍在原3/5盒，旧尾引理原样用；新公开范围须重建相同mesh一次计费、覆盖全部材料分片/中心柱/帽/无限尾，才能登记新全域范数与reach。没有把数值零suffix当解析高度尾，也没有宣称有限材料等于无限核。
 
-[新连续几何scope](notes/2026-11-27-r582-retained-continuous-reach-implementation.md)先认证同f1c新mean圆参考，再必要重建62878端点一次，付全材料/中心柱/双帽/无限尾及R604实际界；预算是细化目标，不是通过门，不借旧圆资格。原run45890735034/source4322a257于20:23 UTC启动，待自然终态。
+[新连续几何scope](notes/2026-11-27-r582-retained-continuous-reach-implementation.md)先认证同f1c新mean圆参考，再必要重建62878端点一次，付全材料/中心柱/双帽/无限尾及R604实际界；[同单元主曲率组合](notes/2026-11-27-r604-same-cell-principal-curvature-assembly.md)另备纯接口，未消费；预算是细化目标，不是通过门，不借旧圆资格。原run45890735034/source4322a257于20:23 UTC启动，待自然终态。
 
 全体已证索引在[results](results.md)，真实计算及全部费用在notes；任何局部结论后继续下一实际输入，只有本题全部完成标准真正达成才收尾。
