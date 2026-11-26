@@ -236,3 +236,5 @@
 - [NW证明/合同](results/R147-supplement-same-window-selected-nu-source-to-complete-waist.md)
 - [EX完整执行说明](results/R149-supplement-actual-positive-negative-receiver-execution.md)
 - [完整actual](results/R147-supplement-actual-same-window-negative-nu-waist.md)
+
+- [RWA：实际96个真实反射腰行](results/R149-supplement-actual-reflected-finite-waist-rows.md)：45787309600/1 complete/provedtrue、96×5球；true reflection/signed mean/全DFT误差及完整输入保存链已核。非PDE列、Θ或完整逆。
