@@ -55,3 +55,4 @@
 <!-- 6a65-m12-ci-rules --> README unchanged at e74a6d1b37742414d1215bb37440b7c2fe56851c; run 45804794238 attempt 1.
 <!-- 6a65-m12-entire-half-ci-rules --> README unchanged at bb6aa25ef0fdd827a629e48316025c2671cdda8e; run 45833090043 attempt 1.
 <!-- 6a65-cartesian-cold-ci-rules --> run 45825253169/1；实际pull至 `889ec53f9daff7267daed589b1180c960a989d80`；2026-11-26T13:13:29.802537+00:00；双README无差异。
+<!-- 6a65-m12-angular-warm-ci-rules --> README unchanged at ad4b129edcc09592770ea062c229511aae519102; run 45847254548 attempt 1.
