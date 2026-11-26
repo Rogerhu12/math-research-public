@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R12 全D插值保持连续整数前缀约束，逐步软最优不能统一范数连接（2026-11-27，已证明）：** [完整尾块到真实连续点值的极限](results/R12-appendix-continuous-integer-prefix-constraints-and-soft-target-connection.md)给Σ_(s≤q)|g(s)|²≤||X||²Σ_(s≤q)|h(s)|²，对任何X∈D及本次连续h、g=Xh成立。实际递推最早非零整数迹严格前移；独立最优g_(n,r)的连接强迫||R_n||≥(1−r)/α_v2(n)，dyadic步无界。换目标或近似仍可研究，未推广任意L²点值或全范数闭包。
+
 - **R12 固定原球内的软目标逆像范数已精确最优化（2026-11-27，已证明）：** [唯一软目标及dyadic精确常数](results/R12-appendix-exact-soft-target-inverse-optimization-and-dyadic-budget.md)给g=W_n²/(W_n²+λ)，同原球/同权下唯一极小；n=2^j时包含半径dyadic边界的渐近m_n∼c_r/(β_(n−1)α_(j+q))，log m_n/n⁴→(20+280·16^q)/3。所有实际递推的费用乘积至少m_n；逐个最优尚不能自动连接成有统一普通范数的递推。
 
 - **R150 S0/Lt0的原U双点导数w=0整支为空（2026-11-27，已证明）：** [原30次结式与28维全返回](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-zero-U-jet-exclusion.md)保完整17次平方自由覆盖，低谱由原Delta/z支付，末14谱保同theta及d两根，E1/EB结式真逆乘回1。自含源exit0/0.148623秒/29636KiB、51次末域真逆；区别于已闭L0/w0。一般Lt0可用原N(V)的w首项，合法消同eta而不丢零支。

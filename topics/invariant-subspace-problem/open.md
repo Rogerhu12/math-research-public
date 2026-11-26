@@ -118,7 +118,7 @@ A单射、稠密像、拟幂零且非紧；普通非零真闭不变子空间仍�
 
 [任意非奇异加权复合算子的自伴核距离](results/R12-appendix-exact-distance-of-all-weighted-composition-operators-to-the-closed-selfadjoint-core.md)现已完整确定：到R∩R*与MASA都等于其权在移动集的ess sup；无限二进位换位实例到平移生成B距离1。一般非复合算子仍不能无损拼合细块；当前正向推进实际尾纤维的非复制运输插值。
 
-[同一实际输入的运输插值与可持续非复制递推](results/R12-appendix-same-source-transport-interpolation-and-sustainable-actual-recursion.md)已完成：精确边费用d_rs、逐列双预算、最小普通范数前缀条件和真实亏损误差均付；显式R_nAf_(n−1)=f_n始终留固定非零球，普通范数统一，累计log成本O(n⁵)。[新增全D下界](results/R12-appendix-near-optimal-cost-of-the-actual-transport-recursion.md)证明这组指定目标的最优累计log成本确为Θ(n⁵)，不能只更换实现降到四次；原β_n∏c必要下界保留，继续改变软目标并支付同源连接或未知M保持。 [精确软目标优化](results/R12-appendix-exact-soft-target-inverse-optimization-and-dyadic-budget.md)现给唯一g=W_n²/(W_n²+λ)及dyadic四次预算常数(20+280·16^q)/3，所有实际递推∏c≥m_n；实际连接不由静态最优性推出。
+[同一实际输入的运输插值与可持续非复制递推](results/R12-appendix-same-source-transport-interpolation-and-sustainable-actual-recursion.md)已完成：精确边费用d_rs、逐列双预算、最小普通范数前缀条件和真实亏损误差均付；显式R_nAf_(n−1)=f_n始终留固定非零球，普通范数统一，累计log成本O(n⁵)。[新增全D下界](results/R12-appendix-near-optimal-cost-of-the-actual-transport-recursion.md)证明这组指定目标的最优累计log成本确为Θ(n⁵)，不能只更换实现降到四次；原β_n∏c必要下界保留，继续改变软目标并支付同源连接或未知M保持。 [精确软目标优化](results/R12-appendix-exact-soft-target-inverse-optimization-and-dyadic-budget.md)现给唯一g=W_n²/(W_n²+λ)及dyadic四次预算常数(20+280·16^q)/3，所有实际递推∏c≥m_n；[全D连续整数前缀约束](results/R12-appendix-continuous-integer-prefix-constraints-and-soft-target-connection.md)进一步证明这些独立最优目标的准确连接需||R_n||≥(1−r)/α_v2(n)，不能有统一普通范数；继续改目标序列并付全前缀/完整逆像。
 
 硬复制和任意复软复制（自适应、统一有界放大、固定非零球）已有五次累计成本障碍，原幂衰减只有四次；软化cut不能修复。一般有限头重排与非复制来源仍开。未知A不变空间未证被D核心保持。
 

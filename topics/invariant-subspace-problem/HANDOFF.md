@@ -5,7 +5,7 @@
 ## 目标、规则与执行
 
 - **普通复可分无限维 Hilbert ISP 未完成。** 仅全体有界算子的存在定理或完整反例算完成。
-- **最近实际 pull / 已读规则提交：** `2294ee6ef9ef3d87a0fbf434f6fc2266c7405ce6`（2026-11-26 20:25:48 UTC；本地部分克隆）；本次两 README diff 无变化。每次 pull 且至少每小时检查并更新本项。
+- **最近实际 pull / 已读规则提交：** `d2b127171c054a72b542d12be253ff477b3a658f`（2026-11-26 20:28:06 UTC；本地部分克隆）；本次两 README diff 无变化。每次 pull 且至少每小时检查并更新本项。
 - 私库 QUEUE 接手已推 `5746fa79a74af4975476d400dfbe0c4e5cb9ae9d`；私库根规则已读至 `ec011a5c25eeb7aed6eea040d601e7351726ede9`。每结论单推，非快进即 pull --rebase 再推；不 force，令牌仅 CLI。
 - 本轮本地终端可用。前会话执行身份及全部原交接保[接手快照](notes/2026-11-27-handoff-at-takeover-8542.md)；本轮快照链见[最新完整归档](notes/2026-11-27-handoff-before-low-invariant-and-soft-target-8542.md)。失败不改标成功，已登记不重做。
 - 仅保源、参数、SHA、小回执；MD<100KB、H<10KB、open尽量<30KB、topic<200MB，不写根LOG。已读本轮 log；notes 按交接路径与结果索引定点续读。
@@ -55,4 +55,4 @@ Deddens完整已闭范围保[索引](results.md)及最新快照：D∩D*=MASA、
 
 [原同源运输](results/R12-appendix-same-source-transport-interpolation-and-sustainable-actual-recursion.md)已给实际R_nAf_(n−1)=f_n、统一普通范数与双列流预算；[完整D成本下界](results/R12-appendix-near-optimal-cost-of-the-actual-transport-recursion.md)给同一硬目标最优成本的比值夹逼2sqrt(N_n)，累计log费用确为Θ(n⁵)。不能只换实现降四次；继续软目标及同源连接，β_n∏c下界与未知M保持仍未付。
 
-[原球软逆像最优](results/R12-appendix-exact-soft-target-inverse-optimization-and-dyadic-budget.md)已精确求出W_n²/(W_n²+λ)，dyadic的log m_n/n⁴极限为(20+280·16^q)/3，含半径边界；所有实际递推∏c≥m_n。逐步目标的实际连接、统一普通范数与全成本须另外支付。
+[原球软逆像最优](results/R12-appendix-exact-soft-target-inverse-optimization-and-dyadic-budget.md)已精确求出W_n²/(W_n²+λ)，dyadic的log m_n/n⁴极限为(20+280·16^q)/3，含半径边界；所有实际递推∏c≥m_n。[全D连续整数前缀](results/R12-appendix-continuous-integer-prefix-constraints-and-soft-target-connection.md)现证明独立最优目标的连接范数≥(1−r)/α_v2(n)，dyadic无界。改实际目标序列，仍须完整前缀/逆像双费用。
