@@ -402,7 +402,7 @@ def main():
     centered = load('_so3_same_centered_scalar', paths['centered'])
     qp = load('_so3_complete_QPv3', paths['qp'])
     history = load('_so3_complete_address_history', paths['history'])
-    soc_module = load('_so3_complete_fixed_parent_separation_SOC', paths['complete_soc_rows'])
+    soc_module = load('_so3_complete_fixed_parent_separation_SOC', paths['complete_soc'])
     reference_cache_module = load('_so3_frozen_parent_cache', paths['reference_cache'])
     meridian.torch.set_num_threads(args.torch_threads)
     meridian.torch.set_num_interop_threads(1)

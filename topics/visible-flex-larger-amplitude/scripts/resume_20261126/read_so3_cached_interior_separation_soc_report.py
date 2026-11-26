@@ -14,10 +14,10 @@ import json
 import math
 from pathlib import Path
 
-DRIVER_SHA = '01b2a7777fea1979083c95d881da006d11885014c90c7f2dba7afd53d283aea9'
+DRIVER_SHA = '892f349b140f9a77fde37fc490d7cbb078cfdb21f8b31b7743e50ec6cf5712a8'
 HELPER_SHA = 'e716afd05b162baecbdddf29ec119974213745bd5235fc1a23f36b4792ecb021'
 CACHE_SHA = '50a9a4802fb23d01659de4a5ff2e1429f52837c59d6b4c563ae72f54836a4abe'
-DERIVER_SHA = '3fe49982ca054a7dc29b78f0c6c1b5818924e242757f1cf64335ab6d910424b8'
+DERIVER_SHA = '424311d2a85ab74e14a8aeb3bdb3a0bf4f4cad07fd0abee6e4c4adef6113bacd'
 REPORT_SCHEMA = 'complete-normalized-parent-cached-interior-separated-SOC-v1'
 
 
