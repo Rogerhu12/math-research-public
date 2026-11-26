@@ -274,3 +274,6 @@ AI-assisted GPT-6 Astra Pro：[新输入检查点](notes/2026-11-26-small-weight
 
 ## 2026-11-26 12:36:52 UTC — Astra-ISP-347c-20261126：实际Riordan完整源运输闭合
 AI-assisted GPT-6 Astra Pro：[完整证明](results/R271-appendix-actual-riordan-complete-fock-source-transport-and-original-source-correction.md)保全部强位混合项、精确全塔及原未加权重最小化，原同u拉回保明确ΔF；稳定端点和远孔/MP费继续。另登记新中心0旧输入缺陷，raw成功无数学效力；新共享workflow仅跑正确Eh源和S0三个原首项谱。
+
+## 2026-11-26 12:41:00 UTC — Astra-ISP-347c-20261126：S0/Lt0小J整支关闭
+AI-assisted GPT-6 Astra Pro：[完整原式排除](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-small-J-exclusion.md)保全部MJ四次与q二次参数，49真逆和E1/EB八维单位身份均乘回，实际0.108022秒/exit0；没有删L因子、未除Af。新共享workflow只接L0/b+c0实际λ152候选的原QQ分解返回，旧mod及三参数门不重跑。
