@@ -1,0 +1,26 @@
+--- refine_deep_scalar_actions.py
++++ refine_deep_scalar_actions_soc_parent.py
+@@ -24 +24 @@
+-LAUNCHER_SHA='6b06187c0bd5957ff0c1658f6da7a4c7077a6b9c59ed948a5a23881b1379cd75'
++LAUNCHER_SHA='d87826c2618d90cc0322f2fc89f04a518b1675ee3843f154655494b3d1fad643'
+@@ -26 +26 @@
+-FINE_DRIVER_SHA='1745cfae02b7ad0335577a340cfee52f179e1f27508c8d20ef1487abec00f154'
++FINE_DRIVER_SHA='a616e88c1f1bd256d298f167f05f0030488a7842ca4af42d53ba3f41d70dff85'
+@@ -79,2 +79,5 @@
+-    schemas={'complete-fixed-deep-scalar-with-held-amplitude-budgets-v1':BASE_DRIVER_SHA,
+-        'complete-refined-fixed-deep-scalar-with-held-amplitude-budgets-v1':FINE_DRIVER_SHA}
++    parent_binder=load('_fixed_deep_refinement_parent_source',
++        here/'fixed_deep_refinement_parent_binding.py', 'b3e391847c6e1367ca43b3bc83f4f570aafd48e87eafe93f4d049d85b288cdbf')
++    parent_binding=parent_binder.bind_parent(parent,repo,
++        current_fine_schema='complete-refined-fixed-deep-scalar-with-held-amplitude-budgets-soc-parent-v1', current_fine_source=here/'fullclosed_refined_deep_scalar_amplitude_qp_soc_parent.py',
++        current_fine_sha256=FINE_DRIVER_SHA)
+@@ -82 +84,0 @@
+-            or schemas.get(parent.get('schema'))!=parent.get('source_sha256')
+@@ -123,2 +125,2 @@
+-    launcher=here/'launch_refined_deep_scalar_actions.py'
+-    fine_driver=here/'fullclosed_refined_deep_scalar_amplitude_qp.py'
++    launcher=here/'launch_refined_deep_scalar_actions_soc_parent.py'
++    fine_driver=here/'fullclosed_refined_deep_scalar_amplitude_qp_soc_parent.py'
+@@ -152 +154 @@
+-    plan=dict(schema='actual-same-fixed-deep-scalar-complete-refinement-v1',
++    plan=dict(schema='actual-same-fixed-deep-scalar-complete-refinement-soc-parent-v1', actual_complete_parent_source_binding=parent_binding,

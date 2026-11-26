@@ -1,0 +1,34 @@
+--- launch_refined_deep_scalar_actions.py
++++ launch_refined_deep_scalar_actions_soc_parent.py
+@@ -20 +20 @@
+-DRIVER_SHA='1745cfae02b7ad0335577a340cfee52f179e1f27508c8d20ef1487abec00f154'
++DRIVER_SHA='a616e88c1f1bd256d298f167f05f0030488a7842ca4af42d53ba3f41d70dff85'
+@@ -31 +31 @@
+-PARENT_SCHEMA='complete-refined-fixed-deep-scalar-with-held-amplitude-budgets-v1'
++PARENT_SCHEMA='complete-refined-fixed-deep-scalar-with-held-amplitude-budgets-soc-parent-v1'
+@@ -57,0 +58,8 @@
++
++
++def complete_parent_binding(report, repo):
++    source=Path(__file__).resolve().parent
++    binder=load_bound('_fixed_deep_refinement_parent_source',
++        source/'fixed_deep_refinement_parent_binding.py', 'b3e391847c6e1367ca43b3bc83f4f570aafd48e87eafe93f4d049d85b288cdbf')
++    return binder.bind_parent(report, repo, current_fine_schema=PARENT_SCHEMA,
++        current_fine_source=source/'fullclosed_refined_deep_scalar_amplitude_qp_soc_parent.py', current_fine_sha256=DRIVER_SHA)
+@@ -82,2 +90 @@
+-        parent_sources={'complete-fixed-deep-scalar-with-held-amplitude-budgets-v1':BASE_DRIVER_SHA,
+-            PARENT_SCHEMA:DRIVER_SHA}
++        parent_binding=complete_parent_binding(parent,a.repo)
+@@ -85 +91,0 @@
+-                or parent_sources.get(parent.get('schema'))!=parent.get('source_sha256')
+@@ -107 +113 @@
+-            old_values_or_certificates_inherited=False))
++            old_values_or_certificates_inherited=False, actual_complete_parent_source_binding=parent_binding))
+@@ -119,0 +126 @@
++        parent_binding=complete_parent_binding(report,a.repo)
+@@ -132 +139 @@
+-            sha256=sha(a.parent_report),final_bundle_sha256=current_bundle_sha))
++            sha256=sha(a.parent_report),final_bundle_sha256=current_bundle_sha, actual_complete_parent_source_binding=parent_binding))
+@@ -251 +258 @@
+-    driver=source/'fullclosed_refined_deep_scalar_amplitude_qp.py'
++    driver=source/'fullclosed_refined_deep_scalar_amplitude_qp_soc_parent.py'

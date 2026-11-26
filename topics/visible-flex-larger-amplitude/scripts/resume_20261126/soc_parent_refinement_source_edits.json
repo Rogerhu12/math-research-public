@@ -1,0 +1,192 @@
+{
+  "schema": "complete-SOC-parent-refinement-exact-text-edits-v1",
+  "scientific_execution": false,
+  "files": [
+    {
+      "original_file": "fullclosed_refined_deep_scalar_amplitude_qp.py",
+      "result_file": "fullclosed_refined_deep_scalar_amplitude_qp_soc_parent.py",
+      "original_sha256": "1745cfae02b7ad0335577a340cfee52f179e1f27508c8d20ef1487abec00f154",
+      "result_sha256": "a616e88c1f1bd256d298f167f05f0030488a7842ca4af42d53ba3f41d70dff85",
+      "result_bytes": 77131,
+      "edits": [
+        {
+          "start": 23,
+          "end": 23,
+          "original_text": "",
+          "replacement_text": "# Independent SOC-parent binding; the complete fine algorithm itself is unchanged.\n"
+        },
+        {
+          "start": 28153,
+          "end": 28698,
+          "original_text": "    allowed_parent_sources = {\n        'complete-fixed-deep-scalar-with-held-amplitude-budgets-v1':\n            'd3c35492a9cef5b4b005829f0ce502d8a377195541b64893f4ab063f0676ba95',\n        'complete-refined-fixed-deep-scalar-with-held-amplitude-budgets-v1': sha(__file__),\n    }\n    if (parent_report.get('complete') is not True\n            or allowed_parent_sources.get(parent_report.get('schema')) != parent_report.get('source_sha256')):\n        raise ValueError('Compare only an actual completed byte-bound complete fixed-deep-scalar parent')\n",
+          "replacement_text": "    parent_binding_path = repo/'topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_deep_refinement_parent_binding.py'\n    if sha(parent_binding_path) != 'b3e391847c6e1367ca43b3bc83f4f570aafd48e87eafe93f4d049d85b288cdbf':\n        raise ValueError('Changed complete refinement parent binding')\n    parent_binder = load('actual_fixed_deep_refinement_parent_binding', parent_binding_path)\n    parent_binding = parent_binder.bind_parent(parent_report, repo,\n        current_fine_schema='complete-refined-fixed-deep-scalar-with-held-amplitude-budgets-soc-parent-v1',\n        current_fine_source=Path(__file__), current_fine_sha256=sha(__file__))\n    paths['refinement_parent_binding'] = parent_binding_path\n"
+        },
+        {
+          "start": 32856,
+          "end": 32950,
+          "original_text": "        metadata=dict(fixed_scalar_metric_identity_sha256=context.deep.model_identity_sha256,\n",
+          "replacement_text": "        metadata=dict(actual_complete_parent_source_binding=parent_binding, fixed_scalar_metric_identity_sha256=context.deep.model_identity_sha256,\n"
+        },
+        {
+          "start": 38285,
+          "end": 47167,
+          "original_text": "    report = dict(schema='complete-refined-fixed-deep-scalar-with-held-amplitude-budgets-v1', common_parent_measure_comparison=comparison['metadata'], complete_parent_driver_sha256='d3c35492a9cef5b4b005829f0ce502d8a377195541b64893f4ab063f0676ba95', source_commit=source_commit, workflow_trigger_commit=os.environ.get('GITHUB_SHA'), github_run_id=os.environ.get('GITHUB_RUN_ID'), initial_permanent_position_counts=dict(curvature=len(witnesses), radius=len(radius_witnesses)), permanent_position_identity='cell and exact binary64 u/phi; no decimal rounding or arbitrary byte cap', source_sha256=sha(__file__), source_paths={k: str(v) for k, v in paths.items()}, source_sha256_by_role={k: sha(v) for k, v in paths.items()}, diameter_diagnostic_source=str(Path(__file__).resolve()), diameter_diagnostic_sha256=sha(__file__), diameter_diagnostic_scope='This driver point_geometry uses the context-owned six_jets including k; the old standalone field reader is not used', bundle_sha256=sha(args.bundle), input_bundle=str(args.bundle), exact_tail_context=context.metadata(), required_operator_factory='TailLiftContext.create_pair', factory_context_required=True, scientific_model='NEW q+eta*a_new*er(Theta)+(eta*H-eta*I_new)*ez on the declared tail, with all original residual coordinates and canonical endpoint recipes; g_n=ds^2+a_new(s)^2*dtheta^2 remains fixed', exact_tail_lambda=args.tail_lambda, exact_tail_parent_lambda=parent_lambda, exact_tail_eta_start_node=args.tail_eta_start_node, exact_tail_migration=migration, parent_coordinate_check=parent_coordinate_check, affine_diagnostic_scope='Actual migrated q/H coordinates and new context-owned core/cap lift jets', old_field_acceptance_inherited=False, old_continuous_certificates_inherited=False, parent_scope='Only an actual canonical deep-valley seed or same-target continuation is accepted; the explicit old-to-new prepare step supplies a NEW physical field and no inherited metric or geometry values', exact_tail_profile_carrier=str(tail_profile_path), exact_tail_profile_carrier_sha256=sha(tail_profile_path), exact_tail_profile_manifest=str(tail_profile_json), exact_tail_profile_manifest_sha256=sha(tail_profile_json), exact_tail_profile_output=tail_profile_record, exact_tail_node_report=str(args.tail_node_report.resolve()), exact_tail_node_report_sha256=sha(args.tail_node_report), exact_tail_scalar_input=str(args.tail_scalar_input.resolve()), exact_tail_scalar_input_sha256=sha(args.tail_scalar_input), recorded_compatibility_source_roles_not_loaded=['observed_geometry'], M=M, N=full_N, J=problem.J, original_variables=n, coarse_variables=nc, integrated_variables=ni, augmented_variables=ni + nc, original_full_rows=3 * problem.legacy_P * full_N, all_full_rows=3 * problem.P * full_N, observation_metadata=dict(problem.observation_metadata(), representation=exact_tail.SCHEMA, fixed_scalar_metric_identity_sha256=context.deep.model_identity_sha256, actual_scalar_factory_sha256=sha(paths['exact_tail'])), observation_carrier=str(args.observations), observation_carrier_sha256=sha(args.observations), radial_weights=dict(legacy_fraction=args.legacy_fraction, quadrature_mass=radial_mass, minimum=float(stage_weights.min()), maximum=float(stage_weights.max()), all_positive=True, formula='mixed_stage_weights(t)=t*legacy_composite_Simpson+(1-t)*additional_Gauss', row_formula='sqrt(w_s)/(sqrt(sum(w_s)*full_N))*(1,sqrt(2),1); angular orbit weight already in operator'), coarse_basis_scope='The original node/midpoint structural layout with the new context-owned native h/f/k profiles builds B/B^T; every objective and geometric read uses the new observed field', evaluated_orbit_rows=3 * problem.P * problem.N, affine=affine, minimum_mesh_cell=float(np.min(np.diff(problem.mesh))), maximum_mesh_cell=float(np.max(np.diff(problem.mesh))), coordinate_map='T(zi,zc)=A DoubleIntegrated.lift(zi)+B R zc; A=I+vq e_H^T is invertible and retains every original variable', adjoint_map='T^T(g)=(DoubleIntegrated.pullback(A^T g),R^T B^T g)', objective=args.objective, quadratic_model='.5*||A z+v||^2+.5*mu^2||z||^2 subject to literal C z<=b; virtual RHS norm need not equal the actual objective', spectral_model='A=sqrt(k/(scale^2*C0))*sqrt(radial)*B*J_fixed_scalar*T; direct complete J includes all core/rho chains and every metric mean row. B is the current exact positive residual-Hessian factor, v uses B^-T primitive_gradient; full current a_new enters both bridge and current coarse Gram', projection_scope='Only current active inequalities define a temporary CG face. Inactive rows retain positive margins; negative face multipliers release rows. Every original field variable remains', numerical_linear_safety=args.reach_safety_factor, extra_linear_margin=0.0, phase_I_restoration_implemented=False, active_band=args.active_band, active_max_rows=args.active_max_rows, active_block_columns=args.active_block_columns, active_rank_tolerance=args.active_rank_tolerance, active_top_curvature=args.active_top_curvature, active_top_radius=args.active_top_radius, step_norm_note='The previous physical-height norm is strengthened per mode by sigma=sqrt(1+(nu/nu_c)^2) on all A/E/D/core coordinates; H is unchanged. Coarse whitening uses this same new norm. This is not the original LM norm or an exact geometric bending energy', scale_formula='Previous physical-height A/E/D/core scales divided by sigma=sqrt(1+(nu/nu_c)^2); H unchanged', angular_norm=angular_metadata, coordinate_preparation=coordinates.metadata(), coarse_norm=coarse_metadata, physical_height_map=physical_height_metadata, arbitrary_witness_sources=witness_sources, arbitrary_radius_sources=radius_sources, witness_memory_policy='All supplied and subsequently found locations remain in every true line search; no LRU eviction. Bounded working inequalities keep actual positive margins; protected only means selected, never forced tangent', coarse_low_modes=args.low_modes, requested_coarse_centers=centers, actual_coarse_center_nodes=basis.center_nodes, sampled_curvature_cap=args.curvature_cap, requested_reach_ratio=args.reach_ratio, numerical_reach_safety_factor=args.reach_safety_factor, necessary_reference_diameter_lower_bound='max(2,2*abs(H),2*max_sample|F|); actual body +/-F pairs under pi symmetry plus mirror, inherited by the declared axial phase family', curvature_cap_scope='Additional numerical pointwise trial filter only. This is not a continuous curvature or reach certificate. The theorem uses D of the reference family member, not each current surface diameter', row_scope='Every original node/midpoint row plus every same-scalar Gauss row, all with positive radial weight and exact quarter-orbit multiplicity', objective_change='NEW fixed exact deep-valley metric g_n. p/epsilon/scale/normalizer and actual mu are explicitly declared for THIS objective. No Phi difference from any moving-mean or old-a target is meaningful; subtract only same-target, same-parameter, same-measure values', max_directions=args.max_directions, max_qp_hessian_advances=args.maxiter, initial_damping=args.damping, qp_atol=args.qp_atol, qp_rtol=args.qp_rtol, qp_feasibility_tolerance=args.qp_feasibility_tolerance, qp_row_rank_tolerance=args.qp_row_rank_tolerance, target=args.target, max_line_trials=args.line_trials, directions=[], continuous_geometry_certified=False, closed_isometry_accepted=False, scalar_coarse_source_binding=scalar_coarse_binding, selected_scalar_objective_key=scalar_objective_key, fixed_scalar_metric=dict(identity_sha256=context.deep.model_identity_sha256, exact_profile_definition=context.deep.definition, formula='g_n=ds^2+a_new(s)^2*dtheta^2', raw_residual='(|Fs|^2-1, Fs.Fphi/(a_new*rho), |Fphi|^2/(a_new*rho)^2-1)', target_fixed_before_first_direction=True, target_recomputed_from_current_field=False, moving_mean_projection=False, all_metric_mean_constraints_retained=True, final_metric_frozen=True, all_t_phase_identity_obligation='R248 applies only after continuous relative metric and complete same-field geometry obligations are paid', cap_metric_rule='Same fixed closed cap recipe at the fixed NEW R; free H changes only its translation'), scalar_coarse_driver_derivation=dict(schema='complete-fixed-deep-scalar-driver-derivation-v1', complete_amplitude_v2_source_sha256='970f03adc4b11a85f13de9e9d13dcbcb7fef0dce4ab79c0d17b62bd0ed34c775', direct_original_physical_operator=True, moving_mean_wrapper_removed=True, complete_current_new_scalar_coarse_source_sha256=sha(paths['scalar_coarse']), all_original_free_variables_retained=True, physical_mother_norm_preserved=True, original_geometry_rows_and_full_amplitude_screen_preserved=True, fixed_scalar_identity_sha256=context.deep.model_identity_sha256, no_source_identity_disguised=True, new_scientific_execution_by_authoring_script=False), explicit_fixed_target_stopping_threshold=args.target, stopping_threshold_is_not_a_claim_about_README_original_solver_tolerance=True)\n",
+          "replacement_text": "    report = dict(schema='complete-refined-fixed-deep-scalar-with-held-amplitude-budgets-soc-parent-v1', common_parent_measure_comparison=comparison['metadata'], complete_parent_driver_sha256='d3c35492a9cef5b4b005829f0ce502d8a377195541b64893f4ab063f0676ba95', source_commit=source_commit, workflow_trigger_commit=os.environ.get('GITHUB_SHA'), github_run_id=os.environ.get('GITHUB_RUN_ID'), initial_permanent_position_counts=dict(curvature=len(witnesses), radius=len(radius_witnesses)), permanent_position_identity='cell and exact binary64 u/phi; no decimal rounding or arbitrary byte cap', source_sha256=sha(__file__), source_paths={k: str(v) for k, v in paths.items()}, source_sha256_by_role={k: sha(v) for k, v in paths.items()}, diameter_diagnostic_source=str(Path(__file__).resolve()), diameter_diagnostic_sha256=sha(__file__), diameter_diagnostic_scope='This driver point_geometry uses the context-owned six_jets including k; the old standalone field reader is not used', bundle_sha256=sha(args.bundle), input_bundle=str(args.bundle), exact_tail_context=context.metadata(), required_operator_factory='TailLiftContext.create_pair', factory_context_required=True, scientific_model='NEW q+eta*a_new*er(Theta)+(eta*H-eta*I_new)*ez on the declared tail, with all original residual coordinates and canonical endpoint recipes; g_n=ds^2+a_new(s)^2*dtheta^2 remains fixed', exact_tail_lambda=args.tail_lambda, exact_tail_parent_lambda=parent_lambda, exact_tail_eta_start_node=args.tail_eta_start_node, exact_tail_migration=migration, parent_coordinate_check=parent_coordinate_check, affine_diagnostic_scope='Actual migrated q/H coordinates and new context-owned core/cap lift jets', old_field_acceptance_inherited=False, old_continuous_certificates_inherited=False, parent_scope='Only an actual canonical deep-valley seed or same-target continuation is accepted; the explicit old-to-new prepare step supplies a NEW physical field and no inherited metric or geometry values', exact_tail_profile_carrier=str(tail_profile_path), exact_tail_profile_carrier_sha256=sha(tail_profile_path), exact_tail_profile_manifest=str(tail_profile_json), exact_tail_profile_manifest_sha256=sha(tail_profile_json), exact_tail_profile_output=tail_profile_record, exact_tail_node_report=str(args.tail_node_report.resolve()), exact_tail_node_report_sha256=sha(args.tail_node_report), exact_tail_scalar_input=str(args.tail_scalar_input.resolve()), exact_tail_scalar_input_sha256=sha(args.tail_scalar_input), recorded_compatibility_source_roles_not_loaded=['observed_geometry'], M=M, N=full_N, J=problem.J, original_variables=n, coarse_variables=nc, integrated_variables=ni, augmented_variables=ni + nc, original_full_rows=3 * problem.legacy_P * full_N, all_full_rows=3 * problem.P * full_N, observation_metadata=dict(problem.observation_metadata(), representation=exact_tail.SCHEMA, fixed_scalar_metric_identity_sha256=context.deep.model_identity_sha256, actual_scalar_factory_sha256=sha(paths['exact_tail'])), observation_carrier=str(args.observations), observation_carrier_sha256=sha(args.observations), radial_weights=dict(legacy_fraction=args.legacy_fraction, quadrature_mass=radial_mass, minimum=float(stage_weights.min()), maximum=float(stage_weights.max()), all_positive=True, formula='mixed_stage_weights(t)=t*legacy_composite_Simpson+(1-t)*additional_Gauss', row_formula='sqrt(w_s)/(sqrt(sum(w_s)*full_N))*(1,sqrt(2),1); angular orbit weight already in operator'), coarse_basis_scope='The original node/midpoint structural layout with the new context-owned native h/f/k profiles builds B/B^T; every objective and geometric read uses the new observed field', evaluated_orbit_rows=3 * problem.P * problem.N, affine=affine, minimum_mesh_cell=float(np.min(np.diff(problem.mesh))), maximum_mesh_cell=float(np.max(np.diff(problem.mesh))), coordinate_map='T(zi,zc)=A DoubleIntegrated.lift(zi)+B R zc; A=I+vq e_H^T is invertible and retains every original variable', adjoint_map='T^T(g)=(DoubleIntegrated.pullback(A^T g),R^T B^T g)', objective=args.objective, quadratic_model='.5*||A z+v||^2+.5*mu^2||z||^2 subject to literal C z<=b; virtual RHS norm need not equal the actual objective', spectral_model='A=sqrt(k/(scale^2*C0))*sqrt(radial)*B*J_fixed_scalar*T; direct complete J includes all core/rho chains and every metric mean row. B is the current exact positive residual-Hessian factor, v uses B^-T primitive_gradient; full current a_new enters both bridge and current coarse Gram', projection_scope='Only current active inequalities define a temporary CG face. Inactive rows retain positive margins; negative face multipliers release rows. Every original field variable remains', numerical_linear_safety=args.reach_safety_factor, extra_linear_margin=0.0, phase_I_restoration_implemented=False, active_band=args.active_band, active_max_rows=args.active_max_rows, active_block_columns=args.active_block_columns, active_rank_tolerance=args.active_rank_tolerance, active_top_curvature=args.active_top_curvature, active_top_radius=args.active_top_radius, step_norm_note='The previous physical-height norm is strengthened per mode by sigma=sqrt(1+(nu/nu_c)^2) on all A/E/D/core coordinates; H is unchanged. Coarse whitening uses this same new norm. This is not the original LM norm or an exact geometric bending energy', scale_formula='Previous physical-height A/E/D/core scales divided by sigma=sqrt(1+(nu/nu_c)^2); H unchanged', angular_norm=angular_metadata, coordinate_preparation=coordinates.metadata(), coarse_norm=coarse_metadata, physical_height_map=physical_height_metadata, arbitrary_witness_sources=witness_sources, arbitrary_radius_sources=radius_sources, witness_memory_policy='All supplied and subsequently found locations remain in every true line search; no LRU eviction. Bounded working inequalities keep actual positive margins; protected only means selected, never forced tangent', coarse_low_modes=args.low_modes, requested_coarse_centers=centers, actual_coarse_center_nodes=basis.center_nodes, sampled_curvature_cap=args.curvature_cap, requested_reach_ratio=args.reach_ratio, numerical_reach_safety_factor=args.reach_safety_factor, necessary_reference_diameter_lower_bound='max(2,2*abs(H),2*max_sample|F|); actual body +/-F pairs under pi symmetry plus mirror, inherited by the declared axial phase family', curvature_cap_scope='Additional numerical pointwise trial filter only. This is not a continuous curvature or reach certificate. The theorem uses D of the reference family member, not each current surface diameter', row_scope='Every original node/midpoint row plus every same-scalar Gauss row, all with positive radial weight and exact quarter-orbit multiplicity', objective_change='NEW fixed exact deep-valley metric g_n. p/epsilon/scale/normalizer and actual mu are explicitly declared for THIS objective. No Phi difference from any moving-mean or old-a target is meaningful; subtract only same-target, same-parameter, same-measure values', max_directions=args.max_directions, max_qp_hessian_advances=args.maxiter, initial_damping=args.damping, qp_atol=args.qp_atol, qp_rtol=args.qp_rtol, qp_feasibility_tolerance=args.qp_feasibility_tolerance, qp_row_rank_tolerance=args.qp_row_rank_tolerance, target=args.target, max_line_trials=args.line_trials, directions=[], continuous_geometry_certified=False, closed_isometry_accepted=False, scalar_coarse_source_binding=scalar_coarse_binding, selected_scalar_objective_key=scalar_objective_key, fixed_scalar_metric=dict(identity_sha256=context.deep.model_identity_sha256, exact_profile_definition=context.deep.definition, formula='g_n=ds^2+a_new(s)^2*dtheta^2', raw_residual='(|Fs|^2-1, Fs.Fphi/(a_new*rho), |Fphi|^2/(a_new*rho)^2-1)', target_fixed_before_first_direction=True, target_recomputed_from_current_field=False, moving_mean_projection=False, all_metric_mean_constraints_retained=True, final_metric_frozen=True, all_t_phase_identity_obligation='R248 applies only after continuous relative metric and complete same-field geometry obligations are paid', cap_metric_rule='Same fixed closed cap recipe at the fixed NEW R; free H changes only its translation'), scalar_coarse_driver_derivation=dict(schema='complete-fixed-deep-scalar-driver-derivation-v1', complete_amplitude_v2_source_sha256='970f03adc4b11a85f13de9e9d13dcbcb7fef0dce4ab79c0d17b62bd0ed34c775', direct_original_physical_operator=True, moving_mean_wrapper_removed=True, complete_current_new_scalar_coarse_source_sha256=sha(paths['scalar_coarse']), all_original_free_variables_retained=True, physical_mother_norm_preserved=True, original_geometry_rows_and_full_amplitude_screen_preserved=True, fixed_scalar_identity_sha256=context.deep.model_identity_sha256, no_source_identity_disguised=True, new_scientific_execution_by_authoring_script=False), explicit_fixed_target_stopping_threshold=args.target, stopping_threshold_is_not_a_claim_about_README_original_solver_tolerance=True)\n"
+        }
+      ]
+    },
+    {
+      "original_file": "launch_refined_deep_scalar_actions.py",
+      "result_file": "launch_refined_deep_scalar_actions_soc_parent.py",
+      "original_sha256": "6b06187c0bd5957ff0c1658f6da7a4c7077a6b9c59ed948a5a23881b1379cd75",
+      "result_sha256": "d87826c2618d90cc0322f2fc89f04a518b1675ee3843f154655494b3d1fad643",
+      "result_bytes": 25012,
+      "edits": [
+        {
+          "start": 556,
+          "end": 634,
+          "original_text": "DRIVER_SHA='1745cfae02b7ad0335577a340cfee52f179e1f27508c8d20ef1487abec00f154'\n",
+          "replacement_text": "DRIVER_SHA='a616e88c1f1bd256d298f167f05f0030488a7842ca4af42d53ba3f41d70dff85'\n"
+        },
+        {
+          "start": 1436,
+          "end": 1518,
+          "original_text": "PARENT_SCHEMA='complete-refined-fixed-deep-scalar-with-held-amplitude-budgets-v1'\n",
+          "replacement_text": "PARENT_SCHEMA='complete-refined-fixed-deep-scalar-with-held-amplitude-budgets-soc-parent-v1'\n"
+        },
+        {
+          "start": 2488,
+          "end": 2488,
+          "original_text": "",
+          "replacement_text": "def complete_parent_binding(report, repo):\n    source=Path(__file__).resolve().parent\n    binder=load_bound('_fixed_deep_refinement_parent_source',\n        source/'fixed_deep_refinement_parent_binding.py', 'b3e391847c6e1367ca43b3bc83f4f570aafd48e87eafe93f4d049d85b288cdbf')\n    return binder.bind_parent(report, repo, current_fine_schema=PARENT_SCHEMA,\n        current_fine_source=source/'fullclosed_refined_deep_scalar_amplitude_qp_soc_parent.py', current_fine_sha256=DRIVER_SHA)\n\n\n"
+        },
+        {
+          "start": 4168,
+          "end": 4307,
+          "original_text": "        parent_sources={'complete-fixed-deep-scalar-with-held-amplitude-budgets-v1':BASE_DRIVER_SHA,\n            PARENT_SCHEMA:DRIVER_SHA}\n",
+          "replacement_text": "        parent_binding=complete_parent_binding(parent,a.repo)\n"
+        },
+        {
+          "start": 4354,
+          "end": 4443,
+          "original_text": "                or parent_sources.get(parent.get('schema'))!=parent.get('source_sha256')\n",
+          "replacement_text": ""
+        },
+        {
+          "start": 6240,
+          "end": 6297,
+          "original_text": "            old_values_or_certificates_inherited=False))\n",
+          "replacement_text": "            old_values_or_certificates_inherited=False, actual_complete_parent_source_binding=parent_binding))\n"
+        },
+        {
+          "start": 7130,
+          "end": 7130,
+          "original_text": "",
+          "replacement_text": "        parent_binding=complete_parent_binding(report,a.repo)\n"
+        },
+        {
+          "start": 8054,
+          "end": 8135,
+          "original_text": "            sha256=sha(a.parent_report),final_bundle_sha256=current_bundle_sha))\n",
+          "replacement_text": "            sha256=sha(a.parent_report),final_bundle_sha256=current_bundle_sha, actual_complete_parent_source_binding=parent_binding))\n"
+        },
+        {
+          "start": 16254,
+          "end": 16321,
+          "original_text": "    driver=source/'fullclosed_refined_deep_scalar_amplitude_qp.py'\n",
+          "replacement_text": "    driver=source/'fullclosed_refined_deep_scalar_amplitude_qp_soc_parent.py'\n"
+        }
+      ]
+    },
+    {
+      "original_file": "refine_deep_scalar_actions.py",
+      "result_file": "refine_deep_scalar_actions_soc_parent.py",
+      "original_sha256": "991d824531f596e82306db2bd00442e52d454e397c74941809cb4513602fbf10",
+      "result_sha256": "58e426b0519253db8336bfdf07827dd482a4bd41285f0ba78ed5da50f816c665",
+      "result_bytes": 17574,
+      "edits": [
+        {
+          "start": 931,
+          "end": 1011,
+          "original_text": "LAUNCHER_SHA='6b06187c0bd5957ff0c1658f6da7a4c7077a6b9c59ed948a5a23881b1379cd75'\n",
+          "replacement_text": "LAUNCHER_SHA='d87826c2618d90cc0322f2fc89f04a518b1675ee3843f154655494b3d1fad643'\n"
+        },
+        {
+          "start": 1094,
+          "end": 1177,
+          "original_text": "FINE_DRIVER_SHA='1745cfae02b7ad0335577a340cfee52f179e1f27508c8d20ef1487abec00f154'\n",
+          "replacement_text": "FINE_DRIVER_SHA='a616e88c1f1bd256d298f167f05f0030488a7842ca4af42d53ba3f41d70dff85'\n"
+        },
+        {
+          "start": 3501,
+          "end": 3684,
+          "original_text": "    schemas={'complete-fixed-deep-scalar-with-held-amplitude-budgets-v1':BASE_DRIVER_SHA,\n        'complete-refined-fixed-deep-scalar-with-held-amplitude-budgets-v1':FINE_DRIVER_SHA}\n",
+          "replacement_text": "    parent_binder=load('_fixed_deep_refinement_parent_source',\n        here/'fixed_deep_refinement_parent_binding.py', 'b3e391847c6e1367ca43b3bc83f4f570aafd48e87eafe93f4d049d85b288cdbf')\n    parent_binding=parent_binder.bind_parent(parent,repo,\n        current_fine_schema='complete-refined-fixed-deep-scalar-with-held-amplitude-budgets-soc-parent-v1', current_fine_source=here/'fullclosed_refined_deep_scalar_amplitude_qp_soc_parent.py',\n        current_fine_sha256=FINE_DRIVER_SHA)\n"
+        },
+        {
+          "start": 3727,
+          "end": 3805,
+          "original_text": "            or schemas.get(parent.get('schema'))!=parent.get('source_sha256')\n",
+          "replacement_text": ""
+        },
+        {
+          "start": 6633,
+          "end": 6761,
+          "original_text": "    launcher=here/'launch_refined_deep_scalar_actions.py'\n    fine_driver=here/'fullclosed_refined_deep_scalar_amplitude_qp.py'\n",
+          "replacement_text": "    launcher=here/'launch_refined_deep_scalar_actions_soc_parent.py'\n    fine_driver=here/'fullclosed_refined_deep_scalar_amplitude_qp_soc_parent.py'\n"
+        },
+        {
+          "start": 8728,
+          "end": 8805,
+          "original_text": "    plan=dict(schema='actual-same-fixed-deep-scalar-complete-refinement-v1',\n",
+          "replacement_text": "    plan=dict(schema='actual-same-fixed-deep-scalar-complete-refinement-soc-parent-v1', actual_complete_parent_source_binding=parent_binding,\n"
+        }
+      ]
+    },
+    {
+      "original_file": "read_refined_deep_scalar_report.py",
+      "result_file": "read_refined_deep_scalar_report_soc_parent.py",
+      "original_sha256": "c0e3f6569e8a26668ea10183e2b8cb6873210c732f2f57905bb13d05dbf2b583",
+      "result_sha256": "6777d58f8791968f6ee4fa5dd9b5f4aee9dcdcd90ae5cb72f89035f366c781cd",
+      "result_bytes": 16700,
+      "edits": [
+        {
+          "start": 439,
+          "end": 439,
+          "original_text": "",
+          "replacement_text": "import importlib.util\nimport sys\n"
+        },
+        {
+          "start": 516,
+          "end": 1450,
+          "original_text": "SCHEMA = 'complete-refined-fixed-deep-scalar-with-held-amplitude-budgets-v1'\nEXPECTED = {'driver': ('fullclosed_refined_deep_scalar_amplitude_qp.py', '1745cfae02b7ad0335577a340cfee52f179e1f27508c8d20ef1487abec00f154'), 'amplitude_rows': ('held_amplitude_inequalities_v2.py', 'd494f92a3d212c40c8b602588c8cfe74f01ff332f116992ffca6469b3978ad8e'), 'amplitude_screen': ('held_amplitude_screen_v2.py', 'e6be35e97702e4185f29fb8f9b7c326fd62083cb4027880956aacdf8b0ba296f'), 'scalar_coarse': ('deep_scalar_coarse_moments.py', 'dcfa30b688104b27efeddfbe6921af25ba33ba6202be43f815d5b8d8bfc69395'), 'exact_tail': ('deep_valley_reference_factory.py', '4ae012fbc0ccd58ae093069e0229ee8b72db9ef8d7d153565ef4507dc67db2d1'), 'deep_scalar': ('deep_valley_tail_input.py', 'e091f67566ef6a380758a3aac5d79d9b41e4bffcc9a9860e66eaaa9b314257c2'), 'qp': ('fullspace_feasible_active_pcg_v5.py', '76b27520a433d85a52c3037ed5d519860b1002b0fb137378c855dad2993855e8')}\n",
+          "replacement_text": "SCHEMA = 'complete-refined-fixed-deep-scalar-with-held-amplitude-budgets-soc-parent-v1'\nEXPECTED = {'refinement_parent_binding': ('fixed_deep_refinement_parent_binding.py', 'b3e391847c6e1367ca43b3bc83f4f570aafd48e87eafe93f4d049d85b288cdbf'), 'driver': ('fullclosed_refined_deep_scalar_amplitude_qp_soc_parent.py', 'a616e88c1f1bd256d298f167f05f0030488a7842ca4af42d53ba3f41d70dff85'), 'amplitude_rows': ('held_amplitude_inequalities_v2.py', 'd494f92a3d212c40c8b602588c8cfe74f01ff332f116992ffca6469b3978ad8e'), 'amplitude_screen': ('held_amplitude_screen_v2.py', 'e6be35e97702e4185f29fb8f9b7c326fd62083cb4027880956aacdf8b0ba296f'), 'scalar_coarse': ('deep_scalar_coarse_moments.py', 'dcfa30b688104b27efeddfbe6921af25ba33ba6202be43f815d5b8d8bfc69395'), 'exact_tail': ('deep_valley_reference_factory.py', '4ae012fbc0ccd58ae093069e0229ee8b72db9ef8d7d153565ef4507dc67db2d1'), 'deep_scalar': ('deep_valley_tail_input.py', 'e091f67566ef6a380758a3aac5d79d9b41e4bffcc9a9860e66eaaa9b314257c2'), 'qp': ('fullspace_feasible_active_pcg_v5.py', '76b27520a433d85a52c3037ed5d519860b1002b0fb137378c855dad2993855e8')}\n"
+        },
+        {
+          "start": 8922,
+          "end": 11184,
+          "original_text": "    summary = dict(schema='complete-refined-fixed-deep-scalar-amplitude-actual-summary-v1', reader_source_sha256=sha(__file__), report_sha256=sha(a.report), actual_solver_source_commit=r['source_commit'], actual_github_run_id=r.get('github_run_id'), reader_source_commit=subprocess.check_output(['git', '-C', str(a.repo), 'rev-parse', 'HEAD'], text=True).strip(), complete_source_binding=binding, actual_parent_bundle_sha256=r['bundle_sha256'], actual_final_bundle_sha256=r['final_bundle_sha256'], fixed_scalar_metric_identity_sha256=identity, fixed_scalar_target=r['fixed_scalar_metric'], actual_current_model_identity_sha256=r['exact_tail_context']['model_identity_sha256'], actual_M=r['M'], actual_N=r['N'], actual_J=r['J'], original_free_variables=r['original_variables'], all_full_rows=r['all_full_rows'], selected_scalar_objective_key=objective, initial_metric=initial, final_metric=final, actual_same_measure_Phi_change=final['phi'] - initial['phi'], actual_same_measure_centered_Phi_change=final['centered_phi'] - initial['centered_phi'] if final['centered_phi'] is not None and initial['centered_phi'] is not None else None, amplitude_budgets=r['amplitude_design_constraints']['budgets'], initial_amplitude=amplitude(r['initial_amplitude_filter']), final_amplitude=amplitude(r['final_amplitude_filter']), final_necessary_curvature_filter=r['final_curvature_filter'], directions=direction_records, actual_direction_count=r['actual_direction_count'], actual_accepted_direction_count=r['actual_accepted_direction_count'], actual_final_damping=r['final_damping'], final_permanent_counts=r['final_permanent_position_counts'], process_peak_rss_KiB=r['process_peak_rss_KiB'], actual_stop_before_linear=r.get('stopped_before_linear_iteration'), final_metric_frozen=True, moving_mean_projection=False, all_metric_mean_constraints_retained=True, explicit_fixed_target_stopping_threshold=r['explicit_fixed_target_stopping_threshold'], zero_direction_exit=len(r['directions'])==0, actual_maximum_gram_change=final['max_relative_gram']-initial['max_relative_gram'], stopping_threshold_is_not_README_original_solver_floor=True, fixed_g_refinement_convergence_claimed=False, continuous_amplitude_certified=False, reach_certified=False, topic_completion_claimed=False)\n",
+          "replacement_text": "    summary = dict(schema='complete-refined-fixed-deep-scalar-amplitude-soc-parent-actual-summary-v1', reader_source_sha256=sha(__file__), report_sha256=sha(a.report), actual_solver_source_commit=r['source_commit'], actual_github_run_id=r.get('github_run_id'), reader_source_commit=subprocess.check_output(['git', '-C', str(a.repo), 'rev-parse', 'HEAD'], text=True).strip(), complete_source_binding=binding, actual_parent_bundle_sha256=r['bundle_sha256'], actual_final_bundle_sha256=r['final_bundle_sha256'], fixed_scalar_metric_identity_sha256=identity, fixed_scalar_target=r['fixed_scalar_metric'], actual_current_model_identity_sha256=r['exact_tail_context']['model_identity_sha256'], actual_M=r['M'], actual_N=r['N'], actual_J=r['J'], original_free_variables=r['original_variables'], all_full_rows=r['all_full_rows'], selected_scalar_objective_key=objective, initial_metric=initial, final_metric=final, actual_same_measure_Phi_change=final['phi'] - initial['phi'], actual_same_measure_centered_Phi_change=final['centered_phi'] - initial['centered_phi'] if final['centered_phi'] is not None and initial['centered_phi'] is not None else None, amplitude_budgets=r['amplitude_design_constraints']['budgets'], initial_amplitude=amplitude(r['initial_amplitude_filter']), final_amplitude=amplitude(r['final_amplitude_filter']), final_necessary_curvature_filter=r['final_curvature_filter'], directions=direction_records, actual_direction_count=r['actual_direction_count'], actual_accepted_direction_count=r['actual_accepted_direction_count'], actual_final_damping=r['final_damping'], final_permanent_counts=r['final_permanent_position_counts'], process_peak_rss_KiB=r['process_peak_rss_KiB'], actual_stop_before_linear=r.get('stopped_before_linear_iteration'), final_metric_frozen=True, moving_mean_projection=False, all_metric_mean_constraints_retained=True, explicit_fixed_target_stopping_threshold=r['explicit_fixed_target_stopping_threshold'], zero_direction_exit=len(r['directions'])==0, actual_maximum_gram_change=final['max_relative_gram']-initial['max_relative_gram'], stopping_threshold_is_not_README_original_solver_floor=True, fixed_g_refinement_convergence_claimed=False, continuous_amplitude_certified=False, reach_certified=False, topic_completion_claimed=False)\n"
+        },
+        {
+          "start": 11526,
+          "end": 11735,
+          "original_text": "    allowed_parents={\n        'complete-fixed-deep-scalar-with-held-amplitude-budgets-v1':\n            'd3c35492a9cef5b4b005829f0ce502d8a377195541b64893f4ab063f0676ba95',\n        SCHEMA:EXPECTED['driver'][1]}\n",
+          "replacement_text": "    binding_path=source/'fixed_deep_refinement_parent_binding.py'\n    if sha(binding_path)!='b3e391847c6e1367ca43b3bc83f4f570aafd48e87eafe93f4d049d85b288cdbf':\n        raise ValueError('Changed complete parent-binding source')\n    spec=importlib.util.spec_from_file_location('_actual_deep_refinement_parent_binding',binding_path)\n    parent_binder=importlib.util.module_from_spec(spec);sys.modules[spec.name]=parent_binder\n    spec.loader.exec_module(parent_binder)\n    parent_binding=parent_binder.bind_parent(parent,a.repo,current_fine_schema=SCHEMA,\n        current_fine_source=source/EXPECTED['driver'][0], current_fine_sha256=EXPECTED['driver'][1])\n    if metadata.get('actual_complete_parent_source_binding')!=parent_binding:\n        raise ValueError('The actual full parent binding differs from the fine solver record')\n"
+        },
+        {
+          "start": 11778,
+          "end": 11864,
+          "original_text": "            or allowed_parents.get(parent.get('schema'))!=parent.get('source_sha256')\n",
+          "replacement_text": ""
+        },
+        {
+          "start": 14249,
+          "end": 14325,
+          "original_text": "    summary.update(actual_parent_comparison_report_sha256=sha(parent_path),\n",
+          "replacement_text": "    summary.update(actual_complete_parent_source_binding=parent_binding, actual_parent_comparison_report_sha256=sha(parent_path),\n"
+        }
+      ]
+    }
+  ]
+}
