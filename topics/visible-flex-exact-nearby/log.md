@@ -236,3 +236,6 @@ NS五件共129172B，owner71056B SHA18db439d5895e4232882940a57b7bd9457982383e1ac
 
 
 2026-11-26 20:10:53 UTC / visible-exact-astra-fb31ed6-20261127：TC run45884668422/1完整输入恢复已成但proposal grid断言失败，三目标0/四receipt null。修复equal-binary64 trial nodes，全部原exact积分cuts/质量完整保留；原common row已union全部base knots，故certificate计数不增、原≤9000门保持。新manifestc5fd0a7a8cd7c6a1a2207e7b640a213ea8dd2ed8bb967107cff969501ed5d447，新workflow首次执行未成三目标。SL首run45887481333因临时math.py遮蔽stdlib失败、四目标0，agent正改命名且保旧consumed/完整execution。
+
+
+2026-11-26 20:13:07 UTC / visible-exact-astra-fb31ed6-20261127：SL新明确续接只改private snapshot basename为input_role.ext，原owner/math及四公式全部不变；完整旧execution01563ee206b7da9b04a4073865f68fa461deacc774a9c0d3f03f4459898a2113证明四目标0，旧consumed保。23整输入、新manifest20e65b42c9af964e2d4980ee0c449e28a448d06b0066b17f0e0d4d833d3d19fc与独立workflow已metadata检查，实际科学交给公开Actions。

@@ -1,0 +1,52 @@
+name: R147 support-localized selected negative nu reception
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/visible-exact-support-localized-nu-after-45887481333.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: visible-flex-exact-support-localized-nu-after-45887481333
+  cancel-in-progress: false
+jobs:
+  complete-four-new-records:
+    if: github.repository == 'Rogerhu12/math-research-public' && github.run_attempt == 1
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      OMP_NUM_THREADS: '1'
+      OPENBLAS_NUM_THREADS: '1'
+      MKL_NUM_THREADS: '1'
+      NUMEXPR_NUM_THREADS: '1'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-exact-nearby/README.md
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_negative_nu_waist_public_worker.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_support_localized_nu_resume_worker.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_support_localized_nu_public_worker.py
+            /topics/visible-flex-exact-nearby/notes/support_localized_nu_ci/run-45887481333-1/execution.json
+            /topics/visible-flex-exact-nearby/notes/2026-11-27-support-localized-nu-inputs.json
+            /topics/visible-flex-exact-nearby/notes/2026-11-27-support-localized-nu-after-45887481333-inputs.json
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12.14'
+      - name: Install the fixed directed scalar runtime
+        run: python -m pip install --disable-pip-version-check python-flint==0.9.0
+      - name: Receive the three exact source summands through their proper domains
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: >-
+          python topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_support_localized_nu_resume_worker.py
+          --repo "$GITHUB_WORKSPACE"
+          --manifest topics/visible-flex-exact-nearby/notes/2026-11-27-support-localized-nu-after-45887481333-inputs.json
+          --manifest-sha 20e65b42c9af964e2d4980ee0c449e28a448d06b0066b17f0e0d4d833d3d19fc
