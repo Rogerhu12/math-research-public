@@ -404,3 +404,5 @@
 - 2026-11-26 12:44 UTC：02实际41仅返原stage39外层CalledProcessError，原log6276a047/4332B；续排ef60 v2纯读全部异常块，未确认内因不重跑科学。H压缩到固定9ab5完整历史链接并保02/03动态槽；真实pull 7c80b8bf双README无差异。03b实际warm已返且job仍运行；原03未返科学不回填。
 
 - 2026-11-26 12:48 UTC：02实际42 ef60在同log中读到两块异常，inner为原driver127拒绝实际profile，输出99884589/6089B。刊四完整实际父绑定新源及完整派生器、说明、两step参数，并排同d021父重跑；冻结实际canonical定义而非替换旧常量，四输入与实际context等号、原三物理源/全部自由量/行/几何/预算保。root完整binder/源diff审查，solver独立AST/来源审查，无本地科学。原错误目录保留，rows-only清理避免旧发布器目录文件清单膨胀。
+
+- 2026-11-26 12:50 UTC：刊1371完整同场节点向外求值源、全证明与600秒完整参数ready。完整当前omega/core/H、准确affine宽/Fourier/所有scalar段含无限尾及SO3四jet保；真实工作输出对真盒差付整条节点算术，不假设旧batch逐字重现。默认angle-major保全部地址并避免922倍全J重复缓存；自然journal部分不冒全域。三方静态核查完成、未跑科学，积分/corecap/六jet/全域metric责任继续。

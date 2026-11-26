@@ -4,7 +4,7 @@
 
 ## 规则与完整目标
 
-最近规则核查：2026-11-26，真实pull/rebase至 `d09b5306a2698d4658e7f5ea63e8bfbb0075dc61`，根及课题README相对f0548477无差异，已完整读授权及规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
+最近规则核查：2026-11-26，真实pull/rebase至 `1c8e43ff29a4d35377398681bf7c1473e2211734`，根及课题README相对f0548477无差异，已完整读授权及规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
 
 科学计算仅本公开仓库Actions；早前本地偏差及纠正见[执行记录](notes/2026-11-20-public-actions-execution-correction.md)。root唯一分支写者；代理只scratch及未引用小源blob。每条结论普通commit/push，NFF立即pull --rebase循环再推，不强推。至少每小时pull，每次核双README差异/立即遵新规并记commit。raw只scratch/runner，不入Git/Release/artifact；保完整小源/参数/run/SHA/紧凑结论。题≤200MB、单文件<5MB、MD<100KB、H<10KB、open<30KB。令牌仅瞬时CLI。环境失联后的恢复及全部原字见下列固定历史；未补造raw。
 
@@ -32,7 +32,7 @@ R691准确Haar证明与真实71/75目标e35ce2/moments027c36已返，请求精�
 
 R692[完整旋转连接](results/R692-nonlinear-rotation-connection-and-metric-error.md)完整MC/周期势/帽闭圈与无1/c全Gram/J/J*证明限经典连接类，不推任意C²存在。[原父SO3六源](notes/2026-11-26-complete-closed-SO3-meridian-solver.md)234a/9cf5/9b77/32bd已刊排02：全变量/7377×2048/原192+amp与永久点，hΔ全六jet/J/J*/几何、新正范数μ.01、4×64 PhaseI后1×16；slack不冒可行，连续积分/root/normalization费未付。
 
-[R693](results/R693-so3-radial-closure-branches-and-error-interface.md)已证准确E=1的零Δ或切向反射分支及全六jet误差；首源未存closure汇总，需实际同场读。[R694](results/R694-so3-low-order-signed-quadrature-error-algebra.md)30ae完整signed Peano/低阶mixed jets/六jet和谱费用核已刊；[全胞integrand输入](notes/2026-11-26-direct-axisymmetric-continuous-integrand-envelopes.md)a846完整源/参数已刊未跑，节点与实际总求值费用未付。[R695](results/R695-so3-zero-closure-bubble-uniform-IFT.md)新证双内部bubble满秩、显式固定端轴右逆、严格统一收缩球及完整三角隐式J/J*；实际IFT条件未验。闭合或E=1都不替代剩余Gram/曲率/全域几何。
+[R693](results/R693-so3-radial-closure-branches-and-error-interface.md)已证准确E=1的零Δ或切向反射分支及全六jet误差；首源未存closure汇总，需实际同场读。[R694](results/R694-so3-low-order-signed-quadrature-error-algebra.md)30ae完整signed Peano/低阶mixed jets/六jet和谱费用核已刊；[全胞integrand输入](notes/2026-11-26-direct-axisymmetric-continuous-integrand-envelopes.md)a846完整源/参数已刊未跑，[实际节点费用](notes/2026-11-26-actual-SO3-node-outward-evaluation-fees.md)1371完整源/参数已刊未跑，全四jet的literal工作重读对真盒支付Hermite/normalization/trig/旋转费用；只有限节点，不冒完整积分/六jet/整面。[R695](results/R695-so3-zero-closure-bubble-uniform-IFT.md)新证双内部bubble满秩、显式固定端轴右逆、严格统一收缩球及完整三角隐式J/J*；实际IFT条件未验。闭合或E=1都不替代剩余Gram/曲率/全域几何。
 
 03 [旧run45811843606/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45811843606) 已terminal failure。warm及stage6 v2准备真实成功（312.1479秒/reportb3a0fe/ref3cb4/profilee3a06），完整无限尾/7377观察及历史保，scalar请求精度false。[实际发布故障与恢复](notes/2026-11-26-actual-publication-failure-and-complete-recovery.md)：stage7 12:08:57已启动、子进程已返回，但12:21:42公开记录58000B守卫抛错；return事件在发布后，故退出码/场/Phi/末bundle均未返，不能推成功/失败。纯reader及zero未执行。新03b请求沿原科学设置重建必要warm/参考，3cb1完整followup先存/打印实际return，68a3控制器只压缓存清理metadata为count/bytes/SHA、原限额不变；已排5step，所有新identity待实际返回。
 
