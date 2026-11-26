@@ -2,7 +2,7 @@
 
 **主要目标仍OPEN。** 完整证明绝对常数C，或给出p→∞完整无CM反例族；有限素数、条件结论、低权/局部Abel/部分子群均不够。
 
-此前逐字状态在[最新open归档](open-archive-2026-11-27-before-global-Kummer-and-annihilator-family.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重算。
+此前逐字状态在[最新open归档](open-archive-2026-11-27-before-cuspidal-cover.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重算。
 
 ## 原最低型：已经付清的输入与准确剩余标量
 
@@ -27,13 +27,11 @@ R1044/46的完整Cauchy旗标现由R1052给全等式；whole-type rankℓ−1、
 
 R1037/40原两行PD、source Fp²/Hermitian、Π²=−p、B整完美与Q=ε⁻²ΦΠ已成；完整quotient外系数固定，核一维纯正δ、负δ单射。v=(1−Q)λ，Λ_Q杀全部原MW饱和格，在p>C_*自动本原；完整K_Q=P_(DQv)(1)/2与Q²保结果，B(c₀,J₀)=−1/8不代K_Q单位。
 
-R1038/40原p5双中心/图二次角色、e₁G[p∞]≅e₁B[p∞]、Teich先减、负δ与原6p方向已成；formal/B上才施e₁，非整个J良好。原log、Fm、两节点Dickson与C_*完整来源保结果。
-
-R1035/36原Lie格、split-Hecke F₀、D₀非挠paired块重数一已核，非辅助Res的C²。T5/Q消去保实际格；Q简单商Néron格不从type直和自动来。R1041核norm、R1043端点和K_Q是三个未证单位的不同值。
-
-R1018–30原Fm、全非约化仿射/整τ₁/完整分支已成，只消费；H_A/H_Z新支撑仍待算，原λ/尺度保结果。
+R1018–40的原完整Fm/两节点Dickson/PD及好BT整比较均已付，详细角色、相位、尺度与C_*见各结果和逐字归档。p5仍先减Teich、只在好B上施e₁；实际paired块重数一，不是辅助Res的C²。未付的H_A/H_Z新支撑、指定CM横截值与完整高度继续保留。
 
 ## O0：全主目标覆盖（R1003恢复原范围）
+
+[R1064](results/R1064-original-cuspidal-cover-descent-and-auxiliary-character-visibility.md)：原标签来自几何连通、全曲线 étale 的真实 $\mathbf Q$-torsor；forced cusp 值为 $(m/2)\chi(h)\chi(-\delta)^{-1}e_{\chi^2}[\varpi_1]$。regular $p$ 下所有全局 twists 的每 cusp 纤维均为单一 $p^r$ 次闭点，未增加 Runge 盈余。辅助 $\ell$ 只读 $\ell^{2j+1}=1\bmod p$ 的角色；真实可见商给点集双射及 Weil 的有限有效辅助范围，同标签共同像排除仍开。
 
 [R1062](results/R1062-original-full-nonsplit-cuspidal-kummer-descent.md)：完整 $X_{\rm ns}^+(p)$ 的无基点 cusp 归一化给全部有理点固定 $S=\{2,3,p\}$ 的有限 Kummer 标签，保全部 class-group 项；实际 Galois cusp 模至少含 $\lfloor p/4\rfloor-1$ 个一维 $p$-挠角色。辅助好素须比较同一标签与全部约化点。regular $p$ 时单独 $p$-local 比较满射，不能筛盘；全局标签浓缩仍开。
 

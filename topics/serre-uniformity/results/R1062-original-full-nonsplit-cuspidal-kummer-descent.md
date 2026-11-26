@@ -502,9 +502,11 @@ $$
 $\Phi_{x_p}$，都能提升为某个 ambient global label。
 只比较 $p$ 处这一必要条件，不会筛掉任何这样的 $p$-adic 点。
 
-这不声称该标签来自 $\mathbf Q$ 点，不声称所有 twists 都有 $p$ 点，
-也没有未经证明构造一个统一 $\mathbf Q$-torsor。
-它只精确刻画 (1062.15) 的单 $p$ 处比较。
+这不声称该标签来自 $\mathbf Q$ 点，不声称所有 twists 都有 $p$ 点。
+本篇这一节只精确刻画 (1062.15) 的单 $p$ 处比较。
+后继 [R1064](R1064-original-cuspidal-cover-descent-and-auxiliary-character-visibility.md)
+§§1–2 已从同一规范函数完整构造统一 $\mathbf Q$-torsor；
+其真实下降不改变本节满射和剩余共同标签条件。
 真正剩余是辅助好素及同一全局标签的同时相容；
 大量几何 torsion、固定 $S$ 或单 $p$-local descent 本身均不完成 Serre。
 

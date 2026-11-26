@@ -6,11 +6,11 @@
 
 会话 **Astra-serre-24b8836b-20261126**。本轮已部分克隆并真实pull main，读两README/H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则读至36cf1ed2。不重做已登记结论或窗口。
 
-**公开两README已读提交：5e5fb3621fefd0c116179854d40c2765f8172865**（2026-11-27 05:42 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
+**公开两README已读提交：37db461f9ae2eed5600e7ad998bbda6ecb28ea4c**（2026-11-27 06:03 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
 
 已真实部分克隆/pull；05:34再试仍报无可用执行环境，shell未运行；按根规矩8用连接器小文本同步、读两README差异、带expected_sha非force提交，恢复后立即pull --rebase。拒绝即同步重基再推至成功。令牌仅CLI；根维护main/H/open/index/log，子研究独立稿，每条结论立即推。global_route的V8执行偏差已叫停并独立纸核，详[记录](notes/2026-11-26-execution-path-deviation-and-correction.md)，其输出不作证明/合规窗口。
 
-H<10KB、open尽量<30KB、每MD<100KB、topic<200MB；无可重算raw、不写根LOG。[本次逐字前态](handoff-archive-2026-11-27-before-global-Kummer-and-annihilator-family.md)沿链保全部旧来源/run/hash；[open](open.md)、[索引](results.md)是完整入口。历史“R1003 norm3准备中”未交付，现R1003为范围纠错。
+H<10KB、open尽量<30KB、每MD<100KB、topic<200MB；无可重算raw、不写根LOG。[本次逐字前态](handoff-archive-2026-11-27-before-cuspidal-cover.md)沿链保全部旧来源/run/hash；[open](open.md)、[索引](results.md)是完整入口。历史“R1003 norm3准备中”未交付，现R1003为范围纠错。
 
 ## 最新全局实际来源
 
@@ -20,7 +20,7 @@ H<10KB、open尽量<30KB、每MD<100KB、topic<200MB；无可重算raw、不写�
 
 [R1056](results/R1056-original-kernel-lowest-CM-single-coefficient.md) 给全 $p=6N+5$ 原核两列的完整单系数，$s=2,8$；[R1055](results/R1055-original-complete-first-log-canonical-rational-primitive.md) 给原完整 $v$ 的规范有理原函数。全部尺度、三 CM 极部与 $p$ 次幂修正保原文；未证单位，不扩 bare 身份。
 
-[R1052](results/R1052-original-complete-CM-profile-and-actual-lowest-functional.md)：完整source/target、全返回与p除法误差已付，原全轮廓精确读取[Z^k](T_c/A)(B_CM)，保κ₁/λ₀与双incidence。最低C_CM(T)=2B(c,L_CM)，实际2B(v,QD L_CM)保Q²；全p最低单位/深盘仍开。
+[R1052](results/R1052-original-complete-CM-profile-and-actual-lowest-functional.md)：完整 source/target、全返回及除 $p$ 误差已付；原全轮廓读 $[Z^k](T_c/A)(B_{\rm CM})$，保 $\kappa_1/\lambda_0$。最低 $\mathcal C(T_c)=2B(c,L_{\rm CM})$，实际全 $Q^2$ 单位/深盘仍开。
 
 [R1045](results/R1045-original-MW-annihilator-nonzero-reduction.md)/[R1046](results/R1046-original-p5-complete-CM-flag-and-MW-nonzero-reduction.md) 已付两行 $p>C_*$ 的全 MW 后 $M=1$；[R1047](results/R1047-original-MW-saturated-profile-and-common-zero-bound.md) 给饱和系数映射与公共零重数界。最低单位/非中心仍开，全部原盘/相位/整尾保原文。
 
@@ -30,6 +30,8 @@ R1018–30的原Fm/节点log/完整非约化运输只消费，全部相位尺度
 
 ## O0：不能省略的全局覆盖
 
+[R1064](results/R1064-original-cuspidal-cover-descent-and-auxiliary-character-visibility.md)：真实Q-torsor与cusp平方角色已付；regular p下每cusp单一p^r次闭点，无Runge盈余。辅助ℓ只读ℓ^(2j+1)=1角色，真实可见商/Weil给有限辅助范围；同标签共同像排除仍开。
+
 [R1062](results/R1062-original-full-nonsplit-cuspidal-kummer-descent.md)：完整 $X_{\rm ns}^+(p)$ 的无基点 cusp 归一化给全部有理点固定 $S=\{2,3,p\}$ 的有限 Kummer 标签，保全部 class-group 项；实际 Galois cusp 模至少含 $\lfloor p/4\rfloor-1$ 个一维 $p$-挠角色。辅助好素须比较同一标签与全部约化点。regular $p$ 时单独 $p$-local 比较满射，不能筛盘；全局标签浓缩仍开。
 
 [R1003](results/R1003-global-scope-and-remaining-branches.md)：R1只剩完整N_ns(p)；p2/5mod9还需小惯性C³。R317还需整j、K=Q(√−3)、σ=1及二/三除法小域同时一致。完整惯性、非整j、变化K、σ非平凡及异小域大导子支路仍开。导子下界非上界；O1/O2或X₁新商即使单独完成也不等于Serre完成。
@@ -38,7 +40,7 @@ R1018–30的原Fm/节点log/完整非约化运输只消费，全部相位尺度
 
 [R1061](results/R1061-actual-genus-two-etale-cover-and-original-three-torsion-Petri-point.md)：原X108实际无分歧九次商C:Y²=R⁶−108，原S_n落Dχ=Qz−Qw=q*Q的三挠线；两一维exact空间的有序配对为(S_n/s)R dR/Y。故原f_N单位等价于该具体theta点光滑，smooth仍开；C superspecial，邻近ordinary四角色不代证明。 §§6–10已付原Miller首a^p、完整Cartier e及真实e≠0⇔S_n≠0桥；relative参数/切向2全保。原K=−sS_n，端点差单位不代K/e单位。
 
-[R1060](results/R1060-actual-X108-nonCM-Cartier-and-nine-torsion-ordinary-input.md)：原X108非CM四Cartier矩阵精确由B_n=P_n(3)=−a_p(E54)控制。明确九挠点/实际三次同源给原p2/5mod9时B_n≠0、非CM ordinary且核恰六CM。A_p=−S_n/3，但尚未证S_n=0⇒B_n=0，不能代原f_N单位。
+[R1060](results/R1060-actual-X108-nonCM-Cartier-and-nine-torsion-ordinary-input.md)：原非CM四Cartier由九挠/三同源给 $B_n=P_n(3)=-a_p(E54)\ne0$（$p\equiv2,5\bmod9$）；六CM核准确。尚无 $S_n=0\Rightarrow B_n=0$，不能代 $f_N$ 单位。
 
 [R1049](results/R1049-original-fN-theta-first-direction-moment.md)、[R1059](results/R1059-original-fN-actual-X108-Raynaud-pairing-and-inverse-central-sum.md) 已付同一原 $q/\eta$ 尺度、方向矩、实际 X108 配对与 $f_N$ 的 $S_n$ 桥；原 primitive/Legendre 同 $h$ 筛选仍开。
 
@@ -70,7 +72,7 @@ R696早已证明同一全局Φ候选Ω_actual={0}，R832已消费；不重做、
 
 原λ始终为−6(b+1)/r（R1045.5）。当前并行：两行实际MW后M1与原盘点数界已成，继续最低w单位/正赋值深盘零点。原最高K_Q、R1041核范数、R1043端点及同h筛选各有独立读数，不能混同；O0完整全局覆盖仍未关。子问题完成即接open其余项，真正达README完成标准才收尾。
 
-[R1053](results/R1053-original-scalar-disjoint-window-through-500000.md)：新增7878素数的原f/g窗口200000<p≤500000完整无零，真实run45869953028/45874715945及hash保结果；已成窗口不重开。
+[R1053](results/R1053-original-scalar-disjoint-window-through-500000.md)：原f/g新增7878素数窗口200000<p≤500000完整无零；两真实runs及全部hash保结果，已成不重开。
 
 [R1054](results/R1054-original-lowest-CM-column-kernel-candidate-counterexample.md)：p47 K15=23排最低列恒在Q核候选，不代指定值。
 
