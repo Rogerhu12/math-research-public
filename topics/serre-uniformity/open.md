@@ -2,13 +2,11 @@
 
 **主要目标仍OPEN。** 完整证明绝对常数C，或给出p→∞完整无CM反例族；有限素数、条件结论、低权/局部Abel/部分子群均不够。
 
-此前逐字状态在[最新open归档](open-archive-2026-11-26-before-exact-theta-phase.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重新计算已成输入。
+此前逐字状态在[最新open归档](open-archive-2026-11-26-before-actual-CM-jet.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重新计算已成输入。
 
-[R1018](results/R1018-original-CM-divisor-exact-first-formal-layer.md)：p>37、p11mod12，原P=(p−1)D₀在J₁良好模型准确为F^m\F^(m+1)，m=(p−1)/2、π₀^((p²−1)/2)=p。完整惯性权给下界；保R1014真实b和六标记的quotient-isogeny提升、zero-flux同一frame、全局平均与全部Cech后，原a0参考尾首类=−6κ[z^−(2h−1)]单位，别尾不能抵消。附同一e3 node的全部odd-power gap二项式单位。形式点深度1/(p+1)不能直接代log；实际degree-p完整返回现由R1023计算，R1011半秩商整投影和候选排除仍开。
+R1018已证原P=(p−1)D₀在良好J₁准确Fm，m=(p−1)/2、π₀^((p²−1)/2)=p；原六标记/zero-flux/全局Cech与e3 odd gaps保留。R1019实际A=T5²、Z=(T31−32)T5²保Fm且杀CM，Z另杀Q挠点，充分大界分别max(575,N_HA)、max(36863,N_HZ)，N为固定Norm函数lc/resultant。R1021真full-p Cohen/μ平均给全非约化O/(p)仿射刚性，原u′=ε(c_Qψ+pR_Q)、R_Q仅仿射正则。全部证明与支撑/次数界见[逐字前态](open-archive-2026-11-26-before-actual-CM-jet.md)。R1023现已付清实际首log节点和跨尾返回；实际H_A/H_Z新支撑与非CM具体整投影仍须核。
 
-[R1019](results/R1019-original-CM-killing-correspondences-preserve-first-formal-layer.md)：固定实际A=T5²、Z=(T31−32)T5²后，原P=(p−1)D₀仍准确F^m\F^(m+1)，对p11mod12且p>C_A/C_Z；C分别=max(575,N_HA)、max(36863,N_HZ)，N为固定p无关Norm函数的lc/resultant整数。完整字面支撑≤144/9216、dlog零≤142/9214，选无支撑SS尾保同一frame/主化lift；H非constant由导子25/775的唯一完整六标记逆链。A、Z杀全部CM新部，Z另杀Q有理挠点；不扩大到Qp挠点，实际log和simple商整投影仍开。
-
-[R1021](results/R1021-actual-full-p-affine-tail-rigidity-and-quotient-parameter.md)：实际full-p正则环经μ_(p²−1)平均，Cohen方程仅p+F_e+F_2e+…；radial chart在整个非约化O/(p)上为常数DL仿射模型，全部level作用模p真实线性。原普通p-商target eigenparameter准确u′=ε(c_Qψ+pR_Q)，R_Q仅仿射正则，六标记与c_Q单位保留；Dickson恒等式𝒟=ψ^p+C^(p−1)/ψ给首gap的具体Frob消去函数。未把仿射误差当节点有界；R1023现已在实际节点保全算出首log跨尾项，整投影继续。
+[R1028](results/R1028-original-Igusa-Kummer-model-and-same-order-CM-jet-correction.md)：原p11mod12中心u^m=r^(2g)A_p，完整u^-2 Hodge空间=<1,b,b²>db/u²；实际负δ线b db/u²的CM节点阶2g−2、完整权e0−p−1。整底lift可加π0^(3m+2)Ω_I，经厚度三真节点准确在ε⁴改同一t^(4g−2)dt系数。原ρ/首系数保留；指定Hecke/q_C选择的实际系数仍须求，不能默认零或冒原jet单位。
 
 [R1026](results/R1026-original-single-remainder-and-integral-CM-annihilating-log-direction.md)：固定hypergeometric两尾系数rank2给定义明确绝对C_*，全部p>C_*、p5mod6原Q∤P1−y^ℓ。实际p11mod12行，e_-=(1+ζδ+ζ²δ²)/3作用原logP的首层非零；R575/R1010完整CM方向使其杀全部CM新部，旧部亦杀。原Lie格的饱和CM商中准确Fm本原；未宣R1011具体Néron商格单位或原CM jet半径。
 

@@ -6,13 +6,15 @@
 
 会话 **Astra-serre-24b8836b-20261126**。本轮已部分克隆并真实pull main，读两README/H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则读至36cf1ed2。不重做已登记结论或窗口。
 
-**公开两README已读提交：0dbacf2e99db32f190c8e5fe35f743b2891e42dd**（2026-11-26 20:35 Asia/Taipei；本次同步两README无差异）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
+**公开两README已读提交：14c5c79f3643892d57cec959ac50c02f46ef8581**（2026-11-26 20:59 Asia/Taipei；本次同步两README无差异）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
 
-执行宿主本轮断连；08:36 UTC单次恢复探测仍无环境。按根规矩8用GitHub小文本原子tree/commit、最新head检查和非force expected-head更新；并发拒绝立即在新head重建循环至成功，保其它会话。终端恢复补pull --rebase。令牌仅此前CLI使用，未存文件/提交。根维护main/H/open/index/log；子研究交数学稿。每条结论完整审后立即推。19:52纠正：global_route曾违规用会话V8做数学探索，已叫停；已知范围、时长及独立纸面重核见[执行偏差记录](notes/2026-11-26-execution-path-deviation-and-correction.md)。不得把其数字记为证明或合规窗口。
+执行宿主本轮断连；12:39 UTC单次恢复探测仍无环境。按根规矩8用GitHub小文本原子tree/commit、最新head检查和非force expected-head更新；并发拒绝立即在新head重建循环至成功，保其它会话。终端恢复补pull --rebase。令牌仅此前CLI使用，未存文件/提交。根维护main/H/open/index/log；子研究交数学稿。每条结论完整审后立即推。19:52纠正：global_route曾违规用会话V8做数学探索，已叫停；已知范围、时长及独立纸面重核见[执行偏差记录](notes/2026-11-26-execution-path-deviation-and-correction.md)。不得把其数字记为证明或合规窗口。
 
-H<10KB、open尽量<30KB、每MD<100KB、topic<200MB；无可重算raw、不写根LOG。[本次逐字前态](handoff-archive-2026-11-26-before-integral-CM-direction.md)沿链保全部旧来源/run/hash；[open](open.md)、[索引](results.md)是完整入口。历史“R1003 norm3准备中”未交付，现R1003为范围纠错。
+H<10KB、open尽量<30KB、每MD<100KB、topic<200MB；无可重算raw、不写根LOG。[本次逐字前态](handoff-archive-2026-11-26-before-actual-CM-jet.md)沿链保全部旧来源/run/hash；[open](open.md)、[索引](results.md)是完整入口。历史“R1003 norm3准备中”未交付，现R1003为范围纠错。
 
 ## 最新全局实际来源
+
+[R1028](results/R1028-original-Igusa-Kummer-model-and-same-order-CM-jet-correction.md)：原p11mod12中心u^m=r^(2g)A_p，完整u^-2 Hodge空间=<1,b,b²>db/u²；实际负δ线b db/u²的CM节点阶2g−2、完整权e0−p−1。整底lift可加π0^(3m+2)Ω_I，经厚度三真节点准确在ε⁴改同一t^(4g−2)dt系数。原ρ/首系数保留；指定Hecke/q_C选择的实际系数仍须求，不能默认零或冒原jet单位。
 
 [R1026](results/R1026-original-single-remainder-and-integral-CM-annihilating-log-direction.md)：固定hypergeometric两尾系数rank2给定义明确绝对C_*，全部p>C_*、p5mod6原Q∤P1−y^ℓ。实际p11mod12行，e_-=(1+ζδ+ζ²δ²)/3作用原logP的首层非零；R575/R1010完整CM方向使其杀全部CM新部，旧部亦杀。原Lie格的饱和CM商中准确Fm本原；未宣R1011具体Néron商格单位或原CM jet半径。
 
@@ -22,11 +24,7 @@ H<10KB、open尽量<30KB、每MD<100KB、topic<200MB；无可重算raw、不写�
 
 [R1011](results/R1011-original-nonCM-half-rank-quotient-and-rational-CM-jet-transversality.md)：实际Q简单商C，q_CN=0、β=q_CD₀非挠，End_Q⁰C=全实F₀，dimC=2f、rankC(Q)=f、MW⊗Q=F₀β；同原CM点/Nekovář计全部重数。各ℓ真实log空间维f、与有理Lie交零；原c₁首jet有消去泛函，尚无p单位/统一半径/候选排除。
 
-[R1018](results/R1018-original-CM-divisor-exact-first-formal-layer.md)：p>37、p11mod12，原P=(p−1)D₀在良好J₁准确F^m\F^(m+1)，m=(p−1)/2、π₀^((p²−1)/2)=p。完整惯性、真实quotient lift、zero-flux frame及全局Cech给a0首类−6κ[z^−(2h−1)]单位；附e3全部odd-power gap单位。深度1/(p+1)不代log首层或简单商整投影。
-
-[R1019](results/R1019-original-CM-killing-correspondences-preserve-first-formal-layer.md)：A=T5²、Z=(T31−32)T5²作用后原P仍准确Fm\F^(m+1)，p11mod12且p>max(575,N_HA)/max(36863,N_HZ)。N为固定Norm函数lc/resultant；完整字面支撑、dlog零与无支撑SS尾已核。A/Z杀CM新部，Z另杀Q挠点；不扩大到Qp挠点，log/simple商仍开。
-
-[R1021](results/R1021-actual-full-p-affine-tail-rigidity-and-quotient-parameter.md)：真实full-p Cohen/μ平均给仿射尾在非约化O/(p)上常数、level作用线性；实际商参数u′=ε(c_Qψ+pR_Q)，R_Q仅仿射正则。𝒟=ψ^p+C^(p−1)/ψ给首gap具体Frob消去；节点pole与跨尾由R1023保全算出；非CM整投影仍开。
+R1018原形式Fm、R1019实际A=T5²/Z=(T31−32)T5²保形式Fm及杀CM、R1021全非约化模p仿射刚性均已成，完整尺度/支撑/阈值见open与归档。R1023已补全首log节点及跨尾返回；H_A/H_Z仍须算新支撑，不能任换λ。
 
 ## O0：不能省略的全局覆盖
 
@@ -77,4 +75,4 @@ R696早已证明同一全局Φ候选Ω_actual={0}，R832已消费；不重做、
 
 固定Y的R805–930及全部runs/高维格/预算边界见open与逐字归档，只消费已成输入。R907四artifact真404仍producer_inputs_pending，不重造；预算失败不作数学负结论。固定41全129盘/8CM已由R707完成，不重开。R575旧正CM角色根号−与逆twist秩零撤回有效。R1004仅导子下界而非a/c上界，停止重复优化。
 
-当前并行：R1026饱和CM Lie商到实际简单商及原CM Abel jet的相对整格比较；R1025实际符号后的原primitive/Legendre谱；原bare完整余项；实际CM-killing及非CM整投影。子问题完成即接open其余项，真正达到README完成标准才收尾。
+当前并行：R1028实际Hecke选定的CM jet修正与相对整格；完整Nns类型/模p谱分离以取得真实整投影；R1027后的原primitive/Legendre同标签；原bare完整regular/carry。子问题完成即接open其余项，真正达到README完成标准才收尾。

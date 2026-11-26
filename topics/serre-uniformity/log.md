@@ -235,3 +235,8 @@
 ### 2026-11-26 20:35 Asia/Taipei — R1027 原绝对常平方全行为一
 - [R1027](results/R1027-original-level-p-squared-theta-distribution-and-constant-one.md)：全部p≥41、p5mod6原D_p=1，4η⁶C_N²=1，Σa_i²a_(N−i)²=−1/4。真实Lp²第p theta分布在Frobenius子空间为(Dv)^p；保A†拉回全部total-D阶p交叉项与刚化[p]=−Frob²双轴符号，得d_A d_A†^p=γ/κ；R1025原符号付清绝对常数。共同δ′只剩±1，原两mask/bare仍开。
 - o1/root纸核genuine输出distribution、全部交叉项的有限次数预算、[p]两负号及Wilson/dagger相位。无数学程序，继续原同标签条件。
+
+
+### 2026-11-26 20:59 Asia/Taipei — R1028 原CM jet的同阶整修正
+- [R1028](results/R1028-original-Igusa-Kummer-model-and-same-order-CM-jet-correction.md)：原p11mod12中心u^m=r^(2g)A_p，完整u^-2 Hodge空间=<1,b,b²>db/u²；实际负δ线b db/u²的CM节点阶2g−2、完整权e0−p−1。整底lift可加π0^(3m+2)Ω_I，经厚度三真节点准确在ε⁴改同一t^(4g−2)dt系数。原ρ/首系数保留；指定Hecke/q_C选择的实际系数仍须求，不能默认零或冒原jet单位。
+- 逐类Kummer阶、全惯性、Hodge lift差和实际node单位均纸核；不把一般lift自由冒指定商自由。12:39 UTC恢复探测仍无执行环境，继续根规矩8小文本同步；两README本次无变化，继续原实际Hecke/整投影。
