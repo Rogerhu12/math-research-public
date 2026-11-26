@@ -318,3 +318,5 @@
 - [R589 完整自主双反馈与真实偶端germs](results/R589-autonomous-full-feedback-and-even-end-germs.md)：**已证明**保原r/σ/ν和全部incoming的自主反射，A端零加两末速度零给真实局部唯一性下全scalar/完整T偶germs。自由H/L的19态+4常数/23BC准确；未授实际根、pose或第四返回。
 
 - [R590 完整第三最高平方势及C²更新](results/R590-full-history-square-potential-and-c2-update.md)：**已证明**保完整chain的最高T²系数恰为当前状态势全导数，余项经真实D0降C²；共同中心ρ/νhat可逆。ruling非负平方、负侧和末E±全回付，通常真实高尺度不消失；未授新根或温和性。
+
+- [R582已付口到核心返回首个完整终态](notes/2026-11-26-r582-paid-mouth-original-terminal-receipt.md)：**完整原观察**。run45805053770新增.444643577科学秒且0尾seed；μ−.04/ν−.04893431917，2413点几何V0。固定均值24/48/96基细线性上界.006479/.00016334/.00021887，第三个未降、无完整返回。下一同口真实s-ODE射击，不重复拟合。
