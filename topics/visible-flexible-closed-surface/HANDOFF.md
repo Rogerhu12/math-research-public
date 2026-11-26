@@ -6,7 +6,7 @@
 
 连通闭C2嵌入连续族、共同g、固定握持开区域；全曲面D下held/D≥.05、含反射δE>0、全时reach/D≥.03、全域全时metric≤1e−6；同一g/参数下真实网格/频率/时间加密到机器或求解容差，并给可重生完整网格。基础后继续held/D≥.2、δE/D≥.05或严格存在。有限结果不冒完成。
 
-- 根/课题README完整读于 `f0548477576caa2373d1626227a284ccfa9767d0`。最近已读公开提交 `ea06af81ee9557ca3efd89623e6117d801e68817`（2026-11-26 16:02:56 UTC真实pull/rebase后，双README逐差无变化）。根blob282e86b0、题blob e2318baa。每次literal pull立即核双README差异，至少每小时；有变只读差异立即执行，API读不冒pull。
+- 根/课题README完整读于 `f0548477576caa2373d1626227a284ccfa9767d0`。最近已读公开提交 `2a41100a6668e9589d41e02f6de0cedc1f648c8d`（2026-11-26 16:04:20 UTC真实pull/rebase后，双README逐差无变化）。根blob282e86b0、题blob e2318baa。每次literal pull立即核双README差异，至少每小时；有变只读差异立即执行，API读不冒pull。
 - 私库QUEUE已认领推c7785184d0d9c503852fb2137e9e2c091221d080，进行中（本会话/2026-11-26），不重复认领。
 - 每结论立即CLI commit/push，NFF立刻literal pull --rebase/双README差异/再推循环；不force或改写已发表提交。完整证明直接登记results及索引，不附加独审/冻结门。根第15条：可重算证书/数据/Actions输出不存Git/Release，公开脚本、参数、run/SHA及实际结论；不分件规避。MD<100KB、H<10KB、题<200MB，不写根LOG，token仅命令环境。
 - 根唯一写main，agents只同级scratch。部分clone `/tmp/visible-flex-6a65e705/math-research-public`，同级三agent目录。旧历史见[11:15 H](https://github.com/Rogerhu12/math-research-public/blob/a9aaaf7d2fbdc01eb0df3e635d9065c20faac354/topics/visible-flexible-closed-surface/HANDOFF.md)、log/open/results索引；不重做已登记结论。
@@ -35,7 +35,9 @@
 
 [R246](results/R246-polar-positive-height-complete-port-connector.md)付完整二阶端口的条件C2正高度连接、自嵌入及面积/Gram下界；R205右端b30≥(49519/49600)zs≥0已全角证明，左端/clock仍欠。正内部控制可保持高度积分/端迹/g重分配；完整闭面reach另付。
 
-[R247](results/R247-fixed-polar-radius-positive-height-point-budget.md)付任意正N31高度分配锐点上界及无反射法曲率必要条件；固定rho真实点浮算上界.437387<所需.785395，不能靠该族重分配解决。[polar反参实修](notes/2026-11-26-6a65-geometry-polar-inverse-failure-and-stable-source.md)：旧128真0/192真1；左角Newton二周期。另源括区/冻结完成角保原5e−14门槛，失败点和完整两jets已真过。v2新128 cache181.535s真0且与旧成功数组逐字同，192组重算中，尚无全baseline。
+[R247](results/R247-fixed-polar-radius-positive-height-point-budget.md)付任意正N31高度分配锐点上界及无反射法曲率必要条件；固定rho真实点浮算上界.437387<所需.785395，不能靠该族重分配解决。[polar反参实修](notes/2026-11-26-6a65-geometry-polar-inverse-failure-and-stable-source.md)：旧128真0/192真1；左角Newton二周期。另源括区/冻结完成角保原5e−14门槛，失败点和完整两jets已真过。v2两缓存已完整自然0，旧成功128数组经真实重算逐字相同；完整新基线见下。
+
+**[polar v2真实完整基线](notes/2026-11-26-6a65-geometry-polar-v2-actual-complete-baseline.md)**：新两缓存181.535s/289.171s各真0，prepared a67e6e08…c0905086。独立同g，97×128+192两组半权、5292列/434560行，完整值1.049s真0；R14²97.051245、metric.939401/κ104.978/σ.246551、baseline接受0。新[全H入口](notes/2026-11-26-6a65-solver-independent-polar-q2-full-normal-entry.md)明确v2身份及真normal量，首LM已实际自然0/接受1，末R²75.58255但metric1.43230升高，详细note随即登记；同态lm02已启动。
 
 [R248](results/R248-exact-C2-prefix-support-extension.md)准确扩展[b,S]到[c,S]，b改三重knot保持所有旧六jets/系数字节，释放内部两阶端口。完整旧5292→12789非零接口真0、756有理基/导准确相等；保径向带宽5、逐span两点正权H2正定。新实际prepared/求解待接，固定prefix误差不再被视为永远不可改。
 
@@ -54,6 +56,6 @@
 
 当前CLI已恢复，工作全在/tmp；旧失联raw不在，外部−9原因未证。root主分支，exact推进M48及专用全H，solver推进q2全H，geometry推进正高度新输入。子题完成继续open，不阶段收尾。
 
-<!-- 6a65-root-literal-rules --> 2026-11-26 16:02:56 UTC 真实pull/rebase读取main ea06af81ee9557ca3efd89623e6117d801e68817，双README逐差无变化；CLI已恢复，后续普通Git发布。
+<!-- 6a65-root-literal-rules --> 2026-11-26 16:04:20 UTC 真实pull/rebase读取main 2a41100a6668e9589d41e02f6de0cedc1f648c8d，双README逐差无变化；CLI已恢复，后续普通Git发布。
 <!-- 6a65-m12-angular-warm-ci-rules --> README unchanged at c021d04494bd07b4ff7a1fd4b66888e803e122c6; run 45847254548 attempt 1.
 <!-- 6a65-m12-full-normal-ci-rules --> README unchanged at 724c40189bf85488b74487693313877499a75cd3; run 45851669566 attempt 1.
