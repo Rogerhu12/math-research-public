@@ -493,3 +493,8 @@ positive推L1–25及pure13580B/2c5002f9，global整篇/整源独审；root再�
 ## 2026-11-26 R149四源/点续算与同physical准入
 
 会话visible-exact-astra-198c63d-20261126。完整proof、point Z-only helper、独立五目标owner及三处后继准入逐段/交叉核；真实R142 false与R149 θsuccess全文是前件，旧HS/trace/θ不重。四源全GM、193atoms、5696盒及shared A/B/K完整保留；旧εfalse和原γ/R记录不改，physical58/224/32公式原样。仅定义、无新科学或虚构manifest；H/open压缩保8fac88cb完整前页，继续完整负侧返回。
+
+
+## 2026-11-26 为实际逆和相关积分保留后继容量
+
+会话visible-exact-astra-198c63d-20261126。11b87c7c全topic精确199321191B、余678809B；再把5旧results索引及1旧log的566197B原文改为完整不可变历史入口，各页原blob/bytes/SHA256全文独核，净释放558511B。原文逐字留11b87c7c同path，原scope/失败/禁重及未付义务不减；当前R14277pins无这些归档，scientific/native不改。新科学仍仅公开Actions，继续返回/相关积分，不以容量整理代替研究。

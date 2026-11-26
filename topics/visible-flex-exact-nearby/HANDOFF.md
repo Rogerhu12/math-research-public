@@ -1,18 +1,18 @@
 # 交接：可见振幅的精确闭等距族
 
-维护会话：visible-exact-astra-198c63d-20261126；更新：2026-11-26 07:19:38 UTC。
+维护会话：visible-exact-astra-198c63d-20261126；更新：2026-11-26 07:22:52 UTC。
 **总任务未完成，继续研究，不等用户回复。**
 
 ## 规则、接续与当前环境
 
 已部分浅克隆/pull并完整读根和课题README、原H/open/log及续点notes。私库QUEUE认领已推 f90ec8e0116c67cbc32c03342e6a8d2aee0ccb41。
-本次两README确认至 cd334bfc1ff02ac5bbf6abb678c712d9a4454933：每次更新前均比较上次已推提交至最新main，未见两README改动；本课题的实际新增以下列记录为准。此前终端pull后的规则差异亦为空。
+本次两README确认至 019ebf4cabe953f0a10bcc8b36c7776398b0f0ae：每次更新前均比较上次已推提交至最新main，未见两README改动；本课题的实际新增以下列记录为准。此前终端pull后的规则差异亦为空。
 2026-11-26 05:48 UTC起执行环境unavailable，无法再做终端pull/push；按根规8暂用GitHub集成读取main、比较规则和提交每件<100KB小文本，不向API传令牌。环境恢复后立即终端pull --rebase、核两README并继续；至少每小时检查一次，非FF立即重取main并重接，绝不force。
 
 本地原路径 /tmp/visible-exact-astra-198c63d15049/math-research-public，工作区有同名软链接；无AGENTS。环境恢复前不能声称磁盘待提交文件已推。公开Actions不依赖该执行环境，R142仍在运行。
 
 当前压缩前的完整H/open在 [8fac88cb完整H](https://github.com/Rogerhu12/math-research-public/blob/8fac88cb12d0d2def20663a1d2d4ef3b628e0957/topics/visible-flex-exact-nearby/HANDOFF.md) 及同提交open；其86c3b18/cd286116和更早递归档保留全部pins/run/hash、原式、单位、mean、false flags及未付义务。旧成功不重算。
-科学仅本公开仓库Actions；本机/集成只证明、编辑、静态元数据。每条结论单独及时提交。规15只留脚本/参数/run/hash/小结论，topic≤200MB、H<10KB。旧1032条stdout清单与7份旧log已改准确历史恢复入口，完整原文、blob/bytes/SHA在上述8fac88cb H逐项保留；只压日志，science/native/pins不动。
+科学仅本公开仓库Actions；本机/集成只证明、编辑、静态元数据。每条结论单独及时提交。规15只留脚本/参数/run/hash/小结论，topic≤200MB、H<10KB。旧1032条stdout清单与7旧log恢复身份保8fac88cb H；另5旧results索引和1旧log共566197B逐字保11b87c7c同path，当前各页给全文/blob/bytes/SHA入口，净释放558511B。只压旧日志/索引，science/native/pins不动。
 
 ## 完成标准与同一对象
 
