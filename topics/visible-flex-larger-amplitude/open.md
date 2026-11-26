@@ -109,7 +109,7 @@ R648/651/652仍只是开放prefix；R669/671的有限表示/线性唯一性有�
 
 紧接责任按实际返回推进：
 
-1. 读取9b937e自己stage74完整连续first，不沿用8a/b788的D/L/embedding；新场的marker、全K、reach、全域Gram与同固定问题精化仍需分别支付。R686/5ec4的完整六jet/无限尾及分批journal继续使用，未返回胞不能算覆盖。
+1. 9b937e自己stage74完整连续first已返bbefd075：922/922全胞、D≤4.118905347119922/L≥.9389496075349506、heldbody≥.22796095768296684及embedding；完整scalar tail有效而请求精度未达。继续该新场的marker、全K、reach、全域Gram与同固定问题精化，不迁旧证书。R686/5ec4的完整六jet/无限尾及分批journal继续使用，未返回胞不能算覆盖。
 2. 同一deep g仍有实际下降。后继方向必须绑定9b937e/993556及其完整位置，使用真实μ.000625或明确声明新μ；若改p或求值规则，须重读新baseline，不跨目标/测度相减。更充分的内层、原全C多轮分离与新表示都可继续，不能把256预算退出叫驻点。已有完整d146同profile refinement+SOC源，但当前ready仍指8a，未执行；要用更新父须先改完整来源参数。真正refinement要固定g/参数/t区间并实际下降至机器或原求解容差。
 3. [真实Haar角矩71](notes/2026-11-26-actual-complete-material-Haar-moments.md)对7ebb已完成2049/2049角orbit，027c36准确有效盒；请求精度未达不冒其已达。已排真实冻结→b70完整全变量新目标1×256→纯reader，初始Phi新读、新μ.01，不能减旧moving-mean Phi。[faa863完整连续Gram](notes/2026-11-26-accurate-Haar-continuous-Gram-consumer.md)保固定准确目标/全RT/双方余项，当前未对百分之一失败场排昂贵上界。任何Haar新场仍须自己的几何与固定g精化。
 4. [完整SO3六源](notes/2026-11-26-complete-closed-SO3-meridian-solver.md)已接独立公开run45800076687/1的必要输入再生之后。冻结当次真实父T0/材料图，全部omega shared jets/free core/H与原全角正权/原192+amp/历史地点保。hDelta闭合参与全部J/J*/六jet，不能把单位T说成最终E恒1。新jet-sum范数和μ.01明确；最多4×64完整共松弛恢复后1×16真实metric方向，slack不能冒物理可行。实际成本/求值/root/归一化责任据新场返回处理，不新增fixture或继承父证书。R692经典连接定理不冒非圆存在或所有C²弱类结论。

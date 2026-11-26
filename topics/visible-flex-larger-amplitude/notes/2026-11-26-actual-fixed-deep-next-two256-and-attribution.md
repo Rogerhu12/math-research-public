@@ -193,3 +193,44 @@
 
 第 74 阶段自己的连续 first、全部 t 的闭面嵌入与 reach、全域连续相对 Gram≤1e−6、固定参数实际加密下降、网格交付及精确存在性缺口仍须真实处理。本条不把阶段完成写成本课题完成。
 
+## 7. 追加：第 74 阶段已返回本批末场自己的连续 first
+
+以上第 1–6 节保留的是 72/73 返回时的责任边界；此节记录随后自然返回的**同一末 bundle 9b937e** 的独立 first 读取，取代“尚未返回”的时间状态，不把前父第 69 阶段数值改标签继承。来源仍是[第 9 卷实际小结](2026-11-26-public-actions-45762076394-1-part-009.md)。
+
+| 项目 | 实际值 |
+|---|---|
+| 脚本 | 5ec4ebc2975bb35e3374911cca34de53d8b5638038d7b63451af8042fb31f1d6 |
+| 实际 source commit | ba5c0cf46acfcfcfce98530392a9cfe79255e198 |
+| 同场 bundle | 9b937eeaf793a402d76ddb3d557f43982bf2c04b2ab7e8c1ac8e29dba5ba6fe9 |
+| 同场 fixed profile | 383168fbd269d52a16586fca626632c28243bf230df62a5882e7ed2048625d7d |
+| 同场 model | e39e63dfd59f362a66fa8ea3042a7e2116420d50e32f7b7568ea55f8c82a8761 |
+| 自身 first report | bbefd075348147f6362a98a7c0b5e41c1ef58740c90948c4a1b5fb055ef5803e |
+| report bytes | 1046039 |
+| 自身 journal | accc490f5e43c198a0fc62f92b42b43a9dbadd1406f1471930079b352a1a4721 |
+| journal identity | 45738f3fba4b9bdff399a146fea3c0dd6efca81ffae2522ebfaf8c6c4b948a38 |
+| 覆盖 | 922/922; 0-921 |
+| complete_scope | true |
+| remaining_count | 0 |
+| continuous D upper | 4.118905347119922 |
+| continuous L lower | 0.9389496075349506 |
+| held body lower / D | 0.22796095768296684 |
+| embedding | true |
+| minimum E lower | 0.8509512693301388 |
+| minimum W² lower | 0.0068524486652522905 |
+| core rho lower | 0.15268801660229553 |
+| support lower | 0.30073279726648317 |
+| exact height | 8457929797934103/4503599627370496 |
+| 完整 tail | true |
+| scalar requested accuracy reached | false |
+| metric / reach / marked certified | false / false / false |
+| topic complete | false |
+| child launcher 秒 | 375.2514840980002 |
+| 内部读取秒 | 370.3685981500021 |
+
+实际输入使用本批新末场的 `exact-tail-lift-profiles.npz`，不是前父 reference carrier。nodes / observations 继续分别绑定 `4786632e4269d484811c27a6fa05374387b18bb190d831d6957e64392f4bd535` / `bdd9eb854432680009e2f1b4b6a03983d6ef01df46f93ff7a128d74a8af4124c`，真实 node producer 是完整 `4ae012fbc0ccd58ae093069e0229ee8b72db9ef8d7d153565ef4507dc67db2d1`。
+
+完整命令仍是 `--mode first --cells all`，levels=`256:1:24,512:2:32,1024:4:48,2048:8:64,4096:16:96`、target-support=.14、target-diameter=4.198、scalar-tail-cutoff=1/8、scalar-integral-tolerance=1e−18、scalar-admission-seconds=300、admission-seconds=600、maximum-new-cells=1024、scalar-degree=5、radial-block=4、angular-taylor-degree=12、panels=128、beta=1/4。执行自然返回，原 922 个胞都已读完，闭帽与反射的范围按已刊 5ec4 入口原合同保留，没有只抽端点或旧网格。
+
+输出路径为 `deep-separated-SOC-next-two256-continuous-first/{batch-0001.json,journal.json}`。这给新父自身的 D/L、浸入余量及本入口声明的 embedding 结论；可用于下一步原 4.2/.9/1.01 幅度预算的同场依据。完整 scalar tail 已支付，但 scalar 请求的最终精度目标未达到；不能把此 flag 改为 true。它没有执行新场的完整曲率上界或全域 metric 收敛，原报告也明确 metric_certified=false、reach_certified=false、marked_certificate=false、topic_complete=false。
+
+因此本批结果现在包括真实 solver、纯全体来源归因和自身连续 first 三项完整返回。后续新场仍必须使用自己的证据；这个补充仍不满足 README 的全部完成标准。
