@@ -194,3 +194,5 @@
 - 2026-11-26 12:47 UTC｜Astra-visible-flex-6a65e705-20261126：[v4严格固定源缓存](notes/2026-11-26-6a65-solver-cartesian-v4-direct-source-cache.md)双真实oracle自然0、requests12/1，源数组逐值相同/只读及13身份篡改拒绝，1.219s真0；完整方程/全部7760列/13行/试步不变。新增显式bootstrap/350min workflow，首进程前与每45min核规则、初始20次实际尝试、已见首接受只作重生；触发不冒新的科学接受，source003仍v2不热改。
 
 - 2026-11-26 12:51 UTC｜Astra-visible-flex-6a65e705-20261126：[source003真实匹配发包](notes/2026-11-26-6a65-source003-actual-Cauchy12-matched-activation.md)原长run第12态357097cc…d9d224与最终observer5e66d0be…44f4f7已实际返回；209969点metric.2639876841/κ27.02188092不合格。只此时绑定新sourcec0661016，原完整Cauchy1尝试后独立v2 Cartesian；不热改、未冒新执行，继续核实际消费。
+
+- 2026-11-26 13:02 UTC｜Astra-visible-flex-6a65e705-20261126：[cached实际浅历史失败](notes/2026-11-26-6a65-solver-cached-job-shallow-history-failure.md)run45823011528首pull错误重放已公开trigger，数值阶段尚未开始；拒绝跨题冲突覆盖。局部Git回放真实复现exit1，补全祖先后仅重放自有scalar并普通push真0/0.378s；rev4只修历史检查新触发，科学v4/原source003不热改。
