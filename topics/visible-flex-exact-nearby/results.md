@@ -238,3 +238,5 @@
 - [完整actual](results/R147-supplement-actual-same-window-negative-nu-waist.md)
 
 - [RWA：实际96个真实反射腰行](results/R149-supplement-actual-reflected-finite-waist-rows.md)：45787309600/1 complete/provedtrue、96×5球；true reflection/signed mean/全DFT误差及完整输入保存链已核。非PDE列、Θ或完整逆。
+
+- [CXN：共同高输入到六个负侧接收量](results/R149-supplement-actual-common-high-negative-receiver-execution.md)：完整owner/worker/generator已接；同NIF/WX和真实source4/58/224/32准入，六个同输入whole norm逐保存后消费。未有完整32，未生成执行manifest。

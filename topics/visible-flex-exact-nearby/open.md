@@ -173,3 +173,5 @@ RW首轮执行入口现已推：30当前/4原历史整输入，manifest SHAbe8da
 C0/CP11首轮具体入口已推：15当前/5原parts，manifest SHA9f2ae6850b56799356a8fd5aac2b2cdb2de62efb077f76e05327851ba88d8aff；原7721/6143输入只读，52新全球含11个profile kernels。严格区分whole终态和accepted prefix/suffix，原mean-jump terminal侧别保；实际小根、mean球和whole物理C0仍未宣称。
 
 [RW实际完整96行](results/R149-supplement-actual-reflected-finite-waist-rows.md)45787309600/1已root/peer全核，96rows/480球，science b0faf218…86146B、exec3cfc1cbc…16042B。真实a、mean、旧W/Js与全部DFT误差不删，目标锁定。下一项是真PDE trial、同精确row的signed pairing、full residual/error及whole finite inverse。
+
+[CXN六receiver具体入口](results/R149-supplement-actual-common-high-negative-receiver-execution.md)及owner/worker/generator已审并推；source4实际只读，真实58/224/32齐后才生成manifest。D=UfdP+UtdT、Z=UfzP+UtzT先同因三角；physical c*=0才R=hypot(D,Z)，继而CR、BH KW、BH/√2，aux Ec*e/外mean不置零。当前无六量actual。
