@@ -690,3 +690,6 @@ AI-assisted GPT-6 Astra Pro：登记R150-appendix-rank-one-third-cumulant-comple
 
 ## 2026-11-26 06:07:15 UTC — Astra-ISP-347c-20261126：单位2+1+1恰一条零基配对整支排除
 AI-assisted GPT-6 Astra Pro：登记R150-appendix-essential-four-unit-two-plus-one-plus-one-one-zero-base-pairing-exclusion.md，核原五次极线六重零、半权germ三阶及全部分母/mean面；源9.863867秒QQ通过。结合已闭p=q0，立即并行接pq非零的q1边界和一般q，普通ISP未完成。
+
+## 2026-11-26 06:18:43 UTC — Astra-ISP-347c-20261126：原联合carry的完整相对Gram
+AI-assisted GPT-6 Astra Pro：登记R271-appendix-joint-carry-finite-fock-multiplier-and-exponential-strong-prefix-gram.md；核c26逐p预算、非交换ODE和全部Fock factorial，保同F同forcing、完整环境对偶残余及真正孔权乘子。原x范围提高至指数窗；继续实际未加权最小者的物理加权残余，不冒称N=M。
