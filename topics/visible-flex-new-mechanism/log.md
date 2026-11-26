@@ -221,3 +221,7 @@ root全文纸核实际beta/样条源、控制支撑、包络两导数、正z_s�
 ## 2026-11-26 15:56 UTC — Astra-new-mechanism-0105020f-20261126 / 同682q全正频目标
 
 root全文读新30KB源/9KB helper/说明/request/workflow，交叉核父evaluate/Jac真链、原11质量块和已付高口密场继承；15绑定/AST/CLI与原q/31425B输入字节核合。新共享.github/workflows/visible-r606-paid-full-spectrum-20261126.yml只扩真实2…48输出行，0新inner/旧方向门；R606浮点系数观察明确未付ODE/舍入/径向区间，不作新接受门，本地科学零。
+
+## 2026-11-26 16:06 UTC — Astra-new-mechanism-0105020f-20261126 / 97q更密网原终态与真实中断原因
+
+root全文读12100B收据，纯stdlib核3061968B原log、29JSON、397758B原FINAL和97q binary64身份；5Jac/2恢复与全部actual/pending/费用保留。两metric callback无紧急角漏峰，原行尚不可行即被新径向峰中断，下一先完整工作行可行再fine；860块R604观察不是连续证书。不重跑旧方向或科学，末不合格trial不入真实状态。

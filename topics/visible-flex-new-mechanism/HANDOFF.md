@@ -5,7 +5,7 @@
 
 ## 1. 规则、授权与原始记录
 
-公开已读提交 **6a6519cc0b47b87fdea5fc3d2acf7d18cc7e234e**（2026-11-26 15:57 UTC；本次实际pull后根/题README空差异）；最后实际pull及规则同blob读至 **4ef70649bcd6ae2a39fe028685c9b68a0492f2a9**（2026-11-26 15:57 UTC；实际pull成功，根README空差异、QUEUE仍本会话）。私有 QUEUE 仍为本会话进行中，原认领提交9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7，其他课题认领不改。
+公开已读提交 **e3d95b5acbe933292ba374a009f8dc0fef311298**（2026-11-26 16:06 UTC；本次实际pull后根/题README空差异）；最后实际pull及规则同blob读至 **b38d9f4f9a73837bfad87380846f2374d9de163a**（2026-11-26 16:06 UTC；实际pull成功，根README空差异、QUEUE仍本会话）。私有 QUEUE 仍为本会话进行中，原认领提交9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7，其他课题认领不改。
 
 [本次压缩前全文](notes/HANDOFF-before-continuous-angular-bounds-20261126.md)及其所链[继承交接](notes/HANDOFF-inherited-20261116-1809.md)保全部结论、条件、旧失败、输入与费用；不因摘要删账。三次环境失联后已恢复；远端临时CLI和后续本地CLI均真实双pull/rebase/push。每次实际pull后查根/题README差异并执行，至少每小时；API读取不冒pull。root独占git和共享索引，每条结论即推，NFF立即pull --rebase再推至成功。
 
@@ -25,9 +25,9 @@
 
 R580排旧有限多项式，R582付实际圆背景无限全平核，R592付遇有限阶零时的undivided接口；当前不造零点。原真实μν/归一口、H射击、三种子及所有旧费用见[前史](notes/HANDOFF-before-local-tail-and-eleven-core-20261126.md)，不重新射旧口。旧同p=.181失败η≈.996/κ8413，旧15outer不再跑。
 
-[97q首个真实细网恢复](notes/2026-11-26-r582-local-tail-first-original-terminal-receipt.md)：run45842923121/job139989034161、source d262130d83ddfc5dd51ebc34941678bef313dac1，125.663352586秒，17恢复接受。稳定同一quintic配16真尾列；同p=.181/ε=.001，10905×768细网工作V0、η.000433487、κ16.45257，未过2.5e−7。真实97q SHA815b1168，actual169×384/trust2，pending10圈和768角未采用；末不合格trial不能用。
+[首个97q终态](notes/2026-11-26-r582-local-tail-first-original-terminal-receipt.md)已付125.663352586秒/17恢复；[更密角网原终态](notes/2026-11-26-r582-paid-angular-original-terminal-receipt.md)run45850216756/job140014319556新217.706907412秒/2恢复/5Jac，metric接受0，η.0004334870087785436、κ16.45256917。真实97q SHAeb37b419，p=.181/ε=.001/trust2；actual185×1536、fine10934×3072保全部旧点，pending4圈，189×3072提议未采用。未过2.5e−7，不增p。
 
-[更密角网正式续算](notes/2026-11-26-r582-paid-local-tail-angular-continuation.md)已备并发布；实际构造179×768/fine1536，保全部10905旧细点、全部pending/原费用/真实trust2继续metric。新R604观察只复用已有几何，不改完整接受；已付97q方向核和七点旧诊断不重跑。旧大尾失败有真实一jet放大，稳定求值本身未修好物理输入。只有完整工作几何与阶段metric都过门才提高p，最终目标p=.8；g设计变化不当固定g精化。
+原两metric callback均无紧急角漏峰；backend trial尚违反已加入metric行，fine新径向曲率峰即打断SQP，角翻倍只是附带策略。下一先让全部Rows.fun可行才付fine/交换，保189圈、1536实际约束角和3072细角及未采用proposal身份；不弱化完整接受门。首次R604有限观察δ=.001、α=.00432120、λ=1.0013167、ν=.00417069只复用860块，不授连续界。旧97方向核/诊断不再做；真正阶段通过才增p至目标.8，改g设计不作固定g精化。
 
 ## 5. 完整高度与非线性核心
 
