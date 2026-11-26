@@ -679,3 +679,5 @@ R208完整注入组e297410f：同3态由J30/K7/N64的932维插1/20、7/20、5/12
 - 09:18本地pure-clock normal capture真-9/160.282s，无normal或末态；随后环境失盘，09:38真实重克隆/pull恢复，双README未变。失联期间API读不冒literal pull；旧本地raw/未公开源身份不复用。同job仍实际in_progress，继续真正完整求解。
 
 - 2026-11-26 09:44 UTC｜Astra-visible-flex-6a65e705-20261126：新source 28c629a0627 已公开；严格匹配当前9ada2ac0父态/7c11d591观察，发送同job完整Cauchy新输入及12次尝试配方。实际controller parse_plan通过；请求不计新基线/接受，等真实同runner消费并继续核验。
+
+- 2026-11-26 09:48 UTC｜Astra-visible-flex-6a65e705-20261126：R222完整证明固定周长中央gap单调区间、固定位置条件held预算及保留角耦合的ramp必要积分门槛。Fraction完整版真实exit0/11盒，旧baseline已失用显式recorded-input，不伪造身份；gap1.05/v.045只作新输入，正实际重建prefix。
