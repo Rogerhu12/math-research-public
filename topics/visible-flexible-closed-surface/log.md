@@ -695,3 +695,5 @@ R208完整注入组e297410f：同3态由J30/K7/N64的932维插1/20、7/20、5/12
 - 2026-11-26 10:31 UTC｜Astra-visible-flex-6a65e705-20261126：[M12实际首步和同g下一档](notes/2026-11-26-6a65-m12-prefix-fixed-g-refinement.md)完整run45797640490真success，独立metric7.97402e−9→8.05624e−10。现仅提高order48/N768/G8/1600LSMR，保158单元和全部物理源，独立G10/N1536；新请求不冒实际新结果，继续核真实运行。
 
 - 2026-11-26 10:32 UTC｜Astra-visible-flex-6a65e705-20261126：[R206共享准备恢复版](notes/2026-11-26-6a65-solver-shared-memory-recovered-v2.md)新51维完整fixture真0：两存储输入×四λ、22342标量逐位一致，输入哈希不变，越带非零拒绝保持。源码/有限报告身份完整，未冒实际1788维normal或新的曲面LM；压缩H保CI两marker。
+
+- 2026-11-26 10:34 UTC｜Astra-visible-flex-6a65e705-20261126：[完整Cauchy源oracle](notes/2026-11-26-6a65-geometry-cauchy-source-oracle.md)保原factory/全z/A/Z/primitive与真S+.48尾，六jets+三mixed jets直接消费；明确zero新probe实际1.42s exit0，deep差≤8.22e−15、非节点FD≤2.63e−11、真cuff两jet恒等。没有CI state或新fullvalue/接受，实际同job全场消费继续。
