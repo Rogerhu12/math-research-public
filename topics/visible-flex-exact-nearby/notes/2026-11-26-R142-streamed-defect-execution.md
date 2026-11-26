@@ -63,4 +63,4 @@ python topics/visible-flex-exact-nearby/scripts/make_low_centre_streamed_defect_
   --workflow-out .github/workflows/NEW_STREAMED_DEFECT.yml
 ~~~
 
-这里只列调用形式，没有实际实例化文件。后继 workflow 的安装命令用 YAML block scalar；原 320-bit admission、768-bit directed arithmetic、Python 3.12.14、python-flint 0.9.0、原 16800 秒科学预算及公共 worker 20100 秒 child 上限保持。新科学仍只在本公开仓库 Actions 执行。
+这里只列调用形式，没有实际实例化文件。后继 workflow 的安装命令用 YAML block scalar；原 320-bit admission、768-bit directed arithmetic、Python 3.12.14、python-flint 0.9.0、旧 R142 前件的 16800 秒科学预算原样保留；本 PS 新 owner 的科学预算为 19600 秒，公共 worker 20100 秒 child 上限及 workflow 360 分钟上限保持，留 500 秒供 child 收尾。新科学仍只在本公开仓库 Actions 执行。

@@ -79,7 +79,7 @@ CERTIFICATE_PARAMETERS = {
     "compact_matrix_storage": "binary64 midpoint/radius with an Arb outward-containment guard for every entry",
     "source_packet_order": "source_independent_outputs_then_complete_missing_defect_parents",
     "complete_source_roles": ["true_coefficient_defect"],
-    "maximum_certificate_wall_seconds": 16800,
+    "maximum_certificate_wall_seconds": 19600,
     "completed_prior_run_id": "44721851908", "completed_prior_run_attempt": "1",
     "completed_centre_mean_floor_run_id": "44727185157",
     "completed_centre_mean_floor_run_attempt": "1",
