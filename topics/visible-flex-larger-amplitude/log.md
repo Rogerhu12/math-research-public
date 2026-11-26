@@ -65,3 +65,7 @@
 ## 2026-11-26 16:12:57 UTC — 独立04完整必要再生接续新SOC
 
 按a0a3 controller/完整14步/c7fa workflow配置push触发；[完整说明](notes/2026-11-26-run02-budget-and-complete-run04-continuation.md)保依赖闭包与新父选择。root核全部runtime script/args/outputs/parent/cleanup/summary逐值等于登记参数，另核仅id/来源说明变化。49已真返f66，04明确再生0f父直接新SOC，不冒49继承；request仅说明更新SHA 031593c10f1d0fd3b54564ddc0ac920127fd68dae8070351a8d5ae83433b207e。H背景固定2a7c全文，终态02槽收为准确末状态并留04空间；逐pull核双README。
+
+## 2026-11-26 16:21:38 UTC — 02实际49完整缓存续算与04实际启动
+
+亲读49同源174b/5100a2e，真实793b→f66c/d2d0，1metric接受，Phi .0067327958799266755→.006640209697890763/max .03662269652001199，全部2856/2821位置/双支有限g负。[完整记录](notes/2026-11-26-actual-run02-cached-SO3-49-and-terminal-boundary.md)保全部cache成本/初读微差与未知归因；16:08:12自然返、16:08:14准入结束，50未执行，API总cancelled不否认49。04由650165 push真触发45857104277/1、job140038237351运行，明确0f父直接新SOC。没有本地科学或raw转存；未达完整标准继续。
