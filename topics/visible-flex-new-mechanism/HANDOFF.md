@@ -5,7 +5,7 @@
 
 ## 1. 授权、规则与完整前史
 
-公开本次实际pull且根/题README已读至 **02e4d60c5bff539a645301b6e5f888904db5d9ea**；根/题规则相对继承0749a4cc均空差异。私库实际pull/根README已读至 **0fb004a642c0e796e0912d5b4aa6199a20bb6517**，QUEUE认领提交 **09f8b8b54e7cfaabaa635bae5c438c7f1521289a**；本会话仍唯一进行中，21:48:04 UTC再次实际pull且根README空差异，下一不晚于22:47 UTC。
+公开本次实际pull且根/题README已读至 **6cf96437b44e8181a7fe1918e171e6be13bcc6d5**；根/题规则相对继承0749a4cc均空差异。私库实际pull/根README已读至 **0fb004a642c0e796e0912d5b4aa6199a20bb6517**，QUEUE认领提交 **09f8b8b54e7cfaabaa635bae5c438c7f1521289a**；本会话仍唯一进行中，21:48:04 UTC再次实际pull且根README空差异，下一不晚于22:47 UTC。
 
 [压缩前全文](notes/HANDOFF-before-actual337-20261127.md)及其归档链保存全部旧结论、真实输入、失败/偏离、量词与完整费用；移档不重跑已付门。[四来源与文献](notes/2026-11-27-current-four-source-topics-and-literature.md)保已读版本及用途。
 
@@ -19,13 +19,13 @@
 
 [279原终态](notes/2026-11-27-r582-physical-pending279-original-terminal.md)run **45895078668**/job140166868607/source021c6d790，新2375.001235837秒、9接受/12完整Jac+6未闭块/15fine；真97q **14d1a961e41fa87c152eb81f22837e5e54ba5014bdc5f92f05d70dc5fb5a4445**。p=.181，11100×3072 η4.2622659748238665e−5、物理V0/working V9.77658e−10<tol；actual296×1536/trust2、pending2→proposal298，新fine并集11103须完整资格。真实strip漏峰交换1次；末6f82 raw不合格，独立半步/elift才成14d1，只有clock截止、不冒自然stall。
 
-[a237及前史](notes/2026-11-27-r582-physical-paid-resume-original-terminal.md)费用/18接受/19Jac+2块全保；下一正常续真14d1/全部pending及旧fine，不借a237几何。未过stage2.5e−7不增p；目标p=.8/末η≤1e−7，mean g设计仍变化。原62878端点mesh **0d222bd12ce8a61d0c88264c6fb5c82066f0ca058855b5bf7a670a53b483a991**固定；必要再生计费、有限材料不冒无限核。
+[a237及前史](notes/2026-11-27-r582-physical-paid-resume-original-terminal.md)费用/18接受/19Jac+2块全保；[298正常scope](notes/2026-11-27-r582-physical-pending298-resume-implementation.md)已全文核11812B wrapper、33绑定/原FINAL恒等；只入口279→298，正常续真14d1/全部pending及旧fine，不借a237几何。未过stage2.5e−7不增p；目标p=.8/末η≤1e−7，mean g设计仍变化。原62878端点mesh **0d222bd12ce8a61d0c88264c6fb5c82066f0ca058855b5bf7a670a53b483a991**固定；必要再生计费、有限材料不冒无限核。
 
 ## 4. B030：真实7371及未闭原队列
 
 [新终态](notes/2026-11-27-r566-physical-epigraph-original-terminal.md)run **45892179085**/job140157246913/source1530094182，新2370.192668793秒、15metric+1恢复/33Jac；真81q **7371a880eaa603c17191acc747847817dd1e846196ee0d4e74548a125c898513**，1298×3072/1515全峰η.2277496382670385、物理V0。actual660圈/1473峰/573work/1536角、trust.3003387451171875；当前要求fine1322，旧1298资格不自动扩大。原bc9的1353队列已补并接受；6coarse/9fine拒绝都是真物理门，恢复一步η上升不冒全程单调。费用下界12359.003476909998秒，旧未知仍未知。
 
-末raw **55e30fac8df3438d4e5d627f2c8ac9f867c67357db524e99589009bb8ad6ef36**未接受；同1322 coarse/fine/nested已付，1519bracket中391闭/1128待补，原PARTIAL325628B/f3727616，oracle5bfa207c。先同身份补1128并合并391，再采用5physical/5working pending。[391续算scope](notes/2026-11-27-r566-partial391-resume-implementation.md)已全文审读/30绑定及原FINAL/PARTIAL逐项核，原全部数值参数不动；同身份先补1128。所有旧fine永续保留，newFFT/部分费用不丢、内BFGS未输出不伪恢复、e提升不冒η改善。
+末raw **55e30fac8df3438d4e5d627f2c8ac9f867c67357db524e99589009bb8ad6ef36**未接受；同1322 coarse/fine/nested已付，1519bracket中391闭/1128待补，原PARTIAL325628B/f3727616，oracle5bfa207c。先同身份补1128并合并391，再采用5physical/5working pending。[391续算scope](notes/2026-11-27-r566-partial391-resume-implementation.md)已全文审读/30绑定及原FINAL/PARTIAL逐项核，原全部数值参数不动；同身份先补1128；run **45900339926**于21:45:50 UTC启动，待原自然终态。所有旧fine永续保留，newFFT/部分费用不丢、内BFGS未输出不伪恢复、e提升不冒η改善。
 
 ## 5. 全奇位置：真实337继续下降与固定g模型
 

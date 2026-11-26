@@ -457,3 +457,7 @@ root全文纸核八密度与四偶可逆行变换、四奇尾积分双向等价�
 ## 2026-11-27｜97q真实279续算末态与14d1后继
 
 全文审10986B收据、核原4790919B log/380450B FINAL和q/三网格binary64身份。新2375.001235837秒、9metric/12完整Jac+6未闭块/15fine，true14d1在11100×3072 η4.26227e−5、物理V0/working margin原容差内；真实strip漏峰拒绝并交换到296，不能接受更低但不合格fineη。原2pending/proposal298与全部旧fine保留，新并集11103仍需新资格；末raw6f82不接受、独立半步才合格，无natural OptimizeResult。p仍.181，不移借a237连续证书；原所有费用和内部态未保存事实完整保持。
+
+## 2026-11-27｜97q真实14d1与原298库正常范围发布
+
+全文读11812B新wrapper、note/workflow，33绑定与原380450B FINAL逐字核合，全部参数差仅initial_radial_nodes279→298。原14d1/296/11100/pending2与不合格6f82 warm分开，原driver所有数值函数不改；新11103须原完整baseline，旧15fine与12Jac+6块不复跑。新费用ledger另立pending279项，不覆盖先前18接受账；源/内部态/材料身份保持，只有AST/JSON/hash无本地科学。
