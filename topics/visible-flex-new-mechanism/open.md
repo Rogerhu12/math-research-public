@@ -275,3 +275,7 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 ### R592：真遇水平切点时保完整穿越，不让除零遮蔽连接条件
 
 [R592](results/R592-undivided-finite-order-crossing-and-exact-angular-bound.md)将zs=x^m b的undivided两行写成不除x的Volterra压缩，给每个C(s0)唯一光滑穿越支及完整二jets；简单零的共同六jets可用于两侧Hermite，自由样条保端口。零点控制运动及离散算子链式明确，单j2准确连续角谱亦已给，旧保守上界不回改。当前paid-mouth采样zs均正，优先直接真实s-ODE核心射击；若发现真实零点才使用此接口，所有实际根数/连续正图须另付。
+
+### R593：强迫接口有实际可满足的准确静态输入
+
+[R593](results/R593-exact-resonant-background-and-finite-nonresonance.md)明确R=.85/L6/λ=.5/H=.5及C∞onset相位族，核其适用已登记R571连续周期传递/负倍monodromy条件，取得准确φ*的j2核。核心x坐标C²拼接、整个旋转闭面|X|²<565/576、开放帽直径比>.22均已付。归一共振模控制密度的二项渐近随μ不同，两个近核心正bump给严格非零Jac，可任意小地保j2=0并逐次移开4/6/8；R591有限阶前提因此可满足。该静态族没有可见相位位移，亦不偷换当前H数值状态；全频逆、非线性有限分支及主reach/位移仍继续。

@@ -700,3 +700,7 @@ root全文核完整Darboux二/三阶角积、turning均值式、峰节点收缩�
 ## 2026-11-26 — Astra-new-mechanism-0105020f-20261126 / R592准确未除法穿越
 
 root全文核Volterra收缩常数、双侧x积分、有限光滑bootstrap、C″中12m/(m+1)项、简单零六jets、真实根残差与位置链式；独立纸算角谱极值两支和边界一致。结果入results，链接按实际新位置修正；不宣当前圆背景已有根，不复制旧ODE/LS。
+
+## 2026-11-26 — Astra-new-mechanism-0105020f-20261126 / R593新准确背景与小时规则pull
+
+root全文核新W三项/有理常数、核心m=20/9拼接、尾/gain/core高度上界和565/576球预算；对读R571§5–6只核适用条件，不重登记原monodromy。手核Qμ的一阶系数−2μ/R、两正bump积分比及有限顺序IFT开条件，含高模A=0时仅用C≠0。另11:10 UTC私库实际pull到94811d9096ce4cf840e3c949bdae7a875f79104f，根README空diff、blob不变、QUEUE仍本会话；该SHA写入H。
