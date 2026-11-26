@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R144 FM：固定η0 forward完整实际均值与外端错配](results/R144-supplement-actual-fixed-eta0-forward-mean-and-terminal-mismatch.md)：45778507038/1全7296格/6143接口；Y严格正，但moving C0下界超1e−4，末端mean shift约−0.00766584、外physical Cmean shift>0.00022411927。只排此固定密度中心的接法，继续已成compact mean；无需再续此target。
+
 - [R144 CP11：按真实径向系数的完整mean三次反馈](results/R144-supplement-profile-weighted-mean-feedback-polynomial.md)：11个same-Lm weighted rows保全部ξ/q系数和原jump，给统一S/L门；χ/χ²准确支撑积分，可与新compact moments同pass执行。无actual门值。
 
 - [R149 CX actual：完整共同高频WPN源单位球](results/R149-supplement-actual-common-high-WPN-source-unit-ball.md)：45783842857/1四新球完整通过/child0，25whole pins/320bits，formal保存读回和同源两行/全外mean均保。B/E/P/T为大但有限完整界，不授逆或smallness；目标锁定，真实32后再六receiver。
