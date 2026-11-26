@@ -7,7 +7,7 @@
 
 完整连通闭C2嵌入族、共同g和固定握持开区域；全曲面D下held/D≥.05、含反射δE>0、全时reach/D≥.03、全域全时metric≤1e−6，并支付同一g/全部物理参数下真加密到求解容差及可复现完整网格。基础之后继续held/D≥.2、δE/D≥.05或严格存在。本题尚未完成。
 
-- 根/课题README完整读于 `f0548477576caa2373d1626227a284ccfa9767d0`；接手真实pull在05:16UTC成功。最近已读公开提交 `113e1c20d4e702d1e5dc1792a7cf5b5eff42fb6a`（2026-11-26 09:49 UTC真实pull/rebase后，双README逐差均无变化）。每次真实pull后核两README差异，至少每小时；有变只读差异立即执行。本轮各次均无差异。
+- 根/课题README完整读于 `f0548477576caa2373d1626227a284ccfa9767d0`；接手真实pull在05:16UTC成功。最近已读公开提交 `da7ef3d9d5f48b2493f6a2008f084d94a598f4b1`（2026-11-26 09:51 UTC真实pull/rebase后，双README逐差均无变化）。每次真实pull后核两README差异，至少每小时；有变只读差异立即执行。本轮各次均无差异。
 - 私库根规矩完整读；QUEUE认领已推 `c7785184d0d9c503852fb2137e9e2c091221d080`，状态进行中（本会话/2026-11-26）。认领推拒均即时pull/rebase再推成功。
 - 每结论分条commit/push；推拒立即pull --rebase循环，不强推、不amend已发布提交。完整证明直接登记；不回到旧独审/冻结手续。可重算数组不进Git/Release/artifact，只存源码、参数、run/hash。单MD<100KB、H<10KB、课题<200MB；不写根LOG。令牌只在命令进程环境。
 - 部分克隆 `/tmp/visible-flex-6a65e705/math-research-public`；同级 `solver-work/geometry-work/exact-work` 保存raw。/workspace空间不足，勿将大数组放回。05:47和09:18两次失盘；09:38已重新部分克隆、真实pull。旧本地raw/未公开源均失，不借旧字节身份；第二次中断及恢复见[真实回执](notes/2026-11-26-6a65-cauchy-same-job-recovered-transition.md)。
@@ -32,11 +32,13 @@
 
 [短前缀完整重算](notes/2026-11-26-6a65-geometry-short-cauchy-transplant.md)已真0：191模/768角，明确新S9^5/S9^6参考和真实C2端口；强制尺度归一导致额外曲率，改用[真实周长新g](notes/2026-11-26-6a65-geometry-transplant-natural-perimeter-metric.md)，保留raw几何集合和曲率；E/F并未自动支付。
 
-[自然周长完整rho拟合](notes/2026-11-26-6a65-perimeter-full-rho-fit-baseline.md)J38/K11/N128/1788列，.18入口value真0：metric.885019/κ28.74355/held.625658。首LM完整normal真返回314.878s，但321.914s被SIGKILL；无trial/末态/接受，末采样RSS245792KiB，原因未证。
+[.18自然周长全rho旧value](notes/2026-11-26-6a65-perimeter-full-rho-fit-baseline.md)真0但metric.8850/κ28.7435；完整normal314.878s返回后SIGKILL，无trial/接受，不重复失败。
 
 **本地已失原件的最后真实输入**：[更早.14入口](notes/2026-11-26-6a65-geometry-earlier-port-natural-metric.md)+[纯物理时钟](notes/2026-11-26-6a65-geometry-exact-physical-clock.md)后[完整rho拟合/value](notes/2026-11-26-6a65-physical-clock-full-fit-and-value.md)，右长.7956739498716915、cut.9772364498716914、A/Z=.8746432018013935/.51。全1788列/301210行，reference/fit/value均实际0；110.596s、RSS86200KiB，R².2159071/metric.39368564/κ18.63050/held.6263963。旧原件SHA `01725d3b221e5d0f8d0580ac332f957e8183edc6bcacd3b664743197a4ee46e2` 已失盘，仅保历史身份。09:18该场normal capture真-9/160.282s，无normal/末态/接受；不证明OOM。新同job入口从真实CI父态全部重生，g仍可设计，非同g加密。
 
 [R222](results/R222-central-gap-conditional-held-and-ramp-budget.md)已证明固定周长gap区间[1.041,1.089]的中央曲率上限及明确假设下held>.64；9.5中央guide保[1.041,1.067]。真实角Codazzi项不可删，联动候选gap1.05/v.045正在重新构造；旧有限held不转借新场。
+
+[R223](results/R223-m12-common-chart-through-flat-cuff.md)已证明原g从中央到真正平领的共同C2图：显式quintic全尾.684<−r_q<1.422，H/H_q与完整两jets保持，r=.6可作内部自由接口。全尾数值装入和全局求解仍在做，非完整等距证明。
 
 ## 公共CI实际状态与继续
 
