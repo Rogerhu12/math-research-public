@@ -42,3 +42,5 @@
 ## 当前几何计算入口
 
 [R942§11](results/R942-original-split-scalar-preimages-and-whole-module-elimination.md)已证明完整Popov与单列shift的全程多项式次数界，以及全部附加源的独立次数界。它修复单F v2的实际HNF瓶颈，公开小API与生产门分开登记；§13又付完整306 W基和全部厚ideal两图运输，两个独立小API实际成功；原四交/全部厚Norm/shadow没有预记PASS。
+
+- [R964](results/R964-original-e65-rational-off-target-unit-commutator.md)：原66维有理Π和真实α_h给显式G=(324/25)(7ReδF+ImδF)，ΠG=0、Π(d/h7·G)=Z。G,Z在原canonical61格，真实两行[[1,0],[qS,1]]单位，完整交换子像OZ+O(d/h7)Z primitive秩2、核59。保C24准确1/7尺度；合法whole joint off-target已给，但不把边际Q2整除升级到所有伴随系数，不传播中央零，继续原H/2完整对应及全部混合cut。

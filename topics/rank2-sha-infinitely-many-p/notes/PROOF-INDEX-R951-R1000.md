@@ -30,3 +30,5 @@
 - [R962](../results/R962-original-sixth-on-five-axis-overdetermination.md)：第六原来源在同五高轴的完整p5必要系统给真实过定余式，保高尾/真除p/全heat。固定Schur来源H满足EH首阶6，首余式准确读[w^s]H；整个C24十八aux保同charge五位身份，旧rank2时新Smith=(0,0,min(vp余式,5))且全核为ann(余式)c*。同次run45823614454在p227余式233762530371、首位157单位；旧差rank2→全rank3，严格得五位全核零。仅有限p及准确同格必要排除，跨p仍开。 §6.4准确付同原格交Oc*和完整两角有限商O[t]/h7；实际原六源向量c*受迫，但中央测试核不冒J6深核。
 
 - [R963](../results/R963-original-h-e65-full-cm-projection.md)：原R548 h经真实六输入置换和两完整整框架，同次run45823614454在原66维Π上得α_h=(325−425δ)/10656、Norm=4375/767232非零；两13分支/全部Gram/半特征/旧混合行/原Pj及Rc全返。普通p>211完整五伴随Λh为单位，保原65/(17·175)周期、所有CM支及测试次序。全Λρ,h=ω²[2]*Λ65和Λh两态身份已证；质量比(2−δ)/2不冒完整比或删除R548余域，继续有限固定族共同非零。
+
+- [R964](../results/R964-original-e65-rational-off-target-unit-commutator.md)：原66维有理Π和真实α_h给显式G=(324/25)(7ReδF+ImδF)，ΠG=0、Π(d/h7·G)=Z。G,Z在原canonical61格，真实两行[[1,0],[qS,1]]单位，完整交换子像OZ+O(d/h7)Z primitive秩2、核59。保C24准确1/7尺度；合法whole joint off-target已给，但不把边际Q2整除升级到所有伴随系数，不传播中央零，继续原H/2完整对应及全部混合cut。
