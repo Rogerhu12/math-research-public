@@ -145,6 +145,10 @@ def build_plan(root, original_history):
         nodal_manifest=NODAL,reconstructor=RECONSTRUCTOR,object=OBJECT,
         q_vector=Q_VECTOR,waist_row=WAIST,
         original_runtime={"python":body["python_version"],"packages":body["packages"]},
+        original_container="python@sha256:4d1caded1f729ae443eb803f26ffde7b61e696aeaef62f099abb6dd6b14257c7",
+        original_reconstruction_OPENBLAS_CORETYPE="unset",
+        original_successful_reconstruction_run="43583838026/1",
+        original_successful_reconstruction_job=132414020963,
         original_nodal_answer_sha256=entry["original_sha256"],
         original_cubic_sha256=entry["original_cubic"]["sha256"],
         expected_cubic_pieces=6144,expected_direction_shards=14,
@@ -189,12 +193,18 @@ def reconstruct_direction(plan, inputs_root, temporary, roles, state):
     environment = dict(os.environ)
     for key in ("GITHUB_TOKEN","GIT_CONFIG_COUNT","GIT_CONFIG_KEY_0","GIT_CONFIG_VALUE_0"):
         environment.pop(key,None)
-    environment.update(PYTHONDONTWRITEBYTECODE="1",OPENBLAS_CORETYPE="Haswell",
+    require(plan["original_reconstruction_OPENBLAS_CORETYPE"] == "unset",
+            "the original successful reconstruction did not force a BLAS core")
+    environment.pop("OPENBLAS_CORETYPE",None)
+    environment.update(PYTHONDONTWRITEBYTECODE="1",
         OPENBLAS_NUM_THREADS="1",OMP_NUM_THREADS="1",MKL_NUM_THREADS="1",
         BLIS_NUM_THREADS="1",VECLIB_MAXIMUM_THREADS="1",NUMEXPR_NUM_THREADS="1")
     record = dict(necessary_input_reconstruction=True,old_QR_solve_called=False,
         old_residual_or_norm_targets_called=0,complete=False,actual_returncode=None,
-        runtime=runtime,new_arrays_published=0)
+        runtime=runtime,new_arrays_published=0,
+        reconstruction_OPENBLAS_CORETYPE="unset",
+        original_container=plan["original_container"],
+        actual_platform=platform.platform(),actual_libc=list(platform.libc_ver()))
     state["necessary_input_reconstruction"] = record
     state["necessary_input_reconstruction_children"] = 1
     state["old_numerical_producers_called"] = 1

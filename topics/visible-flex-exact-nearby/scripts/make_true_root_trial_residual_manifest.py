@@ -15,8 +15,8 @@ TOPIC = "topics/visible-flex-exact-nearby"
 OWNER = TOPIC+"/scripts/fourfold_codazzi_true_root_trial_owner.py"
 WORKER = TOPIC+"/scripts/fourfold_codazzi_true_root_trial_public_worker.py"
 GENERATOR = TOPIC+"/scripts/make_true_root_trial_residual_manifest.py"
-BASE_MANIFEST = TOPIC+"/notes/2026-11-27-true-root-trial-rematerialized-inputs"
-BASE_WORKFLOW = ".github/workflows/fourfold-codazzi-true-root-trials-rematerialized-public"
+BASE_MANIFEST = TOPIC+"/notes/2026-11-27-true-root-trial-original-runtime-inputs"
+BASE_WORKFLOW = ".github/workflows/fourfold-codazzi-true-root-trials-original-runtime-public"
 OUTPUT_BASE = TOPIC+"/notes/true_root_trial_residual_ci"
 REVIEWED_RULES_SHA256 = "26da0165d2a7ec5f968959332c9fd04aae7259059de2b56f41e76b49b61fc051"
 
@@ -388,6 +388,7 @@ jobs:
   complete-new-finite-trial-objects:
     if: github.repository == 'Rogerhu12/math-research-public' && github.run_attempt == 1
     runs-on: ubuntu-latest
+    container: python@sha256:4d1caded1f729ae443eb803f26ffde7b61e696aeaef62f099abb6dd6b14257c7
     timeout-minutes: 360
     env:
       OPENBLAS_CORETYPE: Haswell
@@ -398,6 +399,10 @@ jobs:
       VECLIB_MAXIMUM_THREADS: '1'
       NUMEXPR_NUM_THREADS: '1'
     steps:
+      - name: Install Git in the original immutable Python container
+        run: |
+          apt-get update -qq
+          apt-get install -y --no-install-recommends git ca-certificates
       - uses: actions/checkout@v4
         with:
           ref: main
@@ -410,9 +415,6 @@ jobs:
             /topics/visible-flex-exact-nearby/README.md
             /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_root_trial_public_worker.py
             /@MANIFEST@
-      - uses: actions/setup-python@v5
-        with:
-          python-version: '3.12.14'
       - name: Install the fixed directed finite-trial runtime
         run: python -m pip install --disable-pip-version-check numpy==2.3.5 python-flint==0.9.0 scipy==1.17.0 sympy==1.14.0 mpmath==1.3.0
       - name: Whole old inputs, true-root finite trial and only missing complete objects
@@ -654,7 +656,7 @@ def build(root,prior_manifest_path=None,prior_execution_path=None):
                 "one concrete original first-attempt run")
         suffix = "-continue-"+prior_execution["run_id"]+"-"+definitions[prior_execution_path]["sha256"][:12]
     manifest_path,workflow_path = BASE_MANIFEST+suffix+".json",BASE_WORKFLOW+suffix+".yml"
-    problem = "R149_complete_true_root_finite_trials_restored_20261127"+suffix
+    problem = "R149_complete_true_root_finite_trials_original_runtime_20261127"+suffix
     manifest = {
         "repository":REPO,"kind":owner.MANIFEST_KIND,"scientific_kind":owner.KIND,
         "stage":"true_root_finite_trial_residuals","problem_id":problem,
@@ -669,7 +671,7 @@ def build(root,prior_manifest_path=None,prior_execution_path=None):
         "operation":{
             "topic_maximum_bytes":200000000,"reserve_bytes":120000,
             "readme_pull_interval_seconds":1800,"automatic_scientific_retry":False,
-            "consumed_marker":OUTPUT_BASE+"/consumed-restored-20261127"+suffix+".json","output_base":OUTPUT_BASE,
+            "consumed_marker":OUTPUT_BASE+"/consumed-original-runtime-20261127"+suffix+".json","output_base":OUTPUT_BASE,
             "maximum_state_bytes":18000,"maximum_matrix_bytes":26000,
             "maximum_negative_bytes":50000,"maximum_positive_bytes":52000,"maximum_prefix_bytes":20000,
             "maximum_execution_bytes":35000,"maximum_total_publication_bytes":170000,

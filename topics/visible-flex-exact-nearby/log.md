@@ -194,3 +194,5 @@ NS五件共129172B，owner71056B SHA18db439d5895e4232882940a57b7bd9457982383e1ac
 2026-11-26 19:17:38 UTC / visible-exact-astra-fb31ed6-20261127：SR由FM真实signed终端与CP/TM/LC原球锐定同一ξ*∈(−8e−13,−7e−13)，给全mean/C0与五源改进，无旧target重算；保ν差与所有非mean/jump。TC新run输入恢复通过至nodal重建但cubic SHA不符，科学0，继续修原环境。
 
 2026-11-26 19:21:15 UTC / visible-exact-astra-fb31ed6-20261127：按200MB上限把66份未被任何源码/JSON输入引用的旧HANDOFF快照改为固定7d589f1913282b7ffb0a497e516e1c9951d84452的完整原文入口，原SHA/blob/字节数逐件保留，净减585795B；科学结果、native和活动输入不动，为TC/并行源积分的完整输出留容量。
+
+2026-11-26 19:21:54 UTC / visible-exact-astra-fb31ed6-20261127：TC第二次实际失败未接纳不同cubic。按原成功43583838026/1的日志恢复不可变Docker镜像及原未指定BLAS核；新manifest保持137当前/32历史、原完整SHA门和TC数学源，独立workflow推送触发。课题外workflow仅执行本题必要恢复和未成目标。
