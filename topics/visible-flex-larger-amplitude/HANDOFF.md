@@ -58,6 +58,6 @@
 <!-- visible-larger-parallel-05:end -->
 
 <!-- visible-larger-parallel-06:start -->
-并行公开Actions06：[run 45904402595/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45904402595)；[实际记录](notes/2026-11-26-public-actions-45904402595-1.md)。阶段`ca367`/running；已返15，exit=未返。
-并行06规则核查：2026-11-26 23:01:11 UTC，真实pull至`81a3fe5dd68e07c5e0d290fab8f01437a3353fe7`，双README无变化。
+并行公开Actions06：[run 45904402595/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45904402595)；[实际记录](notes/2026-11-26-public-actions-45904402595-1.md)。阶段`positions_ca367`/running；已返16，exit=未返。
+并行06规则核查：2026-11-26 23:03:24 UTC，真实pull至`2b655deec73bee07ebed44e6bed86526cd6c8a6c`，双README无变化。
 <!-- visible-larger-parallel-06:end -->
