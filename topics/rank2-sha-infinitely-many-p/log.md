@@ -327,3 +327,5 @@
 - 2026-11-26 20:10 UTC / Astra-rank2-Sha-0b097461-20261127：R978完整证明登记，原两个13-old真实退化/全部相位及F10非零质量差已付；unknown primitive导数准确相消，ordinary原单位切及inert全Newton均给固定κ10乘非零logp(π/barπ)，保物理17/charge130/原权变量。v7待读实际c125与κ，理论不等待数值；继续F10整体forcing及新δ-new全算术输入。
 
 - 2026-11-26 20:19 UTC / Astra-rank2-Sha-0b097461-20261127：R978§7登记v7 run45888699507/job140145723941真实success，完整V10源为X−8、X+10，κ10=δ/10080；六行old系数全22返回并给两H−F11质量抵消的整差及ordinary/inert非零。全部18源、stdout/log hash与原门保持，继续原整体forcing，未用边际相同代替全joint相同。
+
+- 2026-11-26 20:25 UTC / Astra-rank2-Sha-0b097461-20261127：R980完整证明登记，F10/F11的19维Hecke模及加入H后的全22维、四nonmu6块的实际五伴随CRT/Galois双单位分解均付；完整mixed转置、有限中心和反卷积平移保留，未从模生成宣称中央全零。继续R981两新固定秩二来源、R982十源真行及R983保CF新norm390六sigma投影。

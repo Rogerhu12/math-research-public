@@ -6,7 +6,7 @@
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。有限p、随p换曲线、条件桥和接口成功不算完成；固定有限曲线族的联合无穷非零可以再用无限鸽巢选定一条。
 
-- 两仓库已部分克隆、实际pull。公开根/课题 README 已读至 `db18f730405566b7dae810bb5da3b7717956267b`（差异为空）；每次pull检查两文件差异，至少每小时同步并更新此SHA。
+- 两仓库已部分克隆、实际pull。公开根/课题 README 已读至 `f6c04143ae09dbaa8182673694680051cadc0ab9`（差异为空）；每次pull检查两文件差异，至少每小时同步并更新此SHA。
 - 私库QUEUE接手已推 `41fe885610073f478b2f5a752461ca56cfd43f09`，根/本题README于20:03 UTC复核至eb74b5a78f485b18621f95381131a88bbd62467c（差异空，QUEUE仍本会话）。两本地目录为math-research-public、math-research-private；终端可用，令牌仅进程认证，不入文件。
 - root独占git/共享H/open/log/index；结论完成即推，非快进立即pull --rebase、检查README再推至成功；不强推。数学执行用公开Actions，不保存可重算数据/矩阵/log。H<10KB、单MD<100KB。
 - 完整旧状态沿[本次压缩前H](notes/2026-11-27-handoff-before-fixed-7993-and-old13.md)及其中历史链保存；全部未关闭门仍在[open](open.md)与proof index，未默删。
@@ -43,6 +43,8 @@ v7 run45888699507/job140145723941/sourceaa6939d6于20:13:49 UTC真实success；�
 
 **R978已证**：两13-old块由V10原π/barπ raw pull完整张成，F10+11Φ*/2=κ10Δ125且κ10≠0。共同b17 ordinary真单位切导数κ10 logp(π/barπ)(1−υp)/17，R968权再乘p−1；inert全Tate身份给κ10(p+1)logp(π/barπ)/17，充分大好惰性p逐p非零。未知基源导数在真质量零差中准确相消；实际H125−11F11,125/37800=F10,125/270，H12500−11F11,12500/23625=δΔ12500/1701000，后者也非零。F10非rank2 primitive，不能把此非零冒成Phi*非零或whole mixed结论。
 
+**R980已证**：A·F10+A·F11=19维，余商两质量线+E12500-old1维；v7两old实差给加入H后完整22维。四nonmu6块的整五伴随CRT/二次Galois分裂给两质量1单位，保全部mixed转置/反卷积平移/CF；不把两rank2中央零扩成19或22维。
+
 ## 三、保留的真正无穷性与mixed门
 
 **原六曲线族和通常全群桥**：E17及四原j0、E89、E65等固定秩≥2和原全部有限角色/周期/全权平方已付；R943/959等给rank+corankSha≤2ordJ。R961同六sigma E65 α=25omega/(72gamma37)、R963原h αh=(325−425delta)/10656均真实PASS，保65/(17·175)尺度和完整五伴随。只有无穷p至少一个真正J′非零才可收尾。
@@ -67,6 +69,6 @@ R885/897全finite/wild范数及Artin/尺度保持。R891/893/940/945仍以前提
 
 ## 五、持续任务与文件
 
-central跟v7实际κ并写R980完整19维Hecke模/whole伴随；arithmetic接R981原delta-new两质量零线的全部有限身份；geometry跟进v8实际终点并推进原c1/global/ordinary新输入，R975不再重复验证；root统筹全mixed/无穷性及提交。
+central实现R982四新源全角/10低jet与R983共同CF新norm390候选实际投影；arithmetic写R981新E54925/E8125全部finite3身份/秩≥2；geometry跟v8及R984原canonical Griffiths非零；R975不重复验证；root统筹全mixed/无穷性及提交。
 
 当前入口：scripts/produce-original-triangular-artinian-shadow.py、ci/original-triangular-artinian-shadow-request.json、对应唯一triangular workflow；中央scripts/check-original-e65-full-cm-sixth-axis.py、check-original-degree130-cross-cm-projection.py、check-original-degree130-whole-spectrum.py及e65-full-cm-source-request.json。每条结果完成立即登记results/proof index并推；继续下一个实际未解门。
