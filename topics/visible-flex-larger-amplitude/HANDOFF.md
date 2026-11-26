@@ -4,7 +4,7 @@
 
 ## 规则与完整目标
 
-最近规则核查：2026-11-26 20:10:02 UTC，真实pull/rebase至 `854edd6e5ae4ce9a00ee7c06e24838d5f487032b`，双README相对`9dbe3fb3e871e9449bbfb010262214d4b8d128fe`无差异，继续遵守全部规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
+最近规则核查：2026-11-26 20:24:15 UTC，真实pull/rebase至 `b7109d783bc008b9d388a2a72c11740b88950954`，双README相对`f27405d369913d30b89346b02a51ab20cb82ae30`无差异，继续遵守全部规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
 
 科学计算仅本公开仓库Actions；执行偏差见[早前记录](notes/2026-11-20-public-actions-execution-correction.md)及[四次大JSON整读纠正](notes/2026-11-26-large-file-connector-read-correction.md)。root唯一分支写者；结论即普通推，NFF立即rebase循环，不强推。每次pull核双README差异并遵新规，至少每小时，记commit。raw只scratch/runner，不入Git/Release/artifact；保完整小源/参数/run/SHA/紧凑结论。题≤200MB、单文件<5MB、MD<100KB、H<10KB、open<30KB。令牌仅瞬时CLI。17:55终端失联后曾用云API普通快进；19:17显式/tmp恢复并新部分克隆，现恢复终端git。旧迁移完成情况未知，不假称恢复旧scratch。
 
@@ -43,7 +43,7 @@
 
 ## 已刊工具与未付目标
 
-[R708](results/R708-supported-unit-meridian-seed-contraction.md)/[R709无收缩均值根](results/R709-global-convex-mean-closure-without-contraction.md)：凸球极小/PSD切块给唯一正根、完整二角jet和真实残差界，无需q<1，允许更宽端层；固定seed正实现，原全变量/Gram/几何保，未有实际候选。
+[R708](results/R708-supported-unit-meridian-seed-contraction.md)/[R709无收缩均值根](results/R709-global-convex-mean-closure-without-contraction.md)已证唯一正根、完整二角jet与残差界，不需q<1。[完整均值角jet核](notes/2026-11-26-supported-unit-seed-mean-angular-jet-kernel.md)bd9c已刊：全向量Newton、当前点J、隐式二jet、对称完整轮廓与最终原组合闭合真回读；本地只静态核，数值/连续费用未付。新固定seed不删原全变量/Gram/几何，正在接入实际九历史。
 
 [R700六jet控制](results/R700-integral-so3-full-sixjet-control.md)是固定有限M/正rho、全core/H的径向网格无关界，非实际余量或M一致界。[完整QR](notes/2026-11-26-complete-so3-integral-qr-coordinate-interface.md)49a1已刊未跑，仅真实234ac/7f布局，不冒zero/R696/gamma兼容；原Cholesky已成功，当前不换范数。[R704η尾](results/R704-eta-tail-uniqueness-scope-and-fixed-control-bounds.md)证明η0回到原线性唯一性判据、任意固定η>0仍非L1；本轮保原目标。连续cert源已刊未跑；必须先得到真实合格候选，再付完整922胞/全尾/浮点/隐式费用及同g实际精化。研究尚未达到README全部完成标准，继续工作。
 

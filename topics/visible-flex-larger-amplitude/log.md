@@ -368,3 +368,8 @@ R708支持内单位meridian完整条件构造：已正式刊[完整42式证明](
 ### 2026-11-26 20:09:11 UTC — Astra-larger-e4e2a2bf-20261126
 
 登记[04实际44/45首次完整后退SOC真接受](notes/2026-11-26-run04-actual44-45-first-backtracked-SOC-accepted.md)：892f实际51c8→9c9f/08e30b，Phi .005735011506412643→.005665053856316854/max .03513609110016425，g−3.6401591740897743e−7；acceptedSOC1/ray0，真实锚1/64/fallback1/128，全2063/2012重读。QP64/Pg1.31113仍未驻，不冒连续证书。即排[下一全参数两步](computations/resume-20261126-run04-actual44-backtracked-SOC-next64-ready.json)：同完整源/范数/实际μ/.01和全预算，严格restart本44、同44已完成cache，显式保39/40/44全部地点；尚未返。为守队列读取上限，仅把已返41/42/43的完整对象及全原紧凑返回移入[完整归档001](computations/resume-20261126-run04-returned-steps-archive-001.json)，保42 child未启动的真实边界，未删未返工作/科学数据。
+
+
+### 2026-11-26 20:23:49 UTC — Astra-larger-e4e2a2bf-20261126
+
+刊完整 [supported-unit均值/二角jet核](notes/2026-11-26-supported-unit-seed-mean-angular-jet-kernel.md)：bd9c 32,767B及完整说明10,356B。完整三向量Newton与同当前点J、全部二角导、径向轮廓及原组合闭合回读；无q<1运行前门。不把均值J逆迁证normal Cu，不声称已数值执行或连续余量。root已全文核，下一入口直接消费九份真实历史。
