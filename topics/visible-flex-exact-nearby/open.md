@@ -177,3 +177,7 @@ G以S/T E1856给physical C²整盘/曲率<2/径长<8e−6及同world position/no
 ### R149：独立 common 高输入的完整 source4
 
 [CX完整证明](results/R149-supplement-common-high-WPN-source-unit-ball.md)已从同x∈Xfr_H−4/3定义真实(F,e)，state外mean和aux Ec*e不设零；17独立槽的零逐项有源身份。新weighted body/tail用已成D mean列的L²权与真153×160格长，完整B/E/P/T四球可不等58/224/32。25whole输入、manifest3f0126ad…/320bits入口已提交，实际值须完整run；未来32×真实P/T才给strong additional response，rough baseline、finite/ν/全incoming仍各付。
+
+### R144：旧完整 mean Green 的新 C0 接收与紧窗正矩
+
+[CR补篇](results/R144-supplement-complete-C0-mean-receiver-and-compact-moments.md)从已存完整row sum得到K0/K1及另付全部mean-jump KJ；新fixed-j核差作为完整非mean反馈，保二三次项。ρ/b统一映球与收缩门、whole density positivity及二次root共同给可检验mean近邻；physical同角/非mean/帽仍独立。ā/b̄只旧[0,.18]完整载体的新正紧窗积分，D_R/G_R后用实际输出；不重已成Green/wholeη目标。尚无actual通过，执行入口正在准备。

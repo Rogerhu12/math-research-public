@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R144 CR：完整C0均值接收、收缩门及归一化紧支撑矩](results/R144-supplement-complete-C0-mean-receiver-and-compact-moments.md)：旧完整核row sums接真实C0，保全mean jump、核差反馈及二三次项；terminal小球与二次root唯一识别，正密度另付。新ā/b̄只需旧紧窗载体，全部数值门待actual。
+
 - [R149 CX：真实共同高频输入的完整WPN源单位球](results/R149-supplement-common-high-WPN-source-unit-ball.md)：保同输入两路径与全部外mean，已成D均值列的L²权给weighted body及原24480径向尾。25whole pins的独立4标量入口已提交；无未来58/224/32假设，无fake Smax或旧目标重算。实际值待本run。
 
 2026-11-26 当前新增完整论证和实际结果均在下列原路径。进一步新增从此处登记。

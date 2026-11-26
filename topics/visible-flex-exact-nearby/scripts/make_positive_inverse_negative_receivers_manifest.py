@@ -259,7 +259,8 @@ jobs:
         with:
           python-version: '3.12.14'
       - name: Install fixed directed scalar runtime
-        run: python -m pip install --disable-pip-version-check --only-binary=:all: python-flint==0.9.0
+        run: >-
+          python -m pip install --disable-pip-version-check --only-binary=:all: python-flint==0.9.0
       - name: Receive the complete original physical ports
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

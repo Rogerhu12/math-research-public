@@ -53,3 +53,9 @@ Root审完CX证明、pure math、owner/worker/generator和25whole pins。原WOB.
 ### 2026-11-26 — common4 首次启动的 YAML 解析修复（无科学执行）
 
 首run45783284224及随后同坏定义的自动解析记录全部jobs=[]，没有worker/科学child/consumed marker。定位pip plain scalar中--only-binary=:all:后的colon-space为YAML语法；改为run块标量，generator相同模板同步，重新绑定generator bytes/SHA/blob和manifest fe1ef17c743c480f9bef6494723b43dca2cba7798fb2cac693eb843c4d527d70。其余24输入、owner/worker/math/公式和目标完全不变；未重复任何旧/新科学，仅允许首次实际执行。
+
+### 2026-11-26 — 完整 mean C0 接收与正紧窗矩的解析接线
+
+提交CR证明；root逐项复核Lm展开、Γ中terminal接口T^-1与τ^+、K1全nonmean反馈、二三次多项式、uniform contraction、terminal与forward同线性解。不是用旧L²常数替C0；全−[m]、physical角变换、ξχ′/raw非mean/帽/phase保。ā/b̄由旧紧窗carrier作新正积分，D_R/G_R只有真实输出后消费。未执行新科学，full验收未过。共同source4的修复run45783842857已真正in_progress，首YAML错误jobs0。另窄修未执行PN56 generator相同pip plain scalar，避免后续启动前解析失败；未变科学公式或任何已成目标。
+
+另加CR19a：同一Γ及全部旧原cell的新βK weighted row gives ||Lm^-1(βK f)||C0≤KβK||f||∞；映球和Lipschitz中一致可用min(K0B,KβK)。不重新积分旧Rm/Rnm、不重算Γ，不删独立jump。
