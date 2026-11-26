@@ -340,3 +340,5 @@
 - [受迫j4原自然终态](notes/2026-11-26-r576-body-forced-j4-natural-final.md)：run45813421528付460.575048554科学秒，33接受/114拒绝；ε仍1e−5，目标下降而末细η升至3.0427e−7。真实D中j10最大约6.63e−6，单j4列不足；保真实265q/全部67结，转R594完整有限角非线性，未授连续尾/全域/宏观。
 
 - [R595 旋转reach的完整子午化简](results/R595-rotational-reach-and-complete-meridian-reduction.md)：**已证明**任意闭旋转集合的reach准确等于包含正负径向和全部高度的平面截集reach，轴上最近点退化也完整处理。C²闭面全部角法弦等价同方位/对径四行连续母线条件，不除a_s/z_s；未授当前背景数值reach或非圆候选证书。
+
+- [R590真实矩初猜与受控collocation](notes/2026-11-26-r590-staged-trust-collocation-design-agent.md)：新完整19态/29BC求解，真even矩拟合与odd反积分、同χ两控制全程初猜，原大能量以准确中心差评价；显式65stage保同Lobatto零集，严格拒步及每接受全状态留存。原物理缺陷仍另报；尚无新根，不重复已付恒等/导数/双阶门。

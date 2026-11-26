@@ -6,7 +6,7 @@
 
 ## 1. 规则与接手
 
-已部分克隆并实际 `git pull main`，公开根 README、课题 README、HANDOFF、open、results 索引及相关 log/notes 已读。公开已读提交 **b9e1902f218487a2416a1182d90d7d5f35cd2f86**（2026-11-26 12:12 UTC；本次实际pull后根/题README空差异）；历次规则及失败原回执保原note；私有 QUEUE 的本题已改为本会话进行中并成功推送：**9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7**；最后实际pull及规则同blob读至 **4a97d422c004724bff537e2c5e322b82aec4ccdd**（2026-11-26 11:28 UTC；恢复partial副本后实际pull，根README空差异、QUEUE仍本会话）。其它课题的并行认领保留。
+已部分克隆并实际 `git pull main`，公开根 README、课题 README、HANDOFF、open、results 索引及相关 log/notes 已读。公开已读提交 **9413ec2feb30122844c35d6aee4ce956d0267a33**（2026-11-26 12:16 UTC；本次实际pull后根/题README空差异）；历次规则及失败原回执保原note；私有 QUEUE 的本题已改为本会话进行中并成功推送：**9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7**；最后实际pull及规则同blob读至 **8bf870d68803d582214e847a5977b4c54af888f9**（2026-11-26 12:12 UTC；实际pull成功，根README空差异、QUEUE仍本会话）。其它课题的并行认领保留。
 
 [前历交接](notes/HANDOFF-before-new-actual-runs-20261126.md)保全部原规则/成本/范围；09:18及11:20 UTC两次本地失联期间仅API保存，不冒actualpull。09:33、11:28恢复后已实际双pull。每pull核根/题README差异并执行，至少每小时；root独占git/索引，每条结论即推，NFF立即rebase重推。科学仅公开Actions，本地限纸证/源码/原日志解析；已披露3次开发偏离保原note且停止。根12不加机械复跑，根15不留可重算raw。
 
@@ -45,7 +45,7 @@
 
 [R584](results/R584-centered-third-history-and-nineteen-state-full-ruling-bvp.md)/[R586](results/R586-sixfold-full-history-coefficient-projection-and-finite-integrals.md)付真19态/六历史预收；[R589](results/R589-autonomous-full-feedback-and-even-end-germs.md)付完整自主反射和偶端germs，但根/pose/第四仍欠。[R590](results/R590-full-history-square-potential-and-c2-update.md)付势/C²等价式，正势必须全回付。
 
-[新νhat首终态](notes/2026-11-26-r590-c2-nuhat-first-public-receipt-agent.md)run45812495528/job139883653226付68.247768秒child/67.375023603主程序。完整Fraction差0/Jac方向误差3.09e−10；原势约1.677e12。BVP95RHS/6542累计点/16Jac触发非有限或>|1e100|守卫，未存触发向量/接受历史，无coarse根/原缺陷/refine/pose。下一保29真条件：真实矩初猜、显式midpoint、严格拒步/缩步和每接受全态；大中心势用共同中心准确差稳定相消，不重投本猜或旧验证门。
+[新νhat首终态](notes/2026-11-26-r590-c2-nuhat-first-public-receipt-agent.md)run45812495528/job139883653226付68.247768秒child/67.375023603主程序。完整Fraction差0/Jac方向误差3.09e−10；原势约1.677e12。BVP95RHS/6542累计点/16Jac触发非有限或>|1e100|守卫，未存触发向量/接受历史，无coarse根/原缺陷/refine/pose。[新受控collocation](notes/2026-11-26-r590-staged-trust-collocation-design-agent.md)已备：真4even拟合/odd反积分、固定两规范配对、共同中心差，65显式stage/同29BC、1245稀疏Jac、LSMR严格接受和每接受全态。原单位缺陷与大势放大不藏；必要系数重建计费，旧门不重跑。
 
 ## 6. 持续工作与入口
 
