@@ -125,3 +125,7 @@
 ## 2026-11-26 17:29:59 UTC — 延拓pure完整v2按真实短snapshot修复
 
 刊[完整source/合同](notes/2026-11-26-continuation-reader-v2-short-snapshot-contract.md)75f4/31936B及6867/15174B参数。只删除短endpoint_roots未产三个字段的必取并改独立readout schema；完整endpoint_metadata/全部源目标norm守卫逐AST保持，缺键不补0、不拿另一点回填。根亲核完整diff和真实driver短列表，原ef017后排v2，全部其他完整对象不动。待真实trace/返回，不把静态差异冒实际29异常，不重科学。
+
+## 2026-11-26 17:31:42 UTC — 完整带状QR坐标源及受检来源合同
+
+刊[完整24980B/49a1源码与接口](notes/2026-11-26-complete-so3-integral-qr-coordinate-interface.md)。全18行/胞两遍hypot列缩放/Givens局部带因子、全部原free core/rotation/H、正确D R逆与R转置逆D均保，拒绝额外profile和zero包装器。根完整读源码/手核索引与转置、AST/compile，无科学执行。原26 Cholesky实际成功明确更新，当前655d后继继续原606；本新源未执行，非原失败修复，不用假模块标签绕C*源守卫。

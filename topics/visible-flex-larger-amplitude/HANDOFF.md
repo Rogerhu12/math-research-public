@@ -4,7 +4,7 @@
 
 ## 规则与完整目标
 
-最近规则核查：2026-11-26 17:30:10 UTC，真实pull/rebase至 `36a991172b4114da3d961e57b21148bdcd43159b`，双README相对`15119d522c123808a517a581b4425095b86eb2ce`无差异，授权及规矩继续执行。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
+最近规则核查：2026-11-26 17:31:55 UTC，真实pull/rebase至 `081bf1d8b6ff99c745622575fe111830726d4e60`，双README相对`36a991172b4114da3d961e57b21148bdcd43159b`无差异，授权及规矩继续执行。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
 
 科学计算仅本公开仓库Actions；早前本地偏差及纠正见[执行记录](notes/2026-11-20-public-actions-execution-correction.md)。root唯一分支写者；代理只scratch及未引用小源blob。每条结论普通commit/push，NFF立即pull --rebase循环再推，不强推。至少每小时pull，每次核双README差异/立即遵新规并记commit。raw只scratch/runner，不入Git/Release/artifact；保完整小源/参数/run/SHA/紧凑结论。题≤200MB、单文件<5MB、MD<100KB、H<10KB、open<30KB。令牌仅瞬时CLI。终端恢复/全部授权保2a7c完整H；真实pull/push，无raw重造。
 
@@ -13,7 +13,7 @@
 
 ## 共同模型、历史与未付责任
 
-原q全模型、维数/范数、永久binary地址及历史责任保[bd75完整H](https://github.com/Rogerhu12/math-research-public/blob/bd75c8c86fa39ee37fd729a8faf4f52be008838e/topics/visible-flex-larger-amplitude/HANDOFF.md)及全部notes。原M160/J923/922胞/N2048、7377正权/.5测度、全部core/H/旋转、共享quintic三jet、准确FullHold/S/R/材料图/反射帽、全mean/cross/J/J*与真Phi不删。算法.992/.025只必要筛；新范数明示，不冒旧空间双射。[节点范数界限](notes/2026-11-26-node-jet-norm-and-radial-integral-control.md)非实际失败因果；[完整积分六jet控制](notes/2026-11-26-integral-SO3-norm-full-sixjet-control.md)已证固定有限M/正rho下允许全部core/H的径向网格无关连续界，非驻点/实际真余量或M一致界；[606 integral](notes/2026-11-26-direct-axisymmetric-integral-norm-full-direction.md)[实际26/27](notes/2026-11-26-actual-integral-SO3-first-direction-26-27.md)返655d/cfe87：原完整Cholesky成功、Phi197.58458/max .5063653、alpha1/16/真有限g负，QP64未驻；已排同父同c06a下一完整64，六报告地点全保。
+原q全模型、维数/范数、永久binary地址及历史责任保[bd75完整H](https://github.com/Rogerhu12/math-research-public/blob/bd75c8c86fa39ee37fd729a8faf4f52be008838e/topics/visible-flex-larger-amplitude/HANDOFF.md)及全部notes。原M160/J923/922胞/N2048、7377正权/.5测度、全部core/H/旋转、共享quintic三jet、准确FullHold/S/R/材料图/反射帽、全mean/cross/J/J*与真Phi不删。算法.992/.025只必要筛；新范数明示，不冒旧空间双射。[节点范数界限](notes/2026-11-26-node-jet-norm-and-radial-integral-control.md)非实际失败因果；[完整积分六jet控制](notes/2026-11-26-integral-SO3-norm-full-sixjet-control.md)已证固定有限M/正rho下允许全部core/H的径向网格无关连续界，非驻点/实际真余量或M一致界；[完整QR源](notes/2026-11-26-complete-so3-integral-qr-coordinate-interface.md)49a1已刊未跑，原Cholesky实际成功。[606 integral](notes/2026-11-26-direct-axisymmetric-integral-norm-full-direction.md)[实际26/27](notes/2026-11-26-actual-integral-SO3-first-direction-26-27.md)返655d/cfe87：原完整Cholesky成功、Phi197.58458/max .5063653、alpha1/16/真有限g负，QP64未驻；已排同父同c06a下一完整64，六报告地点全保。
 
 历史完整原文循上述2a7c/235206固定链；全部失败/未返/适用范围保[results](results.md)、[open](open.md)、log与notes，不重做登记结论、不从SHA造raw、不跨场迁证，也不把线性障碍或任意mean当非线性完整结论。
 
