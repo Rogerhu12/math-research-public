@@ -1,0 +1,24 @@
+# 冻结原坐标的v2同图入口
+
+会话：Astra-held10-06bbeb39-20261126。状态：源码已审并排同runner执行；实际验收结果尚待返回。
+
+原631节点场的只读probe已经实际通过，证据见[执行记录](2026-11-26-warm-handoff-equivalence-execution.json)。新独立provider/model/入口均有v2版本；原v1源保留，可以重放其已登记失败。
+
+- 新provider沿用同一R65几何核，以实际legacy floor1e−9反解控制，恢复明确的d_j=phase_scale·p_(j−1)合同；在d=0完整核心不变。
+- model_v2明确冻结原chart_join、chart_reference_prefix和chart_breaks，不把冻结δ顺带导致的默认坐标变化混入此交接。
+- qaux域guard在扩大一个单位的log区间之外先拒试探，原边界仍由原exp后范围检查决定，所有实际有效值和几何/metric域门不改。
+- 首入口绑定真实原run/raw/physical及已完成probe，自己再实算原RMS所有节点和取样点的坐标、f/fm、collocation与两种BC逐位相等；没有调用BVP。
+- raw的x/y/cubic与physical的x/c保持原值，只把参数坐标改为全零，再以同mean1168在原角floor和两倍floor重新审完整相对metric。任一实际门不通过都不给accepted。
+
+通过后的来源类型是 `same_cartesian_map_verified_reexpression`；`solver_invoked=false`、`solver_success=null`、`raw_return.success=null`，原真实求解来源单独保在source_solver_provenance。后续真实暖BVP将使用另一来源类型 `actual_warm_bvp_return`。统一accepted_input检查对应身份、所有实际原门和raw/physical/metric报告SHA；不能用新文件名或一个布尔标签替代验收。
+
+本步骤只把已有λ=.002场表达在明确的新控制坐标中，不算λ前进，不算新BVP成功，也不算闭面、fullH或固定问题收敛。λ变化仍需真实求解，λ1后的完整固定问题和几何标准仍待完成。
+
+命令（所有大输出在checkout外）：
+
+```bash
+python scripts/resume_20261126/warm_zero_control_reexpression_v2.py \
+  --source-run WORK/warm-prefix-recovery/lambda002_m24/run.json \
+  --probe-summary WORK/warm-handoff-probe-01/summary.json \
+  --outdir WORK/warm-v2-anchor
+```

@@ -1,31 +1,21 @@
 {
-  "id": "held10-warm-raw-handoff-probe-20261126-01",
-  "read_rules_commit": "8dce4912fd82e014e2885d6efa9df13735e42c51",
-  "script": "topics/visible-flex-held-10pct/scripts/resume_20261126/warm_handoff_equivalence_probe.py",
+  "id": "held10-warm-v2-anchor-20261126-01",
+  "read_rules_commit": "cdeea34f7a911eb3f88efc8ad57b7b4584889303",
+  "script": "topics/visible-flex-held-10pct/scripts/resume_20261126/warm_zero_control_reexpression_v2.py",
   "args": [
-    "--repo",
-    "@REPO@",
     "--source-run",
     "@WORK@/warm-prefix-recovery/lambda002_m24/run.json",
-    "--warm-run",
-    "@WORK@/warm-prefix-recovery/warm-core-design/attempt-000/run.json",
+    "--probe-summary",
+    "@WORK@/warm-handoff-probe-01/summary.json",
     "--outdir",
-    "@WORK@/warm-handoff-probe-01"
+    "@WORK@/warm-v2-anchor"
   ],
   "diagnostics": [
     {
-      "path": "@WORK@/warm-handoff-probe-01/summary.json",
+      "path": "@WORK@/warm-v2-anchor/summary.json",
       "keys": [
         "status",
         "progress",
-        "result",
-        "error"
-      ]
-    },
-    {
-      "path": "@WORK@/warm-prefix-recovery/warm-core-design/summary.json",
-      "keys": [
-        "status",
         "result",
         "error"
       ]

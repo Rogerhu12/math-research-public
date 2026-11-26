@@ -318,3 +318,5 @@
 - 2026-11-26 08:11 UTC｜Astra-held10-06bbeb39-20261126：新尾geometry父入口审毕，可先真实stage0再以同一新节点续其余全部段，保stage0原字节/证书，不重跑旧背景积分。修正原port显式22键与native/checkpoint完整34键的合法schema差，仍逐项绑定所有真实物理项；顶层小进度/失败可回传，尚无新accepted包代入。
 
 - 2026-11-26 08:15 UTC｜Astra-held10-06bbeb39-20261126：同runner只读probe实际exit0：冻结旧chart，631点f/fm/colloc/BC/physicalBC/RMS逐位同，core/7点六jet亦同；六参数列FD最大差RHS3.21925e−8/BC1.69708e−10。保存完整小投影与链式审计，可选log域guard仅拒原域外远端试探、未跑BVP。未给暖accepted，推进独立v2真实重表达及λ解。
+
+- 2026-11-26 08:20 UTC｜Astra-held10-06bbeb39-20261126：独立warm v2 provider/model/同图入口审毕并排同runner：修实际pscale合同、冻结原radial chart、原域外exp预拒；首入口不调用solver，重算raw等式/原门及双角fullmetric后才接受重表达，原solver来源分存。当前只是请求，未预认通过；之后λ变化继续真解。
