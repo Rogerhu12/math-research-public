@@ -1,0 +1,143 @@
+{
+  "session": "Astra-ISP-8542378f-20261127",
+  "source": "2026-11-27-unit211-S0-Lt0-five-quadrics-parameter-curve-original-return-8542.py",
+  "sourceSha256": "e7fafb7bb9d0ff59cbd54898ba142fe297cb733b9a866f30d930c4bf72718ae1",
+  "sourceBytes": 20308,
+  "parameters": [],
+  "actualExitCode": 0,
+  "wallSeconds": 101.4643916519999,
+  "stdoutSha256": "6fc28af8f0b45a9869528c8b45de5518aa31ef607e5fd9ccdab62922a68dbfc2",
+  "stdoutBytes": 12906,
+  "peakRssKiB": 58108,
+  "limits": {
+    "alarmSeconds": 150,
+    "addressSpaceGiB": 4
+  },
+  "wholeS0Lt0Excluded": false,
+  "finalRecord": {
+    "stage": "complete",
+    "scope": "every remaining original S0 Lt0 point lies on the explicit F41_33 parameter curve",
+    "originalDeterminantAndCofactorRowVerified": true,
+    "wholeS0Lt0ExclusionClaim": false,
+    "ordinaryISPClaim": false,
+    "sourceSha256": "e7fafb7bb9d0ff59cbd54898ba142fe297cb733b9a866f30d930c4bf72718ae1",
+    "peakRssKiB": 58108,
+    "claimExcluded": false,
+    "seconds": 101.04196530699846
+  },
+  "cofactorRecord": {
+    "stage": "original_constant_coordinate_cofactor_row_multiplied_back",
+    "identities": 20,
+    "identity": "cofactor * original_M = (0,...,0,D)",
+    "constantCoordinateExactlyOne": true,
+    "cofactorCoefficientDegrees": [
+      [
+        78,
+        68
+      ],
+      [
+        77,
+        68
+      ],
+      [
+        76,
+        67
+      ],
+      [
+        79,
+        68
+      ],
+      [
+        76,
+        66
+      ],
+      [
+        75,
+        66
+      ],
+      [
+        74,
+        65
+      ],
+      [
+        77,
+        66
+      ],
+      [
+        77,
+        67
+      ],
+      [
+        76,
+        66
+      ],
+      [
+        75,
+        65
+      ],
+      [
+        77,
+        67
+      ],
+      [
+        78,
+        68
+      ],
+      [
+        77,
+        67
+      ],
+      [
+        76,
+        66
+      ],
+      [
+        78,
+        68
+      ],
+      [
+        78,
+        67
+      ],
+      [
+        77,
+        66
+      ],
+      [
+        76,
+        65
+      ],
+      [
+        78,
+        67
+      ]
+    ],
+    "cofactorSha256": "c5710af83af7e7bb68f3cb4841a34da0199d9b7a92196643973a1eb84dea109b",
+    "ordinaryOriginalIdealCombination": true,
+    "claimExcluded": false,
+    "seconds": 100.87723268499758
+  },
+  "factorizationRecord": {
+    "stage": "complete_original_five_quadrics_parameter_factorization",
+    "fullDegrees": [
+      84,
+      72
+    ],
+    "fullTerms": 3013,
+    "fullSha256": "e235b8e13c11576e11a7aafec192d47f075facaef18991359e0c4b1fb9c1470f",
+    "scalar": "65536",
+    "fullFactorization": "scalar*e^4*k^10*j^6*(4e-k-4)^2*(4e-k)*D3^10*F41_33",
+    "allFactorsMultipliedBack": true,
+    "discardedUnpaidFactors": [],
+    "remainingDegrees": [
+      41,
+      33
+    ],
+    "remainingTerms": 846,
+    "remainingSha256": "ca1b9ef43348fdfa70bf1303051d4a5d9315a64a18c7b9b0f98c4ed1e2482144",
+    "newNecessaryEquation": "F41_33(e,k)=0",
+    "allOriginalLeadingZeroFibersRetained": true,
+    "claimExcluded": false,
+    "seconds": 101.03673475799951
+  }
+}

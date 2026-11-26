@@ -134,11 +134,11 @@ A单射、稠密像、拟幂零且非紧；普通非零真闭不变子空间仍�
 
 **S0/Lt0原一般图：** g2零面、theta余式双零、M首项零、u2/ell1/a0、ellhalf、原U导数w0均已闭，准确全谱/单位回乘见结果索引和[压缩前快照](notes/2026-11-27-open-before-occupied-prefix-and-flat-source-8542.md)。可用theta=−r0/r1、(4λ−1)A、ell−1/2与w；只续三值互异、Af非零的原一般图，全部未付约束保留。
 
-**[全部固定次数及同源慢增的真实顺次MP已付](results/R271-appendix-fixed-successive-actual-mp-common-variance-and-slowly-growing-depth.md)：** 共同c_k=2·512^(2k)方差窗保所有r≤k的完整K_(r|k)费用、原−Cq_r反馈与同一母支持；终列准确为Σ(−C)^pa⊗(D†)^pΩ。任意同w∈M可选k_m→∞、k_m≤m/12，使修正/误差/残量平方可和且s_m→0。仍未付k=h_m−1的实际终端费用；近核列不作kerT或closureBM，接同w真实层相关性/精确残量清除。
+同W固定及慢增次数MP已付，k_m≤m/12保全−Cq_r反馈和同一母支持；仍未付k=h_m−1终列费用，不以近核列作kerT或closureBM。完整常数/来源见结果索引和最新快照。
 
 **[同一相容真空塔的固定基数负相关改进](results/R271-appendix-fixed-cardinality-negative-correlation-near-optimal-compatible-vacuum-towers.md)已证：** 完整物理范数J_r近最优范围由L=o(√x)扩至L=o(x^(2/3))，原相容性、同一forcing与完整Gram不变。平方损失O(L(L+logx)²/x²)；固定头误差O_m((logx)^(3/2)/x)，已付Chebyshev短核源界给x=ceil exp(9d⁴)模型窗。仍超原全局exp(O(d³))母窗；同w到真实短核的δ_L、carry/lift与稳定BM端点继续，不能以小C^(L+1)残量替真实核距离。
 
-**[S0/Lt0新低次原系统](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-low-invariant-original-system.md)：** e=u−1、k=Q/e、v=4kbc·t可逆，四原二次式和同一eta的矩/配对/范数/N(V)保留所有原解；原P02恒等式支付ell≠0，半权已闭支付矩阵首项。7变量原门实际1200.426秒/exit1，小modstd smoke先触内存/tasks错误及signal11，未通过；不重跑。新增[原P/N三参数Cramer系统](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-original-Cramer-minor-system.md)的全部原组合、114分母与20子式已回乘，4变量QQ build3.519411秒，不是排空；继续直接std/slimgb真实门或更低原几何。
+S0旧7变量modstd smoke和两个4变量QQ门失败，准确源/退出/回执保[最新完整快照](notes/2026-11-27-open-before-five-quadrics-parameter-curve-8542.md)及H。原Cramer20子式不是一般图排空；各旧门冻结，当前同eta完整原门独立运行。
 
 **[整个实际M的占满前缀新指数率](results/R271-appendix-full-tensor-exponential-bound-and-improved-occupied-prefix-decay.md)已证：** 完整张量指数范数配合同一真实D_rg_r余项，r=ceil(log2n)给γ_ex>5/3和明确e^(−47n⁴)carry；优化率Γ_occ约1.723637，所有严格小于它的率对全M及固定最高k类成立。仍远低于真实α_q^-1除法图范数；继续W特殊来源/主理想闭图，未证N=M。
 
@@ -179,3 +179,6 @@ Deddens自伴MASA、全部可分重数有限成本投影、全2-adic平移距离
 
 
 [全交换子兼容字符喷射与平坦分母](results/R12-appendix-full-commutant-compatible-formal-jets-and-flat-root-denominators.md)已付：不整除闭稳定根的实际标量分母必须属于I∞，该范数闭理想强*稠密但与UHF零交。仍须在其中构造同源PH⊂DomT及有界分子；R267共同全部幂分母的平坦性不付这一真实域包含。
+
+
+新[五原二次式必要曲线F_(41,33)](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-five-quadrics-parameter-curve.md)由20×20原矩阵常数坐标余子式全乘回，所有首项零纤维保留；源e7fafb7b/101.464392秒/exit0。继续5×6二次单项式规则、同点原N/P与完整参数覆盖。10×10全伴随180秒失败不重跑。

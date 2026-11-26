@@ -1,0 +1,26 @@
+{
+  "session": "Astra-ISP-8542378f-20261127",
+  "status": "unresolved_resource_limit",
+  "operation": "Full polynomial adjugate of 10 by 10 matrix of original N1 and Qa times lambda,f,v,1, plus the two original mean cubic overlap rows, after exact mean normal form over QQ(e,k).",
+  "inputRegenerationSource": "2026-11-27-unit211-S0-Lt0-five-quadrics-parameter-curve-original-return-8542.py",
+  "scratchDriverSha256": "3f1a38db0c4bf6a81a2eb7d39066d4e54929783a5c373985e9c6f950cee5edd6",
+  "alarmSeconds": 180,
+  "addressSpaceGiB": 4,
+  "observedSignal": 14,
+  "observedShellExitCode": 142,
+  "externalWallSeconds": null,
+  "stdoutSha256": "4d25d4cc4fb83c2561742f76aacba03ac64d6997d3d2e145295ebbca868e925b",
+  "stdoutBytes": 11219,
+  "lastCompletedStep": 7,
+  "lastCompletedStepSourceSeconds": 174.32050728800095,
+  "lastPivotDegrees": [
+    83,
+    66
+  ],
+  "returnedAdjugate": false,
+  "returnedDeterminant": false,
+  "mathematicalConclusion": null,
+  "doNotRepeat": true,
+  "replacementInput": "Twenty by twenty original matrix with only the single constant-coordinate cofactor row recovered; actual cofactor*M=(0,...,0,D) independently verified.",
+  "retainedRegenerableData": false
+}
