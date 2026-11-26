@@ -5,7 +5,9 @@
 
 **已证明：原固定完整对数可与一族实际整交错型配对，所得每一行
 都消去全部原 Mordell–Weil 对数及其饱和交。**
-该族由真实 split-Hecke 与原 Hodge graph 算子的偶次幂生成；
+初始族由真实 split-Hecke 与原 Hodge graph 算子的偶次幂生成；
+§9 再用本原负角色块的整因子分解和真实 Hecke 交换子解格扩族，
+不反除未知的 bare 核范数。
 其最低系数是否含单位，准确等价于一个明确的剩余域轨道正交条件。
 因此可以继续整个合法族，而不必预设单个已命名的
 $\mathcal C_{\rm actual}$ 为单位。
@@ -447,3 +449,215 @@ $$
 本篇未增加任何未经原比较支付的整 Hecke 幂等元，
 未称 $\mathcal Q$ 为 BT 端同态，未借分式域的 $F_0$ 平衡推出
 剩余域轨道饱和或满秩。原高单位、全共同深盘排除及 O0 仍开放。
+
+
+## 9. 不反除核范数的整负角色因子分解与更大消去族
+
+### 9.1 原本地 Hecke 与实际 Hodge graph 交换
+
+R1035 §4 的两次 PD 态射自然性，对原本地 $T_5$ 给出同一晶体矩阵
+$T_H,T_L$，保持实际 Fil graph，故
+$$
+T_L\Phi=\Phi T_H.
+$$
+R1036 §4 的真实 Frobenius 与算术下降相容性给
+$T_H\Pi=\Pi T_L$。于是
+$$
+T_L\mathcal Q
+ =\varepsilon^{-2}\Phi T_H\Pi
+ =\mathcal Q T_L.
+\tag{1063.28}
+$$
+$p5$ 行使用 R1040 §1 已运输的同一个实际 $T_5$ 和同一 PD 自然性；
+不在整个坏约化 Jacobian 上假定好模型。
+
+同一论证适用于原 canonical 全组件上、在素数
+$\lambda\nmid6p$ 的真实 Hecke 对应，经
+$X^{\rm can}_{\mathbf Q_p}\simeq X_{1,\mathbf Q_p}$ 运输后的 $T_\lambda$。
+该同构使用 $p\equiv2\bmod3$ 时实际的
+$\sqrt[3]4\in\mathbf Q_p$。对应在原好 BT 部分延拓且与 $p$-惯性相容，
+所以 R1035 的态射论证逐个适用。
+原全组件及 graph 返回按 R970 (970.18a–g) 保留；
+这里是 weight-two Jacobian/Lie 作用，不添
+(970.18h) 的高权 Igusa 因子。
+
+这些实际算子彼此交换、Rosati 自伴，与 $F,\alpha$ 相容。
+对 inert $\lambda\equiv2\bmod3$，完整返回给
+$T_\lambda D=-DT_\lambda$；对 split 素数则与 $D$ 交换。
+故所有这里使用的本地 $T_\lambda$ 都与 $\mathcal Q$ 交换。
+不因此把 inert 算子称为 $X_1$ 上的 $\mathbf Q$ 对应。
+
+### 9.2 本原负角色块与唯一整因子
+
+置
+$$
+X=e_+\mathscr L_R,\qquad Y=e_-\mathscr L_R,\qquad
+\operatorname{rk}X=N+1,\quad \operatorname{rk}Y=N,
+$$
+其中 $D$ 在两格上分别为 $+1,-1$。它自伴且 $2$ 为单位，
+所以 $X,Y$ 对 $B$ 正交，限制 $B_X,B_Y$ 都完美。写
+$$
+\mathcal Q=
+\begin{pmatrix}0&U\\ U^\dagger&0\end{pmatrix}.
+\tag{1063.29}
+$$
+R1037/40 的负角色模 $\pi_0$ 单射给 $U:Y\to X$ 满列秩。
+因此 $U$ 是本原整单射；对完美格取对偶，$U^\dagger:X\to Y$ 满射。
+令
+$$
+K=\ker U^\dagger.
+$$
+则 $K$ 为本原秩一整格，且
+$$
+\operatorname{im}U=K^{\perp_{B_X}},\qquad
+\ker\mathcal Q=K,\qquad
+\operatorname{im}\mathcal Q=\operatorname{im}U\oplus Y
+\text{ 为饱和子格}.
+\tag{1063.30}
+$$
+(1063.29)–(1063.30) 的核与像均在实际新部 $X\oplus Y$ 中取。
+这是满射的整对偶，不需要 $B_X$ 在 $K$ 上非退化。
+尤其没有对 $B(c_0,c_0)$ 作除法。
+
+对上述实际 inert $T_\lambda$，写
+$$
+T_\lambda=
+\begin{pmatrix}0&V_\lambda\\ V_\lambda^\dagger&0\end{pmatrix}.
+$$
+它与 $\mathcal Q$ 交换又换正负角色，所以
+$T_\lambda K\subset\ker\mathcal Q\cap Y=0$。
+因此 $V_\lambda^\dagger K=0$，
+$\operatorname{im}V_\lambda\subset K^\perp=\operatorname{im}U$。
+存在唯一整算子
+$$
+S_\lambda:Y\longrightarrow Y,\qquad V_\lambda=US_\lambda.
+\tag{1063.31}
+$$
+此处只在已证饱和的像中取唯一因子，不使用 $\mathcal Q^{-1}$。
+
+交换式的 $X$ 块为
+$$
+US_\lambda^\dagger U^\dagger=US_\lambda U^\dagger.
+$$
+$U$ 单射、$U^\dagger$ 满射，故 $S_\lambda^\dagger=S_\lambda$。
+令 $A_Y=U^\dagger U$；交换式的 $Y$ 块给
+$[S_\lambda,A_Y]=0$。
+split-Hecke 的相容性又给
+$[S_\lambda,T_{{\rm spl},-}]=0$。
+最后，原 $T_\lambda,T_\mu$ 交换的 $X$ 块给
+$U[S_\lambda,S_\mu]U^\dagger=0$，故
+$$
+[S_\lambda,S_\mu]=0.
+\tag{1063.32}
+$$
+从而实际代数
+$$
+\mathscr C_R=
+R[A_Y,S_\lambda,T_{{\rm spl},-}]
+       \subset\operatorname{End}_R(Y)
+\tag{1063.33}
+$$
+交换且各元素对 $B_Y$ 自伴。所有生成元均由真实整格取得。
+
+### 9.3 新整族及完整 MW 消去
+
+对任意 $S\in\mathscr C_R$，在新部定义
+$$
+R_S=\begin{pmatrix}0&US\\ SU^\dagger&0\end{pmatrix},
+\tag{1063.34}
+$$
+旧部上置零。它整、$B$ 自伴、反交换 $D$，并与全部 split-Hecke 交换。
+原 CM 新 Lie 在 $K$ 中，故 $R_S$ 杀它。
+因此
+$$
+\Lambda_S(w)=B(v_{\rm full},R_S D e_1w)
+\tag{1063.35}
+$$
+是原完整 $v_{\rm full}$ 定义的真实整交错测试。
+§4 的全部 paired block 论证逐项适用，给出
+$$
+\Lambda_S(\log J_1(\mathbf Q))=0
+$$
+以及原整 Lie 格中相应饱和交上的消失。
+
+原 §3 的族是 $S=A_Y^jT_{{\rm spl},-}$；
+原本地 $T_\lambda D$ 对应 $S=S_\lambda$。
+例如 $S_\lambda^2$ 也给一个合法整行；
+无需先把它写成一个除以未知 $\mathcal Q$ 或核范数的旧奇多项式。
+
+### 9.4 同一最低列在显式整辛商中的读数
+
+整满射
+$$
+\Psi:X\oplus Y\longrightarrow Y\oplus Y,\qquad
+\Psi(x,y)=(U^\dagger x,y)
+\tag{1063.36}
+$$
+的核是 $K$。原交错型满足
+$$
+B((x,y),\mathcal QD(x',y'))
+ =B_Y(y,U^\dagger x')-B_Y(U^\dagger x,y').
+\tag{1063.37}
+$$
+所以 (1063.36) 给原整辛商的显式标架，即使核的 $B$-范数
+模 $\pi_0$ 为零也成立。
+
+写
+$$
+\Psi(v_{\rm new})=(a,b),\qquad
+\bar\Psi(L_{\rm new})=(\xi,\eta).
+$$
+第一对是原完整对数的整像，第二对是同一最低列的剩余域像。
+取 $c_S=DR_Sv_{\rm full}=DR_Sv_{\rm new}$。
+§6 的完整轮廓对这条实际行仍成立，最低读数准确为
+$$
+\boxed{\quad
+\mathcal C_S
+ =2\{\bar B_Y(\bar S\bar b,\xi)
+          -\bar B_Y(\bar S\bar a,\eta)\}.
+\quad}
+\tag{1063.38}
+$$
+实际 $w$ 一次系数仍是同一个 $u_{\min}\mathcal C_S$。
+$T_{\bar c_S}$ 的完整 Cartier/商定义仍保持外部系数不变；
+$Q^2$ 返回已经在原 $\bar v=(1-Q)\lambda$ 中保留。
+
+设 $\bar{\mathscr C}$ 是实际整代数 (1063.33) 的约化像。
+则
+$$
+\mathscr W=\bar{\mathscr C}(\bar a,\bar b)\subset Y_k\oplus Y_k
+$$
+对 (1063.37) 全各向同性，故 $\dim_k\mathscr W\le N$。
+若另证其维数为 $N$，则全部 (1063.38) 为零，
+准确等价于 $(\xi,\eta)\in\mathscr W$。
+最大维数及排除此包含仍未证明。
+
+### 9.5 更一般的真实整交换子解格
+
+还可令
+$$
+\mathscr E_R=
+\operatorname{End}_{\mathbb T_{{\rm spl},R}|Y}(Y).
+\tag{1063.39}
+$$
+它是与全部实际 split-Hecke 整矩阵交换的整解格。
+这些是线性交换子方程；若 $\pi_0S$ 满足全部方程，则
+$S$ 也满足，所以该解格在 $\operatorname{End}_R(Y)$ 中饱和。
+不把它的约化像认作整个模 $\pi_0$ 的 centralizer。
+
+任意 $S\in\mathscr E_R$ 不必先假定自伴。定义
+$$
+R_S=\begin{pmatrix}0&US\\ S^\dagger U^\dagger&0\end{pmatrix}.
+\tag{1063.40}
+$$
+它仍整、自伴、反 $D$、对 split-Hecke 平衡，并杀旧部和原 CM。
+因此 (1063.35) 的全部 MW 消去仍成立。
+同一个最低读数变为
+$$
+\mathcal C_S=
+2\{\bar B_Y(\bar S\bar b,\xi)
+       -\bar B_Y(\bar a,\bar S\eta)\}.
+\tag{1063.41}
+$$
+此一般族不附未经证明的交换轨道或 Lagrangian 断言。
+它提供的是实际整解格中的更多合法行；非零读数及全深盘排除继续待证。
