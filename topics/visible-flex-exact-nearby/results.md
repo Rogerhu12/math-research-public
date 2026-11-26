@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [JCA：实际完整96行联合误差](results/R149-supplement-actual-joint-compound-waist-row-error.md)：45887337009/1七球完整true，Ejoint<8.556891e−5、全homotopy lower>.9836159091670；不重原DFT/KAM，SC只消费整件，真PDE列与全部Schur仍独立。
+
 - [SL：按真支集接收selected参数源](results/R147-supplement-support-localized-parameter-source-reception.md)：原ΔFν只在13/100紧窗，用原C1√(13/100)；s0与ΔA·Z仍全负窗G_N，两means不删。四个新标量只组合原完整记录，独立workflow已齐，实际值待保存。
 
 - [JC：共同共轭与原DFT的联合96行误差](results/R149-supplement-joint-compound-waist-row-error.md)：原W完整EH/G0/G1/H1给全部lift homotopy Jacobian，384EH/√m与完整alias/truncation组成一个row operator界；真反射轴、非等距及mean保持。新七标量可独立先付，SC仍须全P224/TC。

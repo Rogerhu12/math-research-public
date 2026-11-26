@@ -227,3 +227,6 @@ NS五件共129172B，owner71056B SHA18db439d5895e4232882940a57b7bd9457982383e1ac
 
 
 2026-11-26 19:57:22 UTC / visible-exact-astra-fb31ed6-20261127：SL解析式及19完整输入/4标量实际入口已成，原source先分裂再接真support，不从upper作差。推新workflow只组合旧球，旧D/S0/SP/PW/R147目标不重。JC首run45887144152/1确于包装器main前失败，修正已75bbf616推且非FF按要求立即rebase循环成功。
+
+
+2026-11-26 20:06:08 UTC / visible-exact-astra-fb31ed6-20261127：JC run45887337009/1七球/整件execution已读，actual fec83298af0f0bacfe907f9c445cc42f0ed165129cbea18a38cb5d0214ef336e，exec425ab1174d167392f169cceac24a76e0c7580820a546302d316ba9b7db944695；完整联合96行误差<8.556891e−5，同伦lower>.9836159091670。依赖全取正式有向readback，旧目标0，SC继续真列及signed gate。TC原恢复通过后的mesh断言失败已知，马上修正且保全部积分分割。

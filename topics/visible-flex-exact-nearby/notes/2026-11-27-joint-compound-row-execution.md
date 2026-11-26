@@ -32,3 +32,7 @@ SC后继只消费此次完整七球，不再重算JC；全P224/TC与真signed矩
 修正使用完整 `visible-exact:` 前缀区分两条消息，重新生成完整 manifest
 及workflow hash。metadata-only builder 已通过实际 patched AST 和原全输入
 准入；此次修正不改变七个数学公式、原输入、算术精度或 target定义。
+
+## 实际完成
+
+run45887337009/1已完成，七球及完整execution保存；最终联合行误差<8.556891e−5、同伦Jacobian lower>0.9836159091670。完整身份、表及后继使用范围见[实际结论](../results/R149-supplement-actual-joint-compound-waist-row-error.md)。旧producer/旧科学目标均0；后继SC直接消费整件。
