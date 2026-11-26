@@ -5,7 +5,7 @@
 
 ## 1. 规则、授权与原始记录
 
-公开本次实际pull且根/题README已读至 **1ee12a6a51d511fcf464cbb5305d3a3fd3133769**；相对继承0749a4cc规则空差异。私库本次实际pull且根README已读至 **41fe885610073f478b2f5a752461ca56cfd43f09**；QUEUE认领推送 **09f8b8b54e7cfaabaa635bae5c438c7f1521289a**，状态本会话进行中。继承全文见[接手原件](notes/HANDOFF-inherited-20261127-1f4a61a4.md)。
+公开本次实际pull且根/题README已读至 **70164ee3aec5905c783ac2b33e7e2dfc1dde67ef**；相对继承0749a4cc规则空差异。私库本次实际pull且根README已读至 **41fe885610073f478b2f5a752461ca56cfd43f09**；QUEUE认领推送 **09f8b8b54e7cfaabaa635bae5c438c7f1521289a**，状态本会话进行中。继承全文见[接手原件](notes/HANDOFF-inherited-20261127-1f4a61a4.md)。
 
 [三续算前全文](notes/HANDOFF-before-three-continuations-20261127.md)及其所链历次交接保全部结论、条件、旧失败、输入与费用。每次实际pull后查根/题README差异并执行，至少每小时；API读取不冒pull。root独占git和共享索引，每条结论即推，NFF立即pull --rebase再推至成功。
 
@@ -60,6 +60,8 @@ R607只付prepared中心有限阶相容，未授全程返回；证明与费用�
 [R609](results/R609-true-integral-histories-and-kinetic-input.md)已付真η/八A/六rho全积分消元、四奇中心尾积分和一个全程固定ζ0中心链，剩四偶端条件/两原ruling；明确新输入连续原盒合法且真实动能组合>4/25。[9/13/17模真曲线源](notes/2026-11-27-r609-true-integral-function-bvp-implementation-agent.md)已推fd5a779d，run45881816067进行中：同Gauss前缀/完整Jet、四偶恢复、两常规范与全正势；不借独立history或prepared条件。
 
 [R612](results/R612-exact-physical-length-elimination-and-three-true-end-integrals.md)付四偶根唯一L=√(U/(K−1))及无损三形状端图，完整历史/正势/δL保留；三端图秩及两ruling仍待解。
+
+[R614](results/R614-complete-two-ruling-global-gauge-projection.md)付两全程常规范唯一投影、真实四偶根上列非退化及完整离解Jac；允许m变号，全部history/势不变。
 
 ## 7. 全域几何与继续顺序
 

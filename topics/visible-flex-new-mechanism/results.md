@@ -422,3 +422,5 @@
 - [R613实际位置误差的完整导数与同方程目标](results/R613-actual-position-defect-jacobian-and-complete-objective.md)：**已证明**真实Wstar/√E的完整二jet参数链，保离解加权均值、相位/框架和隐式E导数；反周期均值核下与原Darboux方程准确等价，正outward分支下与实际metric等价，并给双向定量界和全部奇频Parseval目标。配套纯算子尚未执行，不授有限截断或连续根。
 
 - [R611实际圆参考的完整连续reach证书](results/R611-actual-circular-reference-complete-reach-certificate.md)：**已证明（公开向外区间）**修复准确积分系数后的run45882464935以2125叶覆盖全紧区间并接R608无限尾/R599全闭面切圆，reach≥.06072、D≤1.560001714985865、reach/D≥.0389230341330427。原34.7883秒及修复32.4257秒分列；实际积分包围宽于请求仍通过完整几何，不授非圆q或全时间族。
+
+- [R614两完整ruling的全局常规范投影](results/R614-complete-two-ruling-global-gauge-projection.md)：**已证明**四偶共同根上d和m/(2h)的整段列范数必正，两个全程常规范可唯一消元；同权双侧的奇偶正交、不同权完整Gram与完整离解投影Jac均给出。允许m变号，原零点条件/全部历史正势/δH与δL保留，不把逐点规范或根上Schur式代原方程。

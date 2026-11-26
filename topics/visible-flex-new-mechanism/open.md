@@ -129,3 +129,5 @@ T-surface、可弯管或变换共轭网须同时付端口位置、切平面、�
 R612已将O4四偶端图无损化为唯一物理长度及三形状积分，详见[完整证明](results/R612-exact-physical-length-elimination-and-three-true-end-integrals.md)。在原函数run45881816067自然终态暴露相应瓶颈后采用；固定物理L精化、全势与两ruling不由消元代付。
 
 O2b-B的[R613](results/R613-actual-position-defect-jacobian-and-complete-objective.md)已给同场实际位置目标的完整Jac与原方程等价，纯算子待消费；先读取compact1130q原run45882634760自然终态，再按真实瓶颈决定后继，不延长旧682q驻点。
+
+O4的[R614](results/R614-complete-two-ruling-global-gauge-projection.md)已付两常规范全局消元、四偶根上两列非退化及完整离解导数；双侧不同权必须用完整Gram，不能逐点除d或m。该结果不要求复跑现有同单位全局LS，后继按原真实终态消费。
