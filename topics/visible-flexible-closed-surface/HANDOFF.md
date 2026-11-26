@@ -6,7 +6,7 @@
 
 给出连通闭 $C^2$ 嵌入族、共同度量和固定握持开区域，按完整曲面直径计 $\delta_{\rm hold}/D\ge .05$、$\delta_E>0$、全时 reach$/D\ge .03$；全域全时 metric 误差不超过 $10^{-6}$，并支付同一几何下真正加密到求解容差及可复现网格。基础之后继续 $\delta_{\rm hold}/D\ge .2$、$\delta_E/D\ge .05$ 或严格存在。
 
-- 公开根 README、课题 README 已完整读于 `f0548477576caa2373d1626227a284ccfa9767d0`；真实 `git pull --rebase origin main` 于 2026-11-26 05:16 UTC 成功。每次 pull 后比较这两个文件，至少每小时一次。最近已读公开提交 `c35e14df71a9a22cd431a0cbbd9a44b88adb5151`（2026-11-26 06:33 UTC真实pull/rebase后，双README逐差均无变化）；本轮各次推前双 README 均无差异。R211两步、R213及真实外段伸长已推。
+- 公开根 README、课题 README 已完整读于 `f0548477576caa2373d1626227a284ccfa9767d0`；真实 `git pull --rebase origin main` 于 2026-11-26 05:16 UTC 成功。每次 pull 后比较这两个文件，至少每小时一次。最近已读公开提交 `a3a1e2687eefff18ec4691a2a751bfb7eeb15af2`（2026-11-26 06:39 UTC真实pull/rebase后，双README逐差均无变化）；本轮各次推前双 README 均无差异。R211两步、R213及真实外段伸长已推。
 - 私库根 README 已完整读；QUEUE 已认领并推送 `c7785184d0d9c503852fb2137e9e2c091221d080`。认领中的三次并发推拒均立即真实 pull/rebase 后再推，最后成功。私库规则比较基准 `0229299ed65827c2ace194596315e58a19c989ee` 至该提交无差异。
 - 根规矩优先：完整证明直接登记；不用旧独审/冻结流程；可重算数据不入 Git、Release 或拆块，只保脚本、参数、运行标识和哈希；单 MD<100KB、H<10KB、课题总量<200MB；不写根 LOG、不强推。令牌只在命令行进程环境。
 - 本地部分克隆在 `/tmp/visible-flex-6a65e705/math-research-public`；工作区同名路径是链接。初次检出因 /workspace 仅约14MB空闲而 ENOSPC；迁至 /tmp 后按需检出、checkout及pull均成功。旧会话本地未推原件在本环境不可用，以已推内容/可再生配方为准。
@@ -23,7 +23,7 @@
 
 ## 本轮正在执行与下一项
 
-1. **R211 已真实两步接受、exit0**：见 [本轮续算](notes/2026-11-26-6a65-solver-r211-two-accepted.md)。1025列/106920行，$R^2$ 从 .01214020 降至 .01185667，但 metric 从 .444833 升到 .452084、曲率降至11.3688；仍不合格。首进程 exit137 无接受态；仅缩小精确切片缓存后成功。重生入口 `scripts/6a65-continue-r211.cjs`。临时输出在 `/tmp/visible-flex-6a65e705/solver-work`，不提交可复算数组。新四次metric目标已真实六步接受，采样metric从.452084降至.254268、κ≈13.17164；仍远未合格。六步实际记录见 [新目标完整链与六接受](notes/2026-11-26-6a65-solver-quartic-metric-six-steps-recovered.md)。恢复版冷重生已自然exit0并逐项重现六态；公开Actions继续其后新步。
+1. **R211 已真实两步接受、exit0**：见 [本轮续算](notes/2026-11-26-6a65-solver-r211-two-accepted.md)。1025列/106920行，$R^2$ 从 .01214020 降至 .01185667，但 metric 从 .444833 升到 .452084、曲率降至11.3688；仍不合格。首进程 exit137 无接受态；仅缩小精确切片缓存后成功。重生入口 `scripts/6a65-continue-r211.cjs`。临时输出在 `/tmp/visible-flex-6a65e705/solver-work`，不提交可复算数组。新四次metric目标已真实六步接受，采样metric从.452084降至.254268、κ≈13.17164；仍远未合格。六步实际记录见 [新目标完整链与六接受](notes/2026-11-26-6a65-solver-quartic-metric-six-steps-recovered.md)。恢复版冷重生已自然exit0；[当前场密观察](notes/2026-11-26-6a65-current-field-diagnostics.md)73659点把峰提高至.255816/κ13.92450。R207均值仅解释原六态2.49%、新gap第三态19.43%，继续真正位置修正；公开Actions继续其后新步。
 2. **R213 已证明**：[完整切向兼容/弱应力测试/法向方程](results/R213-tangential-compatibility-and-normal-correction.md)。当前M12的up支持已实际作真Cartesian补丁，12个弱槽最大比由2.25317e−12降至约3.53e−20，同点metric略降；恢复版已真实重跑且24个hex参数已保存。见 [实际补丁及全域粗预算](notes/2026-11-26-6a65-exact-weak-moment-cartesian-up-patch.md)：这是R21的X+W，完整metric粗界<4.4e−8，不能借R114更尖界或宣称全域误差下降。**R216已证明这个X+W的完整几何传递**：73源cells/5材料角片的全有理二jets界保reach/D>.0312、held/D>.05278及含反射δE>0。更多应力块与G5仍欠；与R114 Φ直接复合实测抬峰；新增582维真实切向补偿使能量近减半、峰回到1.459628e−10，但仍高于原Φ同点1.459264e−10，未接受为改善。见[复合/补偿实际记录](notes/2026-11-26-6a65-r114-compose-and-tangent-followup.md)，继续独立径向stress及完整端口逆条件。
 3. **新外段长度设计已实现并有一次真实接受**：见 [完整构造与复现](notes/2026-11-26-6a65-geometry-outer-length-design.md)。保切口单位速两jet，真实外段长度加Δ；这是新g。五个真实基线后Δ=.02首步接受，metric≈.428779、曲率≈13.16355，尚未合格；第二步前exit137，无第二态。脚本保全部1025列，原件只在scratch。继续用完整几何约束选择输入，不冒旧g加密。
 4. **R214 已证明**：切口切向强制板宽及严格弯幅阈值，当前第3–6态已经越过阈值，不能以此否定其余残差。gap1中央有完整安全预算，见 [设计范围](notes/2026-11-26-6a65-geometry-gap-budget.md)；新value及其三步已实际完成。
