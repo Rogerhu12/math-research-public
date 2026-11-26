@@ -235,7 +235,7 @@ def main():
             state['source_hashes'][str(packet_path)] = sha(packet_path)
         actual_path = out/'tail-settings.json'
         write(actual_path, actual)
-        (out/'native-runs').mkdir()
+        # The native evaluator creates its own previously absent run directory.
         state['source_hashes'].update({str(path): sha(path) for path in (actual_path, manifest_path)})
         child = out/'actual'
         command = [sys.executable, '-u', solver, '--repo', repo, '--work', work,

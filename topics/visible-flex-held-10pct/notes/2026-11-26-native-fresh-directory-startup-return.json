@@ -1,0 +1,51 @@
+{
+  "observed_utc": "2026-11-26 09:22 UTC",
+  "session": "Astra-held10-06bbeb39-20261126",
+  "workflow_run": 45763361623,
+  "actual_m16_return": {
+    "actual_core_control_meaning": "normal-angle support coefficients",
+    "event": "inner_return",
+    "file": "inner-00.npz",
+    "message": "The maximum number of mesh nodes is exceeded.",
+    "nodes": 5860,
+    "rms": 10.038873668392856,
+    "sha256": "ba1b5a5e77b04106b1a6c81f739b6601f76bdaf0aeeb1528f438edd4dd04d2ca",
+    "status": 1,
+    "success": false
+  },
+  "actual_m16_resources": {
+    "kind": "driver_return_or_exception",
+    "maximum_rss_kib": 2340420,
+    "seconds": 9517.688915357
+  },
+  "recorded_lambda004_tail": {
+    "id": "held10-recorded-lambda004-fullH-20261126-01",
+    "status": "finished",
+    "script": "topics/visible-flex-held-10pct/scripts/resume_20261126/tail_solve_recorded_height.py",
+    "script_sha256": "3ee2d1120802449b4abd18803ffb3488e1b7398e5c23ac1cd342fbf001a3660e",
+    "summary_status": "original_tail_failed",
+    "error": "FloatingPointError(\"Weighted finite DN trial failed {'failed': 'Error: Fresh native run directory required', 'residual': None, 'lastIteration': None}\")",
+    "stages": [],
+    "tail_equation_solve_entered": false
+  },
+  "diagnosis": {
+    "native_adapter": "topics/visible-flex-held-10pct/scripts/resume_n4_tail/native_extended/native_batch_adapter.mjs",
+    "native_adapter_blob": "9d62933dd004a24df24902325ced605b66c2e957",
+    "contract": "VISIBLE_FLEX_NATIVE_RUN_DIR must not exist; createNativeBatchEvaluator creates it with recursive:false.",
+    "caller_error": "Four launchers pre-created the evaluator-owned directory.",
+    "fix": "Remove only premature child-directory mkdir. Keep parent outdir creation. Use a new unique output directory; do not delete or reuse the failed run."
+  },
+  "new_request": {
+    "id": "held10-recorded-lambda004-fullH-20261126-02",
+    "outdir": "@WORK@/recorded-lambda004-fullH-fresh-01",
+    "complete_recorded_H_unchanged": true,
+    "original_native_source_and_tolerances_unchanged": true,
+    "accepted_tail_inferred": false
+  },
+  "local_executor": {
+    "unavailable_since_utc": "2026-11-26 09:18 UTC",
+    "remote_runners_preserved": true,
+    "unpublished_local_sources_not_assumed_available": true
+  },
+  "complete_surface": false
+}

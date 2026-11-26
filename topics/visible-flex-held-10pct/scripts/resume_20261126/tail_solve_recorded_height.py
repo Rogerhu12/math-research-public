@@ -95,7 +95,7 @@ def main():
         actual_cfg = out/'tail-settings.json'
         actual_cfg.write_text(json.dumps(cfg,indent=2)+'\n')
         runs = out/'native-runs'
-        runs.mkdir()
+        # The native evaluator creates its own previously absent run directory.
         os.environ.update(OPENBLAS_NUM_THREADS='1',OMP_NUM_THREADS='1',MKL_NUM_THREADS='1',
             VISIBLE_FLEX_SPARSE_PYTHON=sys.executable,
             VISIBLE_FLEX_SPARSE_LINEAR_HELPER=str(

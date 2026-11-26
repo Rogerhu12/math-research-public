@@ -172,7 +172,7 @@ def main():
         actual_cfg = out/'tail-settings.json'
         actual_cfg.write_text(json.dumps(tail, indent=2)+'\n')
         native_runs = out/'native-runs'
-        native_runs.mkdir()
+        # The native evaluator creates its own previously absent run directory.
         env = dict(os.environ, PYTHONUNBUFFERED='1', OPENBLAS_NUM_THREADS='1',
             OMP_NUM_THREADS='1', MKL_NUM_THREADS='1',
             VISIBLE_FLEX_SPARSE_PYTHON=sys.executable,

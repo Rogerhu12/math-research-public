@@ -1,6 +1,6 @@
 {
-  "id": "held10-recorded-lambda004-fullH-20261126-01",
-  "read_rules_commit": "f5a8e1b4e5e0c33c1b7c525a4ebfbbb6ec278fc5",
+  "id": "held10-recorded-lambda004-fullH-20261126-02",
+  "read_rules_commit": "9246facdaa95b78c8847a9c87812255eef6122c6",
   "script": "topics/visible-flex-held-10pct/scripts/resume_20261126/tail_solve_recorded_height.py",
   "args": [
     "--repo",
@@ -8,11 +8,11 @@
     "--work",
     "@WORK@",
     "--outdir",
-    "@WORK@/recorded-lambda004-fullH"
+    "@WORK@/recorded-lambda004-fullH-fresh-01"
   ],
   "diagnostics": [
     {
-      "path": "@WORK@/recorded-lambda004-fullH/summary.json",
+      "path": "@WORK@/recorded-lambda004-fullH-fresh-01/summary.json",
       "keys": [
         "status",
         "scope",
@@ -31,6 +31,14 @@
         "progress",
         "stages",
         "result",
+        "error"
+      ]
+    },
+    {
+      "path": "@WORK@/recorded-lambda004-fullH/summary.json",
+      "keys": [
+        "status",
+        "stages",
         "error"
       ]
     }

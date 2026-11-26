@@ -365,7 +365,7 @@ def main():
                 'nonlinear_tail/m3_sparse_shooting_deliverable/sparse_shooting_linear.py'))
         for key in ('LD_PRELOAD', 'LD_LIBRARY_PATH'):
             os.environ.pop(key, None)
-        Path(os.environ['VISIBLE_FLEX_NATIVE_RUN_DIR']).mkdir(parents=True, exist_ok=True)
+        # The native evaluator creates its own previously absent run directory.
         record['status'] = 'initializing_original_tail'
         save()
 
