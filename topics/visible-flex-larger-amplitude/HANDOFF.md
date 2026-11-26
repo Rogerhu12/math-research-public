@@ -65,6 +65,6 @@ R683完整约束SOC及三件Actions源已刊（原范数/全部旧行、条件�
 
 ## 当前公开Actions执行
 
-run [45762076394/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45762076394)，源码`a4a535eec561d0f8c79fb673cb7b8987dad033af`；[实际紧凑记录](notes/2026-11-26-public-actions-45762076394-1.md)。当前`recipe_start`/running，返回阶段0；退出码未返。
+run [45762076394/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45762076394)，源码`a4a535eec561d0f8c79fb673cb7b8987dad033af`；[实际紧凑记录](notes/2026-11-26-public-actions-45762076394-1.md)。当前`af89`/running，返回阶段1；退出码未返。
 
-Actions规则核查：2026-11-26 05:31:19 UTC，真实pull至`ba5d3ee5b54b3c1d9bef91ee89dea4be49c5f65c`，双README相对已读无变化。
+Actions规则核查：2026-11-26 05:35:32 UTC，真实pull至`cc61de7c0261a8bd52305f65bd258edb4a7b19c3`，双README相对已读无变化。
