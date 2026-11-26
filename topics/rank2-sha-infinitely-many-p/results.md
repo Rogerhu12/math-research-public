@@ -502,3 +502,5 @@
 - [R940](results/R940-original-double-inert-descent-and-bounded-augmentation.md)：原整双新x12的π_m增广正是双D导数的唯一下降；保固定D后在两新惰性位全局部零。原c1≠0时，以最小环双槽的cτ平方选惰性单位检测，固定barp-strict复形H²tors指数b_p给p^(b_p+v_pD)κ12,m=0；深约化归零且唯一来自H1(J⊗T)。只同实际类的增广子格，不冒scalar整除、s0或跨p非零。
 
 - [R942§8](results/R942-original-split-scalar-preimages-and-whole-module-elimination.md)：完整上Hermite目标的全部矩形来源原像，由每列(w,−h)完整可逆消元并保全部零行的附加源块严格生成；无需分裂、分式清分母或约化厚度。逐层h/gcd指数只作返回，实际有效理想商保全生成元与完整乘积。仅独立小API请求，未重启原F或冒原306除子/PASS。
+
+- [R943](results/R943-original-e89-fifth-central-full-selmer-and-five-axis-gate.md)：固定E89由两真点下降证rank≥2；2/3/89完整角色、Schwartz、degree178共同CM源、非零六次首项和全权平方付齐，普通及惰性均比较通常全Selmer。第五原中央共享原g，B5单位给五真实高轴唯一modp⁵必要值；完整H6尾/第六权整窗、原w13三/四/五次先折回、52跨界成本及20首响应均保。W∉B89，只有有成本SW∈B106；五轴不等于深核或无穷非零。

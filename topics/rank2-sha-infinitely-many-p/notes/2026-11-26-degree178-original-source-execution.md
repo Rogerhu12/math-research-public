@@ -4,7 +4,7 @@
 
 ## 1. 完整 CM 共同核
 
-脚本 `scripts/check-r943-degree178-full-cm-source.py`，参数为空，python-flint 0.9.0，四 workers；run [45764784007](https://github.com/Rogerhu12/math-research-public/actions/runs/45764784007)，job 139722963336，来源 `ab5d8cefd5ccfc294ebf85408e539a4565b3362f`，实际 success。
+脚本 `scripts/check-r943-degree178-full-cm-source.py`，参数 `--workers=4`，python-flint 0.9.0；run [45764784007](https://github.com/Rogerhu12/math-research-public/actions/runs/45764784007)，job 139722963336，来源 `ab5d8cefd5ccfc294ebf85408e539a4565b3362f`，实际 success。
 
 在原 norm7、norm13 运算和完整30维来源中，共同零质量核维数为1；所选规范向量的原首项阶为6。两个运算完整交换，共同稳定闭包的秩29保持为29。此处读取的是全部来源，不是两个特征值推测全局角色。
 
@@ -38,4 +38,4 @@ $$
 
 ## 3. 已付范围
 
-以上只登记实际完整来源、低轴线性独立和局部投影。完整 E89 Schwartz、全局角色、周期、通常全 Selmer 桥及五轴后的真实原窗口另作证明。当前未由计算得到原深核、全局底非零、ordinary 或无穷素数结论。全部可重算输出和系数不入库。
+以上只登记实际完整来源、低轴线性独立和局部投影。完整 E89 Schwartz、全局角色、周期、通常全 Selmer 桥及五轴后的真实原窗口已由 [R943](../results/R943-original-e89-fifth-central-full-selmer-and-five-axis-gate.md) 逐项证明。当前未由计算得到原深核、全局底非零、ordinary 或无穷素数结论。全部可重算输出和系数不入库。

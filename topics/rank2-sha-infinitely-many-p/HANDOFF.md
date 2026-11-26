@@ -6,7 +6,7 @@
 
 固定一条 E/Q，完整证明 rank≥2 且无穷不同 p 的通常全 Sha[p∞] 有限。**未完成；继续研究，不把接口、条件结论、有限验证当完成。**
 
-- 公开部分克隆、恢复稀疏检出并实际 pull --rebase；根/课题 README 已读至 `a99449c7fae15c0423b45ceb3bbce2943ad702d3`，相对接手首读无差异。之后每次 pull 核差异，至少一小时一次。
+- 公开部分克隆、恢复稀疏检出并实际 pull --rebase；根/课题 README 已读至 `9eaade12344ef2592138b60aa3a5a8429adfb993`，相对接手首读无差异。之后每次 pull 核差异，至少一小时一次。
 - 私有队列接手已推 `f3125fbaa4bc13678b0c8519d85051762c579529`；私库根 README 已读至 `e776df4`（推前同步点）。两次非快进均立即 rebase 后重推成功。
 - 本次两个部分克隆因空间不足移至 /tmp/rank2-sha-7d29daa5d3b1；未动其它文件，令牌未入文件或配置。
 - 2026-11-26执行环境断开后，临时用GitHub原子tree/commit及非强制CAS同步main；逐次核两README差异，恢复环境后补git pull --rebase。未推改动从已审差异恢复，未将断开视作完成。
@@ -19,7 +19,7 @@
 
 - root：同一个 P/R/S、R938 有限类与实际 K1/K2/后页；R939已付三长窗完整D2首核；继续一般有限类/真实后页。
 - global_rank2：R940原双惰性实际下降与条件深增广已证；继续c1/ordinary/s0。
-- theta_central：四原 S34/T72/U136/V66 中央联合非零；R941两次真除p读者已证，公开227四中央实际赋值1，run45762838950全身份过；继续新增真实来源；E89的degree178完整CM与第五读者均PASS，B5非零、C89=5，完整算术桥与ε5真carry继续。
+- theta_central：四原 S34/T72/U136/V66 中央联合非零；R941两次真除p读者已证，公开227四中央实际赋值1，run45762838950全身份过；继续新增真实来源；E89的degree178完整CM与第五读者均PASS，B5非零、C89=5，R943完整桥/ε5真carry已证，继续五轴后的全W/有限类。
 - original_geometry：旧 run 终点已核；R942完整行模/原分裂标量全厚原像已证，单F v2入口已接并请求公开运行，无新除子PASS。
 
 预留编号不表示已有结论。子代理不改共享状态；完成证明或明确失败即交 root 推送，随后继续。
@@ -60,7 +60,7 @@ R887 原完整trace/Cartier/固定κ相位及所有伴随保持；共同质量�
 
 R929三带/单位积/原g两位，R933附A原L5 modp7与E_p=4γ⁶jS−(4γ)⁶jU已付。规范2的K6全carry相消，不能借−9/35单项迫非零。下一步须真实非零或新关系，不再扩已付运输家族。R941以原W递推和两处真除p，从p⁸完整给四j modp⁷；原曲线/倍点/第六carry均核，不作无穷性外推。公开227已success：四j赋值1，原curve/倍点/R933六carry均过；run45762838950/job139716619173/source ed316035c，全hash见R941§5。
 
-E89：完整CM run45764784007给一维首阶6；第五读者run45766655437成功，B5非零、C89=5。W∉B89，只有有成本SW∈B106，不传播中央零。全hash见[执行注](notes/2026-11-26-degree178-original-source-execution.md)；完整Schwartz/通常Selmer桥与ε5真实折回继续。
+E89：完整CM run45764784007给一维首阶6；第五读者run45766655437成功，B5非零、C89=5。W∉B89，只有有成本SW∈B106，不传播中央零。全hash见[执行注](notes/2026-11-26-degree178-original-source-execution.md)；[R943](results/R943-original-e89-fifth-central-full-selmer-and-five-axis-gate.md)已付完整Schwartz/普通惰性通常Selmer桥、五真实高轴modp⁵及ε5真实折回；52成本/20首响应保，继续全W后页。
 
 ## 第四门：同P/R/S与真实有限类
 
