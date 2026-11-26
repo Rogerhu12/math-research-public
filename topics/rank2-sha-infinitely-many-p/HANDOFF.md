@@ -6,17 +6,17 @@
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。固定有限曲线族的联合无穷非零可用无限鸽巢；有限p、随p换曲线、条件桥、非零投影或接口均不完成。
 
-- 两仓库已部分克隆。公开根/课题 README 已读至 `bfe2490bfc87df45ceb4ea252962dff12007c7bd`（差异空）；每次pull只读两文件新差异，至少每小时同步并记SHA。
-- 私库QUEUE接手已推41fe885610073f478b2f5a752461ca56cfd43f09；本次22:49 UTC pull至92b9fa94b75627acf634cd097e34e78360c9e2de，README差异空、QUEUE仍本会话进行中。目录math-research-public、math-research-private；令牌仅进程认证。
+- 两仓库已部分克隆。公开根/课题 README 已读至 `198f783db1cda360e6c5e8fbdaeac3e85288c8a8`（差异空）；每次pull只读两文件新差异，至少每小时同步并记SHA。
+- 私库QUEUE接手已推41fe885610073f478b2f5a752461ca56cfd43f09；本次23:35 UTC pull至632448c6964eb2ca42eaa0b8a74f55efe0c7404f，README差异空、QUEUE仍本会话进行中。目录math-research-public、math-research-private；令牌仅进程认证。
 - root独占git/H/open/log/index；每条结论完成即推，非快进立即pull --rebase、检查README再推至成功，不强推。数学只用公开Actions；不存可重算矩阵/数据/log。H<10KB，每MD<100KB。
-- [此次逐字归档](notes/2026-11-27-handoff-before-explicit-coleman-and-cartier.md)及历史链保全部旧状态；[open](open.md)、[results](results.md)、[R1001–1050索引](notes/PROOF-INDEX-R1001-R1050.md)及前卷保全部未解门，未默删。
+- [此次逐字归档](notes/2026-11-27-handoff-before-unconditional-calibration.md)及历史链保全部旧状态；[open](open.md)、[results](results.md)、[R1001–1050索引](notes/PROOF-INDEX-R1001-R1050.md)及前卷保全部未解门，未默删。
 
 ## 一、原唯一几何作业与实际中央回执
 
-**原几何v8仍运行**：run45882239615/job140124138541/source3b0fe32226b1f91ec37ef68a8d53ff865e9d9b26；19:15:47 UTC入数学。maps、v=ys²−1全零极degree612/首cusp HNF已过；首306 Frobenius20:56:17及612块四厚因子21:21:54全完。第二306 Frobenius22:03:58，22:13/18两厚因子返回，最后真进度22:19:16第三因子Hermite21/306；四交/全厚/shadow未完。固定Sage10.6、r29/q2453/batch64/minimal、45源、两特征零pins、原两图/七式/四交/18×9全保；数学21000s/工作流360min。
+**原几何v8仍运行**：run45882239615/job140124138541/source3b0fe32226b1f91ec37ef68a8d53ff865e9d9b26，19:15:47UTC入数学。maps/全零极degree612/首612块全厚已过；第二块22:26/30余两因子完成。第三base-prime的306 Frobenius23:12:33完，23:18:47首local因子Hermite296/306；四交/全厚/shadow未完。最新真log10509104B/SHA e749c365094a518328f66ceb007817b2d0351957c6b60269150d5ed178233f75。固定Sage10.6/r29/q2453/batch64/minimal/45源/两char0 pins/原两图七式四交18×9全保，数学21000s/工作流360min。
 
 
-旧失败/修复见[终点链](notes/2026-11-27-artinian-v7-final-and-successor.md)：R974原omega/双向坐标与厚Norm已实接v8。R975/R986及root[完整零纤维适配](notes/2026-11-27-original-zero-fiber-frobenius-preparation.md)均未运行/未接v8；当前306 Frobenius已过，不另启重型作业。
+旧v7失败/R974修复、未接入的R975/R986/root零纤维helper见[完整终点链](notes/2026-11-27-artinian-v7-final-and-successor.md)和逐字归档；原306 Frobenius已过，不另启重型任务。
 
 **公开轻回执**：R982/983、R987、R993和R992全旧门与新增结论均PASS；最新R992 run45907263972/job140206875320/source5ce57788fdf943376c908f815e42756f859dc0c7给两核残差准确z12/恰1阶/对核非零。同期R994 run45907264125/job140206875649以M4096/Arb256及完整尾<2^-180付三个固定β27复L(1)>0，新Rankin解析阶1。全部旧run/source和完整hash见各结果及逐字归档；不存生成数据。
 
@@ -29,8 +29,8 @@ R959/R970–983已付E65/E65³/E260/E54925/E8125的rank≥2及原全部有限/�
 原六来源与新四来源均有rank和通常全群桥，r+corankSha≤2ordJ；须无穷p至少一个真J′非零。有限低jet、p227回执和全谱维数均不代此量词。
 
 - R957/R960同完整整数格的严格a+2b<3仍缺；既得Hilbert4/13、余权195、11700秩、399权及inert b3全保。ordinary只在先卷积后sum-unit切域，零不传播乘积。
-- R960/R989原a=pκ单位、六块p6窗及低格/五修正全保。强Hurwitz/完整整窗付十源六项J′ modp7；W/f至w^p、两真除p由八位输入付六位。五old唯一点x†6，五新余式Fτ6(x5)−cτFold6(x5)，old也读第六位。联合坏中央使同原Γ6各ordered前缀modp6逐行同一，无旧125logp重定点费用；只比较有限窗。完整H_p/E_p同点、H≡−a/18/E≡2χ2及5p/11p carry保留。p227、有限jet不代深核/跨p。
-- R963–968完整h/ρ/双W、全伴随/12中心/sqrt3与Q2 whole界全保；跨域source/cross未消。共同C/F只保全四输出，carry消q9留q3；整来源υp^n及网格vp8n已付。补域/H_cd/Pj/Rc与CM投影仍可补偿，子管非零不等于全中央矛盾。
+- R960/R989：原a=pκ单位、六块p6窗、八位输入两真除p、完整Hurwitz尾/低格五修正和十源六位Schur全付。联合坏中央使同原Γ6各ordered前缀modp6逐行同一；H_p/E_p实际同点和5p/11p carry保留。R963–968的全伴随/whole两态、补域H_cd/Pj/Rc及不同CM source projection仍在；局部非零和有限p不代深核/跨p。完整旧式见逐字归档及各结果。
+
 - R985/R987：完整Heisenberg/Miller、全22真实伴随及所有mixed切域已付。CF仅全四输出push后/first-axis scalar；H先Π_Z再在无极像乘S。两13核归一平均准确相差3Δ125/4+C_bΦ*，坏canonical时ordinary/inert真非零；两translated测试不自动零，完整译像与对偶保留。
 
 - **R993**：原Z在两个13核均单位，L值resultant6912π(4+δ)；实际ρπ=−11(1+δ)/40及共轭相差−11δ/20单位，消去均恰1阶/首商全返。Gold补足二次质量边界。完整Miller frame保权dT=1−P2(T)^65(DR)^10；两核可用ρ差分离，但全Cartier还保移动Z零点/二挠/低卷积，不能把canonical零当局部零。
@@ -42,6 +42,8 @@ R959/R970–983已付E65/E65³/E260/E54925/E8125的rank≥2及原全部有限/�
 - **R999**：完整B130=120Φ260−11Φ*−108X130−F10，从24768z12起，分子∈35^-1Z[X]并整除(X+1)^2Q2。原两消13核残差二挠首jet为−64·23·3^30(1+5δ)/19单位；指定组合真实升为双因子。坏canonical时jB=−δ(p+1)log(π/barπ)/10080非零。未平移Z^-7P2^65R_B在O及全部移动Z零点正则，只余三个E2、极帽65p³−65p²+58p+61；第六Cartier仍保7κ5a+，平移后O/−T/全权全保。arithmetic续完整三次Cartier及两exact层R1001。
 
 **R1001**：原完整22列的第六Cartier准确为β6^(1/p)ω/Z；无H分母的p曲率矩阵保持原P2。三次Cartier返留数+32个同W6短窗，全部列/半线性保留；两个exact层H0/H1还须按原点导数读回。T6=−4c6/7−6(H0′^p+H1′^(p²)+A2^(p³))，对B同原g6+7κ5a+。不能只由固定33行/消去后exact迫中央零；arithmetic续R1003实际译像关系。
+
+**R1000**：五条同degree238/charge119的norm7 raw差H_r首项w^r，全部位于B8_119；固定Lucas分母外前五jet det1。完整Tate中央F=Vx+pG、F0=0给全精度整解析等距双射，原实际点无条件确定；不同charge的Schur保各q/Gaussian。原old对数有真实1≤v_p log(π/barπ)≤L_p=O(p/logp)，h≤L_p完整长读取在R614整窗内，但不是原六块扩窗。31/195仅改全位常数，strict门未闭；central续R1004实际canonical H/E消元。
 
 ## 四、几何与全局门
 
@@ -65,6 +67,6 @@ Kato/BKO完整桥及Adachi/新预印本范围已在notes，不重查登记的文
 
 ## 五、接续分工
 
-central续R1000同charge119五条无条件真零及全位门；arithmetic续R1001完整22列Cartier后实际译像关系；geometry续R1002原3型全球toric/Katz比较并跟唯一v8；root读证、消费公开回执并逐条推送。不得把来源变换、局部非零或纯表示匹配写成主目标完成。
+central续R1004原canonical必要余式H/E消元；arithmetic续R1003单P130读取及真实译像关系；geometry续R1002原3型全球toric/Katz比较并跟唯一v8；root读证、消费公开回执并逐条推送。不得把来源变换、局部非零或纯表示匹配写成主目标完成。
 
 中央入口scripts/check-original-e65-full-cm-sixth-axis.py/ci/e65-full-cm-source-request.json；几何入口scripts/produce-original-triangular-artinian-shadow.py及对应request/workflow。结论完成即推，随后继续下一个未解门。

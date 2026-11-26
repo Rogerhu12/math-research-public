@@ -1,0 +1,70 @@
+# 交接
+
+会话：Astra-rank2-Sha-0b097461-20261127；2026-11-27接手。**主目标未完成，持续工作。**
+
+## 目标、授权、同步
+
+固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。固定有限曲线族的联合无穷非零可用无限鸽巢；有限p、随p换曲线、条件桥、非零投影或接口均不完成。
+
+- 两仓库已部分克隆。公开根/课题 README 已读至 `bfe2490bfc87df45ceb4ea252962dff12007c7bd`（差异空）；每次pull只读两文件新差异，至少每小时同步并记SHA。
+- 私库QUEUE接手已推41fe885610073f478b2f5a752461ca56cfd43f09；本次22:49 UTC pull至92b9fa94b75627acf634cd097e34e78360c9e2de，README差异空、QUEUE仍本会话进行中。目录math-research-public、math-research-private；令牌仅进程认证。
+- root独占git/H/open/log/index；每条结论完成即推，非快进立即pull --rebase、检查README再推至成功，不强推。数学只用公开Actions；不存可重算矩阵/数据/log。H<10KB，每MD<100KB。
+- [此次逐字归档](notes/2026-11-27-handoff-before-explicit-coleman-and-cartier.md)及历史链保全部旧状态；[open](open.md)、[results](results.md)、[R1001–1050索引](notes/PROOF-INDEX-R1001-R1050.md)及前卷保全部未解门，未默删。
+
+## 一、原唯一几何作业与实际中央回执
+
+**原几何v8仍运行**：run45882239615/job140124138541/source3b0fe32226b1f91ec37ef68a8d53ff865e9d9b26；19:15:47 UTC入数学。maps、v=ys²−1全零极degree612/首cusp HNF已过；首306 Frobenius20:56:17及612块四厚因子21:21:54全完。第二306 Frobenius22:03:58，22:13/18两厚因子返回，最后真进度22:19:16第三因子Hermite21/306；四交/全厚/shadow未完。固定Sage10.6、r29/q2453/batch64/minimal、45源、两特征零pins、原两图/七式/四交/18×9全保；数学21000s/工作流360min。
+
+
+旧失败/修复见[终点链](notes/2026-11-27-artinian-v7-final-and-successor.md)：R974原omega/双向坐标与厚Norm已实接v8。R975/R986及root[完整零纤维适配](notes/2026-11-27-original-zero-fiber-frobenius-preparation.md)均未运行/未接v8；当前306 Frobenius已过，不另启重型作业。
+
+**公开轻回执**：R982/983、R987、R993和R992全旧门与新增结论均PASS；最新R992 run45907263972/job140206875320/source5ce57788fdf943376c908f815e42756f859dc0c7给两核残差准确z12/恰1阶/对核非零。同期R994 run45907264125/job140206875649以M4096/Arb256及完整尾<2^-180付三个固定β27复L(1)>0，新Rankin解析阶1。全部旧run/source和完整hash见各结果及逐字归档；不存生成数据。
+
+## 二、固定算术来源
+
+R959/R970–983已付E65/E65³/E260/E54925/E8125的rank≥2及原全部有限/周期/全权平方和通常全群桥。F10/H/F11 old非零对数不是rank2 primitive；全部22/66/81、五伴随/mixed常数和旧角帽见各结果及归档，不删余块。
+
+## 三、当前真正中央门
+
+原六来源与新四来源均有rank和通常全群桥，r+corankSha≤2ordJ；须无穷p至少一个真J′非零。有限低jet、p227回执和全谱维数均不代此量词。
+
+- R957/R960同完整整数格的严格a+2b<3仍缺；既得Hilbert4/13、余权195、11700秩、399权及inert b3全保。ordinary只在先卷积后sum-unit切域，零不传播乘积。
+- R960/R989原a=pκ单位、六块p6窗及低格/五修正全保。强Hurwitz/完整整窗付十源六项J′ modp7；W/f至w^p、两真除p由八位输入付六位。五old唯一点x†6，五新余式Fτ6(x5)−cτFold6(x5)，old也读第六位。联合坏中央使同原Γ6各ordered前缀modp6逐行同一，无旧125logp重定点费用；只比较有限窗。完整H_p/E_p同点、H≡−a/18/E≡2χ2及5p/11p carry保留。p227、有限jet不代深核/跨p。
+- R963–968完整h/ρ/双W、全伴随/12中心/sqrt3与Q2 whole界全保；跨域source/cross未消。共同C/F只保全四输出，carry消q9留q3；整来源υp^n及网格vp8n已付。补域/H_cd/Pj/Rc与CM投影仍可补偿，子管非零不等于全中央矛盾。
+- R985/R987：完整Heisenberg/Miller、全22真实伴随及所有mixed切域已付。CF仅全四输出push后/first-axis scalar；H先Π_Z再在无极像乘S。两13核归一平均准确相差3Δ125/4+C_bΦ*，坏canonical时ordinary/inert真非零；两translated测试不自动零，完整译像与对偶保留。
+
+- **R993**：原Z在两个13核均单位，L值resultant6912π(4+δ)；实际ρπ=−11(1+δ)/40及共轭相差−11δ/20单位，消去均恰1阶/首商全返。Gold补足二次质量边界。完整Miller frame保权dT=1−P2(T)^65(DR)^10；两核可用ρ差分离，但全Cartier还保移动Z零点/二挠/低卷积，不能把canonical零当局部零。
+
+- **R992**：X130=(Δ12500−Δ125)/(45360δ)，完整P_X degree20首项1、固定分母只2/3/5/7/13，仍原B6帽；全部好inert二重中央零，普通准确限R968 wholeS10射线。H+−8H−/5−11(F11,+−F11,−)/23625=−2X/25全身份；第11行沿R989同p6/完整尾，不扩窗。四源两13核边界det单位，余协向量R∂=barπω²tπ−πωtbar；(N7+ω²)X=Δ125/45360明确中央非零。保全部P2/Miller高jet/移动Z/二挠，不把Hecke像赋零。
+
+- **R996**：原f6/f10的norm7 pull差给X42/X70，在所有好inert和原普通wholeS6/S10射线真双中央零。完整角gcd仅q=t(t−1)，h7两角全单位；新D=(64∞−0−1)/195。三条真实同权1365参数/Koszul付生成权≤2733，导子c8=c6S16/权69615；全195余权rank12090、基≤393、乘法≤2项/l1≤2，累计Hilbert31/195。原p6新增两行/全部ordered前缀保留，导子5r8跨界；乘积中央不赋零。central续同格全位严格门R1000。
+
+- **R999**：完整B130=120Φ260−11Φ*−108X130−F10，从24768z12起，分子∈35^-1Z[X]并整除(X+1)^2Q2。原两消13核残差二挠首jet为−64·23·3^30(1+5δ)/19单位；指定组合真实升为双因子。坏canonical时jB=−δ(p+1)log(π/barπ)/10080非零。未平移Z^-7P2^65R_B在O及全部移动Z零点正则，只余三个E2、极帽65p³−65p²+58p+61；第六Cartier仍保7κ5a+，平移后O/−T/全权全保。arithmetic续完整三次Cartier及两exact层R1001。
+
+**R1001**：原完整22列的第六Cartier准确为β6^(1/p)ω/Z；无H分母的p曲率矩阵保持原P2。三次Cartier返留数+32个同W6短窗，全部列/半线性保留；两个exact层H0/H1还须按原点导数读回。T6=−4c6/7−6(H0′^p+H1′^(p²)+A2^(p³))，对B同原g6+7κ5a+。不能只由固定33行/消去后exact迫中央零；arithmetic续R1003实际译像关系。
+
+## 四、几何与全局门
+
+R909 F/R906 P特征零PASS；R924–927原全模型/两图306/46971乘积/厚cusp/maps/dF1296已付。四交、全厚Norm/边界/Tate迹和18×9shadow待唯一v8；原u/λ/vnew/微分/∞O/返回17、三退化、omega/Artin(2,0,1)、Z02=Z/Z20=−Z保持。
+
+R885/897 full finite/wild范数；R891/893/940/945原结论以c1非零为前提。深增广来自H¹(J⊗T)，不是JH¹；H²自由/ordinary/s0均未消。原λ Hodge(3,0)/twist(2,−1)，usual core0/balanced1，不改错号或反CM。
+
+R979/R984：7993给全Selbal=E·zcan、ordinary strict核0及三canonical的Griff²独立非零；全H²挠连接类/逐m正密度Q_m上κ的p^B界和实际−6对应全保。允许κ0，不推c1/s0/其它p AJ非零。
+
+R988/R990：level12 K3到E0²的严格Chow双逆仍成立，但该新CM17图族在2处实际Artin元给Chow反号，取迹到原H整族为零；全Mackey也排全部平移。不作用旧canonical/原端点。已转E27，原族不重试。[实际I9/I3对应](notes/2026-11-27-congruence-i9-i3-surface-and-correspondence-scope.md)已付F²=[−3]、F*Ω=−δΩ及所有有限Aut商非K3。
+
+**R991/R994**：E27实际level9/三扭曲全finite/3wild/2和17完整toric向量已付，原9级与34同源不改；I9/I3的T=Indψ27²。最高λ=ψ0³η⁻¹仍原角色，三个实际混合β27=ψ27η的level31212/root+1及完整L(1)>0已付，新Rankin解析阶1。不是K3，继续新图的指定最高AJ非零。
+
+**R995**：generic纤维CH0及KMP balanced商严格给[n]=n于t2，故f²=−3、f†=−f；P_high=(1+f⊗[δ]*/3)/2为自伴Chow最高投影并可下降Q。实际完整fiber-product/内外P次序、全η trace与H³(2)AJ图全付；单线P+转置P−，不能与同holline错误配对。继续指定循环非零。
+
+**R998**：对这三个新β，Kato14.2(2)/CM§15.23加完整全局/局部Shapiro给Hf¹(K,β(1))=Hf¹(K,βc(1))=0，每p离散Selmer有限且几乎全p零。选e_E+后实际混合线barψ²ψη⁻¹(2)=βc(1)，故原f类的全AJ等于最高AJ；P+转置P−仍保，不造全类非零。
+
+**R997**：原I9/I3图先经π1(E)严格同调零；实际Gauss–Manin及唯一Frobenius规范给D b″+D′b′−6b=−3/v²、AJ图=−degφ·b/cφ。BDP3.14全部条件/全局rigid歧义、full9下降、全部54图/18η/原H trace和P±对偶全付；实际fΩ=−δf27(τ/3)，负二阶含9，depletion循环系数为1,−A_p/p²,1/p²。没有调用不满足cyclic27假设的全球5.13；继续原3型全球比较及指定值非零。
+
+Kato/BKO完整桥及Adachi/新预印本范围已在notes，不重查登记的文献。其余O4/O6/O7、P134/十九角/charge40/10980/WD/TM/TJ门详open与历史索引，全部保留。
+
+## 五、接续分工
+
+central续R1000同charge119五条无条件真零及全位门；arithmetic续R1001完整22列Cartier后实际译像关系；geometry续R1002原3型全球toric/Katz比较并跟唯一v8；root读证、消费公开回执并逐条推送。不得把来源变换、局部非零或纯表示匹配写成主目标完成。
+
+中央入口scripts/check-original-e65-full-cm-sixth-axis.py/ci/e65-full-cm-source-request.json；几何入口scripts/produce-original-triangular-artinian-shadow.py及对应request/workflow。结论完成即推，随后继续下一个未解门。

@@ -120,3 +120,6 @@
 
 
 - [R997](../results/R997-actual-cm-graphs-and-highest-coleman-picard-fuchs-formula.md)：原I9/I3的CM图经π1(E)先严格同调零，实际Gauss–Manin推出唯一Frobenius规范的Db″+D′b′−6b=−3/v²及AJ=−degφ·b/cφ。支付BDP3.14全部条件、局部残数/full9下降、实际宽度3负二阶的9因子、三个depletion图的真实次数与p分母，以及全部54图/原H trace/η和P±对偶。全球cyclic27条件不满足，未跳用BDP5.13；继续指定最高值非零及原3型全球比较。
+
+
+- [R1000](../results/R1000-original-unconditional-five-axis-calibration-and-full-place-budget.md)：新五条同degree238/charge119的完整norm7 raw差全位于B8_119，惰性中央无条件双零；固定Lucas分母外前五jet det1。全部整Tate系数给F=Vx+pG、F0=0和全精度等距双射，原实际五轴无需坏canonical便唯一；全部不同charge Schur保原Gaussian。old对数有确定L_p=O(p/logp)非零检出深度，另付R614长窗和全部余尾，不把它冒作六块扩窗。31/195回代只改常数，继续实际canonical不相容/全位严格门。

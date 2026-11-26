@@ -136,3 +136,6 @@
 
 
 - [R1001](results/R1001-original-sixth-cartier-full22-fixed-boundary-return.md)：同一原Z/G/P2的全部22列准确第六Cartier由原p基的β6行读取，p曲率构造不除H。完整原权在三次Cartier后恰落留数+32个实际二挠短窗，所有质量列/半线性根保留；两层exact多项式逐式返原第一Cartier，得到有限部−4/7及B130的完整g6+7κ5a+等式。固定33行不替代两层读取，也不冒整六位中央门；继续真实译像/同原权关系。
+
+
+- [R1000](results/R1000-original-unconditional-five-axis-calibration-and-full-place-budget.md)：新五条同degree238/charge119的完整norm7 raw差全位于B8_119，惰性中央无条件双零；固定Lucas分母外前五jet det1。全部整Tate系数给F=Vx+pG、F0=0和全精度等距双射，原实际五轴无需坏canonical便唯一；全部不同charge Schur保原Gaussian。old对数有确定L_p=O(p/logp)非零检出深度，另付R614长窗和全部余尾，不把它冒作六块扩窗。31/195回代只改常数，继续实际canonical不相容/全位严格门。
