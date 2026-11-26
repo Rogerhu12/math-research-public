@@ -1,5 +1,7 @@
 # 当前未解问题：保留基础有限证据，继续同 g 加密及完整强幅度
 
+[polar反参失败及独立稳定源](notes/2026-11-26-6a65-geometry-polar-inverse-failure-and-stable-source.md)已发布六个可复生源：原128缓存自然0、192自然1，具体Newton二周期已定位；新括区/按角冻结保原5e−14，完整隐函数六jets不换。v2重新生成自己的两缓存，未借旧成功组身份；已新成128，192进行中。
+
 [R248全前缀C2支撑扩展](results/R248-exact-C2-prefix-support-extension.md)已证明准确保旧场与内部两阶迹自由，真核5292→12789、全部756有理基/导相等；可在同g下修原固定prefix，须另立实际完整prepared/全span求积，原活动入口不暗改。q1已实际release成功；q2 run45848177096于15:46:17真实failure，正读原因，不能称仍在跑。
 
 [R247固定rho点预算](results/R247-fixed-polar-radius-positive-height-point-budget.md)已证明条件锐上界与法曲率公式；N31实际单点上界.437387<必要.785395为浮点诊断，后续放开完整XYZ。新极坐标两网格准备中，128角真实成功、192角反参守卫实际失败，不能冒完整baseline；修另名反参源继续。
