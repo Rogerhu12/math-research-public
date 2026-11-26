@@ -26,11 +26,11 @@ R653准确quarter；R654完整H²尺度；R655付原node/mid盲空间，故旧18
 
 完整证明见 [results](results.md)；此段压缩前逐条适用条件保 [5a7dffa1完整H](https://github.com/Rogerhu12/math-research-public/blob/5a7dffa14a933434e5159c300b8035fdcd48b3a3/topics/visible-flex-larger-amplitude/HANDOFF.md)及其f054/129a前链，责任不删除、不重证。
 
-R650/R661给同场support/K与固定四标记的全t reach/grip/held/E框架；R669仅原参考线性唯一性/有限表示范围，R671准确lift已补旧缺项。R670/672/674保原全六jet/准确尾与连续余项，原geometry03全K未返；R675非平面证书不跨场。R676/678/679给固定g的径向/M/N精化与共同父泛函，旧fine仅小降不证收敛。R677/681/685给完整QP可靠更新/原coarse/活动面逆，iteration_limit不冒驻点。R680/683 SOC必须保全部旧C、实际修正模型和真Phi/几何。R682正权新增须显式换Phi，父超硬门不能直交零步可行CG。原全部源在resume_20261120/，本轮完整新源在resume_20261126/；未付处见下。
+R650/661全t几何、R669原参考线性/有限表示边界、R671准确lift、R670/672/674全六jet与尾、R675非平面、R676/678/679同g精化、R677/681/685完整QP、R680/683全旧行SOC、R682新增测度与父硬门均继续适用；逐条条件/失败和完整源定位保[80f66完整交接](https://github.com/Rogerhu12/math-research-public/blob/80f66acbb0c30a610bf71634db7e0284a100825e/topics/visible-flex-larger-amplitude/HANDOFF.md)及所链正文。原源resume_20261120/，本轮源resume_20261126/；未付责任不删除。
 
 ## 复现与不重做
 
-再生配方rebuild_a04_chain.py保60321451c/b4d2b98完整链；Python3.12.14/NumPy2.3.5/SciPy1.17.0/单BLAS。旧warm、Gauss盲点、八blend、纯metric高K、cap16未完整方向、0241地点纠正等完整已登记边界在下列上版H及对应记录，不重做。R648/651/652仅开放prefix。十二次raw普通移出保源/输入/历史恢复见[容量记录](notes/2026-11-20-resume-raw-retention.md)，不改历史。
+rebuild_a04_chain.py保60321451c/b4d2b98完整链；Python3.12.14/NumPy2.3.5/SciPy1.17.0/单BLAS。旧warm/Gauss盲点/blend/高K/cap16/0241等已登记边界保下列H及原记录，不重做。R648/651/652仅开放prefix。十二次raw普通移出保源/输入/历史恢复见[容量记录](notes/2026-11-20-resume-raw-retention.md)，不改历史。
 
 旧完整逐项边界保[28c855a0交接](https://github.com/Rogerhu12/math-research-public/blob/28c855a0591a398a1aae55663c37801165194e38/topics/visible-flex-larger-amplitude/HANDOFF.md)及其前链；所有未付责任继续，不等确认。
 
@@ -40,11 +40,11 @@ R650/R661给同场support/K与固定四标记的全t reach/grip/held/E框架；R
 
 R684[首两方向](notes/2026-11-26-actual-first-mean-design-and-amplitude.md)与[双variant诊断](notes/2026-11-26-actual-new-metric-initial-diagnostics.md)已实际返；移动均值不自动保幅度或固定g精化，最新父见下。
 
-[旧方向归因](notes/2026-11-26-actual-mean-ray-and-all-row-SOC-attribution.md)保原拒绝史。[独立base修复](notes/2026-11-26-face-PCG-verified-physical-base-launcher-repair.md)真实stage61已返[954fd435](notes/2026-11-26-actual-verified-base-fixed-g-face-direction.md)：旧gn Phi1.2412e−7→1.22142e−7/max.01318391，原ray.5/μ.0120632，QP256未驻点，SOC未接受、必要筛通过。原全AST/roles和物理base均核，未松守卫；纯归因已提前接，旧43内层trace仍不冒已读。
+[旧方向归因](notes/2026-11-26-actual-mean-ray-and-all-row-SOC-attribution.md)保原拒绝史。[独立base修复](notes/2026-11-26-face-PCG-verified-physical-base-launcher-repair.md)真实stage61已返[954fd435](notes/2026-11-26-actual-verified-base-fixed-g-face-direction.md)：旧gn Phi1.2412e−7→1.22142e−7/max.01318391，原ray.5/μ.0120632，QP256未驻点，SOC未接受、必要筛通过。原全AST/roles和物理base均核，未松守卫；stage64纯归因确认投影可行/收敛但SOC真拒因未列；旧43内层trace仍未实读。
 
 R686[同场first/K/四标记](notes/2026-11-26-same-field-batched-curvature-geometry-consumer.md)完整源已刊，六jet/全尾/全角保留、K目标由实际D推；新全K未付，不复算旧取消场。
 
-R688/e3d→643前史保[v2两方向](notes/2026-11-26-actual-amplitude-v2-directions-and-own-first.md)。[typedSOC55–57](notes/2026-11-26-actual-complete-amplitude-SOC-and-own-first.md)返2d3e：原ray.5/mu.01，max.01417963、QP Pg/tol572816未驻点；197+2行真值负而全Kproduct.99201661仍拒。自身全922 first D≤4.118425457/L≥.938819942/embedding已付，marker/K/固定g精化未付。[多轮9f18/1c87](notes/2026-11-26-fixed-parent-multiround-separated-SOC-application.md)已排该父1×256/最多8轮；同x/d、全C/永久点、单容量cache及独立Az/真双筛保全。
+R688/e3d→643前史保[v2](notes/2026-11-26-actual-amplitude-v2-directions-and-own-first.md)，[55–57](notes/2026-11-26-actual-complete-amplitude-SOC-and-own-first.md)保2d3e及单轮typed可行仍K拒。[真实63/65/66](notes/2026-11-26-actual-multiround-SOC-acceptance-and-own-first.md)同x/d多轮9f18/1c87第8轮满步真接受返7ebb5f42：Phi .00016727→.00013920但max升至.014722916，μ.01→.005，QP Pg/tol423379未驻点；全原197→213行/全部2752曲率与2737半径点保，必要Kproduct.99125270/amp通过。自身全922 first D≤4.124124731/L≥.938564547/body held≥.227579088/embedding已付；marker/K/reach/固定g精化未付，平均下降不冒uniform改善。
 
 R689同一冻结均值连续Gram/共同分割/双方全余项入口已刊，实际全域上界仍未付；不对已知失败场冒精化。
 
@@ -56,7 +56,7 @@ R690 [完整深谷新输入证明](results/R690-quasimonotone-tail-and-deep-vall
 
 R691[末端相容/Haar角矩](results/R691-frozen-physical-mean-endjet-and-material-Haar.md)完整已证；真实Haar消去该三阶必要项，不推充分存在或C²极限no-go、不新增freeze门。准确角矩入口继续。
 
-新科学仍仅本公开Actions。root唯一人工git writer，代理在独立scratch写小源/推导；每条完整结论即推。工作盘空间不足，本次部分克隆在临时盘，仓库提交为恢复依据，不删除别的会话数据。
+新科学仍仅本公开Actions。root唯一人工git writer，代理在独立scratch写小源/推导；每条完整结论即推。本地环境unavailable，连接器读实际返回/普通非强推提交，不冒本地pull；双README远程diff核至`5ec8afb3830b9a72a459083d923e351b4a4e45fc`无差异。scratch未推源待恢复，不冒已刊；Actions真实pull见下。
 
 ## 当前公开Actions执行
 

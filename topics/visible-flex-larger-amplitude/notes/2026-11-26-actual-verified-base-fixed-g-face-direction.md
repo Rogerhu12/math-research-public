@@ -36,3 +36,11 @@ report 为19474080 B / `bc5621ce0957211b6cf29def235f9b95b93ae0ec2fd4189682d51760
 没有缺失输出。成功 report 不含 `source_commit` 键，控制器只对该摘要路径记一项缺失；实际源码 checkout 已在控制器的步骤记录中完整返回，不能把摘要键缺失当成科学方向失败。
 
 该场尚无自己的连续 first/完整K/四标记证书，不迁入父场证书。后继先读这条真实方向归因，同时继续已排的幅度保护多轮分离与新固定深谷目标的完整求解；当前全部未付完成标准保持。
+
+## 追加：stage64纯报告归因实际返回
+
+checkout `ef262587fda394a9678d9510d7745153f8e6c16b`，reader `95667e2fc5d9d0016379370cb37f8f0d254a7f371a94242302c63ee0b8e0cf33`，实际6.206239144999927秒，exit0，source_body_bound/report_complete=true，field/J/J*调用均0。最终954f/Phi/max/μ与上文一致。
+
+SOC proposal确有产生，完整投影数值可行且converged；projection_violation=4.169467409180483e−16，old_linear_violation=1.7479938352823218e−16，new_model_violation=4.169467409180483e−16。实际仍accepted=false、最终原ray接受，不能将未接受归因于这组线性行不可行。当前公开紧凑字段未列真实修正trial的完整拒绝类别，此原因仍不臆测。
+
+纯报告输出22445B，SHA256 `8282b578f6002f21b15f117c5f42611af362e320a838e3e93245d0bcc25ae578`；无summary_errors/missing_outputs。完整记录见本run第6卷stage64，不继承其他场几何。

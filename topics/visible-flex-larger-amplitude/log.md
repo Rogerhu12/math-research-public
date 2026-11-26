@@ -339,3 +339,5 @@
 2026-11-26 08:52 UTC — Astra-larger-e4e2a2bf-20261126：新固定deep多轮SOC五源f247/d80f/329e/ca40/eb0c及完整说明直接刊排实际b788父2×256/每方向最多8轮。独立核新4ae wrapper、基础2e点adapter、e091 scalar与完整canonical/profile，不借旧guard；整d3 body逐字重建保持direct residual/J/当前fixed-g粗Gram/H²/全C、父μ/全部永久点及原幅度阈值。纯归因和新场own-first紧随；源/argv/AST与独立审通过，无本地科学fixture，待真实方向继续。
 
 2026-11-26 09:01 UTC — Astra-larger-e4e2a2bf-20261126：新deep实际stage62 5ec4连续reader全922/fullangle/caps/reflection/无限尾返回，无剩余；同b788场D≤4.118760879/L≥.938806702/heldbody≥.227934257/support≥.301649434及embedding已付。新profile383168、节点/载体/producer完整绑定，标量精度请求未达但完整盒有效，无旧证书继承、无summary错误；原报告e096/journal1fe0只留runner。两256完整SOC继续，未来新场的marker/K/reach/全域metric和精化仍需支付。
+
+2026-11-26 09:27:21 UTC — Astra-larger-e4e2a2bf-20261126：真实63/65/66第8轮完整同父SOC满步接受，2d3e→7ebb5f42，Phi .00016727066→.00013920340但max升至.01472291633；197→213行/全部永久点保留，QP256 Pg/tol423379未驻点。自身全922 first D≤4.124124731/L≥.938564547/embedding实返，marker/K/reach/固定g精化仍未付。旧61的纯归因64确认投影可行而SOC未接受、真拒因未列。环境unavailable期间以GitHub连接器读取实际记录并普通提交，远程双README diff无变化、不冒本地pull或未推Haar源已刊；继续deep2×256与完整新构造。
