@@ -27,6 +27,8 @@
 
 - [R957](results/R957-original-five-source-integer-grid-and-complete-placewise-budget.md)：原新B+全部89余权给R[X,Z]自由秩2225、全部基权≤187；同权28883导子与固定D0^(M+1)将全基整返原五源。真实Λ取所有五源单项式的整数像格，实商Euclidean与有限位同格；covol倒数给非负算术度、全饱和jump乘积公式。普通卷积后切单位域，完整矩/下降阶乘给所有前缀整性；复侧和全部惰性成本全付。新J5精确读p^j r_js+i，完整参数变化最多24模p行，导子固定4r_c carry，不套旧十九角/13/52。尚未从五中央零得全深核或严格a+2b<3。
 
+- [R958](results/R958-original-e89-common-six-sigma-cm-projection.md)：同原六个sigma取实际轴(δ,2δ,γ7,barγ7,1,2γ37)，完整degree178/相位/尺度及五伴随整框架均付。同次重生原全CM矩阵，run45809854198首候选PASS：c0、q(e)=15−15ω、α=(273+156ω)/185≠0；全30维秩一投影、两CM逆、全部奇sigma相位与S/T返回通过。真实五伴随算子给W⊗Λ且Λ(0)=α，原周期νW17=(89/17)νE89；全部CM有限支与混合unit/deep条件逐支保留。可读独立伴随中央行，混合余域及无穷性仍待消费。
+
 - [R959](results/R959-original-e65-two-independent-points.md)：新增固定候选E65:y²=x³+65的P=(-4,1)、Q=(-1,8)给自含rank≥2证明。实域Q√65的δ=y+√65由完整弦切线群律为模立方同态；P在二的两素理想赋值(5,1)，Q为根本单位8+√65，故两类独立；原切线式排全部有理3挠。没有预定theta degree或代替其真实局部/Schwartz/通常Sha桥，继续构造第六输入。
 
 ## 当前几何计算入口
