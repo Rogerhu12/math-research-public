@@ -332,3 +332,6 @@ NS五件共129172B，owner71056B SHA18db439d5895e4232882940a57b7bd9457982383e1ac
 
 
 2026-11-26 22:38:21 UTC / visible-exact-astra-fb31ed6-20261127：AS八件首次actual入口登记；manifest11219B/16bf98e27c7f6bf1f7362d2840249368e342dc70ebed8c31344df87663c745fb，29当前及原whole SNmanifest207件13.6MB，metadata/AST全准入、无本地数值导入。原SN point recurrence只为同245885B/3048266b…输入恢复，原residual/energy/norm entrypoints显式禁用；全2048 alpha模式保b整球、−μ/2、全部aliases/source/true-map/infinite双尾和完整prefix。whole output预算65KB、私有carrier单独hash，16800s科学首次push触发。容量已净省1679814B并推7df03c35e，两README无diff；22:36私库pull72d8eb716b040ff70d2377f4f8dc5a2d9cd84edb，root无diff，QUEUE仍本会话进行中。
+
+
+2026-11-26 22:39:55 UTC / visible-exact-astra-fb31ed6-20261127：登记PAν剩余六件真正首次入口，total110705B；manifest62914B/7d8345c6…、78当前/51历史，完整metadata/继承worker AST通过。必要NP carrier restore保全740×193×4原jets、全部7721rows/part/offset/plan与每整数组SHA，任一失配失败不换trial；从same waist193-vector做唯一新97 signed amplitude pairing，8个完整球含3 signed、all μ/error/原α归一化保，旧residual/norm/pairing0。输出85KB+120KB余量现充足；AS已推c781865c6、两README无diff，首run由workflow自动触发，不重复dispatch。

@@ -347,3 +347,5 @@
 - [UH：compact附近全mean实角物理边界Hessian](results/R144-supplement-uniform-real-physical-boundary-Hessian-near-compact-centres.md)：在原L=.9和真R=25/8、未知A³≤1e−6完整tail域，26个旧bound的纯有理组合通过；全D²Ψ≤2(HhEk+HkEh)，余项≤2HhEh、同H1半径差分≤4ρH(h−k)。两个moving/physical means与原角归一化保，旧G/CH恒等不冒新；只known有限差用Bernstein，unknown无空间解析。未授rough H1背景全图C2或DN/phase/height完整Hessian。
 
 - [AS：原alpha的首次完整signed carrier与全空间双误差](results/R149-supplement-original-source-alpha-signed-carrier-and-complete-errors.md)：exact相关cohomology公式|αn|≤136n|vin|，b=2H(0)+Ω/whole−μ/2保；仅恢复原SN12584 subcell point recurrence并核whole245885B终点SHA，旧验证/能量/norm0。K2048+8192 directed grid一次覆盖，完整aliases、true chart、四sourceerror和infinite L∞/L2尾全付；29当前+原97309B/207件旧manifest首实际入口已齐，未冒actual成功。
+
+- PAν首实际八球入口：manifest [2026-11-27-strict-nu-amplitude-border-inputs.json](notes/2026-11-27-strict-nu-amplitude-border-inputs.json)，62914B/7d8345c67b64d515c5ee71b15af6c06ca33892144dfdd84e153398640627bc01，78当前+51完整历史。原740×193四endpoint jet arrays及whole plan/selection/offset receipts全匹配才作新signed97 pairing；旧NP residual/194/192 pairing/norm全部零，八整球（3signed）实际待。
