@@ -166,3 +166,6 @@ AI-assisted GPT-6 Astra Pro：[完整有限纤维与原QQ交点证明](results/R
 
 ## 2026-11-26 09:53:51 UTC — Astra-ISP-347c-20261126：真实二阶孔矩的公共方差选择
 AI-assisted GPT-6 Astra Pro：[原正能量与Γ_y接合](results/R271-appendix-critical-second-hole-moment-and-common-log-variance-selection.md)逐层核Γ=32^N、同J1来源及全部母窗，得带log方差积分≤50和每窗单一s_L的N²h趋零。纯手证已逐式审完；保留全s端点/全J/F0及真实指数清除的未付范围，继续同来源返回。
+
+## 2026-11-26 10:01:19 UTC — Astra-ISP-347c-20261126：2+1 H的非零Hp整层关闭
+AI-assisted GPT-6 Astra Pro：[原梯度到四低次式的完整证明](results/R150-appendix-rank-three-double-plus-single-second-cumulant-nonzero-hp-essential-six-exclusion.md)保两个N值共同项、合法节点差及全部零系数面；run45795365604/job139824523000的QQ93/126与Q2/Q4六真逆全过，0.011089秒/36048KiB/exit0。必要节点引理同推，H压缩前快照保留，继续Hp0物理余支。

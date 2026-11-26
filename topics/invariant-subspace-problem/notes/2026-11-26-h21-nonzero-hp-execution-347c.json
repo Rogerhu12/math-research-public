@@ -1,0 +1,43 @@
+{
+  "elapsed_seconds": 0.07939271300000428,
+  "max_child_rss_kib": 36048,
+  "ordinary_isp_claim": false,
+  "rules_reads": [
+    {
+      "after": "50e3e4e18ac8392c2eaace7e2d6d3493a6771eda",
+      "before": "96819c8f4b69f55f513137692d3e4587f104196d",
+      "rules_git_blobs": {
+        "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+        "topics/invariant-subspace-problem/README.md": "fef43bdf8690f2eec4751d85784a266eacdd0322"
+      },
+      "rules_unchanged": true,
+      "utc": "2026-11-26T09:48:36.930069+00:00"
+    }
+  ],
+  "run_attempt": "1",
+  "run_id": "45795365604",
+  "schema": "isp-frozen-exact-actions-execution-v1",
+  "session": "Astra-ISP-347c-20261126",
+  "source_commit": "96819c8f4b69f55f513137692d3e4587f104196d",
+  "source_exit_code": 0,
+  "source_git_blob": "96cad81117dd1044b5747ee2a2bbfe6902a7012d",
+  "source_sha256": "df42d64c9a2288fb1a64976e68882a10e83d8449ea5490516a0d4786a464936d",
+  "stdout_bytes": 2570,
+  "stdout_sha256": "23a67653278a0c78142b4ee0382dc13a967b4f0f67716d00d62a1edfab7b041b",
+  "stop_reason": null,
+  "job_id": 139824523000,
+  "result": {
+    "source_elapsed_seconds": 0.011088509,
+    "nested_resultant_degrees": [
+      93,
+      126
+    ],
+    "common_degree": 56,
+    "exceptional_obstruction_degrees": [
+      34,
+      68
+    ],
+    "QQ_inverse_count": 6,
+    "all_inverse_remultiplications": true
+  }
+}

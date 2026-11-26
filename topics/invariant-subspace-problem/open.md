@@ -62,9 +62,9 @@ $$
 
 **[单位211非零m、u1的半比例及jet除数全闭](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-nonzero-isolated-mean-unit-base-mean-half-ratio-exclusion.md)：** 在p+q2、u=bp+cq=1、P0非零图，l0由原mean/S余式排除；jet的g系数零面归λ=f1/2，其g0抽象族因完整Gram秩二排。半比例其余图QQ92/162/170结果式仅余Q5/4，回原五式基为{f−5l/16−1/2,l²}，与已付l0矛盾。自含源2.801380秒/72196KiB/exit0；继续u1的λ≠0,1/2及一般u≠1，不宣全非零m空。
 
-**rankH3二重加单点的准确剩余：** [退化Gram整层](results/R150-appendix-rank-three-double-plus-single-second-cumulant-degenerate-gram-essential-six-exclusion.md)与[全部非约化V](results/R150-appendix-rank-three-double-plus-single-second-cumulant-nonreduced-third-cumulant-essential-six-exclusion.md)的ess6均已排；原六列根向量、特殊源/∞、两Gaussian常数Gram和N(u)平方矛盾全付，另排F0及约化V的e0。不再重做；只续bgF e均非零的约化V。完整旧范围保[本次open快照](notes/2026-11-26-open-before-actual-number-residual-moment-347c.md)及两正式稿。
+**[rankH3二重加单点的非零Hp整层已闭](results/R150-appendix-rank-three-double-plus-single-second-cumulant-nonzero-hp-essential-six-exclusion.md)：** 原重节点零/等配对全排并付J分母；原N差导出G1/G2时不除At/τ/γ。完整QQ93/126结式gcd56只余Q2/Q4，全部good σ纤维由原G1/Ht的QQ真逆排除。run45795365604/job139824523000实际0.011089秒/36048KiB/exit0；与已闭[退化Gram](results/R150-appendix-rank-three-double-plus-single-second-cumulant-degenerate-gram-essential-six-exclusion.md)、[非约化V/F0/e0](results/R150-appendix-rank-three-double-plus-single-second-cumulant-nonreduced-third-cumulant-essential-six-exclusion.md)合并，仅续bgF e非零、Hp0的约化V。
 
-**[2+1非退化H、约化V、Hp0的原九次Gram候选](results/R150-appendix-rank-three-double-plus-single-second-cumulant-zero-hp-nine-gram-candidates.md)：** 全部立方相位及Cw0由原N(u)/N(v)排除，只剩D=−C；F=h=g1时c−1/4、b=−(2e³+1)/6，完整六列Gram由G9(e)=16e9−108e8+36e7−15e6+18e4−1的至多九根确定。该结果只给完整必要归约；继续同一原曲线的2+1/两值实现及未用的完整N/最高系数，不能将一般Gram当物理解。非零Hp、三约化H与ess4/5均仍开。
+**[2+1非退化H、约化V、Hp0的原九次Gram候选](results/R150-appendix-rank-three-double-plus-single-second-cumulant-zero-hp-nine-gram-candidates.md)：** 全部立方相位及Cw0由原N(u)/N(v)排除，只剩D=−C；F=h=g1时c−1/4、b=−(2e³+1)/6，完整六列Gram由G9(e)=16e9−108e8+36e7−15e6+18e4−1的至多九根确定。此为必要归约，仍须原曲线实现及剩余N/最高式。非零Hp已闭；三约化H与ess4/5仍开。
 
 ## 2. R271：同一来源的完整物理费用
 
