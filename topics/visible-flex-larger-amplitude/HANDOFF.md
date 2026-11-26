@@ -6,7 +6,7 @@
 
 最近规则核查：2026-11-26 17:49:44 UTC，真实pull/rebase至 `4ef11ccb1c1510bced9f7ebaac624248dae9c544`，双README相对`76d1f7385a28fcd11f3bc3c38e146f35124f6736`无差异，授权及规矩继续执行。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
 
-科学计算仅本公开仓库Actions；执行偏差见[早前记录](notes/2026-11-20-public-actions-execution-correction.md)及[四次大JSON整读纠正](notes/2026-11-26-large-file-connector-read-correction.md)。root唯一分支写者；结论即普通推，NFF立即rebase循环，不强推。每次pull核双README差异并遵新规，至少每小时，记commit。raw只scratch/runner，不入Git/Release/artifact；保完整小源/参数/run/SHA/紧凑结论。题≤200MB、单文件<5MB、MD<100KB、H<10KB、open<30KB。令牌仅瞬时CLI。终端迁移中于17:55 UTC失联，未提交新参数仅留0-byte文件；最后真实pull仍见上文。当前云API读742682665aa401f32bc0c71b603c48c99f4a50fb双README blob与4ef11相同；API普通快进补刊，未伪称新pull。
+科学计算仅本公开仓库Actions；执行偏差见[早前记录](notes/2026-11-20-public-actions-execution-correction.md)及[四次大JSON整读纠正](notes/2026-11-26-large-file-connector-read-correction.md)。root唯一分支写者；结论即普通推，NFF立即rebase循环，不强推。每次pull核双README差异并遵新规，至少每小时，记commit。raw只scratch/runner，不入Git/Release/artifact；保完整小源/参数/run/SHA/紧凑结论。题≤200MB、单文件<5MB、MD<100KB、H<10KB、open<30KB。令牌仅瞬时CLI。终端迁移中于17:55 UTC失联，未提交新参数仅留0-byte文件；最后真实pull仍见上文。当前云API读0110f2e1e52202d0a306c91a8d2e27473365080f双README blob与4ef11相同；API普通快进补刊，未伪称新pull。
 
 
 目标：同一固定g、闭连通C²嵌入、全t强C²连续；固定有内点H且diamH≥.2D、整像δhold≥.2D、含反射δE>0；全t reach≥.03D、整面relative metric≤1e−6；固定g/参数/范围的真实mesh和频率精化至机器或原求解容差，多t可复现网格，准确说明严格存在缺口。D为完整F0直径。R248准确相位恒等式处理全t，不新增独立t插值门。有限误差/开放片/障碍不完成。
@@ -41,7 +41,7 @@
 
 ## 已刊工具与未付目标
 
-[R700六jet控制](results/R700-integral-so3-full-sixjet-control.md)是固定有限M/正rho、全core/H的径向网格无关界，非实际余量或M一致界。[完整QR](notes/2026-11-26-complete-so3-integral-qr-coordinate-interface.md)49a1已刊未跑，仅真实234ac/7f布局，不冒zero/R696/gamma兼容；原Cholesky已成功，当前不换范数。[η尾分析](notes/2026-11-26-eta-tail-input-scope-and-same-target-height-direction.md)证明η0回到原线性唯一性判据、任意固定η>0仍非L1；本轮保原目标。连续cert源已刊未跑；必须先得到真实合格候选，再付完整922胞/全尾/浮点/隐式费用及同g实际精化。研究尚未达到README全部完成标准，继续工作。
+[R700六jet控制](results/R700-integral-so3-full-sixjet-control.md)是固定有限M/正rho、全core/H的径向网格无关界，非实际余量或M一致界。[完整QR](notes/2026-11-26-complete-so3-integral-qr-coordinate-interface.md)49a1已刊未跑，仅真实234ac/7f布局，不冒zero/R696/gamma兼容；原Cholesky已成功，当前不换范数。[R704η尾](results/R704-eta-tail-uniqueness-scope-and-fixed-control-bounds.md)证明η0回到原线性唯一性判据、任意固定η>0仍非L1；本轮保原目标。连续cert源已刊未跑；必须先得到真实合格候选，再付完整922胞/全尾/浮点/隐式费用及同g实际精化。研究尚未达到README全部完成标准，继续工作。
 
 <!-- visible-larger-parallel-03:start -->
 并行公开Actions03：[run 45820592817/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45820592817)；[实际记录](notes/2026-11-26-public-actions-45820592817-1.md)。阶段`followup_budget_checkpoint`/failed；已返36，exit=未返。
