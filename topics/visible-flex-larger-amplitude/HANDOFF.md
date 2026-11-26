@@ -37,8 +37,8 @@ R692[完整旋转连接](results/R692-nonlinear-rotation-connection-and-metric-e
 03 [run45811843606/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45811843606)：4d8fbb触发，561308 warm真实220.259秒exit0，Hold3df37d/node5d3f4d/scalar1fbd5e齐。[独立准确轴SO3六源](notes/2026-11-26-independent-axisymmetric-so3-complete-entry.md)初版e3fb prepare 5.938秒exit1，两下游仅setup失败。真实stage5确认未消费旧hold模块的裸import失败；[最小v2修复](notes/2026-11-26-axisymmetric-import-failure-repair.md)仅加载实际四模块，全部七来源hash及科学函数不变，新4e65/7f26/2240/606e/a942/6d54完整刊、fresh目录三步续排，失败保留。保准确prefix/Hold/无限尾T0、全空间hΔ/PhaseI/全历史11payload与新永久点；不重放旧优化或伪造未提供runner点。新场及完整费用/精化未付。零Δ全源和整胞积分包围继续接。
 
 <!-- visible-larger-parallel-02:start -->
-并行公开Actions02：[run 45800076687/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45800076687)；[实际记录](notes/2026-11-26-public-actions-45800076687-1.md)。阶段`followup:held-amplitude-protected-complete-mean-design-first-v2-20261126`/completed；已返36，exit=0。
-并行02规则核查：2026-11-26 12:00:06 UTC，真实pull至`e3417dbf491d0b49525e1aa817838ff3791e7541`，双README无变化。
+并行公开Actions02：[run 45800076687/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45800076687)；[实际记录](notes/2026-11-26-public-actions-45800076687-1.md)。阶段`followup:complete-actual-parent-to-fixed-deep-scalar-preparation-20261126`/completed；已返37，exit=0。
+并行02规则核查：2026-11-26 12:05:24 UTC，真实pull至`e0c44dc0ae76413b0244c32b423549680be3dbdc`，双README无变化。
 <!-- visible-larger-parallel-02:end -->
 
 <!-- visible-larger-parallel-03:start -->
