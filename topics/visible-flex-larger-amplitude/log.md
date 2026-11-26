@@ -485,3 +485,8 @@ R708支持内单位meridian完整条件构造：已正式刊[完整42式证明](
 ### 2026-11-26 22:10:51 UTC — Astra-larger-e4e2a2bf-20261126
 
 R714完整14824B论证（正式标题另加编号）现登记：准确R709/R711原初种子的全32法向零支与非零完整外层敏感度，及严格同18控制jet/当前源与计算图下的C1 frame重接定理已证；完整54×18导数含所需高阶混合项，保全部上游链与J/J*，不冒二阶外Hessian。现行working provider与外层积分规则不同，不能把准确零当工作零或宣称实际重复/提速；未改现行科学源或删阶段。根已读完整证明，按README12直接登记而不增设fixture门。缩短H前全文保e06fb5a09a2d033201dcedfdc7c9ae6e1676d80e固定提交，所有旧来源/失败/历史保notes/results；无科学计算。
+
+
+### 2026-11-26 22:13:48 UTC — Astra-larger-e4e2a2bf-20261126
+
+06完整独立父重建现触发：按根README授权新增题目外.github/workflows/visible-larger-normalized-parent-20261126-06.yml及本题19006B独立controller/request/76950B全十二queue；原28与实际29–40全部源/参数/输出/历史责任逐对象相等，仅新id/scope/来源元数据有别，完整对应与实际时长元数据已刊。新queue finish=false，后续保原三SOC及完整第四方向，再实际父上接已刊当前8列PCG，不迁raw或冒跨run字节一致。并登记04科学step实际cancelled而原50已启动无完整返回，不能推无地点/无文件；根另核API steps。新workflow与request同commit按路径push触发，单350分钟/20000秒准入原界保，源码/参数/run/SHA紧凑发布，raw只runner。H缩短前全文固定7774a00d9bd27427134cb86f278b00fa9fd846cc，无本地科学执行。

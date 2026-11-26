@@ -1,0 +1,243 @@
+{
+  "schema": "run06-input-regeneration-actual-duration-metadata-v1",
+  "scope": "Arithmetic on actual subprocess duration metadata only; no scientific field/array computation. Publication, startup, idle waits and future preparation costs are not included or guaranteed.",
+  "run04_id": "45857104277",
+  "source_public_volumes": [
+    {
+      "path": "notes/2026-11-26-public-actions-45857104277-1-part-001.md",
+      "git_blob": "d3c86f9b46b6fc92d7882376542ccd730d273339"
+    },
+    {
+      "path": "notes/2026-11-26-public-actions-45857104277-1-part-002.md",
+      "git_blob": "0f146e29fe8abf914eb864fd304729000fd85707"
+    },
+    {
+      "path": "notes/2026-11-26-public-actions-45857104277-1-part-003.md",
+      "git_blob": "c0d7d1c3dd3a71053a677545e7790bc31326ca00"
+    },
+    {
+      "path": "notes/2026-11-26-public-actions-45857104277-1-part-004.md",
+      "git_blob": "c33113b0841d32cbfa030e8250c14e0154778cb6"
+    },
+    {
+      "path": "notes/2026-11-26-public-actions-45857104277-1-part-005.md",
+      "git_blob": "3b92cd5f5587f1aa5e7a53be5c972551de45e2a0"
+    }
+  ],
+  "actual_reconstruction_stage_seconds": [
+    {
+      "original_stage": 1,
+      "name": "warm",
+      "seconds": 200.20862340500003
+    },
+    {
+      "original_stage": 2,
+      "name": "af89",
+      "seconds": 8.329757884000003
+    },
+    {
+      "original_stage": 3,
+      "name": "e8",
+      "seconds": 68.35623062299999
+    },
+    {
+      "original_stage": 4,
+      "name": "carrier",
+      "seconds": 2.3816918219999934
+    },
+    {
+      "original_stage": 5,
+      "name": "position_parameters",
+      "seconds": 0.7071826700000088
+    },
+    {
+      "original_stage": 6,
+      "name": "2038",
+      "seconds": 128.14219731099996
+    },
+    {
+      "original_stage": 7,
+      "name": "def1",
+      "seconds": 283.66125608699997
+    },
+    {
+      "original_stage": 8,
+      "name": "6077",
+      "seconds": 150.805043706
+    },
+    {
+      "original_stage": 9,
+      "name": "v4b_12",
+      "seconds": 246.24493342100004
+    },
+    {
+      "original_stage": 10,
+      "name": "13ce",
+      "seconds": 318.676252513
+    },
+    {
+      "original_stage": 11,
+      "name": "e19",
+      "seconds": 25.36725576799995
+    },
+    {
+      "original_stage": 12,
+      "name": "0241",
+      "seconds": 133.184423595
+    },
+    {
+      "original_stage": 13,
+      "name": "positions_0241",
+      "seconds": 3.329302471999881
+    },
+    {
+      "original_stage": 14,
+      "name": "8d",
+      "seconds": 159.3533541710001
+    },
+    {
+      "original_stage": 15,
+      "name": "positions_8d",
+      "seconds": 3.216210953999962
+    },
+    {
+      "original_stage": 16,
+      "name": "ca367",
+      "seconds": 108.59895020499994
+    },
+    {
+      "original_stage": 17,
+      "name": "positions_ca367",
+      "seconds": 2.3358648739999808
+    },
+    {
+      "original_stage": 18,
+      "name": "077",
+      "seconds": 115.321399746
+    },
+    {
+      "original_stage": 19,
+      "name": "positions_077",
+      "seconds": 2.2770879540000806
+    },
+    {
+      "original_stage": 20,
+      "name": "bede",
+      "seconds": 202.1636336240001
+    },
+    {
+      "original_stage": 21,
+      "name": "positions_bede",
+      "seconds": 3.0380503520000275
+    },
+    {
+      "original_stage": 22,
+      "name": "35f",
+      "seconds": 98.70597640400001
+    },
+    {
+      "original_stage": 23,
+      "name": "positions_35f",
+      "seconds": 1.6445986419998917
+    },
+    {
+      "original_stage": 24,
+      "name": "a04",
+      "seconds": 184.39087824499984
+    },
+    {
+      "original_stage": 25,
+      "name": "positions_a04",
+      "seconds": 2.9690091269999357
+    },
+    {
+      "original_stage": 26,
+      "name": "positions_continue_union",
+      "seconds": 3.043966250000267
+    },
+    {
+      "original_stage": 27,
+      "name": "continue",
+      "seconds": 129.60055873400006
+    },
+    {
+      "original_stage": 28,
+      "name": "positions_continue",
+      "seconds": 2.1720951229999628
+    },
+    {
+      "original_stage": 29,
+      "name": "followup:resume-20261126-reconstructed-complete-manifest-compaction-02-rebuild04",
+      "seconds": 5.9056276789997355
+    },
+    {
+      "original_stage": 30,
+      "name": "followup:resume-20261126-reconstructed-R671-full-phi-actual-mu-02-rebuild04",
+      "seconds": 451.79173151999976
+    },
+    {
+      "original_stage": 31,
+      "name": "followup:resume-20261126-actual-R671-v3-full-phi-continuation-02-rebuild04",
+      "seconds": 471.8101431279997
+    },
+    {
+      "original_stage": 32,
+      "name": "followup:R684-actual-new-physical-mean-metric-p4-first-20261126-rebuild04",
+      "seconds": 340.0515110240003
+    },
+    {
+      "original_stage": 33,
+      "name": "followup:R688-actual-physical-mean-face-PCG-first-20261126-rebuild04",
+      "seconds": 208.25288815600015
+    },
+    {
+      "original_stage": 34,
+      "name": "followup:R688-actual-face-PCG-first-closed-amplitude-observation-20261126-rebuild04",
+      "seconds": 46.363066954000715
+    },
+    {
+      "original_stage": 35,
+      "name": "followup:held-amplitude-protected-complete-mean-design-first-20261126-rebuild04",
+      "seconds": 51.34490755800016
+    },
+    {
+      "original_stage": 36,
+      "name": "followup:held-amplitude-protected-complete-mean-design-first-v2-20261126-rebuild04",
+      "seconds": 446.40976017699995
+    },
+    {
+      "original_stage": 37,
+      "name": "followup:complete-actual-parent-to-fixed-deep-scalar-preparation-20261126-rebuild04",
+      "seconds": 314.25222135400054
+    },
+    {
+      "original_stage": 38,
+      "name": "followup:complete-fixed-deep-scalar-amplitude-first-20261126-rebuild04",
+      "seconds": 709.3039027499999
+    },
+    {
+      "original_stage": 39,
+      "name": "followup:complete-new-SO3-actual-parent-profile-first-20261126-rebuild04",
+      "seconds": 1382.7313890330006
+    },
+    {
+      "original_stage": 40,
+      "name": "followup:complete-actual-parent-SO3-interior-restore-first-20261126-rebuild04",
+      "seconds": 1676.9229785250009
+    }
+  ],
+  "actual_original_44_46_48_seconds": [
+    1994.287288255,
+    2004.633996777,
+    2044.3290403350002
+  ],
+  "actual_sum_first40_seconds": 8693.365913540001,
+  "actual_sum_first40_and44_46_48_seconds": 14736.616238907001,
+  "illustrative_fourth_only_if_cost_like48_seconds": 2044.3290403350002,
+  "illustrative_total_through_fourth_seconds": 16780.945279242,
+  "fourth_actual_cost_claimed": false,
+  "new_eight_column_A_and_Atranspose_preparation_cost_not_measured": true,
+  "controller_admission_seconds": 20000,
+  "job_hard_seconds": 21000,
+  "no_cost_guarantee": true
+}

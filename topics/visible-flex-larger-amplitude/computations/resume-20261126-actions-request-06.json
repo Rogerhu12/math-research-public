@@ -1,0 +1,30 @@
+{
+  "schema": "visible-larger-public-research-request-v1",
+  "request_id": "visible-larger-resume-20261126-06",
+  "rules_read_commit": "3f766c95e204380341c7b562512d935ccfb165ae",
+  "rules_sha256": {
+    "README.md": "581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102",
+    "topics/visible-flex-larger-amplitude/README.md": "3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d"
+  },
+  "recipe": "topics/visible-flex-larger-amplitude/scripts/resume_20261120/rebuild_a04_chain.py",
+  "stop_after": "continue",
+  "followup_file": "topics/visible-flex-larger-amplitude/computations/resume-20261126-followups-06.json",
+  "controller_budget_seconds": 20000,
+  "continuation_purpose": "Reconstruct the complete actual normalized-parent input and all applicable direction/history ancestry in this independent public runner, then continue using the complete current-eight-column full-space PCG with unchanged Phase I, all-row backtracked SOC, original norm/mu/objective and nonlinear gates. No prior raw, numerical cache, report or certificate is transferred. Same-command reconstruction is not asserted byte-identical; each actual source/model/target/carrier/full point and location responsibility must be read from this run. Initial queue stops only at the complete interior parent; finish_when_done remains false for the complete history continuations and new mechanism.",
+  "prior_run_id": "45857104277",
+  "actual_input_reconstruction_only_until_new_source_appended": true,
+  "new_numerical_dependency": {
+    "torch": "2.5.1",
+    "device": "CPU",
+    "dtype_for_new_solver": "float64",
+    "official_install_source": "https://pytorch.org/get-started/previous-versions/"
+  },
+  "restart_reason": "At 22:07:10 UTC the preceding run04 job and scientific controller step were actually completed/cancelled. Its public index still records the original pair admitted at21:49:59, with no complete stage50 return; no partial/full field, new locations or result is inferred absent. Its last complete48/49 returned a801 and accepted full SOC with64-advance iteration limit. This independent job reconstructs all necessary source/parameter ancestry including the full fourth direction, then runs current PCG on its own completed actual parent. No old raw, outcome or exact cross-run location-set identity is synthesized; finite runner time is not mathematical completion.",
+  "controller_derivation": {
+    "parent_controller_sha256": "a0a3d4fd3cee0d43bf35a357ee9f0b891eea4905f0badcf9a27444958fe36646",
+    "changed_only": "independent parallel06 HANDOFF slot and visible labels",
+    "followups_sha256": "3cb1e706ab43dac6e952ce00b41e83055112d2ee65edb37682d1f05e94f2ee3f",
+    "bounded_cleanup_summary_and_before_publication_return_event_retained": true
+  },
+  "execution_status_before_publication": "prepared_only_root_may_publish_and_trigger"
+}
