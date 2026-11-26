@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R150 三约化H退化Gram、Hp0的完整有限相位分类（2026-11-26，已证明）：** [原mean/N/最高值与全六列证明](results/R150-appendix-rank-three-reduced-degenerate-Gram-zero-hp-finite-phase-classification.md)给相位(ω²,ω,ω)、r3=−r2，以及δ²=−4e²（ω1）或−e²（ω非1），2e³=−1；最多18个归一化Gram。全6×6行列式非零，不将H子Gram退化误作矛盾。此为覆盖全部有限/∞源的必要分类，尚非原物理实现或排空。
+
 - **R150 有限H(2+1)/Hp0的两条d一次式与原物理理想相等（2026-11-26，已证明）：** [两条通用多项式身份](results/R150-appendix-rank-three-double-plus-single-zero-hp-two-linear-original-ideal-equivalence.md)将源三次/jet二次改为C_lin/G_lin；保原范数支付A单位，饱和Π不变，不除Ld/Cs或任何新首项。源已启动真实Ke的I*C=1，执行结果独立登记；理想相等不作排空。
 
 - **R150 整个三值互异S0/P1双变量系数零层全空（2026-11-26，已证明）：** [原M4覆盖与完整八维QQ身份](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-P1-zero-coefficients-exclusion.md)保所有λ根/值分配，原Af与L均为全局单位；N(V)定f、P1真实恒零，原E1/EB结果式乘法矩阵8阶满秩且逆乘回1。45真逆，run45813236876/job139886236638、0.070704秒/exit0。剩余S0原解均可合法由P1解f或t，未宣S0整层空。
