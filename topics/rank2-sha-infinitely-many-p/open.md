@@ -50,6 +50,8 @@ R921实际残余H¹的提升L/连接C及 j*=diag(u,0)、cor=diag(0,1)、βm(C)=�
 
 [原Artin场整场regularity核查](notes/2026-11-26-original-artin-field-fine-selmer-regularity-obstruction.md)用R806实际H⊃K(17^(1/6))及原两点，在Fp=H K(E0[p])上给fine H¹及H²至少二维；因此该Fp的整场purely-local-type输入过强且不成立。这个weight-one排除不投影成最高lambda的H²非零，不能代替指定分量。
 
+[新Heegner文的实际角色核查](notes/2026-11-26-heegner-modularity-and-original-thirteen-character.md)：Du §2.7的二次genus系数被pro13惯性固定，原R814三份chi却含同一非平凡alpha逆；经K上等变对应直接投到原chi所得为零。AJ模性与实高度不付指定ordinary非零；该排除不借新文的正面主定理。
+
 继续的实质输入：同原c1非零、ordinary局部及s=0和无穷p。新文献须实际匹配指定循环/角色/通常Selmer；[原文范围核查](notes/2026-11-26-global-7d29.md)保Castella、Wan–Xiang–Xu、Scavia等的真实条件，不能拿解析秩一或已假设Sha有限的定理闭合本题。
 
 ## 第三实际门：同 P/R/S 的完整有限类与真实后页
