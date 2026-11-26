@@ -54,8 +54,8 @@
 
 
 <!-- visible-larger-parallel-06:start -->
-并行公开Actions06：[run 45904402595/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45904402595)；[实际记录](notes/2026-11-26-public-actions-45904402595-1.md)。阶段`followup:R684-actual-new-physical-mean-metric-p4-first-20261126-rebuild06`/completed；已返32，exit=0。
-并行06规则核查：2026-11-26 23:47:06 UTC，真实pull至`605a13e41a54427ec9031796a39208dd1eb471cc`，双README无变化。
+并行公开Actions06：[run 45904402595/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45904402595)；[实际记录](notes/2026-11-26-public-actions-45904402595-1.md)。阶段`followup:R688-actual-physical-mean-face-PCG-first-20261126-rebuild06`/completed；已返33，exit=0。
+并行06规则核查：2026-11-26 23:51:28 UTC，真实pull至`997b1da0b8c770e42a122e5fd9818ef11fd1776e`，双README无变化。
 <!-- visible-larger-parallel-06:end -->
 
 <!-- visible-larger-parallel-07:start -->
