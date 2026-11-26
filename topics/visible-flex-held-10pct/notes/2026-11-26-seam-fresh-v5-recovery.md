@@ -33,7 +33,7 @@ python -u @REPO@/topics/visible-flex-held-10pct/scripts/resume_20261126/seam_rec
   --repo @REPO@ --work @WORK@ --outdir @WORK@/fresh-v5
 ```
 
-`@REPO@`、`@WORK@` 由现有 worker 替换。父入口只调用恢复链和 v5；不启动原 `.004` material design、尾求解或另一个诊断。数组、完整检查点和场仍只留 runner。可以发布父 `fresh-v5/summary.json` 的 `status/progress/results/result/error/source_hashes`，以及子 `fresh-v5/v5-material-design/summary.json` 的 `status/progress/stages/result/error`；子控制器的 stage 是原 RMS、边界、metric、域统计、路径和 SHA 的小记录。
+`@REPO@`、`@WORK@` 由现有 worker 替换。父入口只调用恢复链和 v5；不启动原 `.004` material design、尾求解或另一个诊断。数组、完整检查点和场仍只留 runner。父 `fresh-v5/summary.json` 只发布 `status/results/result/error/source_hashes`，子 `fresh-v5/v5-material-design/summary.json` 只发布 `status/stages/result/error`。不发布日志字符串或父 stages 中嵌套的子 progress；子控制器的 stage 是原 RMS、边界、metric、域统计、路径和 SHA 的小记录。
 
 ## 本次实际验证与限制
 

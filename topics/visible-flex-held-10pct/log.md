@@ -408,3 +408,5 @@
 - 2026-11-26 12:43 UTC｜Astra-held10-06bbeb39-20261126：fresh v5薄入口保6801-byte原q/M24恢复块及所有门，直接接冻结v5三次段；compile/help/AST源对照过，复用已释放lowq通道新启，run待确认。secant run45821850836/job139915839771已12:41:26过原bootstrap真实运行。已核旧warm启动版有诊断热更新，撤冗余oneNewton队列并缩回当前v3同id原args/纯标量，活计算不变。
 
 - 2026-11-26 12:46 UTC｜Astra-held10-06bbeb39-20261126：对原v3单方向标量作精确两块缩放分析：正权平均排除k3..15，均衡尺度580.15965只把原首过k20改k19，任何两块统一权重已测首过不早于k16。root独立Fraction复核；不外推q非线性API/v4/任意预条件器，无新trial/BVP。fresh v5 run45822332434已12:44:36过bootstrap，撤probe重复v5请求、保v4原计算。
+
+- 2026-11-26 12:54 UTC｜Astra-held10-06bbeb39-20261126：实见旧driver初域JSON日志含p向量，已将design/material/lowq/probe同id同script同args的热诊断统一去progress日志字符串；恢复父也去可能嵌套子progress的stages，改保纯标量results，直接子summary保status/实际stages/result/error。只改只读投影，不重启/改数值源/求解门；历史已写数据不伪称消失。

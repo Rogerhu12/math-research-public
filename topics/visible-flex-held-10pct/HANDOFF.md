@@ -6,7 +6,7 @@
 
 连通闭C²嵌入、C²连续族；H闭、有内点且diamH≥.2D，整像δhold≥.1D、含反射δE>0，全时reach≥.03D。固定完整g/物理数据/时间范围加密到完整metric≤1e−6并持续下降。必须实际闭合和共用Cartesian两jet；λ<1不提供准确圆弧H。
 
-- 公共已完整读规则并真实pull：`219b262a7525f1398636e26e00f56c5d5830810c`；私有根README/QUEUE接手登记已推 `2f68946f2fa3e192a291c7c1393231af1a89953e`。每次pull核双README差异，至少每小时一次。root独占git，逐结论push，NFF立即pull --rebase再推，禁force；令牌只命令行。
+- 公共已完整读规则并真实pull：`0172e15e12af2c0b080a4b4d0011d031ccc64507`；私有根README/QUEUE接手登记已推 `2f68946f2fa3e192a291c7c1393231af1a89953e`。每次pull核双README差异，至少每小时一次。root独占git，逐结论push，NFF立即pull --rebase再推，禁force；令牌只命令行。
 - 当前部分克隆`/tmp/held10-astra-06bbeb395471-public4`；11:21断开内容已以0a872e46保存，终端恢复后只用Git。[接手来源](notes/2026-11-26-resume-and-current-sources.md)。
 - [70源恢复](notes/2026-11-26-tail-source-recovery.md)保原输入/门，不计新结论。
 - [material run45763361623](https://github.com/Rogerhu12/math-research-public/actions/runs/45763361623)已于11:13:59 UTC因原worker5.5小时自限中断.75（最后norm2.55），无第三包；[终态](notes/2026-11-26-recorded-tail-worker-interruption.json)。历史λ.004独立尾[.25](notes/2026-11-26-recorded-lambda004-tail-factor025-actual.json)/[.5](notes/2026-11-26-recorded-lambda004-tail-factor050-actual.json)原audit已过，但原prefix metric未门；转新实际候选full-DN。
