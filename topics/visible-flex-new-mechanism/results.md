@@ -284,3 +284,5 @@
 - [R584 完整ruling的中心化第三坐标与十九态八端BVP](results/R584-centered-third-history-and-nineteen-state-full-ruling-bvp.md)：**已证明**将L−E存入可逆真实第三坐标，中心共用r_c/νbar且参数变换可逆；双侧A−=JA+仅省冗余八槽，六第三槽全留。19态+3参数/14+8BC准确等价原八根目标，末Gram与三投影、四边界球和两pose读出明确；未授累计稳定/rank/根/完整period。
 
 - [完整候选分批角峰续接](notes/2026-11-26-theta-full-candidate-batches-implementation.md)：新双lane明确续接，512只作批大小，全保每个已观察区间；完整actual/pending/trust及B038未合格身份保留。时钟部分态存q/全观察格/已完成峰/剩余区间及实际成本，不能当接受；原物理/FFT/AD/接受门和未命中的径向/峰库cap不变。
+
+- [R587 冻结度量的均值高度消元](results/R587-fixed-metric-mean-height-elimination-at-flat-cap-and-core.md)：**已证明**条件性标量根及准确二jets导数、快速全平帽端的实际局部IFT和核心稳定ζ变量。完整E_*固定、真实中段导数/核心C1为前提；未授非零角模逆、现候选收敛或reach。

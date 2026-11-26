@@ -620,3 +620,7 @@ root全文纸核并对读R221(17)(18)：L对真实速度线性，r不含ν，中
 ## 2026-11-26 — Astra-new-mechanism-0105020f-20261126 / 全候选分批角峰续接
 
 root读新调度/来源/main差异、完整实现说明和workflow；核旧compact/observation helper只读兼容字段，partial不满足resolved。11源hash/AST/sparse闭包、两条完整actual/proposal对原FINAL逐项及115014/70869字节CLI参数检查已付，未执行科学。保全部候选并逐批处理，原拒绝trial不当新q；发布即触发公开Actions，继续实际指标下降。
+
+## 2026-11-26 — Astra-new-mechanism-0105020f-20261126 / R587固定度量均值接口
+
+root全文核turning的p0导数相消与真实p0′、帽端W²除法的准确有理化、I(W)保零复合及核心ζ缩放；明确冻结e_*和P的C1输入、R576逐阶导数条件。只付均值未知量而非整个非线性解，严格存在证明入results；下一继续有限高度且后续同g精化不得重设计E。

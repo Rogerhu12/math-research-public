@@ -203,3 +203,7 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 ### R582：实际圆核背景的准确全平尾列
 
 [R582](results/R582-actual-circular-tail-flat-kernel-and-resonant-entry.md)直接取原circle stage0的真实17q及盒，准确权P=z_s r⁸/(a_s²s_u)、ε=12r_u²/r²；u≥1000证明a_s<0/z_s>0，log(P/P0)二jets严格小，保160号起始cell与原DtN常数，得到唯一标量全平j2核。原β有限末多项式缺此列，现可用真实端核换基；实际DtN/端jets必须按新权求，不能挪旧浮点值。中段z_s=0须原undivided方程、Ccore=0/Acore≠0仍需调实际背景，有限分支和主几何全部继续。
+
+### R587：固定同一度量时的均值高度未知量
+
+[R587](results/R587-fixed-metric-mean-height-elimination-at-flat-cap-and-core.md)给固定完整E_*而非节点表后的准确均值斜率根T_r(p0)=1及p0′二jets式。中段须实际验证T_p非零和正性；R583快速全平类在帽端令p0=−W+Wλ、除W²准确有理化，普通IFT给真实快速全平小根。导数一致核心条件及e_*/P的C1输入下，p0=−W+ζ/W给非退化核心根；这些假设不由当前有限候选自动满足。下一在真正候选上冻结完整g并继续非零角残差，均值消元不授高模逆、加密收敛或连续reach。
