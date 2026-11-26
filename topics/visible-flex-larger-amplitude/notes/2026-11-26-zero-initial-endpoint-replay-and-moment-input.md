@@ -168,3 +168,20 @@ $$
 纯输入文件路径可绕开将来已失的runner诊断报告，但必须带同一完整file SHA和definition SHA，并经同一结构、对称和来源验证。实际report路径则必须是精确26b094及原失败434132。两条入口在同一definition中包含全部18字和同base/目标/支撑身份；不放宽为任意未绑定报告。代码仅用stdlib JSON、AST和字节/字面检查，不调用numpy、torch、moment、inverse、F、root、J或Jtranspose；原科学方程未在此执行。
 
 执行环境恢复后，完整源的AST/compile和重复literal-key检查已经真实完成。新18字的公开返回尚未读到，不预填数值或参数哈希；实际返回后立即登记，再接完整新算子/driver/reader。
+
+## 9. 实际阶段16的全部18个参数已返回并冻结
+
+公开03b阶段16纯4dc3读取已真实返回，6.0168301749999955秒、exit0，source commit `2e23880dcb37095f05e9636714a7e8fae2e32e79`，summary errors和missing outputs为空。原runner参数输出 `dc65726b72d13c6871be5d00c20999e422ed26ce5cd0a7a19ec7f200b910c75a` 为9353字节；全部18hex、六支撑字符串、原base9d4ccb/ref0f042/profile6ffc身份均已真实投影。
+
+[完整新控制参数](../computations/frozen-zero-moment-Q-actual16-parameters.json)逐字复制全部18个hex和六支撑字符串，没有将它们转换成小数或再算一次moment/inverse；其完整definition SHA再次精确匹配实际返回 `05dc5ed735db9860ae745eeb4caecde142111ff13f40b33bd8e29701039b968e`。这是新的紧凑公开序列化，file SHA为 `df11d8a4b36eb9ce113b5961863191c9b58cb2473af9c48e1714026041a42e2c`、3618字节；不冒称原9353字节输出的逐字副本。原116KB诊断、场、Newton数组仍留runner；这18个数是后继真正采用的固定数学输入，不能随自由点变化。
+
+| 矩阵/行 | 第0列hex | 第1列hex | 第2列hex |
+|---|---|---|---|
+| Q0 / 0 | `0x0.0p+0` | `-0x1.f54b784ca956ap-1` | `0x0.0p+0` |
+| Q0 / 1 | `0x1.972524c4f8e87p+0` | `0x0.0p+0` | `-0x1.e6c4f7d8b8182p+0` |
+| Q0 / 2 | `0x0.0p+0` | `0x1.956cca02ca83bp-3` | `0x0.0p+0` |
+| Q1 / 0 | `0x0.0p+0` | `-0x1.7be87d3213c4cp-1` | `0x0.0p+0` |
+| Q1 / 1 | `0x1.03bb57b63d53dp-1` | `0x0.0p+0` | `0x1.41266339b41f3p+1` |
+| Q1 / 2 | `0x0.0p+0` | `-0x1.3dc38eaa8f3a4p-1` | `0x0.0p+0` |
+
+所有禁位均为实际准确零，完整反射结构保持。F、endpoint root、J/Jtranspose调用均0；输入冻结本身不是新根返回或连续逆认证。首个完整moment求解继续走同一26b094真实trace，并显式加已返回definition SHA；公开参数file路径留给后继重建，必须核其独立file SHA和相同definition SHA。

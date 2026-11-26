@@ -1,0 +1,99 @@
+{
+  "schema": "frozen-zero-endpoint-moment-Q-input-v1",
+  "definition": {
+    "schema": "literal-two-bubble-endpoint-Q-v1",
+    "Q0_binary64_hex": [
+      [
+        [
+          "0x0.0p+0",
+          "-0x1.f54b784ca956ap-1",
+          "0x0.0p+0"
+        ],
+        [
+          "0x1.972524c4f8e87p+0",
+          "0x0.0p+0",
+          "-0x1.e6c4f7d8b8182p+0"
+        ],
+        [
+          "0x0.0p+0",
+          "0x1.956cca02ca83bp-3",
+          "0x0.0p+0"
+        ]
+      ],
+      [
+        [
+          "0x0.0p+0",
+          "-0x1.7be87d3213c4cp-1",
+          "0x0.0p+0"
+        ],
+        [
+          "0x1.03bb57b63d53dp-1",
+          "0x0.0p+0",
+          "0x1.41266339b41f3p+1"
+        ],
+        [
+          "0x0.0p+0",
+          "-0x1.3dc38eaa8f3a4p-1",
+          "0x0.0p+0"
+        ]
+      ]
+    ],
+    "exact_relative_bubble_nodes": [
+      [
+        "1/32",
+        "1/4",
+        "15/32"
+      ],
+      [
+        "17/32",
+        "3/4",
+        "31/32"
+      ]
+    ],
+    "fixed_scalar_metric_identity_sha256": "6ffc1f7fc1e6196318dc27da22b6c9ffda3ee64e81223a4c815f6348cf5baebb",
+    "initial_reference_bundle_sha256": "0f0424cc7403d0ffbca22490fc9d0bc154c52c356278a800553528e77fc386c1",
+    "base_model_identity_sha256": "9d4ccb16efe9a0c0f5b077c0e8919e76d1d04b06e669588b32e2de78c92f0258",
+    "trace_report_sha256": "26b094fef8baf6ff2ecdda5d1a0f5a8be7383e5171733320be959a22d83cb47e",
+    "trace_source_sha256": "73193414b094c05c9d8ce1dd033aab6a18446a88a5d7c4a6f352fcbcd966fb54",
+    "trace_original_model_identity_sha256": "29f540c6fc265b977a388813dcd0d3faddfd48fd06d40c7f6c4bcae5c848281b",
+    "trace_initial_full_point_sha256": "cd530c070cfa54f122f19fe16e9b312e360f93e072496e445d1cc6c36973c0b3"
+  },
+  "definition_identity_sha256": "05dc5ed735db9860ae745eeb4caecde142111ff13f40b33bd8e29701039b968e",
+  "provenance": {
+    "binding_source_sha256": "4dc3e1a8ba8f128e1d05176f4d0f4b18c62d278fed603cc46f7ed686f6e4e611",
+    "actual_trace_report": {
+      "sha256": "26b094fef8baf6ff2ecdda5d1a0f5a8be7383e5171733320be959a22d83cb47e",
+      "bytes": 116138,
+      "source_commit": "04743ac7205bac04dca95b220353c81e2cc609cb",
+      "github_run_id": 45820592817,
+      "run_attempt": 1,
+      "stage": 15
+    },
+    "actual_failed_report": {
+      "sha256": "4341323c805a3e4f38c20c6e5264e9875b8b717082793ece982c029f488ed744",
+      "bytes": 81697
+    },
+    "actual_pure_extraction": {
+      "github_run_id": 45820592817,
+      "run_attempt": 1,
+      "stage": 16,
+      "source_commit": "2e23880dcb37095f05e9636714a7e8fae2e32e79",
+      "source_sha256": "4dc3e1a8ba8f128e1d05176f4d0f4b18c62d278fed603cc46f7ed686f6e4e611",
+      "original_runner_parameter_file_sha256": "dc65726b72d13c6871be5d00c20999e422ed26ce5cd0a7a19ec7f200b910c75a",
+      "original_runner_parameter_file_bytes": 9353,
+      "summary_errors": []
+    },
+    "literal_selection": "Copy every one of the eighteen actual stage-16 scalar hex leaves and all six exact support strings without conversion or rounding.",
+    "current_free_variables_never_recompute_Q": true,
+    "working_matrix_is_exact_true_endpoint_right_inverse_claimed": false,
+    "original_root_or_field_success_inherited": false,
+    "true_moment_error_or_uniform_IFT_certified": false,
+    "new_control_parameters": 18,
+    "raw_scientific_field_arrays_copied": false,
+    "field_calls": 0,
+    "endpoint_root_calls": 0,
+    "J_calls": 0,
+    "Jtranspose_calls": 0,
+    "public_file_scope": "Complete necessary new fixed control parameters; new serialization with compact public provenance, not a byte reconstruction of the original runner parameter output or its raw trace."
+  }
+}
