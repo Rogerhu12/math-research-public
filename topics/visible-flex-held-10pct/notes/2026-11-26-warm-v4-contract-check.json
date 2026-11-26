@@ -1,0 +1,134 @@
+{
+  "scope": "Small executed v4 core/parameter check; no BVP or accepted field is made.",
+  "synthetic_only": true,
+  "BVP_invoked": false,
+  "accepted_BVP_field": false,
+  "modes": 24,
+  "rows": [
+    {
+      "homotopy": 0.002,
+      "literal_zero_core_identity": {
+        "F": true,
+        "Ft": true,
+        "Ftt": true
+      },
+      "actual_phase_scale_max_error": 3.0357660829594124e-17,
+      "derivative_checks": [
+        {
+          "column": 0,
+          "max_absolute_two_jet_error": 1.1085217943226922e-10
+        },
+        {
+          "column": 7,
+          "max_absolute_two_jet_error": 2.3258134307369005e-10
+        },
+        {
+          "column": 8,
+          "max_absolute_two_jet_error": 1.3800619674819714e-10
+        },
+        {
+          "column": 23,
+          "max_absolute_two_jet_error": 1.973011753975129e-10
+        }
+      ],
+      "mixture_formula_sample_error": 0.0,
+      "sampled_curvature_column_max": 0.999836040745802,
+      "conservative_third_bound_minus_full_bound_min": 4518.989870068738,
+      "sampled_third_derivative_bound_slack_min": 4518.805794531404,
+      "protected_arc_mixed_column_error": 0.0,
+      "common_prefix_basis_bitwise_equal": true
+    },
+    {
+      "homotopy": 0.5,
+      "literal_zero_core_identity": {
+        "F": true,
+        "Ft": true,
+        "Ftt": true
+      },
+      "actual_phase_scale_max_error": 3.0357660829594124e-17,
+      "derivative_checks": [
+        {
+          "column": 0,
+          "max_absolute_two_jet_error": 1.4309467499806772e-10
+        },
+        {
+          "column": 7,
+          "max_absolute_two_jet_error": 1.4581147400605232e-10
+        },
+        {
+          "column": 8,
+          "max_absolute_two_jet_error": 1.634270496708723e-10
+        },
+        {
+          "column": 23,
+          "max_absolute_two_jet_error": 1.1600903571107324e-10
+        }
+      ],
+      "mixture_formula_sample_error": 0.0,
+      "sampled_curvature_column_max": 0.9590101864504943,
+      "conservative_third_bound_minus_full_bound_min": 4518.989870068738,
+      "sampled_third_derivative_bound_slack_min": 4228.8676142655095,
+      "protected_arc_mixed_column_error": 0.0,
+      "common_prefix_basis_bitwise_equal": true,
+      "nonzero_control_lambda_partial": {
+        "phi_error": 2.479986493941766e-10,
+        "kappa_error": 2.7798219282004766e-10,
+        "phase_cross_term_max": 0.00038715941978305476,
+        "curvature_cross_term_max": 0.01378974760629565
+      }
+    },
+    {
+      "homotopy": 1.0,
+      "literal_zero_core_identity": {
+        "F": true,
+        "Ft": true,
+        "Ftt": true
+      },
+      "actual_phase_scale_max_error": 3.0357660829594124e-17,
+      "derivative_checks": [
+        {
+          "column": 0,
+          "max_absolute_two_jet_error": 3.0955843444147035e-10
+        },
+        {
+          "column": 7,
+          "max_absolute_two_jet_error": 2.3399210347108124e-10
+        },
+        {
+          "column": 8,
+          "max_absolute_two_jet_error": 2.542089871937492e-10
+        },
+        {
+          "column": 23,
+          "max_absolute_two_jet_error": 1.854411069146522e-10
+        }
+      ],
+      "mixture_formula_sample_error": 0.0,
+      "sampled_curvature_column_max": 0.9180203729009885,
+      "conservative_third_bound_minus_full_bound_min": 4518.989870068738,
+      "sampled_third_derivative_bound_slack_min": 3908.0351169925248,
+      "protected_arc_mixed_column_error": 0.0,
+      "common_prefix_basis_bitwise_equal": true,
+      "endpoint_nonzero_geometry_bitwise_equal_to_v3": {
+        "F": true,
+        "Ft": true,
+        "Ftt": true,
+        "phi": true,
+        "kappa": true,
+        "kappa_u": true,
+        "kappa_uu": true
+      },
+      "lambda_one_protected_curvature_error": 5.551115123125783e-17,
+      "reflection_roundoff": 6.46455545344482e-18
+    }
+  ],
+  "seconds": 4.124648748009349,
+  "source_sha256": {
+    "/tmp/held10-astra-06bbeb395471-fixed-rebuild/v4/check_warm_v4_contract.py": "dbdc4a4f163c2d88a9e3f34950f300278a76d05177df603e307262f2155fbfda",
+    "/tmp/held10-astra-06bbeb395471-public3/topics/visible-flex-held-10pct/scripts/resume_transfer/material_flattened_support_core.py": "1d655f2bdad53e1d320c1115a9873abe399a9b7ba930722c415d02dedb9b1f20",
+    "/tmp/visible-flex-6a65e705/math-research-public/topics/visible-flexible-closed-surface/notes/fixed_metric_mode3_core.py": "a529904e265ddc95635c6c6601ea173eb0e1383a75e458d3eaee024fe7078ead",
+    "/tmp/held10-astra-06bbeb395471-fixed-rebuild/v4/warm_homotopy_core_factory_v4.py": "f303897c231639b2dd68854d7bf37cc8862eea4e52b468d5be84c856e84fbcb5",
+    "/tmp/held10-astra-06bbeb395471-fixed-rebuild/v4/warm_supported_core_factory.py": "9192499334d9f8603c812cd95964cc660a065132a82ce240fe2331f64c9b14dc",
+    "/tmp/held10-astra-06bbeb395471-public3/topics/visible-flex-held-10pct/scripts/resume_20261126/warm_complement_core_factory_v3.py": "84380c0786e04ec87e5b6b17f766d88ce4626fab65ee8460badd99dcd42951f7"
+  }
+}
