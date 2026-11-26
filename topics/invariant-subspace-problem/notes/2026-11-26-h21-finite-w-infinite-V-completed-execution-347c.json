@@ -1,0 +1,109 @@
+{
+  "schema": "isp-h21-finite-w-infinite-V-completed-v1",
+  "ordinary_isp_claim": false,
+  "scope": "rankH3 type2+1, rankV2, Hp0, one V source infinity: essT3 <= 5",
+  "generic": {
+    "elapsed_seconds": 2.218569082000016,
+    "max_child_rss_kib": 96680,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "3d671b1c98f929848e2c437698cece6f8d2e033e",
+        "before": "3d671b1c98f929848e2c437698cece6f8d2e033e",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "fef43bdf8690f2eec4751d85784a266eacdd0322"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-26T10:15:20.880246+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "45799548882",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-347c-20261126",
+    "source_commit": "3d671b1c98f929848e2c437698cece6f8d2e033e",
+    "source_exit_code": 0,
+    "source_git_blob": "72aadb75457c0a7fcfe87186694bebb1710cd67b",
+    "source_sha256": "1c368de6e02f2c98ccfe076583828c98dcf90d235dcbfa468c3eb9326bebe207",
+    "stdout_bytes": 3183,
+    "stdout_sha256": "efec0031ed10ab1c30e5008a1ee1ed5e013b102c20f75a1b6a4c11c479a3f487",
+    "stop_reason": null,
+    "job_id": "139838879254",
+    "source_seconds": 1.841419604,
+    "math": {
+      "nested_s_degrees": [
+        150,
+        117
+      ],
+      "gcd_s_degree": 55,
+      "residual_s_degrees": [
+        95,
+        62
+      ],
+      "prime": 1031,
+      "e": 700,
+      "resultant": 836,
+      "at_execution_scope": "structure only; full theorem now includes field lift and all exceptions"
+    }
+  },
+  "exceptions": {
+    "elapsed_seconds": 0.943870784000012,
+    "max_child_rss_kib": 77140,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "c81ee4f55686ccce58b48538804ca3bf1e8da182",
+        "before": "c81ee4f55686ccce58b48538804ca3bf1e8da182",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "fef43bdf8690f2eec4751d85784a266eacdd0322"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-26T10:31:13.042255+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "45802044010",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-347c-20261126",
+    "source_commit": "c81ee4f55686ccce58b48538804ca3bf1e8da182",
+    "source_exit_code": 0,
+    "source_git_blob": "42fe7a5f4cf944deead5a76fc67760b0a929e758",
+    "source_sha256": "f7c6c7b91c6de8efc266617014fd1e17d5a94bb18a80568b5ab8e69b9dc7707c",
+    "stdout_bytes": 8989,
+    "stdout_sha256": "1858e58e3b80cf35a7502753a0e56209f8c3b7e3c4319f9560385211fe0d422a",
+    "stop_reason": null,
+    "job_id": "139847488013",
+    "source_seconds": 0.63682515,
+    "math": {
+      "QQ_inverse_count": 32,
+      "source_fibers": [
+        {
+          "label": "D8",
+          "removed_a_primary_degrees": [
+            1
+          ],
+          "a_degree": 2,
+          "w_degree": 3,
+          "dimension": 48,
+          "lambda": 0,
+          "determinant": 971
+        },
+        {
+          "label": "D2",
+          "removed_a_primary_degrees": [
+            1
+          ],
+          "a_degree": 2,
+          "w_degree": 3,
+          "dimension": 12,
+          "lambda": 0,
+          "determinant": 748
+        }
+      ],
+      "prime": 1031,
+      "e": 700
+    }
+  }
+}

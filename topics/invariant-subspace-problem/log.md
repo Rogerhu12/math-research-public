@@ -190,3 +190,6 @@ AI-assisted GPT-6 Astra Pro：[阶乘幂、网格与物理矩完整证明](resul
 
 ## 2026-11-26 10:39:16 UTC — Astra-ISP-347c-20261126：U图换短原输入，原l2与数域纤维继续
 AI-assisted GPT-6 Astra Pro：[短输入检查点](notes/2026-11-26-short-original-inputs-checkpoint-347c.md)保旧atlas900秒/exit−9及S0整数除ANP的真实exit1；改独立Gram低次身份和正确数域单位，不改数学条件。共享workflow分离三个短入口、旧入口改手动以免重跑已闭门；l2完整GB与L0/M6原纤维继续执行，未先判空。
+
+## 2026-11-26 10:42:11 UTC — Astra-ISP-347c-20261126：H二重加单点零Hp的V无穷远边界全闭
+AI-assisted GPT-6 Astra Pro：[原尺度与全部异常塔证明](results/R150-appendix-rank-three-double-plus-single-second-cumulant-zero-hp-infinite-V-source-essential-six-exclusion.md)把已成功QQ150/117结构门严格提升，并以48/12维F1范数971/748、32真逆付完异常；s−2降次保留。实际新源0.636825秒/77140KiB/exit0，全文核回原Gram；继续四物理源全有限的完整N/最高系数。

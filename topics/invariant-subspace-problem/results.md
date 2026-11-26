@@ -225,3 +225,5 @@
 - **R271 完整原Gram列的位置能量及公共二阶物理矩（2026-11-26，已证明）：** [原未加权J∞正规式和完整辅助尾](results/R271-appendix-complete-gram-position-energy-and-common-second-hole-moment.md)给√s X≤σ√μ_L并返回同一固定μ_T，∫μ_T ds/s≤1。A=√s‖N²k_T‖在每log窗单一s_L趋零，原全部T幂行/前缀共用；闭域、移动比较头及最高零头母窗全部付清。纯手证，无新计算；未把连续方差、完整列或物理矩当实际Sx、真F0或核清除。
 
 - **R271 原完整源的实际离散方差网格与二阶物理矩（2026-11-26，已证明）：** [原N/Y阶乘幂和含正误差的网格插值](results/R271-appendix-actual-variance-grid-factorial-powers-and-complete-source-hole-moments.md)给Σ_x μ_T(Sx)/x<∞；小比较头m=O(loglogx)支付实际偶x/r3及原最高零头母窗。每物理log窗同一准确Sx使√Sx‖N²k_T‖和整列远尾占据趋零，全部真实幂行/前缀共同控制。纯手证；真F0、准确核修正和完整MP/帽费用仍开放。
+
+- **R150 二重加单点H的Hp0层、V含无穷远源时ess≤5（2026-11-26，已证明）：** [原几何尺度和完整有限塔证明](results/R150-appendix-rank-three-double-plus-single-second-cumulant-zero-hp-infinite-V-source-essential-six-exclusion.md)付全部s−2降次；150/117次QQ结式的95/62余商以157阶836提升到九次域，D8/D2全48/12维塔的F1范数971/748均非零，32个QQ逆逐项回乘。run45802044010/job139847488013、f7c6c7b9、0.636825秒/77140KiB/exit0；接既闭w∞后仅续四源全有限。
