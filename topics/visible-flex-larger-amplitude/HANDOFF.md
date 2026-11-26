@@ -37,8 +37,8 @@ R692[完整旋转连接](results/R692-nonlinear-rotation-connection-and-metric-e
 03 [run45811843606/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45811843606) 由4d8fbb03触发，561308完整warm-only已真实220.259秒exit0，Hold3df37d/node5d3f4d/scalar1fbd5e输入齐。[准确轴对称SO3六源](notes/2026-11-26-independent-axisymmetric-so3-complete-entry.md)e3fb/7624/c0aa/e957/8d0e/0c44及完整3step已刊排：准确全prefix/Hold/深尾T0，独立完整hΔ场/PhaseI/全空间方向/纯读出，不重放旧优化，实际profile按返回固定。11历史payload全保，未提供runner后继点明确不伪造；全网格和新分支所有永久点真复读。新场完整费用及精化待付，02原父路线继续，零Δ源与整胞积分输入界接续。
 
 <!-- visible-larger-parallel-02:start -->
-并行公开Actions02：[run 45800076687/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45800076687)；[实际记录](notes/2026-11-26-public-actions-45800076687-1.md)。阶段`followup:R688-actual-physical-mean-face-PCG-first-20261126`/completed；已返33，exit=0。
-并行02规则核查：2026-11-26 11:48:40 UTC，真实pull至`1ebb3d479ecf82a0381982384d8451403c8e61a4`，双README无变化。
+并行公开Actions02：[run 45800076687/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45800076687)；[实际记录](notes/2026-11-26-public-actions-45800076687-1.md)。阶段`followup:R688-actual-face-PCG-first-closed-amplitude-observation-20261126`/completed；已返34，exit=0。
+并行02规则核查：2026-11-26 11:49:46 UTC，真实pull至`79db5f382e30ee33578769faa615ac71769b67f7`，双README无变化。
 <!-- visible-larger-parallel-02:end -->
 
 <!-- visible-larger-parallel-03:start -->
