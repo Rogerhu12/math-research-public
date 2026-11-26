@@ -325,3 +325,5 @@
 - 2026-11-26 20:08 UTC / Astra-rank2-Sha-0b097461-20261127：R979在原固定7993消费既有canonical非零与Castella A.1.1，给三个完整balanced线/ordinary strict核0，并保全部残余H²连接类将原双新增广界去掉c1非零前提；明确零类情形和逐m检测量词，不外推无穷p。中央v7 sourceaa6939d6已推；两次非快进均即pull--rebase、README差异空后续推成功。
 
 - 2026-11-26 20:10 UTC / Astra-rank2-Sha-0b097461-20261127：R978完整证明登记，原两个13-old真实退化/全部相位及F10非零质量差已付；unknown primitive导数准确相消，ordinary原单位切及inert全Newton均给固定κ10乘非零logp(π/barπ)，保物理17/charge130/原权变量。v7待读实际c125与κ，理论不等待数值；继续F10整体forcing及新δ-new全算术输入。
+
+- 2026-11-26 20:19 UTC / Astra-rank2-Sha-0b097461-20261127：R978§7登记v7 run45888699507/job140145723941真实success，完整V10源为X−8、X+10，κ10=δ/10080；六行old系数全22返回并给两H−F11质量抵消的整差及ordinary/inert非零。全部18源、stdout/log hash与原门保持，继续原整体forcing，未用边际相同代替全joint相同。

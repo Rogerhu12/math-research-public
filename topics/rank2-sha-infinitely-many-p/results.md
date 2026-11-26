@@ -72,4 +72,4 @@
 
 - [R979](results/R979-fixed-7993-full-balanced-line-and-original-double-new-bound.md)：在原固定p=7993消费R817三个实际负二非零及Castella A.1.1，给三个整个Selbal=E·zcan和ordinary strict核0，不把canonical改名原c1。用同格本原z的完整惰性检测及全部H²挠连接类，原同一双新下降在逐m正密度Q_m上满足p^Bκ=0、B=exp H²(C0)_tors+vpD，无需c1非零；深返回仍为H¹(J⊗T)。允许原x12/κ为零，不限制辅助模数，不推出c1、s0或跨p非零。
 
-- [R978](results/R978-original-degree130-old-thirteen-source-and-central-difference.md)：原13-old两个二维块由V10真primitive线的raw π/barπ拉回完整张成，全部division/有限δ0与常数方向/质量相位已付。F10+11Φ*/2=κ10(Ψ125(πz)−Ψ125(barπz))、κ10非零是全函数身份。原共同b17下，ordinary R968射线的导数准确κ10 logp(π/barπ)(1−υp)/17（原权变量另乘p−1）；inert完整Tate恒等给κ10(p+1)logp(π/barπ)/17，对每个充分大好惰性p非零。不能同时置F10与Φ*中央零；F10自身非rank2 primitive，未消mixed。
+- [R978](results/R978-original-degree130-old-thirteen-source-and-central-difference.md)：原13-old两个二维块由V10真primitive线的raw π/barπ拉回完整张成，全部division/有限δ0与常数方向/质量相位已付。F10+11Φ*/2=κ10(Ψ125(πz)−Ψ125(barπz))、κ10非零是全函数身份。原共同b17下，ordinary R968射线的导数准确κ10 logp(π/barπ)(1−υp)/17（原权变量另乘p−1）；inert完整Tate恒等给κ10(p+1)logp(π/barπ)/17，对每个充分大好惰性p非零。不能同时置F10与Φ*中央零；F10自身非rank2 primitive，未消mixed。 §7同次v7真实返回Ψ125的c=−8、Ψ12500的c=10及κ10=δ/10080；两H−F11的真实old质量抵消分别给F10old/270和δΔ12500/1701000，ordinary/inert导数均明确非零。
