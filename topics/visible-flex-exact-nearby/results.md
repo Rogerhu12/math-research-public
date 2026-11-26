@@ -339,3 +339,5 @@
 - [PO：完整96观测逆与真物理参数尾](results/R147-supplement-observation-inverse-for-physical-parameter-tail.md)：只从NP已成raw signed球恢复even nonmean primitive，RW整carrier必要重物化、不重旧配对/残差；mean(H−Id)消外平移而非H(0)，全inverse-density尾/真实PDE误差/原同sign B^-1顺序与两mean保。67当前+4历史完整输入、十二新scalar首次入口已齐，实际inverse门尚待；不授fullν Schur。
 
 - [PAν：strict参数particular的真实selected幅值边框](results/R147-supplement-selected-amplitude-border-for-the-strict-parameter-particular.md)：完整physical amplitude准确微分保分母/角/mean；旧97行到same selected背景的primitive+mean dual差<194·19dϑ<3.454e−7，whole row<18，三个有理比较已过。NP完整误差精确转为D/(ng√q)，新same-trial signed97配对只待actual；不从PO观测恢复未观测幅值，不授νSchur符号。
+
+- [APO：实际完整观测逆与真物理参数高尾](results/R147-supplement-actual-physical-parameter-observation-inverse-and-high-tail.md)：45903437912/1完整12/12、rc0，M96双侧残差<1.330e−43、inverse<9.817；同trial primitive L2/导数<.001579/.006321。true physical high97及原B^-1在同J的高尾<7.321e−5，normalized whole<.171639、joint96error<2.051e−5；完整PDE误差/mean保，不授未观测amp/phase或fullνSchur。
