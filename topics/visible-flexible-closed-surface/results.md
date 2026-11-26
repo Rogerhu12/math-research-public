@@ -5,6 +5,8 @@
 
 ## 新增结论
 
+- [R244：完整物理正规带及保原LM的精确谱界](results/R244-complete-radial-normal-preconditioning-spectrum.md)（2026-11-26）：保全部跨角/跨Cartesian项，以P=JᵀJ+ηS预条件原λS，增广正规谱在[min(1,λ/η),max(1,λ/η)]；λ=η精确白化，λ=0不借正下界。完整实现和新91非零列核均已给出，未称生产非线性接受。
+
 - [R243：同一固定几何的精确角频暖嵌入与真实有限接口核](results/R243-exact-angular-warm-inclusion-and-finite-interface.md)（2026-11-26）：原系数逐字保留、新角通道置零，连续场、完整两jets、对称及端迹严格不变；66个非零系数的独立六jet/完整消费者真核0，原物理normal恢复已核。尚非原M12新场改善或README第5条完成。
 
 - [R242：高次倒面积成本的定量面积正性与临界幂](results/R242-inverse-area-fourth-power-quantitative-coercivity.md)（2026-11-26）：对准确连续成本和已付 Lipschitz/正密度/内扇形常数，q>1 给显式面积比正下界，q=2 常数9/512；q<1有完整光滑秩亏反例。给出新q=2完整J/JT；不把有限训练成本或采样最小值冒连续证书。

@@ -9,9 +9,9 @@
 
 完整连通闭C2嵌入连续族、共同g和固定握持开区域；全曲面D下held/D≥.05、含反射δE>0、全时reach/D≥.03、全域全时metric≤1e−6；同一g与全部物理参数下真正网格/频率/时间加密到机器或求解容差，并给完整可复现网格。基础后继续held/D≥.2、δE/D≥.05或严格存在。现有有限结果不冒完成。
 
-- 根/课题README完整读于 `f0548477576caa2373d1626227a284ccfa9767d0`。最近已读公开提交 `cc49fccd7ec995a4141d1840a212b40481085aa7`（2026-11-26 14:48:30 UTC真实pull/rebase后，双README逐差无变化）。根blob282e86b0、题blob e2318baa。每次literal pull立即核双README差异，至少每小时；有变只读差异立即执行，API读不冒pull。
+- 根/课题README完整读于 `f0548477576caa2373d1626227a284ccfa9767d0`。最近已读公开提交 `a5ef41d81819e8ab31623e33a6d9abab5255e3a7`（2026-11-26 15:00:32 UTC真实pull/rebase后，双README逐差无变化）。根blob282e86b0、题blob e2318baa。每次literal pull立即核双README差异，至少每小时；有变只读差异立即执行，API读不冒pull。
 - 私库QUEUE已认领推 `c7785184d0d9c503852fb2137e9e2c091221d080`，进行中（本会话/2026-11-26）。不重复认领。
-- 每结论立即commit/push；NFF立刻pull --rebase循环到成功，不force或amend已发表提交。完整证明直接登记并加results.md索引；不附加独审/冻结门。全部数组只临时区，不进Git/Release/artifact；只源码/参数/run/hash/标量。MD<100KB、H<10KB、题<200MB；不写根LOG。token只命令环境。
+- 每结论立即commit/push；NFF立刻pull --rebase循环到成功，不force或amend已发表提交。完整证明直接登记并加results.md索引；不附加独审/冻结门。第15条：可重算证书/数据/Actions输出不存Git/Release；公开源码、参数、run/SHA及结论引用，不用分件保存；raw只临时。MD<100KB、H<10KB、题<200MB；不写根LOG。token只命令环境。
 - 根唯一写main；agents只同级scratch。当前部分clone `/tmp/visible-flex-6a65e705/math-research-public`，同级geometry-work/exact-work/solver-work/cold-cartesian-work。旧历史见[11:15 H](https://github.com/Rogerhu12/math-research-public/blob/a9aaaf7d2fbdc01eb0df3e635d9065c20faac354/topics/visible-flexible-closed-surface/HANDOFF.md)、log和open；不重做已登记结论。
 
 ## 已证明的核心结论与缺口
@@ -35,6 +35,8 @@
 
 [新gap同job入口](notes/2026-11-26-6a65-geometry-gap105-cold-run-contract.md)run45838996926/source1dd2ae17已编译0；真实prefix24.716s、zero170.073s均0，R233两master字节相同，新INITIALa975dc50…69847。当前直接oracle/cache尚未返回，Cartesian接受0。6/9/3/12仅预算不借旧20；45min规则核/单进程一步，预算后保raw，续算严格绑定，area真拒绝只接release。
 
+[R244](results/R244-complete-radial-normal-preconditioning-spectrum.md)付完整H全部交叉项及原λS谱界；新91列全H/增广/伴随真核0，不借不同seed作速度对照。λ0无正下界，M12不能借。生产新入口/双网格面积行尚待接入。
+
 [R243](results/R243-exact-angular-warm-inclusion-and-finite-interface.md)已付同径向网格的严格零误差升频嵌入；66非零系数全六jets/消费者真核0、物理normal恢复1.09e−16。M48实际暖续尚未运行。
 
 [R235](results/R235-reflected-third-jet-compatibility-and-exact-local-patch.md)付反射第三迹定理及node18551准确jump；当前C4不能恰消，但无sup硬底、不排C2细化。全Fourier C2补丁预算已付，未加CI场。
@@ -47,7 +49,7 @@
 
 13:55失联，14:35已恢复。旧/tmp/visible-flex-6a65e705实际不存在；新/tmp约5.2GB可用，workspace盘仅余12MB，全部工作放新/tmp。部分clone及真实pull已完成，根/题README仍原blob；API停机发布止于R242，后续回普通CLI。外部−9原因未证，raw未上传。
 
-<!-- 6a65-root-literal-rules --> 2026-11-26 14:48:30 UTC 真实pull/rebase读取main cc49fccd7ec995a4141d1840a212b40481085aa7，双README逐差无变化；CLI已恢复，后续普通Git发布。
+<!-- 6a65-root-literal-rules --> 2026-11-26 15:00:32 UTC 真实pull/rebase读取main a5ef41d81819e8ab31623e33a6d9abab5255e3a7，双README逐差无变化；CLI已恢复，后续普通Git发布。
 
 h487三绑定scalar已返回，正核实际全域改善；geometry/solver各自新job真实运行；exact接同g角频暖启动。完成子问题接open下一项，不作阶段收尾。
 <!-- 6a65-ci-rules --> run 45778054176/1；实际 pull #183 至 `42d711248fdfcc164c1fa7c87770ab529ae24ca5`；2026-11-26T13:10:41+00:00；双 README 无差异，沿用根已读规则；回执原因 pre-process:Cauchy-original-then-Cartesian1-current-field。
