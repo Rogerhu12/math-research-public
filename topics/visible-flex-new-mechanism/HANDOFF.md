@@ -5,7 +5,7 @@
 
 ## 1. 规则、授权与原始记录
 
-公开本次实际pull且根/题README已读至 **ff52df17b71ab3d8031857fba3005e688f2ef32d**；相对继承0749a4cc规则空差异。私库本次实际pull且根README已读至 **41fe885610073f478b2f5a752461ca56cfd43f09**；QUEUE认领推送 **09f8b8b54e7cfaabaa635bae5c438c7f1521289a**，状态本会话进行中。继承全文见[接手原件](notes/HANDOFF-inherited-20261127-1f4a61a4.md)。
+公开本次实际pull且根/题README已读至 **90ff1a89510bf3fd42b29381cc4c0efdf912118d**；相对继承0749a4cc规则空差异。私库本次实际pull且根README已读至 **41fe885610073f478b2f5a752461ca56cfd43f09**；QUEUE认领推送 **09f8b8b54e7cfaabaa635bae5c438c7f1521289a**，状态本会话进行中。继承全文见[接手原件](notes/HANDOFF-inherited-20261127-1f4a61a4.md)。
 
 [本次压缩前全文](notes/HANDOFF-before-continuous-angular-bounds-20261126.md)及其所链[继承交接](notes/HANDOFF-inherited-20261116-1809.md)保全部结论、条件、旧失败、输入与费用；不因摘要删账。每次实际pull后查根/题README差异并执行，至少每小时；API读取不冒pull。root独占git和共享索引，每条结论即推，NFF立即pull --rebase再推至成功。
 
@@ -61,6 +61,6 @@ R584/R586/R589/R590保19态真历史、一次χ、正平方、负侧反号、偶
 
 R577/R579/R595/R599给完整近弦/厚核心/子午/切圆接口，实际圆参考仍欠全尾正图、最低半径与连续曲率。[R604](results/R604-normal-chord-stability-and-finite-parametric-norm-interface.md)新付参考全法弦到新浸入单射/reach的显式扰动证书；圆参考本身和有限q连续范数仍须真付，中央柱纵向参数化不能遗漏。非圆q不继承圆背景reach。
 
-[R608](results/R608-actual-circular-reference-tail-curvature-and-flat-cap.md)已付同解析圆参考δ≤2/25的无限尾正z_s、a>rc、κm<1/3和完整平帽，含所有振荡周期。[完整紧区间二jets](notes/2026-11-27-r611-full-compact-reference-implementation.md)新源/请求已备：同μν、向外区间、准确尾重叠，目标参考reach .06072；尚未执行成功，非圆损耗另付。
+[R608](results/R608-actual-circular-reference-tail-curvature-and-flat-cap.md)付同解析圆参考δ≤2/25的无限尾正z_s、a>rc、κm<1/3和完整平帽。[完整紧区间二jets](notes/2026-11-27-r611-full-compact-reference-implementation.md)原run45881358480新34.7883秒数值成功；继承积分系数先float乘，已改全区间后重认证，暂不记严格R611。目标参考reach .06072，非圆损耗另付。
 
 97q run45856511629原终态已读：[收据](notes/2026-11-27-r582-current-rows-first-original-terminal.md)，新2422.614817932秒/50Jac/49未合格callback，实际q/η未变。[warm trial与辅助上界修复](notes/2026-11-27-r582-physical-epigraph-implementation.md)正式续算已备，实际q与trial分列，保全门。全谱末态改径向响应、真历史/参考几何并行。继续B030实际可行末态；子项完成即记原证据并接[open](open.md)。严格证明在[results](results.md)，数值和成本在notes。仅全部README门真正完成才收尾。

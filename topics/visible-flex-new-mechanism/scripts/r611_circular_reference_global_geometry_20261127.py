@@ -25,7 +25,7 @@ RC, AMP = original.RC, original.AMP
 BACKGROUND_END = original.BACKGROUND_END
 CONTROL_LEFT, CONTROL_RIGHT = original.CONTROL_LEFT, original.CONTROL_RIGHT
 KNOTS, Q = original.KNOTS, original.SOURCE_Q
-SCHEMA = 'r611-actual-circular-reference-full-compact-interval-geometry-v1'
+SCHEMA = 'r611-actual-circular-reference-full-compact-interval-geometry-v2'
 
 
 def emit(tag, data):
@@ -157,6 +157,22 @@ class CompactGeometry:
             values.append(original.spline_interval(x, knots, coeffs, degree) / self.width ** k)
         return values
 
+    def exact_tail_height(self, delta):
+        # The original height() forms -AMP*ELL in binary64 before entering
+        # interval arithmetic.  Here both exact stored constants enter I first.
+        if delta.lo < original.CUT or delta.hi > self.height.maximum:
+            raise ArithmeticError('compact height query outside integral coverage')
+        low = self.height.integral(delta.lo)
+        high = self.height.integral(delta.hi)
+        factor = I(AMP) * ELL
+        if not self.height.receipt.get('height_prefactor_multiplied_inside_interval'):
+            complete = factor * self.height.prefix[-1]
+            self.height.receipt.update({
+                'full_height_interval_width': up(complete.hi - complete.lo),
+                'height_prefactor_multiplied_inside_interval': True,
+                'inherited_height_method_not_used': True})
+        return -factor * I(low.lo, high.hi)
+
     def jets(self, left, right):
         self.check()
         self.counts['complete_two_jet_cells'] += 1
@@ -187,7 +203,7 @@ class CompactGeometry:
         phase = delta ** -2
         w = AMP * exp_i(-(2 - sin_i(phase)) / delta)
         ws = -w * ((2 - sin_i(phase)) / delta ** 2 - 2 * cos_i(phase) / delta ** 4) / ELL
-        H = self.height.height(s)
+        H = self.exact_tail_height(delta)
         central = original.CORE_HALF + s
         tail = float(Q[-1]) + H
         z = (1 - bg) * central + bg * tail + correction
