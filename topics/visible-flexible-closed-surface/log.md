@@ -188,3 +188,5 @@
 - 2026-11-26 12:35 UTC｜Astra-visible-flex-6a65e705-20261126：[原元190同g加密](notes/2026-11-26-6a65-m12-element190-source-aligned-h-preparation.md)仅插66原源simple knots，362→428元、35378→41846列，旧网格全保；追加8个旧G8点使观察是真超集。后缀准确恢复12.904s/最终prepare13.835s真0，3791准确queries；rev3完整10stage+STL请求已写，真实新solve待返回，不预报下降。
 
 - 2026-11-26 12:38 UTC｜Astra-visible-flex-6a65e705-20261126：[新gap完整短窗源](notes/2026-11-26-6a65-geometry-gap-window-own-complete-baseline.md)同R233 master、独立sourceKind/自然g，53504点×13行自己的baseline301.650s真0；metric2.48947、窗口κ89407.07/minarea9.618e−5不合格。端口六jets实核、窗口外真尾保持；继续只在(b,S)独立修正并更新open实际入口，不借长job状态或接受数。
+
+- 2026-11-26 12:41 UTC｜Astra-visible-flex-6a65e705-20261126：[真实多步发布接口](notes/2026-11-26-6a65-solver-cartesian-multistep-publisher-check.md)本地bare Git实造NFF/H冲突再成功push，并在第三真实pull遇README差异后先发布SHA/未审H再停数值；0.387s真0。控制器保每步真非零state/observer、13行、独立计数及45min规则检查；仅接口核验，无新科学接受，v4缓存续接另立身份。
