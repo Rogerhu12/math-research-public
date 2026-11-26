@@ -54,5 +54,5 @@ root维护main/全前缀接口；geometry持续polar实际求解及几何；solv
 
 <!-- 6a65-root-literal-rules --> 2026-11-26 16:34:38 UTC 真实pull/rebase读取main 1a19b71bdb8c539d296382a2a0d7dc036dce430c，双README逐差无变化；CLI已恢复，后续普通Git发布。
 <!-- 6a65-m12-angular-warm-ci-rules --> README unchanged at e7525006dfe7819fe061548f0b97f4091f4f0658; run 45847254548 attempt 1.
-<!-- 6a65-m12-full-normal-ci-rules --> README unchanged at f342da7d3a3c23f043ee96092d25f88615287c30; run 45851669566 attempt 1.
+<!-- 6a65-m12-full-normal-ci-rules --> README unchanged at 63e2c98d961cf673b1df09be0b318331cd35fcfa; run 45851669566 attempt 1.
 <!-- 6a65-m12-h509-ci-rules --> README unchanged at c3cd725cb517582a6139cdb5a3d3f69bfaa8f67d; run 45857469750 attempt 1.
