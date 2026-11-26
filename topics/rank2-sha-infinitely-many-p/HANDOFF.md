@@ -6,7 +6,7 @@
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。固定有限曲线族的联合无穷非零可再用无限鸽巢；有限p、随p换曲线、条件桥、非零投影或接口成功均不完成。
 
-- 两仓库已部分克隆。公开根/课题 README 已读至 `e2f7e47048272d5cfff700eeb4aaa17f7588101e`（差异为空）；每次pull只读两文件新差异，至少每小时同步并记录SHA。
+- 两仓库已部分克隆。公开根/课题 README 已读至 `021c6d790ac7e6e2b163fe9db7870a28f3640ec1`（差异为空）；每次pull只读两文件新差异，至少每小时同步并记录SHA。
 - 私库QUEUE接手已推41fe885610073f478b2f5a752461ca56cfd43f09；20:03 UTC再次pull至eb74b5a78f485b18621f95381131a88bbd62467c，根/本题README差异空、QUEUE仍本会话进行中。目录math-research-public、math-research-private；令牌仅进程认证，不入文件。
 - root独占git/共享H/open/log/index；每条结论完成即推，非快进立即pull --rebase、检查README再推至成功，不强推。数学只用公开Actions；不存可重算矩阵/数据/log。H<10KB、每MD<100KB。
 - [逐字压缩前H](notes/2026-11-27-handoff-before-ten-source-return.md)及其历史链保全部旧状态；[open](open.md)、[results](results.md)、[R951–1000索引](notes/PROOF-INDEX-R951-R1000.md)保全部未解门，未默删。
@@ -17,7 +17,7 @@
 
 前v7真实relative/absolute degree AssertionError、旧Fv3在MD84/306超时124，详[终点链](notes/2026-11-27-artinian-v7-final-and-successor.md)。R974原omega/完整双向残余坐标和每层厚Norm已证且小API实过，接v8；人工1530例仅opt-in，不为几何背书。R975 pair-gcd/全尾Popov及attached界、R986原二次常数域两平移norm构造均已证/未执行/未接v8。R986不是当前Frobenius慢点；原zero-fiber shortcut未接生产，旧入口不能称全PASS。
 
-**中央v8**：sourcec3fc3c60605f4455fc57177367c89e56a9763f6a已push自动触发，不重复dispatch。完整原66矩阵及旧E89同次重建；20份manifest/18源码AST，全部v7门保留。新增R982四算术源全角/十低行、R983共同CF的19倍真实源三目标/81余块；待读实际run/job与结果，不预记非零。
+**中央v8已实际成功**：run45892525657/job140158402506/sourcec3fc3c60605f4455fc57177367c89e56a9763f6a，20:38:41–20:46:00 UTC；20份manifest/18源码AST及全部旧门保持。R982四新角/十低行完整返回，R983三alpha全非零；stdout90103B与log208485B摘要见两结果，不保存生成数据。
 
 既有实际v5 run45884058894/job140130269899全22/66/44谱、v6 run45886844420/job140139542933真E260投影、v7 run45888699507/job140145723941全13-old均success。完整source/hash/阶段在R976–978；不重复旧计算作为新结论。
 
@@ -35,7 +35,9 @@
 
 **R981**：原delta-new(3,5)/(5,3)是固定E54925/E8125；各两有理点以三同源下降5/2赋值证明独立，rank≥2。全finite3 odd、5 odd、双13/Haar、导子390/ray10368、degree390全权平方及ordinary/inert通常全Selmer桥已付。Pi SZ=7Ψ35/270、167Ψ53/360，原cross7Ψ35/60、167Ψ53/80；whole companion仍须真实六sigma投影。
 
-**R983结构已证/实际待返**：a19=(2+ω,2+ω,1,ω²,19,δγ7)保同C/F，F19=σ390Xψ19A7R7/19。全division、首阶6/质量0、Gram(390,11310,232,40,10,2)、双逆/半特征/四CM转移已付。v8读原E65与两新线α及81余块；非零α才在固定坏集外给完整单位伴随，不能预称p>211。
+**R983结构已证/实际已返，正补消费**：a19=(2+ω,2+ω,1,ω²,19,δγ7)保同C/F，F19=σ390Xψ19A7R7/19。全division、首阶6/质量0、Gram(390,11310,232,40,10,2)、双逆/半特征/四CM转移已付。v8全81余块/框架通过，三α为(75−50δ)/57、(210+350δ)/57、(2505−1670δ)/57，均非零；source分母133，两个新来源分母245/5845。正在补完整坏集及伴随单位消费。
+
+**R982已证/实过**：新角degrees21/21/64/64、四新gcd9而全十gcd仍a；帽/Hilbert仍4/13，Norm A10=B6及原c6导子不变。完整10×10 jet秩10；Schur余式经固定Q变换给z42/z48/z54/z60+O(z66)。普通按同一测度线性；惰性用k=(p−1)n、(Ni/390)^((p−1)v)Ji((p−1)v)准确统一读者，质量零消指数导数，联合坏p时四余式中央真零。不扩大p6窗或将低jet当深核。
 
 ## 三、真正中央非零门仍开
 
@@ -61,6 +63,6 @@ Kato比较图/BKO通常群桥的本轮完整核查及Adachi/新rank2预印本的
 
 ## 五、当前分工与下一实际工作
 
-central完成R985完整Miller/Heisenberg转置并跟中央v8；arithmetic继续真实translated central tests与共同CF交换子消费；geometry继续原几何v8及原λ跨p mixed对应；root读v8真实输出写R982/补R983，并继续完整联合forcing、同步与逐条推送。R975/R986不重复作可选测试，不改运行源。
+central完成R985完整Miller/Heisenberg转置并跟中央v8；arithmetic继续真实translated central tests与共同CF交换子消费；geometry继续原几何v8及原λ跨p mixed对应；root已写R982，补R983实际消费，并继续完整联合forcing、同步与逐条推送。R975/R986不重复作可选测试，不改运行源。
 
 中央入口scripts/check-original-e65-full-cm-sixth-axis.py与ci/e65-full-cm-source-request.json；几何入口scripts/produce-original-triangular-artinian-shadow.py与相应request/workflow。结论完成立即登记并推，随后继续下一个真实未解门。

@@ -87,3 +87,6 @@
 
 
 - [R986](results/R986-original-quadratic-two-shift-native-residue-model.md)：对原k=F_(r²)、L=k[t]/π，由lcm(2,e)=2d排尽全部真子域，π非素域系数时t生成，否则t+ω生成；完整norm多项式A²−AB+B²及ω=−A/B直接构造原生绝对域。原ω/t、全部d/2d坐标与原k相对厚norm双向保持；独占helper仅静态检查、未接v8、无新数学运行。该算法不冒当前306 Frobenius阶段的实际加速。
+
+
+- [R982](results/R982-original-ten-arithmetic-sources-and-exact-central-residuals.md)：同次v8全四新来源的角degree21/21/64/64和分母385/175/245/5845准确返回，完整十源帽仍4/13；A6⊂A10⊂B6给同规范化/原69343导子，完整十源整数格及全位费用保持。真实10×10 jet秩10，经确定Schur余式给z42/z48/z54/z60+O(z66)四整函数。普通同一测度线性，惰性在k=(p−1)n用(Ni/390)^((p−1)v)Ji((p−1)v)构成不依赖表示的准确共同读者；质量零使十中央失败传到四余式。保不同charge Gaussian与原p6窗，不传播乘积或宣称无穷非零。
