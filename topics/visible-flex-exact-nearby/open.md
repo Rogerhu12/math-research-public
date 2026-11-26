@@ -163,7 +163,7 @@ G以S/T E1856给physical C²整盘/曲率<2/径长<8e−6及同world position/no
 | reflected waist | [RW实际](results/R149-supplement-actual-reflected-finite-waist-rows.md)45787309600/1全96rows/480球，真a=2H(0)、signed mean、整DFT/alias/tail。[JF联合矩阵误差](results/R149-supplement-joint-signed-finite-matrix-error.md)以真target Bessel减去列误差的额外√96；完整TC/P224和signed配对仍待，source/target权重、mean及fullSchur保留。 |
 | graph高块 | [DG](results/R149-supplement-complete-graph-remainder-through-same-sign-density-compression.md)以真实C^-1 H−4/3<2^14收齐whole graph，原J homogeneous<2^-437；actual common6/PN56未齐，完整coupled/physical96门与巨大finite/mean/ν/phase仍待。 |
 
-R143 correlated body已全4651；R146全418/13376使当前CV/RA根费格式失败，禁止继续该格式Gram/容量/仅DH细化，不推PDE奇异。R145/R147旧成功锁；[ASL实际](results/R147-supplement-actual-support-localized-negative-nu-reception.md)45889444013全4球降ordinary负ν分量到<1.87e−4，零root/无impulse，非全误差≤.005。[ANP](results/R147-supplement-actual-independent-strict-nu-particular-and-signed-column.md)45893562391/1完整2/2，strict腰误差<2.836e−5、194 true/192 raw signed全保、首incoming正。NH十二scalar入口已齐待run，付mean泄漏/全high97及两个joint96误差；不重trial/配对，不授fullνSchur。
+R143 correlated body已全4651；R146全418/13376使当前CV/RA根费格式失败，禁止继续该格式Gram/容量/仅DH细化，不推PDE奇异。R145/R147旧成功锁；[ASL实际](results/R147-supplement-actual-support-localized-negative-nu-reception.md)45889444013全4球降ordinary负ν分量到<1.87e−4，零root/无impulse，非全误差≤.005。[ANP](results/R147-supplement-actual-independent-strict-nu-particular-and-signed-column.md)45893562391/1完整2/2，strict腰误差<2.836e−5、194 true/192 raw signed全保、首incoming正。[ANH](results/R147-supplement-actual-complete-high-parameter-forcing.md)45897599620/1全12球，高97<.001846、joint96误差全付；mean/sine保，不重trial/配对，不授fullνSchur。
 
 最新README已读SHA见HANDOFF；每pull核规则、至少每小时。公开科学/容量/旧成功禁重与失败/unknown保，最终同次冻结metric和所有门。
 

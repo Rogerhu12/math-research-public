@@ -321,3 +321,5 @@
 - [IL实际四球](results/R149-supplement-actual-original-inverse-density-lift.md)：45896427415/1完整4/4，true strip误差与finite三导全存，旧目标0。[SDI实际小逆常数](results/R149-supplement-actual-small-density-inverse-constants-and-Theta-errors.md)通过19个完整saved-ball有理比较得p′>.9749、p″<1/6、p‴<24；C^-1 Bessel H−1<5/3、H−4/3<5/2，fullTheta joint error≤1.071 KG KA(ε0+10εH/9)，保alpha/全部means。原J whole homogeneous<2^-449，actual6/56与finite/fullSchur未成。
 
 - IR完整实际入口：在[IR原公式](results/R149-supplement-complete-inverse-density-row-residuals.md)后新增owner/worker/generator及[50当前/6原native manifest](notes/2026-11-27-inverse-density-rows-inputs.json)，只消费全IL成功；99自然目标与全prefix保存链已齐，actual待首run。原A/Θ/physical两mean及fullSchur仍保。
+
+- [ANH：实际全高频参数forcing](results/R147-supplement-actual-complete-high-parameter-forcing.md)：45897599620/1全12球，paired L2<.002909/high97<.001846，joint incoming96/physical96误差<2.906e−5/2.055e−5；完整mean泄漏、raw192/head下界、unobserved sine及PDE误差保。未应用全incoming逆，target B^-1/finite/νphase仍付原费用。

@@ -1,11 +1,11 @@
 # 交接：可见振幅的精确闭等距族
 
-维护会话：visible-exact-astra-fb31ed6-20261127；更新：2026-11-26 21:40:17 UTC。
+维护会话：visible-exact-astra-fb31ed6-20261127；更新：2026-11-26 21:41:51 UTC。
 **总任务未完成，持续研究，不等用户回复。**
 
 ## 已读规则、授权与接续
 
-2026-11-27（台北）已 partial+sparse clone 两仓库并 pull main，读根全部规矩、课题README、H/open、当前log及接续notes。公开根/topic规则已读至cd0e830619f7c62339181508af23753d8ff70d95（相对12385db35无diff）；私库21:05pull根规则核至1fe6204483029efe47c7faccddc1c27f659eb107，QUEUE接手已推594e561b05a758bd8c02840ca4fbf574cd707436。每次pull核两README差异、至少每小时一次，非FF立即rebase再推。令牌只CLI。当前本地 /workspace/scratch/fb31ed637c77/math-research-public，无AGENTS。
+2026-11-27（台北）已 partial+sparse clone 两仓库并 pull main，读根全部规矩、课题README、H/open、当前log及接续notes。公开根/topic规则已读至6e90b63ffa32805445e9249be1f628a715227e48（相对12385db35无diff）；私库21:05pull根规则核至1fe6204483029efe47c7faccddc1c27f659eb107，QUEUE接手已推594e561b05a758bd8c02840ca4fbf574cd707436。每次pull核两README差异、至少每小时一次，非FF立即rebase再推。令牌只CLI。当前本地 /workspace/scratch/fb31ed637c77/math-research-public，无AGENTS。
 科学计算用公开Actions；本地可做证明、静态与metadata。根规12取消额外防错审批/独立全件复核流程；新完整证明直接登记，每结论推送。规15保持topic≤200MB、H<10KB，禁止新增可重建大数组。前会话完整H/open以27c422943同路径为准，递归原件与全部范围、失败和未付义务仍在历史，以下不重做旧成功。
 
 ## 同一对象与最终标准
@@ -29,7 +29,7 @@ geometry43584188751/26仅在同η0全core含帽物理C0≤1e−4、|δν|≤1e�
 下列已成记录的完整域/球/pins/失败/lost说明保[5a37b969原H](https://github.com/Rogerhu12/math-research-public/blob/5a37b96940f2d553fd6350415a2f2b48a8e40714/topics/visible-flex-exact-nearby/HANDOFF.md)及各proof，原成功禁重，false/unknown不改：
 - [source4实际](results/R149-supplement-actual-common-high-WPN-source-unit-ball.md)45783842857/1全4球锁；[RW](results/R149-supplement-actual-reflected-finite-waist-rows.md)45787309600/1全96×5锁；[JC](results/R149-supplement-actual-joint-compound-waist-row-error.md)45887337009/1全7球，joint96误差<8.556891e−5、homotopy lower>.9836159091670。原scope/全部mean/alias/tail保各完整proof，不授PDE列/fullSchur，不重。
 - 旧C0/CP11、7721 forward、R143/R146完整actual及所有false/unknown逐字保[41336f9原H](https://github.com/Rogerhu12/math-research-public/blob/41336f9f3643b3af13fe9b096691f3c24b0bb140/topics/visible-flex-exact-nearby/HANDOFF.md)及原proof；成功禁重，R146只排原CV/RA格式。
-- R145/R147/NW/ASL完整实际与首失败保[eb774fb原H](https://github.com/Rogerhu12/math-research-public/blob/eb774fb06c6cb6dc51ffac0b31e5ebe833f359b1/topics/visible-flex-exact-nearby/HANDOFF.md)及原proof，成功禁重。ASL ordinary负ν<1.87e−4仅零root/无impulse，非全误差≤.005。[ANP实际](results/R147-supplement-actual-independent-strict-nu-particular-and-signed-column.md)45893562391/1完整2/2：full strict腰误差<2.836e−5、194 true/192 raw signed全保，首incoming严格正。局部root/positive状态0不消fullν/phase/means；NH45897599620/1实际12/12：paired high97<.001846、joint incoming96/physical96误差<2.906e−5/2.055e−5，保mean泄漏/全sine余量，actual证明待登记。
+- R145/R147原实际/失败保[eb774fb原H](https://github.com/Rogerhu12/math-research-public/blob/eb774fb06c6cb6dc51ffac0b31e5ebe833f359b1/topics/visible-flex-exact-nearby/HANDOFF.md)及原proof，成功禁重。ASL ordinary负ν<1.87e−4仅零root/无impulse，非全误差≤.005。[ANP实际](results/R147-supplement-actual-independent-strict-nu-particular-and-signed-column.md)45893562391/1完整2/2：full strict腰误差<2.836e−5、194 true/192 raw signed全保，首incoming严格正。局部root/positive状态0不消fullν/phase/means；[ANH](results/R147-supplement-actual-complete-high-parameter-forcing.md)45897599620/1全12球：high97<.001846、两joint96误差<2.906e−5/2.055e−5，mean泄漏/全sine保。
 
 ## 所有仍未付的最终接口
 
