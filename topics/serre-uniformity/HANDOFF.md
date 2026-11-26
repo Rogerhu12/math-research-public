@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。本轮已部分克隆并真实pull main，读两README/H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则读至36cf1ed2。不重做已登记结论或窗口。
 
-**公开两README已读提交：37db461f9ae2eed5600e7ad998bbda6ecb28ea4c**（2026-11-27 06:03 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
+**公开两README已读提交：a0669dc906c31467c71e6f8e62a81148faff8ce2**（2026-11-27 06:10 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
 
 已真实部分克隆/pull；05:34再试仍报无可用执行环境，shell未运行；按根规矩8用连接器小文本同步、读两README差异、带expected_sha非force提交，恢复后立即pull --rebase。拒绝即同步重基再推至成功。令牌仅CLI；根维护main/H/open/index/log，子研究独立稿，每条结论立即推。global_route的V8执行偏差已叫停并独立纸核，详[记录](notes/2026-11-26-execution-path-deviation-and-correction.md)，其输出不作证明/合规窗口。
 
@@ -14,7 +14,7 @@ H<10KB、open尽量<30KB、每MD<100KB、topic<200MB；无可重算raw、不写�
 
 ## 最新全局实际来源
 
-[R1063](results/R1063-original-Hecke-and-Hodge-graph-annihilator-family.md)：原完整 $v$ 的整奇次 $Q$/Hecke 族全消去 MW；轨道各向同性，不能满新部。§9由本原 $U:Y\to X$、满射 $U^\dagger$ 构造实际整 $V_\lambda=US_\lambda$ 因子及全部 split-Hecke 交换子解格的合法行，不除 bare 核范数。真整辛商为 $\Psi(x,y)=(U^\dagger x,y)$；最低读数是同一两列行列式，Lagrangian 满度及 jet 不落轨道仍开。
+[R1063](results/R1063-original-Hecke-and-Hodge-graph-annihilator-family.md)：实际整 $U/S_\lambda$/split-Hecke 交换子族全消去 MW，不除核范数；交换族轨道各向同性，真辛商由 $(U^\dagger x,y)$ 给出。§10原r2 bare失败时给adjugate行、唯一Q前像递推及完整两列最低行列式；非零与Lagrangian排除仍开。
 
 [R1058](results/R1058-original-Cartier-resonance-and-complete-lowest-residue-source.md)：完整 $D/Q/Q^2$ 最低值已迁至全部 $P=q\widehat J$ 根，等于 $(-3)^d[r^{d-1}]W_*/P^2/(dA_1)$。所有其它极点、非齐次 forcing 与规范修正保原文；$P$ 根至多四重、每根至多七阶 jet，非零仍开。
 

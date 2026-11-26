@@ -661,3 +661,159 @@ $$
 $$
 此一般族不附未经证明的交换轨道或 Lagrangian 断言。
 它提供的是实际整解格中的更多合法行；非零读数及全深盘排除继续待证。
+
+
+## 10. 原 $r=2$ bare 失败分支的实际 adjugate 读数
+
+本节只在原 $p\equiv11\pmod{12}$、$p\ge41$ 行，
+把 R1041/48 已付清的 bare 范数身份用于§9；
+不把它扩充为 $p\equiv5\pmod{12}$ 行原 $r=8$ 的身份。
+记原剩余域上的核生成元为 $c_0$，仍以
+$T_{c_0}=T_0$、$\mathcal LT_0=A$、$\operatorname{lc}(T_0)=-1$ 定标，其中
+$$
+r=1-b^3,\quad A=bQ(b^3),\quad
+\mathcal L=r\partial_b^2-4b^2\partial_b-\frac94b.
+$$
+R1041 的原标量身份给
+$$
+\text{原 }r=2\text{ bare 标量}=0
+\quad\Longleftrightarrow\quad
+\bar B(c_0,c_0)=0.
+\tag{1063.42}
+$$
+以下假定这两个等价条件成立；这不是宣称它们实际会发生。
+
+§9的 $U$ 始终为本原单射，$U^\dagger$ 满射。
+令 $A_Y=U^\dagger U$，并在此段以横线表示约化。
+因为 $\ker\bar A_Y$ 经 $\bar U$ 单射进入
+$\ker\bar U^\dagger=kc_0$，其维数至多一。
+另一方面，$\bar B(c_0,c_0)=0$ 给
+$c_0\in(kc_0)^\perp=\operatorname{im}\bar U$，故有唯一 $y_0\in Y_k$ 满足
+$$
+\bar U y_0=c_0,\qquad Qy_0=c_0,\qquad \bar A_Yy_0=0.
+\tag{1063.43}
+$$
+所以 $\operatorname{rank}\bar A_Y=N-1$。
+取整算子 $S_{\rm adj}=\operatorname{adj}(A_Y)$。
+它是 $A_Y$ 的整多项式，属于实际代数 $\mathscr C_R$，
+不除 $\det A_Y$。其约化非零、秩一；
+由自伴性和 $B_Y$ 完美性，存在 $\kappa\in k^\times$ 使
+$$
+\operatorname{adj}(\bar A_Y)(z)
+ =\kappa y_0\bar B_Y(y_0,z).
+\tag{1063.44}
+$$
+这里 $\kappa$ 保留原 adjugate 和 $c_0$ 的实际定标，不置为一。
+该证明不除 $\bar B_Y(y_0,y_0)$，此范数也可以为零。
+
+$S_{\rm adj}$ 因而给§9.3真正的整 MW 消去行。
+原最低 $w$ 系数仍须乘同一 $u_{\min}$；以下计算其完整剩余域标量。
+
+### 10.1 唯一负角色前像的完整有限递推
+
+记 $H=r^{\ell+1}(AT_0'-T_0A')$，$\ell=2N+2$。
+R1048 的原规范恒等式给
+$$
+H'=r^\ell A^2,\qquad
+c_0\equiv-H(b^p)/r\pmod A.
+\tag{1063.45}
+$$
+令 $T_1=T_{y_0}$、$F_i=T_i/A$（$i=0,1$）。
+$T_1$ 在 $2\bmod3$ 次数类，故唯一写成
+$T_1=b^2V(b^3)$、$\deg V\le N-1$。
+由原系数固定的 $Q$ 公式
+$Qz\equiv\mathcal LT_z/(2rA')\pmod A$
+及 $Qy_0=c_0$，得到完整多项式恒等式
+$$
+\mathcal LT_1=R_0,\qquad
+R_0=\operatorname{rem}_A(-2A'H(b^p)).
+\tag{1063.46}
+$$
+两边次数均至多 $3N$，且均在 $0\bmod3$ 类；
+所以这里不只是再取模 $A$ 后相等。
+右端保留规范 $H$ 的全部 $b^p$ 代入，
+不以 $H(b)^p$ 代替一般外部系数固定的约定。
+
+写 $R_0=\sum_{j=0}^Nr_j(b^3)^j$、
+$V=\sum_{j=0}^{N-1}v_j(b^3)^j$。由
+$$
+\mathcal L(b^{3j+2})
+ =(3j+2)(3j+1)b^{3j}
+   -(3j+7/2)^2b^{3j+3}
+$$
+准确得到
+$$
+\begin{aligned}
+2v_0&=r_0,\\
+(3j+2)(3j+1)v_j-(3j+1/2)^2v_{j-1}
+ &=r_j\quad(1\le j<N),\\
+-4v_{N-1}&=r_N.
+\end{aligned}
+\tag{1063.47}
+$$
+显示递推中除数全是单位；最后一式来自
+$3N+1/2\equiv-2\bmod p$，是实际前像存在条件，
+不能在未假定 (1063.42) 时删掉或自动满足。
+它在当前分支由 (1063.43) 保证。
+于是 $T_1$ 及其端点、最低读数都由原规范输入唯一确定。
+
+### 10.2 四个真实配对与两列最低值
+
+令 $C_i=\mathcal C(T_i)$、$F_i(1)=T_i(1)/A(1)$。
+R1045 的三个原 CM 点全留数对任意新部向量 $z$ 给
+$\bar B(z,\lambda)=3(T_z/A)(1)$；
+R1052 给 $\mathcal C(T_z)=2\bar B(z,L_{\rm CM})$。
+这里确实保留三个留数 $4,-2,-2$：
+新部的 $T_z/A$ 属于两个非平凡三次角色，
+故其在另外两 CM 点的值之和为负的中心值。
+
+由 $Q$ 自伴、$Qy_0=c_0$、$Qc_0=0$，
+以及同一个 $\bar v=(1-Q)\lambda$，得到
+$$
+\begin{aligned}
+\bar B_Y(y_0,\bar b)&=3\{F_1(1)-F_0(1)\},\\
+\bar B_Y(y_0,\bar a)&=3F_0(1),\\
+\bar B_Y(y_0,\xi)&=C_0/2,\\
+\bar B_Y(y_0,\eta)&=C_1/2.
+\end{aligned}
+\tag{1063.48}
+$$
+其中 $(a,b)=\Psi(v_{\rm new})$、
+$(\xi,\eta)=\bar\Psi(L_{\rm new})$ 正是§9.4的原两列；
+例如 $\bar B_Y(y_0,\bar a)=\bar B(c_0,\bar v)
+=\bar B(c_0,\lambda)$，没有另取前像或改变 $v$。
+
+代入§9同一最低公式，实际标量为
+$$
+\begin{aligned}
+\mathcal C_{\rm adj}
+ &=3\kappa\bigl\{\{F_1(1)-F_0(1)\}C_0-F_0(1)C_1\bigr\}\\
+ &=3\kappa\det
+ \begin{pmatrix}F_1(1)-F_0(1)&F_0(1)\\ C_1&C_0\end{pmatrix}.
+\end{aligned}
+\tag{1063.49}
+$$
+实际最低 $w$ 系数是 $u_{\min}\mathcal C_{\rm adj}$。
+等价的原行向量为
+$$
+\bar c_{\rm adj}
+ =3\kappa\bigl\{\{F_1(1)-F_0(1)\}c_0-F_0(1)y_0\bigr\},
+\qquad
+Q\bar c_{\rm adj}=-3\kappa F_0(1)c_0.
+\tag{1063.50}
+$$
+完整返回由 $\bar v=(1-Q)\lambda$ 和指定 $Q$ 前像保留；
+本式没有删除原 $Q^2$ 项。
+另由 R1043，$F_0(1)=-6f_N/A(1)$，
+但端点非零不代 (1063.49) 的行列式非零，
+也不把 $f_N$ 与 bare 核范数混同。
+
+本节支付 bare 失败分支中 adjugate 行的原整来源、全部四个配对、
+有限前像递推与准确最低尺度，尚未证明 (1063.49) 非零。
+若该值非零，原整 Tate 论证即排除指定深盘内的非中心有理点；
+若为零，仍须继续其余真实整族或完整共同零关系，
+不据此宣称有非中心点。
+
+本节由 o2_high_coefficient 推导，root 独核原 $Q$ 商与次数、
+完整三 CM 留数、递推末边界、adjugate 定标和最低行列式符号。
+无数学程序执行。
