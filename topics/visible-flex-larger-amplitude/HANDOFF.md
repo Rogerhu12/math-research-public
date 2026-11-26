@@ -4,7 +4,7 @@
 
 ## 规则与完整目标
 
-最近规则核查：2026-11-26，真实pull/rebase至 `92d43f4eec2abb934d781b941428d81fe136b38f`，根及课题README相对f0548477无差异，已完整读授权及规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
+最近规则核查：2026-11-26，真实pull/rebase至 `27a3f2c8f76a15870bfa2673f06c900778cdf742`，根及课题README相对f0548477无差异，已完整读授权及规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
 
 科学计算仅本公开仓库Actions；早前本地偏差及纠正见[执行记录](notes/2026-11-20-public-actions-execution-correction.md)。root唯一分支写者；代理只scratch及未引用小源blob。每条结论普通commit/push，NFF立即pull --rebase循环再推，不强推。至少每小时pull，每次核双README差异/立即遵新规并记commit。raw只scratch/runner，不入Git/Release/artifact；保完整小源/参数/run/SHA/紧凑结论。题≤200MB、单文件<5MB、MD<100KB、H<10KB、open<30KB。令牌仅瞬时CLI。环境失联后的恢复及全部原字见下列固定历史；未补造raw。
 
@@ -32,7 +32,7 @@ R690深谷/旧deep两256返9b937ee/993556及自身first bbefd075、R691冻结Haa
 
 [03b真实3–6](notes/2026-11-26-actual-axisymmetric-first-field-and-zero-root-failure.md)：新reference0f042/profile6ffc；606完整hDelta返fbf2b38/989740，max .5170375580→.5154401838、Phi213.8913108→212.1481877，一方向接受/末mu.01，有限全几何过、K product .74922023，全部1283/262点和双支保。阶段7已读alpha1/128、16 advances/iteration_limit、Pg2550.629614/tol.00245086859，实际原28+amp6行保。阶段10全8已读：alpha1 Phi未降；alpha1/2到1/64都Phi降而真几何拒（positive g31.9044到.0639976），末1/128才过。已排各物理族/最差地址纯归因，暂不排盲加64预算。约0.515不排昂贵整域证书、不冒精化/驻点。
 
-[零Δ五源](notes/2026-11-26-zero-closure-so3-complete-entry.md)5b4c/7698/b4d7/2741/b25全body保。窄支撑首根失败00a00590；[宽支撑实际8/9](notes/2026-11-26-zero-closure-wide-failure-radius-input.md)亦失败e21cc593/model0595aab4，首8角只有索引6失败，批最大res .03491092444/修正.49996846575，无initial/final/J。两最大值不知是否同角，不能断言边界是原因。同源宽支撑.75实际11/12仍首根失败4341323c/model29f540c6，首8角索引5、批res .03489223112/修正.50226812641；无场/J。原残差/预算/Armijo/全变量/行/真几何保，转单位母线端点可达性与新构造输入。新半径不是已证IFT球，旧失败不推不存在。全6×6/9×9隐式导数与Newton分离，连续根/积分/六jet/全域几何及精化继续。
+[零Δ五源](notes/2026-11-26-zero-closure-so3-complete-entry.md)5b4c/7698/b4d7/2741/b25全body保。窄支撑首根失败00a00590；[宽支撑实际8/9](notes/2026-11-26-zero-closure-wide-failure-radius-input.md)亦失败e21cc593/model0595aab4，首8角只有索引6失败，批最大res .03491092444/修正.49996846575，无initial/final/J。两最大值不知是否同角，不能断言边界是原因。同源宽支撑.75实际11/12仍首根失败4341323c/model29f540c6，首8角索引5、批res .03489223112/修正.50226812641；无场/J。原残差/预算/Armijo/全变量/行/真几何保。已刊排[弦长必要诊断](notes/2026-11-26-zero-initial-chord-necessity-diagnostic.md)6578：真实失败初点独立绑定，不需不存在的场，完整160core/真S,R/全角覆盖检|P−Gamma|≤S及可用H界；零root/F/J，实际结果未填。新构造并行。新半径不是已证IFT球，旧失败不推不存在。全6×6/9×9隐式导数与Newton分离，连续根/积分/六jet/全域几何及精化继续。
 
 
 <!-- visible-larger-parallel-02:start -->
