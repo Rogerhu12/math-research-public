@@ -6,8 +6,8 @@
 
 目标：连通闭C²连续等距嵌入族，固定有内点H且diamH≥.2D，整像δhold≥.1D、含反射δE>0，全时reach≥.03D；固定完整g/物理参数/时间范围加密至误差≤1e−6并下降。完整Cartesian二jet/闭合均须实际成立。
 
-- 公共已完整读规则并真实pull：`924041880346dc5a732d7a4746e202110bf1fbf3`；私有根README/QUEUE登记已推：`2f68946f2fa3e192a291c7c1393231af1a89953e`。每次pull核双README差异，至少每小时一次；root独占git，逐结论push，NFF立即pull --rebase再推，禁force。令牌仅命令行。
-- 工作树 `/tmp/held10-astra-06bbeb395471-public`；原/workspace盘满。**旧1b6d88ec scratch不存在，54314/45287/79634未知终态不可恢复，以下“在算”仅前会话最后观察。** 必要源/场再生不当新结果。新尾/固定g/接缝三路并行，完整状态见[本次接手](notes/2026-11-26-resume-and-current-sources.md)。
+- 公共已完整读规则并真实pull：`1d7702ceb82cba62dd26ff5f56d48eeca534d8b6`；私有根README/QUEUE登记已推：`2f68946f2fa3e192a291c7c1393231af1a89953e`。每次pull核双README差异，至少每小时一次；root独占git，逐结论push，NFF立即pull --rebase再推，禁force。令牌仅命令行。
+- 工作树 `/tmp/held10-astra-06bbeb395471-public`；原/workspace盘满。**旧1b6d88ec scratch不存在，54314/45287/79634未知终态不可恢复，以下“在算”仅前会话最后观察。** 必要源/场再生不当新结果。70源已恢复、M24端口/角图/native逐字同旧；23原控制直接场恢复已启动（原门，未返回）。见[恢复入口](notes/2026-11-26-tail-source-recovery.md)。三路并行状态见[本次接手](notes/2026-11-26-resume-and-current-sources.md)。
 - 当前首要：恢复新g M24 λ.002起点→fullH/原外迭代→固定完整g/参数/mean规则的场精化；同时圆化推进λ1。原R1--R62及.25/.5 warm已登记事实不重算不改判。没有fullH、λ1和全图前不称10%完成。
 - 根§12优先实际求解，§15可再生数组不入Git/Release/artifacts；只保存源/参数/命令/hash/小标量，H<10KB/单MD<100KB/目录<200MB，不写根LOG。
 - 本次来源核到Sabitov(2021)、Ghomi等2611.17269及作者Hexagon2611.00534v1；均不替代本题定量验收。全部旧断点按[前会话完整H](https://github.com/Rogerhu12/math-research-public/blob/f0548477576caa2373d1626227a284ccfa9767d0/topics/visible-flex-held-10pct/HANDOFF.md)及其链接，具体note优先。
@@ -28,7 +28,7 @@
 
 ## 旧g：已停用的已知断点
 
-旧Actions44720589640/job136234983080于12:36 UTC因启动前白名单拒结束，无M24真尾；已删诊断键，未扩权限，场不在本地。旧M8/M12/M16未门，M24 linear已过但不重链；[全部断点/均值与来源](notes/2026-11-20-material-m24-actual-return.md)。原短ramp R55障碍保留。
+旧g的M24真尾启动被白名单拒，旧低谱未门不重跑；[完整断点](notes/2026-11-20-material-m24-actual-return.md)。原短ramp R55障碍保留。
 
 ## 几何和严格证书
 

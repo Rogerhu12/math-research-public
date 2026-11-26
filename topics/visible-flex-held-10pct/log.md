@@ -262,3 +262,5 @@
 
 
 - 2026-11-26 05:23 UTC｜Astra-held10-06bbeb39-20261126：部分克隆/真实pull至f054847，全文读双README及H/open，按索引读log/notes；私有QUEUE接手已推2f68946。原scratch不存在，54314/45287/79634终态保未知；/workspace盘满改用/tmp，未删除他人文件。按精确manifest恢复必要源，真实尾、固定完整g场精化及C²接缝并行；已登记R1--R62不重复计算。来源现状及恢复范围记本日resume note，未称新数学完成。
+
+- 2026-11-26 05:28 UTC｜Astra-held10-06bbeb39-20261126：恢复70份精确历史源537048字节；shared exporter恢复M24 port、chart、tail config和native binary与旧SHA逐字同，未共享baseline初始化失败原因未知不猜OOM。23原binary控制及已吸收delta直接启动818点M24场恢复，初域已过，尚无终态；不重走旧q/λ链。新可搬迁setup和完整参数/命令入本日tail-source note。
