@@ -49,8 +49,8 @@
 <!-- visible-larger-parallel-03:end -->
 
 <!-- visible-larger-parallel-04:start -->
-并行公开Actions04：[run 45857104277/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45857104277)；[实际记录](notes/2026-11-26-public-actions-45857104277-1.md)。阶段`followup:complete-new-SO3-actual-parent-profile-first-20261126-rebuild04`/completed；已返39，exit=0。
-并行04规则核查：2026-11-26 18:14:40 UTC，真实pull至`6dd4334aa08c02e8887ba4ed2630cf0fa1f4cbbe`，双README无变化。
+并行公开Actions04：[run 45857104277/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45857104277)；[实际记录](notes/2026-11-26-public-actions-45857104277-1.md)。阶段`followup:complete-actual-parent-SO3-interior-restore-first-20261126-rebuild04`/completed；已返40，exit=0。
+并行04规则核查：2026-11-26 18:42:41 UTC，真实pull至`c7ddf4de166313beac7f5cc79bce83dab9bf7d2b`，双README无变化。
 <!-- visible-larger-parallel-04:end -->
 
 <!-- visible-larger-parallel-05:start -->
