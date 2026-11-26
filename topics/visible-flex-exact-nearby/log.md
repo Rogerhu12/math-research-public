@@ -146,3 +146,8 @@ signed-loop owner/gen元数据分支已root/global双核，owner68190B SHA46b11d
 ## 2026-11-26 10:41:38 UTC：TC完整数学owner与公开执行器保存
 
 owner821335205dca3da7553eef523baa032d36dd0918/62761B SHA0a94eae9a86a168c8a31b2739c08b9f9c273fee387ac755ed23a21744922f3b1，workercaa35cca4d540284073c7dfe5a923cb0e16170f6/44572B SHAad342a6ab803f53d609063c3f12fe8587de79800d287187a2ed7cdc79c1bbe11经root/global双核。根完整核trueh Hermite/全288残差/真质量/双mean/signed每9216项读回及原窗口；修STATE_FIELDS排序。保存逻辑为完整natural candidate全球contains后升级formal，再写state；完整文件或prefix领先marker仍认领，多次复制保持原producer manifest，并由立即前驱整件同bytes绑定。execution中的已存对象不得漏供；三目标均已完整则拒新science。每8整格保存96×5 exacthex；每新目标立即推、每30分钟整prefix/pull规则。旧40parts七defs依赖独立核完，无旧producer目标调用。已准入真实continuation，但首轮无虚构前件；本次仅保存源码，首manifest正在完整闭合。
+
+
+## 2026-11-26 10:49:13 UTC：为完整后继输出保存可恢复历史快照入口
+
+34份Nov15旧HANDOFF原文在固定8bd1551ce992344a4c8c5321bcbd25299ee8e2b6逐件完整读取，当前bytes/Git blob一致，各整件SHA256锁定；共332226B。每个当前路径改为含永久完整原文URL、原bytes/blob/SHA及精确git show命令的入口，共29362B，净减302864B、最大899B。20个当前/待机完整manifest与owner/generator/helper检查无这些path/文件名依赖，科学actual/native、活动输入和原历史全文不动。不是以摘要代替原结论；任何原失败、范围、未付项仍按完整历史原文。空间用于已在运行的完整输出、TC实际首轮及NS缺源/point后继；没有写新大数组或artifact。本次同步精简H重复操作文字，完整前版仍在8bd1551c同路径。

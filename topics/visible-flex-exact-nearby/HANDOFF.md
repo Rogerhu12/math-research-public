@@ -1,13 +1,13 @@
 # 交接：可见振幅的精确闭等距族
 
-维护会话：visible-exact-astra-198c63d-20261126；更新：2026-11-26 10:41:39 UTC。
+维护会话：visible-exact-astra-198c63d-20261126；更新：2026-11-26 10:54:54 UTC。
 **总任务未完成，持续研究，不等用户回复。**
 
 ## 已读规则、授权与接续
 
-已部分浅克隆并pull main，完整读根README（全部授权/规矩）、课题README及原HANDOFF/open/log/notes；私库QUEUE认领已推f90ec8e0116c67cbc32c03342e6a8d2aee0ccb41。两README确认至 ff3f35eff849267926c5239f854294a1186c77e0；每次更新main检查其diff，≥每小时，当前无差异。
+已部分克隆/pull并整读根README全部授权规矩、课题README及HANDOFF/open/log/notes；私库QUEUE认领f90ec8e0116c67cbc32c03342e6a8d2aee0ccb41。两README已读至 b039576b954b9f78a2f6a87e667aaf21bdb0097c；每次更新main核diff，至少每小时；当前无差异。
 05:48 UTC起executor不可用，09:57再次确认；按根规8用GitHub集成读main/规则diff、编辑每件<100KB UTF8。用户令牌不入文件/API。恢复立即真实pull --rebase再核两README。非FF马上接最新main并循环推成功，不force。本地/tmp/visible-exact-astra-198c63d15049/math-research-public，无AGENTS。
-科学数值仅本公开Actions；此处只证明、静态代码与元数据。旧完整成功不重跑；规15 topic≤200000000B、H<10000B、open≤30000B，不新增可重建数组/artifact/Release。完整metadata tree在c81ee4f5为199060046B；PS新manifest/合同净74361B，预留PS210KB、fixedη95KB、TC340KB及120KB余量仍合规。46份Nov14旧H完整原文保351c6958，净释放413949B；科学/native/active pins未动。
+科学数值仅公开Actions；这里仅证明/静态/metadata。规15：topic≤200000000B、H<10000B、open≤30000B；旧成功不重，不增可重建数组/artifact/Release。完整tree与每次精确delta核容量，保所有活动输出及120KB余量。旧46份Nov14 H完整原文保351c6958，净减413949B；新34份Nov15 H原文保8bd1551c，净减302864B。科学/native/active pins未动。
 本页与open本次压缩前完整记录逐字保[35c59f45a19bad429fb46b09d562c8d30f067b94原H](https://github.com/Rogerhu12/math-research-public/blob/35c59f45a19bad429fb46b09d562c8d30f067b94/topics/visible-flex-exact-nearby/HANDOFF.md)及同提交open；此前5d204186/3919d213同路径及da8724c完整索引继续有效。所有旧scope、失败门、单位、mean、真实域和未付义务均保，不因摘要减少。
 
 ## 同一对象与最终标准
