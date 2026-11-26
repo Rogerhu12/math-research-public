@@ -24,7 +24,7 @@ R1050同一actual target的短PD/PF参数Z=−r(q/j)³/3已由R1052全轮廓消�
 
 R1044/46的完整Cauchy旗标现由R1052给全等式；whole-type rankℓ−1、核维N、原所有单位及p5双中心/∞/分歧12均保原证明。指定c的完整contact由R1045排除，最低单位与非中心根仍开。
 
-R1037/40分别支付p11/p5实际good BT的两次PD、原source Fp²/Hermitian与Π²=−p、B整对称完美。Q=ε⁻²ΦΠ是实际Fil的Lie算子，模π为quo(r^k a(b^p),A²) modA（外系数固定）；k分别8g−2/8g+2。核c₀准确一维纯正δ，负δ单射。完整v=(1−Q)λ保degree-p返回；Λ_Q=B(v,QD·)在全p>C_*本原并杀原全部MW饱和格。K_Q=(1/2)P_(DQv)(1)必须读完整商，Q²不可删；B(c₀,J₀)=−1/8不代K_Q单位。
+R1037/40原两行PD、source Fp²/Hermitian、Π²=−p、B整完美与Q=ε⁻²ΦΠ已成；完整quotient外系数固定，核一维纯正δ、负δ单射。v=(1−Q)λ，Λ_Q杀全部原MW饱和格，在p>C_*自动本原；完整K_Q=P_(DQv)(1)/2与Q²保结果，B(c₀,J₀)=−1/8不代K_Q单位。
 
 R1038/40原p5双中心/图二次角色、e₁G[p∞]≅e₁B[p∞]、Teich先减、负δ与原6p方向已成；formal/B上才施e₁，非整个J良好。原log、Fm、两节点Dickson与C_*完整来源保结果。
 
@@ -40,7 +40,9 @@ R1只把全部异常缩为p>37的完整N_ns；**p≡2,5 mod9只是另加小惯�
 
 ## O1：全p同一真实本原标签的临界非零
 
-[R1059](results/R1059-original-fN-actual-X108-Raynaud-pairing-and-inverse-central-sum.md)：原Θ=f27，实际X108的z³=1−3sx³、w³=1+3sx³及Ω=dx/(z²w²)保整格/q尺度；Raynaud配对给原A_p=(-1)^N3^(3N+1)Σ_i(-1)^i binom(n,i)²/(3i+1)，n=(p−2)/3。全部ζ半线性已付，f_N=t²δ′A_p/[4(p+1)]；指定和单位与同h筛选仍开。
+[R1060](results/R1060-actual-X108-nonCM-Cartier-and-nine-torsion-ordinary-input.md)：原X108非CM四Cartier矩阵精确由B_n=P_n(3)=−a_p(E54)控制。明确九挠点/实际三次同源给原p2/5mod9时B_n≠0、非CM ordinary且核恰六CM。A_p=−S_n/3，但尚未证S_n=0⇒B_n=0，不能代原f_N单位。
+
+[R1059](results/R1059-original-fN-actual-X108-Raynaud-pairing-and-inverse-central-sum.md)：实际X108双三次模型/原q尺度给A_p=(-1)^N3^(3N+1)S_n（亦−S_n/3），S_n=Σ(-1)^i binom(n,i)²/(3i+1)，n=(p−2)/3；原f_N=t²δ′A_p/[4(p+1)]。S单位与同h筛选仍开。
 
 [R1049](results/R1049-original-fN-theta-first-direction-moment.md)：§6原f_N=t²δ′[q^p]ΘEΘ(q⁴)/[4(p+1)]已保完整相位、36/12、奇偶与分母，现接R1059实际曲线；同h两mask仍开。
 

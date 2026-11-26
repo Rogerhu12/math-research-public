@@ -409,3 +409,7 @@
 ### 2026-11-27 03:28 Asia/Taipei — R1056两种临界核列
 - R1056 §6现另给全p6N5的核列C_s=(-3)^d[r^(d−1)]q^(s+1)/j^(s−1)/[s(s−1)]，s2/8、d=(p−s)/3；H′=h²直接重推，不扩原bare身份。
 - §6逐式支付全p H′、全部安全分母和s(s−1)，与原r2 norm的scope分开。无数学执行，不另扫窗；继续实际非零及原Q²来源。
+
+### 2026-11-27 03:43 Asia/Taipei — R1060 实际非CM Cartier与九挠点单位
+- [R1060](results/R1060-actual-X108-nonCM-Cartier-and-nine-torsion-ordinary-input.md)：原X108非CM四Cartier矩阵精确由B_n=P_n(3)=−a_p(E54)控制。明确九挠点/实际三次同源给原p2/5mod9时B_n≠0、非CM ordinary且核恰六CM。A_p=−S_n/3，但尚未证S_n=0⇒B_n=0，不能代原f_N单位。
+- 根手算E9的P,2P,3P与显式三次商X=x−24/(x−1)+64/(x−1)²，原目标坐标变换Y=27y+9x+14已由o1独核；实际Harrison四q读数识别精确迹。所有半线性/Euler及mod9范围保留。未用普通Greene超几何的character相消删除S_n的整数shift，继续真配对关系；无数学程序或窗口执行。

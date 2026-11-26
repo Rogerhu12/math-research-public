@@ -8,6 +8,8 @@
 
 ## 新增结论（2026-11-27）
 
+- **R1060（单位输入已证明）**：[R1060](results/R1060-actual-X108-nonCM-Cartier-and-nine-torsion-ordinary-input.md)：原X108非CM四Cartier矩阵精确由B_n=P_n(3)=−a_p(E54)控制。明确九挠点/实际三次同源给原p2/5mod9时B_n≠0、非CM ordinary且核恰六CM。A_p=−S_n/3，但尚未证S_n=0⇒B_n=0，不能代原f_N单位。
+
 - **R1059（已证明）**：[R1059](results/R1059-original-fN-actual-X108-Raynaud-pairing-and-inverse-central-sum.md)：原Θ=f27，实际X108的z³=1−3sx³、w³=1+3sx³及Ω=dx/(z²w²)保整格/q尺度；Raynaud配对给原A_p=(-1)^N3^(3N+1)Σ_i(-1)^i binom(n,i)²/(3i+1)，n=(p−2)/3。全部ζ半线性已付，f_N=t²δ′A_p/[4(p+1)]；指定和单位与同h筛选仍开。
 
 - **R1058（已证明）**：[R1058](results/R1058-original-Cartier-resonance-and-complete-lowest-residue-source.md)：唯一Jhat−3rJhat′=(1−r)^(2ℓ−2)/q²−A1²r^ℓ，gdb=dR_can+(r/b²)^(p−1)db且Cartier=db。全Q=Cartier(gF_a)、Tλ/A准确含两pth修正；实际最低=Σ三CM Res Fλ{g(DL)^p−g^(p+1)(DL)^(p²)}db，原D与Frob总和完整，单位仍开。

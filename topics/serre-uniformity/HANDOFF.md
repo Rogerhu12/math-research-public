@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。本轮已部分克隆并真实pull main，读两README/H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则读至36cf1ed2。不重做已登记结论或窗口。
 
-**公开两README已读提交：9da73efe98b26172c898328e3b8cf438f180e48d**（2026-11-27 03:28 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
+**公开两README已读提交：f3a7faede617e40f3112020fc37328374da9e5b2**（2026-11-27 03:43 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
 
 已真实部分克隆/pull；终端再次不可用，按根规矩8用连接器小文本同步、读两README差异、带expected_sha非force提交，恢复后立即pull --rebase。拒绝即同步重基再推至成功。令牌仅CLI；根维护main/H/open/index/log，子研究独立稿，每条结论立即推。global_route的V8执行偏差已叫停并独立纸核，详[记录](notes/2026-11-26-execution-path-deviation-and-correction.md)，其输出不作证明/合规窗口。
 
@@ -26,7 +26,7 @@ R1050原target短PD/PF与全部安全分母、双incidence单位，现由R1052�
 
 [R1045](results/R1045-original-MW-annihilator-nonzero-reduction.md)/[R1046](results/R1046-original-p5-complete-CM-flag-and-MW-nonzero-reduction.md)：两行p>C_*原MW消去后M1，三CM/Euler排contact；p5双中心/∞全保。[R1047](results/R1047-original-MW-saturated-profile-and-common-zero-bound.md)给饱和系数映射、公共零重数≤n₀−rankΣ+1，n₀=(p−2)/3；最低单位/非中心仍开。
 
-R1035–40已付两次真实PD、source Fp²/Hermitian、Π²=−p、完美对称B及Q=ε⁻²ΦΠ：核一维纯正δ，负δ单射；实际全MW本原消去保Q²。p5用Raynaud好B、双中心/二次图，先减Teich再formal上施e₁；原J非整体良好。原首λ+R、全p倍积分尾、真正split-Hecke F₀及paired块重数一均保结果；不冒辅助C²/指定简单商Néron格。
+R1035–40的两次真实PD、source Fp²/Hermitian、Π²=−p、完美B与实际Q已成：核一维纯正δ、负δ单射、全MW消去保Q²。p5只在好B/formal上施e₁、先减Teich，非整个J良好；原全log/积分尾/F₀与paired块重数保结果。
 
 R1026两尾hypergeometric给明确C_*，全p>C_*原负δ首log不零。R1010 D₀非CM非挠：全p≥10¹⁸/p5mod6，p11可431。R1011实际简单商End_Q⁰=全实F₀、dim2f、rankf、MW⊗Q=F₀β；AST不给整单位或统一半径。全部类型/导子保原结果，不搬到变化X_d。
 
@@ -37,6 +37,8 @@ R1018–30原Fm、T5²/Z杀CM、全非约化仿射刚性、完整节点log/提�
 [R1003](results/R1003-global-scope-and-remaining-branches.md)：R1只剩完整N_ns(p)；p2/5mod9还需小惯性C³。R317还需整j、K=Q(√−3)、σ=1及二/三除法小域同时一致。完整惯性、非整j、变化K、σ非平凡及异小域大导子支路仍开。导子下界非上界；O1/O2或X₁新商即使单独完成也不等于Serre完成。
 
 ## O1：原同一保留标签
+
+[R1060](results/R1060-actual-X108-nonCM-Cartier-and-nine-torsion-ordinary-input.md)：原X108非CM四Cartier矩阵精确由B_n=P_n(3)=−a_p(E54)控制。明确九挠点/实际三次同源给原p2/5mod9时B_n≠0、非CM ordinary且核恰六CM。A_p=−S_n/3，但尚未证S_n=0⇒B_n=0，不能代原f_N单位。
 
 [R1059](results/R1059-original-fN-actual-X108-Raynaud-pairing-and-inverse-central-sum.md)：原Θ=f27，实际X108的z³=1−3sx³、w³=1+3sx³及Ω=dx/(z²w²)保整格/q尺度；Raynaud配对给原A_p=(-1)^N3^(3N+1)Σ_i(-1)^i binom(n,i)²/(3i+1)，n=(p−2)/3。全部ζ半线性已付，f_N=t²δ′A_p/[4(p+1)]；指定和单位与同h筛选仍开。
 
@@ -56,7 +58,7 @@ R1012/16/17/20/25/27未经筛选的完整theta分布、常平方1与全方向单
 
 R1034原两行bare=单位×[z^m](N/P)与有限递推已成：r2真余式/全分母根和，r8须留多项式部分；完整K共振缺陷不能删。r2另有R1041范数桥，两行总系数单位仍开。
 
-R1015/16及R976–1005的原regular/carry、Robert/Δ/LT/Hurwitz和K共振缺陷全保；低单位不强迫高坐标，所有分母根/多项式部分不可删。R988给同一c_(p−r)± iff F_(p−r)(0,−864)，r2/p11、r8/p5保原mod9；[除p坐标](notes/2026-11-26-original-high-coordinates-in-divided-Ramanujan-polynomial.md)与[AS比较](notes/2026-11-26-ahlgren-samart-actual-low-coordinate-comparison.md)不代总高系数单位。R963/991/994旧4008差集至200000只消费，原run44760218207/job136370438703及完整hash/预算保结果与归档。
+R1015/16、R976–1005原regular/carry/Robert/Hurwitz及K共振缺陷保原结果/逐字归档；低单位不代总高值，分母根/多项式部分不删。R988原r2/p11、r8/p5与mod9 scope完整；旧4008差集R963/991/994至200000已成不重开。
 
 ## O4：高度边界保留
 
