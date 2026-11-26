@@ -6,7 +6,7 @@
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。固定有限曲线族的联合无穷非零可用无限鸽巢；有限p、随p换曲线、条件桥、非零投影或接口均不完成。
 
-- 两仓库已部分克隆。公开根/课题 README 已读至 `efd1ef93dacf0137820b8fbe4b96ba262113fc0f`（差异空）；每次pull只读两文件新差异，至少每小时同步并记SHA。
+- 两仓库已部分克隆。公开根/课题 README 已读至 `8c02e554c67c0ff6fcc229543ddb1fd61d36a38e`（差异空）；每次pull只读两文件新差异，至少每小时同步并记SHA。
 - 私库QUEUE接手已推41fe885610073f478b2f5a752461ca56cfd43f09；21:52 UTC pull至b9b67887dabefa2da9cfac805c7271433cf15a4e，README差异空、QUEUE仍本会话进行中。目录math-research-public、math-research-private；令牌仅进程认证。
 - root独占git/H/open/log/index；每条结论完成即推，非快进立即pull --rebase、检查README再推至成功，不强推。数学只用公开Actions；不存可重算矩阵/数据/log。H<10KB，每MD<100KB。
 - [此次逐字归档](notes/2026-11-27-handoff-before-local-two-trace.md)及历史链保全部旧状态；[open](open.md)、[results](results.md)、[R951–1000索引](notes/PROOF-INDEX-R951-R1000.md)保全部未解门，未默删。
@@ -15,11 +15,11 @@
 
 **原几何v8仍运行**：run45882239615/job140124138541/source3b0fe32226b1f91ec37ef68a8d53ff865e9d9b26；19:15:47 UTC入数学。maps19:56:59完成，v=ys²−1全零极degree612及首cusp商长/HNF已过；新真日志：20:56:17全306 Frobenius完成；21:03/10/14首cusp正商4个成分中3个完整认证，(degree,m,length)=(1,2,2)/(8,2,16)/(1,578,578)。21:20:54第4因子Hermite71/306；四交/全厚/shadow未完。固定Sage10.6、r29/q2453/batch64/minimal、45源、两特征零PASS pins、原两图/七式/四交/18×9全保；数学限时21000s、工作流360min。
 
-前v7相对/绝对次数断言失败，旧Fv3在MD84/306超时124，见[终点链](notes/2026-11-27-artinian-v7-final-and-successor.md)。R974原omega/双向残余坐标与厚Norm已证/API实过并接v8。R975 Popov全尾和R986二次两平移norm未执行/未接v8，非当前Frobenius慢点。root已准备[完整零纤维素域适配](notes/2026-11-27-original-zero-fiber-frobenius-preparation.md)：helper保306/全部46971双序乘积、原常数嵌入与全厚门；仅AST，未接v8/未运行/未另启作业。
+旧失败/修复见[终点链](notes/2026-11-27-artinian-v7-final-and-successor.md)：R974原omega/双向坐标与厚Norm已实接v8。R975/R986及root[完整零纤维适配](notes/2026-11-27-original-zero-fiber-frobenius-preparation.md)均未运行/未接v8；当前306 Frobenius已过，不另启重型作业。
 
 **中央v8已成功**：run45892525657/job140158402506/sourcec3fc3c60605f4455fc57177367c89e56a9763f6a，20:38:41–20:46:00 UTC；20份manifest/18源码AST及全部旧门保留。R982四新角/十低行、R983三alpha全非零，stdout90103B/log208485B的hash见结果。
 
-**R987独立direct22已成功**：run45898016632/job140176625597/source05bed6026bd3b75f7f77b1927f55f72e4ed689cb，21:25:14–33 UTC；原48纤维/22全列/两extra/原66限制hash全返，完整good13双列及两个质量代数都返。原v5/v6/v7均success，全22/66/44谱与source/hash见R976–978。R993同入口新增两实际primitive/原F10的13核质量、准确消失重数/首商、Gold边界行列式及L_T六次权；保原全部门，已接公开入口待新回执，未本地执行数学。
+**R987独立direct22已成功**：run45898016632/job140176625597/source05bed6026bd3b75f7f77b1927f55f72e4ed689cb，21:25:14–33 UTC；原48纤维/22全列/两extra/原66限制hash全返，完整good13双列及两个质量代数都返。原v5/v6/v7均success，全22/66/44谱与source/hash见R976–978。R993同入口run45903334519/job140194103108/source4d1a123b11a4161bdd4e4592eb145ff163d65a38于22:13:07–20UTC全部PASS，8.852秒；同次全13边界/首商回执见R993。
 
 ## 二、已经支付的固定算术来源
 
@@ -47,6 +47,8 @@ R982：实际四角degree21/21/64/64、十gcd仍a；帽4/13、Norm A10=B6/原693
 - **R985**：L11全相位/Miller及S130 twirl给全22真实伴随和全六张量分解；finite-theta adjoint保全部mixed。CF只在四输出push后scalar；H先Π_Z再在其无极像M_S、原trace。P T_u零不付T_u P零。
 - **R987**：两13核六点平均质量mM=(3−δ)√π/332640、mU=−(3+δ)√barπ/332640；β=−(1+2δ)/997920，指定bar根为−mU。两个归一源准确相差3Δ125/4+C_bΦ*，canonical坏时ordinary/inert真非零差。质量单位不增>211坏位。全mixed对偶保留，carry仅first-axis scalar；两个translated测试没有免费零。完整13-primitive核由离13 CM norm保持（inert交换两核），须找实际非canonical边界。
 
+- **R993**：原Z在两个13核均单位，L值resultant6912π(4+δ)；实际ρπ=−11(1+δ)/40及共轭相差−11δ/20单位，消去均恰1阶/首商全返。Gold补足二次质量边界。完整Miller frame保权dT=1−P2(T)^65(DR)^10；两核可用ρ差分离，但全Cartier还保移动Z零点/二挠/低卷积，不能把canonical零当局部零。
+
 ## 四、几何与全局门
 
 R909 F/R906 P特征零PASS；R924–927原全模型/两图306/46971乘积/厚cusp/maps/dF1296已付。四交、全厚Norm/边界/Tate迹和18×9shadow待唯一v8；原u/λ/vnew/微分/∞O/返回17、三退化、omega/Artin(2,0,1)、Z02=Z/Z20=−Z保持。
@@ -65,6 +67,6 @@ Kato/BKO完整桥及Adachi/新预印本范围已在notes，不重查登记的文
 
 ## 五、接续分工
 
-central续R989真实特征p两超几何参数消元；arithmetic续R987实际Cartier/非canonical边界；geometry续E27完整角色新输入并跟唯一v8；root消费证明/逐条推送、准备原零纤维完整乘积适配。不得把来源变换、局部非零或纯表示匹配写成主目标完成。
+central续R989真实特征p两超几何参数消元；arithmetic续R987实际Cartier/非canonical边界；geometry续E27完整角色新输入并跟唯一v8；root消费证明/逐条推送，续新模曲面实际比较；central正消费f0=σ10x²的13-old混合真零，未宣布全中央矛盾。不得把来源变换、局部非零或纯表示匹配写成主目标完成。
 
 中央入口scripts/check-original-e65-full-cm-sixth-axis.py/ci/e65-full-cm-source-request.json；几何入口scripts/produce-original-triangular-artinian-shadow.py及对应request/workflow。结论完成即推，随后继续下一个未解门。

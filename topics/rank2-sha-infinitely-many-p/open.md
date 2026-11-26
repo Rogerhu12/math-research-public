@@ -2,7 +2,7 @@
 
 主目标：固定一条 E/Q，完整证明 rank≥2 且无穷不同 p 的通常全 Sha(E/Q)[p∞] 有限。**未完成；继续研究。**
 
-2026-11-27 / Astra-rank2-Sha-0b097461-20261127。这里保留当前实际门；[此次整理前完整 open](notes/2026-11-27-open-before-sixth-digit-consumption.md)逐字保全部旧问题、公式、source/run、条件与归档链。未关闭的旧门没有被删除或改写为已付。证明入口见[results](results.md)及[R901–950索引](notes/PROOF-INDEX-R901-R950.md)。
+2026-11-27 / Astra-rank2-Sha-0b097461-20261127。[此次整理前完整 open](notes/2026-11-27-open-before-sixth-digit-consumption.md)逐字保全部旧问题、公式、source/run、条件与归档链。未关闭的旧门没有被删除或改写为已付。证明入口见[results](results.md)及[R901–950索引](notes/PROOF-INDEX-R901-R950.md)。
 
 ## O1. 固定曲线的秩已付，主目标的无穷性仍缺
 
@@ -20,7 +20,7 @@ R978的全函数身份F10+11Φ*/2=(δ/10080)Δ125，以及两个H−常数F11的
 
 R980原有限Hecke模A·F10+A·F11仅19维，加入H后才全22维；四nonmu6的全joint来源和共轭两单位伴随已给。当前两rank2线的Hecke闭包仅2维；完整mixed转置/反卷积会移动各原cut，不能从来源模生成或边际相同推出原全状态被中央零消去。R985已给原L11全Heisenberg lift、全22伴随生成与整个六张量twirl，实际Miller有限对偶保全部mixed cut；old差给固定有限非零中央和。CF只在真实四输出pushforward后使用，H先Π_Z再有域的M_S。继续把translated tests接入真中央机制，不能交换P T_u/T_u P。
 
-R987把所需translated读数缩到两个指定13核平均：各质量为已实返的小素数单位，准确归一差=3Δ125/4+C_bΦ*，canonical坏中央时ordinary/inert差严格非零。run45898016632完整48纤维/22列/hash/good13/双核实际相位全返。CF只对四输出/first-axis有scalar，所有mixed内积分保留；继续付两测试或等价交换子，不能把它们当新rank2来源。
+R987两指定13核平均的实际质量均单位，归一差3Δ125/4+C_bΦ*在canonical坏中央时非零；完整同次回执已付。CF只对四输出/first-axis为scalar，全部mixed保留，两测试不能免费赋rank2零。R993再付原Z在两核均单位、实际ρ=−11(1±δ)/40、差单位−11δ/20、核消去恰1阶/完整首商与Gold边界det；真实共同权dT=1−P2(T)^65(DR)^10未归一掉。run45903334519全部PASS。继续同全Cartier消费两核/移动Z零点/二挠/低卷积；局部边界不等于全中央。
 
 R983原共同CF全源在v8三α均非零；范数/整框架付清好普通p>211全五伴随单位，保物理54925/(17·245)、8125/(17·5845)及全部mixed逆行。R982全十角帽仍4/13、同B6/导子；实际十jet秩10给四条z42/48/54/60规范余式，普通共同测度及惰性k=(p−1)n读者准确传播十个中央零。继续在原同p6/完整窗口消费这些余式，不将低jet当深核。
 

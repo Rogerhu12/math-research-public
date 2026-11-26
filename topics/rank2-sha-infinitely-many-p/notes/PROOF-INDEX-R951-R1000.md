@@ -93,3 +93,6 @@
 
 
 - [R990](../results/R990-level-twelve-cm-graph-trace-vanishing-at-two.md)：原level12新CM17图族经实际二同源到全二级K3，S3 transposition在t2上严格为Chow −1。仅在2支撑的u=1+2ω Artin元固定H/奇挠点，却对四级标记给B→B+A；完整图推拉及projector相容使任意17子群/level的原trace已在CH²_Q为零。独立depth-zero sign型/Mackey计算涵盖全部局部平移。保R988 Chow双逆/全部AJ图，不作用于旧canonical或原端点；更换实际辅助输入继续。
+
+
+- [R993](../results/R993-original-thirteen-boundary-values-and-common-frame.md)：原指定Z在两13核全部非零点为单位，固定L值的resultant=6912π(4+δ)，L⁶完整两坐标已返。两rank2原源的实际边界比例ρπ=−11(1+δ)/40及共轭相差单位−11δ/20，核消去重数恰1，首个完整商及Gold边界非零det已付。原canonical Miller函数R(X(P))/R(X(P+T))给整个共同frame缺陷和真实权1−P2(T)^65(DR(T))^10；未删P2/Ξ、移动Z零点或二挠边界。R711同六行保全部低卷积。run45903334519/job140194103108同原48纤维/22列/旧R987门全部PASS；不把局部边界零写成全中央零。
