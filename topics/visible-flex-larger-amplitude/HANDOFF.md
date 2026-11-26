@@ -4,7 +4,7 @@
 
 ## 规则与完整目标
 
-最近规则核查：2026-11-26，真实pull/rebase至 `952584fdab48ed972e4bfc7752539c090df4acd9`，根及课题README相对f0548477无差异，已完整读授权及规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
+最近规则核查：2026-11-26，真实pull/rebase至 `1167c2c56e44af1e1b03e35286bed6a3560322d9`，根及课题README相对f0548477无差异，已完整读授权及规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
 
 科学计算仅本公开仓库Actions；早前本地偏差及13:00 UTC纠正见[执行记录](notes/2026-11-20-public-actions-execution-correction.md)。根README已授权必要修改/发布；根唯一local git writer，代理只work/小源。每条结论普通commit/push；NFF立即pull --rebase循环再推，不强推。至少每小时pull，每次核双README差异/立即遵新规并记commit。raw只scratch/runner，不入Git/Release/artifact；只保完整小源/参数/run/SHA/紧凑结论。题≤200MB，MD<100KB，H<10KB，open<30KB。令牌只瞬时CLI，不写文件/提交/回复。
 
@@ -53,7 +53,7 @@ R653准确quarter；R654完整H²尺度；R655付原node/mid盲空间，故旧18
 
 新run45762076394/1已实际启动（初源a4a535ee），仅再生继续求解必要输入；实际旧末父/失败边界如上，不重宣旧结论或继承旧SHA。R683完整全旧行SOC已刊并排实际父后；子任务结束接open下一项，不等确认。
 
-R684完整新旋转度量设计已刊；新g支线先接实际重生v3父（不待旧PCG/SOC再生），双variant诊断后排physical/p4、mu.01、v3两方向×64实际求解（完整父永久点union、全J/J*、同H²/全变量）。见[新g入口](notes/2026-11-26-new-mean-metric-actual-solver-entry.md)。仅设计阶段改目标；选定后固定完整连续s均值公式再精化，未返不称收敛。 首两方向后已排同场完整first的D/L/H，先排除伸长导致20%比例丢失；固定core及必要K屏不保幅度，旧.228不继承。 [首次双variant诊断](notes/2026-11-26-actual-new-metric-initial-diagnostics.md)已返：旧max.01339785、physical.01471465、material.01333640；只换g未解1%误差，新p4优化继续。
+R684 [真实首physical/p4两方向](notes/2026-11-26-actual-first-mean-design-and-amplitude.md)已返90b9051e：Phi .0002472494→.0001932668、max .01471465→.01429595，alpha .5/.25，mu仍.01；64步Pg约.002远未驻点。该新场全922 first：D≤4.11806366、whole-image witness≥.93876190、support≥.30252893、嵌入已付；marker/K/固定g精化未付。初始[双variant诊断](notes/2026-11-26-actual-new-metric-initial-diagnostics.md)不以换g冒改善。移动均值不自动保20%比例，后继继续同场D/L/H检查并加幅度保护。
 
 R685活动面约束逆及v5完整入口已刊，排在首个v4/all-row SOC实际返回之后；原QP/母范数/全部行/欧氏停止不变，未返不称加速。新schema归因用read_constrained_solver_report，不交旧adc90冒读。
 
@@ -61,7 +61,7 @@ R686完整K分块及[同场first/K/四标记合并入口](notes/2026-11-26-same-
 
 R687给中心化正项Phi、趋零finite-max界及显式残差块权比；只代数，不改当前目标或宣称新数值。
 
-R688完整移动均值粗Gram+R685面PCG三源已刊；新目标全J/J*及均值两导数保全，链前显式v3回退。首newg实际返回后接其真实mu/父继续，未返不称加速。
+R688完整移动均值粗Gram+R685面PCG三源已刊；新目标全J/J*及均值两导数保全，链前显式v3回退。已排90b9051e/mu.01上的首1×64，再读其自己完整first；未返不称加速。
 
 R689固定均值连续Gram入口已刊：两准确场共同分割、公共lift平方恒等抵消、双方余项及全角全胞；只静态检查，接足够小的实际新候选，不给旧失败场虚报精化。
 

@@ -326,3 +326,5 @@ python "$SRC/read_mean_metric_candidate.py" \
 ## 本条入口的实际首次诊断
 
 [2026-11-26同一实际场双variant诊断](../notes/2026-11-26-actual-new-metric-initial-diagnostics.md)已经返回：重定义均值本身未解决百分之一误差；尚须实际优化、固定最终g和同g精化，不能把新目标命名作为完成。
+
+[首两条physical/p4实际方向与新场完整first](../notes/2026-11-26-actual-first-mean-design-and-amplitude.md)现已返回：实际下降但max仍.01429595、内层远未驻点；同场D/L及嵌入已付，完整K与固定g精化未付，继续R688真实方向。
