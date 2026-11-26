@@ -4,7 +4,7 @@
 
 ## 规则与完整目标
 
-最近规则核查：2026-11-26，真实pull/rebase至 `ae7de02d9388d130d4e18ab38ef44112d74167be`，根及课题README相对f0548477无差异，已完整读授权及规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
+最近规则核查：2026-11-26，真实pull/rebase至 `51d84b503698026fb3dd4aaf21517a0003eab86c`，根及课题README相对f0548477无差异，已完整读授权及规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
 
 科学计算仅本公开仓库Actions；早前本地偏差及纠正见[执行记录](notes/2026-11-20-public-actions-execution-correction.md)。root唯一分支写者；代理只scratch及未引用小源blob。每条结论普通commit/push，NFF立即pull --rebase循环再推，不强推。至少每小时pull，每次核双README差异/立即遵新规并记commit。raw只scratch/runner，不入Git/Release/artifact；保完整小源/参数/run/SHA/紧凑结论。题≤200MB、单文件<5MB、MD<100KB、H<10KB、open<30KB。令牌仅瞬时CLI。环境失联后的恢复及全部原字见下列固定历史；未补造raw。
 
@@ -34,9 +34,12 @@ R692[完整旋转连接](results/R692-nonlinear-rotation-connection-and-metric-e
 
 [R693](results/R693-so3-radial-closure-branches-and-error-interface.md)已证准确E=1的零Δ或切向反射分支及全六jet误差；首源未存closure汇总，需实际同场读。[R694](results/R694-so3-low-order-signed-quadrature-error-algebra.md)30ae完整signed Peano/低阶mixed jets/六jet和谱费用核已刊；[全胞integrand输入](notes/2026-11-26-direct-axisymmetric-continuous-integrand-envelopes.md)a846完整源/参数已刊未跑，[实际节点费用](notes/2026-11-26-actual-SO3-node-outward-evaluation-fees.md)1371完整源/参数已刊未跑，全四jet的literal工作重读对真盒支付Hermite/normalization/trig/旋转费用；只有限节点。[全角core/端盖](notes/2026-11-26-actual-core-chart-cap-outward-component.md)69c5完整源/参数已刊未跑，先完整正性再同lift真逆盒及六数组费用，不混普通/材料frame；完整积分/六jet/整面费用仍继续。[R695](results/R695-so3-zero-closure-bubble-uniform-IFT.md)新证双内部bubble满秩、显式固定端轴右逆、严格统一收缩球及完整三角隐式J/J*；实际IFT条件未验。闭合或E=1都不替代剩余Gram/曲率/全域几何。
 
-03旧run45811843606/1已terminal failure：[实际发布故障与恢复](notes/2026-11-26-actual-publication-failure-and-complete-recovery.md)保完整证据。stage6 v2准备真实成功；stage7子进程自然返回后发布58000B守卫抛错，退出码/场/Phi/末bundle未返，不推成功/失败，reader/zero未执行。03b新run45820592817已排同科学5step；3cb1完整followup先存/打印实际return，68a3仅压清理metadata为count/bytes/SHA，原限额/科学设置不变，必要warm与新参考已返。新profile6ffc/reference0f042，必须读新运行身份，不回填旧结果。
+03旧run45811843606/1发布故障终止，stage7科学退出码/场/Phi/末bundle未返，不由新run回填；[完整恢复证据](notes/2026-11-26-actual-publication-failure-and-complete-recovery.md)保留。新03b运行45820592817使用3cb1/68a3完整控制修复，原科学设置和字节上限保。
 
-[零Δ完整入口](notes/2026-11-26-zero-closure-so3-complete-entry.md)5b4c/7698/b4d7/2741/b25五源及2step已刊排03，绑定同v2真实参考。双内部C²bubble、全部core/H/omega、同g，完整6×6/9×9隐式一阶J/J*与Newton分离，全三数值Gram行/原192+amp/全部永久点真筛。首根失败写incomplete，纯reader可读；未执行base core统计null不冒测量。全解析及三方静态审查保独立note；未返任何数值根/方向/证书，IFT、积分、全域几何和精化继续。
+[03b真实3–6](notes/2026-11-26-actual-axisymmetric-first-field-and-zero-root-failure.md)：新reference0f042/profile6ffc；606完整hDelta返fbf2b38/989740，max .5170375580→.5154401838、Phi213.8913108→212.1481877，一方向接受/末mu.01，有限全几何过、K product .74922023，全部1283/262点和双支保。alpha/QP/Pg/tol未读不猜；约0.515误差不排昂贵整域证书、不冒精化/驻点。pure6d读成功。
+
+[零Δ五源](notes/2026-11-26-zero-closure-so3-complete-entry.md)5b4c/7698/b4d7/2741/b25全body保：同reference首读实际root失败，首block[0,1,7]、残差.3701647466/修正.0722872588、回溯未下降；report00a00590 incomplete，没有initial/final/J/J*，纯reader成功并诚实null。继续扩大内部bubble支持的新输入，保原root/全部变量/行/全几何；不是IFT非存在结论。完整6×6/9×9implicit与Newton分离、全三Gram行和原192+amp仍保，连续根/积分/六jet/全域几何及精化继续。
+
 
 <!-- visible-larger-parallel-02:start -->
 并行公开Actions02：[run 45800076687/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45800076687)；[实际记录](notes/2026-11-26-public-actions-45800076687-1.md)。阶段`followup_waiting`/running；已返42，exit=未返。
@@ -50,4 +53,4 @@ R692[完整旋转连接](results/R692-nonlinear-rotation-connection-and-metric-e
 
 ## 当前公开Actions执行
 
-01 [run45762076394/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45762076394) 已正常success；真实stage止于77（49 followups），11:04:33 UTC controller budget checkpoint/research_complete=false。新排归因/ownfirst未准入；不把job终态当课题完成。完整[实际记录](notes/2026-11-26-public-actions-45762076394-1.md)及76/77 note保源码/最后规则读取。当前02已定位真实39异常并排完整修复；曾因完整queue98126B≥95000暂不准入，已仅去缩进至80236B、全部16step与参数严格相同，03b run45820592817已真实启动/warm已返；旧03科学未返部分不回填。节点/corecap/同场积分费用并行落地，未达完成标准不停止。
+01 [run45762076394/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45762076394) 已正常success；真实stage止于77（49 followups），11:04:33 UTC controller budget checkpoint/research_complete=false。新排归因/ownfirst未准入；不把job终态当课题完成。完整[实际记录](notes/2026-11-26-public-actions-45762076394-1.md)及76/77 note保源码/最后规则读取。当前02已定位真实39异常并排完整修复；曾因完整queue98126B≥95000暂不准入，已仅去缩进至80236B、全部16step与参数严格相同，03b完整hDelta已返而zero首根失败，正续纯归因和宽bubble实际输入；旧03科学未返部分不回填。节点/corecap/同场积分费用并行落地，未达完成标准不停止。

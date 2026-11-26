@@ -410,3 +410,5 @@
 - 2026-11-26 12:52 UTC：刊69c5完整同场core/cap向外消费者、完整证明及600秒ready。当前/固定core各自全圆正下界，真残差+全正导数保证同一实lift根盒；Gamma用普通normal frame、cap用固定材料frame，真R直接来源4e完整盒。原7f六工作数组重读对真盒付全inverse/trig/carrier/算术，无虚构浮点精度。root与两peer完整静态审查，未执行科学；有限角和正性不冒整面/全t/完成。
 
 - 2026-11-26 12:56 UTC：真实02索引显示完整followup queue98126B被原95000B守卫拒绝，新solver尚未准入。仅去JSON缩进至80236B，解析对象全等、原16step/所有argv/summary/顺序均保，不改上限、不删科学。立即推使原runner继续poll；H再缩至固定7bad全记录链接，保全部未付范围及动态槽。
+
+- 2026-11-26 13:01 UTC：亲读03b实际3–6并保完整紧凑证据。606同新reference0f042/profile6ffc返fbf2b38/report989740，max .5170375580→.5154401838、Phi213.8913108→212.1481877，一方向接受/全有限几何过但远未达阈值；alpha/QP细节待纯读。b4d7窄bubble首root真实失败res .3701647466，report00a00590 incomplete/no场/J，b25成功读null；转宽内部支撑同完整来源，不放松root验收、不推IFT不存在。H/open§7更新，§1–6原样。

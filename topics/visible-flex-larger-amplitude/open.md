@@ -113,6 +113,8 @@ R648/651/652仍只是开放prefix；R669/671的有限表示/线性唯一性有�
 2. 同一deep g仍有实际下降。后继方向必须绑定9b937e/993556及其完整位置，使用真实μ.000625或明确声明新μ；若改p或求值规则，须重读新baseline，不跨目标/测度相减。更充分的内层、原全C多轮分离与新表示都可继续，不能把256预算退出叫驻点。已有完整d146同profile refinement+SOC源，但当前ready仍指8a，未执行；要用更新父须先改完整来源参数。真正refinement要固定g/参数/t区间并实际下降至机器或原求解容差。
 3. [真实Haar76/77](notes/2026-11-26-actual-frozen-Haar-first-full-direction-and-attribution.md)在e35ce/027c固定目标上返bcdcdab/a76c4d，max .01500409670694389→.014064593921178363、centeredPhi .00018604609821128162→.00017030316420247091，1条真实接受/末μ.01，必要筛通过但自身连续几何未付。公开summary和完整job日志均缺alpha/QP状态/Pg/J；补归因与新场ownfirst虽已排，却在01准入结束后未执行，不能编号78/79或填输出。准确Haar定义与工作carrier精度分开，71请求精度未达；[faa863连续Gram](notes/2026-11-26-accurate-Haar-continuous-Gram-consumer.md)已刊未跑。后续必须用完整真实目标/场重建并核身份，不能由SHA造raw或换g冒续算；当前全场marker/K/reach/metric和同g精化仍欠。
 4. [完整SO3六源](notes/2026-11-26-complete-closed-SO3-meridian-solver.md)已接独立公开run45800076687/1的必要输入再生之后。冻结当次真实父T0/材料图，全部omega shared jets/free core/H与原全角正权/原192+amp/历史地点保。hDelta闭合参与全部J/J*/六jet，不能把单位T说成最终E恒1。新jet-sum范数和μ.01明确；最多4×64完整共松弛恢复后1×16真实metric方向，slack不能冒物理可行。实际成本/求值/root/归一化责任据新场返回处理，不新增fixture或继承父证书。R692经典连接定理不冒非圆存在或所有C²弱类结论。
+03b独立准确轴对称输入已真实返606完整hDelta场，max .5154401838413587；零闭合原窄bubble在首block真实根失败，未产场/J。完整身份、实际数值和未付范围见[真实3–6](notes/2026-11-26-actual-axisymmetric-first-field-and-zero-root-failure.md)。继续纯方向归因和更宽内部bubble完整尝试，不以高误差场安排昂贵全域证书，不把根失败升格为不可能；R694全胞/节点/corecap/积分与六jet消费者并行补齐。
+
 5. 真正候选达到足够小的实际误差后，完成其自身全域metric≤1e−6、闭连通C²嵌入、固定H整像20%幅度及含反射δE>0、全t reach≥.03D、同一固定问题实际网格/频率精化与多t网格交付；严格存在性缺口必须正面处理。若当前输入不足继续换输入/机制，不能停在条件定理、阶段结果或下一步建议。
 
 公开只保完整小源/参数/推导/真实标量/run/SHA；原raw、缓存、逐胞盒和完整大报告留runner或scratch。当前容量按实际已跟踪文件重新计数，不沿用§6历史值；旧raw普通移出必须保完整小结、源/参数和历史恢复。每条结论推送，冲突立即rebase重推；每次pull核双README且至少每小时一次。未达到README全部标准不得收尾，达到后继续提高比例。
