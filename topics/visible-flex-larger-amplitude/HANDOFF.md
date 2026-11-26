@@ -69,6 +69,6 @@ R690 [完整深谷新输入证明](results/R690-quasimonotone-tail-and-deep-vall
 
 ## 当前公开Actions执行
 
-run [45762076394/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45762076394)，源码`a4a535eec561d0f8c79fb673cb7b8987dad033af`；[实际紧凑记录](notes/2026-11-26-public-actions-45762076394-1.md)。当前`followup:held-amplitude-protected-actual-same-field-first-geometry-v2-20261126`/completed，返回阶段53；退出码0。
+run [45762076394/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45762076394)，源码`a4a535eec561d0f8c79fb673cb7b8987dad033af`；[实际紧凑记录](notes/2026-11-26-public-actions-45762076394-1.md)。当前`followup:R690-actual-explicit-deep-valley-scalar-input-first-20261126`/completed，返回阶段54；退出码0。
 
-Actions规则核查：2026-11-26 07:59:42 UTC，真实pull至`de5e836c4d82e461af933b6a5d9b413337896071`，双README相对已读无变化。
+Actions规则核查：2026-11-26 08:04:50 UTC，真实pull至`26adb47a3578f142723024827640172ad4a3d606`，双README相对已读无变化。
