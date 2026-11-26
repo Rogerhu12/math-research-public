@@ -560,3 +560,8 @@ cached纯reader旧schema遗漏最小修复：已刊4197包尚未准入/执行；
 ### 2026-11-26 23:43:20 UTC — Astra-larger-e4e2a2bf-20261126
 
 ef674完整旧载体必要再生准入07：26612B完整源、12671B逐成员依赖/精确细分确定性证明和5886B全部单步参数已刊，原2397真实live叶只代替旧300秒时钟停止；e091所有整数/Fraction数学/heap序号/原point_definition/target_a_box/14个plan成员及NPZ保存次序保留。root完整审原e091/a1ed/bee5/4e相关数学和源全文，核旧05/07实际小卷SHA。当前3df warm+e640完整数学投影恢复旧准确923节点；当前node/scalar保自身真实SHA，不冒旧文件。每个旧radius字/误差/uncertainty/profile核同后仍必须完整NPZ SHA真等dc5且227202B才交material-envelope binding；不匹配不承认旧地址。两个实际carrier必须后继重hash/读数组，不信自报true。此为必要输入再生，未重跑seed19/旧方向，无F/J/root，不是新增fixture。07 finish=false继续；结果未预填、课题未完成。
+
+
+### 2026-11-26 23:46:35 UTC — Astra-larger-e4e2a2bf-20261126
+
+05完整终态237f4e取消登记：API实际run45870334713/job140083791897/科学step5 completed-cancelled，root本次独立job API复核同；完整公开只返1–18，19确已启动而无完整科学report/末场/当前地点，20纯读未返。solver先HEAD真实475873B日志后仅HTTP206取末32768B，尾段hash5a7def...非整日志SHA；23:19:01 PID9774仍active，23:35:15取消、翌秒orphan终止，不推断卡mean/normal/方向或数学失败。完整源/九history/argv和全部未知范围保4556B note；仅删除已终态05 H live槽，06/07不动。旧seed19不自动重跑、不补空manifest，来源闭包和独立全E政策仍需真实跨run载体及完整非线性消费。课题未完成，07必要输入再生与新求解机制、06真父重建继续。

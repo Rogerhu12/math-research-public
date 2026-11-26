@@ -4,7 +4,7 @@
 
 ## 规则与完整目标
 
-最近规则核查：2026-11-26 23:43:46 UTC，真实pull/rebase至 `a720a9163e4206c50e4531a710f64856d5c90587`，双README相对`1e79adc1ca242e390a38aa7d41bcdc187782ca8e`无差异，继续遵守全部规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
+最近规则核查：2026-11-26 23:46:35 UTC，真实pull/rebase至 `5aa3756ca2aceac9a290fff026cbc667c9285a6f`，双README相对`a720a9163e4206c50e4531a710f64856d5c90587`无差异，继续遵守全部规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
 
 科学计算仅本公开仓库Actions；执行偏差见[早前记录](notes/2026-11-20-public-actions-execution-correction.md)及[四次大JSON整读纠正](notes/2026-11-26-large-file-connector-read-correction.md)。root唯一分支写者；结论即普通推，NFF立即rebase循环，不强推。每次pull核双README差异并遵新规，至少每小时，记commit。raw只scratch/runner，不入Git/Release/artifact；保完整小源/参数/run/SHA/紧凑结论。题≤200MB、单文件<5MB、MD<100KB、H<10KB、open<30KB。令牌仅瞬时CLI。终端失联与恢复/云API普通快进记录保7774固定H；旧scratch迁移未确认，不冒恢复。
 
@@ -19,7 +19,7 @@
 
 ## 03b与05的完整既有边界
 
-旧03b/03及05的5–18完整输入、失败、初字和地点链全保7774固定交接及[8–11全归因](notes/2026-11-26-run05-actual8-11-integral-direction-full-trial-families-and-history.md)；不重做R697/R702/R705。[R706](notes/2026-11-26-run05-actual-input-identities-and-same-mathematical-target.md)同准确g不迁工作字节。[direct后退SOC四全源](notes/2026-11-26-direct-integral-complete-backtracked-SOC-source-and-policy.md)及九历史ready已刊；seed19真实返回后加第十历史再准入，全部原参数/最终memory复读保。
+旧03b/03及05的5–18完整输入、失败、初字和地点链全保7774固定交接及[8–11全归因](notes/2026-11-26-run05-actual8-11-integral-direction-full-trial-families-and-history.md)；不重做R697/R702/R705。[R706](notes/2026-11-26-run05-actual-input-identities-and-same-mathematical-target.md)同准确g不迁工作字节。[direct后退SOC四全源](notes/2026-11-26-direct-integral-complete-backtracked-SOC-source-and-policy.md)及九历史ready已刊；[05实际终态](notes/2026-11-26-run05-terminal-cancelled-with-seed19-unreturned.md)取消、19已启未返；九历史ready不冒空准入，未知完整责任交新E合同。
 
 ## 04及旧02边界
 
@@ -51,10 +51,7 @@
 
 
 
-<!-- visible-larger-parallel-05:start -->
-并行公开Actions05：[run 45870334713/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45870334713)；[实际记录](notes/2026-11-26-public-actions-45870334713-1.md)。阶段`followup:complete-supported-unit-fixed-reference-normal-full-history-first-20261126-05`/running；已返18，exit=未返。
-并行05规则核查：2026-11-26 23:18:59 UTC，真实pull至`60376d32796aacad54fdf47652fdf85168666a6c`，双README无变化。
-<!-- visible-larger-parallel-05:end -->
+
 
 <!-- visible-larger-parallel-06:start -->
 并行公开Actions06：[run 45904402595/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45904402595)；[实际记录](notes/2026-11-26-public-actions-45904402595-1.md)。阶段`followup:resume-20261126-actual-R671-v3-full-phi-continuation-02-rebuild06`/completed；已返31，exit=0。
