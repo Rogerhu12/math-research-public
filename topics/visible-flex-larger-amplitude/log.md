@@ -41,3 +41,7 @@
 ## 2026-11-26 15:20:14 UTC — R696完整角向表示首轮科学入口
 
 刊五完整新源d2f8/8fa9/7b7c/3654/3d9c和[完整实现说明](notes/2026-11-26-R696-angular-unit-complete-entry.md)，同真实0f042/profile6ffc、全1334847自由量及新正范数，完整角积分中心s/ss、固定I/J高度及全部core隐式导数/端口保；准确G恒等式不删数值G行。完整两步参数7e1c838ec05b6e19c25a602c9b5d3f0c687575cf71924a685f02b84a053240c5已排03b，1×32/rest2×32、mu .01/原H，所有真筛和已知地址保；仅生成rows-*返后清理。不是旧场checkpoint继承、未加SOC、尚无新实际求解返回。
+
+## 2026-11-26 15:25:21 UTC — 真实48归因与同父缓存的完整64步继续
+
+48纯归因真实返9f04f252：恢复alpha1/11adv/KKT tol，metric alpha1/16/16adv iteration_limit/Pg4.769888≫tol5.208e−6；全197行。满步真Phi降但g .0028348778>0，不能将全部小步只归内层。完整数值附[内点入口§7](notes/2026-11-26-actual-parent-interior-restoration-entry.md)。刊完整4e9e缓存helper/174b driver/9b87 launcher/6982 reader，原234ac/d3f25方法不改；真793b父/同g/norm/fullC，首次legacy数值字现在绑定，不倒填旧checksum。746e完整1×64/rest4×64参数已排02，完整来源/责任见[缓存说明](notes/2026-11-26-normalized-parent-cache-adoption.md)。raw manifest/arrays只runner，无新方向结果预填。

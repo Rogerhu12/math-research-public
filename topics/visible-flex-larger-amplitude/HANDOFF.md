@@ -4,7 +4,7 @@
 
 ## 规则与完整目标
 
-最近规则核查：2026-11-26 15:20:34 UTC，真实pull/rebase至 `849e406dc4f8bff10f0357d0724ac05093fef546`，双README相对`37413324ac8b062522f9f8968586a76ba71b4871`无差异，授权及规矩继续执行。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
+最近规则核查：2026-11-26 15:25:37 UTC，真实pull/rebase至 `ee17d8a29b93fb59d4db538ba8db2148f8f3aecd`，双README相对`849e406dc4f8bff10f0357d0724ac05093fef546`无差异，授权及规矩继续执行。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
 
 科学计算仅本公开仓库Actions；早前本地偏差及纠正见[执行记录](notes/2026-11-20-public-actions-execution-correction.md)。root唯一分支写者；代理只scratch及未引用小源blob。每条结论普通commit/push，NFF立即pull --rebase循环再推，不强推。至少每小时pull，每次核双README差异/立即遵新规并记commit。raw只scratch/runner，不入Git/Release/artifact；保完整小源/参数/run/SHA/紧凑结论。题≤200MB、单文件<5MB、MD<100KB、H<10KB、open<30KB。令牌仅瞬时CLI。终端13:55 UTC起失联期间依根8以小文本connector提交；环境恢复后已重建blob:none/sparse检出并补真实pull，在线核规原字保b20f30ce及其固定历史；raw未补造。
 
@@ -23,7 +23,7 @@ R653 quarter、R654全H²及R655旧1845+六Gauss5532=7377正权观察、.5/.5测
 
 ## 本次实际结果与继续入口
 
-旧mean61/63–66/R686/R666/7ebb保固定历史。02旧39/40绑定错误经42定位，实际[43–45](notes/2026-11-26-actual-normalized-parent-so3-four-restorations.md)原7e返3ef85/3b73，四恢复仍g>0且metric0；其全部原读数保ca7完整H。现在[真实46–47](notes/2026-11-26-actual-parent-interior-restoration-entry.md)0f542从同3ef续显式1e−8内点Phase I，1恢复/1metric均接受返793bde45/bb5c52e0：原g 2.148238254e−10→−6.229263438e−9，Phi .006744440395→.006732795880，max .03681545019→.03677022562；2813/2781点双支真筛通过，mu .01，同d021/profile0a223/modelad017/normc4b2/全原输入。停止仅方向预算，alpha/Pg尚未公开，已排原1e207纯归因；下一完整同场方向与严格固定参考缓存继续，不冒连续或驻点。
+02旧mean/43–45全来源保[实际记录](notes/2026-11-26-actual-normalized-parent-so3-four-restorations.md)与cd233完整H，四恢复后g仍正。现[46–48](notes/2026-11-26-actual-parent-interior-restoration-entry.md)同d021/profile0a223/modelad017/normc4b2，1恢复/1metric接受返793bde45/bb5c52e0：g −6.229263438e−9、Phi .006732795880/max .03677022562，2813/2781点双支通过。恢复alpha1/KKT tol，metric alpha1/16/16-budget、Pg4.7699≫tol5.208e−6；满步下降却真g .00283488，未驻与几何截步并存。[完整缓存继续](notes/2026-11-26-normalized-parent-cache-adoption.md)4e9e/174b/9b87/6982已排02：真793b续1×64、rest4×64/mu.01；234ac/d3f25全方法不改，首次旧cache为新完整字节绑定，缺项原provider回退。全C/原g验收/同目标保，后续全行SOC继续，未冒连续或驻点。
 
 R690深谷/旧deep两256返9b937ee/993556及自身first bbefd075、R691冻结Haar返bcdcdab/a76c4d全部精确来源/适用域/未付责任保固定889ec全文及所链notes。均未驻点/精化；旧01后排归因及ownfirst未执行。R692完整经典旋转连接证明不推任意C²或非圆存在；原父SO3六源和原完整q链仍保。
 
