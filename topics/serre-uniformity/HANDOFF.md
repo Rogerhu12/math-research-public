@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。本轮已部分克隆并真实pull main，读两README/H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则读至36cf1ed2。不重做已登记结论或窗口。
 
-**公开两README已读提交：f3a7faede617e40f3112020fc37328374da9e5b2**（2026-11-27 03:43 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
+**公开两README已读提交：6f9a83a805d06db824107ad5f4415b5f94cd1483**（2026-11-27 03:53 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
 
 已真实部分克隆/pull；终端再次不可用，按根规矩8用连接器小文本同步、读两README差异、带expected_sha非force提交，恢复后立即pull --rebase。拒绝即同步重基再推至成功。令牌仅CLI；根维护main/H/open/index/log，子研究独立稿，每条结论立即推。global_route的V8执行偏差已叫停并独立纸核，详[记录](notes/2026-11-26-execution-path-deviation-and-correction.md)，其输出不作证明/合规窗口。
 
@@ -14,15 +14,13 @@ H<10KB、open尽量<30KB、每MD<100KB、topic<200MB；无可重算raw、不写�
 
 ## 最新全局实际来源
 
-[R1058](results/R1058-original-Cartier-resonance-and-complete-lowest-residue-source.md)：唯一Jhat−3rJhat′=(1−r)^(2ℓ−2)/q²−A1²r^ℓ，gdb=dR_can+(r/b²)^(p−1)db且Cartier=db。全Q=Cartier(gF_a)、Tλ/A准确含两pth修正；实际最低=Σ三CM Res Fλ{g(DL)^p−g^(p+1)(DL)^(p²)}db，原D与Frob总和完整，单位仍开。
+[R1058](results/R1058-original-Cartier-resonance-and-complete-lowest-residue-source.md)：规范Jhat与原Q的Cartier身份、Tλ/A两pth修正已付。§§8–11以P=qJhat迁完整D/Q/Q²最低到全部P根；q根、b0、∞无残数，P非齐次Gauss forcing不删。P根至多四重（四重仅可能r1/9）、实际L_D极阶≤9；原全残数和非零仍开。
 
 [R1056](results/R1056-original-kernel-lowest-CM-single-coefficient.md)：原核C(T₀)=(-3)^(ℓ−1)[r^(ℓ−2)]q³/j/2，全部原尺度/分母已付；不等同端点、范数或DQv。 R1056 §6现另给全p6N5的核列C_s=(-3)^d[r^(d−1)]q^(s+1)/j^(s−1)/[s(s−1)]，s2/8、d=(p−s)/3；H′=h²直接重推，不扩原bare身份。
 
 [R1055](results/R1055-original-complete-first-log-canonical-rational-primitive.md)：原完整v的唯一规范V=6(bU₁+b²U₂)/(A1²r^ℓ)；全商/有理代表、全部三CM极部与pth歧义均付，不跨共振。
 
 [R1052](results/R1052-original-complete-CM-profile-and-actual-lowest-functional.md)：actual full-node中心赋值直接给全部normal极阶界，E一维像保全部返回；source u_s/ε^p的wholeR/p Dickson比较与全primitive误差均付。原完整行h̄_c=−Σκ₁^kc_kλ₀^−(ℓ−k)[Z^k](T_c/A)(B_CM)w^(ℓ−k)/(2m)。最低C_CM(T)=−3^(ℓ−1)/A1·[r^(ℓ−1)]T((1−r)^(1/3))/((1−r)^(5/3)j³)=2B(c,L_CM)。实际读数2B(v,QD L_CM)保Q²；单位/深盘排根仍开。
-
-R1050原target短PD/PF与全部安全分母、双incidence单位，现由R1052完整消费。
 
 [R1045](results/R1045-original-MW-annihilator-nonzero-reduction.md)/[R1046](results/R1046-original-p5-complete-CM-flag-and-MW-nonzero-reduction.md)：两行p>C_*原MW消去后M1，三CM/Euler排contact；p5双中心/∞全保。[R1047](results/R1047-original-MW-saturated-profile-and-common-zero-bound.md)给饱和系数映射、公共零重数≤n₀−rankΣ+1，n₀=(p−2)/3；最低单位/非中心仍开。
 
@@ -75,7 +73,5 @@ R696早已证明同一全局Φ候选Ω_actual={0}，R832已消费；不重做、
 [R1053](results/R1053-original-scalar-disjoint-window-through-500000.md)：新增7878素数的原f/g窗口200000<p≤500000完整无零，真实run45869953028/45874715945及hash保结果；已成窗口不重开。
 
 [R1054](results/R1054-original-lowest-CM-column-kernel-candidate-counterexample.md)：p47 K15=23排最低列恒在Q核候选，不代指定值。
-
-继续实际2B(v,QD L_CM)及原norm/端点、同h与O0；已完成窗口不重开。
 
 [R1057](results/R1057-certified-original-p47-actual-lowest-functional.md)：run45880257064/job140117536918、源9543f2ef，原p47完整DQv最低C=15三读一致、Bcv0、首w¹。§5已核全MW范围，原X₁该c₁正赋值深盘唯一有理点为c₁；不推其它盘/全p/O0。

@@ -284,6 +284,226 @@ $$
 
 (1058.18) 是原指定最低值的全源表达，其各组成有明确规范，所有真实返回均保留。R1057 的固定 $p=47$ 真值 $15$ 只支付该输入；本篇不据此外推全 $p$，也不将 $\widehat J(1)$、R1056 的核行系数或原 bare 系数自动视为同一值。后续继续求 (1058.18) 的指定非零性或其它足以排非中心深盘点的输入，O0 完整全局覆盖仍开。
 
+## 8. 规范分子的次数与原 $D$-primitive
+
+以下仍对全部 $p=6N+5\ge41$，置
+$
+x=1-r=b^3,\quad d=\ell-1,\quad M=N+d=(p-3)/2,\quad
+P=q\widehat J.
+$
+这里的 $P$ 不是 R1048 的核 primitive 分子。原反射给单首 $Q$ 的次首系数 $-N/2$，故
+$
+q(r)=Q(0)^{-1}r^N(1-N/(2r)+O(r^{-2})),
+$
+$
+W_{\rm poly}=A_1^2r^\ell(1-(3N+2)/r+O(r^{-2})).
+$
+(1058.2) 中 $r^d$ 的算子系数为 $1-3d=3$，而
+$3N+2=(p-1)/2$。因此
+$
+\boxed{\deg\widehat J=d,\quad\deg P=M,\quad
+\operatorname{lc}\widehat J=A_1^2/6,\quad\operatorname{lc}P=Q(0)/6.}
+\tag{1058.19}
+$
+$\widehat J$ 在 $q$ 根至多简单极，故 $P$ 是多项式。完整一阶式为
+$
+Pq-3r(P'q-Pq')=\Delta,\qquad
+\Delta=x^{2\ell-2}-A_1^2r^\ell q^2.
+\tag{1058.20}
+$
+在 $q(\alpha)=0$ 处，
+$3\alpha P(\alpha)q'(\alpha)=(1-\alpha)^{2\ell-2}\ne0$，
+所以 $(P,q)=1$。又 $P(0)=1$。
+若 $\widehat J(1)=0$，则 (1058.2) 给
+$\widehat J'(1)=A_1^2/3$，所以 $P$ 在 $1$ 至多简单零；
+没有假设该端点非零。
+
+定义
+$
+c_H=\frac{(-3)^d}{1-\ell},\quad
+H_0(r)=c_Hr^{-d}\widehat J(r)^{-2},\quad
+d_0(b)=\frac{b^2-b}{3},
+$
+$
+K_D(b)=d_0(b^p)H_0(1-b^3),\qquad
+L_D(b)=K_D'(b)=d_0(b^p)\frac{dH_0(1-b^3)}{db}.
+\tag{1058.21}
+$
+$1-\ell=2/3$ 是单位。原 $Z=-r(q/j)^3/3$ 给
+$
+Z^{1-\ell}/(1-\ell)=c_Hr^{-d}(j/q)^{3d}.
+$
+由 $3d=p-2$、$\widehat J=j/q\bmod r^\ell$、
+$\widehat J^p=1+O(r^p)$，此式的全部 CM principal part 正等于 $H_0$。
+这是原 $Z$ 的准确尺度。
+
+原 $D_aL_{\rm CM}$ 在 $b=1,\zeta,\zeta^2$ 的 primitive 系数依次为
+$0,-1/(\zeta-\zeta^2),+1/(\zeta-\zeta^2)$。
+$p\equiv-1\bmod3$ 时它们正是 $d_0(\alpha^p)$。
+又 $d_0(b^p)-d_0(\alpha^p)=O((b-\alpha)^p)$，
+而 $H_0$ 的 CM 极阶为 $d<p$，故
+$
+\operatorname{PP}_{b=\alpha}L_D
+=\operatorname{PP}_{b=\alpha}(D_aL_{\rm CM})
+\quad(\alpha^3=1).
+\tag{1058.22}
+$
+
+## 9. 完整最低值迁移到全部规范根
+
+保持原 $\mathcal F_\lambda=T_\lambda/A$、$g=r^{2\ell-2}/A^2$，令
+$
+\mathcal I=\mathcal F_\lambda
+\{gL_D^p-g^{p+1}L_D^{p^2}\}\,db.
+\tag{1058.23}
+$
+三个 CM 点处 $\mathcal F_\lambda$ 正则、$g$ 有 $2\ell-2$ 阶零。
+(1058.22) 替换的差正则，其 $p$ 次和 $p^2$ 次幂也正则；
+故 (1058.18) 的完整 CM 总留数就是 $\sum_{\alpha^3=1}\operatorname{Res}_\alpha\mathcal I$。
+
+全部其它极点如下逐一支付；次数界指微分系数，无穷另包含 $db$ 的二阶极。
+
+1. 非零 $S$ 点是 $q(r)=0$。因 $(P,q)=1$，$H_0$ 至少二阶零、$L_D$ 至少一阶零；$\mathcal F_\lambda$ 至多简单极、$g$ 至多二阶极。两项的阶至少为 $p-3$、$p^2-2p-3$，均无极。
+2. 在 $b=0$，$\mathcal F_\lambda$ 至多简单极、$g$ 至多二阶极。若 $\widehat J(1)\ne0$，$H_0(1-b^3)$ 正则、导数至少二阶零，故 $L_D$ 至少 $p+2$ 阶零。若 $\widehat J(1)=0$，该 $r$ 零至多简单，$H_0$ 的 $b$ 极阶至多六、导数极阶至多七，而 $d_0(b^p)$ 有 $p$ 阶零。最坏 $\operatorname{ord}_0L_D\ge p-7$，两项阶至少 $p(p-7)-3$、$p^2(p-7)-2p-3$，对 $p\ge41$ 为正。即使 $P(1)=0$，这里的留数仍为零。
+3. 在无穷，$g=O(b^{p-1})$、$\mathcal F_\lambda=O(b^{-1})$。由 (1058.19)，$H_0=O(b^{-3p+6})$、$K_D=O(b^{6-p})$、$L_D=O(b^{5-p})$。两项系数最高次数至多 $-p^2+6p-2$、$-p^3+6p^2-2$，均至多 $-2$，所以无穷无留数。
+4. 其它有限潜在极点只剩 $P(1-b^3)=0$。它与 CM 点不交，因为 $P(0)=1$；与非零 $S$ 不交，因为 $(P,q)=1$。
+
+全局留数定理给
+$
+\boxed{
+\mathcal C_{\rm CM}(T_{D_aQ_{\rm op}(1-Q_{\rm op})\lambda})
+=-\sum_{P(1-b^3)=0}\operatorname{Res}_b\mathcal I .
+}
+\tag{1058.24}
+$
+这里保留全部根及真实重数；若包含 $b=0$，该项已证为零。
+非零 $b$ 的重数 $h$ 根处，$H_0$ 极阶为 $2h$，$L_D$ 极阶至多
+$2h+1\le2M+1=p-2$；§11将其改进为九阶界。
+直接相乘还有全式
+$
+\boxed{
+gK_D\,db=\frac{c_H}{A_1^2}\,
+d_0(b^p)\frac{r^d}{b^2P(r)^2}\,db .
+}
+\tag{1058.25}
+$
+$q^2$ 在此准确消去到规范分母 $P^2$；没有消去 (1058.23) 的第二个 $Q_{\rm op}$。
+
+## 10. 实际非齐次 Gauss 方程与根处留数
+
+令
+$
+\mathcal L_j=r(1-r)\partial_r^2+
+(2/3-2r)\partial_r-1/4.
+$
+原 $q$ 满足
+$
+r(1-r)q''+(4/3-8r/3)q'-25q/36=0,
+$
+所以 $y_2=r^\ell q$ 满足 $\mathcal L_jy_2=0$。由 (1058.20)，
+$
+P y_2'-P'y_2=\frac{r^{\ell-1}}3
+\{x^{2\ell-2}-A_1^2r^\ell q^2\}.
+$
+第一项满足齐次 Wronskian 一阶方程，第二项是
+$-A_1^2y_2^2/(3r)$。对完整 Wronskian 微分，得到
+$
+\boxed{
+\mathcal L_jP=\frac{A_1^2}{9}r^{\ell-1}K,\qquad
+K=(1-5r)q+6r(1-r)q'.
+}
+\tag{1058.26}
+$
+$P$ 因而不是齐次 period 多项式。最高次校验：$K$ 的 $r^{N+1}$
+项因 $5+6N=p$ 消失，其 $r^N$ 系数为 $-3/(2Q(0))$。
+右侧最高项 $-Q(0)r^M/6$ 正等于左侧
+$-(M+1/2)^2\operatorname{lc}(P)r^M$。
+
+置 $h_{\rm rat}=r^{\ell-1}(1-r)^{-\ell-1}$，则
+$
+h_{\rm rat}'/h_{\rm rat}
+=-\frac{2/3-2r}{r(1-r)}.
+$
+在 $P$ 的简单根 $\alpha\ne1$，完整双极部给
+$
+\begin{aligned}
+\operatorname{Res}_\alpha\frac{h_{\rm rat}}{P^2}\,dr
+&=\frac{h_{\rm rat}(\alpha)}{P'(\alpha)^2}
+\left(\frac{h_{\rm rat}'}{h_{\rm rat}}-\frac{P''}{P'}\right)(\alpha)\\
+&=-\frac{h_{\rm rat}(\alpha)(\mathcal L_jP)(\alpha)}
+{\alpha(1-\alpha)P'(\alpha)^3}.
+\end{aligned}
+\tag{1058.27}
+$
+重根仍取完整 principal part；$\alpha=1$ 的 $b=0$ 点使用§9。
+
+由于 $b^{p+4}=(1-r)^{\ell+1}$、$dr=-3b^2db$，
+$
+\frac{r^d}{b^2P^2}\,db
+=-\frac{b^p}{3}\frac{h_{\rm rat}}{P^2}\,dr.
+$
+Cartier 的可分换元自然性和 $p$ 次乘法性给
+$
+\boxed{
+\mathscr C_b(gK_D\,db)
+=-\frac{c_H}{3A_1^2}\,b\,d_0(b)\,
+\mathscr C_r\left(\frac{h_{\rm rat}}{P^2}\,dr\right).
+}
+\tag{1058.28}
+$
+右侧是 $r$-微分在 $b$ 线上拉回的式子，不能直接等同两坐标的微分系数。
+所有常数均在 $\mathbf F_p$，取 $p$ 次根后不变。
+
+与原 bare 来源的准确差为
+$
+B_{\rm bare}=\frac{1-2r}{1-r}+3r\frac{q'}q,\qquad
+\boxed{K/q=2(1-r)B_{\rm bare}-(1+r).}
+\tag{1058.29}
+$
+额外的 $1+r$ 必须保留。这没有证明根处留数相消，也没有将原 bare 与实际 $DQ_{\rm op}(1-Q_{\rm op})\lambda$ 等同。
+
+## 11. 全部规范根的固定重数界
+
+由 (1058.20) 直接微分有
+$
+\Delta'-\frac4{3(1-r)}\Delta
+=-\frac{A_1^2r^{\ell-1}q}{3(1-r)}K.
+\tag{1058.30}
+$
+设 $\alpha\ne0,1$ 为 $P$ 的重数 $h$ 根。
+$(P,q)=1$、$h\le M<p$ 及 (1058.20) 给
+$\operatorname{ord}_\alpha\Delta=h-1$。
+若 $h\ge2$，导数首系数 $h-1$ 非零，
+(1058.30) 给 $\operatorname{ord}_\alpha K=h-2$。
+
+以原 $q$ 方程微分 $K$，得
+$
+K'=-(1+r)q'-5q/6.
+$
+在 $K=0$ 处，
+$
+K'/q=(1-9r)/(6r(1-r)).
+$
+所以 $K$ 在 $r\ne0,1$ 的重根只能在 $r=1/9$。
+若该点确为重根，则
+$
+q'/q=-3/4,\qquad q''/q=477/32,\qquad K''/q=-243/16\ne0.
+$
+因此 $K$ 至多双根，得到
+$
+\boxed{
+P\text{ 在 }r\ne0,1\text{ 的根至多四重；四重只可能在 }r=1/9.
+}
+$
+$r=0$ 非根，$r=1$ 至多简单根已证。这不是 squarefree 断言。
+于是 (1058.24) 全部非零 $b$ 根处
+$
+\boxed{\operatorname{poleord}L_D\le2h+1\le9.}
+$
+完整原问题可使用固定至多九阶局部资料，但仍须结算全部根、
+$\mathcal F_\lambda$ 和两个 Frobenius 项的总和。此界本身不给总和非零，也不关闭 O0。
+
+
 ## 来源和独立纸核
 
 - [R1037](R1037-original-Hodge-graph-operator-and-primitive-MW-annihilator.md) §§3–6、[R1040](R1040-original-p5-Hodge-graph-and-primitive-MW-annihilator.md)：两行原算子、原 $q_s$、完整商、$D$ 和插值规范。
@@ -291,3 +511,5 @@ $$
 - [R1052](R1052-original-complete-CM-profile-and-actual-lowest-functional.md) §§7–8、[R1055](R1055-original-complete-first-log-canonical-rational-primitive.md)：实际最低极部、完整 $\mathcal V$ 及有理代表与全商的接口。
 
 global_route 推导规范 primitive、全 Cartier 和 $T_\lambda/A$；o2_high_coefficient 独立核 $p$ 次修正，并给全反射及完整 $D$ 后总留数；root 逐式核所有残数、无穷次数、primitive 唯一性、角色运输和半线性。本文全部为纸面证明，没有执行数学程序，没有重复旧窗口。
+
+补充§§8–11：global_route给规范P、原D源的完整迁移、非齐次Gauss式及固定重数界；o2_high_coefficient独立核forcing和重数；root逐项核CM相位、q根/b0/无穷极阶、Cartier换元、简单根留数及r1/9二阶值。全部为纸面证明，无数学程序或窗口执行。

@@ -6,9 +6,9 @@
 
 ## 原最低型：已经付清的输入与准确剩余标量
 
-[R1058](results/R1058-original-Cartier-resonance-and-complete-lowest-residue-source.md)：唯一Jhat−3rJhat′=(1−r)^(2ℓ−2)/q²−A1²r^ℓ，gdb=dR_can+(r/b²)^(p−1)db且Cartier=db。全Q=Cartier(gF_a)、Tλ/A准确含两pth修正；实际最低=Σ三CM Res Fλ{g(DL)^p−g^(p+1)(DL)^(p²)}db，原D与Frob总和完整，单位仍开。
+[R1058](results/R1058-original-Cartier-resonance-and-complete-lowest-residue-source.md)：规范Jhat与原Q的Cartier身份、Tλ/A两pth修正已付。§§8–11以P=qJhat迁完整D/Q/Q²最低到全部P根；q根、b0、∞无残数，P非齐次Gauss forcing不删。P根至多四重（四重仅可能r1/9）、实际L_D极阶≤9；原全残数和非零仍开。
 
-[R1056](results/R1056-original-kernel-lowest-CM-single-coefficient.md)：原r2核T₀的真实最低C_CM(T₀)=(-3)^(ℓ−1)[r^(ℓ−2)]q³/j/2。原H′=h²给F₀′=I(1−r)^−4/3/(9q²)，Lagrange/Wronskian逐项消全部安全分母；不与f_N、bare范数或DQv读数混同，单位仍开。 R1056 §6现另给全p6N5的核列C_s=(-3)^d[r^(d−1)]q^(s+1)/j^(s−1)/[s(s−1)]，s2/8、d=(p−s)/3；H′=h²直接重推，不扩原bare身份。
+[R1056](results/R1056-original-kernel-lowest-CM-single-coefficient.md)：全p6N5原核的两列C_s=(-3)^d[r^(d−1)]q^(s+1)/j^(s−1)/[s(s−1)]，s2/8、d=(p−s)/3；s2即原最低q³/j。H′=h²、所有分母/尺度已付；不与端点、bare范数、DQv混同，不扩原bare范围，单位仍开。
 
 [R1054](results/R1054-original-lowest-CM-column-kernel-candidate-counterexample.md)：p47 K15=23排最低列恒落Q核候选。
 [R1057 §5](results/R1057-certified-original-p47-actual-lowest-functional.md)：本次真实C=15支付p47一次单位；逐节核C_*仅用于自动本原、逐块全MW消去不需该界，故原X₁指定c₁的v47(w)>0深盘唯一有理点为c₁。未分类其它盘/X_d/O0；无重算。
@@ -27,8 +27,6 @@ R1044/46的完整Cauchy旗标现由R1052给全等式；whole-type rankℓ−1、
 R1037/40原两行PD、source Fp²/Hermitian、Π²=−p、B整完美与Q=ε⁻²ΦΠ已成；完整quotient外系数固定，核一维纯正δ、负δ单射。v=(1−Q)λ，Λ_Q杀全部原MW饱和格，在p>C_*自动本原；完整K_Q=P_(DQv)(1)/2与Q²保结果，B(c₀,J₀)=−1/8不代K_Q单位。
 
 R1038/40原p5双中心/图二次角色、e₁G[p∞]≅e₁B[p∞]、Teich先减、负δ与原6p方向已成；formal/B上才施e₁，非整个J良好。原log、Fm、两节点Dickson与C_*完整来源保结果。
-
-R1032/33/39的原首层/全积分尾/M1只消费，返回与D_aux支撑保原证明。
 
 R1035/36原Lie格、split-Hecke F₀、D₀非挠paired块重数一已核，非辅助Res的C²。T5/Q消去保实际格；Q简单商Néron格不从type直和自动来。R1041核norm、R1043端点和K_Q是三个未证单位的不同值。
 

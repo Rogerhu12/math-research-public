@@ -12,7 +12,7 @@
 
 - **R1059（已证明）**：[R1059](results/R1059-original-fN-actual-X108-Raynaud-pairing-and-inverse-central-sum.md)：原Θ=f27，实际X108的z³=1−3sx³、w³=1+3sx³及Ω=dx/(z²w²)保整格/q尺度；Raynaud配对给原A_p=(-1)^N3^(3N+1)Σ_i(-1)^i binom(n,i)²/(3i+1)，n=(p−2)/3。全部ζ半线性已付，f_N=t²δ′A_p/[4(p+1)]；指定和单位与同h筛选仍开。
 
-- **R1058（已证明）**：[R1058](results/R1058-original-Cartier-resonance-and-complete-lowest-residue-source.md)：唯一Jhat−3rJhat′=(1−r)^(2ℓ−2)/q²−A1²r^ℓ，gdb=dR_can+(r/b²)^(p−1)db且Cartier=db。全Q=Cartier(gF_a)、Tλ/A准确含两pth修正；实际最低=Σ三CM Res Fλ{g(DL)^p−g^(p+1)(DL)^(p²)}db，原D与Frob总和完整，单位仍开。
+- **R1058（已证明）**：[R1058](results/R1058-original-Cartier-resonance-and-complete-lowest-residue-source.md)：规范Jhat与原Q的Cartier身份、Tλ/A两pth修正已付。§§8–11以P=qJhat迁完整D/Q/Q²最低到全部P根；q根、b0、∞无残数，P非齐次Gauss forcing不删。P根至多四重（四重仅可能r1/9）、实际L_D极阶≤9；原全残数和非零仍开。
 
 - **R1056（已证明）**：[R1056](results/R1056-original-kernel-lowest-CM-single-coefficient.md)：原r2核T₀的真实最低C_CM(T₀)=(-3)^(ℓ−1)[r^(ℓ−2)]q³/j/2。原H′=h²给F₀′=I(1−r)^−4/3/(9q²)，Lagrange/Wronskian逐项消全部安全分母；不与f_N、bare范数或DQv读数混同，单位仍开。 §6推广全p核的s2/8两列，不扩原bare身份。
 
