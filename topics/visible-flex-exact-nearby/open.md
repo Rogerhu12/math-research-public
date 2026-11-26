@@ -163,7 +163,7 @@ G以S/T E1856给physical C²整盘/曲率<2/径长<8e−6及同world position/no
 | reflected waist | [RW实际](results/R149-supplement-actual-reflected-finite-waist-rows.md)45787309600/1全96rows/480球，真a=2H(0)、signed mean、整DFT/alias/tail。[JF联合矩阵误差](results/R149-supplement-joint-signed-finite-matrix-error.md)以真target Bessel减去列误差的额外√96；完整TC/P224和signed配对仍待，source/target权重、mean及fullSchur保留。 |
 | graph高块 | [CG](results/R149-supplement-positive-feedback-in-the-complete-graph-high-block.md)准确邻接约消并保真正物理96列；actual common6/PN56未齐，新高门未通过。WDH旧homogeneous高逆保持原范围，完整巨大finite/mean/ν/phase不删。 |
 
-R143 correlated body已全4651；R146全418/13376使当前CV/RA根费格式失败，禁止继续该格式Gram/容量/仅DH细化，不推PDE奇异。R145/R147旧成功锁；[ASL实际](results/R147-supplement-actual-support-localized-negative-nu-reception.md)45889444013全4球降ordinary负ν分量到<1.87e−4，零root/无impulse，非全误差≤.005。
+R143 correlated body已全4651；R146全418/13376使当前CV/RA根费格式失败，禁止继续该格式Gram/容量/仅DH细化，不推PDE奇异。R145/R147旧成功锁；[ASL实际](results/R147-supplement-actual-support-localized-negative-nu-reception.md)45889444013全4球降ordinary负ν分量到<1.87e−4，零root/无impulse，非全误差≤.005。[NP](results/R147-supplement-independent-strict-nu-particular-and-signed-waist-column.md)独立真Fν strict particular两目标入口已齐；194 true/192 raw signed腰观察待实际，不依赖P224，不授fullmatching。
 
 最新README已读SHA见HANDOFF；每pull核规则、至少每小时。公开科学/容量/旧成功禁重与失败/unknown保，最终同次冻结metric和所有门。
 
@@ -171,7 +171,7 @@ R143 correlated body已全4651；R146全418/13376使当前CV/RA根费格式失�
 
 [TM terminal→normalized constant](results/R144-supplement-terminal-mean-small-ball-controls-normalized-forward-constant.md)使用真实terminal球与waist L²界控制Dbar，保全部CP/source/jumps；actual45791979634/1已完成unique-root、统一mean/density，旧粗sameφ门false留原件。LC已另完成更紧C0，不重forward/W。
 
-[PS完整父段源积分续接](notes/2026-11-26-R142-streamed-defect-execution.md)：proof/pure/owner/generator全核，复用原worker；85pins/14bindings，真实R142三件与完整原77pins逐件核定。首manifest SHA77eebc42e5aea4870217c628455c608abd0071f8236f0c538170d50f5a23cbf3原首轮已实例化并完成76/155母格；当前续接只做剩余积分；每母格三球整件保存读回才推进全输出/193atoms游标。新owner19600s、worker20100s、360min job，旧16800s预算原封保留。已有完整六球优先消费，packet计数不授积分前缀。
+[PS续接](notes/2026-11-26-R142-streamed-defect-execution.md)保85pins/14bindings/原数学，76/155母格三球与193atoms锁定；整母格读回才推进，packet不授积分。新owner19600s/worker20100s/360min，旧16800s预算/失败保原件。全六球优先；余79母格运行。
 
 R149 signed-loop及[CP/physical](notes/2026-11-26-physical-scalar-execution.md)已接原77/PS85完整来源与NS真四源/point；原程序在六球保存后、完成标记前失败也只消费原全球，PS则整件核六球/目标/155母格。失败状态不改，原/PS不同scope键分别核实；数学尾和trace/HS/θ/γ五目标均不变。当前R142/PS尚缺完整六球，PS已有76/155真实母格前缀并启动后继；尚无signed-loop实际manifest或运行。
 

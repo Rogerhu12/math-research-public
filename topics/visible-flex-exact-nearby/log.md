@@ -260,3 +260,6 @@ NS五件共129172B，owner71056B SHA18db439d5895e4232882940a57b7bd9457982383e1ac
 
 
 2026-11-26 20:43:01 UTC / visible-exact-astra-fb31ed6-20261127：STC已证全Fourier新中心strict传播。原SP精确输运/primitive/两mean能量式给真正2×2比较，same-metric state/φ差令matrix increment<9.3e−5、reverse反馈<4.712e−5；L1/L2<191.810/92.666，全原残差与jump的incoming<2.195e−4。32有理saved比较全过，未作有限一阶算子全频Neumann。root窗口/positive/原normalizer/fullSchur仍另付。SMR已推a7e083837，两README无diff；PS及TC科学仍运行。
+
+
+2026-11-26 20:46:25 UTC / visible-exact-astra-fb31ed6-20261127：NP两自然目标公开入口已齐并静态读完整math/proposal/owner/worker/generator/proof；manifest 58121B 61571a0daa23aa0d86aa4112e58d91fee69f6ca3752d4d01106d0859600d48e8，67当前/51历史。复用全M32/40rows，不恢复14Z或旧QR；原SP+D certify complete trueν forcing，whole194 true signed与同次192 raw signed配对分开保。源只[.05,.18]，其零terminal particular在root/positive局部状态准确0，非fullν边界/phase/incoming闭合。STC推送遇三次并发非FF即时pull/rebase循环成功41336f9f3，所有pull两README无diff。容量最新199280612B（STC前），后续保reserve。

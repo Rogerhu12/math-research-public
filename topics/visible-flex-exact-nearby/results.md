@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [NP：独立真实参数particular与有符号腰列](results/R147-supplement-independent-strict-nu-particular-and-signed-waist-column.md)：严格负侧零terminal给全Fourier真Fν particular，正侧/root直接状态准确零；原SP+D完整费用认证M96 trial，194 true signed输出和同次192 raw pairings全部保。8件公开入口已齐，67当前/51历史、无需旧Z/Hermite或QR；实际尚待，不授完整incoming/ν/phase Schur。
+
 - [STC：新紧中心的实际全频负侧传播](results/R144-supplement-actual-full-frequency-strict-propagation-for-compact-centres.md)：全|δ|≤1e−10、完整primitive/两mean/affine跳，L1/L2源到腰增益<191.810/92.666，完整strict残差incoming<2.195e−4。真正transport能量比较的2×2增量<9.3e−5、Duhamel反馈<4.712e−5；32条旧saved球有理比较，无旧产品或科学重算，root/正侧/匹配独立。
 
 - [SMR：selected metric完整残差与全DF差](results/R144-supplement-selected-metric-compact-residual-and-full-operator-fees.md)：全ν窗四源<1.107e−7/1.705e−6/7.469e−8/1.594e−6，原6143joins全保；whole core低193/高→低费<.002634/.007711。真mean方程消去第二ordinary metric项、β非局域和mean-rank不删；weighted/hybrid/trace另付，58条已存标量有理比较通过。
