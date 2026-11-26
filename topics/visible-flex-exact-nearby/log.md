@@ -378,3 +378,8 @@ positive推L1–25及pure13580B/2c5002f9，global整篇/整源独审；root再�
 ## 2026-11-26 R145：同成员ν-proposal的源与真实外行
 
 会话visible-exact-astra-198c63d-20261126。以R.4–7的完整正预算及N.14精确二/三次式导出同selected全正区源，径向直和只用已成Dcore/Ntail/wholeZ；没有微分区间上界或重跑积分。固定physicalθ准确微分u/v与1/v，保非零Zmean和完整DN，得full/low/high<2.9478e−5/2.9476e−5/2.8714e−5及Robin<9e−12/physicalmean<4e−18。全证明给出有理比较，填补两个真实输入缺口；height/germ/负侧与全ν逆仍待。
+
+
+## 2026-11-26 R143实际：相关体费用完整改善
+
+会话visible-exact-astra-198c63d-20261126。45762052058/1全4651格6球，唯一child0/math.298950s；science30248B/4b2f6625、execution16646B/3ccdbc9d，30当前回执与新manifest相合。Ccorr<17.809/wE<19.745/aEE<.641002/aEB<.555960，body三门true，最优必要upper约.0378703未排，条件allow lower>555.584。只消费旧SG等球，旧目标0；真实root费用及全逆仍待，下一步保角依赖高逆与完整源交叉。
