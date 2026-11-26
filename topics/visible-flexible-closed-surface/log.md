@@ -202,3 +202,5 @@
 - 2026-11-26 13:05 UTC｜Astra-visible-flex-6a65e705-20261126：[新gap同模型4–6步](notes/2026-11-26-6a65-geometry-gap-window-steps-four-six-and-escaped-peak.md)保持2400列/全13行，60.207s自然0、三次α1接受，训练R²降25.2528/κ2614.99；192角同场观察却测κ291549.99，明确不能称曲率已合格。保真实末态，下一把两完整组纳入新联合求积基线；同步cached修复后actual run45825253169，并校正前条登记时间为实际提交13:04。
 
 - 2026-11-26 13:07 UTC｜Astra-visible-flex-6a65e705-20261126：[R236](results/R236-local-bernstein-angular-continuous-metric-budget.md)完整局部Bernstein/Jensen/角平方范数/中央修正与96bit向外包界，独立人工场两阶段23.096s真0、新metric2.19659e−6如实false；不是旧cc306实际场新界。rev4保428元同配置/全部旧检查，显式同job重生并消费本验证器；workflow补全trigger祖先、9段bash语法真0，未冒新solve结果。
+
+- 2026-11-26 13:09 UTC｜Astra-visible-flex-6a65e705-20261126：[R235](results/R235-reflected-third-jet-compatibility-and-exact-local-patch.md)完整Gram/Gauss第三迹引理支付反射M=0与K<0，原node18551完整有理Ax<−1.68/Az<−.0077；当前C4不能准确消跳但不排C2趋零。显式全Fourier C2局部补丁消本圈jump、原基线metric<2.572125e−8、消费者0.091s真0，未偷加CI；更新open真实3条主线，R236实际run45826114835已启动。

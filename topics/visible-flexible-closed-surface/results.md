@@ -7,6 +7,8 @@
 
 - [R236：原M12实际场的局部Bernstein–角平方范数连续度量预算](results/R236-local-bernstein-angular-continuous-metric-budget.md)：准确Boehm/de Casteljau及共同权Jensen，保局部H/f和完整Fourier自相关，96bit整数Taylor支付全角、舍入及中央修正；不改同一场/g。独立人工场两阶段23.096s真0，新界2.19659e−6仍false；新whole h同job消费者明确启动，未借旧场通过。
 
+- [R235：反射轴第三迹兼容性、准确原源跳跃与局部C2补丁](results/R235-reflected-third-jet-compatibility-and-exact-local-patch.md)：完整Gram两微分/Gauss一微分及反射M=0、K<0推出准确等距的径向三阶跳必须零；原node18551有理见证Ax<−1.68、Az<−.0077，当前C4修正不能消去。显式全Fourier C2补丁真消该圈跳跃，原基线metric<2.572125e−8；消费者0.091s真0，不排C2收敛、无sup硬底，未偷加到CI场。
+
 - [R234：实际全半体修正场的全时几何和完整STL](results/R234-actual-entire-half-field-all-phase-geometry-and-meshes.md)：run45815969723同一保存W消费完整R226/R230证书，连续reach/D>.03105876、held/D>.05278322、含反射δE>0；三相位完整89424面STL各4471284B。度量保守界4.862155e−6仍超门槛，原微span同场峰1.93343e−8揭G8漏峰，继续h加密。
 
 - [R233：完整16格准确归一化ramp及准确coast接合](results/R233-entire-ramp-accurate-coast-normalization.md)：同Γ95的有符号周长差、全频部分弧长primitive和完整非多项式末端P/V/A，支付真实短Hermite格全部径向放大；整段连续metric<6.100e−7、自身κ<9.867915，两端准确C2。两个新进程2.472s/24.252s真0；未冒全闭核或准确等距。

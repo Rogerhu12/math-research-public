@@ -1,14 +1,16 @@
 # 当前未解问题：保留基础有限证据，继续同 g 加密及完整强幅度
 
-## 2026-11-26 12:38 UTC 当前实际入口
+## 2026-11-26 13:09 UTC 当前实际入口
 
-原M12同g完整线的[R234](results/R234-actual-entire-half-field-all-phase-geometry-and-meshes.md)已在run45815969723实际保存W上付全时reach/D>.03105876、held/D>.05278322、含反射δE>0和三份完整4471284B STL。但该场连续metric保守界4.862155e−6未过门槛；同场297个原微span点峰1.93342895e−8，旧G8只见8.494317e−9。真实h run45821092388自12:35:36执行，sourcecd31d2b0：仅旧元190插66个原源simple knots，362→428元，保全部旧knots和旧观察点，角阶/Gauss/LSMR/原g不变。继续实际完整求解和交叉Gram的连续误差预算，不能以新空间建成称加密完成。前缀h160 run45810358787数值步骤success但job在发布后cancelled，原公开scalar尚缺、日志返回404；没有可核结果就不报数值，换可执行输入继续。
+原M12同g完整线：[R234](results/R234-actual-entire-half-field-all-phase-geometry-and-meshes.md)在run45815969723真实W上已付全时reach/D>.03105876、held/D>.05278322、含反射δE>0及三份完整4471284B STL；连续metric保守界4.862155e−6仍未过，micro峰1.93343e−8。仅元190插66原源simple节点的h run45821092388仍执行，428元保旧knots和旧观察点。新[R236](results/R236-local-bernstein-angular-continuous-metric-budget.md)保局部尺度/完整Fourier平方范数，人工场核如实false；明确rev4实际run45826114835自13:07:38重生同428元输入，在同job消费新连续checker及全部旧几何/网格。原g/角/Gauss/LSMR不变，不把重生计为新加密改善。前缀h160旧run数值阶段成功但publisher后cancelled、日志404，不报缺失数值。
 
-强幅度长run45778054176的source002已真实完成11步，sample metric.26395456/κ26.40140仍不合格；第12及matching observer须等真实返回。[source003](notes/2026-11-26-6a65-solver-source003-composite-contract.md)已公开静态合同，保持原Cauchy完整尝试/观察，再独立全Cartesian；active后继仅按真实父SHA绑定。独立冷run45812620369实际exit0/1073.140s、全13行7760列接受1步，R²69144.79→16795.95，但metric2.38717/denseκ171535.8仍坏。v3付非零真续态与匹配observer，v4正严格复用同身份固定源缓存以继续多步；不借已结束runner raw或长run计数。
+[R235](results/R235-reflected-third-jet-compatibility-and-exact-local-patch.md)给当前反射保留C4修正的准确局部兼容限制：原node18551的真实第三迹跳非零，准确等距则须零。无正sup硬底、不排除C2细化收敛；显式全Fourier C2消跳补丁已付预算，尚未加到任何实际场。接着真实同g加密及更精确连续Gram，不把局部障碍当终止理由。
 
-新gap1.05/v.045的[R233](results/R233-entire-ramp-accurate-coast-normalization.md)已补齐准确端口、最后短Hermite格及完整归一化：全16格metric<6.100e−7、κ<9.867915，两端准确C2。同master已实际接入[新短窗全半核](notes/2026-11-26-6a65-geometry-gap-window-own-complete-baseline.md)，自己的完整13行baseline真0；metric2.48947、窗口κ89407.07/minarea9.618e−5，不合格。后续保持新sourceKind及自己的自然g，只在(b,S)继续真实Cartesian求解以保已证前缀；字面有限角求积误差及完整窗口连续正性仍须支付。
+强幅度长run45778054176已完成source002的12次真实尝试，末metric.2639543763/κ26.4013713；最后209969点observer真0、metric.2639876841/κ27.02188092。[source003合同](notes/2026-11-26-6a65-solver-source003-composite-contract.md)按真实父态/observer严格激活，12:52:20原receiver已freeze；初始化真0、逐值复现父目标，下一真实原Cauchy尝试及独立v2 Cartesian继续。独立cold45812620369全13行7760列接受1，但metric2.38717/denseκ171535.8仍坏。缓存job45823011528数值前真实浅历史失败，修复保持精确trigger后，新45825253169已首次普通推scalar并开始实际源生成；v4计划20次完整真尝试，不借旧raw/计数。
 
-保持第2节强目标和第6节五项完整任务：全域全时度量、全部接缝/帽、非局部reach和含反射幅度、同g真实加密、完整网格。研究持续进行，不以阶段证明或真实失败收尾。
+新gap1.05/v.045的[R233](results/R233-entire-ramp-accurate-coast-normalization.md)准确全ramp metric<6.100e−7、κ<9.867915和C2接合已付；完整短窗源保持它及真实尾，固定自己的自然g。[全周期前三步](notes/2026-11-26-6a65-geometry-gap-window-first-three-complete-cartesian-steps.md)及[后续4–6](notes/2026-11-26-6a65-geometry-gap-window-steps-four-six-and-escaped-peak.md)真实接受共6，全部2400列/13行。第6训练κ2614.99但192角实际κ291549.99暴露窄峰；下一固定联合128+192完整残差需自己新基线。窗口连续角速正性、实际全域浸入/metric/曲率及非局部reach仍须付。
+
+保持第2节强目标和第6节五项完整任务：全域全时度量、全部接缝/帽、非局部reach和含反射幅度、同g真实加密、完整网格。子问题做完继续，不以阶段证明或实际失败收尾。
 
 ## 2026-11-26 10:34 UTC 入口历史（已由下列实际工作接续）
 
