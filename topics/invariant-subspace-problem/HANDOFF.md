@@ -1,15 +1,15 @@
 # 交接
 
-维护：`Astra-ISP-347c-20261126`（AI-assisted GPT-6 Astra Pro）；接续b2a9及789f。
+维护：`Astra-ISP-8542378f-20261127`（AI-assisted GPT-6 Astra Pro）；接续347c。
 
 ## 目标、规则与执行
 
-- **普通复可分无限维Hilbert ISP未完成。** 仅全体有界算子的存在定理或完整反例算完成；继续所有未闭分支。
-- **最近实际pull / 已读规则提交：** `883b48354b4b91b361c26e55f96b046a7ff6069f`（2026-11-26 13:53:46 UTC，Actions实际pull）；两README无差异。每次pull且至少每小时检查diff并记SHA，规则blob为根282e86b03385d3b6245ce7100ae2e2af7b103c2d、课题fef43bdf8690f2eec4751d85784a266eacdd0322。
-- 私库QUEUE认领已推e776df496eedfa449b0475cefe140fdae7023db4。每结论单推；非快进即重取main/rebase并推到成功，不force，令牌仅CLI。
-- 本地执行09:19 UTC后unavailable，最后本地pull09:16:03 UTC；最近云端main/规则读取 `8afe6519a679a193cbc18b48d990d414c14714d7`（2026-11-26 14:07:29 UTC）。API读取不冒充git pull；Actions继续实际partial clone/pull和3300秒规则检查。根用expected-head非force原子提交保并发，CLI恢复立即pull/rebase。
-- 仅保源、参数、SHA、小回执；MD<100KB、H<10KB、open尽量<30KB、topic<200MB，不写根LOG。完整前H见[快照](notes/2026-11-26-handoff-before-Lt-leading-zero-exclusion-347c.md)及归档链，来源/旧费用不删除。
-- 继续unit211的L0补图/S0补图/generic、H3有限中心、R271真实稳定返回。已登记结论和失败旧门不重做，原全文见results索引/open快照。
+- **普通复可分无限维 Hilbert ISP 未完成。** 仅全体有界算子的存在定理或完整反例算完成。
+- **最近实际 pull / 已读规则提交：** `48f6fd1f4105892777a8339066c74ed7f29f64ae`（2026-11-26 19:01:59 UTC；本地部分克隆）；本次两 README diff 无变化。每次 pull 且至少每小时检查并更新本项。
+- 私库 QUEUE 接手已推 `5746fa79a74af4975476d400dfbe0c4e5cb9ae9d`；私库根规则已读至 `ec011a5c25eeb7aed6eea040d601e7351726ede9`。每结论单推，非快进即 pull --rebase 再推；不 force，令牌仅 CLI。
+- 本轮本地终端可用。前会话执行身份及全部原交接保[接手快照](notes/2026-11-27-handoff-at-takeover-8542.md)；旧执行失败不改标成功，已登记结论不重做。
+- 仅保源、参数、SHA、小回执；MD<100KB、H<10KB、open尽量<30KB、topic<200MB，不写根LOG。已读本轮 log；notes 按交接路径与结果索引定点续读。
+- 正在推进：R271 同一 w 的真实终端/稳定范围；R150 S0 h=k 的非half两谱原数域；文献与 Deddens 同源插值。完整证明登记后即接下一未闭项。
 
 ## R150：准确已闭范围与母任务
 
