@@ -176,3 +176,5 @@ R143 correlated body已全4651；R146全418/13376使当前CV/RA根费格式失�
 TM首次具体入口已接：11个完整小输入、旧D0与精确waist L²字段，5个保存读回阶段；manifest acb8c78b307d25a142b776e7fbb225172098f37c92230fc53ef7301870d1f41f。无native/ODE/旧科学，actual小根及uniform mean/density门已true并锁定；sameφ C0充分门false、physical-C0/selectedphase仍独立。
 
 几何输入的坐标资格已完整核原C.1/B.1：ε=max(||δu||C0(r,φ),||δv||C0(r,φ))，是未除α、保mean的完整moving状态。新compact mean的u同φ准确不变，v可用b sup jξ+ρ sup χ|v−m|；固定θ复合是另一量，仅按实际物理端口需求支付，不误增B.1前件。此处未给新数值门。
+
+[LC localized全状态/完整源](results/R144-supplement-localized-full-state-C0-and-compact-source-receivers.md)已核：同φ E=bJ+ρχW_A，区外仍保mean；全7721行有限32载体同时给CS五完整积分、真正χ′平方质量和6143个normalized新jump上界。旧TM/Γ/原残差不重，独立sameθ联合P/F公式仅定义，待新actual。

@@ -252,3 +252,5 @@
 - [PS：完整父区间源积分的真实续接](results/R142-supplement-durable-complete-parent-source-moment-prefixes.md)：源变量分片保整个输出及两有符号同格三角，完整三球先保存读回再推进；仅纯实现，无新ε或运行结论。
 
 - [TMA：实际唯一compact小根与完整mean/density](results/R144-supplement-actual-terminal-mean-small-root-and-density.md)：45791979634/1五阶段21球，12个完整门true；独立sameφ1e−4充分门false。原mean/jumps/D0全保，真实ρ/b供CS与紧窗物理比较，未授全PDE/帽/最终族。
+
+- [LC：紧窗全moving C0、五源与完整新jump接收](results/R144-supplement-localized-full-state-C0-and-compact-source-receivers.md)：原32有限载体与actualρ/b，真χ支持/χ′质量、全mean及原joins；准确区分geometry同φ与另种sameθ比较。实际新目标待运行。
