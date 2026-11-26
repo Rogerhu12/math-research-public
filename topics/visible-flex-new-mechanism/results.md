@@ -368,3 +368,5 @@
 - [R582有限非圆首原终态](notes/2026-11-26-r582-finite-resonant-first-original-receipt.md)：run45824332845付70.621876255科学秒，160段960944RHS、core/backward及62878端点共同Hermite完成；细Model商法因冗余H求积报错。无START/几何/Jac/优化，不能称无科学启动或数学障碍；下一仅取实际解析radius三jets，必要重建已识别内场另付全成本。
 
 - [R582相同输入radius-only修补](notes/2026-11-26-r582-finite-radius-only-repair.md)：独立wrapper仅将seed商法的参考a/a_s/a_ss按原算式读取，去掉不需要H；原field/model/driver冻结、完整4811/材料点和接受门不变。新增origin/成本剥除后stdin准确还原原hash，已付70.621876255秒保留；必要新内场求值另计，下一首次完整几何/优化。
+
+- [R598宽母prepared原质量BVP实现](notes/2026-11-26-r598-prepared-wide-mother-original-mass-bvp-implementation-agent.md)：新18母实际192阶预收；11参数guide中唯一∫hk=0与七剩余矩共同准备，真实两侧历史/全程规范保留。每阶段19原微分+2原ruling、29BC、完整31变量AD，不除Cramer矩阵；19行单位1且原残差决定加密。ρ/ζ0 guard仅按本新初猜冻结单位，坐标/方程不变；忠实Hermite端值与实际原几何预算另报，尚无新根。

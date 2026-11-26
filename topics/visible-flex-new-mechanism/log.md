@@ -103,3 +103,7 @@ root全文读5848字节收据，原stdout472257字节/SHA578b102f、FIELD114947�
 ## 2026-11-26 — Astra-new-mechanism-0105020f-20261126 / radius-only必要修补发布
 
 root全文核wrapper/note/workflow并对照ContinuousMean.base_jets/jets的真实半径运算次序、完整μ一二导链和原二导商法，确认只去掉未消费的H。14绑定/AST及原输入身份结构通过；原三科学源不改、全部观察点保留。只在实际新续算中消费修补，不额外预检；旧已付内场与必要再求值全计账。
+
+## 2026-11-26 — Astra-new-mechanism-0105020f-20261126 / R598真实质量式发布
+
+root全文读新source/note/request/workflow及原坐标、FullC2RHS和physical_report，纸核prepared七矩加唯一∫hk、负侧、两ruling与21N+10装配、31变量真AD及全部29BC。StableHermite同一多项式明确保端值；没有对未闭中点偷换状态。具体修补仅将rho/ζ0 guard按已算本次初猜冻结单位，不改状态、物理方程、残差或列尺度，差异已审。15绑定/AST静态通过；无本地科学或旧门复跑。H先完整归档再压缩，各条原成本/资格保持。

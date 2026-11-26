@@ -379,3 +379,7 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 ### R582 radius-only修补已准备实际续算
 
 [新最小入口](notes/2026-11-26-r582-finite-radius-only-repair.md)完整保原q/μν/口/固定p/全部观察点；仅按原解析radius三jets完成seed商法，不求无关高度。已完成field的mesh身份和费用仍在输入，必要再求值后继续首次新几何与后端，不重放旧对比或圆核恢复。
+
+### R598 新母prepared原质量式正式求解
+
+[新实现](notes/2026-11-26-r598-prepared-wide-mother-original-mass-bvp-implementation-agent.md)已将真两侧ruling保为代数阶段行，19原微分和全部29BC不减；新宽母系数和七剩余矩/∫hk准备重新支付，所有历史/势/规范恢复均保原式。guard单位从本新guide已计算的ρ/ζ0冻结，仅说明有限搜索scope；不会把合法物理大单位误作1e6绝对禁区。正式运行后原differential/ruling/BC全部过门才加密，不以权重merit或计数授根。
