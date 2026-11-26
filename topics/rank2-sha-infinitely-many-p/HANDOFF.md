@@ -6,8 +6,8 @@
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。固定有限曲线族的联合无穷非零可再用无限鸽巢；有限p、随p换曲线、条件桥、非零投影或接口成功均不完成。
 
-- 两仓库已部分克隆。公开根/课题 README 已读至 `021c6d790ac7e6e2b163fe9db7870a28f3640ec1`（差异为空）；每次pull只读两文件新差异，至少每小时同步并记录SHA。
-- 私库QUEUE接手已推41fe885610073f478b2f5a752461ca56cfd43f09；20:03 UTC再次pull至eb74b5a78f485b18621f95381131a88bbd62467c，根/本题README差异空、QUEUE仍本会话进行中。目录math-research-public、math-research-private；令牌仅进程认证，不入文件。
+- 两仓库已部分克隆。公开根/课题 README 已读至 `10fa71cdf87cebb827a3d2305008278fe15c4814`（差异为空）；每次pull只读两文件新差异，至少每小时同步并记录SHA。
+- 私库QUEUE接手已推41fe885610073f478b2f5a752461ca56cfd43f09；21:01 UTC再次pull至3c31ccbf3bd9272e01b39ca0c497744b47870f6e，根/本题README差异空、QUEUE仍本会话进行中。目录math-research-public、math-research-private；令牌仅进程认证，不入文件。
 - root独占git/共享H/open/log/index；每条结论完成即推，非快进立即pull --rebase、检查README再推至成功，不强推。数学只用公开Actions；不存可重算矩阵/数据/log。H<10KB、每MD<100KB。
 - [逐字压缩前H](notes/2026-11-27-handoff-before-ten-source-return.md)及其历史链保全部旧状态；[open](open.md)、[results](results.md)、[R951–1000索引](notes/PROOF-INDEX-R951-R1000.md)保全部未解门，未默删。
 
@@ -35,7 +35,7 @@
 
 **R981**：原delta-new(3,5)/(5,3)是固定E54925/E8125；各两有理点以三同源下降5/2赋值证明独立，rank≥2。全finite3 odd、5 odd、双13/Haar、导子390/ray10368、degree390全权平方及ordinary/inert通常全Selmer桥已付。Pi SZ=7Ψ35/270、167Ψ53/360，原cross7Ψ35/60、167Ψ53/80；whole companion仍须真实六sigma投影。
 
-**R983结构已证/实际已返，正补消费**：a19=(2+ω,2+ω,1,ω²,19,δγ7)保同C/F，F19=σ390Xψ19A7R7/19。全division、首阶6/质量0、Gram(390,11310,232,40,10,2)、双逆/半特征/四CM转移已付。v8全81余块/框架通过，三α为(75−50δ)/57、(210+350δ)/57、(2505−1670δ)/57，均非零；source分母133，两个新来源分母245/5845。正在补完整坏集及伴随单位消费。
+**R983已证/实过并消费**：a19=(2+ω,2+ω,1,ω²,19,δγ7)保同C/F，F19=σ390Xψ19A7R7/19。全division、首阶6/质量0、Gram(390,11310,232,40,10,2)、双逆/半特征/四CM转移已付。v8全81余块/框架通过，三α为(75−50δ)/57、(210+350δ)/57、(2505−1670δ)/57，均非零；source分母133，两个新来源分母245/5845。三α的范数只含2/3/5/7/19/167，完整框架仅加13/29，因此好普通p>211三份全五伴随均为整卷积单位；新两物理比54925/(17·245)、8125/(17·5845)保留，所有mixed逆行不删。
 
 **R982已证/实过**：新角degrees21/21/64/64、四新gcd9而全十gcd仍a；帽/Hilbert仍4/13，Norm A10=B6及原c6导子不变。完整10×10 jet秩10；Schur余式经固定Q变换给z42/z48/z54/z60+O(z66)。普通按同一测度线性；惰性用k=(p−1)n、(Ni/390)^((p−1)v)Ji((p−1)v)准确统一读者，质量零消指数导数，联合坏p时四余式中央真零。不扩大p6窗或将低jet当深核。
 
@@ -63,6 +63,6 @@ Kato比较图/BKO通常群桥的本轮完整核查及Adachi/新rank2预印本的
 
 ## 五、当前分工与下一实际工作
 
-central完成R985完整Miller/Heisenberg转置并跟中央v8；arithmetic继续真实translated central tests与共同CF交换子消费；geometry继续原几何v8及原λ跨p mixed对应；root已写R982，补R983实际消费，并继续完整联合forcing、同步与逐条推送。R975/R986不重复作可选测试，不改运行源。
+central完成R985完整Miller/Heisenberg转置并跟中央v8；arithmetic继续真实translated central tests与共同CF交换子消费；geometry继续原几何v8及原λ跨p mixed对应；root已写R982/R983实际消费，接R985，并继续完整联合forcing、同步与逐条推送。R975/R986不重复作可选测试，不改运行源。
 
 中央入口scripts/check-original-e65-full-cm-sixth-axis.py与ci/e65-full-cm-source-request.json；几何入口scripts/produce-original-triangular-artinian-shadow.py与相应request/workflow。结论完成立即登记并推，随后继续下一个真实未解门。
