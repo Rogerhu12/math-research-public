@@ -123,3 +123,6 @@
 
 
 - [R998](results/R998-new-beta27-full-mixed-selmer-vanishing.md)：消费R994三个新β27完整中央复值非零，Kato14.2(2)及CM§15.23、所有局部条件的Shapiro给两CM单线β(1)/βc(1)的完整BK Hf均零；每p离散群有限且几乎全p零。原e_E+ Rankin另一线准确barψ²ψη⁻¹(2)=βc(1)，所以原f类的全AJ等于R995最高投影AJ。保P+转置P−与真正finite条件，不从复解析秩/混合消失创造最高非零。
+
+
+- [R996](results/R996-original-norm-seven-zero-sources-and-two-point-normalization.md)：原norm7两raw差给degree42/70的真双中央零，完整分子/原ordinary core、两个h7角单位与完整互素resultant全手证。真实规范化成为D=(64∞−0−1)/195，三参数Koszul给生成权≤2733；原c6S16/权69615支付全部整返回，195余权自由秩12090、基权≤393、乘法最多两项。累计Hilbert主项31/195准确增加1/195；同p6两新增必要行/完整尾/ordered前缀与5r8跨界全保，不把乘积或新格本身赋中央零。
