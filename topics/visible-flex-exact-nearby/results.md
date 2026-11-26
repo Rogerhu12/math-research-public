@@ -337,3 +337,5 @@
 - [TC同trial终态后前缀续算](results/R149-supplement-same-trial-prefix-continuation-after-input-restoration.md)：完整原63363B owner逐字钉住，仅metadata源兼容/恢复资格修复，8数值源、全4 endpoint数组、exact partition与96×5完整累加器不变。必要Hermite重物化producer1如实保，不重已完成矩阵或积分；运行中和三目标已全成均拒绝，无新manifest/实际科学启动。
 
 - [PO：完整96观测逆与真物理参数尾](results/R147-supplement-observation-inverse-for-physical-parameter-tail.md)：只从NP已成raw signed球恢复even nonmean primitive，RW整carrier必要重物化、不重旧配对/残差；mean(H−Id)消外平移而非H(0)，全inverse-density尾/真实PDE误差/原同sign B^-1顺序与两mean保。67当前+4历史完整输入、十二新scalar首次入口已齐，实际inverse门尚待；不授fullν Schur。
+
+- [PAν：strict参数particular的真实selected幅值边框](results/R147-supplement-selected-amplitude-border-for-the-strict-parameter-particular.md)：完整physical amplitude准确微分保分母/角/mean；旧97行到same selected背景的primitive+mean dual差<194·19dϑ<3.454e−7，whole row<18，三个有理比较已过。NP完整误差精确转为D/(ng√q)，新same-trial signed97配对只待actual；不从PO观测恢复未观测幅值，不授νSchur符号。
