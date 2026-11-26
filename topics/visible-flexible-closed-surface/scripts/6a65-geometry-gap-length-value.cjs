@@ -12,15 +12,19 @@ function createGapLengthState(candidate,input,options={}) {
   const gap=options.gap??saved?.gap??1;
   const extraLength=options.extraLength??saved?.extraLength??.05;
   const metricTau=options.metricTau??saved?.metricTau??.05;
+  const clockFraction=options.clockFraction??saved?.clockFraction??input.outerLengthDesign?.clockFraction??1;
   if(!(gap>0 && Number.isFinite(gap) && extraLength>=0 && Number.isFinite(extraLength) &&
        metricTau>0 && Number.isFinite(metricTau)))throw Error("Finite design parameters required");
   if(saved && (gap!==saved.gap || extraLength!==saved.extraLength || metricTau!==saved.metricTau))
     throw Error("Saved new-design state must keep its frozen gap, length and objective");
+  if(saved && clockFraction!==(saved.clockFraction??1) && !options.allowClockTransfer)
+    throw Error("Changing the physical clock requires an explicit height-preserving new-design transfer");
   if(input.outerLengthDesign && !saved)
     throw Error("First gap/length transfer requires an original-length parent; explicit old clock conversion is otherwise needed");
   const inheritedGap=input.options.gap;
   const seedInput={...input,options:{...input.options,gap}};
-  const factoryOptions={lazyCurvature:true,quartic:true,referenceCacheLimit:0};
+  const factoryOptions={lazyCurvature:true,quartic:true,referenceCacheLimit:0,
+    clockFraction,allowClockTransfer:options.allowClockTransfer===true};
   const q=require("./6a65-geometry-outer-length-design.cjs")
     .createOuterLengthRunProvider(candidate,seedInput,extraLength,factoryOptions);
   const metricPosition=require("./6a65-quartic-metric-recovered-20261126.cjs")
@@ -30,7 +34,7 @@ function createGapLengthState(candidate,input,options={}) {
   const amplitudeIndex=q.position.definition.amplitudeIndex;
   const cutHeightIndex=q.cutHeightIndex;
   if(!Number.isInteger(amplitudeIndex) || q.z.length!==provider.dimension)throw Error("Complete amplitude/state layout mismatch");
-  const parentBaseHeight=saved?q.base.height:q.oldBase.height;
+  const parentBaseHeight=q.inheritedBaseHeight;
   const parentTrueCuffHeight=parentBaseHeight+input.z[cutHeightIndex];
   const trueCuffHeight=q.base.height+q.z[cutHeightIndex];
   const heightTransferError=trueCuffHeight-parentTrueCuffHeight;
@@ -43,7 +47,9 @@ function createGapLengthState(candidate,input,options={}) {
     baseA0:q.base.a0,actualCentralA:central.centralA,actualCentralB:central.centralB,
     actualCentralGap:central.centralGap,
     finiteEllipticIntegralAndInverse:true,accurateIntegralCertificate:false};
-  const design={schema:"6a65-gap-length-new-input-v1",gap,extraLength,metricTau,
+  const design={schema:"6a65-gap-length-new-input-v1",gap,extraLength,clockFraction,metricTau,
+    inheritedClockFraction:saved?.clockFraction??input.outerLengthDesign?.clockFraction??1,
+    physicalClockChanged:clockFraction!==(saved?.clockFraction??input.outerLengthDesign?.clockFraction??1),
     curvatureQuarticTau:2,completeCapSchema:"6a65-R215-wider-core-complete-fixed-caps-v1",inheritedGap,centralSeed,
     physicalMetricChangedByLength:extraLength>0,
     centralGapAloneChangesEmbeddingSeed:true,
@@ -91,13 +97,14 @@ function evaluateGapLength(candidate,input,options={}) {
 module.exports={createGapLengthState,evaluateGapLength};
 if(require.main===module) {
   const fs=require("node:fs"),path=require("node:path"),crypto=require("node:crypto");
-  const [candidateFile,inputFile,prefix,gapText="1",deltaText=".05",tauText=".05"]=process.argv.slice(2);
-  if(!candidateFile||!inputFile||!prefix)throw Error("candidate input fresh-prefix [gap=1] [Delta=.05] [metricTau=.05] required");
+  const [candidateFile,inputFile,prefix,gapText="1",deltaText=".05",tauText=".05",clockText]=process.argv.slice(2);
+  if(!candidateFile||!inputFile||!prefix)throw Error("candidate input fresh-prefix [gap=1] [Delta=.05] [metricTau=.05] [explicit clockFraction transfer] required");
   const seedFile=prefix+"-seed.json",valueFile=prefix+"-value.json";
   if(fs.existsSync(seedFile)||fs.existsSync(valueFile))throw Error("Output paths must be fresh");
   const hash=p=>crypto.createHash("sha256").update(fs.readFileSync(p)).digest("hex");
   const candidate=JSON.parse(fs.readFileSync(candidateFile)),input=JSON.parse(fs.readFileSync(inputFile));
-  const out=evaluateGapLength(candidate,input,{gap:Number(gapText),extraLength:Number(deltaText),metricTau:Number(tauText)});
+  const out=evaluateGapLength(candidate,input,{gap:Number(gapText),extraLength:Number(deltaText),metricTau:Number(tauText),
+    clockFraction:clockText===undefined?undefined:Number(clockText),allowClockTransfer:clockText!==undefined});
   const source={candidate:candidateFile,candidateSHA256:hash(candidateFile),
     input:inputFile,inputSHA256:hash(inputFile),entrySHA256:hash(__filename),
     commitFromExecutionEnvironment:process.env.GITHUB_SHA??null,
@@ -112,7 +119,7 @@ if(require.main===module) {
   fs.mkdirSync(path.dirname(prefix),{recursive:true});
   fs.writeFileSync(seedFile,JSON.stringify(out.seed,null,2)+"\n");
   fs.writeFileSync(valueFile,JSON.stringify(report,null,2)+"\n");
-  process.stdout.write(JSON.stringify({gap:out.design.gap,Delta:out.design.extraLength,
+  process.stdout.write(JSON.stringify({gap:out.design.gap,Delta:out.design.extraLength,clockFraction:out.design.clockFraction,
     R2:out.value.squaredNorm,metric:out.value.maxRelativeMetric,
     curvature:out.value.curvature,geometry:out.value.geometry,
     centralSeed:out.design.centralSeed,A:out.design.amplitude,Z:out.design.trueCuffHeight,

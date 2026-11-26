@@ -13,21 +13,24 @@
 
 function createOuterLengthBase(engine, original, extraLength, options={}) {
   if (!(Number.isFinite(extraLength) && extraLength >= 0)) throw Error("Nonnegative finite extraLength required");
+  const clockFraction=options.clockFraction??1;
+  if(!(Number.isFinite(clockFraction)&&clockFraction>0&&clockFraction<=1))throw Error("clockFraction must lie in (0,1]");
   if (extraLength === 0) return original;
   const c=original.centralLength, S=original.end, L=S-c, end=S+extraLength;
+  const clockLength=clockFraction*L,clockEnd=clockFraction===1?S:c+clockLength;
   const order=options.quadratureOrder===undefined?32:options.quadratureOrder;
   if (!(L>0) || !Number.isInteger(order) || order<8 || order>128) throw Error("Positive original outer interval and quadrature order 8..128 required");
-  const rule=engine.gauss(order), ratio=extraLength/L;
+  const rule=engine.gauss(order), ratio=extraLength/clockLength;
   function smoothstep(x) {
     if(x<=0)return 0;if(x>=1)return 1;
     return x**5*(126+x*(-420+x*(540+x*(-315+70*x))));
   }
   function clockAt(t) {
     if(t<=c)return {sigma:t,v:1,vt:0,excess:0};
-    if(t>=S)return {sigma:t+extraLength,v:1,vt:0,excess:0};
-    const x=(t-c)/L,excess=ratio*630*x**4*(1-x)**4;
+    if(t>=clockEnd)return {sigma:t+extraLength,v:1,vt:0,excess:0};
+    const x=(t-c)/clockLength,excess=ratio*630*x**4*(1-x)**4;
     return {sigma:t+extraLength*smoothstep(x),v:1+excess,
-      vt:ratio*2520*x**3*(1-x)**3*(1-2*x)/L,excess};
+      vt:ratio*2520*x**3*(1-x)**3*(1-2*x)/clockLength,excess};
   }
   function inverse(sigma) {
     if(sigma<=c)return sigma;if(sigma>=end)return S;
@@ -42,6 +45,7 @@ function createOuterLengthBase(engine, original, extraLength, options={}) {
     return t;
   }
   const oldCuts=[c,S];
+  if(clockEnd<S)oldCuts.push(clockEnd);
   for(const p of original.segments) {
     if(p.s0>=c)oldCuts.push(p.s0);if(p.s1>=c)oldCuts.push(p.s1);
     if(p.kind==="turn")for(const x of [.08,.92])oldCuts.push(p.s0+x*p.L);
@@ -84,9 +88,9 @@ function createOuterLengthBase(engine, original, extraLength, options={}) {
     deepCoast:originalCoast?clockAt(originalCoast.s1).sigma-clockAt(originalCoast.s0).sigma:undefined,
     originalEnd:S,originalHeight:original.height,
     oldToNew:t=>clockAt(t).sigma,newToOld:inverse,
-    outerLengthDesign:{schema:"6a65-positive-outer-length-design-v1",extraLength,
+    outerLengthDesign:{schema:"6a65-positive-outer-length-design-v2-localized-clock",extraLength,clockFraction,clockEnd,
       originalEnd:S,newEnd:end,centralLength:c,originalHeight:original.height,newHeight:height,
-      clock:"sigma=t+Delta*S9((t-c)/(S-c)); S9'=630*x^4*(1-x)^4",
+      clock:"sigma=t+Delta*S9((t-c)/(clockFraction*(S-c))), clipped; S9'=630*x^4*(1-x)^4",
       radius:"a_Delta(sigma(t))=a_0(t)",
       height:"Z_Delta(sigma(t))=c+integral_c^t sqrt(sigma'(v)^2-a_0'(v)^2) dv",
       primitiveEvaluation:{quadratureOrder:order,splitAtAllOriginalSegmentsAndTurnBreaks:true,continuousRemainderCertified:false},
@@ -113,14 +117,22 @@ function createOuterLengthRunProvider(candidate,input,extraLength,options={}) {
       completeSquaredPenaltyEqualsSumPrincipalCurvatureHingesSquared:false}};
   const provider=require("./fd2d-R201-R205-variable-amplitude-geometric-guide.cjs").createR201R205AmplitudeGeometryProvider(position,input.geometryOptions);
   const z=Array.from(input.z),cut=metric.definition.stateLayout.cutHeight;
+  const clockFraction=options.clockFraction??1;
+  let inheritedBaseHeight=oldBase.height,cutCorrection=oldBase.height-base.height;
   if(input.outerLengthDesign) {
-    if(input.outerLengthDesign.extraLength!==extraLength)throw Error("A saved new-design state must retain its exact extraLength");
-  } else z[cut]+=oldBase.height-base.height;
+    const inheritedDelta=input.outerLengthDesign.extraLength,inheritedClockFraction=input.outerLengthDesign.clockFraction??1;
+    const sameClock=inheritedDelta===extraLength&&inheritedClockFraction===clockFraction;
+    if(!sameClock&&!options.allowClockTransfer)throw Error("A saved new-design state must retain its exact length/clock unless an explicit physical-height-preserving transfer is requested");
+    const inheritedBase=sameClock?base:createOuterLengthBase(oldEngine,oldBase,inheritedDelta,{...options,clockFraction:inheritedClockFraction});
+    inheritedBaseHeight=inheritedBase.height;
+    cutCorrection=inheritedBaseHeight-base.height;
+  }
+  z[cut]+=cutCorrection;
   if(z.length!==provider.dimension)throw Error("Complete inherited parameter layout mismatch");
-  return {engine,oldBase,base,metric,position,provider,z,cutHeightIndex:cut,
-    design:{...base.outerLengthDesign,extraLength,centralSeedUnchanged:true,
+  return {engine,oldBase,base,metric,position,provider,z,cutHeightIndex:cut,inheritedBaseHeight,
+    design:{...base.outerLengthDesign,extraLength,clockFraction,centralSeedUnchanged:true,
       allBasisAndProfileWeightsRebuiltOnNewPhysicalInterval:true,
-      initialCutCorrection:oldBase.height-base.height,
+      inheritedBaseHeight,initialCutCorrection:cutCorrection,
       initialTrueCuffHeight:base.height+z[cut],continuousCertificate:false,strongTargetComplete:false}};
 }
 
