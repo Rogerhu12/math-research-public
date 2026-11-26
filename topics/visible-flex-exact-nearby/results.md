@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [RTC：新紧中心的实际root Cauchy及真cut接收](results/R144-supplement-actual-root-Cauchy-and-true-cut-for-compact-centres.md)：六个原R≤1/50的全频/mean能量转移，R=.005得C0<6.531910、C−1<10.936298；真cut density与root/普通源到waist<2038.527/144.146，全部负残差incoming<.002029。72保存标量有理比较，原792格/积分不重；S1/S2 radial normalizer、positive与fullmatching另付。
+
 - [DC：同号density压缩与真实有限Θ行](results/R149-supplement-same-sign-density-compression-and-finite-Theta-rows.md)：原S/Z的两Krein恒等式给原C双逆≤1；C†是inverse-density同号压缩，下界1正定/全频残差接VQ联合L²行，避免旧巨大逆费用。one-leg原载体与完整strip误差公式已定位；fullΘ的一阶loss、actual alpha signed和全部mean/Schur仍留。
 
 - [NP：独立真实参数particular与有符号腰列](results/R147-supplement-independent-strict-nu-particular-and-signed-waist-column.md)：严格负侧零terminal给全Fourier真Fν particular，正侧/root直接状态准确零；原SP+D完整费用认证M96 trial，194 true signed输出和同次192 raw pairings全部保。8件公开入口已齐，67当前/51历史、无需旧Z/Hermite或QR；实际尚待，不授完整incoming/ν/phase Schur。

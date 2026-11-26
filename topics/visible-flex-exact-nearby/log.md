@@ -269,3 +269,6 @@ NS五件共129172B，owner71056B SHA18db439d5895e4232882940a57b7bd9457982383e1ac
 
 
 2026-11-26 20:55:02 UTC / visible-exact-astra-fb31ed6-20261127：DC原C=WS的两Krein恒等式已证lower与onto，Hdot−1/2双逆≤1；C†为原inverse-density同号压缩，物理4j与G=N−1给VQ全L²联合行误差，无额外sqrt96。DC.20完整one-leg/post48/root/selected费用及真实native身份已定；fullΘ one-loss没有被免费删。root读原WIT及完整DC proof/pure formulas，0旧科学。NP45893562391/1在science。去重已推3d055e06f，两README无diff。
+
+
+2026-11-26 20:57:17 UTC / visible-exact-astra-fb31ed6-20261127：RTC已付新中心完整负root腿。所有原root窗口位于r>.18，Qtildeδ恰等固定Q*且metric相同，可与旧root family δ=0 member比较；E.9/E.10全部drift/local/primitive/二φmean-rank增量分别<.006290/.003253，角speed<1.253804保a*=1.3；原非单调Si、rootball与truecut保。72有理保存球比较全过，六R表、density/cut与STC完整拼合；负残差<.002029含全跳且每atom分窗一次，非C0或非线性解。DC已推0d5fa2013，两README无diff；TC20:57仍science。
