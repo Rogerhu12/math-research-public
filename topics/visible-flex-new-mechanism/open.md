@@ -113,7 +113,7 @@ R513同类cap排除、R518固定宽接口、R520/524/527/529原20母的返回障
 
 ### R574：准确非线性方程和真实核心通量接口
 
-[R574](results/R574-exact-nonlinear-height-equation-and-core-flux-transversality.md)给固定g的准确二次Darboux式及γ=g−dZ²的条件developing。用有限差Wronskian先保实际端点，再证明真实零处核心归一残差可微且D=−(3/R)(C/A)′；不先假设场C1、不漏归一平方因子。二阶均值有全平显式响应，j4仍须真正求受迫解，三阶μD只必要条件。下一实解非线性，核心高模允许自由生成，并支付γ正定、退化核心C2极限、全闭嵌入和原宏观门。
+[R574](results/R574-exact-nonlinear-height-equation-and-core-flux-transversality.md)给固定g的准确二次Darboux式及γ=g−dZ²的条件developing。用有限差Wronskian先保实际端点，再证明真实零处核心归一残差可微且D=−(3/R)(C/A)′；不先假设场C1、不漏归一平方因子。[R575](results/R575-local-second-order-mean-flux-and-radial-metric-design.md)把二阶均值通量化为同场一jets，准确J0′=N0且帽端常数0；新connector可复用已付尾口jets得到真实入射J0，缺完整尾高度差仍明记。静态目标径向度量可取二阶e0=2J0，定型后再固定g。j4仍须真求受迫解，三阶μD只必要条件。下一实解非线性，核心高模允许自由生成，并支付γ正定、退化核心C2极限、全闭嵌入和原宏观门。
 
 ### R567–R570：同χscalar/pose/第二/第三已返回，继续整个第四
 

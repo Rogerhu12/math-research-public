@@ -6,7 +6,7 @@
 
 ## 1. 规则与接手
 
-已部分克隆并实际 `git pull main`，公开根 README、课题 README、HANDOFF、open、results 索引及相关 log/notes 已读。公开已读提交 **8f0c9a4c66964287ecc8a4fdd1e34a7474d8ceb6**（2026-11-26 08:08 UTC；本次实际pull后根/题README空差异）；私有根初读 **85fdf1853367ef25c07f3ebdb6ae25c22a3564b8**，随后逐次 pull/rebase 检查根差异，空差异。私有 QUEUE 的本题已改为本会话进行中并成功推送：**9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7**；最后实际pull及规则同blob读至 **4f7e1d119bd02b0b37fe4d2d409a4f88c6a96a9e**（2026-11-26 08:06 UTC；实际pull/rebase后根README空差异、QUEUE仍本会话）。其它课题的并行认领保留。
+已部分克隆并实际 `git pull main`，公开根 README、课题 README、HANDOFF、open、results 索引及相关 log/notes 已读。公开已读提交 **30092c04402ead647dd7467916a20fc3b83b5c50**（2026-11-26 08:15 UTC；本次实际pull后根/题README空差异）；私有根初读 **85fdf1853367ef25c07f3ebdb6ae25c22a3564b8**，随后逐次 pull/rebase 检查根差异，空差异。私有 QUEUE 的本题已改为本会话进行中并成功推送：**9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7**；最后实际pull及规则同blob读至 **4f7e1d119bd02b0b37fe4d2d409a4f88c6a96a9e**（2026-11-26 08:06 UTC；实际pull/rebase后根README空差异、QUEUE仍本会话）。其它课题的并行认领保留。
 
 各原观察note保真实双仓pull/规则blob/QUEUE回执；根/题规则均无变化。盘满和失联恢复原记录保于[先前交接](notes/HANDOFF-before-hard-restoration-20261126.md)，本次压缩前全文保于[几何转向前交接](notes/HANDOFF-before-compact-geometry-20261126.md)。API读取不冒git pull。
 
@@ -32,7 +32,7 @@
 
 [R571](results/R571-milder-phase-tail-flat-kernel-and-core-shooting-zero.md)换明确δ^-1相位尾，统一patch reach>.08670；一维真flat核及负holonomy给周期connector上的真实C_core零/A_core非零。[原run45777456573](notes/2026-11-26-r571-phase-shooting-natural-final.md)173.782205514秒，选φ1.508384770827仍有C/A=−3.4767e−5；核心归一|Vss|9.41956e9，两个相位导数未稳定。M+1差2.43e−10不足解释根残差，不盲增M。转新连接段/更慢相位输入，复用已付φ0尾，实际付增益/高度/曲率/弧长预算；不是宏观可行候选。
 
-[R574](results/R574-exact-nonlinear-height-equation-and-core-flux-transversality.md)给准确二次Darboux式、核心通量和有限差Green身份，真实零处D=−(3/R)(C/A)′；二阶均值响应可积分。受迫高模、正定developing与退化核心C2边界、有限分支仍欠。所有φ/connector设计变化先换g，最终仍须冻结同一g。
+[R574](results/R574-exact-nonlinear-height-equation-and-core-flux-transversality.md)给准确二次Darboux式、核心通量和有限差Green身份，真实零处D=−(3/R)(C/A)′；[R575](results/R575-local-second-order-mean-flux-and-radial-metric-design.md)再将均值通量J0化为同场一jets，J0′=N0、帽端常数0、j2真核J0(R)=27/(4R²)；静态e0=2J0可吸收均值，但仍非有限解。受迫高模、正定developing与退化核心C2边界、有限分支仍欠。所有φ/connector设计变化先换g，最终仍须冻结同一g。
 
 
 [硬几何首run](notes/2026-11-26-hard-exchange-first-run-restoration.md)与[原门识别续接](notes/2026-11-26-hard-resume-first-metric-progress.md)完整闭账：B030末V=.00054365/η2.089589，B038首次fine可行并降η至.86360747；均止于未采用1536角超过原768容量。实际原q/网格/trust保，原资格不因新预算改判。
