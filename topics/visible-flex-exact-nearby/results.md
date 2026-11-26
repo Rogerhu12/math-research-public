@@ -438,3 +438,9 @@
 
 提交[完整合同](notes/2026-11-26-R144-fixed-eta0-correlated-mean-contract.md)、science/worker/generator、21当前+10历史manifest及唯一push workflow。输入是原raw ν0、exact η0，原7296格/6143接缝；旧完整native仅身份/partition/v与mean gap只读。新全域高精度载体此前未存，按真实body/compact/graft定义物化；320bits、N512、源Taylor24/流25、ρ/h=8，全部primitive和Cauchy尾收费，同r有符号源及D恢复先相加再取范围。RS准确初值和全mean atoms、forward a^-2费保留。
 manifest SHA256 e99e081cd404c36e9f754c0839e9f8f7d95502fffa2db02bff093fe90a0599a8；science b3e7b85933f6d1e5bae7f39b3a84a98a0d9a8db11255d22d9cefa0edc1a6bd4b，worker7535b3746065ea53af8855d56efbdb1ac906547a81f3c6845c601072aaae7cde。每个接受子格/接口原子保存，异常丢弃未提交状态并验证真实trace前缀；最终whole保存读回门后才complete。5h child/6h job，无自动科学retry。实际run/结果待登记，不将合同当科学成功；旧全ηforward7721/6143及unknown冻结。非mean、height、phase、full inverse和闭族仍未完成。
+
+### 2026-11-26 — R149 完整正侧逆到真负侧与原输入 incoming 的接线
+
+新[PN完整证明](results/R149-supplement-complete-positive-inverse-to-true-negative-and-incoming.md)及[pure receiver](scripts/fourfold_codazzi_positive_inverse_negative_receivers_math.py)已核：真实58/224/32全成后，WPN精确双向lifting在整个L²_r低193消去原正侧radial head/cokernel；prescribed物理root96仍独立。一般L² lifting只取合法w的迹，实际physical来源才用a(root)=Ec c*+Ed d。224原row3/15按真root低高正交、已含factor9合成完整根，然后同原PW/SP送完整waist/两mean；32两RHS须先乘实际physical pair尺度，rough baseline不冒mixed-root。
+同common x的Φ/Υ已付Ni，新增correction保原左U_H^-1 J± T0^-1及out旋转顺序，joint仅BH KW无额外√2，WPL独立BH/√2。14物理ports保各自source输入，不升级H^-4/3。原E.6/N/SP完整二源域转授保第二非mean，ordinary两径窗正交只用于输入Cauchy费用；jump无长度。纯模块无IO/科学执行；真正low/58/224/32仍待R142后续。signed有限列、fullincoming/high及finite/mean/ν Schur与非线性未完成。
+并登记固定η0新积分实际run45778507038/1（head6a1868c67ab908a66628aec568c8f5feb9296450），R14245761859526/1仍运行；两者尚无完整结论。
