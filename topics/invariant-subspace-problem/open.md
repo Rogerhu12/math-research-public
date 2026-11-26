@@ -182,3 +182,6 @@ Deddens自伴MASA、全部可分重数有限成本投影、全2-adic平移距离
 
 
 新[五原二次式必要曲线F_(41,33)](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-five-quadrics-parameter-curve.md)由20×20原矩阵常数坐标余子式全乘回，所有首项零纤维保留；源e7fafb7b/101.464392秒/exit0。继续5×6二次单项式规则、同点原N/P与完整参数覆盖。10×10全伴随180秒失败不重跑。
+
+
+[N型最大carry域](results/R271-appendix-maximal-n-carry-domain-triangular-reconstruction.md)已由有限行严格三角重构识别为ρ权平方和域；各Pq h在H且Kh在H即进总孔核心。若同W来源已付Sh∈H，非零W只可能来自D*h与Kh各非H的真实抵消；此来源与抵消排除均未付，Y不套此正交重构。

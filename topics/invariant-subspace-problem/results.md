@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R271 N型最大carry域与严格三角重构（2026-11-27，已证明）：** [逐块唯一、准确最大域及图范数](results/R271-appendix-maximal-n-carry-domain-triangular-reconstruction.md)完整正交降列给等距U，保首缺位J给||U*J||≤1/12且第q行仅i<q有限来源。先由真实Kh∈H作Neumann解，再逐行唯一，未先假平方和；各Pq h在H时，Kh在H恰等价ρ权平方和，Sh来源上最大域和有限支撑图核心准确成立。W若已付Sh而非零，必须D*h/Kh分别非H的真实抵消；该来源/抵消仍未付，也不把N正交结构套Y。
+
 - **R150 S0/Lt0原五二次式的两参数必要曲线（2026-11-27，已证明）：** [完整20×20原矩阵与常数坐标余子式](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-five-quadrics-parameter-curve.md)实际cofactor*M=(0,…,0,D)的20项全回乘，D=65536 e⁴k¹⁰j⁶(4e−k−4)²(4e−k)D3¹⁰F_(41,33)，仅846项新因子未付，保所有消元主元零纤维。源e7fafb7b实际101.464392秒/58108KiB/exit0；10×10全伴随180秒失败留档冻结。新曲线是原理想必要条件，仍接完整N/P，不宣一般Lt0排空。
 
 - **R271 原carry的精确15/16来源端点及真实1/16逆权（2026-11-27，已证明）：** [完整权恒等式、直接总孔核心和两型临界下界](results/R271-appendix-critical-fifteen-sixteenths-carry-domain.md)比值b_q/alpha_q^(15/16)有明确可和指数且q0单付，N/Y原carry在X_(15/16)有界；固定总孔仅q≤p有限块，直接完成双图核心。对y=Sh精确等价Σalpha_q^(−1/8)||P_q^+y||²有限；σ>15/16两型无条件carry延拓均由真实测试列排除，Y保全部Cayley偶幂。未证明W规范原像满足此费，未把条件核心当N=M。
