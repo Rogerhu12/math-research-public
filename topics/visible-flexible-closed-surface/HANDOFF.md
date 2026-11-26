@@ -7,7 +7,7 @@
 
 完整连通闭C2嵌入族、共同g和固定握持开区域；全曲面D下held/D≥.05、含反射δE>0、全时reach/D≥.03、全域全时metric≤1e−6，并支付同一g/全部物理参数下真加密到求解容差及可复现完整网格。基础之后继续held/D≥.2、δE/D≥.05或严格存在。本题尚未完成。
 
-- 根/课题README完整读于 `f0548477576caa2373d1626227a284ccfa9767d0`；接手真实pull在05:16UTC成功。最近已读公开提交 `6e57e3589f3fb8faaf45bb545e133f789d0ae496`（2026-11-26 08:27 UTC真实pull/rebase后，双README逐差均无变化）。每次真实pull后核两README差异，至少每小时；有变只读差异立即执行。本轮各次均无差异。
+- 根/课题README完整读于 `f0548477576caa2373d1626227a284ccfa9767d0`；接手真实pull在05:16UTC成功。最近已读公开提交 `ca72aa01e4ca293de2bece8a9eefb41e34d87579`（2026-11-26 08:31 UTC真实pull/rebase后，双README逐差均无变化）。每次真实pull后核两README差异，至少每小时；有变只读差异立即执行。本轮各次均无差异。
 - 私库根规矩完整读；QUEUE认领已推 `c7785184d0d9c503852fb2137e9e2c091221d080`，状态进行中（本会话/2026-11-26）。认领推拒均即时pull/rebase再推成功。
 - 每结论分条commit/push；推拒立即pull --rebase循环，不强推、不amend已发布提交。完整证明直接登记；不回到旧独审/冻结手续。可重算数组不进Git/Release/artifact，只存源码、参数、run/hash。单MD<100KB、H<10KB、课题<200MB；不写根LOG。令牌只在命令进程环境。
 - 部分克隆 `/tmp/visible-flex-6a65e705/math-research-public`；同级 `solver-work/geometry-work/exact-work` 保存raw。/workspace空间不足，勿将大数组放回。05:47旧环境/tmp丢失，05:54已重新部分克隆和冷重生，不借旧失联数组身份。
@@ -32,15 +32,17 @@
 
 **原M12同g修正。** 12槽/48弱矩和完整Gram Schur均实际能量下降但全峰未胜旧Phi：[四应力](notes/2026-11-26-6a65-four-radial-stresses-full-gram.md)、[Schur及支撑外缺口](notes/2026-11-26-6a65-full-gram-schur-and-fixed-support.md)，不重复。[首ramp三档真实C2图](notes/2026-11-26-6a65-m12-central-ramp-three-refinements.md)M95/191/383，metric 2.14436e−10→4.31484e−12→3.66688e−12、κ5.11272；中央全端迹准确。[R221真C2接合及整coast](results/R221-m12-ramp-generated-exact-coast-and-c2-seam.md)已用M191精确出口/6838整数叶实证D>.500627、U_t>.477172、κ<5.628725；M95/191/383接合后metric峰3.46869e−10/4.31484e−12/3.66688e−12，首ramp仍缺连续误差。exact分工继续完整自由端口的正K位置BVP；未用局部改善冒整个闭图G5。
 
-**新的完整几何输入。** [R137新端口](notes/2026-11-26-6a65-geometry-r137-new-actual-ports.md)与[双Hermite实际失败](notes/2026-11-26-6a65-geometry-r137-two-connectors-and-actual-lm.md)已登记；[中央Cauchy弱坡](notes/2026-11-26-6a65-geometry-central-cauchy-real-ramp.md)给真实精确前缀。[强前缀后三条正K Cauchy尾](notes/2026-11-26-6a65-geometry-actual-cauchy-tail-stops.md)都在metric>1e−5提前失败，未到cut，已换输入。
+**新的完整几何输入。** 原空间R137 focus、双Hermite求解失败、强前缀后三条正K Cauchy消费均已实际登记；不要重复同一IVP。见[完整warm及全部历史链接](notes/2026-11-26-6a65-geometry-complete-unit-t-warm.md)。L=.75长前缀新g为c=.1015625/ramp=.18/coast=.05/v=.15/cut1.0815625，A=.8746432018013935/Z=.51；warm02的右面积谷导致κ1309。[1788列完整拟合](notes/2026-11-26-6a65-cauchy-global-fit-and-real-baseline.md)又暴露κ14332；[首LM真0总目标接受](notes/2026-11-26-6a65-cauchy-first-lm-curvature-dominates.md)却将metric1.455→14.09，不作主输入。
 
-[新全half warm](notes/2026-11-26-6a65-geometry-complete-unit-t-warm.md)为真实中央→C2 Cauchy→准确R137 coast→完整Hermite→真R205平cuff；完整弧长归一两jet，无独立端迹投影。当前L=.75新g：c=.1015625/ramp=.18/coast=.05/v=.15/cut1.0815625，base.height .8894838920546868，A=.8746432018013935/Z=.51。`r137-warm02-flatcut-samples.npz` SHA `3675506acd0150593e9c1f21bd24e2f90990103be88bf56b4e9adecd08a4b5c0`。G≈1e−15但右metric1.458/κ1309/minarea.0525；这是新初值。[根J38/K11/N128/1788列完整拟合及value](notes/2026-11-26-6a65-cauchy-global-fit-and-real-baseline.md)三进程真0，230490行metric1.4554/κ14332暴露更尖面积谷；新基线SHA `b9210b09459df8fe0a6cd3c3351c08bd6f028478e479f2db6e3470f31c014ca5`，[全列首LM](notes/2026-11-26-6a65-cauchy-first-lm-curvature-dominates.md)已真0接受，但κ四次项压过metric，峰1.455→14.09，未作为继续主输入。[非退化后段新拟合/明确tau1e6目标](notes/2026-11-26-6a65-transplant-full-fit-and-startup-objective.md)已三进程真0，完整230490行metric2.483/κ51.876/min归一面积平方.282686/held.644946；新baseline SHA `f19c0db9b62069e82a3fdbc66febfb3240168e4a1e6d94af39aac01c2270457e`。三处真实全列方向核真0，首LM实际运行。原R211定义不改。[右长.8/.95/1三基线](notes/2026-11-26-6a65-geometry-right-length-three-baselines.md)降低过快Xs却恶化面积/κ/held，不替换当前输入。geometry分工改接已有非退化强态后段。
+[实际旧强后段拼合](notes/2026-11-26-6a65-geometry-cauchy-strong-transplant.md)含真C2端口/单调时钟/整体高度函数/完整弧长两jets，96×128表metric2.460/κ50.587/右归一面积≥.53137/held.64515。原件 `r137-transplant04-longprefix-samples.npz` SHA `8843c2e3909764ad254fe813ff210e48dd443d959bb9c6cb324136443420a3e5`。[同场1788列拟合及明确tau1e6启动目标](notes/2026-11-26-6a65-transplant-full-fit-and-startup-objective.md)三进程真0，metric2.483/κ51.876/min归一面积平方.282686/held.644946，baseline SHA `f19c0db9b62069e82a3fdbc66febfb3240168e4a1e6d94af39aac01c2270457e`；三处真实全列方向FD真0。首LM在153.1895s被SIGKILL(-9)，无normal输出、无末态、零接受；原因未证，不把它记成数学拒绝或进展。
+
+当前换更短真实前缀(.06/.05/.02)及按raw真实周长设计g：完整rho初值要拟合周长差/一阶导数，避免人为尺度归一重新制造曲率；短支明确另名base，现长支base不热改。原[右长度三基线](notes/2026-11-26-6a65-geometry-right-length-three-baselines.md)失败已付。仍须完整value/LM与全部几何，不凭样本或新目标下降冒完成。
 
 ## 公共CI实际状态与继续
 
 旧run45767322734/job139731246744在第20数学接受真0后因CAS发布failure，21–60未发生；原bot小报告已实际fetch/cherry-pick，CAS识别已修，[记录](notes/2026-11-26-6a65-solver-actions-twentieth-cas-failure.md)。不能用静态running猜活状态。
 
-[新run45778054176](https://github.com/Rogerhu12/math-research-public/actions/runs/45778054176)/job139766458381，冻结head2ed4f1ef9、loaded controller5093095a…，08:06UTC API仍in_progress。原17恢复+R219已见3步+真实observer都真0；R208/J36新baseline及首个已见步已真0，计划20步中前3是已见恢复。raw保持同job，不因main变化热替换数值源码；最终等严格state/observer/readrules SHA匹配的后继请求。正常停滞保真实旧态/观察并等新方向，不记拒绝trial为结果。
+[新run45778054176](https://github.com/Rogerhu12/math-research-public/actions/runs/45778054176)/job139766458381，冻结head2ed4f1ef9、loaded controller5093095a…，08:26UTC API仍in_progress。原17恢复+R219已见3步+真实observer真0；R208/J36至第14步均真0，其中11个新接受，末metric.185997/κ13.58266/held.623890仍欠，计划20步中前3仅是已见恢复。raw保持同job，不因main变化热替换数值源码；最终等严格state/observer/readrules SHA匹配的后继请求。正常停滞保真实旧态/观察并等新方向，不记拒绝trial为结果。
 
 CI每次literal pull在首行marker记SHA；publisher只合并该行，保root其它文本，不amend已发布提交。等待fetch30秒，新请求或45分钟才真实pull。root分条push同时遇NFF/锁冲突均已即时pull/rebase循环成功。后继文件 `ci-requests/6a65-strong-followup-20261126.json` 必须消费实际末态，不猜SHA。
 
