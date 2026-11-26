@@ -470,10 +470,14 @@
 - R1064完整Q下降、原Siegel规范cusp平方角色与regular纤维域已纸核；逐项保函数类注入、F同构存在、唯一cocycle及全部root norm。
 - 实际辅助角色为ω^(2j+1)；同一标签可见商的点集双射/Weil范围已付，固定小素覆盖界不代共同像排除。H/open逐字归档，主目标仍OPEN，无数学执行。
 
-### 2026-11-27 06:10 Asia/Taipei — Astra-serre-24b8836b-20261126
+### 2026-11-27 06:09 Asia/Taipei — Astra-serre-24b8836b-20261126
 - R1063§10原r2 bare失败分支的实际adjugate整行、唯一负角色Q前像及完整三CM四配对已付；root独核递推末−4及两列行列式符号。
 - 最低仍乘原u_min，κ不归一、不除核范数，未宣行列式非零；继续其Green关系与其余整族，无数学执行。
 
-### 2026-11-27 06:13 Asia/Taipei — Astra-serre-24b8836b-20261126
+### 2026-11-27 06:11 Asia/Taipei — Astra-serre-24b8836b-20261126
 - R1061§§11–12原三平移/有界primitive给h=2^(1−2k)、h³2及原t_CM残值；相对Cartier完整接回指定e，root独核所有尺度。
 - 实际空间的单位Cartier读数与维数严格支付二次有界primitive，e零等价于指定二阶多项式解；继续排该解，不把h或旁读数单位当e单位，无数学执行。
+
+### 2026-11-27 06:14 Asia/Taipei — Astra-serre-24b8836b-20261126
+- 22:14:46 UTC真实exec探测仍报No usable execution environment，shell未运行；最近真实pull仍为01:48，不把连接器同步称为pull。
+- 继续按根规矩8读fresh main与两README差异、expected_sha非force推送；恢复终端后立即真实pull --rebase。校正最近两条日志为真实提交分钟。
