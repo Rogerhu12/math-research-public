@@ -1,0 +1,225 @@
+name: 6a65 M12 h487 to M48 full normal controlled warm
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/6a65-m12-h487-full-normal.yml
+      - topics/visible-flexible-closed-surface/ci-requests/6a65-m12-h487-full-normal.json
+  workflow_dispatch:
+    inputs:
+      warm_iterations:
+        description: LSMR iterations for the M48 warm layer; h487 base stays at 800
+        required: true
+        default: "800"
+      warm_newton:
+        description: Complete M48 warm updates with the original fixed g
+        required: true
+        default: "1"
+permissions:
+  contents: write
+jobs:
+  entire-half:
+    if: github.repository == 'Rogerhu12/math-research-public'
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    env:
+      OPENBLAS_NUM_THREADS: "1"
+      OMP_NUM_THREADS: "1"
+      M12_RECOVERY_TOKEN: ${{ github.token }}
+    steps:
+      - name: Set the runner temporary directory
+        shell: bash
+        run: |
+          set -euo pipefail
+          printf 'M12_COLD_DIR=%s/visible-flex-m12-full-normal-%s-%s\n' "$RUNNER_TEMP" "$GITHUB_RUN_ID" "$GITHUB_RUN_ATTEMPT" >> "$GITHUB_ENV"
+      - name: Partially clone the frozen trigger source
+        shell: bash
+        run: |
+          set -euo pipefail
+          git clone --filter=blob:none --no-checkout --depth=1 "https://github.com/$GITHUB_REPOSITORY.git" "$GITHUB_WORKSPACE"
+          cd "$GITHUB_WORKSPACE"
+          git sparse-checkout set --no-cone '/README.md' '/topics/visible-flexible-closed-surface/'
+          git fetch --filter=blob:none --depth=1 origin "$GITHUB_SHA"
+          git checkout --detach "$GITHUB_SHA"
+          if [ "$(git rev-parse --is-shallow-repository)" = true ]; then
+            git fetch --filter=blob:none --unshallow origin main
+          fi
+          git merge-base --is-ancestor "$GITHUB_SHA" origin/main
+          test "$(git rev-parse HEAD)" = "$GITHUB_SHA"
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install numerical runtime
+        run: python -m pip install numpy==2.3.5 scipy==1.17.0
+      - name: Check all workflow payloads and new Python before numerical work
+        shell: bash
+        run: |
+          python - <<'PYSAFE'
+          import ast,os,re,subprocess,textwrap
+          from pathlib import Path
+          ref=os.environ['GITHUB_SHA']+':.github/workflows/6a65-m12-h487-full-normal.yml'
+          lines=subprocess.check_output(['git','show',ref],text=True).splitlines()
+          shell_count=python_count=0
+          for i,line in enumerate(lines):
+              match=re.match(r'^(\s*)run:\s*\|\s*$',line)
+              if not match:continue
+              indent=len(match.group(1));rows=[]
+              for row in lines[i+1:]:
+                  if row.strip() and len(row)-len(row.lstrip())<=indent:break
+                  rows.append(row)
+              body=textwrap.dedent('\n'.join(rows))+'\n'
+              subprocess.run(['bash','-n'],input=body,text=True,check=True);shell_count+=1
+              code=body.splitlines();j=0
+              while j<len(code):
+                  tag=re.match(r"^\s*python\s+-\s+<<'([A-Z][A-Z0-9_]*)'\s*$",code[j])
+                  if tag:
+                      end=j+1
+                      while end<len(code) and code[end]!=tag.group(1):end+=1
+                      if end==len(code):raise ValueError('Unterminated workflow Python block')
+                      ast.parse('\n'.join(code[j+1:end]));python_count+=1;j=end
+                  j+=1
+          scripts=Path('topics/visible-flexible-closed-surface/scripts')
+          names=('6a65-m12-frequency-only-grid-prepare.py','6a65-m12-frequency-only-warm-transfer.py',
+                 '6a65-m12-entire-half-cartesian-warm-refinement.py','6a65-m12-frequency-warm-finite-fixture.py',
+                 '6a65-m12-h487-to-m48-full-normal-cold-run.py','6a65-m12-full-normal-rules-supervisor.py',
+                 '6a65-m12-full-normal-summary-publisher.py','6a65-m12-full-normal-warm-refinement.py',
+                 '6a65-m12-complete-gram-normal-preconditioner.py','6a65-cartesian-complete-radial-normal.py')
+          for name in names:compile((scripts/name).read_text(),str(scripts/name),'exec')
+          print({'actual_bash_n_blocks':shell_count,'actual_Python_AST_blocks':python_count,
+                 'new_sources_compiled':len(names),'numerical_field_not_yet_solved':True})
+          PYSAFE
+      - name: Read the complete true-cuff finite request
+        env:
+          M12_DISPATCH_WARM_ITERATIONS: ${{ inputs.warm_iterations }}
+          M12_DISPATCH_WARM_NEWTON: ${{ inputs.warm_newton }}
+        run: |
+          python - <<'PY'
+          import json,math,os
+          from pathlib import Path
+          p=Path('topics/visible-flexible-closed-surface/ci-requests/6a65-m12-h487-full-normal.json')
+          request=json.loads(p.read_text())
+          if request.get('schema')!='6a65-M12-h487-complete-normal-request-v1':
+              raise ValueError('Explicit new fixed-g full-normal request required')
+          keys=('prefix_elements','tail_elements','tail_depth','order','angular','gauss','iterations','newton','block',
+                'local_element','second_local_element','warm_order','warm_angular','warm_iterations','warm_newton')
+          values={key:int(request[key]) for key in keys}
+          for key in ('warm_iterations','warm_newton'):
+              override=os.environ.get('M12_DISPATCH_'+key.upper())
+              if override:values[key]=int(override)
+          fixed=tuple(values[k] for k in ('prefix_elements','tail_elements','tail_depth','order','angular','gauss','iterations','newton','block','local_element','second_local_element'))
+          if fixed!=(80,64,12,32,384,6,800,1,24,190,176):
+              raise ValueError('The h487 reproduction settings must remain unchanged')
+          if (values['warm_order'],values['warm_angular'])!=(48,768):
+              raise ValueError('The explicit warm angular layer must be M48/N768')
+          if not 1<=values['warm_iterations']<=20000 or not 1<=values['warm_newton']<=20:
+              raise ValueError('Invalid finite warm solve budget')
+          if not all(request.get(k) is True for k in ('original_metric_unchanged','true_flat_cuff_included',
+                 'all_h487_radial_nodes_retained','exact_tail_query_recipe_unchanged','same_training_Gauss_rule',
+                 'same_job_actual_base_field_zero_embedded')):
+              raise ValueError('Complete original problem and exact warm inclusion must be retained')
+          if request.get('diagnostic_windows')!=[['.432','.436'],['.5122','.5141']]:
+              raise ValueError('Both exact original microspan windows remain required')
+          eta=float(request['preconditioner_eta']);assembly=int(request['normal_assembly_block'])
+          if not math.isfinite(eta) or eta<=0 or assembly<1:raise ValueError('Positive finite full-normal parameters required')
+          if request.get('linear_target_regularization')!=0 or request.get('required_LSMR_damp')!=0:
+              raise ValueError('Physical lambda and LSMR damp must both stay zero')
+          expected=request.get('comparison_actual_field_sha256') or ''
+          with Path(os.environ['GITHUB_ENV']).open('a') as output:
+              for key,value in values.items():output.write('M12_'+key.upper()+'='+str(value)+'\n')
+              output.write('M12_EXPECTED_BASE_FIELD_SHA256='+expected+'\n')
+              output.write('M12_PRECONDITIONER_ETA='+str(eta)+'\n')
+              output.write('M12_NORMAL_ASSEMBLY_BLOCK='+str(assembly)+'\n')
+          print(json.dumps({**values,'fixed_original_metric':True,'same_radial_Gauss_and_query_recipe':True,
+                           'finite_numerical_only':True,'base_reproduction_is_not_new_improvement':True}))
+          PY
+      - name: Recover and verify the original prefix blob
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p "$M12_COLD_DIR"
+          python - <<'PY'
+          import os,urllib.request,json,base64,hashlib
+          from pathlib import Path
+          blob='26ce0426c60ef868c53597a82252e0559c1cc21e'
+          expected='359d491cd592962d467fdd538013977ee9a92070346de41c227d9ca3e1ef3bd0'
+          headers={'User-Agent':'M12-entire-half-fixed-g-cold-run','Accept':'application/vnd.github+json'}
+          token=os.environ.get('M12_RECOVERY_TOKEN')
+          if token:headers['Authorization']='Bearer '+token
+          url='https://api.github.com/repos/Rogerhu12/math-research-public/git/blobs/'+blob
+          with urllib.request.urlopen(urllib.request.Request(url,headers=headers),timeout=60) as response:payload=json.load(response)
+          if payload['sha']!=blob or payload['encoding']!='base64':raise ValueError('Wrong source blob')
+          raw=base64.b64decode(payload['content'])
+          if len(raw)!=3112330 or hashlib.sha256(raw).hexdigest()!=expected:raise ValueError('Wrong original M12 prefix')
+          if hashlib.sha1(b'blob '+str(len(raw)).encode()+b'\0'+raw).hexdigest()!=blob:raise ValueError('Wrong Git framing')
+          (Path(os.environ['M12_COLD_DIR'])/'m12-prefix-data.npz.gz').write_bytes(raw)
+          print(json.dumps({'prefix_blob':blob,'prefix_sha256':expected,'bytes':len(raw)}))
+          PY
+      - name: Freeze the trigger numerical source outside the publication worktree
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PYFREEZE'
+          import hashlib,json,os,shutil,subprocess
+          from pathlib import Path
+          root=Path.cwd();head=subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip()
+          if head!=os.environ['GITHUB_SHA']:raise ValueError('Frozen numerical source must be the trigger commit')
+          topic=Path('topics/visible-flexible-closed-surface')
+          subprocess.run(['git','diff','--exit-code','HEAD','--','README.md',str(topic)],check=True)
+          frozen=Path(os.environ['RUNNER_TEMP'])/('visible-flex-m12-full-normal-source-'+os.environ['GITHUB_RUN_ID']+'-'+os.environ['GITHUB_RUN_ATTEMPT'])
+          if frozen.exists():raise FileExistsError('Fresh frozen numerical source directory required')
+          (frozen/topic.parent).mkdir(parents=True)
+          shutil.copytree(root/topic,frozen/topic)
+          shutil.copy2(root/'README.md',frozen/'README.md')
+          record={'source_head':head,'readme_sha256':{name:hashlib.sha256((frozen/name).read_bytes()).hexdigest() for name in ('README.md',str(topic/'README.md'))},
+                  'frozen_source_is_separate_from_publication_worktree':True}
+          (Path(os.environ['M12_COLD_DIR'])/'frozen-source.json').write_text(json.dumps(record,indent=2)+'\n')
+          with Path(os.environ['GITHUB_ENV']).open('a') as output:output.write('M12_FROZEN_REPO='+str(frozen)+'\n')
+          print(json.dumps(record,indent=2))
+          PYFREEZE
+      - name: Run frozen numerical sources with live 45 minute rules checks
+        shell: bash
+        run: |
+          set -euo pipefail
+          python "$M12_FROZEN_REPO/topics/visible-flexible-closed-surface/scripts/6a65-m12-full-normal-rules-supervisor.py" \
+            --repository "$GITHUB_WORKSPACE" --frozen-root "$M12_FROZEN_REPO" --directory "$M12_COLD_DIR" \
+            --source-head "$GITHUB_SHA" --run-id "$GITHUB_RUN_ID" --attempt "$GITHUB_RUN_ATTEMPT" \
+            --prefix-elements "$M12_PREFIX_ELEMENTS" --tail-elements "$M12_TAIL_ELEMENTS" --tail-depth "$M12_TAIL_DEPTH" \
+            --order "$M12_ORDER" --angular "$M12_ANGULAR" --gauss "$M12_GAUSS" \
+            --iterations "$M12_ITERATIONS" --newton "$M12_NEWTON" --block "$M12_BLOCK" \
+            --warm-order "$M12_WARM_ORDER" --warm-angular "$M12_WARM_ANGULAR" \
+            --warm-iterations "$M12_WARM_ITERATIONS" --warm-newton "$M12_WARM_NEWTON" \
+            --preconditioner-eta "$M12_PRECONDITIONER_ETA" --normal-assembly-block "$M12_NORMAL_ASSEMBLY_BLOCK" \
+            --expected-base-field-sha256 "$M12_EXPECTED_BASE_FIELD_SHA256" \
+            | tee "$M12_COLD_DIR/entire-half-supervised.log"
+      - name: Write only a compact identity receipt
+        if: always()
+        shell: bash
+        run: |
+          python - <<'PY'
+          import hashlib,json,os
+          from pathlib import Path
+          base=Path(os.environ['M12_COLD_DIR']);base.mkdir(exist_ok=True)
+          files={}
+          for p in sorted(base.rglob('*')):
+              if p.is_file():
+                  digest=hashlib.sha256()
+                  with p.open('rb') as source:
+                      for block in iter(lambda:source.read(1048576),b''):digest.update(block)
+                  files[str(p.relative_to(base))]={'sha256':digest.hexdigest(),'bytes':p.stat().st_size}
+          receipt={'head':os.environ['GITHUB_SHA'],'run_id':os.environ['GITHUB_RUN_ID'],
+                   'scope':'The entire original M12 half through the true flat cuff; internal radius-.6 seam is free.',
+                   'finite_numerical_only':True,'exact_isometry_proved':False,'files':files}
+          (base/'cold-receipt.json').write_text(json.dumps(receipt,indent=2)+'\n')
+          print(json.dumps(receipt,indent=2))
+          PY
+      - name: Publish one small actual conclusion and this job's own rules marker
+        if: always()
+        shell: bash
+        env:
+          M12_JOB_STATUS: ${{ job.status }}
+        run: |
+          set -euo pipefail
+          python "$M12_FROZEN_REPO/topics/visible-flexible-closed-surface/scripts/6a65-m12-full-normal-summary-publisher.py" \
+            --repository "$GITHUB_WORKSPACE" --frozen-root "$M12_FROZEN_REPO" --directory "$M12_COLD_DIR" \
+            --source-head "$GITHUB_SHA" --run-id "$GITHUB_RUN_ID" --attempt "$GITHUB_RUN_ATTEMPT" \
+            --job-status "$M12_JOB_STATUS"
