@@ -442,3 +442,14 @@ o1_theta 与 root 独立纸核实际积分格、trace 定标的全局代数域�
 canonical kernel splitting、回文符号、\(H\) 的整性、
 全部总阶 \(p\) cross 项、二-primary 的 \(2e_A\)、
 以及多项式常数项。无数学程序执行，无旧窗口或矩阵枚举重跑。
+
+
+## 后继：实际方向符号已准确确定
+
+[R1025](R1025-original-theta-exact-mod-six-direction-phases.md) 进一步
+证明 \(d_A=\delta'_p ab\gamma\)、
+\(2c_A/\gamma=\delta'_p e_Aab\)，其中 \(a,b\) 是原矩阵模
+\(\sqrt{-3}\) 的整数符号，\(e_A\) 为原模二列符号。
+\((\delta'_p)^2=D_p\)；共同单位仍保留。
+其证明使用所有有限处整性及真实三处 Tate 线，不以方向抽样猜符号。
+原 primitive/Legendre 两 mask 仍须继续。

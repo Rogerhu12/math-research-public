@@ -2,7 +2,7 @@
 
 **主要目标仍OPEN。** 完整证明绝对常数C，或给出p→∞完整无CM反例族；有限素数、条件结论、低权/局部Abel/部分子群均不够。
 
-此前逐字状态在[最新open归档](open-archive-2026-11-26-before-formal-first-layer.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重新计算已成输入。
+此前逐字状态在[最新open归档](open-archive-2026-11-26-before-exact-theta-phase.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重新计算已成输入。
 
 [R1018](results/R1018-original-CM-divisor-exact-first-formal-layer.md)：p>37、p11mod12，原P=(p−1)D₀在J₁良好模型准确为F^m\F^(m+1)，m=(p−1)/2、π₀^((p²−1)/2)=p。完整惯性权给下界；保R1014真实b和六标记的quotient-isogeny提升、zero-flux同一frame、全局平均与全部Cech后，原a0参考尾首类=−6κ[z^−(2h−1)]单位，别尾不能抵消。附同一e3 node的全部odd-power gap二项式单位。形式点深度1/(p+1)不能直接代log；实际degree-p完整返回现由R1023计算，R1011半秩商整投影和候选排除仍开。
 
@@ -20,7 +20,9 @@ R1只把全部异常缩为p>37的完整N_ns；**p≡2,5 mod9只是另加小惯�
 
 ## O1：全p同一真实本原标签的临界非零
 
-[R1022](results/R1022-original-theta-all-direction-constant-square.md)：全部p≥41、p5mod6，原4η⁶C_N(η)²=D_p∈(Fp×)²方向无关，D_p=−4Σa_i²a_(N−i)²；p5mod12准确D_p=1。真实index1积分torus由trace定标到Q(μ_(p+1))，复共轭即p-Frob，primitive拉回及canonical metric给相对norm1；完整addition分布保总D阶p的cross，接回c_A²=D_pγ²/4。原方向scalar只剩共同单位及实际±号，不能删符号或代primitive/Legendre谱、bare余项。
+[R1025](results/R1025-original-theta-exact-mod-six-direction-phases.md)：原全部方向相位已定：d_A=δ′_p abγ、2c_A/γ=δ′_p e_Aab，故η³C_N=−δ′_p e_Aab/2；a,b为α,β mod√−3的±1，e_A由模2非零列给出。所有有限处integrality+Kronecker把相位缩为±，实际3处Jordan/Tate线与原二jet读出ab；R1020遂给原带符号五次H值。共同δ′保留，primitive/Legendre同h与bare仍开。
+
+[R1022](results/R1022-original-theta-all-direction-constant-square.md)：全部p≥41、p5mod6，原4η⁶C_N(η)²=D_p∈(Fp×)²方向无关，D_p=−4Σa_i²a_(N−i)²；p5mod12准确D_p=1。真实index1积分torus由trace定标到Q(μ_(p+1))，复共轭即p-Frob，primitive拉回及canonical metric给相对norm1；完整addition分布保总D阶p的cross，接回c_A²=D_pγ²/4。原方向±已由R1025精确付清，共同单位保留；不能代primitive/Legendre谱或bare余项。
 
 [R1020](results/R1020-original-critical-convolution-complete-theta-scalar-bridge.md)：原全方向精确比值H_p/C_N=120εt·aχ(Nα)²(χᾱ+β̄)/(6B)⁵；t³=4、a=α mod s、χ为α/β mod3的唯一μ6 lift。真实index2另一vacuum系数4c_A、norm3分布负号给d₀=−36c_A；canonical三挠基尺度与Weyl二次相位全部核准。十二个同核表示不变；共同C_N保留，不代primitive/Legendre同h非零或O2 bare单位。
 
@@ -30,13 +32,9 @@ R1只把全部异常缩为p>37的完整N_ns；**p≡2,5 mod9只是另加小惯�
 
 本节限定原指定CM源；其R317应用受O0全部附加条件约束，D/bc无统一上界。p=6N+5、h=6i+7、i+j=N−1，原J32准确单位乘(P_(h−1)(1/s)fi gj)^p；必须同一个本原h使三个因子非零，完整Norm/两CM权/det/半周期/ζ²相位不换。
 
-R734/旧双标签/R935已经给原Legendre单位标签；R945证明227/h115的f18=0、857/h433的g70=0而两完整S仍单位，故完整trace单位不能代中央同h。替代h、Q²两值及旧有限窗均已成，不重算。
+R734/旧双标签/R935已给原Legendre单位标签；R945的227/h115之f18=0、857/h433之g70=0虽完整S单位，排除“完整trace单位⇒中央同h”。替代标签与旧窗口仅消费。R949/954/957–959准确mark全失败iff原B_p(C,X)含(1+24X)，粗CM因子cusp值1，valence/全源非零不能排。R968原列Z_i∈M_(p−5)的mark=−72(−864)^−N fi gj，目标仍是这些实际mask列不共同含E4³。
 
-R949与R954已精确固定原even/odd正CM评价，R957完整Legendre角平均和原oldform相位得到真实marked polynomial。R959全局P_i(X)、R_j(U)，X0=−1/24、U=−X²/3，给全失败 iff (1+24X)|原B_p(C,X)；fine额外阶3。此因子cusp值1，valence/全源非零/一般同权空间不能排它。
-
-R964逆finite-character族控制h_(i+2)而非fi，j0须保p+1阶乘。R966单源K0=G0⊗H0+6F0⊗Y0及Π4∇²K0=−72F0⊗G0给实际filtered critical U_p(C)；源秩二非零不代指定jet非零。R968保全部Gaussian/heat/zeta的Z_i∈M_(p−5)(SL2,Z_(p))，mark/E6^N=−72(-864)^−N fi gj，完整mask全失败 iff这些实际系数共同含E4³。A/E4是同权mark单位目标。
-
-R969公开三点113/131/227得到全mask rank10/11/19、A/E4组合及额外两q行通过，仅有限。R971完整Wilson–Fourier源已保每一Gaussian/zeta、范数逆幂与原角色；Sturm短CM射线碰撞判据不是普通Vandermonde。M0=37182145、2φ(M0)<M0及Dirichlet给无穷多原允许p列数小于空间维数，**全p full-span路线已排除**。仍可推进特定A/E4包含、实际mark functional非零或原指定家族的共同因子排除；这些较弱目标未被否定，也尚未证明。
+R964逆character控制h_(i+2)而非fi；R966原K0源及Π4∇²只消费，源秩二不代指定jet。R969有限113/131/227满秩及A/E4组合只限三点。R971经完整Wilson–Fourier与M0=37182145的CRT/Dirichlet给无限列数不足，故全p full-span已否；特定A/E4包含、实际mark非零仍开，不重开普通Vandermonde或全span路线。完整旧公式/角色/预算在逐字归档。
 
 [R992](results/R992-original-full-level-Jacobi-operator-and-filtered-stability-criterion.md)：在整个原M_(p−5)、F=Y^NP(z),z=X³/Y²上，真实Serre D给 **G(F)=[D²(XF)+X²F/144]/[X²(1−z)]**，全表观分母消去。诱导L=z(1−z)∂²+(4/3−7z/3)∂−55/144，Jacobi B_d有互异λd=−(d+5/12)(d+11/12)、mark1；kerG正是Tate A/E4，标量B_k(1)^−1。**原filtered V≠0且G(V)⊂V⇒同h三因子非零**，非零假设现由R996/999覆盖55∤p+1，全p稳定性现由R1006否定。旧R969p227 central i18为pivot（组合13）、全局非零但mark0，严格排逐列本征；三个旧满秩点的G稳定无需重算。原E+帧G(F)(0,864)=(25F−D³F)(0,864)/144；下一步是actual heat/kernel作用，不能从算子与mask交换冒稳定。
 

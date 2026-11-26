@@ -220,3 +220,8 @@
 ### 2026-11-26 20:09 Asia/Taipei — R1024 原完整首 log 全称非零
 - [R1024](results/R1024-original-complete-first-log-uniform-nonvanishing.md)：全部p≥47、p11mod12，原log((p−1)D₀)准确Fm\Fm+1，v_p=1/(p+1)。原Q的两整除加中心条件迫五阶残差108439/39844224与11227003/2762532864；明确Bézout等于1，排全部首向量同时为零。o2/root完整纸核，不消费违规数值。尚不指定单个SS分量或非CM商整投影单位。
 - 两一阶式、原低jet、四次五项卷积、全部残差和Bézout由o2与root独立纸核；真实来源R1023已推。继续非CM整投影，主目标OPEN。
+
+
+### 2026-11-26 20:14 Asia/Taipei — R1025 原全部方向实际符号
+- [R1025](results/R1025-original-theta-exact-mod-six-direction-phases.md)：原全部方向相位已定：d_A=δ′_p abγ、2c_A/γ=δ′_p e_Aab，故η³C_N=−δ′_p e_Aab/2；a,b为α,β mod√−3的±1，e_A由模2非零列给出。所有有限处integrality+Kronecker把相位缩为±，实际3处Jordan/Tate线与原二jet读出ab；R1020遂给原带符号五次H值。共同δ′保留，primitive/Legendre同h与bare仍开。
+- o1/root纸核所有有限处、3处真实好模型、torus/Tate线及原二jet；不执行数学程序。继续同一primitive/Legendre retained mark。

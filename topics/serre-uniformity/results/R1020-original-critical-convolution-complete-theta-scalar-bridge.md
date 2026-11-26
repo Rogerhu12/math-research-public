@@ -434,3 +434,16 @@ norm-three 的实际 rigidification 与 \(\Omega\) 负号、
 \([s]Q=-P\)、Weyl 的 \(1/2\) 相位、四点完整求和、
 \(\Lambda=-\epsilon t\)、第五阶常数120及十二表示不变性。
 无数学程序执行，无有限扫描或旧窗口重跑。
+
+
+## 后继：比例中的方向相位已回原模六数据
+
+[R1025](R1025-original-theta-exact-mod-six-direction-phases.md) 给
+\(\eta^3\mathcal C_N=-\delta'_p e_Aab/2\)，故本篇完整比例化为
+\[
+\eta^3H_p=
+-\frac{60\epsilon t\delta'_p}{(6B)^5}
+ e_A b\chi(N\alpha)^2(\chi\bar\alpha+\bar\beta).
+\]
+所有符号均为同一个原矩阵的实际 residue；仍不省略共同单位、
+原 primitive Fourier 标签或 Legendre mask。

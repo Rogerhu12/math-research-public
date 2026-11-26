@@ -6,11 +6,11 @@
 
 会话 **Astra-serre-24b8836b-20261126**。本轮已部分克隆并真实pull main，读两README/H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则读至36cf1ed2。不重做已登记结论或窗口。
 
-**公开两README已读提交：aa20aaf5b9fe97ca657a50714da5fcd178a6c632**（2026-11-26 20:09 Asia/Taipei；本次同步两README无差异）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
+**公开两README已读提交：3accac446dec1aadda8be4c906554e2dd079956c**（2026-11-26 20:14 Asia/Taipei；本次同步两README无差异）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
 
 执行宿主本轮断连；08:36 UTC单次恢复探测仍无环境。按根规矩8用GitHub小文本原子tree/commit、最新head检查和非force expected-head更新；并发拒绝立即在新head重建循环至成功，保其它会话。终端恢复补pull --rebase。令牌仅此前CLI使用，未存文件/提交。根维护main/H/open/index/log；子研究交数学稿。每条结论完整审后立即推。19:52纠正：global_route曾违规用会话V8做数学探索，已叫停；已知范围、时长及独立纸面重核见[执行偏差记录](notes/2026-11-26-execution-path-deviation-and-correction.md)。不得把其数字记为证明或合规窗口。
 
-H<10KB、open尽量<30KB、每MD<100KB、topic<200MB；无可重算raw、不写根LOG。[本次逐字前态](handoff-archive-2026-11-26-before-complete-first-log.md)沿链保全部旧来源/run/hash；[open](open.md)、[索引](results.md)是完整入口。历史“R1003 norm3准备中”未交付，现R1003为范围纠错。
+H<10KB、open尽量<30KB、每MD<100KB、topic<200MB；无可重算raw、不写根LOG。[本次逐字前态](handoff-archive-2026-11-26-before-exact-theta-phase.md)沿链保全部旧来源/run/hash；[open](open.md)、[索引](results.md)是完整入口。历史“R1003 norm3准备中”未交付，现R1003为范围纠错。
 
 ## 最新全局实际来源
 
@@ -34,9 +34,9 @@ H<10KB、open尽量<30KB、每MD<100KB、topic<200MB；无可重算raw、不写�
 
 ## O1：原同一保留标签
 
-[R1022](results/R1022-original-theta-all-direction-constant-square.md)：全部p≥41、p5mod6，原4η⁶C_N(η)²=D_p∈(Fp×)²方向无关，D_p=−4Σa_i²a_(N−i)²；p5mod12准确D_p=1。真实index1积分torus由trace定标到Q(μ_(p+1))，复共轭即p-Frob，primitive拉回及canonical metric给相对norm1；完整addition分布保总D阶p的cross，接回c_A²=D_pγ²/4。原方向scalar只剩共同单位及实际±号，不能删符号或代primitive/Legendre谱、bare余项。
+[R1025](results/R1025-original-theta-exact-mod-six-direction-phases.md)：原全部方向相位已定：d_A=δ′_p abγ、2c_A/γ=δ′_p e_Aab，故η³C_N=−δ′_p e_Aab/2；a,b为α,β mod√−3的±1，e_A由模2非零列给出。所有有限处integrality+Kronecker把相位缩为±，实际3处Jordan/Tate线与原二jet读出ab；R1020遂给原带符号五次H值。共同δ′保留，primitive/Legendre同h与bare仍开。
 
-[R1020](results/R1020-original-critical-convolution-complete-theta-scalar-bridge.md)：原全方向H_p/C_N=120εt·aχ(Nα)²(χᾱ+β̄)/(6B)⁵；t³=4、χ为α/β mod3的唯一μ6 lift。保norm3的d₀=−36c_A、全部Weyl相位和同核十二不变，仍非同h或bare单位。
+R1022已证4η⁶C_N²=D_p∈(Fp×)²全方向相同，D_p=−4Σa_i²a_(N−i)²；p5mod12准确为1。R1020的原H_p/C_N=120εt·aχ(Nα)²(χᾱ+β̄)/(6B)⁵保全部tame相位，R1025现付清方向±。不得删共同单位或两mask。
 
 p=6N+5，h=6i+7，i+j=N−1，必须同一个原本原h上
 P_(h−1)(1/s)f_i g_j≠0，s²=−3；原Norm/两CM权/相位不换。
@@ -75,4 +75,4 @@ R696早已证明同一全局Φ候选Ω_actual={0}，R832已消费；不重做、
 
 固定Y的R805–930及全部runs/高维格/预算边界见open与逐字归档，只消费已成输入。R907四artifact真404仍producer_inputs_pending，不重造；预算失败不作数学负结论。固定41全129盘/8CM已由R707完成，不重开。R575旧正CM角色根号−与逆twist秩零撤回有效。R1004仅导子下界而非a/c上界，停止重复优化。
 
-当前并行：原全向量的实际CM-killing/非CM整投影；R1020/22的实际sign与原primitive/Legendre谱；原bare完整余项；实际CM-killing及非CM整投影。子问题完成即接open其余项，真正达到README完成标准才收尾。
+当前并行：原全向量的实际CM-killing/非CM整投影；R1025实际符号后的原primitive/Legendre谱；原bare完整余项；实际CM-killing及非CM整投影。子问题完成即接open其余项，真正达到README完成标准才收尾。
