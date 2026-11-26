@@ -246,3 +246,5 @@
 - [CA：实际紧支撑正矩与52个完整C0量](results/R144-supplement-actual-compact-mean-C0-receivers-and-positive-moments.md)：45787608966/1完整7721/6143/7721、52球、正矩门true；全部Γ/跳/11核和raw固定η0范围保，未付root/mean-ball/physical-C0。
 
 - [CS：紧支撑mean中心的完整非均值源](results/R144-supplement-compact-centre-ordinary-and-divergence-residual.md)：exact ordinary/角divergence分解及五量L²接收公式，保原mean残差、χ′、两行不同弱窗口和完整跳；待actualρ/b的新计算，非方程已解。
+
+- [TM：terminal mean小球控制归一化forward常数](results/R144-supplement-terminal-mean-small-ball-controls-normalized-forward-constant.md)：从同线性Y方程的准确初端差，保原D0/mean源/jumps，免重新forward即可给小根充分门。原waist L² receiver可收紧；实际门待独立scalar消费。

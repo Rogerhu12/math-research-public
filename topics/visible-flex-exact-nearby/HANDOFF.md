@@ -1,11 +1,11 @@
 # 交接：可见振幅的精确闭等距族
 
-维护会话：visible-exact-astra-198c63d-20261126；更新：2026-11-26 09:14:33 UTC。
+维护会话：visible-exact-astra-198c63d-20261126；更新：2026-11-26 09:16:11 UTC。
 **总任务未完成，持续研究，不等用户回复。**
 
 ## 已读规则、授权与接续
 
-已部分浅克隆并pull main，完整读根README（全部授权/规矩）、课题README及原HANDOFF/open/log/notes；私库QUEUE认领已推f90ec8e0116c67cbc32c03342e6a8d2aee0ccb41。两README确认至 d58ed5064d7b603d14e082f4a49cd656cfa026f6；每次更新main检查其diff，≥每小时，当前无差异。
+已部分浅克隆并pull main，完整读根README（全部授权/规矩）、课题README及原HANDOFF/open/log/notes；私库QUEUE认领已推f90ec8e0116c67cbc32c03342e6a8d2aee0ccb41。两README确认至 9754838f087c3b2c341785fbc6789a7504d261e2；每次更新main检查其diff，≥每小时，当前无差异。
 05:48 UTC起executor不可用，08:22再次确认；按根规8用GitHub集成读main/规则diff、编辑每件<100KB UTF8。用户令牌不入文件/API。恢复立即真实pull --rebase再核两README。非FF马上接最新main并循环推成功，不force。本地/tmp/visible-exact-astra-198c63d15049/math-research-public，无AGENTS。
 科学数值仅本公开Actions；此处只证明、静态代码与元数据。旧完整成功不重跑；规15 topic≤200000000B、H<10000B、open≤30000B，不新增可重建数组/artifact/Release。08:58 C0发布前tree199116153B，后续文件另计；12份重复历史H/open仅改永久原件入口，净减397237B，科学/native/active pins未动。
 本页与open本次压缩前完整记录逐字保[35c59f45a19bad429fb46b09d562c8d30f067b94原H](https://github.com/Rogerhu12/math-research-public/blob/35c59f45a19bad429fb46b09d562c8d30f067b94/topics/visible-flex-exact-nearby/HANDOFF.md)及同提交open；此前5d204186/3919d213同路径及da8724c完整索引继续有效。所有旧scope、失败门、单位、mean、真实域和未付义务均保，不因摘要减少。
@@ -22,7 +22,7 @@ geometry43584188751/26仅在同η0全core含帽物理C0≤1e−4、|δν|≤1e�
 1. **R142低逆45761859526/1仍step5**，job139713486035，09:03未结束。[母格接续](results/R142-low193-parent-moment-continuation.md)：77pins/768bits、155parents/1424cells，manifest SHA50e5bbf2e55ee6fa7c24cd074cb2a7bd691101c3167004b840011710ac963b7e。原44730452579只Green/defect675，非fullfalse；active不改。结束后整读defect六球，勿仅凭completed_targets判断；ε<1续缺source/193atoms/5696盒，fullfalse才R149 signed-loop。若只有cell进度而无完整defect球，计数/private hash不含A/B/K/Z/Y，不伪称可恢复moment；新streaming真实接续在准备。
 2. **完整positive58→224→32→PN56/CXN6。** [physical入口](notes/2026-11-26-physical-scalar-execution.md)、[PN证明](results/R149-supplement-complete-positive-inverse-to-true-negative-and-incoming.md)、[56入口](results/R149-supplement-actual-positive-negative-receiver-execution.md)、[CXN6入口](results/R149-supplement-actual-common-high-negative-receiver-execution.md)已推；前驱未齐无实际manifest。strict/R149 kind区分，旧false保。成功square才消全部L²_r正侧head/cokernel，保raw root96与负侧/mean/ν。14ports各自身输入；source4同因P/T用三角，physical c*=0不等于aux Ec*e=0；Ni/output9一次，joint左BH KW，WPL BH/√2。
 3. **R144固定η0完整积分45778507038/1运行**，job139767949993。[合同](notes/2026-11-26-R144-fixed-eta0-correlated-mean-contract.md)：21当前/10历史、320bits/N512/源24流25/ρ=8h、7296格6143接口，manifest e99e081cd404c36e9f754c0839e9f8f7d95502fffa2db02bff093fe90a0599a8。5h science/6h job无自动retry。新固定η0同r载体、全angular/radial Cauchy尾、完整primitive/source保；每accepted格/接口atomic，异常回滚。rawν0不借selected。
-4. **新的更快mean小根方向。** [C0/CP11实际](results/R144-supplement-actual-compact-mean-C0-receivers-and-positive-moments.md)已全过，先用ξ=0的terminal mean小球，再利用同线性Y方程导出D_R/H_R的初端差界，接actual正矩与统一ρ/b门；该新证明/小scalar入口准备中，尚未actual通过。[CS完整新源](results/R144-supplement-compact-centre-ordinary-and-divergence-residual.md)已推：ΔP°=Az及β项准确收集，保ξχ′/raw接口/physical角composition；first-row弱范数真付384^(1−s)，不继承selected residual/phase/逆。
+4. **新的更快mean小根方向：[TM证明](results/R144-supplement-terminal-mean-small-ball-controls-normalized-forward-constant.md)已推。** [C0/CP11实际](results/R144-supplement-actual-compact-mean-C0-receivers-and-positive-moments.md)已全过，先用ξ=0的terminal mean小球，再利用同线性Y方程导出D_R/H_R的初端差界，接actual正矩与统一ρ/b门；同Y初端差界严格保D0及全部mean源/跳；ξ=0 waist值另可用原L2 receiver收紧。小scalar入口准备中，尚未actual通过。[CS完整新源](results/R144-supplement-compact-centre-ordinary-and-divergence-residual.md)已推：ΔP°=Az及β项准确收集，保ξχ′/raw接口/physical角composition；first-row弱范数真付384^(1−s)，不继承selected residual/phase/逆。
 5. **真signed PDE列。** [SC](results/R149-supplement-signed-finite-columns-and-full-negative-residual-sources.md)完整residual、M+192尾、两符号/两mean/原r导数已定义；[RW实际96行](results/R149-supplement-actual-reflected-finite-waist-rows.md)已成。继续由原Qrepair+δZ真系数构造连续finite trial和完整残差/signed pairing，旧whole intrinsic区间不冒高阶jets。root96子块不是完整Schur。
 6. **[CG完整graph高块](results/R149-supplement-positive-feedback-in-the-complete-graph-high-block.md)**已双核：W^-1 A Ptilde先准确相邻约消，common反馈费2^199 Cadd ΛJ^-1/3；真port09联合96列只左B^-1，reference差与Θ high全留。J=2^4608的新门等待actual6/56，未给finite/mean/ν/all-s；WDH原selected homogeneous χ<2^-44/逆<2独立保。
 
