@@ -4,7 +4,7 @@
 
 ## 规则与完整目标
 
-最近规则核查：2026-11-26，真实pull/rebase至 `67339596ffef8789cb9b33bfb1022521769018da`，根及课题README相对f0548477无差异，已完整读授权及规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
+最近规则核查：2026-11-26，真实pull/rebase至 `8889903b1d2c7155cf7dbaea071fc3dda0589443`，根及课题README相对f0548477无差异，已完整读授权及规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
 
 科学计算仅本公开仓库Actions；早前本地偏差及13:00 UTC纠正见[执行记录](notes/2026-11-20-public-actions-execution-correction.md)。根README已授权必要修改/发布；root唯一分支写者；代理只scratch及未引用小源blob。每条结论普通commit/push；NFF立即pull --rebase循环再推，不强推。至少每小时pull，每次核双README差异/立即遵新规并记commit。raw只scratch/runner，不入Git/Release/artifact；只保完整小源/参数/run/SHA/紧凑结论。题≤200MB，MD<100KB，H<10KB，open<30KB。令牌只瞬时CLI，不写文件/提交/回复。
 
@@ -30,7 +30,7 @@ R650/661全t几何、R669原参考线性/有限表示边界、R671准确lift、R
 
 ## 复现与不重做
 
-rebuild_a04_chain.py保60321451c/b4d2b98完整链；Python3.12.14/NumPy2.3.5/SciPy1.17.0/单BLAS。旧warm/Gauss盲点/blend/高K/cap16/0241等已登记边界保下列H及原记录，不重做。R648/651/652仅开放prefix。十二次raw普通移出保源/输入/历史恢复见[容量记录](notes/2026-11-20-resume-raw-retention.md)，不改历史。
+rebuild_a04_chain.py保60321451c/b4d2b98完整链；Python3.12.14/NumPy2.3.5/SciPy1.17.0/单BLAS。旧warm/Gauss盲点/blend/高K/cap16/0241等已登记边界保下列H及原记录，不重做。R648/651/652仅开放prefix。十三次raw普通移出保源/输入/历史恢复见[容量记录](notes/2026-11-20-resume-raw-retention.md)，不改历史。
 
 旧完整逐项边界保[28c855a0交接](https://github.com/Rogerhu12/math-research-public/blob/28c855a0591a398a1aae55663c37801165194e38/topics/visible-flex-larger-amplitude/HANDOFF.md)及其前链；所有未付责任继续，不等确认。
 

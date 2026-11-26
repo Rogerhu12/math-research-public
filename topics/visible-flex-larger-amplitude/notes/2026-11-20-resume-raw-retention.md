@@ -447,3 +447,17 @@ git show 83de126ff488566899e7aa0dc4bdbdbf6a942fb6:topics/visible-flex-larger-amp
 原本地resource真实wall2.5225894451141357秒、exit0、峰RSS85272KiB；旧Python/python-flint版本没有记录，不虚构。未来若消费者需要原数组，先恢复原相对路径至Actions隔离scratch，按已保完整源/argv生成；raw只留runner，不改旧证明或历史。当前新deep/幅度/旧g face输入均不依赖这份旧辅助参考。
 
 同时把当前run已实际返回的stage50–60共11项summary字段映射完整移至[第二份映射存档](../computations/resume-20261126-returned-summary-fields-02.json)；活跃queue的全部id、源、argv、父、输出、清理和scope逐值保留，仅这些已返项summary改空。恢复规则/原queue SHA/固定提交及每项真实stage均保，未删除任何执行步骤或科学参数。
+
+## 2026-11-26 09:41:03 UTC：第十三次容量操作，旧 outward M160 完整系数轨道
+
+普通移出可重算旧输出 `notes/alternative-outward-coast-m160-end09.json`（942804 B，SHA256 `0b44c331e2309209ebc7c82948b7e4db7dbd5a2b71887d42c923c7366afe7705`，blob `5a97e189282c305c286dc62d2393018faf67b8e5`），完整原字节留scratch/固定历史。保留[紧凑记录](../computations/resume-20261126-legacy-outward-m160-retention.json)的全部原非数组字段、首末row、原provenance条目及完整重生argv；原provenance summary不改，尤其保留这次M160高模污染的失败精化结论，不将其隐藏或改作不存在证明。没有科学重算。
+
+记录原source c35f3e47与当前cf163a5c不同。本次从当前完整源码纯文字逆掉后来加入的XYZ诊断转换，所得7581B完整源SHA准确匹配 `c35f3e47bbadc01b30a528096273eae47b367d961c08917c744fb9c094188fd8`；已保存为 `computations/resume-20261126-legacy-alternative-outward-probe.py`，只AST/compile、没有导入科学执行。原report对该旧误名诊断作了键重命名；紧凑记录完整保留该后处理，不把当前已修正诊断源假称原执行源。两源均保留。
+
+原输入是源码内完整解析core与profile，无外部数组。A=.38/M160/N2560/v=.5/S1/amax1.35/rtol1e−9/steps60/maxstep.0003/end_s.9/coast_at.8/coast_length.1全部保；依赖NumPy/SciPy与单线程BLAS设置源内完整。原elapsed69.29625940322876秒/status success/calls42120如实保留；没有记录旧OS exit或Python/NumPy/SciPy版本，不补造旧Actions号。以后如确需科学再生，仅在本公开Actions按完整argv执行，raw只留runner。精确原字节直接恢复：
+
+```sh
+git show e95fea50651bcfe32aad52826caa8a692c2ff741:topics/visible-flex-larger-amplitude/notes/alternative-outward-coast-m160-end09.json > /tmp/outward-m160-original.json
+```
+
+完整文件名定向搜索只找到原 `alternative-provenance-summary.json`，该历史引用照保；旧消费者要完整轨道时先恢复scratch。当前两代resume求解/几何及请求不使用该路径。只移出61套完整系数状态/482末系数和逐行数组；原标量结论、完整小源、参数和历史均保留，不改已有提交。
