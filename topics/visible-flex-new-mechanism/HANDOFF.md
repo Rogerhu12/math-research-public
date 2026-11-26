@@ -6,7 +6,7 @@
 
 ## 1. 规则与接手
 
-已部分克隆并实际 `git pull main`，公开根 README、课题 README、HANDOFF、open、results 索引及相关 log/notes 已读。公开已读提交 **320c15f558da139403898b4e8c3e64bbf77b2aa6**（2026-11-26 11:04 UTC；本次实际pull后根/题README空差异）；历次规则及失败原回执保原note；私有 QUEUE 的本题已改为本会话进行中并成功推送：**9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7**；最后实际pull及规则同blob读至 **c5fd979bd7793b3516aaa9f142855772720cb9b1**（2026-11-26 10:23 UTC核；本小时实际pull成功，根README空差异、QUEUE仍本会话）。其它课题的并行认领保留。
+已部分克隆并实际 `git pull main`，公开根 README、课题 README、HANDOFF、open、results 索引及相关 log/notes 已读。公开已读提交 **e761beaaf15bdef3e435042e4444b9e294ac5530**（2026-11-26 11:06 UTC；本次实际pull后根/题README空差异）；历次规则及失败原回执保原note；私有 QUEUE 的本题已改为本会话进行中并成功推送：**9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7**；最后实际pull及规则同blob读至 **c5fd979bd7793b3516aaa9f142855772720cb9b1**（2026-11-26 10:23 UTC核；本小时实际pull成功，根README空差异、QUEUE仍本会话）。其它课题的并行认领保留。
 
 [前历交接](notes/HANDOFF-before-resonant-height-20261126.md)及原note保全部规则/成本/限定。09:18 UTC本地失联后用接口继续保存，API不冒actualpull；09:33恢复partial副本并实际双pull，完整身份见本日日志。
 
@@ -37,6 +37,8 @@
 [R587](results/R587-fixed-metric-mean-height-elimination-at-flat-cap-and-core.md)现付冻结完整E_*后的均值斜率根及二jets导数；快速全平类在帽端用W²有理化得真实局部根，核心ζ变量非退化。须固定完整函数/验证中段导数与核心C1输入，未付非零角模逆或收敛。
 
 [R588](results/R588-quantitative-common-inner-tail-and-actual-metric-bound.md)已给共同u≥108准确无限尾：显式归一/有限系数盒下S的C3<e^-1100，包络/tanh后完整turning实际metric<e^-600，全角全该径向窗口且盖四口小片。定义常数不冒准确core trace；有限Cauchy/外传及身体误差仍欠。
+
+[R591](results/R591-forced-flat-harmonics-and-third-order-shooting.md)付二阶j4强迫/代数e2、真实无限强迫尾及核心返回、三阶j2/j6源；近核心正bump严格给射击导数非零。准确j2共振及4/6非共振仍为输入，有限阶不冒完整分支或同g加密。
 
 ## 5. 两母库与紧凑真实路径
 
