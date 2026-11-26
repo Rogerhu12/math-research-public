@@ -6,7 +6,7 @@
 
 ## 1. 规则与接手
 
-已部分克隆并实际 `git pull main`，公开根 README、课题 README、HANDOFF、open、results 索引及相关 log/notes 已读。公开已读提交 **f6d9e84721db16f98a5c386eacc26c0d0cbebd07**（2026-11-26 07:25 UTC；本次实际pull后根/题README空差异）；私有根初读 **85fdf1853367ef25c07f3ebdb6ae25c22a3564b8**，随后逐次 pull/rebase 检查根差异，空差异。私有 QUEUE 的本题已改为本会话进行中并成功推送：**9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7**；最后实际pull及规则同blob读至 **d6fc2f5c519bd5481b5e0ef67fca1c08c7b6eb9a**（2026-11-26 07:21 UTC；实际pull/rebase后根README空差异、QUEUE仍本会话）。其它课题的并行认领保留。
+已部分克隆并实际 `git pull main`，公开根 README、课题 README、HANDOFF、open、results 索引及相关 log/notes 已读。公开已读提交 **87bae96f6448a340737ac770149b62a91cd8f685**（2026-11-26 07:28 UTC；本次实际pull后根/题README空差异）；私有根初读 **85fdf1853367ef25c07f3ebdb6ae25c22a3564b8**，随后逐次 pull/rebase 检查根差异，空差异。私有 QUEUE 的本题已改为本会话进行中并成功推送：**9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7**；最后实际pull及规则同blob读至 **d6fc2f5c519bd5481b5e0ef67fca1c08c7b6eb9a**（2026-11-26 07:21 UTC；实际pull/rebase后根README空差异、QUEUE仍本会话）。其它课题的并行认领保留。
 
 历史运行的真实双仓pull、规则blob与私队回执保在各原观察note；当前已核hard首run公开到be4d8f6d/6408017f、私有到201c93af/79f66052，根/题规则均无变化，QUEUE仍本会话。早期盘满、05:48环境失联及05:54重新部分克隆的完整记录保于[本次先前HANDOFF](notes/HANDOFF-before-hard-restoration-20261126.md)和log；已推成果无损，不能把失联时API读取冒作git pull。
 
@@ -35,9 +35,11 @@
 
 **33母（保原20/cap/13与一次固定χ）**：R533–554已给真实局部正则速度、负Π、k>2、返回层、总p2零/Π负或p1/p2共同零；完整t1速度负费未消。R558真γ=0正t1弧、R560短快变高度有号面积均已计真实历史，净t1仍负。下一为同一完整F/history的长程变高度返回及正净t1，不从局部正则自动推长时存在；其余矩、T、pose、period仍欠。
 
-**R521正交母（不继承33母的原20/cap/13）**：R544同χ真实负p1/正t1；R548–557完整历史转向、三P和其后矩清零；R559/R563用真实长快回路得到 $P_0=P_1=P_2=T_1=R_1^y=S_0^y=0$。R562/R563在原既定尺度类的完整 $R_0^y>0$ 边界保留。新[R564](results/R564-negative-coupling-crossing-and-seven-exact-moments.md)跨过B的简单零点而保持Ck>0，完整两侧补偿桥、窄带快跨越、退化四端控与全部incoming已付；同χ双回路实际端IFT再清 $R_0^y$，故七矩准确同零。新[R567](results/R567-complete-next-order-history-and-eight-exact-matrix-moments.md)保r1横列并给完整次阶组合消项；三低尾及独立两长回路在同一4+1+2端图准确清八矩，原m=A=0。真实等待、初次快费、全部incoming/桥与参数位移均在同词。[R568](results/R568-even-end-germs-and-real-second-third-return.md)将末开控制改为真恒高度、保四端rank/成本并重解八矩，完整反射唯一性付双端偶germ；同χ实际PP^R准确闭scalar/全m/A/T。[R570](results/R570-neutral-residence-pose-and-real-four-piece-return.md)再用同高度总驻留恒定的有限姿态词，在真实八矩纤维支付frame/位置；实际incoming冻结成本保σ独立，末u_σ=O(δ²)。首高尾的慢图/旋转积分付横向位移主项，(PP^R)²准确闭scalar/pose/A/T。整个第四仍4V_P，13/有限闭面继续。
+**R521正交母（不继承33母的原20/cap/13）**：R544–R563的同χ真实历史、慢快桥及限定尺度号障碍保持。新[R564](results/R564-negative-coupling-crossing-and-seven-exact-moments.md)在Ck>0下跨B零点，保完整真实端控/history清七矩；[R567](results/R567-complete-next-order-history-and-eight-exact-matrix-moments.md)完整次阶消项及共同4+1+2端图再清第八矩，原m=A=0。[R568](results/R568-even-end-germs-and-real-second-third-return.md)改真实末开控制并重解八矩，支付双端偶germ，PP^R准确闭scalar/全m/A/T。[R570](results/R570-neutral-residence-pose-and-real-four-piece-return.md)在八矩纤维以恒总驻留的有限词和首高尾真实位移支付两pose条件，(PP^R)²准确闭scalar/frame/位置/A/T。整个第四仍4V_P，同13/有限闭面继续；原限定族正R0/S1边界不撤。
 
 R555余五槽的真实Gram/有序面积身份继续有效；R526的倒行完成仍以实际M0/K0块为前提；R517周期scalar自动M0仍以真正合法周期轨道为前提。所有“尚未付”的端口不因下游条件定理自动消失。
+
+新[圆核设计入口](notes/2026-11-26-circular-core-continuation-implementation.md)已单独发布：p=q=.18/offset.2先仅17径向变量恢复真实几何，再改变p并解锁81变量。连续公式起点η0不付非圆分支，C_core=0共振仍须解决；每个p重新实际过门，阶段η1e−4不是完成门。1 lane公开Actions，2400秒检查点；结果待原终态。
 
 ## 5. 本次正在做的工作
 

@@ -1,0 +1,88 @@
+{
+  "repository": "Rogerhu12/math-research-public",
+  "queue_session": "Astra-new-mechanism-0105020f-20261126",
+  "expected_readme_blobs": {
+    "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+    "topics/visible-flex-new-mechanism/README.md": "d0432faff569c8e9af7ed4809847e12880976c11"
+  },
+  "expected_private_readme_blobs": {
+    "README.md": "5ba164843b1f5802184178a82d786264404873a3"
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "packages": {
+      "numpy": "2.3.5",
+      "scipy": "1.17.0"
+    },
+    "checkout_action": "11d5960a326750d5838078e36cf38b85af677262",
+    "setup_python_action": "a26af69be951a213d495a4c3e4e4022e16d87065"
+  },
+  "schema": "inverse-r566-circular-radial-entry-p-continuation-request-v1",
+  "public_rules_read_commit": "2a3709cd6ace14439cd3b4276ceb97ff28f8db2e",
+  "private_rules_read_commit": "d6fc2f5c519bd5481b5e0ef67fca1c08c7b6eb9a",
+  "entry_point": "topics/visible-flex-new-mechanism/scripts/inverse_circle_core_continuation_20261126.py",
+  "workflow": ".github/workflows/visible-inverse-circle-continuation-20261126.yml",
+  "common_parameters": {
+    "radial_basis": 8,
+    "modes": 4,
+    "radial_nodes": 49,
+    "circle_theta_nodes": 16,
+    "theta_nodes": 96,
+    "outer_per_stage": 60,
+    "maxiter": 80,
+    "maximum_stages": 40,
+    "maximum_radial_nodes": 385,
+    "maximum_theta_nodes": 768,
+    "length": 0.9,
+    "initial_log_radius": -0.35,
+    "initial_cap_height": 0.62,
+    "initial_p_step": 0.02,
+    "maximum_p_step": 0.04,
+    "minimum_p_step": 0.0005,
+    "stage_eta_goal": 0.0001,
+    "mean_E_floor": 0.25,
+    "det_floor": 0.1,
+    "geometry_margin": 0.001,
+    "feasibility_tolerance": 1e-08,
+    "restoration_exchange_relative": 0.05,
+    "restoration_exchange_absolute": 1e-06,
+    "metric_exchange_relative": 0.02,
+    "metric_exchange_absolute": 1e-07,
+    "maximum_seconds": 2400.0
+  },
+  "lanes": {
+    "circular-core-to-B038": {
+      "target_core_p": 0.8,
+      "core_q": 0.18,
+      "rounding_radius": 0.2
+    }
+  },
+  "scope": {
+    "new_circular_core_physical_input": true,
+    "first_stage_active_radial_coordinates": 17,
+    "subsequent_stage_active_coordinates": 81,
+    "p_changes_the_design_metric": true,
+    "stage_eta_goal_is_not_completion_tolerance": true,
+    "same_fixed_geometry_targets_as_hard_restoration": true,
+    "complete_finer_grid_every_callback": true,
+    "all_pending_peaks_enter_on_backend_return": true,
+    "previous_stage_is_only_next_design_initial_guess": true,
+    "fixed_metric_refinement_claim": false,
+    "continuous_reach_claim": false,
+    "scientific_execution": "this public Actions workflow only",
+    "maximum_parallel_jobs": 1,
+    "job_timeout_minutes": 50,
+    "cooperative_scientific_checkpoint_seconds": 2400,
+    "original_stdout_only": true,
+    "artifact_release_git_or_cross_run_cache_writes": false
+  },
+  "source_sha256": {
+    "topics/visible-flex-new-mechanism/scripts/inverse_rotational_metric_20261126.py": "e25dff6a411e8edc485babe6545087cfbea2b6d16cd804e6dcb51f17d8fab319",
+    "topics/visible-flex-new-mechanism/scripts/inverse_flat_oscillatory_tail_20261126.py": "b9c778fbeafb0d9beb061b3f472b8db1661daec5a78a63eb886a8e4770574f9b",
+    "topics/visible-flex-new-mechanism/scripts/inverse_hard_exchange_20261126.py": "304989b5b127e3d761a243aed55ca437d86012f2cd6e3357c291e1159bf48271",
+    "topics/visible-flex-new-mechanism/scripts/inverse_hard_exchange_resume_20261126.py": "befd444bfb96efc6721d1b0bad20deb25b32e915c1f789ab4d285085c2afcce4",
+    "topics/visible-flex-new-mechanism/scripts/run_inverse_rotational_metric_20261126.py": "a97334fb7004ce750c0c949469be2db21ca7a187e53b48032dba2f330cf5e8ae",
+    "topics/visible-flex-new-mechanism/scripts/inverse_circle_core_continuation_20261126.py": "7e2032a6dd4e21f17c02aa4c77251357c6b57a325fcae689ac3b9b83fd3e64f2",
+    ".github/workflows/visible-inverse-circle-continuation-20261126.yml": "14544eb437995c919d3c22f9061c1fcc49918a9f93de04de4b5098f1037c8484"
+  }
+}

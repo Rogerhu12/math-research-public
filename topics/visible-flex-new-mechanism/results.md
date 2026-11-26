@@ -210,3 +210,5 @@
 - [R571 新固定相位尾的全平核与核心线性射击零](results/R571-milder-phase-tail-flat-kernel-and-core-shooting-zero.md)：**已证明**明确新wφ=.8exp[−(2−sin(δ^-1+φ))/δ]有统一patch Hess/graph reach，单谷DtN给真实一维全平核、全部导数exp(−c/δ²)和相位连续。归一峰随φ一圈移一cell导致准确负holonomy；周期正则connector的C_core故有实际零且A_core非零，双开平帽的闭旋转背景可线性匹配。种子C²代价、有限非线性、冻结g精化和全闭reach/幅度未付。
 
 - [识别续接：B038首次通过fine几何并改善metric](notes/2026-11-26-hard-resume-first-metric-progress.md)：**完整原终态观察**，run45773550668新增163.220723713+470.738431635科学秒。B030仍V=.00054365；B038在原不变几何门下V=0，71次可行metric改善至η=.86360747，末两次后端自然success。最后角提议1536未加入因原容量768；仍非全域连续证书/1e−6或冻结g收敛，继续新明确预算及分块Jac。
+
+- [圆核17径向变量入口与非圆设计续接](notes/2026-11-26-circular-core-continuation-implementation.md)：**独立新算法/输入，结果待公开Actions**。p=q=.18/offset.2的连续旋转公式metric准确，仍须实际恢复几何；随后每个p重新解完整81变量与硬门。阶段η1e−4只作设计推进，不付非圆分支共振、固定g精化或目标幅度。

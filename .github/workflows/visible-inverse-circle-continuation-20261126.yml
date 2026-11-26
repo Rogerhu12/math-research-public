@@ -1,0 +1,56 @@
+name: visible-flex circular-core entry and p continuation
+on:
+  push:
+    branches: [main]
+    paths:
+      - topics/visible-flex-new-mechanism/computations/request-inverse-circle-continuation-20261126.json
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: visible-flex-inverse-circle-continuation-20261126
+  cancel-in-progress: false
+jobs:
+  research:
+    name: circular radial entry then nonround core
+    runs-on: ubuntu-24.04
+    timeout-minutes: 50
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      PYTHONUNBUFFERED: '1'
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+      MKL_NUM_THREADS: '1'
+      NUMEXPR_NUM_THREADS: '1'
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 0
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /.github/workflows/visible-inverse-circle-continuation-20261126.yml
+            /topics/visible-flex-new-mechanism/README.md
+            /topics/visible-flex-new-mechanism/computations/request-inverse-circle-continuation-20261126.json
+            /topics/visible-flex-new-mechanism/scripts/run_inverse_rotational_metric_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/inverse_rotational_metric_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/inverse_flat_oscillatory_tail_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/inverse_hard_exchange_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/inverse_hard_exchange_resume_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/inverse_circle_core_continuation_20261126.py
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.12.14'
+      - name: Pull current rules and solve the circular entry before changing p
+        env:
+          MR_TOKEN: ${{ secrets.MR_TOKEN }}
+        run: >-
+          python topics/visible-flex-new-mechanism/scripts/run_inverse_rotational_metric_20261126.py
+          --request topics/visible-flex-new-mechanism/computations/request-inverse-circle-continuation-20261126.json
+          --lane circular-core-to-B038
+      # One new design lane. The circular entry is not either anisotropic
+      # restoration replay, and p changes are not a fixed-metric family.
+      # Actual public/private pulls precede science; 2400-second checkpoint.
+      # Only stdout, with no artifacts, releases, Git writes or cross-run cache.

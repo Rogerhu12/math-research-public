@@ -92,6 +92,8 @@ R513同类cap排除、R518固定宽接口、R520/524/527/529原20母的返回障
 
 [完整实现与新输入](notes/2026-11-26-hard-geometry-exchange-implementation.md)已发布；两lane为原平行椭圆B.30/.38但fresh log-radius−.35/h.62，接实际振荡尾。所有球/条带/主曲率/高度/均E/行列式/镜像必要行保留，PhaseI只以σ未覆盖峰交换，PhaseII在完整fine几何可行内降η。[首run原终态](notes/2026-11-26-hard-exchange-first-run-restoration.md)已完整闭账：16外层全在恢复，fine V=.0058134/.0027596、κ16.4887/16.4387，Ebar/det谷底已受控但ball/strip仍略超，0metric阶段/OptimizeResult。[已识别末态续接](notes/2026-11-26-hard-exchange-identified-continuation.md)已发布：原81q/已付节点/trust逐项对原stdout核验；微小漏峰进入pending、后端返回时批量交换，仅显著缺口即时重启。120外层/80步、257×768容量、2400秒科学检查点；不重做fresh16轮，不放宽原门。[续接原终态](notes/2026-11-26-hard-resume-first-metric-progress.md)已付：B030 V=.00054365仍恢复；B038真实过fine几何并71次metric改善至η=.86360747，未达1e−6。两lane都以未采用的1536角提议超过768容量结束。继续明确新比例预算R=1.012/Y=.3928/τ=.06072与分块Jac，原末状态/实际及pending网格分开记录；仍欠固定g精化和连续全闭reach。
 
+[另一圆核设计入口](notes/2026-11-26-circular-core-continuation-implementation.md)单独发布：先在p=q=.18/offset.2只解17径向变量的几何，再以p同伦解锁81变量、逐阶段重新求完整门。其η0起点不付非圆分支；若小p步残差保持线性阶，转实际外端共振/seed，不以加迭代替代。所有p变化是换设计g，非同g弯曲。
+
 ### R569：同一固定振荡尾已有真实线性种子，继续非线性与外端匹配
 
 [R569](results/R569-fixed-oscillatory-tail-and-flat-infinitesimal-bending.md)对R566的原w建立不含任意未知序列的角频2核：唯一bracket extrema、单谷无共振逆、准确DtN及带显式截断误差的Riccati极限。实际f及完整向量场在r=.22全平、开平帽准确固定，并由普通ODE延伸到r=.30。此前“无限K变号不自动给线性核”的缺口在这同一具体w上已支付；未说明任意振荡尾皆可。
