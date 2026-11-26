@@ -39,3 +39,9 @@ $$
 ## 3. 已付范围
 
 以上只登记实际完整来源、低轴线性独立和局部投影。完整 E89 Schwartz、全局角色、周期、通常全 Selmer 桥及五轴后的真实原窗口已由 [R943](../results/R943-original-e89-fifth-central-full-selmer-and-five-axis-gate.md) 逐项证明。当前未由计算得到原深核、全局底非零、ordinary 或无穷素数结论。全部可重算输出和系数不入库。
+
+## 4. 新来源环的固定角除子：本次公开请求
+
+新增 `scripts/check-original-e89-angular-profile.py`（SHA-256 `e30590582a6ff26761bebd879133d9f139cdf99c1009eba0d65e4fdd3476aa36`），无参数；request `2026-11-26-original-e89-angular-profile-7d29`。独立小工作流 `rank2-sha-e89-angular-profile.yml`，ubuntu-latest、15分钟、python-flint 0.9.0；同次以 `--workers=4` 重生第1节完整原CM来源并核完整矩阵hash。只读取实际四角点及d的重数、完整多项式gcd及Bézout回乘、resultant摘要；不保存系数或输出。
+
+本提交只发起这个小原输入检查，不启动第二次306正规化。四点各简单、与原H18互素是待读的实际条件；6052同权pencil、1700次投影和导子候选须经返回及独立完整证明，不在这里先报PASS。
