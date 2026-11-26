@@ -196,3 +196,5 @@
 - [R569 固定振荡尾的规范非零全平无穷小等距场](results/R569-fixed-oscillatory-tail-and-flat-infinitesimal-bending.md)：**已证明**同一R566有限公式w，不换度量；角频2转正权方程，单谷Dirichlet逆有与权比无关的常数49/2，精确DtN对角占优和规范反向递推构造非零真实解。全阶衰减exp(−c/δ³)，连续通量/全部jets拼接并延伸到整个尾，完整向量场三项线性度量准确零且固定开平帽。非线性有限弯曲、外端接核和主宏观门仍待，不以X+tV替代等距族。
 
 - [R566新模型的几何硬约束与径向交换任务](notes/2026-11-26-hard-geometry-exchange-implementation.md)：**新算法/输入已发布，科学结果待实际运行**。两个fresh核心实例，先均匀几何slack恢复，再在硬门内降spectral metric epigraph；每callback完整fine扫描，仅σ未覆盖峰触发PhaseI交换，全角orbit minima等价保原全部行。实际模型、源码SHA和参数完整绑定，不继承v2失败q，不授连续reach或固定g收敛。
+
+- [R566硬几何首run的实际恢复与未过门](notes/2026-11-26-hard-exchange-first-run-restoration.md)：**完整原终态观察**，run45769777022、两job均正常退出，37.974705078科学秒；细V降至.0058134/.0027596，κ16.4887/16.4387，仍球/条带/曲率失败，0 metric phase/OptimizeResult。16轮交换耗尽且微小峰频繁中断；从原末q/网格/trust续接批量交换，不重做初值，不授几何可行或主完成。

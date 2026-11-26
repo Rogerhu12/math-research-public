@@ -6,11 +6,9 @@
 
 ## 1. 规则与接手
 
-已部分克隆并实际 `git pull main`，公开根 README、课题 README、HANDOFF、open、results 索引及相关 log/notes 已读。公开已读提交 **797e15a7c1dffb1e8c9e5ed56de5f7f4b9334c3d**（2026-11-26 06:39 UTC；本次实际pull后根/题README空差异）；私有根初读 **85fdf1853367ef25c07f3ebdb6ae25c22a3564b8**，随后逐次 pull/rebase 检查根差异，空差异。私有 QUEUE 的本题已改为本会话进行中并成功推送：**9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7**；最后实际pull及规则同blob读至 **f269d5ce0269dc4eb2580f48cfcb76932f868452**（2026-11-26 06:37 UTC；实际pull/rebase后根README空差异、QUEUE仍本会话）。其它课题的并行认领保留。
+已部分克隆并实际 `git pull main`，公开根 README、课题 README、HANDOFF、open、results 索引及相关 log/notes 已读。公开已读提交 **f9774848943b1aa99882325dd5a755e8d720b4da**（2026-11-26 06:48 UTC；本次实际pull后根/题README空差异）；私有根初读 **85fdf1853367ef25c07f3ebdb6ae25c22a3564b8**，随后逐次 pull/rebase 检查根差异，空差异。私有 QUEUE 的本题已改为本会话进行中并成功推送：**9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7**；最后实际pull及规则同blob读至 **f269d5ce0269dc4eb2580f48cfcb76932f868452**（2026-11-26 06:37 UTC；实际pull/rebase后根README空差异、QUEUE仍本会话）。其它课题的并行认领保留。
 
-首run两job另实际pull公开至0bed8be337a9de6da7e1167ba7583a5aaf0c3efd、私有至7d6da16a7fc29488f6e8925d92601986798860fd，三规则不变且QUEUE为本会话；原收据见首run note。
-
-初始执行盘仅余约 11 MB，普通历史的 blob:none 部分克隆仍在对象索引阶段磁盘不足，未改变远端。随后以 `--filter=blob:none --depth=1 --sparse` 在本次临时目录成功克隆两仓；公开仅检出本课题，私有仅根文件。终端 git 已恢复；旧交接中 11-16 执行环境不可用的描述不是本次现状。令牌只在命令行临时环境使用。05:48执行环境中断且临时盘清空；期间连接器只读规则并暂存未挂ref的源码/证明blob，未冒实际pull或科学执行。05:54环境恢复后两仓再次部分克隆及实际pull；已发布结论无损，未发布数值源码按明确新修订重建。
+历史运行的真实双仓pull、规则blob与私队回执保在各原观察note；当前已核hard首run公开到be4d8f6d/6408017f、私有到201c93af/79f66052，根/题规则均无变化，QUEUE仍本会话。早期盘满、05:48环境失联及05:54重新部分克隆的完整记录保于[本次先前HANDOFF](notes/HANDOFF-before-hard-restoration-20261126.md)和log；已推成果无损，不能把失联时API读取冒作git pull。
 
 每次 pull 后比较上次已读提交的根/题 README，差异立即读；至少每小时一次，读过 SHA 随本文件更新。root 负责 git/refs/push，子代理只写分配的独立文件。原数值运行范围不重开、不挪用失败 raw 充当前初值；本次新计算须独立说明模型、参数和实际范围。按旧 open 的运行安排，科学执行使用公开 Actions；本地作纸面推导与源码/已有日志解析。根 12 不增设冻结复跑审批，根 15 只留脚本/参数/run/哈希/结论，不保存可重算大数组。
 
@@ -29,7 +27,7 @@
 
 ### 新几何输入：O2b 逆设计
 
-[R565](results/R565-parallel-oval-core-exact-reach-and-amplitude-budget.md)已证平行椭圆柱reach恰r+q²/p。新固定p=17/20、q=r=3/20保持外轴A1/B.3、核心reach3/17；其周长/待设计度量与旧g不同。已发布新v2逆设计源码/请求：同时设计a,z和全角切向，C∞平坦端口、全体段metric峰交换；两lane为B=.3与.38，49×96、8×4控制、每轮60次/三轮，公开Actions run45765708829已正常终态但两lane科学失败，无新接受候选。源重建后完整解析jet与前向参数微分由两路纸面审查，未本地科学执行。[首run原观察](notes/2026-11-26-inverse-first-run-radial-fold-failure.md)：B.3/.38粗η约.083/.091，97×192同qη1.19855/3.78338，κ74208/26180，s=.421875漏径向近退化；ball>1.42、|y|>.52且h触.08。Jac差1e−9量级，主要是采样和软几何失效。仅失败trial，不沿原49圈软权重延长；下一硬不等式/径向交换并接新振荡尾。最后必须冻结新g再精化，完整连接和全闭reach仍欠。 [R566](results/R566-flat-oscillatory-cap-tail-and-graph-reach.md)另给固定有限公式的C∞全平振荡尾：rc=.22到r=.30，K无限简单变号，完整凸底域帽/尾graph片reach≥1/K0>.1832，K0=(75/8)e^(-5/2)+256e^(-4)。此片不含跨块reach。[R569](results/R569-fixed-oscillatory-tail-and-flat-infinitesimal-bending.md)在同一w上以单谷逆/精确DtN/收敛递推实际构造角频2全平非零无穷小等距场，固定开平帽；全部导数exp(−c/δ³)，外端由真ODE决定。下一非线性和接核；X+tV仍非有限等距。新R566模型和硬几何/动态径向交换已备齐并静态核源；fresh q(loga全−.35/h.62)，两lane，先最小几何σ再约束内metric。PhaseI只交换σ未覆盖细峰，完整fine验收，16×60迭代/2400秒分段；正发布新request，run待定位。
+[R565](results/R565-parallel-oval-core-exact-reach-and-amplitude-budget.md)已证平行椭圆柱reach恰r+q²/p。新固定p=17/20、q=r=3/20保持外轴A1/B.3、核心reach3/17；其周长/待设计度量与旧g不同。已发布新v2逆设计源码/请求：同时设计a,z和全角切向，C∞平坦端口、全体段metric峰交换；两lane为B=.3与.38，49×96、8×4控制、每轮60次/三轮，公开Actions run45765708829已正常终态但两lane科学失败，无新接受候选。源重建后完整解析jet与前向参数微分由两路纸面审查，未本地科学执行。[首run原观察](notes/2026-11-26-inverse-first-run-radial-fold-failure.md)：B.3/.38粗η约.083/.091，97×192同qη1.19855/3.78338，κ74208/26180，s=.421875漏径向近退化；ball>1.42、|y|>.52且h触.08。Jac差1e−9量级，主要是采样和软几何失效。仅失败trial，不沿原49圈软权重延长；下一硬不等式/径向交换并接新振荡尾。最后必须冻结新g再精化，完整连接和全闭reach仍欠。 [R566](results/R566-flat-oscillatory-cap-tail-and-graph-reach.md)另给固定有限公式的C∞全平振荡尾：rc=.22到r=.30，K无限简单变号，完整凸底域帽/尾graph片reach≥1/K0>.1832，K0=(75/8)e^(-5/2)+256e^(-4)。此片不含跨块reach。[R569](results/R569-fixed-oscillatory-tail-and-flat-infinitesimal-bending.md)在同一w上以单谷逆/精确DtN/收敛递推实际构造角频2全平非零无穷小等距场，固定开平帽；全部导数exp(−c/δ³)，外端由真ODE决定。下一非线性和接核；X+tV仍非有限等距。[hard首run45769777022](notes/2026-11-26-hard-exchange-first-run-restoration.md)两lane自然结束，37.974705078新科学秒；16外层均恢复阶段，尚无OptimizeResult或metric阶段。B.30/.38最终fine V=.0058134/.0027596、κ16.4887/16.4387，Ebar/det谷底受控，但ball/strip仍略超。完整81q/动态节点/trust在原stdout，可作明确小参数续接；下一批量收集微小漏峰、只显著缺口即时交换，让后端在当前全约束网上实收敛。不重做fresh16轮，不把恢复改善授为等距接受。
 
 ## 4. O4 两个不同母库的有效入口
 

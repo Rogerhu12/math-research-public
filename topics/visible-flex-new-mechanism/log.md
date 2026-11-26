@@ -428,3 +428,9 @@ run45765708829两个原终态log完整解析，Jac通过但细η1.19855/3.78338�
 新尾模型和硬约束两phase源码已完整静态核读；修正PhaseI对已被σ覆盖峰的不必要重启，接受只依完整fine原始门。fresh q不借旧失败；空间/参数AD源哈希保，所有request bindings及AST通过，无本地科学。两lane实际公开运行，16交换外层/60步/2400秒检查点，任何退出继续研究而非完成。
 
 题外变更仅新增 .github/workflows/visible-inverse-hard-exchange-20261126.yml，因本题公开Actions执行所需。私库06:37实际pull到f269d5ce，根README空差异，QUEUE仍本会话；至少每小时同步持续。
+
+## 2026-11-26 — Astra-new-mechanism-0105020f-20261126 / hard首run实际恢复闭账
+
+run45769777022原两job日志完整解析并核全输出身份；新科学21.293959123+16.680745955秒，25/27次完整fine回调。两lane16外层全恢复，V108.4/36.8降至.0058134/.0027596，仍曲率/球/条带失败，0metric阶段/OptimizeResult。全新参数AD单方向约3e−10；fine的Ebar/det谷底已改善，不冒等距接受。下一从原末81q/节点/trust继续批量交换，不重做已付初轮。
+
+两job真pull公开be4d8f6d/6408017f、私有201c93af/79f66052，规则空差异/队列仍本会话；H更新。为保H<10KB，其压缩前全文另存notes/HANDOFF-before-hard-restoration-20261126.md，旧条件/失败/收据均可追。结论即推。
