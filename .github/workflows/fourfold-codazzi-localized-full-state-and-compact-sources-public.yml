@@ -1,0 +1,46 @@
+name: R144 localized full-state norm and compact sources
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/fourfold-codazzi-localized-full-state-and-compact-sources-public.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: r144-localized-full-state-compact-sources-v1
+  cancel-in-progress: false
+
+jobs:
+  complete-localized-state-and-source-receivers:
+    if: github.repository == 'Rogerhu12/math-research-public' && github.run_attempt == 1
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            README.md
+            topics/visible-flex-exact-nearby/README.md
+            topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_localized_full_state_and_compact_sources_public_worker.py
+            topics/visible-flex-exact-nearby/notes/2026-11-26-R144-localized-full-state-and-compact-sources-inputs.json
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12.14'
+      - name: Install the fixed directed runtime
+        run: python -m pip install --disable-pip-version-check python-flint==0.9.0 numpy==2.3.5
+      - name: Read proved mean radii and compute localized state and source bounds
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          OPENBLAS_NUM_THREADS: "1"
+          OMP_NUM_THREADS: "1"
+          MKL_NUM_THREADS: "1"
+          NUMEXPR_NUM_THREADS: "1"
+        run: |
+          python topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_localized_full_state_and_compact_sources_public_worker.py --repo "$GITHUB_WORKSPACE" --manifest topics/visible-flex-exact-nearby/notes/2026-11-26-R144-localized-full-state-and-compact-sources-inputs.json --manifest-sha 862c70975a9ac155404e7f80c3dc9f00a634be68a5c72facbdd91207d97c581d

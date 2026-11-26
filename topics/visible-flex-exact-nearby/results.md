@@ -253,6 +253,6 @@
 
 - [TMA：实际唯一compact小根与完整mean/density](results/R144-supplement-actual-terminal-mean-small-root-and-density.md)：45791979634/1五阶段21球，12个完整门true；独立sameφ1e−4充分门false。原mean/jumps/D0全保，真实ρ/b供CS与紧窗物理比较，未授全PDE/帽/最终族。
 
-- [LC：紧窗全moving C0、五源与完整新jump接收](results/R144-supplement-localized-full-state-C0-and-compact-source-receivers.md)：原32有限载体与actualρ/b，真χ支持/χ′质量、全mean及原joins；准确区分geometry同φ与另种sameθ比较。实际新目标待运行。
+- [LC：紧窗全moving C0、五源与完整新jump接收](results/R144-supplement-localized-full-state-C0-and-compact-source-receivers.md)：原32有限载体与actualρ/b，真χ支持/χ′质量、全mean及原joins；准确区分geometry同φ与另种sameθ比较。实际新目标待运行。 [19当前/10历史实际入口](notes/2026-11-26-R144-localized-full-state-and-compact-sources-contract.md)已审定首启，27整球/31字段，尚未宣称actual门。
 
 - [TC：真根连续96个有限PDE trial与完整残差](results/R149-supplement-true-root-continuous-PDE-trials-and-complete-residuals.md)：whole selected/root/mean、原40parts Taylor误差、真径向长度及signed配对；独立有限对象目标，不冒真PDE列或提前运行SC真列认证。
