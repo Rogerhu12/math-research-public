@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- **R708（已证明，条件构造）**：[支持内单位meridian的三均值收缩与对称转角闭合](results/R708-supported-unit-meridian-seed-contraction.md) — 统一弦长正隙/正竖直分量及端层半球条件给显式共同端层、全三分量收缩唯一枝、单调幅度根、全角反射与core/cap六jet；强条件另给最短SO3图，原其余Gram/几何/表示误差未解决。
+
 - **R707（已证明，条件传播定理）**：[共同有限法向链的完整根、角jet与参数误差](results/R707-fixed-normal-chain-root-jet-error-propagation.md) — 全上游三jet/交叉Jacobian/准确残差给非循环根误差，完整9块逆界、J/J*与真实算术/四五阶费用接同场六物理jet；全角同支另明定，无实际候选余量或连续证书。
 
 - **R706（已证明，范围以正文为准）**：[再生输入保持同一准确度量的完整来源条件](results/R706-regenerated-input-same-exact-metric-definition.md) — 实际同warm与全部准确scalar参数、4e/a1ed/e091定义及固定chart给同数学g；工作包围/文件hash变化和全向量/地点身份另列。 原已刊完整论证的正式编号，无新科学复算。

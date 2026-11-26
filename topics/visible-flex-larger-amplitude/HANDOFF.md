@@ -4,7 +4,7 @@
 
 ## 规则与完整目标
 
-最近规则核查：2026-11-26 19:28:28 UTC，真实pull/rebase至 `abe329aa212255c0a3a104ce7aeb801b0d6320ac`，双README相对`b2d64aad1f72eef590d5b9358a8690a2e51438a0`无差异，继续遵守全部规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
+最近规则核查：2026-11-26 19:39:03 UTC，真实pull/rebase至 `7665a14ff905aece6df899f3954acb21e13b0bf5`，双README相对`e9dbecafe33179f3e999affbd21b49fb03985e29`无差异，继续遵守全部规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
 
 科学计算仅本公开仓库Actions；执行偏差见[早前记录](notes/2026-11-20-public-actions-execution-correction.md)及[四次大JSON整读纠正](notes/2026-11-26-large-file-connector-read-correction.md)。root唯一分支写者；结论即普通推，NFF立即rebase循环，不强推。每次pull核双README差异并遵新规，至少每小时，记commit。raw只scratch/runner，不入Git/Release/artifact；保完整小源/参数/run/SHA/紧凑结论。题≤200MB、单文件<5MB、MD<100KB、H<10KB、open<30KB。令牌仅瞬时CLI。17:55终端失联后曾用云API普通快进；19:17显式/tmp恢复并新部分克隆，现恢复终端git。旧迁移完成情况未知，不假称恢复旧scratch。
 
@@ -37,9 +37,11 @@
 
 [02父46–48](notes/2026-11-26-actual-parent-interior-restoration-entry.md)及[49真实终界](notes/2026-11-26-actual-run02-cached-SO3-49-and-terminal-boundary.md)：f66c/d2d0一metric，max .03662269652、有限g负、2856/2821点；02终止、50未跑、alpha/Pg未知。[04](notes/2026-11-26-run04-actual40-42-and-failure-trace.md)45857104277：40返回51c8，2rest+1metric/max .03526433/有限g负；41未进科学，42未起child。[43真trace及最小修复](notes/2026-11-26-actual-run04-cached-SOC-source-role-index-repair.md)：误取complete_soc_rows→已登记complete_soc，892f/6c59/4243/009e全源已刊排v2；同40父/cache、全loop/接受条件不变，尚未返。
 
-旧deep/Haar/R690–695/完整误差链保固定H与results/notes，不迁证。01止77/49followups，旧03的stage7未知，未执行不倒填。
+旧deep/Haar/R690–695/误差链见固定H及results/notes，不迁证；01止77、旧03 stage7未知。
 
 ## 已刊工具与未付目标
+
+[R708单位meridian新构造](results/R708-supported-unit-meridian-seed-contraction.md)：共同三均值收缩/对称中段给准确单位闭合及全角端口；条件与薄层几何成本明列。正实现固定seed参考、保全原外层变量，未有实际候选。
 
 [R700六jet控制](results/R700-integral-so3-full-sixjet-control.md)是固定有限M/正rho、全core/H的径向网格无关界，非实际余量或M一致界。[完整QR](notes/2026-11-26-complete-so3-integral-qr-coordinate-interface.md)49a1已刊未跑，仅真实234ac/7f布局，不冒zero/R696/gamma兼容；原Cholesky已成功，当前不换范数。[R704η尾](results/R704-eta-tail-uniqueness-scope-and-fixed-control-bounds.md)证明η0回到原线性唯一性判据、任意固定η>0仍非L1；本轮保原目标。连续cert源已刊未跑；必须先得到真实合格候选，再付完整922胞/全尾/浮点/隐式费用及同g实际精化。研究尚未达到README全部完成标准，继续工作。
 

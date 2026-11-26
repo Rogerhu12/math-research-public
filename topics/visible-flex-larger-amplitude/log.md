@@ -323,3 +323,8 @@ root读回发现首发布的同一路径两次变换都从旧文本开始，第�
 ### 2026-11-26 19:27:34 UTC — Astra-larger-e4e2a2bf-20261126
 
 R707完整法向链条件误差传播：已将[完整46式证明](results/R707-fixed-normal-chain-root-jet-error-propagation.md)正式登记results及新增结论；保前段控制/法向三jet、真实交叉3×3/9块逆界、完整J/J*、实际积分/浮点/载体与同支责任，接R694六物理jet。没有实际余量/曲面证书，不增求解前门；继续04修复后执行、05积分与新单位meridian构造。
+
+
+### 2026-11-26 19:33:12 UTC — Astra-larger-e4e2a2bf-20261126
+
+R708支持内单位meridian完整条件构造：已正式刊[完整42式证明](results/R708-supported-unit-meridian-seed-contraction.md)，用共同端层的全三均值收缩和唯一一维转角付准确闭合、全角协变及core/cap六jet；强条件给单一SO3图，薄层导数/原剩余Gram/全部几何与有限表示费用明列。没有把旧必要弦长通过冒充分条件。继续实现同g固定seed参考并保全部原变量，04/05继续实际计算。
