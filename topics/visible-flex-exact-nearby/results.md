@@ -355,3 +355,5 @@
 - [APA：实际strict参数的有符号physical幅值边框](results/R147-supplement-actual-selected-amplitude-border-for-the-strict-parameter-particular.md)：45906257068/1全8球/rc0，原NP740×193四整数组全部SHA同，old residual/norm/pairing0。真幅度∈[-.006499,-.005501]、原exactα归一∈[-.008810,-.007190]均严格负；全selected row差/mean/fullPDEerror均已付。齐次regular补偿、phase/height与完整νSchur不由此自动闭合。
 
 - [TP：原Θ全96行的完整alpha误差产品](results/R149-supplement-complete-alpha-error-products-for-original-Theta-rows.md)：同sign双block精确给min(e∞ZG,√2e2BZ)，全96列HS/Wiener产品均完整，不加√96；新finite alpha Wiener+e∞给原trueα的KA，IR full residual、SDI one-loss、TM whole model/phase rounding全部保。首次实际owner须whole IR/AS/IL/CYA齐；两个runtime恢复分进程，无旧norm/residual重算。
+
+- [NR：fulltail邻域中的完整负侧与root传播](results/R144-supplement-actual-negative-and-root-propagation-in-a-full-tail-neighbourhood.md)：未知A³≤1e−6，39个saved有理比较；完整SP的D4相似给strong L2，与weak同流插值−1≤s≤0。root任意lag真实能量、六半径、全部means/source/jump/actual cut和腰density保；root到腰强/弱1192.763571/2038.695371。只given-Cauchy，未授full boundary inverse或非线性解。

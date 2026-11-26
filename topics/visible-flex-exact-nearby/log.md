@@ -344,3 +344,6 @@ NS五件共129172B，owner71056B SHA18db439d5895e4232882940a57b7bd9457982383e1ac
 
 
 2026-11-26 22:51:17 UTC / visible-exact-astra-fb31ed6-20261127：登记TP proof/pure。用whole IR finite GZ的joint coefficient范数ZG/BZ，在原same-sign两块完整投影先行，L∞/L2 alpha两产品对同一个全operator取min；单次√2为正负两sign，无√96。whole alpha新trial Wiener+AS整误差给KA，TP10/11接所有IR/SDI/TM真实域/one-loss与model rounding；新实际owner仍等AS完整成功。零本地科学，AST已过。APA已推aa4a18488，两README无diff；TC22:48只读latest wholeprefix520/7724，最后原row519/trialpiece516/negative_strict，运行未终。
+
+
+2026-11-26 22:59:04 UTC / visible-exact-astra-fb31ed6-20261127：登记NR完整proof/saved checker，39个已存有理比较全过。直接strong L2能量由原SP完整weak矩阵D4相似支配，不反解primitive；strict强reverse/forward<175.581230/5.992268。root未知fulltail用真实log频率导≤4/3的任意lag卷积，旧lag768不冒未知支持；六root窗全付，R=.005强/弱6.532358/10.936492，两mean/源/impulse/真cut及非1腰density保。root到腰强1192.763571、弱2038.695371，仅given-Cauchy，未授闭边界/full逆。未改冻结数学文件，0旧科学。TP已推89d764de8，公开两README差异空。
