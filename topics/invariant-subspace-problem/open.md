@@ -147,3 +147,5 @@ A单射、稠密像、拟幂零且非紧；普通非零真闭不变子空间仍�
 **[S0/Lt0新低次原系统](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-low-invariant-original-system.md)：** e=u−1、k=Q/e、v=4kbc·t可逆，四原二次式和同一eta的矩/配对/范数/N(V)保留所有原解；原P02恒等式支付ell≠0，半权已闭支付矩阵首项。7变量原门实际1200.426秒/exit1，小modstd smoke先触内存/tasks错误及signal11，未通过；不重跑。新增[原P/N三参数Cramer系统](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-original-Cramer-minor-system.md)的全部原组合、114分母与20子式已回乘，4变量QQ build3.519411秒，不是排空；继续直接std/slimgb真实门或更低原几何。
 
 **[S0/Lt0整个k=4e已关闭](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-mean-consistency-line-exclusion.md)：** 原三子式完整返回的90/95次Res_v有一元Bézout=e^10(e+1)^40，原e、u单位矛盾；自含源3.421194秒/exit0。可付4e−k，保其余三参数必要理想及所有未排原几何。
+
+**[S0/Lt0原t=0整支关闭](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-zero-singleton-pairing-exclusion.md)：** 四完整Res_k覆盖后1/2/2/4维同e原域全返回，所有逆/除法/Bézout实际通过，3.793203秒/exit0；一般图可付v，不借用旧等base配对子类。下一仍为原三参数小行列式全门及其更低原几何。

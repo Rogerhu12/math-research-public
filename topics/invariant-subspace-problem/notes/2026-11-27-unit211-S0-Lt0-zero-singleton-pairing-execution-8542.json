@@ -1,0 +1,588 @@
+{
+  "schema": "r150-Lt0-zero-singleton-pairing-return-v1",
+  "sourcePath": "notes/2026-11-27-unit211-S0-Lt0-zero-singleton-pairing-return-8542.py",
+  "sourceSha256": "c7c82945a652d07b23bc79ad8ad4594776d5e0224a8e07226116d4aeff36287c",
+  "sourceBytes": 25364,
+  "pythonVersion": "3.12.14",
+  "pythonFlintVersion": "0.9.0",
+  "command": "PYTHONPATH=/workspace/scratch/8542378f2b73/isp_pydeps python topics/invariant-subspace-problem/notes/2026-11-27-unit211-S0-Lt0-zero-singleton-pairing-return-8542.py",
+  "exitCode": 0,
+  "elapsedSeconds": 3.793203014998653,
+  "peakRssKiB": 49640,
+  "stdoutBytes": 29272,
+  "stdoutSha256": "feafeef62d2288ae90613b2a7a8f42872a6a682cd4d23b715a1e11f2b07a68b0",
+  "resultants": [
+    {
+      "stage": "full_vzero_original_parameter_resultant",
+      "baseRows": [
+        0,
+        4,
+        5
+      ],
+      "otherRows": [
+        0,
+        3,
+        4
+      ],
+      "parameterDegree": 96,
+      "kDegrees": [
+        6,
+        12
+      ],
+      "sha256": "b6518edcbbd4c0876f21ced5f1f8bf3ebc6929cdabfbccd7ed364fdb0c254365",
+      "allLeadingZeroFibersRetained": true,
+      "claimExcluded": false,
+      "seconds": 3.6159937829997943
+    },
+    {
+      "stage": "full_vzero_original_parameter_resultant",
+      "baseRows": [
+        0,
+        4,
+        5
+      ],
+      "otherRows": [
+        0,
+        1,
+        4
+      ],
+      "parameterDegree": 138,
+      "kDegrees": [
+        6,
+        15
+      ],
+      "sha256": "cfb2815d85ccccd5539601130fa64e1d25b08e59e8a6a70618145708929188b6",
+      "allLeadingZeroFibersRetained": true,
+      "claimExcluded": false,
+      "seconds": 3.6265073739996296
+    },
+    {
+      "stage": "full_vzero_original_parameter_resultant",
+      "baseRows": [
+        0,
+        4,
+        5
+      ],
+      "otherRows": [
+        0,
+        1,
+        3
+      ],
+      "parameterDegree": 152,
+      "kDegrees": [
+        6,
+        17
+      ],
+      "sha256": "4425f18c3d14a12a08f1d55a67a1ca7d8283850daa3c5cfe824b773488b4e983",
+      "allLeadingZeroFibersRetained": true,
+      "claimExcluded": false,
+      "seconds": 3.6416301680001197
+    },
+    {
+      "stage": "full_vzero_original_parameter_resultant",
+      "baseRows": [
+        0,
+        4,
+        5
+      ],
+      "otherRows": [
+        0,
+        1,
+        2
+      ],
+      "parameterDegree": 212,
+      "kDegrees": [
+        6,
+        22
+      ],
+      "sha256": "5fb61ec2489852fd6fcf6d98e8ecf7f6e9b5d0dc5dc2c3edda1fca7f1994b678",
+      "allLeadingZeroFibersRetained": true,
+      "claimExcluded": false,
+      "seconds": 3.6714911479994043
+    }
+  ],
+  "parameterCover": {
+    "stage": "complete_vzero_original_parameter_cover",
+    "projectionDegrees": [
+      96,
+      138,
+      152,
+      212
+    ],
+    "gcdDegree": 65,
+    "squarefreeDegree": 12,
+    "allResultantsBezoutMultipliedBack": true,
+    "bezoutCoefficientsSha256": "0e0e1bad4c268b34211bb55471f70e6c5240aed6072bb0db5d790b5e1dd5800a",
+    "gcd": "e(2e-1)Phi4(e)(e^2-2e-1)^3(e^2+1)^4(e-1)^5(e+1)^40/242",
+    "factors": [
+      {
+        "degree": 1,
+        "coefficientsLowFirst": [
+          "0",
+          "1"
+        ]
+      },
+      {
+        "degree": 1,
+        "coefficientsLowFirst": [
+          "-1",
+          "1"
+        ]
+      },
+      {
+        "degree": 1,
+        "coefficientsLowFirst": [
+          "-1/2",
+          "1"
+        ]
+      },
+      {
+        "degree": 1,
+        "coefficientsLowFirst": [
+          "1",
+          "1"
+        ]
+      },
+      {
+        "degree": 2,
+        "coefficientsLowFirst": [
+          "1",
+          "0",
+          "1"
+        ]
+      },
+      {
+        "degree": 2,
+        "coefficientsLowFirst": [
+          "-1",
+          "-2",
+          "1"
+        ]
+      },
+      {
+        "degree": 4,
+        "coefficientsLowFirst": [
+          "-1/11",
+          "-86/121",
+          "-216/121",
+          "-128/121",
+          "1"
+        ]
+      }
+    ],
+    "claimExcluded": false,
+    "seconds": 3.699216303999492
+  },
+  "lastStage": {
+    "stage": "complete",
+    "scope": "entire S0 Lt0 v=0, equivalently original t=0; all parameter and k-leading-zero fibers returned",
+    "reports": [
+      {
+        "phi": "x",
+        "closedBy": "paid e, closed a=0, or paid u=e+1",
+        "claimExcluded": true
+      },
+      {
+        "phi": "x + (-1)",
+        "closedBy": "paid e, closed a=0, or paid u=e+1",
+        "claimExcluded": true
+      },
+      {
+        "phi": "x + (-1/2)",
+        "fieldDegree": 1,
+        "returnedKPolynomialCoefficientsLowFirst": [
+          "(-2)",
+          "1"
+        ],
+        "originalMinorsUsed": [
+          [
+            0,
+            4,
+            5
+          ],
+          [
+            3,
+            4,
+            5
+          ],
+          [
+            0,
+            3,
+            5
+          ],
+          [
+            0,
+            3,
+            4
+          ],
+          [
+            1,
+            4,
+            5
+          ],
+          [
+            2,
+            4,
+            5
+          ],
+          [
+            0,
+            1,
+            5
+          ],
+          [
+            0,
+            1,
+            4
+          ],
+          [
+            1,
+            3,
+            5
+          ],
+          [
+            0,
+            1,
+            3
+          ],
+          [
+            1,
+            3,
+            4
+          ],
+          [
+            0,
+            2,
+            5
+          ],
+          [
+            0,
+            2,
+            4
+          ],
+          [
+            2,
+            3,
+            5
+          ],
+          [
+            0,
+            2,
+            3
+          ],
+          [
+            2,
+            3,
+            4
+          ],
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            1,
+            2,
+            5
+          ],
+          [
+            1,
+            2,
+            4
+          ],
+          [
+            1,
+            2,
+            3
+          ]
+        ],
+        "fieldInverseMultiplicationsChecked": 68,
+        "polynomialDivisionsMultipliedBack": 47,
+        "polynomialBezoutMultiplicationsChecked": 21,
+        "paidFactorRemovalSteps": 1,
+        "remainingUnit": true,
+        "claimExcluded": true
+      },
+      {
+        "phi": "x + 1",
+        "closedBy": "paid e, closed a=0, or paid u=e+1",
+        "claimExcluded": true
+      },
+      {
+        "phi": "x^2 + 1",
+        "fieldDegree": 2,
+        "returnedKPolynomialCoefficientsLowFirst": [
+          "0",
+          "0",
+          "1"
+        ],
+        "originalMinorsUsed": [
+          [
+            0,
+            4,
+            5
+          ],
+          [
+            3,
+            4,
+            5
+          ],
+          [
+            0,
+            3,
+            5
+          ],
+          [
+            0,
+            3,
+            4
+          ],
+          [
+            1,
+            4,
+            5
+          ],
+          [
+            2,
+            4,
+            5
+          ],
+          [
+            0,
+            1,
+            5
+          ],
+          [
+            0,
+            1,
+            4
+          ],
+          [
+            1,
+            3,
+            5
+          ],
+          [
+            0,
+            1,
+            3
+          ],
+          [
+            1,
+            3,
+            4
+          ],
+          [
+            0,
+            2,
+            5
+          ],
+          [
+            0,
+            2,
+            4
+          ],
+          [
+            2,
+            3,
+            5
+          ],
+          [
+            0,
+            2,
+            3
+          ],
+          [
+            2,
+            3,
+            4
+          ],
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            1,
+            2,
+            5
+          ],
+          [
+            1,
+            2,
+            4
+          ],
+          [
+            1,
+            2,
+            3
+          ]
+        ],
+        "fieldInverseMultiplicationsChecked": 67,
+        "polynomialDivisionsMultipliedBack": 46,
+        "polynomialBezoutMultiplicationsChecked": 21,
+        "paidFactorRemovalSteps": 1,
+        "remainingUnit": true,
+        "claimExcluded": true
+      },
+      {
+        "phi": "x^2 + (-2)*x + (-1)",
+        "fieldDegree": 2,
+        "returnedKPolynomialCoefficientsLowFirst": [
+          "(-4)*x + 4",
+          "1"
+        ],
+        "originalMinorsUsed": [
+          [
+            0,
+            4,
+            5
+          ],
+          [
+            3,
+            4,
+            5
+          ],
+          [
+            0,
+            3,
+            5
+          ],
+          [
+            0,
+            3,
+            4
+          ],
+          [
+            1,
+            4,
+            5
+          ],
+          [
+            2,
+            4,
+            5
+          ],
+          [
+            0,
+            1,
+            5
+          ],
+          [
+            0,
+            1,
+            4
+          ],
+          [
+            1,
+            3,
+            5
+          ],
+          [
+            0,
+            1,
+            3
+          ],
+          [
+            1,
+            3,
+            4
+          ],
+          [
+            0,
+            2,
+            5
+          ],
+          [
+            0,
+            2,
+            4
+          ],
+          [
+            2,
+            3,
+            5
+          ],
+          [
+            0,
+            2,
+            3
+          ],
+          [
+            2,
+            3,
+            4
+          ],
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            1,
+            2,
+            5
+          ],
+          [
+            1,
+            2,
+            4
+          ],
+          [
+            1,
+            2,
+            3
+          ]
+        ],
+        "fieldInverseMultiplicationsChecked": 68,
+        "polynomialDivisionsMultipliedBack": 47,
+        "polynomialBezoutMultiplicationsChecked": 21,
+        "paidFactorRemovalSteps": 1,
+        "remainingUnit": true,
+        "claimExcluded": true
+      },
+      {
+        "phi": "x^4 + (-128/121)*x^3 + (-216/121)*x^2 + (-86/121)*x + (-1/11)",
+        "fieldDegree": 4,
+        "returnedKPolynomialCoefficientsLowFirst": [
+          "1"
+        ],
+        "originalMinorsUsed": [
+          [
+            0,
+            4,
+            5
+          ],
+          [
+            3,
+            4,
+            5
+          ],
+          [
+            0,
+            3,
+            5
+          ],
+          [
+            0,
+            3,
+            4
+          ]
+        ],
+        "fieldInverseMultiplicationsChecked": 17,
+        "polynomialDivisionsMultipliedBack": 13,
+        "polynomialBezoutMultiplicationsChecked": 4,
+        "paidFactorRemovalSteps": 0,
+        "remainingUnit": true,
+        "claimExcluded": true
+      }
+    ],
+    "ordinaryISPClaim": false,
+    "claimExcluded": true,
+    "sourceSha256": "c7c82945a652d07b23bc79ad8ad4594776d5e0224a8e07226116d4aeff36287c",
+    "peakRssKiB": 49640,
+    "seconds": 3.793203014998653
+  },
+  "claimExcluded": true,
+  "ordinaryISPClaim": false
+}

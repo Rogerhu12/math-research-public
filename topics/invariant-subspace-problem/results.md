@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R150 S0/Lt0的原孤立点配对t=0整支为空（2026-11-27，已证明）：** [完整参数覆盖与四原域返回](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-zero-singleton-pairing-exclusion.md)令v=4kbc·t=0，四完整Res_k的65次gcd给12次平方自由全覆盖；非平凡1/2/2/4维原域分别返回k−2、k²、k−4e+4、1，全由原单位/已闭半权支付。每个域逆、除法和Bézout实际回乘，3.793203秒/49640KiB/exit0；与旧等配对子类不同，一般图可付v。
+
 - **R150 S0/Lt0的整个Q=4(u−1)²分支为空（2026-11-27，已证明）：** [原均值乘法一致性及完整结式](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-mean-consistency-line-exclusion.md)将原三行子式直接返k=4e，不除未付因子；90/95次完整Res_v在QQ[e]的Bézout准确为e^10(e+1)^40，两个均为原单位。全部原Gram/Cramer/20子式及末Bézout实际3.421194秒/exit0，保所有首项降次；一般图从此可付4e−k。
 
 - **R150 S0/Lt0的完整孤立点P/N给三参数Cramer必要系统（2026-11-27，已证明归约）：** [同根降幂及全部原行组合](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-original-Cramer-minor-system.md)保同eta范数身份、九伴随、114分母和20小行列式实际回乘；四变量QQ输入只用已付单位，build3.519411秒/exit0，未运行旧modstd入口。七变量旧门的准确失败也已补收：smoke先内存/tasks错误，1200.426秒/source exit1，无有效单位证书；改直接算法及新增原输入。
