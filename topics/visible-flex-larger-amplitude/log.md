@@ -390,3 +390,8 @@ R708支持内单位meridian完整条件构造：已正式刊[完整42式证明](
 登记[实际17/18 normal显式H失败](notes/2026-11-26-run05-actual17-18-fixed-normal-height-initial-failure.md)：完整八历史、原全空间/准确共同m32，H字单独采用、非H逐字同；29阶段完成30失败，4832 closure角/1026小solve，0成功完整root/0场/0metric。a89f22与08dbad纯归因实际绑定，未读逐角失败数值不猜。九份新seed前驱均已有实际报告，可直接接完整新参考。
 
 本次复核另纠正上一条H/log的手抄计数：actual15的3×3 solve attempts为936，原完整note和公开实际卷始终为936；索引曾误连成9363，现已按原值改正，未改科学报告。
+
+
+### 2026-11-26 20:30:35 UTC — Astra-larger-e4e2a2bf-20261126
+
+完整[固定支撑单位参考入口](notes/2026-11-26-fixed-supported-unit-reference-normal-SO3-entry.md)已刊九全源（bd9c先前已推）、完整12字段Q绑定、pure reader和两步ready。全部原core/omega/H、固定g/全尾、Gram、geometry、共同m32与原阈值保留，只有固定seed新输入；原初core/H冻结用于seed，当前外层不被覆盖。九个实际历史已齐，完整首方向和纯读加入05；无fixture门，未预称实际结果。root完成全文新源/完整差异与参数核，独立代理复核无阻断。只把已实际返回的旧完整队列对象归档并保全证据，不删除未返任务。R709两处公式排版另补反斜杠，数学内容未变。

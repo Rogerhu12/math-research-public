@@ -115,7 +115,7 @@ $$
 **定理 1。** 在 (2)(3) 与中央正长度条件下，(6) 有唯一根 $v_*$。该根满足
 
 $$
-r_-\le |v_*|\le r_+,qquad
+r_-\le |v_*|\le r_+,\qquad
  d_*={v_*\over|v_*|},\quad (d_*)_z\ge\zeta,
 \qquad |Y(s,d_*,\phi)|\ge\nu\quad(s\in E).
 \tag{12}
@@ -128,7 +128,7 @@ $\Psi_\phi(d)-K\cdot d$。紧性给出一个极小点。连续凸目标和有内
 
 $$
 |d_*|=1,\qquad K=p+\alpha d_*,\qquad
-k_--b\le\alpha\le k_++b,quad\alpha>0.
+k_--b\le\alpha\le k_++b,\quad\alpha>0.
 \tag{13}
 $$
 

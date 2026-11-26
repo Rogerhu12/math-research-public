@@ -4,7 +4,7 @@
 
 ## 规则与完整目标
 
-最近规则核查：2026-11-26 20:28:13 UTC，真实pull/rebase至 `b5a5ee5781b282e304f5db4e64d91e97dd7f5735`，双README相对`22f86ae22a2cb3ebf6f662f178f6bbf88feb29b5`无差异，继续遵守全部规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
+最近规则核查：2026-11-26 20:31:00 UTC，真实pull/rebase至 `31af6a85a0359e59b626b4049c352e63c3d0d991`，双README相对`9b8f35dfcff6997596a6fc8b25486a5bfe803438`无差异，继续遵守全部规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
 
 科学计算仅本公开仓库Actions；执行偏差见[早前记录](notes/2026-11-20-public-actions-execution-correction.md)及[四次大JSON整读纠正](notes/2026-11-26-large-file-connector-read-correction.md)。root唯一分支写者；结论即普通推，NFF立即rebase循环，不强推。每次pull核双README差异并遵新规，至少每小时，记commit。raw只scratch/runner，不入Git/Release/artifact；保完整小源/参数/run/SHA/紧凑结论。题≤200MB、单文件<5MB、MD<100KB、H<10KB、open<30KB。令牌仅瞬时CLI。17:55终端失联后曾用云API普通快进；19:17显式/tmp恢复并新部分克隆，现恢复终端git。旧迁移完成情况未知，不假称恢复旧scratch。
 
@@ -19,7 +19,7 @@
 
 ## 03b与零端点：已知失败和实际新机制
 
-03b45820592817已返36并终止，37未启动；旧03 stage7未知。全部3–36方向/拒点/源码/参数保固定完整交接和原notes。旧[30/33](notes/2026-11-26-actual-direct-integral-second-direction-30-33.md)alpha1/32/max .501279055、QP64未驻；拒绝ray家族/地址旧raw未知，不能用05补填。原[19/20](notes/2026-11-26-actual-fixed-moment-Q-initial-failure-19-20.md)、[28/31/32](notes/2026-11-26-actual-continuation-failure-and-reader-repair-31-32.md)、[34/35](notes/2026-11-26-actual-Jstar-height-root-failure-34-35.md)、[36](notes/2026-11-26-actual-gamma-KKT-initial-failure-and-03b-exit-36.md)均未有成功场/Phi/root，不推不存在或秩亏。18字固定Q保；R697/R702/R705分别登记轴端同族/只改H恒等式/完整walker空贡献；必要弦长23不证有限根。
+03b45820592817终止、37未起；旧03 stage7未知。3–36全方向/拒点/来源和零端点19/28/34/36失败完整保[9b8f交接](https://github.com/Rogerhu12/math-research-public/blob/9b8f35dfcff6997596a6fc8b25486a5bfe803438/topics/visible-flex-larger-amplitude/HANDOFF.md)及其全部note。均未有成功新场/root，不推秩亏或不存在。18字固定Q不变；R697/R702/R705已登记同族/H恒等式/完整walker空贡献，不重做。
 
 [R703](results/R703-normal-endpoint-lifting-and-fixed-partition-jets.md)/[R707](results/R707-fixed-normal-chain-root-jet-error-propagation.md)已证全法向链/误差，实际余量未付。[法向五源](notes/2026-11-26-fixed-normal-plane-complete-SO3-entry.md)42ea/2557/68a6/c5f1/8381保m32全6m/9m和全部外层。05[实际12–14 gamma-H](notes/2026-11-26-run05-actual12-14-gamma-height-failure-and-saved-KKT-matrices.md)初F失败，止λ约.9641；129保存KKT矩阵数值满秩、reduced L正，但最坏K条件约2.75e9，不冒准确秩/SOSC或归因。[实际15/16原H normal](notes/2026-11-26-run05-actual15-16-fixed-normal-common-partition-failure.md)全m32完成26、27失败，report6080d2；936次3维solve、0当前成功根/0场/0方向，不推秩亏或不可达。
 
@@ -43,7 +43,7 @@
 
 ## 已刊工具与未付目标
 
-[R708](results/R708-supported-unit-meridian-seed-contraction.md)/[R709无收缩均值根](results/R709-global-convex-mean-closure-without-contraction.md)已证唯一正根、完整二角jet与残差界，不需q<1。[完整均值角jet核](notes/2026-11-26-supported-unit-seed-mean-angular-jet-kernel.md)bd9c已刊：全向量Newton、当前点J、隐式二jet、对称完整轮廓与最终原组合闭合真回读；本地只静态核，数值/连续费用未付。新固定seed不删原全变量/Gram/几何，正在接入实际九历史。
+[R708](results/R708-supported-unit-meridian-seed-contraction.md)/[R709](results/R709-global-convex-mean-closure-without-contraction.md)的唯一均值正根/两角jet/残差界已证，无q<1门。[完整新固定seed入口](notes/2026-11-26-fixed-supported-unit-reference-normal-SO3-entry.md)九全源bd9c/30ea/e1bb/9fec/5297/d84b/e482/fa468/d788及全参数已刊并排05，九份历史均实存；端层S/16、epsilon1/10，原全变量/Gram/geometry、m32保。仅静态核，未预称首场或成功；均值J不迁证normal Cu。
 
 [R700六jet控制](results/R700-integral-so3-full-sixjet-control.md)是固定有限M/正rho、全core/H的径向网格无关界，非实际余量或M一致界。[完整QR](notes/2026-11-26-complete-so3-integral-qr-coordinate-interface.md)49a1已刊未跑，仅真实234ac/7f布局，不冒zero/R696/gamma兼容；原Cholesky已成功，当前不换范数。[R704η尾](results/R704-eta-tail-uniqueness-scope-and-fixed-control-bounds.md)证明η0回到原线性唯一性判据、任意固定η>0仍非L1；本轮保原目标。连续cert源已刊未跑；必须先得到真实合格候选，再付完整922胞/全尾/浮点/隐式费用及同g实际精化。研究尚未达到README全部完成标准，继续工作。
 
