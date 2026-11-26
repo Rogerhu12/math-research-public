@@ -6,9 +6,11 @@
 
 ## 原最低型：已经付清的输入与准确剩余标量
 
+[R1050](results/R1050-actual-CM-parameter-short-PD-and-Picard-Fuchs.md)：同一actual BT短PD给Ξ=d u′ modu′^p；Z=Ξ³=−r(q/j)³/3，b=B_CM(Z)=1+Z+5Z²/16+…到Z^ℓ。原κ₁=d³c_Q³保双incidence/∞符号，所有分母与末端精度已付；只给实际target参数，完整节点self-return另证。
+
 [R1047](results/R1047-original-MW-saturated-profile-and-common-zero-bound.md)：两行原新部的全部实际MW消去格Σ到前n₀=(p−2)/3个CM系数为饱和单射；任一本原行保M1。若r_ann=rankΣ≥1，原单位闭盘的公共零点总重数≤n₀−r_ann+1，故原有理点≤n₀、非中心≤n₀−1。以整Tate除法保全部尾，使用真实全MW消去，不恢复旧秩零商。最低单位/非中心根排除及O0仍开。
 
-[R1046](results/R1046-original-p5-complete-CM-flag-and-MW-nonzero-reduction.md)：p5独立付双中心全阶res0、双∞(±1)^k、full分歧12及所有normal/其它CM返回/全纯项，给同一完整旗标。原c=DQv与完整v正交；R1045全p代数lemma排contact，p>C_*实际MW消去后准确M1。最低w单位与非中心根仍开。
+R1046独立付p5双中心/res0、双∞(±1)^k/full分歧12与全部normal/自由项，给同一旗标和实际MW后M1；详细公式合列于下方R1044/46，最低单位与非中心根仍开。
 
 [R1045](results/R1045-original-MW-annihilator-nonzero-reduction.md)：原p11、p>C_*的真实本原Λ_Q作用原整CM盘后，完整模p多项式非零，MW消去后准确M=1。更强纯代数适用于全p=6N+5：非零new T若与v=λ+R正交，完整三CM留数与S₀=1迫contact从ℓ升到ℓ+1；原Euler算子给有限₃F₂，degree N<ℓ与局部指数0,1,ℓ排二重零。保完整Q²λ；不要求general new determinant单位，不宣最高J₀、最低w系数单位或深盘唯一零点。
 

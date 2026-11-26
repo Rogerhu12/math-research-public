@@ -350,3 +350,7 @@
 - [R1049](results/R1049-original-fN-theta-first-direction-moment.md)：保原F⊗R₋、实际三挠刚化/全部模6相位，η⁵P_FR(η⁶)=t²δ′φ_A/12；原f_N=−t²δ′Σηφ_A/[12(p+1)]。十二代表相位全核；方向逐点单位不代一阶矩非零，原同h筛选仍开。
 - 同一原F⊗R₋实际三挠截面运输、首p零阶jet、Wilson及十二norm表示的完整相位均逐式核对；原共同δ′保留，未以方向单位替一阶矩单位。纸面推导，无数学程序执行。
 - 执行宿主再次断连，按根规矩8改用仓库连接器读取最新main并检查两README差异、带expected_sha非force提交；恢复后立即真实pull --rebase。同步精简H/open的重复入口，完整来源仍在对应结果、旧归档及git历史。
+
+### 2026-11-27 02:09 Asia/Taipei — R1050 原actual CM参数的短PD/PF比较
+- [R1050](results/R1050-actual-CM-parameter-short-PD-and-Picard-Fuchs.md)：同一actual BT短PD给Ξ=d u′ modu′^p；Z=Ξ³=−r(q/j)³/3，b=B_CM(Z)=1+Z+5Z²/16+…到Z^ℓ。原κ₁=d³c_Q³保双incidence/∞符号，所有分母与末端精度已付；只给实际target参数，完整节点self-return另证。
+- 逐项支付I^p=0上的真正PD、原BT framing自然性、同一好椭圆模型/KS、Gauss–Manin到两个实际period的比较，以及首次坏分母之前的全部所需系数。保p5双节点、c_Q±/ψ±/共同κ₁和(±1)^k；不凭坐标公式删除节点返回。无数学程序执行。

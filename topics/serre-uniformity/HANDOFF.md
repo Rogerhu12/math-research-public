@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。本轮已部分克隆并真实pull main，读两README/H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则读至36cf1ed2。不重做已登记结论或窗口。
 
-**公开两README已读提交：29bd4c0b94a9f777e2e40248fe911cf8bb51d9b7**（2026-11-27 02:04 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
+**公开两README已读提交：50239b730cf6af1a2c98c8129505c778aafe6d4c**（2026-11-27 02:08 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
 
 本轮两次真实部分克隆/pull已完成；最新执行宿主再次断连，按根规矩8用连接器小文本同步和带expected_sha的非force原子提交，恢复后立即pull --rebase。令牌只在CLI，不入文件/提交/MCP。根维护main/H/open/index/log，子研究仅独立数学稿；每条结论立即推。并发拒绝立即同步/读规则差异/重新基于新main再推至成功。global_route曾违规用V8数学探索，已叫停并独立纸核，范围/时长见[偏差记录](notes/2026-11-26-execution-path-deviation-and-correction.md)，不以输出作证明或合规窗口。
 
@@ -14,9 +14,9 @@ H<10KB、open尽量<30KB、每MD<100KB、topic<200MB；无可重算raw、不写�
 
 ## 最新全局实际来源
 
-[R1045](results/R1045-original-MW-annihilator-nonzero-reduction.md)/[R1046](results/R1046-original-p5-complete-CM-flag-and-MW-nonzero-reduction.md)：两行原实际MW消去后准确M1(p>C_*)。完整旗标rank n₀=(p−2)/3；三CM留数S₀=1与Euler有限₃F₂排contact，Q²完整。p5双中心/∞与分歧12均付清。[R1047](results/R1047-original-MW-saturated-profile-and-common-zero-bound.md)进一步给全部实际消去格Σ的系数映射饱和，原盘公共零数≤n₀−rankΣ+1；有理点≤n₀，非中心≤n₀−1。最低单位与非中心根排除仍开。
+[R1050](results/R1050-actual-CM-parameter-short-PD-and-Picard-Fuchs.md)：同一actual BT短PD给Ξ=d u′ modu′^p；Z=Ξ³=−r(q/j)³/3，b=B_CM(Z)=1+Z+5Z²/16+…到Z^ℓ。原κ₁=d³c_Q³保双incidence/∞符号，所有分母与末端精度已付；只给实际target参数，完整节点self-return另证。
 
-[R1040](results/R1040-original-p5-Hodge-graph-and-primitive-MW-annihilator.md)：原p5 good BT有Π²=−p、B整对称完美和真实Q；核一维全正δ，负δ单射。原CM方向与全MW本原消去已付，K_Q仍保Q²且待单位；双中心/相位/旧部全部见原证明与open。
+[R1045](results/R1045-original-MW-annihilator-nonzero-reduction.md)/[R1046](results/R1046-original-p5-complete-CM-flag-and-MW-nonzero-reduction.md)：两行原实际MW消去后准确M1(p>C_*)。完整旗标rank n₀=(p−2)/3；三CM留数S₀=1与Euler有限₃F₂排contact，Q²完整。p5双中心/∞与分歧12均付清。[R1047](results/R1047-original-MW-saturated-profile-and-common-zero-bound.md)进一步给全部实际消去格Σ的系数映射饱和，原盘公共零数≤n₀−rankΣ+1；有理点≤n₀，非中心≤n₀−1。最低单位与非中心根排除仍开。
 
 R1037/40分别付清两行实际Q=ε⁻²ΦΠ、Π²=−p、完美对称B、纯正δ一维核/负δ单射及全部MW本原消去。两行K_Q仍保Q²待单位；B(c₀,J)=−1/8只检测核。
 
@@ -28,9 +28,9 @@ R1026固定hypergeometric两尾rank2给明确绝对C_*，全p>C_*、p5mod6原Q�
 
 R1023/24/28–30的完整首log、实际提升差、整τ₁与全分支E已由R1037–40消费；原尺度/支撑保结果及归档，不重求。
 
-R1010原X₁的D₀在非CM新部非挠：全p≥10¹⁸、p5mod6，p11mod12可到431。R1011实际Q简单商C满足End_Q⁰C=全实F₀、dim=2f、rank=f、MW⊗Q=F₀β（β=q_CD₀非挠）。AST给真实log空间与有理Lie交零；指定Néron格单位、统一半径与候选排除仍开。完整全部重数/导子来源保原结果，不搬到变化X_d。
+R1010原D₀非CM非挠：全p≥10¹⁸/p5mod6，p11可431。R1011实际Q简单商C：End_Q⁰=全实F₀、dim2f、rankf、MW⊗Q=F₀β；AST排有理Lie交，但不代整格单位/统一半径。全部类型/导子保原结果，不搬到变化X_d。
 
-R1018原形式Fm、R1019实际A=T5²/Z=(T31−32)T5²保形式Fm及杀CM、R1021全非约化模p仿射刚性均已成，完整尺度/支撑/阈值见open与归档。R1023已补全首log节点及跨尾返回；H_A/H_Z仍须算新支撑，不能任换λ。
+R1018/19/21原Fm、真实T5²/Z杀CM和全非约化模p仿射刚性已成；支撑/阈值在open，H_A/H_Z新支撑仍待算，不任换λ。
 
 ## O0：不能省略的全局覆盖
 
@@ -46,7 +46,7 @@ R1018原形式Fm、R1019实际A=T5²/Z=(T31−32)T5²保形式Fm及杀CM、R1021
 
 R1012/16/17/20/25/27未经筛选的完整theta分布、常平方1与全方向单位已成；原六标记/标量均保各结果，不能代原primitive/Legendre同h或bare。
 
-原h=6i+7、i+j=N−1须同一本原h使P_(h−1)(1/s)fi gj≠0；原Norm/两CM权/相位不换。R949/954/957–959共同粗CM因子及R968真列保留。R971全p full-span与R1006全p G稳定已否；特定A/E4包含仍开。R996/999只给55∤p+1时filtered V≠0；R1009粗CM阶≤4不代零阶mark。R995/997/1000 mixed heat、R1001 norm7源、R1002自由jet均只消费。R706旧5992 f_N单位/5991 g_N单位（唯一g零137147）不重算。完整角色/所有例外与runs见open及逐字前态。
+原h=6i+7须同一本原h使P_(h−1)(1/s)fi gj非零，i+j=N−1；原Norm/双CM权/相位和两个mask不删。R971 full-span、R1006全p G稳定已否；特定A/E4仍开，粗CM阶≤4不代零阶。R995–1002等已成输入只消费；R706旧5992 f_N/5991 g_N单位至200000（g零137147）不重算。全部原角色/例外/run保open和归档。
 
 ## O2：原高近p值
 
