@@ -5,58 +5,56 @@
 ## 目标、规则与执行
 
 - **普通复可分无限维 Hilbert ISP 未完成。** 仅全体有界算子的存在定理或完整反例算完成。
-- **最近实际 pull / 已读规则提交：** `eb6e4125fcf8f6419a35389dba190ebbae862c90`（2026-11-26 21:20:53 UTC；本地部分克隆）；本次两 README diff 无变化。每次 pull 且至少每小时检查并更新本项。
-- 私库 QUEUE 接手已推 `5746fa79a74af4975476d400dfbe0c4e5cb9ae9d`；私库根规则2026-11-26 20:28 UTC已pull至 `63459bc1a74526162372866a9ae39bb51006ba78`，diff无变、QUEUE保持本会话。每结论单推，非快进即 pull --rebase 再推；不 force，令牌仅 CLI。
-- 本轮本地终端可用。前会话执行身份及全部原交接保[接手快照](notes/2026-11-27-handoff-at-takeover-8542.md)；本轮快照链见[最新完整归档](notes/2026-11-27-handoff-before-measurable-source-8542.md)。失败不改标成功，已登记不重做。
+- **最近实际 pull / 已读规则提交：** `d07e9151b2b30925fcf43f9ad68c21ec9357a019`（2026-11-26 21:31:11 UTC；本地部分克隆）；本次两 README diff 无变化。每次 pull 且至少每小时检查并更新本项。
+- 私库 QUEUE 接手已推 `5746fa79a74af4975476d400dfbe0c4e5cb9ae9d`；私库根规则2026-11-26 21:25 UTC已pull至 `98a93f8a4d1394417e739b7d26713f98038e497b`，diff无变、QUEUE保持本会话。每结论单推，非快进即 pull --rebase 再推；不 force，令牌仅 CLI。
+- 本轮本地终端可用。前会话执行身份及全部原交接保[接手快照](notes/2026-11-27-handoff-at-takeover-8542.md)；本轮快照链见[最新完整归档](notes/2026-11-27-handoff-before-Dixon-runtime-and-original-G-return-8542.md)。失败不改标成功，已登记不重做。
 - 仅保源、参数、SHA、小回执；MD<100KB、H<10KB、open尽量<30KB、topic<200MB，不写根LOG。已读本轮 log；notes 按交接路径与结果索引定点续读。
 - 正在推进：R271 同一 w 的真实终端/稳定范围；R150 S0三值互异Lt0原r1非零一般图；文献与 Deddens 同源插值。完整证明登记后即接下一未闭项。
 
 全部已闭项的完整证明、脚本及回执均在[结果索引](results.md)；本页压缩长链接而不删未付接口。
 
-## R150：准确已闭范围与母任务
+## R150：准确范围与当前原输入
 
-- 全W31/W127、Γ120、权7–11已付（准确矩阵/商类见索引与快照）；权12–15、完整Bell自然幂、4212来源/高度及算子桥仍开。
-- 全essT3≤3与整个V0临界层的matched Bell已零；V0原I0指数3不是全Jacobian幂。W±有Cat3真临界点，不能判Cat3整层空。
-- 外均值ess4长度5仅适用Cat(y)3、dimW4、y∉W。rankH3全闭；rankH4所有proper单零及unit4/2+2/3+1全闭，仅unit211与unit1⁴；全部rankH5及V非零inner-ess4/5/6仍开。
-- unit211零配对、零mean、相等/相反配对、整个P0零与u1均闭。只续p=1、q≠0,±1、u=b+cq≠0,1、P0≠0的非零孤立点mean；共同缩放不能用两次。
-- rankV1全层、rankV2且y∈RanV均仅T3零；rankV2/rankH≤1给ess≤3。整个rankH=rankV2给ess≤4，末Gaussian原值17F³0已付；不重做旧Gram门。
-- 一般y∉RanV且essT3>rankV+1，原支撑为span(y,RanH,RanV)且含y；余rankV2的ess≥4属inner，不能套外长度5。其ess5/6须rankH≥3。
+- W31/W127、Γ120、权7–11已付；权12–15、完整Bell自然幂、4212来源/高度和算子桥仍开。全essT3≤3及V0的matched Bell零已付；V0的I0指数3非全Jacobian幂，W±仍有Cat3真临界点。
+- 外均值ess4长度5仅适用Cat(y)3、dimW4、y不在W。rankH3全闭；rankH4的proper、unit4/22/31全闭，仅unit211、unit1⁴；全部rankH5和V非零inner-ess4/5/6仍开。不能把外长度5覆盖用于inner。
+- rankV1、rankV2且y∈RanV全为T3零；rankH≤1给ess≤3，rankH=rankV2给ess≤4。一般y∉RanV的支撑必须含y，为span(y,RanH,RanV)；inner ess5/6须rankH≥3。
+- unit211仅续p=1、q≠0,±1、u=b+cq≠0,1、P0≠0及非零孤立mean；原零配对/零mean、相等相反配对、P0零和u1均已闭，不能二次用共同缩放。
 
-### unit211原剩余图
+### unit211当前三图
 
-- L0的w0/w1、b+c0、W曲线与整个P1双零均闭，旧43谱/新1、7维原rho返回保原回执。[G全部w首项零](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-L0-G-leading-w-zero-exclusion.md)亦闭，末6维/47逆、3.809899秒；G已有新有限lambda投影，正返同根w/rho；仍未闭，余交点继续，可用w四次关系。旧G run45833153054/job139954904770实际465.207秒/4GiB无单位，不重跑；旧双零exit2保持原身份。
-- S0已闭Af0/L非零、h1/k1、整个h=k；Lt0的g2零面、theta余式双零、M首项零、u2/ell1/a0和ellhalf/ahalf均闭，全部谱与原真逆见结果索引。原U导数w0整支也闭：17次覆盖全返、末28维E1/EB单位，0.148623秒。仅续Af非零、三值互异Lt0一般图，可用theta=−r0/r1、(4λ−1)A、ell−1、ell−1/2及w单位。
-- 旧scratch双点均值误写的374/580投影/PRS全部作废，已推正确源不受影响；[纠错](notes/2026-11-27-r150-Lt0-invalid-mean-projection-correction-8542.md)。新低次7变量run45890460154/job140151553412实际1200.426秒/exit1，**modstd小smoke先内存/tasks错误并重启，未通过**，非有效原单位计算。准确[回执](notes/2026-11-27-unit211-S0-Lt0-low-invariant-actual-execution-8542.json)保留，不重跑。
-- [原P/N与三参数Cramer系统](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-original-Cramer-minor-system.md)已证明：同eta降幂、114分母、全部改写原组合及20个原行子式回乘；QQ[invUnit,v,k,e]，build3.519411秒未判空。新安全门6cb8a264用独立45秒std小证书通过后才启动1200秒slimgb；已付4e−k/v，build3.245212秒无排空。专用original-minors-safe-8542 workflow已接。
-- Lt0原k=4e、t=v=0及Omega=2e²−ek+2=0整支皆已完整原返回排空；可付4e−k、v、Omega，全部源/回执见结果索引，运行中QQ源不改。
-- 原P045的v六次全部首项零面已闭：Dixon原组合、564/750/776次全投影仅余e1/2，末二次k域原v Bézout1；109.809478秒。可付B44，继续首一v六次/二参数原覆盖，当前QQ源不改。
-- 一般LS非零的两线性Cramer四参数atlas已实际生成，原Δ0全部保留；仍未判空。旧mod1031内存和600秒失败不重跑。
+- L0：w0/w1、b+c0、W曲线及整个P1双零皆闭。G全部w首项零也闭，可用w四次关系；一般G与余交点仍开。旧G run45833153054/job139954904770实际465秒/4GiB失败，不重跑。root已从原G伪余式得到非零lambda投影，正返同根w/rho；高46次域普通Euclid系数膨胀，转低次原组合/无分式返回，未判空。
+- S0：Af0/L非零、h1/k1与整个h=k均闭。Lt0的g2零、theta余式双零、M的z首项零、u2/ell1/a0、ellhalf、原U导数w0均闭；可付theta=−r0/r1、(4λ−1)A、ell−1、ell−1/2、w。原k=4e、v=t=0、Omega=2e²−ek+2=0整支及最小P045的全部v首项零面也闭；可付4e−k、v、Omega、B44并用原首一v六次关系。
+- 正确原三mean/Cramer、同根完整P/N、20小行列式与Dixon D8均有原组合/全部分母回乘；完整证据及执行身份见结果索引。作废的旧scratch双点均值374/580投影/PRS不可再用，已推正确源不受影响。
+- 7变量05e769旧门小modstd smoke先内存/tasks/signal11失败；四变量6cb8新门run45894728421/job140165703666独立std smoke通过，slimgb真实1200秒未决，driver1204.387秒/RSS8216876KiB/exit1，无I*C=1；两源冻结不重跑。
+- 当前专用Dixon-paid-leading-8542 workflow改用dc2d1c5b源：新增原D8及已付Omega/B44，177分母，build3.998890秒不是排空。只认原I*C=1；同时推进原二参数覆盖/完整原返回，不靠改时限或多元gcd。
+- 一般LS非零的两线性Cramer四参数atlas已生成，原Delta0全保；仍未判空，旧mod1031内存/600秒失败不重跑。
 
 ### rankH3原ess6
 
-- 三约化H退化Gram：F0、V二jet、Hp非零、同相位、所有H∞、中心0/2已闭。中心0旧b34错误Eh退出0无效，正确K/L/Eh的四纤维U幂才是证据。
-- 中心−6仅A7/9、ab637/5580的首项零三维U³已闭；一般范数662.582秒到时未决。余中心c≠0,2、V可∞与非退化H Gram继续。
-- 三约化H一般有限中心：原N一阶/Ke3与个别源/12次域归约已证，完整V与未平方相位保留。Ke3实际280.311秒/4GiB，L12实际900秒均无单位；准确输入哈希/运行身份见[第三快照](notes/2026-11-27-handoff-before-original-N-Hermite-8542.md)，不重跑，改新低次原几何。
-- H单三jet整个ess6闭；H2+1仅四有限源Hp0非退化层。原同Π的C/G两条d一次式已证，三种真Ke900秒未决。新增原N二阶/孤立一阶为d次数5/8，固定w求导与原身份已核。新run45886748045/job140139221544数域/smoke通过，实际900秒未决（905.464秒/RSS714476KiB），无I*C=1；不重跑，换低次几何。已闭全部退化/∞及原输入见最新快照链。
-- 纯三次判据B³−27A²D，旧正号不可作证。每图须原真幂来源，再以N=1+Σ(Ni−1)粘合；几何覆盖不代来源费和算子桥。
+- 三约化H：退化Gram F0、V二jet、Hp非零、同相位、所有H∞和中心0/2皆闭。中心0旧b34错误Eh退出0无效，正确K/L/Eh四纤维U幂才有效。
+- 中心−6仅A7/9、ab637/5580的首项零三维U³闭；一般范数662.582秒未决。余中心c≠0,2、V可∞、非退化H Gram继续。
+- 一般有限中心的原N一阶/Ke3和12次域输入已核，仍保完整V与未平方相位；Ke3的280秒/4GiB、L12的900秒失败不重跑。
+- H单三jet整个ess6闭；H2+1仅四有限源Hp0非退化层。原同Pi的C/G两条d一次式及新增N二阶/孤立一阶(d5/8)已核；三真Ke900秒及run45886748045/job140139221544新N900秒均未决，后者数域/smoke通过而无单位。换低次原几何，已闭全部退化/∞不重做。
+- 纯三次判据是B³−27A²D；每图还须原真幂来源，才以N=1+Σ(Ni−1)粘合，几何覆盖不代来源费或算子桥。
 
-## R271：完整同源费用与稳定端点
+## R271：同源费用与两道实际闭图核心
 
-M=kerT、N=closureBM；N=M未证。保同w/u、全部partial、真intersection旗、MP自然域、负前缀/未来/carry与完整帽外投影；低forcing不等于低输出。
+M=kerT、N=closureBM，N=M未证。保持同w/u、全部partial、真intersection旗、MP自然域、负前缀/未来/carry和完整帽外投影；低forcing不等于低输出。
 
-- 已付完整Galerkin/MP/β/Hankel/真旗、全部Gram、同源μ_T/阶乘矩与实际方差网格；∫μ_T ds/s≤1、Σμ_T(Sx)/x<∞。原64^R、γ<1/16绝对Z、远孔32^N、真帽返回及通用e^(κy)清除仍开；F0与首阶核条件不可删。
-- 远位硬化、同mode重最小化/Riordan整塔均保原u/partial、趋P_Mf，仍未知P_Mf∈closureBM。全行Bessel保p≠q；无锚f−a_full的Γ²≤27μ1不能移给有锚源/第二Green。
-- R=d的同w全矩、e^(−47d⁴)carry、真帽cut及一次MP已付。固定次数及同源k_m→∞、k_m≤m/12的顺次MP保完整−Cq_r/终列反馈，修正、误差、残量平方可和；付费常数保最新快照/结果索引。相容真空塔负相关范围L=o(x^(2/3))，同源Gram/短真核距离δ_L保留；Chebyshev模型x=ceil exp(9d⁴)仍超exp(O(d³))母窗。
-- [实际全M占满前缀新指数界](results/R271-appendix-full-tensor-exponential-bound-and-improved-occupied-prefix-decay.md)已证||Q_nf||≤[exp(−γ_ex n+4(logn+1)²)+exp(−47n⁴)]||f||，γ_ex=log2+asinh1+2(1−1/√2)/5>5/3；两N/Y模型、固定最高k剩余类同率。精确变分Γ_occ≈1.723637；远低于真实α_q^-1=exp(Θ16^q)，未付除法/稳定范围。
-- 原G0=TJ_B的图闭包=closure Ran(B,T)，多值部恰Ce0，真实e_(2^j)/a_j给趋近。投去真空后A_min可闭，A_max=J_BT，N⊂ker A_min⊂M；最大G0*域={y:T*y∈RanB*}、闭包e0⊥。I⊂J=closure RanG0*⊂N⊥；须分别付J=I与J=N⊥，单一图核心不够。
-- **实际终端k=h−1的增长费仍未付。** 慢增近核不作kerT或closureBM；下一保原同w的C^pP_xw=(−D)^pw_p+真实carry及特殊真空primitive塔，继续终端完整费用/精确残量清除、带锚第二Green。不得删(I−P_K)Gv、原u修正项或换成boson列。
+- 完整Galerkin/Gram、Hankel/真旗、原未加权inverse、同源μ_T/全阶乘矩与实际方差网格已付；∫μ_Tds/s≤1、Σμ_T(Sx)/x<∞。原64^R、γ<1/16绝对Z、32^N孔权、真帽返回和通用e^(κy)清除仍开；原F0和首阶核条件不可删。
+- 远位硬化、同mode重最小化、Riordan整塔均保原u/partial并趋P_Mf；P_Mf∈closureBM未知。全行Bessel保p≠q交叉；无锚f−a_full的Γ²≤27μ1不能移给有锚源/第二Green。
+- R=d同w全矩、e^(−47d⁴)carry、真帽cut和一次MP已付。固定次数及同源k_m→∞、k_m≤m/12的顺次MP保完整−Cq_r与终列反馈，三费用平方可和；真正终端k=h−1增长费仍未付。不得删(I−P_K)Gv或改成boson列。
+- 相容真空塔负相关把范围扩至L=o(x^(2/3))，同源Gram/短真核距离δ_L保留；Chebyshev模型x=ceil exp(9d⁴)仍超exp(O(d³))母窗。通用小κ指数孔右逆、泛短核小残量桥均已有障碍，不能重提为已付。
+- 全实际M的占满前缀率已提高：γ_ex=log2+asinh1+2(1−1/√2)/5>5/3，明确主项exp(−γ_ex n+4(logn+1)²)与carry e^(−47n⁴)；精确变分Γ_occ约1.723637，固定最高k类同率。仍远低于原alpha_q逆权exp(Θ16^q)，不能推出真除法域。
+- 新原G0=TJ_B的图闭包为closure Ran(B,T)，多值部恰Ce0，真实e_(2^j)/a_j给趋近；投去真空后A_min可闭，A_max=J_BT，N⊂ker A_min⊂M。最大G0*域={y:T*y∈RanB*}，闭包e0⊥。I=closure RanT*⊂J=closure RanG0*⊂N⊥，必须分别付J=I和J=N⊥；单一图核心、一维多值部或循环主理想均不代N=M。
+- 当前继续实际负前缀来源的图核心与W特殊原像费用；全部原闭图/MP精确公式保最新完整快照和结果索引。
 
-## 其余开放
+## 原 Haar A：Deddens 与未知普通 M
 
-Deddens完整已闭范围保[索引](results.md)及最新快照：D∩D*=MASA、所有可分重数的有限成本不变投影、全2-adic加权平移准确距离、具体平移B内自伴核/交换子、全R非平凡odometer谱投影距离≥1/π、所有非奇异加权复合到自伴核距离均已付。R38真Y∈D\B与无限位换位实例保B外范围。全R自伴核、连续谱Fourier乘子、未知M被D保持仍开；不能以移动字符消失或一般细块小量替全B(H)唯一性。∩A^kM增长、G_reg/Haar/子商保前快照全部接口。
+A单射、稠密像、拟幂零、非紧；普通不变空间未知。D范数不闭、固定成本球非localizing、范数闭包R无非零紧元，不能套缺闭性判据。
 
-原同源非复制运输已给固定非零球/统一普通范数；指定硬目标的全D最优累计log费Θ(n⁵)，仅换实现不能降四次。原球软逆像唯一最优W_n²/(W_n²+λ)，dyadic的log m_n/n⁴→(20+280·16^q)/3，全部真实递推∏c≥m_n。全D连续整数前缀约束迫独立最优目标的准确连接||R_n||≥(1−r)/α_v2(n)，dyadic无界。完整证明见结果索引/最新快照；继续真实可测目标、全逆像/前缀双预算与未知M保持，不能把静态最优拼作实际递推。
-
-明确可测平坦源E（μ≥15/32）已给同源f_n=U^{S_n}1_E、真实R_n递推/统一普通范数，并在每个固定负幂图范数返回；全n,k费用明确。累计log费O(n⁵log¹²n)与第n逆像O(n⁴log¹²n)不同，不消掉时间因子。此例仍不保持未知M；已转向未知M的原交换子/位递推关系。
-
-全部原尾的有界根重数现已精确：I_k⊗B_m有q次根⇔q|k。故任意普通不变M不能由真有限头坐标同构到整个尾，||P_M−Q||=1；非零真P_M距UHF及UHF+K均1/2。此条直接用原A不变性，不假D保持；未知真尾底空间/无界逆仍未排除。
+- D∩D*=乘法MASA、所有可分重数有限成本不变投影、全2-adic加权平移距离、具体平移B内自伴核/交换子、全R非平凡odometer谱投影距离≥1/π及全非奇异加权复合距离皆已付。R38真Y∈D\B与无限位换位保B外范围。全R自伴核、连续谱Fourier乘子和未知M被D保持仍开；不能无损拼合一般细块。
+- 原同源运输的指定硬目标最优累计log费Θ(n⁵)；原球软逆像最优W_n²/(W_n²+λ)和dyadic四次常数已付，全部真实递推∏c≥m_n。全D连续整数前缀迫独立软最优连接范数dyadic无界，不能静态拼接。
+- 明确可测平坦源E(μ≥15/32)已给真实统一普通范数递推、所有固定负幂图范数返回及全n,k预算；五次累计费与第n逆像四次费仍不同，未知M保持未付。已转向直接用原A不变性的关系。
+- 原Haar尾I_k⊗B_m有有界q次根⇔q|k。故任意普通M不能经真有限头坐标同构onto整个尾，||P_M−Q||=1，非零真P_M距UHF及UHF+K均1/2。必须保未知真尾底空间/非满像/无界逆；这不是负整数边界B的根结论。
+- 全H稠密不传未知限制/有限旗，UHF不运输未知Haar格，正常态不代边界奇异态。原G_reg同forcing/carry、Haar循环性、子商/交织损失及此前归档全部未闭接口保持开放。

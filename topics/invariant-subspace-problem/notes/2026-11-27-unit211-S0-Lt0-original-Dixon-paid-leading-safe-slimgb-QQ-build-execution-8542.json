@@ -1,0 +1,77 @@
+{
+  "schema": "r150-Lt0-original-Dixon-paid-leading-safe-slimgb-build-v1",
+  "sourcePath": "notes/2026-11-27-unit211-S0-Lt0-original-Dixon-paid-leading-safe-slimgb-QQ-8542.py",
+  "sourceSha256": "dc2d1c5bdd4a2ad3558d96f4102f975326a73cb6f249b5814c68b79d13a9c385",
+  "sourceBytes": 27220,
+  "pythonVersion": "3.12.14",
+  "pythonFlintVersion": "0.9.0",
+  "command": "PYTHONPATH=/workspace/scratch/8542378f2b73/isp_pydeps python topics/invariant-subspace-problem/notes/2026-11-27-unit211-S0-Lt0-original-Dixon-paid-leading-safe-slimgb-QQ-8542.py --build-only",
+  "exitCode": 0,
+  "stdoutSha256": "fefa59fd2fbee1e52405b2957b3840d9d32115eae23fb8f26fc059ed24c649ef",
+  "stdoutBytes": 18371,
+  "lastStage": {
+    "stage": "build_only_complete",
+    "allOriginalTracesAndMinorsVerified": true,
+    "claimExcluded": false,
+    "seconds": 3.998890255999868
+  },
+  "Dixon": {
+    "stage": "original_Dixon_new_necessary_equation",
+    "degrees": [
+      25,
+      20,
+      0,
+      0,
+      8,
+      0,
+      0
+    ],
+    "terms": 1581,
+    "allOriginalMeanAndDixonRowCombinationsVerified": true,
+    "sha256": "94a6a89bd8c89680ef0d3af24e348e5e32a1772e43f4a95d6b8f71114225a301",
+    "claimExcluded": false,
+    "seconds": 3.970113498000501
+  },
+  "generatedScript": {
+    "stage": "original_minor_QQ_input_built",
+    "variables": 4,
+    "nonSaturationGenerators": 21,
+    "newOriginalDixonConstraint": true,
+    "newPaidCurves": [
+      "2e^2-ek+2",
+      "B44"
+    ],
+    "scriptBytes": 1476118,
+    "scriptSha256": "5088e291edcd168e852f93c8d4c7127203bd65c6d25d44a7cb1bf8641cb5fc2e",
+    "coefficientDenominatorChecks": 177,
+    "saturationAtoms": [
+      "u-1",
+      "Q/(u-1)",
+      "u",
+      "ell*k",
+      "bc",
+      "closed_half_weight",
+      "T0",
+      "distinct_p_q",
+      "closed_base_zero",
+      "closed_consistency_line",
+      "closed_zero_singleton_pairing",
+      "closed_quadratic_invariant_curve",
+      "closed_original_v_leading_curve"
+    ],
+    "smokeInIndependentProcess": true,
+    "smokeTimeoutSeconds": 45,
+    "smokeScriptSha256": "45fdb64c032d31a0cd29a8b29f0fef094e8763e13b66a1aed0923b78ed82faaf",
+    "smokeAlgorithm": "std",
+    "fullAlgorithm": "slimgb",
+    "noModstdLibraryOrParallelTasks": true,
+    "zeroPairingPaidBy": "2026-11-27-unit211-S0-Lt0-zero-singleton-pairing-return-8542.py",
+    "consistencyLinePaidBy": "2026-11-27-unit211-S0-Lt0-mean-consistency-degenerate-line-return-8542.py",
+    "omittedEtaDependentUnitsEnlargeNecessaryVariety": true,
+    "sourceSha256": "dc2d1c5bdd4a2ad3558d96f4102f975326a73cb6f249b5814c68b79d13a9c385",
+    "claimExcluded": false,
+    "seconds": 3.998824506999881
+  },
+  "singularActuallyRun": false,
+  "claimExcluded": false
+}

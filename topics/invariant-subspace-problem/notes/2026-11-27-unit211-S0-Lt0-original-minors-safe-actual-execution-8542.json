@@ -1,0 +1,103 @@
+{
+  "schema": "r150-Lt0-original-minors-safe-actual-v1",
+  "runId": 45894728421,
+  "jobId": 140165703666,
+  "sourcePath": "notes/2026-11-27-unit211-S0-Lt0-original-Cramer-minors-safe-smoke-slimgb-QQ-8542.py",
+  "actualDriverReceipt": {
+    "elapsed_seconds": 1204.387020347,
+    "max_child_rss_kib": 8216876,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "5b3535c1709986b0e692936245bebd82cfeeb9aa",
+        "before": "f11bf39070cebc577603022824ddccdd9d7cd4fe",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-26T20:58:03.569384+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "45894728421",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "f11bf39070cebc577603022824ddccdd9d7cd4fe",
+    "source_exit_code": 1,
+    "source_git_blob": "425cd2f9bdf81aaa590ceb2fc3eb579f90f6a01a",
+    "source_sha256": "6cb8a264fd87d7020c868784d76e01c2b6283d655f5c8fec92292870765007c2",
+    "stdout_bytes": 18766,
+    "stdout_sha256": "ee4a901ae4587feb4d3360c3e490880c34dd21f5646aa4966d72d9a10474d4f1",
+    "stop_reason": null
+  },
+  "actualStages": [
+    {
+      "stage": "original_minor_QQ_input_built",
+      "variables": 4,
+      "nonSaturationGenerators": 20,
+      "scriptBytes": 1425935,
+      "scriptSha256": "5d20ee9a067136fdc2db4b4ca634b9e27c7769ee062cbd703102c6b4c7879dd8",
+      "coefficientDenominatorChecks": 114,
+      "saturationAtoms": [
+        "u-1",
+        "Q/(u-1)",
+        "u",
+        "ell*k",
+        "bc",
+        "closed_half_weight",
+        "T0",
+        "distinct_p_q",
+        "closed_base_zero",
+        "closed_consistency_line",
+        "closed_zero_singleton_pairing"
+      ],
+      "smokeInIndependentProcess": true,
+      "smokeTimeoutSeconds": 45,
+      "smokeScriptSha256": "45fdb64c032d31a0cd29a8b29f0fef094e8763e13b66a1aed0923b78ed82faaf",
+      "smokeAlgorithm": "std",
+      "fullAlgorithm": "slimgb",
+      "noModstdLibraryOrParallelTasks": true,
+      "zeroPairingPaidBy": "2026-11-27-unit211-S0-Lt0-zero-singleton-pairing-return-8542.py",
+      "consistencyLinePaidBy": "2026-11-27-unit211-S0-Lt0-mean-consistency-degenerate-line-return-8542.py",
+      "omittedEtaDependentUnitsEnlargeNecessaryVariety": true,
+      "sourceSha256": "6cb8a264fd87d7020c868784d76e01c2b6283d655f5c8fec92292870765007c2",
+      "claimExcluded": false,
+      "seconds": 4.249942697999998
+    },
+    {
+      "stage": "independent_std_smoke_return",
+      "returncode": 0,
+      "smokeVerified": true,
+      "singularDiagnosticLines": 0,
+      "stdoutSha256": "d5a1fa5529b83ebf302c540e3a5e298e7ecb2ce479c5054004d05d3187304621",
+      "stdoutBytes": 32,
+      "text": "ISP_LT0_SAFE_STD_SMOKE_VERIFIED\n",
+      "fullInputWritten": false,
+      "fullAlgorithmStarted": false,
+      "claimExcluded": false,
+      "seconds": 4.2666845409999965
+    },
+    {
+      "stage": "full_slimgb_start_after_verified_independent_smoke",
+      "fullScriptSha256": "5d20ee9a067136fdc2db4b4ca634b9e27c7769ee062cbd703102c6b4c7879dd8",
+      "smokeVerified": true,
+      "timeoutSeconds": 1200,
+      "addressSpaceBytes": 8589934592,
+      "claimExcluded": false,
+      "seconds": 4.268670970000002
+    },
+    {
+      "stage": "actual_minor_QQ_timeout",
+      "timeoutSeconds": 1200,
+      "stdoutSha256": "8394fda1fc297d379513ff54a074946b095bd7138d2df852217dfd71c428dfd1",
+      "stdoutBytes": 37,
+      "text": "ISP_LT0_BEGIN_ORIGINAL_MINOR_QQ_LIFT\n",
+      "claimExcluded": false,
+      "seconds": 1204.2822813799999
+    }
+  ],
+  "downloadedLogSha256": "97eb0cb9bf49830a8a96265c9e32c614647df23c82e12ca2ef0e592b9b0cac50",
+  "claimExcluded": false,
+  "ordinaryISPClaim": false
+}

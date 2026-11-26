@@ -135,3 +135,11 @@ b03c51376eb3a972da6bbb05a523b1bacaf6290b81bb06eea094bd98df4f17d0
 [新自含安全入口](../notes/2026-11-27-unit211-S0-Lt0-original-Cramer-minors-safe-smoke-slimgb-QQ-8542.py)的 SHA 为 `6cb8a264fd87d7020c868784d76e01c2b6283d655f5c8fec92292870765007c2`。Python 先独立运行 45 秒/8 GiB 限额的 `std` 小单位进程，必须退出0、准确打印回乘通过且没有 Singular 错误诊断；未通过时完整输入文件不会写出，大门不会启动。通过后才运行完整 `slimgb`，1200 秒/8 GiB，仍必须真实 `matrix(I)*cert=[1]` 且退出0。
 
 [实际 build-only 回执](../notes/2026-11-27-unit211-S0-Lt0-original-Cramer-minors-safe-smoke-slimgb-QQ-build-execution-8542.json)为 exit0、3.245212 秒。完整输入 1,425,935 字节、SHA `5d20ee9a067136fdc2db4b4ca634b9e27c7769ee062cbd703102c6b4c7879dd8`，只在临时目录重算。专用 workflow `invariant-subspace-Lt0-original-minors-safe-8542.yml` 固定源提交/Git blob 并复用实际 pull/规则差异驱动；运行回执另记。此时仍未判整个 Lt0 为空。
+
+## 7. 独立 smoke 已通过，原四变量门实际超时；转入新增 Dixon 约束
+
+run `45894728421` / job `140165703666` 的[真实回执](../notes/2026-11-27-unit211-S0-Lt0-original-minors-safe-actual-execution-8542.json)确认：独立 `std` 小进程退出0、32字节准确通过标志、无 Singular 诊断；之后才启动完整 `slimgb`。完整门实际1200秒到时，仅输出 BEGIN 标志，无单位证书。driver 1204.387020秒、峰值RSS 8216876 KiB、source exit1，输入 SHA 与冻结的 `6cb8a264...` 源相符。这次与旧七变量的 smoke 崩溃明确区分；不重跑同一四变量输入。
+
+后续已独立证明[原v首项零面排除](R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-original-v-leading-zero-exclusion.md)，并在其中逐项验证原三 mean 的 Dixon 组合。新门实质增加 D8 必要约束及已闭 Omega、B44 单位；并非只更改时间或变量顺序。
+
+[新增原 Dixon 安全源](../notes/2026-11-27-unit211-S0-Lt0-original-Dixon-paid-leading-safe-slimgb-QQ-8542.py) SHA为 `dc2d1c5bdd4a2ad3558d96f4102f975326a73cb6f249b5814c68b79d13a9c385`。[实际 build 回执](../notes/2026-11-27-unit211-S0-Lt0-original-Dixon-paid-leading-safe-slimgb-QQ-build-execution-8542.json)为exit0、3.998890秒：177个分母、Dixon系数原组合和全部子式/首项分解通过。21条原必要式加一个饱和，生成输入1,476,118字节、SHA `5088e291edcd168e852f93c8d4c7127203bd65c6d25d44a7cb1bf8641cb5fc2e`。继续独立45秒std小证书、1200秒slimgb及真实原乘回；专用 `invariant-subspace-Lt0-Dixon-paid-leading-8542.yml` 固定该新源，实际结论另记。
