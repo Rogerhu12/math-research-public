@@ -7,7 +7,7 @@
 
 完整连通闭C2嵌入族、共同g和固定握持开区域；全曲面D下held/D≥.05、含反射δE>0、全时reach/D≥.03、全域全时metric≤1e−6，并支付同一g/全部物理参数下真加密到求解容差及可复现完整网格。基础之后继续held/D≥.2、δE/D≥.05或严格存在。本题尚未完成。
 
-- 根/课题README完整读于 `f0548477576caa2373d1626227a284ccfa9767d0`；接手真实pull在05:16UTC成功。最近已读公开提交 `6a651d271e5c5b8f7f42e7f2918568720318db8c`（2026-11-26 08:57 UTC真实pull/rebase后，双README逐差均无变化）。每次真实pull后核两README差异，至少每小时；有变只读差异立即执行。本轮各次均无差异。
+- 根/课题README完整读于 `f0548477576caa2373d1626227a284ccfa9767d0`；接手真实pull在05:16UTC成功。最近已读公开提交 `464b4d26630766d3fb8b8f120dd810030da2c96a`（2026-11-26 09:00 UTC真实pull/rebase后，双README逐差均无变化）。每次真实pull后核两README差异，至少每小时；有变只读差异立即执行。本轮各次均无差异。
 - 私库根规矩完整读；QUEUE认领已推 `c7785184d0d9c503852fb2137e9e2c091221d080`，状态进行中（本会话/2026-11-26）。认领推拒均即时pull/rebase再推成功。
 - 每结论分条commit/push；推拒立即pull --rebase循环，不强推、不amend已发布提交。完整证明直接登记；不回到旧独审/冻结手续。可重算数组不进Git/Release/artifact，只存源码、参数、run/hash。单MD<100KB、H<10KB、课题<200MB；不写根LOG。令牌只在命令进程环境。
 - 部分克隆 `/tmp/visible-flex-6a65e705/math-research-public`；同级 `solver-work/geometry-work/exact-work` 保存raw。/workspace空间不足，勿将大数组放回。05:47旧环境/tmp丢失，05:54已重新部分克隆和冷重生，不借旧失联数组身份。
@@ -19,7 +19,7 @@
 - R114原有限材料同g metric≤1.25668e−9、reach/D>.0312033、held/D>.0527832、含反射δE>0；不是无限存在或无限C2收敛。R216真实Cartesian X+W完整几何传递给metric粗界4.4e−8，不能继承R114更尖峰界。README第5条及强幅度仍欠。
 - R213完整切向兼容/弱应力/法向方程；R214切向宽度必要门槛当前已越过，不是剩余误差的不可能性。R218精确flat全周期normal Green/两完整矩；切向holonomy及完整端口独立，有限投影不是全频逆。
 - R215/R217帽窗口保留；**R219**低宽帽c=.79/h=.86，要求完整核Aq≥1.4、Z∈[.40,.53]、W≤.895、球半径≤1.6、held≥.64、reach≥.097及全部接口。平移全棱锥/8极点/22有理预算已证，条件满足时D≤3.2、含反射δE≥.1609等强比例成立。数值guide用Z[.41,.52]；核心全域metric、非局部reach、全时族仍须实付。
-- R220原M12同g非圆精确affine参考，8192有理连续角盒给D>.8288、U_t>.7893、.5725<κ<2.6961及Green常数；[整原up plateau](notes/2026-11-26-6a65-m12-whole-up-plateau.md)D>.7814/κ<2.7604。两端仍未接。旧Xss Horner 30→20已[更正并真重跑](notes/2026-11-26-6a65-r220-old-jet-horner-correction.md)，参考和整数行流不变。
+- R220原M12同g精确affine参考/8192有理角盒已付；[整原up plateau](notes/2026-11-26-6a65-m12-whole-up-plateau.md)D>.7814/κ<2.7604。两端仍未接。旧Xss Horner 30→20已[更正并真重跑](notes/2026-11-26-6a65-r220-old-jet-horner-correction.md)，参考和整数行流不变。
 - [文献核查](notes/2026-11-26-6a65-current-literature.md)没有现成定量宏观完整输入；Hu稿未知小参数不代付本题比例。邻题[R571实际返回](notes/2026-11-26-6a65-solver-r571-real-return-read.md)只是新显式连接/线性端口：C/A≈−3.48e−5、差分导数未稳、单位core二jets巨大，有限分支和全点对reach未构造。
 
 ## 实际主线与当前原件
@@ -30,11 +30,11 @@
 
 **新的完整几何输入。** 已登记的R137 focus、双Hermite、三条正K Cauchy失败及右长度基线不重复，见[完整warm/历史](notes/2026-11-26-6a65-geometry-complete-unit-t-warm.md)。长warm02右面积谷导致κ1309；[全1788列拟合](notes/2026-11-26-6a65-cauchy-global-fit-and-real-baseline.md)κ14332；[首LM](notes/2026-11-26-6a65-cauchy-first-lm-curvature-dominates.md)总目标接受但metric1.455→14.09，未采用。
 
-[长前缀旧强后段移植](notes/2026-11-26-6a65-geometry-cauchy-strong-transplant.md)含完整C2接口/单调时钟/高度/弧长两jets，96×128表metric2.460/κ50.587/held.64515。原件 `r137-transplant04-longprefix-samples.npz` SHA `8843c2e3909764ad254fe813ff210e48dd443d959bb9c6cb324136443420a3e5`。[全列拟合和另名tau1e6启动目标](notes/2026-11-26-6a65-transplant-full-fit-and-startup-objective.md)真0，metric2.483/κ51.876；三处全列方向FD真0。首LM 153.1895s被SIGKILL(-9)，无normal/末态/接受；原因未证，非数学拒绝。
+[长前缀旧强后段移植](notes/2026-11-26-6a65-geometry-cauchy-strong-transplant.md)含完整C2接口/单调时钟/高度/弧长两jets，96×128表metric2.460/κ50.587/held.64515。原件及完整hash在该note。[全列拟合和另名tau1e6启动目标](notes/2026-11-26-6a65-transplant-full-fit-and-startup-objective.md)真0，metric2.483/κ51.876；三处全列方向FD真0。首LM 153.1895s被SIGKILL(-9)，无normal/末态/接受；原因未证，非数学拒绝。
 
 [短前缀完整重算](notes/2026-11-26-6a65-geometry-short-cauchy-transplant.md)已真0：191模/768角，明确新S9^5/S9^6参考和真实C2端口；强制尺度归一导致额外曲率，改用[真实周长新g](notes/2026-11-26-6a65-geometry-transplant-natural-perimeter-metric.md)，保留raw几何集合和曲率；E/F并未自动支付。
 
-[自然周长完整rho拟合/value](notes/2026-11-26-6a65-perimeter-full-rho-fit-baseline.md)：短ramp/coast=.06/.02、v=.05、右长.75、旧入口.18；全1788列J38/K11/N128，完整rho一jet拟合maxcoef.08995033。首value被SIGKILL，无末态；同源码/输入128MiB heap监控重试真0，115.055s、RSS峰87040KiB，总R².90233/metric.885019（曲率行.887552）/κ28.74355/held.625658。`cauchy-perimeter-fit01-value-monitored-baseline.json` SHA `089f8be803349b00d6caa3ee3450e4ee72fedd9a84bc279baad5fa8d46514f42`。g仍可设计，非固定g收敛，尚无normal/接受。正在消费更早入口及纯物理重参数，必须再完整fit/value。
+[自然周长完整rho拟合/value](notes/2026-11-26-6a65-perimeter-full-rho-fit-baseline.md)：短ramp/coast=.06/.02、v=.05、右长.75、旧入口.18；全1788列J38/K11/N128，完整rho一jet拟合maxcoef.08995033。首value被SIGKILL，无末态；同源码/输入128MiB heap监控重试真0，115.055s、RSS峰87040KiB，总R².90233/metric.885019（曲率行.887552）/κ28.74355/held.625658。`cauchy-perimeter-fit01-value-monitored-baseline.json` SHA `089f8be803349b00d6caa3ee3450e4ee72fedd9a84bc279baad5fa8d46514f42`。g仍可设计，非固定g收敛，尚无normal/接受。[更早.14入口](notes/2026-11-26-6a65-geometry-earlier-port-natural-metric.md)已真导出，metric.595298/κ17.40278/held.626390；纯物理重参数正在重新完整fit/value，不能借raw观察冒有限模型值。
 
 ## 公共CI实际状态与继续
 
