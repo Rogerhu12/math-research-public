@@ -5,6 +5,8 @@
 
 ## 新增结论
 
+- [R246：完整二阶端口的极坐标正高度连接](results/R246-polar-positive-height-complete-port-connector.md)（2026-11-26）：给独立固定g下准确C2端口变换、正Bernstein高度积分重分配、完整六jets和条件自嵌入；显式面积/Gram下界，R205右端全角b30≥(49519/49600)zs≥0已付。左端/完整时钟假设仍待证，不冒等距或全闭reach。
+
 - [R245：第二热点h487的实际同g改善及完整连续几何](results/R245-actual-h487-refinement-and-continuous-geometry.md)（2026-11-26）：run45833090043全部11stage/STL/R236真0，独立超集峰4.21683e−9→9.83953e−10；全域全时metric<8.211825e−7、reach/D>.03109495、held/D>.05278322、含反射δE>0。LSMR800/stop7，连续证明界并非单调，第5条/强幅度继续。
 
 - [R244：完整物理正规带及保原LM的精确谱界](results/R244-complete-radial-normal-preconditioning-spectrum.md)（2026-11-26）：保全部跨角/跨Cartesian项，以P=JᵀJ+ηS预条件原λS，增广正规谱在[min(1,λ/η),max(1,λ/η)]；λ=η精确白化，λ=0不借正下界。完整实现和新91非零列核均已给出，未称生产非线性接受。
