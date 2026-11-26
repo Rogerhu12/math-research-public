@@ -1,0 +1,91 @@
+{
+  "schema": "r581-c2-r578-local-ruling-20261126-reconstructed-v1",
+  "repository": "Rogerhu12/math-research-public",
+  "queue_session": "Astra-new-mechanism-0105020f-20261126",
+  "public_rules_read_commit": "25f7d075f58dea06ab9ce65f310b7e9053f7436a",
+  "private_rules_read_commit": "3cfecb87332fb3ffcd5f049085559cf3310ac2d5",
+  "expected_readme_blobs": {
+    "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+    "topics/visible-flex-new-mechanism/README.md": "d0432faff569c8e9af7ed4809847e12880976c11"
+  },
+  "expected_private_readme_blobs": {
+    "README.md": "5ba164843b1f5802184178a82d786264404873a3"
+  },
+  "entry_point": "topics/visible-flex-new-mechanism/scripts/r530_c2_r578_evaluator_agent.py",
+  "workflow": ".github/workflows/visible-r530-c2-r578-20261126.yml",
+  "proof_interface": "topics/visible-flex-new-mechanism/results/R581-exact-c2-local-ruling-with-full-history-chain.md",
+  "runtime": {
+    "python": "3.12.14",
+    "packages": {
+      "numpy": "2.3.5",
+      "scipy": "1.17.0",
+      "sympy": "1.14.0",
+      "mpmath": "1.3.0"
+    },
+    "checkout_action": "11d5960a326750d5838078e36cf38b85af677262",
+    "setup_python_action": "a26af69be951a213d495a4c3e4e4022e16d87065"
+  },
+  "common_parameters": {
+    "orders": "48,96,192",
+    "gap_order": 8,
+    "center": 5
+  },
+  "lanes": {
+    "r581-c2-r578": {}
+  },
+  "scope": {
+    "fixed_model": "R578 actual disjoint 6 orthogonal transforms by 6 positive algebraic nodes; 32 micro-packets per block",
+    "actual_width": "2e-6",
+    "whole_block_envelope_radius": "0.000125",
+    "fixed_amplitude": "width^(7/4)/256, independent of quadrature order",
+    "positive_node_graph": "roots of P6+tau P5, tau=(-5,-3,-1,1,3,5)/6; exact positive uniform moments 0..10",
+    "geometry": [
+      1.17,
+      0.23,
+      0.08,
+      0.11,
+      -0.31
+    ],
+    "acceleration_cases": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "local_scope": "A=0 complete original local ruling R, including true M_raw chain and all second whole-block right tails",
+    "exact_c2_rewrite": "R581 highest t^2 identity removed only after whole-library averaging, followed by primitive in r then original D0",
+    "weighted_integral_identity": "Arrays f/g/raw and true whole-block quadratic tails omit each physical w^(1/4). All current local ruling readouts are homogeneous quartic, so integral extracts w exactly. This is not a general low-degree spatial weight; accumulated global t and nu must never be weighted again.",
+    "full_history_rhs_completed": false,
+    "raw_direct": "one-time conditioning diagnostic of the new representation only; not a repeated future gate",
+    "acceleration_columns": "subtract formal C2 coefficient polynomials before quadrature, then compare original R521 positive integral columns",
+    "source_reconstructed_after_executor_loss": true,
+    "unpublished_previous_draft_sha256": "d3d46272feaeaf31b0f712f0eac207bcb8f90406434295048a056d03813c1838",
+    "reconstruction_changes": "Same reviewed formulas, model, and evaluation cases. Rebuilt scalar/polynomial front matter, formatting, explicit homogeneous-weight comments, and source provenance. New actual hash is bound below.",
+    "local_execution": "No local scientific execution of this reconstructed source; only text and SHA-256 bookkeeping.",
+    "rule_binding": "README contents fetched with GitHub connector after executor loss; scientific runner performs actual public and private git pull and checks bound blobs before science.",
+    "ode_integration_or_optimization": false,
+    "finite_root_claim": false,
+    "response_rank_claim": false,
+    "README_completion_claim": false,
+    "scientific_execution": "this public Actions workflow only",
+    "maximum_parallel_jobs": 1,
+    "job_timeout_minutes": 45,
+    "original_stdout_only": true,
+    "raw_arrays_artifacts_releases_or_git_writes": false
+  },
+  "source_sha256": {
+    "topics/visible-flex-new-mechanism/scripts/r530_c2_r578_evaluator_agent.py": "68a6ed1d747cb51520639003d560227a6acb859e0becab1af08de55aa2c5adc7",
+    "topics/visible-flex-new-mechanism/scripts/r530_compact_history_v2_agent.py": "2ca4b47c390d9e59c8e5f02866eba911dc2295e890ee403e151b56b44bd36659",
+    "topics/visible-flex-new-mechanism/scripts/run_inverse_rotational_metric_20261126.py": "a97334fb7004ce750c0c949469be2db21ca7a187e53b48032dba2f330cf5e8ae",
+    ".github/workflows/visible-r530-c2-r578-20261126.yml": "55f0dd5989f300eaec0c4ac1f7f1befc5e2e1279af86c176df056c115196fedc",
+    "topics/visible-flex-new-mechanism/results/R581-exact-c2-local-ruling-with-full-history-chain.md": "caa50a611300a6dfe8f8d90b03862dc4664a46db8374301060ec976619823094"
+  }
+}
