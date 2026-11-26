@@ -341,3 +341,7 @@
 ### 2026-11-27 01:40 Asia/Taipei — 原f_N严格新窗口请求
 - 建立[方法](notes/2026-11-27-original-scalar-obstruction-new-window-method.md)、consumer与请求，复用R698已证明算法，仅200000<p≤500000、p2/5mod9；新f_N零才作原z复核，完整前缀与预算分别报告。数学只在公开Actions，旧窗不重算、raw只在runner scratch。
 - 新增课题外共享文件 `.github/workflows/serre-scalar-obstruction-new-window.yml`，用于这一授权公开计算；单job/1200秒数学预算，保存脚本参数和小回执，不上传artifact/Release。推送触发后根继续纸证，不等待CI结束。
+
+### 2026-11-27 01:48 Asia/Taipei — R1048 实际AS primitive与核critical-value范数
+- [R1048](results/R1048-original-AS-primitive-and-kernel-critical-value-norm.md)：原r2实际AS全函数给d(U/h²)=−CξT₀db/(12r^(ℓ+1)A³)。规范H=r^(ℓ+1)(AT₀′−T₀A′)满足H′=h²；原核c₀=−H(b^p)/r modA。canonical J=P/h²及全fine的p次幂差逐点res为零，完整范数化为B(c₀,c₀)=Res∞H^p(h′/h)Pdb。真p-block h²=G₀+b^pG₁给a=[b^(p−3)]h²单位、P=G₁/a；K=−2H₁/a及Wronskian保全源。原f_N²=A(1)²H₀(1)/(18a)，但范数/端点非零仍开，不扩r8。
+- 原full-six权/KS相位、完整Cartier主部、fine12、p次幂每处res、canonical J次数与真Hasse² p-block均逐式纸证；root/global全文核准，未将leading单位冒高residue单位。公开新窗[45869953028](https://github.com/Rogerhu12/math-research-public/actions/runs/45869953028)已运行；无本地数学执行，继续原residue与真实CM normal。

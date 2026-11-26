@@ -68,7 +68,7 @@ R964逆character控制h_(i+2)而非fi；R966原K0源及Π4∇²只消费，源�
 
 ## O2：完整原超奇异迹、真正CM packet及近顶unit系数
 
-[R1041](results/R1041-original-r2-bare-coefficient-and-Hodge-kernel-norm.md)：原r2完整高权SS迹准确S^p=−36ρ B(c₀,c₀)，ρ³=2；故原bare c_(p−2)±单位 iff 实际一维ker Q的B范数非零。实际whole-space Cartier核由LT₀=A，保原CM oldform尺度ξ^(p+1)=ρ/24、细模度12及全部额外SS零贡献；d₁与12不混同。等价B范数=−(1/2)[b^(d−1)](c₀T₀ modA)。核维一与B完美不证明自配对非零，也不替代K_Q或r8。
+[R1041](results/R1041-original-r2-bare-coefficient-and-Hodge-kernel-norm.md)/[R1048](results/R1048-original-AS-primitive-and-kernel-critical-value-norm.md)：原r2 S^p=−36ρB(c₀,c₀)，保ξ^(p+1)=ρ/24、fine12≠d₁。原r2实际AS全函数给d(U/h²)=−CξT₀db/(12r^(ℓ+1)A³)。规范H=r^(ℓ+1)(AT₀′−T₀A′)满足H′=h²；原核c₀=−H(b^p)/r modA。canonical J=P/h²及全fine的p次幂差逐点res为零，完整范数化为B(c₀,c₀)=Res∞H^p(h′/h)Pdb。真p-block h²=G₀+b^pG₁给a=[b^(p−3)]h²单位、P=G₁/a；K=−2H₁/a及Wronskian保全源。原f_N²=A(1)²H₀(1)/(18a)，但范数/端点非零仍开，不扩r8。
 
 [R1034](results/R1034-original-bare-coefficient-finite-linearization.md)：原两行bare准确化为单位×[z^m](N/P)；有限递推仅用模z^ℓ Wronskian，保全局K缺陷及原相位。r2给显式F₁、degN=3k+1<degP与完整分母根留数和；r8须保N/P多项式部分。仍须证原总系数非零，不能从单个总留数零冒各局部留数零。
 

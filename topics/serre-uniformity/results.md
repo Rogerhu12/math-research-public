@@ -8,6 +8,8 @@
 
 ## 新增结论（2026-11-27）
 
+- **R1048（已证明）**：[R1048](results/R1048-original-AS-primitive-and-kernel-critical-value-norm.md)：原r2实际AS全函数给d(U/h²)=−CξT₀db/(12r^(ℓ+1)A³)。规范H=r^(ℓ+1)(AT₀′−T₀A′)满足H′=h²；原核c₀=−H(b^p)/r modA。canonical J=P/h²及全fine的p次幂差逐点res为零，完整范数化为B(c₀,c₀)=Res∞H^p(h′/h)Pdb。真p-block h²=G₀+b^pG₁给a=[b^(p−3)]h²单位、P=G₁/a；K=−2H₁/a及Wronskian保全源。原f_N²=A(1)²H₀(1)/(18a)，但范数/端点非零仍开，不扩r8。
+
 - **R1047（已证明）**：[R1047](results/R1047-original-MW-saturated-profile-and-common-zero-bound.md)：两行原新部的全部实际MW消去格Σ到前n₀=(p−2)/3个CM系数为饱和单射；任一本原行保M1。若r_ann=rankΣ≥1，原单位闭盘的公共零点总重数≤n₀−r_ann+1，故原有理点≤n₀、非中心≤n₀−1。以整Tate除法保全部尾，使用真实全MW消去，不恢复旧秩零商。最低单位/非中心根排除及O0仍开。
 
 - **R1046（已证明）**：[R1046](results/R1046-original-p5-complete-CM-flag-and-MW-nonzero-reduction.md)：原p5 Raynaud最低型的全部w系数也给同一Cauchy旗标，n₀=4g+1、rank n₀、核维2g。双中心全阶零residue、CM双∞最高(±1)^k、full分歧12与所有normal/其它CM返回/全纯项逐项支付，u_k同R1044原单位。实际c=DQv非零且与v正交，R1045全p纯代数lemma排完整contact；p>C_*原MW消去后约化非零、准确M=1。两行均未证明最低w单位项或正赋值深盘只有中心零点，O0全覆盖仍开。

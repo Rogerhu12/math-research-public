@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。本轮已部分克隆并真实pull main，读两README/H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则读至36cf1ed2。不重做已登记结论或窗口。
 
-**公开两README已读提交：e233168699cfa94dc7f5fd0ea9b381a667408250**（2026-11-27 01:42 Asia/Taipei；真实git pull后两README无差异）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
+**公开两README已读提交：a49103e15ad2e90fc6ed649722d98d15a7d85d8b**（2026-11-27 01:48 Asia/Taipei；真实git pull后两README无差异）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
 
 执行宿主16:44 UTC恢复；原checkout不在新宿主，已重新blob:none/depth1/sparse部分克隆并真实pull --rebase，改回终端git发布。路径/workspace/scratch/24b8836b87e3/math-research-public；仅检出本课题文本。此前断连按根规矩8小文本同步，未force；以后并发拒绝立即pull --rebase/读规则差异再推至成功。令牌只在CLI，不入文件/提交。根维护main/H/open/index/log，子研究写独立scratch数学稿；结论写完立即推。19:52纠正：global_route曾违规用会话V8做数学探索，已叫停；范围、时长及独立纸核见[执行偏差记录](notes/2026-11-26-execution-path-deviation-and-correction.md)，不得以其数字作证明或合规窗口。
 
@@ -44,13 +44,13 @@ R1018原形式Fm、R1019实际A=T5²/Z=(T31−32)T5²保形式Fm及杀CM、R1021
 
 [R1031](results/R1031-original-fN-and-actual-Faber-truncation-central-derivative.md)：全p=6N+5≥41，原f_N=0 iff R′(1/2)=0，R=[P_d(1−2z)²]≤d、d=(p−2)/3；真实AS/Hasse²/二次商与所有单位尺度已成，forcing=−(d+1)³(C_AS/9)z^d。中心导数单位性仍开，forcing单位不替代。
 
-R1025/27原方向符号与绝对常平方已成：D_p=1、4η⁶C_N²=1、Σa_i²a_(N−i)²=−1/4。R1012/17/20未经筛选H全方向单位/divided差/完整scalar已成；不能代原primitive/Legendre同h或bare。
+R1012/16/17/20/25/27未经筛选的完整theta分布、常平方1与全方向单位已成；原六标记/标量均保各结果，不能代原primitive/Legendre同h或bare。
 
 原h=6i+7、i+j=N−1须同一本原h使P_(h−1)(1/s)fi gj≠0；原Norm/两CM权/相位不换。R949/954/957–959共同粗CM因子及R968真列保留。R971全p full-span与R1006全p G稳定已否；特定A/E4包含仍开。R996/999只给55∤p+1时filtered V≠0；R1009粗CM阶≤4不代零阶mark。R995/997/1000 mixed heat、R1001 norm7源、R1002自由jet均只消费。R706旧5992 f_N单位/5991 g_N单位（唯一g零137147）不重算。完整角色/所有例外与runs见open及逐字前态。
 
 ## O2：原高近p值
 
-[R1041](results/R1041-original-r2-bare-coefficient-and-Hodge-kernel-norm.md)：原r2完整高权SS迹准确S^p=−36ρ B(c₀,c₀)，ρ³=2；故原bare c_(p−2)±单位 iff 实际一维ker Q的B范数非零。实际whole-space Cartier核由LT₀=A，保原CM oldform尺度ξ^(p+1)=ρ/24、细模度12及全部额外SS零贡献；d₁与12不混同。等价B范数=−(1/2)[b^(d−1)](c₀T₀ modA)。核维一与B完美不证明自配对非零，也不替代K_Q或r8。
+[R1041](results/R1041-original-r2-bare-coefficient-and-Hodge-kernel-norm.md)/[R1048](results/R1048-original-AS-primitive-and-kernel-critical-value-norm.md)：原r2 S^p=−36ρB(c₀,c₀)，保ξnormρ/24、fine12≠d₁。原AS全函数给ν primitive；H′=h²，c₀=−H(b^p)/r modA，全部p次幂歧义逐点res0。canonical J=P/h²，P=G₁/a，a=[b^(p−3)]h²单位；范数=Res∞H^p(h′/h)Pdb。H=H₀+b^pH₁，K=−2H₁/a给原f_N²=A(1)²H₀(1)/(18a)。norm/端点仍开，不扩r8。
 
 R1034原两行bare=单位×[z^m](N/P)与有限递推已成：r2真余式/全分母根和，r8须留多项式部分；完整K共振缺陷不能删。r2另有R1041范数桥，两行总系数单位仍开。
 
@@ -72,4 +72,4 @@ R696早已证明同一全局Φ候选Ω_actual={0}，R832已消费；不重做、
 
 当前并行：两行实际MW后M1与原盘点数界已成，继续最低w单位/正赋值深盘零点。原最高K_Q、R1041核范数、R1043端点及同h筛选各有独立读数，不能混同；O0完整全局覆盖仍未关。子问题完成即接open其余项，真正达README完成标准才收尾。
 
-进行中公开CI：[新f_N反例搜索方法](notes/2026-11-27-original-scalar-obstruction-new-window-method.md)，严格200000<p≤500000、p2/5mod9；执行id scalar-obstruction-20261127-v1，首个f_N零以原z核准，1200秒只作本次算术预算。旧窗不重算；run回执待读取，纸面继续。
+进行中公开CI：[45869953028](https://github.com/Rogerhu12/math-research-public/actions/runs/45869953028)，源30cecd32；严格200000<p≤500000、p2/5mod9原f_N。1200秒单次预算/首零原z核准；旧窗不重算，待读完成前缀与hash，[方法](notes/2026-11-27-original-scalar-obstruction-new-window-method.md)。纸面持续。
