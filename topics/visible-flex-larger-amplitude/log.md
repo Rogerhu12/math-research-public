@@ -520,3 +520,8 @@ PCG完整单准入f3dd现刊完整22356B wrapper、b4b291双child全参数、f33
 ### 2026-11-26 22:53:34 UTC — Astra-larger-e4e2a2bf-20261126
 
 第二十四次R87九恢复点普通移出2,144,865B，与完整72272B级小台账/说明同commit；全部十一小源与二十四原真实输入（五CLI、head主包、18m2/m4 anchors）、全命令/数值参数/原资源/原R87范围及固定恢复5990361/8ef均闭合。根另核所有小源与二十小输入SHA、所有固定Git身份和九当前文件尺寸/blob；大raw未整读或新算全SHA，代理仅受限prefix/suffix取已有config和紧凑结论，全部columns/46初斜率与比较数组未重包。原证明/主包/cell011与当前05/06及新源全保，不重写历史或重宣R87。只释放当前树容量以持续完整新构造/真实Actions，未科学执行。
+
+
+### 2026-11-26 22:57:14 UTC — Astra-larger-e4e2a2bf-20261126
+
+R715完整八源与十历史独立入口：完整helper a8e/normal b259/geometry6536/driver92233/launcher68a6/reader7fc2，两纯文本再生器3d12/f05f及db99完整ready和说明现已刊。冻结原初点同Torch端点，逐积分节点先减reference；所有closure/target/两角jet一致中心化，物理F/Fs/Fphi/Fss/Fsphi/Fphiphi保完整当前hΔ及全部参数导数。原41 normal/24 geometry方法及driver完整9b05科学loop不变，全部27sourcepins与完整源纯文本再生逐字一致；根全文核新helper/diff/两个完整deriver及参数，代理分工并行核完整来源。working径向恒等false，不迁g/K/reach证。真正旧seed19未返不得空历史；未执行plain R711非前驱门，后来真实报告须加入。此为完整可执行源非实际场结果，未科学执行；可再生source-table输出只留SHA，raw仅runner。
