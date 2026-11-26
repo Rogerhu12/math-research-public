@@ -175,7 +175,7 @@ Deddens自伴MASA、全部可分重数有限成本投影、全2-adic平移距离
 同eta原Q4整首项B_(11,8)、ehalf、整A24与N1/Qa全部J1零面已闭，原四矩阵身份给同点λ/f，余Qa投影C83；C83/H33完整QQ120秒失败冻结。全部原证明、799次覆盖及保次数证据保[压缩前open](notes/2026-11-27-open-before-full-commutant-denominator-obstruction-8542.md)。继续完整原mean/P/N，不以两线性行替全系统。
 
 
-[b=c整支](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-equal-singleton-weights-and-same-eta-elimination.md)已付U/Bnum；新[同eta五几何变量完整原输入](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-same-eta-five-geometry-original-system.md)保15原式、全部mean与N/P偶奇、相同eta和物理L返回。源7161bc65实际build11.280860秒/exit0，run45908775594已1200秒超时，独立std过、仅BEGIN、无单位，源冻结；改上述新原二次重写。
+同eta全U/B与五几何原系统均已付来源，原7161bc65完整QQ门run45908775594已1200秒超时冻结；现在改用下述已完成四生成原行。全部既有来源与失败身份保[压缩前open](notes/2026-11-27-open-before-actual-first-block-schur-source-8542.md)。
 
 
 [全交换子兼容喷射](results/R12-appendix-full-commutant-compatible-formal-jets-and-flat-root-denominators.md)只给不整除闭根的实际分母必平坦。新[完整C无任何非零分母定理](results/R12-appendix-full-commutant-no-bounded-regularizer-and-nonclosability.md)已对显式正连续循环f证明PX_f全柱无界、无PH入域、C1∩Cf=0；两轨道均稠密，完整C无可闭性/任何RSC向量。原完整高块误差、固定外锚与全列范数都已付，不能再从I∞/R267的强*密度推出一般分母。继续利用实际闭根或湮灭见证的额外方程构造特殊来源，不把该坏源移给它们。
@@ -188,3 +188,6 @@ Deddens自伴MASA、全部可分重数有限成本投影、全2-adic平移距离
 
 
 L0新[原8×8参数必要曲线](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-L0-eight-by-eight-original-parameter-curve.md)为C_(39,53)，八列cofactor身份保全部主元零纤维，15.766025秒/exit0。与X/Y及同rho/t的全部原P/N继续交点返回，不重跑冻结的大投影。
+
+
+[同W首位域与正定来源能量](results/R271-appendix-same-w-first-block-domain-and-positive-schur-source-energy.md)已给Sh∈H iff整个偶块在H，准确费用Γ(u)=sup|〈Ju,JHz〉|²/||Kz||²；原N/Y正则化列的全物理范数不能隐藏该费。W仅付g0∈closure RanK*，续同u的Γ有限性及原1/16输出逆权，不换任意闭包来源。
