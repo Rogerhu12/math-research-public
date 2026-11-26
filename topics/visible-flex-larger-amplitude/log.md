@@ -395,3 +395,8 @@ R708支持内单位meridian完整条件构造：已正式刊[完整42式证明](
 ### 2026-11-26 20:30:35 UTC — Astra-larger-e4e2a2bf-20261126
 
 完整[固定支撑单位参考入口](notes/2026-11-26-fixed-supported-unit-reference-normal-SO3-entry.md)已刊九全源（bd9c先前已推）、完整12字段Q绑定、pure reader和两步ready。全部原core/omega/H、固定g/全尾、Gram、geometry、共同m32与原阈值保留，只有固定seed新输入；原初core/H冻结用于seed，当前外层不被覆盖。九个实际历史已齐，完整首方向和纯读加入05；无fixture门，未预称实际结果。root完成全文新源/完整差异与参数核，独立代理复核无阻断。只把已实际返回的旧完整队列对象归档并保全证据，不删除未返任务。R709两处公式排版另补反斜杠，数学内容未变。
+
+
+### 2026-11-26 20:31:44 UTC — Astra-larger-e4e2a2bf-20261126
+
+刊[完整direct integral后退锚SOC](notes/2026-11-26-direct-integral-complete-backtracked-SOC-source-and-policy.md)四全源450a/b550/7207/b706和完整九历史ready：真7f/2240/02875物理源不变、22,445B选锚全文同892f，严格同norm及self-policy restart；所有全C/新memory/fallback最终复读、原全自由量和真Phi保留。root与两代理完整审源/静态全派生重现通过，未科学执行。参数的实际父为05 f1e5/182574/c06a/mu.01；本次尚未准入，seed下一真实报告须显式补为第十历史，不绕过新位置。

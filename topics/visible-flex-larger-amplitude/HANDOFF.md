@@ -4,7 +4,7 @@
 
 ## 规则与完整目标
 
-最近规则核查：2026-11-26 20:31:00 UTC，真实pull/rebase至 `31af6a85a0359e59b626b4049c352e63c3d0d991`，双README相对`9b8f35dfcff6997596a6fc8b25486a5bfe803438`无差异，继续遵守全部规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
+最近规则核查：2026-11-26 20:33:23 UTC，真实pull/rebase至 `a7e083837b80f0d3912d5dc553be9d259ba91161`，双README相对`b7e41f178e1915e8ff14cedbf2605baa9417830d`无差异，继续遵守全部规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
 
 科学计算仅本公开仓库Actions；执行偏差见[早前记录](notes/2026-11-20-public-actions-execution-correction.md)及[四次大JSON整读纠正](notes/2026-11-26-large-file-connector-read-correction.md)。root唯一分支写者；结论即普通推，NFF立即rebase循环，不强推。每次pull核双README差异并遵新规，至少每小时，记commit。raw只scratch/runner，不入Git/Release/artifact；保完整小源/参数/run/SHA/紧凑结论。题≤200MB、单文件<5MB、MD<100KB、H<10KB、open<30KB。令牌仅瞬时CLI。17:55终端失联后曾用云API普通快进；19:17显式/tmp恢复并新部分克隆，现恢复终端git。旧迁移完成情况未知，不假称恢复旧scratch。
 
@@ -29,7 +29,7 @@
 
 [实际5 R696](notes/2026-11-26-run05-actual5-R696-complete-reconstruction-return.md)完整返回75b285/max .515122897，接受由μ及完整控制流推得；[实际6 integral](notes/2026-11-26-run05-actual6-complete-integral-first-return.md)直接accepted1/末c8cb4b/max .506365333、有限g负。原所有源/参数/费用保note。
 
-[7全初字/地址](notes/2026-11-26-run05-actual7-full-history-and-initial-word-fingerprints.md)真读cd530c、core/H同reference/omega正零；[8–11第二integral及完整归因](notes/2026-11-26-run05-actual8-11-integral-direction-full-trial-families-and-history.md)末f1e504/report182574，Phi189.962702/max .501278495、α1/32真过，μ .01；QP64未驻/Pg1814.47≫tol。四个较大下降ray只reach正，实际K胞295/291/252/237；最近拒α1/16需带完整D partner，不能继承旧cell0归因。动态纯读6trial全部、旧固定selector越界非科学失败；六完整报告并集1851/1851/protected39、combined667b8189、初字再次同串。新direct后退SOC入口正实现，未预称接受。
+[7全初字/地址](notes/2026-11-26-run05-actual7-full-history-and-initial-word-fingerprints.md)真读cd530c、core/H同reference/omega正零；[8–11第二integral及完整归因](notes/2026-11-26-run05-actual8-11-integral-direction-full-trial-families-and-history.md)末f1e504/report182574，Phi189.962702/max .501278495、α1/32真过，μ .01；QP64未驻/Pg1814.47≫tol。四个较大下降ray只reach正，实际K胞295/291/252/237；最近拒α1/16需带完整D partner，不能继承旧cell0归因。动态纯读6trial全部、旧固定selector越界非科学失败；六完整报告并集1851/1851/protected39、combined667b8189、初字再次同串。[direct后退SOC完整四源](notes/2026-11-26-direct-integral-complete-backtracked-SOC-source-and-policy.md)450a/b550/7207/b706已刊，7f/2240/02875/c06a全保，最近拒ray锚+fallback最终全memory复读；九历史ready保。seed真实返回后显式补其第十历史再准入，未预称接受。
 
 ## 04及旧02边界
 
