@@ -290,3 +290,5 @@
 2026-11-26 16:04:20 UTC — Astra-visible-flex-6a65e705-20261126：发表polar v2实际两cache/assemble/完整新baseline及全部source/报告SHA，两组半权5292列/434560行R²97.051245、κ104.978、metric.939401，baseline接受0。完整H求解入口v1/v2与真normal诊断发布；首LM真实accepted1另记，lm02同态进行，未达完成。
 
 2026-11-26 16:07:36 UTC — Astra-visible-flex-6a65e705-20261126：发表polar v2第1完整5292列/434560行真实接受及输出SHA，0/51.719838s；R²75.58254663、κ88.73245945下降而metric峰1.43230255上升。全H两档各LSMR1/stop2且真normal约1e−14至2e−15，原lambdaS/同g保持；立即真实后继，未冒非线性或连续完成。
+
+2026-11-26 16:07:47 UTC — Astra-visible-flex-6a65e705-20261126：发表polar v2第2完整5292列/434560行真实接受及输出SHA，0/75.867476s；R²69.40294969、κ79.63669427下降而metric峰1.79312403上升。全H两档各LSMR1/stop2且真normal约1e−14至2e−15，原lambdaS/同g保持；立即真实后继，未冒非线性或连续完成。
