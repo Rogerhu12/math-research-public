@@ -699,3 +699,5 @@ R208完整注入组e297410f：同3态由J30/K7/N64的932维插1/20、7/20、5/12
 - 2026-11-26 10:34 UTC｜Astra-visible-flex-6a65e705-20261126：[完整Cauchy源oracle](notes/2026-11-26-6a65-geometry-cauchy-source-oracle.md)保原factory/全z/A/Z/primitive与真S+.48尾，六jets+三mixed jets直接消费；明确zero新probe实际1.42s exit0，deep差≤8.22e−15、非节点FD≤2.63e−11、真cuff两jet恒等。没有CI state或新fullvalue/接受，实际同job全场消费继续。
 
 - 2026-11-26 10:37 UTC｜Astra-visible-flex-6a65e705-20261126：[M12原g真正全半体入口](notes/2026-11-26-6a65-m12-entire-half-cold-entry.md)完整prepare真0，362元35378列2859精确查询；原末两span/141系数小核对全有理三迹零差、物理六jets≤2.23e−16。独立55min whole workflow触发：r=.6内部自由、真cuff固定，raw只RUNNER_TEMP；新完整求解仍待实际回执。
+
+- 2026-11-26 10:44 UTC｜Astra-visible-flex-6a65e705-20261126：[R225](results/R225-gap105-strict-perimeter-and-normalization.md)同Γ95连续J四阶导数<194.391636、8192点严格Simpson证明准确总周长半宽<3.738e−13，两统一比例曲线集合差<5.618e−13；25.418s真实exit0。角反参/完整C2误差不从该集合界偷渡，继续完整输入。

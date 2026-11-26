@@ -7,7 +7,7 @@
 
 完整连通闭C2嵌入族、共同g和固定握持开区域；全曲面D下held/D≥.05、含反射δE>0、全时reach/D≥.03、全域全时metric≤1e−6，并支付同一g/全部物理参数下真加密到求解容差及可复现完整网格。基础之后继续held/D≥.2、δE/D≥.05或严格存在。本题尚未完成。
 
-- 根/课题README完整读于 `f0548477576caa2373d1626227a284ccfa9767d0`；接手真实pull在05:16UTC成功。最近已读公开提交 `b7b81227a65eac15cc4b020905b056dd46ea079f`（2026-11-26 10:37 UTC真实pull/rebase后，双README逐差均无变化）。每次真实pull后核两README差异，至少每小时；有变只读差异立即执行。本轮各次均无差异。
+- 根/课题README完整读于 `f0548477576caa2373d1626227a284ccfa9767d0`；接手真实pull在05:16UTC成功。最近已读公开提交 `17c205acdba9556071a9c12c0a5b4c13a7372409`（2026-11-26 10:44 UTC真实pull/rebase后，双README逐差均无变化）。每次真实pull后核两README差异，至少每小时；有变只读差异立即执行。本轮各次均无差异。
 - 私库根规矩完整读；QUEUE认领已推 `c7785184d0d9c503852fb2137e9e2c091221d080`，状态进行中（本会话/2026-11-26）。认领推拒均即时pull/rebase再推成功。
 - 每结论分条commit/push；推拒立即pull --rebase循环，不强推、不amend已发布提交。完整证明直接登记；不回到旧独审/冻结手续。可重算数组不进Git/Release/artifact，只存源码、参数、run/hash。单MD<100KB、H<10KB、课题<200MB；不写根LOG。令牌只在命令进程环境。
 - 部分克隆 `/tmp/visible-flex-6a65e705/math-research-public`；同级 `solver-work/geometry-work/exact-work` 保存raw。/workspace空间不足，勿将大数组放回。05:47和09:18两次失盘；09:38已重新部分克隆、真实pull。旧本地raw/未公开源均失，不借旧字节身份；第二次中断及恢复见[真实回执](notes/2026-11-26-6a65-cauchy-same-job-recovered-transition.md)。
@@ -24,13 +24,11 @@
 
 ## 实际主线与当前原件
 
-**强分支旧输入。** 已登记的2/quartic6、gap1/Δ.05、42/84峰点、K11/K19和R208真插结不重做；详见[09:18前H](https://github.com/Rogerhu12/math-research-public/blob/3e210ee69/topics/visible-flexible-closed-surface/HANDOFF.md)。这些实际有限下降都未达metric/reach/held。
-
 **原M12同g修正。** R221原首ramp→精确coast完整C2接合/6838整数叶已付，三档metric仍仅采样；[全自由正K BVP/双seam](notes/2026-11-26-6a65-free-positive-bvp-and-signed-seam.md)局部下降却抬全前缀峰，未采用。[原24blob准确端点](notes/2026-11-26-6a65-exact-tail-endpoint-streaming.md)已恢复；r=.6是内接缝，真全尾正在装入。历史失败/四弱矩见旧H与log，不再重做。
 
 **新强初场历史。** 长warm、.18/.14自然周长和pure-clock旧value/失盘详见[恢复记录](notes/2026-11-26-6a65-cauchy-same-job-recovered-transition.md)。旧raw失去即不借字节身份。当前真实同job已重生全部1788列，继续完整LM；剩余E/F不能靠再改标量clock支付。
 
-[R222](results/R222-central-gap-conditional-held-and-ramp-budget.md)已证明固定周长gap区间[1.041,1.089]的中央曲率上限及明确假设下held>.64；9.5中央guide保[1.041,1.067]。真实角Codazzi项不可删。新gap1.05/v.045[真实prefix](notes/2026-11-26-6a65-geometry-coupled-gap-prefix.md)41.103s真0：1637RHS，ramp metric1.17e−12/κ9.6363，Γ95 coast κ8.8926；真实C2消费后metric2.65953e−9。右段未接。[R224](results/R224-gap105-v045-entire-coast-continuous-domain.md)新Γ95整coast 2048整数叶已证D>.9719/U_t>.9657/.1949<κ<8.893；真实16.017s exit0。不继承旧证书，arc严格半宽2.6167e−6；ramp/全闭reach仍欠。正在实际全Cauchy尾短窗口改接。
+[R222](results/R222-central-gap-conditional-held-and-ramp-budget.md)已证明固定周长gap区间[1.041,1.089]的中央曲率上限及明确假设下held>.64；9.5中央guide保[1.041,1.067]。真实角Codazzi项不可删。新gap1.05/v.045[真实prefix](notes/2026-11-26-6a65-geometry-coupled-gap-prefix.md)41.103s真0：1637RHS，ramp metric1.17e−12/κ9.6363，Γ95 coast κ8.8926；真实C2消费后metric2.65953e−9。右段未接。[R224](results/R224-gap105-v045-entire-coast-continuous-domain.md)新Γ95整coast 2048整数叶已证D>.9719/U_t>.9657/.1949<κ<8.893；真实16.017s exit0。不继承旧证书。[R225](results/R225-gap105-strict-perimeter-and-normalization.md)同curve严格Simpson弧长半宽<3.738e−13、两比例曲线集合差<5.618e−13；角反参/全两jets及ramp/全闭reach仍欠。正在实际全Cauchy尾短窗口改接。
 
 [R223](results/R223-m12-common-chart-through-flat-cuff.md)已证明原g从中央到真正平领的共同C2图：显式quintic全尾.684<−r_q<1.422，H/H_q与完整两jets保持，r=.6可作内部自由接口。全尾数值装入和全局求解仍在做，非完整等距证明。
 
@@ -44,13 +42,13 @@ source002=28c629a0627在09:44:12真实消费：实际父态→短Cauchy/.14入�
 
 CI每次literal pull在首行marker记SHA；publisher只合并该行，保root其它文本，不amend已发布提交。等待fetch30秒，新请求或45分钟才真实pull。root分条push同时遇NFF/锁冲突均已即时pull/rebase循环成功。后继文件 `ci-requests/6a65-strong-followup-20261126.json` 必须消费实际末态，不猜SHA。
 
-原M12[恢复版全前缀workflow](notes/2026-11-26-6a65-m12-global-prefix-recovered-workflow.md)首无job失败已修；[真实run45797640490](notes/2026-11-26-6a65-m12-global-prefix-ci-45797640490-1.json)完整成功：原g/158单元15386列，800LSMR stop7，α1接受；独立G8/N768 metric7.97402e−9→8.05624e−10，κ5.11272468。实际166.276s，raw SHA1e0cf38f…0a5d仅RUNNER_TEMP。[下一档同g请求](notes/2026-11-26-6a65-m12-prefix-fixed-g-refinement.md)已写：158单元/order48/N768/G8及1600LSMR，独立G10/N1536；r=.6仅内部端口，真正全尾另续。
+原M12[恢复版全前缀workflow](notes/2026-11-26-6a65-m12-global-prefix-recovered-workflow.md)首无job失败已修；[真实run45797640490](notes/2026-11-26-6a65-m12-global-prefix-ci-45797640490-1.json)完整成功：原g/158单元15386列，800LSMR stop7，α1接受；独立G8/N768 metric7.97402e−9→8.05624e−10，κ5.11272468。实际166.276s，raw SHA1e0cf38f…0a5d仅RUNNER_TEMP。下一档run45802097600真success：158元/order48/N768/G8/1600LSMR仍stop7，独立G10/N1536 metric4.63936e−10、κ5.1127246793；下一先只增线性迭代分离代数误差；r=.6仅内部端口，真正全尾另续。
 
 [R206共享准备小对照](notes/2026-11-26-6a65-solver-shared-memory-recovered-v2.md)恢复版51维两输入×4λ实际exit0，22342标量逐位同旧式，输入未变、越带拒绝保持；未消费实际1788维normal，未接当前CI，不冒内存原因或曲面接受。
 
 [完整Cauchy oracle](notes/2026-11-26-6a65-geometry-cauchy-source-oracle.md)已冻结f5036c5f…4e440：直接原factory/完整z/A/Z/primitive，延到S+.48真cuff，六jets及三更高mixed jets。明确新zero系数接口probe真0/1.42s，未借CI state/value/接受；真状态消费还须同job身份和deep核对。
 
-[原M12真全半体入口](notes/2026-11-26-6a65-m12-entire-half-cold-entry.md)已备：同g/R223图，362元35378列2859个exact-tail查询，r=.6内端口自由，真cuff两jets固定。prepare真0/8.879s；原末两span全部141系数精确三迹及Cartesian六jets核对真0/7.165s。独立whole workflow现触发；完整求解尚无结果，不借prefix。
+[原M12真全半体入口](notes/2026-11-26-6a65-m12-entire-half-cold-entry.md)已备：同g/R223图，362元35378列2859个exact-tail查询，r=.6内端口自由，真cuff两jets固定。prepare真0/8.879s；原末两span全部141系数精确三迹及Cartesian六jets核对真0/7.165s。独立whole run45803041361/job139850937322/source93721721已实际进入精确查询/全求解；尚无结果，不借prefix。
 
 ## 继续顺序
 
