@@ -42,6 +42,8 @@ R969公开三点113/131/227得到全mask rank10/11/19、A/E4组合及额外两q�
 
 ## O2：完整原超奇异迹、真正CM packet及近顶unit系数
 
+[原除p坐标](notes/2026-11-26-original-high-coordinates-in-divided-Ramanujan-polynomial.md)：实际整多项式𝔅_p=(R^(p−1)E+E^p−E_(p−1)E_(p+1))/p给c_(p−r)±=r!12^(r−1)[E^r]𝔅_p(E,0,±864)。r2标量24、r8为8!12⁷，正E坐标不依纯modular升换；仍未证非零。新theta-cycle filtration不能代指定CM读数；BKO2025精确估值只对wild塔角色和Λ生成元，不能搬到原tame U₇。继续同一高坐标的实际来源。
+
 [AS原坐标比较](notes/2026-11-26-ahlgren-samart-actual-low-coordinate-comparison.md)：同一q/eta模型、完整Cartier提取与Wilson–Dixon有限和给C_AS(p)=9β³/2，准确返回R988的G_(3(p−1))低单位，乘积−9/2。新Guerzhoy仅低µ=−β；Hanson–Jameson只指定五个固定一维CM空间。均未给原c_(p−r)或高Artin–Hasse坐标，须继续实际高源比较。
 
 原全SS和S含所有点、t0权1/非零H根权3/fine12/椭圆零项；指定j0项为零不能代全和。R936/939/941原trace、Jacobi ODE和CT公式全部已成，源C负RHS、β^p=β、Tate E6=−c6、η12=−6sD、KS正号保全。R963公开允许r2的1000<p≤1e5全部1582点无零；R967独立κ/g_p两点尺度通过，只有限证据。

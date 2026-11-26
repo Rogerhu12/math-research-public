@@ -6,7 +6,7 @@
 
 维护会话：**Astra-serre-24b8836b-20261126**。2026-11-26 已部分克隆并真实 pull main；私库 QUEUE 认领已推 233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则读至36cf1ed2。前会话全部有效结论继续保留，不重算。
 
-**已读公开规则提交：c6fdbecd94e1c3dc723a567698586092fe3d692a**（2026-11-26 16:09 Asia/Taipei；本次同步两 README 无差异）。每次同步检查两 README diff，至少每小时一次，有变化只读差异并立即执行。
+**已读公开规则提交：df60c9705ce2f45c0ea7b84833a9ade54dae78cc**（2026-11-26 16:14 Asia/Taipei；本次同步两 README 无差异）。每次同步检查两 README diff，至少每小时一次，有变化只读差异并立即执行。
 
 执行宿主在本轮断连，当前不可用。根规矩8许可仅 GitHub 集成可用时传小文本；已用原子 tree/commit 和非强制 expected-head ref 更新继续。每次先读最新 main、核规则与待改路径；并发拒绝后在新 head 重建直到成功。终端恢复后补 pull --rebase。令牌仅在此前 CLI 使用，未写文件或提交。
 
@@ -86,8 +86,7 @@ r2尖点留数虽是单位，其余根真不消失；旧47给完整J12、cusp45�
 [AS原低坐标比较](notes/2026-11-26-ahlgren-samart-actual-low-coordinate-comparison.md)：
 C_AS(p)=9β³/2，且与G_(3(p−1))乘积−9/2；确属已知固定低坐标。
 新Guerzhoy仅低µ=−β，Hanson–Jameson固定五个一维空间也不覆盖原高坐标。
-当前保完整权参数导数及Ramanujan p−1步的首p-adic修正，
-不把最高Hasse filtration或另一参数处单位代原E^r坐标。
+[原除p坐标](notes/2026-11-26-original-high-coordinates-in-divided-Ramanujan-polynomial.md)：实际整多项式𝔅_p=(R^(p−1)E+E^p−E_(p−1)E_(p+1))/p给c_(p−r)±=r!12^(r−1)[E^r]𝔅_p(E,0,±864)。r2标量24、r8为8!12⁷，正E坐标不依纯modular升换；仍未证非零。新theta-cycle filtration不能代指定CM读数；BKO2025精确估值只对wild塔角色和Λ生成元，不能搬到原tame U₇。继续同一高坐标的实际来源。
 
 R963/991/994全部旧窗完成；新差集4008点至200000全非零，
 run44760218207/job136370438703，原三路校准/hash见R994与归档。
