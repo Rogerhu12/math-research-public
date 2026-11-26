@@ -1,0 +1,353 @@
+{
+  "schema": "isp-L0-symmetric-complement-atlas-execution-v1",
+  "run_id": 45825165838,
+  "job_id": 139927332034,
+  "status": "exact original equations and factor atlas completed; no exclusion",
+  "stages": [
+    {
+      "claimExcluded": false,
+      "elapsedSeconds": 2.786939,
+      "factorProductRemultiplied": true,
+      "factors": [
+        {
+          "multiplicity": 1,
+          "polynomial": "w",
+          "profile": {
+            "degrees": [
+              0,
+              0,
+              1
+            ],
+            "sha256": "50e721e49c013f00c62cf59f2163542a9d8df02464efeb615d31051b0fddc326",
+            "terms": 1
+          }
+        },
+        {
+          "multiplicity": 1,
+          "polynomial": "w - 1",
+          "profile": {
+            "degrees": [
+              0,
+              0,
+              1
+            ],
+            "sha256": "e2bb30214759d6a6f43d266ef5f89eca601fe1e4a2db3eac0133ec47d0b9d7c9",
+            "terms": 2
+          }
+        },
+        {
+          "multiplicity": 1,
+          "polynomial": "lam - w - 1",
+          "profile": {
+            "degrees": [
+              0,
+              1,
+              1
+            ],
+            "sha256": "acea18d7968ee1f80a38e95218656552b0a58a015157adcdded28e50859a6ab4",
+            "terms": 3
+          }
+        },
+        {
+          "multiplicity": 1,
+          "polynomial": "4*lam^3*w + 2*lam^3 - 6*lam^2*w - lam^2 + 3*lam*w - w",
+          "profile": {
+            "degrees": [
+              0,
+              3,
+              1
+            ],
+            "sha256": "7f62865718855e6bf498d91d07f2776684dd5181ec828cddce4bd9f4634fab00",
+            "terms": 6
+          }
+        },
+        {
+          "multiplicity": 1,
+          "polynomial": "rho",
+          "profile": {
+            "degrees": [
+              1,
+              0,
+              0
+            ],
+            "sha256": "0ddbc6c1d81a078b803040a615f91362642e985d2737a945535b86da2681952f",
+            "terms": 1
+          }
+        },
+        {
+          "multiplicity": 1,
+          "polynomial": "4*rho^2*lam - 4*rho^2*w - 4*rho^2 - 8*rho*lam^2 + 8*rho*lam*w + 12*rho*lam - 4*rho*w^2 - 8*rho*w - 6*rho + 4*lam^3 - 4*lam^2*w - 8*lam^2 + 6*lam*w^2 + 10*lam*w + 6*lam - 2*w^3 - 6*w^2 - 5*w - 2",
+          "profile": {
+            "degrees": [
+              2,
+              3,
+              3
+            ],
+            "sha256": "131b95e13c560d08868ffbb0fbe828d2de05212c3089c5483da5f854b03ea385",
+            "terms": 19
+          }
+        }
+      ],
+      "name": "P1_t",
+      "original": {
+        "degrees": [
+          3,
+          7,
+          7
+        ],
+        "sha256": "93afa36c5fdf011a01291988ffeab80e4d7739f1edf1e2b5a25157bc7833b961",
+        "terms": 103
+      },
+      "stage": "exact_symmetric_L0_complement_factorization"
+    },
+    {
+      "claimExcluded": false,
+      "elapsedSeconds": 2.788841,
+      "factorProductRemultiplied": true,
+      "factors": [
+        {
+          "multiplicity": 1,
+          "polynomial": "480*rho*lam^4*w^4 + 768*rho*lam^4*w^3 + 384*rho*lam^4*w^2 + 96*rho*lam^4*w - 640*rho*lam^3*w^5 - 2128*rho*lam^3*w^4 - 1936*rho*lam^3*w^3 - 592*rho*lam^3*w^2 - 48*rho*lam^3*w + 16*rho*lam^3 + 256*rho*lam^2*w^6 + 1424*rho*lam^2*w^5 + 2400*rho*lam^2*w^4 + 1240*rho*lam^2*w^3 - 16*rho*lam^2*w^2 - 120*rho*lam^2*w - 24*rho*lam^2 - 32*rho*lam*w^7 - 256*rho*lam*w^6 - 752*rho*lam*w^5 - 720*rho*lam*w^4 + 64*rho*lam*w^3 + 316*rho*lam*w^2 + 108*rho*lam*w + 12*rho*lam + 16*rho*w^6 + 40*rho*w^5 - 56*rho*w^4 - 164*rho*w^3 - 104*rho*w^2 - 24*rho*w - 2*rho - 480*lam^5*w^4 - 768*lam^5*w^3 - 384*lam^5*w^2 - 96*lam^5*w + 640*lam^4*w^5 + 2560*lam^4*w^4 + 2704*lam^4*w^3 + 1024*lam^4*w^2 + 144*lam^4*w - 16*lam^4 - 256*lam^3*w^6 - 2112*lam^3*w^5 - 4552*lam^3*w^4 - 3360*lam^3*w^3 - 744*lam^3*w^2 + 64*lam^3*w + 40*lam^3 + 32*lam^2*w^7 + 592*lam^2*w^6 + 2336*lam^2*w^5 + 3248*lam^2*w^4 + 1444*lam^2*w^3 - 152*lam^2*w^2 - 216*lam^2*w - 36*lam^2 - 48*lam*w^7 - 344*lam*w^6 - 832*lam*w^5 - 664*lam*w^4 + 116*lam*w^3 + 342*lam*w^2 + 126*lam*w + 14*lam + 8*w^6 - 4*w^5 - 92*w^4 - 152*w^3 - 92*w^2 - 23*w - 2",
+          "profile": {
+            "degrees": [
+              1,
+              5,
+              7
+            ],
+            "sha256": "181f85c6c7cd757c85d1b3ed8c5993fa3685b2e61614f5628a1f7b97ebd8881c",
+            "terms": 72
+          }
+        },
+        {
+          "multiplicity": 1,
+          "polynomial": "rho^2*lam - rho^2*w - rho^2 - 4*rho*lam^2 + 4*rho*lam - 2*rho + 4*lam^3 - 6*lam^2 + 3*lam - 1",
+          "profile": {
+            "degrees": [
+              2,
+              3,
+              1
+            ],
+            "sha256": "8e5c7a3a0a4a2e0de5cf9d0dd2deb2379dfbbcb6b4af9f73f8563649db93e372",
+            "terms": 10
+          }
+        }
+      ],
+      "name": "P1_constant",
+      "original": {
+        "degrees": [
+          3,
+          8,
+          8
+        ],
+        "sha256": "907b40e76166b486579856c405c45f1fad3654ba400eab875a8fd9c8e2e252ce",
+        "terms": 213
+      },
+      "stage": "exact_symmetric_L0_complement_factorization"
+    },
+    {
+      "claimExcluded": false,
+      "elapsedSeconds": 2.788934,
+      "factorProductRemultiplied": true,
+      "factors": [],
+      "name": "P1_common",
+      "original": {
+        "degrees": [
+          0,
+          0,
+          0
+        ],
+        "sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+        "terms": 1
+      },
+      "stage": "exact_symmetric_L0_complement_factorization"
+    },
+    {
+      "claimExcluded": false,
+      "elapsedSeconds": 2.793638,
+      "factorProductRemultiplied": true,
+      "factors": [
+        {
+          "multiplicity": 1,
+          "profile": {
+            "degrees": [
+              5,
+              15,
+              16
+            ],
+            "sha256": "54039340286c64f3fcfb9f44075ca233e70a5824046d3edc573a8fb2fedd5878",
+            "terms": 978
+          }
+        }
+      ],
+      "name": "P1_E1",
+      "original": {
+        "degrees": [
+          5,
+          15,
+          16
+        ],
+        "sha256": "e4673299da87548b67fc3b06e4d0555d1271ed190c5ac2cc5410b8ae5ae34c3b",
+        "terms": 978
+      },
+      "stage": "exact_symmetric_L0_complement_factorization"
+    },
+    {
+      "claimExcluded": false,
+      "elapsedSeconds": 2.798326,
+      "factorProductRemultiplied": true,
+      "factors": [
+        {
+          "multiplicity": 1,
+          "profile": {
+            "degrees": [
+              5,
+              15,
+              17
+            ],
+            "sha256": "60626c5aca940106a50bdb2c7879871c4fac7182e16ef72774de5d6437e782bb",
+            "terms": 1074
+          }
+        }
+      ],
+      "name": "P1_N1",
+      "original": {
+        "degrees": [
+          5,
+          15,
+          17
+        ],
+        "sha256": "d375b242b1ace0e67707585eadc8f8e00bb2f5a6554b1a5e20c956553464a197",
+        "terms": 1074
+      },
+      "stage": "exact_symmetric_L0_complement_factorization"
+    },
+    {
+      "claimExcluded": false,
+      "elapsedSeconds": 2.806896,
+      "factorProductRemultiplied": true,
+      "factors": [
+        {
+          "multiplicity": 1,
+          "profile": {
+            "degrees": [
+              5,
+              20,
+              21
+            ],
+            "sha256": "7ca87c6f536ccb3eac0ec69d7d5d17cd0803fef11bdd1d7ae4d6837d318803fc",
+            "terms": 1988
+          }
+        }
+      ],
+      "name": "E1_N1",
+      "original": {
+        "degrees": [
+          5,
+          20,
+          21
+        ],
+        "sha256": "015709bdba0973685d2855439fffd43b23a2fb94e7a235d60d565f79f411d24a",
+        "terms": 1988
+      },
+      "stage": "exact_symmetric_L0_complement_factorization"
+    },
+    {
+      "claimExcluded": false,
+      "elapsedSeconds": 2.843023,
+      "factorProductRemultiplied": true,
+      "factors": [
+        {
+          "multiplicity": 1,
+          "profile": {
+            "degrees": [
+              12,
+              34,
+              26
+            ],
+            "sha256": "dae9f5876761b1fd044c7104c3d3df9c971e650837405d56089171cdcfdf5884",
+            "terms": 8198
+          }
+        }
+      ],
+      "name": "E1_EBe",
+      "original": {
+        "degrees": [
+          12,
+          34,
+          26
+        ],
+        "sha256": "c0695557b82b3f98b9c2cdf99636c37e3986c201a5c2b0ea641b3749c14d38a5",
+        "terms": 8198
+      },
+      "stage": "exact_symmetric_L0_complement_factorization"
+    },
+    {
+      "claimExcluded": false,
+      "elapsedSeconds": 2.851011,
+      "factorProductRemultiplied": true,
+      "factors": [
+        {
+          "multiplicity": 1,
+          "profile": {
+            "degrees": [
+              7,
+              20,
+              17
+            ],
+            "sha256": "2eef6304a0177f65a38ee823b7b306dd5cc79e5920b9526fa9a45ee9bc1783ff",
+            "terms": 1894
+          }
+        }
+      ],
+      "name": "P1_EBe",
+      "original": {
+        "degrees": [
+          7,
+          20,
+          17
+        ],
+        "sha256": "67856dcf78a0f72d2abca638b36fc632bd0d644cf8ce1504ec49454cdeee6980",
+        "terms": 1894
+      },
+      "stage": "exact_symmetric_L0_complement_factorization"
+    },
+    {
+      "claimExcluded": false,
+      "claimWholeL0Excluded": false,
+      "elapsedSeconds": 2.851085,
+      "ordinaryISPClaim": false,
+      "peakRssKiB": 63020,
+      "sourceSha256": "b1256006faceae9f5ca00b6755f453638be9aa225e3984fb235cec0861d6c80f",
+      "stage": "complete_original_symmetric_L0_complement_atlas"
+    }
+  ],
+  "execution_receipt": {
+    "elapsed_seconds": 2.9152538489999955,
+    "max_child_rss_kib": 63020,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "51d84b503698026fb3dd4aaf21517a0003eab86c",
+        "before": "51d84b503698026fb3dd4aaf21517a0003eab86c",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "fef43bdf8690f2eec4751d85784a266eacdd0322"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-26T13:02:02.866929+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "45825165838",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-347c-20261126",
+    "source_commit": "51d84b503698026fb3dd4aaf21517a0003eab86c",
+    "source_exit_code": 0,
+    "source_git_blob": "6e12938f2f17fdff09bd4d11f5735e8faacd2f0f",
+    "source_sha256": "b1256006faceae9f5ca00b6755f453638be9aa225e3984fb235cec0861d6c80f",
+    "stdout_bytes": 15909,
+    "stdout_sha256": "dbcc103959712b9ee0b99c4b6b053add61c586a0c4ad6b0ed7fa7825fa4f9d1b",
+    "stop_reason": null
+  },
+  "ordinary_isp_claim": false
+}
