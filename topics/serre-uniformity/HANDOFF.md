@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。本轮已部分克隆并真实pull main，读两README/H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则读至36cf1ed2。不重做已登记结论或窗口。
 
-**公开两README已读提交：7923e588c07cd47852dfdf4604db5bc8246ce92d**（2026-11-27 03:22 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
+**公开两README已读提交：9da73efe98b26172c898328e3b8cf438f180e48d**（2026-11-27 03:28 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
 
 已真实部分克隆/pull；终端再次不可用，按根规矩8用连接器小文本同步、读两README差异、带expected_sha非force提交，恢复后立即pull --rebase。拒绝即同步重基再推至成功。令牌仅CLI；根维护main/H/open/index/log，子研究独立稿，每条结论立即推。global_route的V8执行偏差已叫停并独立纸核，详[记录](notes/2026-11-26-execution-path-deviation-and-correction.md)，其输出不作证明/合规窗口。
 
@@ -16,7 +16,7 @@ H<10KB、open尽量<30KB、每MD<100KB、topic<200MB；无可重算raw、不写�
 
 [R1058](results/R1058-original-Cartier-resonance-and-complete-lowest-residue-source.md)：唯一Jhat−3rJhat′=(1−r)^(2ℓ−2)/q²−A1²r^ℓ，gdb=dR_can+(r/b²)^(p−1)db且Cartier=db。全Q=Cartier(gF_a)、Tλ/A准确含两pth修正；实际最低=Σ三CM Res Fλ{g(DL)^p−g^(p+1)(DL)^(p²)}db，原D与Frob总和完整，单位仍开。
 
-[R1056](results/R1056-original-kernel-lowest-CM-single-coefficient.md)：原核C(T₀)=(-3)^(ℓ−1)[r^(ℓ−2)]q³/j/2，全部原尺度/分母已付；不等同端点、范数或DQv。
+[R1056](results/R1056-original-kernel-lowest-CM-single-coefficient.md)：原核C(T₀)=(-3)^(ℓ−1)[r^(ℓ−2)]q³/j/2，全部原尺度/分母已付；不等同端点、范数或DQv。 R1056 §6现另给全p6N5的核列C_s=(-3)^d[r^(d−1)]q^(s+1)/j^(s−1)/[s(s−1)]，s2/8、d=(p−s)/3；H′=h²直接重推，不扩原bare身份。
 
 [R1055](results/R1055-original-complete-first-log-canonical-rational-primitive.md)：原完整v的唯一规范V=6(bU₁+b²U₂)/(A1²r^ℓ)；全商/有理代表、全部三CM极部与pth歧义均付，不跨共振。
 

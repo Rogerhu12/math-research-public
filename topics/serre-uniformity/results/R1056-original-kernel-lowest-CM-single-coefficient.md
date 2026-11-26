@@ -163,3 +163,55 @@ $$
 - [R1052](R1052-original-complete-CM-profile-and-actual-lowest-functional.md) §§7–8，完整 CM 轮廓、实际最低泛函和 Wronskian。
 
 o2_high_coefficient 给出逐项推导；root 独立核对 $H_r'$ 的负号、两个坐标因子、Lagrange 次数、全部分母区间和最终 $1/2$。本文为纸面证明，无数学程序执行，无旧窗口重算。主目标仍 OPEN。
+
+## 6. 同一纯代数公式对两种临界列的推广
+
+本节把**核行的列公式**扩到全部 $p=6N+5\ge41$，不扩张 R1048 的原 bare-norm 身份。R1043/R1040 给该范围内同一个唯一 $T_0$，满足 $\mathcal LT_0=A$。不必借用带 $r=2$ 限制的 AS 源，直接作代数消元即得
+$$
+\begin{aligned}
+H_b'
+&=r^\ell\{r(AT_0''-T_0A'')
+ -3(\ell+1)b^2(AT_0'-T_0A')\}\\
+&=r^\ell\{A^2+(4-3(\ell+1))b^2(AT_0'-T_0A')\}
+=r^\ell A^2=h^2 .
+\end{aligned}
+$$
+最后用 $3\ell=p+1$。因此 §2 的 $I$ 及准确导数 (1056.6) 在全范围成立。
+
+取 $s\in\{2,8\}$，写
+$$
+d_s=(p-s)/3,\qquad
+C_s=[Z^{d_s}](T_0/A)(B_{\rm CM}(Z)).
+$$
+此处 $s$ 是标号，非 CM 根或原范数。则
+$$
+\boxed{\quad
+C_s=\frac{(-3)^{d_s}}{s(s-1)}
+ [r^{d_s-1}]\frac{q^{s+1}}{j^{s-1}}.
+\quad}
+\tag{1056.12}
+$$
+特别地，$s=8$ 给
+$$
+[Z^{\ell-3}](T_0/A)(B_{\rm CM}(Z))
+=\frac{(-3)^{\ell-3}}{56}
+ [r^{\ell-4}]q^9/j^7.
+$$
+
+证明保留 §3 的同一 Lagrange 过程。令 $u=q/j$、$W=(1-r)^{-4/3}q^{-2}$。因为 $3d_s=p-s$，所需系数严格在 $p$ 以下，
+$$
+C_s=\frac{(-3)^{d_s}}{9d_s}
+ [r^{d_s-1}]I W u^s.
+$$
+原 Wronskian 是 $u+3ru'=Wu^2$，所以
+$$
+Wu^s=u^{s-1}+\frac{3r}{s-1}(u^{s-1})'.
+$$
+卷积中与 $I_n=[r^n]q^2/(\ell+n+1)$ 配对的因子为
+$$
+1+\frac{3(d_s-1-n)}{s-1}
+=-\frac{3(\ell+n+1)}{s-1}\quad\text{于 }\mathbf F_p.
+$$
+逐项消去原已付分母，再用 $3d_s=-s$，便得 (1056.12)。全部 $s(s-1)$、$d_s$ 及被使用的 $\ell+n+1$ 都是单位，且 $j$ 的最高使用次数仍小于 $\ell$。
+
+这两条都是原核 $T_0$ 的实际轮廓列。即便它们的次数与两行 bare 临界次数相同，也没有因此把该核列等同于原 bare 系数或实际 $DQ(1-Q)\lambda$ 行。本文仍未证明这些系数非零。此推广由 o2_high_coefficient 给出，root 独立核全 $H'$、Lagrange 幂和卷积因子；无数学执行。

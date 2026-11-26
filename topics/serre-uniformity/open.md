@@ -8,7 +8,7 @@
 
 [R1058](results/R1058-original-Cartier-resonance-and-complete-lowest-residue-source.md)：唯一Jhat−3rJhat′=(1−r)^(2ℓ−2)/q²−A1²r^ℓ，gdb=dR_can+(r/b²)^(p−1)db且Cartier=db。全Q=Cartier(gF_a)、Tλ/A准确含两pth修正；实际最低=Σ三CM Res Fλ{g(DL)^p−g^(p+1)(DL)^(p²)}db，原D与Frob总和完整，单位仍开。
 
-[R1056](results/R1056-original-kernel-lowest-CM-single-coefficient.md)：原r2核T₀的真实最低C_CM(T₀)=(-3)^(ℓ−1)[r^(ℓ−2)]q³/j/2。原H′=h²给F₀′=I(1−r)^−4/3/(9q²)，Lagrange/Wronskian逐项消全部安全分母；不与f_N、bare范数或DQv读数混同，单位仍开。
+[R1056](results/R1056-original-kernel-lowest-CM-single-coefficient.md)：原r2核T₀的真实最低C_CM(T₀)=(-3)^(ℓ−1)[r^(ℓ−2)]q³/j/2。原H′=h²给F₀′=I(1−r)^−4/3/(9q²)，Lagrange/Wronskian逐项消全部安全分母；不与f_N、bare范数或DQv读数混同，单位仍开。 R1056 §6现另给全p6N5的核列C_s=(-3)^d[r^(d−1)]q^(s+1)/j^(s−1)/[s(s−1)]，s2/8、d=(p−s)/3；H′=h²直接重推，不扩原bare身份。
 
 [R1054](results/R1054-original-lowest-CM-column-kernel-candidate-counterexample.md)：p47 K15=23排最低列恒落Q核候选。
 [R1057 §5](results/R1057-certified-original-p47-actual-lowest-functional.md)：本次真实C=15支付p47一次单位；逐节核C_*仅用于自动本原、逐块全MW消去不需该界，故原X₁指定c₁的v47(w)>0深盘唯一有理点为c₁。未分类其它盘/X_d/O0；无重算。
@@ -32,7 +32,7 @@ R1032/33/39的原首层/全积分尾/M1只消费，返回与D_aux支撑保原证
 
 R1035/36原Lie格、split-Hecke F₀、D₀非挠paired块重数一已核，非辅助Res的C²。T5/Q消去保实际格；Q简单商Néron格不从type直和自动来。R1041核norm、R1043端点和K_Q是三个未证单位的不同值。
 
-R1018/19/21的Fm、真实T5²/Z杀CM、full-p模p仿射刚性，以及R1028–30实际Igusa修正/整τ₁/全分支E均只消费；H_A/H_Z新支撑仍待算，不任换λ。全部来源/相位/执行pins保原结果与归档。
+R1018–30原Fm、全非约化仿射/整τ₁/完整分支已成，只消费；H_A/H_Z新支撑仍待算，原λ/尺度保结果。
 
 ## O0：全主目标覆盖（R1003恢复原范围）
 

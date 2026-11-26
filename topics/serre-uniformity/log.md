@@ -405,3 +405,7 @@
 ### 2026-11-27 03:22 Asia/Taipei — R1059 原f_N的实际X108 Raynaud有限和
 - [R1059](results/R1059-original-fN-actual-X108-Raynaud-pairing-and-inverse-central-sum.md)：原Θ=f27，实际X108的z³=1−3sx³、w³=1+3sx³及Ω=dx/(z²w²)保整格/q尺度；Raynaud配对给原A_p=(-1)^N3^(3N+1)Σ_i(-1)^i binom(n,i)²/(3i+1)，n=(p−2)/3。全部ζ半线性已付，f_N=t²δ′A_p/[4(p+1)]；指定和单位与同h筛选仍开。
 - 根实读Harrison pp9–13与Raynaud§4.1，逐式核canonical二次组合/实际自同构、九cusp divisor/ramification及首q尺度；原两退化映射degree6、q⁴因子4与模型degree3区别保留。primitive实际构造，Cartier读唯一x^(p−1)且保ζ半线性；未本地执行数学、未扫窗。继续该inverse-center和的非零，不以bundle perfectness代证明。
+
+### 2026-11-27 03:28 Asia/Taipei — R1056两种临界核列
+- R1056 §6现另给全p6N5的核列C_s=(-3)^d[r^(d−1)]q^(s+1)/j^(s−1)/[s(s−1)]，s2/8、d=(p−s)/3；H′=h²直接重推，不扩原bare身份。
+- §6逐式支付全p H′、全部安全分母和s(s−1)，与原r2 norm的scope分开。无数学执行，不另扫窗；继续实际非零及原Q²来源。
