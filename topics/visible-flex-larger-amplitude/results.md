@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- **R706（已证明，范围以正文为准）**：[再生输入保持同一准确度量的完整来源条件](results/R706-regenerated-input-same-exact-metric-definition.md) — 实际同warm与全部准确scalar参数、4e/a1ed/e091定义及固定chart给同数学g；工作包围/文件hash变化和全向量/地点身份另列。 原已刊完整论证的正式编号，无新科学复算。
+
 - **R705（已证明，范围以正文为准）**：[三份精确初根失败报告的空物理地址贡献](results/R705-initial-root-failure-empty-location-contribution.md) — 核精确4d9识别结构与三次首残差失败的全部保存闭包，证明28/34/36贡献为空；不由计数相同猜集合，不豁免未来报告。 原已刊完整论证的正式编号，无新科学复算。
 
 - **R704（已证明，范围以正文为准）**：[eta尾的线性唯一性范围与固定控制端点扰动界](results/R704-eta-tail-uniqueness-scope-and-fixed-control-bounds.md) — eta=0恢复原可积线性尾判据，任意固定eta>0保持非L1；给同固定控制的准确指数小端点差，不能推根不存在或新flex。 原已刊完整论证的正式编号，无新科学复算。
