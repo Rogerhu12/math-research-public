@@ -22,3 +22,21 @@ prepare之外五后继只更新闭合来源常量。实际AST比较确认 provid
 |`so3_axisymmetric_reference.py`|46198|`4e65577dc6b17ff4cd8256583eb9adf8b32d31deb84beb8b7ccc400e626205b3`|
 
 真实 stage5 用纯归因源 `ef017af52fd8b9801434b3af655f9fccb7d7a51e9bf0abb3ff5e85496659e338` 读取本 runner 已有 stage2 traceback，6 秒内返回（实际 5.906384144999947 秒，exit0，无缺项）。紧凑归因 JSON 2989B / SHA256 `6d862dc099a9be0191878cd5e9cd919f9f5bbea40bd5c6f0465e3634dc8efb21`。这不是新场、方向或连续认证；完整原日志留 runner，公开只记确认异常与身份。
+
+## v2 的真实准备返回
+
+同公开 run45811843606/1 的真实 stage6 已在 312.14789570699986 秒完成，exit0，无缺 outputs 或 summary errors。执行 checkout `220a65acdced5353a16faac6ff7ac52d0aba2a8b`，完整 provider `4e65577dc6b17ff4cd8256583eb9adf8b32d31deb84beb8b7ccc400e626205b3`；队列源提交为 `67020b5a9326ec17ce759aa4c8d16bb54e917498`。原失败没有删除。完整实录与全部实际 argv 保于[实际第1卷](2026-11-26-public-actions-45811843606-1-part-001.md)。
+
+|实际输出|字节|SHA256|
+|---|---:|---|
+|report.json|29803|`b3a0fe75d3d97c42e9faa32fb70f6ec8625e39c7aea6a90831bc72bf0c4f6de3`|
+|reference.npz|866178|`3cb4a0ad8bb126a71c1f088e240a70fb7ae3852f7720837f5fb5bd2278efe2f0`|
+|observations.npz|227217|`8a0dd540a98c51dc5dcba1ccba8ca942cdda122e5c9a37a7b73e353e14c4b55c`|
+|locations.json|106450|`73ea6cd6eee84f8940b4b9657b5bc50986242e3ece86d70b7c6dd6070c6e6926`|
+|supplied-location-provenance.json|223619|`b51791038ce011571f7b6a17701c8b3095af8ceccbc126cf3397899be6d55704`|
+
+这次实际固定 profile 是 `e3a06cbe5799b16a50544f34bd91f876017cdfd22e2f56fc0ba69fd9b05bb00b`，model 是 `4cdb25528b9275438bd5acc78b08440bea4609240547dc92f42b7b11a2b40772`，原 scalar 参数 identity 是 `e640aec831df350fa69740650b723a7d2d55676ca64ffb5ddabbacb3ab7d6dfa`；没有预填旧383168或另一个run的identity。
+
+实际 M160/J923/N2048/P7377 全保；新自由H的工作种子为1.9470544370684175，准确定义仍是自由H，未把工作积分当精确积分。标量无限尾盒有效、1512 leaves，300秒请求精度仍为false；R载体误差2.373129134780865e-13。14753次完整T0查询的四标量读数误差分别为5.41898353418071e-14、5.413532044282941e-14、1.4980181584957043e-12、9.453185076344921e-11；这些不是完整场、trig/归一化、Gram或连续几何证书。
+
+全部已提供11历史payload转换后实际1250个curvature、208个radius地址、18个protected curvature、1782个记录occurrences，pending grid为0；保literal binary位置、未round或虚构其它runner后继点。输出只留runner，公开上述身份和紧凑读数。此时物理F/Gram尚未读、新方向尚未返回；后继完整hDelta与零Delta实际求解继续。
