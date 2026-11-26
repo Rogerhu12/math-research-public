@@ -6,7 +6,7 @@
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。固定有限曲线族的联合无穷非零可用无限鸽巢；有限p、随p换曲线、条件桥、非零投影或接口均不完成。
 
-- 两仓库已部分克隆。公开根/课题 README 已读至 `8c02e554c67c0ff6fcc229543ddb1fd61d36a38e`（差异空）；每次pull只读两文件新差异，至少每小时同步并记SHA。
+- 两仓库已部分克隆。公开根/课题 README 已读至 `7ff7575a83973b76613bfbe4f6f9f6f6521917ee`（差异空）；每次pull只读两文件新差异，至少每小时同步并记SHA。
 - 私库QUEUE接手已推41fe885610073f478b2f5a752461ca56cfd43f09；21:52 UTC pull至b9b67887dabefa2da9cfac805c7271433cf15a4e，README差异空、QUEUE仍本会话进行中。目录math-research-public、math-research-private；令牌仅进程认证。
 - root独占git/H/open/log/index；每条结论完成即推，非快进立即pull --rebase、检查README再推至成功，不强推。数学只用公开Actions；不存可重算矩阵/数据/log。H<10KB，每MD<100KB。
 - [此次逐字归档](notes/2026-11-27-handoff-before-local-two-trace.md)及历史链保全部旧状态；[open](open.md)、[results](results.md)、[R951–1000索引](notes/PROOF-INDEX-R951-R1000.md)保全部未解门，未默删。
@@ -61,12 +61,12 @@ R984：原R854三canonical在几何Griff²(W)非零独立；H³(1)/(2)、Picard 
 
 R988：实际level12 K3/MW Z6/NS判别式−12给全ψ0²（导子2）；有限L Shioda–Inose/同源Chow逆降K，Kimura rank2误差平方零，准确逆2B−BAB。张量E0/三η返回原ψ0³η⁻¹(2)，全finite/wild及AJ图保。
 
-**R990**：R988新CM17图族经实际二同源到全二级K3；S3 transposition在t2上确为Chow −1。只在2支撑的u=1+2ω局部Artin元固定原H与全部奇挠点，在E0[4]上给B→B+A，故全17子群/level的新图族取迹到H已在CH²_Q为零。独立Mackey算全局部Hom为0，含所有平移。仅排这份新族，不排旧canonical/原端点。geometry转好约化于2的E27:y²+y=x³，须重付全扭曲/3wild，未得非零新循环。
+**R990**：R988新CM17图族经实际二同源到全二级K3；S3 transposition在t2上确为Chow −1。只在2支撑的u=1+2ω局部Artin元固定原H与全部奇挠点，在E0[4]上给B→B+A，故全17子群/level的新图族取迹到H已在CH²_Q为零。独立Mackey算全局部Hom为0，含所有平移。仅排这份新族，不排旧canonical/原端点。geometry续E27及三扭曲完整局部型；[I9/I3实际几何](notes/2026-11-27-congruence-i9-i3-surface-and-correspondence-scope.md)已付F²=[−3]与全部有限Aut商非K3，最高λ非零仍缺。
 
 Kato/BKO完整桥及Adachi/新预印本范围已在notes，不重查登记的文献。其余O4/O6/O7、P134/十九角/charge40/10980/WD/TM/TJ门详open与历史索引，全部保留。
 
 ## 五、接续分工
 
-central续R989真实特征p两超几何参数消元；arithmetic续R987实际Cartier/非canonical边界；geometry续E27完整角色新输入并跟唯一v8；root消费证明/逐条推送，续新模曲面实际比较；central正消费f0=σ10x²的13-old混合真零，未宣布全中央矛盾。不得把来源变换、局部非零或纯表示匹配写成主目标完成。
+central续R989真实特征p两超几何参数消元；arithmetic续R987实际Cartier/非canonical边界；geometry续E27完整角色新输入并跟唯一v8；root消费/推送并续最高λ非零；central消费f0=σ10x²的13-old混合真零，未得全中央矛盾。不得把来源变换、局部非零或纯表示匹配写成主目标完成。
 
 中央入口scripts/check-original-e65-full-cm-sixth-axis.py/ci/e65-full-cm-source-request.json；几何入口scripts/produce-original-triangular-artinian-shadow.py及对应request/workflow。结论完成即推，随后继续下一个未解门。
