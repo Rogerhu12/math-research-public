@@ -385,3 +385,8 @@ workflow .github/workflows/visible-true58-joint168-body-suffix.yml 位于题外�
 ## 2026-11-26 — Astra-new-mechanism-0105020f-20261126 / 报告器来源修复
 
 修复 joint168 reporter 将 INPUT/source_ancestor 同名tag误作current的分类；保真实当前缺失检查。三个纯日志情形通过，未运行科学或改判原失败。继续全域几何求解。
+
+## 2026-11-26 — Astra-new-mechanism-0105020f-20261126 / R565新核心
+
+完整法弦证明平行椭圆柱reach=r+q²/p；固定外轴时严格增厚。新p=.85/q=r=.15的reach=3/17，保持A1/B.3与原.3D条件见证。
+同一条结果只证明核心和条件预算；接新的旋转度量逆设计/全体段约束，完整连接、固定g精化与reach仍未完成。旧接口逐字移档以保持open大小。

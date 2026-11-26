@@ -6,7 +6,7 @@
 
 ## 1. 规则与接手
 
-已部分克隆并实际 `git pull main`，公开根 README、课题 README、HANDOFF、open、results 索引及相关 log/notes 已读。公开已读提交 **0cce0bd70f245a11f13a0c38f13431bf5d9bfc4f**（2026-11-26 05:33 UTC；本次实际pull后根/题README空差异）；私有根初读 **85fdf1853367ef25c07f3ebdb6ae25c22a3564b8**，随后逐次 pull/rebase 检查根差异，空差异。私有 QUEUE 的本题已改为本会话进行中并成功推送：**9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7**；最后规则空差异读至 **6354c0f712b212f94dfa393f996d1ca47b5d9165**。其它课题的并行认领保留。
+已部分克隆并实际 `git pull main`，公开根 README、课题 README、HANDOFF、open、results 索引及相关 log/notes 已读。公开已读提交 **f8912eafa6d420f72107455c71cf2fd8044259b6**（2026-11-26 05:37 UTC；本次实际pull后根/题README空差异）；私有根初读 **85fdf1853367ef25c07f3ebdb6ae25c22a3564b8**，随后逐次 pull/rebase 检查根差异，空差异。私有 QUEUE 的本题已改为本会话进行中并成功推送：**9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7**；最后规则空差异读至 **6354c0f712b212f94dfa393f996d1ca47b5d9165**。其它课题的并行认领保留。
 
 初始执行盘仅余约 11 MB，普通历史的 blob:none 部分克隆仍在对象索引阶段磁盘不足，未改变远端。随后以 `--filter=blob:none --depth=1 --sparse` 在本次临时目录成功克隆两仓；公开仅检出本课题，私有仅根文件。终端 git 已恢复；旧交接中 11-16 执行环境不可用的描述不是本次现状。令牌只在命令行临时环境使用。
 
@@ -24,6 +24,10 @@
 最新接受点仍为 **58**：粗/细辅助度量量 $.26600541430262403/.26600541463999305$，细曲率 $57.9997782607127$。这些数不是握持变化量。主 reach 所需局部曲率约 $1000/61$，还欠完整非局部法弦界。全域球半径1.01和条带 $.38999$ 的连续支持条件若真满足才可使用 R33/R40 的 $.3D$ 幅度预算，当前未付。
 
 原 ring17、反射 R1、joint19、free36、prefix102、whole34、full51、full62 均已失败闭账，不重做。11-16 遗留的 `joint168-fixed-height-continuation` run **43925761699** 已实际终止：research job **133504652845** success，report job **133517748533** failure。[原 research 日志已闭账](notes/2026-11-26-geometry-continuation-agent.md)：唯一solver达时限，无OptimizeResult/候选/预测/actual；新1234.031220492秒，祖累计5018.790751846秒/147原full值。末非候选 trial 的曲率约46.2343而全域metric峰升至.7838387322；固定selected池漏新峰。report误把嵌套祖COMPLETE当current而失败。须改变全域约束覆盖/几何表示，不延长旧SLSQP，不升格末trial。
+
+### 新几何输入：O2b 逆设计
+
+[R565](results/R565-parallel-oval-core-exact-reach-and-amplitude-budget.md)已证平行椭圆柱reach恰r+q²/p。新固定p=17/20、q=r=3/20保持外轴A1/B.3、核心reach3/17；其周长/待设计度量与旧g不同。正在实现同时设计a,z和全角切向的旋转度量连接，C∞平坦端口、全体段metric峰交换；未有新数值候选。最后必须冻结新g再精化，不能把换g当收敛；完整连接和全闭reach仍欠。
 
 ## 4. O4 两个不同母库的有效入口
 

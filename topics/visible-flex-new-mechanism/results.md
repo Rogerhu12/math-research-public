@@ -178,3 +178,5 @@
 - [joint168原余额续接run定位](notes/true58-joint168-fixed-height-continuation-launch-20261116.md)：唯一run43925761699/source951c553ae1ccb1df9dcd5b44944acb311a7a89ec、research133504652845进行中；仅运行元数据，未读在途stdout，仍58。
 
 - [joint168 遗留运行闭账与全体段漏峰](notes/2026-11-26-geometry-continuation-agent.md)：**原输出观察**，1200秒solver钟停无返回/候选/actual，仍58；末非候选κ约46.2343而全域η约.783839，固定selected池漏峰。新1234.031220492秒、祖5018.790751846/147；report祖记录误分类已定位，下一全域约束交换。
+
+- [R565 平行椭圆柱核心的准确reach与幅度预算](results/R565-parallel-oval-core-exact-reach-and-amplitude-budget.md)：**已证明**半轴p/q椭圆外偏移r的柱面reach恰r+q²/p；固定外轴A/B时随r严格增加。新固定p=17/20、q=r=3/20有A1/B.3及reach3/17，保持原.3D条件见证、显著增加核心厚度余量；完整连接/固定新g精化/全闭reach仍未付。
