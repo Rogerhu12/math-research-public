@@ -4,7 +4,7 @@
 
 ## 规则与完整目标
 
-最近规则核查：2026-11-26，真实pull/rebase至 `2cdd71ef0efc0016c90b2b0b85cdcd3b5c7956c7`，根及课题README相对f0548477无差异，已完整读授权及规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
+最近规则核查：2026-11-26，真实pull/rebase至 `4f2ab444c581e7384b89f8d87fbf16c3bdcfb3c0`，根及课题README相对f0548477无差异，已完整读授权及规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
 
 科学计算仅本公开仓库Actions；早前本地偏差及纠正见[执行记录](notes/2026-11-20-public-actions-execution-correction.md)。root唯一分支写者；代理只scratch及未引用小源blob。每条结论普通commit/push，NFF立即pull --rebase循环再推，不强推。至少每小时pull，每次核双README差异/立即遵新规并记commit。raw只scratch/runner，不入Git/Release/artifact；保完整小源/参数/run/SHA/紧凑结论。题≤200MB、单文件<5MB、MD<100KB、H<10KB、open<30KB。令牌仅瞬时CLI。环境失联后的恢复及全部原字见下列固定历史；未补造raw。
 
@@ -18,7 +18,7 @@ R653 quarter、R654全H²及R655旧1845+六Gauss5532=7377正权观察、.5/.5测
 
 压缩前完整状态见[7bad完整H](https://github.com/Rogerhu12/math-research-public/blob/7badf9593adbabee0f9b5b5f3f6963b1ef2f5e91/topics/visible-flex-larger-amplitude/HANDOFF.md)，并循其906da/402d/36cd/81150/51ab链。旧全部失败/未返/适用条件和来源保[results](results.md)、[open](open.md)、log与notes，不重做已登记结论。旧未返K/raw不以SHA补造、不跨场迁证；线性/quintic障碍不推非线性不可能，任意mean未保证可实现。
 
-十六次raw普通移出及原小源/全部参数/恢复commit见[容量记录](notes/2026-11-20-resume-raw-retention.md)。Python3.12.14/NumPy2.3.5/SciPy1.17.0/单BLAS，SO3另CPUtorch2.5.1/float64；完整来源在[独立运行说明](notes/2026-11-26-independent-public-nonlinear-continuation.md)及实际运行卷。finite typed不冒连续，iteration_limit不冒驻点，零步不冒精化。
+十八次raw普通移出及原小源/全部参数/恢复commit见[容量记录](notes/2026-11-20-resume-raw-retention.md)。Python3.12.14/NumPy2.3.5/SciPy1.17.0/单BLAS，SO3另CPUtorch2.5.1/float64；完整来源在[独立运行说明](notes/2026-11-26-independent-public-nonlinear-continuation.md)及实际运行卷。finite typed不冒连续，iteration_limit不冒驻点，零步不冒精化。
 
 ## 本次实际结果与继续入口
 

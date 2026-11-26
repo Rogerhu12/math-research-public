@@ -475,3 +475,11 @@ git show e95fea50651bcfe32aad52826caa8a692c2ff741:topics/visible-flex-larger-amp
 普通移出 `root-strong-double-boost-q038-m96.json` 与 `root-strong-double-boost-q038-m128.json`，原字节分别 611505 与 787285；完整身份、全部非数组字段、首末完整row、61个轨道状态的大小、完整argv/defaults、两件完整小源及两个仍保留祖先输入见[紧凑复现记录](../computations/resume-20261126-legacy-double-boost-retention.json)。完整原字节可从提交 `51ab895bc75e45349d005a043393f285f3111a34` 的相同路径恢复，原件另留scratch；不改历史。
 
 实际SHA分别 `4d3d3add9b053d6946b908a014267d15da0200a4dbc3c041b8c513123bfef574` 与 `ed4e9086205958df3a569d601490625c8001c8c87b1acab3445590d5dacd1871`。完整源0af61a3b/cf163a5c及直接输入3d8ebf12、祖先6d3ef805逐字核验；只做JSON字段复制、元数据/SHA与依赖文本搜索，没有重新运行轨道或重算任何科学量。原runtime版本/OS退出码/run未记，不填猜测。原数值结论和失败范围完整保留于[root旧记录](root-refinement-and-failed-steps-20261110.md)：两条到达s=1.15，样本误差仍超1e−6且遮挡旧位移见证，只有开放片；不因清理把两阶样本下降升级为闭曲面或完成的精化。当前deep/Haar/SO3求解不读这两输出。
+
+## 17–18. 2026-11-26 原 Hermite 与 fast M128 开放轨道
+
+普通移出 `alternative-hermite-k045-v04-s065-m128.json`（527328B）与 `alternative-fast-A041-m128-v035-s045.json`（515653B）。完整原字节逐字核对固定提交 `a88b10b30969fb1e39d1f6ce9b24a71c00fe4f36`，另留scratch；原source/全部配置/首末完整row/全部非轨道字段/实际大小与SHA、完整argv及恢复blob见[紧凑记录](../computations/resume-20261126-legacy-hermite-fast128-retention.json)。未改历史，未来科学重生只可公开Actions，raw留runner。
+
+原完整controlled0af61a3b、probe cf163a5c、fast d6e0515c逐字核对且继续留原路径，无外部轨道输入；由原解析core与全部config产生。原Hermite到s=.65、metric样本9.51982936925333e-12/kappa样本5.157343605233196；fast到s=.45、metric样本2.5001334336138825e-11/kappa样本8.160234358656169。这些全是旧JSON转录，不是新科学计算，且都是有边界开放片，不能冒闭面、完整reach、20%整像保持或严格存在。旧runtime版本、OS exit及Actions号没记录，仍为未知。
+
+定向依赖搜索只见两件旧geometric-core-screen的原input引用；它们和[原数值几何说明](geometric-prefix-phase-screen-summary.md)原样保留，如需重读旧系数轨道先从上述固定提交恢复scratch。当前deep/Haar/SO3求解与参数不读取这两路径。只移出各41套完整系数状态和386末系数及逐径向数组，没有把数组改名参数上传，没有重做任何旧结论。
