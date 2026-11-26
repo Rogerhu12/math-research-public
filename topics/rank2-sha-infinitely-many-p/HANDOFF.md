@@ -6,7 +6,7 @@
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。固定有限曲线族的联合无穷非零可用无限鸽巢；有限p、随p换曲线、条件桥、非零投影或接口均不完成。
 
-- 两仓库已部分克隆。公开根/课题 README 已读至 `217439a767c993dc64b9ea28b0f8d65eb85a4afd`（差异空）；每次pull只读两文件新差异，至少每小时同步并记SHA。
+- 两仓库已部分克隆。公开根/课题 README 已读至 `3e6f07d3acc376cdaa6e7c801f9f8675fe53e4ff`（差异空）；每次pull只读两文件新差异，至少每小时同步并记SHA。
 - 私库QUEUE接手已推41fe885610073f478b2f5a752461ca56cfd43f09；21:52 UTC pull至b9b67887dabefa2da9cfac805c7271433cf15a4e，README差异空、QUEUE仍本会话进行中。目录math-research-public、math-research-private；令牌仅进程认证。
 - root独占git/H/open/log/index；每条结论完成即推，非快进立即pull --rebase、检查README再推至成功，不强推。数学只用公开Actions；不存可重算矩阵/数据/log。H<10KB，每MD<100KB。
 - [此次逐字归档](notes/2026-11-27-handoff-before-level-nine-and-eleventh-source.md)及历史链保全部旧状态；[open](open.md)、[results](results.md)、[R951–1000索引](notes/PROOF-INDEX-R951-R1000.md)保全部未解门，未默删。
@@ -17,9 +17,7 @@
 
 旧失败/修复见[终点链](notes/2026-11-27-artinian-v7-final-and-successor.md)：R974原omega/双向坐标与厚Norm已实接v8。R975/R986及root[完整零纤维适配](notes/2026-11-27-original-zero-fiber-frobenius-preparation.md)均未运行/未接v8；当前306 Frobenius已过，不另启重型作业。
 
-**中央v8已成功**：run45892525657/job140158402506/sourcec3fc3c60605f4455fc57177367c89e56a9763f6a，20:38:41–20:46:00 UTC；20份manifest/18源码AST及全部旧门保留。R982四新角/十低行、R983三alpha全非零，stdout90103B/log208485B的hash见结果。
-
-**R987独立direct22已成功**：run45898016632/job140176625597/source05bed6026bd3b75f7f77b1927f55f72e4ed689cb，21:25:14–33 UTC；原48纤维/22全列/两extra/原66限制hash全返，完整good13双列及两个质量代数都返。原v5/v6/v7均success，全22/66/44谱与source/hash见R976–978。R993同入口run45903334519/job140194103108/source4d1a123b11a4161bdd4e4592eb145ff163d65a38于22:13:07–20UTC全部PASS，8.852秒；同次全13边界/首商回执见R993。
+**中央真实回执**：v8 run45892525657/sourcec3fc3c60605f4455fc57177367c89e56a9763f6a全20源/18AST/旧门PASS，R982十行与R983三α全部返。R987 direct22 run45898016632/source05bed6026bd3b75f7f77b1927f55f72e4ed689cb全48纤维/22列/66限制hash/两good13质量代数PASS。R993同入口run45903334519/job140194103108/source4d1a123b11a4161bdd4e4592eb145ff163d65a38于22:13:07–20UTC全PASS，8.852秒；完整常数/hash见各结果及归档。
 
 ## 二、已经支付的固定算术来源
 
@@ -42,6 +40,8 @@ R982十源完整角帽仍4/13、Norm B6/原69343导子不变，十jet满秩给�
 - **R987**：两13核六点平均质量mM=(3−δ)√π/332640、mU=−(3+δ)√barπ/332640；β=−(1+2δ)/997920，指定bar根为−mU。两个归一源准确相差3Δ125/4+C_bΦ*，canonical坏时ordinary/inert真非零差。质量单位不增>211坏位。全mixed对偶保留，carry仅first-axis scalar；两个translated测试没有免费零。完整13-primitive核由离13 CM norm保持（inert交换两核），须找实际非canonical边界。
 
 - **R993**：原Z在两个13核均单位，L值resultant6912π(4+δ)；实际ρπ=−11(1+δ)/40及共轭相差−11δ/20单位，消去均恰1阶/首商全返。Gold补足二次质量边界。完整Miller frame保权dT=1−P2(T)^65(DR)^10；两核可用ρ差分离，但全Cartier还保移动Z零点/二挠/低卷积，不能把canonical零当局部零。
+
+- **R992**：X130=(Δ12500−Δ125)/(45360δ)，完整P_X degree20首项1、固定分母只2/3/5/7/13，仍原B6帽；全部好inert二重中央零，普通准确限R968 wholeS10射线。H+−8H−/5−11(F11,+−F11,−)/23625=−2X/25全身份；第11行沿R989同p6/完整尾，不扩窗。四源两13核边界det单位，余协向量R∂=barπω²tπ−πωtbar；(N7+ω²)X=Δ125/45360明确中央非零。保全部P2/Miller高jet/移动Z/二挠，不把Hecke像赋零。
 
 ## 四、几何与全局门
 

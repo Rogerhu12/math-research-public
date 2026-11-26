@@ -99,3 +99,6 @@
 
 
 - [R991](../results/R991-three-cubic-twists-and-explicit-level-nine-toric-input.md)：三个实际三扭曲的全有限/无穷角色及strict最高Chow同构已付。E27的π/χ在2、3、17的split Hom全部非零，E4在3仍阻塞；实际3处compact type/Mackey和2/17全toric向量均给出，保原9级与真实34同源。Γ曲面准确为I9/I3、pg=q=1、T=Indψ27²，非K3。Rankin分解保最高原λ，混合β27=ψ27η的level31212/root+1；原L′(λ,2)非零保持，固定β27 L(1)与新图最高AJ非零继续。
+
+
+- [R992](../results/R992-original-common-old-zero-line-and-eleventh-central-source.md)：原f0=σ10x²的指定π/barπ差给首项一的whole X130=(Δ12500−Δ125)/(45360δ)，全部好inert二重中央零、普通在原wholeS10射线也准确零。全H/F11 old混合身份及第十一同p6行/完整无限尾已付，角帽不变；实际good7像反而明确中央非零。两核完整质量及与两canonical/Gold的四维det单位给唯一剩余边界协向量，保全P2/Miller/高jet/移动Z和二挠项，尚无全中央矛盾。
