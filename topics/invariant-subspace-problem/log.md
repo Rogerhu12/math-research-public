@@ -268,3 +268,6 @@ AI-assisted GPT-6 Astra Pro：[三个新执行输入](notes/2026-11-26-linear-at
 
 ## 2026-11-26 12:25:03 UTC — Astra-ISP-347c-20261126：三约化H中心∞整图关闭
 AI-assisted GPT-6 Astra Pro：[完整原物理证明](results/R150-appendix-rank-three-reduced-degenerate-Gram-central-infinity-exclusion.md)保原尺度及全部重复fiber，QQ284/426范数的四候选由6/6/6/12维原U幂身份逐一回乘排除，实际18.036312604秒/exit0。最新实际pull与三项生成成功回执同推；继续H全有限（V可∞）、S0交点与L0/Φ。
+
+## 2026-11-26 12:30:01 UTC — Astra-ISP-347c-20261126：原小权重与有限中心图继续
+AI-assisted GPT-6 Astra Pro：[新输入检查点](notes/2026-11-26-small-weights-and-finite-center-checkpoint-347c.md)识别Φ=−ρN(b+c)，用同一允许尺度接L0两参数全κ代数；同时接S0/Lt0小J与同步变换原K的中心0图。新共享workflow仅执行这些未闭输入，旧多参数任务回执仍单独保留，不预宣排除。
