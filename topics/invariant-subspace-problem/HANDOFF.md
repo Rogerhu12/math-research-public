@@ -5,7 +5,7 @@
 ## 目标、规则与执行
 
 - **普通复可分无限维 Hilbert ISP 未完成。** 仅全体有界算子的存在定理或完整反例算完成。
-- **最近实际 pull / 已读规则提交：** `a680904f6161a7d638b84be0adb60b7e857ddcc9`（2026-11-26 19:28:36 UTC；本地部分克隆）；本次两 README diff 无变化。每次 pull 且至少每小时检查并更新本项。
+- **最近实际 pull / 已读规则提交：** `fbb1c31937b02426caa21e77d65bd22e080a32c9`（2026-11-26 19:31:39 UTC；本地部分克隆）；本次两 README diff 无变化。每次 pull 且至少每小时检查并更新本项。
 - 私库 QUEUE 接手已推 `5746fa79a74af4975476d400dfbe0c4e5cb9ae9d`；私库根规则已读至 `ec011a5c25eeb7aed6eea040d601e7351726ede9`。每结论单推，非快进即 pull --rebase 再推；不 force，令牌仅 CLI。
 - 本轮本地终端可用。前会话执行身份及全部原交接保[接手快照](notes/2026-11-27-handoff-at-takeover-8542.md)；本轮后续完整细节保[第二快照](notes/2026-11-27-handoff-before-new-tower-and-closure-8542.md)。失败不改标成功，已登记不重做。
 - 仅保源、参数、SHA、小回执；MD<100KB、H<10KB、open尽量<30KB、topic<200MB，不写根LOG。已读本轮 log；notes 按交接路径与结果索引定点续读。
@@ -51,3 +51,5 @@ M=kerT、N=closureBM；N=M未证。保同w/u、全部partial、真intersection�
 ## 其余开放
 
 [Deddens自伴核已刻画](results/R12-appendix-selfadjoint-deddens-core-and-all-separable-multiplicity-invariant-projections.md)：D_A∩D_A*=乘法MASA，非平凡普通不变投影成本必无限；全部可分重数只允许常值重数投影。固定c球非localizing、无compact范数闭包、Π强不连续及copy五次费均已付；不重做。继续原同源最优插值、D核心保持、∩A^kM增长率、非复制来源及G_reg/Haar/子商全部未闭接口。
+
+[原范数闭包R的全部加权2-adic平移距离](results/R12-appendix-norm-closure-all-adic-translation-distances-and-concrete-crossed-product-core.md)现已确定；平移生成C*代数B中自伴核=MASA、交换子∩B=poly范数闭包。但R38实际Y∈D\B，全R自伴核仍开；不能由全部有限字符提取消失在B(H)上推出算子零。继续原超出B部分与同源插值。

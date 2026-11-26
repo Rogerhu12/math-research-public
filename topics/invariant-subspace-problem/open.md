@@ -83,8 +83,6 @@ rankH4所有proper局部单零层（长度2–5）已闭，原双点单零的单
 
 **[大辅助真实F0完整逼近](results/R271-appendix-large-auxiliary-variance-true-kernel-galerkin-approximation.md)已付：** 原未加权压缩inverse、全部低新增孔F_t/F0、r=3d+1及原R/Q合法窗均已付；原同u/partial与准确费用见正文及本次open快照。仍须Sx孔权或完整MP/真帽物理返回，不以无权小残量代付。
 
-**[大辅助零列不能冻结返回](results/R271-appendix-large-variance-fixed-zero-column-return-lower-bound.md)：** 固定原零列的真实核返回有√x下界；该障碍不适用于重新最小化全部列。旧准确常数及合法窗保归档，勿重做。
-
 **[真空源矩给实际物理1/y运输及全inverse权界](results/R271-appendix-vacuum-source-moments-all-strong-physical-transport-and-weighted-inverse.md)：** 原全部新增位的精确elementary/falling-factorial平方和≤ηe^(ηH)μ1；正号翻译保旧/新两个真实物理同u列，Γ_new差≤96√μ1/(√(3K)y)，一次log方差选择对全部合法x/Q给Δ/(y√K)。原完整inverse的Γ共轭≤31/30，闭自然域推广无限L_m及全级数Gram。它仍是大辅助全空间正则化源，不是物理核，也不能把增长Q的同源身份当固定cut；继续原T比较、真约束Schur及物理返回。
 
 **[原全T完整Gram逆闭孔权](results/R271-appendix-global-actual-operator-weighted-full-gram-inverse.md)已付：** y=m+d、s≥2²⁴/y时原全有限/无限J inverse共轭≤16/15，完整L比较、闭域/伴随与同w身份见正文及快照。s趋零须移动权起点，不能据此推出P_M的同孔权；真F0/物理MP继续。
@@ -130,6 +128,8 @@ A单射、稠密像、拟幂零且非紧；普通非零真闭不变子空间仍�
 
 **[自伴Deddens核及全部可分重数投影已完整刻画](results/R12-appendix-selfadjoint-deddens-core-and-all-separable-multiplicity-invariant-projections.md)：** D_A∩D_A*=L∞乘法MASA；真实非零真A不变投影必有无限Deddens成本。任意可分重数中，有有限成本的不变投影只为常值重数投影；故“有界投影自动有有限成本”这一步不可用。未证明未知M被全D保持；继续同源插值及非复制来源。
 
+**[全部2-adic平移距离与具体C*自伴核已确定](results/R12-appendix-norm-closure-all-adic-translation-distances-and-concrete-crossed-product-core.md)：** t∉N0时dist(M_vU^t,R)=||v||∞，n≥0时为原W_n零点邻域的本质一致消失范数。平移生成B内R∩R*=MASA，交换子∩B=poly范数闭包；R38实际Y∈D\B，故全R自伴核仍开，不能越过这一真实剩余部分。
+
 硬复制和任意复软复制（自适应、统一有界放大、固定非零球）已有五次累计成本障碍，原幂衰减只有四次；软化cut不能修复。一般有限头重排与非复制来源仍开。未知A不变空间未证被D核心保持。
 
 ## 4. 其余开放路线和范围
@@ -148,7 +148,7 @@ A单射、稠密像、拟幂零且非紧；普通非零真闭不变子空间仍�
 
 **[R=d同W全能量及原截断源全矩已付](results/R271-appendix-geometric-cutoffs-same-w-complete-energy-and-d-sized-once-mp.md)：** H_C(8Sx)≤Hω保全高度。任意w∈M的P_xw经原行迭代与e^(−47d⁴)全carry误差有全矩可和；R=d,x=m+d,h=2d,Q=2d³及真帽cut数d³−5d合法。旧K*一次全MP适用，真实残量仍−Cq1；同forcing、有锚第二Green及稳定核返回继续。
 
-**[S0/Lt0的g2零面现已完整关闭](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-theta-leading-zero-exclusion.md)：** 原λ144次结式/squarefree43保所有低谱，最后36谱返回完整72维原代数；E1/EB结果式真逆实际回乘1，30次真域逆、4.738630秒/exit0。原θ一次首项由J非零支付，不假设二次塔不可约。[g2非零的原θ伪余式R0=R1=0例外也已完整关闭](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-theta-remainder-zero-exclusion.md)：82次覆盖全部返回，末43×2×2原代数的Res_t(E1,EB)真逆乘回1，26.732127秒/exit0。仅续r1非零的一般图，θ=−r0/r1现可合法代入。
+**S0/Lt0现只续r1非零一般图：** g2零面与g2非零的原θ余式双零例外均已完整关闭，末72维/172维原单位与所有参数覆盖详见结果索引及快照；θ=−r0/r1已获合法除法。
 
 **[全部固定次数及同源慢增的真实顺次MP已付](results/R271-appendix-fixed-successive-actual-mp-common-variance-and-slowly-growing-depth.md)：** 共同c_k=2·512^(2k)方差窗保所有r≤k的完整K_(r|k)费用、原−Cq_r反馈与同一母支持；终列准确为Σ(−C)^pa⊗(D†)^pΩ。任意同w∈M可选k_m→∞、k_m≤m/12，使修正/误差/残量平方可和且s_m→0。仍未付k=h_m−1的实际终端费用；近核列不作kerT或closureBM，接同w真实层相关性/精确残量清除。
 

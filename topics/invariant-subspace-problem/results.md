@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R12 全部2-adic加权平移到原Deddens范数闭包的距离已确定（2026-11-27，已证明）：** [原回绕块、精确距离及具体C*自伴核](results/R12-appendix-norm-closure-all-adic-translation-distances-and-concrete-crossed-product-core.md)给t∉N0时距离=||v||∞，n≥0时为零点邻域上的本质一致消失范数；有限字符收缩保成本极限次序。在全部M_vU^t生成的具体B中，R∩R*∩B=乘法MASA且交换子∩B=多项式范数闭包；R38原Y∈D\B证明范围不能删。全B(H)秩一字符提取均趋零，故未把部分系数唯一性扩到全R。
+
 - **R271 同一精确相容塔的近最优窗口扩至三分之二幂（2026-11-27，已证明）：** [固定基数负相关与完整同源真核比较](results/R271-appendix-fixed-cardinality-negative-correlation-near-optimal-compatible-vacuum-towers.md)直接控制真实σ_r||v_r||，未忽略碰撞或更换列；L=o(x^(2/3))时全塔趋最优，平方损失O(L(L+logx)²/x²)。返回同forcing/完整Gram/真实短核距离，固定头误差降为O_m((logx)^(3/2)/x)，Chebyshev模型窗从exp12d⁴降至exp9d⁴；原全局母窗与稳定范围端点仍开。
 
 - **R150 S0/Lt0、g2非零的原θ伪余式双零例外为空（2026-11-27，已证明）：** [完整82次参数覆盖与172维原单位](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-theta-remainder-zero-exclusion.md)返回九个低/首项谱及末43次谱，原Res_t(E1,EB)真逆实际乘回1；θ/d两根均保，不假设二次塔不可约。自含新源exit0/26.732127秒/49952KiB，旧直接数域运行中断不改标成功；剩余一般图可合法用θ=−r0/r1。
