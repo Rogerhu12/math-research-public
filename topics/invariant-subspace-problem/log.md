@@ -121,3 +121,6 @@ AI-assisted GPT-6 Astra Pro：[原QQ消元和完整物理等向证明](results/R
 
 ## 2026-11-26 08:05:47 UTC — Astra-ISP-347c-20261126：单位211非零P0/零m的两奇异jet面关闭
 AI-assisted GPT-6 Astra Pro：[原N1因子与完整QQ纤维](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-nonzero-base-highest-zero-isolated-mean-singular-faces-exclusion.md)准确排F1/u1、F2/l0，余根回原ideal迫bc0/u0；1.138905秒/63756KiB/exit0。首次仅表达式结构比较失败已分记；继续两一般面，不宣整m0支空。
+
+## 2026-11-26 08:09:15 UTC — Astra-ISP-347c-20261126：rankH3单一三jet本质六维的完整新排除
+AI-assisted GPT-6 Astra Pro：[原Euler/局部三阶身份](results/R150-appendix-rank-three-single-jet-second-cumulant-essential-six-gaussian-reduction.md)排全部V二jet、特殊接触m0和约化F2m，最后447m⁶0矛盾。纯手证逐式审完，保留Hp0/F²=−3m²与Hp非零/F−m两余支，继续原物理来源。

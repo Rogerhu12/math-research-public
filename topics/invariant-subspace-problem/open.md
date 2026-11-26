@@ -64,6 +64,8 @@ $$
 
 **[单位211非零P0、零m的两奇异jet面全闭](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-nonzero-base-highest-zero-isolated-mean-singular-faces-exclusion.md)：** 共同缩放p+q2、Q=pq后，E0=N0全局图的原N1分成F1F2；F1的g系数2Q(u−1)、F2的g系数−2lQ²。准确已闭F1/u1与F2/l0，非同名参数的另一面不误排；QQ22/58/44与59/92/88末纤维分别迫bc0/u0。源1.138905秒/exit0，继续F1/u≠1与F2/l≠0及根负责的m非零。
 
+**[rankH3单一三重jet的ess6新归约](results/R150-appendix-rank-three-single-jet-second-cumulant-essential-six-gaussian-reduction.md)：** 原合法坐标/单位规范H后，HK谱(−m/2,m,−m/2)，保全部V收缩的Euler恒等式排V二jet与所有m0特殊/∞。约化V/F2m由原三阶系数和两个V值推出447m⁶0，故只余普通源、约化V的Hp0/F²=−3m²或Hp非零/F=−m。继续其原物理极线，H2+1及非退化三值Gram另保开放。
+
 ## 2. R271：同一来源的完整物理费用
 
 目标仍是 $M=\ker T$、$N=\overline{BM}$ 的 $N=M$。保同一 $w/u$、全部 partial、真实 intersection 旗、MP 自然域、负前缀/未来/carry、完整帽逆伴随及外投影；所有已闭引理只能按原范围组合。

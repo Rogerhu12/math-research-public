@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R150 rankH3单一三jet本质六维排除非约化V、特殊接触及F=2m（2026-11-26，已证明）：** [合法原jet规范、完整Euler与447矛盾](results/R150-appendix-rank-three-single-jet-second-cumulant-essential-six-gaussian-reduction.md)保同一原六列基及V全部线性/二次项，覆盖0/2/−6/∞。完整最高式三阶系数把F2m的两符号分支排尽；只余普通H源、约化V的Hp0/F²=−3m²或Hp非零/F=−m。纯手证，无新增数值门，其余H支撑型及原ess4/5继续。
+
 - **R150 单位2+1+1非零最高基值、零孤立点均值的两奇异jet面为空（2026-11-26，已证明）：** [原对称图、N1准确两因子及完整例外返回](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-nonzero-base-highest-zero-isolated-mean-singular-faces-exclusion.md)以同一原代数/全jets，关闭F1/u1和F2/l0这两个精确范围。QQ22/58/44与59/92/88结式只余Q15/16或4，回原理想迫bc0或u0；自含源1.138905秒/63756KiB/exit0。两因子的一般部分与m非零仍继续。
 
 - **R150 单位2+1+1整个最高基点值零分支为空（2026-11-26，已证明）：** [全权重/线性图与原物理等向矛盾](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-zero-highest-value-exclusion.md)对一般q保原P/N jets及零点mean；41/42与31/31次完整QQ结式的全部末纤维排除，D0双图单独付费，半权P_i=2N_i直接迫不可能的等向2A+Z。唯一抽象零t族用完整Gram秩二矛盾，未误称抽象空。自含原式源16.849538秒/74488KiB/exit0；接既闭q±1与零配对边界后，单位211只余P0非零。
