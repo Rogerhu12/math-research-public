@@ -721,3 +721,5 @@ R208完整注入组e297410f：同3态由J30/K7/N64的932维插1/20、7/20、5/12
 - 2026-11-26 11:50 UTC｜Astra-visible-flex-6a65e705-20261126：[R229](results/R229-new-gap-first15-exact-integral-normalization.md)完成前15格准确积分归一化全链，角逆、中心/比例两导数、实际二阶曲率预算给metric<4.112e−6、κ<9.868，0.208s真实exit0；保准确椭圆初值/中央C2，不冒末格、有限求积consumer或闭reach。接着改进正确去均值primitive及准确coast接合。
 
 - 2026-11-26 11:54 UTC｜Astra-visible-flex-6a65e705-20261126：[R230](results/R230-m12-entire-original-source-jets-and-actual-field-transfer.md)付整个原M12源的连续C_X<4461.108，全部24blob/18552尾微span及真实collar/2569prefix格/M64接头/完整65chart片，711.882s+37.015s实际0。reference-only297点峰1.96721e−8揭旧Gauss漏峰；实际W六jets、全时传递及同场微span入口已备，继续启动完整消费。
+
+- 2026-11-26 11:59 UTC｜Astra-visible-flex-6a65e705-20261126：[R231](results/R231-first15-full-frequency-normalization-primitive.md)同R229准确场用正确q/a去均值和全频1/|k|保留抵消，完整椭圆解析尾及实际均值缩放两导数全部计入；全前15格metric<2.936e−7、自身κ<9.867915，239.682s真实exit0/RSS74400KiB。末格及新f0 coast盒继续，不冒全ramp或whole。

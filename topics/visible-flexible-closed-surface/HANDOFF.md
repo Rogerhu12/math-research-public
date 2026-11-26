@@ -6,7 +6,7 @@
 
 完整连通闭C2嵌入连续族、共同g和固定握持开区域；全曲面D下held/D≥.05、含反射δE>0、全时reach/D≥.03、全域全时metric≤1e−6；同一g与全部物理参数下真正网格/频率/时间加密到机器或求解容差，并给完整可复现网格。基础后继续held/D≥.2、δE/D≥.05或严格存在。现有有限结果不冒完成。
 
-- 根/课题README完整读于 `f0548477576caa2373d1626227a284ccfa9767d0`。最近已读公开提交 `dde2fa6736b451ebde6f6796824e07159aae84fc`（2026-11-26 11:54 UTC真实pull/rebase后，双README逐差均无变化）。根blob282e86b0、题blob e2318baa。每次literal pull立即核双README差异，至少每小时；有变只读差异立即执行，API读不冒pull。
+- 根/课题README完整读于 `f0548477576caa2373d1626227a284ccfa9767d0`。最近已读公开提交 `6bf16eec3a520fc2b0222e9f23ea1fea9ba09b4c`（2026-11-26 11:59 UTC真实pull/rebase后，双README逐差均无变化）。根blob282e86b0、题blob e2318baa。每次literal pull立即核双README差异，至少每小时；有变只读差异立即执行，API读不冒pull。
 - 私库QUEUE已认领推 `c7785184d0d9c503852fb2137e9e2c091221d080`，进行中（本会话/2026-11-26）。不重复认领。
 - 每结论立即commit/push；NFF立刻pull --rebase循环到成功，不force或amend已发表提交。完整证明直接登记并加results.md索引；不附加独审/冻结门。全部数组只临时区，不进Git/Release/artifact；只源码/参数/run/hash/标量。MD<100KB、H<10KB、题<200MB；不写根LOG。token只命令环境。
 - 根唯一写main；agents只同级scratch。当前部分clone `/tmp/visible-flex-6a65e705/math-research-public`，同级geometry-work/exact-work/solver-work/cold-cartesian-work。旧历史见[11:15 H](https://github.com/Rogerhu12/math-research-public/blob/a9aaaf7d2fbdc01eb0df3e635d9065c20faac354/topics/visible-flexible-closed-surface/HANDOFF.md)、log和open；不重做已登记结论。
@@ -20,7 +20,7 @@
 - [R226](results/R226-m12-normalized-reference-and-continuous-cartesian-bounds.md)准确中央归一参考有完整全时几何：metric<7.667e−8、reach/D>.03120330、held/D>.05278322、含反射δE>0。全501源cell/10chart片、准确部分弧长/bridge已付。solver W六jet连续检查器已公开；未知W仍须自己的场与全源C_X。
 - [R222](results/R222-central-gap-conditional-held-and-ramp-budget.md)固定周长中央gap与条件held；新gap1.05/v.045前缀真实41.103s、1637RHS，C2消费采样metric2.65953e−9；其raw在第三失盘丢失，按已公开脚本重生供新证明，不算新研究结论。
 - R224新Γ95整coast的完整连续域D>.9719、U_t>.9657、.1949<κ<8.893；R225严格周长半宽<3.738e−13、两比例曲线集合差<5.618e−13，后者不代角逆/两jet。
-- [R227](results/R227-new-gap-first15-native-ramp-gram-certificate.md)前15实际quintic格/全部768保存系数全域原生Gram谱误差<1.38e−7、面积>.40322802，35.285s真0。末准确coast修复格、normalized s依赖角逆/曲率仍欠。[R228](results/R228-new-gap-first15-native-own-curvature.md)同raw全15格的自身κ<9.866914，960全域叶/0分裂，32.228s真0；源码已恢复且SHA逐字相同。[R229](results/R229-new-gap-first15-exact-integral-normalization.md)准确积分normalized全链已付，前15格metric<4.112e−6、κ<9.868；粗角primitive可改进，末格仍欠。新f0比R224旧盒下界低约4.56e−17，末coast须显式扩盒核验，不能直接借旧盒。
+- [R227](results/R227-new-gap-first15-native-ramp-gram-certificate.md)前15实际quintic格/全部768保存系数全域原生Gram谱误差<1.38e−7、面积>.40322802，35.285s真0。末准确coast修复格、normalized s依赖角逆/曲率仍欠。[R228](results/R228-new-gap-first15-native-own-curvature.md)同raw全15格的自身κ<9.866914，960全域叶/0分裂，32.228s真0；源码已恢复且SHA逐字相同。[R229](results/R229-new-gap-first15-exact-integral-normalization.md)准确积分normalized全链已付，前15格metric<4.112e−6、κ<9.868；[R231](results/R231-first15-full-frequency-normalization-primitive.md)正确q/a去均值、全频1/|k|与完整椭圆尾使同场metric<2.936e−7、κ<9.867915，15格239.682s真0；末格仍欠。新f0比R224旧盒下界低约4.56e−17，末coast须显式扩盒核验，不能直接借旧盒。
 
 ## 实际数值线与正在做的下一项
 
@@ -38,9 +38,9 @@ whole峰q2.202517253在全局第190零基单元、r约.43480348、原n0/j3窄过
 
 完整Cauchy oracle/短窗接口已有独立小probe证据；新gap换接后须自己的自然g和完整真实value。source003 composite仅在长job真实末态与observer完成后匹配，返回父观察仍属原Cauchy，Cartesian有自己的计数/身份。
 
-## 第三次执行环境恢复
+## 环境恢复与执行身份
 
-05:47、09:18旧失盘见[恢复账本](notes/2026-11-26-6a65-cauchy-same-job-recovered-transition.md)。11:20终端transport断并unavailable；11:28恢复后真实ls确认整个旧/tmp目录不在。API在中断时普通快进发布6400真实结果/径向request及R221–R227索引，没有冒literal pull。11:29重新部分clone与pull真0，双README逐差和旧blob均无变。未发表文本按新身份或实算相同SHA恢复；数值原件必须重新生成，已登记结论不重做。
+05:47、09:18失盘见恢复账本；11:20第三失联，11:28真实ls证旧/tmp全失。中断时仅API普通快进小文本，不冒pull；11:29重做部分clone/literal pull至df25f421，双README未变。已发表源可逐字SHA恢复；未发表失源按新身份，raw仅为新工作重生，旧结论不重登记。CLI现可用，全部写回普通git。
 
 ## 继续分工
 
