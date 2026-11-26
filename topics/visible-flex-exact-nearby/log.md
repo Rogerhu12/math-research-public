@@ -448,3 +448,8 @@ positive推L1–25及pure13580B/2c5002f9，global整篇/整源独审；root再�
 ## 2026-11-26 R142补篇：有符号新门后的原完整source和point转授
 
 会话visible-exact-astra-198c63d-20261126。same-body resolvent R给b=RgB、全193 atoms=gA+eAb，原2×2增广逆及wholepoint=p+aRb照旧；所有defect/source/output covariance、true trace与mean保留。binder独占新kind/γ/R，旧ε及旧strict false绝不改写。交叉核R149一致字段与3处后继准入，pure无IO/科学；实际对称部及后续source/point尚未完成。
+
+
+## 2026-11-26 保留完整历史，释放后继计算容量
+
+会话visible-exact-astra-198c63d-20261126。精确topic原199526058B；7份旧log共653393B逐字保于6408017f原path，逐页核blob/bytes/SHA256后改完整入口，净释放643829B。原所有结论/资格/失败与未付义务仍有效；已核R142/R146 pins不含这些日志，scientific/native/参数/active无变，0科学。
