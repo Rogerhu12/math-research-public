@@ -1,11 +1,11 @@
 # HANDOFF：大振幅新机制
 
 **进行中，未完成；没有满足README全部条件的完整候选。**
-会话：**Astra-new-mechanism-1f4a61a4-20261127**（2026-11-27，作者指定接手）。
+会话：**Astra-new-mechanism-1f4a61a4-20261127**（2026-11-27）。
 
 ## 1. 授权、规则与完整前史
 
-公开本次实际pull且根/题README已读至 **61893440514f9cbbad7ae4e87ca093659b2f63d7**；根/题规则相对继承0749a4cc均空差异。私库实际pull/根README已读至 **1a995ebf0c19ea771ef0684a4f22bf94da9a960e**，QUEUE认领提交 **09f8b8b54e7cfaabaa635bae5c438c7f1521289a**；本会话仍唯一进行中，21:00 UTC前再次实际pull且根README空差异，下一不晚于21:58 UTC。
+公开本次实际pull且根/题README已读至 **8c326d066354715f446435db0d0633f551d2ff9f**；根/题规则相对继承0749a4cc均空差异。私库实际pull/根README已读至 **1a995ebf0c19ea771ef0684a4f22bf94da9a960e**，QUEUE认领提交 **09f8b8b54e7cfaabaa635bae5c438c7f1521289a**；本会话仍唯一进行中，21:00 UTC前再次实际pull且根README空差异，下一不晚于21:58 UTC。
 
 [压缩前全文](notes/HANDOFF-before-long-near-pair-20261127.md)及其归档链保存全部旧结论、真实输入、失败/偏离、量词与完整费用；移档不重跑已付门。[四来源与文献](notes/2026-11-27-current-four-source-topics-and-literature.md)保已读版本及用途。
 
@@ -23,9 +23,9 @@
 
 ## 4. B030：真实7371、已闭391与剩余1128
 
-[新原终态](notes/2026-11-27-r566-physical-epigraph-original-terminal.md)run **45892179085**/job140157246913/source1530094182，新2370.192668793秒、15metric+1恢复/33Jac；真81q **7371a880eaa603c17191acc747847817dd1e846196ee0d4e74548a125c898513**，1298×3072及1515全峰η **.2277496382670385**、物理V0、margin3.91783e−11在tol内。真实库660圈/1473峰/573工作/1536角，trust.3003387451171875，当前要求fine1322；1298资格不冒1322资格。源bc9原1353已完整补完并接受；新增6coarse/9fine拒绝都是真物理门，恢复一步η上升不冒全程单调。完整已知费用下界12359.003476909998秒，旧未知仍未知。
+[新原终态](notes/2026-11-27-r566-physical-epigraph-original-terminal.md)run **45892179085**/job140157246913/source1530094182，新2370.192668793秒、15metric+1恢复/33Jac；真81q **7371a880eaa603c17191acc747847817dd1e846196ee0d4e74548a125c898513**，1298×3072及1515全峰η **.2277496382670385**、物理V0、margin3.91783e−11在tol内。真实库660圈/1473峰/573工作/1536角，trust.3003387451171875，当前要求fine1322；1298资格不冒1322资格。源bc9原1353已完整补完并接受；新增6coarse/9fine拒绝都是真物理门，恢复一步η上升不冒全程单调。费用下界12359.003476909998秒；旧未知仍未知。
 
-末raw **55e30fac8df3438d4e5d627f2c8ac9f867c67357db524e99589009bb8ad6ef36** 未接受：同1322×3072 coarse/fine/nested已付，1519原bracket中391已闭、1128剩余；完整原PARTIAL 325628B/hash f3727616。下一先在同q/fine/oracle5bfa207c继续1128并合并391原峰，再采用5physical/5working pending。旧门不重播、newFFT准备照付，所有旧fine永久保留。原BFGS数组未输出不伪恢复；辅助e提升不冒真η改善。
+末raw **55e30fac8df3438d4e5d627f2c8ac9f867c67357db524e99589009bb8ad6ef36** 未接受：同1322×3072 coarse/fine/nested已付，1519原bracket中391已闭、1128剩余；原PARTIAL 325628B/hash f3727616。下一先在同q/fine/oracle5bfa207c继续1128并合并391原峰，再采用5physical/5working pending。旧门不重播、newFFT准备照付，所有旧fine永久保留。原BFGS数组未输出不伪恢复；辅助e提升不冒真η改善。
 
 ## 5. 全奇实际位置与固定完整g
 
