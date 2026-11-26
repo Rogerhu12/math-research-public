@@ -407,3 +407,7 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 ### R601 真实中心jet作为新紧凑启动条件
 
 [新准确式](results/R601-prepared-center-true-jet-and-fixed-gauge-acceleration.md)用同一ζ0支付h″(0)=H、k″(0)=0，保完整history/正平方，只延后首个高导生成。下一从已付11参数形成新的10参数guide、重新支付实际历史/几何及规范，随后原21阶段/29BC质量式；不逐点调ζ，不误称全程零势，继续检查旧guide已失利的reach/diameter必要预算。
+
+### R602 将核心全角条件真正消入高度
+
+[准确消元](results/R602-exact-nonlinear-core-trace-elimination.md)给唯一P1*及其全部参数链，可通过真实χcore δ^(α+2)高度项实现；不得只删核心行或冻结turning eR求导。下一按实际末态加入完整height/Jac并解主体高模；原尾口保留，当前主体m18峰不在修正支撑内，仍须真实新角空间和全部几何门。
