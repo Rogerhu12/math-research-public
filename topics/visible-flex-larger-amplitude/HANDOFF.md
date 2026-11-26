@@ -43,8 +43,8 @@
 <!-- visible-larger-parallel-03:end -->
 
 <!-- visible-larger-parallel-04:start -->
-并行公开Actions04：[run 45857104277/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45857104277)；[实际记录](notes/2026-11-26-public-actions-45857104277-1.md)。阶段`followup_waiting`/running；已返28，exit=未返。
-并行04规则核查：2026-11-26 17:00:07 UTC，真实pull至`1344de9b47535cdf5da8f3264825dc49d9e80728`，双README无变化。
+并行公开Actions04：[run 45857104277/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45857104277)；[实际记录](notes/2026-11-26-public-actions-45857104277-1.md)。阶段`followup:resume-20261126-reconstructed-complete-manifest-compaction-02-rebuild04`/completed；已返29，exit=0。
+并行04规则核查：2026-11-26 17:00:15 UTC，真实pull至`57d1d3e6d5d67053fdf60c9596e9491ec227c3d8`，双README无变化。
 <!-- visible-larger-parallel-04:end -->
 
 ## 当前公开Actions执行
