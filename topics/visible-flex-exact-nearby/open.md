@@ -175,3 +175,5 @@ C0/CP11首轮具体入口已推：15当前/5原parts，manifest SHA9f2ae6850b567
 [RW实际完整96行](results/R149-supplement-actual-reflected-finite-waist-rows.md)45787309600/1已root/peer全核，96rows/480球，science b0faf218…86146B、exec3cfc1cbc…16042B。真实a、mean、旧W/Js与全部DFT误差不删，目标锁定。下一项是真PDE trial、同精确row的signed pairing、full residual/error及whole finite inverse。
 
 [CXN六receiver具体入口](results/R149-supplement-actual-common-high-negative-receiver-execution.md)及owner/worker/generator已审并推；source4实际只读，真实58/224/32齐后才生成manifest。D=UfdP+UtdT、Z=UfzP+UtzT先同因三角；physical c*=0才R=hypot(D,Z)，继而CR、BH KW、BH/√2，aux Ec*e/外mean不置零。当前无六量actual。
+
+[CG完整graph高块](results/R149-supplement-positive-feedback-in-the-complete-graph-high-block.md)证明相邻真逆约消后common追加费2^199 Cadd ΛJ^−1/3；真实port09联合96列只左B^-1，保reference差与Θ high输出。固定J=2^4608上的新条件门等待actual6/56，未给finite/ν/mean/全逆；pure adapter无实际manifest。
