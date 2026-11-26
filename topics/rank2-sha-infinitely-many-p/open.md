@@ -48,6 +48,8 @@ R900/901原惰性全范数、整old/new、邻点格及两范数核H¹(I1I2⊗T)�
 
 R921实际残余H¹的提升L/连接C及 j*=diag(u,0)、cor=diag(0,1)、βm(C)=−up^(e−m)保留；几何局部零只控L。R940进一步对同一原双新x12完成实际π_m下降：κ12,m确为双D导数；在c1≠0下用惰性平方检测与固定strict复形，得到p^(b_p+v_pD)κ=0。深约化唯一来自H¹(J⊗T)，**不等于JH¹，不是scalar乘积整除**。R945以完整残余两点测试和Bockstein精确阶给b_p≤v，c1⁰=p^v z；原2/δ/17惯性使坏位损C=0，准确可取B_p=v+v_p(D)。v=0时全部S_N由原整z自然生成，但H²自由部分保留，仍不付s0或跨p结论。
 
+[原Artin场整场regularity核查](notes/2026-11-26-original-artin-field-fine-selmer-regularity-obstruction.md)用R806实际H⊃K(17^(1/6))及原两点，在Fp=H K(E0[p])上给fine H¹及H²至少二维；因此该Fp的整场purely-local-type输入过强且不成立。这个weight-one排除不投影成最高lambda的H²非零，不能代替指定分量。
+
 继续的实质输入：同原c1非零、ordinary局部及s=0和无穷p。新文献须实际匹配指定循环/角色/通常Selmer；[原文范围核查](notes/2026-11-26-global-7d29.md)保Castella、Wan–Xiang–Xu、Scavia等的真实条件，不能拿解析秩一或已假设Sha有限的定理闭合本题。
 
 ## 第三实际门：同 P/R/S 的完整有限类与真实后页

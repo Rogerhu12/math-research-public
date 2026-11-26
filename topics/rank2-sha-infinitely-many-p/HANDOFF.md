@@ -6,7 +6,7 @@
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，继续研究；有限验证、条件性结论、接口或中间成果均不算完成。**
 
-- 公开仓库已部分克隆并实际pull --rebase；根/课题 README 已读至 `06c4ad9d9375fc5d9bbbf0a9a4d687e487ecc541`，相对已读版本未见规则变更。每次同步核两README差异；实际pull至少每小时，恢复终端后补做。
+- 公开仓库已部分克隆并实际pull --rebase；根/课题 README 已读至 `27a5e910384d714ea22d928925887bf82383369c`，相对已读版本未见规则变更。每次同步核两README差异；实际pull至少每小时，恢复终端后补做。
 - 私有QUEUE接手状态已推 `f3125fbaa4bc13678b0c8519d85051762c579529`，私库README读至e776df4。
 - 本次两个克隆在/tmp/rank2-sha-7d29daa5d3b1。执行环境断开，当前用根规矩授权的小文本GitHub tree/commit及非强制CAS；每次对最新main核规则、遇竞争立即重取父提交重推。恢复后先核local stash/main，不覆盖已恢复推送的远端工作，再pull --rebase。令牌未入文件/配置/日志。
 - root唯一ref及共享H/log/index写者；子代理只交不可变blob。公开Actions才做数学执行；只存源/参数/run/hash/结论，不存可重算输出。H<10KB，MD<100KB，open尽量<30KB。不强推，不改他课题。
@@ -42,7 +42,7 @@ R908/913新增惰性位Dloc=0，tame D固定，wild Dp仅逐p固定；不再从�
 
 R940原x12经π_m实际等于双D导数唯一下降，惰性平方检测给固定p深增广约化零及唯一H¹(J⊗T)提升。R945以原坐标c1⁰=p^v z和完整残余两点selector/cup，给p^vH²(C0)tors=0、p^vS_N⊆(O0/p^N)z；2/δ/17实际惯性阶3/2/18使坏位损C=0。可取R940的B=v+v_pD，原D仍保。H¹(J)≠JH¹，非scalar乘积整除；H²自由部分不删，不付c1非零/s0/ordinary/跨p。
 
-[原文范围核查](notes/2026-11-26-global-7d29.md)保Castella仍需κp、Wan–Xiang–Xu限解析秩一、Scavia定义域/投影缺口；其它课题当前H未给可移植闭合输入。
+[原文范围核查](notes/2026-11-26-global-7d29.md)保Castella仍需κp、Wan–Xiang–Xu限解析秩一、Scavia缺口。[实际Artin场排除](notes/2026-11-26-original-artin-field-fine-selmer-regularity-obstruction.md)：原两点在Fp=H K(E0[p])给fine H¹/H²≥2，整场purely-local-type不成立；不投影为最高lambda非零。继续指定分量。
 
 ## 三、同原中央与新增第五输入
 
