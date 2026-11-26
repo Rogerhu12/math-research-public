@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R271 整个实际核的占满前缀指数率提高到γ_ex>5/3（2026-11-27，已证明）：** [完整张量指数范数与真实carry](results/R271-appendix-full-tensor-exponential-bound-and-improved-occupied-prefix-decay.md)给||exp(zD_n)||=expΣasinh(|z|a_j/2)，同一个真实近核方程取r=ceil(log2n)，得到||Q_nf||≤(exp(−γ_ex n+4(logn+1)²)+exp(−47n⁴))||f||。对全M、两真实模型及固定最高k剩余类统一；精确变分率Γ_occ约1.723637。真实α_q逆图范数仍未付，未把该指数估计作N=M。
+
 - **R150 S0/Lt0的原孤立点配对t=0整支为空（2026-11-27，已证明）：** [完整参数覆盖与四原域返回](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-zero-singleton-pairing-exclusion.md)令v=4kbc·t=0，四完整Res_k的65次gcd给12次平方自由全覆盖；非平凡1/2/2/4维原域分别返回k−2、k²、k−4e+4、1，全由原单位/已闭半权支付。每个域逆、除法和Bézout实际回乘，3.793203秒/49640KiB/exit0；与旧等配对子类不同，一般图可付v。
 
 - **R150 S0/Lt0的整个Q=4(u−1)²分支为空（2026-11-27，已证明）：** [原均值乘法一致性及完整结式](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-mean-consistency-line-exclusion.md)将原三行子式直接返k=4e，不除未付因子；90/95次完整Res_v在QQ[e]的Bézout准确为e^10(e+1)^40，两个均为原单位。全部原Gram/Cramer/20子式及末Bézout实际3.421194秒/exit0，保所有首项降次；一般图从此可付4e−k。

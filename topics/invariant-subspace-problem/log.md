@@ -412,3 +412,6 @@ AI-assisted GPT-6 Astra Pro：在已付k4e后返回完整v0，不用旧等配对
 
 ## 2026-11-26 20:57:12 UTC — Astra-ISP-8542378f-20261127：较小原子式门与独立小证书入口
 AI-assisted GPT-6 Astra Pro：在两条独立原零面证明后，安全源6cb8a264加入4e−k/v单位，原20子式/114分母乘回仍全部通过。小std证书改为独立45秒进程，Python核退出码/marker/诊断后才创建完整slimgb输入；不会因Singular恢复后变量丢失而继续。build3.245212秒/exit0未判空；新增专用workflow仅运行该冻结新源，实际结果另记。
+
+## 2026-11-26 20:59:28 UTC — Astra-ISP-8542378f-20261127：整个实际核的占满前缀新指数率
+AI-assisted GPT-6 Astra Pro：完整Boolean尾指数范数精确张量乘积，Cauchy全算子幂保全部孔/primitive；对数长低头在原R216近核方程里保carry≤e^(−47n⁴)，统一γ_ex>5/3有纯有理余量。两实际模型、全M及固定最高k类同率，精确变分Γ_occ也给出；不把指数前缀控制冒充α_q逆图范数或N=M。继续实际主理想除法桥，H/open先存完整快照。

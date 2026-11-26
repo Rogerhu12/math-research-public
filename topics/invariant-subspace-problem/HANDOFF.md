@@ -5,9 +5,9 @@
 ## 目标、规则与执行
 
 - **普通复可分无限维 Hilbert ISP 未完成。** 仅全体有界算子的存在定理或完整反例算完成。
-- **最近实际 pull / 已读规则提交：** `0d5fa2013df411488845ceb4e12df155a438e1da`（2026-11-26 20:57:20 UTC；本地部分克隆）；本次两 README diff 无变化。每次 pull 且至少每小时检查并更新本项。
+- **最近实际 pull / 已读规则提交：** `0611b411289c8e02577edee5830b06c7cc99ba5c`（2026-11-26 20:59:35 UTC；本地部分克隆）；本次两 README diff 无变化。每次 pull 且至少每小时检查并更新本项。
 - 私库 QUEUE 接手已推 `5746fa79a74af4975476d400dfbe0c4e5cb9ae9d`；私库根规则2026-11-26 20:28 UTC已pull至 `63459bc1a74526162372866a9ae39bb51006ba78`，diff无变、QUEUE保持本会话。每结论单推，非快进即 pull --rebase 再推；不 force，令牌仅 CLI。
-- 本轮本地终端可用。前会话执行身份及全部原交接保[接手快照](notes/2026-11-27-handoff-at-takeover-8542.md)；本轮快照链见[最新完整归档](notes/2026-11-27-handoff-before-Cramer-registration-8542.md)。失败不改标成功，已登记不重做。
+- 本轮本地终端可用。前会话执行身份及全部原交接保[接手快照](notes/2026-11-27-handoff-at-takeover-8542.md)；本轮快照链见[最新完整归档](notes/2026-11-27-handoff-before-occupied-prefix-and-flat-source-8542.md)。失败不改标成功，已登记不重做。
 - 仅保源、参数、SHA、小回执；MD<100KB、H<10KB、open尽量<30KB、topic<200MB，不写根LOG。已读本轮 log；notes 按交接路径与结果索引定点续读。
 - 正在推进：R271 同一 w 的真实终端/稳定范围；R150 S0三值互异Lt0原r1非零一般图；文献与 Deddens 同源插值。完整证明登记后即接下一未闭项。
 
@@ -46,12 +46,11 @@ M=kerT、N=closureBM；N=M未证。保同w/u、全部partial、真intersection�
 - 全部远位硬化、同mode重最小化和Riordan整塔均保持原u/partial、趋P_Mf；P_Mf∈closureBM未知。几何起点无限行Bessel及全部p≠q交叉已付，逆权≤27J；f−a_full的Γ²≤27μ1但锚趋0，不能移给有锚f/第二Green。
 - R=d、x=m+d、h=2d、Q=2d³的全高度能量、原P_xw全矩和e^(−47d⁴)carry已付，真帽cut数d³−5d。原K*=1+47616·2·512²一次MP合法；完整反馈−Cq_r和真实终列Σ(−C)^pa⊗(D†)^pΩ不可删。共同c_k=2·512^(2k)窗保所有r≤k；同w可取k_m→∞、k_m≤m/12且s_m→0，修正/误差/残量平方可和。
 - [相容真空塔负相关界](results/R271-appendix-fixed-cardinality-negative-correlation-near-optimal-compatible-vacuum-towers.md)已证J_r≤(exp(128L(L+logλ)²/λ²)+2λ⁻³)/(1−exp(−λ/4))、L=o(x^(2/3))；同源Gram/短真核距离δ_L保留。固定头误差O_m((logx)^(3/2)/x)，Chebyshev模型x=ceil exp(9d⁴)仍超全局exp(O(d³))母窗。
+- [实际全M占满前缀新指数界](results/R271-appendix-full-tensor-exponential-bound-and-improved-occupied-prefix-decay.md)已证||Q_nf||≤[exp(−γ_ex n+4(logn+1)²)+exp(−47n⁴)]||f||，γ_ex=log2+asinh1+2(1−1/√2)/5>5/3；两N/Y模型、固定最高k剩余类同率。精确变分Γ_occ≈1.723637；远低于真实α_q^-1=exp(Θ16^q)，未付除法/稳定范围。
 - **实际终端k=h−1的增长费仍未付。** 慢增近核不作kerT或closureBM；下一保原同w的C^pP_xw=(−D)^pw_p+真实carry及特殊真空primitive塔，继续终端完整费用/精确残量清除、带锚第二Green。不得删(I−P_K)Gv、原u修正项或换成boson列。
 
 ## 其余开放
 
 Deddens完整已闭范围保[索引](results.md)及最新快照：D∩D*=MASA、所有可分重数的有限成本不变投影、全2-adic加权平移准确距离、具体平移B内自伴核/交换子、全R非平凡odometer谱投影距离≥1/π、所有非奇异加权复合到自伴核距离均已付。R38真Y∈D\B与无限位换位实例保B外范围。全R自伴核、连续谱Fourier乘子、未知M被D保持仍开；不能以移动字符消失或一般细块小量替全B(H)唯一性。∩A^kM增长、G_reg/Haar/子商保前快照全部接口。
 
-[原同源运输](results/R12-appendix-same-source-transport-interpolation-and-sustainable-actual-recursion.md)已给实际R_nAf_(n−1)=f_n、统一普通范数与双列流预算；[完整D成本下界](results/R12-appendix-near-optimal-cost-of-the-actual-transport-recursion.md)给同一硬目标最优成本的比值夹逼2sqrt(N_n)，累计log费用确为Θ(n⁵)。不能只换实现降四次；继续软目标及同源连接，β_n∏c下界与未知M保持仍未付。
-
-[原球软逆像最优](results/R12-appendix-exact-soft-target-inverse-optimization-and-dyadic-budget.md)已精确求出W_n²/(W_n²+λ)，dyadic的log m_n/n⁴极限为(20+280·16^q)/3，含半径边界；所有实际递推∏c≥m_n。[全D连续整数前缀](results/R12-appendix-continuous-integer-prefix-constraints-and-soft-target-connection.md)现证明独立最优目标的连接范数≥(1−r)/α_v2(n)，dyadic无界。改实际目标序列，仍须完整前缀/逆像双费用。
+原同源非复制运输已给固定非零球/统一普通范数；指定硬目标的全D最优累计log费Θ(n⁵)，仅换实现不能降四次。原球软逆像唯一最优W_n²/(W_n²+λ)，dyadic的log m_n/n⁴→(20+280·16^q)/3，全部真实递推∏c≥m_n。全D连续整数前缀约束迫独立最优目标的准确连接||R_n||≥(1−r)/α_v2(n)，dyadic无界。完整证明见结果索引/最新快照；继续真实可测目标、全逆像/前缀双预算与未知M保持，不能把静态最优拼作实际递推。

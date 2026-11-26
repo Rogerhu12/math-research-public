@@ -138,7 +138,7 @@ A单射、稠密像、拟幂零且非紧；普通非零真闭不变子空间仍�
 
 **[R=d同W全能量及原截断源全矩已付](results/R271-appendix-geometric-cutoffs-same-w-complete-energy-and-d-sized-once-mp.md)：** H_C(8Sx)≤Hω保全高度。任意w∈M的P_xw经原行迭代与e^(−47d⁴)全carry误差有全矩可和；R=d,x=m+d,h=2d,Q=2d³及真帽cut数d³−5d合法。旧K*一次全MP适用，真实残量仍−Cq1；同forcing、有锚第二Green及稳定核返回继续。
 
-**S0/Lt0现只续r1非零一般图：** g2零面与g2非零的原θ余式双零例外均已完整关闭，末72维/172维原单位与所有参数覆盖详见结果索引及快照；θ=−r0/r1已获合法除法。[M的全部z首项零纤维](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-parameter-leading-zero-exclusion.md)现亦闭：λquarter/A0两谱全22/40维原均值单位，0.774927秒/exit0；完整结式256z^14J²M保证覆盖，剩余M图可付(4λ−1)A。[u=2⇔ell=1⇔a=0整支](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-zero-base-weight-exclusion.md)也闭，原26次覆盖全部返回、末36维原均值单位，0.368863秒；[ell=1/2整支](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-half-base-weight-exclusion.md)现也闭，20次谱完整返回、末32维E1/EB单位，0.475966秒；[原U双点导数w0整支](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-zero-U-jet-exclusion.md)亦闭，17次覆盖全返、末28维E1/EB单位，0.148623秒；一般图可付ell−1/2与w，后者用于同一原N(V)消eta。
+**S0/Lt0原一般图：** g2零面、theta余式双零、M首项零、u2/ell1/a0、ellhalf、原U导数w0均已闭，准确全谱/单位回乘见结果索引和[压缩前快照](notes/2026-11-27-open-before-occupied-prefix-and-flat-source-8542.md)。可用theta=−r0/r1、(4λ−1)A、ell−1/2与w；只续三值互异、Af非零的原一般图，全部未付约束保留。
 
 **[全部固定次数及同源慢增的真实顺次MP已付](results/R271-appendix-fixed-successive-actual-mp-common-variance-and-slowly-growing-depth.md)：** 共同c_k=2·512^(2k)方差窗保所有r≤k的完整K_(r|k)费用、原−Cq_r反馈与同一母支持；终列准确为Σ(−C)^pa⊗(D†)^pΩ。任意同w∈M可选k_m→∞、k_m≤m/12，使修正/误差/残量平方可和且s_m→0。仍未付k=h_m−1的实际终端费用；近核列不作kerT或closureBM，接同w真实层相关性/精确残量清除。
 
@@ -149,3 +149,5 @@ A单射、稠密像、拟幂零且非紧；普通非零真闭不变子空间仍�
 **[S0/Lt0整个k=4e已关闭](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-mean-consistency-line-exclusion.md)：** 原三子式完整返回的90/95次Res_v有一元Bézout=e^10(e+1)^40，原e、u单位矛盾；自含源3.421194秒/exit0。可付4e−k，保其余三参数必要理想及所有未排原几何。
 
 **[S0/Lt0原t=0整支关闭](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-zero-singleton-pairing-exclusion.md)：** 四完整Res_k覆盖后1/2/2/4维同e原域全返回，所有逆/除法/Bézout实际通过，3.793203秒/exit0；一般图可付v，不借用旧等base配对子类。下一仍为原三参数小行列式全门及其更低原几何。
+
+**[整个实际M的占满前缀新指数率](results/R271-appendix-full-tensor-exponential-bound-and-improved-occupied-prefix-decay.md)已证：** 完整张量指数范数配合同一真实D_rg_r余项，r=ceil(log2n)给γ_ex>5/3和明确e^(−47n⁴)carry；优化率Γ_occ约1.723637，所有严格小于它的率对全M及固定最高k类成立。仍远低于真实α_q^-1除法图范数；继续W特殊来源/主理想闭图，未证N=M。
