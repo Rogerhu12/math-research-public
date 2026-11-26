@@ -17,3 +17,6 @@
 
 
 - [R957](../results/R957-original-five-source-integer-grid-and-complete-placewise-budget.md)：原新B+全部89余权给R[X,Z]自由秩2225、全部基权≤187；同权28883导子与固定D0^(M+1)将全基整返原五源。真实Λ取所有五源单项式的整数像格，实商Euclidean与有限位同格；covol倒数给非负算术度、全饱和jump乘积公式。普通卷积后切单位域，完整矩/下降阶乘给所有前缀整性；复侧和全部惰性成本全付。新J5精确读p^j r_js+i，完整参数变化最多24模p行，导子固定4r_c carry，不套旧十九角/13/52。尚未从五中央零得全深核或严格a+2b<3。
+
+
+- [R959](../results/R959-original-e65-two-independent-points.md)：新增固定候选E65:y²=x³+65的P=(-4,1)、Q=(-1,8)给自含rank≥2证明。实域Q√65的δ=y+√65由完整弦切线群律为模立方同态；P在二的两素理想赋值(5,1)，Q为根本单位8+√65，故两类独立；原切线式排全部有理3挠。没有预定theta degree或代替其真实局部/Schwartz/通常Sha桥，继续构造第六输入。
