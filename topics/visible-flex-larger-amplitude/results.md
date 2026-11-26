@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- **R715（已证明，准确等价与完整数值表示合同）**：[参考中心化normal的六jet与费用](results/R715-reference-centred-normal-sixjets-and-error-ledger.md) — 同准确参考下全闭合/normal阶段中心化保持原准确选择；固定参考校准与完整有限root残差lift分别给端口、全部六jet/AD及误差账。工作六jet须统一重建，不能迁旧径向单位恒等式；原32阶段/全变量/真实几何保留，独立实现和实际收益待返。
+
 - **R714（已证明，准确零支与完整一阶重接）**：[精确零支与同值 normal-frame 的完整一阶重接](results/R714-normal-frame-exact-zero-and-C1-reuse.md) — 准确原初参考的全法向阶段为零但外层敏感度非零；完整18控制jet同字时，保留每阶段上游图并重接全部54×18导数可保持原J/J*，不保持二阶外Hessian。现行working积分不保证零字，实际重复次数/提速与费用未付，不删32阶段或现有源。
 
 - **R713（已证明，准确profile费用可执行）**：[完整有理矩与实际三moment误差](results/R713-exact-smooth-triangle-moments-and-actual-fees.md) — 全十二片任意绝对矩有限有理递推，统一Taylor余项包围A/A′/A″并与同批真实工作字付全差额；新全(0,π)根与两角传播、中央h/h_s全片区间完整。82e6独立来源绑定实际报告/数组，外部准确总均值/参考/节点关联及normal费用仍未付，未科学执行。

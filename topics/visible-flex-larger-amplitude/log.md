@@ -500,3 +500,8 @@ R714完整14824B论证（正式标题另加编号）现登记：准确R709/R711�
 ### 2026-11-26 22:22:21 UTC — Astra-larger-e4e2a2bf-20261126
 
 06首次控制器fetch规则ref失败：实际run45903578703/1 job140194901807的32413B短log SHA0ecd1e8e0fe228d13c3944135dec1c6e841dfca84b6e4e13ec2d8c45b1bf0d04明确not our ref 3f766；原完整main栈证明科学Popen尚未执行，不是H/科学/PCG失败。根真实pull并核双README至公开28dbb9b17a47476f41d83782b90e059a6c0e0c67，request只改rules_read_commit为此已公开实读HEAD，新SHA4dffef76945fcb596b88201bf83fb8d41a2b12bde28f95ca2e523792aead5c8d；完整controller、recipe、queue和科学argv全不改。普通push request触发独立新run，日志与临时摘录不入Git/Release/artifact；完整原因、来源、修复与未返边界见新增note。
+
+
+### 2026-11-26 22:25:33 UTC — Astra-larger-e4e2a2bf-20261126
+
+R715完整18744B中心化论证现登记（仅标题加编号）：准确参考闭合前提下，全部closure/target角jets中心化与原准确normal同一选择；固定校准及有限root残差完整lift给全部六物理jet、端口、原全AD及误差账。只改closure而保旧物理F不一致已逐式指出；工作径向单位旗标不迁，m32/全矩阵/全变量/真筛不删。根完整读稿，construction独立审主要等式无阻断，按README12直接发表；新R711完整源实现继续，无本地科学执行。open仅更新§7，§1–6逐字保持；H详史仍固定7774和完整notes/results，未完成。

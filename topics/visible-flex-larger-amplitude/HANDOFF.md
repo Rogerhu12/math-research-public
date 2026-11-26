@@ -4,7 +4,7 @@
 
 ## 规则与完整目标
 
-最近规则核查：2026-11-26 22:22:37 UTC，真实pull/rebase至 `17142bd766198fe174f81d5956b63eb3d6a2f8d7`，双README相对`28dbb9b17a47476f41d83782b90e059a6c0e0c67`无差异，继续遵守全部规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
+最近规则核查：2026-11-26 22:26:31 UTC，真实pull/rebase至 `66378322dd43eed884374fed72b1d4d2fc9be2e8`，双README相对`dd090b58882b779861f66dce1a1183b256b73ea6`无差异，继续遵守全部规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
 
 科学计算仅本公开仓库Actions；执行偏差见[早前记录](notes/2026-11-20-public-actions-execution-correction.md)及[四次大JSON整读纠正](notes/2026-11-26-large-file-connector-read-correction.md)。root唯一分支写者；结论即普通推，NFF立即rebase循环，不强推。每次pull核双README差异并遵新规，至少每小时，记commit。raw只scratch/runner，不入Git/Release/artifact；保完整小源/参数/run/SHA/紧凑结论。题≤200MB、单文件<5MB、MD<100KB、H<10KB、open<30KB。令牌仅瞬时CLI。终端失联与恢复/云API普通快进记录保7774固定H；旧scratch迁移未确认，不冒恢复。
 
@@ -39,9 +39,11 @@
 
 [R710](results/R710-supported-unit-seed-complete-angular-jet-error-bounds.md)给完整均值根、两角jet及物理T/Tφ/Tφφ/Ts误差；85e90有理区间核与实际批次绑定已刊，仅条件传播。准确积分/尾/三角/算术费用未付，不冒零费或全角证书。 [R713](results/R713-exact-smooth-triangle-moments-and-actual-fees.md)及[82e6完整消费者](notes/2026-11-26-R713-smooth-triangle-actual-fee-consumer-api.md)准确有理矩支付新profile三moment全差额与中央h/h_s；全(0,π)地板/两角费用保，仍欠外部均值/参考/节点关联与normal费用，尚未执行。
 
-[R711](results/R711-smooth-triangle-central-profile-and-geometric-comparison.md)/[R712](results/R712-full-positive-radius-central-second-derivative-comparison.md)准确十二片三角profile全0<r<1，scalar斜率32/31近最优；同准确初seed中央Fss低于旧一半，不迁K/reach或优化末场。[独立完整入口](notes/2026-11-26-R711-smooth-triangle-full-normal-entry.md)九执行/读取源+完整再生器已刊，192正权节点/实际(0,π)括号/原全normal与求解循环保；仅no_grad frame免无用高阶图，active全图不改。十历史ready仅准备，旧seed19及后来返回报告必须全入；未准入、未称新场。
+[R711](results/R711-smooth-triangle-central-profile-and-geometric-comparison.md)/[R712](results/R712-full-positive-radius-central-second-derivative-comparison.md)给准确十二片profile、全正半径中央Fss低于旧一半；[十源完整入口](notes/2026-11-26-R711-smooth-triangle-full-normal-entry.md)192正权/全(0,π)/全部原normal loop保，十历史ready未准入，须入旧seed及后来所有真实报告，不迁K/reach或旧末场。
 
 [R714](results/R714-normal-frame-exact-zero-and-C1-reuse.md)准确初seed的全32法向零支与非零外层敏感度已证；同一当前图内18控制jet同字时，完整54×18一阶重接保持J/J*。现行working积分不保证逐字零、全角jet同值或实际缓存收益，不删阶段、不迁证、不据此改旧源。
+
+[R715](results/R715-reference-centred-normal-sixjets-and-error-ledger.md)准确参考中心化及六jet/lift费用已证；全部closure/target差分、物理完整hΔ/AD/真实Gram/K与32阶段均保，新独立实现进行中，工作Fs不冒单位。
 
 [06完整重建入口](notes/2026-11-26-run06-complete-parent-reconstruction-and-current-PCG-entry.md)全部原28+十二父、三SOC/第四方向责任保，finish=false。首启动45903578703在fetch未公开规则ref时退出，科学未开始；[完整原因/实际修复](notes/2026-11-26-run06-startup-failure-unfetchable-rules-commit.md)已换实读公开HEAD，科学源/queue不改。新父/地点/μ只读新run真实返回，再接当前八列PCG。
 
