@@ -517,3 +517,6 @@ AI-assisted GPT-6 Astra Pro：cofactor同步整除仅返四项原身份，末步
 
 ## 2026-11-26 23:31:27 UTC — Astra-ISP-8542378f-20261127：整个二次首项H64关闭
 AI-assisted GPT-6 Astra Pro：F41原cofactor重建后得230次QQ覆盖/89次余因子，完整原G回投保消元次数并实际一元Bézout1；125.960501秒/115220KiB/exit0，lambda·v/f·v原主子式合法可逆。H全量归档重写，保S0新QQ实际失败与L0待返、所有原未闭接口；继续全几何二次重写。
+
+## 2026-11-26 23:35:31 UTC — Astra-ISP-8542378f-20261127：两新完整QQ门及H15的实际失败回执
+AI-assisted GPT-6 Astra Pro：S0 run45908775594和L0 run45909368752均独立std通过，完整slimgb1200秒只BEGIN；driver1205.620862/1202.639982秒、RSS5614052/5283788KiB、源均exit1，无单位。H15新投影外部190秒exit124仅BEGIN也保精确源/小回执；三输入冻结，继续S0全几何二次模及L0原低次矩阵，不等CI或重跑旧门。

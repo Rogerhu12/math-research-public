@@ -145,3 +145,9 @@ $$\operatorname{matrix}(I)\,\mathrm{cert}=[1].$$
 本地没有 Singular，故本条没有单位证书或一般 Lt0 排空宣称。独立 QQ 门的实际回执另行登记。
 
 专用公开 Actions：`.github/workflows/invariant-subspace-Lt0-same-eta-five-geometry-8542.yml`。本次 source/workflow push 触发一次；运行身份与真实结果随实际返回登记，不将排队或 BEGIN 当单位证书。
+
+## 实际完整 QQ 门返回（2026-11-27 登记）
+
+公开 run `45908775594` / job `140211812117`，固定源提交 `859997f23a6dcd8774c529300964bc6076b8ad11`，源 SHA `7161bc65dca9656ac76c35c3154f2085efe090b96cf9e699dd5af7f45c922c69`。独立 `std` smoke 实际退出 0、marker 通过且无 Singular 诊断；随后完整 `slimgb` 1200 秒仅输出 BEGIN，未返回基或 `I*cert=[1]`。驱动墙钟 **1205.620862 秒**，最大子进程 RSS **5614052 KiB**，源退出 **1**；job conclusion 为 failure。
+
+实际启动前于 2026-11-26 23:05:48 UTC pull 并读规则至 `7aa70fa88839f489adc9bb3c24eb33d7b57b1e2f`，根/本题 README 无变化。完整 [执行身份与小回执](../notes/2026-11-27-unit211-S0-Lt0-same-eta-five-geometry-actual-execution-8542.json) 已保存；输入构造/原恒等式仍成立，但一般图未排空。本源冻结，不增加限时重跑；继续新的原低次关系。

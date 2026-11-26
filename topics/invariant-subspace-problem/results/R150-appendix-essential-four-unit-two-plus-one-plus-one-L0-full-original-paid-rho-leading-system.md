@@ -88,3 +88,11 @@ $$\operatorname{matrix}(I)\,\mathrm{cert}=[1].$$
 - [紧凑构造回执](../notes/2026-11-27-unit211-L0-full-original-paid-rho-leading-build-execution-8542.json)保留全部输入型及原单位身份。
 
 公开专用 workflow `.github/workflows/invariant-subspace-L0-full-original-paid-leading-8542.yml` 随 source/workflow push 运行本输入一次。实际 run/job 与结果将另行登记。本地构造通过不构成一般 L0、Bell 真幂来源、算子桥或普通 ISP 的完成。
+
+## 实际完整 QQ 门返回（2026-11-27 登记）
+
+公开 run `45909368752` / job `140213734582`，固定源提交 `c5696d76d59b9c974c21ba13fbc8dea5a07a04c4`，源 SHA `fae9a57e1da69f192fd3dead3f3a7901ba8d2a091b77aefff4a06ee7c71b954d`。独立 `std` smoke 实际退出 0、marker 通过且无 Singular 诊断；随后完整 `slimgb` 1200 秒仅输出 BEGIN，未返回基或 `I*cert=[1]`。驱动墙钟 **1202.639982 秒**，最大子进程 RSS **5283788 KiB**，源退出 **1**；job conclusion 为 failure。
+
+实际启动前于 2026-11-26 23:11:19 UTC pull 并读规则至 `c854afab07633f377aec822071a8bfb7359e2333`，根/本题 README 无变化。完整 [执行身份与小回执](../notes/2026-11-27-unit211-L0-full-original-paid-rho-leading-actual-execution-8542.json) 已保存；输入构造/原恒等式仍成立，但一般图未排空。本源冻结，不增加限时重跑；继续新的原低次关系。
+
+另一次原 rho 四次首项 $H_{15,22}$（297 项、SHA `48403aed73cca59c1fe4671f2548e7a76e9321ba5d249537c47640995cd06def`）与原 X 的完整 QQ 投影，在外部190秒硬限退出124；源内180秒alarm没有交付handler记录，只有3.933613秒的BEGIN。未获得结式，详[失败回执](../notes/2026-11-27-unit211-L0-H15-direct-projection-failure-8542.json)及同名精确源，冻结。该脚本临时X/Y输入由已登记再生助手生成；没有将旧失败输入重标成功。

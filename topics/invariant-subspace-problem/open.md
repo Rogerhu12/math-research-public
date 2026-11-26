@@ -51,7 +51,7 @@ rankH3单三jet的全部ess6已闭，末非零Hp原Gaussian/最高/normal给左�
 
 单位211整个u1图已闭，完整QQ曲线/九次原商代数/13逆返回与run45804559912见结果索引和上述快照。只续u≠1，不能二次用共同缩放。
 
-**原U值图L0：** w0/w1、b+c0、W、P1双零、整个G/K均已闭（完整域覆盖保结果索引），新[整个V首项曲线](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-L0-V-leading-rho-curve-complete-exclusion.md)也已闭：301次全投影/205次四域覆盖，32/170域严格一元证据，余两域归原w0/w1，38.595274秒/exit0。新[完整原L0输入](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-L0-full-original-paid-rho-leading-system.md)保八原返回和rho四次组合，源fae9a57e构造4.752914秒/exit0后运行专用QQ门；仍须实际单位证书。X/Y大投影及新[原组合/次数探查](notes/2026-11-27-unit211-L0-cofactor-and-degree-probes-8542.md)未决，输入全冻结；模5953未达QQ上界6228，不作提升，转H15首项曲线。
+**原U值图L0：** w0/w1、b+c0、W、P1双零、整个G/K/V均闭，完整来源保[结果索引](results.md)。余原同rho/t交点及全部P/N。新完整原门fae9a57e/run45909368752实际1200秒仅BEGIN/无单位，源冻结；X/Y大QQ、原cofactor末步、次数降行、H15直接投影亦未决冻结，原身份及准确回执保各正文。转原低次矩阵/关系，不用模5953替QQ保次数。
 
 **S0：** 全部已闭边界/原物理Gram/执行身份保结果索引和快照；只续Af非零、三值互异的Lt0一般图。一般LS非零与L0独立开放，不重算已闭门。
 

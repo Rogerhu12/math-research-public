@@ -1,0 +1,43 @@
+{
+  "session": "Astra-ISP-8542378f-20261127",
+  "source": "2026-11-27-unit211-L0-H15-direct-projection-failure-8542.py",
+  "sourceSha256": "a2a08fd22184147f12dbf87debffd60c16a1b3d3f28ed3473232a1571f6faa3a",
+  "parameters": [],
+  "observedShellExitCode": 124,
+  "sourceAlarmSeconds": 180,
+  "externalHardTimeoutSeconds": 190,
+  "addressSpaceGiB": 8,
+  "externalWallSeconds": null,
+  "stdoutBytes": 13213,
+  "stdoutSha256": "66dd8240300f10d781d1103180d05be520e631f7f226ff81a381c98e1dc44d56",
+  "actualRecords": [
+    {
+      "claimExcluded": false,
+      "elapsedSeconds": 3.844307,
+      "profile": {
+        "degrees": [
+          0,
+          15,
+          22
+        ],
+        "sha256": "48403aed73cca59c1fe4671f2548e7a76e9321ba5d249537c47640995cd06def",
+        "terms": 297
+      },
+      "stage": "new_entire_rho4_leading_H_input"
+    },
+    {
+      "claimExcluded": false,
+      "elapsedSeconds": 3.933613,
+      "inputWDegrees": [
+        22,
+        52
+      ],
+      "stage": "new_entire_H_curve_complete_QQ_projection_begin"
+    }
+  ],
+  "returnedRationalResultant": false,
+  "sourceTimeoutHandlerRecordReturned": false,
+  "cacheInputRegenerator": "2026-11-27-unit211-L0-XY-probe-input-regenerator-8542.py",
+  "claimExcluded": false,
+  "frozenDoNotRepeat": true
+}
