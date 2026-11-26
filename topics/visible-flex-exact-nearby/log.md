@@ -71,3 +71,7 @@ Root审完CX证明、pure math、owner/worker/generator和25whole pins。原WOB.
 ### 2026-11-26 — 按真实径向位置保留11个mean反馈系数
 
 root完整展开CR16为CP1，保ξ的二次与q的三次全部11系数。相同旧Lm完整Γ/τ逐cell新weighted rows直接给C_ab，不借K1乘全域Z；χ/χ²用原固定多项式精确积分。CP7映球和Lipschitz保rawR0与−[m]，按同ρ与true compact root/density门匹配；physical角/nonmean/帽/phase仍独立。证明完成即推，交global在首次新C0实际consumer同reverse scan付齐，无旧Green或旧max重算，无当前数值结论。
+
+### 2026-11-26 — 仅压缩12份重复历史页，为实际输出留容量
+
+把12个旧open/HANDOFF重复历史页改为逐件完整不可变恢复入口，同提交3919d213b7fafe6605c2ab55ed4212468eccfd20，各保原path/blob/bytes/SHA；实际全文可完整读回，不改历史。释放397485B。逐路径核R142/fixedη0/RW/compactC0所有当前和历史manifest不交，不动任何science/native/active pin。open第2–7节保留，近期第8节全文同提交完整恢复，当前表仅接续入口；旧false/unknown和未付义务不减，旧成功禁重。
