@@ -149,3 +149,12 @@ R55补充：[较宽设计盒与条件完整D≤2.69](notes/2026-11-20-soft-start
 ## R67. 任意非圆三重核心的固定帽与含反射非全等
 
 [完整证明](results/R67-universal-threefold-marker-and-euclidean-noncongruence.md)。初等积分证明凸域全纯矩全零只能是圆盘，故准确k=.2核心必有某有限3j阶矩非零；显式C²全谐波帽使每个相应帽矩严格正，两种已允许短柱至少一种消去活动矩抵消。最高权体积张量范数给整段δE>0，包含反射，不要求指定m3或指定端点非全等。帽成本显式≤.00004直径/曲率.0252，既有条件10%/reach窗仍有余量；实际λ1全场/接缝/几何和固定问题收敛仍未付。
+
+
+## R68. 补弧坐标控制基的多项式下界
+
+[完整证明](results/R68-complement-interval-phase-controls.md)。此前已登记并使用的新补弧频率ω_j=jπ/(π/3−S)有显式M⁻⁶曲率L²下界，旧全周期窗正弦存在指数近核；零控制保同一完整锚点。该索引补入，不重做原结论；有限新basis的条件数不等于完整BVP逆界。
+
+## R69. 同一补弧族的完整核心 C² 差界
+
+[完整证明](results/R69-uniform-core-c2-difference-from-phase-controls.md)。同baseline/λ/window/真实basis与旋转中心规范下，令E0、E1为连续phase/曲率差界、η=min(2,E0)，则完整闭合核心位置差≤(P/√3)η，一阶≤η，二阶≤E1+min(K0,K1)η。位置界来自精确旋转闭合Green算子，未移除零模或另选对齐；ℓ¹ Cauchy控制序列给核心C² Cauchy，有限两层下降本身不满足该假设。尚无新λ1或全场数值代入。

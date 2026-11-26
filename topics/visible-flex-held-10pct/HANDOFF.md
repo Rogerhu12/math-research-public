@@ -6,7 +6,7 @@
 
 连通闭C²嵌入、C²连续族；H闭、有内点且diamH≥.2D，整像δhold≥.1D、含反射δE>0，全时reach≥.03D。固定完整g/物理数据/时间范围加密到完整metric≤1e−6并持续下降。必须实际闭合和共用Cartesian两jet；λ<1不提供准确圆弧H。
 
-- 公共已完整读规则并真实pull：`ddfb0d853db3ea295852a81192b5a51f21d0553f`；私有根README/QUEUE接手登记已推 `2f68946f2fa3e192a291c7c1393231af1a89953e`。每次pull核双README差异，至少每小时一次。root独占git，逐结论push，NFF立即pull --rebase再推，禁force；令牌只命令行。
+- 公共已完整读规则并真实pull：`6828228a8d2cd27d59a05e018f141afab4c5853a`；私有根README/QUEUE接手登记已推 `2f68946f2fa3e192a291c7c1393231af1a89953e`。每次pull核双README差异，至少每小时一次。root独占git，逐结论push，NFF立即pull --rebase再推，禁force；令牌只命令行。
 - 工作树 `/tmp/held10-astra-06bbeb395471-public3`；旧scratch已失，原/workspace盘满勿删他人文件；旧进程终态不推断。详细[接手/来源](notes/2026-11-26-resume-and-current-sources.md)。
 - 70份源及实际chart69a3e8eb...保物理输入/原门；[恢复入口](notes/2026-11-26-tail-source-recovery.md)，不当新数学结果。
 - 公共[material run45763361623](https://github.com/Rogerhu12/math-research-public/actions/runs/45763361623)：M24 cold已真实δ中心差分越域，无raw；三路parent原门拒源exit2。M16/512 cold自然status1/n5860/RMS10.0388736684未门，rawba1b5a5e。后续[λ.004历史完整H独立尾](notes/2026-11-26-recorded-lambda004-tail-input.md)被预mkdir冲突挡在native初始化，未求尾；四入口已去该行，新目录请求02接续，见[实际返回](notes/2026-11-26-native-fresh-directory-startup-return.json)。
@@ -27,6 +27,8 @@
 3. 几何必须保真primitive/mean1168和公共Cartesian两jet。R66三重高度下连续转角I=1给primitive闭合；实际I/投影误差仍欠。[新cut](notes/2026-11-26-seam-new-prefix-cut-entry.md)显式v1/v2/v3/actual门；[真Zc](notes/2026-11-26-seam-new-true-cut-height-entry.md)动态M、同projection、共右二jet、Fraction全径向积分，不搬旧Zc。[动态全尾v2](notes/2026-11-26-seam-dynamic-tail-geometry-v2.md)以实际M/N完整谱及唯一R节点定义新图，原mean链/同谱修补已接；原factory depth与checkpoint shooting-depth按13项原覆盖语义分开核验；实际packet/native/磁盘三方同SHA，chord/native修改后的参数区源码核验已过。R58完整背景已必要恢复。全新场的尾、修补、尺寸/reach及同问题C²差均仍需真算。
 
 新[真核区间](notes/2026-11-26-warm-true-core-interval-extension.md)及[完整前缀metric入口](notes/2026-11-26-warm-continuous-prefix-metric-entry.md)已审/compile：真π/反函数/primitive、实际M/全角闭盒/全部径向断点、literal1168；小M2只是API实跑，数值界不迁移。真λ1场后再算，未知actual-refine种类须显式适配。
+
+**R69已证明**：[完整核心C²差](results/R69-uniform-core-c2-difference-from-phase-controls.md)：同phase族/中心规范下，η=min(2,E0)，位置≤Pη/√3、一阶≤η、二阶≤E1+min(Ki)η；精确闭合Green算子保零模。未付全场Cauchy。
 
 ## 必须复用的前会话成果
 
