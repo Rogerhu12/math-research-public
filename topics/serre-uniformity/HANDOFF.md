@@ -6,7 +6,7 @@
 
 **维护会话：Astra-serre-24b8836b-20261126。** 2026-11-26接手；已部分克隆并真实pull main。前态逐字见[接手归档](handoff-archive-2026-11-26-before-resume.md)，旧来源/run/hash沿原归档链保留；不重做已成结论。
 
-**已读公开规则提交：f0523d4caed7890009325029520139f200bfcfc8**（2026-11-26 13:39 Asia/Taipei；pull --rebase后两README无diff）。两README已读；每pull核diff记SHA，至少每小时pull。私库根规则已核36cf1ed2；QUEUE认领已推233f7479。
+**已读公开规则提交：c6c862648120cda17464512feda731d3302d8a4b**（2026-11-26 13:44 Asia/Taipei；pull --rebase后两README无diff）。两README已读；每pull核diff记SHA，至少每小时pull。私库根规则已核36cf1ed2；QUEUE认领已推233f7479。
 
 根维护main/H/open/index/log；子研究仅写各自notes。每条结论完整证明后立即提交，push前pull --rebase；NFF立即重复，禁force。凭据只CLI。H<10KB、open<30KB、每MD<100KB、topic<200MB；不提交可重算raw，不写根LOG。已读log/最新notes；R1003只有旧H“准备中”文字，当前树无稿，不当已交付结果。
 
@@ -44,13 +44,15 @@ R986/987真global rational LT与Poincare两open源：𝒯=Z+β^-1J_s^p、误差�
 
 [R990](results/R990-original-hypergeometric-fixed-r-coefficient.md)：原Ramanujan源A=2F1(1/12,7/12;2/3;z)、B=2F1(5/12,11/12;4/3;z)，T=−uB/(24A)、z=u³/432。m=(p−r)/3<ℓ=(p+1)/3，B为degree floor(p/12)真Jacobi多项式；H=((1−z)B²)^−1、f_i=H_i/(1−3i)、Q=4+12zB′/B−z/(1−z)，**c_(p−r)+=(-32)^m(r−1)![z^m]Qf^−r/4**。全分母单位、首resonance Hℓ=B(1)^−2单位，不可跨ℓ反除；完整ODE/roots/cusps与尺度保结果，目标系数非零仍开。
 
+[R1005](results/R1005-finite-Gauss-companion-and-complete-resonance-defect.md)：原P截到d=ℓ−1，完整Wronskian=1−z^ℓC/B(1)²，P_d=−16/(7B(1)²)、C+3zC′=B、C(1)=B(1)²。原高系数准确[z^m]QB^r/P^r；所有P根留数仍须保，非零未证。
+
 ## 当前实际工作：两新窗口完成后继续一般非零
 
 R991已完整认证R989旧r8差集349点（1000..20000），原三路/全hash见回执与H归档；不重跑。
 
 [R994](results/R994-certified-original-combined-windows-through-200000.md)：run44760218207/job136370438703/source248592d7f成功531.337922156s。真正新r8 2622点、新r2 1386点共4008全非零/无尾；四新点原三路、完整wp ODE及各首resonance核过。root纯IO全回执核；payload2865567B SHA e764dff838bb24b18c8fec7f7634c2044f403e59e23a349cc00d0554c000dc8d。仅有限S单位；所有sources/rows/pins见结果与归档，已完不重跑。
 
-继续R1001实际dual源的Fay/Hirota高carry；R1003完整norm3/Hadamard十二项稿准备中。R1002局部四自由jet已成，继续原全局W/CM归一约束；55|p+1剩余V非零、G稳定、O2近p单位及真正height仍开，主目标OPEN。
+继续R1001高carry与本轮norm3源/固定Eichler谱路线（尚为notes候选，旧R1003未交付稿不存在）；R1003编号已用于范围纠错。R1002局部四自由jet已成，继续原全局W/CM归一约束；55|p+1剩余V非零、G稳定、O2近p单位及真正height仍开，主目标OPEN。
 
 ## 全局后继
 
