@@ -2,9 +2,11 @@
 
 **主要目标仍OPEN。** 完整证明绝对常数C，或给出p→∞完整无CM反例族；有限素数、条件结论、低权/局部Abel/部分子群均不够。
 
-此前逐字状态在[最新open归档](open-archive-2026-11-26-before-actual-CM-jet.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重新计算已成输入。
+此前逐字状态在[最新open归档](open-archive-2026-11-26-before-finite-corner.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重新计算已成输入。
 
 R1018已证原P=(p−1)D₀在良好J₁准确Fm，m=(p−1)/2、π₀^((p²−1)/2)=p；原六标记/zero-flux/全局Cech与e3 odd gaps保留。R1019实际A=T5²、Z=(T31−32)T5²保Fm且杀CM，Z另杀Q挠点，充分大界分别max(575,N_HA)、max(36863,N_HZ)，N为固定Norm函数lc/resultant。R1021真full-p Cohen/μ平均给全非约化O/(p)仿射刚性，原u′=ε(c_Qψ+pR_Q)、R_Q仅仿射正则。全部证明与支撑/次数界见[逐字前态](open-archive-2026-11-26-before-actual-CM-jet.md)。R1023现已付清实际首log节点和跨尾返回；实际H_A/H_Z新支撑、所选简单商Néron格及非齐次CM jet仍须核；最低惯性型整投影已由R1029完成。
+
+[R1030](results/R1030-integral-finite-corner-projector-and-original-CM-affine-action.md)：R434本原有限格给φ(g)≡1modp，故E=(e_triv+e_τ₁)e_N为真整角投影，原Hodge/BT作用等于R1029 e₁。全Weil分支上EF=F，F=x^(2g−1)y；R1028/29实际提升差与R1021逐层作用给E(A_tail·x^(2g−1)dx/y)=0。保A_tail随det运输；原jet前因子a及其与首log相对位置仍须算。
 
 [R1029](results/R1029-original-lowest-inertia-type-integral-Hecke-splitting.md)：原p11mod12的完整Nns谱保奇cusp/偶PS；Savitt全部剩余型逐项排τ₁与补块重合，给真实e₁∈T^s⊗Zp及原BT整分裂。special Hodge纯权m，全部原首log保留，R1026负δ首层仍本原；块内同权提升模p唯一，R1028任意提升差投后进p层。实际非齐次CM jet及所选简单商Néron格仍须算，不把p-adic类型块冒Q简单商。
 
@@ -22,9 +24,7 @@ R1只把全部异常缩为p>37的完整N_ns；**p≡2,5 mod9只是另加小惯�
 
 [R1027](results/R1027-original-level-p-squared-theta-distribution-and-constant-one.md)：全部p≥41、p5mod6原D_p=1，4η⁶C_N²=1，Σa_i²a_(N−i)²=−1/4。真实Lp²第p theta分布在Frobenius子空间为(Dv)^p；保A†拉回全部total-D阶p交叉项与刚化[p]=−Frob²双轴符号，得d_A d_A†^p=γ/κ；R1025原符号付清绝对常数。共同δ′只剩±1，原两mask/bare仍开。
 
-[R1025](results/R1025-original-theta-exact-mod-six-direction-phases.md)：原全部方向相位已定：d_A=δ′_p abγ、2c_A/γ=δ′_p e_Aab，故η³C_N=−δ′_p e_Aab/2；a,b为α,β mod√−3的±1，e_A由模2非零列给出。所有有限处integrality+Kronecker把相位缩为±，实际3处Jordan/Tate线与原二jet读出ab；R1020遂给原带符号五次H值。共同δ′保留，primitive/Legendre同h与bare仍开。
-
-[R1022](results/R1022-original-theta-all-direction-constant-square.md)：全部p≥41、p5mod6，原4η⁶C_N(η)²=D_p∈(Fp×)²方向无关，D_p=−4Σa_i²a_(N−i)²；p5mod12原计算D_p=1，全行现由R1027闭合。真实index1积分torus由trace定标到Q(μ_(p+1))，复共轭即p-Frob，primitive拉回及canonical metric给相对norm1；完整addition分布保总D阶p的cross，接回c_A²=D_pγ²/4。原方向±已由R1025精确付清，共同单位保留；不能代primitive/Legendre谱或bare余项。
+R1022的原常平方与R1025的全部有限处方向相位已由R1027合为D_p=1；d_A=δ′abγ、2c_A/γ=δ′e_Aab、η³C_N=−δ′e_Aab/2，δ′²=1。所有原integral torus、canonical三挠、mod2/mod3/3处Tate线及total-D阶p cross均保留，全文及逐字前态可直接消费；两mask和bare不能删除。
 
 [R1020](results/R1020-original-critical-convolution-complete-theta-scalar-bridge.md)：原全方向精确比值H_p/C_N=120εt·aχ(Nα)²(χᾱ+β̄)/(6B)⁵；t³=4、a=α mod s、χ为α/β mod3的唯一μ6 lift。真实index2另一vacuum系数4c_A、norm3分布负号给d₀=−36c_A；canonical三挠基尺度与Weyl二次相位全部核准。十二个同核表示不变；共同C_N保留，不代primitive/Legendre同h非零或O2 bare单位。
 

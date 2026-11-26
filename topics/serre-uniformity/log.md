@@ -245,3 +245,8 @@
 ### 2026-11-26 21:31 Asia/Taipei — R1029 原最低惯性型的整分裂
 - [R1029](results/R1029-original-lowest-inertia-type-integral-Hecke-splitting.md)：原p11mod12的完整Nns谱保奇cusp/偶PS；Savitt全部剩余型逐项排τ₁与补块重合，给真实e₁∈T^s⊗Zp及原BT整分裂。special Hodge纯权m，全部原首log保留，R1026负δ首层仍本原；块内同权提升模p唯一，R1028任意提升差投后进p层。实际非齐次CM jet及所选简单商Néron格仍须算，不把p-adic类型块冒Q简单商。
 - global/root及o2纸核完整有限类型、剩余惯性列表、实际split Hecke整幂等与p-可除群延伸；后取特殊crystal/Hodge，保原首log和全部分母。Saito来源审读范围在正文如实列明。无数学程序，两README同步无变化；继续实际CM jet及原同标签/bare条件。
+
+
+### 2026-11-26 21:38 Asia/Taipei — R1030 原整有限角投影
+- [R1030](results/R1030-integral-finite-corner-projector-and-original-CM-affine-action.md)：R434本原有限格给φ(g)≡1modp，故E=(e_triv+e_τ₁)e_N为真整角投影，原Hodge/BT作用等于R1029 e₁。全Weil分支上EF=F，F=x^(2g−1)y；R1028/29实际提升差与R1021逐层作用给E(A_tail·x^(2g−1)dx/y)=0。保A_tail随det运输；原jet前因子a及其与首log相对位置仍须算。
+- 纸核真正整系数、原未扭仿射函数作用、所有配对分支与节点修正逐层相容；不先移动A_tail，也不以参考形状冒原jet单位。无数学执行，继续实际前因子与首log相对列；两README同步无变化。
