@@ -697,3 +697,38 @@ root 已亲读完整图、全部增广原像、非单位拒绝和末 RESULT 的�
 以及非单位增广障碍的准确拒绝。没有保存可重算结果文件。
 这仍是明确标记的算法 fixture；RESULT 明确没有重算原 maps、
 原正规化或原几何，不是 $306$ 维实际除子、厚 Norm、四交或 shadow PASS。
+
+
+### 10.6 同原生产接入的四个已备源码
+
+在 §10.5 实际通过后，已完整审读下面四个不可变 Git blobs。
+当前只登记可审查的源码位置；它们尚未挂到 main 的生产入口，
+也未启动第二次 $306$ 正规化：
+
+| 目标路径（本课题 scripts/ci，workflow 除外） | Git blob |
+| --- | --- |
+| scripts/produce-original-triangular-artinian-shadow.py | `9f49258629538a527765a2edc1f6f9215be080cf` |
+| scripts/launch-original-triangular-artinian-shadow.py | `52de62e7f4e6a6c230a3bbcec5388581c0a91ff2` |
+| ci/original-triangular-artinian-shadow-request.json | `4e44d037d77d3ad733d36364b7e51e52a1de85da` |
+| .github/workflows/rank2-sha-original-triangular-artinian-shadow.yml | `5713d440f42e1bd2f638944ce2dc9d3d4ddd1d5b` |
+
+生产 wrapper 的原始 8003 bytes SHA-256 为
+`123abc7793884286b43a2ef5b47074288c5fe0ffac1d628ab75a85ae1a4bd084`。
+它先固定核对旧 producer、fraction bridge 与 shadow consumer 的三个完整源码 SHA；
+只在本次离线进程中将原 producer/bridge 的完整 ideal engine、
+原 producer/consumer 的完整 Norm tools 共四个类绑定，替换为 §10 的子类。
+所有旧类身份都须先相等、替换后再相等；结束时还核对原两个实际 $306$ engine、
+完整交集上下文和真正 Norm 实例。
+
+之后直接调用原 producer.main，保持原 q2453、batch64、两份特征零 PASS 的
+job/run/source/result hash；完整 maps、两张正规化图、混合厚预检、
+四个原交集、九个原配对及原 shadow 接受门都不重写。
+原 Norm 的全部 $\pi$ 厚层仍由原消费者执行。
+它不将“所有厚支持已计入”改称“全部闭点已分解”，
+也不宣称 ordinary 或无穷素数结论。
+
+新 workflow 仅监听自身四个新路径，ubuntu-latest、最长360分钟，
+host总管上限21000秒；数学容器保持无网络、源码只读，token只给原公开PASS reader。
+没有保存正规化或重算数据，没有改共享 bridge 或触发旧重型 workflow。
+是否实际完成仍须以未来这条完整生产 run 的回执为准；
+当前单 $F$ run45764459557 继续。
