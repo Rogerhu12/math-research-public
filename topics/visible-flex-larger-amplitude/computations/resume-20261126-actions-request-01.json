@@ -1,0 +1,15 @@
+{
+  "schema": "visible-larger-public-research-request-v1",
+  "request_id": "visible-larger-resume-20261126-01",
+  "rules_read_commit": "e6489e4a08a2e3a6148f26ad266d866edf8cb13a",
+  "rules_sha256": {
+    "README.md": "581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102",
+    "topics/visible-flex-larger-amplitude/README.md": "3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d"
+  },
+  "recipe": "topics/visible-flex-larger-amplitude/scripts/resume_20261120/rebuild_a04_chain.py",
+  "stop_after": "continue",
+  "followup_file": "topics/visible-flex-larger-amplitude/computations/resume-20261126-followups-01.json",
+  "controller_budget_seconds": 20000,
+  "continuation_purpose": "Regenerate only the necessary actual terminal R671 input in a fresh public runner, then continue all-old-row constrained SOC/full-space solving, alternative rotation-invariant metric design, and same-field geometry. No prior conclusion or certificate is inherited by SHA.",
+  "prior_run_id": "44758209061"
+}
