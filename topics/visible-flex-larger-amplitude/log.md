@@ -435,3 +435,8 @@ R708支持内单位meridian完整条件构造：已正式刊[完整42式证明](
 ### 2026-11-26 21:05:19 UTC — Astra-larger-e4e2a2bf-20261126
 
 同步open §7到真实04第二SOC46/47及已刊R710完整条件误差核；§1–6逐字不变（SHA1be136a8abb5aa01164d08c59d3115fa8523cf68ab30c721b79daae2c8d8fbb0）。当前H缩导航，全文及全部旧链固定保bcfbc0caca28944264a8215cfa0120537516ff37，不删任何完整结论/失败/来源。两运行未返回科学值不预填。维护标记open-actual46-R710-and-handoff-bcfbc-history。
+
+
+### 2026-11-26 21:13:57 UTC — Astra-larger-e4e2a2bf-20261126
+
+登记[R711完整平滑三角中央相位](results/R711-smooth-triangle-central-profile-and-geometric-comparison.md)：十二片明式及全部端口/反射，准确余弦矩π端为0、覆盖全部正均值半径；完整scalar斜率下界与δ1/128的32/31近最优。准确初seed同r>2/π且同中央I_i的max|Fss|比值≤128π√6/2325<1/2；完整角frame、原积分局部化、正交第二基本形式K上界及D/握持/Gram费用均证明，未迁给非零外旋转或normal校正。root完整逐式读证明，geometry独立核关键全式，无科学本地执行。独立完整新输入入口继续接线，当前seed字节和原目标/标准不动。

@@ -4,7 +4,7 @@
 
 ## 规则与完整目标
 
-最近规则核查：2026-11-26 21:06:43 UTC，真实pull/rebase至 `76f5322d0e0fa630e1bb30bf77808e9af06e857c`，双README相对`9515618fa868fa2a0851e00c7e05987ebcaee55b`无差异，继续遵守全部规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
+最近规则核查：2026-11-26 21:16:14 UTC，真实pull/rebase至 `138565c1e70f59522c48d71950f18fe1947c2293`，双README相对`ae5bc0f0daada2f4b9b9036670cf173e7607b0ca`无差异，继续遵守全部规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
 
 科学计算仅本公开仓库Actions；执行偏差见[早前记录](notes/2026-11-20-public-actions-execution-correction.md)及[四次大JSON整读纠正](notes/2026-11-26-large-file-connector-read-correction.md)。root唯一分支写者；结论即普通推，NFF立即rebase循环，不强推。每次pull核双README差异并遵新规，至少每小时，记commit。raw只scratch/runner，不入Git/Release/artifact；保完整小源/参数/run/SHA/紧凑结论。题≤200MB、单文件<5MB、MD<100KB、H<10KB、open<30KB。令牌仅瞬时CLI。17:55终端失联后曾用云API普通快进；19:17显式/tmp恢复并新部分克隆，现恢复终端git。旧迁移完成情况未知，不假称恢复旧scratch。
 
@@ -45,9 +45,11 @@
 
 [R708](results/R708-supported-unit-meridian-seed-contraction.md)/[R709](results/R709-global-convex-mean-closure-without-contraction.md)的唯一均值正根/两角jet/残差界已证，无q<1门。[完整新固定seed入口](notes/2026-11-26-fixed-supported-unit-reference-normal-SO3-entry.md)九全源bd9c/30ea/e1bb/9fec/5297/d84b/e482/fa468/d788及全参数已刊并排05，九份历史均实存；端层S/16、epsilon1/10，原全变量/Gram/geometry、m32保。仅静态核，未预称首场或成功；均值J不迁证normal Cu。
 
-[R700六jet控制](results/R700-integral-so3-full-sixjet-control.md)是固定有限M/正rho、全core/H的径向网格无关界，非实际余量或M一致界。[完整QR](notes/2026-11-26-complete-so3-integral-qr-coordinate-interface.md)49a1已刊未跑，仅真实234ac/7f布局，不冒zero/R696/gamma兼容；原Cholesky已成功，当前不换范数。[R704η尾](results/R704-eta-tail-uniqueness-scope-and-fixed-control-bounds.md)证明η0回到原线性唯一性判据、任意固定η>0仍非L1；本轮保原目标。连续cert源已刊未跑；必须先得到真实合格候选，再付完整922胞/全尾/浮点/隐式费用及同g实际精化。研究尚未达到README全部完成标准，继续工作。
+[R700](results/R700-integral-so3-full-sixjet-control.md)限固定M/正rho，QR49a1只适用234ac/7f且未跑；R704已登记，本轮保原目标。连续证书源已刊未跑，必须先得合格候选，再付全922胞/尾/浮点/隐式费用及同g实际精化；其余工具全在固定bcfbc历史和results。研究未完成，继续。
 
 [R710](results/R710-supported-unit-seed-complete-angular-jet-error-bounds.md)给完整均值根、两角jet及物理T/Tφ/Tφφ/Ts误差；85e90有理区间核与实际批次绑定已刊，仅条件传播。准确积分/尾/三角/算术费用未付，不冒零费或全角证书。
+
+[R711](results/R711-smooth-triangle-central-profile-and-geometric-comparison.md)给十二片平滑三角中央profile：全部0<r<1、scalar最大斜率32/31近最优；同r>2/π的准确初seed中央max|Fss|低于旧一半。位置/两角/真实曲率比较全保，不能冒K/reach改善；独立新入口正接线，旧运行不改。
 
 <!-- visible-larger-parallel-04:start -->
 并行公开Actions04：[run 45857104277/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45857104277)；[实际记录](notes/2026-11-26-public-actions-45857104277-1.md)。阶段`followup_waiting`/running；已返47，exit=未返。
