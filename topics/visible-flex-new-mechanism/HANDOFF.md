@@ -1,15 +1,15 @@
 # HANDOFF：大振幅新机制
 
 **进行中，未完成；没有满足 README 全部条件的完整候选。**
-会话：**Astra-new-mechanism-0105020f-20261126**（2026-11-26）。
+会话：**Astra-new-mechanism-1f4a61a4-20261127**（2026-11-27，作者指定接手）。
 
 ## 1. 规则、授权与原始记录
 
-公开已读提交 **0749a4cc82cc0b30001fb5adb2e71bad1d1dd968**（2026-11-26 16:42 UTC；本次实际pull后根/题README空差异）；最后实际pull及规则同blob读至 **0c30d2c77ba6cd890669d145ce9dd1929f527a04**（2026-11-26 16:42 UTC；实际pull成功，根README空差异、QUEUE仍本会话）。私有 QUEUE 仍为本会话进行中，原认领提交9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7，其他课题认领不改。
+公开本次实际pull且根/题README已读至 **9543f2ef1988a3fad40cf7d3f83102391dcb0de1**；相对继承0749a4cc规则空差异。私库本次实际pull且根README已读至 **41fe885610073f478b2f5a752461ca56cfd43f09**；QUEUE认领推送 **09f8b8b54e7cfaabaa635bae5c438c7f1521289a**，状态本会话进行中。继承全文见[接手原件](notes/HANDOFF-inherited-20261127-1f4a61a4.md)。
 
-[本次压缩前全文](notes/HANDOFF-before-continuous-angular-bounds-20261126.md)及其所链[继承交接](notes/HANDOFF-inherited-20261116-1809.md)保全部结论、条件、旧失败、输入与费用；不因摘要删账。三次环境失联后已恢复；远端临时CLI和后续本地CLI均真实双pull/rebase/push。每次实际pull后查根/题README差异并执行，至少每小时；API读取不冒pull。root独占git和共享索引，每条结论即推，NFF立即pull --rebase再推至成功。
+[本次压缩前全文](notes/HANDOFF-before-continuous-angular-bounds-20261126.md)及其所链[继承交接](notes/HANDOFF-inherited-20261116-1809.md)保全部结论、条件、旧失败、输入与费用；不因摘要删账。每次实际pull后查根/题README差异并执行，至少每小时；API读取不冒pull。root独占git和共享索引，每条结论即推，NFF立即pull --rebase再推至成功。
 
-科学只在公开Actions；本地仅纸证、源码、AST/JSON/hash和原日志解析。根12不重复已付门，根15不存raw/可重算表；必要下一输入由CLI随明确scope发布。4次已披露开发偏离及修正保[记录](notes/2026-11-26-r582-necessary-input-recovery-original-receipt.md)所链前史，不重做或隐去。
+科学只在公开Actions；本地仅纸证、源码、AST/JSON/hash和原日志解析。根12不重复已付门，根15不存raw/可重算表；必要下一输入由CLI随明确scope发布。原偏离及修正保[前史](notes/2026-11-26-r582-necessary-input-recovery-original-receipt.md)。
 
 ## 2. 必须共同完成
 
@@ -63,4 +63,4 @@ R577/R579/R595/R599给完整近弦/厚核心/子午/切圆接口，实际圆参�
 
 [R608](results/R608-actual-circular-reference-tail-curvature-and-flat-cap.md)已付同解析圆参考δ≤2/25的无限尾正z_s、a>rc、κm<1/3和完整平帽，含所有振荡周期。下一真区间覆[c,L−2ℓ/25]的半径/正图/曲率，连续参考ρ与非圆扰动损耗分开支付。
 
-继续实际97q更密网metric、同682q全角目标、B030可行性回溯和真记忆质量式；子项完成即记原证据并接[open](open.md)。严格证明在[results](results.md)，数值和成本在notes。仅全部README门真正完成才收尾。
+本次已定位前会话未登记的97q run45856511629与全谱run45854123850原终态，正在接续；真历史函数源及圆参考紧区间证书并行推进。继续B030实际可行末态；子项完成即记原证据并接[open](open.md)。严格证明在[results](results.md)，数值和成本在notes。仅全部README门真正完成才收尾。
