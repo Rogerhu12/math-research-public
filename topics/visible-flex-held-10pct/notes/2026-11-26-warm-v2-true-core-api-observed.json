@@ -1,0 +1,57 @@
+{
+  "format_version": 1,
+  "status": "recovered_observed_execution_subset",
+  "date": "2026-11-26",
+  "session": "Astra-held10-06bbeb395471 / fixed_metric",
+  "family": "v2",
+  "synthetic_only": true,
+  "accepted_BVP_field": false,
+  "complete_surface": false,
+  "original_execution": {
+    "returncode": 0,
+    "exec_session_id": 44242,
+    "seconds": 20.984566284998436,
+    "command": [
+      "python",
+      "/tmp/held10-astra-06bbeb395471-fixed-rebuild/check_warm_true_core.py",
+      "--repo",
+      "/tmp/held10-astra-06bbeb395471-public2",
+      "--reference-source",
+      "/tmp/held10-astra-06bbeb395471-fixed-rebuild/test_source/fixed_metric_mode3_core.py",
+      "--family",
+      "v2",
+      "--out",
+      "/tmp/held10-astra-06bbeb395471-fixed-rebuild/warm-v2-retained-true-core-api-check.json"
+    ]
+  },
+  "original_output": {
+    "filename": "warm-v2-retained-true-core-api-check.json",
+    "sha256": "2bef3eff7523938f3d227b054b1bf6b444020d4b031bd0a584629ad2719704eb",
+    "complete_original_json_available": false,
+    "loss": "The temporary executor directories were absent after the 2026-11-26 environment reset."
+  },
+  "recovery": {
+    "new_execution_performed": false,
+    "original_json_bytes_reconstructed": false,
+    "scope": "Only scalar fields actually printed by the final local summary and the observed zero exit are retained. This new file has its own hash and is not the missing original JSON."
+  },
+  "observed": {
+    "sampled_material_angles_count": 11,
+    "pointwise_float_cache_outside_interval_gap": {
+      "F": 0,
+      "Ft": 0,
+      "Ftt": 0
+    },
+    "point_interval_max_width": {
+      "F": 1.60840785135008e-12,
+      "Ft": 1.8138268664813495e-13,
+      "Ftt": 4.4875214655348827e-13
+    },
+    "continuous_synthetic_core_positive_curvature_certified": true
+  },
+  "verified_recovered_source_sha256": {
+    "warm_phase_validated_core.py": "8fb218071da89f111982a6ac970f51fcf0e52487b6985d637af26211ddcd9194",
+    "check_warm_true_core.py": "e6f9542e4b26f4e066015b9cf012b897deb606b1b571452d6693bc0c8ec23450"
+  },
+  "no_actual_field_bounds_transferred": true
+}
