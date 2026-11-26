@@ -1446,6 +1446,41 @@
         }
       },
       "scope": "Complete source/report byte binding and actual scalar readout only; every true geometry/PhaseI/target distinction retained, no scientific arrays or F/J recomputed."
+    },
+    {
+      "id": "actual-normalized-parent-SO3-first-failure-trace-20261126",
+      "script": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/read_actual_followup_failure.py",
+      "args": [
+        "--status",
+        "{work}/status.json",
+        "--step-id",
+        "complete-new-SO3-fixed-deep-meridian-first-20261126",
+        "--output",
+        "{work}/postprocess/normalized-parent-so3-first-failure.json"
+      ],
+      "outputs": [
+        "postprocess/normalized-parent-so3-first-failure.json"
+      ],
+      "summary": {
+        "postprocess/normalized-parent-so3-first-failure.json": {
+          "source_sha256": "source_sha256",
+          "step_id": "step_id",
+          "actual_source_sha256": "actual_source_sha256",
+          "actual_source_commit": "actual_source_commit",
+          "actual_returncode": "actual_returncode",
+          "actual_recorded_seconds": "actual_recorded_seconds",
+          "actual_log_sha256": "actual_log_sha256",
+          "actual_log_bytes": "actual_log_bytes",
+          "final_python_traceback_found": "final_python_traceback_found",
+          "final_exception_line": "final_exception_line",
+          "bounded_failure_excerpt": "bounded_failure_excerpt",
+          "excerpt_character_limit_reached": "excerpt_character_limit_reached",
+          "complete_log_published": "complete_log_published",
+          "scientific_arrays_read": "scientific_arrays_read",
+          "field_or_J_evaluations": "field_or_J_evaluations"
+        }
+      },
+      "scope": "Pure actual stage39 failure attribution from live run45800076687 status and its original bounded final traceback. No F/J/arrays or speculative rerun; complete log stays runner. Source ef017 unchanged."
     }
   ]
 }

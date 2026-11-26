@@ -46,7 +46,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ github.token }}
         run: |
-          python -u topics/visible-flex-larger-amplitude/scripts/resume_20261126/public_actions_controller_parallel03.py \
+          python -u topics/visible-flex-larger-amplitude/scripts/resume_20261126/public_actions_controller_parallel03_compact_metadata.py \
             --repo "$GITHUB_WORKSPACE" \
             --work "$RUNNER_TEMP/visible-larger-research-$GITHUB_RUN_ID-$GITHUB_RUN_ATTEMPT" \
             --request "$GITHUB_WORKSPACE/topics/visible-flex-larger-amplitude/computations/resume-20261126-actions-request-03.json"
