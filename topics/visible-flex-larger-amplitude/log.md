@@ -289,3 +289,5 @@
 2026-11-26 07:08 UTC — Astra-larger-e4e2a2bf-20261126：刊R684最终均值冻结、完整fixed-target driver/launcher、R676 transfer-only精化与固定g K00粗Gram五源。目标连续公式/原rho*/N*不改、所有原均值约束恢复，精细eta取真实物理映射；显式target不冒设计阈值为精化容差，报告零步及同父测度。五源SHA/AST/compile及68flags静态核，尚无冻结/科学运行/精化完成声明。
 
 2026-11-26 07:17 UTC — Astra-larger-e4e2a2bf-20261126：修fixed-target新driver的实际几何读数完整性：grid半径/主曲率及任意witness主曲率/半径非有限立即incomplete，不容NaN比较跳过后标complete。当前源2020d687；旧已刊314764历史保留，wrapper/目标/导数/其余四源不变。静态AST/compile及小diff核验，无科学执行/新数值。
+
+2026-11-26 07:18 UTC — Astra-larger-e4e2a2bf-20261126：刊并排R684/R688完整源绑定的纯报告归因，支持真实trial失败、q0/qz/alpha模型gain、末face和实际预条件计数。旧SOC binder不冒读新mean体，未执行几何不标pass；只读原报告/小源，不重跑方向，尚未返回。
