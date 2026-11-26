@@ -10,6 +10,7 @@ import argparse
 import gzip
 import hashlib
 import json
+import math
 import os
 from pathlib import Path
 import subprocess
@@ -31,6 +32,8 @@ def main():
     for name in ('repo', 'work', 'source-run', 'outdir'):
         parser.add_argument('--' + name, type=Path, required=True)
     parser.add_argument('--tail-warmup', type=float, nargs='*', default=[.25,.5,.75,.9])
+    parser.add_argument('--initial-tail', type=Path,
+                        help='Same-source accepted complete tail packet, used only as an initial guess')
     a = parser.parse_args()
     repo, work = a.repo.resolve(), a.work.resolve()
     source_run, out = a.source_run.resolve(), a.outdir.resolve()
@@ -121,8 +124,51 @@ def main():
         core_text = (native_source/'scripts/950f-tail-stage-core.mjs').read_text()
         if 'bounded-chord-v1' not in core_text or 'fresh-original' not in core_text:
             raise ValueError('Prepared source lacks the recorded original-final-J chord path')
+        initial_tail = None
+        if a.initial_tail:
+            initial_tail = a.initial_tail.resolve()
+            if work not in initial_tail.parents:
+                raise ValueError('The accepted tail initializer must stay under work')
+            with gzip.open(initial_tail,'rt') as stream:
+                packet = json.load(stream)
+            prior = packet['response']
+            checkpoint = prior['checkpoint']
+            residual = prior.get('residual')
+            if (prior.get('converged') is not True or prior.get('failed')
+                    or not isinstance(residual,(int,float)) or not math.isfinite(residual)
+                    or residual > tail['solveTolerance'] or packet['request'].get('audit') is not True
+                    or not isinstance(prior.get('audit'),dict)):
+                raise ValueError('Tail initializer did not pass the original audited finite gate')
+            source_names = {'950f-tail-client-v3.py','950f-tail-stage-port-v3.mjs',
+                '950f-tail-stage-core.mjs','950f-tail-stage-split.mjs',
+                '950f-tail-subdivision.mjs','950f-tail-warm-remesh.mjs',
+                'closing_weighted_tail.mjs','closing_recalibrated_tail.mjs'}
+            if set(packet['source_sha256']) != source_names:
+                raise ValueError('Tail initializer has an incomplete source identity')
+            for name, expected in packet['source_sha256'].items():
+                if digest(native_source/'scripts'/name) != expected:
+                    raise ValueError('Tail initializer used a different source: '+name)
+            for key, value in tail.items():
+                if packet['config'].get(key) != value:
+                    raise ValueError('Tail initializer configuration differs: '+key)
+            states, cut_height = checkpoint['states'], checkpoint['cutHeight']
+            parameters = checkpoint['parameters']
+            if (parameters['modes']!=modes or parameters['spacing']!=spacing
+                    or not isinstance(states,list) or len(states)!=parameters['depth']+1
+                    or len(cut_height)!=modes
+                    or cut_height != packet['request']['height']
+                    or any(len(row)!=2*modes or not all(math.isfinite(v) for v in row)
+                           for row in states)
+                    or not all(math.isfinite(v) for v in cut_height)):
+                raise ValueError('Tail initializer lacks the complete finite state')
+            # The original worker reads the full packet's response.checkpoint,
+            # checks all physical geometry keys, and remeshes it. Its existing
+            # predictor explicitly permits a new Dirichlet height; that guess
+            # must still pass every original nonlinear gate at each request.
         tail.update(chordMaxCorrections=3, traceFile=str(out/'worker-trace.jsonl'))
         tail.pop('initialCheckpoint', None)
+        if initial_tail:
+            tail['initialCheckpoint'] = str(initial_tail)
         actual_cfg = out/'tail-settings.json'
         actual_cfg.write_text(json.dumps(tail, indent=2)+'\n')
         native_runs = out/'native-runs'
@@ -150,9 +196,12 @@ def main():
         state['source_hashes'] = {str(p):digest(p) for p in
             (Path(__file__),runner,resume/'continue_material_true_tail.py',source_run,
              raw,physical,tail_path,actual_cfg,port_path,manifest)}
+        if initial_tail:
+            state['source_hashes'][str(initial_tail)] = digest(initial_tail)
         state['progress'] = dict(source_metric=record['prefix_audit']['metric_l1'],
             modes=modes, warm_factors=a.tail_warmup,
             warm_definition='H_j * factor**j for j=1,...,M; then full H',
+            initial_tail=str(initial_tail) if initial_tail else None,
             original_outer_budget=record['gates']['original_outer_budget'])
         state['status'] = 'original_true_dn_running'
         save()
@@ -161,7 +210,6 @@ def main():
         seen = set()
 
         def observe():
-            import math
             def scalars(obj):
                 return {k:(str(v) if isinstance(v,float) and not math.isfinite(v) else v)
                         for k,v in obj.items()
