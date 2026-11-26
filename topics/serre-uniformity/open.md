@@ -97,6 +97,8 @@ $$
 
 ## O4：原Abel零集、正秩像与真正高度
 
+[R1010](results/R1010-original-CM-divisor-nontorsion-in-nonCM-part.md)已证明原X₁指定D₀在非CM新部投影非挠：全p≥10¹⁸、p5mod6；p11mod12时p≥431即可。完整T_qδ=δ^qT_q下降、六水平Std型、全部CM域筛选、31处ES挠点消去和最深CM导子唯一支持均给出；除子度≤4608(q+1)²对gonality≥21p(p−1)/800，自足PV给q=O(√p logp)。仅限原X₁，不搬到变化X_d；继续同CM点的实际低秩商与原p圆盘排点，不以非挠代候选排除。
+
 [R1007](results/R1007-deck-compatible-CM-correspondence-height-valuation-obstruction.md)：原μ3相容对应的修改对角满足ND_Z(c0)=3D_Z(c0)、D_Z(y)=D_Z(c0)−2Z[y−c0]。同一真实整高度格及N/Z自伴、NG=0、ZG=λG、λ∈ℓZℓ下，指定高度必在ℓ²Zℓ；原纯CM对应不能满足新valuation-QC的赋值1条件，一致改基点或整splitting不解除。保η_h与清分母；底曲线块及其它全高度关系仍开。
 
 [R1008](results/R1008-wild-inertia-and-all-rational-correspondence-centralization.md)：原canonical level6p全H¹在三处野惯性平凡；原κ₄κ_d⁻¹扭曲将一个野惯性元素实现为δ，实际偶分支d∈Q₃ cubes。故整个End_Q(J_d)均中央化δ，包含非CM/旧形式/全部重数。R1007的三挠Picard投影及ℓ²高度整除因此适用于全部有理自对应，关闭原曲线上的新nondeck入口；保留底曲线η_h、其它完整高度及O0范围。
