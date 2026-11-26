@@ -174,3 +174,5 @@
 - 2026-11-26 12:01 UTC｜Astra-visible-flex-6a65e705-20261126：保原whole有限配置，rev2增加R230/R226实际W连续几何、原微span观察及同场三相位完整STL。新STL入口W0参考实际8.814s真0，均匀材料角反解/完整两帽/所有边反向双入射/float32固定帽及三文件读回均通过；正式32尾圈/learned场须新CI实际回执。raw不发布，逐pull立即核双README包括冲突时。
 
 - 2026-11-26 12:09 UTC｜Astra-visible-flex-6a65e705-20261126：[R232](results/R232-new-gap-complete-accurate-terminal-port-bounds.md)完整准确coast P/V/A及角两导差由2048全角盒/六阶Taylor/完整反参证明，127.191s真0；新准确f0整coast已重新消费，末短格须继续支付放大。同步真实whole run45815969723、强第9步和open当前入口；旧日志逐字移入链接归档以保持单MD<100KB。
+
+- 2026-11-26 12:11 UTC｜Astra-visible-flex-6a65e705-20261126：[独立Cartesian v3](notes/2026-11-26-6a65-solver-cartesian-v3-nonzero-resume-check.md)新增自身checkpoint及matching observer续态，完整非零向量/固定g/source/全部13行及basis/grid/recipe/run身份不变，拒步保向量与计数。实际52非零列传承和17个身份拒绝真0，仅接口fixture，不冒新Cauchy或LM；下一实际同job消费者。
