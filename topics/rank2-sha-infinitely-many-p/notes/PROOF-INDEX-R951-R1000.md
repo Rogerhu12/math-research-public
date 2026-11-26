@@ -96,3 +96,6 @@
 
 
 - [R993](../results/R993-original-thirteen-boundary-values-and-common-frame.md)：原指定Z在两13核全部非零点为单位，固定L值的resultant=6912π(4+δ)，L⁶完整两坐标已返。两rank2原源的实际边界比例ρπ=−11(1+δ)/40及共轭相差单位−11δ/20，核消去重数恰1，首个完整商及Gold边界非零det已付。原canonical Miller函数R(X(P))/R(X(P+T))给整个共同frame缺陷和真实权1−P2(T)^65(DR(T))^10；未删P2/Ξ、移动Z零点或二挠边界。R711同六行保全部低卷积。run45903334519/job140194103108同原48纤维/22列/旧R987门全部PASS；不把局部边界零写成全中央零。
+
+
+- [R991](../results/R991-three-cubic-twists-and-explicit-level-nine-toric-input.md)：三个实际三扭曲的全有限/无穷角色及strict最高Chow同构已付。E27的π/χ在2、3、17的split Hom全部非零，E4在3仍阻塞；实际3处compact type/Mackey和2/17全toric向量均给出，保原9级与真实34同源。Γ曲面准确为I9/I3、pg=q=1、T=Indψ27²，非K3。Rankin分解保最高原λ，混合β27=ψ27η的level31212/root+1；原L′(λ,2)非零保持，固定β27 L(1)与新图最高AJ非零继续。
