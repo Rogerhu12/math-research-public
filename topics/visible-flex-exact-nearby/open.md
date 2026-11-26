@@ -155,7 +155,7 @@ G以S/T E1856给physical C²整盘/曲率<2/径长<8e−6及同world position/no
 
 | 路线 | 实际状态与下一项 |
 |---|---|
-| R142 parent moment | 45761859526/1仍step5；77pins/768bits、155parents/1424cells。完整defect/ε先读六球，不仅看marker；true后补58链，fullfalse才signed trace。只有cell计数不等于可恢复moment载体。 |
+| R142→PS | [actual45761859526/1](results/R142-supplement-actual-parent-moment-wall-cap-and-durable-continuation.md)10:09预算终止，defect=null/sources={}/targets[]，ε未知；1424 packets不等完整积分。已走PS首真实前件准入，逐母格保存三平方；有全六球即消费，true后缺源/point，fullfalse才signed。 |
 | R149 physical链 | [58→224→32](notes/2026-11-26-physical-scalar-execution.md)及[PN56](results/R149-supplement-actual-positive-negative-receiver-execution.md)等待真低逆；全部L²_r head消元必须真实square通过，14原ports保持自身单位，true root96/mean/ν仍留。 |
 | common source4→6 | [source4实际](results/R149-supplement-actual-common-high-WPN-source-unit-ball.md)45783842857/1完整4/4锁定。原Xfr−4/3、state outermean与aux Ec*e保；[CXN6完整入口](results/R149-supplement-actual-common-high-negative-receiver-execution.md)已推，无actual32则无manifest。P/T同因三角，Ni/output9一次。 |
 | fixedη0 forward | 45778507038/1在跑，7296格6143接口、320bits/N512/源24流25、5h/6h。旧wholeη45772466407完整但positive/C0/外mean unknown、无真违例，成功覆盖锁定不重；[suffix规范](notes/2026-11-26-R144-fixed-eta0-mean-suffix-state-spec.md)仅真未完成才用。 |
@@ -171,7 +171,7 @@ R143 correlated body已全4651；R146全418/13376使当前CV/RA根费格式失�
 
 [TM terminal→normalized constant](results/R144-supplement-terminal-mean-small-ball-controls-normalized-forward-constant.md)使用真实terminal球与waist L²界控制Dbar，保全部CP/source/jumps；actual45791979634/1已完成unique-root、统一mean/density，旧粗sameφ门false留原件。LC已另完成更紧C0，不重forward/W。
 
-[PS完整父段源积分续接](notes/2026-11-26-R142-streamed-defect-execution.md)：proof/pure及owner/generator已全核，复用原worker；85pins/14bindings，只在真实未成R142全件结束且defect=null后建入口。每母格三积分整件保存读回，再推进全输出/193atoms游标；已接受源域不重复moments。任何已有完整六球优先消费，旧count/hash不授积分前缀；未建actual manifest。
+[PS完整父段源积分续接](notes/2026-11-26-R142-streamed-defect-execution.md)：proof/pure及owner/generator已全核，复用原worker；85pins/14bindings，已整读真实R142结束文件且defect=null，正在实例化首入口。每母格三积分整件保存读回，再推进全输出/193atoms游标；已接受源域不重复moments。任何已有完整六球优先消费，旧count/hash不授积分前缀；本次旧科学没有完整三积分。
 
 
 几何输入的坐标资格已完整核原C.1/B.1：ε=max(||δu||C0(r,φ),||δv||C0(r,φ))，是未除α、保mean的完整moving状态。新compact mean的u同φ准确不变，v可用b sup jξ+ρ sup χ|v−m|；固定θ复合是另一量，仅按实际物理端口需求支付，不误增B.1前件。此处未给新数值门。

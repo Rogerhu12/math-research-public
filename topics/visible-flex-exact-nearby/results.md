@@ -25,7 +25,7 @@
 - [接手前索引](notes/2026-11-14-results-index-through-nearby-phase-target.md)
 - [open](open.md)
 - [HANDOFF](HANDOFF.md)
-- [R142：已成Green前缀的准确接续与全母格矩积分](results/R142-low193-parent-moment-continuation.md)
+- [R142：已成Green前缀的准确接续与全母格矩积分](results/R142-low193-parent-moment-continuation.md)；[actual预算终止和PS后继](results/R142-supplement-actual-parent-moment-wall-cap-and-durable-continuation.md)，完整defect尚未保存、ε未知。
 - [R143：相关体能量后的最优二维必要筛查](results/R143-correlated-body-energy-and-optimal-root-screen.md)
 - [R144补篇：紧支撑密度的二次mean补偿](results/R144-supplement-compact-density-quadratic-mean-compensator.md)
 - [suffix状态规约](notes/2026-11-26-R144-fixed-eta0-mean-suffix-state-spec.md)
