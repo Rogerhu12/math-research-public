@@ -155,7 +155,7 @@ G以S/T E1856给physical C²整盘/曲率<2/径长<8e−6及同world position/no
 
 | 路线 | 实际状态与下一项 |
 |---|---|
-| R142→PS | [actual45761859526/1](results/R142-supplement-actual-parent-moment-wall-cap-and-durable-continuation.md)预算终止且无六球；[PS真实入口](notes/2026-11-26-low193-streamed-defect-after-45761859526-inputs.json)85pins已核，run45802396138/1运行，accepted0/155，逐母格三平方全保存。新19600s科学预算，旧16800保；ε未知，true后缺源/point，fullfalse才signed。 |
+| R142→PS | [actual45761859526/1](results/R142-supplement-actual-parent-moment-wall-cap-and-durable-continuation.md)预算终止且无六球；[PS真实入口](notes/2026-11-26-low193-streamed-defect-after-45761859526-inputs.json)85pins已核，run45802396138/1运行，accepted0/155，逐母格三平方全保存。新19600s/旧16800保；ε未知。true接[NS](notes/2026-11-26-R142-neumann-source-point-execution.md)五件已核，94pins只待真PS两结果；fullfalse才signed。 |
 | R149 physical链 | [58→224→32](notes/2026-11-26-physical-scalar-execution.md)及[PN56](results/R149-supplement-actual-positive-negative-receiver-execution.md)等待真低逆；全部L²_r head消元必须真实square通过，14原ports保持自身单位，true root96/mean/ν仍留。 |
 | common source4→6 | [source4实际](results/R149-supplement-actual-common-high-WPN-source-unit-ball.md)45783842857/1完整4/4锁定。原Xfr−4/3、state outermean与aux Ec*e保；[CXN6完整入口](results/R149-supplement-actual-common-high-negative-receiver-execution.md)已推，无actual32则无manifest。P/T同因三角，Ni/output9一次。 |
 | fixedη0 forward | 45778507038/1在跑，7296格6143接口、320bits/N512/源24流25、5h/6h。旧wholeη45772466407完整但positive/C0/外mean unknown、无真违例，成功覆盖锁定不重；[suffix规范](notes/2026-11-26-R144-fixed-eta0-mean-suffix-state-spec.md)仅真未完成才用。 |

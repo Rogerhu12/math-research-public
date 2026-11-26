@@ -260,3 +260,5 @@
 - [TC首入口实际输入恢复失败](results/R149-supplement-actual-true-root-trial-input-restoration-failure.md)：45806282910/1旧Z历史地址不存在，science_children=0、无新目标/球；首历史metadata一致不冒真实路径存在，原失败留存。固定原nodal answer/Hermite/全部旧hash的必要载体恢复正在独立核验。
 
 - [SB：紧mean中心到选定参考态的完整同φ距离](results/R144-supplement-complete-same-phi-bridge-to-selected-reference.md)：同η0、完整均值与α一次，原LC整球/连续repair/全区间Z给pair A0与moving C0<1.98e−5。换metric的mean/ordinary源显式保，未来修正及全部world锚/闭合另付；没有重做数值目标。
+
+- [NS：已存真低逆后的四源与全径向观察续接](results/R142-supplement-saved-Neumann-source-and-point-continuation.md)：同155/1424/193对象，母格三平方、六comparison球与point四闭盒各整件读回后接受；旧defect/已成源和point不重。[五件实际入口定义](notes/2026-11-26-R142-neumann-source-point-execution.md)已全核，真实PS εtrue尚未到，未创建实际manifest/workflow。
