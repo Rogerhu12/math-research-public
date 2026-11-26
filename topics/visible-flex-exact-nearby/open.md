@@ -175,7 +175,7 @@ R149 signed-loop与[CP/physical](notes/2026-11-26-physical-scalar-execution.md)�
 
 
 
-几何输入的坐标资格已完整核原C.1/B.1：ε=max(||δu||C0(r,φ),||δv||C0(r,φ))，是未除α、保mean的完整moving状态。新compact mean的u同φ准确不变，v可用b sup jξ+ρ sup χ|v−m|；固定θ复合是另一量，仅按实际物理端口需求支付，不误增B.1前件。此处未给新数值门。
+原同φ坐标资格、mean/世界锚及全部scope保[eb774fb原open](https://github.com/Rogerhu12/math-research-public/blob/eb774fb06c6cb6dc51ffac0b31e5ebe833f359b1/topics/visible-flex-exact-nearby/open.md)与原proof。
 
 [LC actual](results/R144-supplement-actual-localized-full-state-and-compact-sources.md)45797426031/1：19当前/10历史，全7721行/6143join/27球、整件contains/trace已核；sameφ 1e−4门true，CS五源/χ′质量/全jump锁定。anisotropic约2.926756632289e−5仅显示，消费全保存球；未来GC修正另付，旧TM/Γ/残差不重。
 
@@ -187,3 +187,5 @@ R149 signed-loop与[CP/physical](notes/2026-11-26-physical-scalar-execution.md)�
 
 
 [DC](results/R149-supplement-same-sign-density-compression-and-finite-Theta-rows.md)给C双逆H−1/2≤1与VQ全L²行；[DB](results/R149-supplement-complete-Theta-row-regularity-and-negative-window-density-inverse.md)以true p的C³付H¹dual/C^-1 H−4/3，保CG gain。IL四球入口40/6已齐；Ep/三导actual及alpha signed另付，原means/fullSchur保。
+
+[PA](results/R144-supplement-complete-positive-hybrid-adapter-for-compact-centres.md)保原S/Green/root97/outer96/point与完整四block。whole positive相对speed<1.893e−7，core raw low/high→low<.002130/.003499；cross仅97..160且mean行列0，direct high源/jump0不消返回高响应。下一项是whole low perturbation receiver及直接高principal/Riccati更新，原H1/3源界不能免费吸收一阶项。

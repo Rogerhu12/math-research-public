@@ -309,3 +309,5 @@
 
 
 - [MJ：实际紧中心的terminal均值Jacobian与两端逆](results/R144-supplement-compact-terminal-mean-Jacobian-and-two-endpoint-inverse.md)：保全部mean atoms，ordinary/jump/shape/terminal界为.605/1.518/.087/1.058；真控制腰导数非零、415倍导数成本及kerℓ坐标slice完整保。两端Green核给精确支撑前后消去，不授full GC逆。
+
+- [PA：完整正侧compact–hybrid差及原四block接收](results/R144-supplement-complete-positive-hybrid-adapter-for-compact-centres.md)：保三个ordered primitives、独立meanrank、全S/root97/outer96/point；cross97..160、mean cross0、direct high ordinary/jump0。whole relative speed<1.893e−7；actual core low/high→low<.002130/.003499，16个saved有理比较已过。whole low/high principal/fullSchur仍待。

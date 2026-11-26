@@ -278,3 +278,5 @@ NS五件共129172B，owner71056B SHA18db439d5895e4232882940a57b7bd9457982383e1ac
 
 
 2026-11-26 21:10:03 UTC / visible-exact-astra-fb31ed6-20261127：IL四目标首次短入口已齐；40当前/6完整原native，原258 rational complex系数/两centralmean精确核同；Ep/P1/P2/P3全四目标原子保存。root读完source/worker/generator/proof，只将proof的有符号δ*记号改为完整d*≥|δ*|；metadata重生成功15992B/SHA eca231e77b0248c5585c751c157f82fc6d86985bb4fd24722bc51c9029b71a1d，数值导入0。DB遇一次并发拒绝后立即pull/rebase成功864c3181a，两README无diff。
+
+2026-11-26 21:22 UTC / visible-exact-astra-fb31ed6-20261127：登记PA完整proof/pure adapter/saved checker。完整signed差的三个primitive次序、主部mean差和独立meanrank均保，cross只97..160；16已有small-ball有理比较全过，不重native。正侧整体speed相对差<1.893e−7，core raw低输入<.002130、高到低<.003499；direct high residual/jump严格0但返回高响应保留。全S/root97/outer96/point/full四block与whole高principal义务明确。IL已推eb774fb06，两README无diff；NP45893562391已完成2/2，真实小输出读取中。
