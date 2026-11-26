@@ -337,3 +337,7 @@
 ### 2026-11-27 01:16 Asia/Taipei — R1047 实际消去格饱和与原盘有理点界
 - [R1047](results/R1047-original-MW-saturated-profile-and-common-zero-bound.md)：两行原新部的全部实际MW消去格Σ到前n₀=(p−2)/3个CM系数为饱和单射；任一本原行保M1。若r_ann=rankΣ≥1，原单位闭盘的公共零点总重数≤n₀−r_ann+1，故原有理点≤n₀、非中心≤n₀−1。以整Tate除法保全部尾，使用真实全MW消去，不恢复旧秩零商。最低单位/非中心根排除及O0仍开。
 - 新部任意本原正交行消费R1045/46；完整整Tate除法直接证明共同根维数界。附[原平方候选的纸面反例](notes/2026-11-27-original-fN-square-candidate-counterexample.md)，只排未登记猜测f_N=8a_(N/2)²，不作新全称单位证据。无数学执行；继续原低项、actual carry及高范数，不以点数界结束。
+
+### 2026-11-27 01:40 Asia/Taipei — 原f_N严格新窗口请求
+- 建立[方法](notes/2026-11-27-original-scalar-obstruction-new-window-method.md)、consumer与请求，复用R698已证明算法，仅200000<p≤500000、p2/5mod9；新f_N零才作原z复核，完整前缀与预算分别报告。数学只在公开Actions，旧窗不重算、raw只在runner scratch。
+- 新增课题外共享文件 `.github/workflows/serre-scalar-obstruction-new-window.yml`，用于这一授权公开计算；单job/1200秒数学预算，保存脚本参数和小回执，不上传artifact/Release。推送触发后根继续纸证，不等待CI结束。

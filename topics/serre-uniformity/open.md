@@ -30,6 +30,8 @@ R1只把全部异常缩为p>37的完整N_ns；**p≡2,5 mod9只是另加小惯�
 
 ## O1：全p同一真实本原标签的临界非零
 
+原f_N新增公开反例搜索严格200000<p≤500000、p2/5mod9，见[方法](notes/2026-11-27-original-scalar-obstruction-new-window-method.md)。只消费实际完成前缀/首个新零回执，不重算R706旧窗、不以有限非零推全称；纸面主线继续。
+
 [R1043](results/R1043-original-fN-and-Hodge-kernel-CM-endpoint.md)：全部p=6N+5≥41，原sigma/正CM/六标记准确f_N=−T₀(1)/6，T₀∈Fp[b³]唯一满足LT₀=A、首系数−1。完整fine Cartier身份给同一V_(p−1)†=ξr^(N+1)T₀；保两行ξ的(−1)^(N+1)、E6=−c6和原mark E6/η12=−24√−3。原B(c₀,λ)=B(c₀,v)=3T₀(1)/A(1)=−18f_N/A(1)。端值单位及同h筛选仍开，不混同r2范数或扩到r8 bare。
 
 [R1031](results/R1031-original-fN-and-actual-Faber-truncation-central-derivative.md)：原f_N=0 iff [P_d(1−2z)²]≤d 的R′(1/2)=0；真实Faber/Hasse²运输给完整单位比例，forcing为−(d+1)³(C_AS/9)z^d。中心导数单位、同h两mask与bare仍待证。
