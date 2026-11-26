@@ -1,0 +1,368 @@
+{
+  "session": "Astra-ISP-8542378f-20261127",
+  "source": "2026-11-27-unit211-L0-full-original-paid-rho-leading-safe-slimgb-QQ-8542.py",
+  "sourceSha256": "fae9a57e1da69f192fd3dead3f3a7901ba8d2a091b77aefff4a06ee7c71b954d",
+  "sourceBytes": 18086,
+  "parameters": [
+    "--build-only"
+  ],
+  "pythonVersion": "3.12.14",
+  "wallSeconds": 4.752914484000939,
+  "actualExitCode": 0,
+  "peakRssKiB": 43072,
+  "stdoutSha256": "22ad3909cd2e2ff241a4ef438cf09f537301697851e9bf01b1853fa6a9ef0d8e",
+  "stdoutBytes": 13498,
+  "inputBuildRecords": [
+    {
+      "allOriginalNPEvenOddRetained": true,
+      "claimExcluded": false,
+      "elapsedSeconds": 4.427219,
+      "independentlyPaidChartUnits": [
+        {
+          "name": "W",
+          "profile": {
+            "degrees": [
+              0,
+              1,
+              2
+            ],
+            "sha256": "3c70aba7c1b6db5eaa3d986ffd34c7165dfb4d8d8c808313c1d65bf22c7e929a",
+            "terms": 5
+          }
+        },
+        {
+          "name": "G",
+          "profile": {
+            "degrees": [
+              0,
+              7,
+              4
+            ],
+            "sha256": "9422bed84800d7ed6a6dcf1910e6c1baebf5c50b8c2c37324361824d269f8c84",
+            "terms": 37
+          }
+        },
+        {
+          "name": "K",
+          "profile": {
+            "degrees": [
+              0,
+              7,
+              12
+            ],
+            "sha256": "cb413e446bf3362f8feeba6f6ca1f62427a881eab70b95e6d1f917a8bd1cb546",
+            "terms": 85
+          }
+        },
+        {
+          "name": "V",
+          "profile": {
+            "degrees": [
+              0,
+              4,
+              6
+            ],
+            "sha256": "2cb9819af2ad4da973bc3abbf2f06d07f00cd1432f820fb534734ee0b24ca10e",
+            "terms": 27
+          }
+        },
+        {
+          "name": "alpha",
+          "profile": {
+            "degrees": [
+              2,
+              3,
+              3
+            ],
+            "sha256": "bb9eb0e3224bc072e6f00e770b1fb23f108792a601242c4ed517fdd76094c0b4",
+            "terms": 19
+          }
+        }
+      ],
+      "noGlobalBetaLeadingAssumption": true,
+      "originalConditions": [
+        "E1",
+        "EBe",
+        "EBo",
+        "P1",
+        "PBe",
+        "PBo",
+        "N1",
+        "NBe",
+        "NBo"
+      ],
+      "originalP1Reconstruction": "t=-beta/alpha",
+      "originalPhysicalUnits": [
+        {
+          "degrees": [
+            1,
+            0,
+            0
+          ],
+          "sha256": "0ddbc6c1d81a078b803040a615f91362642e985d2737a945535b86da2681952f",
+          "terms": 1
+        },
+        {
+          "degrees": [
+            0,
+            1,
+            0
+          ],
+          "sha256": "7f1b55b860590406f84f9394f4e73356902dad022a8cd6f43221086d3c70699e",
+          "terms": 1
+        },
+        {
+          "degrees": [
+            0,
+            0,
+            1
+          ],
+          "sha256": "50e721e49c013f00c62cf59f2163542a9d8df02464efeb615d31051b0fddc326",
+          "terms": 1
+        },
+        {
+          "degrees": [
+            0,
+            0,
+            1
+          ],
+          "sha256": "e2bb30214759d6a6f43d266ef5f89eca601fe1e4a2db3eac0133ec47d0b9d7c9",
+          "terms": 2
+        },
+        {
+          "degrees": [
+            0,
+            1,
+            1
+          ],
+          "sha256": "acea18d7968ee1f80a38e95218656552b0a58a015157adcdded28e50859a6ab4",
+          "terms": 3
+        },
+        {
+          "degrees": [
+            0,
+            3,
+            1
+          ],
+          "sha256": "b73613034f87bbb7cb556ce87dad868ab950096f7ef71c72ccb5f97fee34c5a3",
+          "terms": 6
+        },
+        {
+          "degrees": [
+            2,
+            3,
+            1
+          ],
+          "sha256": "8e5c7a3a0a4a2e0de5cf9d0dd2deb2379dfbbcb6b4af9f73f8563649db93e372",
+          "terms": 10
+        },
+        {
+          "degrees": [
+            1,
+            3,
+            0
+          ],
+          "sha256": "603b4ede46ae3620ff59187b2249b6c9aafa4205fb0d2291bcd427eb87aad4c8",
+          "terms": 7
+        },
+        {
+          "degrees": [
+            0,
+            1,
+            3
+          ],
+          "sha256": "5028e25f0aa6d70aa36402a4e49718578ff422ed6bb82c916fe55f18be82e1cb",
+          "terms": 5
+        },
+        {
+          "degrees": [
+            1,
+            1,
+            1
+          ],
+          "sha256": "a86db7f8fb232edae957af34a0b00b8171d1bd40ebd411ebfd5701f3742acb0a",
+          "terms": 4
+        },
+        {
+          "degrees": [
+            1,
+            3,
+            2
+          ],
+          "sha256": "d7f6fbd7640c876066c24e19623787227d8ba65b592603cad7e8df42bb2c5dd9",
+          "terms": 13
+        }
+      ],
+      "rho5LeadingPaid": true,
+      "stage": "full_original_L0_paid_leading_input"
+    },
+    {
+      "auxiliaryVariables": [
+        "invPhysical",
+        "invChart"
+      ],
+      "claimExcluded": false,
+      "elapsedSeconds": 4.475887,
+      "geometricVariables": [
+        "rho",
+        "lam",
+        "w"
+      ],
+      "nonSaturationGenerators": 9,
+      "scriptBytes": 753704,
+      "scriptSha256": "b2e3af026fc61f96cff84967ea4a87aa66410ce56f5961f3ca01a2ba3abd1feb",
+      "smokeScriptSha256": "6d2d671b940b539045b72e341ed007579c2f24dc3cc47a7b009f5b9022f5a087",
+      "sourceSha256": "fae9a57e1da69f192fd3dead3f3a7901ba8d2a091b77aefff4a06ee7c71b954d",
+      "stage": "full_original_L0_QQ_input_built",
+      "variables": 5
+    }
+  ],
+  "generatorProfiles": [
+    {
+      "claimExcluded": false,
+      "elapsedSeconds": 4.308496,
+      "name": "original_P1_E1",
+      "originalIdentityVerified": true,
+      "profile": {
+        "degrees": [
+          5,
+          15,
+          16
+        ],
+        "sha256": "e4673299da87548b67fc3b06e4d0555d1271ed190c5ac2cc5410b8ae5ae34c3b",
+        "terms": 978
+      },
+      "stage": "full_original_L0_paid_leading_generator"
+    },
+    {
+      "claimExcluded": false,
+      "elapsedSeconds": 4.318534,
+      "name": "original_P1_EBe",
+      "originalIdentityVerified": true,
+      "profile": {
+        "degrees": [
+          7,
+          20,
+          17
+        ],
+        "sha256": "67856dcf78a0f72d2abca638b36fc632bd0d644cf8ce1504ec49454cdeee6980",
+        "terms": 1894
+      },
+      "stage": "full_original_L0_paid_leading_generator"
+    },
+    {
+      "claimExcluded": false,
+      "elapsedSeconds": 4.321581,
+      "name": "original_P1_EBo",
+      "originalIdentityVerified": true,
+      "profile": {
+        "degrees": [
+          6,
+          18,
+          16
+        ],
+        "sha256": "c0216619b97b2565caab5292e4c356a2996d91856ed6bbdd84169e2a8fb133b5",
+        "terms": 1455
+      },
+      "stage": "full_original_L0_paid_leading_generator"
+    },
+    {
+      "claimExcluded": false,
+      "elapsedSeconds": 4.346549,
+      "name": "original_P1_PBe",
+      "originalIdentityVerified": true,
+      "profile": {
+        "degrees": [
+          10,
+          28,
+          26
+        ],
+        "sha256": "3883f62e89a4c8d827fc1d0bc7de7a395cd4f28136dd062a84d93bc3cea6f0de",
+        "terms": 5476
+      },
+      "stage": "full_original_L0_paid_leading_generator"
+    },
+    {
+      "claimExcluded": false,
+      "elapsedSeconds": 4.383696,
+      "name": "original_P1_PBo",
+      "originalIdentityVerified": true,
+      "profile": {
+        "degrees": [
+          9,
+          27,
+          25
+        ],
+        "sha256": "43c3d89890b7dcc744373fd9dfad9388cf19df0d4fd1e8e9ef8b3a34bac36dad",
+        "terms": 4547
+      },
+      "stage": "full_original_L0_paid_leading_generator"
+    },
+    {
+      "claimExcluded": false,
+      "elapsedSeconds": 4.385969,
+      "name": "original_P1_N1",
+      "originalIdentityVerified": true,
+      "profile": {
+        "degrees": [
+          5,
+          15,
+          17
+        ],
+        "sha256": "d375b242b1ace0e67707585eadc8f8e00bb2f5a6554b1a5e20c956553464a197",
+        "terms": 1074
+      },
+      "stage": "full_original_L0_paid_leading_generator"
+    },
+    {
+      "claimExcluded": false,
+      "elapsedSeconds": 4.406831,
+      "name": "original_P1_NBe",
+      "originalIdentityVerified": true,
+      "profile": {
+        "degrees": [
+          9,
+          25,
+          23
+        ],
+        "sha256": "b391002e3bad800df0698349754cfa795c49f601fb04163ec32d5f3b244f7193",
+        "terms": 3822
+      },
+      "stage": "full_original_L0_paid_leading_generator"
+    },
+    {
+      "claimExcluded": false,
+      "elapsedSeconds": 4.417957,
+      "name": "original_P1_NBo",
+      "originalIdentityVerified": true,
+      "profile": {
+        "degrees": [
+          8,
+          23,
+          23
+        ],
+        "sha256": "b5f9953114255df9bb819d08e7d15a25112df8aec65a5e43b25127cb7427dcac",
+        "terms": 3340
+      },
+      "stage": "full_original_L0_paid_leading_generator"
+    },
+    {
+      "claimExcluded": false,
+      "elapsedSeconds": 4.421953,
+      "name": "original_mean_normal_rho4_return",
+      "originalIdentityVerified": true,
+      "profile": {
+        "degrees": [
+          4,
+          20,
+          25
+        ],
+        "sha256": "8aa782c9999c02ebb47e72189690a1144a7d498217929c7de52807549d68a65a",
+        "terms": 1910
+      },
+      "stage": "full_original_L0_paid_leading_generator"
+    }
+  ],
+  "fullQQGateRun": false,
+  "claimExcluded": false
+}

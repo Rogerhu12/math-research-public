@@ -499,3 +499,6 @@ AI-assisted GPT-6 Astra Pro：U/B已付后同eta准确返回全部mean、N(V)、
 
 ## 2026-11-26 23:08:19 UTC — Astra-ISP-8542378f-20261127：全交换子的兼容喷射与平坦实际分母
 AI-assisted GPT-6 Astra Pro：实际自由尾分解与字符唯一兼容付全C连续系数喷射，I∞范数闭/强*单位球稠密/UHF零交及完全等距商；真实闭域交换后行列式阶数迫不整除根的全域分母平坦。该必要条件不替PH入域，继续同一来源公共分母。S0新run45908775594/job140211812117运行中，未有单位结论；open全量快照后去除已闭重复段。
+
+## 2026-11-26 23:10:26 UTC — Astra-ISP-8542378f-20261127：已付L0首项的完整原有理门
+AI-assisted GPT-6 Astra Pro：从原九式和同t返回构建八原行及一rho四次组合，所有物理/曲线单位已付，局部b1不作全局单位；源fae9a57e实际4.752914秒/43072KiB/exit0。课题外新增 `.github/workflows/invariant-subspace-L0-full-original-paid-leading-8542.yml` 运行此新QQ门，完整I*cert=1前不判空。

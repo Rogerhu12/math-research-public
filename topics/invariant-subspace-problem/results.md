@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R150 L0已付rho首项后的完整原必要理想（2026-11-27，已证明输入）：** [原九式同t返回及精确分组饱和](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-L0-full-original-paid-rho-leading-system.md)保八条原mean/P/N返回，另以首项交叉乘法给rho四次原组合；整W/G/K/V/alpha边界有独立来源，未倒置局部b1。源fae9a57e实际build4.752914秒/43072KiB/exit0，5变量/9必要行，输入753704字节/SHAb2e3af02；专用Actions做实质新完整QQ单位门，不重跑X/Y大直接投影，不以构造通过作判空。
+
 - **R12 完整交换子的兼容形式喷射与实际闭根分母的平坦性（2026-11-27，已证明）：** [真实自由尾分解、全字符和域内恒等式](results/R12-appendix-full-commutant-compatible-formal-jets-and-flat-root-denominators.md)从原有限头唯一系数构造全C的jχ:C→C[[z]]，各系数范数准确β_r⁻¹；共同核I∞范数闭、强*单位球稠密、与UHF交0且商在C∩UHF完全等距。对q∤pk的闭稳定根，任何实际标量全域分母P都在I∞，由真实有界TP及行列式消失阶证明；k1分子也平坦。没有把非忠实形式演算或全幂共同像当作全域分母构造。
 
 - **R150 S0/Lt0同eta消元后的五几何变量原必要系统（2026-11-27，已证明输入）：** [全部mean、原N/P偶奇及物理L同点返回](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-same-eta-five-geometry-original-system.md)由已付U/B消去唯一eta，三个dP+Peta·Malign身份、原范数与L分子全部回乘；15原必要式及18/9分组单位均有原来源。源7161bc65 build11.280860秒/51000KiB/exit0，完整输入223588字节/SHA41c82217；新专用Actions独立std smoke后接1200秒QQ slimgb，不预宣一般图排空。
