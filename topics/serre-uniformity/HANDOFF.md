@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。本轮已部分克隆并真实pull main，读两README/H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则读至36cf1ed2。不重做已登记结论或窗口。
 
-**公开两README已读提交：8dcda4af59eb5f37480930e922abbef97be4341f**（2026-11-27 05:27 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
+**公开两README已读提交：17845c1b0056213cb87371218ca098f9b53a1c62**（2026-11-27 05:30 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
 
 已真实部分克隆/pull；04:44再试仍报无可用执行环境，shell未运行；按根规矩8用连接器小文本同步、读两README差异、带expected_sha非force提交，恢复后立即pull --rebase。拒绝即同步重基再推至成功。令牌仅CLI；根维护main/H/open/index/log，子研究独立稿，每条结论立即推。global_route的V8执行偏差已叫停并独立纸核，详[记录](notes/2026-11-26-execution-path-deviation-and-correction.md)，其输出不作证明/合规窗口。
 
@@ -29,6 +29,8 @@ R1035–40 的两行实际 PD、整 $B,Q$ 与全 MW 消去已付；$p5$ 仍先�
 R1018–30的原Fm/节点log/完整非约化运输只消费，全部相位尺度见归档及原文；H_A/H_Z新支撑仍开。
 
 ## O0：不能省略的全局覆盖
+
+[R1062](results/R1062-original-full-nonsplit-cuspidal-kummer-descent.md)：完整 $X_{\rm ns}^+(p)$ 的无基点 cusp 归一化给全部有理点固定 $S=\{2,3,p\}$ 的有限 Kummer 标签，保全部 class-group 项；实际 Galois cusp 模至少含 $\lfloor p/4\rfloor-1$ 个一维 $p$-挠角色。辅助好素须比较同一标签与全部约化点。regular $p$ 时单独 $p$-local 比较满射，不能筛盘；全局标签浓缩仍开。
 
 [R1003](results/R1003-global-scope-and-remaining-branches.md)：R1只剩完整N_ns(p)；p2/5mod9还需小惯性C³。R317还需整j、K=Q(√−3)、σ=1及二/三除法小域同时一致。完整惯性、非整j、变化K、σ非平凡及异小域大导子支路仍开。导子下界非上界；O1/O2或X₁新商即使单独完成也不等于Serre完成。
 

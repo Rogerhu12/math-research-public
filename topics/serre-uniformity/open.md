@@ -35,6 +35,8 @@ R1018–30原Fm、全非约化仿射/整τ₁/完整分支已成，只消费；H
 
 ## O0：全主目标覆盖（R1003恢复原范围）
 
+[R1062](results/R1062-original-full-nonsplit-cuspidal-kummer-descent.md)：完整 $X_{\rm ns}^+(p)$ 的无基点 cusp 归一化给全部有理点固定 $S=\{2,3,p\}$ 的有限 Kummer 标签，保全部 class-group 项；实际 Galois cusp 模至少含 $\lfloor p/4\rfloor-1$ 个一维 $p$-挠角色。辅助好素须比较同一标签与全部约化点。regular $p$ 时单独 $p$-local 比较满射，不能筛盘；全局标签浓缩仍开。
+
 R1只把全部异常缩为p>37的完整N_ns；**p≡2,5 mod9只是另加小惯性I_p=C³的结论**。R317的应用另外要求整j、K=Q(√−3)、σ=1，以及实际二除法域和三除法S3商域同时一致。完整惯性、非整j、变化K、σ非平凡及异小除法域的大导子支路，均未由当前CM证明链排除。原导子下界不是上界。O1/O2研究指定辅助源，不是完整剩余情形；真正全局高度也仍待证。逐条假设见[R1003](results/R1003-global-scope-and-remaining-branches.md)，后继不得省略此覆盖缺口。
 
 ## O1：全p同一真实本原标签的临界非零

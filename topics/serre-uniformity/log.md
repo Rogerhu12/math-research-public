@@ -448,3 +448,9 @@
 - 原完整第一槽不改变；另以整自伴新部投影定义轨道，未从首层无旧部误推完整对数无旧部。所有奇次 $\mathcal Q$ 与 $D$ 的反伴随、原整 Hecke 自伴/平衡、两行 CM/旧部及全部非挠 paired block 已逐式核对。
 - 最低系数保 R1052 全部 $\kappa_1,A_{\rm tail},\lambda_0$ 和 $Q^{2j+1}(1-Q)\lambda$。根与 o2 独立核轨道全各向同性、根基恰 $kc_0$，故撤去“将来证明全轨道满”的方向，转实际 Lagrangian 与原最低列位置。没有假定 bare 核范数单位。
 - H/open 前态逐字归档，压缩已闭输入而保全部开放范围；全文纸推，无数学程序或旧窗口执行。
+
+
+### 2026-11-27 05:30 Asia/Taipei — R1062 完整原曲线的无基点 Kummer 标签
+- [R1062](results/R1062-original-full-nonsplit-cuspidal-kummer-descent.md)：完整 $X_{\rm ns}^+(p)$ 的无基点 cusp 归一化给全部有理点固定 $S=\{2,3,p\}$ 的有限 Kummer 标签，保全部 class-group 项；实际 Galois cusp 模至少含 $\lfloor p/4\rfloor-1$ 个一维 $p$-挠角色。辅助好素须比较同一标签与全部约化点。regular $p$ 时单独 $p$-local 比较满射，不能筛盘；全局标签浓缩仍开。
+- 原 Carlucci 已发表 Siegel-unit 格与真实 Galois 作用逐项核对；forced 角色用 Jacobi/Gauss 和独立证明。DR 的实际 tame 商只消费 $\mathbf Z[1/(6p)]$，保 $2,3$。所有 cusp leading coefficients 的乘积准确消去常数与垂直赋值，因此不要求整 $j$、指定 CM 基点或小惯性。
+- 同一有限标签保 $S$-class group 和辅助好素全部点；circular unit 的最低 Bernoulli 项给 regular $p$ 的单 $p$ 处满射。根独立核局部 log 截断、真实 global unit 与本地归一化的区别；未暗用 Vandiver、未宣所有 twists 有局部点。Jaswal 新稿仅提供方法线索，未消费其数值筛选或未付全局结论。无数学程序执行。
