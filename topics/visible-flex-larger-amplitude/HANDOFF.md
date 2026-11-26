@@ -41,8 +41,8 @@ R690深谷/旧deep两256返9b937ee/993556及自身first bbefd075、R691冻结Haa
 <!-- visible-larger-parallel-02:end -->
 
 <!-- visible-larger-parallel-03:start -->
-并行公开Actions03：[run 45820592817/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45820592817)；[实际记录](notes/2026-11-26-public-actions-45820592817-1.md)。阶段`followup_waiting`/running；已返9，exit=未返。
-并行03规则核查：2026-11-26 13:24:23 UTC，真实pull至`cb6e05d68f28f31b945fd95195d445a193d3f7fb`，双README无变化。
+并行公开Actions03：[run 45820592817/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45820592817)；[实际记录](notes/2026-11-26-public-actions-45820592817-1.md)。阶段`followup:actual-axisymmetric-SO3-first-all-eight-trials-20261126-03b`/completed；已返10，exit=0。
+并行03规则核查：2026-11-26 13:24:32 UTC，真实pull至`ac374c51fea548d19cf875edf79d6b53ed1b5f4b`，双README无变化。
 <!-- visible-larger-parallel-03:end -->
 
 ## 当前公开Actions执行
