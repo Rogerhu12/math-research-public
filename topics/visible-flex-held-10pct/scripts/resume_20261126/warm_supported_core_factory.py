@@ -204,6 +204,10 @@ def make_factory(settings,reference_class=None,anchor_baseline=None):
         raise ValueError("Valid original gauge and positive phase coordinate scale required")
     old_parameters=np.asarray(settings["anchor_support_coefficients"],float)
     options=dict(settings["anchor_core_settings"])
+    # The complete anchor support remains frozen. Lambda is a declared
+    # design-continuation variable, not a refinement parameter or delta.
+    if "homotopy" in settings:
+        options["homotopy"]=float(settings["homotopy"])
     if options.get("curvature_blend")!=1. or not 0<float(options.get("homotopy",0))<=1:
         raise ValueError("The warm baseline must be a positive-lambda R53 fixed-target core")
     if reference_class is None:

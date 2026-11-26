@@ -48,6 +48,7 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     for name in ('repo', 'work', 'outdir'):
         parser.add_argument('--'+name, type=Path, required=True)
+    parser.add_argument("--continuation-kind", choices=("parallel", "warm"), default="parallel")
     args = parser.parse_args()
     repo, work, out = args.repo.resolve(), args.work.resolve(), args.outdir.resolve()
     if work not in out.parents or repo == work or repo in work.parents:
@@ -89,7 +90,8 @@ def main():
         exporter = original/'recovered_q021/export_original_worker_port.py'
         transfer_script = original/'prepare_lifted_mode_restart.py'
         observer_script = current/'tail_observe_prefix.py'
-        parallel_script = current/'material_parallel_continue.py'
+        parallel_script = current/('warm_fixed_m3_continue.py' if args.continuation_kind == 'warm'
+                                  else 'material_parallel_continue.py')
         for path in (Path(__file__), profile, chart, short, core, lambda0, lambda002,
                      portable, exporter, transfer_script, observer_script, parallel_script,
                      work/'m24-tail-settings.json', work/'m24-linear-port.json',
@@ -99,6 +101,8 @@ def main():
             profile: '3f4042ffe0666bf8ba5b09dca3d056f9b0604b8e4ab3367e537d924bb7b0cfcc',
             lambda0: '1168a390edc052530d5b2b0dcca02242a79e8c02006662e523cbef6ce6ba1144',
             lambda002: '5ed9c06fd52c2162304560722f71751287c81497cd15967820e1f223c7283223',
+            work/'m24-linear-port.json': '42369d1571413fd4ecccea43ccfef233f4b97506f71e28b86ed9735c28c2d93b',
+            work/'m24-tail-settings.json': '37bc9073d2dba1d110b165b5febbb054d1dd1a8ca09ec23b86e2d76c39f08f46',
         }
         for path, expected in required.items():
             if digest(path) != expected:
@@ -333,8 +337,9 @@ def main():
         state['result'] = dict(source_run=str(previous), source_run_sha256=digest(previous),
                              original_finite_prefix_gates_passed=True, complete_surface=False)
         save()
-        parallel = out/'continuations'
-        run_stage('three_separate_continuations',
+        parallel = out/('warm-core-design' if args.continuation_kind == 'warm' else 'continuations')
+        run_stage('warm_supported_lambda_design' if args.continuation_kind == 'warm'
+                  else 'three_separate_continuations',
             [sys.executable, '-u', parallel_script, '--repo', repo, '--work', work,
              '--source-run', previous, '--outdir', parallel], parallel, child_summary=True)
         state.update(status='declared_recovery_and_continuations_returned', returncode=0)

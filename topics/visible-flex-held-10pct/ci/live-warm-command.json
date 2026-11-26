@@ -1,0 +1,36 @@
+{
+  "id": "held10-warm-supported-route-20261126-01",
+  "read_rules_commit": "9169e2f4aa3516c63e54ea8f1d002d1a52430de0",
+  "script": "topics/visible-flex-held-10pct/scripts/resume_20261126/lowq_prefix_recovery.py",
+  "args": [
+    "--repo",
+    "@REPO@",
+    "--work",
+    "@WORK@",
+    "--outdir",
+    "@WORK@/warm-prefix-recovery",
+    "--continuation-kind",
+    "warm"
+  ],
+  "diagnostics": [
+    {
+      "path": "@WORK@/warm-prefix-recovery/summary.json",
+      "keys": [
+        "status",
+        "progress",
+        "results",
+        "result",
+        "error"
+      ]
+    },
+    {
+      "path": "@WORK@/warm-prefix-recovery/warm-core-design/summary.json",
+      "keys": [
+        "status",
+        "progress",
+        "result",
+        "error"
+      ]
+    }
+  ]
+}

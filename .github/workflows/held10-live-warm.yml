@@ -1,0 +1,63 @@
+name: held10 warm supported core research
+
+on:
+  push:
+    branches: [main]
+    paths: [topics/visible-flex-held-10pct/ci/live-warm-start.json]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: held10-live-warm
+  cancel-in-progress: false
+
+jobs:
+  solve:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    env:
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+      MKL_NUM_THREADS: '1'
+      PYTHONUNBUFFERED: '1'
+      PYTHONDONTWRITEBYTECODE: '1'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout: topics/visible-flex-held-10pct
+          fetch-depth: 1
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install numerical libraries
+        run: python -m pip install numpy==2.3.5 scipy==1.17.0
+      - name: Pull main and check both rule files
+        shell: python
+        run: |
+          import json, subprocess, sys
+          from pathlib import Path
+          request=json.loads(Path('topics/visible-flex-held-10pct/ci/live-warm-command.json').read_text())
+          old=request['read_rules_commit']
+          subprocess.run(['git','fetch','--depth=1','--filter=blob:none','origin',old],check=True)
+          subprocess.run(['git','pull','--rebase','origin','main'],check=True)
+          head=subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip()
+          diff=subprocess.check_output(['git','diff',old,head,'--','README.md','topics/visible-flex-held-10pct/README.md'],text=True)
+          print(json.dumps(dict(event='actual_pull_rules',previous_read=old,pulled_commit=head,readme_diff=diff)),flush=True)
+          if diff:
+              raise SystemExit('Read changed rules before continuing this computation')
+          manifest=Path('topics/visible-flex-held-10pct/scripts/nonlinear_tail/m3_coupled_seed_deliverable/m3_source_recovery_manifest.json')
+          revisions=sorted({item['revision'] for item in json.loads(manifest.read_text())['files']})
+          for revision in revisions:
+              subprocess.run(['git','fetch','--depth=1','--filter=blob:none','--no-tags','origin',revision],check=True)
+      - name: Restore declared source and physical inputs
+        run: |
+          python topics/visible-flex-held-10pct/scripts/resume_20261126/tail_recovery_setup.py --repo "$GITHUB_WORKSPACE" --work "$RUNNER_TEMP/held10-warm" > "$RUNNER_TEMP/held10-warm-bootstrap.log" 2>&1
+      - name: Keep actual fields and run reviewed research commands
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          python -u topics/visible-flex-held-10pct/scripts/resume_m3/live_material_worker.py --repo "$GITHUB_WORKSPACE" --workdir "$RUNNER_TEMP/held10-warm" --channel warm

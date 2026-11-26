@@ -58,7 +58,7 @@ def main():
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--repo", type=Path, required=True)
     ap.add_argument("--workdir", type=Path, required=True)
-    ap.add_argument("--channel", choices=("material", "lowq"), default="material",
+    ap.add_argument("--channel", choices=("material", "lowq", "warm"), default="material",
                     help="Separate reviewed command/result streams on distinct runners")
     a = ap.parse_args()
     if a.channel != "material":
@@ -112,8 +112,28 @@ def main():
                        complete_surface=False)
         data = encoded(payload)
         if len(data) > LIMIT:
-            payload["diagnostics"] = {"omitted":"Projected result exceeds 64 KiB"}
+            # Preserve current states when verbose histories exceed the same
+            # original 64 KiB bound. Complete source/run files remain local.
+            diagnostics_original = payload.get("diagnostics", {})
+            reduced = {}
+            for path, row in diagnostics_original.items():
+                if not isinstance(row, dict):
+                    continue
+                value = {k:v for k,v in row.items()
+                         if k not in ("stages", "source_hashes", "scope", "exception")}
+                if isinstance(value.get("results"), list):
+                    value["results"] = value["results"][-3:]
+                reduced[path] = value
+            payload["diagnostics"] = reduced
+            payload["diagnostic_projection_reduced"] = True
             data = encoded(payload)
+            if len(data) > LIMIT:
+                payload["diagnostics"] = {
+                    path:{key:value for key,value in row.items()
+                          if key in ("status", "error", "returncode", "solver_success")}
+                    for path,row in reduced.items()}
+                payload["diagnostic_detail_scope"] = "Only current states fit; request a narrower active projection."
+                data = encoded(payload)
         if len(data) > LIMIT:
             payload = {"schema":"held10-live-material-v1","status":"result_too_large",
                        "id":payload.get("id"),"complete_surface":False}
@@ -251,6 +271,17 @@ def main():
                     proc = None
                     idle_since = time.monotonic()
                 elif now-state.get("last_diagnostic_poll",0) >= 60:
+                    # An unchanged active command may narrow or extend only
+                    # its validated diagnostic projection, without restart.
+                    try:
+                        candidate, _ = get_content(COMMAND)
+                        if (candidate and candidate.get("id") == request["id"]
+                                and candidate.get("script") == request.get("script")
+                                and candidate.get("args", []) == request.get("args", [])):
+                            diagnostics(candidate)
+                            request = dict(request, diagnostics=candidate.get("diagnostics", []))
+                    except (HTTPError, URLError):
+                        pass
                     publish(dict(payload,diagnostics=diagnostics(request)))
                     state["last_diagnostic_poll"] = now
             if proc is None:
