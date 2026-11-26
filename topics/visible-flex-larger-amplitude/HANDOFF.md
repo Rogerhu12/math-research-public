@@ -6,7 +6,7 @@
 
 最近规则核查：2026-11-26 17:49:44 UTC，真实pull/rebase至 `4ef11ccb1c1510bced9f7ebaac624248dae9c544`，双README相对`76d1f7385a28fcd11f3bc3c38e146f35124f6736`无差异，授权及规矩继续执行。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
 
-科学计算仅本公开仓库Actions；执行偏差见[早前记录](notes/2026-11-20-public-actions-execution-correction.md)及[四次大JSON整读纠正](notes/2026-11-26-large-file-connector-read-correction.md)。root唯一分支写者；结论即普通推，NFF立即rebase循环，不强推。每次pull核双README差异并遵新规，至少每小时，记commit。raw只scratch/runner，不入Git/Release/artifact；保完整小源/参数/run/SHA/紧凑结论。题≤200MB、单文件<5MB、MD<100KB、H<10KB、open<30KB。令牌仅瞬时CLI。终端迁移中于17:55 UTC失联，未提交新参数仅留0-byte文件；最后真实pull仍见上文。当前云API读031e74b8e6e6d5dd67ae839b3f858f5d1fd6bb66双README blob与4ef11相同；API普通快进补刊，未伪称新pull。
+科学计算仅本公开仓库Actions；执行偏差见[早前记录](notes/2026-11-20-public-actions-execution-correction.md)及[四次大JSON整读纠正](notes/2026-11-26-large-file-connector-read-correction.md)。root唯一分支写者；结论即普通推，NFF立即rebase循环，不强推。每次pull核双README差异并遵新规，至少每小时，记commit。raw只scratch/runner，不入Git/Release/artifact；保完整小源/参数/run/SHA/紧凑结论。题≤200MB、单文件<5MB、MD<100KB、H<10KB、open<30KB。令牌仅瞬时CLI。终端迁移中于17:55 UTC失联，未提交新参数仅留0-byte文件；最后真实pull仍见上文。当前云API读1cf7f5fbf815d3b826661c85d816fc3c776c0d0f双README blob与4ef11相同；API普通快进补刊，未伪称新pull。
 
 
 目标：同一固定g、闭连通C²嵌入、全t强C²连续；固定有内点H且diamH≥.2D、整像δhold≥.2D、含反射δE>0；全t reach≥.03D、整面relative metric≤1e−6；固定g/参数/范围的真实mesh和频率精化至机器或原求解容差，多t可复现网格，准确说明严格存在缺口。D为完整F0直径。R248准确相位恒等式处理全t，不新增独立t插值门。有限误差/开放片/障碍不完成。
@@ -27,7 +27,7 @@
 
 ## 零端点缺陷：失败、读取修复、新机制
 
-[14–16](notes/2026-11-26-zero-initial-endpoint-replay-and-moment-input.md)保原轨迹及18字固定05dc；[19–20](notes/2026-11-26-actual-fixed-moment-Q-initial-failure-19-20.md)同初点/H角5失败，无场/Phi/J，不推不存在。[轴端同族](notes/2026-11-26-zero-endpoint-axis-planar-control-equivalence.md)：phi0/zy0无球时新旧Q恰同两Ry形状，球是不同椭圆；一般角无共同右线性映射，非全可达像比较。[支撑实际23](notes/2026-11-26-actual-03b-supported-chord-pass.md)三补段/全尾/全角必要surplus严格负，叶精度未达但外包保；原H通过必要式，不证有限根存在，也不据此改H。
+[14–16](notes/2026-11-26-zero-initial-endpoint-replay-and-moment-input.md)保原轨迹及18字固定05dc；[19–20](notes/2026-11-26-actual-fixed-moment-Q-initial-failure-19-20.md)同初点/H角5失败，无场/Phi/J，不推不存在。[R697轴端同族](results/R697-zero-endpoint-axis-planar-control-equivalence.md)：phi0/zy0无球时新旧Q恰同两Ry形状，球是不同椭圆；一般角无共同右线性映射，非全可达像比较。[支撑实际23](notes/2026-11-26-actual-03b-supported-chord-pass.md)三补段/全尾/全角必要surplus严格负，叶精度未达但外包保；原H通过必要式，不证有限根存在，也不据此改H。
 
 [同原方程延拓](notes/2026-11-26-same-endpoint-residual-continuation.md)3f37/9649的28真失败a244/73a9，lambda约.8343未到1、原最终C未读。[实际31/32](notes/2026-11-26-actual-continuation-failure-and-reader-repair-31-32.md)原ef017 trace确认29为KeyError endpoint_continuation_policy；75f4 pure-v2成功读原a244失败，224attempt/75accept/149reject/1030Newton，失败角0,1,3,4,7，无成功根/场/implicit。末Cz奇异值未读，不能由null推折叠或不存在。
 
