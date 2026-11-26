@@ -123,3 +123,11 @@ python "$TOPIC/scripts/resume_20261126/seam_run_tail_geometry_v2.py" \
 ## 6. 同一完整谱的切口修补读取器
 
 独立 `seam_certify_cut_attachment_v2.py` 使用上述 v2 完整输入门，再逐项绑定实际 stage0 的 schema、全部频率与同一 spectrum contract，以及对应的新连续证书。其余真实预算提取、原 Hermite 两jet修补和度量/曲率合并公式均与已审原件相同；未知图定义不会进入修补。源码 SHA-256 为 `2845cc1ef39d41bff6443a08078cd84bb9875de1ca084549cfec5b972c4f0bd3`；本地真实编译和 `--help` 均 exit 0，尚未输入实际新尾场。
+
+## 实际 factory 与 checkpoint 参数含义修正
+
+原 native factory 保留输入 `depth=8` 与 `linearMethod=matrix`；shooting checkpoint 则把 `depth` 覆盖成实际子段数，另存 `physicalDepth=8`，并把方法标成 `stable-momentum-cusp-subdivision`。不能逐键直接比较这两个完整字典。导出器现按原 stage-core 的 13 项覆盖表达式分别核对原输入与导出字段，其余物理参数保持逐项相等；原 port 的 22 项也逐项绑定。
+
+运行中的 stage-core 已经原 chord/native 安装器修改，因此历史全文件 SHA 仅作语义来源，不作运行文件的相等门。实际 packet、native manifest 和磁盘文件三方必须同 SHA；在该实际文件内核对全部四个参数构造区和二个原 return（有 chord 时另一个 return）的完整表达式。未被安装器改的另外三个 factory/subdivision 源仍保原 SHA。该修正没有改变方程、参数或任何残差验收阈值。
+
+[实际源码级检查](2026-11-26-native-factory-checkpoint-parameter-checks.json)记录原 chord 安装结果再加原 native 的三项 literal patch 后仍通过上述表达式核验，Python/Node 检查通过。没有使用已接受的新 tail packet，没有新场几何数值界。当前导出器 SHA `5b318a169ef74b29d10295bdc0da764e86b437cd447ca83045248c5fb576408a`。

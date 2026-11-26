@@ -1,0 +1,75 @@
+{
+  "kind": "factory_checkpoint_parameter_mapping_and_installed_source_regions_only",
+  "source_sha256": "5b318a169ef74b29d10295bdc0da764e86b437cd447ca83045248c5fb576408a",
+  "reviewed_original_sources": {
+    "950f-tail-stage-core.mjs": "53fdd936cf65f0a42929b6ce42c6ea12f183628abc9c9f3a351aac9c31ffbd6d",
+    "950f-tail-subdivision.mjs": "e44317579d483147aa7fe73b086aba059695aa0f675b831c178902a2c0cb62e6",
+    "closing_recalibrated_tail.mjs": "4a109f26b0e6c9741dfff678c0fe42da4935bfda9c605e55688e97848aef0dd6",
+    "closing_weighted_tail.mjs": "740e672edee58cff7a15f89d75e181577dd439c1c62777c57d0d0ab1af32141e"
+  },
+  "source_defined_override_count": 13,
+  "depth8_versus_stage1152_preserved": true,
+  "factory_matrix_versus_checkpoint_stable_method_preserved": true,
+  "changed_input_or_checkpoint_cases": [
+    {
+      "role": "physical",
+      "key": "depth",
+      "rejected": true
+    },
+    {
+      "role": "parameters",
+      "key": "physicalDepth",
+      "rejected": true
+    },
+    {
+      "role": "parameters",
+      "key": "linearMethod",
+      "rejected": true
+    },
+    {
+      "role": "parameters",
+      "key": "rCut",
+      "rejected": true
+    }
+  ],
+  "source_region_checks": [
+    {
+      "role": "historical_parameter_source",
+      "source_sha256": "53fdd936cf65f0a42929b6ce42c6ea12f183628abc9c9f3a351aac9c31ffbd6d",
+      "constructor_regions_checked": 4,
+      "parameter_return_regions_checked": 2,
+      "bounded_chord_metadata_region_present": false,
+      "source_defined_override_count": 13,
+      "parameter_tail_sha256": "5ccff61b187051c84ab989eaf11fbe36be7b86e8033270134b6ebef0d78a413f"
+    },
+    {
+      "role": "real_chord_installer_output",
+      "source_sha256": "e8ea15ec420f242399c7035b2ed9b37d80fe086fa368dd25a9096b2ea7236413",
+      "constructor_regions_checked": 4,
+      "parameter_return_regions_checked": 3,
+      "bounded_chord_metadata_region_present": true,
+      "source_defined_override_count": 13,
+      "parameter_tail_sha256": "5ccff61b187051c84ab989eaf11fbe36be7b86e8033270134b6ebef0d78a413f"
+    },
+    {
+      "role": "three_literal_native_installer_patches",
+      "source_sha256": "5b06f7f94fc51ba8e1b9f53acf4d009c6077c9e4a68af090a37797c2e74119dc",
+      "constructor_regions_checked": 4,
+      "parameter_return_regions_checked": 3,
+      "bounded_chord_metadata_region_present": true,
+      "source_defined_override_count": 13,
+      "parameter_tail_sha256": "5ccff61b187051c84ab989eaf11fbe36be7b86e8033270134b6ebef0d78a413f"
+    }
+  ],
+  "changed_parameter_region_rejected": true,
+  "native_patcher": {
+    "path": "/tmp/held10-astra-06bbeb395471-public3/topics/visible-flex-held-10pct/scripts/resume_n4_tail/native_extended/prepare_recovered_native.py",
+    "sha256": "7c98aab30c24bfac42e2cd5562a0c9d59b4d24dd7d01cb1e271b07e0dba3622b",
+    "literal_patch_count": 3
+  },
+  "scope": "The three native source replacements were extracted from the actual installer AST and applied to the actual chord-installer output. This is a source-only compatibility check, not a full sparse/shared/periodic/native installation or an accepted field.",
+  "python_compile_exit": 0,
+  "node_syntax_exit": 0,
+  "actual_tail_packet_used": false,
+  "new_field_geometry_certified": false
+}

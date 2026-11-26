@@ -6,7 +6,7 @@
 
 连通闭C²嵌入、C²连续族；H闭、有内点且diamH≥.2D，整像δhold≥.1D、含反射δE>0，全时reach≥.03D。固定完整g/物理数据/时间范围加密到完整metric≤1e−6并持续下降。必须实际闭合和共用Cartesian两jet；λ<1不提供准确圆弧H。
 
-- 公共已完整读规则并真实pull：`88610fd3df517889ae3e51860b6c066759f661ef`；私有根README/QUEUE接手登记已推 `2f68946f2fa3e192a291c7c1393231af1a89953e`。每次pull核双README差异，至少每小时一次。root独占git，逐结论push，NFF立即pull --rebase再推，禁force；令牌只命令行。
+- 公共已完整读规则并真实pull：`ed2dcbc7acd4c99b58cb2ee2ca6d6f3b88198547`；私有根README/QUEUE接手登记已推 `2f68946f2fa3e192a291c7c1393231af1a89953e`。每次pull核双README差异，至少每小时一次。root独占git，逐结论push，NFF立即pull --rebase再推，禁force；令牌只命令行。
 - 工作树 `/tmp/held10-astra-06bbeb395471-public3`；旧scratch已失，原/workspace盘满勿删他人文件；旧进程终态不推断。详细[接手/来源](notes/2026-11-26-resume-and-current-sources.md)。
 - 70份源及实际chart69a3e8eb...保物理输入/原门；[恢复入口](notes/2026-11-26-tail-source-recovery.md)，不当新数学结果。
 - 公共[material run45763361623](https://github.com/Rogerhu12/math-research-public/actions/runs/45763361623)：M24 cold已真实δ中心差分越域，无raw；三路parent原门拒源exit2。M16/512 cold自然status1/n5860/RMS10.0388736684未门，rawba1b5a5e。后续[λ.004历史完整H独立尾](notes/2026-11-26-recorded-lambda004-tail-input.md)被预mkdir冲突挡在native初始化，未求尾；四入口已去该行，新目录请求02接续，见[实际返回](notes/2026-11-26-native-fresh-directory-startup-return.json)。
@@ -24,7 +24,7 @@
 
 1. material已自然失败M16冷恢复；历史λ.004完整H独立尾修fresh目录后正真算.25（非λ.002耦合）。暖runner已重获原M24场并续核心设计，旧.25/.5/未知.75不转当本次完整尾。
 2. warm run45775899674：原M24已必要恢复；[v2十二次真实返回](notes/2026-11-26-warm-v2-continuation-final.json)均RMS未门，最后λ.0020009765625/RMS2.9935e−5，止于原最小步门，未晋失败场。随后[v3同图零锚实际通过](notes/2026-11-26-warm-v3-anchor-actual.json)：runed26f665，631点/RMS9.92715e−7/双角metric≤6.48242e−7，solver_invoked=false；已真正求λ.004，当前无新接受。固定完整P/anchor/chart/gauge/mean1168，只有metric单失败才升M。λ1后[真DN](notes/2026-11-26-warm-lambda1-actual-dn-entry.md)及独立actual精化继续，旧线性入口不可冒充。
-3. 几何必须保真primitive/mean1168和公共Cartesian两jet。R66三重高度下连续转角I=1给primitive闭合；实际I/投影误差仍欠。[新cut](notes/2026-11-26-seam-new-prefix-cut-entry.md)显式v1/v2/v3/actual门；[真Zc](notes/2026-11-26-seam-new-true-cut-height-entry.md)动态M、同projection、共右二jet、Fraction全径向积分，不搬旧Zc。[动态全尾v2](notes/2026-11-26-seam-dynamic-tail-geometry-v2.md)以实际M/N完整谱及唯一R节点定义新图，原mean链/同谱修补已接；原factory depth与checkpoint shooting-depth不同，native参数门正在修正，尚勿用旧门报输入失败。R58完整背景已必要恢复。全新场的尾、修补、尺寸/reach及同问题C²差均仍需真算。
+3. 几何必须保真primitive/mean1168和公共Cartesian两jet。R66三重高度下连续转角I=1给primitive闭合；实际I/投影误差仍欠。[新cut](notes/2026-11-26-seam-new-prefix-cut-entry.md)显式v1/v2/v3/actual门；[真Zc](notes/2026-11-26-seam-new-true-cut-height-entry.md)动态M、同projection、共右二jet、Fraction全径向积分，不搬旧Zc。[动态全尾v2](notes/2026-11-26-seam-dynamic-tail-geometry-v2.md)以实际M/N完整谱及唯一R节点定义新图，原mean链/同谱修补已接；原factory depth与checkpoint shooting-depth按13项原覆盖语义分开核验；实际packet/native/磁盘三方同SHA，chord/native修改后的参数区源码核验已过。R58完整背景已必要恢复。全新场的尾、修补、尺寸/reach及同问题C²差均仍需真算。
 
 新[真核区间](notes/2026-11-26-warm-true-core-interval-extension.md)及[完整前缀metric入口](notes/2026-11-26-warm-continuous-prefix-metric-entry.md)已审/compile：真π/反函数/primitive、实际M/全角闭盒/全部径向断点、literal1168；小M2只是API实跑，数值界不迁移。真λ1场后再算，未知actual-refine种类须显式适配。
 

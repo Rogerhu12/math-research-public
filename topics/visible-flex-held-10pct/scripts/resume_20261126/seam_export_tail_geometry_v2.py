@@ -12,6 +12,7 @@ import hashlib
 import json
 import math
 from pathlib import Path
+import re
 import struct
 import subprocess
 import sys
@@ -25,6 +26,21 @@ from seam_tail_spectrum_v2 import (
 
 HERE = Path(__file__).resolve().parent
 TOPIC = HERE.parents[1]
+PARAMETER_SEMANTIC_SOURCE_SHAS = {
+    "950f-tail-stage-core.mjs": "53fdd936cf65f0a42929b6ce42c6ea12f183628abc9c9f3a351aac9c31ffbd6d",
+    "950f-tail-subdivision.mjs": "e44317579d483147aa7fe73b086aba059695aa0f675b831c178902a2c0cb62e6",
+    "closing_recalibrated_tail.mjs": "4a109f26b0e6c9741dfff678c0fe42da4935bfda9c605e55688e97848aef0dd6",
+    "closing_weighted_tail.mjs": "740e672edee58cff7a15f89d75e181577dd439c1c62777c57d0d0ab1af32141e",
+}
+STAGE_PARAMETER_TAIL = (
+    "modes:M,spacing,depth,physicalDepth,shootingParts:stages.parts,steps,"
+    "quadrature,linearFar,linearSteps,linearMethod:'stable-momentum-cusp-subdivision',"
+    "projectionFloor,farPadding,nodeIndex"
+)
+CHORD_PARAMETER_PREFIX = (
+    "shootingAlgorithm:'bounded-chord-v1',chordMaxCorrections:maximum,"
+    "finalStageJacobian:'fresh-original',"
+)
 HELPER_SHAS = {
     "extract_q060_native_mean_chain.py":
         "51edadb5ca1e2a6c36369c7965788065ff79ab44ce21a219c6d36e3aae896945",
@@ -165,6 +181,102 @@ def validate_packet_states(packet, M, spacing, degree=None):
     return spectrum
 
 
+def validate_factory_parameters(physical, cfg, parameters, stage_count):
+    """The source spreads factory parameters, then overwrites these exact keys."""
+    defaults = dict(modes=2, spacing=6, depth=8, steps=64, quadrature=128,
+                    linearFar=48, linearSteps=512, projectionFloor=.05,
+                    linearMethod="matrix", shootingParts=1)
+    physical_depth = cfg.get("depth", defaults["depth"])
+    parts = cfg.get("shootingParts")
+    parts = 1 if parts is None else parts  # Original nullish default.
+    if type(parts) is not int or parts <= 0:
+        raise ValueError("The original shooting subdivision requires positive integral parts")
+    overrides = {key: cfg.get(key, defaults[key]) for key in
+                 ("modes", "spacing", "steps", "quadrature", "linearFar",
+                  "linearSteps", "projectionFloor")}
+    overrides.update(depth=stage_count, physicalDepth=physical_depth,
+                     shootingParts=parts, linearMethod="stable-momentum-cusp-subdivision",
+                     farPadding=overrides["linearFar"] - physical_depth, nodeIndex=0)
+    if any(parameters.get(key) != value for key, value in overrides.items()):
+        raise ValueError("A source-defined checkpoint parameter override changed")
+    for key, value in physical.items():
+        if key in overrides:
+            # The factory preserves the original input here. E.g. its depth=8
+            # and linearMethod='matrix' are NOT the derived checkpoint values.
+            if key not in cfg and key not in defaults:
+                raise ValueError("Unexpected prederived factory parameter: " + key)
+            if value != cfg.get(key, defaults.get(key)):
+                raise ValueError("The original factory input differs from its actual config: " + key)
+        elif key not in parameters or parameters[key] != value:
+            raise ValueError("A complete non-overridden factory parameter changed: " + key)
+    return overrides
+
+
+def validate_stage_parameter_text(text):
+    """Check the actual installed parameter regions, including the chord clone.
+
+    The recovered sparse/shared/periodic/chord/native installers change the
+    whole stage-core file. Its historical SHA is therefore provenance only.
+    These constructor and return expressions are the parameter semantics used
+    by validate_factory_parameters; the runtime bytes are separately bound.
+    """
+    anchors = (
+        "const {modes=2,spacing=6,depth:physicalDepth=8,steps=64,quadrature=128,"
+        "linearFar=48,linearSteps=512,projectionFloor=.05,linearMethod='matrix',"
+        "fastJacobian=false}=options;",
+        "const physical=options.tail??createCompactControlledTail(options),"
+        "cuspAwareFlow=options.cuspAwareFlow===true;",
+        "const nodeIndex=0,farPadding=linearFar-physicalDepth,M=modes,K=2*M,portRatio=2**a;",
+        "const stages=subdividePhysical(physical,physicalDepth,options.shootingParts??1),"
+        "depth=stages.cells.length;",
+    )
+    if any(text.count(anchor) != 1 for anchor in anchors):
+        raise ValueError("An installed stage-core parameter constructor expression changed")
+    objects = re.findall(r"parameters:\{\.\.\.physical\.parameters,([^{}]*)\}", text)
+    expected = [STAGE_PARAMETER_TAIL, STAGE_PARAMETER_TAIL]
+    if len(objects) == 3:
+        expected.append(CHORD_PARAMETER_PREFIX + STAGE_PARAMETER_TAIL)
+    if sorted(objects) != sorted(expected):
+        raise ValueError("An installed stage-core parameter return expression changed")
+    return {
+        "constructor_regions_checked": len(anchors),
+        "parameter_return_regions_checked": len(objects),
+        "bounded_chord_metadata_region_present": len(objects) == 3,
+        "source_defined_override_count": 13,
+        "parameter_tail_sha256": hashlib.sha256(STAGE_PARAMETER_TAIL.encode()).hexdigest(),
+    }
+
+
+def validate_parameter_sources(packet, native_manifest):
+    """Bind actual packet sources to the actual installed native manifest."""
+    source_topic = Path(native_manifest["source_topic"]).resolve()
+    sources = {}
+    for name, historical_sha in PARAMETER_SEMANTIC_SOURCE_SHAS.items():
+        path = source_topic / "scripts" / name
+        matches = [item for item in native_manifest["owned_sources"]
+                   if Path(item["path"]).resolve() == path]
+        if len(matches) != 1:
+            raise ValueError("Actual parameter source is absent or duplicated in native manifest: " + name)
+        source = matches[0]
+        actual_sha = sha(path)
+        if (actual_sha != source["sha256"] or
+                actual_sha != packet["source_sha256"].get(name)):
+            raise ValueError("Actual packet/native/installed parameter source differs: " + name)
+        # These three files are not patched by the recovered installer chain.
+        # The stage core is patched; check its parameter expressions below.
+        if name != "950f-tail-stage-core.mjs" and actual_sha != historical_sha:
+            raise ValueError("An unchanged reviewed factory/subdivision source differs: " + name)
+        sources[name] = dict(path=str(path), sha256=actual_sha)
+    regions = validate_stage_parameter_text(
+        (source_topic / "scripts/950f-tail-stage-core.mjs").read_text())
+    return {
+        "actual_installed_sources": sources,
+        "reviewed_semantic_source_sha256": PARAMETER_SEMANTIC_SOURCE_SHAS,
+        "historical_stage_core_whole_sha_used_as_runtime_gate": False,
+        "installed_stage_parameter_regions": regions,
+    }
+
+
 def validate_native_identity(record, native_manifest, packet, source_port):
     """Cross-bind actual config, physical metric, ABI and frozen native bytes."""
     meta, port = checked(record["static_metadata"]), read(source_port)
@@ -190,15 +302,13 @@ def validate_native_identity(record, native_manifest, packet, source_port):
         raise ValueError("Native static scope differs from the actual accepted config")
     if any(meta["scope"].get(k) != v for k, v in native_manifest["fixed_scope"].items()):
         raise ValueError("Original native manifest scope differs from its static metadata")
-    # The original linear-port exporter retains only its explicit physical
-    # configuration keys. Native metadata and checkpoint.parameters retain the
-    # complete factory parameters, including defaults and derived quantities.
-    # Bind all complete keys to that actual checkpoint, plus every port key;
-    # do not mistake the valid partial port schema for a different metric.
+    # The physical factory keeps its complete input/default dictionary; the
+    # stage core then overwrites depth and its other documented derived keys.
+    # Validate both meanings explicitly rather than conflating depth 8 with
+    # the actual shooting-stage count. All untouched physical keys remain bound.
+    parameter_sources = validate_parameter_sources(packet, native_manifest)
     physical = meta["physicalParameters"]
-    if any(k not in cp["parameters"] or cp["parameters"][k] != v
-           for k, v in physical.items()):
-        raise ValueError("Native complete physical parameters differ from the accepted checkpoint")
+    parameter_overrides = validate_factory_parameters(physical, cfg, cp["parameters"], S)
     if any(k not in physical or physical[k] != v for k, v in port["parameters"].items()):
         raise ValueError("Native mean chain differs from an explicit original port parameter")
     if meta["original_scalar_and_variational_grid_bytes_equal"] is not True:
@@ -233,6 +343,8 @@ def validate_native_identity(record, native_manifest, packet, source_port):
         "input": record["input"], "output": record["output"],
         "accepted_state_vectors_checked": S, "native_source_runtime_files_checked": len(source_refs),
         "complete_checkpoint_physical_parameters_checked": len(physical),
+        "source_defined_checkpoint_overrides": parameter_overrides,
+        "factory_checkpoint_parameter_sources": parameter_sources,
         "explicit_port_parameters_checked": len(port["parameters"]),
         "original_scalar_variational_grid_identity": True,
         "original_root_gates_changed": False,
