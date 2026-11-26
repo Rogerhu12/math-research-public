@@ -350,3 +350,5 @@
 - [B030完整付费状态通用续接](notes/2026-11-26-theta-paid-state-generic-resume.md)：新入口严格绑定真实run/job、原commit上实际wrapper/a879对象、完整callback/81q/所有539/1218及571/1276提议；1025/2048不变，保两段censored成本。仅替换已审输入恢复器，不重放旧outer/接口，下一从真实末态继续科学。
 
 - [R597 完整非线性核心余项与真实自由阶](results/R597-nonlinear-core-trace-and-realizable-free-order.md)：**已证明**P=Wfr及其真实两端值给准确eR/e′R与D_R，全角弱行中均值准确消去；齐次/已付forced/tanh/bulk逐项保。新δ^(α+2)自由项保持P0和正则核心二jets而独立控制P1，补旧δ^(2+2α)阶所缺的有限源响应；有限BVP仍须实际求。
+
+- [B030通用续接START后外部关停](notes/2026-11-26-theta-generic-start-only-shutdown-receipt.md)：run45819650602无callback/FINAL/完成Jac；原q在实际571/1276及1144×3072新观察发现η.25895160786/V0，0新优化接受可核。1116括号/22.603199331秒定位已付，其余科学费用未闭合，第三68.2931574秒未刷墙钟单列；下一改变工作矩阵实现且保完整接受门。
