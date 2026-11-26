@@ -1,0 +1,63 @@
+{
+  "sourceSha256": "26c70e8e45b1e0fb1f24ab6f31b63492748f83855ec460dca40ce0a4c6c456eb",
+  "sourceBytes": 16065,
+  "exitCode": 0,
+  "wallSeconds": 15.766024881002522,
+  "peakRssKiB": 91772,
+  "stopReason": null,
+  "stdoutBytes": 15842,
+  "stdoutSha256": "06efc5ab90be12af1dcbfe76ddcf172d4d5c2a1b5b1cf9b9129b2f5cb34ef9da",
+  "scope": "new original eight by eight bounded-rho Macaulay necessary curve; not whole L0 exclusion",
+  "session": "Astra-ISP-8542378f-20261127",
+  "source": "2026-11-27-unit211-L0-eight-by-eight-original-parameter-curve-8542.py",
+  "parameters": [],
+  "limits": {
+    "sourceAlarmSeconds": 180,
+    "addressSpaceGiB": 4,
+    "externalHardSeconds": 190
+  },
+  "finalRecord": {
+    "allRemovedFactorsPaid": true,
+    "claimExcluded": false,
+    "cofactorIdentityAllEightColumnsVerified": true,
+    "constantColumnExactlyOne": true,
+    "determinant": {
+      "degrees": [
+        0,
+        86,
+        127
+      ],
+      "sha256": "3e9e8cf54336b988f2c96be352eb09aeb9b57787f8718796880199bb1c780a4d",
+      "terms": 8534
+    },
+    "elapsedSeconds": 15.67644,
+    "necessaryCurve": {
+      "degrees": [
+        0,
+        39,
+        53
+      ],
+      "sha256": "6057a487720992327d9e065ec6b7ef5e54896637f1c756a28391fd734737b50c",
+      "terms": 1843
+    },
+    "pivotZeroFibresRetained": true,
+    "stage": "complete_original_eight_by_eight_parameter_curve"
+  },
+  "wholeL0Excluded": false,
+  "reproductionNote": "Exact executed source retains optional output cache path /workspace/scratch/8542378f2b73/L0_original_eight_by_eight_curve.json; create its parent directory or map that scratch path when reproducing. Polynomial data are not committed.",
+  "initialImplementationFailure": {
+    "sourceSha256": "2ca2a91565fc41484dde86c17b4b52ba0da18b793eab6ce94c5001fe16650df7",
+    "sourceBytes": 15995,
+    "exitCode": 1,
+    "wallSeconds": 11.116458679000061,
+    "peakRssKiB": 68604,
+    "stopReason": null,
+    "stdoutBytes": 15856,
+    "stdoutSha256": "da03e76ec996c6d42eed0c3b7c66dd938fa02450dcca88d5e21bc39c37af35fa",
+    "scope": "new original eight by eight bounded-rho Macaulay necessary curve; not whole L0 exclusion",
+    "source": "2026-11-27-unit211-L0-eight-by-eight-inexact-cofactor-failed-source-8542.py",
+    "failureReason": "Initial reverse row-transformation implementation attempted a non-polynomial intermediate quotient; flint DomainError. No original cofactor certificate returned. Corrected source starts from the last Bareiss pivot and verifies all eight final polynomial identities.",
+    "sourceFrozen": true,
+    "doNotRepeat": true
+  }
+}

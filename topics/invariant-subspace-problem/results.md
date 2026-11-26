@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R150 L0 原八行低rho矩阵给C_(39,53)必要曲线（2026-11-27，已证明）：** [八列原cofactor身份及已付因子剥除](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-L0-eight-by-eight-original-parameter-curve.md)保同rho/t的E1/N1前三个移位与EBo/EBe；cofactor*M=(0,…,0,D)全部乘回，D86,127剥原单位后C1843项/SHA6057a487。源26c70e8e实际15.766025秒/91772KiB/exit0；首个非精确中间商实现失败单列冻结。新曲线须连同X/Y和全原P/N返回，不宣一般L0空。
+
 - **R150 S0/Lt0 两参数局部环的四生成原模与完整同eta N/P（2026-11-27，已证明输入）：** [整H16首项排除、六二次规则及双层原证书](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-four-generator-two-parameter-original-system.md)以665→305次QQ覆盖和保13/109次数的一元Bézout支付v²首项；六规则与原五式双向理想身份全回乘，473次分母检查。九原三次重叠及完整N/P共15行作用于(λ,f,v,1)；源851c83c4实际55.292738秒/125428KiB/exit0。只称四生成，未把参数曲线上模当自由；继续原4×4子式及完整交点，普通ISP仍未完成。
 
 - **R12 完整交换子没有一般非零分母、无可闭性及任何RSC向量（2026-11-27，已证明）：** [任意全交换子高块压缩与实际同源零交](results/R12-appendix-full-commutant-no-bounded-regularizer-and-nonclosability.md)对指定q_n=16^n、m_n=q_n²的正连续循环f，证明任意非零P∈C使PX_f全有限柱无界，故无PH⊂DomX_f及任何有界商包含。C1∩Cf=0而两者均稠密，明确代数投影给不可闭序列，直接代数证明排除任意RSC向量。高块误差保完整维数、固定外锚与全列范数；R136支付同一X_f的C自伴与全参数单射稠密，不构造普通不变空间。一般分母路线已闭，特殊闭根/湮灭来源仍须另付。

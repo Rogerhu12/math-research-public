@@ -185,3 +185,6 @@ Deddens自伴MASA、全部可分重数有限成本投影、全2-adic平移距离
 
 
 [N型最大carry域](results/R271-appendix-maximal-n-carry-domain-triangular-reconstruction.md)已由有限行严格三角重构识别为ρ权平方和域；各Pq h在H且Kh在H即进总孔核心。若同W来源已付Sh∈H，非零W只可能来自D*h与Kh各非H的真实抵消；此来源与抵消排除均未付，Y不套此正交重构。
+
+
+L0新[原8×8参数必要曲线](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-L0-eight-by-eight-original-parameter-curve.md)为C_(39,53)，八列cofactor身份保全部主元零纤维，15.766025秒/exit0。与X/Y及同rho/t的全部原P/N继续交点返回，不重跑冻结的大投影。
