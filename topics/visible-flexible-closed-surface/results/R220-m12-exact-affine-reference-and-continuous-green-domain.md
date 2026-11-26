@@ -318,14 +318,16 @@ $$\int_0^{L(\theta)}F(\tau,\theta)\,d\tau=0,
 $8.97\cdot10^{-16}$ 和 $1.12\cdot10^{-15}$。
 精确等距来自 (12)，不是这两个小数。
 
-按同一原材料角、同一物理径向坐标比较，新参考与旧 M12 的差为：
+按同一原材料角、同一物理径向坐标比较，新参考与旧 M12 的差见下表。
+**此表已采用 2026-11-26 修正旧图二阶 Horner 初项后实际重跑的观察**；
+初次错误及影响范围保留于第 8 节和专门更正记录。
 
 | 端迹 | 左端最大差（采样） | 右端最大差（采样） |
 |---|---:|---:|
 | $X$ | 9.4666521e-12 | 6.2436269e-10 |
 | $X_\sigma$ | 4.9131349e-9 | 9.3978707e-9 |
 | $X_u$ | 4.1629787e-10 | 4.0104239e-8 |
-| $X_{\sigma\sigma}$ | 5.6610253e-7 | 3.6921160e-7 |
+| $X_{\sigma\sigma}$ | 5.6596386e-7 | 3.6921409e-7 |
 | $X_{\sigma u}$ | 3.6210348e-7 | 6.3622823e-7 |
 | $X_{uu}$ | 4.1264068e-8 | 2.7915846e-6 |
 
@@ -350,7 +352,7 @@ held、非平凡性或 reach 结论。
 `2c28fe83b39992dc86208f08cfcb5e5469c391f3c725479e2ba0198bf8140d5c`。
 
 adapter SHA256：
-`5dbc39bcb44c88739bc089c1b3ebc4e3d07532c18d37737d2a72d7e96b384a78`。
+`3eec8c14f5b43c8c660401d8dd3e7868d2e15ce24d0beabd7955f27389af7145`。
 连续证书源码 SHA256：
 `6bc46eeeb91bb979c19c2167250ced2a8362ae92b8f8b53eacd8595408e2af57`。
 
@@ -362,20 +364,20 @@ git cat-file blob 26ce0426c60ef868c53597a82252e0559c1cc21e > /tmp/visible-flex-6
 
 OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python topics/visible-flexible-closed-surface/scripts/6a65-m12-r137-fixed-metric-adapter.py \
   --data /tmp/visible-flex-6a65e705/exact-work/m12-prefix-data.npz.gz \
-  --out /tmp/visible-flex-6a65e705/exact-work/m12-r137-up-1024p256g24.json \
+  --out /tmp/visible-flex-6a65e705/exact-work/m12-r137-up-1024p256g24-dd20.json \
   --angles 1024 --panels 256 --gauss 24
 
 OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python topics/visible-flexible-closed-surface/scripts/6a65-m12-r137-continuous-domain.py \
   --data /tmp/visible-flex-6a65e705/exact-work/m12-prefix-data.npz.gz \
-  --out /tmp/visible-flex-6a65e705/exact-work/m12-r137-continuous-8192-final.json \
+  --out /tmp/visible-flex-6a65e705/exact-work/m12-r137-continuous-8192-dd20.json \
   --cells 8192
 ```
 
 输出路径须是尚不存在的新路径。源数据长度 3,112,330 字节，SHA 已在第 1 节绑定。
-数值 adapter 实际 exit 0，耗时 1.966159231000347 秒；报告 SHA256
-`1f85048d13c49376b8b898424d5e1b567c64344bce6a1d2543ee3d6220222691`。
-有理连续域证书最终实际 exit 0，耗时 37.19851770000241 秒；报告 SHA256
-`22049752598fdad0435b836212099eea57863c783c6e5b9550e5e10441f14648`。
+修正后的数值 adapter 实际 exit 0，耗时 2.006226830999367 秒；报告 SHA256
+`edc603b1b77cdfeef83e40ad494304140c339ece6eab6716c4eea1f437805a80`。
+有理连续域证书重新实际 exit 0，耗时 27.69123976699484 秒；报告 SHA256
+`2a4fa9cc73b31da02cfa5746daf9b5f621639483fd0f1e1c0a1df6acbef32159`。
 所有角区间的有序整数端点行流 SHA256 为
 `8907f65751f3de718072cb8d0efd82f43355384c397c6efbb81f516a9c576e8b`。
 该行流 hash 不含耗时，区间计算是确定的；报告含实际耗时，完整文件 hash 只绑定这次 receipt。
@@ -384,3 +386,26 @@ OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python topics/visible-flexible-closed-s
 8192 个区间的改动仅细化对**同一个精确参考**的区间包围，未改变入口、
 目标度量、曲线频数或相位范围。这是证书细化，不能把它冒称为 README 第 5 条的
 全闭图求解加密序列。
+
+## 8. 2026-11-26 已发布版本的明确更正
+
+初次推送 `9fc60692e` 中，adapter 的 `old_packet` 对旧源五次多项式
+$\sum p_jt^j$ 求二阶导数时，Horner 初项误写为 `30*p[5]`，应为 `20*p[5]`。
+初版 adapter SHA256 是
+`5dbc39bcb44c88739bc089c1b3ebc4e3d07532c18d37737d2a72d7e96b384a78`。
+它使旧 $X_{\sigma\sigma}$ 差的初次观察成为
+$5.661025342236188\cdot10^{-7}$、$3.692116004192726\cdot10^{-7}$；
+这两个值不再是现用结果。
+
+初次数值报告 SHA256 为
+`1f85048d13c49376b8b898424d5e1b567c64344bce6a1d2543ee3d6220222691`，
+初次连续域报告为
+`22049752598fdad0435b836212099eea57863c783c6e5b9550e5e10441f14648`。
+第 6–7 节现用的数值、源码和报告身份全部来自修正后的真实重跑，
+没有把原报告重标为新运行。
+
+新精确参考、入口的有理系数、全角连续证书和 Green 界从未调用这个旧图径向二阶导数分支。
+两次证书的所有决定性有理区间端点完全相同，行流 hash 均为第 7 节所列值。
+所以本结果的数学精确参考及连续域结论保持不变；改变的是旧图端迹差观察器和其运行身份。
+完整更正账见
+`../notes/2026-11-26-6a65-r220-old-jet-horner-correction.md`。

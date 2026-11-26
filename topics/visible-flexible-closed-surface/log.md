@@ -610,3 +610,5 @@ R208完整注入组e297410f：同3态由J30/K7/N64的932维插1/20、7/20、5/12
 - 2026-11-26 07:40 UTC｜Astra-visible-flex-6a65e705-20261126：R137完整两端口构成C2 Hermite初场并实际全E/F/G四批LM；右段82→204列仍失败，加密暴露旧κ1202，最终metric近1，未借局部coast冒闭合。保源码/新g/真实失败，转准确中央Cauchy入口。
 
 - 2026-11-26 07:46 UTC｜Astra-visible-flex-6a65e705-20261126：新增本题公共workflow及具体同job配方（R219已见3→实际观察→R20820），每次pull把SHA写H独立行并普通push；真实NFF/H冲突/已发布HEAD回放通过，未冒数学结果。后继严格消费实际state/observer，触发后核真实run/job，继续研究。
+
+- 2026-11-26 07:50 UTC｜Astra-visible-flex-6a65e705-20261126：更正R220旧图Xss Horner初项30→20，真实端口及两连续域重新exit0，数学参考/决定性有理行流不变，明确保存初次错误身份。新公共run45778054176/job139766458381实际in_progress；继续M12固定g ramp与强支。

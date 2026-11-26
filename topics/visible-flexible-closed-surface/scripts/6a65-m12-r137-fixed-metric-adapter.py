@@ -124,7 +124,7 @@ def old_packet(src,s,u,lam):
     if np.max(np.abs(residual))>LD('1e-15'):raise ArithmeticError('Old material inverse failed')
     cell=max(0,min(len(src.mesh)-2,np.searchsorted(src.mesh,s,side='right')-1))
     c,d=src.coefficients(cell,s);t=(s-src.mesh[cell])/src.h[cell];p=src.power[cell]
-    dd=30*p[5]
+    dd=20*p[5]
     for k in range(4,1,-1):dd=dd*t+k*(k-1)*p[k]
     dd/=src.h[cell]**2
     M=src.M;k=np.arange(3,3*M+1,3,dtype=LD)

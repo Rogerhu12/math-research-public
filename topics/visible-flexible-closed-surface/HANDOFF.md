@@ -7,7 +7,7 @@
 
 给出连通闭 $C^2$ 嵌入族、共同度量和固定握持开区域，按完整曲面直径计 $\delta_{\rm hold}/D\ge .05$、$\delta_E>0$、全时 reach$/D\ge .03$；全域全时 metric 误差不超过 $10^{-6}$，并支付同一几何下真正加密到求解容差及可复现网格。基础之后继续 $\delta_{\rm hold}/D\ge .2$、$\delta_E/D\ge .05$ 或严格存在。
 
-- 公开根 README、课题 README 已完整读于 `f0548477576caa2373d1626227a284ccfa9767d0`；真实 `git pull --rebase origin main` 于 2026-11-26 05:16 UTC 成功。每次 pull 后比较这两个文件，至少每小时一次。最近已读公开提交 `d5cbb981153839a153d583e25802f1b10f950a7f`（2026-11-26 07:48 UTC真实pull/rebase后，双README逐差均无变化）；本轮各次推前双 README 均无差异。R211两步、R213及真实外段伸长已推。
+- 公开根 README、课题 README 已完整读于 `f0548477576caa2373d1626227a284ccfa9767d0`；真实 `git pull --rebase origin main` 于 2026-11-26 05:16 UTC 成功。每次 pull 后比较这两个文件，至少每小时一次。最近已读公开提交 `c5252f384323615b1ac65b513f5ddb341c78c4fd`（2026-11-26 07:50 UTC真实pull/rebase后，双README逐差均无变化）；本轮各次推前双 README 均无差异。R211两步、R213及真实外段伸长已推。
 - 私库根 README 已完整读；QUEUE 已认领并推送 `c7785184d0d9c503852fb2137e9e2c091221d080`。认领中的三次并发推拒均立即真实 pull/rebase 后再推，最后成功。私库规则比较基准 `0229299ed65827c2ace194596315e58a19c989ee` 至该提交无差异。
 - 根规矩优先：完整证明直接登记；不用旧独审/冻结流程；可重算数据不入 Git、Release 或拆块，只保脚本、参数、运行标识和哈希；单 MD<100KB、H<10KB、课题总量<200MB；不写根 LOG、不强推。令牌只在命令行进程环境。
 - 本地部分克隆在 `/tmp/visible-flex-6a65e705/math-research-public`；工作区同名路径是链接。初次检出因 /workspace 仅约14MB空闲而 ENOSPC；迁至 /tmp 后按需检出、checkout及pull均成功。旧会话本地未推原件在本环境不可用，以已推内容/可再生配方为准。
@@ -20,7 +20,7 @@
 - **R213** 已证明完整切向兼容、独立弱应力及法向方程；**R214** 给切口切向宽度阈值，当前幅度已越过它，不能当剩余残差的不可能性。
 - **R215/R217** 是已证完整固定帽及两个核心充分窗口；原核条件全部保留。**R219** 真正换低宽帽 $c=.79,h=.86$，允许 $Z\in[.40,.53]$、中央支持至少1.4、$W=.895$，从完整平移棱锥球包/八极点/全法球证明 $D\le3.2$、held$\ge.64$、含反射$\delta_E\ge.1609$、reach$\ge.097$。只有实际核心满足全部条件时才适用；数值guide取 $Z\in[.41,.52]$。
 - **R216** 已证明真 Cartesian up 补丁 $X+W$ 的完整几何传递：metric粗界$<4.4\times10^{-8}$、reach$/D>.0312$、held$/D>.05278$及含反射$\delta_E>0$。不借 R114 的更尖误差界。
-- **R218** 是准确flat全角normal Green/双端完整函数矩；切向holonomy独立。**R220** 已从原M12准确有理截面和同一g构造非圆精确affine参考，8192全角有理区间证明D>.8288、U_t>.7893、非零κ∈(.5725,2.6961)和实际Green常数；两端完整差仍非零，不能当新闭图。
+- **R218** 是准确flat全角normal Green/双端完整函数矩；切向holonomy独立。**R220** 已从原M12准确有理截面和同一g构造非圆精确affine参考，8192全角有理区间证明D>.8288、U_t>.7893、非零κ∈(.5725,2.6961)和实际Green常数；两端完整差仍非零，不能当新闭图；[旧图Xss观察器30→20更正](notes/2026-11-26-6a65-r220-old-jet-horner-correction.md)已真实重跑，有理行流不变，旧观察错误明确保留。
 - 邻题最近实际输入仍未给可直接用的强闭族；文献见 [核查记录](notes/2026-11-26-6a65-current-literature.md)。Hu 2026稿的闭连续柔性与未知小参数不能代付本题宏观比例；Ghomi等非全等族未证明连续柔性。
 
 ## 当前实际计算与正在消费的输入
@@ -39,7 +39,7 @@
 
 原 [run45767322734](https://github.com/Rogerhu12/math-research-public/actions/runs/45767322734)/job139731246744 在06:31UTC failure：第20数学进程真0接受，metric=.2198262、κ13.02559、held.488882；21–60未发生。未入main的bot提交efbe93de已真实fetch/cherry-pick恢复小报告；CAS识别遗漏已修，不能从静态running字段猜job仍活着。见[失败及修复](notes/2026-11-26-6a65-solver-actions-twentieth-cas-failure.md)。
 
-新 `6a65-actions-strong-branch-20261126.py` 正准备同job强支重生→R219真实续算→dense观察→严格末态哈希消费的后继请求；本次提交触发R219已见3步→真实观察→R20820步（其中已见3步）的同job配方，正在核实实际run/job。原17步也只算恢复，不重复计研究。CI每次真实pull在H独立marker行记SHA；严格只合并该行，保留root其它文本。后继等待仅fetch，45分钟或新请求才pull，禁止把静态running当活状态。publisher真实并发回放保留所有上游提交，不amend已发布提交。
+新 `6a65-actions-strong-branch-20261126.py` 正准备同job强支重生→R219真实续算→dense观察→严格末态哈希消费的后继请求；[新run45778054176](https://github.com/Rogerhu12/math-research-public/actions/runs/45778054176)/job139766458381已真实in_progress，clone/Node setup成功；head2ed4f1ef9。配方R219已见3步→真实观察→R20820步（其中已见3步），保raw后继；目前在实际重生前置输入。原17步也只算恢复，不重复计研究。CI每次真实pull在H独立marker行记SHA；严格只合并该行，保留root其它文本。后继等待仅fetch，45分钟或新请求才pull，禁止把静态running当活状态。publisher真实并发回放保留所有上游提交，不amend已发布提交。
 
 ## 下一工作与恢复信息
 
