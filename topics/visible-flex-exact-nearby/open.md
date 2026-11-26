@@ -173,3 +173,7 @@ G以S/T E1856给physical C²整盘/曲率<2/径长<8e−6及同world position/no
 ### R144：紧支撑密度补偿与真正续算状态
 
 [CD补篇](results/R144-supplement-compact-density-quadratic-mean-compensator.md)给Yξ=Y0+ξA+ξ²B，A/B≤0、|B|≤|A|/2；小根需actual正测度V下界与D_R完整球。χ在[1/20,9/50]为C5，ξχ′、fullmean、physical同角组合、所有raw接口/radialjet/height/phase/cap均保。外pointstate恢复不令原残差为零；rawν0不得继承selected证书。[suffix规约](notes/2026-11-26-R144-fixed-eta0-mean-suffix-state-spec.md)精确区分格内cursor和旧格右端，W/G/A_D/D0整球及原prefix诊断足够续；完整目标只读。本次无新数值，继续actual固定η0输出与独立完整逆。
+
+### R149：独立 common 高输入的完整 source4
+
+[CX完整证明](results/R149-supplement-common-high-WPN-source-unit-ball.md)已从同x∈Xfr_H−4/3定义真实(F,e)，state外mean和aux Ec*e不设零；17独立槽的零逐项有源身份。新weighted body/tail用已成D mean列的L²权与真153×160格长，完整B/E/P/T四球可不等58/224/32。25whole输入、manifest3f0126ad…/320bits入口已提交，实际值须完整run；未来32×真实P/T才给strong additional response，rough baseline、finite/ν/全incoming仍各付。

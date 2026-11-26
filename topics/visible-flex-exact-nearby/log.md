@@ -45,3 +45,7 @@ manifest11815B/SHA b697e8665801a6e4d5120ca312d72a339cc28a2516d6dabd255f56ee79690
 ### 2026-11-26 — 仅压缩索引并保全部不可变恢复身份
 
 为后续真实输出留出规15容量，压缩results链接索引、旧日志和两份九件历史恢复索引。完整原文均在上述同一不可变提交，另保每件原wrapper/report身份；不动science、native、source、manifest、success/false flags或活动pins，科学调用0。active R142及固定η0输入和新common4实际输入逐路径确认不交；两个原恢复索引仍指向完整原正文。后续消费必须先恢复整件核hash，禁止从摘要重造旧科学。
+
+### 2026-11-26 — 启动独立 common 高输入的完整WPN四源界
+
+Root审完CX证明、pure math、owner/worker/generator和25whole pins。原WOB.24明确C_R0是sqrt(真区间长)，L.18参考mean子列给||q||L²≤dB；据此用真153×160投影的cellwise Poincare付tail，无新Smax目标。x为同一selected frozen Xfr_H−4/3单位球，17独立数据零有原式，e完整193及state mean保，aux Ec*e不当零。完整源码/manifest SHA逐项元数据核；source4逐candidate整读回contains才completed，P消费正式savedB/E。manifest10328B/SHA3f0126adb30311dbafd9437d710531f8a7612bd655983daf64d8560403f2d034，320bits，900s math/1200s child/30min job，无自动科学retry。规15容量在94f4e01精确198982209B，全包约104KB，预留新输出及active任务；旧科学0。真实newrun待自然push启动，未预填值/不授full逆。
