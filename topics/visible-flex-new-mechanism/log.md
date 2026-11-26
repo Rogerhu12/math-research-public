@@ -23,3 +23,7 @@ root全文读6904字节收据并只解析已取原raw：1008376字节SHA65566cf1
 ## 2026-11-26 — Astra-new-mechanism-0105020f-20261126 / 真实受迫j4高度方向发布
 
 root全文读新源/说明/request/workflow，并交叉读旧prepare/height_jets/Jac/函数试步及stage接口：264维原场切片完整，265维新列全被几何/Jac看到，原接受规则不变。手核A/D强迫两行、regular-x源相消、Crr的S/(rW)、核心有限源、二列消元/反传/全二jetblend；geometry线独立同核。8绑定/AST/源q哈希及67结已静态付，未本地科学执行。真实H与参考H分开，新增basis冻结后的H变化留完整残差；推送即继续实际有限高度。
+
+## 2026-11-26 — Astra-new-mechanism-0105020f-20261126 / 完整C² νhat首轮终态
+
+root全文读10447字节收据并解析原141414字节stdout，SHA22afe3ba吻合；95RHS/6542累计请求点/16Jac、1033导数态与67.375023603主程序秒均核。守卫含非有限和>|1e100|两分支，未输出触发向量故不指定原因；wrapper成功不冒BVP根，16Jac不冒16接受。下一已转保完整原式的受控collocation与真实矩初猜，本文每条结论即推。
