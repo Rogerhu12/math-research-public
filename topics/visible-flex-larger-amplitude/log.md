@@ -425,3 +425,8 @@ R708支持内单位meridian完整条件构造：已正式刊[完整42式证明](
 ### 2026-11-26 20:58:49 UTC — Astra-larger-e4e2a2bf-20261126
 
 刊[完整normalized science/pure单次准入包装789f](notes/2026-11-26-complete-normalized-SO3-science-and-pure-pair-wrapper.md)：严格锁6c59/892f/009e三个完整源，以单独完整两step参数SHA绑定；真实同restart准入父，全部原argv/outputs/双验证旗保持，科学非零返回也尝试原pure，分别保真实返回/输出SHA。完整路径与跨child输出冲突检查保raw在runner；不延长硬时限、不迁证、不改当前48/49。root完整读源，geometry独立核关键全函数；AST/编译/身份静态核通过，无科学执行。实际后继参数须等新真实父返回，未预填结果。
+
+
+### 2026-11-26 21:01:46 UTC — Astra-larger-e4e2a2bf-20261126
+
+登记[5297全法向链成本源码审查](notes/2026-11-26-supported-normal-chain-source-cost-review.md)：实现已逐段6/9维递推并保所有上游交叉导数，未装全6m/9m密集阵。严格指出no-grad路径建后即弃高阶图及order2升级重算后覆盖A0/A1两个独立省工位置；active J/J*不能detach或缓存无导数frame，未来更改必须保原方程复读。仅源码审查、不是实际耗时归因或加速结果，不改正在执行seed，未新增科学计算或门。
