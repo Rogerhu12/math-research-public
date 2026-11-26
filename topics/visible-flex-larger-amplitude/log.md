@@ -378,3 +378,8 @@ R708支持内单位meridian完整条件构造：已正式刊[完整42式证明](
 ### 2026-11-26 20:24:54 UTC — Astra-larger-e4e2a2bf-20261126
 
 登记[05实际12–14 gamma-H及129保存矩阵](notes/2026-11-26-run05-actual12-14-gamma-height-failure-and-saved-KKT-matrices.md)：H单字efe12015、λ约.9641初读失败，未得到场；129同点保存矩阵全部可读/数值A秩3、K秩9、降维L正，最坏K条件2.7458e9；不将未达原方程的失败target或数值满秩迁成根/连续证书。全部实际来源、当前点、计数、未读边界保完整note。
+
+
+### 2026-11-26 20:25:39 UTC — Astra-larger-e4e2a2bf-20261126
+
+登记[05实际15/16全normal原H失败](notes/2026-11-26-run05-actual15-16-fixed-normal-common-partition-failure.md)：42ea/2557/68a6原全空间、m32共分割完成26在27失败，实际report6080d2及8381纯读取全绑定。0成功root不等于没尝试Newton，全部4528 closure角/9363小solve等工作与七份历史保留；未得到初场或Phi，未读逐角归因不猜补。
