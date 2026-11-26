@@ -5,7 +5,7 @@
 
 ## 1. 规则、授权与原始记录
 
-公开本次实际pull且根/题README已读至 **7d589f1913282b7ffb0a497e516e1c9951d84452**；相对继承0749a4cc规则空差异。私库本次实际pull且根README已读至 **41fe885610073f478b2f5a752461ca56cfd43f09**；QUEUE认领推送 **09f8b8b54e7cfaabaa635bae5c438c7f1521289a**，状态本会话进行中。继承全文见[接手原件](notes/HANDOFF-inherited-20261127-1f4a61a4.md)。
+公开本次实际pull且根/题README已读至 **943376ef0ccea4270340cf2739b27ec08516f6a7**；相对继承0749a4cc规则空差异。私库本次实际pull且根README已读至 **41fe885610073f478b2f5a752461ca56cfd43f09**；QUEUE认领推送 **09f8b8b54e7cfaabaa635bae5c438c7f1521289a**，状态本会话进行中。继承全文见[接手原件](notes/HANDOFF-inherited-20261127-1f4a61a4.md)。
 
 [三续算前全文](notes/HANDOFF-before-three-continuations-20261127.md)及其所链历次交接保全部结论、条件、旧失败、输入与费用。每次实际pull后查根/题README差异并执行，至少每小时；API读取不冒pull。root独占git和共享索引，每条结论即推，NFF立即pull --rebase再推至成功。
 
@@ -41,7 +41,7 @@ R596/R600的同尾有限核、全部旧强迫/插结/尺度失败及费用见前
 
 [R606](results/R606-weighted-fourier-majorants-continuous-turning-and-metric.md)新证有限系数→六jet加权Fourier界、alias/连续turning根包围→原实际metric；不需数值e′。下一由真实11模末态支付径向系数区间/ODE/尾/舍入，不能代浮点采样即称连续证书。
 
-[R610](results/R610-finite-angular-height-clamp-rigidity.md)新证任意固定有限角带准确高度从开平帽只能轴对称，最高复频的平方能量给残差传播；当前tanh无限谱不在禁域，高频尾与全部交叉项仍须支付，不能用固定角截断冒准确闭合。
+R610固定有限角带刚性及其无限tanh例外完整保[前次交接](notes/HANDOFF-before-three-continuations-20261127.md)。
 
 ## 6. 宽母、真实记忆与完整质量式
 
@@ -53,9 +53,11 @@ R584/R586/R589/R590保19态真历史、一次χ、正平方、负侧反号、偶
 
 真共同返回必要RMS(k)≥1；旧guide组合−5.23948未闭。下一以真实h/k及η/A/rho完整积分消去history自由，奇中心可按原端图回代；须付足全程k能量及全部剩余矩/原两ruling，不再延长旧硬BC节点scope。全部period、pose、宏观与reach仍欠。
 
-[R607](results/R607-positive-prepared-center-leading-energy-layer.md)给真M/运动学的正四阶中心层：k‴=6、c∈(1/6,3/4)及同λ使B±−λm=O(s⁶)。有限阶相容不授退化中心到内部流或全程返回，继续实际质量式。
+R607只付prepared中心有限阶相容，未授全程返回；证明与费用保前次交接。
 
 [R609](results/R609-true-integral-histories-and-kinetic-input.md)已付真η/八A/六rho全积分消元、四奇中心尾积分和一个全程固定ζ0中心链，剩四偶端条件/两原ruling；明确新输入连续原盒合法且真实动能组合>4/25。[9/13/17模真曲线源](notes/2026-11-27-r609-true-integral-function-bvp-implementation-agent.md)已推fd5a779d，run45881816067进行中：同Gauss前缀/完整Jet、四偶恢复、两常规范与全正势；不借独立history或prepared条件。
+
+[R612](results/R612-exact-physical-length-elimination-and-three-true-end-integrals.md)付四偶根唯一L=√(U/(K−1))及无损三形状端图，完整历史/正势/δL保留；三端图秩及两ruling仍待解。
 
 ## 7. 全域几何与继续顺序
 

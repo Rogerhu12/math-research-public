@@ -121,3 +121,5 @@ T-surface、可弯管或变换共轭网须同时付端口位置、切平面、�
 ## 已闭旧固定O2范围
 
 [原固定O2全文](notes/open-fixed-o2-before-finite-height-20261126.md)保168/172表示、永久reference和固定g fd5bc5fe2c114bdbe82c266a5e816ba22ed58f1f486f5bc3241ddaac95de88b6。当前接受仍58，辅助metric量.26600541464、κ57.99977826；不是握持变化量，未付曲率1000/61或全对reach。ring17/full62/joint168实例均已闭，不重跑；joint168累计5018.790751846秒/147原full，完整证据见[收据](notes/2026-11-26-geometry-continuation-agent.md)。明确新几何/新算法可继续，不能把改变g/基/预算的改善授给旧身份。
+
+R612已将O4四偶端图无损化为唯一物理长度及三形状积分，详见[完整证明](results/R612-exact-physical-length-elimination-and-three-true-end-integrals.md)。在原函数run45881816067自然终态暴露相应瓶颈后采用；固定物理L精化、全势与两ruling不由消元代付。

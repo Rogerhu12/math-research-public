@@ -416,3 +416,5 @@
 - [R610有限角带高度的开帽刚性与最高残差传播](results/R610-finite-angular-height-clamp-rigidity.md)：**已证明**任意固定有限角带的完整非线性Darboux高度，从零非轴对称Cauchy数据只能保持轴对称；复最高系数涵盖sin/cos，二区域平方能量避免零点非法除法，并给连续最高残差传播。水平开平帽进一步迫真实水平投影为固定欧氏等距；不排当前无限tanh谱，截断全部尾交叉项须付回残差。
 
 - [R609全部真历史的积分消元与正动能新输入](results/R609-true-integral-histories-and-kinetic-input.md)：**已证明**以两条真实h/k函数积分生成η、八A与六rho，四原自由奇中心由末尾积分准确消去，余四偶端图与两全程原ruling保留；原中心差迫b0=0，一个固定ζ0由全中心链解出，两常规范不变。给全程原合法盒内的明确新输入，并用有理三角/双曲界证真平均动能组合>4/25；不授四矩或原ruling共同根。
+
+- [R612物理长度准确消元与三真实端积分](results/R612-exact-physical-length-elimination-and-three-true-end-integrals.md)：**已证明**任何四偶共同根必U>0、K>1并有唯一L=√(U/(K−1))；三形状积分与原四偶端图双向等价，原盒/完整δL链/八A与正势的全部长度项保留。没有假定三端图满秩或两ruling共同根，固定曲线精化须固定物理L。
