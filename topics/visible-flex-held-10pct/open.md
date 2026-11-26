@@ -20,6 +20,8 @@ R63固定完整g后把未知核放同一函数空间，必须核与全场C² Cau
 
 [首个完整割线真实返回](notes/2026-11-26-original-design-secant-lambda0032-first-return.json)已全原门通过：.008/.016同M真场预测λ=.032（β2，初猜864点），实际M32/866点、RMS9.91172e−7/metric6.71186e−7/物理BC2.62752e−18，3接受Newton步且无域/merit拒。它到达已登记过的同一λ、得到不同raw场，不声称更高λ/同图/固定g精化；原直接.032是2325点/21步，仅比较本次有限求解观察。run97ffa238/raw28a171df/physicalf0c54a25完整来源已核，父链现attempt001继续。
 
+完整割线随后取得新前沿：M32/.064真solver/RMS/BC过但[metric1.04547e−6未门](notes/2026-11-26-original-design-secant-lambda0064-metric-only-return.json)，仅作原完整lift初猜；新[.064/M40](notes/2026-11-26-original-design-secant-lambda0064-m40-accepted.json)已889点/RMS9.95910e−7/metric2.75690e−7/物理BC4.01608e−10全原门过，run4d455f1a/raw97e492d1/physicald1cd2972。实际mean1936（原M32为1552）明确随设计改变，不称同图/C²或固定g精化。当前仅一个真接受M40锚，按原策略继续真实raw初猜，不额外重算旧点或把M32 pair伪作M40 pair。
+
 [单方向的统一两块重标度分析](notes/2026-11-26-existing-direction-uniform-parameter-scaling.md)已用原实际标量精确比较：当前v3方向均衡只使首过k20→19；任何正两块统一权重在已测档都不能早于k16。不能据参数成本占比大就盲改phase_scale；不推至v4、非线性qAPI或任意预条件器。下一步仍是新v5/完整割线的实际返回。
 
 [δ单列替换诊断](notes/2026-11-26-one-column-delta-replacement.md)给同λ/实际g/字面chart/mean/高参数且d1=0的完整Jacobian关系；需先实际核全残差及其余块同一。一次旧LU转置给γ=wᵀbδ，必要时再一正解给完整新方向；当前无γ实测，不为已不存在LU另跑抽象证书，等真实v5返回需要定位时使用。

@@ -1,0 +1,92 @@
+{
+  "schema": "held10-original-design-secant-lift-accepted-return-v1",
+  "observed_at_utc": "2026-11-26 13:48:29 UTC",
+  "source": {
+    "repository": "Rogerhu12/math-research-public",
+    "commit": "14166db169f769cee711b1caea1508c38654c621",
+    "path": "topics/visible-flex-held-10pct/ci/live-material-result.json",
+    "git_blob_sha1": "2d94276fe960337e50dd0748c9bb3d7b5675220c",
+    "live_command_id": "held10-original-design-full-state-secant-20261126-01",
+    "live_script": "topics/visible-flex-held-10pct/scripts/resume_20261126/lowq_prefix_recovery_secant_design.py",
+    "live_script_sha256": "8eb09e79242a3d4af6d84de6cd0149227ef9eda7a4e3c7d50aec889a7b54594b",
+    "live_reported_source_commit": "a0151c8df0c893d8d7dab9b6a02c5ad28db9fcfa"
+  },
+  "scope": "The actual original R53 linear-DN material design reaches a newly accepted lambda=.064/M40 field. The original complete exact lift used the completed but metric-failing M32/.064 BVP only as an unaccepted Newton initializer. All original finite gates pass at M40. This remains a design step, not fixed-metric C2 refinement, true nonlinear-DN acceptance, lambda=1, or a complete surface.",
+  "original_finite_prefix_gates_passed": true,
+  "original_metric_threshold": 0.000001,
+  "original_physical_bc_threshold": 2e-9,
+  "accepted": true,
+  "full_nonlinear_tail_paid": false,
+  "fixed_metric_refinement": false,
+  "complete_surface": false,
+  "actual_return": {
+    "accepted": true,
+    "actual_audit_mean_nodes": 1936,
+    "actual_delta": 0.06413190787679669,
+    "complete_saved_initializer": true,
+    "domain_error_counts": {},
+    "domain_newton_stats": {
+      "accepted_steps": 2,
+      "calls": 2,
+      "minimum_alpha": 1,
+      "no_step": 0,
+      "rejected_domain_trials": 0,
+      "rejected_merit_trials": 0
+    },
+    "error": null,
+    "homotopy": 0.064,
+    "initializer": {
+      "accepted_bvp": false,
+      "kind": "original_complete_exact_lift",
+      "source_run": "/home/runner/work/_temp/held10-live/secant-design-recovery/secant-material-design/attempt-001/run.json",
+      "transfer": "/home/runner/work/_temp/held10-live/secant-design-recovery/secant-material-design/attempt-002-transfer/transfer.json",
+      "transfer_sha256": "d0a0e62b15a1ad4ae3ce8ba1a2f62b8ec8147dfa36eaf45898c8e2d9856c3309"
+    },
+    "metric": 2.7568979950037716e-7,
+    "metric_only_failure": false,
+    "modes": 40,
+    "name": "attempt-002",
+    "nodes": 889,
+    "original_finite_checks": {
+      "physical_bc": true,
+      "rms": true,
+      "solver": true,
+      "solver_and_boundary_pass": true,
+      "tolerances": true
+    },
+    "physical_bc_max": 4.0160803652341854e-10,
+    "physical_sha256": "d1cd29728e172da39047bda07dfb3a2059285d996d180960b6adbe1c6cb62094",
+    "raw_sha256": "97e492d1900c0fa84faaacc2932e7a5001fc488e5ff001f4aaf9309d98bdd2f3",
+    "returncode": 0,
+    "rms": 9.959100118139661e-7,
+    "run": "/home/runner/work/_temp/held10-live/secant-design-recovery/secant-material-design/attempt-002/run.json",
+    "run_sha256": "4d455f1ac6a7ebf8f186c27f42a3a00c773bb132f04deff16fb8e228e6e110ad",
+    "solver_success": true,
+    "source_run": "/home/runner/work/_temp/held10-live/secant-design-recovery/secant-material-design/attempt-001/run.json"
+  },
+  "lift_seed": {
+    "accepted": false,
+    "metric_only_failure": true,
+    "homotopy": 0.064,
+    "modes": 32,
+    "run": "/home/runner/work/_temp/held10-live/secant-design-recovery/secant-material-design/attempt-001/run.json",
+    "run_sha256": "fa5ca85b5930aefd30b40f305f9970ad347016115db3b0d6d1a1f4f784d78a6d",
+    "raw_sha256": "a45f51e06a6f9a494e4a6c2e8b0d47c9219f2ac0087a36e8c69adb63bb7f9957",
+    "physical_sha256": "3938d598b9414ecfc58c3748e6e5ee6c48072d3733f5cdfc0f6468672925f2ea",
+    "nodes": 872,
+    "rms": 9.959101680587876e-7,
+    "metric": 0.0000010454713974164837,
+    "physical_bc_max": 6.961196371272788e-17,
+    "actual_audit_mean_nodes": 1552
+  },
+  "finite_mean_scope": "The actual prefix audit/Cartesian finite-mean grid is 1936 at M40, whereas the M32 seed uses 1552. No fixed-mean, same-Cartesian-map, or C2-convergence assertion is made across this mode increase.",
+  "continuation_observed": {
+    "status": "attempt-003",
+    "accepted_lambda": 0.064,
+    "last_accepted_run": "/home/runner/work/_temp/held10-live/secant-design-recovery/secant-material-design/attempt-002/run.json",
+    "next_target_lambda": null,
+    "next_modes": null,
+    "current_same_M_accepted_secant_pair_available": false,
+    "reason": "Only one accepted M40 field appears in the recorded history at this point. The next call's literal target, M, and initializer were not projected. Source policy permits a secant only from two accepted fields at the same M."
+  }
+}

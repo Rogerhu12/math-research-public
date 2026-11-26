@@ -432,3 +432,5 @@
 - 2026-11-26 13:45 UTC｜Astra-held10-06bbeb39-20261126：v5第二实际.004/M32返回MemoryError，run7e5509e4，无raw/physical/RMS，process0不作solver成功。独立小reader仅核已存run SHA并投影traceback源位置/hash，不输出原文本/状态/参数数组；同lowq runner已提交只读定位请求，未重跑任何方程。原真.004/M24 metric-only场仍保留，随后实际续入按第三返回决定。
 
 - 2026-11-26 13:50 UTC｜Astra-held10-06bbeb39-20261126：v5第三实返.003/M24 status0/632点/RMS9.95177e−7/物理BC1.62790e−15过、metric8.46899e−6未门；run908a4801/raw53fc02bc/physical5f911599，5接受步/minα1且零拒。三次段自然返回，旧.002真接受锚与.003未接受完整seed分开；即按原pending续M32，保原lift/phase检查，不重求zero/M24。
+
+- 2026-11-26 13:53 UTC｜Astra-held10-06bbeb39-20261126：割线M32/.064真solver/RMS/BC过、metric1.04547e−6未门；原完整lift后新.064/M40全门过，889点/RMS9.95910e−7/metric2.75690e−7/物理BC4.01608e−10，run4d455f1a/raw97e492d1/physicald1cd2972。两个Newton接受步/零拒，mean1936随设计改变，非同g精化；现仅一个真M40锚，父链自然attempt003，不虚构割线对。
