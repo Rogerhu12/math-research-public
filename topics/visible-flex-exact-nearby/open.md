@@ -170,3 +170,5 @@ R143 correlated body已全4651；R146全418/13376使当前CV/RA根费格式失�
 [CS新中心完整源](results/R144-supplement-compact-centre-ordinary-and-divergence-residual.md)已证exact ordinary/divergence分解，径向常数Δκ只从angular flux准确消去、仍在ordinary项；原Rv−jR0及ξχ′完整保。五个新局部积分量消费actualρ/b后可执行；first-row H−2/3不免费删角导数，384^1/3费与所有rawjump/physical composition仍保。
 
 [TM terminal→normalized constant](results/R144-supplement-terminal-mean-small-ball-controls-normalized-forward-constant.md)已证：同ξ=0 terminal q0满足完整CP球时，Dbar=Yf(0)−Yt(0)；以原saved D0、t=b_w/m*得|Dbar|≤d0+(1+d0)t(2−t)/(1−t)²。原waist L2 rawmean源可收紧b_w。继而sameρ二次root、统一mean球与density门分开实际核；不必重forward/W，当前仅证明，actual scalar待执行。
+
+[PS完整父段源积分续接](results/R142-supplement-durable-complete-parent-source-moment-prefixes.md)：同155parents/1424cells的全径向及193原子输出，每完整parent保存body/root/outer累计三球并整读后推进。A/B/K/J仅物化原comparison表示；已接收源域不重复moments。当前R142未结束，未作新actual入口；旧完整六球优先，裸计数不授非空前缀。

@@ -248,3 +248,5 @@
 - [CS：紧支撑mean中心的完整非均值源](results/R144-supplement-compact-centre-ordinary-and-divergence-residual.md)：exact ordinary/角divergence分解及五量L²接收公式，保原mean残差、χ′、两行不同弱窗口和完整跳；待actualρ/b的新计算，非方程已解。
 
 - [TM：terminal mean小球控制归一化forward常数](results/R144-supplement-terminal-mean-small-ball-controls-normalized-forward-constant.md)：从同线性Y方程的准确初端差，保原D0/mean源/jumps，免重新forward即可给小根充分门。原waist L² receiver可收紧；实际门待独立scalar消费。
+
+- [PS：完整父区间源积分的真实续接](results/R142-supplement-durable-complete-parent-source-moment-prefixes.md)：源变量分片保整个输出及两有符号同格三角，完整三球先保存读回再推进；仅纯实现，无新ε或运行结论。
