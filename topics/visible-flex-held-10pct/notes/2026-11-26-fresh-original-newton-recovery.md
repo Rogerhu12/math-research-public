@@ -17,3 +17,7 @@ python -u REPO/topics/visible-flex-held-10pct/scripts/resume_20261126/seam_recov
 新输入在本runner从真实求解产生，chart和全部field重新绑定，不断言与旧warm锚逐位同一。数组仅留runner；输出只登记命令、SHA和小标量。原wrapper仅新增 `probe` 通道选择；其他通道行为不变。新workflow保原350分钟/同数值依赖和规则检查，无暖12次继续或δ继续。
 
 本地已实际compile/help成功，并核新prepare规格与原loader字段兼容；尚未有本次实际方向结果。实际run号及返回另追加。
+
+## 实际启动
+
+[run45806625263](https://github.com/Rogerhu12/math-research-public/actions/runs/45806625263) 已于11:00:51 UTC启动，源提交 `d8097620e49e74f070b657c44958505eddacb9f4`；工作目录 `/home/runner/work/_temp/held10-probe`。没有把启动记为方向结果。

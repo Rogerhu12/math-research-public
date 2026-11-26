@@ -41,3 +41,7 @@ python -u topics/visible-flex-held-10pct/scripts/resume_20261126/lowq_prefix_rec
 ## 实际启动
 
 [run45801006547](https://github.com/Rogerhu12/math-research-public/actions/runs/45801006547)已在10:24:19 UTC实际进入job139843898376，原bootstrap于10:25:02完成；worker已运行新请求，首观察处于原M16 port恢复。完整小启动记录见 [实际记录](2026-11-26-original-delta-design-started.json)。runner工作目录为 `/home/runner/work/_temp/held10-design`。没有据启动事件宣称前缀恢复或λ1成功。
+
+## 已恢复的 M32 原接受输入
+
+11:01 UTC实读：本次λ=.004/M24仅metric未门，经原完整lift升M32后，860点/RMS9.941928786103374e−7、metric7.60467686690455e−7、BC2.8434549427822667e−12全门通过；raw `ca2785ae119ef755e02f6e8081ee9f793ca35f7e184eff398276d95a9df238f2`，run `9f9dc6f30e0c3af639615f81b5d9c1009b2292ab42927bf5f024fefbec3d679b`，原mean1552。已续.008。此为丢失输入的必要再生，旧.004结论不重新计数；具体小记录见 [本次返回](2026-11-26-original-design-m32-recovered.json)。
