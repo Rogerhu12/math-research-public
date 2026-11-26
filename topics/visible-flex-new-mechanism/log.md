@@ -583,3 +583,8 @@ open原28316B全文按链接层级移入open-before-fixed-E-and-K-only归档，�
 ## 2026-11-27｜R618同固定E稳定坐标与诚实消费入口
 
 根全文审15487B wrapper、7371B薄consumer及5367B说明，finite独立审并回查原height/chain/direct。纸核λ有理化全W>0恒等、λ/ζ导数均c0/W、全坐标盒u²凹二次/正ω和C/W界；同参考盒内根搜索不跨分支，浮点观察与全角证明分明。政策/source先进入原model身份，原实例不改类/方法；全部六jets/Jac/2J/尾全系数/双position复用准确原公式且新均值回调生效。实际397硬τ1/a1继续，旧改E闭合R615不能移为本fixedE证书；无本地科学。
+
+
+## 2026-11-27｜R625精确末长度上的新可行方向范围
+
+根全文审35351B新driver/10229B说明/6772B workflow，回查原solve/完整预测/stdlib preloader；静态47来源hash、18CLI、50条sparse全部合。原L不吸附、全末十消元及1216原行保持；仅真实长度裁剪阻塞原可用方向才求ΔL0矩形问题，每新态仍释放。完整paid混合LD锚/旧coarse-fine直接沿用；已付无用LU只作明确新算法选择，原未存Jac必要重建。trust.25新起点与旧耗尽账并存，metadata来源标记修正；自然结果待原push触发运行，无本地科学。
