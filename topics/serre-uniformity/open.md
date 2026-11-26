@@ -2,9 +2,9 @@
 
 **主要目标仍OPEN。** 完整证明绝对常数C，或给出p→∞完整无CM反例族；有限素数、条件结论、低权/局部Abel/部分子群均不够。
 
-截至R1000的逐字前态在[最新open归档](open-archive-2026-11-21-before-norm-seven-source.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重新计算已成输入。
+此前逐字状态在[最新open归档](open-archive-2026-11-26-before-formal-first-layer.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重新计算已成输入。
 
-[R1014](results/R1014-original-CM-divisor-reduction-and-Igusa-Frobenius-principalization.md)：p>37、p11mod12时原X₁的compact-type纤维上red((p−1)D₀)=0，任实际商β同样成立。三个DL尾用div x=2Q−2∞；Igusa中心必须取真实b、a=b^p，G(b)^p=F(a)、divG=m(2s₁−sζ−sζ²)，m=(p−1)/2。全图是树，全部分量类均保留；因此β可减唯一(p−1)挠提升进入形式群，log无需除p。真实首lift的内在变形/节点过渡与商投影仍开，不能只用G²局部项宣布两列独立。
+[R1018](results/R1018-original-CM-divisor-exact-first-formal-layer.md)：p>37、p11mod12，原P=(p−1)D₀在J₁良好模型准确为F^m\F^(m+1)，m=(p−1)/2、π₀^((p²−1)/2)=p。完整惯性权给下界；保R1014真实b和六标记的quotient-isogeny提升、zero-flux同一frame、全局平均与全部Cech后，原a0参考尾首类=−6κ[z^−(2h−1)]单位，别尾不能抵消。附同一e3 node的全部odd-power gap二项式单位。形式点深度1/(p+1)不能代log首层；实际degree-p项、R1011半秩商整投影和候选排除仍开。
 
 ## O0：全主目标覆盖（R1003恢复原范围）
 
@@ -32,25 +32,19 @@ R969公开三点113/131/227得到全mask rank10/11/19、A/E4组合及额外两q�
 
 [R1009](results/R1009-end-column-order-four-CM-jet-bound.md)：原端列P_p在全部p≥41、p5mod6时，粗CM消失阶≤4；8093由旧R706的g_N单位与R995首导式关闭，无重算。真实十步方程经q^p精度/次数界转成固定PF非齐次方程，五个实际局部源输出的Taylor矩阵准确三角化，最后主项3⁴·8093/(2²⁰·25·11)；因此某j≤4的G^jP_p标记非零。p≠8093时该四阶在局部源中可达到，不决定真实零阶mark；5∤p+1时端列保留，继续证明原筛选列的真实有限CM来源，不要求全V稳定。
 
-[R995](results/R995-original-mixed-source-for-the-first-coarse-CM-normal-jet.md)：原E−/Y−864、K=G⊗H+6F⊗Y_s、∇=∂−6ζ下，Π4DJ=Π4D²J=0使完整D³(∇²J)的两个中间Leibniz块真消；实际三支为G‴/216⊗𝒜+12uF′⊗(3𝑀−12G)+F⊗(12𝑀−144G+6ℛ)。复用旧MH3–4热式，全部P1/P2/P3与216P1P2保留，𝒜=∇²H‴，ζ修正不消G‴支。Ψ_ij首项=(a+1)(a+2)(a+3)g_(i+1)𝒜_j/216；原G(Z)mark=(25Z+Ψ)/144，E−正号/原mask/尺度不换。两个实际Taylor阶≤p−4,p−5、ζ权≤p−2，均整。root/literature逐式独审；新项尚无原retained关系，不冒G稳定或同h。
+[R995](results/R995-original-mixed-source-for-the-first-coarse-CM-normal-jet.md)、R997、R1000 的实际mixed heat、108→36 ε-vector、全部bulk与首次边界已成，完整公式和执行来源保存在本次逐字open归档。原mask杀自身边界的所有连接迭代；k≤7不达critical、k8仅两端单位，不代原同h非零。真实G(Z)mark=(25Z+Ψ)/144仍含新partner，不能冒G稳定。
 
-[R996](results/R996-original-end-column-cusp-unit-and-filtered-space-nonzero.md)：原末列Z_(p−7,1)=12T_(p−7,3)的完整norm-one Gaussian给尖点常数233/(p−7)!；p233为8mod9，原允许类排除，故此列全p全局非零。原h=p−4的primitive iff5∤p+1、Legendre=P4(1/s)=19/9单位，故 **5∤p+1整族的原filtered V≠0已证**。5|p+1时此列被删；CM mark仍开；全p稳定性已由R1006否定。一般cusp完整式a!CT Z_ab=[v^b](∂−6ζ0)²Π3(e^v(1−v/2)^(-b−6))保全Gaussian/ζ，首p整界和单Bernoulli简式已核，不假其为原Legendre。
+[R996](results/R996-original-end-column-cusp-unit-and-filtered-space-nonzero.md)、[R999](results/R999-certified-second-end-column-and-filtered-space-nonzero.md)：原末/次末列的全部cusp/Legendre坏因子已通过完整exact公开回执排除，分别给5∤p+1、11∤p+1时原filtered V≠0；合为55∤p+1。原同h CM mark仍开。第二端列run44764524952/job136385485790成功0.0138129s，完整payload/hash/source见R999与归档，已成不重跑。
 
-[R997](results/R997-original-epsilon-vector-and-unitary-boundary-source.md)：实际原ε-vector=(6d0)^−1Σ_(r mod6)ε(r)Ψ_(Hr)确在旧UH36空间，靠CM整源/108基独立性/常数theta矩阵证明，非仅coset支持。**λ^−1J(λu,λv)=Θε(v,u)**保交换轴/Gaussian/相位；原Π4变t轴、L²变z轴，lift Lz³Lt²与w_d→w_(−d)保同h。完整首p矩形整；其source须保bulk [𝒟,Lz]=−wp∂t−6Dζ+(3X0/2)t及Π shift。原边界首导数(B/6)γ_(p−1)(z)G″(t)被Π4杀；指定critical Π4Lz²𝒟^kR在k≤7全零，k8仅两端且g2/h2准确单位（89被mod9排），不是R995 D³Z/原critical单位。旧UH/MH曲率不重登；root/audit全文独审。
+[R1001](results/R1001-norm-seven-dual-Poincare-source-and-original-filtered-tensor.md)：原α=2+s、Nα=7的真实dual-Poincaré产品保全部cross/semicharacter与轴pole≤2；Π4×Π0减完整polar后给−6Aα F⊗G，Aα=4(5+6s)/7为原p单位。首p唯一边界−6Bz^(p−1)Wbar确消；原完整高卷积和mask仍须保留，单核balanced单位不代乘积单位。
 
-[R999](results/R999-certified-second-end-column-and-filtered-space-nonzero.md)：run44764524952/job136385485790/source84a8cad4b全成功，0.0138129s/预算真/exit0。完整R968及独立ODE给(p−13)!CT Z_(p−13,7)=319435001/40320，分子11863×26927分别被mod6/mod9排除；原P10=−7·1279/3^5单位，全部因子经完整试除认证，四坏列表真空。故11∤p+1⇒V≠0，合R996得 **55∤p+1⇒原filtered V≠0**；不推CM mark/G稳定。root纯IO全回执核，payload10156B SHA6d208b8d83cc8e2efc612e43f4d8f21084a45916384106636dcb1a77a557b7aa；全部pins/试除范围/stream hash见结果，request已完。
-
-[R1000](results/R1000-original-projected-scalar-heat-source-and-masked-boundary.md)：原T=Π4 Lz²Θε的完整bulk C=(UL+LU)Θ4+L²{∂z∂t(Θ5−Θ4)/6+(3X/2)zt(Θ3−Θ4)}保双shift。p[z^p]T=48AJ3，故真实有限源𝒟T_<p=C_<p+8Az^(p−1)∂tJ3；仅完整C矩形可约化。自身边界d1、真lift净+1→2而原mask只d4，故 **所有连接迭代均被原mask杀**。令Sε=WopΛC_<p，真实[𝒟^(p−1)Sε]_p+1=−72·6^6B7Σw_i fi gj z^(p−h+1)t^h。完整bulk指定观测非零仍开，低项48非目标。root/audit全文独审；旧曲率只消费，无数学执行。
-
-[R1001](results/R1001-norm-seven-dual-Poincare-source-and-original-filtered-tensor.md)：α=2+s,Nα7，Wα=(x³−cα)σ6、cα=−(2+6s)/7。真dual产品Pα=αWα(z)Wbar(t)K(αz,t)K(z,−barαt)=−σ(αz+t)σ(z−barαt)/(barα σz²σt²)，两cross取消、M†M8I给L6×L6轴pole≤2。完整Π4zΠ0tP=V⊗Wbar+F⊗(Aαx³+Cα)S，V=x4S；减全部polar后x^−1∇t给 **−6Aα F⊗G**，Aα=4(5+6s)/7、Norm16·19/7单位。原critical完整卷积/全部原mask已给，单K总阶≤p−6整；全首p投影唯一p边界−6Bz^(p−1)Wbar，减V支真消。裸balanced trace虽unit比例，乘积必须保所有卷积，高carry/near-p非零仍开；root/literature全文独审，无执行。
-
-[R1002](results/R1002-ten-step-theta-companion-and-four-free-CM-jets.md)：真实W_(p−9)/η4=f权p−11，full Katz输入仍p−9，十步 L=T0…T−9=A^−1(A²D)^10A^−9，右6^−10A11XY。仅有限u至X11、∂u=1+O(X15)，不假完整charp primitive。J=<1,X³,X6,X9,X12>上rank1，kernel为A9u^e(e0/3/6/9)，特解c*X12单位；实际f的ord∈{0,3,6,9,12}且受global weight界。原末列(p−7)!Z=432D³f+75XDf−9Yf，mark/Y0^N=79R0−96R1；局部方程允许该值零或非零，不能代实际global归一。root/audit/literature全文独审，无执行。
+[R1002](results/R1002-ten-step-theta-companion-and-four-free-CM-jets.md)：原十步Katz方程在五维CM jet上rank1，四个自由低jet及forced X12单位；原末列mark=79R0−96R1，局部方程容其为零。有限primitive、full权与6尺度均保；不能以局部自由模型冒actual global反例或用此方程代真实全局归一。
 
 ## O2：完整原超奇异迹、真正CM packet及近顶unit系数
 
 [R1016](results/R1016-original-small-index-theta-and-complete-convolution-units.md)：原index1/2下降给σ、σ²的i+j=N完整卷积在全部T⁻单位；norm3准确返回U。U_(N−1)零集：11mod12为空，5mod12恰η⁶=−1六点。补充§7.1以真实Gaussian norm-p同源和J66给r8所需正确层U_(N−2)在这六点单位；η=±i时U_(N−2)/U_N=−25a¹²/(9B¹²)。核像/frame/Wilson常数全核。仍非单个高系数或完整bare差的单位，原primitive/Legendre不删。
 
-[R1015](results/R1015-original-class-two-Poincare-projection-and-balanced-triangular-bridge.md)：同一norm7双Poincaré源的Π2×Π2完整投影=C22 U⊗U，U=x²σ⁶、C22=−18s/ᾱ。完整有限卷积给C22 u_ℓ²=D_n c_n^-+R_n，n=6ℓ+3，D_n=6(α^n−ᾱ^n)/ᾱ；余项保全部pole且每单核总阶≤2n−7。两原行D/C分别6/49、342/7⁸，逐项首p整性已核。原高非零准确要求u_N²−R_(p−2)/C或u_(N−1)²−R_(p−8)/C非零，仍开；不得删完整R。 §5.1现将完整余项准确降为原首sigma块的A_r+B T_r，c_(p−r)=−A_r−B T_r；regular与移位阶乘三重carry均保，r8层为N−2，未冒认C_(N−2)。
+[R1015](results/R1015-original-class-two-Poincare-projection-and-balanced-triangular-bridge.md)：原norm7的完整Π2×Π2源=C22 U⊗U，给C22 u_ℓ²=D_n c_n^-+R_n；D/C两行为6/49、342/7⁸，R全保且逐项整。§5.1进一步给c_(p−r)=−A_r−BT_r，仅用原首sigma/inverse-sigma块；A为完整regular部分，T为带三移位阶乘的carry，r8余层N−2。仍须证A_r+BT_r非零，不能用R1016两重卷积替代。
 
 [原除p坐标](notes/2026-11-26-original-high-coordinates-in-divided-Ramanujan-polynomial.md)：实际整多项式𝔅_p=(R^(p−1)E+E^p−E_(p−1)E_(p+1))/p给c_(p−r)±=r!12^(r−1)[E^r]𝔅_p(E,0,±864)。r2标量24、r8为8!12⁷，正E坐标不依纯modular升换；仍未证非零。新theta-cycle filtration不能代指定CM读数；BKO2025精确估值只对wild塔角色和Λ生成元，不能搬到原tame U₇。继续同一高坐标的实际来源。
 

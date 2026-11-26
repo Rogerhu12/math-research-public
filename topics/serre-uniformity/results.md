@@ -8,13 +8,15 @@
 
 ## 新增结论（2026-11-26）
 
+- **R1018（已证明）**：[R1018](results/R1018-original-CM-divisor-exact-first-formal-layer.md)：p>37、p11mod12，原P=(p−1)D₀在J₁良好模型准确为F^m\F^(m+1)，m=(p−1)/2、π₀^((p²−1)/2)=p。完整惯性权给下界；保R1014真实b和六标记的quotient-isogeny提升、zero-flux同一frame、全局平均与全部Cech后，原a0参考尾首类=−6κ[z^−(2h−1)]单位，别尾不能抵消。附同一e3 node的全部odd-power gap二项式单位。形式点深度1/(p+1)不能代log首层；实际degree-p项、R1011半秩商整投影和候选排除仍开。
+
 - **R1017（已证明）**：[R1017](results/R1017-original-tame-two-three-phases-and-every-direction-critical-unit.md)：全部p≥41、p5mod6，原未经筛选H_p在全部T⁻处处单位。R1013实际下降源经真半周期乘法/Frobenius符号落入V_+²，原μ6角色只留a U⊗Y+b Y⊗U；canonical三挠lift把原四点精确送到两轴，保全部相位得a,b非零且a/b∈μ6。唯一可能非零根Norm1，不在T⁻。原scalar保留，primitive/Legendre同h仍开，未接bare O2。R1013较弱统一零点界由此加强。
 
 - **R1016（已证明）**：[R1016](results/R1016-original-small-index-theta-and-complete-convolution-units.md)：原index1/2下降给σ、σ²的i+j=N完整卷积在全部T⁻单位；norm3准确返回U。U_(N−1)零集：11mod12为空，5mod12恰η⁶=−1六点。补充§7.1以真实Gaussian norm-p同源和J66给r8所需正确层U_(N−2)在这六点单位；η=±i时U_(N−2)/U_N=−25a¹²/(9B¹²)。核像/frame/Wilson常数全核。仍非单个高系数或完整bare差的单位，原primitive/Legendre不删。
 
-- **R1015（已证明）**：[R1015](results/R1015-original-class-two-Poincare-projection-and-balanced-triangular-bridge.md)：同一norm7双Poincaré源的Π2×Π2完整投影=C22 U⊗U，U=x²σ⁶、C22=−18s/ᾱ。完整有限卷积给C22 u_ℓ²=D_n c_n^-+R_n，n=6ℓ+3，D_n=6(α^n−ᾱ^n)/ᾱ；余项保全部pole且每单核总阶≤2n−7。两原行D/C分别6/49、342/7⁸，逐项首p整性已核。原高非零准确要求u_N²−R_(p−2)/C或u_(N−1)²−R_(p−8)/C非零，仍开；不得删完整R。 §5.1现将完整余项准确降为原首sigma块的A_r+B T_r，c_(p−r)=−A_r−B T_r；regular与移位阶乘三重carry均保，r8层为N−2，未冒认C_(N−2)。
+- **R1015（已证明）**：[R1015](results/R1015-original-class-two-Poincare-projection-and-balanced-triangular-bridge.md)：原norm7的完整Π2×Π2源=C22 U⊗U，给C22 u_ℓ²=D_n c_n^-+R_n；D/C两行为6/49、342/7⁸，R全保且逐项整。§5.1进一步给c_(p−r)=−A_r−BT_r，仅用原首sigma/inverse-sigma块；A为完整regular部分，T为带三移位阶乘的carry，r8余层N−2。仍须证A_r+BT_r非零，不能用R1016两重卷积替代。
 
-- **R1014（已证明）**：[R1014](results/R1014-original-CM-divisor-reduction-and-Igusa-Frobenius-principalization.md)：p>37、p11mod12时原X₁的compact-type纤维上red((p−1)D₀)=0，任实际商β同样成立。三个DL尾用div x=2Q−2∞；Igusa中心必须取真实b、a=b^p，G(b)^p=F(a)、divG=m(2s₁−sζ−sζ²)，m=(p−1)/2。全图是树，全部分量类均保留；因此β可减唯一(p−1)挠提升进入形式群，log无需除p。真实首lift的内在变形/节点过渡与商投影仍开，不能只用G²局部项宣布两列独立。
+- **R1014（已证明）**：[R1014](results/R1014-original-CM-divisor-reduction-and-Igusa-Frobenius-principalization.md)：p>37、p11mod12时原X₁的compact-type纤维上red((p−1)D₀)=0，任实际商β同样成立。三个DL尾用div x=2Q−2∞；Igusa中心必须取真实b、a=b^p，G(b)^p=F(a)、divG=m(2s₁−sζ−sζ²)，m=(p−1)/2。全图是树，全部分量类均保留；因此β可减唯一(p−1)挠提升进入形式群，log无需除p。真实首lift的内在变形/节点过渡与商投影仍开，不能只用G²局部项宣布两列独立。 后继R1018已计算完整形式点最早层，log和整商投影继续开放。
 
 - **R1013（已证明）**：[R1013](results/R1013-original-theta-descent-and-uniform-critical-zero-bound.md)：原未经筛选H_p在Norm−1圆上的零点数≤3M<10¹²，M=6⁴·720·51840；故p>10¹²时H_p非零。实际Kγ有限平坦下降、Ωγ、全局μ6四维角色空间给非零首五次P_A；核方向γ与微分像κ_out经真jet比较，再以全部tame lift有限类型/每方向十二计数。保全部二挠相位，不用étale p核算法。primitive/Legendre的同h非零仍开，值零点界不能替代实际谱支撑，也未接bare O2。 后继R1017已将值零点集加强为空，覆盖全部p≥41。
 

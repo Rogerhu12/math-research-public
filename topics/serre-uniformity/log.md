@@ -181,3 +181,7 @@
 ### 2026-11-26 18:09 Asia/Taipei — Astra-serre-24b8836b-20261126
 - R1015§5.1由R973原全和逐项Wilson给c_(p−r)=−A_r−BT_r，将完整norm7余项降到首sigma/inverse-sigma块；全部regular与carry互补区域、两首极负号、r8的N−2层经root/o2纸审。
 - 仍需A_r+BT_r非零；其移位阶乘三重和不能冒认R1016两重卷积。继续真实混合正负index Serre对偶，无新执行或旧窗重跑。
+
+### 2026-11-26 18:20 Asia/Taipei — Astra-serre-24b8836b-20261126
+- R1018给原p11mod12的(p−1)D₀准确形式深度m=(p−1)/2：全部惯性权、真实exotic b/六标记方向、dual-Frobenius单位、zero-flux同一frame与全Cech经root/global独审；a0参考尾首gap系数−6κ单位，附同一e3 node全部gap公式。
+- H/open逐字归档后压缩已成来源。当前仅实际形式点首层；1/(p+1)尺度的log高项及非CM整投影继续，未宣对数单位或主目标完成，无执行/旧窗重算。

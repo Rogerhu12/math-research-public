@@ -6,11 +6,11 @@
 
 会话 **Astra-serre-24b8836b-20261126**。本轮已部分克隆并真实pull main，读两README/H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则读至36cf1ed2。不重做已登记结论或窗口。
 
-**公开两README已读提交：0b6458992907e2349c6798cc01779736c90b95d7**（2026-11-26 18:09 Asia/Taipei；本次同步两README无差异）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
+**公开两README已读提交：459778803656f78f52c9abd681397ca8ae0cd9e7**（2026-11-26 18:20 Asia/Taipei；本次同步两README无差异）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
 
 执行宿主本轮断连；08:36 UTC单次恢复探测仍无环境。按根规矩8用GitHub小文本原子tree/commit、最新head检查和非force expected-head更新；并发拒绝立即在新head重建循环至成功，保其它会话。终端恢复补pull --rebase。令牌仅此前CLI使用，未存文件/提交。根维护main/H/open/index/log；子研究交数学稿。每条结论完整审后立即推，无数学程序执行或旧窗重跑。
 
-H<10KB、open尽量<30KB、每MD<100KB、topic<200MB；无可重算raw、不写根LOG。[本次逐字前态](handoff-archive-2026-11-26-before-stable-principalization.md)沿链保全部旧来源/run/hash；[open](open.md)、[索引](results.md)是完整入口。历史“R1003 norm3准备中”未交付，现R1003为范围纠错。
+H<10KB、open尽量<30KB、每MD<100KB、topic<200MB；无可重算raw、不写根LOG。[本次逐字前态](handoff-archive-2026-11-26-before-formal-first-layer.md)沿链保全部旧来源/run/hash；[open](open.md)、[索引](results.md)是完整入口。历史“R1003 norm3准备中”未交付，现R1003为范围纠错。
 
 ## 最新全局实际来源
 
@@ -18,7 +18,7 @@ H<10KB、open尽量<30KB、每MD<100KB、topic<200MB；无可重算raw、不写�
 
 [R1011](results/R1011-original-nonCM-half-rank-quotient-and-rational-CM-jet-transversality.md)：实际Q简单商q_C，q_CN=0、β=q_CD₀非挠，End_Q⁰C=全实F₀，dimC=2f、rankC(Q)=f、C(Q)⊗Q=F₀β。同原三次CM点/Nekovář与全部同源重数计秩已核；各ℓ真实MW对数空间维f且与有理Lie交零。原c₁首个Abel jet有实际消去泛函。首项p单位、统一半径与候选排除均未得，不搬旧CM一维通道。
 
-[R1014](results/R1014-original-CM-divisor-reduction-and-Igusa-Frobenius-principalization.md)：p>37、p11mod12时原X₁的compact-type纤维上red((p−1)D₀)=0，任实际商β同样成立。三个DL尾用div x=2Q−2∞；Igusa中心必须取真实b、a=b^p，G(b)^p=F(a)、divG=m(2s₁−sζ−sζ²)，m=(p−1)/2。全图是树，全部分量类均保留；因此β可减唯一(p−1)挠提升进入形式群，log无需除p。真实首lift的内在变形/节点过渡与商投影仍开，不能只用G²局部项宣布两列独立。
+[R1018](results/R1018-original-CM-divisor-exact-first-formal-layer.md)：p>37、p11mod12，原P=(p−1)D₀在J₁良好模型准确为F^m\F^(m+1)，m=(p−1)/2、π₀^((p²−1)/2)=p。完整惯性权给下界；保R1014真实b和六标记的quotient-isogeny提升、zero-flux同一frame、全局平均与全部Cech后，原a0参考尾首类=−6κ[z^−(2h−1)]单位，别尾不能抵消。附同一e3 node的全部odd-power gap二项式单位。形式点深度1/(p+1)不能代log首层；实际degree-p项、R1011半秩商整投影和候选排除仍开。
 
 ## O0：不能省略的全局覆盖
 
@@ -47,7 +47,7 @@ R995/997/1000完整mixed heat/bulk与边界已成，mask杀自身边界迭代；
 
 [R1016](results/R1016-original-small-index-theta-and-complete-convolution-units.md)：原index1/2下降给σ、σ²的i+j=N完整卷积在全部T⁻单位；norm3准确返回U。U_(N−1)零集：11mod12为空，5mod12恰η⁶=−1六点。补充§7.1以真实Gaussian norm-p同源和J66给r8所需正确层U_(N−2)在这六点单位；η=±i时U_(N−2)/U_N=−25a¹²/(9B¹²)。核像/frame/Wilson常数全核。仍非单个高系数或完整bare差的单位，原primitive/Legendre不删。
 
-[R1015](results/R1015-original-class-two-Poincare-projection-and-balanced-triangular-bridge.md)：同一norm7双Poincaré源的Π2×Π2完整投影=C22 U⊗U，U=x²σ⁶、C22=−18s/ᾱ。完整有限卷积给C22 u_ℓ²=D_n c_n^-+R_n，n=6ℓ+3，D_n=6(α^n−ᾱ^n)/ᾱ；余项保全部pole且每单核总阶≤2n−7。两原行D/C分别6/49、342/7⁸，逐项首p整性已核。原高非零准确要求u_N²−R_(p−2)/C或u_(N−1)²−R_(p−8)/C非零，仍开；不得删完整R。 §5.1现将完整余项准确降为原首sigma块的A_r+B T_r，c_(p−r)=−A_r−B T_r；regular与移位阶乘三重carry均保，r8层为N−2，未冒认C_(N−2)。
+[R1015](results/R1015-original-class-two-Poincare-projection-and-balanced-triangular-bridge.md)：原norm7的完整Π2×Π2源=C22 U⊗U，给C22 u_ℓ²=D_n c_n^-+R_n；D/C两行为6/49、342/7⁸，R全保且逐项整。§5.1进一步给c_(p−r)=−A_r−BT_r，仅用原首sigma/inverse-sigma块；A为完整regular部分，T为带三移位阶乘的carry，r8余层N−2。仍须证A_r+BT_r非零，不能用R1016两重卷积替代。
 
 R955/970实际单Cartier链：原S≠0 iff链长1 iff高同余理想单位。
 R961低晶体单位只测coker顶F₀；R972低Selmer/classgroup/global-unit不强迫高坐标。
@@ -75,4 +75,4 @@ R696早已证明同一全局Φ候选Ω_actual={0}，R832已消费；不重做、
 
 R1004实际交叉迹偶赋值、3|v及任意pⁿ层只给q下界，不给a/c上界，停止优化该常数。固定41全129盘/8CM已由R707关闭，不重开不外推。R575正CM角色根号−与逆twist秩零撤回继续有效。
 
-当前并行：R1017真实scalar与primitive/Legendre谱；原bare高坐标的完整Fay卷积；R1014真实主化后的全部首lift/非CM商整投影。子问题完成即接open其余项，真正达到README完成标准才收尾。
+当前并行：R1017真实scalar与primitive/Legendre谱；原bare高坐标的完整Fay卷积；R1018完整形式首层后的实际log与非CM整投影。子问题完成即接open其余项，真正达到README完成标准才收尾。
