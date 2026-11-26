@@ -4,7 +4,7 @@
 
 ## 规则和真实同步
 
-- 根/课题README完整读于 `f0548477576caa2373d1626227a284ccfa9767d0`。最近已读公开提交 `51274b480c3abe056904af28460b84a83a65694a`（2026-11-26 16:13:21 UTC真实pull/rebase后，双README逐差无变化）。根blob282e86b0、题blob e2318baa。每次literal pull立即核双README差异，至少每小时；有变只读差异立即执行，API读不冒pull。
+- 根/课题README完整读于 `f0548477576caa2373d1626227a284ccfa9767d0`。最近已读公开提交 `6f36a149267b4ee5709f57de18b8bd2a7e46b796`（2026-11-26 16:14:12 UTC真实pull/rebase后，双README逐差无变化）。根blob282e86b0、题blob e2318baa。每次literal pull立即核双README差异，至少每小时；有变只读差异立即执行，API读不冒pull。
 - 私库QUEUE已认领推c7785184d0d9c503852fb2137e9e2c091221d080，进行中（本会话/2026-11-26），不重复认领。
 - 每结论立即CLI commit/push；NFF立即literal pull --rebase、核双README差异、再推直到成功，不force或改已发表提交。完整证明写results并索引，不附加独审/冻结门。根15禁止完整可重算输出存Git/Release，只脚本/参数/run/SHA/实际结论。MD<100KB、H<10KB、题<200MB，不写根LOG，令牌只命令环境。
 - root唯一写main，三agent只同级scratch。部分clone `/tmp/visible-flex-6a65e705/math-research-public`；同级exact-work/geometry-work/solver-work。旧历史见[11:15 H](https://github.com/Rogerhu12/math-research-public/blob/a9aaaf7d2fbdc01eb0df3e635d9065c20faac354/topics/visible-flexible-closed-surface/HANDOFF.md)、log/open/results；不重做已登记结论。
@@ -40,7 +40,7 @@
 
 - [v5实际20](notes/2026-11-26-6a65-solver-v5-actual-twenty-step-batch.md)：run45837984058，训练R²9.39167但密κ1.1746e7/Gram3.0e−6，全LSMR80/stop7；15:34:01严格release成功，两径向网格非嵌套。
 - [q1实际30](notes/2026-11-26-6a65-gap105-q1-actual-thirty-step-batch.md)：run45838996926，末R14²2.61923/metric.990636/κ584.069/σ.0910967，后六面积步σ下降；15:45:48严格release成功，前20重生不冒新数学。
-- [q2发布失败](notes/2026-11-26-6a65-solver-q2-cold-active-summary-conflict.md)：run45848177096，15:46:17 failure。cache已实际1149.335s完成、LM0；root ab2cd23e编辑活动MD与prepare摘要冲突，旧publisher又在未结束rebase回写失败。不是数学失败，不借结束raw，不盲重跑旧冷链。solver另修严格唯一未发表摘要恢复；以后运行中CI摘要不手改，勘误另文。该run master不匹配R233，证书不能借。
+- [q2发布失败](notes/2026-11-26-6a65-solver-q2-cold-active-summary-conflict.md)：run45848177096，15:46:17 failure。cache已实际1149.335s完成、LM0；root ab2cd23e编辑活动MD与prepare摘要冲突，旧publisher又在未结束rebase回写失败。不是数学失败，不借结束raw，不盲重跑旧冷链。[新publisher真并发回放](notes/2026-11-26-6a65-solver-owned-markdown-concurrent-publication.md)0/.864s，真实NFF/内容冲突后只撤唯一未发表本run摘要、重建当前ledger并普通推，块外正文/独立勘误/H外文保留；外部未发表提交拒绝且不改。活动摘要不手改，勘误另文。该run master不匹配R233，证书不能借。
 
 ## 保留的准确条件与执行分工
 
@@ -50,6 +50,6 @@ R242连续q>1面积下界须已付Lipschitz/密度/扇形与连续成本，有�
 
 root维护main/全前缀接口；geometry持续polar实际求解及几何；solver处理原方程/fullH和publisher实际冲突；exact推进两个M48/源对齐h509。不在阶段结果收尾，完成子问题立即继续open。
 
-<!-- 6a65-root-literal-rules --> 2026-11-26 16:13:21 UTC 真实pull/rebase读取main 51274b480c3abe056904af28460b84a83a65694a，双README逐差无变化；CLI已恢复，后续普通Git发布。
+<!-- 6a65-root-literal-rules --> 2026-11-26 16:14:12 UTC 真实pull/rebase读取main 6f36a149267b4ee5709f57de18b8bd2a7e46b796，双README逐差无变化；CLI已恢复，后续普通Git发布。
 <!-- 6a65-m12-angular-warm-ci-rules --> README unchanged at c021d04494bd07b4ff7a1fd4b66888e803e122c6; run 45847254548 attempt 1.
 <!-- 6a65-m12-full-normal-ci-rules --> README unchanged at 724c40189bf85488b74487693313877499a75cd3; run 45851669566 attempt 1.
