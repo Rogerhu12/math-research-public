@@ -1,0 +1,122 @@
+{
+  "schema": "isp-L0-Phi-original-actual-unresolved-v1",
+  "run_id": 45817252829,
+  "job_id": 139900064229,
+  "source_input": "original L0 Phi three-parameter quadratic-rho quotient",
+  "actual_stages": [
+    {
+      "anchor": "Phi_P1_E1",
+      "claimExcluded": false,
+      "elapsedSeconds": 28.94222,
+      "gcdDegree": 908,
+      "gcdPolynomial": null,
+      "gcdSha256": "4971abb2464351cac09c14318aa416812410f83007b282148fe7e102744910e2",
+      "originalLeadingZeroFibersRetained": true,
+      "other": "Phi_P1_N1",
+      "resultantDegree": 908,
+      "resultantSha256": "f9c422bced92a0492f430ade3292f1d63b062d256b7caa51befe53c82d2e39c7",
+      "stage": "exact_QQ_w_resultant_and_lambda_gcd"
+    },
+    {
+      "anchor": "Phi_P1_E1",
+      "claimExcluded": false,
+      "elapsedSeconds": 185.994913,
+      "gcdDegree": 648,
+      "gcdPolynomial": null,
+      "gcdSha256": "24af383ef54e6c71e2e35c7b9052468db74390c4d2276a6a495fae071541b0fe",
+      "originalLeadingZeroFibersRetained": true,
+      "other": "Phi_P1_EB",
+      "resultantDegree": 1288,
+      "resultantSha256": "7ea5c83c99b635141778b67daa8e4633b8dcf43adda8c00054ac7daf6c144b7a",
+      "stage": "exact_QQ_w_resultant_and_lambda_gcd"
+    },
+    {
+      "anchor": "Phi_P1_E1",
+      "claimExcluded": false,
+      "elapsedSeconds": 256.153531,
+      "gcdDegree": 648,
+      "gcdPolynomial": null,
+      "gcdSha256": "24af383ef54e6c71e2e35c7b9052468db74390c4d2276a6a495fae071541b0fe",
+      "originalLeadingZeroFibersRetained": true,
+      "other": "Phi_P1_EC",
+      "resultantDegree": 1288,
+      "resultantSha256": "7ea5c83c99b635141778b67daa8e4633b8dcf43adda8c00054ac7daf6c144b7a",
+      "stage": "exact_QQ_w_resultant_and_lambda_gcd"
+    },
+    {
+      "anchor": "Phi_P1_E1",
+      "claimExcluded": false,
+      "elapsedSeconds": 607.502652,
+      "gcdDegree": 624,
+      "gcdPolynomial": null,
+      "gcdSha256": "d68cadaeb536c4ba42869b9a755fb06b0ca3fe6f1b8dd6dd6df4924cb76a3362",
+      "originalLeadingZeroFibersRetained": true,
+      "other": "E1_EB__E1_EC",
+      "resultantDegree": 1908,
+      "resultantSha256": "593f36e6e4b75f8f7c18c7bc9beca223a1c5885f52263394cd07ed3c9fca0f11",
+      "stage": "exact_QQ_w_resultant_and_lambda_gcd"
+    },
+    {
+      "anchor": "Phi_P1_E1",
+      "claimExcluded": false,
+      "elapsedSeconds": 924.475885,
+      "gcdDegree": 624,
+      "gcdPolynomial": null,
+      "gcdSha256": "d68cadaeb536c4ba42869b9a755fb06b0ca3fe6f1b8dd6dd6df4924cb76a3362",
+      "originalLeadingZeroFibersRetained": true,
+      "other": "E1_EB__EB_EC",
+      "resultantDegree": 1912,
+      "resultantSha256": "43b65faa2687e080ccec2c1ec831c0692d3e520fb6443163fec022ba9ce57aeb",
+      "stage": "exact_QQ_w_resultant_and_lambda_gcd"
+    },
+    {
+      "anchor": "Phi_P1_E1",
+      "claimExcluded": false,
+      "elapsedSeconds": 1373.681482,
+      "gcdDegree": 624,
+      "gcdPolynomial": null,
+      "gcdSha256": "d68cadaeb536c4ba42869b9a755fb06b0ca3fe6f1b8dd6dd6df4924cb76a3362",
+      "originalLeadingZeroFibersRetained": true,
+      "other": "E1_EB__EC_N1",
+      "resultantDegree": 2048,
+      "resultantSha256": "51d42051336476d43de86a56cb5bfed6329ddf3cf54ac41de249a40566e57fec",
+      "stage": "exact_QQ_w_resultant_and_lambda_gcd"
+    },
+    {
+      "claimExcluded": false,
+      "elapsedSeconds": 1846.988404,
+      "stage": "source_timeout"
+    }
+  ],
+  "execution_receipt": {
+    "elapsed_seconds": 1847.05299773,
+    "max_child_rss_kib": 429080,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "d8a6f55ff43c27a299e0bc8010f78f87bca30903",
+        "before": "8936438d41dfc7517e551461966089934381904d",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "fef43bdf8690f2eec4751d85784a266eacdd0322"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-26T12:11:10.245800+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "45817252829",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-347c-20261126",
+    "source_commit": "8936438d41dfc7517e551461966089934381904d",
+    "source_exit_code": 124,
+    "source_git_blob": "1eb106315014b1966e41b0382e1fdf4a6b2e6101",
+    "source_sha256": "594959db20a611770889667108df21f39e87abeb34cc92763c4970f03c6ff917",
+    "stdout_bytes": 16537,
+    "stdout_sha256": "9769ec03a69e81ddc66030250e822cca71a532c9ad80586c94ef8397db166648",
+    "stop_reason": null
+  },
+  "claim_excluded": false,
+  "ordinary_isp_claim": false,
+  "next_input": "Original global b+c=0 two-parameter source; retain whole kappa algebra and all original leading-zero fibers."
+}

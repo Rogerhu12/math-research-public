@@ -1,0 +1,293 @@
+{
+  "schema": "r150-unit211-S0-direct-eliminate-formatting-failure-v1",
+  "runId": 45818497162,
+  "jobId": 139904311380,
+  "sourceBytes": 14092,
+  "sourceBlob": "78700f5115b665085fe373afafda9d56feb8e59b",
+  "sourceSha256": "1030d224df876c21e91dbceebda74b397d108871605d205ba26fb496965f7c1b",
+  "driverReceipt": {
+    "elapsed_seconds": 164.394717469,
+    "max_child_rss_kib": 219076,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "abb271537c66e5cd38a75ee7305befd52adb4a2e",
+        "before": "3707eea2a0c64cdbd32b9966de2ed97fddcd11e8",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "fef43bdf8690f2eec4751d85784a266eacdd0322"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-26T12:19:15.325408+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "45818497162",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-347c-20261126",
+    "source_commit": "3707eea2a0c64cdbd32b9966de2ed97fddcd11e8",
+    "source_exit_code": 1,
+    "source_git_blob": "78700f5115b665085fe373afafda9d56feb8e59b",
+    "source_sha256": "1030d224df876c21e91dbceebda74b397d108871605d205ba26fb496965f7c1b",
+    "stdout_bytes": 7668,
+    "stdout_sha256": "0e946843b56fb9619e81c53e9aa80fbb94d8b69853bdb7919debeeb9ac213ced",
+    "stop_reason": null
+  },
+  "mathematicalStagesCompleted": [
+    {
+      "claimExcluded": false,
+      "elapsedSeconds": 33.038338,
+      "projection": {
+        "ChowPolynomial": {
+          "degrees": [
+            210,
+            84
+          ],
+          "terms": 14106
+        },
+        "ChowSha256": "61fc40f181e395a6181d5bd060a9280a6b0aef955eff334763667faecc8e3405",
+        "commonParameterCurve": {
+          "degrees": [
+            0,
+            0
+          ],
+          "terms": 1
+        },
+        "lambdaGcd": {
+          "degrees": [
+            1568,
+            0
+          ],
+          "terms": 1569
+        },
+        "lambdaResultant": {
+          "degrees": [
+            1568,
+            0
+          ],
+          "terms": 1569
+        },
+        "pair": [
+          "E1",
+          "EBe"
+        ]
+      },
+      "stage": "exact_QQ_parameter_projection"
+    },
+    {
+      "claimExcluded": false,
+      "elapsedSeconds": 56.076057,
+      "projection": {
+        "ChowPolynomial": {
+          "degrees": [
+            208,
+            84
+          ],
+          "terms": 13936
+        },
+        "ChowSha256": "f2f6f2b4c0212b94fd5d702d63cfaff58f7306700c62026bb06ae26c22fa7f7b",
+        "commonParameterCurve": {
+          "degrees": [
+            0,
+            0
+          ],
+          "terms": 1
+        },
+        "lambdaGcd": {
+          "degrees": [
+            1347,
+            0
+          ],
+          "terms": 1348
+        },
+        "lambdaResultant": {
+          "degrees": [
+            1556,
+            0
+          ],
+          "terms": 1557
+        },
+        "pair": [
+          "E1",
+          "EBo"
+        ]
+      },
+      "stage": "exact_QQ_parameter_projection"
+    },
+    {
+      "claimExcluded": false,
+      "elapsedSeconds": 77.318581,
+      "projection": {
+        "ChowPolynomial": {
+          "degrees": [
+            202,
+            82
+          ],
+          "terms": 13187
+        },
+        "ChowSha256": "3a9a4b43224163a7133fc21ec8de17887f2a04a3f59a77e832ab21438c35a04c",
+        "commonParameterCurve": {
+          "degrees": [
+            0,
+            0
+          ],
+          "terms": 1
+        },
+        "lambdaGcd": {
+          "degrees": [
+            1327,
+            0
+          ],
+          "terms": 1328
+        },
+        "lambdaResultant": {
+          "degrees": [
+            1511,
+            0
+          ],
+          "terms": 1512
+        },
+        "pair": [
+          "EBe",
+          "EBo"
+        ]
+      },
+      "stage": "exact_QQ_parameter_projection"
+    },
+    {
+      "claimExcluded": false,
+      "elapsedSeconds": 103.481305,
+      "projection": {
+        "ChowPolynomial": {
+          "degrees": [
+            210,
+            88
+          ],
+          "terms": 14610
+        },
+        "ChowSha256": "6ab877ac7aade4fd5b7f37c61b80cbcfd6e98913a21d41fb3f8893d9963f3aed",
+        "commonParameterCurve": {
+          "degrees": [
+            0,
+            0
+          ],
+          "terms": 1
+        },
+        "lambdaGcd": {
+          "degrees": [
+            1320,
+            0
+          ],
+          "terms": 1321
+        },
+        "lambdaResultant": {
+          "degrees": [
+            1601,
+            0
+          ],
+          "terms": 1602
+        },
+        "pair": [
+          "E1",
+          "N1"
+        ]
+      },
+      "stage": "exact_QQ_parameter_projection"
+    },
+    {
+      "claimExcluded": false,
+      "elapsedSeconds": 134.740694,
+      "projection": {
+        "ChowPolynomial": {
+          "degrees": [
+            224,
+            92
+          ],
+          "terms": 16347
+        },
+        "ChowSha256": "bc4b4a9f1fb9ed4452dd1303fa165ff8b6246e688be87b1882bf43107ddaa4e8",
+        "commonParameterCurve": {
+          "degrees": [
+            0,
+            0
+          ],
+          "terms": 1
+        },
+        "lambdaGcd": {
+          "degrees": [
+            1320,
+            0
+          ],
+          "terms": 1321
+        },
+        "lambdaResultant": {
+          "degrees": [
+            1697,
+            0
+          ],
+          "terms": 1698
+        },
+        "pair": [
+          "EBe",
+          "N1"
+        ]
+      },
+      "stage": "exact_QQ_parameter_projection"
+    },
+    {
+      "claimExcluded": false,
+      "elapsedSeconds": 164.271429,
+      "projection": {
+        "ChowPolynomial": {
+          "degrees": [
+            222,
+            90
+          ],
+          "terms": 15945
+        },
+        "ChowSha256": "18f435ebe1460fc2dfcb4b818563395111706fbea92ce3f4985af7c55f4154bb",
+        "commonParameterCurve": {
+          "degrees": [
+            0,
+            0
+          ],
+          "terms": 1
+        },
+        "lambdaGcd": {
+          "degrees": [
+            1320,
+            0
+          ],
+          "terms": 1321
+        },
+        "lambdaResultant": {
+          "degrees": [
+            1668,
+            0
+          ],
+          "terms": 1669
+        },
+        "pair": [
+          "EBo",
+          "N1"
+        ]
+      },
+      "stage": "exact_QQ_parameter_projection"
+    }
+  ],
+  "originalNineInputSha256": "0e9b97510ea6611e122210a58a51b18b266174d6813011a10237174522ccab3c",
+  "allSixExactQQResultantsCompleted": true,
+  "lastMathematicalElapsedSeconds": 164.271429,
+  "finalLambdaGcdDegree": 1320,
+  "error": {
+    "type": "AttributeError",
+    "location": "final squarefree-candidate serialization after all six QQ resultants/gcds",
+    "message": "flint.types.fmpq_mpoly.fmpq_mpoly has no attribute zcontent",
+    "meaning": "An unavailable python-flint 0.9.0 formatting helper; not a failed mathematical assertion and not a resource limit."
+  },
+  "candidateSquarefreePolynomialEmitted": false,
+  "claimExcluded": false,
+  "claimS0LayerEmpty": false,
+  "claimLambdaLayerEmpty": false,
+  "ordinaryISPClaim": false
+}

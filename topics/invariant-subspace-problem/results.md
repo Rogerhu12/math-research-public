@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R150 三约化H退化Gram、Hp0的中心H=0整个原物理图为空（2026-11-26，已证明）：** [正确变换kernel及完整四纤维证明](results/R150-appendix-rank-three-reduced-degenerate-Gram-central-zero-exclusion.md)保原∞源，使用L=5t−1与Eh=q²−5qY+25Z。QQ284/426范数gcd128只留A、A−1、3A+1、800A²−795A+157；6/6/6/12维原U幂身份全部回乘，run45821311603/job139913975096、30.726058秒/exit0。旧b34d源的错误Eh输出明确撤回；只续中心非零的有限H源图，非退化H仍开。
+
 - **R150 三值互异S0、P1的t系数零时小J整支全空（2026-11-26，已证明）：** [原权重身份与完整八维QQ返回](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-small-J-exclusion.md)以J=−z²Δ(1−2b)(1−2c)迫权重half/1，全部MJ四次/q二次参数上原E1/EB结果式有真逆。49逆、8阶单位乘回，run45820227879/job139910286544、0.108022秒/exit0。未剥任何q因子、L在整个代数中可逆，故没有暗留L0；Af两面全保。Lt0的(26,12)大因子仍开。
 
 - **R271 实际Riordan非线性强头的完整Fock源及原同源差值有统一预算（2026-11-26，已证明）：** [精确全塔代换与原未加权重最小化](results/R271-appendix-actual-riordan-complete-fock-source-transport-and-original-source-correction.md)给差≤3C0³ min(√ε,√(μ/h))，实际Sx内保全部强位混合项并强趋同P_Mf。原物理拉回保ΔF，准确恢复同u/partial；未把原范数差冒作未知F0能量、32^N孔权或完整MP返回。纯手证，继续稳定范围端点。

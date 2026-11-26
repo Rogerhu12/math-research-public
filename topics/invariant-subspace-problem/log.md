@@ -277,3 +277,6 @@ AI-assisted GPT-6 Astra Pro：[完整证明](results/R271-appendix-actual-riorda
 
 ## 2026-11-26 12:41:00 UTC — Astra-ISP-347c-20261126：S0/Lt0小J整支关闭
 AI-assisted GPT-6 Astra Pro：[完整原式排除](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-small-J-exclusion.md)保全部MJ四次与q二次参数，49真逆和E1/EB八维单位身份均乘回，实际0.108022秒/exit0；没有删L因子、未除Af。新共享workflow只接L0/b+c0实际λ152候选的原QQ分解返回，旧mod及三参数门不重跑。
+
+## 2026-11-26 12:47:44 UTC — Astra-ISP-347c-20261126：原中心0整图修正后完整排除
+AI-assisted GPT-6 Astra Pro：登记正确K0/L/Eh的原QQ284/426及四有限代数U幂，run45821311603/job139913975096、30.726058秒，全部身份已实际回乘；旧b34d输入错误退出0无效，撤回保持明确。保存S0六投影后的格式化失败及旧L0/Φ到时未决回执，继续新两参数原返回；没有扩大为ISP结论。

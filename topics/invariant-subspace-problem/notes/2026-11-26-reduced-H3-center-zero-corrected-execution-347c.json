@@ -1,0 +1,244 @@
+{
+  "schema": "isp-exact-original-QQ-exclusion-receipt-v1",
+  "run_id": 45821311603,
+  "job_id": 139913975096,
+  "status": "actual corrected source verified complete; original central H=0 primitive reduced-H3 degenerate-Gram Hp0 essential-six chart excluded",
+  "supersedes_defective_input": {
+    "source_blob": "b34d4894e6848c2dd54512340c26a035797cd96f",
+    "run_id": 45820227879,
+    "job_id": 139910286959,
+    "record_blob": "10f95889e56a45664e7f82914dd7867fe708fbbe",
+    "reason": "Eh must equal q^2-5qY+25Z for actual transformed L=5t-1; old input never establishes original exclusion"
+  },
+  "gcd_factorization_up_to_nonzero_scalar": "A^24*(A-1)^6*(3*A+1)^6*(800*A^2-795*A+157)^46",
+  "actual_stages": [
+    {
+      "J_scale": 33554432,
+      "V_scale": "-5120*A + 800*B + 1024",
+      "c0": "1888*A**3 + 217*A**2*B - 672*A**2 - 290*A*B - 7*B",
+      "c1": "6944*A**3 - 1085*A**2*B - 7392*A**2 - 438*A*B + 1536*A + 835*B",
+      "c2": "-11264*A**2 + 1760*A*B + 4096*A + 224*B - 1024",
+      "count": 9,
+      "cubic_scale": 512,
+      "field": "QQ",
+      "original_center": 0,
+      "physical_H_parameters": "A=a+b,B=32ab in reciprocal chart",
+      "seconds": 0.5158950779999998,
+      "stage": "original_kernel_identities_complete"
+    },
+    {
+      "degrees": [
+        3,
+        2,
+        0
+      ],
+      "label": "H_zero_edge",
+      "seconds": 0.7237825040000132,
+      "sha256": "7798b7851e3f7a440b09870c95b4713b0e5045faf862b283e1d7d34fd49d223c",
+      "stage": "triangular_original_equation",
+      "terms": 6
+    },
+    {
+      "degrees": [
+        7,
+        1,
+        3
+      ],
+      "label": "V_source_cubic",
+      "seconds": 0.7239447380000001,
+      "sha256": "062b532c7c6b0291e6e9baff214c70e87039fbd4ac046b768304a21c2171dc0a",
+      "stage": "triangular_original_equation",
+      "terms": 29
+    },
+    {
+      "degrees": [
+        75,
+        1,
+        2
+      ],
+      "label": "original_phase",
+      "seconds": 0.7257703669999955,
+      "sha256": "ce75f46647f2d8fd1dacf128778a35643f6397248ec47fa224cafbd9a50c7ad1",
+      "stage": "triangular_original_equation",
+      "terms": 429
+    },
+    {
+      "degrees": [
+        113,
+        1,
+        2
+      ],
+      "label": "original_norm",
+      "seconds": 0.7284201390000078,
+      "sha256": "deec6cae3b938db8aa4512887470067212ae90356ff401b34bfaed275ce294c9",
+      "stage": "triangular_original_equation",
+      "terms": 657
+    },
+    {
+      "degrees": [
+        91,
+        1,
+        2
+      ],
+      "label": "original_physical_units",
+      "seconds": 0.7302520700000059,
+      "sha256": "e6421a88fec2305455dedb18a10db6252986dbe3b3d51eeab8e23959a2f5e3ed",
+      "stage": "triangular_original_equation",
+      "terms": 525
+    },
+    {
+      "seconds": 0.7302967340000066,
+      "stage": "begin_exact_triangular_QQ_norms"
+    },
+    {
+      "N_degree": 426,
+      "N_sha256": "3451ece1aa210115f6b5a0ab7b03225bf37f35f6c012772dc7620f19a58c13e4",
+      "P_degree": 284,
+      "P_sha256": "6ab7f77c089f56a0f3c0bfd02cca10a4bf50151a134e3549529857ee6970d65d",
+      "bezout_verified": true,
+      "gcd_degree": 128,
+      "seconds": 29.76984429799998,
+      "stage": "exact_triangular_norm_gcd",
+      "gcd_text_omitted": true
+    },
+    {
+      "factors": [
+        {
+          "degree": 1,
+          "factor": "x",
+          "multiplicity": 24
+        },
+        {
+          "degree": 1,
+          "factor": "x + (-1)",
+          "multiplicity": 6
+        },
+        {
+          "degree": 1,
+          "factor": "3*x + 1",
+          "multiplicity": 6
+        },
+        {
+          "degree": 2,
+          "factor": "800*x^2 + (-795)*x + 157",
+          "multiplicity": 46
+        }
+      ],
+      "scope": "all complex A-roots retained; no quotient-primary equivalence claimed",
+      "seconds": 29.770734816999976,
+      "stage": "all_elimination_fibers"
+    },
+    {
+      "dimension": 6,
+      "factor": "x",
+      "index": 0,
+      "original_multiplicity": 24,
+      "physical_power": 6,
+      "seconds": 29.981398211000027,
+      "stage": "begin_finite_QQ_fiber"
+    },
+    {
+      "certificate_sha256": "8da69ea07607715d9af31e4faf047f577a73eaed1177997af148e4f6b20b6582",
+      "dimension": 6,
+      "identity": "U^dimension=af*original_phase+bf*original_norm modulo (f(A),Qb,Cx)",
+      "index": 0,
+      "nonzero_coefficients": 3,
+      "rank": 3,
+      "seconds": 29.984897706999988,
+      "stage": "finite_QQ_fiber_verified"
+    },
+    {
+      "dimension": 6,
+      "factor": "x + (-1)",
+      "index": 1,
+      "original_multiplicity": 6,
+      "physical_power": 6,
+      "seconds": 30.164957332,
+      "stage": "begin_finite_QQ_fiber"
+    },
+    {
+      "certificate_sha256": "ff3268db72f34cee59ecc7c8856b5c41f9c51e5f29fba3783cb762b589067a60",
+      "dimension": 6,
+      "identity": "U^dimension=af*original_phase+bf*original_norm modulo (f(A),Qb,Cx)",
+      "index": 1,
+      "nonzero_coefficients": 0,
+      "rank": 2,
+      "seconds": 30.16517582200001,
+      "stage": "finite_QQ_fiber_verified"
+    },
+    {
+      "dimension": 6,
+      "factor": "3*x + 1",
+      "index": 2,
+      "original_multiplicity": 6,
+      "physical_power": 6,
+      "seconds": 30.372742934,
+      "stage": "begin_finite_QQ_fiber"
+    },
+    {
+      "certificate_sha256": "18a8a5289e5066b0730c410e9811fb45b17fc4444f20da65d2faabba72796e4d",
+      "dimension": 6,
+      "identity": "U^dimension=af*original_phase+bf*original_norm modulo (f(A),Qb,Cx)",
+      "index": 2,
+      "nonzero_coefficients": 3,
+      "rank": 4,
+      "seconds": 30.378045518999983,
+      "stage": "finite_QQ_fiber_verified"
+    },
+    {
+      "dimension": 12,
+      "factor": "800*x^2 + (-795)*x + 157",
+      "index": 3,
+      "original_multiplicity": 46,
+      "physical_power": 12,
+      "seconds": 30.65821611999999,
+      "stage": "begin_finite_QQ_fiber"
+    },
+    {
+      "certificate_sha256": "38069029e64e8c4003433c48f0f4d657ab1afb39592e67f259000f77b7bab8e1",
+      "dimension": 12,
+      "identity": "U^dimension=af*original_phase+bf*original_norm modulo (f(A),Qb,Cx)",
+      "index": 3,
+      "nonzero_coefficients": 6,
+      "rank": 6,
+      "seconds": 30.725899670000018,
+      "stage": "finite_QQ_fiber_verified"
+    },
+    {
+      "ordinary_isp_claim": false,
+      "outcome": "all exact QQ necessary source fibers contradict original physical U!=0",
+      "seconds": 30.726057836000024,
+      "source_sha256": "fff102d169d13c4afc75047fd9f5531a257550c6902fa934d42f19e3360efc32",
+      "stage": "complete"
+    }
+  ],
+  "execution_receipt": {
+    "elapsed_seconds": 31.128928186000024,
+    "max_child_rss_kib": 201372,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "85f8c05de49cde33e3cf78fe29c0657cc38a36c3",
+        "before": "85f8c05de49cde33e3cf78fe29c0657cc38a36c3",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "fef43bdf8690f2eec4751d85784a266eacdd0322"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-26T12:37:21.158129+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "45821311603",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-347c-20261126",
+    "source_commit": "85f8c05de49cde33e3cf78fe29c0657cc38a36c3",
+    "source_exit_code": 0,
+    "source_git_blob": "6110026f5aeee5d257bba5fb409d6828fda55b31",
+    "source_sha256": "fff102d169d13c4afc75047fd9f5531a257550c6902fa934d42f19e3360efc32",
+    "stdout_bytes": 25022,
+    "stdout_sha256": "51d3b83b673a22a7cefa853cd32d0a71d8367e669223a4ee8ba0b783165ca9e9",
+    "stop_reason": null
+  },
+  "ordinary_isp_claim": false
+}
