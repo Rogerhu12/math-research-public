@@ -275,3 +275,6 @@ NS五件共129172B，owner71056B SHA18db439d5895e4232882940a57b7bd9457982383e1ac
 
 
 2026-11-26 21:05:43 UTC / visible-exact-astra-fb31ed6-20261127：DB完整新证明写入。两次IBP的整opposite coefficient≤B j/(n+j)^3，两sign加权HS分别≤2B/3及9B/4；S(h−D†z)在原H逆上bootstrap，无正则性循环/Neumann小门，G-adjoint给原C^-1 H−4/3及单次Bessel因子。NA*Ge=e−Z TαGe不需alpha′，完整H¹dual支付Theta one-loss，原mean/全signed alpha资格不删。pure AST已过，0本地科学。RTC推cdb55bbc8两README无diff；21:05私库pull至1fe6204483029efe47c7faccddc1c27f659eb107，根README无diff，QUEUE仍本会话进行中。
+
+
+2026-11-26 21:10:03 UTC / visible-exact-astra-fb31ed6-20261127：IL四目标首次短入口已齐；40当前/6完整原native，原258 rational complex系数/两centralmean精确核同；Ep/P1/P2/P3全四目标原子保存。root读完source/worker/generator/proof，只将proof的有符号δ*记号改为完整d*≥|δ*|；metadata重生成功15992B/SHA eca231e77b0248c5585c751c157f82fc6d86985bb4fd24722bc51c9029b71a1d，数值导入0。DB遇一次并发拒绝后立即pull/rebase成功864c3181a，两README无diff。

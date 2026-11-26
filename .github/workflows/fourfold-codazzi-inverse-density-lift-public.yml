@@ -1,0 +1,44 @@
+name: R149 complete original inverse-density lift
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/fourfold-codazzi-inverse-density-lift-public.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: visible-flex-exact-original-inverse-density-lift-20261127
+  cancel-in-progress: false
+jobs:
+  complete-four-new-inverse-lift-scalars:
+    if: github.repository == 'Rogerhu12/math-research-public' && github.run_attempt == 1
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-exact-nearby/README.md
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_inverse_density_lift_public_worker.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_reflected_waist_rows_public_worker.py
+            /topics/visible-flex-exact-nearby/notes/2026-11-27-inverse-density-lift-inputs.json
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12.14'
+      - name: Install the fixed directed scalar runtime
+        run: python -m pip install --disable-pip-version-check python-flint==0.9.0
+      - name: Restore the complete original one-leg inputs and certify four new scalars
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: >-
+          python topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_inverse_density_lift_public_worker.py
+          --repo "$GITHUB_WORKSPACE"
+          --manifest topics/visible-flex-exact-nearby/notes/2026-11-27-inverse-density-lift-inputs.json
+          --manifest-sha eca231e77b0248c5585c751c157f82fc6d86985bb4fd24722bc51c9029b71a1d
