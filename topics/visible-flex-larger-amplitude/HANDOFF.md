@@ -55,6 +55,6 @@
 <!-- visible-larger-parallel-04:end -->
 
 <!-- visible-larger-parallel-05:start -->
-并行公开Actions05：[run 45870334713/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45870334713)；[实际记录](notes/2026-11-26-public-actions-45870334713-1.md)。阶段`followup:complete-added-gamma-nine-KKT-explicit-H-full-history-first-20261126-05`/failed；已返12，exit=1。
-并行05规则核查：2026-11-26 19:48:32 UTC，真实pull至`df35621e7b4ce2e5d21be70334bc9d0ff8f0767d`，双README无变化。
+并行公开Actions05：[run 45870334713/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45870334713)；[实际记录](notes/2026-11-26-public-actions-45870334713-1.md)。阶段`followup:actual-added-gamma-nine-KKT-explicit-H-full-history-first-20261126-05`/completed；已返13，exit=0。
+并行05规则核查：2026-11-26 19:48:40 UTC，真实pull至`64268f2b30e0a7f56cefbd991eb5a77673a6eaee`，双README无变化。
 <!-- visible-larger-parallel-05:end -->
