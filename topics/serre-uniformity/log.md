@@ -427,3 +427,8 @@
 - [R1061](results/R1061-actual-genus-two-etale-cover-and-original-three-torsion-Petri-point.md)：原X108实际无分歧九次商C:Y²=R⁶−108，原S_n落Dχ=Qz−Qw=q*Q的三挠线；两一维exact空间的有序配对为(S_n/s)R dR/Y。故原f_N单位等价于该具体theta点光滑，smooth仍开；C superspecial，邻近ordinary四角色不代证明。
 - 根实读Tong pp541–542、§4.2，并手核H的27/3/9函数域次数、两实际微分、q=R²,Y的具体±Q分支及Dχ=q*Q。o2发现旧探索的另一椭圆因子须区分，正文只用当前正确第一因子；原β有序符号与sκ^n=1完整保留，无单位重标。
 - 不将h0=1、bundle完美性或邻点ordinary冒充smooth；继续真实twisted-Cartier。未执行数学或重扫窗口。
+
+### 2026-11-27 04:27 Asia/Taipei — R1061规范Miller首变分与完整Cartier来源
+- [R1061](results/R1061-actual-genus-two-etale-cover-and-original-three-torsion-Petri-point.md)：原X108实际无分歧九次商C:Y²=R⁶−108，原S_n落Dχ=Qz−Qw=q*Q的三挠线；两一维exact空间的有序配对为(S_n/s)R dR/Y。故原f_N单位等价于该具体theta点光滑，smooth仍开；C superspecial，邻近ordinary四角色不代证明。 §§6–8付规范Miller首a^p变分与全Cartier系数e；δ单位不代e单位。
+- 原E:V²=U³−108上的Ψ只在O有归一p极，dΨ=δω且δ单位；原Miller g_Q=U/(V−v₀)^ℓ的O首项1。形式比首a^p系数由全部移动极点/全纯微分/常数归一严格给出；原Q的slope项按实际C(F_Qω)=0消去。
+- 完整even/odd两支均只读p−1，Q处三阶伪极迫C(F_QΨω)=−eω，e为原有限卷积。没有从δ或E_N(0)单位偷换e单位，也没有混同[p]与相对Frobenius的Picard拉回；无程序或窗口执行。

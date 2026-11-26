@@ -235,6 +235,184 @@ ordinary / $p$-rank 条件，不能套给本 superspecial 曲线的三挠点。
 后续须继续支付 (1061.6) 的右侧，或在同一实际双覆盖上求其
 twisted-Cartier 导数；原同一本原标签筛选和 O0 仍未关闭。
 
+## 6. 同一椭圆模型的规范 $p$ 极原函数
+
+保持 $E:V^2=U^3-108$、$\omega=dU/(2V)$，
+并记 $z_O=-U/V$ 为 $O$ 处参数，避免与§1的 $t$ 混淆。
+置 $m=3N+2=(p-1)/2$、$\ell=2N+2$。
+唯一取定
+$
+S(T)=\sum_{j=0}^N a_jT^j,\qquad a_N=-1,\qquad
+\frac{a_j}{a_{j-1}}=\frac{6j-1}{108(6j+2)}\quad(1\le j\le N),
+$
+$
+\Psi(P)=V U S(U^3),\qquad \delta=-216a_0.
+\tag{1061.7}
+$
+所有分子、分母在 $p$ 中非零，所以 $\delta$ 是单位。
+用 $D=d/\omega$，$DU=2V,DV=3U^2$，直接算得
+$
+D\Psi=(5T-216)S+6T(T-108)S'=\delta.
+$
+中间各项由递推消去，最高项因 $6N+5=p$ 消失。因此
+$
+\boxed{d\Psi=\delta\omega,\quad
+\operatorname{PP}_O\Psi=z_O^{-p},\quad \Psi(-P)=-\Psi(P).}
+\tag{1061.8}
+$
+$\Psi$ 只在 $O$ 有准确 $p$ 阶极，最高系数为一。
+因为其微分全纯，其所有负 Laurent 指数必须为 $p$ 的倍数；
+故所写 principal part 完整，且奇性令常数项为零。
+
+对一般 $Q'\ne O$，定义普通 chord slope
+$
+M(P,Q')=\frac{V(P)-V(Q')}{U(P)-U(Q')}.
+$
+有全有理加法律
+$
+\boxed{\Psi(P+Q')=\Psi(P)+\Psi(Q')+M(P,Q')^p.}
+\tag{1061.9}
+$
+证明：两侧之差对 $P$ 的微分为零。
+仅有的潜在极点是 $O,-Q'$，其 $p$ 阶主部由 slope 的
+$-z_O^{-1}$ 和 $z_{-Q'}^{-1}$ 首项准确消去。
+余下差全局正则；在 $O$ 读常数为零。一般点的恒等式给全有理恒等式，
+切线情形按延拓解释。没有将零导数函数未经极点检验当作常数。
+
+## 7. 原 Miller 函数的完整首 $a^p$ 变分
+
+固定原 $Q=(0,v_0)$，$v_0=-6s$。取
+$
+g_Q(P)=\frac{U(P)}{(V(P)-v_0)^\ell}.
+$
+由实际 divisor，
+$
+\operatorname{div}(g_Q)=(-Q)-p(Q)+(p-1)(O),
+\qquad g_Q=z_O^{p-1}(1+O(z_O)).
+\tag{1061.10}
+$
+后一个首项为一，因为 $\ell$ 偶。还可直接核
+$
+d\log g_Q=\frac{V-v_0}{U}\,\omega.
+$
+
+对 $Q$ 的形式邻域中一般点 $Q+A$，令 $a=z_O(A)$。
+按相同 $O$ 首项归一，$g_{Q+A}$ 唯一由
+$
+\operatorname{div}(g_{Q+A})
+=([p](Q+A))-p(Q+A)+(p-1)(O)
+$
+确定。这个 degree-zero divisor 在 $\operatorname{Pic}^0(E)$ 中为零；
+局部基变换及首项刚化给所用形式族。
+
+这里须区分 $[p]$、相对 Frobenius 和 Picard 上的拉回。
+当前 $E/\mathbf F_p$ 中，立方在 $\mathbf F_p$ 上为双射，
+故直接点数和给 $a_p(E)=0$。
+标准椭圆 Frobenius 方程于是给实际 endomorphism
+$F^2+[p]=0$。因此在这个明确的 $\mathbf F_p$ 模型里，
+$[p]A=-F^2A$ 的参数变化始于 $a^{p^2}$。
+这一步没有把一般线丛的相对 Frobenius 拉回写作点的 $p$ 倍。
+
+准确首项是
+$
+\boxed{
+\frac{g_{Q+A}(P)}{g_Q(P)}
+=1+a^p\{\Psi(P-Q)-\Psi(-Q)\}+O(a^{p+1}).
+}
+\tag{1061.11}
+$
+证明分三步。首先，移动的 $p$ 重极点在局部是一个单位乘
+$z_{Q+A}^{-p}$，其比值的非平凡变化最早出现在 $a^p$；
+简单零点 $[p](Q+A)$ 则到 $a^{p^2}$ 才动。
+所以 $1\le j<p$ 的系数无任何极点，由 $O$ 首项归一全为零。
+其次，$a^p$ 系数记为 $H(P)$，它只在 $Q$ 有至多 $p$ 阶极，
+主项为 $z_Q^{-p}$。$d\log g_{Q+A}$ 的极点只有
+$O,[p](Q+A)$；到 $a^p$ 阶其主部不变，故 $dH$ 全纯。
+最后，$H-\Psi(P-Q)$ 的最高极部消去，剩余极阶小于 $p$，
+而其微分全纯，迫所有剩余极部为零。于是差为常数；
+$H(O)=0$ 将它固定为 $-\Psi(-Q)$，得到 (1061.11)。
+
+原 $Q$ 处 $\Psi(Q)=\Psi(-Q)=0$。
+由 (1061.9)，首变分还可准确写作
+$
+H(P)=\Psi(P)+
+\left(\frac{V(P)+v_0}{U(P)}\right)^p.
+\tag{1061.12}
+$
+全部原尺度已付；这仍不等于目标 Petri 读数已为单位。
+
+## 8. 首变分来源的完整 Cartier 单系数
+
+定义同一原有理来源
+$
+F_Q=U^m g_Q
+=\left(\frac{V+v_0}{V-v_0}\right)^{N+1}.
+$
+由于 $\omega=dV/(3U^2)$、$p-2=3(2N+1)$，
+$
+F_Q\omega=
+\frac{(V-v_0)^N(V+v_0)^m}{3U^p}\,dV.
+$
+分子次数 $4N+2<p-1$，所以
+$
+\mathscr C(F_Q\omega)=0.
+\tag{1061.13}
+$
+故 (1061.12) 中的整个 slope 项在这次准确 Cartier 读取中消失：
+$
+\mathscr C(F_QH\,\omega)=\mathscr C(F_Q\Psi\,\omega).
+$
+这里的消失有 (1061.13) 的完整次数证明，不是任意丢掉 $p$ 次修正。
+
+令 $M=4N+3$，用 $V^2=T-108$ 唯一写
+$
+(V-v_0)^M=E_N(T)+V O_N(T),
+\qquad \deg E_N,\deg O_N\le2N+1 .
+$
+$\alpha=F_Q\Psi\omega$ 准确为
+$
+\alpha=\frac{U^{3N+4}S(U^3)}
+{2(V-v_0)^p}
+\{E_N(U^3)+V O_N(U^3)\}\,dU.
+$
+置
+$
+e=[T^N]S(T)E_N(T),\quad
+o=[T^N]S(T)(T-108)^{3N+3}O_N(T).
+\tag{1061.14}
+$
+even 项的最高 $U$ 次为 $12N+7=2p-3$，全部指数为 $1\bmod3$，
+Cartier 仅读取 $p-1$ 次。odd 项使用
+$V=V^{-p}(T-108)^{3N+3}$；其最高次为
+$21N+16<4p-1$，全部指数仍为 $1\bmod3$。
+可读的 $jp-1$ 必须有 $j=1\bmod3$，故此项也只有 $p-1$ 次。
+因此保留全部半线性后，
+$
+\mathscr C(\alpha)=
+\frac{e^{1/p}V+o^{1/p}}{V-v_0}\,\omega.
+$
+在 $Q$，原 $\alpha$ 的极阶是
+$p-m-1=m<p$，故 Cartier 之后极阶至多一。
+但 $V-v_0$ 在 $Q$ 有三阶零；若上式分子在 $Q$ 非零，
+便产生三阶极，矛盾。于是 $o^{1/p}=-v_0e^{1/p}$，从而
+$
+\boxed{\mathscr C(F_QH\,\omega)
+=\mathscr C(F_Q\Psi\,\omega)=e^{1/p}\omega=-e\,\omega.}
+\tag{1061.15}
+$
+最后一式因为 $S\in\mathbf F_p[T]$，
+$M$ 奇使 $E_N$ 的每个系数都是 $v_0$ 的奇次幂乘
+$\mathbf F_p$ 元素，故 $e^p=-e$。
+所有 scalar 都由原有理函数确定。
+
+这是 (1061.11) 的完整首变分经过指定 Cartier 来源后的实际有限系数，
+不是只读 primitive 的 $\delta$。
+虽然 $\delta$ 及
+$E_N(0)=(-2v_0)^M/2$ 都是单位，(1061.14) 的完整卷积
+$e$ 非零仍须证明。本文也未省略后续将该形式族作为 Picard 参数时的
+相对 Frobenius 记号；不能把某个错误的平移参数据此称作已付导数。
+
+
 ## 来源与本次核对
 
 - [R1059](R1059-original-fN-actual-X108-Raynaud-pairing-and-inverse-central-sum.md)：原 $X_0(108)$ 函数、good 模型、固定微分尺度和 $S_n$ 配对。
@@ -242,3 +420,5 @@ twisted-Cartier 导数；原同一本原标签筛选和 O0 仍未关闭。
 - Jilong Tong, *Diviseur thêta et formes différentielles*, Math. Z. 264 (2010), 521–569，DOI 10.1007/s00209-009-0478-y；[作者原文](https://www.math.u-bordeaux.fr/~jtong/Recherche/Theta.pdf)，Proposition 2.2.1、Corollary 2.2.2（印刷541–542页），§4.2。此处只使用其准确光滑判据，不假设本固定曲线一般。
 
 o1_theta给实际覆盖、三挠线和配对下降；o2_high_coefficient独立核角色、第一椭圆因子与分支线；root实读Tong所引原文，并手核全部函数域次数、无分歧性、两微分、divisor、角色、Frobenius及有序标量。无数学程序或窗口执行。
+
+补充§§6–8：o2_high_coefficient给规范Ψ递推和完整first-p Cartier系数；root独立推Miller首变分和Ψ加法律，o1_theta独立核两式；root逐项核U/V两坐标的全部次数、Q处极阶、半线性及完整slope消去。Frobenius特征方程可见Andrew Sutherland [MIT 18.783 Lecture 8](https://math.mit.edu/classes/18.783/2022/LectureSlides8.pdf)第5张幻灯片。无数学执行。

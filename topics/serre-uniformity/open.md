@@ -12,7 +12,7 @@
 
 [R1054](results/R1054-original-lowest-CM-column-kernel-candidate-counterexample.md)：p47 K15=23排最低列恒落Q核候选。
 [R1057 §5](results/R1057-certified-original-p47-actual-lowest-functional.md)：本次真实C=15支付p47一次单位；逐节核C_*仅用于自动本原、逐块全MW消去不需该界，故原X₁指定c₁的v47(w)>0深盘唯一有理点为c₁。未分类其它盘/X_d/O0；无重算。
-[R1055](results/R1055-original-complete-first-log-canonical-rational-primitive.md)：原完整v=(1−Q)λ的规范有理原函数V=6(bU₁+b²U₂)/(A1²r^ℓ)，U_i=[(1−r)^−i/3(j/q)]_<ℓ。全商/有理代表接口、三CM的4/−2/−2留数、S₀=1、全部principal parts与pth歧义均付；不跨j共振，不代指定最低值。
+[R1055](results/R1055-original-complete-first-log-canonical-rational-primitive.md)：原v的唯一规范V=6(bU₁+b²U₂)/(A1²r^ℓ)，U_i=[(1−r)^−i/3j/q]_<ℓ。全商、三CM、S₀及pth歧义已付；不跨共振，不代最低单位。
 
 [R1052](results/R1052-original-complete-CM-profile-and-actual-lowest-functional.md)：完整source/target、全返回与p除法误差已付，原全轮廓精确读取[Z^k](T_c/A)(B_CM)，保κ₁/λ₀与双incidence。最低C_CM(T)=2B(c,L_CM)，实际2B(v,QD L_CM)保Q²；全p最低单位/深盘仍开。
 
@@ -38,7 +38,7 @@ R1只把全部异常缩为p>37的完整N_ns；**p≡2,5 mod9只是另加小惯�
 
 ## O1：全p同一真实本原标签的临界非零
 
-[R1061](results/R1061-actual-genus-two-etale-cover-and-original-three-torsion-Petri-point.md)：原X108实际无分歧九次商C:Y²=R⁶−108，原S_n落Dχ=Qz−Qw=q*Q的三挠线；两一维exact空间的有序配对为(S_n/s)R dR/Y。故原f_N单位等价于该具体theta点光滑，smooth仍开；C superspecial，邻近ordinary四角色不代证明。
+[R1061](results/R1061-actual-genus-two-etale-cover-and-original-three-torsion-Petri-point.md)：原X108实际无分歧九次商C:Y²=R⁶−108，原S_n落Dχ=Qz−Qw=q*Q的三挠线；两一维exact空间的有序配对为(S_n/s)R dR/Y。故原f_N单位等价于该具体theta点光滑，smooth仍开；C superspecial，邻近ordinary四角色不代证明。 §§6–8付规范Miller首a^p变分与全Cartier系数e；δ单位不代e单位。
 
 [R1060](results/R1060-actual-X108-nonCM-Cartier-and-nine-torsion-ordinary-input.md)：原X108非CM四Cartier矩阵精确由B_n=P_n(3)=−a_p(E54)控制。明确九挠点/实际三次同源给原p2/5mod9时B_n≠0、非CM ordinary且核恰六CM。A_p=−S_n/3，但尚未证S_n=0⇒B_n=0，不能代原f_N单位。
 
