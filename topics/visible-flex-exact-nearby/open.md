@@ -163,13 +163,11 @@ G以S/T E1856给physical C²整盘/曲率<2/径长<8e−6及同world position/no
 | reflected waist | [RW实际](results/R149-supplement-actual-reflected-finite-waist-rows.md)45787309600/1全96rows/480球，真a=2H(0)、signed mean、整DFT/alias/tail。[JF联合矩阵误差](results/R149-supplement-joint-signed-finite-matrix-error.md)以真target Bessel减去列误差的额外√96；完整TC/P224和signed配对仍待，source/target权重、mean及fullSchur保留。 |
 | graph高块 | [CG](results/R149-supplement-positive-feedback-in-the-complete-graph-high-block.md)准确邻接约消并保真正物理96列；actual common6/PN56未齐，新高门未通过。WDH旧homogeneous高逆保持原范围，完整巨大finite/mean/ν/phase不删。 |
 
-R143 correlated body已全4651；R146全418/13376使当前CV/RA根费格式失败，禁止继续该格式Gram/容量/仅DH细化，不推PDE奇异。R145/R147旧成功锁；[ASL实际](results/R147-supplement-actual-support-localized-negative-nu-reception.md)45889444013全4球降ordinary负ν分量到<1.87e−4，零root/无impulse，非全误差≤.005。[NP](results/R147-supplement-independent-strict-nu-particular-and-signed-waist-column.md)独立真Fν strict particular两目标入口已齐；194 true/192 raw signed腰观察待实际，不依赖P224，不授fullmatching。
+R143 correlated body已全4651；R146全418/13376使当前CV/RA根费格式失败，禁止继续该格式Gram/容量/仅DH细化，不推PDE奇异。R145/R147旧成功锁；[ASL实际](results/R147-supplement-actual-support-localized-negative-nu-reception.md)45889444013全4球降ordinary负ν分量到<1.87e−4，零root/无impulse，非全误差≤.005。[ANP](results/R147-supplement-actual-independent-strict-nu-particular-and-signed-column.md)45893562391/1完整2/2，strict腰误差<2.836e−5、194 true/192 raw signed全保、首incoming正。NH十二scalar入口已齐待run，付mean泄漏/全high97及两个joint96误差；不重trial/配对，不授fullνSchur。
 
 最新README已读SHA见HANDOFF；每pull核规则、至少每小时。公开科学/容量/旧成功禁重与失败/unknown保，最终同次冻结metric和所有门。
 
-[TM terminal→normalized constant](results/R144-supplement-terminal-mean-small-ball-controls-normalized-forward-constant.md)使用真实terminal球与waist L²界控制Dbar，保全部CP/source/jumps；actual45791979634/1已完成unique-root、统一mean/density，旧粗sameφ门false留原件。LC已另完成更紧C0，不重forward/W。
-
-[PS续接](notes/2026-11-26-R142-streamed-defect-execution.md)保85pins/14bindings/原数学，76/155母格三球与193atoms锁定；整母格读回才推进，packet不授积分。新owner19600s/worker20100s/360min，旧16800s预算/失败保原件。全六球优先；余79母格运行。
+TM/PS此前完整执行与scope仍保[eb774fb原open](https://github.com/Rogerhu12/math-research-public/blob/eb774fb06c6cb6dc51ffac0b31e5ebe833f359b1/topics/visible-flex-exact-nearby/open.md)及原proof；既成目标禁重。
 
 R149 signed-loop与[CP/physical](notes/2026-11-26-physical-scalar-execution.md)已接原77/PS85及NS真四源/point；六球后失败只读已成whole，原/PS scope分别核。PS须六球/目标/155母格原子完成，ε未知不启signed-loop，数学尾/trace/HS/θ/γ不变。
 
