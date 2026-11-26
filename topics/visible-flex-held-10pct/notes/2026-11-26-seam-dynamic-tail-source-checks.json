@@ -1,0 +1,76 @@
+{
+  "kind": "dynamic_tail_v2_source_checks_only",
+  "source_commit": "7f6978a50aab17063286852925c7706dd7ee32e7",
+  "restored_sources_equal_remote_git_blobs": true,
+  "source_sha256": {
+    "seam_tail_spectrum_v2.py": "b1525fd0adec4ca28dafed371388ae3624bdfd28c6e1781dd60595253d59ab23",
+    "seam_export_tail_geometry_v2.py": "aa9104b328848679cd314f0cf30fc3258abb44fc59d5fbff7f485bea680e86be",
+    "seam_export_shared_r_tail_v2.mjs": "d1e9bb0d713b96bb4d01c2267ac32d5b4581d51e398ee40198fc6d0ef05cd0c8",
+    "seam_certify_tail_geometry_v2.py": "ee381646dc052b8d7c9833aa693a5568982542cc11e26cfcfdf1c35edb0791ef",
+    "seam_run_tail_geometry_v2.py": "c165678d912761163ef29cfca1eb9c4dfc4bbf3102de6a00b228ca537f727615"
+  },
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "node": "v24.22.3",
+  "python_compile_exit": 0,
+  "node_syntax_exit": 0,
+  "exporter_certifier_parent_help_exit": [
+    0,
+    0,
+    0
+  ],
+  "integer_frequency_cases": [
+    {
+      "M": 24,
+      "N": 512,
+      "explicit_degree": 192,
+      "degree": 192,
+      "planar_count": 128,
+      "height_count": 25,
+      "highest_complete_state_modes_retained": true
+    },
+    {
+      "M": 32,
+      "N": 512,
+      "explicit_degree": null,
+      "degree": 254,
+      "planar_count": 170,
+      "height_count": 33,
+      "highest_complete_state_modes_retained": true
+    },
+    {
+      "M": 32,
+      "N": 1024,
+      "explicit_degree": null,
+      "degree": 510,
+      "planar_count": 340,
+      "height_count": 33,
+      "highest_complete_state_modes_retained": true
+    },
+    {
+      "M": 48,
+      "N": 1024,
+      "explicit_degree": null,
+      "degree": 510,
+      "planar_count": 340,
+      "height_count": 49,
+      "highest_complete_state_modes_retained": true
+    }
+  ],
+  "invalid_state_support_cases": [
+    {
+      "M": 64,
+      "N": 512,
+      "degree": 192,
+      "rejected": true
+    },
+    {
+      "M": 32,
+      "N": 192,
+      "degree": null,
+      "rejected": true
+    }
+  ],
+  "actual_tail_inputs_used": false,
+  "old_field_certificates_rerun": false,
+  "new_field_geometry_certified": false
+}

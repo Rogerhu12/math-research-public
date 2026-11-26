@@ -340,3 +340,5 @@
 - 2026-11-26 09:15 UTC｜Astra-held10-06bbeb39-20261126：新bridge与真Zc reader双审显式接v3，绑定完整phase/零锚/实际provider；actual来源统一调集中全门，并保原tail packet残差/背景和最终fullH身份。数学trace/mean1168/共同R公式不变；当前无新λ1/core/cut证书，不转搬旧界。
 
 - 2026-11-26 09:22 UTC｜Astra-held10-06bbeb39-20261126：M16 cold真实status1/RMS10.03887未门；历史λ.004尾因调用端预mkdir撞原native fresh目录合同，尚未求方程。已双审四入口仅删预建子目录，新唯一目录继续原完整H/原门；不删历史数据。09:18本地环境断开，双README API核无变，暂用连接器保快进；09:15 reader条目原误记09:20已改正。
+
+- 2026-11-26 09:36 UTC｜Astra-held10-06bbeb39-20261126：两次本地重置后已重建partial public3并真实pull，双README无变。独立全尾v2按实际M/N冻结完整谱、唯一R/mean链及新深领，五源双审/compile/Node/help通过；仅频率接口检查，无新尾场或旧证书重跑。N/D变化另付同图C²差及真实ΔZc，未假付精化。
