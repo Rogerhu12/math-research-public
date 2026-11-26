@@ -107,7 +107,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 1. 固定deep链9b937ee/993556的实际两256方向与所有SOC已记录，max .012679275819159355，仍未驻点。其自身first bbefd075给922全胞embedding及D/L/heldbody界，但marker/全K/reach/整面metric与同固定g精化未付；[实际72–74](notes/2026-11-26-actual-fixed-deep-next-two256-and-attribution.md)及固定历史保全参数。旧Haar bcdcdab/a76c4d max .01406459，自身连续几何和更细归因未返；01准入结束后排步没有执行，不编78/79。准确Haar定义/工作carrier精度分开，R690–695条件定理不冒非圆存在或任意C²分类。
 
-2. 02真实normalized-parent SO3同d021/profile0a223/modelad017/normc4b2，[46–48](notes/2026-11-26-actual-parent-interior-restoration-entry.md)返793b/bb5c，1恢复后1metric接受，max .03677022562、真有限g −6.229263438e−9。metric alpha1/16且QP16预算终止，满步下降却真g .00283488；内层与几何截步责任均保。[完整cache继续](notes/2026-11-26-normalized-parent-cache-adoption.md)4e9e/174b/9b87/6982已排1×64/rest4×64、mu .01，真实旧cache首次新绑定/缺项原provider回退，不复算半小时固定参考当新结论。后退全行SOC完整新输入继续；原全部C/同Phi/真g验收不变。
+2. 02真实normalized-parent SO3同d021/profile0a223/modelad017/normc4b2，[46–48](notes/2026-11-26-actual-parent-interior-restoration-entry.md)返793b/bb5c，1恢复后1metric接受，max .03677022562、真有限g −6.229263438e−9。metric alpha1/16且QP16预算终止，满步下降却真g .00283488；内层与几何截步责任均保。[完整cache继续](notes/2026-11-26-normalized-parent-cache-adoption.md)4e9e/174b/9b87/6982已排1×64/rest4×64、mu .01，真实旧cache首次新绑定/缺项原provider回退，不复算半小时固定参考当新结论。[后退全行SOC六源与完整参数](notes/2026-11-26-normalized-parent-cached-backtracked-soc.md)已刊，待新runner必要输入重建后执行；旧02准入结束不强塞新步。原全部C/同Phi/真g验收不变。
 
 3. 03b独立0f042/profile6ffc的[真实17–18](notes/2026-11-26-actual-SO3-prior-separation-SOC-17-18.md)359ffc全C预补/SOC返b1c625/cd1af8，max .5140673898、Phi210.1678161，仍仅原ray alpha1/128可行，0SOC接受。QP64未驻点；alpha.5两SOC第一几何拒、第二真Phi不降且geometry未读，sweep_limit_feasible不冒收敛。全部8ray/实际37→39→41行与所有位置保；纯尺度归因已排。新策略先求真实可行ray，再用最近较大拒绝锚作全行SOC，并对最终永久点复筛所有候选后唯一接受；不把高误差场排成昂贵证书。
 

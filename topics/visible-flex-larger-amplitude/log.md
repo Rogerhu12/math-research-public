@@ -57,3 +57,7 @@
 ## 2026-11-26 15:57:27 UTC — 实际17–18全行SOC失败归因与下一完整锚策略
 
 亲读359ffc/cd1af8与f686/677a真返回，8ray及2SOC完整登记；最终b1c仍原ray alpha1/128，0SOC接受、QP64未驻点。alpha.5锚首SOC几何拒、第二Phi骤升且几何未读，20000 sweep_limit_feasible不冒最小范数解。刊[实际说明](notes/2026-11-26-actual-SO3-prior-separation-SOC-17-18.md)与3ed7完整纯尺度读取步，追加03b支撑必要式之后，不重算科学、不预填未返尺度。open仅§7压缩，全部原词固定f0a3保存；H更新真实结果，继续较近后退锚完整SOC/角向/新初点。
+
+## 2026-11-26 16:02:05 UTC — 完整规范化父后退SOC实现与独立接续
+
+刊[完整六源/参数/证明](notes/2026-11-26-normalized-parent-cached-backtracked-soc.md)：e716 rows/50a9 cache/01b2 driver/d0ba launcher/3fe4 deriver/9e92 reader，ed83完整1×64/rest4×64/mu.01 ready。同一原x/A/C、全部行追加，先真实fallback再唯一最近较大拒绝锚，最终候选按同Phi顺序用全部新永久地址复筛，唯一接受；原范数/物理g/全部变量不变。root本地只AST/compile/源码/纯参数核。02真实job10:18:24Z起，YAML350min；controller20000s准入约15:52:28到界，49仍运行而50尚未执行。准备新公开runner必要输入再生后接新SOC，不停在job期限、不冒49返回。

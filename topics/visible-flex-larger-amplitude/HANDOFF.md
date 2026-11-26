@@ -4,7 +4,7 @@
 
 ## 规则与完整目标
 
-最近规则核查：2026-11-26 15:58:18 UTC，真实pull/rebase至 `0d85f52f915054e0009eee84b4269ca91afb4911`，双README相对`c98437706d9f9ae9b0d5c284a746d21154c2eecd`无差异，授权及规矩继续执行。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
+最近规则核查：2026-11-26 16:02:21 UTC，真实pull/rebase至 `27c42294382ebba43824f2ada312d506617f340f`，双README相对`0d85f52f915054e0009eee84b4269ca91afb4911`无差异，授权及规矩继续执行。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
 
 科学计算仅本公开仓库Actions；早前本地偏差及纠正见[执行记录](notes/2026-11-20-public-actions-execution-correction.md)。root唯一分支写者；代理只scratch及未引用小源blob。每条结论普通commit/push，NFF立即pull --rebase循环再推，不强推。至少每小时pull，每次核双README差异/立即遵新规并记commit。raw只scratch/runner，不入Git/Release/artifact；保完整小源/参数/run/SHA/紧凑结论。题≤200MB、单文件<5MB、MD<100KB、H<10KB、open<30KB。令牌仅瞬时CLI。终端13:55 UTC起失联期间依根8以小文本connector提交；环境恢复后已重建blob:none/sparse检出并补真实pull，在线核规原字保b20f30ce及其固定历史；raw未补造。
 
@@ -23,7 +23,7 @@ R653 quarter、R654全H²及R655旧1845+六Gauss5532=7377正权观察、.5/.5测
 
 ## 本次实际结果与继续入口
 
-02旧mean/43–45全来源保[实际记录](notes/2026-11-26-actual-normalized-parent-so3-four-restorations.md)与cd233完整H，四恢复后g仍正。现[46–48](notes/2026-11-26-actual-parent-interior-restoration-entry.md)同d021/profile0a223/modelad017/normc4b2，1恢复/1metric接受返793bde45/bb5c52e0：g −6.229263438e−9、Phi .006732795880/max .03677022562，2813/2781点双支通过。恢复alpha1/KKT tol，metric alpha1/16/16-budget、Pg4.7699≫tol5.208e−6；满步下降却真g .00283488，未驻与几何截步并存。[完整缓存继续](notes/2026-11-26-normalized-parent-cache-adoption.md)4e9e/174b/9b87/6982已排02：真793b续1×64、rest4×64/mu.01；234ac/d3f25全方法不改，首次旧cache为新完整字节绑定，缺项原provider回退。全C/原g验收/同目标保，后续全行SOC继续，未冒连续或驻点。
+02旧mean/43–45全来源保[实际记录](notes/2026-11-26-actual-normalized-parent-so3-four-restorations.md)与cd233完整H，四恢复后g仍正。现[46–48](notes/2026-11-26-actual-parent-interior-restoration-entry.md)同d021/profile0a223/modelad017/normc4b2，1恢复/1metric接受返793bde45/bb5c52e0：g −6.229263438e−9、Phi .006732795880/max .03677022562，2813/2781点双支通过。恢复alpha1/KKT tol，metric alpha1/16/16-budget、Pg4.7699≫tol5.208e−6；满步下降却真g .00283488，未驻与几何截步并存。[完整缓存继续](notes/2026-11-26-normalized-parent-cache-adoption.md)4e9e/174b/9b87/6982已排02：真793b续1×64、rest4×64/mu.01；234ac/d3f25全方法不改，首次旧cache为新完整字节绑定，缺项原provider回退。全C/原g/同目标保。[后退全行SOC完整六源](notes/2026-11-26-normalized-parent-cached-backtracked-soc.md)e716/50a9/01b2/d0ba/3fe4/9e92及ed83参数已刊待新runner；先真fallback、最近较大拒绝锚、最终全记忆唯一验收。未冒连续或驻点。
 
 旧deep两256返9b937ee/993556及自身first bbefd075、冻结Haar返bcdcdab/a76c4d、R692经典旋转连接全部原字/来源/适用边界保[1d457完整H](https://github.com/Rogerhu12/math-research-public/blob/1d4579881f097caba2adc2aa8ee4808850e713dc/topics/visible-flex-larger-amplitude/HANDOFF.md)及所链notes。旧01后排归因/ownfirst未执行；未驻点/精化，不迁证或推任意C²存在。
 
