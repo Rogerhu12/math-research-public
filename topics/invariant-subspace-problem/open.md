@@ -51,7 +51,7 @@ rankH3单三jet的全部ess6已闭，末非零Hp原Gaussian/最高/normal给左�
 
 单位211整个u1图已闭，完整QQ曲线/九次原商代数/13逆返回与run45804559912见结果索引和上述快照。只续u≠1，不能二次用共同缩放。
 
-**原U值图L0：** w0/w1、b+c0、W、P1双零、G以及新[整个K系数结式曲线](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-L0-K-curve-complete-exclusion.md)均已闭。K的1253/329完整覆盖保全部13域，b1零边界42次覆盖末两族返原t0，源146.591630秒/exit0；不由P1双零闭直接付K。只续W/G/K非零的X_(34,52)=Y_(78,95)=0原交点，保全部rho/原t与新首项零。旧G465秒/4GiB和26域直接Euclid180秒均已失败留档，不重跑。
+**原U值图L0：** w0/w1、b+c0、W、P1双零、整个G/K均已闭（完整域覆盖保结果索引），新[整个V首项曲线](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-L0-V-leading-rho-curve-complete-exclusion.md)也已闭：301次全投影/205次四域覆盖，32/170域严格一元证据，余两域归原w0/w1，38.595274秒/exit0。可使用原P1/E1的首一rho五次关系；只续W/G/K/V非零下X_(34,52)=Y_(78,95)的完整原交点，保全部P/N。X/Y大直接投影外部180秒exit124无返回，与旧G465秒/26域180秒输入均冻结，不重跑。
 
 **S0已闭范围：** Af0/L非零、h1/k1与整个h=k碰撞均已完整排除；原全部参数/首项零纤维、物理Gram与执行身份保结果索引及本次完整快照。只续Af非零、三值互异的Lt0一般图；g2零面与原θ余式双零已闭，详见下文。一般LS非零及L0的G非零余交点独立开放，失败照实留档，不重算已闭门。
 

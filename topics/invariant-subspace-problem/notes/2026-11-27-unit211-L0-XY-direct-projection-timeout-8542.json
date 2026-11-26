@@ -1,0 +1,54 @@
+{
+  "session": "Astra-ISP-8542378f-20261127",
+  "operation": "Complete rational Res_w(X_(34,52),Y_(78,95)) of original L0 rho projections",
+  "scratchDriverSha256": "661289950f22610ae218eaf52756409c91c139cfdac05621fdd45748e2281c32",
+  "inputRegenerationSource": "2026-11-27-unit211-L0-V-complete-original-return-8542.py",
+  "inputs": [
+    {
+      "elapsedSeconds": 9.458266,
+      "name": "P1_N1",
+      "profile": {
+        "degrees": [
+          0,
+          34,
+          52
+        ],
+        "sha256": "519fe7c69a0cf7c05283aa66833331b64e7654bb6ec0daec606c49b2c2a02f68",
+        "terms": 1580
+      },
+      "stage": "remaining_original_XY_curve"
+    },
+    {
+      "elapsedSeconds": 37.560281,
+      "name": "P1_EBe",
+      "profile": {
+        "degrees": [
+          0,
+          78,
+          95
+        ],
+        "sha256": "c696ee10ac72763cbc2d9e01cd84cdda6bfd5116faa3262ddbf6f96490c54d33",
+        "terms": 6379
+      },
+      "stage": "remaining_original_XY_curve"
+    }
+  ],
+  "sourceProjectionAlarmSeconds": 120,
+  "externalHardTimeoutSeconds": 180,
+  "observedShellExitCode": 124,
+  "externalWallSeconds": null,
+  "lastRecord": {
+    "elapsedSeconds": 37.586224,
+    "inputWDegrees": [
+      52,
+      95
+    ],
+    "stage": "new_complete_remaining_XY_lambda_projection_begin"
+  },
+  "returnedRationalResultant": false,
+  "sourceTimeoutHandlerRecordReturned": false,
+  "stdoutSha256": "6bbca2e9b8bf4c3becc97c57c894f6eec34b4124b5467c2ebf8030603226ff39",
+  "ordinaryISPClaim": false,
+  "doNotRepeat": true,
+  "replacement": "The lower-degree original V leading-rho curve is completely excluded; continue the original system with its paid monic rho relation."
+}

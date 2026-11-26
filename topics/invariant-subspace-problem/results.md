@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R150 L0原P1/E1的整个rho首项零曲线为空（2026-11-27，已证明）：** [完整V曲线覆盖与同点原返回](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-L0-V-leading-rho-curve-complete-exclusion.md)准确首项R²WCV仅V_(4,6)未付；原X_(34,52)的完整w投影为301次/平方自由205次，四个参数域1/2/32/170全保。两大域以保原w次数的一元模Bézout排，两个小域完整返回w²/(w−1)²；自含源38.595274秒/115276KiB/exit0。原rho五次式可首一化，仍返回全部P/N；X/Y直接大结式180秒exit124仅BEGIN已留失败回执并冻结。
+
 - **R150 S0/Lt0整个b=c支为空，同一eta可合法唯一恢复（2026-11-27，已证明）：** [原曲线三投影Bézout与同eta范数身份](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-equal-singleton-weights-and-same-eta-elimination.md)U=ek+2e−2零支只除原e，原P045/P035/P034/Q4的234/245/168次完整投影QQ组合为95次已付单位乘积；末2e+1由原半权排，4.246669秒/53892KiB/exit0。原Malign随之付Bnum非零，eta=UD/(2jBnum)唯一；Zden(UD)²−(1−ek)D(2jBnum)²=Zden·D·Qa实际乘回，故同eta原范数准确恢复。一般图保所有原mean/N(V)/P/N。
 
 - **R271 规范来源的真实carry范数与总孔图核心扩大（2026-11-27，已证明条件定理）：** [全正交列、Y全逆与同源总孔截断](results/R271-appendix-canonical-source-carry-norm-total-hole-core.md)保b_q=q⁻²alpha_q/alpha_(q−1)：N型下降首缺位列全正交，付ρ_q≈b_q平方和；Y型完整Cayley差付10b_q块l1。用R238真实每个总孔层在H，Kh在H后纯创建准确升一孔，原总孔cut同时返T*h与B*h；可容许exp(θ16^q)、θ<87.5，并有真实H输出的严格扩大例。若同W规范源满足即w0；未从固定总孔层界推出全首缺位块可和，W源费与两道范围核心仍开。
