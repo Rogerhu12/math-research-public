@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R150 S0/Lt0同eta消元后的五几何变量原必要系统（2026-11-27，已证明输入）：** [全部mean、原N/P偶奇及物理L同点返回](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-same-eta-five-geometry-original-system.md)由已付U/B消去唯一eta，三个dP+Peta·Malign身份、原范数与L分子全部回乘；15原必要式及18/9分组单位均有原来源。源7161bc65 build11.280860秒/51000KiB/exit0，完整输入223588字节/SHA41c82217；新专用Actions独立std smoke后接1200秒QQ slimgb，不预宣一般图排空。
+
 - **R150 L0原P1/E1的整个rho首项零曲线为空（2026-11-27，已证明）：** [完整V曲线覆盖与同点原返回](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-L0-V-leading-rho-curve-complete-exclusion.md)准确首项R²WCV仅V_(4,6)未付；原X_(34,52)的完整w投影为301次/平方自由205次，四个参数域1/2/32/170全保。两大域以保原w次数的一元模Bézout排，两个小域完整返回w²/(w−1)²；自含源38.595274秒/115276KiB/exit0。原rho五次式可首一化，仍返回全部P/N；X/Y直接大结式180秒exit124仅BEGIN已留失败回执并冻结。
 
 - **R150 S0/Lt0整个b=c支为空，同一eta可合法唯一恢复（2026-11-27，已证明）：** [原曲线三投影Bézout与同eta范数身份](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-equal-singleton-weights-and-same-eta-elimination.md)U=ek+2e−2零支只除原e，原P045/P035/P034/Q4的234/245/168次完整投影QQ组合为95次已付单位乘积；末2e+1由原半权排，4.246669秒/53892KiB/exit0。原Malign随之付Bnum非零，eta=UD/(2jBnum)唯一；Zden(UD)²−(1−ek)D(2jBnum)²=Zden·D·Qa实际乘回，故同eta原范数准确恢复。一般图保所有原mean/N(V)/P/N。

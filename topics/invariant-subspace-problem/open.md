@@ -53,7 +53,7 @@ rankH3单三jet的全部ess6已闭，末非零Hp原Gaussian/最高/normal给左�
 
 **原U值图L0：** w0/w1、b+c0、W、P1双零、整个G/K均已闭（完整域覆盖保结果索引），新[整个V首项曲线](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-L0-V-leading-rho-curve-complete-exclusion.md)也已闭：301次全投影/205次四域覆盖，32/170域严格一元证据，余两域归原w0/w1，38.595274秒/exit0。可使用原P1/E1的首一rho五次关系；只续W/G/K/V非零下X_(34,52)=Y_(78,95)的完整原交点，保全部P/N。X/Y大直接投影外部180秒exit124无返回，与旧G465秒/26域180秒输入均冻结，不重跑。
 
-**S0已闭范围：** Af0/L非零、h1/k1与整个h=k碰撞均已完整排除；原全部参数/首项零纤维、物理Gram与执行身份保结果索引及本次完整快照。只续Af非零、三值互异的Lt0一般图；g2零面与原θ余式双零已闭，详见下文。一般LS非零及L0的G非零余交点独立开放，失败照实留档，不重算已闭门。
+**S0：** 全部已闭边界/原物理Gram/执行身份保结果索引和快照；只续Af非零、三值互异的Lt0一般图。一般LS非零与L0独立开放，不重算已闭门。
 
 rankH3二重加单点非零Hp整层ess≤5已闭，全部节点/零面与六真逆见结果索引及完整快照；只续Hp0四源有限层。
 
@@ -177,4 +177,4 @@ Deddens自伴MASA、全部可分重数有限成本投影、全2-adic平移距离
 新同eta原Q4的[整首项零面](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-same-eta-quartic-leading-zero-exclusion.md)与[整个ehalf原纤维](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-ehalf-original-exclusion.md)均已独立闭合，可付B_(11,8)、2e−1；原证明无循环。新[整个A24曲线](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-Qa-A24-curve-exclusion.md)以799次QQ完整覆盖和3116次完整结式约化的保次数一元证据关闭，Qa投影只余C83。C83/H33完整QQ投影120秒SIGALRM无返回，冻结；新[原N1/Qa主子式整零面](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-N1-Qa-pivot-zero-exclusion.md)已闭，67项v一次J1可逆，四原矩阵身份给同点λ=d12/δ、f=−d02/δ。继续同eta与完整原mean/P/N，不重复大投影或把两线性行当全系统。
 
 
-新[整个b=c支及同eta重建](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-equal-singleton-weights-and-same-eta-elimination.md)已闭，U/Bnum可付；eta=UD/(2jBnum)与Qa精确等价原配对/范数，保同一个eta返回所有N(V)与奇P/N。正在形成一般Lt0的完整低次原系统，任何新计算仍须原组合/全部分母及实际单位证书。
+[b=c整支](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-equal-singleton-weights-and-same-eta-elimination.md)已付U/Bnum；新[同eta五几何变量完整原输入](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-same-eta-five-geometry-original-system.md)保15原式、全部mean与N/P偶奇、相同eta和物理L返回。源7161bc65实际build11.280860秒/exit0，公开专用Actions运行1200秒QQ门；只有实际I*cert=[1]才排一般Lt0，构造通过不判空。

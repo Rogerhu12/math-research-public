@@ -1,0 +1,17 @@
+{
+  "source": "topics/invariant-subspace-problem/notes/2026-11-27-unit211-S0-Lt0-same-eta-five-geometry-safe-slimgb-QQ-8542.py",
+  "sourceSha256": "0b652d4761d716e0a336ced772b5ec1a8abf6776c65ab0e1fb44c8b3601148f3",
+  "sourceBytes": 38010,
+  "args": [
+    "--build-only"
+  ],
+  "pythonVersion": "Python 3.12.14",
+  "wallSeconds": 14.760270441000102,
+  "exitCode": 1,
+  "peakRssKiB": 50388,
+  "stdoutBytes": 19191,
+  "stdoutSha256": "d175b415ab388afd00cd4f29b6bf8165d65d10b640f9dbe3cbaba5f1f26a5bcf",
+  "fullQQUnitGateRun": false,
+  "claimExcluded": false,
+  "failureReason": "Assertion compared rational unnormalized J1 to canonical primitive factor hash; no QQ gate ran. Corrected by exact full scalar-times-single-factor multiplication before hash comparison."
+}

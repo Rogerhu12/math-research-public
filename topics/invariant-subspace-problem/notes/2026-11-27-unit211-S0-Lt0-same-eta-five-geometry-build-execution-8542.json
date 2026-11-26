@@ -1,0 +1,373 @@
+{
+  "session": "Astra-ISP-8542378f-20261127",
+  "source": "topics/invariant-subspace-problem/notes/2026-11-27-unit211-S0-Lt0-same-eta-five-geometry-safe-slimgb-QQ-8542.py",
+  "sourceSha256": "7161bc65dca9656ac76c35c3154f2085efe090b96cf9e699dd5af7f45c922c69",
+  "sourceBytes": 38286,
+  "args": [
+    "--build-only"
+  ],
+  "pythonVersion": "Python 3.12.14",
+  "wallSeconds": 11.280860416998621,
+  "exitCode": 0,
+  "peakRssKiB": 51000,
+  "stdoutBytes": 26797,
+  "stdoutSha256": "a11d493a693e91fa7a6bd159c2aca0aa84964ce5635b1eb6567935f9a641d301",
+  "fullQQUnitGateRun": false,
+  "claimExcluded": false,
+  "inputBuildRecord": {
+    "stage": "same_eta_five_geometry_original_QQ_input_built",
+    "geometricVariables": [
+      "e",
+      "k",
+      "lam",
+      "f",
+      "v"
+    ],
+    "auxiliaryVariables": [
+      "invPhysical",
+      "invChart"
+    ],
+    "variables": 7,
+    "nonSaturationGenerators": 15,
+    "scriptBytes": 223588,
+    "scriptSha256": "41c822173a00b11665571a5ca325d6530303ef4d28ccaf28471bbf12d82aabab",
+    "coefficientDenominatorChecks": 188,
+    "physicalSaturationAtoms": [
+      "u-1",
+      "Q/(u-1)",
+      "u",
+      "ell*k",
+      "T0/(1-u)",
+      "distinct_p_q",
+      "bc",
+      "lambda",
+      "z",
+      "distinct_h_k",
+      "returned_original_L",
+      "Af",
+      "closed_base_a0",
+      "closed_base_a_half",
+      "closed_parameter_leading_linear",
+      "closed_parameter_leading_A",
+      "closed_w_zero",
+      "same_eta_denominator_B"
+    ],
+    "chartSaturationAtoms": [
+      "closed_zero_singleton_pairing",
+      "closed_consistency_line",
+      "closed_quadratic_invariant_curve",
+      "closed_original_v_leading_curve",
+      "closed_same_eta_quartic_leading_curve",
+      "closed_N1_Qa_pivot",
+      "closed_entire_ehalf",
+      "closed_equal_singleton_weights",
+      "closed_entire_e_16_77"
+    ],
+    "sameEtaOriginalNormAndLinearIdentitiesMultipliedBack": true,
+    "returnedPhysicalLIdentityMultipliedBack": true,
+    "keptFullOriginalMeansAndSeparateNPEvenOdd": true,
+    "newQaQuarticAndItsWholeLeadingBoundaryPaid": true,
+    "smokeInIndependentProcess": true,
+    "smokeTimeoutSeconds": 45,
+    "smokeScriptSha256": "ddf72f0b335d94f643cc534fda0461622ad1a30443d9ccd596749d3b355c5e65",
+    "smokeAlgorithm": "std",
+    "fullAlgorithm": "slimgb",
+    "noModstdLibraryOrParallelTasks": true,
+    "sourceSha256": "7161bc65dca9656ac76c35c3154f2085efe090b96cf9e699dd5af7f45c922c69",
+    "claimExcluded": false,
+    "seconds": 11.019140776001223
+  },
+  "generatorProfiles": [
+    {
+      "stage": "five_geometry_original_generator",
+      "name": "original_mean_E1",
+      "degrees": [
+        5,
+        4,
+        2,
+        2,
+        2
+      ],
+      "totalDegree": 7,
+      "terms": 103,
+      "paidRemovals": [],
+      "originalReturnAndDivisionsMultipliedBack": true,
+      "sha256": "64dc376fa810d08a88cef60574bf40f3e4e8806c9ca02f92387014a66a9b54c5",
+      "claimExcluded": false,
+      "seconds": 10.754690742001912
+    },
+    {
+      "stage": "five_geometry_original_generator",
+      "name": "original_mean_EB_even",
+      "degrees": [
+        7,
+        6,
+        2,
+        2,
+        2
+      ],
+      "totalDegree": 10,
+      "terms": 227,
+      "paidRemovals": [],
+      "originalReturnAndDivisionsMultipliedBack": true,
+      "sha256": "9b9f4e8eff9e5deaf61bc40222ffccdcd9c87d75c1da9566de81a70599157c65",
+      "claimExcluded": false,
+      "seconds": 10.76691418000155
+    },
+    {
+      "stage": "five_geometry_original_generator",
+      "name": "original_mean_EB_odd",
+      "degrees": [
+        7,
+        5,
+        2,
+        2,
+        2
+      ],
+      "totalDegree": 9,
+      "terms": 174,
+      "paidRemovals": [],
+      "originalReturnAndDivisionsMultipliedBack": true,
+      "sha256": "10320a641156e354ee85ea58aaa63bbede21e6f98db676de39f39e523dd61043",
+      "claimExcluded": false,
+      "seconds": 10.770525868001641
+    },
+    {
+      "stage": "five_geometry_original_generator",
+      "name": "original_N1_elim",
+      "degrees": [
+        5,
+        4,
+        2,
+        2,
+        2
+      ],
+      "totalDegree": 7,
+      "terms": 94,
+      "paidRemovals": [],
+      "originalReturnAndDivisionsMultipliedBack": true,
+      "sha256": "49b7276782748466d938722b0e62d4c8c85b026779fcf5856c9bc53372ca7be6",
+      "claimExcluded": false,
+      "seconds": 10.777117521001855
+    },
+    {
+      "stage": "five_geometry_original_generator",
+      "name": "original_U_moment",
+      "degrees": [
+        4,
+        4,
+        3,
+        2,
+        0
+      ],
+      "totalDegree": 7,
+      "terms": 86,
+      "paidRemovals": [],
+      "originalReturnAndDivisionsMultipliedBack": true,
+      "sha256": "4fc0b70f31fdf3aae9e4c9f812e37eafbf7fbc3bc856dd920a427badc33b0e7c",
+      "claimExcluded": false,
+      "seconds": 10.778542640999149
+    },
+    {
+      "stage": "five_geometry_original_generator",
+      "name": "same_eta_original_norm_Qa",
+      "degrees": [
+        5,
+        5,
+        2,
+        2,
+        0
+      ],
+      "totalDegree": 8,
+      "terms": 103,
+      "paidRemovals": [],
+      "originalReturnAndDivisionsMultipliedBack": true,
+      "sha256": "a21bff25ea233c97adcb24dab7ebe63cddd0acb60116e9d154be29a8d57484dd",
+      "claimExcluded": false,
+      "seconds": 10.780066449000515
+    },
+    {
+      "stage": "five_geometry_original_generator",
+      "name": "same_eta_original_N_value",
+      "degrees": [
+        6,
+        6,
+        4,
+        3,
+        0
+      ],
+      "totalDegree": 11,
+      "terms": 299,
+      "paidRemovals": [
+        [
+          "ell*k",
+          1
+        ],
+        [
+          "T0/(1-u)",
+          1
+        ]
+      ],
+      "originalReturnAndDivisionsMultipliedBack": true,
+      "sha256": "bb5795a273b2647cb16a4231f7b974f7daea80201c43e3b2a422da2761baabf8",
+      "claimExcluded": false,
+      "seconds": 10.792330268001024
+    },
+    {
+      "stage": "five_geometry_original_generator",
+      "name": "original_NB_even",
+      "degrees": [
+        10,
+        7,
+        3,
+        3,
+        3
+      ],
+      "totalDegree": 14,
+      "terms": 674,
+      "paidRemovals": [],
+      "originalReturnAndDivisionsMultipliedBack": true,
+      "sha256": "f32503695d9c656204048d0078cbd518e6b02d6393d9de7feb6d0bc55b8e328b",
+      "claimExcluded": false,
+      "seconds": 10.808596808999937
+    },
+    {
+      "stage": "five_geometry_original_generator",
+      "name": "same_eta_original_NB_odd",
+      "degrees": [
+        12,
+        8,
+        4,
+        4,
+        3
+      ],
+      "totalDegree": 17,
+      "terms": 1573,
+      "paidRemovals": [
+        [
+          "ell*k",
+          1
+        ]
+      ],
+      "originalReturnAndDivisionsMultipliedBack": true,
+      "sha256": "1f0f3df2e0343f5e46014f794685e545b45d9eb57f312c6683de0c4fb52b6796",
+      "claimExcluded": false,
+      "seconds": 10.847265481001159
+    },
+    {
+      "stage": "five_geometry_original_generator",
+      "name": "original_PB_even",
+      "degrees": [
+        13,
+        9,
+        3,
+        3,
+        3
+      ],
+      "totalDegree": 17,
+      "terms": 1087,
+      "paidRemovals": [],
+      "originalReturnAndDivisionsMultipliedBack": true,
+      "sha256": "beda85efa72848e5d0960ebb83d7339b0f1aad472b50933a6b1bae35ed704098",
+      "claimExcluded": false,
+      "seconds": 10.867204868000044
+    },
+    {
+      "stage": "five_geometry_original_generator",
+      "name": "same_eta_original_PB_odd",
+      "degrees": [
+        16,
+        13,
+        4,
+        4,
+        3
+      ],
+      "totalDegree": 22,
+      "terms": 3397,
+      "paidRemovals": [],
+      "originalReturnAndDivisionsMultipliedBack": true,
+      "sha256": "de7832dc43a482686c518562631d38abb7194554483b344a05edac2af03a00ea",
+      "claimExcluded": false,
+      "seconds": 10.948531370000637
+    },
+    {
+      "stage": "five_geometry_original_generator",
+      "name": "original_N1_mean_remainder",
+      "degrees": [
+        8,
+        7,
+        1,
+        1,
+        2
+      ],
+      "totalDegree": 9,
+      "terms": 205,
+      "paidRemovals": [],
+      "originalReturnAndDivisionsMultipliedBack": true,
+      "sha256": "4f3dc94e627d9df185440549f7f1bca2db930f55cbdd7e1191b65968e852bffb",
+      "claimExcluded": false,
+      "seconds": 10.951579868002227
+    },
+    {
+      "stage": "five_geometry_original_generator",
+      "name": "original_Qa_mean_remainder",
+      "degrees": [
+        12,
+        10,
+        1,
+        1,
+        2
+      ],
+      "totalDegree": 13,
+      "terms": 451,
+      "paidRemovals": [],
+      "originalReturnAndDivisionsMultipliedBack": true,
+      "sha256": "7705610281ab734d71e88e803f14c9cb34a6ea1ac2095341c38924708f31f3fb",
+      "claimExcluded": false,
+      "seconds": 10.965011318001416
+    },
+    {
+      "stage": "five_geometry_original_generator",
+      "name": "original_Qa_quartic_Q4",
+      "degrees": [
+        21,
+        16,
+        0,
+        0,
+        4
+      ],
+      "totalDegree": 21,
+      "terms": 764,
+      "paidRemovals": [],
+      "originalReturnAndDivisionsMultipliedBack": true,
+      "sha256": "2ac01c2cfc599627e063bb891b342257412243f94fe43fca8cc188d64f918029",
+      "claimExcluded": false,
+      "seconds": 10.98404019100235
+    },
+    {
+      "stage": "five_geometry_original_generator",
+      "name": "original_Qa_quintic_Q5",
+      "degrees": [
+        22,
+        19,
+        0,
+        0,
+        5
+      ],
+      "totalDegree": 23,
+      "terms": 1085,
+      "paidRemovals": [],
+      "originalReturnAndDivisionsMultipliedBack": true,
+      "sha256": "f5c16f2208515cdb8a13b05469ae78e7d3dd77520dfa589a62a4d7704c0989ac",
+      "claimExcluded": false,
+      "seconds": 11.007941283000036
+    }
+  ],
+  "limits": {
+    "constructionAlarmSeconds": 60,
+    "addressSpaceGiB": 8,
+    "plannedIndependentSmokeSeconds": 45,
+    "plannedFullQQGateSeconds": 1200
+  },
+  "priorBuildOnlyFailureReceipt": "2026-11-27-unit211-S0-Lt0-same-eta-five-geometry-build-normalization-failure-8542.json"
+}

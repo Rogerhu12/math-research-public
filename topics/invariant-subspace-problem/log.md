@@ -493,3 +493,6 @@ AI-assisted GPT-6 Astra Pro：U零曲线只用已付e重建四原式，三完整
 
 ## 2026-11-26 23:02:30 UTC — Astra-ISP-8542378f-20261127：整个L0原rho首项曲线关闭
 AI-assisted GPT-6 Astra Pro：原P1/E1首项只余V曲线，301/205全投影四域覆盖与同点原w返回全部闭合；源39efe1cb实际38.595274秒/115276KiB/exit0。大X/Y投影外部180秒exit124无返回保准确回执，不重跑；转已付首一rho关系下的完整原P/N系统。
+
+## 2026-11-26 23:04:40 UTC — Astra-ISP-8542378f-20261127：同eta的五几何变量完整原输入
+AI-assisted GPT-6 Astra Pro：U/B已付后同eta准确返回全部mean、N(V)、NB/PB偶奇与原L单位，15原式全部身份回乘，构造11.280860秒/51000KiB/exit0。新增课题外workflow `.github/workflows/invariant-subspace-Lt0-same-eta-five-geometry-8542.yml` 运行实质新输入的QQ门；旧失败输入不重跑。私库23:03:38 UTC实际pull至8c102eb2，根规则diff无变、QUEUE仍本会话进行中。

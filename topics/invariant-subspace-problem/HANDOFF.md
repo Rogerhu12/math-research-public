@@ -5,8 +5,8 @@
 ## 目标与执行
 
 - **普通复可分无限维 Hilbert ISP 未完成。** 仅全体有界算子的存在定理或完整反例算完成；子题闭合即接原open，不能以时间/输入不足收尾。
-- **最近实际 pull / 已读规则提交：** `2cd9e16be1fbab4295c283d40d0d90ac545b7251`（2026-11-26 23:03:03 UTC；本地部分克隆）；本次两 README diff 无变化。每次 pull 且至少每小时检查并更新本项。
-- 私库QUEUE接手已推5746fa79；最近私库实际pull为2026-11-26 22:13:10 UTC，已读根规则提交d5fa06dffa4c0502c2498aef576cf64dd1f382f2，diff无变，QUEUE保持本会话。公私部分克隆；每结论一推，非快进/ref竞争即pull --rebase再推直到成功，不force，令牌仅CLI。
+- **最近实际 pull / 已读规则提交：** `9a64cf198d6a1d6ac78504b3a5bb97ecd0e087e5`（2026-11-26 23:04:58 UTC；本地部分克隆）；本次两 README diff 无变化。每次 pull 且至少每小时检查并更新本项。
+- 私库QUEUE接手已推5746fa79；最近私库实际pull为2026-11-26 23:03:38 UTC，已读根规则提交8c102eb2c495c626ce31077971f36849456bc56f，diff无变，QUEUE保持本会话。公私部分克隆；每结论一推，非快进/ref竞争即pull --rebase再推直到成功，不force，令牌仅CLI。
 - 根/本题README规则无新差异；至少每小时实际pull，逐次检查并记SHA。MD<100KB、H<10KB、open尽量<30KB、topic<200MB；只留源/参数/SHA/小回执，不写根LOG或可重算大输出。
 - 全部先前结论、原失效输入/运行身份和开放边界保[完整交接链](notes/2026-11-27-handoff-before-same-eta-and-total-hole-core-8542.md)、[open](open.md)和[结果索引](results.md)。省略不是关闭，已登记不重做。
 
@@ -22,6 +22,7 @@
 - L0整个V_(4,6)首项曲线已闭，完整证明/源39efe1cb已登记，实际38.595274秒/exit0；完整301次投影/205次四域覆盖，32/170域保次数一元证据，两个小域归w0/w1。X/Y直接大结式外部180秒硬限未返回；旧G465秒和26域Euclid180秒也冻结，须换实质输入。下一利用已付原rho五次首项做完整原系统。
 - S0：Af0/L非零、h1/k1、整个h=k、Lt0的g2零/θ余式双零/M首项零/u2/ell1/a0/ellhalf/原U导数w0已闭；一般θ=−r0/r1合法。原k4e、v0、Omega、P045全部v首项零/B44及u93/77均闭。正确原Gram/Cramer、20小子式和Dixon来源已付，作废旧scratch双点乘法374/580投影永不用。
 - 新同eta六原式与六二次改写双向已付，1/λ/f/eta仅生成非自由。Qa原身份不除B；Q4及B_(11,8)整首项零面、整个ehalf、整个A24曲线均闭，Qa投影只余C83。原N1/Qa的67项v一次主子式J1整零面闭（29.509413秒）；四原矩阵身份给同点λ=d12/δ、f=−d02/δ。原U=ek+2e−2（b=c）整支也已闭，234/245/168次QQ三投影Bézout付U/Bnum单位，4.246669秒；同点eta=UD/(2jBnum)与Qa严格恢复原范数。续全原mean/N(V)/P/N，不用少数返回行替全系统。
+- 新同eta五几何变量原系统源7161bc65已付15原必要式、三条dP+Peta·Malign身份与L返回，保全部mean/N/P偶奇；5几何+2分组饱和，build11.280860秒/51000KiB/exit0，输入223588字节/SHA41c82217。专用same-eta-five-geometry Actions随push启动，独立std后1200秒slimgb，仅实际I*cert=[1]算判空，尚无运行结论。
 - 旧05e769门smoke内存/tasks失败；6cb8与dc2d独立smoke均过、完整slimgb1200秒仅BEGIN无I*C=1。H33直接Res_k90秒、C83/H33新120秒均无结果。准确源/run/job/退出/RSS保回执，全部冻结不重跑。
 - 一般LS非零的两线性Cramer四参数atlas已生成，原Delta0全保，尚未判空；旧mod1031内存/600秒失败不重跑。
 
