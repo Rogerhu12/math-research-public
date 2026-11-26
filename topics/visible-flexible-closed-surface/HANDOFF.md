@@ -53,6 +53,6 @@ R242连续q>1面积下界须已付Lipschitz/密度/扇形与连续成本，有�
 root维护main/全前缀接口；geometry持续polar实际求解及几何；solver处理原方程/fullH和publisher实际冲突；exact推进两个M48/源对齐h509。不在阶段结果收尾，完成子问题立即继续open。
 
 <!-- 6a65-root-literal-rules --> 2026-11-26 16:34:38 UTC 真实pull/rebase读取main 1a19b71bdb8c539d296382a2a0d7dc036dce430c，双README逐差无变化；CLI已恢复，后续普通Git发布。
-<!-- 6a65-m12-angular-warm-ci-rules --> README unchanged at 4b16ebce2ca100b2b0a145f50b50b093d71e5b99; run 45847254548 attempt 1.
+<!-- 6a65-m12-angular-warm-ci-rules --> README unchanged at 96a97a3548b284fd81aa4406f4fe0eae2d194aa4; run 45847254548 attempt 1.
 <!-- 6a65-m12-full-normal-ci-rules --> README unchanged at 63e2c98d961cf673b1df09be0b318331cd35fcfa; run 45851669566 attempt 1.
 <!-- 6a65-m12-h509-ci-rules --> README unchanged at c3cd725cb517582a6139cdb5a3d3f69bfaa8f67d; run 45857469750 attempt 1.
