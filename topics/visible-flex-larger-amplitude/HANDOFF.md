@@ -43,8 +43,8 @@
 <!-- visible-larger-parallel-03:end -->
 
 <!-- visible-larger-parallel-04:start -->
-并行公开Actions04：[run 45857104277/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45857104277)；[实际记录](notes/2026-11-26-public-actions-45857104277-1.md)。阶段`followup:resume-20261126-actual-R671-v3-full-phi-continuation-02-rebuild04`/completed；已返31，exit=0。
-并行04规则核查：2026-11-26 17:15:48 UTC，真实pull至`75a24f53a68572ff8e735420e52352363fce1c3f`，双README无变化。
+并行公开Actions04：[run 45857104277/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45857104277)；[实际记录](notes/2026-11-26-public-actions-45857104277-1.md)。阶段`followup:R684-actual-new-physical-mean-metric-p4-first-20261126-rebuild04`/completed；已返32，exit=0。
+并行04规则核查：2026-11-26 17:21:32 UTC，真实pull至`db2740e48fc0a9e21281807f75c480527c59b640`，双README无变化。
 <!-- visible-larger-parallel-04:end -->
 
 ## 当前公开Actions执行
