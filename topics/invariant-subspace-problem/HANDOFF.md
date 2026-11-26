@@ -5,7 +5,7 @@
 ## 主目标、规则与执行
 
 - **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仅全体有界算子的存在定理或完整反例；子结果不作完成，继续研究。
-- **最近实际 pull / 已读规则提交：** `4824d210699be25ab759a1f61a08230416960a69`（2026-11-26 08:58:53 UTC）。本次两README无新规则差异；已读根/课题README、H/open、结果索引及定点log/notes。每次pull及至少每小时比diff，记录SHA。
+- **最近实际 pull / 已读规则提交：** `c4831cc7f0f568e637cdf446961cc12b62a97a1b`（2026-11-26 09:11:21 UTC）。本次两README无新规则差异；已读根/课题README、H/open、结果索引及定点log/notes。每次pull及至少每小时比diff，记录SHA。
 - 私库QUEUE认领已推 `e776df496eedfa449b0475cefe140fdae7023db4`；研究在公开仓库。每结论单推，推前pull/rebase；NFF/ref锁拒绝循环rebase再推，不force，令牌仅CLI。
 - 公库工作树 `/tmp/isp-347c05929dd3/math-research-public`；root独占git/索引/H/open/log，代理仅独占TMP。仅保存源、参数、身份、SHA及小回执，不存可再生数组。
 - 最新完整前H见[压缩快照](notes/2026-11-26-handoff-before-rank-three-double-single-zero-hp-nine-347c.md)及其归档链。MD<100KB、H<10KB、open尽量<30KB、topic<200MB，不写根LOG。
@@ -24,7 +24,7 @@
 
 ### 正在推进的三张原分支
 
-- **unit211，P0非零、m零：** F1/u1、F2/l0两奇异jet面及J=lQ(2u−1)−u(2u+Q−2)零面已闭。代理正在完成整个m0：已严证3mean在A4开集到(u,Q)有限纤维；全部低曲线、原秩二族与第一高曲线QQ671/629 gcd均付。第二高曲线首个QQ结式2876次已完成974.697804秒；第二条exit137，原因未知，不能记完成。已切换原4×4必要行列式/逐步伪余式缩小输入，保全部首项零纤维；主稿末gcd仍待真正完成。探索在 `unit31-work`，不得把预检输出序列化失败或模素数定位算作证明。
+- **unit211，P0非零、m零：** F1/u1、F2/l0两奇异jet面及J=lQ(2u−1)−u(2u+Q−2)零面已闭。代理正在完成整个m0：已严证3mean在A4开集到(u,Q)有限纤维；全部低曲线、原秩二族与第一高曲线QQ671/629 gcd均付。第二高曲线首个QQ结式2876次已完成974.697804秒；第二条exit137，原因未知，不能记完成。已切换原4×4必要行列式/逐步伪余式缩小输入，保全部首项零纤维；主稿末gcd仍待真正完成。已提交冻结源0374f893及专属公开Actions（180分钟/12GiB，run待观察），完整[执行检查点](notes/2026-11-26-unit211-zero-mean-general-execution-checkpoint-347c.md)保失败身份。探索在 `unit31-work`，不把预检或模素数定位作证明。
 - **[unit211，P0/m非零，u1半比例已闭](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-nonzero-isolated-mean-unit-base-mean-half-ratio-exclusion.md)：** 共同p+q2后u=bp+cq=1，l0、jet系数零面及整λ=m/u0=1/2均排除；QQ92/162/170末Q5/4原ideal迫l0，顶点族完整Gram秩二。源2.801380秒/72196KiB/exit0。root继续λ≠0,1/2：v=2λ−1、z=(2f−1)/v合法，把原三mean改为v二次式，正在支付投影及全部例外；一般u≠1仍开。探索在 `root-qgeneral-work`。
 - rankH3三不同点、H自身Gram退化的ess6：F0、V二jet、非零Hp全空；只余双约化、F≠0、Hp0、Gram秩2且两非零边。非退化三点H也继续。不能以H子Gram退化代整个六维K退化。
 - rankH3单三jet、rankV2整层ess≤5已闭：Hp0原十六维QQ/13真逆、所有特殊/∞和V二jet全付；最后F=−m原0/1/2阶梯度得1=5/2。不要重做旧余支。

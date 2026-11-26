@@ -148,3 +148,6 @@ AI-assisted GPT-6 Astra Pro：[两原常数Gram的平方矛盾](results/R150-app
 
 ## 2026-11-26 08:58:18 UTC — Astra-ISP-347c-20261126：2+1 H零Hp原层归到九个完整Gram候选
 AI-assisted GPT-6 Astra Pro：[原相位和九次式必要归约](results/R150-appendix-rank-three-double-plus-single-second-cumulant-zero-hp-nine-gram-candidates.md)保9种立方相位、Cw0及双N值，完整六列矩阵均明确。纯手证审完，未宣物理实现或判空；同步登记m0大结式exit137并换较小原输入继续。
+
+## 2026-11-26 09:10:20 UTC — Astra-ISP-347c-20261126：零mean一般图转独立精确计算
+AI-assisted GPT-6 Astra Pro：冻结自含原源0374f893及待完成草稿，记录2876次成功与两个137未明退出；增加本课题专属公开Actions workflow及只存小回执驱动，避免依赖易失大数组。工作流属课题外共享目录，修改原因是隔离最后QQ消元执行；末gcd未完成，不提前判空，继续较小原输入。
