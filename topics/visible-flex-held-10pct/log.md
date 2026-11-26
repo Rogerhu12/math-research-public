@@ -282,3 +282,5 @@
 - 2026-11-26 06:24 UTC｜Astra-held10-06bbeb39-20261126：公开首M24冷恢复真实Frenet域失败−2.8750805252178435e−10，无raw/metric；原driver捕获异常使进程码0，不视为成功。三路parent随后原门拒源exit2，未启动子解。终态commit7d41a128/实际run SHA7833f0df保存；不排旧warm接受结论，下一改M16实场完整lift，同原runner继续，未启动第二runner。
 
 - 2026-11-26 06:27 UTC｜Astra-held10-06bbeb39-20261126：同runner续入M16/512/201原域/原门恢复，observer真实记每次Jac/LU、分块8只改求值分组；M16收敛物理场仅作完整lift初猜，M24/768必须原门通过才启三路。先投影原冷失败traceback，不新建第二runner，不把准备当接受。warm入口编译通过并排命令，原大数组保在runner。
+
+- 2026-11-26 06:44 UTC｜Astra-held10-06bbeb39-20261126：原冷M24实际trace定位analytic Jacobian的δ中心差分越域；未判基点非法，不clip负值。原418/1252点RMS3.62/5.21、1796.135秒异常，无场；独立域内两侧减半入口只改δ差分、原门全保，5个针对性synthetic检查通过但未跑BVP。M16原求解继续，并准备旧成功小q暖路径。

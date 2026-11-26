@@ -6,11 +6,11 @@
 
 连通闭C²嵌入、C²连续族；H闭、有内点且diamH≥.2D，整像δhold≥.1D、含反射δE>0，全时reach≥.03D。固定完整g/物理数据/时间范围加密到完整metric≤1e−6并持续下降。必须实际闭合和共用Cartesian两jet；λ<1不提供准确圆弧H。
 
-- 公共已完整读规则并真实pull：`d8eead600b0b04929cf60dbba3d0380f30b6bb3a`；私有根README/QUEUE接手登记已推 `2f68946f2fa3e192a291c7c1393231af1a89953e`。每次pull核双README差异，至少每小时一次。root独占git，逐结论push，NFF立即pull --rebase再推，禁force；令牌只命令行。
+- 公共已完整读规则并真实pull：`2424d6f46e377dae4b2dd08aa6404b0a9d170498`；私有根README/QUEUE接手登记已推 `2f68946f2fa3e192a291c7c1393231af1a89953e`。每次pull核双README差异，至少每小时一次。root独占git，逐结论push，NFF立即pull --rebase再推，禁force；令牌只命令行。
 - 工作树 `/tmp/held10-astra-06bbeb395471-public2`；原/workspace盘满，不删他人文件。旧1b6d88ec scratch不存在；54314/45287/79634最终状态仍未知。详细[本次接手/来源](notes/2026-11-26-resume-and-current-sources.md)。
 - 70份精确历史源码已恢复；M24端口/角图/tail参数/native均与旧SHA逐字相同。[可搬迁恢复入口](notes/2026-11-26-tail-source-recovery.md)。恢复仅工程输入，不作为新数学结果。
 - 直接原控制冷恢复818/418节点均exit137；batch8恢复亦被SIGKILL，最后只到Jac开始，未到LU、无accepted raw。不能说数学失败。最后Jac输入曾保存为未接受初猜；05:51 UTC共享环境重置后本地副本已丢，不能继续假设存在。
-- 第四次本地恢复仍SIGKILL（44.48s/peak270084KiB），不猜原因。公开[run45763361623](https://github.com/Rogerhu12/math-research-public/actions/runs/45763361623)原M24冷恢复已真实域失败：−2.8750805252178435e−10，无raw/metric；进程码0仅因driver捕获异常。随后三路parent正确拒绝源exit2，没有启动子解。[实际记录](notes/2026-11-26-direct-prefix-domain-return.md)。原runner仍保源码/native，已提交下一命令`held10-m16-lift-recovery-20261126-01`：M16/512/201实际场完整lift升M24，分块8+observer，不降门；先投影原traceback，再15s记录真实Jac/LU进度。通过后继续[三路入口](notes/2026-11-26-material-parallel-entry.md)。
+- 第四次本地恢复仍SIGKILL（44.48s/peak270084KiB），不猜原因。公开[run45763361623](https://github.com/Rogerhu12/math-research-public/actions/runs/45763361623)原M24冷恢复已真实域失败：−2.8750805252178435e−10，trace已定位δ中心差分扰动点，无raw/metric；进程码0仅因driver捕获异常。随后三路parent正确拒绝源exit2，没有启动子解。[实际记录](notes/2026-11-26-direct-prefix-domain-return.md)。原runner仍保源码/native，已提交下一命令`held10-m16-lift-recovery-20261126-01`：M16/512/201实际场完整lift升M24，分块8+observer，不降门；先投影原traceback，再15s记录真实Jac/LU进度。δ域内减半差分独立入口已准备、未跑BVP；M16冷残差仍大，另准备旧成功q006→.06暖路径再生。通过后继续[三路入口](notes/2026-11-26-material-parallel-entry.md)。
 - 05:51 UTC共享环境失联后/tmp重置；重新部分克隆到public2，远端R63等已推成果保留。临时源按保留推导重建，R64已绑定新源实跑；fixed runner及mean接口按各自当前记录恢复，旧临时SHA不冒充新文件。公共runner和其场数据未受该本地重置影响。
 - 根§12优先真实数学/求解，§15可再生数组不入Git/Release/artifacts；只存源/参数/命令/hash/小标量。H<10KB、单MD<100KB、目录<200MB，不写根LOG。
 
