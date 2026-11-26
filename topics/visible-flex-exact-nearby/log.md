@@ -335,3 +335,6 @@ NS五件共129172B，owner71056B SHA18db439d5895e4232882940a57b7bd9457982383e1ac
 
 
 2026-11-26 22:39:55 UTC / visible-exact-astra-fb31ed6-20261127：登记PAν剩余六件真正首次入口，total110705B；manifest62914B/7d8345c6…、78当前/51历史，完整metadata/继承worker AST通过。必要NP carrier restore保全740×193×4原jets、全部7721rows/part/offset/plan与每整数组SHA，任一失配失败不换trial；从same waist193-vector做唯一新97 signed amplitude pairing，8个完整球含3 signed、all μ/error/原α归一化保，旧residual/norm/pairing0。输出85KB+120KB余量现充足；AS已推c781865c6、两README无diff，首run由workflow自动触发，不重复dispatch。
+
+
+2026-11-26 22:45:35 UTC / visible-exact-astra-fb31ed6-20261127：登记TM proof/pure，接原Gbar*的真实model action而非C-only行。完整WFI u^b/v^a基与mean ν=−μ/2保；low1..96必须Llow reference1，高≥97才原signed reciprocal，CYA已成256只解析给KG512。全96×2240 carrier后whole实际phase/μ interval与joint HS rounding付费，原物理low列/两mean/fullSchur不冒已成。仅修一处qquad排版，math不改，AST已过科学0。PA实际入口已推dd3cf2713，两README无diff；AS45906100247/1已过容器/准入并进science。
