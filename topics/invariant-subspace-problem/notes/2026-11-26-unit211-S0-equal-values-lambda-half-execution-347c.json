@@ -1,0 +1,33 @@
+{
+  "schema": "r150-unit211-S0-h-equals-k-lambda-half-original-V8-v1",
+  "session": "Astra-ISP-347c-20261126/unit31_general",
+  "runtime": "functions V8 exact BigInt rational polynomial arithmetic",
+  "sourceSha256": "f0d97e71d86fafa8a41822c84d7dd89bb5aa28cb2471d5a5165734d68aaea735",
+  "sourceBytes": 5345,
+  "elapsedSeconds": 0.012,
+  "actualResult": {
+    "status": "all_exact_original_half_collision_identities_verified",
+    "rationalPolynomialIdentities": 15,
+    "polynomialProducts": 485,
+    "variables": [
+      "b",
+      "q",
+      "t"
+    ],
+    "paidUnits": [
+      "b",
+      "c=1/2-b",
+      "q",
+      "q-1"
+    ],
+    "tZeroRequiresOriginalFullFiveColumnGramRank": true,
+    "tNonzeroContradiction": "g=0 and AB-AC=0 imply W^2=0, then q=0",
+    "fullGramAtTzero": "[[0,0,1,q,U0],[0,0,0,0,0],[1,0,0,0,0],[q,0,0,0,0],[U0,0,0,0,0]]",
+    "physicalRank": 2,
+    "physicalRequiredMinimumRank": 4,
+    "claimOriginalHalfCollisionExcluded": true,
+    "claimWholeS0LayerEmpty": false,
+    "originalFourEquationSerializationSha256": "29de45b73a30f2b8965fb9f7d133dd013d293e115f6848ffefd3e9d473008ee2"
+  },
+  "ordinaryISPClaim": false
+}

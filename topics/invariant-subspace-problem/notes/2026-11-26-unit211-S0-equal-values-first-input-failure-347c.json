@@ -1,0 +1,39 @@
+{
+  "schema": "r150-unit211-S0-h-equals-k-first-projection-observed-stop-v1",
+  "run": 45827161540,
+  "job": 139934168089,
+  "conclusion": "failure",
+  "reason": "All original lambda=1/2 t polynomials share t=0; all pair-resultants are identically zero, contradicting the orchestration assertion that the necessary projection list be nonempty. Original construction assertions all passed. A physical full-five-column Gram rank argument, not an algebraic emptiness claim, pays this branch in a separate corrected source.",
+  "sourceBlob": "55faf669e320a03591e868178ee72b6922525a2e",
+  "sourceSha256": "8fbb644af9f53ff06ac4ffaee10cd0ef9d8700ebd2978aea91ad4f8279b0803e",
+  "originalInputSha256": "6614c6831259dac637c76f5958effc002dafcc9710bb1d56194f582ebbe53a6b",
+  "driverReceipt": {
+    "elapsed_seconds": 0.11783670599999851,
+    "max_child_rss_kib": 39952,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "0942f3f6f04a91993b9c8a081e358b0731da0296",
+        "before": "7850ab6bf674840c056b5f4c739429f35c0fdc4f",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "fef43bdf8690f2eec4751d85784a266eacdd0322"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-26T13:14:26.797768+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "45827161540",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-347c-20261126",
+    "source_commit": "7850ab6bf674840c056b5f4c739429f35c0fdc4f",
+    "source_exit_code": 1,
+    "source_git_blob": "55faf669e320a03591e868178ee72b6922525a2e",
+    "source_sha256": "8fbb644af9f53ff06ac4ffaee10cd0ef9d8700ebd2978aea91ad4f8279b0803e",
+    "stdout_bytes": 5179,
+    "stdout_sha256": "f4acc280ffe73e796f3096d761db08e724f2a58c52d985eb73bb11dc9fd84a9d",
+    "stop_reason": null
+  },
+  "nextScope": "lambda=1/2,t!=0 after the actual original rank-two family is geometrically excluded; all 2lambda^2=1 fibers remain."
+}

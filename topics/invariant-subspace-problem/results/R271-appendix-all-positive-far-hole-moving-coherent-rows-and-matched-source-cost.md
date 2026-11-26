@@ -6,6 +6,8 @@
 
 **状态：已证明。** 本稿把原第一远孔 Bessel 行扩为全部正远孔的同一有界整行。不同远孔数之间的交叉没有被删掉；一个由原连续尾确定的准确层权支付这些交叉。其逆权在 $p\le2x$ 内只付 $O(p)$ 的平方费用。随后把全部幂行同时接到原同一 $w/u$ 的 matched 完整 Schur 配对，给真正有限头 MP 的最优费用表达。物理层权、旧头强位、原全部右段和 partial 支撑均保留。该 MP 的实际最低源上界以及稳定范围端点仍须另外支付。
 
+本稿继承而不重做[旧全高度无权行定理](R271-appendix-cross-head-all-height-coherent-bessel-and-same-w-full-energy-summability.md) §§1–2：旧定理在 $e^{(25/2)d_m^3}\le x_m\le e^{13d_m^3}$、$h_m\le2x_m$ 的快速起点上，已保全部层间交叉并给有限整行 $1\le j<h_m$ 的无权 Bessel 常数 2。本稿新增的是任意固定几何增长起点、无限全部 $p\ge1$ 的准确层权，以及完整 matched／全幂 MP 来源费用；不替代旧范围内已付的无权、无高度损失结论。
+
 依据：
 
 - [原第一远孔整行及同源 matched 配对](R271-appendix-moving-first-far-coherent-row-bessel-and-matched-source-cost.md)。
@@ -369,7 +371,7 @@ $$
 F_{x,s}^{+}
 =\sum_{p=1}^J\frac{(-C)^pa\otimes(D_x^*)^p\Omega}{p!s^p}
 =\mathcal B_x^*z
-$
+$$
 
 其中 $z$ 与 (4.4)、(7.1) 完全同一。因此对几何增长的合法起点，
 $$
