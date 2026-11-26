@@ -418,3 +418,5 @@
 - 2026-11-26 13:15 UTC｜Astra-held10-06bbeb39-20261126：原design实际attempt006字面λ=.048，返回MemoryError()，runbecad4d5、无raw/physical/RMS；不是已测残差未门，实际allocation位置未获。父链保真.032锚进入attempt007；原worker未允许traceback键，未擅改活源/白名单或伪造异常原因。独立v5/完整secant继续。
 
 - 2026-11-26 13:17 UTC｜Astra-held10-06bbeb39-20261126：v5真实零锚37项identity全过，run4593371f/raw6fb36ac7/physicalbce9ccd2；保原baseδ/raw p0/chart/完整jets/mean1168，原metric6.4824157829e−7/RMS9.9271503452e−7同一。physical SHA另由真实单字段投影补齐，不冒用原NPZ；solver_invoked=false/raw status与success=null，未将重表达计作新λ接受。
+
+- 2026-11-26 13:19 UTC｜Astra-held10-06bbeb39-20261126：v5首真实λ.004/M24返回status0，634点/RMS9.94361e−7/物理BC1.48982e−14；metric1.71372e−5未门，run557fc49f/raw1ca44d54/physical98c08f7a，仅完整初猜。6个原Newton接受步/minα.5/无域拒/1 merit拒；真实完整lift到M32的phase共同列逐位同一、新列零，仍不称新接受解。
