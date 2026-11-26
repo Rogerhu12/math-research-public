@@ -487,3 +487,7 @@ git show e95fea50651bcfe32aad52826caa8a692c2ff741:topics/visible-flex-larger-amp
 ## 19. 2026-11-26：六份旧独立开放轨道
 
 root于2026-11-26 15:28:56 UTC普通移出6份已核可由完整原源/config重生的Hermite/fast旧轨道，共2,276,216B；三源、全参数、全部非轨道字段、首末紧凑标量、固定ca7历史/每blob与所有失败边界完整保[第十九次记录](2026-11-26-legacy-six-open-trajectories-retention.md)及[独立JSON](../computations/resume-20261126-legacy-six-open-trajectory-retention.json)。当前scripts/计算参数无这6路径引用，7项旧notes消费者依固定历史恢复scratch，不冒全仓无引用。M64 v.45原.57/.6与domain失败原样保留；没有科学复跑、历史改写或raw换名入库。
+
+## 20. 2026-11-26：六份旧独立 M64/M48 开放轨道
+
+root于2026-11-26 17:12:35 UTC普通移出6项共1,613,460B。[完整说明](2026-11-26-legacy-six-open-m64-retention.md)与[紧凑全部复现记录](../computations/resume-20261126-legacy-six-open-m64-retention.json)保原三源、全config/argv、原全部非轨道字段/首末row、固定1d284历史和每blob、全部失败及旧消费者。保v=.25祖先；M48实际.55到达/.5648报错/2/3目标清楚分开。仅源码/JSON复制/hash/byte/限定文本搜索，没有科学复跑、强推或raw换名参数。

@@ -105,3 +105,7 @@
 ## 2026-11-26 17:10:04 UTC — 独立径向形状与完整9KKT/27jet条件接口
 
 刊[完整解析](notes/2026-11-26-zero-endpoint-fold-and-added-shape-kkt.md)，gamma=(1/16,1/8,3/16)严格独立且支撑仍在旧U，保旧Wz加三world轴；旧族v0容许包含不冒minnorm选枝继承。完整dimensionless成本、乘子Hessian、SOSC非奇异证明、9KKT/27角jet/转置/四阶混合与同支对称合同逐式审；补秩n·jgamma≠0只条件，不从旧角5失败或必要式PASS猜fold/H。原完整sixjet消费/全部变量保，无当地科学。辅助t明确非物理弯曲参数；实现与现有延拓并行推进。open仅§7压缩、其全原字固定66ea保，§1–6逐字不变。
+
+## 2026-11-26 17:12:35 UTC — 第20次已核旧raw普通移出
+
+实际移出6份独立M64/M48开放轨道共1,613,460B；[完整来源/恢复](notes/2026-11-26-legacy-six-open-m64-retention.md)保三全源/全部argv/config/非轨道标量/首末row、固定1d284字节及所有失败。root逐字核原件/历史/scratch和所有留存字段，重搜scripts/computations无精确basename引用；保v=.25祖先。没有重跑旧结论或科学运算，未改历史，工作源码/证明/运行参数继续保留。

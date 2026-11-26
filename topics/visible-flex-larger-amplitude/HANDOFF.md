@@ -4,7 +4,7 @@
 
 ## 规则与完整目标
 
-最近规则核查：2026-11-26 17:10:15 UTC，真实pull/rebase至 `4d0e91a07d3eca5a280860cff9897ce29bcde25b`，双README相对`20bdf4d9ed13ee5a5e383f0ca13dad3446d48096`无差异，授权及规矩继续执行。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
+最近规则核查：2026-11-26 17:12:46 UTC，真实pull/rebase至 `1c4b1aa11e57d0a2f0143c8c6b2cfef2d365e682`，双README相对`4d0e91a07d3eca5a280860cff9897ce29bcde25b`无差异，授权及规矩继续执行。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
 
 科学计算仅本公开仓库Actions；早前本地偏差及纠正见[执行记录](notes/2026-11-20-public-actions-execution-correction.md)。root唯一分支写者；代理只scratch及未引用小源blob。每条结论普通commit/push，NFF立即pull --rebase循环再推，不强推。至少每小时pull，每次核双README差异/立即遵新规并记commit。raw只scratch/runner，不入Git/Release/artifact；保完整小源/参数/run/SHA/紧凑结论。题≤200MB、单文件<5MB、MD<100KB、H<10KB、open<30KB。令牌仅瞬时CLI。终端恢复/全部授权保2a7c完整H；真实pull/push，无raw重造。
 
@@ -17,7 +17,7 @@
 
 历史完整原文循上述2a7c/235206固定链；全部失败/未返/适用范围保[results](results.md)、[open](open.md)、log与notes，不重做登记结论、不从SHA造raw、不跨场迁证，也不把线性障碍或任意mean当非线性完整结论。
 
-十九次raw普通移出及原小源/全部参数/恢复commit见[容量记录](notes/2026-11-20-resume-raw-retention.md)。Python3.12.14/NumPy2.3.5/SciPy1.17.0/单BLAS，SO3另CPUtorch2.5.1/float64；完整来源在[独立运行说明](notes/2026-11-26-independent-public-nonlinear-continuation.md)及实际运行卷。finite typed不冒连续，iteration_limit不冒驻点，零步不冒精化。
+二十次raw普通移出及原小源/全部参数/恢复commit见[容量记录](notes/2026-11-20-resume-raw-retention.md)。Python3.12.14/NumPy2.3.5/SciPy1.17.0/单BLAS，SO3另CPUtorch2.5.1/float64；完整来源在[独立运行说明](notes/2026-11-26-independent-public-nonlinear-continuation.md)及实际运行卷。finite typed不冒连续，iteration_limit不冒驻点，零步不冒精化。
 
 ## 本次实际结果与继续入口
 
