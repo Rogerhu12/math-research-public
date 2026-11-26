@@ -468,3 +468,8 @@ positive推L1–25及pure13580B/2c5002f9，global整篇/整源独审；root再�
 ## 2026-11-26 R144 forward实际前缀，立即修正并续未完区间
 
 会话visible-exact-astra-198c63d-20261126。45770488571/1只完成6791/7721，商式mean_shift的lower保存遇非finite，return1/非timeout；science4806B/SHA478a807d…、exec11625B/SHA773e2e5e…，完整目标0。原D/G/B/A/全域ymin/vupper右端整球已保，按positive端点kernel修正并只续未完；旧未存witness不推不存在，5731接口计数须核失败行预增。R142仍运行，无最终失败/成功主张。
+
+
+## 2026-11-26 R149同点共轭：保左右相关的整盒实现
+
+会话visible-exact-astra-198c63d-20261126。准确消相邻S后，D=H/2和共同t给P_k=(P_{k-1}D−DP_{k-1})/k；q=2||D||∞、完整ratio尾及degree24 Horner严格保全。母格缓存四Z盒，实际每cell独立frame/mean/true signed h和两三角不变，varyingΔ仅逐点包围不作constant积分。交叉核数学/接口，修display为根规$$；0科学，R142尚未完成。

@@ -10,6 +10,8 @@
 
 ## 新增结论
 
+- [R149补篇：同点共轭缺陷与单标量整盒](results/R149-supplement-common-scalar-conjugated-defect-boxes.md)：先准确消相邻S，再以同一t的degree24 commutator Horner和完整几何尾包左右指数；155parent缓存不冻结真实varyingΔ，每cell节点及全signed true-h三角保留。纯provider已核，旧HS只读，新trace尚无实际值。
+
 - [R142补篇：固定原GM中点的child半径协方差](results/R142-supplement-fixed-parent-midpoint-child-radius-covariance.md)：完整真子格给UU*≤MM*+σD≤MM*+D，准确零error支撑不删除常值M行；每母格两份源矩后child线性组合，原mean/两三角/true h保持。exact majorant不增与最终interval scalar不保证区分，active未改、0科学。
 
 - [R144新forward均值重投影完整合同](notes/2026-11-26-R144-forward-mean-retraction-contract.md)：从原raw ac1/ν0/全η的7721行和6143接缝推进新signed D；完整positive/C0/外mean三态门保存读回，全部mean/jump保留，不继承selected δ*或旧phase。11当前/5历史、320bits实际45770488571/1只成6791/7721前缀后商式非finite；[实际续点](notes/2026-11-26-R144-forward-mean-retraction-prefix.md)完整保存，0完整新目标，旧Γ/Green不重算。
