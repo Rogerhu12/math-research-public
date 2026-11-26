@@ -36,7 +36,7 @@
 ## 环境与继续分工
 
 三次失盘及恢复边界见log/旧H；11:29部分clone/pull至df25f421，双README未变。CLI可用，只普通git；丢失raw只新输入重生，不移借身份。根维护真实CI/每结论push；geometry继续同g新gap全位置与完整连续核；exact继续实际h场连续metric与真实加密；solver继续完整Cartesian多步和同jobsource003。做完即接open下一项，不以阶段记录收尾。
-<!-- 6a65-ci-rules --> run 45778054176/1；实际 pull #181 至 `17846e53df60bda9b6b16f1c1d4e9daa4fc9e035`；2026-11-26T12:56:58+00:00；双 README 无差异，沿用根已读规则；回执原因 pre-process:Cauchy-original-then-Cartesian1-001。
+<!-- 6a65-ci-rules --> run 45778054176/1；实际 pull #182 至 `4b2d85586d5245c1bda7303053a3f655ac25dea8`；2026-11-26T13:10:39+00:00；双 README 无差异，沿用根已读规则；回执原因 pre-publish:Cauchy-original-then-Cartesian1 step 1 exit 0 accepted True。
 <!-- 6a65-m12-ci-rules --> README unchanged at e74a6d1b37742414d1215bb37440b7c2fe56851c; run 45804794238 attempt 1.
 <!-- 6a65-m12-entire-half-ci-rules --> README unchanged at 9c70e31ffbfaa6188e2bf17a241e9adc94c919e7; run 45815969723 attempt 1.
 <!-- 6a65-cartesian-cold-ci-rules --> run 45825253169/1；实际pull至 `be767ea7790673d925b25cef9b69e740aa9646ac`；2026-11-26T13:02:46.085450+00:00；双README无差异。
