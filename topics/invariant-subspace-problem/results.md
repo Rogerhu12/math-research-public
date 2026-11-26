@@ -223,3 +223,5 @@
 - **R150 单位211非零均值u1图的有限曲线覆盖与整半权排除（2026-11-26，已证明）：** [原三mean全部恒零例外及QQ结式](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-nonzero-mean-unit-base-scaled-finite-cover.md)支付两级有限纤维，整l1/2的60/98/108次结式gcd仅Q38，剩解必须落(l18,Q10)曲线。未把二元gcd自动当全零集；run45795365604/job139824522922数学断言全过、末摘要fmpz序列化exit1据实保留。其余交点和一般u继续。
 
 - **R271 完整原Gram列的位置能量及公共二阶物理矩（2026-11-26，已证明）：** [原未加权J∞正规式和完整辅助尾](results/R271-appendix-complete-gram-position-energy-and-common-second-hole-moment.md)给√s X≤σ√μ_L并返回同一固定μ_T，∫μ_T ds/s≤1。A=√s‖N²k_T‖在每log窗单一s_L趋零，原全部T幂行/前缀共用；闭域、移动比较头及最高零头母窗全部付清。纯手证，无新计算；未把连续方差、完整列或物理矩当实际Sx、真F0或核清除。
+
+- **R271 原完整源的实际离散方差网格与二阶物理矩（2026-11-26，已证明）：** [原N/Y阶乘幂和含正误差的网格插值](results/R271-appendix-actual-variance-grid-factorial-powers-and-complete-source-hole-moments.md)给Σ_x μ_T(Sx)/x<∞；小比较头m=O(loglogx)支付实际偶x/r3及原最高零头母窗。每物理log窗同一准确Sx使√Sx‖N²k_T‖和整列远尾占据趋零，全部真实幂行/前缀共同控制。纯手证；真F0、准确核修正和完整MP/帽费用仍开放。

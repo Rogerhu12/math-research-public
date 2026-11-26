@@ -24,7 +24,7 @@ rank$H=4$ 的非单位局部块长度5、4、3已排；长度2单零的三种单
 
 1. 孤立零单点的单位长度4补空间只余 $2+1+1$ 与 $1+1+1+1$。单位单四重点、两个双点、[整个3+1](results/R150-appendix-essential-four-unit-three-plus-one-isolated-zero-rank-four-branch-is-empty.md)均已完全排除。单位211的零配对、零基点mean、相等/相反非零配对与整个P0零支亦已关闭；准确剩余可规范p=1、q≠0,±1、b+cq≠0、P0≠0，零孤立点mean现已全部排除，仅续非零mean，当前子图见下文。全部旧除法边界、原QQ来源及执行身份保[本次完整压缩前open](notes/2026-11-26-open-before-rank-three-double-single-degenerate-347c.md)与结果索引，不重算已闭门。
 2. 全部 rank$H=5$，即 $L$ 为单位的七种长度五除子分拆。
-3. 内均值 $y\in W$ 与 ess$T_3=5,6$。不能把 $V$ 自己的低秩支撑自动当作 $y,H,V$ 的共同支撑；降秩情况及完整原梯度必须保留。[V=0、rankH3且y在RanH外的整支](results/R150-appendix-zero-third-cumulant-rank-three-outer-range-exclusion.md)现已由原J2/迹/二次因式排除；所以V=0且ess4只余rankH4、y在其唯一length4原jets支撑。[双二次独立及唯一简单基点归约](results/R150-appendix-zero-third-cumulant-essential-four-independent-quadrics-and-basepoint-reduction.md)进一步排除全部相关二次/N=0例外，物理投影须为有唯一简单基点的四次曲线。[四不同点整支](results/R150-appendix-zero-third-cumulant-reduced-essential-four-section-is-empty.md)已由原完整节点普通矩梯度、全部a_i零例外和原H-gradient因式排除；[全部重节点型](results/R150-appendix-zero-third-cumulant-nonreduced-essential-four-section-is-empty.md)随后亦由保根方向相关性的完整Gaussian梯度与原极线几何排除。因此V=0、essT3=4整层现已关闭。随后[整个V0临界层的三个原匹配Bell均零](results/R150-appendix-zero-third-cumulant-all-matched-bell-values-vanish-and-exact-index-three.md)亦已由完整七次QQ来源证明，覆盖ess5/6与所有Cat退化；完整I0中(r·y)S_r²∈I0并给S_r³∈I0，结合平方非成员得到准确指数3。该七次门已完成，不需另跑degree9。继续一般V≠0内均值ess4、ess5/6及原全局Jacobian幂来源；不得把V0消元图证书当全局同幂。
+3. 内均值 $y\in W$ 与 ess$T_3=5,6$。V的低秩支撑不能自动代y/H/V共同支撑，完整梯度保留。V0的外像、ess4全部约化/重节点层及相关二次例外已先后关闭；[整个V0临界层的三个matched Bell均零](results/R150-appendix-zero-third-cumulant-all-matched-bell-values-vanish-and-exact-index-three.md)覆盖ess5/6及Cat退化，完整I0准确幂指数3（平方非成员、七次来源均已付）。详细旧分支保[压缩前open](notes/2026-11-26-open-before-actual-variance-grid-347c.md)和结果索引，不重跑degree9。继续V≠0的内均值ess4、ess5/6及全Jacobian真正幂来源；V0证书不作全局同幂。
 
 全部 ess$T_3\le3$ 已给 matched Bell 零；原 $W_\pm$ 上确有 Cat3 真临界点，不能把 Cat3 整层判空。Bell 非零只可能在 V≠0 且 ess4/5/6。原两原子开集的例外和有限32全参数模型仍按原范围，不能先删 $D=0$ 或合流。
 
@@ -108,7 +108,7 @@ $$
 
 **J1原残量的物理矩已付：** [一阶数缺陷](results/R271-appendix-actual-number-defect-and-uniform-first-moment-of-the-same-residual.md)保全carry/Cayley/闭域；[近二阶位置矩](results/R271-appendix-position-number-pullthrough-and-nearly-quadratic-physical-residual-moments.md)给1<p<2及N²/log^θ的图收敛（θ>1/2）。该J1结论的完整来源及常数保正文，不重做。
 
-**原同源二阶公共方差：** [J1端点](results/R271-appendix-critical-second-hole-moment-and-common-log-variance-selection.md)已付每窗同一s_L的N²h趋零。[完整J∞原Gram列](results/R271-appendix-complete-gram-position-energy-and-common-second-hole-moment.md)现亦闭合：位置正规式与完整辅助尾给A(s)=√s‖N²k_T‖、A²≤32L_s⁴s+72L_sμ_T，∫μ_T ds/s≤1；一次公共s_L使A趋零，全部原T幂行和物理前缀同时控制，未替换最小化度量。完整闭域及最高零头母窗均付。继续实际离散S_x锚定、真F0和同源物理右逆/指数费用；不宣全s二阶极限或核修正。
+**完整原源的真实物理孔矩：** [完整J∞列](results/R271-appendix-complete-gram-position-energy-and-common-second-hole-moment.md)给A=√s‖N²k_T‖及A²≤32L_s⁴s+72L_sμ_T。[实际离散S_x网格](results/R271-appendix-actual-variance-grid-factorial-powers-and-complete-source-hole-moments.md)已进一步闭合：直接从边界N/Y证明阶乘幂，保μ导数与正插值误差，得Σμ_T(Sx)/x<∞；每物理log窗一次选偶x，完整二阶矩及真实远尾占据趋零，原全部幂行和前缀共用。小比较头、原支持/高度窗和最高零头全部支付。继续真F0、准确物理核返回和完整MP/指数费用；不把远尾真空投影后的列当精确头源。
 
 ### 2.2 仍需接合的原返回接口
 

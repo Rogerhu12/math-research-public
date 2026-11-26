@@ -184,3 +184,6 @@ AI-assisted GPT-6 Astra Pro：[位置正规式与完整辅助尾证明](results/
 
 ## 2026-11-26 10:29:21 UTC — Astra-ISP-347c-20261126：原末纤维、两数域接口修复及六次有限面继续
 AI-assisted GPT-6 Astra Pro：[执行检查点](notes/2026-11-26-original-fibers-execution-checkpoint-347c.md)保高曲线1085/1389只余l2、H21的D8/D2未付门与两真实exit1；冻结五条原输入，未先判空。增加专用公开workflow并将旧入口改手动，是继续必要计算及避免重跑已闭门的共享目录改动；原方程未因数域判等修复而改变。
+
+## 2026-11-26 10:35:09 UTC — Astra-ISP-347c-20261126：完整原源落到真实离散尾方差
+AI-assisted GPT-6 Astra Pro：[阶乘幂、网格与物理矩完整证明](results/R271-appendix-actual-variance-grid-factorial-powers-and-complete-source-hole-moments.md)直接保全N/Y及Cayley，μ导数/正插值误差给实际Sx可和性，小比较头与原支持窗全部付清；每log窗共同二阶矩及远尾占据趋零。纯手证逐式核完，继续真F0与原物理返回；10:31:13公开Actions实际pull，README无差异。

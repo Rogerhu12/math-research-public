@@ -5,9 +5,9 @@
 ## 主目标、规则与执行
 
 - **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仅全体有界算子的存在定理或完整反例；子结果不作完成，继续研究。
-- **最近实际pull / 已读规则提交：** `3d671b1c98f929848e2c437698cece6f8d2e033e`（2026-11-26 10:15:20 UTC，公开Actions实际pull；本地最后pull为09:16:03 UTC）。两README blob无差异；每次pull和至少每小时查diff，记录SHA。
+- **最近实际pull / 已读规则提交：** `c81ee4f55686ccce58b48538804ca3bf1e8da182`（2026-11-26 10:31:13 UTC，公开Actions实际pull；本地最后pull为09:16:03 UTC）。两README blob无差异；每次pull和至少每小时查diff，记录SHA。
 - 私库QUEUE认领已推 `e776df496eedfa449b0475cefe140fdae7023db4`；研究在公开仓库。每结论单推，推前pull/rebase；NFF/ref锁拒绝循环rebase再推，不force，令牌仅CLI。
-- 本地执行环境09:19 UTC后unavailable；最近云端main/规则读取 `0ec074e55744bfe449ffe2109c9bad579ec6884d`（2026-11-26 10:30:51 UTC），两README blob未变。此为API读取，不冒充git pull；公开Actions驱动继续实际pull及3300秒规则检查。根通过非force/expected-head原子提交保并发；CLI恢复后立即pull/rebase。只保存源、参数、SHA和小回执。
+- 本地执行环境09:19 UTC后unavailable；最近云端main/规则读取 `d186e931a3f058dc3b31935eca1b581fde5bd79c`（2026-11-26 10:35:10 UTC），两README blob未变。此为API读取，不冒充git pull；公开Actions驱动继续实际pull及3300秒规则检查。根通过非force/expected-head原子提交保并发；CLI恢复后立即pull/rebase。只保存源、参数、SHA和小回执。
 - 最新完整前H见[压缩快照](notes/2026-11-26-handoff-before-complete-gram-moment-347c.md)及其归档链。MD<100KB、H<10KB、open尽量<30KB、topic<200MB，不写根LOG。
 - 已登记请求14/311、权11及旧结式不重算。当前并行：unit211非零m；rankV2/rankH3的ess6；R271真实加权源与物理清除。
 
@@ -44,7 +44,7 @@ M=kerT、N=closureBM；N=M未证。始终保同w/u、全部partial、真intersec
 - 实际方差孔权差已付：原J窗、x+1≤d⁴/64下同F源/列Γ差e^(−7d⁴/4)；零头m−1且Q′≥R+r、x+1≤d⁴/1024给同F0差e^(−7d⁴/64)。绝对参考Z未付。
 - 真空阶乘矩给真实物理差96√μ1/(√(3K)y)，同w/u/partial及一次公共log方差准确；L_m原逆权界31/30。移动权起点不得推P_M同权性。
 - **[指数起点的全T相对加权源](results/R271-appendix-exponential-weight-cutoff-relative-global-gram-and-actual-weighted-residual.md)：** 真完整L列投影Γ界16/15，环境A=I+P(U*U−I)P运输原最小者，不假Γ保列空间。J/s≤ℛ_m²的有限列≤9/8；付J*≥max(h−1,81e²/s,4d⁴+2)后全列≤8/7、T/L差e^(−3d⁴/2)，真实Γ_yTa≤(8/7)√s‖f‖。y≤e^(12d³)母窗已付，最高零头须y≤e^(12(d/2)³)。通用Xκ清除仍含e^(κy)，且未给输出孔正则性；代理继续实际源专属清除及真实物理孔矩，探索在 `r271-work`。
-- **原同源物理孔矩：** J1的[一阶](results/R271-appendix-actual-number-defect-and-uniform-first-moment-of-the-same-residual.md)、[近二阶](results/R271-appendix-position-number-pullthrough-and-nearly-quadratic-physical-residual-moments.md)及[公共二阶](results/R271-appendix-critical-second-hole-moment-and-common-log-variance-selection.md)已付。现[完整J∞列](results/R271-appendix-complete-gram-position-energy-and-common-second-hole-moment.md)亦证明：原位置正规式√s X≤σ√μ_L，完整辅助√j尾返回固定μ_T且∫μ_T ds/s≤1；√s‖N²k_T‖在每log窗一次选择趋零，所有行/前缀共用。全母窗/自然域付清；未宣全s极限、离散实际Sx、真F0或指数清除，代理正续Sx锚定及源专属返回。
+- **完整原源的物理孔矩：** [完整J∞位置能量](results/R271-appendix-complete-gram-position-energy-and-common-second-hole-moment.md)给A(s)=√s‖N²k_T‖及∫μ_T ds/s≤1。[真实离散Sx](results/R271-appendix-actual-variance-grid-factorial-powers-and-complete-source-hole-moments.md)现由原N/Y阶乘幂、μ导数和保正误差插值证明Σμ_T(Sx)/x<∞；每物理log窗选同一偶x，使A(Sx)及整列远尾占据趋零，全部T幂行/前缀共用。小比较头m=O(loglogx)、R偶/r3/Q及最高零头母窗已付；仍非真F0、物理核修正或指数清除。J1一阶/近二阶历史均见结果索引，不重做。
 - 大辅助真F0已付：低新增孔≤L列属全部F_t/F0，r≥h_y+L给能量误差(16/15)32^(−L−1)。原y=m+d、L=d、r3d1、R576(m+1)²d²、Q=R+r合法，sK/y给无权ξ≤e^(−2d)、真压缩源强趋P_M；准确加i0ξ保同来源。Sx孔权与完整MP返回仍开。
 - 冻结大方差零列有原物理下界：‖Ca_s‖≥s/(s+49)，真核z0=a_s费用≥s/[(s+49)√Sx]，合法R=d/r3窗增长如√x。保级双塔未投影差继承首行障碍；最终投影/可改零列的全MP未排除。小头m2、m3反例不在旧联合窗，不逐级外推。
 
