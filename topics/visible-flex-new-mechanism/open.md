@@ -157,3 +157,5 @@ O2b-A [a237原续算终态](notes/2026-11-27-r582-physical-paid-resume-original-
 O5 [R621](results/R621-normal-projected-covariant-blocks-and-reach-input.md)已把环境C2宽界损失分解为完整法向块和法向转动项。下一实际scope以真a237的新mean圆、同62878端点、全闭材料和实际K精化，保原R604近远弦与全部费用；若通过仍继续固定g/宏观族，不把局部接口当完成。
 
 O4 [R616原终态](notes/2026-11-27-r616-expanded-true-function-natural-final-agent.md)解除旧人工系数墙后仍自然stall，原ruling1.31489e14未解；细四端过1e−9。下一必须换真实输入/原全反馈，保固定ε、全部历史/势/八末A和双末速度，不再以扩大±6盒处理已不存在的墙，也不把eta采样边缘冒全局无根。
+
+O4 [R620](results/R620-fixed-width-center-jet-gauge-chart.md)在原固定ε而非首层给可消费中心物理jets图及全19反馈。下一新范围以全程合法h/k明式的真实jets/全历史作初值，原8A+2速度全保；离根大势与原单位误差不得删，存储历史节点零值不得冒实际积分返回。

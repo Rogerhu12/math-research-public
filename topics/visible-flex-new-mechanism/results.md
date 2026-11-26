@@ -446,3 +446,5 @@
 - [R621同场法向协变分块与真实主曲率](results/R621-normal-projected-covariant-blocks-and-reach-input.md)：**已证明完整单元充分界**；保水平/竖直primitive、旋转frame全部法向项、法向转动乘环境二阶差及混合块，用同cell2×2/实际浸入下界控制K。同一次原材料与mean查询消费；纯helper尚未执行，不授新候选reach。
 
 - [R616同候选扩盒的原自然终态](notes/2026-11-27-r616-expanded-true-function-natural-final-agent.md)：**原方程未解，自然stall**；run45890056841新1753.553893449秒/31接受，固定细四端4.98266e−10过门但原ruling1.31489e14。新修正远离系数墙，eta到保护边缘且有193未分类恢复失败；完整费用/真输入/原单位差不丢，换自由中心原全反馈。
+
+- [R620原固定微宽中心jet常规范图](results/R620-fixed-width-center-jet-gauge-chart.md)：**已证明原有限宽度局部可逆图**；v≠0、a0−Hv²/4≠0时真实a0/j0/f0依次确定三全程常规范，完整M/rho/势和时间参数混合项不删。纯原19态反馈/完整Jac/末8A+双速度接口已审读未执行，不授全程返回、pose或有限族。

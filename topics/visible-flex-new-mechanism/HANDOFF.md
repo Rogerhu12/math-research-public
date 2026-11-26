@@ -5,7 +5,7 @@
 
 ## 1. 授权、规则与完整前史
 
-公开本次实际pull且根/题README已读至 **46664f2fa3dcacb5ee1d4f1aed66fa8c10d36afd**；根/题规则相对继承0749a4cc均空差异。私库实际pull/根README已读至 **1a995ebf0c19ea771ef0684a4f22bf94da9a960e**，QUEUE认领提交 **09f8b8b54e7cfaabaa635bae5c438c7f1521289a**；本会话仍唯一进行中，21:00 UTC前再次实际pull且根README空差异，下一不晚于21:58 UTC。
+公开本次实际pull且根/题README已读至 **9515618fa868fa2a0851e00c7e05987ebcaee55b**；根/题规则相对继承0749a4cc均空差异。私库实际pull/根README已读至 **1a995ebf0c19ea771ef0684a4f22bf94da9a960e**，QUEUE认领提交 **09f8b8b54e7cfaabaa635bae5c438c7f1521289a**；本会话仍唯一进行中，21:00 UTC前再次实际pull且根README空差异，下一不晚于21:58 UTC。
 
 [压缩前全文](notes/HANDOFF-before-free-center-feedback-20261127.md)及其归档链保存全部旧结论、真实输入、失败/偏离、量词与完整费用；移档不重跑已付门。[四来源与文献](notes/2026-11-27-current-four-source-topics-and-literature.md)保已读版本及用途。
 
@@ -21,7 +21,7 @@
 
 [a237原终态](notes/2026-11-27-r582-physical-paid-resume-original-terminal.md)run45887805731/job140142780497/source0cce06dd，新2371.7857200480003秒、18接受、19完整Jac+另2块、20完整fine。真97q SHA **a2377220dacda9eefe63f25a2000441f0169a0db5de9bc23840f90e5037a895e**，p=.181，11025×3072 η **4.8302220914394944e−5**，物理/working V0，κ16.452569169，帽高.6942718843124706。actual243×1536/trust2；38原pending按旧近点规则proposal279（+36），精确坐标全部仍在fine。末raw a14不合格，独立半步才是a237；原辅助e不冒fineη，单backend仅clock截断，无内BFGS可恢复。
 
-[279正常续算](notes/2026-11-27-r582-physical-pending279-resume-implementation.md)source **021c6d790ac7e6e2b163fe9db7870a28f3640ec1** 已推；完整原FINAL/30绑定核合，原driver不动，唯一数值参数243→279，新fine11076先原完整资格。未过stage2.5e−7不增p，目标p=.8/末η≤1e−7；设计mean g仍变化，不冒固定g。原62878端点mesh **0d222bd12ce8a61d0c88264c6fb5c82066f0ca058855b5bf7a670a53b483a991**不变，必要再生完整计费，有限材料与无限核区分。
+[279正常续算](notes/2026-11-27-r582-physical-pending279-resume-implementation.md)run **45895078668**/job140166868607/source **021c6d790ac7e6e2b163fe9db7870a28f3640ec1**，21:00:36 UTC启动；完整原FINAL/30绑定核合，原driver不动，唯一数值参数243→279，新fine11076先原完整资格。未过stage2.5e−7不增p，目标p=.8/末η≤1e−7；设计mean g仍变化，不冒固定g。原62878端点mesh **0d222bd12ce8a61d0c88264c6fb5c82066f0ca058855b5bf7a670a53b483a991**不变，必要再生完整计费，有限材料与无限核区分。
 
 ## 4. B030：原完整物理逆设计
 
@@ -47,6 +47,8 @@ R598原18块/576微包、ε1/12000、正势1、同单位 **3967798143562589**、
 [R616原自然终态](notes/2026-11-27-r616-expanded-true-function-natural-final-agent.md)run **45890056841**/job140150220830/source6977e7a4，新1753.553893449秒，31接受/149完整trial/193恢复失败/0系数墙，iteration53自然stall。真37修正JSON SHA **2935e5b667b52a7771a48193d7a0ce8bcbc7f0fc55304f951d6e1b3b960d895f**，固定baseline不变，L3.423996205347993；固定细32×16四端4.982658155e−10，原ruling仍1.3148858704e14，重装观察差.1454非严格界。修正max.26081远离±6，eta采样−.9989999999999861抵旧保护阈，193失败未细分不能全归因eta；pose仍未闭。
 
 [R619自由中心](results/R619-free-center-leading-energy-and-true-memory-local-flow.md)已付一般两侧能量/两常数、真中心S0S1非零的首层M局部流、完整T1与显式合法正负例；仅首层局部。下一使用真正自由奇中心、原固定ε与全19反馈/原末8A+2速度，不能重置历史或继续以旧系数墙解释当前stall；新scope须先完整审读新源。
+
+[R620原固定宽度中心图](results/R620-fixed-width-center-jet-gauge-chart.md)已付(a0,j0,f0)与三全程常规范的准确三角图，完整真M/rho/势/混合时间参数链。纯helper全19态归一化rhs均乘L，状态19+参数10完整Jac及真实初值Jac/末8A+2速度保留；root与独立评审全文通过，未科学执行。新全反馈BVP以明确合法全h/k路径的真实物理jets与历史起步，不借prepared j=6或局部流冒固定ε全程。
 
 ## 7. 全闭连续几何及实际法向界
 
