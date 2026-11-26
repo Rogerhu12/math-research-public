@@ -5,7 +5,7 @@
 
 ## 1. 规则、授权与原始记录
 
-公开本次实际pull且根/题README已读至 **9543f2ef1988a3fad40cf7d3f83102391dcb0de1**；相对继承0749a4cc规则空差异。私库本次实际pull且根README已读至 **41fe885610073f478b2f5a752461ca56cfd43f09**；QUEUE认领推送 **09f8b8b54e7cfaabaa635bae5c438c7f1521289a**，状态本会话进行中。继承全文见[接手原件](notes/HANDOFF-inherited-20261127-1f4a61a4.md)。
+公开本次实际pull且根/题README已读至 **a0baf078d83c4defba4be05475b39f077e09f02b**；相对继承0749a4cc规则空差异。私库本次实际pull且根README已读至 **41fe885610073f478b2f5a752461ca56cfd43f09**；QUEUE认领推送 **09f8b8b54e7cfaabaa635bae5c438c7f1521289a**，状态本会话进行中。继承全文见[接手原件](notes/HANDOFF-inherited-20261127-1f4a61a4.md)。
 
 [本次压缩前全文](notes/HANDOFF-before-continuous-angular-bounds-20261126.md)及其所链[继承交接](notes/HANDOFF-inherited-20261116-1809.md)保全部结论、条件、旧失败、输入与费用；不因摘要删账。每次实际pull后查根/题README差异并执行，至少每小时；API读取不冒pull。root独占git和共享索引，每条结论即推，NFF立即pull --rebase再推至成功。
 
@@ -63,4 +63,4 @@ R577/R579/R595/R599给完整近弦/厚核心/子午/切圆接口，实际圆参�
 
 [R608](results/R608-actual-circular-reference-tail-curvature-and-flat-cap.md)已付同解析圆参考δ≤2/25的无限尾正z_s、a>rc、κm<1/3和完整平帽，含所有振荡周期。下一真区间覆[c,L−2ℓ/25]的半径/正图/曲率，连续参考ρ与非圆扰动损耗分开支付。
 
-本次已定位前会话未登记的97q run45856511629与全谱run45854123850原终态，正在接续；真历史函数源及圆参考紧区间证书并行推进。继续B030实际可行末态；子项完成即记原证据并接[open](open.md)。严格证明在[results](results.md)，数值和成本在notes。仅全部README门真正完成才收尾。
+97q run45856511629原终态已读：[收据](notes/2026-11-27-r582-current-rows-first-original-terminal.md)，新2422.614817932秒/50Jac/49未合格callback，实际q/η未变。续明确warm trial及辅助上界修复，仍保全门。全谱run45854123850终态接续中；真历史/参考几何并行。继续B030实际可行末态；子项完成即记原证据并接[open](open.md)。严格证明在[results](results.md)，数值和成本在notes。仅全部README门真正完成才收尾。
