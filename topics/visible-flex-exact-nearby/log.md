@@ -371,3 +371,6 @@ NS五件共129172B，owner71056B SHA18db439d5895e4232882940a57b7bd9457982383e1ac
 
 
 2026-11-26 23:37:32 UTC / visible-exact-astra-fb31ed6-20261127：RP完整return/phase低阶Hessian已证，32个new saved有理组合首次全过。两腿合成同一正向+反向实际flow，原真root固定且两root图先严格约消；oldP25全Ld+SM实角桥给整folded L<.074、L2<19/J<27/25。原gamma正下界和TH全metric导数给真正cνν=−cν²/c（c²对ν affine）、compact支持外ν源0，完整mean/混合/ν²均保。新wholea* L²<.610给DP≤2.16N、D²P<530NN、角DP<150N；N=原L²rL² pair+100|δν|。PD原未归一moving E的mixed Hessian≤400，固定ν/g fullstate A0≤ρ二次项<96ρ²；真physicalwaist图按exact secant保非零残差，不免费换点wise角。无旧flow/phase/science重算，不授fullSchur/高阶迭代。PH推c97d8c8ebc两README无diff；TC23:23 wholeprefix624/7724。容量一次整树为198693613B，留1306387B供PHI/AS/TC后继。
+
+
+2026-11-26 23:44:00 UTC / visible-exact-astra-fb31ed6-20261127：登记RT根端全角阶两件；19个新saved有理比较已过不再执行。原NR intrinsic multiplier对任意lag有效，完整commutator保中间primitive频率和mean rank；最高阶只付161n低norm增长，高背景A^{n+4/3}线性一次不进指数/分母。显式Cn与原ordinary源/jump/真root窗同域，n=1只需现A³低域；六半径与root到waist全表保，.005窗15/17200、接strict5100/1.32e7/340/1.12e6。RP已推198f783db1，两README无diff；完整旧H递归保该immutable原件，压缩当前账而不撤义务。
