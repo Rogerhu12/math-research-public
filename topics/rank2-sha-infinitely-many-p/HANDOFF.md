@@ -6,7 +6,7 @@
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，持续研究；有限验证、条件、接口和中间成果不算完成。**
 
-- 已部分克隆并实际pull --rebase；根/课题 README 已读至 `afd9c82737ba5d81794bdd82b8208410ac9c8b50`，相对已读版本未见规则变更。每次同步核两README差异；实际pull至少每小时，终端恢复即补做。
+- 已部分克隆并实际pull --rebase；根/课题 README 已读至 `e4571911f09939d7d8fe0d840373e4769f9a2a3f`，相对已读版本未见规则变更。每次同步核两README差异；实际pull至少每小时，终端恢复即补做。
 - 私有QUEUE已推进行中状态f3125fbaa4bc13678b0c8519d85051762c579529；私库README读至e776df4。
 - 两克隆在/tmp/rank2-sha-7d29daa5d3b1。执行环境断开，最新11:51 UTC重试仍不可用；依根授权用小文本GitHub tree/commit及非强制CAS，逐次核最新main/规则，竞争立即重取父提交重推。恢复先核stash/local main，不覆盖远端恢复提交，再pull --rebase。令牌未入文件/配置/日志。
 - root唯一ref和共享H/log/index写者，子代理只交不可变blob。数学执行仅公开Actions；只存源码/参数/run/hash/结论，不存可重算输出。H<10KB、MD<100KB、open尽量<30KB；不强推、不改他课题。
@@ -67,7 +67,7 @@ R159需同有序jump子式正确估值方向；p≈D²固定环带只省O(k)，�
 
 ## 四、当前六源消费与其余未解门
 
-R960/R961共用同一既有E65工作流v2，保原64局部、全66CM与同次E89重建一次；12源/10AST。角helper3ba9ee9和同六sigma helper8da5efe全部源码已审；入口先输出R960完整角回执，再核R961全谱Π/非零α、norm7/19真奇sigma相位、全部Gram/有限支/旧混合cut。**此新run尚无数学回执，不能预记α非零或角帽具体重数。** 完整pins/请求/证明草稿blob见notes/2026-11-26-e65-six-source-consumers.md。R961保νF65,17=65/(17·175)νhatE65；首项一与整175规范不混。
+R960/R961共用同一既有E65工作流v2，保原64局部、全66CM与同次E89重建一次；12源/10AST。角helper3ba9ee9和同六sigma helper8da5efe全部源码已审；入口先输出R960完整角回执，再核R961全谱Π/非零α、norm7/19真奇sigma相位、全部Gram/有限支/旧混合cut。source9144dc0062fd9423f8a9f94978643787b863eb36/run45818310281于12:17:43 UTC触发。**当前运行中，尚无数学回执，不预记α非零或角帽具体重数。** 完整pins/请求/证明草稿blob见notes/2026-11-26-e65-six-source-consumers.md。R961保νF65,17=65/(17·175)νhatE65；首项一与整175规范不混。
 
 R960理论待实际z≥64、e_i≤2、gcd(68g,18)=2后消费完整归一化/Noether返回；S4Z∈旧B263和S3Z∈B+246只是整返回，不赋乘积中央零。Theta核六高轴须保m≤floor((hs−1)/(s−6))（h≤7时可到8）及全部尾；sextic归零qt4带三层低纤维，不能只剩A0。旧quartic核被新增E4长行排除，但尚未制造真正全六块forcing。
 
