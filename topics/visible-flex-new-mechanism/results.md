@@ -190,3 +190,5 @@
 - [首轮逆设计：同q细网格径向近退化](notes/2026-11-26-inverse-first-run-radial-fold-failure.md)：**数值证据/失败闭账**。run45765708829两lane science119.422/110.244秒，Jac差1e−9；粗η.083/.091而细η1.19855/3.78338、κ74208/26180，径向圈间漏谷，球/条带/h均违约。无接受候选、不复跑原softweight49圈；继续硬几何与动态径向覆盖。
 
 - [R567 完整次阶历史与同χ八个原第二矩准确零](results/R567-complete-next-order-history-and-eight-exact-matrix-moments.md)：**已证明**原完整有序第三保 r1 横列及 BV/C¹ 次阶余项；全参数盒的 S1/P1/P0/R0 消项准确保等待与 O(1/M) 移位。两个真实正/负耦合长回路和三个低尾共同端图有可逆 4+1+2 块，原 P2 停止后八矩准确同零，A=0。未付双端偶 germ、第三/第四返回、pose、13规范或主闭面族；继续实际端口。
+
+- [R568 真正双端偶germs与同χ第二/第三返回](results/R568-even-end-germs-and-real-second-third-return.md)：**已证明**末开区间改为真实恒高度加速度控制，原四末控rank与最低阶费用保留，并在修改后的全词重解R567八矩；A=0、零速度、偶控制下完整反射唯一性给双端所有scalar奇jets零。真实PP^R同χ准确闭scalar、全m/A/T，未重置第三入值；pose与整个第四2V_P仍待支付，不授有限等距族。

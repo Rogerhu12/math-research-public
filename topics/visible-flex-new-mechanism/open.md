@@ -115,11 +115,11 @@ R513同类cap排除、R518固定宽接口、R520/524/527/529原20母的返回障
 
 恒真高度且该段单独保p1/p2增量0时不能补负r1，此为限定策略障碍，非一般不可达。三p/t1清后，r1原/中心值仍可能差−ωc S1；全五槽变换与实际端映射Schur导数均明确，但后继控制族、满秩及同χ合法/germ仍待真正构造。该身份直接约束R556剩余四矩修复，不重复核验或撤销R552/R556已成范围。
 
-### R567：同一实际词的全第二矩阵已零，继续真正偶端口与完整返回
+### R567/R568：原全第二、第三与scalar已返回，继续pose/整个第四
 
 [R567](results/R567-complete-next-order-history-and-eight-exact-matrix-moments.md)继续R564同母/固定χ/真实跨带和R563三个低尾；完整第三保r1横列、两种复合顺序、真实等待、初次快准备和所有有限桥。整个参数盒的细尺度组合消项控制为O(M²/R)+o(1)，不把旧o(M)改叫o(1)。一次大Ω给严格双回路锥条件，再取有限大R、统一小δ；同一个4+1+2端图及原P2停止使P0=P1=P2=T1=R1^y=S1^y=S0^y=R0^y=0，故原完整m=A=0。
 
-下一支付双端真正even scalar germs，才能使用[R526](results/R526-real-incoming-history-reversal-and-one-gauge-endpoint-completion.md)的同χ实际倒行完成。四端值或反馈导数零不能替代全部奇jets；第三入值通常非零，必须按原反射和完整有序交叉演化。随后还须支付frame/位置、整个第四characteristic period及最终闭面几何。R521母仍不继承33母的原20/cap/13。八矩零不是有限等距族或完成证明。
+[R568](results/R568-even-end-germs-and-real-second-third-return.md)已在同一原四末控中把末开控制改成真正恒高度，保rank/全费用并重解八矩。完整反射唯一性在A=0、零速度、偶控制下支付双端所有奇jets；[R526](results/R526-real-incoming-history-reversal-and-one-gauge-endpoint-completion.md)现在可实际用于PP^R，准确闭scalar、原全m/A/T，同χ且保真实第三incoming。下一支付frame/位置及整个第四characteristic period：双词pose为(GD_FG^(-1)D_F,(I−GD_FG^(-1))v)，第四仍为2V_P，不会因反射消失。R521母仍不继承33母的原20/cap/13；这些返回不是有限等距族或完成证明。
 
 [R564前一开放接口](notes/open-r564-before-eight-moments-20261126.md)和其中所链R559/R563/R562前史逐字保留；各限定族的正R0或S1号边界不撤，R567使用更细完整core费用及共同端图离开旧假设。
 
