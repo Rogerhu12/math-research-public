@@ -114,3 +114,6 @@
 
 
 - [R992](results/R992-original-common-old-zero-line-and-eleventh-central-source.md)：原f0=σ10x²的指定π/barπ差给首项一的whole X130=(Δ12500−Δ125)/(45360δ)，全部好inert二重中央零、普通在原wholeS10射线也准确零。全H/F11 old混合身份及第十一同p6行/完整无限尾已付，角帽不变；实际good7像反而明确中央非零。两核完整质量及与两canonical/Gold的四维det单位给唯一剩余边界协向量，保全P2/Miller/高jet/移动Z和二挠项，尚无全中央矛盾。
+
+
+- [R995](results/R995-original-lambda-projector-from-elliptic-surface-isogeny.md)：实际I9/I3曲面的三同源给严格f²=−3、f†=−f；关键[n]=n于t2由generic纤维CH0及KMP balanced对应商完整证明，免用有限维性/realization保真。与g=[δ]*配对的(1+f⊗g/3)/2为自伴最高Chow投影且可下降Q。真实CM图的完整fiber-product、内外projector次序、原η trace与H³(2) AJ交换均付；不把投影存在或全高度非零当指定最高AJ非零。
