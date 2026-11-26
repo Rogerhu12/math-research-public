@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R12 每个奇数剩余类都有完整交换子的同范数强*密度（2026-11-27，已证明）：** [真实收缩高位平均、矩阵不等式与统一变化参数预算](results/R12-appendix-contractive-strong-star-density-in-every-odd-residue-class.md)以2/(L+2)的原高位平均付收缩强*单位，有限头J/z酉共轭与自含矩阵von Neumann证明保持整个f(B)范数；真实carry界只依原次数，辅助n强*费用由明确L支付。任意X∈C_m可仅用j≡r(mod奇p)、最低次数→∞的多项式，以范数≤||X||强*逼近；得同一尾循环空间及正常泛函传播。已存闭域有图单位，仍无全域像入域，也不移植负整数模型。
+
 - **R150 S0/Lt0同eta投影的整个A_(24,20)曲线为空（2026-11-27，已证明）：** [真QQ有限覆盖与严格一元特征零证据](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-Qa-A24-curve-exclusion.md)对原Dixon两完整因子取744/888次k投影，剥已付原/ehalf因子后保799次QQ覆盖。另原P045/P035全v投影给R_(132,109)，保原k次数20/109的完整结式约化3116次与799次覆盖实际Bézout=1；Gauss引理排QQ共因子，不由多变量模判空提升。自含源58.803022秒/131608KiB/exit0；只余C83，后续C83/H33真120秒失败已保回执。
 
 - **R150 L0的整个P1系数结式K曲线为空（2026-11-27，已证明）：** [两个beta首项图、完整覆盖及原t0返回](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-L0-K-curve-complete-exclusion.md)原系数身份在b1非零图付beta单位，三原必要式精确剥两因子；1253次投影/329次13域覆盖，三域严格一元模证据、九小域原单位与46域同G点及剩余11/11投影均排。b1零迫b0零/t0，42次覆盖末两同lambda/w族由原E1/EBe排除。自含源146.591630秒/281732KiB/exit0；只续X_(34,52)与Y_(78,95)原交点。

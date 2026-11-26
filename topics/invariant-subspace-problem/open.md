@@ -168,7 +168,7 @@ Deddens自伴MASA、全部可分重数有限成本投影、全2-adic平移距离
 
 [同源dyadic两边界](results/R271-appendix-exact-dyadic-division-graph-boundaries-and-cayley-cost.md)已付，含Y全逆和可能增长的h^(<r)成本；指定prefix-cut当且仅当λ_r||y_r||及真实头顶行趋零。一般W的最大图域/这两费仍需原来源证明。
 
-[原奇幂有界强恢复](results/R12-appendix-odd-power-strong-recovery-all-power-commutants-and-actual-subquotients.md)已付，全部p的Lat/交换子只依v₂p，且同一多项式降到每个实际闭不变子商。未知子商不因此成为完整尾；继续根与平坦像的真实域包含。
+[原奇数剩余类同范数强*密度](results/R12-appendix-contractive-strong-star-density-in-every-odd-residue-class.md)已付：每个完整交换子X可仅用任意固定奇p剩余类、最低次数→∞的多项式，以范数≤||X||强*逼近。单剩余类尾循环空间仍是[f]_B，正常配对和同一已存闭域图单位可返回；不把它搬到负整数boundary，不推出全域像入闭根域。继续PH⊂DomT或同源有界分母接口。
 
 
 [全部整幂根与闭域](results/R12-appendix-all-integer-power-root-multiplicity-and-closed-root-domains.md)已证X^q=λI_k B_m^p有界解恰当q|pk。不整除的闭稳定域根不能包含任何完整Ran B_m^r；奇p域保持由同一强恢复支付。平坦接口仍为PH⊂DomT，P的像在所有幂像内不支付此包含。
