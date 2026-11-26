@@ -420,3 +420,5 @@
 - 2026-11-26 13:23:47 UTC：亲读03b阶段7–9实际公开返回；首606方向alpha1/128、QP16/iteration_limit、Pg2550.629614远高原容差，原选择器实际28+6条全保。排同报告全部8试步纯读，不推中间拒因。宽zero亦初根失败e21cc593，批最大修正近.5不证明唯一因；同完整五源/宽支撑/零种子仅数值搜索半径改.75，全部残差/原变量/行/几何验收保。两步完整参数及归因note刊；03b仅JSON紧凑化保全部旧步骤和所有参数，95KB守卫不改。H压缩前全文固定889ec，open§1–6逐字保。
 
 - 2026-11-26 13:30:35 UTC：刊1a46完整同场signed积分消费者、全部证明与600秒ready未排。真922胞/全角B-L严格绑定、原全部实际Gauss与partial words、完整mass/width/node费用和准确有理中心保；只全同角胞完成才开放total/query，逐胞原子raw+hashchain自然恢复、实际新读与恢复计数分开。root通读全body/CLI及两peer独立审，AST/compile通过，无本地科学，未把有限积分或partial付费冒全场Gram。
+
+- 2026-11-26 13:32:21 UTC：刊ceb5完整同场六jet/物理三Gram费用消费者、全部公式说明及600秒ready未排。原7f全六输出对已付节点/core/cap/signed有理中心支付全部剩余算术和batch差，准确affine h及Delta三jet/原固定a*rho0分母/2×2operator费用全保。1a46完整pin、prepare_core/evaluate双literal角/complete守卫、空点maxima null；静态AST/compile与两个peer审通过，无本地科学，不把有限点上界冒整面。point原子孤块恢复当前明确fail-closed，无覆盖或假计数。
