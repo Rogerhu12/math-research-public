@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R150 三约化H退化Gram、Hp0的中心H=2整个原物理图为空（2026-11-26，已证明）：** [原K2与完整首项零边界证明](results/R150-appendix-rank-three-reduced-degenerate-Gram-central-two-exclusion.md)同时变换kernel；a(A)=−16(A+1)零点先由H重根排除，余原QQ864/1296范数gcd652的四因子全部在6/6/24/6维代数中得到U幂身份。run45823574259/job139921814732、229.449772秒/562040KiB/exit0。q/极线/trace及a⁹尺度均来自该原kernel，V∞仍保留；一般有限中心继续。
+
 - **R150 S0/Af0/L非零整层的剩余一般图完整排除（2026-11-26，已证明）：** [四原QQ投影及全部八域返回](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Af0-L-nonzero-complete-exclusion.md)保原九式、二次d两根和P1所有首项零面；gcd1320除已闭J3后平方自由20次、八因子全部返回原F/首Chow为1。run45823574259/job139921814574、109.926880秒/211800KiB/exit0。合并已闭碰撞、M6、u1，整个S=Af0/L非零范围关闭；S0/Af非零和L0其余图仍开。
 
 - **R150 L0 的 b+c=0 整条原物理支为空（2026-11-26，已证明）：** [全局对称两参数与六原域返回](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-L0-zero-weight-sum-exclusion.md)从原矩迫ρ=A/(2R)、u=2R²/A，保κ两根和所有P1首项零纤维。五QQ结果式gcd152仅六因子14次；每个完整λ系数代数内原w式gcd1，322真逆/Bézout逐一乘回，run45823574259/job139921814299、3.173630秒/exit0。Φ=−ρN(b+c)把旧二次因子整支同步闭合；只续大补因子，不扩称全L0。

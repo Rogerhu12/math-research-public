@@ -1,0 +1,244 @@
+{
+  "schema": "isp-exact-original-QQ-exclusion-receipt-v1",
+  "scope": "original central H source 2; primitive reduced-H3, degenerate Gram, Hp=0, essential six; entire leading-zero boundary and generic source algebra covered",
+  "run_id": 45823574259,
+  "job_id": 139921814732,
+  "gcd_factorization_up_to_scalar": "A^24*(4*A+1)^6*(7808*A^4+568*A^3-8713*A^2+1380*A+549)^58*(A+1)^390",
+  "actual_stages": [
+    {
+      "A": "-1",
+      "center": 2,
+      "product": "1/4",
+      "reason": "the exact zero edge forces repeated H endpoints",
+      "seconds": 0.04307903099999777,
+      "stage": "leading_zero_original_boundary_excluded"
+    },
+    {
+      "Ebar": "-12288*A**4 - 28416*A**3 - 1280*A**2*B - 17664*A**2 - 3216*A*B + 768*A + 256*B**2 - 1936*B + 2304",
+      "J_scale": "a(A)^5",
+      "QH": "B**2 + B*(-5*A**2 - 18*A - 5) + (-16*A - 16)*(3*A**3 + A**2)",
+      "V_scale": "385024*A**4 + 819200*A**3 - 44544*A**2*B + 409600*A**2 - 23552*A*B - 98304*A + 20992*B - 73728",
+      "a": "-16*A - 16",
+      "center": 2,
+      "central_polar": "16*t**2 + 5*t - 3",
+      "cubic_scale": "a(A)^3",
+      "field": "QQ",
+      "seconds": 1.7415957509999984,
+      "stage": "original_kernel_identities_complete"
+    },
+    {
+      "degrees": [
+        4,
+        2,
+        0
+      ],
+      "label": "H_zero_edge",
+      "seconds": 2.108752932999998,
+      "sha256": "39f3089205733b8f53d27c7bbfef574a53ff48946cba517b9510e4c5cab48be7",
+      "stage": "triangular_original_equation",
+      "terms": 7
+    },
+    {
+      "degrees": [
+        14,
+        1,
+        3
+      ],
+      "label": "V_source_cubic",
+      "seconds": 2.1089150589999974,
+      "sha256": "2916b049782b73a7fccec5fd74d651d69f5be3b25fd25a9d1534e52bc24cd2dd",
+      "stage": "triangular_original_equation",
+      "terms": 54
+    },
+    {
+      "degrees": [
+        152,
+        1,
+        2
+      ],
+      "label": "original_phase",
+      "seconds": 2.111183517999997,
+      "sha256": "fad90fee7b010cf1deb975c5e1b2815af2cc5453aed0176779bc95db47ba1a1b",
+      "stage": "triangular_original_equation",
+      "terms": 874
+    },
+    {
+      "degrees": [
+        228,
+        1,
+        2
+      ],
+      "label": "original_norm",
+      "seconds": 2.115208367000001,
+      "sha256": "e7b4f5d972fc7ea07341732f046ea58e8c5235f5409ba8a1dacfeb89a910934a",
+      "stage": "triangular_original_equation",
+      "terms": 1330
+    },
+    {
+      "degrees": [
+        173,
+        1,
+        2
+      ],
+      "label": "original_physical_units",
+      "seconds": 2.117704922999998,
+      "sha256": "0ed34ea1af610d5d8e8a4e8df355df10eb5f16aaad1ee5d138ab6ec930af3a84",
+      "stage": "triangular_original_equation",
+      "terms": 1000
+    },
+    {
+      "seconds": 2.1177342470000013,
+      "stage": "begin_exact_triangular_QQ_norms"
+    },
+    {
+      "N_degree": 1296,
+      "N_sha256": "e080be6b626577f5b172f29f9969b5807e03955750ee42dc4f9a39d9e4b61486",
+      "P_degree": 864,
+      "P_sha256": "235ee0377235d9535959d07c22eacd88955feeda8f4f54a236f6521f47ba1b79",
+      "bezout_verified": true,
+      "gcd_degree": 652,
+      "gcd_sha256": "274c31e1e64ea13b9a4634d0f7e588814ac6c55981098e4104e35f8c6476e741",
+      "seconds": 213.19516600500003,
+      "stage": "exact_triangular_norm_gcd"
+    },
+    {
+      "factors": [
+        {
+          "degree": 1,
+          "factor": "x",
+          "multiplicity": 24
+        },
+        {
+          "degree": 1,
+          "factor": "4*x + 1",
+          "multiplicity": 6
+        },
+        {
+          "degree": 4,
+          "factor": "7808*x^4 + 568*x^3 + (-8713)*x^2 + 1380*x + 549",
+          "multiplicity": 58
+        },
+        {
+          "degree": 1,
+          "factor": "x + 1",
+          "multiplicity": 390
+        }
+      ],
+      "scope": "all complex A-roots retained; no quotient-primary equivalence claimed",
+      "seconds": 213.20320257000003,
+      "stage": "all_elimination_fibers"
+    },
+    {
+      "dimension": 6,
+      "factor": "x",
+      "index": 0,
+      "original_multiplicity": 24,
+      "physical_power": 6,
+      "seconds": 213.665033396,
+      "stage": "begin_finite_QQ_fiber"
+    },
+    {
+      "certificate_sha256": "950a37882dd16a17160f105c0b7005f421598561b778805e6195c36cfe7aeeaf",
+      "dimension": 6,
+      "identity": "U^dimension=af*original_phase+bf*original_norm modulo (f(A),Qb,Cx)",
+      "index": 0,
+      "nonzero_coefficients": 3,
+      "rank": 3,
+      "seconds": 213.670245729,
+      "stage": "finite_QQ_fiber_verified"
+    },
+    {
+      "dimension": 6,
+      "factor": "4*x + 1",
+      "index": 1,
+      "original_multiplicity": 6,
+      "physical_power": 6,
+      "seconds": 214.12947720900002,
+      "stage": "begin_finite_QQ_fiber"
+    },
+    {
+      "certificate_sha256": "360a560da12afc1848a2921446edbec21669ede862d0f22cf652ae38a1b218f7",
+      "dimension": 6,
+      "identity": "U^dimension=af*original_phase+bf*original_norm modulo (f(A),Qb,Cx)",
+      "index": 1,
+      "nonzero_coefficients": 3,
+      "rank": 4,
+      "seconds": 214.13632686,
+      "stage": "finite_QQ_fiber_verified"
+    },
+    {
+      "dimension": 24,
+      "factor": "7808*x^4 + 568*x^3 + (-8713)*x^2 + 1380*x + 549",
+      "index": 2,
+      "original_multiplicity": 58,
+      "physical_power": 24,
+      "seconds": 218.073246578,
+      "stage": "begin_finite_QQ_fiber"
+    },
+    {
+      "certificate_sha256": "fd020fb800df66a794ecbfc556a73f2b15f2203034926f7ab01572078e2d7507",
+      "dimension": 24,
+      "identity": "U^dimension=af*original_phase+bf*original_norm modulo (f(A),Qb,Cx)",
+      "index": 2,
+      "nonzero_coefficients": 12,
+      "rank": 12,
+      "seconds": 229.01277892900004,
+      "stage": "finite_QQ_fiber_verified"
+    },
+    {
+      "dimension": 6,
+      "factor": "x + 1",
+      "index": 3,
+      "original_multiplicity": 390,
+      "physical_power": 6,
+      "seconds": 229.44889191800002,
+      "stage": "begin_finite_QQ_fiber"
+    },
+    {
+      "certificate_sha256": "ff3268db72f34cee59ecc7c8856b5c41f9c51e5f29fba3783cb762b589067a60",
+      "dimension": 6,
+      "identity": "U^dimension=af*original_phase+bf*original_norm modulo (f(A),Qb,Cx)",
+      "index": 3,
+      "nonzero_coefficients": 0,
+      "rank": 0,
+      "seconds": 229.44923502200004,
+      "stage": "finite_QQ_fiber_verified"
+    },
+    {
+      "ordinary_isp_claim": false,
+      "outcome": "all exact QQ necessary source fibers contradict original physical U!=0",
+      "seconds": 229.449772332,
+      "source_sha256": "8fd5e5b31e92bd0ffaf181c8cb96100ea55ad61ab1724652e3eff17ab497cd9a",
+      "stage": "complete"
+    }
+  ],
+  "execution_receipt": {
+    "elapsed_seconds": 229.77056608099997,
+    "max_child_rss_kib": 562040,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "a39e5a6f88c9695ae43abcc6358679a422c4d5e8",
+        "before": "a8213d2429c498852dde5602ccb9019251f01ff6",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "fef43bdf8690f2eec4751d85784a266eacdd0322"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-26T12:51:51.560212+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "45823574259",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-347c-20261126",
+    "source_commit": "a8213d2429c498852dde5602ccb9019251f01ff6",
+    "source_exit_code": 0,
+    "source_git_blob": "6ff96bb73f9d7901557877bff8626f7a9ebedf74",
+    "source_sha256": "8fd5e5b31e92bd0ffaf181c8cb96100ea55ad61ab1724652e3eff17ab497cd9a",
+    "stdout_bytes": 4800,
+    "stdout_sha256": "bf3b81ad9e2b3d43fa937d5d0254f14d9abb76117a4a79844020a9cde39ca170",
+    "stop_reason": null
+  },
+  "ordinary_isp_claim": false
+}
