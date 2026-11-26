@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R12 所有真有限头坐标非 Fredholm，实际 Haar 头图底空间无限余维（2026-11-27，已证明）：** [原核像与完整头幂证明](results/R12-appendix-finite-head-coordinate-nonfredholm-and-actual-haar-graph-codimension.md)用原幂单射/拟幂零排有限非零核、用尾伴随单射排有限正余核，再由根重数排除有界同构。若 Q|M 有下界，实际闭像必非零、真、无限维且无限余维；R231 必取完整头 N=2^(j+1)、k=2^j，不误用二次根排有低头重数的图。一般真底空间仍开。
+
 - **R150 S0/Lt0最小原v六次式的整个首项零面为空（2026-11-27，已证明）：** [原Dixon组合、完整双层投影及二次域返回](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-original-v-leading-zero-exclusion.md)完整核lc_vP045=(4e−k)(ek−1)B44/524288；原三mean差商系数/Cramer追踪给D8，564/750/776次一元投影Bézout仅余e1/2。其B44=(k−2)²(k²+29k+64)乘非零常数，k2原单位排除，末二次域P045/P035的v-Bézout1。109.809478秒/607860KiB/exit0；一般图可合法用首一v六次关系。
 
 - **R271 原形式除法的闭关系及两道范围核心已精确化（2026-11-27，已证明结构）：** [真实列图闭包与显式多值趋近](results/R271-appendix-actual-formal-division-closed-relation-and-two-range-cores.md)证明closure Graph(TJ_B|P)=closure Ran(B,T)，多值部恰Ce0，实际x_j=e_(2^j)/a_j同时付Bx_j→0、Tx_j→e0。投去真空的A_min可闭，A_max=J_BT，N⊂ker A_min⊂M；其伴随最大G=F/z域D={y:T*y∈RanB*}的闭包为e0⊥。I⊂J⊂N⊥的两道等号分别未付，单一图核心不冒充N=M。

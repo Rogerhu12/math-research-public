@@ -158,3 +158,5 @@ A单射、稠密像、拟幂零且非紧；普通非零真闭不变子空间仍�
 S0/Lt0的k=4e、v=t=0、Omega=2e²−ek+2=0整支均已完整原返回排空；可付4e−k、v、Omega。准确全谱、Bézout和源回执保[压缩前页](notes/2026-11-27-open-before-v-leading-exclusion-8542.md)及结果索引，所有未闭原约束保持。
 
 **[最小原P045的全部v首项零面已关闭](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-original-v-leading-zero-exclusion.md)：** 新Dixon差商是原三mean的显式组合，完整两层投影及e1/2的整二次域返回皆通过，109.809478秒/exit0；B44可逆，下一用首一v六次关系保原组合降次及两参数覆盖，未宣一般Lt0为空。
+
+[原有限头坐标的非Fredholm及实际图余维](results/R12-appendix-finite-head-coordinate-nonfredholm-and-actual-haar-graph-codimension.md)已付：有下界时闭像必无限余维；R231保完整低头重数。未知真底空间的原核像/根限制仍需支付。
