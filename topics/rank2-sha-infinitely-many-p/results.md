@@ -126,3 +126,6 @@
 
 
 - [R996](results/R996-original-norm-seven-zero-sources-and-two-point-normalization.md)：原norm7两raw差给degree42/70的真双中央零，完整分子/原ordinary core、两个h7角单位与完整互素resultant全手证。真实规范化成为D=(64∞−0−1)/195，三参数Koszul给生成权≤2733；原c6S16/权69615支付全部整返回，195余权自由秩12090、基权≤393、乘法最多两项。累计Hilbert主项31/195准确增加1/195；同p6两新增必要行/完整尾/ordered前缀与5r8跨界全保，不把乘积或新格本身赋中央零。
+
+
+- [R999](results/R999-original-thirteen-residual-and-double-two-torsion-comparison.md)：两条完整13消核残差的二挠首jet逐式核为单位，指定whole组合B130=120Φ260−11Φ*−108X−F10有分子35^-1Z、(X+1)^2Q2因子及24768z12首项。两canonical失败时其真正中央为−δ(p+1)log(π/barπ)/10080非零。原未平移Z^-7P2^65输入逐点取消所有移动Z零点与O极，只余三个二挠极并付完整帽；第六Cartier保7κ5a+，平移后的所有权/原点和−T不删。

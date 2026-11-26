@@ -6,7 +6,7 @@
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。固定有限曲线族的联合无穷非零可用无限鸽巢；有限p、随p换曲线、条件桥、非零投影或接口均不完成。
 
-- 两仓库已部分克隆。公开根/课题 README 已读至 `12e47b06d7003b2df0a3c77be6d481b30cf226e9`（差异空）；每次pull只读两文件新差异，至少每小时同步并记SHA。
+- 两仓库已部分克隆。公开根/课题 README 已读至 `8415b02e03bedab6232dc0665d468f2b3667a51a`（差异空）；每次pull只读两文件新差异，至少每小时同步并记SHA。
 - 私库QUEUE接手已推41fe885610073f478b2f5a752461ca56cfd43f09；本次22:49 UTC pull至92b9fa94b75627acf634cd097e34e78360c9e2de，README差异空、QUEUE仍本会话进行中。目录math-research-public、math-research-private；令牌仅进程认证。
 - root独占git/H/open/log/index；每条结论完成即推，非快进立即pull --rebase、检查README再推至成功，不强推。数学只用公开Actions；不存可重算矩阵/数据/log。H<10KB，每MD<100KB。
 - [此次逐字归档](notes/2026-11-27-handoff-before-new-zero-normalization.md)及历史链保全部旧状态；[open](open.md)、[results](results.md)、[R951–1000索引](notes/PROOF-INDEX-R951-R1000.md)保全部未解门，未默删。
@@ -32,14 +32,15 @@ R959/R970–983已付E65/E65³/E260/E54925/E8125的rank≥2及原全部有限/�
 - R957/R960同完整整数格的严格a+2b<3仍缺；既得Hilbert4/13、余权195、11700秩、399权及inert b3全保。ordinary只在先卷积后sum-unit切域，零不传播乘积。
 - R960/R989原a=pκ单位、六块p6窗及低格/五修正全保。强Hurwitz/完整整窗付十源六项J′ modp7；W/f至w^p、两真除p由八位输入付六位。五old唯一点x†6，五新余式Fτ6(x5)−cτFold6(x5)，old也读第六位。联合坏中央使同原Γ6各ordered前缀modp6逐行同一，无旧125logp重定点费用；只比较有限窗。完整H_p/E_p同点、H≡−a/18/E≡2χ2及5p/11p carry保留。p227、有限jet不代深核/跨p。
 - R963–968完整h/ρ/双W、全伴随/12中心/sqrt3与Q2 whole界全保；跨域source/cross未消。共同C/F只保全四输出，carry消q9留q3；整来源υp^n及网格vp8n已付。补域/H_cd/Pj/Rc与CM投影仍可补偿，子管非零不等于全中央矛盾。
-- **R985**：L11全相位/Miller及S130 twirl给全22真实伴随和全六张量分解；finite-theta adjoint保全部mixed。CF只在四输出push后scalar；H先Π_Z再在其无极像M_S、原trace。P T_u零不付T_u P零。
-- **R987**：两13核六点平均质量mM=(3−δ)√π/332640、mU=−(3+δ)√barπ/332640；β=−(1+2δ)/997920，指定bar根为−mU。两个归一源准确相差3Δ125/4+C_bΦ*，canonical坏时ordinary/inert真非零差。质量单位不增>211坏位。全mixed对偶保留，carry仅first-axis scalar；两个translated测试没有免费零。完整13-primitive核由离13 CM norm保持（inert交换两核），须找实际非canonical边界。
+- R985/R987：完整Heisenberg/Miller、全22真实伴随及所有mixed切域已付。CF仅全四输出push后/first-axis scalar；H先Π_Z再在无极像乘S。两13核归一平均准确相差3Δ125/4+C_bΦ*，坏canonical时ordinary/inert真非零；两translated测试不自动零，完整译像与对偶保留。
 
 - **R993**：原Z在两个13核均单位，L值resultant6912π(4+δ)；实际ρπ=−11(1+δ)/40及共轭相差−11δ/20单位，消去均恰1阶/首商全返。Gold补足二次质量边界。完整Miller frame保权dT=1−P2(T)^65(DR)^10；两核可用ρ差分离，但全Cartier还保移动Z零点/二挠/低卷积，不能把canonical零当局部零。
 
 - **R992**：X130=(Δ12500−Δ125)/(45360δ)，完整P_X degree20首项1、固定分母只2/3/5/7/13，仍原B6帽；全部好inert二重中央零，普通准确限R968 wholeS10射线。H+−8H−/5−11(F11,+−F11,−)/23625=−2X/25全身份；第11行沿R989同p6/完整尾，不扩窗。四源两13核边界det单位，余协向量R∂=barπω²tπ−πωtbar；(N7+ω²)X=Δ125/45360明确中央非零。保全部P2/Miller高jet/移动Z/二挠，不把Hecke像赋零。
 
 - **R996**：原f6/f10的norm7 pull差给X42/X70，在所有好inert和原普通wholeS6/S10射线真双中央零。完整角gcd仅q=t(t−1)，h7两角全单位；新D=(64∞−0−1)/195。三条真实同权1365参数/Koszul付生成权≤2733，导子c8=c6S16/权69615；全195余权rank12090、基≤393、乘法≤2项/l1≤2，累计Hilbert31/195。原p6新增两行/全部ordered前缀保留，导子5r8跨界；乘积中央不赋零。central续同格全位严格门R1000。
+
+- **R999**：完整B130=120Φ260−11Φ*−108X130−F10，从24768z12起，分子∈35^-1Z[X]并整除(X+1)^2Q2。原两消13核残差二挠首jet为−64·23·3^30(1+5δ)/19单位；指定组合真实升为双因子。坏canonical时jB=−δ(p+1)log(π/barπ)/10080非零。未平移Z^-7P2^65R_B在O及全部移动Z零点正则，只余三个E2、极帽65p³−65p²+58p+61；第六Cartier仍保7κ5a+，平移后O/−T/全权全保。arithmetic续完整三次Cartier及两exact层R1001。
 
 ## 四、几何与全局门
 
