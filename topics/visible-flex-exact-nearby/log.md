@@ -359,3 +359,6 @@ NS五件共129172B，owner71056B SHA18db439d5895e4232882940a57b7bd9457982383e1ac
 
 
 2026-11-26 23:08:43 UTC / visible-exact-astra-fb31ed6-20261127：OT四源已冻结登记：complete_original_Theta_inputs、rows_owner、rows_public_worker、make_manifest；全99项IR整metadata/preflight已过、原worker35000B patch AST通过，零本地science。严格whole IR/AS/IL/CYA准入，两carrier分独立原runtime child（IR Haswell、AS unset），完整原manifest去重合并；旧residual/norm/cohomology0。10新scalar含全ZG/BZ、alphaWiener、两完整product候选及原fullΘ全部误差，96×2240 signed行private wholehash/原low96 reference1/全phase/原Cayley资格保。AS运行中不生成manifest；真正成功后generator --AS-run绑定唯一whole。DH推2d0a1efc3两README无diff。
+
+
+2026-11-26 23:13:21 UTC / visible-exact-astra-fb31ed6-20261127：ASB全actual登记，45908403884/1全11/11、rc0；whole science9780B/1983678692d346b7cf22e8baace984758657e23706be6b43a3c038eed62bd873，execution11494B/055ba9037d292d178e98c2463b2a8a6315c5717c8283c2472b3ae1e7eb5e7e80（已公开原件不再提交）。7721全row准入，1753short父格science3.258436s；radial<.577273187，Dν<6.289073e−7、primitive/mean<1.132677e−6、L²rL²<6.765672e−6。21个whole旧球有理新组合全过，原APA true幅度收至(−.006275,−.006264)、exactα归一(−.008203,−.008188)，PO physical high97<5.330e−5、cos96 error<6e−7。原trial/row/norm/inverse全部不重，真实n_g√q正下界24/25和fullsame-sign B原序保；phase/height/齐次补偿/νSchur仍待。OT已推08e0b9301两README无diff；AS首snapshot SN1578/3146未到whole终点，PS23:12仍运行。

@@ -365,3 +365,5 @@
 - [DH：完整physical outer curvature残差二阶界](results/R144-supplement-full-physical-outer-curvature-residual-Hessian.md)：QN同一zero-width graph/module与UH全mean链式给mixed Hessian≤10000(HxEy+HyEx)，独立g=|D|²fB按H1/L2权200/4、原真实q_m及两mean保。16个saved有理组合首次全过；固定height、outer任意fulltail A³≤1e−9的完整二次余项≤1e−14。只该curvature三行，phase/worldheight/高阶/完整逆与迭代仍待。
 
 - OT完整原Θ首入口四源：[inputs](scripts/fourfold_codazzi_complete_original_Theta_inputs.py)、[owner](scripts/fourfold_codazzi_complete_original_Theta_rows_owner.py)、[worker](scripts/fourfold_codazzi_complete_original_Theta_rows_public_worker.py)、[generator](scripts/make_complete_original_Theta_rows_manifest.py)。承接DT/TM/TP全公式，10新scalar及96×2240 signed行；whole IR/AS/IL/CYA和两独立runtime必要carrier恢复后才执行。IR全99条metadata已过，AS尚运行，因此无实际manifest/dispatch，原mean/finite/fullSchur仍保。
+
+- [ASB：实际短参数误差与更紧signed边框](results/R147-supplement-actual-short-parameter-errors-and-refined-signed-borders.md)：45908403884/1全11/11、真正Dν<6.289073e−7、interior L²rL²<6.765672e−6。21个已成whole APA/PO球的新有理组合给physical幅度(−.006275,−.006264)、exactα归一(−.008203,−.008188)、physical high97<5.330e−5、cos96 error<6e−7；fullsame-sign原B/mean/PDEerror均保，旧科学0。非局部phase/height、齐次边界补偿及完整νSchur仍另付。
