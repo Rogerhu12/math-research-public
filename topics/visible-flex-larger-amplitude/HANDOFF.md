@@ -4,9 +4,9 @@
 
 ## 规则与完整目标
 
-最近规则核查：2026-11-26 16:59:55 UTC，真实pull/rebase至 `3c1d254948af030046d713460a21d74dfa7ec6c7`，双README相对`1f865b675de50b256ee16bd851e0cce8f7d26a99`无差异，授权及规矩继续执行。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
+最近规则核查：2026-11-26 17:01:16 UTC，真实pull/rebase至 `80f14454d097ff2a698c41271c7a430d3a8ab03f`，双README相对`3c1d254948af030046d713460a21d74dfa7ec6c7`无差异，授权及规矩继续执行。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
 
-科学计算仅本公开仓库Actions；早前本地偏差及纠正见[执行记录](notes/2026-11-20-public-actions-execution-correction.md)。root唯一分支写者；代理只scratch及未引用小源blob。每条结论普通commit/push，NFF立即pull --rebase循环再推，不强推。至少每小时pull，每次核双README差异/立即遵新规并记commit。raw只scratch/runner，不入Git/Release/artifact；保完整小源/参数/run/SHA/紧凑结论。题≤200MB、单文件<5MB、MD<100KB、H<10KB、open<30KB。令牌仅瞬时CLI。终端中断/恢复及全部授权操作保2a7c完整H；已回终端真实pull/push，未造raw。
+科学计算仅本公开仓库Actions；早前本地偏差及纠正见[执行记录](notes/2026-11-20-public-actions-execution-correction.md)。root唯一分支写者；代理只scratch及未引用小源blob。每条结论普通commit/push，NFF立即pull --rebase循环再推，不强推。至少每小时pull，每次核双README差异/立即遵新规并记commit。raw只scratch/runner，不入Git/Release/artifact；保完整小源/参数/run/SHA/紧凑结论。题≤200MB、单文件<5MB、MD<100KB、H<10KB、open<30KB。令牌仅瞬时CLI。终端恢复/全部授权保2a7c完整H；真实pull/push，无raw重造。
 
 
 目标：同一固定g、闭连通C²嵌入、全t强C²连续；固定有内点H且diamH≥.2D、整像δhold≥.2D、含反射δE>0；全t reach≥.03D、整面relative metric≤1e−6；固定g/参数/范围的真实mesh和频率精化至机器或原求解容差，多t可复现网格，准确说明严格存在缺口。D为完整F0直径。R248准确相位恒等式处理全t，不新增独立t插值门。有限误差/开放片/障碍不完成。
@@ -29,7 +29,7 @@
 
 旧03发布故障与stage7未知结果保[完整记录](notes/2026-11-26-actual-publication-failure-and-complete-recovery.md)，不由03b回填；03b实际45820592817使用3cb1/68a3修复，原科学/字节边界不变。
 
-[03b真实3–13](notes/2026-11-26-actual-axisymmetric-first-field-and-zero-root-failure.md)同0f042/6ffc，606返fbf2/989740；[17–18](notes/2026-11-26-actual-SO3-prior-separation-SOC-17-18.md)359ffc返b1c625/cd1af8，Phi210.1678/max .5140674、原ray alpha1/128接受/0SOC接受。QP64未驻，37→39→41全行；alpha.5首SOC真几何拒、次20000 sweep_limit_feasible且Phi骤升而几何未读，完整8ray/来源/边界保note。实际24纯尺度已返待刊，不能冒最小范数收敛；完整新后退SOC已刊排04，最终全部永久点复筛后唯一接受。此前完整H保[bd75全文](https://github.com/Rogerhu12/math-research-public/blob/bd75c8c86fa39ee37fd729a8faf4f52be008838e/topics/visible-flex-larger-amplitude/HANDOFF.md)。
+[03b真实3–13](notes/2026-11-26-actual-axisymmetric-first-field-and-zero-root-failure.md)同0f042/6ffc，606返fbf2/989740；[17–18](notes/2026-11-26-actual-SO3-prior-separation-SOC-17-18.md)359ffc返b1c625/cd1af8，Phi210.1678/max .5140674、原ray alpha1/128接受/0SOC接受。QP64未驻，37→39→41全行；alpha.5首SOC真几何拒、次20000 sweep_limit_feasible且Phi骤升而几何未读，完整8ray/来源/边界保note。[实际24尺度](notes/2026-11-26-actual-SO3-SOC-correction-scale-24.md)原f686纯读：修正/锚 .00258196→6.03694、后轮真固定typed约束32717.46；4计数缺键不填0，不能冒最小范数收敛；完整新后退SOC已刊排04，最终全部永久点复筛后唯一接受。此前完整H保[bd75全文](https://github.com/Rogerhu12/math-research-public/blob/bd75c8c86fa39ee37fd729a8faf4f52be008838e/topics/visible-flex-larger-amplitude/HANDOFF.md)。
 
 [零Δ原失败与实际14–16](notes/2026-11-26-zero-initial-endpoint-replay-and-moment-input.md)完整记录保1d457全文：窄/.5/.75都首8角失败无场/J；14全弦长严格通过，15旧轨迹末候选球内仍未降、工作Cz病态，16纯抽取18字/05dc，未冒真逆或根证明。
 
