@@ -305,3 +305,5 @@
 - [R684：旋转度量的角均值设计、全导数及固定目标精化](results/R684-rotational-mean-metric-design-and-frozen-target.md) — 两种明确新目标的正定/闭合/相位误差、归一化、密度权及全J/J*完整证明；新设计后必须冻结连续目标再精化。双variant同场一次读取入口已排，尚无新数值，不冒原g收敛。
 
 - [R685：固定预条件器在真实活动切空间上的约束逆](results/R685-constrained-active-face-preconditioner.md) — 完整证明B−BQᵀ(QBQᵀ)⁻¹QB在面内SPD、准确逆与谱等价传递；新v5按实际QR面缓存且明确处理失败，不改变原QP/范数/停止。原目标首个v4/SOC保持，随后排v5真实续算，尚无性能或收敛结论。
+
+- [R686：完整曲率的准确分块覆盖、自然返回与同场续接](results/R686-batched-complete-curvature-cover.md) — 原R670/R672/R674六jet核上的准确径向块/完整角覆盖及全胞max/min合并证明；每批自然返回、实际同场journal续接与紧凑覆盖域，未运行、不冒K或reach结论。
