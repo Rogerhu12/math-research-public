@@ -6,7 +6,7 @@
 
 ## 1. 规则与接手
 
-已部分克隆并实际 `git pull main`，公开根 README、课题 README、HANDOFF、open、results 索引及相关 log/notes 已读。公开已读提交 **1ef79b8f9651620533c5eb767b1fab06faf62df0**（2026-11-26 12:05 UTC；本次实际pull后根/题README空差异）；历次规则及失败原回执保原note；私有 QUEUE 的本题已改为本会话进行中并成功推送：**9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7**；最后实际pull及规则同blob读至 **4a97d422c004724bff537e2c5e322b82aec4ccdd**（2026-11-26 11:28 UTC；恢复partial副本后实际pull，根README空差异、QUEUE仍本会话）。其它课题的并行认领保留。
+已部分克隆并实际 `git pull main`，公开根 README、课题 README、HANDOFF、open、results 索引及相关 log/notes 已读。公开已读提交 **433e1d1821090b208ff614c06970deee20fd5e97**（2026-11-26 12:10 UTC；本次实际pull后根/题README空差异）；历次规则及失败原回执保原note；私有 QUEUE 的本题已改为本会话进行中并成功推送：**9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7**；最后实际pull及规则同blob读至 **4a97d422c004724bff537e2c5e322b82aec4ccdd**（2026-11-26 11:28 UTC；恢复partial副本后实际pull，根README空差异、QUEUE仍本会话）。其它课题的并行认领保留。
 
 [前历交接](notes/HANDOFF-before-new-actual-runs-20261126.md)保全部原规则/成本/范围；09:18及11:20 UTC两次本地失联期间仅API保存，不冒actualpull。09:33、11:28恢复后已实际双pull。每pull核根/题README差异并执行，至少每小时；root独占git/索引，每条结论即推，NFF立即rebase重推。科学仅公开Actions，本地限纸证/源码/原日志解析；已披露3次开发偏离保原note且停止。根12不加机械复跑，根15不留可重算raw。
 
@@ -28,7 +28,8 @@
 
 [真实尾核、旧射击及R574/R575前史](notes/HANDOFF-before-adaptive-height-20261126.md)保全部原接口/成本/失败范围，旧种子与射击不重跑。当前有限四模来自R583真实全平核，端校正保在完整残差；二阶均值接口不替代有限非线性。
 
-[R576](results/R576-exact-turning-elimination-and-finite-nonlinear-height-interface.md)付完整turning/二jets/真实metric及核心通量。[插结自然终态](notes/2026-11-26-r576-exact-knot-natural-final.md)run45804732428新增1670.428137923秒，227接受、7同场映射至264q/67结/4局部列；ε仍1e−5，1281×128细η2.74680294895e−7，direct两步约2.74964/2.74882e−7，κ约9.563有限观察。六次自适应耗尽、未达2e−9升级门；不是连续下界。真实H.5188895813736972及完整末q保后继；[真实受迫j4包](notes/2026-11-26-r576-body-forced-j4-implementation.md)从零系数加第265维：在实际末H冻结W、原参考F给χS4，齐次/特解实传后核心C消元和二jet匹配；未取消内源/线性缺陷均留完整残差，读真实D角谱，不预认主误差角模。0旧内口/H射击，固定g/宏观仍未付。
+[R576](results/R576-exact-turning-elimination-and-finite-nonlinear-height-interface.md)付完整turning/二jets/真实metric及核心通量。[插结自然终态](notes/2026-11-26-r576-exact-knot-natural-final.md)run45804732428新增1670.428137923秒，227接受、7同场映射至264q/67结/4局部列；ε仍1e−5，1281×128细η2.74680294895e−7，direct两步约2.74964/2.74882e−7，κ约9.563有限观察。六次自适应耗尽、未达2e−9升级门；不是连续下界。真实H.5188895813736972及完整末q保后继；[受迫j4原终态](notes/2026-11-26-r576-body-forced-j4-natural-final.md)run45813421528/job139886872647付460.575048554秒，33真实接受后同空间停滞；ε仍1e−5，末265q/H.5188907586810884，细η反升至3.04271863675e−7，不冒最大误差改善。实际D最大模j10约6.63e−6，下一保完整265q/67结/新增方向定义，用R594全非线性有限角BVP；新高角flat口/核心/实际a符号须付，旧内口/H不重跑。
+
 
 [R587](results/R587-fixed-metric-mean-height-elimination-at-flat-cap-and-core.md)现付冻结完整E_*后的均值斜率根及二jets导数；快速全平类在帽端用W²有理化得真实局部根，核心ζ变量非退化。须固定完整函数/验证中段导数与核心C1输入，未付非零角模逆或收敛。
 

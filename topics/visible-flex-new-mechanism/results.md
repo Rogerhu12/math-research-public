@@ -336,3 +336,5 @@
 - [同paid口true-s实现](notes/2026-11-26-r582-true-core-shooting-implementation.md)与[原自然终态](notes/2026-11-26-r582-true-core-shooting-original-terminal-receipt.md)：run45812850055付31.672817549科学秒、0旧seed/LS；整个原ν0盒/全s区间zs下界.0078518，真实μν两精度C/A都<1e−12、4811细几何V0。仍非准确尾口/ODE/根证书，直接推进全s图有限非圆。
 
 - [R594 完整非线性径向加速度及漏模界](results/R594-exact-nonlinear-radial-acceleration-and-galerkin-leakage.md)：**已证明**a<0时直接解全部非线性最高项，完整离解Frechet链保δωD；零均值主项显式逆与有限弱角矩阵严格负定。保旧完整f0的有限ODE、正规核心最高项尺度及连续高模尾→真实metric界均给出；未授实际符号/两端返回/无限角收敛或主门。
+
+- [受迫j4原自然终态](notes/2026-11-26-r576-body-forced-j4-natural-final.md)：run45813421528付460.575048554科学秒，33接受/114拒绝；ε仍1e−5，目标下降而末细η升至3.0427e−7。真实D中j10最大约6.63e−6，单j4列不足；保真实265q/全部67结，转R594完整有限角非线性，未授连续尾/全域/宏观。
