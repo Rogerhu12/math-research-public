@@ -268,3 +268,7 @@
 - [真实theta末态及全部pending库的513容量续接](notes/2026-11-26-theta-peak-capacity-continuation-implementation.md)：新双lane明确续接，原实际与未采用完整状态逐项绑定；B038取保留q，1536均匀约束/全部峰/原trust均保留，唯一容量参数257→513。物理、FFT、AD、交换和接受函数沿原源，已付parity/方向核不再执行；新重建/求值全部计费，非完成。
 
 - [R583 同一温和尾上j≤8的真实全平端模](results/R583-finite-high-mode-flat-kernels-on-the-same-mild-tail.md)：**已证明**2≤j≤8及全相位的准确SL、单谷权/正势、统一DtN占优和收缩，得到真实一维全平端核及有限截断界。供R576有限角基，不授同时核心共振、ODE误差或全频非线性逆。
+
+- [R581 保原变化链与真尾的局部第四准确C²表达](results/R581-exact-c2-local-ruling-with-full-history-chain.md)：**已证明**第三尾准确转置、全库唯一三导平方零和、余线性三导按真J导数分部积分；保全部微包/间隙/加速度及原M链。新R578求值已发布237950aa，完整A/T及八根BVP未授。
+
+- [R582 实际圆核背景的真实全平尾核与共振入口](results/R582-actual-circular-tail-flat-kernel-and-resonant-entry.md)：**已证明**真实17q及原盒的准确P/ε、u≥1000二jet权扰动与符号界，保原160起始cell/DtN，给实际一维全平j2核。未授中段穿零/核心共振/有限分支；真实新权的数值端值另付。

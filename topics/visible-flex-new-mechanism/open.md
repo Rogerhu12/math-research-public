@@ -16,7 +16,7 @@ ring17至full62及joint168原实例均已闭，不重开；joint168新增1234.03
 
 开放核心/圆领须由C∞平坦接口准确保持二jets；全体段E、F条件以完整网格检查和峰交换覆盖，G由重构准确为a²。核心准确reach不代替连接/跨片法弦，仍须全部主门。新脚本与公开Actions结果将逐次记录，不使用旧失败raw作为58。
 
-首个v2新范围已发布：[完整实现说明](notes/2026-11-26-inverse-metric-implementation.md)、[表示与原文边界](notes/2026-11-26-inverse-metric-design.md)。两lane B=.3/.38，[原stdout已返回](notes/2026-11-26-inverse-first-run-radial-fold-failure.md)，两lane均失败，不能宣候选。参数Jacobian为解析空间jet的前向微分；首run内单方向差分排实现错误。目标g在设计阶段可变，双倍网格只评价同q；最后必须冻结g才做真正精化。C∞平坦尾仍可能缺无限K变号，首run细网格确见s=.421875径向退化、η>1/3.7和κ数万，且球/条带失效；下一使用硬几何可行性恢复和动态径向约束，再结合R566输入，不延长原49圈软权重。
+[v2原失败](notes/2026-11-26-inverse-first-run-radial-fold-failure.md)两lane径向退化、η>1/3.7及κ数万，球/条带失效，原实例已闭。完整表示/AD/参数与成本留原note，不再延长软权重；后继硬几何与真实峰路线见下，设计g变化不算同g收敛。
 
 新端口已付[R566](results/R566-flat-oscillatory-cap-tail-and-graph-reach.md)：r=.22的准确平盘外接固定w=.1exp[−(2−sinδ⁻²)/δ]，δ=(r−.22)/.2，至r=.30；C∞全平、K无限简单变号，凸底域graph片reach>.1832。下一把实际z背景和开放于每个r>.22的非径向自由量接进逆设计，不把整段尾冻结。原外边jets及body跨块法弦仍另付；更快全平权未证明包含真实核，失败须换权或尾。
 
@@ -99,7 +99,7 @@ R513同类cap排除、R518固定宽接口、R520/524/527/529原20母的返回障
 
 ### R573：原最后小δ极限违反reach比例，转紧凑输入
 
-[R573](results/R573-fixed-collar-curvature-and-separated-scale-reach-obstruction.md)由真实ruled片形算子与原固定开放collar，得到reach≤ρc=H²+(ξc+Ω)⁻²；首高尾上两个实际表面点给D≥c√R logR/δ−C_R。因此对先固定所有有限资料再δ→0的R544–R570族，reach/D→0，即使第四及高阶以后全部消去仍不达主门。仅限制这个有明确量词的极限，未排全部有限参数/母/其他输入。下一必须控制所有部分位置积分或同步改变最早曲率半径，继续同χ真实history下的紧凑/有限尺度返回；端点净位移为零不足。[27态实际接口](notes/2026-11-26-compact-r530-reduced-endpoint-implementation-agent.md)已明确，保两侧8矩+3个真第三投影、加速度原矩阵及4条材料边界。其[开发本地执行收据](notes/2026-11-26-r530-local-development-execution-receipt-agent.md)只记实际发生的三次有限求积/符号诊断，无ODE/根；源码保为未合格draft。[独立v2原终态](notes/2026-11-26-r530-v2-public-reduction-receipt-agent.md)run45785471536的局部η/未消history/张量同值误差≤9.24e−16；固定profiles的24/48/96求积R0仍6.51e16/3.73e14/−4.98e10，不能授稳定小余项或有限根。19.0664秒child wall已登记，没有ODE/rank；下一先完整四次平均及积分分部化为C2再求值，新36块输入另付。
+[R573](results/R573-fixed-collar-curvature-and-separated-scale-reach-obstruction.md)由真实ruled片形算子与原固定开放collar，得到reach≤ρc=H²+(ξc+Ω)⁻²；首高尾上两个实际表面点给D≥c√R logR/δ−C_R。因此对先固定所有有限资料再δ→0的R544–R570族，reach/D→0，即使第四及高阶以后全部消去仍不达主门。仅限制这个有明确量词的极限，未排全部有限参数/母/其他输入。下一必须控制所有部分位置积分或同步改变最早曲率半径，继续同χ真实history下的紧凑/有限尺度返回；端点净位移为零不足。[27态实际接口](notes/2026-11-26-compact-r530-reduced-endpoint-implementation-agent.md)已明确，保两侧8矩+3个真第三投影、加速度原矩阵及4条材料边界。其[开发本地执行收据](notes/2026-11-26-r530-local-development-execution-receipt-agent.md)只记实际发生的三次有限求积/符号诊断，无ODE/根；源码保为未合格draft。[独立v2原终态](notes/2026-11-26-r530-v2-public-reduction-receipt-agent.md)run45785471536的局部η/未消history/张量同值误差≤9.24e−16；固定profiles的24/48/96求积R0仍6.51e16/3.73e14/−4.98e10，不能授稳定小余项或有限根。19.0664秒child wall已登记，没有ODE/rank；[R581](results/R581-exact-c2-local-ruling-with-full-history-chain.md)已准确将完整局部R的第三尾转置、整库三导平方消去及线性三导分部积分，保真二尾/chain。新36块48/96/192求值请求237950aa已公开；完整A/T稳定化与保全六个第三槽的19态八根BVP继续，不借局部稳定式授整F或根。
 
 ### R572：同一从起点母已清全部实际微包总通量，继续整个函数
 
@@ -192,3 +192,7 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 ### R583：同一温和尾的有限高模准确端基
 
 [R583](results/R583-finite-high-mode-flat-kernels-on-the-same-mild-tail.md)在同一R571输入上付2≤j≤8准确全平一维核，未固定半径替代；u≥100的单谷权、正势与DtN对角占优给统一收缩<10⁻³及真实截断界。可给有限高度表示的j2/4/6/8端基，但未给多模同时核心共振、浮点ODE误差、无限谱非线性解或同g精化；外端trace校正必须加入实际残差。
+
+### R582：实际圆核背景的准确全平尾列
+
+[R582](results/R582-actual-circular-tail-flat-kernel-and-resonant-entry.md)直接取原circle stage0的真实17q及盒，准确权P=z_s r⁸/(a_s²s_u)、ε=12r_u²/r²；u≥1000证明a_s<0/z_s>0，log(P/P0)二jets严格小，保160号起始cell与原DtN常数，得到唯一标量全平j2核。原β有限末多项式缺此列，现可用真实端核换基；实际DtN/端jets必须按新权求，不能挪旧浮点值。中段z_s=0须原undivided方程、Ccore=0/Acore≠0仍需调实际背景，有限分支和主几何全部继续。

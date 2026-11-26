@@ -6,9 +6,9 @@
 
 ## 1. 规则与接手
 
-已部分克隆并实际 `git pull main`，公开根 README、课题 README、HANDOFF、open、results 索引及相关 log/notes 已读。公开已读提交 **94357c748babfa36a981882494dfdd173ddfe301**（2026-11-26 09:17 UTC；本次实际pull后根/题README空差异）；私有根初读 **85fdf1853367ef25c07f3ebdb6ae25c22a3564b8**，随后逐次 pull/rebase 检查根差异，空差异。私有 QUEUE 的本题已改为本会话进行中并成功推送：**9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7**；最后实际pull及规则同blob读至 **beff3c7458835a1397c67704ac9a95d0a4717f12**（2026-11-26 08:52 UTC；磁盘满失败后改稀疏索引，重做actualpull成功，根README空差异、QUEUE仍本会话）。其它课题的并行认领保留。
+已部分克隆并实际 `git pull main`，公开根 README、课题 README、HANDOFF、open、results 索引及相关 log/notes 已读。公开已读提交 **94357c748babfa36a981882494dfdd173ddfe301**（2026-11-26 09:17 UTC；本次实际pull后根/题README空差异）；历次规则及失败原回执保原note；私有 QUEUE 的本题已改为本会话进行中并成功推送：**9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7**；最后实际pull及规则同blob读至 **beff3c7458835a1397c67704ac9a95d0a4717f12**（2026-11-26 08:52 UTC；磁盘满失败后改稀疏索引，重做actualpull成功，根README空差异、QUEUE仍本会话）。其它课题的并行认领保留。
 
-各原观察note保真实双仓pull/规则blob/QUEUE回执；根/题规则均无变化。盘满和失联恢复原记录保于[先前交接](notes/HANDOFF-before-hard-restoration-20261126.md)，历次全文见[几何转向前交接](notes/HANDOFF-before-compact-geometry-20261126.md)及[非线性高度前交接](notes/HANDOFF-before-nonlinear-height-20261126.md)。API读取不冒git pull。2026-11-26 09:18 UTC本地执行环境再次不可用；最后本地push已确认成功。09:21 UTC接口读至 **c1a48b0f83a7e59f3a1439bd1fdbcd384aacda36**，根/题README仍原blob；继续接口保存论文/源与公开Actions，恢复后立即actualpull/rebase。
+[前历交接](notes/HANDOFF-before-resonant-height-20261126.md)及各原note保规则、失联恢复、成本与全部限定。API读取不冒git pull。2026-11-26 09:18 UTC本地执行环境再次不可用；最后本地push已确认成功。09:21 UTC接口读至 **c1a48b0f83a7e59f3a1439bd1fdbcd384aacda36**，根/题README仍原blob；继续接口保存论文/源与公开Actions，恢复后立即actualpull/rebase。
 
 每次pull核根/题README差异并立即执行，至少每小时一次，SHA随H更新；root独占git及共享索引。科学仅公开Actions，本地限纸证/源码/原日志解析；[3次本地开发偏离](notes/2026-11-26-r530-local-development-execution-receipt-agent.md)已如实闭账，源/参数保且已停止，不作路径或结论；根12不加机械复跑门，根15只留源码/参数/run/SHA/小结，不留可重算raw。每条完成结论即推；NFF立即pull --rebase再推。
 
@@ -20,11 +20,11 @@
 
 旧固定g/58及ring17至joint168均已闭，完整身份/门/费用见[固定O2原文](notes/open-fixed-o2-before-finite-height-20261126.md)。58的metric辅助量.2660054、κ58不是宏观合格点；旧实例不重开。
 
-[R565](results/R565-parallel-oval-core-exact-reach-and-amplitude-budget.md)的平行椭圆核心与[R566](results/R566-flat-oscillatory-cap-tail-and-graph-reach.md)振荡平帽是新g输入。v2、hard、识别续接及联合预算原run逐次闭账，完整源链保于[压缩前交接](notes/HANDOFF-before-resonant-height-20261126.md)和[open](open.md)。联合预算保持R1.012/Y.3928/τ.06072，B030/B038末fine η.939819/.853614、V0，但各3072约束提议未采用。
+[R565/R566输入及v2/hard/联合预算前史](notes/HANDOFF-before-resonant-height-20261126.md)已逐次闭账，原失败不改判。现物理预算R1.012/Y.3928/τ.06072，真实末态见下。
 
 真实角峰保1536全均匀约束与完整角Ebar，另外加实际峰，actual/pending/trial分开。run45785004209已闭：[B030](notes/2026-11-26-theta-peak-b030-first-real-angle-receipt.md)706.272697351新秒、η.39843255/V0、actual257径向/258峰、pending275/287；[B038](notes/2026-11-26-theta-peak-b038-first-real-angle-receipt.md)763.897576187新秒、保留η.65058868/V0、actual250/213、pending303/268。B038末trial因V.000192被拒。均径向容量终止/0自然返回。[513续接](notes/2026-11-26-theta-peak-capacity-continuation-implementation.md)已push **48e3048105f2e4e83c537beddb4bdefb99ae6e21**，run **45790610433**双lane在途；全部actual+pending及原trust保留，已付接口不重跑。连续reach/冻结g仍欠。
 
-[圆核原终态](notes/2026-11-26-circular-entry-and-small-core-continuation-receipt.md)run45778418134新增2401.892431903秒，p=.18入口V0/η8.66e−16；p=.20/.19/.185/.1825均未过stage1e−4，末η.0005411。最后合格仍圆；stage4真正156×384，235×768仅末扫描提议。[R580](results/R580-finite-tail-polynomial-kernel-obstruction-and-resonant-seed-interface.md)已证当前β×末段有限多项式不含非零真实尾核；末片跨carrier终点又排当前8基p′≠0的C1圆入口。只限原表示，不排强非圆或新空间。下一加实际背景的真实flat seed再调共振，不能仅缩p/调均值；p设计变化非同g。
+[圆核原终态](notes/2026-11-26-circular-entry-and-small-core-continuation-receipt.md)2401.892431903新秒，最后合格仍p=.18圆；四个非圆未过stage1e−4，stage4真正156×384。[R580](results/R580-finite-tail-polynomial-kernel-obstruction-and-resonant-seed-interface.md)排当前末片有限多项式的真实核/C1入口，只限该表示。[R582](results/R582-actual-circular-tail-flat-kernel-and-resonant-entry.md)现已为实际17q背景证明真实一维全平j2尾核，保同160起始cell/DtN界；中段z_s穿零、核心共振及有限分支仍欠。
 
 [R577](results/R577-intrinsic-geodesic-normal-chord-and-complete-reach-certificate.md)已付新的连续认证接口：全表面实际|κ|≤K、内蕴d≤π/(2K)的近对保持法弦半径1/K；材料路径只供d上界。全远对严格分离/法弦另付后才得嵌入/reach，当前有限FFT曲率不可冒连续K。
 
@@ -44,7 +44,7 @@
 
 [R573](results/R573-fixed-collar-curvature-and-separated-scale-reach-obstruction.md)仅排原固定资料后δ→0时reach/D→0；净位移闭合、缩放或多消形式阶不能修复，未排新有限输入。[R530完整27态接口](notes/2026-11-26-compact-r530-reduced-endpoint-implementation-agent.md)保3个真实第三投影与4条材料边界。原[开发执行偏离](notes/2026-11-26-r530-local-development-execution-receipt-agent.md)保准确收据，未合格draft不再执行。
 
-[独立v2原终态](notes/2026-11-26-r530-v2-public-reduction-receipt-agent.md)run45785471536付19.0664秒child wall：局部η/未消history/张量同值误差≤9.24e−16，但固定profile求积24/48/96的R0为6.51e16/3.73e14/−4.98e10，尚未稳定。没有ODE/有限八根；下一先完整四次平均及IBP化为C2再评价。
+[独立v2原终态](notes/2026-11-26-r530-v2-public-reduction-receipt-agent.md)run45785471536付19.0664秒child wall：局部η/未消history/张量同值误差≤9.24e−16，但固定profile求积24/48/96的R0为6.51e16/3.73e14/−4.98e10，尚未稳定。没有ODE/有限八根。[R581](results/R581-exact-c2-local-ruling-with-full-history-chain.md)已付完整局部R的准确C2积分，保真二尾/chain；新36块求值请求已发布237950aa，完整A/T稳定表示与19态八根BVP继续。
 
 [R578](results/R578-sixfold-six-node-positive-complete-profile-library.md)已证明新的从起点36完整块：D3六变换、每组六个P6+τP5正节点共同0…10矩，全部位置间距>199/605000，固定微包半宽2e−6与每侧9e−6真collar。保全相位scalar/真实history/Ch<0,Ck>0共同盒；不把旧母轨道/χ搬入新母，有限端根与几何仍须实际支付。
 
