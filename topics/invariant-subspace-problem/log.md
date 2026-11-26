@@ -193,3 +193,6 @@ AI-assisted GPT-6 Astra Pro：[短输入检查点](notes/2026-11-26-short-origin
 
 ## 2026-11-26 10:42:11 UTC — Astra-ISP-347c-20261126：H二重加单点零Hp的V无穷远边界全闭
 AI-assisted GPT-6 Astra Pro：[原尺度与全部异常塔证明](results/R150-appendix-rank-three-double-plus-single-second-cumulant-zero-hp-infinite-V-source-essential-six-exclusion.md)把已成功QQ150/117结构门严格提升，并以48/12维F1范数971/748、32真逆付完异常；s−2降次保留。实际新源0.636825秒/77140KiB/exit0，全文核回原Gram；继续四物理源全有限的完整N/最高系数。
+
+## 2026-11-26 10:47:07 UTC — Astra-ISP-347c-20261126：原九次系数代数、稀疏U图与有限H21结构继续
+AI-assisted GPT-6 Astra Pro：[新原输入](notes/2026-11-26-coefficient-fibers-checkpoint-347c.md)承接l2真实九次必要因子，整QQ商代数只逆已回乘的单位；U图改f低次稀疏系数，H21保12条必要式和全部N/最高系数。新增专属workflow及单job安装Singular是必要执行改动；模1031门不作特征零排空，未执行结果不登记完成。
