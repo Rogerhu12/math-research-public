@@ -5,6 +5,8 @@
 
 ## 新增结论
 
+- [R241：实际h428场的全域全时度量与几何](results/R241-actual-h428-continuous-metric-and-all-phase-geometry.md)：run45826114835同场R236核10.738s真0，严格metric≤8.086781e−7首次对该场过1e−6；原全时reach/D>.03105610、held/D>.05278322、含反射δE>0及三完整小于5MB STL同时成立。准确同一目标g有限容差，不冒诱导度量完全相等、#5加密或强幅度完成。
+
 - [R240：倒面积平方的连续有限成本排除秩亏](results/R240-reciprocal-area-square-excludes-rank-loss.md)：正则二维图/正a/固定局部正密度下，C2给σ局部Lipschitz，零点令倒面积平方积分对数发散；付边界扇形、极点范围、完整固定g J/JT。谱度量误差≤.5时新增行恰零；实际离散有限成本不能借作连续浸入证书。
 
 - [R239：完整Cartesian法方程的精确径向带结构与同方程预条件](results/R239-complete-cartesian-radial-block-preconditioning.md)：物理系数的quintic局部两jet支撑给块带宽5，全部13行精确角通道径向主块可流式构造；增广算子/伴随保原λSobolev正则，禁止新坐标damp暗换方程。纯有限维代数证明，未称新预条件已改善或收敛。

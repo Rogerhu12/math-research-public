@@ -1,10 +1,10 @@
 # 当前未解问题：保留基础有限证据，继续同 g 加密及完整强幅度
 
-第二热点[487元完整新入口](notes/2026-11-26-6a65-m12-two-hotspot-source-aligned-h.md)rev5已准备：保全部旧节点/两代G8/旧297准确微窗，另加59源节点及249新微窗点，47628列；全11stage+同场STL/R236，90min/冻结源码/45min真实规则检查。三件完整scalar绑定发布避免单件100KB上限。新求解结果待实际退出，不预报下降。
+第二热点[487元完整新入口](notes/2026-11-26-6a65-m12-two-hotspot-source-aligned-h.md)rev5已准备：保全部旧节点/两代G8/旧297准确微窗，另加59源节点及249新微窗点，47628列；全11stage+同场STL/R236，90min/冻结源码/45min真实规则检查。三件完整scalar绑定发布避免单件100KB上限。真实run45833090043/sourcea060a8d1于13:50:41启动；新求解结果待实际退出，不预报下降。
 
-## 2026-11-26 13:09 UTC 当前实际入口
+## 2026-11-26 当前实际入口
 
-原M12同g完整线：[R234](results/R234-actual-entire-half-field-all-phase-geometry-and-meshes.md)在run45815969723真实W上已付全时reach/D>.03105876、held/D>.05278322、含反射δE>0及三份完整4471284B STL；连续metric保守界4.862155e−6仍未过，micro峰1.93343e−8。[首原源h实际结论](notes/2026-11-26-6a65-m12-actual-first-source-aligned-h-improvement.md)：run45821092388现真success，全10stage2390.296s，428元α1；原297同点峰3.96742e−10、旧观察超集4.21683e−9，实际全时几何/三网格再过但metric粗界4.870781e−6仍false。新峰元素176/q2.12178127决定下一h，保原66节点及全部观察后再加59原节点。新[R236](results/R236-local-bernstein-angular-continuous-metric-budget.md)保局部尺度/完整Fourier平方范数，人工场核如实false；明确rev4实际run45826114835自13:07:38重生同428元输入，在同job消费新连续checker及全部旧几何/网格。原g/角/Gauss/LSMR不变，不把重生计为新加密改善。前缀h160旧run数值阶段成功但publisher后cancelled、日志404，不报缺失数值。
+原M12同g完整线：[R234](results/R234-actual-entire-half-field-all-phase-geometry-and-meshes.md)在run45815969723真实W上已付全时reach/D>.03105876、held/D>.05278322、含反射δE>0及三份完整4471284B STL；连续metric保守界4.862155e−6仍未过，micro峰1.93343e−8。[首原源h实际结论](notes/2026-11-26-6a65-m12-actual-first-source-aligned-h-improvement.md)：run45821092388现真success，全10stage2390.296s，428元α1；原297同点峰3.96742e−10、旧观察超集4.21683e−9，实际全时几何/三网格再过但metric粗界4.870781e−6仍false。新峰元素176/q2.12178127决定下一h，保原66节点及全部观察后再加59原节点。新[R236](results/R236-local-bernstein-angular-continuous-metric-budget.md)保局部尺度/完整Fourier平方范数，[R241](results/R241-actual-h428-continuous-metric-and-all-phase-geometry.md)实际run45826114835全部success，同job真实R236核10.738s给严格metric≤8.086781e−7 TRUE，保全部原全时几何/网格；原几何报告的旧粗界false仍原样保留，不混为同一个界。原g/角/Gauss/LSMR不变，不把重生计为新加密改善。前缀h160旧run数值阶段成功但publisher后cancelled、日志404，不报缺失数值。
 
 [R235](results/R235-reflected-third-jet-compatibility-and-exact-local-patch.md)给当前反射保留C4修正的准确局部兼容限制：原node18551的真实第三迹跳非零，准确等距则须零。无正sup硬底、不排除C2细化收敛；显式全Fourier C2消跳补丁已付预算，尚未加到任何实际场。接着真实同g加密及更精确连续Gram，不把局部障碍当终止理由。
 

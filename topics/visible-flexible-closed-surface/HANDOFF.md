@@ -14,15 +14,14 @@
 
 ## 已证明的核心结论与缺口
 
-- R114原有限材料同g metric≤1.25668e−9、reach/D>.0312033、held/D>.0527832、含反射δE>0；不等于无限存在/C2收敛。R213/R214/R218已付兼容/必要门槛/全周期Green，仍无全频逆。
-- R219强帽充分核：Aq≥1.4、Z∈[.40,.53]、宽≤.895、球半径≤1.6、held≥.64、reach≥.097及全部接口，才有D≤3.2、δE≥.1609；实际全核仍欠。
-- R220/R221原M12准确affine/coast和ramp两jet；R223原共同图直达真平领，r=.6只是自由内接缝。[R226](results/R226-m12-normalized-reference-and-continuous-cartesian-bounds.md)准确归一参考全时metric<7.667e−8、reach/D>.03120330、held/D>.05278322、含反射δE>0；未知W必须自己全域证书，不能借参考。
-- 新gap1.05/v.045同master重生仅供新输入。R224/R225付准确Γ95 coast/周长；R227–R232完整原生Gram/自身曲率、准确归一全链、全频primitive/正确q/a均值和新f0完整端口。
-- [R233](results/R233-entire-ramp-accurate-coast-normalization.md)付真实末短格1/L²和非多项式P/V/A：全16准确normalized格metric<6.100e−7、κ<9.867915，两端准确C2，2.472s+24.252s真0。coast缩放中心为Fourier常数项；准确归一的弧长中心在端λ=1及两导0时消去。下一真正后段全核，不借有限求积consumer或whole reach。
+- R114原有限材料同g metric≤1.25668e−9、reach/D>.0312033、held/D>.0527832、含反射δE>0；不是无限存在/C2收敛。既登记线性兼容/Green/必要门槛见results.md，不重做。
+- R219强帽充分条件：Aq≥1.4、Z∈[.40,.53]、宽≤.895、球半径≤1.6、held≥.64、reach≥.097及全部接口，才给D≤3.2、δE≥.1609；实际全核仍欠。
+- [R226](results/R226-m12-normalized-reference-and-continuous-cartesian-bounds.md)/R230已付原M12准确归一、原源完整二jets及真实cuff共同图；每个新W须消费自己的完整连续预算。
+- [R233](results/R233-entire-ramp-accurate-coast-normalization.md)付新gap准确全16格metric<6.100e−7/κ<9.867915及coast两jet；Γ95 coast缩放中心取Fourier常数项，ramp弧长中心在端λ=1及两导0时消去。literal误差/后段全核/reach仍各自支付。
 
 ## 实际数值线与下一项
 
-**原M12同g完整h**：[首h实际](notes/2026-11-26-6a65-m12-actual-first-source-aligned-h-improvement.md)run45821092388，428元41846列，W6d328d4c…f00af；原297同点峰3.96742e−10、旧观察超集4.21683e−9。全时reach/D>.03105610、held/D>.05278322、含反射δE>0及三4471284B STL通过，原粗metric界4.870781e−6。[R236](results/R236-local-bernstein-angular-continuous-metric-budget.md)新局部界已在真实重生run45826114835/sourcef878ec7a全流程success，10.738s实际metric≤8.086781e−7 TRUE、同W；新实际应用待R241登记，仍非#5完成。R230完整原源C_X<4461.108不变。
+**原M12同g完整h**：[首h实际](notes/2026-11-26-6a65-m12-actual-first-source-aligned-h-improvement.md)run45821092388，428元41846列，W6d328d4c…f00af；原297同点峰3.96742e−10、旧观察超集4.21683e−9。全时reach/D>.03105610、held/D>.05278322、含反射δE>0及三4471284B STL通过，原粗metric界4.870781e−6。[R236](results/R236-local-bernstein-angular-continuous-metric-budget.md)新局部界已在真实重生run45826114835/sourcef878ec7a全流程success，10.738s实际metric≤8.086781e−7 TRUE、同W；[R241](results/R241-actual-h428-continuous-metric-and-all-phase-geometry.md)完整实际应用已登记，仍非#5完成。R230完整原源C_X<4461.108不变。
 
 **第二热点h487请求rev5**：[完整入口](notes/2026-11-26-6a65-m12-two-hotspot-source-aligned-h.md)保旧66节点，加元176原节点17432..17490共59，487元47628列；全部两代G8含入新3896+16点，4631原查询，旧297准确点身份不变+新249点。完整11stage/同场STL/R236、90min预算、冻结源码及开始/每45min真实pull立即核双README；同一普通commit发布三个完整绑定scalar件。实际集合/本地NFF与规则变化/文件预算检查全0；真实run45833090043/sourcea060a8d1自13:50:41在跑，新场尚无退出。
 
@@ -42,7 +41,11 @@
 
 ## 环境与继续分工
 
-三次失盘及恢复边界见log/旧H；11:29部分clone/pull至df25f421，双README未变。CLI可用，只普通git；丢失raw只新输入重生，不移借身份。根唯一写main/维护真实CI/每结论push；geometry继续新gap同g全位置与连续核，exact继续实际h/严格metric/加密，solver继续Cartesian多步/source003。完成子问题即接open下一项，不以阶段记录收尾。
+13:55执行环境明确unavailable，root新exec恢复45s失败；此前geometry只读见临时盘余59MB，外部-9原因未证，不称OOM或确定失盘。最后CLI普通push R240=ba8153c9成功。既推源码/小标量安全；未推小源码已逐字核hash建未引用blob保全，无raw上传。根仍唯一主分支写者。
+
+<!-- 6a65-root-api-rules --> 2026-11-26 14:08:14 UTC API只读核main 85af72d96e485725eec42655b4e8507ab7fc5b83，两README blob仍282e86b0/e2318baa；不冒literal pull。仅CLI真实停机期间小全文API提交，非force预期头更新；恢复后先部分clone/真实pull、立即逐差核规则。已读literal提交仍以首节为准。
+
+外部h487继续；geometry保14行已保存20次接受及两次外部终止，准备同job准确输入重生；solver保91列完整预条件核，修重复H marker后准备新v5；exact接同g多层暖启动和频率提升。完成子问题接open下一项，不作阶段收尾。
 <!-- 6a65-ci-rules --> run 45778054176/1；实际 pull #183 至 `42d711248fdfcc164c1fa7c87770ab529ae24ca5`；2026-11-26T13:10:41+00:00；双 README 无差异，沿用根已读规则；回执原因 pre-process:Cauchy-original-then-Cartesian1-current-field。
 <!-- 6a65-m12-ci-rules --> README unchanged at e74a6d1b37742414d1215bb37440b7c2fe56851c; run 45804794238 attempt 1.
 <!-- 6a65-m12-entire-half-ci-rules --> README unchanged at 1cfa701b2092e25100c934e5361ae58b4b2ad93c; run 45833090043 attempt 1; frozen numerical source a060a8d1cb7bf95d6b8d5087467cf63377e3867e.
