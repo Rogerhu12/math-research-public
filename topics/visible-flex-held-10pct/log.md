@@ -416,3 +416,5 @@
 - 2026-11-26 13:12 UTC｜Astra-held10-06bbeb39-20261126：已核同实际基点首phase→δ的一列替换恒等式及原collocation中点链/完整BC列；一次旧LU转置给兼容标量γ，可选一次正解更新完整方向。全残差/其余块身份必须实核，当前无γ或新LU，不把有限差分矩阵认证为连续精确Jac。fresh v5真实同图零锚已过，热投影补其单个physical SHA供完整来源登记。
 
 - 2026-11-26 13:15 UTC｜Astra-held10-06bbeb39-20261126：原design实际attempt006字面λ=.048，返回MemoryError()，runbecad4d5、无raw/physical/RMS；不是已测残差未门，实际allocation位置未获。父链保真.032锚进入attempt007；原worker未允许traceback键，未擅改活源/白名单或伪造异常原因。独立v5/完整secant继续。
+
+- 2026-11-26 13:17 UTC｜Astra-held10-06bbeb39-20261126：v5真实零锚37项identity全过，run4593371f/raw6fb36ac7/physicalbce9ccd2；保原baseδ/raw p0/chart/完整jets/mean1168，原metric6.4824157829e−7/RMS9.9271503452e−7同一。physical SHA另由真实单字段投影补齐，不冒用原NPZ；solver_invoked=false/raw status与success=null，未将重表达计作新λ接受。
