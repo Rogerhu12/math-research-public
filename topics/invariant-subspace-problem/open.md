@@ -118,7 +118,7 @@ A单射、稠密像、拟幂零且非紧；普通非零真闭不变子空间仍�
 
 [任意非奇异加权复合算子的自伴核距离](results/R12-appendix-exact-distance-of-all-weighted-composition-operators-to-the-closed-selfadjoint-core.md)现已完整确定：到R∩R*与MASA都等于其权在移动集的ess sup；无限二进位换位实例到平移生成B距离1。一般非复合算子仍不能无损拼合细块；当前正向推进实际尾纤维的非复制运输插值。
 
-[同一实际输入的运输插值与可持续非复制递推](results/R12-appendix-same-source-transport-interpolation-and-sustainable-actual-recursion.md)已完成：精确边费用d_rs、逐列双预算、最小普通范数前缀条件和真实亏损误差均付；显式R_nAf_(n−1)=f_n始终留固定非零球，普通范数统一，累计log成本O(n⁵)。[新增全D下界](results/R12-appendix-near-optimal-cost-of-the-actual-transport-recursion.md)证明这组指定目标的最优累计log成本确为Θ(n⁵)，不能只更换实现降到四次；原β_n∏c必要下界保留，继续改变软目标并支付同源连接或未知M保持。 [精确软目标优化](results/R12-appendix-exact-soft-target-inverse-optimization-and-dyadic-budget.md)现给唯一g=W_n²/(W_n²+λ)及dyadic四次预算常数(20+280·16^q)/3，所有实际递推∏c≥m_n；[全D连续整数前缀约束](results/R12-appendix-continuous-integer-prefix-constraints-and-soft-target-connection.md)进一步证明这些独立最优目标的准确连接需||R_n||≥(1−r)/α_v2(n)，不能有统一普通范数；继续改目标序列并付全前缀/完整逆像。
+同一实际源的运输插值、双预算/最小普通范数和固定球真实递推已付；指定硬目标的全D最优累计log费用Θ(n⁵)，仅换实现不能降四次。原球软逆像唯一最优W_n²/(W_n²+λ)，含dyadic半径边界的四次准确常数；所有实际递推∏c≥m_n。全D连续整数前缀约束进一步迫独立软最优目标的连接普通范数dyadic无界，必须改变真实目标并付完整前缀/逆像双费。完整原身份与全部源保[压缩前页](notes/2026-11-27-open-before-tail-roots-and-closed-graph-8542.md)和[结果索引](results.md)。
 
 硬复制和任意复软复制（自适应、统一有界放大、固定非零球）已有五次累计成本障碍，原幂衰减只有四次；软化cut不能修复。一般有限头重排与非复制来源仍开。未知A不变空间未证被D核心保持。
 
@@ -155,3 +155,5 @@ A单射、稠密像、拟幂零且非紧；普通非零真闭不变子空间仍�
 **[S0/Lt0整条Omega=2e²−ek+2=0关闭](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-quadratic-invariant-curve-exclusion.md)：** 原坐标曲线的完整清分母身份与224/266/254次Res_v给仅含已付因子的QQ[e] Bézout，3.710581秒/exit0；一般图可付Omega。独立于新QQ门，继续剩余两参数原几何和全部物理返回。
 
 **[明确可测平坦同源返回](results/R12-appendix-measurable-flat-common-source-recursion-and-all-negative-graphs.md)已完成：** 正测紧集避全部整数，实际R_nAf_(n−1)=f_n、普通范数统一、全部固定负幂图范数返回；全n,k原权预算保留。累计五次费仍未降至第n逆像的四次费，且没有未知M保持；继续直接限制未知普通M的原算子关系，不以继续优化此全空间例子替代该接口。
+
+**[全部原尾根的重数整除与不变投影距离](results/R12-appendix-tail-root-multiplicity-and-all-invariant-projection-distances.md)已完成：** 有界q次根⇔q|k由逐尾交换子字符和完整Jordan秩证明。任意普通M经真有限头坐标不可能同构onto整个尾，||P_M−Q||=1；非零真P_M距UHF/UHF+K为1/2。直接限制未知M；剩余图必须保实际真尾底空间、非满像或无界逆，不能用该整重数结论排除它们。

@@ -5,7 +5,7 @@
 ## 目标、规则与执行
 
 - **普通复可分无限维 Hilbert ISP 未完成。** 仅全体有界算子的存在定理或完整反例算完成。
-- **最近实际 pull / 已读规则提交：** `bcfbc0caca28944264a8215cfa0120537516ff37`（2026-11-26 21:03:35 UTC；本地部分克隆）；本次两 README diff 无变化。每次 pull 且至少每小时检查并更新本项。
+- **最近实际 pull / 已读规则提交：** `ac528e756d9e8f601f9a2c2a8623e2f77c212d94`（2026-11-26 21:09:45 UTC；本地部分克隆）；本次两 README diff 无变化。每次 pull 且至少每小时检查并更新本项。
 - 私库 QUEUE 接手已推 `5746fa79a74af4975476d400dfbe0c4e5cb9ae9d`；私库根规则2026-11-26 20:28 UTC已pull至 `63459bc1a74526162372866a9ae39bb51006ba78`，diff无变、QUEUE保持本会话。每结论单推，非快进即 pull --rebase 再推；不 force，令牌仅 CLI。
 - 本轮本地终端可用。前会话执行身份及全部原交接保[接手快照](notes/2026-11-27-handoff-at-takeover-8542.md)；本轮快照链见[最新完整归档](notes/2026-11-27-handoff-before-measurable-source-8542.md)。失败不改标成功，已登记不重做。
 - 仅保源、参数、SHA、小回执；MD<100KB、H<10KB、open尽量<30KB、topic<200MB，不写根LOG。已读本轮 log；notes 按交接路径与结果索引定点续读。
@@ -45,10 +45,9 @@
 
 M=kerT、N=closureBM；N=M未证。保同w/u、全部partial、真intersection旗、MP自然域、负前缀/未来/carry与完整帽外投影；低forcing不等于低输出。
 
-- 已付完整Galerkin/MP/β/Hankel/真旗、全部Gram与同源μ_T、阶乘矩及实际Σμ_T(Sx)/x<∞；准确常数与公式保最新快照。原64^R、物理γ<1/16绝对Z、远孔32^N、真帽返回及通用e^(κy)清除仍未付；F0与首阶核条件不可删。
-- 全部远位硬化、同mode重最小化和Riordan整塔均保持原u/partial、趋P_Mf；P_Mf∈closureBM未知。几何起点无限行Bessel及全部p≠q交叉已付，逆权≤27J；f−a_full的Γ²≤27μ1但锚趋0，不能移给有锚f/第二Green。
-- R=d、x=m+d、h=2d、Q=2d³的全高度能量、原P_xw全矩和e^(−47d⁴)carry已付，真帽cut数d³−5d。原K*=1+47616·2·512²一次MP合法；完整反馈−Cq_r和真实终列Σ(−C)^pa⊗(D†)^pΩ不可删。共同c_k=2·512^(2k)窗保所有r≤k；同w可取k_m→∞、k_m≤m/12且s_m→0，修正/误差/残量平方可和。
-- 相容真空塔负相关界已证J_r≤(exp(128L(L+logλ)²/λ²)+2λ⁻³)/(1−exp(−λ/4))、L=o(x^(2/3))；同源Gram/短真核距离δ_L保留。固定头误差O_m((logx)^(3/2)/x)，Chebyshev模型x=ceil exp(9d⁴)仍超全局exp(O(d³))母窗。
+- 已付完整Galerkin/MP/β/Hankel/真旗、全部Gram、同源μ_T/阶乘矩与实际方差网格；∫μ_T ds/s≤1、Σμ_T(Sx)/x<∞。原64^R、γ<1/16绝对Z、远孔32^N、真帽返回及通用e^(κy)清除仍开；F0与首阶核条件不可删。
+- 远位硬化、同mode重最小化/Riordan整塔均保原u/partial、趋P_Mf，仍未知P_Mf∈closureBM。全行Bessel保p≠q；无锚f−a_full的Γ²≤27μ1不能移给有锚源/第二Green。
+- R=d的同w全矩、e^(−47d⁴)carry、真帽cut及一次MP已付。固定次数及同源k_m→∞、k_m≤m/12的顺次MP保完整−Cq_r/终列反馈，修正、误差、残量平方可和；付费常数保最新快照/结果索引。相容真空塔负相关范围L=o(x^(2/3))，同源Gram/短真核距离δ_L保留；Chebyshev模型x=ceil exp(9d⁴)仍超exp(O(d³))母窗。
 - [实际全M占满前缀新指数界](results/R271-appendix-full-tensor-exponential-bound-and-improved-occupied-prefix-decay.md)已证||Q_nf||≤[exp(−γ_ex n+4(logn+1)²)+exp(−47n⁴)]||f||，γ_ex=log2+asinh1+2(1−1/√2)/5>5/3；两N/Y模型、固定最高k剩余类同率。精确变分Γ_occ≈1.723637；远低于真实α_q^-1=exp(Θ16^q)，未付除法/稳定范围。
 - **实际终端k=h−1的增长费仍未付。** 慢增近核不作kerT或closureBM；下一保原同w的C^pP_xw=(−D)^pw_p+真实carry及特殊真空primitive塔，继续终端完整费用/精确残量清除、带锚第二Green。不得删(I−P_K)Gv、原u修正项或换成boson列。
 
@@ -59,3 +58,5 @@ Deddens完整已闭范围保[索引](results.md)及最新快照：D∩D*=MASA、
 原同源非复制运输已给固定非零球/统一普通范数；指定硬目标的全D最优累计log费Θ(n⁵)，仅换实现不能降四次。原球软逆像唯一最优W_n²/(W_n²+λ)，dyadic的log m_n/n⁴→(20+280·16^q)/3，全部真实递推∏c≥m_n。全D连续整数前缀约束迫独立最优目标的准确连接||R_n||≥(1−r)/α_v2(n)，dyadic无界。完整证明见结果索引/最新快照；继续真实可测目标、全逆像/前缀双预算与未知M保持，不能把静态最优拼作实际递推。
 
 明确可测平坦源E（μ≥15/32）已给同源f_n=U^{S_n}1_E、真实R_n递推/统一普通范数，并在每个固定负幂图范数返回；全n,k费用明确。累计log费O(n⁵log¹²n)与第n逆像O(n⁴log¹²n)不同，不消掉时间因子。此例仍不保持未知M；已转向未知M的原交换子/位递推关系。
+
+全部原尾的有界根重数现已精确：I_k⊗B_m有q次根⇔q|k。故任意普通不变M不能由真有限头坐标同构到整个尾，||P_M−Q||=1；非零真P_M距UHF及UHF+K均1/2。此条直接用原A不变性，不假D保持；未知真尾底空间/无界逆仍未排除。

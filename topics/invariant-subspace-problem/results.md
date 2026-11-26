@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R12 全部原尾的有界根重数及未知不变投影的准确距离（2026-11-27，已证明）：** [逐尾完整交换子、字符及Jordan整除](results/R12-appendix-tail-root-multiplicity-and-all-invariant-projection-distances.md)证明(I_k⊗B_m)有有界q次根当且仅当q|k，根完全任意。原A的每个普通不变M都不能由秩0<k<2^m的有限头坐标同构到整个k重尾，故||P_M−Q||=1；非零真P_M到UHF、UHF+紧算子的距离均为1/2，本质距离同一。不假D保持；未知真尾底空间的闭图仍开。
+
 - **R12 明确可测平坦同源递推在全部固定负幂图范数中返回（2026-11-27，已证明）：** [正测紧集、真实算子及完整原权预算](results/R12-appendix-measurable-flat-common-source-recursion-and-all-negative-graphs.md)构造避开全部整数的E、μ(E)≥15/32，以f_n=U^{S_n}1_E和明确R_n给R_nAf_(n−1)=f_n、统一||R_n||=α0⁻¹及固定非零球；所有固定k有A⁻ᵏf_n=U^{S_n}A⁻ᵏf0最终成立。保全n,k预算，累计log成本O(n⁵log¹²n)与实际第n逆像O(n⁴log¹²n)仍有差额；未知M保持未付，下一直接研究其原算子关系。
 
 - **R150 S0/Lt0的Q=2((u−1)²+1)整条原曲线为空（2026-11-27，已证明）：** [原曲线清分母及一元Bézout](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-quadratic-invariant-curve-exclusion.md)先逐式核e^mD−Dcur=(ek−2e²−2)H，再取224/266/254次完整Res_v；三式原组合准确等于e^32(e+1)^40(e−1)²(e²+1)^18(e²−2e−1)^4，全部因子由原单位及已闭半权支付。3.710581秒/52788KiB/exit0；独立于运行中的QQ门，一般图可付Omega。
