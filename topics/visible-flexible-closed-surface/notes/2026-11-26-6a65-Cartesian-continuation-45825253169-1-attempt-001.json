@@ -1,0 +1,50 @@
+{
+  "schema": "6a65-actual-own-Cartesian-same-model-continuation-scalar-v1",
+  "run_id": "45825253169",
+  "run_attempt": "1",
+  "source_epoch": "64f20c32b37f50d94bb54fc0a7b6a0bc1ea50eff",
+  "controllerSHA256": "949d4a90d76300a14732eee5210a14a5e9b231695acb9149192e745d9198f456",
+  "entrySHA256": "33a392a0738e74608b18de2bb05be14e9c01e1c2db7e3ecdfc926cb7b585a21d",
+  "directOriginalSourceCacheProtocol": "6a65-same-run-direct-fixed-source-cache-identity-v1",
+  "originalCauchyStateSHA256": "363e6d6af81de7b7bb7483e2ba27ae7bf67c86a732793473e8db4a4a62586cbc",
+  "originalCauchyObserverSHA256": "ca03fc1c9f25ac1b79653720e2262eb55d877c7d44ceaa08ac4f6dc0572b0e77",
+  "originalCauchyAcceptedSteps": 0,
+  "originalCauchyStateAndCounterUnchanged": true,
+  "candidateSHA256": "9c903de99a0ca295db7d99e4dfec837db7778a7e20bc07abd6035a63e59a938d",
+  "recipeSHA256": "0794c4d61e4307cde3de4a84154d4e27311f96a4f7f7aa48d74d6fa0724841a7",
+  "initialOwnAcceptedCount": 0,
+  "initialOwnAttemptCount": 0,
+  "priorScientificallyObservedAcceptedSteps": 1,
+  "sourceInputsProducedInThisActualRunner": true,
+  "oldRunRawFetched": false,
+  "fixedPhysicalMetricAndSource": true,
+  "allThirteenPointRowsRetained": true,
+  "startedUTC": "2026-11-26T13:13:31+00:00",
+  "state": "running-one-real-complete-Cartesian-attempt",
+  "attempts": [],
+  "processReceipts": [],
+  "pulls": [
+    {
+      "UTC": "2026-11-26T13:13:33+00:00",
+      "fromCommit": "d27c586588adcde9c41df60138163bb2d3d501a4",
+      "toCommit": "caf0ed46862848810e2181f8089abdf89ee2e801",
+      "readmeDiffEmpty": true,
+      "pullCommandExit": 0
+    }
+  ],
+  "usedFollowups": [],
+  "rawPublished": false,
+  "continuousCertificate": false,
+  "strongTargetComplete": false,
+  "frozenCompleteScriptInventorySHA256": "d6d7f03fcdf54b46a1b399251d0385c5a2a5b7d3c9a9967983165cb9c3a58968",
+  "updatedUTC": "2026-11-26T13:13:33+00:00",
+  "actualOwnAcceptedCount": 0,
+  "actualOwnAttemptCount": 0,
+  "currentStateSHA256": null,
+  "currentObserverSHA256": null,
+  "actualTotalPullCount": 2,
+  "previousPublishedScalarPart": {
+    "path": "topics/visible-flexible-closed-surface/notes/2026-11-26-6a65-Cartesian-continuation-45825253169-1-start.json",
+    "sha256": "864c048b5f2c190ea76b72aee83a31ae6955efabb6db4162ac353fbc0bb70197"
+  }
+}
