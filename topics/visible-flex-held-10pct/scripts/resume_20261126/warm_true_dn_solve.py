@@ -496,18 +496,20 @@ def main():
             raw = out/f'inner-{outer:02d}.npz'
             np.savez_compressed(raw, x=sol.x, y=sol.y, p=sol.p, cubic_c=sol.sol.c,
                                 cubic_x=sol.sol.x, rms=sol.rms_residuals, pscale=obj.pscale)
-            obj.initial(sol.p)
             candidate = obj.bridge.sigma*obj.q*sol.y[obj.iz:, -1]
             record.update(solver_success=bool(sol.success),
                 raw_return=dict(file=raw.name, sha256=sha(raw), success=bool(sol.success),
                     status=int(sol.status), message=str(sol.message), nodes=len(sol.x),
                     rms=float(np.max(sol.rms_residuals)), parameters=sol.p.tolist(),
-                    candidate_H=candidate.tolist(), actual_q_aux=float(obj.support_amplitude)),
-                candidate_H=candidate.tolist(), returned_phase_controls=obj._core.controls.tolist(),
-                domain_newton_stats=dict(STATS))
+                    candidate_H=candidate.tolist()),
+                candidate_H=candidate.tolist(), domain_newton_stats=dict(STATS))
             save()
             if not sol.success:
                 raise FloatingPointError('The original inner BVP did not converge')
+            obj.initial(sol.p)
+            record['raw_return']['actual_q_aux'] = float(obj.support_amplitude)
+            record['returned_phase_controls'] = obj._core.controls.tolist()
+            save()
             flow = obj.flow(sol.p[0])
             physical = SimpleNamespace(x=obj.chart(sol.x, sol.p[0])[0], y=sol.y, p=sol.p)
             physical.sol = flow.c2_interpolant(physical)
