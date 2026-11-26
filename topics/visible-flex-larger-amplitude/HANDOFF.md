@@ -1,10 +1,10 @@
 # HANDOFF — visible-flex-larger-amplitude
 
-维护：Astra-larger-resume-24b2ab87-20261120（AI）。接手/root及Astra-larger-parallel-16f63c8b-20261117。**未完成；不因阶段/时长停止，完成README全部标准后继续增大比例。**
+维护：Astra-larger-e4e2a2bf-20261126（AI）。2026-11-26接手Astra-larger-resume-24b2ab87-20261120。**未完成；不因阶段/时长停止，完成README全部标准后继续增大比例。**
 
 ## 规则与完整目标
 
-最近规则核查：2026-11-20 18:36 UTC，真实pull/rebase至 `1654b41580e33bb1206d98e864df84e397ef0e49`，双README相对上次已读无差异。
+最近规则核查：2026-11-26，真实pull/rebase至 `9959347b8c75cc39787661adcc66a2267585bba1`，根及课题README相对f0548477无差异，已完整读授权及规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
 
 科学计算仅本公开仓库Actions；早前本地偏差及13:00 UTC纠正见[执行记录](notes/2026-11-20-public-actions-execution-correction.md)。根README已授权必要修改/发布；根唯一local git writer，代理只work/小源。每条结论普通commit/push；NFF立即pull --rebase循环再推，不强推。至少每小时pull，每次核双README差异/立即遵新规并记commit。raw只scratch/runner，不入Git/Release/artifact；只保完整小源/参数/run/SHA/紧凑结论。题≤200MB，MD<100KB，H<10KB，open<30KB。令牌只瞬时CLI，不写文件/提交/回复。
 
@@ -36,24 +36,18 @@ run2：[同g径向二分](notes/2026-11-20-actual-fixed-g-radial-refinement-resu
 
 ## 已证结果与当前源
 
-完整链接见[新增结果](results.md)，这里各记责任：
+完整证明及当前源码入口见[结果索引](results.md)；上轮逐条责任的完整原文保在[f0548477交接](https://github.com/Rogerhu12/math-research-public/blob/f0548477576caa2373d1626227a284ccfa9767d0/topics/visible-flex-larger-amplitude/HANDOFF.md)，不能因本次压缩丢掉适用条件。
 
-- R669准确轴对称尾线性障碍不推非线性不可能或正地板；八blend已无改善，不重做。R670完整首jet核eaa，旧c4a3已证部分几何不继承到新场。
-- R671：同g新f/h/k解析尾完整工厂，lambda1可准确表示末段；整体连接仍待求解。必须全native/observed/六jet/点/高度接口用新context。
-- R672：全M/完整Laurent六jet真形算子K归worker03；[逐胞续接f476](notes/2026-11-20-R672-complete-curvature-continuation.md)仅准备，[兼容合并器6c02](notes/2026-11-20-R672-continuation-geometry-consumer.md)同样未跑；旧8ca不改，R666留同场reach。
-- R674：共同a/I Taylor jet及独立导数余项、profile误差；f122 first/K和fd4 tight Gram全源齐，5d04728c实际已返严格超标见证、未全覆盖。旧盒限制不自动缩余项。
-- R675：高Z或非零解析尾排活动平面开片。b36已付7fd，df8及521187ae合并器仅准备，旧flag如实不伪改。
-- R676：同g符号二分/补零/旧行正权/全部永久点/六jet转移差；真实fine solve源齐。跨层Phi权变只比较共同父泛函，单次转移或fine不冒持续精化收敛。
-- R677：同QP可靠残差/固定面长CG，v3 fb4实际返；R673面gap和规范化释放另付，raw负乘子不定因果。
-- R678：仅增M准确补零保同场六jet、原carrier/全权/N及完整母/商范数；eea174b9入口仅准备，依径向实际归因择用。
-- R679：N倍增旧偶/新奇Phi各半、max取并已证；[e738完整入口](notes/2026-11-20-R679-N-only-complete-entry.md)仅准备。保原carrier/M/母范数/真末mu，旧点按各自N解码，同一block偶奇全读；外部final粗基/策略逐项核。不继承几何、未排新算。
-- R680条件二阶修正：5bc/805/9b经40e完整入口已实跑；固定父branch/radius/norm。26行等式修正破其他旧C，原ray回退有效；严格L/tau与实际SOC接受未付。
-- R681：324/da083/dd595/f96经40e/3f已实跑，原母范数/欧氏停止/释放首步不变；构造15.58s、应用80.30s/256次无失败，QP未驻点。adc90原QP/原ray/SOC归因已返，非同父因果对照。
-- R682：严格metric lower用自己配置的准确s/π角身份，已有address可复用；新增正权必换Phi版本，全free点导数/分母链已证，超标硬门不可直接交零步feasible-CG。
+- R650/R661：同场正定流support/K加固定四标记的全t reach/grip/held/E框架；R656/R657付连续几何/Gram方法，R658–667各自候选的几何不跨场继承。
+- R669：固定平帽轴对称尾的无穷小唯一性及特定五次表示障碍，不推非线性无解或正误差地板。R671/R674准确参考尾工厂与完整六jet/连续余项已刊，lambda1的非圆连接仍待求解。
+- R670/R672：同角完整首jet与六jet真K；f476逐胞续接与6c02合并器只准备，旧geometry03完整K未返回。
+- R675：同场嵌入+准确高Z或非零解析尾排活动平面开片；b36已付7fd，不移给新场。
+- R676/R678/R679：固定g的径向、M-only、N-only精化准确包含与共同父泛函比较；已返径向fine仅很小下降，不冒持续精化收敛。
+- R677/R681：原全空间QP的可靠残差/正确coarse-PCG，v4实际256步仍未驻点。R673面gap和释放判据不以raw负乘子替代。
+- R680：条件SOC证明与5bc/805/9b/40e实际入口，26行修正破其他旧C；后继必须把全部旧C纳入修正可行域。
+- R682：严格metric lower用自身准确位置/模型；新增正权须换Phi版本，超标硬门不可直接交零步feasible-CG。
 
-R650/R661提供同场support/K加四固定p4 marker的全t reach/grip/held/E框架。K差直接复用R227；[当前诱导联络接口](notes/2026-11-20-induced-connection-curvature-transfer-interface.md)仅准备，不另编号或继承K。R656/R657支付连续几何/Gram接口；R658/R659付6077整面幅度，R663/R667付各自0241/077几何，均不继承到别场。R660正谱目标/有限max、R664正Hessian保原全空间。R668实际v2例Actions通过/2release，旧fixture不再加。
-
-主要入口在scripts/resume_20261120/：完整父4d9、原续18ba、尾续425f、径向2e8/100e；全源SHA/参数见各说明。原9da合并只认b36，新521187ae兼认df8，已有全付不重跑。raw只runner。
+主要入口在 `scripts/resume_20261120/`。完整父4d9、尾续425f、径向2e8/100e、复合40e/3f及其真实参数以对应notes为准，旧已付不重复证明。
 
 ## 复现与不重做
 
@@ -61,8 +55,10 @@ R650/R661提供同场support/K加四固定p4 marker的全t reach/grip/held/E框�
 
 本次压缩前H保[129a5685](https://github.com/Rogerhu12/math-research-public/blob/129a5685042ec47ad9c971fb95d5a8e42497ccab/topics/visible-flex-larger-amplitude/HANDOFF.md)，内链此前完整交接。所有未付责任继续按open推进；不是等待用户确认的阶段停点。
 
-## 当前公开Actions执行
+## 2026-11-26实际接手与紧接工作
 
-run [44772201880/1](https://github.com/Rogerhu12/math-research-public/actions/runs/44772201880)，源码`e0d4892aabfec77f64c33a9cc34da9ff3cf39ba4`；[实际紧凑记录](notes/2026-11-20-public-actions-44772201880-1.md)。当前`followup:continue-complete-sixjet-curvature-03`/running，返回阶段30；退出码未返。
+[旧运行真实终态](notes/2026-11-26-actual-actions-terminal-and-geometric-scope.md)：solver44758209061已于11/20正常退出、42阶段均登记；geometry44772201880因5h50m硬时限取消，K子进程没有公开返回，不能继续标running或继承未返K。
 
-Actions规则核查：2026-11-20 21:53:09 UTC，真实pull至`456fa55fcc3552765c75795779117657c1ea7397`，双README相对已读无变化。
+新公开Actions将只再生继续求解必须的真实输入，随后保全部旧不等式的约束SOC/完整QP；不重宣旧结论，不继承旧SHA。并行推进更有效的K连续覆盖与替代平端构造，后两项尚无新数值。当前只有准备，实际run号由平台返回后记录；不是达到完成标准或等待用户确认。
+
+新科学仍仅本公开Actions。root唯一人工git writer，代理在独立scratch写小源/推导；每条完整结论即推。工作盘空间不足，本次部分克隆在临时盘，仓库提交为恢复依据，不删除别的会话数据。

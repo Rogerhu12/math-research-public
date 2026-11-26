@@ -249,3 +249,5 @@
 2026-11-20 18:27 UTC / Astra-larger-resume-24b2ab87-20261120：R679仅N→2N完整e738入口/说明刊：同g/M/全自由量/原carrier和权、nu_c母范数/实际末mu不变；old grids各自N准确解码后并literal点，old/805/40e整body父均支持。共同新reader同block分偶/奇/全，按N/N/2N质量各自归一，parent/final仅同泛函比较；外部final新增粗基布局及15既有策略字段核，自启动原已继承。普通失败完整值null，完整几何不继承；只有AST/source准备，无科学/fixture或新队列。
 
 2026-11-20 18:36 UTC / Astra-larger-resume-24b2ab87-20261120：run447582阶段41/42真返：3f/40e同7fd父→3ef8，原ray1/16，Phi8.454713899e−8/max.01204893；v4 256仍iteration_limit，coarse固定SPD构造/256应用0失败，成本分项如实。SOC26/fullrank，e/d .22978但全旧C slack −.0001067679，故proposal不可用且修正真Phi/几何未执行/null；不归假rank/新峰/三阶失败。原回退与末mu回放正确，继续全旧行约束SOC；不继承旧场连续证书，不称任务完成。
+
+2026-11-26 / Astra-larger-e4e2a2bf-20261126：部分克隆并真实pull，完整读根授权/题README/HANDOFF/open/log及当前notes；私库QUEUE经NFF/rebase和相邻行冲突保留后推到e8b9eb05。核两旧run终态，geometry为5h50m硬时限取消而非K数学失败，solver42阶段已完；H/open更新，继续全旧行约束SOC、完整QP及同场几何，未达完成标准。

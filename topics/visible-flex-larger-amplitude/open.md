@@ -99,32 +99,21 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 课题上次104清理后168796207B；未知旧JSON未全分类，不声称已完成所有存储责任。HANDOFF<10000B，各Markdown<100KB；此open通过同目录逐字检查点保全旧内容。源码、完整证明和实际结论按授权直接发表，不新增fixture、审批或六/九jet机器门。
 
-## 7. 本并行会话的实际数学与几何路线
+## 7. 现有闭面主线与2026-11-26续作
 
-全部原结论/参数/失败/来源/运行账/未付逐字保[b8ce06f1固定open](https://github.com/Rogerhu12/math-research-public/blob/b8ce06f1c230c7a1c6fcf80ff60ad3e798dad9e4/topics/visible-flex-larger-amplitude/open.md)，内续e228/7245/ecd/ddf/c87所有旧链。仅压§7，§1–6原字保；旧本地计算属历史，当前科学仅公开Actions。[完整结果索引](results.md)。
+本节以前的完整原词、参数、失败与来源保[f0548477完整open](https://github.com/Rogerhu12/math-research-public/blob/f0548477576caa2373d1626227a284ccfa9767d0/topics/visible-flex-larger-amplitude/open.md)。§1–6原文不变；已付旧结论不重做，旧失败不因压缩遗漏。
 
-**已完成开放前缀。** 同26e53/q4096的R638/640/642全818胞坐标/嵌入；[R648](results/R648-continuous-Gram-on-the-complete-pulse-prefix.md)全819准确片连续relative Gram<4.94e−7，含1−5/2^60后微片。[R651](results/R651-continuous-curvature-on-the-complete-pulse-prefix.md)原818/818自然0，E≥.9943730/det≥.02754673，K≤7.21309；root六胞Q8192/8sub8158复用λ后完整并集K≤7.04608（最坏旧817），仅证书细化。[R652](results/R652-continuous-weighted-support-on-the-complete-pulse-prefix.md)全819/0失败/异常/剩余自然0，β1/4支持>.3174736（最坏410），β2/5>.16747356295；原249+新570、0新λ。[同额恢复](notes/2026-11-17-parallel-model-second-interruption-recovery.md)保全部中断账；这两批已结束，不重开。aa1 hold R644嵌入、R646仅四胞六片Gram、R645同像见证>.9588，均非闭面/完整held。
+开放前缀R648/R651/R652已付全819连续Gram<4.94e−7、K≤7.04608及正support，只是前缀。R647完整Frenet约束、全闭q三jet及双积分坐标已刊；现在923节点、M160、1332245自由量、7377正权观察行的全闭模型不能退为开放片或冻住prefix。R653–655的quarter/完整H²范数/六Gauss观察仍保持。
 
-**旧失败全部保固定全文。** .997/normal-only/fast317/onlyZ109、各种bridge/pulse/LP/Cauchy/BVP原参数和范围不重做。3a7f分支负、Gram5.28554；原927f/8fa6到预算未收敛，bf5a共同C² Gram8.01546e−5且node594为3.62218e−5，A-only不救坏节点。
+R650正定流支持与真K给闭嵌入和reach；R663/R667已对0241/077各自付闭嵌入、整像held和含反射E，不能移给当前3ef8。旧FullHold正曲率入帽尾的R669线性唯一性与五次表示障碍有严格范围，R671解析lift已扩充，尚无其完整非圆精确连接。完整当前源和已证编号见[HANDOFF](HANDOFF.md)、[results](results.md)。
 
-[R647](results/R647-polynomial-Frenet-constraints-and-complete-collocation-condensation.md)保全Pr谱/输运/准确CU、全Gram core链、可逆T/全部D、矩与964联合边界、最小jerk等证明。[85c准备](notes/2026-11-17-parallel-root-direct-gram-integrated-preparation.md)1203点矩/70c尺度已付，Y不变、U0仅负零符号变。[513方向](notes/2026-11-17-parallel-root-direct-gram-integrated-direction.md)µ1/256 istop7，SSE6.191e−10但Gram4.98039e−6，非父。
+2026-11-26已核旧run终态：[solver成功退出、geometry硬时限取消](notes/2026-11-26-actual-actions-terminal-and-geometric-scope.md)。旧geometry逐胞raw没有公开可恢复副本；不得以SHA造seed或把它当仍活动。
 
-[efe92全Gram-T](notes/2026-11-17-parallel-numerical-direct-gram-lm-budget.md)实际1878，复用513/70c，1158250行/964BC、后续512、总24/20，终门全系数1e−10/BC1e−11/U0字面/8192Gram5e−7；只Y/U+Gram、不伪CU-A。[0f原T-Pr](notes/2026-11-17-parallel-numerical-integrated-lm-budget.md)同g/580328行/原BC/原门；99082中断后97062同额恢复，8完整方向和≥432未完乘积成本保。两个目标不混，numerical唯一读终态，均继续原预算。
+紧接工作：
 
-**几何接口。** R649排同pulse/hold镜像所有普通中心支持，不排reach；旧14点/五代表不重复。[R650](results/R650-positive-definite-flow-support-reach.md)固定SPD A支持σ/曲率K给完整闭C²球面嵌入及reach≥min(σ/λmax,1/K)。附录A真实尾法向、B高度与β转移、C非零p3标记σ/κ；仍须闭尾/帽同场付条件。
+1. 再生真正的最后求解输入后，在同g/同母范数/全部永久点下求新方向；当前约0.012误差必须通过改变场下降，证书加密不能消除严格超标见证。
+2. 末次26行等式SOC破其他旧C，须把全部旧线性不等式纳入最小范数修正，同时保真实Phi和全非线性几何回溯；原256步QP未驻点亦须处理，不归咎于未证的唯一原因。
+3. 新候选的首jet、完整K、D、held、固定marker必须同场；改善逐胞/分组返回，不因长子进程超时再次丢失可报告小结。只存紧凑结论/源/参数/run/SHA，不存raw。
+4. 并行研究更适合精确闭合的平端/变号曲率构造或目标参数；题目允许另选机制，但最终必须固定同一g/参数/t区间并实际加密收敛，不能换g冒作误差下降。
 
-**真正全闭求解。** [全三jet角值Gram规格](notes/2026-11-17-parallel-geometry-fullclosed-direct-gram-interface.md)保准确core/末三jet与全部core→ρ/Θ/解析lift链；旧157仅1.03冻结Taylor位置Schur，不是全尾DN。新模型平cuff Frenet-H=0但area=Rρ>0，旧短strictH门不改。[同Hold oracle/真实warm](notes/2026-11-17-parallel-model-fullclosed-hold-warm-and-oracle.md)a1ed/bee5给923节点、M160/未截断解析圆、S/R及stage有理包围，401255/0c499真实生成；H1.947952047是初猜。pulse在.995后换g且M160截频A遗漏l1 .868116，旧证书不继承。
-
-[真实完整算子准备](notes/2026-11-17-parallel-geometry-fullclosed-gram-actual-probe.md)e7aa/803f/f091，全部11335680行与1332245自由度，一次CS-Jv相对7.635e−15、伴随4.126e−14；输入仿射无改。该旧warm node/mid Gram147.4063/147.2810，点det .20964，明确未达；原304MB数组只scratch供FFT对照，无重算dense。[完整双积分坐标](notes/2026-11-17-parallel-root-fullclosed-double-integrated-coordinates.md)保A/E/D，964端口2×2/4×4 SPD及两suffix转置已证；数值准备另刊，不虚构闭解。
-
-**当前未付总目标。** R663/R667已对各自0241/077付闭嵌入、held/固定marker与含反射E；仍无同一候选合并全域metric≤1e−6、固定g精化和全t reach≥.03D。旧条件接口不替真实闭源；子题/预算/时长不是停点，完成后继续增比例。
-
-[逐字副本恢复](notes/2026-11-17-parallel-duplicate-plan-retention.md)及[旧索引恢复](notes/2026-11-17-parallel-historical-index-retention.md)保全部旧路径/SHA/blob/参数/失败；原11份188321B之后本次22份116935B再归同字节主本，恢复各e22877bb/b6699f14；原生产basename/cwd、source-freeze及六负结果不改，两不同版本保。仅manifest当前路径/历史映射改，所有SHA逐字核。
-
-[同输入FFT等价](notes/2026-11-17-parallel-geometry-fullclosed-gram-FFT-equivalence.md)7ab/9c0/882e，完整res/Jv/Jᵀ相对6.61e−14/8.38e−14/9.22e−14，缓存同点V/d；原dense全复用。v1漏__neg__在prepare即退出，未有几何比较；完整可逆源码差异与失败scope保。无新场/solver，旧warm147失败不改。
-
-[唯一模态衰减计划](notes/2026-11-17-parallel-model-fullclosed-mode-damped-plan.md)/[生成结果](notes/2026-11-17-parallel-model-fullclosed-mode-damped-result.md)/[独立读出](notes/2026-11-17-parallel-geometry-fullclosed-mode-damped-readout.md)：632d/9bf60/17697与48624/b361同g/同923 mesh/同R/S/H，前819节点三jet原字；只一次生成与残差，Gram.6551089575、点det .662628，仍失败。prefix s1节点3.6123873e−5，禁止只修尾或A-only；全闭未知量并未冻结prefix。90MB原残差只scratch供后续，不重做基残差。
-
-[双积分实际准备](notes/2026-11-17-parallel-root-fullclosed-integrated-coordinate-preparation.md)d429/f653/e6e968：1333209坐标/964端口、168个2×2+157个4×4块，完整G作用差1.67e−16、lift转置4.82e−14、端口3.16e−15。仅异质测试尺度/0几何调用，原warm未改；浮点repair反增末误差1.42e−14如实保，不冒准确闭解。
-
-当前父/run见[HANDOFF](HANDOFF.md)。R669不推误差地板；R670付c4a3首jet；R671/R674解析尾连接待解，R675非平面/R676固定g精化源已刊。实际全空间QP→报告归因→fine solve与同场全K/reach继续，阶段或job结束不是停点。
+全域metric≤1e−6、固定问题精化、全t reach≥.03D仍未付；完成前继续研究，之后加强比例。
