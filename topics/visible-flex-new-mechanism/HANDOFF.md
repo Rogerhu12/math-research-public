@@ -6,7 +6,7 @@
 
 ## 1. 规则与接手
 
-已部分克隆并实际 `git pull main`，公开根 README、课题 README、HANDOFF、open、results 索引及相关 log/notes 已读。公开已读提交 **93721721e33a06c0389498912aecc183f8f4a949**（2026-11-26 10:37 UTC；本次实际pull后根/题README空差异）；历次规则及失败原回执保原note；私有 QUEUE 的本题已改为本会话进行中并成功推送：**9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7**；最后实际pull及规则同blob读至 **c5fd979bd7793b3516aaa9f142855772720cb9b1**（2026-11-26 10:23 UTC核；本小时实际pull成功，根README空差异、QUEUE仍本会话）。其它课题的并行认领保留。
+已部分克隆并实际 `git pull main`，公开根 README、课题 README、HANDOFF、open、results 索引及相关 log/notes 已读。公开已读提交 **b350ce376bc1d7679a2e9304ecdf2ed0b390f1d2**（2026-11-26 10:48 UTC；本次实际pull后根/题README空差异）；历次规则及失败原回执保原note；私有 QUEUE 的本题已改为本会话进行中并成功推送：**9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7**；最后实际pull及规则同blob读至 **c5fd979bd7793b3516aaa9f142855772720cb9b1**（2026-11-26 10:23 UTC核；本小时实际pull成功，根README空差异、QUEUE仍本会话）。其它课题的并行认领保留。
 
 [前历交接](notes/HANDOFF-before-resonant-height-20261126.md)及原note保全部规则/成本/限定。09:18 UTC本地失联后用接口继续保存，API不冒actualpull；09:33恢复partial副本并实际双pull，完整身份见本日日志。
 
@@ -32,7 +32,7 @@
 
 [真实尾核、旧射击及R574/R575前史](notes/HANDOFF-before-adaptive-height-20261126.md)保全部原接口/成本/失败范围，旧种子与射击不重跑。当前有限四模来自R583真实全平核，端校正保在完整残差；二阶均值接口不替代有限非线性。
 
-[R576](results/R576-exact-turning-elimination-and-finite-nonlinear-height-interface.md)已证明完整turning唯一解E，二jets给实际E′/非线性残差/重构metric误差，准确零解的凸圈严格嵌套；C2核心通量可编码R579。[函数尺度原终态](notes/2026-11-26-r576-function-space-natural-final.md)run45798904133付60.921534391秒，原52→68局部丰富保持同高度，末细η1.77362045e−6、direct约1.7738e−6，ε仍1e−5；39实际接受，函数限步0次，末可辨下降耗尽。κ约9.5628只是有限观察。下一精确插结保现有高度、细化真实径向峰，旧内Riccati/H不重射；仍未冻结g/宏观解。
+[R576](results/R576-exact-turning-elimination-and-finite-nonlinear-height-interface.md)已证明完整turning唯一解E，二jets给实际E′/非线性残差/重构metric误差，准确零解的凸圈严格嵌套；C2核心通量可编码R579。[函数尺度原终态](notes/2026-11-26-r576-function-space-natural-final.md)run45798904133付60.921534391秒，原52→68局部丰富保持同高度，末细η1.77362045e−6、direct约1.7738e−6，ε仍1e−5；39实际接受，函数限步0次，末可辨下降耗尽。κ约9.5628只是有限观察。[精确插结续解](notes/2026-11-26-r576-exact-knot-height-implementation.md)已提交：68q经Boehm保同场至120维，真实径向峰驱动后续插结；列尺度SVD保全奇异方向，精确算预测下降并细扫。旧内Riccati/H不重射；仍未冻结g/宏观解。
 
 [R587](results/R587-fixed-metric-mean-height-elimination-at-flat-cap-and-core.md)现付冻结完整E_*后的均值斜率根及二jets导数；快速全平类在帽端用W²有理化得真实局部根，核心ζ变量非退化。须固定完整函数/验证中段导数与核心C1输入，未付非零角模逆或收敛。
 
