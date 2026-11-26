@@ -5,7 +5,7 @@
 ## 目标与执行
 
 - **普通复可分无限维 Hilbert ISP 未完成。** 仅全体有界算子的存在定理或完整反例算完成；子题闭合即接原open，不能以时间/输入不足收尾。
-- **最近实际 pull / 已读规则提交：** `1e44bdb9aa118ec301d6a71746bedf97d9e78fec`（2026-11-26 23:10:44 UTC；本地部分克隆）；本次两 README diff 无变化。每次 pull 且至少每小时检查并更新本项。
+- **最近实际 pull / 已读规则提交：** `19e0d7a19243d829c5258c793c7a5a448014dbff`（2026-11-26 23:12:21 UTC；本地部分克隆）；本次两 README diff 无变化。每次 pull 且至少每小时检查并更新本项。
 - 私库QUEUE接手已推5746fa79；最近私库实际pull为2026-11-26 23:03:38 UTC，已读根规则提交8c102eb2c495c626ce31077971f36849456bc56f，diff无变，QUEUE保持本会话。公私部分克隆；每结论一推，非快进/ref竞争即pull --rebase再推直到成功，不force，令牌仅CLI。
 - 根/本题README规则无新差异；至少每小时实际pull，逐次检查并记SHA。MD<100KB、H<10KB、open尽量<30KB、topic<200MB；只留源/参数/SHA/小回执，不写根LOG或可重算大输出。
 - 全部先前结论、原失效输入/运行身份和开放边界保[完整交接链](notes/2026-11-27-handoff-before-same-eta-and-total-hole-core-8542.md)、[open](open.md)和[结果索引](results.md)。省略不是关闭，已登记不重做。
@@ -42,6 +42,8 @@ M=kerT、N=closureBM，N=M未证；同w/u、全部partial、真intersection旗�
 - 原G0=TJ_B图闭包=closureRan(B,T)，多值部恰Ce0；投去真空后A_min可闭，A_max=J_BT，N⊂kerA_min⊂M。I=closureRanT*⊂J=closureRanG0*⊂N⊥，J=I及J=N⊥分别未付；一维多值部/单一图核心不代N=M。
 - 旧b(h)=Σ(q+1)^−2||P_qh||与真实T*h∈H给双图核心。准确dyadic指定prefix-cut的两费为λ_r||y_r||和原有限头缺一位顶行；Y全Cayley逆费用已付，仍不宣一般W自动在最大域或付两费。
 - 新总孔核心使用R238每个总孔层在H与真实carry权b_q=q^−2 alpha_q/alpha_(q−1)：N型完整正交列付ρ_q≈b_q的平方和，Y型全部逆付块l1(b)；Kh∈H后纯创建准确升一孔，故总孔cut同时返T*h和B*h。允许首缺位增长exp(θ16^q)、θ<87.5，严格超旧多项式判据；同W若满足即w0。每个总孔层在H不意味着首缺位全高孔块在H，W特殊来源费仍是核心缺口。
+
+- 精确临界来源X_(15/16)：b_q/alpha_q^(15/16)=q⁻²exp[−(45/8)8^q+(525/4)2^q−2125/8]（q0另付），比值l2给N/Y真实carry有界；总孔cut由q≤p有限块直接在H，无须另借R238。同源y=Sh费用等价Σalpha_q^(−1/8)||P_q^+y||²<∞。σ>15/16两型carry无条件延拓均失败，Y下界保全Cayley偶幂；此临界性不排W特殊条件桥，实际W费用仍开。
 
 ## 原Haar尾：未知普通M与真实闭域
 

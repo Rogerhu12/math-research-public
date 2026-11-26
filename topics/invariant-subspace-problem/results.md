@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R271 原carry的精确15/16来源端点及真实1/16逆权（2026-11-27，已证明）：** [完整权恒等式、直接总孔核心和两型临界下界](results/R271-appendix-critical-fifteen-sixteenths-carry-domain.md)比值b_q/alpha_q^(15/16)有明确可和指数且q0单付，N/Y原carry在X_(15/16)有界；固定总孔仅q≤p有限块，直接完成双图核心。对y=Sh精确等价Σalpha_q^(−1/8)||P_q^+y||²有限；σ>15/16两型无条件carry延拓均由真实测试列排除，Y保全部Cayley偶幂。未证明W规范原像满足此费，未把条件核心当N=M。
+
 - **R150 L0已付rho首项后的完整原必要理想（2026-11-27，已证明输入）：** [原九式同t返回及精确分组饱和](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-L0-full-original-paid-rho-leading-system.md)保八条原mean/P/N返回，另以首项交叉乘法给rho四次原组合；整W/G/K/V/alpha边界有独立来源，未倒置局部b1。源fae9a57e实际build4.752914秒/43072KiB/exit0，5变量/9必要行，输入753704字节/SHAb2e3af02；专用Actions做实质新完整QQ单位门，不重跑X/Y大直接投影，不以构造通过作判空。
 
 - **R12 完整交换子的兼容形式喷射与实际闭根分母的平坦性（2026-11-27，已证明）：** [真实自由尾分解、全字符和域内恒等式](results/R12-appendix-full-commutant-compatible-formal-jets-and-flat-root-denominators.md)从原有限头唯一系数构造全C的jχ:C→C[[z]]，各系数范数准确β_r⁻¹；共同核I∞范数闭、强*单位球稠密、与UHF交0且商在C∩UHF完全等距。对q∤pk的闭稳定根，任何实际标量全域分母P都在I∞，由真实有界TP及行列式消失阶证明；k1分子也平坦。没有把非忠实形式演算或全幂共同像当作全域分母构造。

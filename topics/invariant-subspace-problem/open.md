@@ -158,7 +158,7 @@ S0/Lt0的k=4e、v=t=0、Omega=2e²−ek+2=0整支均已完整原返回排空；�
 
 普通M的有限头坐标非Fredholm，有下界真像无限维/余维且无尾模补空间。新[所有幂补空间排除](results/R12-appendix-no-power-invariant-closed-complement-for-any-ordinary-invariant-subspace.md)把普通真M无补空间提高到每个A^p；完整J交换、Jordan块数及迹谱连通均已付。仍须处理不分裂真实核/像或闭根域，不能把全尾字符施于未知限制。
 
-原负前缀核心现扩为[规范来源的总孔核心](results/R271-appendix-canonical-source-carry-norm-total-hole-core.md)：N型真实carry权ρ_q≈q⁻²alpha_q/alpha_(q−1)平方和、Y型同权块l1足够；R238付每个总孔层在H后，纯创建恰升一孔，真实总孔cut返原双图。源可增长exp(θ16^q)、θ<87.5；一般W是否有每个首缺位全高孔块在H及该和仍未付，不能用固定孔层估计替代。两范围核心保持开放。
+[总孔核心](results/R271-appendix-canonical-source-carry-norm-total-hole-core.md)现有[精确15/16来源端点](results/R271-appendix-critical-fifteen-sixteenths-carry-domain.md)：N/Y完整carry在X_(15/16)有界，总孔cut由q≤p有限块直接支付；σ>15/16无条件延拓不成立。真实y=Sh的剩余费准确为Σalpha_q^(−1/8)||P_q^+y||²，仍须由同W规范源给出，甚至一般W的y∈H尚未付。两范围核心仍开。
 
 Deddens自伴MASA、全部可分重数有限成本投影、全2-adic平移距离、具体B内核心、odometer非平凡谱投影距离≥1/π及全非奇异加权复合距离均已闭，完整链接/原边界保[快照](notes/2026-11-27-open-before-same-eta-and-output-core-8542.md)。R38真实Y∈D\B；全R自伴核、连续Fourier乘子及未知普通M的D保持仍开，不能无损拼合一般细块。
 

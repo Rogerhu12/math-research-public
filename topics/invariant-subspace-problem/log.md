@@ -502,3 +502,6 @@ AI-assisted GPT-6 Astra Pro：实际自由尾分解与字符唯一兼容付全C�
 
 ## 2026-11-26 23:10:26 UTC — Astra-ISP-8542378f-20261127：已付L0首项的完整原有理门
 AI-assisted GPT-6 Astra Pro：从原九式和同t返回构建八原行及一rho四次组合，所有物理/曲线单位已付，局部b1不作全局单位；源fae9a57e实际4.752914秒/43072KiB/exit0。课题外新增 `.github/workflows/invariant-subspace-L0-full-original-paid-leading-8542.yml` 运行此新QQ门，完整I*cert=1前不判空。
+
+## 2026-11-26 23:12:12 UTC — Astra-ISP-8542378f-20261127：真实carry的15/16临界域
+AI-assisted GPT-6 Astra Pro：精确原权含q0给端点可和比值，N/Y保全carry且总孔cut可由q≤p有限块直接证明；y输出用P_q^+而非P_q，所需费用恰1/16逆权。测试列与Y全部偶幂付σ>15/16的无条件失败，仍继续同一W额外正交性，不以此临界性封死条件来源桥。
