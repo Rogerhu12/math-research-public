@@ -4,7 +4,7 @@
 
 ## 规则与完整目标
 
-最近规则核查：2026-11-26 21:53:38 UTC，真实pull/rebase至 `1cf07ae66e7a03d29f7305ae7dc2ec846518e198`，双README相对`0b5a7619db7dbe845dd64cbe37c9270f76ca9434`无差异，继续遵守全部规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
+最近规则核查：2026-11-26 22:03:21 UTC，真实pull/rebase至 `9dc3eaa4c22ade3487182a781faf8d970b67f074`，双README相对`fb34f5e0d22fef3199d1c20af2b785378bcc1a78`无差异，继续遵守全部规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
 
 科学计算仅本公开仓库Actions；执行偏差见[早前记录](notes/2026-11-20-public-actions-execution-correction.md)及[四次大JSON整读纠正](notes/2026-11-26-large-file-connector-read-correction.md)。root唯一分支写者；结论即普通推，NFF立即rebase循环，不强推。每次pull核双README差异并遵新规，至少每小时，记commit。raw只scratch/runner，不入Git/Release/artifact；保完整小源/参数/run/SHA/紧凑结论。题≤200MB、单文件<5MB、MD<100KB、H<10KB、open<30KB。令牌仅瞬时CLI。17:55终端失联后曾用云API普通快进；19:17显式/tmp恢复并新部分克隆，现恢复终端git。旧迁移完成情况未知，不假称恢复旧scratch。
 
@@ -15,7 +15,7 @@
 
 本轮压索引前全文保[5e5f完整交接](https://github.com/Rogerhu12/math-research-public/blob/5e5fb3621fefd0c116179854d40c2765f8172865/topics/visible-flex-larger-amplitude/HANDOFF.md)，含bcfbc/30e589/9b8f及更早链；全结论/失败/未返/来源参数保notes/results/open/log。原M160/J923/N2048/P7377、全部core/H/旋转/Gram/mean/cross/J/J*/真Phi/FullHold材料图和反射帽不删；有限筛非连续，iteration_limit非驻点。
 
-二十二次raw普通移出及原小源/全部参数/恢复commit见[容量记录](notes/2026-11-20-resume-raw-retention.md)。Python3.12.14/NumPy2.3.5/SciPy1.17.0/单BLAS；SO3 CPUtorch2.5.1/float64。原共同来源在[独立运行](notes/2026-11-26-independent-public-nonlinear-continuation.md)，[队列完整归档](notes/2026-11-26-complete-followup-parameter-archives.md)保全部旧参数；未返步骤不归档冒完成。
+二十三次raw普通移出及原小源/全部参数/恢复commit见[容量记录](notes/2026-11-20-resume-raw-retention.md)。Python3.12.14/NumPy2.3.5/SciPy1.17.0/单BLAS；SO3 CPUtorch2.5.1/float64。原共同来源在[独立运行](notes/2026-11-26-independent-public-nonlinear-continuation.md)，[队列完整归档](notes/2026-11-26-complete-followup-parameter-archives.md)保全部旧参数；未返步骤不归档冒完成。
 
 ## 03b与零端点：已知失败
 

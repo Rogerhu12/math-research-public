@@ -500,3 +500,7 @@ root于2026-11-26 17:12:35 UTC普通移出6项共1,613,460B。[完整说明](202
 ## 22. 2026-11-26：两份旧辅助线性参考逐胞输出
 
 主会话普通移出variable-farball与wide12两raw共1,133,547B；完整25非数组字段、原有理界/全参数、两完整argv和资源记录、六公开源/完整import链、八原输入8ef38046恢复清单及a936固定原件/blob保[完整说明](2026-11-26-legacy-two-aux-reference-retention.md)和[小对象](../computations/resume-20261126-legacy-two-aux-reference-retention.json)。只读大报告首末12000B，不整读cell_rows；所有旧充分门失败边界和13旧引用保留，旧消费者先恢复Actions隔离scratch。当前05输入、全历史/待返/新seed/direct均不移出，没有科学重算或历史改写。
+
+## 23. 2026-11-26：旧low46辅助盒与strong分量诊断
+
+按[完整来源与恢复说明](2026-11-26-legacy-low46-box-and-strong-component-retention.md)及[小清单](../computations/resume-20261126-legacy-low46-box-and-strong-component-retention.json)，普通移出旧588588B辅助box与501265B浮点分量报告，共1089853B。两原blob/SHA固定于11273fd0828c303037de6c11e4cb9d98050e1548；8件完整小源/全部3与6个实际输入（含三个隐式q来源）及原argv/defaults/资源/数学范围保。只存既有标量结论和真参数，生成名单/迭代历史/两周期/对角4列表只留数量与canonical摘要，不再转存raw。根核当前小源SHA；没有整读两大报告、没有科学重算或改写旧结论。

@@ -475,3 +475,8 @@ R708支持内单位meridian完整条件构造：已正式刊[完整42式证明](
 ### 2026-11-26 21:52:04 UTC — Astra-larger-e4e2a2bf-20261126
 
 刊[完整当前八列PCG五源接线](notes/2026-11-26-current-SO3-eight-column-PCG-complete-source-integration.md)：a0e/333e/78f/6420/0d65全正文，原892f物理/统计/地点及整个ray-SOC后缀保。当前ac03八全A/A*付完整准备成本、76b固定SPD面逆，仅metric分派变；原全μ²I/C/b/norm/真Phi与PhaseI不变。新cache明确真892f及同源manifest，真实restart不回initial。root全读四diff、再生器、说明/参数并对照接口；公开summary已去掉对角数组JSON字符串，矩阵及对角只runner。完整a801/六历史ready仅准备，实际新父/新地点返回须新请求，无科学执行或速度宣称。
+
+
+### 2026-11-26 21:58:02 UTC — Astra-larger-e4e2a2bf-20261126
+
+[第23次原raw普通移出](notes/2026-11-26-legacy-low46-box-and-strong-component-retention.md)：按根README15把两个旧逐胞报告共1089853B移出当前树，保11273原blob/既有SHA、八完整小源、3/6真实生产输入及原argv/defaults/资源/结论范围。四生成列表也不转存为小JSON，只有字段/数量/digest/固定恢复。root读完整新小记录/说明并核源SHA，helper逐target核当前/恢复blob和字节；无大报告整读、无科学重算、无当前输入/地点/未返删除，容量供06完整再生及新源使用。
