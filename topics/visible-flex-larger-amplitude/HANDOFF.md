@@ -71,6 +71,6 @@ R689固定均值连续Gram入口已刊：两准确场共同分割、公共lift�
 
 ## 当前公开Actions执行
 
-run [45762076394/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45762076394)，源码`a4a535eec561d0f8c79fb673cb7b8987dad033af`；[实际紧凑记录](notes/2026-11-26-public-actions-45762076394-1.md)。当前`followup:resume-20261126-actual-R671-current-coarse-PCG-parent-row-SOC-02`/completed，返回阶段35；退出码0。
+run [45762076394/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45762076394)，源码`a4a535eec561d0f8c79fb673cb7b8987dad033af`；[实际紧凑记录](notes/2026-11-26-public-actions-45762076394-1.md)。当前`followup:R688-actual-physical-mean-face-PCG-first-20261126`/completed，返回阶段36；退出码0。
 
-Actions规则核查：2026-11-26 07:10:21 UTC，真实pull至`69d84dbe00665a8d3bf6a6344f9dc2c35723b706`，双README相对已读无变化。
+Actions规则核查：2026-11-26 07:15:03 UTC，真实pull至`8da59e8492388bf1cea284e35e0d1b25cbd402c4`，双README相对已读无变化。
