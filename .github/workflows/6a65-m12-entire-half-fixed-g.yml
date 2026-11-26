@@ -41,6 +41,11 @@ jobs:
           git sparse-checkout set --no-cone '/README.md' '/topics/visible-flexible-closed-surface/'
           git fetch --filter=blob:none --depth=1 origin "$GITHUB_SHA"
           git checkout --detach "$GITHUB_SHA"
+          if [ "$(git rev-parse --is-shallow-repository)" = true ]; then
+            git fetch --filter=blob:none --unshallow origin main
+          fi
+          git merge-base --is-ancestor "$GITHUB_SHA" origin/main
+          test "$(git rev-parse HEAD)" = "$GITHUB_SHA"
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
@@ -121,6 +126,19 @@ jobs:
             --angular 216 --prefix-intervals 64 --tail-intervals 32 \
             --out "$M12_COLD_DIR/entire-half/entire-half-closed-stl.json" \
             | tee "$M12_COLD_DIR/entire-half-closed-stl.log"
+      - name: Certify the same h field with localized Bernstein and angular boxes
+        shell: bash
+        run: |
+          set -euo pipefail
+          env -u M12_RECOVERY_TOKEN python topics/visible-flexible-closed-surface/scripts/6a65-m12-local-bernstein-angular-metric-budget.py \
+            --scripts topics/visible-flexible-closed-surface/scripts \
+            --data "$M12_COLD_DIR/m12-prefix-data.npz.gz" \
+            --field "$M12_COLD_DIR/entire-half/entire-half-result.json.field.npz" \
+            --grid "$M12_COLD_DIR/entire-half/entire-half-grid.json" \
+            --result "$M12_COLD_DIR/entire-half/entire-half-result.json" \
+            --correction-bounds "$M12_COLD_DIR/entire-half/entire-half-continuous-change-bounds.json" \
+            --out "$M12_COLD_DIR/entire-half/entire-half-localized-metric-budget.json" \
+            | tee "$M12_COLD_DIR/entire-half-localized-metric-budget.log"
       - name: Write only a compact identity receipt
         if: always()
         shell: bash
@@ -163,13 +181,20 @@ jobs:
           continuous_reports={}
           for name in ('entire-half-original-source-bounds.json','entire-half-continuous-change-bounds.json',
                        'entire-half-actual-field-geometry.json','entire-half-original-span-observer.json',
-                       'entire-half-old-observer-union.json','entire-half-closed-stl.json'):
+                       'entire-half-old-observer-union.json','entire-half-closed-stl.json',
+                       'entire-half-localized-metric-budget.json'):
               path=cold/'entire-half'/name
               if path.exists():
                   if path.stat().st_size>=100000:raise ValueError('Expected compact scalar report: '+name)
                   continuous_reports[name]=json.loads(path.read_text())
           geometry=continuous_reports.get('entire-half-actual-field-geometry.json',{})
           meshes=continuous_reports.get('entire-half-closed-stl.json',{})
+          localized=continuous_reports.get('entire-half-localized-metric-budget.json',{})
+          localized_bound_to_same_field=False
+          if localized:
+              if not observed or localized.get('field_sha256')!=observed.get('field_sha256') or localized.get('grid_sha256')!=observed.get('grid_sha256'):
+                  raise ValueError('Localized continuous budget is not bound to this actual h field/grid')
+              localized_bound_to_same_field=True
           record={'source_head':source_head,'run_id':run,'run_attempt':attempt,
                   'job_status_before_publication':os.environ['M12_JOB_STATUS'],
                   'scope':'Original fixed-g central-to-true-cuff half, including prefix, bridge, finite tail and deep collar; radius .6 is an unconstrained interior interface.',
@@ -178,6 +203,10 @@ jobs:
                   'whole_family_reach_certified':geometry.get('homotopy_embedded_and_reach_transfer_proved',False),
                   'complete_three_phase_STL_generated':len(meshes.get('meshFiles',[]))==3,
                   'source_aligned_h_trial':True,
+                  'localized_metric_validation_completed':localized_bound_to_same_field,
+                  'whole_half_plus_localized_validation_completed':bool(execution and execution.get('finished') and localized_bound_to_same_field),
+                  'continuous_metric_certified_from_localized_budget':bool(localized_bound_to_same_field and localized.get('continuous_metric_below_1e_6',False)),
+                  'localized_verifier_changes_field_or_metric':False,
                   'old_independent_observer_superset':continuous_reports.get('entire-half-old-observer-union.json',{}).get('union_contains_full_old_independent_observer',False),
                   'continuous_and_mesh_scalar_reports':continuous_reports,
                   'regeneration':'Run this workflow at the same source commit and request. Known public blobs and checked source hashes regenerate every temporary array.',
