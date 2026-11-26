@@ -41,3 +41,5 @@
 - [R967](../results/R967-original-e65-dyadic-principal-translates-and-mixed-readout.md)：原实半点(-1,0)的Weyl lift为3^(-195/2)倍有理B_T，B_T²=3^195；完整Weil/Hermite字典给Π0U_TZ=Z/√3，等价有理Π0B_TZ=3^97Z。与δ点合成全12有序中心，主读数系数1、−1/2、1/√3、−1/(2√3)，普通/惰性及b尺度全保。原全μ6 mixed测试可直接压缩已投影ρ/h，但不逐单码删角。实际Π0(C1J)=(9SZ−Z)/2非常数比值，排除仅由这12真中央付cross。
 
 - [R968](../results/R968-original-common-degree10-carry-and-positive-eighth-order-difference.md)：原共同C=H0/δ、F=−ωH1/δ保S/T/W±/Z/W′全部第一轴，准确degree10/210 even whole核同真实χ10λ。十二次完整纤维Q消q9、保q3，三支新测试对整个四输出乘υp^n并保原Τ；同原五深一单位网格的S/T归一差准确vp=8n，仅用原正第一单位矩。全尾、原相位和全部补域保留；新q仅前四，原H_cd/Pj/Rc可保持而D156不可，继续真实mixed补域。
+
+- [R970](../results/R970-original-e65-cube-rank2-degree130-source-and-central-bridge.md)：固定E*:y²=x³+65³以两个真实2同源下降像及全部mod3/5排除给精确rank2。完整2/3/5/双13角色、uniformizers、α=5/13、t+及trivial有限环面向量/Haar给degree130同一全权实平方；CM7/19准确(ω,−1)，不立方整个权一基角色。普通Katz/惰性signed与通常全Selmer桥已付；完整22列唯一性及原H130/新六sigma候选投影待同次消费，跨p非零仍开。
