@@ -283,3 +283,13 @@ global_route 与 root 纸面核准 Cohen 生成元的常数项、
 未执行数学程序，未重算已成窗口。
 真正的全局 log 首项、非 CM 简单商的整投影与 O0 覆盖仍 OPEN，
 不以本局部精度结论代 Serre 完成。
+
+
+## 后继：真实节点与完整首 log
+
+[R1023](R1023-original-CM-divisor-complete-first-log-vector.md) 用实际
+微分参数 \(vw=p\)、单位根正规化和原 Gauss–Manin 三阶 jet，
+补足本篇保留的 node poles，算出全部跨尾及自身 Frobenius 返回，
+并给原 \(P=(p-1)D_0\) 的 entire-Jacobian 首 log。
+本篇 affine 常数化的范围没有扩大成整个模型常数化；
+实际非 CM 商的整投影仍须另外核准。

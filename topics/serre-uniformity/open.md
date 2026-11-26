@@ -4,11 +4,13 @@
 
 此前逐字状态在[最新open归档](open-archive-2026-11-26-before-formal-first-layer.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重新计算已成输入。
 
-[R1018](results/R1018-original-CM-divisor-exact-first-formal-layer.md)：p>37、p11mod12，原P=(p−1)D₀在J₁良好模型准确为F^m\F^(m+1)，m=(p−1)/2、π₀^((p²−1)/2)=p。完整惯性权给下界；保R1014真实b和六标记的quotient-isogeny提升、zero-flux同一frame、全局平均与全部Cech后，原a0参考尾首类=−6κ[z^−(2h−1)]单位，别尾不能抵消。附同一e3 node的全部odd-power gap二项式单位。形式点深度1/(p+1)不能代log首层；实际degree-p项、R1011半秩商整投影和候选排除仍开。
+[R1018](results/R1018-original-CM-divisor-exact-first-formal-layer.md)：p>37、p11mod12，原P=(p−1)D₀在J₁良好模型准确为F^m\F^(m+1)，m=(p−1)/2、π₀^((p²−1)/2)=p。完整惯性权给下界；保R1014真实b和六标记的quotient-isogeny提升、zero-flux同一frame、全局平均与全部Cech后，原a0参考尾首类=−6κ[z^−(2h−1)]单位，别尾不能抵消。附同一e3 node的全部odd-power gap二项式单位。形式点深度1/(p+1)不能直接代log；实际degree-p完整返回现由R1023计算，R1011半秩商整投影和候选排除仍开。
 
 [R1019](results/R1019-original-CM-killing-correspondences-preserve-first-formal-layer.md)：固定实际A=T5²、Z=(T31−32)T5²后，原P=(p−1)D₀仍准确F^m\F^(m+1)，对p11mod12且p>C_A/C_Z；C分别=max(575,N_HA)、max(36863,N_HZ)，N为固定p无关Norm函数的lc/resultant整数。完整字面支撑≤144/9216、dlog零≤142/9214，选无支撑SS尾保同一frame/主化lift；H非constant由导子25/775的唯一完整六标记逆链。A、Z杀全部CM新部，Z另杀Q有理挠点；不扩大到Qp挠点，实际log和simple商整投影仍开。
 
-[R1021](results/R1021-actual-full-p-affine-tail-rigidity-and-quotient-parameter.md)：实际full-p正则环经μ_(p²−1)平均，Cohen方程仅p+F_e+F_2e+…；radial chart在整个非约化O/(p)上为常数DL仿射模型，全部level作用模p真实线性。原普通p-商target eigenparameter准确u′=ε(c_Qψ+pR_Q)，R_Q仅仿射正则，六标记与c_Q单位保留；Dickson恒等式𝒟=ψ^p+C^(p−1)/ψ给首gap的具体Frob消去函数。未把仿射误差当节点有界，实际log跨尾项继续算。
+[R1021](results/R1021-actual-full-p-affine-tail-rigidity-and-quotient-parameter.md)：实际full-p正则环经μ_(p²−1)平均，Cohen方程仅p+F_e+F_2e+…；radial chart在整个非约化O/(p)上为常数DL仿射模型，全部level作用模p真实线性。原普通p-商target eigenparameter准确u′=ε(c_Qψ+pR_Q)，R_Q仅仿射正则，六标记与c_Q单位保留；Dickson恒等式𝒟=ψ^p+C^(p−1)/ψ给首gap的具体Frob消去函数。未把仿射误差当节点有界；R1023现已在实际节点保全算出首log跨尾项，整投影继续。
+
+[R1023](results/R1023-original-CM-divisor-complete-first-log-vector.md)：p>37、p11mod12，原P=(p−1)D₀完整log仍在Fm，首向量准确εΣθ_s(λ(s)+R_p(s))f_s；λ=−6(b+1)/(1−b³)，R_p是6(b^p+1)/[(1−b³)^(4g+1)A_p²]的三支持极部。真实节点、全部跨尾Frob/Schwarzian/半线性尺度及整log分母均保；原输入全零iff两条Q整除和P2(1)=1。尚须排全零及核实际非CM整投影，不能直接换H_A/H_Z的λ。
 
 ## O0：全主目标覆盖（R1003恢复原范围）
 

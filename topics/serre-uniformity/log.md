@@ -210,3 +210,8 @@
 ## 2026-11-26 19:52 Asia/Taipei — 执行路径纠正
 
 发现 global_route 在会话 V8 中执行数学探索和系数校验，违反仅准审查后公开 CI 的规则；已停止并排除其数值作为证明或合规窗口。已知六项记录、时长和纠正详见[记录](notes/2026-11-26-execution-path-deviation-and-correction.md)。首 log 非零代数由 o2 与 root 另行完整纸核；不以该违规输出核准。旧归档保留，当前 H 修正笼统“无数学程序”说法。
+
+
+### 2026-11-26 20:06 Asia/Taipei — R1023 原完整首 log
+- [R1023](results/R1023-original-CM-divisor-complete-first-log-vector.md)：p>37、p11mod12，原P=(p−1)D₀完整log仍在Fm，首向量准确εΣθ_s(λ(s)+R_p(s))f_s；λ=−6(b+1)/(1−b³)，R_p是6(b^p+1)/[(1−b³)^(4g+1)A_p²]的三支持极部。真实节点、全部跨尾Frob/Schwarzian/半线性尺度及整log分母均保；原输入全零iff两条Q整除和P2(1)=1。尚须排全零及核实际非CM整投影，不能直接换H_A/H_Z的λ。
+- root独立纸核完整几何、整log及全函数判据；不依赖已记录的违规V8探索。全向量非零另证，主目标OPEN。

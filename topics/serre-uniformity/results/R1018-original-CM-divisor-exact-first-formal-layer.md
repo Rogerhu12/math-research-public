@@ -509,3 +509,13 @@ dual derivative 的 Frobenius 因子化及常数单位、trace-zero 主部、
 无支撑尾的 zero-flux 同一 frame、全局 character 平均、
 所有较早层与其它分量、无穷分支符号及全部 gap 二项式。
 无数学程序执行，无既有素数窗口或局部数据重算。
+
+
+## 后继：原首 log 已准确计算
+
+[R1023](R1023-original-CM-divisor-complete-first-log-vector.md) 保留本篇
+同一个原输入，已计算 entire-Jacobian 首 log 为
+\(\varepsilon\sum_s\theta_s(\lambda(s)+R_p(s))f_s\)，包括全部实际
+degree-\(p\) 返回项与原支持/中心的权排除。它不将本篇形式首层
+直接等同于 log。全向量的非零及实际非 CM 整投影须消费对应后继，
+不能恢复本篇 §8 已排除的自动推理。
