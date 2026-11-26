@@ -4,7 +4,7 @@
 
 ## 规则与完整目标
 
-最近规则核查：2026-11-26，真实pull/rebase至 `6408017f3251a506166912488d9ed6bc86f2d9c6`，根及课题README相对f0548477无差异，已完整读授权及规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
+最近规则核查：2026-11-26，真实pull/rebase至 `61441abc419e949b1fcd591a72f10a947bf517f1`，根及课题README相对f0548477无差异，已完整读授权及规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
 
 科学计算仅本公开仓库Actions；早前本地偏差及13:00 UTC纠正见[执行记录](notes/2026-11-20-public-actions-execution-correction.md)。根README已授权必要修改/发布；根唯一local git writer，代理只work/小源。每条结论普通commit/push；NFF立即pull --rebase循环再推，不强推。至少每小时pull，每次核双README差异/立即遵新规并记commit。raw只scratch/runner，不入Git/Release/artifact；只保完整小源/参数/run/SHA/紧凑结论。题≤200MB，MD<100KB，H<10KB，open<30KB。令牌只瞬时CLI，不写文件/提交/回复。
 
@@ -53,7 +53,7 @@ R653准确quarter；R654完整H²尺度；R655付原node/mid盲空间，故旧18
 
 新run45762076394/1已实际启动（初源a4a535ee），仅再生继续求解必要输入；实际旧末父/失败边界如上，不重宣旧结论或继承旧SHA。R683完整全旧行SOC已刊并排实际父后；子任务结束接open下一项，不等确认。
 
-R684完整新旋转度量设计已刊；新g支线先接实际重生v3父（不待旧PCG/SOC再生），双variant诊断后排physical/p4、mu.01、v3两方向×64实际求解（完整父永久点union、全J/J*、同H²/全变量）。见[新g入口](notes/2026-11-26-new-mean-metric-actual-solver-entry.md)。仅设计阶段改目标；选定后固定完整连续s均值公式再精化，未返不称收敛。
+R684完整新旋转度量设计已刊；新g支线先接实际重生v3父（不待旧PCG/SOC再生），双variant诊断后排physical/p4、mu.01、v3两方向×64实际求解（完整父永久点union、全J/J*、同H²/全变量）。见[新g入口](notes/2026-11-26-new-mean-metric-actual-solver-entry.md)。仅设计阶段改目标；选定后固定完整连续s均值公式再精化，未返不称收敛。 首两方向后已排同场完整first的D/L/H，先排除伸长导致20%比例丢失；固定core及必要K屏不保幅度，旧.228不继承。
 
 R685活动面约束逆及v5完整入口已刊，排在首个v4/all-row SOC实际返回之后；原QP/母范数/全部行/欧氏停止不变，未返不称加速。新schema归因用read_constrained_solver_report，不交旧adc90冒读。
 

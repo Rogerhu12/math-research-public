@@ -279,3 +279,5 @@
 2026-11-26 06:38 UTC — Astra-larger-e4e2a2bf-20261126：按根15普通移出R39旧648675 B逐胞/逐模可重算数组，完整源码/argv/输入SHA/小结论和固定历史恢复保留。只metadata摘取，无科学重跑；留空间给当前求解和连续证书，未改变任何旧结论。
 
 2026-11-26 06:41 UTC — Astra-larger-e4e2a2bf-20261126：刊R686同场完整first→由实际D准确推K目标→分批K→R650/R661/R675合并的两入口和统一summary。原f122 first曾实际约60秒，但不预报新场性能；不将4.10目标或另一场D当已付值。完整域/输入/source/model均核验，缺非平面不报正Euclidean距离；静态AST/编译/字段检查，无科学重跑或新reach。
+
+2026-11-26 06:43 UTC — Astra-larger-e4e2a2bf-20261126：识别newg目标释放均值可能通过H/直径伸长降低relative residual的实际缺口，首两方向后提前排同场f122完整D/L/support/embedding观察。固定非零core不替代20%幅度，旧比例不继承；后继实际父须据新几何选取。未有新幅度或metric结论。
