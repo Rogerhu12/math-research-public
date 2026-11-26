@@ -325,3 +325,7 @@
 ### 2026-11-27 00:51 Asia/Taipei — 终端恢复并回到真实git同步
 - 16:44 UTC恢复探测成功；原本课题checkout在新宿主缺失，已重新blob:none/depth1/sparse部分克隆、真实git pull --rebase main；两README相对263877edd621927c65d4916a62237cc6f6008b23无差异，已读bc8443e6b67bcc5bdc8c25a542e28846fefb8ddc。
 - 改回终端git发布，旧fallback提交均在main保留。没有执行数学程序；继续R1045实际MW消去后非零与R1046原p5全系数来源，不以恢复或阶段结果结束任务。
+
+### 2026-11-27 00:58 Asia/Taipei — R1045 实际MW消去后原尺度仍M1
+- [R1045](results/R1045-original-MW-annihilator-nonzero-reduction.md)：原p11、p>C_*的真实本原Λ_Q作用原整CM盘后，完整模p多项式非零，MW消去后准确M=1。更强纯代数适用于全p=6N+5：非零new T若与v=λ+R正交，完整三CM留数与S₀=1迫contact从ℓ升到ℓ+1；原Euler算子给有限₃F₂，degree N<ℓ与局部指数0,1,ℓ排二重零。保完整Q²λ；不要求general new determinant单位，不宣最高J₀、最低w系数单位或深盘唯一零点。
+- 完整三CM trace/S₀ polynomial part与全部proper parts、额外contact、Euler finite ODE及actual row逐式纸证；root/o1/o2全文核准。终端真实git发布；依根规矩4统一本会话R1012–1045公式定界符为$ / $$，不改公式。无数学执行或旧窗重算，两README随pull查差异。

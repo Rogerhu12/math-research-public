@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。本轮已部分克隆并真实pull main，读两README/H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则读至36cf1ed2。不重做已登记结论或窗口。
 
-**公开两README已读提交：35ddcda5c46248f59b8c85d8595af88a50ce0b2f**（2026-11-27 00:54 Asia/Taipei；真实git pull后两README无差异）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
+**公开两README已读提交：e88c3a37157f31ee04b1907ea33146b22251e2fe**（2026-11-27 00:59 Asia/Taipei；真实git pull后两README无差异）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
 
 执行宿主16:44 UTC恢复；原checkout不在新宿主，已重新blob:none/depth1/sparse部分克隆并真实pull --rebase，改回终端git发布。路径/workspace/scratch/24b8836b87e3/math-research-public；仅检出本课题文本。此前断连按根规矩8小文本同步，未force；以后并发拒绝立即pull --rebase/读规则差异再推至成功。令牌只在CLI，不入文件/提交。根维护main/H/open/index/log，子研究写独立scratch数学稿；结论写完立即推。19:52纠正：global_route曾违规用会话V8做数学探索，已叫停；范围、时长及独立纸核见[执行偏差记录](notes/2026-11-26-execution-path-deviation-and-correction.md)，不得以其数字作证明或合规窗口。
 
@@ -14,7 +14,7 @@ H<10KB、open尽量<30KB、每MD<100KB、topic<200MB；无可重算raw、不写�
 
 ## 最新全局实际来源
 
-[R1044](results/R1044-original-CM-disc-complete-coefficient-flag.md)：p11原盘全部V_(4g−k)≡u_kJ_(k−1) mod先前列，u_k明确原单位。完整η/平面/全C惯性与normal含其它CM返回、后期全纯自由项均付；rank4g−1、核维2g−1。指定B(c,·)全式零 iff (b−1)^(4g)|(T_c−γA)，c=DQv保Q²；尚未排contact或深盘零点。
+[R1045](results/R1045-original-MW-annihilator-nonzero-reduction.md)：原p11实际Λ_Q的全模p轮廓非零，MW消去后准确M1(p>C_*)。全p纯代数由三CM完整留数/S₀=1迫contact多一阶，Euler有限₃F₂的0,1,ℓ指数排二重零。完整Q²保留；R1044全Cauchy旗标同原格，不宣最高/最低w项单位或唯一根。
 
 [R1040](results/R1040-original-p5-Hodge-graph-and-primitive-MW-annihilator.md)：p5原good BT的source Fp²相位与Hermitian切线给Π²=−p、B整对称完美；双节点常数Ff=C^(p−1)ω/4及q_s∈Fp保原尺度。真实Fil给Q，模π为quo(r^(8g+2)a(b^p),A²) modA，核一维纯正δ、负δ单射。额外Q(√−3p)-CM由τ₁自扭排除，原6p tame平移给剩余CM全正δ；结合原重数一与R1026，Λ_Q在p>C_*本原并杀全部MW饱和格。K_Q=(1/2)P_(DQv)(1)仍待非零，不删除Q²项。
 
@@ -70,4 +70,4 @@ R696早已证明同一全局Φ候选Ω_actual={0}，R832已消费；不重做、
 
 固定Y的R805–930及全部runs/高维格/预算边界见open与逐字归档，只消费已成输入。R907四artifact真404仍producer_inputs_pending，不重造；预算失败不作数学负结论。固定41全129盘/8CM已由R707完成，不重开。R575旧正CM角色根号−与逆twist秩零撤回有效。R1004仅导子下界而非a/c上界，停止重复优化。
 
-当前并行：R1044全原p11系数旗标已成；指定c=DQv的高contact、new投影的Euler/终止3F2行列式、R1041核范数与R1043端点分别在追。不能从全型rank代new rank或MW横截，不能把三个读数混同；p5完整旗标尚待本行来源。继续同标签与O0全覆盖，子问题完成即接open其余项；真正达README完成标准才收尾。
+当前并行：R1045原p11真实MW后M1已成，R1046原p5双中心/两∞全旗标及同lemma应用已全文纸核，随后推。继续最低w单位与正赋值盘零点、R1041核范数、R1043端点及同标签；不能把全轮廓非零冒唯一根。O0全覆盖未关，子问题完成即接open其余项；真正达README完成标准才收尾。
