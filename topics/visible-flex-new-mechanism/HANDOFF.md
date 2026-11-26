@@ -5,7 +5,7 @@
 
 ## 1. 规则、授权与原始记录
 
-公开已读提交 **0ce2394f1b0b049be99e4e622d504ff5660a5843**（2026-11-26 15:42 UTC；本次实际pull后根/题README空差异）；最后实际pull及规则同blob读至 **f68f036722791b638580fe0eb09be13023d7abf3**（2026-11-26 15:42 UTC；实际pull成功，根README空差异、QUEUE仍本会话）。私有 QUEUE 仍为本会话进行中，原认领提交9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7，其他课题认领不改。
+公开已读提交 **2f72a2c0f700cf875ab0c9345e785a80cdc83674**（2026-11-26 15:48 UTC；本次实际pull后根/题README空差异）；最后实际pull及规则同blob读至 **f75d0707d7f560d3c15a0e965512fe203cfd0568**（2026-11-26 15:48 UTC；实际pull成功，根README空差异、QUEUE仍本会话）。私有 QUEUE 仍为本会话进行中，原认领提交9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7，其他课题认领不改。
 
 [本次压缩前全文](notes/HANDOFF-before-continuous-angular-bounds-20261126.md)及其所链[继承交接](notes/HANDOFF-inherited-20261116-1809.md)保全部结论、条件、旧失败、输入与费用；不因摘要删账。三次环境失联后已恢复；远端临时CLI和后续本地CLI均真实双pull/rebase/push。每次实际pull后查根/题README差异并执行，至少每小时；API读取不冒pull。root独占git和共享索引，每条结论即推，NFF立即pull --rebase再推至成功。
 
@@ -35,7 +35,7 @@ R576付完整turning/位置，R594付真实At/M、离解Jac与漏模传播，R59
 
 [两次八模末态](notes/2026-11-26-r594-paid-weak-resume-natural-final.md)保452.79767207+464.449434512秒、496q/四已付13jets；iteration120近停滞，ε1e−5实际位置η≈3.026e−7，未过2e−9，不再延长同空间。
 
-[新11模正式输入](notes/2026-11-26-r602-eleven-core-completed-implementation.md)：commit4adf950498047e76e4a17b0f81f93d8c4f6b5b0a，run45845035304。原496q嵌入682q，仅新付18/20/22真DtN口，旧口/全部r/原force与前tanh系数保留。R602完整从属core到44模，body读到96，256/512实际网。旧tanh均值已改固定512同一径向函数及其导数，明确改变旧网依赖常数项；下一读自然终态，不把两网接近当连续证书。
+[11模自然终态](notes/2026-11-26-r602-eleven-core-completed-natural-final.md)：run45845035304/job139996367531，新1426.507060097秒、60接受；coreD1.596e−19，但实际η3.05743e−7未过2e−9，m30/40漏峰1.73e−5/1.64e−5。真实682q JSON15027B/SHAa752de58、H.5188901259915873、global180/damping1e−14。原18/20/22新口及13jets现已付，不重inner；下一同场全At/M正频到44/48目标。固定512 canonical同一f/fr/frr和完整R602六jets/Jac保留，不能回到网依赖均值。
 
 R596/R600只付同尾准确核至16/32及截断理论；实际口、归一和ODE误差逐次计费。全平内尾及旧R588的范围不能自动扩给新高模。所有旧强迫/插结/尺度失败完整保原索引和前史。
 
@@ -55,4 +55,4 @@ R584/R586/R589/R590保19态真历史、一次χ、正平方、负侧反号、偶
 
 R577/R579/R595/R599给完整近弦/厚核心/子午/切圆接口，实际圆参考仍欠全尾正图、最低半径与连续曲率。[R604](results/R604-normal-chord-stability-and-finite-parametric-norm-interface.md)新付参考全法弦到新浸入单射/reach的显式扰动证书；圆参考本身和有限q连续范数仍须真付，中央柱纵向参数化不能遗漏。非圆q不继承圆背景reach。
 
-继续实际97q更密网metric、11模完整高度、B030可行性回溯和真记忆质量式；子项完成即记原证据并接[open](open.md)。严格证明在[results](results.md)，数值和成本在notes。仅全部README门真正完成才收尾。
+继续实际97q更密网metric、同682q全角目标、B030可行性回溯和真记忆质量式；子项完成即记原证据并接[open](open.md)。严格证明在[results](results.md)，数值和成本在notes。仅全部README门真正完成才收尾。
