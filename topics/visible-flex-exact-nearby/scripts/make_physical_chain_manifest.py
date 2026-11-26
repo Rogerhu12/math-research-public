@@ -119,15 +119,33 @@ def main():
             finish_route(stage+"_complete_sufficient_gate_not_passed_no_inverse_or_new_consumer"); return
         if stage == "low":
             certificate = actual["certificate"]
-            require(certificate["strict_low_coefficient_gate_passed"] is True
-                    and certificate["actual_low_hybrid_inverse_proved"] is True
+            coercive_kind = "complete_R149_low193_coercive_source_point_continuation_v1"
+            if actual["kind"] == coercive_kind:
+                require(certificate["strict_low_coefficient_gate_passed"] is False
+                        and certificate["strict_symmetric_part_gate_passed"] is True
+                        and certificate["resolvent"]["basis"] == "symmetric_part_coercivity"
+                        and actual["completed_targets"] == [
+                            "complete_ordinary_raw_low_source_and193_atoms",
+                            "complete_transformed_low_source_and193_atoms",
+                            "complete_low_second_kind_inverse_and193_atoms",
+                            "complete_high0_return_source_without_CFB",
+                            "complete_actual_whole_interval_low_transversality"]
+                        and actual["completed_prior_coercivity"]["completed_targets"]
+                            == ["complete_same_weighted_body_signed_trace_and_symmetric_part"],
+                        "explicit whole coercive continuation plus independent old theta target")
+            else:
+                require(certificate["strict_low_coefficient_gate_passed"] is True,
+                        "unchanged original low contraction admission")
+            require(certificate["actual_low_hybrid_inverse_proved"] is True
                     and set(certificate["sources"]) == set(SOURCE_ROLES)
                     and certificate["whole_interval_transversality"]["every_real_radius_covered"] is True,
                     "all true low source and whole-interval outputs exist")
-            expected_count = 6 if actual["kind"] == "complete_R142_low193_parent_moment_continuation_v1" else 7
-            require(actual["kind"] in ("complete_R142_low193_parent_moment_continuation_v1", "complete_R141_low193_directed_Green_certificate_v1")
+            expected_count = (5 if actual["kind"] == coercive_kind else
+                6 if actual["kind"] == "complete_R142_low193_parent_moment_continuation_v1" else 7)
+            require(actual["kind"] in ("complete_R142_low193_parent_moment_continuation_v1",
+                    "complete_R141_low193_directed_Green_certificate_v1", coercive_kind)
                     and len(actual["completed_targets"]) == expected_count,
-                    "explicit original or moment low count, without relabeling")
+                    "explicit original, moment or coercive continuation count without relabeling")
         else:
             require(identity["kind"] == "complete_actual_positive_physical_scalar_stage_v1"
                     and identity["scalar_stage"] == stage
@@ -175,10 +193,28 @@ def main():
             "WHVA_actual": "notes/zero_volterra_positive_head_ci/run-43838214094-1/actual-scientific-conclusion.json",
             "WHVA_execution": "notes/zero_volterra_positive_head_ci/run-43838214094-1/execution.json",
             "exact_reference_source": "scripts/fourfold_codazzi_frozen_cross_block_value_tail.py"})
-    if predecessors["low"][0]["kind"] == "complete_R142_low193_parent_moment_continuation_v1":
+    if predecessors["low"][0]["kind"] in (
+            "complete_R142_low193_parent_moment_continuation_v1",
+            "complete_R149_low193_coercive_source_point_continuation_v1"):
         fixed.update({
             "directed_prefix_actual": "notes/low193_verified_green_ci/run-44730452579-1/actual-scientific-conclusion.json",
             "directed_prefix_execution": "notes/low193_verified_green_ci/run-44730452579-1/execution.json"})
+    low_actual = predecessors["low"][0]
+    if low_actual["kind"] == "complete_R149_low193_coercive_source_point_continuation_v1":
+        fixed.update({
+            "coercive_source_point_proof": "results/R149-supplement-complete-source-point-continuation-and-physical-admission.md",
+            "coercive_resolvent_proof": "results/R142-supplement-coercive-resolvent-complete-source-and-point-lifts.md",
+            "signed_loop_coercivity_proof": "results/R149-signed-Green-loop-and-symmetric-part-coercivity.md"})
+        for field, prefix in (("completed_prior_low_defect", "parent_defect"),
+                              ("completed_prior_coercivity", "coercivity")):
+            for which, suffix in (("scientific", "actual"), ("execution", "execution"),
+                                  ("manifest", "manifest")):
+                prior_spec = low_actual[field][which]["file"]
+                current = spec(prefix+"_"+suffix, prior_spec["path"])
+                require(all(current[key] == prior_spec[key]
+                            for key in ("path", "bytes", "sha256", "git_blob_sha")),
+                        "entire actual coercive predecessor identified by the completed low result")
+                files.append(current)
     for role, path in fixed.items(): files.append(spec(role, TOPIC+"/"+path))
     for _, _, _, a, e, m in predecessors.values(): files.extend((a, e, m))
     require(len({x["path"] for x in files}) == len(files) == len({x["role"] for x in files}),

@@ -10,6 +10,8 @@
 
 ## 新增结论
 
+- [R149补篇：四源、全point与physical准入](results/R149-supplement-complete-source-point-continuation-and-physical-admission.md)：真实R142 false和R149 coercivity成功后，五个新目标补四源/193atoms与5696盒；point只物化原Z covariance，旧HS/trace/θ只读，γ/R原public records复用。三physical入口显式新kind，58/224/32算式不改；原WPN lifting成功时已消整个正侧径向未知，完整负侧/真源/ν/非线性仍待。
+
 - [R149完整signed owner](scripts/fourfold_codazzi_low_centre_signed_loop_owner.py)与[metadata-only generator](scripts/make_low193_signed_loop_manifest.py)：真实完整R142 false分支及全部输入/执行记录是前提；88pins只开一个新signed trace/coercivity目标，旧HS/193atoms/ε只读，θ、γ、R保存读回。当前仅定义，不生成无真实前件的manifest或数值结论。
 
 - [R144实际完整forward包围](results/R144-supplement-actual-forward-mean-enclosure-and-unresolved-gates.md)：45772466407/1只续930格后完整7721/6143、旧prefix重算0；positive/C0/外mean三门unknown，无严格违例，首positivity未决6803。已actual确认旧分母含0并合法修复，完整全η/旧row目标锁定；转固定η0的同r相关输入，非最终族。

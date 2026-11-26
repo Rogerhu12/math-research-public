@@ -137,9 +137,60 @@ def main():
         return actual, execution
 
     low, lowe = pair("low_actual", "low_execution", "low_manifest")
-    require(low["proved"] is True and low["certificate"]["strict_low_coefficient_gate_passed"] is True,
-            "only a genuinely successful complete low result supplies source receivers")
-    if low["kind"] == "complete_R142_low193_parent_moment_continuation_v1":
+    require(low["proved"] is True, "only a genuinely complete low result supplies source receivers")
+    coercive_kind = "complete_R149_low193_coercive_source_point_continuation_v1"
+    if low["kind"] == coercive_kind:
+        lc = low["certificate"]
+        require(lc["strict_low_coefficient_gate_passed"] is False
+                and lc["strict_symmetric_part_gate_passed"] is True
+                and lc["actual_low_hybrid_inverse_proved"] is True
+                and low["completed_targets"] == [
+                    "complete_ordinary_raw_low_source_and193_atoms",
+                    "complete_transformed_low_source_and193_atoms",
+                    "complete_low_second_kind_inverse_and193_atoms",
+                    "complete_high0_return_source_without_CFB",
+                    "complete_actual_whole_interval_low_transversality"],
+                "explicit complete five-target coercive continuation preserves false epsilon")
+        old, olde = pair("parent_defect_actual", "parent_defect_execution", "parent_defect_manifest")
+        theta, thetae = pair("coercivity_actual", "coercivity_execution", "coercivity_manifest")
+        require(old["kind"] == "complete_R142_low193_parent_moment_continuation_v1"
+                and old["proved"] is False
+                and old["completed_targets"] == ["complete_parent_moment_true_hybrid_low_coefficient_defect"]
+                and old["certificate"]["strict_low_coefficient_gate_passed"] is False
+                and old["certificate"]["sources"] == {}
+                and theta["kind"] == "complete_R149_low193_signed_loop_coercivity_v1"
+                and theta["proved"] is True
+                and theta["completed_targets"] == ["complete_same_weighted_body_signed_trace_and_symmetric_part"]
+                and theta["certificate"]["strict_low_coefficient_gate_passed"] is False
+                and theta["certificate"]["strict_symmetric_part_gate_passed"] is True
+                and lc["defect"] == old["certificate"]["defect"] == theta["certificate"]["old_defect"]
+                and lc["symmetric_part"] == theta["certificate"]["symmetric_part"]
+                and lc["resolvent"] == theta["certificate"]["resolvent"]
+                and lc["model"] == old["certificate"]["model"] == theta["certificate"]["model"]
+                and lc["refinement"] == old["certificate"]["refinement"] == theta["certificate"]["refinement"]
+                and low["reference_identity"] == old["reference_identity"] == theta["reference_identity"]
+                and low["parameters"] == old["parameters"] == theta["parameters"]
+                and low["scientific_modules"][:7] == old["scientific_modules"][:7]
+                    == theta["scientific_modules"][:7],
+                "entire original epsilon false and independent theta success belong to this continuation")
+        for field, prefix in (("completed_prior_low_defect", "parent_defect"),
+                              ("completed_prior_coercivity", "coercivity")):
+            for which, suffix in (("scientific", "actual"), ("execution", "execution"),
+                                  ("manifest", "manifest")):
+                bound = low[field][which]["file"]
+                require(all(bound[k] == specs[prefix+"_"+suffix][k]
+                            for k in ("path", "bytes", "sha256", "git_blob_sha")),
+                        "the continuation binds this entire actual predecessor: "+field)
+        for which, role in (("scientific", "parent_defect_actual"),
+                            ("execution", "parent_defect_execution")):
+            bound = theta["completed_prior_low_defect"][which]["file"]
+            require(all(bound[k] == specs[role][k]
+                        for k in ("path", "bytes", "sha256", "git_blob_sha")),
+                    "signed-loop success uses this exact original completed defect")
+    else:
+        require(low["certificate"]["strict_low_coefficient_gate_passed"] is True,
+                "unchanged strict epsilon gate for the original low certificate kinds")
+    if low["kind"] in ("complete_R142_low193_parent_moment_continuation_v1", coercive_kind):
         prior = data("directed_prefix_actual")
         priore = data("directed_prefix_execution")
         require(prior["run_id"] == priore["run_id"] == "44730452579"

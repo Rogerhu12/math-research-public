@@ -16,6 +16,10 @@ MOMENT_TARGETS = (
     "complete_high0_return_source_without_CFB",
     "complete_actual_whole_interval_low_transversality",
 )
+COERCIVE_LOW_KIND = "complete_R149_low193_coercive_source_point_continuation_v1"
+COERCIVE_TARGETS = MOMENT_TARGETS[1:]
+COERCIVITY_KIND = "complete_R149_low193_signed_loop_coercivity_v1"
+COERCIVITY_TARGET = "complete_same_weighted_body_signed_trace_and_symmetric_part"
 WEIGHTED_KIND = "complete_actual_GH_radially_weighted_head_response_v1"
 GH5_KIND = "complete_actual_GH_Hthird_source_fees_v1"
 GH4_KIND = "complete_actual_GH_saved_Hthird_head_response_v1"
@@ -63,6 +67,19 @@ def saved_upper(api, record):
     return upper(api, api.old_interval(record))
 
 
+def saved_lower(api, record):
+    require(isinstance(record, dict) and record.get("kind") == "complete_decimal_ball_v1",
+            "whole saved directed lower scalar")
+    exponent = int(record["decimal_exponent"])
+    scale = api.rational(10**exponent) if exponent >= 0 else api.rational(1, 10**(-exponent))
+    midpoint = api.rational(int(record["midpoint_integer"]))*scale
+    radius = api.rational(int(record["radius_integer"]))*scale
+    require(api.lower(radius) >= 0, "nonnegative original saved scalar radius")
+    point = api.interval(midpoint-radius, midpoint+radius).lower()
+    require(point.is_finite(), "finite whole saved lower endpoint")
+    return point
+
+
 def admit_complete_inputs(api, low, low_execution, gh5, gh5_execution,
                           gh4, gh4_execution, D, D_execution, L, L_execution,
                           negative, weighted=None, weighted_execution=None):
@@ -72,7 +89,7 @@ def admit_complete_inputs(api, low, low_execution, gh5, gh5_execution,
     the unchanged metadata helper. No unsuccessful/early two-target R141
     result can enter this consumer. No projected-only L bound is admitted.
     """
-    require(low["kind"] in (LOW_KIND, MOMENT_LOW_KIND)
+    require(low["kind"] in (LOW_KIND, MOMENT_LOW_KIND, COERCIVE_LOW_KIND)
             and low["complete"] is True and low["proved"] is True
             and low["failure"] is None and low["actual_returncode"] == 0
             and low_execution["scientific_complete"] is True
@@ -83,7 +100,7 @@ def admit_complete_inputs(api, low, low_execution, gh5, gh5_execution,
     if low["kind"] == LOW_KIND:
         require(len(low["completed_targets"]) == 7,
                 "all seven targets of the original directed certificate")
-    else:
+    elif low["kind"] == MOMENT_LOW_KIND:
         prior = low["completed_prior_directed_prefix"]
         continuation = low["certificate"]["moment_continuation"]
         require(tuple(low["completed_targets"]) == MOMENT_TARGETS
@@ -97,9 +114,33 @@ def admit_complete_inputs(api, low, low_execution, gh5, gh5_execution,
                 and continuation["parent_actual_coefficient_enclosures_narrowed"] is False
                 and continuation["five_source_roles_and_independent_even_mean_retained"] is True,
                 "six genuine R142 targets plus the whole already certified same Green prefix")
+    else:
+        prior = low["completed_prior_coercivity"]
+        defect = low["completed_prior_low_defect"]
+        continuation = low["certificate"]["coercive_continuation"]
+        require(tuple(low["completed_targets"]) == COERCIVE_TARGETS
+                and prior["kind"] == "whole_completed_independent_R149_coercivity_success_v1"
+                and prior["completed_targets"] == [COERCIVITY_TARGET]
+                and prior["old_signed_trace_or_theta_target_recomputed"] is False
+                and defect["kind"] == "whole_completed_R142_epsilon_false_branch_v1"
+                and defect["old_HS_target_recomputed"] is False
+                and defect["old_epsilon_false_gate_retained"] is True
+                and continuation["independent_complete_R149_coercivity_consumed"] is True
+                and continuation["original_R142_epsilon_false_gate_retained"] is True
+                and continuation["old_Green_HS_atoms_trace_or_theta_target_recomputed"] is False
+                and continuation["whole_four_source_roles_and193_atoms_required"] is True
+                and continuation["point_receiver_uses_actual_defect_covariances"] is True,
+                "independent completed coercivity plus exactly four source and one point targets")
     lc = low["certificate"]
+    if low["kind"] == COERCIVE_LOW_KIND:
+        require(lc["strict_low_coefficient_gate_passed"] is False
+                and lc["strict_symmetric_part_gate_passed"] is True
+                and lc["resolvent"]["basis"] == "symmetric_part_coercivity",
+                "new explicit coercive low kind preserves the old false epsilon gate")
+    else:
+        require(lc["strict_low_coefficient_gate_passed"] is True,
+                "unchanged original contraction admission for original low kinds")
     require(lc["actual_low_hybrid_inverse_proved"] is True
-            and lc["strict_low_coefficient_gate_passed"] is True
             and lc["actual_complete_CFB_centre_proved"] is False
             and lc["actual_positive_family_inverse_proved"] is False
             and lc["original_finite_rho_bridge_proved"] is False
@@ -172,7 +213,31 @@ def admit_complete_inputs(api, low, low_execution, gh5, gh5_execution,
             and negative["complete_infinite_BVP_inverse_proved"] is False,
             "complete whole-space Robin/mean chart and all original rough seven ports")
     epsilon = saved_upper(api, lc["defect"]["body_norm_upper"])
-    require(bool(epsilon < api.one), "the same saved strict low defect gate")
+    if low["kind"] == COERCIVE_LOW_KIND:
+        symmetric, resolvent = lc["symmetric_part"], lc["resolvent"]
+        theta = saved_upper(api, symmetric["symmetric_part_norm_upper"])
+        gamma = saved_lower(api, resolvent["coercivity_gap_lower"])
+        R = saved_upper(api, resolvent["resolvent_norm_upper"])
+        require(bool(epsilon >= api.one)
+                and symmetric["kind"] == "R149_complete_weighted_body_symmetric_part_v1"
+                and symmetric["source_role"] == "true_coefficient_defect"
+                and symmetric["complete_signed_trace_of_square"] is True
+                and symmetric["whole_saved_norm_readback_used"] is True
+                and symmetric["complete_cells"] == model["refined_cells"]
+                and resolvent["kind"] == "R142_same_model_symmetric_part_resolvent_v1"
+                and resolvent["body_space"]
+                    == "original_WVC_S_weighted_ordinary_L2_dr_all193_body_coordinates"
+                and resolvent["complete_cells"] == model["refined_cells"]
+                and resolvent["strict_low_coefficient_residual_passed"] is False
+                and resolvent["strict_symmetric_part_gate_passed"] is True
+                and resolvent["actual_low_BVP_proved"] is True
+                and resolvent["symmetric_part_norm_upper"] == symmetric["symmetric_part_norm_upper"]
+                and bool(theta < api.one) and bool(gamma > api.zero)
+                and bool(gamma <= (api.one-theta).lower())
+                and bool(R >= upper(api, api.one/gamma)),
+                "whole saved symmetric coercivity/resolvent and unchanged false original epsilon")
+    else:
+        require(bool(epsilon < api.one), "the same saved strict low defect gate")
     source_bounds = {}
     for role in ROLES:
         actual = lc["sources"][role]["actual"]
@@ -183,6 +248,14 @@ def admit_complete_inputs(api, low, low_execution, gh5, gh5_execution,
                 and comparison["complete_original_panels"] == 155
                 and comparison["complete_refined_cells"] == model["refined_cells"],
                 "one whole source role with all actual observations")
+        if low["kind"] == COERCIVE_LOW_KIND:
+            require(actual["low_resolvent_basis"] == "symmetric_part_coercivity"
+                    and actual["strict_low_coefficient_residual_passed"] is False
+                    and actual["strict_symmetric_part_gate_passed"] is True
+                    and all(actual[key] == lc["resolvent"][key]
+                            for key in ("symmetric_part_norm_upper", "coercivity_gap_lower",
+                                        "resolvent_norm_upper", "comparison_defect_body_upper")),
+                    "each completed source uses the same whole original saved resolvent")
         source_bounds[role] = {"body": saved_upper(api, actual["actual_body_norm_upper"]),
             "atoms": saved_upper(api, actual["actual_atoms193_norm_upper"]),
             "complete": saved_upper(api, actual["actual_complete_source_norm_upper"]),
