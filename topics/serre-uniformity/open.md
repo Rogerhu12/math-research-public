@@ -50,7 +50,7 @@ R969公开三点113/131/227得到全mask rank10/11/19、A/E4组合及额外两q�
 
 [R1016](results/R1016-original-small-index-theta-and-complete-convolution-units.md)：原index1/2下降给σ、σ²的i+j=N完整卷积在全部T⁻单位；norm3准确返回U。U_(N−1)零集：11mod12为空，5mod12恰η⁶=−1六点。补充§7.1以真实Gaussian norm-p同源和J66给r8所需正确层U_(N−2)在这六点单位；η=±i时U_(N−2)/U_N=−25a¹²/(9B¹²)。核像/frame/Wilson常数全核。仍非单个高系数或完整bare差的单位，原primitive/Legendre不删。
 
-[R1015](results/R1015-original-class-two-Poincare-projection-and-balanced-triangular-bridge.md)：同一norm7双Poincaré源的Π2×Π2完整投影=C22 U⊗U，U=x²σ⁶、C22=−18s/ᾱ。完整有限卷积给C22 u_ℓ²=D_n c_n^-+R_n，n=6ℓ+3，D_n=6(α^n−ᾱ^n)/ᾱ；余项保全部pole且每单核总阶≤2n−7。两原行D/C分别6/49、342/7⁸，逐项首p整性已核。原高非零准确要求u_N²−R_(p−2)/C或u_(N−1)²−R_(p−8)/C非零，仍开；不得删完整R。
+[R1015](results/R1015-original-class-two-Poincare-projection-and-balanced-triangular-bridge.md)：同一norm7双Poincaré源的Π2×Π2完整投影=C22 U⊗U，U=x²σ⁶、C22=−18s/ᾱ。完整有限卷积给C22 u_ℓ²=D_n c_n^-+R_n，n=6ℓ+3，D_n=6(α^n−ᾱ^n)/ᾱ；余项保全部pole且每单核总阶≤2n−7。两原行D/C分别6/49、342/7⁸，逐项首p整性已核。原高非零准确要求u_N²−R_(p−2)/C或u_(N−1)²−R_(p−8)/C非零，仍开；不得删完整R。 §5.1现将完整余项准确降为原首sigma块的A_r+B T_r，c_(p−r)=−A_r−B T_r；regular与移位阶乘三重carry均保，r8层为N−2，未冒认C_(N−2)。
 
 [原除p坐标](notes/2026-11-26-original-high-coordinates-in-divided-Ramanujan-polynomial.md)：实际整多项式𝔅_p=(R^(p−1)E+E^p−E_(p−1)E_(p+1))/p给c_(p−r)±=r!12^(r−1)[E^r]𝔅_p(E,0,±864)。r2标量24、r8为8!12⁷，正E坐标不依纯modular升换；仍未证非零。新theta-cycle filtration不能代指定CM读数；BKO2025精确估值只对wild塔角色和Λ生成元，不能搬到原tame U₇。继续同一高坐标的实际来源。
 

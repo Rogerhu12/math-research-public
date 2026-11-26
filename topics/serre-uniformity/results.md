@@ -12,7 +12,7 @@
 
 - **R1016（已证明）**：[R1016](results/R1016-original-small-index-theta-and-complete-convolution-units.md)：原index1/2下降给σ、σ²的i+j=N完整卷积在全部T⁻单位；norm3准确返回U。U_(N−1)零集：11mod12为空，5mod12恰η⁶=−1六点。补充§7.1以真实Gaussian norm-p同源和J66给r8所需正确层U_(N−2)在这六点单位；η=±i时U_(N−2)/U_N=−25a¹²/(9B¹²)。核像/frame/Wilson常数全核。仍非单个高系数或完整bare差的单位，原primitive/Legendre不删。
 
-- **R1015（已证明）**：[R1015](results/R1015-original-class-two-Poincare-projection-and-balanced-triangular-bridge.md)：同一norm7双Poincaré源的Π2×Π2完整投影=C22 U⊗U，U=x²σ⁶、C22=−18s/ᾱ。完整有限卷积给C22 u_ℓ²=D_n c_n^-+R_n，n=6ℓ+3，D_n=6(α^n−ᾱ^n)/ᾱ；余项保全部pole且每单核总阶≤2n−7。两原行D/C分别6/49、342/7⁸，逐项首p整性已核。原高非零准确要求u_N²−R_(p−2)/C或u_(N−1)²−R_(p−8)/C非零，仍开；不得删完整R。
+- **R1015（已证明）**：[R1015](results/R1015-original-class-two-Poincare-projection-and-balanced-triangular-bridge.md)：同一norm7双Poincaré源的Π2×Π2完整投影=C22 U⊗U，U=x²σ⁶、C22=−18s/ᾱ。完整有限卷积给C22 u_ℓ²=D_n c_n^-+R_n，n=6ℓ+3，D_n=6(α^n−ᾱ^n)/ᾱ；余项保全部pole且每单核总阶≤2n−7。两原行D/C分别6/49、342/7⁸，逐项首p整性已核。原高非零准确要求u_N²−R_(p−2)/C或u_(N−1)²−R_(p−8)/C非零，仍开；不得删完整R。 §5.1现将完整余项准确降为原首sigma块的A_r+B T_r，c_(p−r)=−A_r−B T_r；regular与移位阶乘三重carry均保，r8层为N−2，未冒认C_(N−2)。
 
 - **R1014（已证明）**：[R1014](results/R1014-original-CM-divisor-reduction-and-Igusa-Frobenius-principalization.md)：p>37、p11mod12时原X₁的compact-type纤维上red((p−1)D₀)=0，任实际商β同样成立。三个DL尾用div x=2Q−2∞；Igusa中心必须取真实b、a=b^p，G(b)^p=F(a)、divG=m(2s₁−sζ−sζ²)，m=(p−1)/2。全图是树，全部分量类均保留；因此β可减唯一(p−1)挠提升进入形式群，log无需除p。真实首lift的内在变形/节点过渡与商投影仍开，不能只用G²局部项宣布两列独立。
 

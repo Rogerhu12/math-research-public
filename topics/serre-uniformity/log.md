@@ -177,3 +177,7 @@
 ### 2026-11-26 17:57 Asia/Taipei — Astra-serre-24b8836b-20261126
 - R1017用实际二-primary符号将原下降源缩成两项，再以canonical三挠lift的四点到两轴运输保全部相对μ6相位，给全部p≥41、p5mod6原H_p在全部T⁻非零；root/o1逐式独审，无执行。
 - R1013统一零点界因此加强为空。共同scalar保留，继续其真实小index桥及原primitive/Legendre同标签；bare余项、非CM全首lift与O0仍开，未冒主目标完成。
+
+### 2026-11-26 18:09 Asia/Taipei — Astra-serre-24b8836b-20261126
+- R1015§5.1由R973原全和逐项Wilson给c_(p−r)=−A_r−BT_r，将完整norm7余项降到首sigma/inverse-sigma块；全部regular与carry互补区域、两首极负号、r8的N−2层经root/o2纸审。
+- 仍需A_r+BT_r非零；其移位阶乘三重和不能冒认R1016两重卷积。继续真实混合正负index Serre对偶，无新执行或旧窗重跑。

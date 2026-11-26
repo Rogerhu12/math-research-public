@@ -246,6 +246,86 @@ R984 正文使用 \(E_+\)。这里仅为整性结论作已固定的 \(E_+\leftri
 \]
 所有余项都是 (1015.9) 的指定实际有限卷积。
 
+### 5.1 完整余项降到原 sigma 首块：保 regular 与 carry 两部分
+
+本节在原 \(E_-\) 上约化，固定原单位
+\[
+B=(-1)^{N+1}\binom{3N+2}{2N+1}\in\mathbf F_p^\times.
+\]
+它是 R973/R574 的原首极常数，不是 R990 的 Jacobi 多项式。
+为避免与 (1015.2) 混淆，另写
+\[
+\sigma/z=\sum_{j\ge0}s_jz^{6j},\qquad
+(\sigma/z)^{-1}=\sum_{j\ge0}e_jz^{6j}.
+\]
+取 \(r=2\) 或 \(8\)，按 (1015.13) 令
+\[
+\ell=(p-r-3)/6,\qquad M=2\ell+1,\qquad
+L=2\ell-N=
+\begin{cases}N,&r=2,\\N-2,&r=8.\end{cases}
+\]
+定义以下两个完整有限和：
+\[
+\begin{aligned}
+A_r={}&
+\sum_{\substack{0\le u,v\le\ell\\u+v\ge L+1}}
+ (6u+r-2)!(6v+r-1)!\,
+ [6(M-u-v)+1]!\,e_u e_v s_{M-u-v},\\
+T_r={}&
+\sum_{u+v+h=L}
+ (6u+r-2)!(6v+r-1)!(6h+2)!\,e_u e_v s_h .
+\end{aligned}
+\tag{1015.A1}
+\]
+第二和的指标均为非负整数；因为 \(L\le\ell\)，它自动满足原
+\(u,v\le\ell\)。第一和有 \(1\le M-u-v\le N\)，第二和所有
+sigma/inverse-sigma 下标也不超过 \(N\)。所有阶乘的指标都小于 \(p\)。
+因此仅需原首个整块，无未知高整系数。
+
+准确恒等式为
+\[
+\boxed{\qquad \overline c_{p-r}^-=-A_r-BT_r.\qquad}
+\tag{1015.A2}
+\]
+证明直接消费 [R973 原完整源](../notes/R973-original-balanced-Kronecker-four-prime-execution-method.md)
+(973M.7)–(973M.13)，不重新执行其有限窗口。
+在该式中令 \(j=M-u-v\)、
+\(k=p+1-r-6u\)、\(l=p-r-6v\)，则
+\(k+l=6j+1\)，\(0<k,l<p\)，\(k\) 偶、\(l\) 奇。
+Wilson 给
+\[
+\frac1{k!\,l!}=-(6u+r-2)!(6v+r-1)!\pmod p.
+\]
+若 \(j\le N\)，直接得到 \(-A_r\) 的相应项。
+若 \(j=N+1+h\)，则原首极块和整数阶乘分别给
+\[
+p s_j=-B s_h,\qquad
+\frac{(6j+1)!}{p}=-(6h+2)!\pmod p.
+\]
+这两负号相乘，再乘前述 Wilson 负号，准确得到 \(-BT_r\)。
+两种情况是原矩形的完整分拆，没有删除 regular 部分。
+
+结合 (1015.15)–(1015.16)，也得到原 norm-seven 完整余项的表达
+\[
+\boxed{\begin{aligned}
+\frac{\overline R_{p-2}}{\overline C_{22}}
+ &=\overline u_N^{\,2}+\frac6{49}(A_2+BT_2),\\
+\frac{\overline R_{p-8}}{\overline C_{22}}
+ &=\overline u_{N-1}^{\,2}+\frac{342}{7^8}(A_8+BT_8).
+\end{aligned}}
+\tag{1015.A3}
+\]
+所以原双核卷积可用 (1015.A1) 的原首块有限和计算；
+本节仍没有证明 \(A_r+BT_r\ne0\)。
+
+特别，R1016 §7.1 的 \(\mathcal C_{N-2}\) 是
+两个 \(\sigma^2\) 因子的卷积，(1015.A1) 的 \(T_8\)
+则是带三个移位阶乘的
+inverse-sigma / inverse-sigma / sigma 三重卷积，且尚有
+\(A_8\)。不能因下标同为 \(N-2\) 就将二者认同。
+root 与 o2_high_coefficient 已独立核准全指标、首极块的两个负号和
+Wilson 符号；无数学执行。
+
 ## 6. 与原非零任务的关系
 
 R1001 的 \(\Pi_4\boxtimes\Pi_0\) 投影恢复原 \(F\boxtimes G\)。
