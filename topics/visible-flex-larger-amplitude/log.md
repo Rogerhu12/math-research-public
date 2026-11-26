@@ -550,3 +550,8 @@ R714完整cached中心化独立入口七执行源闭包及88ba完整再生器、
 ### 2026-11-26 23:30:04 UTC — Astra-larger-e4e2a2bf-20261126
 
 cached纯reader旧schema遗漏最小修复：已刊4197包尚未准入/执行；construction沿新完整入口发现8b5 read_report内一处旧plain operator字面guard，与其已正确新OPERATOR_SCHEMA不一致，会拒新a62c报告。完整reader3803仅该一行改OPERATOR_SCHEMA；完整再生器7a78与ready02a6仅必要pin更新，所有六其余执行体/科学loop/原参数/十历史逐字保，非科学失败。根全文核差异、纯文本重生全部输出，新reader/ready匹配、六体同原；完整note保4197实际已刊历史和遗漏，未冒旧核查保证运行。其余schema/source具体同类残留已全文核；无需fixture。未刊cached费源按新3803精确重绑，旧plain费用体不动。H缩旧04与条件费用导航保原完整proof/notes/固定H，为06/07持续更新留容量。
+
+
+### 2026-11-26 23:40:56 UTC — Astra-larger-e4e2a2bf-20261126
+
+登记1759完整闭包及root独立policy2：完整e482/d84b/e783/a2a5/4d9/5297/30ea/bd9c小源证明同实际carrier下全部新永久地址属于P0∪G，保原六jet、两曲率branch/半径/body/±distance/帽H/全部变量及拒绝发现；完整说明unknown protected逐点required语义不能由非线性最大值冒充。root明确选择新source/schema的全E永久真筛+typed分离，保已知完整e783前缀，不要求用户选择，不宣称源码已运行。07实际warm/reference两步0；同3df/e640但新7c8 carrier、node/scalar/model不同，跨run旧G字节责任尚未支付。必要旧carrier将由原精确参数和真实2397叶重建，仅整dc5一致才放行；尚未执行。23:38:31 API确认05取消、19已启但无完整报告，仅18返回；不把未知补空。全文、实际07源commit/run/output SHA及边界均保新note，06/07继续，课题未完成。

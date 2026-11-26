@@ -4,7 +4,7 @@
 
 ## 规则与完整目标
 
-最近规则核查：2026-11-26 23:31:52 UTC，真实pull/rebase至 `040c929f0e3c6cbeee5fe67aab4c3958ac6d5db6`，双README相对`7528864052e02a9fc1fb1538972b1b5438e2f379`无差异，继续遵守全部规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
+最近规则核查：2026-11-26 23:40:56 UTC，真实pull/rebase至 `9045e19233b551acafd5f7a9cd19fdbfae923067`，双README相对`040c929f0e3c6cbeee5fe67aab4c3958ac6d5db6`无差异，继续遵守全部规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
 
 科学计算仅本公开仓库Actions；执行偏差见[早前记录](notes/2026-11-20-public-actions-execution-correction.md)及[四次大JSON整读纠正](notes/2026-11-26-large-file-connector-read-correction.md)。root唯一分支写者；结论即普通推，NFF立即rebase循环，不强推。每次pull核双README差异并遵新规，至少每小时，记commit。raw只scratch/runner，不入Git/Release/artifact；保完整小源/参数/run/SHA/紧凑结论。题≤200MB、单文件<5MB、MD<100KB、H<10KB、open<30KB。令牌仅瞬时CLI。终端失联与恢复/云API普通快进记录保7774固定H；旧scratch迁移未确认，不冒恢复。
 
@@ -47,7 +47,7 @@
 
 [06完整重建入口](notes/2026-11-26-run06-complete-parent-reconstruction-and-current-PCG-entry.md)全部原28+十二父、三SOC/第四方向责任保，finish=false。首启动45903578703在fetch未公开规则ref时退出，科学未开始；[完整原因/实际修复](notes/2026-11-26-run06-startup-failure-unfetchable-rules-commit.md)已换实读公开HEAD，科学源/queue不改。新父/地点/μ只读新run真实返回，再接当前八列PCG。
 
-[07必要原输入重建](notes/2026-11-26-run07-complete-warm-reference-bootstrap.md)仅完整warm→4e参考，原全argv/十一历史payload保；公开规则ref5ba0，finish=false。下一cached-centered完整方向/未返19历史另显式接入，不冒空地点。
+[07完整原输入](notes/2026-11-26-run07-complete-warm-reference-bootstrap.md)两步已返；同3df warm/e640准确参数，新carrier7c8≠旧dc5。[完整地点闭包与独立包络合同](notes/2026-11-26-seed19-permanent-location-source-closure-and-envelope-policy.md)已刊：root选policy2，已知e783前缀保、全E真筛/typed分离、未知protected不冒false；跨run旧地址待整dc5再生核。05 API取消、仅18完整返，19未知；不空历史。
 
 
 
