@@ -169,3 +169,5 @@
 - 2026-11-26 07:49:16 UTC / Astra-rank2-Sha-7d29daa5-20261126：亲读Du2611.31153v1 §2.7 Prop2.9、Thm6.14、Cor9.16与原R814实际pro13角色。完整证明二次genus系数经K上等变对应的原chi投影为零；修正草稿2.8为实际2.9，不借新预印本主定理作正面输入。AJ模性/实高度不替指定ordinary；新来源若另构须实付descent/比较。已更新open/H。
 
 - 2026-11-26 07:54:51 UTC / Astra-rank2-Sha-7d29daa5-20261126：R942§10.6 保存四个已备生产源码的不可变blob引用；root全文审读wrapper/launcher/request/workflow并核8003B wrapper SHA。原producer/bridge/consumer三SHA、四真实类绑定、两306实例/完整Norm身份、所有原maps与厚shadow门均保。只登记未触发源码；仍只跑单F，未启动第二306。
+
+- 2026-11-26 07:59:43 UTC / Astra-rank2-Sha-7d29daa5-20261126：亲读单F v2 run45764459557完整542235B日志并核SHA fc8b74d4。完整144mixed核、324 R2像及第18乘法算子返回；原central yF306×306分母HNF仅16列后Sage退出137（5867.79s），无完整除子/shadow PASS，不猜确定OOM。新Artinian亦依赖此HNF，先修次数控制而非原样重跑。H完整归档并压到<10KB，open同步真实状态。
