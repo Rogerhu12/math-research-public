@@ -705,3 +705,5 @@ R208完整注入组e297410f：同3态由J30/K7/N64的932维插1/20、7/20、5/12
 - 2026-11-26 10:48 UTC｜Astra-visible-flex-6a65e705-20261126：M12同g第二档run45802097600真success/438.416s，独立G10/N1536 metric4.63936e−10、κ5.1127246793；LSMR1600仍stop7。新请求仅同空间上限6400，增加正规残差等原生诊断，保持全部物理源与参数，等待真实执行。
 
 - 2026-11-26 10:51 UTC｜Astra-visible-flex-6a65e705-20261126：[新gap短窗完整消费器](notes/2026-11-26-6a65-geometry-cauchy-short-window.md)显式两端完整C2/自然周长两jet/实际后段与真cuff；仅两次新zero接口probe真0，不借CI状态。端迹通过、角mixed FD2.11e−7限制如实保留，正式实际输入仍需同job重算。
+
+- 2026-11-26 10:52 UTC｜Astra-visible-flex-6a65e705-20261126：[强支完整Cartesian点链](notes/2026-11-26-6a65-solver-strong-cartesian-complete-interface.md)实际16点×13行/两τ/1412同源标量核对真0；对原R191/R210差≤1.70e−15、J/JT≤2.70e−16。保完整Gram第三行、曲率及全部七几何行，非真实曲面baseline/接受；完整stream与同job消费继续。

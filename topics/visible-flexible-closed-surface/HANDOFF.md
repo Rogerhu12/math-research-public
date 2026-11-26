@@ -7,7 +7,7 @@
 
 完整连通闭C2嵌入族、共同g和固定握持开区域；全曲面D下held/D≥.05、含反射δE>0、全时reach/D≥.03、全域全时metric≤1e−6，并支付同一g/全部物理参数下真加密到求解容差及可复现完整网格。基础之后继续held/D≥.2、δE/D≥.05或严格存在。本题尚未完成。
 
-- 根/课题README完整读于 `f0548477576caa2373d1626227a284ccfa9767d0`；接手真实pull在05:16UTC成功。最近已读公开提交 `30191cb71fd5c74fb68c07a28b95680cb169a132`（2026-11-26 10:51 UTC真实pull/rebase后，双README逐差均无变化）。每次真实pull后核两README差异，至少每小时；有变只读差异立即执行。本轮各次均无差异。
+- 根/课题README完整读于 `f0548477576caa2373d1626227a284ccfa9767d0`；接手真实pull在05:16UTC成功。最近已读公开提交 `80433e9fc373d18b9f0d6ff3b6e3216f9691f054`（2026-11-26 10:53 UTC真实pull/rebase后，双README逐差均无变化）。每次真实pull后核两README差异，至少每小时；有变只读差异立即执行。本轮各次均无差异。
 - 私库根规矩完整读；QUEUE认领已推 `c7785184d0d9c503852fb2137e9e2c091221d080`，状态进行中（本会话/2026-11-26）。认领推拒均即时pull/rebase再推成功。
 - 每结论分条commit/push；推拒立即pull --rebase循环，不强推、不amend已发布提交。完整证明直接登记；不回到旧独审/冻结手续。可重算数组不进Git/Release/artifact，只存源码、参数、run/hash。单MD<100KB、H<10KB、课题<200MB；不写根LOG。令牌只在命令进程环境。
 - 部分克隆 `/tmp/visible-flex-6a65e705/math-research-public`；同级 `solver-work/geometry-work/exact-work` 保存raw。/workspace空间不足，勿将大数组放回。05:47和09:18两次失盘；09:38已重新部分克隆、真实pull。旧本地raw/未公开源均失，不借旧字节身份；第二次中断及恢复见[真实回执](notes/2026-11-26-6a65-cauchy-same-job-recovered-transition.md)。
@@ -48,6 +48,8 @@ CI每次literal pull在首行marker记SHA；publisher只合并该行，保root�
 [原M12真全半体入口](notes/2026-11-26-6a65-m12-entire-half-cold-entry.md)已备：同g/R223图，362元35378列2859个exact-tail查询，r=.6内端口自由，真cuff两jets固定。prepare真0/8.879s；原末两span全部141系数精确三迹及Cartesian六jets核对真0/7.165s。独立whole run45803041361/job139850937322/source93721721已实际进入精确查询/全求解；尚无结果，不借prefix。
 
 [新gap紧支撑全两jet窗](notes/2026-11-26-6a65-geometry-cauchy-short-window.md)已实现：只在[b,b+.2]改真实位置，窗外直接原全尾/A/Z；自然周长改g，不缩放几何。两次明确zero接口probe真0，左右完整迹通过，内部mixed角FD仍2.11e−7（256求积），不能当真CI新baseline或连续证书。
+
+[完整Cartesian点算子](notes/2026-11-26-6a65-solver-strong-cartesian-complete-interface.md)已实际真0：13行含全Gram四次/曲率/7几何，1412标量对原R191/R210相对差≤1.70e−15、伴随≤2.70e−16；合成点不是完整曲面。J80×97全proper-half-turn基及实际源固定g接口已推导；全stream/真实LM仍在接。
 
 ## 继续顺序
 
