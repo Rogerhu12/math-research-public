@@ -88,13 +88,16 @@ R513同类cap排除、R518固定宽接口、R520/524/527/529原20母的返回障
 
 恒真高度且该段单独保p1/p2增量0时不能补负r1，此为限定策略障碍，非一般不可达。三p/t1清后，r1原/中心值仍可能差−ωc S1；全五槽变换与实际端映射Schur导数均明确，但后继控制族、满秩及同χ合法/germ仍待真正构造。该身份直接约束R556剩余四矩修复，不重复核验或撤销R552/R556已成范围。
 
-### 新R566硬几何/动态径向计算
+### O2 当前真实末态与连续角峰续接
 
-[完整实现与新输入](notes/2026-11-26-hard-geometry-exchange-implementation.md)已发布；两lane为原平行椭圆B.30/.38但fresh log-radius−.35/h.62，接实际振荡尾。所有球/条带/主曲率/高度/均E/行列式/镜像必要行保留，PhaseI只以σ未覆盖峰交换，PhaseII在完整fine几何可行内降η。[首run原终态](notes/2026-11-26-hard-exchange-first-run-restoration.md)已完整闭账：16外层全在恢复，fine V=.0058134/.0027596、κ16.4887/16.4387，Ebar/det谷底已受控但ball/strip仍略超，0metric阶段/OptimizeResult。[已识别末态续接](notes/2026-11-26-hard-exchange-identified-continuation.md)已发布：原81q/已付节点/trust逐项对原stdout核验；微小漏峰进入pending、后端返回时批量交换，仅显著缺口即时重启。120外层/80步、257×768容量、2400秒科学检查点；不重做fresh16轮，不放宽原门。[续接原终态](notes/2026-11-26-hard-resume-first-metric-progress.md)已付：B030 V=.00054365仍恢复；B038真实过fine几何并71次metric改善至η=.86360747，未达1e−6。两lane都以未采用的1536角提议超过768容量结束。[新联合预算及分块Jac](notes/2026-11-26-joint-budget-block-jacobian-implementation.md)已发布：R1.012/Y.3928/τ.06072保持主比例，新trust=.5明记，原末状态/实际及pending网格分开，B038实际纳1536角；本次首方向核对在Actions实际收费执行。新[连续θ峰接口](notes/2026-11-26-continuous-theta-peak-oracle-design.md)分开FFT积分网与真实约束峰角，保原完整Ebar/参数导数及求积误差；当前是明确后继设计，未改在途源。仍欠固定g精化和连续全闭reach。
+[原入口与全部已闭前史](notes/open-o2-before-continuous-angle-20261126.md)逐字保v2/hard/识别续接、各固定门、来源q和实际/提议网格。最新联合预算仍R1.012/Y.3928/τ.06072，不修改旧run资格：
 
-[联合预算B030原终态](notes/2026-11-26-joint-budget-b030-first-metric-receipt.md)已独立闭账：完整新预算重建确过门后，真实fine η2.089589→.939818940292，V=0、κ16.452596，241×3072 fine；181.995016962新科学秒。真实119×1536、末119×3072提议未采用，仍角容量终态且无OptimizeResult。保此q/全部实际及pending点续接连续角峰；B038必须读自己的原终态，不混账。
+- [B030原终态](notes/2026-11-26-joint-budget-b030-first-metric-receipt.md)：181.995016962新秒，241×3072 fine V=0、η=.939818940292、κ16.452596；实际119×1536，119×3072仅末提议，无OptimizeResult。
+- [B038原终态](notes/2026-11-26-joint-budget-b038-metric-and-peak-cap-receipt.md)：848.448631589新秒，243×3072 fine V=0、η=.853614316555、κ16.452787；实际121×1536/trust1/64，122×3072未采用，末后端自然success46步。前五外层细峰重启无接受，缺coarse违约日志，不能臆判单一原因。
 
-[另一圆核设计入口](notes/2026-11-26-circular-core-continuation-implementation.md)单独发布：先在p=q=.18/offset.2只解17径向变量的几何，再以p同伦解锁81变量、逐阶段重新求完整门。其η0起点不付非圆分支；若小p步残差保持线性阶，转实际外端共振/seed，不以加迭代替代。所有p变化是换设计g，非同g弯曲。[首启动原失败](notes/2026-11-26-circular-entry-angular-guard-failure.md)发生在16角违反Model最小20保护处，尚无几何结果；新v2以32角/fine64首次真正执行，原模型/门/17变量策略不改。
+[连续θ峰接口](notes/2026-11-26-continuous-theta-peak-oracle-design.md)已转独立实现：真实峰角与FFT求积分开，Ebar保持完整角积分；完整fine接受门不放宽，当前约束违约与细网遗漏分开记录。用上述真实末q/全实际及pending径向续接，绝不复跑初轮。峰定位、FFT误差、连续空间覆盖和全点对reach仍为不同门；g尚在设计。
+
+[圆核入口](notes/2026-11-26-circular-core-continuation-implementation.md)先仅17径向变量再变p解81变量；[首启动失败](notes/2026-11-26-circular-entry-angular-guard-failure.md)已修32角/真实guard，新run45778418134只待原终态。圆核η0不授非圆共振分支，阶段η1e−4非完成门，p变化非同g弯曲。
 
 ### R569：同一固定振荡尾已有真实线性种子，继续非线性与外端匹配
 

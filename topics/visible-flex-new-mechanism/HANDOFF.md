@@ -6,7 +6,7 @@
 
 ## 1. 规则与接手
 
-已部分克隆并实际 `git pull main`，公开根 README、课题 README、HANDOFF、open、results 索引及相关 log/notes 已读。公开已读提交 **d7f43f8aac1121a35cf732fd97090d87bd16e581**（2026-11-26 08:04 UTC；本次实际pull后根/题README空差异）；私有根初读 **85fdf1853367ef25c07f3ebdb6ae25c22a3564b8**，随后逐次 pull/rebase 检查根差异，空差异。私有 QUEUE 的本题已改为本会话进行中并成功推送：**9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7**；最后实际pull及规则同blob读至 **d6fc2f5c519bd5481b5e0ef67fca1c08c7b6eb9a**（2026-11-26 07:21 UTC；实际pull/rebase后根README空差异、QUEUE仍本会话）。其它课题的并行认领保留。
+已部分克隆并实际 `git pull main`，公开根 README、课题 README、HANDOFF、open、results 索引及相关 log/notes 已读。公开已读提交 **8f0c9a4c66964287ecc8a4fdd1e34a7474d8ceb6**（2026-11-26 08:08 UTC；本次实际pull后根/题README空差异）；私有根初读 **85fdf1853367ef25c07f3ebdb6ae25c22a3564b8**，随后逐次 pull/rebase 检查根差异，空差异。私有 QUEUE 的本题已改为本会话进行中并成功推送：**9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7**；最后实际pull及规则同blob读至 **4f7e1d119bd02b0b37fe4d2d409a4f88c6a96a9e**（2026-11-26 08:06 UTC；实际pull/rebase后根README空差异、QUEUE仍本会话）。其它课题的并行认领保留。
 
 各原观察note保真实双仓pull/规则blob/QUEUE回执；根/题规则均无变化。盘满和失联恢复原记录保于[先前交接](notes/HANDOFF-before-hard-restoration-20261126.md)，本次压缩前全文保于[几何转向前交接](notes/HANDOFF-before-compact-geometry-20261126.md)。API读取不冒git pull。
 
@@ -37,14 +37,15 @@
 
 [硬几何首run](notes/2026-11-26-hard-exchange-first-run-restoration.md)与[原门识别续接](notes/2026-11-26-hard-resume-first-metric-progress.md)完整闭账：B030末V=.00054365/η2.089589，B038首次fine可行并降η至.86360747；均止于未采用1536角超过原768容量。实际原q/网格/trust保，原资格不因新预算改判。
 
-[联合预算/分块Jac](notes/2026-11-26-joint-budget-block-jacobian-implementation.md)改R1.012/Y.3928/τ.06072，仍支付原比例；新trust=.5及每16方向AD明确。[B030实际终态](notes/2026-11-26-joint-budget-b030-first-metric-receipt.md)run45777140827/job139763424593新增181.995016962秒、方向差3.81e−10：241×3072 fine的V=0、η=.939818940292、κ16.452596、球1.01043031、y.38901204。真实119×1536约束、3072仅末提议，12外层后容量终态，无OptimizeResult；B038另读自身原终态。[连续角峰接口](notes/2026-11-26-continuous-theta-peak-oracle-design.md)已登记，正实现独立源：分开FFT求积/真实约束角/径向覆盖，Ebar仍完整角积分，求积误差和连续证书另付。所有点值几何可行均非全闭reach，g尚未冻结。
+[联合预算/分块Jac](notes/2026-11-26-joint-budget-block-jacobian-implementation.md)改R1.012/Y.3928/τ.06072，仍支付原比例；新trust=.5及每16方向AD明确。[B030实际终态](notes/2026-11-26-joint-budget-b030-first-metric-receipt.md)run45777140827/job139763424593新增181.995016962秒、方向差3.81e−10：241×3072 fine的V=0、η=.939818940292、κ16.452596、球1.01043031、y.38901204。真实119×1536约束、3072仅末提议，12外层后容量终态，无OptimizeResult；[B038原终态](notes/2026-11-26-joint-budget-b038-metric-and-peak-cap-receipt.md)新增848.448631589秒：243×3072 fine V=0、η=.853614316555、κ16.452787；实际121×1536/trust1/64，122×3072未采用。末后端自然success46步；前五次细峰重启无接受，旧log未读coarse违约故不臆判原因。[连续角峰接口](notes/2026-11-26-continuous-theta-peak-oracle-design.md)已登记，正实现独立源：分开FFT求积/真实约束角/径向覆盖，Ebar仍完整角积分，求积误差和连续证书另付。所有点值几何可行均非全闭reach，g尚未冻结。
 
 
 ## 4. O4 两个不同母库的有效入口
 
 **33母（保原20/cap/13与一次固定χ）**：R533–560已付真返回层、双保持及p1/p2端图，净t1仍负。原所有范围/失败见上述完整交接与open；下一同一完整F/history的长程变高度净正t1，余矩/pose/period仍欠，不跨接R521母。
 
-**R521正交母（不继承33母的原20/cap/13）**：R544–R563的同χ真实历史、慢快桥及限定尺度号障碍保持。新[R564](results/R564-negative-coupling-crossing-and-seven-exact-moments.md)在Ck>0下跨B零点，保完整真实端控/history清七矩；[R567](results/R567-complete-next-order-history-and-eight-exact-matrix-moments.md)完整次阶消项及共同4+1+2端图再清第八矩，原m=A=0。[R568](results/R568-even-end-germs-and-real-second-third-return.md)改真实末开控制并重解八矩，支付双端偶germ，PP^R准确闭scalar/全m/A/T。[R570](results/R570-neutral-residence-pose-and-real-four-piece-return.md)在八矩纤维以恒总驻留的有限词和首高尾真实位移支付两pose条件，(PP^R)²准确闭scalar/frame/位置/A/T。整个第四仍4V_P，同13/有限闭面继续；原限定族正R0/S1边界不撤。[R572](results/R572-odd-map-mother-and-all-actual-packet-total-fluxes.md)从起点以一个ψ×偶多项式球面奇映射选同母，准确清Λ(U)、有限仿射环境E的raw self及固定R521图全部实际微包总通量。非零χ在A=T=0时整周期等canonical∈E；不虚授偶germ属于常germ的U。整个period/内部partial/同13仍未清。
+**R521正交母（不继承33母的原20/cap/13）**：[R567](results/R567-complete-next-order-history-and-eight-exact-matrix-moments.md)保同χ真实history/跨带/完整次阶清原八矩，m=A=0；[R568](results/R568-even-end-germs-and-real-second-third-return.md)付双端偶germ，PP^R闭scalar/m/A/T。[R570](results/R570-neutral-residence-pose-and-real-four-piece-return.md)再付真实pose，使(PP^R)²闭scalar全jets/frame/位置/A/T，但第四仍4V_P。[R572](results/R572-odd-map-mother-and-all-actual-packet-total-fluxes.md)从起点奇映射选同一母，清自然Λ(U)、环境E的raw self和R521全部微包总通量；非零χ的A=T=0周期等canonical∈E。whole period/内部partial/同13未清；R573又限制原分离尺度几何。前史所有限定结论仍保于完整交接/各R原文。
+
 
 R555余五槽的真实Gram/有序面积身份继续有效；R526的倒行完成仍以实际M0/K0块为前提；R517周期scalar自动M0仍以真正合法周期轨道为前提。所有“尚未付”的端口不因下游条件定理自动消失。
 
