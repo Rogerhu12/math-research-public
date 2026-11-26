@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R150 秩一V的三重均值极线乘二次余因子完整分类（2026-11-26，已证明）：** [完整原梯度、全部射影边界和特征零证明](results/R150-appendix-rank-one-third-cumulant-three-plus-one-plus-one-mean-divisor-classification.md)把 $P_y\propto\Delta_s^3(q_s/\Delta_t)$、$q_s(t)=0$ 的全部临界点分类为 $s=t\in\{0,2,-6,\infty\}$ 的真临界族；各族完整 $T_3=0$。恢复旧run44737710336单标签原输出，完整368阶mod1009行列式774及全部边界门均非零；未重跑已付计算，不扩大为全rankV1或普通ISP。
+
 - **原算子全部非零闭不变子商的移位相似障碍（2026-11-20，已证明）：** [完整弱逃逸及交织成本证明](results/R12-appendix-shift-similarity-subquotients-and-intertwiner-power-cost.md)由原二幂弱极限I/2排除与任意重数严格分级移位及有限维块直和的有界相似，包含全部标量加权置换；任何非零双向有界交织强制二幂范数比趋∞。补R105仅酉范围，不排未知shift parts，不解决普通ISP。
 
 - **R150 全ess4外均值分支的原长度五代数（2026-11-20，已证明）：** [唯一原除子、全秩缺陷与完整方程](results/R150-appendix-essential-four-outer-mean-length-five-algebra-and-rank-defects.md)从Cat3及原Hankel差分推出唯一长度五曲线除子、完整合流jets和同一Frobenius代数，非单位L亦保精确y/H/V/T3。H仅rank3/4/5，所有缺陷与七分拆的完整中心奇点均已分类；全秩时原低梯度N非零。原highest及全部low gradients仍需同时满足，不判Bell非零层空，不扩及y∈W或ess5/6。

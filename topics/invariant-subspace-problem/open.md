@@ -28,7 +28,7 @@ rank$H=4$ 的非单位局部块长度5、4、3已排；长度2单零的三种单
 
 全部 ess$T_3\le3$ 已给 matched Bell 零；原 $W_\pm$ 上确有 Cat3 真临界点，不能把 Cat3 整层判空。Bell 非零只可能在 V≠0 且 ess4/5/6。原两原子开集的例外和有限32全参数模型仍按原范围，不能先删 $D=0$ 或合流。
 
-**一般V非零的新增秩一分支：[自身五重均值极线整支为空](results/R150-appendix-rank-one-third-cumulant-quintuple-mean-at-own-point-exclusion.md)。** 一阶展平rankV1给原V=v u(s)³；原highest迫P_y非零且整除k_s³。P_y∝Δ_s⁵这一完整支已由原QQ十七低梯度、十六最高式、degree80/单位分母及固定160阶Sylvester特征零门排除，∞另有四阶门，全部特殊s均保。一般其他重数分配和更高rankV不由此关闭；Δ_s⁴Δ_t、Δ_s³Δ_t²的原特殊s=-1纤维发生实度下降，须按真实12/24度重核，不能沿用一般16/32度断言；新Δ_s³(q_s/Δ_t)全源已成功、正式结论待独立登记。
+**一般V非零的新增秩一分支：[自身五重均值极线整支为空](results/R150-appendix-rank-one-third-cumulant-quintuple-mean-at-own-point-exclusion.md)。** 一阶展平rankV1给原V=v u(s)³；原highest迫P_y非零且整除k_s³。P_y∝Δ_s⁵这一完整支已由原QQ十七低梯度、十六最高式、degree80/单位分母及固定160阶Sylvester特征零门排除，∞另有四阶门，全部特殊s均保。一般其他重数分配和更高rankV不由此关闭；Δ_s⁴Δ_t、Δ_s³Δ_t²的原特殊s=-1纤维须使用真实12/24度，不能沿用已失败的一般16/32度断言；[三重极线乘二次余因子分支](results/R150-appendix-rank-one-third-cumulant-three-plus-one-plus-one-mean-divisor-classification.md)现已正式关闭：只余 $s=t\in\{0,2,-6,\infty\}$ 的完整 $T_3=0$ 真临界族。请求14的41/32/23源已于run44738311930成功，含修复后的真实降次边界；它们的完整证明正在整理，不重跑。
 
 ### 1.2 原权十一及更高幂
 

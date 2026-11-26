@@ -5,7 +5,7 @@
 ## 主目标、规则与执行
 
 - **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍仅全体有界算子的存在定理或完整反例；子结果不作完成。
-- **最近实际 pull / 已读规则提交：** `1be726e03e13f455d131458d45121a9dfbb9488d`（2026-11-26 05:24:55 UTC）。本次两README无新规则差异；已读根/课题README、H/open、结果索引及定点log/notes。每次pull及至少每小时比diff，记录SHA。
+- **最近实际 pull / 已读规则提交：** `b068d45008c3e58964bef3be9857b026d5a63be9`（2026-11-26 05:29:10 UTC）。本次两README无新规则差异；已读根/课题README、H/open、结果索引及定点log/notes。每次pull及至少每小时比diff，记录SHA。
 - 私库 `QUEUE.md` 已成功更新认领，提交 `e776df496eedfa449b0475cefe140fdae7023db4`；非快进已逐次pull --rebase后重推成功。研究在公开仓库，私库仅维护QUEUE；不force，令牌仅CLI环境。
 - 本地部分克隆已恢复；`/tmp/isp-347c05929dd3/math-research-public`。workspace磁盘不足已换TMP，不影响研究。root独占git/H/open/results/log；子代理只写各自TMP草稿。每个完整结论单独推送，计算只留源码/参数/身份/SHA，无数组。
 - 全部旧状态、来源和失败范围保[接手H快照](notes/2026-11-26-handoff-at-takeover-347c.md)及原归档链。MD<100KB、H<10KB、open尽量<30KB、topic<200MB；不写根LOG。
@@ -22,7 +22,7 @@
 - **外均值ess4主支：** Cat(y)=3、dimW4、y∉W，唯一原length5代数保同L,ν及全jets。全部rankH3、全部rankH4 proper局部单零（长度2–5）、孤立零点加unit单四jet/两个双点均已空。包括半权、零权、零配对、合流及∞，正式源与执行身份见索引和前H。
 - **unit3+1孤立零点：** 全p0、半权、alpha0、q0及gamma0均闭，正式稿见索引；q0商代数源run44737710336全通过，1.484秒，旧超时身份保留。真正一般图p q alpha gamma均非零、b≠1/2；已从原方程付s≠x、p0、n0、m及T=2x²−b非零。继续低阶原迹相容与全部mean，不把剩余一般支判空。
 - 孤立零点的unit2+1+1、unit1⁴，全部rankH5单位支，一般V≠0 inner mean和ess5/6仍开。inner不能从V自己低秩自动推y/H共同支撑，全部原低梯度仍保。
-- **rankV1：** 自身五重均值极线整支已空，run44736004677固定160阶mod103=27与∞4阶77，特殊s全保。新Δ_s³(q_s/Δ_t)源run44737710336完整通过，QQ248→184、固定368阶mod1009=774、所有边界及四T3=0幸存族核全，待独立正式稿。Δ_s⁴Δ_t/Δ_s³Δ_t²的固定440/480阶已非零，但s=-1实度降到12/24，旧16/32断言失败；修真实度后重核完整边界。其他V1及高秩V仍开。
+- **rankV1：** 自身五重均值极线整支已空，run44736004677固定160阶mod103=27与∞4阶77，特殊s全保。[三重极线乘二次余因子完整分类](results/R150-appendix-rank-one-third-cumulant-three-plus-one-plus-one-mean-divisor-classification.md)已正式证明：QQ248→184、368阶det774及全边界，只余四个T3=0真临界族。请求14的41/32/23于run44738311930全部成功，原s=-1真实12/24度与∞已核，正式证明整理中；旧失败断言不作证。其他V1及高秩V仍开。
 - **[旧纯三次判据已修](results/R150-appendix-polar-pure-cube-sign-correction-and-exact-resultant.md)：** 正确Q=B³−27A²D，root同一BigInt函数全10阶整数结式260758295153015625（mod103=56）；旧正文/Python源同步更正。无纯三次结论保持，旧正号/数值不再作证，其余闭几何不重跑。
 - 原4212来源枚举/系数高度、全局Bell自然幂及完整算子桥仍开。图册须每图真实幂来源并N=1+Σ(Ni−1)粘合；几何覆盖、V0子层证书不代全局原来源/实际费用。
 
