@@ -6,7 +6,7 @@
 
 固定一条 E/Q，完整证明 rank≥2 且无穷不同 p 的通常全 Sha[p∞] 有限。**未完成；继续研究，不把接口、条件结论、有限验证当完成。**
 
-- 公开部分克隆、恢复稀疏检出并实际 pull --rebase；根/课题 README 已读至 `9eaade12344ef2592138b60aa3a5a8429adfb993`，相对接手首读无差异。之后每次 pull 核差异，至少一小时一次。
+- 公开部分克隆、恢复稀疏检出并实际 pull --rebase；根/课题 README 已读至 `6edc490c1a99adccf1e60a2b7961ad6812aedd19`，相对接手首读无差异。之后每次 pull 核差异，至少一小时一次。
 - 私有队列接手已推 `f3125fbaa4bc13678b0c8519d85051762c579529`；私库根 README 已读至 `e776df4`（推前同步点）。两次非快进均立即 rebase 后重推成功。
 - 本次两个部分克隆因空间不足移至 /tmp/rank2-sha-7d29daa5d3b1；未动其它文件，令牌未入文件或配置。
 - 2026-11-26执行环境断开后，临时用GitHub原子tree/commit及非强制CAS同步main；逐次核两README差异，恢复环境后补git pull --rebase。未推改动从已审差异恢复，未将断开视作完成。
@@ -50,7 +50,7 @@ R908/R913 finite/wild 新增惰性位loc零已付；tame D固定，wild Dp=p^cpD
 
 [本轮原文范围核查](notes/2026-11-26-global-7d29.md)：Castella 2026作者版仍需κp非零，2611.09192的定理已假设Sha有限/高度非退化；新固定3-primary变曲线摘要不提供本题量词。Wan–Xiang–Xu新预稿仍限解析秩一；Scavia的非零循环定义域变动且原十八阶投影未付。私库q-bsd与selmer-to-analytic最新H也未给可移植的闭合输入。
 
-R940：原x12经π_m的实际κ恰双D导数下降；固定D后loc新q全零。c1≠0下由惰性平方检测和固定strict复形H²tors得p^Bκ=0，B=b_p+v_pD；深约化归零且唯一来自H1(J⊗T)，不等于JH1或scalar整除，不给s0/跨p结论。
+R940：原x12经π_m的实际κ恰双D导数下降；固定D后loc新q全零。c1≠0下由惰性平方检测和固定strict复形H²tors得p^Bκ=0，B=b_p+v_pD；深约化归零且唯一来自H1(J⊗T)，不等于JH1或scalar整除，不给s0/跨p结论。R945现由完整残余selector/Bockstein和实际坏位惯性给b_p≤v、C=0，可取B=v+v_pD；c1⁰=p^v z，原D保。
 
 ## 第三门：四原中央与全部边界
 

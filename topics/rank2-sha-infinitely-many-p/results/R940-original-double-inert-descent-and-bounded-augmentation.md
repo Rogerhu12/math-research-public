@@ -317,3 +317,7 @@ $H^0(K,T/p^{B_p})=0$，仍由原十七惯性 $-1$ 得到。
 - 通常的有限扩张 Chebotarev 定理、inflation–restriction，以及数域固定有限分歧集上的 p-adic Galois 上同调有限生成性；未使用新的预稿定理。
 
 全篇为符号证明，没有执行数学程序。
+
+## 后继：R945 的准确指数
+
+[R945](R945-original-residual-selmer-and-augmentation-exponent.md)在同一原 c1≠0 前提下，对完整残余Selmer直接证明可取 b_p=v，其中一次固定的原坐标 c1⁰=p^v z，z为原饱和Selmer本原元。原坏位实际惯性给统一坏位损C=0。故本篇实际双新界可取 B_p=v+v_p(D)；D仍保留，H¹(J)与JH¹之别不变，也不付ordinary或s=0。
