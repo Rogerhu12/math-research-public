@@ -494,3 +494,8 @@
 ### 2026-11-27 06:52 Asia/Taipei — R1065 精确有理分量计数
 
 R1065 §9：已亲读 Delfs–Galbraith 第2页 Eq.(1) 的三个类数分支及其类数界，原实际 Kummer 像收紧为 $p\,n_{\mathbf Q_p}(p)\le 2p^{3/2}\log(4p)/\pi$；regular 情形的同一 global-twist 候选再乘准确 $p^{\kappa_p}$。不变动所有 $2,3$、class-group 与实际点像条件，不把 supersingular reduction 当作有理 CM。无数学执行；继续真实标签的 CM 坐标与辅助共同像。
+
+
+### 2026-11-27 06:56 Asia/Taipei — R1061 退化有限域 Dixon 的准确所读矩
+
+R1061 §15：亲读 McCarthy 含退化项的 Th4.2，目标角色恰被常见 Th1.11 排除；保完整五 Gauss 乘积得全 $q=p^2$ 函数 $1-p$。原定义的全部 base-p carry 精确分为两个矩形，末角替原零项；实际单位是 $4D_N'(1)+4D_N(1)/3$，有完整阶乘乘积。故半和若零，其显示参数的根简单；不能把该参数冒原 CM 方向或把全有限域值冒半和范数。root 与 o1_theta 逐项独核，实际半和非零仍开，无数学执行；继续原 Lamé 三分布与全局 CM 代表。

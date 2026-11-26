@@ -1023,6 +1023,224 @@ $\binom n{n-r}=\binom nr$ 逐项即得。
 它们没有排除 (1061.27) 的多项式解，也未证明原 $S_n$ 非零；
 $M_1$、$B_i$ 或整段 Dixon 和不能代替目标 $M_m$ 的首变分。
 
+
+## 15. 退化有限域 Dixon 的完整双数字读数与实际半截边界
+
+这一节核清一种可能误用的全 $q=p^2$ 输入，并得到半截多项式的一个
+**真实加权矩单位**。它没有将该单位替换成 (1061.35) 的无权半和。
+沿用 $p=6k-1$、$N=k-1$、$n=2k-1$，置
+$
+D_N(z)=\sum_{r=0}^N t_rz^r,\qquad
+t_r=\frac{(2/3)_r^2(1/6)_r}{(r!)^2(3/2)_r}
+\quad(0\le r\le n).
+$
+(1061.35) 的目标仍是 $D_N(1)$。
+
+### 15.1 含退化项的全有限域函数
+
+置 $q=p^2$，令 $\omega_q$ 为 Teichmüller character，
+$\sigma=\omega_q^{-(q-1)/6}$。
+Gauss 和使用 $g(\chi)=\sum_{x\in\mathbf F_q}\chi(x)\zeta_p^{\operatorname{Tr}(x)}$，
+包括 $g(\varepsilon)=-1$。
+定义 McCarthy 的规范函数
+$
+\mathcal H_q={}_3F_2^*
+ \left(\begin{matrix}\sigma^4,\sigma^4,\sigma\\
+ \varepsilon,\sigma^3\end{matrix};1\right)_q.
+$
+这里 $A=B=\sigma^4,C=\sigma$ 恰满足 $(BC)^2=A$，
+所以不能直接用 McCarthy Theorem 1.11。
+其 §4 Theorem 4.2 保留了这一退化情形；因为
+$A\ne BC$ 且 $B,C\ne\varepsilon$，适用的准确式是
+$
+\mathcal H_q=
+\sum_{R^2=A}
+\frac{g(A^{-1}BC)g(RB^{-1})g(RC^{-1})g(R)g(R^{-1}BC)}
+ {g(AB^{-1})g(AC^{-1})g(A)\,BC(-1)\,q}.
+\tag{1061.37}
+$
+式中最后一个 Gauss 因子可能为 $g(\varepsilon)$，
+不得用非平凡 character 的乘积公式除掉它。
+
+对任意非平凡且阶整除 $p+1$ 的 $\chi$，它在
+$\mathbf F_p^\times$ 上平凡。取 $\operatorname{Tr}(a)=0$、$a\ne0$。
+trace-zero 纤维的 character 和为 $(p-1)\chi(a)$；
+每个非零 trace 纤维的和相同，而总和为零，故其和为 $-\chi(a)$。
+因此直接有 $g(\chi)=p\chi(a)$。
+在本次六阶 characters 上，
+$
+g(\sigma)=g(\sigma^5)=g(\sigma^3)=(-1)^kp,\qquad
+g(\sigma^2)=g(\sigma^4)=p.
+$
+又 $\sigma(-1)=1$。将 $R=\sigma^2,\sigma^5$ 逐项代入 (1061.37)，得
+$
+\boxed{\quad
+\mathcal H_q=\frac{g(\sigma)^2}{q}
+ \left(\frac{g(\sigma^5)}{g(\sigma^3)}-g(\sigma^2)\right)=1-p.
+\quad}
+\tag{1061.38}
+$
+这是完整 $q$ 函数的值，尚未是原 $D_N(1)$ 的任何范数式。
+
+### 15.2 所有单位项的两个实际数字矩形
+
+现在从定义读取 (1061.38) 模 $p$ 的每一个单位项。
+置
+$
+a=2(q-1)/3,\quad c=(q-1)/6,\quad h=(q-1)/2,
+$
+并写 $g_b=g(\omega_q^{-b})$，下标一律模 $q-1$。
+原定义准确成为
+$
+\mathcal H_q
+=-\frac1{p^4(q-1)}
+ \sum_{j=0}^{q-2}(-1)^j
+ g_{a+j}^{\,2}g_{c+j}g_{-j}^{\,2}g_{h-j}.
+\tag{1061.39}
+$
+分母 $p^4$ 是上一步已经精确计算的
+$g_a^2g_cg_h$，不是仅给其赋值。
+
+取 $\varpi^{p-1}=-p$ 的 Gross–Koblitz 标准根。
+若 $b=b_0+pb_1$ 是 $0\le b<q-1$ 的两个数字，则该公式和
+$\Gamma_p(-b_i)\equiv1/b_i!\pmod p$ 给
+$
+\frac{g_b}{-\varpi^{b_0+b_1}}
+ \equiv\frac1{b_0!\,b_1!}\pmod p.
+\tag{1061.40}
+$
+此式含 $b=0$，并保留完整循环数字。
+
+为核尽所有 carry，对 $j>0$ 设
+$x=j/(q-1)$、$y=(pj\bmod(q-1))/(q-1)$。
+(1061.39) 中该项的 $p$ 赋值为 $f(x)+f^\vee(y)-4$，其中
+$
+\begin{aligned}
+f(x)&=2\langle2/3+x\rangle+\langle1/6+x\rangle
+       +2\langle-x\rangle+\langle1/2-x\rangle,\\
+f^\vee(y)&=2\langle1/3+y\rangle+\langle5/6+y\rangle
+       +2\langle-y\rangle+\langle1/2-y\rangle.
+\end{aligned}
+$
+两者均至少为二；分别取最小值的准确区间是
+$[1/3,1/2]\cup[5/6,1)$ 和 $[2/3,1)$。
+所有阈值端点在这里已经包含，$1/2$ 处仍取低值。
+因此除 $j=0$ 外，单位项准确对应
+$
+j\in[(q-1)/3,h]\cup[5c,q-2],\qquad
+pj\bmod(q-1)\ge a.
+$
+写 $j=j_0+pj_1$，得到两个矩形
+$
+\begin{array}{c|cc}
+ &j_0&j_1\\ \hline
+{\rm I}&4k-1+r&2k-1+s\\
+{\rm II}&4k-1+r&5k-1+s
+\end{array}
+\qquad
+0\le r\le n,\quad0\le s\le N.
+\tag{1061.41}
+$
+II 的最后一个角 $(r,s)=(n,N)$ 表示 $j=q-1$，
+恰用来代替原来的 $j=0$；它只能计一次。
+其余全部项的赋值为正，所以不贡献模 $p$ 读数。
+
+按“低数字、高数字”的顺序，四个下标的数字为
+$
+\begin{array}{c|c|c}
+ &{\rm I}&{\rm II}\\ \hline
+a+j &(r,s)&(r,3k+s)\\
+c+j &(3k-1+r,3k-1+s)&(3k+r,s)\\
+-j &(n-r,4k-1-s)&(n-r,N-s)\\
+h-j &(5k-1-r,N-s)&(5k-2-r,4k-2-s).
+\end{array}
+\tag{1061.42}
+$
+表中每个数字均位于 $0,\ldots,p-1$；末角也准确给原 $j=0$
+的四组数字。没有略去第一位与第二位间的进位。
+
+### 15.3 全函数只给加权半截矩
+
+定义以下完全在 $\mathbf F_p$ 中的单位：
+$
+\begin{aligned}
+R_r&=\frac{(-1)^r}
+ {(r!)^2(3k-1+r)!\,(n-r)!^2(5k-1-r)!},\\
+S_s&=\frac{(-1)^s}
+ {(s!)^2(3k-1+s)!\,(4k-1-s)!^2(N-s)!},\\
+R'_r&=R_r\,\frac{5k-1-r}{3k+r},\\
+S'_s&=(-1)^N S_{N-s}.
+\end{aligned}
+$
+由 (1061.39)–(1061.42)，I 的总贡献为
+$(\sum R_r)(\sum S_s)$；II 为
+$(-1)^k(\sum R'_r)(\sum S'_s)$。
+因 $k+N=2k-1$ 为奇数，精确得到
+$
+1=\mathcal H_q\bmod p
+ =\left(\sum_{s=0}^N S_s\right)
+  \left(\sum_{r=0}^n(R_r-R'_r)\right).
+\tag{1061.43}
+$
+逐项比值给
+$
+R_r=R_0(2r+1)t_r,\qquad
+R'_r=-2R_0(k+r)t_r.
+$
+另一方面
+$
+\frac{S_s}{S_0}
+=\frac{(2k)_s^2(-N)_s}{(s!)^2(3k)_s}.
+$
+这是一个真正以 $-N$ 终止的 Dixon 和，分母全部为单位。
+其有限式由 Dixon 恒等式先固定 $c=-N$、在无极点的开集化成
+Pochhammer 有理恒等式，再代 $a=b=2k$ 得到；
+不是在本次参数的 Gamma 极点处直接相除。准确为
+$
+\sum_{s=0}^N S_s
+=S_0(-1)^N\frac{(2k+1)_N}{(k+1)_N}\ne0.
+\tag{1061.44}
+$
+所以 (1061.43) 的实际剩余因子是
+$
+R_0\sum_{r=0}^n(4r+4/3)t_r.
+$
+§14 的完整奇终止身份给 $t_{n-r}=-t_r$，
+而 $4(n-r)+4/3=-(4r+4/3)$ 于 $\mathbf F_p$。
+配对后得到准确单位式
+$
+\boxed{
+4D_N'(1)+\frac43D_N(1)
+=\frac{(-1)^N(k+1)_N}
+ {2R_0S_0(2k+1)_N}\ne0.}
+\tag{1061.45}
+$
+特别地，
+$
+D_N(1)=0\ \Longrightarrow\ D_N'(1)\ne0.
+$
+
+这个结论保留了所读对象：有限域 character 将 $3/2$ 与 $1/2$
+识别，但在原有限和中
+$(3/2)_r=(2r+1)(1/2)_r$，该权不能删除。
+(1061.38) 的单位并不是 $D_N(1)$ 的范数；
+完整双数字展开准确给 (1061.45)，而不是原目标非零。
+此处 $z$ 是所显示半截多项式的参数，尚未将它与原曲线的
+CM/deformation 参数识别，故也不能从这一导数直接声称原 theta 点光滑。
+
+本节使用 McCarthy
+[原文](https://dermotmccarthymath.github.io/publications/Hyp%20Trans.pdf)
+Definition 1.4、Theorem 4.2 及其证明 (4.5)–(4.7)，明确保留退化项。
+(1061.44) 使用 [DLMF 16.4.4](https://dlmf.nist.gov/16.4.E4)
+的上述有限有理特例。
+Gross–Koblitz 的约定见 A. M. Robert,
+*The Gross–Koblitz formula revisited*, Rend. Sem. Mat. Univ. Padova
+**105** (2001), 157–170，
+[原文](https://www.numdam.org/article/RSMUP_2001__105__157_0.pdf)，
+Theorem 4；(1061.40) 的阶乘约化已在上文给出。
+root 推导全 $q$ 公式和两个数字矩形；o1_theta 独立逐项核
+阈值、四组 carry、末角、阶乘比与完整/半截边界。无数学执行。
+
 ## 来源与本次核对
 
 - [R1059](R1059-original-fN-actual-X108-Raynaud-pairing-and-inverse-central-sum.md)：原 $X_0(108)$ 函数、good 模型、固定微分尺度和 $S_n$ 配对。
