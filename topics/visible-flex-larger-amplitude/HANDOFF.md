@@ -53,6 +53,6 @@
 <!-- visible-larger-parallel-04:end -->
 
 <!-- visible-larger-parallel-05:start -->
-并行公开Actions05：[run 45870334713/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45870334713)；[实际记录](notes/2026-11-26-public-actions-45870334713-1.md)。阶段`followup:actual-fixed-normal-plane-full-history-first-20261126-05`/completed；已返16，exit=0。
-并行05规则核查：2026-11-26 19:49:20 UTC，真实pull至`4f0f91f87ae5cb2e9bb8c67095aa3c4ee339299d`，双README无变化。
+并行公开Actions05：[run 45870334713/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45870334713)；[实际记录](notes/2026-11-26-public-actions-45870334713-1.md)。阶段`followup_waiting`/running；已返16，exit=未返。
+并行05规则核查：2026-11-26 20:06:35 UTC，真实pull至`913377824c51cac0b1e04dbb199d14aac31b754e`，双README无变化。
 <!-- visible-larger-parallel-05:end -->
