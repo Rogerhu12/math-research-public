@@ -6,7 +6,7 @@
 
 连通闭C²嵌入、C²连续族；H闭、有内点且diamH≥.2D，整像δhold≥.1D、含反射δE>0，全时reach≥.03D。固定完整g/物理数据/时间范围加密到完整metric≤1e−6并持续下降。必须实际闭合和共用Cartesian两jet；λ<1不提供准确圆弧H。
 
-- 公共已完整读规则并真实pull：`2424d6f46e377dae4b2dd08aa6404b0a9d170498`；私有根README/QUEUE接手登记已推 `2f68946f2fa3e192a291c7c1393231af1a89953e`。每次pull核双README差异，至少每小时一次。root独占git，逐结论push，NFF立即pull --rebase再推，禁force；令牌只命令行。
+- 公共已完整读规则并真实pull：`8f01c8fc1f1e13392dc212c31e38d81d08e1dfd1`；私有根README/QUEUE接手登记已推 `2f68946f2fa3e192a291c7c1393231af1a89953e`。每次pull核双README差异，至少每小时一次。root独占git，逐结论push，NFF立即pull --rebase再推，禁force；令牌只命令行。
 - 工作树 `/tmp/held10-astra-06bbeb395471-public2`；原/workspace盘满，不删他人文件。旧1b6d88ec scratch不存在；54314/45287/79634最终状态仍未知。详细[本次接手/来源](notes/2026-11-26-resume-and-current-sources.md)。
 - 70份精确历史源码已恢复；M24端口/角图/tail参数/native均与旧SHA逐字相同。[可搬迁恢复入口](notes/2026-11-26-tail-source-recovery.md)。恢复仅工程输入，不作为新数学结果。
 - 直接原控制冷恢复818/418节点均exit137；batch8恢复亦被SIGKILL，最后只到Jac开始，未到LU、无accepted raw。不能说数学失败。最后Jac输入曾保存为未接受初猜；05:51 UTC共享环境重置后本地副本已丢，不能继续假设存在。
@@ -18,6 +18,8 @@
 
 **R63已证明**：[固定g与未知核心](results/R63-fixed-metric-and-solution-core-variables.md)。物理g=ds²+aδ²dθ²不含单位速入口的q/c；固定有限q/c另加了精确入口条件，是更强BVP。新精化可先固定完整物理输入P，再把支撑函数b放同一加权ℓ¹₄未知空间；须实际得到非零支线、核与全场C² Cauchy及全部残差下降，才对应同一最终几何。不改写旧design-only的δ漂移身份，也不撤销已声明固定入口的合同。准确圆弧仍须λ1，10%仍欠。详见[解释](notes/2026-11-26-fixed-g-versus-prescribed-core.md)。
 
+**R65已证明**：[端点核/暖补弧族](results/R65-r53-endpoint-kernel-and-warm-supported-core.md)。无限维局部方向乘1−λ，而每个有限解析support空间的端点导数仍单射；不凭此虚报Jacobian秩亏。新补弧phase控制在实际锚点d=0保持完整核心/两jet，到λ1保准确圆弧；预备factory只做synthetic链式检查，尚无near-1接受场或BVP。
+
 1. actual_tail恢复M24 λ.002真实场，续原fullH与8次外迭代。旧.25/.5 warm成功只属旧场，不当fullH，不把未知.75终态推断成功。
 2. fixed_metric从新实际场固定完整δ/尾背景/角图/圆化数据，求同一BVP未知核心并核全C²收敛。旧`fixed_m3_linear_field.py`只准备强固定入口linearDN接口，未运行，不继续无必要的兼容债计算。
 3. seam_geometry处理实际桥--尾公共两jet，保mean1168/真primitive/高度符号；优先在余量较大的尾侧作显式Hermite接缝，尚无fullH数据不得报闭合。 已按原源码核明ω−1=w²(L+q)，全周转角决定meanSlope、归一化Darboux决定RR；有限场须另付真实转角/三角表/求积/二阶残差，不能仅用打印零模。见[源码兼容](notes/2026-11-26-seam-mean-source-compatibility.md)，A≥.1仍是待验条件。
@@ -25,7 +27,7 @@
 
 ## 必须复用的前会话成果
 
-完整旧状态和细节索引见[2026-11-20最后H](https://github.com/Rogerhu12/math-research-public/blob/f0548477576caa2373d1626227a284ccfa9767d0/topics/visible-flex-held-10pct/HANDOFF.md)。具体note优先；R1--R64和已登记失败不重跑。
+完整旧状态和细节索引见[2026-11-20最后H](https://github.com/Rogerhu12/math-research-public/blob/f0548477576caa2373d1626227a284ccfa9767d0/topics/visible-flex-held-10pct/HANDOFF.md)。具体note优先；R1--R65和已登记失败不重跑。
 
 - 新R55多段profile原mode3线性根δ=.06414432506418023；新g q=.006→.06已过，宽窗S=.5/b=.2/k=.2/τ1。原M24 λ.002 linearDN实场631点/metric6.482415924575457e−7/BC3.72e−16、δ=.06413464104697915，原mean1168/GL6。mean512 proxy不是同图。
 - 原M24 fullH chord3只确认.25和.5；.5真实残差9.47489311e−10、1153×48 finite；.75及外迭代最终未知。唯一full-harmonic初猜probe比原uniform差1.674804倍，勿重试。见[.25与命令](notes/2026-11-20-m3-m24-original-warm025-and-chord-continuation.md)、[.5](notes/2026-11-20-m3-m24-chord-warm050.md)。

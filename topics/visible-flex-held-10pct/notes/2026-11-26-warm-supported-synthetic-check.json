@@ -1,0 +1,55 @@
+{
+  "synthetic_test_only": true,
+  "source_is_accepted_BVP": false,
+  "lambda_value": 0.95,
+  "zero_control_literal_identity": {
+    "F": true,
+    "Ft": true,
+    "Ftt": true
+  },
+  "parameter_chain_checks": [
+    {
+      "bvp_parameter": 0,
+      "maximum_absolute_two_jet_errors": [
+        4.960271386342252e-11,
+        3.794033143211806e-11,
+        1.4682205451421737e-10
+      ]
+    },
+    {
+      "bvp_parameter": 3,
+      "maximum_absolute_two_jet_errors": [
+        5.239526000566652e-11,
+        5.072512548887076e-11,
+        2.9583757665818666e-10
+      ]
+    },
+    {
+      "bvp_parameter": 7,
+      "maximum_absolute_two_jet_errors": [
+        4.606999298110287e-11,
+        4.5752103494667296e-11,
+        1.3485790262279806e-10
+      ]
+    }
+  ],
+  "parameters": {
+    "homotopy": 0.95,
+    "curvature_blend": 1.0,
+    "halfwidth": 0.5,
+    "transition": 0.2,
+    "target_curvature": 0.2,
+    "quadrature_order": 12,
+    "integration_cells": 64,
+    "transition_cells": 24
+  },
+  "material_samples": 36,
+  "source_hashes": {
+    "/tmp/held10-astra-06bbeb395471-fixed-rebuild/test_source/fixed_metric_mode3_core.py": "fa8576bb1d592ee0e0152082b9ee722a1f1a86738f21a906bb0f3ac88e38707c",
+    "/tmp/held10-astra-06bbeb395471-public2/topics/visible-flex-held-10pct/scripts/resume_transfer/material_flattened_support_core.py": "1d655f2bdad53e1d320c1115a9873abe399a9b7ba930722c415d02dedb9b1f20",
+    "/tmp/held10-astra-06bbeb395471-fixed-rebuild/warm_supported_core_factory.py": "8c262f8b43e183944df7bcd01def0b24a6ec9b687b679450ec90a404207e5ce7",
+    "/tmp/held10-astra-06bbeb395471-fixed-rebuild/check_warm_supported_core.py": "3dc1c13118897f72185dc528c7c6db794d62d6741c0b9f054926ba8a4c7a481c"
+  },
+  "protected_arc_curvature_change": 0.0,
+  "complete_surface": false
+}

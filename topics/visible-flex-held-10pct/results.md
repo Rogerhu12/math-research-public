@@ -137,3 +137,7 @@ R55补充：[较宽设计盒与条件完整D≤2.69](notes/2026-11-20-soft-start
 ## R64. 同一 M24 真桥的末端原函数及固定目标界收紧
 
 [完整证明](results/R64-literal-bridge-cut-primitive-and-fixed-target-bound.md)。精确有理Taylor积分给实际A−binary(.3)∈[2.2575781682669222,2.2575781682669225]e−17，严格非零；同一个已定义末.001目标半径修补的0/1/2界收紧至2.25913e−17/1.12957e−13/4.51981e−10，原R60同图转到同g后metric<9.300000001512e−7。不改图/g/mean1168，不重跑桥场，不涉及fullH或λ1。
+
+## R65. R53 端点核与保实际锚点的补弧核心族
+
+[完整证明](results/R65-r53-endpoint-kernel-and-warm-supported-core.md)。固定目标k时材料曲率切向Tλ在保护弧的零均值方向准确乘1−λ，因此λ1有无限维核；有限support Fourier切向实解析，端点仍单射，不能据此宣称当前有限BVP秩亏。给旧实场完整核心及两jet等几何交接的新补弧phase族，gauge与正坐标q_aux语义分开。小synthetic接口检查已执行；尚无near-1接受场、新BVP或闭面。
