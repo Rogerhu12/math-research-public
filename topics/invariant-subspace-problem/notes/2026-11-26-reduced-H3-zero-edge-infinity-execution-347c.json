@@ -1,0 +1,67 @@
+{
+  "scope": "Actual characteristic-zero exclusion: original necessary two-variable ideal has coprime QQ elimination resultants; no modular calculation",
+  "run_id": 45815953727,
+  "job_id": 139895617025,
+  "original_identities": {
+    "count": 5,
+    "field": "QQ",
+    "no_modular_computation": true,
+    "seconds": 0.04779685200000472,
+    "stage": "original_kernel_identities_complete"
+  },
+  "resultant_gcd": {
+    "P_degree": 23,
+    "P_sha256": "58cdb616103ff9ea147f0fdeb5573a6dafc5585ffcce87b67b0fd8abfeaf8a7b",
+    "Q_degree": 72,
+    "Q_sha256": "4bfea033370b46761fce0bb62dc17aa1bea3c7d3f9bef54b4a352b4c46fc15bc",
+    "bezout_verified": true,
+    "gcd": "1",
+    "gcd_degree": 0,
+    "seconds": 0.0754254390000142,
+    "stage": "exact_resultant_gcd"
+  },
+  "primary_deletion": {
+    "layers": [],
+    "only_factors": "s+1 and p(s), both original nonzero pairings",
+    "remaining": "1",
+    "remaining_degree": 0,
+    "removed_degree": 0,
+    "seconds": 0.07547073200001364,
+    "stage": "paid_source_primary_deletion"
+  },
+  "complete": {
+    "exclusion": "all common resultant roots violate original nonzero s+1 or p(s)",
+    "ordinary_isp_claim": false,
+    "seconds": 0.07555598400000463,
+    "source_sha256": "0352492a375cc035bc2c23aaace58a677542cb79370b5eb32a405e0a2e0f0786",
+    "stage": "complete"
+  },
+  "execution_receipt": {
+    "elapsed_seconds": 0.3470309200000088,
+    "max_child_rss_kib": 75088,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "3a751a836c60a4f33efa9e0ddd3060a188621adc",
+        "before": "bafa9883e0cf79eac8a9b82a14f15d2615c43bcd",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "fef43bdf8690f2eec4751d85784a266eacdd0322"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-26T12:02:51.057083+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "45815953727",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-347c-20261126",
+    "source_commit": "bafa9883e0cf79eac8a9b82a14f15d2615c43bcd",
+    "source_exit_code": 0,
+    "source_git_blob": "f32425c6b3fc96a38a550cd10ce3145e501d00e8",
+    "source_sha256": "0352492a375cc035bc2c23aaace58a677542cb79370b5eb32a405e0a2e0f0786",
+    "stdout_bytes": 2214,
+    "stdout_sha256": "a5edd0a4bd4aeda95c162c07970e4fcec5594a6f0b792c3ee4f6e0ef9211395c",
+    "stop_reason": null
+  }
+}

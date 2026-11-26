@@ -45,11 +45,11 @@ rank$H=4$ 的非单位局部块长度5、4、3已排；长度2单零的三种单
 
 若以19/56图处理，仍须每图真正 $g_i^{N_i}$ 原来源，再按 $N=1+\sum(N_i-1)$ 粘合，几何覆盖本身不代判空。即使根理想闭合，仍须原来源费用、Bell 算子共同域、振幅清分母与同 forcing 运输。原全W31/127的整来源存在性与费用不等于已枚举4212来源、系数高度或完整非 rank-one 算子桥。
 
-**[rankH3约化退化Gram的ess6新归约](results/R150-appendix-rank-three-reduced-second-cumulant-degenerate-gram-essential-six-gaussian-reduction.md)：** 原完整六列基与N/最高值给F0全空、V二jet全空，以及F≠0/Hp非零全空；四种行常数连同原N两V值付全单位根。准确余项为约化H/V、F≠0、Hp0、H Gram秩2且两非零边。[完整相位和Gram分类](results/R150-appendix-rank-three-reduced-degenerate-Gram-zero-hp-finite-phase-classification.md)把相位迫成(ω²,ω,ω)，完整六列非退化排同号，余至多18个归一化Gram；行列式明确非零。[同相位ω1的原物理支现全空](results/R150-appendix-rank-three-reduced-degenerate-Gram-aligned-phase-physical-exclusion.md)：齐次商二次式由三个原值确定，迫e=1/2与2e³=−1矛盾，含∞及全部仿射降次。只余两非平凡相位、至多12个Gram的原物理实现。非退化H Gram亦开放。
+**[rankH3约化退化Gram的ess6新归约](results/R150-appendix-rank-three-reduced-second-cumulant-degenerate-gram-essential-six-gaussian-reduction.md)：** 原完整六列基与N/最高值给F0全空、V二jet全空，以及F≠0/Hp非零全空；四种行常数连同原N两V值付全单位根。准确余项为约化H/V、F≠0、Hp0、H Gram秩2且两非零边。[完整相位和Gram分类](results/R150-appendix-rank-three-reduced-degenerate-Gram-zero-hp-finite-phase-classification.md)把相位迫成(ω²,ω,ω)，完整六列非退化排同号，余至多18个归一化Gram；行列式明确非零。[同相位ω1的原物理支现全空](results/R150-appendix-rank-three-reduced-degenerate-Gram-aligned-phase-physical-exclusion.md)：齐次商二次式由三个原值确定，迫e=1/2与2e³=−1矛盾，含∞及全部仿射降次。[零边含∞的两非平凡相位现全排](results/R150-appendix-rank-three-reduced-degenerate-Gram-zero-edge-infinity-exclusion.md)：原(s,X)三式的QQ23/72结式gcd1，0.075556秒/exit0；只续有限零边、中心有限或∞的原物理实现。非退化H Gram亦开放。
 
 单位211整个P0零支已闭，全部末纤维、半权和Gram秩二边界见结果索引，不重做；仅一般非零m/P0继续。
 
-**[单位211整个零孤立点mean分支已闭](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-nonzero-base-highest-zero-isolated-mean-exclusion.md)：** 两图全部有限纤维、低曲线和物理秩边界已付，高曲线QQ671/629、2876/2736只余既闭参数；run45789670184实际1443.281305秒/297956KiB/exit0。结合P0零和低配对后不再重做m0，只续非零m。
+单位211整个零孤立点mean分支已闭：QQ高曲线671/629及2876/2736只余既闭参数，全部低曲线/奇异面/物理秩均付，run45789670184、1443.281305秒/exit0；完整来源见结果索引，勿重做。
 
 **[rankH3单一三重jet、rankV2的全部ess6已空](results/R150-appendix-rank-three-single-jet-second-cumulant-has-essential-dimension-at-most-five.md)：** 最后F=−m/Hp非零在保持H的合法真jet规范中，Gaussian迫p1=d0、p0p2=hb²；原N/最高的0/1/2阶式先付7/15边界，再得S³+3mS/(2e)=1而左边5/2。结合Hp0的原十六维QQ全纤维，以及所有特殊源/∞、V二jet和F2m排除，整单一三jet仅ess≤5。纯手证，无新计算；只续H2+1、三值H及原ess4/5。
 

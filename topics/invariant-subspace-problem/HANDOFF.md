@@ -5,9 +5,9 @@
 ## 主目标、规则与执行
 
 - **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仅全体有界算子的存在定理或完整反例；子结果不作完成，继续研究。
-- **最近实际pull / 已读规则提交：** `9f13b3910c1b795c2dfde6a4bd3447033100d774`（2026-11-26 11:44:30 UTC，公开Actions实际pull；本地最后pull为09:16:03 UTC）。两README blob无差异；每次pull和至少每小时查diff，记录SHA。
+- **最近实际pull / 已读规则提交：** `3a751a836c60a4f33efa9e0ddd3060a188621adc`（2026-11-26 12:02:51 UTC，公开Actions实际pull；本地最后pull09:16:03 UTC）。两README无差异；每次pull且至少每小时查diff、记SHA。
 - 私库QUEUE认领已推 `e776df496eedfa449b0475cefe140fdae7023db4`；研究在公开仓库。每结论单推，推前pull/rebase；NFF/ref锁拒绝循环rebase再推，不force，令牌仅CLI。
-- 本地执行环境09:19 UTC后unavailable；最近云端main/规则读取 `bfd1f9a9abc947fce26f2033a3de0b448ec9f836`（2026-11-26 12:02:22 UTC），两README blob未变。此为API读取，不冒充git pull；公开Actions驱动继续实际pull及3300秒规则检查。根通过非force/expected-head原子提交保并发；CLI恢复后立即pull/rebase。只保存源、参数、SHA和小回执。
+- 本地执行环境09:19 UTC后unavailable；最近云端main/规则读取 `e14a23f3fc87a63c2284008a41aeb746d24fa79c`（2026-11-26 12:06:11 UTC），两README blob未变。此为API读取，不冒充git pull；公开Actions驱动继续实际pull及3300秒规则检查。根通过非force/expected-head原子提交保并发；CLI恢复后立即pull/rebase。只保存源、参数、SHA和小回执。
 - 最新完整前H见[压缩快照](notes/2026-11-26-handoff-before-two-linear-original-ideal-347c.md)及其归档链。MD<100KB、H<10KB、open尽量<30KB、topic<200MB，不写根LOG。
 - 已登记请求14/311、权11及旧结式不重算。当前并行：unit211非零m；rankV2/rankH3的ess6；R271真实加权源与物理清除。四个新原输入见[执行检查点](notes/2026-11-26-small-original-geometries-checkpoint-347c.md)：L0真QQ因子、S0/Lt0因子、S0懒清分母Chow、三约化H零边含∞的真QQ消元；尚未执行完不宣空性。
 
@@ -15,7 +15,7 @@
 
 ### 已闭范围和准确母任务
 
-- W31/W127、Γ120、权7–11均已付，勿重跑；权11 Γ=36782、μ核8912全Koszul、四q_jb³商类独立，权12–15仍开。来源/原run及完整边界见[结果索引](results.md)和前H快照。
+- W31/W127、Γ120、权7–11已付勿重跑；Γ11=36782、μ核8912全Koszul、四q_jb³商类独立。权12–15、全自然幂及来源费用仍开，详结果索引/前H。
 - 全essT3≤3的matched Bell已零；W±有Cat3真临界点，不能判Cat3全层空。整个V0临界层三个原Bell亦零，原I0准确幂指数3，run44732550495已付；不是全Jacobian同幂。
 - 外均值ess4（Cat(y)3、dimW4、y∉W）的原length5：rankH3全闭；rankH4全部proper单零长度2–5、孤立零点+unit4/2+2/3+1全闭。只余unit211、unit1⁴；所有rankH5、V非零inner-ess4及ess5/6继续。外均值消元不能直接用于inner层。
 - unit211零配对、零基点mean、相等/相反非零配对与**整个P0零支**均已闭；P0零自含源16.849538秒/74488KiB/exit0，半权原P_i=2N_i迫物理等向矛盾，零t族完整Gram秩二。只余p=1、q≠0,±1、b+cq≠0、P0≠0，分孤立点m零/非零。
@@ -28,10 +28,10 @@
 
 - unit211非零m整个u1图已闭：原高曲线仅余l2，全部Q九次商代数的z因子为1，13真逆；run45804559912，5.703188秒/exit0。一般u≠1按原U值图继续，保值碰撞及全部L/S零面。
 
-- **[L0/w1整层已闭](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-U-value-L0-w1-exclusion.md)：** ρ/D/N/M/J原单位账本、两P1齐次投影均保首项零纤维，原QQ范数gcd64→48→0；run45808873477/job139871189527、0.222536秒/exit0。L0三参数原九式与14投影已生成，但mod门180秒未决，续精确因子/投影；S0非同时零原九式449.412372秒生成，首投影前600秒超时（exit124/RSS6885004），改仅清所需mean/P1及无首项除法Chow式。LS非零亦开。原权重13式已生成；mod门121.37秒达4GiB内存界仍未决，转降维输入。
+- **[L0/w1整层已闭](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-U-value-L0-w1-exclusion.md)：** ρ/D/N/M/J原单位账本、两P1齐次投影均保首项零纤维，原QQ范数gcd64→48→0；run45808873477/job139871189527、0.222536秒/exit0。L0三参数原九式与14投影已生成，但mod门180秒未决，QQ因子11.978650秒完成，E1/N1现得二次ρ因子，续完整投影及补因子；S0非同时零原九式449.412372秒生成，首投影前600秒超时（exit124/RSS6885004），改仅清所需mean/P1及无首项除法Chow式。LS非零亦开。原权重13式已生成；mod门121.37秒达4GiB内存界仍未决，转降维输入。
 - S0/Af0的全部值碰撞及I=H0/M6例外已闭：完整24维代数、48真逆，run45808427743，2.914484秒/exit0。[整个S0/P1双变量系数零](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-P1-zero-coefficients-exclusion.md)亦由M4完整8维原代数排除，45真逆，0.070704秒/exit0。余原解可合法由P1解f或t；M6、碰撞和双零勿重做，续I/H非同时零与Af非零图。
 
-- rankH3三不同点、H自身Gram退化的ess6：F0、V二jet、非零Hp全空；[剩余Hp0完整相位/Gram分类](results/R150-appendix-rank-three-reduced-degenerate-Gram-zero-hp-finite-phase-classification.md)已证：ω2=ω3=ω、ω1=ω²，完整六列非退化迫r3=−r2，至多18个归一化Gram；[同相位ω1整条原物理支已排](results/R150-appendix-rank-three-reduced-degenerate-Gram-aligned-phase-physical-exclusion.md)，齐次五次除以三源平方自由三次，三个原值迫y=(u+v)/(2e)，与e³矛盾。仅余两非平凡相位至多12个Gram，全部有限/∞源保留；非退化三点H也继续，H子Gram退化不代总Gram退化。
+- rankH3三不同点、H自身Gram退化的ess6：F0、V二jet、非零Hp全空；[剩余Hp0完整相位/Gram分类](results/R150-appendix-rank-three-reduced-degenerate-Gram-zero-hp-finite-phase-classification.md)已证：ω2=ω3=ω、ω1=ω²，完整六列非退化迫r3=−r2，至多18个归一化Gram；[同相位ω1整条原物理支已排](results/R150-appendix-rank-three-reduced-degenerate-Gram-aligned-phase-physical-exclusion.md)，齐次五次除以三源平方自由三次，三个原值迫y=(u+v)/(2e)，与e³矛盾。只余两非平凡相位；[零边含∞图已全排](results/R150-appendix-rank-three-reduced-degenerate-Gram-zero-edge-infinity-exclusion.md)（QQ23/72结式gcd1，0.075556秒）。只续有限零边、中心有限或∞；非退化三点H也继续，H子Gram退化不代总Gram退化。
 - rankH3单三jet、rankV2整层ess≤5已闭：Hp0所有特殊/∞、V二jet及Hp0原十六维代数全付；F=−m原jet得1=5/2。不要重做旧余支。
 - 2+1型H非零Hp整个ess6已空：原节点/J、At/τ/γ全零面、QQ93/126和Q2/Q4异常谱六真逆已付（run45795365604、0.011089秒）。全部退化/V二jet/F0/e0亦闭，仅续非退化Hp0约化V。
 

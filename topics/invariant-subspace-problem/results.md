@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R150 三约化H退化Gram、Hp0、零边含∞的整个物理图为空（2026-11-26，已证明）：** [原kernel/全部尺度与真QQ证明](results/R150-appendix-rank-three-reduced-degenerate-Gram-zero-edge-infinity-exclusion.md)保两非平凡相位、第三根可重及所有物理单位，降为(s,X)的三条必要式。实际X结式次数23/72，QQ扩展gcd回乘1，未删候选因子也未用有限代数fallback。run45815953727/job139895617025、0.075555984秒/75088KiB/exit0；只续有限零边的中心有限/∞图。
+
 - **R150 三约化H退化Gram、Hp0的同相位整条物理支为空（2026-11-26，已证明）：** [齐次原最高式与三个真实源值](results/R150-appendix-rank-three-reduced-degenerate-Gram-aligned-phase-physical-exclusion.md)在全部有限/∞源上给P=(U+V)/(2e)，从而y=(u+v)/(2e)、e=1/2，与2e³=−1矛盾。平方自由三次除子及二次插值保所有仿射降次，无计算假设。十八Gram覆盖只余两个非平凡相位、至多十二Gram，继续原完整物理方程。
 
 - **R150 三约化H退化Gram、Hp0的完整有限相位分类（2026-11-26，已证明）：** [原mean/N/最高值与全六列证明](results/R150-appendix-rank-three-reduced-degenerate-Gram-zero-hp-finite-phase-classification.md)给相位(ω²,ω,ω)、r3=−r2，以及δ²=−4e²（ω1）或−e²（ω非1），2e³=−1；最多18个归一化Gram。全6×6行列式非零，不将H子Gram退化误作矛盾。此为覆盖全部有限/∞源的必要分类，尚非原物理实现或排空。

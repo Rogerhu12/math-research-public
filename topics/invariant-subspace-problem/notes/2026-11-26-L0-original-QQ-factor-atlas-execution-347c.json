@@ -1,0 +1,310 @@
+{
+  "schema": "isp-frozen-exact-actions-execution-v1",
+  "runId": 45815953727,
+  "jobId": 139895617059,
+  "elapsed_seconds": 12.069889283000009,
+  "max_child_rss_kib": 257016,
+  "ordinary_isp_claim": false,
+  "rules_reads": [
+    {
+      "after": "3a751a836c60a4f33efa9e0ddd3060a188621adc",
+      "before": "bafa9883e0cf79eac8a9b82a14f15d2615c43bcd",
+      "rules_git_blobs": {
+        "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+        "topics/invariant-subspace-problem/README.md": "fef43bdf8690f2eec4751d85784a266eacdd0322"
+      },
+      "rules_unchanged": true,
+      "utc": "2026-11-26T12:02:49.537496+00:00"
+    }
+  ],
+  "run_attempt": "1",
+  "run_id": "45815953727",
+  "session": "Astra-ISP-347c-20261126",
+  "source_commit": "bafa9883e0cf79eac8a9b82a14f15d2615c43bcd",
+  "source_exit_code": 0,
+  "source_git_blob": "b9a356adae4bf6a1b604d3c0a5b709565020e695",
+  "source_sha256": "17555d5d3d3ac1e903f92ada432c54fdd4ff303ccdd9aca2c06d77a8936c6ade",
+  "stdout_bytes": 16907,
+  "stdout_sha256": "449a12de55319b50adf80c3a12ed54e2284cd8cd9f75deb889dded5b7c408564",
+  "stop_reason": null,
+  "complete": {
+    "claimExcluded": false,
+    "elapsedSeconds": 11.97865,
+    "ordinaryISPClaim": false,
+    "peakRssKiB": 256432,
+    "scope": "original L0 general w(w-1)!=0; paid chart units only; all P1 leading-zero fibers retained",
+    "sourceSha256": "17555d5d3d3ac1e903f92ada432c54fdd4ff303ccdd9aca2c06d77a8936c6ade",
+    "stage": "complete_exact_QQ_factor_atlas"
+  },
+  "factorizations": [
+    {
+      "name": "P1_t_coefficient",
+      "elapsedSeconds": 11.738254,
+      "factorProductRemultiplied": true,
+      "original": {
+        "degrees": [
+          6,
+          9,
+          8
+        ],
+        "sha256": "49297c89f34ee1edb0b6d7a5b335882d4235209bade0e2de823b905d718bee94",
+        "terms": 283
+      },
+      "factors": [
+        {
+          "degrees": [
+            0,
+            0,
+            1
+          ],
+          "exponent": 1,
+          "sha256": "50e721e49c013f00c62cf59f2163542a9d8df02464efeb615d31051b0fddc326",
+          "terms": 1
+        },
+        {
+          "degrees": [
+            0,
+            0,
+            1
+          ],
+          "exponent": 1,
+          "sha256": "e2bb30214759d6a6f43d266ef5f89eca601fe1e4a2db3eac0133ec47d0b9d7c9",
+          "terms": 2
+        },
+        {
+          "degrees": [
+            0,
+            3,
+            1
+          ],
+          "exponent": 1,
+          "sha256": "7f62865718855e6bf498d91d07f2776684dd5181ec828cddce4bd9f4634fab00",
+          "terms": 6
+        },
+        {
+          "degrees": [
+            1,
+            0,
+            0
+          ],
+          "exponent": 1,
+          "sha256": "0ddbc6c1d81a078b803040a615f91362642e985d2737a945535b86da2681952f",
+          "terms": 1
+        },
+        {
+          "degrees": [
+            1,
+            2,
+            1
+          ],
+          "exponent": 1,
+          "sha256": "27dd02effeabe32c32953efbb7be7731c4b0d8af03cdae22b989c98d9a2f1796",
+          "terms": 6
+        },
+        {
+          "degrees": [
+            4,
+            4,
+            4
+          ],
+          "exponent": 1,
+          "sha256": "cc5c7e44a619fd5bcea237f754ec238b17016cc1c5c4cfb33b9094ee8e632981",
+          "terms": 59
+        }
+      ]
+    },
+    {
+      "name": "P1_constant",
+      "elapsedSeconds": 11.74498,
+      "factorProductRemultiplied": true,
+      "original": {
+        "degrees": [
+          6,
+          11,
+          9
+        ],
+        "sha256": "402f7b51d2549291fdca2643ab8cfd52fa28575601046dbce506fc0a086e6cd1",
+        "terms": 509
+      },
+      "factors": [
+        {
+          "degrees": [
+            2,
+            5,
+            7
+          ],
+          "exponent": 1,
+          "sha256": "77b6cf6d7dcfd72780b49aae99524225ff2638e658875afd8307b5f9be473d41",
+          "terms": 108
+        },
+        {
+          "degrees": [
+            2,
+            3,
+            1
+          ],
+          "exponent": 2,
+          "sha256": "8e5c7a3a0a4a2e0de5cf9d0dd2deb2379dfbbcb6b4af9f73f8563649db93e372",
+          "terms": 10
+        }
+      ]
+    },
+    {
+      "name": "P1_common_coefficient",
+      "elapsedSeconds": 11.745206,
+      "factorProductRemultiplied": true,
+      "original": {
+        "degrees": [
+          0,
+          0,
+          0
+        ],
+        "sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+        "terms": 1
+      },
+      "factors": []
+    },
+    {
+      "name": "P1_E1",
+      "elapsedSeconds": 11.768346,
+      "factorProductRemultiplied": true,
+      "original": {
+        "degrees": [
+          10,
+          17,
+          18
+        ],
+        "sha256": "8fb4abe0a65d1c9b82247df61b5da614a9faf09eb6db3f9356944a32daca66c6",
+        "terms": 2491
+      },
+      "factors": [
+        {
+          "degrees": [
+            10,
+            17,
+            18
+          ],
+          "exponent": 1,
+          "sha256": "781485f8be8195c1f00b9d98440e9ef28f4a0963e476ed02ff6d148201d6a5ca",
+          "terms": 2491
+        }
+      ]
+    },
+    {
+      "name": "P1_EB",
+      "elapsedSeconds": 11.791153,
+      "factorProductRemultiplied": true,
+      "original": {
+        "degrees": [
+          11,
+          20,
+          18
+        ],
+        "sha256": "d283d1317663e930a104f6dedbc089f33f0932b156591353d18906d1f6e7ce8a",
+        "terms": 3288
+      },
+      "factors": [
+        {
+          "degrees": [
+            11,
+            20,
+            18
+          ],
+          "exponent": 1,
+          "sha256": "393edc88796ac3c1bdc58442745d17f812aef31e1966b351033dd754ffd64438",
+          "terms": 3288
+        }
+      ]
+    },
+    {
+      "name": "P1_EC",
+      "elapsedSeconds": 11.809814,
+      "factorProductRemultiplied": true,
+      "original": {
+        "degrees": [
+          11,
+          18,
+          18
+        ],
+        "sha256": "fb55cc367a2439b06576dd96dae4978e48d1bcea3e7daea363b8ba812fddd776",
+        "terms": 2754
+      },
+      "factors": [
+        {
+          "degrees": [
+            11,
+            18,
+            18
+          ],
+          "exponent": 1,
+          "sha256": "f9911670443affc77d879b85b9d700229ddd22c4d6e47aa9703e66f1ee7b317d",
+          "terms": 2754
+        }
+      ]
+    },
+    {
+      "name": "P1_N1",
+      "elapsedSeconds": 11.840805,
+      "factorProductRemultiplied": true,
+      "original": {
+        "degrees": [
+          10,
+          17,
+          19
+        ],
+        "sha256": "64530f946b304d5ecc57458fab1dcc836b5c10d3635bcc66247a4f7bc94712c3",
+        "terms": 2690
+      },
+      "factors": [
+        {
+          "degrees": [
+            10,
+            17,
+            19
+          ],
+          "exponent": 1,
+          "sha256": "babbba525ab6aa62d0952f583281f92a74967d863bda2b67c3cd450e52b7cf3a",
+          "terms": 2690
+        }
+      ]
+    },
+    {
+      "name": "E1_N1",
+      "elapsedSeconds": 11.97852,
+      "factorProductRemultiplied": true,
+      "original": {
+        "degrees": [
+          12,
+          25,
+          25
+        ],
+        "sha256": "637154d92ad7c8a8f5c0d4515bd08f119f27f178d2a54059777e21297aab3c70",
+        "terms": 6465
+      },
+      "factors": [
+        {
+          "degrees": [
+            2,
+            3,
+            2
+          ],
+          "exponent": 1,
+          "sha256": "6b73570a06fd9c8b8a1be2544fa61bd6744adfca529ac55559008619000a663a",
+          "terms": 19
+        },
+        {
+          "degrees": [
+            10,
+            22,
+            23
+          ],
+          "exponent": 1,
+          "sha256": "af346d8e6543cefbd468a2d571a4e8841c0ce42f40a25d5ef600f17dacd7bcc7",
+          "terms": 4544
+        }
+      ]
+    }
+  ],
+  "claimExcluded": false,
+  "note": "Multivariate coefficient gcd 1 is not a unit-ideal certificate. Original E1/N1 resultant has a quadratic rho factor; its complementary factor remains."
+}
