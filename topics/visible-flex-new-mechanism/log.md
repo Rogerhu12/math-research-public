@@ -503,3 +503,8 @@ open原28316B全文按链接层级移入open-before-fixed-E-and-K-only归档，�
 ## 2026-11-27｜97q实际mean与tail坐标分类更正
 
 回查原coordinate_scope：97q的mean为64:80与末位96，q80是新增tail-u首项。更正298收据及open一句分类，全部字面差、实际59a4/f60资格和新mean须另付参考的结论不变；原科学source未改，后继未发request同步收据新hash。
+
+
+## 2026-11-27｜R625首次全反馈的原机械失败与真实保留态
+
+全文读10828B收据，原227442B stdout与25413B原源键序state SHA核合，初始/FINAL完全同态；0接受/28.886597651秒，首次trial numpy.bool序列化失败，未提交接受决定。原D/root、seed、真实C²和fixed-fine成本齐留；ODE3.9586e16、fine ruling1.79859e14及极小LU fraction如实，未存方向不造条件数。后继保原物理门，载原state/readout，改原三角等价规范增量及明确阻尼全局化；H压缩为当前可接续状态，全部原细节仍在各收据。

@@ -479,3 +479,6 @@
 
 
 - [R582正常298的新f60与真实59a4终态](notes/2026-11-27-r582-physical-pending298-original-terminal.md)：**数值改善，阶段未过**；新实际f60明确重付baseline，12接受到16149×3072 η3.838285783e−5、物理/working V0。末更低d613真实违规拒绝，已采用311/新16167未获资格；13Jac/15fine/2370.257524993秒全计。当前mean也变，旧0d/a237几何和圆证书均不转移，接当前59a4完整新几何。
+
+
+- [R625首次原全反馈终态](notes/2026-11-27-r620-r625-first-full-feedback-natural-final-agent.md)：**原方程未解，首次试步机械中断**；新28.886597651秒/0接受，输入唯一q/原65×19/真实seed-C²-fixed-fine已付。numpy.bool日志序列化失败，ODEmax3.9586e16、fine ruling1.79859e14；极小LU fraction不证明秩亏。完整原状态/费用保存，后继改等价规范坐标和方向组织，不重跑已付输入或fine。
