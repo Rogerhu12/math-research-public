@@ -1,0 +1,131 @@
+{
+  "selection_status": "Ready complete entry; select only from an actual fixed-deep-scalar parent after its true returned progress, not an automatic extra coarse fixture. Budget may explicitly increase from 64 based on actual Pg/tolerance.",
+  "same_profile": "exact profile, physical eta and literal shared R preserved; all old q modes/angles/permanent locations retained; parent measure uses parent literal a",
+  "steps": [
+    {
+      "id": "same-fixed-deep-scalar-complete-radial-refinement-ready-20261126",
+      "script": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/refine_deep_scalar_actions.py",
+      "parent_bundle": "deep-fixed-scalar-amplitude-first/final.npz",
+      "args": [
+        "--repo",
+        "{repo}",
+        "--work",
+        "{work}",
+        "--parent-report",
+        "{work}/deep-fixed-scalar-amplitude-first/report.json",
+        "--bundle",
+        "{work}/deep-fixed-scalar-amplitude-first/final.npz",
+        "--carrier",
+        "{work}/deep-fixed-scalar-prepare-first/observations.npz",
+        "--node-report",
+        "{work}/deep-fixed-scalar-prepare-first/nodes.json",
+        "--scalar-input",
+        "{work}/fullclosed_solver/data/pulse-a5-complete-base.json.gz",
+        "--manifest",
+        "{work}/deep-fixed-scalar-prepare-first/locations.json",
+        "--radial-factor",
+        "2",
+        "--directions",
+        "2",
+        "--maxiter",
+        "64",
+        "--stage-block",
+        "64",
+        "--scalar-admission-seconds",
+        "300",
+        "--scalar-integral-tolerance",
+        "1e-18",
+        "--scalar-tail-cutoff",
+        "1/8",
+        "--outdir",
+        "{work}/deep-fixed-scalar-refinement-first"
+      ],
+      "outputs": [
+        "deep-fixed-scalar-refinement-first/refinement-plan.json",
+        "deep-fixed-scalar-refinement-first/transfer/refinement-report.json",
+        "deep-fixed-scalar-refinement-first/transfer/refined-deep-seed.npz",
+        "deep-fixed-scalar-refinement-first/transfer/refined-deep-observations.npz",
+        "deep-fixed-scalar-refinement-first/transfer/refined-deep-symbolic-nodes.json",
+        "deep-fixed-scalar-refinement-first/transfer/refined-deep-permanent-locations.json",
+        "deep-fixed-scalar-refinement-first/transfer/refined-deep-reference-profiles.npz",
+        "deep-fixed-scalar-refinement-first/transfer/refined-deep-reference-profiles.json",
+        "deep-fixed-scalar-refinement-first-solve/report.json",
+        "deep-fixed-scalar-refinement-first-solve/final.npz"
+      ],
+      "summary": {
+        "deep-fixed-scalar-refinement-first/refinement-plan.json": {
+          "schema": "schema",
+          "source": "source_sha256",
+          "profile": "fixed_scalar_metric_identity_sha256",
+          "parent": "actual_parent_bundle.sha256",
+          "transfer_returned": "transfer_returned",
+          "solve_returned": "solve_returned",
+          "failure": "actual_failure",
+          "eta": "actual_refined_eta_start_node",
+          "source_M": "parent_M",
+          "new_M": "refined_M",
+          "source_N": "parent_N",
+          "new_N": "refined_N",
+          "zero_direction": "zero_direction_exit",
+          "directions": "actual_direction_count",
+          "accepted": "actual_accepted_direction_count",
+          "fine_initial": "refined_solver_initial_statistics.max_relative_gram",
+          "fine_final": "final_fine_statistics.max_relative_gram",
+          "common_parent_max": "final_common_parent_measure.parent_max_relative_Gram",
+          "fine_on_parent_max": "final_common_parent_measure.current_max_on_parent_rows",
+          "common_Phi_change": "final_common_parent_measure.actual_fine_minus_parent_Phi",
+          "common_centered_change": "final_common_parent_measure.actual_fine_minus_parent_centered_Phi",
+          "target": "actual_parent_stopping_threshold",
+          "final_K": "final_known_point_filter.passed",
+          "final_amp": "final_amplitude_filter.passed",
+          "final": "actual_final_bundle_sha256",
+          "complete_claim": "topic_completion_claimed"
+        }
+      }
+    },
+    {
+      "id": "actual-same-fixed-deep-scalar-refinement-report-ready-20261126",
+      "script": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/read_refined_deep_scalar_report.py",
+      "parent_bundle": "deep-fixed-scalar-refinement-first-solve/final.npz",
+      "args": [
+        "--repo",
+        "{repo}",
+        "--report",
+        "{work}/deep-fixed-scalar-refinement-first-solve/report.json",
+        "--comparison-parent-report",
+        "{work}/deep-fixed-scalar-amplitude-first/report.json",
+        "--out",
+        "{work}/postprocess/deep-fixed-scalar-refinement-first-summary.json"
+      ],
+      "outputs": [
+        "postprocess/deep-fixed-scalar-refinement-first-summary.json"
+      ],
+      "summary": {
+        "postprocess/deep-fixed-scalar-refinement-first-summary.json": {
+          "schema": "schema",
+          "driver": "complete_source_binding.driver.sha256",
+          "profile": "fixed_scalar_metric_identity_sha256",
+          "parent": "actual_parent_bundle_sha256",
+          "final": "actual_final_bundle_sha256",
+          "fine_initial": "initial_metric.max_relative_gram",
+          "fine_final": "final_metric.max_relative_gram",
+          "actual_parent_max": "actual_parent_metric.max_relative_gram",
+          "initial_on_parent": "initial_on_common_parent.max_relative_gram",
+          "final_on_parent": "final_on_common_parent.max_relative_gram",
+          "common_Phi_change": "actual_common_parent_Phi_change",
+          "common_centered_change": "actual_common_parent_centered_Phi_change",
+          "common_max_change": "actual_common_parent_metric_change",
+          "directions": "actual_direction_count",
+          "accepted": "actual_accepted_direction_count",
+          "zero_direction": "zero_direction_exit",
+          "final_amp": "final_amplitude.passed",
+          "final_K": "final_necessary_curvature_filter.passed",
+          "source_error": "stopped_before_linear_iteration",
+          "convergence_claim": "fixed_g_refinement_convergence_claimed"
+        }
+      }
+    }
+  ],
+  "actual_current_parent_bundle_sha256": "b788c32879aa5ff5ff3d5f2ed81b92205b54fc0da61a1a2b84ace8345a3f22eb",
+  "actual_parent_selection": "Actual stage59/60 fixed profile383168 complete parent at deep-fixed-scalar-amplitude-first; source d3c354. Root chooses whether/when refinement runs after returned Pg/tolerance and same-field geometry."
+}
