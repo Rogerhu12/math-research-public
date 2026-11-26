@@ -288,3 +288,5 @@
 - [R587 冻结度量的均值高度消元](results/R587-fixed-metric-mean-height-elimination-at-flat-cap-and-core.md)：**已证明**条件性标量根及准确二jets导数、快速全平帽端的实际局部IFT和核心稳定ζ变量。完整E_*固定、真实中段导数/核心C1为前提；未授非零角模逆、现候选收敛或reach。
 
 - [R576首轮有限高度原终态](notes/2026-11-26-r576-finite-height-first-natural-final.md)：**完整原观察**。run45795351410，77.036899911秒，新光滑H*共振及52列Jac已进入；ε1e−5末细η5.32656e−6、direct约5.3264e−6，仍未达门。下一复用小态和末q修正非缩放不变裁步，实际κ约9.5629只作有限观察，未授宏观/固定g/连续reach。
+
+- [R586 完整历史的准确六元投影与有限积分](results/R586-sixfold-full-history-coefficient-projection-and-finite-integrals.md)：**已证明**同一36块完整R/L/G/有序B/c只有QQ与C²Q两型，六元系数平均和≤10位置矩先于求积；真二尾保留，四导和新第三尾准确转置，整个σ′公共分子有限预收。未授新完整数值精度、十九态根或rank。
