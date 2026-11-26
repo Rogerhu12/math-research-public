@@ -368,3 +368,5 @@
 - 2026-11-26 10:38 UTC｜Astra-held10-06bbeb39-20261126：v3唯一tiny接受步由原更新式还原控制方向max6.6102/l1 76.7091；不冒称已知其mesh/J。新增一次原collocation-LU/21级方向诊断，保原cost和域、另记同LU逆放大的FD merit斜率，compile/help通过；已排暖父链自然返回后，尚未执行。design诊断只增已存小results投影，不动求解。
 
 - 2026-11-26 10:46 UTC｜Astra-held10-06bbeb39-20261126：原历史λ.004完整参考H的factor.5真正返回第二包1fdc4b76与原audit，res9.4449056e−10，formalK8.1487384；10:44:57续.75。此为独立暖尾有限接受，未缩fullH、匹配前缀和连续闭面证书仍未获；小标量/命令/SHA已存。
+
+- 2026-11-26 10:49 UTC｜Astra-held10-06bbeb39-20261126：仅将原native准备器workers上限3→4并改两处文案，默认2/全部数学字节及M≤64硬门不变；AST实际通过。原M20/2304段四worker已有逐位数值等价实测，旧计时不外推新RSS/速度/尾接受；新入口供后续独立full-DN，未改运行中manifest。

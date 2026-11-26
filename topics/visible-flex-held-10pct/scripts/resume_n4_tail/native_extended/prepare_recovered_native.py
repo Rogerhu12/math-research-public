@@ -5,7 +5,7 @@ Input must be an owned sparse/shared/periodic source tree. The mathematical
 kernel, boundary equations, normalizations, Newton/line-search rules and all
 acceptance gates are unchanged. The declared M/spacing/quadrature and the
 fresh source/binary hashes replace references to unavailable old scratch.
-The unchanged native wire splitter may use one to three CPUs. No solver or
+The unchanged native wire splitter may use one to four CPUs. No solver or
 old result is replayed as a preparation requirement.
 """
 import argparse
@@ -40,8 +40,8 @@ def main():
     a = p.parse_args()
     if a.dest.exists():
         raise FileExistsError('Use a fresh owned destination')
-    if not 1 <= a.workers <= 3:
-        raise ValueError('Use one to three native workers')
+    if not 1 <= a.workers <= 4:
+        raise ValueError('Use one to four native workers')
     if a.quadrature <= 4*a.modes*a.spacing:
         raise ValueError('Retain the original strict quadrature bound')
     own = Path(__file__).resolve().parent
