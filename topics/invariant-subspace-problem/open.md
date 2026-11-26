@@ -62,7 +62,7 @@ $$
 
 **[单位211非零m的整个u1图已空](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-nonzero-isolated-mean-unit-base-complete-exclusion.md)：** 共同规范p+q2后，原有限覆盖与整半权已付；两QQ高曲线结式1085/1389迫l2，原B/R01/R02/R04在整个Q九次商代数中的共同z因子为1，13次QQ真逆全部回乘。run45804559912/job139856248459、5.703188秒/94636KiB/exit0。结合全部低配对/P0零/半比例/jet边界关闭u1，不重做旧l2多变量GB。只能继续一般u≠1，不能把共同缩放再用一次；U值图和L/S系数退化面接着推进。
 
-**[一般非零mean的原U值坐标覆盖](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-original-U-value-atlas.md)已付：** 保P0=−U0³、完整三moment/值碰撞、原E0/N0图与N(V)仿射式；t系数准确为bcLS/[2(q−1)]。LS非零图只余(f,q,λ,h,k)，L0与S0全系数退化单独保留；L0/w1只余QQsqrt17的rho/f/t原九式。短原身份实际0.568990秒/exit0；旧900秒大展开exit−9不作成功。继续原必要式和物理实现。
+**[一般非零mean的原U值坐标覆盖](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-original-U-value-atlas.md)已付：** 保P0=−U0³、完整三moment/值碰撞、原E0/N0图与N(V)仿射式；t系数准确为bcLS/[2(q−1)]。LS非零图只余(f,q,λ,h,k)，L0与S0全系数退化单独保留；[L0/w1原九式现已全排](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-U-value-L0-w1-exclusion.md)：保两共轭与全部P1首项零纤维的QQ范数gcd64→48→0（0.222536秒/exit0），L0仅续w(w−1)非零的全局f图。短原身份实际0.568990秒/exit0；旧900秒大展开exit−9不作成功。继续原必要式和物理实现。
 
 **S0/Af0的已闭例外与剩余曲面：** [完整有限覆盖](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-U-value-S0-finite-parameter-cover.md)的I=H0只余M6；[这整个24维参数族现已排空](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-U-value-S0-M6-exclusion.md)，原P1全局系数单位及E1/EB的24阶QQ结果式乘法身份都已回乘，48真逆，run45808427743/job139869664343、2.914484秒/exit0。[S0/Af0全部值碰撞](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-U-value-S0-collision-exclusion.md)亦全闭。只续三值互异I/H非同时零的全局q图，已对称为(λ,z)；不要重做M6或碰撞。S0/Af非零面与一般LS图继续。
 

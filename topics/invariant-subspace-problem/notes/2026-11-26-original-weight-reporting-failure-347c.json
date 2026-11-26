@@ -1,0 +1,33 @@
+{
+  "job": 139874499978,
+  "receipt": {
+    "elapsed_seconds": 0.085391553000008,
+    "max_child_rss_kib": 40468,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "53707161f2cf0f3404c928a547025811ff25097d",
+        "before": "eed35f2fb51b2b4f48ee85adc0fab5249aeaa074",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "fef43bdf8690f2eec4751d85784a266eacdd0322"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-26T11:22:06.230901+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "45809839217",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-347c-20261126",
+    "source_commit": "eed35f2fb51b2b4f48ee85adc0fab5249aeaa074",
+    "source_exit_code": 1,
+    "source_git_blob": "6ac94285069070274b2085b2875c49e84831ea1f",
+    "source_sha256": "9e63288b850aa001c1e8e5ecaf9fd3a082e1016711be1c6b821e2c0ea803e848",
+    "stdout_bytes": 1323,
+    "stdout_sha256": "06c010c6de3f6b43e753b046818f9b23dca1c2f9767a4324578ea0ab03598f68",
+    "stop_reason": null
+  },
+  "reports": [],
+  "reason": "First profile field ftDegree was a FLINT fmpz, not JSON serializable. All source assertions and equation construction preceding reporting passed; no Singular input or GB execution occurred. Cast this report integer to Python int; mathematical equations unchanged."
+}

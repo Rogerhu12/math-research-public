@@ -27,12 +27,6 @@ jobs:
             seconds: 480
             minutes: 15
             singular: true
-          - label: unit211-original-P1-and-S0-cover
-            file: 2026-11-26-unit211-original-P1-S0-line-347c.py
-            condition: 'all'
-            seconds: 180
-            minutes: 10
-            singular: false
     env:
       ISP_PIN: ${{ github.sha }}
       ISP_FILE: ${{ matrix.file }}

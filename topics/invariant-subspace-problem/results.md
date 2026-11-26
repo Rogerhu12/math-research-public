@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R150 U值L0/w1的整个原纤维全空（2026-11-26，已证明）：** [原二次域单位账本及双齐次投影](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-U-value-L0-w1-exclusion.md)保两个λ共轭、全部ρ及P1两系数同零；三个原mean结果式的QQ范数gcd64→48→0。run45808873477/job139871189527、0.222536秒/exit0。L0仅剩w(w−1)非零原图；没有把该一般余图排除。
+
 - **R150 S0/Af0/I=H0 的完整M6参数族全空（2026-11-26，已证明）：** [原24维QQ代数与真实单位身份](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-U-value-S0-M6-exclusion.md)保所有值分配/q根，P1的f系数在全代数可逆；原E1/EB二次结果式的24阶乘法矩阵有真逆并回乘1，48次逆均付。run45808427743/job139869664343、2.914484秒/exit0；I/H非同时零曲面仍开。
 
 - **R150 四源有限 Hp0 的十二原式等价于四物理变量七式（2026-11-26，已证明）：** [完整双向归约](results/R150-appendix-rank-three-double-plus-single-zero-hp-four-variable-quadratic-reduction.md)消去五个尺度变量，最高w及范数式关于d=w−s至多二次；只倒原Π，全部零领先项保留。模1031/e700实际基1仅供方向，真实九次域排除继续，未宣复参数为空。

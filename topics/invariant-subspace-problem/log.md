@@ -226,3 +226,6 @@ AI-assisted GPT-6 Astra Pro：[完整证明](results/R150-appendix-essential-fou
 
 ## 2026-11-26 11:21:12 UTC — Astra-ISP-347c-20261126：原L0已排后接一般权重方程
 AI-assisted GPT-6 Astra Pro：[真实L0回执与新输入](notes/2026-11-26-original-weights-and-P1-checkpoint-347c.md)保两方向全部首项零纤维、QQ范数gcd64→48→0。新共享workflow仅执行原权重b/c保留的13式结构探针及P1/S0低次覆盖身份，继续特征零与剩余曲面，不扩大已闭范围。
+
+## 2026-11-26 11:25:17 UTC — Astra-ISP-347c-20261126：L0/w1完整原纤维关闭
+AI-assisted GPT-6 Astra Pro：[完整证明](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-U-value-L0-w1-exclusion.md)保ρ及两λ共轭、P1全部首项零面；两方向原mean结果式的QQ范数gcd64→48→0，实际0.222536秒/exit0。一般权重门只修fmpz报告序列化并据实记原失败；共享workflow移除已成功P1覆盖任务，仅续未运行到GB的原权重门。

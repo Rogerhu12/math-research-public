@@ -60,7 +60,7 @@ assert P2(rows[0])==P02*D**3
 assert N4num(rows[0])==2*lam*P02*D**3
 NV=N4num(VV)
 def ft_degree(po):
- return max((m[1]+m[2] for m in po.to_dict()),default=-1)
+ return int(max((m[1]+m[2] for m in po.to_dict()),default=-1))
 assert ft_degree(NV)<=1
 original=[
  ("E1",E[1]),("EB",E[2]),("EC",E[3]),
