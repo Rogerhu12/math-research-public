@@ -130,6 +130,8 @@ A单射、稠密像、拟幂零且非紧；普通非零真闭不变子空间仍�
 
 **[全部2-adic平移距离与具体C*自伴核已确定](results/R12-appendix-norm-closure-all-adic-translation-distances-and-concrete-crossed-product-core.md)：** t∉N0时dist(M_vU^t,R)=||v||∞，n≥0时为原W_n零点邻域的本质一致消失范数。平移生成B内R∩R*=MASA，交换子∩B=poly范数闭包；R38实际Y∈D\B，故全R自伴核仍开，不能越过这一真实剩余部分。
 
+[全部odometer非平凡谱投影已排除于整个R](results/R12-appendix-uniform-positive-distance-of-all-odometer-spectral-projections.md)，统一距离≥1/π，不限平移生成B。R∩{U}′的代数元只能标量，自伴核心内Fourier乘子谱必须连通；连续谱剩余及全R核心仍开。
+
 硬复制和任意复软复制（自适应、统一有界放大、固定非零球）已有五次累计成本障碍，原幂衰减只有四次；软化cut不能修复。一般有限头重排与非复制来源仍开。未知A不变空间未证被D核心保持。
 
 ## 4. 其余开放路线和范围
