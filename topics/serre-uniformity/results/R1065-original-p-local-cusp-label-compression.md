@@ -439,3 +439,15 @@ $\mathbf F_p$，[作者原文](https://arxiv.org/pdf/1310.7789)，
 global_route 与 root 分别亲读该页并核对三个同余分支。
 这里只消费已知精确计数，新增的是它对原规范标签及同一 global
 twists 的直接界；无数学执行。
+
+
+## 10. 后继的实际 CM 代表接口
+
+[R1066](R1066-original-p-local-disks-and-bounded-CM-representatives.md)
+已证明原每个 $\mathbf Q_p$ 模 $p$ 圆盘均含一个 canonical CM 点，
+完整 CM 判别式 $D'\le4p^{3/2}/\sqrt3$，p 惰性且不除 conductor。
+因此本篇有限局部标签像可由这些实际 CM 点及其指定
+$\mathbf Q_p$ embeddings 完整读取。
+这些点通常不是 $\mathbf Q$-有理点；这项进展没有证明
+带这些标签的 $\mathbf Q$ 点为 CM，也没有支付同一 global twist
+的辅助共同像条件。

@@ -504,3 +504,8 @@ R1061 §15：亲读 McCarthy 含退化项的 Th4.2，目标角色恰被常见 Th
 ### 2026-11-27 07:01 Asia/Taipei — 执行器再探与规则同步
 
 23:01:24 UTC（07:01 Asia/Taipei）再次调用公开部分克隆目录的 git status；工具返回 No usable execution environment，shell 未运行。最近真实 git pull 仍为 01:48；没有把连接器读 main 冒称 pull。继续按根规矩8执行小文本 fallback：提交前重新取 main、检查根 README 与课题 README 差异，以当前父提交与 expected_sha 非 force 更新。执行器恢复即真实 pull --rebase；研究继续原 CM 圆盘/标签代表、Miller 三分布及 Green 行列式。
+
+
+### 2026-11-27 07:09 Asia/Taipei — R1066 原每盘的有界 CM 代表
+
+R1066 给全 $p>37$ 原最小正则模型每个 $\mathbf Q_p$ 模 $p$ 圆盘的实际 CM 代表，完整 CM 判别式 $D'\le4p^{3/2}/\sqrt3$ 且 p 惰性。保持实际 Frobenius 的 Gram determinant 4p 二元格，加指定 index-p 斜率得短向量；mod p² GM 和 arithmetic descent给原 good lift。source Dickson/Reynolds/精确 Kummer invariance支付除p后的完整modp精度，j0及j1728所有coarse twist支路保留；canonical Nns结构与数域Q(j)实际p-adic embedding齐备。故原规范局部标签像准确由有限有界高次数CM评价产生，未据此声称Q-CM或全局同标签。H/open在压缩前逐字归档；原未解的global twist/2、3/class-group/辅助共同像继续。无数学执行。

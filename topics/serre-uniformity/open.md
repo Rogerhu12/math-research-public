@@ -2,7 +2,7 @@
 
 **主要目标仍OPEN。** 完整证明绝对常数C，或给出p→∞完整无CM反例族；有限素数、条件结论、低权/局部Abel/部分子群均不够。
 
-此前逐字状态在[最新open归档](open-archive-2026-11-27-before-local-label-compression.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重算。
+此前逐字状态在[最新open归档](open-archive-2026-11-27-before-bounded-cm-representatives.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重算。
 
 ## 原最低型：已经付清的输入与准确剩余标量
 
@@ -31,7 +31,9 @@ R1018–40的原完整Fm/两节点Dickson/PD及好BT整比较均已付，详细�
 
 ## O0：全主目标覆盖（R1003恢复原范围）
 
-[R1065](results/R1065-original-p-local-cusp-label-compression.md)：全 $p>37$ 原曲线的 Kummer 标签在每个 $\mathbf Q_p$ 模 $p$ 圆盘恒定；原正则模型/cusp闭包/平凡 $U_m$ 角色齐备。§9用精确类数给实际像 $\le p\,n_{\mathbf Q_p}(p)=O(p^{3/2}\log p)$；regular $p$ 真实global twists候选 $\le p\,n_{\mathbf Q_p}(p)p^{\kappa_p}$，保全2/3角色。标签坐标、CM代表及辅助共同像仍开。
+[R1066](results/R1066-original-p-local-disks-and-bounded-CM-representatives.md)：全p>37每个原Qp模p圆盘含 $D'\le4p^{3/2}/\sqrt3$、p惰性的CM代表；实际π格/GM/source/coarse twists齐备，局部标签由有限高次数CM评价给出。同一global标签及辅助共同像仍开，不推Q-CM。
+
+[R1065](results/R1065-original-p-local-cusp-label-compression.md)：原Qp每盘标签恒定，实际像≤ $p\,n_{\mathbf Q_p}(p)=O(p^{3/2}\log p)$；regular p全局候选再乘准确 $p^{\kappa_p}$，保全2/3及class-group边界。
 
 [R1064](results/R1064-original-cuspidal-cover-descent-and-auxiliary-character-visibility.md)：真实Q-torsor与cusp平方角色已付；regular p下每cusp单一p^r次闭点，无Runge盈余。辅助ℓ只读ℓ^(2j+1)=1角色，真实可见商/Weil给有限辅助范围；同标签共同像排除仍开。
 
