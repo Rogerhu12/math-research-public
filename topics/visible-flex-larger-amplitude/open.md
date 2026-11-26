@@ -122,3 +122,5 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 [原606完整积分范数方向](notes/2026-11-26-direct-axisymmetric-integral-norm-full-direction.md)已排03b，同固定g新完整q.initial/新范数/明确mu .01，原全部变量和四份已返地点源保；旧norm restart守卫不变。原3d9详细R696纯读取排在前，积分因子是否成功及真实效果待实际返回。
 
 [完整残差延拓](notes/2026-11-26-same-endpoint-residual-continuation.md)已刊并排积分后：同原C/固定Q/H/球，λ仅求根辅助，最终原C/Cz独立复读；全部五历史地点输入含必需积分报告，缺文件不能默默略去。完整源码与源锁/参数/回退和未付连续分支责任见note，未报新结果。
+
+[轴端准确同族](notes/2026-11-26-zero-endpoint-axis-planar-control-equivalence.md)：phi0反射子空间的新旧Q仅重参数化同两Ry形状；保控制协变时释放两bubble六轴仍不增轴端形状。真正新增径向shape另需完整KKT/隐式链，实际角5失败不能由轴端结论替代。
