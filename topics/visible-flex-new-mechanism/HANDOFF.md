@@ -5,7 +5,7 @@
 
 ## 1. 规则、授权与原始记录
 
-公开已读提交 **e3d95b5acbe933292ba374a009f8dc0fef311298**（2026-11-26 16:06 UTC；本次实际pull后根/题README空差异）；最后实际pull及规则同blob读至 **b38d9f4f9a73837bfad87380846f2374d9de163a**（2026-11-26 16:06 UTC；实际pull成功，根README空差异、QUEUE仍本会话）。私有 QUEUE 仍为本会话进行中，原认领提交9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7，其他课题认领不改。
+公开已读提交 **ed4092768969b5fbfb859355cc4f8a1e3897c9d2**（2026-11-26 16:08 UTC；本次实际pull后根/题README空差异）；最后实际pull及规则同blob读至 **5a4e6154670abc3dc7272b5d372873a8d5b85856**（2026-11-26 16:08 UTC；实际pull成功，根README空差异、QUEUE仍本会话）。私有 QUEUE 仍为本会话进行中，原认领提交9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7，其他课题认领不改。
 
 [本次压缩前全文](notes/HANDOFF-before-continuous-angular-bounds-20261126.md)及其所链[继承交接](notes/HANDOFF-inherited-20261116-1809.md)保全部结论、条件、旧失败、输入与费用；不因摘要删账。三次环境失联后已恢复；远端临时CLI和后续本地CLI均真实双pull/rebase/push。每次实际pull后查根/题README差异并执行，至少每小时；API读取不冒pull。root独占git和共享索引，每条结论即推，NFF立即pull --rebase再推至成功。
 
@@ -47,7 +47,9 @@ R584/R586/R589/R590保19态真历史、一次χ、正平方、负侧反号、偶
 
 [首九参数完整mass终态](notes/2026-11-26-r603-vtwo-first-mass-public-receipt-agent.md)：run45839778794真付180.569685459主秒/181.470336墙秒；50接受/51全态/77219LSMR，末原ruling6.2885e14、BC.68010、原sigma历史1.1184e13。guide中心准确而全程正势5.2986e14；末插值真导数差5.8568，focal/Dsample .024786<.03，不是原轨道或根。
 
-[R605](results/R605-real-memory-coordinates-and-leading-energy-local-flow.md)付可逆R/θ/I记忆、m正全程guide和两侧共常数首层的内部正则流；prepared前缀/全程返回/八矩仍欠。[新全程输入与精确BC源](notes/2026-11-26-r605-memory-energy-hard-mass-implementation-agent.md)已正式发布：11参数真实R/θ/I、全部八矩/两侧共λ能量，中心四阶离开H、末二阶回到H，修复B端0而m端非0的结构失配。原29BC准确嵌入且DE链完整，原mass/正势/rho不改；下一据自然终态继续。原第三/第四period、pose、宏观预算仍保未付。
+[R605](results/R605-real-memory-coordinates-and-leading-energy-local-flow.md)付可逆R/θ/I记忆与内部正则首层流，仍欠全程返回。[精确BC原终态](notes/2026-11-26-r605-memory-hard-mass-first-public-receipt-agent.md)run45850563705/job140015513011，新348.104444742主秒/349.370370墙秒、50接受/84773LSMR；29BC误差8.267e−18，但原flow .25009/ruling8.9625e9、真M缺陷.18717/sigma2.223e12，未触129精化。末存储A零不是真矩返回，原自由中心已非prepared。
+
+真实密度恒等式8Δt1+2Δp1=∫(k²−1−(h_s/h)²)要求真共同返回时RMS(k)≥1；本guide原积分组合−5.23948未闭。下一以真实h/k及η/A/rho完整积分消去history自由，奇中心可按原端图回代；须付足全程k能量及全部剩余矩/原两ruling，不再延长旧硬BC节点scope。全部period、pose、宏观与reach仍欠。
 
 [R607](results/R607-positive-prepared-center-leading-energy-layer.md)给真M/运动学的正四阶中心层：k‴=6、c∈(1/6,3/4)及同λ使B±−λm=O(s⁶)。有限阶相容不授退化中心到内部流或全程返回，继续实际质量式。
 

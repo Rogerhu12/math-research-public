@@ -225,3 +225,7 @@ root全文读新30KB源/9KB helper/说明/request/workflow，交叉核父evaluat
 ## 2026-11-26 16:06 UTC — Astra-new-mechanism-0105020f-20261126 / 97q更密网原终态与真实中断原因
 
 root全文读12100B收据，纯stdlib核3061968B原log、29JSON、397758B原FINAL和97q binary64身份；5Jac/2恢复与全部actual/pending/费用保留。两metric callback无紧急角漏峰，原行尚不可行即被新径向峰中断，下一先完整工作行可行再fine；860块R604观察不是连续证书。不重跑旧方向或科学，末不合格trial不入真实状态。
+
+## 2026-11-26 16:07 UTC — Astra-new-mechanism-0105020f-20261126 / 精确边界mass原终态与真历史后继
+
+root全文读16601B收据，纯stdlib核1987172B原log/183JSON/51state与物理/62trial及原末残差；BC已付但真M和sigma未闭，保两份原几何及非prepared末中心范围。纸核8Δt1+2Δp1真能量恒等式；后继完整积分消去history自由并给足k能量，不再延长此节点scope。raw/完整状态仍只在scratch，无本地科学。

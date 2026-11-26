@@ -72,9 +72,15 @@ R584/R586/R589/R590已经支付19态真历史、一次χ、完整正平方、负
 
 原19条流、两ruling、全正势/六rho/固定gauge与10真参数不改；首19末10条BC通过原center(p)和真实Jet链精确消元，原BC仍逐次输出。A初猜的平滑投影不保持A′=M，真实积分末矩、投影和原微分缺陷分别保。只有全部原flow/ruling≤1e−7、BC≤1e−10才作129stage精化；离散门不是连续根。
 
+[该新输入原终态](notes/2026-11-26-r605-memory-hard-mass-first-public-receipt-agent.md)已经完整读取：348.104444742主秒/349.370370墙秒，300nfev guide后50接受/12拒绝/84773LSMR。BC最大8.2670416e−18，但原flow .250085688、ruling8.9625233e9；实际Hermite真M缺陷.187173503、原sigma2.2231584e12。没有129加密，八个末存储A为零不是真积分零；末中心由原自由参数移走prepared，不能反驳R603。
+
+由原密度严格有 $8\Delta t_1+2\Delta p_1=\int_0^L(k^2-1-(h_s/h)^2)\,ds$，故真实共同返回要求RMS(k)≥1，非恒高时严格大于1。本guide实际257/513积分的组合约−5.23948；采样|k|≤.73649只是有限观察，不冒连续不可能性。guide有限focal/D=.04283384、末实际Hermite为.24088147，后者仍有.05315速度失配/未闭pose，不授原轨道或reach。
+
 ### 需要继续解决
 
-读本run自然末态，按全程原八矩/正势/ruling/真实插值而非软merit选后继。若全程guide不足，换真实路径、端坐标或整体参数化；不能删正势、局部改χ、放松BC或借未接受末态。随后仍须整个第三/第四period、原十三规范、frame/位置、全闭pose、嵌入和宏观reach预算。
+下一用真实h/k轨道，并将η、八A及全部rho按原式积分，消去可吸收真实M缺陷的独立history节点；允许原奇中心由真实末积分回代，保原自由中心意义和完整χ/规范，不额外强制prepared或非必要m形状。输入必须给足全程k平方能量并支付高度速度负项，然后解所有剩余矩、两侧完整ruling、正势/固定规范及真实几何。旧300nfev/50步scope不再原样延长。
+
+若新轨道不足，按真实积分/残差改变输入或全局组织；不能删正势、局部改χ、放松BC或把存储端点代替真实历史。随后仍须整个第三/第四period、原十三规范、frame/位置、全闭pose、嵌入和宏观reach预算。
 
 [R605](results/R605-real-memory-coordinates-and-leading-energy-local-flow.md)给可逆R/θ/I记忆、真实矩形记忆与两侧首层内部正则流；prepared中心退化前缀/全程连接/八矩返回仍欠。[R607](results/R607-positive-prepared-center-leading-energy-layer.md)给k‴=6、c∈(1/6,3/4)及同λ>0，使真实B±−λm=O(s⁶)，保Q一阶项；有限阶相容不授正长区间准确流或原finite-width解。
 
