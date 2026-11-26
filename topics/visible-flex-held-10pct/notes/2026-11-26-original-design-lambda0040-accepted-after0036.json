@@ -1,0 +1,113 @@
+{
+  "scope": "Actual original delta-design lambda .04/M32 return after the accepted .036/M32 field; no PDE rerun, no new complete-surface or fixed-g claim. This does not exceed the separate material runner's actual .064/M40 frontier.",
+  "read_utc": "2026-11-26 15:09:22 UTC",
+  "public_source": {
+    "repository": "Rogerhu12/math-research-public",
+    "commit": "5bf250307f972464690bd8b182e8d61f3ab880ee",
+    "path": "topics/visible-flex-held-10pct/ci/live-design-result.json",
+    "git_blob_sha1": "92f0dedb39b411415cf31772c68f9974a9202fd6",
+    "child_path": "design-prefix-recovery/material-delta-design/summary.json"
+  },
+  "ci": {
+    "run_id": 45801006547,
+    "job_id": 139843898376,
+    "source_command_id": "held10-material-delta-design-20261126-01",
+    "top_status": "running"
+  },
+  "actual_row": {
+    "accepted": true,
+    "actual_audit_mean_nodes": 1552,
+    "actual_delta": 0.06413304273886722,
+    "complete_saved_initializer": true,
+    "domain_error_counts": {
+      "Adaptive Frenet domain failure": 1
+    },
+    "domain_newton_stats": {
+      "accepted_steps": 13,
+      "calls": 1,
+      "minimum_alpha": 0.00000762939453125,
+      "no_step": 0,
+      "rejected_domain_trials": 1,
+      "rejected_merit_trials": 22
+    },
+    "error": null,
+    "homotopy": 0.04,
+    "metric": 6.792484953910386e-7,
+    "metric_only_failure": false,
+    "modes": 32,
+    "name": "attempt-009",
+    "nodes": 2325,
+    "original_finite_checks": {
+      "physical_bc": true,
+      "rms": true,
+      "solver": true,
+      "solver_and_boundary_pass": true,
+      "tolerances": true
+    },
+    "physical_bc_max": 5.728730344271815e-16,
+    "physical_sha256": "d8799e166eebcce59312d9e7e620356cb2c95a23610dfb826f6851f91bf328d7",
+    "raw_sha256": "52a7d25008522a935015cbc877774e1a705cb04e2572cd5e2c64647a174f4788",
+    "returncode": 0,
+    "rms": 8.177190879327562e-7,
+    "run": "/home/runner/work/_temp/held10-design/design-prefix-recovery/material-delta-design/attempt-009/run.json",
+    "run_sha256": "4f89af1d8202bac093e1e8e0f17a0f0247e32191574605dd46649c6a4c70a6a0",
+    "solver_success": true,
+    "source_run": "/home/runner/work/_temp/held10-design/design-prefix-recovery/material-delta-design/attempt-008/run.json"
+  },
+  "observed_parent": {
+    "status": "attempt-010",
+    "result": {
+      "accepted_lambda": 0.036000000000000004,
+      "last_accepted_run": "/home/runner/work/_temp/held10-design/design-prefix-recovery/material-delta-design/attempt-008/run.json",
+      "last_attempt": {
+        "accepted": true,
+        "actual_audit_mean_nodes": 1552,
+        "actual_delta": 0.06413304273886722,
+        "complete_saved_initializer": true,
+        "domain_error_counts": {
+          "Adaptive Frenet domain failure": 1
+        },
+        "domain_newton_stats": {
+          "accepted_steps": 13,
+          "calls": 1,
+          "minimum_alpha": 0.00000762939453125,
+          "no_step": 0,
+          "rejected_domain_trials": 1,
+          "rejected_merit_trials": 22
+        },
+        "error": null,
+        "homotopy": 0.04,
+        "metric": 6.792484953910386e-7,
+        "metric_only_failure": false,
+        "modes": 32,
+        "name": "attempt-009",
+        "nodes": 2325,
+        "original_finite_checks": {
+          "physical_bc": true,
+          "rms": true,
+          "solver": true,
+          "solver_and_boundary_pass": true,
+          "tolerances": true
+        },
+        "physical_bc_max": 5.728730344271815e-16,
+        "physical_sha256": "d8799e166eebcce59312d9e7e620356cb2c95a23610dfb826f6851f91bf328d7",
+        "raw_sha256": "52a7d25008522a935015cbc877774e1a705cb04e2572cd5e2c64647a174f4788",
+        "returncode": 0,
+        "rms": 8.177190879327562e-7,
+        "run": "/home/runner/work/_temp/held10-design/design-prefix-recovery/material-delta-design/attempt-009/run.json",
+        "run_sha256": "4f89af1d8202bac093e1e8e0f17a0f0247e32191574605dd46649c6a4c70a6a0",
+        "solver_success": true,
+        "source_run": "/home/runner/work/_temp/held10-design/design-prefix-recovery/material-delta-design/attempt-008/run.json"
+      }
+    }
+  },
+  "interpretation": {
+    "original_linear_dn_accepted": true,
+    "fixed_metric_refinement": false,
+    "full_nonlinear_tail_paid": false,
+    "complete_surface": false,
+    "next_target_known_from_projection": false,
+    "source_is_true_accepted_previous_row": true
+  }
+}
+
