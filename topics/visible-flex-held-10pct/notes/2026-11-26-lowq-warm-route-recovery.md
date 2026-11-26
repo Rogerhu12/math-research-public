@@ -12,3 +12,11 @@
 4. 只有实际M24通过才启动已声明的fullH、固定g诊断及λ设计三路；各路结果不能拼成同一个合格场。
 
 新runner使用原driver、原域和原解析参数列，没有应用未实跑的δ域内差分适配，也没有截静态controls冷开；observer只记录真实Jac/LU及保存未接受初猜。准备脚本通过编译和CLI检查；本note初次提交时尚无第二runner数值结果。新小结果随后即记即推。
+
+## 实际首返回及不同数值坐标表的明确处理
+
+run45772029917首命令已真正exit2，尚未导port或求BVP：再生chart SHA为69a3e8eb38463644119f22beec88824429ec8c480e812e7fc97a9fdbdcdde3f5，不是历史dc85dda524e03896b4afa552bd1f859b73cf96f88033565ff910e227034f2f93。原generator只存scope、reference_profile、65knots/values及末导数，没有时间/路径字段，不能称元数据差。完整旧65值已丢失，不能虚报差为零或给未计算的最大差。实测绑定见同日lowq-chart-precondition-return.json。
+
+新请求held10-lowq-current-chart-20261126-02在同一存活runner续做，输出另用lowq-prefix-recovery-current-chart。明确使用本次再生的数值坐标函数，先核setup manifest实际SHA、有限65节点/值、[0,1]递增节点和原clamped spline两jet，再检查q≤.06对应原角图的基础采样域。该采样不是连续证书；每一实际原BVP仍检查域与全部物理/metric门。全链固定这同一chart并逐阶段重核SHA，保物理profile、尾背景、核心圆化输入的硬绑定。
+
+这是本次恢复的数值坐标输入变化，不冒充历史chart逐字重现，也不把它当已证的同g精化。原物理多段g不由参考chart的reference_profile替换，后续固定g序列仍必须明确冻结实际chart。初次本地恢复记录中的历史chart同SHA结论只对应当时本地文件，不能外推为所有公共环境再生结果。

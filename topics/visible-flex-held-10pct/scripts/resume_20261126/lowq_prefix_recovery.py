@@ -9,6 +9,8 @@ The lambda=.002 M8 and M16 fields may be used as transfer initializers only
 after their original BVP succeeds and their complete physical files exist.
 Only a fresh M24 field passing all original finite prefix gates starts the
 three already declared continuations. No field or proof is presumed restored.
+The regenerated numerical chart is frozen within this chain; its bytes need
+not equal the lost historical numerical chart, and that difference is recorded.
 """
 import argparse
 import hashlib
@@ -97,11 +99,51 @@ def main():
             profile: '3f4042ffe0666bf8ba5b09dca3d056f9b0604b8e4ab3367e537d924bb7b0cfcc',
             lambda0: '1168a390edc052530d5b2b0dcca02242a79e8c02006662e523cbef6ce6ba1144',
             lambda002: '5ed9c06fd52c2162304560722f71751287c81497cd15967820e1f223c7283223',
-            chart: 'dc85dda524e03896b4afa552bd1f859b73cf96f88033565ff910e227034f2f93',
         }
         for path, expected in required.items():
             if digest(path) != expected:
-                raise ValueError('Declared original physical/core/chart input changed: '+str(path))
+                raise ValueError('Declared original physical/core input changed: '+str(path))
+        chart_sha = digest(chart)
+        setup = read(work/'recovery-setup.json')
+        if setup['generated'].get('inputs/reference/chart.json') != chart_sha:
+            raise ValueError('Regenerated numerical chart differs from its actual setup manifest')
+        for key in ('OPENBLAS_NUM_THREADS', 'OMP_NUM_THREADS', 'MKL_NUM_THREADS'):
+            os.environ[key] = '1'
+        import numpy as np
+        from scipy.interpolate import CubicSpline
+        chart_data = read(chart)
+        knots = np.asarray(chart_data['knots'], dtype=float)
+        values = np.asarray(chart_data['values'], dtype=float)
+        final_derivative = float(chart_data['final_derivative'])
+        if (knots.shape != (65,) or values.shape != (65,)
+                or not np.all(np.isfinite(knots)) or not np.all(np.isfinite(values))
+                or not np.isfinite(final_derivative) or knots[0] != 0. or knots[-1] != 1.
+                or not np.all(np.diff(knots) > 0.)):
+            raise ValueError('Regenerated numerical chart has invalid finite spline data/domain')
+        spline = CubicSpline(knots, values, bc_type=((1, 0.), (1, final_derivative)),
+                             extrapolate=False)
+        sample = np.unique(np.r_[knots, np.linspace(0., 1., 4097)])
+        h = spline(sample)
+        u = np.clip((sample-.75)/.25, 0., 1.)
+        cutoff = 1.-u**3*(10.-15.*u+6.*u*u)
+        margin = 1.-np.abs(8.*.06*h*cutoff)
+        if (not np.all(np.isfinite(spline.c))
+                or not all(np.all(np.isfinite(spline(sample, order))) for order in (0, 1, 2))
+                or not np.all(np.isfinite(margin)) or float(margin.min()) <= 0.):
+            raise ValueError('Regenerated chart failed the basic sampled original angular-domain check')
+        historical_chart_sha = 'dc85dda524e03896b4afa552bd1f859b73cf96f88033565ff910e227034f2f93'
+        state['results'].append(dict(name='regenerated_numerical_chart_binding',
+            historical_sha256=historical_chart_sha, actual_sha256=chart_sha,
+            exact_historical_bytes=(chart_sha == historical_chart_sha),
+            setup_manifest_sha256=digest(work/'recovery-setup.json'), knots=65,
+            strictly_increasing_knot_domain=True, finite_spline_two_jets=True,
+            radial_check_samples=len(sample), largest_chain_warp_q=.06,
+            sampled_angular_jacobian_margin=float(margin.min()),
+            scope='A regenerated numerical coordinate function, frozen throughout this chain. '
+                  'No historical 65-value equality is asserted. The radial sample check is '
+                  'only an entry check, not a continuous certificate; every original BVP, '
+                  'physical BC and metric gate still applies. The physical profile is unchanged.'))
+        save()
         settings24 = read(work/'m24-tail-settings.json')
         port24 = read(work/'m24-linear-port.json')
         if settings24['modes'] != 24 or settings24['quadrature'] != 512:
@@ -217,6 +259,8 @@ def main():
                   '--bc-tol', '1e-7', '--physical-bc-tol', '2e-9']
 
         def solve(name, q, modes, angular, extra=(), require_metric=True, checkpoint=False):
+            if digest(chart) != chart_sha:
+                raise ValueError('Frozen numerical chart changed within this recovery chain')
             directory, observer = out/name, out/(name+'-observer')
             row = run_stage(name,
                 [sys.executable, '-u', observer_script, '--observer-dir', observer,
