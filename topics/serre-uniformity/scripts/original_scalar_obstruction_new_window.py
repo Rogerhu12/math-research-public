@@ -2,7 +2,7 @@
 """A disjoint public-Actions search for an original f_N obstruction.
 
 The arithmetic is the already proved R698 algorithm.  This consumer never
-tests p <= 200000 and does not assert an all-prime unit theorem.  All raw
+recomputes the completed p <= 402581 prefix and does not assert an all-prime unit theorem.  All raw
 outputs remain in runner scratch; only compact receipts are printed.
 """
 
@@ -37,6 +37,51 @@ def alarm_handler(signum, frame):
     raise MathDeadline("The declared arithmetic budget has expired")
 
 
+def diagnose_cm_kernel_p47(p=47):
+    if p != 47:
+        raise ValueError("This diagnostic is restricted to the original prime 47")
+    nmax = 15
+    j = [1]
+    for n in range(1, nmax + 1):
+        den = (4 * n * (3 * n - 1)) % p
+        if den == 0:
+            raise AssertionError("unexpected hypergeometric denominator")
+        j.append(j[-1] * (3 * (2 * n - 1)**2) * pow(den, -1, p) % p)
+
+    # Construction A: recursively invert j, then cube that inverse.
+    inv_j = [1] + [0] * nmax
+    for n in range(1, nmax + 1):
+        inv_j[n] = -sum(j[i] * inv_j[n-i] for i in range(1, n+1)) % p
+    inv_cube = [sum(inv_j[a] * inv_j[b] * inv_j[n-a-b]
+                    for a in range(n+1) for b in range(n-a+1)) % p
+                for n in range(nmax+1)]
+    ka = [sum(inv_cube[:n+1]) % p for n in range(nmax+1)]
+
+    # Construction B: solve j^3 K = 1/(1-r) coefficient by coefficient.
+    j_cube = [sum(j[a] * j[b] * j[n-a-b]
+                  for a in range(n+1) for b in range(n-a+1)) % p
+              for n in range(nmax+1)]
+    kb = [1] + [0] * nmax
+    for n in range(1, nmax+1):
+        kb[n] = (1 - sum(j_cube[i] * kb[n-i]
+                         for i in range(1, n+1))) % p
+    if ka != kb:
+        raise AssertionError("inverse construction disagreement")
+    if any(sum(j_cube[i] * ka[n-i] for i in range(n+1)) % p != 1
+           for n in range(nmax+1)):
+        raise AssertionError("j^3 K identity failed")
+    block = ka[9:16]
+    return {
+        "test": "conditional_CM_V1_kernel_diagnostic",
+        "p": p, "N": 7, "ell": 16,
+        "j_0_to_15": j, "K_9_to_15": block,
+        "two_constructions_agree": True,
+        "j3K_equals_geometric_through_15": True,
+        "necessary_negative_delta_block_vanishes": all(v == 0 for v in block),
+        "scope": "Any nonzero block entry rules out kernel membership at p=47, conditional on the actual CM-profile source; no uniform inference."
+    }
+
+
 def main():
     if os.environ.get("GITHUB_ACTIONS") != "true" or os.environ.get(
         "GITHUB_REPOSITORY"
@@ -47,9 +92,10 @@ def main():
     repo = topic.parents[1]
     request_path = topic / "notes/original-scalar-obstruction-new-window-request.json"
     request = json.loads(request_path.read_text())
-    assert request["execution_id"] == "scalar-obstruction-20261127-v1"
+    assert request["execution_id"] == "scalar-obstruction-20261127-v2"
     lower, upper = request["lower"], request["upper"]
-    assert 200000 < lower <= upper <= 500000
+    assert request["previous_completed_through"] == 402581
+    assert lower == 402593 and upper == 500000
     assert request["residues_mod9"] == [2, 5]
     total_seconds = request["total_seconds"]
     reserve_seconds = request["reserve_seconds"]
@@ -73,6 +119,9 @@ def main():
         "request_sha256": sha(request_path),
         "source_sha256": request["source_sha256"],
         "lower": lower,
+        "previous_run": request["previous_run"],
+        "previous_completed_through": request["previous_completed_through"],
+        "conditional_diagnostic": request["conditional_diagnostic"],
         "upper": upper,
         "residues_mod9": [2, 5],
         "requested_count": len(requested),
@@ -90,10 +139,13 @@ def main():
     zero_check = None
     failure = None
     status = "running"
+    cm_diagnostic = None
     signal.signal(signal.SIGALRM, alarm_handler)
     signal.setitimer(signal.ITIMER_REAL, max(0.001, deadline - reserve_seconds - time.monotonic()))
 
     try:
+        cm_diagnostic = diagnose_cm_kernel_p47()
+        emit("CM_KERNEL_DIAGNOSTIC", cm_diagnostic)
         for p in requested:
             pending_prime = p
             value = run(p, full=False)
@@ -155,7 +207,7 @@ def main():
         pending_prime = observed_f_zeros[0]
     completed = [row["prime"] for row in rows]
     assert completed == requested[:len(completed)]
-    assert all(p > 200000 for p in completed)
+    assert all(p > request["previous_completed_through"] for p in completed)
     summary = {
         "status": status,
         "execution_id": request["execution_id"],
@@ -171,6 +223,7 @@ def main():
         "new_f_zeros": observed_f_zeros,
         "new_g_zero_byproducts": g_zeros,
         "independent_original_z_zero_check": zero_check,
+        "conditional_cm_diagnostic_completed": cm_diagnostic is not None,
         "resume_lower": (pending_prime if status == "candidate_f_zero_unverified" else
                          requested[len(completed)] if len(completed) < len(requested) else None),
         "error": failure,
@@ -180,7 +233,8 @@ def main():
         "elapsed_seconds": time.monotonic() - started,
     }
     assert summary["elapsed_seconds"] < total_seconds
-    payload = {"contract": contract, "rows": rows, "summary": summary}
+    payload = {"contract": contract, "conditional_cm_diagnostic": cm_diagnostic,
+               "rows": rows, "summary": summary}
     raw = canonical(payload) + b"\n"
     target = Path(os.environ["RUNNER_TEMP"]) / "serre-original-scalar-obstruction.json"
     target.write_bytes(raw)

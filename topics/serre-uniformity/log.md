@@ -354,3 +354,8 @@
 ### 2026-11-27 02:09 Asia/Taipei — R1050 原actual CM参数的短PD/PF比较
 - [R1050](results/R1050-actual-CM-parameter-short-PD-and-Picard-Fuchs.md)：同一actual BT短PD给Ξ=d u′ modu′^p；Z=Ξ³=−r(q/j)³/3，b=B_CM(Z)=1+Z+5Z²/16+…到Z^ℓ。原κ₁=d³c_Q³保双incidence/∞符号，所有分母与末端精度已付；只给实际target参数，完整节点self-return另证。
 - 逐项支付I^p=0上的真正PD、原BT framing自然性、同一好椭圆模型/KS、Gauss–Manin到两个实际period的比较，以及首次坏分母之前的全部所需系数。保p5双节点、c_Q±/ψ±/共同κ₁和(±1)^k；不凭坐标公式删除节点返回。无数学程序执行。
+
+### 2026-11-27 02:13 Asia/Taipei — R1051 新scalar准确前缀与不相交续段
+- [R1051](results/R1051-original-scalar-new-prefix-through-402581.md)：公开run45869953028/job140082478470、源30cecd32，严格新增5372素数200003…402581（p2/5mod9）原f_N/g_N全非零，1080.04秒/1200秒预算，准确完成前缀。余段从402593续算；全部请求/完成列表/输出hash在结果，不作全称推论。
+- 已实际读取job成功状态及stdout CONTRACT/SUMMARY/OUTPUT_RECEIPT/BUDGET_RECEIPT；不是把整请求冒完成。无新零，原z独立零值核准未触发。旧R706含g零137147保留，完整raw仅runner scratch。
+- 同次写入v2请求/consumer/方法：只从准确resume_lower=402593续到500000；单job/1200秒/120秒reserve。另一次p47新CM核候选诊断只求安全j至15与K9…15，两构造和完整j³K恒等式核对；与旧f/g输入不同，几何识别尚条件性。未改workflow，无本地数学执行；源码SHA仅用文本元数据哈希核对。

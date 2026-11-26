@@ -24,7 +24,7 @@ R1032/33(p11)、R1039(p5)给完整首CM层κ₁R_L(1)dF、原z=ε³w及Abel/form
 
 R1035/36实际Lie格与完整split-Hecke中心F₀、原J中D₀非挠paired块重数一已核，未冒辅助Res的C²。T5版和Q版实际消去都保真实原格；所选Q简单商Néron格不能从p-adic type直和自动推出。R1041原r2 bare读数是B(c₀,c₀)，R1043原f_N读数是B(c₀,v)，两者与K_Q不同，分别仍待非零。
 
-R1018/19/21原形式点、真实A=T5²/Z=(T31−32)T5²保Fm及杀CM、full-p整个模p仿射刚性已成；H_A/H_Z新支撑仍待算，不能任换λ。R1028/29/30原同阶Igusa修正、整τ₁ Hecke/BT和全分支E均消费，不重求已算graded输入。全部来源/相位/阈值/旧执行pins沿逐字归档保留。
+R1018/19/21的Fm、真实T5²/Z杀CM、full-p模p仿射刚性，以及R1028–30实际Igusa修正/整τ₁/全分支E均只消费；H_A/H_Z新支撑仍待算，不任换λ。全部来源/相位/执行pins保原结果与归档。
 
 ## O0：全主目标覆盖（R1003恢复原范围）
 
@@ -34,7 +34,9 @@ R1只把全部异常缩为p>37的完整N_ns；**p≡2,5 mod9只是另加小惯�
 
 [R1049](results/R1049-original-fN-theta-first-direction-moment.md)：保原F⊗R₋、实际三挠刚化/全部模6相位，η⁵P_FR(η⁶)=t²δ′φ_A/12；原f_N=−t²δ′Σηφ_A/[12(p+1)]。十二代表相位全核；方向逐点单位不代一阶矩非零，原同h筛选仍开。
 
-原f_N新增公开反例搜索严格200000<p≤500000、p2/5mod9，见[方法](notes/2026-11-27-original-scalar-obstruction-new-window-method.md)。只消费实际完成前缀/首个新零回执，不重算R706旧窗、不以有限非零推全称；纸面主线继续。
+[R1051](results/R1051-original-scalar-new-prefix-through-402581.md)：公开run45869953028/job140082478470、源30cecd32，严格新增5372素数200003…402581（p2/5mod9）原f_N/g_N全非零，1080.04秒/1200秒预算，准确完成前缀。余段从402593续算；全部请求/完成列表/输出hash在结果，不作全称推论。
+
+v2只续402593至500000并在同1200秒预算作新的p47必要核条件诊断；完整CM源桥未付前只读纯代数结果。旧scalar输入不重算，方法/预算见[记录](notes/2026-11-27-original-scalar-obstruction-new-window-method.md)。
 
 [R1043](results/R1043-original-fN-and-Hodge-kernel-CM-endpoint.md)：全部p=6N+5≥41，原sigma/正CM/六标记准确f_N=−T₀(1)/6，T₀∈Fp[b³]唯一满足LT₀=A、首系数−1。完整fine Cartier身份给同一V_(p−1)†=ξr^(N+1)T₀；保两行ξ的(−1)^(N+1)、E6=−c6和原mark E6/η12=−24√−3。原B(c₀,λ)=B(c₀,v)=3T₀(1)/A(1)=−18f_N/A(1)。端值单位及同h筛选仍开，不混同r2范数或扩到r8 bare。
 

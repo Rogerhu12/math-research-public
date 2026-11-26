@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。本轮已部分克隆并真实pull main，读两README/H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则读至36cf1ed2。不重做已登记结论或窗口。
 
-**公开两README已读提交：50239b730cf6af1a2c98c8129505c778aafe6d4c**（2026-11-27 02:08 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
+**公开两README已读提交：741abe6c961fa42df9c8a3fed017c07dc42e1492**（2026-11-27 02:17 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
 
 本轮两次真实部分克隆/pull已完成；最新执行宿主再次断连，按根规矩8用连接器小文本同步和带expected_sha的非force原子提交，恢复后立即pull --rebase。令牌只在CLI，不入文件/提交/MCP。根维护main/H/open/index/log，子研究仅独立数学稿；每条结论立即推。并发拒绝立即同步/读规则差异/重新基于新main再推至成功。global_route曾违规用V8数学探索，已叫停并独立纸核，范围/时长见[偏差记录](notes/2026-11-26-execution-path-deviation-and-correction.md)，不以输出作证明或合规窗口。
 
@@ -72,4 +72,6 @@ R696早已证明同一全局Φ候选Ω_actual={0}，R832已消费；不重做、
 
 当前并行：两行实际MW后M1与原盘点数界已成，继续最低w单位/正赋值深盘零点。原最高K_Q、R1041核范数、R1043端点及同h筛选各有独立读数，不能混同；O0完整全局覆盖仍未关。子问题完成即接open其余项，真正达README完成标准才收尾。
 
-进行中公开CI：[45869953028](https://github.com/Rogerhu12/math-research-public/actions/runs/45869953028)，源30cecd32；严格200000<p≤500000、p2/5mod9原f_N。1200秒单次预算/首零原z核准；旧窗不重算，待读完成前缀与hash，[方法](notes/2026-11-27-original-scalar-obstruction-new-window-method.md)。纸面持续。
+[R1051](results/R1051-original-scalar-new-prefix-through-402581.md)：公开run45869953028/job140082478470、源30cecd32，严格新增5372素数200003…402581（p2/5mod9）原f_N/g_N全非零，1080.04秒/1200秒预算，准确完成前缀。余段从402593续算；全部请求/完成列表/输出hash在结果，不作全称推论。
+
+公开CI v2已准备并随本次提交触发：只续402593≤p≤500000，另在同预算内读一个新的p47 CM核候选必要条件；不重算旧scalar。源/run待取得真实触发回执后登记，[方法](notes/2026-11-27-original-scalar-obstruction-new-window-method.md)。纸面继续。

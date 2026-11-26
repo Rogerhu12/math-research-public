@@ -1,6 +1,6 @@
 {
-  "execution_id": "scalar-obstruction-20261127-v1",
-  "lower": 200001,
+  "execution_id": "scalar-obstruction-20261127-v2",
+  "lower": 402593,
   "upper": 500000,
   "residues_mod9": [
     2,
@@ -8,16 +8,24 @@
   ],
   "total_seconds": 1200,
   "reserve_seconds": 120,
-  "rules_last_read_commit": "42e159e54a58dca08a4b94600be25f31f2e0b69d",
+  "rules_last_read_commit": "741abe6c961fa42df9c8a3fed017c07dc42e1492",
   "source_sha256": {
     "README.md": "581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102",
     "topics/serre-uniformity/README.md": "6ce1403bd2d2587bb9cca70bd0095a1264b1167fe2c4b62f0652ae671e6277a5",
     "topics/serre-uniformity/scripts/R698_fast_scalar_window.py": "31024ef6308f251ff5c6f23650250e49cf10600de9d40f34a6419ea8387f1d9c",
     "topics/serre-uniformity/scripts/R698_verify_original_z.py": "ef33ef0d61b4cf33c0a1fe2a23ce14b57780b5b5b49df9f609dc0e49b1014ac3",
-    "topics/serre-uniformity/scripts/original_scalar_obstruction_new_window.py": "f45507577c34f944f7d2d00653fe2276c175569286e102daed2be9d16447689e",
-    "topics/serre-uniformity/notes/2026-11-27-original-scalar-obstruction-new-window-method.md": "e93fdc0ee9b1cb29b4a2866ad38a59df2e78b89cca85e93c57c98f22e7f1fb2e",
+    "topics/serre-uniformity/scripts/original_scalar_obstruction_new_window.py": "a99fe1212176daa4b0a9da5a7874ceb7ee1234bade567523e764d043ee5de312",
+    "topics/serre-uniformity/notes/2026-11-27-original-scalar-obstruction-new-window-method.md": "d2d0644bcad18b2285a290ae506c4d6e6790f46ca2de22c15d0c04dc3307ed4c",
     "topics/serre-uniformity/results/R706-exact-window-through-200000-and-original-sigma-zero.md": "87d025a882f1ff541e3cf343f012e1dff7bf463b1c4591410e2d6cdfa21378d7"
   },
-  "scope": "Search only the new original f_N values; stop at first independently checked f_N zero or the declared budget. A nonzero finite prefix is not an all-prime theorem.",
-  "storage": "Public stdout receipts and runner scratch only; no artifacts, Releases, committed raw arrays or reports."
+  "scope": "Resume only the exact uncompleted original f_N interval from run 45869953028; stop at first independently checked zero or budget. Separately diagnose one new p47 CM-kernel candidate inside the same budget; no all-prime inference.",
+  "storage": "Public stdout receipts and runner scratch only; no artifacts, Releases, committed raw arrays or reports.",
+  "previous_completed_through": 402581,
+  "previous_run": 45869953028,
+  "conditional_diagnostic": {
+    "prime": 47,
+    "input": "R1050 j through degree 15",
+    "test": "negative_delta_necessary_kernel_condition",
+    "geometry_status": "conditional_on_actual_complete_CM_profile"
+  }
 }
