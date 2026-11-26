@@ -453,3 +453,8 @@ positive推L1–25及pure13580B/2c5002f9，global整篇/整源独审；root再�
 ## 2026-11-26 保留完整历史，释放后继计算容量
 
 会话visible-exact-astra-198c63d-20261126。精确topic原199526058B；7份旧log共653393B逐字保于6408017f原path，逐页核blob/bytes/SHA256后改完整入口，净释放643829B。原所有结论/资格/失败与未付义务仍有效；已核R142/R146 pins不含这些日志，scientific/native/参数/active无变，0科学。
+
+
+## 2026-11-26 R144新forward均值重投影首次公开入口
+
+会话visible-exact-astra-198c63d-20261126。原raw ac1/ν0/全η的7721行/6143接缝原件只读，signed D′=2βUD−τR0及全部mean跳作全域新目标；整个positive/C0/外mean门先保存真读回，true/false/unknown各保真实意义。11当前/5历史、320bits，manifest SHA02c04c9802829848bb5adb4d065a99143c0f5e298da8252fdd681ea2b4c2f669；无数组发布/旧Γ重跑，实际待。逐式核完，合同公式分隔符改为根规格式后同步全部身份。

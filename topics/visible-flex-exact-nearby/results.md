@@ -10,6 +10,8 @@
 
 ## 新增结论
 
+- [R144新forward均值重投影完整合同](notes/2026-11-26-R144-forward-mean-retraction-contract.md)：从原raw ac1/ν0/全η的7721行和6143接缝推进新signed D；完整positive/C0/外mean三态门保存读回，全部mean/jump保留，不继承selected δ*或旧phase。11当前/5历史、320bits独立Actions入口已推；实际结果待，旧Γ/Green不重算。
+
 - [R142补篇：同模型coercive resolvent的完整转授](results/R142-supplement-coercive-resolvent-complete-source-and-point-lifts.md)：证明四原source、全部193 atoms、增广二类逆和whole-box投影仅需真实R；pure adapter显式绑定R149新kind、γ/R并保旧ε/strict真假。θ不能替代实际defect atoms/point receiver，58/224/32须显式新身份和真正完整前驱，未启动科学。
 
 - [R149：同一低193缺陷的有符号闭环与对称部逆门](results/R149-signed-Green-loop-and-symmetric-part-coercivity.md)：同原weighted L²(dr;193)中准确HS恒等式、96×97全域signed递推和完整同格三角；旧完整HS²只读，新tr K²及θ均整球保存读回。θ<1给coercive inverse，旧ε门保持原真假；真实新量未算，不把解析判据当成功数值。
