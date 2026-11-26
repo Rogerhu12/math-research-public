@@ -49,8 +49,8 @@
 <!-- visible-larger-parallel-03:end -->
 
 <!-- visible-larger-parallel-04:start -->
-并行公开Actions04：[run 45857104277/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45857104277)；[实际记录](notes/2026-11-26-public-actions-45857104277-1.md)。阶段`followup:actual-normalized-cached-backtracked-SOC41-failure-trace-20261126-04`/completed；已返43，exit=0。
-并行04规则核查：2026-11-26 19:09:14 UTC，真实pull至`fe523e5c0dc316df8b8434fe5aa446cbe8b98360`，双README无变化。
+并行公开Actions04：[run 45857104277/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45857104277)；[实际记录](notes/2026-11-26-public-actions-45857104277-1.md)。阶段`followup_waiting`/running；已返43，exit=未返。
+并行04规则核查：2026-11-26 19:23:30 UTC，真实pull至`fe16e9225d78d2a67182c5a48fae8e649abfbf9c`，双README无变化。
 <!-- visible-larger-parallel-04:end -->
 
 <!-- visible-larger-parallel-05:start -->
