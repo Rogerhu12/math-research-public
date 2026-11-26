@@ -45,5 +45,5 @@
 三次失盘及恢复边界见log/旧H；11:29部分clone/pull至df25f421，双README未变。CLI可用，只普通git；丢失raw只新输入重生，不移借身份。根唯一写main/维护真实CI/每结论push；geometry继续新gap同g全位置与连续核，exact继续实际h/严格metric/加密，solver继续Cartesian多步/source003。完成子问题即接open下一项，不以阶段记录收尾。
 <!-- 6a65-ci-rules --> run 45778054176/1；实际 pull #183 至 `42d711248fdfcc164c1fa7c87770ab529ae24ca5`；2026-11-26T13:10:41+00:00；双 README 无差异，沿用根已读规则；回执原因 pre-process:Cauchy-original-then-Cartesian1-current-field。
 <!-- 6a65-m12-ci-rules --> README unchanged at e74a6d1b37742414d1215bb37440b7c2fe56851c; run 45804794238 attempt 1.
-<!-- 6a65-m12-entire-half-ci-rules --> README unchanged at 2189adea960b08ca464c3de925a0812e6938f16c; run 45826114835 attempt 1.
+<!-- 6a65-m12-entire-half-ci-rules --> README unchanged at 1cfa701b2092e25100c934e5361ae58b4b2ad93c; run 45833090043 attempt 1; frozen numerical source a060a8d1cb7bf95d6b8d5087467cf63377e3867e.
 <!-- 6a65-cartesian-cold-ci-rules --> run 45825253169/1；实际pull至 `889ec53f9daff7267daed589b1180c960a989d80`；2026-11-26T13:13:29.802537+00:00；双README无差异。
