@@ -448,3 +448,5 @@
 - 2026-11-26 14:41 UTC｜Astra-held10-06bbeb39-20261126：环境恢复后新部分克隆并真实pull bb6aa25e，双README自883b差异无变。原λ1→full-DN/chord3/native4窄入口7a1ce40d真实compile/help均exit0；保原fullH/J/audit/8outer和可继承streamed原执行身份，数值向量只留runner。当前无λ1输入、未新跑尾，继续两条实际设计分支。
 
 - 2026-11-26 14:45 UTC｜Astra-held10-06bbeb39-20261126：核原R53/v5最终actual→固定g接口：冻结最终δ、字面chart与源mean，设计p0不能沿用成新log-q坐标。R53可保支持族或以完整Γ*作零phase基线，后者不同未知空间；v5须保非零高phase并释放完整首列。旧actual-refine KIND/1168/endpoint分支不直接覆盖，源SHA已实核；无新解/无λ1输入，不虚签同g精化。
+
+- 2026-11-26 15:02 UTC｜Astra-held10-06bbeb39-20261126：跨M完整lift割线79ebe59d已独立实现，保左真λ/δ/图及原完整入口修正，右原cubic/pscale，mean各自留源；只产未接受nodal初猜。compile/help/独立M2→4代数核过，错误右图实拒；所报参考六jets省略共同mean项。无实际预测/BVP，原在跑链不改，备自然返回后的实续。

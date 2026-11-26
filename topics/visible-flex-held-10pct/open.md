@@ -177,3 +177,5 @@ O9初猜对照：原旧态可健康起步，但q025线性放大H的完整Newton�
 [λ1来源接原完整DN的窄协调入口](notes/2026-11-26-original-lambda-one-chord-native4-entry.md)已实际通过compile/help；仅支持真实原R53或v5 solver来源，保原full-H/J/audit/8outer，复用同VM chord3/native4及已验streamed执行身份。当前λ1输入仍缺，未启动新尾；配置/Cartesian mean/全闭同g缺口均不因此支付。
 
 已核[v5 actual设计→固定g](notes/2026-11-26-v5-design-to-fixed-actual-dn-interface.md)和[原R53 λ1实际场的两种固定未知空间](notes/2026-11-26-r53-actual-to-fixed-metric-interface.md)。须冻结最终actual δ、完整字面径向/角图、源Cartesian mean/primitive和尾背景；首步明示未接受初猜真求解，不能伪造线性锚。现有五件actual-refinement入口的KIND/1168/端点频率分支需窄适配，R53几何factory本身无.002锁。当前均无λ1/full-DN输入，不构成精化结果。
+
+[跨M完整lift割线入口](notes/2026-11-26-cross-mode-secant-entry.md)79ebe59d已通过语法/CLI及非平凡径向图独立代数核。分别核真锚，以左自己的λ/δ/图作原系数1完整lift，再按共同t与右原cubic外推；不造M40接受锚、cubic或physical，不把不同mean解释成同g。计划消费material VM自己的.032/M32和.064/M40，尚未真实生成预测或BVP；实际续入须独立CLI并重过全部原门。

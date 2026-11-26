@@ -1,0 +1,24 @@
+{
+  "kind": "pure_algebra_mock_check",
+  "complete": true,
+  "actual_source_field_used": false,
+  "BVP_invoked": false,
+  "DN_invoked": false,
+  "actual_input_or_predictor_acceptance_claimed": false,
+  "modes": [
+    2,
+    4
+  ],
+  "query_nodes": 31,
+  "angular_nodes": 41,
+  "source_nodal_roundoff": 0.0,
+  "explicit_block_formula_gap": 0.0,
+  "complete_reference_cancellation_max": 6.938893903907228e-17,
+  "deliberately_wrong_right_coordinate_gap": 0.13012700600263452,
+  "wrong_coordinate_rejected": true,
+  "source_hashes": {
+    "/tmp/held10-astra-fixed-20261126-rebuild2/material_design_cross_mode_secant_predictor.py": "79ebe59d041a4c9f600345890875237f2b222f8301b8c736c586ab0884ecaae9",
+    "/tmp/held10-astra-06bbeb395471-public5/topics/visible-flex-held-10pct/scripts/resume_m3/prepare_lifted_mode_restart.py": "c1f7741ee1882bd8413a04f280df759da4165792291f5419b243b7deed2882fe",
+    "/tmp/held10-astra-fixed-20261126-rebuild2/check_cross_mode_secant_algebra.py": "ab2f69f5701130b9147efea79b2d5859e1c36c958f4e8a700dfab63dcdcdb060"
+  }
+}
