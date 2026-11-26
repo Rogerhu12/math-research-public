@@ -6,7 +6,7 @@
 
 ## 1. 规则与接手
 
-已部分克隆并实际 `git pull main`，公开根 README、课题 README、HANDOFF、open、results 索引及相关 log/notes 已读。公开已读提交 **5aac92dc3abbe7af460362e7981eeda84b05e514**（2026-11-26 09:37 UTC；本次实际pull后根/题README空差异）；历次规则及失败原回执保原note；私有 QUEUE 的本题已改为本会话进行中并成功推送：**9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7**；最后实际pull及规则同blob读至 **739f658f575a7652d640bf82386814df0cb0f7a8**（2026-11-26 09:33 UTC；失联后重建partial稀疏副本，实际pull成功，根README空差异、QUEUE仍本会话）。其它课题的并行认领保留。
+已部分克隆并实际 `git pull main`，公开根 README、课题 README、HANDOFF、open、results 索引及相关 log/notes 已读。公开已读提交 **46a73113229ca1d7d64298a5a5d8f4b87ea61a5b**（2026-11-26 09:40 UTC；本次实际pull后根/题README空差异）；历次规则及失败原回执保原note；私有 QUEUE 的本题已改为本会话进行中并成功推送：**9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7**；最后实际pull及规则同blob读至 **739f658f575a7652d640bf82386814df0cb0f7a8**（2026-11-26 09:33 UTC；失联后重建partial稀疏副本，实际pull成功，根README空差异、QUEUE仍本会话）。其它课题的并行认领保留。
 
 [前历交接](notes/HANDOFF-before-resonant-height-20261126.md)及各原note保规则、失联恢复、成本与全部限定。API读取不冒git pull。2026-11-26 09:18 UTC本地执行环境再次不可用；最后本地push已确认成功。09:21 UTC接口读至 **c1a48b0f83a7e59f3a1439bd1fdbcd384aacda36**，根/题README仍原blob；失联期间接口保存论文/源并继续公开Actions；09:33 UTC已恢复partial稀疏副本，双仓actualpull完成，未把API读取计作pull。
 
@@ -44,7 +44,7 @@
 
 [R573](results/R573-fixed-collar-curvature-and-separated-scale-reach-obstruction.md)仅排原固定资料后δ→0时reach/D→0；净位移闭合、缩放或多消形式阶不能修复，未排新有限输入。[R530完整27态接口](notes/2026-11-26-compact-r530-reduced-endpoint-implementation-agent.md)保3个真实第三投影与4条材料边界。原[开发执行偏离](notes/2026-11-26-r530-local-development-execution-receipt-agent.md)保准确收据，未合格draft不再执行。
 
-[独立v2原终态](notes/2026-11-26-r530-v2-public-reduction-receipt-agent.md)run45785471536付19.0664秒child wall：局部η/未消history/张量同值误差≤9.24e−16，但固定profile求积24/48/96的R0为6.51e16/3.73e14/−4.98e10，尚未稳定。没有ODE/有限八根。[R581](results/R581-exact-c2-local-ruling-with-full-history-chain.md)已付完整局部R的准确C2积分，保真二尾/chain；新36块求值请求已发布237950aa，完整A/T稳定表示与19态八根BVP继续。
+[独立v2原终态](notes/2026-11-26-r530-v2-public-reduction-receipt-agent.md)run45785471536付19.0664秒child wall：局部η/未消history/张量同值误差≤9.24e−16，但固定profile求积24/48/96的R0为6.51e16/3.73e14/−4.98e10，尚未稳定。没有ODE/有限八根。[R581](results/R581-exact-c2-local-ruling-with-full-history-chain.md)已付完整局部R的准确C2积分，保真二尾/chain；[新36块原run](notes/2026-11-26-r581-c2-r578-first-public-receipt-agent.md)45792219913付3.870200秒：R0的96→192差6.93e−10，加速度列同值≤7.61e−15。完整A/T稳定表示与19态八根BVP继续。
 
 [R578](results/R578-sixfold-six-node-positive-complete-profile-library.md)已证明新的从起点36完整块：D3六变换、每组六个P6+τP5正节点共同0…10矩，全部位置间距>199/605000，固定微包半宽2e−6与每侧9e−6真collar。保全相位scalar/真实history/Ch<0,Ck>0共同盒；不把旧母轨道/χ搬入新母，有限端根与几何仍须实际支付。
 

@@ -596,3 +596,7 @@ root全文纸核真实P中两个a_s及ε指数抵消，逐项(11)–(28)样条/�
 ## 2026-11-26 — Astra-new-mechanism-0105020f-20261126 / 失联恢复与实际双仓pull
 
 09:18 UTC执行环境失联，最后theta513源48e30481已确实push；接口期间R581/R582/R583及新R530源/请求逐条存主支。恢复后/tmp旧clone已消失，保唯一新r576稿，在原路径重建promisor blob:none/cone sparse-index公开副本，私库重新partial clone；09:33 UTC实际pull公907b15b2ae037147f369df8030dbc0e6bf85606e/私739f658f575a7652d640bf82386814df0cb0f7a8。相对上次读根/题README均空diff、三blob同，QUEUE仍本会话。只纸证/源码与原输出解析在本地，科学仍公开Actions；恢复即继续。
+
+## 2026-11-26 — Astra-new-mechanism-0105020f-20261126 / C2局部新表示原终态
+
+原136063字节stdout已一次完整解析9条研究/来源记录，SHA1240eb3a…；root全文核收据、source/request身份和固定幅/节点/几何口径。3.870200秒首次公开运行得到R0稳定到96/192差6.93e−10；同阶加速度恒等误差约7.5e−15不冒跨阶误差证书，原高项大数相减仅这一次诊断。完整history导数稳定预收及19态真实BVP继续，收据即推。
