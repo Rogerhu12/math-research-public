@@ -418,3 +418,5 @@
 - [R609全部真历史的积分消元与正动能新输入](results/R609-true-integral-histories-and-kinetic-input.md)：**已证明**以两条真实h/k函数积分生成η、八A与六rho，四原自由奇中心由末尾积分准确消去，余四偶端图与两全程原ruling保留；原中心差迫b0=0，一个固定ζ0由全中心链解出，两常规范不变。给全程原合法盒内的明确新输入，并用有理三角/双曲界证真平均动能组合>4/25；不授四矩或原ruling共同根。
 
 - [R612物理长度准确消元与三真实端积分](results/R612-exact-physical-length-elimination-and-three-true-end-integrals.md)：**已证明**任何四偶共同根必U>0、K>1并有唯一L=√(U/(K−1))；三形状积分与原四偶端图双向等价，原盒/完整δL链/八A与正势的全部长度项保留。没有假定三端图满秩或两ruling共同根，固定曲线精化须固定物理L。
+
+- [R613实际位置误差的完整导数与同方程目标](results/R613-actual-position-defect-jacobian-and-complete-objective.md)：**已证明**真实Wstar/√E的完整二jet参数链，保离解加权均值、相位/框架和隐式E导数；反周期均值核下与原Darboux方程准确等价，正outward分支下与实际metric等价，并给双向定量界和全部奇频Parseval目标。配套纯算子尚未执行，不授有限截断或连续根。
