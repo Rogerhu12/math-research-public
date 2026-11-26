@@ -5,11 +5,11 @@
 ## 主目标、规则与执行
 
 - **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仅全体有界算子的存在定理或完整反例；子结果不作完成，继续研究。
-- **最近实际 pull / 已读规则提交：** `48650a963a2b3b4c9a0bec8b71495b4b9cd0c149`（2026-11-26 09:16:03 UTC）。本次两README无新规则差异；已读根/课题README、H/open、结果索引及定点log/notes。每次pull及至少每小时比diff，记录SHA。
+- **最近实际pull / 已读规则提交：** `50e3e4e18ac8392c2eaace7e2d6d3493a6771eda`（2026-11-26 09:48:36 UTC，公开Actions实际pull；本地最后pull为09:16:03 UTC）。两README blob无差异；每次pull和至少每小时查diff，记录SHA。
 - 私库QUEUE认领已推 `e776df496eedfa449b0475cefe140fdae7023db4`；研究在公开仓库。每结论单推，推前pull/rebase；NFF/ref锁拒绝循环rebase再推，不force，令牌仅CLI。
-- 本地执行环境09:19 UTC后unavailable；最近云端main/规则读取 `6d1b3233cf6e174cff53e75b96207e1bed29bf82`（2026-11-26 09:48:12 UTC），两README blob未变。此为API读取，不冒充git pull；公开Actions驱动继续实际pull及3300秒规则检查。根通过非force/expected-head原子提交保并发；CLI恢复后立即pull/rebase。只保存源、参数、SHA和小回执。
+- 本地执行环境09:19 UTC后unavailable；最近云端main/规则读取 `e4288c20d7330e4922f48268b942ef2bffa03d88`（2026-11-26 09:52:23 UTC），两README blob未变。此为API读取，不冒充git pull；公开Actions驱动继续实际pull及3300秒规则检查。根通过非force/expected-head原子提交保并发；CLI恢复后立即pull/rebase。只保存源、参数、SHA和小回执。
 - 最新完整前H见[压缩快照](notes/2026-11-26-handoff-before-rank-three-double-single-zero-hp-nine-347c.md)及其归档链。MD<100KB、H<10KB、open尽量<30KB、topic<200MB，不写根LOG。
-- 已登记请求14/311、权11及旧结式不重算。当前并行：unit211的m零/非零；rankV2/rankH3的ess6；R271真实加权源与物理清除。
+- 已登记请求14/311、权11及旧结式不重算。当前并行：unit211非零m；rankV2/rankH3的ess6；R271真实加权源与物理清除。
 
 ## R150：原完整梯度、Bell与支撑
 
@@ -24,7 +24,7 @@
 
 ### 正在推进的三张原分支
 
-- **unit211，P0非零、m零：** F1/u1、F2/l0两奇异jet面及J=lQ(2u−1)−u(2u+Q−2)零面已闭。代理正在完成整个m0：已严证3mean在A4开集到(u,Q)有限纤维；全部低曲线、原秩二族与第一高曲线QQ671/629 gcd均付。第二高曲线首个QQ结式2876次已完成974.697804秒；第二条exit137，原因未知，不能记完成。已切换原4×4必要行列式/逐步伪余式缩小输入，保全部首项零纤维；主稿末gcd仍待真正完成。已提交冻结源0374f893及专属公开Actions（180分钟/12GiB，run45789670184已实际in_progress），完整[执行检查点](notes/2026-11-26-unit211-zero-mean-general-execution-checkpoint-347c.md)保失败身份。探索在 `unit31-work`，不把预检或模素数定位作证明。
+- **[unit211整个零m分支已闭](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-nonzero-base-highest-zero-isolated-mean-exclusion.md)：** 三mean到(u,Q)有限纤维全部例外已付；两QQ高曲线结式671/629、2876/2736，末gcd仅u78(u−1)96及(u+2)21u228(u−1)459，原低曲线/秩二族全排。run45789670184/job139805205519原源0374全过，1443.281305秒/297956KiB/exit0；失败137只保历史。结合旧P0零与奇异面关闭零m，立即续非零m/U值图。
 - **[unit211非零m的u1半比例已闭](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-nonzero-isolated-mean-unit-base-mean-half-ratio-exclusion.md)：** l0、jet系数零及λ1/2全付，源2.801380秒/exit0。剩余令v=2λ−1、z=(2f−1)/v；已实算有限纤维/半权/两mean投影，重建自含源与H2+1无穷远源一起转独立Actions，见[执行检查点](notes/2026-11-26-scaled-and-infinity-execution-checkpoint-347c.md)。新完整源尚待实际全门，剩(l18,Q10)高曲线及一般u仍开；TMP的混合4×4投影在环境中断时未观测执行，不记成功。
 - rankH3三不同点、H自身Gram退化的ess6：F0、V二jet、非零Hp全空；只余双约化、F≠0、Hp0、Gram秩2且两非零边。非退化三点H也继续。不能以H子Gram退化代整个六维K退化。
 - rankH3单三jet、rankV2整层ess≤5已闭：Hp0原十六维QQ/13真逆、所有特殊/∞和V二jet全付；最后F=−m原0/1/2阶梯度得1=5/2。不要重做旧余支。

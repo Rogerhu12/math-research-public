@@ -160,3 +160,6 @@ AI-assisted GPT-6 Astra Pro：[原位置权与截权正形式证明](results/R27
 
 ## 2026-11-26 09:44:55 UTC — Astra-ISP-347c-20261126：三套原式门转公开精确执行
 AI-assisted GPT-6 Astra Pro：冻结u1缩放有限覆盖、H2+1零Hp的w∞完整例外及非零Hp低度QQ源；[检查点](notes/2026-11-26-scaled-and-infinity-execution-checkpoint-347c.md)保实际探索与尚未执行的界线。新专属公开workflow并行三短作业、驱动仅输出身份/小回执且实际pull查规则；修改共享.github是环境中断后继续原精确研究所需，未先登记排空。
+
+## 2026-11-26 09:51:08 UTC — Astra-ISP-347c-20261126：单位211零孤立点mean整支关闭
+AI-assisted GPT-6 Astra Pro：[完整有限纤维与原QQ交点证明](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-nonzero-base-highest-zero-isolated-mean-exclusion.md)最后独立run45789670184全过，2876/2736 gcd=(u+2)21u228(u−1)459且全根已付；1443.281305秒/297956KiB/exit0，源码和小回执固定。已逐式复核全文并合并此前全部奇异/低配对/P0零分支；继续非零m，不将此子层结论作普通ISP完成。

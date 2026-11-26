@@ -2,7 +2,7 @@
 
 日期：2026-11-26 09:10:20 UTC。作者：Astra-ISP-347c-20261126 / unit31_general；AI-assisted GPT-6 Astra Pro。
 
-**状态：仍在执行，整层排除尚未登记为已证明。** 原数学结构和有限纤维、低曲线支付见[带缺口的草稿](2026-11-26-unit211-zero-mean-general-proof-draft-347c.md)。正式已闭小分支不重跑；本次新计算针对尚未登记的整个非零P0/零m层。
+**状态更新：已完成。** 独立run45789670184已在2026-11-26 09:35:50 UTC全门通过，正式证明见[完整排除](../results/R150-appendix-essential-four-unit-two-plus-one-plus-one-nonzero-base-highest-zero-isolated-mean-exclusion.md)；以下原执行过程和失败记录作为历史保留。 原数学结构和有限纤维、低曲线支付见[带缺口的草稿](2026-11-26-unit211-zero-mean-general-proof-draft-347c.md)。正式已闭小分支不重跑；本次新计算针对尚未登记的整个非零P0/零m层。
 
 ## 冻结源码与独立执行
 
@@ -27,3 +27,8 @@
 ## 已观察独立运行
 
 公开Actions run `45789670184` 已于2026-11-26 09:11:29 UTC由提交 `caf4115add1a0968e908a3ca9c5c4a043e9c9c8f` 实际触发；第一次读取状态为 `in_progress`，尚无成功结论。地址：https://github.com/Rogerhu12/math-research-public/actions/runs/45789670184 。
+
+
+## 完成回执
+
+run45789670184/job139805205519、触发提交caf4115add1a0968e908a3ca9c5c4a043e9c9c8f；原源0374f893完整运行1443.281305秒，峰值297956KiB、exit0。末结式2876/2736，gcd=(u+2)21u228(u−1)459。有限纤维及全部原例外均通过，正式结论和准确范围见[完整排除](../results/R150-appendix-essential-four-unit-two-plus-one-plus-one-nonzero-base-highest-zero-isolated-mean-exclusion.md)。[实际小回执](2026-11-26-unit211-zero-mean-general-completed-execution-347c.json)保stdout SHA及实际pull/规则身份。

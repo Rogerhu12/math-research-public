@@ -22,7 +22,7 @@ rank$H=4$ 的非单位局部块长度5、4、3已排；长度2单零的三种单
 
 当前依次处理：
 
-1. 孤立零单点的单位长度4补空间只余 $2+1+1$ 与 $1+1+1+1$。单位单四重点、两个双点、[整个3+1](results/R150-appendix-essential-four-unit-three-plus-one-isolated-zero-rank-four-branch-is-empty.md)均已完全排除。单位211的零配对、零基点mean、相等/相反非零配对与整个P0零支亦已关闭；准确剩余可规范p=1、q≠0,±1、b+cq≠0、P0≠0，再分零/非零孤立点mean，当前子图见下文。全部旧除法边界、原QQ来源及执行身份保[本次完整压缩前open](notes/2026-11-26-open-before-rank-three-double-single-degenerate-347c.md)与结果索引，不重算已闭门。
+1. 孤立零单点的单位长度4补空间只余 $2+1+1$ 与 $1+1+1+1$。单位单四重点、两个双点、[整个3+1](results/R150-appendix-essential-four-unit-three-plus-one-isolated-zero-rank-four-branch-is-empty.md)均已完全排除。单位211的零配对、零基点mean、相等/相反非零配对与整个P0零支亦已关闭；准确剩余可规范p=1、q≠0,±1、b+cq≠0、P0≠0，零孤立点mean现已全部排除，仅续非零mean，当前子图见下文。全部旧除法边界、原QQ来源及执行身份保[本次完整压缩前open](notes/2026-11-26-open-before-rank-three-double-single-degenerate-347c.md)与结果索引，不重算已闭门。
 2. 全部 rank$H=5$，即 $L$ 为单位的七种长度五除子分拆。
 3. 内均值 $y\in W$ 与 ess$T_3=5,6$。不能把 $V$ 自己的低秩支撑自动当作 $y,H,V$ 的共同支撑；降秩情况及完整原梯度必须保留。[V=0、rankH3且y在RanH外的整支](results/R150-appendix-zero-third-cumulant-rank-three-outer-range-exclusion.md)现已由原J2/迹/二次因式排除；所以V=0且ess4只余rankH4、y在其唯一length4原jets支撑。[双二次独立及唯一简单基点归约](results/R150-appendix-zero-third-cumulant-essential-four-independent-quadrics-and-basepoint-reduction.md)进一步排除全部相关二次/N=0例外，物理投影须为有唯一简单基点的四次曲线。[四不同点整支](results/R150-appendix-zero-third-cumulant-reduced-essential-four-section-is-empty.md)已由原完整节点普通矩梯度、全部a_i零例外和原H-gradient因式排除；[全部重节点型](results/R150-appendix-zero-third-cumulant-nonreduced-essential-four-section-is-empty.md)随后亦由保根方向相关性的完整Gaussian梯度与原极线几何排除。因此V=0、essT3=4整层现已关闭。随后[整个V0临界层的三个原匹配Bell均零](results/R150-appendix-zero-third-cumulant-all-matched-bell-values-vanish-and-exact-index-three.md)亦已由完整七次QQ来源证明，覆盖ess5/6与所有Cat退化；完整I0中(r·y)S_r²∈I0并给S_r³∈I0，结合平方非成员得到准确指数3。该七次门已完成，不需另跑degree9。继续一般V≠0内均值ess4、ess5/6及原全局Jacobian幂来源；不得把V0消元图证书当全局同幂。
 
@@ -33,7 +33,7 @@ rank$H=4$ 的非单位局部块长度5、4、3已排；长度2单零的三种单
 [原第三矩的本质支撑等式](results/R150-appendix-rank-two-third-cumulant-outside-range-mean-essential-support-equality.md)已经独立证明：一般r=dim essV、y∉RanV且dim essT3>r+1时，y∈essT3并且essT3=span(y,RanH,RanV)。所以剩余rankV2、ess≥4分支处于第三矩内均值层，不能把y∉essT3的长度五外均值消元当作该层论证；仍须原完整梯度。
 
 
-[整个相反非零配对分支](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-opposite-base-pairings-exclusion.md)现已闭合：原trace和单点范数差完整保零值，QQ359/838/1011结式仅余已闭w0、w−1及二次纤维，最后返回原M/S/c0迫v0或lhalf矛盾。原自含源49.017732秒/exit0；所有u0、l0/half、D1D2及六异常曲线均有独立完整来源，详见[压缩前open](notes/2026-11-26-open-before-complete-opposite-base-347c.md)和正式总闭合稿，不重做。单位211仅续q≠0,±1、b+cq≠0、P0≠0；root做m非零，unit代理做m零。
+[整个相反非零配对分支](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-opposite-base-pairings-exclusion.md)现已闭合：原trace和单点范数差完整保零值，QQ359/838/1011结式仅余已闭w0、w−1及二次纤维，最后返回原M/S/c0迫v0或lhalf矛盾。原自含源49.017732秒/exit0；所有u0、l0/half、D1D2及六异常曲线均有独立完整来源，详见[压缩前open](notes/2026-11-26-open-before-complete-opposite-base-347c.md)和正式总闭合稿，不重做。单位211仅续q≠0,±1、b+cq≠0、P0≠0；root和unit代理续m非零的互补原图。
 
 [整个rankH=rankV=2层的本质维数界](results/R150-appendix-rank-two-second-and-third-cumulants-have-essential-dimension-at-most-four.md)已完整升级为essT3≤4：最后Gaussian例外把C=−A,D=−B代回两个分别的原H值方程即得17F³0矛盾。全部约化/二jet/∞均已支付，不再研究旧有限Gram的物理曲面门；无需新计算。结合rankH≤1，rankV2的潜在ess5/6必须rankH≥3；当前接rankH3的ess6满支撑反设，ess4仍独立开放。
 
@@ -54,13 +54,11 @@ $$
 
 **[rankH3约化退化Gram的ess6新归约](results/R150-appendix-rank-three-reduced-second-cumulant-degenerate-gram-essential-six-gaussian-reduction.md)：** 原完整六列基与N/最高值给F0全空、V二jet全空，以及F≠0/Hp非零全空；四种行常数连同原N两V值付全单位根。准确余项为约化H/V、F≠0、Hp0、H Gram秩2且两非零边；不把H自身退化当总Gram退化，继续最后支及非退化H Gram、H多jet。
 
-**[单位211整个最高基点值零分支已空](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-zero-highest-value-exclusion.md)：** 一般q在P0零图保全部P1/N0/N1；常规原mean结式41/42、31/31的全部纤维排尽，唯一零t抽象族由完整五维Gram秩二排。奇异D0两图原mean gcd1，半权原P_B=2N_B/P_C=2N_C与零点mean迫u1零，形成已禁止的等向2A+Z。自含原QQ源16.849538秒、74488KiB、exit0，旧边界不复算；只有P0非零继续，准确分m0/N0零与m非零/N0非零。
+**[单位211整个最高基点值零分支已空](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-zero-highest-value-exclusion.md)：** 一般q在P0零图保全部P1/N0/N1；常规原mean结式41/42、31/31的全部纤维排尽，唯一零t抽象族由完整五维Gram秩二排。奇异D0两图原mean gcd1，半权原P_B=2N_B/P_C=2N_C与零点mean迫u1零，形成已禁止的等向2A+Z。自含原QQ源16.849538秒、74488KiB、exit0，旧边界不复算；P0非零的m0也已由下条关闭，仅续m非零/N0非零。
 
-**[单位211非零P0、零m的两奇异jet面全闭](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-nonzero-base-highest-zero-isolated-mean-singular-faces-exclusion.md)：** 共同缩放p+q2、Q=pq后，E0=N0全局图的原N1分成F1F2；F1的g系数2Q(u−1)、F2的g系数−2lQ²。准确已闭F1/u1与F2/l0，非同名参数的另一面不误排；QQ22/58/44与59/92/88末纤维分别迫bc0/u0。源1.138905秒/exit0，继续F1/u≠1与F2/l≠0及根负责的m非零。
+**[单位211整个零孤立点mean分支已闭](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-nonzero-base-highest-zero-isolated-mean-exclusion.md)：** 原三mean到(u,Q)的有限纤维全部系数退化已付，低曲线/完整原纤维及五维Gram秩二族全排。两高曲线的真正QQ结式671/629、2876/2736，gcd仅u78(u−1)96与(u+2)21u228(u−1)459，全部剩余根已回原式排除。run45789670184/job139805205519的冻结源0374全通过，1443.281305秒/297956KiB/exit0。结合已登记奇异jet、J0、低配对和P0零层，零m全支关闭；仅续非零m，不重跑此门。
 
 **[rankH3单一三重jet、rankV2的全部ess6已空](results/R150-appendix-rank-three-single-jet-second-cumulant-has-essential-dimension-at-most-five.md)：** 最后F=−m/Hp非零在保持H的合法真jet规范中，Gaussian迫p1=d0、p0p2=hb²；原N/最高的0/1/2阶式先付7/15边界，再得S³+3mS/(2e)=1而左边5/2。结合Hp0的原十六维QQ全纤维，以及所有特殊源/∞、V二jet和F2m排除，整单一三jet仅ess≤5。纯手证，无新计算；只续H2+1、三值H及原ess4/5。
-
-**[单位211零m两图的线性权重面J0全闭](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-nonzero-base-highest-zero-isolated-mean-linear-weight-face-exclusion.md)：** J=lQ(2u−1)−u(2u+Q−2)；u=1/2会违Q≠1，故合法解l。完整QQ第二轮次数(零,69,60)/(零,232,220)保恒零式，gcd只余第一图Q2并由原五式GB1排除。自含源1.30923秒/64372KiB/exit0；剩余原两图的l6/l8高次行列式因子和全部实际来源继续。
 
 **[单位211非零m、u1的半比例及jet除数全闭](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-nonzero-isolated-mean-unit-base-mean-half-ratio-exclusion.md)：** 在p+q2、u=bp+cq=1、P0非零图，l0由原mean/S余式排除；jet的g系数零面归λ=f1/2，其g0抽象族因完整Gram秩二排。半比例其余图QQ92/162/170结果式仅余Q5/4，回原五式基为{f−5l/16−1/2,l²}，与已付l0矛盾。自含源2.801380秒/72196KiB/exit0；继续u1的λ≠0,1/2及一般u≠1，不宣全非零m空。
 

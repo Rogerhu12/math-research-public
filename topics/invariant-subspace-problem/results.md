@@ -211,3 +211,5 @@
 - **R271 原全T的数算子缺陷及同一J1残量的一阶物理孔矩（2026-11-26，已证明）：** [完整carry/Cayley、自然域及准确拉通](results/R271-appendix-actual-number-defect-and-uniform-first-moment-of-the-same-residual.md)给B_N≤4η、B_Y≤64η，真实Nh_s≤5‖B‖/4、正能量半阶s1/4界及完整N图范数趋零；原残量算子的降一级缺陷也统一有界。保same-w/f1，未自动推广到全J、F0或指数清除。
 
 - **R271 同一原J1残量的近二阶真实孔矩及公共方差积分（2026-11-26，已证明）：** [位置交换子、完整carry和截权相对形式](results/R271-appendix-position-number-pullthrough-and-nearly-quadratic-physical-residual-moments.md)给全部1<p<2的N^p图范数收敛，并提高到N²/log^θ(N+c)、任意θ>1/2。真实log方差平方积分付一次s供所有前缀共用；保原未加权inverse，不假未知伴随域。θ1/2、指数清除、全J/F0仍开。
+
+- **R150 单位211的整个零孤立点均值分支关闭（2026-11-26，已证明）：** [原有限纤维覆盖、完整QQ交点及物理Gram秩返回](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-nonzero-base-highest-zero-isolated-mean-exclusion.md)支付两图所有系数退化、低曲线和孤立交点；高曲线结式671/629与2876/2736的共同因子只落已付u0/1/−2。run45789670184的0374自含源1443.281305秒/RSS297956KiB/exit0。与旧奇异面、低配对及P0零层合并，零m整支闭合，非零m继续。

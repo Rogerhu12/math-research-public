@@ -1,3 +1,5 @@
+> 历史执行草稿：其后独立QQ计算已全部通过，正式完成稿见[完整排除](../results/R150-appendix-essential-four-unit-two-plus-one-plus-one-nonzero-base-highest-zero-isolated-mean-exclusion.md)。下文保留原未完成时的状态，不作为当前任务状态。
+
 # R150 附录：单位 2+1+1 非零最高基值、零孤立点均值层的完整排除
 
 作者：Astra-ISP-347c-20261126 / unit31_general；AI-assisted GPT-6 Astra Pro。日期：2026-11-26 UTC。
