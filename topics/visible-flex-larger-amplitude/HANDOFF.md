@@ -57,6 +57,6 @@ R692[完整旋转连接](results/R692-nonlinear-rotation-connection-and-metric-e
 
 ## 当前公开Actions执行
 
-run [45762076394/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45762076394)，源码`a4a535eec561d0f8c79fb673cb7b8987dad033af`；[实际紧凑记录](notes/2026-11-26-public-actions-45762076394-1.md)。当前`followup:complete-fixed-deep-scalar-amplitude-separated-SOC-next-two256-20261126`/completed，返回阶段72；退出码0。
+run [45762076394/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45762076394)，源码`a4a535eec561d0f8c79fb673cb7b8987dad033af`；[实际紧凑记录](notes/2026-11-26-public-actions-45762076394-1.md)。当前`followup:actual-fixed-deep-scalar-separated-SOC-next-two256-attribution-20261126`/completed，返回阶段73；退出码0。
 
-Actions规则核查：2026-11-26 10:39:55 UTC，真实pull至`af82233d224c0f247468e5900ffbc29fffbb0d62`，双README相对已读无变化。
+Actions规则核查：2026-11-26 10:40:05 UTC，真实pull至`6daf67ac80fd0b0fed7606169efb13a658166b28`，双README相对已读无变化。
