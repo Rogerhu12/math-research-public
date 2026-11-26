@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R150 全部剩余有限中央H源有更低次数的原N一阶必要系统（2026-11-26，归约已证明，未判空）：** [完整原phase/norm及三条原N导数](results/R150-appendix-rank-three-reduced-degenerate-Gram-general-finite-center-original-N-first-necessary-equations.md)从实际Kc与两首一二次源代数给十条必要多项式；保V全部项、先求导后H余式、中心t9系数。系数域QQ[e]/(2e³+1)，Pi只含已付物理单位与已闭c0/2；c−6和所有a3零面均保。真I*C=1门已启动，成功身份尚待实际输出。
+
 - **R150 原中心H=−6的零首项端点纤维为空（2026-11-26，已证明）：** [原A=7/9、ab=637/5580的完整三维QQ证明](results/R150-appendix-rank-three-reduced-degenerate-Gram-central-minus-six-leading-zero-exclusion.md)保全部V源三次代数和真实L，U³原身份在0.160615秒实际回乘。run45823574259/job139921814446的后续一般a≠0范数到时，整体exit1仍如实记录，不能据此关闭整个中心−6；后续换一般有限中心原N一阶输入。
 
 - **R150 三约化H退化Gram、Hp0的中心H=2整个原物理图为空（2026-11-26，已证明）：** [原K2与完整首项零边界证明](results/R150-appendix-rank-three-reduced-degenerate-Gram-central-two-exclusion.md)同时变换kernel；a(A)=−16(A+1)零点先由H重根排除，余原QQ864/1296范数gcd652的四因子全部在6/6/24/6维代数中得到U幂身份。run45823574259/job139921814732、229.449772秒/562040KiB/exit0。q/极线/trace及a⁹尺度均来自该原kernel，V∞仍保留；一般有限中心继续。
