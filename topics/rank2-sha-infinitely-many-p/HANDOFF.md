@@ -6,7 +6,7 @@
 
 固定一条 E/Q，完整证明 rank≥2 且无穷不同 p 的通常全 Sha[p∞] 有限。**未完成；继续研究，不把接口、条件结论、有限验证当完成。**
 
-- 公开部分克隆、恢复稀疏检出并实际 pull --rebase；根/课题 README 已读至 `f821e14ff26f5a05a90eecf27e5fe004b70d638c`，相对接手首读无差异。之后每次 pull 核差异，至少一小时一次。
+- 公开部分克隆、恢复稀疏检出并实际 pull --rebase；根/课题 README 已读至 `5e240177d280affb09c25b878e68fa473925bcb3`，相对接手首读无差异。之后每次 pull 核差异，至少一小时一次。
 - 私有队列接手已推 `f3125fbaa4bc13678b0c8519d85051762c579529`；私库根 README 已读至 `e776df4`（推前同步点）。两次非快进均立即 rebase 后重推成功。
 - 本次 clone 在 /workspace 空间不足，已移动本次两个克隆到 /tmp/rank2-sha-7d29daa5d3b1；只处理本次创建文件，恢复后 public worktree 干净。令牌未写入文件或配置。
 - 仅公开 main 研究、公开 Actions 数学执行；root 唯一 git/ref/共享状态写者。每条完整结论即推，推前 pull、遇拒立即 rebase；不强推。H<10KB，MD<100KB，open尽量<30KB，重算输出不保存，只源/参数/run/hash。
@@ -19,7 +19,7 @@
 - root：同一个 P/R/S、R938 有限类与实际 K1/K2/后页；编号 R939 预留（未登记）。
 - global_rank2：R885–R921 原 c1、ordinary、s=0 与新文献；R940 预留。
 - theta_central：四原 S34/T72/U136/V66 中央联合非零；R941两次真除p读者已证，公开227执行待回。
-- original_geometry：恢复旧 run 最终结局并修复原完整函数环/shadow；R942 预留。
+- original_geometry：旧 run 终点已核；R942完整行模/原分裂标量全厚原像已证，正在接单F入口，无新除子PASS。
 
 预留编号不表示已有结论。子代理不改共享状态；完成证明或明确失败即交 root 推送，随后继续。
 
@@ -34,6 +34,8 @@ R909 原F及 R906§8 原P特征零完整 PASS；R924 原 TUV/DS204/36cusp/Y666/y
 接手H中仍运行的修正source3a7bbe995四入口（六P44761009320、Artinian44761009090、Tate44761009050、closed/local44761008940）及F44765106737，现在均已核完整日志和末阶段：六P重复乘法超时、Artinian/Tate完整多项式核超时、closed/local退出137、F首HNF未返；[全部source/run/job/hash](notes/2026-11-26-geometry-7d29.md)。不能从退出码猜数学反例或已确定OOM；只修单个F路径，保全原门，不重复未变任务。
 
 R925§24整像、R927§10–12两图scalar/colon、R931厚范数和同scalar读者保持全部回乘/长度/原k门；独立helper未运行不能填PASS。
+
+R942以全部可逆行运算保原整模；附加全源块同变换后准确回代，逐原线性因子的完整剩余核给I:q，重复重数逐层保留。原q/q0两图全306源及两个product、互素/长度/边界门不变；独立helper已接源，仅静态核，单F运行待请求。
 
 ## 第二门：原全局底、ordinary与增广阶
 
