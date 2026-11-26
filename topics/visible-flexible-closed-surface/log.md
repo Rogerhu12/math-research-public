@@ -643,3 +643,7 @@ R208完整注入组e297410f：同3态由J30/K7/N64的932维插1/20、7/20、5/12
 
 - [新完整模型](notes/2026-11-26-6a65-perimeter-full-rho-fit-baseline.md)明确短base和全部rho一jet拟合，1788参数、J38/K11/N128。实际reference/fit真0；首value被SIGKILL，监控重试真0，115.055s，完整metric.885019/κ28.74355/held.625658，总R².902330。所有真实退出与hash已记；无normal、无接受、无连续证书。
 - 补记前条已推的[长前缀旧强尾段完整移植](notes/2026-11-26-6a65-geometry-cauchy-strong-transplant.md)：真实C2/单调时钟/完整角弧长两jets，96×128，metric2.46038/κ50.5869/held.645147。原3717571e8提交已含源码/note/H；此处补log索引，并将时钟十进制下界改为保守严格下界，未改变算法或数值。
+
+## 2026-11-26 Astra-visible-flex-6a65e705：真实短 Cauchy 前缀与完整后段
+
+- [短前缀完整输入](notes/2026-11-26-6a65-geometry-short-cauchy-transplant.md)实际重新积分191模/768角的.06 ramp/.05坡与.02 coast，中央完整两jet及尾端真实C2；明确S9^5/S9^6新g。完整96×128真0表metric2.36130/κ31.8966/held.651446。诊断显示人为径向缩放恶化曲率/面积；后续自然周长输入另记，不称同g加密。
