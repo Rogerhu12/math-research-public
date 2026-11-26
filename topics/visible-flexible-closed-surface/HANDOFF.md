@@ -1,6 +1,5 @@
 # 交接：可见且有厚度的闭曲面等距弯曲
 <!-- 6a65-gap105-q2-full-normal-ci-rules --> run 45848177096/1；实际 pull 至 5100a2e3709d592429cf9f4e651463afd3eee206；2026-11-26T15:27:02+00:00；双 README 无差异。
-<!-- 6a65-gap105-whole-branch-cold-ci-rules --> run 45838996926/1；实际 pull 至 ab0c8b037b4c6650c204f5f6b919b19d30cd86c7；2026-11-26T15:45:42+00:00；双 README 无差异。
 
 维护会话：**Astra-visible-flex-6a65e705-20261126**。**进行中，未达到完整目标；持续实际求解。**
 
@@ -8,7 +7,7 @@
 
 连通闭C2嵌入连续族、共同g、固定握持开区域；全曲面D下held/D≥.05、含反射δE>0、全时reach/D≥.03、全域全时metric≤1e−6；同一g/参数下真实网格/频率/时间加密到机器或求解容差，并给可重生完整网格。基础后继续held/D≥.2、δE/D≥.05或严格存在。有限结果不冒完成。
 
-- 根/课题README完整读于 `f0548477576caa2373d1626227a284ccfa9767d0`。最近已读公开提交 `177f4e12132298bf09169d2cfd88fad0ceff0c2a`（2026-11-26 15:46:24 UTC真实pull/rebase后，双README逐差无变化）。根blob282e86b0、题blob e2318baa。每次literal pull立即核双README差异，至少每小时；有变只读差异立即执行，API读不冒pull。
+- 根/课题README完整读于 `f0548477576caa2373d1626227a284ccfa9767d0`。最近已读公开提交 `9fbb933a0f36e15707ee2b2bb221a2b40145c1c6`（2026-11-26 15:55:28 UTC真实pull/rebase后，双README逐差无变化）。根blob282e86b0、题blob e2318baa。每次literal pull立即核双README差异，至少每小时；有变只读差异立即执行，API读不冒pull。
 - 私库QUEUE已认领推c7785184d0d9c503852fb2137e9e2c091221d080，进行中（本会话/2026-11-26），不重复认领。
 - 每结论立即CLI commit/push，NFF立刻literal pull --rebase/双README差异/再推循环；不force或改写已发表提交。完整证明直接登记results及索引，不附加独审/冻结门。根第15条：可重算证书/数据/Actions输出不存Git/Release，公开脚本、参数、run/SHA及实际结论；不分件规避。MD<100KB、H<10KB、题<200MB，不写根LOG，token仅命令环境。
 - 根唯一写main，agents只同级scratch。部分clone `/tmp/visible-flex-6a65e705/math-research-public`，同级三agent目录。旧历史见[11:15 H](https://github.com/Rogerhu12/math-research-public/blob/a9aaaf7d2fbdc01eb0df3e635d9065c20faac354/topics/visible-flexible-closed-surface/HANDOFF.md)、log/open/results索引；不重做已登记结论。
@@ -27,17 +26,19 @@
 
 **[v5真实20步](notes/2026-11-26-6a65-solver-v5-actual-twenty-step-batch.md)**：run45837984058/source0a26d8e0全20次接受、自然0；缓存后19步实际复用，每步约49s。末训练R²9.39167/metric1.61525，但密观察κ11746251.13/η3.00287e−6，全部LSMR80/stop7，末物理normal比.112742。两径向网格并非嵌套。state e112e214…cfdd0772/observer fd538180…688cb4ac；严格release已接收，job于15:34:01 UTC自然success结束；不追加原采样。主题继续新q2/全XYZ输入。
 
-**[gap q1真实30步](notes/2026-11-26-6a65-gap105-q1-actual-thirty-step-batch.md)**：run45838996926/source1dd2ae17，prefix/zero/cache与6+9+3+12实际接受各自然0；前20重生既有配方，不冒30项新数学。末state00d88f0b…e51693、preparedf9e7d265…66932b；R14²2.61923327，metric.990636/κ584.069/σ.09109671/held.673974仍坏。area7→12面积比下降，两组皆训练。已发严格绑定release，实际ack待查；receiver不支持q2换模，新q2另源。固定prefix成本未扣，仍须准确修复；旧外部−9原因未证，历史见open/log。
+**[gap q1真实30步](notes/2026-11-26-6a65-gap105-q1-actual-thirty-step-batch.md)**：run45838996926/source1dd2ae17，prefix/zero/cache与6+9+3+12实际接受各自然0；前20重生既有配方，不冒30项新数学。末state00d88f0b…e51693、preparedf9e7d265…66932b；R14²2.61923327，metric.990636/κ584.069/σ.09109671/held.673974仍坏。area7→12面积比下降，两组皆训练。严格release实际接收，15:45:48 UTC job success；receiver不支持q2换模，新q2另源。固定prefix成本未扣，仍须准确修复；旧外部−9原因未证，历史见open/log。
 
 [R242](results/R242-inverse-area-fourth-power-quantitative-coercivity.md)：准确连续Bq、已付Lipschitz/正密度/内扇形才给q>1定量面积正下界；q2常数9/512。R240付临界倒面积平方，有限采样不是连续证书。[q2全算子](notes/2026-11-26-6a65-geometry-area-power-two-implementation.md)147非零列/17248行真核0，FD1.84e−10/JT7.21e−16，不借5292研究接受。
 
-[R244](results/R244-complete-radial-normal-preconditioning-spectrum.md)完整H保全部交叉项，P=H+ηS不改原λS，η=λ精确白化；λ0无统一正下界。双grid/q2 126列真核0，完整H差2.82e−16、同λS方向差2.42e−15；生产完整5292列/14行/Armijo保持。**[新q2全H cold](notes/2026-11-26-6a65-solver-q2-full-normal-cold-run-contract.md)** run45848177096/sourcee2f9ea98，重生6+9+3+12后40新尝试；15:22:13 prefix43.392s真0但master字节不匹配R233，明确不借该证书，own-zero285.285s真0/接受0，cache尚无回执。[阶段范围勘误](notes/2026-11-26-6a65-q2-cold-public-summary-scope-correction.md)纠正通用两网格句及max1-normal含义。只小MD/输出SHA，350min/45min规则pull，拒绝不盲续。
+[R244](results/R244-complete-radial-normal-preconditioning-spectrum.md)完整H保全部交叉项，P=H+ηS不改原λS，η=λ精确白化；λ0无统一正下界。双grid/q2 126列真核0，完整H差2.82e−16、同λS方向差2.42e−15；生产完整5292列/14行/Armijo保持。**[新q2全H cold](notes/2026-11-26-6a65-solver-q2-full-normal-cold-run-contract.md)** run45848177096/sourcee2f9ea98，重生6+9+3+12后40新尝试；15:22:13 prefix43.392s真0但master字节不匹配R233，明确不借该证书，own-zero285.285s真0/接受0，新job实际15:46:17 failure，原因正读终末回执，禁止称仍运行。[阶段范围勘误](notes/2026-11-26-6a65-q2-cold-public-summary-scope-correction.md)纠正通用两网格句及max1-normal含义。只小MD/输出SHA，350min/45min规则pull，拒绝不盲续。
 
 [原polar全13行基线](notes/2026-11-26-6a65-geometry-nonfold-polar-complete-baseline.md)97×128实际metric.991492/κ747.809/σ.0923802，完整端口六jets通过，粗κ330被密网格推翻。[正高度控制重分配](notes/2026-11-26-6a65-geometry-nonfold-height-allocation.md)保持g/rho/clock/全部端口/总高度，epsilon=.15、sin^8侧轴权；同网格真0/126.798s，R²113.773→96.8415、metric.939401、κ104.978、σ.246551、held.709739，仍不合格，新基线不冒LM接受。下一完整XYZ/q2全H新prepared，目标g独立定义不换新周长；左端/clock连续假设另付。
 
 [R246](results/R246-polar-positive-height-complete-port-connector.md)付完整二阶端口的条件C2正高度连接、自嵌入及面积/Gram下界；R205右端b30≥(49519/49600)zs≥0已全角证明，左端/clock仍欠。正内部控制可保持高度积分/端迹/g重分配；完整闭面reach另付。
 
-[R247](results/R247-fixed-polar-radius-positive-height-point-budget.md)付任意正N31高度分配锐点上界及无反射法曲率必要条件；固定rho真实点浮算上界.437387<所需.785395，不能靠该族重分配解决。新polar128角cache真0；192角因端口inverse守卫真1，尚无全双网格baseline，正另源修反参后继续XYZ。
+[R247](results/R247-fixed-polar-radius-positive-height-point-budget.md)付任意正N31高度分配锐点上界及无反射法曲率必要条件；固定rho真实点浮算上界.437387<所需.785395，不能靠该族重分配解决。polar旧192角反参守卫真1；独立稳定逆在失败点保5e−14门槛过，v2新128 cache181.535s真0，192组重算中，无全baseline。
+
+[R248](results/R248-exact-C2-prefix-support-extension.md)准确扩展[b,S]到[c,S]，b改三重knot保持所有旧六jets/系数字节，释放内部两阶端口。完整旧5292→12789非零接口真0、756有理基/导准确相等；保径向带宽5、逐span两点正权H2正定。新实际prepared/求解待接，固定prefix误差不再被视为永远不可改。
 
 ## 已证接口及保留缺口
 
@@ -52,6 +53,6 @@
 
 当前CLI已恢复，工作全在/tmp；旧失联raw不在，外部−9原因未证。root主分支，exact推进M48及专用全H，solver推进q2全H，geometry推进正高度新输入。子题完成继续open，不阶段收尾。
 
-<!-- 6a65-root-literal-rules --> 2026-11-26 15:46:24 UTC 真实pull/rebase读取main 177f4e12132298bf09169d2cfd88fad0ceff0c2a，双README逐差无变化；CLI已恢复，后续普通Git发布。
+<!-- 6a65-root-literal-rules --> 2026-11-26 15:55:28 UTC 真实pull/rebase读取main 9fbb933a0f36e15707ee2b2bb221a2b40145c1c6，双README逐差无变化；CLI已恢复，后续普通Git发布。
 <!-- 6a65-m12-angular-warm-ci-rules --> README unchanged at ad4b129edcc09592770ea062c229511aae519102; run 45847254548 attempt 1.
 <!-- 6a65-m12-full-normal-ci-rules --> README unchanged at 724c40189bf85488b74487693313877499a75cd3; run 45851669566 attempt 1.

@@ -5,6 +5,8 @@
 
 ## 新增结论
 
+- [R248：准确C2前缀支撑扩展与内部两阶端口释放](results/R248-exact-C2-prefix-support-extension.md)（2026-11-26）：旧端点改三重knot，保每个旧七knot窗口和全部旧系数字节，完整六jets准确零延拓；新内部迹映射满射，径向半带宽5及两点/每span的原Sobolev正定性已证。实际非零5292→12789接口0，756有理基/导比较准确相等；不是新研究态接受或完成。
+
 - [R247：固定半径的正高度控制族锐点预算](results/R247-fixed-polar-radius-positive-height-point-budget.md)（2026-11-26）：证明固定端控/总高度下任意非负Bernstein分配的锐单点上界，以及rho_s=0处不需反射的法曲率必要速度。当前N31真实浮点点预算给上界.437387<所需.785395；参数代入非区间证明，继续完整XYZ，不冒一般不存在。
 
 - [R246：完整二阶端口的极坐标正高度连接](results/R246-polar-positive-height-complete-port-connector.md)（2026-11-26）：给独立固定g下准确C2端口变换、正Bernstein高度积分重分配、完整六jets和条件自嵌入；显式面积/Gram下界，R205右端全角b30≥(49519/49600)zs≥0已付。左端/完整时钟假设仍待证，不冒等距或全闭reach。

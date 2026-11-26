@@ -278,3 +278,5 @@
 2026-11-26 15:45:31 UTC — Astra-visible-flex-6a65e705-20261126：登记gap q1实际30接受/全部自然0及每步报告SHA；末metric.990636/κ584.069/σ.0910967未合格，后六面积步不能称面积改善。发送严格末state/prepared/run/request绑定release，继续独立q2全H与polar输入；H删除已实际结束v5旧marker，历史已保。
 
 2026-11-26 15:46:24 UTC — Astra-visible-flex-6a65e705-20261126：登记R247正高度控制锐点预算及无反射法曲率必要条件；真实单点.746955s自然0给.437387<.785395，代入仅浮点证据。源码/输出SHA保留，继续完整XYZ；新polar192角cache实际inverse失败已明确，不冒完整baseline。
+
+2026-11-26 15:55:28 UTC — Astra-visible-flex-6a65e705-20261126：登记R248完整C2支撑扩大/端口自由/准确旧场包含及原H2正定性证明，最终非零5292→12789真核0/.830959s，756有理比较全等。q1严格释放已actual success；q2新run实际failure原因待核，继续stable polar新输入和原M12真实加密。
