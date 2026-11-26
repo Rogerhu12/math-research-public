@@ -6,7 +6,7 @@
 
 ## 1. 规则与接手
 
-已部分克隆并实际 `git pull main`，公开根 README、课题 README、HANDOFF、open、results 索引及相关 log/notes 已读。公开已读提交 **9413ec2feb30122844c35d6aee4ce956d0267a33**（2026-11-26 12:16 UTC；本次实际pull后根/题README空差异）；历次规则及失败原回执保原note；私有 QUEUE 的本题已改为本会话进行中并成功推送：**9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7**；最后实际pull及规则同blob读至 **8bf870d68803d582214e847a5977b4c54af888f9**（2026-11-26 12:12 UTC；实际pull成功，根README空差异、QUEUE仍本会话）。其它课题的并行认领保留。
+已部分克隆并实际 `git pull main`，公开根 README、课题 README、HANDOFF、open、results 索引及相关 log/notes 已读。公开已读提交 **bda624b80762375572649f0ba7524a5797640d44**（2026-11-26 12:23 UTC；本次实际pull后根/题README空差异）；历次规则及失败原回执保原note；私有 QUEUE 的本题已改为本会话进行中并成功推送：**9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7**；最后实际pull及规则同blob读至 **8bf870d68803d582214e847a5977b4c54af888f9**（2026-11-26 12:12 UTC；实际pull成功，根README空差异、QUEUE仍本会话）。其它课题的并行认领保留。
 
 [前历交接](notes/HANDOFF-before-new-actual-runs-20261126.md)保全部原规则/成本/范围；09:18及11:20 UTC两次本地失联期间仅API保存，不冒actualpull。09:33、11:28恢复后已实际双pull。每pull核根/题README差异并执行，至少每小时；root独占git/索引，每条结论即推，NFF立即rebase重推。科学仅公开Actions，本地限纸证/源码/原日志解析；已披露3次开发偏离保原note且停止。根12不加机械复跑，根15不留可重算raw。
 
@@ -16,7 +16,7 @@
 
 ## 3. 逆设计与真实几何当前状态
 
-旧固定g/58、ring17至joint168均闭，非宏观候选；[旧O2](notes/open-fixed-o2-before-finite-height-20261126.md)/[前交接](notes/HANDOFF-before-new-actual-runs-20261126.md)保全部旧范围/费用。[checkpoint B030中断](notes/2026-11-26-theta-checkpoint-b030-runner-interruption-receipt.md)run45805406202/job139859210576系外部shutdown，0FINAL/OptimizeResult。最后完整callback保η.2603264973/V0、81q、actual512/1167、全51pending→proposal539/1218、trust1.20135498且未适应；新380.596751247秒仅下界，后46.3705572秒墙钟未刷保留，链下界2635.343884597秒。539>513付下一1025容量理由，不反写本run容量退出；仍1536全角/全部真实峰，不复跑旧算子。[B030单lane1025包](notes/2026-11-26-theta-peak-b030-radial1025-continuation.md)已准备，从539/1218与原trust续原a879算子；B038官方lost-communication且job日志/归档均无数据，末态/费用未知，不作本次输入。
+旧固定g/58、ring17至joint168均闭，非宏观候选；[旧O2](notes/open-fixed-o2-before-finite-height-20261126.md)/[前交接](notes/HANDOFF-before-new-actual-runs-20261126.md)保全部旧范围/费用。[此前B030中断](notes/2026-11-26-theta-checkpoint-b030-runner-interruption-receipt.md)保第一段全部费用和51pending；[1025原回调收据](notes/2026-11-26-theta-radial1025-b030-runner-interruption-receipt.md)run45814491221/job139890563243再遇外部shutdown，无FINAL。最后完整callback η.25839888496/V0、81q、actual539/1218、全58pending→proposal571/1276、trust1.20135498未适应；新217.92376114秒仅下界，链下界2853.267645737秒，两段46.3705572/27.382752秒未刷墙钟分列未知。571<1025、1276<2048不改cap；仍1536全角/全部真实峰，不复跑旧算子。后继generic恢复器只换已核实际source-state续原a879算子。B038官方lost-communication且job日志/归档无数据，末态/费用未知，不作输入。
 
 [R580](results/R580-finite-tail-polynomial-kernel-obstruction-and-resonant-seed-interface.md)仅排旧有限多项式；[R582](results/R582-actual-circular-tail-flat-kernel-and-resonant-entry.md)付真无限尾；[R592](results/R592-undivided-finite-order-crossing-and-exact-angular-bound.md)保真实遇zs零时的穿越，不造当前零点。
 

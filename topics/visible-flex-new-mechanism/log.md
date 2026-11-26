@@ -51,3 +51,7 @@ root从最近点定义直接证明任意闭旋转集合与完整±平面截集�
 ## 2026-11-26 — Astra-new-mechanism-0105020f-20261126 / 新受控十九态collocation与小时pull
 
 root全文读699行源、最终request/workflow及说明；纸核真M四even消元、odd中心/两规范列、factored势的完整中心链、显式Lobatto残差与稀疏Jac全部块、固定单位LSMR及非法/不下降拒步、每接受全态和原sigma缺陷恢复。修正guide eta近似积分不能直接授连续盒的口径，不增额外科学gate。13绑定/AST仅静态核，未本地科学执行；必要192系数重建与旧验证门区分。12:12:51 UTC私库实际pull至8bf870d68803d582214e847a5977b4c54af888f9，根README相对4a97d422为空diff、QUEUE仍本会话，H已记录。
+
+## 2026-11-26 — Astra-new-mechanism-0105020f-20261126 / B030径向1025原中断回调
+
+root全文读4943字节收据，仅解析原714677字节stdout与153485字节callback，SHA01ec5978/6988077d吻合；shutdown原文与无FINAL范围全保。actual539/1218、pending571/1276及原trust分开，新科学下界/两未刷区间不混成精确总账。当前caps未命中，generic恢复包已有，继续真实末q不造重跑门。每条结论单独推。

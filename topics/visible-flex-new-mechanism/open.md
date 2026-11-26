@@ -327,3 +327,7 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 ### R590 真矩初猜和受控完整collocation实际求解
 
 [新实现](notes/2026-11-26-r590-staged-trust-collocation-design-agent.md)仍保同36母/19态/29BC，先用原M四even积分准备guide，再以真积分设四odd中心、真实rho历史及同χ两固定规范方向。完整势用已证共同中心差，所有未知中心链在Jac中；65显式stage避免用巨大RHS预先消中点，固定行单位/可逆列尺度/LSMR阻尼和真实下降比控制接受。每接受全态先刷，原单位全部缺陷另读；当前192阶固有精度差不会被globalization消掉，后继须针对实际候选精化。
+
+### Theta B030 第二次完整callback中断，继续同算子真实末态
+
+[原始回调收据](notes/2026-11-26-theta-radial1025-b030-runner-interruption-receipt.md)保run45814491221/job139890563243完整已接受81q，η.25839888496076013/V0，actual539/1218、proposal571/1276、58pending和未适应trust1.20135498046875。1025/2048均未命中；217.92376114秒新科学下界与27.382752秒新未刷墙钟分开，原46.3705572秒继续保未知。后继只换严格绑定此callback的generic恢复入口，继续新的Jac/fine/峰，不重复旧算子门或冒自然后端返回。
