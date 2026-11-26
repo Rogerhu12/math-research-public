@@ -181,7 +181,7 @@ Deddens自伴MASA、全部可分重数有限成本投影、全2-adic平移距离
 [全交换子兼容喷射](results/R12-appendix-full-commutant-compatible-formal-jets-and-flat-root-denominators.md)只给不整除闭根的实际分母必平坦。新[完整C无任何非零分母定理](results/R12-appendix-full-commutant-no-bounded-regularizer-and-nonclosability.md)已对显式正连续循环f证明PX_f全柱无界、无PH入域、C1∩Cf=0；两轨道均稠密，完整C无可闭性/任何RSC向量。原完整高块误差、固定外锚与全列范数都已付，不能再从I∞/R267的强*密度推出一般分母。继续利用实际闭根或湮灭见证的额外方程构造特殊来源，不把该坏源移给它们。
 
 
-五原二次式F_(41,33)必要曲线已付；新[H_(6,4)整首项零面](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-quadratic-head64-zero-exclusion.md)由230→89次QQ覆盖和同原G132,109的一元Bézout关闭，125.960501秒/exit0。可解五个二次单项式，续三次重叠与同点原N/P；有限生成不作自由。10×10全伴随180秒失败冻结。
+五原二次式F41与H64整边界已付；新[两参数四生成原模及全部同eta N/P](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-four-generator-two-parameter-original-system.md)支付H16整支（665→305次QQ覆盖/保13与109次的一元Bézout），六重写与五原式双向身份、15行全返回，55.292738秒/exit0。续15×4矩阵原子式作用于真实(λ,f,v,1)，不把四生成作自由。10×10全伴随与完全展开trace180秒均冻结。
 
 
 [N型最大carry域](results/R271-appendix-maximal-n-carry-domain-triangular-reconstruction.md)已由有限行严格三角重构识别为ρ权平方和域；各Pq h在H且Kh在H即进总孔核心。若同W来源已付Sh∈H，非零W只可能来自D*h与Kh各非H的真实抵消；此来源与抵消排除均未付，Y不套此正交重构。

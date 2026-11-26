@@ -1,0 +1,46 @@
+{
+  "session": "Astra-ISP-8542378f-20261127",
+  "status": "unresolved_resource_limit",
+  "operation": "Expand every four-generator normal-form trace completely into the original five quadratics before returning each N/P row.",
+  "inputRegenerationSource": "2026-11-27-unit211-S0-Lt0-same-eta-four-basis-two-parameter-original-return-8542.py",
+  "scratchDriverSha256": "4c8e81b39cc5a2dec90e3f0ea49fdc9b1dfccd5bebd7e417805f170011df3635",
+  "alarmSeconds": 180,
+  "alarmResetAt": "after initial five-rule construction",
+  "addressSpaceGiB": 4,
+  "observedSignal": 14,
+  "observedShellExitCode": 142,
+  "externalWallSeconds": null,
+  "stdoutSha256": "3c21d4f587b32a52a33275cec78fb49209fa2b5bb417d345cf18dad3b3186be1",
+  "stdoutBytes": 11283,
+  "lastCompletedRow": "NB_even",
+  "lastCompletedRowSourceSeconds": 91.11951452799985,
+  "completeAllOriginalNPReturn": false,
+  "mathematicalExclusionConclusion": null,
+  "doNotRepeat": true,
+  "replacementInput": "Two-layer original certificate: each of six quadratic relations is multiplied back into five original quadratics; each N/P remainder is separately multiplied back into the six relations. Their explicit composition is kept factored, avoiding the failed full expansion.",
+  "retainedRegenerableData": false,
+  "failureSource": "2026-11-27-unit211-S0-Lt0-four-basis-expanded-trace-failed-source-8542.py",
+  "failureSourceSha256": "4c8e81b39cc5a2dec90e3f0ea49fdc9b1dfccd5bebd7e417805f170011df3635",
+  "failureSourceExactOriginalBytes": true,
+  "failureSourceCaveat": "The frozen failure driver retains its original hard-coded scratch paths and exec/split dependency. It is preserved for exact provenance, not represented as a standalone successful source. Reproduction requires mapping the paths listed below.",
+  "failureDependencies": [
+    {
+      "originalPath": "/workspace/scratch/8542378f2b73/r150-scratch/Lt_five_quadratic_rules_probe.py",
+      "frozenRepositorySource": "2026-11-27-unit211-S0-Lt0-five-quadratic-rules-failed-source-dependency-8542.py",
+      "sha256": "3b0696cc930c5392c380fcb123a5fafb14452c4860abac5c256cf4c3f506950c",
+      "role": "The driver executes the helper prefix before rows=[]/def serbr."
+    },
+    {
+      "originalPath": "/workspace/scratch/8542378f2b73/math-research-public/topics/invariant-subspace-problem/notes/2026-11-27-unit211-S0-Lt0-equal-singleton-weights-original-return-8542.py",
+      "frozenRepositorySource": "2026-11-27-unit211-S0-Lt0-equal-singleton-weights-original-return-8542.py",
+      "role": "The helper executes this source only before # SAME eta alignment/norm."
+    },
+    {
+      "originalPath": "/workspace/scratch/8542378f2b73/r150-scratch/Lt_five_quadrics_quadratic_heads.json",
+      "role": "Only minors[0] is read: exact H64 sparse coefficients, with exponent pairs and rational coefficient strings.",
+      "polynomialSha256": "c2ab52cf20759d7bfb7e1d4bdb27ad62fc9d64b4534952b1046a4e6ef61c7159",
+      "regenerateFromFrozenSource": "2026-11-27-unit211-S0-Lt0-quadratic-head64-zero-original-return-8542.py",
+      "regenerationVariable": "H64 (encode its to_dict as {minors: [[[exponent_pair, coefficient_string], ...]]})"
+    }
+  ]
+}

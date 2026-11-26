@@ -1,0 +1,290 @@
+{
+  "session": "Astra-ISP-8542378f-20261127",
+  "source": "2026-11-27-unit211-S0-Lt0-same-eta-four-basis-two-parameter-original-return-8542.py",
+  "sourceSha256": "851c83c492faa4028c9b415d51c80139cb96567644feecefbd06d127a2428c52",
+  "sourceBytes": 38774,
+  "parameters": [],
+  "actualExitCode": 0,
+  "wallSeconds": 55.2927382179987,
+  "stdoutSha256": "769e87ecfa97bbaaab50e3cef159aec5e4200d3420285ccacad27440d290a6fb",
+  "stdoutBytes": 24296,
+  "peakRssKiB": 125428,
+  "limits": {
+    "alarmSeconds": 300,
+    "addressSpaceGiB": 4
+  },
+  "wholeS0Lt0Excluded": false,
+  "claimFreeBasis": false,
+  "finalRecord": {
+    "stage": "complete",
+    "scope": "same localized ideal of the five original quadratics has four spanning monomials over QQ(e,k); all remaining original N/P rows and nine cubic overlaps returned at same eta",
+    "rows": 15,
+    "paidCoefficientDenominatorChecks": 473,
+    "newWholeBoundaryExcluded": "H16_13=0",
+    "claimFreeBasis": false,
+    "wholeS0Lt0ExclusionClaim": false,
+    "ordinaryISPClaim": false,
+    "sourceSha256": "851c83c492faa4028c9b415d51c80139cb96567644feecefbd06d127a2428c52",
+    "peakRssKiB": 123088,
+    "claimExcluded": false,
+    "seconds": 55.14410558000236
+  },
+  "newLeadingCoverRecord": {
+    "stage": "whole_v2_leading_QQ_parameter_cover",
+    "leadingFactorDegrees": [
+      16,
+      13
+    ],
+    "leadingFactorTerms": 156,
+    "leadingFactorSha256": "a17adccb80b9ec09219643cbee3c47a64f1ed3c27716623da8adfe559fc8b93e",
+    "fullQQCoverDegree": 665,
+    "remainingQQDegree": 305,
+    "paidDivisions": [
+      [
+        "original_e",
+        34
+      ],
+      [
+        "zero_base_weight",
+        16
+      ],
+      [
+        "original_u",
+        215
+      ],
+      [
+        "entire_ehalf",
+        95
+      ]
+    ],
+    "allQQDivisionsMultipliedBack": true,
+    "fullSha256": "261c52dc106e82866b5b1419cc71ca97be84c5360539df47720551b805800e0d",
+    "remainingSha256": "760a0ca6601a950a30c6966892173b94e556a4440825ce5d2eb428ca661c09d4",
+    "noKLeadingCoefficientInverted": true,
+    "claimExcluded": false,
+    "seconds": 39.82896383000116
+  },
+  "newLeadingReturnRecord": {
+    "stage": "whole_v2_leading_original_modular_Bezout",
+    "prime": 1031,
+    "actualQQCandidateDegree": 305,
+    "modCandidateDegree": 305,
+    "fullKDegreesQQ": [
+      13,
+      109
+    ],
+    "fullKDegreesMod": [
+      13,
+      109
+    ],
+    "fullResultantModDegree": 2176,
+    "coefficientDegrees": [
+      2175,
+      304
+    ],
+    "coefficientSha256": "fabf644fd11438a8aa6ab9f60dd8ecccbf9c4e0a720fe4070b94dbf2101abc74",
+    "resultantSha256": "efcde08b065854446352a83eb304247c3414a320f0cea2c44c37f9ca7e9ab1ed",
+    "actualBezoutMultipliedBack": true,
+    "sameGaussLemmaLeadingUnitAsH64": true,
+    "wholeH16BoundaryExcluded": true,
+    "claimExcluded": true,
+    "seconds": 39.939201296001556
+  },
+  "originalRowProfiles": [
+    {
+      "stage": "four_basis_original_row",
+      "name": "cubic_overlap_0_1",
+      "degrees": [
+        38,
+        35
+      ],
+      "terms": 3310,
+      "sha256": "945211441c034717292d0eeeb56e7cf76995556998e2b972a184d337415f4c98",
+      "twoLayerOriginalTraceAndPaidDivisionsVerified": true,
+      "claimExcluded": false,
+      "seconds": 40.990161688001535
+    },
+    {
+      "stage": "four_basis_original_row",
+      "name": "cubic_overlap_0_3",
+      "degrees": [
+        39,
+        36
+      ],
+      "terms": 3480,
+      "sha256": "4ca625cba3f1e6f8f66b4b4500f85695c530d683237aca6e7646997137c4a1e3",
+      "twoLayerOriginalTraceAndPaidDivisionsVerified": true,
+      "claimExcluded": false,
+      "seconds": 41.173957736002194
+    },
+    {
+      "stage": "four_basis_original_row",
+      "name": "cubic_overlap_1_2",
+      "degrees": [
+        38,
+        35
+      ],
+      "terms": 3289,
+      "sha256": "87d3a1d84c11024d967b95ac240a02f9c95e0866b884c8abc192ec3717986131",
+      "twoLayerOriginalTraceAndPaidDivisionsVerified": true,
+      "claimExcluded": false,
+      "seconds": 41.34266694800317
+    },
+    {
+      "stage": "four_basis_original_row",
+      "name": "cubic_overlap_1_3",
+      "degrees": [
+        39,
+        35
+      ],
+      "terms": 3430,
+      "sha256": "21615fe668d8f53520ef0033b18d500f88183ade2353d7b6f521de28ebb163d4",
+      "twoLayerOriginalTraceAndPaidDivisionsVerified": true,
+      "claimExcluded": false,
+      "seconds": 41.52245370800301
+    },
+    {
+      "stage": "four_basis_original_row",
+      "name": "cubic_overlap_1_4",
+      "degrees": [
+        39,
+        36
+      ],
+      "terms": 3458,
+      "sha256": "7c8d06f874b60473ae886c303c5f0c76e498b1b3c306bc0c3fd44913c22287ed",
+      "twoLayerOriginalTraceAndPaidDivisionsVerified": true,
+      "claimExcluded": false,
+      "seconds": 41.96065192200331
+    },
+    {
+      "stage": "four_basis_original_row",
+      "name": "cubic_overlap_2_4",
+      "degrees": [
+        39,
+        35
+      ],
+      "terms": 3404,
+      "sha256": "af99de54796323240418c7d4dad18248b1f6f92132f038b1eb857d698352e635",
+      "twoLayerOriginalTraceAndPaidDivisionsVerified": true,
+      "claimExcluded": false,
+      "seconds": 42.13402322500042
+    },
+    {
+      "stage": "four_basis_original_row",
+      "name": "cubic_overlap_3_4",
+      "degrees": [
+        38,
+        34
+      ],
+      "terms": 3147,
+      "sha256": "0b277b7a7e538a01a4dac9859fb8af1b813335412475a4829dcbe070e225a9c2",
+      "twoLayerOriginalTraceAndPaidDivisionsVerified": true,
+      "claimExcluded": false,
+      "seconds": 42.31214416300281
+    },
+    {
+      "stage": "four_basis_original_row",
+      "name": "cubic_overlap_3_5",
+      "degrees": [
+        39,
+        35
+      ],
+      "terms": 3311,
+      "sha256": "23af7591fd0ef4d1ab83443104696e36ba502bf30ea782041d6fdf0557af43fd",
+      "twoLayerOriginalTraceAndPaidDivisionsVerified": true,
+      "claimExcluded": false,
+      "seconds": 42.54164077600217
+    },
+    {
+      "stage": "four_basis_original_row",
+      "name": "cubic_overlap_4_5",
+      "degrees": [
+        39,
+        34
+      ],
+      "terms": 3257,
+      "sha256": "283352c0a60432084590f750b563a599da87424160fdb0a0e5d4d097798999a8",
+      "twoLayerOriginalTraceAndPaidDivisionsVerified": true,
+      "claimExcluded": false,
+      "seconds": 42.71247031900202
+    },
+    {
+      "stage": "four_basis_original_row",
+      "name": "U_moment",
+      "degrees": [
+        38,
+        35
+      ],
+      "terms": 3311,
+      "sha256": "c4e8c604f3daa7f85bf5ff07199c3ca737724a6e7fbc9b65c070a6a02769b161",
+      "twoLayerOriginalTraceAndPaidDivisionsVerified": true,
+      "claimExcluded": false,
+      "seconds": 42.93304114200146
+    },
+    {
+      "stage": "four_basis_original_row",
+      "name": "Nvalue",
+      "degrees": [
+        58,
+        54
+      ],
+      "terms": 7731,
+      "sha256": "fe3709a1938be36c9bda4d7a821cf401f00dc214e89884025f6b6c34c9fa9e94",
+      "twoLayerOriginalTraceAndPaidDivisionsVerified": true,
+      "claimExcluded": false,
+      "seconds": 45.08101003000047
+    },
+    {
+      "stage": "four_basis_original_row",
+      "name": "NB_even",
+      "degrees": [
+        46,
+        41
+      ],
+      "terms": 4752,
+      "sha256": "f8f1689586b8d68541d9c5ab8e890437cdc4249a5d15709ef45509583afe011a",
+      "twoLayerOriginalTraceAndPaidDivisionsVerified": true,
+      "claimExcluded": false,
+      "seconds": 45.529161944003135
+    },
+    {
+      "stage": "four_basis_original_row",
+      "name": "NB_odd",
+      "degrees": [
+        66,
+        59
+      ],
+      "terms": 9591,
+      "sha256": "82164538b33e3c91920dada4d998e467607aa87c7e257e0224ba9994f1b8823a",
+      "twoLayerOriginalTraceAndPaidDivisionsVerified": true,
+      "claimExcluded": false,
+      "seconds": 51.237673157000245
+    },
+    {
+      "stage": "four_basis_original_row",
+      "name": "PB_even",
+      "degrees": [
+        50,
+        43
+      ],
+      "terms": 5317,
+      "sha256": "f168898e87250bae81a767b169f60f436a11c0b1a1495da5e71e99bf6e9a7c83",
+      "twoLayerOriginalTraceAndPaidDivisionsVerified": true,
+      "claimExcluded": false,
+      "seconds": 51.72192998200262
+    },
+    {
+      "stage": "four_basis_original_row",
+      "name": "PB_odd",
+      "degrees": [
+        70,
+        62
+      ],
+      "terms": 10669,
+      "sha256": "f33497349d3e33bd151e86ac1bd845e94d8b7397d5d63261e14793255d44b39e",
+      "twoLayerOriginalTraceAndPaidDivisionsVerified": true,
+      "claimExcluded": false,
+      "seconds": 55.11340877600014
+    }
+  ]
+}
