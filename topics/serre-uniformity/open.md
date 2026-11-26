@@ -6,6 +6,8 @@
 
 ## 原最低型：已经付清的输入与准确剩余标量
 
+[R1058](results/R1058-original-Cartier-resonance-and-complete-lowest-residue-source.md)：唯一Jhat−3rJhat′=(1−r)^(2ℓ−2)/q²−A1²r^ℓ，gdb=dR_can+(r/b²)^(p−1)db且Cartier=db。全Q=Cartier(gF_a)、Tλ/A准确含两pth修正；实际最低=Σ三CM Res Fλ{g(DL)^p−g^(p+1)(DL)^(p²)}db，原D与Frob总和完整，单位仍开。
+
 [R1056](results/R1056-original-kernel-lowest-CM-single-coefficient.md)：原r2核T₀的真实最低C_CM(T₀)=(-3)^(ℓ−1)[r^(ℓ−2)]q³/j/2。原H′=h²给F₀′=I(1−r)^−4/3/(9q²)，Lagrange/Wronskian逐项消全部安全分母；不与f_N、bare范数或DQv读数混同，单位仍开。
 
 [R1054](results/R1054-original-lowest-CM-column-kernel-candidate-counterexample.md)：p47 K15=23排最低列恒落Q核候选。
@@ -38,7 +40,7 @@ R1只把全部异常缩为p>37的完整N_ns；**p≡2,5 mod9只是另加小惯�
 
 ## O1：全p同一真实本原标签的临界非零
 
-[R1049](results/R1049-original-fN-theta-first-direction-moment.md)：保原F⊗R₋、实际三挠刚化/全部模6相位，η⁵P_FR(η⁶)=t²δ′φ_A/12；原f_N=−t²δ′Σηφ_A/[12(p+1)]。十二代表相位全核；方向逐点单位不代一阶矩非零，原同h筛选仍开。 §6另精确给固定primary Θ与零常数积分EΘ：f_N=t²δ′[q^p]Θ(q)EΘ(q⁴)/[4(p+1)]；完整36/12与交换相位保留，指定系数单位仍开。
+[R1049](results/R1049-original-fN-theta-first-direction-moment.md)：原方向一阶矩保全实际F⊗R₋、μ₆/模6相位；§6给f_N=t²δ′[q^p]ΘEΘ(q⁴)/[4(p+1)]，完整36/12、奇偶交换与分母已付。指定系数单位及原同h两mask仍开。
 
 [R1053](results/R1053-original-scalar-disjoint-window-through-500000.md)：全部新增7878素数200000<p≤500000、p2/5mod9原f/g非零；run45869953028/45874715945，完整预算/hash保结果；窗口完成不重开，不外推全p。
 
@@ -46,11 +48,11 @@ R1只把全部异常缩为p>37的完整N_ns；**p≡2,5 mod9只是另加小惯�
 
 [R1031](results/R1031-original-fN-and-actual-Faber-truncation-central-derivative.md)：原f_N=0 iff [P_d(1−2z)²]≤d 的R′(1/2)=0；真实Faber/Hasse²运输给完整单位比例，forcing为−(d+1)³(C_AS/9)z^d。中心导数单位、同h两mask与bare仍待证。
 
-[R1027](results/R1027-original-level-p-squared-theta-distribution-and-constant-one.md)：全部p≥41、p5mod6原D_p=1，4η⁶C_N²=1，Σa_i²a_(N−i)²=−1/4。真实Lp²第p theta分布在Frobenius子空间为(Dv)^p；保A†拉回全部total-D阶p交叉项与刚化[p]=−Frob²双轴符号，得d_A d_A†^p=γ/κ；R1025原符号付清绝对常数。共同δ′只剩±1，原两mask/bare仍开。
+[R1027](results/R1027-original-level-p-squared-theta-distribution-and-constant-one.md)：原D_p=1、4η⁶C_N²=1、Σa_i²a_(N−i)²=−1/4全p≥41已证；实际Lp²/Frob、total-D阶p交叉与[p]=−Frob²符号完整，δ′²=1。原两mask/bare不因此非零。
 
 R1022的原常平方与R1025的全部有限处方向相位已由R1027合为D_p=1；d_A=δ′abγ、2c_A/γ=δ′e_Aab、η³C_N=−δ′e_Aab/2，δ′²=1。所有原integral torus、canonical三挠、mod2/mod3/3处Tate线及total-D阶p cross均保留，全文及逐字前态可直接消费；两mask和bare不能删除。
 
-[R1020](results/R1020-original-critical-convolution-complete-theta-scalar-bridge.md)：原全方向精确比值H_p/C_N=120εt·aχ(Nα)²(χᾱ+β̄)/(6B)⁵；t³=4、a=α mod s、χ为α/β mod3的唯一μ6 lift。真实index2另一vacuum系数4c_A、norm3分布负号给d₀=−36c_A；canonical三挠基尺度与Weyl二次相位全部核准。十二个同核表示不变；共同C_N保留，不代primitive/Legendre同h非零或O2 bare单位。
+[R1020](results/R1020-original-critical-convolution-complete-theta-scalar-bridge.md)：原全方向比值、实际index2 vacuum、norm3分布负号和canonical三挠/Weyl二次相位全部已核，十二代表不变。完整尺度保结果与归档，不代原primitive/Legendre同h或O2单位。
 
 [R1017](results/R1017-original-tame-two-three-phases-and-every-direction-critical-unit.md)：全部p≥41、p5mod6，原未经筛选H_p在全部T⁻处处单位。R1013实际下降源经真半周期乘法/Frobenius符号落入V_+²，原μ6角色只留a U⊗Y+b Y⊗U；canonical三挠lift把原四点精确送到两轴，保全部相位得a,b非零且a/b∈μ6。唯一可能非零根Norm1，不在T⁻。原scalar保留，primitive/Legendre同h仍开，未接bare O2。R1013较弱统一零点界由此加强。
 

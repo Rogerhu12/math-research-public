@@ -8,6 +8,8 @@
 
 ## 新增结论（2026-11-27）
 
+- **R1058（已证明）**：[R1058](results/R1058-original-Cartier-resonance-and-complete-lowest-residue-source.md)：唯一Jhat−3rJhat′=(1−r)^(2ℓ−2)/q²−A1²r^ℓ，gdb=dR_can+(r/b²)^(p−1)db且Cartier=db。全Q=Cartier(gF_a)、Tλ/A准确含两pth修正；实际最低=Σ三CM Res Fλ{g(DL)^p−g^(p+1)(DL)^(p²)}db，原D与Frob总和完整，单位仍开。
+
 - **R1056（已证明）**：[R1056](results/R1056-original-kernel-lowest-CM-single-coefficient.md)：原r2核T₀的真实最低C_CM(T₀)=(-3)^(ℓ−1)[r^(ℓ−2)]q³/j/2。原H′=h²给F₀′=I(1−r)^−4/3/(9q²)，Lagrange/Wronskian逐项消全部安全分母；不与f_N、bare范数或DQv读数混同，单位仍开。
 
 - **R1055（已证明）**：[R1055](results/R1055-original-complete-first-log-canonical-rational-primitive.md)：原完整v=(1−Q)λ的规范有理原函数V=6(bU₁+b²U₂)/(A1²r^ℓ)，U_i=[(1−r)^−i/3(j/q)]_<ℓ。全商/有理代表接口、三CM的4/−2/−2留数、S₀=1、全部principal parts与pth歧义均付；不跨j共振，不代指定最低值。

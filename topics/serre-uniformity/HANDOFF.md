@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。本轮已部分克隆并真实pull main，读两README/H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则读至36cf1ed2。不重做已登记结论或窗口。
 
-**公开两README已读提交：5dc568747edd6ea9ea901ef957331100f22c7dc1**（2026-11-27 03:09 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
+**公开两README已读提交：ab61131aa09e8789ed57f5f2bdeabb159af8444e**（2026-11-27 03:16 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
 
 已真实部分克隆/pull；终端再次不可用，按根规矩8用连接器小文本同步、读两README差异、带expected_sha非force提交，恢复后立即pull --rebase。拒绝即同步重基再推至成功。令牌仅CLI；根维护main/H/open/index/log，子研究独立稿，每条结论立即推。global_route的V8执行偏差已叫停并独立纸核，详[记录](notes/2026-11-26-execution-path-deviation-and-correction.md)，其输出不作证明/合规窗口。
 
@@ -14,9 +14,11 @@ H<10KB、open尽量<30KB、每MD<100KB、topic<200MB；无可重算raw、不写�
 
 ## 最新全局实际来源
 
-[R1056](results/R1056-original-kernel-lowest-CM-single-coefficient.md)：原r2核T₀的真实最低C_CM(T₀)=(-3)^(ℓ−1)[r^(ℓ−2)]q³/j/2。原H′=h²给F₀′=I(1−r)^−4/3/(9q²)，Lagrange/Wronskian逐项消全部安全分母；不与f_N、bare范数或DQv读数混同，单位仍开。
+[R1058](results/R1058-original-Cartier-resonance-and-complete-lowest-residue-source.md)：唯一Jhat−3rJhat′=(1−r)^(2ℓ−2)/q²−A1²r^ℓ，gdb=dR_can+(r/b²)^(p−1)db且Cartier=db。全Q=Cartier(gF_a)、Tλ/A准确含两pth修正；实际最低=Σ三CM Res Fλ{g(DL)^p−g^(p+1)(DL)^(p²)}db，原D与Frob总和完整，单位仍开。
 
-[R1055](results/R1055-original-complete-first-log-canonical-rational-primitive.md)：原完整v=(1−Q)λ的规范有理原函数V=6(bU₁+b²U₂)/(A1²r^ℓ)，U_i=[(1−r)^−i/3(j/q)]_<ℓ。全商/有理代表接口、三CM的4/−2/−2留数、S₀=1、全部principal parts与pth歧义均付；不跨j共振，不代指定最低值。
+[R1056](results/R1056-original-kernel-lowest-CM-single-coefficient.md)：原核C(T₀)=(-3)^(ℓ−1)[r^(ℓ−2)]q³/j/2，全部原尺度/分母已付；不等同端点、范数或DQv。
+
+[R1055](results/R1055-original-complete-first-log-canonical-rational-primitive.md)：原完整v的唯一规范V=6(bU₁+b²U₂)/(A1²r^ℓ)；全商/有理代表、全部三CM极部与pth歧义均付，不跨共振。
 
 [R1052](results/R1052-original-complete-CM-profile-and-actual-lowest-functional.md)：actual full-node中心赋值直接给全部normal极阶界，E一维像保全部返回；source u_s/ε^p的wholeR/p Dickson比较与全primitive误差均付。原完整行h̄_c=−Σκ₁^kc_kλ₀^−(ℓ−k)[Z^k](T_c/A)(B_CM)w^(ℓ−k)/(2m)。最低C_CM(T)=−3^(ℓ−1)/A1·[r^(ℓ−1)]T((1−r)^(1/3))/((1−r)^(5/3)j³)=2B(c,L_CM)。实际读数2B(v,QD L_CM)保Q²；单位/深盘排根仍开。
 
@@ -36,7 +38,7 @@ R1018–30原Fm、T5²/Z杀CM、全非约化仿射刚性、完整节点log/提�
 
 ## O1：原同一保留标签
 
-[R1049](results/R1049-original-fN-theta-first-direction-moment.md)：保原F⊗R₋、实际三挠刚化/全部模6相位，η⁵P_FR(η⁶)=t²δ′φ_A/12；原f_N=−t²δ′Σηφ_A/[12(p+1)]。十二代表相位全核；方向逐点单位不代一阶矩非零，原同h筛选仍开。 §6另精确给固定primary Θ与零常数积分EΘ：f_N=t²δ′[q^p]Θ(q)EΘ(q⁴)/[4(p+1)]；完整36/12与交换相位保留，指定系数单位仍开。
+[R1049](results/R1049-original-fN-theta-first-direction-moment.md)：原方向一阶矩保全μ₆相位，§6严格给f_N=t²δ′[q^p]ΘEΘ(q⁴)/[4(p+1)]；完整36/12、奇偶交换和分母已付，指定系数与同h筛选仍开。
 
 [R1043](results/R1043-original-fN-and-Hodge-kernel-CM-endpoint.md)：全p=6N+5≥41原f_N=−T₀(1)/6，保原positive CM/oldform/fine Cartier及两行Tate符号。原B(c₀,λ)=B(c₀,v)=−18f_N/A(1)。端点非零及同h筛选仍开；它不是r2的核范数或r8 bare。
 

@@ -393,3 +393,7 @@
 ### 2026-11-27 03:08 Asia/Taipei — R1056 原核最低泛函的单系数
 - [R1056](results/R1056-original-kernel-lowest-CM-single-coefficient.md)：原r2核T₀的真实最低C_CM(T₀)=(-3)^(ℓ−1)[r^(ℓ−2)]q³/j/2。原H′=h²给F₀′=I(1−r)^−4/3/(9q²)，Lagrange/Wronskian逐项消全部安全分母；不与f_N、bare范数或DQv读数混同，单位仍开。
 - 保R1048原r2范围、T₀规范和同一实际Z；积分分母ℓ+1至2ℓ−1全小于p，A1²与9及最后1/2全部显式核过。独立纸推，无数学执行；仍继续原norm与DQv指定值。
+
+### 2026-11-27 03:16 Asia/Taipei — R1058 原Cartier、共振和完整指定最低源
+- [R1058](results/R1058-original-Cartier-resonance-and-complete-lowest-residue-source.md)：唯一Jhat−3rJhat′=(1−r)^(2ℓ−2)/q²−A1²r^ℓ，gdb=dR_can+(r/b²)^(p−1)db且Cartier=db。全Q=Cartier(gF_a)、Tλ/A准确含两pth修正；实际最低=Σ三CM Res Fλ{g(DL)^p−g^(p+1)(DL)^(p²)}db，原D与Frob总和完整，单位仍开。
+- root逐式核canonical存在/唯一、S全部三阶res、∞次数、λ原函数的b0两pth修正和D的三CM运输；o2/global分别独核。精简H/open已闭输入，完整来源与尺度保结果/归档。03:07终端仍报无可用执行环境，继续根规矩8带expected_sha非force小文本同步，无本地数学。下一步求这条真实完整留数，而非删resonance或Q²。
