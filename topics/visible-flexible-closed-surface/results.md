@@ -5,6 +5,8 @@
 
 ## 新增结论
 
+- [R243：同一固定几何的精确角频暖嵌入与真实有限接口核](results/R243-exact-angular-warm-inclusion-and-finite-interface.md)（2026-11-26）：原系数逐字保留、新角通道置零，连续场、完整两jets、对称及端迹严格不变；66个非零系数的独立六jet/完整消费者真核0，原物理normal恢复已核。尚非原M12新场改善或README第5条完成。
+
 - [R242：高次倒面积成本的定量面积正性与临界幂](results/R242-inverse-area-fourth-power-quantitative-coercivity.md)（2026-11-26）：对准确连续成本和已付 Lipschitz/正密度/内扇形常数，q>1 给显式面积比正下界，q=2 常数9/512；q<1有完整光滑秩亏反例。给出新q=2完整J/JT；不把有限训练成本或采样最小值冒连续证书。
 
 - [R241：实际h428场的全域全时度量与几何](results/R241-actual-h428-continuous-metric-and-all-phase-geometry.md)：run45826114835同场R236核10.738s真0，严格metric≤8.086781e−7首次对该场过1e−6；原全时reach/D>.03105610、held/D>.05278322、含反射δE>0及三完整小于5MB STL同时成立。准确同一目标g有限容差，不冒诱导度量完全相等、#5加密或强幅度完成。
