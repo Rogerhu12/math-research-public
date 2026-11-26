@@ -218,3 +218,5 @@
 - [联合比例预算与同物理精确分块Jac入口](notes/2026-11-26-joint-budget-block-jacobian-implementation.md)：**新算法/输入已发布，结果待实际运行**。R1.012/Y=.3928/τ=.06072仍支付README的D比例，旧run资格不变；原q、全pending径向和两类角提议准确继承。16方向AD保持原空间jet，fun只求值，原argmin后加σ顺序也保留；首方向检查收费，trust=.5明确新参数。
 
 - [R571真实核心shooting与同场核心归一数值入口](notes/2026-11-26-r571-phase-shooting-implementation.md)：**新计算包已发布，待原终态**。新M25固定尾、精确C²圆柱connector、连续有号核心残差根、相位导数与同根加密；同一个场归一A_core=1，报告弧长/缩放角partial二jets，非坐标无关Hessian证书。4/6/8只作有限probe，不授全频率逆或有限分支。
+
+- [R573 固定collar曲率与分离尺度返回的reach比例障碍](results/R573-fixed-collar-curvature-and-separated-scale-reach-obstruction.md)：**已证明**原ruled片完整形算子给起点reach≤H²+(ξc+Ω)⁻²；首高尾两个实际collar点给D≥c√R logR/δ−C_R。先固定母/H/H0/Ω/有限R后δ→0，任何保原collar的闭C²完成均有reach/D→0，最终违反.03门；净pose返回、整体缩放和collar外校正不能消去。未算有限阈值、不排一般有限参数；转紧凑输入而非只增形式阶数。

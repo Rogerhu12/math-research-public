@@ -114,6 +114,10 @@ R513同类cap排除、R518固定宽接口、R520/524/527/529原20母的返回障
 
 [R564前一开放接口](notes/open-r564-before-eight-moments-20261126.md)和其中所链R559/R563/R562前史逐字保留；各限定族的正R0或S1号边界不撤，R567使用更细完整core费用及共同端图离开旧假设。
 
+### R573：原最后小δ极限违反reach比例，转紧凑输入
+
+[R573](results/R573-fixed-collar-curvature-and-separated-scale-reach-obstruction.md)由真实ruled片形算子与原固定开放collar，得到reach≤ρc=H²+(ξc+Ω)⁻²；首高尾上两个实际表面点给D≥c√R logR/δ−C_R。因此对先固定所有有限资料再δ→0的R544–R570族，reach/D→0，即使第四及高阶以后全部消去仍不达主门。仅限制这个有明确量词的极限，未排全部有限参数/母/其他输入。下一必须控制所有部分位置积分或同步改变最早曲率半径，继续同χ真实history下的紧凑/有限尺度返回；端点净位移为零不足。
+
 ### R572：同一从起点母已清全部实际微包总通量，继续整个函数
 
 [R572](results/R572-odd-map-mother-and-all-actual-packet-total-fluxes.md)用同一个非零ψ×偶多项式母、固定复制图和有限五次奇映射，准确清自然Λ(U)、仿射稳定环境E的raw self与所有实际微包/相位的raw totals。环境E覆盖任意有限canonical路径，A=T=0使真实非零χ周期等canonical；不借未证常germ U成员性、不假设whole pure零。下一在这同一母/χ上实际支付内部partial、完整period函数及13；积分零、圆上盲核或不受约束response span均不能替代该端图。

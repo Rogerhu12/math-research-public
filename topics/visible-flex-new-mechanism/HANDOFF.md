@@ -6,11 +6,11 @@
 
 ## 1. 规则与接手
 
-已部分克隆并实际 `git pull main`，公开根 README、课题 README、HANDOFF、open、results 索引及相关 log/notes 已读。公开已读提交 **675ab11fcecca0399e6cba7d5b4b3a076dea9412**（2026-11-26 07:43 UTC；本次实际pull后根/题README空差异）；私有根初读 **85fdf1853367ef25c07f3ebdb6ae25c22a3564b8**，随后逐次 pull/rebase 检查根差异，空差异。私有 QUEUE 的本题已改为本会话进行中并成功推送：**9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7**；最后实际pull及规则同blob读至 **d6fc2f5c519bd5481b5e0ef67fca1c08c7b6eb9a**（2026-11-26 07:21 UTC；实际pull/rebase后根README空差异、QUEUE仍本会话）。其它课题的并行认领保留。
+已部分克隆并实际 `git pull main`，公开根 README、课题 README、HANDOFF、open、results 索引及相关 log/notes 已读。公开已读提交 **367910ccd01fb28436ab2bf8cf04067d7a137f3e**（2026-11-26 07:49 UTC；本次实际pull后根/题README空差异）；私有根初读 **85fdf1853367ef25c07f3ebdb6ae25c22a3564b8**，随后逐次 pull/rebase 检查根差异，空差异。私有 QUEUE 的本题已改为本会话进行中并成功推送：**9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7**；最后实际pull及规则同blob读至 **d6fc2f5c519bd5481b5e0ef67fca1c08c7b6eb9a**（2026-11-26 07:21 UTC；实际pull/rebase后根README空差异、QUEUE仍本会话）。其它课题的并行认领保留。
 
-各原观察note保真实双仓pull/规则blob/队列回执；本轮已核各run规则均无变化，QUEUE仍本会话。早期盘满、05:48环境失联及05:54重新部分克隆的完整记录保于[本次先前HANDOFF](notes/HANDOFF-before-hard-restoration-20261126.md)和log；已推成果无损，不能把失联时API读取冒作git pull。
+各原观察note保真实双仓pull/规则blob/QUEUE回执；根/题规则均无变化。盘满和失联恢复原记录保于[先前交接](notes/HANDOFF-before-hard-restoration-20261126.md)，本次压缩前全文保于[几何转向前交接](notes/HANDOFF-before-compact-geometry-20261126.md)。API读取不冒git pull。
 
-每次 pull 后比较上次已读提交的根/题 README，差异立即读；至少每小时一次，读过 SHA 随本文件更新。root 负责 git/refs/push，子代理只写分配的独立文件。原数值运行范围不重开、不挪用失败 raw 充当前初值；本次新计算须独立说明模型、参数和实际范围。按旧 open 的运行安排，科学执行使用公开 Actions；本地作纸面推导与源码/已有日志解析。根 12 不增设冻结复跑审批，根 15 只留脚本/参数/run/哈希/结论，不保存可重算大数组。
+每次pull核根/题README差异并立即执行，至少每小时一次，SHA随H更新；root独占git及共享索引。科学仅公开Actions，本地限纸证/源码/原日志解析；根12不加机械复跑门，根15只留源码/参数/run/SHA/小结，不留可重算raw。每条完成结论即推；NFF立即pull --rebase再推。
 
 ## 2. 主完成标准
 
@@ -33,7 +33,7 @@
 
 ## 4. O4 两个不同母库的有效入口
 
-**33母（保原20/cap/13与一次固定χ）**：R533–554已给真实局部正则速度、负Π、k>2、返回层、总p2零/Π负或p1/p2共同零；完整t1速度负费未消。R558真γ=0正t1弧、R560短快变高度有号面积均已计真实历史，净t1仍负。下一为同一完整F/history的长程变高度返回及正净t1，不从局部正则自动推长时存在；其余矩、T、pose、period仍欠。
+**33母（保原20/cap/13与一次固定χ）**：R533–560已付真返回层、双保持及p1/p2端图，净t1仍负。原所有范围/失败见上述完整交接与open；下一同一完整F/history的长程变高度净正t1，余矩/pose/period仍欠，不跨接R521母。
 
 **R521正交母（不继承33母的原20/cap/13）**：R544–R563的同χ真实历史、慢快桥及限定尺度号障碍保持。新[R564](results/R564-negative-coupling-crossing-and-seven-exact-moments.md)在Ck>0下跨B零点，保完整真实端控/history清七矩；[R567](results/R567-complete-next-order-history-and-eight-exact-matrix-moments.md)完整次阶消项及共同4+1+2端图再清第八矩，原m=A=0。[R568](results/R568-even-end-germs-and-real-second-third-return.md)改真实末开控制并重解八矩，支付双端偶germ，PP^R准确闭scalar/全m/A/T。[R570](results/R570-neutral-residence-pose-and-real-four-piece-return.md)在八矩纤维以恒总驻留的有限词和首高尾真实位移支付两pose条件，(PP^R)²准确闭scalar/frame/位置/A/T。整个第四仍4V_P，同13/有限闭面继续；原限定族正R0/S1边界不撤。[R572](results/R572-odd-map-mother-and-all-actual-packet-total-fluxes.md)从起点以一个ψ×偶多项式球面奇映射选同母，准确清Λ(U)、有限仿射环境E的raw self及固定R521图全部实际微包总通量。非零χ在A=T=0时整周期等canonical∈E；不虚授偶germ属于常germ的U。整个period/内部partial/同13仍未清。
 
@@ -44,7 +44,7 @@ R555余五槽的真实Gram/有序面积身份继续有效；R526的倒行完成�
 ## 5. 正在继续的实际工作
 
 1. 非圆实例在完整fine硬几何门内降metric，同时圆核设计同伦与R571真相位shooting接入有限非线性。必须最终冻结同一g再精化，并付全闭嵌入/全点对reach。
-2. O4在已付scalar/pose/A/T及全部实际微包总通量之上继续整个第四/同13；同步检查长词直径与固定collar曲率的量级，不能让形式闭合替代主几何门。
+2. O4转紧凑/有限尺度真实返回，并继续整个第四/同13。[R573](results/R573-fixed-collar-curvature-and-separated-scale-reach-obstruction.md)已证：原固定collar给reach≤H²+(ξc+Ω)⁻²，首高尾给实际D≥c√R logR/δ−C_R；固定R最后δ→0时reach/D→0。只排该分离尺度极限，不排未核有限参数或其他输入；净位移闭合/整体缩放/增加形式阶数不能修复。新R530有界高度路径须付全程空间范围和真实端图。
 3. [四来源本轮状态](notes/2026-11-26-current-four-source-topics.md)尚无可直接移用的全门族。O1圆领相位允许如实δE=0，仍须完整非旋转嵌入；O3保可用新局部输入。
 
 入口：[open](open.md)、[当前索引](results.md)、[早期索引](results-index-early.md)、[日志](log.md)。未完成稿不登记已证明；每条完成结论立即提交推送，然后继续开放项。
