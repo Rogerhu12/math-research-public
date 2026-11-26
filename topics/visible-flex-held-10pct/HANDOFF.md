@@ -6,11 +6,11 @@
 
 连通闭C²嵌入、C²连续族；H闭、有内点且diamH≥.2D，整像δhold≥.1D、含反射δE>0，全时reach≥.03D。固定完整g/物理数据/时间范围加密到完整metric≤1e−6并持续下降。必须实际闭合和共用Cartesian两jet；λ<1不提供准确圆弧H。
 
-- 公共已完整读规则并真实pull：`ee49229a74859d0e18e7bb734e245495b9076e48`；私有根README/QUEUE接手登记已推 `2f68946f2fa3e192a291c7c1393231af1a89953e`。每次pull核双README差异，至少每小时一次。root独占git，逐结论push，NFF立即pull --rebase再推，禁force；令牌只命令行。
+- 公共已完整读规则并真实pull：`db1e926824b43df76deb4037078af4bc99c4e9ea`；私有根README/QUEUE接手登记已推 `2f68946f2fa3e192a291c7c1393231af1a89953e`。每次pull核双README差异，至少每小时一次。root独占git，逐结论push，NFF立即pull --rebase再推，禁force；令牌只命令行。
 - 当前部分克隆`/tmp/held10-astra-06bbeb395471-public4`；11:21断开内容已以0a872e46保存，终端恢复后只用Git。[接手来源](notes/2026-11-26-resume-and-current-sources.md)。
 - 70源/实际chart69a3e8eb...保原输入/门；[恢复入口](notes/2026-11-26-tail-source-recovery.md)，不当新数学结果。
 - [material run45763361623](https://github.com/Rogerhu12/math-research-public/actions/runs/45763361623)已于11:13:59 UTC因原worker5.5小时自限中断.75（最后norm2.55），无第三包；[终态](notes/2026-11-26-recorded-tail-worker-interruption.json)。历史λ.004独立尾[.25](notes/2026-11-26-recorded-lambda004-tail-factor025-actual.json)/[.5](notes/2026-11-26-recorded-lambda004-tail-factor050-actual.json)原audit已过，但原prefix metric未门；转新实际候选full-DN。
-- 独立[lowq run45772029917](https://github.com/Rogerhu12/math-research-public/actions/runs/45772029917)：同原q链/λ0过，λ.002 M8/M16仅初猜；旧worker自M24后超过64KiB省略诊断，后续全部终态未知。[记录](notes/2026-11-26-lowq-warm-route-recovery.md)。
+- 独立[lowq run45772029917](https://github.com/Rogerhu12/math-research-public/actions/runs/45772029917)：12:30:41 UTC原worker5.5小时期限结束；[终态](notes/2026-11-26-lowq-worker-deadline-actual.json)仍省略超64KiB诊断。已知q链/λ0过、M8/M16仅初猜；M24及后续数学状态未知。
 - 根§12优先真实数学/求解，§15可再生数组不入Git/Release/artifacts；只存源/参数/命令/hash/小标量。H<10KB、单MD<100KB、目录<200MB，不写根LOG。
 
 ## 新结论与当前路线
