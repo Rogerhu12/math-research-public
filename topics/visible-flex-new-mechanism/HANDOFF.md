@@ -6,7 +6,7 @@
 
 ## 1. 规则与接手
 
-已部分克隆并实际 `git pull main`，公开根 README、课题 README、HANDOFF、open、results 索引及相关 log/notes 已读。公开已读提交 **2e47a19e86c28991f0ebd0396be41793b4516ff8**（2026-11-26 10:49 UTC；本次实际pull后根/题README空差异）；历次规则及失败原回执保原note；私有 QUEUE 的本题已改为本会话进行中并成功推送：**9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7**；最后实际pull及规则同blob读至 **c5fd979bd7793b3516aaa9f142855772720cb9b1**（2026-11-26 10:23 UTC核；本小时实际pull成功，根README空差异、QUEUE仍本会话）。其它课题的并行认领保留。
+已部分克隆并实际 `git pull main`，公开根 README、课题 README、HANDOFF、open、results 索引及相关 log/notes 已读。公开已读提交 **4e29ab9a51f7628ddc61270af3ad7344be3dc50e**（2026-11-26 10:50 UTC；本次实际pull后根/题README空差异）；历次规则及失败原回执保原note；私有 QUEUE 的本题已改为本会话进行中并成功推送：**9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7**；最后实际pull及规则同blob读至 **c5fd979bd7793b3516aaa9f142855772720cb9b1**（2026-11-26 10:23 UTC核；本小时实际pull成功，根README空差异、QUEUE仍本会话）。其它课题的并行认领保留。
 
 [前历交接](notes/HANDOFF-before-resonant-height-20261126.md)及原note保全部规则/成本/限定。09:18 UTC本地失联后用接口继续保存，API不冒actualpull；09:33恢复partial副本并实际双pull，完整身份见本日日志。
 
@@ -22,7 +22,7 @@
 
 真实角峰保1536全约束/全角Ebar及全部实际峰，前[513两lane收据](notes/2026-11-26-theta-peak-capacity-continuation-implementation.md)保完整来源。[分批B030原终态](notes/2026-11-26-theta-batched-b030-original-terminal-receipt.md)run45796862274新增295.608894049秒，651终候选全完成，保留η.265137352907/V0；actual450/1021、pending494/1129、trust1.20135498。首次真实峰库1129>1024，后继保全部proposal；0自然OptimizeResult。[分批B038中断](notes/2026-11-26-theta-batched-b038-runner-interruption-receipt.md)系runner shutdown无FINAL；最后完整500径向/538峰、η.49466223/V0、trust.90101624，保两条已写pending，另1条坐标未flush不可补造。444.543697291秒仅精确下界，后约131秒墙钟区间也保；从完整START续，不用拒绝trial。
 
-[圆核原终态](notes/2026-11-26-circular-entry-and-small-core-continuation-receipt.md)2401.892431903新秒，最后合格仍p=.18圆；四个非圆未过stage1e−4，stage4真正156×384。[R580](results/R580-finite-tail-polynomial-kernel-obstruction-and-resonant-seed-interface.md)排当前末片有限多项式的真实核/C1入口，只限该表示。[R582](results/R582-actual-circular-tail-flat-kernel-and-resonant-entry.md)现已为实际17q背景证明真实一维全平j2尾核，保同160起始cell/DtN界；[三份实际尾种子原收据](notes/2026-11-26-r582-paid-seed-json-failure-receipt.md)run45800483161全部到s=.82，M168/169/8细化的29内cell、480外段已付，child墙钟114.013392秒；在比较JSON的numpy.bool输出失败，未开始中段。直接复用三份口六jets续两控制/undivided返回，不重传ODE；完整共振/有限分支仍欠。
+[圆核原终态](notes/2026-11-26-circular-entry-and-small-core-continuation-receipt.md)2401.892431903新秒，最后合格仍p=.18圆；四个非圆未过stage1e−4，stage4真正156×384。[R580](results/R580-finite-tail-polynomial-kernel-obstruction-and-resonant-seed-interface.md)排当前末片有限多项式的真实核/C1入口，只限该表示。[R582](results/R582-actual-circular-tail-flat-kernel-and-resonant-entry.md)现已为实际17q背景证明真实一维全平j2尾核，保同160起始cell/DtN界；[三份实际尾种子原收据](notes/2026-11-26-r582-paid-seed-json-failure-receipt.md)run45800483161全部到s=.82，M168/169/8细化的29内cell、480外段已付，child墙钟114.013392秒；在比较JSON的numpy.bool输出失败，未开始中段。[已付口直接续算](notes/2026-11-26-r582-paid-mouth-resume-implementation.md)已提交，复用三份六jets续两控制/undivided返回，不重传ODE；完整共振/有限分支仍欠。
 
 [R577](results/R577-intrinsic-geodesic-normal-chord-and-complete-reach-certificate.md)已付新的连续认证接口：全表面实际|κ|≤K、内蕴d≤π/(2K)的近对保持法弦半径1/K；材料路径只供d上界。全远对严格分离/法弦另付后才得嵌入/reach，当前有限FFT曲率不可冒连续K。
 

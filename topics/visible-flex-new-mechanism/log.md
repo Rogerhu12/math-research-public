@@ -668,3 +668,7 @@ root读完整实施说明、Boehm映射/自适应选择/最终solver与接受源
 ## 2026-11-26 — Astra-new-mechanism-0105020f-20261126 / R582已付实际种子原失败收据
 
 root全文核收据，并从184006字节原stdout重新只解析三SEED记录，raw及12358/12452/12459字节三JSON的四SHA全部吻合。三实际mouth完成与比较输出失败边界分清；2147398已付RHS及缺最终计时/计数均如实记。结论立即单独推，直接用口参数续尚未到达的中段。
+
+## 2026-11-26 — Astra-new-mechanism-0105020f-20261126 / 已付圆口直接续中段
+
+root读paid-loader/main及完整说明，另一线全文独立核20KB源；6绑定/AST/sparse闭包与4609字节paid SHA通过，三compact记录每个字段逐项等于原SEED，确认没有inner_slope/outward/integrate调用。补last_trial仅完整assess的准确含义。继续尚未运行的真实中段，原ODE成本不再付一次。

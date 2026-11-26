@@ -245,3 +245,5 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 ### R582三份真口已付，接口失败后直接续未执行的中段
 
 [完整收据](notes/2026-11-26-r582-paid-seed-json-failure-receipt.md)确认run45800483161三份M168/169/169容差8的实际背景传递均到mouth .82，保共同归一六jets与约3853.545747的log尺度。29内cell/480外段合计2147398 RHS，114.013392秒为child墙钟而非缺失的最终科学时钟。失败仅在随后比较numpy.bool的JSON输出，SLSQP/返回fit尚未开始。后继绑定原三SEED hash/源码/参数，用最后实际六jets直接建立undivided中段，所有已付内外ODE不复跑；原尾截断界不吞并有限ODE误差。
+
+[已付口正式续算](notes/2026-11-26-r582-paid-mouth-resume-implementation.md)现独立提交：原fd4bd864科学源不改，新main只导入原字段/返回算子和时钟，完整核三口及参数身份，显式原生bool输出已付差。中段SLSQP/几何动态交换/最佳细网资格与24→48/96准确复用原定范围；last_trial指最后完成assess而非每个未完成查询。无新的内外seed调用，待原完整返回实际输出。

@@ -1,0 +1,61 @@
+name: visible-flex paid actual mouth to undivided core return
+on:
+  push:
+    branches: [main]
+    paths:
+      - topics/visible-flex-new-mechanism/computations/request-r582-paid-mouth-core-return-20261126.json
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: visible-flex-r582-actual-circle-seed-return-20261126
+  cancel-in-progress: false
+jobs:
+  research:
+    name: paid actual mouth and compact mean control
+    runs-on: ubuntu-24.04
+    timeout-minutes: 50
+    strategy:
+      fail-fast: false
+      max-parallel: 1
+      matrix:
+        lane: [paid-actual-mouth-core-return]
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      PYTHONUNBUFFERED: '1'
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+      MKL_NUM_THREADS: '1'
+      NUMEXPR_NUM_THREADS: '1'
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 0
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-new-mechanism/README.md
+            /topics/visible-flex-new-mechanism/computations/request-r582-paid-mouth-core-return-20261126.json
+            /topics/visible-flex-new-mechanism/scripts/r582_actual_circle_seed_and_return_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/r582_paid_mouth_core_return_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/inverse_flat_oscillatory_tail_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/inverse_rotational_metric_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/run_inverse_rotational_metric_20261126.py
+            /.github/workflows/visible-r582-paid-mouth-core-return-20261126.yml
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.12.14'
+      - name: Pull current rules and continue the paid actual mouth
+        env:
+          MR_TOKEN: ${{ secrets.MR_TOKEN }}
+        run: >-
+          python topics/visible-flex-new-mechanism/scripts/run_inverse_rotational_metric_20261126.py
+          --request topics/visible-flex-new-mechanism/computations/request-r582-paid-mouth-core-return-20261126.json
+          --lane ${{ matrix.lane }}
+      # One fixed actual-circle source, real mean coefficients, exact flat
+      # tail germ definition, undivided return equations, compact new mean
+      # controls. Scientific cost and unqualified states stay explicit.
+      # Actual public/private pulls and rule checks; stdout only, no artifacts,
+      # cross-run caches, releases or Git writes. No old circle optimization.

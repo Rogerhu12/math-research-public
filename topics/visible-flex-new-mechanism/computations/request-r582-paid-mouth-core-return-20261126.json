@@ -1,0 +1,79 @@
+{
+  "schema": "r582-paid-actual-mouth-core-return-request-v1",
+  "repository": "Rogerhu12/math-research-public",
+  "queue_session": "Astra-new-mechanism-0105020f-20261126",
+  "expected_readme_blobs": {
+    "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+    "topics/visible-flex-new-mechanism/README.md": "d0432faff569c8e9af7ed4809847e12880976c11"
+  },
+  "expected_private_readme_blobs": {
+    "README.md": "5ba164843b1f5802184178a82d786264404873a3"
+  },
+  "public_rules_read_commit": "907b15b2ae037147f369df8030dbc0e6bf85606e",
+  "private_rules_read_commit": "739f658f575a7652d640bf82386814df0cb0f7a8",
+  "runtime": {
+    "checkout_action": "11d5960a326750d5838078e36cf38b85af677262",
+    "packages": {
+      "numpy": "2.3.5",
+      "scipy": "1.17.0"
+    },
+    "python": "3.12.14",
+    "setup_python_action": "a26af69be951a213d495a4c3e4e4022e16d87065"
+  },
+  "entry_point": "topics/visible-flex-new-mechanism/scripts/r582_paid_mouth_core_return_20261126.py",
+  "workflow": ".github/workflows/visible-r582-paid-mouth-core-return-20261126.yml",
+  "common_parameters": {
+    "M": 168,
+    "rtol": 2e-11,
+    "atol": 2e-13,
+    "max_step": 0.15,
+    "tolerance_refinement": 8,
+    "return_basis": 24,
+    "return_radial_nodes": 257,
+    "geometry_radial_nodes": 513,
+    "maximum_control_iterations": 60,
+    "maximum_control_exchanges": 4,
+    "maximum_log_radius_control": 0.04,
+    "maximum_height_control": 0.06,
+    "maximum_seconds": 1800,
+    "paid_seed_json": "{\"schema\":\"identified-r582-paid-three-actual-mouth-seeds-v1\",\"origin\":{\"run_id\":45800483161,\"job_id\":139842104318,\"source_commit\":\"f473b765b70c44e68090f022df0bd8c1c08737a4\",\"executed_source_sha256\":\"fd4bd864c3e9e96d741b7bc896a1bf6f9d50ba54eda0c02bd898f21bd42427a4\",\"request_sha256\":\"cfc01ba8bd109b9e15ea08f84b8f8ce7e6e8ac0f7d4d8c1012289349128e4d70\",\"raw_stdout_bytes\":184006,\"raw_stdout_sha256\":\"43b936b32554a14529cf3a04be720e6822156c5cb3d0e015ed7eee3d49d8a4f5\",\"terminal_kind\":\"three_seed_transfers_completed_then_numpy_bool_JSON_failure\",\"no_mean_control_backend_started\":true},\"source_arguments\":{\"M\":168,\"rtol\":2e-11,\"atol\":2e-13,\"max_step\":0.15,\"tolerance_refinement\":8},\"seed_record_identities\":[{\"M\":168,\"tolerance_factor\":1,\"JSON_bytes\":12358,\"JSON_sha256\":\"5bb32547cae173b48ea7b98d3c6249302a0a6d5377d44f06ee6846ccdb32e1a6\"},{\"M\":169,\"tolerance_factor\":1,\"JSON_bytes\":12452,\"JSON_sha256\":\"856b33a5107a071b155f9b02ab47a70913c99861ffac36932472d79cc97bbd1a\"},{\"M\":169,\"tolerance_factor\":8,\"JSON_bytes\":12459,\"JSON_sha256\":\"83b13a9a7e28ca02dc0bd2f5f79a255a938f5fb037dfa7ede4056c86dcae68ac\"}],\"compact_seed_inputs\":[{\"M\":168,\"tolerance_factor\":1,\"inner\":{\"M\":168,\"alpha160\":1006.8799923538346,\"exact_DtN_rho161_truncation_log_bound\":-58.72777813465683,\"numerical_ODE_error_not_in_that_bound\":true,\"rho161\":5.795423994783555e-19,\"terminal_peak\":169,\"y_alpha160\":1,\"z_alpha160\":0.22327036078721596},\"outer\":{\"actual_weight_jets_at_mouth\":[3.031309936636054,-2.6926166800671734,-0.07688198958342195],\"canonical_to_mouth_C2_log_scale\":3853.5457473823158,\"chart_checkpoint_before_requested_mouth\":null,\"finite_transfer_is_not_interval_certified\":true,\"mouth_a_s\":-0.9947640541420094,\"mouth_r\":0.29996228496918553,\"mouth_s\":0.82,\"mouth_u\":6.2499999999999885,\"mouth_z_s\":0.012730981051657436,\"normalized_jets_A_As_Ass_C_Cs_Css\":[0.000023816204052211187,-0.0021681928579524415,0.2232929147534618,0.014167223093209908,-0.1694166622970288,1.6269262807163685],\"requested_mouth_reached\":true}},{\"M\":169,\"tolerance_factor\":1,\"inner\":{\"M\":169,\"alpha160\":1006.8799923538346,\"exact_DtN_rho161_truncation_log_bound\":-65.63553341363897,\"numerical_ODE_error_not_in_that_bound\":true,\"rho161\":5.795423994768631e-19,\"terminal_peak\":170,\"y_alpha160\":1,\"z_alpha160\":0.22327036078719148},\"outer\":{\"actual_weight_jets_at_mouth\":[3.031309936636054,-2.6926166800671734,-0.07688198958342195],\"canonical_to_mouth_C2_log_scale\":3853.5457473823076,\"chart_checkpoint_before_requested_mouth\":null,\"finite_transfer_is_not_interval_certified\":true,\"mouth_a_s\":-0.9947640541420094,\"mouth_r\":0.29996228496918553,\"mouth_s\":0.82,\"mouth_u\":6.2499999999999885,\"mouth_z_s\":0.012730981051657436,\"normalized_jets_A_As_Ass_C_Cs_Css\":[0.000023816204052211028,-0.0021681928579521874,0.22329291475343802,0.014167223093208399,-0.16941666229700894,1.6269262807163685],\"requested_mouth_reached\":true}},{\"M\":169,\"tolerance_factor\":8,\"inner\":{\"M\":169,\"alpha160\":1006.8799923538346,\"exact_DtN_rho161_truncation_log_bound\":-65.63553341363897,\"numerical_ODE_error_not_in_that_bound\":true,\"rho161\":5.795423994220177e-19,\"terminal_peak\":170,\"y_alpha160\":1,\"z_alpha160\":0.2232703607873784},\"outer\":{\"actual_weight_jets_at_mouth\":[3.031309936636054,-2.6926166800671734,-0.07688198958342195],\"canonical_to_mouth_C2_log_scale\":3853.5457473919064,\"chart_checkpoint_before_requested_mouth\":null,\"finite_transfer_is_not_interval_certified\":true,\"mouth_a_s\":-0.9947640541420094,\"mouth_r\":0.29996228496918553,\"mouth_s\":0.82,\"mouth_u\":6.2499999999999885,\"mouth_z_s\":0.012730981051657436,\"normalized_jets_A_As_Ass_C_Cs_Css\":[0.000023816204052254735,-0.0021681928580196885,0.22329291475974147,0.014167223093608572,-0.1694166623022833,1.6269262807163687],\"requested_mouth_reached\":true}}],\"paid_cost\":{\"finished_child_wall_seconds\":114.013392,\"child_started_at\":\"2026-11-26T10:21:24.374222Z\",\"child_completed_at\":\"2026-11-26T10:23:18.387614Z\",\"child_wall_includes_imports_and_failure_serialization\":true,\"exact_final_scientific_counter_unavailable\":true,\"successful_transfer_counters\":[{\"M\":168,\"factor\":1,\"inner_cells\":9,\"inner_RHS\":48582,\"outer_segments\":160,\"outer_RHS\":600476},{\"M\":169,\"factor\":1,\"inner_cells\":10,\"inner_RHS\":54068,\"outer_segments\":160,\"outer_RHS\":600476},{\"M\":169,\"factor\":8,\"inner_cells\":10,\"inner_RHS\":70172,\"outer_segments\":160,\"outer_RHS\":773624}],\"old_circle_stage0_source_scientific_seconds\":2.981966937,\"old_circle_full_exploration_run_scientific_seconds\":2401.8924319029998,\"old_circle_unrelated_failed_p_trials_not_replayed\":true},\"no_inner_or_outer_seed_transfer_reexecution\":true,\"numerical_seed_observations_are_not_interval_certificates\":true}"
+  },
+  "lanes": {
+    "paid-actual-mouth-core-return": {
+      "source_state_json": "{\"schema\":\"identified-circle-stage-zero-for-actual-flat-seed-v1\",\"origin\":{\"run_id\":45778418134,\"job_id\":139767648038,\"stage\":0,\"source_commit\":\"668a3f6c6aee92b00c5ca547dd7677d257d0cdc0\",\"stage_JSON_bytes\":21505,\"stage_JSON_sha256\":\"a78102463e4a816d00e000c969372af423a41ee93ab4996574b16048265b9324\",\"original_log_UTF8_bytes\":1042984,\"original_log_UTF8_sha256\":\"7a1a626217d090742fed665049c96c4124a49b68d0d051c85fa6d305765f964d\",\"source_whole_scientific_run_seconds\":2401.8924319029998,\"source_circle_stage_seconds\":2.981966937},\"q\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.35001924628214787,-0.3531732092117735,-0.3244617668413918,-0.43706812962213554,-0.5435744674362258,-0.3821726524975292,-0.5654097637847235,-0.5041937321653266,0,-0.0013474117462880936,-0.09175492884312668,-0.15680738719807807,-0.05955223441757437,-0.19856521037391323,-0.5877276747743894,0.09658185324267708,0.6747017055797783],\"actual_last_backend_radial_nodes\":[0,0.01875,0.036,0.0375,0.056249999999999994,0.075,0.09375,0.11249999999999999,0.13125,0.15,0.16874999999999998,0.1875,0.20625,0.22499999999999998,0.24375,0.253125,0.2625,0.28125,0.3,0.31875,0.32399999999999995,0.33749999999999997,0.35625,0.375,0.39375,0.4125,0.43124999999999997,0.44999999999999996,0.46875,0.4875,0.49687499999999996,0.50625,0.515625,0.525,0.54375,0.5625,0.5812499999999999,0.6,0.612,0.61875,0.6281249999999999,0.6375,0.6398437499999999,0.6421874999999999,0.64453125,0.645703125,0.646875,0.6515625,0.65625,0.6609375,0.6656249999999999,0.6703124999999999,0.67265625,0.6749999999999999,0.69375,0.7125,0.7218749999999999,0.73125,0.740625,0.7453125,0.74765625,0.75,0.7687499999999999,0.7875,0.80625,0.8200000000000001,0.825,0.84375,0.8624999999999999,0.88125,0.9],\"last_pending_radial_nodes\":[0,0.01875,0.036,0.0375,0.056249999999999994,0.075,0.09375,0.11249999999999999,0.13125,0.15,0.16874999999999998,0.1875,0.20625,0.22499999999999998,0.24375,0.24843749999999998,0.253125,0.2625,0.28125,0.3,0.31875,0.32399999999999995,0.33749999999999997,0.35625,0.375,0.39375,0.4125,0.43124999999999997,0.44999999999999996,0.46875,0.4875,0.49687499999999996,0.50625,0.515625,0.525,0.54375,0.5625,0.5812499999999999,0.6,0.612,0.61875,0.6281249999999999,0.6375,0.6398437499999999,0.6421874999999999,0.64453125,0.645703125,0.646875,0.6515625,0.65625,0.6609375,0.6656249999999999,0.6679687499999999,0.6703124999999999,0.67265625,0.673828125,0.6749999999999999,0.69375,0.7125,0.7218749999999999,0.73125,0.740625,0.7453125,0.74765625,0.748828125,0.75,0.7687499999999999,0.7875,0.80625,0.8200000000000001,0.825,0.84375,0.8624999999999999,0.88125,0.9],\"all_actual_and_pending_radial_nodes\":[0,0.01875,0.036,0.0375,0.056249999999999994,0.075,0.09375,0.11249999999999999,0.13125,0.15,0.16874999999999998,0.1875,0.20625,0.22499999999999998,0.24375,0.24843749999999998,0.253125,0.2625,0.28125,0.3,0.31875,0.32399999999999995,0.33749999999999997,0.35625,0.375,0.39375,0.4125,0.43124999999999997,0.44999999999999996,0.46875,0.4875,0.49687499999999996,0.50625,0.515625,0.525,0.54375,0.5625,0.5812499999999999,0.6,0.612,0.61875,0.6281249999999999,0.6375,0.6398437499999999,0.6421874999999999,0.64453125,0.645703125,0.646875,0.6515625,0.65625,0.6609375,0.6656249999999999,0.6679687499999999,0.6703124999999999,0.67265625,0.673828125,0.6749999999999999,0.69375,0.7125,0.7218749999999999,0.73125,0.740625,0.7453125,0.74765625,0.748828125,0.75,0.7687499999999999,0.7875,0.80625,0.8200000000000001,0.825,0.84375,0.8624999999999999,0.88125,0.9],\"source_actual_trust\":3.796875,\"source_next_trust\":4,\"source_geometry_grid_status\":\"75 proposed nodes finally scanned; last backend 71 nodes\",\"source_is_finite_circle_geometry_not_noncircular_family\":true}"
+    }
+  },
+  "source_sha256": {
+    "topics/visible-flex-new-mechanism/scripts/inverse_flat_oscillatory_tail_20261126.py": "b9c778fbeafb0d9beb061b3f472b8db1661daec5a78a63eb886a8e4770574f9b",
+    "topics/visible-flex-new-mechanism/scripts/inverse_rotational_metric_20261126.py": "e25dff6a411e8edc485babe6545087cfbea2b6d16cd804e6dcb51f17d8fab319",
+    "topics/visible-flex-new-mechanism/scripts/run_inverse_rotational_metric_20261126.py": "a97334fb7004ce750c0c949469be2db21ca7a187e53b48032dba2f330cf5e8ae",
+    "topics/visible-flex-new-mechanism/scripts/r582_actual_circle_seed_and_return_20261126.py": "fd4bd864c3e9e96d741b7bc896a1bf6f9d50ba54eda0c02bd898f21bd42427a4",
+    "topics/visible-flex-new-mechanism/scripts/r582_paid_mouth_core_return_20261126.py": "4afa0f904acc14fb892ccbcddf38ea006af9c829f0451c23b0e7f654ce8671e4",
+    ".github/workflows/visible-r582-paid-mouth-core-return-20261126.yml": "472d86aa5d26d8d8808f5bc1efee630370ba0b6c12b708b1321872f348b5e363"
+  },
+  "scope": {
+    "original_actual_circle_input_retained": true,
+    "paid_seed_source_run": 45800483161,
+    "paid_seed_source_job": 139842104318,
+    "paid_seed_source_commit": "f473b765b70c44e68090f022df0bd8c1c08737a4",
+    "all_three_original_seed_record_identities_bound": true,
+    "actual_final_M169_factor8_mouth_s": 0.82,
+    "new_inner_or_outer_seed_transfers": 0,
+    "original_numpy_bool_comparison_output_fixed_to_native_bool": true,
+    "new_work": "only the previously unreached two compact mean controls, undivided C2 return, geometry exchange, and fixed-mean linear representation refinements",
+    "original_coefficients_and_equations_retained": true,
+    "original_seed_child_wall_and_solver_RHS_costs_preserved_separately": true,
+    "conservative_angular_spectral_upper_bound": true,
+    "variable_projection_gradient_condition_and_rank_truncation_reported": true,
+    "new_scientific_execution": "public Actions only",
+    "maximum_parallel_jobs": 1,
+    "cooperative_scientific_seconds": 1800,
+    "job_timeout_minutes": 50,
+    "stdout_only": true,
+    "artifact_release_or_cross_run_cache_writes": false,
+    "metric_changes_during_inverse_design": true,
+    "continuous_linear_return_claim": false,
+    "finite_isometric_family_claim": false,
+    "README_completion_claim": false
+  }
+}
