@@ -44,4 +44,15 @@ $$
 
 新增 `scripts/check-original-e89-angular-profile.py`（SHA-256 `e30590582a6ff26761bebd879133d9f139cdf99c1009eba0d65e4fdd3476aa36`），无参数；request `2026-11-26-original-e89-angular-profile-7d29`。独立小工作流 `rank2-sha-e89-angular-profile.yml`，ubuntu-latest、15分钟、python-flint 0.9.0；同次以 `--workers=4` 重生第1节完整原CM来源并核完整矩阵hash。只读取实际四角点及d的重数、完整多项式gcd及Bézout回乘、resultant摘要；不保存系数或输出。
 
-本提交只发起这个小原输入检查，不启动第二次306正规化。四点各简单、与原H18互素是待读的实际条件；6052同权pencil、1700次投影和导子候选须经返回及独立完整证明，不在这里先报PASS。
+实际 run [45773031338](https://github.com/Rogerhu12/math-research-public/actions/runs/45773031338)、job139749954422、来源 `d2856ef101891f008ef125d219468a226903bace`，于2026-11-26 07:08:16 UTC success；完整原来源在同job重生，22.55秒。
+
+实际 $t,t-1,h_7$ 的两个几何根及 $d$ 都恰为一重，$\deg f_W=29$、$\deg(f_W/a)=25$。但是完整 $\gcd(H_{18},f_W/a)$ **次数为4**，完整Bézout回乘已核，resultant为零。因此仅 $U^{89},W^{68}$ 的无基点pencil分支不成立，先前条件分支中的1700次/28883导子候选没有获得证明。当前继续改用有成本的实际同权组合，并单独证明归一化、分式域及返回导子。
+
+| 记录 | SHA-256 |
+|---|---|
+| stdout，2025 bytes | `a19ba0f2e4aaa541468a901bb8d7687677b22419f45ee89e5c80fae6b34e4e43` |
+| 原角多项式摘要 | `7fbad6a6407c938654454c0c6c1fb8e221e02dfeab73b8fd55d192d76a045adb` |
+| 完整Bézout恒等式摘要 | `941bafb79db5ea7f9abb4c2553451dd476bb5db131d18b2ed4f759270cd500fd` |
+| 工具返回完整日志，UTF-8保留BOM，15083 bytes | `e66fdbf91c8eeb4c704bc6abffeb254c039b6c75073d46efa877be82f268a267` |
+
+该PASS只对应固定角重数与完整gcd读者，不对应待证pencil、导子、原306除子或无穷中央非零。未保存任何可重算输出。

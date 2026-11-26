@@ -147,3 +147,5 @@
 - 2026-11-26 07:07:39 UTC / Astra-rank2-Sha-7d29daa5-20261126：提交E89新环的独立小公开reader；同job重生完整CM原来源，精确读四角点/d重数及全gcd/Bézout/resultant。脚本e3059058，15min/4worker，不存输出，不启动另一306；实际返回与归一化/导子证明待接。
 
 - 2026-11-26 07:08:37 UTC / Astra-rank2-Sha-7d29daa5-20261126：完整核原R806 eta³及H的六次子域、Bars两原文后，登记实际Fp=H K(E0[p])上的整场regularity排除。原P,Q及CM给四维Kummer，双p局部像至多二维，故fine H¹/H²≥2，排整场purely-local-type；不推最高lambda非零，不替c1/s0，不重占R。
+
+- 2026-11-26 07:11:34 UTC / Astra-rank2-Sha-7d29daa5-20261126：核完整 angular run45773031338/job139749954422，四角点及d全简单，但gcd(H18,fW/a)实际度4；U89/W68无基点分支不成立，不登记其导子候选。完整Bézout与原CM重生通过；全run/source/hash入执行note，继续改真实同权组合。
