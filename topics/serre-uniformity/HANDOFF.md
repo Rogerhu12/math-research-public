@@ -6,11 +6,11 @@
 
 会话 **Astra-serre-24b8836b-20261126**。本轮已部分克隆并真实pull main，读两README/H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则读至36cf1ed2。不重做已登记结论或窗口。
 
-**公开两README已读提交：2834591829cf34423232d5698f0ff6f862b6c38a**（2026-11-27 00:20 Asia/Taipei；本次同步两README无差异）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
+**公开两README已读提交：0f91e808c51f83fd6dc139e0ac5f8af9802be7f0**（2026-11-27 00:26 Asia/Taipei；本次同步两README无差异）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
 
 执行宿主本轮断连；15:42 UTC单次恢复探测仍无环境；下次不早于16:43 UTC。按根规矩8用GitHub小文本原子tree/commit、最新head检查和非force expected-head更新；并发拒绝立即在新head重建循环至成功，保其它会话。终端恢复补pull --rebase。令牌仅此前CLI使用，未存文件/提交。根维护main/H/open/index/log；子研究可建单result未引用候选commit，不更新任何ref或共享状态。每条结论完整审后立即推。19:52纠正：global_route曾违规用会话V8做数学探索，已叫停；已知范围、时长及独立纸面重核见[执行偏差记录](notes/2026-11-26-execution-path-deviation-and-correction.md)。不得把其数字记为证明或合规窗口。
 
-H<10KB、open尽量<30KB、每MD<100KB、topic<200MB；无可重算raw、不写根LOG。[本次逐字前态](handoff-archive-2026-11-27-before-original-kernel-norm.md)沿链保全部旧来源/run/hash；[open](open.md)、[索引](results.md)是完整入口。历史“R1003 norm3准备中”未交付，现R1003为范围纠错。
+H<10KB、open尽量<30KB、每MD<100KB、topic<200MB；无可重算raw、不写根LOG。[本次逐字前态](handoff-archive-2026-11-27-before-original-fN-endpoint.md)沿链保全部旧来源/run/hash；[open](open.md)、[索引](results.md)是完整入口。历史“R1003 norm3准备中”未交付，现R1003为范围纠错。
 
 ## 最新全局实际来源
 
@@ -40,6 +40,8 @@ R1018原形式Fm、R1019实际A=T5²/Z=(T31−32)T5²保形式Fm及杀CM、R1021
 
 ## O1：原同一保留标签
 
+[R1043](results/R1043-original-fN-and-Hodge-kernel-CM-endpoint.md)：全p=6N+5≥41原f_N=−T₀(1)/6，保原positive CM/oldform/fine Cartier及两行Tate符号。原B(c₀,λ)=B(c₀,v)=−18f_N/A(1)。端点非零及同h筛选仍开；它不是r2的核范数或r8 bare。
+
 [R1031](results/R1031-original-fN-and-actual-Faber-truncation-central-derivative.md)：全p=6N+5≥41，原f_N=0 iff R′(1/2)=0，R=[P_d(1−2z)²]≤d、d=(p−2)/3；真实AS/Hasse²/二次商与所有单位尺度已成，forcing=−(d+1)³(C_AS/9)z^d。中心导数单位性仍开，forcing单位不替代。
 
 R1025/27原方向符号与绝对常平方已成：D_p=1、4η⁶C_N²=1、Σa_i²a_(N−i)²=−1/4。R1012/17/20未经筛选H全方向单位/divided差/完整scalar已成；不能代原primitive/Legendre同h或bare。
@@ -50,7 +52,7 @@ R1025/27原方向符号与绝对常平方已成：D_p=1、4η⁶C_N²=1、Σa_i�
 
 [R1041](results/R1041-original-r2-bare-coefficient-and-Hodge-kernel-norm.md)：原r2完整高权SS迹准确S^p=−36ρ B(c₀,c₀)，ρ³=2；故原bare c_(p−2)±单位 iff 实际一维ker Q的B范数非零。实际whole-space Cartier核由LT₀=A，保原CM oldform尺度ξ^(p+1)=ρ/24、细模度12及全部额外SS零贡献；d₁与12不混同。等价B范数=−(1/2)[b^(d−1)](c₀T₀ modA)。核维一与B完美不证明自配对非零，也不替代K_Q或r8。
 
-[R1034](results/R1034-original-bare-coefficient-finite-linearization.md)：原两行bare准确化为单位×[z^m](N/P)；有限递推仅用模z^ℓ Wronskian，保全局K缺陷及原相位。r2给显式F₁、degN=3k+1<degP与完整分母根留数和；r8须保N/P多项式部分。仍须证原总系数非零，不能从单个总留数零冒各局部留数零。
+R1034原两行bare=单位×[z^m](N/P)与有限递推已成：r2真余式/全分母根和，r8须留多项式部分；完整K共振缺陷不能删。r2另有R1041范数桥，两行总系数单位仍开。
 
 R1015原c_(p−r)=−A_r−BT_r，保完整regular与三阶乘carry，r8余层N−2；R1016原index1/2完整卷积及Gaussian单位不能代该总差。R988原S≠0 iff c_(p−r)±≠0 iff F_(p−r)(0,−864)≠0，r2用于11mod12/r8用于5mod12，保原mod9。R990/R1005完整K共振缺陷与全部分母根不可删；旧47 J12/cusp45/其它37不重算。
 
@@ -68,4 +70,4 @@ R696早已证明同一全局Φ候选Ω_actual={0}，R832已消费；不重做、
 
 固定Y的R805–930及全部runs/高维格/预算边界见open与逐字归档，只消费已成输入。R907四artifact真404仍producer_inputs_pending，不重造；预算失败不作数学负结论。固定41全129盘/8CM已由R707完成，不重开。R575旧正CM角色根号−与逆twist秩零撤回有效。R1004仅导子下界而非a/c上界，停止重复优化。
 
-当前并行：两行原本原MW消去、r2 bare与核范数真桥、p11第二列模第一列均已成；K_Q、B(c₀,c₀)仍待非零。继续R1042全后继列的真实normal/整E，R1043全p5mod6原f_N=−T₀(1)/6真mark稿已交叉纸核待推；同标签及O0全覆盖未关。子问题完成即接open其余项，真正达到README完成标准才收尾。
+当前并行：R1037/40两行本原MW、R1041原r2核范数、R1042第二列及R1043全p原f_N端点均已成。R1044全后继列在核完整平面η/全C分支与normal归纳；指定K_Q、核范数、T₀(1)单位及同标签未关。继续真实原格与O0全覆盖；子问题完成即接open其余项，真正达到README完成标准才收尾。

@@ -310,3 +310,8 @@
 ### 2026-11-27 00:20 Asia/Taipei — R1042 原CM盘第二列与完整有限角
 - [R1042](results/R1042-original-CM-disc-second-column-and-finite-corner.md)：p11原CM盘前两列为V_(4g−1)=u₀J₀、V_(4g−2)≡u₁J₁ modkJ₀，J_j=Σe_s/(1−s)^(j+2)，u₁=16κ₁²A_tail²λ₀^−(4g−2)/(5m)原单位。在J₀核上完整CM<7m全零，三中心层与所有反馈付清；真正整E杀完整C-filter核，给E x^(6g−1)=x^(6g−1)+4Ax^(4g−1)+(16/5)A²x^(2g−1)。故whole-type前两列rank2；指定MW配对仍待非零，不删第一列倍数。
 - global单文件候选a83d2fe0d23cc1e2136fbae830c8cb16f902af6b经root/o1/o2全文独审PASS；三层center regular性、4m零后最低Taylor、C过滤真实终端、Θ³F和全部原坐标/Serre尺度逐项纸核。只给第二列模第一列，不宣指定消去读数或唯一零点。无数学执行，两README同步检查。
+
+
+### 2026-11-27 00:26 Asia/Taipei — R1043 原f_N与实际核CM端点
+- [R1043](results/R1043-original-fN-and-Hodge-kernel-CM-endpoint.md)：全部p=6N+5≥41，原sigma/正CM/六标记准确f_N=−T₀(1)/6，T₀∈Fp[b³]唯一满足LT₀=A、首系数−1。完整fine Cartier身份给同一V_(p−1)†=ξr^(N+1)T₀；保两行ξ的(−1)^(N+1)、E6=−c6和原mark E6/η12=−24√−3。原B(c₀,λ)=B(c₀,v)=3T₀(1)/A(1)=−18f_N/A(1)。端值单位及同h筛选仍开，不混同r2范数或扩到r8 bare。
+- o1单文件候选c4c021e2291e927bf4274ec8c9a89c3780ec461b经o2/root独立纸核PASS；root全文逐核fine/aux不同零阶、原Cartier三阶极部、CM p倍系数、两行Tate与mark、Wilson及三处r=0总留数。没有以等价式声称非零；无数学执行。H逐字归档，两README同步检查。

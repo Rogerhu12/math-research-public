@@ -8,6 +8,8 @@
 
 ## 新增结论（2026-11-27）
 
+- **R1043（已证明）**：[R1043](results/R1043-original-fN-and-Hodge-kernel-CM-endpoint.md)：全部p=6N+5≥41，原sigma/正CM/六标记准确f_N=−T₀(1)/6，T₀∈Fp[b³]唯一满足LT₀=A、首系数−1。完整fine Cartier身份给同一V_(p−1)†=ξr^(N+1)T₀；保两行ξ的(−1)^(N+1)、E6=−c6和原mark E6/η12=−24√−3。原B(c₀,λ)=B(c₀,v)=3T₀(1)/A(1)=−18f_N/A(1)。端值单位及同h筛选仍开，不混同r2范数或扩到r8 bare。
+
 - **R1042（已证明）**：[R1042](results/R1042-original-CM-disc-second-column-and-finite-corner.md)：p11原CM盘前两列为V_(4g−1)=u₀J₀、V_(4g−2)≡u₁J₁ modkJ₀，J_j=Σe_s/(1−s)^(j+2)，u₁=16κ₁²A_tail²λ₀^−(4g−2)/(5m)原单位。在J₀核上完整CM<7m全零，三中心层与所有反馈付清；真正整E杀完整C-filter核，给E x^(6g−1)=x^(6g−1)+4Ax^(4g−1)+(16/5)A²x^(2g−1)。故whole-type前两列rank2；指定MW配对仍待非零，不删第一列倍数。
 
 - **R1041（已证明）**：[R1041](results/R1041-original-r2-bare-coefficient-and-Hodge-kernel-norm.md)：原r2完整高权SS迹准确S^p=−36ρ B(c₀,c₀)，ρ³=2；故原bare c_(p−2)±单位 iff 实际一维ker Q的B范数非零。实际whole-space Cartier核由LT₀=A，保原CM oldform尺度ξ^(p+1)=ρ/24、细模度12及全部额外SS零贡献；d₁与12不混同。等价B范数=−(1/2)[b^(d−1)](c₀T₀ modA)。核维一与B完美不证明自配对非零，也不替代K_Q或r8。

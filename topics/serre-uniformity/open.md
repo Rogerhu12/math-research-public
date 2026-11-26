@@ -30,6 +30,8 @@ R1只把全部异常缩为p>37的完整N_ns；**p≡2,5 mod9只是另加小惯�
 
 ## O1：全p同一真实本原标签的临界非零
 
+[R1043](results/R1043-original-fN-and-Hodge-kernel-CM-endpoint.md)：全部p=6N+5≥41，原sigma/正CM/六标记准确f_N=−T₀(1)/6，T₀∈Fp[b³]唯一满足LT₀=A、首系数−1。完整fine Cartier身份给同一V_(p−1)†=ξr^(N+1)T₀；保两行ξ的(−1)^(N+1)、E6=−c6和原mark E6/η12=−24√−3。原B(c₀,λ)=B(c₀,v)=3T₀(1)/A(1)=−18f_N/A(1)。端值单位及同h筛选仍开，不混同r2范数或扩到r8 bare。
+
 [R1031](results/R1031-original-fN-and-actual-Faber-truncation-central-derivative.md)：原f_N=0 iff [P_d(1−2z)²]≤d 的R′(1/2)=0；真实Faber/Hasse²运输给完整单位比例，forcing为−(d+1)³(C_AS/9)z^d。中心导数单位、同h两mask与bare仍待证。
 
 [R1027](results/R1027-original-level-p-squared-theta-distribution-and-constant-one.md)：全部p≥41、p5mod6原D_p=1，4η⁶C_N²=1，Σa_i²a_(N−i)²=−1/4。真实Lp²第p theta分布在Frobenius子空间为(Dv)^p；保A†拉回全部total-D阶p交叉项与刚化[p]=−Frob²双轴符号，得d_A d_A†^p=γ/κ；R1025原符号付清绝对常数。共同δ′只剩±1，原两mask/bare仍开。
