@@ -499,3 +499,8 @@ R1065 §9：已亲读 Delfs–Galbraith 第2页 Eq.(1) 的三个类数分支及�
 ### 2026-11-27 06:56 Asia/Taipei — R1061 退化有限域 Dixon 的准确所读矩
 
 R1061 §15：亲读 McCarthy 含退化项的 Th4.2，目标角色恰被常见 Th1.11 排除；保完整五 Gauss 乘积得全 $q=p^2$ 函数 $1-p$。原定义的全部 base-p carry 精确分为两个矩形，末角替原零项；实际单位是 $4D_N'(1)+4D_N(1)/3$，有完整阶乘乘积。故半和若零，其显示参数的根简单；不能把该参数冒原 CM 方向或把全有限域值冒半和范数。root 与 o1_theta 逐项独核，实际半和非零仍开，无数学执行；继续原 Lamé 三分布与全局 CM 代表。
+
+
+### 2026-11-27 07:01 Asia/Taipei — 执行器再探与规则同步
+
+23:01:24 UTC（07:01 Asia/Taipei）再次调用公开部分克隆目录的 git status；工具返回 No usable execution environment，shell 未运行。最近真实 git pull 仍为 01:48；没有把连接器读 main 冒称 pull。继续按根规矩8执行小文本 fallback：提交前重新取 main、检查根 README 与课题 README 差异，以当前父提交与 expected_sha 非 force 更新。执行器恢复即真实 pull --rebase；研究继续原 CM 圆盘/标签代表、Miller 三分布及 Green 行列式。
