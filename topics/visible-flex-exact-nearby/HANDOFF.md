@@ -1,11 +1,11 @@
 # 交接：可见振幅的精确闭等距族
 
-维护会话：visible-exact-astra-fb31ed6-20261127；更新：2026-11-26 23:17:41 UTC。
+维护会话：visible-exact-astra-fb31ed6-20261127；更新：2026-11-26 23:21:02 UTC。
 **总任务未完成，持续研究，不等用户回复。**
 
 ## 已读规则、授权与接续
 
-2026-11-27（台北）已 partial+sparse clone 两仓库并 pull main，读根全部规矩、课题README、H/open、当前log及接续notes。公开根/topic规则已读至3abc051a7e866eb16b9af2ece08d2bb52a79046c（相对12385db35无diff）；私库23:15pull根规则核至67ef1777c8910b9bfb7ccff27c1c9d832a5d373e，QUEUE接手已推594e561b05a758bd8c02840ca4fbf574cd707436。每次pull核两README差异、至少每小时一次，非FF立即rebase再推。令牌只CLI。无AGENTS。
+2026-11-27（台北）已 partial+sparse clone 两仓库并 pull main，读根全部规矩、课题README、H/open、当前log及接续notes。公开根/topic规则已读至3ecb3da3153c5b1a97f48028c8fefc3cf0693c90（相对12385db35无diff）；私库23:15pull根规则核至67ef1777c8910b9bfb7ccff27c1c9d832a5d373e，QUEUE接手已推594e561b05a758bd8c02840ca4fbf574cd707436。每次pull核两README差异、至少每小时一次，非FF立即rebase再推。令牌只CLI。无AGENTS。
 Actions计算；本地只证明/静态/metadata。规12不增审批复核、每结论推送；规15 topic≤200MB、H<10KB、禁可重建大数组。前H/open 27c422943及递归历史保所有成功/失败/unknown/义务，成功禁重。
 
 ## 同一对象与最终标准
@@ -31,7 +31,7 @@ geometry43584188751/26仅在同η0全core含帽物理C0≤1e−4、|δν|≤1e�
 
 完整旧账、全部球/pins/SCI/原域/失败/lost/false/unknown及递归原件保[08e原H](https://github.com/Rogerhu12/math-research-public/blob/08e0b93016a795fd312f83db96ff07f444810bbd/topics/visible-flex-exact-nearby/HANDOFF.md)和各proof，成功禁重、scope不改：
 - source4实际45783842857/1全4、RW45787309600/1全96×5、JC45887337009/1全7锁；JC joint96<8.556891e−5、homotopy lower>.9836159091670。原C0/CP11/7721 forward、R143/R146已成及全部false保上面原H；不授PDE列/fullSchur。
-- R145/R147原实际/失败保上述锁定链，成功禁重。NP45893562391/1（2/2）、NH45897599620/1（12/12）、PO45903437912/1（12/12）的whole源/mean/fulltail/误差已锁，详见原H各proof；局部root/positive状态0不消nonlocalphase/fullν。[APA](results/R147-supplement-actual-selected-amplitude-border-for-the-strict-parameter-particular.md)45906257068/1全8球、原NP四数组SHA完全同；真幅度[-.006499,-.005501]、原α归一[-.008810,-.007190]严格负，齐次补偿/phase/height/νSchur仍保。[ASB](results/R147-supplement-actual-short-parameter-errors-and-refined-signed-borders.md)45908403884/1全11/11：新Dν<6.289073e−7、interior L²rL²<6.765672e−6；复用全APA/PO球给true幅度(−.006275,−.006264)、α归一(−.008203,−.008188)、physical high97<5.330e−5、cos96 error<6e−7；旧科学0，仍仅strict particular。
+- R145/R147原实际/失败保上述锁定链，成功禁重。NP45893562391/1（2/2）、NH45897599620/1（12/12）、PO45903437912/1（12/12）的whole源/mean/fulltail/误差已锁，详见原H各proof；局部root/positive状态0不消nonlocalphase/fullν。[ASB](results/R147-supplement-actual-short-parameter-errors-and-refined-signed-borders.md)45908403884/1全11/11：新Dν<6.289073e−7、interior L²rL²<6.765672e−6；复用全APA/PO球给true幅度(−.006275,−.006264)、α归一(−.008203,−.008188)、physical high97<5.330e−5、cos96 error<6e−7；旧科学0，仍仅strict particular。[PH](results/R147-supplement-exact-nonlocal-phase-and-height-parameter-ports.md)付真反射单leg非零phase/fullmean、same-selected dual<3/2及PDE误差<1.014851e−5；worldheight单积分与独立刚体/物理waist角行全保，首次signedphase入口在做。
 
 ## 所有仍未付的最终接口
 

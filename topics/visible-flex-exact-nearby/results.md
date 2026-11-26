@@ -369,3 +369,5 @@
 - [ASB：实际短参数误差与更紧signed边框](results/R147-supplement-actual-short-parameter-errors-and-refined-signed-borders.md)：45908403884/1全11/11、真正Dν<6.289073e−7、interior L²rL²<6.765672e−6。21个已成whole APA/PO球的新有理组合给physical幅度(−.006275,−.006264)、exactα归一(−.008203,−.008188)、physical high97<5.330e−5、cos96 error<6e−7；fullsame-sign原B/mean/PDEerror均保，旧科学0。非局部phase/height、齐次边界补偿及完整νSchur仍另付。
 
 - [QH：实角H² DN与正侧完整H¹高逆](results/R144-supplement-real-H2-exterior-DN-and-one-angular-positive-high-inverse.md)：unknown仅endpoint A³≤1e−9、真实Zθθ A0<1.879950733e−9；四DN行H±2和H7/6/两mean/height均付。34个saved有理比较；wholebody/外反馈<.803，collarloop<.016371，完整given-head L²rH4/3→L²rH1七端口表，ordinarybody增益1.645740、原rootreflection<4.182。有限193/S/原观察不改，无generic径向L2 trace；root/更高阶/fullSchur仍待。
+
+- [PH：真非局部phase和同worldframe height参数端口](results/R147-supplement-exact-nonlocal-phase-and-height-parameter-ports.md)：真实反射给完整phase 2∫a+²dotF+，保constant mean；same-selected普通dual<3/2，ASB的PDE配对误差<1.014851e−5，原finite carrier到真label误差<1.6e−5。11个saved比较；height单积分含独立刚体端口、physical waist坐标mean行及原off-shell缺陷。新signed积分/真实heightcarrier待，齐次补偿/fullνSchur仍未闭。
