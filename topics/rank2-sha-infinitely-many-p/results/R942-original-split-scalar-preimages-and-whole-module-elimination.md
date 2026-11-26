@@ -418,3 +418,132 @@ Fitting 平方、原 bad/good 互素、完整 CRT 产品和幂零厚度均不删
 - 工具返回完整job日志UTF-8保BOM，31061 bytes，SHA-256：`6a8c12901607e5a888a914e639c6fa04a0f50f4e3b0c6811dbf66d79901ddf46`。
 
 仅结果陈述和hash登记；完整输出不入库。当前单F来源b35d61dd继续，不因小例成功追认其末端。
+
+## 9. 六原P的完整R3算子复用
+
+下列读取严格保持旧原六P的全部来源，只登记独立helper；当前单F继续，四个P触发路径不改。
+
+### 9.1. 已在同一个原对象中存在的算子
+
+build_original_section_ring_embedding 对每个原退化 j 与原 M2 基 f_a 定义
+
+\[
+ u_{j,a}=\pi_j^*f_a/J,\qquad
+ M_{j,a}=m_{u_{j,a}}
+ \tag{1}
+\]
+
+为同一原306基上的完整多项式乘法矩阵。
+basis_multiplier 正是通过同一个 operations.multiplication_matrix 构造它，
+并把实际矩阵保存在 embedding["actual_multiplier_cache"][(j,a)]。
+
+原六 endpoint 的 selected section_coordinates 已使用这些算子做完整 Horner 读取。
+旧 low-P _section_reader 另为每条完整 recipe 调 direct multiply，
+没有读取这个已存在的原算子缓存。
+本次只改后一段，前面的六个 selected 原截面、vnew、全部 j^3 与 Frobenius 返回均不变。
+
+缓存来源是这个真实 embedding 构造出的矩阵对象。
+全 operator 的依据是原完整乘法表和该构造，不是一个 caller 提供的 hash，
+也不是单独由 unit*M=u 推知所有行正确。
+新代码另检全 unit 行返回作为一致性核验。
+缺少的 (j,a) 只通过同一个 certified chart 构造一次；
+新增矩阵只在本次完整 reader 中保留，不写入或改写原 embedding 的缓存。
+
+### 9.2. 全部528原行的精确读取
+
+对于原 R3 basis 的每条 recipe r=(a_1,a_2,a_3)，定义
+
+\[
+ v_j(())=1,\qquad
+ v_j((a))=u_{j,a},\qquad
+ v_j((a,r'))=v_j(r')M_{j,a}.
+ \tag{2}
+\]
+
+这里每次使用全部306来源与全部306输出列。
+原 A 是已经认证的交换结合环，因此 (2) 逐步等于同一个实际乘积
+
+\[
+ \pi_j^*(f_{a_1}f_{a_2}f_{a_3})/J^3.
+ \tag{3}
+\]
+
+因子排序只采用原 embedding 的 Horner 约定。
+原528条 recipe 的输出顺序完全不变；重复 recipe 也按原位置各自返回，
+不会由于内部复用同一向量而少掉原矩阵行。
+
+代码只缓存本批 recipe 所需的全部 suffix。
+按 degree=2,3 和原首因子 a 分组，以至多32个完整来源行为一批，
+执行整个矩阵乘法 V*M_(j,a)。
+这与逐行 (2) 严格相同；没有挑选坐标、随机比较或按某个长度推测乘积。
+
+每个 degree=d 的全部输出满足原过滤界
+
+\[
+ \deg(v_i)+w_i\le4d.
+ \tag{4}
+\]
+
+因此最终 degree=3 的完整坐标槽准确为全部
+
+\[
+ (i,e),\quad 0\le e<13-w_i,\qquad
+ \sum_i(13-w_i)=3114.
+ \tag{5}
+\]
+
+所有528行均写入原 k 上的528×3114矩阵，再用原 _unflatten
+从每一行的全部槽重建整个306坐标向量并逐行相等返回。
+(4) 只证明所有坐标槽的范围已经完整；
+实际值由 (1)–(3) 的全矩阵乘法给出，不能由次数门替代。
+
+### 9.3. 原除子门完全继承
+
+新 OriginalLowPOperatorRecipeDivisors 继承原 reader，
+只覆盖 _section_reader，保持相同 (flat, slots, receipt) 接口。
+所以完整原配对核、两个投影、三原 embedding 的全部常数与 Artin 顺序，
+以及之后的以下操作原样执行：
+
+- 每个来源152条配对 N,D，原 numerator 仍为 (2/vnew)*A+B；
+- 原两图表、selected pair 及实际传入函数的全交乘；
+- 每次使用完整 A 乘法行生成真正非约化理想；
+- 同一个非空来源子集对两图同时推进，所有余下 N,D 逐条返回；
+- 真有限长度、完整 infinity-primary 理想、零极双2256及六端点全计数。
+
+类的 source receipt 另外绑定新 helper。
+原 helper、所有原认证输入、source 追踪、k/omega、Artin(2,0,1)
+和全高展开都不变。
+
+待接入 producer 还选择已公开小例通过的 R942 完整可逆行 HNF engine。
+这只给实际理想行模选择新的精确实现，不更改它们的生成元或接受门。
+尚未运行的原306除子不能由小矩阵 API PASS 追认。
+
+### 9.4. 源码接入状态
+
+新 helper 为 scripts/original_low_p_operator_recipes.py。
+已经准备好完整 producer/launcher/request/workflow 对应文本：
+
+- request schema v2 只增加具体 reader 和行模算法名；
+- 两份原 F/P PASS 的 run/job/source/result hash 逐字保持；
+- q_precision=2453、normalization batch_size=64、原 kernel_method=minimal 保持；
+- host/producer 同序34源；缺一源或原请求不一致都拒绝；
+- 数学仍只在原固定 Sage10.6 镜像、network none、source read-only 中执行；
+- launcher 记录真实 Sage/docker 子进程 returncode。
+
+原 workflow 的这些已有触发路径现在不推送，
+因此不会在当前单 F 仍运行时开第二份重型正规化。
+当前可单独登记新 helper 与本等价证明；待真正接入后，实际 run/source/hash 另登记。
+没有删除完整门，也没有声称能从某个测试时长推定原六除子必能在时限内完成。
+
+### 9.5. 已备接入源码的准确定位
+
+独立helper `original_low_p_operator_recipes.py` 的SHA-256为 `72146ce1b3bc53a30c6bd689db77daa066f11890c474ee471eaa276246978e61`。以下完整小文本已在本仓库建立不可变Git blob，尚未挂到main的对应触发路径；真正接入时必须与最新原入口逐差合并，不覆盖并行修改。
+
+| 原入口 | 目前原blob | 已备新blob |
+|---|---|---|
+| produce-original-low-p-divisors.py | 7bb9251bd530ec381177c6c709bb632d326a73d7 | 424187aa2cfb5b8c50daad7889916b04536e50d0 |
+| launch-original-low-p-divisors.py | 047edc5b9d63b4acf577f31d34c7f925eb911bf3 | 87339541b7bbff11438e448f5976292be1c64a4c |
+| original-low-p-divisors-request.json | e6af13264b4cc1e7da8e0e9f2e6b15300b76ff60 | f05f0fa7b6bf6a83d3969617de4ccf3cee4069a6 |
+| rank2-sha-original-low-p-divisors.yml | eeedd02b8fe3fe823f27da1ab9ba6bc2ebe4bb62 | 3b89076c157248f96c04458d82df30e8d58cccce |
+
+这些是待接入的源码，不是已执行回执。原两份F/P认证、q2453/batch64/minimal及34源完整绑定均保；没有以“已备”冒原六除子完成。
