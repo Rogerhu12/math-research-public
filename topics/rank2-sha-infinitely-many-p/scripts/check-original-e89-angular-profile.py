@@ -220,7 +220,49 @@ def main():
         "output_files": False,
         "scope": "Exact fixed angular multiplicities and full polynomial gcds for the original regenerated E89 source; not a central nonvanishing or infinite-prime claim."
     }
-    if pencil:
+    # The original U,W pencil may have a genuine common finite factor.
+    # Shear within exactly the same source ring: U_c = U + c*S^4.
+    # H_c = H/91 + c*a^3*d^4/7^4, so its values at a*d=0 and its
+    # degree-18 leading term agree with H/91.  At each root of G
+    # at most one c is forbidden, and deg(G)=25.
+    out["sheared_parameter"] = None
+    out["sheared_pencil_and_primitive_degree_checks"] = None
+    if simple_a:
+        a3d4 = product([a, a, a, d, d, d, d])
+        trials = []
+        chosen = None
+        for c in range(26):
+            hc = add(scale(h, Q(1, 91)), scale(a3d4, Q(c, 7**4)))
+            assert len(hc) == 19 and hc[-1] == h[-1]/91
+            hc_ad, _, _ = gcd_bezout(hc, product([a, d]))
+            assert len(hc_ad) == 1
+            gc, uc, vc = gcd_bezout(hc, g)
+            trials.append({"c": c, "gcd_degree": len(gc)-1})
+            if len(gc) == 1:
+                chosen = c
+                break
+        assert chosen is not None
+        assert len(mul(a, hc)) == 23
+        resc = resultant(hc, g)
+        assert resc
+        sheared_witness = {
+            "Hc": [str(x) for x in hc],
+            "G": [str(x) for x in g],
+            "bezout_Hc": [str(x) for x in uc],
+            "bezout_G": [str(x) for x in vc]}
+        out["sheared_parameter"] = {
+            "c": chosen,
+            "formula": "U_c = U + c*S^4; H_c = H/91 + c*a^3*d^4/7^4",
+            "trials": trials,
+            "gcd_Hc_G_degree": 0,
+            "gcd_Hc_a_times_d_degree": 0,
+            "Hc_degree": len(hc)-1,
+            "f_Uc_degree": len(mul(a, hc))-1,
+            "whole_bezout_identity_checked": True,
+            "whole_bezout_witness_sha256": digest(sheared_witness),
+            "resultant_Hc_G": rational_summary(resc),
+            "same_source_ring": "R[S,U_c,W] = R[S,U,W]",
+            "central_zero_inherited": False}
         L = 68*89
         degree_A = max(22*89, 29*68)-4*68
         degree_C = max(5+22*22, 29*17)-4*17-1
@@ -235,7 +277,7 @@ def main():
         assert max(generators) == 12113
         conductor_weight = 17*(degree_A-1)
         assert conductor_weight == 28883
-        out["pencil_and_primitive_degree_checks"] = {
+        out["sheared_pencil_and_primitive_degree_checks"] = {
             "common_pencil_weight": L,
             "projective_pencil_degree": degree_A,
             "rational_map_A_degree": degree_A,
@@ -244,6 +286,7 @@ def main():
             "quadratic_involution_test_a_at_minus_one_quarter": "35/16",
             "normalization_finite_module_generator_max_weight": max(generators),
             "candidate_different_weight": conductor_weight,
+            "parameter_shear_c": chosen,
             "candidate_different_origin_angular_order_range": [
                 (conductor_weight+88)//89, 29*conductor_weight//89]}
     out["reader_sha256"] = hashlib.sha256(pathlib.Path(__file__).read_bytes()).hexdigest()

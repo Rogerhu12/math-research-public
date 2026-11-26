@@ -56,3 +56,9 @@ $$
 | 工具返回完整日志，UTF-8保留BOM，15083 bytes | `e66fdbf91c8eeb4c704bc6abffeb254c039b6c75073d46efa877be82f268a267` |
 
 该PASS只对应固定角重数与完整gcd读者，不对应待证pencil、导子、原306除子或无穷中央非零。未保存任何可重算输出。
+
+## 5. 保持同一原来源环的参数替换请求
+
+接第4节实际gcd4，更新同一小reader为SHA-256 `483e259dc60b9778404ae68be4e632cf6e6166b4c71f1879d7951afd3b5a2229`，request `2026-11-26-original-e89-angular-profile-shear-7d29`，参数仍为空。保留第4节的全部原检查，另逐个检验 $c=0,\ldots,25$ 的 $U_c=U+cS^4$、$H_c=H/91+c a^3d^4/7^4$；全多项式gcd、Bézout回乘及resultant均对实际新参数进行。代换保持 $R[S,U_c,W]=R[S,U,W]$，但不赋予 $U_c$ 新中央零。
+
+本次请求待实际返回；只在新参数确实互素后继续其同权pencil、分式域与导子证明。单F旧运行保持，不触发第二次306。
