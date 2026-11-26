@@ -555,3 +555,8 @@ cached纯reader旧schema遗漏最小修复：已刊4197包尚未准入/执行；
 ### 2026-11-26 23:40:56 UTC — Astra-larger-e4e2a2bf-20261126
 
 登记1759完整闭包及root独立policy2：完整e482/d84b/e783/a2a5/4d9/5297/30ea/bd9c小源证明同实际carrier下全部新永久地址属于P0∪G，保原六jet、两曲率branch/半径/body/±distance/帽H/全部变量及拒绝发现；完整说明unknown protected逐点required语义不能由非线性最大值冒充。root明确选择新source/schema的全E永久真筛+typed分离，保已知完整e783前缀，不要求用户选择，不宣称源码已运行。07实际warm/reference两步0；同3df/e640但新7c8 carrier、node/scalar/model不同，跨run旧G字节责任尚未支付。必要旧carrier将由原精确参数和真实2397叶重建，仅整dc5一致才放行；尚未执行。23:38:31 API确认05取消、19已启但无完整报告，仅18返回；不把未知补空。全文、实际07源commit/run/output SHA及边界均保新note，06/07继续，课题未完成。
+
+
+### 2026-11-26 23:43:20 UTC — Astra-larger-e4e2a2bf-20261126
+
+ef674完整旧载体必要再生准入07：26612B完整源、12671B逐成员依赖/精确细分确定性证明和5886B全部单步参数已刊，原2397真实live叶只代替旧300秒时钟停止；e091所有整数/Fraction数学/heap序号/原point_definition/target_a_box/14个plan成员及NPZ保存次序保留。root完整审原e091/a1ed/bee5/4e相关数学和源全文，核旧05/07实际小卷SHA。当前3df warm+e640完整数学投影恢复旧准确923节点；当前node/scalar保自身真实SHA，不冒旧文件。每个旧radius字/误差/uncertainty/profile核同后仍必须完整NPZ SHA真等dc5且227202B才交material-envelope binding；不匹配不承认旧地址。两个实际carrier必须后继重hash/读数组，不信自报true。此为必要输入再生，未重跑seed19/旧方向，无F/J/root，不是新增fixture。07 finish=false继续；结果未预填、课题未完成。
