@@ -1,7 +1,7 @@
 # R956 — 原 F 整模的精确素域下降与完整附加块返回
 
 - 日期：2026-11-26。
-- 状态：**完整整模证明；§§1–4 的严格下降 API 已实际成功；§5 的共同常数扩展亦已实际通过，见§5.4；§7整条原像下降证明已付，新增API待回执。**
+- 状态：**完整整模证明；§§1–4 的严格下降 API 已实际成功；§5 的共同常数扩展亦已实际通过，见§5.4；§7整条原像下降及其新增API亦已实际通过，见§7.5。**
 - 本条不声称原 F 除子、原四交、有限 shadow 或非零性已计算完成。
 - 原唯一 F v3 作业仍按其已检出的 source 运行，不因本条改变或重启。
 - 直接依赖：R942 §11 完整有界 HNF、R925 完整原仿射结构、
@@ -736,8 +736,62 @@ native 操作流相同，原域提升流则准确含额外单位操作，分别�
 - request v2：347 B，SHA256
   `76faf3a6849e211a8925aa97056aabb13265bbad1f5c18bb4856c3b627737c0c`。
 
-本节尚待这一独立真实公开 API 回执。
+本节的独立真实公开 API 回执已取得，见§7.5。
 后继原 Artinian v7 可在通过后固定新增 preimage pin，
 并在同一原 $F_y$ 两图要求真实 $H_D,M_N,Y$ 来源链进入上述接受门；
 源数仍45，原 bounded pin与全部真实 PASS pins 不变。
 当前v6仅为已审持有版本，在新回执之前不因本节改变选择或触发原306。
+
+
+### 7.5 完整原像下降的实际小 API 回执
+
+source `6ae52365ac2b87197085d8bec545ad5f9eec6800`，
+[run45836149006](https://github.com/Rogerhu12/math-research-public/actions/runs/45836149006)，
+job `139965432077`，2026-11-26 14:10:21 UTC 实际完成，**success**。
+13份源码 AST 通过，数学 reader 0.492784613000012秒。
+真 $3\times2$ 单常数源、原两域均不可约的三次因子全二/三厚层、
+全部官方原域 kernel/source/target 坐标返回、零源及两类完整 fallback
+全部实际通过。旧两套完整接口也通过；没有重算原几何。
+
+同次真实 $\theta_{17}=(0,21)$、$\gamma=(0,8)$。
+真共同常数例的两条非零列，native 操作计数
+add4、bezout2、swap2、scale0；原域提升恰另有scale4。
+完整两流分开记录，全部源坐标不缩放，最后按原 $M,H$ 实际回乘。
+
+- 完整 source-manifest 3214字节，SHA256
+  `20665ba352448fd752c3cb3a5e8cec3d925f162dfbb065b90b9c6716c724dd9b`。
+- 原 result 字符串（无末newline）69477字节，SHA256
+  `84f5c76b4741535683457d6a64ac8add20741310beda88f697d2a08e606b2082`。
+- 完整 job log 含原BOM，181357字节，SHA256
+  `b3803f3bb805c2bbfe2b4a034c49e9ac0ccceb3e5ad6929cf81bd8819562467f`。
+- native 全操作流
+  `4f011d8cd983f1ce95a801c449d74517fb069fbb2e073fe5866dc49dea58ef12`；
+  原域完整提升流
+  `37341f1e708b80e339b41f559c7db66d2eaf29cc7b37ba0f9ea5262db5cfdd70`。
+- 全部原目标坐标 SHA256
+  `136251e379749a3ba320bee4d63fd02d6a4e316628b36ffaf00e9780d8928ff7`。
+
+这些是同一完整算法和实际返回的回执，原306几何仍没有由此冒记成功。
+
+## 8. 已审持有的原 Artinian v7（未触发）
+
+v7相对§6的v6只增加§7完整 preimage pin和实际原F两图门：
+原 $H_D,M_N,Y$ 的全部摘要必须连接，原306源/目标全形状、
+真正素域工作环、$\gamma_B/\theta_{17}^{-3}\in\mathbf F_r^\times$、
+原 $M_N$ 完整回乘、native/原提升两流及每个非零列两次额外单位操作
+都逐项要求。最终来源 HNF 的原哈希和规范 $Y$ 再次连接。
+它不要求新算法的非规范中间 $P$ 与旧算法字面相同；
+原 $H_D,M_N$ 和最终规范 $Y$ 才是相同的实际对象。
+
+45份 source、已通过的 bounded pin、原两份 PASS pins、
+r29/q2453/batch64/minimal以及全部旧原门不变。
+
+| 路径 | blob | 字节 / SHA256 |
+|---|---|---|
+| `scripts/produce-original-triangular-artinian-shadow.py` | `d066359fafcbc377757bb4782f84656f8b44d984` | 31897 / `90111bcd9191c91e58d6ec124ea75cc07ce44ab1a37b59c97eca6608a4089f96` |
+| `scripts/launch-original-triangular-artinian-shadow.py` | `69ef54575a71bf1ab91cda87959ad6e0ae1f2d47` | 10317 / `156d2ff1fb58dd46b462f3ee08fb8019d9be5a278001917a0fccc4345c8c0486` |
+| `ci/original-triangular-artinian-shadow-request.json` | `975bced4fb2130a46ca47209f30fe17b29426fda` | 835 / `aec8f1d46935ffc9686f86c66bb79774aa2a5906af656d39fc826e76ccd37050` |
+
+workflow仍为 `5713d440f42e1bd2f638944ce2dc9d3d4ddd1d5b`。
+v7是当前最新已审持有版本，尚未挂触发路径。
+须等唯一原F实际终点，结合日志再接；不能把两个小API的成功当原除子或shadow成功。

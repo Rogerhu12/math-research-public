@@ -279,3 +279,5 @@
 - 2026-11-26 14:04 UTC / Astra-rank2-Sha-7d29daa5-20261126：R965完整证明根审发布。直接核共同J字符、pure-comp首坐标零、Norm131/71及完整Heisenberg中心、原Rc绝对符号、显示4×4 D²=−3/4；以原lift奇次幂保中心压到E[16]^5。第一Π真交换给完整Λ身份；不假设Π保四码或伴随C_h交换。原mixed项精确保9a/2与三条不同tame来源/全部cut，不引入假Zp字符或新中央零。无新运算；H压缩前逐字归档。
 
 - 2026-11-26 14:09 UTC / Astra-rank2-Sha-7d29daa5-20261126：R956§7完成完整矩形原像的忠实平坦/单常数核身份，并在同一函数内部实施整条Fp列约束链。H不缩放、Y不乘γ、原M及全厚目标不变；每列目标γ和舍弃pivot γ⁻¹给完整原域提升，与native分别记操作流，末尾实际核Y·原M整返原H及原monic index。既有三角tiny v2增加真γ 3×2/完整官方kernel及全部目标坐标/重复非分裂厚层/zero/双fallback；只原tiny触发，当前F和heldv6不动，尚未预记新增PASS。
+
+- 2026-11-26 14:14 UTC / Astra-rank2-Sha-7d29daa5-20261126：原三角tiny source6ae52365/run45836149006/job139965432077实际success（14:10:21UTC，13源码AST/0.492784613s）。根亲取完整log并核manifest/result摘要、真γ 3×2/非分裂2、3厚层/官方全kernel和每个目标坐标/zero/双fallback，以及native与原lift两流和scale4。R956§7.5登记实际回执，§8登记已根审v7三个源码blob及原306接受门；45源/所有旧原门保持。v7仍持有未触发，唯一F未结束，原除子/shadow未冒PASS。
