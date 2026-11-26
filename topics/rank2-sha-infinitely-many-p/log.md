@@ -300,4 +300,6 @@
 
 - 2026-11-26 15:15 UTC / Astra-rank2-Sha-7d29daa5-20261126：R970完整证明固定E65³精确rank2、全部局部角色/Schwartz/degree130实平方及通常Selmer中央桥；逐核两个quartic的完整mod3/5排除。实际(ω,−1)与原H130/new-six-sigma投影将同次全390→22消费，未预记CM唯一性或跨p非零；归档H保完整R968/R966后记录。
 
-- 2026-11-26 19:06 UTC / Astra-rank2-Sha-0b097461-20261127：两仓库部分克隆并实际pull；根/课题规矩、H/open/log及当前notes已读，私有QUEUE接手41fe885已推。原v7完整日志核到相对有限商域次数断言failure，非超时/OOM，无原F/shadow PASS；真实终点/hash入note，继续保底域双向表示修复、R970 degree130实际中央投影和通常Selmer桥核查。
+- 2026-11-26 19:01 UTC / Astra-rank2-Sha-0b097461-20261127：两仓库部分克隆并实际pull；根/课题规矩、H/open/log及当前notes已读，私有QUEUE接手41fe885已推。原v7完整日志核到相对有限商域次数断言failure，非超时/OOM，无原F/shadow PASS；真实终点/hash入note，继续保底域双向表示修复、R970 degree130实际中央投影和通常Selmer桥核查。
+
+- 2026-11-26 19:07 UTC / Astra-rank2-Sha-0b097461-20261127：R974完整证明原指定商域的保底域绝对表示与全部厚范数返回，修复relative degree误读并接Sage10.6真实API门；同时挂R970原390→22列cross/六sigma同次消费者v4，所有旧数学门保留，实际回执待返。为避免共享helper触发三份已废重型重复作业，将本题original-ys-consumer、original-ys-closed-local、original-artinian-shadow三个旧workflow仅留手动dispatch；新tiny与唯一triangular生产入口保留。

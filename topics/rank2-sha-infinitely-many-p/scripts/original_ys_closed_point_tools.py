@@ -98,6 +98,7 @@ class ActualFiniteFieldQuotient:
         assert self.relative_degree >= 1 and self.polynomial.is_irreducible()
         base_absolute_degree = native_absolute_degree(self.base)
         self.tag = str(tag)
+        self.native_model_receipt = None
         if self.relative_degree == 1:
             self.field = self.base
             self.root = -self.polynomial[0]
@@ -107,15 +108,83 @@ class ActualFiniteFieldQuotient:
             self.quotient = self.P.quotient(
                 self.polynomial, names="q_" + self.tag)
             assert self.quotient.is_field()
-            self.field, self.forward, self.backward = self.quotient.field_extension(
-                "f_" + self.tag)
-            self.root = self.forward(self.quotient.gen())
+            # A polynomial extension of a NONPRIME finite field in Sage 10.6
+            # is a generic quotient tower, not a native absolute finite field.
+            # An INTEGER degree constructs a native field and an explicit
+            # embedding of this exact original base.  Keep the original
+            # quotient, find its specified polynomial's roots through that
+            # embedding, and invert the complete root-power coordinate map.
+            self.field, base_embedding = self.base.extension(
+                self.relative_degree, name="f_" + self.tag, map=True)
+            assert base_embedding.domain() is self.base
+            assert base_embedding.codomain() is self.field
+            assert native_absolute_degree(self.field) == (
+                base_absolute_degree*self.relative_degree)
+            native_polynomial_ring = PolynomialRing(
+                self.field, "p_" + self.tag)
+            native_polynomial = native_polynomial_ring([
+                base_embedding(c) for c in self.polynomial.list()])
+            roots = native_polynomial.roots(multiplicities=False)
+            assert len(roots) == self.relative_degree
+            roots = sorted(roots, key=lambda z: tuple(
+                finite_field_coordinates(z, self.field)))
+            self.root = roots[0]
+            assert native_polynomial(self.root) == 0
+            basis = [self.root**i for i in range(self.relative_degree)]
+            space, from_space, to_space = self.field.vector_space(
+                base=base_embedding, basis=basis, map=True)
+            assert space.base_ring() is self.base
+            assert space.dimension() == self.relative_degree
+
+            def forward(value):
+                coefficients = self.P(self.quotient(value).lift()).list()
+                answer = self.field.zero()
+                for coefficient in reversed(coefficients):
+                    answer = answer*self.root+base_embedding(coefficient)
+                return answer
+
+            def backward(value):
+                value = self.field(value)
+                coordinates = to_space(value)
+                assert from_space(coordinates) == value
+                return self.quotient(self.P(list(coordinates)))
+
+            self.forward, self.backward = forward, backward
+            # Check BOTH complete coordinate spaces, not just one chosen root.
+            for i in range(self.relative_degree):
+                value = self.quotient.gen()**i
+                assert self.forward(value) == basis[i]
+                assert self.backward(self.forward(value)) == value
+                assert list(to_space(basis[i])) == [
+                    self.base(int(i == j)) for j in range(self.relative_degree)]
+            absolute_degree = base_absolute_degree*self.relative_degree
+            for i in range(absolute_degree):
+                value = self.field.gen()**i
+                assert self.forward(self.backward(value)) == value
+            for i in range(base_absolute_degree):
+                value = self.base.gen()**i
+                assert self.forward(self.quotient(value)) == base_embedding(value)
+                assert self.backward(base_embedding(value)) == self.quotient(value)
             assert self.backward(self.root) == self.quotient.gen()
             assert self.forward(self.backward(self.field.gen())) == self.field.gen()
             # Check the inherited base generator, including the original omega
             # when that base is the prescribed quadratic constant field.
             a = self.base.gen()
             assert self.backward(self.forward(self.quotient(a))) == self.quotient(a)
+            self.native_model_receipt = {
+                "method": "integer-degree native extension and full specified-root power basis",
+                "original_base_absolute_degree": base_absolute_degree,
+                "native_absolute_degree": absolute_degree,
+                "specified_root_count": len(roots),
+                "specified_root_coordinates": finite_field_coordinates(self.root, self.field),
+                "original_base_generator_image_coordinates": finite_field_coordinates(
+                    base_embedding(a), self.field),
+                "original_base_object_and_embedding_retained": True,
+                "both_complete_coordinate_spaces_returned": True,
+                "relative_degree_not_used_as_absolute_degree": True,
+                "original_quotient_not_replaced_by_unidentified_root": True,
+                "norm_target_remains_original_base_field": True,
+            }
         field_absolute_degree = native_absolute_degree(self.field)
         assert self.field.characteristic() == self.base.characteristic()
         assert field_absolute_degree == base_absolute_degree*self.relative_degree
@@ -150,6 +219,7 @@ class ActualFiniteFieldQuotient:
             "specified_polynomial_sha256": polynomial_digest(self.polynomial),
             "specified_base_embedding_preserved": True,
             "quotient_and_native_maps_checked_on_generators": True,
+            "complete_native_model": self.native_model_receipt,
             "official_reference": QUOTIENT_FIELD_REFERENCE,
         }
 

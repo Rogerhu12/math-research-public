@@ -1,0 +1,12 @@
+{
+  "schema": "rank2-original-finite-field-quotient-api/v1",
+  "prime": 29,
+  "original_modulus_ascending": [1, 1, 1],
+  "checks": [
+    "actual-v7-nonprime-polynomial-extension-failure",
+    "linear-prime-quadratic-cubic-and-native-tower-returns",
+    "full-coordinate-and-original-base-operator-returns",
+    "original-thick-preflight-scalar-norm"
+  ],
+  "original_geometry": false
+}

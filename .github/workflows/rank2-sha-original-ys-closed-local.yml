@@ -1,13 +1,7 @@
 name: Rank2 original Y complete closed points and local values
+# Superseded production entry: retain explicit dispatch without duplicating the
+# complete triangular Artinian job on shared helper changes.
 on:
-  push:
-    branches: [main]
-    paths:
-      - '.github/workflows/rank2-sha-original-ys-closed-local.yml'
-      - 'topics/rank2-sha-infinitely-many-p/scripts/produce-original-ys-closed-local-check.py'
-      - 'topics/rank2-sha-infinitely-many-p/scripts/original_ys_closed_point_tools.py'
-      - 'topics/rank2-sha-infinitely-many-p/scripts/original_ys_local_value_tools.py'
-      - 'topics/rank2-sha-infinitely-many-p/scripts/original_affine_fast_operations.py'
   workflow_dispatch:
 permissions:
   contents: read

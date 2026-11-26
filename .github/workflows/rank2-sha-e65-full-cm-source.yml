@@ -10,6 +10,7 @@ name: Rank2 original E65 complete source and six-source consumers
       - "topics/rank2-sha-infinitely-many-p/scripts/original_e65_angular_profile.py"
       - "topics/rank2-sha-infinitely-many-p/scripts/check-original-e65-six-sigma-projection.py"
       - "topics/rank2-sha-infinitely-many-p/scripts/check-original-sixth-on-five-axis-overdetermination.py"
+      - "topics/rank2-sha-infinitely-many-p/scripts/check-original-degree130-cross-cm-projection.py"
   workflow_dispatch:
 permissions:
   contents: read
@@ -36,7 +37,7 @@ jobs:
           root = pathlib.Path(os.environ["RANK2_CHECK_DIR"])
           prefix = "topics/rank2-sha-infinitely-many-p/"
           request = json.loads((root / (prefix + "ci/e65-full-cm-source-request.json")).read_text())
-          assert request["schema"] == "rank2-original-e65-full-cm-sixth-axis/v3"
+          assert request["schema"] == "rank2-original-e65-full-cm-sixth-axis/v4"
           assert request["python_flint_version"] == "0.9.0"
           assert request["workers"] == 4 and request["degree"] == 390
           assert request["complete_CM_norms"] == [7, 19]
@@ -45,6 +46,7 @@ jobs:
           assert request["same_job_complete_six_source_angular_profile"] is True
           assert request["same_job_genuine_six_sigma_projection"] is True
           assert request["same_job_original_h_projection"] is True
+          assert request["same_job_complete_degree130_cross_projection"] is True
           assert request["same_job_sixth_on_five_axis_overdetermination"] is True
           assert request["overdetermination_prime"] == 227
           assert request["overdetermination_precision"] == 5
@@ -58,6 +60,7 @@ jobs:
               "original_e65_angular_profile.py",
               "check-original-e65-six-sigma-projection.py",
               "check-original-sixth-on-five-axis-overdetermination.py",
+              "check-original-degree130-cross-cm-projection.py",
               "r941-original-six-digit-central-reader.py",
               "check-r480-actual-input-cm19.py",
               "check-r466-fixed-two-division-source.py",
@@ -66,7 +69,7 @@ jobs:
               "check-r943-degree178-full-cm-source.py",
               "check-r732-original-type-five-cm13.py",
           ]
-          assert len(sources) == len(set(sources)) == 12
+          assert len(sources) == len(set(sources)) == 13
           for name in sources:
               p = root / (prefix + "scripts/" + name)
               ast.parse(p.read_text(), filename=str(p))
@@ -114,4 +117,13 @@ jobs:
           assert h["status"] in ("PASS_NONZERO_MARGINAL", "EXACT_ZERO_MARGINAL")
           assert h["all_three_66_coordinate_projections_returned"] is True
           assert h["both_whole_frames_integral_orthogonal_and_invertible"] is True
+          cross = report["actual_degree130_cross_projection"]
+          assert cross["status"] in ("PASS_UNIQUE_ARITHMETIC_LINE", "COMPLETE_TARGET_MULTIPLICITY_REQUIRES_MORE_INPUT")
+          assert cross["all_original_columns"] == 66
+          assert cross["all_restricted_columns_including_mass"] == 22
+          assert cross["trace_pullback_is_three_identity"] is True
+          assert cross["both_CM_pull_and_trace_intertwiners_all_rows_returned"] is True
+          assert cross["original_cross_principal_trace_is_nine_halves_H130"] is True
+          assert cross["mixed_cut_removed"] is False
+          assert cross["infinite_prime_nonvanishing_proved"] is False
           PY

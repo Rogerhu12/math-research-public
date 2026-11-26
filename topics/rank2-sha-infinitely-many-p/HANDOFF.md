@@ -6,7 +6,7 @@
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，持续研究；有限验证、条件、接口和中间成果不算完成。**
 
-- 已部分克隆两仓库并实际 pull --rebase；公开根/课题 README 已完整读至 `12385db351ab03292b18db4cfc40e86754aadc89`。每次拉取检查两 README 差异，至少每小时同步一次。
+- 已部分克隆两仓库并实际 pull --rebase；公开根/课题 README 已完整读至 `48f6fd1f4105892777a8339066c74ed7f29f64ae`。每次拉取检查两 README 差异，至少每小时同步一次。
 - 私有 QUEUE 接手状态已推至 `41fe885610073f478b2f5a752461ca56cfd43f09`；私库根 README 读至 `4b91389`。克隆在 `/workspace/scratch/0b097461a16b/math-research-public` 与 `math-research-private`，终端可用；令牌仅进程内认证，不入文件。
 - root 唯一 git/共享 H/open/log/index 写者；geometry 接 v7 实际终点与完整原厚商修正，central 接 R970 degree130 的完整投影和实际交叉项，arithmetic 核通常 Selmer 桥及新的无穷性输入。新编号 R971–972 为中央项、R973 算术、R974 几何；不重复已有结论。
 - 数学执行沿公开 Actions；只存源码、参数、run、hash和结论。H<10KB，单MD<100KB；不强推。接手前完整状态见 [原 H](notes/2026-11-27-handoff-at-takeover-0b097461.md)。

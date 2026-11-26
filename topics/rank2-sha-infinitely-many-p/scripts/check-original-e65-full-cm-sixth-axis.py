@@ -27,6 +27,7 @@ PREFIX = "topics/rank2-sha-infinitely-many-p/"
 START = time.monotonic()
 DEGREE, OFFSET, DIMENSION = 390, 0, 66
 SOURCE_PINS = {
+    "check-original-degree130-cross-cm-projection.py": "35b8c679cad5c33a78ae90340a063ee95259e1678dbaf9eda595ce39a1bb7ccd",
     "check-r480-actual-input-cm19.py": "3d4d9a05872cdde0f24ff756ec79407417afa943eabf6f71f4e48d32f91f9c45",
     "check-r466-fixed-two-division-source.py": "effd6f1526421cfcb9da3bd7769eed258374fa0addf337313d0315cb3ef08245",
     "check-r464-degree102-cm7-exact.py": "b3e11a9da1b28a7623d86acf944262ab23c2d1969b1f0183030a4d1c96b5f1ff",
@@ -47,7 +48,7 @@ SOURCE_FILES = [
     PREFIX + "ci/e65-full-cm-source-request.json",
     ".github/workflows/rank2-sha-e65-full-cm-source.yml",
 ]
-assert len(SOURCE_FILES) == len(set(SOURCE_FILES)) == 14
+assert len(SOURCE_FILES) == len(set(SOURCE_FILES)) == 15
 
 
 def module(name, path):
@@ -290,7 +291,7 @@ def main():
     assert os.environ.get("GITHUB_REPOSITORY") == "Rogerhu12/math-research-public"
     request_path = ROOT / (PREFIX + "ci/e65-full-cm-source-request.json")
     request = json.loads(request_path.read_text())
-    assert request["schema"] == "rank2-original-e65-full-cm-sixth-axis/v3"
+    assert request["schema"] == "rank2-original-e65-full-cm-sixth-axis/v4"
     assert request["degree"] == DEGREE and request["workers"] == args.workers
     assert request["python_flint_version"] == "0.9.0"
     assert request["complete_CM_norms"] == [7,19]
@@ -299,6 +300,7 @@ def main():
     assert request["same_job_complete_six_source_angular_profile"] is True
     assert request["same_job_genuine_six_sigma_projection"] is True
     assert request["same_job_original_h_projection"] is True
+    assert request["same_job_complete_degree130_cross_projection"] is True
     assert request["same_job_sixth_on_five_axis_overdetermination"] is True
     assert request["overdetermination_prime"] == 227
     assert request["overdetermination_precision"] == 5
@@ -309,7 +311,7 @@ def main():
     for name,digest in SOURCE_PINS.items():
         assert hashes[PREFIX+"scripts/"+name] == digest, name
     manifest = {
-        "schema":"rank2-original-e65-source-manifest/v3",
+        "schema":"rank2-original-e65-source-manifest/v4",
         "source_commit":os.environ["GITHUB_SHA"],
         "run_id":int(os.environ["GITHUB_RUN_ID"]),
         "request":request,
@@ -325,21 +327,24 @@ def main():
     jets = sixth_actual_jet(coefficients)
     helper = module("original_e65_six_sigma", HERE / "check-original-e65-six-sigma-projection.py")
     six_sigma = helper.check_original_e65_six_sigma(coefficients, cm_context)
+    cross_helper = module("original_degree130_cross", HERE / "check-original-degree130-cross-cm-projection.py")
+    degree130_cross = cross_helper.check_original_degree130_cross(coefficients, cm_context)
     result = {
-        "schema":"rank2-original-e65-full-cm-sixth-axis-result/v3",
+        "schema":"rank2-original-e65-full-cm-sixth-axis-result/v4",
         "status":"PASS" if jets["actual_B6_nonzero"] else "SOURCE_PASS_SIX_JETS_DEPENDENT",
         "curve":"y^2=x^3+65",
         "full_local_Schwartz":local,
         "actual_source":source,
         "actual_six_jets":jets,
         "actual_six_sigma_projection":six_sigma,
+        "actual_degree130_cross_projection":degree130_cross,
         "source_manifest_sha256":canonical_hash(manifest),
         "elapsed_seconds":time.monotonic()-START,
         "ordinary_infinite_prime_nonvanishing_proved":False,
         "inert_infinite_prime_nonvanishing_proved":False,
         "global_deep_kernel_proved":False,
         "output_files":False,
-        "scope":"Same complete E65/E89 sources, full six-angle and six-sigma gates, original R548 h projection and the fixed-prime sixth-on-five-axis necessary system with all original C24 columns; no central zero assigned to products or mixed cuts."}
+        "scope":"Same complete E65/E89 sources, full six-angle and six-sigma gates, original R548 h projection, the fixed-prime sixth-on-five-axis necessary system with all original C24 columns, and the complete degree130 original cross and genuine six-sigma projection; no central zero assigned to products or mixed cuts."}
     encoded = json.dumps(result,sort_keys=True,separators=(",",":"))
     print(encoded,flush=True)
     if request["require_sixth_jet_independence"]:
