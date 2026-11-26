@@ -157,3 +157,5 @@ A单射、稠密像、拟幂零且非紧；普通非零真闭不变子空间仍�
 **[明确可测平坦同源返回](results/R12-appendix-measurable-flat-common-source-recursion-and-all-negative-graphs.md)已完成：** 正测紧集避全部整数，实际R_nAf_(n−1)=f_n、普通范数统一、全部固定负幂图范数返回；全n,k原权预算保留。累计五次费仍未降至第n逆像的四次费，且没有未知M保持；继续直接限制未知普通M的原算子关系，不以继续优化此全空间例子替代该接口。
 
 **[全部原尾根的重数整除与不变投影距离](results/R12-appendix-tail-root-multiplicity-and-all-invariant-projection-distances.md)已完成：** 有界q次根⇔q|k由逐尾交换子字符和完整Jordan秩证明。任意普通M经真有限头坐标不可能同构onto整个尾，||P_M−Q||=1；非零真P_M距UHF/UHF+K为1/2。直接限制未知M；剩余图必须保实际真尾底空间、非满像或无界逆，不能用该整重数结论排除它们。
+
+**[原形式除法的实际闭关系](results/R271-appendix-actual-formal-division-closed-relation-and-two-range-cores.md)已付：** 原TJ_B有限支撑图闭包的多值部恰Ce0；投去它后有N⊂ker A_min⊂M及I⊂J⊂N⊥。最大伴随域是实际T*像可除域，其闭包为e0⊥。继续分别证明J=I和J=N⊥，不能用一维多值部或单一图核心代稳定缺陷结论。

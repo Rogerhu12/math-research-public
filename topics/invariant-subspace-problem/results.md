@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R271 原形式除法的闭关系及两道范围核心已精确化（2026-11-27，已证明结构）：** [真实列图闭包与显式多值趋近](results/R271-appendix-actual-formal-division-closed-relation-and-two-range-cores.md)证明closure Graph(TJ_B|P)=closure Ran(B,T)，多值部恰Ce0，实际x_j=e_(2^j)/a_j同时付Bx_j→0、Tx_j→e0。投去真空的A_min可闭，A_max=J_BT，N⊂ker A_min⊂M；其伴随最大G=F/z域D={y:T*y∈RanB*}的闭包为e0⊥。I⊂J⊂N⊥的两道等号分别未付，单一图核心不冒充N=M。
+
 - **R12 全部原尾的有界根重数及未知不变投影的准确距离（2026-11-27，已证明）：** [逐尾完整交换子、字符及Jordan整除](results/R12-appendix-tail-root-multiplicity-and-all-invariant-projection-distances.md)证明(I_k⊗B_m)有有界q次根当且仅当q|k，根完全任意。原A的每个普通不变M都不能由秩0<k<2^m的有限头坐标同构到整个k重尾，故||P_M−Q||=1；非零真P_M到UHF、UHF+紧算子的距离均为1/2，本质距离同一。不假D保持；未知真尾底空间的闭图仍开。
 
 - **R12 明确可测平坦同源递推在全部固定负幂图范数中返回（2026-11-27，已证明）：** [正测紧集、真实算子及完整原权预算](results/R12-appendix-measurable-flat-common-source-recursion-and-all-negative-graphs.md)构造避开全部整数的E、μ(E)≥15/32，以f_n=U^{S_n}1_E和明确R_n给R_nAf_(n−1)=f_n、统一||R_n||=α0⁻¹及固定非零球；所有固定k有A⁻ᵏf_n=U^{S_n}A⁻ᵏf0最终成立。保全n,k预算，累计log成本O(n⁵log¹²n)与实际第n逆像O(n⁴log¹²n)仍有差额；未知M保持未付，下一直接研究其原算子关系。

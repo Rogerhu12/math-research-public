@@ -5,7 +5,7 @@
 ## 目标、规则与执行
 
 - **普通复可分无限维 Hilbert ISP 未完成。** 仅全体有界算子的存在定理或完整反例算完成。
-- **最近实际 pull / 已读规则提交：** `ac528e756d9e8f601f9a2c2a8623e2f77c212d94`（2026-11-26 21:09:45 UTC；本地部分克隆）；本次两 README diff 无变化。每次 pull 且至少每小时检查并更新本项。
+- **最近实际 pull / 已读规则提交：** `4ef1ba8be7485cfdd4bec05b234fbf110abad9d7`（2026-11-26 21:17:13 UTC；本地部分克隆）；本次两 README diff 无变化。每次 pull 且至少每小时检查并更新本项。
 - 私库 QUEUE 接手已推 `5746fa79a74af4975476d400dfbe0c4e5cb9ae9d`；私库根规则2026-11-26 20:28 UTC已pull至 `63459bc1a74526162372866a9ae39bb51006ba78`，diff无变、QUEUE保持本会话。每结论单推，非快进即 pull --rebase 再推；不 force，令牌仅 CLI。
 - 本轮本地终端可用。前会话执行身份及全部原交接保[接手快照](notes/2026-11-27-handoff-at-takeover-8542.md)；本轮快照链见[最新完整归档](notes/2026-11-27-handoff-before-measurable-source-8542.md)。失败不改标成功，已登记不重做。
 - 仅保源、参数、SHA、小回执；MD<100KB、H<10KB、open尽量<30KB、topic<200MB，不写根LOG。已读本轮 log；notes 按交接路径与结果索引定点续读。
@@ -28,9 +28,7 @@
 - S0已闭Af0/L非零、h1/k1、整个h=k；Lt0的g2零面、theta余式双零、M首项零、u2/ell1/a0和ellhalf/ahalf均闭，全部谱与原真逆见结果索引。原U导数w0整支也闭：17次覆盖全返、末28维E1/EB单位，0.148623秒。仅续Af非零、三值互异Lt0一般图，可用theta=−r0/r1、(4λ−1)A、ell−1、ell−1/2及w单位。
 - 旧scratch双点均值误写的374/580投影/PRS全部作废，已推正确源不受影响；[纠错](notes/2026-11-27-r150-Lt0-invalid-mean-projection-correction-8542.md)。新低次7变量run45890460154/job140151553412实际1200.426秒/exit1，**modstd小smoke先内存/tasks错误并重启，未通过**，非有效原单位计算。准确[回执](notes/2026-11-27-unit211-S0-Lt0-low-invariant-actual-execution-8542.json)保留，不重跑。
 - [原P/N与三参数Cramer系统](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-original-Cramer-minor-system.md)已证明：同eta降幂、114分母、全部改写原组合及20个原行子式回乘；QQ[invUnit,v,k,e]，build3.519411秒未判空。新安全门6cb8a264用独立45秒std小证书通过后才启动1200秒slimgb；已付4e−k/v，build3.245212秒无排空。专用original-minors-safe-8542 workflow已接。
-- 整个k=4e⇔Q=4(u−1)²已闭：原三子式的90/95次完整结式有QQ[e] Bézout=e^10(e+1)^40，3.421194秒/exit0；仅剥已付单位，保全部v首项零。一般Lt0现可付4e−k。
-- 整个Lt0原t=0⇔v=0已闭：65次投影gcd给12次全覆盖，四个原域返k−2、k²、k−4e+4、1，3.793203秒/exit0；一般图可付v。
-- 整条Omega=2e²−ek+2=0已闭：原曲线清分母与224/266/254次完整结式，QQ[e] Bézout只含已付e、e±1、e²+1及e²−2e−1，3.710581秒/exit0；可付Omega，运行中门源不改。
+- Lt0原k=4e、t=v=0及Omega=2e²−ek+2=0整支皆已完整原返回排空；可付4e−k、v、Omega，全部源/回执见结果索引，运行中QQ源不改。
 - 一般LS非零的两线性Cramer四参数atlas已实际生成，原Δ0全部保留；仍未判空。旧mod1031内存和600秒失败不重跑。
 
 ### rankH3原ess6
@@ -49,6 +47,7 @@ M=kerT、N=closureBM；N=M未证。保同w/u、全部partial、真intersection�
 - 远位硬化、同mode重最小化/Riordan整塔均保原u/partial、趋P_Mf，仍未知P_Mf∈closureBM。全行Bessel保p≠q；无锚f−a_full的Γ²≤27μ1不能移给有锚源/第二Green。
 - R=d的同w全矩、e^(−47d⁴)carry、真帽cut及一次MP已付。固定次数及同源k_m→∞、k_m≤m/12的顺次MP保完整−Cq_r/终列反馈，修正、误差、残量平方可和；付费常数保最新快照/结果索引。相容真空塔负相关范围L=o(x^(2/3))，同源Gram/短真核距离δ_L保留；Chebyshev模型x=ceil exp(9d⁴)仍超exp(O(d³))母窗。
 - [实际全M占满前缀新指数界](results/R271-appendix-full-tensor-exponential-bound-and-improved-occupied-prefix-decay.md)已证||Q_nf||≤[exp(−γ_ex n+4(logn+1)²)+exp(−47n⁴)]||f||，γ_ex=log2+asinh1+2(1−1/√2)/5>5/3；两N/Y模型、固定最高k剩余类同率。精确变分Γ_occ≈1.723637；远低于真实α_q^-1=exp(Θ16^q)，未付除法/稳定范围。
+- 原G0=TJ_B的图闭包=closure Ran(B,T)，多值部恰Ce0，真实e_(2^j)/a_j给趋近。投去真空后A_min可闭，A_max=J_BT，N⊂ker A_min⊂M；最大G0*域={y:T*y∈RanB*}、闭包e0⊥。I⊂J=closure RanG0*⊂N⊥；须分别付J=I与J=N⊥，单一图核心不够。
 - **实际终端k=h−1的增长费仍未付。** 慢增近核不作kerT或closureBM；下一保原同w的C^pP_xw=(−D)^pw_p+真实carry及特殊真空primitive塔，继续终端完整费用/精确残量清除、带锚第二Green。不得删(I−P_K)Gv、原u修正项或换成boson列。
 
 ## 其余开放
