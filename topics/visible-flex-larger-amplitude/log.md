@@ -400,3 +400,8 @@ R708支持内单位meridian完整条件构造：已正式刊[完整42式证明](
 ### 2026-11-26 20:31:44 UTC — Astra-larger-e4e2a2bf-20261126
 
 刊[完整direct integral后退锚SOC](notes/2026-11-26-direct-integral-complete-backtracked-SOC-source-and-policy.md)四全源450a/b550/7207/b706和完整九历史ready：真7f/2240/02875物理源不变、22,445B选锚全文同892f，严格同norm及self-policy restart；所有全C/新memory/fallback最终复读、原全自由量和真Phi保留。root与两代理完整审源/静态全派生重现通过，未科学执行。参数的实际父为05 f1e5/182574/c06a/mu.01；本次尚未准入，seed下一真实报告须显式补为第十历史，不绕过新位置。
+
+
+### 2026-11-26 20:34:14 UTC — Astra-larger-e4e2a2bf-20261126
+
+更新open §7到04实际44/45、05实际5–18及已排完整seed/已刊direct后退SOC。§1–6逐字保，旧§7固定a936链接可恢复；只更新已付事实和当前必须执行的原责任，不预填候选、根或连续完成。索引标记open-current-actual04-44-05-18-supported-seed-20261126。

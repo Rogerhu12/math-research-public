@@ -99,28 +99,24 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 课题上次104清理后168796207B；未知旧JSON未全分类，不声称已完成所有存储责任。HANDOFF<10000B，各Markdown<100KB；此open通过同目录逐字检查点保全旧内容。源码、完整证明和实际结论按授权直接发表，不新增fixture、审批或六/九jet机器门。
 
-## 7. 现有闭面主线与2026-11-26续作
+## 7. 当前完整闭面主线与实际续作
 
-§1–6逐字保留。旧§7全部结论/参数/失败/历史链保[757a固定open](https://github.com/Rogerhu12/math-research-public/blob/757a35afa3b84179f47fc189e0b27a30a571b2ff/topics/visible-flex-larger-amplitude/open.md)。不重做已登记结论；当前真实run与规则读取见[HANDOFF](HANDOFF.md)。原全部自由量/正权行/同g/真Phi/C/J/J*及永久地址保持。R248准确相位处理物理全t，不另增门。
+§1–6逐字保留。此前§7及全部旧失败、来源和准确历史链保[固定open a936](https://github.com/Rogerhu12/math-research-public/blob/a93699427718235cb07d70c8f0971e5981dbfbe1/topics/visible-flex-larger-amplitude/open.md)；其已登记结论不重做。当前规则读取、真实run和最后点见[HANDOFF](HANDOFF.md)。原全变量/全Gram/同g/真Phi/C/J/J*、永久地点和阈值均保。R248的准确相位恒等式处理物理全t，不另增独立插值门。
 
-1. 旧deep/Haar与[实际72–74](notes/2026-11-26-actual-fixed-deep-next-two256-and-attribution.md)、准确误差链保固定历史；自身first只付其列明界，不迁证、不把开放片当闭面、未执行不编返值。
+1. **规范化参考分支04。** [实际44/45](notes/2026-11-26-run04-actual44-45-first-backtracked-SOC-accepted.md)第一次真接受完整后退锚SOC：892f同父51c8到9c9f，report08e30b，Phi .005665054、max .0351360911、有限g负。锚1/64与真fallback1/128；所有2063/2012永久点重新读。QP64的Pg仍大于原容差，不能称驻点。保持真实mu .01、c4b2母范数与完整cache来源，下一完整1×64及pure已排，须按其真实返回接续。旧02/03终止和未启动步骤保固定历史，不从job success推科学完成。
 
-2. [02父46–48](notes/2026-11-26-actual-parent-interior-restoration-entry.md)与[49真实终界](notes/2026-11-26-actual-run02-cached-SO3-49-and-terminal-boundary.md)：f66c/d2d0有限g负、max .03662269652；02终止，50未跑、alpha/Pg未知。[04完整接续](notes/2026-11-26-run02-budget-and-complete-run04-continuation.md)45857104277自身再生父后进[规范化后退SOC](notes/2026-11-26-normalized-parent-cached-backtracked-soc.md)，不继承f66。全行、唯一锚、同Phi及最终全永久点复筛保，新结果须真实返回。
+2. **05真实输入与原历史。** [同数学目标记录](notes/2026-11-26-run05-actual-input-identities-and-same-mathematical-target.md)/[R706](results/R706-regenerated-input-same-exact-metric-definition.md)说明再生的reference/profile/carrier字节确变，但同warm、准确标量定义及固定图给同g；工作载体/误差盒不冒相等。[实际7](notes/2026-11-26-run05-actual7-full-history-and-initial-word-fingerprints.md)真正读出cd530初字、原core/H及omega正零。全部必要3/17/21/26/30路线已在本runner重建；这些路线标签不等于05的实际序号。完整地址并集必须由实际报告读取，计数相等不替集合等号。
 
-3. 原direct [17/18](notes/2026-11-26-actual-SO3-prior-separation-SOC-17-18.md)、[24尺度归因](notes/2026-11-26-actual-SO3-SOC-correction-scale-24.md)全部原真实行/拒绝地点保；0SOC不是误报成功。[积分26/27](notes/2026-11-26-actual-integral-SO3-first-direction-26-27.md)真655d/cfe87、max .5063653/Phi197.58458、alpha1/16；[实际30/33](notes/2026-11-26-actual-direct-integral-second-direction-30-33.md)真fd3f/7212、max .501279055/Phi189.95031194、alpha1/32、1843/1771点真有限g负。仍同606/9d4/6ffc/c06a全空间，QP64未驻；后者1/2至1/16拒绝的实际family/位置尚未公开，不能猜reach/cell0。新runner先完整再生必要报告，再从实际报告纯读拒绝归因后决定后继，不盲增64。
+3. **direct integral完整方向。** [实际6](notes/2026-11-26-run05-actual6-complete-integral-first-return.md)真到c8cb/max .506365333；[实际8–11](notes/2026-11-26-run05-actual8-11-integral-direction-full-trial-families-and-history.md)真到f1e5/report182574，Phi189.962702、max .501278495、alpha1/32、mu .01、有限g负。较大四条下降ray只有reach拒绝，实际胞295/291/252/237；最近拒ray1/16还须其完整直径partner，不能沿用旧cell0解释。全六报告地址1851/1851/protected39，combined667b8189，QP64未驻。已刊[完整direct后退SOC四源](notes/2026-11-26-direct-integral-complete-backtracked-SOC-source-and-policy.md)450a/b550/7207/b706，保真7f/2240/02875/c06a；本方向自己选最近拒锚，候选/fallback最终全memory真复读。先排新seed；其真实报告出现后须明确补为第十历史，随后准入这个完整方向，不能用旧九份ready漏掉新增地址。
 
-4. 原18字05dc、[19/20首根失败](notes/2026-11-26-actual-fixed-moment-Q-initial-failure-19-20.md)、[23支撑必要式通过](notes/2026-11-26-actual-03b-supported-chord-pass.md)和[轴端两形状同族](notes/2026-11-26-zero-endpoint-axis-planar-control-equivalence.md)已登记；必要PASS不证有限根可达。[实际28及31/32](notes/2026-11-26-actual-continuation-failure-and-reader-repair-31-32.md)：同原方程延拓止lambda约.8343，最终原C未读；29真实KeyError已由ef017确认，pure-v2成功读真实失败。无成功场/Phi/implicit，不能由null推折叠、秩亏或不存在。
+4. **准确角恒等式与18字Q的边界。** [R696](results/R696-angular-unit-tangents-and-exact-closed-sections.md)及[05实际5](notes/2026-11-26-run05-actual5-R696-complete-reconstruction-return.md)保完整1,334,847变量；末75b285/max .515122897，接受根据完整控制流判定，未假称纯reader直接读过accepted字。18字Q及旧19/28/34/36失败、R697/R702/R705保固定历史，不重做。必要条件/null不推出可达/秩亏/不存在。
 
-5. [R696完整构造](results/R696-angular-unit-tangents-and-exact-closed-sections.md)与[实际21/22/25](notes/2026-11-26-actual-R696-angular-unit-direction-21-22-25.md)真4aa387/399ae8，全空间QP32未驻、alpha1/8192。准确角恒等式不免原完整Gram/端口/几何/幅度责任。[实际Jstar字](notes/2026-11-26-actual-Jstar-height-same-target-new-initial-point.md)的H-only方案已选字并真正执行：[34/35](notes/2026-11-26-actual-Jstar-height-root-failure-34-35.md)只改末H后初根失败，pure成功，仍无场。未把工作字冒准确积分或根存在证明。
+5. **实际gamma-H和normal失败已付归因。** [05实际12–14](notes/2026-11-26-run05-actual12-14-gamma-height-failure-and-saved-KKT-matrices.md)采用单H字efe12015，完整KKT延拓止约.9641，没有初场。129保存矩阵均数值A秩3、K秩9、降维L正，最坏K条件约2.75e9；未推出原根或准确SOSC。[实际15/16](notes/2026-11-26-run05-actual15-16-fixed-normal-common-partition-failure.md)原H的共同m32法向链完成26、27失败；[实际17/18](notes/2026-11-26-run05-actual17-18-fixed-normal-height-initial-failure.md)只改H后完成29、30失败，非H完全同字。两者均无完整初场/Phi/metric方向，不能将多完成三阶段写成度量改善。所有失败完整报告仍作为原历史输入。
 
-6. [新增gamma完整源](notes/2026-11-26-added-gamma-complete-KKT-operator.md)b712保原六控制/九KKT/27角jet与四阶混合导数；[实际36](notes/2026-11-26-actual-gamma-KKT-initial-failure-and-03b-exit-36.md)同原H止lambda .86109–.861156，最终KKT未到，末奇异值未读。03b已自然退出，37纯读未起，job success不是科学完成。独立[gamma+显式H完整入口](notes/2026-11-26-added-gamma-KKT-explicit-height-entry.md)8f375/da411/c3fdd已刊排05：先绑定原初点/Q再只改末H，原完整循环与全部约束/真筛不动，尚未返回。
+6. **新固定支撑单位seed直接进入完整外层。** [R703](results/R703-normal-endpoint-lifting-and-fixed-partition-jets.md)/[R707](results/R707-fixed-normal-chain-root-jet-error-propagation.md)已给共同有限法向链和全部误差传播，实际余量尚未付。[R708](results/R708-supported-unit-meridian-seed-contraction.md)/[R709](results/R709-global-convex-mean-closure-without-contraction.md)给准确支撑单位seed；R709用全局凸均值闭合去掉q<1限制，完整角二jet与全局根残差界已登记。九份全源和[完整实施/参数](notes/2026-11-26-fixed-supported-unit-reference-normal-SO3-entry.md)已刊并排05；固定原core/H只定义参考T*，全部当前core/omega/H继续自由，原准确g和全尾不变。首参数b=S/16、epsilon1/10、共同m32；新seed均值J不迁证normal Cu。九份实际历史已存在，直接完整运行，不加fixture前门。真实初场/方向未返回不能预写成功；若失败，按实际原因换输入或机制继续。
 
-7. [05完整必要历史](notes/2026-11-26-live-run03b-height-gamma-and-run05-history.md)45870334713必须用本runner真实reference及3/17/21/26/30完整报告。对精确旧28/34/36，[完整空地址证明](notes/2026-11-26-initial-root-failure-reports-have-no-physical-location-payload.md)核4d9全部识别结构和首残差失败保存闭包，证明其贡献为空，未用计数相等替集合；故可不为造空文件重复失败求根，原失败/来源完整保。新reference/profile字节变化不证明数学g改变，也不解除原所有地址责任。完整永久点hash须实际纯读，不由同命令或旧SHA生成。
+7. **下一份候选的准确费用。** [R700完整积分范数六jet控制](results/R700-integral-so3-full-sixjet-control.md)限固定有限M、正rho及完整参考导数，不给M一致常数或现成余量。新seed尚须准确积分、归一化、trig、均值根/角jet/normal链和工作算术误差；原scalar盒不冒付新费用。[完整QR接口](notes/2026-11-26-complete-so3-integral-qr-coordinate-interface.md)只对真实234ac/7f布局且未运行，原Cholesky已成功；不额外把它设成运行门。R704的eta尾边界已登记，本轮仍保原目标。
 
-8. [法向端点选枝](notes/2026-11-26-normal-endpoint-lifting-without-stationary-control-selection.md)在同六控制可达族给另一分支选择：完整法向ODE及共同固定有限τ分段，准确交叉Jacobian、收缩条件、全上游A/角二jet/外部J/J*链已证，完整实现继续。τ不是物理相位，初点满秩不证全程可达；不把实际KKT失败预判为驻点奇异。[η尾分析](notes/2026-11-26-eta-tail-input-scope-and-same-target-height-direction.md)说明η0回到原线性尾唯一性判据，固定η>0仍非L1；当前不为指数小的直接端点改动更换主目标。若以后真正换输入，全部几何/精化与仍有准确地址意义的旧点仍须支付。
+候选仍须支付§4–6全部标准：同g闭C²嵌入/全t强C²族、固定H及整像20%幅度、含反射非全等、全t reach≥.03D、整面metric≤1e−6、固定问题实际mesh/频率精化到原容差、多t网格及严格存在缺口。有限筛/局部根/中间报告不完成。输入不足换方向，完成后提高比例。
 
-[积分范数六jet条件界](notes/2026-11-26-integral-SO3-norm-full-sixjet-control.md)只在固定有限M/正rho/真参考导数下成立，不给M一致界或当前余量；[完整QR接口](notes/2026-11-26-complete-so3-integral-qr-coordinate-interface.md)仅真实234ac/7f布局且未运行，原Cholesky已成功，不能冒兼容zero/R696/gamma或另设前门。
-
-真正候选后仍须完整支付本文件首段及§4–6全部标准：同g闭C²/强C²族、20%握持与整像位移、含反射非全等、全t reach、整面metric及固定问题实际精化至原容差、多t可复现网格和严格存在缺口。全胞/corecap/积分/隐式误差未付不冒连续；输入不足换机制继续，未完成不停，完成后提高比例。
-
-完整源码/参数/紧凑结论公开，raw仅runner/scratch；普通移出须保再生和固定恢复。每结论推、NFF立即rebase，每真实pull核双README且至少每小时。终端不可用时云API快进如实单列，不伪称pull；Actions真实pull记录保留。容量用最新实际树，旧§6数不沿用。
+全部完整小源/参数/结论公开，raw只runner/scratch；实际已返队列可完整归档，未返对象不得删除冒完成。raw普通移出保完整再生输入及固定恢复commit。每结论普通推，NFF立即pull--rebase循环；每次真实pull检查双README差异、至少每小时，读过commit记H。终端与云API途径如实区分，最新实际树管理容量。

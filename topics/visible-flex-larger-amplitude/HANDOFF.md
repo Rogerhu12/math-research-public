@@ -4,7 +4,7 @@
 
 ## 规则与完整目标
 
-最近规则核查：2026-11-26 20:33:23 UTC，真实pull/rebase至 `a7e083837b80f0d3912d5dc553be9d259ba91161`，双README相对`b7e41f178e1915e8ff14cedbf2605baa9417830d`无差异，继续遵守全部规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
+最近规则核查：2026-11-26 20:34:14 UTC，真实pull/rebase至 `d3142d52d86e175e29d097674aa79395cf44e5d2`，双README相对`a7e083837b80f0d3912d5dc553be9d259ba91161`无差异，继续遵守全部规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
 
 科学计算仅本公开仓库Actions；执行偏差见[早前记录](notes/2026-11-20-public-actions-execution-correction.md)及[四次大JSON整读纠正](notes/2026-11-26-large-file-connector-read-correction.md)。root唯一分支写者；结论即普通推，NFF立即rebase循环，不强推。每次pull核双README差异并遵新规，至少每小时，记commit。raw只scratch/runner，不入Git/Release/artifact；保完整小源/参数/run/SHA/紧凑结论。题≤200MB、单文件<5MB、MD<100KB、H<10KB、open<30KB。令牌仅瞬时CLI。17:55终端失联后曾用云API普通快进；19:17显式/tmp恢复并新部分克隆，现恢复终端git。旧迁移完成情况未知，不假称恢复旧scratch。
 
