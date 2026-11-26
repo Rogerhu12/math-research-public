@@ -194,3 +194,5 @@
 - [R568 真正双端偶germs与同χ第二/第三返回](results/R568-even-end-germs-and-real-second-third-return.md)：**已证明**末开区间改为真实恒高度加速度控制，原四末控rank与最低阶费用保留，并在修改后的全词重解R567八矩；A=0、零速度、偶控制下完整反射唯一性给双端所有scalar奇jets零。真实PP^R同χ准确闭scalar、全m/A/T，未重置第三入值；pose与整个第四2V_P仍待支付，不授有限等距族。
 
 - [R569 固定振荡尾的规范非零全平无穷小等距场](results/R569-fixed-oscillatory-tail-and-flat-infinitesimal-bending.md)：**已证明**同一R566有限公式w，不换度量；角频2转正权方程，单谷Dirichlet逆有与权比无关的常数49/2，精确DtN对角占优和规范反向递推构造非零真实解。全阶衰减exp(−c/δ³)，连续通量/全部jets拼接并延伸到整个尾，完整向量场三项线性度量准确零且固定开平帽。非线性有限弯曲、外端接核和主宏观门仍待，不以X+tV替代等距族。
+
+- [R566新模型的几何硬约束与径向交换任务](notes/2026-11-26-hard-geometry-exchange-implementation.md)：**新算法/输入已发布，科学结果待实际运行**。两个fresh核心实例，先均匀几何slack恢复，再在硬门内降spectral metric epigraph；每callback完整fine扫描，仅σ未覆盖峰触发PhaseI交换，全角orbit minima等价保原全部行。实际模型、源码SHA和参数完整绑定，不继承v2失败q，不授连续reach或固定g收敛。
