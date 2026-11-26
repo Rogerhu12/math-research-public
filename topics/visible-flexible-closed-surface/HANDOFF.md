@@ -39,4 +39,4 @@
 <!-- 6a65-ci-rules --> run 45778054176/1；实际 pull #183 至 `42d711248fdfcc164c1fa7c87770ab529ae24ca5`；2026-11-26T13:10:41+00:00；双 README 无差异，沿用根已读规则；回执原因 pre-process:Cauchy-original-then-Cartesian1-current-field。
 <!-- 6a65-m12-ci-rules --> README unchanged at e74a6d1b37742414d1215bb37440b7c2fe56851c; run 45804794238 attempt 1.
 <!-- 6a65-m12-entire-half-ci-rules --> README unchanged at 9c70e31ffbfaa6188e2bf17a241e9adc94c919e7; run 45815969723 attempt 1.
-<!-- 6a65-cartesian-cold-ci-rules --> run 45825253169/1；实际pull至 `be767ea7790673d925b25cef9b69e740aa9646ac`；2026-11-26T13:02:46.085450+00:00；双README无差异。
+<!-- 6a65-cartesian-cold-ci-rules --> run 45825253169/1；实际pull至 `889ec53f9daff7267daed589b1180c960a989d80`；2026-11-26T13:13:29.802537+00:00；双README无差异。
