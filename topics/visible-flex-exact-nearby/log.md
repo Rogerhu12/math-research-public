@@ -347,3 +347,6 @@ NS五件共129172B，owner71056B SHA18db439d5895e4232882940a57b7bd9457982383e1ac
 
 
 2026-11-26 22:59:04 UTC / visible-exact-astra-fb31ed6-20261127：登记NR完整proof/saved checker，39个已存有理比较全过。直接strong L2能量由原SP完整weak矩阵D4相似支配，不反解primitive；strict强reverse/forward<175.581230/5.992268。root未知fulltail用真实log频率导≤4/3的任意lag卷积，旧lag768不冒未知支持；六root窗全付，R=.005强/弱6.532358/10.936492，两mean/源/impulse/真cut及非1腰density保。root到腰强1192.763571、弱2038.695371，仅given-Cauchy，未授闭边界/full逆。未改冻结数学文件，0旧科学。TP已推89d764de8，公开两README差异空。
+
+
+2026-11-26 23:00:58 UTC / visible-exact-astra-fb31ed6-20261127：SB首实际入口七件登记。新科学只原7721完整row与40parts上[0,.18]的radial positive-variation积分，完整原SP nonradial product及NP R/H0/H1/M0/M1/NC直接消费，11目标包括waist/interior weak及真正raw L2 error。NR D4 strong证明先已推859d308dc；641支撑因子严格只用于原Qc degree160 residual，full selected operator/source差依原L2界，未冒288或未知tail为160。manifest33389B/d63609effec49c4f5095a6650cbc337007a88c6d352928314b3eb377458e79f1，20当前/40整历史rowparts；AST/metadata生成已过，无本地科学或旧NP重算。首次actual待workflow，非phase/height已闭。两README无diff。

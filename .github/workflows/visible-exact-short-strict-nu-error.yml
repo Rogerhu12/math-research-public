@@ -1,0 +1,49 @@
+name: R147 short strict nu full error receiver
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/visible-exact-short-strict-nu-error.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: visible-flex-exact-short-strict-nu-error-20261127
+  cancel-in-progress: false
+jobs:
+  complete-new-short-radial-cost:
+    if: github.repository == 'Rogerhu12/math-research-public' && github.run_attempt == 1
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    env:
+      OMP_NUM_THREADS: '1'
+      OPENBLAS_NUM_THREADS: '1'
+      MKL_NUM_THREADS: '1'
+      NUMEXPR_NUM_THREADS: '1'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-exact-nearby/README.md
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_negative_nu_waist_public_worker.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_short_strict_nu_error_public_worker.py
+            /topics/visible-flex-exact-nearby/notes/2026-11-27-short-strict-nu-error-inputs.json
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12.14'
+      - name: Install the same directed scalar runtime
+        run: python -m pip install --disable-pip-version-check python-flint==0.9.0
+      - name: Receive the full parameter error through the genuine short interval
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: >-
+          python topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_short_strict_nu_error_public_worker.py
+          --repo "$GITHUB_WORKSPACE"
+          --manifest topics/visible-flex-exact-nearby/notes/2026-11-27-short-strict-nu-error-inputs.json
+          --manifest-sha d63609effec49c4f5095a6650cbc337007a88c6d352928314b3eb377458e79f1
