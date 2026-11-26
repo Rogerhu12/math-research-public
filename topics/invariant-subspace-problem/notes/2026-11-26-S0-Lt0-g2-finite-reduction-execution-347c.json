@@ -1,0 +1,223 @@
+{
+  "schema": "r150-unit211-S0-Lt0-theta-leading-zero-exact-finite-parameter-reduction-v1",
+  "run": 45831444045,
+  "job": 139948951703,
+  "conclusion": "failure",
+  "sourceExitCode": 2,
+  "meaning": "All exact parameter computations completed. Five low parameter factors excluded by original paid units; the entire irreducible degree-36 factor remains with a unique exact z(lambda), so no critical-point exclusion claimed.",
+  "parameterProjection": {
+    "claimExcluded": false,
+    "elapsedSeconds": 0.029197,
+    "factors": [
+      {
+        "coefficientsLowFirst": [
+          "-13/18",
+          "1"
+        ],
+        "degree": 1,
+        "multiplicity": 1
+      },
+      {
+        "coefficientsLowFirst": [
+          "-3/2",
+          "1"
+        ],
+        "degree": 1,
+        "multiplicity": 1
+      },
+      {
+        "coefficientsLowFirst": [
+          "-1/2",
+          "1"
+        ],
+        "degree": 1,
+        "multiplicity": 1
+      },
+      {
+        "coefficientsLowFirst": [
+          "1/2",
+          "-5/4",
+          "1"
+        ],
+        "degree": 2,
+        "multiplicity": 1
+      },
+      {
+        "coefficientsLowFirst": [
+          "-1/2",
+          "0",
+          "1"
+        ],
+        "degree": 2,
+        "multiplicity": 1
+      },
+      {
+        "coefficientsLowFirst": [
+          "-1525542159952553/1039382085632",
+          "143876967668186011/4677219385344",
+          "-157986819636292811/519691042816",
+          "978502695286453771/519691042816",
+          "-6971349183334027873/850403524608",
+          "499918739614202846503/18708877541376",
+          "-159340620867602320907/2338609692672",
+          "664321208010814840061/4677219385344",
+          "-25185739319895152665/97442070528",
+          "531725135553593605615/1169304846336",
+          "-124351620643549585273/146163105792",
+          "27344293210562418389/16240345088",
+          "-314565834938661491767/97442070528",
+          "1624393877641251768275/292326211584",
+          "-201190507735450057465/24360517632",
+          "759779166441467431867/73081552896",
+          "-398474776586008460005/36540776448",
+          "169643691597755034895/18270388224",
+          "-2511889366793185717/415236096",
+          "11309637170964210323/4567597056",
+          "212751941744120861/1141899264",
+          "-269260067763448297/190316544",
+          "283055977926399379/190316544",
+          "-3353974629899285/3244032",
+          "79250363364970115/142737408",
+          "-5898698019098441/23789568",
+          "98621428868713/991232",
+          "-694911419513321/17842176",
+          "7558200541003/495616",
+          "-24992744594915/4460544",
+          "1311057632021/743424",
+          "-494607489137/1115136",
+          "1310594559/15488",
+          "-538589969/46464",
+          "18283765/17424",
+          "-14111/264",
+          "1"
+        ],
+        "degree": 36,
+        "multiplicity": 1
+      }
+    ],
+    "resultantLambdaDegree": 144,
+    "sourceSha256": "621fab03a9961c890fb40603f779747204c255f0fccae15d1d967555cf56cf4c",
+    "squarefreeLambdaDegree": 43,
+    "squarefreeSha256": "8fef4a40470085b7d649a306553fa9f134d1fde2538fa72b11d86d5ed17f88ed",
+    "stage": "complete_QQ_theta_leading_zero_parameter_projection"
+  },
+  "lowFiberReports": [
+    {
+      "excluded": true,
+      "history": [
+        {
+          "degree": 1,
+          "removedOriginalUnit": "paid_small_J"
+        }
+      ],
+      "inverseIdentities": 19,
+      "lambdaDegree": 1,
+      "lambdaFactor": "x + (-13/18)",
+      "remainingZDegree": 0,
+      "wholeFiberPaidUnitZero": null
+    },
+    {
+      "excluded": true,
+      "history": [
+        {
+          "degree": 1,
+          "removedOriginalUnit": "z"
+        },
+        {
+          "degree": 1,
+          "removedOriginalUnit": "z"
+        }
+      ],
+      "inverseIdentities": 14,
+      "lambdaDegree": 1,
+      "lambdaFactor": "x + (-3/2)",
+      "remainingZDegree": 0,
+      "wholeFiberPaidUnitZero": null
+    },
+    {
+      "excluded": true,
+      "history": [
+        {
+          "degree": 1,
+          "removedOriginalUnit": "Delta"
+        }
+      ],
+      "inverseIdentities": 15,
+      "lambdaDegree": 1,
+      "lambdaFactor": "x + (-1/2)",
+      "remainingZDegree": 0,
+      "wholeFiberPaidUnitZero": null
+    },
+    {
+      "excluded": true,
+      "history": [
+        {
+          "degree": 1,
+          "removedOriginalUnit": "z"
+        },
+        {
+          "degree": 1,
+          "removedOriginalUnit": "z"
+        }
+      ],
+      "inverseIdentities": 14,
+      "lambdaDegree": 2,
+      "lambdaFactor": "x^2 + (-5/4)*x + 1/2",
+      "remainingZDegree": 0,
+      "wholeFiberPaidUnitZero": null
+    },
+    {
+      "excluded": true,
+      "history": [
+        {
+          "degree": 1,
+          "removedOriginalUnit": "Delta"
+        }
+      ],
+      "inverseIdentities": 15,
+      "lambdaDegree": 2,
+      "lambdaFactor": "x^2 + (-1/2)",
+      "remainingZDegree": 0,
+      "wholeFiberPaidUnitZero": null
+    }
+  ],
+  "remainingOriginalFiber": {
+    "excluded": false,
+    "history": [],
+    "inverseIdentities": 49,
+    "lambdaDegree": 36,
+    "lambdaFactor": "x^36 + (-14111/264)*x^35 + 18283765/17424*x^34 + (-538589969/46464)*x^33 + 1310594559/15488*x^32 + (-494607489137/1115136)*x^31 + 1311057632021/743424*x^30 + (-24992744594915/4460544)*x^29 + 7558200541003/495616*x^28 + (-694911419513321/17842176)*x^27 + 98621428868713/991232*x^26 + (-5898698019098441/23789568)*x^25 + 79250363364970115/142737408*x^24 + (-3353974629899285/3244032)*x^23 + 283055977926399379/190316544*x^22 + (-269260067763448297/190316544)*x^21 + 212751941744120861/1141899264*x^20 + 11309637170964210323/4567597056*x^19 + (-2511889366793185717/415236096)*x^18 + 169643691597755034895/18270388224*x^17 + (-398474776586008460005/36540776448)*x^16 + 759779166441467431867/73081552896*x^15 + (-201190507735450057465/24360517632)*x^14 + 1624393877641251768275/292326211584*x^13 + (-314565834938661491767/97442070528)*x^12 + 27344293210562418389/16240345088*x^11 + (-124351620643549585273/146163105792)*x^10 + 531725135553593605615/1169304846336*x^9 + (-25185739319895152665/97442070528)*x^8 + 664321208010814840061/4677219385344*x^7 + (-159340620867602320907/2338609692672)*x^6 + 499918739614202846503/18708877541376*x^5 + (-6971349183334027873/850403524608)*x^4 + 978502695286453771/519691042816*x^3 + (-157986819636292811/519691042816)*x^2 + 143876967668186011/4677219385344*x + (-1525542159952553/1039382085632)",
+    "remainingZDegree": 1,
+    "wholeFiberPaidUnitZero": null,
+    "linearZConstantLowFirstSha256": "47f80408d54450abf03c354260adb2a68ef30467aa8b5313fee91f776c1993db",
+    "linearZConstantEntries": 36
+  },
+  "driverReceipt": {
+    "elapsed_seconds": 43.73547036400001,
+    "max_child_rss_kib": 55188,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "f3eb4bac533921bfcaa11becb44d7e9e68cccc3e",
+        "before": "f3eb4bac533921bfcaa11becb44d7e9e68cccc3e",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "fef43bdf8690f2eec4751d85784a266eacdd0322"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-26T13:40:50.705433+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "45831444045",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-347c-20261126",
+    "source_commit": "f3eb4bac533921bfcaa11becb44d7e9e68cccc3e",
+    "source_exit_code": 2,
+    "source_git_blob": "325607315e93be8280909bd28dbd0db084bebe08",
+    "source_sha256": "621fab03a9961c890fb40603f779747204c255f0fccae15d1d967555cf56cf4c",
+    "stdout_bytes": 57933,
+    "stdout_sha256": "ebe67dba625292a269fd6f9e50bd74daf30b8fee4b8316468955adcdc758efcd",
+    "stop_reason": null
+  }
+}

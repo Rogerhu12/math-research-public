@@ -147,3 +147,5 @@ A单射、稠密像、拟幂零且非紧；普通非零真闭不变子空间仍�
 **[全部正远孔的移动整行与同源费用已付](results/R271-appendix-all-positive-far-hole-moving-coherent-rows-and-matched-source-cost.md)：** ω²=S(x+p−1)/(pSx)同时控制所有p≠q交叉，几何起点的Bessel常数仍Bλ；J≤2x仅27J平方逆权。原全部cut、Q/R/J门与同w/u保留，最优Γ²是真有限头全幂Gram的MP型。实际f−a_full给Γ²≤27μ1及正物理列合成界，但该源锚趋0；不能将此费移给有锚f、a−PkerC f、第二Green或真F0。继续同一有锚来源的实际最优费用与稳定范围端点。
 
 **[R=d同W全能量及原截断源全矩已付](results/R271-appendix-geometric-cutoffs-same-w-complete-energy-and-d-sized-once-mp.md)：** H_C(8Sx)≤Hω保全高度。任意w∈M的P_xw经原行迭代与e^(−47d⁴)全carry误差有全矩可和；R=d,x=m+d,h=2d,Q=2d³及真帽cut数d³−5d合法。旧K*一次全MP适用，真实残量仍−Cq1；同forcing、有锚第二Green及稳定核返回继续。
+
+**S0/Lt0大因子的g2=0面继续：** 原QQ参数归约实际43.666386秒/exit2，λ结式144次、squarefree43次；五低谱由原单位排，唯一不可约36次谱的共同原z式一次，49真逆。新全72维原九式返回保全部36共轭和d²=Δ两分配，不假设二次塔不可约；尚未声明该面排空，J0/原P1双零等旧闭面不重算。
