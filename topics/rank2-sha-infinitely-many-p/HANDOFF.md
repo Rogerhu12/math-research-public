@@ -6,7 +6,7 @@
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。固定有限曲线族的联合无穷非零可用无限鸽巢；有限p、随p换曲线、条件桥、非零投影或接口均不完成。
 
-- 两仓库已部分克隆。公开根/课题 README 已读至 `859d308dc73e14bb85b193b472942a009306bace`（差异空）；每次pull只读两文件新差异，至少每小时同步并记SHA。
+- 两仓库已部分克隆。公开根/课题 README 已读至 `859997f23a6dcd8774c529300964bc6076b8ad11`（差异空）；每次pull只读两文件新差异，至少每小时同步并记SHA。
 - 私库QUEUE接手已推41fe885610073f478b2f5a752461ca56cfd43f09；本次22:49 UTC pull至92b9fa94b75627acf634cd097e34e78360c9e2de，README差异空、QUEUE仍本会话进行中。目录math-research-public、math-research-private；令牌仅进程认证。
 - root独占git/H/open/log/index；每条结论完成即推，非快进立即pull --rebase、检查README再推至成功，不强推。数学只用公开Actions；不存可重算矩阵/数据/log。H<10KB，每MD<100KB。
 - [此次逐字归档](notes/2026-11-27-handoff-before-strict-highest-projector.md)及历史链保全部旧状态；[open](open.md)、[results](results.md)、[R951–1000索引](notes/PROOF-INDEX-R951-R1000.md)保全部未解门，未默删。
@@ -51,9 +51,11 @@ R984：原R854三canonical在几何Griff²(W)非零独立；H³(1)/(2)、Picard 
 
 R988/R990：level12 K3到E0²的严格Chow双逆仍成立，但该新CM17图族在2处实际Artin元给Chow反号，取迹到原H整族为零；全Mackey也排全部平移。不作用旧canonical/原端点。已转E27，原族不重试。[实际I9/I3对应](notes/2026-11-27-congruence-i9-i3-surface-and-correspondence-scope.md)已付F²=[−3]、F*Ω=−δΩ及所有有限Aut商非K3。
 
-**R991**：E0/E27/E4三次幂CM严格Chow同构保三η。E27在2处好约化，π27/χ27全部有限位Hom非零；E4把2障碍移到3。3处实际simple-supercuspidal型与全Mackey、2/17处全toric向量及原9级均已付，非球向量必须带实际34同源。Γ的原曲面为B:v³=t(1−27t)、y²+xy+ty=x³，I9/I3、pg=q=1、T=Indψ27²；不套K3。混合因子准确β27=ψ27η，level31212/global root+1；原最高λ不变且L′(λ,2)非零已付。R994三个固定L(1)严格正已付，R995最高投影已付；新图最高AJ非零继续。
+**R991/R994**：E27实际level9/三扭曲全finite/3wild/2和17完整toric向量已付，原9级与34同源不改；I9/I3的T=Indψ27²。最高λ=ψ0³η⁻¹仍原角色，三个实际混合β27=ψ27η的level31212/root+1及完整L(1)>0已付，新Rankin解析阶1。不是K3，继续新图的指定最高AJ非零。
 
 **R995**：KMP balanced对应商及generic纤维CH0严格给[n]=n于t2；实际f=P F*P满足f²=−3、f†=−f，g=[δ]*亦同。P_high=(1+f⊗g/3)/2是严格自伴Chow投影，保(3,0)/(0,3)，可下降Q；单正线与原η保K/系数域。实际CM图的fiber-product完整三分支/内外P次序、finite trace与H³(2) AJ图均已付。投影存在不付其AJ非零，继续实际互反率。
+
+**R998**：对这三个新β，Kato14.2(2)/CM§15.23加完整全局/局部Shapiro给Hf¹(K,β(1))=Hf¹(K,βc(1))=0，每p离散Selmer有限且几乎全p零。选e_E+后实际混合线barψ²ψη⁻¹(2)=βc(1)，故原f类的全AJ等于最高AJ；P+转置P−仍保，不造全类非零。
 
 Kato/BKO完整桥及Adachi/新预印本范围已在notes，不重查登记的文献。其余O4/O6/O7、P134/十九角/charge40/10980/WD/TM/TJ门详open与历史索引，全部保留。
 

@@ -108,3 +108,6 @@
 
 
 - [R994](../results/R994-original-beta27-three-rigorous-central-values.md)：原三个β27,j=ψ27ηj的完整CM理想系数、原g0/有限角色和level31212/root+1给中央Mellin单和；M4096/Arb256以完整尾界6.00236e−62<2^-180严格认证三个值均正。run45907264125/job140206875649真实成功，1236完整理想/三份精确共轭全返。结合原R818，R991新Rankin在s2阶数均准确1；不由复解析秩或R995投影存在推出跨p最高AJ非零。
+
+
+- [R998](../results/R998-new-beta27-full-mixed-selmer-vanishing.md)：消费R994三个新β27完整中央复值非零，Kato14.2(2)及CM§15.23、所有局部条件的Shapiro给两CM单线β(1)/βc(1)的完整BK Hf均零；每p离散群有限且几乎全p零。原e_E+ Rankin另一线准确barψ²ψη⁻¹(2)=βc(1)，所以原f类的全AJ等于R995最高投影AJ。保P+转置P−与真正finite条件，不从复解析秩/混合消失创造最高非零。
