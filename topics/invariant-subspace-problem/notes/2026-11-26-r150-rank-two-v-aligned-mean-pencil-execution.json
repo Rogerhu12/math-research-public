@@ -1,0 +1,51 @@
+{
+  "format": "isp-local-exact-verification-v1",
+  "date": "2026-11-26",
+  "source": "2026-11-26-r150-rank-two-v-aligned-mean-pencil-verify.py",
+  "sourceSHA256": "d4f7eb77f0cb49adfe1c1fdbc87f47eab90fddae9b74f0e6659050282273b160",
+  "arguments": [],
+  "exitCode": 0,
+  "pythonVersion": "3.12.14",
+  "pythonFlintVersion": "0.9.0",
+  "toolChunks": [
+    "35d25c",
+    "ba0dad"
+  ],
+  "rawStdoutFileRetained": false,
+  "provenance": "Scalar record copied from actual exec_command/write_stdin output in this session; no raw stdout hash is asserted.",
+  "record": {
+    "alignedRankTwoBranchClassified": true,
+    "allOriginalGradientsAtLambdaZeroVerified": true,
+    "allOriginalVTermsRetained": true,
+    "allRankTwoVClaim": false,
+    "completeQ3ChainRuleVerified": true,
+    "elapsedSeconds": 61.711515938004595,
+    "finiteFullGradientSHA256": "f561095944b41decba12ffa344b62091da72dbbc144e1e1b4f0f149c170c12af",
+    "finiteLinearMeanSHA256": "0c6c9198fe60401009d789b937e7860bcb7893755b9432798b2719828a4252c2",
+    "finiteMeanGate": {
+      "QQGcdDegree": 0,
+      "degrees": [
+        512,
+        512
+      ],
+      "detMod1009": 802,
+      "dimension": 1024,
+      "polynomialSHA256": "ca5aa96415634e67c9a8e35ee1b462dae9a5d4597d3a75eb51579840aa127c51"
+    },
+    "infinityFullGradientSHA256": "aba46d7fd6f1613b6ae927679856e8165957e6d621e14d2d2390c249d85bab83",
+    "infinityLinearMeanSHA256": "8e0956cdd6e938268fcdbc781dd200a5e864da518255f22759f0afa812709204",
+    "infinityMeanGate": {
+      "QQGcdDegree": 0,
+      "degrees": [
+        16,
+        16
+      ],
+      "detMod1009": 78,
+      "dimension": 32,
+      "polynomialSHA256": "f80be4673700fd1d1806cb5888af27d3dd6182c5caf628a0331df5e4983ba5b6"
+    },
+    "ordinaryISPClaim": false,
+    "sourceSHA256": "d4f7eb77f0cb49adfe1c1fdbc87f47eab90fddae9b74f0e6659050282273b160",
+    "stage": "complete"
+  }
+}

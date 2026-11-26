@@ -5,7 +5,7 @@
 ## 主目标、规则与执行
 
 - **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍仅全体有界算子的存在定理或完整反例；子结果不作完成。
-- **最近实际 pull / 已读规则提交：** `f92b4da0c474e61c59b0e3d9636cbbe6ac073874`（2026-11-26 06:30:47 UTC）。本次两README无新规则差异；已读根/课题README、H/open、结果索引及定点log/notes。每次pull及至少每小时比diff，记录SHA。
+- **最近实际 pull / 已读规则提交：** `921ff340b6f10e5d31ea1c9904d49850a8bf388e`（2026-11-26 06:31:29 UTC）。本次两README无新规则差异；已读根/课题README、H/open、结果索引及定点log/notes。每次pull及至少每小时比diff，记录SHA。
 - 私库 `QUEUE.md` 已成功更新认领，提交 `e776df496eedfa449b0475cefe140fdae7023db4`；非快进已逐次pull --rebase后重推成功。研究在公开仓库，私库仅维护QUEUE；不force，令牌仅CLI环境。
 - 断线后重建部分克隆 `/tmp/isp-347c05929dd3/math-research-public`。旧TMP丢失源已恢复；新字节另记执行。root独占git/主索引，子代理独占TMP；每结论单推，只留源/参数/身份/SHA，无数组。
 - 完整交接链见[压缩前H](notes/2026-11-26-handoff-before-weighted-residual-347c.md)及其归档链接。MD<100KB、H<10KB、open尽量<30KB、topic<200MB；不写根LOG。
@@ -22,7 +22,8 @@
 - **[unit3+1孤立零点整个分支已空](results/R150-appendix-essential-four-unit-three-plus-one-isolated-zero-rank-four-branch-is-empty.md)：** 全边界及一般图QQ395/1142结式、四纤维已闭。rankH4孤立零点只余unit2+1+1和unit1⁴；全部rankH5、V≠0 inner与ess5/6仍开。
 - **[unit2+1+1全部零基配对已空](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-one-zero-base-pairing-exclusion.md)：** p=q0与恰一条零配对全闭，原五次极线/germ/QQ两面含全部边界；剩余规范p=1且q≠0，不擅自同时规范q。
 - **[unit2+1+1相等非零配对且b+c0已空](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-equal-base-pairings-zero-total-weight-exclusion.md)：** 原mean及最高二阶germ限制A∈{0,2,−6,∞}；四QQ结式gcd全落入禁止零配对，三∞门−32/−1944/−5000。原源0.506024秒。q1的b+c≠0及其它pq≠0继续。
-- **[非零rankV1完整临界层已分类](results/R150-appendix-rank-one-third-cumulant-complete-critical-classification.md)：** 必且仅y=a u(s)、H=(a³+4c)u(s)u(s)ᵀ/(6a)、V=c u(s)³，a c≠0，全部T3=0。四两根族、D8商代数和全部射影/重根分拆已闭；恢复新源所有QQ门准确重现，身份与旧源分开。结合旧V0与ess≤3结论，潜在非零Bell仅rankV≥2且ess4/5/6；低秩V不代y/H共支撑。
+- **[非零rankV1完整临界层已分类](results/R150-appendix-rank-one-third-cumulant-complete-critical-classification.md)：** 恰y=a u(s)、H=(a³+4c)u(s)u(s)ᵀ/(6a)、V=c u(s)³，ac≠0，完整T3=0。除子分拆/射影/重根与所有QQ门均闭，新旧源执行分记；潜在非零Bell仅rankV≥2且ess4/5/6。
+- **[rankV2对齐内均值全层已闭](results/R150-appendix-rank-two-third-cumulant-aligned-mean-pencil-is-zero-third-tensor.md)：** V=c u³+d v³、y=a u+b v、abcd≠0且cb³=da³时，原完整临界必且仅c=a³/2、d=b³/2、H=(a²u²+b²v²)/2，T3=0；不预设H支撑。QQ512/512与16/16全门802/78，原33梯度全保。polar gcd≤1的全部内均值亦闭；gcd≥2吸收及外均值/二jet继续。
 - 原纯三次判据已修为Q=B³−27A²D（完整QQ结式非零），旧正号不再作证；全部来源见结果索引。
 - 原4212来源枚举/系数高度、全局Bell自然幂及完整算子桥仍开。图册须每图真实幂来源并N=1+Σ(Ni−1)粘合；几何覆盖、V0子层证书不代全局原来源/实际费用。
 

@@ -40,3 +40,6 @@ AI-assisted GPT-6 Astra Pro：[原同F完整残余运输](results/R271-appendix-
 
 ## 2026-11-26 06:30:25 UTC — Astra-ISP-347c-20261126：相等非零配对的零总权重整支排除
 AI-assisted GPT-6 Astra Pro：[完整原物理二阶germ](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-equal-base-pairings-zero-total-weight-exclusion.md)将双点限到0/2/−6/∞，全QQ结式只余禁止零配对，∞门亦非零。原源0.506024秒、exit0，含完整参数/源码SHA/输出身份；继续q1的非零总权重。
+
+## 2026-11-26 06:31:23 UTC — Astra-ISP-347c-20261126：秩二对齐内均值层完整分类
+AI-assisted GPT-6 Astra Pro：[不预设H支撑的原低梯度排除](results/R150-appendix-rank-two-third-cumulant-aligned-mean-pencil-is-zero-third-tensor.md)用QQ512/512全1024门802及∞全32门78关闭非零λ，全部V贡献/33梯度保真；61.711516秒。gcd≤1全内均值亦闭，继续gcd≥2吸收、二jet及外均值。

@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R150 两点第三累积量与均值立方系数一致时完整临界层只有零第三矩族（2026-11-26，已证明）：** [原完整H解、低梯度与所有射影门](results/R150-appendix-rank-two-third-cumulant-aligned-mean-pencil-is-zero-third-tensor.md)不预设H支撑，排除全部非零λ；两个QQ512次结式全1024阶门802、∞32阶门78，61.711516秒完整成功。保全V²和四参数链式法则；并由最高整除给polar gcd≤1的整个内均值层。旧两原子族本身不重作新发现。
+
 - **R150 单位2+1+1相等非零基点配对与零总单点权重支路为空（2026-11-26，已证明）：** [原二阶最高germ及完整射影消元](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-equal-base-pairings-zero-total-weight-exclusion.md)从p=q≠0、b+c0推出四个物理双点位置，并以QQ22/24/5/9次结式gcd及三非零∞门排尽。自足原源0.506024秒成功，未存可重算数组；q1其它权重和一般非零配对继续。
 
 - **R271 原实际方差窗的完整物理加权残余差（2026-11-26，已证明）：** [同F、原未加权最小者及完整环境伴随费用](results/R271-appendix-actual-window-weighted-full-galerkin-residual-transfer.md)在x+1≤d⁴/64、原J窗及s≥S_x给残余/最小者/完整能量列的Γ差≤e^(−7d⁴/4)‖f‖。最高carry零头另付m−1基头和Q′≥R+r的母窗；同F0差≤e^(−7d⁴/64)，绝对参考源仍开。
