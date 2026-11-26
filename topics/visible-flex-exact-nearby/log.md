@@ -209,3 +209,6 @@ NS五件共129172B，owner71056B SHA18db439d5895e4232882940a57b7bd9457982383e1ac
 
 
 2026-11-26 19:37:04 UTC / visible-exact-astra-fb31ed6-20261127：JF证明真target正交行联合误差与完整signed矩阵门，保true receiver/BH/KW、两means、不同权重及全部列误差；近似RW行不当正交。pure算法只接全224原表/96完整列，不构造假actual。mounted TC run45884668422/1已实际启动。
+
+
+2026-11-26 19:40:28 UTC / visible-exact-astra-fb31ed6-20261127：真实mounted consumed已公开（bc7de515d），原cubic/14分片SHA及owner preflight全部通过；三个新TC目标开始，未把输入恢复当数学完成。已读原记录，H/open及原恢复说明同步；本地规则复核至d613747ee4edcc7dd3562316c1a5ca74d7d20fcb，两README无diff。

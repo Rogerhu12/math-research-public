@@ -70,3 +70,23 @@ shell 没有承继该条配置。workflow 和 generator 现在在 checkout 后�
 `original-runtime-mounted` manifest 只重新 pin 已修正 generator 与
 对应具体入口，保留失败时的原 manifest/workflow。挂载修正第一次
 必要恢复仍须通过全部原 SHA 门后才允许调用数学 owner。
+
+
+## 原输入已经实际恢复，未成数学目标开始执行
+
+[run45884668422/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45884668422)
+于 2026-11-26 19:36:17.175680 UTC 发布了
+[完整输入 consumed 记录](true_root_trial_residual_ci/consumed-original-runtime-mounted-20261127.json)，
+其状态为 `all_original_inputs_admitted_for_one_complete_new_finite_trial_target`。
+该原记录 SHA256 为 `dd849dbf667002dbb4d069a679499f34dcaa6ad86216f22cdcd0184e281203a5`。
+
+worker 的执行顺序先恢复并核完整原 cubic 和全部14原分片、完成 owner
+preflight，再允许写此记录。故原 nodal answer 在原不可变容器中、取消
+仅重物化进程的 CORETYPE 覆盖后，已实际通过原全部输入身份；明确挂载
+路径的 Git ownership 修正也成功。前两次输入失败和容器启动失败仍
+保留原状，不接纳曾失败的不同 cubic。
+
+记录注册的三个尚未完成目标依次是完整 signed finite matrices/waist96、
+negative sources96、positive sources96。准入记录本身不是这三个目标
+的完成结果；须继续读取此次运行真实保存的完整输出。没有重做原 QR、
+原有限行或原完整残差目标。

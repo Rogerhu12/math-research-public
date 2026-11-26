@@ -1,11 +1,11 @@
 # 交接：可见振幅的精确闭等距族
 
-维护会话：visible-exact-astra-fb31ed6-20261127；更新：2026-11-26 19:37:04 UTC。
+维护会话：visible-exact-astra-fb31ed6-20261127；更新：2026-11-26 19:40:28 UTC。
 **总任务未完成，持续研究，不等用户回复。**
 
 ## 已读规则、授权与接续
 
-2026-11-27（台北）已 partial+sparse clone 两仓库并 pull main，读根全部规矩、课题README、H/open、当前log及接续notes。公开根/topic规则已读至7fb30c97023036299b988bb649316fcc0133e272（相对12385db35无diff）；私库根规则已核至3977a3bfc9，QUEUE接手已推594e561b05a758bd8c02840ca4fbf574cd707436。每次pull核两README差异、至少每小时一次，非FF立即rebase再推。令牌只CLI。当前本地 /workspace/scratch/fb31ed637c77/math-research-public，无AGENTS。
+2026-11-27（台北）已 partial+sparse clone 两仓库并 pull main，读根全部规矩、课题README、H/open、当前log及接续notes。公开根/topic规则已读至d613747ee4edcc7dd3562316c1a5ca74d7d20fcb（相对12385db35无diff）；私库根规则已核至3977a3bfc9，QUEUE接手已推594e561b05a758bd8c02840ca4fbf574cd707436。每次pull核两README差异、至少每小时一次，非FF立即rebase再推。令牌只CLI。当前本地 /workspace/scratch/fb31ed637c77/math-research-public，无AGENTS。
 科学计算用公开Actions；本地可做证明、静态与metadata。根规12取消额外防错审批/独立全件复核流程；新完整证明直接登记，每结论推送。规15保持topic≤200MB、H<10KB，禁止新增可重建大数组。前会话完整H/open以27c422943同路径为准，递归原件与全部范围、失败和未付义务仍在历史，以下不重做旧成功。
 
 ## 同一对象与最终标准
@@ -21,7 +21,7 @@ geometry43584188751/26仅在同η0全core含帽物理C0≤1e−4、|δν|≤1e�
 2. **完整positive58→224→32→PN56/CXN6。** [physical入口](notes/2026-11-26-physical-scalar-execution.md)、[PN证明](results/R149-supplement-complete-positive-inverse-to-true-negative-and-incoming.md)、[56入口](results/R149-supplement-actual-positive-negative-receiver-execution.md)、[CXN6入口](results/R149-supplement-actual-common-high-negative-receiver-execution.md)已推；前驱未齐无实际manifest。NS/strict/R149 v2完整来源分别核，旧false/失败保。成功square才消全部L²_r正侧head/cokernel，保raw root96与负侧/mean/ν。14ports各自身输入；source4同因P/T用三角，physical c*=0不等于aux Ec*e=0；Ni/output9一次，joint左BH KW，WPL BH/√2。
 3. **[R144固定η0实际结果](results/R144-supplement-actual-fixed-eta0-forward-mean-and-terminal-mismatch.md)：已完整失败，勿续跑。** 45778507038/1已完成7296格/6143接口，positive_mean_everywhere=true，但同φ C0预算及outer_mean_unchanged均false。row7147有实际下界>1.00195589e−4，末端均值偏移约−7.66584024e−3；排除此forward中心的几何接法，不推原问题不存在。继续下项compact mean中心。
 4. **[SR紧支撑mean的实际锐界](results/R144-supplement-sharp-compact-root-from-completed-forward-mean.md)。** 用FM真实D_R/H_R与原CP/TM/LC全保存球证明同一个根−8e−13<ξ*<−7e−13（未换根）。新完整mean球b=2e−7，selfmap<1.923e−7/L<.014241；同φ/pair A0距raw<3.847e−7、距同η0 selected Qδ*<3.865e−7。五源单调缩界：χ′ordinary<3.903e−12、完整第二ordinary<7.461e−8、第二H−1<1.324e−6、anisotropic pair<1.030e−5，全部6143joins保旧界。只用四份完整结果的有理推理，不重积分。TM45791979634和LC45797426031旧成功保；真实GC/nonmean/height仍待，ν0与ν0+δ*的完整metric源另付。[MJ实际mean逆](results/R144-supplement-compact-terminal-mean-Jacobian-and-two-endpoint-inverse.md)给ordinary .605、jump1.518、shape .087、terminal1.058；terminal控制腰导数∈(.002415,.002469)，两端mean≤2.067E+1.067|b0|，ξ′≤415(|b0|+E)。保kerℓ真slice和full nonmean反馈，tinyξ不缩ξ′。
-5. **TC必要输入恢复继续。** 原45806282910/1在不存在的Z历史地址终止，science0；[原nodal恢复](notes/2026-11-27-true-root-trial-input-restoration.md)保原Hermite/完整cubic及14分片SHA，40旧row取Git原bytes。45881752490/1恢复137当前/40row后cubic SHA不符、science0；固定原成功Docker且撤重物化CORETYPE，45883126797/1却在首git命令遭挂载dubious ownership、尚未恢复输入。[修正说明](notes/2026-11-27-TC-original-runtime-restoration.md)仅给明确workspace设safe.directory；新mounted manifest SHA8d3c87db9e5fec5b3aee68056b249fb75f5303eebd9cb7d7018401f73113fb66，run45884668422/1运行中。TC数学owner/proposal不变，三目标584球待实际，[JF联合误差](results/R149-supplement-joint-signed-finite-matrix-error.md)已证真实target Bessel门；actual仍须全P224/TC/RW，非fullSchur。
+5. **TC必要输入恢复继续。** 原45806282910/1在不存在的Z历史地址终止，science0；[原nodal恢复](notes/2026-11-27-true-root-trial-input-restoration.md)保原Hermite/完整cubic及14分片SHA，40旧row取Git原bytes。45881752490/1恢复137当前/40row后cubic SHA不符、science0；固定原成功Docker且撤重物化CORETYPE，45883126797/1却在首git命令遭挂载dubious ownership、尚未恢复输入。[修正说明](notes/2026-11-27-TC-original-runtime-restoration.md)仅给明确workspace设safe.directory；run45884668422/1已于19:36:17UTC通过原cubic和14分片全部SHA/owner preflight并发布consumed，三新目标运行中。TC数学owner/proposal不变，三目标584球待实际，[JF联合误差](results/R149-supplement-joint-signed-finite-matrix-error.md)已证真实target Bessel门；actual仍须全P224/TC/RW，非fullSchur。
 6. **[CG完整graph高块](results/R149-supplement-positive-feedback-in-the-complete-graph-high-block.md)**已双核：W^-1 A Ptilde先准确相邻约消，common反馈费2^199 Cadd ΛJ^-1/3；真port09联合96列只左B^-1，reference差与Θ high全留。J=2^4608的新门等待actual6/56，未给finite/mean/ν/all-s；WDH原selected homogeneous χ<2^-44/逆<2独立保。
 
 ## 已锁定的实际结果与排除
