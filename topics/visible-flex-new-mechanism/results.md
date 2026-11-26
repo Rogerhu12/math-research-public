@@ -286,3 +286,5 @@
 - [完整候选分批角峰续接](notes/2026-11-26-theta-full-candidate-batches-implementation.md)：新双lane明确续接，512只作批大小，全保每个已观察区间；完整actual/pending/trust及B038未合格身份保留。时钟部分态存q/全观察格/已完成峰/剩余区间及实际成本，不能当接受；原物理/FFT/AD/接受门和未命中的径向/峰库cap不变。
 
 - [R587 冻结度量的均值高度消元](results/R587-fixed-metric-mean-height-elimination-at-flat-cap-and-core.md)：**已证明**条件性标量根及准确二jets导数、快速全平帽端的实际局部IFT和核心稳定ζ变量。完整E_*固定、真实中段导数/核心C1为前提；未授非零角模逆、现候选收敛或reach。
+
+- [R576首轮有限高度原终态](notes/2026-11-26-r576-finite-height-first-natural-final.md)：**完整原观察**。run45795351410，77.036899911秒，新光滑H*共振及52列Jac已进入；ε1e−5末细η5.32656e−6、direct约5.3264e−6，仍未达门。下一复用小态和末q修正非缩放不变裁步，实际κ约9.5629只作有限观察，未授宏观/固定g/连续reach。
