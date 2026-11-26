@@ -509,3 +509,7 @@ R1061 §15：亲读 McCarthy 含退化项的 Th4.2，目标角色恰被常见 Th
 ### 2026-11-27 07:09 Asia/Taipei — R1066 原每盘的有界 CM 代表
 
 R1066 给全 $p>37$ 原最小正则模型每个 $\mathbf Q_p$ 模 $p$ 圆盘的实际 CM 代表，完整 CM 判别式 $D'\le4p^{3/2}/\sqrt3$ 且 p 惰性。保持实际 Frobenius 的 Gram determinant 4p 二元格，加指定 index-p 斜率得短向量；mod p² GM 和 arithmetic descent给原 good lift。source Dickson/Reynolds/精确 Kummer invariance支付除p后的完整modp精度，j0及j1728所有coarse twist支路保留；canonical Nns结构与数域Q(j)实际p-adic embedding齐备。故原规范局部标签像准确由有限有界高次数CM评价产生，未据此声称Q-CM或全局同标签。H/open在压缩前逐字归档；原未解的global twist/2、3/class-group/辅助共同像继续。无数学执行。
+
+### 2026-11-27 07:24 Asia/Taipei — Astra-serre-24b8836b-20261126
+- R1063§11：原实际T5与Q交换且杀唯一核，故在完整Q零主分量幂零；固定X108四维non-CM块T5²=9，排全部保持该Hecke作用的线性子商桥。
+- 原Hecke/PD归一及Harrison§4原页已核；Raynaud双线性来源不受此排除。继续原Green/adjugate指定行列式，无数学执行，主目标OPEN。

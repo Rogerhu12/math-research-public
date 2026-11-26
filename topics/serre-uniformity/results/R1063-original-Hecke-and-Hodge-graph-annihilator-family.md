@@ -817,3 +817,72 @@ $$
 本节由 o2_high_coefficient 推导，root 独核原 $Q$ 商与次数、
 完整三 CM 留数、递推末边界、adjugate 定标和最低行列式符号。
 无数学程序执行。
+
+
+## 11. 固定 $X_0(108)$ 四维块与原零主分量的 Hecke 障碍
+
+令 $k$ 为本篇实际剩余域，$W=\mathscr L_k^{\rm new}$，
+$Q=\overline{\mathcal Q}$，并令 $W_0=\ker Q^h$，其中 $h$ 充分大；
+这是原 $Q$ 的完整零主分量。这里的 $T_5$ 始终是§9.1
+原 canonical 全组件上的标准 weight-two Hecke 对应，经同一
+$\mathbf Q_p$ 同构和实际好 BT/PD 比较运输所得的作用。
+不插入高权 Igusa 的度数或微分因子。
+
+由 (1063.28)–(1063.31)，有
+$$
+[T_5,Q]=0,\qquad \ker Q=kc_0\subset X_k,\qquad T_5c_0=0.
+\tag{1063.51}
+$$
+最后一个等式不依赖核范数：$T_5$ 换 $X_k,Y_k$，
+故 $T_5\ker Q\subset\ker Q\cap Y_k=0$。
+因此 $T_5$ 在 $W_0$ 上幂零。确实，可在 $\bar k$ 中作本征分解；
+若 $T_5$ 的某个非零本征值的广义块 $Z\subset W_0$ 非零，
+则 $Z$ 被 $Q$ 保持。$Q|Z$ 幂零，故 $\ker(Q|Z)\ne0$；
+这给 $\ker Q$ 中一个 $T_5$ 可逆子空间，与 (1063.51) 矛盾。
+所以
+$$
+(T_5|W_0)^{\dim W_0}=0.
+\tag{1063.52}
+$$
+此结论也适用于 $W_0$ 的任意 $T_5$ 稳定子商。
+
+另一方面，R1060 固定 $X_0(108)$ 上 $\tau_3=1$ 的四维 non-CM 格
+记为 $V_{108}$。Harrison §4 的实际 oldform 基为
+$$
+f_{54}^{(1)},\quad f_{54}^{(1)}|\delta_2,\quad
+f_{54}^{(2)},\quad f_{54}^{(2)}|\delta_2,
+\qquad (f|\delta_2)(\tau)=2f(2\tau).
+$$
+两 primitive forms 的 $a_5$ 分别为 $+3,-3$。
+因 $5\nmid108$，标准 $T_5$ 与 $\delta_2$ 交换，故
+$$
+T_5^2|V_{108}=9\,\mathrm{id}.
+\tag{1063.53}
+$$
+这是 characteristic-zero Hecke 身份，并在 $\tau_3=1$
+的整饱和格上成立；$3$ 为单位，$\tau_3$ 的整投影给同一个四维约化空间。
+因此 $p\ge41$ 时，$T_5$ 在该空间及任何稳定子商上均可逆。
+这一点无须先调用 R1060 的 Cartier ordinary 性结论。
+
+若 $E_0$ 是 $W_0$ 的任一 $T_5$ 稳定子商，
+$F_0$ 是 $V_{108,k}$ 的任一 $T_5$ 稳定子商，则
+$$
+\operatorname{Hom}_{k[T_5]}(E_0,F_0)
+=\operatorname{Hom}_{k[T_5]}(F_0,E_0)=0.
+\tag{1063.54}
+$$
+一侧 $T_5$ 幂零，另一侧由 (1063.53) 可逆，任一 intertwiner 必为零。
+
+因此，固定四维 ordinary Cartier 块不能通过保持这些实际 $T_5$
+作用的线性子商识别，控制原 $Q$ 的零主分量或其奇 Jordan 链厚度。
+本节只排除上述 Hecke 相容线性桥，未排除尚未构造的非线性或改变
+Hecke 作用的对应。R1059/R1061 已付的 Raynaud $\beta$ 是双线性原来源，
+其输出 $zw\Omega$ 位于固定曲线的六维 CM Cartier 核；
+不能把它改称上述已被排除的线性识别。
+
+原始来源：[M. Harrison, *A new automorphism of $X_0(108)$*,
+arXiv:1108.5595v3](https://arxiv.org/pdf/1108.5595)，§4，printed pp.8–11：
+p.9 两个 $f_{54}$ 的 $q^5$ 系数，p.10 Definition 4.2 的
+$e_1,\ldots,e_4$，以及 p.11 的 $\tau_3$ 作用。
+o2_high_coefficient 推导，root 重读原 Hecke/PD 身份及上述 primary，
+独核整个零主分量而非仅 $\ker Q$ 上的幂零证明；无数学程序执行。

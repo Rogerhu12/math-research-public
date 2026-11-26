@@ -6,7 +6,7 @@
 
 ## 原最低型：已经付清的输入与准确剩余标量
 
-[R1063](results/R1063-original-Hecke-and-Hodge-graph-annihilator-family.md)：原完整 $v$ 的整奇次 $Q$/Hecke 族全消去 MW；轨道各向同性，不能满新部。§9由本原 $U:Y\to X$、满射 $U^\dagger$ 构造实际整 $V_\lambda=US_\lambda$ 因子及全部 split-Hecke 交换子解格的合法行，不除 bare 核范数。真整辛商为 $\Psi(x,y)=(U^\dagger x,y)$；最低读数是同一两列行列式，Lagrangian 满度及 jet 不落轨道仍开。 §10在原r2 bare失败分支给真实adjugate行、唯一Q前像递推及四配对；最低为完整两列行列式，非零仍开。
+[R1063](results/R1063-original-Hecke-and-Hodge-graph-annihilator-family.md)：原完整 $v$ 的整 $Q$/Hecke 族全消去MW；轨道各向同性。§9本原 $U:Y\to X$、满射 $U^\dagger$ 给实际整 $V_\lambda=US_\lambda$ 因子及 split-Hecke 交换子解格，不除核范数；真辛商为 $(U^\dagger x,y)$。§10原r2 bare失败给adjugate、唯一Q前像递推与完整最低两列行列式；非零、Lagrangian满度及jet不落轨道仍开。§11原Q零主分量T5幂零，固定X108四维块T5²=9，排两者Hecke相容线性子商桥。
 
 [R1058](results/R1058-original-Cartier-resonance-and-complete-lowest-residue-source.md)：规范Jhat与原Q的Cartier身份、Tλ/A两pth修正已付。§§8–12以P=qJhat迁完整D/Q/Q²最低到全部P根；q根、b0、∞无残数，P非齐次Gauss forcing不删。P根至多四重（四重仅可能r1/9）、实际L_D极阶≤9。完整Q²单系数为(-3)^d[r^(d−1)]W*/P²/(dA1)，每根最多七阶导数；非零仍开。
 
