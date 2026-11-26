@@ -6,7 +6,7 @@
 
 完整连通闭C2嵌入连续族、共同g和固定握持开区域；全曲面D下held/D≥.05、含反射δE>0、全时reach/D≥.03、全域全时metric≤1e−6；同一g与全部物理参数下真正网格/频率/时间加密到机器或求解容差，并给完整可复现网格。基础后继续held/D≥.2、δE/D≥.05或严格存在。现有有限结果不冒完成。
 
-- 根/课题README完整读于 `f0548477576caa2373d1626227a284ccfa9767d0`。最近已读公开提交 `bafa9883e0cf79eac8a9b82a14f15d2615c43bcd`（2026-11-26 12:02 UTC真实pull/rebase后，双README逐差均无变化）。根blob282e86b0、题blob e2318baa。每次literal pull立即核双README差异，至少每小时；有变只读差异立即执行，API读不冒pull。
+- 根/课题README完整读于 `f0548477576caa2373d1626227a284ccfa9767d0`。最近已读公开提交 `7a12d4f39b761e25c5ffd30003464c34a7812f65`（2026-11-26 12:10 UTC真实pull/rebase后，双README逐差均无变化）。根blob282e86b0、题blob e2318baa。每次literal pull立即核双README差异，至少每小时；有变只读差异立即执行，API读不冒pull。
 - 私库QUEUE已认领推 `c7785184d0d9c503852fb2137e9e2c091221d080`，进行中（本会话/2026-11-26）。不重复认领。
 - 每结论立即commit/push；NFF立刻pull --rebase循环到成功，不force或amend已发表提交。完整证明直接登记并加results.md索引；不附加独审/冻结门。全部数组只临时区，不进Git/Release/artifact；只源码/参数/run/hash/标量。MD<100KB、H<10KB、题<200MB；不写根LOG。token只命令环境。
 - 根唯一写main；agents只同级scratch。当前部分clone `/tmp/visible-flex-6a65e705/math-research-public`，同级geometry-work/exact-work/solver-work/cold-cartesian-work。旧历史见[11:15 H](https://github.com/Rogerhu12/math-research-public/blob/a9aaaf7d2fbdc01eb0df3e635d9065c20faac354/topics/visible-flexible-closed-surface/HANDOFF.md)、log和open；不重做已登记结论。
@@ -14,13 +14,13 @@
 ## 已证明的核心结论与缺口
 
 - R114原有限材料同g metric≤1.25668e−9、reach/D>.0312033、held/D>.0527832、含反射δE>0；不等于无限存在/C2收敛。R216真实Cartesian补丁的连续metric粗界4.4e−8，不能借更尖旧峰。
-- R213/R214/R218的兼容、弱应力、切向必要门槛、全周期normal Green/完整端口已付。当前已越切向必要门槛；有限投影不冒全频逆，不把未解说成不可能。
+- R213/R214/R218兼容、必要门槛及全周期Green/完整端口已付；当前已越切向必要门槛，仍无全频逆。
 - R219强帽充分核：Aq≥1.4、Z∈[.40,.53]、宽≤.895、球半径≤1.6、held≥.64、reach≥.097和全部接口；条件满足才有D≤3.2、δE≥.1609。全部八极点/法球预算已付，实际完整核尚欠。
 - R220/R221原M12准确affine/coast参考、真实ramp两jet接合及连续域已付；原24blob端点已恢复。R223共同图一直到真平领，.684<−r_q<1.422；r=.6是自由内部接口，不能当终端。
 - [R226](results/R226-m12-normalized-reference-and-continuous-cartesian-bounds.md)准确中央归一参考有完整全时几何：metric<7.667e−8、reach/D>.03120330、held/D>.05278322、含反射δE>0。全501源cell/10chart片、准确部分弧长/bridge已付。solver W六jet连续检查器已公开；未知W仍须自己的场与全源C_X。
-- [R222](results/R222-central-gap-conditional-held-and-ramp-budget.md)固定周长中央gap与条件held；新gap1.05/v.045前缀真实41.103s、1637RHS，C2消费采样metric2.65953e−9；其raw在第三失盘丢失，按已公开脚本重生供新证明，不算新研究结论。
+- R222条件gap/held；新gap1.05/v.045 raw按公开配方重生，ramp/coast master SHA相同，供新证明，恢复不算新结论。
 - R224新Γ95整coast的完整连续域D>.9719、U_t>.9657、.1949<κ<8.893；R225严格周长半宽<3.738e−13、两比例曲线集合差<5.618e−13，后者不代角逆/两jet。
-- [R227](results/R227-new-gap-first15-native-ramp-gram-certificate.md)前15实际quintic格/全部768保存系数全域原生Gram谱误差<1.38e−7、面积>.40322802，35.285s真0。末准确coast修复格、normalized s依赖角逆/曲率仍欠。[R228](results/R228-new-gap-first15-native-own-curvature.md)同raw全15格的自身κ<9.866914，960全域叶/0分裂，32.228s真0；源码已恢复且SHA逐字相同。[R229](results/R229-new-gap-first15-exact-integral-normalization.md)准确积分normalized全链已付，前15格metric<4.112e−6、κ<9.868；[R231](results/R231-first15-full-frequency-normalization-primitive.md)正确q/a去均值、全频1/|k|与完整椭圆尾使同场metric<2.936e−7、κ<9.867915，15格239.682s真0；末格仍欠。新f0比R224旧盒下界低约4.56e−17，末coast须显式扩盒核验，不能直接借旧盒。
+- [R227](results/R227-new-gap-first15-native-ramp-gram-certificate.md)前15实际quintic格/全部768保存系数全域原生Gram谱误差<1.38e−7、面积>.40322802，35.285s真0。末准确coast修复格、normalized s依赖角逆/曲率仍欠。[R228](results/R228-new-gap-first15-native-own-curvature.md)同raw全15格的自身κ<9.866914，960全域叶/0分裂，32.228s真0；源码已恢复且SHA逐字相同。[R229](results/R229-new-gap-first15-exact-integral-normalization.md)准确积分normalized全链已付，前15格metric<4.112e−6、κ<9.868；[R231](results/R231-first15-full-frequency-normalization-primitive.md)正确q/a去均值、全频1/|k|与完整椭圆尾使同场metric<2.936e−7、κ<9.867915，15格239.682s真0；末格仍欠。[R232](results/R232-new-gap-complete-accurate-terminal-port-bounds.md)完整准确P/V/A端口及角两导差已付，2048角盒127.191s真0；新f0重新核整coast，未借R224窄盒。下一真正末Hermite格。
 
 ## 实际数值线与正在做的下一项
 
@@ -30,9 +30,9 @@
 
 **原M12真全半体**：[run45803041361](notes/2026-11-26-6a65-m12-entire-half-ci-45803041361-1.json)真success/1882.249s，362元35378列/2859精确查询/800LSMR stop7/α1；独立metric8.75957e−9→8.49450e−9、κ6.416872698、support.817884894，真cuff修正两jets全0。field d703d006…1af8e只在结束runner。
 
-whole峰q2.202517253在全局第190零基单元、r约.43480348、原n0/j3窄过渡。训练G6与独立G8均落同元。[R230](results/R230-m12-entire-original-source-jets-and-actual-field-transfer.md)已实际全24blob/18552尾span及2569prefix格/65chart片，证明原全源C_X<4461.108；711.882s+37.015s真0。297个原微span点的reference-only峰1.96720813e−8，原G8漏峰。新request rev2保全部旧求解参数，接R226实际六jets/全时geometry/原微span与三相位完整STL；参考W0闭网格实际8.814s真0，32尾圈learned场仍待新run。见[入口](notes/2026-11-26-6a65-m12-whole-continuous-geometry-and-stl-entry.md)。
+whole峰q2.202517253在全局第190零基单元、r约.43480348、原n0/j3窄过渡。训练G6与独立G8均落同元。[R230](results/R230-m12-entire-original-source-jets-and-actual-field-transfer.md)已实际全24blob/18552尾span及2569prefix格/65chart片，证明原全源C_X<4461.108；711.882s+37.015s真0。297个原微span点的reference-only峰1.96720813e−8，原G8漏峰。新run45815969723/job139895673326真实12:02:35启动，source3a751a836；rev2保全部旧求解参数，接R226实际六jets/全时geometry/原微span与三相位完整STL；参考W0闭网格实际8.814s真0，32尾圈learned场仍待新run。见[入口](notes/2026-11-26-6a65-m12-whole-continuous-geometry-and-stl-entry.md)。
 
-**强幅度当前长run**：[45778054176](https://github.com/Rogerhu12/math-research-public/actions/runs/45778054176)/job139766458381，冻结controller5093095a…。原R208/K19已见态不重做；真实source002=28c629a0627从同runner原末态建立完整1788列新Cauchy基线，再12次完整尝试。09:50:30 baseline metric.34164247/κ18.53034；第8实际0于11:43:03，metric.26395860/κ26.40195/R².107701584/α.25，stateaba95740…3f827；仍未合格。全部实际回执在[长run报告](notes/2026-11-26-6a65-actions-strong-45778054176-1.md)。不热替换source002，不猜第12步或observer SHA。
+**强幅度当前长run**：[45778054176](https://github.com/Rogerhu12/math-research-public/actions/runs/45778054176)/job139766458381，冻结controller5093095a…。原R208/K19已见态不重做；真实source002=28c629a0627从同runner原末态建立完整1788列新Cauchy基线，再12次完整尝试。09:50:30 baseline metric.34164247/κ18.53034；第9实际0于11:57:14，metric.26395560/κ26.40154/R².107700185/α.5，state733c827c…2daff8；仍未合格。全部实际回执在[长run报告](notes/2026-11-26-6a65-actions-strong-45778054176-1.md)。不热替换source002，不猜第12步或observer SHA。
 
 **完整Cartesian新分支**：[恢复实现与实际有限核验](notes/2026-11-26-6a65-solver-cartesian-stream-recovery-and-actual-finite-check.md)已付全13行/7760列接口、伴随2.23e−15、cache一致及端两jets全0。v1/v2和adapter逐字恢复；stream b8cfd595…16e4a9与recipe0794c4…841a7为新身份。新[cold workflow](notes/2026-11-26-6a65-cartesian-independent-cold-entry.md)用公开无z config真实value/observer生成新INITIAL再独立LM；固定全部g/primitive并报K_g采样。真实run45812620369/job139884093413自11:39:58执行，source964fc706；实际新INITIAL与旧Cauchy observer已真0（190.139/344.263s），dense metric2.49217/κ1.1577e6；独立LM进行中，不借长job raw/计数。
 

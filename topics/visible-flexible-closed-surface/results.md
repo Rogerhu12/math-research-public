@@ -5,6 +5,8 @@
 
 ## 新增结论
 
+- [R232：新gap完整准确coast端口连续差](results/R232-new-gap-complete-accurate-terminal-port-bounds.md)：同Γ95及旧全部Γ384端迹，2048全角盒/六阶Taylor差/完整弧长反参两导数给P/V/A九项界；127.191s真0，并明确把新准确椭圆f0纳入整coast重核。短Hermite末格仍须支付径向放大，不直接借前15格。
+
 - [R231：前15格正确去均值的全频角primitive](results/R231-first15-full-frequency-normalization-primitive.md)：同R229准确场全系数整数卷积、完整椭圆解析尾、Bernstein内保1/|k|及q/a加权均值，付全部归一化链后metric<2.936e−7、κ<9.867915，239.682s真0/15格全过；实际均值仍进入比例两导数，末coast修复格另付。
 
 - [R230：M12完整原源连续二jets与实际场全时传递](results/R230-m12-entire-original-source-jets-and-actual-field-transfer.md)：原2569前缀格、准确M64接头/65片角图及18552尾格/真实collar全计入，准确有理C_X<4461.108；实际全尾711.882s及前缀37.015s真0。新增297个原微span观察点揭G8漏峰；同job保存场连续几何消费接口已付，尚未冒实际新场通过。
