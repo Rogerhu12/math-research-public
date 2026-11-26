@@ -4,7 +4,7 @@
 
 ## 规则与完整目标
 
-最近规则核查：2026-11-26，真实pull/rebase至 `ec6aae5e2ded5ea95e7529dc6249f2f867764381`，根及课题README相对f0548477无差异，已完整读授权及规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
+最近规则核查：2026-11-26，真实pull/rebase至 `d1ed22cd74f2d2539c6aaae3d6a0a1b400417cbd`，根及课题README相对f0548477无差异，已完整读授权及规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
 
 科学计算仅本公开仓库Actions；早前本地偏差及13:00 UTC纠正见[执行记录](notes/2026-11-20-public-actions-execution-correction.md)。根README已授权必要修改/发布；根唯一local git writer，代理只work/小源。每条结论普通commit/push；NFF立即pull --rebase循环再推，不强推。至少每小时pull，每次核双README差异/立即遵新规并记commit。raw只scratch/runner，不入Git/Release/artifact；只保完整小源/参数/run/SHA/紧凑结论。题≤200MB，MD<100KB，H<10KB，open<30KB。令牌只瞬时CLI，不写文件/提交/回复。
 
@@ -26,18 +26,9 @@ R653准确quarter；R654完整H²尺度；R655付原node/mid盲空间，故旧18
 
 ## 已证结果与当前源
 
-完整证明及当前源码入口见[结果索引](results.md)；上轮逐条责任的完整原文保在[f0548477交接](https://github.com/Rogerhu12/math-research-public/blob/f0548477576caa2373d1626227a284ccfa9767d0/topics/visible-flex-larger-amplitude/HANDOFF.md)，不能因本次压缩丢掉适用条件。
+完整证明见 [results](results.md)；此段压缩前逐条适用条件保 [5a7dffa1完整H](https://github.com/Rogerhu12/math-research-public/blob/5a7dffa14a933434e5159c300b8035fdcd48b3a3/topics/visible-flex-larger-amplitude/HANDOFF.md)及其f054/129a前链，责任不删除、不重证。
 
-- R650/R661：同场正定流support/K加固定四标记的全t reach/grip/held/E框架；R656/R657付连续几何/Gram方法，R658–667各自候选的几何不跨场继承。
-- R669：固定平帽轴对称尾的无穷小唯一性及特定五次表示障碍，不推非线性无解或正误差地板。R671/R674准确参考尾工厂与完整六jet/连续余项已刊，lambda1的非圆连接仍待求解。
-- R670/R672：同角完整首jet与六jet真K；f476逐胞续接与6c02合并器只准备，旧geometry03完整K未返回。
-- R675：同场嵌入+准确高Z或非零解析尾排活动平面开片；b36已付7fd，不移给新场。
-- R676/R678/R679：固定g的径向、M-only、N-only精化准确包含与共同父泛函比较；已返径向fine仅很小下降，不冒持续精化收敛。
-- R677/R681：原全空间QP的可靠残差/正确coarse-PCG，v4实际256步仍未驻点。R673面gap和释放判据不以raw负乘子替代。
-- R680：条件SOC证明与5bc/805/9b/40e实际入口，26行修正破其他旧C；后继必须把全部旧C纳入修正可行域。
-- R682：严格metric lower用自身准确位置/模型；新增正权须换Phi版本，超标硬门不可直接交零步feasible-CG。
-
-主要入口在 `scripts/resume_20261120/`。完整父4d9、尾续425f、径向2e8/100e、复合40e/3f及其真实参数以对应notes为准，旧已付不重复证明。
+R650/R661给同场support/K与固定四标记的全t reach/grip/held/E框架；R669仅原参考线性唯一性/有限表示范围，R671准确lift已补旧缺项。R670/672/674保原全六jet/准确尾与连续余项，原geometry03全K未返；R675非平面证书不跨场。R676/678/679给固定g的径向/M/N精化与共同父泛函，旧fine仅小降不证收敛。R677/681/685给完整QP可靠更新/原coarse/活动面逆，iteration_limit不冒驻点。R680/683 SOC必须保全部旧C、实际修正模型和真Phi/几何。R682正权新增须显式换Phi，父超硬门不能直交零步可行CG。原全部源在resume_20261120/，本轮完整新源在resume_20261126/；未付处见下。
 
 ## 复现与不重做
 
@@ -63,7 +54,7 @@ R689固定均值连续Gram入口已刊：两准确场共同分割、公共lift�
 
 [固定g五源管线](notes/2026-11-26-frozen-mean-target-numerical-pipeline.md)已刊：整公式/源/父字节冻结、D*J全部均值保留、同g coarse/v5、R676 transfer-only与同父测度比较。显式target且报零步，尚未触发冻结或精化。
 
-R690 [完整深谷新输入证明](results/R690-quasimonotone-tail-and-deep-valley-input.md)已刊：B=积分c/c可积的唯一性判据及明确非可积深谷；保原prefix/S、更新准确R/I，参考Hold曲率≤5/2。e091完整无限尾/跨锚点标量入口已排真实300秒包围；无新非圆解/固定g精化/几何声明。construction接新的固定gn完整求解，避免移动均值把新a分母约消。
+R690 [完整深谷新输入证明](results/R690-quasimonotone-tail-and-deep-valley-input.md)已刊：B=积分c/c可积的唯一性判据及明确非可积深谷；保原prefix/S、更新准确R/I，参考Hold曲率≤5/2。e091 [实际stage54](notes/2026-11-26-actual-deep-valley-complete-scalar-input.md)完整无限尾已返、无振荡丢弃；300秒/1318叶未达1e−18请求，但盒有效。新factory/固定gn全求解直接续接；无非圆存在或新几何声明。
 
 新科学仍仅本公开Actions。root唯一人工git writer，代理在独立scratch写小源/推导；每条完整结论即推。工作盘空间不足，本次部分克隆在临时盘，仓库提交为恢复依据，不删除别的会话数据。
 
