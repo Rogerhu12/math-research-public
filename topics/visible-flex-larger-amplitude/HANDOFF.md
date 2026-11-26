@@ -43,8 +43,8 @@
 <!-- visible-larger-parallel-03:end -->
 
 <!-- visible-larger-parallel-04:start -->
-并行公开Actions04：[run 45857104277/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45857104277)；[实际记录](notes/2026-11-26-public-actions-45857104277-1.md)。阶段`6077`/running；已返7，exit=未返。
-并行04规则核查：2026-11-26 16:28:29 UTC，真实pull至`ba40a98cfa0ae0ba5cf308bc680539bbc9c51d70`，双README无变化。
+并行公开Actions04：[run 45857104277/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45857104277)；[实际记录](notes/2026-11-26-public-actions-45857104277-1.md)。阶段`v4b_12`/running；已返8，exit=未返。
+并行04规则核查：2026-11-26 16:31:02 UTC，真实pull至`c4514a760e3ef97c71009890cef46c4b7a91f3e2`，双README无变化。
 <!-- visible-larger-parallel-04:end -->
 
 ## 当前公开Actions执行
