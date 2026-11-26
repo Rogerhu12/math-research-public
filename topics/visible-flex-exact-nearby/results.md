@@ -433,3 +433,8 @@
 ## 2026-11-20：真实物理外Robin与mean两值实际通过
 
 [OA完整结果](results/R141-supplement-actual-selected-physical-outer-residual-values.md)记录44769445246/1的18门2球；同selected member/同许可fB，原physical H^-5/6 Robin<1.259356e−15、独立mean<2.048247e−19，完整物理角/Fourier尾/1/m及19旧球均保。23当前/1历史精确，0旧科学；只有这两真实源槽已付，height/farlabel/knownZ边界差及两WPN/全逆/最终族仍未闭。
+
+### 2026-11-26 — R144 固定η0、同径向相关的新完整均值积分入口
+
+提交[完整合同](notes/2026-11-26-R144-fixed-eta0-correlated-mean-contract.md)、science/worker/generator、21当前+10历史manifest及唯一push workflow。输入是原raw ν0、exact η0，原7296格/6143接缝；旧完整native仅身份/partition/v与mean gap只读。新全域高精度载体此前未存，按真实body/compact/graft定义物化；320bits、N512、源Taylor24/流25、ρ/h=8，全部primitive和Cauchy尾收费，同r有符号源及D恢复先相加再取范围。RS准确初值和全mean atoms、forward a^-2费保留。
+manifest SHA256 e99e081cd404c36e9f754c0839e9f8f7d95502fffa2db02bff093fe90a0599a8；science b3e7b85933f6d1e5bae7f39b3a84a98a0d9a8db11255d22d9cefa0edc1a6bd4b，worker7535b3746065ea53af8855d56efbdb1ac906547a81f3c6845c601072aaae7cde。每个接受子格/接口原子保存，异常丢弃未提交状态并验证真实trace前缀；最终whole保存读回门后才complete。5h child/6h job，无自动科学retry。实际run/结果待登记，不将合同当科学成功；旧全ηforward7721/6143及unknown冻结。非mean、height、phase、full inverse和闭族仍未完成。
