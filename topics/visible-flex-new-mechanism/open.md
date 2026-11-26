@@ -141,3 +141,5 @@ O2b-A [新物理/epigraph原终态](notes/2026-11-27-r582-physical-epigraph-orig
 O4 [R616](results/R616-same-candidate-expanded-box-function-chart.md)为原接受函数提供零修正严格同候选扩盒，完整空间jets、germs与真长度/历史链保持。若R614真终态仍贴旧人工tanh值域，可换此新图继续；不扩大R598物理盒，不以同值入口重做成功端点seed或宣称数值改善。
 
 O2b-B [R617](results/R617-finite-pre-tanh-poles-and-open-cap-rigidity.md)排固定有限pre-tanh＋有限post的准确clamped根，即使tanh本身有无限谱；实际.22内帽的E/r可积入口已付。它不提供当前有限η下界、不否定数值改善；后继须真正支付角带增长/无限响应与同g收敛，不再只扩大固定post便宣称具备准确根空间。
+
+O4 [R614原终态](notes/2026-11-27-r614-paid-reduced-function-natural-final-agent.md)真四端细一致已到5.12616e−10；原ruling1.70391e14未解。269次旧系数guard与a1=−6、0恢复失败确定换图依据；固定真实d56ddad1向量进入R616零修正，原母/单位/末固定L与规范不变。
