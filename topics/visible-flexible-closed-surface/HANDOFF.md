@@ -7,7 +7,7 @@
 
 完整连通闭C2嵌入族、共同g和固定握持开区域；全曲面D下held/D≥.05、含反射δE>0、全时reach/D≥.03、全域全时metric≤1e−6，并支付同一g/全部物理参数下真加密到求解容差及可复现完整网格。基础之后继续held/D≥.2、δE/D≥.05或严格存在。本题尚未完成。
 
-- 根/课题README完整读于 `f0548477576caa2373d1626227a284ccfa9767d0`；接手真实pull在05:16UTC成功。最近已读公开提交 `85b3c1676fa24aad62de3f6212d1655851d7fa91`（2026-11-26 09:06 UTC真实pull/rebase后，双README逐差均无变化）。每次真实pull后核两README差异，至少每小时；有变只读差异立即执行。本轮各次均无差异。
+- 根/课题README完整读于 `f0548477576caa2373d1626227a284ccfa9767d0`；接手真实pull在05:16UTC成功。最近已读公开提交 `f0dbc7cb89cd103834999d4718d81c2e0309b391`（2026-11-26 09:08 UTC真实pull/rebase后，双README逐差均无变化）。每次真实pull后核两README差异，至少每小时；有变只读差异立即执行。本轮各次均无差异。
 - 私库根规矩完整读；QUEUE认领已推 `c7785184d0d9c503852fb2137e9e2c091221d080`，状态进行中（本会话/2026-11-26）。认领推拒均即时pull/rebase再推成功。
 - 每结论分条commit/push；推拒立即pull --rebase循环，不强推、不amend已发布提交。完整证明直接登记；不回到旧独审/冻结手续。可重算数组不进Git/Release/artifact，只存源码、参数、run/hash。单MD<100KB、H<10KB、课题<200MB；不写根LOG。令牌只在命令进程环境。
 - 部分克隆 `/tmp/visible-flex-6a65e705/math-research-public`；同级 `solver-work/geometry-work/exact-work` 保存raw。/workspace空间不足，勿将大数组放回。05:47旧环境/tmp丢失，05:54已重新部分克隆和冷重生，不借旧失联数组身份。
@@ -26,11 +26,9 @@
 
 **强分支原线。** 原2/quartic6、gap1/Δ.05三步、42峰点三步、K11三步、R219/N128/84点三步及R208/J36三步均已登记，详见[08:41前H](https://github.com/Rogerhu12/math-research-public/blob/3717571e8/topics/visible-flexible-closed-surface/HANDOFF.md)、[R219三步观察](notes/2026-11-26-6a65-r219-three-accepted-and-dense-observation.md)、[R208三步](notes/2026-11-26-6a65-r219-observed-radial-three-accepted.md)。K19旧首接受有[独立记录](notes/2026-11-26-6a65-r219-k19-one-real-step.md)，不能与当前CI后继混计。均未达全域metric、reach或held要求；当前实际续算见下节。
 
-**原M12同g修正。** 12槽/48弱矩和完整Gram Schur均实际能量下降但全峰未胜旧Phi：[四应力](notes/2026-11-26-6a65-four-radial-stresses-full-gram.md)、[Schur及支撑外缺口](notes/2026-11-26-6a65-full-gram-schur-and-fixed-support.md)，不重复。[首ramp三档真实C2图](notes/2026-11-26-6a65-m12-central-ramp-three-refinements.md)M95/191/383，metric 2.14436e−10→4.31484e−12→3.66688e−12、κ5.11272；中央全端迹准确。[R221真C2接合及整coast](results/R221-m12-ramp-generated-exact-coast-and-c2-seam.md)已用M191精确出口/6838整数叶实证D>.500627、U_t>.477172、κ<5.628725；M95/191/383接合后metric峰3.46869e−10/4.31484e−12/3.66688e−12，首ramp仍缺连续误差。[全自由端口BVP/实际双seam](notes/2026-11-26-6a65-free-positive-bvp-and-signed-seam.md)独立峰降至3.8004e−11，但signed回传抬首ramp至5.1657e−9，故不采用；改做原g全域联动。signed连续域门槛未付，不借R221证书。
+**原M12同g修正。** 12槽/48弱矩和完整Gram Schur均实际能量下降但全峰未胜旧Phi：[四应力](notes/2026-11-26-6a65-four-radial-stresses-full-gram.md)、[Schur及支撑外缺口](notes/2026-11-26-6a65-full-gram-schur-and-fixed-support.md)，不重复。[首ramp三档真实C2图](notes/2026-11-26-6a65-m12-central-ramp-three-refinements.md)M95/191/383，metric 2.14436e−10→4.31484e−12→3.66688e−12、κ5.11272；中央全端迹准确。[R221真C2接合及整coast](results/R221-m12-ramp-generated-exact-coast-and-c2-seam.md)已用M191精确出口/6838整数叶实证D>.500627、U_t>.477172、κ<5.628725；M95/191/383接合后metric峰3.46869e−10/4.31484e−12/3.66688e−12，首ramp仍缺连续误差。[全自由端口BVP/实际双seam](notes/2026-11-26-6a65-free-positive-bvp-and-signed-seam.md)独立峰降至3.8004e−11，但signed回传抬首ramp至5.1657e−9，故不采用；改做原g全域联动；[24旧blob准确端点](notes/2026-11-26-6a65-exact-tail-endpoint-streaming.md)已定点恢复，r=.6只是内接缝，不冒真平领。signed连续域门槛未付，不借R221证书。
 
-**新的完整几何输入。** 已登记的R137 focus、双Hermite、三条正K Cauchy失败及右长度基线不重复，见[完整warm/历史](notes/2026-11-26-6a65-geometry-complete-unit-t-warm.md)。长warm02右面积谷导致κ1309；[全1788列拟合](notes/2026-11-26-6a65-cauchy-global-fit-and-real-baseline.md)κ14332；[首LM](notes/2026-11-26-6a65-cauchy-first-lm-curvature-dominates.md)总目标接受但metric1.455→14.09，未采用。
-
-[长前缀旧强后段移植](notes/2026-11-26-6a65-geometry-cauchy-strong-transplant.md)含完整C2接口/单调时钟/高度/弧长两jets，96×128表metric2.460/κ50.587/held.64515。原件及完整hash在该note。[全列拟合和另名tau1e6启动目标](notes/2026-11-26-6a65-transplant-full-fit-and-startup-objective.md)真0，metric2.483/κ51.876；三处全列方向FD真0。首LM 153.1895s被SIGKILL(-9)，无normal/末态/接受；原因未证，非数学拒绝。
+**新强初场历史。** R137 focus、双Hermite、正K Cauchy及右长度失败均见[完整warm历史](notes/2026-11-26-6a65-geometry-complete-unit-t-warm.md)，不重复。长warm初场与拟合κ1309/14332，首次LM虽接受总目标但metric升至14.09，未采用；[旧强尾移植/另名tau1e6启动](notes/2026-11-26-6a65-transplant-full-fit-and-startup-objective.md)改为非退化场但首LM被SIGKILL，无接受，详见各note及08:41前H。
 
 [短前缀完整重算](notes/2026-11-26-6a65-geometry-short-cauchy-transplant.md)已真0：191模/768角，明确新S9^5/S9^6参考和真实C2端口；强制尺度归一导致额外曲率，改用[真实周长新g](notes/2026-11-26-6a65-geometry-transplant-natural-perimeter-metric.md)，保留raw几何集合和曲率；E/F并未自动支付。
 
@@ -42,7 +40,7 @@
 
 旧run45767322734/job139731246744在第20数学接受真0后因CAS发布failure，21–60未发生；原bot小报告已实际fetch/cherry-pick，CAS识别已修，[记录](notes/2026-11-26-6a65-solver-actions-twentieth-cas-failure.md)。不能用静态running猜活状态。
 
-[新run45778054176](https://github.com/Rogerhu12/math-research-public/actions/runs/45778054176)/job139766458381，冻结head2ed4f1ef9、loaded controller5093095a…，08:36UTC实际20步全部exit0（17个新接受）；末metric.185644/κ13.57097/held.623703，157541点真0 observer κ13.86048，仍欠。末态SHA `5c3d8e5eb512e44c366cd99390650f5370f30410f678c506f2f80cfeaa78398d` / observer SHA `8999201de9998dcc843f0d91717eec1b67c124c604418b3d532dfcdb6585aeb6`。根已发严格匹配后继：同N128/84点/R219的K11→19零注入后12次完整新尝试，来源def7385e2；source-001已真实消费，初始化值复现父态，第1/2次新LM均OS0半步接受，第二步metric.188805/κ12.89034/held.621841，未达标。raw保持同job，不因main变化热替换数值源码；最终等严格state/observer/readrules SHA匹配的后继请求。正常停滞保真实旧态/观察并等新方向，不记拒绝trial为结果。
+[run45778054176](https://github.com/Rogerhu12/math-research-public/actions/runs/45778054176)/job139766458381，冻结head2ed4f1ef9、loaded controller5093095a…。R208/J36实际20步全0（17新增），157541点observer也0，仍欠metric/κ/held。随后严格匹配后继source-001=def7385e2，同N128/84点/R219，K11→19零注入；初始化逐值复现，12次新尝试中最近已核到第5次半步接受，metric.1890301/κ13.00932/held仍欠。准确最新态/hash见[实际CI报告](notes/2026-11-26-6a65-actions-strong-45778054176-1.md)，不能把计划12步当完成。raw持续保同job，新Cauchy后继尚未触发；source epoch明确冻结，不热替换正在运行的数值源码。正常停滞保真实父态及observer，拒绝trial不充末态。
 
 CI每次literal pull在首行marker记SHA；publisher只合并该行，保root其它文本，不amend已发布提交。等待fetch30秒，新请求或45分钟才真实pull。root分条push同时遇NFF/锁冲突均已即时pull/rebase循环成功。后继文件 `ci-requests/6a65-strong-followup-20261126.json` 必须消费实际末态，不猜SHA。
 

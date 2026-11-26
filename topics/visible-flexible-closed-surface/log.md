@@ -664,3 +664,7 @@ R208完整注入组e297410f：同3态由J30/K7/N64的932维插1/20、7/20、5/12
 
 - [全部1788列新输入](notes/2026-11-26-6a65-physical-clock-full-fit-and-value.md)真实reference/fit/value均0；301210行，metric.39368564/κ18.63050/held.6263963，总R².2159071。是改g后重新实算，不把raw观察充有限值或同g收敛。
 - .18旧输入首完整normal已真返回314.878s，随后321.914s SIGKILL(-9)，无trial/末态/接受；实际RSS末峰245792KiB，原因未证，继续核完整线性求解临时内存。
+
+## 2026-11-26 Astra-visible-flex-6a65e705：恢复原 M12 尾的准确积分端点
+
+- [定点流式消费原定义](notes/2026-11-26-6a65-exact-tail-endpoint-streaming.md)：24已知历史blob、80.73MB、18552span/141系数，逐块Git SHA1/SHA256/共有行核验，Fraction准确积分/径向归一。实际176.184s exit0，只有23KB端点缓存留scratch；未保存raw块。只是恢复既有尾定义，不算新尾解；r=.6共切线明确为内部接口，真正全域仍须延到平领。
