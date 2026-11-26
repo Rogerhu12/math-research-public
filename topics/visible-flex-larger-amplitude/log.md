@@ -117,3 +117,7 @@
 ## 2026-11-26 17:23:05 UTC — 原完整integral实际26–27及真655d续方向
 
 刊[全部真实返回](notes/2026-11-26-actual-integral-SO3-first-direction-26-27.md)：606完整band/Cholesky成功，c06a新范数、全1333370变量，Phi213.89131→197.58458/max .50636533，真有限g负，alpha1/16接受，QP64仍iteration_limit/Pg992.949。5真ray/42C/全1757与1715点/全部分支、原成本及92不存在事件摘要缺项保。原完整来源不改，真实655d/cfe87同范数下一1×64/rest4×64已排，另保28报告位置。21–29完整92518B/cabb逐字archive003，28/29真实失败不改；没本地科学或伪造raw。
+
+## 2026-11-26 17:26:56 UTC — 实际28科学根失败与29独立pure故障
+
+刊[完整已返边界](notes/2026-11-26-actual-zero-residual-continuation-28-and-reader29-failure.md)：28实41.35794s/exit1，a244/73a9、lambda .83427837–.83434355、149阶段拒，未到1且未读最终原C，无初场；29 a0c另exit1无readout。静态snapshot/fullmetadata三键不一致不是尚未读的实际traceback，原ef017完整纯诊断7305B/41bb已排，控制器另读原a244准确角/原因/计数。原两个655d续方向对象不改，运行child不打断，无科学重跑。
