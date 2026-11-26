@@ -348,3 +348,8 @@ R708支持内单位meridian完整条件构造：已正式刊[完整42式证明](
 ### 2026-11-26 19:48:42 UTC — Astra-larger-e4e2a2bf-20261126
 
 刊[法向显式H完整三源与完整ready](notes/2026-11-26-fixed-normal-plane-explicit-height-entry.md)：e8e096 driver/b7e569 launcher/f8261f reader，先按双输入完整合同核原base.initial/Q与未读normal状态，再只复制末H为明确旧观察常量；全部42ea算子/2557几何/完整外层suffix不变。root已读三完整diff、全部note/ready，恢复后真实AST/compile结果在terminal-recovery note，原形成时未AST记录保字节。源与八历史ready完整刊而未提前入队，不把原H未返冒成失败，不由旧Jstar常量迁证本场积分或可行性。
+
+
+### 2026-11-26 19:56:35 UTC — Astra-larger-e4e2a2bf-20261126
+
+完成并正式登记[R709全局凸均值闭合](results/R709-global-convex-mean-closure-without-contraction.md)：以全端层凸势和闭单位球极小证明唯一正均值根，Kz余量自动避反向；M=B_d对称PSD使J=LcI+MP/r的切块正定，逆≤(1+q)/Lc而不要求q<1。完整一二角jet、全角同支/对称、非局部真残差到准确根界与所有工作误差责任已证，接R708同一完整中央曲线和端口；不移证normal Cu秩，不称有限Newton或任何全场完成。geometry独立核关键凸性/逆界/二jet/残差链无阻断，仅纸面。HANDOFF旧索引缩写，30e589完整固定快照保全部前文；新seed完整实现同步继续，不添fixture门。
