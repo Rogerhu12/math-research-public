@@ -1,0 +1,64 @@
+{
+  "schema": "isp-new-original-N-Hermite-build-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "sourcePath": "notes/2026-11-27-h21-original-N-Hermite-true-Ke-8542.py",
+  "sourceSha256": "1a4aa35b0f8365f1fa4224e2397b63e90c31e5ca8e52aabc4268f76de1ad158e",
+  "sourceBytes": 17554,
+  "command": "python topics/invariant-subspace-problem/notes/2026-11-27-h21-original-N-Hermite-true-Ke-8542.py --build-only",
+  "exitCode": 0,
+  "elapsedSeconds": 4.926642632999574,
+  "newEquations": [
+    {
+      "degrees": [
+        0,
+        5,
+        8,
+        8,
+        24,
+        3
+      ],
+      "label": "original_N_second_at_double_source",
+      "seconds": 4.838231155000358,
+      "sha256": "eb80cb07939d9c0fd1c03259cac3cf2fa45137ca42a4873f587c603a1d7c9f46",
+      "stage": "new_original_N_equation",
+      "terms": 5694
+    },
+    {
+      "degrees": [
+        0,
+        8,
+        9,
+        9,
+        21,
+        8
+      ],
+      "label": "original_N_first_at_isolated_source",
+      "seconds": 4.92641703299978,
+      "sha256": "a4baa3deb8151bf96904d954bb6bf6646dbbd5a74bf4a97baf91d1656101aa8a",
+      "stage": "new_original_N_equation",
+      "terms": 26674
+    }
+  ],
+  "newIdentities": [
+    {
+      "Nw_removed_only_old_units": [
+        [
+          "E",
+          1
+        ],
+        [
+          "d",
+          1
+        ]
+      ],
+      "formal_coefficient_identity": true,
+      "new_open_factors": [],
+      "ordinary_isp_claim": false,
+      "seconds": 4.9265097429997695,
+      "stage": "new_original_N_input_checked"
+    }
+  ],
+  "stdoutSha256": "749db5b734c521e4aca80a84c48a3dea5fbc1b331967460850a805cc90751602",
+  "ordinaryISPClaim": false,
+  "claimExcluded": false
+}

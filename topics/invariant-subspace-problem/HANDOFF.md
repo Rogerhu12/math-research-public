@@ -5,7 +5,7 @@
 ## 目标、规则与执行
 
 - **普通复可分无限维 Hilbert ISP 未完成。** 仅全体有界算子的存在定理或完整反例算完成。
-- **最近实际 pull / 已读规则提交：** `c0f997366d3547e1965e3397dc5fcfb60b60ee4c`（2026-11-26 19:41:36 UTC；本地部分克隆）；本次两 README diff 无变化。每次 pull 且至少每小时检查并更新本项。
+- **最近实际 pull / 已读规则提交：** `8ea227652e2bdebb8e0cd6d08f2cac088f7ea840`（2026-11-26 19:51:24 UTC；本地部分克隆）；本次两 README diff 无变化。每次 pull 且至少每小时检查并更新本项。
 - 私库 QUEUE 接手已推 `5746fa79a74af4975476d400dfbe0c4e5cb9ae9d`；私库根规则已读至 `ec011a5c25eeb7aed6eea040d601e7351726ede9`。每结论单推，非快进即 pull --rebase 再推；不 force，令牌仅 CLI。
 - 本轮本地终端可用。前会话执行身份及全部原交接保[接手快照](notes/2026-11-27-handoff-at-takeover-8542.md)；本轮后续完整细节保[第二快照](notes/2026-11-27-handoff-before-new-tower-and-closure-8542.md)。失败不改标成功，已登记不重做。
 - 仅保源、参数、SHA、小回执；MD<100KB、H<10KB、open尽量<30KB、topic<200MB，不写根LOG。已读本轮 log；notes 按交接路径与结果索引定点续读。
@@ -30,8 +30,8 @@
 
 - 三约化H退化Gram：F0、V二jet、Hp非零、同相位、所有H∞、中心0/2已闭。中心0旧b34错误Eh退出0无效，正确K/L/Eh的四纤维U幂才是证据。
 - 中心−6仅A7/9、ab637/5580的首项零三维U³已闭；一般范数662.582秒到时未决。余中心c≠0,2、V可∞与非退化H Gram继续。
-- [一般有限中心原N一阶必要系统](results/R150-appendix-rank-three-reduced-degenerate-Gram-general-finite-center-original-N-first-necessary-equations.md)已证：完整V项、未平方相位、原范数、先导后H余式、中心t9；Pi仅c(c−2)DH E0 EV k，不除c+6/a3。真Ke3 run45827161540/job139934167647实际280.311秒触4GiB、return14，11生成元4.447MB，**无I*C=1**；不重跑。[新五个个别原源/12次常数域必要归约已证](results/R150-appendix-rank-three-reduced-degenerate-Gram-labelled-original-N-and-highest-first-reduction.md)并已启动，保三N导数及两V最高一阶；修正blob253173d7的全部原身份/12次域/5真逆/smoke实际通过，但Singular900秒未决，无I*C=1（driver901.618秒/RSS2256952KiB）；不重跑1.213MB输入，继续新低次原几何。
-- H单三jet/rankV2整个ess6已闭。H2+1的非零Hp、退化Gram、V二jet、F0/e0和全部∞闭，仅四源全有限Hp0非退化层；原C/G两条d一次式与同Π原理想相等已证。三种真Ke各900秒未决，field/smoke/八身份不代单位证书；改新几何，不重跑。
+- 三约化H一般有限中心：原N一阶/Ke3与个别源/12次域归约已证，完整V与未平方相位保留。Ke3实际280.311秒/4GiB，L12实际900秒均无单位；准确输入哈希/运行身份见[第三快照](notes/2026-11-27-handoff-before-original-N-Hermite-8542.md)，不重跑，改新低次原几何。
+- H单三jet/rankV2整个ess6已闭。H2+1的非零Hp、退化Gram、V二jet、F0/e0和全部∞闭，仅四源有限Hp0非退化层。原同Π的C/G两条d一次式已证，三种真Ke900秒未决。[新原N二阶/孤立一阶降式](results/R150-appendix-rank-three-double-plus-single-zero-hp-original-N-Hermite-strengthening.md)加入两个真实系数，d次数5/8；完整求导固定w，所有原身份实际build通过4.926643秒。新源/专用workflow已启动特征零转换矩阵门，仍待实际I*C=1；不把build或模证据作单位。
 - 纯三次判据B³−27A²D，旧正号不可作证。每图须原真幂来源，再以N=1+Σ(Ni−1)粘合；几何覆盖不代来源费和算子桥。
 
 ## R271：完整同源费用与稳定端点

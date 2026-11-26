@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R150 四有限源Hp0图新增两个真实N Hermite条件（2026-11-27，已证明必要归约，未判空）：** [原二阶系数与孤立一阶准确降式](results/R150-appendix-rank-three-double-plus-single-zero-hp-original-N-Hermite-strengthening.md)保固定w的真实导数，原N二阶与新P2由完整有理身份等价；孤立一阶经普遍范数身份和未平方单点比例降至d次数8，未新增定位因子。build实际exit0/4.926643秒，新增专用特征零证书门；旧三个900秒失败不重跑，尚无I*C=1。
+
 - **R150 S0/Lt0一般参数曲线的全部z首项零纤维为空（2026-11-27，已证明）：** [同参数22/40维原返回](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-parameter-leading-zero-exclusion.md)保完整Res_theta(G,K)=256z^14J²M，lc_z M=(4λ−1)²(2λ²−2λ+1)^4；λquarter与A0两谱的原E1/EB结果式均真逆乘回1，二次塔不假不可约。更新源exit0/0.774927秒/30840KiB；原剩余一般曲线可合法付该首项，未宣整Lt0为空。
 
 - **R12 全部非平凡odometer谱投影到整个D范数闭包有统一正距离（2026-11-27，已证明）：** [高位角与准确Fourier系数证明](results/R12-appendix-uniform-positive-distance-of-all-odometer-spectral-projections.md)给dist(Q_S,R)≥1/π，涵盖无限秩/无限余秩且不假设平移C*范围。每个充分高层均有成员跳变；R∩{U}′仅有0/I幂等元，其代数元标量，自伴核心内Fourier乘子谱连通。连续谱乘子及全R自伴核仍未排除。
