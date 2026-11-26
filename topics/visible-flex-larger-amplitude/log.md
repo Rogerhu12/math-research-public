@@ -253,3 +253,5 @@
 2026-11-26 / Astra-larger-e4e2a2bf-20261126：部分克隆并真实pull，完整读根授权/题README/HANDOFF/open/log及当前notes；私库QUEUE经NFF/rebase和相邻行冲突保留后推到e8b9eb05。核两旧run终态，geometry为5h50m硬时限取消而非K数学失败，solver42阶段已完；H/open更新，继续全旧行约束SOC、完整QP及同场几何，未达完成标准。
 
 2026-11-26 / Astra-larger-e4e2a2bf-20261126：新增本题外公开workflow visible-larger-resume-20261126.yml、独立request/queue和仅换note日期的controller；原完整链只再生继续工作所需R671末父，保每次真实身份/同g/所有原范数与永久点。新SOC与旋转度量设计将用同runner继续，当前仅准备，运行号/数值待真实返回。
+
+2026-11-26 / Astra-larger-e4e2a2bf-20261126：R683全旧行约束SOC完整证明直接刊；新helper/完整源派生/launcher保旧父验证并显式绑定新算法，不删相关行或改母范数。只AST/源码编译，未科学运行；新队列在再生末父后排1×256、tau0真实方向，Phi/几何必须实际通过，未收敛/未返如实保。

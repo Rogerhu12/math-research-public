@@ -299,3 +299,5 @@
 - [R679：角网格倍增的准确分解与共同旧角归因](results/R679-dyadic-angular-refinement-and-common-grid-attribution.md) — Phi/梯度/正残差Hessian的旧偶与新奇半和、固定场max单调、旧归一权减半及带未付导数常数的一致性界；N-only保物理场/范数但有限目标改变，实际新网格未运行。
 
 - [R681：当前J的物理coarse框架与原QP预条件](results/R681-current-J-coarse-frame-preconditioning.md) — 冗余坐标的正确W/一般K修正、局部Q转置、moving-frame全正谱角矩和同母范数SPD/PCG完整证明；全变量/全观察保留，尚无新PCG运行或已证加速。
+
+- [R683：保留全部旧行的约束二阶修正与原范数半空间投影](results/R683-all-old-row-constrained-second-order-correction.md) — 全部旧线性余量和固定父非线性修正目标进入同一最小范数问题；无满行秩假设的投影/对偶/KKT完整证明，严格非线性可行性另有明确局部条件。三件完整Actions源已刊，尚无新数值。
