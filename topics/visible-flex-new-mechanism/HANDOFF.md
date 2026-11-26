@@ -5,7 +5,7 @@
 
 ## 1. 授权、规则与完整前史
 
-公开本次实际pull且根/题README已读至 **fba4da9c16f432585341b0de9356425fed23c980**；根/题规则相对继承0749a4cc均空差异。私库实际pull/根README已读至 **1a995ebf0c19ea771ef0684a4f22bf94da9a960e**，QUEUE认领提交 **09f8b8b54e7cfaabaa635bae5c438c7f1521289a**；本会话仍唯一进行中，21:00 UTC前再次实际pull且根README空差异，下一不晚于21:58 UTC。
+公开本次实际pull且根/题README已读至 **887215eec9e1ff45884d7117c329942f0e17e91d**；根/题规则相对继承0749a4cc均空差异。私库实际pull/根README已读至 **1a995ebf0c19ea771ef0684a4f22bf94da9a960e**，QUEUE认领提交 **09f8b8b54e7cfaabaa635bae5c438c7f1521289a**；本会话仍唯一进行中，21:00 UTC前再次实际pull且根README空差异，下一不晚于21:58 UTC。
 
 [压缩前全文](notes/HANDOFF-before-actual337-20261127.md)及其归档链保存全部旧结论、真实输入、失败/偏离、量词与完整费用；移档不重跑已付门。[四来源与文献](notes/2026-11-27-current-four-source-topics-and-literature.md)保已读版本及用途。
 
@@ -47,7 +47,7 @@ R598同18块/576微包、ε1/12000、正势1、原单位3967798143562589、真η
 
 [f1旧完整几何](notes/2026-11-27-r582-retained-continuous-original-terminal.md)已付527.88478224秒，reach/D只证.00783057847；只属f1，不移给a237。R611旧圆/R608尾和全部早期费用沿归档保留。
 
-[a237/R621新scope](notes/2026-11-27-r582-a237-normal-curvature-implementation.md)run **45895935112**/job140169696746/sourceac528e756，21:19:21 UTC自然结束，原FINAL已读、完整收据待发布。新mean圆与同mesh全闭材料均完整；法向块实际未缓解近帽峰，不能把大上界当曲率下界。下一追溯原有限v准确Fourier primitive，新增K-only包围；同q已付参考ρ/D/globalδ/α可保留，不重做原通过门。
+[a237/R621原终态](notes/2026-11-27-r582-a237-normal-curvature-original-terminal.md)run **45895935112**/job140169696746/sourceac528e756，新665.753318451秒。新mean圆761叶给ρ≥.06072/D≤1.596499814；同mesh非圆31136叶、全闭覆盖0pending，δ≤.001983413969、α≤.02076148645、实际K上界86.981181881。R604已证嵌入/reach≥.01149673962/D≤1.600466642，比≥.007183367225仍未过.03；原Kattainer法向H11≈85.090789/环境H11同宽，不把上界当实际曲率下界。R623正付准确有限v primitive＋完整归一化余项；新K-only保留同q已付ρ/D/δ/α及原core盒，必要端点/H重建计费，不复跑原通过门。
 
 [R621](results/R621-normal-projected-covariant-blocks-and-reach-input.md)保法向投影+转动×完整环境H，单次材料/mean/A-B-C组装；[R622](results/R622-longer-intrinsic-near-pairs-and-same-bound-reach.md)给Kℓ≤5/2的9/(10K)完整近远证书。当前a237以1/K为瓶颈，R622近项更小，**不另开该标量scope**。完整原幅度/相位定理为R33/R565及joint-budget note；当前p=.181不借p=.8宏观见证，完整族像旋转恒等式只在同一真实曲面已过各门后消费。
 

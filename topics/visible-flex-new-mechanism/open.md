@@ -167,3 +167,5 @@ O5 [R622](results/R622-longer-intrinsic-near-pairs-and-same-bound-reach.md)给�
 O2b-C [新7371原终态](notes/2026-11-27-r566-physical-epigraph-original-terminal.md)已真实改善到η.2277496383；下一先补55e原1128剩余bracket，保留391已闭峰及同1322fine/oracle身份，再采用两pending库。1298旧资格不升级1322；原球/条带/曲率拒绝和一次恢复η上升完整保留，不再以旧metric epigraph瓶颈解释所有拒绝。
 
 O2b-B [全S真337终态](notes/2026-11-27-r613-full-position-sixty-step-terminal.md)以60次上限结束、末轮仍接受，不能沿用旧At/M的stall结论。正常续真238d786c/amp1e−5/damp1e−14，全950×256/1728×512与完整口不变；并将固定完整E、真实零入口/τ核心、全Jac和独立post增长接入实际模型，L2与max及条件全角误差分开。
+
+O5 [a237/R621原终态](notes/2026-11-27-r582-a237-normal-curvature-original-terminal.md)完整全闭证书仍只reach/D≥.00718337，K上界86.98118且近帽法向H11同宽。下一R623对实际v四模式逐频准确积分，同时保C−v及其全径向二jets；只新付K，原同q meanρ/D、δ/α和core盒不重算。旧1/K已限制本结果，不能为相同K重开R622标量以掩盖此瓶颈。
