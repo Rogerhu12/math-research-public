@@ -592,3 +592,7 @@ root全文核原稿及重建R581：由原R482(22)转置真实第三尾，完整�
 ## 2026-11-26 — Astra-new-mechanism-0105020f-20261126 / R582真实圆背景尾核
 
 root全文纸核真实P中两个a_s及ε指数抵消，逐项(11)–(28)样条/β/导数常数、指数有理界和所有u≥1000的单调界；又读原R569§4–7确认其Green/DtN只需已保的单谷/端窗/权势界。17q源由原stage0 FINAL逐项解析一致。新真实权不挪旧数值，仍欠穿零/核心共振及有限解；用接口在新head上立即保存，API不是actualpull。
+
+## 2026-11-26 — Astra-new-mechanism-0105020f-20261126 / 失联恢复与实际双仓pull
+
+09:18 UTC执行环境失联，最后theta513源48e30481已确实push；接口期间R581/R582/R583及新R530源/请求逐条存主支。恢复后/tmp旧clone已消失，保唯一新r576稿，在原路径重建promisor blob:none/cone sparse-index公开副本，私库重新partial clone；09:33 UTC实际pull公907b15b2ae037147f369df8030dbc0e6bf85606e/私739f658f575a7652d640bf82386814df0cb0f7a8。相对上次读根/题README均空diff、三blob同，QUEUE仍本会话。只纸证/源码与原输出解析在本地，科学仍公开Actions；恢复即继续。

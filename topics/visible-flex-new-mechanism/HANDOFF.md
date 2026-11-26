@@ -6,9 +6,9 @@
 
 ## 1. 规则与接手
 
-已部分克隆并实际 `git pull main`，公开根 README、课题 README、HANDOFF、open、results 索引及相关 log/notes 已读。公开已读提交 **94357c748babfa36a981882494dfdd173ddfe301**（2026-11-26 09:17 UTC；本次实际pull后根/题README空差异）；历次规则及失败原回执保原note；私有 QUEUE 的本题已改为本会话进行中并成功推送：**9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7**；最后实际pull及规则同blob读至 **beff3c7458835a1397c67704ac9a95d0a4717f12**（2026-11-26 08:52 UTC；磁盘满失败后改稀疏索引，重做actualpull成功，根README空差异、QUEUE仍本会话）。其它课题的并行认领保留。
+已部分克隆并实际 `git pull main`，公开根 README、课题 README、HANDOFF、open、results 索引及相关 log/notes 已读。公开已读提交 **5aac92dc3abbe7af460362e7981eeda84b05e514**（2026-11-26 09:37 UTC；本次实际pull后根/题README空差异）；历次规则及失败原回执保原note；私有 QUEUE 的本题已改为本会话进行中并成功推送：**9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7**；最后实际pull及规则同blob读至 **739f658f575a7652d640bf82386814df0cb0f7a8**（2026-11-26 09:33 UTC；失联后重建partial稀疏副本，实际pull成功，根README空差异、QUEUE仍本会话）。其它课题的并行认领保留。
 
-[前历交接](notes/HANDOFF-before-resonant-height-20261126.md)及各原note保规则、失联恢复、成本与全部限定。API读取不冒git pull。2026-11-26 09:18 UTC本地执行环境再次不可用；最后本地push已确认成功。09:21 UTC接口读至 **c1a48b0f83a7e59f3a1439bd1fdbcd384aacda36**，根/题README仍原blob；继续接口保存论文/源与公开Actions，恢复后立即actualpull/rebase。
+[前历交接](notes/HANDOFF-before-resonant-height-20261126.md)及各原note保规则、失联恢复、成本与全部限定。API读取不冒git pull。2026-11-26 09:18 UTC本地执行环境再次不可用；最后本地push已确认成功。09:21 UTC接口读至 **c1a48b0f83a7e59f3a1439bd1fdbcd384aacda36**，根/题README仍原blob；失联期间接口保存论文/源并继续公开Actions；09:33 UTC已恢复partial稀疏副本，双仓actualpull完成，未把API读取计作pull。
 
 每次pull核根/题README差异并立即执行，至少每小时一次，SHA随H更新；root独占git及共享索引。科学仅公开Actions，本地限纸证/源码/原日志解析；[3次本地开发偏离](notes/2026-11-26-r530-local-development-execution-receipt-agent.md)已如实闭账，源/参数保且已停止，不作路径或结论；根12不加机械复跑门，根15只留源码/参数/run/SHA/小结，不留可重算raw。每条完成结论即推；NFF立即pull --rebase再推。
 
