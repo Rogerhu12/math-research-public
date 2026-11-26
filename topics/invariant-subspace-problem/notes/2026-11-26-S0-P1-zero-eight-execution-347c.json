@@ -1,0 +1,101 @@
+{
+  "job": 139886236638,
+  "receipt": {
+    "elapsed_seconds": 0.14803749400000044,
+    "max_child_rss_kib": 35596,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "9f13b3910c1b795c2dfde6a4bd3447033100d774",
+        "before": "e94bd75f9e5a6f6c3369af418b9456c2896728ad",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "fef43bdf8690f2eec4751d85784a266eacdd0322"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-26T11:44:30.863566+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "45813236876",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-347c-20261126",
+    "source_commit": "e94bd75f9e5a6f6c3369af418b9456c2896728ad",
+    "source_exit_code": 0,
+    "source_git_blob": "336ca629d862cd4ee18d2e6fd4e5f38af240ac8b",
+    "source_sha256": "c723b14b198bfe1673697c8bb535f85ee00f704ed321834a3c644f9e8cf7aea1",
+    "stdout_bytes": 1417,
+    "stdout_sha256": "0a6e2fa4838999e38cce47fd626b9f5d89828278621eee754c149e4e723a8268",
+    "stop_reason": null
+  },
+  "reports": [
+    {
+      "claimExcluded": false,
+      "dimension": 8,
+      "elapsedSeconds": 0.006709,
+      "inverseChecks": 41,
+      "sourceSha256": "c723b14b198bfe1673697c8bb535f85ee00f704ed321834a3c644f9e8cf7aea1",
+      "stage": "all_eight_parameter_fibers_and_original_NV_unit_verified"
+    },
+    {
+      "P1IdenticallyZero": true,
+      "claimExcluded": false,
+      "degrees": [
+        2,
+        2,
+        2,
+        -1,
+        3,
+        3,
+        2,
+        3,
+        3
+      ],
+      "elapsedSeconds": 0.067356,
+      "inputSha256": "42c1c8b3855363669be669db8a6558a2e687acc7b37d56c7a56f1e1c214a5b38",
+      "inverseChecks": 45,
+      "sourceSha256": "c723b14b198bfe1673697c8bb535f85ee00f704ed321834a3c644f9e8cf7aea1",
+      "stage": "all_original_nine_equations_verified"
+    },
+    {
+      "P1IdenticallyZero": true,
+      "certificate": {
+        "identityMultipliedBack": true,
+        "matrixColumns": 8,
+        "matrixRows": 8,
+        "multiplierSha256": "9d90b34a44e8fed5651f57c13eaad8235bed5aa66180a852d551ee1d70ea2e35",
+        "rank": 8
+      },
+      "claimExcluded": true,
+      "claimLambdaLayerEmpty": false,
+      "claimS0LayerEmpty": false,
+      "elapsedSeconds": 0.070704,
+      "failedGlobalInverseTrials": 0,
+      "inputSha256": "42c1c8b3855363669be669db8a6558a2e687acc7b37d56c7a56f1e1c214a5b38",
+      "inverseChecks": 45,
+      "ordinaryISPClaim": false,
+      "parameterAlgebraDimension": 8,
+      "peakRssKiB": 34840,
+      "resultantPairs": [
+        [
+          "E1",
+          "EB"
+        ]
+      ],
+      "schema": "r150-unit211-S0-P1zero-native-QQ-algebra-v1",
+      "sourceSha256": "c723b14b198bfe1673697c8bb535f85ee00f704ed321834a3c644f9e8cf7aea1",
+      "status": "exact_original_eight_fibers_excluded",
+      "univariateDegrees": [
+        2,
+        2,
+        2,
+        -1,
+        3,
+        3,
+        2,
+        3,
+        3
+      ]
+    }
+  ]
+}

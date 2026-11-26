@@ -1,0 +1,346 @@
+{
+  "job": 139884027035,
+  "receipt": {
+    "elapsed_seconds": 192.126874918,
+    "max_child_rss_kib": 810064,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "9b939a186e3db36dde6077da0c16e32fd6907283",
+        "before": "6115dcc48b1ef3bd0d0e7f0291eeca8ab048a851",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "fef43bdf8690f2eec4751d85784a266eacdd0322"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-26T11:40:21.782222+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "45812602031",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-347c-20261126",
+    "source_commit": "6115dcc48b1ef3bd0d0e7f0291eeca8ab048a851",
+    "source_exit_code": 0,
+    "source_git_blob": "122bfeb193fedeaf76a900267a0cc8ca6ce06230",
+    "source_sha256": "835f951ae960667f274005eabdf0e70bc0ba7cda15227bb557bc6f6db8c96a77",
+    "stdout_bytes": 6027,
+    "stdout_sha256": "20e2d5ba3b59b03d6aca4619c424f0bb4bef084ab8693b4ce4a6d6f5a1ca5194",
+    "stop_reason": null
+  },
+  "reports": [
+    {
+      "claimExcluded": false,
+      "elapsedSeconds": 0.006849,
+      "scope": "rho,lambda,w; all original units and moments; w(w-1)!=0",
+      "stage": "original_three_parameter_L0_graph"
+    },
+    {
+      "coefficientTerms": [
+        2023,
+        1412,
+        829
+      ],
+      "elapsedSeconds": 2.171832,
+      "inputSha256": "03513dcde5f936a4b2e41a16a5b6d7c329fbd908b70acb690636b8e15ca6ae66",
+      "name": "E1",
+      "stage": "all_original_condition",
+      "tDegree": 2
+    },
+    {
+      "coefficientTerms": [
+        2663,
+        1990,
+        1369
+      ],
+      "elapsedSeconds": 2.188553,
+      "inputSha256": "e49a82b1c5cdf6d3770374e47f8d86d12f3e82e354bf1e67c13f45bc175b2a63",
+      "name": "EB",
+      "stage": "all_original_condition",
+      "tDegree": 2
+    },
+    {
+      "coefficientTerms": [
+        1626,
+        1133,
+        693
+      ],
+      "elapsedSeconds": 2.198384,
+      "inputSha256": "ad2c00ddb6d6ec7fdb2fcb141f34e59dc949d63597f9fe18601eb49073b327f9",
+      "name": "EC",
+      "stage": "all_original_condition",
+      "tDegree": 2
+    },
+    {
+      "coefficientTerms": [
+        509,
+        283
+      ],
+      "elapsedSeconds": 2.200799,
+      "inputSha256": "3792030ffede6ff3722c9bb95fd201b688d4a121b885e48d9650ecff7ed4dafd",
+      "name": "P1",
+      "stage": "all_original_condition",
+      "tDegree": 1
+    },
+    {
+      "coefficientTerms": [
+        7778,
+        6318,
+        4958,
+        3644
+      ],
+      "elapsedSeconds": 2.29487,
+      "inputSha256": "f501782bb224a22bca3fbd47ddf6077bc3ea6f0222fee550c4a27ec981f71c09",
+      "name": "PB",
+      "stage": "all_original_condition",
+      "tDegree": 3
+    },
+    {
+      "coefficientTerms": [
+        5265,
+        3768,
+        3079,
+        2329
+      ],
+      "elapsedSeconds": 2.344371,
+      "inputSha256": "4aa536b0bf3096bfc95f920477799337e39e57fae976e664e3bda27ba0dff8ab",
+      "name": "PC",
+      "stage": "all_original_condition",
+      "tDegree": 3
+    },
+    {
+      "coefficientTerms": [
+        2235,
+        1755,
+        1071
+      ],
+      "elapsedSeconds": 2.378892,
+      "inputSha256": "a6c0b201591cbb090a548f092242558e2af1eb3e69524982b0a3ca6d7abc82e9",
+      "name": "N1",
+      "stage": "all_original_condition",
+      "tDegree": 2
+    },
+    {
+      "coefficientTerms": [
+        4766,
+        3889,
+        2918,
+        1651
+      ],
+      "elapsedSeconds": 2.423436,
+      "inputSha256": "c058ed8a2f34c28e5b5f9a452286ae1d29cdfd60d735c25cbfe9b86a2e1feee1",
+      "name": "NB",
+      "stage": "all_original_condition",
+      "tDegree": 3
+    },
+    {
+      "coefficientTerms": [
+        3392,
+        2528,
+        1995,
+        1271
+      ],
+      "elapsedSeconds": 2.452656,
+      "inputSha256": "8d07698ea801bf8973b4887706393802cf964ef9ee7ef60af0b804e5dc662575",
+      "name": "NC",
+      "stage": "all_original_condition",
+      "tDegree": 3
+    },
+    {
+      "degrees": [
+        10,
+        17,
+        18
+      ],
+      "elapsedSeconds": 9.307069,
+      "name": "P1_E1",
+      "sha256": "8fb4abe0a65d1c9b82247df61b5da614a9faf09eb6db3f9356944a32daca66c6",
+      "stage": "original_no_leading_division_projection",
+      "terms": 2491
+    },
+    {
+      "degrees": [
+        11,
+        20,
+        18
+      ],
+      "elapsedSeconds": 9.315517,
+      "name": "P1_EB",
+      "sha256": "d283d1317663e930a104f6dedbc089f33f0932b156591353d18906d1f6e7ce8a",
+      "stage": "original_no_leading_division_projection",
+      "terms": 3288
+    },
+    {
+      "degrees": [
+        11,
+        18,
+        18
+      ],
+      "elapsedSeconds": 9.322593,
+      "name": "P1_EC",
+      "sha256": "fb55cc367a2439b06576dd96dae4978e48d1bcea3e7daea363b8ba812fddd776",
+      "stage": "original_no_leading_division_projection",
+      "terms": 2754
+    },
+    {
+      "degrees": [
+        16,
+        28,
+        27
+      ],
+      "elapsedSeconds": 9.360748,
+      "name": "P1_PB",
+      "sha256": "dc0b71b9da68800f78e7b60b67fe23a3feae33de343b4fe22b11b764479f773d",
+      "stage": "original_no_leading_division_projection",
+      "terms": 9286
+    },
+    {
+      "degrees": [
+        16,
+        30,
+        26
+      ],
+      "elapsedSeconds": 9.396496,
+      "name": "P1_PC",
+      "sha256": "fbbc9a29b8dfe4942121b5356e5058e47e4dc6562ffc0fb37da227be4f3273c5",
+      "stage": "original_no_leading_division_projection",
+      "terms": 9704
+    },
+    {
+      "degrees": [
+        10,
+        17,
+        19
+      ],
+      "elapsedSeconds": 9.414649,
+      "name": "P1_N1",
+      "sha256": "64530f946b304d5ecc57458fab1dcc836b5c10d3635bcc66247a4f7bc94712c3",
+      "stage": "original_no_leading_division_projection",
+      "terms": 2690
+    },
+    {
+      "degrees": [
+        15,
+        25,
+        25
+      ],
+      "elapsedSeconds": 9.442882,
+      "name": "P1_NB",
+      "sha256": "667c207ce739592d1211ab18725085b08dd86ff5a358a4f2d0f309fdc9bede85",
+      "stage": "original_no_leading_division_projection",
+      "terms": 7497
+    },
+    {
+      "degrees": [
+        15,
+        28,
+        26
+      ],
+      "elapsedSeconds": 9.475131,
+      "name": "P1_NC",
+      "sha256": "629acafc170c6c4cd6b6eddba268ee7888daab836799e556f6f87922cf5b69fd",
+      "stage": "original_no_leading_division_projection",
+      "terms": 8406
+    },
+    {
+      "degrees": [
+        16,
+        34,
+        26
+      ],
+      "elapsedSeconds": 9.519677,
+      "name": "E1_EB",
+      "sha256": "660b21f17b6888ef7c92e4d7ac752447f0214bb4e4e001006e737a6cf6628924",
+      "stage": "original_no_leading_division_projection",
+      "terms": 10900
+    },
+    {
+      "degrees": [
+        16,
+        34,
+        26
+      ],
+      "elapsedSeconds": 9.561724,
+      "name": "E1_EC",
+      "sha256": "d551e7d69b10da1c923d04ea54fe7f2eda8b9c34788f68cca3a64beb57422d18",
+      "stage": "original_no_leading_division_projection",
+      "terms": 10891
+    },
+    {
+      "degrees": [
+        16,
+        34,
+        26
+      ],
+      "elapsedSeconds": 9.598074,
+      "name": "EB_EC",
+      "sha256": "47c339cebbada76063bb72d5cda32494b334519852a56ebbce283f5ba744bb1c",
+      "stage": "original_no_leading_division_projection",
+      "terms": 10747
+    },
+    {
+      "degrees": [
+        12,
+        25,
+        25
+      ],
+      "elapsedSeconds": 9.705445,
+      "name": "E1_N1",
+      "sha256": "637154d92ad7c8a8f5c0d4515bd08f119f27f178d2a54059777e21297aab3c70",
+      "stage": "original_no_leading_division_projection",
+      "terms": 6465
+    },
+    {
+      "degrees": [
+        17,
+        36,
+        29
+      ],
+      "elapsedSeconds": 9.934753,
+      "name": "EB_N1",
+      "sha256": "a59cb019269facca0b00d50acf2e759ec27a03cc32ef619956a321bc61a71e43",
+      "stage": "original_no_leading_division_projection",
+      "terms": 13940
+    },
+    {
+      "degrees": [
+        17,
+        34,
+        28
+      ],
+      "elapsedSeconds": 10.116118,
+      "name": "EC_N1",
+      "sha256": "8eebdca855d51497e686e4353f8820ba342e305610bae6f99254923c26f52284",
+      "stage": "original_no_leading_division_projection",
+      "terms": 12744
+    },
+    {
+      "bytes": 2487087,
+      "claimExcluded": false,
+      "elapsedSeconds": 11.876528,
+      "generators": 15,
+      "prime": 1031,
+      "sha256": "f0eb8838cebc22236a35678542719d66f6e2787844721f364db781003bd40c8c",
+      "sourceSha256": "835f951ae960667f274005eabdf0e70bc0ba7cda15227bb557bc6f6db8c96a77",
+      "stage": "singular_input"
+    },
+    {
+      "claimExcluded": false,
+      "elapsedSeconds": 192.037736,
+      "limitSeconds": 180,
+      "outcome": "unresolved",
+      "stage": "singular_timeout",
+      "stdoutSha256": "e5e727235b648132688aac8a97eb0e241e147dc5318fd536f8bca49404269be4",
+      "text": "ISP_BEGIN_L0_GENERAL_ORIGINAL\n"
+    },
+    {
+      "claimExcluded": false,
+      "claimLambdaLayerEmpty": false,
+      "elapsedSeconds": 192.038502,
+      "ordinaryISPClaim": false,
+      "scope": "original L0 general w(w-1)!=0; necessary homogeneous projections and original mean resultants",
+      "sourceSha256": "835f951ae960667f274005eabdf0e70bc0ba7cda15227bb557bc6f6db8c96a77",
+      "stage": "complete_probe"
+    }
+  ]
+}

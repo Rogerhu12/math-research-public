@@ -5,9 +5,9 @@
 ## 主目标、规则与执行
 
 - **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仅全体有界算子的存在定理或完整反例；子结果不作完成，继续研究。
-- **最近实际pull / 已读规则提交：** `64b43d744e0ddb9f013f68cb9f83c7d8b8423166`（2026-11-26 11:25:52 UTC，公开Actions实际pull；本地最后pull为09:16:03 UTC）。两README blob无差异；每次pull和至少每小时查diff，记录SHA。
+- **最近实际pull / 已读规则提交：** `9f13b3910c1b795c2dfde6a4bd3447033100d774`（2026-11-26 11:44:30 UTC，公开Actions实际pull；本地最后pull为09:16:03 UTC）。两README blob无差异；每次pull和至少每小时查diff，记录SHA。
 - 私库QUEUE认领已推 `e776df496eedfa449b0475cefe140fdae7023db4`；研究在公开仓库。每结论单推，推前pull/rebase；NFF/ref锁拒绝循环rebase再推，不force，令牌仅CLI。
-- 本地执行环境09:19 UTC后unavailable；最近云端main/规则读取 `5cef62142b47975b341aa9ea24252fe335e0c219`（2026-11-26 11:44:04 UTC），两README blob未变。此为API读取，不冒充git pull；公开Actions驱动继续实际pull及3300秒规则检查。根通过非force/expected-head原子提交保并发；CLI恢复后立即pull/rebase。只保存源、参数、SHA和小回执。
+- 本地执行环境09:19 UTC后unavailable；最近云端main/规则读取 `8be35d1c830839ef29faa62e701f07d26e18a45c`（2026-11-26 11:52:10 UTC），两README blob未变。此为API读取，不冒充git pull；公开Actions驱动继续实际pull及3300秒规则检查。根通过非force/expected-head原子提交保并发；CLI恢复后立即pull/rebase。只保存源、参数、SHA和小回执。
 - 最新完整前H见[压缩快照](notes/2026-11-26-handoff-before-complete-tail-hardening-347c.md)及其归档链。MD<100KB、H<10KB、open尽量<30KB、topic<200MB，不写根LOG。
 - 已登记请求14/311、权11及旧结式不重算。当前并行：unit211非零m；rankV2/rankH3的ess6；R271真实加权源与物理清除。
 
@@ -26,12 +26,12 @@
 
 - **[unit211整个零m分支已闭](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-nonzero-base-highest-zero-isolated-mean-exclusion.md)：** 两QQ高曲线结式671/629、2876/2736的gcd仅已付u0/1/−2；原低曲线、奇异面/P0零及秩二族全排。run45789670184/job139805205519、0374源、1443.281305秒/297956KiB/exit0。勿再做零m，续非零m。
 - **[unit211非零m的整个u1图已闭](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-nonzero-isolated-mean-unit-base-complete-exclusion.md)：** 原高曲线仅余l2；整个Q九次代数的共同原z因子为1，13真逆全付。run45804559912/job139856248459、5.703188秒/exit0。一般u≠1依[原U值图](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-original-U-value-atlas.md)继续：保值碰撞与所有L/S零面，不重做u1。
-- **[L0/w1整层已闭](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-U-value-L0-w1-exclusion.md)：** ρ/D/N/M/J原单位账本、两P1齐次投影均保首项零纤维，原QQ范数gcd64→48→0；run45808873477/job139871189527、0.222536秒/exit0。L0只续w(w−1)≠0的三参数图；S0非同时零现保二次值代数、两个参数及P1双齐次投影，均继续原式。LS非零亦开。原权重13式已生成；mod门121.37秒达4GiB内存界仍未决，转降维输入。
-- **[S0/Af0/I=H0全部M6纤维已闭](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-U-value-S0-M6-exclusion.md)：** 完整24维QQ代数保全部λ/x/q，原P1系数全局单位；E1/EB的未除首项结果式有真QQ逆，48次逆及24阶乘法身份均回乘。run45808427743/job139869664343、2.914484秒/exit0。S0碰撞亦全空；[原P1两图覆盖](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-original-P1-S0-linear-cover.md)付全部双系数同时零面，每原解可合法解f或t。只续I/H非同时零的(λ,z)图；另执行S0/P1双变量系数零的完整8维原代数门（Af及L均真单位），尚未宣排。
+- **[L0/w1整层已闭](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-U-value-L0-w1-exclusion.md)：** ρ/D/N/M/J原单位账本、两P1齐次投影均保首项零纤维，原QQ范数gcd64→48→0；run45808873477/job139871189527、0.222536秒/exit0。L0三参数原九式与14投影已生成，但mod门180秒未决，续精确因子/投影；S0非同时零现保二次值代数、两个参数及P1双齐次投影，均继续原式。LS非零亦开。原权重13式已生成；mod门121.37秒达4GiB内存界仍未决，转降维输入。
+- **[S0/Af0/I=H0全部M6纤维已闭](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-U-value-S0-M6-exclusion.md)：** 完整24维QQ代数保全部λ/x/q，原P1系数全局单位；E1/EB的未除首项结果式有真QQ逆，48次逆及24阶乘法身份均回乘。run45808427743/job139869664343、2.914484秒/exit0。S0碰撞亦全空；[原P1两图覆盖](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-original-P1-S0-linear-cover.md)付全部双系数同时零面，每原解可合法解f或t。只续I/H非同时零的(λ,z)图；[整个S0/P1双系数零支已排](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-P1-zero-coefficients-exclusion.md)：M4全部8维原代数、45真逆及原E1/EB单位身份，run45813236876/job139886236638、0.070704秒/exit0。
 - rankH3三不同点、H自身Gram退化的ess6：F0、V二jet、非零Hp全空；只余双约化、F≠0、Hp0、Gram秩2且两非零边。非退化三点H也继续。不能以H子Gram退化代整个六维K退化。
 - rankH3单三jet、rankV2整层ess≤5已闭：Hp0所有特殊/∞、V二jet及Hp0原十六维代数全付；F=−m原jet得1=5/2。不要重做旧余支。
 - **[2+1型H非零Hp整层ess≤5](results/R150-appendix-rank-three-double-plus-single-second-cumulant-nonzero-hp-essential-six-exclusion.md)：** 原重节点/J及所有At/τ/γ零面均保；QQ93/126的Q2/Q4异常谱由六真逆排除。run45795365604/job139824523000、df42d64c、0.011089秒/exit0。合并退化/V二jet/F0/e0后仅余非退化Hp0约化V。
-- **2+1型Hp0九次Gram仅余四源全有限：** 所有H/V的∞分支全闭，不重做（源/谱/32真逆见结果索引和前H）。[原等价重建](results/R150-appendix-rank-three-double-plus-single-zero-hp-finite-source-rational-reconstruction.md)保全部Γ/N/最高系数；[同Π低次数理想相等](results/R150-appendix-rank-three-double-plus-single-zero-hp-lowered-original-ideal-equivalence.md)将孤立源d八次喷射降二次，A/T非零由原式迫出，未增开集。原mod1031/e700基1已付，首次真Ke900秒未决；新低次真Ke源在执行，仍须实际I*C=1。
+- **2+1型Hp0九次Gram仅余四源全有限：** 所有H/V的∞分支全闭，不重做（源/谱/32真逆见结果索引和前H）。[原等价重建](results/R150-appendix-rank-three-double-plus-single-zero-hp-finite-source-rational-reconstruction.md)保全部Γ/N/最高系数；[同Π低次数理想相等](results/R150-appendix-rank-three-double-plus-single-zero-hp-lowered-original-ideal-equivalence.md)将孤立源d八次喷射降二次，A/T非零由原式迫出，未增开集。原mod1031/e700基1已付，两次真Ke各900秒未决，第二次六恒等式/fieldcheck已过；现接同Π上C/G两条d一次式，仍须实际I*C=1。
 
 原纯三次判据为Q=B³−27A²D，旧正号不可作证。4212来源/系数高度、全局Bell自然幂、全部共同域与算子桥仍开；每图要原真幂来源，再以N=1+Σ(Ni−1)粘合，几何覆盖不能替代。
 

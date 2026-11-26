@@ -241,3 +241,6 @@ AI-assisted GPT-6 Astra Pro：[完整理想相等证明](results/R150-appendix-r
 
 ## 2026-11-26 11:44:03 UTC — Astra-ISP-347c-20261126：S0原P1全零系数的完整八维输入
 AI-assisted GPT-6 Astra Pro：[原小例外输入](notes/2026-11-26-S0-P1-zero-eight-algebra-checkpoint-347c.md)保M4全根与两个值分配，原Af/L单位、N(V)解f和全部九式由真QQ运算决定。新共享workflow只执行这未闭有限纤维，不重跑M6/L0w1；实际结果返回后再定范围。
+
+## 2026-11-26 11:52:05 UTC — Astra-ISP-347c-20261126：整个S0/P1双系数零例外关闭
+AI-assisted GPT-6 Astra Pro：[完整覆盖与排除](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-P1-zero-coefficients-exclusion.md)保M4全部8参数，原NV定f、P1恒零、E1/EB的QQ单位身份及45真逆，实际0.070704秒/exit0。另据实留档L0投影门180秒、第二Ke门900秒未决；新共享workflow转同Π的两条d一次原式，不重跑旧模/Ke门。

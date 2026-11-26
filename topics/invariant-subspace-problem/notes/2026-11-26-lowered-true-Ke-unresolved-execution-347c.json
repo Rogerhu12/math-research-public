@@ -1,0 +1,68 @@
+{
+  "scope": "Actual lowered characteristic-zero lift unresolved at900s; fieldcheck and smoke passed, no unit identity",
+  "run_id": 45811767205,
+  "job_id": 139881145915,
+  "universal_identities": {
+    "count": 6,
+    "new_open_factors": [],
+    "scope": "exactly equivalent to frozen original seven equations on the SAME original Pi chart",
+    "seconds": 7.538716923999999,
+    "stage": "universal_lowering_identities_complete",
+    "unit_A_reason": "lowered norm and old Pi",
+    "unit_T_reason": "lowered jet and old Pi plus A"
+  },
+  "input": {
+    "address_space_limit_bytes": 4294967296,
+    "bytes": 468884,
+    "field": "QQ[e]/G9",
+    "field_irreducibility": "already proved by original prime-37 Rabin identities",
+    "generators": 8,
+    "inverse_variable": "n=1/Pi",
+    "physical_variables": [
+      "d=w-s",
+      "z",
+      "x",
+      "s"
+    ],
+    "seconds": 7.561013165000006,
+    "sha256": "b7c45419b37c6d145f73c0f272c4d244bb3e1e79bb0e257fb3527e60587306bf",
+    "stage": "singular_Ke_input",
+    "wall_limit_seconds": 900
+  },
+  "outcome": {
+    "limit_seconds": 900,
+    "outcome": "unresolved",
+    "seconds": 907.753830768,
+    "stage": "true_Ke_bounded_timeout",
+    "stdout_sha256": "04e5ea78f4948ce25bca0ac99472277385f3a8e850c773701601266ab4e7ef46",
+    "text": "ISP_KE_FIELD_RELATION_VERIFIED\nISP_BEGIN_KE_LIFT_SMOKE\nISP_KE_LIFT_SMOKE_VERIFIED\nISP_BEGIN_TRUE_KE_ORIGINAL_LIFT\n"
+  },
+  "execution_receipt": {
+    "elapsed_seconds": 908.163119284,
+    "max_child_rss_kib": 1142156,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "d673a8dc75646f1fd240bce9ade3e28dfefc8804",
+        "before": "d673a8dc75646f1fd240bce9ade3e28dfefc8804",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "fef43bdf8690f2eec4751d85784a266eacdd0322"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-26T11:34:34.723013+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "45811767205",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-347c-20261126",
+    "source_commit": "d673a8dc75646f1fd240bce9ade3e28dfefc8804",
+    "source_exit_code": 1,
+    "source_git_blob": "8a1fea8b6edc2fffa8c066fe015e05a01af2622f",
+    "source_sha256": "e1dbe53ef16577d8bd40168d262057634da43983393f5e232c0e58f50f6af380",
+    "stdout_bytes": 7393,
+    "stdout_sha256": "cd77e69882f472f9ee0c7c4e73e06623f450c9d04a33cdd6cc25dd007adef199",
+    "stop_reason": null
+  }
+}
