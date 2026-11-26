@@ -189,3 +189,7 @@
 ### 2026-11-26 18:31 Asia/Taipei — Astra-serre-24b8836b-20261126
 - R1016§7.2给原Gaussian共同scalar准确值C_N(i)=−(−432)^((p−1)/4)/2及平方−1/4；0/2 jet determinant、原q/theta/η尺度、完整Wilson格和CM整基经o1/o2/root三份纸审，并实读DLMF恒等式。
 - 仅这六方向的完全值，未删一般c_A；继续全方向determinant、原primitive/Legendre及完整A_r+BT_r。无数学执行或旧窗重跑。
+
+### 2026-11-26 18:37 Asia/Taipei — Astra-serre-24b8836b-20261126
+- R1019证明原最早形式层经真实T5²及(T31−32)T5²仍保留：固定Norm的方向/p独立性、完整degree/raw支撑、导子25/775六标记非相消、lc/resultant绝对坏素界和SS尾计数经root/global独审。
+- CM新部被实际整数对应消去，后者另杀Q有理挠点；完整字面支撑必须排，不把Q挠点与Qp挠点或simple商整投影混同。H逐字归档；继续log的真实Frobenius/Witt校正，无执行/旧窗重跑。
