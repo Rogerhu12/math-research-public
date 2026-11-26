@@ -309,3 +309,6 @@ AI-assisted GPT-6 Astra Pro：登记从完整原N含V项导出的两个H端点�
 ## 2026-11-26 13:22:25 UTC — Astra-ISP-347c-20261126：全部正远孔整行和原matched全幂费用
 AI-assisted GPT-6 Astra Pro：登记保全部p≠q交叉的统一Bessel定理、27J逆权与原完整cut/MP最优型；真实f−a_full仅付Γ²≤27μ1且锚趋0，不移给有锚f或第二Green。保存L0原ρ投影成功/未排与S0/h1有限候选exit2回执；h1直接回十参数原式，不重算490秒投影。
 执行调整：新增h1有限原返回工作流，保既有实际pull/规则检查；open压缩并保完整快照。
+
+## 2026-11-26 13:37:41 UTC — Astra-ISP-347c-20261126：S0的h1/k1完整原碰撞关闭
+AI-assisted GPT-6 Astra Pro：同一d²=−7内保五b值/十相关参数，原P1/E1/EB的q域全gcd1，run45828523733/job139938856153、0.156409秒/exit0；490秒投影exit2保持原记录。另保存一般H3 Nfirst真Ke3的280秒/4GiB未决回执，改个别源输入；H/open完整快照后压缩，不改普通ISP未完成状态。

@@ -1,0 +1,262 @@
+{
+  "schema": "r150-unit211-S0-h1-k1-complete-original-exclusion-observed-v1",
+  "repository": "Rogerhu12/math-research-public",
+  "run": 45828523733,
+  "job": 139938856153,
+  "conclusion": "success",
+  "projectionPredecessorReceiptBlob": "910b89582fdd15d2ab1d13bcdd8147a93c46b01b",
+  "mathematicalResult": {
+    "claimExcluded": true,
+    "claimWholeS0LayerEmpty": false,
+    "elapsedSeconds": 0.156409,
+    "inputSha256": "78efb0139e4e31423aa2dfb788488ae323a5864e2af522fb53b307777ee13b73",
+    "ordinaryISPClaim": false,
+    "peakRssKiB": 40528,
+    "reports": [
+      {
+        "bValue": "1/2",
+        "excluded": true,
+        "fieldInverseIdentitiesChecked": 55,
+        "history": [
+          {
+            "degree": 1,
+            "removedOriginalUnit": "q"
+          },
+          {
+            "degree": 1,
+            "removedOriginalUnit": "q"
+          },
+          {
+            "degree": 1,
+            "removedOriginalUnit": "q"
+          },
+          {
+            "degree": 1,
+            "removedOriginalUnit": "q"
+          },
+          {
+            "degree": 1,
+            "removedOriginalUnit": "q"
+          },
+          {
+            "degree": 1,
+            "removedOriginalUnit": "q"
+          },
+          {
+            "degree": 1,
+            "removedOriginalUnit": "q"
+          },
+          {
+            "degree": 1,
+            "removedOriginalUnit": "q"
+          },
+          {
+            "degree": 1,
+            "removedOriginalUnit": "q"
+          },
+          {
+            "originalPair": [
+              "P1",
+              "E1"
+            ],
+            "remainingQDegree": 5
+          },
+          {
+            "originalPair": [
+              "P1",
+              "EB"
+            ],
+            "remainingQDegree": 0
+          }
+        ],
+        "parameterRoots": 2,
+        "remainingQDegree": 0,
+        "wholeFiberOriginalUnitZero": null
+      },
+      {
+        "bValue": "1/4*x + 3/4",
+        "excluded": true,
+        "fieldInverseIdentitiesChecked": 45,
+        "history": [
+          {
+            "degree": 1,
+            "removedOriginalUnit": "q"
+          },
+          {
+            "degree": 1,
+            "removedOriginalUnit": "q"
+          },
+          {
+            "degree": 1,
+            "removedOriginalUnit": "q"
+          },
+          {
+            "degree": 1,
+            "removedOriginalUnit": "q"
+          },
+          {
+            "originalPair": [
+              "P1",
+              "E1"
+            ],
+            "remainingQDegree": 10
+          },
+          {
+            "originalPair": [
+              "P1",
+              "EB"
+            ],
+            "remainingQDegree": 0
+          }
+        ],
+        "parameterRoots": 2,
+        "remainingQDegree": 0,
+        "wholeFiberOriginalUnitZero": null
+      },
+      {
+        "bValue": "(-1/4)*x + 3/4",
+        "excluded": true,
+        "fieldInverseIdentitiesChecked": 41,
+        "history": [
+          {
+            "degree": 1,
+            "removedOriginalUnit": "q"
+          },
+          {
+            "degree": 1,
+            "removedOriginalUnit": "q"
+          },
+          {
+            "originalPair": [
+              "P1",
+              "E1"
+            ],
+            "remainingQDegree": 12
+          },
+          {
+            "originalPair": [
+              "P1",
+              "EB"
+            ],
+            "remainingQDegree": 0
+          }
+        ],
+        "parameterRoots": 2,
+        "remainingQDegree": 0,
+        "wholeFiberOriginalUnitZero": null
+      },
+      {
+        "bValue": "1/28*x + 13/28",
+        "excluded": true,
+        "fieldInverseIdentitiesChecked": 41,
+        "history": [
+          {
+            "degree": 1,
+            "removedOriginalUnit": "q"
+          },
+          {
+            "degree": 1,
+            "removedOriginalUnit": "q"
+          },
+          {
+            "originalPair": [
+              "P1",
+              "E1"
+            ],
+            "remainingQDegree": 12
+          },
+          {
+            "originalPair": [
+              "P1",
+              "EB"
+            ],
+            "remainingQDegree": 0
+          }
+        ],
+        "parameterRoots": 2,
+        "remainingQDegree": 0,
+        "wholeFiberOriginalUnitZero": null
+      },
+      {
+        "bValue": "(-1/28)*x + 13/28",
+        "excluded": true,
+        "fieldInverseIdentitiesChecked": 49,
+        "history": [
+          {
+            "degree": 1,
+            "removedOriginalUnit": "q"
+          },
+          {
+            "degree": 1,
+            "removedOriginalUnit": "q"
+          },
+          {
+            "degree": 1,
+            "removedOriginalUnit": "q-1"
+          },
+          {
+            "degree": 1,
+            "removedOriginalUnit": "q-1"
+          },
+          {
+            "degree": 1,
+            "removedOriginalUnit": "q-1"
+          },
+          {
+            "degree": 1,
+            "removedOriginalUnit": "q-1"
+          },
+          {
+            "originalPair": [
+              "P1",
+              "E1"
+            ],
+            "remainingQDegree": 8
+          },
+          {
+            "originalPair": [
+              "P1",
+              "EB"
+            ],
+            "remainingQDegree": 0
+          }
+        ],
+        "parameterRoots": 2,
+        "remainingQDegree": 0,
+        "wholeFiberOriginalUnitZero": null
+      }
+    ],
+    "scope": "complete S=0,h=1; k=1 by B/C relabeling; all original equations and every lambda/b conjugate retained",
+    "sourceSha256": "98ae1328f1e690c7225768ed3664b4ec9582cbc678f28dbbc8351e9f04d8d4d9",
+    "status": "entire_S0_h1_and_symmetric_k1_collision_excluded"
+  },
+  "driverReceipt": {
+    "elapsed_seconds": 0.2159557280000044,
+    "max_child_rss_kib": 41272,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "9508ad3286243b49004fd4bee81f6add40f3acd9",
+        "before": "9508ad3286243b49004fd4bee81f6add40f3acd9",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "fef43bdf8690f2eec4751d85784a266eacdd0322"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-26T13:22:51.121584+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "45828523733",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-347c-20261126",
+    "source_commit": "9508ad3286243b49004fd4bee81f6add40f3acd9",
+    "source_exit_code": 0,
+    "source_git_blob": "0c679859abb3a1adb9f6dda36f7953735126b681",
+    "source_sha256": "98ae1328f1e690c7225768ed3664b4ec9582cbc678f28dbbc8351e9f04d8d4d9",
+    "stdout_bytes": 7965,
+    "stdout_sha256": "c1d3dac7a038bbf6224b1720240e25a1f51161ed22c7c9e23794332b473879b4",
+    "stop_reason": null
+  },
+  "scope": "Entire original S=0,h=1 and the B/C symmetric k=1 collision. The 490-second finite b projection remains a separate actual exit2 dependency."
+}

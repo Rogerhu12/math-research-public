@@ -1,0 +1,287 @@
+{
+  "schema": "isp-bounded-characteristic-zero-lift-record-v1",
+  "run_id": 45827161540,
+  "job_id": 139934167647,
+  "status": "UNRESOLVED: actual characteristic-zero lift exceeded 4GiB address-space bound; no original unit identity",
+  "completed": "all original kernel/source/strong phase/N derivative universal construction checks passed; Ke3 field relation and lift smoke identities passed",
+  "failure": "Singular4.4.1 returned14 with no more memory; actual source280.311245518s, driver280.382001415s; input4,447,633 bytes with11 generators; no I*C=1",
+  "source_input_sha256": "c10cb997aa5960ec848edf26d95e2beeb185ef1dbc720a1331fc40b46bc87ad8",
+  "actual_stages": [
+    {
+      "degrees": [
+        0,
+        4,
+        3,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "integer_content_removed": 1,
+      "label": "original_H_zero_edge",
+      "seconds": 5.275542893000008,
+      "sha256": "9110e1546c4d363ab8bb30611f6d5ad8b8134f47c563a8eb20eaa64493e6fc3a",
+      "stage": "original_Nfirst_equation",
+      "terms": 16
+    },
+    {
+      "degrees": [
+        0,
+        8,
+        6,
+        4,
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "integer_content_removed": 1,
+      "label": "original_V_source_constant",
+      "seconds": 5.276923930999999,
+      "sha256": "35a5ee8f5b20e69eab63feff00dbefa2ed1863265984e4a157cc979ef9a4ce1c",
+      "stage": "original_Nfirst_equation",
+      "terms": 172
+    },
+    {
+      "degrees": [
+        0,
+        8,
+        5,
+        4,
+        2,
+        1,
+        0,
+        0,
+        0
+      ],
+      "integer_content_removed": 1,
+      "label": "original_V_source_linear",
+      "seconds": 5.278328533999996,
+      "sha256": "9a6ab5e06724cd4839878074372ab2a038c535a108adf5f1ff3f937ba385f6c3",
+      "stage": "original_Nfirst_equation",
+      "terms": 199
+    },
+    {
+      "degrees": [
+        0,
+        16,
+        8,
+        5,
+        10,
+        8,
+        0,
+        0,
+        0
+      ],
+      "integer_content_removed": 1,
+      "label": "unsquared_primitive_phase_constant",
+      "seconds": 5.340431697,
+      "sha256": "232879e25c9dee9eb5e05fc6707167f005b2773ffcdead5a67cd243ddc9ffe80",
+      "stage": "original_Nfirst_equation",
+      "terms": 8718
+    },
+    {
+      "degrees": [
+        0,
+        16,
+        9,
+        4,
+        10,
+        8,
+        0,
+        0,
+        0
+      ],
+      "integer_content_removed": 1,
+      "label": "unsquared_primitive_phase_linear",
+      "seconds": 5.414406654000004,
+      "sha256": "ca48621ef27c10e851471e09009c9b2e75441a01e9fbdde189f78a45fd494dbc",
+      "stage": "original_Nfirst_equation",
+      "terms": 10217
+    },
+    {
+      "degrees": [
+        0,
+        16,
+        8,
+        5,
+        10,
+        8,
+        1,
+        0,
+        0
+      ],
+      "integer_content_removed": 1,
+      "label": "original_e_norm_constant",
+      "seconds": 5.50107155100001,
+      "sha256": "4332c1537884894ecea3b7f0b91e99fac79c1673cceec1e2bd20eb76315bb02d",
+      "stage": "original_Nfirst_equation",
+      "terms": 11670
+    },
+    {
+      "degrees": [
+        0,
+        16,
+        9,
+        4,
+        10,
+        8,
+        1,
+        0,
+        0
+      ],
+      "integer_content_removed": 1,
+      "label": "original_e_norm_linear",
+      "seconds": 5.604768770000007,
+      "sha256": "aea03d3d8eae0bb9c013f5b6ec0c15abb9bad1ecdd7120fe9c072c99f9faa77b",
+      "stage": "original_Nfirst_equation",
+      "terms": 13738
+    },
+    {
+      "degrees": [
+        0,
+        20,
+        7,
+        6,
+        10,
+        8,
+        2,
+        0,
+        0
+      ],
+      "integer_content_removed": 1,
+      "label": "original_N_H_endpoint_derivative_constant",
+      "seconds": 5.831539294999999,
+      "sha256": "a9b810b02f123eb77c6ad6702c6f2a322c014838666270076d8c4c4509f92a26",
+      "stage": "original_Nfirst_equation",
+      "terms": 29515
+    },
+    {
+      "degrees": [
+        0,
+        20,
+        8,
+        5,
+        10,
+        8,
+        2,
+        0,
+        0
+      ],
+      "integer_content_removed": 1,
+      "label": "original_N_H_endpoint_derivative_linear",
+      "seconds": 6.085165429,
+      "sha256": "e7503c8682c90217c21119ffdd982db74a52a3fe8036dfbaa050ad600613142d",
+      "stage": "original_Nfirst_equation",
+      "terms": 32581
+    },
+    {
+      "degrees": [
+        0,
+        24,
+        10,
+        8,
+        10,
+        8,
+        1,
+        0,
+        0
+      ],
+      "integer_content_removed": 1,
+      "label": "original_N_central_derivative",
+      "seconds": 6.541694183000004,
+      "sha256": "5ede409afd0c0b2ddc95982a1860c9173ca4e5a1ed2cc071fe2261128224a9b3",
+      "stage": "original_Nfirst_equation",
+      "terms": 57593
+    },
+    {
+      "degrees": [
+        1,
+        22,
+        5,
+        4,
+        8,
+        7,
+        0,
+        0,
+        0
+      ],
+      "integer_content_removed": 1,
+      "label": "only_original_physical_units",
+      "seconds": 6.5866722740000085,
+      "sha256": "a0e0a0b824bc505fb1637bcd3bb4f981a41de1fc27a8b20117bed73fc892b054",
+      "stage": "original_Nfirst_equation",
+      "terms": 6345
+    },
+    {
+      "center_minus_six_retained": true,
+      "field": "QQ[e]/(2e^3+1)",
+      "finite_center_exceptions_removed": [
+        0,
+        2
+      ],
+      "physical_unit": "c(c-2)*(A^2-4b)*E0*EV*kV",
+      "scope": "actual transformed K, monic H/V source divisors, unsquared primitive Gram phase, three original N first derivatives",
+      "seconds": 6.586742991000008,
+      "stage": "original_universal_identities_complete"
+    },
+    {
+      "returncode": 0,
+      "seconds": 6.593599083000001,
+      "stage": "singular_version",
+      "text": "Singular for x86_64-Linux version 4.4.1 (44105, 64 bit) Dec  6 2025 11:10:58"
+    },
+    {
+      "address_space_limit_bytes": 4294967296,
+      "bytes": 4447633,
+      "field": "QQ[e]/(2e^3+1)",
+      "field_irreducibility": "cubic has no rational root; equivalently reciprocal polynomial u^3+2 is Eisenstein at2",
+      "generators": 11,
+      "seconds": 6.7081873130000105,
+      "sha256": "c10cb997aa5960ec848edf26d95e2beeb185ef1dbc720a1331fc40b46bc87ad8",
+      "stage": "singular_Ke3_input",
+      "wall_limit_seconds": 900
+    },
+    {
+      "identity_verified": false,
+      "returncode": 14,
+      "seconds": 280.311245518,
+      "stage": "singular_Ke3_output",
+      "stdout_sha256": "3c6d351648515bc8230a27df05eefc07ca521a882589f349c9c025f7c2f7e991",
+      "text": "ISP_KE3_FIELD_RELATION_VERIFIED\nISP_KE3_LIFT_SMOKE_VERIFIED\nISP_BEGIN_ORIGINAL_NFIRST_TRUE_KE3_LIFT\n\nSingular error: no more memory\nSystem 4160992k:4208096k Appl 3571921k/174813k Malloc 3130287k/0k Valloc 616448k/174813k Pages 115124/38988 Regions 301:324 Internal: 38040\n\nhalt 14\n"
+    }
+  ],
+  "execution_receipt": {
+    "elapsed_seconds": 280.382001415,
+    "max_child_rss_kib": 4175088,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "0942f3f6f04a91993b9c8a081e358b0731da0296",
+        "before": "7850ab6bf674840c056b5f4c739429f35c0fdc4f",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "fef43bdf8690f2eec4751d85784a266eacdd0322"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-26T13:14:36.132714+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "45827161540",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-347c-20261126",
+    "source_commit": "7850ab6bf674840c056b5f4c739429f35c0fdc4f",
+    "source_exit_code": 1,
+    "source_git_blob": "0c016a3cbd42a0aafc3858c9953e5293742bdf17",
+    "source_sha256": "ddf8e9e6f57b092ca4974ef187841ae78d3da66538bf60455758fdd93152789f",
+    "stdout_bytes": 4849,
+    "stdout_sha256": "0ca04962be41fa7c5a4844d116a7b07981562f75c2eecc8da58f2229dd1bf450",
+    "stop_reason": null
+  },
+  "next_scope": "Change to individually labeled H/V source coordinates and finite constant Gram field before adding original V highest first derivatives; do not rerun this expanded trace input",
+  "ordinary_isp_claim": false
+}
