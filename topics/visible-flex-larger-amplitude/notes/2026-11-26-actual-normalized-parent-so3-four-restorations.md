@@ -42,3 +42,20 @@
 阶段44原完整eb26 reader在6.1971624180005165秒exit0返回，实际source commit `a1c5fb8849fcfce75c7451b9c8169e484e77be01`；读出SHA `7f0877526e6421f481b95acccf6967f87cacee67f05a51a8ad41bb8a31adc497`，63072字节。其完整driver/目标/原prefix/实际final核对全部通过，summary errors和missing outputs均为空。
 
 已排[四条完整恢复的纯标量归因](../computations/resume-20261126-normalized-parent-first-restoration-details-step.json)，读取实际alpha、全C计数、QP/Pg/容差、每次真实违约与slack。未读的具体内层状态不猜；后继从真实3ef85/3b73继续，准确g与所有来源保持。正违约必须继续处理，达到物理验收后才进实际metric方向；有限恢复、预算结束或约.0368的度量误差均不能完成课题。
+
+## 4. 阶段45全部四次恢复的实际归因
+
+[02实际阶段45](2026-11-26-public-actions-45800076687-1-part-004.md)已在6.161214300000211秒exit0返回，source commit `eba0597de81622f54e1b51580784b3243cb75ef7`；原eb261a78完整reader、3b73报告、3ef85末场及0a223固定目标均保持。读出仍为 `7f0877526e6421f481b95acccf6967f87cacee67f05a51a8ad41bb8a31adc497` / 63072字节，summary errors和missing outputs为空；本阶段只公开已有标量，没有新F/J。
+
+| 修复 | 实际QP停止原因 / advances | Pg / 原容差 | common slack | 修复后真实g |
+|---|---|---|---|---|
+| 0 | face_and_unit_release_direction_tolerances / 20 | 6.980960468657986e-18 / 3.3086027501678233e-8 | 0.000003308271942198404 | 0.0023074479264456604 |
+| 1 | face_and_unit_release_direction_tolerances / 15 | 7.686841535225377e-20 / 2.3074479264541203e-9 | 2.3072172151234957e-7 | 0.0000023221382660087997 |
+| 2 | numerical_kkt_tolerance / 13 | 3.3591594073100078e-22 / 2.322138274468578e-12 | 2.3219062229996502e-10 | 0.000001966879851100778 |
+| 3 | numerical_kkt_tolerance / 10 | 3.5554366815606782e-22 / 1.966879859560556e-12 | 1.9666832190872905e-10 | 2.1482238210523974e-10 |
+
+全部四次均为alpha1、一次试步、真实违约下降后接受；每次原192几何行加5幅度行完整保留，原mu均.01，真实物理可行旗标全部false。活动面行数依次19、14、12、9。前两次达到face/release方向容差，末两次达到数值KKT容差；它们不是64步预算耗尽，因此直接增加内层预算不能解释已观察到的停止。
+
+原Phase I允许所有行满足 $g_i+dg_i[Tz]\le\tau$，以 $.5\tau^2+.5\mu^2(|z|^2+\delta\tau^2)$ 平衡共松弛和步范数，$\tau=\tau_0+\delta\tau\ge0$。这个目标本身允许最优共松弛仍正；实际表中残余slack与正物理违反量都保留，不能称几何可行。
+
+后继从真实3ef85/3b73继续，以明确正margin在Phase I搜索式中改为 $g_i+dg_i[Tz]+\varepsilon_{\rm in}\le\tau$。原物理$g_i$、全部原C及正行缩放、目标g、原norm和所有真正几何验收保持；这是更严格的内点搜索目标，不能作为允许正g的验收容差。实际新源/参数另行完整发表后才执行，若继续正违反就继续处理。

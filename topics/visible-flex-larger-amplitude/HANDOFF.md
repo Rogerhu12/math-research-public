@@ -6,7 +6,7 @@
 
 最近规则核查：2026-11-26，真实pull/rebase至 `27a3f2c8f76a15870bfa2673f06c900778cdf742`，根及课题README相对f0548477无差异，已完整读授权及规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
 
-科学计算仅本公开仓库Actions；早前本地偏差及纠正见[执行记录](notes/2026-11-20-public-actions-execution-correction.md)。root唯一分支写者；代理只scratch及未引用小源blob。每条结论普通commit/push，NFF立即pull --rebase循环再推，不强推。至少每小时pull，每次核双README差异/立即遵新规并记commit。raw只scratch/runner，不入Git/Release/artifact；保完整小源/参数/run/SHA/紧凑结论。题≤200MB、单文件<5MB、MD<100KB、H<10KB、open<30KB。令牌仅瞬时CLI。终端自13:55 UTC失联，根8准许小文本connector；恢复后补真实pull。2026-11-26 14:13:29 UTC在线核双README至`27b814242d9a705323738ee1578b9a686f8c5055`无差异（不冒git pull）；raw未补造。
+科学计算仅本公开仓库Actions；早前本地偏差及纠正见[执行记录](notes/2026-11-20-public-actions-execution-correction.md)。root唯一分支写者；代理只scratch及未引用小源blob。每条结论普通commit/push，NFF立即pull --rebase循环再推，不强推。至少每小时pull，每次核双README差异/立即遵新规并记commit。raw只scratch/runner，不入Git/Release/artifact；保完整小源/参数/run/SHA/紧凑结论。题≤200MB、单文件<5MB、MD<100KB、H<10KB、open<30KB。令牌仅瞬时CLI。终端自13:55 UTC失联，根8准许小文本connector；恢复后补真实pull。2026-11-26 14:15:02 UTC在线核双README至`3bb6e2db09f4556f1cabf9a9aa26254492f5bfe5`无差异（不冒git pull）；raw未补造。
 
 
 目标：同一固定g、闭连通C²嵌入、全t强C²连续；固定有内点H且diamH≥.2D、整像δhold≥.2D、含反射δE>0；全t reach≥.03D、整面relative metric≤1e−6；固定g/参数/范围的真实mesh和频率精化至机器或原求解容差，多t可复现网格，准确说明严格存在缺口。D为完整F0直径。R248准确相位恒等式处理全t，不新增独立t插值门。有限误差/开放片/障碍不完成。
@@ -23,7 +23,7 @@ R653 quarter、R654全H²及R655旧1845+六Gauss5532=7377正权观察、.5/.5测
 
 ## 本次实际结果与继续入口
 
-旧mean61/63–66、R686/R666、7ebb及旧未付责任保固定历史。02旧39/40的profile绑定错误经42定位，四完整源9ca3/7e90/b534/eb26已实际成功。[实际43/44](notes/2026-11-26-actual-normalized-parent-so3-four-restorations.md)同d021/profile0a223返3ef8568c/3b73：4恢复全接受、metric0；g .0330860275→2.148223821e−10仍positive，max .03681545019，Phi .00674444039略升；有限几何false，不当可行/下降。2775/2743点及双符号全保，末两mu.01。排原eb26全4恢复纯归因，随后从实际新末场继续，不把微小正g舍0。
+旧mean61/63–66、R686/R666、7ebb及旧未付责任保固定历史。02旧39/40的profile绑定错误经42定位，四完整源9ca3/7e90/b534/eb26已实际成功。[实际43/44](notes/2026-11-26-actual-normalized-parent-so3-four-restorations.md)同d021/profile0a223返3ef8568c/3b73：4恢复全接受、metric0；g .0330860275→2.148223821e−10仍positive，max .03681545019，Phi .00674444039略升；有限几何false，不当可行/下降。2775/2743点及双符号全保，末两mu.01。45纯归因已返：四次alpha1，原192+5全保，前两face/release tol、末两KKT tol，非预算耗尽；末slack仍正。接3ef85/3b73显式严格内点Phase I，原g≤0验收不改。
 
 R690深谷/旧deep两256返9b937ee/993556及自身first bbefd075、R691冻结Haar返bcdcdab/a76c4d全部精确来源/适用域/未付责任保固定889ec全文及所链notes。均未驻点/精化；旧01后排归因及ownfirst未执行。R692完整经典旋转连接证明不推任意C²或非圆存在；原父SO3六源和原完整q链仍保。
 
