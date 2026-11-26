@@ -390,3 +390,5 @@
 - [R603 Prepared最高能量层与中心速度2输入](results/R603-prepared-leading-energy-and-speed-two-guide.md)：**已证明**同形R598缩微母、共同C²收敛/紧合法盒、真prepared+a=H、零rho及ε²νhat有有限常向量极限时，非零中心速度必须趋于±2。完整C²四次余项/rho一致O1、正势的六正节点范数首层与P2非零局部矛盾均付清；先C0取极限再求极限jet，不交换导数极限。另给9参数精确a=H/v=2/唯一∫hk=0，不排固定ε有限根，也不授返回或宏观门。
 
 - [R603真中心速度2的新原质量求解](notes/2026-11-26-r603-vtwo-center-mass-implementation-agent.md)：直接由已付11向量进入新9参数a=H/v=2/唯一∫hk=0族，未运行较弱10族。只用原逐列encode修补整阵错误；完整七剩余矩/两侧history/一个固定χ、19+2/29BC/31AD及正势全保。完整seed先stdout，随后真mass下降和原残差门；末态形算子用真实插值h′/k′，不忽略旧空间预算失利。新source已审，实际根待自然终态。
+
+- [R582实际下一输入已恢复](notes/2026-11-26-r582-necessary-input-recovery-original-receipt.md)：**原终态证据恢复，非新科学**；run45839756631严格核同旧raw/FINAL及丢失配置，81q/124圈/10835物理点和原费用全保；科学0，尚无97q新解。

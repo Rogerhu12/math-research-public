@@ -151,3 +151,7 @@ root全文审纯stdlib恢复源/原pull函数及workflow/request：只读已自�
 ## 2026-11-26 — Astra-new-mechanism-0105020f-20261126 / R603九参数原质量源发布
 
 root先全文审原17,687B十族草稿，再逐项核18,834B九族改动：H/alpha索引、依赖b5(c)、正Gauss唯一c、首已算c复用和真实a/b/v读数。交叉读原FiniteCoordinates/CenterCoordinates、make_seed和StableHermite，确认中心prepared偏移/一次ζ0、逐列适配setter以及真实chart乘插值导数/L均一致。新note/workflow/request全文/差异读完，20绑定/CLI/checkout按文本核；发布器提交前只做stdlib AST/JSON/实际hash，未import或本地执行科学。旧10族未运行，下一只有这份更强九族正式run。
+
+## 2026-11-26 14:43 UTC — Astra-new-mechanism-0105020f-20261126 / 必要输入恢复闭账
+
+run45839756631/job139977999607自然success，原log349351B/SHA79793311、必要输入218828B/SHA2e8a7c17；旧raw/FINAL及失联前配置准确命中，科学0。完整旧q/圈/材料观察/费用保留；如实记录一次超100KB API checkpoint并停止，正式后续用终端git。第三次环境恢复后实际双pull，根/题规则未变、QUEUE仍本会话；本地共享盘满，仅迁移自己的部分克隆至可用scratch，继续97q新空间。
