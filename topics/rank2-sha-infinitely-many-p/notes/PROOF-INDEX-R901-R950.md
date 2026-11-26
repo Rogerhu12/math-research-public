@@ -187,3 +187,5 @@
 - [R943](../results/R943-original-e89-fifth-central-full-selmer-and-five-axis-gate.md)：固定E89由两真点下降证rank≥2；2/3/89完整角色、Schwartz、degree178共同CM源、非零六次首项和全权平方付齐，普通及惰性均比较通常全Selmer。第五原中央共享原g，B5单位给五真实高轴唯一modp⁵必要值；完整H6尾/第六权整窗、原w13三/四/五次先折回、52跨界成本及20首响应均保。W∉B89，只有有成本SW∈B106；五轴不等于深核或无穷非零。
 
 - [R945](../results/R945-original-residual-selmer-and-augmentation-exponent.md)：原c1≠0时固定坐标c1⁰=p^v z；Bockstein精确p^b阶迫残余类与z模p独立，原两点selector/一侧下降/全局cup给p^vH²(C0)tors=0及p^v S_N⊆(O0/p^N)z。原2/δ/17实际惯性阶3/2/18使全部坏位残余H^j真零，C=0。R940遂可取B_p=v+v_p(D)，原D不删；仍不付c1非零、s0、ordinary或跨p。
+
+- [R944](../results/R944-original-five-block-full-square-source-injectivity.md)：R943新增第四真长窗与原第五短行，对完整D2依次相继除F；dD−2κ<N时准确进D4。真实四次restriction余像维≤max(0,dD−4κ−ell+1)，严格dD−4κ<ell给K5∩D2=D5，再dD<5κ由C nef给全平方子源单射。保原零角逐系数t²/t³、Euler有限位移及所有端点/52成本，不偷加旧秩或宣称一般有限类/深核闭合。
