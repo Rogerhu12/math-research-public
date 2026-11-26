@@ -275,3 +275,8 @@ c_{p-r}^{\pm}\ne0
 root 与 o2 分别核对原 q/eta 身份、Cartier 的负号与所有项、
 Wilson/Dixon 有限和以及原 \(\beta\) 的 12 和模型符号。
 外部定理只按以上实际假设使用；无新扫描，无旧有限窗口重算。
+
+
+## R1031 接续：原 f_N 的另一个真实比较
+
+[R1031](../results/R1031-original-fN-and-actual-Faber-truncation-central-derivative.md)保留本篇同一个AS源，证明原f_N非零等价于真实Faber截断R=[P_d(1−2z)²]≤d的R′(1/2)非零。它的forcing准确使用C_AS/9=β³/2，保留z=27/w³的因子。这不把本篇C_AS单位升级为R′单位，也没有给O2 bare高坐标单位。

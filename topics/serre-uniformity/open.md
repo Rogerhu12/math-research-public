@@ -22,6 +22,8 @@ R1只把全部异常缩为p>37的完整N_ns；**p≡2,5 mod9只是另加小惯�
 
 ## O1：全p同一真实本原标签的临界非零
 
+[R1031](results/R1031-original-fN-and-actual-Faber-truncation-central-derivative.md)：原f_N=0 iff [P_d(1−2z)²]≤d 的R′(1/2)=0；真实Faber/Hasse²运输给完整单位比例，forcing为−(d+1)³(C_AS/9)z^d。中心导数单位、同h两mask与bare仍待证。
+
 [R1027](results/R1027-original-level-p-squared-theta-distribution-and-constant-one.md)：全部p≥41、p5mod6原D_p=1，4η⁶C_N²=1，Σa_i²a_(N−i)²=−1/4。真实Lp²第p theta分布在Frobenius子空间为(Dv)^p；保A†拉回全部total-D阶p交叉项与刚化[p]=−Frob²双轴符号，得d_A d_A†^p=γ/κ；R1025原符号付清绝对常数。共同δ′只剩±1，原两mask/bare仍开。
 
 R1022的原常平方与R1025的全部有限处方向相位已由R1027合为D_p=1；d_A=δ′abγ、2c_A/γ=δ′e_Aab、η³C_N=−δ′e_Aab/2，δ′²=1。所有原integral torus、canonical三挠、mod2/mod3/3处Tate线及total-D阶p cross均保留，全文及逐字前态可直接消费；两mask和bare不能删除。

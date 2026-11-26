@@ -250,3 +250,8 @@
 ### 2026-11-26 21:38 Asia/Taipei — R1030 原整有限角投影
 - [R1030](results/R1030-integral-finite-corner-projector-and-original-CM-affine-action.md)：R434本原有限格给φ(g)≡1modp，故E=(e_triv+e_τ₁)e_N为真整角投影，原Hodge/BT作用等于R1029 e₁。全Weil分支上EF=F，F=x^(2g−1)y；R1028/29实际提升差与R1021逐层作用给E(A_tail·x^(2g−1)dx/y)=0。保A_tail随det运输；原jet前因子a及其与首log相对位置仍须算。
 - 纸核真正整系数、原未扭仿射函数作用、所有配对分支与节点修正逐层相容；不先移动A_tail，也不以参考形状冒原jet单位。无数学执行，继续实际前因子与首log相对列；两README同步无变化。
+
+
+### 2026-11-26 21:52 Asia/Taipei — R1031 原f_N的真实Faber中心导数
+- [R1031](results/R1031-original-fN-and-actual-Faber-truncation-central-derivative.md)：全部p=6N+5≥41，原f_N=0 iff R′(1/2)=0，R=[P_d(1−2z)²]≤d、d=(p−2)/3。真实AS Faber、Hasse²分拆和原二次商路径给DV_(p−1)†=(9/4)(ζ²−1)B r^p C_AS⁻¹R′，全部外因子原单位。forcing准确−(d+1)³(C_AS/9)z^d；27因子保留。中心导数单位性、primitive/Legendre同h与bare仍开。
+- o1/root完整纸核，o2核原period和27因子；AS/Borwein/Matsuda原文、R949完整来源及R918具体单位范围均实际读。没有把forcing单位当中心导数单位，无数学程序，继续原同标签和bare。
