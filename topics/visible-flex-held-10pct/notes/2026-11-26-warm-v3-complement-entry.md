@@ -43,3 +43,9 @@ python scripts/resume_20261126/warm_fixed_m3_continue_v3.py \
 它没有调用 BVP，未创建 accepted 场，也不替代上面的真实原场验收。
 
 真 DN 与连续几何入口须显式适配 v3 并绑定同一个完整定义，不能套旧族的证书。实际 lambda1、full H、公共 Cartesian 两jet、固定问题收敛及全时10%条件仍待支付。
+
+## 实际首步失败与下一项定位
+
+[首 λ=.004 真返回](2026-11-26-warm-v3-first-lambda-failure.json)为status1/maxnodes，3168点、RMS .12464611971520359，raw SHA db0e9c6b5754cdabb7fe1af9748b3cb7b3569a707551cc97872034cb45f406ae。原Newton统计 accepted_steps1/calls3/no_step3、27个域拒和56个merit拒，唯一接受步最小α=2^-20；辅助exp预门没有拒绝。实际控制只有约10^-6量级，不把这称作λ推进，也不推断域拒的具体类别。父链仍从真正接受的λ.002锚点试λ.003。
+
+另新增只读 probe_warm_projected_parameter_columns.py（SHA 4dd05d821b2abe27046acbd4b822d99397f0940d106ffae8665b165e84ad5711）。它只用原v2/v3同零锚实际raw，对两个相互隔离进程中的真实inlet projection、完整exact-lift余部、七原节点的RHS和BC参数列作有限矩阵诊断，并对四个选列作两档FD；不改变部署五源，不解BVP/逆问题。原p0实际映d1=phase_scale*p0，不能称纯gauge；保继承q_aux域并报告其真实d1范围。原exact-lift保留，不能把低阶Fourier投影条件数当完整BVP条件数。compile/help已实际通过，本地没有runner的实际raw，故未执行数值诊断。完整数组仅runner scratch，小投影另存。

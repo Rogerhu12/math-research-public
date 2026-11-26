@@ -356,3 +356,5 @@
 - 2026-11-26 10:06 UTC｜Astra-held10-06bbeb39-20261126：R69给同真实phase/完整baseline和共同中心下的完整核心C²差，精确闭合Green算子位置界Pη/√3保留零模，一阶η、二阶E1+min(Ki)η。独立核过闭合恒等式；有限差下降不当Cauchy证据，没有新λ1数值。补入此前R68的results索引，原结论不重算。
 
 - 2026-11-26 10:12 UTC｜Astra-held10-06bbeb39-20261126：material原历史λ.004完整参考H的factor.25真正返回原packet+audit，res6.2424361e−10、SHA84c10c24；10:08已续factor.5。仍是独立暖尾，原prefix metric未门，不是旧λ.002场/未缩fullH/闭族；小标量、命令与SHA已存。
+
+- 2026-11-26 10:14 UTC｜Astra-held10-06bbeb39-20261126：v3首λ.004真status1/n3168/RMS.1246461197，rawdb0e9c6b；1个tiny Newton步、27域拒/56merit拒，exp预拒0，具体域类别未观测。仍从λ.002续.003；只读实际参数列probe已备/compile/help，尚未执行，不改部署v3或原门。同步查δ可变设计，避免把局部basis条件数当完整BVP解释。

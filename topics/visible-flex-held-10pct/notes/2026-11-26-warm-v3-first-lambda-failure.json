@@ -1,0 +1,139 @@
+{
+  "session": "Astra-held10-06bbeb39-20261126",
+  "workflow_run": 45775899674,
+  "command_id": "held10-warm-v3-complement-20261126-01",
+  "script": "topics/visible-flex-held-10pct/scripts/resume_20261126/warm_fixed_m3_continue_v3.py",
+  "script_sha256": "f60f3e47b8ee2daf3c4b6e1eb086ea5498496f0ccf6699921e492e745192ddcb",
+  "actual_attempt": {
+    "error": null,
+    "progress": {
+      "event": "inner_return",
+      "nodes": 3168,
+      "physical_bc": 3.717904458217934e-16,
+      "rms": 0.12464611971520359,
+      "scaled_bc": 1.7416623698807143e-13,
+      "success": false
+    },
+    "result": {
+      "acceptance_kind": "actual_warm_bvp_return",
+      "auxiliary_domain_guard": {
+        "no_geometry_or_metric_guard_removed": true,
+        "original_open_domain": [
+          1e-7,
+          0.124
+        ],
+        "padded_log_precheck": [
+          -14.304684934198283,
+          1.7259370033829362
+        ],
+        "rejected_before_exp": 0,
+        "valid_function_and_jacobian_changed": false
+      },
+      "domain_newton_stats": {
+        "accepted_steps": 1,
+        "calls": 3,
+        "minimum_alpha": 9.5367431640625e-7,
+        "no_step": 3,
+        "rejected_domain_trials": 27,
+        "rejected_merit_trials": 56
+      },
+      "finite_linear_candidate_pass": false,
+      "homotopy": 0.004,
+      "linear_dn_physical_bc_max": 3.717904458217934e-16,
+      "metric_diagnostics": null,
+      "model_kind": "warm-supported-material-phase-fixed-metric-v3",
+      "modes": 24,
+      "original_scaled_bc_max": 1.7416623698807143e-13,
+      "raw_return": {
+        "file": "inner-00.npz",
+        "message": "The maximum number of mesh nodes is exceeded.",
+        "nodes": 3168,
+        "parameters": [
+          -9.021331395368852e-8,
+          2.6496398242987235e-7,
+          -4.776825338413658e-7,
+          7.557165821289672e-7,
+          -0.0000010802673063142162,
+          0.0000014555925221673319,
+          -0.000001871721208000705,
+          0.0000023042829306374624,
+          -0.000002769042594945414,
+          0.000003284470117642005,
+          -0.0000037563256979922198,
+          0.000004115845943771717,
+          -0.000004692760197415283,
+          0.000005225520601510477,
+          -0.000005321140687340273,
+          0.000005584911708898623,
+          -0.000006303988112194082,
+          0.000006152227521595458,
+          -0.0000051619561691144244,
+          0.000004497379900682006,
+          -0.0000025741761633467138,
+          0.000002046053481096258,
+          -0.0000015072179867011129,
+          0.000001862067684474715
+        ],
+        "rms": 0.12464611971520359,
+        "sha256": "db0e9c6b5754cdabb7fe1af9748b3cb7b3569a707551cc97872034cb45f406ae",
+        "status": 1,
+        "success": false
+      },
+      "run": "/home/runner/work/_temp/held10-warm/warm-v3-design/attempt-000/run.json",
+      "run_sha256": "b3950108849d884e6177c134b29191b7b4821c7f556bbacdfb177671748dc7e1",
+      "solver_invoked": true,
+      "solver_success": false
+    },
+    "status": "solver_return"
+  },
+  "raw_domain_details": {
+    "domain_newton_stats": {
+      "accepted_steps": 1,
+      "calls": 3,
+      "minimum_alpha": 9.5367431640625e-7,
+      "no_step": 3,
+      "rejected_domain_trials": 27,
+      "rejected_merit_trials": 56
+    },
+    "raw_return": {
+      "file": "inner-00.npz",
+      "message": "The maximum number of mesh nodes is exceeded.",
+      "nodes": 3168,
+      "parameters": [
+        -9.021331395368852e-8,
+        2.6496398242987235e-7,
+        -4.776825338413658e-7,
+        7.557165821289672e-7,
+        -0.0000010802673063142162,
+        0.0000014555925221673319,
+        -0.000001871721208000705,
+        0.0000023042829306374624,
+        -0.000002769042594945414,
+        0.000003284470117642005,
+        -0.0000037563256979922198,
+        0.000004115845943771717,
+        -0.000004692760197415283,
+        0.000005225520601510477,
+        -0.000005321140687340273,
+        0.000005584911708898623,
+        -0.000006303988112194082,
+        0.000006152227521595458,
+        -0.0000051619561691144244,
+        0.000004497379900682006,
+        -0.0000025741761633467138,
+        0.000002046053481096258,
+        -0.0000015072179867011129,
+        0.000001862067684474715
+      ],
+      "rms": 0.12464611971520359,
+      "sha256": "db0e9c6b5754cdabb7fe1af9748b3cb7b3569a707551cc97872034cb45f406ae",
+      "status": 1,
+      "success": false
+    }
+  },
+  "actual_parent_status": "attempt-001",
+  "last_accepted_lambda": 0.002,
+  "failed_field_promoted": false,
+  "domain_rejection_subcategories_observed": false,
+  "note": "The pre-exp auxiliary guard rejected zero trials; the 27 domain rejections are not classified as q, core curvature, or Frenet failures by this returned record."
+}
