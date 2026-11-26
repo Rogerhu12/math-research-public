@@ -48,3 +48,7 @@ stage5沿同一新reference使用完整b4d7/5b4c来源及原窄bubble参数，ch
 stage6 b25纯reader真实6.000651554000115秒exit0，产物 `e5fe08d36905cf3c323fce70c3f4e4b56ca18c21749ce9f256d5f79881e45666`，20872B。它正确读到initial/final/Phi change为null、root grid未完整、root角成功数0、一次失败；source/model与同一reference全绑定。summary尝试读取不存在的初末指标而报告missing/NoneType，均为真实未产生，不把缺字段当零。
 
 该失败不证明统一IFT不存在，也不证明全部输入不可解。下一输入扩大两支内部bubble支持，保完整物理/implicit J/J*/原变量/行/几何与root验收设置，并在新模型/新目录实际尝试；不迁旧hDelta场的数值或证书。R695、全域metric、全t几何和固定问题真实精化仍未完成。
+
+## 4. 紧接的实际请求
+
+已追加同一6d54完整reader的新fresh输出，请求第一个完整方向的alpha、QP状态/advances/Pg/tolerance、mu、原C/幅度行数、first/last真实试步与trial_count及实际预测量。它只读原report和source，不重复F/J。之后排[宽支撑完整尝试](2026-11-26-zero-closure-narrow-failure-wide-support.md)及其纯reader；新输入只改变六个精确bubble参数和输出目录，全部其余科学argv逐字符串相同，仍拒绝未解根。

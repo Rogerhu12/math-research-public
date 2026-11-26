@@ -4,7 +4,7 @@
 
 ## 规则与完整目标
 
-最近规则核查：2026-11-26，真实pull/rebase至 `51d84b503698026fb3dd4aaf21517a0003eab86c`，根及课题README相对f0548477无差异，已完整读授权及规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
+最近规则核查：2026-11-26，真实pull/rebase至 `2cdd71ef0efc0016c90b2b0b85cdcd3b5c7956c7`，根及课题README相对f0548477无差异，已完整读授权及规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
 
 科学计算仅本公开仓库Actions；早前本地偏差及纠正见[执行记录](notes/2026-11-20-public-actions-execution-correction.md)。root唯一分支写者；代理只scratch及未引用小源blob。每条结论普通commit/push，NFF立即pull --rebase循环再推，不强推。至少每小时pull，每次核双README差异/立即遵新规并记commit。raw只scratch/runner，不入Git/Release/artifact；保完整小源/参数/run/SHA/紧凑结论。题≤200MB、单文件<5MB、MD<100KB、H<10KB、open<30KB。令牌仅瞬时CLI。环境失联后的恢复及全部原字见下列固定历史；未补造raw。
 
@@ -36,9 +36,9 @@ R692[完整旋转连接](results/R692-nonlinear-rotation-connection-and-metric-e
 
 03旧run45811843606/1发布故障终止，stage7科学退出码/场/Phi/末bundle未返，不由新run回填；[完整恢复证据](notes/2026-11-26-actual-publication-failure-and-complete-recovery.md)保留。新03b运行45820592817使用3cb1/68a3完整控制修复，原科学设置和字节上限保。
 
-[03b真实3–6](notes/2026-11-26-actual-axisymmetric-first-field-and-zero-root-failure.md)：新reference0f042/profile6ffc；606完整hDelta返fbf2b38/989740，max .5170375580→.5154401838、Phi213.8913108→212.1481877，一方向接受/末mu.01，有限全几何过、K product .74922023，全部1283/262点和双支保。alpha/QP/Pg/tol未读不猜；约0.515误差不排昂贵整域证书、不冒精化/驻点。pure6d读成功。
+[03b真实3–6](notes/2026-11-26-actual-axisymmetric-first-field-and-zero-root-failure.md)：新reference0f042/profile6ffc；606完整hDelta返fbf2b38/989740，max .5170375580→.5154401838、Phi213.8913108→212.1481877，一方向接受/末mu.01，有限全几何过、K product .74922023，全部1283/262点和双支保。alpha/QP/Pg/tol未读不猜，已排同6d纯详细归因；约0.515误差不排昂贵整域证书、不冒精化/驻点。pure6d读成功。
 
-[零Δ五源](notes/2026-11-26-zero-closure-so3-complete-entry.md)5b4c/7698/b4d7/2741/b25全body保：同reference首读实际root失败，首block[0,1,7]、残差.3701647466/修正.0722872588、回溯未下降；report00a00590 incomplete，没有initial/final/J/J*，纯reader成功并诚实null。继续扩大内部bubble支持的新输入，保原root/全部变量/行/全几何；不是IFT非存在结论。完整6×6/9×9implicit与Newton分离、全三Gram行和原192+amp仍保，连续根/积分/六jet/全域几何及精化继续。
+[零Δ五源](notes/2026-11-26-zero-closure-so3-complete-entry.md)5b4c/7698/b4d7/2741/b25全body保：同reference首读实际root失败，首block[0,1,7]、残差.3701647466/修正.0722872588、回溯未下降；report00a00590 incomplete，没有initial/final/J/J*，纯reader成功并诚实null。[宽bubble新输入](notes/2026-11-26-zero-closure-narrow-failure-wide-support.md)两triplets(1/32,1/4,15/32)/(17/32,3/4,31/32)已排；保原root/全部变量/行/全几何；不是IFT非存在结论。完整6×6/9×9implicit与Newton分离、全三Gram行和原192+amp仍保，连续根/积分/六jet/全域几何及精化继续。
 
 
 <!-- visible-larger-parallel-02:start -->
