@@ -1,0 +1,58 @@
+name: Rank2 complete weighted W basis API
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/rank2-sha-full-w-basis-api.yml'
+      - 'topics/rank2-sha-infinitely-many-p/scripts/original_full_w_basis_transport.py'
+      - 'topics/rank2-sha-infinitely-many-p/scripts/check-original-full-w-basis-api.py'
+      - 'topics/rank2-sha-infinitely-many-p/ci/original-full-w-basis-api-request.json'
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: rank2-original-full-w-basis-api
+  cancel-in-progress: false
+jobs:
+  complete-module-api:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          filter: blob:none
+          sparse-checkout: |
+            .github/workflows
+            topics/rank2-sha-infinitely-many-p/scripts
+            topics/rank2-sha-infinitely-many-p/ci
+          persist-credentials: false
+      - name: Pull the pinned Sage 10.6 image
+        shell: bash
+        run: |
+          set -euo pipefail
+          docker pull sagemath/sagemath@sha256:19995db6194f4a4bab18ce9a88556fd15b9ed5e916b4504fefe618a7796ddbdb
+      - name: Check complete constructed source, polynomial inverse, and weight boundaries
+        shell: bash
+        env:
+          PYTHONDONTWRITEBYTECODE: '1'
+        run: |
+          set -euo pipefail
+          test "$(git rev-parse HEAD)" = "$GITHUB_SHA"
+          git diff --exit-code HEAD -- README.md topics/rank2-sha-infinitely-many-p/README.md topics/rank2-sha-infinitely-many-p/scripts topics/rank2-sha-infinitely-many-p/ci .github/workflows/rank2-sha-full-w-basis-api.yml
+          ROOT_README_SHA=$(git rev-parse HEAD:README.md)
+          TOPIC_README_SHA=$(git rev-parse HEAD:topics/rank2-sha-infinitely-many-p/README.md)
+          timeout --kill-after=15s 420s docker run --rm --init --network none \
+            -e GITHUB_ACTIONS=true \
+            -e GITHUB_REPOSITORY=Rogerhu12/math-research-public \
+            -e RANK2_SOURCE_SHA="$GITHUB_SHA" \
+            -e RANK2_RUN_ID="$GITHUB_RUN_ID" \
+            -e RANK2_RUN_ATTEMPT="$GITHUB_RUN_ATTEMPT" \
+            -e RANK2_ROOT_README_SHA="$ROOT_README_SHA" \
+            -e RANK2_TOPIC_README_SHA="$TOPIC_README_SHA" \
+            -e RANK2_IMAGE=sagemath/sagemath@sha256:19995db6194f4a4bab18ce9a88556fd15b9ed5e916b4504fefe618a7796ddbdb \
+            -e PYTHONDONTWRITEBYTECODE=1 -e PYTHONUNBUFFERED=1 -e OMP_NUM_THREADS=4 \
+            -v "$GITHUB_WORKSPACE:/work:ro" -w /work \
+            --entrypoint /usr/bin/sage \
+            sagemath/sagemath@sha256:19995db6194f4a4bab18ce9a88556fd15b9ed5e916b4504fefe618a7796ddbdb \
+            -python topics/rank2-sha-infinitely-many-p/scripts/check-original-full-w-basis-api.py
