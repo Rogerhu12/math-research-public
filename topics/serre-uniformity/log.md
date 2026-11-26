@@ -437,3 +437,7 @@
 - [R1061](results/R1061-actual-genus-two-etale-cover-and-original-three-torsion-Petri-point.md)：原X108实际无分歧九次商C:Y²=R⁶−108，原S_n落Dχ=Qz−Qw=q*Q的三挠线；两一维exact空间的有序配对为(S_n/s)R dR/Y。故原f_N单位等价于该具体theta点光滑，smooth仍开；C superspecial，邻近ordinary四角色不代证明。 §§6–10已付原Miller首a^p、完整Cartier e及真实e≠0⇔S_n≠0桥；relative参数/切向2全保。原K=−sS_n，端点差单位不代K/e单位。
 - 原双覆盖的负summand A、dual C_rel∘U^m、Poincaré实际两端frame、FP局部a^p及B_E的非零三挠单位因子逐项支付。相对Cartier对base线性，系数为eω′；absolute才为e^(1/p)ω。原Petri沿q*E切向读取2S_n/s，所以确有e非零iffS_n非零，未冒数值比例。
 - 根另直接用η=z/w消全部pth因子，I′的次数<p给原K=−sS_n；端点差虽单位但不代目标卷积。H/open前态逐字归档后仅压缩已闭输入，不删除O0/同h/原bare/height支路；无数学执行。
+
+### 2026-11-27 04:45 Asia/Taipei — 持续同步与实际执行环境断点
+- 04:44:59再次请求真实git pull --rebase，服务仍返回No usable execution environment，未运行shell。随后连接器同步41336f9f3643b3af13fe9b096691f3c24b0bb140，较75e1738的三个新增提交不涉及两README或本课题；继续按根规矩8使用expected_sha非force小文本更新，真实pull最近一次仍为01:48，恢复后立即执行。
+- R1061单位桥首次ref更新遇GitHub GraphQL服务错误，已立刻freshhead检查并重建提交，第二次成功75e173839d76bbeed1c56785f266bffd2ae9208b；无force覆盖。o1随后全文核relative/absolute约定和实际frames通过。当前继续e/S_n单位、完整W*/P²与O0真实覆盖，不重跑已成窗口或R378旧Newton边界。
