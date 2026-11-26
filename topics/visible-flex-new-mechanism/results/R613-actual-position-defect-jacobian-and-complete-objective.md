@@ -210,4 +210,6 @@ $$
 
 实现应复用同一高度六jets、原At/M导数、已算turning根、$b,N,u,T$及原固定原函数矩阵；它无需新的DtN、无穷尾射击、第三jets或旧方向核重跑。所有新矩阵/位置读出仍计为新科学。解析公式、有限优化success和(11)都不单独提供无限维根存在，完整误差、固定最终g、宏观振幅及全时间reach仍待完成。
 
+纯源码接口为 [位置导数helper](../scripts/r613_position_defect_linearization_20261127.py) 和 [同compact高度算子](../scripts/r613_actual_position_height_operator_20261127.py)。后者保持原1130q高度，仅将输出换成1、3、…、63奇频的两个位置分量及Parseval单位，原2…88 At/M残差仍保留为同场读出；有限63截断不等于(17)的完整无穷和。两文件均只做本地AST/文本核对，没有科学执行、optimizer、request或新run；实际输入及完整末门须随下一明确科学范围另外给出。
+
 配套纯算子源码为 `scripts/r613_position_defect_linearization_20261127.py`，4551B，SHA256 `4327ab847dd2a38a0b4098bd0712d7e2980bcc7c750dc2413b7881f9ed190a31`。仅AST/文本核过，尚未科学执行；它消费同场缓存与完整dG块，固定原角原函数矩阵，复用现有量，不另造求解或探针。
