@@ -4,7 +4,7 @@
 
 ## 规则与完整目标
 
-最近规则核查：2026-11-26 16:22:26 UTC，真实pull/rebase至 `d928b21dfb09ee93c7514d74c16376090c0c42e9`，双README相对`93b1a8227608511509c164c672e08eceaf5cb8f4`无差异，授权及规矩继续执行。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
+最近规则核查：2026-11-26 16:25:21 UTC，真实pull/rebase至 `a7e53091633e8a2ec17fa658eff74477545819d9`，双README相对`d928b21dfb09ee93c7514d74c16376090c0c42e9`无差异，授权及规矩继续执行。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
 
 科学计算仅本公开仓库Actions；早前本地偏差及纠正见[执行记录](notes/2026-11-20-public-actions-execution-correction.md)。root唯一分支写者；代理只scratch及未引用小源blob。每条结论普通commit/push，NFF立即pull --rebase循环再推，不强推。至少每小时pull，每次核双README差异/立即遵新规并记commit。raw只scratch/runner，不入Git/Release/artifact；保完整小源/参数/run/SHA/紧凑结论。题≤200MB、单文件<5MB、MD<100KB、H<10KB、open<30KB。令牌仅瞬时CLI。终端中断/恢复及全部授权操作保2a7c完整H；已回终端真实pull/push，未造raw。
 
@@ -33,7 +33,7 @@
 
 [零Δ原失败与实际14–16](notes/2026-11-26-zero-initial-endpoint-replay-and-moment-input.md)完整记录保1d457全文：窄/.5/.75都首8角失败无场/J；14全弦长严格通过，15旧轨迹末候选球内仍未降、工作Cz病态，16纯抽取18字/05dc，未冒真逆或根证明。
 
-[固定Q真实19–20](notes/2026-11-26-actual-fixed-moment-Q-initial-failure-19-20.md)完整44ac/e4a3/ff500/082b/c942已执行。同0f042/6ffc/cd530/H/05dc，返747544/e4dc：新d035模型角5初根失败，batch残差.0348922311/修正.4392978791，432回溯角读；无初末场/Phi/J、0成功root不冒未尝试。新Q非旧W共同右换坐标，相近残差不推不存在。[完整支撑外必要式](notes/2026-11-26-supported-initial-meridian-chord-necessity.md)55ad已排03b角向首轮之后：三补段/全尾/全角验证 |P−Γ−∫UcT0|≤7S/8，只限本零ω初点/支持；高度区间未返。按真实必要式再选已备同方程延拓或新初输入，不盲增球。
+[固定Q真实19–20](notes/2026-11-26-actual-fixed-moment-Q-initial-failure-19-20.md)完整44ac/e4a3/ff500/082b/c942已执行。同0f042/6ffc/cd530/H/05dc，返747544/e4dc：新d035模型角5初根失败，batch残差.0348922311/修正.4392978791，432回溯角读；无初末场/Phi/J、0成功root不冒未尝试。新Q非旧W共同右换坐标，相近残差不推不存在。[完整支撑外必要式](notes/2026-11-26-supported-initial-meridian-chord-necessity.md)55ad已排03b角向首轮之后：三补段/全尾/全角验证 |P−Γ−∫UcT0|≤7S/8，只限本零ω初点/支持；高度区间未返。[显式新H完整入口](notes/2026-11-26-explicit-initial-height-fixed-moment-zero-entry.md)34c9/c1d3/2e5b/e996已刊，44ac/18字/原implicit与全循环不改，先核原cd530再只改自由H，尚未选H。按真实必要式再选延拓/新初点。
 
 02 [run45800076687/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45800076687)已终止接纳；[实际卷](notes/2026-11-26-public-actions-45800076687-1.md)真返49/exit0，16:08:14准入结束，50未执行；API总cancelled而research step成功，两者不混作49科学失败。
 

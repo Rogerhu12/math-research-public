@@ -111,7 +111,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 3. 03b独立0f042/profile6ffc的[真实17–18](notes/2026-11-26-actual-SO3-prior-separation-SOC-17-18.md)359ffc全C预补/SOC返b1c625/cd1af8，max .5140673898、Phi210.1678161，仍仅原ray alpha1/128可行，0SOC接受。QP64未驻点；alpha.5两SOC第一几何拒、第二真Phi不降且geometry未读，sweep_limit_feasible不冒收敛。全部8ray/实际37→39→41行与所有位置保；纯尺度归因已排。新策略先求真实可行ray，再用最近较大拒绝锚作全行SOC，并对最终永久点复筛所有候选后唯一接受；不把高误差场排成昂贵证书。
 
-4. 零闭合宽度/半径与旧工作Cz轨迹已登记，[固定Q真实19–20](notes/2026-11-26-actual-fixed-moment-Q-initial-failure-19-20.md)同cd530/初H/05dc依然角5根失败，未产场/Phi/J，不能当不可能证明。[55ad支撑外必要式](notes/2026-11-26-supported-initial-meridian-chord-necessity.md)已排：三补段/完整无限尾/全闭角，独立Q和球，严格只限本初点和support。依据真实高度容量选择同方程残差延拓或明确新H输入；新Q/新球均不继旧IFT认证。
+4. 零闭合宽度/半径与旧工作Cz轨迹已登记，[固定Q真实19–20](notes/2026-11-26-actual-fixed-moment-Q-initial-failure-19-20.md)同cd530/初H/05dc依然角5根失败，未产场/Phi/J，不能当不可能证明。[55ad支撑外必要式](notes/2026-11-26-supported-initial-meridian-chord-necessity.md)已排：三补段/完整无限尾/全闭角，独立Q和球，严格只限本初点和support。依据真实高度容量选同方程延拓或[已刊完整新H入口](notes/2026-11-26-explicit-initial-height-fixed-moment-zero-entry.md)；只改新初点自由H，原cd530/Q/g/全部implicit与循环保，尚未选择高度。新Q/新球均不继旧IFT认证。
 
 5. [R696准确角向构造](results/R696-angular-unit-tangents-and-exact-closed-sections.md)和[完整五源入口](notes/2026-11-26-R696-angular-unit-complete-entry.md)已刊并在03b执行。全部1334847自由量/完整中心s、ss导数/固定I与J/J*高度/真实binary端口/原core与反射帽保，新范数明示，真实三Gram全读；准确角恒等式不冒数值G零。首轮1×32/rest2×32、mu .01/原H，尚无新返回场，不把零闭合根失败迁为此构造障碍。E/B与全部连续几何继续求解。
 
