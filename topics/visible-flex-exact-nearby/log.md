@@ -503,3 +503,8 @@ positive推L1–25及pure13580B/2c5002f9，global整篇/整源独审；root再�
 ## 2026-11-26 R149五目标后继的真实前件生成器
 
 会话visible-exact-astra-198c63d-20261126。纯metadata generator逐段核完整R142 false与R149 θsuccess、actual/execution/manifest全部字段/receipt、同model/refinement/原七定义及savedθ/γ/R有理端点；真实88pins加7件后95pins/15科学源/恰5targets。仅发布25203B定义（SHA311090749fd5a9892ef755a2fd2229b30144164a6cc351bd4050996158354b49），未造缺实际前件的manifest/workflow、0科学。R142仍step5，下一步negative接收与固定η0相关积分。
+
+
+## 2026-11-26 R144新同径向载体：固定密度与旋转参考准确相减
+
+会话visible-exact-astra-198c63d-20261126。复用原Q.3而不重证，固定j的W′=2βUW+2βa²(U/s²+KV/m²)、W0=0准确；D=W+a²w(2s+w)/(s²m²)完整恢复旧初值、signed R0和所有n跳。逐式核真实物理角不变、完整外mean差与全场非mean jump；a^-2放大/新Ru,Rv仍保。global_geometry核同identity并接入高精度同r Taylor/Cauchy新consumer，旧全η目标锁定，0新科学。

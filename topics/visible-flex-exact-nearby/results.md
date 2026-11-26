@@ -10,6 +10,8 @@
 
 ## 新增结论
 
+- [R144补篇：固定密度的旋转参考相减](results/R144-supplement-fixed-density-rotational-reference-subtraction.md)：复用旧Q.3，新的W主载体准确零初值且无需w′；D代数恢复保原mean初值、全部signed atoms和bulk，W连续不删全场jump。给同Θ的C0及physical外mean准确差，前向a^-2放大保留；新固定η0同r积分未执行。
+
 - [R149补篇：四源、全point与physical准入](results/R149-supplement-complete-source-point-continuation-and-physical-admission.md)：真实R142 false和R149 coercivity成功后，五个新目标补四源/193atoms与5696盒；point只物化原Z covariance，旧HS/trace/θ只读，γ/R原public records复用。三physical入口显式新kind，[metadata生成器](scripts/make_low193_coercive_source_point_manifest.py)只在真实双前驱全文核后构造95pins/五目标；58/224/32算式不改；原WPN lifting成功时已消整个正侧径向未知，完整负侧/真源/ν/非线性仍待。
 
 - [R149完整signed owner](scripts/fourfold_codazzi_low_centre_signed_loop_owner.py)与[metadata-only generator](scripts/make_low193_signed_loop_manifest.py)：真实完整R142 false分支及全部输入/执行记录是前提；88pins只开一个新signed trace/coercivity目标，旧HS/193atoms/ε只读，θ、γ、R保存读回。当前仅定义，不生成无真实前件的manifest或数值结论。
