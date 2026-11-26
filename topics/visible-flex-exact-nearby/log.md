@@ -326,3 +326,6 @@ NS五件共129172B，owner71056B SHA18db439d5895e4232882940a57b7bd9457982383e1ac
 
 
 2026-11-26 22:31:39 UTC / visible-exact-astra-fb31ed6-20261127：root完成UH新统一physical边界Hessian。先完整读旧G/CH/U/SR/N，未重旧角微分或fixedcentre余项；新结论在compact两实际端点的未知A³≤1e−6整球统一给m,v负间隙3、j31/32..33/32、P1<.51、P2<193。完整逆角二变分保μ，ratio后composition总系数1001/600<2，26/26纯有理saved比较过，科学producer0。得两mean未删的one-high H1×L2界及真实二次/差分接收；R的DN仍另需QN外端1e−9与height域。QN已推a67c1d2d8，两README无diff。
+
+
+2026-11-26 22:34:42 UTC / visible-exact-astra-fb31ed6-20261127：规15容量维护，256份旧phase-ring native metadata仅删字符串外JSON空白；全部literal/escape/数字/key/value/array与顺序完整保，逐件原bytes核public ba95a7219fa883622b2b3daefde527d04568c117；全path/parent/唯一名/whole SHA/blob current code/JSON/YAML引用已排，当前27日输入manifest零交集。四份notes/2026-11-27-legacy-native-metadata-whitespace-part1..4.json分别保64件完整旧新bytes/SHA，旧whole byte消费者按immutable commit恢复。gross省1802658B、receipt122844B、净省1679814B；零科学调用、未删旧信息。UH已推ba95a7219，两README无diff。

@@ -1,11 +1,11 @@
 # 交接：可见振幅的精确闭等距族
 
-维护会话：visible-exact-astra-fb31ed6-20261127；更新：2026-11-26 22:31:39 UTC。
+维护会话：visible-exact-astra-fb31ed6-20261127；更新：2026-11-26 22:34:42 UTC。
 **总任务未完成，持续研究，不等用户回复。**
 
 ## 已读规则、授权与接续
 
-2026-11-27（台北）已 partial+sparse clone 两仓库并 pull main，读根全部规矩、课题README、H/open、当前log及接续notes。公开根/topic规则已读至a67c1d2d8e2852ba460edb83c184641976927c5f（相对12385db35无diff）；私库21:53pull根规则核至1092e89690665cb110435c777da2103adca540b2，QUEUE接手已推594e561b05a758bd8c02840ca4fbf574cd707436。每次pull核两README差异、至少每小时一次，非FF立即rebase再推。令牌只CLI。无AGENTS。
+2026-11-27（台北）已 partial+sparse clone 两仓库并 pull main，读根全部规矩、课题README、H/open、当前log及接续notes。公开根/topic规则已读至ba95a7219fa883622b2b3daefde527d04568c117（相对12385db35无diff）；私库21:53pull根规则核至1092e89690665cb110435c777da2103adca540b2，QUEUE接手已推594e561b05a758bd8c02840ca4fbf574cd707436。每次pull核两README差异、至少每小时一次，非FF立即rebase再推。令牌只CLI。无AGENTS。
 Actions计算；本地只证明/静态/metadata。规12不增审批复核、每结论推送；规15 topic≤200MB、H<10KB、禁可重建大数组。前H/open 27c422943及递归历史保所有成功/失败/unknown/义务，成功禁重。
 
 ## 同一对象与最终标准
