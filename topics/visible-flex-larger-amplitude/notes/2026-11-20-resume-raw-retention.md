@@ -395,3 +395,17 @@ OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python "$r33src/tail_r33_low_to_high_co
 完整文件名定向检索仅得到三件历史引用文件：R33 §17、原强 M20 说明、完整强 M20 manifest。它们按原状态保留，不把数据链接改写成新的科学结论。移出后确需原列的消费者须先恢复 scratch 并显式传真实路径；当前 `scripts/resume_20261120` 与 `.github` 中没有该文件的路径引用，当前完整闭面求解/几何链不以它为输入。
 
 本次只是必要元数据/源码/输入身份和静态引用核查，没有重算旧结论、没有科学导入执行、没有删除源码或证明，也没有历史重写。单件普通移出释放568756 B；新增说明和后继小源占用另计。
+
+## 2026-11-26 06:38 UTC：第九次容量操作，R39实际线性参考逐胞数组
+
+本轮完整新g/固定g/连续证书源码使本题跟踪总量达到199348151 B。普通移出旧可重算输出 `notes/2026-11-12-closure-newg-strong-m20-real-reference.json`（648675 B，SHA256 `d87a6862836c31f9cb72ed9b8ad74c0ee618797e45a83785c8206a83455233cb`），不改历史。该报告有213个完整cell rows及46个endpoint rows；其线性参考的全部已有结论保R39正文，不是非线性闭合、数值轨道认证或本轮新计算。
+
+新增紧凑[保留记录](../computations/resume-20261126-legacy-R39-reference-retention.json)逐字保原检查、参数、全部输入/源码SHA及小标量界，仅删逐胞/逐模数组。生成器 `computations/closure_rebase_actual_reference.py`、两依赖、原resource完整argv、原ready/response与46列组身份均保留；原记录为11/12本地运行、exit0、wall 2.2512502670288086秒，不补造Actions run。当前相同源码是否仍在由紧凑记录列出真实SHA，不能假定源码路径即原字节。
+
+旧消费者需要完整原数组时，先从固定历史恢复到scratch并核SHA：
+
+```sh
+git show 0a5c529f01b4eba31856ba7f551b3cbbe06f9634:topics/visible-flex-larger-amplitude/notes/2026-11-12-closure-newg-strong-m20-real-reference.json > /tmp/R39-real-reference.json
+```
+
+其后明确将旧消费者输入指向此文件；历史manifest路径照保，不声称所有旧消费者已无引用。原完整生成命令仍在 `notes/2026-11-12-closure-newg-strong-m20-real-reference-resource.json`；今后若重算，按现规矩只在公开Actions执行并把raw留runner。当前实际输入再生已完成28阶段，本轮后继使用该run自身field/carrier和永久点；此移出没有改变其实际数据或数学目标。
