@@ -538,3 +538,8 @@ open原28316B全文按链接层级移入open-before-fixed-E-and-K-only归档，�
 ## 2026-11-27｜当前59a4单场新圆参考与全C0/C1/R623K
 
 全文核28909B driver/9768B说明/7551B workflow，56绑定/AST/59sparse与1713B输入核合。新mean全紧段加R608无限尾、core/完整双帽/镜面及R599全法弦条件齐付；较小rho仅在全部条件成立后采用，不以1/κ单独授reach。一次实际field供物理与区间，精确f60只复用原16149资格，异场同对象流式全部原物理。新同cell C0/C1/K无旧cap；全部Hermite core jets核验、全[C,L]和literal不同接口无漏域。宽界保留，未闭不给全证书；R604/R622各自完整取优，未本地执行科学。
+
+
+## 2026-11-27｜R618真全尾均值支与帽口积分条件界
+
+全文核14190B证明和14161B区间helper，并回查R600/R588的B=2^32、870000a^-4、108<α17<109及完整Green比；同伴独立纸审同过。逐式κ/freeδT、Gaussian三jets/积分与W乘积最高次数6−k、e750−D/|c|及canonical512/forced全系数链保持；只有真实误差输入已包围才授严格anchor，未付M/ODE不默认0。纯源码AST/hash，无本地科学。私库23:15:24 UTC实际pull67ef1777c8根README空diff/QUEUE仍本会话；结果索引前段R507–R550完整移档，正文/相对链接/费用原样保留。

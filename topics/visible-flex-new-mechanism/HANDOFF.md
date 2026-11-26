@@ -5,7 +5,7 @@
 
 ## 1. 授权、规则与继承
 
-公开本次实际pull且根/题README已读至 **8462561139db03567e0be9d8c01b7942814de457**；根/题规则相对继承0749a4cc仍为空差异。私库实际pull/根README已读至 **2dcbca6979066ac65a5e161f6d360c2b7a49bd6b**，2026-11-26 22:28:22 UTC空diff；下次不晚于23:27 UTC。QUEUE唯一仍本会话进行中，原认领09f8b8b54e。
+公开本次实际pull且根/题README已读至 **9523887dd5e6207e1c372f074beba6e0fc2d6b61**；根/题规则相对继承0749a4cc仍为空差异。私库实际pull/根README已读至 **67ef1777c8910b9bfb7ccff27c1c9d832a5d373e**，2026-11-26 23:15:24 UTC空diff；下次不晚于2026-11-27 00:14 UTC。QUEUE唯一仍本会话进行中，原认领09f8b8b54e。
 
 每次pull只读根/题README差异并记SHA，至少每小时；NFF/ref锁立即pull --rebase再推至成功。root独占git和四索引，每条结论即推；科学只公开Actions，本地只纸证/源码及原日志JSON/hash解析。根12不重放已付门；根15不存raw/可重算表，必要新场再生全计费。H<10KB/open<30KB/md<100KB；publisher活跃不改tracked。
 
@@ -19,13 +19,13 @@
 
 [298原终态](notes/2026-11-27-r582-physical-pending298-original-terminal.md)run45901312947/job140187488430/source98ded25f6；2370.257524993秒/12metric/13Jac/15fine。真q **59a4ba766a9450509bcbd539639503e8a67d9dc0a98c6c3b63f59879c29a7b45**，p=.181，16149×3072 η3.838285783e−5、物理/working V0。实际field **f60be03b0af36d5d182f21860fe69cef80439c12bb23562d63dc2b57648bf52c**，62878端点/960932RHS；原14d1在此新field的完整baseline已付，reuse=false。
 
-末d613虽η3.77629e−5更低，却fine违约2.65026e−5，被拒并采用13点。actual311×1536/trust2、pending空；新required16167未付，保留资格仅16149，无naturalreturn或stall。[原311正常续算](notes/2026-11-27-r582-physical-normal311-resume-implementation.md)已审发布，永久fine/旧成本保持；一次新field共用于必要新baseline与后端。p阶段2.5e−7未过；目标p=.8/末η≤1e−7，mean g仍在设计。mean坐标64:80与96；q80是首个新增tail-u，已更正分类。
+末d613虽η3.77629e−5更低，却fine违约2.65026e−5，被拒并采用13点。actual311×1536/trust2、pending空；新required16167未付，保留资格仅16149，无naturalreturn或stall。[原311正常续算](notes/2026-11-27-r582-physical-normal311-resume-implementation.md)run45909167191/job140213091600/source181de62c，23:08:58 UTC启动；永久fine/旧成本保持；一次新field共用于必要新baseline与后端。p阶段2.5e−7未过；目标p=.8/末η≤1e−7，mean g仍在设计。mean坐标64:80与96；q80是首个新增tail-u，已更正分类。
 
 ## 4. B030当前56e8，旧队列已经闭合
 
 [partial391原终态](notes/2026-11-27-r566-partial391-original-terminal.md)run45900339926/job140184283363/sourceb6343b326；2370.208649153秒。原391复用/1128补完后55e才接受；共8metric+2恢复，含一次恢复η上升。真q **56e8d87b39bf336a4cdb8c4106108396e735c498254a9e51c1a84c503904fb2f**，1388×3072/8886峰η.22244446600107332、物理V0；margin约1.24e−12违约在原容差内，非严格正余量。
 
-actual694圈/1555峰/309work/1536角/trust.3003387451171875，新fine1390未获旧1388资格。pending双空、无PARTIAL，旧队列不再跑。21完整Jac/1164块+未闭第22矩阵4块，0自然后端返回；末05f2636a全物理过但η.2376不改善而拒绝。已知链≥14729.212126063秒，未知仍未知。[正常56e8范围](notes/2026-11-27-r566-normal56e8-resume-implementation.md)已审发布，待原自然终态；新1390完整资格不计metric接受。原callback先于BFGS更新的真实Jac/secant新算法研究继续，不伪恢复未存矩阵。
+actual694圈/1555峰/309work/1536角/trust.3003387451171875，新fine1390未获旧1388资格。pending双空、无PARTIAL，旧队列不再跑。21完整Jac/1164块+未闭第22矩阵4块，0自然后端返回；末05f2636a全物理过但η.2376不改善而拒绝。已知链≥14729.212126063秒，未知仍未知。[正常56e8范围](notes/2026-11-27-r566-normal56e8-resume-implementation.md)run45909082053/job140212809662/source5cd6055b，23:08:06 UTC启动，待原自然终态；新1390完整资格不计metric接受。原callback先于BFGS更新的真实Jac/secant新算法研究继续，不伪恢复未存矩阵。
 
 ## 5. 完整S与真正固定E的增长模型
 
@@ -33,7 +33,7 @@ actual694圈/1555峰/309work/1536角/trust.3003387451171875，新fine1390未获�
 
 [正常397续算](notes/2026-11-27-r613-actual397-normal-continuation-scope.md)run45909455678/job140214007842/source12e47b06，23:11:43 UTC启动；原950×256/1728×512/S奇1…127/完整QR-SVD/60步均不改。独立R618新路线冻结**这份397完整q/amp/H/原reconstruction**为唯一固定E，之后正常路径的新H/q不替换其目标。旧337/277及所有费用完整继承。
 
-R617有限pre+post刚性不授有限误差下界。R618已付同完整E/同均值根/全2J核心ζ/τ链；[完整height与chain](notes/2026-11-27-r618-complete-growing-post-fixed-metric-model.md)62836B/87fdb14d与17855B/0668d1af已审发布，保1129旧非mean和真到rc全平非齐次尾。实际response/r/θ/meanθ/model、原唯一restore与真tail_anchor身份已补齐。S→η/导数jets只在同根/primitive alias付清后成立，直接位置读出正在落实。全尾均值分支/真实帽口积分纸界与helper已成形，旧germ/M/ODE误差不能默认0；后续由实际模型全系数生产同身份anchor。
+R617有限pre+post刚性不授有限误差下界。R618已付同完整E/同均值根/全2J核心ζ/τ链；[完整height与chain](notes/2026-11-27-r618-complete-growing-post-fixed-metric-model.md)62836B/87fdb14d与17855B/0668d1af已审发布，保1129旧非mean和真到rc全平非齐次尾。实际response/r/θ/meanθ/model、原唯一restore与真tail_anchor身份已补齐。S→η/导数jets只在同根/primitive alias付清后成立，直接位置读出正在落实。[全尾均值分支/帽口积分纸界与helper](notes/2026-11-27-r618-true-tail-mean-anchor-bounds.md)已审发布，旧germ/M/ODE误差不能默认0；后续由实际模型全系数生产同身份anchor。
 
 ## 6. 原十九态：R625首终态与新规范坐标续算
 
