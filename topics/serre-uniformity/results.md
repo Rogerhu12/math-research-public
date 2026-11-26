@@ -8,6 +8,8 @@
 
 ## 新增结论（2026-11-26）
 
+- **R1015（已证明）**：[R1015](results/R1015-original-class-two-Poincare-projection-and-balanced-triangular-bridge.md)：同一norm7双Poincaré源的Π2×Π2完整投影=C22 U⊗U，U=x²σ⁶、C22=−18s/ᾱ。完整有限卷积给C22 u_ℓ²=D_n c_n^-+R_n，n=6ℓ+3，D_n=6(α^n−ᾱ^n)/ᾱ；余项保全部pole且每单核总阶≤2n−7。两原行D/C分别6/49、342/7⁸，逐项首p整性已核。原高非零准确要求u_N²−R_(p−2)/C或u_(N−1)²−R_(p−8)/C非零，仍开；不得删完整R。
+
 - **R1014（已证明）**：[R1014](results/R1014-original-CM-divisor-reduction-and-Igusa-Frobenius-principalization.md)：p>37、p11mod12时原X₁的compact-type纤维上red((p−1)D₀)=0，任实际商β同样成立。三个DL尾用div x=2Q−2∞；Igusa中心必须取真实b、a=b^p，G(b)^p=F(a)、divG=m(2s₁−sζ−sζ²)，m=(p−1)/2。全图是树，全部分量类均保留；因此β可减唯一(p−1)挠提升进入形式群，log无需除p。真实首lift的内在变形/节点过渡与商投影仍开，不能只用G²局部项宣布两列独立。
 
 - **R1013（已证明）**：[R1013](results/R1013-original-theta-descent-and-uniform-critical-zero-bound.md)：原未经筛选H_p在Norm−1圆上的零点数≤3M<10¹²，M=6⁴·720·51840；故p>10¹²时H_p非零。实际Kγ有限平坦下降、Ωγ、全局μ6四维角色空间给非零首五次P_A；核方向γ与微分像κ_out经真jet比较，再以全部tame lift有限类型/每方向十二计数。保全部二挠相位，不用étale p核算法。primitive/Legendre的同h非零仍开，值零点界不能替代实际谱支撑，也未接bare O2。
