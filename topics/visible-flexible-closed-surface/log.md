@@ -624,3 +624,5 @@ R208完整注入组e297410f：同3态由J30/K7/N64的932维插1/20、7/20、5/12
 - 2026-11-26 08:09 UTC｜Astra-visible-flex-6a65e705-20261126：邻题R571真实run45777456573自然success，但线性端口C/A≈−3.48e−5、导数未稳定、单位核二jets巨大，有限宏观分支及全点对reach未构造。只消费显式连接/线性接口，继续本题完整核。
 
 - 2026-11-26 08:09 UTC｜Astra-visible-flex-6a65e705-20261126：强前缀L=.18/v=.15后3条实际Cauchy尾均exit0但在正K早段metric>1e−5而未到cut；准确coast未挽救角补余。保存失败真实身份，已换全局单位T边值输入。
+
+- 2026-11-26 08:09 UTC｜Astra-visible-flex-6a65e705-20261126：新中央/Cauchy/coast/Hermite/R205全half真C2函数和完整弧长两jet已出；flatcut新g S=1.0815625、base.height=.889483892。warm02 SHA3675506a…b5c0，G≈1e−15但右metric1.458/κ1309，未合格；根正消费完整R201拟合。

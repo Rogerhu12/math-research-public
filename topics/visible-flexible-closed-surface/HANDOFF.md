@@ -7,7 +7,7 @@
 
 给出连通闭 $C^2$ 嵌入族、共同度量和固定握持开区域，按完整曲面直径计 $\delta_{\rm hold}/D\ge .05$、$\delta_E>0$、全时 reach$/D\ge .03$；全域全时 metric 误差不超过 $10^{-6}$，并支付同一几何下真正加密到求解容差及可复现网格。基础之后继续 $\delta_{\rm hold}/D\ge .2$、$\delta_E/D\ge .05$ 或严格存在。
 
-- 公开根 README、课题 README 已完整读于 `f0548477576caa2373d1626227a284ccfa9767d0`；真实 `git pull --rebase origin main` 于 2026-11-26 05:16 UTC 成功。每次 pull 后比较这两个文件，至少每小时一次。最近已读公开提交 `adb59c58845fd99074de3e6376aada7903b348e5`（2026-11-26 08:07 UTC真实pull/rebase后，双README逐差均无变化）；本轮推前双 README 均无差异。
+- 公开根 README、课题 README 已完整读于 `f0548477576caa2373d1626227a284ccfa9767d0`；真实 `git pull --rebase origin main` 于 2026-11-26 05:16 UTC 成功。每次 pull 后比较这两个文件，至少每小时一次。最近已读公开提交 `1cca63873c98ff0a8cc9cf3582f48cfd77b4cde8`（2026-11-26 08:08 UTC真实pull/rebase后，双README逐差均无变化）；本轮推前双 README 均无差异。
 - 私库根 README 已完整读；QUEUE 已认领并推送 `c7785184d0d9c503852fb2137e9e2c091221d080`。并发推拒均立即pull/rebase再推成功。私库规则比较基准 `0229299ed65827c2ace194596315e58a19c989ee` 至该提交无差异。
 - 根规矩优先：完整证明直接登记；不用旧独审/冻结流程；可重算数据不入 Git、Release 或拆块，只保脚本、参数、运行标识和哈希；单 MD<100KB、H<10KB、课题总量<200MB；不写根 LOG、不强推。令牌只在命令行进程环境。
 - 本地部分克隆在 `/tmp/visible-flex-6a65e705/math-research-public`；工作区同名路径是链接。初次ENOSPC后迁/tmp成功；旧会话未推原件不可用，以已推内容/配方为准。
@@ -40,6 +40,8 @@
 - [solver-r571-real-return-read](notes/2026-11-26-6a65-solver-r571-real-return-read.md)：邻题R571真实run45777456573自然success，但线性端口C/A≈−3.48e−5、导数未稳定、单位核二jets巨大，有限宏观分支及全点对reach未构造。只消费显式连接/线性接口，继续本题完整核。
 
 - [geometry-actual-cauchy-tail-stops](notes/2026-11-26-6a65-geometry-actual-cauchy-tail-stops.md)：强前缀L=.18/v=.15后3条实际Cauchy尾均exit0但在正K早段metric>1e−5而未到cut；准确coast未挽救角补余。保存失败真实身份，已换全局单位T边值输入。
+
+- [geometry-complete-unit-t-warm](notes/2026-11-26-6a65-geometry-complete-unit-t-warm.md)：新中央/Cauchy/coast/Hermite/R205全half真C2函数和完整弧长两jet已出；flatcut新g S=1.0815625、base.height=.889483892。warm02 SHA3675506a…b5c0，G≈1e−15但右metric1.458/κ1309，未合格；根正消费完整R201拟合。
 
 ## 公共CI的真实状态与继续方式
 
