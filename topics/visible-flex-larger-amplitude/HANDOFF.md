@@ -49,6 +49,6 @@ R692[完整旋转连接](results/R692-nonlinear-rotation-connection-and-metric-e
 
 ## 当前公开Actions执行
 
-run [45762076394/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45762076394)，源码`a4a535eec561d0f8c79fb673cb7b8987dad033af`；[实际紧凑记录](notes/2026-11-26-public-actions-45762076394-1.md)。当前`followup:R691-7ebb-freeze-one-accurate-material-Haar-target-20261126`/completed，返回阶段75；退出码0。
+run [45762076394/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45762076394)，源码`a4a535eec561d0f8c79fb673cb7b8987dad033af`；[实际紧凑记录](notes/2026-11-26-public-actions-45762076394-1.md)。当前`followup:R691-7ebb-complete-fixed-Haar-amplitude-p4-first-20261126`/completed，返回阶段76；退出码0。
 
-Actions规则核查：2026-11-26 10:46:32 UTC，真实pull至`dc7b8bccee2fa89e39879b0083808679becb88ec`，双README相对已读无变化。
+Actions规则核查：2026-11-26 11:00:29 UTC，真实pull至`3d3dcc6398cbeece4fb6ce1efdcd22377eac97dd`，双README相对已读无变化。
