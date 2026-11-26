@@ -1,0 +1,57 @@
+{
+  "format_version": 1,
+  "status": "recovered_observed_execution_subset",
+  "date": "2026-11-26",
+  "session": "Astra-held10-06bbeb395471 / fixed_metric",
+  "family": "v3",
+  "synthetic_only": true,
+  "accepted_BVP_field": false,
+  "complete_surface": false,
+  "original_execution": {
+    "returncode": 0,
+    "exec_session_id": 97851,
+    "seconds": 26.936699900994427,
+    "command": [
+      "python",
+      "/tmp/held10-astra-06bbeb395471-fixed-rebuild/check_warm_true_core.py",
+      "--repo",
+      "/tmp/held10-astra-06bbeb395471-public2",
+      "--reference-source",
+      "/tmp/held10-astra-06bbeb395471-fixed-rebuild/test_source/fixed_metric_mode3_core.py",
+      "--family",
+      "v3",
+      "--out",
+      "/tmp/held10-astra-06bbeb395471-fixed-rebuild/warm-v3-true-core-api-check.json"
+    ]
+  },
+  "original_output": {
+    "filename": "warm-v3-true-core-api-check.json",
+    "sha256": "4a9593391666bd0fe85a05a6535a104a7a812cc9d769d6eba6a79837d011a35b",
+    "complete_original_json_available": false,
+    "loss": "The temporary executor directories were absent after the 2026-11-26 environment reset."
+  },
+  "recovery": {
+    "new_execution_performed": false,
+    "original_json_bytes_reconstructed": false,
+    "scope": "Only scalar fields actually printed by the final local summary and the observed zero exit are retained. This new file has its own hash and is not the missing original JSON."
+  },
+  "observed": {
+    "sampled_material_angles_count": 32,
+    "pointwise_float_cache_outside_interval_gap": {
+      "F": 0,
+      "Ft": 0,
+      "Ftt": 0
+    },
+    "point_interval_max_width": {
+      "F": 1.6065204722082171e-12,
+      "Ft": 1.9700907571973403e-13,
+      "Ftt": 5.138112157965224e-13
+    },
+    "continuous_synthetic_core_positive_curvature_certified": true
+  },
+  "verified_recovered_source_sha256": {
+    "warm_phase_validated_core.py": "8fb218071da89f111982a6ac970f51fcf0e52487b6985d637af26211ddcd9194",
+    "check_warm_true_core.py": "e6f9542e4b26f4e066015b9cf012b897deb606b1b571452d6693bc0c8ec23450"
+  },
+  "no_actual_field_bounds_transferred": true
+}
