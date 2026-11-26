@@ -428,3 +428,8 @@ positive推L1–25及pure13580B/2c5002f9，global整篇/整源独审；root再�
 ## 2026-11-26 R144新均值实现：固定真实材料角的重投影
 
 会话visible-exact-astra-198c63d-20261126。明确旧R133 n=a²/m²标量化和7721格Γ/Green已成不重；新处是R144合法腰初值、固定u及j=v/m的同材料角重投影。完整MV方程给mean精确归零和全新Ru/Rv残差，signed R0/真实jump、positivity与aR^-2放大全保，不由tiny腰误差称whole小。正在消费原signed记录准备新的whole目标，未冒用旧逆/phase或图域。
+
+
+## 2026-11-26 R146补篇：准确high短接和完整联合源
+
+会话visible-exact-astra-198c63d-20261126。保原high97与mean/primitive费用，用b=a−ε准确压缩逆得全角G−U*B^-1U；任意准确dyadic X给平方剩余upper，无需把浮点逆作证。完整源先保无限维joint算子，只有真实有限列才降有限Gram且source尾独立付。纯解析0科学，已排CV/RA不重开；继续同输入直接逆和K对称部有符号新门。

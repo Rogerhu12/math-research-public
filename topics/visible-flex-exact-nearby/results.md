@@ -10,6 +10,8 @@
 
 ## 新增结论
 
+- [R146补篇：完整high压缩逆与联合源Gram](results/R146-supplement-full-high-compression-inverse-and-joint-source-Gram.md)：保b=a−ε角依赖及low96约束，准确Gram为G−U*B^-1U；任意准确dyadic试探X给全high upper而无需验证有限逆。联合source原为无限维，真实mean/余尾与PDE可达性仍保；当前已排CV/RA不重开。
+
 - [R144补篇：同材料角的精确mean重投影](results/R144-supplement-exact-nonlinear-mean-elimination-and-retraction.md)：在R144真腰初值下固定u及j=v/m，用完整线性Volterra构造mean；正性门、aR^-2放大、signed R0/jump及全部新非mean残差显式保留。区别已成R133固定v−m的scalarization，旧Γ/Green不重；新whole小量尚未算。
 
 - [R144端点准入：原C0球足够支付holonomy邻域](results/R144-supplement-actual-endpoints-imply-holonomy-neighbourhood.md)：原moving C0≤1e−4条件给腰branch/负号、body物理pair<1/40000；独立cap原球给pair<3e−12及场外mean整段准入，Bcal^-1<5e10保留。准确selected腰mean在(5,8)e−15，未当零；真core/cap存在仍待。
