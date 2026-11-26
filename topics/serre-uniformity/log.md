@@ -454,3 +454,8 @@
 - [R1062](results/R1062-original-full-nonsplit-cuspidal-kummer-descent.md)：完整 $X_{\rm ns}^+(p)$ 的无基点 cusp 归一化给全部有理点固定 $S=\{2,3,p\}$ 的有限 Kummer 标签，保全部 class-group 项；实际 Galois cusp 模至少含 $\lfloor p/4\rfloor-1$ 个一维 $p$-挠角色。辅助好素须比较同一标签与全部约化点。regular $p$ 时单独 $p$-local 比较满射，不能筛盘；全局标签浓缩仍开。
 - 原 Carlucci 已发表 Siegel-unit 格与真实 Galois 作用逐项核对；forced 角色用 Jacobi/Gauss 和独立证明。DR 的实际 tame 商只消费 $\mathbf Z[1/(6p)]$，保 $2,3$。所有 cusp leading coefficients 的乘积准确消去常数与垂直赋值，因此不要求整 $j$、指定 CM 基点或小惯性。
 - 同一有限标签保 $S$-class group 和辅助好素全部点；circular unit 的最低 Bernoulli 项给 regular $p$ 的单 $p$ 处满射。根独立核局部 log 截断、真实 global unit 与本地归一化的区别；未暗用 Vandiver、未宣所有 twists 有局部点。Jaswal 新稿仅提供方法线索，未消费其数值筛选或未付全局结论。无数学程序执行。
+
+
+### 2026-11-27 05:35 Asia/Taipei — 持续同步与真实 pull 断点
+- 05:34再次请求原工作树的真实 git pull --rebase origin main，执行服务仍直接返回 No usable execution environment，shell 未运行。随后连接器同步 6b5ac692d49417bcb60af55200a15460bf0dde47；较 8c326d0 的三个新增提交均不涉及两 README 或本题。根规矩8的小文本 fallback 继续，最新真实 pull 仍为01:48，恢复后立即执行。
+- R1062/R1063 已分别成功推送 8c326d0 / caf2448；当前继续辅助好素的完整同标签条件，以及不反除 bare 范数的实际整消去族扩展。O1 继续原固定三挠 theta 的完整 Miller 来源，未宣布目标完成。
