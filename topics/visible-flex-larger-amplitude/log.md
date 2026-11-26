@@ -149,3 +149,10 @@
 ### 2026-11-26 17:49:28 UTC — 完整六控制/九KKT/二十七角jet增广闭合源码
 
 刊出[完整gamma实现](notes/2026-11-26-added-gamma-complete-KKT-operator.md)及geometry、driver、launcher、pure reader、三完整再生器、全参数/来源。原全部变量/metric rows/C/幅度/永久点/真筛和优化主体保；新增完整乘子Hessian及四阶混合链，原C与无量纲KKT阈值分别检查。Root及两代理实际文本/AST/compile审，无科学计算。portable只初始历史且未入queue；05真实45870334713后续先补同g历史闭包，不借新来源删点。KKT、初场、QP及连续证书全部未返。
+
+
+### 2026-11-26 17:59 UTC — 真实原输入H种子/gamma与05完整历史
+
+[完整接续](notes/2026-11-26-live-run03b-height-gamma-and-run05-history.md)：03b已实际返33；保原四对象，排完整H-only/pure后接strict gamma/pure，gamma额外保紧前H报告为第八manifest。05追加原3/17/21/26完整实际依赖再生；不重宣旧结论，不借新来源删地点。终端盘满后迁移失联，CLI后续写未成；云API重新读c53b6b6双README与4ef11无差异，普通单父快进发布，不假称API为pull。新科学未执行，本地无科学。
+
+API首次快进因HEAD并发变动未成；已真实读取572ec0d375c2e08471b372c575620d1ce5ba709e，双README和本课题被改文件逐项blob相同，在新父普通重放，不强推。
