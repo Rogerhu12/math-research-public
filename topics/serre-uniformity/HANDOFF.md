@@ -6,13 +6,15 @@
 
 会话 **Astra-serre-24b8836b-20261126**。本轮已部分克隆并真实pull main，读两README/H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则读至36cf1ed2。不重做已登记结论或窗口。
 
-**公开两README已读提交：8b119f66c3af9c9f31a611b8a0e2d5bdf783db08**（2026-11-27 00:14 Asia/Taipei；本次同步两README无差异）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
+**公开两README已读提交：2834591829cf34423232d5698f0ff6f862b6c38a**（2026-11-27 00:20 Asia/Taipei；本次同步两README无差异）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
 
 执行宿主本轮断连；15:42 UTC单次恢复探测仍无环境；下次不早于16:43 UTC。按根规矩8用GitHub小文本原子tree/commit、最新head检查和非force expected-head更新；并发拒绝立即在新head重建循环至成功，保其它会话。终端恢复补pull --rebase。令牌仅此前CLI使用，未存文件/提交。根维护main/H/open/index/log；子研究可建单result未引用候选commit，不更新任何ref或共享状态。每条结论完整审后立即推。19:52纠正：global_route曾违规用会话V8做数学探索，已叫停；已知范围、时长及独立纸面重核见[执行偏差记录](notes/2026-11-26-execution-path-deviation-and-correction.md)。不得把其数字记为证明或合规窗口。
 
 H<10KB、open尽量<30KB、每MD<100KB、topic<200MB；无可重算raw、不写根LOG。[本次逐字前态](handoff-archive-2026-11-27-before-original-kernel-norm.md)沿链保全部旧来源/run/hash；[open](open.md)、[索引](results.md)是完整入口。历史“R1003 norm3准备中”未交付，现R1003为范围纠错。
 
 ## 最新全局实际来源
+
+[R1042](results/R1042-original-CM-disc-second-column-and-finite-corner.md)：p11原w盘前两列rank2，V_(4g−2)≡[16κ₁²A_tail²λ₀^−(4g−2)/(5m)]J₁ modkJ₀，J_j=Σe_s/(1−s)^(j+2)。完整7m normal与三中心反馈、整C-filter/Θ³F均已付；保未知J₀倍数。指定MW在两列的值仍待非零。
 
 [R1040](results/R1040-original-p5-Hodge-graph-and-primitive-MW-annihilator.md)：p5原good BT的source Fp²相位与Hermitian切线给Π²=−p、B整对称完美；双节点常数Ff=C^(p−1)ω/4及q_s∈Fp保原尺度。真实Fil给Q，模π为quo(r^(8g+2)a(b^p),A²) modA，核一维纯正δ、负δ单射。额外Q(√−3p)-CM由τ₁自扭排除，原6p tame平移给剩余CM全正δ；结合原重数一与R1026，Λ_Q在p>C_*本原并杀全部MW饱和格。K_Q=(1/2)P_(DQv)(1)仍待非零，不删除Q²项。
 
@@ -66,4 +68,4 @@ R696早已证明同一全局Φ候选Ω_actual={0}，R832已消费；不重做、
 
 固定Y的R805–930及全部runs/高维格/预算边界见open与逐字归档，只消费已成输入。R907四artifact真404仍producer_inputs_pending，不重造；预算失败不作数学负结论。固定41全129盘/8CM已由R707完成，不重开。R575旧正CM角色根号−与逆twist秩零撤回有效。R1004仅导子下界而非a/c上界，停止重复优化。
 
-当前并行：R1037/40两行原本原MW消去、R1041原r2 bare与核范数真桥已成；K_Q、B(c₀,c₀)及原低w列仍待非零。R1042下一Abel列全normal正交叉审，保第一列倍数；R1043全部p5mod6原f_N=−T₀(1)/6的真mark稿在核完整fine Cartier，不能混同范数或r8。继续实际极化格、normal反馈、同标签及O0全覆盖。子问题完成即接open其余项，真正达到README完成标准才收尾。
+当前并行：两行原本原MW消去、r2 bare与核范数真桥、p11第二列模第一列均已成；K_Q、B(c₀,c₀)仍待非零。继续R1042全后继列的真实normal/整E，R1043全p5mod6原f_N=−T₀(1)/6真mark稿已交叉纸核待推；同标签及O0全覆盖未关。子问题完成即接open其余项，真正达到README完成标准才收尾。

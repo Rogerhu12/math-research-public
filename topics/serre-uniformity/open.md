@@ -6,6 +6,8 @@
 
 ## 原最低型：已经付清的输入与准确剩余标量
 
+[R1042](results/R1042-original-CM-disc-second-column-and-finite-corner.md)：p11原CM盘前两列为V_(4g−1)=u₀J₀、V_(4g−2)≡u₁J₁ modkJ₀，J_j=Σe_s/(1−s)^(j+2)，u₁=16κ₁²A_tail²λ₀^−(4g−2)/(5m)原单位。在J₀核上完整CM<7m全零，三中心层与所有反馈付清；真正整E杀完整C-filter核，给E x^(6g−1)=x^(6g−1)+4Ax^(4g−1)+(16/5)A²x^(2g−1)。故whole-type前两列rank2；指定MW配对仍待非零，不删第一列倍数。
+
 [R1040](results/R1040-original-p5-Hodge-graph-and-primitive-MW-annihilator.md)：p5原good BT的source Fp²相位与Hermitian切线给Π²=−p、B整对称完美；双节点常数Ff=C^(p−1)ω/4及q_s∈Fp保原尺度。真实Fil给Q，模π为quo(r^(8g+2)a(b^p),A²) modA，核一维纯正δ、负δ单射。额外Q(√−3p)-CM由τ₁自扭排除，原6p tame平移给剩余CM全正δ；结合原重数一与R1026，Λ_Q在p>C_*本原并杀全部MW饱和格。K_Q=(1/2)P_(DQv)(1)仍待非零，不删除Q²项。
 
 [R1037](results/R1037-original-Hodge-graph-operator-and-primitive-MW-annihilator.md)：实际Fil graph给整Q=ε⁻²ΦΠ，Verschiebung准确−ε²Qα；原模π矩阵为quo(r^(8g−2)a(b^p),A²) modA（系数固定）。原ODE将核化为LT=cA，核准确一维且全正δ，负δ上单射；R1026故给Λ_Q=B(v,QD·)本原且消去全部MW饱和格。指定CM值K_Q=(1/2)P_(DQv)(1)保完整Q²，仍待单位与低w系数；B(c₀,J)=−1/8不替代它。

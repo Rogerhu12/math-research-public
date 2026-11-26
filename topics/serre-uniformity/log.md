@@ -305,3 +305,8 @@
 ### 2026-11-27 00:14 Asia/Taipei — R1041 原r2 bare与实际核范数
 - [R1041](results/R1041-original-r2-bare-coefficient-and-Hodge-kernel-norm.md)：原r2完整高权SS迹准确S^p=−36ρ B(c₀,c₀)，ρ³=2；故原bare c_(p−2)±单位 iff 实际一维ker Q的B范数非零。实际whole-space Cartier核由LT₀=A，保原CM oldform尺度ξ^(p+1)=ρ/24、细模度12及全部额外SS零贡献；d₁与12不混同。等价B范数=−(1/2)[b^(d−1)](c₀T₀ modA)。核维一与B完美不证明自配对非零，也不替代K_Q或r8。
 - o2单文件候选216e94a3d92f5f68f71619bdf918d77d5ddcef30经global/root全文独审PASS。完整原Cartier极部、fine/aux CM阶、Tate负号与ξ范数、degree12/原d₁及全部SS逐项核准；补原weight-zero函数Fp定义以明确a=b^p重标相位。没有数学执行；H逐字归档，两README同步检查。
+
+
+### 2026-11-27 00:20 Asia/Taipei — R1042 原CM盘第二列与完整有限角
+- [R1042](results/R1042-original-CM-disc-second-column-and-finite-corner.md)：p11原CM盘前两列为V_(4g−1)=u₀J₀、V_(4g−2)≡u₁J₁ modkJ₀，J_j=Σe_s/(1−s)^(j+2)，u₁=16κ₁²A_tail²λ₀^−(4g−2)/(5m)原单位。在J₀核上完整CM<7m全零，三中心层与所有反馈付清；真正整E杀完整C-filter核，给E x^(6g−1)=x^(6g−1)+4Ax^(4g−1)+(16/5)A²x^(2g−1)。故whole-type前两列rank2；指定MW配对仍待非零，不删第一列倍数。
+- global单文件候选a83d2fe0d23cc1e2136fbae830c8cb16f902af6b经root/o1/o2全文独审PASS；三层center regular性、4m零后最低Taylor、C过滤真实终端、Θ³F和全部原坐标/Serre尺度逐项纸核。只给第二列模第一列，不宣指定消去读数或唯一零点。无数学执行，两README同步检查。
