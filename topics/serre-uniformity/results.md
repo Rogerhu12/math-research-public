@@ -8,6 +8,8 @@
 
 ## 新增结论（2026-11-27）
 
+- **R1065（真实局部像与候选压缩已证明）**：[R1065](results/R1065-original-p-local-cusp-label-compression.md)：全部 $p>37$ 的原完整 $X_{\rm ns}^+(p)$ 标签在每个原 $\mathbf Q_p$ 模 $p$ 圆盘恒定；实际局部像至多 $p\,n(p)$。证明保全部四行正则模型、cusp闭包及 $U_m$ 平凡角色。regular $p$ 下可能有 $p$ 点的真实global twists至多 $p\,n(p)p^{\kappa_p}$，$\kappa_p$ 精确保全部2/3角色；未将实际标签算成CM标签，辅助共同像仍开。
+
 - **R1064（真实全局覆盖及辅助条件已证明）**：[R1064](results/R1064-original-cuspidal-cover-descent-and-auxiliary-character-visibility.md)：原标签来自几何连通、全曲线 étale 的真实 $\mathbf Q$-torsor；forced cusp 值为 $(m/2)\chi(h)\chi(-\delta)^{-1}e_{\chi^2}[\varpi_1]$。regular $p$ 下所有全局 twists 的每 cusp 纤维均为单一 $p^r$ 次闭点，未增加 Runge 盈余。辅助 $\ell$ 只读 $\ell^{2j+1}=1\bmod p$ 的角色；真实可见商给点集双射及 Weil 的有限有效辅助范围，同标签共同像排除仍开。
 
 - **R1062（完整全局必要条件已证明）**：[R1062](results/R1062-original-full-nonsplit-cuspidal-kummer-descent.md)：完整 $X_{\rm ns}^+(p)$ 的无基点 cusp 归一化给全部有理点固定 $S=\{2,3,p\}$ 的有限 Kummer 标签，保全部 class-group 项；实际 Galois cusp 模至少含 $\lfloor p/4\rfloor-1$ 个一维 $p$-挠角色。辅助好素须比较同一标签与全部约化点。regular $p$ 时单独 $p$-local 比较满射，不能筛盘；全局标签浓缩仍开。

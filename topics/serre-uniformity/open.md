@@ -2,7 +2,7 @@
 
 **主要目标仍OPEN。** 完整证明绝对常数C，或给出p→∞完整无CM反例族；有限素数、条件结论、低权/局部Abel/部分子群均不够。
 
-此前逐字状态在[最新open归档](open-archive-2026-11-27-before-cuspidal-cover.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重算。
+此前逐字状态在[最新open归档](open-archive-2026-11-27-before-local-label-compression.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重算。
 
 ## 原最低型：已经付清的输入与准确剩余标量
 
@@ -23,7 +23,7 @@ R1050原短PD/PF参数已由R1052完整消费，κ₁、双incidence与安全分
 
 [R1045](results/R1045-original-MW-annihilator-nonzero-reduction.md)：全p6N5的完整三CM/S₀=1与Euler有限₃F₂排new正交行的ℓ阶contact，保Q²。几何p11及R1046的p5在p>C_*给真实MW消去后准确M1；不宣最高J₀/最低单位或深盘唯一零。
 
-R1044/46的完整Cauchy旗标现由R1052给全等式；whole-type rankℓ−1、核维N、原所有单位及p5双中心/∞/分歧12均保原证明。指定c的完整contact由R1045排除，最低单位与非中心根仍开。
+R1044/46的原Cauchy旗标及p5全部中心/∞/分歧12已由R1052完整消费；R1045排指定c的全阶contact，最低单位与非中心根仍开。
 
 R1037/40原两行PD、source Fp²/Hermitian、Π²=−p、B整完美与Q=ε⁻²ΦΠ已成；完整quotient外系数固定，核一维纯正δ、负δ单射。v=(1−Q)λ，Λ_Q杀全部原MW饱和格，在p>C_*自动本原；完整K_Q=P_(DQv)(1)/2与Q²保结果，B(c₀,J₀)=−1/8不代K_Q单位。
 
@@ -31,9 +31,11 @@ R1018–40的原完整Fm/两节点Dickson/PD及好BT整比较均已付，详细�
 
 ## O0：全主目标覆盖（R1003恢复原范围）
 
-[R1064](results/R1064-original-cuspidal-cover-descent-and-auxiliary-character-visibility.md)：原标签来自几何连通、全曲线 étale 的真实 $\mathbf Q$-torsor；forced cusp 值为 $(m/2)\chi(h)\chi(-\delta)^{-1}e_{\chi^2}[\varpi_1]$。regular $p$ 下所有全局 twists 的每 cusp 纤维均为单一 $p^r$ 次闭点，未增加 Runge 盈余。辅助 $\ell$ 只读 $\ell^{2j+1}=1\bmod p$ 的角色；真实可见商给点集双射及 Weil 的有限有效辅助范围，同标签共同像排除仍开。
+[R1065](results/R1065-original-p-local-cusp-label-compression.md)：全部 $p>37$ 的原完整 $X_{\rm ns}^+(p)$ 标签在每个原 $\mathbf Q_p$ 模 $p$ 圆盘恒定；实际局部像至多 $p\,n(p)$。证明保全部四行正则模型、cusp闭包及 $U_m$ 平凡角色。regular $p$ 下可能有 $p$ 点的真实global twists至多 $p\,n(p)p^{\kappa_p}$，$\kappa_p$ 精确保全部2/3角色；未将实际标签算成CM标签，辅助共同像仍开。
 
-[R1062](results/R1062-original-full-nonsplit-cuspidal-kummer-descent.md)：完整 $X_{\rm ns}^+(p)$ 的无基点 cusp 归一化给全部有理点固定 $S=\{2,3,p\}$ 的有限 Kummer 标签，保全部 class-group 项；实际 Galois cusp 模至少含 $\lfloor p/4\rfloor-1$ 个一维 $p$-挠角色。辅助好素须比较同一标签与全部约化点。regular $p$ 时单独 $p$-local 比较满射，不能筛盘；全局标签浓缩仍开。
+[R1064](results/R1064-original-cuspidal-cover-descent-and-auxiliary-character-visibility.md)：真实Q-torsor与cusp平方角色已付；regular p下每cusp单一p^r次闭点，无Runge盈余。辅助ℓ只读ℓ^(2j+1)=1角色，真实可见商/Weil给有限辅助范围；同标签共同像排除仍开。
+
+[R1062](results/R1062-original-full-nonsplit-cuspidal-kummer-descent.md)：原完整曲线有固定S={2,3,p}的规范全局Kummer标签；保class-group与实际Galois方向，forced角色≥⌊p/4⌋−1。regular p单p-local ambient比较满射，实际点像现由R1065限制。
 
 R1只把全部异常缩为p>37的完整N_ns；**p≡2,5 mod9只是另加小惯性I_p=C³的结论**。R317的应用另外要求整j、K=Q(√−3)、σ=1，以及实际二除法域和三除法S3商域同时一致。完整惯性、非整j、变化K、σ非平凡及异小除法域的大导子支路，均未由当前CM证明链排除。原导子下界不是上界。O1/O2研究指定辅助源，不是完整剩余情形；真正全局高度也仍待证。逐条假设见[R1003](results/R1003-global-scope-and-remaining-branches.md)，后继不得省略此覆盖缺口。
 
