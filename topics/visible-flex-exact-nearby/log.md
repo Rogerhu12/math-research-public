@@ -341,3 +341,6 @@ NS五件共129172B，owner71056B SHA18db439d5895e4232882940a57b7bd9457982383e1ac
 
 
 2026-11-26 22:48:51 UTC / visible-exact-astra-fb31ed6-20261127：登记APA actual45906257068/1全8目标成功；actual8966B/04d09519…、execution27977B/76969066…，owner11.934s、child15.967s，原NP四整740×193 jets SHA全部核同，旧目标0。whole97新signed配对[-.006269836±2.48e−10]，真实row-change<9.672e−11、完整PDEerror<2.290511e−4；最终正式whole球给physical[-.006499,-.005501]和normalized[-.008810,-.007190]严格负，scalar mean/fullunknown tail保。仅改proof一处PA.8→PA.14正确公式引用；TM已推48ba4d77b，两README无diff。
+
+
+2026-11-26 22:51:17 UTC / visible-exact-astra-fb31ed6-20261127：登记TP proof/pure。用whole IR finite GZ的joint coefficient范数ZG/BZ，在原same-sign两块完整投影先行，L∞/L2 alpha两产品对同一个全operator取min；单次√2为正负两sign，无√96。whole alpha新trial Wiener+AS整误差给KA，TP10/11接所有IR/SDI/TM真实域/one-loss与model rounding；新实际owner仍等AS完整成功。零本地科学，AST已过。APA已推aa4a18488，两README无diff；TC22:48只读latest wholeprefix520/7724，最后原row519/trialpiece516/negative_strict，运行未终。

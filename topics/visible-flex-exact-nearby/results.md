@@ -353,3 +353,5 @@
 - [TM：原graph-model adjoint对完整有限Θ行](results/R149-supplement-original-model-adjoint-on-complete-finite-Theta-rows.md)：原WFI真实目标基a/b/π4、low≤96 reference1与high真实signed分母分开保，旧CYA256给KG512；同IR/AS trial形成全96×2240 original Θ carrier，whole parameter/phase/rounding joint HS误差另加，不重旧7416 gap、不加√96，actual待AS整成功。
 
 - [APA：实际strict参数的有符号physical幅值边框](results/R147-supplement-actual-selected-amplitude-border-for-the-strict-parameter-particular.md)：45906257068/1全8球/rc0，原NP740×193四整数组全部SHA同，old residual/norm/pairing0。真幅度∈[-.006499,-.005501]、原exactα归一∈[-.008810,-.007190]均严格负；全selected row差/mean/fullPDEerror均已付。齐次regular补偿、phase/height与完整νSchur不由此自动闭合。
+
+- [TP：原Θ全96行的完整alpha误差产品](results/R149-supplement-complete-alpha-error-products-for-original-Theta-rows.md)：同sign双block精确给min(e∞ZG,√2e2BZ)，全96列HS/Wiener产品均完整，不加√96；新finite alpha Wiener+e∞给原trueα的KA，IR full residual、SDI one-loss、TM whole model/phase rounding全部保。首次实际owner须whole IR/AS/IL/CYA齐；两个runtime恢复分进程，无旧norm/residual重算。
