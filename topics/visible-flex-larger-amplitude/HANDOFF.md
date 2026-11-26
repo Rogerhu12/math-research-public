@@ -67,6 +67,6 @@ R687给中心化正项Phi、趋零finite-max界及显式残差块权比；只代
 
 ## 当前公开Actions执行
 
-run [45762076394/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45762076394)，源码`a4a535eec561d0f8c79fb673cb7b8987dad033af`；[实际紧凑记录](notes/2026-11-26-public-actions-45762076394-1.md)。当前`0241`/running，返回阶段11；退出码未返。
+run [45762076394/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45762076394)，源码`a4a535eec561d0f8c79fb673cb7b8987dad033af`；[实际紧凑记录](notes/2026-11-26-public-actions-45762076394-1.md)。当前`positions_0241`/running，返回阶段12；退出码未返。
 
-Actions规则核查：2026-11-26 06:03:06 UTC，真实pull至`8d264cf6ab1de2b1b3b2e691fc3e126d49ab552d`，双README相对已读无变化。
+Actions规则核查：2026-11-26 06:06:21 UTC，真实pull至`4b0f7e9ac8aa3bcf10903bd2759fb3c161ec16e5`，双README相对已读无变化。
