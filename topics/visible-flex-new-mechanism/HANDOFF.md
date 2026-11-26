@@ -5,9 +5,9 @@
 
 ## 1. 授权、规则与完整前史
 
-公开本次实际pull且根/题README已读至 **99fe11de7a66523cdb48a5d5732bb7489d04a0c0**；根/题规则相对继承0749a4cc均空差异。私库实际pull/根README已读至 **1a995ebf0c19ea771ef0684a4f22bf94da9a960e**，QUEUE认领提交 **09f8b8b54e7cfaabaa635bae5c438c7f1521289a**；本会话仍唯一进行中，21:00 UTC前再次实际pull且根README空差异，下一不晚于21:58 UTC。
+公开本次实际pull且根/题README已读至 **e44b867ff0149c50212614049846ae5496ccf9e5**；根/题规则相对继承0749a4cc均空差异。私库实际pull/根README已读至 **1a995ebf0c19ea771ef0684a4f22bf94da9a960e**，QUEUE认领提交 **09f8b8b54e7cfaabaa635bae5c438c7f1521289a**；本会话仍唯一进行中，21:00 UTC前再次实际pull且根README空差异，下一不晚于21:58 UTC。
 
-[压缩前全文](notes/HANDOFF-before-saved-brackets-20261127.md)及其中完整归档链保留全部旧结论、真实输入、失败/偏离、量词和所有费用；移档不重跑已付门。[四来源与文献](notes/2026-11-27-current-four-source-topics-and-literature.md)保已读版本和用途。
+[压缩前全文](notes/HANDOFF-before-normal-projected-curvature-20261127.md)及其中完整归档链保留全部旧结论、真实输入、失败/偏离、量词和所有费用；移档不重跑已付门。[四来源与文献](notes/2026-11-27-current-four-source-topics-and-literature.md)保已读版本和用途。
 
 每次实际pull后查根/题README差异并立即执行，至少每小时；API不冒pull，真实SHA写本H。root独占git/共享索引；每条结论即推，NFF或并发锁立即pull --rebase再推至成功。科学仅公开Actions；本地只纸证、源码/AST/JSON/hash及原日志解析。根12不重放已付门，必要新场再生记费用；根15不存raw/可重算数组，必要下一输入单列。H<10000B、open<30KB；旧全部记录沿归档不丢。
 
@@ -25,9 +25,9 @@
 
 ## 4. B030：完整物理逆设计
 
-[原完整终态](notes/2026-11-27-r566-backend-preserving-original-terminal.md)run45883086225/job140126984773/source7923e588，新2372.056416865秒/48Jac/19接受。真81q SHA **bb921f60d02a3624552d79ebc623e3eb3306b174d981a3ca794a57b44d8edaa4**，fine1212×3072及1292全定位 η **.24394558845134018**、物理V0。605圈/1355峰/463工作行/1536角，trust.3003387451171875，pending物理1/工作1。科学链已知下界9988.810808117秒；早期截断未知仍未知。
+[原终态](notes/2026-11-27-r566-backend-preserving-original-terminal.md)run45883086225/job140126984773/source7923e588，新2372.056416865秒/48Jac/19接受；真81q bb921f60、fine1212×3072及1292全定位η.24394558845134018/物理V0。605圈/1355峰/463工作行/1536角，trust.3003387451171875，各1pending；完整已知下界9988.810808117秒及未知祖先费用不丢。
 
-48/48 raw工作物理过、12/12 coarse物理过，实际仅metric epigraph拒绝。半步bc9b991已付fine η.2430865314，却剩1353原bracket，未接受。[新后继](notes/2026-11-27-r566-physical-epigraph-saved-localizer-implementation.md)先在同q/oracle/fine完成此原队列，再采用pending；原coarse/fine/nested只按真身份复用，新FFT和定位照付。以后独立抬e后仍走原完整物理门，真η严格下降才接受；raw/BFGS与物理best始终分开。fine1212及后续全部旧点永久保留，旧资格网与新增库分列；1024工作容量保全原行。新源26绑定已核，待实际运行。
+[实际新后继](notes/2026-11-27-r566-physical-epigraph-saved-localizer-implementation.md)run **45892179085**/job140157246913/source1530094182，于20:35 UTC启动。先在同q/oracle/fine完成未接受bc9的原1353bracket，再采用pending；已付coarse/fine/nested按真身份复用，新FFT/定位照付。以后独立抬e后走原完整物理门，真η严格下降才接受；raw/BFGS与物理best分轨。全部旧fine永久保留、旧资格与新库分列，1024工作容量不删行；26绑定已全文核，待自然终态。
 
 ## 5. 完整高度与实际位置
 
@@ -51,10 +51,12 @@ R598同十八正块/576微包宽母、真η/八A/六rho、中心与两全程常�
 
 ## 7. 全闭面连续几何
 
-[R611旧圆证书](results/R611-actual-circular-reference-complete-reach-certificate.md)run45882464935以32.425678908秒/2125叶付reach≥.06072、D≤1.560001714985865；首轮准确系数错误及34.7883秒仍保留。新q相对旧圆有限δ.01801014/α.15345，不能借旧δ.001或旧紧区间。
+[R611旧圆证书](results/R611-actual-circular-reference-complete-reach-certificate.md)及准确系数修复/全部费用保留；新q不得借旧圆紧段或旧小扰动。
 
 [新连续原终态](notes/2026-11-27-r582-retained-continuous-original-terminal.md)run **45890735034**/job140152478397/source4322a257，新527.88478224秒，已完成。新圆671叶reach≥.06072/D≤1.58255527；非圆39305叶全覆盖δ.00198366681/α.01763328667/β61.2105951，R604证真嵌入但reach/D仅.00783057847，未达.03。β峰s≈.86953765；下一按法向投影收紧实际二阶界或换真实输入，不把宽β冒实际曲率。比较面用当前f1c全部mean/帽高和圆core .38，seed商仍冻结旧参考。先付新圆紧区间，再必要重建原62878端点一次；同场径向Bernstein、mean准确差、全角frame付整个材料/中心柱/双Cartesian帽/无限尾。[R608当前q适用](notes/2026-11-27-r608-tail-transfer-to-retained-circle-agent.md)只转移3/5盒尾引理，不能转移旧圆紧段。
 
 [R604](results/R604-normal-chord-stability-and-finite-parametric-norm-interface.md)用实际全域C0/C1/协变C2及近远法弦；预算只是细化目标，有效宽界按实值输出。[同cell主曲率组合](notes/2026-11-27-r604-same-cell-principal-curvature-assembly.md)纯接口另备尚未消费，不改正跑源或为它重播已付门。有限材料不是无限核、几何不是等距/幅度；原终态已付，接当前正常优化新真实输入继续。
+
+[R621](results/R621-normal-projected-covariant-blocks-and-reach-input.md)已付同cell全角参考法向投影、完整法向转动项及2×2实际主曲率界；同一次材料/mean/A-B-C读取保原C0/C1/C2并新增K，不重查同场。独立全源码/纸证审读通过，纯helper未执行；下一只针对真实a237新mean/同mesh全闭覆盖，精化直接K而非宽β，原近远法弦不删。
 
 全部已证索引在[results](results.md)，原运行、费用及新源在[log](log.md)/notes。每条局部结论后继续实际输入，只有README所有完成门真正通过才收尾。

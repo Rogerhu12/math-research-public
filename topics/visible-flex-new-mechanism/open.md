@@ -153,3 +153,5 @@ O5 [新97q连续原终态](notes/2026-11-27-r582-retained-continuous-original-te
 O2b-B [R618](results/R618-fixed-metric-core-and-growing-post-response.md)给固定完整E的真实均值/core链与每固定新J的强迫平尾。实际后继须把原高度做准确均值分拆、固定同一个E函数与幅度，再付新post频率/真实强迫口及完整2J从属项；全J一致估计和完整非线性根仍为开放项，不因局部接口完成而停。
 
 O2b-A [a237原续算终态](notes/2026-11-27-r582-physical-paid-resume-original-terminal.md)新增18次完整metric接受到η4.83022e−5；原243圈与38pending提出279，全部11025fine保留。尚未自然stall或过阶段门，继续同真态/原全门，几何针对新mean另付，不借f1证书。
+
+O5 [R621](results/R621-normal-projected-covariant-blocks-and-reach-input.md)已把环境C2宽界损失分解为完整法向块和法向转动项。下一实际scope以真a237的新mean圆、同62878端点、全闭材料和实际K精化，保原R604近远弦与全部费用；若通过仍继续固定g/宏观族，不把局部接口当完成。

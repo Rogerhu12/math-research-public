@@ -442,3 +442,5 @@
 - [R618固定完整度量与逐级独立post响应](results/R618-fixed-metric-core-and-growing-post-response.md)：**已证明核心/同根链、每固定新角带的真实强迫尾与嵌套表示**；E函数固定后p0根/导数不再重定义E，核心ζ和ζ′承担原均值变化，完整2J项与离解Jac不删。新J从u≥max(100,4J)取得真实平核/高斯强迫解/仿射DtN与口jets；不授全J一致逆或非线性全域根。
 
 - [R582真实a237的正常物理续算](notes/2026-11-27-r582-physical-paid-resume-original-terminal.md)：**数值改善，阶段仍未过**；run45887805731新2371.7857200480003秒、18接受/19完整Jac+2块，11025×3072 η4.830222091e−5/V0。真97q a237/actual243/proposal279与完整pending保留，末raw不接受；未自然stall、p仍.181、g未冻结。
+
+- [R621同场法向协变分块与真实主曲率](results/R621-normal-projected-covariant-blocks-and-reach-input.md)：**已证明完整单元充分界**；保水平/竖直primitive、旋转frame全部法向项、法向转动乘环境二阶差及混合块，用同cell2×2/实际浸入下界控制K。同一次原材料与mean查询消费；纯helper尚未执行，不授新候选reach。
