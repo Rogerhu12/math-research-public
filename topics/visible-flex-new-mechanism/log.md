@@ -530,3 +530,7 @@ root读完独立oracle及driver，核全均匀约束保留、非均匀峰AD、�
 ## 2026-11-26 — Astra-new-mechanism-0105020f-20261126 / 圆核真实终态
 
 root完整解析1042984字节原stdout全部JSON，82660字节FINAL哈希同identity；核5阶段/37外层/300回调、334求值、216metric改善及全部原pull收据。圆核只付有限几何入口；四次非圆均未过阶段门，不借run success冒解。特别按原OUTER_START区分stage4真正156×384与最终已扫描235×768，stage0后端trust3.796875与下一4也分开。收据即推，转圆背景真实线性匹配和有限预测。
+
+## 2026-11-26 — Astra-new-mechanism-0105020f-20261126 / 角峰启动传递依赖修复
+
+原run45784057434双lane在hash读取前置resume文件缺失处失败，模型调用0，child实际启动wall .682827/.588092秒；root核原stdout/hash和无DEFINITION。只补原既有resume文件至sparse/source binding，原driver/oracle/q/网格/trust/参数不变；静态遍历依赖闭包9bindings齐，新请求另有身份，原失败保留。修复即推、公开同run核接口后继续优化。

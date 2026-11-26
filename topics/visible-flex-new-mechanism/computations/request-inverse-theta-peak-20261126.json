@@ -7,7 +7,7 @@
     "topics/visible-flex-new-mechanism/README.md": "d0432faff569c8e9af7ed4809847e12880976c11"
   },
   "private_rules_read_commit": "4f7e1d119bd02b0b37fe4d2d409a4f88c6a96a9e",
-  "public_rules_read_commit": "bec726ad20f1eaf8f6d2b411ecbdaba22ddcf883",
+  "public_rules_read_commit": "22927934bbe215617ea51364af55f11eeba19f41",
   "queue_session": "Astra-new-mechanism-0105020f-20261126",
   "repository": "Rogerhu12/math-research-public",
   "runtime": {
@@ -19,7 +19,7 @@
     "python": "3.12.14",
     "setup_python_action": "a26af69be951a213d495a4c3e4e4022e16d87065"
   },
-  "schema": "inverse-r566-retained-uniform-and-actual-angular-peak-exchange-request-v1",
+  "schema": "inverse-r566-retained-uniform-and-actual-angular-peak-exchange-request-v2-complete-import-closure",
   "entry_point": "topics/visible-flex-new-mechanism/scripts/inverse_r566_theta_peak_exchange_20261126.py",
   "workflow": ".github/workflows/visible-inverse-theta-peak-20261126.yml",
   "common_parameters": {
@@ -75,16 +75,19 @@
     "job_timeout_minutes": 50,
     "cooperative_scientific_checkpoint_seconds": 2400,
     "original_stdout_only": true,
-    "artifact_release_git_or_cross_run_cache_writes": false
+    "artifact_release_git_or_cross_run_cache_writes": false,
+    "startup_failure_run_preserved": 45784057434,
+    "repair_only_adds_required_resume_dependency_to_checkout_and_source_binding": true
   },
   "source_sha256": {
-    ".github/workflows/visible-inverse-theta-peak-20261126.yml": "b6fbb282f6797d4d4f7ca83ada9eb816df55203167bc34622af25f0e3db05379",
+    ".github/workflows/visible-inverse-theta-peak-20261126.yml": "8042d88b7f4bc98552664c113aa03f31db59edb5134d28bfd8bba41f819def3d",
     "topics/visible-flex-new-mechanism/scripts/inverse_flat_oscillatory_tail_20261126.py": "b9c778fbeafb0d9beb061b3f472b8db1661daec5a78a63eb886a8e4770574f9b",
     "topics/visible-flex-new-mechanism/scripts/inverse_hard_exchange_20261126.py": "304989b5b127e3d761a243aed55ca437d86012f2cd6e3357c291e1159bf48271",
     "topics/visible-flex-new-mechanism/scripts/inverse_r566_angular_oracle_20261126.py": "46eea6c6da4a94c82106e8a57ff98e70bf8f85bd2d0ef35c26cb649a0ee2f0a7",
     "topics/visible-flex-new-mechanism/scripts/inverse_r566_block_jacobian_20261126.py": "c0ab647ed2c6c0647c9031995696d40bc2c6717b893f67cf7c6a345c5366ef6b",
     "topics/visible-flex-new-mechanism/scripts/inverse_r566_theta_peak_exchange_20261126.py": "6094c15ff2696d6b64e9eac09ce60b54a59a64c545cb88fb7734df8bb185f757",
     "topics/visible-flex-new-mechanism/scripts/inverse_rotational_metric_20261126.py": "e25dff6a411e8edc485babe6545087cfbea2b6d16cd804e6dcb51f17d8fab319",
-    "topics/visible-flex-new-mechanism/scripts/run_inverse_rotational_metric_20261126.py": "a97334fb7004ce750c0c949469be2db21ca7a187e53b48032dba2f330cf5e8ae"
+    "topics/visible-flex-new-mechanism/scripts/run_inverse_rotational_metric_20261126.py": "a97334fb7004ce750c0c949469be2db21ca7a187e53b48032dba2f330cf5e8ae",
+    "topics/visible-flex-new-mechanism/scripts/inverse_hard_exchange_resume_20261126.py": "befd444bfb96efc6721d1b0bad20deb25b32e915c1f789ab4d285085c2afcce4"
   }
 }

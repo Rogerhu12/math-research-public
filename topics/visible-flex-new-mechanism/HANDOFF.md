@@ -6,7 +6,7 @@
 
 ## 1. 规则与接手
 
-已部分克隆并实际 `git pull main`，公开根 README、课题 README、HANDOFF、open、results 索引及相关 log/notes 已读。公开已读提交 **22927934bbe215617ea51364af55f11eeba19f41**（2026-11-26 08:37 UTC；本次实际pull后根/题README空差异）；私有根初读 **85fdf1853367ef25c07f3ebdb6ae25c22a3564b8**，随后逐次 pull/rebase 检查根差异，空差异。私有 QUEUE 的本题已改为本会话进行中并成功推送：**9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7**；最后实际pull及规则同blob读至 **4f7e1d119bd02b0b37fe4d2d409a4f88c6a96a9e**（2026-11-26 08:06 UTC；实际pull/rebase后根README空差异、QUEUE仍本会话）。其它课题的并行认领保留。
+已部分克隆并实际 `git pull main`，公开根 README、课题 README、HANDOFF、open、results 索引及相关 log/notes 已读。公开已读提交 **8182371c172aaab41ac456d653c116b229678404**（2026-11-26 08:39 UTC；本次实际pull后根/题README空差异）；私有根初读 **85fdf1853367ef25c07f3ebdb6ae25c22a3564b8**，随后逐次 pull/rebase 检查根差异，空差异。私有 QUEUE 的本题已改为本会话进行中并成功推送：**9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7**；最后实际pull及规则同blob读至 **4f7e1d119bd02b0b37fe4d2d409a4f88c6a96a9e**（2026-11-26 08:06 UTC；实际pull/rebase后根README空差异、QUEUE仍本会话）。其它课题的并行认领保留。
 
 各原观察note保真实双仓pull/规则blob/QUEUE回执；根/题规则均无变化。盘满和失联恢复原记录保于[先前交接](notes/HANDOFF-before-hard-restoration-20261126.md)，历次全文见[几何转向前交接](notes/HANDOFF-before-compact-geometry-20261126.md)及[非线性高度前交接](notes/HANDOFF-before-nonlinear-height-20261126.md)。API读取不冒git pull。
 
@@ -34,7 +34,7 @@
 
 [硬几何首run](notes/2026-11-26-hard-exchange-first-run-restoration.md)与[原门识别续接](notes/2026-11-26-hard-resume-first-metric-progress.md)完整闭账：B030末V=.00054365/η2.089589，B038首次fine可行并降η至.86360747；均止于未采用1536角超过原768容量。实际原q/网格/trust保，原资格不因新预算改判。
 
-[联合预算/分块Jac](notes/2026-11-26-joint-budget-block-jacobian-implementation.md)改R1.012/Y.3928/τ.06072；[B030终态](notes/2026-11-26-joint-budget-b030-first-metric-receipt.md)181.995016962秒、fine V0/η.93981894，实际119×1536；[B038终态](notes/2026-11-26-joint-budget-b038-metric-and-peak-cap-receipt.md)848.448631589秒、fine V0/η.85361432，实际121×1536/trust1/64、末后端success46步。两者3072提议均未采用，非时间终止。[实际角峰新源](notes/2026-11-26-real-angular-peak-exchange-implementation.md)保原q/trust/1536全约束、加入真实非均匀峰，Ebar仍完整积分；当前actual违规覆盖内的峰不立即重启，小峰pending待自然返回，fine与定位共同判接受。首run启动漏传递依赖正在补最小打包修复，未进模型计算。全闭reach/连续证书和最终固定g仍欠。
+[联合预算/分块Jac](notes/2026-11-26-joint-budget-block-jacobian-implementation.md)改R1.012/Y.3928/τ.06072；[B030终态](notes/2026-11-26-joint-budget-b030-first-metric-receipt.md)181.995016962秒、fine V0/η.93981894，实际119×1536；[B038终态](notes/2026-11-26-joint-budget-b038-metric-and-peak-cap-receipt.md)848.448631589秒、fine V0/η.85361432，实际121×1536/trust1/64、末后端success46步。两者3072提议均未采用，非时间终止。[实际角峰新源](notes/2026-11-26-real-angular-peak-exchange-implementation.md)保原q/trust/1536全约束、加入真实非均匀峰，Ebar仍完整积分；当前actual违规覆盖内的峰不立即重启，小峰pending待自然返回，fine与定位共同判接受。[首run启动遗漏](notes/2026-11-26-theta-peak-import-closure-failure-and-repair.md)未进模型，已仅补既有resume传递依赖到checkout/hash，新请求待原科学终态。全闭reach/连续证书和最终固定g仍欠。
 
 
 ## 4. O4 两个不同母库的有效入口
