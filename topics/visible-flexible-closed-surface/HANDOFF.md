@@ -7,7 +7,7 @@
 
 完整连通闭C2嵌入族、共同g和固定握持开区域；全曲面D下held/D≥.05、含反射δE>0、全时reach/D≥.03、全域全时metric≤1e−6，并支付同一g/全部物理参数下真加密到求解容差及可复现完整网格。基础之后继续held/D≥.2、δE/D≥.05或严格存在。本题尚未完成。
 
-- 根/课题README完整读于 `f0548477576caa2373d1626227a284ccfa9767d0`；接手真实pull在05:16UTC成功。最近已读公开提交 `80433e9fc373d18b9f0d6ff3b6e3216f9691f054`（2026-11-26 10:53 UTC真实pull/rebase后，双README逐差均无变化）。每次真实pull后核两README差异，至少每小时；有变只读差异立即执行。本轮各次均无差异。
+- 根/课题README完整读于 `f0548477576caa2373d1626227a284ccfa9767d0`；接手真实pull在05:16UTC成功。最近已读公开提交 `5222a954b93fba5d0ba3f724e97e46adceca0230`（2026-11-26 11:06 UTC真实pull/rebase后，双README逐差均无变化）。每次真实pull后核两README差异，至少每小时；有变只读差异立即执行。本轮各次均无差异。
 - 私库根规矩完整读；QUEUE认领已推 `c7785184d0d9c503852fb2137e9e2c091221d080`，状态进行中（本会话/2026-11-26）。认领推拒均即时pull/rebase再推成功。
 - 每结论分条commit/push；推拒立即pull --rebase循环，不强推、不amend已发布提交。完整证明直接登记；不回到旧独审/冻结手续。可重算数组不进Git/Release/artifact，只存源码、参数、run/hash。单MD<100KB、H<10KB、课题<200MB；不写根LOG。令牌只在命令进程环境。
 - 部分克隆 `/tmp/visible-flex-6a65e705/math-research-public`；同级 `solver-work/geometry-work/exact-work` 保存raw。/workspace空间不足，勿将大数组放回。05:47和09:18两次失盘；09:38已重新部分克隆、真实pull。旧本地raw/未公开源均失，不借旧字节身份；第二次中断及恢复见[真实回执](notes/2026-11-26-6a65-cauchy-same-job-recovered-transition.md)。
@@ -29,14 +29,14 @@
 
 [R222](results/R222-central-gap-conditional-held-and-ramp-budget.md)已证明固定周长gap区间[1.041,1.089]的中央曲率上限及明确假设下held>.64；9.5中央guide保[1.041,1.067]。真实角Codazzi项不可删。新gap1.05/v.045[真实prefix](notes/2026-11-26-6a65-geometry-coupled-gap-prefix.md)41.103s真0：1637RHS，ramp metric1.17e−12/κ9.6363，Γ95 coast κ8.8926；真实C2消费后metric2.65953e−9。右段未接。[R224](results/R224-gap105-v045-entire-coast-continuous-domain.md)新Γ95整coast 2048整数叶已证D>.9719/U_t>.9657/.1949<κ<8.893；真实16.017s exit0。不继承旧证书。[R225](results/R225-gap105-strict-perimeter-and-normalization.md)同curve严格Simpson弧长半宽<3.738e−13、两比例曲线集合差<5.618e−13；角反参/全两jets及ramp/全闭reach仍欠。正在实际全Cauchy尾短窗口改接。
 
-[R223](results/R223-m12-common-chart-through-flat-cuff.md)已证明原g从中央到真正平领的共同C2图：显式quintic全尾.684<−r_q<1.422，H/H_q与完整两jets保持，r=.6可作内部自由接口。全尾数值装入和全局求解仍在做，非完整等距证明。
+[R223](results/R223-m12-common-chart-through-flat-cuff.md)已证明原g从中央到真正平领的共同C2图：显式quintic全尾.684<−r_q<1.422，H/H_q与完整两jets保持，r=.6可作内部自由接口。[R226](results/R226-m12-normalized-reference-and-continuous-cartesian-bounds.md)确定中央准确归一参考已付全时几何：metric<7.667e−8、reach/D>.03120330、held/D>.05278322、含反射δE>0，真0/9.059s。任意solver W连续6jet检查器已写，未知W不借该几何。
 
 ## 公共CI实际状态与继续
 
 
-[当前run45778054176](https://github.com/Rogerhu12/math-research-public/actions/runs/45778054176)/job139766458381，冻结head2ed4f1ef9、controller5093095a…。R208/J36实际20步、source001 K19完整12次和各自observer都真0；K19末state9ada2ac0…590d9/observer7c11d591…50a15，密观察metric.1890794/κ13.02914，未合格。完整身份见[CI报告](notes/2026-11-26-6a65-actions-strong-45778054176-1.md)。
+[当前run45778054176](https://github.com/Rogerhu12/math-research-public/actions/runs/45778054176)/job139766458381，冻结head2ed4f1ef9、controller5093095a…。R208/J36与source001 K19的实际计数/末态/observer全在[CI报告](notes/2026-11-26-6a65-actions-strong-45778054176-1.md)，未合格且不重跑。
 
-source002=28c629a0627在09:44:12真实消费：实际父态→短Cauchy/.14入口/自然周长/纯clock/全部1788列fit+value→12完整LM尝试。新baseline09:50:30真0，R².18745698/metric.34164247/κ18.53034；首两步真0/α.25,.5，10:18:23末metric.2668901/κ26.79246/held.6282139，state9c757d18…3f47f。κ仍劣于baseline，不能计合格。新epoch冻结，不热替换controller或猜末态；raw只同job，quiet不推断失败。恢复入口见[说明](notes/2026-11-26-6a65-cauchy-same-job-recovered-transition.md)。
+source002=28c629a0627在09:44:12真实消费：实际父态→短Cauchy/.14入口/自然周长/纯clock/全部1788列fit+value→12完整LM尝试。新baseline09:50:30真0，R².18745698/metric.34164247/κ18.53034；实际第5步11:00:21真0/α.25，metric.2640933/κ26.42027/held.6281818，state1b20d8ba…71e24。κ仍劣于baseline，不能计合格。新epoch冻结，不热替换controller或猜末态；raw只同job，quiet不推断失败。恢复入口见[说明](notes/2026-11-26-6a65-cauchy-same-job-recovered-transition.md)。
 
 CI每次literal pull在首行marker记SHA；publisher只合并该行，保root其它文本，不amend已发布提交。等待fetch30秒，新请求或45分钟才真实pull。root分条push同时遇NFF/锁冲突均已即时pull/rebase循环成功。后继文件 `ci-requests/6a65-strong-followup-20261126.json` 必须消费实际末态，不猜SHA。
 
