@@ -298,3 +298,5 @@
 - 2026-11-26 07:08 UTC｜Astra-held10-06bbeb39-20261126：lowq首请求在chart SHA硬绑定处实际exit2、0port/BVP stages；新公共chart69a3e8eb非旧dc85dda且generator无路径/时间字段，不当元数据相同。新请求在同runner固定实际再生chart/setup hash并重核原角域，保物理profile与全部接受门，从q006真实求；旧本地同SHA声明不外推CI。
 
 - 2026-11-26 07:12 UTC｜Astra-held10-06bbeb39-20261126：R67以初等矩唯一性、显式全3j帽和最高权体积张量去掉指定m3非零债；两允许短柱至少一条支线有整段δE>0（含反射），不声称指定.45端点不同。帽成本≤.00004、K≤.0252/support>.0997，条件D2.69004下三比例余量Fraction实核为正；完整实际图仍欠。
+
+- 2026-11-26 07:16 UTC｜Astra-held10-06bbeb39-20261126：lowq当前chart上q006/q012原M8已真通过，598/603节点，metric5.5903363e−9/1.1331834e−8；完整checkpoint/source/physical SHA保存，自动续q020。只算旧支必要再生，M8/M16端口整包历史SHA不同已明示。另存已审尾侧完整Hermite修补预算入口，真mean增量计入代价，无新场代入或闭合声明。

@@ -6,17 +6,18 @@
 
 连通闭C²嵌入、C²连续族；H闭、有内点且diamH≥.2D，整像δhold≥.1D、含反射δE>0，全时reach≥.03D。固定完整g/物理数据/时间范围加密到完整metric≤1e−6并持续下降。必须实际闭合和共用Cartesian两jet；λ<1不提供准确圆弧H。
 
-- 公共已完整读规则并真实pull：`b0d2a1aee480ec90bd1957fbda7e84d76d305b98`；私有根README/QUEUE接手登记已推 `2f68946f2fa3e192a291c7c1393231af1a89953e`。每次pull核双README差异，至少每小时一次。root独占git，逐结论push，NFF立即pull --rebase再推，禁force；令牌只命令行。
+- 公共已完整读规则并真实pull：`9169e2f4aa3516c63e54ea8f1d002d1a52430de0`；私有根README/QUEUE接手登记已推 `2f68946f2fa3e192a291c7c1393231af1a89953e`。每次pull核双README差异，至少每小时一次。root独占git，逐结论push，NFF立即pull --rebase再推，禁force；令牌只命令行。
 - 工作树 `/tmp/held10-astra-06bbeb395471-public2`；原/workspace盘满，不删他人文件。旧1b6d88ec scratch不存在；54314/45287/79634最终状态仍未知。详细[本次接手/来源](notes/2026-11-26-resume-and-current-sources.md)。
 - 70份精确历史源码已恢复；初次本地M24端口/角图/tail参数/native均与旧SHA同。当前lowq公共chart再生为69a3e8eb...，不同历史dc85dda...，已明示冻结新数值chart、保实际物理输入与全部门。[可搬迁恢复入口](notes/2026-11-26-tail-source-recovery.md)。恢复仅工程输入，不作为新数学结果。
 - 本地四次恢复（含batch8及释放旧LU）均SIGKILL，无accepted raw；末次44.48s/peak270084KiB，仅到Jac，原因未知。05:51 UTC环境重置后本地初猜副本丢失，不当数学失败。
-- 公开[run45763361623](https://github.com/Rogerhu12/math-research-public/actions/runs/45763361623)原M24冷恢复已真实域失败：−2.8750805252178435e−10，trace已定位δ中心差分扰动点，无raw/metric；进程码0仅因driver捕获异常。随后三路parent正确拒绝源exit2，没有启动子解。[实际记录](notes/2026-11-26-direct-prefix-domain-return.md)。原runner仍保源码/native，已提交下一命令`held10-m16-lift-recovery-20261126-01`：M16/512/201实际场完整lift升M24，分块8+observer，不降门；先投影原traceback，再15s记录真实Jac/LU进度。δ域内减半差分独立入口已准备、未跑BVP；M16冷残差仍大，另以独立lowq通道启动[旧成功q006→.06暖路径再生](notes/2026-11-26-lowq-warm-route-recovery.md)，run45772029917首请求在chart硬SHA处exit2未求解，新请求held10-lowq-current-chart-20261126-02续做；不取消当前M16。通过后继续[三路入口](notes/2026-11-26-material-parallel-entry.md)。
-- 05:51 UTC共享环境失联后/tmp重置；重新部分克隆到public2，远端R63等已推成果保留。临时源按保留推导重建，R64已绑定新源实跑；fixed runner及mean接口按各自当前记录恢复，旧临时SHA不冒充新文件。公共runner和其场数据未受该本地重置影响。
+- 公共[material run45763361623](https://github.com/Rogerhu12/math-research-public/actions/runs/45763361623)：M24 cold已真实δ中心差分越域，无raw；三路parent原门拒源exit2。现M16/512 cold已218→652→1954节点且RMS仍大，未终态，原observer/分块8全门保留。下一命令是[λ.004历史完整H独立尾](notes/2026-11-26-recorded-lambda004-tail-input.md)，不取消当前任务；δ域内差分入口仅准备。
+- 独立[lowq run45772029917](https://github.com/Rogerhu12/math-research-public/actions/runs/45772029917)：首请求在chart SHA处exit2未求解；新请求held10-lowq-current-chart-20261126-02固定实际chart后，q006/q012已原门通过、完整checkpoint已存，正续q020。见[恢复入口及实际返回](notes/2026-11-26-lowq-warm-route-recovery.md)。最终M24原门后才启动真尾/圆化等路线。
+- 05:51 UTC本地环境重置；已推成果和公共runner保留，未推临时源重建后以新SHA绑定，R64已实跑。不能假设旧scratch场仍存在。
 - 根§12优先真实数学/求解，§15可再生数组不入Git/Release/artifacts；只存源/参数/命令/hash/小标量。H<10KB、单MD<100KB、目录<200MB，不写根LOG。
 
 ## 新结论与当前三路
 
-**R63已证明**：[固定g与未知核心](results/R63-fixed-metric-and-solution-core-variables.md)。物理g=ds²+aδ²dθ²不含单位速入口的q/c；固定有限q/c另加了精确入口条件，是更强BVP。新精化可先固定完整物理输入P，再把支撑函数b放同一加权ℓ¹₄未知空间；须实际得到非零支线、核与全场C² Cauchy及全部残差下降，才对应同一最终几何。不改写旧design-only的δ漂移身份，也不撤销已声明固定入口的合同。准确圆弧仍须λ1，10%仍欠。详见[解释](notes/2026-11-26-fixed-g-versus-prescribed-core.md)。
+**R63已证明**：[固定g与未知核心](results/R63-fixed-metric-and-solution-core-variables.md)。g=ds²+aδ²dθ²不含单位速入口q/c；指定有限入口是更强BVP。固定完整物理输入P后可在同一加权ℓ¹₄空间求未知核心，须实际非零支、核与全场C² Cauchy及残差下降。旧δ漂移design不改身份，λ1及10%仍欠。
 
 **R65已证明**：[端点核/暖补弧族](results/R65-r53-endpoint-kernel-and-warm-supported-core.md)。无限维局部方向乘1−λ，而每个有限解析support空间的端点导数仍单射；不凭此虚报Jacobian秩亏。新补弧phase控制在实际锚点d=0保持完整核心/两jet，到λ1保准确圆弧；预备factory只做synthetic链式检查，尚无near-1接受场或BVP。
 

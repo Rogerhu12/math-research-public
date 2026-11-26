@@ -20,3 +20,9 @@ run45772029917首命令已真正exit2，尚未导port或求BVP：再生chart SHA
 新请求held10-lowq-current-chart-20261126-02在同一存活runner续做，输出另用lowq-prefix-recovery-current-chart。明确使用本次再生的数值坐标函数，先核setup manifest实际SHA、有限65节点/值、[0,1]递增节点和原clamped spline两jet，再检查q≤.06对应原角图的基础采样域。该采样不是连续证书；每一实际原BVP仍检查域与全部物理/metric门。全链固定这同一chart并逐阶段重核SHA，保物理profile、尾背景、核心圆化输入的硬绑定。
 
 这是本次恢复的数值坐标输入变化，不冒充历史chart逐字重现，也不把它当已证的同g精化。原物理多段g不由参考chart的reference_profile替换，后续固定g序列仍必须明确冻结实际chart。初次本地恢复记录中的历史chart同SHA结论只对应当时本地文件，不能外推为所有公共环境再生结果。
+
+## 本次已真实恢复的前两个接受场
+
+新chart绑定后的原M8 q=.006与.012已真实通过solver/raw/physical/原metric门，完整checkpoint已保存并校验SHA。q006为598节点、RMS9.980240987715278e−7、metric5.590336281611129e−9、physicalBC1.4482700396610016e−16；q012为603节点、RMS9.793280840450635e−7、metric1.1331833951017772e−8、physicalBC1.4521917635783272e−16。当前已从q012完整checkpoint续q020，不能预认其终态。
+
+对应run/raw/physical/checkpoint SHA及M8/M16原export实际返回保存在lowq-accepted-recovery.json。新M8/M16 port的物理parameters/cut与M24逐项相同，整包SHA不同于历史值，已标false；未把含源hash的完整包差直接解释成数值坡率相等。这里恢复的是旧成功设计支的实际输入，q/delta/warp仍是设计变量，不计作固定g精化或10%新成果。
