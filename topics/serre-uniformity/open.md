@@ -2,7 +2,7 @@
 
 **主要目标仍OPEN。** 完整证明绝对常数C，或给出p→∞完整无CM反例族；有限素数、条件结论、低权/局部Abel/部分子群均不够。
 
-此前逐字状态在[最新open归档](open-archive-2026-11-26-before-CM-jet-functional.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重新计算已成输入。
+此前逐字状态在[最新open归档](open-archive-2026-11-26-before-bare-linearization.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重新计算已成输入。
 
 R1018已证原P=(p−1)D₀在良好J₁准确Fm，m=(p−1)/2、π₀^((p²−1)/2)=p；原六标记/zero-flux/全局Cech与e3 odd gaps保留。R1019实际A=T5²、Z=(T31−32)T5²保Fm且杀CM，Z另杀Q挠点，充分大界分别max(575,N_HA)、max(36863,N_HZ)，N为固定Norm函数lc/resultant。R1021真full-p Cohen/μ平均给全非约化O/(p)仿射刚性，原u′=ε(c_Qψ+pR_Q)、R_Q仅仿射正则。全部证明与支撑/次数界见[逐字前态](open-archive-2026-11-26-before-actual-CM-jet.md)。R1023现已付清实际首log节点和跨尾返回；实际H_A/H_Z新支撑、所选简单商Néron格及非齐次CM jet仍须核；最低惯性型整投影已由R1029完成。
 
@@ -56,6 +56,8 @@ R964逆character控制h_(i+2)而非fi；R966原K0源及Π4∇²只消费，源�
 
 ## O2：完整原超奇异迹、真正CM packet及近顶unit系数
 
+[R1034](results/R1034-original-bare-coefficient-finite-linearization.md)：原两行bare准确化为单位×[z^m](N/P)；有限递推仅用模z^ℓ Wronskian，保全局K缺陷及原相位。r2给显式F₁、degN=3k+1<degP与完整分母根留数和；r8须保N/P多项式部分。仍须证原总系数非零，不能从单个总留数零冒各局部留数零。
+
 [R1016](results/R1016-original-small-index-theta-and-complete-convolution-units.md)：原index1/2下降给σ、σ²的i+j=N完整卷积在全部T⁻单位；norm3准确返回U。U_(N−1)零集：11mod12为空，5mod12恰η⁶=−1六点。补充§7.1以真实Gaussian norm-p同源和J66给r8所需正确层U_(N−2)在这六点单位；η=±i时U_(N−2)/U_N=−25a¹²/(9B¹²)。核像/frame/Wilson常数全核。仍非单个高系数或完整bare差的单位，原primitive/Legendre不删。 §7.2保原theta/η尺度给Gaussian完全值C_N(i)=−(−432)^((p−1)/4)/2，平方−1/4；全方向常平方现由R1022证明，5mod12常数为一；原mask/bare仍开。
 
 [R1015](results/R1015-original-class-two-Poincare-projection-and-balanced-triangular-bridge.md)：原norm7的完整Π2×Π2源=C22 U⊗U，给C22 u_ℓ²=D_n c_n^-+R_n；D/C两行为6/49、342/7⁸，R全保且逐项整。§5.1进一步给c_(p−r)=−A_r−BT_r，仅用原首sigma/inverse-sigma块；A为完整regular部分，T为带三移位阶乘的carry，r8余层N−2。仍须证A_r+BT_r非零，不能用R1016两重卷积替代。
@@ -88,32 +90,17 @@ R972–990的完整AH/Robert/Δ/LT/Cartier/超几何来源、全部相位/阶乘
 
 ## O3：固定低权cohomology与原Igusa投影的边界
 
-[R944](results/R944-original-CM-Gauss-Manin-homotopy-and-supersingular-principal-parts.md)给原fine base上
-$$
-\Omega_V=6\nabla Z+6^r r!\Psi_F,
-$$
-Z全部主部显式，最高项为原R932的−g_Pρ^r/A^r。保正KS、相对p半线性Frobenius、原Igusa根/两CM权及1/r! Sym配对，并给具体Čech正则化。
+本节逐式来源和全部尺度已逐字保存在[本次前态](open-archive-2026-11-26-before-bare-linearization.md)；以下只收束已成输入，不重做。
 
-[R947](results/R947-original-low-weight-conjugate-primitive-and-singular-Igusa-projection.md)继续给全局有理W，∇W=ΩV，全部SS极部为
-$$
--\frac{V_PB_P^{p-r-2}}{r+1}\frac{\sigma_\rho^r}{A^p}.
-$$
-换帧/域下降完整；Hodge逐级法证明无全局正则primitive，故实际zV∈H1(ω^-r)非零。其真实低权配对满足
-$$
-\langle z_V,V\rangle^p
-=-\frac1{r+1}\sum_P\frac{V_P^{p+1}}{B_P^{r+2}}.
-$$
-[R950](results/R950-original-low-weight-supersingular-diagonal-and-Hecke-adjunction.md)现在已证明这个**指定低权对角对原两行全部p≥41非零**：直接全SS isogeny计算给KS/b乘ℓ与dual frame、1/ℓ完全相消的Hecke伴随，再以tame单位平均和R918/R942完整低权广义零线得到非零值。未从F_r像的Hecke型反推原像型，也不需要其全局注入。这个低权子问题关闭；真正高权比较如下。
+R944原Ω_V=6∇Z+6^r r!Ψ_F，Z与R947原有理W的全部SS主部、正KS、相对Frob/Igusa根/1/r!配对均已成。R947实际z_V∈H¹ω^-r非零；R950原低权对角在原两行全部p≥41单位，完整Hecke伴随证明已关闭，不能据此换成高坐标。
 
-真正原来源投影给PΩ=6ΦV、PZ=G/a^(rp)、PΨ=0，但P在SS有rp极点并杀W水平p次极部。[R953](results/R953-original-high-weight-boundary-complex-and-regular-projection.md)已完整计算该边界：正则π:E_r→ω^(pr)满足πW=6G，真实修改E_r+允许σ^r/A^p，原高权Serre类是Hasse序列的δ((G|SS)^(1/p))。它不依primitive选择，Igusa全配对准确为−B_r(V,H)/6，S=c_r B_r(V,F)，原mI(cF)^(1/p)/d1保全。正则剩余项的底Hodge系数为−6^r(r−1)!F_P/B_P，因此与含V_P的低权极部确实不同。p-curvature=−N及绝对F_*连接复形的cohomology sheaf给原F_r全局注入，保相对Frobenius twist与log cusp；这一步关闭，但注入也不迫指定高权边界评价非零。继续真实regular remainder、CM Cartier长链及低/高配对的实际关系。
+R953原正则边界类是Hasse序列δ((G|SS)^(1/p))，完整regular remainder底系数−6^r(r−1)!F_P/B_P与低权V极部不同；原F_r全局注入已证，保相对twist/log cusp。注入不迫指定边界评价非零。
 
-[R956](results/R956-original-trace-as-a-fixed-low-weight-Cartier-edge-pairing.md)已构造真实E_Bol=Sym^(r−1)H⊗F_X*ω紧支log连接，其Hodge消元为D_r:S_(p+1−r)→S_(p+r+1)，绝对F_*的H0/H1分别ω^(2−r)(−C)/ω^(r+2)(−C)。SS局部mI+at^pN与aN、cusp指数1..p全部证明自由秩一核/余核，无隐藏torsion。因此实际coker有0→H1ω^(2−r)(−C)→coker_Fr→S_(r+2)→0，左端Serre对偶M_r须保留。真实边映射K_rY由ρ^r Cartier(A^(r−1)YρKρ)定义，q系数严格y_pn^(1/p)，保原Q与角色。
+[R956](results/R956-original-trace-as-a-fixed-low-weight-Cartier-edge-pairing.md)给实际E_Bol=Sym^(r−1)H⊗F_X*ω的完整SS/cusp自由核余核，coker有0→H¹ω^(2−r)(−C)→coker_Fr→S_(r+2)→0；K_rY的q系数y_pn^(1/p)。原插值Y_F|SS=r!F^p/B^(p−r−1)及留数给S=6^(r−2)/r〈zV,K_rY_F〉，保λ=mI(cF)^(1/p)/(36d1r!)和升换不变性。r2负δ插值唯一，K2Y_F=αV4、α=([Q^p]Y_F)^(1/p)；原trace单位 iff α≠0，仍开。
 
-更强的原源比较是cσW=−6^r(r−1)!sF及完整留数恒等式〈zV,K_rY〉^p=6^r(r−1)!ΣF_PY_P/B_P²。取指定实际插值Y_F|SS=r!F^p/B^(p−r−1)，得S=6^(r−2)/r〈zV,K_rY_F〉与原λ=mI(cF)^(1/p)/(36d1r!)乘该pair；升换Y_F+A U不变因zV杀全低权U_low像。r2 M2(H6)=0、S4仅原δ+线，负δ插值唯一且K2Y_F=αV4、α=([Q^p]Y_F)^(1/p)。因此原trace单位 iff α≠0，α零 iff实际反角色Cartier前像存在；这个具体α仍未判非零。r8必须保coker的M8左项和完整S10，实际K8Y_F在原CM线的分量仍待识别。后继只可把这个具体Cartier/插值操作与真实整CM晶体的divided Frobenius比较，不能由一般FL单位、抽象height2或R950低对角冒名完成。
+[R962](results/R962-original-weight-eight-left-term-and-weight-ten-edge-coordinate.md)已付清r8左项：M8非trivial双线的T5返回U5=92160单位，原CM/U5零primary左项确零；完整S10真投影1−U5/147456给α8=(1−5^9/147456)y_p^(1/p)−y_(25p)^(1/p)/147456，S=(6^6/8)α8〈zV,V10〉。α8升换不变，非零仍未证，不能从coker一维推指定类非零。
 
-[R962](results/R962-original-weight-eight-left-term-and-weight-ten-edge-coordinate.md)已关闭上一段r8左项的实际CM局部化问题：完整M8=⟨E4²,E4v,v²⟩，真实非trivialδ两线由T5送到共轭mark，系数1920s/16s，返回U5=92160单位。实际Bol水平生成元同源因子ℓ^(r−1)、raw Hodge/Serre对偶ℓ^(2−r)给左项真实对偶ℓT_ℓ^tr，双次为25U5^tr；因此原非trivial/U5零primary的左项确为零，K8在实际coker该部分同构至原V10线。完整S10非trivial块的真投影1−U5/147456给α8=(1−5^9/147456)y_p^(1/p)−y_(25p)^(1/p)/147456。S=(6^6/8)α8〈zV,V10〉且α8不依Y_F升换；所需α8非零仍未证。不能由coker一维把这个指定插值类当非零，r2/r8的具体标量仍须实际晶体或源比较。
-
-[R961](results/R961-actual-weak-Frobenius-unit-and-Cartier-cokernel-top.md)已给真实低晶体单位的高权来源，而同时确定其边界：g=E4²/v为原弱权4第二基，Hweak=4sH_Nu²D^(N+1)t^N主部Q^−1，F0=𝒰Hweak为原高权cusp形式；Y0=Ag−36D2Hweak=−36Y_F0且K2Y_F0=−g_p^(1/p)v/36。完整12 cusp concomitant各−2、全SS和24，故H_k(F,F0)=12、〈v_high,F0〉^p=−72，g_p H4(v,v)=93312=12·6^5为单位。Scholl原整基[v,g]中φv=p³a_pg、φg=b_pv，真实增强整局部格（〈3〉=3）给a_pg_p≡1 modp³，保σ逆根/Q宽6/原tame return。这个已识别单位检测的是实际Cartier-coker顶F0；命名F在链底，若L≥3它仍可落Cartier像。故不能由低晶体单位替换α_F，须继续真正Igusa因子的链长/形式群系数或实际F到coker比较；不再以抽象FL重复此路线。
+[R961](results/R961-actual-weak-Frobenius-unit-and-Cartier-cokernel-top.md)原Scholl弱基[v,g]与增强整格已给φv=p³a_pg、φg=b_pv、a_pg_p≡1modp³，g_pH4(v,v)=93312；原全部cusp/SS/宽6/〈3〉/σ逆根尺度保前态。这个单位只检测实际coker顶F0。命名F位于链底，L≥3时可在Cartier像；不能以低FL单位或抽象height2替代α_F。继续实际高源/Cartier链及除p坐标，消费已成结果。
 
 ## O4：原Abel零集、正秩像与真正高度
 

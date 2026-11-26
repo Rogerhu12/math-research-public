@@ -8,6 +8,8 @@
 
 ## 新增结论（2026-11-26）
 
+- **R1034（已证明）**：[R1034](results/R1034-original-bare-coefficient-finite-linearization.md)：原两行bare准确化为单位×[z^m](N/P)；有限递推仅用模z^ℓ Wronskian，保全局K缺陷及原相位。r2给显式F₁、degN=3k+1<degP与完整分母根留数和；r8须保N/P多项式部分。仍须证原总系数非零，不能从单个总留数零冒各局部留数零。
+
 - **R1033（已证明）**：[R1033](results/R1033-original-rational-CM-disc-exact-lowest-type-scale-and-tail.md)：原z=ε³w、w=(a−1)/p³；全部实际type1 Abel-log除pε后整，modp次数≤n₀=4g−1，最高系数=(2κ₁√A_tail/m)λ₀^−n₀·J(L)。完整p倍积分分母已排，formal坐标同轮廓，whole-block原M=1。最低非零w系数、实际MW饱和消去及Q简单商Néron尺度仍开，不冒唯一零点。
 
 - **R1032（已证明）**：[R1032](results/R1032-original-lowest-type-complete-CM-normal-jet-functional.md)：原p11mod12底L在中心第m层为ε(2/m)ΣL_sθ_s db/(b−s)²；逐层gluing保中心变形，CM早于4m全零。最高极部与R1030整投影给实际e₁Ω_L的4m层=κ₁R_L(1)d(x^(2g−1)y)，原κ₁保留。原Abel系数列为−κ₁√A_tail ε⁴/m·Σθ_s/(1−s)²f_s，现与首log同格；不把graded jet或whole-vector比较冒真实MW饱和空间/统一半径。

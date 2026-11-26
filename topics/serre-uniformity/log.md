@@ -265,3 +265,8 @@
 ### 2026-11-26 22:14 Asia/Taipei — R1033 原有理CM盘的准确共同尺度
 - [R1033](results/R1033-original-rational-CM-disc-exact-lowest-type-scale-and-tail.md)：原z=ε³w、w=(a−1)/p³；全部实际type1 Abel-log除pε后整，modp次数≤n₀=4g−1，最高系数=(2κ₁√A_tail/m)λ₀^−n₀·J(L)。完整p倍积分分母已排，formal坐标同轮廓，whole-block原M=1。最低非零w系数、实际MW饱和消去及Q简单商Néron尺度仍开，不冒唯一零点。
 - global/root纸核原z=ε³w和λ₀、向上取整与特殊4g项、所有p倍积分分母、整formal BT坐标及深层log比较。消费R378既有一般tail界，不恢复旧秩零商身份；无数学执行，两README同步无变化。
+
+
+### 2026-11-26 22:34 Asia/Taipei — R1034 原bare有限线性化
+- [R1034](results/R1034-original-bare-coefficient-finite-linearization.md)：原两行bare准确化为单位×[z^m](N/P)；有限递推仅用模z^ℓ Wronskian，保全局K缺陷及原相位。r2给显式F₁、degN=3k+1<degP与完整分母根留数和；r8须保N/P多项式部分。仍须证原总系数非零，不能从单个总留数零冒各局部留数零。
+- o2/root独立纸核完整K与有限精度、系数分部积分、所有递推分母、F1三类项及9b_k²、全部分母根和r8多项式项；精确候选90904b7b7fd3f950aba3b1e512dd1b336c9ed0de全文复核PASS。没有数学执行或旧窗重算；继续实际总系数非零。H/open逐字归档后收束已成低权来源，两README同步检查。

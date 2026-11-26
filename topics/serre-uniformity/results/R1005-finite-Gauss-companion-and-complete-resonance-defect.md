@@ -405,3 +405,8 @@ nonvanishing of the complete sum, which remains the required input.
 - [R1003](R1003-global-scope-and-remaining-branches.md) records the distinction between this specified auxiliary source and the full Serre problem.
 
 The remaining assertion is the nonzero coefficient in (1005.13). The unit leading coefficient and the normalized cusp identity do not determine it. Every root of the actual denominator polynomial must remain in a residue argument.
+
+
+## 2026-11-26 后续接口
+
+[R1034](R1034-original-bare-coefficient-finite-linearization.md)在同一原截断内把固定幂准确降成指定N/P的单次系数；它保留本篇完整K，未将K全局设一。r2新分子次数低于P，r8仍须保多项式部分；本篇的总留数与非零边界保持。
