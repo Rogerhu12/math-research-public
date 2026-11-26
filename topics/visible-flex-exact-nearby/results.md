@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [JF：真实目标96正交行的联合矩阵误差](results/R149-supplement-joint-signed-finite-matrix-error.md)：完整receiver后Bessel，列误差不额外乘√96；trial行误差保全HS、两mean和BH/KW。给有符号完整矩阵的不同权重Neumann门，actual仍需完整P224/TC/RW，不授fullSchur。
+
 - [R144 SR：由完整forward末端锐定同一compact根与全残差](results/R144-supplement-sharp-compact-root-from-completed-forward-mean.md)：−8e−13<ξ*<−7e−13，mean≤2e−7、同φ状态<3.847e−7、selected距离<3.865e−7；χ′ordinary<3.903e−12、完整第二ordinary<7.461e−8。四份原球的有理推论，无新积分，全部mean/flux/jump与metric区别保留。
 
 - [R142 DP：源区间互不交分片、共用一次Green及完整三平方合并](results/R142-supplement-disjoint-source-slices-with-one-shared-Green.md)：严格保持全径向输出/193 atoms与逐格signed双三角；同runner fork≤3，保真实片段进度，无新actual门。

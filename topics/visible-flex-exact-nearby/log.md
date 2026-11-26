@@ -206,3 +206,6 @@ NS五件共129172B，owner71056B SHA18db439d5895e4232882940a57b7bd9457982383e1ac
 
 
 2026-11-26 19:35:13 UTC / visible-exact-astra-fb31ed6-20261127：MJ在完整分片C0 Banach空间构造实际固定密度mean逆，严格区分forward零腰导数与terminal非零控制导数；完整有理常数比较通过，无旧数值target。两端mean Green核、所有jumps和坐标kerℓ给出，控制导数完整代入nonmean/phase/height，不以tinyξ降费用。
+
+
+2026-11-26 19:37:04 UTC / visible-exact-astra-fb31ed6-20261127：JF证明真target正交行联合误差与完整signed矩阵门，保true receiver/BH/KW、两means、不同权重及全部列误差；近似RW行不当正交。pure算法只接全224原表/96完整列，不构造假actual。mounted TC run45884668422/1已实际启动。
