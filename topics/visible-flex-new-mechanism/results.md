@@ -420,3 +420,5 @@
 - [R612物理长度准确消元与三真实端积分](results/R612-exact-physical-length-elimination-and-three-true-end-integrals.md)：**已证明**任何四偶共同根必U>0、K>1并有唯一L=√(U/(K−1))；三形状积分与原四偶端图双向等价，原盒/完整δL链/八A与正势的全部长度项保留。没有假定三端图满秩或两ruling共同根，固定曲线精化须固定物理L。
 
 - [R613实际位置误差的完整导数与同方程目标](results/R613-actual-position-defect-jacobian-and-complete-objective.md)：**已证明**真实Wstar/√E的完整二jet参数链，保离解加权均值、相位/框架和隐式E导数；反周期均值核下与原Darboux方程准确等价，正outward分支下与实际metric等价，并给双向定量界和全部奇频Parseval目标。配套纯算子尚未执行，不授有限截断或连续根。
+
+- [R611实际圆参考的完整连续reach证书](results/R611-actual-circular-reference-complete-reach-certificate.md)：**已证明（公开向外区间）**修复准确积分系数后的run45882464935以2125叶覆盖全紧区间并接R608无限尾/R599全闭面切圆，reach≥.06072、D≤1.560001714985865、reach/D≥.0389230341330427。原34.7883秒及修复32.4257秒分列；实际积分包围宽于请求仍通过完整几何，不授非圆q或全时间族。

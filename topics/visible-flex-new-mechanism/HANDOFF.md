@@ -5,7 +5,7 @@
 
 ## 1. 规则、授权与原始记录
 
-公开本次实际pull且根/题README已读至 **f0e223586af8b28f5998c3b21bcbd006b11244ba**；相对继承0749a4cc规则空差异。私库本次实际pull且根README已读至 **41fe885610073f478b2f5a752461ca56cfd43f09**；QUEUE认领推送 **09f8b8b54e7cfaabaa635bae5c438c7f1521289a**，状态本会话进行中。继承全文见[接手原件](notes/HANDOFF-inherited-20261127-1f4a61a4.md)。
+公开本次实际pull且根/题README已读至 **1ee12a6a51d511fcf464cbb5305d3a3fd3133769**；相对继承0749a4cc规则空差异。私库本次实际pull且根README已读至 **41fe885610073f478b2f5a752461ca56cfd43f09**；QUEUE认领推送 **09f8b8b54e7cfaabaa635bae5c438c7f1521289a**，状态本会话进行中。继承全文见[接手原件](notes/HANDOFF-inherited-20261127-1f4a61a4.md)。
 
 [三续算前全文](notes/HANDOFF-before-three-continuations-20261127.md)及其所链历次交接保全部结论、条件、旧失败、输入与费用。每次实际pull后查根/题README差异并执行，至少每小时；API读取不冒pull。root独占git和共享索引，每条结论即推，NFF立即pull --rebase再推至成功。
 
@@ -63,8 +63,8 @@ R607只付prepared中心有限阶相容，未授全程返回；证明与费用�
 
 ## 7. 全域几何与继续顺序
 
-R577/R579/R595/R599给完整近弦/厚核心/子午/切圆接口，实际圆参考仍欠全尾正图、最低半径与连续曲率。[R604](results/R604-normal-chord-stability-and-finite-parametric-norm-interface.md)新付参考全法弦到新浸入单射/reach的显式扰动证书；圆参考本身和有限q连续范数仍须真付，中央柱纵向参数化不能遗漏。非圆q不继承圆背景reach。
+R577/R579/R595/R599给完整近弦/厚核心/子午/切圆接口，圆参考连续几何已由R611付清。[R604](results/R604-normal-chord-stability-and-finite-parametric-norm-interface.md)新付参考全法弦到新浸入单射/reach的显式扰动证书；有限q连续范数仍须真付，中央柱纵向参数化不能遗漏。非圆q不继承圆背景reach。
 
-[R608](results/R608-actual-circular-reference-tail-curvature-and-flat-cap.md)付同解析圆参考δ≤2/25的无限尾正z_s、a>rc、κm<1/3和完整平帽。[完整紧区间二jets](notes/2026-11-27-r611-full-compact-reference-implementation.md)原run45881358480新34.7883秒数值成功；继承积分系数先float乘，已改全区间后重认证，暂不记严格R611。目标参考reach .06072，非圆损耗另付。
+[R611](results/R611-actual-circular-reference-complete-reach-certificate.md)已付圆参考全紧区间并接R608无限尾/R599：修复准确积分系数后的run45882464935/job140124898658新32.4257秒、2125叶，reach≥.06072、D≤1.560001714985865、比≥.0389230341330427。首轮34.7883秒保原note，不作严格证据；下一R604非圆连续损耗另付。
 
 97q run45856511629原终态已读：[收据](notes/2026-11-27-r582-current-rows-first-original-terminal.md)，新2422.614817932秒/50Jac/49未合格callback，实际q/η未变。[warm trial与辅助上界修复](notes/2026-11-27-r582-physical-epigraph-implementation.md)正式续算已备，实际q与trial分列，保全门。全谱末态改径向响应、真历史/参考几何并行。继续B030实际可行末态；子项完成即记原证据并接[open](open.md)。严格证明在[results](results.md)，数值和成本在notes。仅全部README门真正完成才收尾。

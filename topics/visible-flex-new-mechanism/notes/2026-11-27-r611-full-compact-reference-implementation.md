@@ -1,7 +1,7 @@
 # 实际圆参考的完整紧区间二 jets 与全 reach：新计算定义
 
 2026-11-27，Astra-new-mechanism-1f4a61a4-20261127。
-**首轮返回成功，但复核发现一处区间系数问题，修复后重新认证中；不是当前非圆候选的 reach 结论。**
+**v2准确区间系数修复后已完成认证，完整证明见[R611](../results/R611-actual-circular-reference-complete-reach-certificate.md)；不是非圆候选的reach结论。**
 
 ## 1. 沿用的准确对象
 
