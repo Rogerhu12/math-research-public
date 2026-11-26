@@ -8,6 +8,7 @@
 
 [R1054](results/R1054-original-lowest-CM-column-kernel-candidate-counterexample.md)：p47 K15=23排最低列恒落Q核候选。
 [R1057](results/R1057-certified-original-p47-actual-lowest-functional.md)：公开run45880257064/job140117536918、源9543f2ef，原p47完整DQ(1−Q)λ非零，实际最低C(T_c)=15，留数/真实参数反演/全S三读一致，B(c,v)=0；原轮廓14非零系数、首w¹。0.066990秒/120秒，无raw。仅固定输入，不推全p或47满足C_*。
+[R1055](results/R1055-original-complete-first-log-canonical-rational-primitive.md)：原完整v=(1−Q)λ的规范有理原函数V=6(bU₁+b²U₂)/(A1²r^ℓ)，U_i=[(1−r)^−i/3(j/q)]_<ℓ。全商/有理代表接口、三CM的4/−2/−2留数、S₀=1、全部principal parts与pth歧义均付；不跨j共振，不代指定最低值。
 
 [R1052](results/R1052-original-complete-CM-profile-and-actual-lowest-functional.md)：actual full-node中心赋值直接给全部normal极阶界，E一维像保全部返回；source u_s/ε^p的wholeR/p Dickson比较与全primitive误差均付。原完整行h̄_c=−Σκ₁^kc_kλ₀^−(ℓ−k)[Z^k](T_c/A)(B_CM)w^(ℓ−k)/(2m)。最低C_CM(T)=−3^(ℓ−1)/A1·[r^(ℓ−1)]T((1−r)^(1/3))/((1−r)^(5/3)j³)=2B(c,L_CM)。实际读数2B(v,QD L_CM)保Q²；单位/深盘排根仍开。
 
@@ -15,7 +16,7 @@ R1050同一actual target的短PD/PF参数Z=−r(q/j)³/3已由R1052全轮廓消�
 
 [R1047](results/R1047-original-MW-saturated-profile-and-common-zero-bound.md)：两行原新部的全部实际MW消去格Σ到前n₀=(p−2)/3个CM系数为饱和单射；任一本原行保M1。若r_ann=rankΣ≥1，原单位闭盘的公共零点总重数≤n₀−r_ann+1，故原有理点≤n₀、非中心≤n₀−1。以整Tate除法保全部尾，使用真实全MW消去，不恢复旧秩零商。最低单位/非中心根排除及O0仍开。
 
-[R1045](results/R1045-original-MW-annihilator-nonzero-reduction.md)：原p11、p>C_*的真实本原Λ_Q作用原整CM盘后，完整模p多项式非零，MW消去后准确M=1。更强纯代数适用于全p=6N+5：非零new T若与v=λ+R正交，完整三CM留数与S₀=1迫contact从ℓ升到ℓ+1；原Euler算子给有限₃F₂，degree N<ℓ与局部指数0,1,ℓ排二重零。保完整Q²λ；不要求general new determinant单位，不宣最高J₀、最低w系数单位或深盘唯一零点。
+[R1045](results/R1045-original-MW-annihilator-nonzero-reduction.md)：全p6N5的完整三CM/S₀=1与Euler有限₃F₂排new正交行的ℓ阶contact，保Q²。几何p11及R1046的p5在p>C_*给真实MW消去后准确M1；不宣最高J₀/最低单位或深盘唯一零。
 
 R1044/46的完整Cauchy旗标现由R1052给全等式；whole-type rankℓ−1、核维N、原所有单位及p5双中心/∞/分歧12均保原证明。指定c的完整contact由R1045排除，最低单位与非中心根仍开。
 
@@ -37,7 +38,7 @@ R1只把全部异常缩为p>37的完整N_ns；**p≡2,5 mod9只是另加小惯�
 
 [R1049](results/R1049-original-fN-theta-first-direction-moment.md)：保原F⊗R₋、实际三挠刚化/全部模6相位，η⁵P_FR(η⁶)=t²δ′φ_A/12；原f_N=−t²δ′Σηφ_A/[12(p+1)]。十二代表相位全核；方向逐点单位不代一阶矩非零，原同h筛选仍开。 §6另精确给固定primary Θ与零常数积分EΘ：f_N=t²δ′[q^p]Θ(q)EΘ(q⁴)/[4(p+1)]；完整36/12与交换相位保留，指定系数单位仍开。
 
-[R1053](results/R1053-original-scalar-disjoint-window-through-500000.md)：公开v2 run45874715945/job140098765505、源7e47699，2506个402593…499979原f/g全非零，895.294秒/1200秒。与R1051不相交前缀合成全部200000<p≤500000、p2/5mod9的7878素数完整新区间；不重开、不外推全称。全部pins/输出hash保结果。
+[R1053](results/R1053-original-scalar-disjoint-window-through-500000.md)：全部新增7878素数200000<p≤500000、p2/5mod9原f/g非零；run45869953028/45874715945，完整预算/hash保结果；窗口完成不重开，不外推全p。
 
 [R1043](results/R1043-original-fN-and-Hodge-kernel-CM-endpoint.md)：全部p=6N+5≥41，原sigma/正CM/六标记准确f_N=−T₀(1)/6，T₀∈Fp[b³]唯一满足LT₀=A、首系数−1。完整fine Cartier身份给同一V_(p−1)†=ξr^(N+1)T₀；保两行ξ的(−1)^(N+1)、E6=−c6和原mark E6/η12=−24√−3。原B(c₀,λ)=B(c₀,v)=3T₀(1)/A(1)=−18f_N/A(1)。端值单位及同h筛选仍开，不混同r2范数或扩到r8 bare。
 

@@ -6,13 +6,15 @@
 
 会话 **Astra-serre-24b8836b-20261126**。本轮已部分克隆并真实pull main，读两README/H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则读至36cf1ed2。不重做已登记结论或窗口。
 
-**公开两README已读提交：12a020eb001b665ea9590ca31977c988b4ff4b00**（2026-11-27 03:03 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
+**公开两README已读提交：6518e51f5f9fd3db9b09e1d9ab54e2c18a1f6253**（2026-11-27 03:05 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
 
 已真实部分克隆/pull；终端再次不可用，按根规矩8用连接器小文本同步、读两README差异、带expected_sha非force提交，恢复后立即pull --rebase。拒绝即同步重基再推至成功。令牌仅CLI；根维护main/H/open/index/log，子研究独立稿，每条结论立即推。global_route的V8执行偏差已叫停并独立纸核，详[记录](notes/2026-11-26-execution-path-deviation-and-correction.md)，其输出不作证明/合规窗口。
 
 H<10KB、open尽量<30KB、每MD<100KB、topic<200MB；无可重算raw、不写根LOG。[本次逐字前态](handoff-archive-2026-11-27-before-complete-CM-coefficients.md)沿链保全部旧来源/run/hash；[open](open.md)、[索引](results.md)是完整入口。历史“R1003 norm3准备中”未交付，现R1003为范围纠错。
 
 ## 最新全局实际来源
+
+[R1055](results/R1055-original-complete-first-log-canonical-rational-primitive.md)：原完整v=(1−Q)λ的规范有理原函数V=6(bU₁+b²U₂)/(A1²r^ℓ)，U_i=[(1−r)^−i/3(j/q)]_<ℓ。全商/有理代表接口、三CM的4/−2/−2留数、S₀=1、全部principal parts与pth歧义均付；不跨j共振，不代指定最低值。
 
 [R1052](results/R1052-original-complete-CM-profile-and-actual-lowest-functional.md)：actual full-node中心赋值直接给全部normal极阶界，E一维像保全部返回；source u_s/ε^p的wholeR/p Dickson比较与全primitive误差均付。原完整行h̄_c=−Σκ₁^kc_kλ₀^−(ℓ−k)[Z^k](T_c/A)(B_CM)w^(ℓ−k)/(2m)。最低C_CM(T)=−3^(ℓ−1)/A1·[r^(ℓ−1)]T((1−r)^(1/3))/((1−r)^(5/3)j³)=2B(c,L_CM)。实际读数2B(v,QD L_CM)保Q²；单位/深盘排根仍开。
 
@@ -62,9 +64,9 @@ R696早已证明同一全局Φ候选Ω_actual={0}，R832已消费；不重做、
 
 原λ始终为−6(b+1)/r（R1045.5）。当前并行：两行实际MW后M1与原盘点数界已成，继续最低w单位/正赋值深盘零点。原最高K_Q、R1041核范数、R1043端点及同h筛选各有独立读数，不能混同；O0完整全局覆盖仍未关。子问题完成即接open其余项，真正达README完成标准才收尾。
 
-[R1053](results/R1053-original-scalar-disjoint-window-through-500000.md)：公开v2 run45874715945/job140098765505、源7e47699，2506个402593…499979原f/g全非零，895.294秒/1200秒。与R1051不相交前缀合成全部200000<p≤500000、p2/5mod9的7878素数完整新区间；不重开、不外推全称。全部pins/输出hash保结果。
+[R1053](results/R1053-original-scalar-disjoint-window-through-500000.md)：新增7878素数的原f/g窗口200000<p≤500000完整无零，真实run45869953028/45874715945及hash保结果；已成窗口不重开。
 
-[R1054](results/R1054-original-lowest-CM-column-kernel-candidate-counterexample.md)：原p47安全j给K=(1−r)^−1j^−3的K15=23（run45874715945，两构造/全恒等式）；R1052使C_CM(b²)≠0，故实际最低列new投影不在Q核。排“全p恒落核”候选，不代指定DQv值非零，也不反驳另有p>C_*范围的命题。
+[R1054](results/R1054-original-lowest-CM-column-kernel-candidate-counterexample.md)：p47 K15=23排最低列恒在Q核候选，不代指定值。
 
 继续实际2B(v,QD L_CM)及原norm/端点、同h与O0；已完成窗口不重开。
 

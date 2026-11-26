@@ -8,6 +8,8 @@
 
 ## 新增结论（2026-11-27）
 
+- **R1055（已证明）**：[R1055](results/R1055-original-complete-first-log-canonical-rational-primitive.md)：原完整v=(1−Q)λ的规范有理原函数V=6(bU₁+b²U₂)/(A1²r^ℓ)，U_i=[(1−r)^−i/3(j/q)]_<ℓ。全商/有理代表接口、三CM的4/−2/−2留数、S₀=1、全部principal parts与pth歧义均付；不跨j共振，不代指定最低值。
+
 - **R1057（原指定值公开认证）**：[R1057](results/R1057-certified-original-p47-actual-lowest-functional.md)：公开run45880257064/job140117536918、源9543f2ef，原p47完整DQ(1−Q)λ非零，实际最低C(T_c)=15，留数/真实参数反演/全S三读一致，B(c,v)=0；原轮廓14非零系数、首w¹。0.066990秒/120秒，无raw。仅固定输入，不推全p或47满足C_*。
 
 - **R1054（候选反例已核）**：[R1054](results/R1054-original-lowest-CM-column-kernel-candidate-counterexample.md)：原p47安全j给K=(1−r)^−1j^−3的K15=23（run45874715945，两构造/全恒等式）；R1052使C_CM(b²)≠0，故实际最低列new投影不在Q核。排“全p恒落核”候选，不代指定DQv值非零，也不反驳另有p>C_*范围的命题。

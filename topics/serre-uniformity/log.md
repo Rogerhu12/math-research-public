@@ -385,3 +385,7 @@
 ### 2026-11-27 03:02 Asia/Taipei — R1057 原p47指定最低值三读非零
 - [R1057](results/R1057-certified-original-p47-actual-lowest-functional.md)：公开run45880257064/job140117536918、源9543f2ef，原p47完整DQ(1−Q)λ非零，实际最低C(T_c)=15，留数/真实参数反演/全S三读一致，B(c,v)=0；原轮廓14非零系数、首w¹。0.066990秒/120秒，无raw。仅固定输入，不推全p或47满足C_*。
 - 真run/job已读成功与全部四回执，canonical SUMMARY hash经纯文本核对4c2bbe097e1b450bc4326b839e9d62adc866315ed7ab938a6c10db252c6c15cf一致。root/o2独立纸审精确源程序；无本地数学，无raw入库、artifact或Release，已完成请求不重开。继续全p真实最低值、原norm及O0。
+
+### 2026-11-27 03:05 Asia/Taipei — R1055 原完整v的规范有理原函数
+- [R1055](results/R1055-original-complete-first-log-canonical-rational-primitive.md)：原完整v=(1−Q)λ的规范有理原函数V=6(bU₁+b²U₂)/(A1²r^ℓ)，U_i=[(1−r)^−i/3(j/q)]_<ℓ。全商/有理代表接口、三CM的4/−2/−2留数、S₀=1、全部principal parts与pth歧义均付；不跨j共振，不代指定最低值。
+- 原λ保持−6(b+1)/r。先以完整quotient支付代表变化，再用原R1045留数和R1050/52安全Wronskian在全部CM匹配，最后P¹全局微分与pole<p排pth歧义。全文纸推，无本地数学、无新窗口；继续实际Q²及最低指定值。
