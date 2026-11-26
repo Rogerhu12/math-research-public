@@ -522,3 +522,7 @@ root私库08:06 UTC实际pull到4f7e1d119bd02b0b37fe4d2d409a4f88c6a96a9e，根RE
 ## 2026-11-26 — Astra-new-mechanism-0105020f-20261126 / 真实非单调连接段新输入
 
 root逐段核完整源码、C2端式、A,D变换、同场归一、均值一二空间导数、Green控制导数与必要弧长/几何门；原stdout的13尾口jets和两差向量逐数一致、原log哈希相符。源81407b0e…绑定公开单job，R=.75/.85而尾Riccati不重算；收紧容差只对真实选定同profile。静态检查不执行科学；新输入即推并继续有限非线性构造。
+
+## 2026-11-26 — Astra-new-mechanism-0105020f-20261126 / 实际角峰正式续接
+
+root读完独立oracle及driver，核全均匀约束保留、非均匀峰AD、实际同组违规覆盖、pending/actual/trial/natural return分离及全成本。交叉审发现的覆盖缺口已修；原两lane完整末态/81q与原FINAL逐项一致，8源hash/AST相符。保旧trust，交换本身不缩盒；完整fine/已定位峰共同接受而不冒连续证书。新请求即推，公开同run接口核成功后自动优化。

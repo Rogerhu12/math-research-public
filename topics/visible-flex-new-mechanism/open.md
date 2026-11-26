@@ -95,7 +95,7 @@ R513同类cap排除、R518固定宽接口、R520/524/527/529原20母的返回障
 - [B030原终态](notes/2026-11-26-joint-budget-b030-first-metric-receipt.md)：181.995016962新秒，241×3072 fine V=0、η=.939818940292、κ16.452596；实际119×1536，119×3072仅末提议，无OptimizeResult。
 - [B038原终态](notes/2026-11-26-joint-budget-b038-metric-and-peak-cap-receipt.md)：848.448631589新秒，243×3072 fine V=0、η=.853614316555、κ16.452787；实际121×1536/trust1/64，122×3072未采用，末后端自然success46步。前五外层细峰重启无接受，缺coarse违约日志，不能臆判单一原因。
 
-[连续θ峰接口](notes/2026-11-26-continuous-theta-peak-oracle-design.md)已转独立实现：真实峰角与FFT求积分开，Ebar保持完整角积分；完整fine接受门不放宽，当前约束违约与细网遗漏分开记录。用上述真实末q/全实际及pending径向续接，绝不复跑初轮。峰定位、FFT误差、连续空间覆盖和全点对reach仍为不同门；g尚在设计。
+[实际角峰新实现](notes/2026-11-26-real-angular-peak-exchange-implementation.md)已提交双lane，原q/trust/1536全约束和actual/pending径向保；真实峰角独立于FFT，Ebar仍完整角积分。当前实际同组违规或metric峰覆盖内的细峰不立即重启，小峰pending待自然返回，完整fine与已定位峰共同判接受。新接口parity/非均匀方向核与优化在同次正式run内顺序完成。定位、FFT误差、连续空间覆盖和全点对reach仍分别欠；g尚在设计。
 
 [圆核入口](notes/2026-11-26-circular-core-continuation-implementation.md)先仅17径向变量再变p解81变量；[首启动失败](notes/2026-11-26-circular-entry-angular-guard-failure.md)已修32角/真实guard，新run45778418134只待原终态。圆核η0不授非圆共振分支，阶段η1e−4非完成门，p变化非同g弯曲。
 

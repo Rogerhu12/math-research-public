@@ -1,0 +1,64 @@
+name: visible-flex actual angular peaks with retained full-grid constraints
+on:
+  push:
+    branches: [main]
+    paths:
+      - topics/visible-flex-new-mechanism/computations/request-inverse-theta-peak-20261126.json
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: visible-flex-inverse-theta-peak-20261126
+  cancel-in-progress: false
+jobs:
+  research:
+    name: actual angular peaks ${{ matrix.lane }}
+    runs-on: ubuntu-24.04
+    timeout-minutes: 50
+    strategy:
+      fail-fast: false
+      max-parallel: 2
+      matrix:
+        lane: [rounded-core-B030, rounded-core-B038]
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      PYTHONUNBUFFERED: '1'
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+      MKL_NUM_THREADS: '1'
+      NUMEXPR_NUM_THREADS: '1'
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 0
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-new-mechanism/README.md
+            /topics/visible-flex-new-mechanism/computations/request-inverse-theta-peak-20261126.json
+            /topics/visible-flex-new-mechanism/scripts/inverse_rotational_metric_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/inverse_flat_oscillatory_tail_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/inverse_hard_exchange_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/inverse_r566_block_jacobian_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/inverse_r566_angular_oracle_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/inverse_r566_theta_peak_exchange_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/run_inverse_rotational_metric_20261126.py
+            /.github/workflows/visible-inverse-theta-peak-20261126.yml
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.12.14'
+      - name: Pull rules, check the new interface once, and continue the identified metric search
+        env:
+          MR_TOKEN: ${{ secrets.MR_TOKEN }}
+        run: >-
+          python topics/visible-flex-new-mechanism/scripts/run_inverse_rotational_metric_20261126.py
+          --request topics/visible-flex-new-mechanism/computations/request-inverse-theta-peak-20261126.json
+          --lane ${{ matrix.lane }}
+      # Old actual 1536-angle constraints remain. The old unapplied 3072-angle
+      # proposal is fully scanned; new off-grid peaks enter as actual points.
+      # The necessary interface checks run once inside the same science job,
+      # then optimization continues automatically. No standalone check run.
+      # Actual pulls of both repositories precede science. The 2400-second
+      # checkpoint is unfinished work; no artifacts, caches, or Git writes.

@@ -238,3 +238,5 @@
 - [紧凑R530的27态接口](notes/2026-11-26-compact-r530-reduced-endpoint-implementation-agent.md)与[真实本地开发收据](notes/2026-11-26-r530-local-development-execution-receipt-agent.md)：**实现接口及失败诊断，不是有限根**。只投影ruling所读的三条真实第三历史，保两侧原8矩和chain；四条材料边界读全程球范围。3次本地开发执行已停止并如实登记、原draft保源，不冒Actions/纸证或路径；后继准确分离仿射加速度再公开执行。
 
 - [已付R571尾口的非单调连接段设计](notes/2026-11-26-r571-connector-gain-implementation.md)：独立公开单job提交；保真实A,D传递、核心归一、必要几何/弧长与R575均值，紧支撑Green控制导数不需额外ODE。新R=.75/.85静态g，无有限幅度结论，旧尾不重算。
+
+- [完整均匀约束加实际角峰续接](notes/2026-11-26-real-angular-peak-exchange-implementation.md)：新双lane提交，保原q/trust/1536全网与全部径向，加入真实非均匀峰；Ebar不改，当前actual违规覆盖与fine漏峰区分，完整细扫/定位共同判接受。新接口检查与优化同run，不授连续覆盖或主门。
