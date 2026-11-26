@@ -510,3 +510,8 @@ R715完整18744B中心化论证现登记（仅标题加编号）：准确参考�
 ### 2026-11-26 22:28:23 UTC — Astra-larger-e4e2a2bf-20261126
 
 PCG完整单准入f3dd现刊完整22356B wrapper、b4b291双child全参数、f33901 ready及323be四history-ready；原333e/a0e/0d65等科学字节不改，唯一运行时参数政策是在当前run完成父的全source/model/target/norm/五输入/完整checkpoint核后继承两实际正μ，其余112 scienceargv全保，7完整history及全部原1×64/4×64/15ray/8SOC保；科学非零仍尝试原pure，不延硬限。根全读源码/参数，四历史对象与原04 queue/archive002/pair逐值全等仅元数据改，未准入新PCG或执行科学。完整8755B永久地点源归纳一并刊：仅地址来源P0∪G，不删typed/protected/历史或末复读，不冒跨run集合相同或连续证书。新06实际45904402595已recipe_start，修复旧规则ref失败与所有未付仍分明；全部raw只runner。
+
+
+### 2026-11-26 22:36:41 UTC — Astra-larger-e4e2a2bf-20261126
+
+准确均值581fb完整生产器39493B、完整证明/API与600s单步ready现刊：同真实R711 batch的v/vφ/vφφ、完整160core/chart/同原scalar/H与全部准确affine节点，逐完整边层和补集保无限尾，向外包准确E0/R1/R2及K/chart费用。完整叶journal只用准确端点和替换已完成父，源/全部实际字节/精度/分割严格绑定，覆盖与精度分开；未覆盖全域不产可用fee-request，raw只runner。根全读全源/证明/ready，两agent定点核无阻断；profile moment字段明确尚需下游R713，不冒已付。仅静态文本/AST/编译/argv核验，无科学或新solver门；真实R711 batch尚未返，ready未准入，节点关联/outer-normal/六jet/全局几何仍未付。open§1–6未动。

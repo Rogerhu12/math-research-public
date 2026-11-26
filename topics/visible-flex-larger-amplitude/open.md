@@ -115,7 +115,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 6. **固定seed与完整中心化normal。** [R709](results/R709-global-convex-mean-closure-without-contraction.md)均值正根无q<1门。[旧五段完整入口](notes/2026-11-26-fixed-supported-unit-reference-normal-SO3-entry.md)已排05，seed19未返，九历史齐。[R711/R712完整入口](notes/2026-11-26-R711-smooth-triangle-full-normal-entry.md)十源/再生器/十历史ready已刊，十二片192正权与中央Fss比较不迁K/reach，未准入；须补旧seed及后来全部真实报告。[R714](results/R714-normal-frame-exact-zero-and-C1-reuse.md)准确初零支与完整C1重接不免实际同字/同图合同。[R715](results/R715-reference-centred-normal-sixjets-and-error-ledger.md)完整参考差分、六jet/AD/端口及费用已证，独立实现进行中；原g/全变量/m32/隐式矩阵/真实筛/历史全保，校准后的工作Fs不冒单位。
 
-7. **准确费用与真实加密。** [R710](results/R710-supported-unit-seed-complete-angular-jet-error-bounds.md)给旧seed完整均值/两角/物理jet误差；[R713](results/R713-exact-smooth-triangle-moments-and-actual-fees.md)给新profile全片有理矩、三moment与真实工作字全差额、中央h/h_s及新(0,π)地板，两套完整来源不混。新82e6消费者严格同批快照，尚未执行；准确总均值/原参考/节点关联、normal R707、六jet/Gram及全局几何费用仍须支付。[R700](results/R700-integral-so3-full-sixjet-control.md)只固定M/正rho；已刊QR只适用234ac/7f且未跑，不添预门。候选按同g真实mesh/频率精化，不能以工作小残差替准确费用。
+7. **准确费用与真实加密。** [R710](results/R710-supported-unit-seed-complete-angular-jet-error-bounds.md)给旧seed完整均值/两角/物理jet误差；[R713](results/R713-exact-smooth-triangle-moments-and-actual-fees.md)给新profile全片有理矩、三moment与真实工作字全差额、中央h/h_s及新(0,π)地板，两套完整来源不混。82e6与[准确mean全源](notes/2026-11-26-accurate-supported-seed-total-mean-fee-producer.md)已刊未跑；参考/节点关联/normal/六jet/全局费用仍未付。[R700](results/R700-integral-so3-full-sixjet-control.md)只固定M/正rho；已刊QR只适用234ac/7f且未跑，不添预门。候选按同g真实mesh/频率精化，不能以工作小残差替准确费用。
 
 候选仍须支付§4–6全部标准：同g闭C²嵌入/全t强C²族、固定H及整像20%幅度、含反射非全等、全t reach≥.03D、整面metric≤1e−6、固定问题实际mesh/频率精化到原容差、多t网格及严格存在缺口。有限筛/局部根/中间报告不完成。输入不足换方向，完成后提高比例。
 

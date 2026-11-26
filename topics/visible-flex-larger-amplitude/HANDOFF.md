@@ -4,7 +4,7 @@
 
 ## 规则与完整目标
 
-最近规则核查：2026-11-26 22:28:23 UTC，真实pull/rebase至 `d0aa2823d8c36985acd3db63e64fb1fa16212e31`，双README相对`66378322dd43eed884374fed72b1d4d2fc9be2e8`无差异，继续遵守全部规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
+最近规则核查：2026-11-26 22:41:28 UTC，真实pull/rebase至 `36919fcc3911c21c011348d1e5caa90b4e9f8def`，双README相对`4ced82986224b7449435261f8daeab55424522a3`无差异，继续遵守全部规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
 
 科学计算仅本公开仓库Actions；执行偏差见[早前记录](notes/2026-11-20-public-actions-execution-correction.md)及[四次大JSON整读纠正](notes/2026-11-26-large-file-connector-read-correction.md)。root唯一分支写者；结论即普通推，NFF立即rebase循环，不强推。每次pull核双README差异并遵新规，至少每小时，记commit。raw只scratch/runner，不入Git/Release/artifact；保完整小源/参数/run/SHA/紧凑结论。题≤200MB、单文件<5MB、MD<100KB、H<10KB、open<30KB。令牌仅瞬时CLI。终端失联与恢复/云API普通快进记录保7774固定H；旧scratch迁移未确认，不冒恢复。
 
@@ -37,7 +37,7 @@
 
 [R700](results/R700-integral-so3-full-sixjet-control.md)限固定M/正rho，QR49a1限234ac/7f未跑；全922胞/尾/浮点/隐式费用及同g真实精化未付，其他完整工具保固定交接/results。研究未完成。
 
-[R710](results/R710-supported-unit-seed-complete-angular-jet-error-bounds.md)给完整均值根、两角jet及物理T/Tφ/Tφφ/Ts误差；85e90有理区间核与实际批次绑定已刊，仅条件传播。准确积分/尾/三角/算术费用未付，不冒零费或全角证书。 [R713](results/R713-exact-smooth-triangle-moments-and-actual-fees.md)及[82e6完整消费者](notes/2026-11-26-R713-smooth-triangle-actual-fee-consumer-api.md)准确有理矩支付新profile三moment全差额与中央h/h_s；全(0,π)地板/两角费用保，仍欠外部均值/参考/节点关联与normal费用，尚未执行。
+[R710](results/R710-supported-unit-seed-complete-angular-jet-error-bounds.md)给完整均值根、两角jet及物理T/Tφ/Tφφ/Ts误差；85e90有理区间核与实际批次绑定已刊，仅条件传播。准确积分/尾/三角/算术费用未付，不冒零费或全角证书。 [R713](results/R713-exact-smooth-triangle-moments-and-actual-fees.md)及[82e6完整消费者](notes/2026-11-26-R713-smooth-triangle-actual-fee-consumer-api.md)准确有理矩支付新profile三moment全差额与中央h/h_s；全(0,π)地板/两角费用保，[准确总均值581fb全源](notes/2026-11-26-accurate-supported-seed-total-mean-fee-producer.md)及600s完整叶ready已刊未跑；实际均值/参考/节点与normal费用仍未付。
 
 [R711](results/R711-smooth-triangle-central-profile-and-geometric-comparison.md)/[R712](results/R712-full-positive-radius-central-second-derivative-comparison.md)给准确十二片profile、全正半径中央Fss低于旧一半；[十源完整入口](notes/2026-11-26-R711-smooth-triangle-full-normal-entry.md)192正权/全(0,π)/全部原normal loop保，十历史ready未准入，须入旧seed及后来所有真实报告，不迁K/reach或旧末场。
 
