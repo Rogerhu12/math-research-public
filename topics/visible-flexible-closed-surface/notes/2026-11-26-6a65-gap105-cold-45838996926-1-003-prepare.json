@@ -1,0 +1,119 @@
+{
+  "schema": "6a65-gap105-whole-branch-cold-scalar-v1",
+  "run_id": "45838996926",
+  "run_attempt": "1",
+  "source_epoch": "1dd2ae1757346004be6a7641e492a562648baccc",
+  "controllerSHA256": "3ee599cecb1038d1b6c031b3aab857a5df479972212452ecc028370fb25d8877",
+  "requestSHA256": "6630723f4f8723f5c9630f0f67fc1a4c967efa814c4a1adbc16bf17d36844ebf",
+  "publisherSHA256": "5055b47a891bb106557842976a6f4766121edf893605fd7a551a39c223283d29",
+  "publicationAdapterMarker": "<!-- 6a65-gap105-whole-branch-cold-ci-rules -->",
+  "sourceSHA256": {
+    "6a65-geometry-gap-window-background.py": "b1b9fcbc9b069e11412cbfb38523e3d8632ba8584da55398d8cc16884d7dde2e",
+    "6a65-geometry-gap-window-cartesian.py": "ca22b417066c3e7f46470b876eabb57ed4d1673858000d31d4c99d8acc3f2f86",
+    "6a65-geometry-gap-window-two-grid-cartesian.py": "26b53da871749b90358cef659dc8c23621f649061e0a65b4b9a7f500a05398b3",
+    "6a65-geometry-gap-window-refined-cartesian.py": "1596f0f40bbc19aabd4ea28a51a516d1bbfb86cca35f8ff03ae6d34f7349acb1",
+    "6a65-geometry-area-ratio-barrier.py": "6c54c1965e1f2f8486065272402ac3062c74d460d6e0dc706fa088a6a13a090c",
+    "6a65-geometry-gap-window-area-cartesian.py": "6ae25fd9bd29920692794ea12808a634ff4e0a9a6e31502fe346cfa2eea13397",
+    "6a65-geometry-coupled-gap-prefix.py": "83bc55f4ef0977dc3cefe2332e1f2a3d4b8dbd19f3493a788719d231d1ffbb7b",
+    "6a65-geometry-cauchy-unit-t-warm.py": "75dfcbd01870df003e6814b9cb07a992df3713e01b9fcedda432a57c4569463b",
+    "6a65-cauchy-global-position.cjs": "25d0cd8db5444a0629aaa39b26e8287df68ef6f31956c27f10012a9095bffe3b",
+    "6a65-cartesian-complete-point-operator.py": "cf475476fb2b5e3a91d4438dd9dd67e54652bfd9594cc577b038ee2fd5e6f08f",
+    "6a65-cartesian-complete-stream.py": "b8cfd595b535cc33d47e2c0bc3e2b8d6a79c8163a235415115ca42c53416e4a9",
+    "6a65-cartesian-independent-experiment-v3.py": "ff8070b7915fb3d312f1e6cfcd075f7833708df89129f2cd562a3826d9d67358",
+    "6a65-cartesian-oracle-background.py": "c57d4d21f85f949f869a2c7d1d7c4e50ede7be948ce541f1b676d589ae4045a5",
+    "6a65-geometry-cauchy-short-window.py": "bcf00e15fbe036dabb14df793ef7caf246c3b00aac385f40d6469954be3c9560",
+    "6a65-actions-cartesian-channel-block-v5-20261126.py": "5055b47a891bb106557842976a6f4766121edf893605fd7a551a39c223283d29",
+    "6a65-geometry-central-gap-held-budget.py": "001f8f4907a9ed165b9ac99ec35e0144999b3f73e3a5a32ede3f6916fb67aed9",
+    "6a65-geometry-cauchy-source-radial-cuts.cjs": "3553ab18a3ca6f7de551687ba6d099484a9a06eff2736aa6cfce12368487d9e1"
+  },
+  "candidateSHA256": "9c903de99a0ca295db7d99e4dfec837db7778a7e20bc07abd6035a63e59a938d",
+  "cauchyRecipeSHA256": "4c929d16fa8304918338df1b7952f5219ab12eaf985a450f86ac022f0e4ac517",
+  "frozenSourceInventorySHA256": "cfe4dd7eeab050c505a4e4b239f500409a382439ddcdeec5e2035a66cb0b7b5a",
+  "frozenSourceFiles": 1607,
+  "requestedAttemptBudgets": {
+    "singleGridAttempts": 6,
+    "twoGridAttempts": 9,
+    "refinedAttempts": 3,
+    "areaAttempts": 12
+  },
+  "phaseProgress": {},
+  "runtime": {
+    "python": "3.12.16 (main, Oct 26 2026, 02:48:44) [GCC 15.2.0]",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "node": "v22.23.5"
+  },
+  "inheritedAcceptedSteps": 0,
+  "sameJobNewActualInputs": true,
+  "rawRetention": "RUNNER_TEMP only; no raw artifact, Git or Release publication.",
+  "numericalSourceFrozenBeforeLivePull": true,
+  "ruleCheckIntervalSeconds": 2700,
+  "processReceipts": [
+    {
+      "label": "prepare",
+      "OSExitCode": 0,
+      "seconds": 733.309560754,
+      "stdoutSHA256": "fe455db79c1bedf3171c8b4d1292fa2ca9159df51f7a808e34a0ec08bd3312b8"
+    }
+  ],
+  "pulls": [
+    {
+      "UTC": "2026-11-26T14:42:18+00:00",
+      "fromCommit": "099d9c4c0adfa95747f679546acbfc5ae8245fc0",
+      "toCommit": "c67c6381aba61ff072b0f2480b959a96dd776f8f",
+      "readmeDiffEmpty": true,
+      "pullCommandExit": 0
+    }
+  ],
+  "state": "actual-stage-exited-zero",
+  "originalCauchyFactoryAcceptedSteps": 0,
+  "actualPipelineAcceptedSteps": 0,
+  "legacyCertificateNamedFlagsAreNotProof": true,
+  "R233InputBytesMatch": true,
+  "literalEvaluatorRoundingCertified": false,
+  "continuousCertificate": false,
+  "strongTargetComplete": false,
+  "actualPipelineAttempts": 0,
+  "currentStateSHA256": null,
+  "actualTotalPullCount": 4,
+  "previousScalarPart": {
+    "path": "topics/visible-flexible-closed-surface/notes/2026-11-26-6a65-gap105-cold-45838996926-1-002-own-zero.json",
+    "sha256": "700651e94f11d83d70f5ba3712646eda3a96555ee351437deb02ee25d71ded7e"
+  },
+  "stage": "prepare",
+  "actualPrefixInputHashes": {
+    "ramp": "0e2865ed7fd2fa5e1061718cc96b8be691f5f7d1a5b9460cf11d564d799f38e7",
+    "coast": "f2c834f5b2b9d1471eabb64a3be0edcc7b6f8454f8c98d68793a60c782c46b4d"
+  },
+  "prefixCertificateScope": "Published R233 applies to its exact formal source only; literal floating evaluation remains unproved.",
+  "actualOwnCauchyInitialSHA256": "a975dc501aa3626bb31c26e28b328cec532973d9cca63532ccff13f4c5669847",
+  "actualPreparedSHA256": "f9e7d265e0b0f7efb2077aa6b796457515d684e7c9df39c4fb23c946ea66932b",
+  "actualGapSourceIdentitySHA256": "78d4afb853388f8a6e54fadbac51210f2b68ed949f6e49d53ea8db5cc77d9a43",
+  "stageResult": {
+    "preparedSHA256": "f9e7d265e0b0f7efb2077aa6b796457515d684e7c9df39c4fb23c946ea66932b",
+    "definitionSHA256": "7bce463fe76f7c28d458565d994246d25e8497bfb9223abcb98eca75a3ee78a2",
+    "ownAcceptedSteps": 0,
+    "sourceDefinitionSHA256": "78d4afb853388f8a6e54fadbac51210f2b68ed949f6e49d53ea8db5cc77d9a43",
+    "cacheHashes": {
+      "training": {
+        "jets": "5c67847723f1ef9720c6bbf0d2a342d5f947bc75fa8afa79087491f1dc1d5b23",
+        "radius": "0189484c68fb922575c473fa151a5f4ae8dcf84973cf79d03bcf5584e743b965",
+        "report": "ea81595d15933a30120567651f93daea93242f88706faee2b9dfb5fcdc972c95"
+      },
+      "observer": {
+        "jets": "b23e147a300109cec369f5000afc036f51bfb9067c846c006d32d606b2a1a39b",
+        "radius": "b4f1669911c04847836db7f6802d81ec32ad131fa00f2a9f6e19d4a96ee3f3f3",
+        "report": "96913375e62cb4dea95a18ff406317b8ae003e3185b3d884ede4a893a32002fb"
+      }
+    },
+    "nodes": {
+      "training": 514,
+      "observer": 343
+    },
+    "angles": {
+      "training": 128,
+      "observer": 192
+    },
+    "originalOracleNaturalExitCode": 0
+  }
+}
