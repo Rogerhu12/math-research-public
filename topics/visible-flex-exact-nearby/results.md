@@ -4,6 +4,8 @@
 
 截至实际正帽/高度的完整说明索引见[本轮归档](notes/2026-11-15-results-through-actual-cap-and-height.md)；此前索引见[无限帽与返回前归档](notes/2026-11-14-results-before-infinite-cap-and-return.md)与[接手前索引](notes/2026-11-14-results-index-through-nearby-phase-target.md)。当前任务和最新实际输入见[open](open.md)与[HANDOFF](HANDOFF.md)。原成功/失败身份及完整正文保持，禁止重算已成功数学。
 
+- [R142：已成Green前缀的准确接续与全母格矩积分](results/R142-low193-parent-moment-continuation.md)（2026-11-26，已证明算法；新defect实际值待Actions）：复用原Green，155母格moment与共享A/B/K补未成缺陷，全部mean/两三角/193观察保留。
+
 ## 新增结论
 
 - [R138根锚与谱体组合的必要筛查](results/R138-supplement-root-anchored-spectral-budget-necessary-screen.md)：原high41更紧有理给ω96<1/导<377，同试探逐点≤24/25原integrand，whole T直接导改进T<120；故须aEE<23/30、wE<22、Csp<23。原已选统一λ-Schur更迫根费>19/5，单独排该算法；true DH^-1与更多可达约束仍开放，0新积分，SG三松门仍有效。
