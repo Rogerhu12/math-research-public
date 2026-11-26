@@ -4,7 +4,7 @@
 
 ## 规则与完整目标
 
-最近规则核查：2026-11-26 17:06:59 UTC，真实pull/rebase至 `20bdf4d9ed13ee5a5e383f0ca13dad3446d48096`，双README相对`de5320e1a137cb0d7ffb2e9f7cb9c4c9cb66ae7d`无差异，授权及规矩继续执行。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
+最近规则核查：2026-11-26 17:10:15 UTC，真实pull/rebase至 `4d0e91a07d3eca5a280860cff9897ce29bcde25b`，双README相对`20bdf4d9ed13ee5a5e383f0ca13dad3446d48096`无差异，授权及规矩继续执行。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
 
 科学计算仅本公开仓库Actions；早前本地偏差及纠正见[执行记录](notes/2026-11-20-public-actions-execution-correction.md)。root唯一分支写者；代理只scratch及未引用小源blob。每条结论普通commit/push，NFF立即pull --rebase循环再推，不强推。至少每小时pull，每次核双README差异/立即遵新规并记commit。raw只scratch/runner，不入Git/Release/artifact；保完整小源/参数/run/SHA/紧凑结论。题≤200MB、单文件<5MB、MD<100KB、H<10KB、open<30KB。令牌仅瞬时CLI。终端恢复/全部授权保2a7c完整H；真实pull/push，无raw重造。
 
@@ -31,9 +31,9 @@
 
 [03b真实3–13](notes/2026-11-26-actual-axisymmetric-first-field-and-zero-root-failure.md)606返fbf2/989740。[17–18](notes/2026-11-26-actual-SO3-prior-separation-SOC-17-18.md)359ffc返b1c625/cd1af8，Phi210.1678/max .5140674、原ray1/128接受/0SOC；QP64未驻，37→39→41全行。[实际24](notes/2026-11-26-actual-SO3-SOC-correction-scale-24.md)修正/锚 .00258196→6.03694、后轮typed真约束32717.46但全几何未读，4缺键不填0，20000 sweep_limit_feasible不冒收敛。全来源/8ray/全部尺度保note及[1d284完整H](https://github.com/Rogerhu12/math-research-public/blob/1d284f875eb4290b2e99805f08c7ed74ee234f6a/topics/visible-flex-larger-amplitude/HANDOFF.md)。
 
-[零Δ原失败与实际14–16](notes/2026-11-26-zero-initial-endpoint-replay-and-moment-input.md)完整记录保1d457全文：窄/.5/.75都首8角失败无场/J；14全弦长严格通过，15旧轨迹末候选球内仍未降、工作Cz病态，16纯抽取18字/05dc，未冒真逆或根证明。
+[零Δ原失败/14–16](notes/2026-11-26-zero-initial-endpoint-replay-and-moment-input.md)保原完整轨迹与18字05dc；[固定Q真实19–20](notes/2026-11-26-actual-fixed-moment-Q-initial-failure-19-20.md)同cd530/初H/05dc返747544/e4dc、角5初根失败，无场/Phi/J，球内回溯不降不推不存在。[轴端同族](notes/2026-11-26-zero-endpoint-axis-planar-control-equivalence.md)phi0/zy0新旧Q无球时恰同两Ry形状，球映不同椭圆，一般角无共同右线性映射；实际角5非轴端。[真实支撑23](notes/2026-11-26-actual-03b-supported-chord-pass.md)55ad/09819三补段/全尾/全角surplus严格负，384/256叶精度未达但外包保，0root/F/J；原H通过必要式非有限根存在，不能据此称需改H。
 
-[固定Q真实19–20](notes/2026-11-26-actual-fixed-moment-Q-initial-failure-19-20.md)完整44ac/e4a3/ff500/082b/c942已执行。同0f042/6ffc/cd530/H/05dc，返747544/e4dc：新d035模型角5初根失败，batch残差.0348922311/修正.4392978791，432回溯角读；无初末场/Phi/J、0成功root不冒未尝试。[轴端同族证明](notes/2026-11-26-zero-endpoint-axis-planar-control-equivalence.md)新旧Q在phi0/zy0无球时恰同两Ry形状族，球映不同椭圆；一般角无共同右线性换坐标，不推全输出像关系。实际失败角5非轴端，不推不存在。[支撑必要式实际23](notes/2026-11-26-actual-03b-supported-chord-pass.md)55ad/09819真返：三补段/全尾/全角覆盖、最大surplus上界严格负，384/256叶准入止而两精度未达不损外包，0root/F/J。原H已通过，非有限控制族根存在证明，不能据此称需改H。[显式新H完整入口](notes/2026-11-26-explicit-initial-height-fixed-moment-zero-entry.md)34c9/c1d3/2e5b/e996已刊，44ac/18字/原implicit与全循环不改，先核原cd530再只改自由H，尚未选H。[完整同方程残差延拓](notes/2026-11-26-same-endpoint-residual-continuation.md)3f37/613d/9649/e57e/a0c9/cc28已刊排03b；同Q/H/.75，失败精确回退，最终λ1无偏移复读C/Cz、原implicit不改。五完整manifest含必需前序积分报告；未返不冒成功，缺依赖明确失败。
+[同原方程残差延拓](notes/2026-11-26-same-endpoint-residual-continuation.md)3f37/613d/9649/e57e/a0c9/cc28已刊排03b：同Q/H/.75，失败精确回退，最终λ1无偏移复读C/Cz、原implicit不改；五完整manifest含必需前序积分报告，未返不冒成功，缺依赖明确失败。[H-only完整入口](notes/2026-11-26-explicit-initial-height-fixed-moment-zero-entry.md)已刊未选H。[新gamma/KKT解析](notes/2026-11-26-zero-endpoint-fold-and-added-shape-kkt.md)原Wz+独立gamma v，明确u=(z/S,v)成本、完整9KKT/27角jet/四阶混合链；严格增加容许形状不冒最小范数选枝继承，补秩仅条件，反射/周期须同支。完整实现中，无新科学结果。
 
 02 [run45800076687/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45800076687)已终止接纳；[实际卷](notes/2026-11-26-public-actions-45800076687-1.md)真返49/exit0，16:08:14准入结束，50未执行；API总cancelled而research step成功，两者不混作49科学失败。
 

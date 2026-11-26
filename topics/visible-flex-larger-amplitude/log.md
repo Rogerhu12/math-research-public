@@ -101,3 +101,7 @@
 ## 2026-11-26 17:06:52 UTC — 固定十八字的轴端平面同族与控制边界
 
 刊[完整解析](notes/2026-11-26-zero-endpoint-axis-planar-control-equivalence.md)：仅用四literal系数符号证明2×2映射可逆，phi0/zy0新旧Q无球时恰同两独立Ry形状；有限球映不同椭圆，角导数/全物理像不冒等同。保明确反射控制协变时两bubble六轴释放仍只有两轴端形状，不能把变量数当可达性。原角5失败非phi0；真实23必要式通过不推改H。root完整手推审、无本地科学；继续独立gamma及完整KKT链。H压缩保1d284固定全文与所有源note。
+
+## 2026-11-26 17:10:04 UTC — 独立径向形状与完整9KKT/27jet条件接口
+
+刊[完整解析](notes/2026-11-26-zero-endpoint-fold-and-added-shape-kkt.md)，gamma=(1/16,1/8,3/16)严格独立且支撑仍在旧U，保旧Wz加三world轴；旧族v0容许包含不冒minnorm选枝继承。完整dimensionless成本、乘子Hessian、SOSC非奇异证明、9KKT/27角jet/转置/四阶混合与同支对称合同逐式审；补秩n·jgamma≠0只条件，不从旧角5失败或必要式PASS猜fold/H。原完整sixjet消费/全部变量保，无当地科学。辅助t明确非物理弯曲参数；实现与现有延拓并行推进。open仅§7压缩、其全原字固定66ea保，§1–6逐字不变。
