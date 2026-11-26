@@ -161,3 +161,8 @@ owner821335205dca3da7553eef523baa032d36dd0918/62761B SHA0a94eae9a86a168c8a31b273
 ## 2026-11-26 11:11:35 UTC：TC首入口真实恢复失败，科学尚未启动
 
 45806282910/1在历史Z part000路径不存在处失败；完整execution5169B SHAd62f6aaddce361e2c426b32e18c6f01490548d0c442165dbe40e11d3ddedfd0e已根整读。science_children=0、actual_child_returncode=null、scientific_files/targets为空，无数学结论。首记录27历史“全核”准确更正为仅原metadata/定义一致，地址存在性没有全核，不能伪称已恢复。78当前完整receipt和两次规则检查保原件。三份原nodal answer仍存在；正在核对原Hermite与全cubic/14shard旧SHA的必要输入重物化，单独登记，不QR/不重旧范数。立即保存实际失败并继续修入口，完整证明义务不减。
+
+
+## 2026-11-26 11:16:01 UTC：SB完整同phi状态衔接；真实partial clone/pull恢复
+
+完整SB正文已根/global双核，原V.6连续repair、Cδ.2全区间Z、原response代码的非负mean费、LC实际WA/J/state_change逐项核。保存LC的同一有向球也控制pair A0，故同η0的Qcm−Qδ*小于1.98e−5；α不重复、所有mean及one-sided joins保。ν变化的完整mean/ordinary源、未知真qν−Z积分、各独立worldframe/position锚及GC/closure义务明确保留。第6节纠正半径改r_sel，避免与真根同名；没有任何新科学数值或旧target重做。executor恢复后原/tmp克隆不存，重建filter=blob:none克隆；首整topic checkout被kill，确认无Git进程后清其零字节stale lock，改sparse-index/scripts+results，worktree干净。实际pull --rebase至c2faad00a02dc60aade8670ef17964ccaa0af92a，两README相对已读a025无diff；现在继续本地Git。

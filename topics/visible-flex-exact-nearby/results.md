@@ -258,3 +258,5 @@
 - [TC：真根连续96个有限PDE trial与完整残差](results/R149-supplement-true-root-continuous-PDE-trials-and-complete-residuals.md)：whole selected/root/mean、原40parts Taylor误差、真径向长度及signed配对；独立有限对象目标，不冒真PDE列或提前运行SC真列认证。 math/proposal/完整输入helper、owner/worker及[首入口合同](notes/2026-11-26-true-root-trial-residual-contract.md)已双核并推送启动；78当前/27历史、三自然对象584球。实际输出未到，真PDE列误差与完整矩阵门仍待P224。
 
 - [TC首入口实际输入恢复失败](results/R149-supplement-actual-true-root-trial-input-restoration-failure.md)：45806282910/1旧Z历史地址不存在，science_children=0、无新目标/球；首历史metadata一致不冒真实路径存在，原失败留存。固定原nodal answer/Hermite/全部旧hash的必要载体恢复正在独立核验。
+
+- [SB：紧mean中心到选定参考态的完整同φ距离](results/R144-supplement-complete-same-phi-bridge-to-selected-reference.md)：同η0、完整均值与α一次，原LC整球/连续repair/全区间Z给pair A0与moving C0<1.98e−5。换metric的mean/ordinary源显式保，未来修正及全部world锚/闭合另付；没有重做数值目标。
