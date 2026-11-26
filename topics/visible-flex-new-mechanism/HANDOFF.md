@@ -5,7 +5,7 @@
 
 ## 1. 授权、规则与完整前史
 
-公开本次实际pull且根/题README已读至 **ee593113f96bedfec1bea1c928c94783fb694ed8**；根/题规则相对继承0749a4cc均空差异。私库实际pull/根README已读至 **f7d4488a16beb49a670335f275af43094628e070**，QUEUE认领提交 **09f8b8b54e7cfaabaa635bae5c438c7f1521289a**；本会话仍唯一进行中，下一私库pull不晚于21:10 UTC。
+公开本次实际pull且根/题README已读至 **7bbb0dfbc8b6132efbce5ac24a04427001e1e1ca**；根/题规则相对继承0749a4cc均空差异。私库实际pull/根README已读至 **f7d4488a16beb49a670335f275af43094628e070**，QUEUE认领提交 **09f8b8b54e7cfaabaa635bae5c438c7f1521289a**；本会话仍唯一进行中，下一私库pull不晚于21:10 UTC。
 
 [压缩前全文](notes/HANDOFF-before-saved-brackets-20261127.md)及其中完整归档链保留全部旧结论、真实输入、失败/偏离、量词和所有费用；移档不重跑已付门。[四来源与文献](notes/2026-11-27-current-four-source-topics-and-literature.md)保已读版本和用途。
 
@@ -34,6 +34,8 @@
 [实际277后继](notes/2026-11-27-r613-full-position-actual277-implementation.md)run **45891036836**/job140153472856/source99007dd1，于20:26 UTC启动。用[R613](results/R613-actual-position-defect-jacobian-and-complete-objective.md)完整S全奇1…127，950×256的121600行/1130列全部保留；完整QR/小R全SVD，不做normal equations。原1728×512、双直接fine、全部口/R602 core、canonical512高度/448正文响应不变，全部费用继承。
 
 [R606](results/R606-weighted-fourier-majorants-continuous-turning-and-metric.md)/[R615](results/R615-position-fourier-majorants-and-discrete-primitive-error.md)共享一次同场系数/rho工作，fine奇至255；上一条件界仍4.55446e−5。径向/ODE/DtN/舍入欠账不消。[R617](results/R617-finite-pre-tanh-poles-and-open-cap-rigidity.md)排固定有限pre-tanh＋有限post准确开帽根，实际.22帽入口已付；不授有限误差下界。必须继续角带增长/无限响应与固定g。
+
+[R618](results/R618-fixed-metric-core-and-growing-post-response.md)已付固定完整E的同根p0/核心ζ与ζ′链、完整2J从属项、逐级独立post及每固定有限新J的真实强迫平尾/仿射口。新角带从u≥max(100,4J)支付，旧模口不重做；全J一致逆与完整非线性根仍欠，纯helper未运行，当前S仍是设计阶段。
 
 ## 6. 真函数、完整历史与两ruling
 

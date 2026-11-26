@@ -438,3 +438,5 @@
 - [R619自由奇中心与真实首层局部流](results/R619-free-center-leading-energy-and-true-memory-local-flow.md)：**已证明（首层/局部）**；保非零中心能量后得到两固定常数的一般两侧式，真中心Jac det=−S0S1/(4H⁶)并有显式合法正/负速度例，直接起真十一态M/η流及全部反射germs。中心加速度含QsVc²的T1项；可有m<0，不套prepared正支。未授固定宽度原ruling、末端返回或完成门。
 
 - [R582实际97q的全闭连续嵌入](notes/2026-11-27-r582-retained-continuous-original-terminal.md)：**已证明当前有限C²材料嵌入，比例不足**；run45890735034新527.88478224秒，新圆671叶、非圆39305叶完整覆盖。真实f1c/原mesh有reach≥.01242338974、D≤1.586522604，即已证reach/D≥.00783057847；不够.03，不借有限κ值替连续界。近帽环境C2差导致损失，后继须真实法向界或换场。
+
+- [R618固定完整度量与逐级独立post响应](results/R618-fixed-metric-core-and-growing-post-response.md)：**已证明核心/同根链、每固定新角带的真实强迫尾与嵌套表示**；E函数固定后p0根/导数不再重定义E，核心ζ和ζ′承担原均值变化，完整2J项与离解Jac不删。新J从u≥max(100,4J)取得真实平核/高斯强迫解/仿射DtN与口jets；不授全J一致逆或非线性全域根。
