@@ -276,3 +276,5 @@
 2026-11-26 15:43:23 UTC — Astra-visible-flex-6a65e705-20261126：纠正新q2 cold own-zero摘要误套两训练网格的文字，285.285s真0/0接受与输出身份保留；缺嵌套字段改称摘要未列出。明确旧max1 normal缩放不等于小梯度真相对残差，数值冻结源不改；新M12全H run45851669566已真实setup。
 
 2026-11-26 15:45:31 UTC — Astra-visible-flex-6a65e705-20261126：登记gap q1实际30接受/全部自然0及每步报告SHA；末metric.990636/κ584.069/σ.0910967未合格，后六面积步不能称面积改善。发送严格末state/prepared/run/request绑定release，继续独立q2全H与polar输入；H删除已实际结束v5旧marker，历史已保。
+
+2026-11-26 15:46:24 UTC — Astra-visible-flex-6a65e705-20261126：登记R247正高度控制锐点预算及无反射法曲率必要条件；真实单点.746955s自然0给.437387<.785395，代入仅浮点证据。源码/输出SHA保留，继续完整XYZ；新polar192角cache实际inverse失败已明确，不冒完整baseline。

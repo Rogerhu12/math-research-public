@@ -1,5 +1,7 @@
 # 当前未解问题：保留基础有限证据，继续同 g 加密及完整强幅度
 
+[R247固定rho点预算](results/R247-fixed-polar-radius-positive-height-point-budget.md)已证明条件锐上界与法曲率公式；N31实际单点上界.437387<必要.785395为浮点诊断，后续放开完整XYZ。新极坐标两网格准备中，128角真实成功、192角反参守卫实际失败，不能冒完整baseline；修另名反参源继续。
+
 [gap q1实际30步](notes/2026-11-26-6a65-gap105-q1-actual-thirty-step-batch.md)全自然0但末metric.990636/κ584.069/σ.0910967仍不合格；新source计数与旧轨迹分清，固定prefix误差未去。已发严格同态release，只结束旧runner，继续新q2全H及新polar全XYZ；真实ack待查。
 
 [q2 cold 阶段勘误](notes/2026-11-26-6a65-q2-cold-public-summary-scope-correction.md)：own-zero285.285s真0/接受0；统一renderer的“两组皆训练”只适用于joint及后继，不能套给own-zero/single。max-one缩放normal也不能在小梯度时冒真相对收敛；活动数值源保持，后继报告另列真相对量。

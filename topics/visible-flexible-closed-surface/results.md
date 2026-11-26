@@ -5,6 +5,8 @@
 
 ## 新增结论
 
+- [R247：固定半径的正高度控制族锐点预算](results/R247-fixed-polar-radius-positive-height-point-budget.md)（2026-11-26）：证明固定端控/总高度下任意非负Bernstein分配的锐单点上界，以及rho_s=0处不需反射的法曲率必要速度。当前N31真实浮点点预算给上界.437387<所需.785395；参数代入非区间证明，继续完整XYZ，不冒一般不存在。
+
 - [R246：完整二阶端口的极坐标正高度连接](results/R246-polar-positive-height-complete-port-connector.md)（2026-11-26）：给独立固定g下准确C2端口变换、正Bernstein高度积分重分配、完整六jets和条件自嵌入；显式面积/Gram下界，R205右端全角b30≥(49519/49600)zs≥0已付。左端/完整时钟假设仍待证，不冒等距或全闭reach。
 
 - [R245：第二热点h487的实际同g改善及完整连续几何](results/R245-actual-h487-refinement-and-continuous-geometry.md)（2026-11-26）：run45833090043全部11stage/STL/R236真0，独立超集峰4.21683e−9→9.83953e−10；全域全时metric<8.211825e−7、reach/D>.03109495、held/D>.05278322、含反射δE>0。LSMR800/stop7，连续证明界并非单调，第5条/强幅度继续。
