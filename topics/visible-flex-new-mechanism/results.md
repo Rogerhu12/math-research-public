@@ -292,3 +292,5 @@
 - [R586 完整历史的准确六元投影与有限积分](results/R586-sixfold-full-history-coefficient-projection-and-finite-integrals.md)：**已证明**同一36块完整R/L/G/有序B/c只有QQ与C²Q两型，六元系数平均和≤10位置矩先于求积；真二尾保留，四导和新第三尾准确转置，整个σ′公共分子有限预收。未授新完整数值精度、十九态根或rank。
 
 - [R576函数尺度实际续解](notes/2026-11-26-r576-function-space-continuation.md)：新单lane完整保已付内口/参考H*/52q，只换实际height jets限步及真实下降/预测比回溯；同空间停滞才一次68维局部扩充，零新列保原高度。内Riccati/shoot不复跑，全部实际位置检查和费用保留，尚无新结果。
+
+- [分批B030原终态](notes/2026-11-26-theta-batched-b030-original-terminal-receipt.md)：**完整原观察**。295.608894049新秒，终651候选全定位，η.265137352907/V0，actual450/1021与未采用494/1129分开；首次真实1024峰库cap，0自然后端返回。全部原候选保留的分批已工作，下一扩真实峰库并续同q，非主门。

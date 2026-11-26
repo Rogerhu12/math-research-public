@@ -6,7 +6,7 @@
 
 ## 1. 规则与接手
 
-已部分克隆并实际 `git pull main`，公开根 README、课题 README、HANDOFF、open、results 索引及相关 log/notes 已读。公开已读提交 **edfb1ba4bb976de1b4176717113a60f3dcdc19b3**（2026-11-26 10:10 UTC；本次实际pull后根/题README空差异）；历次规则及失败原回执保原note；私有 QUEUE 的本题已改为本会话进行中并成功推送：**9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7**；最后实际pull及规则同blob读至 **739f658f575a7652d640bf82386814df0cb0f7a8**（2026-11-26 09:33 UTC；失联后重建partial稀疏副本，实际pull成功，根README空差异、QUEUE仍本会话）。其它课题的并行认领保留。
+已部分克隆并实际 `git pull main`，公开根 README、课题 README、HANDOFF、open、results 索引及相关 log/notes 已读。公开已读提交 **368c592f549f93f9f839b2651a370fdbbed516ee**（2026-11-26 10:19 UTC；本次实际pull后根/题README空差异）；历次规则及失败原回执保原note；私有 QUEUE 的本题已改为本会话进行中并成功推送：**9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7**；最后实际pull及规则同blob读至 **739f658f575a7652d640bf82386814df0cb0f7a8**（2026-11-26 09:33 UTC；失联后重建partial稀疏副本，实际pull成功，根README空差异、QUEUE仍本会话）。其它课题的并行认领保留。
 
 [前历交接](notes/HANDOFF-before-resonant-height-20261126.md)及原note保全部规则/成本/限定。09:18 UTC本地失联后用接口继续保存，API不冒actualpull；09:33恢复partial副本并实际双pull，完整身份见本日日志。
 
@@ -20,7 +20,7 @@
 
 旧固定g/58及ring17至joint168均已闭，完整身份/门/费用见[固定O2原文](notes/open-fixed-o2-before-finite-height-20261126.md)。58的metric辅助量.2660054、κ58不是宏观合格点；旧实例不重开。
 
-真实角峰保1536全约束/全角Ebar与全部实际峰；旧run45785004209已闭，原[两lane来源](notes/2026-11-26-theta-peak-capacity-continuation-implementation.md)保全部实际/未用状态。[513续接B030](notes/2026-11-26-theta-513-b030-original-terminal-receipt.md)run45790610433新增886.355842152秒，最终已定位η.27500503/V0；actual443径向/1012峰、pending450/1021、trust1.20135498。较好trial因733候选超过512未定位而拒绝，保留q的终445候选完成；0自然OptimizeResult。[B038收据](notes/2026-11-26-theta-513-b038-original-terminal-receipt.md)568.432517953新秒，保留q细η.51945917/V0，但终518候选未定位，分类未合格；actual470/508只构造oracle、最后backend464/502，trust.90101624。[完整候选分批实现](notes/2026-11-26-theta-full-candidate-batches-implementation.md)现已提交：512只作批大小，全保原候选/actual/pending/trust；时钟部分态保全部未处理区间且不授接受。连续reach/冻结g仍欠。
+真实角峰保1536全约束/全角Ebar及全部实际峰，前[513两lane收据](notes/2026-11-26-theta-peak-capacity-continuation-implementation.md)保完整来源。[分批B030原终态](notes/2026-11-26-theta-batched-b030-original-terminal-receipt.md)run45796862274新增295.608894049秒，651终候选全完成，保留η.265137352907/V0；actual450/1021、pending494/1129、trust1.20135498。首次真实峰库1129>1024，后继保全部proposal；0自然OptimizeResult。[前B038](notes/2026-11-26-theta-513-b038-original-terminal-receipt.md)518候选未定位范围仍保，新分批完整收据继续登记。
 
 [圆核原终态](notes/2026-11-26-circular-entry-and-small-core-continuation-receipt.md)2401.892431903新秒，最后合格仍p=.18圆；四个非圆未过stage1e−4，stage4真正156×384。[R580](results/R580-finite-tail-polynomial-kernel-obstruction-and-resonant-seed-interface.md)排当前末片有限多项式的真实核/C1入口，只限该表示。[R582](results/R582-actual-circular-tail-flat-kernel-and-resonant-entry.md)现已为实际17q背景证明真实一维全平j2尾核，保同160起始cell/DtN界；中段z_s穿零、核心共振及有限分支仍欠。
 
