@@ -1,10 +1,13 @@
 # 结论索引
 
-- [R217：同一R215帽的较低中央支持窗口](results/R217-r215-caps-with-lower-central-support.md)：将中央支持下界改为34/25、高度下界改为.52，重新付清八个极点、整个帽/喉held与握持直径；保留所有原核连续条件及强比例。不把新参数窗当实际核。
 
 > 2026-11-09：下列R1/R2的δ均为δ_E。新版基础目标改为δ_hold≥.05D且δ_E>0，旧定理仍成立。
 
 ## 新增结论
+
+- [R218：准确平坦ruling带的全耦合Green与双端值域](results/R218-flat-coast-green-operator-and-two-port-range.md)：完整曲率线性化和Codazzi将法向兼容化成真实ruling的二阶源方程；显式给两完整周期函数端迹、开领条件、定量界及角阶损失。反例证明normal两矩不足支付切向双端/环带holonomy，不套近似M12。
+
+- [R217：同一R215帽的较低中央支持窗口](results/R217-r215-caps-with-lower-central-support.md)：将中央支持下界改为34/25、高度下界改为.52，重新付清八个极点、整个帽/喉held与握持直径；保留所有原核连续条件及强比例。不把新参数窗当实际核。
 
 - [R216：真实Cartesian补丁的全域几何](results/R216-m12-cartesian-patch-global-geometry.md)：冻结24hex参数后，全支撑二jets有理界保全图曲率/正支撑，R10给全时reach/D>.0312、held/D>.05278与固定H；管体积矩预算保含反射δE>0，全域metric粗界<4.4e−8。对象是R21的X+W，未付G5或强比例；与R114Φ复合须另算。
 

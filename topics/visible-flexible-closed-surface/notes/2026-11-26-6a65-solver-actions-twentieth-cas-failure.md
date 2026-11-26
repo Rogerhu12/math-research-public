@@ -76,7 +76,7 @@ Git 输出明确是：
 新 followup 入口补识别这个明确 main 引用的 CAS 冲突，
 并以本次真实错误文本验证能进入立即 pull/rebase/retry；
 还区分权限/网络/远端 hook 拒绝，不能把所有 remote rejected 无限当成非快进。
-旧入口的相同小修已由根会话串行实现；实际CAS文本、incorrect-old-value、权限/保护分支hook/认证/DNS共六种真实类别的匹配判断均通过。避免多代理 dirty 文件阻断必要 pull。
+旧入口的相同小修已由根会话串行实现；本次真实CAS文本及incorrect-old-value、权限、保护分支hook、认证、DNS五类样例的匹配判断均通过。避免多代理 dirty 文件阻断必要 pull。
 
 在发现 failure 前，子代理曾只读 main 小报告的运行中标记，误报任务仍在继续。
 现已用真实 job 终态与日志更正。后续进度须同时读取 job 状态，
