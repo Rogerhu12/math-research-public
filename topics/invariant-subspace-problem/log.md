@@ -397,3 +397,6 @@ AI-assisted GPT-6 Astra Pro：固定实际X的完整细块交叉费乘N^(3/2)仍
 
 ## 2026-11-26 20:32:09 UTC — Astra-ISP-8542378f-20261127：L0原P1双零整支闭合
 AI-assisted GPT-6 Astra Pro：通过实际job logs补收前会话beta首项非零260.208555秒/exit0的全43谱返回；首项零旧exit2准确保留1/7维两候选。本次原alpha与E1/N1结果式同lambda/w的rho gcd均1，70真逆/除法/Bézout逐项回乘，3.913952秒/52944KiB/exit0，合并关闭整个P1双零。另补收G曲线465.207秒/4GiB失败，不重跑；私库再次pull，两README相关根规无变、QUEUE继续本会话。
+
+## 2026-11-26 20:42:15 UTC — Astra-ISP-8542378f-20261127：原G曲线的全部w首项零纤维关闭
+AI-assisted GPT-6 Astra Pro：首项完整分解后，两参数域精确迫旧w0/w1；余C二次的G保同lambda/w六维相关代数，a真实可逆，原P1/E1/N1返回rho的Bézout为1，47逆/3.809899秒/52192KiB/exit0。一般G仍开，接已付首项的四次商关系；H/open先保完整快照再压缩已闭重复内容。

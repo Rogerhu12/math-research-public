@@ -1,0 +1,90 @@
+{
+  "schema": "r150-L0-G-leading-w-zero-return-v1",
+  "sourcePath": "notes/2026-11-27-unit211-L0-G-leading-w-zero-original-return-8542.py",
+  "sourceSha256": "015ce3071c81b2bf532943207fb701a7ddb1b36d9607410e2ed3606bd7836296",
+  "sourceBytes": 18016,
+  "pythonVersion": "3.12.14",
+  "exitCode": 0,
+  "stdoutSha256": "d6d95fe60582c3ed3f99e54ed03fcb318980f51cca8897fdf9af8074414b14de",
+  "stdoutBytes": 11435,
+  "newStages": [
+    {
+      "aInverseActuallyVerified": true,
+      "claimExcluded": false,
+      "elapsedSeconds": 3.778292,
+      "factors": [
+        {
+          "degree": 6,
+          "multiplicity": 1,
+          "polynomial": "28*x^6 + 140*x^5 + 270*x^4 + 293*x^3 + 221*x^2 + 49*x + 7"
+        }
+      ],
+      "lambdaOneAndSecondQuadraticPaidBy": "original w=0 or w=1",
+      "leadingFactorIdentityVerified": true,
+      "remainingLambdaFactor": "4*x^2 + (-5)*x + 2",
+      "sourceSha256": "015ce3071c81b2bf532943207fb701a7ddb1b36d9607410e2ed3606bd7836296",
+      "stage": "original_G_leading_zero_entire_cover",
+      "wCover": "896*x^6 + 4480*x^5 + 8640*x^4 + 9376*x^3 + 7072*x^2 + 1568*x + 224",
+      "wCoverSha256": "787160e6176bd1a5a14a8a0865f6b4b9811cc43358a604449abbb0beeaffdeb5"
+    },
+    {
+      "elapsedSeconds": 3.809666,
+      "report": {
+        "allExactDivisionsAndBezoutVerified": true,
+        "baseDimension": 6,
+        "baseInverseIdentities": 47,
+        "claimExcluded": true,
+        "history": [
+          {
+            "degree": 1,
+            "removedOriginalUnitIndex": 7
+          },
+          {
+            "equation": "P1_E1",
+            "remainingRhoDegree": 4
+          },
+          {
+            "equation": "P1_N1",
+            "remainingRhoDegree": 0
+          }
+        ],
+        "wFactor": "28*x^6 + 140*x^5 + 270*x^4 + 293*x^3 + 221*x^2 + 49*x + 7"
+      },
+      "stage": "original_G_leading_zero_full_fiber_return"
+    },
+    {
+      "claimExcluded": true,
+      "claimWholeGCurveExcluded": false,
+      "claimWholeL0Excluded": false,
+      "elapsedSeconds": 3.809899,
+      "ordinaryISPClaim": false,
+      "peakRssKiB": 52192,
+      "reports": [
+        {
+          "allExactDivisionsAndBezoutVerified": true,
+          "baseDimension": 6,
+          "baseInverseIdentities": 47,
+          "claimExcluded": true,
+          "history": [
+            {
+              "degree": 1,
+              "removedOriginalUnitIndex": 7
+            },
+            {
+              "equation": "P1_E1",
+              "remainingRhoDegree": 4
+            },
+            {
+              "equation": "P1_N1",
+              "remainingRhoDegree": 0
+            }
+          ],
+          "wFactor": "28*x^6 + 140*x^5 + 270*x^4 + 293*x^3 + 221*x^2 + 49*x + 7"
+        }
+      ],
+      "sourceSha256": "015ce3071c81b2bf532943207fb701a7ddb1b36d9607410e2ed3606bd7836296",
+      "stage": "entire_original_G_leading_w_zero_stratum_excluded"
+    }
+  ],
+  "claimExcluded": true
+}
