@@ -90,3 +90,7 @@ stage 42 已使用已刊 `ef60ec41…` 实际读取同一 journal/log 中的有�
 本地实际只完成源码派生、AST/compile、重复关键字/字典检查、source SHA 与 byte 数、完整 diff 和 CLI 参数声明核对。没有运行科学字段、fake fixture、root 检验或数值证明。
 
 第一异常已由同一实际日志的 stage 42 全 traceback 读取确认；新入口是否通过全部构造、完整初场读取和方向预算，仍必须等待它自己的公共 Actions 返回。高误差场不因此被安排昂贵完整连续 Gram 认证；目标 completion、全域度量、全 t 同场几何与固定参数真实精化责任均未转移。
+
+## 8. 实际队列字节守卫与无损准入修复
+
+02在12:49:39 UTC的实际索引报告 `Followup request must be a complete small repository JSON file`，所以新两step尚未被准入，不是新科学子进程失败。完整队列追加后为98126B；原完整控制器的95000B上限保留。仅去JSON缩进后为80236B，标准JSON解析后与原对象逐项全等，16个完整step、全部命令字符串/数值/summary/清理选择和顺序均保。未删任何步骤/变量/科学行，也没有调整限额或把raw另存成参数。新完整来源绑定重跑仍须它自己的实际返回。
