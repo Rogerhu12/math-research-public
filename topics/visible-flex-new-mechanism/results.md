@@ -380,3 +380,5 @@
 - [R594已付八模末态的实际续接](notes/2026-11-26-r594-paid-weak-resume-implementation.md)：真实496q、四个完整13jet口和60个trial恢复damping1e−14；只续当前ε1e−5的60步，0旧Riccati/射击/方向观察。必要dense/core再建全计费并读出原口/归一差；原全部r使用域内中心或单侧四阶位置导数及半步，排序还原物理位置。完整metric/core/漏模和双direct门保持，未授收敛或几何。
 
 - [R582 radius-only完整有限非圆原终态](notes/2026-11-26-r582-finite-radius-only-original-receipt.md)：run45827253372实付214.678352088科学秒，p=.181未推进；15outer/43callback/29Jac/58完整fine，末10835×384给η.99600/κ8413.03/V509.839不合格。一次工作恢复保留q实际变1.425e−5而V只降约7.7e−12，原/保留/未接受末trial各分列；eta峰在材料端点，严重一阶误差不只是区间二导相消。旧70.621876255秒/内场全部费用保留；下一新尾列和稳定实际表示。
+
+- [R601 Prepared中心的真jet与固定规范加速度](results/R601-prepared-center-true-jet-and-fixed-gauge-acceleration.md)：**已证明**由完整八M逐项得V_s=(a−H)Q_c(p−yr)/(4H³)，s0的v²与真权导数准确回付。两原ruling强制b=0，同一固定ζ0=2H(R0+ChH)给a=H；V1/V2延至O(s²)，最高能量从ε^-2 s²延至ε^-2 s⁴，正势及其权导数不消，y4二阶仍−Hv/4。明定10参数guide保h″(0)=H，从已付11参数新映射；不授全程prepared、根或宏观预算。
