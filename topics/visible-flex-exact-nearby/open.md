@@ -166,3 +166,5 @@ G以S/T E1856给physical C²整盘/曲率<2/径长<8e−6及同world position/no
 R143 correlated body已全4651；R146全418/13376使当前CV/RA根费格式失败，禁止继续该格式Gram/容量/仅DH细化，不推PDE奇异。R145/R147和[NW](results/R147-supplement-actual-same-window-negative-nu-waist.md)各旧成功锁定；NW只给ordinary零root/无impulse负ν分量，非全误差≤.005。
 
 执行环境05:48 UTC断开，08:22仍不可用；公开Actions持续。每次main更新核两README，恢复立即真实pull/rebase。≤200MB容量、H/open尺寸、旧科学不重及失败/unknown完整保留规则仍适用。最后必须同一次冻结ν*/Γ*/η/metric并构造同一连通闭嵌入族，所有最终门逐一真实通过。
+
+[CS新中心完整源](results/R144-supplement-compact-centre-ordinary-and-divergence-residual.md)已证exact ordinary/divergence分解，径向常数Δκ只从angular flux准确消去、仍在ordinary项；原Rv−jR0及ξχ′完整保。五个新局部积分量消费actualρ/b后可执行；first-row H−2/3不免费删角导数，384^1/3费与所有rawjump/physical composition仍保。
