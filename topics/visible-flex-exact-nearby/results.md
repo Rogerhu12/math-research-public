@@ -255,4 +255,4 @@
 
 - [LC：紧窗全moving C0、五源与完整新jump接收](results/R144-supplement-localized-full-state-C0-and-compact-source-receivers.md)：原32有限载体与actualρ/b，真χ支持/χ′质量、全mean及原joins；准确区分geometry同φ与另种sameθ比较。实际新目标待运行。 [19当前/10历史实际入口](notes/2026-11-26-R144-localized-full-state-and-compact-sources-contract.md)已执行，27整球/31字段完整；[LC actual](results/R144-supplement-actual-localized-full-state-and-compact-sources.md)45797426031/1的新中心C0门true，五源和全jump锁定。
 
-- [TC：真根连续96个有限PDE trial与完整残差](results/R149-supplement-true-root-continuous-PDE-trials-and-complete-residuals.md)：whole selected/root/mean、原40parts Taylor误差、真径向长度及signed配对；独立有限对象目标，不冒真PDE列或提前运行SC真列认证。 math/proposal/完整输入helper已双核，原Box/FFT API及精确全offset恢复闭合；无实际列误差或矩阵门。
+- [TC：真根连续96个有限PDE trial与完整残差](results/R149-supplement-true-root-continuous-PDE-trials-and-complete-residuals.md)：whole selected/root/mean、原40parts Taylor误差、真径向长度及signed配对；独立有限对象目标，不冒真PDE列或提前运行SC真列认证。 math/proposal/完整输入helper及owner/worker已双核；全三自然目标保存、all96×5同格前缀与原40parts恢复闭包闭合，尚无实际列误差或矩阵门。
