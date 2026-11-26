@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R150 S0/Lt0的整个半base权支路为空（2026-11-27，已证明）：** [ellhalf/a-half全原返回](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-half-base-weight-exclusion.md)由原M与z²−2D的52次结式给20次完整谱，低谱各返原z域由Delta/z排除；末16谱保同θ和d两根，在32维原代数中E1/EB真逆乘回1。自含源exit0/0.475966秒/30200KiB，原九式输入与52次真逆已核；后续一般图可付ell−1/2，不宣整Lt0完成。
+
 - **R12 任意非奇异加权复合算子到完整闭包自伴核的距离已确定（2026-11-27，已证明）：** [真实初终空间正交与精确距离](results/R12-appendix-exact-distance-of-all-weighted-composition-operators-to-the-closed-selfadjoint-core.md)给dist(M_vVσ,R∩R*)=dist(M_vVσ,MASA)=||v·1_移动集||∞；不要求σ是平移。无限相邻位交换的自伴酉到平移生成B距离1，证明新增范围确有B外对象。该子类闭合后继续正向同源运输插值，未把一般非对角块相加误作收缩。
 
 - **R150 S0/Lt0的整个零base权支路为空（2026-11-27，已证明）：** [u2/ell1/a0原返回](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-zero-base-weight-exclusion.md)直接从Lt恒等式取D=z²、θ=z²/B，52次结式给26次完整谱；低谱返回同θ后原K单位，末18谱保d两根的36维原E1/EB真逆。自含源exit0/0.368863秒/30304KiB，准确双点乘法重新生成九式。另实录未登记scratch分量错误，其374/580投影和PRS全部废止，不影响此证书及已推三源。

@@ -1,0 +1,155 @@
+{
+  "schema": "r150-unit211-S0-Lt0-half-weight-sum-execution-v1",
+  "sourcePath": "notes/2026-11-27-unit211-S0-Lt0-half-weight-sum-original-return-8542.py",
+  "sourceSha256": "f6e972a386ca03bb0748a6b657cb28858b0563fbf048a13996a945ea9c088d32",
+  "sourceBytes": 17836,
+  "pythonVersion": "3.12.14",
+  "pythonFlintVersion": "0.9.0",
+  "command": "PYTHONPATH=/workspace/scratch/8542378f2b73/isp_pydeps python topics/invariant-subspace-problem/notes/2026-11-27-unit211-S0-Lt0-half-weight-sum-original-return-8542.py",
+  "exitCode": 0,
+  "alarmSeconds": 180,
+  "stdoutSha256": "ad8de1f70c647951a25b3f82a91520e3784b58eada18eef7cab9712125ee110d",
+  "stdoutBytes": 4796,
+  "cover": {
+    "claimExcluded": false,
+    "completeResultantFactorization": "Res_theta(G,K)=256 z^14 J^2 M",
+    "elapsedSeconds": 0.02527,
+    "factors": [
+      {
+        "coefficientsLowFirst": [
+          "-1/2",
+          "1"
+        ],
+        "degree": 1
+      },
+      {
+        "coefficientsLowFirst": [
+          "-3/2",
+          "1"
+        ],
+        "degree": 1
+      },
+      {
+        "coefficientsLowFirst": [
+          "1/2",
+          "-5/4",
+          "1"
+        ],
+        "degree": 2
+      },
+      {
+        "coefficientsLowFirst": [
+          "-32418369/22528",
+          "67726531/5632",
+          "-6046553693/135168",
+          "13014430415/135168",
+          "-46526167219/360448",
+          "26596569/256",
+          "-1506874389/45056",
+          "-923741521/33792",
+          "997612755/22528",
+          "-252896363/8448",
+          "12723791/1056",
+          "-3136367/1056",
+          "2013673/4224",
+          "-56389/528",
+          "2051/48",
+          "-689/66",
+          "1"
+        ],
+        "degree": 16
+      }
+    ],
+    "resultantDegree": 52,
+    "sourceSha256": "f6e972a386ca03bb0748a6b657cb28858b0563fbf048a13996a945ea9c088d32",
+    "squarefreeDegree": 20,
+    "squarefreeSha256": "1e53ff01fcf5aebc2b4b61d53e738a8d62491d6f295b342c70c06cceafaad087",
+    "stage": "complete_original_half_weight_sum_parameter_cover"
+  },
+  "result": {
+    "claimExcluded": true,
+    "claimWholeLt0LayerEmpty": false,
+    "claimWholeS0LayerEmpty": false,
+    "elapsedSeconds": 0.475966,
+    "ordinaryISPClaim": false,
+    "peakRssKiB": 30200,
+    "reports": [
+      {
+        "baseDegree": 1,
+        "bezoutIdentities": 4,
+        "claimExcluded": true,
+        "inverseIdentities": 11,
+        "lambdaFactor": "x + (-1/2)",
+        "paidHistory": [
+          {
+            "unit": "distinct_h_k_Delta",
+            "zDegree": 1
+          }
+        ],
+        "remainingZDegree": 0
+      },
+      {
+        "baseDegree": 1,
+        "bezoutIdentities": 3,
+        "claimExcluded": true,
+        "inverseIdentities": 8,
+        "lambdaFactor": "x + (-3/2)",
+        "paidHistory": [
+          {
+            "unit": "z",
+            "zDegree": 1
+          }
+        ],
+        "remainingZDegree": 0
+      },
+      {
+        "baseDegree": 2,
+        "bezoutIdentities": 3,
+        "claimExcluded": true,
+        "inverseIdentities": 8,
+        "lambdaFactor": "x^2 + (-5/4)*x + 1/2",
+        "paidHistory": [
+          {
+            "unit": "z",
+            "zDegree": 1
+          }
+        ],
+        "remainingZDegree": 0
+      },
+      {
+        "baseDimension": 16,
+        "baseInverseIdentities": 52,
+        "certificate": {
+          "combination": {
+            "currentWeight": 0,
+            "withPreviousAccumulator": false
+          },
+          "fieldInverseIdentitiesChecked": 52,
+          "identity": "original_resultant_combination * its_inverse = 1",
+          "inverseSha256": "1ab152624c2d9000cf609475f2407df569d5776895344dd76c221db2767f995c",
+          "normDegreeInLambda": 15,
+          "pair": [
+            "E1",
+            "EB"
+          ]
+        },
+        "fiber": "x^16 + (-689/66)*x^15 + 2051/48*x^14 + (-56389/528)*x^13 + 2013673/4224*x^12 + (-3136367/1056)*x^11 + 12723791/1056*x^10 + (-252896363/8448)*x^9 + 997612755/22528*x^8 + (-923741521/33792)*x^7 + (-1506874389/45056)*x^6 + 26596569/256*x^5 + (-46526167219/360448)*x^4 + 13014430415/135168*x^3 + (-6046553693/135168)*x^2 + 67726531/5632*x + (-32418369/22528)",
+        "fullDimension": 32,
+        "history": [
+          {
+            "pair": [
+              "E1",
+              "EB"
+            ],
+            "unitCertificateFound": true,
+            "zeroResultant": false
+          }
+        ],
+        "inputSha256": "cc4d631897aab1486ccd946be1f258cd4adfd8cdc8c891b993f5917c45769ecb",
+        "quadraticIrreducibilityAssumed": false
+      }
+    ],
+    "sourceSha256": "f6e972a386ca03bb0748a6b657cb28858b0563fbf048a13996a945ea9c088d32",
+    "status": "entire_original_Lt0_half_weight_sum_stratum_excluded"
+  }
+}
