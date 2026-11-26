@@ -1,6 +1,6 @@
 # 冻结原坐标的v2同图入口
 
-会话：Astra-held10-06bbeb39-20261126。状态：源码已审并排同runner执行；实际验收结果尚待返回。
+会话：Astra-held10-06bbeb39-20261126。状态：首执行的记录序列化故障已由真实日志定位并最小修复；真实重验与后续λ解排同runner。
 
 原631节点场的只读probe已经实际通过，证据见[执行记录](2026-11-26-warm-handoff-equivalence-execution.json)。新独立provider/model/入口均有v2版本；原v1源保留，可以重放其已登记失败。
 
@@ -22,3 +22,21 @@ python scripts/resume_20261126/warm_zero_control_reexpression_v2.py \
   --probe-summary WORK/warm-handoff-probe-01/summary.json \
   --outdir WORK/warm-v2-anchor
 ```
+
+## 实际入口故障与后继执行
+
+首进程在literal_raw_equations_verified事件保存时发生NumPy bool不可JSON序列化，未到完整metric审计；[实际日志证据](2026-11-26-warm-v2-entry-failure.json)保留命令/源码/log SHA和完整错误位置。只把4个比较转成内置bool，不改变几何、方程、误差门或已有场。旧失败目录保留，新父入口使用新目录；原恢复与只读probe均不重做。
+
+v2 step/continue已由root与actual_tail独立审阅：每步从实际accepted源作完整lift并调用solve_bvp；保原raw网格，只有明确refine才新增径向节点。只有真实BVP通过且实际metric报告超门才升M，其他失败从最后accepted二分λ，失败场永不晋源。RHS每8点、Jac分批与释放已失效LU只减少峰值内存，记录原/运行Newton函数SHA；原阻尼、RMS/BC/physicalBC和完整双角metric门不改，不称逐位同。
+
+执行命令：
+
+```bash
+python scripts/resume_20261126/warm_fixed_m3_continue_v2.py \
+  --repo REPO --work WORK \
+  --source-run WORK/warm-prefix-recovery/lambda002_m24/run.json \
+  --probe-summary WORK/warm-handoff-probe-01/summary.json \
+  --outdir WORK/warm-v2-design
+```
+
+该命令先真实验证同图重表达，只有accepted_input接受后才开始λ>.002设计；任何实际结果另行登记，当前不预认λ前进。

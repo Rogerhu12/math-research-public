@@ -320,3 +320,5 @@
 - 2026-11-26 08:15 UTC｜Astra-held10-06bbeb39-20261126：同runner只读probe实际exit0：冻结旧chart，631点f/fm/colloc/BC/physicalBC/RMS逐位同，core/7点六jet亦同；六参数列FD最大差RHS3.21925e−8/BC1.69708e−10。保存完整小投影与链式审计，可选log域guard仅拒原域外远端试探、未跑BVP。未给暖accepted，推进独立v2真实重表达及λ解。
 
 - 2026-11-26 08:20 UTC｜Astra-held10-06bbeb39-20261126：独立warm v2 provider/model/同图入口审毕并排同runner：修实际pscale合同、冻结原radial chart、原域外exp预拒；首入口不调用solver，重算raw等式/原门及双角fullmetric后才接受重表达，原solver来源分存。当前只是请求，未预认通过；之后λ变化继续真解。
+
+- 2026-11-26 08:29 UTC｜Astra-held10-06bbeb39-20261126：v2入口实际log确认np.bool_写JSON异常，原等式门未拒，尚未metric审计；仅4处bool转换。双重审阅v2后继已排：真实重验后从同631节点作完整lift/原门λ求解，metric单独失败才升M，其余从最后accepted二分；失效LU释放和分批仅资源改动，不晋失败场。

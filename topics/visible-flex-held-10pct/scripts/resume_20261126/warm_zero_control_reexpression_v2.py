@@ -178,10 +178,10 @@ def main():
             same_angular_projection=design.nt==obj.nt,
             initial_projection_bitwise_equal=bool(np.array_equal(old_initial,new_initial)),
             same_basis=bool(np.array_equal(oldflow.B,flow.B)),
-            physical_profile_end_equal=oldflow.end==flow.end,
-            prefix_end_equal=oldflow.prefix_end==flow.prefix_end,
-            same_chart_join=design.chart_join==obj.chart_join,
-            same_chart_reference_prefix=design.chart_reference_prefix==obj.chart_reference_prefix)
+            physical_profile_end_equal=bool(oldflow.end==flow.end),
+            prefix_end_equal=bool(oldflow.prefix_end==flow.prefix_end),
+            same_chart_join=bool(design.chart_join==obj.chart_join),
+            same_chart_reference_prefix=bool(design.chart_reference_prefix==obj.chart_reference_prefix))
         theta=2*np.pi*np.arange(1168)/1168
         before,after=baseline.evaluate(theta),obj._core.evaluate(theta)
         for name in ('F','Ft','Ftt'):

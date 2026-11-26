@@ -1,0 +1,37 @@
+{
+  "status": "actual_log_confirmed_serialization_error",
+  "workflow_run": 45775899674,
+  "command_id": "held10-warm-v2-anchor-20261126-01",
+  "executed_script_sha256": "95565c571df752f205ebaa5951ed5a99cca330f293b3223d8ce65b0f403fdd10",
+  "returncode": 1,
+  "log_sha256": "2d920ed3054199a2b365e0566c0a935a2085ce047866ad983be6c8b4163f3b77",
+  "log_bytes": 6368,
+  "actual_first_failure": "event('literal_raw_equations_verified') -> save -> json.dumps",
+  "actual_exception": "TypeError: Object of type bool is not JSON serializable",
+  "checked_paths": [
+    {
+      "exists": true,
+      "is_directory": false,
+      "is_file": true,
+      "path": "/home/runner/work/_temp/held10-warm/warm-prefix-recovery/lambda002_m24/run.json"
+    },
+    {
+      "exists": true,
+      "is_directory": false,
+      "is_file": true,
+      "path": "/home/runner/work/_temp/held10-warm/warm-handoff-probe-01/summary.json"
+    },
+    {
+      "exists": true,
+      "is_directory": true,
+      "is_file": false,
+      "path": "/home/runner/work/_temp/held10-warm/warm-v2-anchor"
+    }
+  ],
+  "diagnosis": "Four identity comparisons of NumPy floating values retained numpy.bool_; explicitly convert comparisons to builtin bool.",
+  "raw_equation_gate_not_rejected": true,
+  "full_metric_audit_reached": false,
+  "accepted_representation": false,
+  "solver_invoked": false,
+  "scope": "Failure evidence only; no new successful numerical or closed-surface result."
+}
