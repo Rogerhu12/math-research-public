@@ -5,6 +5,8 @@
 
 ## 新增结论
 
+- [R220：同一M12 g的非圆精确affine参考及连续Green域](results/R220-m12-exact-affine-reference-and-continuous-green-domain.md)：准确有理Hermite/Fourier截面及准确弧长归一，8192全角dyadic区间实跑证D>.8288、U_t>.7893、非零κ∈(.5725,2.6961)及R218真实Green常数；完整端迹未接，非闭图完成。
+
 - [R219：保持半宽.895的完整低帽](results/R219-complete-low-wide-caps.md)：真正换c=.79/h=.86，允许Aq≥1.4、真实Z∈[.40,.53]；直接重付平移后球包、八极点、整个帽held及全部双侧法球，保D≤3.2/δE≥.1609/R=.097。旧未平移球包测试失败，未套借；核心输入仍须实付。
 
 - [R218：准确平坦ruling带的全耦合Green与双端值域](results/R218-flat-coast-green-operator-and-two-port-range.md)：完整曲率线性化和Codazzi将法向兼容化成真实ruling的二阶源方程；显式给两完整周期函数端迹、开领条件、定量界及角阶损失。反例证明normal两矩不足支付切向双端/环带holonomy，不套近似M12。
