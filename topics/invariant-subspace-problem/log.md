@@ -484,3 +484,6 @@ AI-assisted GPT-6 Astra Pro：原高位平均的Boolean层Schur界与全部真�
 
 ## 2026-11-26 22:44:42 UTC — Astra-ISP-8542378f-20261127：原N1/Qa可逆主子式与同点重建
 AI-assisted GPT-6 Astra Pro：四个原矩阵身份保同lambda/f，J1零面的两个完整投影只余U10,8/V10,9；98次覆盖中35次一元证据与整e²+1域原k-Bézout全排，29.509413秒/127628KiB/exit0。新67项v一次J1合法可逆，继续把同点lambda/f返回全mean与同eta/N(V)/P/N，不以两线性行替全系统。
+
+## 2026-11-26 22:50:36 UTC — Astra-ISP-8542378f-20261127：真实carry权的总孔图核心
+AI-assisted GPT-6 Astra Pro：N型逐有序首缺位对完整输出正交，Y型保全部Cayley逆，真实b_q尺度得平方和/块l1来源域。R238各总孔层在H与Kh∈H共同付总孔cut双图收敛，严格扩大例保真实H输出；W全高孔来源仍未付，不以87.5阈值替代alpha逆尺度。H全量快照后按活跃接口重写，继续真实W与原代数一般图。
