@@ -230,6 +230,17 @@ def accepted_actual_input(path, *, repo=None):
         raise ValueError('The final original nonlinear response failed or changed its actual residual')
     checkpoint, jets = response['checkpoint'], response['jets']
     parameters, states = checkpoint['parameters'], checkpoint['states']
+    if (record.get('tail_resolution') != {key: cfg[key] for key in
+            ('modes', 'quadrature', 'steps', 'depth', 'shootingParts')}
+            or record.get('actual_tail_RK_refined') is not
+                (cfg['steps'] > load(parent['tail_settings'])['steps'])):
+        raise ValueError('The actual native integration resolution is not the declared refinement')
+    for key, default in (('quadrature', 128), ('steps', 64), ('linearFar', 48),
+                         ('linearSteps', 512), ('projectionFloor', .05)):
+        if parameters.get(key) != cfg.get(key, default):
+            raise ValueError('The accepted original checkpoint discretization differs: '+key)
+    if parameters.get('linearMethod') != 'stable-momentum-cusp-subdivision':
+        raise ValueError('The original finite shooting boundary construction changed')
     raw_nodes, raw_states = checkpoint['rawNode'], checkpoint['rawStates']
     physical_depth = parameters.get('physicalDepth', parameters['depth'])
     if (cfg['modes'] != modes or cfg['spacing'] != 3
@@ -264,6 +275,10 @@ def accepted_actual_input(path, *, repo=None):
     manifest_path = Path(record['native_manifest'])
     check_hash(manifest_path, record['native_manifest_sha256'], 'The original native manifest')
     manifest = load(manifest_path)
+    expected_native = dict(M=modes, spacing=3, quadrature=cfg['quadrature'], steps=cfg['steps'],
+                           projectionFloor=.05, orientation=1, cuspAwareFlow=True)
+    if manifest['fixed_scope'] != expected_native or manifest['execution_provider']['workers'] != 2:
+        raise ValueError('The actual native refinement scope changed')
     for item in [*manifest['owned_sources'], *manifest['native_files'].values()]:
         check_hash(item['path'], item['sha256'], 'An original native source or binary')
     if set(packet['source_sha256']) != TAIL_SOURCES:

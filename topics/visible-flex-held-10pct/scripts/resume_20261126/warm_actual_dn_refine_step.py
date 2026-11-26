@@ -143,6 +143,12 @@ def main():
                 obj.q != source['gauge_q'] or not np.array_equal(obj.bcweights, np.full(obj.M, .02))):
             raise ValueError('The warm model did not preserve fixed metric, gauge or BC normalization')
         base_cfg, cfg = load(args.base_tail_config), load(args.tail_config)
+        source_cfg = load(source['tail_settings'])
+        record['tail_resolution'] = {key: cfg[key] for key in
+                                     ('modes', 'quadrature', 'steps', 'depth', 'shootingParts')}
+        record['actual_tail_RK_refined'] = bool(cfg['steps'] > source_cfg['steps'])
+        record['tail_integration_scope'] = ('Original native RK discretization; the literal scalar/variational '
+            'grid-equality guard is still required at the new steps. No integration-error or limit bound is inferred.')
         projected_cfg = {k: v for k, v in cfg.items()
                          if k not in ('traceFile', 'chordMaxCorrections', 'initialCheckpoint')}
         if projected_cfg != base_cfg or cfg.get('chordMaxCorrections') != 3:

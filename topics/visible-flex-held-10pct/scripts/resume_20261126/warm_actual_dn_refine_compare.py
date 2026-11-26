@@ -202,6 +202,7 @@ def main():
         height_quadrature_error_certified=False, rows=results, phase_difference_bounds=phase,
         actual_full_height_packet_sha256=[record['tail_seam']['tail_packet_sha256'] for record in records],
         actual_tail_residuals=[record['result']['tail_residual'] for record in records],
+        actual_tail_RK_steps=[load(record['tail_settings'])['steps'] for record in records],
         full_tail_field_C2_comparison_paid=False,
         continuous_C2_bound_certified=False, C2_convergence_proven=False,
         infinite_tail_limit_proven=False, full_closed_surface=False,

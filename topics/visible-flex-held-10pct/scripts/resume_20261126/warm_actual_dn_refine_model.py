@@ -125,12 +125,14 @@ def validate_refinement_definition(repo, record, parent):
         raise ValueError('The actual input physical identity changed')
     original = json.loads(Path(parent['tail_settings']).read_text())
     target = json.loads(Path(record['tail_settings']).read_text())
-    skip = set(RUNTIME_CONFIG_KEYS) | {'modes', 'quadrature'}
+    skip = set(RUNTIME_CONFIG_KEYS) | {'modes', 'quadrature', 'steps'}
     if ({k: v for k, v in original.items() if k not in skip} !=
             {k: v for k, v in target.items() if k not in skip}):
-        raise ValueError('The original finite-depth/shooting problem changed')
+        raise ValueError('The original physical geometry, finite depth or shooting subdivision changed')
     if (target['modes'] != record['modes'] or target['quadrature'] < original['quadrature']
             or target['quadrature'] <= 4*3*record['modes']
+            or not isinstance(target['steps'], int) or target['steps'] < original['steps']
+            or target['steps'] % original['steps'] != 0
             or target.get('initialCheckpoint') != parent['result']['full_height_record']):
         raise ValueError('The new native resolution or actual complete-state initializer changed')
     base = {k: v for k, v in target.items() if k not in RUNTIME_CONFIG_KEYS}
