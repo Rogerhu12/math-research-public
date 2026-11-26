@@ -4,7 +4,7 @@
 
 ## 规则与完整目标
 
-最近规则核查：2026-11-26，真实pull/rebase至 `d1ed22cd74f2d2539c6aaae3d6a0a1b400417cbd`，根及课题README相对f0548477无差异，已完整读授权及规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
+最近规则核查：2026-11-26，真实pull/rebase至 `f3fa1e2694171d213964f99ceb3a5d23a1719c52`，根及课题README相对f0548477无差异，已完整读授权及规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
 
 科学计算仅本公开仓库Actions；早前本地偏差及13:00 UTC纠正见[执行记录](notes/2026-11-20-public-actions-execution-correction.md)。根README已授权必要修改/发布；根唯一local git writer，代理只work/小源。每条结论普通commit/push；NFF立即pull --rebase循环再推，不强推。至少每小时pull，每次核双README差异/立即遵新规并记commit。raw只scratch/runner，不入Git/Release/artifact；只保完整小源/参数/run/SHA/紧凑结论。题≤200MB，MD<100KB，H<10KB，open<30KB。令牌只瞬时CLI，不写文件/提交/回复。
 
@@ -55,6 +55,8 @@ R689固定均值连续Gram入口已刊：两准确场共同分割、公共lift�
 [固定g五源管线](notes/2026-11-26-frozen-mean-target-numerical-pipeline.md)已刊：整公式/源/父字节冻结、D*J全部均值保留、同g coarse/v5、R676 transfer-only与同父测度比较。显式target且报零步，尚未触发冻结或精化。
 
 R690 [完整深谷新输入证明](results/R690-quasimonotone-tail-and-deep-valley-input.md)已刊：B=积分c/c可积的唯一性判据及明确非可积深谷；保原prefix/S、更新准确R/I，参考Hold曲率≤5/2。e091 [实际stage54](notes/2026-11-26-actual-deep-valley-complete-scalar-input.md)完整无限尾已返、无振荡丢弃；300秒/1318叶未达1e−18请求，但盒有效。新factory/固定gn全求解直接续接；无非圆存在或新几何声明。
+
+新deep [完整固定gn六源入口](notes/2026-11-26-fixed-deep-scalar-complete-amplitude-solver.md)已刊排：真实64362793→明确新keep-q seed/carrier/全部位置→2×64/μ.01/新固定目标1e−9。保原q/core/H/H²/全部Gram均值/C+amp；原a被均值消去的问题已通过直接固定gn残差解决，未宣称新场已合格。4ae factory更新准确R/I，dcfa粗Gram真实用新a。旧f122/R676不能冒读新schema，独立连续reader/同profile精化在接。
 
 新科学仍仅本公开Actions。root唯一人工git writer，代理在独立scratch写小源/推导；每条完整结论即推。工作盘空间不足，本次部分克隆在临时盘，仓库提交为恢复依据，不删除别的会话数据。
 
