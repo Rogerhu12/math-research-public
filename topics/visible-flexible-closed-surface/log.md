@@ -196,3 +196,5 @@
 - 2026-11-26 12:51 UTC｜Astra-visible-flex-6a65e705-20261126：[source003真实匹配发包](notes/2026-11-26-6a65-source003-actual-Cauchy12-matched-activation.md)原长run第12态357097cc…d9d224与最终observer5e66d0be…44f4f7已实际返回；209969点metric.2639876841/κ27.02188092不合格。只此时绑定新sourcec0661016，原完整Cauchy1尝试后独立v2 Cartesian；不热改、未冒新执行，继续核实际消费。
 
 - 2026-11-26 13:02 UTC｜Astra-visible-flex-6a65e705-20261126：[cached实际浅历史失败](notes/2026-11-26-6a65-solver-cached-job-shallow-history-failure.md)run45823011528首pull错误重放已公开trigger，数值阶段尚未开始；拒绝跨题冲突覆盖。局部Git回放真实复现exit1，补全祖先后仅重放自有scalar并普通push真0/0.378s；rev4只修历史检查新触发，科学v4/原source003不热改。
+
+- 2026-11-26 13:08 UTC｜Astra-visible-flex-6a65e705-20261126：[新gap全周期前三步](notes/2026-11-26-6a65-geometry-gap-window-first-three-complete-cartesian-steps.md)保完整已证prefix/旧tail与自然g，2400列全13行、缓存688.113s自然0，三次真α1接受68.666s/exit0；R²11887.44→1590.99、metric积分509.56→14.74。末metric/held回退、κ45472.56完整保留，192角非嵌套不能代最坏值；不冒目标完成，继续实际求解。
