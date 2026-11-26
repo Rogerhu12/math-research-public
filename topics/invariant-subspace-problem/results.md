@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R12 闭稳定根的通常伴随域包含迫有界（2026-11-27，已证明）：** [闭图范数、全有限幂递推及实际闭部分](results/R12-appendix-stable-root-adjoint-domain-inclusion-and-actual-parts.md)在DomT对T稳定、DomT⊂DomT*、T^q有界时给明确||T||界及DomT=H；不需有界自交换子，a=0/零中间范数均处理。原尾q∤pk根不能有该包含，C自伴时D/CD不可比较；真正闭部分继承环境伴随域。已付R161/R212/R236实现可用，未知诱导根的闭部分识别仍须证明，不把全尾整除传未知子商。
+
 - **R271 同W的首位真实域及正定Schur来源费用（2026-11-27，已证明接口）：** [整个偶块、原N/Y正则化列和低谱能量](results/R271-appendix-same-w-first-block-domain-and-positive-schur-source-energy.md)证明规范T*h=w的Sh∈H恰h偶块在H；同u的g0=H*(I+H*H)u有准确费用Γ=sup|〈Ju,JHz〉|²/||Kz||²。正定Q_H和完整Y逆给T*yε−Sw=α0(rε,0)，总物理范数与||u||²+||vε||²双侧比较；Γ有限恰实际RanK*与Sh∈H，W只付闭包像。未付Γ上界和后续1/16逆权，未由此宣N=M。
 
 - **R150 L0 原八行低rho矩阵给C_(39,53)必要曲线（2026-11-27，已证明）：** [八列原cofactor身份及已付因子剥除](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-L0-eight-by-eight-original-parameter-curve.md)保同rho/t的E1/N1前三个移位与EBo/EBe；cofactor*M=(0,…,0,D)全部乘回，D86,127剥原单位后C1843项/SHA6057a487。源26c70e8e实际15.766025秒/91772KiB/exit0；首个非精确中间商实现失败单列冻结。新曲线须连同X/Y和全原P/N返回，不宣一般L0空。

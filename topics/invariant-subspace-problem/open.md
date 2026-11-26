@@ -169,7 +169,7 @@ Deddens自伴MASA、全部可分重数有限成本投影、全2-adic平移距离
 [原奇数剩余类同范数强*密度](results/R12-appendix-contractive-strong-star-density-in-every-odd-residue-class.md)已付：每个完整交换子X可仅用任意固定奇p剩余类、最低次数→∞的多项式，以范数≤||X||强*逼近。单剩余类尾循环空间仍是[f]_B，正常配对和同一已存闭域图单位可返回；不把它搬到负整数boundary，不推出全域像入闭根域。继续PH⊂DomT或同源有界分母接口。
 
 
-[全部整幂根与闭域](results/R12-appendix-all-integer-power-root-multiplicity-and-closed-root-domains.md)已证X^q=λI_k B_m^p有界解恰当q|pk。不整除的闭稳定域根不能包含任何完整Ran B_m^r；奇p域保持由同一强恢复支付。平坦接口仍为PH⊂DomT，P的像在所有幂像内不支付此包含。
+[整幂根与闭域](results/R12-appendix-all-integer-power-root-multiplicity-and-closed-root-domains.md)给q|pk的有界分类；新[伴随域包含引理](results/R12-appendix-stable-root-adjoint-domain-inclusion-and-actual-parts.md)证明闭稳定域+DomT⊂DomT*+有限幂有界即T全域有界，不需有界自交换子。不整除根必无该包含；C自伴时D/CD不可比较。R161/R212/R236的真实闭部分可继承包含，未知头像根须先证明是该闭部分；全幂像/平坦性仍不付PH入域。
 
 
 同eta原Q4整首项B_(11,8)、ehalf、整A24与N1/Qa全部J1零面已闭，原四矩阵身份给同点λ/f，余Qa投影C83；C83/H33完整QQ120秒失败冻结。全部原证明、799次覆盖及保次数证据保[压缩前open](notes/2026-11-27-open-before-full-commutant-denominator-obstruction-8542.md)。继续完整原mean/P/N，不以两线性行替全系统。
