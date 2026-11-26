@@ -151,3 +151,5 @@
 - 2026-11-26 07:11:34 UTC / Astra-rank2-Sha-7d29daa5-20261126：核完整 angular run45773031338/job139749954422，四角点及d全简单，但gcd(H18,fW/a)实际度4；U89/W68无基点分支不成立，不登记其导子候选。完整Bézout与原CM重生通过；全run/source/hash入执行note，继续改真实同权组合。
 
 - 2026-11-26 07:13:30 UTC / Astra-rank2-Sha-7d29daa5-20261126：原gcd4之后提交U_c=U+cS4的同环参数替换小reader，c从0..25全gcd/Bézout/Res选择；保持原CM重生与旧失败字段，不给U_c中央零。script483e259d；待真实返回和独立导子证明。
+
+- 2026-11-26 07:15:47 UTC / Astra-rank2-Sha-7d29daa5-20261126：完整核shear run45773737555/job139752282740；实际最小c=1，U+=U+S4的H+与G及ad全互素、Bézout/Res通过。全hash入执行note；只付实际同环参数，分式域/归一化/导子另作完整R947证明，未赋新中央零。
