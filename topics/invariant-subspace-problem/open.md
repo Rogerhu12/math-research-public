@@ -92,6 +92,8 @@ $$
 
 **[大辅助方差真实F0已取得完整逼近](results/R271-appendix-large-auxiliary-variance-true-kernel-galerkin-approximation.md)：** 对原未加权压缩inverse，低新孔≤L列真实属于全部F_t和F0，r≥2d+L给能量误差≤(16/15)32^(−L−1)。L=d、r=3d+1、R=576(m+1)²d²、Q=R+r严格满足原窗和零头改基；s=K/y给无权ξ≤e^(−2d)及真压缩源强趋P_M。原物理列加准确i0ξ后保同V/K/u/partial。剩余为Sx的绝对孔权，或把此同源列送回真正物理核/纯高度代表的全部MP和真帽费用；辅助到物理逆缩放不能由无权小残量代付。
 
+**[大辅助零列不能冻结返回](results/R271-appendix-large-variance-fixed-zero-column-return-lower-bound.md)：** 原指定f1给准确〈Ca_s,e0〉=s(1−q_s)及‖Ca_s‖≥s/(s+49)。保a_s为零远孔系数的任何真物理核列必须付s/[(s+49)√Sx]，原合法R=d/r3窗增长如√x；同F的a_s与a_Sx也至少差2²⁴/(700x)。保级双塔的未投影差有相同首行障碍，但最终正交投影可消去它；可改变零列的全物理MP并未被排除。真正下一接口必须保同forcing并重新最小化全部列。
+
 ### 2.2 仍需接合的原返回接口
 
 - 旧 $\tau14$ 下全高度同w Bessel/能量、一次物理MP及共同log方差均已付；后继 $CD^\dagger$、核外第二逆和真正完整最小源仍开。一次界不自动反复适用，真核终式不保初始阻尼。

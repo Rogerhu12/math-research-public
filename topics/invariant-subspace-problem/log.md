@@ -88,3 +88,6 @@ AI-assisted GPT-6 Astra Pro：[原Cramer两面完整消元](results/R150-appendi
 
 ## 2026-11-26 07:16:28 UTC — Astra-ISP-347c-20261126：两个秩二支撑至少一二jet时的完整维数界
 AI-assisted GPT-6 Astra Pro：[全原梯度与局部根阶手证](results/R150-appendix-rank-two-second-and-third-cumulants-with-a-tangent-support-have-essential-dimension-at-most-four.md)排除三类型的ess5，含所有∞及Gaussian例外；纯证明逐式审完，无新计算。双约化和ess4明确仍开，立即继续。
+
+## 2026-11-26 07:27:42 UTC — Astra-ISP-347c-20261126：原大方差零列冻结返回的实际下界
+AI-assisted GPT-6 Astra Pro：[原f1正规式和真实物理首行](results/R271-appendix-large-variance-fixed-zero-column-return-lower-bound.md)在原允许窗证明√x增长费及同F方差差；§5明确限保级canonical双塔，不误扩到投影后误差或可改列MP。完整手证已核，继续真正Schur重新最小化。

@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R271 原最低源冻结大辅助方差零列的真实物理返回必付增长费用（2026-11-26，已证明）：** [原正规方程与真实远尾首行](results/R271-appendix-large-variance-fixed-zero-column-return-lower-bound.md)给〈Ca_s,e0〉=s(1−q_s)、1−q_s≥1/(s+49)，所有真核若z0=a_s则‖z‖≥s/[(s+49)√Sx]。原合法m≥24/R=d/r3/Q4d窗中为≥√3·2²⁴√x/50，同F下a_s与a_Sx差至少2²⁴/(700x)。保级canonical双塔未投影差亦有首行下界；不扩至混级返回、可改零列的全MP或最终正交误差。
+
 - **R150 秩二H与秩二V至少一方为真正二jet时不产生本质五维临界点（2026-11-26，已证明）：** [原完整低梯度、限制Gram秩与局部根阶](results/R150-appendix-rank-two-second-and-third-cumulants-with-a-tangent-support-have-essential-dimension-at-most-four.md)覆盖H约化/V切向、H切向/V约化、双切向三种类型，全部值系数零点、原Gaussian例外及∞保真；反设ess5皆矛盾，故ess≤4。纯手证引用已付原接触表/无等向2+1，不重跑计算；双约化余支和ess4仍开放。
 
 - **R150 单位2+1+1相反配对的两个奇异mean图整个排除（2026-11-26，已证明）：** [原线性mean行列式−2D1D2的全部零纤维](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-opposite-base-pairings-singular-mean-charts-exclusion.md)保原M/S/c0；D1面QQ75/115结式只余l1，两原式均矛盾，D2面QQ54/89只余v²+1与两w纤维，原M非零。两原源2.553077/4.203470秒、exit0，所有新分母已付；余真正D1D2非零图。
