@@ -1,0 +1,39 @@
+{
+  "synthetic_only": true,
+  "BVP_invoked": false,
+  "accepted_BVP_field": false,
+  "literal_zero_core_identity": {
+    "F": true,
+    "Ft": true,
+    "Ftt": true
+  },
+  "actual_phase_scale_max_error": 3.0357660829594124e-17,
+  "common_prefix_frequencies_bitwise_equal": true,
+  "lambda_one_nonzero_controls_protected_curvature_error": 5.551115123125783e-17,
+  "lambda_one_nonzero_controls_reflection_roundoff": 6.46455545344482e-18,
+  "derivative_checks": [
+    {
+      "column": 0,
+      "max_absolute_two_jet_error": 1.139913441416951e-10
+    },
+    {
+      "column": 7,
+      "max_absolute_two_jet_error": 1.3155498912453822e-10
+    },
+    {
+      "column": 8,
+      "max_absolute_two_jet_error": 1.1512180098094404e-10
+    },
+    {
+      "column": 23,
+      "max_absolute_two_jet_error": 1.3414647170861826e-10
+    }
+  ],
+  "source_sha256": {
+    "/tmp/held10-astra-06bbeb395471-fixed-rebuild/check_warm_v3_contract.py": "ff7f478cded577e97648a14fd33516e100c1999e5e3c845495d77bb95be80725",
+    "/tmp/held10-astra-06bbeb395471-public2/topics/visible-flex-held-10pct/scripts/resume_transfer/material_flattened_support_core.py": "1d655f2bdad53e1d320c1115a9873abe399a9b7ba930722c415d02dedb9b1f20",
+    "/tmp/held10-astra-06bbeb395471-fixed-rebuild/test_source/fixed_metric_mode3_core.py": "fa8576bb1d592ee0e0152082b9ee722a1f1a86738f21a906bb0f3ac88e38707c",
+    "/tmp/held10-astra-06bbeb395471-fixed-rebuild/warm_complement_core_factory_v3.py": "84380c0786e04ec87e5b6b17f766d88ce4626fab65ee8460badd99dcd42951f7",
+    "/tmp/held10-astra-06bbeb395471-fixed-rebuild/warm_supported_core_factory.py": "9192499334d9f8603c812cd95964cc660a065132a82ce240fe2331f64c9b14dc"
+  }
+}

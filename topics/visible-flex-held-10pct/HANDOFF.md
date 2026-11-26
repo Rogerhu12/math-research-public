@@ -6,7 +6,7 @@
 
 连通闭C²嵌入、C²连续族；H闭、有内点且diamH≥.2D，整像δhold≥.1D、含反射δE>0，全时reach≥.03D。固定完整g/物理数据/时间范围加密到完整metric≤1e−6并持续下降。必须实际闭合和共用Cartesian两jet；λ<1不提供准确圆弧H。
 
-- 公共已完整读规则并真实pull：`4028a90918db87d5d592395449a71cd5af2c826a`；私有根README/QUEUE接手登记已推 `2f68946f2fa3e192a291c7c1393231af1a89953e`。每次pull核双README差异，至少每小时一次。root独占git，逐结论push，NFF立即pull --rebase再推，禁force；令牌只命令行。
+- 公共已完整读规则并真实pull：`ad62ffb94136a79af87f04571f7e942495453510`；私有根README/QUEUE接手登记已推 `2f68946f2fa3e192a291c7c1393231af1a89953e`。每次pull核双README差异，至少每小时一次。root独占git，逐结论push，NFF立即pull --rebase再推，禁force；令牌只命令行。
 - 工作树 `/tmp/held10-astra-06bbeb395471-public2`；原/workspace盘满，不删他人文件。旧1b6d88ec scratch不存在；54314/45287/79634最终状态仍未知。详细[本次接手/来源](notes/2026-11-26-resume-and-current-sources.md)。
 - 70份源及实际chart69a3e8eb...已冻结，保物理输入/原门；[恢复入口](notes/2026-11-26-tail-source-recovery.md)，不当新数学结果。
 - 公共[material run45763361623](https://github.com/Rogerhu12/math-research-public/actions/runs/45763361623)：M24 cold已真实δ中心差分越域，无raw；三路parent原门拒源exit2。现M16/512 cold已218→652→1954→5860节点且RMS仍大，未终态，原observer/分块8全门保留。下一命令是[λ.004历史完整H独立尾](notes/2026-11-26-recorded-lambda004-tail-input.md)，不取消当前任务；δ域内差分入口仅准备。
@@ -18,7 +18,7 @@
 
 **R63已证明**：[固定g与未知核心](results/R63-fixed-metric-and-solution-core-variables.md)。g=ds²+aδ²dθ²不含单位速入口q/c；指定有限入口是更强BVP。固定完整物理输入P后可在同一加权ℓ¹₄空间求未知核心，须实际非零支、核与全场C² Cauchy及残差下降。旧δ漂移design不改身份，λ1及10%仍欠。
 
-**R65已证明**：[端点核/暖补弧族](results/R65-r53-endpoint-kernel-and-warm-supported-core.md)。无限维局部核与有限解析切向单射并存，不凭此报有限Jac秩亏；暖族d0保完整锚点。**R68已证明**：[补弧坐标控制](results/R68-complement-interval-phase-controls.md)：旧Wsin全周期族存在指数近核，新补弧谱族有显式M⁻⁶曲率L²下界；M24新basis sampled cond87.52，仅表示诊断。独立v3从实际零锚开发中，不改在跑v2，不称BVP逆界或已解。
+**R65已证明**：[端点核/暖补弧族](results/R65-r53-endpoint-kernel-and-warm-supported-core.md)。无限维局部核与有限解析切向单射并存，不凭此报有限Jac秩亏；暖族d0保完整锚点。**R68已证明**：[补弧坐标控制](results/R68-complement-interval-phase-controls.md)：旧Wsin全周期族存在指数近核，新补弧谱族有显式M⁻⁶曲率L²下界；M24新basis sampled cond87.52，仅表示诊断。[独立v3](notes/2026-11-26-warm-v3-complement-entry.md)已双审/排同runner下一项，从实际零锚真验后实求，不改在跑v2，不称BVP逆界或已解。
 
 **R67已证明**：[全谐波固定帽](results/R67-universal-threefold-marker-and-euclidean-noncongruence.md)去掉未知核心m3非零假设：非圆凸核总有某3j矩非零，帽全阶标记及两短柱选择给整段全E(3)非全等。明确帽成本保条件10%/reach余量，仍欠实际λ1图与原门。
 

@@ -1,22 +1,20 @@
 {
-  "id": "held10-warm-v2-design-20261126-01",
-  "read_rules_commit": "aa97ac3f876b692ce8ec96d1774a46f50595fa39",
-  "script": "topics/visible-flex-held-10pct/scripts/resume_20261126/warm_fixed_m3_continue_v2.py",
+  "id": "held10-warm-v3-complement-20261126-01",
+  "read_rules_commit": "4028a90918db87d5d592395449a71cd5af2c826a",
+  "script": "topics/visible-flex-held-10pct/scripts/resume_20261126/warm_fixed_m3_continue_v3.py",
   "args": [
     "--repo",
     "@REPO@",
     "--work",
     "@WORK@",
     "--source-run",
-    "@WORK@/warm-prefix-recovery/lambda002_m24/run.json",
-    "--probe-summary",
-    "@WORK@/warm-handoff-probe-01/summary.json",
+    "@WORK@/warm-v2-design/reexpressed-anchor/run.json",
     "--outdir",
-    "@WORK@/warm-v2-design"
+    "@WORK@/warm-v3-design"
   ],
   "diagnostics": [
     {
-      "path": "@WORK@/warm-v2-design/summary.json",
+      "path": "@WORK@/warm-v3-design/summary.json",
       "keys": [
         "status",
         "stages",
@@ -26,38 +24,29 @@
       ]
     },
     {
-      "path": "@WORK@/warm-v2-design/reexpressed-anchor/summary.json",
+      "path": "@WORK@/warm-v3-design/reexpressed-anchor/summary.json",
       "keys": [
         "status",
+        "result",
         "error"
       ]
     },
     {
-      "path": "@WORK@/warm-v2-design/attempt-000/summary.json",
+      "path": "@WORK@/warm-v3-design/attempt-000/summary.json",
       "keys": [
         "status",
         "progress",
+        "result",
         "error"
       ]
     },
     {
-      "path": "@WORK@/warm-v2-design/reexpressed-anchor/run.json",
+      "path": "@WORK@/warm-v2-design/summary.json",
       "keys": [
-        "physical_sha256"
-      ]
-    },
-    {
-      "path": "@WORK@/warm-v2-design/attempt-000/run.json",
-      "keys": [
-        "raw_return",
-        "domain_newton_stats"
-      ]
-    },
-    {
-      "path": "@WORK@/warm-v2-design/attempt-001/run.json",
-      "keys": [
-        "raw_return",
-        "domain_newton_stats"
+        "status",
+        "stages",
+        "result",
+        "error"
       ]
     }
   ]
