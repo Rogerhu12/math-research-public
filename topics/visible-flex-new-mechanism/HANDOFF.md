@@ -6,7 +6,7 @@
 
 ## 1. 规则与接手
 
-已部分克隆并实际 `git pull main`，公开根 README、课题 README、HANDOFF、open、results 索引及相关 log/notes 已读。公开已读提交 **c30ed1147bbce74fe728b1cfc9d5470504b89f91**（2026-11-26 10:57 UTC；本次实际pull后根/题README空差异）；历次规则及失败原回执保原note；私有 QUEUE 的本题已改为本会话进行中并成功推送：**9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7**；最后实际pull及规则同blob读至 **c5fd979bd7793b3516aaa9f142855772720cb9b1**（2026-11-26 10:23 UTC核；本小时实际pull成功，根README空差异、QUEUE仍本会话）。其它课题的并行认领保留。
+已部分克隆并实际 `git pull main`，公开根 README、课题 README、HANDOFF、open、results 索引及相关 log/notes 已读。公开已读提交 **0e7c0e4506e8b3deb5308cb1d2cc558101d1343b**（2026-11-26 11:02 UTC；本次实际pull后根/题README空差异）；历次规则及失败原回执保原note；私有 QUEUE 的本题已改为本会话进行中并成功推送：**9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7**；最后实际pull及规则同blob读至 **c5fd979bd7793b3516aaa9f142855772720cb9b1**（2026-11-26 10:23 UTC核；本小时实际pull成功，根README空差异、QUEUE仍本会话）。其它课题的并行认领保留。
 
 [前历交接](notes/HANDOFF-before-resonant-height-20261126.md)及原note保全部规则/成本/限定。09:18 UTC本地失联后用接口继续保存，API不冒actualpull；09:33恢复partial副本并实际双pull，完整身份见本日日志。
 
@@ -24,9 +24,9 @@
 
 [圆核原终态](notes/2026-11-26-circular-entry-and-small-core-continuation-receipt.md)2401.892431903新秒，最后合格仍p=.18圆；四个非圆未过stage1e−4，stage4真正156×384。[R580](results/R580-finite-tail-polynomial-kernel-obstruction-and-resonant-seed-interface.md)排当前末片有限多项式的真实核/C1入口，只限该表示。[R582](results/R582-actual-circular-tail-flat-kernel-and-resonant-entry.md)现已为实际17q背景证明真实一维全平j2尾核，保同160起始cell/DtN界；[三份实际尾种子原收据](notes/2026-11-26-r582-paid-seed-json-failure-receipt.md)run45800483161全部到s=.82，M168/169/8细化的29内cell、480外段已付，child墙钟114.013392秒；在比较JSON的numpy.bool输出失败，未开始中段。[已付口直接续算](notes/2026-11-26-r582-paid-mouth-resume-implementation.md)已提交，复用三份六jets续两控制/undivided返回，不重传ODE；完整共振/有限分支仍欠。
 
-[R577](results/R577-intrinsic-geodesic-normal-chord-and-complete-reach-certificate.md)已付新的连续认证接口：全表面实际|κ|≤K、内蕴d≤π/(2K)的近对保持法弦半径1/K；材料路径只供d上界。全远对严格分离/法弦另付后才得嵌入/reach，当前有限FFT曲率不可冒连续K。
+[R577](results/R577-intrinsic-geodesic-normal-chord-and-complete-reach-certificate.md)的连续reach接口须付全表面实际曲率、近对真实内蕴距离及远对法弦/分离；有限FFT和材料路径上界不能替代。
 
-[R579](results/R579-smooth-thick-rounded-core-with-exact-perimeter-and-macro-budget.md)给真实C∞凸核心：两正交薄椭圆加圆盘，周长恰2π·.85、支撑A1/B.37，完整柱面reach>.075，|z|≤.04核心在球1.05内。若完整连接同付球/条带/τ.063，原三比例准确成立；完整连接与跨片仍未付。
+[R579](results/R579-smooth-thick-rounded-core-with-exact-perimeter-and-macro-budget.md)厚核心保A1/B.37/R.85、曲率半径>.075；完整球1.05/条带.37/τ.063等条件方付原三比例，当前连接/跨片未付。
 
 ## 4. 真实平坦核到有限非线性
 
@@ -45,6 +45,8 @@
 [此前完整记录](notes/HANDOFF-before-full-history-potential-20261126.md)保v2失败、R581稳定C2原run及全部科学成本。[R581](results/R581-exact-c2-local-ruling-with-full-history-chain.md)付真实局部R的C2积分；[R584](results/R584-centered-third-history-and-nineteen-state-full-ruling-bvp.md)付可逆中心第三坐标、19态+3参数/22BC；[R586](results/R586-sixfold-full-history-coefficient-projection-and-finite-integrals.md)付完整六元系数投影、真二尾及C3有限预收。[完整十九态首跑](notes/2026-11-26-r584-r586-full-nineteen-first-public-receipt-agent.md)run45801587742付45.742568秒child/44.527690649秒main，完整σ′达1e12–1e14；四例各49 RHS/1201累计点评价，第一次Newton试探越声明范围，无根/缺陷/pose。下一精确状态势改写；不重跑原四猜，也不删真实大项。
 
 [R589](results/R589-autonomous-full-feedback-and-even-end-germs.md)付完整自主反射：真实A端零且γ=υ=0使全scalar/完整T偶germs成立，固定原规范/全部incoming不改。自由H/L的19态+4常数与13中心+10末端准确匹配；根、pose及第四仍欠。
+
+[R590](results/R590-full-history-square-potential-and-c2-update.md)付完整第三最高T²为状态势E全导数，余更新准确降C2且真J不重置；ρ/νhat/共同Ec可逆。ruling必须回付非负平方I[D²T²Q(H_A+2F0)²/(64h)]、完整负侧与末E±，不因大项删除，下一真实新BVP保全。
 
 [R578](results/R578-sixfold-six-node-positive-complete-profile-library.md)固定新36完整块、六元/六正节点共0…10矩、2e−6微半宽与真collar；保完整history及Ch<0/Ck>0，不继承旧母χ/轨道。端根与全空间仍须实际付。
 

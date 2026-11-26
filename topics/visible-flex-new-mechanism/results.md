@@ -316,3 +316,5 @@
 - [完整十九态首轮公开终态收据](notes/2026-11-26-r584-r586-full-nineteen-first-public-receipt-agent.md)：**完整原观察**。run45801587742付45.742568秒child/44.527690649秒main，343积分/4083几何单项式与完整16行96/192读出；四BVP首次Newton试探均越声明范围，无任何根/末值/pose。真实大历史项保留，转原式最高势而不原样重跑。
 
 - [R589 完整自主双反馈与真实偶端germs](results/R589-autonomous-full-feedback-and-even-end-germs.md)：**已证明**保原r/σ/ν和全部incoming的自主反射，A端零加两末速度零给真实局部唯一性下全scalar/完整T偶germs。自由H/L的19态+4常数/23BC准确；未授实际根、pose或第四返回。
+
+- [R590 完整第三最高平方势及C²更新](results/R590-full-history-square-potential-and-c2-update.md)：**已证明**保完整chain的最高T²系数恰为当前状态势全导数，余项经真实D0降C²；共同中心ρ/νhat可逆。ruling非负平方、负侧和末E±全回付，通常真实高尺度不消失；未授新根或温和性。
