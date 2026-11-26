@@ -384,3 +384,5 @@
 - [R601 Prepared中心的真jet与固定规范加速度](results/R601-prepared-center-true-jet-and-fixed-gauge-acceleration.md)：**已证明**由完整八M逐项得V_s=(a−H)Q_c(p−yr)/(4H³)，s0的v²与真权导数准确回付。两原ruling强制b=0，同一固定ζ0=2H(R0+ChH)给a=H；V1/V2延至O(s²)，最高能量从ε^-2 s²延至ε^-2 s⁴，正势及其权导数不消，y4二阶仍−Hv/4。明定10参数guide保h″(0)=H，从已付11参数新映射；不授全程prepared、根或宏观预算。
 
 - [R602 核心全角非线性条件的显式消元](results/R602-exact-nonlinear-core-trace-elimination.md)：**已证明**同一真实turning根下，零均值P1使core D全角为零，当且仅当P1=[c(eR+2P0)P0θθ−P0θ²+(2c+1)〈P0θ²〉]/R；真实e′R亦准确确定。给完整参数导数与δα+2全平cutoff从属修正，保P0/内尾/既有C²匹配；P0≤16时新core-supported频率≤32，无需借高模内口。修正后的主体/固定g仍另付，不消原r≈.332的m18峰。
+
+- [R594八模已付末态续60步的原终态](notes/2026-11-26-r594-paid-weak-resume-natural-final.md)：run45832877990实付464.449434512秒、60接受/60拒绝，仍ε1e−5且merit仅改善约7.45e−13，最后496q/iteration120完整。新域内真实位置两η约3.02628e−7/3.02612e−7，首点旧污染消失但2e−9门未过；主体m18=1.14314e−5、m20/m22及coreD仍在。0旧inner/射击/方向门，必要dense成本全列；后继真18/20/22+R602，而非续同空间。

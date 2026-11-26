@@ -6,7 +6,7 @@
 
 ## 1. 规则与接手
 
-已部分克隆并实际 `git pull main`，公开根 README、课题 README、HANDOFF、open、results 索引及相关 log/notes 已读。公开已读提交 **d9c2d7f45beafd072d550fd21be0e2c58f9f35a3**（2026-11-26 14:30 UTC；本次实际pull后根/题README空差异）；历次规则及失败原回执保原note；私有 QUEUE 的本题已改为本会话进行中并成功推送：**9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7**；最后实际pull及规则同blob读至 **8ca13fb0c8ff91c987dd23b69d783591a6bac84f**（2026-11-26 14:30 UTC；实际pull成功，根README空差异、QUEUE仍本会话）。其它课题的并行认领保留。
+已部分克隆并实际 `git pull main`，公开根 README、课题 README、HANDOFF、open、results 索引及相关 log/notes 已读。公开已读提交 **a97a4e50d63af5f66ead5305974e76c4ec5e4c22**（2026-11-26 14:30 UTC；本次实际pull后根/题README空差异）；历次规则及失败原回执保原note；私有 QUEUE 的本题已改为本会话进行中并成功推送：**9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7**；最后实际pull及规则同blob读至 **8ca13fb0c8ff91c987dd23b69d783591a6bac84f**（2026-11-26 14:30 UTC；实际pull成功，根README空差异、QUEUE仍本会话）。其它课题的并行认领保留。
 
 [八模前交接](notes/HANDOFF-before-eight-mode-natural-final-20261126.md)及其所链前史保全部原规则/成本/范围；09:18、11:20 UTC失联/恢复原账保留；13:54第三次失联后未发布源码仅作不可变checkpoint。root指定临时branch的CLI发布器实际clone/pull/rebase/push，双库规则读账按真实运行更新，API读取不冒pull。每pull核根/题README差异并执行，至少每小时；root独占git/索引，每条结论即推，NFF立即rebase重推。科学仅公开Actions，本地限纸证/源码/原日志解析；已披露3次开发偏离保原note且停止。根12不加机械复跑，根15不留可重算raw。
 
@@ -36,7 +36,7 @@ B030前三次关停保[原收据](notes/2026-11-26-theta-generic-start-only-shut
 
 [R602](results/R602-exact-nonlinear-core-trace-elimination.md)新证P1*=[c(eR+2P0)P0θθ−P0θ²+(2c+1)〈P0θ²〉]/R及真实e′R=−2(2c+1)〈P0θ²〉/R；δα+2全平cutoff从属修正准确清全角coreD并保P0/既有C²门，完整参数链已付。P0≤16只引core-supported≤32，不治r≈.332主体m18。
 
-[八模自然终态](notes/2026-11-26-r594-eight-mode-weak-natural-final.md)run45822196061付452.79767207秒/60接受65拒绝，仍下降的迭代上限。完整496q/四新模13jets已付；ε1e−5、细η3.02631e−7/coreD1.19015e−7、m18峰1.143e−5；两direct η.007976/.017725及h≈4.44e−14未合格。[paid续接](notes/2026-11-26-r594-paid-weak-resume-implementation.md)从实际496q/末damping1e−14续60步，0旧Riccati/射击/方向门；必要dense外场全计费。原全r用有限域内中心/单侧四阶位置stencil及半步，保实际端点/完整弱行、coreD/漏模与双direct门，不冒全角证书。
+[首八模](notes/2026-11-26-r594-eight-mode-weak-natural-final.md)452.79767207秒/60接受65拒绝保原账；[paid续算原终态](notes/2026-11-26-r594-paid-weak-resume-natural-final.md)run45832877990再付464.449434512秒、60接受60拒绝，至iteration120仍ε1e−5，merit1.991363537e−6→1.991362792e−6已近停滞。两真实位置η3.02628e−7/3.02612e−7不再出现旧首点污染，但未过2e−9；coreD1.19015e−7/m18峰1.14314e−5仍在。下一保实际496q/四已付13jets，加18/20/22真新口及R602完整修正，不再延长原八模空间；高模需先提取r^μ，旧口/旧门0复跑。
 
 [R596](results/R596-same-mild-tail-flat-kernels-through-sixteen.md)/[R600](results/R600-same-mild-tail-flat-kernels-through-thirty-two.md)保同尾准确核至j32，Green<1/4/耦合<1/64，实际18…32口仍未付。更早均值/强迫/静态共振及其全部边界保[八模前交接](notes/HANDOFF-before-eight-mode-natural-final-20261126.md)所链R587/R588/R591/R593；不授数值外传、有限分支、固定g或reach。
 
