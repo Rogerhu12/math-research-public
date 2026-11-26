@@ -54,6 +54,6 @@
 <!-- visible-larger-parallel-04:end -->
 
 <!-- visible-larger-parallel-05:start -->
-并行公开Actions05：[run 45870334713/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45870334713)；[实际记录](notes/2026-11-26-public-actions-45870334713-1.md)。阶段`followup:run05-history-reconstruction-21-complete-R696-angular-unit-first-20261126`/running；已返4，exit=未返。
-并行05规则核查：2026-11-26 19:06:03 UTC，真实pull至`a3da90d7987144772dbaa0aa2357cf975a61f117`，双README无变化。
+并行公开Actions05：[run 45870334713/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45870334713)；[实际记录](notes/2026-11-26-public-actions-45870334713-1.md)。阶段`followup:run05-history-reconstruction-21-complete-R696-angular-unit-first-20261126`/completed；已返5，exit=0。
+并行05规则核查：2026-11-26 19:11:04 UTC，真实pull至`8ef9f63c94ad21c53b4935bbd47d4cd829c83b92`，双README无变化。
 <!-- visible-larger-parallel-05:end -->
