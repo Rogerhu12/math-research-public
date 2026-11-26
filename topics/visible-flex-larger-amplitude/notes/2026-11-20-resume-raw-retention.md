@@ -504,3 +504,8 @@ root于2026-11-26 17:12:35 UTC普通移出6项共1,613,460B。[完整说明](202
 ## 23. 2026-11-26：旧low46辅助盒与strong分量诊断
 
 按[完整来源与恢复说明](2026-11-26-legacy-low46-box-and-strong-component-retention.md)及[小清单](../computations/resume-20261126-legacy-low46-box-and-strong-component-retention.json)，普通移出旧588588B辅助box与501265B浮点分量报告，共1089853B。两原blob/SHA固定于11273fd0828c303037de6c11e4cb9d98050e1548；8件完整小源/全部3与6个实际输入（含三个隐式q来源）及原argv/defaults/资源/数学范围保。只存既有标量结论和真参数，生成名单/迭代历史/两周期/对角4列表只留数量与canonical摘要，不再转存raw。根核当前小源SHA；没有整读两大报告、没有科学重算或改写旧结论。
+
+
+## 第二十四次：R87 cell010九段已完成恢复点
+
+普通移出2,144,865B；完整十一源、二十四真实显式/隐式输入、原全argv/资源/结论与固定恢复5990361（两旧head输入8ef38046）见[完整记录](2026-11-26-legacy-R87-cell010-checkpoints-retention.md)及[小台账](../computations/resume-20261126-legacy-R87-cell010-checkpoints-retention.json)。逐模式columns/46初斜率/m2m4比较raw不重包；完整R87证明、主包/cell011与当前科学源/queue全保。不重算、不重宣R87，raw仅runner。

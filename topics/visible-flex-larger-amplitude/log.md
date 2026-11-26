@@ -515,3 +515,8 @@ PCG完整单准入f3dd现刊完整22356B wrapper、b4b291双child全参数、f33
 ### 2026-11-26 22:36:41 UTC — Astra-larger-e4e2a2bf-20261126
 
 准确均值581fb完整生产器39493B、完整证明/API与600s单步ready现刊：同真实R711 batch的v/vφ/vφφ、完整160core/chart/同原scalar/H与全部准确affine节点，逐完整边层和补集保无限尾，向外包准确E0/R1/R2及K/chart费用。完整叶journal只用准确端点和替换已完成父，源/全部实际字节/精度/分割严格绑定，覆盖与精度分开；未覆盖全域不产可用fee-request，raw只runner。根全读全源/证明/ready，两agent定点核无阻断；profile moment字段明确尚需下游R713，不冒已付。仅静态文本/AST/编译/argv核验，无科学或新solver门；真实R711 batch尚未返，ready未准入，节点关联/outer-normal/六jet/全局几何仍未付。open§1–6未动。
+
+
+### 2026-11-26 22:53:34 UTC — Astra-larger-e4e2a2bf-20261126
+
+第二十四次R87九恢复点普通移出2,144,865B，与完整72272B级小台账/说明同commit；全部十一小源与二十四原真实输入（五CLI、head主包、18m2/m4 anchors）、全命令/数值参数/原资源/原R87范围及固定恢复5990361/8ef均闭合。根另核所有小源与二十小输入SHA、所有固定Git身份和九当前文件尺寸/blob；大raw未整读或新算全SHA，代理仅受限prefix/suffix取已有config和紧凑结论，全部columns/46初斜率与比较数组未重包。原证明/主包/cell011与当前05/06及新源全保，不重写历史或重宣R87。只释放当前树容量以持续完整新构造/真实Actions，未科学执行。
