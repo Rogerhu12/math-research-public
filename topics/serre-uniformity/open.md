@@ -14,11 +14,11 @@
 [R1057 §5](results/R1057-certified-original-p47-actual-lowest-functional.md)：本次真实C=15支付p47一次单位；逐节核C_*仅用于自动本原、逐块全MW消去不需该界，故原X₁指定c₁的v47(w)>0深盘唯一有理点为c₁。未分类其它盘/X_d/O0；无重算。
 [R1055](results/R1055-original-complete-first-log-canonical-rational-primitive.md)：原完整v=(1−Q)λ的规范有理原函数V=6(bU₁+b²U₂)/(A1²r^ℓ)，U_i=[(1−r)^−i/3(j/q)]_<ℓ。全商/有理代表接口、三CM的4/−2/−2留数、S₀=1、全部principal parts与pth歧义均付；不跨j共振，不代指定最低值。
 
-[R1052](results/R1052-original-complete-CM-profile-and-actual-lowest-functional.md)：actual full-node中心赋值直接给全部normal极阶界，E一维像保全部返回；source u_s/ε^p的wholeR/p Dickson比较与全primitive误差均付。原完整行h̄_c=−Σκ₁^kc_kλ₀^−(ℓ−k)[Z^k](T_c/A)(B_CM)w^(ℓ−k)/(2m)。最低C_CM(T)=−3^(ℓ−1)/A1·[r^(ℓ−1)]T((1−r)^(1/3))/((1−r)^(5/3)j³)=2B(c,L_CM)。实际读数2B(v,QD L_CM)保Q²；单位/深盘排根仍开。
+[R1052](results/R1052-original-complete-CM-profile-and-actual-lowest-functional.md)：完整source/target、全返回与p除法误差已付，原全轮廓精确读取[Z^k](T_c/A)(B_CM)，保κ₁/λ₀与双incidence。最低C_CM(T)=2B(c,L_CM)，实际2B(v,QD L_CM)保Q²；全p最低单位/深盘仍开。
 
-R1050同一actual target的短PD/PF参数Z=−r(q/j)³/3已由R1052全轮廓消费；原κ₁、双incidence和全部安全分母保原证明。
+R1050原短PD/PF参数已由R1052完整消费，κ₁、双incidence与安全分母保原证明。
 
-[R1047](results/R1047-original-MW-saturated-profile-and-common-zero-bound.md)：两行原新部的全部实际MW消去格Σ到前n₀=(p−2)/3个CM系数为饱和单射；任一本原行保M1。若r_ann=rankΣ≥1，原单位闭盘的公共零点总重数≤n₀−r_ann+1，故原有理点≤n₀、非中心≤n₀−1。以整Tate除法保全部尾，使用真实全MW消去，不恢复旧秩零商。最低单位/非中心根排除及O0仍开。
+[R1047](results/R1047-original-MW-saturated-profile-and-common-zero-bound.md)：实际MW消去格Σ的前n₀=(p−2)/3系数映射饱和单射、每本原行M1；rankΣ=r_ann≥1时公共零总重数≤n₀−r_ann+1，有理点≤n₀、非中心≤n₀−1。整Tate全尾和真实全MW保原证明；最低单位/非中心排除及O0仍开。
 
 [R1045](results/R1045-original-MW-annihilator-nonzero-reduction.md)：全p6N5的完整三CM/S₀=1与Euler有限₃F₂排new正交行的ℓ阶contact，保Q²。几何p11及R1046的p5在p>C_*给真实MW消去后准确M1；不宣最高J₀/最低单位或深盘唯一零。
 
@@ -37,6 +37,8 @@ R1018–30原Fm、全非约化仿射/整τ₁/完整分支已成，只消费；H
 R1只把全部异常缩为p>37的完整N_ns；**p≡2,5 mod9只是另加小惯性I_p=C³的结论**。R317的应用另外要求整j、K=Q(√−3)、σ=1，以及实际二除法域和三除法S3商域同时一致。完整惯性、非整j、变化K、σ非平凡及异小除法域的大导子支路，均未由当前CM证明链排除。原导子下界不是上界。O1/O2研究指定辅助源，不是完整剩余情形；真正全局高度也仍待证。逐条假设见[R1003](results/R1003-global-scope-and-remaining-branches.md)，后继不得省略此覆盖缺口。
 
 ## O1：全p同一真实本原标签的临界非零
+
+[R1061](results/R1061-actual-genus-two-etale-cover-and-original-three-torsion-Petri-point.md)：原X108实际无分歧九次商C:Y²=R⁶−108，原S_n落Dχ=Qz−Qw=q*Q的三挠线；两一维exact空间的有序配对为(S_n/s)R dR/Y。故原f_N单位等价于该具体theta点光滑，smooth仍开；C superspecial，邻近ordinary四角色不代证明。
 
 [R1060](results/R1060-actual-X108-nonCM-Cartier-and-nine-torsion-ordinary-input.md)：原X108非CM四Cartier矩阵精确由B_n=P_n(3)=−a_p(E54)控制。明确九挠点/实际三次同源给原p2/5mod9时B_n≠0、非CM ordinary且核恰六CM。A_p=−S_n/3，但尚未证S_n=0⇒B_n=0，不能代原f_N单位。
 

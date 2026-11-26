@@ -422,3 +422,8 @@
 ### 2026-11-27 03:56 Asia/Taipei — R1058完整Q²的同P²单系数
 - [R1058](results/R1058-original-Cartier-resonance-and-complete-lowest-residue-source.md)：规范Jhat与原Q的Cartier身份、Tλ/A两pth修正已付。§§8–12以P=qJhat迁完整D/Q/Q²最低到全部P根；q根、b0、∞无残数，P非齐次Gauss forcing不删。P根至多四重（四重仅可能r1/9）、实际L_D极阶≤9。完整Q²单系数为(-3)^d[r^(d−1)]W*/P²/(dA1)，每根最多七阶导数；非零仍开。
 - 原Fλ先施实际Cartier一次/两次再作差，全部Fp稳定根和后才消p根；原D三次trace准确给N*=−x^ℓU+x^(2ℓ−1)V。r1及∞无残数，原Z的Lagrange独立给同号/同尺度；只结算既有源，未扫窗或宣单位。
+
+### 2026-11-27 04:04 Asia/Taipei — R1061原S_n的固定亏格二三挠点
+- [R1061](results/R1061-actual-genus-two-etale-cover-and-original-three-torsion-Petri-point.md)：原X108实际无分歧九次商C:Y²=R⁶−108，原S_n落Dχ=Qz−Qw=q*Q的三挠线；两一维exact空间的有序配对为(S_n/s)R dR/Y。故原f_N单位等价于该具体theta点光滑，smooth仍开；C superspecial，邻近ordinary四角色不代证明。
+- 根实读Tong pp541–542、§4.2，并手核H的27/3/9函数域次数、两实际微分、q=R²,Y的具体±Q分支及Dχ=q*Q。o2发现旧探索的另一椭圆因子须区分，正文只用当前正确第一因子；原β有序符号与sκ^n=1完整保留，无单位重标。
+- 不将h0=1、bundle完美性或邻点ordinary冒充smooth；继续真实twisted-Cartier。未执行数学或重扫窗口。
