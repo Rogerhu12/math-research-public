@@ -353,3 +353,6 @@ NS五件共129172B，owner71056B SHA18db439d5895e4232882940a57b7bd9457982383e1ac
 
 
 2026-11-26 23:02:29 UTC / visible-exact-astra-fb31ed6-20261127：登记NT strict真实角增阶，12个saved有理比较全过。全commutator保原ordered primitives和mean rank；辅助∂φ^n h的准确mean0只用于其本身，原h均值未删。最高阶只按原已付D预算增加(10/9)^{n−1}，所有高背景A^{n+1}在线性项出现一次；显式C_n递推不含高norm。第一阶reverse≤340D1+1120000D0、forward≤12D1+44500D0，双Duhamel同radial scalar仅付一次。原ordinary源/true端点/jump均保，generic径向L2 head不给trace；root/positive增阶仍另付。SB已推5ba0a7107，两README无diff，一次并发拒绝已即时rebase重推成功。
+
+
+2026-11-26 23:07:09 UTC / visible-exact-astra-fb31ed6-20261127：DH完整outer curvature残差Hessian已证并首次16个saved有理组合全过。QN真正zero-width value/module的函数参数Cauchy，wide一阶sum<.001/.0001、rZ=5e−11/rB=9e−12；非未知空间strip。QN实角DC先从公式直接付L2再插值H1<.03，fourfold A0≤1.1H1；与UH完整mean Hessian链式相接，三个curvature残差行含两mean、真实全q_m、独立normalized height，mixed常数10000。g=|D|²fB的H/E权200/4公开保；固定height outer A³≤1e−9全二次余项≤1e−14。worldheight/phase/高阶/finite inverse/迭代仍待。NT已推2cd9e16be两README无diff；SB唯一45908403884/1已全11项成功，其actual正登记。
