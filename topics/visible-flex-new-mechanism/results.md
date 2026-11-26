@@ -322,3 +322,5 @@
 - [R582已付口到核心返回首个完整终态](notes/2026-11-26-r582-paid-mouth-original-terminal-receipt.md)：**完整原观察**。run45805053770新增.444643577科学秒且0尾seed；μ−.04/ν−.04893431917，2413点几何V0。固定均值24/48/96基细线性上界.006479/.00016334/.00021887，第三个未降、无完整返回。下一同口真实s-ODE射击，不重复拟合。
 
 - [R591 全平强迫角模及三阶射击条件](results/R591-forced-flat-harmonics-and-third-order-shooting.md)：**已证明**真实二阶j4源/e2，cell匹配压缩给准确无限全平特解；核心非共振时唯一返回及C1通量。近核心正bump给严格横截性和三阶j2/j6条件，准确共振/有限分母为前提；未授完整有限分支。
+
+- [R592 有限阶水平切点的未除法连接与准确角谱](results/R592-undivided-finite-order-crossing-and-exact-angular-bound.md)：**已证明**zs有限阶零点的Volterra局部存在唯一性、真实六jets、根移动链式和分段C²表示；单j2连续角谱最大值准确消元。当前实际未观察零点，不把条件接口当真实障碍或既有指标改善。

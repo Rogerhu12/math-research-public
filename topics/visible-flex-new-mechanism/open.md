@@ -271,3 +271,7 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 ### R591：真实强迫解可用于改进高度输入，有限阶不替代完整解
 
 [R591](results/R591-forced-flat-harmonics-and-third-order-shooting.md)直接展开完整Darboux给j4强迫及代数e2=2J0，再用准确cell含势Dirichlet/通量匹配的加权序列压缩构造无限全平强迫解；非共振核心分母明确保留，C1(WG′)真实接好。近核心F>0/F′<0使正compact均值bump的射击导数严格非零，三阶基频可解标量与j6源已给。旧R571已付准确共振存在，但当前数值H/有限分母和ODE误差未自动认证；下一选满足这些前提的实际背景或给当前候选误差界，完整有限非线性/全频逆仍须继续。
+
+### R592：真遇水平切点时保完整穿越，不让除零遮蔽连接条件
+
+[R592](results/R592-undivided-finite-order-crossing-and-exact-angular-bound.md)将zs=x^m b的undivided两行写成不除x的Volterra压缩，给每个C(s0)唯一光滑穿越支及完整二jets；简单零的共同六jets可用于两侧Hermite，自由样条保端口。零点控制运动及离散算子链式明确，单j2准确连续角谱亦已给，旧保守上界不回改。当前paid-mouth采样zs均正，优先直接真实s-ODE核心射击；若发现真实零点才使用此接口，所有实际根数/连续正图须另付。

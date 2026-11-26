@@ -6,7 +6,7 @@
 
 ## 1. 规则与接手
 
-已部分克隆并实际 `git pull main`，公开根 README、课题 README、HANDOFF、open、results 索引及相关 log/notes 已读。公开已读提交 **e761beaaf15bdef3e435042e4444b9e294ac5530**（2026-11-26 11:06 UTC；本次实际pull后根/题README空差异）；历次规则及失败原回执保原note；私有 QUEUE 的本题已改为本会话进行中并成功推送：**9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7**；最后实际pull及规则同blob读至 **c5fd979bd7793b3516aaa9f142855772720cb9b1**（2026-11-26 10:23 UTC核；本小时实际pull成功，根README空差异、QUEUE仍本会话）。其它课题的并行认领保留。
+已部分克隆并实际 `git pull main`，公开根 README、课题 README、HANDOFF、open、results 索引及相关 log/notes 已读。公开已读提交 **e46aafc8603d98837d2322def3784579ec9f3fe4**（2026-11-26 11:09 UTC；本次实际pull后根/题README空差异）；历次规则及失败原回执保原note；私有 QUEUE 的本题已改为本会话进行中并成功推送：**9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7**；最后实际pull及规则同blob读至 **c5fd979bd7793b3516aaa9f142855772720cb9b1**（2026-11-26 10:23 UTC核；本小时实际pull成功，根README空差异、QUEUE仍本会话）。其它课题的并行认领保留。
 
 [前历交接](notes/HANDOFF-before-resonant-height-20261126.md)及原note保全部规则/成本/限定。09:18 UTC本地失联后用接口继续保存，API不冒actualpull；09:33恢复partial副本并实际双pull，完整身份见本日日志。
 
@@ -22,7 +22,7 @@
 
 真实角峰保1536全约束/全角Ebar及全部实际峰，前[513两lane收据](notes/2026-11-26-theta-peak-capacity-continuation-implementation.md)保完整来源。[分批B030原终态](notes/2026-11-26-theta-batched-b030-original-terminal-receipt.md)run45796862274新增295.608894049秒，651终候选全完成，保留η.265137352907/V0；actual450/1021、pending494/1129、trust1.20135498。首次真实峰库1129>1024，后继保全部proposal；0自然OptimizeResult。[分批B038中断](notes/2026-11-26-theta-batched-b038-runner-interruption-receipt.md)系runner shutdown无FINAL；最后完整500径向/538峰、η.49466223/V0、trust.90101624，保两条已写pending，另1条坐标未flush不可补造。444.543697291秒仅精确下界，后约131秒墙钟区间也保；从完整START续，不用拒绝trial。[真实续接](notes/2026-11-26-theta-peak-capacity-and-checkpoint-continuation.md)已提交：峰cap2048、径向513、完整stdin输入；完成callback即刷全状态/费用。
 
-[R580](results/R580-finite-tail-polynomial-kernel-obstruction-and-resonant-seed-interface.md)只排旧有限多项式尾；[R582](results/R582-actual-circular-tail-flat-kernel-and-resonant-entry.md)付实际17q背景真尾核。[三口已付收据](notes/2026-11-26-r582-paid-seed-json-failure-receipt.md)保全部2147398 RHS/child114.013392秒；不复跑。[真实中段首终态](notes/2026-11-26-r582-paid-mouth-original-terminal-receipt.md)run45805053770新增.444643577科学秒/0seed，μ−.04、ν−.04893431917441107，2413点几何V0；同均值24/48/96的细线性上界.006479/.00016334/.00021887，未收敛。当前未观察zs零点；下一同paid口真实s向ODE/core射击，不重跑LS或尾种子。旧圆核完整2401.8924秒及原失败范围保压缩前记录/原note。
+[R580](results/R580-finite-tail-polynomial-kernel-obstruction-and-resonant-seed-interface.md)只排旧有限多项式尾；[R582](results/R582-actual-circular-tail-flat-kernel-and-resonant-entry.md)付实际17q背景真尾核。[三口已付收据](notes/2026-11-26-r582-paid-seed-json-failure-receipt.md)保全部2147398 RHS/child114.013392秒；不复跑。[真实中段首终态](notes/2026-11-26-r582-paid-mouth-original-terminal-receipt.md)run45805053770新增.444643577科学秒/0seed，μ−.04、ν−.04893431917441107，2413点几何V0；同均值24/48/96的细线性上界.006479/.00016334/.00021887，未收敛。当前未观察zs零点；[R592](results/R592-undivided-finite-order-crossing-and-exact-angular-bound.md)给有限阶零点唯一光滑穿越/六jets及准确单模角峰，仅在真实遇根时用。下一同paid口真实s向ODE/core射击，不重跑LS或尾种子。旧圆核完整2401.8924秒及原失败范围保压缩前记录/原note。
 
 [R577](results/R577-intrinsic-geodesic-normal-chord-and-complete-reach-certificate.md)的连续reach接口须付全表面实际曲率、近对真实内蕴距离及远对法弦/分离；有限FFT和材料路径上界不能替代。
 
@@ -54,6 +54,4 @@
 
 ## 6. 持续工作与入口
 
-三条主线并行：真实末态几何约束内降metric及准确尾/共振基；完整高度方程有限连接与厚核心；稳定完整history的有限紧凑返回。子项结束继续open，未完成不以段计时或条件定理收尾。[四来源](notes/2026-11-26-current-four-source-topics.md)仍无可直接移用全门族；O1允许如实δE=0，O3保真正新局部输入。
-
-当前[open](open.md)、[结果索引](results.md)、[日志](log.md)及[本次压缩前全文](notes/HANDOFF-before-resonant-height-20261126.md)保全部历史限定和run身份。每条结论立即推；只有完成README全部主门才收尾。
+继续真实逆设计/准确尾口、完整高度有限连接、保全部历史的紧凑返回；子项完接[open](open.md)，结果与费用保[索引](results.md)/[log](log.md)。[四来源](notes/2026-11-26-current-four-source-topics.md)的适用范围不改；仅完成README全门才收尾，不以时间或条件接口停下。
