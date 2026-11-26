@@ -4,7 +4,7 @@
 
 ## 规则与完整目标
 
-最近规则核查：2026-11-26 21:20:14 UTC，真实pull/rebase至 `85bbee6fb86955a4fdd09a4f363ef6adc651c69f`，双README相对`740f8b2965a5fcded457ea567733be6cd4ad391e`无差异，继续遵守全部规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
+最近规则核查：2026-11-26 21:25:38 UTC，真实pull/rebase至 `05bed6026bd3b75f7f77b1927f55f72e4ed689cb`，双README相对`2aedf17f1422c9ee8fde20b52a7d29c260b92cd9`无差异，继续遵守全部规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
 
 科学计算仅本公开仓库Actions；执行偏差见[早前记录](notes/2026-11-20-public-actions-execution-correction.md)及[四次大JSON整读纠正](notes/2026-11-26-large-file-connector-read-correction.md)。root唯一分支写者；结论即普通推，NFF立即rebase循环，不强推。每次pull核双README差异并遵新规，至少每小时，记commit。raw只scratch/runner，不入Git/Release/artifact；保完整小源/参数/run/SHA/紧凑结论。题≤200MB、单文件<5MB、MD<100KB、H<10KB、open<30KB。令牌仅瞬时CLI。17:55终端失联后曾用云API普通快进；19:17显式/tmp恢复并新部分克隆，现恢复终端git。旧迁移完成情况未知，不假称恢复旧scratch。
 
@@ -35,7 +35,7 @@
 
 [02父46–48](notes/2026-11-26-actual-parent-interior-restoration-entry.md)/[49终界](notes/2026-11-26-actual-run02-cached-SO3-49-and-terminal-boundary.md)保完整旧边界；02终止、50未跑。04 actual40真实父51c8，41误key/42未起child/43trace及[最小完整修复](notes/2026-11-26-actual-run04-cached-SOC-source-role-index-repair.md)均保。
 
-[04实际44/45首次SOC](notes/2026-11-26-run04-actual44-45-first-backtracked-SOC-accepted.md)已保；[实际46/47第二次SOC](notes/2026-11-26-run04-actual46-47-second-backtracked-SOC-accepted.md)同892f/c4b2/mu .01由9c9f到0c9a/report606e10，Phi .005135594/有限观察Gram算子范数max .0341095095/g−3.72901e−5。3SOC/3投影/1末复读，锚1/8、fallback1/16，全2155/2070重读；QP64未驻/Pg1.41534≫tol。实际46完整cache donor与39/40/44/46地址全保，下一完整1×64及纯读已排，未返。[单准入完整pair](notes/2026-11-26-complete-normalized-SO3-science-and-pure-pair-wrapper.md)已刊，待新父返回再配全参数；不改48/49或硬时限。
+[04实际44/45首次SOC](notes/2026-11-26-run04-actual44-45-first-backtracked-SOC-accepted.md)已保；[实际46/47第二次SOC](notes/2026-11-26-run04-actual46-47-second-backtracked-SOC-accepted.md)同892f/c4b2/mu .01由9c9f到0c9a/report606e10，Phi .005135594/有限观察Gram算子范数max .0341095095/g−3.72901e−5。3SOC/3投影/1末复读，锚1/8、fallback1/16，全2155/2070重读；QP64未驻/Pg1.41534≫tol。实际46完整cache donor与39/40/44/46地址全保，下一完整1×64及纯读已排，未返。[单准入完整pair](notes/2026-11-26-complete-normalized-SO3-science-and-pure-pair-wrapper.md)已刊，待新父返回再配全参数；不改48/49或硬时限。 [八列当前SPD](notes/2026-11-26-current-SO3-eight-column-preconditioner-interface.md)已刊，8A+8A*完整成本另计；独立外层接线中，无加速实证。
 
 旧deep/Haar/R690–695/误差链见固定H及results/notes，不迁证；01止77、旧03 stage7未知。
 

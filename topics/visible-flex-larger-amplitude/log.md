@@ -445,3 +445,8 @@ R708支持内单位meridian完整条件构造：已正式刊[完整42式证明](
 ### 2026-11-26 21:19:28 UTC — Astra-larger-e4e2a2bf-20261126
 
 核[04实际Gram统计的准确含义](notes/2026-11-26-run04-relative-Gram-statistic-scope.md)：892f statistics与234ac _raw_block/unweight原完整源明确给有限观察集上的相对Gram算子范数，纠正早前口头“分量误差”名称。44/46真实数值不变，下一原target仍1e−9；不冒准确整面上确界或完成。沿既有R660/R664，不新增谱代数定理或科学计算。标记04-operator-norm-statistic-scope-correction。
+
+
+### 2026-11-26 21:24:26 UTC — Astra-larger-e4e2a2bf-20261126
+
+刊[ac03完整同当前SO3八列SPD](notes/2026-11-26-current-SO3-eight-column-preconditioner-interface.md)：H/首free core/三角槽各两全径向多项式，通过当前234ac或7f原坐标逆和紧凑QR，实际完整8A+8A*形成小H，接R681固定SPD与原R685/v5真实面逆。原QP变量/μ/范数/C/真Phi/所有外层保留；逻辑全圆周行与实际quarter输出明确区分，所有prepare/active-face内存和失败成本保。root完整读源和说明并对照hessian/v5原接口，无新增科学执行或加速值；新完整driver/cache/reader正独立接线，不替换正在跑的892f。
