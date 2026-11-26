@@ -181,3 +181,7 @@ G以S/T E1856给physical C²整盘/曲率<2/径长<8e−6及同world position/no
 ### R144：旧完整 mean Green 的新 C0 接收与紧窗正矩
 
 [CR补篇](results/R144-supplement-complete-C0-mean-receiver-and-compact-moments.md)从已存完整row sum得到K0/K1及另付全部mean-jump KJ；新fixed-j核差作为完整非mean反馈，保二三次项。ρ/b统一映球与收缩门、whole density positivity及二次root共同给可检验mean近邻；physical同角/非mean/帽仍独立。ā/b̄只旧[0,.18]完整载体的新正紧窗积分，D_R/G_R后用实际输出；不重已成Green/wholeη目标。尚无actual通过，执行入口正在准备。
+
+### R149：真实反射 target 的96个有限腰行
+
+[RW](results/R149-supplement-reflected-finite-waist-rows-from-complete-conjugacy.md)与pure模块定义同a=2H(0)的真实反射g_j、原H/K完整复合odd lift及固定L4096/N1024 exact DFT；保全部alias/truncation/旧E_H，任何midpoint不选新trial。双侧Js投影只令finite trial adjoint恒等，完整true row尾仍收费；incoming old-angle mean保，physical两半primitive和density mean不混。无新actual/signed PDE列或fullSchur，下一完成whole历史输入与96逐row保存读回。

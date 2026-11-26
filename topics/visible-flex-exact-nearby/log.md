@@ -59,3 +59,7 @@ Root审完CX证明、pure math、owner/worker/generator和25whole pins。原WOB.
 提交CR证明；root逐项复核Lm展开、Γ中terminal接口T^-1与τ^+、K1全nonmean反馈、二三次多项式、uniform contraction、terminal与forward同线性解。不是用旧L²常数替C0；全−[m]、physical角变换、ξχ′/raw非mean/帽/phase保。ā/b̄由旧紧窗carrier作新正积分，D_R/G_R只有真实输出后消费。未执行新科学，full验收未过。共同source4的修复run45783842857已真正in_progress，首YAML错误jobs0。另窄修未执行PN56 generator相同pip plain scalar，避免后续启动前解析失败；未变科学公式或任何已成目标。
 
 另加CR19a：同一Γ及全部旧原cell的新βK weighted row gives ||Lm^-1(βK f)||C0≤KβK||f||∞；映球和Lipschitz中一致可用min(K0B,KβK)。不重新积分旧Rm/Rnm、不重算Γ，不删独立jump。
+
+### 2026-11-26 — 真实反射有限腰行与完整复合 DFT
+
+提交RW final proof545154…和pure65ff349…。root与low复核真实g_j和a=2H(0)、density adjoint无额外Jacobian、双侧Js投影、odd contraction仅一份E_H、完整alias映射与Parseval。root要求补显式H/Kconstant及原证0：完整H24/K48原源码准入，k(phi+h)不丢h平移；0/π4网格值由odd degree-one/周期精确推出。全L4096/N1024 carrier和96行误差是独立新target，尚无科学执行；未来保存全row读回后才完成前缀，旧W/KAM/normalizer不重。incoming/physicalprimitive不同rows、两mean、rotatedoutgoing/Θ/WGB/finite inverse全保原义务。

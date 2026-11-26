@@ -1,11 +1,11 @@
 # 交接：可见振幅的精确闭等距族
 
-维护会话：visible-exact-astra-198c63d-20261126；更新：2026-11-26 08:33:24 UTC。
+维护会话：visible-exact-astra-198c63d-20261126；更新：2026-11-26 08:34:06 UTC。
 **总任务未完成，继续研究，不等用户回复。**
 
 ## 规则、接续和环境
 
-已部分浅克隆/pull并完整读根/课题README与原H/open/log/notes；私库QUEUE认领已推 f90ec8e0116c67cbc32c03342e6a8d2aee0ccb41。两README确认至 6974c1b7d0e0369195c5f0aae230d8ffc64a2097；每次main更新均比较规则，仅读新差异，≥每小时；当前无新差异。
+已部分浅克隆/pull并完整读根/课题README与原H/open/log/notes；私库QUEUE认领已推 f90ec8e0116c67cbc32c03342e6a8d2aee0ccb41。两README确认至 43b2d84ee89932bc3bf12a7fe97036c5a9c2e737；每次main更新均比较规则，仅读新差异，≥每小时；当前无新差异。
 05:48 UTC起执行环境unavailable，08:22再次确认。按根规8用GitHub集成读取main、规则diff及每件<100KB UTF8小文本；不向API传用户令牌。恢复立即终端pull --rebase/核规则，非FF立即重接main循环推成功，绝不force。本地 /tmp/visible-exact-astra-198c63d15049/math-research-public；无AGENTS。旧磁盘草稿不冒已推。
 科学仅本公开Actions；集成只证明、编辑和静态元数据。旧成功禁重。规15 topic≤200000000B、H<10000B，不新增可重建大数组/artifact/Release。94f4e01整tree容量198982209B；后续common包约104KB等另计。
 本页压缩前全部记录、精确球/pins/单位/mean/失败/未付义务逐字保[5d204186完整H](https://github.com/Rogerhu12/math-research-public/blob/5d204186445f722d842c18eb8ffe44e7329138f0/topics/visible-flex-exact-nearby/HANDOFF.md)与同提交open；此前results/log/两九件历史恢复索引完整保da8724c。各原immutable hash/path均在原页；science/native/active pins不动。
@@ -33,6 +33,8 @@ geometry43584188751/26只在同η0真wholecore含帽C0≤1e−4、|δν|≤1e−
 - **[SC signed列](results/R149-supplement-signed-finite-columns-and-full-negative-residual-sources.md)**完整E/N/SP二源含第二非mean。finite Q96/trialM给全Jacobi residual M+192，真r导数/全mean/两符号保；zeroouter连续trial经true224和负传播给whole列误差。signedpairing+完整adjoint residual用旧G=K48∘Hfin和wholeE_H；全矩阵source/target分权，root96子块非fullSchur。尚无实际signed列。
 - **[CD二次密度补偿](results/R144-supplement-compact-density-quadratic-mean-compensator.md)** χ支持[1/20,9/50]为C5，固定u、jξ=1+(1+ξχ)(j−1)，Yξ=Y0+ξA+ξ²B，A/B≤0、|B|≤|A|/2。actual正测度V及|D_R|<a_-ρ(1−ρ/2)才小根；wholeY/j正性、同physical角C0、ξχ′/rawjump/radialjet/height/phase/cap保。外state恢复仅原残差；未有数值门。
 - **本次[CR完整C0接收与紧窗矩](results/R144-supplement-complete-C0-mean-receiver-and-compact-moments.md)**：旧wholemean native e233…的saved row sums给K0=ΓRm/K1=ΓRnm；原.538112 L²值非C0。KJ完整保τ^+注入跨T^-1及−[m]；Lm差作完整非mean反馈，保精确二三次项，给统一ρ/b映球和Lipschitz门，K0B可由完整新weighted receiver KβK收紧。terminal负mean小球与二次root按线性唯一性同解，可独立证明wholeY正性。新ā/b̄只[0,.18]旧rows的正紧窗矩；真实D_R/G_R后只读。归一化正测度CDF给全profile根修正；无数值门、无fullPDE声明，独立actual正在准备。
+
+- **[RW真实反射96腰行](results/R149-supplement-reflected-finite-waist-rows-from-complete-conjugacy.md)及pure算法已证。** g_j=√2cos4j(x−a/2)，a=2H(0)不设零；G_o取old K48∘Hfin的odd lift，误差同E_H不乘2。固定Js双侧投影使低trial adjoint精确恒等；L4096/N1024全DFT/alias/tail。incoming保pullback mean，physical primitive两Pp/2与两个density mean独立。显式H/K常数原证零，网格端点由odd/周期给。仅row定义与误差公式，实际96 carrier正在准备，非signed PDE列/Θ/WGB/fullSchur。
 
 ## 完整未付接口（不因摘要减少）
 
