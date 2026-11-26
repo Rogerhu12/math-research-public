@@ -1,0 +1,122 @@
+{
+  "status": "synthetic_true_bridge_adapter_check_passed",
+  "actual_BVP_field": false,
+  "complete_actual_bridge_certificate": false,
+  "literal_mean_nodes": 1168,
+  "modes": 2,
+  "radial_points": 5,
+  "independently_checked_derivatives": [
+    "a through order 2",
+    "a_s through order 2",
+    "M through order 2"
+  ],
+  "rotation_metric_max": 6.137931484059562e-13,
+  "signed_height_product_checked": true,
+  "all_angle_rotation_geometry_checked": true,
+  "geometry_angular_boxes": 256,
+  "rows": [
+    {
+      "s_exact": "9/80",
+      "point_metric_bound": 6.137931484059562e-13,
+      "root_lower": 0.9758607741765327,
+      "geometry": {
+        "curvature_upper": 2.6932710249365925,
+        "radius_upper": 1.0826566823075243,
+        "support_lower": 1.0058344712894647,
+        "normal_cross_lower": 0.9873644031569375,
+        "height": {
+          "lower": 0.39999999999999997,
+          "upper": 0.4000000000000001,
+          "lower_exact": "7205759403792793/18014398509481984",
+          "upper_exact": "7205759403792795/18014398509481984"
+        }
+      },
+      "mean_width": 5.229594535194337e-12
+    },
+    {
+      "s_exact": "9/20",
+      "point_metric_bound": 4.682089649108733e-13,
+      "root_lower": 0.05056069293713016,
+      "geometry": {
+        "curvature_upper": 2.701139965085674,
+        "radius_upper": 0.8838543620832521,
+        "support_lower": 0.538119476148227,
+        "normal_cross_lower": 0.9760861896888755,
+        "height": {
+          "lower": 0.39999999999999997,
+          "upper": 0.4000000000000001,
+          "lower_exact": "7205759403792793/18014398509481984",
+          "upper_exact": "7205759403792795/18014398509481984"
+        }
+      },
+      "mean_width": 1.2463097220916097e-10
+    },
+    {
+      "s_exact": "49/80",
+      "point_metric_bound": 5.33607222079868e-13,
+      "root_lower": 0.005003751699766078,
+      "geometry": {
+        "curvature_upper": 0.12061016895578008,
+        "radius_upper": 0.7418869735149938,
+        "support_lower": 0.4214883204847734,
+        "normal_cross_lower": 0.975527541519937,
+        "height": {
+          "lower": 0.39999999999999997,
+          "upper": 0.4000000000000001,
+          "lower_exact": "7205759403792793/18014398509481984",
+          "upper_exact": "7205759403792795/18014398509481984"
+        }
+      },
+      "mean_width": 1.9355350655558823e-13
+    },
+    {
+      "s_exact": "803/1200",
+      "point_metric_bound": 5.445073952210984e-13,
+      "root_lower": 0.005322239529035987,
+      "geometry": {
+        "curvature_upper": 0.7065815391212629,
+        "radius_upper": 0.694387272433384,
+        "support_lower": 0.41880547000710555,
+        "normal_cross_lower": 0.9755314481305708,
+        "height": {
+          "lower": 0.39999999999999997,
+          "upper": 0.4000000000000001,
+          "lower_exact": "7205759403792793/18014398509481984",
+          "upper_exact": "7205759403792795/18014398509481984"
+        }
+      },
+      "mean_width": 3.51676021637104e-10
+    },
+    {
+      "s_exact": "273/400",
+      "point_metric_bound": 5.482465304738224e-13,
+      "root_lower": 0.008221343482982977,
+      "geometry": {
+        "curvature_upper": 2.1085297177655593,
+        "radius_upper": 0.6834352419524804,
+        "support_lower": 0.42657930584277687,
+        "normal_cross_lower": 0.9755670081746349,
+        "height": {
+          "lower": 0.39999999999999997,
+          "upper": 0.4000000000000001,
+          "lower_exact": "7205759403792793/18014398509481984",
+          "upper_exact": "7205759403792795/18014398509481984"
+        }
+      },
+      "mean_width": 5.268958602755447e-10
+    }
+  ],
+  "driver_sha256": "bd471b11edbae3c1309dfbc9dd9ebab00fbae40b0e0909f78f6571c4b6ccff56",
+  "checker_sha256": "1400618e8b8b276fc3e26ac6ce6be51c0008211f10532c782b3949d3f152b234",
+  "reviewed_sources": {
+    "resume_m3/certify_prefix_metric_interval_taylor.py": "6b36ccd6bab54fa35c6fe62a433f417faf7a51b80c35b798b17567eb22714986",
+    "resume_m3/certify_bridge_metric_fourier_taylor.py": "fe99f0afc6ed90dac1b9b3616c857421fa621901958dfbafdbb26191c5766bb2",
+    "resume_m3/certify_r59_fixed_mean_ranges.py": "ab08dc1dc7f24f6e92e3d64fcc530767cb66f5ae5a2940f953460a3274b6a1a5",
+    "resume_m3/certify_r59_shared_jet_transfer.py": "85aff94a38f57e184e8bd5ca99b87898f0fec41043b0eedc9325623c4fba2c00",
+    "finite_closure/m3_m8_closed_map/interval_geometry_kernel.py": "6234c458d303dfd2e47dcf1e1a6ee54a3d466118a8aea4d76f66013154c034e7",
+    "resume_20261126/seam_m3_prefix_pieces.py": "dd353c3306ea35dd068e25951917fd8d204635b9e4cc07a41f7957834cbee01d",
+    "resume_20261126/seam_certify_true_cut_height.py": "998509f9463e0d377dc6dcde42ae71c62dcc0c02e77d6e1ec24bb634050a5b7c",
+    "resume_20261126/seam_bridge_endpoint_primitive.py": "ac9c07f3022f3b271a873acad100dc779f421d44fe1397ccd75612597ac8b7a1",
+    "resume_20261126/seam_bridge_cut_trace.py": "c77e8e5bb37d4469f6dd7f7a21ec7301721c2eaf979109e249630cd54880b32b"
+  }
+}

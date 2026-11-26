@@ -6,7 +6,7 @@
 
 连通闭C²嵌入、C²连续族；H闭、有内点且diamH≥.2D，整像δhold≥.1D、含反射δE>0，全时reach≥.03D。固定完整g/物理数据/时间范围加密到完整metric≤1e−6并持续下降。必须实际闭合和共用Cartesian两jet；λ<1不提供准确圆弧H。
 
-- 公共已完整读规则并真实pull：`7baa97720706700b1ef0e6813ecf5eac1e01ff3f`；私有根README/QUEUE接手登记已推 `2f68946f2fa3e192a291c7c1393231af1a89953e`。每次pull核双README差异，至少每小时一次。root独占git，逐结论push，NFF立即pull --rebase再推，禁force；令牌只命令行。
+- 公共已完整读规则并真实pull：`5928df89a30203b3acbe5beccb4a4ca9ad68693e`；私有根README/QUEUE接手登记已推 `2f68946f2fa3e192a291c7c1393231af1a89953e`。每次pull核双README差异，至少每小时一次。root独占git，逐结论push，NFF立即pull --rebase再推，禁force；令牌只命令行。
 - 工作树 `/tmp/held10-astra-06bbeb395471-public3`；旧scratch已失，原/workspace盘满勿删他人文件；旧进程终态不推断。详细[接手/来源](notes/2026-11-26-resume-and-current-sources.md)。
 - 70份源及实际chart69a3e8eb...保物理输入/原门；[恢复入口](notes/2026-11-26-tail-source-recovery.md)，不当新数学结果。
 - 公共[material run45763361623](https://github.com/Rogerhu12/math-research-public/actions/runs/45763361623)：M24 cold已真实δ中心差分越域，无raw；三路parent原门拒源exit2。M16/512 cold自然status1/n5860/RMS10.0388736684未门，rawba1b5a5e。历史λ.004完整H独立尾修复native预mkdir后，[factor.25已真过](notes/2026-11-26-recorded-lambda004-tail-factor025-actual.json)：包84c10c24/res6.24244e−10且原audit返回，正求.5；该原prefix metric未门，勿称匹配耦合/fullH。
@@ -26,7 +26,7 @@
 2. warm run45775899674：原M24已必要恢复；[v2十二次真实返回](notes/2026-11-26-warm-v2-continuation-final.json)均RMS未门，最后λ.0020009765625/RMS2.9935e−5，止于原最小步门，未晋失败场。随后[v3同图零锚实际通过](notes/2026-11-26-warm-v3-anchor-actual.json)：runed26f665，631点/RMS9.92715e−7/双角metric≤6.48242e−7，solver_invoked=false；[首λ.004真实失败](notes/2026-11-26-warm-v3-first-lambda-failure.json)：RMS.124646/1个tiny步，续.003；无新接受。固定完整P/anchor/chart/gauge/mean1168，只有metric单失败才升M。λ1后[真DN](notes/2026-11-26-warm-lambda1-actual-dn-entry.md)及[独立actual精化](notes/2026-11-26-actual-dn-refinement-entry.md)继续：同P的M/M+8/M+16与RK16/32/64、原fullH/J/8outer全门，五源已审；旧线性入口不可冒充。
 3. 几何必须保真primitive/mean1168和公共Cartesian两jet。R66三重高度下连续转角I=1给primitive闭合；实际I/投影误差仍欠。[新cut](notes/2026-11-26-seam-new-prefix-cut-entry.md)显式v1/v2/v3/actual门；[真Zc](notes/2026-11-26-seam-new-true-cut-height-entry.md)动态M、同projection、共右二jet、Fraction全径向积分，不搬旧Zc。[动态全尾v2](notes/2026-11-26-seam-dynamic-tail-geometry-v2.md)以实际M/N完整谱及唯一R节点定义新图，原mean链/同谱修补已接；factory/checkpoint的13项覆盖语义已修，实际三方SHA及安装后参数区绑定。R58完整背景已必要恢复。全新场的尾、修补、尺寸/reach及同问题C²差均仍需真算。
 
-新[真核区间](notes/2026-11-26-warm-true-core-interval-extension.md)及[完整前缀metric入口](notes/2026-11-26-warm-continuous-prefix-metric-entry.md)已审/compile：真π/反函数/primitive、实际M/全角闭盒/全部径向断点、literal1168；小M2只是API实跑，数值界不迁移。真λ1场后再算，未知actual-refine种类须显式适配。
+新几何入口：[真核](notes/2026-11-26-warm-true-core-interval-extension.md)、[全前缀metric](notes/2026-11-26-warm-continuous-prefix-metric-entry.md)、[真桥metric/K/位置](notes/2026-11-26-warm-continuous-bridge-geometry-entry.md)、[两全尾C²差](notes/2026-11-26-seam-actual-tail-c2-comparison.md)。保真π/mean1168/全径向断点/唯一primitive；尾差保真实ΔZc/Δmu_cut和完整谱，未含cut修补。只有API/纯代数小检查，尚无新λ1场证书；新actual-refine的旧reader待显式适配。
 
 **R69已证明**：[完整核心C²差](results/R69-uniform-core-c2-difference-from-phase-controls.md)：同phase族/中心规范下，η=min(2,E0)，位置≤Pη/√3、一阶≤η、二阶≤E1+min(Ki)η；精确闭合Green算子保零模。未付全场Cauchy。
 
@@ -34,7 +34,7 @@
 
 旧状态见[2026-11-20最后H](https://github.com/Rogerhu12/math-research-public/blob/f0548477576caa2373d1626227a284ccfa9767d0/topics/visible-flex-held-10pct/HANDOFF.md)；具体note优先，已登记结论不重跑。
 
-- 新R55多段profile原mode3线性根δ=.06414432506418023；新g q=.006→.06已过，宽窗S=.5/b=.2/k=.2/τ1。原M24 λ.002 linearDN实场631点/metric6.482415924575457e−7/BC3.72e−16、δ=.06413464104697915，原mean1168/GL6。mean512 proxy不是同图。
+- R55原根δ=.06414432506418023，q=.006→.06已过，S=.5/b=.2/k=.2/τ1。原M24 λ.002 linearDN实场631点/metric6.482415924575457e−7/BC3.72e−16、δ=.06413464104697915，原mean1168/GL6。mean512 proxy不是同图。
 - 原M24 fullH chord3只确认.25和.5；.5真实残差9.47489311e−10、1153×48 finite；.75及外迭代最终未知。唯一full-harmonic初猜probe比原uniform差1.674804倍，勿重试。见[.25与命令](notes/2026-11-20-m3-m24-original-warm025-and-chord-continuation.md)、[.5](notes/2026-11-20-m3-m24-chord-warm050.md)。
 - 原λ.004/M24 metric1.53303e−6未门；升M32 λ.004 metric7.604677e−7、λ.008 metric7.844246e−7过，mean1552。δ/c为设计未知；λ.016旧终态未知。[M32/.008](notes/2026-11-20-m3-newg-lambda0008-m32-accepted.md)。
 - R54横向圆弧H允许柱长ℓ≤.01；R55宽盒若实际全图D0≤2.68/K≤12.3/support≥.087，则D≤2.69、reach/D>.03022335、H径比>.2006459、m3held>.1097823。[条件窗](notes/2026-11-20-soft-start-wide-design-box.md)。不是已实现比例。R55原短ramp障碍/R57中间k=.45障碍不排所有C²；最终k=.2另有首段保护窗预算。

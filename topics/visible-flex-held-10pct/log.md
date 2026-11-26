@@ -358,3 +358,5 @@
 - 2026-11-26 10:12 UTC｜Astra-held10-06bbeb39-20261126：material原历史λ.004完整参考H的factor.25真正返回原packet+audit，res6.2424361e−10、SHA84c10c24；10:08已续factor.5。仍是独立暖尾，原prefix metric未门，不是旧λ.002场/未缩fullH/闭族；小标量、命令与SHA已存。
 
 - 2026-11-26 10:14 UTC｜Astra-held10-06bbeb39-20261126：v3首λ.004真status1/n3168/RMS.1246461197，rawdb0e9c6b；1个tiny Newton步、27域拒/56merit拒，exp预拒0，具体域类别未观测。仍从λ.002续.003；只读实际参数列probe已备/compile/help，尚未执行，不改部署v3或原门。同步查δ可变设计，避免把局部basis条件数当完整BVP解释。
+
+- 2026-11-26 10:16 UTC｜Astra-held10-06bbeb39-20261126：接入同MeanMap真桥的完整metric/K/位置/support入口及两真实完整尾的连续C²差入口。桥保真primitive与逐叶高度；尾精确公共R/谱并集/Bernstein，保ΔZc和原mean，不把有限对当Cauchy。已有旋转API/纯代数实检，无λ1实场；暂停更多未输入几何开发，优先实际求解与δ-design输入。
