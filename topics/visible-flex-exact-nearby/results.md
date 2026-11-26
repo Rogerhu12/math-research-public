@@ -315,3 +315,5 @@
 - [ANP：实际独立真ν particular与全signed腰列](results/R147-supplement-actual-independent-strict-nu-particular-and-signed-column.md)：45893562391/1完整2/2，误差<2.836e−5、194 true/192 raw全保、首incoming严格正；fullν/phase/means未闭。[NH](results/R147-supplement-mean-aware-complete-high-parameter-forcing.md)给含mean泄漏的完整high97 forcing与joint96误差，55/4实际十二scalar入口已齐，旧trial/配对不重。
 
 - [IR：原inverse-density 96行的两种完整残差](results/R149-supplement-complete-inverse-density-row-residuals.md)：b_j正频2j(1−i)，192mode finite trial、4096 directed DFT/1024全head；完整alias/infinite tail/true-map同伦误差，联合H−1/2与L²同对象无额外√96。只给E96*D+^-1 C^-1，A/Θ独立另付；实际入口正接完整IL。
+
+- [DG：完整graph经同号density压缩的原次序约消](results/R149-supplement-complete-graph-remainder-through-same-sign-density-compression.md)：完整旧R31/W复strip付true p三导、DB给KC,-4/3<2^14；whole E及全部meanrank/reference不删。原J homogeneous<2^-437、positive addition≤2^-1462 Cadd、physical96≤2^-1479 D96+2^-1470；actual6/56与完整finite/ν/phase仍待，无旧目标重算。
