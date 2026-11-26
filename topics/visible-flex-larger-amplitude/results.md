@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- **R707（已证明，条件传播定理）**：[共同有限法向链的完整根、角jet与参数误差](results/R707-fixed-normal-chain-root-jet-error-propagation.md) — 全上游三jet/交叉Jacobian/准确残差给非循环根误差，完整9块逆界、J/J*与真实算术/四五阶费用接同场六物理jet；全角同支另明定，无实际候选余量或连续证书。
+
 - **R706（已证明，范围以正文为准）**：[再生输入保持同一准确度量的完整来源条件](results/R706-regenerated-input-same-exact-metric-definition.md) — 实际同warm与全部准确scalar参数、4e/a1ed/e091定义及固定chart给同数学g；工作包围/文件hash变化和全向量/地点身份另列。 原已刊完整论证的正式编号，无新科学复算。
 
 - **R705（已证明，范围以正文为准）**：[三份精确初根失败报告的空物理地址贡献](results/R705-initial-root-failure-empty-location-contribution.md) — 核精确4d9识别结构与三次首残差失败的全部保存闭包，证明28/34/36贡献为空；不由计数相同猜集合，不豁免未来报告。 原已刊完整论证的正式编号，无新科学复算。

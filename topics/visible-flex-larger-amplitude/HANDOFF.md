@@ -4,7 +4,7 @@
 
 ## 规则与完整目标
 
-最近规则核查：2026-11-26 19:23:13 UTC，真实pull/rebase至 `7a5d7a389ebe876f2ada75e3c9bca305c28284ff`，双README相对`99b502a103ad2ec5eb8dc76dd6de01f127734771`无差异，继续遵守全部规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
+最近规则核查：2026-11-26 19:28:28 UTC，真实pull/rebase至 `abe329aa212255c0a3a104ce7aeb801b0d6320ac`，双README相对`b2d64aad1f72eef590d5b9358a8690a2e51438a0`无差异，继续遵守全部规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
 
 科学计算仅本公开仓库Actions；执行偏差见[早前记录](notes/2026-11-20-public-actions-execution-correction.md)及[四次大JSON整读纠正](notes/2026-11-26-large-file-connector-read-correction.md)。root唯一分支写者；结论即普通推，NFF立即rebase循环，不强推。每次pull核双README差异并遵新规，至少每小时，记commit。raw只scratch/runner，不入Git/Release/artifact；保完整小源/参数/run/SHA/紧凑结论。题≤200MB、单文件<5MB、MD<100KB、H<10KB、open<30KB。令牌仅瞬时CLI。17:55终端失联后曾用云API普通快进；19:17显式/tmp恢复并新部分克隆，现恢复终端git。旧迁移完成情况未知，不假称恢复旧scratch。
 
@@ -23,7 +23,7 @@
 
 [积分26/27](notes/2026-11-26-actual-integral-SO3-first-direction-26-27.md)：原606完整Cholesky成功，alpha1/16有限g负、QP64未驻；全身份/标量/27缺项保原note。
 
-[实际第二积分30/33](notes/2026-11-26-actual-direct-integral-second-direction-30-33.md)真655d→fd3f8c/7212a1，同606/9d4/6ffc/c06a全空间；alpha1/32，Phi189.95031194/max .501279055，真有限g −.0249226672、全1843/1771点双支。QP64未驻，Pg2163.52249≫tol.00267976；1目标拒，1/2至1/16几何拒的family/位置未公开归因，不盲称reach/cell0。后继保全部新地点。
+[实际30/33](notes/2026-11-26-actual-direct-integral-second-direction-30-33.md)：alpha1/32、Phi189.95031/max .501279055、有限g负；QP64未驻/Pg远超tol。被拒ray家族/地址旧raw未知，05新实际报告另读，不回填旧run；全部身份/点/失败保原note。
 
 ## 零端点缺陷：失败、读取修复、新机制
 
@@ -31,7 +31,7 @@
 
 [同原方程延拓](notes/2026-11-26-same-endpoint-residual-continuation.md)3f37/9649的28真失败a244/73a9，lambda约.8343未到1、原最终C未读。[实际31/32](notes/2026-11-26-actual-continuation-failure-and-reader-repair-31-32.md)原ef017 trace确认29为KeyError endpoint_continuation_policy；75f4 pure-v2成功读原a244失败，224attempt/75accept/149reject/1030Newton，失败角0,1,3,4,7，无成功根/场/implicit。末Cz奇异值未读，不能由null推折叠或不存在。
 
-[R702高度初点](results/R702-fixed-target-explicit-height-endpoint-identity.md)只改末H；[实际34/35](notes/2026-11-26-actual-Jstar-height-root-failure-34-35.md)真初根失败maxC .013491829/control .453940134，280真实回溯，无场/Phi；35 pure成功，缺项只未产生字段。[完整gamma源](notes/2026-11-26-added-gamma-complete-KKT-operator.md)b712/0c488/5134/e092/42c0保六控制/九KKT/27角jet/四阶链；[实际36及终态](notes/2026-11-26-actual-gamma-KKT-initial-failure-and-03b-exit-36.md)真失败lambda .86109–.861156、140拒，原最终KKT未读/0成功根，未知末C/Ksigma；03b准入18:06:38关闭、18:07:08正常退出，37未启动。[R703法向选枝](results/R703-normal-endpoint-lifting-and-fixed-partition-jets.md)已证；[完整五源及执行](notes/2026-11-26-fixed-normal-plane-complete-SO3-entry.md)42ea/2557/68a6/c5f1/8381已刊排05，m32全6m/9m链、原H、七实际历史；未返；[gamma+显式H完整入口](notes/2026-11-26-added-gamma-KKT-explicit-height-entry.md)8f375/da411/c3fdd已刊，05在真实30后排全执行/纯读；尚未返回。[05完整必要输入及历史](notes/2026-11-26-live-run03b-height-gamma-and-run05-history.md)45870334713已起，原3/17/21/26/30完整真实依赖已排；[R705空地址贡献](results/R705-initial-root-failure-empty-location-contribution.md)核完整walker/保存分支，不由计数猜集合，保原失败来源；[R706同g身份](results/R706-regenerated-input-same-exact-metric-definition.md)：同warm/e640参数与完整law/chart给同数学g；reference/profile/carrier和误差盒确变，完整初向量/地点待[纯指纹v2](notes/2026-11-26-complete-history-and-initial-point-fingerprint-v2.md)真实读取，末向量不推一致；不免永久点。
+[R702高度初点](results/R702-fixed-target-explicit-height-endpoint-identity.md)只改末H；[实际34/35](notes/2026-11-26-actual-Jstar-height-root-failure-34-35.md)真初根失败maxC .013491829/control .453940134，280真实回溯，无场/Phi；35 pure成功，缺项只未产生字段。[完整gamma源](notes/2026-11-26-added-gamma-complete-KKT-operator.md)b712/0c488/5134/e092/42c0保六控制/九KKT/27角jet/四阶链；[实际36及终态](notes/2026-11-26-actual-gamma-KKT-initial-failure-and-03b-exit-36.md)真失败lambda .86109–.861156、140拒，原最终KKT未读/0成功根，未知末C/Ksigma；03b准入18:06:38关闭、18:07:08正常退出，37未启动。[R703法向选枝](results/R703-normal-endpoint-lifting-and-fixed-partition-jets.md)及[R707完整误差链](results/R707-fixed-normal-chain-root-jet-error-propagation.md)已证；R707保三jet/交叉逆/J/J*/六jet和同支责任，尚无实际余量；[完整五源及执行](notes/2026-11-26-fixed-normal-plane-complete-SO3-entry.md)42ea/2557/68a6/c5f1/8381已刊排05，m32全6m/9m链、原H、七实际历史；未返；[gamma+显式H完整入口](notes/2026-11-26-added-gamma-KKT-explicit-height-entry.md)8f375/da411/c3fdd已刊，05在真实30后排全执行/纯读；尚未返回。[05完整必要输入及历史](notes/2026-11-26-live-run03b-height-gamma-and-run05-history.md)45870334713已起，原3/17/21/26/30完整真实依赖已排；[R705空地址贡献](results/R705-initial-root-failure-empty-location-contribution.md)核完整walker/保存分支，不由计数猜集合，保原失败来源；[R706同g身份](results/R706-regenerated-input-same-exact-metric-definition.md)：同warm/e640参数与完整law/chart给同数学g；reference/profile/carrier和误差盒确变，完整初向量/地点待[纯指纹v2](notes/2026-11-26-complete-history-and-initial-point-fingerprint-v2.md)真实读取，末向量不推一致；不免永久点。
 
 ## 04及旧02边界
 

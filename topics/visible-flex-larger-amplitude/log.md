@@ -318,3 +318,8 @@ root读回发现首发布的同一路径两次变换都从旧文本开始，第�
 ### 2026-11-26 19:22:22 UTC — Astra-larger-e4e2a2bf-20261126
 
 04实际43定位初始化角色KeyError；[完整最小修复](notes/2026-11-26-actual-run04-cached-SOC-source-role-index-repair.md)892f/6c59/4243/009e及同40真实父fresh-v2全参数已刊排，原科学后缀逐字不变。[终端恢复及静态补验](notes/2026-11-26-terminal-recovery-and-locked-source-validation.md)已记录；实际pull与双README差异已核，恢复CLI普通推送。继续真实04/05计算及新单位meridian构造。
+
+
+### 2026-11-26 19:27:34 UTC — Astra-larger-e4e2a2bf-20261126
+
+R707完整法向链条件误差传播：已将[完整46式证明](results/R707-fixed-normal-chain-root-jet-error-propagation.md)正式登记results及新增结论；保前段控制/法向三jet、真实交叉3×3/9块逆界、完整J/J*、实际积分/浮点/载体与同支责任，接R694六物理jet。没有实际余量/曲面证书，不增求解前门；继续04修复后执行、05积分与新单位meridian构造。
