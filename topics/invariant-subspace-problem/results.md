@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R12 原奇幂可一致有界强多项式恢复，全部幂交换子及真实子商同步确定（2026-11-27，已证明）：** [原高位组、独立方差及可和carry](results/R12-appendix-odd-power-strong-recovery-all-power-commutants-and-actual-subquotients.md)对奇p取p−1的二进位支持和不交高位平移组，真实平均R_L强趋I、||R_L||≤2^s₂(p−1)，B_mR_L为B_m^p的多项式。故两者Lat、交换子及强闭多项式代数相同；一般p仅依v₂p，完整交换子=M_(2^v₂p)(C_(m+v₂p))。同一强恢复下降到每个实际闭不变旗子商，保持未知真实空间；不把子商识别为全尾或套全空间根重数。
+
 - **R271 同一最大除法图源的两条真实dyadic边界已完整确定（2026-11-27，已证明）：** [N型正交身份与Y型全Cayley预算](results/R271-appendix-exact-dyadic-division-graph-boundaries-and-cayley-cost.md)对唯一Sh=y、T*h=f，截断h^(<r)的N型图误差准确分为完整低carry向量⊗y_r和同源缺一位顶行；Y型按原偶周期保全部Z=(I−κN_r*)⁻¹，相对真实有限头两误差各≤12α_r/α_(r−1)²||y||≤12e^(−760·16^(r−1))||y||。因此这一指定截断图收敛当且仅当λ_r||y_r||与真实有限头顶行均趋0；未宣所有图核心序列都须如此，也未证明一般W的规范原像已在该最大图域。
 
 - **R150 S0/Lt0有同eta的四单项式原有限生成归约（2026-11-27，已证明输入）：** [六指定原式双向来源与全部重叠](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-same-eta-four-monomial-original-system.md)原配对/N(V)的2×2系数行列式为32(k+4)²j⁴(1−e)，均已付；六二次单项式降到1、λ、f、eta的生成系，逐条双向原组合、九个三次重叠和六个互素乘积全回乘，1325分母核实。新D·Qa原身份不除B，Qa返回仅451项/v²。7.896800秒/43084KiB/exit0；未宣四维自由或全临界理想等价。旧dc2d新增Dixon门真实1200秒未决，单独保回执，不重跑。

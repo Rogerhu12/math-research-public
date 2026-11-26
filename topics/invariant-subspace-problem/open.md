@@ -169,3 +169,5 @@ Deddens自伴MASA、全部可分重数有限成本投影、全2-adic平移距离
 [同eta四单项式原生成归约](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-same-eta-four-monomial-original-system.md)已付，六指定原式双向改写与全部重叠保留；新Qa小原必要行继续。dc2d完整门1200秒真实未决，smoke单独通过，源冻结不重跑。
 
 [同源dyadic两边界](results/R271-appendix-exact-dyadic-division-graph-boundaries-and-cayley-cost.md)已付，含Y全逆和可能增长的h^(<r)成本；指定prefix-cut当且仅当λ_r||y_r||及真实头顶行趋零。一般W的最大图域/这两费仍需原来源证明。
+
+[原奇幂有界强恢复](results/R12-appendix-odd-power-strong-recovery-all-power-commutants-and-actual-subquotients.md)已付，全部p的Lat/交换子只依v₂p，且同一多项式降到每个实际闭不变子商。未知子商不因此成为完整尾；继续根与平坦像的真实域包含。
