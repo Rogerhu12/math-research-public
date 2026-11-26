@@ -1,7 +1,7 @@
 # R956 — 原 F 整模的精确素域下降与完整附加块返回
 
 - 日期：2026-11-26。
-- 状态：**完整整模证明；既有公开 API 的新增回归已实际成功。**
+- 状态：**完整整模证明；§§1–4 的严格下降 API 已实际成功；§5 的共同常数扩展待本次公开 API 回执。**
 - 本条不声称原 F 除子、原四交、有限 shadow 或非零性已计算完成。
 - 原唯一 F v3 作业仍按其已检出的 source 运行，不因本条改变或重启。
 - 直接依赖：R942 §11 完整有界 HNF、R925 完整原仿射结构、
@@ -286,3 +286,184 @@ root 已沿原 `complete_paired_fraction_graph`、`zero_pole_ideals`、geometry 
 | `ci/original-triangular-artinian-shadow-request.json` | `3f3970dbbcc0196fca9fcf780a675c26796b7a24` | 827 / `c5286d90af616689070aae1c1f7dfede64cde60cb313eef66663bffe2f8b682a` |
 
 workflow 仍为 R955§6 的 blob `5713d440f42e1bd2f638944ce2dc9d3d4ddd1d5b`。r29/q2453/batch64/minimal/两份原 PASS pins 不变。上述三份源码暂只以不可变 blob 持有，不挂触发路径；当前唯一 F 的实际终点之前不并开第二份原306。原 F/完整 shadow 的真实结果尚未取得。
+
+
+## 5. 原 F 的统一非素域附加常数与完整返回
+
+本节在 §§1–4 已执行的严格下降上扩展一个实际来源明确的情形。
+原 LEFT 仍必须逐系数属于原素域；只允许**整个附加块**共同提取
+一个经全部系数验证的非零原常数。原函数、原源行、原值及原场均保留。
+
+### 5.1 原 paired graph 的实际第二次分母规约
+
+§1 已沿原七映射与两图源码核准，对原 $F_y$ 有
+$$
+D\in f[t]^{306},\qquad
+N=\gamma N_0,\quad N_0\in f[t]^{306},\qquad
+\gamma=\theta_{17}^{-3},\quad \theta_{17}^6=17,
+\tag{7}
+$$
+其中 $f=\mathbf F_r$，$k=\mathbf F_{r^2}$ 是调用者已经固定的原域，
+同一 $\theta_{17}\in k$ 沿原嵌入固定。由整基乘法表也在 $f[t]$，
+$$
+M_D\in\operatorname{Mat}_{306}(f[t]),\qquad
+M_N=\gamma M_{N,0},\quad M_{N,0}\in\operatorname{Mat}_{306}(f[t]).
+\tag{8}
+$$
+这里不替换 $N/D$，也不把 $F_y$ 缩放成另一个函数。
+
+原 `complete_paired_fraction_graph` 实际先取
+$H_D=\operatorname{HNF}(M_D)$，再求完整原像
+$$
+\mathcal Y
+ =\{y\in k[t]^{306}:yM_N\in\operatorname{row}_{k[t]}(M_D)\},
+\tag{9}
+$$
+用其规范 HNF $Y$ 作最后完整左除法
+$$
+X M_D=Y M_N .
+\tag{10}
+$$
+该最后调用规约的 LEFT 为 $M_D^{\mathsf t}$，
+**整个 attached 为 $(Y M_N)^{\mathsf t}$**，不是第一次无附加块的 $M_D$ HNF。
+
+证明 $Y$ 在素域。令 $R_0=f[t]$，$R=k[t]$，
+$I_0=\operatorname{row}_{R_0}(M_D)$。先对原 $R_0$ 映射
+$$
+R_0^{306}\longrightarrow R_0^{306}/I_0,\qquad y\longmapsto yM_{N,0}
+$$
+取完整核 $\mathcal Y_0$。$R_0\to R$ 平坦，故扩张后完整核恰为
+$R\mathcal Y_0$。又 $\gamma\in k^\times$，$RI_0$ 对 $\gamma^{\pm1}$
+稳定，故乘 $\gamma$ 不改变这个核，得到
+$$
+\mathcal Y=R\mathcal Y_0 .
+\tag{11}
+$$
+完整原像含 $\det(M_D)R^{306}$，因此满秩。
+$\mathcal Y_0$ 的首一规范 HNF 经同一嵌入仍是 $R$ 的首一规范 HNF；
+由规范形唯一性，原程序最后的 $Y$ 就是这一个素域矩阵。
+这里用的是完整核与全 HNF，未从秩或函数域解猜测整原像。
+
+于是 (10) 的整个附加块确为
+$$
+(YM_N)^{\mathsf t}
+ =\gamma (YM_{N,0})^{\mathsf t},\qquad
+(YM_{N,0})^{\mathsf t}\in\operatorname{Mat}_{306}(f[t]).
+\tag{12}
+$$
+这正是旧严格规则会回退、而本节可完整下降的实际输入。
+$\gamma$ 在两个原域都是真二次常数：
+$r=29$ 时 $17^2=-1$，故 $17^{14}=-1$；
+$r=41$ 时 $17^2=2,17^4=4,17^{16}=10$，故 $17^{20}=-1$。
+因此 $17^{-1}$ 在 $f$ 非平方，
+而 $\gamma^2=17^{-1}$，所以 $\gamma\notin f$。
+
+(11) 是源身份的证明，不宣称现有一般三角原像的每一个中间量均已实施素域算法。
+本节实际新增的优化点是 (10) 的完整分母/附加块规约；
+当前仍运行的旧原 F 作业不受改变。
+
+### 5.2 一条常数线的完整判定与同步变换
+
+给定原输入
+$$
+A\in\operatorname{Mat}_n(R_0),\qquad
+B\in\operatorname{Mat}_{n\times b}(R).
+$$
+新规则先完整核 $A$；任何真非素域 LEFT 系数立即对两个未经修改的原输入
+执行原 backend。LEFT 从不按行、列或常数重新缩放。
+
+若附加块所有系数都在 $f$，取 $\gamma_B=1$，保持 §§1–4 的原路径。
+否则只把遇到的第一个非素域非零系数当作候选 $\gamma_B$，
+接着对**全部原行、全部原列、每个系数** $c$ 验证
+$$
+c/\gamma_B\in f,\qquad
+(c/\gamma_B)^r=c/\gamma_B,\qquad
+\gamma_B\,\iota(\bar c)=c.
+\tag{13}
+$$
+每个完整多项式重新注入原 $R$ 并乘回 $\gamma_B$，
+必须与原多项式精确相等。零矩阵取 $\gamma_B=1$。
+(13) 成功当且仅当全部附加系数包含于同一条 $f$-常数直线；
+只检一个样本绝不构成接受。
+
+对实际 (12)，候选可能为 $\gamma_B=a\gamma$，
+其中 $a\in f^\times$ 是首个样本的素域因子；
+无需声称候选一定等于规范 $\theta_{17}^{-3}$。
+整个算法只需要 $B=\gamma_B\iota(B_0)$。
+在同一实际原场检查 $\gamma_B/\theta_{17}^{-3}\in f^\times$
+即可把未来生产回执连接回 (12)。
+
+成功后同一 bounded 算法对 $[A\mid B_0]$ 运行。
+所有换行、行加法及非零常数行倍只由 LEFT 决定，
+仍完整同步作用于每条附加来源。
+若全操作为 $U_0\in\mathrm{GL}_n(R_0)$，则
+$$
+H_0=U_0A,\qquad Z_0=U_0B_0.
+$$
+完整返回定义为
+$$
+H=\iota(H_0),\qquad Z=\gamma_B\iota(Z_0).
+\tag{14}
+$$
+由于常数与全部行操作交换，
+$$
+\boxed{H=\iota(U_0)A,\qquad Z=\iota(U_0)B.}
+\tag{15}
+$$
+所以原 source/attached 逐行身份恰好保留，
+不是只保持附加块所张空间。此证明也涵盖任意非方形附加宽度。
+后续完整 back substitution 仍解 $HV^{\mathsf t}=Z$，
+并对所有原行验证 $VM_D=YM_N$，不修改 RHS 的归一化。
+
+$\gamma_B$ 是非零常数，故所有多项式次数不变，
+R942 的 LEFT、attached、$\delta=0$ 与自适应 shift 上界全部照旧。
+原输入、原附加、完整 HNF、完整返回附加块、首一行列式 hash
+仍按原 $k$ 坐标计算。全部操作系数仍先注入原 $R$ 后写操作流 hash；
+同一 LEFT 的操作流不因附加共同常数改变。
+新增字段单独记录候选位置/坐标/摘要、全部比值检验和常数完整乘回。
+
+任一比值失败时，两个完整原输入未被修改；
+不保留部分下降结果，不按行选不同常数，
+不把混合的两个 $f$ 方向投影成一个方向。
+例如一个非零素域系数与一个真二次系数共存的块就一定完整回退。
+因此本节不放宽原源合法性门，只增加有完整逆返回的实现路径。
+
+### 5.3 既有小 API 与后继真实执行的边界
+
+原 `check-original-bounded-hermite-api.py` 的 v3 request 增加以下实际返回门，
+仍与全部旧 bounded/triangular/affine/full306 算法例同次执行：
+
+1. 在原给定 $\mathbf F_{29}[a]/(a^2-2)$ 内取真实 $\theta_{17}^6=17$，
+   令 $\gamma=\theta_{17}^{-3}$，现场核 $\gamma^2=17^{-1}$、
+   $\gamma^{29}\ne\gamma$。对原素域 $A$ 与完整
+   $B=\gamma[I\mid AX]$，要求所有列返回
+   $Z=\gamma[U\mid HX]$，并从其前两列还原 $U$ 验 $UA=H$。
+2. 同一原二次系数环的官方 `hermite_form(transformation=True)`
+   独立返回 $H_{\mathrm{official}},U_{\mathrm{official}}$，
+   要求 $H_{\mathrm{official}}=H$ 及
+   $U_{\mathrm{official}}B=Z$。这核的是完整附加值，非只有 HNF 或维数。
+3. 对完整非方形 RHS $\gamma VA$ 调用原
+   `full_polynomial_left_division`，要求返回原 $\gamma V$，
+   每行乘回同一个 $A$，并核对应原 source/solution hash。
+4. 保持真二次 LEFT 回退；含原恒等块的附加矩阵再加真二次系数时，
+   要求两个独立方向触发完整 fallback，且全部列仍等于原 $UB$。
+
+这次只更新 bounded helper、既有 reader 和 request；
+当前61份本课题 workflow 的完整 push 区段均已核读，
+无通配或无 paths 的 push。
+这三路径只命中原
+`.github/workflows/rank2-sha-bounded-hermite-api.yml`，
+不触发原 F、Artinian 或六 P 重型作业。
+
+源码身份：
+
+- `scripts/original_degree_bounded_row_reduction.py`：26458 B，
+  SHA256 `41be1b362e024ba847240c7bd928ae4e991b3c160d1c3556f7d8837d9b1788fa`。
+- `scripts/check-original-bounded-hermite-api.py`：17846 B，
+  SHA256 `a56509132452cc63f26f990c5afbe48446686d1ac7c512f9bc7b4d2baeafed08`。
+- `ci/original-bounded-hermite-api-request.json`：447 B，
+  SHA256 `34102686cfaad18f267ea34065c85f8a7e937efef8dada8b78760fa01aaff3ce`。
+
+本节源码尚待这一次现有公开 API 的真实回执；不把前一次 v2 成功移到新增分支。
+后继原 Artinian v6 将保全部45份来源、既有原 PASS pins、全七式/两图/四交/厚商门，
+并增加 (10) 的实际常数恢复门；在真实原306执行前不宣称该门已通过。

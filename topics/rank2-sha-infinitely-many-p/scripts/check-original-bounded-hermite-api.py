@@ -13,7 +13,7 @@ from pathlib import Path
 from sage.all import GF, PolynomialRing, matrix, vector, identity_matrix
 from sage.env import SAGE_VERSION
 from original_ys_divisor_ideal_tools import (
-    canonical, digest, field_description, polynomial_matrix_digest)
+    canonical, digest, field_description, finite_field_coordinates, polynomial_matrix_digest)
 from original_degree_bounded_row_reduction import complete_degree_bounded_row_hermite
 import original_polynomial_row_reduction as operation_module
 
@@ -132,7 +132,7 @@ def direct_checks(k):
 
 
 def exact_prime_descent_checks(k):
-    """Given original quadratic field; full attached return and BOTH fallbacks."""
+    """Original quadratic field; whole constant-line return and BOTH fallbacks."""
     R = PolynomialRing(k, "r956_same_given_quadratic_parameter")
     t, a = R.gen(), k.gen()
     assert int(k.degree()) == 2 and a**int(k.characteristic()) != a
@@ -156,6 +156,56 @@ def exact_prime_descent_checks(k):
     assert descended["complete_hermite_basis_sha256"] == polynomial_matrix_digest(H)
     assert descended["transformed_attached_sha256"] == polynomial_matrix_digest(Z)
 
+    # The original F numerator has exactly this original nonprime constant
+    # type.  Keep theta17 in this supplied field and restore gamma EVERYWHERE.
+    theta17 = k(17).nth_root(6)
+    gamma = theta17**(-3)
+    assert theta17**6 == k(17) and gamma**2 == k.one()/k(17)
+    assert gamma**int(k.characteristic()) != gamma
+    scalar_B = gamma*B
+    H_scalar, Z_scalar, scalar_receipt = complete_degree_bounded_row_hermite(
+        M, attached=scalar_B, progress=progress,
+        label="original theta17^-3 type on every complete attached column")
+    assert H_scalar.base_ring() is R and Z_scalar.base_ring() is R
+    assert H_scalar == H and Z_scalar == gamma*Z
+    U_scalar = (k.one()/gamma)*Z_scalar[:, :2]
+    assert U_scalar*M == H_scalar and U_scalar == U
+    assert Z_scalar[:, 2:] == gamma*H_scalar*X
+    # Independent full HNF over the UNCHANGED original quadratic ring.
+    official_H, official_U = M.hermite_form(
+        include_zero_rows=False, transformation=True)
+    assert official_H.base_ring() is R and official_U.base_ring() is R
+    assert official_U*M == official_H and official_H == H_scalar
+    assert official_U*scalar_B == Z_scalar
+    gate = scalar_receipt["exact_prime_subfield_descent"]
+    assert gate["applied"] and gate["attached_common_scalar_applied"]
+    assert gate["left_block_not_rescaled_for_prime_descent"]
+    assert gate["all_attached_coefficients_verified_on_the_same_constant_line"]
+    assert gate["full_attached_original_constant_restored"]
+    assert gate["restored_constant_commutes_with_every_complete_row_operation"]
+    assert gate["attached_original_constant_factor_coordinates"] == finite_field_coordinates(gamma, k)
+    assert scalar_receipt["full_operation_stream_sha256"] == descended["full_operation_stream_sha256"]
+    assert scalar_receipt["original_rows_sha256"] == polynomial_matrix_digest(M)
+    assert scalar_receipt["original_attached_sha256"] == polynomial_matrix_digest(scalar_B)
+    assert scalar_receipt["complete_hermite_basis_sha256"] == polynomial_matrix_digest(H_scalar)
+    assert scalar_receipt["transformed_attached_sha256"] == polynomial_matrix_digest(Z_scalar)
+
+    # The actual paired graph calls this complete non-square source solver.
+    wanted = matrix(R, [[t**3+1, 1], [t, t**2+1], [2, t**4]])
+    source = gamma*wanted*M
+    divided, division_receipt = operation_module.full_polynomial_left_division(
+        M, source, progress=progress,
+        label="whole source division with original theta17^-3 attached constant")
+    assert divided.base_ring() is R and divided == gamma*wanted
+    assert divided*M == source
+    gate = division_receipt["reduction"]["exact_prime_subfield_descent"]
+    assert gate["applied"] and gate["attached_common_scalar_applied"]
+    assert gate["all_attached_coefficients_verified_on_the_same_constant_line"]
+    assert gate["full_attached_original_constant_restored"]
+    assert division_receipt["every_original_source_sha256"] == polynomial_matrix_digest(source)
+    assert division_receipt["entire_polynomial_solution_sha256"] == polynomial_matrix_digest(divided)
+    assert division_receipt["every_source_row_returned_against_original_denominator"]
+
     # A genuine quadratic LEFT coefficient forbids descent, even for prime RHS.
     nonprime_left = matrix(R, M)
     nonprime_left[0, 1] += a
@@ -169,8 +219,8 @@ def exact_prime_descent_checks(k):
     assert gate["applied"] is False and gate["first_nonprime_block"] == "left"
     assert gate["unchanged_original_field_backend_used"]
 
-    # Prime LEFT alone is insufficient: a genuine quadratic attached entry
-    # must be retained, not projected to its prime coefficient.
+    # Two independent prime-field directions in the ATTACHED block cannot
+    # share one scalar: its identity entry and quadratic entry must both stay.
     nonprime_attached = matrix(R, B)
     nonprime_attached[1, 3] += a*t
     H_side, Z_side, side_fallback = complete_degree_bounded_row_hermite(
@@ -180,10 +230,12 @@ def exact_prime_descent_checks(k):
     assert Z_side == U*nonprime_attached
     gate = side_fallback["exact_prime_subfield_descent"]
     assert gate["applied"] is False and gate["first_nonprime_block"] == "attached"
+    assert gate["scalar_candidate_did_not_authorize_partial_descent"]
+    assert gate["attached_common_scalar_applied"] is False
     assert gate["unchanged_original_field_backend_used"]
     assert side_fallback["original_attached_sha256"] == polynomial_matrix_digest(nonprime_attached)
     return dict(
-        status="exact_original_prime_subfield_and_both_quadratic_fallbacks_passed",
+        status="exact_original_prime_subfield_common_scalar_and_both_quadratic_fallbacks_passed",
         supplied_quadratic_field=field_description(k),
         original_polynomial_ring_objects_returned=True,
         all_original_attached_columns_and_transformation_returned=True,
@@ -191,6 +243,12 @@ def exact_prime_descent_checks(k):
         actual_nonprime_left_coefficient_fell_back=True,
         actual_nonprime_attached_coefficient_fell_back=True,
         no_quadratic_coordinate_or_source_row_discarded=True,
+        original_theta17=finite_field_coordinates(theta17, k),
+        original_theta17_minus3=finite_field_coordinates(gamma, k),
+        unchanged_quadratic_backend_whole_attached_return_matched=True,
+        every_original_scalar_source_row_divided_and_returned=True,
+        common_original_scalar_descent=scalar_receipt,
+        common_original_scalar_division=division_receipt,
         whole_descent=descended, genuine_left_fallback=left_fallback,
         genuine_attached_fallback=side_fallback)
 
@@ -200,10 +258,11 @@ def main():
     assert len(raw) <= 4096
     request = json.loads(raw)
     assert request == {
-        "schema":"rank2-original-bounded-hermite-api/v2",
+        "schema":"rank2-original-bounded-hermite-api/v3",
         "prime":29, "extension_degree":2, "modulus_ascending":[-2, 0, 1],
         "checks":["bounded-whole-hermite", "entire-attached-return",
                   "exact-prime-subfield-descent-and-quadratic-fallback",
+                  "whole-attached-common-original-scalar-return",
                   "existing-triangular-and-affine-interfaces", "full306-algorithm-fixture"],
         "original_geometry":False,
     }

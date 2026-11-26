@@ -34,19 +34,22 @@ def _degree(row):
 
 
 def _entire_prime_subfield_inputs(rows, attached):
-    """Attempt only exact coefficient descent of BOTH entire input blocks."""
+    """Exact LEFT descent; an entire ATTACHED block may have ONE scalar."""
     R, k = rows.base_ring(), rows.base_ring().base_ring()
     receipt = dict(
         applied=False, original_constants=field_description(k),
         left_coefficients_checked=0, attached_coefficients_checked=0,
+        attached_scalar_probe_coefficients=0,
+        attached_common_scalar_applied=False,
+        left_block_not_rescaled_for_prime_descent=True,
         no_coefficient_or_original_source_row_discarded=True,
         original_constant_field_or_root_replaced=False)
     p = int(k.characteristic())
+    scalar = k.one()
     if int(k.degree()) != 2 or int(k.cardinality()) != p**2:
         receipt["reason"] = "caller coefficients are not a quadratic finite field"
-        return None, None, receipt
-    # The prime subfield of the CALLER'S actual field has its unique
-    # canonical embedding. No finite-field constructor or new root occurs.
+        return None, None, scalar, receipt
+    # This is the prime subfield of the CALLER'S unchanged original field.
     fp = k.prime_subfield()
     assert int(fp.cardinality()) == p and int(fp.degree()) == 1
     assert k(fp.one()) == k.one()
@@ -58,50 +61,92 @@ def _entire_prime_subfield_inputs(rows, attached):
             converted.append(None)
             continue
         assert block.base_ring() is R
+        block_scalar = k.one()
+        if block_name == "attached":
+            # Leave an already prime block unchanged.  A first nonprime
+            # coefficient supplies a candidate constant, not permission to
+            # discard any other coefficient.  Every ratio is checked below.
+            chosen = None
+            for row_index in range(block.nrows()):
+                if chosen is not None:
+                    break
+                for column_index in range(block.ncols()):
+                    if chosen is not None:
+                        break
+                    for power, value in enumerate(block[row_index, column_index].list()):
+                        receipt["attached_scalar_probe_coefficients"] += 1
+                        coordinates = finite_field_coordinates(value, k)
+                        assert len(coordinates) == 2
+                        if coordinates[1] != 0 or value**p != value:
+                            assert value
+                            chosen = (value, row_index, column_index, power)
+                            break
+            if chosen is not None:
+                block_scalar, i, j, power = chosen
+                scalar = block_scalar
+                receipt.update(
+                    attached_scalar_candidate_position=[i, j, power],
+                    attached_scalar_candidate_coordinates=finite_field_coordinates(scalar, k),
+                    attached_scalar_candidate_sha256=digest(finite_field_coordinates(scalar, k)))
+            assert block_scalar and block_scalar.parent() is k
+        inverse_scalar = k.one()/block_scalar
         entries = []
         for row_index in range(block.nrows()):
             for column_index in range(block.ncols()):
                 polynomial = block[row_index, column_index]
                 coefficients = []
-                for power, value in enumerate(polynomial.list()):
+                for power, original_value in enumerate(polynomial.list()):
                     receipt[block_name+"_coefficients_checked"] += 1
+                    value = original_value*inverse_scalar
                     if value not in conversion:
                         coordinates = finite_field_coordinates(value, k)
                         assert len(coordinates) == 2
                         if coordinates[1] != 0 or value**p != value:
                             receipt.update(
-                                reason="an actual "+block_name+" coefficient is outside the given prime subfield",
+                                reason=("an actual LEFT coefficient is outside the prime subfield"
+                                        if block_name == "left" else
+                                        "the entire ATTACHED block has no single verified constant prime-field line"),
                                 first_nonprime_block=block_name,
                                 first_nonprime_position=[row_index, column_index, power],
-                                first_nonprime_coefficient_sha256=digest(coordinates))
-                            return None, None, receipt
+                                first_nonprime_coefficient_sha256=digest(coordinates),
+                                first_nonprime_original_coefficient_sha256=digest(
+                                    finite_field_coordinates(original_value, k)),
+                                scalar_candidate_did_not_authorize_partial_descent=True)
+                            return None, None, scalar, receipt
                         prime_value = fp(coordinates[0])
                         assert k(prime_value) == value
                         conversion[value] = prime_value
                     prime_value = conversion[value]
-                    assert k(prime_value) == value
+                    assert block_scalar*k(prime_value) == original_value
                     coefficients.append(prime_value)
                 lowered = S(coefficients)
-                # Exact inverse conversion of EVERY original polynomial.
-                assert R([k(c) for c in lowered.list()]) == polynomial
+                # Restore EVERY original polynomial with the one constant.
+                assert R([block_scalar*k(c) for c in lowered.list()]) == polynomial
                 entries.append(lowered)
         lowered_block = matrix(S, block.nrows(), block.ncols(), entries)
         assert lowered_block.nrows() == block.nrows()
         assert lowered_block.ncols() == block.ncols()
         converted.append(lowered_block)
     assert len(converted) == 2 and converted[0] is not None
+    scalar_coordinates = finite_field_coordinates(scalar, k)
     receipt.update(
-        applied=True, reason="both whole input blocks lie in the given prime subfield",
+        applied=True,
+        reason="whole LEFT and the entire constant-normalized ATTACHED lie in the given prime subfield",
         prime_subfield=field_description(fp),
         canonical_embedding="prime subfield of the caller's unchanged constant field",
         complete_original_polynomial_ring_variable=str(R.variable_name()),
         entire_left_block_returned_before_descent=True,
         entire_attached_block_returned_before_descent=attached is not None,
         original_matrix_shapes_and_every_zero_row_preserved=True,
+        attached_common_scalar_applied=attached is not None and scalar != 1,
+        attached_original_constant_factor_coordinates=scalar_coordinates,
+        attached_original_constant_factor_sha256=digest(scalar_coordinates),
+        attached_factor_is_one_nonzero_original_constant=True,
+        all_attached_coefficients_verified_on_the_same_constant_line=attached is not None,
         actual_prime_source_rows_sha256=polynomial_matrix_digest(converted[0]),
         actual_prime_attached_sha256=(None if converted[1] is None else
                                      polynomial_matrix_digest(converted[1])))
-    return converted[0], converted[1], receipt
+    return converted[0], converted[1], scalar, receipt
 
 
 def complete_degree_bounded_row_hermite(rows, attached=None, progress=None,
@@ -110,8 +155,9 @@ def complete_degree_bounded_row_hermite(rows, attached=None, progress=None,
 
     For input degree D and module determinant degree delta, every LEFT
     entry during the algorithm has degree <= max(D, 2*delta+1).
-    R956 descends only when BOTH whole blocks have exact prime-subfield
-    coefficients, then returns through the same original embedding.
+    R956 descends an exact prime-subfield LEFT and an entire ATTACHED
+    block on one verified original constant line.  That constant is
+    restored after the same full operations through the original embedding.
     Neither the source module nor any attached coordinate is projected out.
     The attached block is not subjected to a false identical degree bound:
     for square M and attached B its proven bound is
@@ -126,7 +172,7 @@ def complete_degree_bounded_row_hermite(rows, attached=None, progress=None,
     if attached is not None:
         assert original_m == original_n
         assert attached.base_ring() is original_ring and attached.nrows() == original_m
-    descended_rows, descended_attached, field_descent = _entire_prime_subfield_inputs(
+    descended_rows, descended_attached, attached_scalar, field_descent = _entire_prime_subfield_inputs(
         rows, attached)
     if field_descent["applied"]:
         rows, attached = descended_rows, descended_attached
@@ -415,7 +461,7 @@ def complete_degree_bounded_row_hermite(rows, attached=None, progress=None,
             original_ring([original_field(c) for c in value.list()]) for value in H.list()])
         if transformed is not None:
             transformed = matrix(original_ring, transformed.nrows(), transformed.ncols(), [
-                original_ring([original_field(c) for c in value.list()])
+                original_ring([attached_scalar*original_field(c) for c in value.list()])
                 for value in transformed.list()])
         determinant = original_ring([original_field(c) for c in determinant.list()])
         assert H.base_ring() is original_ring and H.is_hermite()
@@ -429,6 +475,8 @@ def complete_degree_bounded_row_hermite(rows, attached=None, progress=None,
             exact_original_row_and_attached_orders_restored=True,
             complete_Hermite_basis_returned_to_same_original_ring=True,
             complete_attached_block_returned_to_same_original_ring=has_attached,
+            full_attached_original_constant_restored=has_attached,
+            restored_constant_commutes_with_every_complete_row_operation=True,
             every_original_input_row_divides_by_whole_returned_Hermite_basis=True,
             row_module_base_change_is_exact_by_flatness=True,
             same_complete_unimodular_operations_on_both_blocks=True,
