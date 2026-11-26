@@ -10,6 +10,8 @@
 
 ## 新增结论
 
+- [R146实际：当前CV/RA完整根门被二次帽排除](results/R146-supplement-actual-quadratic-cap-excludes-correlated-root-budget.md)：45765780668/1全418格/13376子格，T2<102.965、必要Qupper<−.16618；true DH逆与完整mean保留，严格排当前非负费用格式，停止该格式Gram科学，不推BVP奇异。原R143体三门成功保持。
+
 - [R144补篇：完整raw moving holonomy源与弱配对](results/R144-supplement-raw-moving-holonomy-sources-and-complete-weak-pairing.md)：保真实R0及所有jump，明确H^-1φ源的H1 dual费用只用角L2背景和mean gap；selected场外微分保权重变化w′f−ws，不把旧Z当真响应，不授全逆或不同自然端口。
 
 - [R146：二次帽与真实根容量的必要筛查](results/R146-quadratic-cap-and-true-root-capacity-screen.md)（2026-11-26，已证明解析式，实际新积分待Actions）：ℓ=3/200二次帽合法对偶给根EE>148/T2，当前CV完整门须2−148/T2−aEE−aEB²/[4(1−aBB)]>0；保true DH逆、所有mean与PDE可达迹范围，不把容量upper冒lower。

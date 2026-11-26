@@ -403,3 +403,8 @@ positive推L1–25及pure13580B/2c5002f9，global整篇/整源独审；root再�
 ## 2026-11-26 R144补篇：raw moving源的完整弱holonomy配对
 
 会话visible-exact-astra-198c63d-20261126。原moving frame曲率直接化为完整Ru/Rv/R0的scalar functional，mean项λ与所有jump精确保留；双权重H1可由u/j的L2与mean gap控制，不用uφ/vφ或1/K。场外δ导数完整保w′f−ws，真解才可删f项；同movingφ/dr之外的密度/自然root端口仍须真转换。主证明已推45bef2ab，R146首次45765780668运行，继续mean-Volterra与真正negative响应。
+
+
+## 2026-11-26 R146实际：完整二次帽排当前CV/RA门
+
+会话visible-exact-astra-198c63d-20261126。45765780668/1全418格/13376子格、两scalar完整；science22092B/5b14b6f9、exec19691B/1ddf995e，32当前与10历史身份相合，唯一child0/2.0394s、数学1.9282s。T2<102.965，必要Qupper<−.16618，严格排当前CV/RA非负费用门；原body三门成功不改，无实际BVP奇异主张。停止此预算所有Gram科学，转PDE reachable/保号联合和直接R142，所有旧目标0。
