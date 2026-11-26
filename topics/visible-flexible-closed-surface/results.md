@@ -5,6 +5,8 @@
 
 ## 新增结论
 
+- [R240：倒面积平方的连续有限成本排除秩亏](results/R240-reciprocal-area-square-excludes-rank-loss.md)：正则二维图/正a/固定局部正密度下，C2给σ局部Lipschitz，零点令倒面积平方积分对数发散；付边界扇形、极点范围、完整固定g J/JT。谱度量误差≤.5时新增行恰零；实际离散有限成本不能借作连续浸入证书。
+
 - [R239：完整Cartesian法方程的精确径向带结构与同方程预条件](results/R239-complete-cartesian-radial-block-preconditioning.md)：物理系数的quintic局部两jet支撑给块带宽5，全部13行精确角通道径向主块可流式构造；增广算子/伴随保原λSobolev正则，禁止新坐标damp暗换方程。纯有限维代数证明，未称新预条件已改善或收敛。
 
 - [R238：非正交端切向的空间曲线长度必要界](results/R238-nonorthogonal-spatial-port-length-bound.md)：切向球面距离及不重叠端帽积分给任意测试方向条件式，短大圆弧版本无额外条件，允许空间绕行；保完整准确g适用范围。新固定prefix四轴有限预算真0，长轴必要长度.755356<真实S−b=.795674，未排输入，不推出存在。
