@@ -1,0 +1,61 @@
+{
+  "format": "isp-local-exact-verification-summary-v1",
+  "date": "2026-11-26",
+  "source": "2026-11-26-r150-two-physical-polar-cubic-divisibility-verify.py",
+  "sourceSHA256": "e7d28747f11ba81414e38fde0c891fcae003d971477d5058cd4d519abcb19f6b",
+  "arguments": [],
+  "exitCode": 0,
+  "pythonVersion": "3.12.14",
+  "pythonFlintVersion": "0.9.0",
+  "toolChunk": "3516f3",
+  "elapsedSeconds": 0.01635692999116145,
+  "provenance": "Selected scalar metadata copied from actual exec_command output in this session; full small-source execution emitted all 37 inverse hashes. No raw stdout file or raw stdout hash is asserted.",
+  "nineMinorSourceCertificate": {
+    "originalMinorCount": 9,
+    "basisRowsUsed": 11,
+    "pairsProcessed": 8,
+    "sexticMembershipVerified": true,
+    "linearRelationMembershipVerified": true,
+    "sourceMultipliersSHA256": "a7ee99793f8e1048e7e61ea1a34ad6626dd59c9ae3b72db250c909f00c49e234"
+  },
+  "unitCounts": {
+    "nonorthogonalSextic": 5,
+    "doubleCrossD8": 10,
+    "orthogonalPlus": 11,
+    "orthogonalMinus": 11,
+    "total": 37
+  },
+  "all37ExactQQInverseProductsVerified": true,
+  "exclusionGates": [
+    {
+      "label": "nonorthogonal residual cubic remainder determinant",
+      "valueSHA256": "ab3bdbe11be247c882c75e0a512302eaf801040534ddc5995cdb4f8d32bd3269",
+      "inverseSHA256": "6fe9785f7e987364e23d101b9edd0e79246c3f2f5370adb4a5e11b3f31554c56",
+      "normDegree": 5
+    },
+    {
+      "label": "double cross residual quadratic Wronskian",
+      "valueSHA256": "4e005c29f27c80b02274d63c2b89268afa877338e8913f8518d4b094c5e83efe",
+      "inverseSHA256": "d46d60431f229037e0185ee1a12757345f7da6b9103f15662cb2b47afbe5473a",
+      "valueDegree": 7,
+      "inverseDegree": 7
+    },
+    {
+      "label": "orthogonal plus original derivative determinant",
+      "valueSHA256": "708907505e293271dd3ef8dd0efb83de0639382d406a0f3a21fbf8c0d485affd",
+      "inverseSHA256": "c17b7dfd0c66bb91aa4488faf304b2fcb310264ed929a3b17ec367b7e7e6fbe1",
+      "normDegree": 2
+    },
+    {
+      "label": "orthogonal minus original derivative determinant",
+      "valueSHA256": "c46dffc66648936fa49bbbd48d82670a109b5b5cc138203cd0dbdd3b0d03dd1a",
+      "inverseSHA256": "ecadf6a3095f5f4f2d3ba8fd1869a7c6982056813ac80b90f6082b15ff697f19",
+      "normDegree": 2
+    }
+  ],
+  "allOriginalCommonFactorIdentitiesVerified": true,
+  "allCommonFactorAbsorptionsExcluded": true,
+  "allReducedRankTwoVInsideMeanClassified": true,
+  "allRankTwoVClaim": false,
+  "ordinaryISPClaim": false
+}

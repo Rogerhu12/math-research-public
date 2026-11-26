@@ -46,3 +46,6 @@ AI-assisted GPT-6 Astra Pro：[不预设H支撑的原低梯度排除](results/R1
 
 ## 2026-11-26 06:34:34 UTC — Astra-ISP-347c-20261126：相反配对的零基点mean整支排除
 AI-assisted GPT-6 Astra Pro：[原零点最高式](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-opposite-pairings-zero-base-mean-exclusion.md)补足共同范数J=2m³，q−1/b=c两权重支及两代数共轭纤维全排。QQ源0.734565秒、exit0，保第一次结构断言失败的真实范围；一般非零mean继续。
+
+## 2026-11-26 06:36:13 UTC — Astra-ISP-347c-20261126：约化秩二全部内均值层关闭
+AI-assisted GPT-6 Astra Pro：[原双极线整除定理](results/R150-appendix-rank-two-reduced-third-cumulant-inside-mean-complete-classification.md)排尽g²吸收、单系数零和所有∞；九原子式两身份11行/8对，37个QQ逆全回乘，0.016357秒。接已付原低梯度得到全部T3零，继续二jet与外均值。

@@ -29,7 +29,7 @@ rank$H=4$ 的非单位局部块长度5、4、3已排；长度2单零的三种单
 
 全部 ess$T_3\le3$ 已给 matched Bell 零；原 $W_\pm$ 上确有 Cat3 真临界点，不能把 Cat3 整层判空。Bell 非零只可能在 V≠0 且 ess4/5/6。原两原子开集的例外和有限32全参数模型仍按原范围，不能先删 $D=0$ 或合流。
 
-**一般V非零的rankV1全层现已关闭：** [完整临界集定理](results/R150-appendix-rank-one-third-cumulant-complete-critical-classification.md)保原全部33梯度，证明所有rankV1临界点恰为y=a u(s)、H=(a³+4c)u(s)u(s)ᵀ/(6a)、V=c u(s)³，a c≠0，s任意射影点，完整T3=0。证明穷尽五次均值极线的全部除子型，保q重根、D8纤维、t=r真双根与全部无穷远；全部旧311/高接触及新低接触/四两根族不再重做。结合已闭V0和essT3≤3，潜在非零原匹配Bell只可能rankV≥2且essT3=4/5/6。[rankV2对齐内均值完整分类](results/R150-appendix-rank-two-third-cumulant-aligned-mean-pencil-is-zero-third-tensor.md)现证明：两不同点V且y在其张成内、cb³=da³时，任意H的原完整临界点恰为已知两原子T3零族；QQ512/512完整1024门802、∞16/16完整32门78都已付。最高整除还覆盖两polar公共因子次数≤1的全部内均值。仍需公共因子次数≥2时的真实吸收例外、外均值与二jet型V；不能把V支撑当共同支撑。更高rankV和全局原幂来源保持开放。
+**一般V非零的rankV1全层现已关闭：** [完整临界集定理](results/R150-appendix-rank-one-third-cumulant-complete-critical-classification.md)保原全部33梯度，证明所有rankV1临界点恰为y=a u(s)、H=(a³+4c)u(s)u(s)ᵀ/(6a)、V=c u(s)³，a c≠0，s任意射影点，完整T3=0。证明穷尽五次均值极线的全部除子型，保q重根、D8纤维、t=r真双根与全部无穷远；全部旧311/高接触及新低接触/四两根族不再重做。结合已闭V0和essT3≤3，潜在非零原匹配Bell只可能rankV≥2且essT3=4/5/6。[整个约化rankV2内均值完整分类](results/R150-appendix-rank-two-reduced-third-cumulant-inside-mean-complete-classification.md)现已证明：V有两不同点支撑、y在其展平像内时，任意H的原完整临界点恰已知两原子T3零族。原最高整除的公共g²吸收全排，含六次类、D8二重类、W±三点及全部∞；九原小子式身份与37个QQ单位逆保完整来源，已付低梯度512/512与∞门不重算。剩余外均值、非约化二jet型V及更高rankV；不把V本身支撑当y/H共同支撑，全局原幂来源仍开。
 
 ### 1.2 原权十一及更高幂
 

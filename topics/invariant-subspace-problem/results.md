@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R150 整个约化秩二第三累积量的内均值临界层完整分类（2026-11-26，已证明）：** [原双极线整除、全部g²吸收及射影边界](results/R150-appendix-rank-two-reduced-third-cumulant-inside-mean-complete-classification.md)从最高式强制两个均值系数非零并立方对齐，接前稿完整低梯度得唯一两原子T3零族。九原Bézout子式的两来源身份、六次/D8/W±全部37个QQ逆回乘，0.016357秒实际成功。H二点支撑是结论；外均值、二jet和更高秩仍开。
+
 - **R150 单位2+1+1相反基点配对的零基点mean整支为空（2026-11-26，已证明）：** [原孤立零点最高式和完整范数纤维](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-opposite-pairings-zero-base-mean-exclusion.md)从P(U)=0得到全权无除法J=2m³及2N_i³+JP_i²=0；p1/q−1/b=c的非半权以完整Gram秩排除，半权两纤维以原等向2+1分类排除。自足QQ源0.734565秒；未扩到q−1的非零基点mean。
 
 - **R150 两点第三累积量与均值立方系数一致时完整临界层只有零第三矩族（2026-11-26，已证明）：** [原完整H解、低梯度与所有射影门](results/R150-appendix-rank-two-third-cumulant-aligned-mean-pencil-is-zero-third-tensor.md)不预设H支撑，排除全部非零λ；两个QQ512次结式全1024阶门802、∞32阶门78，61.711516秒完整成功。保全V²和四参数链式法则；并由最高整除给polar gcd≤1的整个内均值层。旧两原子族本身不重作新发现。
