@@ -100,7 +100,10 @@ def paths_and_modules(repo):
         paths[role] = topic/relative
         if sha(paths[role]) != expected:
             raise ValueError('Changed complete independent-input dependency: '+role)
-        if role != 'warm_producer':
+        # Only these four modules are executed by this reference provider.
+        # FullHold loads the verified integer oracle itself; hold is a
+        # provenance dependency, not the unrelated original IVP executable.
+        if role in ('observed','scalar','deep_scalar','history'):
             modules[role] = load('_independent_axis_'+role, paths[role], expected)
     return paths, modules
 

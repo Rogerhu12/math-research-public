@@ -161,3 +161,7 @@ read_axisymmetric_so3_report.py 只读完整来源与报告，不重算F/J。它
 | [read_axisymmetric_so3_report.py](../scripts/resume_20261126/read_axisymmetric_so3_report.py) | `0c44ed4962fa6812f91c888d869d50ab089a70438fc933d0fc5589a53a23700c` |
 
 全部源保原始字节。完整三步参数另见 `computations/resume-20261126-axisymmetric-so3-first-steps.json`；控制器只接标量dot-path，因此四项标量误差、历史计数、算子计数及幅度分量逐项取值，不把数组/字典送入紧凑scalar summary。原科学argv/输入/预算不变。
+
+## 实际首次导入失败后的来源更新
+
+上述六源初版完整字节保于 `ace40095a2b343629a4adaa9cd73d34ac098b0a4`。run45811843606 的首 prepare 实际因未消费的旧 IVP 模块导入而失败，未开始新场求解；[完整最小修订与新六源哈希](2026-11-26-axisymmetric-import-failure-repair.md)记录真实 traceback、唯一加载改动及普通 v2 重试。后继科学函数、全部来源守卫与原方法保持；不以静态审查预报运行结果。

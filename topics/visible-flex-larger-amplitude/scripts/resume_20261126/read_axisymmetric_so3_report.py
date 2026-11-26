@@ -14,7 +14,7 @@ import math
 from pathlib import Path
 
 
-DRIVER_SHA = 'e95725a541c9e920b28b0532e297c8cca85578474ce7f23e33d90906f263cf34'
+DRIVER_SHA = '606e00485be3625378916cfa66f6da1803b82005ba14959610bb1a4be7cfb1f9'
 REPORT_SCHEMA = 'complete-independent-axisymmetric-fixed-deep-so3-meridian-QP-v1'
 
 

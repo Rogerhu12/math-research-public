@@ -26,7 +26,7 @@ SCHEMA = 'complete-independent-axisymmetric-SO3-world-geometry-and-original-192-
 OPERATOR_SCHEMA = 'complete-independent-axisymmetric-so3-meridian-with-core-lift-v1'
 PURE_GEOMETRY_SHA256 = 'a2a5d27edddc6fc20f88fde62677d904bb52db5fa9af37ca82d95272cb21a854'
 SELECTOR_SHA256 = 'e783c8a3929a7a31946e8f9ceba86e504a1c4f2139c62c0e7d5eb0c21417abb8'
-REFERENCE_JET_SHA256 = 'e3fb126b1d72808188f08371cdd522c5bf3d9183e8e31399432dbfc14157de4b'
+REFERENCE_JET_SHA256 = '4e65577dc6b17ff4cd8256583eb9adf8b32d31deb84beb8b7ccc400e626205b3'
 KEYS = ('F', 'Fs', 'Fphi', 'Fss', 'Fsphi', 'Fphiphi')
 MARKER_HEIGHT_EXACT = Fraction(1, 1000)
 

@@ -23,7 +23,7 @@ import torch
 
 
 SCHEMA = 'complete-independent-axisymmetric-so3-meridian-with-core-lift-v1'
-REFERENCE_JET_SHA = 'e3fb126b1d72808188f08371cdd522c5bf3d9183e8e31399432dbfc14157de4b'
+REFERENCE_JET_SHA = '4e65577dc6b17ff4cd8256583eb9adf8b32d31deb84beb8b7ccc400e626205b3'
 TORCH_VERSION = '2.5.1'
 
 

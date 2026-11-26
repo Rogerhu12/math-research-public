@@ -29,15 +29,15 @@ from scipy.sparse.linalg import LinearOperator
 
 SCHEMA = 'complete-independent-axisymmetric-fixed-deep-so3-meridian-QP-v1'
 SOURCE_PINS = {
-    'reference': ('scripts/resume_20261126/so3_axisymmetric_reference.py', 'e3fb126b1d72808188f08371cdd522c5bf3d9183e8e31399432dbfc14157de4b'),
+    'reference': ('scripts/resume_20261126/so3_axisymmetric_reference.py', '4e65577dc6b17ff4cd8256583eb9adf8b32d31deb84beb8b7ccc400e626205b3'),
     'warm_producer': ('notes/2026-11-17-parallel-model-fullclosed-hold-warm.py', 'bee5ae587bd519189b0b27c249987d80d82ab66822cd4f1ea4746a769f7fb3c3'),
     'observed': ('scripts/resume_20261120/gauss_observed_closed_gram.py', '26f61a83505938d409ad97fdfd2b3a96d77dd0233810980aa8cd19faa9920d0d'),
     'deep_scalar': ('scripts/resume_20261126/deep_valley_tail_input.py', 'e091f67566ef6a380758a3aac5d79d9b41e4bffcc9a9860e66eaaa9b314257c2'),
     'scalar': ('notes/2026-11-17-parallel-model-full-hold-oracle.py', 'a1ed8fa5d2186f400ea50a1d609574ec6996e59317a57638a6820a59cf0e7670'),
     'integer': ('notes/2026-11-17-parallel-inward-integral-enclosure.py', 'babd589d07c91d8067f9ef2011ae53712aaf6dbdbe22bed25c29116771b237a0'),
     'hold': ('scripts/parallel_20261117_negative_hold_profile_ivp.py', 'ed6ea7d6590775767be9944d9aa305e93e8f054297648757b70e5aef962295a1'),
-    'meridian': ('scripts/resume_20261126/so3_axisymmetric_meridian_operator.py', '7624643d9ee05c1c7f0439050d71e1b8401a60a1b7e75fe63915c03ce24aafbb'),
-    'geometry': ('scripts/resume_20261126/so3_axisymmetric_meridian_geometry.py', 'c0aa15ef62a0ad74e34e88ea97a6aad7f69833bf7b11a6b3dd55b13dc4feecaa'),
+    'meridian': ('scripts/resume_20261126/so3_axisymmetric_meridian_operator.py', '7f26ff35d115d6bfd748a7382e7b3eb159221cd0b12823bee8fa867dee123aaf'),
+    'geometry': ('scripts/resume_20261126/so3_axisymmetric_meridian_geometry.py', '2240a1f68021991a85c502ed3cf67c82f6bac6e1e4e10b3b3286eab120d4f229'),
     'qp': ('scripts/resume_20261120/fullspace_feasible_active_cg_v3.py', 'fb4ec6b81bcabfd1760178f3cad5f5eea7f7b0708c4c5cf11147ca0d52cc4bb4'),
     'spectral': ('scripts/resume_20261120/positive_spectral_gram_weights.py', 'e83742c6f4237eca9d1593199209725d5f898e333f963d88873d5aaf79b0db91'),
     'hessian': ('scripts/resume_20261120/positive_spectral_gram_hessian.py', '29e2cf8cf7e558168bec6cc90df662638d69da188770c17862a511352a0fb8b4'),
