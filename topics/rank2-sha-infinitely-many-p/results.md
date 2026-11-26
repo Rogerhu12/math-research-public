@@ -84,3 +84,6 @@
 
 
 - [R984](results/R984-original-canonical-heegner-cycles-in-geometric-griffiths-group.md)：原R854三个固定Heegner收缩循环在几何Griff²(W)中非零且独立。实际曲线对应的H¹→e_gH³(1)由weight4 Hodge型为零，准确再twist到AJ H³(2)；Picard Kummer的完整交换及有限扩域res/corestr使几何代数平凡类被指定AJ杀掉，由既有7993非零排除。原有限角色给独立性，真实−6收缩把它传到指定Griff³(X) mixed分量；不从Chow/Griff非零外推跨p实现非零。
+
+
+- [R986](results/R986-original-quadratic-two-shift-native-residue-model.md)：对原k=F_(r²)、L=k[t]/π，由lcm(2,e)=2d排尽全部真子域，π非素域系数时t生成，否则t+ω生成；完整norm多项式A²−AB+B²及ω=−A/B直接构造原生绝对域。原ω/t、全部d/2d坐标与原k相对厚norm双向保持；独占helper仅静态检查、未接v8、无新数学运行。该算法不冒当前306 Frobenius阶段的实际加速。
