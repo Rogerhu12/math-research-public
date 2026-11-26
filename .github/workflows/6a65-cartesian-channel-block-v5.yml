@@ -1,0 +1,60 @@
+name: 6a65 actual fixed-g Cartesian channel-block v5
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/6a65-cartesian-channel-block-v5.yml
+      - topics/visible-flexible-closed-surface/ci-requests/6a65-cartesian-channel-block-v5.json
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  actual-fixed-g-channel-block-continuation:
+    if: github.repository == 'Rogerhu12/math-research-public'
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    env:
+      OPENBLAS_NUM_THREADS: "1"
+      OMP_NUM_THREADS: "1"
+    steps:
+      - name: Partially clone the exact trigger source
+        shell: bash
+        run: |
+          set -euo pipefail
+          git clone --filter=blob:none --no-checkout --depth=1 "https://github.com/$GITHUB_REPOSITORY.git" "$GITHUB_WORKSPACE"
+          cd "$GITHUB_WORKSPACE"
+          git sparse-checkout set --no-cone '/README.md' '/topics/visible-flexible-closed-surface/'
+          git fetch --filter=blob:none --depth=1 origin "$GITHUB_SHA"
+          git checkout --detach "$GITHUB_SHA"
+          if [ "$(git rev-parse --is-shallow-repository)" = true ]; then
+            git fetch --filter=blob:none --unshallow origin main
+          fi
+          git merge-base --is-ancestor "$GITHUB_SHA" origin/main
+          test "$(git rev-parse HEAD)" = "$GITHUB_SHA"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22.23.5"
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install the frozen numerical runtime
+        run: python -m pip install numpy==2.3.5 scipy==1.17.0
+      - name: Compile the explicit new bootstrap and complete solver
+        shell: bash
+        run: |
+          set -euo pipefail
+          python -m py_compile \
+            topics/visible-flexible-closed-surface/scripts/6a65-actions-cartesian-channel-block-bootstrap-v5.py \
+            topics/visible-flexible-closed-surface/scripts/6a65-actions-cartesian-channel-block-v5-20261126.py \
+            topics/visible-flexible-closed-surface/scripts/6a65-cartesian-independent-experiment-v5.py \
+            topics/visible-flexible-closed-surface/scripts/6a65-cartesian-exact-channel-blocks.py
+      - name: Regenerate actual source then run complete channel-block attempts
+        shell: bash
+        env:
+          CART_COLD_TOKEN: ${{ github.token }}
+          CART_CONTINUATION_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          python topics/visible-flexible-closed-surface/scripts/6a65-actions-cartesian-channel-block-bootstrap-v5.py \
+            --request topics/visible-flexible-closed-surface/ci-requests/6a65-cartesian-channel-block-v5.json \
+            --directory "$RUNNER_TEMP/visible-flex-cartesian-channel-block-v5-$GITHUB_RUN_ID-$GITHUB_RUN_ATTEMPT"
