@@ -18,3 +18,7 @@
 ## 2026-11-26：03b完整archive003
 
 [实际26/27与后继](2026-11-26-actual-integral-SO3-first-direction-26-27.md)登记已返21–29的完整92518B/cabb队列逐字归档（包括28、29真实失败），全部9对象/argv及archive002指针保。完整来源/每条实际状态见computations/resume-20261126-followups-03b-archive003-ledger.json。新655d同范数续方向为全新完整对象，不改旧对象或实际journal。
+
+## 2026-11-26：04完整archive002
+
+[实际48/49](2026-11-26-run04-actual48-49-third-backtracked-SOC-accepted.md)返回后，仅已返46/47两个完整原step及其两条完整公开实际记录保[archive002](../computations/resume-20261126-run04-returned-steps-archive-002.json)，32181B/SHA8a4cd8d580e5be9eae3e1d9f9adc5064716dae3b03457e6358cd9587972bf88c。原活动93272B/86c0bfbf全文header及来源身份均在归档；其余16完整对象不变，48/49仍在活动，新加一个完整789f pair后91220B，全部argv、summary、output及cleanup保留。没有移出未返对象、没有删除地点或raw输入；持久attempted IDs原语义不变。

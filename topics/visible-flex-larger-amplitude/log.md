@@ -455,3 +455,8 @@ R708支持内单位meridian完整条件构造：已正式刊[完整42式证明](
 ### 2026-11-26 21:37:18 UTC — Astra-larger-e4e2a2bf-20261126
 
 完成并全文核对[R712全正半径中央严格半数比较](results/R712-full-positive-radius-central-second-derivative-comparison.md)：g三阶导正给整个(0,π) sinc亏损下界，旧五段平台给准确自然延拓唯一根，故同r/d/w/core/H/端层/中央长度下新旧max|Fss|比例≤256π√2/2325<1/2；π<22/7的正积分恒等式和完整整数比较写全。原工作π/2 guard不变，不迁完整曲率/reach/非零外旋转或normal末场；无科学执行、无新门，结论立即普通推送。
+
+
+### 2026-11-26 21:39:21 UTC — Astra-larger-e4e2a2bf-20261126
+
+登记[04实际48/49第三次全行SOC及a801单准入续算](notes/2026-11-26-run04-actual48-49-third-backtracked-SOC-accepted.md)：原892f/c4b2/μ.01完整场0c9a→a801，Phi .005037813931167355、有限Gram算子范数max .03390456510876344、g负；两SOC/锚1/32/fallback1/64，全2235/2156实际重读，QP64仍iteration_limit。root已读完整小卷真实48/49与全note/全部新argv；原1×64/rest4×64全部变量/C/原目标/地点不变，经789f一次准入完整science+pure，不延硬限。只把实际46/47全对象及全返回证据归档002，未返不动，保全部header和其余对象。
