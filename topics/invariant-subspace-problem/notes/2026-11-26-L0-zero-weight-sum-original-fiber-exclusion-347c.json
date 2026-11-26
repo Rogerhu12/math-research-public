@@ -1,0 +1,344 @@
+{
+  "schema": "isp-L0-zero-weight-sum-complete-original-fiber-exclusion-v1",
+  "run_id": 45823574259,
+  "job_id": 139921814299,
+  "status": "entire original L=0,b+c=0 chart excluded after separately closed w=0,w=1 and u=1 charts",
+  "stages": [
+    {
+      "claimExcluded": false,
+      "elapsedSeconds": 0.445038,
+      "gcdDegree": 227,
+      "other": "P1_N1",
+      "resultantDegree": 227,
+      "resultantSha256": "8f978d26bed3743c246af047c73e6816cd35f3f1bbcd096e45a00f8f14817fe7",
+      "stage": "original_lambda_gcd_for_fiber_return"
+    },
+    {
+      "claimExcluded": false,
+      "elapsedSeconds": 0.827415,
+      "gcdDegree": 162,
+      "other": "P1_EBe",
+      "resultantDegree": 280,
+      "resultantSha256": "040d0bf91f7b40fe43fe9d1ca939ba40a7b8a92b0a9f2a13d3ad9f2b10def175",
+      "stage": "original_lambda_gcd_for_fiber_return"
+    },
+    {
+      "claimExcluded": false,
+      "elapsedSeconds": 1.16371,
+      "gcdDegree": 159,
+      "other": "E1_N1",
+      "resultantDegree": 290,
+      "resultantSha256": "47c661d787e9e56b594e8bfbf618768e4a2c7c9bcd91a19ce5aef70c90883055",
+      "stage": "original_lambda_gcd_for_fiber_return"
+    },
+    {
+      "claimExcluded": false,
+      "elapsedSeconds": 1.74782,
+      "gcdDegree": 153,
+      "other": "E1_EBe",
+      "resultantDegree": 366,
+      "resultantSha256": "669d2cb47ded0359e1b7d34dc0b9f61821eb9dd4317ce08e07560da57a2f6fb4",
+      "stage": "original_lambda_gcd_for_fiber_return"
+    },
+    {
+      "claimExcluded": false,
+      "elapsedSeconds": 2.817039,
+      "gcdDegree": 152,
+      "other": "P1_PBe",
+      "resultantDegree": 475,
+      "resultantSha256": "28ae205d830bf9d26aa8e74549bc6f88f1085f8e005ca5110993028643870b67",
+      "stage": "original_lambda_gcd_for_fiber_return"
+    },
+    {
+      "claimExcluded": true,
+      "claimWholeL0Excluded": false,
+      "elapsedSeconds": 3.17363,
+      "factorization": [
+        {
+          "degree": 1,
+          "excludedByOriginalUnits": [
+            "lambda"
+          ],
+          "factor": "x",
+          "multiplicity": 2
+        },
+        {
+          "degree": 1,
+          "excludedByOriginalUnits": [],
+          "factor": "x + (-1)",
+          "multiplicity": 1
+        },
+        {
+          "degree": 2,
+          "excludedByOriginalUnits": [],
+          "factor": "4*x^2 + (-2)*x + 1",
+          "multiplicity": 1
+        },
+        {
+          "degree": 2,
+          "excludedByOriginalUnits": [],
+          "factor": "8*x^2 + (-6)*x + (-1)",
+          "multiplicity": 4
+        },
+        {
+          "degree": 6,
+          "excludedByOriginalUnits": [],
+          "factor": "4*x^6 + (-22)*x^5 + 26*x^4 + (-20)*x^3 + 11*x^2 + (-4)*x + 1",
+          "multiplicity": 4
+        },
+        {
+          "degree": 2,
+          "excludedByOriginalUnits": [
+            "A"
+          ],
+          "factor": "2*x^2 + (-2)*x + 1",
+          "multiplicity": 9
+        },
+        {
+          "degree": 2,
+          "excludedByOriginalUnits": [],
+          "factor": "3*x^2 + (-2)*x + 1",
+          "multiplicity": 15
+        },
+        {
+          "degree": 1,
+          "excludedByOriginalUnits": [],
+          "factor": "2*x + (-1)",
+          "multiplicity": 67
+        }
+      ],
+      "fiberReturns": [
+        {
+          "allWGcdBezoutIdentitiesRemultiplied": true,
+          "commonWDegree": 0,
+          "excluded": true,
+          "factorDegree": 1,
+          "fieldInverseIdentitiesChecked": 48,
+          "history": [
+            {
+              "commonWDegree": 12,
+              "projection": "P1_E1"
+            },
+            {
+              "degree": 1,
+              "removedPaidUnit": "w"
+            },
+            {
+              "commonWDegree": 0,
+              "projection": "P1_N1"
+            }
+          ],
+          "lambdaFactor": "x + (-1)",
+          "originalMultiplicity": 1,
+          "remainingWSha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+          "wholeFiberPaidUnitZero": null
+        },
+        {
+          "allWGcdBezoutIdentitiesRemultiplied": true,
+          "commonWDegree": 0,
+          "excluded": true,
+          "factorDegree": 2,
+          "fieldInverseIdentitiesChecked": 46,
+          "history": [
+            {
+              "commonWDegree": 12,
+              "projection": "P1_E1"
+            },
+            {
+              "commonWDegree": 0,
+              "projection": "P1_N1"
+            }
+          ],
+          "lambdaFactor": "4*x^2 + (-2)*x + 1",
+          "originalMultiplicity": 1,
+          "remainingWSha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+          "wholeFiberPaidUnitZero": null
+        },
+        {
+          "allWGcdBezoutIdentitiesRemultiplied": true,
+          "commonWDegree": 0,
+          "excluded": true,
+          "factorDegree": 2,
+          "fieldInverseIdentitiesChecked": 53,
+          "history": [
+            {
+              "commonWDegree": 13,
+              "projection": "P1_E1"
+            },
+            {
+              "degree": 1,
+              "removedPaidUnit": "w-1"
+            },
+            {
+              "degree": 1,
+              "removedPaidUnit": "w-1"
+            },
+            {
+              "commonWDegree": 0,
+              "projection": "P1_N1"
+            }
+          ],
+          "lambdaFactor": "8*x^2 + (-6)*x + (-1)",
+          "originalMultiplicity": 4,
+          "remainingWSha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+          "wholeFiberPaidUnitZero": null
+        },
+        {
+          "allWGcdBezoutIdentitiesRemultiplied": true,
+          "commonWDegree": 0,
+          "excluded": true,
+          "factorDegree": 6,
+          "fieldInverseIdentitiesChecked": 53,
+          "history": [
+            {
+              "commonWDegree": 13,
+              "projection": "P1_E1"
+            },
+            {
+              "degree": 1,
+              "removedPaidUnit": "pq"
+            },
+            {
+              "degree": 1,
+              "removedPaidUnit": "pq"
+            },
+            {
+              "commonWDegree": 0,
+              "projection": "P1_N1"
+            }
+          ],
+          "lambdaFactor": "4*x^6 + (-22)*x^5 + 26*x^4 + (-20)*x^3 + 11*x^2 + (-4)*x + 1",
+          "originalMultiplicity": 4,
+          "remainingWSha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+          "wholeFiberPaidUnitZero": null
+        },
+        {
+          "allWGcdBezoutIdentitiesRemultiplied": true,
+          "commonWDegree": 0,
+          "excluded": true,
+          "factorDegree": 2,
+          "fieldInverseIdentitiesChecked": 59,
+          "history": [
+            {
+              "commonWDegree": 13,
+              "projection": "P1_E1"
+            },
+            {
+              "degree": 1,
+              "removedPaidUnit": "pq"
+            },
+            {
+              "degree": 1,
+              "removedPaidUnit": "pq"
+            },
+            {
+              "degree": 1,
+              "removedPaidUnit": "pq"
+            },
+            {
+              "degree": 1,
+              "removedPaidUnit": "pq"
+            },
+            {
+              "degree": 1,
+              "removedPaidUnit": "pq"
+            },
+            {
+              "commonWDegree": 0,
+              "projection": "P1_N1"
+            }
+          ],
+          "lambdaFactor": "3*x^2 + (-2)*x + 1",
+          "originalMultiplicity": 15,
+          "remainingWSha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+          "wholeFiberPaidUnitZero": null
+        },
+        {
+          "allWGcdBezoutIdentitiesRemultiplied": true,
+          "commonWDegree": 0,
+          "excluded": true,
+          "factorDegree": 1,
+          "fieldInverseIdentitiesChecked": 63,
+          "history": [
+            {
+              "commonWDegree": 13,
+              "projection": "P1_E1"
+            },
+            {
+              "degree": 1,
+              "removedPaidUnit": "w"
+            },
+            {
+              "degree": 1,
+              "removedPaidUnit": "w"
+            },
+            {
+              "degree": 1,
+              "removedPaidUnit": "w"
+            },
+            {
+              "degree": 1,
+              "removedPaidUnit": "w"
+            },
+            {
+              "degree": 1,
+              "removedPaidUnit": "w"
+            },
+            {
+              "degree": 1,
+              "removedPaidUnit": "w"
+            },
+            {
+              "degree": 1,
+              "removedPaidUnit": "w"
+            },
+            {
+              "commonWDegree": 0,
+              "projection": "P1_N1"
+            }
+          ],
+          "lambdaFactor": "2*x + (-1)",
+          "originalMultiplicity": 67,
+          "remainingWSha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+          "wholeFiberPaidUnitZero": null
+        }
+      ],
+      "fullGcdDegree": 152,
+      "ordinaryISPClaim": false,
+      "peakRssKiB": 46288,
+      "retainedSquarefreeDegree": 14,
+      "sourceSha256": "65a536af980b382626f1fd79d0bf40fa8de364301d43c980507c46a825820481",
+      "stage": "complete_original_L0_l0_fiber_exclusion"
+    }
+  ],
+  "execution_receipt": {
+    "elapsed_seconds": 3.2447022020000063,
+    "max_child_rss_kib": 47168,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "a39e5a6f88c9695ae43abcc6358679a422c4d5e8",
+        "before": "a8213d2429c498852dde5602ccb9019251f01ff6",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "fef43bdf8690f2eec4751d85784a266eacdd0322"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-26T12:51:50.697695+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "45823574259",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-347c-20261126",
+    "source_commit": "a8213d2429c498852dde5602ccb9019251f01ff6",
+    "source_exit_code": 0,
+    "source_git_blob": "4f3c05e6f75bb48214364ac5fbab97b37c7d75a8",
+    "source_sha256": "65a536af980b382626f1fd79d0bf40fa8de364301d43c980507c46a825820481",
+    "stdout_bytes": 19490,
+    "stdout_sha256": "9992706ba1903d35f2e921c657a44ce44117403bc4a9792104b63eec6315bc13",
+    "stop_reason": null
+  },
+  "scope": "L0 and b+c=0 only; L0 complement and other original charts remain open",
+  "ordinary_isp_claim": false
+}
