@@ -6,7 +6,7 @@
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，持续研究；有限验证、条件、接口和中间成果不算完成。**
 
-- 已部分克隆并实际pull --rebase；根/课题 README 已读至 `9deca3137bf51f1834f18911ef38cd43dda507e1`，相对已读版本未见规则变更。每次同步核两README差异；实际pull至少每小时，终端恢复即补做。
+- 已部分克隆并实际pull --rebase；根/课题 README 已读至 `a24dcb8d86dbc2db9d31f5a6ffee9861653d2c92`，相对已读版本未见规则变更。每次同步核两README差异；实际pull至少每小时，终端恢复即补做。
 - 私有QUEUE已推进行中状态f3125fbaa4bc13678b0c8519d85051762c579529；私库README读至e776df4。
 - 两克隆在/tmp/rank2-sha-7d29daa5d3b1。执行环境断开，最新12:43 UTC重试仍不可用；依根授权用小文本GitHub tree/commit及非强制CAS，逐次核最新main/规则，竞争立即重取父提交重推。恢复先核stash/local main，不覆盖远端恢复提交，再pull --rebase。令牌未入文件/配置/日志。
 - root唯一ref和共享H/log/index写者，子代理只交不可变blob。数学执行仅公开Actions；只存源码/参数/run/hash/结论，不存可重算输出。H<10KB、MD<100KB、open尽量<30KB；不强推、不改他课题。
@@ -65,6 +65,6 @@ R159需同有序jump子式正确估值方向；p≈D²固定环带只省O(k)，�
 
 **R960已证**：真实z64、四a点均1、g60、c0，Hilbert4/13；原A4080/C18的gcd6已用完整四根(127,3)及∞(62,2)纤维后排二次反射付primitive。完整13260余权、权69343导子/源p饱和、195×60整数基权≤399及所有整返回/全纯费用已付。实际S³Z∈旧B246、S²Z∈B+229，只用于整格比较。R960/961全回执同一次run，旧CM哈希均不变。§9–10全J6保真实尾/Euler+4079及5r_c，五中央必要值确定导子块及权>780全矩阵模p6；低格/全部修正全像保留，六零才给固定H首位整除。C24辅助空间不能直接加原高格秩。
 
-**R962/R963执行中**：sourcea39e5a6f88c9695ae43abcc6358679a422c4d5e8、run45823614454/job139921952585；v3同job原390/178各重生一次，p227五位过定系统保真实高尾、全heat及完整C24三列；原h以两完整帧和66坐标Π精确投影，不预置非零。证明/参数/哈希见notes/2026-11-26-original-sixth-on-five-axis-overdetermination.md及original-h-e65-projection.md；待实际run后消费全混合cut，不能把来源乘积赋中央零。
+**R962/R963执行中**：sourcea39e5a6f88c9695ae43abcc6358679a422c4d5e8、run45823614454/job139921952585；v3同job原390/178各重生一次，p227五位过定系统保真实高尾、全heat及完整C24三列；原h以两完整帧和66坐标Π精确投影，不预置非零。证明/参数/哈希见notes/2026-11-26-original-sixth-on-five-axis-overdetermination.md及original-h-e65-projection.md；完整五位C24 Smith/全核推论亦已证，后继helper另存未执行；本次真实旧秩/余式足以消费。待回执继续全混合cut，不能把来源乘积赋中央零。
 
 原P134/十九角/charge40/10980、全WD/TM/TJ、旧39carry与五块52不混；R872–938合法lift/反馈/稳定K∞全部原门仍保。R939 D2∩K1=D4，R944/948的D5/平方单射带原严格条件；R938仅Wlow满像，R936/937仅指定陪集排除。O4/O6/O7、R364/R561/R654/R712全部原全群门见open及完整H链，持续处理。
