@@ -431,3 +431,7 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 ### R603 首次完整原mass已闭，改全程能量与边界组织
 
 [原终态](notes/2026-11-26-r603-vtwo-first-mass-public-receipt-agent.md)真实保50接受/51全态及全部原物理回付，末ruling6.2885e14/BC.68010，原sigma历史1.1184e13。中心a=H/v=2仅在初guide准确，末未满足BC的参数不反驳R603。下一用m=h²−H²(1+d²)与二维运动学记忆路线支付全程相容，同时保真实七矩/正势/全历史/pose/reach，不延长同九参数优化。
+
+### B030真实工作行终态须先完整恢复
+
+原run45828479581已completed，但专用logs工具未返回正文；[只读恢复器](notes/2026-11-26-r566-terminal-log-recovery-implementation.md)只读取已结束的同job完整stdout、全hash/JSON/81q身份，输出小收据与唯一最后真实快照，不执行旧科学。随后从实际状态及全部原费用续新工作，不能把未知trial/费用写成0。

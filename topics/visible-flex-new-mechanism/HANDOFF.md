@@ -6,7 +6,7 @@
 
 ## 1. 规则与接手
 
-已部分克隆并实际 `git pull main`，公开根 README、课题 README、HANDOFF、open、results 索引及相关 log/notes 已读。公开已读提交 **9ed825bb5d42a42df3793afed209f0d44cba1c11**（2026-11-26 14:54 UTC；本次实际pull后根/题README空差异）；历次规则及失败原回执保原note；私有 QUEUE 的本题已改为本会话进行中并成功推送：**9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7**；最后实际pull及规则同blob读至 **e0856244e3a0b29ca62a2c55c664b3f795099ffc**（2026-11-26 14:54 UTC；实际pull成功，根README空差异、QUEUE仍本会话）。其它课题的并行认领保留。
+已部分克隆并实际 `git pull main`，公开根 README、课题 README、HANDOFF、open、results 索引及相关 log/notes 已读。公开已读提交 **d25d04855d06f2b2ee195c340d4f2b3f89cce1ab**（2026-11-26 14:56 UTC；本次实际pull后根/题README空差异）；历次规则及失败原回执保原note；私有 QUEUE 的本题已改为本会话进行中并成功推送：**9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7**；最后实际pull及规则同blob读至 **34424e0e2232ab65a0f3a1456360c77f3f4cb444**（2026-11-26 14:56 UTC；实际pull成功，根README空差异、QUEUE仍本会话）。其它课题的并行认领保留。
 
 [八模前交接](notes/HANDOFF-before-eight-mode-natural-final-20261126.md)及其所链前史保全部原规则/成本/范围；09:18、11:20 UTC失联/恢复原账保留；13:54第三次失联后未发布源码仅作不可变checkpoint。root指定临时branch的CLI发布器实际clone/pull/rebase/push，双库规则读账按真实运行更新，API读取不冒pull。每pull核根/题README差异并执行，至少每小时；root独占git/索引，每条结论即推，NFF立即rebase重推。科学仅公开Actions，本地限纸证/源码/原日志解析；已披露4次开发偏离保原note及[恢复记录](notes/2026-11-26-r582-necessary-input-recovery-original-receipt.md)且停止。根12不加机械复跑，根15不留可重算raw。
 
@@ -16,9 +16,9 @@
 
 ## 3. 完整物理约束下的逆设计与有限非圆
 
-B030前三次关停保[原收据](notes/2026-11-26-theta-generic-start-only-shutdown-receipt.md)及全链：run45819650602仅START，无新q/Jac/FINAL，实际571径向/1276峰/1536θ与原trust，η.25895160786/V0；链科学下界2875.870845068秒，三段未刷wall另列且原因未知。B038无末log不当输入。
+[B030前三次关停](notes/2026-11-26-theta-generic-start-only-shutdown-receipt.md)保实际571圈/1276峰及η.25895160786/V0，链科学下界2875.870845068秒，三段未刷wall另列、原因未知。B038无末log不作输入。
 
-[新工作行后端](notes/2026-11-26-r566-working-rows-implementation.md)正式发布：只对实际field/orbit子集形成Jac，每圈仍1536全FFT/原mean E；完整571/1276及所有新违约、全部fine/全峰仍决定接受，fine同margin/t门明确。24真r分批、512工作行仅限制矩阵，不删物理行；新restriction映射一次与实际run共用Jac，不重跑旧fine/旧parity。完整pending/trust/费用随callback刷出；下一据自然原终态继续。
+[工作行后端](notes/2026-11-26-r566-working-rows-implementation.md)run45828479581/job139938706452自然success，科学stdout仍未取到，不能推断q/费用/门。512工作行只限矩阵，完整物理/fine/峰决定接受。[只读原日志恢复](notes/2026-11-26-r566-terminal-log-recovery-implementation.md)现已发布：核同run/job/head后读原终态全部JSON与真实81q，保全部actual/pending/trust/费用，科学0；不重跑旧问题。
 
 [R580](results/R580-finite-tail-polynomial-kernel-obstruction-and-resonant-seed-interface.md)仅排旧多项式；[R582](results/R582-actual-circular-tail-flat-kernel-and-resonant-entry.md)付真无限尾；[R592](results/R592-undivided-finite-order-crossing-and-exact-angular-bound.md)付zs遇有限阶零的undivided接口，当前不造零点。
 

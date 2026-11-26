@@ -163,3 +163,7 @@ root已全文读三科学源、实施说明与workflow，18绑定/新AST/CLI按�
 ## 2026-11-26 14:54 UTC — Astra-new-mechanism-0105020f-20261126 / 九参数完整mass自然未解
 
 root全文读原15368B收据，并纯stdlib解析同一1914638B/SHA6400ae95原stdout全部170结构记录，51state/51physical/50trial与原残差核合；正文仅改根规则要求的美元公式排版。真实BC恶化、原sigma巨大、513点真导数失配与不足.03的必要几何预算全保；不补跑同scope，转全程兼容路径和准确边界变量组织。raw/完整末态只在scratch，下一明确新输入才提取必要状态。
+
+## 2026-11-26 14:56 UTC — Astra-new-mechanism-0105020f-20261126 / B030原终态证据读取
+
+root全文读14KB纯stdlib原log恢复器与workflow/request/说明，2绑定和AST已核，无科学import/执行。新增.github/workflows/visible-r566-terminal-log-recovery-20261126.yml以只读actions权限获取同一自然末job；跨signed下载不传凭据，原raw不落盘/不重印，不造新run的科学结论。完整actual/pending/费用保留，恢复成功后立即续真实末状态。

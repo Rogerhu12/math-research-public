@@ -1,0 +1,31 @@
+{
+  "schema": "r566-working-rows-terminal-log-recovery-v1",
+  "repository": "Rogerhu12/math-research-public",
+  "queue_session": "Astra-new-mechanism-0105020f-20261126",
+  "source_run": 45828479581,
+  "source_job": 139938706452,
+  "source_commit": "9704840a2a00dd8345435f8024fea07187dd9923",
+  "scientific_evaluations": 0,
+  "purpose": "Recover full original terminal stdout after connector Transport closed, retaining actual/pending state and cumulative costs without any scientific replay.",
+  "source_sha256": {
+    "topics/visible-flex-new-mechanism/scripts/r566_terminal_log_recovery_20261126.py": "2d50bbccab6c9e188506489dc36417ed0729c07561aba91c639791c6c371f302",
+    ".github/workflows/visible-r566-terminal-log-recovery-20261126.yml": "2e247d9d0b51a0c74c82db409967c588b66bb2a0a01c7f82af940e339dd69a1f"
+  },
+  "scope": {
+    "terminal_metadata_checked_before_log_download": true,
+    "one_original_stdout_download_streamed_and_fully_hashed": true,
+    "all_tagged_JSON_records_and_81q_identities_parsed": true,
+    "original_actual_last_complete_JSON_reported_exactly_once": true,
+    "original_raw_log_not_reprinted": true,
+    "raw_files_artifacts_releases_or_Git_writes": false,
+    "last_trial_not_accepted_implicitly": true,
+    "all_actual_pending_working_rows_and_trust_kept_in_last_exact_state": true,
+    "costs_cumulative_not_added_across_snapshots": true,
+    "absent_FINAL_means_unflushed_later_work_unknown": true,
+    "token_only_on_fixed_GitHub_API_not_signed_download_redirect": true,
+    "metadata_parser_only_no_models_ODE_SciPy_Numpy_or_tests": true,
+    "maximum_job_minutes": 8,
+    "maximum_parallel_jobs": 1,
+    "continuous_or_README_completion_claim": false
+  }
+}
