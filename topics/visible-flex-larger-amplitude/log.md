@@ -470,3 +470,8 @@ R708支持内单位meridian完整条件构造：已正式刊[完整42式证明](
 ### 2026-11-26 21:45:37 UTC — Astra-larger-e4e2a2bf-20261126
 
 完成[R713准确十二片矩与实际三moment费用](results/R713-exact-smooth-triangle-moments-and-actual-fees.md)及82e6完整消费者/62e5纯再生器/API：准确有理多项式矩和同M_{L+1}余项同时包A/A′/A″，与真实保存字付原求积/width/trig/求和全差额；新全(0,π)导数下界和两角根移动、中央全片h/h_s完整。root全文读证明、41994源、再生器和API，原单快照来源与27原函数工具保。无本地科学/假fee/额外门，外部总均值/参考/节点关联及normal费用仍明确欠付；open§7同步实际48、新seed和费用，§1–6字节不改。
+
+
+### 2026-11-26 21:52:04 UTC — Astra-larger-e4e2a2bf-20261126
+
+刊[完整当前八列PCG五源接线](notes/2026-11-26-current-SO3-eight-column-PCG-complete-source-integration.md)：a0e/333e/78f/6420/0d65全正文，原892f物理/统计/地点及整个ray-SOC后缀保。当前ac03八全A/A*付完整准备成本、76b固定SPD面逆，仅metric分派变；原全μ²I/C/b/norm/真Phi与PhaseI不变。新cache明确真892f及同源manifest，真实restart不回initial。root全读四diff、再生器、说明/参数并对照接口；公开summary已去掉对角数组JSON字符串，矩阵及对角只runner。完整a801/六历史ready仅准备，实际新父/新地点返回须新请求，无科学执行或速度宣称。
