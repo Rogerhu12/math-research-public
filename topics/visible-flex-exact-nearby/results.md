@@ -323,3 +323,5 @@
 - IR完整实际入口：在[IR原公式](results/R149-supplement-complete-inverse-density-row-residuals.md)后新增owner/worker/generator及[50当前/6原native manifest](notes/2026-11-27-inverse-density-rows-inputs.json)，只消费全IL成功；99自然目标与全prefix保存链已齐，actual待首run。原A/Θ/physical两mean及fullSchur仍保。
 
 - [ANH：实际全高频参数forcing](results/R147-supplement-actual-complete-high-parameter-forcing.md)：45897599620/1全12球，paired L2<.002909/high97<.001846，joint incoming96/physical96误差<2.906e−5/2.055e−5；完整mean泄漏、raw192/head下界、unobserved sine及PDE误差保。未应用全incoming逆，target B^-1/finite/νphase仍付原费用。
+
+- [PH：紧mean中心的实际全正侧given-head高逆](results/R144-supplement-actual-positive-high-graph-for-compact-centres.md)：相对全局Riccati付主部、完整M32 remainder正预算转移，50个saved有理比较过；两窗口body<.305/.792、interface<.000586/.015293，root<.442/3.902，完整七端口及真实raw outer全付。原低193/S不改，full low-high/finite/ν/非线性另付。
