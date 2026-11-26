@@ -217,3 +217,6 @@ AI-assisted GPT-6 Astra Pro：[新输入检查点](notes/2026-11-26-original-jet
 
 ## 2026-11-26 11:12:05 UTC — Astra-ISP-347c-20261126：四物理变量原七式与真实模结果
 AI-assisted GPT-6 Astra Pro：[等价归约](results/R150-appendix-rank-three-double-plus-single-zero-hp-four-variable-quadratic-reduction.md)逐式恢复原十二式，原Π与所有反向分母完整支付；mod1031/e700实际基1，QQ提升继续。七任务真实结果分开留小回执，原jet/直接39式超时仍未决；新共享workflow执行M6完整24维原代数，替换旧大分式路径，未提前声称排除。
+
+## 2026-11-26 11:15:02 UTC — Astra-ISP-347c-20261126：M6真实单位返回后继续原L0与Ke
+AI-assisted GPT-6 Astra Pro：[新执行检查点](notes/2026-11-26-L0-and-true-Ke-execution-checkpoint-347c.md)登记24维M6原E1/EB结果式单位、48真逆与2.914484秒真实返回；同推L0二次域分母账本和H21真正Ke的原I*C=1输入。新共享workflow仅跑这两个未闭输入，模单位不作提升证书。
