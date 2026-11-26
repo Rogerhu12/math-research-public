@@ -568,3 +568,8 @@ open原28316B全文按链接层级移入open-before-fixed-E-and-K-only归档，�
 ## 2026-11-27｜R625混合图27接受后的真实长度下盒
 
 全文核14752B收据、1282679B原stdout唯一FINAL、26152B源键序混合state及首完整LU/LSMR与fixed-fine。新190.431593844秒另来源.30223763秒，27接受/122域拒绝/28Jac/36LSMR×1600；原残差改善但fine ruling9.27936e13/真末.541仍未解。末L2.1000000000449615下墙有完整链，H/v/β内点，不把早期泛域错误全补分类。FINAL inherited默认布尔错误仅metadata；实际28新真积分齐付。下一同原盒可行活跃L/完整行方向，原锚和本次fine直接继承。
+
+
+## 2026-11-27｜B030原33调用/32交换与真实secant新协议
+
+全文核8403B收据，原24320183B stdout/575651B FINAL hash及33START/33Jac/32OUTER原因逐项吻合，原J520.479508672秒/1548块不重复收费。独立读官方v1.17 Python首callback及C MODE0→mode1→MODEM1控制流、x0/v/packed LDL路径，五份原源hash全合；可证旧段未学到非平凡BFGS，不能反造旧H/λ。新同冻结λ/同行函数secant与Powell正定式纸核，真实phase/缺行/角语义及orbit-min边界明确；纯协议，无本地科学。

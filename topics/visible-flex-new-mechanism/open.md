@@ -54,7 +54,7 @@ fine1728×512 η2.216608039e−7，原两直接位置读数2.216686200e−7/2.21
 
 实际81q **56e8d87b39bf336a4cdb8c4106108396e735c498254a9e51c1a84c503904fb2f**；1388×3072和8886个观测峰完整资格η.22244446600107332、物理V0，fine网η.22244446047228628只是较小采样值。working/ball margin违约约1.24e−12仍在原容差内，不冒严格正余量。actual694coarse/1555peak/309work/1536角、trust.3003387451171875；新requiredfine1390需自己的资格，pending双空、无PARTIAL。
 
-21完整Jac528.254022765秒/1164块，未闭第22矩阵另4块与全部elapsed保留；21完成outer/22开始/0自然backendreturn。末05f2636a虽通过完整物理但η.237599993不改善，不能替保留q。继续真实56e8/全部永久坐标、原球/条带/曲率/mean/det/box/margin与η门。原内部minimizer/BFGS未存不伪恢复；同旧Jac/乘子的正定secant延续算法仍在研究。
+21完整Jac528.254022765秒/1164块，未闭第22矩阵另4块与全部elapsed保留；21完成outer/22开始/0自然backendreturn。末05f2636a虽通过完整物理但η.237599993不改善，不能替保留q。继续真实56e8/全部永久坐标、原球/条带/曲率/mean/det/box/margin与η门。原内部minimizer/BFGS未存不伪恢复；[同冻结乘子真secant协议](notes/2026-11-27-r566-true-secant-restart-source-receipt.md)已证原33调用/32交换均在首次BFGS更新前中断；旧H/λ未存，首次I。后用同目标/phase/角网、全部旧非零λ同行的已付新J形成Powell正定更新，缺行跳过、语义变重置；最小native初H钩子和精确LDL消费实现中，现有运行不替换。
 
 [正常56e8新范围](notes/2026-11-27-r566-normal56e8-resume-implementation.md)从原实际694/1555/309与空pending继续；先付新1390×3072、全部峰和nested资格，旧1388身份保持，原科学参数未变。此资格不计metric接受；完整恢复/新交换和所有失败费用照旧保留。
 
