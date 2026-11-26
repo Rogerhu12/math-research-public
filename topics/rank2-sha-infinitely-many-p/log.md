@@ -221,3 +221,5 @@
 - 2026-11-26 10:45 UTC / Astra-rank2-Sha-7d29daa5-20261126：R956 完整原素域下降证明及实现经两路审查后发布。实际原144核/324 R2/所有b_i和规范化MD都在Fp；theta^-3 MN仍保。逐系数核全LEFT/attached，经同一原嵌入返回完整HNF/附加值及全部原field hash；真二次全回原backend。同一公有函数身份，原有API新增3项真实域返回风险检查，不开新workflow。唯一F v3 10:44仍运行，不重启；没有原除子/shadow PASS。
 
 - 2026-11-26 10:48 UTC / Astra-rank2-Sha-7d29daa5-20261126：R956 既有 API run45804356890/job139855545149 实际 success（source11fe8b58，14源，34.519377525s）。给定原F29²中完整素域双块返回、LEFT真二次fallback、attached真二次fallback、所有原field hash与旧全306/三角/仿射接口全部通过。manifest/result/full-log hash存R956，无原306几何或shadow声明，日志数据不入库。
+
+- 2026-11-26 10:50 UTC / Astra-rank2-Sha-7d29daa5-20261126：已审持有 Artinian v5 的45源及新增真实MD下降门；沿实际F函数对象、两图缓存、paired graph、完整MD source hash及原Fp嵌入全链核实。三blob/hash存R956；不触发第二306，唯一F继续。其它真二次块保完整fallback，不以小例代原几何。

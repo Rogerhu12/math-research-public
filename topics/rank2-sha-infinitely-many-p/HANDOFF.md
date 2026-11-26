@@ -6,7 +6,7 @@
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，持续研究；有限验证、条件、接口和中间成果不算完成。**
 
-- 已部分克隆并实际pull --rebase；根/课题 README 已读至 `964e8c1b7189bf02b3625f133cad004c2443ffe3`，相对已读版本未见规则变更。每次同步核两README差异；实际pull至少每小时，终端恢复即补做。
+- 已部分克隆并实际pull --rebase；根/课题 README 已读至 `8bb42c049fbfaa52083fcfe73f5e37186ef5dcc3`，相对已读版本未见规则变更。每次同步核两README差异；实际pull至少每小时，终端恢复即补做。
 - 私有QUEUE已推进行中状态f3125fbaa4bc13678b0c8519d85051762c579529；私库README读至e776df4。
 - 两克隆在/tmp/rank2-sha-7d29daa5d3b1。执行环境断开，最新10:24:44 UTC重试仍不可用；依根授权用小文本GitHub tree/commit及非强制CAS，逐次核最新main/规则，竞争立即重取父提交重推。恢复先核stash/local main，不覆盖远端恢复提交，再pull --rebase。令牌未入文件/配置/日志。
 - root唯一ref和共享H/log/index写者，子代理只交不可变blob。数学执行仅公开Actions；只存源码/参数/run/hash/结论，不存可重算输出。H<10KB、MD<100KB、open尽量<30KB；不强推、不改他课题。
@@ -39,13 +39,13 @@ R942§13全306 W构造：原528 R3在ξ2整纤维满秩，Q(5)原Fp逆及5/6真�
 
 **R956**全LEFT/attached逐项真素域下降，忠实平坦及同一全块操作保完整原行模/附加列；全部HNF/hash送回原R。实际全部b_i和规范化MD可降，theta^-3 MN不丢。真二次系数完整回退，既有API45804356890/job139855545149已success，14源/34.519377525s，三项新增域返回及所有旧接口通过；全hash见R956，当前F不重启。
 
-### 已审持有的后继Artinian v4
+### 已审持有的后继Artinian v5
 
-R955§6准确保存全部blob/hash。尚未挂触发路径：
+R956末节准确保存最新blob/hash，继承R955§6全部门；新增强制实际F两图MD真实下降/完整源返回，已沿消费者全链核准。尚未挂触发路径：
 
-- producer02dc1f76f03c9aa779584c64f14e999369b2ccdb；
-- launcher33c973d77063d92dadbda935bad31435630a08e0；
-- request16a9668f6e7f80ec70d33745b2d38026f813620a；
+- producer7df9e025dfab74f037c5eb11a5bde5c5e5594583；
+- launcher53b5bcf6684da98806d38187b9576fb919873a3f；
+- request3f3970dbbcc0196fca9fcf780a675c26796b7a24；
 - workflow5713d440f42e1bd2f638944ce2dc9d3d4ddd1d5b。
 
 45源、固定Sage10.6/离线只读、r29/q2453/batch64/minimal/两份原PASS pins不改；四类+一map+两geometry+一Miller方法的实际身份均核，原main/两图/四交/九对/全厚迹和18×9保持。等待唯一F实际终点，结合实际瓶颈接入，不提前称原W/除子/shadow PASS。

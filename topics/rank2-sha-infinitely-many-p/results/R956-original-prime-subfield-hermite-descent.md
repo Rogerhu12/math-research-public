@@ -272,3 +272,17 @@ weak-Popov 条件误当条目次数帽。
 - 完整 job 日志按工具 UTF-8 保 BOM：294028 B，SHA256 `efd35f8000b04d3d32551d6922acbe180c22d124ae348f5aef7e33f66843675b`。
 
 这次执行检验的是本节真实返回风险和既有接口；没有重建原 Y、原映射、F 除子或 shadow，不能据其用时推断原306的加速倍数。未保存可重算日志或输出数据。
+
+## 已审后继原 Artinian 入口 v5（尚未触发）
+
+本小 API 成功后，后继真实入口固定同一 bounded 源摘要 `7a815e44…c1c9a192`，保 R955§6 的45份来源及所有旧 pins/原main/四交/九对/全厚Miller门。新增门只读实际 `geometry["F_poles"]`，并要求其函数对象正是原 `six["F_y"]`：两图的真实分母逐系数落在原Fp；其真正 paired graph 的 `complete_denominator_image` 来源摘要必须等于同一原 MD operator，形状306×306、完整像与所有来源回投均核，且 R956 的 `applied` 和原域返回门确实通过。含真二次系数的其它块仍允许完整 fallback，不把它们全强称可下降。
+
+root 已沿原 `complete_paired_fraction_graph`、`zero_pole_ideals`、geometry direct cache 与实际 embedding context 核准每个键、对象和 MD 来源连接。该 MD 调用实际不带 attached；后续含 MN 的全附加求解不被此门替代。
+
+| 待接路径（课题目录内） | Git blob | 字节数 / SHA256 |
+|---|---|---|
+| `scripts/produce-original-triangular-artinian-shadow.py` | `7df9e025dfab74f037c5eb11a5bde5c5e5594583` | 22186 / `1e857feb4af384f3855a1a67e15552c3cb12064b62faf258e8e75a344f265c7b` |
+| `scripts/launch-original-triangular-artinian-shadow.py` | `53b5bcf6684da98806d38187b9576fb919873a3f` | 10309 / `fde822004fe398ec93384ca063870ef3e51bbba7ecd26255df1a666545499de3` |
+| `ci/original-triangular-artinian-shadow-request.json` | `3f3970dbbcc0196fca9fcf780a675c26796b7a24` | 827 / `c5286d90af616689070aae1c1f7dfede64cde60cb313eef66663bffe2f8b682a` |
+
+workflow 仍为 R955§6 的 blob `5713d440f42e1bd2f638944ce2dc9d3d4ddd1d5b`。r29/q2453/batch64/minimal/两份原 PASS pins 不变。上述三份源码暂只以不可变 blob 持有，不挂触发路径；当前唯一 F 的实际终点之前不并开第二份原306。原 F/完整 shadow 的真实结果尚未取得。
