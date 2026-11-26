@@ -1,5 +1,5 @@
 # 交接：可见且有厚度的闭曲面等距弯曲
-<!-- 6a65-ci-rules --> run 45778054176/1；实际 pull #5 至 `1f3909b5bed8ab842f9a2df9bef7cbb6676f755c`；2026-11-26T07:50:04+00:00；双 README 无差异，沿用根已读规则；回执原因 pre-publish:replay-r211 step 2 exit 0 accepted True。
+<!-- 6a65-ci-rules --> run 45778054176/1；实际 pull #6 至 `a06ec1367328faaf06e80e0deba9353877937cb8`；2026-11-26T07:50:05+00:00；双 README 无差异，沿用根已读规则；回执原因 pre-process:replay-quartic-001。
 
 维护会话：**Astra-visible-flex-6a65e705-20261126**，2026-11-26。**进行中，尚未达到本轮完整目标，不以阶段结果收尾。**
 
