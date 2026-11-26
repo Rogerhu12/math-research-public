@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R271 同一精确相容塔的近最优窗口扩至三分之二幂（2026-11-27，已证明）：** [固定基数负相关与完整同源真核比较](results/R271-appendix-fixed-cardinality-negative-correlation-near-optimal-compatible-vacuum-towers.md)直接控制真实σ_r||v_r||，未忽略碰撞或更换列；L=o(x^(2/3))时全塔趋最优，平方损失O(L(L+logx)²/x²)。返回同forcing/完整Gram/真实短核距离，固定头误差降为O_m((logx)^(3/2)/x)，Chebyshev模型窗从exp12d⁴降至exp9d⁴；原全局母窗与稳定范围端点仍开。
+
 - **R150 S0/Lt0、g2非零的原θ伪余式双零例外为空（2026-11-27，已证明）：** [完整82次参数覆盖与172维原单位](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-theta-remainder-zero-exclusion.md)返回九个低/首项谱及末43次谱，原Res_t(E1,EB)真逆实际乘回1；θ/d两根均保，不假设二次塔不可约。自含新源exit0/26.732127秒/49952KiB，旧直接数域运行中断不改标成功；剩余一般图可合法用θ=−r0/r1。
 
 - **R12 整个自伴Deddens核与任意可分重数的不变投影已刻画（2026-11-27，已证明）：** [全尾块估计与完整乘法场证明](results/R12-appendix-selfadjoint-deddens-core-and-all-separable-multiplicity-invariant-projections.md)给D_A∩D_A*=L∞乘法MASA；双成本控制的非对角块以(2^m−1)α_m/β_(2^m−1)趋零。真实A不变投影若有有限成本只能0/I；任意可分重数中只允许常值重数投影，正性与逐对角积分处理无限重数。没有赋予未知投影成本假设；文献现状核至综述2026-10-23 v2，普通ISP未闭。

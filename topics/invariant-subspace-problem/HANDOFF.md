@@ -5,9 +5,9 @@
 ## 目标、规则与执行
 
 - **普通复可分无限维 Hilbert ISP 未完成。** 仅全体有界算子的存在定理或完整反例算完成。
-- **最近实际 pull / 已读规则提交：** `dddd38c1c6628ad6f448ebbfe2dbee0892559e64`（2026-11-26 19:22:14 UTC；本地部分克隆）；本次两 README diff 无变化。每次 pull 且至少每小时检查并更新本项。
+- **最近实际 pull / 已读规则提交：** `a680904f6161a7d638b84be0adb60b7e857ddcc9`（2026-11-26 19:28:36 UTC；本地部分克隆）；本次两 README diff 无变化。每次 pull 且至少每小时检查并更新本项。
 - 私库 QUEUE 接手已推 `5746fa79a74af4975476d400dfbe0c4e5cb9ae9d`；私库根规则已读至 `ec011a5c25eeb7aed6eea040d601e7351726ede9`。每结论单推，非快进即 pull --rebase 再推；不 force，令牌仅 CLI。
-- 本轮本地终端可用。前会话执行身份及全部原交接保[接手快照](notes/2026-11-27-handoff-at-takeover-8542.md)；旧执行失败不改标成功，已登记结论不重做。
+- 本轮本地终端可用。前会话执行身份及全部原交接保[接手快照](notes/2026-11-27-handoff-at-takeover-8542.md)；本轮后续完整细节保[第二快照](notes/2026-11-27-handoff-before-new-tower-and-closure-8542.md)。失败不改标成功，已登记不重做。
 - 仅保源、参数、SHA、小回执；MD<100KB、H<10KB、open尽量<30KB、topic<200MB，不写根LOG。已读本轮 log；notes 按交接路径与结果索引定点续读。
 - 正在推进：R271 同一 w 的真实终端/稳定范围；R150 S0三值互异Lt0原r1非零一般图；文献与 Deddens 同源插值。完整证明登记后即接下一未闭项。
 
@@ -22,11 +22,8 @@
 
 ### unit211原剩余图
 
-- L0的w0/w1及[b+c0整支](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-L0-zero-weight-sum-exclusion.md)均闭；后者λgcd152六因子14次、全部原w域gcd1、322真逆/Bézout，3.173630秒。旧Φ=−ρN(b+c)同步关闭；旧三参数超时仍照实留档。
-- L0只续b+c非零补图。p+q2对称三参数九式atlas2.851085秒完成，ρ投影43.769129秒完成；保(1,2)线性λ曲线W、(7,4)曲线G、(7,12)P1双零面及所有余交点。[W整曲线已闭](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-L0-linear-lambda-curve-exclusion.md)：λ有理参数保2w+1强迫单位与A零面，三原QQ w结式51/60/99的gcd51→16→0，扩展gcd实际回乘，0.406508秒/exit0。续G、双零及余交点；G原QQ门仍在运行；P1双零展开门实际115.316614秒触4GiB，无I*C=1，不重跑。新两图用β的原ρ一次系数：其全零纤维独立保留，非零图完整λ投影/原w域返回，仅原已付单位与W。多变量gcd1不作无解。
-- [S0/Af0/L非零整层](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Af0-L-nonzero-complete-exclusion.md)已闭：四QQ投影、八因子20次、原z域全gcd1，109.926880秒；首项λ1/2/J3及旧碰撞已另付。P1双系数零与Lt0小J亦闭，Af两面保留，旧格式化失败不改成功。
-- **[S0/h1或k1整碰撞现闭](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-h1-k1-value-collision-complete-exclusion.md)：** 原λ二次谱4λ²−5λ+2，490.260824秒投影exit2仅五b值；同一d²=−7的全部10参数返回原P1/E1/EB，五原q域全gcd1，55/45/41/41/49真逆，0.156409秒/exit0（run45828523733/job139938856153）。不重跑490秒投影。
-- **[S0整个h=k碰撞已闭](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-equal-values-complete-exclusion.md)**：补齐2λ²=1同λ二次域，三原156次结式/16次覆盖全部返回原q式；P1双零亦付，新源12.271560秒/exit0。旧1270.862秒driver终止仍是未决执行，不改标；勿重跑。**[Lt0/g2=0面已闭](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-theta-leading-zero-exclusion.md)**，全部72维原单位4.738630秒已付。**[g2非零的θ余式双零例外已闭](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-theta-remainder-zero-exclusion.md)**：82次覆盖全返，末172维原E1/EB单位，26.732127秒/exit0。仅续三值互异r1非零一般图，合法θ=−r0/r1。
+- L0的w0/w1、b+c0整支与W线性λ整曲线均闭；原同域返回/单位证书见结果索引与第二快照。仅续b+c非零的G(7,4)、P1双零及余交点；新β一次系数全零/非零两图保全部原纤维。旧三参数超时与双零115.316614秒/4GiB仍未决，不重跑。
+- S0/Af0/L非零、h1/k1、整个h=k三种碰撞及Lt0/g2零面均闭，原全部共轭、首项零与P1双零已付；细节保第二快照。新h=k同λ返回12.271560秒，旧1270.862秒driver终止仍未决。[Lt0原θ余式双零例外](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-theta-remainder-zero-exclusion.md)也闭：82次覆盖全返，末172维原E1/EB单位26.732127秒/exit0。仅续Af非零、三值互异且r1非零一般图，合法θ=−r0/r1。
 - 一般LS非零的两线性Cramer四参数atlas已实际生成，原Δ0全部保留；仍未判空。旧mod1031内存和600秒失败不重跑。
 
 ### rankH3原ess6
@@ -48,6 +45,7 @@ M=kerT、N=closureBM；N=M未证。保同w/u、全部partial、真intersection�
 - 旧τ14极快起点的有限全高度无权Bessel常数2已付，仅引用。[新任意几何起点无限加权行](results/R271-appendix-all-positive-far-hole-moving-coherent-rows-and-matched-source-cost.md)用ω²=S(x+p−1)/(pSx)保全部p≠q交叉，常数Bλ，J≤2x逆权≤27J；真有限头MP型及完整cut保留。f−a_full的Γ²≤27μ1但锚趋0，不能移给有锚f/第二Green。
 - [R=d全高度能量及原截断源全矩](results/R271-appendix-geometric-cutoffs-same-w-complete-energy-and-d-sized-once-mp.md)已证H_C(8Sx)≤Hω。任意同w∈M的P_xw由原行迭代、e^(−47d⁴)全carry误差和整行Bessel支付全部幂矩；x=m+d,h=2d,Q=2d³、真帽cut数d³−5d全合法。旧K*=1+47616·2·512²的一次MP原样接入。
 - [全部固定次数及同源慢增的真实顺次MP](results/R271-appendix-fixed-successive-actual-mp-common-variance-and-slowly-growing-depth.md)已付：共同c_k=2·512^(2k)窗保所有r≤k，准确反馈−Cq_r与终列Σ(−C)^pa⊗(D†)^pΩ保primitive，中间孔数不增。任意同w∈M可选k_m→∞、k_m≤m/12且s_m→0，修正/误差/真实残量平方可和。
+- [同一条件Bernoulli精确塔的新范数界](results/R271-appendix-fixed-cardinality-negative-correlation-near-optimal-compatible-vacuum-towers.md)已证：固定基数负相关保真实σ_r与相容性，J_r≤(exp(128L(L+logλ)²/λ²)+2λ⁻³)/(1−exp(−λ/4))，范围扩至L=o(x^(2/3))。同源Gram/短真核距离δ_L完整保留；固定头误差O_m((logx)^(3/2)/x)，Chebyshev模型x=ceil exp(9d⁴)仍超全局exp(O(d³))母窗，未解决稳定返回。
 - **实际终端k=h−1的增长费仍未付。** 慢增近核不作kerT或closureBM；下一保原同w的C^pP_xw=(−D)^pw_p+真实carry及特殊真空primitive塔，继续终端完整费用/精确残量清除、带锚第二Green。不得删(I−P_K)Gv、原u修正项或换成boson列。
 
 ## 其余开放

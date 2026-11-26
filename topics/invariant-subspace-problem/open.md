@@ -4,7 +4,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-deddens-core-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-compatible-tower-improvement-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -55,7 +55,7 @@ rankH4所有proper局部单零层（长度2–5）已闭，原双点单零的单
 
 **[一般非零mean的原U值坐标覆盖](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-original-U-value-atlas.md)已付：** 保P0=−U0³、完整三moment/值碰撞、原E0/N0图与N(V)仿射式；t系数准确为bcLS/[2(q−1)]。LS非零图只余(f,q,λ,h,k)，L0与S0全系数退化单独保留；[L0/w1原九式现已全排](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-U-value-L0-w1-exclusion.md)：保两共轭与全部P1首项零纤维的QQ范数gcd64→48→0（0.222536秒/exit0），[L0/b+c0整支现亦排空](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-L0-zero-weight-sum-exclusion.md)：原Φ=−ρN(b+c)，新p+q2两参数图保整个κ代数；λgcd152的六保留因子14次全部返回原w式gcd1，322真逆与Bézout全乘回，3.173630秒/exit0。只续w(w−1)非零且b+c非零大补因子；新p+q2对称三参数原九式/因子atlas已实际2.851085秒完成，三主要原投影ρ次降到5，[W线性λ整曲线现已闭](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-L0-linear-lambda-curve-exclusion.md)，原w结式51/60/99、gcd51→16→0，0.406508秒/exit0；续G(7,4)、P1双零及全部余交点；G原QQ门仍待实际结果；P1双零展开门115.316614秒触4GiB无单位。新用β的ρ一次系数分全零/非零两图，完整λ投影及原w域返回，不删除首项纤维。旧三参数Φ到时记录仍未决，不能改标成功。
 
-**[S0/Af0/L非零整层](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Af0-L-nonzero-complete-exclusion.md)已闭：** 四QQ投影只余八因子20次，原z域全gcd1；原碰撞/首项谱及109.926880秒实际身份见正文。P1双系数零和Lt0小J亦闭，Af两面保留。**[h1或k1整碰撞也已闭](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-h1-k1-value-collision-complete-exclusion.md)：** 五个b候选在同一d²=−7域的全部10参数返回原P1/E1/EB，q域全gcd1，0.156409秒/exit0；此前490.260824秒投影exit2如实保留。[整个S0的h=k碰撞现已闭](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-equal-values-complete-exclusion.md)：原三谱覆盖中λhalf已付，2λ²=1两谱的新同λ二次域消元及全部原q纤维均排除（12.271560秒/exit0），P1双零保留。只续Af非零的三值互异Lt0大因子。一般LS非零及L0非零权重和独立开放，旧来源/失败保快照，不重算已闭门。
+**S0已闭范围：** Af0/L非零、h1/k1与整个h=k碰撞均已完整排除；原全部参数/首项零纤维、物理Gram与执行身份保结果索引及本次完整快照。只续Af非零、三值互异的Lt0一般图；g2零面与原θ余式双零已闭，详见下文。一般LS非零及L0非零权重和独立开放，失败照实留档，不重算已闭门。
 
 **[rankH3二重加单点的非零Hp整层ess≤5](results/R150-appendix-rank-three-double-plus-single-second-cumulant-nonzero-hp-essential-six-exclusion.md)：** 原节点/J及At/τ/γ全部零面保留，QQ93/126与两个异常谱六真逆已付，0.011089秒/exit0。勿重做，仅续Hp0四源有限层。
 
@@ -151,3 +151,5 @@ A单射、稠密像、拟幂零且非紧；普通非零真闭不变子空间仍�
 **[S0/Lt0的g2零面现已完整关闭](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-theta-leading-zero-exclusion.md)：** 原λ144次结式/squarefree43保所有低谱，最后36谱返回完整72维原代数；E1/EB结果式真逆实际回乘1，30次真域逆、4.738630秒/exit0。原θ一次首项由J非零支付，不假设二次塔不可约。[g2非零的原θ伪余式R0=R1=0例外也已完整关闭](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-theta-remainder-zero-exclusion.md)：82次覆盖全部返回，末43×2×2原代数的Res_t(E1,EB)真逆乘回1，26.732127秒/exit0。仅续r1非零的一般图，θ=−r0/r1现可合法代入。
 
 **[全部固定次数及同源慢增的真实顺次MP已付](results/R271-appendix-fixed-successive-actual-mp-common-variance-and-slowly-growing-depth.md)：** 共同c_k=2·512^(2k)方差窗保所有r≤k的完整K_(r|k)费用、原−Cq_r反馈与同一母支持；终列准确为Σ(−C)^pa⊗(D†)^pΩ。任意同w∈M可选k_m→∞、k_m≤m/12，使修正/误差/残量平方可和且s_m→0。仍未付k=h_m−1的实际终端费用；近核列不作kerT或closureBM，接同w真实层相关性/精确残量清除。
+
+**[同一相容真空塔的固定基数负相关改进](results/R271-appendix-fixed-cardinality-negative-correlation-near-optimal-compatible-vacuum-towers.md)已证：** 完整物理范数J_r近最优范围由L=o(√x)扩至L=o(x^(2/3))，原相容性、同一forcing与完整Gram不变。平方损失O(L(L+logx)²/x²)；固定头误差O_m((logx)^(3/2)/x)，已付Chebyshev短核源界给x=ceil exp(9d⁴)模型窗。仍超原全局exp(O(d³))母窗；同w到真实短核的δ_L、carry/lift与稳定BM端点继续，不能以小C^(L+1)残量替真实核距离。
