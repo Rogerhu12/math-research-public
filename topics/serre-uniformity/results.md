@@ -8,6 +8,8 @@
 
 ## 新增结论（2026-11-27）
 
+- **R1049（已证明）**：[R1049](results/R1049-original-fN-theta-first-direction-moment.md)：保原F⊗R₋、实际三挠刚化/全部模6相位，η⁵P_FR(η⁶)=t²δ′φ_A/12；原f_N=−t²δ′Σηφ_A/[12(p+1)]。十二代表相位全核；方向逐点单位不代一阶矩非零，原同h筛选仍开。
+
 - **R1048（已证明）**：[R1048](results/R1048-original-AS-primitive-and-kernel-critical-value-norm.md)：原r2实际AS全函数给d(U/h²)=−CξT₀db/(12r^(ℓ+1)A³)。规范H=r^(ℓ+1)(AT₀′−T₀A′)满足H′=h²；原核c₀=−H(b^p)/r modA。canonical J=P/h²及全fine的p次幂差逐点res为零，完整范数化为B(c₀,c₀)=Res∞H^p(h′/h)Pdb。真p-block h²=G₀+b^pG₁给a=[b^(p−3)]h²单位、P=G₁/a；K=−2H₁/a及Wronskian保全源。原f_N²=A(1)²H₀(1)/(18a)，但范数/端点非零仍开，不扩r8。
 
 - **R1047（已证明）**：[R1047](results/R1047-original-MW-saturated-profile-and-common-zero-bound.md)：两行原新部的全部实际MW消去格Σ到前n₀=(p−2)/3个CM系数为饱和单射；任一本原行保M1。若r_ann=rankΣ≥1，原单位闭盘的公共零点总重数≤n₀−r_ann+1，故原有理点≤n₀、非中心≤n₀−1。以整Tate除法保全部尾，使用真实全MW消去，不恢复旧秩零商。最低单位/非中心根排除及O0仍开。

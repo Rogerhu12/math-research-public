@@ -8,17 +8,17 @@
 
 [R1047](results/R1047-original-MW-saturated-profile-and-common-zero-bound.md)：两行原新部的全部实际MW消去格Σ到前n₀=(p−2)/3个CM系数为饱和单射；任一本原行保M1。若r_ann=rankΣ≥1，原单位闭盘的公共零点总重数≤n₀−r_ann+1，故原有理点≤n₀、非中心≤n₀−1。以整Tate除法保全部尾，使用真实全MW消去，不恢复旧秩零商。最低单位/非中心根排除及O0仍开。
 
-[R1046](results/R1046-original-p5-complete-CM-flag-and-MW-nonzero-reduction.md)：原p5 Raynaud最低型的全部w系数也给同一Cauchy旗标，n₀=4g+1、rank n₀、核维2g。双中心全阶零residue、CM双∞最高(±1)^k、full分歧12与所有normal/其它CM返回/全纯项逐项支付，u_k同R1044原单位。实际c=DQv非零且与v正交，R1045全p纯代数lemma排完整contact；p>C_*原MW消去后约化非零、准确M=1。两行均未证明最低w单位项或正赋值深盘只有中心零点，O0全覆盖仍开。
+[R1046](results/R1046-original-p5-complete-CM-flag-and-MW-nonzero-reduction.md)：p5独立付双中心全阶res0、双∞(±1)^k、full分歧12及所有normal/其它CM返回/全纯项，给同一完整旗标。原c=DQv与完整v正交；R1045全p代数lemma排contact，p>C_*实际MW消去后准确M1。最低w单位与非中心根仍开。
 
 [R1045](results/R1045-original-MW-annihilator-nonzero-reduction.md)：原p11、p>C_*的真实本原Λ_Q作用原整CM盘后，完整模p多项式非零，MW消去后准确M=1。更强纯代数适用于全p=6N+5：非零new T若与v=λ+R正交，完整三CM留数与S₀=1迫contact从ℓ升到ℓ+1；原Euler算子给有限₃F₂，degree N<ℓ与局部指数0,1,ℓ排二重零。保完整Q²λ；不要求general new determinant单位，不宣最高J₀、最低w系数单位或深盘唯一零点。
 
-[R1044](results/R1044-original-CM-disc-complete-coefficient-flag.md)：p11原CM盘全部模p系数给完整Cauchy旗标：V_(4g−k)≡u_kJ_(k−1) mod先前列，1≤k≤4g−1，u_k=(-1)^kκ₁^k(2√A_tail)^(3k−2)λ₀^−(4g−k)/[m(3k−1)]均原单位。真实η、光滑平面限制及全C分支惯性给完整微分的齐次代表，E一维图像支付全部normal/其它CM返回/全纯自由项。whole-type系数rank4g−1、核维2g−1；实际B(c,·)全式零 iff (b−1)^(4g)|(T_c−γA)。指定c=DQv仍保Q²；其contact现由R1045排除，原深盘非零根仍待排。
+[R1044](results/R1044-original-CM-disc-complete-coefficient-flag.md)/R1046：两行原CM全部系数给Cauchy旗标V_(ℓ−k)≡u_kJ_(k−1) mod前列，u_k=(-1)^kκ₁^k(2√A_tail)^(3k−2)λ₀^−(ℓ−k)/[m(3k−1)]原单位；真实全分支E/η齐次代表保全部normal与自由项。whole-type rankℓ−1、核维N；指定行整式零 iff(b−1)^ℓ|(T_c−γA)。R1045排实际c=DQv的contact，非中心根仍开。
 
 R1037/40分别支付p11/p5实际good BT的两次PD、原source Fp²/Hermitian与Π²=−p、B整对称完美。Q=ε⁻²ΦΠ是实际Fil的Lie算子，模π为quo(r^k a(b^p),A²) modA（外系数固定）；k分别8g−2/8g+2。核c₀准确一维纯正δ，负δ单射。完整v=(1−Q)λ保degree-p返回；Λ_Q=B(v,QD·)在全p>C_*本原并杀原全部MW饱和格。K_Q=(1/2)P_(DQv)(1)必须读完整商，Q²不可删；B(c₀,J₀)=−1/8不代K_Q单位。
 
 R1038原p5双中心与图二次角色、新quadratic PS/St逐型、e₁G[p∞]≅e₁B[p∞]、bounded lift先减prime-to-p Teich挠点均已成；只有formal/B上施e₁。两节点同一Dickson无额外2，原完整首log=εΣθ(λ+R_p)f，全部p≥41准确Fm；p11相应R1023/24。R1026纯代数单P1非整除给明确绝对C_*，p5原负δ运输及额外CM域排除/原6p正CM方向由R1040支付。未宣整个p5 J良好。
 
-R1032/33与R1039分别给两行完整原CM第4m层κ₁R_L(1)dF及原z=ε³w、w=(a−1)/p³；Abel-log/formal除pε整，全部p倍积分分母已付，modp次数≤n₀（p11为4g−1，p5为4g+1），whole-block M1。p11第二列R1042现由R1044全旗标涵盖；两个结果均保其它CM既定返回，D_aux只要求当前标记regular。p5全后继列及两行指定MW非零现由R1045/46闭合；原最低深盘单位项和非零根仍待排。
+R1032/33(p11)、R1039(p5)给完整首CM层κ₁R_L(1)dF、原z=ε³w及Abel/formal除pε整，所有p倍积分分母保留，约化次数≤n₀。首列及后继由R1044–47消费；D_aux只在当前CM标记regular，其它CM返回保留。最低单位和非零根仍开。
 
 R1035/36实际Lie格与完整split-Hecke中心F₀、原J中D₀非挠paired块重数一已核，未冒辅助Res的C²。T5版和Q版实际消去都保真实原格；所选Q简单商Néron格不能从p-adic type直和自动推出。R1041原r2 bare读数是B(c₀,c₀)，R1043原f_N读数是B(c₀,v)，两者与K_Q不同，分别仍待非零。
 
@@ -29,6 +29,8 @@ R1018/19/21原形式点、真实A=T5²/Z=(T31−32)T5²保Fm及杀CM、full-p整
 R1只把全部异常缩为p>37的完整N_ns；**p≡2,5 mod9只是另加小惯性I_p=C³的结论**。R317的应用另外要求整j、K=Q(√−3)、σ=1，以及实际二除法域和三除法S3商域同时一致。完整惯性、非整j、变化K、σ非平凡及异小除法域的大导子支路，均未由当前CM证明链排除。原导子下界不是上界。O1/O2研究指定辅助源，不是完整剩余情形；真正全局高度也仍待证。逐条假设见[R1003](results/R1003-global-scope-and-remaining-branches.md)，后继不得省略此覆盖缺口。
 
 ## O1：全p同一真实本原标签的临界非零
+
+[R1049](results/R1049-original-fN-theta-first-direction-moment.md)：保原F⊗R₋、实际三挠刚化/全部模6相位，η⁵P_FR(η⁶)=t²δ′φ_A/12；原f_N=−t²δ′Σηφ_A/[12(p+1)]。十二代表相位全核；方向逐点单位不代一阶矩非零，原同h筛选仍开。
 
 原f_N新增公开反例搜索严格200000<p≤500000、p2/5mod9，见[方法](notes/2026-11-27-original-scalar-obstruction-new-window-method.md)。只消费实际完成前缀/首个新零回执，不重算R706旧窗、不以有限非零推全称；纸面主线继续。
 

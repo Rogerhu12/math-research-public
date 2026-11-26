@@ -345,3 +345,8 @@
 ### 2026-11-27 01:48 Asia/Taipei — R1048 实际AS primitive与核critical-value范数
 - [R1048](results/R1048-original-AS-primitive-and-kernel-critical-value-norm.md)：原r2实际AS全函数给d(U/h²)=−CξT₀db/(12r^(ℓ+1)A³)。规范H=r^(ℓ+1)(AT₀′−T₀A′)满足H′=h²；原核c₀=−H(b^p)/r modA。canonical J=P/h²及全fine的p次幂差逐点res为零，完整范数化为B(c₀,c₀)=Res∞H^p(h′/h)Pdb。真p-block h²=G₀+b^pG₁给a=[b^(p−3)]h²单位、P=G₁/a；K=−2H₁/a及Wronskian保全源。原f_N²=A(1)²H₀(1)/(18a)，但范数/端点非零仍开，不扩r8。
 - 原full-six权/KS相位、完整Cartier主部、fine12、p次幂每处res、canonical J次数与真Hasse² p-block均逐式纸证；root/global全文核准，未将leading单位冒高residue单位。公开新窗[45869953028](https://github.com/Rogerhu12/math-research-public/actions/runs/45869953028)已运行；无本地数学执行，继续原residue与真实CM normal。
+
+### 2026-11-27 02:03 Asia/Taipei — R1049 原f_N的完整theta一阶矩
+- [R1049](results/R1049-original-fN-theta-first-direction-moment.md)：保原F⊗R₋、实际三挠刚化/全部模6相位，η⁵P_FR(η⁶)=t²δ′φ_A/12；原f_N=−t²δ′Σηφ_A/[12(p+1)]。十二代表相位全核；方向逐点单位不代一阶矩非零，原同h筛选仍开。
+- 同一原F⊗R₋实际三挠截面运输、首p零阶jet、Wilson及十二norm表示的完整相位均逐式核对；原共同δ′保留，未以方向单位替一阶矩单位。纸面推导，无数学程序执行。
+- 执行宿主再次断连，按根规矩8改用仓库连接器读取最新main并检查两README差异、带expected_sha非force提交；恢复后立即真实pull --rebase。同步精简H/open的重复入口，完整来源仍在对应结果、旧归档及git历史。
