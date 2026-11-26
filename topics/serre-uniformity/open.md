@@ -2,27 +2,21 @@
 
 **主要目标仍OPEN。** 完整证明绝对常数C，或给出p→∞完整无CM反例族；有限素数、条件结论、低权/局部Abel/部分子群均不够。
 
-此前逐字状态在[最新open归档](open-archive-2026-11-27-before-unified-lowest-type.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重新计算已成输入。
+此前逐字状态在[最新open归档](open-archive-2026-11-27-before-complete-CM-coefficients.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重新计算已成输入。
 
 ## 原最低型：已经付清的输入与准确剩余标量
 
-[R1042](results/R1042-original-CM-disc-second-column-and-finite-corner.md)：p11原CM盘前两列为V_(4g−1)=u₀J₀、V_(4g−2)≡u₁J₁ modkJ₀，J_j=Σe_s/(1−s)^(j+2)，u₁=16κ₁²A_tail²λ₀^−(4g−2)/(5m)原单位。在J₀核上完整CM<7m全零，三中心层与所有反馈付清；真正整E杀完整C-filter核，给E x^(6g−1)=x^(6g−1)+4Ax^(4g−1)+(16/5)A²x^(2g−1)。故whole-type前两列rank2；指定MW配对仍待非零，不删第一列倍数。
+[R1044](results/R1044-original-CM-disc-complete-coefficient-flag.md)：p11原CM盘全部模p系数给完整Cauchy旗标：V_(4g−k)≡u_kJ_(k−1) mod先前列，1≤k≤4g−1，u_k=(-1)^kκ₁^k(2√A_tail)^(3k−2)λ₀^−(4g−k)/[m(3k−1)]均原单位。真实η、光滑平面限制及全C分支惯性给完整微分的齐次代表，E一维图像支付全部normal/其它CM返回/全纯自由项。whole-type系数rank4g−1、核维2g−1；实际B(c,·)全式零 iff (b−1)^(4g)|(T_c−γA)。指定c=DQv仍保Q²，未证它违反contact或排原深盘零点。
 
-[R1040](results/R1040-original-p5-Hodge-graph-and-primitive-MW-annihilator.md)：p5原good BT的source Fp²相位与Hermitian切线给Π²=−p、B整对称完美；双节点常数Ff=C^(p−1)ω/4及q_s∈Fp保原尺度。真实Fil给Q，模π为quo(r^(8g+2)a(b^p),A²) modA，核一维纯正δ、负δ单射。额外Q(√−3p)-CM由τ₁自扭排除，原6p tame平移给剩余CM全正δ；结合原重数一与R1026，Λ_Q在p>C_*本原并杀全部MW饱和格。K_Q=(1/2)P_(DQv)(1)仍待非零，不删除Q²项。
+R1037/40分别支付p11/p5实际good BT的两次PD、原source Fp²/Hermitian与Π²=−p、B整对称完美。Q=ε⁻²ΦΠ是实际Fil的Lie算子，模π为quo(r^k a(b^p),A²) modA（外系数固定）；k分别8g−2/8g+2。核c₀准确一维纯正δ，负δ单射。完整v=(1−Q)λ保degree-p返回；Λ_Q=B(v,QD·)在全p>C_*本原并杀原全部MW饱和格。K_Q=(1/2)P_(DQv)(1)必须读完整商，Q²不可删；B(c₀,J₀)=−1/8不代K_Q单位。
 
-[R1037](results/R1037-original-Hodge-graph-operator-and-primitive-MW-annihilator.md)：实际Fil graph给整Q=ε⁻²ΦΠ，Verschiebung准确−ε²Qα；原模π矩阵为quo(r^(8g−2)a(b^p),A²) modA（系数固定）。原ODE将核化为LT=cA，核准确一维且全正δ，负δ上单射；R1026故给Λ_Q=B(v,QD·)本原且消去全部MW饱和格。指定CM值K_Q=(1/2)P_(DQv)(1)保完整Q²，仍待单位与低w系数；B(c₀,J)=−1/8不替代它。
+R1038原p5双中心与图二次角色、新quadratic PS/St逐型、e₁G[p∞]≅e₁B[p∞]、bounded lift先减prime-to-p Teich挠点均已成；只有formal/B上施e₁。两节点同一Dickson无额外2，原完整首log=εΣθ(λ+R_p)f，全部p≥41准确Fm；p11相应R1023/24。R1026纯代数单P1非整除给明确绝对C_*，p5原负δ运输及额外CM域排除/原6p正CM方向由R1040支付。未宣整个p5 J良好。
 
-[R1038](results/R1038-original-p5-Raynaud-lowest-type-and-complete-first-log.md)：全部p≥41、p5mod12，补齐quadratic PS/St后仍有实际整e₁；原双中心图为二次型，e₁G[p∞]≅e₁B[p∞]是真良好块。原P=(p−1)D₀经真实twister、bounded lift和先减Teich挠点给P_B；两个节点同一Dickson消去、不添2，完整首log=εΣθ_s(λ+R_p)f_s，q_s=−r^(8g+2)/A′²。R1024纯代数不依次数奇偶，故原formal/log及e₁首log全准确Fm。未宣整个J良好或指定简单商/CM jet单位。
+R1032/33与R1039分别给两行完整原CM第4m层κ₁R_L(1)dF及原z=ε³w、w=(a−1)/p³；Abel-log/formal除pε整，全部p倍积分分母已付，modp次数≤n₀（p11为4g−1，p5为4g+1），whole-block M1。p11第二列R1042现由R1044全旗标涵盖；两个结果均保其它CM既定返回，D_aux只要求当前标记regular。p5全后继列、指定MW非零与最低深盘单位项仍开。
 
-[R1039](results/R1039-original-p5-complete-CM-normal-jet-and-rational-disc-scale.md)：p5实际ω_B经N_X=N_J和图cycle配对给全阶零环带residue；两中心完整第m层同εR_Ldb，保自身变形/3m+2自由层。原全分支E杀A_tailν、固定F=x^(2g)y，CM早于4m全零，第4m层κ₁R_L(1)dF。原z=ε³w、所有p倍积分分母给Abel-log/formal map除pε整、modp次数≤n₀=4g+1，最高泛函保κ₁/λ₀/J(L)，whole-block M=1。最低单位w项及实际MW横截仍开。
+R1035/36实际Lie格与完整split-Hecke中心F₀、原J中D₀非挠paired块重数一已核，未冒辅助Res的C²。T5版和Q版实际消去都保真实原格；所选Q简单商Néron格不能从p-adic type直和自动推出。R1041原r2 bare读数是B(c₀,c₀)，R1043原f_N读数是B(c₀,v)，两者与K_Q不同，分别仍待非零。
 
-R1032/33已给p11行相应完整normal与原有理盘定理：F=x^(2g−1)y、n₀=4g−1、z=ε³w、w=(a−1)/p³；原底中心R_L=(2/m)ΣL_sθ_s/(b−s)²，CM第4m层κ₁R_L(1)dF，Abel-log除pε整且modp次数≤n₀。保所有原坐标/相位和全部p倍积分分母；whole-block M1不自动给最低单位项或指定MW泛函的单位。
-
-R1035/36实际两次PD给原M_L与Lie整比较；原source Fp²相位/Hermitian切线给Π²=−p与B整对称完美。完整split-Hecke中心F₀及原J中实际重数一已核，B(v,T5D·)消去全部MW饱和格；T5版K_p尚待非零，两行本原Q版见R1037/40。没有把辅助Res的C²冒原一次C。
-
-R1023/24/26/29已保p11整首log与原负δ本原：εΣθ_s(λ+R_p)f_s；两整除加中心用Bézout1排全零，单P1非整除给明确定义C_*；e_-杀全部该行CM新部与old。p5完整首log由R1038、原负δ与全部CM/MW消去由R1040单独付款。最低型是p-adic BT直和块，不冒任何预定Q简单商的Néron格。
-
-R1018/19/21原形式点、实际A=T5²与Z=(T31−32)T5²保Fm/杀CM、full-p仿射刚性均已成。其实际H_A/H_Z新支撑仍待算，不能只在R1023公式任换λ。R1028/30同阶Igusa自由修正及真实全分支E已成，不重求已算graded jet。所有常数/阈值/旧执行回执保逐字归档。
+R1018/19/21原形式点、真实A=T5²/Z=(T31−32)T5²保Fm及杀CM、full-p整个模p仿射刚性已成；H_A/H_Z新支撑仍待算，不能任换λ。R1028/29/30原同阶Igusa修正、整τ₁ Hecke/BT和全分支E均消费，不重求已算graded输入。全部来源/相位/阈值/旧执行pins沿逐字归档保留。
 
 ## O0：全主目标覆盖（R1003恢复原范围）
 

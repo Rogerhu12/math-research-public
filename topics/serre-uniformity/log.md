@@ -315,3 +315,8 @@
 ### 2026-11-27 00:26 Asia/Taipei — R1043 原f_N与实际核CM端点
 - [R1043](results/R1043-original-fN-and-Hodge-kernel-CM-endpoint.md)：全部p=6N+5≥41，原sigma/正CM/六标记准确f_N=−T₀(1)/6，T₀∈Fp[b³]唯一满足LT₀=A、首系数−1。完整fine Cartier身份给同一V_(p−1)†=ξr^(N+1)T₀；保两行ξ的(−1)^(N+1)、E6=−c6和原mark E6/η12=−24√−3。原B(c₀,λ)=B(c₀,v)=3T₀(1)/A(1)=−18f_N/A(1)。端值单位及同h筛选仍开，不混同r2范数或扩到r8 bare。
 - o1单文件候选c4c021e2291e927bf4274ec8c9a89c3780ec461b经o2/root独立纸核PASS；root全文逐核fine/aux不同零阶、原Cartier三阶极部、CM p倍系数、两行Tate与mark、Wilson及三处r=0总留数。没有以等价式声称非零；无数学执行。H逐字归档，两README同步检查。
+
+
+### 2026-11-27 00:37 Asia/Taipei — R1044 原CM盘完整系数旗标
+- [R1044](results/R1044-original-CM-disc-complete-coefficient-flag.md)：p11原CM盘全部模p系数给完整Cauchy旗标：V_(4g−k)≡u_kJ_(k−1) mod先前列，1≤k≤4g−1，u_k=(-1)^kκ₁^k(2√A_tail)^(3k−2)λ₀^−(4g−k)/[m(3k−1)]均原单位。真实η、光滑平面限制及全C分支惯性给完整微分的齐次代表，E一维图像支付全部normal/其它CM返回/全纯自由项。whole-type系数rank4g−1、核维2g−1；实际B(c,·)全式零 iff (b−1)^(4g)|(T_c−γA)。指定c=DQv仍保Q²，未证它违反contact或排原深盘零点。
+- global单文件3a96df82全文经root/o1/o2纸核PASS，澄清版8bf91ae差异亦核；补EP_kη，并在R1042/44显写其它CM既定返回与D_aux避当前b1。真实plane/η/全分支齐次化、所有k常数/normal/积分及contact逐项付清。无数学执行；H/open逐字归档，两README同步检查。

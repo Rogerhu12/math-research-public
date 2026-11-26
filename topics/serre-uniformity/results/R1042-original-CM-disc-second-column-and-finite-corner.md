@@ -108,10 +108,14 @@ c\,w^a\,dw\quad\longmapsto\quad
 -c\bar\rho^{\,a+1}\pi_0^{\,n+3(a+1)}z^{-a-2}\,dz.
 \tag{1042.8}
 \]
-所有 \(\rho\) 和更高单位项保留。中心自身的带标记 smooth
-deformation 仍用支撑于 \(S\) 的极点除子 \(D_S\) 提升：
-\(H^1(I,\Omega_I^1(D_S))=0\) 保证可以始终在三个 CM 标记正则。
-这个 vanishing 不删除全纯自由项，也不替代主部的可解性；
+所有 \(\rho\) 和更高单位项保留。这里只假定当前 \(b=1\) 尾
+的早期层为零；其它两个 CM 尾的第 \(4m\) 层可已非零，
+并在后续中心层给出返回 principal parts。这些既定极部全部保留，
+它们在当前 \(b=1\) 标记正则。
+提升中心自身带标记 smooth deformation 的剩余项时，取
+\(D_{\rm aux}\) 包含 \(S\) 及其它已规定极点、避开当前标记；
+\(H^1(I,\Omega_I^1(D_{\rm aux}))=0\) 保证继续保持当前正则。
+这个 vanishing 不删除全纯自由项，也不替代已规定主部的可解性；
 桥节点 residue 仍由实际 compact-type 树和 residue 定理逐一迫为零。
 
 因为所有更早 CM 层已为零，(1042.7) 的三个中心层在当前 CM
