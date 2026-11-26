@@ -1,4 +1,4 @@
-name: 6a65 M12 entire half fixed-g finite cold run
+name: 6a65 M12 entire half fixed-g continuous budgets and meshes
 on:
   push:
     branches: [main]
@@ -94,17 +94,29 @@ jobs:
           (Path(os.environ['M12_COLD_DIR'])/'m12-prefix-data.npz.gz').write_bytes(raw)
           print(json.dumps({'prefix_blob':blob,'prefix_sha256':expected,'bytes':len(raw)}))
           PY
-      - name: Run exact tail queries and the whole-half finite Cartesian solve
+      - name: Run the whole-half solve and consume its actual continuous geometry
         shell: bash
         run: |
           set -euo pipefail
-          python topics/visible-flexible-closed-surface/scripts/6a65-m12-entire-half-cold-run.py \
+          python topics/visible-flexible-closed-surface/scripts/6a65-m12-entire-half-cold-with-continuous-budgets.py \
             --data "$M12_COLD_DIR/m12-prefix-data.npz.gz" \
             --directory "$M12_COLD_DIR/entire-half" \
             --prefix-elements "$M12_PREFIX_ELEMENTS" --tail-elements "$M12_TAIL_ELEMENTS" --tail-depth "$M12_TAIL_DEPTH" \
             --order "$M12_ORDER" --angular "$M12_ANGULAR" --gauss "$M12_GAUSS" \
             --iterations "$M12_ITERATIONS" --newton "$M12_NEWTON" --block "$M12_BLOCK" \
             | tee "$M12_COLD_DIR/entire-half-cold.log"
+          env -u M12_RECOVERY_TOKEN python topics/visible-flexible-closed-surface/scripts/6a65-m12-entire-half-closed-stl.py \
+            --scripts topics/visible-flexible-closed-surface/scripts \
+            --data "$M12_COLD_DIR/m12-prefix-data.npz.gz" \
+            --grid "$M12_COLD_DIR/entire-half/entire-half-grid.json" \
+            --query-report "$M12_COLD_DIR/entire-half/entire-half-exact-tail-queries.json" \
+            --query-cache "$M12_COLD_DIR/entire-half/entire-half-exact-tail-queries.json.npz" \
+            --field "$M12_COLD_DIR/entire-half/entire-half-result.json.field.npz" \
+            --result "$M12_COLD_DIR/entire-half/entire-half-result.json" \
+            --geometry-report "$M12_COLD_DIR/entire-half/entire-half-actual-field-geometry.json" \
+            --angular 216 --prefix-intervals 64 --tail-intervals 32 \
+            --out "$M12_COLD_DIR/entire-half/entire-half-closed-stl.json" \
+            | tee "$M12_COLD_DIR/entire-half-closed-stl.log"
       - name: Write only a compact identity receipt
         if: always()
         shell: bash
@@ -144,11 +156,24 @@ jobs:
           observed=json.loads(report_path.read_text()) if report_path.exists() else None
           receipt=json.loads(receipt_path.read_text()) if receipt_path.exists() else {}
           execution=json.loads(execution_path.read_text()) if execution_path.exists() else None
+          continuous_reports={}
+          for name in ('entire-half-original-source-bounds.json','entire-half-continuous-change-bounds.json',
+                       'entire-half-actual-field-geometry.json','entire-half-original-span-observer.json',
+                       'entire-half-closed-stl.json'):
+              path=cold/'entire-half'/name
+              if path.exists():
+                  if path.stat().st_size>=100000:raise ValueError('Expected compact scalar report: '+name)
+                  continuous_reports[name]=json.loads(path.read_text())
+          geometry=continuous_reports.get('entire-half-actual-field-geometry.json',{})
+          meshes=continuous_reports.get('entire-half-closed-stl.json',{})
           record={'source_head':source_head,'run_id':run,'run_attempt':attempt,
                   'job_status_before_publication':os.environ['M12_JOB_STATUS'],
                   'scope':'Original fixed-g central-to-true-cuff half, including prefix, bridge, finite tail and deep collar; radius .6 is an unconstrained interior interface.',
                   'whole_half_execution_completed':bool(execution and execution.get('finished')),
-                  'finite_numerical_only':True,'exact_isometry_proved':False,'whole_family_reach_certified':False,
+                  'finite_numerical_solve':True,'exact_isometry_proved':False,
+                  'whole_family_reach_certified':geometry.get('homotopy_embedded_and_reach_transfer_proved',False),
+                  'complete_three_phase_STL_generated':len(meshes.get('meshFiles',[]))==3,
+                  'continuous_and_mesh_scalar_reports':continuous_reports,
                   'regeneration':'Run this workflow at the same source commit and request. Known public blobs and checked source hashes regenerate every temporary array.',
                   'raw_retention':'RUNNER_TEMP only. No raw Git, release, or artifact publication.',
                   'receipt':receipt,'execution':execution,'scalar_observation':observed}
@@ -169,8 +194,16 @@ jobs:
           git add -- "$report_path"
           git commit -m "$M12_CI_SUBJECT"
           while true; do
-            before="$(git rev-parse HEAD)"
-            if ! git pull --rebase origin main; then
+            before_rules="$(git rev-parse origin/main)"
+            pull_succeeded=1
+            if ! git pull --rebase origin main; then pull_succeeded=0; fi
+            export M12_RULES_READ_SHA="$(git rev-parse origin/main)"
+            if ! git diff --quiet "$before_rules" "$M12_RULES_READ_SHA" -- README.md topics/visible-flexible-closed-surface/README.md; then
+              git diff "$before_rules" "$M12_RULES_READ_SHA" -- README.md topics/visible-flexible-closed-surface/README.md
+              echo "README changed: root must apply this actual diff before continuing or publishing."
+              exit 42
+            fi
+            if [ "$pull_succeeded" != "1" ]; then
               conflicts="$(git diff --name-only --diff-filter=U)"
               if [ "$conflicts" != "$handoff_path" ]; then
                 echo "Rebase conflict is not confined to this job's HANDOFF marker; root must resolve it."
@@ -181,11 +214,7 @@ jobs:
               git add -- "$handoff_path"
               GIT_EDITOR=true git rebase --continue
             fi
-            export M12_RULES_READ_SHA="$(git rev-parse origin/main)"
             export M12_RULES_STATE="README unchanged"
-            if ! git diff --quiet "$before" HEAD -- README.md topics/visible-flexible-closed-surface/README.md; then
-              export M12_RULES_STATE="README changed; root review pending"
-            fi
             python - <<'PY'
           import os
           from pathlib import Path
@@ -201,11 +230,6 @@ jobs:
               lines.append(line)
           path.write_text(''.join(lines));print(line,end='')
           PY
-            if [ "$M12_RULES_STATE" != "README unchanged" ]; then
-              git diff "$before" HEAD -- README.md topics/visible-flexible-closed-surface/README.md
-              echo "Root must read and apply this README diff before publishing the pending receipt and marker."
-              exit 42
-            fi
             git add -- "$handoff_path"
             if ! git diff --cached --quiet; then
               if git merge-base --is-ancestor HEAD origin/main; then
