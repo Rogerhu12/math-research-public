@@ -283,3 +283,8 @@ root读回发现首发布的同一路径两次变换都从旧文本开始，第�
 ### 2026-11-26 18:55:12 UTC — 已有完整证明R706正式登记
 
 会话Astra-larger-e4e2a2bf-20261126按根3/8/12补正式编号与results新增索引，全文保全部原证明/条件/来源/未付边界，原note字节不变。实际同warm与全部准确scalar参数、4e/a1ed/e091定义及固定chart给同数学g；工作包围/文件hash变化和全向量/地点身份另列。 没有重做旧科学计算或提升其可信度，继续实际求解。
+
+
+### 2026-11-26 18:56:44 UTC — 05三条已返完整参数归档001
+
+只将已真实返回2/3/4的完整prepare/3/17对象归档，全部argv/source/summary/outputs/cleanup逐值保，原21在跑及后继不改。根读固定followups attempted-ID语义，不重跑、不清runner数据，finish=false；原队列94031B及blob/SHA、实际报告身份完整保。
