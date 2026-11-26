@@ -258,3 +258,5 @@
 - [R580 有限末段缺核与真实共振入口](results/R580-finite-tail-polynomial-kernel-obstruction-and-resonant-seed-interface.md)：**已证明**真实圆背景下β×有限末多项式不能含非零全平linear核；当前8基和loga盒还排p′≠0的C1圆入口。需实际w_eff尾种子/完整端点共振换基，未排强非圆或一般分支，不改判已运行探索。
 
 - [R530 v2公开求积原终态](notes/2026-11-26-r530-v2-public-reduction-receipt-agent.md)：**完整原观察**。run45785471536/job139791021487，19.0664秒child wall；固定profile的局部η、未消history与完整张量同值均≤9.24e−16，24/48/96阶R0仍6.51e16/3.73e14/−4.98e10。不能将代数等价或末一数授稳定小余项；无ODE/有限八根，下一先完整四次平均和C2积分分部。
+
+- [R571非单调连接增益原终态](notes/2026-11-26-r571-connector-gain-natural-final.md)：**完整原观察**。run45783828876/job139785506466，388.178616824新秒，24profile/24核心根而0全必要几何通过。近R.85输入C/A3.82e−10、κ15.73555，但弧长缺.03043，二阶均值C2达2.51e8；selected_refined=null。改完整有限非线性而非纯增益重跑，未授严格根或宏观解。

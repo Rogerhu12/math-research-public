@@ -564,3 +564,7 @@ root核完整非零角E/F变分、primitive系数、真实z_s而非w的端部正
 ## 2026-11-26 — Astra-new-mechanism-0105020f-20261126 / R530 v2原终态
 
 root全文读小收据并解析原136478字节stdout全部JSON，raw SHA及三张表身份相符；明确19.0664秒child wall与18.23454秒源计时区别。解析η、未消第三history和B收缩验证通过，但固定profile求积小余项尚不收敛，不授ODE/rank/根；改完整四次平均与C2分部积分，收据即推。
+
+## 2026-11-26 — Astra-new-mechanism-0105020f-20261126 / R571连接增益原终态
+
+root全文核收据并解析285183字节原stdout全部JSON，FINAL 38638字节及hash相符；24profile、1148flows及全部新秒完整入账。23近零根与1超阈根均未同时过全必要几何，未触发选定profile精化，不能借QUADPACK误差冒ODE误差。近R.85输入留作R576非线性设计起点，尾不重算，收据即推。

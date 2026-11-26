@@ -81,7 +81,7 @@ R513同类cap排除、R518固定宽接口、R520/524/527/529原20母的返回障
 
 ### R574：准确非线性方程和真实核心通量接口
 
-[新非单调连接段](notes/2026-11-26-r571-connector-gain-implementation.md)已提交独立公开单job：复用已付φ0尾口，R=.75/.85；固定尾后压低W、增加再降低真实增益bump、最后接垂直核心。完整A,D/正则x场射击C_core=0，实际付球/曲率/镜像必要门及弧长/核心周长预算，再比较同Acore归一的线性C2和R575二阶均值；紧支撑Green积分直接读d(C/A)/dH。只对选定同profile细化，不重算Riccati，未授有限幅度或同g收敛。
+[非单调连接原终态](notes/2026-11-26-r571-connector-gain-natural-final.md)run45783828876新增388.178616824秒，24profile全完成/24核心根，但0全部必要几何通过，selected_refined=null。近输入R.85/L6/λ1/H1.0414862884311602给Acore3.395818、C/A3.82e−10、κ15.73555；弧长.873307小于目标弦.900716，二阶均值C2达2.51e8。大增益或增λ各有实际代价，不复跑已付尾；继续R576完整有限非线性设计、准确核心通量和全几何，原选定精化/尾误差传播未执行不冒已付。
 
 [R574](results/R574-exact-nonlinear-height-equation-and-core-flux-transversality.md)给固定g的准确二次Darboux式及γ=g−dZ²的条件developing。用有限差Wronskian先保实际端点，再证明真实零处核心归一残差可微且D=−(3/R)(C/A)′；不先假设场C1、不漏归一平方因子。[R575](results/R575-local-second-order-mean-flux-and-radial-metric-design.md)把二阶均值通量化为同场一jets，准确J0′=N0且帽端常数0；新connector可复用已付尾口jets得到真实入射J0，缺完整尾高度差仍明记。静态目标径向度量可取二阶e0=2J0，定型后再固定g。j4仍须真求受迫解，三阶μD只必要条件。下一实解非线性，核心高模允许自由生成，并支付γ正定、退化核心C2极限、全闭嵌入和原宏观门。
 
