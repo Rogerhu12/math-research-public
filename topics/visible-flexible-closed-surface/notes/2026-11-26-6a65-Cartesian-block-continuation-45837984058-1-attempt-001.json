@@ -20,14 +20,506 @@
   "fixedPhysicalMetricAndSource": true,
   "allThirteenPointRowsRetained": true,
   "startedUTC": "2026-11-26T14:35:51+00:00",
-  "state": "running-one-real-complete-Cartesian-attempt",
-  "attempts": [],
-  "processReceipts": [],
+  "state": "actual-complete-attempt-and-dense-observer-returned",
+  "attempts": [
+    {
+      "number": 1,
+      "purpose": "actual new complete attempt",
+      "accepted": true,
+      "ownAcceptedSteps": 1,
+      "stateSHA256": "97ce9e83066c2f75c5fe1141e6be18603c24436f0ca5f1641588eb4fa1d44de4",
+      "observerSHA256": "8127415050334ab2d22525174edcb7d469c1cd66bcecb86dbecb1f22d7c11d0c",
+      "reportSHA256": "606f26827ce5a67341ab90facb0b574f6a789164d37a5da408ca1d19301fd1ec",
+      "parentCartesianStateSHA256": null,
+      "parentCartesianObserverSHA256": null,
+      "baseline": {
+        "schema": "6a65-complete-fixed-g-Cartesian-point-operator-v1",
+        "pointCount": 323584,
+        "rowCount": 4206592,
+        "squaredNorm": 69144.79134082646,
+        "groupSquaredNorm": {
+          "metric": 509.79706879784527,
+          "curvature": 68634.99411354786,
+          "geometry": 0.00015848071492412466
+        },
+        "maxRelativeMetric": 2.491842255552956,
+        "maxCurvature": 655322.4740563247,
+        "minImmersion": 8.073315339951607e-06,
+        "maxRadius": 1.460843448061949,
+        "maxAbsoluteY": 0.8810606755680961,
+        "minHeldDistance": 0.599280262738708,
+        "maxAdjustedHeightExcess": 0.0,
+        "geometryMaximumViolations": {
+          "ball": 0.0,
+          "width_plus": 0.0,
+          "width_minus": 0.0,
+          "height_plus": 0.0,
+          "height_minus": 0.0,
+          "held_plus": 0.050719737261291975,
+          "held_minus": 0.050719737261291975
+        },
+        "curvatureThresholdPoints": 0,
+        "continuousCertificate": false,
+        "strongTargetComplete": false,
+        "worstMetric": {
+          "s": 0.5468610171620119,
+          "u": 1.5707963267948966,
+          "relative": 2.491842255552956,
+          "e": 2.491842255552956,
+          "f": 3.717623837518983e-16,
+          "g": 0.0
+        },
+        "worstCurvature": {
+          "s": 0.3290460243952493,
+          "u": 6.025476534814799,
+          "absolute": 655322.4740563247,
+          "eigenvalues": [
+            0.5220855104853399,
+            -655322.4740563247
+          ]
+        },
+        "curvature": {
+          "maxCurvature": 655322.4740563247,
+          "thresholdPoints": 0
+        },
+        "geometry": {
+          "maxAbsoluteY": 0.8810606755680961,
+          "minHeldDistance": 0.599280262738708,
+          "maxRadius": 1.460843448061949,
+          "maxAdjustedHeightExcess": 0.0,
+          "maximumViolations": {
+            "ball": 0.0,
+            "width_plus": 0.0,
+            "width_minus": 0.0,
+            "height_plus": 0.0,
+            "height_minus": 0.0,
+            "held_plus": 0.050719737261291975,
+            "held_minus": 0.050719737261291975
+          }
+        },
+        "targetGaussianCurvatureSamples": {
+          "schema": "6a65-frozen-target-Gaussian-curvature-sample-diagnostic-v1",
+          "sourceStateSHA256": "9fbce3d3d7a7c79a2af21a132d21d19b53e903260e732825122c6ea37a59f0a2",
+          "formula": "K_g(s)=-a_ss(s)/a(s) for fixed ds^2+a(s)^2 du^2",
+          "radialSampleCount": 632,
+          "maxAbsoluteTargetGaussianCurvature": 6.080185952908574,
+          "signedTargetGaussianCurvature": 6.080185952908574,
+          "s": 0.7482679798253985,
+          "a": 1.0037163460777547,
+          "a_s": -0.506151085093639,
+          "a_ss": -6.102782028126685,
+          "exactReachNecessaryCurvatureLimit": 106.28122010840684,
+          "numericalGuideSquared": 90.25,
+          "sampledValueExceedsReachNecessaryLimit": false,
+          "sampledValueExceedsNumericalGuideSquared": false,
+          "sourceMetricUnchanged": true,
+          "finiteSamplingOnly": true,
+          "continuousBound": false,
+          "isAcceptanceGate": false,
+          "reachCertified": false
+        }
+      },
+      "evaluation": {
+        "schema": "6a65-complete-fixed-g-Cartesian-point-operator-v1",
+        "pointCount": 323584,
+        "rowCount": 4206592,
+        "squaredNorm": 47393.962361806865,
+        "groupSquaredNorm": {
+          "metric": 2531.5208602415687,
+          "curvature": 44862.441490436984,
+          "geometry": 1.1128303843883927e-05
+        },
+        "maxRelativeMetric": 8.315240227492728,
+        "maxCurvature": 551018.9606984894,
+        "minImmersion": 1.618682831815917e-05,
+        "maxRadius": 1.5084729398484946,
+        "maxAbsoluteY": 0.8613781993602286,
+        "minHeldDistance": 0.6281720246861547,
+        "maxAdjustedHeightExcess": 0.0,
+        "geometryMaximumViolations": {
+          "ball": 0.0,
+          "width_plus": 0.0,
+          "width_minus": 0.0,
+          "height_plus": 0.0,
+          "height_minus": 0.0,
+          "held_plus": 0.021827975313845283,
+          "held_minus": 0.021827975313845283
+        },
+        "curvatureThresholdPoints": 0,
+        "continuousCertificate": false,
+        "strongTargetComplete": false,
+        "worstMetric": {
+          "s": 0.9628621435429068,
+          "u": 0.0,
+          "relative": 8.315240227492728,
+          "e": 8.315240227492726,
+          "f": 1.4009119586923368e-07,
+          "g": -0.036590303366192733
+        },
+        "worstCurvature": {
+          "s": 0.3290460243952493,
+          "u": 0.25770877236478773,
+          "absolute": 551018.9606984894,
+          "eigenvalues": [
+            -0.9648384113097563,
+            -551018.9606984894
+          ]
+        },
+        "curvature": {
+          "maxCurvature": 551018.9606984894,
+          "thresholdPoints": 0
+        },
+        "geometry": {
+          "maxAbsoluteY": 0.8613781993602286,
+          "minHeldDistance": 0.6281720246861547,
+          "maxRadius": 1.5084729398484946,
+          "maxAdjustedHeightExcess": 0.0,
+          "maximumViolations": {
+            "ball": 0.0,
+            "width_plus": 0.0,
+            "width_minus": 0.0,
+            "height_plus": 0.0,
+            "height_minus": 0.0,
+            "held_plus": 0.021827975313845283,
+            "held_minus": 0.021827975313845283
+          }
+        },
+        "targetGaussianCurvatureSamples": {
+          "schema": "6a65-frozen-target-Gaussian-curvature-sample-diagnostic-v1",
+          "sourceStateSHA256": "9fbce3d3d7a7c79a2af21a132d21d19b53e903260e732825122c6ea37a59f0a2",
+          "formula": "K_g(s)=-a_ss(s)/a(s) for fixed ds^2+a(s)^2 du^2",
+          "radialSampleCount": 632,
+          "maxAbsoluteTargetGaussianCurvature": 6.080185952908574,
+          "signedTargetGaussianCurvature": 6.080185952908574,
+          "s": 0.7482679798253985,
+          "a": 1.0037163460777547,
+          "a_s": -0.506151085093639,
+          "a_ss": -6.102782028126685,
+          "exactReachNecessaryCurvatureLimit": 106.28122010840684,
+          "numericalGuideSquared": 90.25,
+          "sampledValueExceedsReachNecessaryLimit": false,
+          "sampledValueExceedsNumericalGuideSquared": false,
+          "sourceMetricUnchanged": true,
+          "finiteSamplingOnly": true,
+          "continuousBound": false,
+          "isAcceptanceGate": false,
+          "reachCertified": false
+        }
+      },
+      "refinedObservation": {
+        "schema": "6a65-complete-fixed-g-Cartesian-point-operator-v1",
+        "pointCount": 432128,
+        "rowCount": 5617664,
+        "squaredNorm": 27789.727601060644,
+        "groupSquaredNorm": {
+          "metric": 2573.6536114374167,
+          "curvature": 25216.073978489716,
+          "geometry": 1.1133506836494117e-05
+        },
+        "maxRelativeMetric": 8.315402875929525,
+        "maxCurvature": 272493.53572339297,
+        "minImmersion": 2.989009308463139e-05,
+        "maxRadius": 1.5084725450449645,
+        "maxAbsoluteY": 0.8614169117071276,
+        "minHeldDistance": 0.6281720246861547,
+        "maxAdjustedHeightExcess": 0.0,
+        "geometryMaximumViolations": {
+          "ball": 0.0,
+          "width_plus": 0.0,
+          "width_minus": 0.0,
+          "height_plus": 0.0,
+          "height_minus": 0.0,
+          "held_plus": 0.021827975313845283,
+          "held_minus": 0.021827975313845283
+        },
+        "curvatureThresholdPoints": 0,
+        "continuousCertificate": false,
+        "strongTargetComplete": false,
+        "worstMetric": {
+          "s": 0.96020945763373,
+          "u": 0.0,
+          "relative": 8.315402875929525,
+          "e": 8.315402875929522,
+          "f": 1.4609480116794454e-07,
+          "g": -0.044489509473158995
+        },
+        "worstCurvature": {
+          "s": 0.7096694096331191,
+          "u": 0.9940195505498954,
+          "absolute": 272493.53572339297,
+          "eigenvalues": [
+            272493.53572339297,
+            1.0548533409892116
+          ]
+        },
+        "curvature": {
+          "maxCurvature": 272493.53572339297,
+          "thresholdPoints": 0
+        },
+        "geometry": {
+          "maxAbsoluteY": 0.8614169117071276,
+          "minHeldDistance": 0.6281720246861547,
+          "maxRadius": 1.5084725450449645,
+          "maxAdjustedHeightExcess": 0.0,
+          "maximumViolations": {
+            "ball": 0.0,
+            "width_plus": 0.0,
+            "width_minus": 0.0,
+            "height_plus": 0.0,
+            "height_minus": 0.0,
+            "held_plus": 0.021827975313845283,
+            "held_minus": 0.021827975313845283
+          }
+        },
+        "targetGaussianCurvatureSamples": {
+          "schema": "6a65-frozen-target-Gaussian-curvature-sample-diagnostic-v1",
+          "sourceStateSHA256": "9fbce3d3d7a7c79a2af21a132d21d19b53e903260e732825122c6ea37a59f0a2",
+          "formula": "K_g(s)=-a_ss(s)/a(s) for fixed ds^2+a(s)^2 du^2",
+          "radialSampleCount": 422,
+          "maxAbsoluteTargetGaussianCurvature": 6.082901780623444,
+          "signedTargetGaussianCurvature": 6.082901780623444,
+          "s": 0.74561530813943,
+          "a": 1.005037511950766,
+          "a_s": -0.4899462220188995,
+          "a_ss": -6.1135444710386695,
+          "exactReachNecessaryCurvatureLimit": 106.28122010840684,
+          "numericalGuideSquared": 90.25,
+          "sampledValueExceedsReachNecessaryLimit": false,
+          "sampledValueExceedsNumericalGuideSquared": false,
+          "sourceMetricUnchanged": true,
+          "finiteSamplingOnly": true,
+          "continuousBound": false,
+          "isAcceptanceGate": false,
+          "reachCertified": false
+        }
+      },
+      "targetGaussianCurvatureTraining": {
+        "schema": "6a65-frozen-target-Gaussian-curvature-sample-diagnostic-v1",
+        "sourceStateSHA256": "9fbce3d3d7a7c79a2af21a132d21d19b53e903260e732825122c6ea37a59f0a2",
+        "formula": "K_g(s)=-a_ss(s)/a(s) for fixed ds^2+a(s)^2 du^2",
+        "radialSampleCount": 632,
+        "maxAbsoluteTargetGaussianCurvature": 6.080185952908574,
+        "signedTargetGaussianCurvature": 6.080185952908574,
+        "s": 0.7482679798253985,
+        "a": 1.0037163460777547,
+        "a_s": -0.506151085093639,
+        "a_ss": -6.102782028126685,
+        "exactReachNecessaryCurvatureLimit": 106.28122010840684,
+        "numericalGuideSquared": 90.25,
+        "sampledValueExceedsReachNecessaryLimit": false,
+        "sampledValueExceedsNumericalGuideSquared": false,
+        "sourceMetricUnchanged": true,
+        "finiteSamplingOnly": true,
+        "continuousBound": false,
+        "isAcceptanceGate": false,
+        "reachCertified": false
+      },
+      "targetGaussianCurvatureRefined": {
+        "schema": "6a65-frozen-target-Gaussian-curvature-sample-diagnostic-v1",
+        "sourceStateSHA256": "9fbce3d3d7a7c79a2af21a132d21d19b53e903260e732825122c6ea37a59f0a2",
+        "formula": "K_g(s)=-a_ss(s)/a(s) for fixed ds^2+a(s)^2 du^2",
+        "radialSampleCount": 422,
+        "maxAbsoluteTargetGaussianCurvature": 6.082901780623444,
+        "signedTargetGaussianCurvature": 6.082901780623444,
+        "s": 0.74561530813943,
+        "a": 1.005037511950766,
+        "a_s": -0.4899462220188995,
+        "a_ss": -6.1135444710386695,
+        "exactReachNecessaryCurvatureLimit": 106.28122010840684,
+        "numericalGuideSquared": 90.25,
+        "sampledValueExceedsReachNecessaryLimit": false,
+        "sampledValueExceedsNumericalGuideSquared": false,
+        "sourceMetricUnchanged": true,
+        "finiteSamplingOnly": true,
+        "continuousBound": false,
+        "isAcceptanceGate": false,
+        "reachCertified": false
+      },
+      "dimension": 7760,
+      "completeRows": 4206592,
+      "alpha": 0.25,
+      "trace": [
+        {
+          "kind": "complete_matrix_free_solve",
+          "attempt": 1,
+          "damping": 0.001,
+          "lsmrDamp": 0.0,
+          "solverKind": "exact-angular-channel-blocks-same-Sobolev-LM-v1",
+          "linearSolverSHA256": "d292b35b6121598470968937dab983724aa5250e24ba87942cc50e2e2ec90892",
+          "oldSobolevLMQuadraticPreserved": true,
+          "istop": 7,
+          "iterations": 80,
+          "normr": 8.908205197032244,
+          "normar": 0.38617072126317104,
+          "norma": 41.80204474510741,
+          "conda": 9.874622965735313,
+          "normx": 104.06839993429911,
+          "slope": -69056.57159636874,
+          "predictedUndampedReduction": 69065.45568560562,
+          "originalSobolevRegularizerEnergy": 0.020464611137576267,
+          "predictedOriginalRegularizedReduction": 69065.43522099448,
+          "physicalNormalResidualNorm": 72992.12362392044,
+          "physicalGradientNorm": 4542728279.76571,
+          "relativePhysicalNormalResidual": 1.606790438007113e-05,
+          "physicalNormalResidualMaximum": 16704.965919684302,
+          "actualChannelBlockAssembly": {
+            "schema": "6a65-actual-complete-channel-principal-block-assembly-v1",
+            "columns": 7760,
+            "physicalRows": 4206592,
+            "radialBlocks": 80,
+            "angularChannels": 97,
+            "radialHalfBandwidth": 5,
+            "eta": 0.1,
+            "assembledPoints": 323584,
+            "structurallyZeroPreconditionerPoints": 0,
+            "zeroPointRowsStillRetainedInFullOperator": true,
+            "localCompleteVJPCalls": 520,
+            "allThirteenRowsInPointCovariance": true,
+            "completeJacobianFormed": false,
+            "completeNormalMatrixFormed": false,
+            "principalBandBytes": 372480,
+            "largestExplicitCovarianceTemporaryBytes": 16245760,
+            "temporaryBytesAreNotProcessRSS": true,
+            "maximumLocalQAntisymmetryBeforeRoundoffSymmetrization": 3.814697265625e-06,
+            "blockAssemblyUsesDiscreteAngularMomentsWithoutModeTruncation": true,
+            "timings": {
+              "pointCovarianceSeconds": 3.1460415640003703,
+              "angularContractionSeconds": 1.4216697120007211,
+              "radialAccumulationSeconds": 0.051485432000390574,
+              "bandCholeskySeconds": 0.002273005999995803
+            },
+            "seconds": 4.636711666999872
+          },
+          "iterativeSeconds": 40.01225533900015,
+          "seconds": 45.63342272,
+          "iterativeConvergenceReported": false,
+          "completeColumns": 7760,
+          "completeRows": 4206592,
+          "explicitRegularizerRows": 7760,
+          "physicalTargetRowsAddedOrRemoved": false
+        },
+        {
+          "kind": "actual_complete_trial",
+          "attempt": 1,
+          "alpha": 1.0,
+          "actualValueEvaluated": true,
+          "domainRejected": false,
+          "accepted": false,
+          "squaredNorm": 118838108.02033128,
+          "metric": 124.39978441059569,
+          "curvature": 379767.72936035704,
+          "held": 0.7173659677845988
+        },
+        {
+          "kind": "actual_complete_trial",
+          "attempt": 1,
+          "alpha": 0.5,
+          "actualValueEvaluated": true,
+          "domainRejected": false,
+          "accepted": false,
+          "squaredNorm": 519910.91057284764,
+          "metric": 31.819004836102177,
+          "curvature": 477413.34387260897,
+          "held": 0.6575140950053134
+        },
+        {
+          "kind": "actual_complete_trial",
+          "attempt": 1,
+          "alpha": 0.25,
+          "actualValueEvaluated": true,
+          "domainRejected": false,
+          "accepted": true,
+          "squaredNorm": 47393.962361806865,
+          "metric": 8.315240227492728,
+          "curvature": 551018.9606984894,
+          "held": 0.6281720246861547
+        }
+      ],
+      "fixedSourceCacheReuse": {
+        "schema": "6a65-fixed-source-cache-reuse-actual-receipt-v1",
+        "identityFileSHA256": "33ad2d655d54b69e2d9d9d8e4015fa8eb429451b7bf37929bad0cc07d1cb8673",
+        "sourceIdentitySHA256": "eaaed099a9fe65845e808e3362bc4f4fb4cb0686c4a11e307350c3ca5c53ccb1",
+        "sealedOriginalOracleReceiptSHA256": "75e9655dba186a4e3878ae9c97f1a4d383116d00791c36c9e0282132666a0113",
+        "reuseImplementationSHA256": "13a900d751115332608e1cb53de5621952b2a84a9e8f09565068d0884a9b9c99",
+        "usage": {
+          "training": {
+            "createdDirectSamplesThisProcess": true,
+            "reusedImmutableSamples": false,
+            "bindingSHA256": "207402163d45772e83c354f539d91965bb540ba3fb951bbe7d3419c6632d2088",
+            "sourceReceiptSHA256": "e8cdcd77c36939408bb0a463ffc6f0bb86e5f5a5c041ef3e99867410c1846a15",
+            "jetsSHA256": "16ecb818dbc8e6f6a74e5ebe2a7a3c86c1b5bad13d0c676705494c2c36263a23",
+            "radiusSHA256": "263639508025579f12c2fedf55892af14ae1b76c41d92c27127524e6f56caa75",
+            "shape": [
+              632,
+              6,
+              512,
+              3
+            ],
+            "physicalGridSHA256": "af4d88f05e7cd0b0cfb2d89434d412ff6c71915b99420080cf0d8a76a5778e92",
+            "materialGridSHA256": "cbfb737d9172f0800d6ac7d44a0269e0932b3bfc6afc02b03e18bf3516470421",
+            "allArraysReadOnly": true,
+            "backgroundProjection": false
+          },
+          "observing": {
+            "createdDirectSamplesThisProcess": true,
+            "reusedImmutableSamples": false,
+            "bindingSHA256": "156cb848b0f94c0352a96390df6e6169db98303668be0736c8933e3359dc90d4",
+            "sourceReceiptSHA256": "35c5ac8fcd99ce02fcae552af49cbc19b3df43eaa9f344a4e125a49c26f6d647",
+            "jetsSHA256": "03e1592ddeb006d88160156669ee4bf22da13caf7130e9878a456c9ef6164d22",
+            "radiusSHA256": "7a8ea0e86cdd22a08f822eca679550b1fece70f036cda75aea8148040c2b356a",
+            "shape": [
+              422,
+              6,
+              1024,
+              3
+            ],
+            "physicalGridSHA256": "a1bf95d4bae1c29b43d7f193f5f31053c57d0fe64cb19fd5ea121da39242bcb5",
+            "materialGridSHA256": "02057449682297d102f704e75c4016ef15af5eae96f79dac696a97c953278f9c",
+            "allArraysReadOnly": true,
+            "backgroundProjection": false
+          }
+        },
+        "originalSourceAndPhysicalMetricUnchanged": true,
+        "allCurrentCartesianRowsStillRecomputed": true,
+        "rawPublished": false,
+        "localInterfaceFixtureOnly": false
+      },
+      "actualSourceChildExitReceipt": {
+        "actualOSExitCode": 0,
+        "naturalExit": true,
+        "seconds": 1796.2353083980001,
+        "requests": 1319,
+        "sourceStateSHA256": "9fbce3d3d7a7c79a2af21a132d21d19b53e903260e732825122c6ea37a59f0a2",
+        "parameterVectorSHA256": "15e86b1087587de2bf4bc7060dee7bb4b28c4f94fef6fbfd55895a360b329832",
+        "pythonAdapterSHA256": "c57d4d21f85f949f869a2c7d1d7c4e50ede7be948ce541f1b676d589ae4045a5",
+        "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "label": "Cartesian-attempt-1",
+      "OSExitCode": 0,
+      "seconds": 1796.982370491,
+      "stdoutSHA256": "11815041a99f927a347d279f6d72a6c3774394007f6cd17591c369f72a576b8f"
+    }
+  ],
+  "processReceipts": [
+    {
+      "label": "Cartesian-attempt-1",
+      "OSExitCode": 0,
+      "seconds": 1796.982370491,
+      "stdoutSHA256": "11815041a99f927a347d279f6d72a6c3774394007f6cd17591c369f72a576b8f"
+    }
+  ],
   "pulls": [
     {
       "UTC": "2026-11-26T14:35:54+00:00",
       "fromCommit": "032d54a0d9052b91e816e23cc772c5eb556e1ac8",
       "toCommit": "d2eb89b7aaae4e3c44b3ae194095ec7a849ef416",
+      "readmeDiffEmpty": true,
+      "pullCommandExit": 0
+    },
+    {
+      "UTC": "2026-11-26T15:05:55+00:00",
+      "fromCommit": "d2eb89b7aaae4e3c44b3ae194095ec7a849ef416",
+      "toCommit": "c18664223c3cd0e6266dec1bde06406bd7648a5b",
       "readmeDiffEmpty": true,
       "pullCommandExit": 0
     }
@@ -37,12 +529,12 @@
   "continuousCertificate": false,
   "strongTargetComplete": false,
   "frozenCompleteScriptInventorySHA256": "8fbca3b01e0a3c13353e146c0f348a498498e5781478055cd2d94bfc249a9942",
-  "updatedUTC": "2026-11-26T14:35:54+00:00",
-  "actualOwnAcceptedCount": 0,
-  "actualOwnAttemptCount": 0,
-  "currentStateSHA256": null,
-  "currentObserverSHA256": null,
-  "actualTotalPullCount": 2,
+  "updatedUTC": "2026-11-26T15:05:55+00:00",
+  "actualOwnAcceptedCount": 1,
+  "actualOwnAttemptCount": 1,
+  "currentStateSHA256": "97ce9e83066c2f75c5fe1141e6be18603c24436f0ca5f1641588eb4fa1d44de4",
+  "currentObserverSHA256": "8127415050334ab2d22525174edcb7d469c1cd66bcecb86dbecb1f22d7c11d0c",
+  "actualTotalPullCount": 3,
   "previousPublishedScalarPart": {
     "path": "topics/visible-flexible-closed-surface/notes/2026-11-26-6a65-Cartesian-block-continuation-45837984058-1-start.json",
     "sha256": "db43441c10cda9b35866431813193eec43e275f97b8bbf36943b587e30d1ef72"
