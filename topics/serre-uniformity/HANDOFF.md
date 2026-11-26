@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。本轮已部分克隆并真实pull main，读两README/H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则读至36cf1ed2。不重做已登记结论或窗口。
 
-**公开两README已读提交：44fd167c413d4167490a8b3464a75318246dcdf4**（2026-11-27 03:18 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
+**公开两README已读提交：7923e588c07cd47852dfdf4604db5bc8246ce92d**（2026-11-27 03:22 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
 
 已真实部分克隆/pull；终端再次不可用，按根规矩8用连接器小文本同步、读两README差异、带expected_sha非force提交，恢复后立即pull --rebase。拒绝即同步重基再推至成功。令牌仅CLI；根维护main/H/open/index/log，子研究独立稿，每条结论立即推。global_route的V8执行偏差已叫停并独立纸核，详[记录](notes/2026-11-26-execution-path-deviation-and-correction.md)，其输出不作证明/合规窗口。
 
@@ -24,7 +24,7 @@ H<10KB、open尽量<30KB、每MD<100KB、topic<200MB；无可重算raw、不写�
 
 R1050原target短PD/PF与全部安全分母、双incidence单位，现由R1052完整消费。
 
-[R1045](results/R1045-original-MW-annihilator-nonzero-reduction.md)/[R1046](results/R1046-original-p5-complete-CM-flag-and-MW-nonzero-reduction.md)：两行原实际MW消去后准确M1(p>C_*)。完整旗标rank n₀=(p−2)/3；三CM留数S₀=1与Euler有限₃F₂排contact，Q²完整。p5双中心/∞与分歧12均付清。[R1047](results/R1047-original-MW-saturated-profile-and-common-zero-bound.md)进一步给全部实际消去格Σ的系数映射饱和，原盘公共零数≤n₀−rankΣ+1；有理点≤n₀，非中心≤n₀−1。最低单位与非中心根排除仍开。
+[R1045](results/R1045-original-MW-annihilator-nonzero-reduction.md)/[R1046](results/R1046-original-p5-complete-CM-flag-and-MW-nonzero-reduction.md)：两行p>C_*原MW消去后M1，三CM/Euler排contact；p5双中心/∞全保。[R1047](results/R1047-original-MW-saturated-profile-and-common-zero-bound.md)给饱和系数映射、公共零重数≤n₀−rankΣ+1，n₀=(p−2)/3；最低单位/非中心仍开。
 
 R1035–40已付两次真实PD、source Fp²/Hermitian、Π²=−p、完美对称B及Q=ε⁻²ΦΠ：核一维纯正δ，负δ单射；实际全MW本原消去保Q²。p5用Raynaud好B、双中心/二次图，先减Teich再formal上施e₁；原J非整体良好。原首λ+R、全p倍积分尾、真正split-Hecke F₀及paired块重数一均保结果；不冒辅助C²/指定简单商Néron格。
 
@@ -38,11 +38,13 @@ R1018–30原Fm、T5²/Z杀CM、全非约化仿射刚性、完整节点log/提�
 
 ## O1：原同一保留标签
 
+[R1059](results/R1059-original-fN-actual-X108-Raynaud-pairing-and-inverse-central-sum.md)：原Θ=f27，实际X108的z³=1−3sx³、w³=1+3sx³及Ω=dx/(z²w²)保整格/q尺度；Raynaud配对给原A_p=(-1)^N3^(3N+1)Σ_i(-1)^i binom(n,i)²/(3i+1)，n=(p−2)/3。全部ζ半线性已付，f_N=t²δ′A_p/[4(p+1)]；指定和单位与同h筛选仍开。
+
 [R1049](results/R1049-original-fN-theta-first-direction-moment.md)：原方向一阶矩保全μ₆相位，§6严格给f_N=t²δ′[q^p]ΘEΘ(q⁴)/[4(p+1)]；完整36/12、奇偶交换和分母已付，指定系数与同h筛选仍开。
 
 [R1043](results/R1043-original-fN-and-Hodge-kernel-CM-endpoint.md)：全p=6N+5≥41原f_N=−T₀(1)/6，保原positive CM/oldform/fine Cartier及两行Tate符号。原B(c₀,λ)=B(c₀,v)=−18f_N/A(1)。端点非零及同h筛选仍开；它不是r2的核范数或r8 bare。
 
-[R1031](results/R1031-original-fN-and-actual-Faber-truncation-central-derivative.md)：全p=6N+5≥41，原f_N=0 iff R′(1/2)=0，R=[P_d(1−2z)²]≤d、d=(p−2)/3；真实AS/Hasse²/二次商与所有单位尺度已成，forcing=−(d+1)³(C_AS/9)z^d。中心导数单位性仍开，forcing单位不替代。
+[R1031](results/R1031-original-fN-and-actual-Faber-truncation-central-derivative.md)：f_N=0 iff有限Legendre平方截断R′(1/2)=0；原AS尺度/forcing已付，forcing单位不代中心导数单位。
 
 R1012/16/17/20/25/27未经筛选的完整theta分布、常平方1与全方向单位已成；原六标记/标量均保各结果，不能代原primitive/Legendre同h或bare。
 

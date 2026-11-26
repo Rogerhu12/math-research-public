@@ -401,3 +401,7 @@
 ### 2026-11-27 03:18 Asia/Taipei — R1057指定p47深盘的实际有理点排除
 - [R1057 §5](results/R1057-certified-original-p47-actual-lowest-functional.md)：本次真实C=15支付p47一次单位；逐节核C_*仅用于自动本原、逐块全MW消去不需该界，故原X₁指定c₁的v47(w)>0深盘唯一有理点为c₁。未分类其它盘/X_d/O0；无重算。
 - root实读R1036§§5–7、R1011§§2–5、R1010§3、R1026§7，与global独核范围。原一次系数−15κ₁^15(2√A_tail)^43/(2·23·44·λ₀)为单位，H=w(h₁+wU)严格给正赋值盘唯一零。未扩张p47为完整层分类，继续全p与O0。
+
+### 2026-11-27 03:22 Asia/Taipei — R1059 原f_N的实际X108 Raynaud有限和
+- [R1059](results/R1059-original-fN-actual-X108-Raynaud-pairing-and-inverse-central-sum.md)：原Θ=f27，实际X108的z³=1−3sx³、w³=1+3sx³及Ω=dx/(z²w²)保整格/q尺度；Raynaud配对给原A_p=(-1)^N3^(3N+1)Σ_i(-1)^i binom(n,i)²/(3i+1)，n=(p−2)/3。全部ζ半线性已付，f_N=t²δ′A_p/[4(p+1)]；指定和单位与同h筛选仍开。
+- 根实读Harrison pp9–13与Raynaud§4.1，逐式核canonical二次组合/实际自同构、九cusp divisor/ramification及首q尺度；原两退化映射degree6、q⁴因子4与模型degree3区别保留。primitive实际构造，Cartier读唯一x^(p−1)且保ζ半线性；未本地执行数学、未扫窗。继续该inverse-center和的非零，不以bundle perfectness代证明。

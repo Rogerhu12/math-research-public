@@ -40,7 +40,9 @@ R1只把全部异常缩为p>37的完整N_ns；**p≡2,5 mod9只是另加小惯�
 
 ## O1：全p同一真实本原标签的临界非零
 
-[R1049](results/R1049-original-fN-theta-first-direction-moment.md)：原方向一阶矩保全实际F⊗R₋、μ₆/模6相位；§6给f_N=t²δ′[q^p]ΘEΘ(q⁴)/[4(p+1)]，完整36/12、奇偶交换与分母已付。指定系数单位及原同h两mask仍开。
+[R1059](results/R1059-original-fN-actual-X108-Raynaud-pairing-and-inverse-central-sum.md)：原Θ=f27，实际X108的z³=1−3sx³、w³=1+3sx³及Ω=dx/(z²w²)保整格/q尺度；Raynaud配对给原A_p=(-1)^N3^(3N+1)Σ_i(-1)^i binom(n,i)²/(3i+1)，n=(p−2)/3。全部ζ半线性已付，f_N=t²δ′A_p/[4(p+1)]；指定和单位与同h筛选仍开。
+
+[R1049](results/R1049-original-fN-theta-first-direction-moment.md)：§6原f_N=t²δ′[q^p]ΘEΘ(q⁴)/[4(p+1)]已保完整相位、36/12、奇偶与分母，现接R1059实际曲线；同h两mask仍开。
 
 [R1053](results/R1053-original-scalar-disjoint-window-through-500000.md)：全部新增7878素数200000<p≤500000、p2/5mod9原f/g非零；run45869953028/45874715945，完整预算/hash保结果；窗口完成不重开，不外推全p。
 
@@ -50,7 +52,7 @@ R1只把全部异常缩为p>37的完整N_ns；**p≡2,5 mod9只是另加小惯�
 
 [R1027](results/R1027-original-level-p-squared-theta-distribution-and-constant-one.md)：原D_p=1、4η⁶C_N²=1、Σa_i²a_(N−i)²=−1/4全p≥41已证；实际Lp²/Frob、total-D阶p交叉与[p]=−Frob²符号完整，δ′²=1。原两mask/bare不因此非零。
 
-R1022的原常平方与R1025的全部有限处方向相位已由R1027合为D_p=1；d_A=δ′abγ、2c_A/γ=δ′e_Aab、η³C_N=−δ′e_Aab/2，δ′²=1。所有原integral torus、canonical三挠、mod2/mod3/3处Tate线及total-D阶p cross均保留，全文及逐字前态可直接消费；两mask和bare不能删除。
+R1022/25/27原相位、D_p=1与δ′²=1全部已成，完整尺度保原结果/归档；原两mask/bare不因它们消失。
 
 [R1020](results/R1020-original-critical-convolution-complete-theta-scalar-bridge.md)：原全方向比值、实际index2 vacuum、norm3分布负号和canonical三挠/Weyl二次相位全部已核，十二代表不变。完整尺度保结果与归档，不代原primitive/Legendre同h或O2单位。
 
