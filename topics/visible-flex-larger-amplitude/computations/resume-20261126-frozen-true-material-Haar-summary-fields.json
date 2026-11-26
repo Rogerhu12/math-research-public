@@ -1,0 +1,23 @@
+{
+  "schema": "schema",
+  "target_identity_sha256": "target_identity_sha256",
+  "angular_identity_sha256": "angular_identity_sha256",
+  "model_sha256": "canonical_model_identity_sha256",
+  "bundle_sha256": "inputs.bundle.sha256",
+  "nodes_sha256": "inputs.node_report.sha256",
+  "observations_sha256": "inputs.observation_carrier.sha256",
+  "profile_carrier_sha256": "inputs.reference_carrier.sha256",
+  "evaluator_sha256": "sources.evaluator.sha256",
+  "moment_source_sha256": "sources.moments.sha256",
+  "working_moments_sha256": "working_moments.sha256",
+  "frozen": "frozen",
+  "exact_Haar": "exact_material_Haar",
+  "finite_quadrature_is_target": "finite_quadrature_is_metric_definition",
+  "new_target": "explicit_new_target_choice",
+  "old_Phi_preserved": "parent_objective_or_target_preserved",
+  "target_certified": "target_certified",
+  "metric_certified": "continuous_metric_error_certified",
+  "geometry_certified": "geometry_certified",
+  "refinement": "fixed_g_refinement_evidence",
+  "topic_complete": "topic_complete"
+}
