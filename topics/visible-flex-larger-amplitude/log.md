@@ -495,3 +495,8 @@ R714完整14824B论证（正式标题另加编号）现登记：准确R709/R711�
 ### 2026-11-26 22:15:49 UTC — Astra-larger-e4e2a2bf-20261126
 
 06独立槽前H压缩：旧03b/05细节仍逐字保7774固定交接及全部原notes/results，仅压导航为新独立运行槽预留余量；不改科学源、参数、活动请求或CI自有槽。规则核查再次真实pull，H边界依旧10000B。
+
+
+### 2026-11-26 22:22:21 UTC — Astra-larger-e4e2a2bf-20261126
+
+06首次控制器fetch规则ref失败：实际run45903578703/1 job140194901807的32413B短log SHA0ecd1e8e0fe228d13c3944135dec1c6e841dfca84b6e4e13ec2d8c45b1bf0d04明确not our ref 3f766；原完整main栈证明科学Popen尚未执行，不是H/科学/PCG失败。根真实pull并核双README至公开28dbb9b17a47476f41d83782b90e059a6c0e0c67，request只改rules_read_commit为此已公开实读HEAD，新SHA4dffef76945fcb596b88201bf83fb8d41a2b12bde28f95ca2e523792aead5c8d；完整controller、recipe、queue和科学argv全不改。普通push request触发独立新run，日志与临时摘录不入Git/Release/artifact；完整原因、来源、修复与未返边界见新增note。
