@@ -362,8 +362,8 @@ h=6i+7,\qquad i+j=N-1,\qquad
 (1017.6) 是原未经筛选 \(H_p\) 的值定理，尚不是这些实际 Fourier
 坐标的保留支撑定理。上述相位分析明确保留了随 \(A\) 变化的共同
 scalar，不能在求 primitive 投影时把它替换成一。
-后继继续这个真实 scalar 与原 \(\sigma^2\) 小 index 源的比较，
-以及同一个原 mask 下的读数。
+后继 [R1020](R1020-original-critical-convolution-complete-theta-scalar-bridge.md) 已证明这个真实 scalar 与原 \(\sigma^2\) 小 index 源的完整精确比例；继续保留它并计算
+同一个原 mask 下的读数。
 O2 的 bare 高系数仍须保完整余项；O0 的全部全局覆盖和非 CM
 实际首提升继续开放。**Serre 主目标仍 OPEN。**
 

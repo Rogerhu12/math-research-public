@@ -8,6 +8,8 @@
 
 ## 新增结论（2026-11-26）
 
+- **R1020（已证明）**：[R1020](results/R1020-original-critical-convolution-complete-theta-scalar-bridge.md)：原全方向精确比值H_p/C_N=120εt·aχ(Nα)²(χᾱ+β̄)/(6B)⁵；t³=4、a=α mod s、χ为α/β mod3的唯一μ6 lift。真实index2另一vacuum系数4c_A、norm3分布负号给d₀=−36c_A；canonical三挠基尺度与Weyl二次相位全部核准。十二个同核表示不变；共同C_N保留，不代primitive/Legendre同h非零或O2 bare单位。
+
 - **R1019（已证明）**：[R1019](results/R1019-original-CM-killing-correspondences-preserve-first-formal-layer.md)：固定实际A=T5²、Z=(T31−32)T5²后，原P=(p−1)D₀仍准确F^m\F^(m+1)，对p11mod12且p>C_A/C_Z；C分别=max(575,N_HA)、max(36863,N_HZ)，N为固定p无关Norm函数的lc/resultant整数。完整字面支撑≤144/9216、dlog零≤142/9214，选无支撑SS尾保同一frame/主化lift；H非constant由导子25/775的唯一完整六标记逆链。A、Z杀全部CM新部，Z另杀Q有理挠点；不扩大到Qp挠点，实际log和simple商整投影仍开。
 
 - **R1018（已证明）**：[R1018](results/R1018-original-CM-divisor-exact-first-formal-layer.md)：p>37、p11mod12，原P=(p−1)D₀在J₁良好模型准确为F^m\F^(m+1)，m=(p−1)/2、π₀^((p²−1)/2)=p。完整惯性权给下界；保R1014真实b和六标记的quotient-isogeny提升、zero-flux同一frame、全局平均与全部Cech后，原a0参考尾首类=−6κ[z^−(2h−1)]单位，别尾不能抵消。附同一e3 node的全部odd-power gap二项式单位。形式点深度1/(p+1)不能代log首层；实际degree-p项、R1011半秩商整投影和候选排除仍开。

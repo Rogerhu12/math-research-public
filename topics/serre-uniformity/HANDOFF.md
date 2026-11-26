@@ -6,11 +6,11 @@
 
 会话 **Astra-serre-24b8836b-20261126**。本轮已部分克隆并真实pull main，读两README/H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则读至36cf1ed2。不重做已登记结论或窗口。
 
-**公开两README已读提交：31ec7ed7c882830bd16e320a111f93f8ef161c67**（2026-11-26 18:37 Asia/Taipei；本次同步两README无差异）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
+**公开两README已读提交：40c87f01395542df3c7367d3f40c285b1c2221e9**（2026-11-26 19:00 Asia/Taipei；本次同步两README无差异）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
 
 执行宿主本轮断连；08:36 UTC单次恢复探测仍无环境。按根规矩8用GitHub小文本原子tree/commit、最新head检查和非force expected-head更新；并发拒绝立即在新head重建循环至成功，保其它会话。终端恢复补pull --rebase。令牌仅此前CLI使用，未存文件/提交。根维护main/H/open/index/log；子研究交数学稿。每条结论完整审后立即推，无数学程序执行或旧窗重跑。
 
-H<10KB、open尽量<30KB、每MD<100KB、topic<200MB；无可重算raw、不写根LOG。[本次逐字前态](handoff-archive-2026-11-26-before-CM-killing-formal-layer.md)沿链保全部旧来源/run/hash；[open](open.md)、[索引](results.md)是完整入口。历史“R1003 norm3准备中”未交付，现R1003为范围纠错。
+H<10KB、open尽量<30KB、每MD<100KB、topic<200MB；无可重算raw、不写根LOG。[本次逐字前态](handoff-archive-2026-11-26-before-exact-theta-scalar.md)沿链保全部旧来源/run/hash；[open](open.md)、[索引](results.md)是完整入口。历史“R1003 norm3准备中”未交付，现R1003为范围纠错。
 
 ## 最新全局实际来源
 
@@ -28,12 +28,14 @@ H<10KB、open尽量<30KB、每MD<100KB、topic<200MB；无可重算raw、不写�
 
 ## O1：原同一保留标签
 
+[R1020](results/R1020-original-critical-convolution-complete-theta-scalar-bridge.md)：原全方向精确比值H_p/C_N=120εt·aχ(Nα)²(χᾱ+β̄)/(6B)⁵；t³=4、a=α mod s、χ为α/β mod3的唯一μ6 lift。真实index2另一vacuum系数4c_A、norm3分布负号给d₀=−36c_A；canonical三挠基尺度与Weyl二次相位全部核准。十二个同核表示不变；共同C_N保留，不代primitive/Legendre同h非零或O2 bare单位。
+
 p=6N+5，h=6i+7，i+j=N−1，必须同一个原本原h上
 P_(h−1)(1/s)f_i g_j≠0，s²=−3；原Norm/两CM权/相位不换。
 R968真实列Z_(6i+4,6j+1)∈M_(p−5)，CM mark=−72(−864)^−N f_i g_j。
 R949/954/957–959共同粗CM因子判据保持；全源非零不能排该因子。
 
-[R1017](results/R1017-original-tame-two-three-phases-and-every-direction-critical-unit.md)：全部p≥41、p5mod6，原未经筛选H_p在全部T⁻处处单位。R1013实际下降源经真半周期乘法/Frobenius符号落入V_+²，原μ6角色只留a U⊗Y+b Y⊗U；canonical三挠lift把原四点精确送到两轴，保全部相位得a,b非零且a/b∈μ6。唯一可能非零根Norm1，不在T⁻。原scalar保留，primitive/Legendre同h仍开，未接bare O2。R1013较弱统一零点界由此加强。
+[R1017](results/R1017-original-tame-two-three-phases-and-every-direction-critical-unit.md)：全p≥41原H_p在T⁻处处单位。实际二/三theta相位使源为a U⊗Y+b Y⊗U，a/b∈μ6；共同scalar现由R1020准确比较，primitive/Legendre同h仍开。
 
 [R1012](results/R1012-original-p-similitude-divided-high-coordinates-and-critical-bridge.md)：每核/像方向恰12个Eisenstein norm-p表示；完整首pole抵消及四divided高坐标差准确返回原H_p。原导数平衡读数=(B/5)κ^p(βᾱ)^(p−3)H_p，外因子单位；R1017已给全部方向单位，仍无bare高坐标桥。
 
@@ -47,9 +49,9 @@ R995/997/1000完整mixed heat/bulk与边界已成，mask杀自身边界迭代；
 
 ## O2：原高近p值
 
-[R1016](results/R1016-original-small-index-theta-and-complete-convolution-units.md)：原index1/2下降给σ、σ²的i+j=N完整卷积在全部T⁻单位；norm3准确返回U。U_(N−1)零集：11mod12为空，5mod12恰η⁶=−1六点。补充§7.1以真实Gaussian norm-p同源和J66给r8所需正确层U_(N−2)在这六点单位；η=±i时U_(N−2)/U_N=−25a¹²/(9B¹²)。核像/frame/Wilson常数全核。仍非单个高系数或完整bare差的单位，原primitive/Legendre不删。 §7.2保原theta/η尺度给Gaussian完全值C_N(i)=−(−432)^((p−1)/4)/2，平方−1/4；全方向scalar式仍未证。
+[R1016](results/R1016-original-small-index-theta-and-complete-convolution-units.md)：原index1/2的σ、σ²临界完整卷积全T⁻单位，norm3返回U。U_(N−1)仅p5mod12在η⁶=−1六点为零；§7.1准确r8层U_(N−2)在六点单位。§7.2原尺度Gaussian值C_N(i)=−(−432)^((p−1)/4)/2、平方−1/4；全方向平方候选未证，bare/原mask仍开。
 
-[R1015](results/R1015-original-class-two-Poincare-projection-and-balanced-triangular-bridge.md)：原norm7的完整Π2×Π2源=C22 U⊗U，给C22 u_ℓ²=D_n c_n^-+R_n；D/C两行为6/49、342/7⁸，R全保且逐项整。§5.1进一步给c_(p−r)=−A_r−BT_r，仅用原首sigma/inverse-sigma块；A为完整regular部分，T为带三移位阶乘的carry，r8余层N−2。仍须证A_r+BT_r非零，不能用R1016两重卷积替代。
+[R1015](results/R1015-original-class-two-Poincare-projection-and-balanced-triangular-bridge.md)：norm7实际Π22与完整余项给C22u_ℓ²=D_nc_n+R_n；§5.1原c_(p−r)=−A_r−BT_r，保完整regular A与三阶乘carry T，r8余层N−2。须证实际总和非零，不能用R1016两重卷积替代。
 
 R955/970实际单Cartier链：原S≠0 iff链长1 iff高同余理想单位。
 R961低晶体单位只测coker顶F₀；R972低Selmer/classgroup/global-unit不强迫高坐标。
@@ -75,4 +77,4 @@ R696早已证明同一全局Φ候选Ω_actual={0}，R832已消费；不重做、
 
 固定Y的R805–930及全部runs/高维格/预算边界见open与逐字归档，只消费已成输入。R907四artifact真404仍producer_inputs_pending，不重造；预算失败不作数学负结论。固定41全129盘/8CM已由R707完成，不重开。R575旧正CM角色根号−与逆twist秩零撤回有效。R1004仅导子下界而非a/c上界，停止重复优化。
 
-当前并行：R1017真实scalar与primitive/Legendre谱；原bare高坐标的完整Fay卷积；R1018完整形式首层后的实际log与非CM整投影。子问题完成即接open其余项，真正达到README完成标准才收尾。
+当前并行：R1020保完整scalar的primitive/Legendre谱；原bare高坐标的完整Fay/主部来源；R1018/19形式首层后的实际log、跨尾Frobenius校正与非CM整投影。子问题完成即接open其余项，真正达到README完成标准才收尾。

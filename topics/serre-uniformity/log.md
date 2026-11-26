@@ -193,3 +193,7 @@
 ### 2026-11-26 18:37 Asia/Taipei — Astra-serre-24b8836b-20261126
 - R1019证明原最早形式层经真实T5²及(T31−32)T5²仍保留：固定Norm的方向/p独立性、完整degree/raw支撑、导子25/775六标记非相消、lc/resultant绝对坏素界和SS尾计数经root/global独审。
 - CM新部被实际整数对应消去，后者另杀Q有理挠点；完整字面支撑必须排，不把Q挠点与Qp挠点或simple商整投影混同。H逐字归档；继续log的真实Frobenius/Witt校正，无执行/旧窗重跑。
+
+### 2026-11-26 18:58 Asia/Taipei — Astra-serre-24b8836b-20261126
+- R1020原H_p/C_N的全方向精确scalar桥纸审完成：index2系数4、norm3真实Ω负号、三挠k±、Weyl相位及第五阶120全部保留，同核十二表示不变。
+- H逐字归档保前态；继续原primitive/Legendre同h、bare完整余项与实际log跨尾校正，不将值单位代筛选谱或形式深度代log；无数学程序执行，两README同步无变化。
