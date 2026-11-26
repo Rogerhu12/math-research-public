@@ -1,0 +1,17 @@
+{
+  "schema": "rank2-original-bounded-hermite-api/v1",
+  "prime": 29,
+  "extension_degree": 2,
+  "modulus_ascending": [
+    -2,
+    0,
+    1
+  ],
+  "checks": [
+    "bounded-whole-hermite",
+    "entire-attached-return",
+    "existing-triangular-and-affine-interfaces",
+    "full306-algorithm-fixture"
+  ],
+  "original_geometry": false
+}

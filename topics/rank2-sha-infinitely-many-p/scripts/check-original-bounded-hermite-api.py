@@ -1,0 +1,207 @@
+#!/usr/bin/env sage-python
+"""Public bounded-degree HNF API and all original whole-module interfaces."""
+import os
+if (os.environ.get("GITHUB_ACTIONS") != "true" or
+        os.environ.get("GITHUB_REPOSITORY") != "Rogerhu12/math-research-public"):
+    raise SystemExit("Run mathematical computations only in the public research Actions.")
+
+import ast
+import hashlib
+import json
+import time
+from pathlib import Path
+from sage.all import GF, PolynomialRing, matrix, vector, identity_matrix
+from sage.env import SAGE_VERSION
+from original_ys_divisor_ideal_tools import canonical, digest, field_description
+from original_degree_bounded_row_reduction import complete_degree_bounded_row_hermite
+import original_polynomial_row_reduction as operation_module
+
+# Explicit API fixture binding, before downstream modules import the function.
+# No production module or entry point on disk is changed by this check.
+operation_module.complete_row_hermite = complete_degree_bounded_row_hermite
+import original_triangular_preimage_tools as preimage_module
+import original_triangular_artinian_values as value_module
+
+HERE = Path(__file__).resolve().parent
+ROOT = HERE.parents[2]
+TOPIC = HERE.parent
+REQUEST = TOPIC/"ci/original-bounded-hermite-api-request.json"
+WORKFLOW = ROOT/".github/workflows/rank2-sha-bounded-hermite-api.yml"
+IMAGE = "sagemath/sagemath@sha256:19995db6194f4a4bab18ce9a88556fd15b9ed5e916b4504fefe618a7796ddbdb"
+SOURCE_FILES = tuple(dict.fromkeys((
+    "check-original-bounded-hermite-api.py",
+    "original_degree_bounded_row_reduction.py",
+)+value_module.SOURCE_DEPENDENCIES))
+STARTED = time.monotonic()
+
+
+def progress(stage, **record):
+    print("RANK2_BOUNDED_HERMITE_API_STAGE "+canonical(dict(
+        stage=stage, elapsed_seconds=time.monotonic()-STARTED, **record)), flush=True)
+
+
+def direct_checks(k):
+    R = PolynomialRing(k, "r942_bounded_api")
+    t, a = R.gen(), k.gen()
+    reports = []
+    tiny = [
+        matrix(R, [[t**2+1, t], [t, t+1], [0, t**2-1]]),
+        matrix(R, [[0, 1, t], [t**2, 0, a], [1, t, t**3],
+                   [0, 0, 0], [t**2+1, t, t**3+a]]),
+    ]
+    for i, M in enumerate(tiny):
+        H, Z, receipt = complete_degree_bounded_row_hermite(
+            M, progress=progress, label="bounded rectangular official comparison %s" % i)
+        expected, transform = M.hermite_form(include_zero_rows=False, transformation=True)
+        assert transform*M == expected and expected == H and Z is None
+        reports.append(receipt)
+
+    # This family really requires more than the first shift:
+    # its HNF first row has right degree 2d-1, while first trial shift is d+1.
+    d = 7
+    M = matrix(R, [[t**d, 1], [t**(d-1)+1, t**d]])
+    H, U, receipt = complete_degree_bounded_row_hermite(
+        M, attached=identity_matrix(R, 2), progress=progress,
+        label="bounded exact full transformation and adaptive shift")
+    expected = M.hermite_form(include_zero_rows=False)
+    assert H == expected and U*M == H and U.det().degree() == 0
+    shifted = [p for p in receipt["phases"]
+               if p["phase"] == "single-column Hermite shift" and p["first_column"] == 0]
+    assert len(shifted) >= 2
+    assert shifted[0]["largest_shift"] == d+1
+    assert receipt["maximum_left_degree_seen"] <= receipt["proved_global_left_degree_bound"]
+    assert receipt["maximum_attached_degree_seen"] <= receipt["proved_attached_degree_bound"]
+    reports.append(receipt)
+
+    # Non-square RHS retains every original source row under exact division.
+    wanted = matrix(R, [[t**3+a, 1], [t, t**2+1], [a, t**4]])
+    recovered, receipt = operation_module.full_polynomial_left_division(
+        M, wanted*M, progress=progress, label="bounded whole non-square RHS left division")
+    assert recovered == wanted and recovered*M == wanted*M
+    reports.append(receipt)
+
+    # A unimodular high-degree input has delta=0: the bound must retain D.
+    M = matrix(R, [[1, t**19+a], [0, 1]])
+    H, U, receipt = complete_degree_bounded_row_hermite(
+        M, attached=identity_matrix(R, 2), progress=progress,
+        label="bounded high-degree unimodular input")
+    assert H == identity_matrix(R, 2) and U*M == H
+    assert receipt["determinant_degree"] == 0
+    assert receipt["proved_global_left_degree_bound"] == 19
+    reports.append(receipt)
+
+    # Explicitly specified full306 algorithm fixture, all rows and columns.
+    # It consists of 102 distinct repeated-factor 3x3 blocks.  These are
+    # not original geometric input coefficients, and no original model is made.
+    n = 306
+    expected = matrix(R, n, n)
+    for i in range(n):
+        expected[i, i] = (t-k(i % 29))**(2+i % 3)
+        if i % 3 != 2:
+            expected[i, i+1] = t+a+k(i % 29)
+    assert expected.is_hermite()
+    M = matrix(R, expected)
+    for block in range(n//3):
+        i = 3*block
+        M[i+2, :] += (t+a)*M[i+1, :]
+        M[i+1, :] += (t**2+a+1)*M[i, :]
+        M[i, :] += (t+a+2)*M[i+2, :]
+    X = matrix(R, n, 3, lambda i, j:
+               (a+k((i+2*j) % 29))*t**((i+j) % 3)+k(j+1))
+    B = M*X
+    H, Z, receipt = complete_degree_bounded_row_hermite(
+        M, attached=B, progress=progress, label="bounded full306 repeated-factor fixture")
+    assert H == expected and Z == H*X
+    assert H.nrows() == H.ncols() == 306
+    assert receipt["determinant_degree"] == sum(2+i % 3 for i in range(n))
+    assert receipt["every_original_row_returned_by_exact_hermite_division"]
+    reports.append(receipt)
+    return dict(
+        status="complete_degree_bounds_and_all_source_returns_passed",
+        rectangular_modules_equal_official_HNF=True,
+        complete_unimodular_transform_returned=True,
+        adaptive_shift_increase_actually_exercised=True,
+        entire_non_square_attached_RHS_recovered=True,
+        zero_determinant_degree_and_large_input_degree_checked=True,
+        full306_known_HNF_and_entire_attached_block_returned=True,
+        full306_actual_maximum_left_degree=receipt["maximum_left_degree_seen"],
+        full306_proved_left_degree_bound=receipt["proved_global_left_degree_bound"],
+        full306_determinant_degree=receipt["determinant_degree"],
+        all_receipts_sha256=digest(reports))
+
+
+def main():
+    raw = REQUEST.read_bytes()
+    assert len(raw) <= 4096
+    request = json.loads(raw)
+    assert request == {
+        "schema":"rank2-original-bounded-hermite-api/v1",
+        "prime":29, "extension_degree":2, "modulus_ascending":[-2, 0, 1],
+        "checks":["bounded-whole-hermite", "entire-attached-return",
+                  "existing-triangular-and-affine-interfaces", "full306-algorithm-fixture"],
+        "original_geometry":False,
+    }
+    assert SAGE_VERSION == "10.6" and os.environ["RANK2_IMAGE"] == IMAGE
+    source = os.environ["RANK2_SOURCE_SHA"]
+    assert len(source) == 40 and all(c in "0123456789abcdef" for c in source)
+    assert os.environ["RANK2_RUN_ID"].isdecimal()
+    assert os.environ["RANK2_RUN_ATTEMPT"].isdecimal()
+    for key in ("RANK2_ROOT_README_SHA", "RANK2_TOPIC_README_SHA"):
+        assert len(os.environ[key]) == 40
+    assert operation_module.complete_row_hermite is complete_degree_bounded_row_hermite
+    assert preimage_module.complete_row_hermite is complete_degree_bounded_row_hermite
+    assert value_module.complete_row_hermite is complete_degree_bounded_row_hermite
+    for name in SOURCE_FILES:
+        ast.parse((HERE/name).read_text(encoding="utf-8"), filename=name)
+    files = [HERE/name for name in SOURCE_FILES]+[
+        REQUEST, WORKFLOW, ROOT/"README.md", TOPIC/"README.md"]
+    manifest = {
+        "source":source, "run_id":os.environ["RANK2_RUN_ID"],
+        "run_attempt":os.environ["RANK2_RUN_ATTEMPT"],
+        "image":IMAGE, "sage_version":SAGE_VERSION,
+        "request":request, "request_sha256":hashlib.sha256(raw).hexdigest(),
+        "source_sha256":{str(p.relative_to(ROOT)):hashlib.sha256(p.read_bytes()).hexdigest()
+                         for p in files},
+        "readme_blobs":{"root":os.environ["RANK2_ROOT_README_SHA"],
+                        "topic":os.environ["RANK2_TOPIC_README_SHA"]},
+        "source_mount_read_only":True, "Sage_network_mode":"none",
+        "algorithm_fixtures_only":True,
+        "explicit_complete_HNF_function_binding_checked":True,
+        "production_files_modified":False,
+    }
+    progress("source manifest and source ASTs checked", manifest=manifest,
+             manifest_sha256=digest(manifest))
+    fp = GF(request["prime"])
+    modulus_ring = PolynomialRing(fp, "r942_api_modulus")
+    modulus = modulus_ring(request["modulus_ascending"])
+    assert modulus.degree() == 2 and modulus.is_irreducible()
+    k = GF(request["prime"]**2, name="r942_api_a", modulus=modulus)
+    assert k.gen()**2 == k(2)
+    checked = direct_checks(k)
+    previous = [
+        operation_module.operation_reduction_preflight(k, progress=progress),
+        preimage_module.triangular_preimage_preflight(k, progress=progress),
+        value_module.triangular_value_preflight(k, progress=progress),
+    ]
+    result = {
+        "kind":"rank2_R942_complete_degree_bounded_HNF_API",
+        "status":"complete_degree_bounds_and_original_module_interfaces_passed",
+        "source":source, "run_id":os.environ["RANK2_RUN_ID"],
+        "run_attempt":os.environ["RANK2_RUN_ATTEMPT"],
+        "manifest_sha256":digest(manifest), "image":IMAGE, "sage_version":SAGE_VERSION,
+        "test_constants":field_description(k), "direct_checks":checked,
+        "all_existing_module_preflights":previous,
+        "all_source_ASTs_checked":True, "source_file_count":len(SOURCE_FILES),
+        "original_maps_recomputed":False, "original_normalization_recomputed":False,
+        "original_divisors_norms_intersections_or_shadow_claimed":False,
+        "coefficient_or_data_file_written":False,
+        "elapsed_seconds":time.monotonic()-STARTED,
+    }
+    payload = canonical(result)
+    print("RANK2_BOUNDED_HERMITE_API_RESULT "+payload, flush=True)
+    print("RANK2_BOUNDED_HERMITE_API_SHA256 "+hashlib.sha256(payload.encode()).hexdigest(),
+          flush=True)
+
+
+if __name__ == "__main__":
+    main()
