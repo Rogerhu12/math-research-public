@@ -540,3 +540,7 @@ signed rows用真实配对中心；normalized行的adjoint residual由已成同T
 
 完整审查后提交五入口文件与唯一workflow。29件整当前输入：26旧原件/证明/现规+3新源码；S0 summary/process/manifest和D/SP/PW各whole execution/manifest/source完全绑定，内嵌science逐字还原原hash，原pilot源码AST核fixed_negative_phase_window真有理端点。使用当前Nov20规则receipt，旧实际manifest原规记录不改。
 manifest11815B/SHA b697e8665801a6e4d5120ca312d72a339cc28a2516d6dabd255f56ee79690f2d；owner42664B/87cade88d1e5844575487c49130cf7806d82a8b5556635f9db3dab7e4f31866d，worker28305B/17cb1a5c838cba72571880d871df533aad18577b08e28a8b92d9f681f78aff39。320bits/70位保存，4球每条candidate读回contains后才进completed，最终乘积用正式FN/GN upper；300s数学/600s child/20min workflow，无自动科学retry。旧源积分、Cauchy、Green、inverse不重。这里只启动真实新目标，run及实际结果随后登记；其ordinary贡献不代完整ν响应或闭族。
+
+### 2026-11-26 — R147 同窗 ν 普通源/腰贡献实际成功
+
+[完整actual](results/R147-supplement-actual-same-window-negative-nu-waist.md) run45781137624/1，job139776609104，4/4新球、child0、provedtrue、无failure。整science 15210B/1a06d01060a63eac98aeaa330f130a8ee766ab5ac878634e637f9cea30e1cb70，execution 13970B/eeb4ed157912e742e8d773ca32b04570296973b924f4a92b1a4ec153c30efe2b，29pins/source/runtime/选定参数/真实window全核；所有candidate保存读回后才completed，乘积消费正式saved upper。F_G<3.720478e−6、F_N<1.307204e−6、G_N<171.351714、Dordinary<2.24e−4。保完整第二非mean及腰两mean、原source和真实dr；不是rawC0或全qν−Z误差。positive/root/impulse/height/Robin/mean/phase/fullincoming仍独立，目标锁定仅读。R142与固定η0积分继续运行。

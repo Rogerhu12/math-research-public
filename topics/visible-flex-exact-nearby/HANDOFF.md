@@ -1,12 +1,12 @@
 # 交接：可见振幅的精确闭等距族
 
-维护会话：visible-exact-astra-198c63d-20261126；更新：2026-11-26 08:11:48 UTC。
+维护会话：visible-exact-astra-198c63d-20261126；更新：2026-11-26 08:16:02 UTC。
 **总任务未完成，继续研究，不等用户回复。**
 
 ## 规则、接续与当前环境
 
 已部分浅克隆/pull并完整读根和课题README、原H/open/log及续点notes。私库QUEUE认领已推 f90ec8e0116c67cbc32c03342e6a8d2aee0ccb41。
-本次两README确认至 d689d0d7eb2ce198a68dd286ab9cd4274162b5cf：每次更新前均比较上次已推提交至最新main，未见两README改动；本课题的实际新增以下列记录为准。此前终端pull后的规则差异亦为空。
+本次两README确认至 af38678320e0c3b39203e94a0242d245a72dc880：每次更新前均比较上次已推提交至最新main，未见两README改动；本课题的实际新增以下列记录为准。此前终端pull后的规则差异亦为空。
 2026-11-26 05:48 UTC起执行环境unavailable，无法再做终端pull/push；按根规8暂用GitHub集成读取main、比较规则和提交每件<100KB小文本，不向API传令牌。环境恢复后立即终端pull --rebase、核两README并继续；至少每小时检查一次，非FF立即重取main并重接，绝不force。
 
 本地原路径 /tmp/visible-exact-astra-198c63d15049/math-research-public，工作区有同名软链接；无AGENTS。环境恢复前不能声称磁盘待提交文件已推。公开Actions不依赖该执行环境，R142与固定η0新积分均在运行。
@@ -26,7 +26,7 @@ geometry43584188751/26仅在同η0真wholecore含帽C0≤1e−4、|δν|≤1e−
 2. **R149另一低逆门及实际后继已定义，未有新科学。** [signed loop](results/R149-signed-Green-loop-and-symmetric-part-coercivity.md)在同一weighted L²(dr;193)有||sym K||HS²=(旧HS²+新tr K²)/2；同标量degree24共轭/完整尾保96×97全cell/三角。旧HS/ε仅读，负组合upper是包围错。signed owner/generator必须真实完整R142 false才开88pins唯一trace；θ、γ、R各保存读回。新[五目标续算](results/R149-supplement-complete-source-point-continuation-and-physical-admission.md)保四源全GM、193atoms、5696点盒和原Z-only covariance，旧HS/trace/θ不重。完整双前驱后才95pins/15源/五目标；当前无manifest。
 3. **58→224→32物理入口已接。** [执行说明](notes/2026-11-26-physical-scalar-execution.md)：真实完整低逆后58全门过才14列224量，再16输出×两Hilbert RHS类型32量。三入口明确区分原strict和R149新kind，原公式未改；old失败ready=false。WPN exact lifting覆盖整个L²_r低193，真正成功后正侧未知径向头消去；负侧incoming、mean、ν与非线性仍未闭。特定Newton/ν源不能把32两RHS类型当源大小。
 4. **R143成功、R146已排当前根费用。** [R143 actual](results/R143-supplement-actual-correlated-body-budget.md)45762052058/1完整4651格六球/三body门true；[R146 actual](results/R146-supplement-actual-quadratic-cap-excludes-correlated-root-budget.md)45765780668/1完整418/13376，T2<102.965、Qupper<−.16618严格排CV/RA。停止该格式Gram/容量/仅细化DH，不推BVP奇异；完整high压缩/joint source保全源尾/mean。
-5. **同selected源和真实mean行已补。** [R145](results/R145-selected-nu-proposal-positive-source-and-outer-rows.md)、[R147](results/R147-selected-negative-nu-source-and-complete-mean-row.md)原完整正/负ν源、Robin/mean/腰odd与signed mean恒等式保3cdd H/各proof；保−3R0/m、ν方差、全jump/high→low→mean。NA/OA及F_B/GH5/GH4、D/weighted GH/高根全部旧成功仅读。[NW同窗加强](results/R147-supplement-same-window-selected-nu-source-to-complete-waist.md)F_N=S_N+(936826/10^6)D_N，再hypot(CO,C2)接waist/两mean；四球新入口已齐、本次启动：29整pins，manifest SHAb697e8665801a6e4d5120ca312d72a339cc28a2516d6dabd255f56ee79690f2d；原pilot AST核exact负窗，当前Nov20 rules、全部S0/D/SP/PW整件，320bits、candidate读回后才completed。无需R142；实际run/结果待登记。
+5. **同selected源和真实mean行已补。** [R145](results/R145-selected-nu-proposal-positive-source-and-outer-rows.md)、[R147](results/R147-selected-negative-nu-source-and-complete-mean-row.md)原完整正/负ν源、Robin/mean/腰odd与signed mean恒等式保3cdd H/各proof；保−3R0/m、ν方差、全jump/high→low→mean。NA/OA及F_B/GH5/GH4、D/weighted GH/高根全部旧成功仅读。[NW同窗加强](results/R147-supplement-same-window-selected-nu-source-to-complete-waist.md)F_N=S_N+(936826/10^6)D_N，再hypot(CO,C2)接waist/两mean；[实际NW](results/R147-supplement-actual-same-window-negative-nu-waist.md)45781137624/1已成4/4、child0：F_N<1.307204e−6、G_N<171.351714、ordinary waist/两mean<2.24e−4；29 whole pins/320bits、candidate读回全过。旧global<3.720478e−6保留；目标锁定，positive/root/jump/边界/fullν仍独立。
 6. **R144等价mean行和新固定η0完整积分入口。** holonomy、raw弱dual、端点及固定u,j nonlinear重投影的原完整资格保3e1a H/各proof：条件C0≤1e−4、cap独立球、Bcal^-1<5e10、selected腰mean严格(5,8)e−15，positivity/aR^-2/非mean残差全保。[旧forward actual](results/R144-supplement-actual-forward-mean-enclosure-and-unresolved-gates.md)45772466407/1从6791前缀仅续930，完整7721/6143；三门unknown、首positivity未决6803、无真违例。旧全η/row输入锁定。
    新[RS](results/R144-supplement-fixed-density-rotational-reference-subtraction.md)给W0=0与同r W′=2βUW+2βa²(U/s²+KV/m²)，D准确恢复非零初值/全部jump/physical外mean。新[完整合同](notes/2026-11-26-R144-fixed-eta0-correlated-mean-contract.md)及science/worker/generator/manifest/workflow已提交6a1868c，实际run45778507038/1已启动：21当前/10历史，320bits、N512、源Taylor24/流25、ρ/h=8，真[0,25/8]、7296原格/6143接口。manifest SHAe99e081cd404c36e9f754c0839e9f8f7d95502fffa2db02bff093fe90a0599a8。只对新目标物化全域固定η0载体，原native仅身份/partition/完整v与mean gap仅读；保全部primitive/径向Cauchy尾、同r signed和与真实forward费。每个接受子格/接口原子checkpoint；异常回滚至最后完整状态和trace前缀，complete仅在最终saved-ball门后置真。5h child、6h job、无自动科学retry。raw ν0/非Qrepair/非selected，任何门仍须实际输出；不授非mean、帽、height、phase或最终族。
 
