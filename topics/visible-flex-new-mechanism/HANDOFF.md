@@ -5,7 +5,7 @@
 
 ## 1. 授权、规则与完整前史
 
-公开本次实际pull且根/题README已读至 **864c3181a71d07c440682d57448c8c345ee2dc5b**；根/题规则相对继承0749a4cc均空差异。私库实际pull/根README已读至 **1a995ebf0c19ea771ef0684a4f22bf94da9a960e**，QUEUE认领提交 **09f8b8b54e7cfaabaa635bae5c438c7f1521289a**；本会话仍唯一进行中，21:00 UTC前再次实际pull且根README空差异，下一不晚于21:58 UTC。
+公开本次实际pull且根/题README已读至 **3d21d5771ebcd4d73fb6dafa3a4a1438d78c62d4**；根/题规则相对继承0749a4cc均空差异。私库实际pull/根README已读至 **1a995ebf0c19ea771ef0684a4f22bf94da9a960e**，QUEUE认领提交 **09f8b8b54e7cfaabaa635bae5c438c7f1521289a**；本会话仍唯一进行中，21:00 UTC前再次实际pull且根README空差异，下一不晚于21:58 UTC。
 
 [压缩前全文](notes/HANDOFF-before-free-center-feedback-20261127.md)及其归档链保存全部旧结论、真实输入、失败/偏离、量词与完整费用；移档不重跑已付门。[四来源与文献](notes/2026-11-27-current-four-source-topics-and-literature.md)保已读版本及用途。
 
@@ -37,6 +37,8 @@
 
 [R617](results/R617-finite-pre-tanh-poles-and-open-cap-rigidity.md)排固定有限pre-tanh+有限post的准确开帽根，当前.22帽入口已付；不授有限误差下界。后继须角带增长/无限独立响应与固定g。
 [R618](results/R618-fixed-metric-core-and-growing-post-response.md)付固定完整E同根p0/导数、core ζ/ζ′、全2J从属项与独立post，每固定新J从u≥max(100,4J)付真实强迫平尾/仿射口。canonical512全高度须恒等分拆，禁止用加密根改g；全J一致逆/完整非线性根仍欠，纯helper未执行，当前S仍设计阶段。
+
+[固定目标真实入口](notes/2026-11-27-r618-fixed-target-evaluation-and-zero-entry.md)已付完整函数身份、同根e′角误差、旧六jets同步mean转移、保括号根和显式core τ修正。τ0准确旧场、τ1全核心，E全程固定；内λ/coreζ保分裂量，未付径向/ODE/舍入照留。纯source全文审读未执行；正接完整模型/Jac，不捏造未出S终态。
 
 ## 6. 真函数、固定宽度与完整反馈
 

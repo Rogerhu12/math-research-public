@@ -159,3 +159,5 @@ O5 [R621](results/R621-normal-projected-covariant-blocks-and-reach-input.md)已�
 O4 [R616原终态](notes/2026-11-27-r616-expanded-true-function-natural-final-agent.md)解除旧人工系数墙后仍自然stall，原ruling1.31489e14未解；细四端过1e−9。下一必须换真实输入/原全反馈，保固定ε、全部历史/势/八末A和双末速度，不再以扩大±6盒处理已不存在的墙，也不把eta采样边缘冒全局无根。
 
 O4 [R620](results/R620-fixed-width-center-jet-gauge-chart.md)在原固定ε而非首层给可消费中心物理jets图及全19反馈。下一新范围以全程合法h/k明式的真实jets/全历史作初值，原8A+2速度全保；离根大势与原单位误差不得删，存储历史节点零值不得冒实际积分返回。
+
+O2b-B [固定E真实入口](notes/2026-11-27-r618-fixed-target-evaluation-and-zero-entry.md)已给同根e′预算、原六jets恒等mean转移及core余项τ路径。下一以完整S的真终态定义唯一高度/E身份，付同根模型/Jac、全2J/独立post和原所有口；不得用当前求积结果替换连续目标，也不能把τ0旧finite512核心误称已全连续通过。
