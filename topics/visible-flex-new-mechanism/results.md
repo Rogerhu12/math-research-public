@@ -204,3 +204,5 @@
 - [从原恢复末态继续的批量漏峰交换](notes/2026-11-26-hard-exchange-identified-continuation.md)：**新计算范围已发布，结果待实际运行**。两个lane严格复用原81q/已学约束网/trust的小型输入参数，物理和硬门完全相同；小漏峰完整登记并在后端返回后批量加入，显著未覆盖峰立即交换。原状态仍不合格，不授metric接受或固定g精化。
 
 - [R569线性种子的首份原终态与C²代价](notes/2026-11-26-r569-seed-first-run-receipt.md)：**完整数值观察，未授有限等距**。run45771143212自然success，39.905028348科学秒、2850383次RHS。同alpha160归一与共同外端尺度下，尾内|f_rr|约5.05e7、|v_rr|约3.94e8；外端f/fr负号排除直接单调w连接。DtN理论截断与数值积分差分开报告；换尾/相位/连接后继续实际核心shooting。
+
+- [R570 保八矩的有限姿态词与真实四段返回](results/R570-neutral-residence-pose-and-real-four-piece-return.md)：**已证明**同高度总驻留恒定的SO(3)有限词保持冻结完整八矩成本不随姿态变；按实际incoming冻结与完整能量/积分C¹控制，重解原八矩给u_σ=O(δ²)。首高尾慢图修正和原位置积分支付巨大横向分量，实际两pose方程可同解，故同χ (PP^R)²准确闭scalar全jets、frame、位置、A、T。整个第四仍4V_P、同13和有限等距/全reach/幅度仍欠。
