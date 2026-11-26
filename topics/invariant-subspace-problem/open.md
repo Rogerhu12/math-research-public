@@ -4,7 +4,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-20-open-before-unit-two-plus-one-b2a9.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-26-open-before-S0-Af0-complete-347c.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -57,7 +57,7 @@ rank$H=4$ 的非单位局部块长度5、4、3已排；长度2单零的三种单
 
 **[一般非零mean的原U值坐标覆盖](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-original-U-value-atlas.md)已付：** 保P0=−U0³、完整三moment/值碰撞、原E0/N0图与N(V)仿射式；t系数准确为bcLS/[2(q−1)]。LS非零图只余(f,q,λ,h,k)，L0与S0全系数退化单独保留；[L0/w1原九式现已全排](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-U-value-L0-w1-exclusion.md)：保两共轭与全部P1首项零纤维的QQ范数gcd64→48→0（0.222536秒/exit0），[L0/b+c0整支现亦排空](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-L0-zero-weight-sum-exclusion.md)：原Φ=−ρN(b+c)，新p+q2两参数图保整个κ代数；λgcd152的六保留因子14次全部返回原w式gcd1，322真逆与Bézout全乘回，3.173630秒/exit0。只续w(w−1)非零且b+c非零大补因子；旧三参数Φ到时记录仍未决，不能改标成功。
 
-**S0/Af0的已闭例外与剩余曲面：** [完整有限覆盖](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-U-value-S0-finite-parameter-cover.md)的I=H0只余M6；[这整个24维参数族现已排空](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-U-value-S0-M6-exclusion.md)，原P1全局系数单位及E1/EB的24阶QQ结果式乘法身份都已回乘，48真逆，run45808427743/job139869664343、2.914484秒/exit0。[S0/Af0全部值碰撞](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-U-value-S0-collision-exclusion.md)亦全闭。只续I/H非同时零的(λ,z)图；原600秒失败已转完整Chow；六QQ投影实际164.271秒完成、λgcd1320，最终.zcontent格式化错误退出1，尚未排空。[全部原z首项零谱现已闭](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-original-leading-spectra-exclusion.md)：λ1/2与J3全部共轭，在原F和第一Chow返回均gcd1；58/60/57真逆已回乘，20.080736秒/exit0，仅剥λ1的已付H3因子。其余λ候选改用最少QQ投影恢复，随后逐域回原式。[原P1两图覆盖](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-original-P1-S0-linear-cover.md)现完整付L_f=L_t=0边界，每原解能合法解f或t。[整个S0/P1双系数零支](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-P1-zero-coefficients-exclusion.md)现由M4八维QQ代数全排（45真逆，原E1/EB单位，0.070704秒），覆盖已扩至Af非零部分。[S0/Lt0的小J整支现全排](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-small-J-exclusion.md)：J的原权重身份迫{b,c}={1/2,1}，MJ四次/q二次完整8维参数上的E1/EB单位已回乘，49真逆、0.108022秒/exit0；实际无参数因子删除、L自动为全局单位，Af两面均保。Lt0只续(26,12)大因子。M6/碰撞勿重做；Af非零及一般LS图继续；后者原权重13式已生成但mod门达4GiB界未决，不作空性。
+**[S0/Af0/L非零整层现已闭](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Af0-L-nonzero-complete-exclusion.md)：** 原碰撞、I=H0/M6、u1已各付；一般两参数图由四QQ结果式gcd1320得到八个全部因子20次，完整Kφ[z]的原F/首Chow共同gcd全为1，109.926880秒/exit0。λ1/2/J3首项谱已单独排除，本次只引用；旧六投影末格式化失败不改标。仅剥pq、Δ、z、I2原单位，无新分母。[S0/P1双系数零整支](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-P1-zero-coefficients-exclusion.md)与[Lt0小J整支](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-small-J-exclusion.md)亦已全闭，后者Af两面保留。准确余项为S0/Af非零，包括Lt0的(26,12)大因子及值碰撞；h1/k1原九式新源已启动，h=k边界保留。一般LS非零图与L0非零权重和另续；全部旧来源/失败见前快照，不重做已闭门。
 
 **[rankH3二重加单点的非零Hp整层ess≤5](results/R150-appendix-rank-three-double-plus-single-second-cumulant-nonzero-hp-essential-six-exclusion.md)：** 原节点/J及At/τ/γ全部零面保留，QQ93/126与两个异常谱六真逆已付，0.011089秒/exit0。勿重做，仅续Hp0四源有限层。
 
