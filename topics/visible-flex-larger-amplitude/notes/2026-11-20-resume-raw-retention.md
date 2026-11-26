@@ -409,3 +409,17 @@ git show 0a5c529f01b4eba31856ba7f551b3cbbe06f9634:topics/visible-flex-larger-amp
 ```
 
 其后明确将旧消费者输入指向此文件；历史manifest路径照保，不声称所有旧消费者已无引用。原完整生成命令仍在 `notes/2026-11-12-closure-newg-strong-m20-real-reference-resource.json`；今后若重算，按现规矩只在公开Actions执行并把raw留runner。当前实际输入再生已完成28阶段，本轮后继使用该run自身field/carrier和永久点；此移出没有改变其实际数据或数学目标。
+
+## 2026-11-26 07:59 UTC：第十次容量操作，R39实际low46逐胞固定点盒
+
+本轮在题目约199.58 MB时普通移出旧可重算输出 `notes/2026-11-12-closure-newg-strong-m20-real-box.json`（590044 B，SHA256 `81f8f89aa5ca4ce18d4ea55c33e5fc0d63a8f1776090725af0ab032bc2e703c7`），仅去213个完整胞row。全部已有标量门、误差范围、完整modes/公式/参数、源和三个输入SHA、原resource argv与真实exit0保 [紧凑记录](../computations/resume-20261126-legacy-R39-box-retention.json)。本轮只是复制既有元数据，没有重跑旧数学。R39正文和历史消费者原样保留，不改写其辅助低46/线性远边界范围为完整非线性闭合。
+
+原逐字报告可从普通历史恢复：
+
+```sh
+git show db01d7c63c549c333319cbd51c9660c9c05782f3:topics/visible-flex-larger-amplitude/notes/2026-11-12-closure-newg-strong-m20-real-box.json > /tmp/R39-real-box.json
+```
+
+原三个输入的固定恢复提交与SHA逐字验证已完成：Green取8ef38046、reference取0a5c529f，ready仍在当前树；紧凑记录保完整40位提交号。今后确需重新计算，在Actions独立scratch复制原相对`notes/`路径、原完整生成器`closure_anisotropic_low46_box.py`及两依赖，再用原argv和明确precision192。Green检查器以原相对路径为身份键，不能随意换绝对路径后假称源失效。旧resource真实wall2.2743313312530518秒、exit0、峰RSS44652KiB；无旧Actions编号或已记录runtime版本，不虚构。
+
+当前run已经真实再生28阶段，v2幅度/新深谷入口用自身原场和scalar数据，此旧辅助盒不是其输入。其他旧消费者需要该原数组时必须先恢复到scratch并显式接入；未删除任何源码/证明或改写历史。
