@@ -1,18 +1,18 @@
 {
-  "id": "held10-m16-lift-recovery-20261126-01",
-  "read_rules_commit": "b462fb16a01290cd47170314928fffed2aeeb861",
-  "script": "topics/visible-flex-held-10pct/scripts/resume_20261126/warm_prefix_recovery.py",
+  "id": "held10-recorded-lambda004-fullH-20261126-01",
+  "read_rules_commit": "f5a8e1b4e5e0c33c1b7c525a4ebfbbb6ec278fc5",
+  "script": "topics/visible-flex-held-10pct/scripts/resume_20261126/tail_solve_recorded_height.py",
   "args": [
     "--repo",
     "@REPO@",
     "--work",
     "@WORK@",
     "--outdir",
-    "@WORK@/warm-prefix-recovery"
+    "@WORK@/recorded-lambda004-fullH"
   ],
   "diagnostics": [
     {
-      "path": "@WORK@/warm-prefix-recovery/summary.json",
+      "path": "@WORK@/recorded-lambda004-fullH/summary.json",
       "keys": [
         "status",
         "scope",
@@ -25,14 +25,13 @@
       ]
     },
     {
-      "path": "@WORK@/warm-prefix-recovery/continuations/summary.json",
+      "path": "@WORK@/warm-prefix-recovery/summary.json",
       "keys": [
         "status",
         "progress",
-        "results",
         "stages",
-        "error",
-        "result"
+        "result",
+        "error"
       ]
     }
   ]

@@ -6,11 +6,11 @@
 
 连通闭C²嵌入、C²连续族；H闭、有内点且diamH≥.2D，整像δhold≥.1D、含反射δE>0，全时reach≥.03D。固定完整g/物理数据/时间范围加密到完整metric≤1e−6并持续下降。必须实际闭合和共用Cartesian两jet；λ<1不提供准确圆弧H。
 
-- 公共已完整读规则并真实pull：`f5a8e1b4e5e0c33c1b7c525a4ebfbbb6ec278fc5`；私有根README/QUEUE接手登记已推 `2f68946f2fa3e192a291c7c1393231af1a89953e`。每次pull核双README差异，至少每小时一次。root独占git，逐结论push，NFF立即pull --rebase再推，禁force；令牌只命令行。
+- 公共已完整读规则并真实pull：`6e79d35827290927190a2ef5f2aa4861a1f8b5fe`；私有根README/QUEUE接手登记已推 `2f68946f2fa3e192a291c7c1393231af1a89953e`。每次pull核双README差异，至少每小时一次。root独占git，逐结论push，NFF立即pull --rebase再推，禁force；令牌只命令行。
 - 工作树 `/tmp/held10-astra-06bbeb395471-public2`；原/workspace盘满，不删他人文件。旧1b6d88ec scratch不存在；54314/45287/79634最终状态仍未知。详细[本次接手/来源](notes/2026-11-26-resume-and-current-sources.md)。
 - 70份精确历史源码已恢复；M24端口/角图/tail参数/native均与旧SHA逐字相同。[可搬迁恢复入口](notes/2026-11-26-tail-source-recovery.md)。恢复仅工程输入，不作为新数学结果。
 - 直接原控制冷恢复818/418节点均exit137；batch8恢复亦被SIGKILL，最后只到Jac开始，未到LU、无accepted raw。不能说数学失败。最后Jac输入曾保存为未接受初猜；05:51 UTC共享环境重置后本地副本已丢，不能继续假设存在。
-- 第四次本地恢复仍SIGKILL（44.48s/peak270084KiB），不猜原因。公开[run45763361623](https://github.com/Rogerhu12/math-research-public/actions/runs/45763361623)原M24冷恢复已真实域失败：−2.8750805252178435e−10，trace已定位δ中心差分扰动点，无raw/metric；进程码0仅因driver捕获异常。随后三路parent正确拒绝源exit2，没有启动子解。[实际记录](notes/2026-11-26-direct-prefix-domain-return.md)。原runner仍保源码/native，已提交下一命令`held10-m16-lift-recovery-20261126-01`：M16/512/201实际场完整lift升M24，分块8+observer，不降门；先投影原traceback，再15s记录真实Jac/LU进度。δ域内减半差分独立入口已准备、未跑BVP；M16冷残差仍大，另以独立lowq通道启动[旧成功q006→.06暖路径再生](notes/2026-11-26-lowq-warm-route-recovery.md)，请求held10-lowq-warm-route-20261126-01；不取消当前M16。通过后继续[三路入口](notes/2026-11-26-material-parallel-entry.md)。
+- 第四次本地恢复仍SIGKILL（44.48s/peak270084KiB），不猜原因。公开[run45763361623](https://github.com/Rogerhu12/math-research-public/actions/runs/45763361623)原M24冷恢复已真实域失败：−2.8750805252178435e−10，trace已定位δ中心差分扰动点，无raw/metric；进程码0仅因driver捕获异常。随后三路parent正确拒绝源exit2，没有启动子解。[实际记录](notes/2026-11-26-direct-prefix-domain-return.md)。原runner仍保源码/native，已提交下一命令`held10-m16-lift-recovery-20261126-01`：M16/512/201实际场完整lift升M24，分块8+observer，不降门；先投影原traceback，再15s记录真实Jac/LU进度。δ域内减半差分独立入口已准备、未跑BVP；M16冷残差仍大，另以独立lowq通道启动[旧成功q006→.06暖路径再生](notes/2026-11-26-lowq-warm-route-recovery.md)，请求held10-lowq-warm-route-20261126-01，run45772029917已真实启动；不取消当前M16。通过后继续[三路入口](notes/2026-11-26-material-parallel-entry.md)。
 - 05:51 UTC共享环境失联后/tmp重置；重新部分克隆到public2，远端R63等已推成果保留。临时源按保留推导重建，R64已绑定新源实跑；fixed runner及mean接口按各自当前记录恢复，旧临时SHA不冒充新文件。公共runner和其场数据未受该本地重置影响。
 - 根§12优先真实数学/求解，§15可再生数组不入Git/Release/artifacts；只存源/参数/命令/hash/小标量。H<10KB、单MD<100KB、目录<200MB，不写根LOG。
 
@@ -20,7 +20,7 @@
 
 **R65已证明**：[端点核/暖补弧族](results/R65-r53-endpoint-kernel-and-warm-supported-core.md)。无限维局部方向乘1−λ，而每个有限解析support空间的端点导数仍单射；不凭此虚报Jacobian秩亏。新补弧phase控制在实际锚点d=0保持完整核心/两jet，到λ1保准确圆弧；预备factory只做synthetic链式检查，尚无near-1接受场或BVP。
 
-1. actual_tail恢复M24 λ.002真实场，续原fullH与8次外迭代。旧.25/.5 warm成功只属旧场，不当fullH，不把未知.75终态推断成功。
+1. actual_tail恢复M24 λ.002真实场，续原fullH与8次外迭代。material队列另备[历史λ.004完整H的独立尾](notes/2026-11-26-recorded-lambda004-tail-input.md)，仅待当前命令自然返回，不称λ.002耦合。旧.25/.5 warm成功只属旧场，不当fullH，不把未知.75终态推断成功。
 2. fixed_metric从新实际场固定完整δ/尾背景/角图/圆化数据，求同一BVP未知核心并核全C²收敛。旧`fixed_m3_linear_field.py`只准备强固定入口linearDN接口，未运行，不继续无必要的兼容债计算。
 3. seam_geometry处理实际桥--尾公共两jet，保mean1168/真primitive/高度符号；优先在余量较大的尾侧作显式Hermite接缝，尚无fullH数据不得报闭合。 已按原源码核明ω−1=w²(L+q)，全周转角决定meanSlope、归一化Darboux决定RR；有限场须另付真实转角/三角表/求积/二阶残差，不能仅用打印零模。见[源码兼容](notes/2026-11-26-seam-mean-source-compatibility.md)，A≥.1仍是待验条件。[新cut入口](notes/2026-11-26-seam-new-prefix-cut-entry.md)已接parent：每个真正accepted尾包与其实际prefix同R两jet比较，保mean1168及原高度符号，区分native总导数与真背景加原meanCorrection；尚无新场输出。R66给三重高度下连续转角I=1即平面primitive闭合，以及缺口≤(8π²/9)R|I−1|；仍须实际连续I与平面投影误差。
 4. root并行圆化到λ1；M32端口已恢复到旧SHA `2be7db12...69684c6`，尚未求新M32场，不与M24恢复抢内存。新设计改变λ/δ与最终同g精化分开。
