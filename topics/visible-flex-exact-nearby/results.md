@@ -242,3 +242,5 @@
 - [CXN：共同高输入到六个负侧接收量](results/R149-supplement-actual-common-high-negative-receiver-execution.md)：完整owner/worker/generator已接；同NIF/WX和真实source4/58/224/32准入，六个同输入whole norm逐保存后消费。未有完整32，未生成执行manifest。
 
 - [CG：完整graph中的正侧反馈与真96列](results/R149-supplement-positive-feedback-in-the-complete-graph-high-block.md)：先准确邻接约消再付2^199 Cadd ΛJ^−1/3；独立真physical96联合列及全部reference/Θ费用保。实际6/56未齐，新高门未通过，完整finite/mean/ν仍待。
+
+- [CA：实际紧支撑正矩与52个完整C0量](results/R144-supplement-actual-compact-mean-C0-receivers-and-positive-moments.md)：45787608966/1完整7721/6143/7721、52球、正矩门true；全部Γ/跳/11核和raw固定η0范围保，未付root/mean-ball/physical-C0。
