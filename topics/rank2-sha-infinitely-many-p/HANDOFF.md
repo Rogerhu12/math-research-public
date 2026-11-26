@@ -6,7 +6,7 @@
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。有限p、随p换曲线、条件桥和接口成功不算完成；固定有限曲线族的联合无穷非零可以再用无限鸽巢选定一条。
 
-- 两仓库已部分克隆、实际pull。公开根/课题 README 已读至 `2e4a0fca20e17f18e54de1f73b1ed3df801b8515`（差异为空）；每次pull检查两文件差异，至少每小时同步并更新此SHA。
+- 两仓库已部分克隆、实际pull。公开根/课题 README 已读至 `bcb4117809c98707f79dbb228734ff119c384cef`（差异为空）；每次pull检查两文件差异，至少每小时同步并更新此SHA。
 - 私库QUEUE接手已推 `41fe885610073f478b2f5a752461ca56cfd43f09`，根/本题README于20:03 UTC复核至eb74b5a78f485b18621f95381131a88bbd62467c（差异空，QUEUE仍本会话）。两本地目录为math-research-public、math-research-private；终端可用，令牌仅进程认证，不入文件。
 - root独占git/共享H/open/log/index；结论完成即推，非快进立即pull --rebase、检查README再推至成功；不强推。数学执行用公开Actions，不保存可重算数据/矩阵/log。H<10KB、单MD<100KB。
 - 本次完整旧状态保在[压缩前H](notes/2026-11-27-handoff-before-whole-cross-spectrum.md)。它链接[接手原H](notes/2026-11-27-handoff-at-takeover-0b097461.md)、[v8前H](notes/2026-11-27-handoff-after-v8-launch-before-degree130.md)及2026-11-26全部历史链。所有未关闭旧门仍在[open](open.md)及两卷proof index，未默删。
@@ -28,6 +28,8 @@
 run45884058894/job140130269899/sourcefbb1c319于19:36:09 UTC实际success；全22/66/44和全部81块通过。F130只含E65³线与E125的质量零13-old方向；H含E260分量1/81但F130该分量为零，四个非mu6块均保。R973算术标签及R976全部谱/回执已登记；三个delta-new质量零线分别29Z/216、7Ψ35/270、167Ψ53/360，后二条全算术角色仍待。
 
 v6 run45886844420/job140139542933/source6f9a83a8于19:58:37 UTC真实success；Π260F11=1400Φ260/33，目标最小分母175，全14非零分量/4个nonmu6及原全部门均返。完整回执/hash见R977§6；不把两old非零质量误写成零差。
+
+原同次中央消费者v7已接R978两个真实13-old pull、完整V10下降、四列全old覆盖及H/F10/F11精确系数/质量；18源/16AST，保全部v6门，待真实运行，不预写κ。
 
 ## 二、本轮已完成的中央输入与准确余项
 

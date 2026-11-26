@@ -1,6 +1,6 @@
 {
-  "schema": "rank2-original-e65-full-cm-sixth-axis/v6",
-  "request_id": "2026-11-27-r977-genuine-e260-common-carry-source",
+  "schema": "rank2-original-e65-full-cm-sixth-axis/v7",
+  "request_id": "2026-11-27-r978-full-thirteen-old-source-return",
   "degree": 390,
   "workers": 4,
   "python_flint_version": "0.9.0",
@@ -16,7 +16,7 @@
   "args": [
     "--workers=4"
   ],
-  "scope": "Same complete sources and all v5 consumers, plus the true axis (2+omega,2+omega,1,omega^2,1,11), full psi11 identity, original22 E260 projection, all81 actual components, integral frame and unchanged common C/F. Zero and nonzero target projections are both reported exactly.",
+  "scope": "Same complete sources and all v6 consumers, plus both raw pi13/barpi13 pull maps, full level10 descent from the original22 operators, all four old columns and exact H130/F10/F11 pull coefficients including mass. No old source or mixed component is assigned a central zero.",
   "same_job_complete_six_source_angular_profile": true,
   "same_job_genuine_six_sigma_projection": true,
   "same_job_original_h_projection": true,
@@ -25,5 +25,6 @@
   "overdetermination_precision": 5,
   "same_job_complete_degree130_cross_projection": true,
   "same_job_complete_degree130_and_original66_spectrum": true,
-  "same_job_e260_common_carry_source": true
+  "same_job_e260_common_carry_source": true,
+  "same_job_full_thirteen_old_sources": true
 }
