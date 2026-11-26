@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R150 S0/Lt0的整个u=3/2原参数纤维为空（2026-11-27，已证明）：** [三完整原投影的QQ Bézout](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-ehalf-original-exclusion.md)将P045/P035/P034及新Q4直接返回ehalf，保持全部v首项零；107/116/75次结式的实际累计原组合等于k^8(k+2)^2(k+5/2)^8，系数次数86/77/66，全乘回。各零点由原Q、bc或已闭半权排除；4.198285秒/53512KiB/exit0。未用新Q4首项非零，独立付2e−1。
+
 - **R150 S0/Lt0同eta原四次式的全部首项零面为空（2026-11-27，已证明）：** [完整参数覆盖和三次域原返回](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-same-eta-quartic-leading-zero-exclusion.md)原Qa低行与N1/均值重叠给764项Q4；B_(11,8)=32lc_vQ4的全零面，经四个完整k投影369/464/292/990次覆盖。QQ整除加保378/827次的一元模1031 Bézout核出全部共同因子；末ehalf三次k域中原Q4/Q5 Bézout=1，全部逆/除法回乘。源内34.215046秒/127252KiB/exit0；可首一化新四次式，未判一般Lt0。
 
 - **R12 任意普通真不变空间均无任何整幂的不变闭补空间（2026-11-27，已证明）：** [完整深头块数、全部字符与迹谱连通](results/R12-appendix-no-power-invariant-closed-complement-for-any-ordinary-invariant-subspace.md)对RanE=M∈LatA、E交换A^p，令Y=AE；准确有限放大交换子使每个字符像Eχ与完整J交换。其像仅有完整D长块，p次根整除迫Eχ=0或I；深尾迹的谱连通迫所有字符同选，再用det(I−E)或detE为单位得E=0/I。允许非正交闭补空间；不排除代数和稠密但非闭的分解，也不扩大到独立有限重数放大。

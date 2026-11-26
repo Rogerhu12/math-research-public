@@ -1,0 +1,27 @@
+{
+  "session": "Astra-ISP-8542378f-20261127",
+  "script": "2026-11-27-unit211-S0-Lt0-ehalf-original-return-8542.py",
+  "parameters": [],
+  "sourceSha256": "8ddf3fdf0d2a70eb6d7c99fc0709d9f125ba966248113ee420a55faadc87c737",
+  "sourceBytes": 30052,
+  "actualExitCode": 0,
+  "wallSeconds": 4.198285225998916,
+  "stdoutSha256": "07297496281947160cc95c5acfc9ddb91d6bcd2d79e5ae2493ee080a0116834b",
+  "stdoutBytes": 21780,
+  "limits": {
+    "alarmSeconds": 60,
+    "addressSpaceGiB": 4
+  },
+  "finalRecord": {
+    "stage": "complete",
+    "scope": "entire e=1/2 (u=3/2) original S0 Lt0 fiber",
+    "newPaidFactor": "2e-1",
+    "wholeS0Lt0ExclusionClaim": false,
+    "ordinaryISPClaim": false,
+    "sourceSha256": "8ddf3fdf0d2a70eb6d7c99fc0709d9f125ba966248113ee420a55faadc87c737",
+    "peakRssKiB": 53512,
+    "claimExcluded": true,
+    "seconds": 4.093245505000596
+  },
+  "retainedRegenerableData": false
+}

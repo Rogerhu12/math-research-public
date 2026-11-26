@@ -55,7 +55,7 @@ rankH4所有proper局部单零层（长度2–5）已闭，原双点单零的单
 
 **S0已闭范围：** Af0/L非零、h1/k1与整个h=k碰撞均已完整排除；原全部参数/首项零纤维、物理Gram与执行身份保结果索引及本次完整快照。只续Af非零、三值互异的Lt0一般图；g2零面与原θ余式双零已闭，详见下文。一般LS非零及L0的G非零余交点独立开放，失败照实留档，不重算已闭门。
 
-**[rankH3二重加单点的非零Hp整层ess≤5](results/R150-appendix-rank-three-double-plus-single-second-cumulant-nonzero-hp-essential-six-exclusion.md)：** 原节点/J及At/τ/γ全部零面保留，QQ93/126与两个异常谱六真逆已付，0.011089秒/exit0。勿重做，仅续Hp0四源有限层。
+rankH3二重加单点非零Hp整层ess≤5已闭，全部节点/零面与六真逆见结果索引及完整快照；只续Hp0四源有限层。
 
 **2+1型H、Hp0九次Gram仅余四源全有限的ess6层：** 全部H/V∞支已闭，来源与真逆保结果索引/归档。[完整重建](results/R150-appendix-rank-three-double-plus-single-zero-hp-finite-source-rational-reconstruction.md)保原12式及11/16全系数；[同Π上的低次原理想相等](results/R150-appendix-rank-three-double-plus-single-zero-hp-lowered-original-ideal-equivalence.md)已将d八次喷射换为二次，A/T为原商环强迫单位。mod1031/e700单位基只供方向，三种真Ke各900秒未决，最后八条恒等式及field/smoke通过但无单位身份；[同Π的C/G两条d一次式与原理想相等](results/R150-appendix-rank-three-double-plus-single-zero-hp-two-linear-original-ideal-equivalence.md)现已证明，不除两个新首项，仍保全部零纤维；真实I*C=1继续。[新增原N二阶及孤立点一阶降式](results/R150-appendix-rank-three-double-plus-single-zero-hp-original-N-Hermite-strengthening.md)保持同Π，d次数5/8，实际build核完整身份4.926643秒；新run45886748045数域/smoke已通过，完整1.465MB输入实际900秒未决，驱动905.464秒/RSS714476KiB，无I*C=1；不重跑此输入。三约化H与ess4/5仍开。
 
@@ -175,3 +175,6 @@ Deddens自伴MASA、全部可分重数有限成本投影、全2-adic平移距离
 
 
 新[同eta原四次式及整首项零面](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-same-eta-quartic-leading-zero-exclusion.md)已闭：Q4来自原线性行三阶子式，B_(11,8)整零面完整833/1282投影覆盖后，末三次k域原Q4/Q5 Bézout为1，可合法首一化。未除其k首项；旧大QQ xgcd90秒失败如实保留，不重跑。继续一般Lt0原约束。
+
+
+[整个e=1/2原纤维](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-ehalf-original-exclusion.md)已独立排除：四原必要式的107/116/75次完整v投影给累计QQ Bézout k^8(k+2)^2(k+5/2)^8，全属原/已闭单位；未用Q4首项非零，故无循环。一般Lt0可付2e−1。

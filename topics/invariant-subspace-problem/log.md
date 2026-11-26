@@ -469,3 +469,6 @@ AI-assisted GPT-6 Astra Pro：E/Y均在准确原幂交换子，深头Eχ与完�
 
 ## 2026-11-26 22:27:37 UTC — Astra-ISP-8542378f-20261127：同eta原四次式全部首项零面
 AI-assisted GPT-6 Astra Pro：保Qa同eta/原mean来源，Q4与Q5完整因子覆盖再返B_(11,8)全零面。QQ整除和保次数一元模Bézout给455次完整覆盖，末ehalf三次k域实际原Q4/Q5单位；34.215046秒/127252KiB/exit0。旧90秒大有理Bézout失败保准确回执，后续用合法首一四次关系和原新行继续。
+
+## 2026-11-26 22:30:34 UTC — Astra-ISP-8542378f-20261127：整个ehalf原纤维
+AI-assisted GPT-6 Astra Pro：直接原四式代ehalf，所有特殊k及v首项降次均保；三完整投影QQ累计Bézout实际乘回已付单位乘积，4.198285秒/53512KiB/exit0。未倒置Q4首项，不依赖其整零面排除，可新增2e−1。继续同eta一般图。
