@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R150 S0/Lt0最小原v六次式的整个首项零面为空（2026-11-27，已证明）：** [原Dixon组合、完整双层投影及二次域返回](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-original-v-leading-zero-exclusion.md)完整核lc_vP045=(4e−k)(ek−1)B44/524288；原三mean差商系数/Cramer追踪给D8，564/750/776次一元投影Bézout仅余e1/2。其B44=(k−2)²(k²+29k+64)乘非零常数，k2原单位排除，末二次域P045/P035的v-Bézout1。109.809478秒/607860KiB/exit0；一般图可合法用首一v六次关系。
+
 - **R271 原形式除法的闭关系及两道范围核心已精确化（2026-11-27，已证明结构）：** [真实列图闭包与显式多值趋近](results/R271-appendix-actual-formal-division-closed-relation-and-two-range-cores.md)证明closure Graph(TJ_B|P)=closure Ran(B,T)，多值部恰Ce0，实际x_j=e_(2^j)/a_j同时付Bx_j→0、Tx_j→e0。投去真空的A_min可闭，A_max=J_BT，N⊂ker A_min⊂M；其伴随最大G=F/z域D={y:T*y∈RanB*}的闭包为e0⊥。I⊂J⊂N⊥的两道等号分别未付，单一图核心不冒充N=M。
 
 - **R12 全部原尾的有界根重数及未知不变投影的准确距离（2026-11-27，已证明）：** [逐尾完整交换子、字符及Jordan整除](results/R12-appendix-tail-root-multiplicity-and-all-invariant-projection-distances.md)证明(I_k⊗B_m)有有界q次根当且仅当q|k，根完全任意。原A的每个普通不变M都不能由秩0<k<2^m的有限头坐标同构到整个k重尾，故||P_M−Q||=1；非零真P_M到UHF、UHF+紧算子的距离均为1/2，本质距离同一。不假D保持；未知真尾底空间的闭图仍开。

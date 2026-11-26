@@ -1,0 +1,331 @@
+{
+  "schema": "r150-Lt0-original-v-leading-zero-return-v1",
+  "sourcePath": "notes/2026-11-27-unit211-S0-Lt0-original-v-leading-zero-return-8542.py",
+  "sourceSha256": "9e17050e11f5b66eb06860423b863cf7a9088a2aba80fc3b0ae4df19e3fe6407",
+  "sourceBytes": 28962,
+  "pythonVersion": "3.12.14",
+  "pythonFlintVersion": "0.9.0",
+  "command": "PYTHONPATH=/workspace/scratch/8542378f2b73/isp_pydeps python topics/invariant-subspace-problem/notes/2026-11-27-unit211-S0-Lt0-original-v-leading-zero-return-8542.py",
+  "exitCode": 0,
+  "elapsedSeconds": 109.80947817000015,
+  "peakRssKiB": 607860,
+  "alarmSeconds": 180,
+  "addressSpaceBytes": 4294967296,
+  "stdoutSha256": "b2c050346796ea5cc1f8dbc80d18c5b4857d118f5fc3c01fcc8ebccd920609ea",
+  "stdoutBytes": 20970,
+  "DixonAndReturn": [
+    {
+      "stage": "original_Dixon_coefficient_reduced",
+      "alphaBetaMonomial": [
+        0,
+        0
+      ],
+      "degrees": [
+        13,
+        10,
+        1,
+        1,
+        4,
+        0,
+        0
+      ],
+      "terms": 768,
+      "originalMeanCombinationVerified": true,
+      "normalFormTraceMultipliedBack": true,
+      "sha256": "794f433bf986f1b50e7e47b06b55ce7c9aeaf12714090168e23b30d2eb396476",
+      "claimExcluded": false,
+      "seconds": 3.6449575740007276
+    },
+    {
+      "stage": "original_Dixon_coefficient_reduced",
+      "alphaBetaMonomial": [
+        0,
+        1
+      ],
+      "degrees": [
+        13,
+        9,
+        1,
+        1,
+        3,
+        0,
+        0
+      ],
+      "terms": 597,
+      "originalMeanCombinationVerified": true,
+      "normalFormTraceMultipliedBack": true,
+      "sha256": "5af08dc7f83a6231a42944f4af537176dbcc3c5086350ab7a4c550d2a1be6554",
+      "claimExcluded": false,
+      "seconds": 3.7357806650015846
+    },
+    {
+      "stage": "original_Dixon_coefficient_reduced",
+      "alphaBetaMonomial": [
+        1,
+        0
+      ],
+      "degrees": [
+        13,
+        9,
+        1,
+        1,
+        3,
+        0,
+        0
+      ],
+      "terms": 549,
+      "originalMeanCombinationVerified": true,
+      "normalFormTraceMultipliedBack": true,
+      "sha256": "9d6b555f4e3e92540c4d0dc9e7ee37368a04e8a0ef0515a26d81ce6ddddb9325",
+      "claimExcluded": false,
+      "seconds": 3.8437204440015194
+    },
+    {
+      "stage": "original_Dixon_coefficient_reduced",
+      "alphaBetaMonomial": [
+        1,
+        1
+      ],
+      "zero": true,
+      "originalMeanCombinationVerified": true,
+      "seconds": 3.87926284400055
+    },
+    {
+      "stage": "original_Dixon_coefficient_reduced",
+      "alphaBetaMonomial": [
+        2,
+        0
+      ],
+      "zero": true,
+      "originalMeanCombinationVerified": true,
+      "seconds": 3.913605756000834
+    },
+    {
+      "stage": "original_Dixon_scalar_identity_complete",
+      "degrees": [
+        25,
+        20,
+        8
+      ],
+      "terms": 1581,
+      "polynomialSha256": "ff6fc8827c380405cec2fa4a32b5e6065d47dd5a0caac51cbf886220ddcfe8b1",
+      "allOriginalRowCombinationsVerified": true,
+      "claimExcluded": false,
+      "seconds": 3.9614640780000627
+    },
+    {
+      "stage": "complete_original_v_leading_factorization",
+      "vDegree": 6,
+      "leadingCoefficientScalar": "1/524288",
+      "paidFactors": [
+        "4e-k",
+        "ek-1"
+      ],
+      "remainingFactor": "16*e^4*k^2 + 16*e^4*k - 16*e^3*k^3 - 40*e^3*k^2 - 48*e^3*k - e^2*k^4 - 19*e^2*k^3 - 8*e^2*k^2 + 64*e^2*k + e*k^3 + 36*e*k^2 + 80*e*k - 16*k - 64",
+      "remainingFactorLeadingK": "-e^2",
+      "claimExcluded": false,
+      "seconds": 3.962603627000135
+    },
+    {
+      "stage": "full_original_v_projection",
+      "otherInput": "Dixon",
+      "rawDegrees": [
+        204,
+        170,
+        0
+      ],
+      "degreesAfterPaidRemoval": [
+        104,
+        74,
+        0
+      ],
+      "paidRemovals": [
+        [
+          "k",
+          20
+        ],
+        [
+          "distinct_p_q",
+          4
+        ],
+        [
+          "bc",
+          26
+        ],
+        [
+          "T0",
+          6
+        ],
+        [
+          "closed_half_weight",
+          8
+        ],
+        [
+          "closed_consistency_line",
+          2
+        ],
+        [
+          "closed_quadratic_invariant_curve",
+          4
+        ]
+      ],
+      "sha256": "354251e4c753d7f58a227b7709262e6ac9ea1ce184b6c614cc9e4df8a9518585",
+      "allLeadingZeroFibersRetained": true,
+      "claimExcluded": false,
+      "seconds": 25.596896514000036
+    },
+    {
+      "stage": "full_original_v_projection",
+      "otherInput": "P035",
+      "rawDegrees": [
+        180,
+        155,
+        0
+      ],
+      "degreesAfterPaidRemoval": [
+        132,
+        109,
+        0
+      ],
+      "paidRemovals": [
+        [
+          "k",
+          14
+        ],
+        [
+          "bc",
+          11
+        ],
+        [
+          "T0",
+          2
+        ],
+        [
+          "u",
+          6
+        ],
+        [
+          "closed_half_weight",
+          4
+        ],
+        [
+          "closed_consistency_line",
+          3
+        ],
+        [
+          "closed_quadratic_invariant_curve",
+          1
+        ]
+      ],
+      "sha256": "a401553bb160756ef4a9f4d65b11b07e02bbb712e5024918a0a19c5a4317004d",
+      "allLeadingZeroFibersRetained": true,
+      "claimExcluded": false,
+      "seconds": 37.262351194000075
+    },
+    {
+      "stage": "full_original_v_projection",
+      "otherInput": "P034",
+      "rawDegrees": [
+        179,
+        164,
+        0
+      ],
+      "degreesAfterPaidRemoval": [
+        133,
+        119,
+        0
+      ],
+      "paidRemovals": [
+        [
+          "k",
+          14
+        ],
+        [
+          "bc",
+          11
+        ],
+        [
+          "T0",
+          2
+        ],
+        [
+          "u",
+          6
+        ],
+        [
+          "closed_half_weight",
+          4
+        ],
+        [
+          "closed_consistency_line",
+          3
+        ]
+      ],
+      "sha256": "cb78a57e55b2d8cb547dc679b4e88743e268bdb1410a477611204926d5120c7b",
+      "allLeadingZeroFibersRetained": true,
+      "claimExcluded": false,
+      "seconds": 49.76681420600107
+    },
+    {
+      "stage": "full_original_vleading_curve_parameter_projection",
+      "otherInput": "Dixon",
+      "parameterDegree": 564,
+      "sha256": "3d653ebba4802fd57eeb720c7c2e71bd410fc6abfbb3a461b6dba608210846f1",
+      "claimExcluded": false,
+      "seconds": 49.867205788999854
+    },
+    {
+      "stage": "full_original_vleading_curve_parameter_projection",
+      "otherInput": "P035",
+      "parameterDegree": 750,
+      "sha256": "2f23bf0e15309e2f7b92c320f479447a44506f52f8c372c7f7b6bc14642487c9",
+      "claimExcluded": false,
+      "seconds": 50.082171590000144
+    },
+    {
+      "stage": "full_original_vleading_curve_parameter_projection",
+      "otherInput": "P034",
+      "parameterDegree": 776,
+      "sha256": "19a8367b4bc9ebcff47f2ce2cac401e3433eec8ee0ec1b45b514b78840c1d969",
+      "claimExcluded": false,
+      "seconds": 50.31459544000063
+    },
+    {
+      "stage": "complete_original_vleading_parameter_cover",
+      "gcdDegree": 293,
+      "monicGcd": "e^69(e-1/2)^106(e+1)^118",
+      "allUnivariateBezoutMultiplicationsVerified": true,
+      "bezoutCoefficientsSha256": "45a80d533d8fd1eef585d44aeeee905ff483ae57996ab68bf0ffa6ef59fc3e92",
+      "remainingParameter": "e=1/2",
+      "claimExcluded": false,
+      "seconds": 109.79370338300032
+    },
+    {
+      "stage": "complete_original_remaining_quadratic_field_return",
+      "parameter": "e=1/2",
+      "kPolynomial": "k^2+29k+64",
+      "fieldDimension": 2,
+      "originalInputs": [
+        "P045",
+        "P035"
+      ],
+      "gcdInV": "1",
+      "fieldInverseChecks": 8,
+      "divisionMultiplicationChecks": 7,
+      "bezoutMultiplicationChecks": 1,
+      "claimExcluded": true,
+      "seconds": 109.80884512500052
+    }
+  ],
+  "lastStage": {
+    "stage": "complete",
+    "scope": "entire leading-v-coefficient-zero face of original P045 on remaining S0 Lt0; all projections and the two k embeddings returned",
+    "sourceSha256": "9e17050e11f5b66eb06860423b863cf7a9088a2aba80fc3b0ae4df19e3fe6407",
+    "ordinaryISPClaim": false,
+    "claimExcluded": true,
+    "peakRssKiB": 607860,
+    "seconds": 109.80947817000015
+  },
+  "claimExcluded": true,
+  "ordinaryISPClaim": false
+}

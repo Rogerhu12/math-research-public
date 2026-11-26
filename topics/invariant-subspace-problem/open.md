@@ -146,16 +146,15 @@ A单射、稠密像、拟幂零且非紧；普通非零真闭不变子空间仍�
 
 **[S0/Lt0新低次原系统](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-low-invariant-original-system.md)：** e=u−1、k=Q/e、v=4kbc·t可逆，四原二次式和同一eta的矩/配对/范数/N(V)保留所有原解；原P02恒等式支付ell≠0，半权已闭支付矩阵首项。7变量原门实际1200.426秒/exit1，小modstd smoke先触内存/tasks错误及signal11，未通过；不重跑。新增[原P/N三参数Cramer系统](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-original-Cramer-minor-system.md)的全部原组合、114分母与20子式已回乘，4变量QQ build3.519411秒，不是排空；继续直接std/slimgb真实门或更低原几何。
 
-**[S0/Lt0整个k=4e已关闭](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-mean-consistency-line-exclusion.md)：** 原三子式完整返回的90/95次Res_v有一元Bézout=e^10(e+1)^40，原e、u单位矛盾；自含源3.421194秒/exit0。可付4e−k，保其余三参数必要理想及所有未排原几何。
-
-**[S0/Lt0原t=0整支关闭](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-zero-singleton-pairing-exclusion.md)：** 四完整Res_k覆盖后1/2/2/4维同e原域全返回，所有逆/除法/Bézout实际通过，3.793203秒/exit0；一般图可付v，不借用旧等base配对子类。下一仍为原三参数小行列式全门及其更低原几何。
-
 **[整个实际M的占满前缀新指数率](results/R271-appendix-full-tensor-exponential-bound-and-improved-occupied-prefix-decay.md)已证：** 完整张量指数范数配合同一真实D_rg_r余项，r=ceil(log2n)给γ_ex>5/3和明确e^(−47n⁴)carry；优化率Γ_occ约1.723637，所有严格小于它的率对全M及固定最高k类成立。仍远低于真实α_q^-1除法图范数；继续W特殊来源/主理想闭图，未证N=M。
-
-**[S0/Lt0整条Omega=2e²−ek+2=0关闭](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-quadratic-invariant-curve-exclusion.md)：** 原坐标曲线的完整清分母身份与224/266/254次Res_v给仅含已付因子的QQ[e] Bézout，3.710581秒/exit0；一般图可付Omega。独立于新QQ门，继续剩余两参数原几何和全部物理返回。
 
 **[明确可测平坦同源返回](results/R12-appendix-measurable-flat-common-source-recursion-and-all-negative-graphs.md)已完成：** 正测紧集避全部整数，实际R_nAf_(n−1)=f_n、普通范数统一、全部固定负幂图范数返回；全n,k原权预算保留。累计五次费仍未降至第n逆像的四次费，且没有未知M保持；继续直接限制未知普通M的原算子关系，不以继续优化此全空间例子替代该接口。
 
 **[全部原尾根的重数整除与不变投影距离](results/R12-appendix-tail-root-multiplicity-and-all-invariant-projection-distances.md)已完成：** 有界q次根⇔q|k由逐尾交换子字符和完整Jordan秩证明。任意普通M经真有限头坐标不可能同构onto整个尾，||P_M−Q||=1；非零真P_M距UHF/UHF+K为1/2。直接限制未知M；剩余图必须保实际真尾底空间、非满像或无界逆，不能用该整重数结论排除它们。
 
 **[原形式除法的实际闭关系](results/R271-appendix-actual-formal-division-closed-relation-and-two-range-cores.md)已付：** 原TJ_B有限支撑图闭包的多值部恰Ce0；投去它后有N⊂ker A_min⊂M及I⊂J⊂N⊥。最大伴随域是实际T*像可除域，其闭包为e0⊥。继续分别证明J=I和J=N⊥，不能用一维多值部或单一图核心代稳定缺陷结论。
+
+
+S0/Lt0的k=4e、v=t=0、Omega=2e²−ek+2=0整支均已完整原返回排空；可付4e−k、v、Omega。准确全谱、Bézout和源回执保[压缩前页](notes/2026-11-27-open-before-v-leading-exclusion-8542.md)及结果索引，所有未闭原约束保持。
+
+**[最小原P045的全部v首项零面已关闭](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-original-v-leading-zero-exclusion.md)：** 新Dixon差商是原三mean的显式组合，完整两层投影及e1/2的整二次域返回皆通过，109.809478秒/exit0；B44可逆，下一用首一v六次关系保原组合降次及两参数覆盖，未宣一般Lt0为空。
