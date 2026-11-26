@@ -60,7 +60,9 @@ R574/R576保完整Darboux/turning/实际重构位置，R594保At/M、离解Jac�
 
 [正式可行回溯](notes/2026-11-26-r566-working-backtrack-implementation.md)source d99eef5312b0c49d78431cc9596f4d48fbc4baa8、run45851261982/job140017925998，保该实际状态与持久可行基extra .25895161785933823。真实trial沿实际q二分到2⁻¹⁶，working合格才过全部coarse/fine3072/真实角峰/nested/margin；缩短步只有完整资格且严格实际改进才接受，接受即重启。PhaseI恢复后重选完整metric行。已付restriction/parity/已知库选择不重跑。
 
-该run已自然completed/success；两次完整原log连接均Transport closed且未取body，先用[只读原终态恢复器](notes/2026-11-26-r566-backtrack-log-recovery-implementation.md)流式解析原stdout，科学0，成功退出不授实际接受。取得原FINAL后判断是否真正跨过工作行瓶颈，再按新增实际物理峰/剩余不可行性改变求解组织。所有未选入小矩阵的违规仍拒步，容量上限或未完成定位都保完整pending；缩小矩阵不缩小真实问题。候选定型后同样必须固定g并付全域、全时间主门。
+[完整回溯原终态](notes/2026-11-26-r566-working-backtrack-natural-final.md)已通过只读恢复run45858771537全解析21.77MB原stdout/326JSON；24真全资格接受，η降为.252604422421174，V0。新2370.412352738秒/48Jac/65coarse/41fine与定位，52191候选全部处理，0新restriction门。实际81q SHA59f9471635dc6b99ab73bf4d2e9ab90e6d1c3e12144d6d2766450dd921dbe1a0；585圈/1310峰/294工作行、trust.3003387451171875、base extra .25260441924759375，pending均空，末trust决定未完成。最终1172×3072完整fine与真实角定位保全；所有未选工作行继续作为全门。
+
+继续此实际末态和完整费用，链已知科学下界7616.754391252秒。末接受仅原trial的1/64，每次缩短接受都重启后端；下一核实是否能保留同工作算子的后端迭代/曲率信息，以免大量微步重启。若库改变仍须明确交换，不能把未接受全步当新起点，不能减少真实物理门。该改善尚未完成原metric，更未付固定g、全域/全时或reach。
 
 ## O4：真实记忆、完整正能量与全程返回
 

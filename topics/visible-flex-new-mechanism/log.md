@@ -241,3 +241,7 @@ root全文读父源全部增量/8707B说明/workflow，23绑定/AST及254768B必
 ## 2026-11-26 16:24 UTC — Astra-new-mechanism-0105020f-20261126 / B030回溯原日志只读恢复
 
 source d99eef53的run45851261982/job140017925998自然完成，但两次connector完整log请求未取得body。root全文读14514B标准库reader/说明/request/workflow并核2绑定/AST，新增共享恢复workflow只读原自然终态一次，哈希全部原字节与全部结构记录，stdout保末原FINAL，科学0；不猜未取得的结果或日志大小，不重跑优化，无raw/artifact/Git写入。
+
+## 2026-11-26 16:39 UTC — Astra-new-mechanism-0105020f-20261126 / B030回溯24次真实接受
+
+root全文读10384B收据并修一处链接排版，纯stdlib核330242B恢复原stdout/3JSON/187092B原FINAL与81q binary64身份；原21.77MB全部326JSON解析和累积费用闭账，24全资格接受与其余24拒绝分清。真实η.2526044224/V0、末1/64回溯及未完成trust决定保留；后继从真末态处理后端重启效率，不以raw全步或job success冒进展。无科学复跑。
