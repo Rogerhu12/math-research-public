@@ -333,3 +333,7 @@
 ### 2026-11-27 01:01 Asia/Taipei — R1046 原p5全系数与实际MW后M1
 - [R1046](results/R1046-original-p5-complete-CM-flag-and-MW-nonzero-reduction.md)：原p5 Raynaud最低型的全部w系数也给同一Cauchy旗标，n₀=4g+1、rank n₀、核维2g。双中心全阶零residue、CM双∞最高(±1)^k、full分歧12与所有normal/其它CM返回/全纯项逐项支付，u_k同R1044原单位。实际c=DQv非零且与v正交，R1045全p纯代数lemma排完整contact；p>C_*原MW消去后约化非零、准确M=1。两行均未证明最低w单位项或正赋值深盘只有中心零点，O0全覆盖仍开。
 - o1独立p5稿经root/global全文纸核，保真实graph零residue、两center/∞、e12、原κ₁与λ₀、所有角色/阶乘/积分尾及R1045完整Q²接口。D_aux澄清保其它CM返回，原$ / $$标记；没有数学执行。终端真实pull、规则差异检查、非force push继续。
+
+### 2026-11-27 01:16 Asia/Taipei — R1047 实际消去格饱和与原盘有理点界
+- [R1047](results/R1047-original-MW-saturated-profile-and-common-zero-bound.md)：两行原新部的全部实际MW消去格Σ到前n₀=(p−2)/3个CM系数为饱和单射；任一本原行保M1。若r_ann=rankΣ≥1，原单位闭盘的公共零点总重数≤n₀−r_ann+1，故原有理点≤n₀、非中心≤n₀−1。以整Tate除法保全部尾，使用真实全MW消去，不恢复旧秩零商。最低单位/非中心根排除及O0仍开。
+- 新部任意本原正交行消费R1045/46；完整整Tate除法直接证明共同根维数界。附[原平方候选的纸面反例](notes/2026-11-27-original-fN-square-candidate-counterexample.md)，只排未登记猜测f_N=8a_(N/2)²，不作新全称单位证据。无数学执行；继续原低项、actual carry及高范数，不以点数界结束。

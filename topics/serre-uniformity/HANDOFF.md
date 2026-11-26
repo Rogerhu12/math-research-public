@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。本轮已部分克隆并真实pull main，读两README/H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则读至36cf1ed2。不重做已登记结论或窗口。
 
-**公开两README已读提交：1d284f875eb4290b2e99805f08c7ed74ee234f6a**（2026-11-27 01:06 Asia/Taipei；真实git pull后两README无差异）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
+**公开两README已读提交：42e159e54a58dca08a4b94600be25f31f2e0b69d**（2026-11-27 01:17 Asia/Taipei；真实git pull后两README无差异）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
 
 执行宿主16:44 UTC恢复；原checkout不在新宿主，已重新blob:none/depth1/sparse部分克隆并真实pull --rebase，改回终端git发布。路径/workspace/scratch/24b8836b87e3/math-research-public；仅检出本课题文本。此前断连按根规矩8小文本同步，未force；以后并发拒绝立即pull --rebase/读规则差异再推至成功。令牌只在CLI，不入文件/提交。根维护main/H/open/index/log，子研究写独立scratch数学稿；结论写完立即推。19:52纠正：global_route曾违规用会话V8做数学探索，已叫停；范围、时长及独立纸核见[执行偏差记录](notes/2026-11-26-execution-path-deviation-and-correction.md)，不得以其数字作证明或合规窗口。
 
@@ -14,7 +14,7 @@ H<10KB、open尽量<30KB、每MD<100KB、topic<200MB；无可重算raw、不写�
 
 ## 最新全局实际来源
 
-[R1045](results/R1045-original-MW-annihilator-nonzero-reduction.md)/[R1046](results/R1046-original-p5-complete-CM-flag-and-MW-nonzero-reduction.md)：两行原实际Λ_Q的全模p轮廓非零，MW消去后准确M1(p>C_*)。R1044/46完整Cauchy旗标分别rank4g−1/4g+1；p5另付双中心零residue、双∞/full分歧12与全部normal。全p纯代数用S₀=1迫contact多一阶、Euler有限₃F₂指数排二重零，Q²完整。最低w单位及唯一根仍开。
+[R1045](results/R1045-original-MW-annihilator-nonzero-reduction.md)/[R1046](results/R1046-original-p5-complete-CM-flag-and-MW-nonzero-reduction.md)：两行原实际MW消去后准确M1(p>C_*)。完整旗标rank n₀=(p−2)/3；三CM留数S₀=1与Euler有限₃F₂排contact，Q²完整。p5双中心/∞与分歧12均付清。[R1047](results/R1047-original-MW-saturated-profile-and-common-zero-bound.md)进一步给全部实际消去格Σ的系数映射饱和，原盘公共零数≤n₀−rankΣ+1；有理点≤n₀，非中心≤n₀−1。最低单位与非中心根排除仍开。
 
 [R1040](results/R1040-original-p5-Hodge-graph-and-primitive-MW-annihilator.md)：p5原good BT的source Fp²相位与Hermitian切线给Π²=−p、B整对称完美；双节点常数Ff=C^(p−1)ω/4及q_s∈Fp保原尺度。真实Fil给Q，模π为quo(r^(8g+2)a(b^p),A²) modA，核一维纯正δ、负δ单射。额外Q(√−3p)-CM由τ₁自扭排除，原6p tame平移给剩余CM全正δ；结合原重数一与R1026，Λ_Q在p>C_*本原并杀全部MW饱和格。K_Q=(1/2)P_(DQv)(1)仍待非零，不删除Q²项。
 
@@ -70,4 +70,4 @@ R696早已证明同一全局Φ候选Ω_actual={0}，R832已消费；不重做、
 
 固定Y的R805–930及全部runs/高维格/预算边界见open与逐字归档，只消费已成输入。R907四artifact真404仍producer_inputs_pending，不重造；预算失败不作数学负结论。固定41全129盘/8CM已由R707完成，不重开。R575旧正CM角色根号−与逆twist秩零撤回有效。R1004仅导子下界而非a/c上界，停止重复优化。
 
-当前并行：两行原实际MW消去后M1已成，继续最低w单位/正赋值深盘零点。原最高K_Q、R1041核范数、R1043端点及同h筛选各有独立读数，不能混同；O0完整全局覆盖仍未关。子问题完成即接open其余项，真正达README完成标准才收尾。
+当前并行：两行实际MW后M1与原盘点数界已成，继续最低w单位/正赋值深盘零点。原最高K_Q、R1041核范数、R1043端点及同h筛选各有独立读数，不能混同；O0完整全局覆盖仍未关。子问题完成即接open其余项，真正达README完成标准才收尾。
