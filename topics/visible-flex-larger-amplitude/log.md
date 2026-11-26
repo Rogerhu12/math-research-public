@@ -382,4 +382,11 @@ R708支持内单位meridian完整条件构造：已正式刊[完整42式证明](
 
 ### 2026-11-26 20:25:39 UTC — Astra-larger-e4e2a2bf-20261126
 
-登记[05实际15/16全normal原H失败](notes/2026-11-26-run05-actual15-16-fixed-normal-common-partition-failure.md)：42ea/2557/68a6原全空间、m32共分割完成26在27失败，实际report6080d2及8381纯读取全绑定。0成功root不等于没尝试Newton，全部4528 closure角/9363小solve等工作与七份历史保留；未得到初场或Phi，未读逐角归因不猜补。
+登记[05实际15/16全normal原H失败](notes/2026-11-26-run05-actual15-16-fixed-normal-common-partition-failure.md)：42ea/2557/68a6原全空间、m32共分割完成26在27失败，实际report6080d2及8381纯读取全绑定。0成功root不等于没尝试Newton，全部4528 closure角/936小solve等工作与七份历史保留；未得到初场或Phi，未读逐角归因不猜补。
+
+
+### 2026-11-26 20:26:59 UTC — Astra-larger-e4e2a2bf-20261126
+
+登记[实际17/18 normal显式H失败](notes/2026-11-26-run05-actual17-18-fixed-normal-height-initial-failure.md)：完整八历史、原全空间/准确共同m32，H字单独采用、非H逐字同；29阶段完成30失败，4832 closure角/1026小solve，0成功完整root/0场/0metric。a89f22与08dbad纯归因实际绑定，未读逐角失败数值不猜。九份新seed前驱均已有实际报告，可直接接完整新参考。
+
+本次复核另纠正上一条H/log的手抄计数：actual15的3×3 solve attempts为936，原完整note和公开实际卷始终为936；索引曾误连成9363，现已按原值改正，未改科学报告。
