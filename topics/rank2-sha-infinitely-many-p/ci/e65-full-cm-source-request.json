@@ -1,6 +1,6 @@
 {
-  "schema": "rank2-original-e65-full-cm-sixth-axis/v4",
-  "request_id": "2026-11-27-r971-r972-complete-degree130-cross-projection",
+  "schema": "rank2-original-e65-full-cm-sixth-axis/v5",
+  "request_id": "2026-11-27-r976-complete-degree130-and-original66-spectrum",
   "degree": 390,
   "workers": 4,
   "python_flint_version": "0.9.0",
@@ -16,12 +16,13 @@
   "args": [
     "--workers=4"
   ],
-  "scope": "Same original complete E65/E89 sources and every prior gate, plus all 66-to-22 delta pull/trace and CM intertwiners, the actual H130 cross and genuine A+c+10d six-sigma source. Target multiplicity and both zero or nonzero projections are reported exactly, without assigning central zeros to products or mixed cuts.",
+  "scope": "Same complete original sources and prior consumers; all 81 joint twelfth-root blocks on the whole22 and original66 delta-new cross, with full sums, ranks, masses and components. If an original66 order gate fails, return its actual complete annihilator without dropping components or choosing arithmetic characters.",
   "same_job_complete_six_source_angular_profile": true,
   "same_job_genuine_six_sigma_projection": true,
   "same_job_original_h_projection": true,
   "same_job_sixth_on_five_axis_overdetermination": true,
   "overdetermination_prime": 227,
   "overdetermination_precision": 5,
-  "same_job_complete_degree130_cross_projection": true
+  "same_job_complete_degree130_cross_projection": true,
+  "same_job_complete_degree130_and_original66_spectrum": true
 }

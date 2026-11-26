@@ -11,6 +11,7 @@ name: Rank2 original E65 complete source and six-source consumers
       - "topics/rank2-sha-infinitely-many-p/scripts/check-original-e65-six-sigma-projection.py"
       - "topics/rank2-sha-infinitely-many-p/scripts/check-original-sixth-on-five-axis-overdetermination.py"
       - "topics/rank2-sha-infinitely-many-p/scripts/check-original-degree130-cross-cm-projection.py"
+      - "topics/rank2-sha-infinitely-many-p/scripts/check-original-degree130-whole-spectrum.py"
   workflow_dispatch:
 permissions:
   contents: read
@@ -37,7 +38,7 @@ jobs:
           root = pathlib.Path(os.environ["RANK2_CHECK_DIR"])
           prefix = "topics/rank2-sha-infinitely-many-p/"
           request = json.loads((root / (prefix + "ci/e65-full-cm-source-request.json")).read_text())
-          assert request["schema"] == "rank2-original-e65-full-cm-sixth-axis/v4"
+          assert request["schema"] == "rank2-original-e65-full-cm-sixth-axis/v5"
           assert request["python_flint_version"] == "0.9.0"
           assert request["workers"] == 4 and request["degree"] == 390
           assert request["complete_CM_norms"] == [7, 19]
@@ -47,6 +48,7 @@ jobs:
           assert request["same_job_genuine_six_sigma_projection"] is True
           assert request["same_job_original_h_projection"] is True
           assert request["same_job_complete_degree130_cross_projection"] is True
+          assert request["same_job_complete_degree130_and_original66_spectrum"] is True
           assert request["same_job_sixth_on_five_axis_overdetermination"] is True
           assert request["overdetermination_prime"] == 227
           assert request["overdetermination_precision"] == 5
@@ -61,6 +63,7 @@ jobs:
               "check-original-e65-six-sigma-projection.py",
               "check-original-sixth-on-five-axis-overdetermination.py",
               "check-original-degree130-cross-cm-projection.py",
+              "check-original-degree130-whole-spectrum.py",
               "r941-original-six-digit-central-reader.py",
               "check-r480-actual-input-cm19.py",
               "check-r466-fixed-two-division-source.py",
@@ -69,7 +72,7 @@ jobs:
               "check-r943-degree178-full-cm-source.py",
               "check-r732-original-type-five-cm13.py",
           ]
-          assert len(sources) == len(set(sources)) == 13
+          assert len(sources) == len(set(sources)) == 14
           for name in sources:
               p = root / (prefix + "scripts/" + name)
               ast.parse(p.read_text(), filename=str(p))
@@ -86,7 +89,7 @@ jobs:
                      "stdout_sha256": hashlib.sha256(result.stdout).hexdigest(),
                      "stdout_bytes": len(result.stdout), "exit_code": result.returncode}
           if result.stdout:
-              if len(result.stdout) > 60000:
+              if len(result.stdout) > 120000:
                   print("R959_OUTPUT_LIMIT " + json.dumps(receipt, sort_keys=True), flush=True)
                   raise RuntimeError("Keep generated source output as hashes; compact report exceeded the text bound")
               report = json.loads(result.stdout)
@@ -126,4 +129,20 @@ jobs:
           assert cross["original_cross_principal_trace_is_nine_halves_H130"] is True
           assert cross["mixed_cut_removed"] is False
           assert cross["infinite_prime_nonvanishing_proved"] is False
+          spectrum = report["actual_degree130_and_original66_spectrum"]
+          assert spectrum["status"] in ("PASS", "FULL130_PASS_FULL66_TWELFTH_GATE_FAILED")
+          assert spectrum["all_joint_blocks_checked"] == 81
+          assert spectrum["all_blocks_total_rank"] == 22
+          assert spectrum["complete_block_sum_is_identity"] is True
+          assert spectrum["complete_H130_and_F130_component_sums_returned"] is True
+          whole66 = spectrum["original_whole66_delta_new_cross_spectrum"]
+          assert whole66["all_original_columns_including_mass"] == 66
+          assert whole66["whole_delta_new_projector_rank"] == 44
+          if whole66["status"] == "PASS":
+              assert whole66["all_81_joint_blocks_checked"] is True
+              assert whole66["all_delta_new_components_sum_to_original_Rnew"] is True
+              assert whole66["all_original_block_ranks_sum"] == 66
+              assert whole66["all_delta_new_block_ranks_sum"] == 44
+          assert spectrum["any_component_assigned_arithmetic_central_zero"] is False
+          assert spectrum["infinite_prime_nonvanishing_proved"] is False
           PY
