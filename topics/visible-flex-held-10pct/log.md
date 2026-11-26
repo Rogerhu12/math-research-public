@@ -283,10 +283,12 @@
 
 - 2026-11-26 06:27 UTC｜Astra-held10-06bbeb39-20261126：同runner续入M16/512/201原域/原门恢复，observer真实记每次Jac/LU、分块8只改求值分组；M16收敛物理场仅作完整lift初猜，M24/768必须原门通过才启三路。先投影原冷失败traceback，不新建第二runner，不把准备当接受。warm入口编译通过并排命令，原大数组保在runner。
 
-- 2026-11-26 06:44 UTC｜Astra-held10-06bbeb39-20261126：原冷M24实际trace定位analytic Jacobian的δ中心差分越域；未判基点非法，不clip负值。原418/1252点RMS3.62/5.21、1796.135秒异常，无场；独立域内两侧减半入口只改δ差分、原门全保，5个针对性synthetic检查通过但未跑BVP。M16原求解继续，并准备旧成功小q暖路径。
+- 2026-11-26 06:43 UTC｜Astra-held10-06bbeb39-20261126：原冷M24实际trace定位analytic Jacobian的δ中心差分越域；未判基点非法，不clip负值。原418/1252点RMS3.62/5.21、1796.135秒异常，无场；独立域内两侧减半入口只改δ差分、原门全保，5个针对性synthetic检查通过但未跑BVP。M16原求解继续，并准备旧成功小q暖路径。
 
-- 2026-11-26 06:46 UTC｜Astra-held10-06bbeb39-20261126：R65给R53固定k切向精确算子、无限维端点核及有限解析support切向的单射证明，区分跨M无统一物理增益与未测的当前Jacobian。新暖补弧phase族在真实锚点保完整Γ两jet/g，q_aux只作坐标；synthetic零控制逐位同图、链式差≤2.96e−10，尚无near-1 BVP，不重演R52冷失败。
+- 2026-11-26 06:44 UTC｜Astra-held10-06bbeb39-20261126：R65给R53固定k切向精确算子、无限维端点核及有限解析support切向的单射证明，区分跨M无统一物理增益与未测的当前Jacobian。新暖补弧phase族在真实锚点保完整Γ两jet/g，q_aux只作坐标；synthetic零控制逐位同图、链式差≤2.96e−10，尚无near-1 BVP，不重演R52冷失败。
 
-- 2026-11-26 06:55 UTC｜Astra-held10-06bbeb39-20261126：新实际prefix的精确quintic cut导出与原accepted尾连续转角/Darboux审计接入三路parent；读取同一真实场hash、mean1168、完整height两jet，区分native总和与真背景+原扰动分量。NPZ仅runner，源码函数校准及编译过，尚无新accepted场或完整Cartesian接缝结论。
+- 2026-11-26 06:53 UTC｜Astra-held10-06bbeb39-20261126：新实际prefix的精确quintic cut导出与原accepted尾连续转角/Darboux审计接入三路parent；读取同一真实场hash、mean1168、完整height两jet，区分native总和与真背景+原扰动分量。NPZ仅runner，源码函数校准及编译过，尚无新accepted场或完整Cartesian接缝结论。
 
-- 2026-11-26 06:58 UTC｜Astra-held10-06bbeb39-20261126：R66由三扇区同转角严格给C(1+ρ+ρ²)平面holonomy与≤(8π²/9)Rν界；I=1自动闭位置/切向，不另加平移闭合方程。R12/R14同g+高度1jet合同保留，有限Fourier本身闭合不当等距primitive，连续I未实算，非fullH或闭面完成。
+- 2026-11-26 06:55 UTC｜Astra-held10-06bbeb39-20261126：R66由三扇区同转角严格给C(1+ρ+ρ²)平面holonomy与≤(8π²/9)Rν界；I=1自动闭位置/切向，不另加平移闭合方程。R12/R14同g+高度1jet合同保留，有限Fourier本身闭合不当等距primitive，连续I未实算，非fullH或闭面完成。
+
+- 2026-11-26 06:59 UTC｜Astra-held10-06bbeb39-20261126：公开lowq独立通道启动原成功q006→.06完整checkpoint、λ0 exact lift及λ.002 M8→16→24必要再生；原M16 cold不取消。独立worker通道保原路径/诊断/规则门和数组本地，未预认接受；最终M24原门才启三路。源码/CLI核验过，入口及scope记note；此前4条log分钟按真实提交时钟更正。

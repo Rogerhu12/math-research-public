@@ -1,0 +1,40 @@
+{
+  "id": "held10-lowq-warm-route-20261126-01",
+  "read_rules_commit": "b929909550578d291db0f0e2b5c0f2d53fbdff9e",
+  "script": "topics/visible-flex-held-10pct/scripts/resume_20261126/lowq_prefix_recovery.py",
+  "args": [
+    "--repo",
+    "@REPO@",
+    "--work",
+    "@WORK@",
+    "--outdir",
+    "@WORK@/lowq-prefix-recovery"
+  ],
+  "diagnostics": [
+    {
+      "path": "@WORK@/lowq-prefix-recovery/summary.json",
+      "keys": [
+        "status",
+        "scope",
+        "progress",
+        "stages",
+        "results",
+        "result",
+        "error",
+        "exception",
+        "source_hashes"
+      ]
+    },
+    {
+      "path": "@WORK@/lowq-prefix-recovery/continuations/summary.json",
+      "keys": [
+        "status",
+        "progress",
+        "results",
+        "stages",
+        "error",
+        "result"
+      ]
+    }
+  ]
+}

@@ -54,10 +54,16 @@ def encoded(value):
                       allow_nan=False, separators=(",", ":")).encode()
 
 def main():
+    global COMMAND, RESULT
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--repo", type=Path, required=True)
     ap.add_argument("--workdir", type=Path, required=True)
+    ap.add_argument("--channel", choices=("material", "lowq"), default="material",
+                    help="Separate reviewed command/result streams on distinct runners")
     a = ap.parse_args()
+    if a.channel != "material":
+        COMMAND = TOPIC + "/ci/live-" + a.channel + "-command.json"
+        RESULT = TOPIC + "/ci/live-" + a.channel + "-result.json"
     repo, work = a.repo.resolve(), a.workdir.resolve()
     work.mkdir(parents=True, exist_ok=True)
     if work == repo or repo in work.parents:
@@ -67,7 +73,7 @@ def main():
            if not any(w in k.upper() for w in ("TOKEN", "SECRET", "PASSWORD"))}
     for key in ("OPENBLAS_NUM_THREADS", "OMP_NUM_THREADS", "MKL_NUM_THREADS"):
         env[key] = "1"
-    state_path = work / "live-material-worker-state.json"
+    state_path = work / ("live-" + a.channel + "-worker-state.json")
     state = json.loads(state_path.read_text()) if state_path.exists() else {"seen": {}}
     state.setdefault("seen", {})
     def save():
