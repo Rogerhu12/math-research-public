@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- **R701（已证明，范围以正文为准）**：[新增控制形状、横截秩条件与完整KKT隐式链](results/R701-added-shape-rank-and-complete-kkt-jets.md) — 独立gamma严格增加控制函数族；实际补秩需横截条件，九KKT/27角jet/四阶链完整保，未证明实际折叠或根存在。 原已刊证明的正式编号登记，无新科学复算。
+
 - **R700（已证明，范围以正文为准）**：[固定有限角阶下完整积分范数六jet控制](results/R700-integral-so3-full-sixjet-control.md) — 固定有限角阶与正rho条件下，Green核及全core/H链控制六个物理jet，常数不依赖最小径向胞宽；非M一致界。 原已刊证明的正式编号登记，无新科学复算。
 
 - **R699（已证明，范围以正文为准）**：[完整SO3积分范数正定白化与带状QR](results/R699-integral-so3-positive-whitening-and-banded-qr.md) — 完整十八正权行/胞、固定槽与带宽5给准确正定和同范数白化/转置，完整流式QR不加ridge或删列；浮点误差另付。 原已刊证明的正式编号登记，无新科学复算。
