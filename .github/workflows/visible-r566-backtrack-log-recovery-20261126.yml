@@ -1,0 +1,42 @@
+name: visible-flex terminal backtracking log recovery
+on:
+  push:
+    branches: [main]
+    paths:
+      - topics/visible-flex-new-mechanism/computations/request-r566-backtrack-log-recovery-20261126.json
+  workflow_dispatch:
+permissions:
+  contents: read
+  actions: read
+concurrency:
+  group: visible-flex-r566-backtrack-log-recovery-45851261982
+  cancel-in-progress: false
+jobs:
+  recover:
+    name: Read original terminal stdout without scientific execution
+    runs-on: ubuntu-24.04
+    timeout-minutes: 8
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      PYTHONUNBUFFERED: '1'
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 1
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-new-mechanism/README.md
+            /topics/visible-flex-new-mechanism/scripts/r566_backtrack_log_recovery_20261126.py
+            /topics/visible-flex-new-mechanism/computations/request-r566-backtrack-log-recovery-20261126.json
+            /.github/workflows/visible-r566-backtrack-log-recovery-20261126.yml
+      - name: Parse the complete naturally terminated source log once
+        env:
+          GH_LOG_READ_TOKEN: ${{ github.token }}
+        run: >-
+          python topics/visible-flex-new-mechanism/scripts/r566_backtrack_log_recovery_20261126.py
+          --request topics/visible-flex-new-mechanism/computations/request-r566-backtrack-log-recovery-20261126.json
+      # Metadata only. No scientific import, model, optimization, or old check.
+      # No raw file, artifact, release, Git write, or repeated raw-log output.

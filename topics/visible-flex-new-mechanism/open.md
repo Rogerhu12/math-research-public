@@ -60,7 +60,7 @@ R574/R576保完整Darboux/turning/实际重构位置，R594保At/M、离解Jac�
 
 [正式可行回溯](notes/2026-11-26-r566-working-backtrack-implementation.md)source d99eef5312b0c49d78431cc9596f4d48fbc4baa8、run45851261982/job140017925998，保该实际状态与持久可行基extra .25895161785933823。真实trial沿实际q二分到2⁻¹⁶，working合格才过全部coarse/fine3072/真实角峰/nested/margin；缩短步只有完整资格且严格实际改进才接受，接受即重启。PhaseI恢复后重选完整metric行。已付restriction/parity/已知库选择不重跑。
 
-下一读取自然终态判断是否真正跨过工作行瓶颈，再按新增实际物理峰/剩余不可行性改变求解组织。所有未选入小矩阵的违规仍拒步，容量上限或未完成定位都保完整pending；缩小矩阵不缩小真实问题。候选定型后同样必须固定g并付全域、全时间主门。
+该run已自然completed/success；两次完整原log连接均Transport closed且未取body，先用[只读原终态恢复器](notes/2026-11-26-r566-backtrack-log-recovery-implementation.md)流式解析原stdout，科学0，成功退出不授实际接受。取得原FINAL后判断是否真正跨过工作行瓶颈，再按新增实际物理峰/剩余不可行性改变求解组织。所有未选入小矩阵的违规仍拒步，容量上限或未完成定位都保完整pending；缩小矩阵不缩小真实问题。候选定型后同样必须固定g并付全域、全时间主门。
 
 ## O4：真实记忆、完整正能量与全程返回
 

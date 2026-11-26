@@ -1,0 +1,33 @@
+{
+  "schema": "r566-working-backtrack-terminal-log-recovery-v1",
+  "repository": "Rogerhu12/math-research-public",
+  "queue_session": "Astra-new-mechanism-0105020f-20261126",
+  "source_run": 45851261982,
+  "source_job": 140017925998,
+  "source_commit": "d99eef5312b0c49d78431cc9596f4d48fbc4baa8",
+  "scientific_evaluations": 0,
+  "purpose": "Recover full original terminal stdout after connector Transport closed, retaining actual/pending state and cumulative costs without any scientific replay.",
+  "source_sha256": {
+    "topics/visible-flex-new-mechanism/scripts/r566_backtrack_log_recovery_20261126.py": "497156742c3f46ec2ac81f6d03f57d52770703e0c126c43fd2b20ddd4dc86eed",
+    ".github/workflows/visible-r566-backtrack-log-recovery-20261126.yml": "3eb7c5c4a93f85fec9c67bb3049cc932752d3bebe93127463df4fda064671f15"
+  },
+  "scope": {
+    "terminal_metadata_checked_before_log_download": true,
+    "one_original_stdout_download_streamed_and_fully_hashed": true,
+    "all_tagged_JSON_records_and_81q_identities_parsed": true,
+    "original_actual_last_complete_JSON_reported_exactly_once": true,
+    "original_raw_log_not_reprinted": true,
+    "raw_files_artifacts_releases_or_Git_writes": false,
+    "last_trial_not_accepted_implicitly": true,
+    "all_actual_pending_working_rows_and_trust_kept_in_last_exact_state": true,
+    "costs_cumulative_not_added_across_snapshots": true,
+    "absent_FINAL_means_unflushed_later_work_unknown": true,
+    "token_only_on_fixed_GitHub_API_not_signed_download_redirect": true,
+    "metadata_parser_only_no_models_ODE_SciPy_Numpy_or_tests": true,
+    "maximum_job_minutes": 8,
+    "maximum_parallel_jobs": 1,
+    "continuous_or_README_completion_claim": false,
+    "source_working_backtrack_definition_parsed": true,
+    "actual_base_extra_and_selected_backtrack_fraction_retained": true
+  }
+}

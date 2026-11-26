@@ -237,3 +237,7 @@ root全文纸核复最高系数、两区域平方范数及零点/反向Gronwall�
 ## 2026-11-26 16:12 UTC — Astra-new-mechanism-0105020f-20261126 / 真97q当前全行优先续接
 
 root全文读父源全部增量/8707B说明/workflow，23绑定/AST及254768B必要输入与原公开FINAL逐字段核合；233584B父输入字串完全相同，无私有正文或新raw。source38915135精确采用冻结的51354B/SHAb9e99ad9源与271895B/SHAd9b770ed请求。回调先查同一全部Rows.fun和盒，原行不合格继续同SLSQP，合格才完整fine/交换；原Rows.fun已有非有限raise。严格同p/q/网复用，真实189×1536/fine3072及未采用旧3072约束提议全保。无本地科学或已付门复跑。
+
+## 2026-11-26 16:24 UTC — Astra-new-mechanism-0105020f-20261126 / B030回溯原日志只读恢复
+
+source d99eef53的run45851261982/job140017925998自然完成，但两次connector完整log请求未取得body。root全文读14514B标准库reader/说明/request/workflow并核2绑定/AST，新增共享恢复workflow只读原自然终态一次，哈希全部原字节与全部结构记录，stdout保末原FINAL，科学0；不猜未取得的结果或日志大小，不重跑优化，无raw/artifact/Git写入。
