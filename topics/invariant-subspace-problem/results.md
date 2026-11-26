@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R150 rankH3单一三jet的Hp0本质六维支全空（2026-11-26，已证明）：** [原极线导数与完整十六维QQ代数](results/R150-appendix-rank-three-single-jet-second-cumulant-zero-hp-essential-six-exclusion.md)从真实三/四阶最高系数推出两V交叉列相反，40次结果式保全部边界；每个商环除数以13次真逆回乘付清，trace障碍9Xi⁶+24Xi³+64在全代数中可逆。s−1有限/∞门亦非零，新源2.356464秒/exit0。接初始归约只余普通源/约化V/Hp非零/F−m，ess4/5与其它H类型继续。
+
 - **R150 单位2+1+1非零最高基值、零孤立点均值两图的线性权重面为空（2026-11-26，已证明）：** [原三mean行列式及完整两图QQ返回](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-nonzero-base-highest-zero-isolated-mean-linear-weight-face-exclusion.md)支付J=lQ(2u−1)−u(2u+Q−2)全零面。完整结式含两个恒零式，第二轮非零次数69/60与232/220；唯一Q2候选回原五式GB1。自含源1.30923秒/64372KiB/exit0；余l6/l8行列式面继续，不以二元gcd覆盖全部零集。
 
 - **R150 rankH3单一三jet本质六维排除非约化V、特殊接触及F=2m（2026-11-26，已证明）：** [合法原jet规范、完整Euler与447矛盾](results/R150-appendix-rank-three-single-jet-second-cumulant-essential-six-gaussian-reduction.md)保同一原六列基及V全部线性/二次项，覆盖0/2/−6/∞。完整最高式三阶系数把F2m的两符号分支排尽；只余普通H源、约化V的Hp0/F²=−3m²或Hp非零/F=−m。纯手证，无新增数值门，其余H支撑型及原ess4/5继续。

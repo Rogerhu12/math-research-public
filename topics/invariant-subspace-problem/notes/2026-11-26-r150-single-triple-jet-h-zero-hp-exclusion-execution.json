@@ -1,0 +1,145 @@
+{
+  "status": "successful exact QQ verification",
+  "sourceSHA256": "89f4d11f025e141d9209993fb6873e2c522674311d9b618dbef6e23c29e2a01a",
+  "sourceBytes": 6923,
+  "python": "3.12.14",
+  "sympy": "1.14.0",
+  "pythonFlint": "0.9.0",
+  "recordedUtc": "2026-11-26 08:12:24 UTC",
+  "recordedUtcMeaning": "Time read when preparing this receipt, not a reconstructed process start/finish time.",
+  "actualCommand": "PYTHONPATH=/tmp/isp-347c05929dd3/deps python /tmp/isp-347c05929dd3/drafts/2026-11-26-r150-single-triple-jet-h-zero-hp-exclusion-verify.py",
+  "actualToolReceipt": {
+    "initialChunkId": "a53684",
+    "finalChunkId": "02a523",
+    "sessionId": 8686,
+    "exitCode": 0
+  },
+  "actualStdout": {
+    "XiSHA256": "9522ffcb16bfdbf57f2bc1dc17c161d1d641754287aaddee98c0f1bd1534abe7",
+    "allQQInverseCount": 13,
+    "allQQInverseRemultiplicationsVerified": true,
+    "boundaryFactor": "s^8*(s-2)^2*(s+6)^2*(s+1)^12",
+    "commonRootEuclideanDegreePairs": [
+      [
+        8,
+        3
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    "elapsedSeconds": 2.3564635629882105,
+    "fullResultantDegree": 40,
+    "obstructionSHA256": "10e485ceaa59d5678abc37d65e45ed411468d68e5767e559bbe854f7b5832585",
+    "originalKernelVerified": true,
+    "recoveredCofactorRootSHA256": "59b9b3aef3c2b68c0d25311fb6710fdb80c61f3655f92b246567e97d31ae0902",
+    "residualDegree": 16,
+    "residualPolynomialSHA256": "caf4618842f61611d1e1ce795cd7a4518b7ea1e302f44d8f63642dc101a40722",
+    "residualSquarefree": true,
+    "sMinusOneFinitePairDeterminant": "1174404/125",
+    "sMinusOneInfinityPairResultant": "17955600",
+    "scope": "H single three-jet, Hp=0, rankV2 reduced, essT3=6: branch excluded",
+    "sourceSecondDerivativeNormalization": "one half of source second derivative",
+    "status": "complete",
+    "units": [
+      {
+        "inverseDegree": 15,
+        "inverseSHA256": "a956a196c6d796284d93b701a734ea5509ddb79236cc5e73a511def718040bb5",
+        "label": "common-root gcd step 0: leading coefficient",
+        "valueDegree": 1,
+        "valueSHA256": "ad386b7e13d277b77e0b85efb40ebcd95475f4d0496e1f73c9763412621b15c0"
+      },
+      {
+        "inverseDegree": 15,
+        "inverseSHA256": "f09b0b81cc300734117ec3be93733ed12a467e6f6125a31213fcfef63dd6d8f6",
+        "label": "common-root gcd step 1: leading coefficient",
+        "valueDegree": 10,
+        "valueSHA256": "67db5e0fe49b62b1a81326cda17136e2ff61386b11c9076e911fac261f9b3856"
+      },
+      {
+        "inverseDegree": 15,
+        "inverseSHA256": "2e65bfd647286a041e8a954a65ae28c1cc127a10c79eb415b63ee663b3b9adac",
+        "label": "common-root gcd step 2: leading coefficient",
+        "valueDegree": 15,
+        "valueSHA256": "f552125dac3290f7b1f39b01affdd803338cf3b9b8d0834738cdfdac37699d91"
+      },
+      {
+        "inverseDegree": 15,
+        "inverseSHA256": "2e65bfd647286a041e8a954a65ae28c1cc127a10c79eb415b63ee663b3b9adac",
+        "label": "common root linear coefficient",
+        "valueDegree": 15,
+        "valueSHA256": "f552125dac3290f7b1f39b01affdd803338cf3b9b8d0834738cdfdac37699d91"
+      },
+      {
+        "inverseDegree": 15,
+        "inverseSHA256": "a956a196c6d796284d93b701a734ea5509ddb79236cc5e73a511def718040bb5",
+        "label": "s+1",
+        "valueDegree": 1,
+        "valueSHA256": "ad386b7e13d277b77e0b85efb40ebcd95475f4d0496e1f73c9763412621b15c0"
+      },
+      {
+        "inverseDegree": 15,
+        "inverseSHA256": "04a6028346a56d9b18e6e9ad12d4847badb415ea30e612700b173de8f6c27d09",
+        "label": "ordinary self-contact coefficient",
+        "valueDegree": 4,
+        "valueSHA256": "3c1cbb379d1662a28ae2c6036ec07621a59717d45d15f5960a3369bf4ccb6152"
+      },
+      {
+        "inverseDegree": 15,
+        "inverseSHA256": "9b3d54a8a69f981a1d7337946170a92a220a2da27ae09819948c8584b7959167",
+        "label": "two selected physical roots distinct",
+        "valueDegree": 15,
+        "valueSHA256": "cd4a86c623e386a5166963366a819580c21c3f79728d4041c85e13e82e475e4b"
+      },
+      {
+        "inverseDegree": 15,
+        "inverseSHA256": "042ba3f14e4a6fcb7c98f3bea450aee5224e50fec22d628b8f80ce115309ce90",
+        "label": "third cubic root distinct from selected pair",
+        "valueDegree": 15,
+        "valueSHA256": "2d8d20321ef87b8efb335df4d855caa05b8318854b50606989f0d5ada2716d16"
+      },
+      {
+        "inverseDegree": 0,
+        "inverseSHA256": "43de3a417d75f4818c5a553268b80ce3a5805109a3bbc6b605e9fb0b8f50b485",
+        "label": "first-source-derivative remainder: leading coefficient",
+        "valueDegree": 0,
+        "valueSHA256": "43de3a417d75f4818c5a553268b80ce3a5805109a3bbc6b605e9fb0b8f50b485"
+      },
+      {
+        "inverseDegree": 0,
+        "inverseSHA256": "43de3a417d75f4818c5a553268b80ce3a5805109a3bbc6b605e9fb0b8f50b485",
+        "label": "second-source-derivative remainder: leading coefficient",
+        "valueDegree": 0,
+        "valueSHA256": "43de3a417d75f4818c5a553268b80ce3a5805109a3bbc6b605e9fb0b8f50b485"
+      },
+      {
+        "inverseDegree": 15,
+        "inverseSHA256": "471cfe68803b7ce4aee4daddd022e283637a0ce4c53d7cf9428bcccd6f585f62",
+        "label": "two first source derivatives product",
+        "valueDegree": 15,
+        "valueSHA256": "df836fc427a119a9403bdc1588392993d975de93fb22747c90fab7bfc61af490"
+      },
+      {
+        "inverseDegree": 15,
+        "inverseSHA256": "9f77c6ba5d5e3307e27322fb8e9ba1f89d19509e71e38db17d97a45243670489",
+        "label": "nonzero pairing of selected physical roots",
+        "valueDegree": 15,
+        "valueSHA256": "f226af505891ecb34d9c803dc2860d00267b5555119078b2a8e882d8cb532c62"
+      },
+      {
+        "inverseDegree": 15,
+        "inverseSHA256": "ae3f08cc493ca76439cd9337e3950d0e0b63d284c988dbe47c13ac31d374d64a",
+        "label": "critical trace obstruction 9Xi6+24Xi3+64",
+        "valueDegree": 15,
+        "valueSHA256": "10e485ceaa59d5678abc37d65e45ed411468d68e5767e559bbe854f7b5832585"
+      }
+    ],
+    "wronskianNumeratorDenominator": "(s + 1)**4"
+  },
+  "scopeLimitation": "This excludes the H single-three-jet / Hp=0 / rankV2 / ess(T3)=6 branch. It is not a full ISP or global Jacobian-power certificate."
+}

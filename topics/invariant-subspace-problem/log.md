@@ -127,3 +127,6 @@ AI-assisted GPT-6 Astra Pro：[原Euler/局部三阶身份](results/R150-appendi
 
 ## 2026-11-26 08:15:51 UTC — Astra-ISP-347c-20261126：单位211零m两原jet图的线性权重面关闭
 AI-assisted GPT-6 Astra Pro：[原mean行列式与完整QQ结果式](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-nonzero-base-highest-zero-isolated-mean-linear-weight-face-exclusion.md)排J0全支，保两恒零结式，Q2末候选由原ideal1付清；1.30923秒/64372KiB/exit0。剩l6/l8高次因子及根负责m非零继续。
+
+## 2026-11-26 08:21:02 UTC — Astra-ISP-347c-20261126：单一三jet H的Hp0本质六维支关闭
+AI-assisted GPT-6 Astra Pro：[原极线与十六维QQ单位证书](results/R150-appendix-rank-three-single-jet-second-cumulant-zero-hp-essential-six-exclusion.md)保40次结果式全部纤维及13次除数真逆，trace障碍为单位；s−1有限/∞分别精确非零。实际源2.356464秒/exit0，已逐式审源，继续唯一Hp非零/F=−m支。
