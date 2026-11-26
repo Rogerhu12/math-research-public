@@ -419,3 +419,7 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 ### R603 直接用更强真实中心输入继续质量式
 
 [最高层条件](results/R603-prepared-leading-energy-and-speed-two-guide.md)对明确紧致缩微族迫|v|=2；它不排固定微宽输入。新9参数guide从已付11参数消去alpha0/alpha4/b5，保唯一单调c与全七剩余矩；直接用于下一原mass问题，未运行的旧10族不另开科学run。全部history/规范/两侧/正势、原29BC及空间预算继续共同支付。
+
+### R603 九参数强准备输入的正式原式续算
+
+[新入口](notes/2026-11-26-r603-vtwo-center-mass-implementation-agent.md)选择v*=2，直接复用前run实际11参数生成真正新路径；原10族不单独执行。静态源/绑定核后进入全部原质量式，新guide/历史/表/原形算子费用一起支付。只有原flow/ruling/BC同时过门才同输入精化；固定微宽、pose/period和宏观门均未被纸面必要条件免费解决。

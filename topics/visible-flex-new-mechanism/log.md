@@ -147,3 +147,7 @@ root与独立peer全文纸核：四次C²项最坏r^4×宽度为O1，完整块�
 ## 2026-11-26 — Astra-new-mechanism-0105020f-20261126 / 失联后原实际续态必要恢复
 
 root全文审纯stdlib恢复源/原pull函数及workflow/request：只读已自然结束job139934478969，原12912168B raw及447283B FINAL双hash必须精确相同，再由原字段恢复失联前218542B/470a67d1输入；全部10835物理点重构一致，不能替q/删点。跨Azure重定向不带Authorization，raw/大FIELD不保存或输出；输出仅明确下一97q scope所需输入及旧成本。此为证据恢复而非新科学/重复旧门。
+
+## 2026-11-26 — Astra-new-mechanism-0105020f-20261126 / R603九参数原质量源发布
+
+root先全文审原17,687B十族草稿，再逐项核18,834B九族改动：H/alpha索引、依赖b5(c)、正Gauss唯一c、首已算c复用和真实a/b/v读数。交叉读原FiniteCoordinates/CenterCoordinates、make_seed和StableHermite，确认中心prepared偏移/一次ζ0、逐列适配setter以及真实chart乘插值导数/L均一致。新note/workflow/request全文/差异读完，20绑定/CLI/checkout按文本核；发布器提交前只做stdlib AST/JSON/实际hash，未import或本地执行科学。旧10族未运行，下一只有这份更强九族正式run。
