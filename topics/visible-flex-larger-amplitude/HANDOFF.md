@@ -4,7 +4,7 @@
 
 ## 规则与完整目标
 
-最近规则核查：2026-11-26 23:02:07 UTC，真实pull/rebase至 `6192ebf6e020819006cb9af445a28b7ead029474`，双README相对`d6c8b79949db117c3f937c118d779b15f95f4674`无差异，继续遵守全部规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
+最近规则核查：2026-11-26 23:05:50 UTC，真实pull/rebase至 `7aa70fa88839f489adc9bb3c24eb33d7b57b1e2f`，双README相对`9a64cf198d6a1d6ac78504b3a5bb97ecd0e087e5`无差异，继续遵守全部规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
 
 科学计算仅本公开仓库Actions；执行偏差见[早前记录](notes/2026-11-20-public-actions-execution-correction.md)及[四次大JSON整读纠正](notes/2026-11-26-large-file-connector-read-correction.md)。root唯一分支写者；结论即普通推，NFF立即rebase循环，不强推。每次pull核双README差异并遵新规，至少每小时，记commit。raw只scratch/runner，不入Git/Release/artifact；保完整小源/参数/run/SHA/紧凑结论。题≤200MB、单文件<5MB、MD<100KB、H<10KB、open<30KB。令牌仅瞬时CLI。终端失联与恢复/云API普通快进记录保7774固定H；旧scratch迁移未确认，不冒恢复。
 
@@ -25,7 +25,7 @@
 
 [02父46–48](notes/2026-11-26-actual-parent-interior-restoration-entry.md)/[49终界](notes/2026-11-26-actual-run02-cached-SO3-49-and-terminal-boundary.md)保完整旧边界；02终止、50未跑。04 actual40真实父51c8，41误key/42未起child/43trace及[最小完整修复](notes/2026-11-26-actual-run04-cached-SOC-source-role-index-repair.md)均保。
 
-[04实际44/45](notes/2026-11-26-run04-actual44-45-first-backtracked-SOC-accepted.md)与[46/47](notes/2026-11-26-run04-actual46-47-second-backtracked-SOC-accepted.md)全文保；[实际48/49第三次SOC](notes/2026-11-26-run04-actual48-49-third-backtracked-SOC-accepted.md)同892f/c4b2/μ.01由0c9a到a801/reportbf641，Phi .005037814/有限观察Gram算子范数max .0339045651/g−2.33774e−5。2SOC/2投影/1末复读，锚1/32、fallback1/64，全2235/2156重读；QP64仍未驻/Pg1.973998≫tol。新父/cache和六份全历史入[原完整pair](computations/resume-20261126-run04-after48-complete-pair-parameters.json)。[04终态](notes/2026-11-26-run04-terminal-job-with-admitted-pair-unreturned.md)：原50已实际启动，22:07API真见job/科学step取消，只有1–49完整返回；未据此断言无新地点或科学失败。原完整第四方向责任由06真实再生。 [八列PCG完整单准入](notes/2026-11-26-run06-complete-regeneration-and-current-PCG-request.md)f3dd全wrapper/全参数/四history-ready已刊，严格从06实际第四父继承两μ，保8A+8A*/全空间/原C/PhaseI/SOC及纯读；尚未准入或声称提速。
+[04实际44/45](notes/2026-11-26-run04-actual44-45-first-backtracked-SOC-accepted.md)、[46/47](notes/2026-11-26-run04-actual46-47-second-backtracked-SOC-accepted.md)、[48/49](notes/2026-11-26-run04-actual48-49-third-backtracked-SOC-accepted.md)全保；最新a801/reportbf641、Phi .005037814、有限Gram算子max .0339045651，QP64仍未驻。原全部SOC/投影/最终memory/历史与μ保完整notes/[参数](computations/resume-20261126-run04-after48-complete-pair-parameters.json)。[04终态](notes/2026-11-26-run04-terminal-job-with-admitted-pair-unreturned.md)：50已启动后job取消，只有1–49完整返，未知新地点不冒空。[06当前八列PCG完整pair](notes/2026-11-26-run06-complete-regeneration-and-current-PCG-request.md)f3dd与全参数/四history已刊，严格由06实际第四父继承两μ，保8A+8A*/全空间/原C/PhaseI/SOC及纯读，尚未准入。
 
 旧deep/Haar/R690–695/误差链见固定H及results/notes，不迁证；01止77、旧03 stage7未知。
 
@@ -37,7 +37,7 @@
 
 [R700](results/R700-integral-so3-full-sixjet-control.md)限固定M/正rho，QR49a1限234ac/7f未跑；全922胞/尾/浮点/隐式费用及同g真实精化未付，其他完整工具保固定交接/results。研究未完成。
 
-[R710](results/R710-supported-unit-seed-complete-angular-jet-error-bounds.md)完整均值根/两角jet/物理T费用与85e90区间核已刊；[R713](results/R713-exact-smooth-triangle-moments-and-actual-fees.md)/[82e6消费者](notes/2026-11-26-R713-smooth-triangle-actual-fee-consumer-api.md)支付准确profile矩条件；[581fb完整总均值producer](notes/2026-11-26-accurate-supported-seed-total-mean-fee-producer.md)及600s完整叶ready已刊未跑。全角/实际积分尾/三角/舍入/参考节点/normal费用未付，centered/cached须独立严格fee适配，不把未跑原plain当门。
+[R710](results/R710-supported-unit-seed-complete-angular-jet-error-bounds.md)完整均值根/两角jet/物理T费用与85e90区间核已刊；[R713](results/R713-exact-smooth-triangle-moments-and-actual-fees.md)/[82e6消费者](notes/2026-11-26-R713-smooth-triangle-actual-fee-consumer-api.md)支付准确profile矩条件；[581fb完整总均值producer](notes/2026-11-26-accurate-supported-seed-total-mean-fee-producer.md)及600s完整叶ready已刊未跑。全角/实际积分尾/三角/舍入/参考节点/normal费用未付，[centered两完整fee源](notes/2026-11-26-R715-centred-seed-fee-source-adapters.md)ded2/7596已刊未跑，cached另严格适配，不把未跑原plain当门。
 
 [R711](results/R711-smooth-triangle-central-profile-and-geometric-comparison.md)/[R712](results/R712-full-positive-radius-central-second-derivative-comparison.md)给准确十二片profile、全正半径中央Fss低于旧一半；[十源完整入口](notes/2026-11-26-R711-smooth-triangle-full-normal-entry.md)192正权/全(0,π)/全部原normal loop保，十历史ready未准入，须入旧seed及后来所有真实报告，不迁K/reach或旧末场。
 

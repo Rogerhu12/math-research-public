@@ -530,3 +530,8 @@ R715完整八源与十历史独立入口：完整helper a8e/normal b259/geometry
 ### 2026-11-26 22:59:37 UTC — Astra-larger-e4e2a2bf-20261126
 
 R714完整零控制模板与两独立scope核：ba3d完整34905B helper、6c12完整15957B实施附录已刊。由实际左exp(Bu)推全部6列A及36H、两角Leibniz和54×18/36×18三角块；同图Fstar保全外参数图，detached K乘真同字Ustage−Ustar恢复所有上游一次J/J*，非outer Hessian。独立no-grad scope首读仍原完整AD，只复用同调用完整18字/点/data/phi/order的真实frame；所有32stage/原矩阵/Newton/trace/域及末复读保。可选模板与clone异常回原frame，source/shape/图违规不吞。根全文核完整证明和完整核，geometry/solver分工并行核数学与绑定，无science、fixture或已测提速；完整cached-source/schema另派生，不以未执行plain为门。H压导航保27a0固定全文链。
+
+
+### 2026-11-26 23:05:14 UTC — Astra-larger-e4e2a2bf-20261126
+
+R715严格独立seed费用两全源ded2(48220B)/7596(40316B)及9cb2完整纯再生器和完整说明已刊。只接受9223/7fc2/b259/a8e准确同报告/完整模型/冻结原点/真实完整seed batch，独立request/journal身份；原82e6/581fb schema和数学源不放宽。R713完整33算术函数/15Interval与mean14ActualMeanBatch/10journal/14工具方法AST保，根全文核新绑定/派生器/说明并纯文本再生逐字匹配两执行体；无科学运行或实际batch选择。准确均值残差不冒outer Q/原始校准差、当前normal根或全部R715六jet费用。可再生小来源输出仅留SHA；cached终来源独立适配，不以未跑plain/费用入口作为solver门。H压04详参导航至已有完整notes和27a0固定H，为下一必要再生runner留slot。
