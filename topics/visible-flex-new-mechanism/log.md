@@ -526,3 +526,7 @@ root逐段核完整源码、C2端式、A,D变换、同场归一、均值一二�
 ## 2026-11-26 — Astra-new-mechanism-0105020f-20261126 / 实际角峰正式续接
 
 root读完独立oracle及driver，核全均匀约束保留、非均匀峰AD、实际同组违规覆盖、pending/actual/trial/natural return分离及全成本。交叉审发现的覆盖缺口已修；原两lane完整末态/81q与原FINAL逐项一致，8源hash/AST相符。保旧trust，交换本身不缩盒；完整fine/已定位峰共同接受而不冒连续证书。新请求即推，公开同run接口核成功后自动优化。
+
+## 2026-11-26 — Astra-new-mechanism-0105020f-20261126 / 圆核真实终态
+
+root完整解析1042984字节原stdout全部JSON，82660字节FINAL哈希同identity；核5阶段/37外层/300回调、334求值、216metric改善及全部原pull收据。圆核只付有限几何入口；四次非圆均未过阶段门，不借run success冒解。特别按原OUTER_START区分stage4真正156×384与最终已扫描235×768，stage0后端trust3.796875与下一4也分开。收据即推，转圆背景真实线性匹配和有限预测。

@@ -6,9 +6,9 @@
 
 ## 1. 规则与接手
 
-已部分克隆并实际 `git pull main`，公开根 README、课题 README、HANDOFF、open、results 索引及相关 log/notes 已读。公开已读提交 **f20f162b58be926dbc8bb41de1ae6934212c2261**（2026-11-26 08:32 UTC；本次实际pull后根/题README空差异）；私有根初读 **85fdf1853367ef25c07f3ebdb6ae25c22a3564b8**，随后逐次 pull/rebase 检查根差异，空差异。私有 QUEUE 的本题已改为本会话进行中并成功推送：**9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7**；最后实际pull及规则同blob读至 **4f7e1d119bd02b0b37fe4d2d409a4f88c6a96a9e**（2026-11-26 08:06 UTC；实际pull/rebase后根README空差异、QUEUE仍本会话）。其它课题的并行认领保留。
+已部分克隆并实际 `git pull main`，公开根 README、课题 README、HANDOFF、open、results 索引及相关 log/notes 已读。公开已读提交 **22927934bbe215617ea51364af55f11eeba19f41**（2026-11-26 08:37 UTC；本次实际pull后根/题README空差异）；私有根初读 **85fdf1853367ef25c07f3ebdb6ae25c22a3564b8**，随后逐次 pull/rebase 检查根差异，空差异。私有 QUEUE 的本题已改为本会话进行中并成功推送：**9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7**；最后实际pull及规则同blob读至 **4f7e1d119bd02b0b37fe4d2d409a4f88c6a96a9e**（2026-11-26 08:06 UTC；实际pull/rebase后根README空差异、QUEUE仍本会话）。其它课题的并行认领保留。
 
-各原观察note保真实双仓pull/规则blob/QUEUE回执；根/题规则均无变化。盘满和失联恢复原记录保于[先前交接](notes/HANDOFF-before-hard-restoration-20261126.md)，本次压缩前全文保于[几何转向前交接](notes/HANDOFF-before-compact-geometry-20261126.md)。API读取不冒git pull。
+各原观察note保真实双仓pull/规则blob/QUEUE回执；根/题规则均无变化。盘满和失联恢复原记录保于[先前交接](notes/HANDOFF-before-hard-restoration-20261126.md)，历次全文见[几何转向前交接](notes/HANDOFF-before-compact-geometry-20261126.md)及[非线性高度前交接](notes/HANDOFF-before-nonlinear-height-20261126.md)。API读取不冒git pull。
 
 每次pull核根/题README差异并立即执行，至少每小时一次，SHA随H更新；root独占git及共享索引。科学仅公开Actions，本地限纸证/源码/原日志解析；[3次本地开发偏离](notes/2026-11-26-r530-local-development-execution-receipt-agent.md)已如实闭账，源/参数保且已停止，不作路径或结论；根12不加机械复跑门，根15只留源码/参数/run/SHA/小结，不留可重算raw。每条完成结论即推；NFF立即pull --rebase再推。
 
@@ -34,7 +34,7 @@
 
 [硬几何首run](notes/2026-11-26-hard-exchange-first-run-restoration.md)与[原门识别续接](notes/2026-11-26-hard-resume-first-metric-progress.md)完整闭账：B030末V=.00054365/η2.089589，B038首次fine可行并降η至.86360747；均止于未采用1536角超过原768容量。实际原q/网格/trust保，原资格不因新预算改判。
 
-[联合预算/分块Jac](notes/2026-11-26-joint-budget-block-jacobian-implementation.md)改R1.012/Y.3928/τ.06072，仍支付原比例；新trust=.5及每16方向AD明确。[B030实际终态](notes/2026-11-26-joint-budget-b030-first-metric-receipt.md)run45777140827/job139763424593新增181.995016962秒、方向差3.81e−10：241×3072 fine的V=0、η=.939818940292、κ16.452596、球1.01043031、y.38901204。真实119×1536约束、3072仅末提议，12外层后容量终态，无OptimizeResult；[B038原终态](notes/2026-11-26-joint-budget-b038-metric-and-peak-cap-receipt.md)新增848.448631589秒：243×3072 fine V=0、η=.853614316555、κ16.452787；实际121×1536/trust1/64，122×3072未采用。末后端自然success46步；前五次细峰重启无接受，旧log未读coarse违约故不臆判原因。[实际角峰新实现](notes/2026-11-26-real-angular-peak-exchange-implementation.md)已提交双lane：保原1536全约束/真实q/trust，加入实际非均匀峰，Ebar仍完整角积分；当前实际违规覆盖内的细峰不立即重启，小峰pending待自然返回。完整细网和已定位峰共同判接受，求积差另记，未授连续证书或全闭reach，g尚未冻结。
+[联合预算/分块Jac](notes/2026-11-26-joint-budget-block-jacobian-implementation.md)改R1.012/Y.3928/τ.06072；[B030终态](notes/2026-11-26-joint-budget-b030-first-metric-receipt.md)181.995016962秒、fine V0/η.93981894，实际119×1536；[B038终态](notes/2026-11-26-joint-budget-b038-metric-and-peak-cap-receipt.md)848.448631589秒、fine V0/η.85361432，实际121×1536/trust1/64、末后端success46步。两者3072提议均未采用，非时间终止。[实际角峰新源](notes/2026-11-26-real-angular-peak-exchange-implementation.md)保原q/trust/1536全约束、加入真实非均匀峰，Ebar仍完整积分；当前actual违规覆盖内的峰不立即重启，小峰pending待自然返回，fine与定位共同判接受。首run启动漏传递依赖正在补最小打包修复，未进模型计算。全闭reach/连续证书和最终固定g仍欠。
 
 
 ## 4. O4 两个不同母库的有效入口
@@ -46,7 +46,7 @@
 
 R555/R526/R517原条件范围继续有效；未付端口不由下游条件定理自动消失。
 
-新[圆核设计入口](notes/2026-11-26-circular-core-continuation-implementation.md)：p=q=.18/offset.2先17径向变量，再改变p解81变量。[首启动失败](notes/2026-11-26-circular-entry-angular-guard-failure.md)run45775603393的16角违反原最小20保护，.604799秒即退、未进模型科学。现v2改32角/fine64并同步CLI guard；原物理门不变。圆核η0不授非圆分支，仍欠C_core共振；阶段η1e−4非完成门。
+[圆核原终态](notes/2026-11-26-circular-entry-and-small-core-continuation-receipt.md)run45778418134新增2401.892431903秒：p=.18入口V0/η8.66e−16；p=.20/.19/.185/.1825依次η.004477/.002407/.001116/.000541，均未过stage1e−4。前三角容量、末时钟，非无解证据；最后合格仍圆核。stage4实际156×384、235×768仅最终扫描提议。下一调圆背景使真实j2核心forcing线性匹配，再预测有限非圆，不机械缩p冒分支；所有p设计变化非同g。
 
 
 ## 5. 正在继续的实际工作

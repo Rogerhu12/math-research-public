@@ -240,3 +240,5 @@
 - [已付R571尾口的非单调连接段设计](notes/2026-11-26-r571-connector-gain-implementation.md)：独立公开单job提交；保真实A,D传递、核心归一、必要几何/弧长与R575均值，紧支撑Green控制导数不需额外ODE。新R=.75/.85静态g，无有限幅度结论，旧尾不重算。
 
 - [完整均匀约束加实际角峰续接](notes/2026-11-26-real-angular-peak-exchange-implementation.md)：新双lane提交，保原q/trust/1536全网与全部径向，加入真实非均匀峰；Ebar不改，当前actual违规覆盖与fine漏峰区分，完整细扫/定位共同判接受。新接口检查与优化同run，不授连续覆盖或主门。
+
+- [圆核入口及四个非圆尝试原终态](notes/2026-11-26-circular-entry-and-small-core-continuation-receipt.md)：2401.892431903新秒，圆背景V0/η8.66e−16；非圆p=.20至.1825均未达stage1e−4，最后η.0005411。实际后端网与最终扫描提议分开，圆相位无可见位移；下一付真实一阶共振，不授无分支或主门。
