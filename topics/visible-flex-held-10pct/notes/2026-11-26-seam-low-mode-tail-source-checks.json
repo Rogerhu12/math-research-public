@@ -1,0 +1,29 @@
+{
+  "scope": "Actual light compile/help/source-identity checks only; no prefix or tail solve",
+  "session": "Astra-held10-06bbeb39-20261126",
+  "checked_utc": "2026-11-26 15:11:10 UTC",
+  "entry_sha256": "c558a38fcb6b0a8ba93f45431614d8d5d8b9b997d9cca078cd0ba1e023e13a0a",
+  "entry_bytes": 19369,
+  "exit_codes": {
+    "python_compile": 0,
+    "cli_help": 0,
+    "original_remesh_node_check": 0
+  },
+  "source_checks": {
+    "reviewed_helper_pin_matches_actual_public_source": true,
+    "retrieved_original_remesh_matches_declared_sha": true,
+    "declared_M_N_route_exact": true,
+    "M8_five_factor_route_exact": true,
+    "all_declared_quadratures_obey_original_strict_rule": true
+  },
+  "reviewed_helper_sha256": "7a1ce40d5141c08f4d76b2bc201f3113b04d02f12f60c06809a9053ba03321cc",
+  "actual_original_source_gate_sha256": "60877969b981712f6d8c00219ae9eeb02f1e432b41cda4c96159a5b5a50d63bf",
+  "original_remesh_revision": "34a036028256ad59c702a3fc8088275dad7c2948",
+  "original_remesh_path": "topics/visible-flexible-closed-surface/scripts/950f-tail-warm-remesh.mjs",
+  "original_remesh_sha256": "91686f1c9e70c36ea53357101b619830015288354d1045116a75b5a9ce47667b",
+  "actual_DN_invoked": false,
+  "original_M24_full_height_returned": false,
+  "prefix_coupling_accepted": false,
+  "complete_surface": false,
+  "independent_source_review": "actual_tail reviewed exact entry SHA c558a38fcb6b0a8ba93f45431614d8d5d8b9b997d9cca078cd0ba1e023e13a0a; no concrete protocol blocker found; source review only"
+}

@@ -1,0 +1,24 @@
+{
+  "kind": "fresh_tail_harness_source_check",
+  "complete": true,
+  "recovery_or_DN_executed": false,
+  "BVP_invoked": false,
+  "source_harness_sha256": "5b02d772bfa5b17360ee505cc040f5e2f6cc6651d696174a05f1a0fdcd66a05e",
+  "new_harness_sha256": "a9d3774fbd1878b96cb29b0349e829f34ed8fe8b5a84b3978ca2a5656cbc8910",
+  "recovery_block_bytes": 6801,
+  "recovery_block_sha256": "c6eb048d90ffa2863234455b68c324a43869ff7a5a10b88a6d2c7141dcc4dd9a",
+  "child_sha256": "c558a38fcb6b0a8ba93f45431614d8d5d8b9b997d9cca078cd0ba1e023e13a0a",
+  "checks": {
+    "recovery_block_byte_identical": true,
+    "recovery_block_has_original_6801_bytes": true,
+    "original_chart_and_setup_checks_byte_identical": true,
+    "all_original_recovery_input_pins_preserved": true,
+    "recovery_stage_default_allowed_codes_unchanged": true,
+    "all_v5_bindings_removed": true,
+    "raw_last_log_lines_removed": true,
+    "one_MB_stop_removed": true,
+    "child_summary_projection_exact": true,
+    "final_child_real_code_retained": true,
+    "frozen_child_sha_matches": true
+  }
+}

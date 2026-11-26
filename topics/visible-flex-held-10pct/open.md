@@ -183,3 +183,5 @@ O9初猜对照：原旧态可健康起步，但q025线性放大H的完整Newton�
 [独立lifted-secant续入](notes/2026-11-26-lifted-secant-continuation.md)519c已真实compile/help与原控制流AST核，旧在跑源不改。只有低M真锚预测改走独立CLI，同M原预测及实际solver/验收/metric-only升M/失败二分不变；自然返回后从实测最高真锚接续。三个活跃通道只热加inner-00的status/nodes/rms投影；内层返回即使status0也不冒完整metric/physical接受，未投影参数向量。
 
 原直接链[新.04/M32真实接受](notes/2026-11-26-original-design-lambda0040-accepted-after0036.json)来自真.036/attempt008：2325点/RMS8.17719e−7/metric6.79248e−7/物理BC5.72873e−16，run4f89af1d/raw52a7d250/physicald8799e16。13原接受步/minα2^-17/域拒1/merit拒22；此新输入通过不抹掉旧.032→.04 MemoryError。summary滞后.036但实际source证明确实续真.036；当前attempt010，最近同M真锚为.036/.04，全局前沿仍独立.064/M40。
+
+[v4第三.0025/M24真实返回](notes/2026-11-26-v4-third-actual-return.md)仍status1/RMS.0174015失败，虽scaled/physical BC已过；父三次段已结束，真接受锚仍.002，不执行字面下一.00225或重复失败链。新[低模→完整M24原DN](notes/2026-11-26-seam-low-mode-tail-route.md)从同一完整来源H先求M8的五档再M16/M24，保原背景/门/audit/J/native4/chord3；fresh恢复6801字节逐字同，改变表示和未接受初猜，无联立/λ1/同g宣称。fresh warm请求已准备，待实际run；probe余时不足一小时，不重复同实验。

@@ -1,0 +1,86 @@
+{
+  "scope": "Actual third original v4 solver return and three-attempt terminal; scalar evidence only. No new accepted lambda, true tail, fixed-metric refinement or complete surface.",
+  "session": "Astra-held10-06bbeb39-20261126",
+  "observed_utc": "2026-11-26 15:22:24 UTC",
+  "source": {
+    "repository": "Rogerhu12/math-research-public",
+    "path": "topics/visible-flex-held-10pct/ci/live-probe-result.json",
+    "immutable_commit": "2e4cc34f78a063e459c56c07410bcfb8e192400b",
+    "blob_sha": "978f9e3b30fc632b8c09396452ffc82a1a5016da",
+    "published_utc": "2026-11-26 15:21:14 UTC",
+    "workflow_run_id": 45806625263,
+    "job_id": 139863475211,
+    "command_id": "held10-warm-v4-full-to-complement-20261126-01",
+    "checkout_commit": "4a1461933362bea135d4439076c0748eee803ece",
+    "script": "topics/visible-flex-held-10pct/scripts/resume_20261126/warm_fixed_m3_continue_v4.py",
+    "script_sha256": "b8c18468635ebad021c19f0d61f6caec364ebb2343349c6345e25fa8cb2bc021"
+  },
+  "terminal": {
+    "worker_status": "finished",
+    "worker_returncode": 2,
+    "summary_status": "explicit_continuation_attempt_limit",
+    "actual_solver_attempts": 3,
+    "new_accepted_solver_returns": 0
+  },
+  "actual_return": {
+    "attempt": "attempt-002",
+    "kind": "actual_warm_bvp",
+    "homotopy": 0.0025,
+    "modes": 24,
+    "solver_invoked": true,
+    "solver_success": false,
+    "accepted": false,
+    "driver_returncode": 2,
+    "run": "/home/runner/work/_temp/held10-probe/warm-v4-design/attempt-002/run.json",
+    "run_sha256": "370e8a35c3fb3e48593f75fc4067b23725bd4d4abbe4d97b0c39813d235b314f",
+    "raw_file": "inner-00.npz",
+    "raw_sha256": "9222d68f343b677bcc8bfcfa580864e640c32294b619674176b51cf1f91a70a6",
+    "raw_status": 1,
+    "raw_success": false,
+    "nodes": 3113,
+    "rms": 0.017401518267728573,
+    "scaled_bc_max": 4.039892323448591e-9,
+    "physical_bc_max": 1.3402835318308167e-12,
+    "error": null,
+    "domain_newton_stats": {
+      "accepted_steps": 8,
+      "calls": 3,
+      "minimum_alpha": 9.5367431640625e-7,
+      "no_step": 3,
+      "rejected_domain_trials": 6,
+      "rejected_merit_trials": 131
+    },
+    "pre_exp_domain_rejections": 0,
+    "no_geometry_or_metric_guard_removed": true,
+    "valid_function_and_jacobian_changed": false,
+    "physical_sha256": null,
+    "physical_sha256_exposed": false
+  },
+  "gate_scope": {
+    "original_rms_tolerance": 0.000001,
+    "original_scaled_bc_tolerance": 1e-7,
+    "original_physical_bc_tolerance": 2e-9,
+    "rms_pass": false,
+    "scaled_bc_pass": true,
+    "physical_bc_pass": true,
+    "both_boundary_checks_do_not_override_failed_original_RMS_or_solver_status": true
+  },
+  "actual_acceptance_state": {
+    "accepted_lambda": 0.002,
+    "last_accepted_run": "/home/runner/work/_temp/held10-probe/warm-v4-design/reexpressed-anchor/run.json",
+    "source_acceptance_kind": "same_cartesian_map_verified_reexpression",
+    "controller_recorded_next_action": "bisect_lambda_from_last_accepted_field",
+    "controller_recorded_next_lambda": 0.0022500000000000003,
+    "controller_next_target_executed": false,
+    "lambda_one_reached": false,
+    "actual_nonlinear_tail_paid": false,
+    "fixed_lambda_C2_refinement_paid": false,
+    "complete_surface": false
+  },
+  "interpretation": {
+    "three_real_trials_failed_without_new_accepted_lambda": true,
+    "no_mathematical_nonexistence_claim": true,
+    "no_new_probe_or_solver_executed_by_observer": true,
+    "subsequent_action": "Do not repeat the same failed v4 chain. Retain the original accepted lambda=.002/M24 source for the separately reviewed low-mode nonlinear-tail route; root owns deployment."
+  }
+}

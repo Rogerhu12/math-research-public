@@ -1,25 +1,33 @@
 {
-  "id": "held10-warm-v3-complement-20261126-01",
-  "read_rules_commit": "6efac6374073c047ba6c18a88ea8b44d6f78bff9",
-  "script": "topics/visible-flex-held-10pct/scripts/resume_20261126/warm_fixed_m3_continue_v3.py",
+  "id": "held10-original-full-height-lowm-tail-20261126-01",
+  "read_rules_commit": "11e6fc9a5b50a4f32c2bd866a2873299f8114142",
+  "script": "topics/visible-flex-held-10pct/scripts/resume_20261126/seam_recover_original_tail_modes.py",
   "args": [
     "--repo",
     "@REPO@",
     "--work",
     "@WORK@",
-    "--source-run",
-    "@WORK@/warm-v2-design/reexpressed-anchor/run.json",
     "--outdir",
-    "@WORK@/warm-v3-design"
+    "@WORK@/fresh-original-lowm-tail"
   ],
   "diagnostics": [
     {
-      "path": "@WORK@/warm-v3-design/summary.json",
+      "path": "@WORK@/fresh-original-lowm-tail/summary.json",
       "keys": [
         "status",
         "stages",
         "result",
         "error"
+      ]
+    },
+    {
+      "path": "@WORK@/fresh-original-lowm-tail/tail-lowm-to-full/summary.json",
+      "keys": [
+        "status",
+        "stages",
+        "result",
+        "error",
+        "source_hashes"
       ]
     }
   ]

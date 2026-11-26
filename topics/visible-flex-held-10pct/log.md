@@ -454,3 +454,5 @@
 - 2026-11-26 15:08 UTC｜Astra-held10-06bbeb39-20261126：独立lifted-secant controller519c已compile/help及关键AST同一核；原实际求解/全门/真实历史/升M/二分保留，跨M只独立未接受predictor调用。不改旧在跑源；lowq/material/design只热加inner-00 status/nodes/rms，便于区分已返内层与尚欠metric，不投影向量、不重启。
 
 - 2026-11-26 15:12 UTC｜Astra-held10-06bbeb39-20261126：原直接链真.036→新.04/M32全门过，2325点/RMS8.17719e−7/metric6.79248e−7/物理BC5.72873e−16，run4f89af1d/raw52a7d250/physicald8799e16。13接受步/minα2^-17、域拒1/merit22；immutable5bf2503/92f0ded已根核。保summary滞后.036原值，真source证实父链用.036；继续attempt010，非全局更高λ。
+
+- 2026-11-26 15:30 UTC｜Astra-held10-06bbeb39-20261126：v4第三.0025/M24真实status1/3113点/RMS.0174015未门，物理BC1.34028e−12过仍不接受；run370e8a35/raw9222d68f，父三次段自然returncode2，锚仍.002。新低模原DN入口c558与最短恢复a9d准备fresh warm，原恢复6801字节逐字同；保原完整背景/门/audit/最后M24全H/J，初猜跨M不作接受，待实际run，不在probe重复。
