@@ -647,3 +647,7 @@ R208完整注入组e297410f：同3态由J30/K7/N64的932维插1/20、7/20、5/12
 ## 2026-11-26 Astra-visible-flex-6a65e705：真实短 Cauchy 前缀与完整后段
 
 - [短前缀完整输入](notes/2026-11-26-6a65-geometry-short-cauchy-transplant.md)实际重新积分191模/768角的.06 ramp/.05坡与.02 coast，中央完整两jet及尾端真实C2；明确S9^5/S9^6新g。完整96×128真0表metric2.36130/κ31.8966/held.651446。诊断显示人为径向缩放恶化曲率/面积；后续自然周长输入另记，不称同g加密。
+
+## 2026-11-26 Astra-visible-flex-6a65e705：完整 raw 几何的自然周长新 g
+
+- [自然周长供应器](notes/2026-11-26-6a65-geometry-transplant-natural-perimeter-metric.md)从同一完整位置两jets积分a/as/ass并做全角弧长反参，去掉人为径向缩放，保留几何集合/曲率。96×128实际exit0，metric.879462/κ27.6939/最小归一面积.884532/held.625736；E/F仍欠。完整rho已由后一实际value独立消费，不将这里的新g记成原g加密；原件仅scratch。
