@@ -1,0 +1,40 @@
+{
+  "elapsedSeconds": 5.079883,
+  "largeResultantsRerun": false,
+  "peakRssKiB": 53652,
+  "schema": "r150-unit211-zero-base-mean-factor-ledger-20261126-v1",
+  "singularD": {
+    "removed": [
+      [
+        "2*x**2 - 2*x + 1",
+        1
+      ]
+    ],
+    "retainedDegreeC": 2,
+    "unit": "-1"
+  },
+  "sourceSha256": "522830a27032755cbaeada902ca5fb65a7d29a2d92dac4a1c372189aeeedca97",
+  "status": "all_exact_QQ_checks_pass",
+  "xhalf": [
+    {
+      "removedProduct": "t*(q + 1)",
+      "retainedDegreeT": 3
+    },
+    {
+      "removedProduct": "3*q**2*t*(q - 1)**4*(q + 1)",
+      "retainedDegreeT": 3
+    },
+    {
+      "removedProduct": "q**3*t*(q - 1)**6*(q + 1)**2",
+      "retainedDegreeT": 6
+    }
+  ],
+  "exitCode": 0,
+  "command": "python 2026-11-26-unit211-zero-base-mean-factor-ledger-347c.py > unit211-factor-ledger-verify.log",
+  "python": "3.12.14",
+  "sympy": "1.14.0",
+  "pythonFlint": null,
+  "stdoutSha256": "c0d53a91edd42f6848e184fbcf9a6d1154f2d48d7b707041604f3ded0a6bc277",
+  "executionDateUTC": "2026-11-26",
+  "storedArrays": false
+}

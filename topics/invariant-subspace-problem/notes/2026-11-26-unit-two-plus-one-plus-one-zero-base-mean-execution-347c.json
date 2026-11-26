@@ -1,0 +1,27 @@
+{
+  "elapsedSeconds": 213.188311,
+  "ordinaryISPClaim": false,
+  "peakRssKiB": 124784,
+  "regularGcd": "(x-1/2)^362",
+  "regularResultantDegrees": [
+    879,
+    1020,
+    1637
+  ],
+  "schema": "r150-unit211-zero-base-mean-20261126-v1",
+  "scope": "p=1,d0=b+cq=0,q not 0,+1,-1; t0, singular Cramer determinant, full regular chart, and xhalf fiber",
+  "singularResultantDegrees": [
+    63,
+    94
+  ],
+  "sourceSha256": "9b292e796939265be0281e4ad644559a97ca1bad6e63759fbf3eb06489f88ef5",
+  "status": "all_exact_QQ_checks_pass",
+  "exitCode": 0,
+  "command": "PYTHONPATH=/tmp/isp-347c05929dd3/deps python 2026-11-26-unit-two-plus-one-plus-one-zero-base-mean-347c.py > unit211-zero-base-mean-verify.log",
+  "python": "3.12.14",
+  "sympy": "1.14.0",
+  "pythonFlint": "0.9.0",
+  "stdoutSha256": "740b9f9b64e2499a41136967a57c4362fdcf3336348ee0e26e1f544426c0a7eb",
+  "executionDateUTC": "2026-11-26",
+  "storedArrays": false
+}
