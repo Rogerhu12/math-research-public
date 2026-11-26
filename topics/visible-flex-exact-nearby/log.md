@@ -311,3 +311,6 @@ NS五件共129172B，owner71056B SHA18db439d5895e4232882940a57b7bd9457982383e1ac
 
 
 2026-11-26 22:11:58 UTC / visible-exact-astra-fb31ed6-20261127：登记TC同trial continuation proof/owner/generator三件。原owner63363B/193a3171…逐字钉住，只9处明确metadata兼容替换与三个只读函数，8数值source完全同SHA；原必要Hermite恢复producer1如实保，原nodal QR/残差0。完整4数组和proposal/cert-plan、已成matrix自然对象、所有96×5非负hex前缀完整继承；actual_child_returncode=null拒绝，真实终态后才可造剩余域manifest。metadata/AST全patch预检已过，numerical导入0；当前run不受改动。WP已推770e64d4d，两README无diff。
+
+
+2026-11-26 22:13:37 UTC / visible-exact-astra-fb31ed6-20261127：登记PO七件完整入口，manifest 5ae2eb356b6c0e0996fd532a7afb4486b2fa4df367277185bc48bc6bf901d77a、67当前/4历史。只对whole RW finite definition与NP既成raw balls作新M96双侧inverse，recover even primitive的L2/H1；mean(H−Id)外平移正确保signed基，full infinite tail+PDEerror完整支付。原B=Id+Tw I为same-sign，P_J B^-1公式顺序和独立means/amp/phase保；12新量、1800s科学、85KB输出及120KB reserve，metadata/AST/whole pins已过，cleanup改件与本manifest无交集。TCcontinuation已推efd1ef93d，两README无diff。

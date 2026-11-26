@@ -335,3 +335,5 @@
 - [WP：全正端raw hybrid三块完整费用](results/R144-supplement-actual-whole-positive-raw-hybrid-fees.md)：已成WLA与全cap内在球给whole B6/G14；14个纯有理比较全过，LL/HL/LH<.004330/.003229/.005298，97..160 shell转窗<.029061/3.396018。全部原S/193atoms/root97/outer96/point与原cross+增量保，未授weighted Green或low/high Schur门。
 
 - [TC同trial终态后前缀续算](results/R149-supplement-same-trial-prefix-continuation-after-input-restoration.md)：完整原63363B owner逐字钉住，仅metadata源兼容/恢复资格修复，8数值源、全4 endpoint数组、exact partition与96×5完整累加器不变。必要Hermite重物化producer1如实保，不重已完成矩阵或积分；运行中和三目标已全成均拒绝，无新manifest/实际科学启动。
+
+- [PO：完整96观测逆与真物理参数尾](results/R147-supplement-observation-inverse-for-physical-parameter-tail.md)：只从NP已成raw signed球恢复even nonmean primitive，RW整carrier必要重物化、不重旧配对/残差；mean(H−Id)消外平移而非H(0)，全inverse-density尾/真实PDE误差/原同sign B^-1顺序与两mean保。67当前+4历史完整输入、十二新scalar首次入口已齐，实际inverse门尚待；不授fullν Schur。

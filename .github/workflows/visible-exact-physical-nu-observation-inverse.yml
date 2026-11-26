@@ -1,0 +1,52 @@
+name: R147 complete physical nu observation inverse
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/visible-exact-physical-nu-observation-inverse.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: visible-flex-exact-physical-nu-observation-inverse-20261127
+  cancel-in-progress: false
+jobs:
+  complete-new96-observation-inverse:
+    if: github.repository == 'Rogerhu12/math-research-public' && github.run_attempt == 1
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    env:
+      OMP_NUM_THREADS: '1'
+      OPENBLAS_NUM_THREADS: '1'
+      MKL_NUM_THREADS: '1'
+      NUMEXPR_NUM_THREADS: '1'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-exact-nearby/README.md
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_negative_nu_waist_public_worker.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_support_localized_nu_public_worker.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_strict_nu_particular_public_worker.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_strict_nu_high_forcing_public_worker.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_physical_nu_observation_inverse_public_worker.py
+            /topics/visible-flex-exact-nearby/notes/2026-11-27-physical-nu-observation-inverse-inputs.json
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12.14'
+      - name: Install fixed directed runtime
+        run: python -m pip install --disable-pip-version-check python-flint==0.9.0
+      - name: Invert the new complete observation map and receive the physical column
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: >-
+          python topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_physical_nu_observation_inverse_public_worker.py
+          --repo "$GITHUB_WORKSPACE"
+          --manifest topics/visible-flex-exact-nearby/notes/2026-11-27-physical-nu-observation-inverse-inputs.json
+          --manifest-sha 5ae2eb356b6c0e0996fd532a7afb4486b2fa4df367277185bc48bc6bf901d77a
