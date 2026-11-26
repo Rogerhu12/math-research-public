@@ -1733,3 +1733,31 @@ minimal和两个完整PASS source/run/job/result hash均保持。
 
 本次仅保存新geometry helper及这份已审接入记录；唯一单F v3继续运行。
 实际原W、全部极除子、四交与shadow的通过与否必须由后续真实生产返回。
+
+### 13.15. 原消费者缓存字段的准确兼容修复
+
+完整接入再对照发现：未改的原消费者
+`original_ys_artinian_shadow_consumer.py::_finite_divisor`
+会读取缓存 `complete["records"]["False"]`，原运输返回只有总运输记录，
+故实际命中四个运输目标时会产生KeyError。原bridge完整封装records；
+exact-reuse只读原函数身份、两图理想及det/length，不再读取内部字段。
+
+现在将已通过的实际双门回执格式化为原四个键：
+`False`、`True`、`positive_infinity_boundary`、`negative_infinity_boundary`。
+每张图含实际非零N/D的hash、同一正负理想的完整receipt，以及
+同一次运输和Z+P=A、ZD=PN门；两边界直接保原完整边界回执。
+不填写不存在的direct graph/kernel证书，不改变任何接受条件。
+
+helper修后23060 bytes，SHA-256
+`f6c87d36f4ded0e7e14e6e025cbbcc169bef30422b60d791a394a853aa536c58`。
+现有reader只增原纯formatter的四键/对象返回检查，复用构造的两图
+常值1及其真实rank1双门；不假造原306对象或绕原身份门。
+reader12698 bytes，SHA-256
+`57ca2a1b30f699e407fd83b529b00b00c374d693a771cae2c7d8ff14c4b5d8ff`。
+沿现有小API请求执行，无新增workflow；实际回执另记。
+
+未挂main的生产wrapper同时增加四目标两图与边界的回执身份断言；
+§13.14表中producer更新为Git blob
+`71d72aad16d95e3d17c3092e35d040e8c29a005b`，13630 bytes，
+SHA-256 `cee5e8ebc201f525e0039970b03a39105ba25bde7f47cf1825a3a19287d78d2e`。
+其它三份入口、44源host、原全部验门及唯一单F作业保持。

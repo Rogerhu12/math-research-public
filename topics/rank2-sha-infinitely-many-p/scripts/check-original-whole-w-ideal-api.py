@@ -95,7 +95,42 @@ def complete_unit_pair_case():
     assert result[False] == I and result[True] == I0
     assert receipt["finite"]["complete_missing_fibre_length"] == 0
     assert receipt["infinity"]["complete_missing_fibre_length"] == 0
+    # Reuse the ACTUAL production formatter on the genuine constructed
+    # constant function 1 on both P1 charts. No fake rank-306 identity exists.
+    charts, gates = {}, {}
+    for flag, ring in ((False, R), (True, S)):
+        engine = ConstructedRankOneEngine(ring)
+        engine.infinity_chart = flag
+        whole = OriginalAffineIdeal(
+            engine, result[flag], ring.one(),
+            dict(constructed_rank_one_complete_unit_ideal=True))
+        charts[flag] = {"positive":whole, "negative":whole}
+        gates["infinity" if flag else "finite"] = (
+            transport.verify_complete_original_zero_pole_pair(
+                engine, whole, whole, [ring.one()], [ring.one()],
+                label="constructed whole constant function on its actual chart"))
+    for sign in ("positive", "negative"):
+        charts[True][sign+"_boundary"] = charts[True][sign]
+        gates[sign+"_infinity_boundary"] = dict(
+            constructed_rank_one_complete_unit_boundary=True,
+            full_quotient_length=0, complete_primary_block=True,
+            full_returned_unit_HNF_sha256=polynomial_matrix_digest(result[True]))
+    packed = transport.assemble_complete_principal_divisor_records(
+        charts, gates, operation="W", label="constructed complete unit principal divisor")
+    assert {"False", "True", "positive_infinity_boundary",
+            "negative_infinity_boundary"} <= set(packed)
+    for flag, chart_name in ((False, "finite"), (True, "infinity")):
+        assert packed[str(flag)]["complete_transported_primitive_fraction_gates"] is gates[chart_name]
+        assert packed[str(flag)]["zero_ideal"] is charts[flag]["positive"].receipt
+        assert packed[str(flag)]["pole_ideal"] is charts[flag]["negative"].receipt
+        assert "kernel" not in packed[str(flag)]
+    for sign in ("positive", "negative"):
+        assert packed[sign+"_infinity_boundary"] is gates[sign+"_infinity_boundary"]
     return dict(empty_divisor_and_zero_primary_exponent_passed=True,
+                unchanged_consumer_records_False_and_True_paths_returned=True,
+                original_both_boundary_record_keys_returned=True,
+                actual_production_formatter_used_on_verified_rank_one_unit_parts=True,
+                direct_graph_computation_not_falsely_claimed=True,
                 complete_both_chart_returns=receipt)
 
 

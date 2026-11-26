@@ -274,6 +274,32 @@ def verify_complete_original_zero_pole_pair(engine, positive, negative,
         generic_rank_or_total_degree_substituted=False)
 
 
+def assemble_complete_principal_divisor_records(charts, gates, *, operation, label):
+    """Format already-verified parts; perform no new mathematical acceptance."""
+    # The unchanged original Artinian consumer reads records["False"]
+    # from this shared principal-divisor cache. Preserve BOTH old chart
+    # keys and both boundary keys, with the actual transported certificate.
+    records = {}
+    for flag, chart_name in ((False, "finite"), (True, "infinity")):
+        gate = gates[chart_name]
+        records[str(flag)] = dict(
+            original_function=label,
+            numerator_sha256=gate["actual_nonzero_numerator_sha256"],
+            denominator_sha256=gate["actual_nonzero_denominator_sha256"],
+            zero_ideal=charts[flag]["positive"].receipt,
+            pole_ideal=charts[flag]["negative"].receipt,
+            concrete_implementation="whole source transport and primitive target ideal gates",
+            complete_transported_primitive_fraction_gates=gate,
+            only_this_affine_chart=True, closed_points_or_shadow_claimed=False)
+    for sign in ("positive", "negative"):
+        records[sign+"_infinity_boundary"] = gates[sign+"_infinity_boundary"]
+    records.update(
+        operation=operation, whole_target_fraction_gates=gates,
+        all_original_rows_and_entire_other_chart_fibres_preserved=True,
+        helper_sha256=hashlib.sha256(Path(__file__).read_bytes()).hexdigest())
+    return records
+
+
 class OriginalWholeWIdealTransport:
     """Original full ideal transports, with actual target fraction acceptance."""
 
@@ -384,11 +410,11 @@ class OriginalWholeWIdealTransport:
         positive_degree = charts[False]["positive"].length+charts[True]["positive_boundary"].length
         negative_degree = charts[False]["negative"].length+charts[True]["negative_boundary"].length
         assert positive_degree == negative_degree
+        records = assemble_complete_principal_divisor_records(
+            charts, gates, operation=operation, label=label)
         return dict(function=target_function, charts=charts,
                     positive_degree=positive_degree, negative_degree=negative_degree,
-                    records=dict(operation=operation, whole_target_fraction_gates=gates,
-                                 all_original_rows_and_entire_other_chart_fibres_preserved=True,
-                                 helper_sha256=hashlib.sha256(Path(__file__).read_bytes()).hexdigest()))
+                    records=records)
 
     def receipt(self):
         return dict(
