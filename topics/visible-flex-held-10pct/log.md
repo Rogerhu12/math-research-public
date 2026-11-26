@@ -316,3 +316,5 @@
 - 2026-11-26 08:05 UTC｜Astra-held10-06bbeb39-20261126：首暖sameλ M24实际Overflow无raw；源码确认exp先于原qaux域检查且该异常不被原Newton拒步捕获，另pscale floor1e−9/1e−10坐标记录不一致、fixed径向chart改变。未称物理无解/暖锚成功；同runner只读原raw RHS/BC/RMS/六jet/J列probe已排下一命令，当前自然返回后执行。
 
 - 2026-11-26 08:11 UTC｜Astra-held10-06bbeb39-20261126：新尾geometry父入口审毕，可先真实stage0再以同一新节点续其余全部段，保stage0原字节/证书，不重跑旧背景积分。修正原port显式22键与native/checkpoint完整34键的合法schema差，仍逐项绑定所有真实物理项；顶层小进度/失败可回传，尚无新accepted包代入。
+
+- 2026-11-26 08:15 UTC｜Astra-held10-06bbeb39-20261126：同runner只读probe实际exit0：冻结旧chart，631点f/fm/colloc/BC/physicalBC/RMS逐位同，core/7点六jet亦同；六参数列FD最大差RHS3.21925e−8/BC1.69708e−10。保存完整小投影与链式审计，可选log域guard仅拒原域外远端试探、未跑BVP。未给暖accepted，推进独立v2真实重表达及λ解。

@@ -1,0 +1,397 @@
+{
+  "scope": "Actual read-only same-runner original-to-warm coordinate checks. No new BVP solve or warm finite candidate acceptance.",
+  "run_id": 45775899674,
+  "command_id": "held10-warm-raw-handoff-probe-20261126-01",
+  "executed_commit": "8c8907663600d247623c0bc9476eaaabb60bb43d",
+  "script": "topics/visible-flex-held-10pct/scripts/resume_20261126/warm_handoff_equivalence_probe.py",
+  "script_sha256": "1d341490239b5b4b5d61435f616f8ff987a80c8cefeef4ea5c4868d6b54a8add",
+  "status": "read_only_probe_complete",
+  "returncode": 0,
+  "original_source_run_sha256": "95cf676b072a34f48321138cf4fc90e69a35164e43897f2c79fb23f7eecc6eb2",
+  "prepared_warm_attempt_sha256": "0636aa7be3fbaec8f2f86e7774decb9cc4f444c2218769e26e897d8037ca440a",
+  "actual_result": {
+    "actual_phase_parameter_scale_factors": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      5.953741807651275,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10
+    ],
+    "actual_warm_attempt_error": "OverflowError('math range error')",
+    "analytic_parameter_columns": [
+      {
+        "column": 0,
+        "comparisons": [
+          {
+            "bc": {
+              "bitwise_equal": false,
+              "max_abs": 2.4394625208756793e-11,
+              "max_reference": 0.17942189089123228
+            },
+            "rhs": {
+              "bitwise_equal": false,
+              "max_abs": 3.3366602957170255e-09,
+              "max_reference": 0.0029843640769647312
+            },
+            "step": 1e-05
+          },
+          {
+            "bc": {
+              "bitwise_equal": false,
+              "max_abs": 1.1993439574808917e-10,
+              "max_reference": 0.17942189089123228
+            },
+            "rhs": {
+              "bitwise_equal": false,
+              "max_abs": 9.400998809401165e-09,
+              "max_reference": 0.0029843640769647312
+            },
+            "step": 2e-06
+          }
+        ]
+      },
+      {
+        "column": 1,
+        "comparisons": [
+          {
+            "bc": {
+              "bitwise_equal": false,
+              "max_abs": 3.648126245536787e-11,
+              "max_reference": 0.1728135942711921
+            },
+            "rhs": {
+              "bitwise_equal": false,
+              "max_abs": 6.4461548429589104e-09,
+              "max_reference": 0.009093136342729752
+            },
+            "step": 1e-05
+          },
+          {
+            "bc": {
+              "bitwise_equal": false,
+              "max_abs": 1.6970799765481104e-10,
+              "max_reference": 0.1728135942711921
+            },
+            "rhs": {
+              "bitwise_equal": false,
+              "max_abs": 3.0320316134434244e-08,
+              "max_reference": 0.009093136342729752
+            },
+            "step": 2e-06
+          }
+        ]
+      },
+      {
+        "column": 6,
+        "comparisons": [
+          {
+            "bc": {
+              "bitwise_equal": false,
+              "max_abs": 2.7399566990271573e-11,
+              "max_reference": 0.014347259075587385
+            },
+            "rhs": {
+              "bitwise_equal": false,
+              "max_abs": 7.887683086543751e-09,
+              "max_reference": 0.024289129290894017
+            },
+            "step": 1e-05
+          },
+          {
+            "bc": {
+              "bitwise_equal": false,
+              "max_abs": 8.291071995625288e-11,
+              "max_reference": 0.014347259075587385
+            },
+            "rhs": {
+              "bitwise_equal": false,
+              "max_abs": 3.2192494079679086e-08,
+              "max_reference": 0.024289129290894017
+            },
+            "step": 2e-06
+          }
+        ]
+      },
+      {
+        "column": 7,
+        "comparisons": [
+          {
+            "bc": {
+              "bitwise_equal": false,
+              "max_abs": 2.2480961536786026e-11,
+              "max_reference": 0.06120970025359366
+            },
+            "rhs": {
+              "bitwise_equal": false,
+              "max_abs": 2.886028723403551e-09,
+              "max_reference": 0.030809350212648596
+            },
+            "step": 1e-05
+          },
+          {
+            "bc": {
+              "bitwise_equal": false,
+              "max_abs": 1.3350326399930168e-10,
+              "max_reference": 0.06120970025359366
+            },
+            "rhs": {
+              "bitwise_equal": false,
+              "max_abs": 1.7173924769904967e-08,
+              "max_reference": 0.030809350212648596
+            },
+            "step": 2e-06
+          }
+        ]
+      },
+      {
+        "column": 8,
+        "comparisons": [
+          {
+            "bc": {
+              "bitwise_equal": false,
+              "max_abs": 1.8134604928832232e-11,
+              "max_reference": 0.08660908609897525
+            },
+            "rhs": {
+              "bitwise_equal": false,
+              "max_abs": 3.828388446536213e-09,
+              "max_reference": 0.3042562425354708
+            },
+            "step": 1e-05
+          },
+          {
+            "bc": {
+              "bitwise_equal": false,
+              "max_abs": 6.266606764754323e-11,
+              "max_reference": 0.08660908609897525
+            },
+            "rhs": {
+              "bitwise_equal": false,
+              "max_abs": 2.8168069780492054e-08,
+              "max_reference": 0.3042562425354708
+            },
+            "step": 2e-06
+          }
+        ]
+      },
+      {
+        "column": 23,
+        "comparisons": [
+          {
+            "bc": {
+              "bitwise_equal": false,
+              "max_abs": 4.2146859244827917e-11,
+              "max_reference": 0.008622159371747035
+            },
+            "rhs": {
+              "bitwise_equal": false,
+              "max_abs": 6.602743934935873e-09,
+              "max_reference": 2.117039015059614
+            },
+            "step": 1e-05
+          },
+          {
+            "bc": {
+              "bitwise_equal": false,
+              "max_abs": 1.0876024072233731e-10,
+              "max_reference": 0.008622159371747035
+            },
+            "rhs": {
+              "bitwise_equal": false,
+              "max_abs": 2.507268921647654e-08,
+              "max_reference": 2.117039015059614
+            },
+            "step": 2e-06
+          }
+        ]
+      }
+    ],
+    "angular_nodes": {
+      "mean_source": 1168,
+      "mean_warm": 1168,
+      "original": 768,
+      "warm": 768
+    },
+    "auxiliary_coordinate_domain": {
+      "changes_metric": false,
+      "coordinate_only": true,
+      "p0_lower": -13.304684934198283,
+      "p0_upper": 0.7259370033829363
+    },
+    "complete_core_zero_control_jets": {
+      "F": {
+        "bitwise_equal": true,
+        "max_abs": 0,
+        "max_reference": 1.0606165358626798
+      },
+      "Ft": {
+        "bitwise_equal": true,
+        "max_abs": 0,
+        "max_reference": 1
+      },
+      "Ftt": {
+        "bitwise_equal": true,
+        "max_abs": 0,
+        "max_reference": 1.9818188228943594
+      }
+    },
+    "deployed_boundary_gap": {
+      "bitwise_equal": true,
+      "max_abs": 0,
+      "max_reference": 1.7381929229287607e-13
+    },
+    "deployed_fixed_radial_chart": {
+      "collocation_residual_max": 7.211375593896285e-14,
+      "nodes": 631,
+      "physical_bc_max": 3.7178883222402893e-16,
+      "rhs_max": 4.665560799690265,
+      "rms_max": 9.92766133631121e-07,
+      "scaled_bc_max": 1.7381929229287607e-13
+    },
+    "deployed_same_physical_node_rhs": {
+      "bitwise_equal": false,
+      "max_abs": 4.362163504524248e-15,
+      "max_reference": 3.2734582004935877
+    },
+    "frozen_chart_gap": {
+      "ds": {
+        "bitwise_equal": true,
+        "max_abs": 0,
+        "max_reference": 1.4255326637525887
+      },
+      "s": {
+        "bitwise_equal": true,
+        "max_abs": 0,
+        "max_reference": 1.4252697037606192
+      }
+    },
+    "frozen_original_radial_chart": {
+      "collocation_residual_max": 7.210464864071398e-14,
+      "nodes": 631,
+      "physical_bc_max": 3.7178883222402893e-16,
+      "rhs_max": 4.665100850118455,
+      "rms_max": 9.927150345213775e-07,
+      "scaled_bc_max": 1.7381929229287607e-13
+    },
+    "initial_projection": {
+      "bitwise_equal": true,
+      "max_abs": 0,
+      "max_reference": 1.0031429094724034
+    },
+    "original": {
+      "collocation_residual_max": 7.210464864071398e-14,
+      "nodes": 631,
+      "physical_bc_max": 3.7178883222402893e-16,
+      "rhs_max": 4.665100850118455,
+      "rms_max": 9.927150345213775e-07,
+      "scaled_bc_max": 1.7381929229287607e-13
+    },
+    "original_recomputed_vs_saved_rms": {
+      "bitwise_equal": true,
+      "max_abs": 0,
+      "max_reference": 9.927150345213775e-07
+    },
+    "out_of_domain_p0_exception": "OverflowError: math range error",
+    "radial_chart": {
+      "original_join": 0.347040419608259,
+      "original_reference_prefix": 0.4946521126011548,
+      "physical_end_gap": 0,
+      "warm_join": 0.3470062069810417,
+      "warm_reference_prefix": 0.4945774338269654
+    },
+    "raw_equation_gaps": {
+      "bc": {
+        "bitwise_equal": true,
+        "max_abs": 0,
+        "max_reference": 1.7381929229287607e-13
+      },
+      "cr": {
+        "bitwise_equal": true,
+        "max_abs": 0,
+        "max_reference": 7.210464864071398e-14
+      },
+      "f": {
+        "bitwise_equal": true,
+        "max_abs": 0,
+        "max_reference": 4.665100850118455
+      },
+      "fm": {
+        "bitwise_equal": true,
+        "max_abs": 0,
+        "max_reference": 4.6651204932588985
+      },
+      "physical_bc": {
+        "bitwise_equal": true,
+        "max_abs": 0,
+        "max_reference": 3.7178883222402893e-16
+      },
+      "rms": {
+        "bitwise_equal": true,
+        "max_abs": 0,
+        "max_reference": 9.927150345213775e-07
+      }
+    },
+    "same_physical_interpolant_jet_gaps": {
+      "F": {
+        "bitwise_equal": true,
+        "max_abs": 0,
+        "max_reference": 1.0924621172233142
+      },
+      "Fp": {
+        "bitwise_equal": true,
+        "max_abs": 0,
+        "max_reference": 1.4800000000000042
+      },
+      "Fpp": {
+        "bitwise_equal": true,
+        "max_abs": 0,
+        "max_reference": 1.7492762764166572
+      },
+      "Fs": {
+        "bitwise_equal": true,
+        "max_abs": 0,
+        "max_reference": 1.000000000000005
+      },
+      "Fsp": {
+        "bitwise_equal": true,
+        "max_abs": 0,
+        "max_reference": 1.891691546892831
+      },
+      "Fss": {
+        "bitwise_equal": true,
+        "max_abs": 0,
+        "max_reference": 7.541756250450047
+      }
+    },
+    "same_physical_interpolant_jet_scope": "Seven physical radii, mean1168. F is compared before adding the common vertical primitive; its difference is unchanged by the same literal primitive. Fs and Fss include independently evaluated mean derivatives. No height primitive is recomputed or silently used as a new acceptance certificate.",
+    "scope_limit": "Finite actual raw-grid/column checks only. No new BVP return, acceptance, lambda progress, continuous certificate, or completion."
+  },
+  "traceback_projection": {
+    "excerpt": "Traceback (most recent call last):\n  File \"/home/runner/work/math-research-public/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261126/warm_fixed_m3_step.py\", line 271, in main\n    sol=solve_bvp(obj.fun,obj.bc,x,y,parameters,tol=a.tol,bc_tol=a.bc_tol,\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/scipy/integrate/_bvp.py\", line 1090, in solve_bvp\n    y, p, singular = solve_newton(n, m, h, col_fun, bc_wrapped, jac_sys,\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/_temp/held10-warm/multistage-source/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_domain_newton.py\", line 32, in solve_newton\n    trial=evaluate(trial_y,trial_p);newstep=factor.solve(trial[0]);newcost=float(newstep@newstep)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/_temp/held10-warm/multistage-source/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_domain_newton.py\", line 16, in evaluate\n    cr,ym,ff,fm=col_fun(Y,P);br=bc(Y[:,0],Y[:,-1],P)\n                ^^^^^^^^^^^^\n  File \"/home/runner/work/math-research-public/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/portable_prefix_continue.py\", line 55, in guarded\n    result = col(y,p)\n             ^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/scipy/integrate/_bvp.py\", line 324, in col_fun\n    return collocation_fun(fun, y, p, x, h)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/scipy/integrate/_bvp.py\", line 308, in collocation_fun\n    f = fun(x, y, p)\n        ^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/scipy/integrate/_bvp.py\", line 665, in fun_p\n    return np.asarray(fun(x, y, p), dtype)\n                      ^^^^^^^^^^^^\n  File \"/home/runner/work/math-research-public/math-research-public/",
+    "complete": false,
+    "scope": "The original live compact projection truncates individual strings to 2048 characters; no omitted terminal stack frame is inferred."
+  },
+  "BVP_invoked": false,
+  "accepted_warm_candidate": false,
+  "complete_surface": false,
+  "observed_utc": "2026-11-26 08:15:22 UTC"
+}

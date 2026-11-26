@@ -19,3 +19,9 @@ run45775899674 的 attempt-000 是同λ=.002、M24的首次暖BVP；初始域通
 `warm_handoff_equivalence_probe.py` 绑定实际原run/raw/physical与attempt-000，顺序重算原raw网格的原RMS、deployed固定径向chart的RMS、冻结原chart的RHS/BC/RMS，并在同物理s比较完整六jet与mean1168导数，最后对少量实际参数列作解析J/有限差分核对。输出同时保存实际attempt异常栈。
 
 这不是BVP，不写accepted，不宣称λ前进或几何完成。新command在当前父链自然返回后于同runner执行，既有实际场保留；不是因时长停止当前运行。若该探针显示真正方程差异，按实测修改输入/表示继续，不用同图定理掩盖离散或参数问题。
+
+## 只读原场检查的实际终态
+
+同runner probe已exit0。冻结原chart后，631节点上的f/fm/collocation残差/BC/physicalBC/RMS均逐位同；原RMS9.927150345213775e−7，physicalBC3.7178883222402893e−16。完整core二阶、初值投影和7个物理s点的六jet也逐位同。原631点在deployed新chart的RMS为9.92766133631121e−7，仍低于原门；首694点重Newton失败不能据此反推原同图场不合格。
+
+六个实际参数列、两种FD步长的RHS最大差≤3.2192494079679086e−8，BC最大差≤1.6970799765481104e−10。这是有限列核对，不称连续误差定理或新暖BVP。见[实际小记录](2026-11-26-warm-handoff-equivalence-execution.json)及[完整坐标/链式审计](2026-11-26-warm-entry-domain-and-coordinate-audit.md)。下一独立v2入口将明确原solver provenance，在同图坐标重表达后重审全部原门；真实λ变化仍须新BVP。
