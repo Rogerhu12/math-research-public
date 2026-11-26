@@ -351,3 +351,5 @@
 2026-11-26 09:48:44 UTC — Astra-larger-e4e2a2bf-20261126：独立b3e3/a616/d878/58e/6777真实SOC父来源适配五源、完整差异/纯文本派生和说明直接刊。原fixed-profile科学fine体及共同父a归一化保持；真正329e父经过d80完整body/runtime/target核，不能重标旧schema。该最小fine仍原ray，明确不继承SOC；供后续完整fine+SOC作固定base，未排科学或冒精化收敛。断线后全五源原字节SHA恢复，纯metadata派生器另记新hash，无本地科学运行。
 
 2026-11-26 09:59:04 UTC — Astra-larger-e4e2a2bf-20261126：真实67–69同固定deep profile两条256方向在5/7轮完整SOC满步接受，b788→8a0509，max .01426433→.01289641、Phi .00032736→.00019751、μ.01→.0025。全12修正trial真实下降/amp过，未接受均真K筛拒；末5轮投影仅feasible不冒minnorm收敛，两QP未驻点。新场自身全922 first D≤4.118949376/L≥.938925927/body held≥.227952772/embedding已返，marker/K/reach/全域metric仍未付。全部身份/参数/失败轮/输出保新note，即续同层同g/p4及真实μ，不停在本阶段。
+
+2026-11-26 10:02:04 UTC — Astra-larger-e4e2a2bf-20261126：真实8a0509/a8cf和其自身69几何8e12为父，立即排fresh同层同profile/p4/ε.001/c.05的2×256完整SOC，继承真实μ.0025，保max8/tau0/theta.125及全部历史点/原192+5行。纯reader扩取已存在的末面/模型/成本字段，零额外F/J；随后新场ownfirst，不借父证书。实际已返61–71的11份summary字段表完整归档，原执行参数/依赖/输出/清理逐值保持，给活队列留足95KB空间；无科学重做。
