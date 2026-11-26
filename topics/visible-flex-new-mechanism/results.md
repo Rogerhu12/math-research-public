@@ -378,3 +378,5 @@
 - [R598宽母prepared首个公开收据](notes/2026-11-26-r598-wide-prepared-first-public-receipt-agent.md)：run45828239888自然付28.749599218主秒/29.946569子进程墙秒，新192表/Gram及400nfev/8916call guide已完成，原八矩max.041066未闭。整阵调用单列encode发生shape错误，已付1027值评价而ρ积分/gauge LS/mass/Jac均未进入。实际guide焦距cap/Dsample=.02747<.03只是本初猜数值必要预算失利；不排母/后续路径。
 
 - [R594已付八模末态的实际续接](notes/2026-11-26-r594-paid-weak-resume-implementation.md)：真实496q、四个完整13jet口和60个trial恢复damping1e−14；只续当前ε1e−5的60步，0旧Riccati/射击/方向观察。必要dense/core再建全计费并读出原口/归一差；原全部r使用域内中心或单侧四阶位置导数及半步，排序还原物理位置。完整metric/core/漏模和双direct门保持，未授收敛或几何。
+
+- [R582 radius-only完整有限非圆原终态](notes/2026-11-26-r582-finite-radius-only-original-receipt.md)：run45827253372实付214.678352088科学秒，p=.181未推进；15outer/43callback/29Jac/58完整fine，末10835×384给η.99600/κ8413.03/V509.839不合格。一次工作恢复保留q实际变1.425e−5而V只降约7.7e−12，原/保留/未接受末trial各分列；eta峰在材料端点，严重一阶误差不只是区间二导相消。旧70.621876255秒/内场全部费用保留；下一新尾列和稳定实际表示。

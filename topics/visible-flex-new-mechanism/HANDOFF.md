@@ -6,7 +6,7 @@
 
 ## 1. 规则与接手
 
-已部分克隆并实际 `git pull main`，公开根 README、课题 README、HANDOFF、open、results 索引及相关 log/notes 已读。公开已读提交 **781a9b648f019a9207f4c59cd7c80e8669bdd422**（2026-11-26 13:49 UTC；本次实际pull后根/题README空差异）；历次规则及失败原回执保原note；私有 QUEUE 的本题已改为本会话进行中并成功推送：**9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7**；最后实际pull及规则同blob读至 **3bbebf4d37896abec43717c8d4f177a2dec256d1**（2026-11-26 13:28–13:29 UTC；实际pull成功，根README空差异、QUEUE仍本会话）。其它课题的并行认领保留。
+已部分克隆并实际 `git pull main`，公开根 README、课题 README、HANDOFF、open、results 索引及相关 log/notes 已读。公开已读提交 **b98cbc0e625321d855b3a5aa9621fa02a9b07338**（2026-11-26 13:51 UTC；本次实际pull后根/题README空差异）；历次规则及失败原回执保原note；私有 QUEUE 的本题已改为本会话进行中并成功推送：**9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7**；最后实际pull及规则同blob读至 **3bbebf4d37896abec43717c8d4f177a2dec256d1**（2026-11-26 13:28–13:29 UTC；实际pull成功，根README空差异、QUEUE仍本会话）。其它课题的并行认领保留。
 
 [八模前交接](notes/HANDOFF-before-eight-mode-natural-final-20261126.md)及其所链前史保全部原规则/成本/范围；09:18及11:20 UTC两次本地失联期间仅API保存，不冒actualpull。09:33、11:28恢复后已实际双pull。每pull核根/题README差异并执行，至少每小时；root独占git/索引，每条结论即推，NFF立即rebase重推。科学仅公开Actions，本地限纸证/源码/原日志解析；已披露3次开发偏离保原note且停止。根12不加机械复跑，根15不留可重算raw。
 
@@ -24,7 +24,7 @@ B030的前两次callback关停和第三START关停保[原收据](notes/2026-11-2
 
 [true-s原终态](notes/2026-11-26-r582-true-core-shooting-original-terminal-receipt.md)保run45812850055新31.672817549秒、真实μν/归一口、两精度C/A<1e−12和4811细几何V0。原ν0盒全s∈[.036,.82]付zs>.0078518，H包络宽1.817e−6、准确ODE/根未认证；amax.3891>.38故保完整s图。新有限p从.181续到.8，保旧细点/硬几何，终η门1e−7，数值Hermite零尾与数学无限核差未认证。
 
-[有限非圆首run](notes/2026-11-26-r582-finite-resonant-first-original-receipt.md)45824332845付70.621876255秒，160段960944RHS、core/backward及62878端点Hermite已成，细Model冗余H求积失败，无START/优化/q。[radius-only修补](notes/2026-11-26-r582-finite-radius-only-repair.md)commit d4a5b415已交run45827253372/job139934478969：只直接取相同a三jets，不删点或重射原口；必要再建内场另计费。下一据自然原终态继续。
+[首失败](notes/2026-11-26-r582-finite-resonant-first-original-receipt.md)付70.621876255秒，内场完成后冗余H积分报错；[radius-only原终态](notes/2026-11-26-r582-finite-radius-only-original-receipt.md)run45827253372另付214.678352088秒，固定p=.181/ε=.001，15outer/43callback后失败。10835×384细η.99600、κ8413.03、V509.839；只1次V约7.7e−12的工作恢复，实际q已变1.425e−5，末q不合格。eta峰是材料端点，不能只归因于区间二导相消；下一同p保全部旧点，以稳定表示/真实尾部新列续，不重跑旧15outer。
 
 [R577](results/R577-intrinsic-geodesic-normal-chord-and-complete-reach-certificate.md)/[R579](results/R579-smooth-thick-rounded-core-with-exact-perimeter-and-macro-budget.md)保全reach门/厚核心预算；[R595](results/R595-rotational-reach-and-complete-meridian-reduction.md)付完整±子午化简。[R599](results/R599-monotone-height-flat-cap-global-reach.md)新证a(z)≥rc≥τ、平帽C²及连续子午曲率≤1/τ时全闭旋转reach≥τ，全部侧/帽对已排；当前背景仍欠全尾zs/半径/连续κ，非圆q不继承。
 
