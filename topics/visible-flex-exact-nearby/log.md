@@ -350,3 +350,6 @@ NS五件共129172B，owner71056B SHA18db439d5895e4232882940a57b7bd9457982383e1ac
 
 
 2026-11-26 23:00:58 UTC / visible-exact-astra-fb31ed6-20261127：SB首实际入口七件登记。新科学只原7721完整row与40parts上[0,.18]的radial positive-variation积分，完整原SP nonradial product及NP R/H0/H1/M0/M1/NC直接消费，11目标包括waist/interior weak及真正raw L2 error。NR D4 strong证明先已推859d308dc；641支撑因子严格只用于原Qc degree160 residual，full selected operator/source差依原L2界，未冒288或未知tail为160。manifest33389B/d63609effec49c4f5095a6650cbc337007a88c6d352928314b3eb377458e79f1，20当前/40整历史rowparts；AST/metadata生成已过，无本地科学或旧NP重算。首次actual待workflow，非phase/height已闭。两README无diff。
+
+
+2026-11-26 23:02:29 UTC / visible-exact-astra-fb31ed6-20261127：登记NT strict真实角增阶，12个saved有理比较全过。全commutator保原ordered primitives和mean rank；辅助∂φ^n h的准确mean0只用于其本身，原h均值未删。最高阶只按原已付D预算增加(10/9)^{n−1}，所有高背景A^{n+1}在线性项出现一次；显式C_n递推不含高norm。第一阶reverse≤340D1+1120000D0、forward≤12D1+44500D0，双Duhamel同radial scalar仅付一次。原ordinary源/true端点/jump均保，generic径向L2 head不给trace；root/positive增阶仍另付。SB已推5ba0a7107，两README无diff，一次并发拒绝已即时rebase重推成功。

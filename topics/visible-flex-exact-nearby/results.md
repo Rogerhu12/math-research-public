@@ -359,3 +359,5 @@
 - [NR：fulltail邻域中的完整负侧与root传播](results/R144-supplement-actual-negative-and-root-propagation-in-a-full-tail-neighbourhood.md)：未知A³≤1e−6，39个saved有理比较；完整SP的D4相似给strong L2，与weak同流插值−1≤s≤0。root任意lag真实能量、六半径、全部means/source/jump/actual cut和腰density保；root到腰强/弱1192.763571/2038.695371。只given-Cauchy，未授full boundary inverse或非线性解。
 
 - [SB：真参数误差的短区间与完整非局部接收器](results/R147-supplement-short-interval-parameter-error-and-nonlocal-receiver.md)：完整SP非径向matrix保，唯一新radial正变差在[0,.18]；原NP全源/mean/jump直接收为waist与interior primitive/mean误差。NR strong能量另给真实raw L2误差，641仅原degree160中心residual，fullselected差不截断。20当前/40全rowparts、十一scalar首实际入口已齐，actual/真实phase/height配对待。
+
+- [NT：strict真正角tame Cauchy逆](results/R144-supplement-strict-angular-tame-Cauchy-flow-with-one-high-background-factor.md)：12个saved有理门；第一阶reverse≤340D1+1120000D0、forward≤12D1+44500D0。任意整数阶完整commutator/显式C_n仅单个高背景A^{n+1}乘低态数据，最高增长依已付低A³，不要求高norm小。全mean/source/jumps保；尚未授root/positive增阶或generic低head固定trace。
