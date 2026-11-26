@@ -300,3 +300,8 @@
 ### 2026-11-27 00:13 Asia/Taipei — R1040 原p5实际Hodge graph与本原MW消去
 - [R1040](results/R1040-original-p5-Hodge-graph-and-primitive-MW-annihilator.md)：p5原good BT的source Fp²相位与Hermitian切线给Π²=−p、B整对称完美；双节点常数Ff=C^(p−1)ω/4及q_s∈Fp保原尺度。真实Fil给Q，模π为quo(r^(8g+2)a(b^p),A²) modA，核一维纯正δ、负δ单射。额外Q(√−3p)-CM由τ₁自扭排除，原6p tame平移给剩余CM全正δ；结合原重数一与R1026，Λ_Q在p>C_*本原并杀全部MW饱和格。K_Q=(1/2)P_(DQv)(1)仍待非零，不删除Q²项。
 - o1单文件未引用候选944f4833488d71a404e99c3fe6b830d9c3a190ff经root全文独核PASS；global另核额外CM域。root逐付原双节点F常数、source算术下降、核角色及全6p CM方向；未以抽象superspecial或原p11几何替代本行。无数学执行；H逐字归档，两README同步检查。
+
+
+### 2026-11-27 00:14 Asia/Taipei — R1041 原r2 bare与实际核范数
+- [R1041](results/R1041-original-r2-bare-coefficient-and-Hodge-kernel-norm.md)：原r2完整高权SS迹准确S^p=−36ρ B(c₀,c₀)，ρ³=2；故原bare c_(p−2)±单位 iff 实际一维ker Q的B范数非零。实际whole-space Cartier核由LT₀=A，保原CM oldform尺度ξ^(p+1)=ρ/24、细模度12及全部额外SS零贡献；d₁与12不混同。等价B范数=−(1/2)[b^(d−1)](c₀T₀ modA)。核维一与B完美不证明自配对非零，也不替代K_Q或r8。
+- o2单文件候选216e94a3d92f5f68f71619bdf918d77d5ddcef30经global/root全文独审PASS。完整原Cartier极部、fine/aux CM阶、Tate负号与ξ范数、degree12/原d₁及全部SS逐项核准；补原weight-zero函数Fp定义以明确a=b^p重标相位。没有数学执行；H逐字归档，两README同步检查。
