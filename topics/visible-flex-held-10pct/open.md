@@ -14,6 +14,8 @@ R63固定完整g后把未知核放同一函数空间，必须核与全场C² Cau
 
 [v5最小入口](notes/2026-11-26-v5-original-delta-phase-design-entry.md)已冻结并排probe当前v4自然返回后：保原baseδ/raw p0/chart，固定q/d1=0，未知高phase；源必须是同runner实际原R53 `fresh-one-direction/lambda002_m24/run.json`。小合成核/CLI已过，真实零锚及最多3次原BVP尚待执行。每个段返回后依据实际接受场继续，不能把预算返回当课题结束。
 
+[原R53完整割线入口](notes/2026-11-26-original-design-secant-entry.md)在独立material新作业必要恢复真实同M两锚后，用原计算t cubic PPoly预测完整Y/p；仅初猜，原solver/RMS/BC/metric全门决定接受。通常网格并集；若超过原max_nodes则在右场原网格评价两原PPoly，不重拟合或截状态。当前链不重启，恢复旧λ不重复计作结论。
+
 ## 当前接续顺序（2026-11-20）
 
 - 新多段g原support q=.006→.06已全过；宽窗λ0/τ1完整lift后，λ.002在M24原linearDN前缀已过metric6.48242e−7。原mean1168/GL6和mean512 proxy明确区分；真实尾.25及.5 warm均已完整原门通过；chord3 session54314现接.75/.9，完整fullH与原外迭代仍欠。固定完整g/全部物理参数与均值规则后才进入正式精化。 root下一λ.004/M24真收敛但metric1.53303e−6未门，表示外ψ77/79主导；[M32升谱实际](notes/2026-11-20-m3-newg-lambda0004-m32-accepted.md)已860点过原metric7.604677e−7/BC2.84346e−12，原mean1552；[λ.008/M32](notes/2026-11-20-m3-newg-lambda0008-m32-accepted.md)76535已863点过metric7.844246e−7/BC6.08e−15，现45287续λ.016同原门，旧真尾不动。

@@ -1,31 +1,18 @@
 {
-  "id": "held10-recorded-lambda004-fullH-20261126-02",
-  "read_rules_commit": "9246facdaa95b78c8847a9c87812255eef6122c6",
-  "script": "topics/visible-flex-held-10pct/scripts/resume_20261126/tail_solve_recorded_height.py",
+  "id": "held10-original-design-full-state-secant-20261126-01",
+  "read_rules_commit": "ebf4e1924f0786854a3b6d93c9cf919a41ca87a5",
+  "script": "topics/visible-flex-held-10pct/scripts/resume_20261126/lowq_prefix_recovery_secant_design.py",
   "args": [
     "--repo",
     "@REPO@",
     "--work",
     "@WORK@",
     "--outdir",
-    "@WORK@/recorded-lambda004-fullH-fresh-01"
+    "@WORK@/secant-design-recovery"
   ],
   "diagnostics": [
     {
-      "path": "@WORK@/recorded-lambda004-fullH-fresh-01/summary.json",
-      "keys": [
-        "status",
-        "scope",
-        "progress",
-        "stages",
-        "result",
-        "error",
-        "exception",
-        "source_hashes"
-      ]
-    },
-    {
-      "path": "@WORK@/warm-prefix-recovery/summary.json",
+      "path": "@WORK@/secant-design-recovery/summary.json",
       "keys": [
         "status",
         "progress",
@@ -35,10 +22,22 @@
       ]
     },
     {
-      "path": "@WORK@/recorded-lambda004-fullH/summary.json",
+      "path": "@WORK@/secant-design-recovery/original-design-to-016/summary.json",
       "keys": [
         "status",
+        "progress",
         "stages",
+        "result",
+        "error"
+      ]
+    },
+    {
+      "path": "@WORK@/secant-design-recovery/secant-material-design/summary.json",
+      "keys": [
+        "status",
+        "progress",
+        "stages",
+        "result",
         "error"
       ]
     }
