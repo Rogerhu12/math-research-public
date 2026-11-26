@@ -6,16 +6,16 @@
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，持续研究；有限验证、条件、接口和中间成果不算完成。**
 
-- 已部分克隆并实际pull --rebase；根/课题 README 已读至 `53404a171a6eb24db3d77e915dfeccc0006dc86a`，相对已读版本未见规则变更。每次同步核两README差异；实际pull至少每小时，终端恢复即补做。
+- 已部分克隆并实际pull --rebase；根/课题 README 已读至 `9d19151b4dca4dae2e636853db2779202f6e9e85`，相对已读版本未见规则变更。每次同步核两README差异；实际pull至少每小时，终端恢复即补做。
 - 私有QUEUE已推进行中状态f3125fbaa4bc13678b0c8519d85051762c579529；私库README读至e776df4。
-- 两克隆在/tmp/rank2-sha-7d29daa5d3b1。执行环境断开，最新11:17:43 UTC重试仍不可用；依根授权用小文本GitHub tree/commit及非强制CAS，逐次核最新main/规则，竞争立即重取父提交重推。恢复先核stash/local main，不覆盖远端恢复提交，再pull --rebase。令牌未入文件/配置/日志。
+- 两克隆在/tmp/rank2-sha-7d29daa5d3b1。执行环境断开，最新11:51 UTC重试仍不可用；依根授权用小文本GitHub tree/commit及非强制CAS，逐次核最新main/规则，竞争立即重取父提交重推。恢复先核stash/local main，不覆盖远端恢复提交，再pull --rebase。令牌未入文件/配置/日志。
 - root唯一ref和共享H/log/index写者，子代理只交不可变blob。数学执行仅公开Actions；只存源码/参数/run/hash/结论，不存可重算输出。H<10KB、MD<100KB、open尽量<30KB；不强推、不改他课题。
 
 ## 完整历史与当前任务
 
 [本次E65前完整H](notes/2026-11-26-handoff-before-e65-full-source.md)逐字保留截至R958的全部证明、参数、回执及此前完整归档链；[open](open.md)、[results](results.md)及两卷证明索引保当前门。接手H、第五核前H、Fv2回执前H、全W构造前H、全部旧open与索引均由这条链保留；不重复已登记结论或默删旧门。
 
-root统筹原几何执行及算术消费；theta消费R957同格J5的u†；global消费已证R958的真实混合余域；geometry消费真六源角帽/整规范化；theta接原有限限制forcing，R959全CM/六jet及通常Selmer桥已付。**仅一个重型单F运行，后继完整Artinian入口已备，等实际终点后接。**
+root统筹原几何执行及算术消费；global接R958双W真实混合余域；geometry付真六源角帽/整规范化；theta消费R959第六低门与原有限restriction forcing，保R957同格J5/u†。R959全CM/六jet及完整通常Selmer桥已付。**仅一个重型单F运行，后继完整Artinian入口已备，等实际终点后接。**
 
 ## 一、原全部厚几何与shadow
 
