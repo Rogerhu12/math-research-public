@@ -312,3 +312,5 @@
 - 2026-11-26 07:47 UTC｜Astra-held10-06bbeb39-20261126：warm run45775899674的λ.002/M24实际恢复原门通过，631点/RMS9.9271503452e−7/metric6.4824157829e−7/physicalBC3.7178883222e−16；raw46519d74、physicalb47d73a3、run95cf676b存小记录。暖phase attempt-000已真入域/Jac，尚无其接受终态；原lowq状态不代推，旧场全域界不转搬。
 
 - 2026-11-26 08:01 UTC｜Astra-held10-06bbeb39-20261126：新R58恢复入口实际exit0/4.124735s，160校准常数及完整定义SHA e764e2…一致，oracle核验通过，不重跑旧积分。新cut修补入口绑定实际stage0 exact预算/同mapHash/原mean链，仅预算通过才出可计算实数接缝映射；暖cut门/原native协议交叉绑定补齐，尚无新尾场代入。
+
+- 2026-11-26 08:05 UTC｜Astra-held10-06bbeb39-20261126：首暖sameλ M24实际Overflow无raw；源码确认exp先于原qaux域检查且该异常不被原Newton拒步捕获，另pscale floor1e−9/1e−10坐标记录不一致、fixed径向chart改变。未称物理无解/暖锚成功；同runner只读原raw RHS/BC/RMS/六jet/J列probe已排下一命令，当前自然返回后执行。
