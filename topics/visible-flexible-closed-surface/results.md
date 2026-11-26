@@ -5,6 +5,8 @@
 
 ## 新增结论
 
+- [R238：非正交端切向的空间曲线长度必要界](results/R238-nonorthogonal-spatial-port-length-bound.md)：切向球面距离及不重叠端帽积分给任意测试方向条件式，短大圆弧版本无额外条件，允许空间绕行；保完整准确g适用范围。新固定prefix四轴有限预算真0，长轴必要长度.755356<真实S−b=.795674，未排输入，不推出存在。
+
 - [R237：准确新gap短窗的连续角正规性和完整两jet角反参](results/R237-gap-window-continuous-angular-regularity.md)：同Γ95出口2048整数角盒及两中央准确周长、全前缀切向输运，给整物理窗全角|Y_u|>.4097，准确自然g及两接口完整两jet有定义；43.037s/.211s真0。仅own-zero准确形式，不借给literal求积、Cartesian后态或二维浸入。
 
 - [R236：原M12实际场的局部Bernstein–角平方范数连续度量预算](results/R236-local-bernstein-angular-continuous-metric-budget.md)：准确Boehm/de Casteljau及共同权Jensen，保局部H/f和完整Fourier自相关，96bit整数Taylor支付全角、舍入及中央修正；不改同一场/g。独立人工场两阶段23.096s真0，新界2.19659e−6仍false；新whole h同job消费者明确启动，未借旧场通过。

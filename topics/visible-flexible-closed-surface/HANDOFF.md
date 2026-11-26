@@ -7,7 +7,7 @@
 
 完整连通闭C2嵌入连续族、共同g和固定握持开区域；全曲面D下held/D≥.05、含反射δE>0、全时reach/D≥.03、全域全时metric≤1e−6；同一g与全部物理参数下真正网格/频率/时间加密到机器或求解容差，并给完整可复现网格。基础后继续held/D≥.2、δE/D≥.05或严格存在。现有有限结果不冒完成。
 
-- 根/课题README完整读于 `f0548477576caa2373d1626227a284ccfa9767d0`。最近已读公开提交 `f5bdc8cb429291d358679559a81282863f2af3dc`（2026-11-26 13:34 UTC真实pull/rebase后，双README逐差均无变化）。根blob282e86b0、题blob e2318baa。每次literal pull立即核双README差异，至少每小时；有变只读差异立即执行，API读不冒pull。
+- 根/课题README完整读于 `f0548477576caa2373d1626227a284ccfa9767d0`。最近已读公开提交 `6061568b8c76395097d09196dfdca01491efb0c3`（2026-11-26 13:36 UTC真实pull/rebase后，双README逐差均无变化）。根blob282e86b0、题blob e2318baa。每次literal pull立即核双README差异，至少每小时；有变只读差异立即执行，API读不冒pull。
 - 私库QUEUE已认领推 `c7785184d0d9c503852fb2137e9e2c091221d080`，进行中（本会话/2026-11-26）。不重复认领。
 - 每结论立即commit/push；NFF立刻pull --rebase循环到成功，不force或amend已发表提交。完整证明直接登记并加results.md索引；不附加独审/冻结门。全部数组只临时区，不进Git/Release/artifact；只源码/参数/run/hash/标量。MD<100KB、H<10KB、题<200MB；不写根LOG。token只命令环境。
 - 根唯一写main；agents只同级scratch。当前部分clone `/tmp/visible-flex-6a65e705/math-research-public`，同级geometry-work/exact-work/solver-work/cold-cartesian-work。旧历史见[11:15 H](https://github.com/Rogerhu12/math-research-public/blob/a9aaaf7d2fbdc01eb0df3e635d9065c20faac354/topics/visible-flexible-closed-surface/HANDOFF.md)、log和open；不重做已登记结论。
@@ -36,10 +36,11 @@
 
 [R237](results/R237-gap-window-continuous-angular-regularity.md)付own-zero准确短窗全角速>.4097及准确自然角逆两jet接口：同Γ95出口2048整数盒43.037s、整窗有理预算.211s真0。literal求积/舍入误差、后续W、二维浸入仍欠。
 
+[R238](results/R238-nonorthogonal-spatial-port-length-bound.md)给非正交空间端口长度必要界；实际四轴有限代入未排新gap输入，长轴.755356<真实自由长S−b=.795674。仅准确g可借曲面曲率；不重复扣前缀.08。
+
 ## 环境与继续分工
 
 三次失盘及恢复边界见log/旧H；11:29部分clone/pull至df25f421，双README未变。CLI可用，只普通git；丢失raw只新输入重生，不移借身份。根唯一写main/维护真实CI/每结论push；geometry继续新gap同g全位置与连续核，exact继续实际h/严格metric/加密，solver继续Cartesian多步/source003。完成子问题即接open下一项，不以阶段记录收尾。
-<!-- 6a65-cartesian-continuation-ci-rules --> run 45825253169/1；实际 pull 至 caf0ed46862848810e2181f8089abdf89ee2e801；2026-11-26T13:13:33+00:00；双 README 无差异。
 <!-- 6a65-ci-rules --> run 45778054176/1；实际 pull #183 至 `42d711248fdfcc164c1fa7c87770ab529ae24ca5`；2026-11-26T13:10:41+00:00；双 README 无差异，沿用根已读规则；回执原因 pre-process:Cauchy-original-then-Cartesian1-current-field。
 <!-- 6a65-m12-ci-rules --> README unchanged at e74a6d1b37742414d1215bb37440b7c2fe56851c; run 45804794238 attempt 1.
 <!-- 6a65-m12-entire-half-ci-rules --> README unchanged at fb43292bb3b98551d2eab57c44afd7fb2ae2cb47; run 45821092388 attempt 1.
