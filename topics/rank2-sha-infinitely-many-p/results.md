@@ -68,10 +68,13 @@
 
 - [R973](results/R973-original-degree130-arithmetic-spectrum-and-e260-source.md)：完整W2⊗W5⊗W13与全部有限环面角色给20标签/22维：14维mu6、8维真非mu6，含E125/E12500的13-old双重数；由全部局部角色识别12条Q上j0来源，不由两好位猜曲线。固定E260的(4,18)、(−4,14)以两独立三下降像给rank≥2；全部2/3/5/双13角色、Haar、Schwartz、全权平方及ordinary/inert通常全Selmer桥已付。同次v5 Π260 H130=Φ260/81而Π260 F130=0，完整余块保留；跨p非零仍开。
 
-- [R976](results/R976-original-cross-complete-22-and-66-spectrum.md)：run45884058894/job140130269899完整22/66及44维delta-new的全部81共同块实际通过，两原全算子十二次恒等、全幂等/分量和均返。F130准确只有−11Φ*/2及E125质量零13-old方向，非mu6全零；H的E260系数1/81而其四nonmu6块均非零，去两秩二线仍首项1/189。原delta-new三条质量零线系数29/216、7/270、167/360；原cross相应完整投影5Z/48、7Ψ35/60、167Ψ53/80，后二条身份尚待全有限角色。保全部质量/余块，不给mixed或产品免费中央零。
+- [R976](results/R976-original-cross-complete-22-and-66-spectrum.md)：run45884058894/job140130269899完整22/66及44维delta-new的全部81共同块实际通过，两原全算子十二次恒等、全幂等/分量和均返。F130准确只有−11Φ*/2及E125质量零13-old方向，非mu6全零；H的E260系数1/81而其四nonmu6块均非零，去两秩二线仍首项1/189。原delta-new三条质量零线系数29/216、7/270、167/360；原cross相应完整投影5Z/48、7Ψ35/60、167Ψ53/80，后二条完整身份现由R981给出。保全部质量/余块，不给mixed或产品免费中央零。
 
 - [R979](results/R979-fixed-7993-full-balanced-line-and-original-double-new-bound.md)：在原固定p=7993消费R817三个实际负二非零及Castella A.1.1，给三个整个Selbal=E·zcan和ordinary strict核0，不把canonical改名原c1。用同格本原z的完整惰性检测及全部H²挠连接类，原同一双新下降在逐m正密度Q_m上满足p^Bκ=0、B=exp H²(C0)_tors+vpD，无需c1非零；深返回仍为H¹(J⊗T)。允许原x12/κ为零，不限制辅助模数，不推出c1、s0或跨p非零。
 
 - [R978](results/R978-original-degree130-old-thirteen-source-and-central-difference.md)：原13-old两个二维块由V10真primitive线的raw π/barπ拉回完整张成，全部division/有限δ0与常数方向/质量相位已付。F10+11Φ*/2=κ10(Ψ125(πz)−Ψ125(barπz))、κ10非零是全函数身份。原共同b17下，ordinary R968射线的导数准确κ10 logp(π/barπ)(1−υp)/17（原权变量另乘p−1）；inert完整Tate恒等给κ10(p+1)logp(π/barπ)/17，对每个充分大好惰性p非零。不能同时置F10与Φ*中央零；F10自身非rank2 primitive，未消mixed。 §7同次v7真实返回Ψ125的c=−8、Ψ12500的c=10及κ10=δ/10080；两H−F11的真实old质量抵消分别给F10old/270和δΔ12500/1701000，ordinary/inert导数均明确非零。
 
 - [R980](results/R980-original-degree130-hecke-module-and-whole-companion-splitting.md)：原有限Hecke代数下F10/F11准确生成19维，余商是两rank0质量线和E12500-old一方向；v7的H−11F11/23625非零旧差付最后一维，加入H完整生成22维。四nonmu6二次块的全角色给B19=sB7；原五伴随同时角平均与全CRT转置产生两条Galois共轭质量1整卷积单位，保所有mixed切域/finite中心/反卷积平移及CF carry。两rank2线自身仅生成2维，不把22维来源模当中央零模。
+
+
+- [R981](results/R981-original-delta-new-e54925-e8125-rank-two-sources.md)：原W2⊗W3⊗W5⊗W13完整有限角色确定delta-new两质量零线(3,5)/(5,3)为固定E54925与E8125；各两有理点由三同源下降的5/2处分裂赋值证明独立，rank≥2。完整odd三方向/5处odd向量、双13与Haar、导子390/ray10368、全权平方及ordinary/inert通常全Selmer桥均付。Pi SZ为7Ψ35/270、167Ψ53/360，cross为7Ψ35/60、167Ψ53/80；真实whole companion待R983同次完整投影，不赋整个delta-new中央零。

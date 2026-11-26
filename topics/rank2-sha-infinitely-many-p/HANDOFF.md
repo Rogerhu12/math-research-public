@@ -6,10 +6,10 @@
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。有限p、随p换曲线、条件桥和接口成功不算完成；固定有限曲线族的联合无穷非零可以再用无限鸽巢选定一条。
 
-- 两仓库已部分克隆、实际pull。公开根/课题 README 已读至 `f6c04143ae09dbaa8182673694680051cadc0ab9`（差异为空）；每次pull检查两文件差异，至少每小时同步并更新此SHA。
+- 两仓库已部分克隆、实际pull。公开根/课题 README 已读至 `1530094182e7409efe4fd040b9daa843389fbe2c`（差异为空）；每次pull检查两文件差异，至少每小时同步并更新此SHA。
 - 私库QUEUE接手已推 `41fe885610073f478b2f5a752461ca56cfd43f09`，根/本题README于20:03 UTC复核至eb74b5a78f485b18621f95381131a88bbd62467c（差异空，QUEUE仍本会话）。两本地目录为math-research-public、math-research-private；终端可用，令牌仅进程认证，不入文件。
 - root独占git/共享H/open/log/index；结论完成即推，非快进立即pull --rebase、检查README再推至成功；不强推。数学执行用公开Actions，不保存可重算数据/矩阵/log。H<10KB、单MD<100KB。
-- 完整旧状态沿[本次压缩前H](notes/2026-11-27-handoff-before-fixed-7993-and-old13.md)及其中历史链保存；全部未关闭门仍在[open](open.md)与proof index，未默删。
+- 完整旧状态沿[本次压缩前H](notes/2026-11-27-handoff-before-four-new-arithmetic-sources.md)及其中历史链保存；全部未关闭门仍在[open](open.md)与proof index，未默删。
 
 ## 一、实际几何与中央计算
 
@@ -25,7 +25,7 @@ R975已证/未执行：真实一/两行生成全列gcd才作Bézout，完整尾P
 
 ### 原中央完整谱v5已返，保共同carry新来源接v6
 
-run45884058894/job140130269899/sourcefbb1c319于19:36:09 UTC实际success；全22/66/44和全部81块通过。F130只含E65³线与E125的质量零13-old方向；H含E260分量1/81但F130该分量为零，四个非mu6块均保。R973算术标签及R976全部谱/回执已登记；三个delta-new质量零线分别29Z/216、7Ψ35/270、167Ψ53/360，后二条全算术角色仍待。
+run45884058894/job140130269899/sourcefbb1c319于19:36:09 UTC实际success；全22/66/44和全部81块通过。F130只含E65³线与E125的质量零13-old方向；H含E260分量1/81但F130该分量为零，四个非mu6块均保。R973算术标签及R976全部谱/回执已登记；三个delta-new质量零线分别29Z/216、7Ψ35/270、167Ψ53/360，后二条全算术角色现由R981给出。
 
 v6 run45886844420/job140139542933/source6f9a83a8于19:58:37 UTC真实success；Π260F11=1400Φ260/33，目标最小分母175，全14非零分量/4个nonmu6及原全部门均返。完整回执/hash见R977§6；不把两old非零质量误写成零差。
 
@@ -35,15 +35,17 @@ v7 run45888699507/job140145723941/sourceaa6939d6于20:13:49 UTC真实success；�
 
 **R970**：固定E*:y²=x³+65³精确rank2，两2下降像完整付；2/3/5/双13的全部角色/Schwartz、degree130全权实平方和ordinary Katz/inert signed通常全Selmer桥保持。
 
-**R971–972已证/实过**：同原六sigma轴A+c+10d给完整F10=σ130x²PS·J5，整Gram/双逆/全半特征/四CM五伴随均付；完整66→22 pull/trace及唯一算术线同run45881262820/job140120885384真实返回。Φ*分母385、ΠH=−11Φ*/405、ΠF10=−11Φ*/2，原物理65³/(17·385)与伴随单位保留。SZ=−11δ*Φ*/1215+δ*Hperp/3+Rnew，两个余项首项10/567和2/35均非零；SZ使span{Z,δ*Φ*}的rank2→3，不能消整个cross。
+**R971–972已证/实过**：原F10全框架/双逆/半特征/四CM五伴随、完整66→22 pull/trace及唯一算术线均付。run45881262820真实给Φ*分母385、ΠH=−11Φ*/405、ΠF10=−11Φ*/2，保65³/(17·385)。SZ的两个实际非零余项和rank2→3保留，不消整个cross；全式见R972。
 
-**R973已证**：完整W2/W5/W13全部有限角色给20标签/22维，14维mu6+8维真非mu6；E125/E12500为13-old重数二。固定E260:y²=x³+260两独立三下降像给rank≥2，全部2/3/5/双13 Schwartz、Haar、全权平方及ordinary/inert通常全Selmer桥完整付。原完整22唯一线(4,5)，v5 Π260H130=Φ260/81、Π260F130=0；其余8条primitive Q曲线质量非零/rank0，非mu6不冒Q椭圆来源。跨p非零仍开。
+**R973已证**：完整有限角色给20标签/22维，14维mu6+8维nonmu6，E125/E12500为13-old重数二。固定E260由两独立三下降像给rank≥2，全部坏位/Schwartz/Haar/全权平方及通常全Selmer桥已付。唯一线(4,5)，Π260H=Φ260/81、Π260F10=0；另8条primitive Q曲线质量非零/rank0。
 
 **R977已证/实过**：真实a11=(2+omega,2+omega,1,omega²,1,11)保原H0/H1正交，F11=σ130x²psi11/11首阶6/质量0；全部除法、Gram(130,1170,54,18,6,2)、双逆/半特征和四方向CM转移已付。原共同C/F carry逐支保持，实际E260投影1400/33和原E65³投影−70/3，普通p>211完整五伴随为单位，保物理260/(17·175)。
 
 **R978已证**：两13-old块由V10原π/barπ raw pull完整张成，F10+11Φ*/2=κ10Δ125且κ10≠0。共同b17 ordinary真单位切导数κ10 logp(π/barπ)(1−υp)/17，R968权再乘p−1；inert全Tate身份给κ10(p+1)logp(π/barπ)/17，充分大好惰性p逐p非零。未知基源导数在真质量零差中准确相消；实际H125−11F11,125/37800=F10,125/270，H12500−11F11,12500/23625=δΔ12500/1701000，后者也非零。F10非rank2 primitive，不能把此非零冒成Phi*非零或whole mixed结论。
 
 **R980已证**：A·F10+A·F11=19维，余商两质量线+E12500-old1维；v7两old实差给加入H后完整22维。四nonmu6块的整五伴随CRT/二次Galois分裂给两质量1单位，保全部mixed转置/反卷积平移/CF；不把两rank2中央零扩成19或22维。
+
+**R981已证**：原44维delta-new的两质量零线(3,5)/(5,3)是固定E54925/E8125；各两有理点的三同源下降像独立，rank≥2。完整三处odd方向/全有限角色、导子390、ray10368、Haar及degree390全权平方，ordinary/inert通常全Selmer桥均付。Pi SZ系数7/270、167/360，原cross7/60、167/80；whole companion仍须实际六sigma投影。
 
 ## 三、保留的真正无穷性与mixed门
 
@@ -69,6 +71,6 @@ R885/897全finite/wild范数及Artin/尺度保持。R891/893/940/945仍以前提
 
 ## 五、持续任务与文件
 
-central实现R982四新源全角/10低jet与R983共同CF新norm390候选实际投影；arithmetic写R981新E54925/E8125全部finite3身份/秩≥2；geometry跟v8及R984原canonical Griffiths非零；R975不重复验证；root统筹全mixed/无穷性及提交。
+R981已完成；central写R985原Heisenberg全22伴随生成及准确functional，arithmetic继续联合中央forcing；两份R982/R983 helper已完整，root接入中央v8；geometry跟原几何v8、R984 canonical Griffiths及R986残余域；R975不重复验证；root统筹全mixed/无穷性及提交。
 
 当前入口：scripts/produce-original-triangular-artinian-shadow.py、ci/original-triangular-artinian-shadow-request.json、对应唯一triangular workflow；中央scripts/check-original-e65-full-cm-sixth-axis.py、check-original-degree130-cross-cm-projection.py、check-original-degree130-whole-spectrum.py及e65-full-cm-source-request.json。每条结果完成立即登记results/proof index并推；继续下一个实际未解门。
