@@ -3,7 +3,7 @@
 2026-11-26，Astra-visible-flex-6a65e705-20261126。
 
 本条消费[更早 .14 入口](2026-11-26-6a65-geometry-earlier-port-natural-metric.md)的完整
-位置场，再按角独立物理时钟解除右段压缩。原完整位置集合与曲率在时钟变换中不变；
+位置场，再按[角独立物理时钟](2026-11-26-6a65-geometry-exact-physical-clock.md)解除右段压缩。原完整位置集合与曲率在时钟变换中不变；
 目标度量改成新物理坐标下的 `d sigma²+a(s(sigma))²du²`，所以明确是新 g。
 随后对它重新完成全部 1788 参数的一阶 jet 拟合和真实完整 value，未沿用 raw 表的值。
 

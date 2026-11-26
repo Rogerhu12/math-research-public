@@ -7,7 +7,7 @@
 
 完整连通闭C2嵌入族、共同g和固定握持开区域；全曲面D下held/D≥.05、含反射δE>0、全时reach/D≥.03、全域全时metric≤1e−6，并支付同一g/全部物理参数下真加密到求解容差及可复现完整网格。基础之后继续held/D≥.2、δE/D≥.05或严格存在。本题尚未完成。
 
-- 根/课题README完整读于 `f0548477576caa2373d1626227a284ccfa9767d0`；接手真实pull在05:16UTC成功。最近已读公开提交 `f0dbc7cb89cd103834999d4718d81c2e0309b391`（2026-11-26 09:08 UTC真实pull/rebase后，双README逐差均无变化）。每次真实pull后核两README差异，至少每小时；有变只读差异立即执行。本轮各次均无差异。
+- 根/课题README完整读于 `f0548477576caa2373d1626227a284ccfa9767d0`；接手真实pull在05:16UTC成功。最近已读公开提交 `18621dc8c1d75e7fb1649ad07bdd2fb1890fbd9b`（2026-11-26 09:12 UTC真实pull/rebase后，双README逐差均无变化）。每次真实pull后核两README差异，至少每小时；有变只读差异立即执行。本轮各次均无差异。
 - 私库根规矩完整读；QUEUE认领已推 `c7785184d0d9c503852fb2137e9e2c091221d080`，状态进行中（本会话/2026-11-26）。认领推拒均即时pull/rebase再推成功。
 - 每结论分条commit/push；推拒立即pull --rebase循环，不强推、不amend已发布提交。完整证明直接登记；不回到旧独审/冻结手续。可重算数组不进Git/Release/artifact，只存源码、参数、run/hash。单MD<100KB、H<10KB、课题<200MB；不写根LOG。令牌只在命令进程环境。
 - 部分克隆 `/tmp/visible-flex-6a65e705/math-research-public`；同级 `solver-work/geometry-work/exact-work` 保存raw。/workspace空间不足，勿将大数组放回。05:47旧环境/tmp丢失，05:54已重新部分克隆和冷重生，不借旧失联数组身份。
@@ -34,13 +34,13 @@
 
 [自然周长完整rho拟合](notes/2026-11-26-6a65-perimeter-full-rho-fit-baseline.md)J38/K11/N128/1788列，.18入口value真0：metric.885019/κ28.74355/held.625658。首LM完整normal真返回314.878s，但321.914s被SIGKILL；无trial/末态/接受，末采样RSS245792KiB，原因未证。
 
-**当前新主输入**：[更早.14入口](notes/2026-11-26-6a65-geometry-earlier-port-natural-metric.md)+纯物理重参数后[完整rho拟合/value](notes/2026-11-26-6a65-physical-clock-full-fit-and-value.md)，右长.7956739498716915、cut.9772364498716914、A/Z=.8746432018013935/.51。全1788列/301210行，reference/fit/value均实际0；110.596s、RSS86200KiB，R².2159071/metric.39368564/κ18.63050/held.6263963。原件 `cauchy-clock-fit02-value-monitored-baseline.json` SHA `01725d3b221e5d0f8d0580ac332f957e8183edc6bcacd3b664743197a4ee46e2`。旧rho/normal未复用；g仍可设计，非同g加密。当前检查矩阵临时复制，保全部行列后继续真LM。
+**当前新主输入**：[更早.14入口](notes/2026-11-26-6a65-geometry-earlier-port-natural-metric.md)+[纯物理时钟](notes/2026-11-26-6a65-geometry-exact-physical-clock.md)后[完整rho拟合/value](notes/2026-11-26-6a65-physical-clock-full-fit-and-value.md)，右长.7956739498716915、cut.9772364498716914、A/Z=.8746432018013935/.51。全1788列/301210行，reference/fit/value均实际0；110.596s、RSS86200KiB，R².2159071/metric.39368564/κ18.63050/held.6263963。原件 `cauchy-clock-fit02-value-monitored-baseline.json` SHA `01725d3b221e5d0f8d0580ac332f957e8183edc6bcacd3b664743197a4ee46e2`。旧rho/normal未复用；g仍可设计，非同g加密。当前检查矩阵临时复制，保全部行列后继续真LM。
 
 ## 公共CI实际状态与继续
 
 旧run45767322734/job139731246744在第20数学接受真0后因CAS发布failure，21–60未发生；原bot小报告已实际fetch/cherry-pick，CAS识别已修，[记录](notes/2026-11-26-6a65-solver-actions-twentieth-cas-failure.md)。不能用静态running猜活状态。
 
-[run45778054176](https://github.com/Rogerhu12/math-research-public/actions/runs/45778054176)/job139766458381，冻结head2ed4f1ef9、loaded controller5093095a…。R208/J36实际20步全0（17新增），157541点observer也0，仍欠metric/κ/held。随后严格匹配后继source-001=def7385e2，同N128/84点/R219，K11→19零注入；初始化逐值复现，12次新尝试中最近已核到第5次半步接受，metric.1890301/κ13.00932/held仍欠。准确最新态/hash见[实际CI报告](notes/2026-11-26-6a65-actions-strong-45778054176-1.md)，不能把计划12步当完成。raw持续保同job，新Cauchy后继尚未触发；source epoch明确冻结，不热替换正在运行的数值源码。正常停滞保真实父态及observer，拒绝trial不充末态。
+[run45778054176](https://github.com/Rogerhu12/math-research-public/actions/runs/45778054176)/job139766458381，冻结head2ed4f1ef9、loaded controller5093095a…。R208/J36实际20步全0（17新增），157541点observer也0，仍欠metric/κ/held。随后严格匹配后继source-001=def7385e2，同N128/84点/R219，K11→19零注入；初始化逐值复现，12次新尝试中最近已核到第8次接受（6–8全步），metric.1889204/κ13.01875/held.620626仍欠。准确最新态/hash见[实际CI报告](notes/2026-11-26-6a65-actions-strong-45778054176-1.md)，不能把计划12步当完成。raw持续保同job，新Cauchy后继尚未触发；source epoch明确冻结，不热替换正在运行的数值源码。正常停滞保真实父态及observer，拒绝trial不充末态。
 
 CI每次literal pull在首行marker记SHA；publisher只合并该行，保root其它文本，不amend已发布提交。等待fetch30秒，新请求或45分钟才真实pull。root分条push同时遇NFF/锁冲突均已即时pull/rebase循环成功。后继文件 `ci-requests/6a65-strong-followup-20261126.json` 必须消费实际末态，不猜SHA。
 
