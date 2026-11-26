@@ -1,43 +1,44 @@
 {
   "schema": "6a65-strong-branch-same-job-followup-v1",
-  "followup_id": "6a65-short-Cauchy-clock-after-real-K19-12",
+  "followup_id": "6a65-real-Cauchy12-then-independent-Cartesian1",
   "run_id": "45778054176",
   "attempt": "1",
   "action": "continue",
-  "parent_state_sha256": "9ada2ac09ba4392efc708c47a81ea437556815856dcd24129cb3bbaca84590d9",
-  "parent_observer_sha256": "7c11d591c90213c3b11872020a7e1369ef85ab4fd48a0edb130667c539950a15",
-  "rules_read_commit": "219a500bbb4f7511ce68a2fff3405b549bd891e2",
-  "source_commit": "28c629a06272441ae1e86f7cbe5f2715ea91601b",
-  "scope": "Entire actual parent is consumed anew: short Cauchy, earlier .14 inlet, natural perimeter and physical clock, full J38 K11 N128 rho/position fit and genuine complete baseline, then original complete LM. This changes g and the objective; no lost local raw identity or previous normal is reused.",
+  "parent_state_sha256": "357097cc215225f3ef0a396d563ca81179c6e44669208371c14174b261d9d224",
+  "parent_observer_sha256": "5e66d0be90992dbf40f5b2f2ade00b080b74fb98b00a35b8c00b60129044f4f7",
+  "rules_read_commit": "223a56c53c57a69f9755fa47d0a0b425bba55675",
+  "source_commit": "c0661016195ec9864a1ed27aee1760e0b6c2c354",
+  "scope": "Consume the real source002 twelfth checkpoint and its final actual observer. Preserve the original Cauchy objective/layout/count and perform one actual full attempt; then freeze that actual field and g for an independently counted complete Cartesian experiment. No current source002 code is replaced, no old observer or raw is inferred.",
   "continuations": [
     {
-      "label": "short-Cauchy-earlier14-physical-clock",
+      "label": "Cauchy-original-then-Cartesian1",
       "transition_kind": "new_discretization_and_geometry_guide",
-      "init_script": "6a65-cauchy-clock-transition-recovered-v2.cjs",
-      "run_script": "6a65-run-cauchy-same-job-recovered-v2.cjs",
+      "transitionScope": "Only the independently labelled downstream Cartesian space is new; original Cauchy objective and layout unchanged",
+      "init_script": "6a65-resume-cauchy-with-independent-cartesian-v2.cjs",
+      "run_script": "6a65-resume-cauchy-with-independent-cartesian-v2.cjs",
       "init_arguments": [
+        "init",
         "{candidate}",
         "{source}",
-        "{observer}",
         "{prefix}",
+        "{observer}",
         "{recipe}"
       ],
       "run_arguments": [
+        "run",
         "{candidate}",
         "{source}",
-        "{prefix}",
-        "run"
+        "{prefix}"
       ],
       "initial_suffix": "-initial.json",
       "checkpoint_suffix": "-state.json",
+      "report_suffix": "-report.json",
       "initial_schema": "6a65-Cauchy-global-position-initial-v1",
       "checkpoint_schema": "6a65-Cauchy-global-position-checkpoint-v1",
-      "accepted_counter": "cauchyAcceptedSteps",
-      "steps": 12,
+      "accepted_counter": "cauchySameObjectiveContinuationSteps",
+      "steps": 1,
       "prior_observed_steps": 0,
-      "report_suffix": "-report.json",
-      "recipe": "topics/visible-flexible-closed-surface/ci-requests/6a65-cauchy-clock-recipe-20261126.json",
-      "precise_transition": "New complete physical metric, Cauchy field and curvature startup tau; every baseline/normal/trial is recomputed over the full original provider domain and all 1788 columns."
+      "recipe": "topics/visible-flexible-closed-surface/ci-requests/6a65-cartesian-independent-recipe-20261126.json"
     }
   ]
 }
