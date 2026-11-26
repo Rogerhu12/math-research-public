@@ -1,0 +1,778 @@
+{
+  "schema": "r150-prior-L0-execution-readback-v1",
+  "readbackSession": "Astra-ISP-8542378f-20261127",
+  "retrievalMethod": "GitHub actual jobs logs API; no old mathematical run repeated",
+  "jobs": [
+    {
+      "jobId": 139964393984,
+      "driverReceipt": {
+        "elapsed_seconds": 260.278687076,
+        "max_child_rss_kib": 182332,
+        "ordinary_isp_claim": false,
+        "rules_reads": [
+          {
+            "after": "85af72d96e485725eec42655b4e8507ab7fc5b83",
+            "before": "85af72d96e485725eec42655b4e8507ab7fc5b83",
+            "rules_git_blobs": {
+              "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+              "topics/invariant-subspace-problem/README.md": "fef43bdf8690f2eec4751d85784a266eacdd0322"
+            },
+            "rules_unchanged": true,
+            "utc": "2026-11-26T14:07:52.823305+00:00"
+          }
+        ],
+        "run_attempt": "1",
+        "run_id": "45835855085",
+        "schema": "isp-frozen-exact-actions-execution-v1",
+        "session": "Astra-ISP-347c-20261126",
+        "source_commit": "85af72d96e485725eec42655b4e8507ab7fc5b83",
+        "source_exit_code": 0,
+        "source_git_blob": "778b5e96f8b95285f16d873e86a7b601c1365ea9",
+        "source_sha256": "c8c3e31972f2cfcbddc7b6069efeb1bb28b87bf75170541b3a36f7d68b20e5a0",
+        "stdout_bytes": 36225,
+        "stdout_sha256": "d956d28f635a7280eb6ad2d38dcc53377168983d3d4692a19260a58e40baf48c",
+        "stop_reason": null
+      },
+      "mathematicalOutput": [
+        {
+          "claimExcluded": true,
+          "claimWholeL0Excluded": false,
+          "elapsedSeconds": 260.208555,
+          "mode": "beta_regular",
+          "ordinaryISPClaim": false,
+          "parameterReturns": [
+            {
+              "allBezoutIdentitiesRemultiplied": true,
+              "excluded": true,
+              "fieldInverseIdentitiesChecked": 104,
+              "history": [
+                {
+                  "degree": 1,
+                  "removedPaidUnit": "original_rho_unit_3"
+                },
+                {
+                  "originalEquation": "original_P1_alpha_zero",
+                  "remainingWDegree": 11
+                },
+                {
+                  "originalEquation": "original_beta_return_E1_N1",
+                  "remainingWDegree": 0
+                }
+              ],
+              "lambdaDegree": 1,
+              "lambdaFactor": "12*x + (-11)",
+              "lambdaFactorSha256": "3138b776a3434b50fa6450ba63d4c8adae69a6459a439421395de90802a1cce3",
+              "multiplicity": 1,
+              "remainingWDegree": 0,
+              "remainingWSha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+              "wholeFiberPaidUnitZero": null
+            },
+            {
+              "allBezoutIdentitiesRemultiplied": true,
+              "excluded": true,
+              "fieldInverseIdentitiesChecked": 111,
+              "history": [
+                {
+                  "degree": 1,
+                  "removedPaidUnit": "original_rho_unit_7"
+                },
+                {
+                  "originalEquation": "original_P1_alpha_zero",
+                  "remainingWDegree": 11
+                },
+                {
+                  "originalEquation": "original_beta_return_E1_N1",
+                  "remainingWDegree": 0
+                }
+              ],
+              "lambdaDegree": 20,
+              "lambdaFactor": "12288*x^20 + (-94208)*x^19 + 325376*x^18 + (-647168)*x^17 + 752576*x^16 + (-330880)*x^15 + (-511168)*x^14 + 1230656*x^13 + (-1346992)*x^12 + 876048*x^11 + (-230340)*x^10 + (-204088)*x^9 + 325848*x^8 + (-253716)*x^7 + 138416*x^6 + (-57032)*x^5 + 18035*x^4 + (-4320)*x^3 + 751*x^2 + (-86)*x + 5",
+              "lambdaFactorSha256": "5f0ed7c30a74a6ee2fa3bf11f88085227bfb3d63ad44fc23c565bde7e2d00aa3",
+              "multiplicity": 1,
+              "remainingWDegree": 0,
+              "remainingWSha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+              "wholeFiberPaidUnitZero": null
+            },
+            {
+              "allBezoutIdentitiesRemultiplied": true,
+              "excluded": true,
+              "fieldInverseIdentitiesChecked": 110,
+              "history": [
+                {
+                  "degree": 1,
+                  "removedPaidUnit": "original_rho_unit_0"
+                },
+                {
+                  "originalEquation": "original_P1_alpha_zero",
+                  "remainingWDegree": 11
+                },
+                {
+                  "originalEquation": "original_beta_return_E1_N1",
+                  "remainingWDegree": 0
+                }
+              ],
+              "lambdaDegree": 3,
+              "lambdaFactor": "144*x^3 + (-204)*x^2 + 116*x + (-37)",
+              "lambdaFactorSha256": "35a04aba94b71440c6cff98547225b729d9335a0dcb31de24f8ee1efde796067",
+              "multiplicity": 4,
+              "remainingWDegree": 0,
+              "remainingWSha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+              "wholeFiberPaidUnitZero": null
+            },
+            {
+              "allBezoutIdentitiesRemultiplied": true,
+              "excluded": true,
+              "fieldInverseIdentitiesChecked": 110,
+              "history": [
+                {
+                  "degree": 1,
+                  "removedPaidUnit": "original_rho_unit_0"
+                },
+                {
+                  "originalEquation": "original_P1_alpha_zero",
+                  "remainingWDegree": 11
+                },
+                {
+                  "originalEquation": "original_beta_return_E1_N1",
+                  "remainingWDegree": 0
+                }
+              ],
+              "lambdaDegree": 3,
+              "lambdaFactor": "4*x^3 + (-4)*x^2 + 2*x + (-1)",
+              "lambdaFactorSha256": "e9a620ff6ad073bc0b2b983ec550c6cb5d626f568ffaeb67e437a02b2a945e2f",
+              "multiplicity": 5,
+              "remainingWDegree": 0,
+              "remainingWSha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+              "wholeFiberPaidUnitZero": null
+            },
+            {
+              "allBezoutIdentitiesRemultiplied": true,
+              "excluded": true,
+              "fieldInverseIdentitiesChecked": 117,
+              "history": [
+                {
+                  "degree": 1,
+                  "removedPaidUnit": "original_rho_unit_0"
+                },
+                {
+                  "degree": 1,
+                  "removedPaidUnit": "original_rho_unit_0"
+                },
+                {
+                  "originalEquation": "original_P1_alpha_zero",
+                  "remainingWDegree": 10
+                },
+                {
+                  "originalEquation": "original_beta_return_E1_N1",
+                  "remainingWDegree": 0
+                }
+              ],
+              "lambdaDegree": 1,
+              "lambdaFactor": "6*x + (-7)",
+              "lambdaFactorSha256": "b3c6dcd05995930097ef8795b93221c1c754d696162e5ca47f15978464ff900e",
+              "multiplicity": 8,
+              "remainingWDegree": 0,
+              "remainingWSha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+              "wholeFiberPaidUnitZero": null
+            },
+            {
+              "allBezoutIdentitiesRemultiplied": true,
+              "excluded": true,
+              "fieldInverseIdentitiesChecked": 117,
+              "history": [
+                {
+                  "degree": 1,
+                  "removedPaidUnit": "original_rho_unit_0"
+                },
+                {
+                  "degree": 1,
+                  "removedPaidUnit": "original_rho_unit_0"
+                },
+                {
+                  "originalEquation": "original_P1_alpha_zero",
+                  "remainingWDegree": 10
+                },
+                {
+                  "originalEquation": "original_beta_return_E1_N1",
+                  "remainingWDegree": 0
+                }
+              ],
+              "lambdaDegree": 1,
+              "lambdaFactor": "3*x + (-2)",
+              "lambdaFactorSha256": "494f6f1d41d34f5e9d124e679d34924504d096cb5239468cda69780b24906078",
+              "multiplicity": 10,
+              "remainingWDegree": 0,
+              "remainingWSha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+              "wholeFiberPaidUnitZero": null
+            },
+            {
+              "allBezoutIdentitiesRemultiplied": true,
+              "excluded": true,
+              "fieldInverseIdentitiesChecked": 117,
+              "history": [
+                {
+                  "degree": 1,
+                  "removedPaidUnit": "original_rho_unit_0"
+                },
+                {
+                  "degree": 1,
+                  "removedPaidUnit": "original_rho_unit_0"
+                },
+                {
+                  "originalEquation": "original_P1_alpha_zero",
+                  "remainingWDegree": 10
+                },
+                {
+                  "originalEquation": "original_beta_return_E1_N1",
+                  "remainingWDegree": 0
+                }
+              ],
+              "lambdaDegree": 7,
+              "lambdaFactor": "128*x^7 + 32*x^6 + (-336)*x^5 + 324*x^4 + 108*x^3 + (-331)*x^2 + 214*x + (-45)",
+              "lambdaFactorSha256": "8de4d985998cf237b0b5710c8057036b80dd6ea0d710724ed39f3be744962ca2",
+              "multiplicity": 10,
+              "remainingWDegree": 0,
+              "remainingWSha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+              "wholeFiberPaidUnitZero": null
+            },
+            {
+              "allBezoutIdentitiesRemultiplied": true,
+              "excluded": true,
+              "fieldInverseIdentitiesChecked": 117,
+              "history": [
+                {
+                  "degree": 1,
+                  "removedPaidUnit": "original_rho_unit_0"
+                },
+                {
+                  "degree": 1,
+                  "removedPaidUnit": "original_rho_unit_0"
+                },
+                {
+                  "originalEquation": "original_P1_alpha_zero",
+                  "remainingWDegree": 10
+                },
+                {
+                  "originalEquation": "original_beta_return_E1_N1",
+                  "remainingWDegree": 0
+                }
+              ],
+              "lambdaDegree": 2,
+              "lambdaFactor": "8*x^2 + (-6)*x + (-1)",
+              "lambdaFactorSha256": "56b54029de20b2acb4517298e1ff80a1c3e5a69fba9e9eb749386e87e80f859e",
+              "multiplicity": 16,
+              "remainingWDegree": 0,
+              "remainingWSha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+              "wholeFiberPaidUnitZero": null
+            },
+            {
+              "allBezoutIdentitiesRemultiplied": true,
+              "excluded": true,
+              "fieldInverseIdentitiesChecked": 117,
+              "history": [
+                {
+                  "degree": 1,
+                  "removedPaidUnit": "original_rho_unit_0"
+                },
+                {
+                  "degree": 1,
+                  "removedPaidUnit": "original_rho_unit_0"
+                },
+                {
+                  "originalEquation": "original_P1_alpha_zero",
+                  "remainingWDegree": 10
+                },
+                {
+                  "originalEquation": "original_beta_return_E1_N1",
+                  "remainingWDegree": 0
+                }
+              ],
+              "lambdaDegree": 2,
+              "lambdaFactor": "2*x^2 + (-2)*x + 1",
+              "lambdaFactorSha256": "e00be964113201eebe0a127b0e7356ad16ce03e28c15b490ad65d68587bec5c6",
+              "multiplicity": 17,
+              "remainingWDegree": 0,
+              "remainingWSha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+              "wholeFiberPaidUnitZero": null
+            },
+            {
+              "allBezoutIdentitiesRemultiplied": true,
+              "excluded": true,
+              "fieldInverseIdentitiesChecked": 111,
+              "history": [
+                {
+                  "degree": 2,
+                  "removedPaidUnit": "original_rho_unit_0"
+                },
+                {
+                  "degree": 2,
+                  "removedPaidUnit": "original_rho_unit_0"
+                },
+                {
+                  "originalEquation": "original_P1_alpha_zero",
+                  "remainingWDegree": 8
+                },
+                {
+                  "originalEquation": "original_beta_return_E1_N1",
+                  "remainingWDegree": 0
+                }
+              ],
+              "lambdaDegree": 2,
+              "lambdaFactor": "3*x^2 + (-2)*x + 1",
+              "lambdaFactorSha256": "0eb2a8614e37a767181ea028d8dab9144cac464a4ed05bbba3bd1c5cca3eb915",
+              "multiplicity": 28,
+              "remainingWDegree": 0,
+              "remainingWSha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+              "wholeFiberPaidUnitZero": null
+            },
+            {
+              "allBezoutIdentitiesRemultiplied": true,
+              "excluded": true,
+              "fieldInverseIdentitiesChecked": 101,
+              "history": [
+                {
+                  "degree": 4,
+                  "removedPaidUnit": "original_rho_unit_0"
+                },
+                {
+                  "degree": 2,
+                  "removedPaidUnit": "original_rho_unit_0"
+                },
+                {
+                  "originalEquation": "original_P1_alpha_zero",
+                  "remainingWDegree": 6
+                },
+                {
+                  "originalEquation": "original_beta_return_E1_N1",
+                  "remainingWDegree": 0
+                }
+              ],
+              "lambdaDegree": 1,
+              "lambdaFactor": "2*x + (-1)",
+              "lambdaFactorSha256": "b1cd874d703f4a48b6443248029a6b4a8aa56afcf1d8bf5ffab50d79790307c4",
+              "multiplicity": 142,
+              "remainingWDegree": 0,
+              "remainingWSha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+              "wholeFiberPaidUnitZero": null
+            }
+          ],
+          "peakRssKiB": 182080,
+          "projectionHistory": [
+            {
+              "anchor": "original_P1_alpha_zero",
+              "gcdLambdaDegree": 517,
+              "other": "original_beta_return_E1_N1",
+              "resultantLambdaDegree": 517,
+              "resultantSha256": "8f9f6599463977b5e7d7d4e954ae1f1e53f6be67d7e2803c2fa5a61c61580f15"
+            },
+            {
+              "anchor": "original_P1_alpha_zero",
+              "gcdLambdaDegree": 400,
+              "other": "original_beta_return_E1_EBo",
+              "resultantLambdaDegree": 984,
+              "resultantSha256": "f742c23e9fe26bb056af83aa8ea0644752d503948fac6cb41577e111c3d43b09"
+            },
+            {
+              "anchor": "original_P1_alpha_zero",
+              "gcdLambdaDegree": 400,
+              "other": "original_beta_return_EBo_N1",
+              "resultantLambdaDegree": 954,
+              "resultantSha256": "a93bd1d8112a3a90ca17045b473eca8557dfceb241e9459c3fa0d425b97cd65b"
+            },
+            {
+              "anchor": "original_P1_alpha_zero",
+              "gcdLambdaDegree": 400,
+              "other": "original_beta_return_E1_EBe",
+              "resultantLambdaDegree": 1148,
+              "resultantSha256": "0a1f4e5683014ce7d165e5aca4252e7c562e6763ab899364d129497525ee0edf"
+            },
+            {
+              "anchor": "original_P1_alpha_zero",
+              "gcdLambdaDegree": 400,
+              "other": "original_beta_return_EBe_N1",
+              "resultantLambdaDegree": 1162,
+              "resultantSha256": "16d754d241b68d8cc81b80feb992e35d45fa4dfea4d35824867d6b8447d3bab1"
+            },
+            {
+              "anchor": "original_P1_alpha_zero",
+              "gcdLambdaDegree": 400,
+              "other": "original_beta_return_EBe_EBo",
+              "resultantLambdaDegree": 806,
+              "resultantSha256": "4c1136ec7b221d8cd49d70c026e4aa01bb028ef668aea1a6b3c4b95f4db70edb"
+            }
+          ],
+          "scope": "Original P1 double-zero beta-leading-nonzero chart; its leading-zero face is a separate job",
+          "sourceSha256": "c8c3e31972f2cfcbddc7b6069efeb1bb28b87bf75170541b3a36f7d68b20e5a0",
+          "stage": "complete_original_double_P1_chart_exclusion"
+        }
+      ],
+      "downloadedJobLogSha256": "fd9cba69006ddc03ae995c73d23f3f7f3981976a71becd829aeacc78e52779b1"
+    },
+    {
+      "jobId": 139964394439,
+      "driverReceipt": {
+        "elapsed_seconds": 4.336028245999998,
+        "max_child_rss_kib": 64812,
+        "ordinary_isp_claim": false,
+        "rules_reads": [
+          {
+            "after": "85af72d96e485725eec42655b4e8507ab7fc5b83",
+            "before": "85af72d96e485725eec42655b4e8507ab7fc5b83",
+            "rules_git_blobs": {
+              "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+              "topics/invariant-subspace-problem/README.md": "fef43bdf8690f2eec4751d85784a266eacdd0322"
+            },
+            "rules_unchanged": true,
+            "utc": "2026-11-26T14:07:57.355695+00:00"
+          }
+        ],
+        "run_attempt": "1",
+        "run_id": "45835855085",
+        "schema": "isp-frozen-exact-actions-execution-v1",
+        "session": "Astra-ISP-347c-20261126",
+        "source_commit": "85af72d96e485725eec42655b4e8507ab7fc5b83",
+        "source_exit_code": 2,
+        "source_git_blob": "778b5e96f8b95285f16d873e86a7b601c1365ea9",
+        "source_sha256": "c8c3e31972f2cfcbddc7b6069efeb1bb28b87bf75170541b3a36f7d68b20e5a0",
+        "stdout_bytes": 26647,
+        "stdout_sha256": "c7890177b64dc5dcc316bc459da4553cc8b3fca2461e9f53e1e1046773157bfa",
+        "stop_reason": null
+      },
+      "mathematicalOutput": [
+        {
+          "claimExcluded": false,
+          "claimWholeL0Excluded": false,
+          "elapsedSeconds": 4.254483,
+          "mode": "beta_boundary",
+          "ordinaryISPClaim": false,
+          "parameterReturns": [
+            {
+              "allBezoutIdentitiesRemultiplied": true,
+              "excluded": true,
+              "fieldInverseIdentitiesChecked": 37,
+              "history": [
+                {
+                  "degree": 1,
+                  "removedPaidUnit": "original_base_unit_3"
+                },
+                {
+                  "originalEquation": "original_beta_rho_coefficient",
+                  "remainingWDegree": 6
+                },
+                {
+                  "originalEquation": "original_beta_constant",
+                  "remainingWDegree": 0
+                }
+              ],
+              "lambdaDegree": 1,
+              "lambdaFactor": "6*x + (-7)",
+              "lambdaFactorSha256": "b3c6dcd05995930097ef8795b93221c1c754d696162e5ca47f15978464ff900e",
+              "multiplicity": 1,
+              "remainingWDegree": 0,
+              "remainingWSha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+              "wholeFiberPaidUnitZero": null
+            },
+            {
+              "allBezoutIdentitiesRemultiplied": true,
+              "excluded": false,
+              "fieldInverseIdentitiesChecked": 54,
+              "history": [
+                {
+                  "originalEquation": "original_beta_rho_coefficient",
+                  "remainingWDegree": 7
+                },
+                {
+                  "originalEquation": "original_beta_constant",
+                  "remainingWDegree": 1
+                }
+              ],
+              "lambdaDegree": 1,
+              "lambdaFactor": "3*x + (-2)",
+              "lambdaFactorSha256": "494f6f1d41d34f5e9d124e679d34924504d096cb5239468cda69780b24906078",
+              "multiplicity": 1,
+              "remainingWCoefficients": [
+                "(-1/4)",
+                "1"
+              ],
+              "remainingWDegree": 1,
+              "remainingWSha256": "2172823c514d381a1b4f7403a885d19abd6ced99903738216a2d754e9aa44f2a",
+              "wholeFiberPaidUnitZero": null
+            },
+            {
+              "allBezoutIdentitiesRemultiplied": true,
+              "excluded": true,
+              "fieldInverseIdentitiesChecked": 37,
+              "history": [
+                {
+                  "degree": 1,
+                  "removedPaidUnit": "original_base_unit_3"
+                },
+                {
+                  "originalEquation": "original_beta_rho_coefficient",
+                  "remainingWDegree": 6
+                },
+                {
+                  "originalEquation": "original_beta_constant",
+                  "remainingWDegree": 0
+                }
+              ],
+              "lambdaDegree": 2,
+              "lambdaFactor": "8*x^2 + (-6)*x + (-1)",
+              "lambdaFactorSha256": "56b54029de20b2acb4517298e1ff80a1c3e5a69fba9e9eb749386e87e80f859e",
+              "multiplicity": 1,
+              "remainingWDegree": 0,
+              "remainingWSha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+              "wholeFiberPaidUnitZero": null
+            },
+            {
+              "allBezoutIdentitiesRemultiplied": true,
+              "excluded": true,
+              "fieldInverseIdentitiesChecked": 37,
+              "history": [
+                {
+                  "degree": 1,
+                  "removedPaidUnit": "original_base_unit_4"
+                },
+                {
+                  "originalEquation": "original_beta_rho_coefficient",
+                  "remainingWDegree": 6
+                },
+                {
+                  "originalEquation": "original_beta_constant",
+                  "remainingWDegree": 0
+                }
+              ],
+              "lambdaDegree": 3,
+              "lambdaFactor": "4*x^3 + (-4)*x^2 + 2*x + (-1)",
+              "lambdaFactorSha256": "e9a620ff6ad073bc0b2b983ec550c6cb5d626f568ffaeb67e437a02b2a945e2f",
+              "multiplicity": 1,
+              "remainingWDegree": 0,
+              "remainingWSha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+              "wholeFiberPaidUnitZero": null
+            },
+            {
+              "allBezoutIdentitiesRemultiplied": true,
+              "excluded": true,
+              "fieldInverseIdentitiesChecked": 39,
+              "history": [
+                {
+                  "degree": 1,
+                  "removedPaidUnit": "original_base_unit_8"
+                },
+                {
+                  "originalEquation": "original_beta_rho_coefficient",
+                  "remainingWDegree": 6
+                },
+                {
+                  "originalEquation": "original_beta_constant",
+                  "remainingWDegree": 0
+                }
+              ],
+              "lambdaDegree": 3,
+              "lambdaFactor": "144*x^3 + (-204)*x^2 + 116*x + (-37)",
+              "lambdaFactorSha256": "35a04aba94b71440c6cff98547225b729d9335a0dcb31de24f8ee1efde796067",
+              "multiplicity": 1,
+              "remainingWDegree": 0,
+              "remainingWSha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+              "wholeFiberPaidUnitZero": null
+            },
+            {
+              "allBezoutIdentitiesRemultiplied": true,
+              "excluded": false,
+              "fieldInverseIdentitiesChecked": 55,
+              "history": [
+                {
+                  "originalEquation": "original_beta_rho_coefficient",
+                  "remainingWDegree": 7
+                },
+                {
+                  "originalEquation": "original_beta_constant",
+                  "remainingWDegree": 1
+                }
+              ],
+              "lambdaDegree": 7,
+              "lambdaFactor": "128*x^7 + 32*x^6 + (-336)*x^5 + 324*x^4 + 108*x^3 + (-331)*x^2 + 214*x + (-45)",
+              "lambdaFactorSha256": "8de4d985998cf237b0b5710c8057036b80dd6ea0d710724ed39f3be744962ca2",
+              "multiplicity": 1,
+              "remainingWCoefficients": [
+                "(-12288/2459)*x^6 + (-3680/2459)*x^5 + 34328/2459*x^4 + (-22592/2459)*x^3 + (-13535/2459)*x^2 + 43245/4918*x + (-11419/4918)",
+                "1"
+              ],
+              "remainingWDegree": 1,
+              "remainingWSha256": "5905e4373200fdf961a09ac76252608ebfa5d5d78044f49a664b946e6f45b14f",
+              "wholeFiberPaidUnitZero": null
+            },
+            {
+              "allBezoutIdentitiesRemultiplied": true,
+              "excluded": true,
+              "fieldInverseIdentitiesChecked": 39,
+              "history": [
+                {
+                  "degree": 1,
+                  "removedPaidUnit": "original_base_unit_4"
+                },
+                {
+                  "degree": 1,
+                  "removedPaidUnit": "original_base_unit_4"
+                },
+                {
+                  "originalEquation": "original_beta_rho_coefficient",
+                  "remainingWDegree": 5
+                },
+                {
+                  "originalEquation": "original_beta_constant",
+                  "remainingWDegree": 0
+                }
+              ],
+              "lambdaDegree": 2,
+              "lambdaFactor": "2*x^2 + (-2)*x + 1",
+              "lambdaFactorSha256": "e00be964113201eebe0a127b0e7356ad16ce03e28c15b490ad65d68587bec5c6",
+              "multiplicity": 2,
+              "remainingWDegree": 0,
+              "remainingWSha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+              "wholeFiberPaidUnitZero": null
+            },
+            {
+              "allBezoutIdentitiesRemultiplied": true,
+              "excluded": true,
+              "fieldInverseIdentitiesChecked": 39,
+              "history": [
+                {
+                  "degree": 1,
+                  "removedPaidUnit": "original_base_unit_5"
+                },
+                {
+                  "degree": 1,
+                  "removedPaidUnit": "original_base_unit_5"
+                },
+                {
+                  "originalEquation": "original_beta_rho_coefficient",
+                  "remainingWDegree": 5
+                },
+                {
+                  "originalEquation": "original_beta_constant",
+                  "remainingWDegree": 0
+                }
+              ],
+              "lambdaDegree": 2,
+              "lambdaFactor": "3*x^2 + (-2)*x + 1",
+              "lambdaFactorSha256": "0eb2a8614e37a767181ea028d8dab9144cac464a4ed05bbba3bd1c5cca3eb915",
+              "multiplicity": 3,
+              "remainingWDegree": 0,
+              "remainingWSha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+              "wholeFiberPaidUnitZero": null
+            },
+            {
+              "allBezoutIdentitiesRemultiplied": true,
+              "excluded": true,
+              "fieldInverseIdentitiesChecked": 43,
+              "history": [
+                {
+                  "degree": 1,
+                  "removedPaidUnit": "original_base_unit_2"
+                },
+                {
+                  "degree": 1,
+                  "removedPaidUnit": "original_base_unit_2"
+                },
+                {
+                  "degree": 1,
+                  "removedPaidUnit": "original_base_unit_2"
+                },
+                {
+                  "degree": 1,
+                  "removedPaidUnit": "original_base_unit_4"
+                },
+                {
+                  "originalEquation": "original_beta_rho_coefficient",
+                  "remainingWDegree": 3
+                },
+                {
+                  "originalEquation": "original_beta_constant",
+                  "remainingWDegree": 0
+                }
+              ],
+              "lambdaDegree": 1,
+              "lambdaFactor": "2*x + (-1)",
+              "lambdaFactorSha256": "b1cd874d703f4a48b6443248029a6b4a8aa56afcf1d8bf5ffab50d79790307c4",
+              "multiplicity": 15,
+              "remainingWDegree": 0,
+              "remainingWSha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+              "wholeFiberPaidUnitZero": null
+            }
+          ],
+          "peakRssKiB": 64812,
+          "projectionHistory": [
+            {
+              "anchor": "original_beta_rho_coefficient",
+              "gcdLambdaDegree": 42,
+              "other": "original_beta_constant",
+              "resultantLambdaDegree": 42,
+              "resultantSha256": "4f17c2eb3e9b3faeda3430cd0c9e1b66f5e407362491df6796ba70b3a64bfb2c"
+            }
+          ],
+          "scope": "Original P1 double-zero beta-leading-zero face",
+          "sourceSha256": "c8c3e31972f2cfcbddc7b6069efeb1bb28b87bf75170541b3a36f7d68b20e5a0",
+          "stage": "original_double_P1_finite_candidates_remain"
+        }
+      ],
+      "downloadedJobLogSha256": "ae02fe7c209b7eb267ec8a0b0dd834e65fdd94fe06a60a40aaade866d790b44c"
+    },
+    {
+      "jobId": 139954904770,
+      "driverReceipt": {
+        "elapsed_seconds": 465.29742492900004,
+        "max_child_rss_kib": 4174008,
+        "ordinary_isp_claim": false,
+        "rules_reads": [
+          {
+            "after": "f28e377f69168b22537e82f49a4993349c1fa919",
+            "before": "91fb0972f744ee62f1f95f72d4697e439b8df625",
+            "rules_git_blobs": {
+              "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+              "topics/invariant-subspace-problem/README.md": "fef43bdf8690f2eec4751d85784a266eacdd0322"
+            },
+            "rules_unchanged": true,
+            "utc": "2026-11-26T13:51:31.476313+00:00"
+          }
+        ],
+        "run_attempt": "1",
+        "run_id": "45833153054",
+        "schema": "isp-frozen-exact-actions-execution-v1",
+        "session": "Astra-ISP-347c-20261126",
+        "source_commit": "91fb0972f744ee62f1f95f72d4697e439b8df625",
+        "source_exit_code": 2,
+        "source_git_blob": "d2b0f84ab8f0457fa9afec1bf7125c1e550bd3cb",
+        "source_sha256": "8836ddc5c83f7375284b0dd052656662924bd41f967e8772f4023a952d798a00",
+        "stdout_bytes": 14848,
+        "stdout_sha256": "b930d97dbb1c4a7c1953d4d1456a1c6a3c88c21ed6f9770770c4f3bb26efe25b",
+        "stop_reason": null
+      },
+      "mathematicalOutput": [
+        {
+          "addressSpaceLimitBytes": 4294967296,
+          "bytes": 1989660,
+          "claimExcluded": false,
+          "elapsedSeconds": 4.372273,
+          "field": "QQ",
+          "generators": 16,
+          "mode": "curveG",
+          "sha256": "9a48fbd0b0eddb88041a92f05c5f11d6de92fc80dc7152dbbdb1e0e267a86177",
+          "stage": "singular_L0_small_original_input",
+          "wallLimitSeconds": 900
+        },
+        {
+          "claimExcluded": false,
+          "elapsedSeconds": 465.206981,
+          "identityVerified": false,
+          "mode": "curveG",
+          "returncode": 14,
+          "stage": "singular_L0_small_original_output",
+          "stdoutSha256": "d00ff79eb576cf2b9edf78431baf11bb2ae9f0afb4d81a58116ac868fde5c62a",
+          "text": "ISP_L0_SMALL_SMOKE_VERIFIED\nISP_BEGIN_L0_SMALL_ORIGINAL_TRUE_QQ_LIFT\n\nSingular error: no more memory\nSystem 4161692k:4186268k Appl 3254976k/480092k Malloc 2911772k/0k Valloc 823296k/480092k Pages 99626/106198 Regions 402:414 Internal: 49776\n\nhalt 14\n"
+        }
+      ],
+      "downloadedJobLogSha256": "8ab620805aeb2ddfc8332b09def4221d804c50eac5b38ac8b711a21a8b4c6b45"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "schema": "r150-L0-P1-double-zero-boundary-original-return-v1",
+  "sourcePath": "notes/2026-11-27-unit211-L0-P1-double-zero-boundary-original-return-8542.py",
+  "sourceSha256": "81a2bd42db04a4df26003180b2463372788bc2cf4a757185c656b3bed20e461f",
+  "sourceBytes": 16173,
+  "pythonVersion": "3.12.14",
+  "exitCode": 0,
+  "stdoutSha256": "ce1c67122c50f5f8ad3cb97c426740cd30705c01720002d4486e31fdb898f5c9",
+  "stdoutBytes": 11500,
+  "result": {
+    "claimExcluded": true,
+    "claimWholeL0Excluded": false,
+    "elapsedSeconds": 3.913952,
+    "ordinaryISPClaim": false,
+    "peakRssKiB": 52944,
+    "predecessorCandidateCoverActuallyVerified": true,
+    "predecessorJob": 139964394439,
+    "predecessorRun": 45835855085,
+    "predecessorSourceSha256": "c8c3e31972f2cfcbddc7b6069efeb1bb28b87bf75170541b3a36f7d68b20e5a0",
+    "reports": [
+      {
+        "allBezoutAndDivisionIdentitiesVerified": true,
+        "baseDegree": 1,
+        "baseInverseIdentitiesVerified": 35,
+        "claimExcluded": true,
+        "fiber": "lambda_two_thirds",
+        "history": [
+          {
+            "equation": "original_P1_alpha_zero",
+            "remainingRhoDegree": 2
+          },
+          {
+            "equation": "E1_N1",
+            "remainingRhoDegree": 0
+          }
+        ]
+      },
+      {
+        "allBezoutAndDivisionIdentitiesVerified": true,
+        "baseDegree": 7,
+        "baseInverseIdentitiesVerified": 35,
+        "claimExcluded": true,
+        "fiber": "lambda_seven_entire_roots",
+        "history": [
+          {
+            "equation": "original_P1_alpha_zero",
+            "remainingRhoDegree": 2
+          },
+          {
+            "equation": "E1_N1",
+            "remainingRhoDegree": 0
+          }
+        ]
+      }
+    ],
+    "sourceSha256": "81a2bd42db04a4df26003180b2463372788bc2cf4a757185c656b3bed20e461f",
+    "stage": "complete_original_beta_leading_zero_finite_return"
+  },
+  "claimExcluded": true
+}

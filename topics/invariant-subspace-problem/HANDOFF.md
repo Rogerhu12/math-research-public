@@ -5,15 +5,15 @@
 ## 目标、规则与执行
 
 - **普通复可分无限维 Hilbert ISP 未完成。** 仅全体有界算子的存在定理或完整反例算完成。
-- **最近实际 pull / 已读规则提交：** `d2b127171c054a72b542d12be253ff477b3a658f`（2026-11-26 20:28:06 UTC；本地部分克隆）；本次两 README diff 无变化。每次 pull 且至少每小时检查并更新本项。
-- 私库 QUEUE 接手已推 `5746fa79a74af4975476d400dfbe0c4e5cb9ae9d`；私库根规则已读至 `ec011a5c25eeb7aed6eea040d601e7351726ede9`。每结论单推，非快进即 pull --rebase 再推；不 force，令牌仅 CLI。
+- **最近实际 pull / 已读规则提交：** `b7e41f178e1915e8ff14cedbf2605baa9417830d`（2026-11-26 20:32:16 UTC；本地部分克隆）；本次两 README diff 无变化。每次 pull 且至少每小时检查并更新本项。
+- 私库 QUEUE 接手已推 `5746fa79a74af4975476d400dfbe0c4e5cb9ae9d`；私库根规则2026-11-26 20:28 UTC已pull至 `63459bc1a74526162372866a9ae39bb51006ba78`，diff无变、QUEUE保持本会话。每结论单推，非快进即 pull --rebase 再推；不 force，令牌仅 CLI。
 - 本轮本地终端可用。前会话执行身份及全部原交接保[接手快照](notes/2026-11-27-handoff-at-takeover-8542.md)；本轮快照链见[最新完整归档](notes/2026-11-27-handoff-before-low-invariant-and-soft-target-8542.md)。失败不改标成功，已登记不重做。
 - 仅保源、参数、SHA、小回执；MD<100KB、H<10KB、open尽量<30KB、topic<200MB，不写根LOG。已读本轮 log；notes 按交接路径与结果索引定点续读。
 - 正在推进：R271 同一 w 的真实终端/稳定范围；R150 S0三值互异Lt0原r1非零一般图；文献与 Deddens 同源插值。完整证明登记后即接下一未闭项。
 
 ## R150：准确已闭范围与母任务
 
-- 全W31/W127、Γ120、权7–11已付；Γ11=36782、原μ核8912全Koszul、四q_jb³商类独立。权12–15、完整Bell自然幂、4212来源/高度及算子桥仍开。
+- 全W31/W127、Γ120、权7–11已付（准确矩阵/商类见索引与快照）；权12–15、完整Bell自然幂、4212来源/高度及算子桥仍开。
 - 全essT3≤3与整个V0临界层的matched Bell已零；V0原I0指数3不是全Jacobian幂。W±有Cat3真临界点，不能判Cat3整层空。
 - 外均值ess4长度5仅适用Cat(y)3、dimW4、y∉W。rankH3全闭；rankH4所有proper单零及unit4/2+2/3+1全闭，仅unit211与unit1⁴；全部rankH5及V非零inner-ess4/5/6仍开。
 - unit211零配对、零mean、相等/相反配对、整个P0零与u1均闭。只续p=1、q≠0,±1、u=b+cq≠0,1、P0≠0的非零孤立点mean；共同缩放不能用两次。
@@ -22,7 +22,7 @@
 
 ### unit211原剩余图
 
-- L0的w0/w1、b+c0整支与W线性λ整曲线均闭；原同域返回/单位证书见结果索引与第二快照。仅续b+c非零的G(7,4)、P1双零及余交点；新β一次系数全零/非零两图保全部原纤维。旧三参数超时与双零115.316614秒/4GiB仍未决，不重跑。
+- L0的w0/w1、b+c0与W线性λ整曲线闭；[整个P1双零](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-L0-P1-double-zero-complete-exclusion.md)现亦闭：旧beta首项非零真实260.209秒成功，零首项余1/7维候选新rho返回3.913952秒/70逆排尽。仅续G(7,4)与余交点。G旧run45833153054/job139954904770实际465.207秒触4GiB无单位，不重跑；旧双零4GiB与首项零exit2保持原身份。
 - S0已闭Af0/L非零、h1/k1、整个h=k；Lt0的g2零面、theta余式双零、M首项零、u2/ell1/a0和ellhalf/ahalf均闭，全部谱与原真逆见结果索引。[原U导数w0整支](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-zero-U-jet-exclusion.md)也闭：17次覆盖全返、末28维E1/EB单位，0.148623秒。仅续Af非零、三值互异Lt0一般图，可用theta=−r0/r1、(4λ−1)A、ell−1、ell−1/2及w单位。
 - 旧scratch双点均值分量误写的374/580次投影与PRS全部废止，三已推源及u2/ellhalf均不受影响；详见[纠错记录](notes/2026-11-27-r150-Lt0-invalid-mean-projection-correction-8542.md)。[新可逆低次原系统](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-low-invariant-original-system.md)已核四二次式/9伴随/同eta全部身份，7变量QQ输入20KB；新1200秒门只认实际I*C=1，build0.352856秒不是排空。旧失败照存。
 - 一般LS非零的两线性Cramer四参数atlas已实际生成，原Δ0全部保留；仍未判空。旧mod1031内存和600秒失败不重跑。
