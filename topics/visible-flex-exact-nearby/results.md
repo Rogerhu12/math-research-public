@@ -371,3 +371,5 @@
 - [QH：实角H² DN与正侧完整H¹高逆](results/R144-supplement-real-H2-exterior-DN-and-one-angular-positive-high-inverse.md)：unknown仅endpoint A³≤1e−9、真实Zθθ A0<1.879950733e−9；四DN行H±2和H7/6/两mean/height均付。34个saved有理比较；wholebody/外反馈<.803，collarloop<.016371，完整given-head L²rH4/3→L²rH1七端口表，ordinarybody增益1.645740、原rootreflection<4.182。有限193/S/原观察不改，无generic径向L2 trace；root/更高阶/fullSchur仍待。
 
 - [PH：真非局部phase和同worldframe height参数端口](results/R147-supplement-exact-nonlocal-phase-and-height-parameter-ports.md)：真实反射给完整phase 2∫a+²dotF+，保constant mean；same-selected普通dual<3/2，ASB的PDE配对误差<1.014851e−5，原finite carrier到真label误差<1.6e−5。11个saved比较；height单积分含独立刚体端口、physical waist坐标mean行及原off-shell缺陷。新signed积分/真实heightcarrier待，齐次补偿/fullνSchur仍未闭。
+
+- [RP：完整未解约束return和真参数phase二阶界](results/R144-supplement-full-off-constraint-principal-return-Hessian.md)：32个新saved有理组合；同一folded两腿保true root/两mean/directν/ν²，D²P<530NN、∂φDP<150N、N=L²rL²+100|κ|。原PD未归一moving phase mixed Hessian≤400，固定ν/g余项<96ρ²；真实waist物理零方程严格等价而非零残差chart项全保。仅低阶完整phase，尚待高阶/full regular与νSchur/worldheight及收敛。

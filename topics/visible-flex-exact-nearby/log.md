@@ -368,3 +368,6 @@ NS五件共129172B，owner71056B SHA18db439d5895e4232882940a57b7bd9457982383e1ac
 
 
 2026-11-26 23:21:02 UTC / visible-exact-astra-fb31ed6-20261127：PH非局部参数端口两件登记，11个新saved有理组合已过。原真实H'偶性给a−(φ)=a+(−φ)，fullphase正确变成2∫a+²dotF+而非0，真实constant mean载荷保。P25到sameQδ完整转移给普通L²rL² dual<3/2、ASB误差<1.014851e−5；原H24/两leg finite carrier到真selected a+误差<1.6e−5（不强加有限H24精确反射）。同worldframe δF(0)准确单积分保独立position/frame端口、fullheight mean及fixedphysicalθ额外waist行，原off-shell E/P缺陷和Airy接触费用不能删。只更正proof遗留作者/日期到本会话，数学未改；最终proofSHA d4aaa732fe987213857f2b7af4f383e521f15142648ba14be5d51df91c9ad856。首次phase signed积分入口待，非fullνSchur。QH已推3ecb3da315，两README无diff。
+
+
+2026-11-26 23:37:32 UTC / visible-exact-astra-fb31ed6-20261127：RP完整return/phase低阶Hessian已证，32个new saved有理组合首次全过。两腿合成同一正向+反向实际flow，原真root固定且两root图先严格约消；oldP25全Ld+SM实角桥给整folded L<.074、L2<19/J<27/25。原gamma正下界和TH全metric导数给真正cνν=−cν²/c（c²对ν affine）、compact支持外ν源0，完整mean/混合/ν²均保。新wholea* L²<.610给DP≤2.16N、D²P<530NN、角DP<150N；N=原L²rL² pair+100|δν|。PD原未归一moving E的mixed Hessian≤400，固定ν/g fullstate A0≤ρ二次项<96ρ²；真physicalwaist图按exact secant保非零残差，不免费换点wise角。无旧flow/phase/science重算，不授fullSchur/高阶迭代。PH推c97d8c8ebc两README无diff；TC23:23 wholeprefix624/7724。容量一次整树为198693613B，留1306387B供PHI/AS/TC后继。
