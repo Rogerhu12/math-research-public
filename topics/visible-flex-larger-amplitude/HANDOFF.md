@@ -6,7 +6,7 @@
 
 最近规则核查：2026-11-26 17:49:44 UTC，真实pull/rebase至 `4ef11ccb1c1510bced9f7ebaac624248dae9c544`，双README相对`76d1f7385a28fcd11f3bc3c38e146f35124f6736`无差异，授权及规矩继续执行。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
 
-科学计算仅本公开仓库Actions；执行偏差见[早前记录](notes/2026-11-20-public-actions-execution-correction.md)及[四次大JSON整读纠正](notes/2026-11-26-large-file-connector-read-correction.md)。root唯一分支写者；结论即普通推，NFF立即rebase循环，不强推。每次pull核双README差异并遵新规，至少每小时，记commit。raw只scratch/runner，不入Git/Release/artifact；保完整小源/参数/run/SHA/紧凑结论。题≤200MB、单文件<5MB、MD<100KB、H<10KB、open<30KB。令牌仅瞬时CLI。终端迁移中于17:55 UTC失联，未提交新参数仅留0-byte文件；最后真实pull仍见上文。当前云API读9a0e5f1a970d09bc754d52eea204f2eddd8fc850双README blob与4ef11相同；API普通快进补刊，未伪称新pull。
+科学计算仅本公开仓库Actions；执行偏差见[早前记录](notes/2026-11-20-public-actions-execution-correction.md)及[四次大JSON整读纠正](notes/2026-11-26-large-file-connector-read-correction.md)。root唯一分支写者；结论即普通推，NFF立即rebase循环，不强推。每次pull核双README差异并遵新规，至少每小时，记commit。raw只scratch/runner，不入Git/Release/artifact；保完整小源/参数/run/SHA/紧凑结论。题≤200MB、单文件<5MB、MD<100KB、H<10KB、open<30KB。令牌仅瞬时CLI。终端迁移中于17:55 UTC失联，未提交新参数仅留0-byte文件；最后真实pull仍见上文。当前云API读1edc7e36cb6ea0fe0669d78803bcca68d939d21c双README blob与4ef11相同；API普通快进补刊，未伪称新pull。
 
 
 目标：同一固定g、闭连通C²嵌入、全t强C²连续；固定有内点H且diamH≥.2D、整像δhold≥.2D、含反射δE>0；全t reach≥.03D、整面relative metric≤1e−6；固定g/参数/范围的真实mesh和频率精化至机器或原求解容差，多t可复现网格，准确说明严格存在缺口。D为完整F0直径。R248准确相位恒等式处理全t，不新增独立t插值门。有限误差/开放片/障碍不完成。
@@ -35,7 +35,7 @@
 
 ## 04及旧02边界
 
-[02父46–48](notes/2026-11-26-actual-parent-interior-restoration-entry.md)及[49真实终界](notes/2026-11-26-actual-run02-cached-SO3-49-and-terminal-boundary.md)：f66c/d2d0一metric，max .03662269652、有限g负、2856/2821点；02终止、50未跑、alpha/Pg未知。[04完整接续](notes/2026-11-26-run02-budget-and-complete-run04-continuation.md)45857104277自身再生父后进[规范化后退SOC](notes/2026-11-26-normalized-parent-cached-backtracked-soc.md)，不继承f66；全行/唯一锚/最终永久点复筛保。
+[02父46–48](notes/2026-11-26-actual-parent-interior-restoration-entry.md)及[49真实终界](notes/2026-11-26-actual-run02-cached-SO3-49-and-terminal-boundary.md)：f66c/d2d0一metric，max .03662269652、有限g负、2856/2821点；02终止、50未跑、alpha/Pg未知。[04完整接续](notes/2026-11-26-run02-budget-and-complete-run04-continuation.md)45857104277；[实际40–42](notes/2026-11-26-run04-actual40-42-and-failure-trace.md)：40返回51c8，2rest+1metric/max .03526433/有限g负；41仅命令后exit1，无report，42因无final未起child；已排真实trace，尚无科学归因。后退SOC保全行/永久点复筛。
 
 旧deep/Haar/R690–695/完整误差链保固定H与results/notes，不迁证。01止77/49followups，旧03的stage7未知，未执行不倒填。
 

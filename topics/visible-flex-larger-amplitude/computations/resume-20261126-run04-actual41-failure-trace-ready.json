@@ -1,0 +1,45 @@
+{
+  "id": "actual-normalized-cached-backtracked-SOC41-failure-trace-20261126-04",
+  "script": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/read_actual_followup_failure.py",
+  "parent_bundle": "so3-closed-actual-profile-interior-restore-first/final.npz",
+  "scope": "Pure ef017 attribution of the actually returned run04 stage41 child (5.942594131s, exit1, d0ba source). Resolve the actual combined stdout/stderr log ONLY from this exact step's completed status record; read at most32768 tail bytes and publish at most8000 final traceback characters. The existing actual40 final51c8 parent is used, never missing stage41 final. No raw report/scientific arrays/F/J/root/QP. A final outer CalledProcessError alone does not establish an inner scientific cause.",
+  "args": [
+    "--status",
+    "{work}/status.json",
+    "--step-id",
+    "complete-normalized-parent-cached-backtracked-SOC-ready-20261126-newrun04",
+    "--output",
+    "{work}/postprocess/actual-normalized-cached-backtracked-SOC41-failure-04.json",
+    "--maximum-tail-bytes",
+    "32768",
+    "--maximum-excerpt-characters",
+    "8000"
+  ],
+  "outputs": [
+    "postprocess/actual-normalized-cached-backtracked-SOC41-failure-04.json"
+  ],
+  "summary": {
+    "postprocess/actual-normalized-cached-backtracked-SOC41-failure-04.json": {
+      "schema": "schema",
+      "source_sha256": "source_sha256",
+      "status_sha256": "status_sha256",
+      "step_id": "step_id",
+      "actual_source_sha256": "actual_source_sha256",
+      "actual_source_commit": "actual_source_commit",
+      "actual_returncode": "actual_returncode",
+      "actual_recorded_seconds": "actual_recorded_seconds",
+      "actual_log_path": "actual_log_path",
+      "actual_log_sha256": "actual_log_sha256",
+      "actual_log_bytes": "actual_log_bytes",
+      "final_python_traceback_found": "final_python_traceback_found",
+      "final_exception_line": "final_exception_line",
+      "bounded_failure_excerpt": "bounded_failure_excerpt",
+      "excerpt_character_limit_reached": "excerpt_character_limit_reached",
+      "complete_log_published": "complete_log_published",
+      "scientific_arrays_read": "scientific_arrays_read",
+      "field_or_J_evaluations": "field_or_J_evaluations",
+      "numerical_failure_cause_inferred": "numerical_failure_cause_inferred",
+      "run": "github_run_id"
+    }
+  }
+}

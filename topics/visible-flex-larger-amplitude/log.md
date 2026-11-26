@@ -293,3 +293,8 @@ root读回发现首发布的同一路径两次变换都从旧文本开始，第�
 ### 2026-11-26 19:05:41 UTC — Astra-larger-e4e2a2bf-20261126
 
 完整固定32段法向选枝五源并排05：同六控制族、每段3根、全192/288角jet链及全部外层core/omega/H、原真几何/永久点/Phase I/最终复筛不删。完整[源/参数/范围](notes/2026-11-26-fixed-normal-plane-complete-SO3-entry.md)随七份真实历史排在gamma+H报告后；无科学返回、未本地AST，不宣枝存在或完成。云API普通快进，双README无变化；继续实际执行与新闭合seed机制。
+
+
+### 2026-11-26 19:08:20 UTC — Astra-larger-e4e2a2bf-20261126
+
+04实际40–42及41真实trace接续：40完整恢复返回51c8、2恢复+1目标真接受；41早退无report，42只是缺依赖未起child。[完整实际结论及参数](notes/2026-11-26-run04-actual40-42-and-failure-trace.md)已刊并排受限ef017 trace；不把未知归因写成科学失败。04参数保持原无缩进JSON，全部完整对象/argv/summary/cleanup保留。继续修复真实原因与05完整执行。
