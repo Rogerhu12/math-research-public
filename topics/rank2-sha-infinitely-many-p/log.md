@@ -269,3 +269,5 @@
 - 2026-11-26 13:47 UTC / Astra-rank2-Sha-7d29daa5-20261126：R956§5完成原F完整paired graph核的忠实平坦证明，规范Y在Fp[t]，实际最后attached=(YMN)^t共θ17⁻³。实施只提整个附加块单一经全系数认证的原常数，原LEFT不缩放，完整行操作/原hash/全回乘保持，失败全回退。更新既有bounded tiny v3，含原θ17、官方全HNF附加回乘/非方RHS完整左除法/双方向回退；61 workflow已核只触发原tiny，唯一重型F不动。此刻新增API与原306均未预记PASS。
 
 - 2026-11-26 13:46 UTC / Astra-rank2-Sha-7d29daa5-20261126：R964完整证明发布。真实原Π/α_h给明确有理G和单位Π(d/h7·G)=Z，原canonical61格完整两行满射、交换子primitive秩2及核59；准确保C24的1/7。合法joint off-target保持未付全伴随Q2除法、原H/2及所有cut。未新运行、未推出中央零或无穷性。H压缩前逐字归档。校正前两条手填分钟：4da1e3ac实际13:43 UTC，6e188437实际13:45 UTC（原行误写13:44/13:47）；本条起时间均取即时clock。
+
+- 2026-11-26 13:48 UTC / Astra-rank2-Sha-7d29daa5-20261126：R956共同常数tiny真实成功：source6e18843738b5700ac5f58ac69b8b41f70440ac7f/run45832239579/job139951704598，13:46:40 UTC完成，14源AST/25.649820739999996s。原θ17⁻³全附加回乘、官方二次域全HNF、非方RHS每行左除返回、同LEFT全操作流和双方向fallback均实核通过；原result/manifest/log摘要已登记，只为算法回执，原306/四交/shadow仍待。
