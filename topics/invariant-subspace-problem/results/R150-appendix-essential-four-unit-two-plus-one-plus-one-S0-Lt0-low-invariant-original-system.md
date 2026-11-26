@@ -159,7 +159,7 @@ QQ[invUnit,eta,v,f,lam,k,e]
 
 使用九个已清分母的原必要式，加一个 invUnit·S−1。S 的每个原子都有明示支付来源：e、k、u、j、x、ek−1、D3、lambda、z、Delta、L、Af，以及已关闭的 a=0、a=1/2、M 的两个首项零谱因子。没有新增未处理的首项零或除法。
 
-后续使用 Singular `liftstd(I,cert,"modstd")`，先在同一 QQ 环核一个小单位的证书乘回，再运行新输入。最终严格检查
+当时冻结源拟用 Singular `liftstd(I,cert,"modstd")`，先在同一 QQ 环核一个小单位的证书乘回，再运行新输入。最终严格检查
 
 ```
 size(GB)==1, GB[1]==1,
@@ -185,3 +185,7 @@ b324e3e541d95f66cd5c5098628f14f87c9ce3aeb6761b496cea1795ca5fbeb2
 本次本地没有 Singular，因此该 build 回执明确 `singularActuallyRun=false, claimExcluded=false`。新源内部证书门为 1200 秒、8 GiB 地址空间；后续 Actions 的真实退出、stdout SHA 与单位乘回必须另记。输入未出单位时继续换输入，不能将 build-only 成功写成数学排空。
 
 专用 Actions `invariant-subspace-Lt0-low-invariant-8542.yml` 固定此源的提交与 Git blob，父进程上限1400秒；实际退出、完整stdout摘要与I*C=1身份另记。启动运行本身不构成排空结论。
+
+### 2026-11-27 实际回执更新
+
+run `45890460154` / job `140151553412` 已结束，见[准确回执](../notes/2026-11-27-unit211-S0-Lt0-low-invariant-actual-execution-8542.json)。driver 实际 1200.425908 秒、RSS 2665480 KiB、source exit 1。小 `modstd` smoke 在通过标志出现前已触约 8 GiB 虚拟内存、tasks 类型错误及 signal 11；重启后变量未定义，后来完整 BEGIN 标志不代表证书入口已有效。全程无小单位或原单位的有效回乘，未判空。此源冻结不重跑；转入[新增原 P/N 的三参数 Cramer 必要系统](R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-original-Cramer-minor-system.md)，并换直接 `std` / `slimgb` 入口。

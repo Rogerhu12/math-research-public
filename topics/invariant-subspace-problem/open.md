@@ -144,4 +144,4 @@ A单射、稠密像、拟幂零且非紧；普通非零真闭不变子空间仍�
 
 **[同一相容真空塔的固定基数负相关改进](results/R271-appendix-fixed-cardinality-negative-correlation-near-optimal-compatible-vacuum-towers.md)已证：** 完整物理范数J_r近最优范围由L=o(√x)扩至L=o(x^(2/3))，原相容性、同一forcing与完整Gram不变。平方损失O(L(L+logx)²/x²)；固定头误差O_m((logx)^(3/2)/x)，已付Chebyshev短核源界给x=ceil exp(9d⁴)模型窗。仍超原全局exp(O(d³))母窗；同w到真实短核的δ_L、carry/lift与稳定BM端点继续，不能以小C^(L+1)残量替真实核距离。
 
-**[S0/Lt0新低次原系统](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-low-invariant-original-system.md)：** e=u−1、k=Q/e、v=4kbc·t可逆，四原二次式和同一eta的矩/配对/范数/N(V)保留所有原解；原P02恒等式支付ell≠0，半权已闭支付矩阵首项。7变量QQ真实证书门已接专用Actions；本地build0.352856秒只证明输入身份，未判空。
+**[S0/Lt0新低次原系统](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-low-invariant-original-system.md)：** e=u−1、k=Q/e、v=4kbc·t可逆，四原二次式和同一eta的矩/配对/范数/N(V)保留所有原解；原P02恒等式支付ell≠0，半权已闭支付矩阵首项。7变量原门实际1200.426秒/exit1，小modstd smoke先触内存/tasks错误及signal11，未通过；不重跑。新增[原P/N三参数Cramer系统](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-original-Cramer-minor-system.md)的全部原组合、114分母与20子式已回乘，4变量QQ build3.519411秒，不是排空；继续直接std/slimgb真实门或更低原几何。

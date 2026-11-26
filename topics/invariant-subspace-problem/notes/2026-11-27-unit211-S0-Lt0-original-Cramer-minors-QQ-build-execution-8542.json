@@ -1,0 +1,43 @@
+{
+  "schema": "r150-Lt0-original-Cramer-minors-build-v1",
+  "sourcePath": "notes/2026-11-27-unit211-S0-Lt0-original-Cramer-minors-QQ-8542.py",
+  "sourceSha256": "b03c51376eb3a972da6bbb05a523b1bacaf6290b81bb06eea094bd98df4f17d0",
+  "sourceBytes": 20415,
+  "pythonVersion": "3.12.14",
+  "pythonFlintVersion": "0.9.0",
+  "command": "PYTHONPATH=/workspace/scratch/8542378f2b73/isp_pydeps python topics/invariant-subspace-problem/notes/2026-11-27-unit211-S0-Lt0-original-Cramer-minors-QQ-8542.py --build-only",
+  "exitCode": 0,
+  "stdoutSha256": "27a9591a8fe827a337f5f85af454c4eca551c74e4e6673119e11ebc52b414531",
+  "stdoutBytes": 15974,
+  "lastStage": {
+    "stage": "build_only_complete",
+    "allOriginalTracesAndMinorsVerified": true,
+    "claimExcluded": false,
+    "seconds": 3.5194114550004088
+  },
+  "generatedScript": {
+    "stage": "original_minor_QQ_input_built",
+    "variables": 4,
+    "nonSaturationGenerators": 20,
+    "scriptBytes": 1444073,
+    "scriptSha256": "42333165e3802a189823c8616287afeadee2f5c9777a77f84603516b2c6cf74e",
+    "coefficientDenominatorChecks": 114,
+    "saturationAtoms": [
+      "u-1",
+      "Q/(u-1)",
+      "u",
+      "ell*k",
+      "bc",
+      "closed_half_weight",
+      "T0",
+      "distinct_p_q",
+      "closed_base_zero"
+    ],
+    "omittedEtaDependentUnitsEnlargeNecessaryVariety": true,
+    "sourceSha256": "b03c51376eb3a972da6bbb05a523b1bacaf6290b81bb06eea094bd98df4f17d0",
+    "claimExcluded": false,
+    "seconds": 3.5193662570000015
+  },
+  "singularActuallyRun": false,
+  "claimExcluded": false
+}

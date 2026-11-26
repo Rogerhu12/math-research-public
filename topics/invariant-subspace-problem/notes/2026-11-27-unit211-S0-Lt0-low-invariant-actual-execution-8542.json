@@ -1,0 +1,78 @@
+{
+  "schema": "r150-Lt0-low-invariant-actual-execution-v1",
+  "jobId": 140151553412,
+  "sourcePath": "notes/2026-11-27-unit211-S0-Lt0-low-invariant-original-QQ-8542.py",
+  "actualDriverReceipt": {
+    "elapsed_seconds": 1200.4259076259998,
+    "max_child_rss_kib": 2665480,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "6fb8bac3e24d97b95378470cd6c9963efdfe8b0e",
+        "before": "6fb8bac3e24d97b95378470cd6c9963efdfe8b0e",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-26T20:21:57.233538+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "45890460154",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "6fb8bac3e24d97b95378470cd6c9963efdfe8b0e",
+    "source_exit_code": 1,
+    "source_git_blob": "1363e56ca7367ea990fadffbaff5f27f7c497f4a",
+    "source_sha256": "05e7694122dc8ac6c94ba7a1f1093efa1ac79f00919adab1cd01f136fd27f6ba",
+    "stdout_bytes": 8892,
+    "stdout_sha256": "b4b60528b95ead13c09479e46baeb9abbec2e52803d610080f270c0a3ab95fa8",
+    "stop_reason": null
+  },
+  "finalStages": [
+    {
+      "stage": "entire_low_QQ_input_built",
+      "scriptBytes": 20366,
+      "scriptSha256": "b324e3e541d95f66cd5c5098628f14f87c9ce3aeb6761b496cea1795ca5fbeb2",
+      "saturationAtoms": [
+        "u-1",
+        "Q/(u-1)",
+        "u",
+        "ell*k",
+        "T0/(1-u)",
+        "distinct_p_q",
+        "bc",
+        "lambda",
+        "z",
+        "distinct_h_k",
+        "L",
+        "Af",
+        "closed_base_a0",
+        "closed_base_a_half",
+        "closed_parameter_leading_linear",
+        "closed_parameter_leading_A"
+      ],
+      "sourceSha256": "05e7694122dc8ac6c94ba7a1f1093efa1ac79f00919adab1cd01f136fd27f6ba",
+      "ordinaryISPClaim": false,
+      "claimExcluded": false,
+      "seconds": 0.2328356160000027
+    },
+    {
+      "stage": "singular_version",
+      "returncode": 0,
+      "version": "Singular for x86_64-Linux version 4.4.1 (44105, 64 bit) Dec  6 2025 11:10:58",
+      "seconds": 0.23837134700000462
+    },
+    {
+      "stage": "actual_QQ_timeout",
+      "seconds": 1200.358208501,
+      "stdoutSha256": "ae22cd6d5e78ffd0a2efb37254de8a7fa1841294a3ad485734441244e99f6e16",
+      "text": "\nSingular error: no more memory\nSystem 8337848k:8339896k Appl 8073558k/2069k Malloc 7987563k/0k Valloc 88064k/2069k Pages 21832/184 Regions 43:44 Internal: 6248\n   ? `int`(index) = `def` is not supported\n   ? expected `int` = `int`\n   ? expected `int` = `intmat`\n   ? error occurred in or before tasks.lib::waitTasks line 1026: `        index = read(links[wait]);`\n   ? leaving tasks.lib::waitTasks (1022)\n   skipping text from `;` error at token `)`\n   ? leaving tasks.lib::waitAllTasks (1113)\n   ? leaving modular.lib::primeList (345)\n   ? leaving modular.lib::modular (151)\n   ? leaving modstd.lib::modStd (82)\nSingular : signal 11 (v: 44105):\ncurrent line:>>        index = read(links[wait]);<<\nSegment fault/Bus error occurred at 5 because of 10206 (r:1795724517)\nplease inform the authors\ntrying to restart...\n   ? `smoke` is not defined\n   ? error occurred in or before /tmp/isp-Lt0-low-original-vgcmp1hs/input.sing line 4: `        index = read(links[wait]);`\n   ? expected matrix-expression. type 'help matrix;'\n   ? `smokeg` is not defined\n   ? error occurred in or before /tmp/isp-Lt0-low-original-vgcmp1hs/input.sing line 5: `=1){print(\"ISP_LT0_QQ_SMOKE_FAILED\");quit;}print(\"ISP_LT0_QQ_SMOKE_VERIFIED\");`\nISP_LT0_BEGIN_ORIGINAL_LOW_QQ_LIFT\n// ** redefining  tmpRing (I,cert,\"modstd\");print(\"ISP_LT0_LIFT_RETURNED\");matrix product=matrix(I)*cert;) /tmp/isp-Lt0-low-original-vgcmp1hs/input.sing:16\n// ** redefining primeTest (    exportto(Modular, primeTest);)\n// ** redefining Command (    exportto(Modular, Command);)\n// ** redefining Arguments (    exportto(Modular, Arguments);)\n",
+      "claimExcluded": false
+    }
+  ],
+  "downloadedJobLogSha256": "995db0fcdfdc13c6950b035a1b6cd587f4c46715ef53de708497e98b7cd353ec",
+  "claimExcluded": false,
+  "ordinaryISPClaim": false
+}

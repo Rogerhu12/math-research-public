@@ -400,3 +400,6 @@ AI-assisted GPT-6 Astra Pro：通过实际job logs补收前会话beta首项非�
 
 ## 2026-11-26 20:42:15 UTC — Astra-ISP-8542378f-20261127：原G曲线的全部w首项零纤维关闭
 AI-assisted GPT-6 Astra Pro：首项完整分解后，两参数域精确迫旧w0/w1；余C二次的G保同lambda/w六维相关代数，a真实可逆，原P1/E1/N1返回rho的Bézout为1，47逆/3.809899秒/52192KiB/exit0。一般G仍开，接已付首项的四次商关系；H/open先保完整快照再压缩已闭重复内容。
+
+## 2026-11-26 20:52:05 UTC — Astra-ISP-8542378f-20261127：原P/N与三参数Cramer必要系统
+AI-assisted GPT-6 Astra Pro：完整同根P/N误差均为原范数式倍数，Cramer改写追踪与20个三行原组合逐项回乘，114分母只含已付det因子。build3.519411秒四变量输入是新必要归约，未判空。七变量真实门准确补收为smoke先内存/tasks/signal11、1200.426秒/exit1；不把BEGIN标志算入口成功，不重跑旧输入。下一用官方std/slimgb直接入口。H/open先保完整快照，压缩已闭重复描述。

@@ -5,9 +5,9 @@
 ## 目标、规则与执行
 
 - **普通复可分无限维 Hilbert ISP 未完成。** 仅全体有界算子的存在定理或完整反例算完成。
-- **最近实际 pull / 已读规则提交：** `2fe96111df00fba4b85329818e1f0427c39eb7fc`（2026-11-26 20:42:22 UTC；本地部分克隆）；本次两 README diff 无变化。每次 pull 且至少每小时检查并更新本项。
+- **最近实际 pull / 已读规则提交：** `ac7547dbaf0ffe05f10cd63950078e36c90d5d6c`（2026-11-26 20:52:20 UTC；本地部分克隆）；本次两 README diff 无变化。每次 pull 且至少每小时检查并更新本项。
 - 私库 QUEUE 接手已推 `5746fa79a74af4975476d400dfbe0c4e5cb9ae9d`；私库根规则2026-11-26 20:28 UTC已pull至 `63459bc1a74526162372866a9ae39bb51006ba78`，diff无变、QUEUE保持本会话。每结论单推，非快进即 pull --rebase 再推；不 force，令牌仅 CLI。
-- 本轮本地终端可用。前会话执行身份及全部原交接保[接手快照](notes/2026-11-27-handoff-at-takeover-8542.md)；本轮快照链见[最新完整归档](notes/2026-11-27-handoff-before-G-leading-and-Cramer-8542.md)。失败不改标成功，已登记不重做。
+- 本轮本地终端可用。前会话执行身份及全部原交接保[接手快照](notes/2026-11-27-handoff-at-takeover-8542.md)；本轮快照链见[最新完整归档](notes/2026-11-27-handoff-before-Cramer-registration-8542.md)。失败不改标成功，已登记不重做。
 - 仅保源、参数、SHA、小回执；MD<100KB、H<10KB、open尽量<30KB、topic<200MB，不写根LOG。已读本轮 log；notes 按交接路径与结果索引定点续读。
 - 正在推进：R271 同一 w 的真实终端/稳定范围；R150 S0三值互异Lt0原r1非零一般图；文献与 Deddens 同源插值。完整证明登记后即接下一未闭项。
 
@@ -24,7 +24,8 @@
 
 - L0的w0/w1、b+c0与W线性λ整曲线闭；[整个P1双零](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-L0-P1-double-zero-complete-exclusion.md)现亦闭：旧beta首项非零真实260.209秒成功，零首项余1/7维候选新rho返回3.913952秒/70逆排尽。[G的全部w首项零纤维](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-L0-G-leading-w-zero-exclusion.md)亦闭，末6维/47逆、3.809899秒；可合法用w四次关系。仅续一般G及余交点。G旧run45833153054/job139954904770实际465.207秒触4GiB无单位，不重跑；旧双零4GiB与首项零exit2保持原身份。
 - S0已闭Af0/L非零、h1/k1、整个h=k；Lt0的g2零面、theta余式双零、M首项零、u2/ell1/a0和ellhalf/ahalf均闭，全部谱与原真逆见结果索引。[原U导数w0整支](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-zero-U-jet-exclusion.md)也闭：17次覆盖全返、末28维E1/EB单位，0.148623秒。仅续Af非零、三值互异Lt0一般图，可用theta=−r0/r1、(4λ−1)A、ell−1、ell−1/2及w单位。
-- 旧scratch双点均值分量误写的374/580次投影与PRS全部废止，三已推源及u2/ellhalf均不受影响；详见[纠错记录](notes/2026-11-27-r150-Lt0-invalid-mean-projection-correction-8542.md)。[新可逆低次原系统](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-low-invariant-original-system.md)已核四二次式/9伴随/同eta全部身份，7变量QQ输入20KB；新1200秒门只认实际I*C=1，build0.352856秒不是排空。旧失败照存。
+- 旧scratch双点均值误写的374/580投影/PRS全部作废，已推正确源不受影响；[纠错](notes/2026-11-27-r150-Lt0-invalid-mean-projection-correction-8542.md)。新低次7变量run45890460154/job140151553412实际1200.426秒/exit1，**modstd小smoke先内存/tasks错误并重启，未通过**，非有效原单位计算。准确[回执](notes/2026-11-27-unit211-S0-Lt0-low-invariant-actual-execution-8542.json)保留，不重跑。
+- [原P/N与三参数Cramer系统](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-original-Cramer-minor-system.md)已证明：同eta降幂、114分母、全部改写原组合及20个原行子式回乘；QQ[invUnit,v,k,e]，build3.519411秒未判空。下一门须直接std小smoke/slimgb完整证书，保所有首项零与未付单位。
 - 一般LS非零的两线性Cramer四参数atlas已实际生成，原Δ0全部保留；仍未判空。旧mod1031内存和600秒失败不重跑。
 
 ### rankH3原ess6
@@ -39,14 +40,10 @@
 
 M=kerT、N=closureBM；N=M未证。保同w/u、全部partial、真intersection旗、MP自然域、负前缀/未来/carry与完整帽外投影；低forcing不等于低输出。
 
-- 原完整Galerkin/MP、β行、Hankel与真旗固定次数已付，准确常数见快照。完整64^R、物理γ<1/16绝对Z、32^N孔权及真帽返回仍开；有界/O(t)所需原F0与首阶核条件不可删。
-- 全T Gram、原未加权inverse、J∞尾、实际方差网格与全阶乘矩已付；∫μ_Tds/s≤1、Σμ_T(Sx)/x<∞。通用清除仍有e^(κy)，输出孔正则/实际核返回未付。
-- 全部远位硬化与同mode重最小化已付，端点P_Mf保同u/partial；P_Mf∈closureBM仍未知。实际F_t/F0与原r/R/Q窗已付，冻结零列障碍不排全部重最小化。
-- 原Riordan整塔的强位混合项及ΔF恢复同u已付，准确源差3C0³min(√ε,√(μ/h))仍趋P_Mf；不能移给未知F0、远孔32^N或完整MP。
-- 旧τ14极快起点的有限全高度无权Bessel常数2已付，仅引用。[新任意几何起点无限加权行](results/R271-appendix-all-positive-far-hole-moving-coherent-rows-and-matched-source-cost.md)用ω²=S(x+p−1)/(pSx)保全部p≠q交叉，常数Bλ，J≤2x逆权≤27J；真有限头MP型及完整cut保留。f−a_full的Γ²≤27μ1但锚趋0，不能移给有锚f/第二Green。
-- [R=d全高度能量及原截断源全矩](results/R271-appendix-geometric-cutoffs-same-w-complete-energy-and-d-sized-once-mp.md)已证H_C(8Sx)≤Hω。任意同w∈M的P_xw由原行迭代、e^(−47d⁴)全carry误差和整行Bessel支付全部幂矩；x=m+d,h=2d,Q=2d³、真帽cut数d³−5d全合法。旧K*=1+47616·2·512²的一次MP原样接入。
-- [全部固定次数及同源慢增的真实顺次MP](results/R271-appendix-fixed-successive-actual-mp-common-variance-and-slowly-growing-depth.md)已付：共同c_k=2·512^(2k)窗保所有r≤k，准确反馈−Cq_r与终列Σ(−C)^pa⊗(D†)^pΩ保primitive，中间孔数不增。任意同w∈M可选k_m→∞、k_m≤m/12且s_m→0，修正/误差/真实残量平方可和。
-- [同一条件Bernoulli精确塔的新范数界](results/R271-appendix-fixed-cardinality-negative-correlation-near-optimal-compatible-vacuum-towers.md)已证：固定基数负相关保真实σ_r与相容性，J_r≤(exp(128L(L+logλ)²/λ²)+2λ⁻³)/(1−exp(−λ/4))，范围扩至L=o(x^(2/3))。同源Gram/短真核距离δ_L完整保留；固定头误差O_m((logx)^(3/2)/x)，Chebyshev模型x=ceil exp(9d⁴)仍超全局exp(O(d³))母窗，未解决稳定返回。
+- 已付完整Galerkin/MP/β/Hankel/真旗、全部Gram与同源μ_T、阶乘矩及实际Σμ_T(Sx)/x<∞；准确常数与公式保最新快照。原64^R、物理γ<1/16绝对Z、远孔32^N、真帽返回及通用e^(κy)清除仍未付；F0与首阶核条件不可删。
+- 全部远位硬化、同mode重最小化和Riordan整塔均保持原u/partial、趋P_Mf；P_Mf∈closureBM未知。几何起点无限行Bessel及全部p≠q交叉已付，逆权≤27J；f−a_full的Γ²≤27μ1但锚趋0，不能移给有锚f/第二Green。
+- R=d、x=m+d、h=2d、Q=2d³的全高度能量、原P_xw全矩和e^(−47d⁴)carry已付，真帽cut数d³−5d。原K*=1+47616·2·512²一次MP合法；完整反馈−Cq_r和真实终列Σ(−C)^pa⊗(D†)^pΩ不可删。共同c_k=2·512^(2k)窗保所有r≤k；同w可取k_m→∞、k_m≤m/12且s_m→0，修正/误差/残量平方可和。
+- [相容真空塔负相关界](results/R271-appendix-fixed-cardinality-negative-correlation-near-optimal-compatible-vacuum-towers.md)已证J_r≤(exp(128L(L+logλ)²/λ²)+2λ⁻³)/(1−exp(−λ/4))、L=o(x^(2/3))；同源Gram/短真核距离δ_L保留。固定头误差O_m((logx)^(3/2)/x)，Chebyshev模型x=ceil exp(9d⁴)仍超全局exp(O(d³))母窗。
 - **实际终端k=h−1的增长费仍未付。** 慢增近核不作kerT或closureBM；下一保原同w的C^pP_xw=(−D)^pw_p+真实carry及特殊真空primitive塔，继续终端完整费用/精确残量清除、带锚第二Green。不得删(I−P_K)Gv、原u修正项或换成boson列。
 
 ## 其余开放
