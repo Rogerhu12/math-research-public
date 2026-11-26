@@ -1,0 +1,47 @@
+{
+  "elapsed_seconds": 4.277630321000004,
+  "max_child_rss_kib": 80708,
+  "ordinary_isp_claim": false,
+  "rules_reads": [
+    {
+      "after": "f9cec40ba07ca9ec4fec177946d90700346c98a3",
+      "before": "31ec7ed7c882830bd16e320a111f93f8ef161c67",
+      "rules_git_blobs": {
+        "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+        "topics/invariant-subspace-problem/README.md": "fef43bdf8690f2eec4751d85784a266eacdd0322"
+      },
+      "rules_unchanged": true,
+      "utc": "2026-11-26T10:39:41.362474+00:00"
+    }
+  ],
+  "run_attempt": "1",
+  "run_id": "45803350694",
+  "schema": "isp-frozen-exact-actions-execution-v1",
+  "session": "Astra-ISP-347c-20261126",
+  "source_commit": "31ec7ed7c882830bd16e320a111f93f8ef161c67",
+  "source_exit_code": 0,
+  "source_git_blob": "849653c3b99fa90d0f84f4d251cf2f917ac18b9b",
+  "source_sha256": "9e843f0cad6ae672258021d650ff68e72e914405fc1848ca41de5f6d1f3d5bab",
+  "stdout_bytes": 1300,
+  "stdout_sha256": "2cc4e7f2a4f3ff7c3da9d5d45ebb52f7a1b739440239285392dbcd68f95d2e8a",
+  "stop_reason": null,
+  "job_id": "139852028594",
+  "scope": "entire S=0, Af=0 value-collision branch excluded",
+  "math_result": {
+    "claimExcluded": true,
+    "claimLambdaLayerEmpty": false,
+    "elapsedSeconds": 3.961885,
+    "finalBasis": [
+      {
+        "terms": 1,
+        "totalDegree": 0
+      }
+    ],
+    "inputSha256": "59c1d30d305e4238e2d4a8e912c8519a5cfb630d0421cbc3f202ca9db15d084a",
+    "ordinaryISPClaim": false,
+    "peakRssKiB": 80708,
+    "schema": "r150-unit211-U-value-S0-collision-Af0-v1",
+    "sourceSha256": "9e843f0cad6ae672258021d650ff68e72e914405fc1848ca41de5f6d1f3d5bab",
+    "status": "exact_original_fiber_excluded"
+  }
+}

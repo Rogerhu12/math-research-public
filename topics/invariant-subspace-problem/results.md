@@ -235,3 +235,5 @@
 - **R150 单位211非零mean的原U值完整分层与L/S线性退化图（2026-11-26，已证明）：** [原moment、全局E0/N0和原N(V)线性身份](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-original-U-value-atlas.md)保三种值碰撞、P0=−U0³及全部原九式；t系数bcLS/[2(q−1)]给五坐标图，L0/w1全部降到QQsqrt17的rho/f/t。run45803350694/job139852028816短原身份0.568990秒/70884KiB/exit0；旧大展开超时失败分记，未宣物理充分性或全层空。
 
 - **R150 原U值图S0/Af0三值互异层的完整有限参数覆盖（2026-11-26，已证明）：** [原常数线性图与QQ21次Sylvester身份](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-U-value-S0-finite-parameter-cover.md)把I=H0面归到不可约M6，z为全局有理式，两个值分配与至多两个q根给最多24纤维；bc、值判别与l1全由QQ gcd支付。独立BigInt源同字节V8实际3ms全过，模41只用于不可约性；未宣这些原(f,t)纤维为空。
+
+- **R150 原U值图S0/Af0的全部值碰撞交面为空（2026-11-26，已证明）：** [原moment完整碰撞参数化及九式单位理想](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-U-value-S0-collision-exclusion.md)先排h1/k1和λhalf，剩余2λ²1迫b=c，全部q根由QQsqrt2sqrt3四嵌入覆盖。原E/P/N九式在K[f,t]中GB1；run45803350694/job139852028594、9e843f0c、3.961885秒/80708KiB/exit0，两个历史接口失败分记。三值互异及Af非零面继续。

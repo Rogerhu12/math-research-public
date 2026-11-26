@@ -208,3 +208,6 @@ AI-assisted GPT-6 Astra Pro：[原moment/线性N完整证明](results/R150-appen
 
 ## 2026-11-26 10:58:14 UTC — Astra-ISP-347c-20261126：U值S0线性退化层的完整有限覆盖
 AI-assisted GPT-6 Astra Pro：[原I/H常数式与QQ有限覆盖证明](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-U-value-S0-finite-parameter-cover.md)支付所有非M6因子、z/值/权重除数及q降次，至多24个参数纤维。独立BigInt源同字节V8实际3ms全过，完整源码与小回执同推；这里只关闭覆盖引理，原九式纤维排除继续。
+
+## 2026-11-26 10:59:43 UTC — Astra-ISP-347c-20261126：U值S0/Af0的全部值碰撞交面关闭
+AI-assisted GPT-6 Astra Pro：[原九式与全部共轭证明](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-U-value-S0-collision-exclusion.md)逐一付h1/k1、λhalf及2λ²1全部权重/q根，QQsqrt2sqrt3的K[f,t]基恰1。实际3.961885秒/80708KiB/exit0；两个执行接口失败与成功各保原身份，继续三值互异和Af非零面。

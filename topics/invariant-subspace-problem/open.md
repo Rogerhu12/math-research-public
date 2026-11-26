@@ -56,7 +56,7 @@ $$
 
 **[单位211整个P0零支已空](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-zero-highest-value-exclusion.md)：** 全部QQ末纤维、原等向半权及Gram秩二族已付，不重做。原详细状态保[本次压缩前open](notes/2026-11-26-open-before-U-degeneracy-fibers-347c.md)；仅一般非零m/P0继续。
 
-**[单位211整个零孤立点mean分支已闭](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-nonzero-base-highest-zero-isolated-mean-exclusion.md)：** 原三mean到(u,Q)的有限纤维全部系数退化已付，低曲线/完整原纤维及五维Gram秩二族全排。两高曲线的真正QQ结式671/629、2876/2736，gcd仅u78(u−1)96与(u+2)21u228(u−1)459，全部剩余根已回原式排除。run45789670184/job139805205519的冻结源0374全通过，1443.281305秒/297956KiB/exit0。结合已登记奇异jet、J0、低配对和P0零层，零m全支关闭；仅续非零m，不重跑此门。
+**[单位211整个零孤立点mean分支已闭](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-nonzero-base-highest-zero-isolated-mean-exclusion.md)：** 两图全部有限纤维、低曲线和物理秩边界已付，高曲线QQ671/629、2876/2736只余既闭参数；run45789670184实际1443.281305秒/297956KiB/exit0。结合P0零和低配对后不再重做m0，只续非零m。
 
 **[rankH3单一三重jet、rankV2的全部ess6已空](results/R150-appendix-rank-three-single-jet-second-cumulant-has-essential-dimension-at-most-five.md)：** 最后F=−m/Hp非零在保持H的合法真jet规范中，Gaussian迫p1=d0、p0p2=hb²；原N/最高的0/1/2阶式先付7/15边界，再得S³+3mS/(2e)=1而左边5/2。结合Hp0的原十六维QQ全纤维，以及所有特殊源/∞、V二jet和F2m排除，整单一三jet仅ess≤5。纯手证，无新计算；只续H2+1、三值H及原ess4/5。
 
@@ -64,9 +64,9 @@ $$
 
 **[一般非零mean的原U值坐标覆盖](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-original-U-value-atlas.md)已付：** 保P0=−U0³、完整三moment/值碰撞、原E0/N0图与N(V)仿射式；t系数准确为bcLS/[2(q−1)]。LS非零图只余(f,q,λ,h,k)，L0与S0全系数退化单独保留；L0/w1只余QQsqrt17的rho/f/t原九式。短原身份实际0.568990秒/exit0；旧900秒大展开exit−9不作成功。继续原必要式和物理实现。
 
-**[S0/Af0三值互异层的完整有限覆盖](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-U-value-S0-finite-parameter-cover.md)：** 原常数式的I/H非同时零给全局q图；同时零只余不可约M6，所有除数/值判别/bc/l1全付，参数至多24纤维。真实BigInt QQ结式与模41不可约身份已通过，但未排原(f,t)纤维；继续整个九式。一般I/H非同时零图已经对称到(λ,z)，系数退化仍保。
+**[S0/Af0三值互异层的完整有限覆盖](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-U-value-S0-finite-parameter-cover.md)：** 原常数式的I/H非同时零给全局q图；同时零只余不可约M6，所有除数/值判别/bc/l1全付，参数至多24纤维。真实BigInt QQ结式与模41不可约身份已通过，但未排原(f,t)纤维；继续整个九式。[S0/Af0全部值碰撞](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-U-value-S0-collision-exclusion.md)已由原h1/k1、λhalf矛盾及四次数域的原九式GB1排尽（3.961885秒/exit0）。仅续三值互异的有限24纤维及I/H非同时零图，后者已对称到(λ,z)。
 
-**[rankH3二重加单点的非零Hp整层已闭](results/R150-appendix-rank-three-double-plus-single-second-cumulant-nonzero-hp-essential-six-exclusion.md)：** 原重节点零/等配对全排并付J分母；原N差导出G1/G2时不除At/τ/γ。完整QQ93/126结式gcd56只余Q2/Q4，全部good σ纤维由原G1/Ht的QQ真逆排除。run45795365604/job139824523000实际0.011089秒/36048KiB/exit0；与已闭[退化Gram](results/R150-appendix-rank-three-double-plus-single-second-cumulant-degenerate-gram-essential-six-exclusion.md)、[非约化V/F0/e0](results/R150-appendix-rank-three-double-plus-single-second-cumulant-nonreduced-third-cumulant-essential-six-exclusion.md)合并，仅续bgF e非零、Hp0的约化V。
+**[rankH3二重加单点的非零Hp整层ess≤5](results/R150-appendix-rank-three-double-plus-single-second-cumulant-nonzero-hp-essential-six-exclusion.md)：** 原节点/J及At/τ/γ全部零面保留，QQ93/126与两个异常谱六真逆已付，0.011089秒/exit0。勿重做，仅续Hp0四源有限层。
 
 **2+1型H、Hp0九次Gram的剩余ess6层：** [孤立H源w∞](results/R150-appendix-rank-three-double-plus-single-second-cumulant-zero-hp-infinity-essential-six-exclusion.md)和[任一V源∞](results/R150-appendix-rank-three-double-plus-single-second-cumulant-zero-hp-infinite-V-source-essential-six-exclusion.md)现均全闭。后者保J3全部降次，QQ150/117、157阶余商836及D8/D2完整48/12维塔范数971/748严格提升到九次域，32个QQ真逆付清；两实际源码均exit0。故只续二重H源、孤立H源和两个V源全有限的原系统，[完整等价有理重建](results/R150-appendix-rank-three-double-plus-single-zero-hp-finite-source-rational-reconstruction.md)已用P−S=ηD_H E_V消全部y与尺度平方根，正反两向均付；四有限源又有12低次原尺度/Hermite/范数式和11/16全部N/最高系数，继续真实QQ九次域原理想，模1031仅作结构探针；三约化H和ess4/5仍开。
 
