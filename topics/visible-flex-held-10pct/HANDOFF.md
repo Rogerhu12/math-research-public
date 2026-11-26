@@ -6,10 +6,10 @@
 
 连通闭C²嵌入、C²连续族；H闭、有内点且diamH≥.2D，整像δhold≥.1D、含反射δE>0，全时reach≥.03D。固定完整g/物理数据/时间范围加密到完整metric≤1e−6并持续下降。必须实际闭合和共用Cartesian两jet；λ<1不提供准确圆弧H。
 
-- 公共已完整读规则并真实pull：`6828228a8d2cd27d59a05e018f141afab4c5853a`；私有根README/QUEUE接手登记已推 `2f68946f2fa3e192a291c7c1393231af1a89953e`。每次pull核双README差异，至少每小时一次。root独占git，逐结论push，NFF立即pull --rebase再推，禁force；令牌只命令行。
+- 公共已完整读规则并真实pull：`a5f108f99d3ac7b77721049d89c59532971bf9d8`；私有根README/QUEUE接手登记已推 `2f68946f2fa3e192a291c7c1393231af1a89953e`。每次pull核双README差异，至少每小时一次。root独占git，逐结论push，NFF立即pull --rebase再推，禁force；令牌只命令行。
 - 工作树 `/tmp/held10-astra-06bbeb395471-public3`；旧scratch已失，原/workspace盘满勿删他人文件；旧进程终态不推断。详细[接手/来源](notes/2026-11-26-resume-and-current-sources.md)。
 - 70份源及实际chart69a3e8eb...保物理输入/原门；[恢复入口](notes/2026-11-26-tail-source-recovery.md)，不当新数学结果。
-- 公共[material run45763361623](https://github.com/Rogerhu12/math-research-public/actions/runs/45763361623)：M24 cold已真实δ中心差分越域，无raw；三路parent原门拒源exit2。M16/512 cold自然status1/n5860/RMS10.0388736684未门，rawba1b5a5e。后续[λ.004历史完整H独立尾](notes/2026-11-26-recorded-lambda004-tail-input.md)被预mkdir冲突挡在native初始化，未求尾；四入口已去该行，新目录请求02接续，见[实际返回](notes/2026-11-26-native-fresh-directory-startup-return.json)。
+- 公共[material run45763361623](https://github.com/Rogerhu12/math-research-public/actions/runs/45763361623)：M24 cold已真实δ中心差分越域，无raw；三路parent原门拒源exit2。M16/512 cold自然status1/n5860/RMS10.0388736684未门，rawba1b5a5e。历史λ.004完整H独立尾修复native预mkdir后，[factor.25已真过](notes/2026-11-26-recorded-lambda004-tail-factor025-actual.json)：包84c10c24/res6.24244e−10且原audit返回，正求.5；该原prefix metric未门，勿称匹配耦合/fullH。
 - 独立[lowq run45772029917](https://github.com/Rogerhu12/math-research-public/actions/runs/45772029917)：首请求在chart SHA处exit2未求解；新请求held10-lowq-current-chart-20261126-02固定实际chart后，七档q及λ0已原门通过，λ.002 M8/M16 metric未门只作初猜；可见版本到M24，随后旧worker超过64KiB省略诊断，M24终态未知。见[恢复入口及实际返回](notes/2026-11-26-lowq-warm-route-recovery.md)。最终M24原门后才启动真尾/圆化等路线。
 - 05:51/09:18 UTC本地两次重置；09:31恢复后/tmp全失，已重建public3并真实pull、双README无变。远端计算与已推源码保留，未推本地记录不可假定存在。
 - 根§12优先真实数学/求解，§15可再生数组不入Git/Release/artifacts；只存源/参数/命令/hash/小标量。H<10KB、单MD<100KB、目录<200MB，不写根LOG。
