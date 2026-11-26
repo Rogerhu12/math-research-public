@@ -61,3 +61,7 @@
 ## 2026-11-26 16:02:05 UTC — 完整规范化父后退SOC实现与独立接续
 
 刊[完整六源/参数/证明](notes/2026-11-26-normalized-parent-cached-backtracked-soc.md)：e716 rows/50a9 cache/01b2 driver/d0ba launcher/3fe4 deriver/9e92 reader，ed83完整1×64/rest4×64/mu.01 ready。同一原x/A/C、全部行追加，先真实fallback再唯一最近较大拒绝锚，最终候选按同Phi顺序用全部新永久地址复筛，唯一接受；原范数/物理g/全部变量不变。root本地只AST/compile/源码/纯参数核。02真实job10:18:24Z起，YAML350min；controller20000s准入约15:52:28到界，49仍运行而50尚未执行。准备新公开runner必要输入再生后接新SOC，不停在job期限、不冒49返回。
+
+## 2026-11-26 16:12:57 UTC — 独立04完整必要再生接续新SOC
+
+按a0a3 controller/完整14步/c7fa workflow配置push触发；[完整说明](notes/2026-11-26-run02-budget-and-complete-run04-continuation.md)保依赖闭包与新父选择。root核全部runtime script/args/outputs/parent/cleanup/summary逐值等于登记参数，另核仅id/来源说明变化。49已真返f66，04明确再生0f父直接新SOC，不冒49继承；request仅说明更新SHA 031593c10f1d0fd3b54564ddc0ac920127fd68dae8070351a8d5ae83433b207e。H背景固定2a7c全文，终态02槽收为准确末状态并留04空间；逐pull核双README。
