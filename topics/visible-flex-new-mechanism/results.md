@@ -346,3 +346,5 @@
 - [B030径向1025完整callback收据](notes/2026-11-26-theta-radial1025-b030-runner-interruption-receipt.md)：run45814491221再次外部shutdown，无FINAL；最新η.25839888496076013/V0，actual539/1218、全58pending→571/1276及原trust均保。新217.92376114秒仅科学下界，链2853.267645737秒、两段未刷墙钟分别未知；容量未命中，直接原算子真续接。
 
 - [R596 同一温和尾至j16的真实全平核](results/R596-same-mild-tail-flat-kernels-through-sixteen.md)：**已证明**同一真实W/相位盒、全部整数2≤j≤16的明确单谷界与准确DtN收缩；prefactor256/势54000a⁻⁴仍付<.014的Green小量和<1/64耦合，截断误差不含浮点ODE。新10/12/14/16须各付自身数值口，未授全频逆/非线性尾。
+
+- [B030完整付费状态通用续接](notes/2026-11-26-theta-paid-state-generic-resume.md)：新入口严格绑定真实run/job、原commit上实际wrapper/a879对象、完整callback/81q/所有539/1218及571/1276提议；1025/2048不变，保两段censored成本。仅替换已审输入恢复器，不重放旧outer/接口，下一从真实末态继续科学。

@@ -1,0 +1,35 @@
+# B030 完整付费状态的通用续接入口
+
+日期：2026-11-26。新request从 run45814491221/job139890563243/source ee5dc7af68aacc4e508c0fc6607dc376cc20f815 最近完整outer0/callback1接续；[原终态收据](2026-11-26-theta-radial1025-b030-runner-interruption-receipt.md)已逐字节识别其shutdown与真实改进。
+
+## 本次实际输入
+
+原retained81q是完整已接受metric候选，eta=.25839888496076013、细几何V0。实际539radial/1218额外peak orbit、1536全角/FFT；全部待采用提议571radial/1276orbit、58新pending。原trust1.20135498046875尚未适配，继续原值。
+
+checkpoint153485 B/SHA2566988077d4e36321de786e80f814b6eddc954e6d3f2a06609d859d7ef04450f9f，原raw714677 B/SHA25601ec597812a268075c91987c9f30ac493bf5e9ca2fdf98b15b000b95f0f90720。q binary64 SHA2567e708ba7a973e8505a81e94073707e8c39504d1f3285253f97e3564382992080。
+
+新小状态143976 B/SHA2560f22f75b4ac02c3e6c286b894b310c85bc61f3959ca4476397fc487fc59262ba。已记录科学耗时下界2853.2676457370003 s；先后46.3705572 s、27.382752 s未刷墙钟仍分列censored，精确累计科学耗时未知。原actual/proposal/last trial的身份不合并；新完整fine必须重新授资格。
+
+## 通用恢复器的严格边界
+
+inverse_r566_theta_peak_paid_resume_20261126.py 不复制或修改任何科学优化主体。它仍导入并逐字节绑定原checkpoint算子a879573a4dbfd1a58ff7a25e07ac7d03a41916edac250116348dc008b7542a27，只替换source_input与内存schema。
+
+每份request必须提供原run/job、source commit、实际wrapper文件名/hash、原raw与完整record身份、81q binary64摘要、全部actual/proposed坐标及计数、实际/提议trust、保真成本账和已付接口核。stdin传输仍由外层runner与main双重校验完整字节/hash。
+
+恢复器接受的wrapper文件名限定为原checkpoint、radial1025及本通用恢复器。它在输入的原commit上用只读git show，核真实原wrapper与a879算子的Git对象SHA256，不能只凭当前文件或一句“同算子”宣称身份。原run/job来自绑定且人工逐项审过的原收据，未新增网络请求来伪造已付结果，也不把本地Git对象读取叫作真实pull。
+
+当前仅B030物理身份(.85,.15,.15)及原联合R1.012/Y.3928/tau.06072、meanE.25/det.1/geometry margin.001/feasibility1e-8；原1536FFT、所有实际和待加位置、未适配trust检查均保留。当前未知B038状态不接入。
+
+只允许自然FINAL或完整callback两种来源；callback仍明确post-checkpoint work unknown。自然FINAL也不能清掉祖先censored成本。字段计数须与完整数组逐项一致，原actual峰必须包含于完整proposal，pending峰必须包含于同提议；每个峰须有对应径向节点。没有任意丢点或重新起步的后门。
+
+## 算法、容量、费用和执行
+
+径向容量1025、额外峰2048均不改，当前571/1276尚未命中它们。原物理/解析空间jet/blocked AD/点oracle/分批定位/当前真实违规覆盖/完整fine接受/每回调flush完全复用。不会重放旧outer或旧parity；必要的新Jac、完整fine和新峰定位按实际付费。
+
+单lane/max1、2400秒合作科学段、job50分钟；固定Python3.12.14/numpy2.3.5/scipy1.17.0与既有两个Actions SHA；stdin runner真实双仓pull、规则差异/QUEUE检查、科学前删凭证、stdout-only均保。新request路径push触发，另保workflow_dispatch；无artifact/cache/release/Git写。
+
+新source 12118 B/SHA256cc1a1fa3fdca03d1b15fcd2ee6151133a64ab64a571f20990c1f029d5babc1b0；
+request 160913 B/SHA2566a0885739461ef6619d41a0305067d1176920a7b3d710947df7ed94d6a932c70；
+workflow 3622 B/SHA256af4d72ce9ce2f7be1e1d81372db354acb3588cd2479a3f45ce34c603971ace48。
+
+本地只作AST、15份绑定/sparse闭包、原已付JSON与新输入的逐项比对和只读源Git对象核。不执行科学。设计g仍随q改变；本次不授固定g收敛、连续角覆盖、全pair reach或README完成。

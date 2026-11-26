@@ -335,3 +335,7 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 ### R596 同一真实尾已覆盖下一有限高角集合
 
 [严格有限延伸](results/R596-same-mild-tail-flat-kernels-through-sixteen.md)把R583的准确空间扩至全部整数2≤j≤16；共同u>100、同α17起口及准确Riccati截断式继续成立，常数已重新支付。下一10/12/14/16各用自身μ与实际数值传递，不重跑旧四口。只增加有限频率的可用输入，不作全频/浮点误差/非线性内尾闭合声明，所有实际剩余误差留完整BVP。
+
+### Theta B030 通用真实状态恢复器已准备
+
+[新固定入口](notes/2026-11-26-theta-paid-state-generic-resume.md)允许已逐项审过的原自然FINAL或完整callback，输入身份必须保实际wrapper和a879算子在原commit的Git对象、完整原stdout/record摘要、全部actual/proposal/q/trust与未知成本区间。本次实际采用571径向/1276峰及原trust，从第二次shutdown后最后完整可核态继续；没有改1025/2048容量或旧数学/接受规则，也不恢复未刷状态。

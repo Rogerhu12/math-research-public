@@ -59,3 +59,7 @@ root全文读4943字节收据，仅解析原714677字节stdout与153485字节cal
 ## 2026-11-26 — Astra-new-mechanism-0105020f-20261126 / R596真实尾到十六阶
 
 root全文并读R583与新有限常数补证，逐项核eta/导数、256权prefactor、54000势上界、Green吸收与前一cell倍数；相同收缩/全平/一维性证明在此有限集合一致。只登记新范围，不复做已证旧核或旧科学口；严格结果即推。
+
+## 2026-11-26 — Astra-new-mechanism-0105020f-20261126 / B030固定算子通用恢复入口
+
+root全文读新恢复器/note/workflow及request全部参数/身份/scope，独立静态核15绑定、AST、原已付callback与新81q/全部actual和proposal坐标及58pending。143976字节输入SHA0f22f75b吻合，祖先两段未刷区间及未fold当前Jac/费用完整保；原commit只读Git对象核不冒实际pull。只变source_input/schema，原a879科学主体/全角/接受/容量均不改，下一公开执行新的优化。
