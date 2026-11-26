@@ -381,3 +381,7 @@
 - 新建 scripts/original_p47_actual_lowest_functional.py 与 notes/original-p47-lowest-functional-request.json、方法记录。仅p47原c=DQ(1−Q)λ，λ=−6(b+1)/r；先作完整a(b^p)/A² quotient，再核LT/(2rA′)与全部余式，保Q²。最低泛函以R1052留数、真实Z反演及全S trace三读，另核B(c,v)=0和原完整轮廓非零。
 - 课题外必要修改：新建 .github/workflows/serre-original-p47-lowest-functional.yml。使用独立路径触发，避免重触发已完成scalar窗；单job、纯Python，数学SIGALRM/循环120秒、outer5分钟。两README、源码、方法、原R1037/R1045/R1052及请求hash全部固定，stdout紧凑回执，无raw/artifact/Release。
 - 根已逐式纸核程序，未本地执行数学。02:50继续因宿主无可用执行环境而按根规矩8连接器同步main/两README无diff；最近真实pull仍01:48，未伪称已执行新pull。精简H旧闭合入口，完整来源保对应结果/open/归档。
+
+### 2026-11-27 03:02 Asia/Taipei — R1057 原p47指定最低值三读非零
+- [R1057](results/R1057-certified-original-p47-actual-lowest-functional.md)：公开run45880257064/job140117536918、源9543f2ef，原p47完整DQ(1−Q)λ非零，实际最低C(T_c)=15，留数/真实参数反演/全S三读一致，B(c,v)=0；原轮廓14非零系数、首w¹。0.066990秒/120秒，无raw。仅固定输入，不推全p或47满足C_*。
+- 真run/job已读成功与全部四回执，canonical SUMMARY hash经纯文本核对4c2bbe097e1b450bc4326b839e9d62adc866315ed7ab938a6c10db252c6c15cf一致。root/o2独立纸审精确源程序；无本地数学，无raw入库、artifact或Release，已完成请求不重开。继续全p真实最低值、原norm及O0。

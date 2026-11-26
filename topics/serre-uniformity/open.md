@@ -6,7 +6,8 @@
 
 ## 原最低型：已经付清的输入与准确剩余标量
 
-[R1054](results/R1054-original-lowest-CM-column-kernel-candidate-counterexample.md)：p47新K15=23严格排最低列new投影恒落Q核；不代实际DQv最低值。下一专用公开请求只算原p47的这个实际值，保Q²，留数/参数反演/全S三读，120秒；[方法](notes/2026-11-27-original-p47-lowest-functional-method.md)。不重算f/g或旧窗，不外推p>C_*。
+[R1054](results/R1054-original-lowest-CM-column-kernel-candidate-counterexample.md)：p47 K15=23排最低列恒落Q核候选。
+[R1057](results/R1057-certified-original-p47-actual-lowest-functional.md)：公开run45880257064/job140117536918、源9543f2ef，原p47完整DQ(1−Q)λ非零，实际最低C(T_c)=15，留数/真实参数反演/全S三读一致，B(c,v)=0；原轮廓14非零系数、首w¹。0.066990秒/120秒，无raw。仅固定输入，不推全p或47满足C_*。
 
 [R1052](results/R1052-original-complete-CM-profile-and-actual-lowest-functional.md)：actual full-node中心赋值直接给全部normal极阶界，E一维像保全部返回；source u_s/ε^p的wholeR/p Dickson比较与全primitive误差均付。原完整行h̄_c=−Σκ₁^kc_kλ₀^−(ℓ−k)[Z^k](T_c/A)(B_CM)w^(ℓ−k)/(2m)。最低C_CM(T)=−3^(ℓ−1)/A1·[r^(ℓ−1)]T((1−r)^(1/3))/((1−r)^(5/3)j³)=2B(c,L_CM)。实际读数2B(v,QD L_CM)保Q²；单位/深盘排根仍开。
 
