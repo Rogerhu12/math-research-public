@@ -6,27 +6,19 @@
 
 维护会话：**Astra-serre-24b8836b-20261126**。2026-11-26 已部分克隆并真实 pull main；私库 QUEUE 认领已推 233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则读至36cf1ed2。前会话全部有效结论继续保留，不重算。
 
-**已读公开规则提交：932525def9e568fd6ec430169a25d19e2463ff4a**（2026-11-26 16:25 Asia/Taipei；本次同步两 README 无差异）。每次同步检查两 README diff，至少每小时一次，有变化只读差异并立即执行。
+**已读公开规则提交：19309ee267e9eb9e07aba2b65cacdc107085597a**（2026-11-26 16:57 Asia/Taipei；本次同步两 README 无差异）。每次同步检查两 README diff，至少每小时一次，有变化只读差异并立即执行。
 
 执行宿主在本轮断连，当前不可用。根规矩8许可仅 GitHub 集成可用时传小文本；已用原子 tree/commit 和非强制 expected-head ref 更新继续。每次先读最新 main、核规则与待改路径；并发拒绝后在新 head 重建直到成功。终端恢复后补 pull --rebase。令牌仅在此前 CLI 使用，未写文件或提交。
 
 根维护 main/H/open/index/log；子研究仅交数学稿。每条完整结论立即推送，不强推、不改已发布历史。H<10KB、open尽量<30KB、每MD<100KB、topic<200MB；不存可重算 raw，不写根 LOG。
 
-完整前态：[本轮非CM前归档](handoff-archive-2026-11-26-before-nonCM-projection.md)，沿链保留所有旧来源/run/hash；[open](open.md)及[结果索引](results.md)是展开入口。原旧“R1003 norm3准备中”未曾交付；现在R1003是范围纠错，不重造旧稿。
+完整前态：[本轮theta下降前归档](handoff-archive-2026-11-26-before-theta-descent.md)，沿链保留所有旧来源/run/hash；[open](open.md)及[结果索引](results.md)是展开入口。原旧“R1003 norm3准备中”未曾交付；现在R1003是范围纠错，不重造旧稿。
 
 ## 最新实际全局入口
 
-[R1010](results/R1010-original-CM-divisor-nontorsion-in-nonCM-part.md)已证明：
-原X₁、D₀=2[c₁]−[δc₁]−[δ²c₁]=(3−N)[c₁−c₀]在非CM新部的投影非挠。
-范围为全部p≥10¹⁸、p5mod6；p11mod12可降到p≥431。
-真实T_qδ=δ^qT_q，平方对应沿κ₄下降；新六水平Std型迫CM域仅−3及可能−3p。
-T₅²/T_q²杀全部CM，31处真实ES杀有理挠点；最深CM导子支持唯一、互不相消。
-非零主除子度≤4608(q+1)²，与gonality≥21p(p−1)/800矛盾；
-q由自足Gauss–Fourier/PV取O(√p logp)，无新执行或有限扫描。
-这是原X₁结果；变化X_d的c₁有理性、31好约化/分裂不能假定。
+[R1010](results/R1010-original-CM-divisor-nontorsion-in-nonCM-part.md)：原X₁的D₀=2c₁−δc₁−δ²c₁在非CM新部投影非挠；范围全p≥10¹⁸、p5mod6，11mod12可到431。真实Hecke下降/全部CM域筛选、31挠点消去和最深CM导子唯一支持，给非零主除子度≤4608(q+1)²，与gonality≥21p(p−1)/800及PV相矛盾。限原X₁，不移用变化X_d的c₁有理性及31分裂。
 
-[R1011](results/R1011-original-nonCM-half-rank-quotient-and-rational-CM-jet-transversality.md)已构造原J₁实际Q简单商C，q_CN=0、β=q_CD₀非挠，End_Q⁰C=全实F₀，dimC=2f、rankC(Q)=f且C(Q)⊗Q=F₀β。用同一canonical c的κ₄投影和Nekovář3.2，保内扭曲/全部同源重数；Faltings中央化子与MW秩共同排Schur指数。各素ℓ的真实对数空间维f、与有理Lie向量交零；原c₁首个Abel jet因此有实际MW消去泛函，首项非零。尚无p整首项赋值或统一圆盘半径，不移用旧一维CM通道，继续真实β的Coleman/晶体两列与尾项。
-原η_h高度路线与O0全局覆盖继续保留；不得把半秩/首项非零当候选排除。
+[R1011](results/R1011-original-nonCM-half-rank-quotient-and-rational-CM-jet-transversality.md)：同一个原D₀给实际Q简单商C，q_CN=0、β=q_CD₀非挠，End_Q⁰C=全实F₀，dimC=2f、rankC(Q)=f、C(Q)⊗Q=F₀β。实际三次环类投影/Nekovář、限制标量/Faltings计秩全部核准。各ℓ真实MW对数空间维f且与有理Lie向量交零，原c₁首个Abel jet有实际消去泛函。尚无p整首项赋值或统一半径；继续β在真实稳定纤维/Igusa与DL分量上的首层lift，不搬旧CM通道。原η_h高度和O0覆盖仍需完成。
 
 ## O0：全主目标覆盖
 
@@ -37,6 +29,8 @@ R317还需整j、K=Q(√−3)、σ=1、二/三除法小域同时一致。
 导子下界不是上界；O1/O2或当前X₁新商单独完成也不是Serre完成。
 
 ## O1：同一原保留标签的非零
+
+[R1013](results/R1013-original-theta-descent-and-uniform-critical-zero-bound.md)：原未经筛选H_p在Norm−1圆上的零点数≤3M<10¹²，M=6⁴·720·51840；故p>10¹²时H_p非零。实际Kγ有限平坦下降、Ωγ、全局μ6四维角色空间给非零首五次P_A；核方向γ与微分像κ_out经真jet比较，再以全部tame lift有限类型/每方向十二计数。保全部二挠相位，不用étale p核算法。primitive/Legendre的同h非零仍开，值零点界不能替代实际谱支撑，也未接bare O2。
 
 p=6N+5，h=6i+7，i+j=N−1；必须同一个原本原h上
 P_(h−1)(1/s) f_i g_j≠0，s²=−3。原Norm、两CM权和全部相位不换。
@@ -94,18 +88,8 @@ run44760218207/job136370438703，原三路校准/hash见R994与归档。
 
 ## O4：真实高度与新线性来源
 
-[R1007](results/R1007-deck-compatible-CM-correspondence-height-valuation-obstruction.md)：
-原甲板相容对应有ND_Z(c₀)=3D_Z(c₀)，新Prym投影为三挠。
-在同一整高度b(M,M)⊂ℓZℓ、N/Z自伴、NG=0、ZG=λG且λ∈ℓZℓ时，
-真实高度必在ℓ²Zℓ；一致换基点或整splitting不解除。
-保清分母、底曲线和η_h，不把它们删除。
-
-[R1008](results/R1008-wild-inertia-and-all-rational-correspondence-centralization.md)：
-canonical全H¹三处野惯性平凡，原κ₄κ_d⁻¹扭曲将野惯性实现为δ。
-故原X₁及实际偶d∈Q₃ cubes的整个End_Q(J_d)中央化δ。
-R1007因此覆盖全部有理自对应，包括非CM/旧形式/重数；
-原nondeck自对应入口已关闭。canonical d4不能反套此结论。
-本轮R1010的新低秩商使用线性来源，不撤销上述高度障碍。
+[R1007](results/R1007-deck-compatible-CM-correspondence-height-valuation-obstruction.md)：原甲板相容对应在新Prym上的Picard类三挠；同一整高度格、清分母及自伴条件下，真实高度必在ℓ²Zℓ。一致基点或整splitting变化不解除，η_h与底曲线块不能删除。
+[R1008](results/R1008-wild-inertia-and-all-rational-correspondence-centralization.md)：原X₁及实际偶分支X_d的整个End_Q中央化δ，由canonical三处野惯性及κ₄κ_d⁻¹实际扭曲证明；涵盖非CM/旧形式/全部重数。故R1007覆盖全部有理自对应，nondeck入口关闭；不反套canonical d4，不撤销其它完整高度。R1010/1011的新商走线性来源。
 
 R696早已证明同一实际全局Φ候选的Ω_actual={0}，R832已消费；
 不重做零靶，不把一般Q₃点值域说成零。
@@ -128,5 +112,5 @@ q7mod12≥4p^(2n)+27；不给p²全局提升或a/c上界，停止仅优化此下
 
 固定41全129盘/8CM由R707关闭；不重开、不外推。
 R575正CM角色根号−与逆twist秩零撤回有效。
-当前并行：原同h/实际两同源源；原高近p修正；新非CM实际商的整p局部控制。
+当前并行：R1013实际有限类型的primitive/Legendre谱；原Fay完整高卷积/除p坐标；非CM实际商在稳定纤维的整p局部控制。
 完成其中一项后继续open其余问题，直到真正达到课题README完成标准。

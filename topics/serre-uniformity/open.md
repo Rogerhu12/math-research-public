@@ -10,6 +10,8 @@ R1只把全部异常缩为p>37的完整N_ns；**p≡2,5 mod9只是另加小惯�
 
 ## O1：全p同一真实本原标签的临界非零
 
+[R1013](results/R1013-original-theta-descent-and-uniform-critical-zero-bound.md)：原未经筛选H_p在Norm−1圆上的零点数≤3M<10¹²，M=6⁴·720·51840；故p>10¹²时H_p非零。实际Kγ有限平坦下降、Ωγ、全局μ6四维角色空间给非零首五次P_A；核方向γ与微分像κ_out经真jet比较，再以全部tame lift有限类型/每方向十二计数。保全部二挠相位，不用étale p核算法。primitive/Legendre的同h非零仍开，值零点界不能替代实际谱支撑，也未接bare O2。
+
 [R1012](results/R1012-original-p-similitude-divided-high-coordinates-and-critical-bridge.md)：每个Normκ=−1方向恰12个Eisenstein norm-p表示，构成实际p-similitude。首pole在原矩形全消；四个指定divided高系数q_j的相邻差准确为aκ^pH_p(κ)/(5βᾱ)，全部未知整高带只进共同常数。等价原导数平衡系数[z^(p−3)t^(p−3)]F′(u)G(w)=(B/5)κ^p(βᾱ)^(p−3)H_p(κ)，外因子全单位。仍未证左端非零，也未接bare c_(p−r)；继续真实Poincaré来源并保primitive/Legendre。
 
 本节限定原指定CM源；其R317应用受O0全部附加条件约束，D/bc无统一上界。p=6N+5、h=6i+7、i+j=N−1，原J32准确单位乘(P_(h−1)(1/s)fi gj)^p；必须同一个本原h使三个因子非零，完整Norm/两CM权/det/半周期/ζ²相位不换。
