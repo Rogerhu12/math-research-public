@@ -49,3 +49,5 @@
 - [R972](../results/R972-original-degree130-cross-cm-projection.md)：同次run45881262820/job140120885384完整66→22列pull/trace、两CM双向返回及唯一目标线全部PASS；算术源首阶6/有理分母385，ΠH130=−11Φ*/405、ΠF*=−11Φ*/2，五伴随质量−11/2为单位，物理尺度65³/(17·385)保留。H⊥首项10/567和完整SZ的δ-new首项2/35均真非零，span{Z,δ*Φ*}加入SZ准确rank2→3。新算术分量已付，不能把完整cross或mixed域赋零；续全81块及有限算术角色。
 
 - [R974](../results/R974-original-residue-native-model-and-complete-norm-return.md)：原指定残余域的保底域绝对表示与完整双向坐标，逐层矩阵/相对范数保持全部厚度；run45881262808/job140120885101真实API通过，原几何/shadow仍待唯一v8。
+
+- [R975](../results/R975-original-pair-pivot-popov-reset-and-whole-attached-bound.md)：同原完整多项式行模，只有真实一/两行生成整列gcd才作全行Bézout；每列提取后重置整个余尾为unshifted Popov，未找到pair则原有界shift回退。全程主块界max(D,3δ+1)、最终HNF≤3δ及完整attached adjugate界已证，保R956原域/常数回返。独立后继helper已保存，未运行/不改当前v8；全gcd1不保证pair的完整Popov反例一并给出。
