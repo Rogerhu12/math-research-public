@@ -167,13 +167,13 @@ R143 correlated body已全4651；R146全418/13376使当前CV/RA根费格式失�
 
 最新README已读SHA见HANDOFF；每pull核规则、至少每小时。公开科学/容量/旧成功禁重与失败/unknown保，最终同次冻结metric和所有门。
 
-[CS新中心完整源](results/R144-supplement-compact-centre-ordinary-and-divergence-residual.md)已证exact ordinary/divergence分解，径向常数Δκ只从angular flux准确消去、仍在ordinary项；原Rv−jR0及ξχ′完整保。五个新局部积分量消费actualρ/b后可执行；first-row H−2/3不免费删角导数，384^1/3费与所有rawjump/physical composition仍保。
+[CS](results/R144-supplement-compact-centre-ordinary-and-divergence-residual.md)的ordinary/divergence分解及χ′/mean/原jump完整保；实际selected费用现用SMR/STC，不从H−2/3免费删角导数。
 
 [TM terminal→normalized constant](results/R144-supplement-terminal-mean-small-ball-controls-normalized-forward-constant.md)使用真实terminal球与waist L²界控制Dbar，保全部CP/source/jumps；actual45791979634/1已完成unique-root、统一mean/density，旧粗sameφ门false留原件。LC已另完成更紧C0，不重forward/W。
 
 [PS续接](notes/2026-11-26-R142-streamed-defect-execution.md)保85pins/14bindings/原数学，76/155母格三球与193atoms锁定；整母格读回才推进，packet不授积分。新owner19600s/worker20100s/360min，旧16800s预算/失败保原件。全六球优先；余79母格运行。
 
-R149 signed-loop及[CP/physical](notes/2026-11-26-physical-scalar-execution.md)已接原77/PS85完整来源与NS真四源/point；原程序在六球保存后、完成标记前失败也只消费原全球，PS则整件核六球/目标/155母格。失败状态不改，原/PS不同scope键分别核实；数学尾和trace/HS/θ/γ五目标均不变。当前R142/PS尚缺完整六球，PS已有76/155真实母格前缀并启动后继；尚无signed-loop实际manifest或运行。
+R149 signed-loop与[CP/physical](notes/2026-11-26-physical-scalar-execution.md)已接原77/PS85及NS真四源/point；六球后失败只读已成whole，原/PS scope分别核。PS须六球/目标/155母格原子完成，ε未知不启signed-loop，数学尾/trace/HS/θ/γ不变。
 
 
 
@@ -186,3 +186,6 @@ R149 signed-loop及[CP/physical](notes/2026-11-26-physical-scalar-execution.md)�
 [JC实际七球](results/R149-supplement-actual-joint-compound-waist-row-error.md)45887337009/1给完整96行误差<8.556891e−5、全homotopy lower>.9836159091670；原DFT/means/alias全保，SC直接消费，不授signed矩阵或fullSchur。
 
 [SB](results/R144-supplement-complete-same-phi-bridge-to-selected-reference.md)原同φ坐标资格/repair/19d*费用保；最新same-metric桥用SM及SMR，真qν−Z仍不借Z。world锚/height/完整GC及最终几何余量须真实闭合。
+
+
+[DC](results/R149-supplement-same-sign-density-compression-and-finite-Theta-rows.md)：原C同号density压缩在H−1/2双逆≤1，C†是inverse-density同号块；完整VQ L²行可用全频残差认证，有限Θ输入仍须Gbar F→L²。真实one-leg/K48载体已定位，无旧ray重算；全Θ one-loss与实际alpha signed行另付。

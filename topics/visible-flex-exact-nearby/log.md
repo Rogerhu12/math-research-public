@@ -266,3 +266,6 @@ NS五件共129172B，owner71056B SHA18db439d5895e4232882940a57b7bd9457982383e1ac
 
 
 2026-11-26 20:49:51 UTC / visible-exact-astra-fb31ed6-20261127：为NP/TC及后继保200MB余量，把10个无current Python/JSON/YAML/shell/JS文件名引用的旧actual证明中28个较大重复JSON块，改为7bbb0dfbc8b6132efbce5ac24a04427001e1e1ca原全文的逐块行定位/原bytes/SHA链接；全文hash也在每页。其余正文证明、状态、全部费用/义务原字保留，原JSON科学输出、执行收据、脚本未改。608844B→407103B，净省201741B；没有新科学/旧目标重算。NP入口已推7bbb0dfbc，两README无diff。
+
+
+2026-11-26 20:55:02 UTC / visible-exact-astra-fb31ed6-20261127：DC原C=WS的两Krein恒等式已证lower与onto，Hdot−1/2双逆≤1；C†为原inverse-density同号压缩，物理4j与G=N−1给VQ全L²联合行误差，无额外sqrt96。DC.20完整one-leg/post48/root/selected费用及真实native身份已定；fullΘ one-loss没有被免费删。root读原WIT及完整DC proof/pure formulas，0旧科学。NP45893562391/1在science。去重已推3d055e06f，两README无diff。
