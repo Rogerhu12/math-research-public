@@ -165,3 +165,5 @@ S0/Lt0的k=4e、v=t=0、Omega=2e²−ek+2=0整支均已完整原返回排空；�
 [Lt0原u93/77整纤维](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-parameter-leading-77e16-exclusion.md)已闭，可付77e−16。H33直接大投影90秒失败已冻结；继续原同eta的低次乘法约束，一般Lt0未判空。
 
 原普通M新增约束均见结果索引：所有真有限头坐标非Fredholm；有下界时实际闭像无限维/余维且无有界尾模补空间；全部原尾强不可约，普通真M无闭A不变补空间。剩余须处理不分裂真实闭核/像或闭根图域，不能从全尾字符跳到未知限制。
+
+[原负前缀及输出条件图核心](results/R271-appendix-negative-prefix-extension-and-output-conditioned-division-graph-core.md)已付：准确T*h∈H且b(h)<∞给真实图逼近；Y_−β可取β<3/2，或带log端点。仍须由同一W规范原像证明b费用，不能将固定总孔层界换为P_q全尾范数；继续准确dyadic边界。

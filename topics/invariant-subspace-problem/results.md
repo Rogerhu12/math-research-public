@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R271 原伴随的负前缀延拓及更大的输出条件图核心已付（2026-11-27，已证明）：** [完整首零位块、carry与真实双分量逼近](results/R271-appendix-negative-prefix-extension-and-output-conditioned-division-graph-core.md)保块后全primitive，给两型T*从Y_−1到H范数<3，B*范数≤α0，且无条件整域多项式阶1为准确阈值。若同一形式h有b(h)=Σ(q+1)⁻²||P_qh||有限并且准确T*h∈H，则原有限支撑在(B*h,T*h)图范数中逼近，输出属于closure RanT*；覆盖所有β<3/2的Y_−β及带log端点。真实W的规范h(w)若付此费即w0；未证明一般W自动付费，也不把总孔层界移作全前缀块范数。
+
 - **R150 L0的整个G曲线为空（2026-11-27，已证明）：** [完整原伪余式、有限覆盖与同根返回](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-L0-G-curve-complete-exclusion.md)从原九式取三条低次必要式，914次完整lambda投影的306次平方自由覆盖含11域。204域以保原次数的完整一元结式模1031 Bézout排除；余10域保持同lambda/w，末20/46域原rho公共因子分别由Q²和Q·alpha²排尽。全部178数域伪除/356内容身份回乘，25.192543秒/125164KiB/exit0；结合已闭首项零，整G关闭。只续G非零余原交点，未宣全L0或ISP完成。
 
 - **R150 S0/Lt0的u=93/77整条原参数纤维为空（2026-11-27，已证明）：** [原子式全纤维返回与累计一元Bézout](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-parameter-leading-77e16-exclusion.md)逐项回乘 D(e,k,v)−D(16/77,k,v)=(e−16/77)H；154/163/173次完整Res_v的44次gcd仅为原k、T0、bc与已闭k4e/半权因子。全部重数实际剥至非零常数，累计三个原投影Bézout乘回；9.856205秒/98196KiB/exit0。可付77e−16；另如实登记H33大直接投影90秒SIGALRM，未判空且不重跑。
