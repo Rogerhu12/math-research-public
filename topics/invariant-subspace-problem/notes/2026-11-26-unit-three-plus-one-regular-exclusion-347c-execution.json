@@ -1,0 +1,92 @@
+{
+  "arraysSaved": false,
+  "dateUtc": "2026-11-26",
+  "exitCode": 0,
+  "format": "isp-unit31-regular-exclusion-local-execution-v1",
+  "label": "unit31_regular_exclusion_347c",
+  "parameters": {
+    "memoryMiB": 1024,
+    "wallSeconds": 180
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "pythonFlint": "0.9.0",
+    "sympy": "1.14.0"
+  },
+  "session": "Astra-ISP-347c-20261126",
+  "source": {
+    "path": "notes/2026-11-26-unit-three-plus-one-regular-exclusion-347c.py",
+    "sha256": "d5063761a14020c545bee415e8c40804cc18788f960bd803066d45d870d647e3"
+  },
+  "stdout": {
+    "bytes": 1940,
+    "sha256": "e7baa2a993756242ddca10728f8008d0fa36aea3a895538915c58643be144986"
+  },
+  "summary": {
+    "elapsedSeconds": 6.846828,
+    "fiberChecks": [
+      {
+        "monicBPolynomial": "b^9",
+        "sha256": "034ec04b1d0936142fdf9b95168aa1dacf8fe117799ef07668af4f87fd59e14b",
+        "x": "0"
+      },
+      {
+        "monicBPolynomial": "b^11 - 11/2*b^10 + 55/4*b^9 - 165/8*b^8 + 165/8*b^7 - 231/16*b^6 + 231/32*b^5 - 165/64*b^4 + 165/256*b^3 - 55/512*b^2 + 11/1024*b - 1/2048",
+        "sha256": "6446b5d92ca766021deb2509263d87d8e5a6e61ec3b72eeb1022300854df3ea6",
+        "x": "1/2"
+      },
+      {
+        "monicBPolynomial": "b^2",
+        "sha256": "28bca16a818c103cf9becb6d49a4dcac17db871562f75bd747ccf7de9b5faee7",
+        "x": "-1"
+      },
+      {
+        "monicBPolynomial": "b + 25/64",
+        "sha256": "e1f19e00223ec06b3fbb30b3c6f8128f142b28b0b37a12bbf2c0ad311b887caa",
+        "x": "-15/8"
+      }
+    ],
+    "globalMatchedBellClaim": false,
+    "inputDegrees": [
+      [
+        13,
+        22
+      ],
+      [
+        15,
+        26
+      ],
+      [
+        42,
+        75
+      ]
+    ],
+    "lastCandidate": {
+      "alpha": "-25/32",
+      "b": "-25/64",
+      "gamma": "0",
+      "kappa": "-4/5",
+      "s": "1/2",
+      "x": "-15/8"
+    },
+    "ordinaryISPClaim": false,
+    "peakRssKiB": 77456,
+    "polynomialSha256": {
+      "C": "819a8fc8ff27810b5f293d3fcdf687a70006ade3fff4ee4c91d54c60eda32d7c",
+      "M": "b9d05e2b76d38bee3c9f5952a26de4083d59d7fff37324a8a43ec9461f0b173c",
+      "RMC": "c7c1c0a1f55d40dabaa95f5ef0025b91354b42ce260c47623f77674bf8985463",
+      "RMX": "32ce8ef2509284b706bf7ad23a13ecc5fcc4d2a14b3befd2b80a1962544cbe4f",
+      "X": "229efa34e3a5e248c5e8764096d326f622b0ba5c2b954258c8e8f71f2d5cae23",
+      "gcd": "d9e18e891a25ae24aef5739599305f33c84cd95732234a828276ea7d022bae95"
+    },
+    "resultantDegrees": [
+      395,
+      1142
+    ],
+    "resultantGcd": "x^193*(x-1/2)^172*(x+1)^6*(x+15/8)",
+    "schema": "r150-unit31-regular-characteristic-zero-exclusion-20261126-v1",
+    "scope": "Prior p0/half/alpha0/q0/gamma0/x0/L0 exclusions plus this general chart close the complete active-unit-3+1 isolated-zero rank-four branch.",
+    "sourceSha256": "d5063761a14020c545bee415e8c40804cc18788f960bd803066d45d870d647e3",
+    "status": "all_pass_original_regular_unit31_branch_empty"
+  }
+}

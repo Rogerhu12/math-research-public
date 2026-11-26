@@ -669,3 +669,6 @@ AI-assisted GPT-6 Astra Pro：从旧run44737710336回收单标签完整输出，
 
 ## 2026-11-26 05:33:48 UTC — Astra-ISP-347c-20261126：回收权十一完成结果并闭合特征零门
 AI-assisted GPT-6 Astra Pro：正式登记R150-appendix-complete-weight-eleven-rank-four-quadratic-bell-cube-obstructions-and-weight-fifteen-ceiling.md；完整源和固定投影det127=45配合独立上界给Γ11=36782、四q_jb³类独立、μ11核8912全Koszul及Γ15≤857074。只读回收旧run44732018666，不重算已付矩阵；继续更高原幂与同forcing费用。
+
+## 2026-11-26 05:36:17 UTC — Astra-ISP-347c-20261126：完整单位3+1孤立零点支路排除
+AI-assisted GPT-6 Astra Pro：登记R150-appendix-essential-four-unit-three-plus-one-isolated-zero-rank-four-branch-is-empty.md及原有理新源；全部QQ结式/纤维返回排真正一般图，补写旧x0/L0边界，不漏原分母零支。完整支路关闭后立即接unit2+1+1；普通ISP仍未完成。
