@@ -41,6 +41,8 @@ rank$H=4$ 的非单位局部块长度5、4、3已排；长度2单零的三种单
 
 [rankH=rankV=2至少一方为二jet的完整维数界](results/R150-appendix-rank-two-second-and-third-cumulants-with-a-tangent-support-have-essential-dimension-at-most-four.md)现已证明essT3≤4：三种配对保全原Γ、H/V梯度、Gaussian零Hp例外和射影局部阶数，五维反设与原Gram秩下界矛盾。双约化时尚有g≠0、Hp0、F²+g²0分支，不能援引二jet证明删除它；所有ess4和更高rankH仍继续。
 
+[rankH2/rankV2本质五维的有限Gaussian规范](results/R150-appendix-rank-two-second-and-third-cumulants-essential-five-reduced-gaussian-normal-form.md)进一步排除双约化g0与所有Hp非零。剩余只能Hp0、F²+g²0；规范F1后g²=−1、e³=−1/2、C=−A、D=−B、AB=−g/2、A²+B²=e²，五阶Gram非退化。仍须在同一原四个物理点上同时满足完整N二次和最高三次极线身份；有限抽象Gram不是实际临界点。原投影有奇点，不能套一般光滑曲面结论。
+
 ### 1.2 原权十一及更高幂
 
 [权11–14严格门](results/R150-appendix-original-koszul-two-cycles-and-weight-eleven-through-fourteen-rank-ceilings.md)为

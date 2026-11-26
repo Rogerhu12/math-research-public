@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R150 秩二H与V的本质五维层只余有限双约化Gaussian规范（2026-11-26，必要归约已证明）：** [完整原mean/H梯度/最高值及五阶Gram](results/R150-appendix-rank-two-second-and-third-cumulants-essential-five-reduced-gaussian-normal-form.md)排除g0和全部Hp非零；剩Hp0、F²+g²0，经所有单位根规范后C=−A、D=−B、AB=−Fg/2、2e³=−F³，Gram行列式2F²e(F−e)(2F−e)非零。F1后常数有限；原物理五次极线的二/三次完整身份仍未排空，不声称临界点存在或本层全空。
+
 - **R150 单位2+1+1相等非零基点配对整个分支为空（2026-11-26，已证明）：** [原mean、零点共同范数与完整QQ理想身份](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-equal-base-pairings-complete-exclusion.md)以k=4bc·t/l将c0化成处处合法的线性消元；四个原四次式的两轮结式只余5l²−4l+1，72×80矩阵秩70给逐项回乘的k原理想身份，迫k0矛盾。原源19.744046秒/exit0，全部分母/首项纤维及∞保真；接旧l0/½/1和t0，整个p=q≠0关闭。
 
 - **R271 原最低源冻结大辅助方差零列的真实物理返回必付增长费用（2026-11-26，已证明）：** [原正规方程与真实远尾首行](results/R271-appendix-large-variance-fixed-zero-column-return-lower-bound.md)给〈Ca_s,e0〉=s(1−q_s)、1−q_s≥1/(s+49)，所有真核若z0=a_s则‖z‖≥s/[(s+49)√Sx]。原合法m≥24/R=d/r3/Q4d窗中为≥√3·2²⁴√x/50，同F下a_s与a_Sx差至少2²⁴/(700x)。保级canonical双塔未投影差亦有首行下界；不扩至混级返回、可改零列的全MP或最终正交误差。

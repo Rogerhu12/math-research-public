@@ -94,3 +94,6 @@ AI-assisted GPT-6 Astra Pro：[原f1正规式和真实物理首行](results/R271
 
 ## 2026-11-26 07:29:37 UTC — Astra-ISP-347c-20261126：单位2+1+1整个相等非零配对分支关闭
 AI-assisted GPT-6 Astra Pro：[原S/Λ0与QQ完整消元](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-equal-base-pairings-complete-exclusion.md)只余二次权重，72×80/秩70的明确原乘子身份迫k0矛盾；自含源19.744046秒、exit0。首次仅回执格式失败已分记，不重跑旧边界；继续q−1/q一般和其它原开放路线。
+
+## 2026-11-26 07:32:24 UTC — Astra-ISP-347c-20261126：双秩二本质五维的有限Gaussian余规范
+AI-assisted GPT-6 Astra Pro：[原完整梯度手证](results/R150-appendix-rank-two-second-and-third-cumulants-essential-five-reduced-gaussian-normal-form.md)排g0/Hp非零并固定唯一余Gram，保全部根单位选择及非退化行列式。必要归约已证明，物理二/三次身份仍开；继续同一原物理投影，不把规范误作已空。
