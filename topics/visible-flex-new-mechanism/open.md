@@ -104,7 +104,7 @@ R513同类cap排除、R518固定宽接口、R520/524/527/529原20母的返回障
 
 ### R571：新尾的真实核心线性匹配已存在，继续有限非线性
 
-[R571](results/R571-milder-phase-tail-flat-kernel-and-core-shooting-zero.md)用明确的δ^-1相位族构造全平角频2真核；统一局部graph reach>.08670，准确单谷DtN控制给一维核和相位连续。相位绕2π时归一种子变负倍数，周期真实connector因此存在C_core=0且A_core≠0的φ*，双开平帽固定的闭旋转背景上真实线性匹配已付。下一实算φ*/完整jets与C²代价，构造有限非轴对称旋转度量嵌入并冻g精化；设计相位φ变化不是所需同g族，背景厚度也不是有限弯曲的全reach。
+[R571](results/R571-milder-phase-tail-flat-kernel-and-core-shooting-zero.md)用明确的δ^-1相位族构造全平角频2真核；统一局部graph reach>.08670，准确单谷DtN控制给一维核和相位连续。相位绕2π时归一种子变负倍数，周期真实connector因此存在C_core=0且A_core≠0的φ*，双开平帽固定的闭旋转背景上真实线性匹配已付。[实算入口](notes/2026-11-26-r571-phase-shooting-implementation.md)已发布：M25/紧容差/M+1、真C²connector、核心C=0求根/敏感度、A_core=1同场全尾/连接二阶代价及4/6/8有限探针。原终态后继续有限非轴对称旋转度量嵌入并冻g精化；设计相位φ变化不是所需同g族，背景厚度也不是有限弯曲的全reach。
 
 ### R567–R570：同χscalar/pose/第二/第三已返回，继续整个第四
 
