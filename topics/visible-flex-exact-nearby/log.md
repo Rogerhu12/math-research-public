@@ -329,3 +329,6 @@ NS五件共129172B，owner71056B SHA18db439d5895e4232882940a57b7bd9457982383e1ac
 
 
 2026-11-26 22:34:42 UTC / visible-exact-astra-fb31ed6-20261127：规15容量维护，256份旧phase-ring native metadata仅删字符串外JSON空白；全部literal/escape/数字/key/value/array与顺序完整保，逐件原bytes核public ba95a7219fa883622b2b3daefde527d04568c117；全path/parent/唯一名/whole SHA/blob current code/JSON/YAML引用已排，当前27日输入manifest零交集。四份notes/2026-11-27-legacy-native-metadata-whitespace-part1..4.json分别保64件完整旧新bytes/SHA，旧whole byte消费者按immutable commit恢复。gross省1802658B、receipt122844B、净省1679814B；零科学调用、未删旧信息。UH已推ba95a7219，两README无diff。
+
+
+2026-11-26 22:38:21 UTC / visible-exact-astra-fb31ed6-20261127：AS八件首次actual入口登记；manifest11219B/16bf98e27c7f6bf1f7362d2840249368e342dc70ebed8c31344df87663c745fb，29当前及原whole SNmanifest207件13.6MB，metadata/AST全准入、无本地数值导入。原SN point recurrence只为同245885B/3048266b…输入恢复，原residual/energy/norm entrypoints显式禁用；全2048 alpha模式保b整球、−μ/2、全部aliases/source/true-map/infinite双尾和完整prefix。whole output预算65KB、私有carrier单独hash，16800s科学首次push触发。容量已净省1679814B并推7df03c35e，两README无diff；22:36私库pull72d8eb716b040ff70d2377f4f8dc5a2d9cd84edb，root无diff，QUEUE仍本会话进行中。

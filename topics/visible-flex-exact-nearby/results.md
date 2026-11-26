@@ -345,3 +345,5 @@
 - [QN：fulltail邻域中的全正端given-head高逆](results/R144-supplement-actual-whole-positive-high-inverse-in-a-full-tail-neighbourhood.md)：未知无权A³≤1e−6、独立外端A³≤1e−9，59个saved有理门全过。true mean进入新Riccati，body<.310/.801、实际outer<.002402、root<.453/4.129；全部七端口/全jump/physical mean/height/Robin保。普通Wiener零宽长图及函数参数Cauchy已付，不假未知空间解析；无限cross与新mean行列另给明确ρ费用，不沿用97–160有限carrier。
 
 - [UH：compact附近全mean实角物理边界Hessian](results/R144-supplement-uniform-real-physical-boundary-Hessian-near-compact-centres.md)：在原L=.9和真R=25/8、未知A³≤1e−6完整tail域，26个旧bound的纯有理组合通过；全D²Ψ≤2(HhEk+HkEh)，余项≤2HhEh、同H1半径差分≤4ρH(h−k)。两个moving/physical means与原角归一化保，旧G/CH恒等不冒新；只known有限差用Bernstein，unknown无空间解析。未授rough H1背景全图C2或DN/phase/height完整Hessian。
+
+- [AS：原alpha的首次完整signed carrier与全空间双误差](results/R149-supplement-original-source-alpha-signed-carrier-and-complete-errors.md)：exact相关cohomology公式|αn|≤136n|vin|，b=2H(0)+Ω/whole−μ/2保；仅恢复原SN12584 subcell point recurrence并核whole245885B终点SHA，旧验证/能量/norm0。K2048+8192 directed grid一次覆盖，完整aliases、true chart、四sourceerror和infinite L∞/L2尾全付；29当前+原97309B/207件旧manifest首实际入口已齐，未冒actual成功。
