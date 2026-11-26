@@ -172,3 +172,10 @@ QH(2e^2Q\partial_wL_2-D_e\Delta q_p k_w)
 构建回执见[小回执](../notes/2026-11-27-h21-original-N-Hermite-build-8542.json)。完整数域单位门单独执行，仍只承认**特征零下原生成元与实际证书乘积等于1**。计算使用数域模方法进行带转换矩阵的尝试，先在同一数域检查一个小单位输入；若算法不可用或实际输入超时，均记录未决，不据模点或软件返回码判空。所用方法接口核对 [Singular 算法说明](https://www.singular.uni-kl.de/web/docs/examples-computing-groebner-and-standard-bases-2e3cac91.html)、[liftstd 的转换矩阵定义](https://www.singular.uni-kl.de/web/docs/reference-liftstd-4249be07.html)和[数域模方法](https://www.singular.uni-kl.de/web/lib/nfmodstd.html)。
 
 三种旧七式900秒未决仍按原记录保留；本次是加入真实 N 系数后的加强输入，不重做旧失败，也不宣称已经取得单位证书。整个课题的完成标准不变。
+
+
+## 5. 本次真实执行：仍未取得单位身份
+
+[完整小回执](../notes/2026-11-27-h21-original-N-Hermite-bounded-execution-8542.json)记录 run `45886748045`、job `140139221544`，冻结提交 `3d10ef1404c9bfebe9c60e75187f52f611662a94`、源blob `d46cd489902c5ea5a34189a06539628eb4a8703d`。Singular 4.4.1 实际通过数域关系与 `liftstd(...,"nfmod")` 小单位输入的证书回乘，随后进入10生成元的完整原输入。生成输入1,465,449字节，SHA256 `011efc5fd3fe31050196d6550da2ee9777bad5c79d5ea2127774234ecfe3000c`。
+
+完整单位门在900秒界实际超时；总驱动905.464231秒，峰值子进程RSS714,476KiB，source exit1。只出现field/smoke/开始实际输入标记，未出现单位回乘标记；**没有 I*C=1**。这是已执行但未决的计算，不是排空证明。证明中的原恒等式不受影响；后续换更低次的原几何输入，不重复此1.465MB计算。驱动实际pull与两README无变化的SHA记录亦在回执中。

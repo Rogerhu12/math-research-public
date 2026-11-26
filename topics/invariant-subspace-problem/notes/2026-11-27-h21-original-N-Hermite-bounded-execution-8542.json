@@ -1,0 +1,113 @@
+{
+  "schema": "isp-original-N-Hermite-actual-bounded-execution-v1",
+  "runId": 45886748045,
+  "jobId": 140139221544,
+  "sourcePath": "notes/2026-11-27-h21-original-N-Hermite-true-Ke-8542.py",
+  "outcome": "unresolved_timeout_no_unit_identity",
+  "claimExcluded": false,
+  "ordinaryISPClaim": false,
+  "events": [
+    {
+      "degrees": [
+        0,
+        5,
+        8,
+        8,
+        24,
+        3
+      ],
+      "label": "original_N_second_at_double_source",
+      "seconds": 4.968820531000006,
+      "sha256": "eb80cb07939d9c0fd1c03259cac3cf2fa45137ca42a4873f587c603a1d7c9f46",
+      "stage": "new_original_N_equation",
+      "terms": 5694
+    },
+    {
+      "degrees": [
+        0,
+        8,
+        9,
+        9,
+        21,
+        8
+      ],
+      "label": "original_N_first_at_isolated_source",
+      "seconds": 5.028019193999995,
+      "sha256": "a4baa3deb8151bf96904d954bb6bf6646dbbd5a74bf4a97baf91d1656101aa8a",
+      "stage": "new_original_N_equation",
+      "terms": 26674
+    },
+    {
+      "Nw_removed_only_old_units": [
+        [
+          "E",
+          1
+        ],
+        [
+          "d",
+          1
+        ]
+      ],
+      "formal_coefficient_identity": true,
+      "new_open_factors": [],
+      "ordinary_isp_claim": false,
+      "seconds": 5.0280939889999985,
+      "stage": "new_original_N_input_checked"
+    },
+    {
+      "returncode": 0,
+      "seconds": 5.033925197000002,
+      "stage": "singular_version",
+      "text": "Singular for x86_64-Linux version 4.4.1 (44105, 64 bit) Dec  6 2025 11:10:58"
+    },
+    {
+      "address_space_limit_bytes": 4294967296,
+      "algorithm": "liftstd nfmod with actual remultiplication",
+      "bytes": 1465449,
+      "claim_excluded": false,
+      "field": "QQ[e]/G9",
+      "generators": 10,
+      "seconds": 5.067967284999995,
+      "sha256": "011efc5fd3fe31050196d6550da2ee9777bad5c79d5ea2127774234ecfe3000c",
+      "stage": "new_Ke_N_Hermite_input",
+      "wall_limit_seconds": 900
+    },
+    {
+      "claim_excluded": false,
+      "limit_seconds": 900,
+      "outcome": "unresolved",
+      "seconds": 905.113931764,
+      "stage": "new_Ke_N_Hermite_timeout",
+      "stdout_sha256": "37c4db0cdd407666b2f0de80dc229ea6b06337b949275ea390027f5fbde6d1c1",
+      "text": "ISP_N2_FIELD_VERIFIED\nISP_N2_BEGIN_NFMOD_SMOKE\nISP_N2_NFMOD_SMOKE_VERIFIED\nISP_N2_BEGIN_ORIGINAL_N_HERMITE_LIFT\n"
+    }
+  ],
+  "executionReceipt": {
+    "elapsed_seconds": 905.464230767,
+    "max_child_rss_kib": 714476,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "6f9a83a805d06db824107ad5f4415b5f94cd1483",
+        "before": "3d10ef1404c9bfebe9c60e75187f52f611662a94",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-26T19:52:23.587266+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "45886748045",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "3d10ef1404c9bfebe9c60e75187f52f611662a94",
+    "source_exit_code": 1,
+    "source_git_blob": "d46cd489902c5ea5a34189a06539628eb4a8703d",
+    "source_sha256": "1a4aa35b0f8365f1fa4224e2397b63e90c31e5ca8e52aabc4268f76de1ad158e",
+    "stdout_bytes": 10153,
+    "stdout_sha256": "bb580e2fec10660c8cb3909ef08159802e32fcd5a878a825450b45f60332a27a",
+    "stop_reason": null
+  }
+}
