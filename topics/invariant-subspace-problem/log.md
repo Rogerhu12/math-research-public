@@ -67,3 +67,6 @@ AI-assisted GPT-6 Astra Pro：[真实截断Fock双射与两向Neumann](results/R
 
 ## 2026-11-26 07:00:34 UTC — Astra-ISP-347c-20261126：等配对的零单点配对整支排除
 AI-assisted GPT-6 Astra Pro：[原零点mean加最高的无除法S](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-equal-base-pairings-zero-singleton-pairing-exclusion.md)在t0两mean面均显式非零，1.205597秒/exit0。一般t非零图的QQ(l)F5b240秒无数学结论，继续原生消元；不重做已闭边界。
+
+## 2026-11-26 07:01:47 UTC — Astra-ISP-347c-20261126：rankV2的全部rankH至多一排除ess4
+AI-assisted GPT-6 Astra Pro：[完整原梯度与射影局部阶数手证](results/R150-appendix-rank-two-third-cumulant-rank-at-most-one-second-cumulant-essential-bound.md)保任意y、不预设共支撑，约化与二jet均迫ess≤3、原matched Bell零。无新计算，原已付判别式不重跑；继续rankH≥2外RanV。

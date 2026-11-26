@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R150 秩二第三累积量且二阶累积量秩至多一时本质维数至多三（2026-11-26，已证明）：** [原完整低梯度、极大全等向空间与最高式局部阶数](results/R150-appendix-rank-two-third-cumulant-rank-at-most-one-second-cumulant-essential-bound.md)包括任意原y、约化/二jet型V及全部∞；若反设ess4，原Γ迫F=P_z=0，原H梯度给V_p0，两类型分别矛盾。因此已有完整ess≤3定理给三个matched Bell零；无需新计算，rankV2潜在非零Bell仅rankH≥2且y∉RanV。
+
 - **R150 单位2+1+1相等非零基点配对与零单点相互配对整支为空（2026-11-26，已证明）：** [原孤立零点mean与最高的低次身份](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-equal-base-pairings-zero-singleton-pairing-exclusion.md)给全权无除法S=Pbar−2Nbar0；t0完整mean仅V½或½−l，两面原S分别lh²/2和−l(l−1)h²/2均非零。接已闭l0/½/1后整支排除，自足原源1.205597秒，q1仅余t非零一般面。
 
 - **R271 任意新增强位的完整原最小源绝对物理孔权（2026-11-26，已证明）：** [有限Fock精确双射、两向孔权与原Gram逆](results/R271-appendix-all-strong-bit-extension-weighted-complete-source.md)在y=m+d、s≥2²⁴/y给所有x≥y/J≥0的新增γ1/32孔权≤16/15‖g‖，总物理代表只付32^(y+h−1)，无x−y损失。差进一步由旧正能量√ε_y控制，得任意增长x的完整源强极限；保原同forcing、V/K及partial来源。真F0/Sx仍须另付。
