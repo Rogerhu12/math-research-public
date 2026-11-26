@@ -42,6 +42,11 @@
 并行03规则核查：2026-11-26 15:58:47 UTC，真实pull至`11dcb85573520a22f797566faa66161711f3b38b`，双README无变化。
 <!-- visible-larger-parallel-03:end -->
 
+<!-- visible-larger-parallel-04:start -->
+并行公开Actions04：[run 45857104277/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45857104277)；[实际记录](notes/2026-11-26-public-actions-45857104277-1.md)。阶段`recipe_start`/running；已返0，exit=未返。
+并行04规则核查：2026-11-26 16:16:45 UTC，真实pull至`6501653312a0d8ca18b8cebd85f6ce0c84f7f6cf`，双README无变化。
+<!-- visible-larger-parallel-04:end -->
+
 ## 当前公开Actions执行
 
 01 run45762076394/1已success，真实止77/49followups、11:04:33 UTC准入结束/research_complete=false；后来归因/ownfirst未执行，不编78/79。原全部历史与未返边界保[cd233完整H](https://github.com/Rogerhu12/math-research-public/blob/cd233b9b178729b6a60c46c39039ab218de5313f/topics/visible-flex-larger-amplitude/HANDOFF.md)及所链notes。02同场方向/固定参考缓存、03b曲率预补/SOC、固定moment-Q与角向新构造连续推进；只读实际返回。[队列归档](notes/2026-11-26-complete-followup-parameter-archives.md)保全部旧参数，活动95KB/journal不变。未达全部标准不停。
