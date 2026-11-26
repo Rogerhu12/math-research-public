@@ -217,7 +217,7 @@
 
 - [联合比例预算与同物理精确分块Jac入口](notes/2026-11-26-joint-budget-block-jacobian-implementation.md)：**新算法/输入已发布，结果待实际运行**。R1.012/Y=.3928/τ=.06072仍支付README的D比例，旧run资格不变；原q、全pending径向和两类角提议准确继承。16方向AD保持原空间jet，fun只求值，原argmin后加σ顺序也保留；首方向检查收费，trust=.5明确新参数。
 
-- [R571真实核心shooting与同场核心归一数值入口](notes/2026-11-26-r571-phase-shooting-implementation.md)：**新计算包已发布，待原终态**。新M25固定尾、精确C²圆柱connector、连续有号核心残差根、相位导数与同根加密；同一个场归一A_core=1，报告弧长/缩放角partial二jets，非坐标无关Hessian证书。4/6/8只作有限probe，不授全频率逆或有限分支。
+- [R571真实核心shooting与同场核心归一数值入口](notes/2026-11-26-r571-phase-shooting-implementation.md)：**新计算包已运行，原终态见后条**。新M25固定尾、精确C²圆柱connector、连续有号核心残差根、相位导数与同根加密；同一个场归一A_core=1，报告弧长/缩放角partial二jets，非坐标无关Hessian证书。4/6/8只作有限probe，不授全频率逆或有限分支。
 
 - [R573 固定collar曲率与分离尺度返回的reach比例障碍](results/R573-fixed-collar-curvature-and-separated-scale-reach-obstruction.md)：**已证明**原ruled片完整形算子给起点reach≤H²+(ξc+Ω)⁻²；首高尾两个实际collar点给D≥c√R logR/δ−C_R。先固定母/H/H0/Ω/有限R后δ→0，任何保原collar的闭C²完成均有reach/D→0，最终违反.03门；净pose返回、整体缩放和collar外校正不能消去。未算有限阈值、不排一般有限参数；转紧凑输入而非只增形式阶数。
 
@@ -228,3 +228,5 @@
 - [联合预算B030首次真实可行metric终态](notes/2026-11-26-joint-budget-b030-first-metric-receipt.md)：**完整单lane原观察**。run45777140827/job139763424593以新预算全重建实际过门，精确分块方向差3.81e−10；181.995016962新科学秒，fine η2.089589→.939818940292、V=0、κ16.452596。119×1536为实际约束，3072仍未采用提议，241×3072只fine观察；继续连续峰接口，非1e−6/冻结g/全reach完成。
 
 - [R574 准确非线性高度方程与核心通量横截性](results/R574-exact-nonlinear-height-equation-and-core-flux-transversality.md)：**已证明**固定旋转g的完整Darboux式准确为二次方程；γ正定的单连通圆盘上平坦developing可单值恢复，但核心退化/全局单射仍需付。真实核心零的同场Acore=1通量为−3/R；有限差Green身份直接推出c′及D=−(3/R)c′，不先假设参数场C1。二阶均值响应及三阶μD必要条件明确，受迫高模/全频逆/有限分支未授。
+
+- [R571相位核心射击原终态与过大的核心归一代价](notes/2026-11-26-r571-phase-shooting-natural-final.md)：**完整原运行观察**。run45777456573/job139764481718自然success，173.782205514秒、16,499,950 seed RHS；选φ1.50838477仍C/A=−3.4767e−5。Acore=.00054504，统一归一后尾|Vss|9.41956e9；相位导数两步未稳定，M+1差远小于根残差。背景κ13.9904观测未先失败，换尾/非单调连接与核心增益预算，不授有限分支或全频逆。
