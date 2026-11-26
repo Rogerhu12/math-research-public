@@ -96,3 +96,6 @@
 
 
 - [R988](results/R988-level-twelve-k3-chow-bridge-and-original-lambda-input.md)：原Γ0(12)∩Γ1(3)的K3实际模型/六纤维/MW=Z/6与NS判别式−12给完整ψ0²，保导子2。真实Shioda–Inose商图和固定CM同源先给有限L上Chow逆；降K后，Kimura偶rank2的三反对称迹式使homologically-trivial误差平方零，明确修正逆为2B−BAB。张量E0及三η投影后准确返回原ψ0³η⁻¹(2)，全finite/wild角色不改；固定CM17图循环族的AJ/ordinary条件在S×E0与E0³间交换。未赋新循环非零，未把它等同旧canonical或原端点。
+
+
+- [R989](results/R989-original-ten-source-sixth-digit-and-unchanged-six-block-prefixes.md)：全十实际来源以R602强Hurwitz及R614完整addition整窗付全部无限尾，六项J′准确modp7；原W/f至w^p、八位输入和两次真实除p支付同五高轴的六位Hensel点。五新增行的第六提升完整消去为Fτ6(x5)−cτFold6(x5)modp6，保旧五项的真实第六位及不同charge Euler读者。联合坏中央使原完整Γ6、低权格/五修正和每个ordered前缀在模p6目标逐行同一，比较新六位点无需125logp旧重定点成本；不比较无限精度核。原H_p/E_p全部六位须同点联立，未推出跨p非零。
