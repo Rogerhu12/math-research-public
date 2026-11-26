@@ -239,3 +239,6 @@ NS五件共129172B，owner71056B SHA18db439d5895e4232882940a57b7bd9457982383e1ac
 
 
 2026-11-26 20:13:07 UTC / visible-exact-astra-fb31ed6-20261127：SL新明确续接只改private snapshot basename为input_role.ext，原owner/math及四公式全部不变；完整旧execution01563ee206b7da9b04a4073865f68fa461deacc774a9c0d3f03f4459898a2113证明四目标0，旧consumed保。23整输入、新manifest20e65b42c9af964e2d4980ee0c449e28a448d06b0066b17f0e0d4d833d3d19fc与独立workflow已metadata检查，实际科学交给公开Actions。
+
+
+2026-11-26 20:13:52 UTC / visible-exact-astra-fb31ed6-20261127：按200MB上限，将26份未被当前Python/JSON/YAML/shell/JS引用的旧历史说明/检查点改成固定426bd18eeeafcfa7c479c550b6f6d2843e36052d的完整原文入口；每件原bytes/blob/SHA和恢复命令保留，368415B→33922B，净减334493B。原数学全文和递归恢复索引仍完整存在，科学actual/native/活动pins不动。为正在执行的PS/TC完整结果和后继SC留容量，不重旧目标。
