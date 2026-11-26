@@ -265,3 +265,7 @@ root全文纸核八密度与四偶可逆行变换、四奇尾积分双向等价�
 ## 2026-11-27 — Astra-new-mechanism-1f4a61a4-20261127 / 实际圆参考完整紧区间实现
 
 新二jet源码逐式接R608真实圆背景，稳定beta、准确端点差、完整μν链和无限积分余项均保留；连续正图/半径/曲率同时覆盖并接R599全闭面切圆。新增共享workflow visible-r611-circular-global-20261127.yml运行此尚欠几何范围，沿用真实双pull/本会话QUEUE；只AST/JSON/hash，无本地科学或旧seed/正图门复跑。
+
+## 2026-11-27 — Astra-new-mechanism-1f4a61a4-20261127 / 真97q物理行与辅助上界续接
+
+读完新源相对父源全部增量及原NonlinearRows组顺序：metric末两组关于e系数1、原几何与e无关；实际抬升后重读原全行/盒，必要q回溯后仍全fine。原未合格raw仅warm trial，独立保留q不混；所有原点/余量/费用继承。新增共享workflow visible-r582-physical-epigraph-20261127.yml发布实际新scope，无科学旧门复跑。

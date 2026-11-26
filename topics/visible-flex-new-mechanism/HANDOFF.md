@@ -5,7 +5,7 @@
 
 ## 1. 规则、授权与原始记录
 
-公开本次实际pull且根/题README已读至 **cd89412822ef2497f97891969248bfdcc23b52fe**；相对继承0749a4cc规则空差异。私库本次实际pull且根README已读至 **41fe885610073f478b2f5a752461ca56cfd43f09**；QUEUE认领推送 **09f8b8b54e7cfaabaa635bae5c438c7f1521289a**，状态本会话进行中。继承全文见[接手原件](notes/HANDOFF-inherited-20261127-1f4a61a4.md)。
+公开本次实际pull且根/题README已读至 **26fdefa01846d2b849efecbdd8f7f15a44c51c7f**；相对继承0749a4cc规则空差异。私库本次实际pull且根README已读至 **41fe885610073f478b2f5a752461ca56cfd43f09**；QUEUE认领推送 **09f8b8b54e7cfaabaa635bae5c438c7f1521289a**，状态本会话进行中。继承全文见[接手原件](notes/HANDOFF-inherited-20261127-1f4a61a4.md)。
 
 [本次压缩前全文](notes/HANDOFF-before-continuous-angular-bounds-20261126.md)及其所链[继承交接](notes/HANDOFF-inherited-20261116-1809.md)保全部结论、条件、旧失败、输入与费用；不因摘要删账。每次实际pull后查根/题README差异并执行，至少每小时；API读取不冒pull。root独占git和共享索引，每条结论即推，NFF立即pull --rebase再推至成功。
 
@@ -27,7 +27,7 @@ R580排旧有限多项式，R582付实际圆背景无限全平核，R592付遇�
 
 [首个97q终态](notes/2026-11-26-r582-local-tail-first-original-terminal-receipt.md)已付125.663352586秒/17恢复；[更密角网原终态](notes/2026-11-26-r582-paid-angular-original-terminal-receipt.md)run45850216756/job140014319556新217.706907412秒/2恢复/5Jac，metric接受0，η.0004334870087785436、κ16.45256917。真实97q SHAeb37b419，p=.181/ε=.001/trust2；actual185×1536、fine10934×3072保全部旧点，pending4圈，189×3072提议未采用。未过2.5e−7，不增p。
 
-原两metric callback均无紧急角漏峰；backend trial尚违反已加入metric行，fine新径向曲率峰即打断SQP，角翻倍只是附带策略。[当前全行优先源](notes/2026-11-26-r582-current-rows-first-implementation.md)已发布38915135，先让全部Rows.fun可行才付fine/交换，保189圈、1536实际约束角和3072细角及未采用proposal身份；不弱化完整接受门。首次R604有限观察δ=.001、α=.00432120、λ=1.0013167、ν=.00417069只复用860块，不授连续界。旧97方向核/诊断不再做；真正阶段通过才增p至目标.8，改g设计不作固定g精化。
+原两metric callback均无紧急角漏峰；backend trial尚违反已加入metric行，fine新径向曲率峰即打断SQP，角翻倍只是附带策略。前全行优先只维持后端49步，尚无fine接受；最新后继见第7节。首次R604有限观察δ=.001、α=.00432120、λ=1.0013167、ν=.00417069只复用860块，不授连续界。旧97方向核/诊断不再做；真正阶段通过才增p至目标.8，改g设计不作固定g精化。
 
 ## 5. 完整高度与非线性核心
 
@@ -63,4 +63,4 @@ R577/R579/R595/R599给完整近弦/厚核心/子午/切圆接口，实际圆参�
 
 [R608](results/R608-actual-circular-reference-tail-curvature-and-flat-cap.md)已付同解析圆参考δ≤2/25的无限尾正z_s、a>rc、κm<1/3和完整平帽，含所有振荡周期。[完整紧区间二jets](notes/2026-11-27-r611-full-compact-reference-implementation.md)新源/请求已备：同μν、向外区间、准确尾重叠，目标参考reach .06072；尚未执行成功，非圆损耗另付。
 
-97q run45856511629原终态已读：[收据](notes/2026-11-27-r582-current-rows-first-original-terminal.md)，新2422.614817932秒/50Jac/49未合格callback，实际q/η未变。续明确warm trial及辅助上界修复，仍保全门。全谱末态改径向响应、真历史/参考几何并行。继续B030实际可行末态；子项完成即记原证据并接[open](open.md)。严格证明在[results](results.md)，数值和成本在notes。仅全部README门真正完成才收尾。
+97q run45856511629原终态已读：[收据](notes/2026-11-27-r582-current-rows-first-original-terminal.md)，新2422.614817932秒/50Jac/49未合格callback，实际q/η未变。[warm trial与辅助上界修复](notes/2026-11-27-r582-physical-epigraph-implementation.md)正式续算已备，实际q与trial分列，保全门。全谱末态改径向响应、真历史/参考几何并行。继续B030实际可行末态；子项完成即记原证据并接[open](open.md)。严格证明在[results](results.md)，数值和成本在notes。仅全部README门真正完成才收尾。
