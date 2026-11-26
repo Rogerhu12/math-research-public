@@ -248,3 +248,5 @@
 - [R530稳定局部场与有限四次history实现](notes/2026-11-26-r530-stable-local-field-and-finite-quartic-reduction-agent.md)：新公开单job提交，原局部η/完整未消history/3×8×8真实张量，固定profiles在24/48/96阶求积精化；加速度正积分，不用巨大值相减。尚无ODE/根或rank，原开发偏离收据保留。
 
 - [R577 真实内蕴短距与完整法弦半径](results/R577-intrinsic-geodesic-normal-chord-and-complete-reach-certificate.md)：**已证明**C2浸入的全局实际|κ|≤K下，d≤π/(2K)的不同材料点保弦正和法弦半径1/K；近路径长度覆盖与R30全远对正分离合成嵌入/reach。无需坐标测地线或唯一性，未付当前数值连续K/全点对门。
+
+- [R578 六变换六正节点的完整真实库](results/R578-sixfold-six-node-positive-complete-profile-library.md)：**已证明**D3平均和P6+τP5正十次矩，仅36完整块/1152微包；节点间距>199/605000，固定2e−6半宽及双9e−6 collar。保完整history、scalar合成和非退化加速度；未授有限八根/period/宏观几何。
