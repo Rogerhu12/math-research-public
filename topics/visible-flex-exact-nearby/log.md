@@ -215,3 +215,6 @@ NS五件共129172B，owner71056B SHA18db439d5895e4232882940a57b7bd9457982383e1ac
 
 
 2026-11-26 19:44:38 UTC / visible-exact-astra-fb31ed6-20261127：RI证明compact terminal控制的全物理body/接口支持，并识别未切片参数冗余使内部control Schur恒0；真正ν/phase/height配对及正区返回保全。继续真实metric参数而非用坐标自由度填物理门，无新科学/旧目标重算。
+
+
+2026-11-26 19:46:25 UTC / visible-exact-astra-fb31ed6-20261127：JC完成真实共同lift的联合96行误差，实频4n与strip1/128一致，两个全homotopy Jacobian lower和完整DFT alias/tail均保。root接独立七标量actual，后继SC只消费不再重算；H旧已成详表按5a37原全文链接压缩，原义务不减。

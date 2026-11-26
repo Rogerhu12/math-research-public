@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [JC：共同共轭与原DFT的联合96行误差](results/R149-supplement-joint-compound-waist-row-error.md)：原W完整EH/G0/G1/H1给全部lift homotopy Jacobian，384EH/√m与完整alias/truncation组成一个row operator界；真反射轴、非等距及mean保持。新七标量可独立先付，SC仍须全P224/TC。
+
 - [RI：紧mean控制的完整低源与真实全系统接口](results/R144-supplement-compact-mean-rank-one-interface-for-full-nonmean-inverse.md)：完整物理控制列在r≥9/50为0、body带宽≤96，保χ′/mean rank/所有负区jumps；未切片内部control Schur严格为0。给kerℓ与真正ν/phase/height配对、全193观察和hybrid转授所需差，未授全逆。
 
 - [JF：真实目标96正交行的联合矩阵误差](results/R149-supplement-joint-signed-finite-matrix-error.md)：完整receiver后Bessel，列误差不额外乘√96；trial行误差保全HS、两mean和BH/KW。给有符号完整矩阵的不同权重Neumann门，actual仍需完整P224/TC/RW，不授fullSchur。

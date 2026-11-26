@@ -1,11 +1,11 @@
 # 交接：可见振幅的精确闭等距族
 
-维护会话：visible-exact-astra-fb31ed6-20261127；更新：2026-11-26 19:44:38 UTC。
+维护会话：visible-exact-astra-fb31ed6-20261127；更新：2026-11-26 19:46:25 UTC。
 **总任务未完成，持续研究，不等用户回复。**
 
 ## 已读规则、授权与接续
 
-2026-11-27（台北）已 partial+sparse clone 两仓库并 pull main，读根全部规矩、课题README、H/open、当前log及接续notes。公开根/topic规则已读至5a37b96940f2d553fd6350415a2f2b48a8e40714（相对12385db35无diff）；私库根规则已核至3977a3bfc9，QUEUE接手已推594e561b05a758bd8c02840ca4fbf574cd707436。每次pull核两README差异、至少每小时一次，非FF立即rebase再推。令牌只CLI。当前本地 /workspace/scratch/fb31ed637c77/math-research-public，无AGENTS。
+2026-11-27（台北）已 partial+sparse clone 两仓库并 pull main，读根全部规矩、课题README、H/open、当前log及接续notes。公开根/topic规则已读至65f4b1f7fda3d8d2724b66a171fb7291fea5a480（相对12385db35无diff）；私库根规则已核至3977a3bfc9，QUEUE接手已推594e561b05a758bd8c02840ca4fbf574cd707436。每次pull核两README差异、至少每小时一次，非FF立即rebase再推。令牌只CLI。当前本地 /workspace/scratch/fb31ed637c77/math-research-public，无AGENTS。
 科学计算用公开Actions；本地可做证明、静态与metadata。根规12取消额外防错审批/独立全件复核流程；新完整证明直接登记，每结论推送。规15保持topic≤200MB、H<10KB，禁止新增可重建大数组。前会话完整H/open以27c422943同路径为准，递归原件与全部范围、失败和未付义务仍在历史，以下不重做旧成功。
 
 ## 同一对象与最终标准
@@ -26,12 +26,13 @@ geometry43584188751/26仅在同η0全core含帽物理C0≤1e−4、|δν|≤1e�
 
 ## 已锁定的实际结果与排除
 
-- **[common source4](results/R149-supplement-actual-common-high-WPN-source-unit-ball.md)**45783842857/1，child0/complete/provedtrue，4/4，25pins/320bits。完整actual/execution全件已核锁定。17独立零/18槽、真24480投影及state outermean保；大界不授smallness。首45783284224仅YAML jobs0，修后首child即成功，目标锁。
-- **[RW actual](results/R149-supplement-actual-reflected-finite-waist-rows.md)**45787309600/1全96/480，30当前/4历史，L4096/N1024，a=2H(0)不置0；signed mean、全部alias/tail、private完整carrier读回保。完整actual/execution全件已核锁定。首row mean非零，未给PDE列/Θ/fullincoming。[TC真根连续trial](results/R149-supplement-true-root-continuous-PDE-trials-and-complete-residuals.md)有限残差新目标已核，真列误差仍等P224。
-- **[C0/CP11 actual](results/R144-supplement-actual-compact-mean-C0-receivers-and-positive-moments.md)**45787608966/1全7721/6143/7721、52球，正矩门true；15当前/5历史，完整actual/execution全件已核锁定。Γ/Rm/Rnm/Jm只读；KJ保τ+与terminal T^-1，11核保真χ支撑。其smallroot/mean-ball已由TM actual完成；raw固定ν0/η0 scope不变。
-- **[旧forward](results/R144-supplement-actual-forward-mean-enclosure-and-unresolved-gates.md)**45772466407/1只6791续930后完整7721/6143；positive/C0/outermean unknown，首6803，无真违例。全η目标锁定；RS W0=0、D0/signed bulk/atoms/physicalmean保。[suffix规约](notes/2026-11-26-R144-fixed-eta0-mean-suffix-state-spec.md)仅实际未完成才续，真cursor及join侧别/W/G/AD/D0整球不重置。
-- **R143**45762052058完整4651六球/body三门true；**R146**45765780668完整418/13376、T2<102.965、Qupper<−.16618，排当前CV/RA非负根费格式，不推BVP奇异。不再该格式Gram/容量/仅细化DH。
-- **R145/R147/NW**全selected正负ν source保旧证明。[NW actual](results/R147-supplement-actual-same-window-negative-nu-waist.md)45781137624/1全4/4，FN<1.307204e−6、GN<171.351714、ordinary腰/两mean<2.24e−4，旧globalFG<3.720478e−6。只零root/无独立impulse ordinary分量；−3R0/m、所有jump/indirect高低mean不删，非fullν/rawC0。
+下列已成记录的完整域/球/pins/失败/lost说明保[5a37b969原H](https://github.com/Rogerhu12/math-research-public/blob/5a37b96940f2d553fd6350415a2f2b48a8e40714/topics/visible-flex-exact-nearby/HANDOFF.md)及各proof，原成功禁重，false/unknown不改：
+- [common source4](results/R149-supplement-actual-common-high-WPN-source-unit-ball.md)45783842857/1：完整4/4真24480投影及state outermean，大界不授smallness。
+- [RW actual](results/R149-supplement-actual-reflected-finite-waist-rows.md)45787309600/1：96/480完整，a=2H(0)、signed mean/alias/tail；非PDE列/Θ/fullSchur。新JC从原W全球估联合row operator，root正在做独立七标量actual。
+- [C0/CP11](results/R144-supplement-actual-compact-mean-C0-receivers-and-positive-moments.md)45787608966/1：全7721/6143/52球、正矩true；τ+、terminal T⁻¹、11核及rawν0/η0完整保，root/mean新界见SR/MJ。
+- [旧forward](results/R144-supplement-actual-forward-mean-enclosure-and-unresolved-gates.md)45772466407/1：完整7721/6143，positive/C0/outermean unknown、非真实反例；全η目标已锁。[suffix](notes/2026-11-26-R144-fixed-eta0-mean-suffix-state-spec.md)仅真未成时续，全W/G/AD/D0与join侧保。
+- R14345762052058全4651六球/body三门true；R14645765780668全418/13376、T2<102.965、Qupper<−.16618，排当前CV/RA格式，非BVP奇异；禁继续该格式Gram/容量/仅DH细化。
+- R145/R147/[NW](results/R147-supplement-actual-same-window-negative-nu-waist.md)45781137624/1旧4/4已成：FN<1.307204e−6、GN<171.351714、ordinary腰/两mean<2.24e−4；只零root无impulse分量，−3R0/m及all jump/high-low mean不删。新紧支ν源接收与真正signed meanν列在推进，非全ν/phase已闭。
 
 ## 所有仍未付的最终接口
 
