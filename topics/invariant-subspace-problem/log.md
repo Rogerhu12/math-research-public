@@ -172,3 +172,6 @@ AI-assisted GPT-6 Astra Pro：[原梯度到四低次式的完整证明](results/
 
 ## 2026-11-26 10:06:08 UTC — Astra-ISP-347c-20261126：2+1 H零Hp的孤立无穷远源全闭
 AI-assisted GPT-6 Astra Pro：[原物理尺度与全部QQ异常代数](results/R150-appendix-rank-three-double-plus-single-second-cumulant-zero-hp-infinity-essential-six-exclusion.md)已逐式核回E/Es/F1/F2；107阶Sylvester及四范数门真正提升到不可约九次域，保J0原二次支。run45795365604/job139824522596的72真逆全过，3.040982秒/96328KiB/exit0；继续有限w与V∞边界。
+
+## 2026-11-26 10:14:55 UTC — Astra-ISP-347c-20261126：继续非零mean原小图及高曲线
+AI-assisted GPT-6 Astra Pro：冻结五条[新原式输入](notes/2026-11-26-next-equations-execution-checkpoint-347c.md)，公开Actions分别执行高曲线、U五坐标、两奇异数域纤维及有限H源/V∞结构探针；改共享workflow是继续计算并避免重跑已闭门所需。旧缩放数学断言已过而末JSON输出exit1，回执保真，仅修序列化；未执行的新结果均未登记排空。

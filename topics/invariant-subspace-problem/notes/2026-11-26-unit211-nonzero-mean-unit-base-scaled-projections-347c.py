@@ -156,7 +156,7 @@ def det4(rows):
  return ans
 def degrees(f):return list(map(int,f.degrees()))
 def polyhash(f):
- serial=json.dumps([[list(m),str(c)] for m,c in sorted(f.to_dict().items())],separators=(',',':'))
+ serial=json.dumps([[list(map(int,m)),str(c)] for m,c in sorted(f.to_dict().items())],separators=(',',':'))
  return hashlib.sha256(serial.encode()).hexdigest()
 assert [degrees(a) for a in AA]==[[2,4,4,3],[2,4,9,6],[2,4,8,5],[3,6,12,8],[3,6,12,9]]
 B=clear4(det4([[cf(a,0,j) for j in [2,1,0]] for a in AA[:3]]),known4)

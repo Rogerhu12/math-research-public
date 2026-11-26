@@ -1,12 +1,5 @@
 name: ISP scaled unit211 and H21 exact gates
 on:
-  push:
-    branches: [main]
-    paths:
-      - 'topics/invariant-subspace-problem/notes/2026-11-26-unit211-nonzero-mean-unit-base-scaled-projections-347c.py'
-      - 'topics/invariant-subspace-problem/notes/2026-11-26-h21-zero-hp-infinity-exact-347c.py'
-      - 'topics/invariant-subspace-problem/notes/2026-11-26-h21-nonzero-hp-exact-347c.py'
-      - '.github/workflows/invariant-subspace-scaled-and-infinity-347c.yml'
   workflow_dispatch:
 permissions:
   contents: read

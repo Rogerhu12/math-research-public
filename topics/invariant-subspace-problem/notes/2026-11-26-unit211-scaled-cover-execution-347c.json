@@ -1,0 +1,44 @@
+{
+  "elapsed_seconds": 356.87665375299997,
+  "max_child_rss_kib": 323008,
+  "ordinary_isp_claim": false,
+  "rules_reads": [
+    {
+      "after": "50e3e4e18ac8392c2eaace7e2d6d3493a6771eda",
+      "before": "96819c8f4b69f55f513137692d3e4587f104196d",
+      "rules_git_blobs": {
+        "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+        "topics/invariant-subspace-problem/README.md": "fef43bdf8690f2eec4751d85784a266eacdd0322"
+      },
+      "rules_unchanged": true,
+      "utc": "2026-11-26T09:48:37.848268+00:00"
+    }
+  ],
+  "run_attempt": "1",
+  "run_id": "45795365604",
+  "schema": "isp-frozen-exact-actions-execution-v1",
+  "session": "Astra-ISP-347c-20261126",
+  "source_commit": "96819c8f4b69f55f513137692d3e4587f104196d",
+  "source_exit_code": 1,
+  "source_git_blob": "7b19d5d022b66455d9099c6dfa75dc20f1ecf65a",
+  "source_sha256": "4d854f9f7a90ec14ee91d8e41e1fe9796b95cee5abae92b75d6de9431bba5351",
+  "stdout_bytes": 2647,
+  "stdout_sha256": "d267040ac339f33430e643c5d6acd269e93c07ef05ca6e67bcde32a3724915db",
+  "stop_reason": null,
+  "job_id": 139824522922,
+  "interpretation": {
+    "status": "all_mathematical_assertions_passed_before_report_serialization_error",
+    "report_error": "TypeError: Object of type fmpz is not JSON serializable in polyhash",
+    "failed_source_line": 209,
+    "last_mathematical_assertion": "degrees(CC)==[0,0,18,10]",
+    "finite_z_fibers": true,
+    "finite_v_fibers": true,
+    "half_weight_resultant_degrees": [
+      60,
+      98,
+      108
+    ],
+    "half_weight_gcd": "Q^38",
+    "ordinary_isp_claim": false
+  }
+}
