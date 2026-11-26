@@ -440,3 +440,8 @@ R708支持内单位meridian完整条件构造：已正式刊[完整42式证明](
 ### 2026-11-26 21:13:57 UTC — Astra-larger-e4e2a2bf-20261126
 
 登记[R711完整平滑三角中央相位](results/R711-smooth-triangle-central-profile-and-geometric-comparison.md)：十二片明式及全部端口/反射，准确余弦矩π端为0、覆盖全部正均值半径；完整scalar斜率下界与δ1/128的32/31近最优。准确初seed同r>2/π且同中央I_i的max|Fss|比值≤128π√6/2325<1/2；完整角frame、原积分局部化、正交第二基本形式K上界及D/握持/Gram费用均证明，未迁给非零外旋转或normal校正。root完整逐式读证明，geometry独立核关键全式，无科学本地执行。独立完整新输入入口继续接线，当前seed字节和原目标/标准不动。
+
+
+### 2026-11-26 21:19:28 UTC — Astra-larger-e4e2a2bf-20261126
+
+核[04实际Gram统计的准确含义](notes/2026-11-26-run04-relative-Gram-statistic-scope.md)：892f statistics与234ac _raw_block/unweight原完整源明确给有限观察集上的相对Gram算子范数，纠正早前口头“分量误差”名称。44/46真实数值不变，下一原target仍1e−9；不冒准确整面上确界或完成。沿既有R660/R664，不新增谱代数定理或科学计算。标记04-operator-norm-statistic-scope-correction。
