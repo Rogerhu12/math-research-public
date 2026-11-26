@@ -6,8 +6,10 @@
 
 ## 原最低型：已经付清的输入与准确剩余标量
 
+[R1056](results/R1056-original-kernel-lowest-CM-single-coefficient.md)：原r2核T₀的真实最低C_CM(T₀)=(-3)^(ℓ−1)[r^(ℓ−2)]q³/j/2。原H′=h²给F₀′=I(1−r)^−4/3/(9q²)，Lagrange/Wronskian逐项消全部安全分母；不与f_N、bare范数或DQv读数混同，单位仍开。
+
 [R1054](results/R1054-original-lowest-CM-column-kernel-candidate-counterexample.md)：p47 K15=23排最低列恒落Q核候选。
-[R1057](results/R1057-certified-original-p47-actual-lowest-functional.md)：公开run45880257064/job140117536918、源9543f2ef，原p47完整DQ(1−Q)λ非零，实际最低C(T_c)=15，留数/真实参数反演/全S三读一致，B(c,v)=0；原轮廓14非零系数、首w¹。0.066990秒/120秒，无raw。仅固定输入，不推全p或47满足C_*。
+[R1057](results/R1057-certified-original-p47-actual-lowest-functional.md)：原p47完整DQv非零，最低C=15三读一致、Bcv0、14非零系数/首w¹；run45880257064/job140117536918已成，pins/预算保结果。不推全p或47>C_*，不重开。
 [R1055](results/R1055-original-complete-first-log-canonical-rational-primitive.md)：原完整v=(1−Q)λ的规范有理原函数V=6(bU₁+b²U₂)/(A1²r^ℓ)，U_i=[(1−r)^−i/3(j/q)]_<ℓ。全商/有理代表接口、三CM的4/−2/−2留数、S₀=1、全部principal parts与pth歧义均付；不跨j共振，不代指定最低值。
 
 [R1052](results/R1052-original-complete-CM-profile-and-actual-lowest-functional.md)：actual full-node中心赋值直接给全部normal极阶界，E一维像保全部返回；source u_s/ε^p的wholeR/p Dickson比较与全primitive误差均付。原完整行h̄_c=−Σκ₁^kc_kλ₀^−(ℓ−k)[Z^k](T_c/A)(B_CM)w^(ℓ−k)/(2m)。最低C_CM(T)=−3^(ℓ−1)/A1·[r^(ℓ−1)]T((1−r)^(1/3))/((1−r)^(5/3)j³)=2B(c,L_CM)。实际读数2B(v,QD L_CM)保Q²；单位/深盘排根仍开。
@@ -22,11 +24,11 @@ R1044/46的完整Cauchy旗标现由R1052给全等式；whole-type rankℓ−1、
 
 R1037/40分别支付p11/p5实际good BT的两次PD、原source Fp²/Hermitian与Π²=−p、B整对称完美。Q=ε⁻²ΦΠ是实际Fil的Lie算子，模π为quo(r^k a(b^p),A²) modA（外系数固定）；k分别8g−2/8g+2。核c₀准确一维纯正δ，负δ单射。完整v=(1−Q)λ保degree-p返回；Λ_Q=B(v,QD·)在全p>C_*本原并杀原全部MW饱和格。K_Q=(1/2)P_(DQv)(1)必须读完整商，Q²不可删；B(c₀,J₀)=−1/8不代K_Q单位。
 
-R1038原p5双中心与图二次角色、新quadratic PS/St逐型、e₁G[p∞]≅e₁B[p∞]、bounded lift先减prime-to-p Teich挠点均已成；只有formal/B上施e₁。两节点同一Dickson无额外2，原完整首log=εΣθ(λ+R_p)f，全部p≥41准确Fm；p11相应R1023/24。R1026纯代数单P1非整除给明确绝对C_*，p5原负δ运输及额外CM域排除/原6p正CM方向由R1040支付。未宣整个p5 J良好。
+R1038/40原p5双中心/图二次角色、e₁G[p∞]≅e₁B[p∞]、Teich先减、负δ与原6p方向已成；formal/B上才施e₁，非整个J良好。原log、Fm、两节点Dickson与C_*完整来源保结果。
 
 R1032/33/39的原首层/全积分尾/M1只消费，返回与D_aux支撑保原证明。
 
-R1035/36实际Lie格与完整split-Hecke中心F₀、原J中D₀非挠paired块重数一已核，未冒辅助Res的C²。T5版和Q版实际消去都保真实原格；所选Q简单商Néron格不能从p-adic type直和自动推出。R1041原r2 bare读数是B(c₀,c₀)，R1043原f_N读数是B(c₀,v)，两者与K_Q不同，分别仍待非零。
+R1035/36原Lie格、split-Hecke F₀、D₀非挠paired块重数一已核，非辅助Res的C²。T5/Q消去保实际格；Q简单商Néron格不从type直和自动来。R1041核norm、R1043端点和K_Q是三个未证单位的不同值。
 
 R1018/19/21的Fm、真实T5²/Z杀CM、full-p模p仿射刚性，以及R1028–30实际Igusa修正/整τ₁/全分支E均只消费；H_A/H_Z新支撑仍待算，不任换λ。全部来源/相位/执行pins保原结果与归档。
 

@@ -389,3 +389,7 @@
 ### 2026-11-27 03:05 Asia/Taipei — R1055 原完整v的规范有理原函数
 - [R1055](results/R1055-original-complete-first-log-canonical-rational-primitive.md)：原完整v=(1−Q)λ的规范有理原函数V=6(bU₁+b²U₂)/(A1²r^ℓ)，U_i=[(1−r)^−i/3(j/q)]_<ℓ。全商/有理代表接口、三CM的4/−2/−2留数、S₀=1、全部principal parts与pth歧义均付；不跨j共振，不代指定最低值。
 - 原λ保持−6(b+1)/r。先以完整quotient支付代表变化，再用原R1045留数和R1050/52安全Wronskian在全部CM匹配，最后P¹全局微分与pole<p排pth歧义。全文纸推，无本地数学、无新窗口；继续实际Q²及最低指定值。
+
+### 2026-11-27 03:08 Asia/Taipei — R1056 原核最低泛函的单系数
+- [R1056](results/R1056-original-kernel-lowest-CM-single-coefficient.md)：原r2核T₀的真实最低C_CM(T₀)=(-3)^(ℓ−1)[r^(ℓ−2)]q³/j/2。原H′=h²给F₀′=I(1−r)^−4/3/(9q²)，Lagrange/Wronskian逐项消全部安全分母；不与f_N、bare范数或DQv读数混同，单位仍开。
+- 保R1048原r2范围、T₀规范和同一实际Z；积分分母ℓ+1至2ℓ−1全小于p，A1²与9及最后1/2全部显式核过。独立纸推，无数学执行；仍继续原norm与DQv指定值。
