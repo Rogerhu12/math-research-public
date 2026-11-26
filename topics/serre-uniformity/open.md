@@ -2,7 +2,7 @@
 
 **主要目标仍OPEN。** 完整证明绝对常数C，或给出p→∞完整无CM反例族；有限素数、条件结论、低权/局部Abel/部分子群均不够。
 
-此前逐字状态在[最新open归档](open-archive-2026-11-27-before-complete-CM-coefficients.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重新计算已成输入。
+此前逐字状态在[最新open归档](open-archive-2026-11-27-before-complete-CM-coefficients.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重算。
 
 ## 原最低型：已经付清的输入与准确剩余标量
 
@@ -20,7 +20,7 @@ R1037/40分别支付p11/p5实际good BT的两次PD、原source Fp²/Hermitian与
 
 R1038原p5双中心与图二次角色、新quadratic PS/St逐型、e₁G[p∞]≅e₁B[p∞]、bounded lift先减prime-to-p Teich挠点均已成；只有formal/B上施e₁。两节点同一Dickson无额外2，原完整首log=εΣθ(λ+R_p)f，全部p≥41准确Fm；p11相应R1023/24。R1026纯代数单P1非整除给明确绝对C_*，p5原负δ运输及额外CM域排除/原6p正CM方向由R1040支付。未宣整个p5 J良好。
 
-R1032/33(p11)、R1039(p5)的原4m首层、全部p倍积分尾和whole-block M1只消费；其它CM返回及D_aux真实支撑保原证明。
+R1032/33/39的原首层/全积分尾/M1只消费，返回与D_aux支撑保原证明。
 
 R1035/36实际Lie格与完整split-Hecke中心F₀、原J中D₀非挠paired块重数一已核，未冒辅助Res的C²。T5版和Q版实际消去都保真实原格；所选Q简单商Néron格不能从p-adic type直和自动推出。R1041原r2 bare读数是B(c₀,c₀)，R1043原f_N读数是B(c₀,v)，两者与K_Q不同，分别仍待非零。
 
@@ -32,7 +32,7 @@ R1只把全部异常缩为p>37的完整N_ns；**p≡2,5 mod9只是另加小惯�
 
 ## O1：全p同一真实本原标签的临界非零
 
-[R1049](results/R1049-original-fN-theta-first-direction-moment.md)：保原F⊗R₋、实际三挠刚化/全部模6相位，η⁵P_FR(η⁶)=t²δ′φ_A/12；原f_N=−t²δ′Σηφ_A/[12(p+1)]。十二代表相位全核；方向逐点单位不代一阶矩非零，原同h筛选仍开。
+[R1049](results/R1049-original-fN-theta-first-direction-moment.md)：保原F⊗R₋、实际三挠刚化/全部模6相位，η⁵P_FR(η⁶)=t²δ′φ_A/12；原f_N=−t²δ′Σηφ_A/[12(p+1)]。十二代表相位全核；方向逐点单位不代一阶矩非零，原同h筛选仍开。 §6另精确给固定primary Θ与零常数积分EΘ：f_N=t²δ′[q^p]Θ(q)EΘ(q⁴)/[4(p+1)]；完整36/12与交换相位保留，指定系数单位仍开。
 
 [R1051](results/R1051-original-scalar-new-prefix-through-402581.md)：公开run45869953028/job140082478470、源30cecd32，严格新增5372素数200003…402581（p2/5mod9）原f_N/g_N全非零，1080.04秒/1200秒预算，准确完成前缀。余段从402593续算；全部请求/完成列表/输出hash在结果，不作全称推论。
 

@@ -177,6 +177,89 @@ $$
 
 此证明把原端点交给一个明确的一阶带相位方向矩。它没有证明该矩非零；也没有由每个加数非零推出其和非零。更没有删除原同 $h$ 问题的 primitive/Legendre mask。后续如使用 norm sphere、theta 级数或 character sum，必须保留 (1049.4) 的完整相位与 (1049.6) 的一次权重。
 
+## 6. 同一个固定 theta 级数与积分乘积
+
+上面的一阶方向矩还可以完全改写为固定输入的第 $p$ 个系数。
+这一步保留全部实际相位，不把另一条同 CM 来源的级数代入。
+
+令 $\mathcal O=\mathbf Z[\zeta]$，称
+$\alpha_0\in\mathcal O$ 为 primary 当且仅当 $\alpha_0\equiv1\bmod3$。
+单位约化 $\mu_6\longrightarrow(\mathcal O/3)^\times$ 是双射：
+两边都有六个元素，$\pm1,\pm\zeta,\pm\zeta^2$ 的约化互异。
+记其逆映射为 $\rho$。对 (1049.3) 的原表示，
+$
+\alpha\beta=ab(1+d_A^{(3)}s)
+          =ab\zeta^{-d_A^{(3)}}\pmod3.
+$
+所以原相位准确为
+$
+\phi_A=e_A\,\overline{\rho(\alpha\beta)}.
+\tag{1049.13}
+$
+置 $\alpha_0=\alpha/\rho(\alpha)$、
+$\beta_0=\beta/\rho(\beta)$，则它们是唯一的 primary 代表。
+由 $N\alpha+N\beta=p$，在模 $p$ 中
+$\eta=\alpha/\bar\beta$，故
+$
+\eta\phi_A=e_A\,\frac{\alpha_0}{\bar\beta_0}.
+\tag{1049.14}
+$
+全部分母在 $p$ 处为单位，因为 $0<N\alpha,N\beta<p$；
+$p$ 在 $\mathcal O$ 惰性，范数为 $p$ 的单个元素不存在。
+
+每个 primary 有序对有 $36$ 个独立单位代表，而每个原方向有
+$12$ 个 norm-$p$ 表示。因此
+$
+\sum_{\eta\in T^-}\eta\phi_A
+=3\sum_{\substack{\alpha_0,\beta_0\ {\rm primary}\\
+                 N\alpha_0+N\beta_0=p}}
+ e_A\frac{\alpha_0}{\bar\beta_0}.
+\tag{1049.15}
+$
+$2$ 在 $\mathcal O$ 惰性，范数奇偶说明两分量恰有一个能被 $2$ 整除。
+交换两个 primary 分量使 $e_A$ 变号，且
+$
+\frac{\beta_0}{\bar\alpha_0}
+=-\frac{\alpha_0}{\bar\beta_0}\pmod p.
+$
+所以两个奇偶方向贡献相同，只取 $\alpha_0$ 奇、$\beta_0$ 偶并乘二。
+唯一写 $\beta_0=-2\gamma_0$，其中 $\gamma_0$ 仍 primary，得到
+$
+\sum_{\eta\in T^-}\eta\phi_A
+=-3\sum_{\substack{\alpha_0,\gamma_0\ {\rm primary}\\
+                  N\alpha_0+4N\gamma_0=p}}
+       \frac{\alpha_0}{\bar\gamma_0}.
+\tag{1049.16}
+$
+
+定义两个与 $p$ 无关的确切级数
+$
+\Theta(q)=\sum_{\alpha_0\ {\rm primary}}\alpha_0q^{N\alpha_0}
+         =\sum_{n\ge1}a_nq^n,\qquad
+\mathcal E_\Theta(q)=\sum_{n\ge1}\frac{a_n}{n}q^n.
+\tag{1049.17}
+$
+共轭保持 primary 条件，故 $a_n\in\mathbf Z$。
+第二个级数的常数项取零，且
+$q\,d\mathcal E_\Theta/dq=\Theta$。
+式 (1049.16) 的最后一个和准确等于
+$[q^p]\Theta(q)\mathcal E_\Theta(q^4)$，
+因为 $\alpha_0/\bar\gamma_0=\alpha_0\gamma_0/N\gamma_0$。
+每个所用 $N\gamma_0<p$，归约模 $p$ 合法。
+
+结合 (1049.6)，得到固定输入公式
+$
+\boxed{\quad
+f_N=\frac{t^2\delta'_p}{4(p+1)}
+ [q^p]\Theta(q)\mathcal E_\Theta(q^4)\pmod p .
+\quad}
+\tag{1049.18}
+$
+所有 $36/12$、交换因子二、$\beta_0=-2\gamma_0$ 的负号和原
+$\delta'_p$ 均保留。此恒等式不需要另认同一个 eta-product，
+也不以仅仅相同的 CM 角色认同另一个 theta 或 Eichler 截面。
+它没有证明该指定第 $p$ 项为单位，原同 $h$ 问题亦仍须继续。
+
 ## 来源
 
 - [R1012](R1012-original-p-similitude-divided-high-coordinates-and-critical-bridge.md)，原 $\mathcal O\oplus\mathcal O j$ 的 norm-$p$ 向量、每方向十二个真实表示。

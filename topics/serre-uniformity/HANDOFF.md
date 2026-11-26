@@ -6,9 +6,9 @@
 
 会话 **Astra-serre-24b8836b-20261126**。本轮已部分克隆并真实pull main，读两README/H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则读至36cf1ed2。不重做已登记结论或窗口。
 
-**公开两README已读提交：94f1aef2814052c8c80a4085c4f1d7078638652e**（2026-11-27 02:28 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
+**公开两README已读提交：9bbafc1e43290eae0a592245e39f291ff51051c7**（2026-11-27 02:36 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
 
-本轮两次真实部分克隆/pull已完成；最新执行宿主再次断连，按根规矩8用连接器小文本同步和带expected_sha的非force原子提交，恢复后立即pull --rebase。令牌只在CLI，不入文件/提交/MCP。根维护main/H/open/index/log，子研究仅独立数学稿；每条结论立即推。并发拒绝立即同步/读规则差异/重新基于新main再推至成功。global_route曾违规用V8数学探索，已叫停并独立纸核，范围/时长见[偏差记录](notes/2026-11-26-execution-path-deviation-and-correction.md)，不以输出作证明或合规窗口。
+已真实部分克隆/pull；终端再次不可用，按根规矩8用连接器小文本同步、读两README差异、带expected_sha非force提交，恢复后立即pull --rebase。拒绝即同步重基再推至成功。令牌仅CLI；根维护main/H/open/index/log，子研究独立稿，每条结论立即推。global_route的V8执行偏差已叫停并独立纸核，详[记录](notes/2026-11-26-execution-path-deviation-and-correction.md)，其输出不作证明/合规窗口。
 
 H<10KB、open尽量<30KB、每MD<100KB、topic<200MB；无可重算raw、不写根LOG。[本次逐字前态](handoff-archive-2026-11-27-before-complete-CM-coefficients.md)沿链保全部旧来源/run/hash；[open](open.md)、[索引](results.md)是完整入口。历史“R1003 norm3准备中”未交付，现R1003为范围纠错。
 
@@ -40,7 +40,7 @@ R1018/19/21原Fm、真实T5²/Z杀CM和全非约化模p仿射刚性已成；支�
 
 ## O1：原同一保留标签
 
-[R1049](results/R1049-original-fN-theta-first-direction-moment.md)：保原F⊗R₋、实际三挠刚化/全部模6相位，η⁵P_FR(η⁶)=t²δ′φ_A/12；原f_N=−t²δ′Σηφ_A/[12(p+1)]。十二代表相位全核；方向逐点单位不代一阶矩非零，原同h筛选仍开。
+[R1049](results/R1049-original-fN-theta-first-direction-moment.md)：保原F⊗R₋、实际三挠刚化/全部模6相位，η⁵P_FR(η⁶)=t²δ′φ_A/12；原f_N=−t²δ′Σηφ_A/[12(p+1)]。十二代表相位全核；方向逐点单位不代一阶矩非零，原同h筛选仍开。 §6另精确给固定primary Θ与零常数积分EΘ：f_N=t²δ′[q^p]Θ(q)EΘ(q⁴)/[4(p+1)]；完整36/12与交换相位保留，指定系数单位仍开。
 
 [R1043](results/R1043-original-fN-and-Hodge-kernel-CM-endpoint.md)：全p=6N+5≥41原f_N=−T₀(1)/6，保原positive CM/oldform/fine Cartier及两行Tate符号。原B(c₀,λ)=B(c₀,v)=−18f_N/A(1)。端点非零及同h筛选仍开；它不是r2的核范数或r8 bare。
 
@@ -68,8 +68,8 @@ R696早已证明同一全局Φ候选Ω_actual={0}，R832已消费；不重做、
 
 固定Y的R805–930及全部runs/高维格/预算边界见open与逐字归档，只消费已成输入。R907四artifact真404仍producer_inputs_pending，不重造；预算失败不作数学负结论。固定41全129盘/8CM已由R707完成，不重开。R575旧正CM角色根号−与逆twist秩零撤回有效。R1004仅导子下界而非a/c上界，停止重复优化。
 
-当前并行：两行实际MW后M1与原盘点数界已成，继续最低w单位/正赋值深盘零点。原最高K_Q、R1041核范数、R1043端点及同h筛选各有独立读数，不能混同；O0完整全局覆盖仍未关。子问题完成即接open其余项，真正达README完成标准才收尾。
+原λ始终为−6(b+1)/r（R1045.5）。当前并行：两行实际MW后M1与原盘点数界已成，继续最低w单位/正赋值深盘零点。原最高K_Q、R1041核范数、R1043端点及同h筛选各有独立读数，不能混同；O0完整全局覆盖仍未关。子问题完成即接open其余项，真正达README完成标准才收尾。
 
 [R1051](results/R1051-original-scalar-new-prefix-through-402581.md)：公开run45869953028/job140082478470、源30cecd32，严格新增5372素数200003…402581（p2/5mod9）原f_N/g_N全非零，1080.04秒/1200秒预算，准确完成前缀。余段从402593续算；全部请求/完成列表/输出hash在结果，不作全称推论。
 
-公开CI v2：[45874715945](https://github.com/Rogerhu12/math-research-public/actions/runs/45874715945)/job140098765505，源7e47699cd195f7fd70eca38a2f9f1011a636a090；只续402593≤p≤500000及一次新p47核必要条件。1200秒单job正在算术步骤，待读真实输出；[方法](notes/2026-11-27-original-scalar-obstruction-new-window-method.md)。
+公开CI v2已成功：[45874715945](https://github.com/Rogerhu12/math-research-public/actions/runs/45874715945)/job140098765505，源7e47699；2506个402593…499979全f/g非零，895.294秒，至500000新区间已完整。新p47诊断K15=23（两构造/恒等式通过），最低列恒落Q核候选被否；实际DQv最低值仍开，结果分条登记中。

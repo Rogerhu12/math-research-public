@@ -309,6 +309,7 @@ $$
 a_{\rm src}-1=A_{\rm src}(u_s^3),\qquad
 A_{\rm src}(0)=0,\quad A_{\rm src}'(0)\in R^\times.
 $$
+这里 $A_{\rm src}$ 的系数在 $W(k)$：$a_{\rm src}$ 属于原未分歧 fine 模问题，$u_s$ 也在该底上作 tame 平均。因此 (1052.19) 的单位没有未定的 base-nilpotent 系数。
 它没有一个未付清的 $p$ 倍常数平移。
 除去 $\varpi^{3r_0}$ 后，所有 $A_{\rm src}$ 的次数 $\ge2$ 项
 都含 $\varpi^{3r_0}\in(p)$。因此在整个非约化 affine 底上

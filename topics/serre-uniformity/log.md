@@ -364,3 +364,7 @@
 - [R1052](results/R1052-original-complete-CM-profile-and-actual-lowest-functional.md)：actual full-node中心赋值直接给全部normal极阶界，E一维像保全部返回；source u_s/ε^p的wholeR/p Dickson比较与全primitive误差均付。原完整行h̄_c=−Σκ₁^kc_kλ₀^−(ℓ−k)[Z^k](T_c/A)(B_CM)w^(ℓ−k)/(2m)。最低C_CM(T)=−3^(ℓ−1)/A1·[r^(ℓ−1)]T((1−r)^(1/3))/((1−r)^(5/3)j³)=2B(c,L_CM)。实际读数2B(v,QD L_CM)保Q²；单位/深盘排根仍开。
 - 关键新来源逐项支付：原Drinfeld乘积给真实full-node yz=varpi，中心generic valuation逐Laurent系数约束所有normal；同一trace-zero A₀=β+sα/B₀=β−sα给H_k最高β系数准确1。原source u_s权1−p，CM lift的Zp²作用排常数shift，wholeR/p source Dickson比较保幂零元；(t+δ)^n−t^n的整二项式恒等式付全部积分分母和p/ε³精度。未删实际self-return或Q²。
 - R1049已推077ad1b，R1050已推606d61c；R1051/续请求推送遇并发服务错误后立即读新main/两README差异，基于741abe6重新提交并成功推7e47699，无force。实际续run45874715945/job140098765505已进入算术步骤，源7e47699；本篇纸面持续，未本地运行数学。
+
+### 2026-11-27 02:35 Asia/Taipei — R1049 §6 固定theta积分乘积
+- 原f_N进一步严格等于 t²δ′[q^p]Θ(q)EΘ(q⁴)/[4(p+1)]。Θ=Σ_{α≡1 mod3}αq^{Nα}，EΘ零常数且q∂EΘ=Θ。原μ₆ mod3、36/12表示数、奇偶交换及β=−2γ逐项保相位；每个分母Nγ<p。未使用未识别的eta-product或删primitive/Legendre mask，指定p系数单位仍开。
+- 顺手明确R1052 source A_src系数来自原W(k) fine模问题，无base-nilpotent常数；原λ=-6(b+1)/r沿R1045保持。最新真实CI v2成功，余段2506完成；新p47 K15=23排最低列恒落Q核候选，分别登记随后结果。终端探测仍返回无可用执行宿主，继续根规矩8连接器同步。
