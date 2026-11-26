@@ -5,7 +5,7 @@
 
 ## 1. 规则、授权与原始记录
 
-公开已读提交 **79285a0ba6b5b8afd2e7d6b5900f461536c09116**（2026-11-26 15:33 UTC；本次实际pull后根/题README空差异）；最后实际pull及规则同blob读至 **2aac7bb7ee989c774e0495c45c100e955e3c2419**（2026-11-26 15:33 UTC；实际pull成功，根README空差异、QUEUE仍本会话）。私有 QUEUE 仍为本会话进行中，原认领提交9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7，其他课题认领不改。
+公开已读提交 **0b40e5d55db3a21c91bd9a9e41afb3dc3dfcbf6c**（2026-11-26 15:35 UTC；本次实际pull后根/题README空差异）；最后实际pull及规则同blob读至 **4cdc56e5daaf56b750a3b518d2244c97fdff42ac**（2026-11-26 15:35 UTC；实际pull成功，根README空差异、QUEUE仍本会话）。私有 QUEUE 仍为本会话进行中，原认领提交9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7，其他课题认领不改。
 
 [本次压缩前全文](notes/HANDOFF-before-continuous-angular-bounds-20261126.md)及其所链[继承交接](notes/HANDOFF-inherited-20261116-1809.md)保全部结论、条件、旧失败、输入与费用；不因摘要删账。三次环境失联后已恢复；远端临时CLI和后续本地CLI均真实双pull/rebase/push。每次实际pull后查根/题README差异并执行，至少每小时；API读取不冒pull。root独占git和共享索引，每条结论即推，NFF立即pull --rebase再推至成功。
 
@@ -47,7 +47,7 @@ R584/R586/R589/R590保19态真历史、一次χ、正平方、负侧反号、偶
 
 [首九参数完整mass终态](notes/2026-11-26-r603-vtwo-first-mass-public-receipt-agent.md)：run45839778794真付180.569685459主秒/181.470336墙秒；50接受/51全态/77219LSMR，末原ruling6.2885e14、BC.68010、原sigma历史1.1184e13。guide中心准确而全程正势5.2986e14；末插值真导数差5.8568，focal/Dsample .024786<.03，不是原轨道或根。
 
-[R605](results/R605-real-memory-coordinates-and-leading-energy-local-flow.md)付可逆R/θ/I记忆、m正全程guide和两侧共常数首层的内部正则流；prepared前缀/全程返回/八矩仍欠。下一实际源改全程能量/记忆输入并准确消元原29BC，保持所有原mass/正势/rho/链式Jac；不延长旧九族或放松闭合。原第三/第四period、pose、宏观预算仍保未付。
+[R605](results/R605-real-memory-coordinates-and-leading-energy-local-flow.md)付可逆R/θ/I记忆、m正全程guide和两侧共常数首层的内部正则流；prepared前缀/全程返回/八矩仍欠。[新全程输入与精确BC源](notes/2026-11-26-r605-memory-energy-hard-mass-implementation-agent.md)已正式发布：11参数真实R/θ/I、全部八矩/两侧共λ能量，中心四阶离开H、末二阶回到H，修复B端0而m端非0的结构失配。原29BC准确嵌入且DE链完整，原mass/正势/rho不改；下一据自然终态继续。原第三/第四period、pose、宏观预算仍保未付。
 
 ## 7. 全域几何与继续顺序
 

@@ -463,3 +463,7 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 ### R582 真97q的pending角网现已进入正式新计算
 
 [正式续算](notes/2026-11-26-r582-paid-local-tail-angular-continuation.md)保actual/proposal身份与原trust2；新179×768/fine1536，方向块8/细块128仅降峰内存，所有物理行和工作门不变。R604读取同一次完整几何的真实位移/切平面/导数范数，仍需连续参考和各项误差证书；下一读自然终态继续固定p的metric。
+
+### R605 真全程返回输入与29条硬边界已进入原mass
+
+[正式源说明](notes/2026-11-26-r605-memory-energy-hard-mass-implementation-agent.md)以sin⁴ϑcos²ϑ形状使m中心/末端为0而内部正；全八矩与末速度0必使B端0，这条必要端条件已进入guide。固定64点同一定义I、全程两侧共λ目标后，原mass以真实中心Jet和单位列精确消元29BC；投影初猜与实际历史缺陷分别输出，仍须支付原有限ε/全rho/ruling/period/pose/reach。

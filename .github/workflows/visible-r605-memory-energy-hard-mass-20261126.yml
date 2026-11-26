@@ -1,0 +1,69 @@
+name: visible-flex R605 memory energy and exact boundary mass
+on:
+  push:
+    branches: [main]
+    paths:
+      - topics/visible-flex-new-mechanism/computations/request-r605-memory-energy-hard-mass-20261126.json
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: visible-flex-r605-memory-energy-hard-mass-20261126
+  cancel-in-progress: false
+jobs:
+  research:
+    name: Whole memory energy guide and original mass with exact boundaries
+    runs-on: ubuntu-24.04
+    timeout-minutes: 90
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      PYTHONUNBUFFERED: '1'
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+      MKL_NUM_THREADS: '1'
+      NUMEXPR_NUM_THREADS: '1'
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 0
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /.github/workflows/visible-r605-memory-energy-hard-mass-20261126.yml
+            /topics/visible-flex-new-mechanism/README.md
+            /topics/visible-flex-new-mechanism/computations/request-r605-memory-energy-hard-mass-20261126.json
+            /topics/visible-flex-new-mechanism/results/R581-exact-c2-local-ruling-with-full-history-chain.md
+            /topics/visible-flex-new-mechanism/results/R584-centered-third-history-and-nineteen-state-full-ruling-bvp.md
+            /topics/visible-flex-new-mechanism/results/R586-sixfold-full-history-coefficient-projection-and-finite-integrals.md
+            /topics/visible-flex-new-mechanism/results/R589-autonomous-full-feedback-and-even-end-germs.md
+            /topics/visible-flex-new-mechanism/results/R590-full-history-square-potential-and-c2-update.md
+            /topics/visible-flex-new-mechanism/results/R598-three-rotations-wide-eighteen-block-mother.md
+            /topics/visible-flex-new-mechanism/scripts/r530_c2_r578_evaluator_agent.py
+            /topics/visible-flex-new-mechanism/scripts/r530_compact_history_v2_agent.py
+            /topics/visible-flex-new-mechanism/scripts/r530_full_centered_nineteen_bvp_agent.py
+            /topics/visible-flex-new-mechanism/scripts/r590_c2_history_positive_square_free_germs_agent.py
+            /topics/visible-flex-new-mechanism/scripts/r590_c2_staged_trust_collocation_agent.py
+            /topics/visible-flex-new-mechanism/scripts/r598_wide_mother_prepared_mass_bvp_agent.py
+            /topics/visible-flex-new-mechanism/scripts/run_inverse_rotational_metric_20261126.py
+            /topics/visible-flex-new-mechanism/results/R601-prepared-center-true-jet-and-fixed-gauge-acceleration.md
+            /topics/visible-flex-new-mechanism/scripts/r603_vtwo_center_mass_continuation_agent.py
+            /topics/visible-flex-new-mechanism/results/R603-prepared-leading-energy-and-speed-two-guide.md
+            /topics/visible-flex-new-mechanism/scripts/r605_memory_energy_hard_boundary_mass_agent.py
+            /topics/visible-flex-new-mechanism/notes/2026-11-26-r605-memory-energy-hard-mass-implementation-agent.md
+            /topics/visible-flex-new-mechanism/results/R605-real-memory-coordinates-and-leading-energy-local-flow.md
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.12.14'
+      - name: Pull rules and solve the new full memory original mass input
+        env:
+          MR_TOKEN: ${{ secrets.MR_TOKEN }}
+        run: >-
+          python topics/visible-flex-new-mechanism/scripts/run_inverse_rotational_metric_20261126.py
+          --request topics/visible-flex-new-mechanism/computations/request-r605-memory-energy-hard-mass-20261126.json
+          --lane memory-hard-mass
+      # Same R598 physical mother, full positive square and both rho histories.
+      # New whole-path R/theta/I input and 29 exact boundary coordinates.
+      # All original residuals, states and geometry in stdout only.
+

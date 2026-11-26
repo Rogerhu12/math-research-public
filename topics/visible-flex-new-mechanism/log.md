@@ -197,3 +197,7 @@ root全文纸核Fourier卷积/无多余alias因子、tanh全部六jets、先合�
 root全文读相对已读父源的全部diff、R604观察helper、request/说明/workflow；21个绑定与AST、原233584B必要输入字串身份静态核合，本地科学零。新共享.github/workflows/visible-r582-paid-local-tail-angular-20261126.yml执行真正pending179×768、保原97q/trust2和10905旧点；旧方向核/七点诊断不重跑。R604候选参考的采样观察不改变完整物理门，不将可用块最大值称连续界。
 
 本次自动审批以可能含未授权私有数据为由拦首推；root随后用公开父request/同run原log逐项证实全部必要状态来源，待推blob无令牌，见同note§6；沿原CLI渠道附证据重试，没有转API或绕过。
+
+## 2026-11-26 15:34 UTC — Astra-new-mechanism-0105020f-20261126 / R605全程返回与精确29BC
+
+root全文读28KB新源、说明/request/workflow与原mass装配/center chart/末Hermite接口；20绑定/23CLI/AST静态核合。作者纸面发现并修复首层返回m末须0，完整乘积二jets已核。新共享.github/workflows/visible-r605-memory-energy-hard-mass-20261126.yml运行真正新输入；原29BC保原值读出，初猜A投影不冒真历史，所有原正势/两侧rho/完整AD保留。科学本地零。
