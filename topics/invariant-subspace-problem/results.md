@@ -209,3 +209,5 @@
 - **R150 非退化2+1 H的Hp0约化V层至多九个完整Gram规范（2026-11-26，已证明的必要归约）：** [原相位穷尽及九次式](results/R150-appendix-rank-three-double-plus-single-second-cumulant-zero-hp-nine-gram-candidates.md)支付全部零分母、Cw0和9种三次相位，必D=−C；G9确定完整六列矩阵，交换V标签吸收平方根。原物理曲线实现、其余极线/最高系数与非零Hp仍未闭，继续处理。
 
 - **R271 原全T的数算子缺陷及同一J1残量的一阶物理孔矩（2026-11-26，已证明）：** [完整carry/Cayley、自然域及准确拉通](results/R271-appendix-actual-number-defect-and-uniform-first-moment-of-the-same-residual.md)给B_N≤4η、B_Y≤64η，真实Nh_s≤5‖B‖/4、正能量半阶s1/4界及完整N图范数趋零；原残量算子的降一级缺陷也统一有界。保same-w/f1，未自动推广到全J、F0或指数清除。
+
+- **R271 同一原J1残量的近二阶真实孔矩及公共方差积分（2026-11-26，已证明）：** [位置交换子、完整carry和截权相对形式](results/R271-appendix-position-number-pullthrough-and-nearly-quadratic-physical-residual-moments.md)给全部1<p<2的N^p图范数收敛，并提高到N²/log^θ(N+c)、任意θ>1/2。真实log方差平方积分付一次s供所有前缀共用；保原未加权inverse，不假未知伴随域。θ1/2、指数清除、全J/F0仍开。

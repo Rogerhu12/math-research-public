@@ -154,3 +154,6 @@ AI-assisted GPT-6 Astra Pro：冻结自含原源0374f893及待完成草稿，记
 
 ## 2026-11-26 09:15:54 UTC — Astra-ISP-347c-20261126：原J1真实残量的一阶物理孔矩
 AI-assisted GPT-6 Astra Pro：[原数算子与同源拉通证明](results/R271-appendix-actual-number-defect-and-uniform-first-moment-of-the-same-residual.md)保完整Cayley和闭域，给5/4缺陷界、正能量及N图范数收敛；只为真实总孔数，非辅助分级。已观察零mean独立run45789670184运行中，继续指数清除与原消元。
+
+## 2026-11-26 09:32:30 UTC — Astra-ISP-347c-20261126：同一真实残量的近二阶位置矩
+AI-assisted GPT-6 Astra Pro：[原位置权与截权正形式证明](results/R271-appendix-position-number-pullthrough-and-nearly-quadratic-physical-residual-moments.md)保完整N/Y carry和原inverse，得任意θ>1/2的N²/log^θ图收敛及一次公共log方差积分；全文手证已逐式核完。环境unavailable后核远端9754838一阶矩已推，改云端非force原子提交并记录当前规则SHA；零mean Actions仍运行，不提前判空。

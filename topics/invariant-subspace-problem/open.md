@@ -108,7 +108,7 @@ $$
 
 **[指数远孔起点的全T相对Gram及真实残量](results/R271-appendix-exponential-weight-cutoff-relative-global-gram-and-actual-weighted-residual.md)：** 完整L列投影的两向Γ界≤16/15；环境正算子I+P(U*U−I)P运输原未加权最小者，既不假Γ保列空间也不付e^(81/s)。有限J/s≤ℛ_m²给整列≤9/8；准确尾截J*≥max(h−1,81e²/s,4d⁴+2)后完整列≤8/7，T/L差≤e^(−3d⁴/2)，Γ_y T a≤(8/7)√s‖f‖。原同w配对准确，真空μ1还给实际物理1/y差。y≤e^(12d³)、R576(m+1)²y²、Q=R+r合法；最高零头改基须改上限为e^(12(d/2)³)。继续同一实际残量的清除：通用Xκ右逆仍付e^(κy)且未给输出孔正则性，不把小残量当真核。
 
-**[原J1同源残量的真实总孔数矩](results/R271-appendix-actual-number-defect-and-uniform-first-moment-of-the-same-residual.md)：** 对a_s=(I+T*T/s)⁻¹f1、h_s=Ta_s，原缺陷B=T+[N,T]的N/Y范数分别≤4e⁻¹⁰⁷⁰/64e⁻¹⁰⁷⁰，完整Cayley项保留。准确拉通Nh=s(TT*+s)⁻¹Ba+T(T*T+s)⁻¹B*h给统一5/4‖B‖界；原正能量给半阶矩s1/4速率，稠密RanT另给真实N图范数趋零。常数不含前缀y；只覆盖同一J1残量，不自动扩到全J/F0，也不把一阶或多项式矩冒称指数清除费。
+**[同一J1源的真实孔矩](results/R271-appendix-actual-number-defect-and-uniform-first-moment-of-the-same-residual.md)及[近二阶位置权](results/R271-appendix-position-number-pullthrough-and-nearly-quadratic-physical-residual-moments.md)：** a_s=(I+T*T/s)⁻¹f1、h_s=Ta_s保原forcing。原B≤64e⁻¹⁰⁷⁰给N图范数趋零；位置权给全部1<p<2及N²/log^θ(N+c)图范数趋零（θ>1/2）。截权相对形式保全部Cayley/闭域，log方差平方积分付一次公共s，全部旧前缀共用。θ1/2、指数孔权、全J/F0以及同源物理右逆费用仍未付。
 
 ### 2.2 仍需接合的原返回接口
 
