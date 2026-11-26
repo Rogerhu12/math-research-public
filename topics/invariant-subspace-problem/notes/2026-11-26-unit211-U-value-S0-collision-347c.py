@@ -49,8 +49,8 @@ def P(v):
  return half*tau(mul(mul(z,z),z))
 W1=C(V2/2-u*u)+C(2*u)*f
 W2=C(u*V2-2*u**3+2*lam*P0)+C(V2+2*u*u)*f-C(b*c*q)*t
-x=C(q/(b*(q-1)))*W1-C(1/(b*(q-1)))*W2
-y=C(1/(c*q*(q-1)))*(W2-W1)
+x=C(q/(b*(q-1)))*W1-C(K.one/(b*(q-1)))*W2
+y=C(K.one/(c*q*(q-1)))*(W2-W1)
 r=x-C(a)-C(c)*t;s=y-C(a*q)-C(b)*t
 A1=2*f-C(2*b)*x-C(2*c)*y+C(2*b*c)*t
 rows=[[zero,zero,onep,C(q)],[zero,A1,r,s],[onep,r,zero,t],[C(q),s,t,zero]]

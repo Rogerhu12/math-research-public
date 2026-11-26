@@ -1,14 +1,5 @@
 name: ISP original exceptional fibers
 on:
-  push:
-    branches: [main]
-    paths:
-      - 'topics/invariant-subspace-problem/notes/2026-11-26-unit211-scaled-l2-original-fiber-347c.py'
-      - 'topics/invariant-subspace-problem/notes/2026-11-26-unit211-U-value-L0-w1-347c.py'
-      - 'topics/invariant-subspace-problem/notes/2026-11-26-unit211-U-value-S0-collision-347c.py'
-      - 'topics/invariant-subspace-problem/notes/2026-11-26-unit211-U-value-S0-IH0-sextic-347c.py'
-      - 'topics/invariant-subspace-problem/notes/2026-11-26-h21-finite-w-V-infinity-exceptions-347c.py'
-      - '.github/workflows/invariant-subspace-original-fibers-347c.yml'
   workflow_dispatch:
 permissions:
   contents: read

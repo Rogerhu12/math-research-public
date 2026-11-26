@@ -1,0 +1,70 @@
+{
+  "schema": "isp-unit211-U-value-additional-failed-executions-v1",
+  "records": [
+    {
+      "job_id": "139838879577",
+      "label": "U atlas initial seven-variable expansion",
+      "elapsed_seconds": 900.82887602,
+      "max_child_rss_kib": 3443656,
+      "ordinary_isp_claim": false,
+      "rules_reads": [
+        {
+          "after": "3d671b1c98f929848e2c437698cece6f8d2e033e",
+          "before": "3d671b1c98f929848e2c437698cece6f8d2e033e",
+          "rules_git_blobs": {
+            "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+            "topics/invariant-subspace-problem/README.md": "fef43bdf8690f2eec4751d85784a266eacdd0322"
+          },
+          "rules_unchanged": true,
+          "utc": "2026-11-26T10:15:24.701107+00:00"
+        }
+      ],
+      "run_attempt": "1",
+      "run_id": "45799548882",
+      "schema": "isp-frozen-exact-actions-execution-v1",
+      "session": "Astra-ISP-347c-20261126",
+      "source_commit": "3d671b1c98f929848e2c437698cece6f8d2e033e",
+      "source_exit_code": -9,
+      "source_git_blob": "aaa168ba151ca11e93c4638fce4658882d8f41ce",
+      "source_sha256": "036a62de41e70d397a308c593e2c9f10ce29c5da9f8e684612f2bd6fc7fc6a9d",
+      "stdout_bytes": 0,
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stop_reason": "wall_time_limit",
+      "classification": "wall-time-limit; no output; all requested verification remains unknown",
+      "claim_excluded": false
+    },
+    {
+      "job_id": "139847488782",
+      "label": "S0 collision repaired equality checks",
+      "elapsed_seconds": 0.41850807000000145,
+      "max_child_rss_kib": 74196,
+      "ordinary_isp_claim": false,
+      "rules_reads": [
+        {
+          "after": "9c5f7ee324397ea545fdff7d6030db7be0ad627a",
+          "before": "c81ee4f55686ccce58b48538804ca3bf1e8da182",
+          "rules_git_blobs": {
+            "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+            "topics/invariant-subspace-problem/README.md": "fef43bdf8690f2eec4751d85784a266eacdd0322"
+          },
+          "rules_unchanged": true,
+          "utc": "2026-11-26T10:31:20.121262+00:00"
+        }
+      ],
+      "run_attempt": "1",
+      "run_id": "45802044010",
+      "schema": "isp-frozen-exact-actions-execution-v1",
+      "session": "Astra-ISP-347c-20261126",
+      "source_commit": "c81ee4f55686ccce58b48538804ca3bf1e8da182",
+      "source_exit_code": 1,
+      "source_git_blob": "73eb6c1a47677872e2ee94312faaa46ddb4a28d2",
+      "source_sha256": "95290ac432193c10de02ae4843084fbbc09696dc70e6306a407bd09912a56335",
+      "stdout_bytes": 252,
+      "stdout_sha256": "4bc5edc93536074333a7aae3c5ad7b536a338787ec92640b6f9b0a58cb011450",
+      "stop_reason": null,
+      "classification": "TypeError at line 52, Python int / ANP unsupported; preceding lambda/q/moment/Af/constant identities passed; original equation GB not reached",
+      "claim_excluded": false
+    }
+  ],
+  "ordinary_isp_claim": false
+}

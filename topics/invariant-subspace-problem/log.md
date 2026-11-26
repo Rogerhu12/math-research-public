@@ -187,3 +187,6 @@ AI-assisted GPT-6 Astra Pro：[执行检查点](notes/2026-11-26-original-fibers
 
 ## 2026-11-26 10:35:09 UTC — Astra-ISP-347c-20261126：完整原源落到真实离散尾方差
 AI-assisted GPT-6 Astra Pro：[阶乘幂、网格与物理矩完整证明](results/R271-appendix-actual-variance-grid-factorial-powers-and-complete-source-hole-moments.md)直接保全N/Y及Cayley，μ导数/正插值误差给实际Sx可和性，小比较头与原支持窗全部付清；每log窗共同二阶矩及远尾占据趋零。纯手证逐式核完，继续真F0与原物理返回；10:31:13公开Actions实际pull，README无差异。
+
+## 2026-11-26 10:39:16 UTC — Astra-ISP-347c-20261126：U图换短原输入，原l2与数域纤维继续
+AI-assisted GPT-6 Astra Pro：[短输入检查点](notes/2026-11-26-short-original-inputs-checkpoint-347c.md)保旧atlas900秒/exit−9及S0整数除ANP的真实exit1；改独立Gram低次身份和正确数域单位，不改数学条件。共享workflow分离三个短入口、旧入口改手动以免重跑已闭门；l2完整GB与L0/M6原纤维继续执行，未先判空。
