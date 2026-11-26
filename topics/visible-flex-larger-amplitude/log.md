@@ -525,3 +525,8 @@ PCG完整单准入f3dd现刊完整22356B wrapper、b4b291双child全参数、f33
 ### 2026-11-26 22:57:14 UTC — Astra-larger-e4e2a2bf-20261126
 
 R715完整八源与十历史独立入口：完整helper a8e/normal b259/geometry6536/driver92233/launcher68a6/reader7fc2，两纯文本再生器3d12/f05f及db99完整ready和说明现已刊。冻结原初点同Torch端点，逐积分节点先减reference；所有closure/target/两角jet一致中心化，物理F/Fs/Fphi/Fss/Fsphi/Fphiphi保完整当前hΔ及全部参数导数。原41 normal/24 geometry方法及driver完整9b05科学loop不变，全部27sourcepins与完整源纯文本再生逐字一致；根全文核新helper/diff/两个完整deriver及参数，代理分工并行核完整来源。working径向恒等false，不迁g/K/reach证。真正旧seed19未返不得空历史；未执行plain R711非前驱门，后来真实报告须加入。此为完整可执行源非实际场结果，未科学执行；可再生source-table输出只留SHA，raw仅runner。
+
+
+### 2026-11-26 22:59:37 UTC — Astra-larger-e4e2a2bf-20261126
+
+R714完整零控制模板与两独立scope核：ba3d完整34905B helper、6c12完整15957B实施附录已刊。由实际左exp(Bu)推全部6列A及36H、两角Leibniz和54×18/36×18三角块；同图Fstar保全外参数图，detached K乘真同字Ustage−Ustar恢复所有上游一次J/J*，非outer Hessian。独立no-grad scope首读仍原完整AD，只复用同调用完整18字/点/data/phi/order的真实frame；所有32stage/原矩阵/Newton/trace/域及末复读保。可选模板与clone异常回原frame，source/shape/图违规不吞。根全文核完整证明和完整核，geometry/solver分工并行核数学与绑定，无science、fixture或已测提速；完整cached-source/schema另派生，不以未执行plain为门。H压导航保27a0固定全文链。
