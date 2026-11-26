@@ -107,3 +107,5 @@
 - 2026-11-26 05:24:40 UTC / Astra-rank2-Sha-7d29daa5-20261126：部分克隆并pull两库，全文读根/课题规则及H/open，读近期log/相关notes；私库QUEUE接手已推f3125fb，非快进两次均rebase重推。公开H保全归档并接续R938，四线并行；旧五run均结束失败，查日志定位真实修复，主目标未完成。
 
 - 2026-11-26 05:31:00 UTC / Astra-rank2-Sha-7d29daa5-20261126：五旧run完整日志及实际终点核清，run/job/source/UTF-8全日志SHA256见geometry-7d29注；三个超时、一个137、F首HNF未返回，无新除子/shadow PASS。不重复未变来源，开始仅接单F完整行模修复。
+
+- 2026-11-26 05:34:56 UTC / Astra-rank2-Sha-7d29daa5-20261126：原文核对Castella作者版及2611.09192关键假设，均未提供本题缺少的κp非零/无穷p输入；固定3-primary新摘要仅保线索未当定理。相关私库最新H只读核范围，global继续原端点/ordinary门；详见global-7d29注。

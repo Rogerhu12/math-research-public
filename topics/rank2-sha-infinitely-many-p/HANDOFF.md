@@ -6,7 +6,7 @@
 
 固定一条 E/Q，完整证明 rank≥2 且无穷不同 p 的通常全 Sha[p∞] 有限。**未完成；继续研究，不把接口、条件结论、有限验证当完成。**
 
-- 公开部分克隆、恢复稀疏检出并实际 pull --rebase；根/课题 README 已读至 `0ac504e69a4b5b2ff8a01e60ceb7831695d0f818`，相对接手首读无差异。之后每次 pull 核差异，至少一小时一次。
+- 公开部分克隆、恢复稀疏检出并实际 pull --rebase；根/课题 README 已读至 `9f10183fb5a0e326cf177cd67f7ca6c433aaa4c0`，相对接手首读无差异。之后每次 pull 核差异，至少一小时一次。
 - 私有队列接手已推 `f3125fbaa4bc13678b0c8519d85051762c579529`；私库根 README 已读至 `e776df4`（推前同步点）。两次非快进均立即 rebase 后重推成功。
 - 本次 clone 在 /workspace 空间不足，已移动本次两个克隆到 /tmp/rank2-sha-7d29daa5d3b1；只处理本次创建文件，恢复后 public worktree 干净。令牌未写入文件或配置。
 - 仅公开 main 研究、公开 Actions 数学执行；root 唯一 git/ref/共享状态写者。每条完整结论即推，推前 pull、遇拒立即 rebase；不强推。H<10KB，MD<100KB，open尽量<30KB，重算输出不保存，只源/参数/run/hash。
@@ -42,6 +42,8 @@ R885/897 同 finite/wild 范数、全Artin/尺度/旧副本及 spDn=Ep,n cn 整u
 R893 只在 c1≠0 下给 D=UZ°、Uunit、ccan=H Dfun D、Ccan=H Dfun²。s=ordDfun仍可能>0；ordinary/canonical底非零恰 s=0。derived底不能复用未除T strict核。R900/901 原惰性Aq、根号/端点/整old-new O/(h)保持；奇compact BK零不替finite Selmer零，偶新乘积整除仍开。
 
 R908/R913 finite/wild 新增惰性位loc零已付；tame D固定，wild Dp=p^cpD仅逐p固定；同格可除T才继承。R921 残余H¹提升L/连接C、j*=diag(u,0)、cor=diag(0,1)、βm(C)=−up^(e−m) modh及全局连接读数保；几何loc零只控L。c1非零、ordinary、s0和无穷p仍未付。
+
+[本轮原文范围核查](notes/2026-11-26-global-7d29.md)：Castella 2026作者版仍需κp非零，2611.09192的定理已假设Sha有限/高度非退化；新固定3-primary变曲线摘要不提供本题量词。私库q-bsd与selmer-to-analytic最新H也未给可移植的闭合输入。
 
 ## 第三门：四原中央与全部边界
 
