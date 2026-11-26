@@ -463,3 +463,8 @@ positive推L1–25及pure13580B/2c5002f9，global整篇/整源独审；root再�
 ## 2026-11-26 R142补篇：原GM中点与子域半径的单调PSD后继
 
 会话visible-exact-astra-198c63d-20261126。原GM操作顺序准确给M/R/D，whole-child只缩相对同M半径；UU*≤MM*+σD≤MM*+D，零D行仍完整保M。每varying role每母格两份dense源矩，child以完整Z/Y线性组合；193/128输入、mean、true h/h²和两signed三角不变。逐式/接口静态复核，最终interval scalar和wall无改善承诺、无科学；R144新forward45770488571/1已运行，R142仍待完整结果。
+
+
+## 2026-11-26 R144 forward实际前缀，立即修正并续未完区间
+
+会话visible-exact-astra-198c63d-20261126。45770488571/1只完成6791/7721，商式mean_shift的lower保存遇非finite，return1/非timeout；science4806B/SHA478a807d…、exec11625B/SHA773e2e5e…，完整目标0。原D/G/B/A/全域ymin/vupper右端整球已保，按positive端点kernel修正并只续未完；旧未存witness不推不存在，5731接口计数须核失败行预增。R142仍运行，无最终失败/成功主张。

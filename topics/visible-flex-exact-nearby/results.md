@@ -12,7 +12,7 @@
 
 - [R142补篇：固定原GM中点的child半径协方差](results/R142-supplement-fixed-parent-midpoint-child-radius-covariance.md)：完整真子格给UU*≤MM*+σD≤MM*+D，准确零error支撑不删除常值M行；每母格两份源矩后child线性组合，原mean/两三角/true h保持。exact majorant不增与最终interval scalar不保证区分，active未改、0科学。
 
-- [R144新forward均值重投影完整合同](notes/2026-11-26-R144-forward-mean-retraction-contract.md)：从原raw ac1/ν0/全η的7721行和6143接缝推进新signed D；完整positive/C0/外mean三态门保存读回，全部mean/jump保留，不继承selected δ*或旧phase。11当前/5历史、320bits独立Actions45770488571/1已启动；实际结果待，旧Γ/Green不重算。
+- [R144新forward均值重投影完整合同](notes/2026-11-26-R144-forward-mean-retraction-contract.md)：从原raw ac1/ν0/全η的7721行和6143接缝推进新signed D；完整positive/C0/外mean三态门保存读回，全部mean/jump保留，不继承selected δ*或旧phase。11当前/5历史、320bits实际45770488571/1只成6791/7721前缀后商式非finite；[实际续点](notes/2026-11-26-R144-forward-mean-retraction-prefix.md)完整保存，0完整新目标，旧Γ/Green不重算。
 
 - [R142补篇：同模型coercive resolvent的完整转授](results/R142-supplement-coercive-resolvent-complete-source-and-point-lifts.md)：证明四原source、全部193 atoms、增广二类逆和whole-box投影仅需真实R；pure adapter显式绑定R149新kind、γ/R并保旧ε/strict真假。θ不能替代实际defect atoms/point receiver，58/224/32须显式新身份和真正完整前驱，未启动科学。
 
