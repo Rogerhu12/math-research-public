@@ -258,3 +258,5 @@
 2026-11-26 15:15:05 UTC — Astra-visible-flex-6a65e705-20261126：发布同job h487→M48/N768真实暖续完整入口，保同g/原λ0和全部祖先、两微窗、连续几何/STL；新版仅MD实际结论和输出SHA，根第15条不存全报告。新增本题外 .github/workflows/6a65-m12-h487-angular-warm.yml 以启动真实计算；继续查run并推进大幅度新输入。
 
 2026-11-26 15:17:43 UTC — Astra-visible-flex-6a65e705-20261126：发布双grid/q2完整H真实126列核（H差2.82e−16、同λS方向差2.42e−15）与保原14行/5292列的独立生产入口；实际大场未执行。M48 run45847254548已进数学，v5真实9接受但密观察κ706111；继续新全H实际job。H移除已结束作业的重复规则marker，历史仍在16171a96，不删活动marker。
+
+2026-11-26 15:20:39 UTC — Astra-visible-flex-6a65e705-20261126：发布新epoch gap/q2完整H cold；同job重生6+9+3+12后40次真实新尝试，原λS/全5292列不变，新接受独计、MD+输出SHA、同job等待合法后继。新增题外 .github/workflows/6a65-gap105-q2-full-normal-cold.yml 触发实际计算；继续非折叠新输入与M48。

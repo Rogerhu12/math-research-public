@@ -8,7 +8,7 @@
 
 连通闭C2嵌入连续族、共同g、固定握持开区域；全曲面D下held/D≥.05、含反射δE>0、全时reach/D≥.03、全域全时metric≤1e−6；同一g/参数下真实网格/频率/时间加密到机器或求解容差，并给可重生完整网格。基础后继续held/D≥.2、δE/D≥.05或严格存在。有限结果不冒完成。
 
-- 根/课题README完整读于 `f0548477576caa2373d1626227a284ccfa9767d0`。最近已读公开提交 `6ec722c544764268306aafc848b8d797dbf81c63`（2026-11-26 15:18:56 UTC真实pull/rebase后，双README逐差无变化）。根blob282e86b0、题blob e2318baa。每次literal pull立即核双README差异，至少每小时；有变只读差异立即执行，API读不冒pull。
+- 根/课题README完整读于 `f0548477576caa2373d1626227a284ccfa9767d0`。最近已读公开提交 `a4e081b9509fd211644ea227ba87403ca7ea1275`（2026-11-26 15:20:47 UTC真实pull/rebase后，双README逐差无变化）。根blob282e86b0、题blob e2318baa。每次literal pull立即核双README差异，至少每小时；有变只读差异立即执行，API读不冒pull。
 - 私库QUEUE已认领推c7785184d0d9c503852fb2137e9e2c091221d080，进行中（本会话/2026-11-26），不重复认领。
 - 每结论立即CLI commit/push，NFF立刻literal pull --rebase/双README差异/再推循环；不force或改写已发表提交。完整证明直接登记results及索引，不附加独审/冻结门。根第15条：可重算证书/数据/Actions输出不存Git/Release，公开脚本、参数、run/SHA及实际结论；不分件规避。MD<100KB、H<10KB、题<200MB，不写根LOG，token仅命令环境。
 - 根唯一写main，agents只同级scratch。当前部分clone `/tmp/visible-flex-6a65e705/math-research-public`；同级geometry-work/exact-work/solver-work。旧历史见[11:15 H](https://github.com/Rogerhu12/math-research-public/blob/a9aaaf7d2fbdc01eb0df3e635d9065c20faac354/topics/visible-flexible-closed-surface/HANDOFF.md)、log/open/results索引；不重做已登记结论。
@@ -31,7 +31,7 @@
 
 [R242](results/R242-inverse-area-fourth-power-quantitative-coercivity.md)：准确连续Bq、已付Lipschitz/正密度/内扇形才给q>1定量面积正下界；q2常数9/512。R240付临界倒面积平方，有限采样不是连续证书。[q2全算子](notes/2026-11-26-6a65-geometry-area-power-two-implementation.md)147非零列/17248行真核0，FD1.84e−10/JT7.21e−16，不借5292研究接受。
 
-[R244](results/R244-complete-radial-normal-preconditioning-spectrum.md)：完整物理H保跨角/跨Cartesian，P=H+ηS预条件原λS，谱界[min(1,λ/η),max(1,λ/η)]；η=λ精确白化，λ0不能借正下界。91列新核0；[双网格/q2全H实际126列核](notes/2026-11-26-6a65-solver-two-grid-area-full-normal-actual-check.md)真0，完整H差2.82e−16/伴随9.21e−16、原λS方向差2.42e−15。[独立真实入口](notes/2026-11-26-6a65-solver-q2-full-normal-entry-contract.md)保5292列/原全部14行/实际Armijo，默认η=λ；仅compile/help0，尚无生产新步。新显式epoch同job重生原链再接全H，活动源不热改。
+[R244](results/R244-complete-radial-normal-preconditioning-spectrum.md)：完整物理H保跨角/跨Cartesian，P=H+ηS预条件原λS，谱界[min(1,λ/η),max(1,λ/η)]；η=λ精确白化，λ0不能借正下界。91列新核0；[双网格/q2全H实际126列核](notes/2026-11-26-6a65-solver-two-grid-area-full-normal-actual-check.md)真0，完整H差2.82e−16/伴随9.21e−16、原λS方向差2.42e−15。[独立真实入口](notes/2026-11-26-6a65-solver-q2-full-normal-entry-contract.md)保5292列/原全部14行/实际Armijo，默认η=λ；仅compile/help0，尚无生产新步。[新q2全H cold请求](notes/2026-11-26-6a65-solver-q2-full-normal-cold-run-contract.md)已发布：新epoch同job真重生6+9+3+12，再最多40新全H尝试，真实拒绝不盲重复；350min/45min规则pull/单小MD+输出SHA，后继严格绑定，活动旧源不热改。新run待查询。
 
 新非折叠polar输入正在做：正高度速度及正角钟给面积非零的准确恒等式，端口六jets实差2.1e−15；但目前只有限角检查。真实同g97×128完整baseline metric.991492/κ747.809/σ.0923802/held.713859，仍不合格，33径向点旧κ330已被新峰推翻。下一按实际侧轴低rho_s区重分配同一高度积分，保持rho/clock/g/全端口，连续角界与新目标另付。
 
@@ -43,11 +43,10 @@
 - R235付反射第三迹兼容和原node18551真实jump；当前C4不能恰消但无sup硬底，不排C2细化；全Fourier C2补丁未加实际场。
 - R237付own-zero准确整窗角速>.4097、自然角逆两jets；不借literal/后续W/二维浸入。
 - R238非正交空间端口必要长界：.755356<真实自由长.795674，未排输入；借κ须准确g，不重复扣前缀.08。
-- 旧source003 run45778054176于13:38:36取消；13次Cauchy接受rho仍变量，独立v2未返。旧v4 run45825253169首步仅重生旧cold，重复H marker致发布失败，无第二步；已修，只借实际结果，不借结束raw。
 
 ## 环境与分工
 
-13:55失联，14:35恢复；旧/tmp目录实际不在，新/tmp约5.2GB可用，workspace仅余12MB，全部新计算放/tmp。API临时发表止R242，已回普通CLI。外部−9因果未证。root维护主分支/R245，exact推进M48暖续，solver推进全H真实新job，geometry推进非折叠新输入。子问题做完接open下一项，不作阶段收尾。
+当前CLI已恢复，工作全在/tmp；旧失联raw不在，外部−9原因未证。root主分支，exact推进M48及专用全H，solver推进q2全H，geometry推进正高度新输入。子题完成继续open，不阶段收尾。
 
-<!-- 6a65-root-literal-rules --> 2026-11-26 15:18:56 UTC 真实pull/rebase读取main 6ec722c544764268306aafc848b8d797dbf81c63，双README逐差无变化；CLI已恢复，后续普通Git发布。
+<!-- 6a65-root-literal-rules --> 2026-11-26 15:20:47 UTC 真实pull/rebase读取main a4e081b9509fd211644ea227ba87403ca7ea1275，双README逐差无变化；CLI已恢复，后续普通Git发布。
 <!-- 6a65-m12-angular-warm-ci-rules --> README unchanged at ad4b129edcc09592770ea062c229511aae519102; run 45847254548 attempt 1.
