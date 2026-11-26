@@ -1,0 +1,20 @@
+{
+  "schema": "rank2-original-e65-full-cm-sixth-axis/v1",
+  "request_id": "2026-11-26-r959-e65-degree390-complete-cm7-cm19-sixth-actual-axis",
+  "degree": 390,
+  "workers": 4,
+  "python_flint_version": "0.9.0",
+  "complete_CM_norms": [
+    7,
+    19
+  ],
+  "same_job_complete_E89_rebuild": true,
+  "whole_five_plus_one_actual_jets": true,
+  "require_sixth_jet_independence": true,
+  "output_files": false,
+  "script": "topics/rank2-sha-infinitely-many-p/scripts/check-original-e65-full-cm-sixth-axis.py",
+  "args": [
+    "--workers=4"
+  ],
+  "scope": "All original bad-place Schwartz checks, both entire 66-column CM matrices, actual unique target line and the same-job six-source low jets; no original-306 normalization or infinite-prime nonvanishing claim."
+}

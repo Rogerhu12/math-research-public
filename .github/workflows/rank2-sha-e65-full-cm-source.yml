@@ -1,0 +1,93 @@
+name: Rank2 original E65 complete CM source and sixth axis
+"on":
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/rank2-sha-e65-full-cm-source.yml"
+      - "topics/rank2-sha-infinitely-many-p/ci/e65-full-cm-source-request.json"
+      - "topics/rank2-sha-infinitely-many-p/scripts/check-original-e65-full-cm-sixth-axis.py"
+      - "topics/rank2-sha-infinitely-many-p/scripts/original_e65_local_schwartz.py"
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: rank2-sha-e65-full-cm-source
+  cancel-in-progress: false
+jobs:
+  exact:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - name: Rebuild original E65 and E89 sources and verify all six actual jets
+        shell: bash
+        run: |
+          set -euo pipefail
+          RANK2_CHECK_DIR="$RUNNER_TEMP/rank2-e65-full-cm"
+          export RANK2_CHECK_DIR
+          git -c maintenance.auto=false clone --filter=blob:none --sparse --depth=1 --no-checkout --branch main https://github.com/Rogerhu12/math-research-public.git "$RANK2_CHECK_DIR"
+          git -C "$RANK2_CHECK_DIR" sparse-checkout set topics/rank2-sha-infinitely-many-p/scripts topics/rank2-sha-infinitely-many-p/ci .github/workflows
+          git -C "$RANK2_CHECK_DIR" fetch --filter=blob:none --depth=1 --quiet origin "$GITHUB_SHA"
+          git -C "$RANK2_CHECK_DIR" checkout --detach --quiet "$GITHUB_SHA"
+          python3 - <<'PY'
+          import ast, hashlib, json, os, pathlib, subprocess, sys
+          root = pathlib.Path(os.environ["RANK2_CHECK_DIR"])
+          prefix = "topics/rank2-sha-infinitely-many-p/"
+          request = json.loads((root / (prefix + "ci/e65-full-cm-source-request.json")).read_text())
+          assert request["schema"] == "rank2-original-e65-full-cm-sixth-axis/v1"
+          assert request["python_flint_version"] == "0.9.0"
+          assert request["workers"] == 4 and request["degree"] == 390
+          assert request["complete_CM_norms"] == [7, 19]
+          assert request["same_job_complete_E89_rebuild"] is True
+          assert request["whole_five_plus_one_actual_jets"] is True
+          assert request["require_sixth_jet_independence"] is True
+          assert request["output_files"] is False
+          script = prefix + "scripts/check-original-e65-full-cm-sixth-axis.py"
+          assert request["script"] == script and request["args"] == ["--workers=4"]
+          sources = [
+              "check-original-e65-full-cm-sixth-axis.py",
+              "original_e65_local_schwartz.py",
+              "check-r480-actual-input-cm19.py",
+              "check-r466-fixed-two-division-source.py",
+              "check-r464-degree102-cm7-exact.py",
+              "check-r943-original-degree178-fifth-axis.py",
+              "check-r943-degree178-full-cm-source.py",
+              "check-r732-original-type-five-cm13.py",
+          ]
+          assert len(sources) == len(set(sources)) == 8
+          for name in sources:
+              p = root / (prefix + "scripts/" + name)
+              ast.parse(p.read_text(), filename=str(p))
+          print("R959_AST_PASS " + str(len(sources)), flush=True)
+          dependencies = pathlib.Path(os.environ["RUNNER_TEMP"]) / "rank2-e65-exact-python"
+          subprocess.run([sys.executable, "-m", "pip", "install",
+                          "--disable-pip-version-check", "--target", str(dependencies),
+                          "python-flint==0.9.0"], check=True)
+          os.environ["PYTHONPATH"] = str(dependencies)
+          result = subprocess.run([sys.executable, str(root / script), "--workers=4"],
+                                  cwd=root, stdout=subprocess.PIPE, stderr=None)
+          receipt = {"script": script, "args": ["--workers=4"],
+                     "script_sha256": hashlib.sha256((root / script).read_bytes()).hexdigest(),
+                     "stdout_sha256": hashlib.sha256(result.stdout).hexdigest(),
+                     "stdout_bytes": len(result.stdout), "exit_code": result.returncode}
+          if result.stdout:
+              if len(result.stdout) > 60000:
+                  print("R959_OUTPUT_LIMIT " + json.dumps(receipt, sort_keys=True), flush=True)
+                  raise RuntimeError("Keep generated source output as hashes; compact report exceeded the text bound")
+              report = json.loads(result.stdout)
+              print("RANK2_EXACT_STDOUT " + json.dumps({"script": script, "result": report},
+                                                      sort_keys=True, separators=(",", ":")), flush=True)
+          print("RANK2_PUBLIC_EXACT_CHECK " + json.dumps({
+              "request_id": request["request_id"],
+              "run_id": int(os.environ["GITHUB_RUN_ID"]),
+              "source_commit": os.environ["GITHUB_SHA"],
+              "checks": [receipt], "outputs_persisted": False,
+              "python_flint_version": request["python_flint_version"],
+              "original_306_normalization_started": False},
+              sort_keys=True, separators=(",", ":")), flush=True)
+          if result.returncode:
+              raise RuntimeError("Original E65 full-source check failed with exit code " + str(result.returncode))
+          assert report["status"] == "PASS"
+          assert report["actual_source"]["all_original_columns"] == 66
+          assert report["actual_six_jets"]["same_job_old_E89_full_CM_rebuilt"] is True
+          assert report["actual_six_jets"]["actual_B6_nonzero"] is True
+          PY
