@@ -6,7 +6,7 @@
 
 最近规则核查：2026-11-26，真实pull/rebase至 `27a3f2c8f76a15870bfa2673f06c900778cdf742`，根及课题README相对f0548477无差异，已完整读授权及规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
 
-科学计算仅本公开仓库Actions；早前本地偏差及纠正见[执行记录](notes/2026-11-20-public-actions-execution-correction.md)。root唯一分支写者；代理只scratch及未引用小源blob。每条结论普通commit/push，NFF立即pull --rebase循环再推，不强推。至少每小时pull，每次核双README差异/立即遵新规并记commit。raw只scratch/runner，不入Git/Release/artifact；保完整小源/参数/run/SHA/紧凑结论。题≤200MB、单文件<5MB、MD<100KB、H<10KB、open<30KB。令牌仅瞬时CLI。终端自13:55 UTC失联，根8准许小文本connector；恢复后补真实pull。2026-11-26 14:31:51 UTC在线核双README至`8bed9c0efe6bdca745b65dba7eb8f8d702c3ed5e`无差异（不冒git pull）；raw未补造。
+科学计算仅本公开仓库Actions；早前本地偏差及纠正见[执行记录](notes/2026-11-20-public-actions-execution-correction.md)。root唯一分支写者；代理只scratch及未引用小源blob。每条结论普通commit/push，NFF立即pull --rebase循环再推，不强推。至少每小时pull，每次核双README差异/立即遵新规并记commit。raw只scratch/runner，不入Git/Release/artifact；保完整小源/参数/run/SHA/紧凑结论。题≤200MB、单文件<5MB、MD<100KB、H<10KB、open<30KB。令牌仅瞬时CLI。终端自13:55 UTC失联，根8准许小文本connector；恢复后补真实pull。2026-11-26 14:33:58 UTC在线核双README至`67fc1b9ffb750c4249a44ea7cf5c13b4c793a73a`无差异（不冒git pull）；raw未补造。
 
 
 目标：同一固定g、闭连通C²嵌入、全t强C²连续；固定有内点H且diamH≥.2D、整像δhold≥.2D、含反射δE>0；全t reach≥.03D、整面relative metric≤1e−6；固定g/参数/范围的真实mesh和频率精化至机器或原求解容差，多t可复现网格，准确说明严格存在缺口。D为完整F0直径。R248准确相位恒等式处理全t，不新增独立t插值门。有限误差/开放片/障碍不完成。
@@ -35,8 +35,7 @@ R690深谷/旧deep两256返9b937ee/993556及自身first bbefd075、R691冻结Haa
 
 [03b真实3–13](notes/2026-11-26-actual-axisymmetric-first-field-and-zero-root-failure.md)：reference0f042/profile6ffc；606 hDelta返fbf2b38/989740，max .5170375580→.5154401838、Phi213.8913108→212.1481877，1接受/末mu.01；全1283/262点双支保。实际QP16/iteration_limit、Pg2550.629614/tol.00245086859、原28+amp6行；alpha1未降Phi，1/2到1/64均降Phi但reach g正，13已落实六次最差同cell0/u.5/literalφ1.5707963267948966/branch0，全部幅度g负。1/128才过，Kproduct .74922023。新末场先补此点双主曲率/完整D行，再保全原C做追加分离/SOC；不盲加预算、不冒驻点，约.515不排昂贵全域证书。
 
-[零Δ五源](notes/2026-11-26-zero-closure-so3-complete-entry.md)5b4c/7698/b4d7/2741/b25全body保。窄支撑首根失败00a00590；[宽支撑实际8/9](notes/2026-11-26-zero-closure-wide-failure-radius-input.md)亦失败e21cc593/model0595aab4，首8角只有索引6失败，批最大res .03491092444/修正.49996846575，无initial/final/J。两最大值不知是否同角，不能断言边界是原因。同源宽支撑.75实际11/12仍首根失败4341323c/model29f540c6，首8角索引5、批res .03489223112/修正.50226812641；无场/J。原残差/预算/Armijo/全变量/行/真几何保。[实际14弦长诊断](notes/2026-11-26-zero-initial-chord-necessity-diagnostic.md)6578返49538e：全160core/真S,R、256叶完整全角/rho正，最大弦长平方−S²严格上界负，全部必要条件通过，排除当前H通用弦长障碍；非端点可解。零root/F/J/改H；[完整731934重演](notes/2026-11-26-zero-initial-endpoint-replay-and-moment-input.md)已排03b，同wide/.75/首8角/原Newton仅只读observer，重算旧未存z/C/A及全922胞控制矩，不预装Q/H。新构造并行。新半径不是已证IFT球，旧失败不推不存在。全6×6/9×9隐式导数与Newton分离，连续根/积分/六jet/全域几何及精化继续。
-
+[零Δ五完整源](notes/2026-11-26-zero-closure-so3-complete-entry.md)5b4c/7698/b4d7/2741/b25保；窄00a00590、[宽.5 e21cc593/宽.75 4341323c](notes/2026-11-26-zero-closure-wide-failure-radius-input.md)均首8角失败，无初末场/J；完整原policy/批最大值与非存在边界见notes，不冒IFT球。实际[14弦长](notes/2026-11-26-zero-initial-chord-necessity-diagnostic.md)6578返49538e：全160core/256叶/真S,R/rho正，弦长surplus严格负，排除本H一般弦长障碍。[15真实重演](notes/2026-11-26-zero-initial-endpoint-replay-and-moment-input.md)731934返26b094：原AST全同、index5失败，末candidate范数.5028248<.75且残差未降；Cz数值minσ .0003935，仅局部病态线索。922胞工作moment-Q初Cz≈I可用未装，不冒真逆/根证明。接18个固定literal Q的新完整模型/原implicit J链和全筛，保H与同g；新.75球非旧IFT认证，原raw留runner。
 
 <!-- visible-larger-parallel-02:start -->
 并行公开Actions02：[run 45800076687/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45800076687)；[实际记录](notes/2026-11-26-public-actions-45800076687-1.md)。阶段`followup_waiting`/running；已返45，exit=未返。
