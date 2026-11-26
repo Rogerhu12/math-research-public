@@ -386,3 +386,6 @@ NS五件共129172B，owner71056B SHA18db439d5895e4232882940a57b7bd9457982383e1ac
 
 
 2026-11-26 23:49:02 UTC / visible-exact-astra-fb31ed6-20261127：登记TQL proof/pure两件，原low96 model真等距直接用完整VQ joint L²误差，新的96square model/rounding须全9216球并核整个96×2240两载体；旧OT fullrounding/norm不重，global与low两个完整候选保存读回后取整界。只改proof引用编号TP.7→TP.10，数学与pure代码不改；AST/import已完成。TQ推430eacecc5，两README无diff；本地盘满曾使pull写index失败，只释放14个remote-promisor缓存pack共233253962B和重复tree metadata，未动本地commits/工作树/成果，随后同原commit pull/rebase/push成功。完整当前H/open历史保430e原件，未撤任何义务。
+
+
+2026-11-26 23:50:32 UTC / visible-exact-astra-fb31ed6-20261127：登记PHI八件首入口，167032B；完整metadata ready true，local science0，85当前+315历史（NP51、原131对phase/scalar、2全error native）全部pin，manifest82838B/bb9b080191f018f9b615d89a78bcd7e00e5e728c5df02a90c505dc7376542100。原NP四数组与两phase腿必要恢复全hash；只六个新signed标量，1024angular均值覆盖真实256extent，原径向Taylor全余项和所有边界/均值/directν保。每wholegerm新积分3球及完整cursor原子保，失败后续未接受域；135min单首run、95000B输出预留，无旧科学重跑/无取消。TQL已推f3a1f9e726两README无diff。AS真实45906100247/1失败：3146/3146/12584 SN整endpoint已核全SHA，但新alpha的完整raw support准入失败，尚无新mode/error，保原失败并立即修真实支集；TC只读736/7724仍运行。

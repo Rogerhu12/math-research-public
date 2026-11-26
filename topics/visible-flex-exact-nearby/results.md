@@ -383,3 +383,5 @@
 - [TQ：原Theta限制与完整Schur辅助行consumer](results/R149-supplement-original-Theta-restriction-and-joint-Schur-row-consumer.md)：whole OT96×2240→真正Theta Q97 signed96square，joint误差无额外sqrt96；完整逆门通过后是坐标同构，真实有限反馈仍须付。whole-column误差eTheta bX+(bTheta+eTheta)dX；WGB32首96辅助行严格整体[-Q+PH^-1PKQ,PH^-1PU,PH^-1Pg]，保正号/原序，其他finite因子和mean独立。SC低配对不冒原B^-1全列，high residual须全频；纯模块AST/import已过，无actual门预报。
 
 - [TQL：原low96 model精确等距与Theta square误差](results/R149-supplement-exact-low-model-isometry-and-Theta-square-error.md)：真正Gbar E96^a=E96^b精确等距，限制输入后完整E_VQ无需KG512；原whole96×2240 formal/dyadic载体同一，前9216项新HS费用付全部phase/DT/model rounding，ξlow=E_VQ+Elow，与旧global完整候选先保存再整界择小。原两mean/ν/phase/fullphysical Schur仍独立，无新actual预报。
+
+- [PHI：首次真strict参数非局部相位signed消费](results/R147-supplement-first-signed-nonlocal-phase-pairing-of-the-strict-parameter-column.md)：8件入口已齐，85current/315historical全pins、manifest bb9b080191f018f9b615d89a78bcd7e00e5e728c5df02a90c505dc7376542100。原NP四完整数组与131phase/scalar germs、1572steps、两leg整polynomial/endpoint核SHA，只算J/Nf/Ndelta/label费/PDE费/全signedphase六标量。真实mean/directν、alltail误差/所有scalar第三导余项保；逐wholegerm原子prefix，旧norm/phase/residual0，fullregular homogeneous补偿/height/Schur另付。
