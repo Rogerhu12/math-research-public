@@ -5,7 +5,7 @@
 
 ## 1. 授权、规则与完整前史
 
-公开本次实际pull且根/题README已读至 **dc291b5037f5e6ab2bdc8b7b0b51a328be9fa588**；根/题规则相对继承0749a4cc均空差异。私库实际pull/根README已读至 **f7d4488a16beb49a670335f275af43094628e070**，QUEUE认领提交 **09f8b8b54e7cfaabaa635bae5c438c7f1521289a**；本会话仍唯一进行中，下一私库pull不晚于21:10 UTC。
+公开本次实际pull且根/题README已读至 **ee593113f96bedfec1bea1c928c94783fb694ed8**；根/题规则相对继承0749a4cc均空差异。私库实际pull/根README已读至 **f7d4488a16beb49a670335f275af43094628e070**，QUEUE认领提交 **09f8b8b54e7cfaabaa635bae5c438c7f1521289a**；本会话仍唯一进行中，下一私库pull不晚于21:10 UTC。
 
 [压缩前全文](notes/HANDOFF-before-saved-brackets-20261127.md)及其中完整归档链保留全部旧结论、真实输入、失败/偏离、量词和所有费用；移档不重跑已付门。[四来源与文献](notes/2026-11-27-current-four-source-topics-and-literature.md)保已读版本和用途。
 
@@ -49,8 +49,8 @@ R598同十八正块/576微包宽母、真η/八A/六rho、中心与两全程常�
 
 [R611旧圆证书](results/R611-actual-circular-reference-complete-reach-certificate.md)run45882464935以32.425678908秒/2125叶付reach≥.06072、D≤1.560001714985865；首轮准确系数错误及34.7883秒仍保留。新q相对旧圆有限δ.01801014/α.15345，不能借旧δ.001或旧紧区间。
 
-[新连续范围](notes/2026-11-27-r582-retained-continuous-reach-implementation.md)run **45890735034**/job140152478397/source4322a257，于20:23 UTC启动。比较面用当前f1c全部mean/帽高和圆core .38，seed商仍冻结旧参考。先付新圆紧区间，再必要重建原62878端点一次；同场径向Bernstein、mean准确差、全角frame付整个材料/中心柱/双Cartesian帽/无限尾。[R608当前q适用](notes/2026-11-27-r608-tail-transfer-to-retained-circle-agent.md)只转移3/5盒尾引理，不能转移旧圆紧段。
+[新连续原终态](notes/2026-11-27-r582-retained-continuous-original-terminal.md)run **45890735034**/job140152478397/source4322a257，新527.88478224秒，已完成。新圆671叶reach≥.06072/D≤1.58255527；非圆39305叶全覆盖δ.00198366681/α.01763328667/β61.2105951，R604证真嵌入但reach/D仅.00783057847，未达.03。β峰s≈.86953765；下一按法向投影收紧实际二阶界或换真实输入，不把宽β冒实际曲率。比较面用当前f1c全部mean/帽高和圆core .38，seed商仍冻结旧参考。先付新圆紧区间，再必要重建原62878端点一次；同场径向Bernstein、mean准确差、全角frame付整个材料/中心柱/双Cartesian帽/无限尾。[R608当前q适用](notes/2026-11-27-r608-tail-transfer-to-retained-circle-agent.md)只转移3/5盒尾引理，不能转移旧圆紧段。
 
-[R604](results/R604-normal-chord-stability-and-finite-parametric-norm-interface.md)用实际全域C0/C1/协变C2及近远法弦；预算只是细化目标，有效宽界按实值输出。[同cell主曲率组合](notes/2026-11-27-r604-same-cell-principal-curvature-assembly.md)纯接口另备尚未消费，不改正跑源或为它重播已付门。有限材料不是无限核、几何不是等距/幅度，待原完整终态继续。
+[R604](results/R604-normal-chord-stability-and-finite-parametric-norm-interface.md)用实际全域C0/C1/协变C2及近远法弦；预算只是细化目标，有效宽界按实值输出。[同cell主曲率组合](notes/2026-11-27-r604-same-cell-principal-curvature-assembly.md)纯接口另备尚未消费，不改正跑源或为它重播已付门。有限材料不是无限核、几何不是等距/幅度；原终态已付，接当前正常优化新真实输入继续。
 
 全部已证索引在[results](results.md)，原运行、费用及新源在[log](log.md)/notes。每条局部结论后继续实际输入，只有README所有完成门真正通过才收尾。

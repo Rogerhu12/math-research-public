@@ -147,3 +147,5 @@ O4 [R614原终态](notes/2026-11-27-r614-paid-reduced-function-natural-final-age
 O2b-C [新后端原终态](notes/2026-11-27-r566-backend-preserving-original-terminal.md)真bb921、η.243945588、605/1355/463及各1pending；48/48工作和12/12完整coarse拒绝均实际metric epigraph，下一抬独立e而保完整物理/定位接受。未接受bc9b的fine已付、1353brackets全待处理，须先按同身份续完，不冒接受或重播原fine。
 
 O4 [R619](results/R619-free-center-leading-energy-and-true-memory-local-flow.md)从真实自由奇中心直接起正则首层真M流，提供不同于prepared退化入口的明确输入；C0从属、C1/C2仍全程常数。下一若用此生成全程输入，须回付固定ε/六rho/全正势与八矩返回，不能重置末端A或以局部代完整原式。
+
+O5 [新97q连续原终态](notes/2026-11-27-r582-retained-continuous-original-terminal.md)已付同mean新圆及全非圆材料嵌入，但reach/D只证.00783058。全域δ/α已付，β61.21峰在s≈.86953765；下一分开同cell法向/切向二阶，或改变实际输入，不重放原已完成范围，也不拿有限κ16.45冒连续证明。
