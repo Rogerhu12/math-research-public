@@ -252,3 +252,5 @@
 - [R578 六变换六正节点的完整真实库](results/R578-sixfold-six-node-positive-complete-profile-library.md)：**已证明**D3平均和P6+τP5正十次矩，仅36完整块/1152微包；节点间距>199/605000，固定2e−6半宽及双9e−6 collar。保完整history、scalar合成和非退化加速度；未授有限八根/period/宏观几何。
 
 - [R579 精确周长的光滑厚宏观核心](results/R579-smooth-thick-rounded-core-with-exact-perimeter-and-macro-budget.md)：**已证明**两正交薄椭圆加圆盘给C∞凸核，周长1.7π、A1/B.37、柱面reach>.075、|z|≤.04核心ball<1.05；完整连接条件下原三比例恰可支付。尚无连接、同g有限解或全闭reach。
+
+- [R576 准确turning消元与有限高度接口](results/R576-exact-turning-elimination-and-finite-nonlinear-height-interface.md)：**已证明**b,N>0下唯一E设计、二jets的真实E′/残差和准确metric误差；零解凸圈嵌套，给内盘/外C2核心充分门与有限核心通量。仍须实际解高度边值、保持全几何和冻结g精化，非主完成。

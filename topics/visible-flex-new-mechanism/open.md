@@ -176,3 +176,7 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 ### R579：R=.85的真实光滑厚宏观核心
 
 [R579](results/R579-smooth-thick-rounded-core-with-exact-perimeter-and-macro-budget.md)以两正交薄椭圆与圆盘Minkowski和给明确C∞严格凸核心；精确周长1.7π、支撑A1/B.37，严格.075<r<.09，柱面reach≥r，|z|≤.04整核ball<1.05。转真实弧长θ后G=.85²，准确编码R576核心turning通量。若全闭连接另外支付球1.05/条带.37/reach.063和固定盘rc.22，则δhold/D≥.3、握持比22/105>.2、reach/D≥.03；δE如实0。当前只付核心，不自动修复R571弧长不足或跨片reach。
+
+### R576：完整有限高度方程与真实位置误差
+
+[R576](results/R576-exact-turning-elimination-and-finite-nonlinear-height-interface.md)对even/π周期Z、b>0/N>0，严格证明turning平均N/√(E−V)=1唯一决定E；E′和残差的三阶相消均付，准确位置重构的metric缺陷由两次角原函数读出。准确残差零时每圈凸且支撑随r严格增，得到上盘全局嵌入；内平盘与外退化C2核心条件分别给，Pc(R,θ)可精确编码R579常速核心。下一真正解非零角全部残差和正性/端条件，用准确尾基、可生成高模的有限非线性表示；设计E变化非同g精化，近似解曲率仍需高jets/位置导数，全闭reach仍欠。
