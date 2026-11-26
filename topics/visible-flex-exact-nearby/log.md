@@ -242,3 +242,6 @@ NS五件共129172B，owner71056B SHA18db439d5895e4232882940a57b7bd9457982383e1ac
 
 
 2026-11-26 20:13:52 UTC / visible-exact-astra-fb31ed6-20261127：按200MB上限，将26份未被当前Python/JSON/YAML/shell/JS引用的旧历史说明/检查点改成固定426bd18eeeafcfa7c479c550b6f6d2843e36052d的完整原文入口；每件原bytes/blob/SHA和恢复命令保留，368415B→33922B，净减334493B。原数学全文和递归恢复索引仍完整存在，科学actual/native/活动pins不动。为正在执行的PS/TC完整结果和后继SC留容量，不重旧目标。
+
+
+2026-11-26 20:17:20 UTC / visible-exact-astra-fb31ed6-20261127：AVM run45888851105/1真实complete/proved，5新积分/3signed矩及κν,tν全部完成，science8582B/d50260a3bd8e6b224b4cf82751e1d14d87f557b9a469cbad5c119e171b7ef960，execution4852B/3c6dcc6dffe89897ac6218d4fc2f08cee5e9f869cc93c1e22cbf790d75bbc9b7。1156compact原row、1157签名子格、864compact原join全保；κν严格负且tν严格正，旧H/mean/producer目标0，非fullSchur。保存纯已存十进端点有理比较器，后续SM据此同metric缩界。TC新run45889161044/1恢复与preflight已成，真实三目标仍运行。
