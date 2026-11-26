@@ -6,7 +6,7 @@
 
 维护会话：**Astra-serre-24b8836b-20261126**。2026-11-26 已部分克隆并真实 pull main；私库 QUEUE 认领已推 233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则读至36cf1ed2。前会话全部有效结论继续保留，不重算。
 
-**已读公开规则提交：194d17166501a56603f2abee834395b5a6c26cfe**（2026-11-26 15:58 Asia/Taipei；本次同步两 README 无差异）。每次同步检查两 README diff，至少每小时一次，有变化只读差异并立即执行。
+**已读公开规则提交：c6fdbecd94e1c3dc723a567698586092fe3d692a**（2026-11-26 16:09 Asia/Taipei；本次同步两 README 无差异）。每次同步检查两 README diff，至少每小时一次，有变化只读差异并立即执行。
 
 执行宿主在本轮断连，当前不可用。根规矩8许可仅 GitHub 集成可用时传小文本；已用原子 tree/commit 和非强制 expected-head ref 更新继续。每次先读最新 main、核规则与待改路径；并发拒绝后在新 head 重建直到成功。终端恢复后补 pull --rebase。令牌仅在此前 CLI 使用，未写文件或提交。
 
@@ -25,10 +25,8 @@ T₅²/T_q²杀全部CM，31处真实ES杀有理挠点；最深CM导子支持唯
 q由自足Gauss–Fourier/PV取O(√p logp)，无新执行或有限扫描。
 这是原X₁结果；变化X_d的c₁有理性、31好约化/分裂不能假定。
 
-正在用同一个canonical c=(v1,u1/∛4)的κ₄环类投影构造实际低秩商，
-并核其真实p整格/首项与尾项。R616已给准确点域与三次轨道；
-Nekovář3.2已核arbitrary compact/非CM假设。不得把非挠或低秩单独当原候选排除。
-原η_h高度路线继续保留。
+[R1011](results/R1011-original-nonCM-half-rank-quotient-and-rational-CM-jet-transversality.md)已构造原J₁实际Q简单商C，q_CN=0、β=q_CD₀非挠，End_Q⁰C=全实F₀，dimC=2f、rankC(Q)=f且C(Q)⊗Q=F₀β。用同一canonical c的κ₄投影和Nekovář3.2，保内扭曲/全部同源重数；Faltings中央化子与MW秩共同排Schur指数。各素ℓ的真实对数空间维f、与有理Lie向量交零；原c₁首个Abel jet因此有实际MW消去泛函，首项非零。尚无p整首项赋值或统一圆盘半径，不移用旧一维CM通道，继续真实β的Coleman/晶体两列与尾项。
+原η_h高度路线与O0全局覆盖继续保留；不得把半秩/首项非零当候选排除。
 
 ## O0：全主目标覆盖
 

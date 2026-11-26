@@ -97,6 +97,8 @@ $$
 
 ## O4：原Abel零集、正秩像与真正高度
 
+[R1011](results/R1011-original-nonCM-half-rank-quotient-and-rational-CM-jet-transversality.md)已构造原J₁实际Q简单商C，q_CN=0、β=q_CD₀非挠，End_Q⁰C=全实F₀，dimC=2f、rankC(Q)=f且C(Q)⊗Q=F₀β。用同一canonical c的κ₄投影和Nekovář3.2，保内扭曲/全部同源重数；Faltings中央化子与MW秩共同排Schur指数。各素ℓ的真实对数空间维f、与有理Lie向量交零；原c₁首个Abel jet因此有实际MW消去泛函，首项非零。尚无p整首项赋值或统一圆盘半径，不移用旧一维CM通道，继续真实β的Coleman/晶体两列与尾项。
+
 [R1010](results/R1010-original-CM-divisor-nontorsion-in-nonCM-part.md)已证明原X₁指定D₀在非CM新部投影非挠：全p≥10¹⁸、p5mod6；p11mod12时p≥431即可。完整T_qδ=δ^qT_q下降、六水平Std型、全部CM域筛选、31处ES挠点消去和最深CM导子唯一支持均给出；除子度≤4608(q+1)²对gonality≥21p(p−1)/800，自足PV给q=O(√p logp)。仅限原X₁，不搬到变化X_d；继续同CM点的实际低秩商与原p圆盘排点，不以非挠代候选排除。
 
 [R1007](results/R1007-deck-compatible-CM-correspondence-height-valuation-obstruction.md)：原μ3相容对应的修改对角满足ND_Z(c0)=3D_Z(c0)、D_Z(y)=D_Z(c0)−2Z[y−c0]。同一真实整高度格及N/Z自伴、NG=0、ZG=λG、λ∈ℓZℓ下，指定高度必在ℓ²Zℓ；原纯CM对应不能满足新valuation-QC的赋值1条件，一致改基点或整splitting不解除。保η_h与清分母；底曲线块及其它全高度关系仍开。

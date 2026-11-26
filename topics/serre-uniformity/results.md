@@ -8,6 +8,8 @@
 
 ## 新增结论（2026-11-26）
 
+- **R1011（已证明）**：[R1011](results/R1011-original-nonCM-half-rank-quotient-and-rational-CM-jet-transversality.md)已构造原J₁实际Q简单商C，q_CN=0、β=q_CD₀非挠，End_Q⁰C=全实F₀，dimC=2f、rankC(Q)=f且C(Q)⊗Q=F₀β。用同一canonical c的κ₄投影和Nekovář3.2，保内扭曲/全部同源重数；Faltings中央化子与MW秩共同排Schur指数。各素ℓ的真实对数空间维f、与有理Lie向量交零；原c₁首个Abel jet因此有实际MW消去泛函，首项非零。尚无p整首项赋值或统一圆盘半径，不移用旧一维CM通道，继续真实β的Coleman/晶体两列与尾项。
+
 - **R1010（已证明）**：[R1010](results/R1010-original-CM-divisor-nontorsion-in-nonCM-part.md)已证明原X₁指定D₀在非CM新部投影非挠：全p≥10¹⁸、p5mod6；p11mod12时p≥431即可。完整T_qδ=δ^qT_q下降、六水平Std型、全部CM域筛选、31处ES挠点消去和最深CM导子唯一支持均给出；除子度≤4608(q+1)²对gonality≥21p(p−1)/800，自足PV给q=O(√p logp)。仅限原X₁，不搬到变化X_d；继续同CM点的实际低秩商与原p圆盘排点，不以非挠代候选排除。
 
 - **文献接口核准**：[AS原坐标比较](notes/2026-11-26-ahlgren-samart-actual-low-coordinate-comparison.md)：同一q/eta模型、完整Cartier提取与Wilson–Dixon有限和给C_AS(p)=9β³/2，准确返回R988的G_(3(p−1))低单位，乘积−9/2。新Guerzhoy仅低µ=−β；Hanson–Jameson只指定五个固定一维CM空间。均未给原c_(p−r)或高Artin–Hasse坐标，须继续实际高源比较。
