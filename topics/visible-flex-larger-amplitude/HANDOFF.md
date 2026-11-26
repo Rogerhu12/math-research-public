@@ -4,7 +4,7 @@
 
 ## 规则与完整目标
 
-最近规则核查：2026-11-26 20:06:10 UTC，真实pull/rebase至 `5bc0358959e85f2b2d64d52513c816e59d4646ae`，双README相对`2e4a0fca20e17f18e54de1f73b1ed3df801b8515`无差异，继续遵守全部规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
+最近规则核查：2026-11-26 20:10:02 UTC，真实pull/rebase至 `854edd6e5ae4ce9a00ee7c06e24838d5f487032b`，双README相对`9dbe3fb3e871e9449bbfb010262214d4b8d128fe`无差异，继续遵守全部规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
 
 科学计算仅本公开仓库Actions；执行偏差见[早前记录](notes/2026-11-20-public-actions-execution-correction.md)及[四次大JSON整读纠正](notes/2026-11-26-large-file-connector-read-correction.md)。root唯一分支写者；结论即普通推，NFF立即rebase循环，不强推。每次pull核双README差异并遵新规，至少每小时，记commit。raw只scratch/runner，不入Git/Release/artifact；保完整小源/参数/run/SHA/紧凑结论。题≤200MB、单文件<5MB、MD<100KB、H<10KB、open<30KB。令牌仅瞬时CLI。17:55终端失联后曾用云API普通快进；19:17显式/tmp恢复并新部分克隆，现恢复终端git。旧迁移完成情况未知，不假称恢复旧scratch。
 
@@ -33,7 +33,9 @@
 
 ## 04及旧02边界
 
-[02父46–48](notes/2026-11-26-actual-parent-interior-restoration-entry.md)及[49真实终界](notes/2026-11-26-actual-run02-cached-SO3-49-and-terminal-boundary.md)：f66c/d2d0一metric，max .03662269652、有限g负、2856/2821点；02终止、50未跑、alpha/Pg未知。[04](notes/2026-11-26-run04-actual40-42-and-failure-trace.md)45857104277：40返回51c8，2rest+1metric/max .03526433/有限g负；41未进科学，42未起child。[43真trace及最小修复](notes/2026-11-26-actual-run04-cached-SOC-source-role-index-repair.md)：误取complete_soc_rows→已登记complete_soc，892f/6c59/4243/009e全源已刊排v2；同40父/cache、全loop/接受条件不变，尚未返。
+[02父46–48](notes/2026-11-26-actual-parent-interior-restoration-entry.md)/[49终界](notes/2026-11-26-actual-run02-cached-SO3-49-and-terminal-boundary.md)保完整旧边界；02终止、50未跑。04 actual40真实父51c8，41误key/42未起child/43trace及[最小完整修复](notes/2026-11-26-actual-run04-cached-SOC-source-role-index-repair.md)均保。
+
+[04实际44/45首次SOC真接受](notes/2026-11-26-run04-actual44-45-first-backtracked-SOC-accepted.md)：892f完整源同51c8→9c9f/08e30b，Phi .005665054/max .0351360911、g−3.64016e−7；1SOC/0ray，锚1/64、真fallback1/128，QP64未驻/Pg1.31113≫tol，全2063/2012重读。真实μ .01/c4b2范数和44完整cache donor不变，下一完整1×64及纯读已排；39/40/44全部地址显式保，未返。
 
 旧deep/Haar/R690–695/误差链见固定H及results/notes，不迁证；01止77、旧03 stage7未知。
 

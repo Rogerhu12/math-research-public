@@ -363,3 +363,8 @@ R708支持内单位meridian完整条件构造：已正式刊[完整42式证明](
 ### 2026-11-26 20:05:07 UTC — Astra-larger-e4e2a2bf-20261126
 
 据实际15失败准入normal-H八完整历史：已亲读[05实际12–16完整小卷](notes/2026-11-26-public-actions-45870334713-1-part-004.md)，gammaH报告b8a8bd与normal报告6080d2均真实存在；后者m32第27失败/完成26，无场或方向。采用[已刊完整显式H ready](computations/zero-normal-lift-explicit-height-complete-history-run05-ready.json)两个完整对象原字追加05，不增加任何科学预算/改g/改源/删原自由量，八真实来源全部消费；first H输入仍先核原base.initial/Q再只改末H。仅把已真实返回的5/6两个完整参数对象移到[完整归档002](computations/resume-20261126-run05-returned-steps-archive-002.json)，保存原队列所有header/对象及实际证据，未返对象不移，不删科学报告/永久地点。新步骤仅已排，尚未宣称执行成功。
+
+
+### 2026-11-26 20:09:11 UTC — Astra-larger-e4e2a2bf-20261126
+
+登记[04实际44/45首次完整后退SOC真接受](notes/2026-11-26-run04-actual44-45-first-backtracked-SOC-accepted.md)：892f实际51c8→9c9f/08e30b，Phi .005735011506412643→.005665053856316854/max .03513609110016425，g−3.6401591740897743e−7；acceptedSOC1/ray0，真实锚1/64/fallback1/128，全2063/2012重读。QP64/Pg1.31113仍未驻，不冒连续证书。即排[下一全参数两步](computations/resume-20261126-run04-actual44-backtracked-SOC-next64-ready.json)：同完整源/范数/实际μ/.01和全预算，严格restart本44、同44已完成cache，显式保39/40/44全部地点；尚未返。为守队列读取上限，仅把已返41/42/43的完整对象及全原紧凑返回移入[完整归档001](computations/resume-20261126-run04-returned-steps-archive-001.json)，保42 child未启动的真实边界，未删未返工作/科学数据。
