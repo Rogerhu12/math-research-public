@@ -331,3 +331,5 @@
 - [TH：完整低范数tame body/真ν Hessian与保mean平滑](results/R144-supplement-complete-low-norm-tame-Hessian-and-mean-preserving-smoothing.md)：29个saved有理组合给whole B6/G14及真metric导数；所有s≥0仅一高因子，ρ≤1e−4源579/215、mean115.327，PH三输出已接。原raw jumps Hessian0而affine data全留；physical边界Hessian/变背景full逆/收敛迭代待。
 
 - [IR实际完整原inverse-density行](results/R149-supplement-actual-complete-original-inverse-density-rows.md)：45899761652/1完整99/99，joint H−1/2残差<.142402、L²残差<.435430、完整L行误差<.071201；全96 signed head/aliases/infinite tails/true-map误差同次保。原A/Theta/physical means与fullSchur仍独立待付，旧科学不重。
+
+- [WP：全正端raw hybrid三块完整费用](results/R144-supplement-actual-whole-positive-raw-hybrid-fees.md)：已成WLA与全cap内在球给whole B6/G14；14个纯有理比较全过，LL/HL/LH<.004330/.003229/.005298，97..160 shell转窗<.029061/3.396018。全部原S/193atoms/root97/outer96/point与原cross+增量保，未授weighted Green或low/high Schur门。

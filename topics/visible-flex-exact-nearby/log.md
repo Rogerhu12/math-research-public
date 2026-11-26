@@ -305,3 +305,6 @@ NS五件共129172B，owner71056B SHA18db439d5895e4232882940a57b7bd9457982383e1ac
 
 
 2026-11-26 22:09:27 UTC / visible-exact-astra-fb31ed6-20261127：继续规15等义metadata压缩，91份旧小JSON只删除string外空白；逐件原bytes与public fb34f5e0d22fef3199d1c20af2b785378bcc1a78完全相等，原string/escape/number literal/key/value/array顺序全保，代码/JSON/YAML/shell/JS整名及whole SHA/blob引用均已排除。完整旧新SHA/bytes保notes/2026-11-27-small-metadata-lossless-whitespace-compaction.json；gross省286818B、receipt36219B、净省250599B。旧原件按immutable commit读，无科学目标重跑/数据丢弃。IR actual已推fb34f5e0d，两README无diff。
+
+
+2026-11-26 22:10:38 UTC / visible-exact-astra-fb31ed6-20261127：登记WP全正端raw hybrid费用。整区间内在B6/G14由原完整WLA与cap结论给出，M0/M1<.000139597/.000010911、LL/HL/LH<.004330/.003229/.005298，carrier97..160转窗.029061/3.396018；14个saved有理比较已过。完整PA mean-rank/三个primitive/原cross保，S^-1与左O权重、193独立atom和point不删；不冒认weighted receiver或finite门。91小metadata等义压缩已推ea5df4ce1，遇一次非FF即时rebase再推成功，两README每次无diff。
