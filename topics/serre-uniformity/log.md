@@ -329,3 +329,7 @@
 ### 2026-11-27 00:58 Asia/Taipei — R1045 实际MW消去后原尺度仍M1
 - [R1045](results/R1045-original-MW-annihilator-nonzero-reduction.md)：原p11、p>C_*的真实本原Λ_Q作用原整CM盘后，完整模p多项式非零，MW消去后准确M=1。更强纯代数适用于全p=6N+5：非零new T若与v=λ+R正交，完整三CM留数与S₀=1迫contact从ℓ升到ℓ+1；原Euler算子给有限₃F₂，degree N<ℓ与局部指数0,1,ℓ排二重零。保完整Q²λ；不要求general new determinant单位，不宣最高J₀、最低w系数单位或深盘唯一零点。
 - 完整三CM trace/S₀ polynomial part与全部proper parts、额外contact、Euler finite ODE及actual row逐式纸证；root/o1/o2全文核准。终端真实git发布；依根规矩4统一本会话R1012–1045公式定界符为$ / $$，不改公式。无数学执行或旧窗重算，两README随pull查差异。
+
+### 2026-11-27 01:01 Asia/Taipei — R1046 原p5全系数与实际MW后M1
+- [R1046](results/R1046-original-p5-complete-CM-flag-and-MW-nonzero-reduction.md)：原p5 Raynaud最低型的全部w系数也给同一Cauchy旗标，n₀=4g+1、rank n₀、核维2g。双中心全阶零residue、CM双∞最高(±1)^k、full分歧12与所有normal/其它CM返回/全纯项逐项支付，u_k同R1044原单位。实际c=DQv非零且与v正交，R1045全p纯代数lemma排完整contact；p>C_*原MW消去后约化非零、准确M=1。两行均未证明最低w单位项或正赋值深盘只有中心零点，O0全覆盖仍开。
+- o1独立p5稿经root/global全文纸核，保真实graph零residue、两center/∞、e12、原κ₁与λ₀、所有角色/阶乘/积分尾及R1045完整Q²接口。D_aux澄清保其它CM返回，原$ / $$标记；没有数学执行。终端真实pull、规则差异检查、非force push继续。
