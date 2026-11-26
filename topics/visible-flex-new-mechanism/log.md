@@ -518,3 +518,8 @@ open原28316B全文按链接层级移入open-before-fixed-E-and-K-only归档，�
 ## 2026-11-27｜97q实际59a4的正常311新资格范围
 
 全文审11793B新wrapper与scope/workflow，36绑定/AST/sparse、482797B输入及479059B原FINAL逐字核合。真实311/16149-qualified/16167-required身份分列，一次新field供baseline/后端/fine，不能借f60标签授异场资格；旧298数值driver保持，全部物理/工作/box门不删。发现并修正新workflow遗留旧lane，matrix现为actual-59a4-f60-normal311；request/source绑定全合。原d613仅unqualified warmth与失败证据，原费用不覆盖，未本地执行科学。
+
+
+## 2026-11-27｜完整S真实397终态，正常下降尚未过门
+
+全文读8544B收据，核2407243B原stdout及唯一102883B FINAL逐字段相同；22713B实际1130q身份吻合。新增4520.668522229001秒/60接受/60Jac/205trials，真实397 fineη2.216608039e−7且双原直接位置一致，2e−9未过。末仍接受而非stall，完整At/M增长与条件R615未付误差齐保；下一正常397从真实damp继续，R618另锁此份完整固定E，后来H/q不得偷换目标。

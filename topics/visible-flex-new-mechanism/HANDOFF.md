@@ -5,7 +5,7 @@
 
 ## 1. 授权、规则与继承
 
-公开本次实际pull且根/题README已读至 **63310d7f67d915f9936f5ec247f62ba10f81a746**；根/题规则相对继承0749a4cc仍为空差异。私库实际pull/根README已读至 **2dcbca6979066ac65a5e161f6d360c2b7a49bd6b**，2026-11-26 22:28:22 UTC空diff；下次不晚于23:27 UTC。QUEUE唯一仍本会话进行中，原认领09f8b8b54e。
+公开本次实际pull且根/题README已读至 **1cb2fcf6e2d890bd1e11f2913fc64dc499743c7f**；根/题规则相对继承0749a4cc仍为空差异。私库实际pull/根README已读至 **2dcbca6979066ac65a5e161f6d360c2b7a49bd6b**，2026-11-26 22:28:22 UTC空diff；下次不晚于23:27 UTC。QUEUE唯一仍本会话进行中，原认领09f8b8b54e。
 
 每次pull只读根/题README差异并记SHA，至少每小时；NFF/ref锁立即pull --rebase再推至成功。root独占git和四索引，每条结论即推；科学只公开Actions，本地只纸证/源码及原日志JSON/hash解析。根12不重放已付门；根15不存raw/可重算表，必要新场再生全计费。H<10KB/open<30KB/md<100KB；publisher活跃不改tracked。
 
@@ -29,9 +29,9 @@ actual694圈/1555峰/309work/1536角/trust.3003387451171875，新fine1390未获�
 
 ## 5. 完整S与真正固定E的增长模型
 
-[全S原终态](notes/2026-11-27-r613-full-position-sixty-step-terminal.md)run45891036836/source99007dd1；2961.020285526秒/60接受/60Jac/166拒步。真1130q JSON SHA **238d786c6134bcbd356958c5fcf263916feb5bf1004af7e93722a30ed591e1c7**；337/amp1e−5/H.5188903591561069/damp1e−14。fineη2.52441e−7，2e−9未过；末仍接受，L2/max分离与高模增长保持。R615条件全角5.80359e−7尚欠径向/ODE/舍入。
+[全S真实397](notes/2026-11-27-r613-normal337-sixty-step-terminal.md)run45899589237/job140181814100/source59ef89bf6；4520.668522229001秒/60接受/60Jac/205trials。真1130q JSON SHA **d76a590766b2323698053321ad84608f17f110c1711c105470d2b876b4920875**；397/amp1e−5/H.5188903877153482/damp1e−14。fineη2.216608039e−7，双实际位置2.216686200e−7/2.216825169e−7；2e−9未过，末步fraction.25仍接受，非stall。完整At/M增加和高频增长不隐藏；R615条件全角5.633883337e−7尚欠径向/ODE/舍入。
 
-[正常337](notes/2026-11-27-r613-actual337-normal-continuation-scope.md)run45899589237/job140181814100/source59ef89bf6，21:39:06 UTC启动；全950×256/1728×512/S奇1…127/QR-SVD、60步/5400秒/240预留均不改，等原自然终态。
+正常397续算已备，原950×256/1728×512/S奇1…127/完整QR-SVD/60步均不改。独立R618新路线冻结**这份397完整q/amp/H/原reconstruction**为唯一固定E，之后正常路径的新H/q不替换其目标。旧337/277及所有费用完整继承。
 
 R617有限pre+post刚性不授有限误差下界。R618已付同完整E/同均值根/全2J核心ζ/τ链；新完整height62836B/87fdb14d、chain17855B/0668d1af已审待推，保1129旧非mean和真到rc全平非齐次尾。实际response/r/θ/meanθ/model、原唯一restore与真tail_anchor身份已补齐。S→η/导数jets只在同根/primitive alias付清后成立，直接位置读出正在落实。全尾均值分支/真实帽口积分纸界与helper已成形，旧germ/M/ODE误差不能默认0；后续由实际模型全系数生产同身份anchor。
 
