@@ -270,3 +270,6 @@
 - [NS：已存真低逆后的四源与全径向观察续接](results/R142-supplement-saved-Neumann-source-and-point-continuation.md)：同155/1424/193对象，母格三平方、六comparison球与point四闭盒各整件读回后接受；旧defect/已成源和point不重。[五件实际入口定义](notes/2026-11-26-R142-neumann-source-point-execution.md)已全核，真实PS εtrue尚未到，未创建实际manifest/workflow。
 
 - [CP与physical完整来源适配](results/R149-supplement-complete-source-point-continuation-and-physical-admission.md)：只复用已审R149 v2两纯metadata函数，保原/PS全部six-ball false及失败；另准入完整成功NS四源/193atoms/5696闭盒。CP数学尾、58/224/32全部公式不变，physical每球先candidate/readback/contains后正式接受；尚无真实前件运行。
+
+
+- [MJ：实际紧中心的terminal均值Jacobian与两端逆](results/R144-supplement-compact-terminal-mean-Jacobian-and-two-endpoint-inverse.md)：保全部mean atoms，ordinary/jump/shape/terminal界为.605/1.518/.087/1.058；真控制腰导数非零、415倍导数成本及kerℓ坐标slice完整保。两端Green核给精确支撑前后消去，不授full GC逆。

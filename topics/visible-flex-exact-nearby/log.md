@@ -203,3 +203,6 @@ NS五件共129172B，owner71056B SHA18db439d5895e4232882940a57b7bd9457982383e1ac
 
 
 2026-11-26 19:34:09 UTC / visible-exact-astra-fb31ed6-20261127：原不可变容器run45883126797/1安装成功，实际停于首git命令dubious ownership，输入/科学均未开始。mounted入口只为明确workspace设置safe.directory，原输入SHA及数学owner不变，保存新manifest/workflow避免改写失败入口；推送触发必要恢复。公开两README相对12385db无diff，已核70164ee3aec5905c783ac2b33e7e2dfc1dde67ef。
+
+
+2026-11-26 19:35:13 UTC / visible-exact-astra-fb31ed6-20261127：MJ在完整分片C0 Banach空间构造实际固定密度mean逆，严格区分forward零腰导数与terminal非零控制导数；完整有理常数比较通过，无旧数值target。两端mean Green核、所有jumps和坐标kerℓ给出，控制导数完整代入nonmean/phase/height，不以tinyξ降费用。
