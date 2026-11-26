@@ -33,7 +33,21 @@ CONTRACTS = {
         field_sha256='b2597012ec8ee063fabbb49a758b592d10f607de55ded3becaa8b62b6a50118d',
         calibration_name='reference_centred_smooth_triangle_calibration.py',
         calibration_sha256='a8e849068b12ffe2876c07ec2518947890c9f09614da2a9882b53e268e3ba873',
-        C1_role=None,C1_sha256=None)
+        C1_role=None,C1_sha256=None),
+    'reference-centred-c1': dict(
+        stem='reference_centred_c1_smooth_triangle',
+        report_schema='complete-R711-reference-centred-C1-reuse-fixed-normal-plane-SO3-QP-v1',
+        driver_name='fullclosed_reference_centred_c1_smooth_triangle_normal_lift_so3_qp.py',
+        driver_sha256='f075257aaea0930f60d905c9b02ac5cfcff61bc42d7daf337912c8a287d0f347',
+        reader_name='read_reference_centred_c1_smooth_triangle_normal_lift_so3_report.py',
+        reader_sha256='3803a72570aed98eb797f03aca6696055b299ad43e1b06673c482c1a6b25a907',
+        field_schema='complete-R711-reference-centred-C1-reuse-SO3-fixed-normal-plane-six-control-layer-v1',
+        field_name='so3_reference_centred_c1_smooth_triangle_normal_lift_operator.py',
+        field_sha256='a62c24570eef2ef253c0960c387bac8d68452ef4a277e41ae77ec8adc6faebfd',
+        calibration_name='reference_centred_c1_smooth_triangle_calibration.py',
+        calibration_sha256='3e478bbeacbe236947070f9422ab6c75852f460f41536c68ebb3995ff0a2a991',
+        C1_role='frame_C1',
+        C1_sha256='ba3d68f8560b99020f1596c4384e9fefc0115afeb987cae37627d24eba308dc9')
 }
 
 
@@ -159,6 +173,17 @@ def derive_consumer(original, contract):
     text = text.replace('read_supported_smooth_triangle_normal_lift_so3_report.py',contract['reader_name'])
     text = once(text,'def bind_actual_batch(repo, report_path, batch_index, array_override=None):',
         NEW_BINDING+'\ndef bind_actual_batch(repo, report_path, batch_index, array_override=None):')
+    if contract['C1_role'] is not None:
+        text = once(text,'        C1_identity = canonical(C1)',
+            '''        complete_C1_binding = pure.get("normal_frame_C1_binding")
+        if (not isinstance(complete_C1_binding,dict)
+                or complete_C1_binding.get("definition") != C1
+                or complete_C1_binding.get("definition_identity_sha256") != canonical(C1)
+                or complete_C1_binding.get("source_sha256") != expected["C1_sha256"]
+                or complete_C1_binding.get("all_original_outer_variables_and_all_normal_stages_retained") is not True
+                or complete_C1_binding.get("actual_speedup_or_rounding_certificate") is not False):
+            raise ValueError("Keep the complete cached pure-reader attribution, without promoting C1 timing to a certificate")
+        C1_identity = canonical(C1)''')
     text = once(text,'    seed = raw["supported_unit_seed_definition"]',
         '    outer = bind_outer_report_scope(raw,pure)\n    seed = raw["supported_unit_seed_definition"]')
     text = once(text,'        complete_actual_batch_metadata=batch)',
@@ -235,8 +260,12 @@ def main():
             seed_mean=MEAN_SHA,meridian=BASE_SHA).items():
         if driver_pins[role][1] != digest_:
             raise ValueError('Complete new source role changed: '+role)
-    if contract['C1_role'] is not None and driver_pins[contract['C1_role']][1] != contract['C1_sha256']:
-        raise ValueError('The complete cached-C1 entry must bind its actual helper source')
+    if contract['C1_role'] is not None:
+        C1_pin = driver_pins[contract['C1_role']]
+        if (C1_pin[1] != contract['C1_sha256']
+                or literal(actual_sources['field'],'FRAME_C1_SOURCE_SHA256') != contract['C1_sha256']):
+            raise ValueError('The complete cached-C1 entry must bind its actual helper source')
+        bound(a.entry_source_directory/Path(C1_pin[0]).name,contract['C1_sha256'])
     fee_name = contract['stem']+'_seed_angular_jet_error_bounds.py'
     mean_name = contract['stem']+'_accurate_mean_residuals.py'
     fees = derive_consumer(original_fees,contract)
