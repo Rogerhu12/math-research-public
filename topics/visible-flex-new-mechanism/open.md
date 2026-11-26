@@ -223,3 +223,7 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 [完整原收据](notes/2026-11-26-theta-batched-b030-original-terminal-receipt.md)run45796862274/job139829637288新增295.608894049秒；902×3072及651个终候选完整定位得到η.2651373529074538/V0，2次实际metric改善，0自然OptimizeResult。全部2560候选/7批完成，原512总拒绝已实际消除。当前actual450径向/1021峰，下一494/1129尚未构造，1129首次超过1024而径向494未触513；trust仍1.20135498046875。后继按真实峰库需求扩容并完整保q/actual/pending，原source-state单参数约123122 B，须处理即将触及的传输容量；全域/固定g/reach不因本有限接受而完成。
 
 [R582实际新入口](notes/2026-11-26-r582-actual-circle-seed-return-implementation.md)已提交单lane：保原81q/75实际+pending节点，真权P/ε和alpha160、M168/169及数值容差比较分别计费；若正权图像失号保最后完整cell，不越零除法。两新均值控制支撑(.06,.80)，实际尾不动；C² Hermite+自由样条保六jets和非零核心，完整undivided两行残差仍须实降。圆背景解析硬几何及全部细扫判有限接受，丢新网资格即清旧best；原谱幅读数明确为保守θ上界，SVD截断梯度非无条件严格导数。clock保实际best/coeff/格及pending，冻结新均值后的48/96只是线性表示细化，非有限同g族。
+
+### 分批B038外部中断与真实完整检查点
+
+[原中断收据](notes/2026-11-26-theta-batched-b038-runner-interruption-receipt.md)run45796862274/job139829637782由runner shutdown结束，无FINAL/FINISHED/自然OptimizeResult。已付全部518起始候选，随后一次metric接受、一轮在新细网失格后的真实restoration；最后完整outer3 START为500径向/538峰、1001×3072及566已定位候选、η.4946622256480169/V0/trust.9010162353515625。末trial η.47731但V1.593e−6已拒，不用它续。完整START保两个新pending曲率峰，后callback只报第三个计数未flush坐标，不能宣恢复了关闭瞬间全部库。新输入从此完整检查点重建必要接受门，并每callback立即刷出q/新增峰。444.543697291秒仅已刷精确下界，后约131秒日志墙钟未刷区间/缺最终计数均携带。

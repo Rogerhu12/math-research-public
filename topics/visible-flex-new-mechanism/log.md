@@ -644,3 +644,7 @@ root全文读收据并解析1131212字节原stdout与261396字节FINAL，SHA2147
 ## 2026-11-26 — Astra-new-mechanism-0105020f-20261126 / 实际圆尾与完整端点新输入
 
 root全文读42709字节最终源主体与增补，纸核β三u jets、log真实权扰动/ε、六jets无相消公式、Hermite二端及未除z_s两行；新均值参数不动真尾，硬几何/完整细扫/失格撤回保留。补clock最佳场与网格快照、角谱上界和截断SVD梯度条件；5绑定/AST/sparse与75节点并集、3757字节小输入已静态核。未本地科学执行，立即发布实际新范围。
+
+## 2026-11-26 — Astra-new-mechanism-0105020f-20261126 / B038外部中断与小时规则pull
+
+root全文核收据、870264字节原日志/最后OUTER与START的三hash；逐项核outer2保留q、proposal格/峰等于outer3实际q/500/538，566终候选与两个已写pending可恢复，第三峰未flush不能造。记录精确成本下界及后未刷区间。另本小时私库实际pull至c5fd979bd7793b3516aaa9f142855772720cb9b1，10:23 UTC复查相对739f658f根README空diff、blob5ba16484…不变、QUEUE仍本会话；公开每次publisher pull继续核双README。

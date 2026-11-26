@@ -296,3 +296,5 @@
 - [分批B030原终态](notes/2026-11-26-theta-batched-b030-original-terminal-receipt.md)：**完整原观察**。295.608894049新秒，终651候选全定位，η.265137352907/V0，actual450/1021与未采用494/1129分开；首次真实1024峰库cap，0自然后端返回。全部原候选保留的分批已工作，下一扩真实峰库并续同q，非主门。
 
 - [R582真实圆核种子与undivided返回实现](notes/2026-11-26-r582-actual-circle-seed-return-implementation.md)：新单lane真实17q及新两控制，准确P/ε、真实端口六jets与完整两行C²返回表示；全细几何/失格撤回及中断best完整保存。保守θ谱上界、SVD条件与同均值线性细化范围明确，尚无新种子数值/共振或有限族。
+
+- [分批B038运行器中断收据](notes/2026-11-26-theta-batched-b038-runner-interruption-receipt.md)：**完整原日志，非自然科学终态**。最后完整500/538检查点η.49466223/V0，566候选已定位；runner shutdown无FINAL，保2条已写pending并明记1条坐标缺失。444.543697291秒仅精确下界及后约131秒未刷区间全保，不采用违规trial。
