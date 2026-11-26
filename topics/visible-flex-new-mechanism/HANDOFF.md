@@ -6,7 +6,7 @@
 
 ## 1. 规则与接手
 
-已部分克隆并实际 `git pull main`，公开根 README、课题 README、HANDOFF、open、results 索引及相关 log/notes 已读。公开已读提交 **bdde94c19b1f89a2100d0261c1c65372d05de8ce**（2026-11-26 13:05 UTC；本次实际pull后根/题README空差异）；历次规则及失败原回执保原note；私有 QUEUE 的本题已改为本会话进行中并成功推送：**9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7**；最后实际pull及规则同blob读至 **df005946de0f0f9cb5070c1aaddca788fdfb9644**（2026-11-26 12:50–12:53 UTC；实际pull成功，根README空差异、QUEUE仍本会话）。其它课题的并行认领保留。
+已部分克隆并实际 `git pull main`，公开根 README、课题 README、HANDOFF、open、results 索引及相关 log/notes 已读。公开已读提交 **65dc1facf72f2b7352b412ea5eb0dd98a5b54045**（2026-11-26 13:07 UTC；本次实际pull后根/题README空差异）；历次规则及失败原回执保原note；私有 QUEUE 的本题已改为本会话进行中并成功推送：**9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7**；最后实际pull及规则同blob读至 **df005946de0f0f9cb5070c1aaddca788fdfb9644**（2026-11-26 12:50–12:53 UTC；实际pull成功，根README空差异、QUEUE仍本会话）。其它课题的并行认领保留。
 
 [八模前交接](notes/HANDOFF-before-eight-mode-natural-final-20261126.md)及其所链前史保全部原规则/成本/范围；09:18及11:20 UTC两次本地失联期间仅API保存，不冒actualpull。09:33、11:28恢复后已实际双pull。每pull核根/题README差异并执行，至少每小时；root独占git/索引，每条结论即推，NFF立即rebase重推。科学仅公开Actions，本地限纸证/源码/原日志解析；已披露3次开发偏离保原note且停止。根12不加机械复跑，根15不留可重算raw。
 
@@ -36,7 +36,7 @@
 
 ## 5. 两母库与紧凑真实路径
 
-33母的20/cap/13与一次χ不与R578的36母混用；原period/第四、δ→0 reach障碍及旧费用全保[此前交接](notes/HANDOFF-before-radial-and-parametric-bvp-20261126.md)/原证明，已闭旧跑不重开。[R578](results/R578-sixfold-six-node-positive-complete-profile-library.md)固定36完整块、0…10矩、2e−6微半宽与真collar，Ch<0/Ck>0并非端根。
+旧33母、R578的36母及其全部旧费用/失败保[此前交接](notes/HANDOFF-before-radial-and-parametric-bvp-20261126.md)和原证明，已闭旧跑不重开。[R598](results/R598-three-rotations-wide-eighteen-block-mother.md)新付18完整块：特殊不交first槽的三旋转准确保全部历史；三组P6+τP5（τ=−1,0,1）共0…10位置矩、根间距>319/30000，微半宽1/12000、完整collar1/3000。保完整正势；最高微宽因子仅改善15625/9，非新根/几何结论。新χ、八矩prepared中心与原质量式必须实际重付。
 
 [R584](results/R584-centered-third-history-and-nineteen-state-full-ruling-bvp.md)/[R586](results/R586-sixfold-full-history-coefficient-projection-and-finite-integrals.md)付真19态/六历史预收；[R589](results/R589-autonomous-full-feedback-and-even-end-germs.md)付完整自主反射和偶端germs，但根/pose/第四仍欠。[R590](results/R590-full-history-square-potential-and-c2-update.md)付势/C²等价式，正势必须全回付。
 
