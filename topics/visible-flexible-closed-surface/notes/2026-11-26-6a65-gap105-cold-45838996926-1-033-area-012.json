@@ -87,9 +87,16 @@
       "toCommit": "bf6f8419a2140a50c332168a27929886e3faf232",
       "readmeDiffEmpty": true,
       "pullCommandExit": 0
+    },
+    {
+      "UTC": "2026-11-26T15:45:40+00:00",
+      "fromCommit": "bf6f8419a2140a50c332168a27929886e3faf232",
+      "toCommit": "ebea72d4db652ca0133817298ffe743a0c346412",
+      "readmeDiffEmpty": true,
+      "pullCommandExit": 0
     }
   ],
-  "state": "requested-actual-cold-batch-complete-state-retained-topic-still-incomplete",
+  "state": "explicit-bound-same-job-followup-received",
   "originalCauchyFactoryAcceptedSteps": 0,
   "actualPipelineAcceptedSteps": 30,
   "legacyCertificateNamedFlagsAreNotProof": true,
@@ -99,7 +106,7 @@
   "strongTargetComplete": false,
   "actualPipelineAttempts": 30,
   "currentStateSHA256": "00d88f0b93c1eed880b46ea8a3bace5ae8da76e5f5e518fb1ac15224e4e51693",
-  "actualTotalPullCount": 37,
+  "actualTotalPullCount": 38,
   "previousScalarPart": {
     "path": "topics/visible-flexible-closed-surface/notes/2026-11-26-6a65-gap105-cold-45838996926-1-032-area-011.json",
     "sha256": "19664c4532d01c46160411c1fe05dcf9df7f74cb335d3cdaba497f491d82da56"
@@ -333,5 +340,22 @@
         "completeValueObjectCanonicalSHA256": "06f35a7781aebb466ecef06100f64729dbc938e15f531bddf7eb7b3ae669e13b"
       }
     }
+  },
+  "actualFollowup": {
+    "packet": {
+      "schema": "6a65-gap105-area-same-job-followup-v1",
+      "run_id": "45838996926",
+      "run_attempt": "1",
+      "source_epoch": "1dd2ae1757346004be6a7641e492a562648baccc",
+      "requestSHA256": "6630723f4f8723f5c9630f0f67fc1a4c967efa814c4a1adbc16bf17d36844ebf",
+      "parentStateSHA256": "00d88f0b93c1eed880b46ea8a3bace5ae8da76e5f5e518fb1ac15224e4e51693",
+      "preparedSHA256": "f9e7d265e0b0f7efb2077aa6b796457515d684e7c9df39c4fb23c946ea66932b",
+      "operation": "release",
+      "additional_area_attempts": 0,
+      "rulesReadCommit": "f454fa5f7970412d30d0870b36ce82dcf9a94079",
+      "reason": "Actual30 batch remains noncompliant; continue explicit independent q2 full-H and new polar full-XYZ inputs, not a topic completion."
+    },
+    "packetSHA256": "0e9ffb3d88d13153b842e19c26ea070350232b28c8f25245ca3d098de9618d6c",
+    "actualFetchedCommit": "ebea72d4db652ca0133817298ffe743a0c346412"
   }
 }
