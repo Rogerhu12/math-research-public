@@ -1,0 +1,169 @@
+{
+  "schema": "r150-unit211-S0-Lt0-u2-execution-v1",
+  "sourcePath": "notes/2026-11-27-unit211-S0-Lt0-u2-original-return-8542.py",
+  "sourceSha256": "9342f3a73f1af187c2fa0d5c297f4d26719f02605553e60964bff6aa0fd420a7",
+  "sourceBytes": 17407,
+  "pythonVersion": "3.12.14",
+  "pythonFlintVersion": "0.9.0",
+  "command": "PYTHONPATH=/workspace/scratch/8542378f2b73/isp_pydeps python topics/invariant-subspace-problem/notes/2026-11-27-unit211-S0-Lt0-u2-original-return-8542.py",
+  "exitCode": 0,
+  "alarmSeconds": 180,
+  "stdoutSha256": "6ad5d4f848a9daf399521840413467371a3c8d4334a34b0d1ed534b5df29a22e",
+  "stdoutBytes": 5421,
+  "cover": {
+    "claimExcluded": false,
+    "completeResultantFactorization": "Res_theta(G,K)=256 z^14 J^2 M",
+    "elapsedSeconds": 0.03316,
+    "factors": [
+      {
+        "coefficientsLowFirst": [
+          "-3/2",
+          "1"
+        ],
+        "degree": 1
+      },
+      {
+        "coefficientsLowFirst": [
+          "3/4",
+          "-15/8",
+          "1"
+        ],
+        "degree": 2
+      },
+      {
+        "coefficientsLowFirst": [
+          "1/2",
+          "-5/4",
+          "1"
+        ],
+        "degree": 2
+      },
+      {
+        "coefficientsLowFirst": [
+          "7/16",
+          "-15/8",
+          "1/2",
+          "1"
+        ],
+        "degree": 3
+      },
+      {
+        "coefficientsLowFirst": [
+          "891763/8192",
+          "-544037/512",
+          "4584625/1024",
+          "-10174621/1024",
+          "36174773/4096",
+          "240294387/16384",
+          "-267610023/4096",
+          "240230585/2048",
+          "-131022761/1024",
+          "10649487/128",
+          "-8756205/512",
+          "-6496297/256",
+          "8167415/256",
+          "-5114041/256",
+          "518869/64",
+          "-17589/8",
+          "12087/32",
+          "-279/8",
+          "1"
+        ],
+        "degree": 18
+      }
+    ],
+    "resultantDegree": 52,
+    "sourceSha256": "9342f3a73f1af187c2fa0d5c297f4d26719f02605553e60964bff6aa0fd420a7",
+    "squarefreeDegree": 26,
+    "squarefreeSha256": "7ce342b51fa14b16fe1a04e06be9373466fc17a75c4b41788d8149413e4e671d",
+    "stage": "complete_original_u2_parameter_cover"
+  },
+  "result": {
+    "claimExcluded": true,
+    "claimWholeLt0LayerEmpty": false,
+    "claimWholeS0LayerEmpty": false,
+    "elapsedSeconds": 0.368863,
+    "ordinaryISPClaim": false,
+    "peakRssKiB": 30304,
+    "reports": [
+      {
+        "baseDegree": 1,
+        "bezoutIdentities": 3,
+        "claimExcluded": true,
+        "inverseIdentities": 8,
+        "lambdaFactor": "x + (-3/2)",
+        "paidHistory": [
+          {
+            "unit": "z",
+            "zDegree": 1
+          }
+        ],
+        "remainingZDegree": 0
+      },
+      {
+        "baseDegree": 2,
+        "claimExcluded": true,
+        "inverseIdentities": 36,
+        "inverseSha256": "2cc8dcf096ed2c6344f1cd8d94e84185d69c4ea40516a06aa695b088a4277953",
+        "lambdaFactor": "x^2 + (-15/8)*x + 3/4",
+        "originalKUnit": true
+      },
+      {
+        "baseDegree": 2,
+        "bezoutIdentities": 3,
+        "claimExcluded": true,
+        "inverseIdentities": 8,
+        "lambdaFactor": "x^2 + (-5/4)*x + 1/2",
+        "paidHistory": [
+          {
+            "unit": "z",
+            "zDegree": 1
+          }
+        ],
+        "remainingZDegree": 0
+      },
+      {
+        "baseDegree": 3,
+        "claimExcluded": true,
+        "inverseIdentities": 36,
+        "inverseSha256": "77142594cfe10aa5d5de23b4ce60fc008159383e5ffa4e3dbbb00c293868c5a4",
+        "lambdaFactor": "x^3 + 1/2*x^2 + (-15/8)*x + 7/16",
+        "originalKUnit": true
+      },
+      {
+        "baseDimension": 18,
+        "baseInverseIdentities": 52,
+        "certificate": {
+          "combination": {
+            "currentWeight": 0,
+            "withPreviousAccumulator": false
+          },
+          "fieldInverseIdentitiesChecked": 52,
+          "identity": "original_resultant_combination * its_inverse = 1",
+          "inverseSha256": "c5224d819118fd04ab924e589221be37e183c3bcc15f0523857a3fcc7328b46a",
+          "normDegreeInLambda": 17,
+          "pair": [
+            "E1",
+            "EB"
+          ]
+        },
+        "fiber": "x^18 + (-279/8)*x^17 + 12087/32*x^16 + (-17589/8)*x^15 + 518869/64*x^14 + (-5114041/256)*x^13 + 8167415/256*x^12 + (-6496297/256)*x^11 + (-8756205/512)*x^10 + 10649487/128*x^9 + (-131022761/1024)*x^8 + 240230585/2048*x^7 + (-267610023/4096)*x^6 + 240294387/16384*x^5 + 36174773/4096*x^4 + (-10174621/1024)*x^3 + 4584625/1024*x^2 + (-544037/512)*x + 891763/8192",
+        "fullDimension": 36,
+        "history": [
+          {
+            "pair": [
+              "E1",
+              "EB"
+            ],
+            "unitCertificateFound": true,
+            "zeroResultant": false
+          }
+        ],
+        "inputSha256": "0ff265959dbfdb0653df0bbeb569307292ac4d358077d7dd3c3848a364707c9d",
+        "quadraticIrreducibilityAssumed": false
+      }
+    ],
+    "sourceSha256": "9342f3a73f1af187c2fa0d5c297f4d26719f02605553e60964bff6aa0fd420a7",
+    "status": "entire_original_Lt0_u2_stratum_excluded"
+  }
+}

@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R150 S0/Lt0的整个零base权支路为空（2026-11-27，已证明）：** [u2/ell1/a0原返回](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-zero-base-weight-exclusion.md)直接从Lt恒等式取D=z²、θ=z²/B，52次结式给26次完整谱；低谱返回同θ后原K单位，末18谱保d两根的36维原E1/EB真逆。自含源exit0/0.368863秒/30304KiB，准确双点乘法重新生成九式。另实录未登记scratch分量错误，其374/580投影和PRS全部废止，不影响此证书及已推三源。
+
 - **R150 四有限源Hp0图新增两个真实N Hermite条件（2026-11-27，已证明必要归约，未判空）：** [原二阶系数与孤立一阶准确降式](results/R150-appendix-rank-three-double-plus-single-zero-hp-original-N-Hermite-strengthening.md)保固定w的真实导数，原N二阶与新P2由完整有理身份等价；孤立一阶经普遍范数身份和未平方单点比例降至d次数8，未新增定位因子。build实际exit0/4.926643秒，新增专用特征零证书门；旧三个900秒失败不重跑，尚无I*C=1。
 
 - **R150 S0/Lt0一般参数曲线的全部z首项零纤维为空（2026-11-27，已证明）：** [同参数22/40维原返回](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-parameter-leading-zero-exclusion.md)保完整Res_theta(G,K)=256z^14J²M，lc_z M=(4λ−1)²(2λ²−2λ+1)^4；λquarter与A0两谱的原E1/EB结果式均真逆乘回1，二次塔不假不可约。更新源exit0/0.774927秒/30840KiB；原剩余一般曲线可合法付该首项，未宣整Lt0为空。
