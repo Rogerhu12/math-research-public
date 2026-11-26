@@ -211,7 +211,7 @@
 
 - [识别续接：B038首次通过fine几何并改善metric](notes/2026-11-26-hard-resume-first-metric-progress.md)：**完整原终态观察**，run45773550668新增163.220723713+470.738431635科学秒。B030仍V=.00054365；B038在原不变几何门下V=0，71次可行metric改善至η=.86360747，末两次后端自然success。最后角提议1536未加入因原容量768；仍非全域连续证书/1e−6或冻结g收敛，继续新明确预算及分块Jac。
 
-- [圆核17径向变量入口与非圆设计续接](notes/2026-11-26-circular-core-continuation-implementation.md)：**独立新算法/输入，结果待公开Actions**。p=q=.18/offset.2的连续旋转公式metric准确，仍须实际恢复几何；随后每个p重新解完整81变量与硬门。阶段η1e−4只作设计推进，不付非圆分支共振、固定g精化或目标幅度。
+- [圆核17径向变量入口与非圆设计续接](notes/2026-11-26-circular-core-continuation-implementation.md)：**独立新算法/输入，首启动失败与修复见后条**。p=q=.18/offset.2的连续旋转公式metric准确，仍须实际恢复几何；随后每个p重新解完整81变量与硬门。阶段η1e−4只作设计推进，不付非圆分支共振、固定g精化或目标幅度。
 
 - [R572 一个真实母的自然与全部实际微包总通量共同零](results/R572-odd-map-mother-and-all-actual-packet-total-fluxes.md)：**已证明**R105的有限仿射模板环境与R521预定复制图，使Λ(U)、raw self及每个实际包/全部相位raw total成为有限组连续五次奇泛函；ψ×偶多项式单位球面的同一点准确清全部目标，母非零且内部无开放零collar。完整A=T=0使非零χ整周期等canonical环境系数，避免虚授常germ U成员性；whole pure、内部partial、完整period与13仍欠。
 
@@ -220,3 +220,5 @@
 - [R571真实核心shooting与同场核心归一数值入口](notes/2026-11-26-r571-phase-shooting-implementation.md)：**新计算包已发布，待原终态**。新M25固定尾、精确C²圆柱connector、连续有号核心残差根、相位导数与同根加密；同一个场归一A_core=1，报告弧长/缩放角partial二jets，非坐标无关Hessian证书。4/6/8只作有限probe，不授全频率逆或有限分支。
 
 - [R573 固定collar曲率与分离尺度返回的reach比例障碍](results/R573-fixed-collar-curvature-and-separated-scale-reach-obstruction.md)：**已证明**原ruled片完整形算子给起点reach≤H²+(ξc+Ω)⁻²；首高尾两个实际collar点给D≥c√R logR/δ−C_R。先固定母/H/H0/Ω/有限R后δ→0，任何保原collar的闭C²完成均有reach/D→0，最终违反.03门；净pose返回、整体缩放和collar外校正不能消去。未算有限阈值、不排一般有限参数；转紧凑输入而非只增形式阶数。
+
+- [圆核入口的真实启动失败与角网格修复](notes/2026-11-26-circular-entry-angular-guard-failure.md)：**完整原失败收据及必要修复**。run45775603393在首次Model保护即因16角<4×4+4退，child wall .604799秒，无核心积分/几何/优化结果。新v2改32角及一致CLI保护，原物理/17变量/续接门不改；下次才首次执行此输入的模型科学，不判圆核不可行。

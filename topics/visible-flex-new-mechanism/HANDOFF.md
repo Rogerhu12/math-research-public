@@ -6,7 +6,7 @@
 
 ## 1. 规则与接手
 
-已部分克隆并实际 `git pull main`，公开根 README、课题 README、HANDOFF、open、results 索引及相关 log/notes 已读。公开已读提交 **367910ccd01fb28436ab2bf8cf04067d7a137f3e**（2026-11-26 07:49 UTC；本次实际pull后根/题README空差异）；私有根初读 **85fdf1853367ef25c07f3ebdb6ae25c22a3564b8**，随后逐次 pull/rebase 检查根差异，空差异。私有 QUEUE 的本题已改为本会话进行中并成功推送：**9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7**；最后实际pull及规则同blob读至 **d6fc2f5c519bd5481b5e0ef67fca1c08c7b6eb9a**（2026-11-26 07:21 UTC；实际pull/rebase后根README空差异、QUEUE仍本会话）。其它课题的并行认领保留。
+已部分克隆并实际 `git pull main`，公开根 README、课题 README、HANDOFF、open、results 索引及相关 log/notes 已读。公开已读提交 **747d986eb8e6f7299af3d02f9f3cc7bdb930e914**（2026-11-26 07:51 UTC；本次实际pull后根/题README空差异）；私有根初读 **85fdf1853367ef25c07f3ebdb6ae25c22a3564b8**，随后逐次 pull/rebase 检查根差异，空差异。私有 QUEUE 的本题已改为本会话进行中并成功推送：**9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7**；最后实际pull及规则同blob读至 **d6fc2f5c519bd5481b5e0ef67fca1c08c7b6eb9a**（2026-11-26 07:21 UTC；实际pull/rebase后根README空差异、QUEUE仍本会话）。其它课题的并行认领保留。
 
 各原观察note保真实双仓pull/规则blob/QUEUE回执；根/题规则均无变化。盘满和失联恢复原记录保于[先前交接](notes/HANDOFF-before-hard-restoration-20261126.md)，本次压缩前全文保于[几何转向前交接](notes/HANDOFF-before-compact-geometry-20261126.md)。API读取不冒git pull。
 
@@ -39,7 +39,8 @@
 
 R555余五槽的真实Gram/有序面积身份继续有效；R526的倒行完成仍以实际M0/K0块为前提；R517周期scalar自动M0仍以真正合法周期轨道为前提。所有“尚未付”的端口不因下游条件定理自动消失。
 
-新[圆核设计入口](notes/2026-11-26-circular-core-continuation-implementation.md)已单独发布：p=q=.18/offset.2先仅17径向变量恢复真实几何，再改变p并解锁81变量。连续公式起点η0不付非圆分支，C_core=0共振仍须解决；每个p重新实际过门，阶段η1e−4不是完成门。1 lane公开Actions，2400秒检查点；结果待原终态。
+新[圆核设计入口](notes/2026-11-26-circular-core-continuation-implementation.md)：p=q=.18/offset.2先17径向变量，再改变p解81变量。[首启动失败](notes/2026-11-26-circular-entry-angular-guard-failure.md)run45775603393的16角违反原最小20保护，.604799秒即退、未进模型科学。现v2改32角/fine64并同步CLI guard；原物理门不变。圆核η0不授非圆分支，仍欠C_core共振；阶段η1e−4非完成门。
+
 
 ## 5. 正在继续的实际工作
 

@@ -25,7 +25,7 @@ if hashlib.sha256(hard_path.read_bytes()).hexdigest() != HARD_SOURCE_SHA256:
 import inverse_hard_exchange_resume_20261126 as hard
 
 Model, Parameters, emit = hard.Model, hard.Parameters, hard.emit
-SCHEMA = "inverse-r566-circular-core-radial-entry-and-design-continuation-v1"
+SCHEMA = "inverse-r566-circular-core-radial-entry-and-design-continuation-v2-resolved-circle-grid"
 
 
 class StageReached(RuntimeError):
@@ -256,7 +256,7 @@ def run_stage(stage, par, q, nodes, angular_nodes, trust, circular, args, deadli
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     for name, default in (("radial-basis", 8), ("modes", 4), ("radial-nodes", 49),
-                          ("circle-theta-nodes", 16), ("theta-nodes", 96),
+                          ("circle-theta-nodes", 32), ("theta-nodes", 96),
                           ("outer-per-stage", 60), ("maxiter", 80), ("maximum-stages", 40),
                           ("maximum-radial-nodes", 385), ("maximum-theta-nodes", 768)):
         parser.add_argument("--" + name, type=int, default=default)
@@ -270,12 +270,13 @@ def main():
                           ("maximum-seconds", 2400.0)):
         parser.add_argument("--" + name, type=float, default=default)
     args = parser.parse_args()
+    minimum_angular_nodes = 4 * args.modes + 4
     if (args.target_core_p < args.core_q or args.core_q <= 0 or args.stage_eta_goal <= 0
             or args.mean_E_floor <= 0 or args.det_floor <= 0
-            or args.circle_theta_nodes < 4 or args.circle_theta_nodes % 4
-            or args.theta_nodes < 4 or args.theta_nodes % 4
+            or args.circle_theta_nodes < minimum_angular_nodes or args.circle_theta_nodes % 4
+            or args.theta_nodes < minimum_angular_nodes or args.theta_nodes % 4
             or not 0 < args.minimum_p_step <= args.initial_p_step <= args.maximum_p_step):
-        raise ValueError("invalid circular entry or continuation parameter range")
+        raise ValueError("invalid circular entry or continuation range; both angular grids must resolve 4*modes+4 nodes")
     started = time.monotonic()
     deadline = started + args.maximum_seconds
     par = Parameters(p=args.core_q, q=args.core_q, offset=args.rounding_radius,

@@ -17,7 +17,7 @@
     "checkout_action": "11d5960a326750d5838078e36cf38b85af677262",
     "setup_python_action": "a26af69be951a213d495a4c3e4e4022e16d87065"
   },
-  "schema": "inverse-r566-circular-radial-entry-p-continuation-request-v1",
+  "schema": "inverse-r566-circular-radial-entry-p-continuation-request-v2-resolved-circle-grid",
   "public_rules_read_commit": "2a3709cd6ace14439cd3b4276ceb97ff28f8db2e",
   "private_rules_read_commit": "d6fc2f5c519bd5481b5e0ef67fca1c08c7b6eb9a",
   "entry_point": "topics/visible-flex-new-mechanism/scripts/inverse_circle_core_continuation_20261126.py",
@@ -26,7 +26,7 @@
     "radial_basis": 8,
     "modes": 4,
     "radial_nodes": 49,
-    "circle_theta_nodes": 16,
+    "circle_theta_nodes": 32,
     "theta_nodes": 96,
     "outer_per_stage": 60,
     "maxiter": 80,
@@ -82,7 +82,17 @@
     "topics/visible-flex-new-mechanism/scripts/inverse_hard_exchange_20261126.py": "304989b5b127e3d761a243aed55ca437d86012f2cd6e3357c291e1159bf48271",
     "topics/visible-flex-new-mechanism/scripts/inverse_hard_exchange_resume_20261126.py": "befd444bfb96efc6721d1b0bad20deb25b32e915c1f789ab4d285085c2afcce4",
     "topics/visible-flex-new-mechanism/scripts/run_inverse_rotational_metric_20261126.py": "a97334fb7004ce750c0c949469be2db21ca7a187e53b48032dba2f330cf5e8ae",
-    "topics/visible-flex-new-mechanism/scripts/inverse_circle_core_continuation_20261126.py": "7e2032a6dd4e21f17c02aa4c77251357c6b57a325fcae689ac3b9b83fd3e64f2",
+    "topics/visible-flex-new-mechanism/scripts/inverse_circle_core_continuation_20261126.py": "4d1e3c11115dfcd956c4ddff80eb3b16fc363dd5480a110a4deb692768986b59",
     ".github/workflows/visible-inverse-circle-continuation-20261126.yml": "14544eb437995c919d3c22f9061c1fcc49918a9f93de04de4b5098f1037c8484"
+  },
+  "startup_repair_of": {
+    "run_id": 45775603393,
+    "job_id": 139758402600,
+    "source_commit": "a925b21604feed5fd578c5878d09514a040e1883",
+    "request_sha256": "fe561a6e7a1c2a11586e99a5583d653a2f7c0bfa0f892d2a4310418de8ac52d9",
+    "reason": "16 angular nodes violated the existing 4*modes+4=20 constructor guard",
+    "old_circle_theta_nodes": 16,
+    "new_circle_theta_nodes": 32,
+    "completed_geometry_or_optimizer_results_to_replay": false
   }
 }
