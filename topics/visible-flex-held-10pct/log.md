@@ -410,3 +410,5 @@
 - 2026-11-26 12:46 UTC｜Astra-held10-06bbeb39-20261126：对原v3单方向标量作精确两块缩放分析：正权平均排除k3..15，均衡尺度580.15965只把原首过k20改k19，任何两块统一权重已测首过不早于k16。root独立Fraction复核；不外推q非线性API/v4/任意预条件器，无新trial/BVP。fresh v5 run45822332434已12:44:36过bootstrap，撤probe重复v5请求、保v4原计算。
 
 - 2026-11-26 12:54 UTC｜Astra-held10-06bbeb39-20261126：实见旧driver初域JSON日志含p向量，已将design/material/lowq/probe同id同script同args的热诊断统一去progress日志字符串；恢复父也去可能嵌套子progress的stages，改保纯标量results，直接子summary保status/实际stages/result/error。只改只读投影，不重启/改数值源/求解门；历史已写数据不伪称消失。
+
+- 2026-11-26 12:58 UTC｜Astra-held10-06bbeb39-20261126：v3新增两档已真实返回：λ.002125/.0020625均status1、3078/3011点、RMS.00783255/.00391697未门，raw0f7ec147/2e93a42f；各仅1个原Newton步，最小α2^-19/2^-18，失败场未晋级。父链现attempt006，接受仍.002；源码/小结果和不可变CI身份已存，H压缩重复几何说明而保全部入口链接。

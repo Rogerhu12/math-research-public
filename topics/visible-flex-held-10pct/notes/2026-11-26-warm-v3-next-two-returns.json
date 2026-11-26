@@ -1,0 +1,85 @@
+{
+  "scope": "Two additional actually returned v3 trials. Both fail the unchanged RMS/solver gate; neither is an accepted new lambda.",
+  "session": "Astra-held10-06bbeb39-20261126",
+  "recorded_at_utc": "2026-11-26T12:58:06.634718+00:00",
+  "source": {
+    "path": "topics/visible-flex-held-10pct/ci/live-warm-result.json",
+    "immutable_commit": "edd21e7e453716b51770ddba7b362b593af37eee",
+    "git_blob_sha1": "8e0ac0dd3eba2d30aa7d1fb223e1ae4512103750",
+    "sha256": "b46e84dc5f74ea70162785e5c16d19594706870b2071478c0a02445aac53f365",
+    "workflow_run_id": 45775899674,
+    "job_id": 139759357062,
+    "command_id": "held10-warm-v3-complement-20261126-01"
+  },
+  "actual_rows": [
+    {
+      "name": "attempt-004",
+      "homotopy": 0.002125,
+      "modes": 24,
+      "accepted": false,
+      "solver_invoked": true,
+      "solver_success": false,
+      "returncode": 2,
+      "error": null,
+      "run": "/home/runner/work/_temp/held10-warm/warm-v3-design/attempt-004/run.json",
+      "run_sha256": "2405cc5734c2c773b2494cd5b38c294fa412b4460156ffc2ea8c24f566bb9811",
+      "raw": {
+        "file": "inner-00.npz",
+        "nodes": 3078,
+        "rms": 0.007832551588547933,
+        "sha256": "0f7ec1478c10a0e7bf9c39f81208c2cd863e6c846e4574aa878e30f7c6c000d4",
+        "status": 1,
+        "success": false
+      },
+      "physical_bc_max": 3.7191024592668833e-16,
+      "scaled_bc_max": 1.7373602556602918e-13,
+      "domain_newton_stats": {
+        "accepted_steps": 1,
+        "calls": 3,
+        "minimum_alpha": 1.9073486328125e-06,
+        "no_step": 3,
+        "rejected_domain_trials": 13,
+        "rejected_merit_trials": 69
+      },
+      "next_action": "bisect_lambda_from_last_accepted_field",
+      "next_lambda": 0.0020625
+    },
+    {
+      "name": "attempt-005",
+      "homotopy": 0.0020625,
+      "modes": 24,
+      "accepted": false,
+      "solver_invoked": true,
+      "solver_success": false,
+      "returncode": 2,
+      "error": null,
+      "run": "/home/runner/work/_temp/held10-warm/warm-v3-design/attempt-005/run.json",
+      "run_sha256": "3956371dcded43968098c24de340f48de9e2e495505a3495a6a89b148df08a1b",
+      "raw": {
+        "file": "inner-00.npz",
+        "nodes": 3011,
+        "rms": 0.003916974836780708,
+        "sha256": "2e93a42f787aeb9ca713c5a89e3f7360957483ee8f23017ddbf7ce3ae6a4b14b",
+        "status": 1,
+        "success": false
+      },
+      "physical_bc_max": 3.7185976699819674e-16,
+      "scaled_bc_max": 1.740274591099933e-13,
+      "domain_newton_stats": {
+        "accepted_steps": 1,
+        "calls": 3,
+        "minimum_alpha": 3.814697265625e-06,
+        "no_step": 3,
+        "rejected_domain_trials": 20,
+        "rejected_merit_trials": 61
+      },
+      "next_action": "bisect_lambda_from_last_accepted_field",
+      "next_lambda": 0.00203125
+    }
+  ],
+  "last_accepted_lambda": 0.002,
+  "last_accepted_run": "/home/runner/work/_temp/held10-warm/warm-v3-design/reexpressed-anchor/run.json",
+  "currently_observed_stage": "attempt-006",
+  "current_attempt_terminal_state": "not_yet_returned",
+  "complete_surface": false
+}
