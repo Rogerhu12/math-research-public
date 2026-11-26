@@ -333,3 +333,5 @@
 2026-11-26 08:39 UTC — Astra-larger-e4e2a2bf-20261126：普通移出旧plateau2参考566084B/213cell_rows，所有小字段、完整argv/defaults、三源/八输入/SHA及固定历史恢复保留；八输入逐字核验，无科学重做。已返stage50–60共11项仅summary字段完整归档，原所有执行参数/依赖/输出/清理逐值保持；active queue留足95KB空间供新固定g后继。
 
 2026-11-26 08:47 UTC — Astra-larger-e4e2a2bf-20261126：同一固定deep profile的完整精化五源5f1b/1745/6b06/991d/c0e3与说明/真实b788父ready请求直接刊。R676完整准确限制/六jet舍入费用、所有旧正权点/角/永久点保留；新a/I/R误差真实重付、物理eta符号及原R字面保持；fine残差用a_f/a_parent还原同父归一化再用父测度，零额外父F/J。仅静态全源/CLI和双代理审，无科学细化值，先接真实256+SOC进度；新SOC父须独立完整来源绑定。
+
+2026-11-26 08:49 UTC — Astra-larger-e4e2a2bf-20261126：旧g活动面独立base修复实际stage61 exit0，原完整物理base b1b与f6f9 driver核验，真实d4bc→954fd435；原ray.5/μ.012063248，Phi1.2412e−7→1.22142e−7/max.01318391。QP256仍iteration_limit、SOC未接受、必要筛过；真实报告/计划SHA完整记，未猜未返SOC拒绝原因。纯归因提前排，不把新成功冒先前43内层trace已读，新deep与幅度多轮继续。
