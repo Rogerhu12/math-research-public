@@ -17,8 +17,13 @@ function build(candidate,input){
   const metric=require("./fd2d-nonuniform-metric-provider-R196.cjs").createR196MetricProvider(engine,candidate,input.options);
   metric.definition={...metric.definition,cauchyWarmDesign:base.cauchyWarmDesign,
     radialMetric:"Explicit Cauchy flat-cut polynomial base plus complete rho; design changes g"};
-  const algebra=require("./fd2d-curvature-quartic-hinge-R211.cjs").createR211AmplifiedCurvatureAlgebra(
-    require("./fd2d-position-curvature-chain-R191.cjs").createR191Algebra(),{tau:input.curvatureTau??2});
+  const originalAlgebra=require("./fd2d-position-curvature-chain-R191.cjs").createR191Algebra();
+  let algebra;
+  if(input.curvatureModel==="6a65-explicit-tau-quartic-curvature-hinge-v1")
+    algebra=require("./6a65-explicit-tau-curvature-hinge.cjs").createExplicitTauCurvatureAlgebra(originalAlgebra,{tau:input.curvatureTau});
+  else if(input.curvatureModel===undefined||input.curvatureModel==="R211-fixed-tau-2")
+    algebra=require("./fd2d-curvature-quartic-hinge-R211.cjs").createR211AmplifiedCurvatureAlgebra(originalAlgebra,{tau:input.curvatureTau??2});
+  else throw Error("Unknown explicit curvature objective definition");
   const referenceFactory=amplitude=>require("./fd2d-bent-annulus-reference-R205.cjs").createR205BentAnnulusReference(engine,base,
     {amplitude,angles:input.options.angles,cacheLimit:0});
   const curvatureOptions={...input.curvatureOptions,sliceReuse:{valueLimit:8,derivativeLimit:4}};
@@ -94,7 +99,9 @@ if(require.main===module){
         providerDefinition:q.provider.definition,cauchyAcceptedSteps:0,accepted:false,continuousCertificate:false,strongTargetComplete:false};
     }else output=await runOne(candidate,input);
     output.source={inputSHA256:hash(inputFile),candidateSHA256:hash(candidateFile),entrySHA256:hash(__filename),
-      baseSHA256:hash(path.join(__dirname,"6a65-geometry-cauchy-warm-base.cjs")),gridSHA256:gridFile?hash(gridFile):null};
+      baseSHA256:hash(path.join(__dirname,"6a65-geometry-cauchy-warm-base.cjs")),
+      curvatureAlgebraSHA256:hash(path.join(__dirname,input.curvatureModel==="6a65-explicit-tau-quartic-curvature-hinge-v1"?
+        "6a65-explicit-tau-curvature-hinge.cjs":"fd2d-curvature-quartic-hinge-R211.cjs")),gridSHA256:gridFile?hash(gridFile):null};
     output.execution={startedUTC,endedUTC:new Date().toISOString(),seconds:(Date.now()-start)/1000,node:process.version,
       actualValueBaseline:mode==="value",actualFullNormal:mode==="run",actualAcceptedSteps:mode==="run"&&output.accepted?1:0,
       OSExitCode:null,externalExitReceiptRequired:true};
