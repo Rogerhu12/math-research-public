@@ -151,3 +151,5 @@ O4 [R619](results/R619-free-center-leading-energy-and-true-memory-local-flow.md)
 O5 [新97q连续原终态](notes/2026-11-27-r582-retained-continuous-original-terminal.md)已付同mean新圆及全非圆材料嵌入，但reach/D只证.00783058。全域δ/α已付，β61.21峰在s≈.86953765；下一分开同cell法向/切向二阶，或改变实际输入，不重放原已完成范围，也不拿有限κ16.45冒连续证明。
 
 O2b-B [R618](results/R618-fixed-metric-core-and-growing-post-response.md)给固定完整E的真实均值/core链与每固定新J的强迫平尾。实际后继须把原高度做准确均值分拆、固定同一个E函数与幅度，再付新post频率/真实强迫口及完整2J从属项；全J一致估计和完整非线性根仍为开放项，不因局部接口完成而停。
+
+O2b-A [a237原续算终态](notes/2026-11-27-r582-physical-paid-resume-original-terminal.md)新增18次完整metric接受到η4.83022e−5；原243圈与38pending提出279，全部11025fine保留。尚未自然stall或过阶段门，继续同真态/原全门，几何针对新mean另付，不借f1证书。

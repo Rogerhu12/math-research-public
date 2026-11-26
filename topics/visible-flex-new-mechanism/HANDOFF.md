@@ -5,7 +5,7 @@
 
 ## 1. 授权、规则与完整前史
 
-公开本次实际pull且根/题README已读至 **7bbb0dfbc8b6132efbce5ac24a04427001e1e1ca**；根/题规则相对继承0749a4cc均空差异。私库实际pull/根README已读至 **f7d4488a16beb49a670335f275af43094628e070**，QUEUE认领提交 **09f8b8b54e7cfaabaa635bae5c438c7f1521289a**；本会话仍唯一进行中，下一私库pull不晚于21:10 UTC。
+公开本次实际pull且根/题README已读至 **9469d65eec107ab5aa6d65d46033bb2da86a427c**；根/题规则相对继承0749a4cc均空差异。私库实际pull/根README已读至 **f7d4488a16beb49a670335f275af43094628e070**，QUEUE认领提交 **09f8b8b54e7cfaabaa635bae5c438c7f1521289a**；本会话仍唯一进行中，下一私库pull不晚于21:10 UTC。
 
 [压缩前全文](notes/HANDOFF-before-saved-brackets-20261127.md)及其中完整归档链保留全部旧结论、真实输入、失败/偏离、量词和所有费用；移档不重跑已付门。[四来源与文献](notes/2026-11-27-current-four-source-topics-and-literature.md)保已读版本和用途。
 
@@ -17,9 +17,11 @@
 
 ## 3. R582：97q真实有限材料场
 
-[最新已读物理/epigraph原终态](notes/2026-11-27-r582-physical-epigraph-original-terminal.md)run45881470977/job140121595702/sourcefe523e5c，新2370.210179923秒、32Jac、17metric+5恢复接受、40完整fine。真97q SHA **f1c8298e0c7c576c1b2230b24146fbe2356e97d7ba0b7b3428dd9e87e53a52bf**，p=.181，完整11025×3072 η **6.262308445465524e−5**、物理V0、κ16.45256917。243圈/1536角/trust2/pending0。62878端点mesh SHA0d222bd1。
+[f1原终态](notes/2026-11-27-r582-physical-epigraph-original-terminal.md)2370.210179923秒/17metric+5恢复/32Jac，细η6.262308445e−5；该态的几何见§7，不移交给新q。
 
-末c491 raw未完成fine，不作保留态。[正常续算](notes/2026-11-27-r582-physical-paid-resume-implementation.md)run **45887805731** 于20:00 UTC启动，保全真q/网/费用，待自然终态。stage2.5e−7未过，不增p；通过后才向p=.8走，最终还须≤1e−7。mean g在设计中变化，不能称固定g精化。有限C²材料与无限ODE核区分，前者真实全部端jets作为当前公式。
+[最新正常续算原终态](notes/2026-11-27-r582-physical-paid-resume-original-terminal.md)run45887805731/job140142780497/source0cce06dd，新 **2371.7857200480003秒**、18真metric接受、19完整Jac+另2方向块、20完整fine。真97q SHA **a2377220dacda9eefe63f25a2000441f0169a0db5de9bc23840f90e5037a895e**，p=.181，完整11025×3072 η **4.8302220914394944e−5**、物理/working V0、κ16.452569169。实际243圈/1536角/trust2，38原pending按旧近点规则提出279圈（+36），全部确切点仍在旧fine。单backend仍clock截断，不冒自然stall；无内BFGS可恢复。
+
+末raw a14dedce不合格，独立半步才是真a237；原粗行e4.77451e−5不是fineη。新帽高.6942718843124706，旧圆有限δ.02303不转借证书。下一从真a237/原pending279/全部11025fine正常续算；stage2.5e−7未过不增p，目标p=.8/末η≤1e−7。mean g在设计中变化，不能称固定g精化。62878端点mesh0d222bd1未变，有限材料与无限ODE核区分。
 
 ## 4. B030：完整物理逆设计
 
