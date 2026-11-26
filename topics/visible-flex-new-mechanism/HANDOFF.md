@@ -5,9 +5,11 @@
 
 ## 1. 规则、授权与原始记录
 
-公开本次实际pull且根/题README已读至 **e5ed0423fd4baac96013d00d1e4ce20a3a596a61**；相对继承0749a4cc规则空差异。私库本次实际pull且根README已读至 **a7891a83567e479db246d47684f7aefedd1bb328**；QUEUE认领推送 **09f8b8b54e7cfaabaa635bae5c438c7f1521289a**，状态本会话进行中。继承全文见[接手原件](notes/HANDOFF-inherited-20261127-1f4a61a4.md)。
+公开本次实际pull且根/题README已读至 **45627cbb9f6a92df8ba0add18653cd3a094f2174**；相对继承0749a4cc规则空差异。私库本次实际pull且根README已读至 **a7891a83567e479db246d47684f7aefedd1bb328**；QUEUE认领推送 **09f8b8b54e7cfaabaa635bae5c438c7f1521289a**，状态本会话进行中。继承全文见[接手原件](notes/HANDOFF-inherited-20261127-1f4a61a4.md)。
 
 [真函数终态前全文](notes/HANDOFF-before-true-integral-final-20261127.md)及其所链历次交接保全部结论、条件、旧失败、输入与费用。每次实际pull后查根/题README差异并执行，至少每小时；API读取不冒pull。root独占git和共享索引，每条结论即推，NFF立即pull --rebase再推至成功。
+
+[四来源/文献复核](notes/2026-11-27-current-four-source-topics-and-literature.md)固定已读版本及可用范围。
 
 科学只在公开Actions；本地仅纸证、源码、AST/JSON/hash和原日志解析。根12不重复已付门，根15不存raw/可重算表；必要下一输入由CLI随明确scope发布。原偏离及修正保[前史](notes/2026-11-26-r582-necessary-input-recovery-original-receipt.md)。
 
@@ -55,7 +57,7 @@ R584/R586/R589/R590保19态真历史、一次χ、正平方、负侧反号、偶
 
 R605/R607的真实记忆/首层有限阶相容及原独立history硬BC失败全部保前次交接；原硬BC虽小，真实M缺陷.18717、ruling8.96e9，不延长旧scope。
 
-[R609](results/R609-true-integral-histories-and-kinetic-input.md)已付真η/八A/六rho全积分消元、四奇中心尾积分和一个全程固定ζ0中心链，剩四偶端条件/两原ruling；明确新输入连续原盒合法且真实动能组合>4/25。[真函数原终态](notes/2026-11-27-r609-true-integral-function-natural-final-agent.md)run45881816067/job140122740344新744.538026459秒，五模四偶78nfev到约1e−16，9/13/17共105接受；真ruling1.74e14仍未解。实际37q SHAadd6c37a、L3.3491506644355598、冻结unit3967798143562589；固定16×16四端3.40645e−8暴露积分缺陷。[R614真续算](notes/2026-11-27-r614-paid-reduced-function-continuation-implementation-agent.md)已备：同17模/冻结unit，16×16三端恢复、80新步、全离解投影及原LD重装；末32×16固定L/两规范。
+[R609](results/R609-true-integral-histories-and-kinetic-input.md)已付真η/八A/六rho全积分消元、四奇中心尾积分和一个全程固定ζ0中心链，剩四偶端条件/两原ruling；明确新输入连续原盒合法且真实动能组合>4/25。[真函数原终态](notes/2026-11-27-r609-true-integral-function-natural-final-agent.md)run45881816067/job140122740344新744.538026459秒，五模四偶78nfev到约1e−16，9/13/17共105接受；真ruling1.74e14仍未解。实际37q SHAadd6c37a、L3.3491506644355598、冻结unit3967798143562589；固定16×16四端3.40645e−8暴露积分缺陷。[R614真续算](notes/2026-11-27-r614-paid-reduced-function-continuation-implementation-agent.md)run45885627093：同17模/冻结unit，16×16三端恢复、80新步、全离解投影及原LD重装；末32×16固定L/两规范。
 
 [R612](results/R612-exact-physical-length-elimination-and-three-true-end-integrals.md)付四偶根唯一L=√(U/(K−1))及无损三形状端图，完整历史/正势/δL保留；三端图秩及两ruling仍待解。
 
