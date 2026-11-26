@@ -10,7 +10,9 @@
     "--source-run",
     "@WORK@/fresh-one-direction/v3-zero-control-anchor/run.json",
     "--outdir",
-    "@WORK@/warm-v4-design"
+    "@WORK@/warm-v4-design",
+    "--max-attempts",
+    "3"
   ],
   "diagnostics": [
     {

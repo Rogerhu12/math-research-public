@@ -19,10 +19,10 @@
 新probe run45806625263仍先自然完成原v3一次方向诊断。其后在同runner用实际新v3零锚执行：
 
 ```text
-python -u REPO/topics/visible-flex-held-10pct/scripts/resume_20261126/warm_fixed_m3_continue_v4.py --repo REPO --work WORK --source-run WORK/fresh-one-direction/v3-zero-control-anchor/run.json --outdir WORK/warm-v4-design
+python -u REPO/topics/visible-flex-held-10pct/scripts/resume_20261126/warm_fixed_m3_continue_v4.py --repo REPO --work WORK --source-run WORK/fresh-one-direction/v3-zero-control-anchor/run.json --outdir WORK/warm-v4-design --max-attempts 3
 ```
 
-默认目标 .004/.008/.016/.032/.064/.125/.25/.5/.75/1，原mode levels 24/32/40/48/64。旧warm父链仍自然执行，未被替换或中断。当前尚无v4实际零锚转换/非零λ推进；全BVP可解性、λ1、实际fullH、闭合与同问题精化均未支付。λ1之后必须显式适配实际DN类型，不能改名当v3。
+目标 .004/.008/.016/.032/.064/.125/.25/.5/.75/1，原mode levels 24/32/40/48/64。本次先执行3次实际尝试；返回后立即从真正最后接受场续新段，或据实际方向诊断调整后继续。父进程返回不是课题完成，不晋升未接受场；原容差和完整g不变。旧warm父链仍自然执行，未被替换或中断。当前尚无v4实际零锚转换/非零λ推进；全BVP可解性、λ1、实际fullH、闭合与同问题精化均未支付。λ1之后必须显式适配实际DN类型，不能改名当v3。
 
 ## 冻结源
 

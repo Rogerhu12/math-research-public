@@ -1,0 +1,60 @@
+{
+  "session": "Astra-held10-06bbeb39-20261126",
+  "workflow_run": 45763361623,
+  "command_id": "held10-recorded-lambda004-fullH-20261126-02",
+  "observed_utc": "2026-11-26T11:18:32Z",
+  "worker_status": "worker_deadline",
+  "job": {
+    "id": 139718340526,
+    "status": "completed",
+    "conclusion": "success",
+    "started_at": "2026-11-26T05:42:43Z",
+    "completed_at": "2026-11-26T11:14:02Z",
+    "worker": {
+      "name": "Keep actual fields and run reviewed research commands",
+      "status": "completed",
+      "conclusion": "success",
+      "number": 7,
+      "started_at": "2026-11-26T05:43:38Z",
+      "completed_at": "2026-11-26T11:13:59Z"
+    }
+  },
+  "termination_scope": "Existing live worker reached its own 5.5-hour clock, stopped the process group and returned normally; not a natural numerical tail failure.",
+  "accepted_factors": [
+    {
+      "factor": 0.25,
+      "residual": 6.242436100120573e-10,
+      "record": "/home/runner/work/_temp/held10-live/recorded-lambda004-fullH-fresh-01/tail_0001.json.gz",
+      "sha256": "84c10c244b129ab2cc0bf96b1f890a21b9b9c3cf88387142117fab867c401c21",
+      "original_audit_returned": true
+    },
+    {
+      "factor": 0.5,
+      "residual": 9.444905600895387e-10,
+      "record": "/home/runner/work/_temp/held10-live/recorded-lambda004-fullH-fresh-01/tail_0002.json.gz",
+      "sha256": "1fdc4b76ad6b64e9b60792de6bd836a9cb49da7f35752f4dcb9996c380b4be13",
+      "original_audit_returned": true
+    }
+  ],
+  "interrupted_factor": 0.75,
+  "last_actual_worker_trace": {
+    "call": 3,
+    "chartCondition": null,
+    "chordMaxCorrections": 3,
+    "correctionsOnJacobian": 2,
+    "elapsed_ms": 1577231,
+    "event": "iteration",
+    "iteration": 5,
+    "jacobianMode": "chord-cached-J",
+    "minA": null,
+    "minD": null,
+    "norm": 2.5508842381632904,
+    "phase": "correction",
+    "time": "2026-11-26T11:11:15.080Z"
+  },
+  "third_accepted_packet_observed": false,
+  "unscaled_full_height_accepted": false,
+  "prefix_metric_passed": false,
+  "complete_surface": false,
+  "continuation_decision": "Continue the new actually accepted delta-design candidates and v4 route; do not regenerate the old metric-rejected lambda=.004 independent tail merely to repeat its partial warm solves."
+}
