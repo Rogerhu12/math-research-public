@@ -256,3 +256,5 @@
 - [LC：紧窗全moving C0、五源与完整新jump接收](results/R144-supplement-localized-full-state-C0-and-compact-source-receivers.md)：原32有限载体与actualρ/b，真χ支持/χ′质量、全mean及原joins；准确区分geometry同φ与另种sameθ比较。实际新目标待运行。 [19当前/10历史实际入口](notes/2026-11-26-R144-localized-full-state-and-compact-sources-contract.md)已执行，27整球/31字段完整；[LC actual](results/R144-supplement-actual-localized-full-state-and-compact-sources.md)45797426031/1的新中心C0门true，五源和全jump锁定。
 
 - [TC：真根连续96个有限PDE trial与完整残差](results/R149-supplement-true-root-continuous-PDE-trials-and-complete-residuals.md)：whole selected/root/mean、原40parts Taylor误差、真径向长度及signed配对；独立有限对象目标，不冒真PDE列或提前运行SC真列认证。 math/proposal/完整输入helper、owner/worker及[首入口合同](notes/2026-11-26-true-root-trial-residual-contract.md)已双核并推送启动；78当前/27历史、三自然对象584球。实际输出未到，真PDE列误差与完整矩阵门仍待P224。
+
+- [TC首入口实际输入恢复失败](results/R149-supplement-actual-true-root-trial-input-restoration-failure.md)：45806282910/1旧Z历史地址不存在，science_children=0、无新目标/球；首历史metadata一致不冒真实路径存在，原失败留存。固定原nodal answer/Hermite/全部旧hash的必要载体恢复正在独立核验。
