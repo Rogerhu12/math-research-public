@@ -61,7 +61,7 @@ rank$H=4$ 的非单位局部块长度5、4、3已排；长度2单零的三种单
 
 **[rankH3二重加单点的非零Hp整层ess≤5](results/R150-appendix-rank-three-double-plus-single-second-cumulant-nonzero-hp-essential-six-exclusion.md)：** 原节点/J及At/τ/γ全部零面保留，QQ93/126与两个异常谱六真逆已付，0.011089秒/exit0。勿重做，仅续Hp0四源有限层。
 
-**2+1型H、Hp0九次Gram仅余四源全有限的ess6层：** 全部H/V∞支已闭，来源与真逆保结果索引/归档。[完整重建](results/R150-appendix-rank-three-double-plus-single-zero-hp-finite-source-rational-reconstruction.md)保原12式及11/16全系数；[同Π上的低次原理想相等](results/R150-appendix-rank-three-double-plus-single-zero-hp-lowered-original-ideal-equivalence.md)已将d八次喷射换为二次，A/T为原商环强迫单位。mod1031/e700单位基只供方向，两次真Ke各900秒未决；[同Π的C/G两条d一次式与原理想相等](results/R150-appendix-rank-three-double-plus-single-zero-hp-two-linear-original-ideal-equivalence.md)现已证明，不除两个新首项，仍保全部零纤维；真实I*C=1继续。三约化H与ess4/5仍开。
+**2+1型H、Hp0九次Gram仅余四源全有限的ess6层：** 全部H/V∞支已闭，来源与真逆保结果索引/归档。[完整重建](results/R150-appendix-rank-three-double-plus-single-zero-hp-finite-source-rational-reconstruction.md)保原12式及11/16全系数；[同Π上的低次原理想相等](results/R150-appendix-rank-three-double-plus-single-zero-hp-lowered-original-ideal-equivalence.md)已将d八次喷射换为二次，A/T为原商环强迫单位。mod1031/e700单位基只供方向，三种真Ke各900秒未决，最后八条恒等式及field/smoke通过但无单位身份；[同Π的C/G两条d一次式与原理想相等](results/R150-appendix-rank-three-double-plus-single-zero-hp-two-linear-original-ideal-equivalence.md)现已证明，不除两个新首项，仍保全部零纤维；真实I*C=1继续。三约化H与ess4/5仍开。
 
 ## 2. R271：同一来源的完整物理费用
 
@@ -73,17 +73,7 @@ rank$H=4$ 的非单位局部块长度5、4、3已排；长度2单零的三种单
 
 [分离高度新门](results/R271-appendix-separated-height-bands-exact-full-head-bessel-and-d-sized-prefix-budget.md)取 $m\in4\mathbb N,\ m\ge20,\ d=2^m,\ R=d,\ x=m+d,\ Q=4d$，允许高度窗上半带的全强头读行严格正交，Bessel常数1。非零同w锚必要 $\sum_{m,r}\kappa_{m,r}^{-2}<\infty$；真实完整费用上界仍未付。旧帽参数不能自动转到这个新窗，增长R的新窗也须重新满足原支持条件。
 
-[奇高度全 MP 简单极点](results/R271-appendix-odd-height-highest-carry-full-mp-simple-pole.md)保原N/Y、偶R、奇r及全 primitive，最高carry参数 $t$ 的完整逆至多 $t^{-1}$，新秩全一阶开齐。偶r可有二阶极点。
-
-[883显式费用](results/R271-appendix-odd-height-highest-carry-explicit-883-cost-and-d-sized-budget.md)在 $a=16^{m-2},n=2^{m-1}$ 给原旧/参考头相似 $e^{221a}/e^{441a}$，$R=d$ 的完整逆除 $t^{-1}$ 外为 $\exp(883a+21n\log(m+2n))$。原 $-\log t$ 主阶 $1400a$；只有完整源另满足 $\|\xi\|\le Lt^2,\log L=o(a)$ 才可用517a余量，该源条件未证。
-
-[精确极点判据](results/R271-appendix-complete-galerkin-highest-carry-pole-and-cancellation-criterion.md)给 $E_1^*q_{-1}=P_K(f-H_0a_0)$。有界恰退化全核 Galerkin 解属于真核极限；$q=O(t)$ 还须 $\xi_0=0$ 且 $P_K\xi_1=0$。固定 Schur 方向不代移动谱投影。
-
-[高 primitive 支撑和原N残余阶](results/R271-appendix-high-primitive-support-and-uniform-low-carry-residue-order.md)把新约束限到高初始孔级，完整解析核框架给源系数孔传播。统一低carry缩 $s$ 时，固定参数下 $q_{-1}=O(s^{(R-5d-r+13)/2})$（相应 $J_*\ge1$），已经支付全 $s^{-(2d-6)}$ 逆损失。但常数/邻域不统一；$R=d$ 无正阶，移动m两种实际选s仍有缺口。继续公共强权尺度、完整源常数和真实参数，而不把固定参数O冒充实际费用。
-
-小头不逐级继承：原m2/R2有 $\kappa^2<e^{-2000}$，但[原m3/R0/r3](results/R271-appendix-actual-eight-head-triple-hole-cost-lower-bound-and-highest-carry-pole.md)反有 $\kappa^2>e^{38000}$ 和非消失 $t^{-1}$ 极点；两者均不在旧联合高度窗。固定偶R的低头阶只能按各自范围使用。
-
-[一般长坏链的完整解析 Schur 与三个真实幂旗](results/R271-appendix-general-head-long-bad-chain-analytic-schur-and-three-true-power-flags.md)现已证明：l≥n+3时无A逆的合同、完整新增秩及候选费用均明确，最长坏链最低局部N孔为m+2。[一般N头全部长短链高孔补空间及显式费用](results/R271-appendix-general-head-high-hole-schur-complement-and-complete-residue-cost.md)进一步给m≥5、r3、偶R≥d的A0=(R−d)/2+m+2，整个q₋₁有C_m4^Ry^(2d)s^((R−3d)/2+2m+3)Z(s)上界，logC_m≤883a+8dlog(2d)，原s*=e⁻¹⁰⁷⁰重标度已核。较弱的固定γ孔加权源界也可用：显式s成本独立R，γ<1/16即可压4^R。[完整真核线性图与全区间正则界](results/R271-appendix-complete-highest-carry-linear-graphs-and-full-interval-regular-cost.md)现已消除未知t有效半径：全0<t≤1有明确的q−t⁻¹q₋₁界，保完整Galerkin与最终余核正交投影。[任意奇高度的完整Hankel合同与高孔费用](results/R271-appendix-general-odd-height-hankel-congruence-and-complete-high-hole-cost.md)现进一步覆盖全部奇r：A0取短/长链两真实孔门的最小值，包含大r短链主导；C_mr中的阶乘、r²/n、全部R相似费均明确。没有人为小r限制，仍保原允许窗及Q支持。正则粗界仍过大；真正剩余为完整Zγ(s*)、ξ/ξ′或孔相关乘积的有效费用，以及增长R母窗；不把合同当物理正交分解。
+旧完整MP、Schur与全奇高度费用已付：奇r至多t⁻¹（偶r可二阶）；有界须退化全核解属于真核极限，O(t)另须ξ0=0及首阶kernel条件。一般短/长链、Hankel合同、完整极点残量和全0<t≤1正则界均保原同源/物理投影。全部准确常数、883费、高孔支撑、移动s的非统一性及原m2/m3反例保[本次完整快照](notes/2026-11-26-open-before-linear-atlas-and-infinity-347c.md)和结果索引，勿重做。剩余始终是完整Zγ(s*)、实际ξ/ξ′、物理γ<1/16或同源孔相关乘积的有效费，以及增长R母窗；64^R不能凭固定参数O或非正交合同消掉。
 
 **新增完整比较接口：** [联合carry、有限Fock乘子与指数强前缀](results/R271-appendix-joint-carry-finite-fock-multiplier-and-exponential-strong-prefix-gram.md)用原同一F、同一f支付完整有限高度Gram和inverse的相对误差，条件3J(x+1)³≤exp(417d³/4)；原高度窗覆盖x≤exp(13d³)，强头整个有限塔覆盖x≤exp(26d³)/4。原物理孔权Γ=32^N的双向乘子亦近恒等，不付32^x；但不能把同F换成ker A_x^r，不能以加权Gram变分问题替原未加权最小者，更不能据此宣绝对Zγ已付。
 

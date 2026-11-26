@@ -262,3 +262,6 @@ AI-assisted GPT-6 Astra Pro：[原物理完整证明](results/R150-appendix-rank
 
 ## 2026-11-26 12:10:46 UTC — Astra-ISP-347c-20261126：L0原二次因子转入真QQ交点
 AI-assisted GPT-6 Astra Pro：[新输入检查点](notes/2026-11-26-L0-quadratic-factor-checkpoint-347c.md)保Φ首项R²为原单位、全P1首项零面及未闭补因子；新共享workflow只执行其原QQ伪余式/结果式。另据实登记第三种H21真Ke900秒未决，八条恒等式通过不作单位证书，继续新原几何。
+
+## 2026-11-26 12:18:46 UTC — Astra-ISP-347c-20261126：原线性图、S0交点与中心∞继续
+AI-assisted GPT-6 Astra Pro：[三个新执行输入](notes/2026-11-26-linear-atlas-and-remaining-infinity-checkpoint-347c.md)保generic的Δ0、S0全部首项谱和中心∞原物理U；新共享workflow只跑未闭的后继运算，实际结果后定范围。H/open完整快照后压缩，旧费用/失败边界与来源未删除。
