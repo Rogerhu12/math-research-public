@@ -496,3 +496,7 @@ root于2026-11-26 17:12:35 UTC普通移出6项共1,613,460B。[完整说明](202
 ## 21. 2026-11-26：三条旧 late-boost 开放轨道
 
 2026-11-26 19:11:27 UTC，普通移出原m96/m64 .25→.65及resonant三轨道共979897B；保未删v.25祖先、原0af61/cf163完整小源、全部配置/重生argv、原非轨道字段/首末标量/数量、固定9bbafc历史及每blob/SHA，见[完整说明](2026-11-26-legacy-three-late-boost-retention.md)和[小元数据](../computations/resume-20261126-legacy-three-late-boost-retention.json)。resonant到.8020369757而在.804067域退出/目标.883903清楚保留；仍是开放片数值，不冒闭面或精化完成。没有再次整读>100KB文件，没有科学复跑；只用先前紧凑元数据/小源/树metadata，旧消费者先恢复runner。此前四次整读偏差仍明确留记录。
+
+## 22. 2026-11-26：两份旧辅助线性参考逐胞输出
+
+主会话普通移出variable-farball与wide12两raw共1,133,547B；完整25非数组字段、原有理界/全参数、两完整argv和资源记录、六公开源/完整import链、八原输入8ef38046恢复清单及a936固定原件/blob保[完整说明](2026-11-26-legacy-two-aux-reference-retention.md)和[小对象](../computations/resume-20261126-legacy-two-aux-reference-retention.json)。只读大报告首末12000B，不整读cell_rows；所有旧充分门失败边界和13旧引用保留，旧消费者先恢复Actions隔离scratch。当前05输入、全历史/待返/新seed/direct均不移出，没有科学重算或历史改写。
