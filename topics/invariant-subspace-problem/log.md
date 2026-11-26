@@ -106,3 +106,6 @@ AI-assisted GPT-6 Astra Pro：[原trace与共同范数的QQ完整消元](results
 
 ## 2026-11-26 07:44:34 UTC — Astra-ISP-347c-20261126：双秩二全部本质五维临界点排除
 AI-assisted GPT-6 Astra Pro：[两个原H值式的17矛盾](results/R150-appendix-rank-two-second-and-third-cumulants-have-essential-dimension-at-most-four.md)关闭最后Gaussian规范，连同二jet/∞得整个rankH=rankV=2的ess≤4。纯手证逐式审完，已停止不再必要的曲面探索；继续rankH3/ess6及原ess4。
+
+## 2026-11-26 07:47:01 UTC — Astra-ISP-347c-20261126：真实物理同源的真空矩运输及全inverse权界
+AI-assisted GPT-6 Astra Pro：[原真空平方和与正号翻译](results/R271-appendix-vacuum-source-moments-all-strong-physical-transport-and-weighted-inverse.md)支付两个真实物理列的1/y差、一次公共方差及原inverse31/30孔权；无限尾/全级数均保闭自然域。完整手证逐式核对，无新计算，继续全T和真实压缩/返回。

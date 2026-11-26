@@ -5,10 +5,10 @@
 ## 主目标、规则与执行
 
 - **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍仅全体有界算子的存在定理或完整反例；子结果不作完成。
-- **最近实际 pull / 已读规则提交：** `ac94b3f6313425a72c402a089827dd9198786334`（2026-11-26 07:45:09 UTC）。本次两README无新规则差异；已读根/课题README、H/open、结果索引及定点log/notes。每次pull及至少每小时比diff，记录SHA。
+- **最近实际 pull / 已读规则提交：** `c05c5194d599385aa3f6c3e9ae618fd6f786b216`（2026-11-26 07:47:08 UTC）。本次两README无新规则差异；已读根/课题README、H/open、结果索引及定点log/notes。每次pull及至少每小时比diff，记录SHA。
 - 私库 `QUEUE.md` 已成功更新认领，提交 `e776df496eedfa449b0475cefe140fdae7023db4`；非快进已逐次pull --rebase后重推成功。研究在公开仓库，私库仅维护QUEUE；不force，令牌仅CLI环境。
 - 工作树 `/tmp/isp-347c05929dd3/math-research-public`；root独占git/索引，代理独占TMP；每结论单推，仅存源/参数/身份/SHA。
-- 完整交接链见[最新压缩前H](notes/2026-11-26-handoff-before-opposite-regular-curves-347c.md)及其旧归档。MD<100KB、H<10KB、open尽量<30KB、topic<200MB；不写根LOG。
+- 完整交接链见[最新压缩前H](notes/2026-11-26-handoff-before-vacuum-physical-transport-347c.md)及其旧归档。MD<100KB、H<10KB、open尽量<30KB、topic<200MB；不写根LOG。
 - 请求14、311及权11旧执行身份已登记，不重做已闭计算。
 - 当前并行：rankV2/rankH3的ess6满支撑；unit211一般q的P0零/非零分工；R271全T孔权及允许改零列的真实Schur/MP。全局幂与算子桥继续。
 
@@ -45,7 +45,7 @@ M=kerT、N=closure BM；N=M未证。始终保same-w/u、全部partial、真inter
 - **[联合carry相对Gram](results/R271-appendix-joint-carry-finite-fock-multiplier-and-exponential-strong-prefix-gram.md)：** 同F全Gram/inverse及双向Γ乘子已付，原未加权最小者不换。
 - **[指数强前缀实际源](results/R271-appendix-exponential-strong-prefix-actual-variance-source-limit.md)：** x+1≤exp(26d³)/4、1≤J≤d+x−m−1、s≥Sx→0时，全空间inverse/列强趋P_M/第零层，正能量趋0。含Sx/J1，无速率，母Q窗已付。
 - **[实际方差孔权差](results/R271-appendix-actual-window-weighted-full-galerkin-residual-transfer.md)：** x+1≤d⁴/64及原J窗，原同F的ξ/a/能量列Γ差≤e^(−7d⁴/4)。零头改基m−1且Q′≥R+r，同F0差≤e^(−7d⁴/64)；绝对Z未付。
-- **[任意新增强位绝对加权完整源](results/R271-appendix-all-strong-bit-extension-weighted-complete-source.md)：** s≥2²⁴/y、γ1/32，任意x≥y/J的原inverse及全列新增孔权≤16/15，总物理费32^(y+h−1)；√ε_y差给任意增长x的全空间极限。保Q/原V,K,partial。
+- **[真空源矩/实际物理运输及全inverse孔权](results/R271-appendix-vacuum-source-moments-all-strong-physical-transport-and-weighted-inverse.md)：** y≥m+d、s≥K/y、K≥2²⁴；真实重新最小化两物理列的Γ_new差≤96√μ1/(√3K·y)，一次公共方差给Δ/(y√K)。完整未加权inverse两向权界31/30、全列16/15；闭孔权域延伸无限L_m/全级数。仍非真核或F0/Sx。
 - **[大辅助方差真实F0完整逼近](results/R271-appendix-large-auxiliary-variance-true-kernel-galerkin-approximation.md)：** 低新孔≤L空间在所有真核内，r≥2d+L时原Galerkin能量误差≤(16/15)32^(−L−1)。L=d,r=3d+1,R=576(m+1)²d²,Q=R+r全原窗，s=K/y给ξ≤e^(−2d)、真F0源强趋P_M；同源修正i0ξ保V/K/partial。物理Sx孔权、完整MP返回仍开。
 - 小头m2/R2小κ、m3/R0/r3巨大κ及非零极点保索引，均不在旧联合窗，不逐级外推。
 - **[冻结大方差零列的物理返回下界](results/R271-appendix-large-variance-fixed-zero-column-return-lower-bound.md)：** 原f1正规式给‖Ca_s‖≥s/(s+49)；真核z0=a_s时‖z‖≥s/[(s+49)√Sx]，合法R=d/r3窗为≥√3·2²⁴√x/50。同F物理方差列差≥2²⁴/(700x)；仅保级双塔未投影差继承下界。允许改零列的全MP/最终投影仍开。

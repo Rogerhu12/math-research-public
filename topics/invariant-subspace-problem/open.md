@@ -96,6 +96,8 @@ $$
 
 **[大辅助零列不能冻结返回](results/R271-appendix-large-variance-fixed-zero-column-return-lower-bound.md)：** 原指定f1给准确〈Ca_s,e0〉=s(1−q_s)及‖Ca_s‖≥s/(s+49)。保a_s为零远孔系数的任何真物理核列必须付s/[(s+49)√Sx]，原合法R=d/r3窗增长如√x；同F的a_s与a_Sx也至少差2²⁴/(700x)。保级双塔的未投影差有相同首行障碍，但最终正交投影可消去它；可改变零列的全物理MP并未被排除。真正下一接口必须保同forcing并重新最小化全部列。
 
+**[真空源矩给实际物理1/y运输及全inverse权界](results/R271-appendix-vacuum-source-moments-all-strong-physical-transport-and-weighted-inverse.md)：** 原全部新增位的精确elementary/falling-factorial平方和≤ηe^(ηH)μ1；正号翻译保旧/新两个真实物理同u列，Γ_new差≤96√μ1/(√(3K)y)，一次log方差选择对全部合法x/Q给Δ/(y√K)。原完整inverse的Γ共轭≤31/30，闭自然域推广无限L_m及全级数Gram。它仍是大辅助全空间正则化源，不是物理核，也不能把增长Q的同源身份当固定cut；继续原T比较、真约束Schur及物理返回。
+
 ### 2.2 仍需接合的原返回接口
 
 - 旧 $\tau14$ 下全高度同w Bessel/能量、一次物理MP及共同log方差均已付；后继 $CD^\dagger$、核外第二逆和真正完整最小源仍开。一次界不自动反复适用，真核终式不保初始阻尼。
