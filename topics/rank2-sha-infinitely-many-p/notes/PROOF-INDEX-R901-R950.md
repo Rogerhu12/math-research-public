@@ -177,3 +177,5 @@
 - [R941](../results/R941-original-two-division-central-reader.md)：同原W递推只在r0=(5p−1)/6与f的n=p两次真除p；p⁸起算严格付原四源全部六Gaussian块及j modp⁷。无独立f_p或自由提升，原曲线/倍点/全carry身份保；公开p227四原中央实际赋值1，curve/倍点/全carry过；run45762838950及完整hash见§5，仍不代无穷性。
 
 - [R942](../results/R942-original-split-scalar-preimages-and-whole-module-elimination.md)：原整模以逐可逆行操作完整消元，不累计巨大变换矩阵；全部附加源同步消元准确返回原分母。原q/q0逐线性因子的完整剩余核求全scalar原像，每重数逐层保厚、全306源/两图/两个product与边界门保持；只有等价算法证明及源码，实际单F除子仍待。
+
+- [R939](../results/R939-original-three-long-full-square-kernel.md)：完整原D2∩K1的零角迫乘子逐系数含t²；三真长N=s−13与短ell给H_C深N。dD−2κ<N时全平方核进入D3；实际立方restriction像维数≤max(0,dD−3κ−ell+1)。严格dD−3κ<ell自动付前门并给K1∩D2=D4，所有短窗端点保；只此完整子源，不给jG+V2分项入核或全p³排除。
