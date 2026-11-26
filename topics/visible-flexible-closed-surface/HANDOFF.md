@@ -6,7 +6,7 @@
 
 给出连通闭 $C^2$ 嵌入族、共同度量和固定握持开区域，按完整曲面直径计 $\delta_{\rm hold}/D\ge .05$、$\delta_E>0$、全时 reach$/D\ge .03$；全域全时 metric 误差不超过 $10^{-6}$，并支付同一几何下真正加密到求解容差及可复现网格。基础之后继续 $\delta_{\rm hold}/D\ge .2$、$\delta_E/D\ge .05$ 或严格存在。
 
-- 公开根 README、课题 README 已完整读于 `f0548477576caa2373d1626227a284ccfa9767d0`；真实 `git pull --rebase origin main` 于 2026-11-26 05:16 UTC 成功。每次 pull 后比较这两个文件，至少每小时一次。最近已读公开提交 `2a3709cd6ace14439cd3b4276ceb97ff28f8db2e`（2026-11-26 07:26 UTC真实pull/rebase后，双README逐差均无变化）；本轮各次推前双 README 均无差异。R211两步、R213及真实外段伸长已推。
+- 公开根 README、课题 README 已完整读于 `f0548477576caa2373d1626227a284ccfa9767d0`；真实 `git pull --rebase origin main` 于 2026-11-26 05:16 UTC 成功。每次 pull 后比较这两个文件，至少每小时一次。最近已读公开提交 `2681aabb5806f5626e36d114b23028186a285686`（2026-11-26 07:27 UTC真实pull/rebase后，双README逐差均无变化）；本轮各次推前双 README 均无差异。R211两步、R213及真实外段伸长已推。
 - 私库根 README 已完整读；QUEUE 已认领并推送 `c7785184d0d9c503852fb2137e9e2c091221d080`。认领中的三次并发推拒均立即真实 pull/rebase 后再推，最后成功。私库规则比较基准 `0229299ed65827c2ace194596315e58a19c989ee` 至该提交无差异。
 - 根规矩优先：完整证明直接登记；不用旧独审/冻结流程；可重算数据不入 Git、Release 或拆块，只保脚本、参数、运行标识和哈希；单 MD<100KB、H<10KB、课题总量<200MB；不写根 LOG、不强推。令牌只在命令行进程环境。
 - 本地部分克隆在 `/tmp/visible-flex-6a65e705/math-research-public`；工作区同名路径是链接。初次检出因 /workspace 仅约14MB空闲而 ENOSPC；迁至 /tmp 后按需检出、checkout及pull均成功。旧会话本地未推原件在本环境不可用，以已推内容/可再生配方为准。
@@ -32,7 +32,7 @@
 
 原件在 `/tmp/visible-flex-6a65e705/geometry-work`，当前主输入 `gap1-fixed-peak-K11-lm03-state.json` SHA256 `8f0c3d7b5cee49458cd2a6223dcc9f5125bcb03dd447790c54119ec772e3e149`；密观察 SHA256 `a17cda7716fe489459a388fa5d89ef869e6a823290e0897213de8b0fcbb32207`；R219新initial SHA256 `c404a7ad2eddbac51c9e15000cd6963dff36c3e2b85e8382c0302b7db79f68ff`。不提交数组。
 
-**3. 完整精确修正方向。** 原 up 24系数补丁只清12个弱槽，真复合原R114 Phi抬峰；582维切向补偿仍略高于旧Phi。[新增4径向块48弱矩/96 Cartesian列](notes/2026-11-26-6a65-four-radial-stresses-full-gram.md)可清所选矩，但完整原图峰1.048e−9→1.295e−9，1164切向补偿后1.609e−10仍高于旧1.459e−10；新的完整Gram Schur方向虽降能量，三档真实复合仍抬峰。支撑外旧残差不能用紧支撑补丁消除。接准确R137完整flat段：直接消费原M12有限Fourier截面与原exact metric桥，处理完整弧长/端口/连续角域，不再把有限弱矩或有限Schur逆当全频逆。
+**3. 完整精确修正方向。** 原 up 24系数补丁只清12个弱槽，真复合原R114 Phi抬峰；582维切向补偿仍略高于旧Phi。[新增4径向块48弱矩/96 Cartesian列](notes/2026-11-26-6a65-four-radial-stresses-full-gram.md)可清所选矩，但完整原图峰1.048e−9→1.295e−9，1164切向补偿后1.609e−10仍高于旧1.459e−10；[新的完整Gram Schur方向](notes/2026-11-26-6a65-full-gram-schur-and-fixed-support.md)虽降能量，三档真实复合仍抬峰。支撑外旧残差不能用紧支撑补丁消除。接准确R137完整flat段：直接消费原M12有限Fourier截面与原exact metric桥，处理完整弧长/端口/连续角域，不再把有限弱矩或有限Schur逆当全频逆。
 
 **4. 新几何机制。** 强支真实空间截面的R137沿程首先遇ruling focus；明确改为水平投影的新输入可实际生成L=.35、v=.003精确flat段，采样κ<7.5，但没有连续证书且两侧完整端口必须另付。完整Hermite连接初场已消费全X/Xs/Xss和f/f'/f''；右段不合格，正在新g和R219允许的Z≤.53内用真实全部E/F/G修正。旧Z=.56只能记为失败，不援引R219。
 
