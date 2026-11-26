@@ -1,0 +1,27 @@
+{
+  "allInvariantIdentitiesRemultiplied": true,
+  "elapsedSeconds": 1.205597,
+  "meanBranches": [
+    "V=1/2",
+    "V=1/2-l"
+  ],
+  "ordinaryISPClaim": false,
+  "originalSbarValues": [
+    "l(2l-1)^2/2",
+    "-l(l-1)(2l-1)^2/2"
+  ],
+  "peakRssKiB": 49728,
+  "schema": "r150-unit211-equal-base-zero-single-pairing-20261126-v1",
+  "scope": "p=q nonzero,t=0,l not 0,1/2,1; cited prior result covers those three l values",
+  "sourceSha256": "90220cc8dee7b4b0642e25d16fb1e1e56002bbcd4dda63bac50f9199668fd19d",
+  "status": "all_exact_QQ_checks_pass",
+  "zeroPointMeanHighestIdentityVerified": true,
+  "exitCode": 0,
+  "command": "python 2026-11-26-unit-two-plus-one-plus-one-equal-zero-single-pairing-347c.py",
+  "python": "3.12.14",
+  "sympy": "1.14.0",
+  "pythonPathOverride": null,
+  "executionDateUTC": "2026-11-26",
+  "stdoutSha256": "307c4cdd119a702cf153273422726a4d3edbcc2481d0c704b870afa65872e89a",
+  "storedArrays": false
+}

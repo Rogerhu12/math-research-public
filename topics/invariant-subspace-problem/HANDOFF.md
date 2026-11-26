@@ -5,7 +5,7 @@
 ## 主目标、规则与执行
 
 - **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍仅全体有界算子的存在定理或完整反例；子结果不作完成。
-- **最近实际 pull / 已读规则提交：** `88b8aad91c56ef7079954de0bea7c9c5a049b359`（2026-11-26 06:53:48 UTC）。本次两README无新规则差异；已读根/课题README、H/open、结果索引及定点log/notes。每次pull及至少每小时比diff，记录SHA。
+- **最近实际 pull / 已读规则提交：** `8b31ca40dcbddbe813a74ce2c4a1fcd31683e607`（2026-11-26 07:00:42 UTC）。本次两README无新规则差异；已读根/课题README、H/open、结果索引及定点log/notes。每次pull及至少每小时比diff，记录SHA。
 - 私库 `QUEUE.md` 已成功更新认领，提交 `e776df496eedfa449b0475cefe140fdae7023db4`；非快进已逐次pull --rebase后重推成功。研究在公开仓库，私库仅维护QUEUE；不force，令牌仅CLI环境。
 - 断线后重建部分克隆 `/tmp/isp-347c05929dd3/math-research-public`。旧TMP丢失源已恢复；新字节另记执行。root独占git/主索引，子代理独占TMP；每结论单推，只留源/参数/身份/SHA，无数组。
 - 完整交接链见[最新压缩前H](notes/2026-11-26-handoff-before-absolute-new-strong-source-347c.md)及其旧归档。MD<100KB、H<10KB、open尽量<30KB、topic<200MB；不写根LOG。
@@ -21,7 +21,7 @@
 - **外均值ess4主支：** Cat(y)=3、dimW4、y∉W，唯一原length5代数保同L,ν及全jets。全部rankH3、全部rankH4 proper局部单零（长度2–5）、孤立零点加unit单四jet/两个双点均已空。包括半权、零权、零配对、合流及∞，正式源与执行身份见索引和前H。
 - **[unit3+1孤立零点整个分支已空](results/R150-appendix-essential-four-unit-three-plus-one-isolated-zero-rank-four-branch-is-empty.md)：** 全边界及一般图QQ395/1142结式、四纤维已闭。rankH4孤立零点只余unit2+1+1和unit1⁴；全部rankH5、V≠0 inner与ess5/6仍开。
 - **[unit2+1+1全部零配对及零基点mean已空](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-zero-base-mean-exclusion.md)：** p=q0、恰一零、pq≠0且bp+cq0均闭；原零点最高共同范数配合QQ879/1020/1637结式及全部Cramer/t0/xhalf纤维。主源213.188311秒，除因子清单另5.079883秒。剩余pq(bp+cq)≠0，不重做已闭支。
-- **unit2+1+1新增边界：** [q1的全部P0零支已空](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-equal-base-pairings-zero-highest-value-exclusion.md)（l=b+c∈{0,½,1}）；新半权/单位总权以原J=2m³和全部范数纤维迫A1=U0=U1=0，回到原等向2+1矛盾。q−1且b=c亦已闭，保索引；q1仅l∉{0,½,1}，其它非零配对继续。
+- **[unit2+1+1等配对的零单点配对支已空](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-equal-base-pairings-zero-singleton-pairing-exclusion.md)：** p=q≠0仅余t≠0、l=b+c∉{0,½,1}。原孤立零点mean+最高给S=Pbar−2Nbar0；t0两mean面S均非零，原源1.205597秒。一般图QQ(l) F5b实际240秒无结论，继续换原式消元。
 - **[非零rankV1完整临界层已分类](results/R150-appendix-rank-one-third-cumulant-complete-critical-classification.md)：** 恰y=a u(s)、H=(a³+4c)u(s)u(s)ᵀ/(6a)、V=c u(s)³，ac≠0，完整T3=0。除子分拆/射影/重根与所有QQ门均闭，新旧源执行分记；潜在非零Bell仅rankV≥2且ess4/5/6。
 - **[整个rankV2内均值层已分类](results/R150-appendix-rank-two-third-cumulant-all-inside-mean-complete-classification.md)：** y∈RanV时两不同点恰已知两原子族；二jet型只余y=a u、H=(a³+4c)u²/(6a)+(d/a)(uw+wu)、V=c u³+d SymΣu²w，ad≠0且s∈{0,2,−6,∞}；全部T3=0。原g²吸收、D8反演、全部33梯度及有限64阶门618/∞45已付，不预设H支撑。继续rankV2的y∉RanV及更高秩。
 - 原纯三次判据已修为Q=B³−27A²D（完整QQ结式非零），旧正号不再作证；全部来源见结果索引。

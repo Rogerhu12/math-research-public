@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R150 单位2+1+1相等非零基点配对与零单点相互配对整支为空（2026-11-26，已证明）：** [原孤立零点mean与最高的低次身份](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-equal-base-pairings-zero-singleton-pairing-exclusion.md)给全权无除法S=Pbar−2Nbar0；t0完整mean仅V½或½−l，两面原S分别lh²/2和−l(l−1)h²/2均非零。接已闭l0/½/1后整支排除，自足原源1.205597秒，q1仅余t非零一般面。
+
 - **R271 任意新增强位的完整原最小源绝对物理孔权（2026-11-26，已证明）：** [有限Fock精确双射、两向孔权与原Gram逆](results/R271-appendix-all-strong-bit-extension-weighted-complete-source.md)在y=m+d、s≥2²⁴/y给所有x≥y/J≥0的新增γ1/32孔权≤16/15‖g‖，总物理代表只付32^(y+h−1)，无x−y损失。差进一步由旧正能量√ε_y控制，得任意增长x的完整源强极限；保原同forcing、V/K及partial来源。真F0/Sx仍须另付。
 
 - **R150 单位2+1+1与孤立零点的全部零基点mean支路为空（2026-11-26，已证明）：** [原线性mean、全部奇异纤维与完整QQ消元](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-zero-base-mean-exclusion.md)关闭q≠0,±1；QQ879/1020/1637结式gcd只余(x−½)^362，该纤维另以原式全排。准确除去因子的完整清单另核，主源213.188311秒、小源5.079883秒，均exit0；接已付q±1与零配对，剩余pq(bp+cq)≠0。
