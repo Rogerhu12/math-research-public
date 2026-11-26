@@ -189,3 +189,5 @@
 - [R945](../results/R945-original-residual-selmer-and-augmentation-exponent.md)：原c1≠0时固定坐标c1⁰=p^v z；Bockstein精确p^b阶迫残余类与z模p独立，原两点selector/一侧下降/全局cup给p^vH²(C0)tors=0及p^v S_N⊆(O0/p^N)z。原2/δ/17实际惯性阶3/2/18使全部坏位残余H^j真零，C=0。R940遂可取B_p=v+v_p(D)，原D不删；仍不付c1非零、s0、ordinary或跨p。
 
 - [R944](../results/R944-original-five-block-full-square-source-injectivity.md)：R943新增第四真长窗与原第五短行，对完整D2依次相继除F；dD−2κ<N时准确进D4。真实四次restriction余像维≤max(0,dD−4κ−ell+1)，严格dD−4κ<ell给K5∩D2=D5，再dD<5κ由C nef给全平方子源单射。保原零角逐系数t²/t³、Euler有限位移及所有端点/52成本，不偷加旧秩或宣称一般有限类/深核闭合。
+
+- [R946](../results/R946-original-four-long-sharp-ten-root-energy-and-full-linear-cost.md)：完整四jet的所有最近根/重数/截断情形给锐利根能量10S；实nef权c_m=min(m²,10m)保同一来源且统一付全部极损80D。原全W四长必要界10q(H−r)≤3B_D²+80D；旧三长临界且真有第四长时排q≥2，五块自然临界只排q≥3。密集q1/2、原forcing/后页仍开，不把第五中央或低jet秩当深核。
