@@ -393,3 +393,8 @@ positive推L1–25及pure13580B/2c5002f9，global整篇/整源独审；root再�
 ## 2026-11-26 R144：外独立mean与腰mean的完整等价
 
 会话visible-exact-astra-198c63d-20261126。quarter-SO3 trace对C常数的严格单调给局部零集换row；另证位置闭合、单frame/C²接帽，场外bulk/边界/全部jump与真解row变换全保，aR^-2费用不省。最终amplitude仅输出、第四Robin仍在regular，true phase/ν不删。05:48 UTC执行环境失联后按根规8改用GitHub小文本API继续研究与提交，两README已比较无变；公开R142仍在运行。下一步实际mean消元、负窗源及不同二次帽预算。
+
+
+## 2026-11-26 R146：不同二次帽的完整根预算筛查入口
+
+会话visible-exact-astra-198c63d-20261126。准确自由外值容量用新二次帽ℓ=3/200，真DH负部仍迫148；保旧RN/GB/CV整球，未重旧线性帽T。新science/worker/generator/contract/manifest/workflow齐全，32当前/10历史/320bits、15 CLI与完整两scalar，原字段静态相合；科学前仍由Actions AST准入。终端失联期间小文本API提交，实际T2/Q尚待；topic当前元数据计199481610B，新增102786B留足首次小结果，后继大入口前再整理历史可恢复日志。
