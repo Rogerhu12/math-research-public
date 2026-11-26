@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。本轮已部分克隆并真实pull main，读两README/H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则读至36cf1ed2。不重做已登记结论或窗口。
 
-**公开两README已读提交：56e8582bdffdd55fe6a1a431fac0783fec414d9b**（2026-11-26 17:51 Asia/Taipei；本次同步两README无差异）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
+**公开两README已读提交：f4a3b428a34a0ec9cda3a8bf6c66a3d6deeba64c**（2026-11-26 17:57 Asia/Taipei；本次同步两README无差异）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
 
 执行宿主本轮断连；08:36 UTC单次恢复探测仍无环境。按根规矩8用GitHub小文本原子tree/commit、最新head检查和非force expected-head更新；并发拒绝立即在新head重建循环至成功，保其它会话。终端恢复补pull --rebase。令牌仅此前CLI使用，未存文件/提交。根维护main/H/open/index/log；子研究交数学稿。每条结论完整审后立即推，无数学程序执行或旧窗重跑。
 
@@ -31,9 +31,9 @@ P_(h−1)(1/s)f_i g_j≠0，s²=−3；原Norm/两CM权/相位不换。
 R968真实列Z_(6i+4,6j+1)∈M_(p−5)，CM mark=−72(−864)^−N f_i g_j。
 R949/954/957–959共同粗CM因子判据保持；全源非零不能排该因子。
 
-[R1013](results/R1013-original-theta-descent-and-uniform-critical-zero-bound.md)：原未经筛选H_p在Norm−1圆上的零点数≤3M<10¹²，M=6⁴·720·51840；故p>10¹²时H_p非零。实际Kγ有限平坦下降、Ωγ、全局μ6四维角色空间给非零首五次P_A；核方向γ与微分像κ_out经真jet比较，再以全部tame lift有限类型/每方向十二计数。保全部二挠相位，不用étale p核算法。primitive/Legendre的同h非零仍开，值零点界不能替代实际谱支撑，也未接bare O2。
+[R1017](results/R1017-original-tame-two-three-phases-and-every-direction-critical-unit.md)：全部p≥41、p5mod6，原未经筛选H_p在全部T⁻处处单位。R1013实际下降源经真半周期乘法/Frobenius符号落入V_+²，原μ6角色只留a U⊗Y+b Y⊗U；canonical三挠lift把原四点精确送到两轴，保全部相位得a,b非零且a/b∈μ6。唯一可能非零根Norm1，不在T⁻。原scalar保留，primitive/Legendre同h仍开，未接bare O2。R1013较弱统一零点界由此加强。
 
-[R1012](results/R1012-original-p-similitude-divided-high-coordinates-and-critical-bridge.md)：每Norm−1方向恰12个Eisenstein norm-p表示；原首pole在矩形全消。四divided高坐标差准确为aκ^pH_p/(5βᾱ)，未知整高带只进共同常数；等价原[z^(p−3)t^(p−3)]F′(u)G(w)=(B/5)κ^p(βᾱ)^(p−3)H_p。R1013已给unfiltered非零方向，仍无bare c_(p−r)桥或同h筛选。
+[R1012](results/R1012-original-p-similitude-divided-high-coordinates-and-critical-bridge.md)：每Norm−1方向恰12个Eisenstein norm-p表示；原首pole在矩形全消。四divided高坐标差准确为aκ^pH_p/(5βᾱ)，未知整高带只进共同常数；等价原[z^(p−3)t^(p−3)]F′(u)G(w)=(B/5)κ^p(βᾱ)^(p−3)H_p。R1017已给全部方向单位，仍无bare c_(p−r)桥或同h筛选。
 
 R969有限满秩仅消费；R971全p full-span已否。R996/999给55∤p+1⇒原filtered V≠0，尚不保证CM mark。
 [R1006](results/R1006-end-column-linear-cyclic-dimension-and-filtered-nonstability.md)端列G循环维数≥cp及primitive CRT无限族否定全p G稳定。R992条件命题仍对，但不再以全V稳定为待证目标；特定A/E4包含与有限来源未否。
@@ -75,4 +75,4 @@ R696早已证明同一全局Φ候选Ω_actual={0}，R832已消费；不重做、
 
 R1004实际交叉迹偶赋值、3|v及任意pⁿ层只给q下界，不给a/c上界，停止优化该常数。固定41全129盘/8CM已由R707关闭，不重开不外推。R575正CM角色根号−与逆twist秩零撤回继续有效。
 
-当前并行：R1013实际小theta源与primitive/Legendre谱；原bare高坐标的完整Fay卷积；R1014真实主化后的全部首lift/非CM商整投影。子问题完成即接open其余项，真正达到README完成标准才收尾。
+当前并行：R1017真实scalar与primitive/Legendre谱；原bare高坐标的完整Fay卷积；R1014真实主化后的全部首lift/非CM商整投影。子问题完成即接open其余项，真正达到README完成标准才收尾。

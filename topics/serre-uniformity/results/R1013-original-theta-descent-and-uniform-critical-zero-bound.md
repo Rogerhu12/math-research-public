@@ -4,6 +4,8 @@
 
 **已证明：未经 primitive/Legendre 筛选的原临界多项式，在范数 −1 圆上的零点数有绝对常数上界。** 证明使用原有限平坦 theta 作用、每个方向的实际 \(p\)-同源，以及一个四维源的真实第五阶 jet。它不证明原筛选后的同 \(h\) 非零，不解决 O0，也不将整个非整 sigma 级数约化。
 
+**后继加强（2026-11-26）：** [R1017](R1017-original-tame-two-three-phases-and-every-direction-critical-unit.md) 已利用这里同一实际下降的二、三-primary 相位，证明全部 \(p\ge41\) 时本篇的值零点集为空。下文较弱有限界及证明保留；primitive/Legendre 的同标签任务仍开放。
+
 ## 1. 原数据与结论
 
 保持
