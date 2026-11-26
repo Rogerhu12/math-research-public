@@ -66,3 +66,6 @@
 
 
 - [R981](../results/R981-original-delta-new-e54925-e8125-rank-two-sources.md)：原W2⊗W3⊗W5⊗W13完整有限角色确定delta-new两质量零线(3,5)/(5,3)为固定E54925与E8125；各两有理点由三同源下降的5/2处分裂赋值证明独立，rank≥2。完整odd三方向/5处odd向量、双13与Haar、导子390/ray10368、全权平方及ordinary/inert通常全Selmer桥均付。Pi SZ为7Ψ35/270、167Ψ53/360，cross为7Ψ35/60、167Ψ53/80；真实whole companion待R983同次完整投影，不赋整个delta-new中央零。
+
+
+- [R983](../results/R983-original-common-carry-nineteen-division-source.md)：真实a19=(2+ω,2+ω,1,ω²,19,δγ7)保原C/F；完整原norm7/21和整数19除法给F19=σ390Xψ19A7R7/19、首阶6/质量0。整Gram(390,11310,232,40,10,2)、双逆/半特征、所有旧mixed观察及四CM全五伴随已付。中央v8同次读三算术目标/全81块和四新源全角/十低行，当前新实际输出待返；非零α的固定坏集不得预删。

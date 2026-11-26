@@ -27,6 +27,9 @@ PREFIX = "topics/rank2-sha-infinitely-many-p/"
 START = time.monotonic()
 DEGREE, OFFSET, DIMENSION = 390, 0, 66
 SOURCE_PINS = {
+    "check-original-four-arithmetic-source-angles.py": "4bfa7783e5fc307a1a5a332a25a95340060bd83a58c4e5a04ff5c52f2c0ddfaf",
+    "check-original-degree390-common-carry-nineteen-source.py": "1561d8582663191633db56d1cf02c19d69d5d3b33271dd19b700f3c2060c7ae3",
+
     "check-original-degree130-old-thirteen-source.py": "7084ff005adb174051a5fb84e1a3e296babca78452d51ed9f95b7752f44a7c49",
     "check-original-e260-six-sigma-source.py": "f195f913d187601c079679af8bf64b7313e367807c574bf90cf3f29f10065563",
     "check-original-degree130-whole-spectrum.py": "39e280b8c0ea054bb0a14c2afcefceb13ebc0d815a0712dd577f709cd7f849d9",
@@ -51,7 +54,7 @@ SOURCE_FILES = [
     PREFIX + "ci/e65-full-cm-source-request.json",
     ".github/workflows/rank2-sha-e65-full-cm-source.yml",
 ]
-assert len(SOURCE_FILES) == len(set(SOURCE_FILES)) == 18
+assert len(SOURCE_FILES) == len(set(SOURCE_FILES)) == 20
 
 
 def module(name, path):
@@ -294,7 +297,7 @@ def main():
     assert os.environ.get("GITHUB_REPOSITORY") == "Rogerhu12/math-research-public"
     request_path = ROOT / (PREFIX + "ci/e65-full-cm-source-request.json")
     request = json.loads(request_path.read_text())
-    assert request["schema"] == "rank2-original-e65-full-cm-sixth-axis/v7"
+    assert request["schema"] == "rank2-original-e65-full-cm-sixth-axis/v8"
     assert request["degree"] == DEGREE and request["workers"] == args.workers
     assert request["python_flint_version"] == "0.9.0"
     assert request["complete_CM_norms"] == [7,19]
@@ -307,6 +310,8 @@ def main():
     assert request["same_job_complete_degree130_and_original66_spectrum"] is True
     assert request["same_job_e260_common_carry_source"] is True
     assert request["same_job_full_thirteen_old_sources"] is True
+    assert request["same_job_four_new_source_angles"] is True
+    assert request["same_job_degree390_nineteen_source"] is True
     assert request["same_job_sixth_on_five_axis_overdetermination"] is True
     assert request["overdetermination_prime"] == 227
     assert request["overdetermination_precision"] == 5
@@ -317,7 +322,7 @@ def main():
     for name,digest in SOURCE_PINS.items():
         assert hashes[PREFIX+"scripts/"+name] == digest, name
     manifest = {
-        "schema":"rank2-original-e65-source-manifest/v7",
+        "schema":"rank2-original-e65-source-manifest/v8",
         "source_commit":os.environ["GITHUB_SHA"],
         "run_id":int(os.environ["GITHUB_RUN_ID"]),
         "request":request,
@@ -341,8 +346,13 @@ def main():
     e260_source = e260_helper.check_original_e260_six_sigma(coefficients, cm_context)
     old_helper = module("original_degree130_old_thirteen", HERE / "check-original-degree130-old-thirteen-source.py")
     old_thirteen = old_helper.check_original_degree130_old_thirteen(coefficients, cm_context)
+    angle_helper = module("original_four_new_source_angles", HERE / "check-original-four-arithmetic-source-angles.py")
+    four_angles = angle_helper.check_original_four_source_angles(
+        coefficients, cm_context, jets, sys.modules["original_e65_actual_five_sources"])
+    nineteen_helper = module("original_degree390_nineteen", HERE / "check-original-degree390-common-carry-nineteen-source.py")
+    nineteen_source = nineteen_helper.check_original_degree390_nineteen_source(coefficients, cm_context)
     result = {
-        "schema":"rank2-original-e65-full-cm-sixth-axis-result/v7",
+        "schema":"rank2-original-e65-full-cm-sixth-axis-result/v8",
         "status":"PASS" if jets["actual_B6_nonzero"] else "SOURCE_PASS_SIX_JETS_DEPENDENT",
         "curve":"y^2=x^3+65",
         "full_local_Schwartz":local,
@@ -353,13 +363,15 @@ def main():
         "actual_degree130_and_original66_spectrum":degree130_spectrum,
         "actual_e260_common_carry_source":e260_source,
         "actual_degree130_thirteen_old_sources":old_thirteen,
+        "actual_four_new_source_angles":four_angles,
+        "actual_degree390_nineteen_source":nineteen_source,
         "source_manifest_sha256":canonical_hash(manifest),
         "elapsed_seconds":time.monotonic()-START,
         "ordinary_infinite_prime_nonvanishing_proved":False,
         "inert_infinite_prime_nonvanishing_proved":False,
         "global_deep_kernel_proved":False,
         "output_files":False,
-        "scope":"Same complete E65/E89 sources, full six-angle and six-sigma gates, original R548 h projection, the fixed-prime sixth-on-five-axis necessary system with all original C24 columns, the complete degree130 original cross and genuine six-sigma projection, and every simultaneous spectral block of the full degree130 and original66 delta-new cross, plus the genuine eleven-division source preserving common C/F and its full E260 projection, and both original13-old whole pull maps with full level10 CM descent and exact H/F10/F11 coefficients; no central zero assigned to products or mixed cuts."}
+        "scope":"Same complete E65/E89 sources, full six-angle and six-sigma gates, original R548 h projection, the fixed-prime sixth-on-five-axis necessary system with all original C24 columns, the complete degree130 original cross and genuine six-sigma projection, and every simultaneous spectral block of the full degree130 and original66 delta-new cross, plus the genuine eleven-division source preserving common C/F and its full E260 projection, and both original13-old whole pull maps with full level10 CM descent and exact H/F10/F11 coefficients; the four newly identified arithmetic sources with their whole angular caps and ten actual low jets, and the complete norm390 nineteen-division common-C/F source with all 81 blocks; no central zero assigned to products or mixed cuts."}
     encoded = json.dumps(result,sort_keys=True,separators=(",",":"))
     print(encoded,flush=True)
     if request["require_sixth_jet_independence"]:

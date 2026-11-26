@@ -14,6 +14,8 @@ name: Rank2 original E65 complete source and six-source consumers
       - "topics/rank2-sha-infinitely-many-p/scripts/check-original-degree130-whole-spectrum.py"
       - "topics/rank2-sha-infinitely-many-p/scripts/check-original-e260-six-sigma-source.py"
       - "topics/rank2-sha-infinitely-many-p/scripts/check-original-degree130-old-thirteen-source.py"
+      - "topics/rank2-sha-infinitely-many-p/scripts/check-original-four-arithmetic-source-angles.py"
+      - "topics/rank2-sha-infinitely-many-p/scripts/check-original-degree390-common-carry-nineteen-source.py"
   workflow_dispatch:
 permissions:
   contents: read
@@ -40,7 +42,7 @@ jobs:
           root = pathlib.Path(os.environ["RANK2_CHECK_DIR"])
           prefix = "topics/rank2-sha-infinitely-many-p/"
           request = json.loads((root / (prefix + "ci/e65-full-cm-source-request.json")).read_text())
-          assert request["schema"] == "rank2-original-e65-full-cm-sixth-axis/v7"
+          assert request["schema"] == "rank2-original-e65-full-cm-sixth-axis/v8"
           assert request["python_flint_version"] == "0.9.0"
           assert request["workers"] == 4 and request["degree"] == 390
           assert request["complete_CM_norms"] == [7, 19]
@@ -53,6 +55,8 @@ jobs:
           assert request["same_job_complete_degree130_and_original66_spectrum"] is True
           assert request["same_job_e260_common_carry_source"] is True
           assert request["same_job_full_thirteen_old_sources"] is True
+          assert request["same_job_four_new_source_angles"] is True
+          assert request["same_job_degree390_nineteen_source"] is True
           assert request["same_job_sixth_on_five_axis_overdetermination"] is True
           assert request["overdetermination_prime"] == 227
           assert request["overdetermination_precision"] == 5
@@ -61,6 +65,9 @@ jobs:
           script = prefix + "scripts/check-original-e65-full-cm-sixth-axis.py"
           assert request["script"] == script and request["args"] == ["--workers=4"]
           sources = [
+              "check-original-four-arithmetic-source-angles.py",
+              "check-original-degree390-common-carry-nineteen-source.py",
+
               "check-original-e65-full-cm-sixth-axis.py",
               "original_e65_local_schwartz.py",
               "original_e65_angular_profile.py",
@@ -78,7 +85,7 @@ jobs:
               "check-r943-degree178-full-cm-source.py",
               "check-r732-original-type-five-cm13.py",
           ]
-          assert len(sources) == len(set(sources)) == 16
+          assert len(sources) == len(set(sources)) == 18
           for name in sources:
               p = root / (prefix + "scripts/" + name)
               ast.parse(p.read_text(), filename=str(p))
@@ -172,4 +179,23 @@ jobs:
           assert old["old_mass_zero_assigned_central_zero"] is False
           assert old["mixed_cut_removed"] is False
           assert old["infinite_prime_nonvanishing_proved"] is False
+          angles = report["actual_four_new_source_angles"]
+          assert angles["status"] == "PASS"
+          assert angles["all_source_projections_before_angular_or_jet_reading"] is True
+          assert angles["all_original_mass_columns_retained"] is True
+          assert len(angles["source_profiles"]) == 4
+          assert angles["complete_ten_source_angular_cap"]["all_ten_full_source_memberships_returned"] is True
+          assert angles["actual_ten_source_low_jets"]["original_six_low_jets_returned_unchanged"] is True
+          assert angles["products_assigned_arithmetic_central_zero"] is False
+          assert angles["mixed_cut_removed"] is False
+          nineteen = report["actual_degree390_nineteen_source"]
+          assert nineteen["status"] in ("PASS_BOTH_NEW_ARITHMETIC_PROJECTIONS_NONZERO", "PASS_GENUINE_SOURCE_SOME_NEW_TARGETS_ZERO")
+          assert nineteen["all_66_columns_including_mass_retained"] is True
+          assert nineteen["whole_integer_psi19_division_recurrence_returned"] is True
+          assert len(nineteen["complete_81_block_table"]) == 81
+          assert nineteen["all_81_idempotents_sum_to_identity_and_all_images_sum_to_F19"] is True
+          assert nineteen["whole_integral_frame"]["full_gram_and_both_inverse_returns"] is True
+          assert nineteen["whole_integral_frame"]["common_H0_H1_whole_orthogonality_returned"] is True
+          assert nineteen["mixed_cut_removed"] is False
+          assert nineteen["infinite_prime_nonvanishing_proved"] is False
           PY

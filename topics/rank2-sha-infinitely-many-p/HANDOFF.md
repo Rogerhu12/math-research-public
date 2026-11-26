@@ -6,7 +6,7 @@
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。有限p、随p换曲线、条件桥和接口成功不算完成；固定有限曲线族的联合无穷非零可以再用无限鸽巢选定一条。
 
-- 两仓库已部分克隆、实际pull。公开根/课题 README 已读至 `1530094182e7409efe4fd040b9daa843389fbe2c`（差异为空）；每次pull检查两文件差异，至少每小时同步并更新此SHA。
+- 两仓库已部分克隆、实际pull。公开根/课题 README 已读至 `429b3abcc732a56f4fbe0c0fbd83cc9ab6325a1a`（差异为空）；每次pull检查两文件差异，至少每小时同步并更新此SHA。
 - 私库QUEUE接手已推 `41fe885610073f478b2f5a752461ca56cfd43f09`，根/本题README于20:03 UTC复核至eb74b5a78f485b18621f95381131a88bbd62467c（差异空，QUEUE仍本会话）。两本地目录为math-research-public、math-research-private；终端可用，令牌仅进程认证，不入文件。
 - root独占git/共享H/open/log/index；结论完成即推，非快进立即pull --rebase、检查README再推至成功；不强推。数学执行用公开Actions，不保存可重算数据/矩阵/log。H<10KB、单MD<100KB。
 - 完整旧状态沿[本次压缩前H](notes/2026-11-27-handoff-before-four-new-arithmetic-sources.md)及其中历史链保存；全部未关闭门仍在[open](open.md)与proof index，未默删。
@@ -19,17 +19,13 @@
 
 前v7 run45838674625/job139974211422/source6e79456a实际相对/绝对次数AssertionError，无原F/shadow；旧Fv3在MD84/306列超时124。全部阶段/hash在[几何终点](notes/2026-11-27-artinian-v7-final-and-successor.md)。
 
-R974已证/实过：保原底域/omega、全部双向坐标和每层厚Norm的native域。tiny45881262808/job140120885101五case通过，接唯一v8；人工1530例不供给几何，仅opt-in记False/None，真实门不减。
-R975已证/未执行：真实一/两行生成全列gcd才作Bézout，完整尾Popov重置，非pair原回退；主块max(D,3δ+1)及全attached界已付。独立helper不被v8导入。
+R974原底域/omega、完整双向残余域坐标与每层厚Norm已证/小API实过，接唯一v8；人工1530例仅opt-in。R975 pair-gcd/全尾Popov及attached界已证未执行，不被v8导入；不增加重复小验证。
 
 
-### 原中央完整谱v5已返，保共同carry新来源接v6
+### 原中央流水线
 
-run45884058894/job140130269899/sourcefbb1c319于19:36:09 UTC实际success；全22/66/44和全部81块通过。F130只含E65³线与E125的质量零13-old方向；H含E260分量1/81但F130该分量为零，四个非mu6块均保。R973算术标签及R976全部谱/回执已登记；三个delta-new质量零线分别29Z/216、7Ψ35/270、167Ψ53/360，后二条全算术角色现由R981给出。
-
-v6 run45886844420/job140139542933/source6f9a83a8于19:58:37 UTC真实success；Π260F11=1400Φ260/33，目标最小分母175，全14非零分量/4个nonmu6及原全部门均返。完整回执/hash见R977§6；不把两old非零质量误写成零差。
-
-v7 run45888699507/job140145723941/sourceaa6939d6于20:13:49 UTC真实success；完整V10源Ψ125=σ10x²(X−8)、Ψ12500=σ10x²(X+10)，四old列/两方向全返回，κ10=δ/10080。全部六行实际系数/完整hash见R978§7。
+v5 run45884058894/job140130269899全22/66/44与81块success；v6 run45886844420/job140139542933实际Π260F11=1400Φ260/33；v7 run45888699507/job140145723941/sourceaa6939d6于20:13:49 UTC success，全部旧13源返回。完整source/hash/时间见R976–978。
+中央v8已接R982四新源角/十低行和R983共同CF的F19：20份manifest/18源码AST，全部v7门保留；待实际run与新投影，不预记PASS。
 
 ## 二、本轮已完成的中央输入与准确余项
 
@@ -46,6 +42,8 @@ v7 run45888699507/job140145723941/sourceaa6939d6于20:13:49 UTC真实success；�
 **R980已证**：A·F10+A·F11=19维，余商两质量线+E12500-old1维；v7两old实差给加入H后完整22维。四nonmu6块的整五伴随CRT/二次Galois分裂给两质量1单位，保全部mixed转置/反卷积平移/CF；不把两rank2中央零扩成19或22维。
 
 **R981已证**：原44维delta-new的两质量零线(3,5)/(5,3)是固定E54925/E8125；各两有理点的三同源下降像独立，rank≥2。完整三处odd方向/全有限角色、导子390、ray10368、Haar及degree390全权平方，ordinary/inert通常全Selmer桥均付。Pi SZ系数7/270、167/360，原cross7/60、167/80；whole companion仍须实际六sigma投影。
+
+**R983已证/实际待返**：a19=(2+ω,2+ω,1,ω²,19,δγ7)保同C/F；F19=σ390 Xψ19 A7R7/19的全division、首阶6/质量0、Gram(390,11310,232,40,10,2)、双逆/全部半特征和四CM伴随转移已付。v8读取原E65和R981两新线实际α及81余块；非零才可在固定坏集外用全单位伴随，不能预称p>211。
 
 ## 三、保留的真正无穷性与mixed门
 
@@ -71,6 +69,6 @@ R885/897全finite/wild范数及Artin/尺度保持。R891/893/940/945仍以前提
 
 ## 五、持续任务与文件
 
-R981已完成；central写R985原Heisenberg全22伴随生成及准确functional，arithmetic继续联合中央forcing；两份R982/R983 helper已完整，root接入中央v8；geometry跟原几何v8、R984 canonical Griffiths及R986残余域；R975不重复验证；root统筹全mixed/无穷性及提交。
+R981已完成；central写R985原Heisenberg全22伴随生成及准确functional，arithmetic继续联合中央forcing；两份R982/R983 helper已接中央v8，待读实际回执；geometry跟原几何v8、R984 canonical Griffiths及R986残余域；R975不重复验证；root统筹全mixed/无穷性及提交。
 
 当前入口：scripts/produce-original-triangular-artinian-shadow.py、ci/original-triangular-artinian-shadow-request.json、对应唯一triangular workflow；中央scripts/check-original-e65-full-cm-sixth-axis.py、check-original-degree130-cross-cm-projection.py、check-original-degree130-whole-spectrum.py及e65-full-cm-source-request.json。每条结果完成立即登记results/proof index并推；继续下一个实际未解门。
