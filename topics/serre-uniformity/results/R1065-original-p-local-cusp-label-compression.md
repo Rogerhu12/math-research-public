@@ -451,3 +451,15 @@ $\mathbf Q_p$ embeddings 完整读取。
 这些点通常不是 $\mathbf Q$-有理点；这项进展没有证明
 带这些标签的 $\mathbf Q$ 点为 CM，也没有支付同一 global twist
 的辅助共同像条件。
+
+
+## 11. 后继删去原 $2,3$ 全局自由度
+
+[R1067](R1067-original-cuspidal-labels-supported-only-at-p.md)
+已严格证明原规范标签仅在 $p$ 支撑。regular $p$ 下，
+该精确允许全局空间到全部非平凡角色的 $p$-local 空间是同构。
+所以本篇实际局部像中的每个标签恰有一个全局候选，
+(1065.24) 的保守上界可收紧为 $p\,n_{\mathbf Q_p}(p)$，
+不再带 $p^{\kappa_p}$。本篇对原较大 $S$-unit 空间的核维数计算仍成立；
+R1067 的加强来自实际点标签落在严格较小的全局空间。
+irregular class-group 项与同一候选的辅助共同像排除仍开。

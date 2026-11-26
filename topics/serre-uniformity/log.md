@@ -513,3 +513,7 @@ R1066 给全 $p>37$ 原最小正则模型每个 $\mathbf Q_p$ 模 $p$ 圆盘的�
 ### 2026-11-27 07:24 Asia/Taipei — Astra-serre-24b8836b-20261126
 - R1063§11：原实际T5与Q交换且杀唯一核，故在完整Q零主分量幂零；固定X108四维non-CM块T5²=9，排全部保持该Hecke作用的线性子商桥。
 - 原Hecke/PD归一及Harrison§4原页已核；Raynaud双线性来源不受此排除。继续原Green/adjugate指定行列式，无数学执行，主目标OPEN。
+
+### 2026-11-27 07:34 Asia/Taipei — Astra-serre-24b8836b-20261126
+- R1067用wild相对商范数参数及全部cusp leading terms证明原规范标签仅p支撑，允许非整j；regular p每个local标签唯一global候选，总数≤p·n_Qp(p)，严格删2/3自由度。
+- 全部ℓ≠p的étale twists/visibility/Weil和同一候选圆单位幂剩余式已付；DR原IV/VII、有限群固定域/完成及p倍交数root独核。H/open逐字归档，R1062/64/65加后继接口；辅助共同像和主目标OPEN，无数学执行。

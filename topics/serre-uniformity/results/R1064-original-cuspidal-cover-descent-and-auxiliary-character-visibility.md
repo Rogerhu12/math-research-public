@@ -566,3 +566,15 @@ $$
   本文只使用通常的双边 Weil 界，未使用任何更强的点数猜想。
 
 全文由 global_route 给原 modular-unit/cusp 计算及严格下降，root 独核函数域注入、descent 的存在与唯一、完整 $\chi^2$ 常数和角色碰撞。§8 的实际可见商与点集双射由 root 提出、global_route 独核；root 实读 Carlucci 原索引/width、Bilu–Parent–Rebolledo (3.3) 及所引 Weil 界。无数学程序执行。
+
+
+## 9. 后继补齐 $2,3$ 的原整模型
+
+[R1067](R1067-original-cuspidal-labels-supported-only-at-p.md)
+支付完整原曲线在所有 $\ell\ne p$ 的 smooth proper coarse 模型，
+以及规范 Kummer 函数的全部水平、垂直 $p$ 倍 divisor。
+因此本篇的 finite étale twists、可见角色、(1064.36) 点集双射及
+(1064.37)–(1064.40) Weil 范围，在允许标签改为
+$\operatorname{Hom}_G(W,F(\{p\},p))$ 后也适用于 $\ell=2,3$。
+这补齐了本篇原先保留的两个好位接口；不声称其辅助点像已排除候选，
+$p$ 处仍使用 R1065–1066 的真实模型。

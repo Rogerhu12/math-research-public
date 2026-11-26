@@ -531,3 +531,15 @@ $\Phi_{x_p}$，都能提升为某个 ambient global label。
   不引用其 level-$25$ 数值筛选、全局结论或其它未付款推论。
 
 本文没有改变课题完成标准。全 O0 排除、统一 CM 标签浓缩及绝对常数仍开放。
+
+
+## 11. 后继的严格支撑与实际标签范围
+
+[R1067](R1067-original-cuspidal-labels-supported-only-at-p.md)
+在原 full-level 模型上证明允许 wild stabilizer 的相对商光滑，
+并保留全部 cusp leading coefficients 的垂直项相消，
+将本篇保守的 $S=\{2,3,p\}$ 严格缩为 $\{p\}$。
+regular $p$ 的全部非平凡角色因而有唯一全局提升；
+原 $p$-local 实际像已由 R1065 的圆盘恒定和 R1066 的有界 CM 代表给出，
+不再是任意 ambient 输入。R1067 给同一候选的圆单位坐标与辅助方程；
+irregular class-group 项及同标签辅助共同像排除仍未支付。

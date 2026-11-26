@@ -1,5 +1,7 @@
 # 结论索引
 
+[R1067](results/R1067-original-cuspidal-labels-supported-only-at-p.md)：原全曲线规范标签无条件只在p支撑；wild相对商与全部cusp/垂直p倍相消已付，包含非整j。regular p实际全局到p-local同构，每盘标签唯一global候选、总数≤p·n_Qp(p)，删旧2/3自由度。圆单位坐标及完全分裂辅助素的全部角色/同一y幂剩余式已给；真实étale twists、visibility与Weil范围扩至所有ℓ≠p。irregular类群与辅助共同像排除仍开。
+
 主要目标尚未解决。以下结论不改变 README 的完成标准。
 
 ## 完整历史与当前检查点
@@ -10,9 +12,9 @@
 
 - **R1065（真实局部像与候选压缩已证明）**：[R1066](results/R1066-original-p-local-disks-and-bounded-CM-representatives.md)：全 $p>37$ 原 $\mathbf Q_p$ 每个模 $p$ 圆盘含 canonical CM 点，$0<D'\le4p^{3/2}/\sqrt3$、$p\nmid D'$ 且惰性。原 Frobenius 二元格/指定斜率、模 $p^2$ GM、EP source与所有coarse twists均已付；全部实际局部标签准确由这些有限高次数CM评价给出。非 $\mathbf Q$-CM 断言；同一global标签及辅助共同像仍开。
 
-[R1065](results/R1065-original-p-local-cusp-label-compression.md)：全 $p>37$ 原曲线的 Kummer 标签在每个 $\mathbf Q_p$ 模 $p$ 圆盘恒定；原正则模型/cusp闭包/平凡 $U_m$ 角色齐备。§9用精确类数给实际像 $\le p\,n_{\mathbf Q_p}(p)=O(p^{3/2}\log p)$；regular $p$ 真实global twists候选 $\le p\,n_{\mathbf Q_p}(p)p^{\kappa_p}$，保全2/3角色。R1066已给有界CM局部代表；同一global标签及辅助共同像仍开。
+[R1065](results/R1065-original-p-local-cusp-label-compression.md)：全 $p>37$ 原曲线的 Kummer 标签在每个 $\mathbf Q_p$ 模 $p$ 圆盘恒定；原正则模型/cusp闭包/平凡 $U_m$ 角色齐备。§9用精确类数给实际像 $\le p\,n_{\mathbf Q_p}(p)=O(p^{3/2}\log p)$；regular $p$ 真实global twists候选 $\le p\,n_{\mathbf Q_p}(p)p^{\kappa_p}$，保全2/3角色。R1066已给有界CM局部代表；同一global标签及辅助共同像仍开。 后继R1067将原标签支撑缩至{p}，删去κ自由度。
 
-- **R1064（真实全局覆盖及辅助条件已证明）**：[R1064](results/R1064-original-cuspidal-cover-descent-and-auxiliary-character-visibility.md)：原标签来自几何连通、全曲线 étale 的真实 $\mathbf Q$-torsor；forced cusp 值为 $(m/2)\chi(h)\chi(-\delta)^{-1}e_{\chi^2}[\varpi_1]$。regular $p$ 下所有全局 twists 的每 cusp 纤维均为单一 $p^r$ 次闭点，未增加 Runge 盈余。辅助 $\ell$ 只读 $\ell^{2j+1}=1\bmod p$ 的角色；真实可见商给点集双射及 Weil 的有限有效辅助范围，同标签共同像排除仍开。
+- **R1064（真实全局覆盖及辅助条件已证明）**：[R1064](results/R1064-original-cuspidal-cover-descent-and-auxiliary-character-visibility.md)：原标签来自几何连通、全曲线 étale 的真实 $\mathbf Q$-torsor；forced cusp 值为 $(m/2)\chi(h)\chi(-\delta)^{-1}e_{\chi^2}[\varpi_1]$。regular $p$ 下所有全局 twists 的每 cusp 纤维均为单一 $p^r$ 次闭点，未增加 Runge 盈余。辅助 $\ell$ 只读 $\ell^{2j+1}=1\bmod p$ 的角色；真实可见商给点集双射及 Weil 的有限有效辅助范围，同标签共同像排除仍开。 R1067支付2、3好模型，辅助结论现适用于全部ℓ≠p。
 
 - **R1062（完整全局必要条件已证明）**：[R1062](results/R1062-original-full-nonsplit-cuspidal-kummer-descent.md)：完整 $X_{\rm ns}^+(p)$ 的无基点 cusp 归一化给全部有理点固定 $S=\{2,3,p\}$ 的有限 Kummer 标签，保全部 class-group 项；实际 Galois cusp 模至少含 $\lfloor p/4\rfloor-1$ 个一维 $p$-挠角色。辅助好素须比较同一标签与全部约化点。regular $p$ 时单独 $p$-local 比较满射，不能筛盘；全局标签浓缩仍开。
 

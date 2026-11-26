@@ -2,11 +2,11 @@
 
 **主要目标仍OPEN。** 完整证明绝对常数C，或给出p→∞完整无CM反例族；有限素数、条件结论、低权/局部Abel/部分子群均不够。
 
-此前逐字状态在[最新open归档](open-archive-2026-11-27-before-bounded-cm-representatives.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重算。
+此前逐字状态在[最新open归档](open-archive-2026-11-27-before-p-only-global-labels.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重算。
 
 ## 原最低型：已经付清的输入与准确剩余标量
 
-[R1063](results/R1063-original-Hecke-and-Hodge-graph-annihilator-family.md)：原完整 $v$ 的整 $Q$/Hecke 族全消去MW；轨道各向同性。§9本原 $U:Y\to X$、满射 $U^\dagger$ 给实际整 $V_\lambda=US_\lambda$ 因子及 split-Hecke 交换子解格，不除核范数；真辛商为 $(U^\dagger x,y)$。§10原r2 bare失败给adjugate、唯一Q前像递推与完整最低两列行列式；非零、Lagrangian满度及jet不落轨道仍开。§11原Q零主分量T5幂零，固定X108四维块T5²=9，排两者Hecke相容线性子商桥。
+[R1063](results/R1063-original-Hecke-and-Hodge-graph-annihilator-family.md)：原完整v的整Q/Hecke族全消去MW。§9本原U及满射U†给整因子/交换子族，不除核范数；真辛商 $(U^\dagger x,y)$，轨道各向同性。§10原r2 bare失败给adjugate、唯一Q前像与完整最低行列式；非零/Lagrangian及jet不落轨道仍开。§11以T5幂零与T5²=9排固定X108四维块的Hecke线性子商桥。
 
 [R1058](results/R1058-original-Cartier-resonance-and-complete-lowest-residue-source.md)：规范Jhat与原Q的Cartier身份、Tλ/A两pth修正已付。§§8–12以P=qJhat迁完整D/Q/Q²最低到全部P根；q根、b0、∞无残数，P非齐次Gauss forcing不删。P根至多四重（四重仅可能r1/9）、实际L_D极阶≤9。完整Q²单系数为(-3)^d[r^(d−1)]W*/P²/(dA1)，每根最多七阶导数；非零仍开。
 
@@ -31,13 +31,15 @@ R1018–40的原完整Fm/两节点Dickson/PD及好BT整比较均已付，详细�
 
 ## O0：全主目标覆盖（R1003恢复原范围）
 
-[R1066](results/R1066-original-p-local-disks-and-bounded-CM-representatives.md)：全p>37每个原Qp模p圆盘含 $D'\le4p^{3/2}/\sqrt3$、p惰性的CM代表；实际π格/GM/source/coarse twists齐备，局部标签由有限高次数CM评价给出。同一global标签及辅助共同像仍开，不推Q-CM。
+[R1067](results/R1067-original-cuspidal-labels-supported-only-at-p.md)：原规范标签仅p支撑，wild相对商/cusp交数齐备、允许非整j。regular p每个local标签唯一global候选，总数≤p·n_Qp(p)，删2/3自由度。圆单位及所有ℓ≠p的真实辅助式已付，全角色/embedding须同一y；irregular类群与共同像排除仍开。
 
-[R1065](results/R1065-original-p-local-cusp-label-compression.md)：原Qp每盘标签恒定，实际像≤ $p\,n_{\mathbf Q_p}(p)=O(p^{3/2}\log p)$；regular p全局候选再乘准确 $p^{\kappa_p}$，保全2/3及class-group边界。
+[R1066](results/R1066-original-p-local-disks-and-bounded-CM-representatives.md)：每个原Qp盘有 $D'\le4p^{3/2}/\sqrt3$ 惰性CM代表，实际π格/GM/source/coarse twists齐备；有限CM指定embedding给全部local标签，不推Q-CM或全局评价相等。
 
-[R1064](results/R1064-original-cuspidal-cover-descent-and-auxiliary-character-visibility.md)：真实Q-torsor与cusp平方角色已付；regular p下每cusp单一p^r次闭点，无Runge盈余。辅助ℓ只读ℓ^(2j+1)=1角色，真实可见商/Weil给有限辅助范围；同标签共同像排除仍开。
+[R1065](results/R1065-original-p-local-cusp-label-compression.md)：原Qp每盘标签恒定，实际像≤ $p\,n_{\mathbf Q_p}(p)=O(p^{3/2}\log p)$；后继R1067严格删原2/3的κ因子。
 
-[R1062](results/R1062-original-full-nonsplit-cuspidal-kummer-descent.md)：原完整曲线有固定S={2,3,p}的规范全局Kummer标签；保class-group与实际Galois方向，forced角色≥⌊p/4⌋−1。regular p单p-local ambient比较满射，实际点像现由R1065限制。
+[R1064](results/R1064-original-cuspidal-cover-descent-and-auxiliary-character-visibility.md)：真实Q-torsor及cusp平方角色已付；regular p每cusp单一p^r次闭点，无Runge盈余。辅助ℓ只读ℓ^(2j+1)=1角色，可见商/Weil给有限范围；R1067扩至2、3，同标签排除仍开。
+
+[R1062](results/R1062-original-full-nonsplit-cuspidal-kummer-descent.md)：原cusp模块/Galois、class-group及regular圆单位局部非零已付，forced角色≥⌊p/4⌋−1；支撑/实际像现由R1065–67收紧。
 
 R1只把全部异常缩为p>37的完整N_ns；**p≡2,5 mod9只是另加小惯性I_p=C³的结论**。R317的应用另外要求整j、K=Q(√−3)、σ=1，以及实际二除法域和三除法S3商域同时一致。完整惯性、非整j、变化K、σ非平凡及异小除法域的大导子支路，均未由当前CM证明链排除。原导子下界不是上界。O1/O2研究指定辅助源，不是完整剩余情形；真正全局高度也仍待证。逐条假设见[R1003](results/R1003-global-scope-and-remaining-branches.md)，后继不得省略此覆盖缺口。
 

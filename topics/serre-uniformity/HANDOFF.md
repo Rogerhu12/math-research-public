@@ -6,11 +6,11 @@
 
 会话 **Astra-serre-24b8836b-20261126**。本轮已部分克隆并真实pull main，读两README/H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则读至36cf1ed2。不重做已登记结论或窗口。
 
-**公开两README已读提交：92dacc9cf4909e865cf3f9f81e5ac8b62d1fdbe5**（2026-11-27 07:21 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
+**公开两README已读提交：861386780c7cfa4686269a897fc680524eec7ac5**（2026-11-27 07:34 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
 
 已真实部分克隆/pull；07:01再试仍报无可用执行环境，shell未运行；按根规矩8用连接器小文本同步、读两README差异、带expected_sha非force提交，恢复后立即pull --rebase。拒绝即同步重基再推至成功。令牌仅CLI；根维护main/H/open/index/log，子研究独立稿，每条结论立即推。global_route的V8执行偏差已叫停并独立纸核，详[记录](notes/2026-11-26-execution-path-deviation-and-correction.md)，其输出不作证明/合规窗口。
 
-H<10KB、open尽量<30KB、每MD<100KB、topic<200MB；无可重算raw、不写根LOG。[本次逐字前态](handoff-archive-2026-11-27-before-bounded-cm-representatives.md)沿链保全部旧来源/run/hash；[open](open.md)、[索引](results.md)是完整入口。历史“R1003 norm3准备中”未交付，现R1003为范围纠错。
+H<10KB、open尽量<30KB、每MD<100KB、topic<200MB；无可重算raw、不写根LOG。[本次逐字前态](handoff-archive-2026-11-27-before-p-only-global-labels.md)沿链保全部旧来源/run/hash；[open](open.md)、[索引](results.md)是完整入口。历史“R1003 norm3准备中”未交付，现R1003为范围纠错。
 
 ## 最新全局实际来源
 
@@ -26,17 +26,19 @@ H<10KB、open尽量<30KB、每MD<100KB、topic<200MB；无可重算raw、不写�
 
 R1035–40 的两行实际 PD、整 $B,Q$ 与全 MW 消去已付；$p5$ 仍先减 Teich，只在好部分施 $e_1$。R1026 支付 $C_*$ 后原负角色首 log 非零。R1010/11 给原非 CM 非挠块与实际半秩商；AST 不付整单位/统一半径，不搬变化 $X_d$。
 
-R1018–30的原Fm/节点log/完整非约化运输只消费，全部相位尺度见归档及原文；H_A/H_Z新支撑仍开。
+R1018–30原Fm/节点log/非约化运输已成，尺度保原文；H_A/H_Z新支撑仍开。
 
 ## O0：不能省略的全局覆盖
 
-[R1066](results/R1066-original-p-local-disks-and-bounded-CM-representatives.md)：全p>37每个原Qp模p圆盘含 $D'\le4p^{3/2}/\sqrt3$ 的惰性CM代表；实际π格、GM、source及全部coarse twists齐备。原局部标签由这些高次数CM评价给出；不推出Q-CM或同一global标签。
+[R1067](results/R1067-original-cuspidal-labels-supported-only-at-p.md)：全p>37原规范标签只在p支撑；regular p每个local标签唯一global候选，总数≤p·n_Qp(p)，删2/3自由度。所有ℓ≠p的真实覆盖、圆单位与同一y剩余式已付；irregular类群/辅助排除仍开。
 
-[R1065](results/R1065-original-p-local-cusp-label-compression.md)：全p>37原Qp模p圆盘内标签恒定，实际local像≤p·n_Q(p)=O(p^1.5logp)；regular p全局twists≤p·n_Q(p)·p^κ，κ保全部2/3角色。同一global标签及辅助共同像仍开。
+[R1066](results/R1066-original-p-local-disks-and-bounded-CM-representatives.md)：每个原Qp盘有 $D'\le4p^{3/2}/\sqrt3$ 惰性CM代表；实际π格/GM/source及coarse twists齐备。指定embedding给local标签；不称Q-CM或其全局评价等于候选。
+
+[R1065](results/R1065-original-p-local-cusp-label-compression.md)：原Qp每盘标签恒定，实际像≤p·n_Qp(p)=O(p^1.5logp)。后继R1067删原κ因子，辅助共同像仍开。
 
 [R1064](results/R1064-original-cuspidal-cover-descent-and-auxiliary-character-visibility.md)：真实Q-torsor与cusp平方角色已付；regular p下每cusp单一p^r次闭点，无Runge盈余。辅助ℓ只读ℓ^(2j+1)=1角色，真实可见商/Weil给有限辅助范围；同标签共同像排除仍开。
 
-[R1062](results/R1062-original-full-nonsplit-cuspidal-kummer-descent.md)：原完整曲线有固定S={2,3,p}的规范全局Kummer标签；保class-group与实际Galois方向，forced角色≥⌊p/4⌋−1。regular p单p-local ambient比较满射，实际点像现由R1065限制。
+[R1062](results/R1062-original-full-nonsplit-cuspidal-kummer-descent.md)：原cusp模块、Galois方向、class-group及圆单位局部非零已付，forced角色≥⌊p/4⌋−1；支撑/实际像现由R1065–67收紧。
 
 [R1003](results/R1003-global-scope-and-remaining-branches.md)：R1只剩完整N_ns(p)；p2/5mod9还需小惯性C³。R317还需整j、K=Q(√−3)、σ=1及二/三除法小域同时一致。完整惯性、非整j、变化K、σ非平凡及异小域大导子支路仍开。导子下界非上界；O1/O2或X₁新商即使单独完成也不等于Serre完成。
 
