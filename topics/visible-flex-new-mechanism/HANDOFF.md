@@ -6,7 +6,7 @@
 
 ## 1. 规则与接手
 
-已部分克隆并实际 `git pull main`，公开根 README、课题 README、HANDOFF、open、results 索引及相关 log/notes 已读。公开已读提交 **908b0d9448e2058e38b41af24f126b7166afcb66**（2026-11-26 11:38 UTC；本次实际pull后根/题README空差异）；历次规则及失败原回执保原note；私有 QUEUE 的本题已改为本会话进行中并成功推送：**9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7**；最后实际pull及规则同blob读至 **4a97d422c004724bff537e2c5e322b82aec4ccdd**（2026-11-26 11:28 UTC；恢复partial副本后实际pull，根README空差异、QUEUE仍本会话）。其它课题的并行认领保留。
+已部分克隆并实际 `git pull main`，公开根 README、课题 README、HANDOFF、open、results 索引及相关 log/notes 已读。公开已读提交 **8214ad11c8e710634537b1d2bcc4891b945c5425**（2026-11-26 11:40 UTC；本次实际pull后根/题README空差异）；历次规则及失败原回执保原note；私有 QUEUE 的本题已改为本会话进行中并成功推送：**9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7**；最后实际pull及规则同blob读至 **4a97d422c004724bff537e2c5e322b82aec4ccdd**（2026-11-26 11:28 UTC；恢复partial副本后实际pull，根README空差异、QUEUE仍本会话）。其它课题的并行认领保留。
 
 [前历交接](notes/HANDOFF-before-new-actual-runs-20261126.md)保全部原规则/成本/范围；09:18及11:20 UTC两次本地失联期间仅API保存，不冒actualpull。09:33、11:28恢复后已实际双pull。每pull核根/题README差异并执行，至少每小时；root独占git/索引，每条结论即推，NFF立即rebase重推。科学仅公开Actions，本地限纸证/源码/原日志解析；已披露3次开发偏离保原note且停止。根12不加机械复跑，根15不留可重算raw。
 
@@ -16,9 +16,7 @@
 
 ## 3. 逆设计与真实几何当前状态
 
-旧固定g/58及ring17至joint168均已闭，完整身份/门/费用见[固定O2原文](notes/open-fixed-o2-before-finite-height-20261126.md)。58的metric辅助量.2660054、κ58不是宏观合格点；旧实例不重开。
-
-真实角峰保1536全约束/全角Ebar及全部实际峰，前[513两lane收据](notes/2026-11-26-theta-peak-capacity-continuation-implementation.md)保完整来源。[分批B030原终态](notes/2026-11-26-theta-batched-b030-original-terminal-receipt.md)run45796862274新增295.608894049秒，651终候选全完成，保留η.265137352907/V0；actual450/1021、pending494/1129、trust1.20135498。首次真实峰库1129>1024，后继保全部proposal；0自然OptimizeResult。[分批B038中断](notes/2026-11-26-theta-batched-b038-runner-interruption-receipt.md)系runner shutdown无FINAL；最后完整500径向/538峰、η.49466223/V0、trust.90101624，保两条已写pending，另1条坐标未flush不可补造。444.543697291秒仅精确下界，后约131秒墙钟区间也保；从完整START续，不用拒绝trial。[真实续接](notes/2026-11-26-theta-peak-capacity-and-checkpoint-continuation.md)已提交：峰cap2048、径向513、完整stdin输入；完成callback即刷全状态/费用。
+旧固定g/58、ring17至joint168均闭；58的辅助量.2660054/κ58非宏观候选，[旧O2](notes/open-fixed-o2-before-finite-height-20261126.md)保全范围/费用。真实角峰原B030已付η.26513735/V0、actual450/1021→pending494/1129；原B038中断保完整500/538、η.49466223/V0及两已知pending/一未flush坐标。精确下界及墙钟缺失保[前交接](notes/HANDOFF-before-new-actual-runs-20261126.md)/原notes。[真峰续接](notes/2026-11-26-theta-peak-capacity-and-checkpoint-continuation.md)保1536全角约束、全部真实峰、原trust、stdin及每callback完整状态/成本；已发布峰2048/径向513包，旧算子不复跑。
 
 [R580](results/R580-finite-tail-polynomial-kernel-obstruction-and-resonant-seed-interface.md)只排旧有限多项式尾；[R582](results/R582-actual-circular-tail-flat-kernel-and-resonant-entry.md)付实际17q背景真尾核。[三口已付收据](notes/2026-11-26-r582-paid-seed-json-failure-receipt.md)保全部2147398 RHS/child114.013392秒；不复跑。[真实中段首终态](notes/2026-11-26-r582-paid-mouth-original-terminal-receipt.md)run45805053770新增.444643577科学秒/0seed，μ−.04、ν−.04893431917441107，2413点几何V0；同均值24/48/96的细线性上界.006479/.00016334/.00021887，未收敛。当前未观察zs零点；[R592](results/R592-undivided-finite-order-crossing-and-exact-angular-bound.md)给有限阶零点唯一光滑穿越/六jets及准确单模角峰，仅在真实遇根时用。下一同paid口真实s向ODE/core射击，不重跑LS或尾种子。旧圆核完整2401.8924秒及原失败范围保压缩前记录/原note。
 
@@ -30,7 +28,7 @@
 
 [真实尾核、旧射击及R574/R575前史](notes/HANDOFF-before-adaptive-height-20261126.md)保全部原接口/成本/失败范围，旧种子与射击不重跑。当前有限四模来自R583真实全平核，端校正保在完整残差；二阶均值接口不替代有限非线性。
 
-[R576](results/R576-exact-turning-elimination-and-finite-nonlinear-height-interface.md)已证明完整turning唯一解E，二jets给实际E′/非线性残差/重构metric误差，准确零解的凸圈严格嵌套；C2核心通量可编码R579。[函数尺度原终态](notes/2026-11-26-r576-function-space-natural-final.md)run45798904133付60.921534391秒，原52→68局部丰富保持同高度，末细η1.77362045e−6、direct约1.7738e−6，ε仍1e−5；39实际接受，函数限步0次，末可辨下降耗尽。κ约9.5628只是有限观察。[精确插结续解](notes/2026-11-26-r576-exact-knot-height-implementation.md)已提交：68q经Boehm保同场至120维，真实径向峰驱动后续插结；列尺度SVD保全奇异方向，精确算预测下降并细扫。旧内Riccati/H不重射；仍未冻结g/宏观解。
+[R576](results/R576-exact-turning-elimination-and-finite-nonlinear-height-interface.md)付完整turning/二jets/真实metric及核心通量。[插结自然终态](notes/2026-11-26-r576-exact-knot-natural-final.md)run45804732428新增1670.428137923秒，227接受、7同场映射至264q/67结/4局部列；ε仍1e−5，1281×128细η2.74680294895e−7，direct两步约2.74964/2.74882e−7，κ约9.563有限观察。六次自适应耗尽、未达2e−9升级门；不是连续下界。真实H.5188895813736972及完整末q保后继；下一R591受迫j4方向从零加入，保全部原场/切换余项/完整非线性残差，不再重跑内口或H。固定g/宏观仍未付。
 
 [R587](results/R587-fixed-metric-mean-height-elimination-at-flat-cap-and-core.md)现付冻结完整E_*后的均值斜率根及二jets导数；快速全平类在帽端用W²有理化得真实局部根，核心ζ变量非退化。须固定完整函数/验证中段导数与核心C1输入，未付非零角模逆或收敛。
 
