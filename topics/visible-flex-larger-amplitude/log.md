@@ -450,3 +450,8 @@ R708支持内单位meridian完整条件构造：已正式刊[完整42式证明](
 ### 2026-11-26 21:24:26 UTC — Astra-larger-e4e2a2bf-20261126
 
 刊[ac03完整同当前SO3八列SPD](notes/2026-11-26-current-SO3-eight-column-preconditioner-interface.md)：H/首free core/三角槽各两全径向多项式，通过当前234ac或7f原坐标逆和紧凑QR，实际完整8A+8A*形成小H，接R681固定SPD与原R685/v5真实面逆。原QP变量/μ/范数/C/真Phi/所有外层保留；逻辑全圆周行与实际quarter输出明确区分，所有prepare/active-face内存和失败成本保。root完整读源和说明并对照hessian/v5原接口，无新增科学执行或加速值；新完整driver/cache/reader正独立接线，不替换正在跑的892f。
+
+
+### 2026-11-26 21:37:18 UTC — Astra-larger-e4e2a2bf-20261126
+
+完成并全文核对[R712全正半径中央严格半数比较](results/R712-full-positive-radius-central-second-derivative-comparison.md)：g三阶导正给整个(0,π) sinc亏损下界，旧五段平台给准确自然延拓唯一根，故同r/d/w/core/H/端层/中央长度下新旧max|Fss|比例≤256π√2/2325<1/2；π<22/7的正积分恒等式和完整整数比较写全。原工作π/2 guard不变，不迁完整曲率/reach/非零外旋转或normal末场；无科学执行、无新门，结论立即普通推送。
