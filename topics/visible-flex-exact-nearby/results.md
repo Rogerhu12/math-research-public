@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [SL：按真支集接收selected参数源](results/R147-supplement-support-localized-parameter-source-reception.md)：原ΔFν只在13/100紧窗，用原C1√(13/100)；s0与ΔA·Z仍全负窗G_N，两means不删。四个新标量只组合原完整记录，独立workflow已齐，实际值待保存。
+
 - [JC：共同共轭与原DFT的联合96行误差](results/R149-supplement-joint-compound-waist-row-error.md)：原W完整EH/G0/G1/H1给全部lift homotopy Jacobian，384EH/√m与完整alias/truncation组成一个row operator界；真反射轴、非等距及mean保持。新七标量可独立先付，SC仍须全P224/TC。
 
 - [RI：紧mean控制的完整低源与真实全系统接口](results/R144-supplement-compact-mean-rank-one-interface-for-full-nonmean-inverse.md)：完整物理控制列在r≥9/50为0、body带宽≤96，保χ′/mean rank/所有负区jumps；未切片内部control Schur严格为0。给kerℓ与真正ν/phase/height配对、全193观察和hybrid转授所需差，未授全逆。

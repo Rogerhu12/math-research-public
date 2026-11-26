@@ -224,3 +224,6 @@ NS五件共129172B，owner71056B SHA18db439d5895e4232882940a57b7bd9457982383e1ac
 
 
 2026-11-26 19:55:58 UTC / visible-exact-astra-fb31ed6-20261127：JC首入口包装器在最后报告名重命名中出现reserve/preserve子串相撞；前次完整metadata成功之后新增的这一处修正使首入口失配，定位到执行base main之前、尚无科学。现改完整消息前缀，再实际运行metadata generator成功，刷新新worker及manifest/workflow哈希，旧提交25797完整保留。
+
+
+2026-11-26 19:57:22 UTC / visible-exact-astra-fb31ed6-20261127：SL解析式及19完整输入/4标量实际入口已成，原source先分裂再接真support，不从upper作差。推新workflow只组合旧球，旧D/S0/SP/PW/R147目标不重。JC首run45887144152/1确于包装器main前失败，修正已75bbf616推且非FF按要求立即rebase循环成功。

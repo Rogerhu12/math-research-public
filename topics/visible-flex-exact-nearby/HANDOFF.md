@@ -1,11 +1,11 @@
 # 交接：可见振幅的精确闭等距族
 
-维护会话：visible-exact-astra-fb31ed6-20261127；更新：2026-11-26 19:54:30 UTC。
+维护会话：visible-exact-astra-fb31ed6-20261127；更新：2026-11-26 19:57:22 UTC。
 **总任务未完成，持续研究，不等用户回复。**
 
 ## 已读规则、授权与接续
 
-2026-11-27（台北）已 partial+sparse clone 两仓库并 pull main，读根全部规矩、课题README、H/open、当前log及接续notes。公开根/topic规则已读至7a134e4f9e2109b78de288557df2d563ac64ba4d（相对12385db35无diff）；私库根规则已核至3977a3bfc9，QUEUE接手已推594e561b05a758bd8c02840ca4fbf574cd707436。每次pull核两README差异、至少每小时一次，非FF立即rebase再推。令牌只CLI。当前本地 /workspace/scratch/fb31ed637c77/math-research-public，无AGENTS。
+2026-11-27（台北）已 partial+sparse clone 两仓库并 pull main，读根全部规矩、课题README、H/open、当前log及接续notes。公开根/topic规则已读至75bbf6163414dc920d161d5872527bb45740f864（相对12385db35无diff）；私库根规则已核至3977a3bfc9，QUEUE接手已推594e561b05a758bd8c02840ca4fbf574cd707436。每次pull核两README差异、至少每小时一次，非FF立即rebase再推。令牌只CLI。当前本地 /workspace/scratch/fb31ed637c77/math-research-public，无AGENTS。
 科学计算用公开Actions；本地可做证明、静态与metadata。根规12取消额外防错审批/独立全件复核流程；新完整证明直接登记，每结论推送。规15保持topic≤200MB、H<10KB，禁止新增可重建大数组。前会话完整H/open以27c422943同路径为准，递归原件与全部范围、失败和未付义务仍在历史，以下不重做旧成功。
 
 ## 同一对象与最终标准
@@ -32,7 +32,7 @@ geometry43584188751/26仅在同η0全core含帽物理C0≤1e−4、|δν|≤1e�
 - [C0/CP11](results/R144-supplement-actual-compact-mean-C0-receivers-and-positive-moments.md)45787608966/1：全7721/6143/52球、正矩true；τ+、terminal T⁻¹、11核及rawν0/η0完整保，root/mean新界见SR/MJ。
 - [旧forward](results/R144-supplement-actual-forward-mean-enclosure-and-unresolved-gates.md)45772466407/1：完整7721/6143，positive/C0/outermean unknown、非真实反例；全η目标已锁。[suffix](notes/2026-11-26-R144-fixed-eta0-mean-suffix-state-spec.md)仅真未成时续，全W/G/AD/D0与join侧保。
 - R14345762052058全4651六球/body三门true；R14645765780668全418/13376、T2<102.965、Qupper<−.16618，排当前CV/RA格式，非BVP奇异；禁继续该格式Gram/容量/仅DH细化。
-- R145/R147/[NW](results/R147-supplement-actual-same-window-negative-nu-waist.md)45781137624/1旧4/4已成：FN<1.307204e−6、GN<171.351714、ordinary腰/两mean<2.24e−4；只零root无impulse分量，−3R0/m及all jump/high-low mean不删。新紧支ν源接收与真正signed meanν列在推进，非全ν/phase已闭。
+- R145/R147/[NW](results/R147-supplement-actual-same-window-negative-nu-waist.md)45781137624/1旧4/4已成：FN<1.307204e−6、GN<171.351714、ordinary腰/两mean<2.24e−4；只零root无impulse分量，−3R0/m及all jump/high-low mean不删。新[SL紧支ν接收](results/R147-supplement-support-localized-parameter-source-reception.md)分原ΔFν与ΔA·Z，19输入/4标量入口已齐、推后执行；真正signed meanν列另推进，非全ν/phase。
 
 ## 所有仍未付的最终接口
 
