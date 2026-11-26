@@ -1186,3 +1186,24 @@ context与fast adapter的生成位置，核对新增全表字段确实来自同�
 逐AST同一性。独立workflow为10分钟固定Sage10.6，只监听四个新路径；
 没有调用原正规化或接入Artinian生产，也不影响正在运行的单F。
 本次仅发出公开检查请求，实际成功与否另记；不以小API冒原maps PASS。
+
+### 12.7 独立运输 API 的实际回执
+
+run **45784345594**、job **139787226926**、source
+`2a343a67de47f90e2061152d0fc25a0cae1206dd`，
+于2026-11-26 08:35:34 UTC实际全部成功，耗时
+**0.07261244299999703秒**。root亲读来源manifest、全部AST保持门、
+两条ZZ恒等式、原W有理标量式及最终RESULT，并核原始字节hash。
+
+同次 **7** 个明列来源AST通过；manifest SHA-256为
+`5ce9d9fa7869bd855246f91875931ccf3f054ff9c3b4c5a44b9dee0131afcccf`。
+紧凑RESULT无尾换行1678 bytes，SHA-256为
+`2291ee58c9b018148384572ebd5b0a9eaa7dbc5fa2fb53c26c3e08ea13ea483e`；
+完整日志20398 bytes，SHA-256为
+`a69d8580152eae31fcb1eaee526dc1ed2d3d57743b7e4e80c80b3c7705189e4a`。
+
+原root/source前缀、函数定义、完整双向W与全部反射loop及最终context
+的逐AST比较全部通过；相同原断言仅去除被证明运输覆盖的y2直接立方项。
+这检查形式证书和源码保持，不生成原maps/正规化/除子或shadow，
+也没有将独立builder挂入第二个重型生产。实际单F v3继续使用自己的
+完整原来源及前述有界次数修复。
