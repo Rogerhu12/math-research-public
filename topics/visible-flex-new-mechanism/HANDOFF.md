@@ -5,9 +5,9 @@
 
 ## 1. 授权、规则与完整前史
 
-公开本次实际pull且根/题README已读至 **3d21d5771ebcd4d73fb6dafa3a4a1438d78c62d4**；根/题规则相对继承0749a4cc均空差异。私库实际pull/根README已读至 **1a995ebf0c19ea771ef0684a4f22bf94da9a960e**，QUEUE认领提交 **09f8b8b54e7cfaabaa635bae5c438c7f1521289a**；本会话仍唯一进行中，21:00 UTC前再次实际pull且根README空差异，下一不晚于21:58 UTC。
+公开本次实际pull且根/题README已读至 **2aedf17f1422c9ee8fde20b52a7d29c260b92cd9**；根/题规则相对继承0749a4cc均空差异。私库实际pull/根README已读至 **1a995ebf0c19ea771ef0684a4f22bf94da9a960e**，QUEUE认领提交 **09f8b8b54e7cfaabaa635bae5c438c7f1521289a**；本会话仍唯一进行中，21:00 UTC前再次实际pull且根README空差异，下一不晚于21:58 UTC。
 
-[压缩前全文](notes/HANDOFF-before-free-center-feedback-20261127.md)及其归档链保存全部旧结论、真实输入、失败/偏离、量词与完整费用；移档不重跑已付门。[四来源与文献](notes/2026-11-27-current-four-source-topics-and-literature.md)保已读版本及用途。
+[压缩前全文](notes/HANDOFF-before-long-near-pair-20261127.md)及其归档链保存全部旧结论、真实输入、失败/偏离、量词与完整费用；移档不重跑已付门。[四来源与文献](notes/2026-11-27-current-four-source-topics-and-literature.md)保已读版本及用途。
 
 每次实际pull后只读根/题README差异并立即执行，至少每小时；API不冒pull，真实SHA写本H。root独占git/共享索引；每条结论即推，NFF/并发锁立即pull --rebase再推至成功。科学只在公开Actions；本地纸证、源码/AST/JSON/hash及原日志解析。根12禁重放已付门，必要新场再生完整计费；根15不存raw/可重算数组，必要下一输入单列。H<10000B、open<30KB、每md<100KB，沿归档保全前史。
 
@@ -16,8 +16,6 @@
 同一连通闭材料面上的连续C²嵌入族、同一固定g；固定开握持区直径≥.2D、整像不对齐变化≥.3D，全时reach≥.03D。全点/全时metric≤1e−6，且同g/参数/时间域精化至机器或求解容差；完整可再生网格、连续几何和严格存在缺口均须付清。基础过后继续.5D或严格存在强目标。有限网、小幅、接口/障碍不算完成；子项完继续[open](open.md)，不以时长/中间结果结束。
 
 ## 3. R582：真实97q材料场及正常续算
-
-[f1原终态](notes/2026-11-27-r582-physical-epigraph-original-terminal.md)2370.210179923秒/17metric+5恢复/32Jac，细η6.262308445e−5；其连续几何只属f1，见§7。
 
 [a237原终态](notes/2026-11-27-r582-physical-paid-resume-original-terminal.md)run45887805731/job140142780497/source0cce06dd，新2371.7857200480003秒、18接受、19完整Jac+另2块、20完整fine。真97q SHA **a2377220dacda9eefe63f25a2000441f0169a0db5de9bc23840f90e5037a895e**，p=.181，11025×3072 η **4.8302220914394944e−5**，物理/working V0，κ16.452569169，帽高.6942718843124706。actual243×1536/trust2；38原pending按旧近点规则proposal279（+36），精确坐标全部仍在fine。末raw a14不合格，独立半步才是a237；原辅助e不冒fineη，单backend仅clock截断，无内BFGS可恢复。
 
@@ -44,8 +42,6 @@
 
 R598原18块/576微包、ε1/12000、正势1、同单位 **3967798143562589**、真η/八A/六rho及两ruling全保。R609真历史消元、R612真实L/三形状端图、R614完整离解规范Jac沿链消费；局部/首层不授全程。
 
-[R614原终态](notes/2026-11-27-r614-paid-reduced-function-natural-final-agent.md)新1009.284237733秒/49接受，真baseline d56ddad1/L3.47805678，细四端5.12616e−10但ruling1.70391e14；旧系数墙269拒绝触发R616同候选扩盒。
-
 [R616原自然终态](notes/2026-11-27-r616-expanded-true-function-natural-final-agent.md)run **45890056841**/job140150220830/source6977e7a4，新1753.553893449秒，31接受/149完整trial/193恢复失败/0系数墙，iteration53自然stall。真37修正JSON SHA **2935e5b667b52a7771a48193d7a0ce8bcbc7f0fc55304f951d6e1b3b960d895f**，固定baseline不变，L3.423996205347993；固定细32×16四端4.982658155e−10，原ruling仍1.3148858704e14，重装观察差.1454非严格界。修正max.26081远离±6，eta采样−.9989999999999861抵旧保护阈，193失败未细分不能全归因eta；pose仍未闭。
 
 [R619自由中心](results/R619-free-center-leading-energy-and-true-memory-local-flow.md)已付一般两侧能量/两常数、真中心S0S1非零的首层M局部流、完整T1与显式合法正负例；仅首层局部。下一使用真正自由奇中心、原固定ε与全19反馈/原末8A+2速度，不能重置历史或继续以旧系数墙解释当前stall；新scope须先完整审读新源。
@@ -58,6 +54,8 @@ R611旧圆证书/准确系数修复和全费用沿归档保留；R608只转适�
 
 [f1连续原终态](notes/2026-11-27-r582-retained-continuous-original-terminal.md)run **45890735034**/job140152478397/source4322a257，新527.88478224秒；新mean圆671叶reach≥.06072/D≤1.58255527。非圆39305叶完整覆盖δ.00198366681/α.01763328667/β61.2105951，R604证真有限C²嵌入，但reach/D≥.00783057847不够.03；β峰近s.86953765不冒真实曲率。准确覆盖同mesh、柱、双Cartesian帽、镜像和无限尾；seed半径商仍旧冻结参考。全部ODE/区间/原费用见收据。
 
-[R621](results/R621-normal-projected-covariant-blocks-and-reach-input.md)已付全角同cell参考法向投影、法向转动×完整环境二阶差、2×2实际主曲率K；原C0/C1/C2与新K同一次材料/mean/A-B-C读取。纯helper独立全文审读通过未执行。下一只针对真a237新mean/原mesh重新完整覆盖，精化直接K而非β，并保R604完整近远法弦；预算只是细化目标，有效宽界按实值用。[a237新完整scope](notes/2026-11-27-r582-a237-normal-curvature-implementation.md)全文核driver/note/workflow、34绑定与原q/seed/mesh；1800秒/30预留，C0/α/K精化、宽有效界保留，非有限bound清空后才判未决。新参考先过再必要重建场，无旧fine/Jac/诊断。几何不替固定g/宏观族。
+[R621](results/R621-normal-projected-covariant-blocks-and-reach-input.md)已付全角同cell参考法向投影、法向转动×完整环境二阶差、2×2实际主曲率K；原C0/C1/C2与新K同一次材料/mean/A-B-C读取。纯helper独立全文审读通过未执行。下一只针对真a237新mean/原mesh重新完整覆盖，精化直接K而非β，并保R604完整近远法弦；预算只是细化目标，有效宽界按实值用。[a237新完整scope](notes/2026-11-27-r582-a237-normal-curvature-implementation.md)run45895935112/job140169696746/sourceac528e756，已自然结束，待原FINAL。34绑定与原q/seed/mesh全文核；单遍C0/α/K精化、宽界保留，非有限bound清空后判未决；无旧fine/Jac/诊断。几何不替固定g/宏观族。
+
+[R622](results/R622-longer-intrinsic-near-pairs-and-same-bound-reach.md)已付Kℓ≤5/2的双向9/(10K)法弦界与R604完整近远组合；原连续δ/ν/λ/K/ρ可只作新标量消费，不混旧1/K近项，不重建已付场。纸证/纯source独立审读通过未执行；等a237真终态确认是否必要。
 
 [results](results.md)为已证索引，[log](log.md)/notes记录每次原输入、运行、失败与完整成本。每条结论后继续真实输入，只有主README完成门及要求强目标真正通过才收尾。

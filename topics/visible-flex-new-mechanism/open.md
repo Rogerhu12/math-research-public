@@ -161,3 +161,5 @@ O4 [R616原终态](notes/2026-11-27-r616-expanded-true-function-natural-final-ag
 O4 [R620](results/R620-fixed-width-center-jet-gauge-chart.md)在原固定ε而非首层给可消费中心物理jets图及全19反馈。下一新范围以全程合法h/k明式的真实jets/全历史作初值，原8A+2速度全保；离根大势与原单位误差不得删，存储历史节点零值不得冒实际积分返回。
 
 O2b-B [固定E真实入口](notes/2026-11-27-r618-fixed-target-evaluation-and-zero-entry.md)已给同根e′预算、原六jets恒等mean转移及core余项τ路径。下一以完整S的真终态定义唯一高度/E身份，付同根模型/Jac、全2J/独立post和原所有口；不得用当前求积结果替换连续目标，也不能把τ0旧finite512核心误称已全连续通过。
+
+O5 [R622](results/R622-longer-intrinsic-near-pairs-and-same-bound-reach.md)给更长近对的独立完整证书。若真a237原终态仍受近远分割损失，可只消费同一原连续常数/覆盖身份，另付新标量组合费用；不重建已付场、不转借候选，也不能用新较长阈值搭旧1/K近项。
