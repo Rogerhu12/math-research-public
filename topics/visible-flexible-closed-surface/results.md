@@ -5,6 +5,8 @@
 
 ## 新增结论
 
+- [R239：完整Cartesian法方程的精确径向带结构与同方程预条件](results/R239-complete-cartesian-radial-block-preconditioning.md)：物理系数的quintic局部两jet支撑给块带宽5，全部13行精确角通道径向主块可流式构造；增广算子/伴随保原λSobolev正则，禁止新坐标damp暗换方程。纯有限维代数证明，未称新预条件已改善或收敛。
+
 - [R238：非正交端切向的空间曲线长度必要界](results/R238-nonorthogonal-spatial-port-length-bound.md)：切向球面距离及不重叠端帽积分给任意测试方向条件式，短大圆弧版本无额外条件，允许空间绕行；保完整准确g适用范围。新固定prefix四轴有限预算真0，长轴必要长度.755356<真实S−b=.795674，未排输入，不推出存在。
 
 - [R237：准确新gap短窗的连续角正规性和完整两jet角反参](results/R237-gap-window-continuous-angular-regularity.md)：同Γ95出口2048整数角盒及两中央准确周长、全前缀切向输运，给整物理窗全角|Y_u|>.4097，准确自然g及两接口完整两jet有定义；43.037s/.211s真0。仅own-zero准确形式，不借给literal求积、Cartesian后态或二维浸入。
