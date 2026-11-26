@@ -119,3 +119,7 @@ LC六件全部逐行/逐差审核；19当前输入在351c6958完整读取，byte
 ## 2026-11-26 10:07 UTC：LC实际完整同φ状态门通过
 
 run45797426031/1，event ed2dcbc7/actualcheckout34221b7d，10:02:10–10:02:37，child0，complete/provedtrue。science10486B SHA60ac20418b405281a3150216e45f7bffd0e73b7625ccc8c383cf4204968b5748；exec16110B SHAf2b92ef6e63f5f54b6ebdd7997265f43100e6921a6da124b58d745b8c9d5104a。root/global分别整读并核19当前/10历史、7721行/6143接口/1156紧支撑行、27球/7722readbacks及actual参数，全部一致。C0球显示约1.978398124460e−5，实际1e−4门true；五完整ordinary/flux源及新v跳跃同时锁定，private14146645B全hash验证且0尾。新中心mean精确、nonmean仍非零；只证明其距原raw同φ状态，未来GC修正/所有matching必须另付。每条结论即时保存推送；继续真低逆及TC试列，不停止于本次组件成功。
+
+## 2026-11-26 10:10 UTC：旧HANDOFF全文可恢复归档
+
+46份Nov14旧HANDOFF全稿已完整读取并核bytes/blob/SHA，原件固定提交351c695824be817fb5da66e6558753fa0193cca1；root在67a5b618重新逐件核当前原件未变、每个恢复入口的完整字节/身份/永久URL。450771B改为36822B，净释放413949B，最大完整stub827B。12份当前manifest以及PN/CXN/PS/LC待机源码均无这些输入路径/文件名依赖。只将重复历史页改为同路径完整原文链接及精确git show恢复命令；原义务/失败/结论范围全部保，未动科学actual/native、活动输入或历史。为后续TC与正在运行的完整结果留出容量；未将32376B发布映射存进topic。
