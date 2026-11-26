@@ -317,3 +317,5 @@
 - [R690：准单调尾的固定帽唯一性判据与明确深谷新输入](results/R690-quasimonotone-tail-and-deep-valley-input.md) — 完整证明积分比可积时仍线性唯一、明确正平坦深谷使该比不再可积，并给新参考Hold曲率/位移有理界及可执行无限尾标量包围。只改变一个充分唯一性假设；不推非零核或非圆存在，新的固定gn全求解与同场几何继续。
 
 - [R691：冻结有限物理均值的末端相容与真实材料Haar角矩](results/R691-frozen-physical-mean-endjet-and-material-Haar.md) — 完整三阶jet必要条件、finite/continuous physical测度与材料Haar之别、同一交叉向量的精确积分分部、P/Q/ell/b完整矩与alias尾界、全自由core的moving导数和fixed目标责任。只修一条必要相容，不断言任意均值可实现、不设新冻结门、不排除C²精化极限；实际完整求解继续。
+
+- [R692：完整非线性旋转连接、闭圈重建与无1/c的真实Gram误差界](results/R692-nonlinear-rotation-connection-and-metric-error.md) — 完整Maurer–Cartan/周期势/非线性Gauss及全变分、经典连接类的固定帽完整性、双积分控制真实相对Gram证明；中圈反射/非平凡性另付，含镜反例与单谐波kernel圆窄阻断。不推所有C²弱类、非圆解存在或新数值，继续全谱构造。
