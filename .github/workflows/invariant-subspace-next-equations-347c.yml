@@ -1,14 +1,5 @@
 name: ISP nonzero mean and finite H21 next equations
 on:
-  push:
-    branches: [main]
-    paths:
-      - 'topics/invariant-subspace-problem/notes/2026-11-26-unit211-scaled-high-curve-mixed-projections-347c.py'
-      - 'topics/invariant-subspace-problem/notes/2026-11-26-unit211-original-U-value-atlas-347c.py'
-      - 'topics/invariant-subspace-problem/notes/2026-11-26-unit211-U-value-L0-w1-347c.py'
-      - 'topics/invariant-subspace-problem/notes/2026-11-26-unit211-U-value-S0-collision-347c.py'
-      - 'topics/invariant-subspace-problem/notes/2026-11-26-h21-zero-hp-finite-w-V-infinity-probe-347c.py'
-      - '.github/workflows/invariant-subspace-next-equations-347c.yml'
   workflow_dispatch:
 permissions:
   contents: read

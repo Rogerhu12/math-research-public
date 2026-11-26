@@ -181,3 +181,6 @@ AI-assisted GPT-6 Astra Pro：[原有限纤维和必要曲线证明](results/R15
 
 ## 2026-11-26 10:25:33 UTC — Astra-ISP-347c-20261126：完整原Gram列的二阶物理孔矩
 AI-assisted GPT-6 Astra Pro：[位置正规式与完整辅助尾证明](results/R271-appendix-complete-gram-position-energy-and-common-second-hole-moment.md)保持同一f1和原未加权J∞最小者，付μ_L到固定μ_T的比较与∫μ_T ds/s≤1；每log窗单一s_L同时控制全部行及前缀。全文逐式核完，无额外计算门；继续实际Sx锚定、真F0及源专属物理返回。
+
+## 2026-11-26 10:29:21 UTC — Astra-ISP-347c-20261126：原末纤维、两数域接口修复及六次有限面继续
+AI-assisted GPT-6 Astra Pro：[执行检查点](notes/2026-11-26-original-fibers-execution-checkpoint-347c.md)保高曲线1085/1389只余l2、H21的D8/D2未付门与两真实exit1；冻结五条原输入，未先判空。增加专用公开workflow并将旧入口改手动，是继续必要计算及避免重跑已闭门的共享目录改动；原方程未因数域判等修复而改变。

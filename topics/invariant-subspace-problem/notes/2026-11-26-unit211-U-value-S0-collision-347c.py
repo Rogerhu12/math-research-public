@@ -19,22 +19,22 @@ K=QQ.algebraic_field(sp.sqrt(2),sp.sqrt(3))
 assert K.ext.minpoly.degree()==4
 lam=K.from_sympy(sp.sqrt(2)/2)
 s3=K.from_sympy(sp.sqrt(3))
-assert 2*lam*lam-1==0
+assert not (2*lam*lam-1)
 b=4*(5+lam)/49;c=b;l=b+c;a=1-l
 h=lam-K.one/2;k=h;w=(3*lam+1)/7
 q=(23-64*lam+7*s3*(1-4*lam))/(2*(13-17*lam))
-assert (13-17*lam)*q*q+(64*lam-23)*q+(13-17*lam)==0
+assert not ((13-17*lam)*q*q+(64*lam-23)*q+(13-17*lam))
 assert b and c and q and q-1 and q+1
 u=b+c*q;V2=b+c*q*q
 P0=(b+c*q**3-3*u*V2+2*u**3)/2
 assert P0 and u
-assert a+w+b*h+c*k==lam
-assert a+2*w+b*h*h+c*k*k==2*lam*lam
-assert a+3*w+b*h**3+c*k**3==4*lam**3
+assert not (a+w+b*h+c*k-lam)
+assert not (a+2*w+b*h*h+c*k*k-2*lam*lam)
+assert not (a+3*w+b*h**3+c*k**3-4*lam**3)
 z=(h-1)*(k-1)
-assert h+k+1-2*lam==0
-assert 3-4*lam-z*(l+u*(q+1-2*u)/q)==0
-assert z*((2*u-q-1)*(V2-2*u*u)+4*lam*P0)/q-2*w*(b*(k-1)+c*q*(h-1))==0
+assert not (h+k+1-2*lam)
+assert not (3-4*lam-z*(l+u*(q+1-2*u)/q))
+assert not (z*((2*u-q-1)*(V2-2*u*u)+4*lam*P0)/q-2*w*(b*(k-1)+c*q*(h-1)))
 ff,tt=sp.symbols('f t')
 def C(x):return sp.Poly(K.to_sympy(K.convert(x)),ff,tt,domain=K)
 zero=C(0);onep=C(1);half=C(K.one/2);quarter=C(K.one/4)
@@ -56,7 +56,7 @@ A1=2*f-C(2*b)*x-C(2*c)*y+C(2*b*c)*t
 rows=[[zero,zero,onep,C(q)],[zero,A1,r,s],[onep,r,zero,t],[C(q),s,t,zero]]
 def DK(v):return [tau(mul(row,v)) for row in rows]
 d=DK(one);F=half*tau(d)
-assert F==f
+assert (F-f).is_zero
 def N(v):
  return half*tau(mul(add(d,scale(-F,one)),mul(v,v)))-tau(v)*tau(mul(d,v))+F*tau(v)**2+quarter*tau(mul(v,DK(v)))
 def Pjet(v,w):
@@ -68,7 +68,7 @@ Ns=[N(rows[0]),Njet(rows[0],rows[1]),N(rows[2]),N(rows[3])]
 ev=[tau(mul(rows[0],rows[0])),2*tau(mul(rows[0],rows[1])),tau(mul(rows[2],rows[2])),tau(mul(rows[3],rows[3]))]
 E=add(add(ev,scale(C(-2),DK(d))),add(scale(C(-2),mul(d,d)),scale(4*F,d)))
 VV=[onep,C(w),C(h),C(k)]
-assert Ps[0]==C(P0) and E[0].is_zero and Ns[0]==C(lam*P0)
+assert (Ps[0]-C(P0)).is_zero and E[0].is_zero and (Ns[0]-C(lam*P0)).is_zero
 assert P(VV).is_zero and N(VV).is_zero
 polys=E[1:]+[Ps[1]-C(3*w*P0),Ps[2]-C(h**3*P0),Ps[3]-C(k**3*P0),Ns[1]-C(2*lam*w*P0),Ns[2]-C(lam*h*h*P0),Ns[3]-C(lam*k*k*P0)]
 labels=['E1','EB','EC','P1-3wP0','PB-h3P0','PC-k3P0','N1-2lambda*wP0','NB-lambda-h2P0','NC-lambda-k2P0']

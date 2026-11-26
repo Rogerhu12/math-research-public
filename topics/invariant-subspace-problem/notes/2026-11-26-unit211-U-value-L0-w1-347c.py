@@ -23,12 +23,12 @@ K=QQ.algebraic_field(sp.sqrt(17))
 D=K.frac_field(rr)
 rho=D.from_sympy(rr)
 lam=D.from_sympy((3+sp.sqrt(17))/8)
-assert 8*lam*lam-6*lam-1==0
+assert not (8*lam*lam-6*lam-1)
 Al=2*lam*lam-2*lam+1
 Bl=4*lam**3-6*lam*lam+3*lam-1
 R0=lam-2
 assert R0 and Al and Bl
-assert R0*Bl-Al*Al==3*(7-10*lam)/16
+assert not (R0*Bl-Al*Al-3*(7-10*lam)/16)
 assert R0*Bl-Al*Al
 q=(Bl-rho*Al)/(rho*(Al-rho*R0))
 u=R0/rho
@@ -38,12 +38,12 @@ c=(V2-u)/(q*(q-1))
 a=1-b-c
 h=1+rho;k=1+rho*q
 P0=(b+c*q**3-3*u*V2+2*u**3)/2
-assert rho**3*P0==6*lam-D(11)/2
+assert not (rho**3*P0-6*lam+D(11)/2)
 assert P0 and b and c and q and q-1 and q+1
-assert a+1+b*h+c*k==lam
-assert a+2+b*h*h+c*k*k==2*lam*lam
-assert a+3+b*h**3+c*k**3==4*lam**3
-assert q*(h-1)-(k-1)==0
+assert not (a+1+b*h+c*k-lam)
+assert not (a+2+b*h*h+c*k*k-2*lam*lam)
+assert not (a+3+b*h**3+c*k**3-4*lam**3)
+assert not (q*(h-1)-(k-1))
 def C(x):
  return sp.Poly(D.to_sympy(D.convert(x)),ff,tt,domain=D)
 zero=C(0);onep=C(1);half=C(D.one/2);quarter=C(D.one/4)
@@ -66,7 +66,7 @@ A1=2*f-C(2*b)*x-C(2*c)*y+C(2*b*c)*t
 rows=[[zero,zero,onep,C(q)],[zero,A1,r,s],[onep,r,zero,t],[C(q),s,t,zero]]
 def DK(v):return [tau(mul(row,v)) for row in rows]
 d=DK(one);F=half*tau(d)
-assert F==f
+assert (F-f).is_zero
 def N(v):
  return half*tau(mul(add(d,scale(-F,one)),mul(v,v)))-tau(v)*tau(mul(d,v))+F*tau(v)**2+quarter*tau(mul(v,DK(v)))
 def Pjet(v,w):
@@ -78,9 +78,9 @@ Ns=[N(rows[0]),Njet(rows[0],rows[1]),N(rows[2]),N(rows[3])]
 ev=[tau(mul(rows[0],rows[0])),2*tau(mul(rows[0],rows[1])),tau(mul(rows[2],rows[2])),tau(mul(rows[3],rows[3]))]
 E=add(add(ev,scale(C(-2),DK(d))),add(scale(C(-2),mul(d,d)),scale(4*F,d)))
 VV=[onep,onep,C(h),C(k)]
-assert Ps[0]==C(P0)
+assert (Ps[0]-C(P0)).is_zero
 assert E[0].is_zero
-assert Ns[0]==C(lam*P0)
+assert (Ns[0]-C(lam*P0)).is_zero
 assert P(VV).is_zero and N(VV).is_zero
 conditions=E[1:]+[Ps[1]-C(3*P0),Ps[2]-C(h**3*P0),Ps[3]-C(k**3*P0),Ns[1]-C(2*lam*P0),Ns[2]-C(lam*h*h*P0),Ns[3]-C(lam*k*k*P0)]
 labels=['E1','EB','EC','P1-3P0','PB-h3P0','PC-k3P0','N1-2lambdaP0','NB-lambda-h2P0','NC-lambda-k2P0']
@@ -133,7 +133,7 @@ for j in range(4):
  if len(bp)==1 and bp[0].total_degree()==0:
   excluded=True;break
  simplified=[stripsingle(p,known3) for p in bp]
- if any(p.total_degree()==0 for p in simplified):
+ if any(not p.is_zero and p.total_degree()==0 for p in simplified):
   excluded=True;break
  if simplified==bp:
   active=bp;break

@@ -1,0 +1,75 @@
+{
+  "schema": "isp-unit211-U-value-initial-failed-executions-v1",
+  "ordinary_isp_claim": false,
+  "claim_excluded": false,
+  "records": [
+    {
+      "run_id": "45799548882",
+      "job_id": "139838880214",
+      "source_commit": "3d671b1c98f929848e2c437698cece6f8d2e033e",
+      "source_git_blob": "b3d5fc22cc54d9948b9f95945938eb1bb8618361",
+      "source_sha256": "e804a017d6eaefbf5e5e0412bc2e1b798e91319d7618fb1535a60698c7c42744",
+      "source_exit_code": 1,
+      "elapsed_seconds": 0.3594543820000027,
+      "max_child_rss_kib": 71640,
+      "stdout_bytes": 205,
+      "stdout_sha256": "8a9e991db60d7078683851eecdd2f1d61848952cfde74e500d2b806925b8b2a6",
+      "failure_type": "AssertionError",
+      "failure_location": {
+        "file": "isp-small-source.py",
+        "line": 31,
+        "expression": "assert R0*Bl-Al*Al==3*(7-10*lam)/16"
+      },
+      "original_equation_input_sha256": null,
+      "input_not_generated_reason": "Failed in the initial number-field identity checks, before original equation generation or Groebner computation.",
+      "classification": "failed execution, no mathematical exclusion inferred",
+      "repair": "Replace ANP/FracElement direct structural equality with exact zero of lhs-rhs; retain all original equations and branches.",
+      "rules_reads": [
+        {
+          "after": "3d671b1c98f929848e2c437698cece6f8d2e033e",
+          "before": "3d671b1c98f929848e2c437698cece6f8d2e033e",
+          "rules_git_blobs": {
+            "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+            "topics/invariant-subspace-problem/README.md": "fef43bdf8690f2eec4751d85784a266eacdd0322"
+          },
+          "rules_unchanged": true,
+          "utc": "2026-11-26T10:15:19.002154+00:00"
+        }
+      ]
+    },
+    {
+      "run_id": "45799548882",
+      "job_id": "139838879907",
+      "source_commit": "3d671b1c98f929848e2c437698cece6f8d2e033e",
+      "source_git_blob": "132f19a0b08a04d4be2812d86e00ab27a6cf4488",
+      "source_sha256": "17055a2058cbffc5458f5c1057d026dac5782dd11f66eecfd9a6866ae3d18dea",
+      "source_exit_code": 1,
+      "elapsed_seconds": 0.389641558000001,
+      "max_child_rss_kib": 73032,
+      "stdout_bytes": 177,
+      "stdout_sha256": "7bb9b9727adf2150be377c6b99da7f640bf10d86d8864dc2013417d5dfd0e168",
+      "failure_type": "AssertionError",
+      "failure_location": {
+        "file": "isp-small-source.py",
+        "line": 22,
+        "expression": "assert 2*lam*lam-1==0"
+      },
+      "original_equation_input_sha256": null,
+      "input_not_generated_reason": "Failed in the initial number-field identity checks, before original equation generation or Groebner computation.",
+      "classification": "failed execution, no mathematical exclusion inferred",
+      "repair": "Replace ANP/FracElement direct structural equality with exact zero of lhs-rhs; retain all original equations and branches.",
+      "rules_reads": [
+        {
+          "after": "3d671b1c98f929848e2c437698cece6f8d2e033e",
+          "before": "3d671b1c98f929848e2c437698cece6f8d2e033e",
+          "rules_git_blobs": {
+            "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+            "topics/invariant-subspace-problem/README.md": "fef43bdf8690f2eec4751d85784a266eacdd0322"
+          },
+          "rules_unchanged": true,
+          "utc": "2026-11-26T10:15:20.463901+00:00"
+        }
+      ]
+    }
+  ]
+}
