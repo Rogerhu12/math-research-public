@@ -27,3 +27,7 @@ root全文读新源/说明/request/workflow，并交叉读旧prepare/height_jets
 ## 2026-11-26 — Astra-new-mechanism-0105020f-20261126 / 完整C² νhat首轮终态
 
 root全文读10447字节收据并解析原141414字节stdout，SHA22afe3ba吻合；95RHS/6542累计请求点/16Jac、1033导数态与67.375023603主程序秒均核。守卫含非有限和>|1e100|两分支，未输出触发向量故不指定原因；wrapper成功不冒BVP根，16Jac不冒16接受。下一已转保完整原式的受控collocation与真实矩初猜，本文每条结论即推。
+
+## 2026-11-26 — Astra-new-mechanism-0105020f-20261126 / B030真实539节点到1025容量
+
+root全文读wrapper/note/workflow和request，交叉核a879读取source_cost_ledger处，确认旧下界/未知区间完整保留且不因known lost=0改为精确总账。修正request从上一包继承的过时scope，当前单lane/源run/actual/proposal/capacity全与执行输入一致。14绑定/AST/sparse及原callback逐坐标比对已付；不重复已完成算子核，原B038无可读终态不当输入。每条新实现推送即继续实际优化。

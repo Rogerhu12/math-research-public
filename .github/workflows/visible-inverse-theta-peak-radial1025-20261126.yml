@@ -1,0 +1,72 @@
+name: visible-flex continue paid B030 theta peaks with radial 1025
+on:
+  push:
+    branches: [main]
+    paths:
+      - topics/visible-flex-new-mechanism/computations/request-inverse-theta-peak-radial1025-20261126.json
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: visible-flex-inverse-theta-peak-batched-20261126
+  cancel-in-progress: false
+jobs:
+  research:
+    name: continue actual B030 callback at radial capacity 1025
+    runs-on: ubuntu-24.04
+    timeout-minutes: 50
+    strategy:
+      fail-fast: false
+      max-parallel: 1
+      matrix:
+        lane: [rounded-core-B030]
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      PYTHONUNBUFFERED: '1'
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+      MKL_NUM_THREADS: '1'
+      NUMEXPR_NUM_THREADS: '1'
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 0
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-new-mechanism/README.md
+            /topics/visible-flex-new-mechanism/computations/request-inverse-theta-peak-radial1025-20261126.json
+            /topics/visible-flex-new-mechanism/scripts/inverse_flat_oscillatory_tail_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/inverse_hard_exchange_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/inverse_hard_exchange_resume_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/inverse_r566_angular_oracle_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/inverse_r566_block_jacobian_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/inverse_r566_theta_peak_exchange_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/inverse_rotational_metric_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/run_inverse_rotational_metric_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/run_inverse_state_stdin_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/inverse_r566_theta_peak_resume_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/inverse_r566_theta_peak_batched_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/inverse_r566_theta_peak_checkpoint_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/inverse_r566_theta_peak_radial1025_20261126.py
+            /.github/workflows/visible-inverse-theta-peak-radial1025-20261126.yml
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.12.14'
+      - name: Pull current rules and continue the identified recorded checkpoint
+        env:
+          MR_TOKEN: ${{ secrets.MR_TOKEN }}
+        run: >-
+          python topics/visible-flex-new-mechanism/scripts/run_inverse_state_stdin_20261126.py
+          --request topics/visible-flex-new-mechanism/computations/request-inverse-theta-peak-radial1025-20261126.json
+          --lane ${{ matrix.lane }}
+      # Same a879 checkpoint physics/FFT/AD/point/localizer/acceptance operator.
+      # B030 uses the last fully flushed callback, all 539 pending radial nodes,
+      # all 1218 proposed peak orbits, and its actual not-yet-adapted trust.
+      # 539 > old radial cap 513 is the actual capacity witness; cap becomes 1025.
+      # Existing interface checks and completed old scopes are not replayed.
+      # Post-checkpoint runner work remains separately censored and charged.
+      # The B038 lost-communication terminal has no available log and is not an input.
+      # Two real rule pulls; original stdout only; no artifact/cache/release/Git write.
