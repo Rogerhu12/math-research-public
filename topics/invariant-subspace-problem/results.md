@@ -207,3 +207,5 @@
 - **R150 rankH3二重加单点、非约化rankV2的整个ess6为空（2026-11-26，已证明）：** [原完整常数/一次梯度和N(u)平方矛盾](results/R150-appendix-rank-three-double-plus-single-second-cumulant-nonreduced-third-cumulant-essential-six-exclusion.md)覆盖非退化H的两Gaussian分支，合法尺度及所有符号均明确；连同退化Gram得到ess≤5。另完整排F0及约化V的e0；只续bgF e均非零的约化V。本条纯显示手证，无新计算门。
 
 - **R150 非退化2+1 H的Hp0约化V层至多九个完整Gram规范（2026-11-26，已证明的必要归约）：** [原相位穷尽及九次式](results/R150-appendix-rank-three-double-plus-single-second-cumulant-zero-hp-nine-gram-candidates.md)支付全部零分母、Cw0和9种三次相位，必D=−C；G9确定完整六列矩阵，交换V标签吸收平方根。原物理曲线实现、其余极线/最高系数与非零Hp仍未闭，继续处理。
+
+- **R271 原全T的数算子缺陷及同一J1残量的一阶物理孔矩（2026-11-26，已证明）：** [完整carry/Cayley、自然域及准确拉通](results/R271-appendix-actual-number-defect-and-uniform-first-moment-of-the-same-residual.md)给B_N≤4η、B_Y≤64η，真实Nh_s≤5‖B‖/4、正能量半阶s1/4界及完整N图范数趋零；原残量算子的降一级缺陷也统一有界。保same-w/f1，未自动推广到全J、F0或指数清除。

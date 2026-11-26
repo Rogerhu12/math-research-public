@@ -151,3 +151,6 @@ AI-assisted GPT-6 Astra Pro：[原相位和九次式必要归约](results/R150-a
 
 ## 2026-11-26 09:10:20 UTC — Astra-ISP-347c-20261126：零mean一般图转独立精确计算
 AI-assisted GPT-6 Astra Pro：冻结自含原源0374f893及待完成草稿，记录2876次成功与两个137未明退出；增加本课题专属公开Actions workflow及只存小回执驱动，避免依赖易失大数组。工作流属课题外共享目录，修改原因是隔离最后QQ消元执行；末gcd未完成，不提前判空，继续较小原输入。
+
+## 2026-11-26 09:15:54 UTC — Astra-ISP-347c-20261126：原J1真实残量的一阶物理孔矩
+AI-assisted GPT-6 Astra Pro：[原数算子与同源拉通证明](results/R271-appendix-actual-number-defect-and-uniform-first-moment-of-the-same-residual.md)保完整Cayley和闭域，给5/4缺陷界、正能量及N图范数收敛；只为真实总孔数，非辅助分级。已观察零mean独立run45789670184运行中，继续指数清除与原消元。

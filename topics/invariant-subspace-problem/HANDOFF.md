@@ -5,7 +5,7 @@
 ## 主目标、规则与执行
 
 - **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仅全体有界算子的存在定理或完整反例；子结果不作完成，继续研究。
-- **最近实际 pull / 已读规则提交：** `c4831cc7f0f568e637cdf446961cc12b62a97a1b`（2026-11-26 09:11:21 UTC）。本次两README无新规则差异；已读根/课题README、H/open、结果索引及定点log/notes。每次pull及至少每小时比diff，记录SHA。
+- **最近实际 pull / 已读规则提交：** `48650a963a2b3b4c9a0bec8b71495b4b9cd0c149`（2026-11-26 09:16:03 UTC）。本次两README无新规则差异；已读根/课题README、H/open、结果索引及定点log/notes。每次pull及至少每小时比diff，记录SHA。
 - 私库QUEUE认领已推 `e776df496eedfa449b0475cefe140fdae7023db4`；研究在公开仓库。每结论单推，推前pull/rebase；NFF/ref锁拒绝循环rebase再推，不force，令牌仅CLI。
 - 公库工作树 `/tmp/isp-347c05929dd3/math-research-public`；root独占git/索引/H/open/log，代理仅独占TMP。仅保存源、参数、身份、SHA及小回执，不存可再生数组。
 - 最新完整前H见[压缩快照](notes/2026-11-26-handoff-before-rank-three-double-single-zero-hp-nine-347c.md)及其归档链。MD<100KB、H<10KB、open尽量<30KB、topic<200MB，不写根LOG。
@@ -24,7 +24,7 @@
 
 ### 正在推进的三张原分支
 
-- **unit211，P0非零、m零：** F1/u1、F2/l0两奇异jet面及J=lQ(2u−1)−u(2u+Q−2)零面已闭。代理正在完成整个m0：已严证3mean在A4开集到(u,Q)有限纤维；全部低曲线、原秩二族与第一高曲线QQ671/629 gcd均付。第二高曲线首个QQ结式2876次已完成974.697804秒；第二条exit137，原因未知，不能记完成。已切换原4×4必要行列式/逐步伪余式缩小输入，保全部首项零纤维；主稿末gcd仍待真正完成。已提交冻结源0374f893及专属公开Actions（180分钟/12GiB，run待观察），完整[执行检查点](notes/2026-11-26-unit211-zero-mean-general-execution-checkpoint-347c.md)保失败身份。探索在 `unit31-work`，不把预检或模素数定位作证明。
+- **unit211，P0非零、m零：** F1/u1、F2/l0两奇异jet面及J=lQ(2u−1)−u(2u+Q−2)零面已闭。代理正在完成整个m0：已严证3mean在A4开集到(u,Q)有限纤维；全部低曲线、原秩二族与第一高曲线QQ671/629 gcd均付。第二高曲线首个QQ结式2876次已完成974.697804秒；第二条exit137，原因未知，不能记完成。已切换原4×4必要行列式/逐步伪余式缩小输入，保全部首项零纤维；主稿末gcd仍待真正完成。已提交冻结源0374f893及专属公开Actions（180分钟/12GiB，run45789670184已实际in_progress），完整[执行检查点](notes/2026-11-26-unit211-zero-mean-general-execution-checkpoint-347c.md)保失败身份。探索在 `unit31-work`，不把预检或模素数定位作证明。
 - **[unit211，P0/m非零，u1半比例已闭](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-nonzero-isolated-mean-unit-base-mean-half-ratio-exclusion.md)：** 共同p+q2后u=bp+cq=1，l0、jet系数零面及整λ=m/u0=1/2均排除；QQ92/162/170末Q5/4原ideal迫l0，顶点族完整Gram秩二。源2.801380秒/72196KiB/exit0。root继续λ≠0,1/2：v=2λ−1、z=(2f−1)/v合法，把原三mean改为v二次式，正在支付投影及全部例外；一般u≠1仍开。探索在 `root-qgeneral-work`。
 - rankH3三不同点、H自身Gram退化的ess6：F0、V二jet、非零Hp全空；只余双约化、F≠0、Hp0、Gram秩2且两非零边。非退化三点H也继续。不能以H子Gram退化代整个六维K退化。
 - rankH3单三jet、rankV2整层ess≤5已闭：Hp0原十六维QQ/13真逆、所有特殊/∞和V二jet全付；最后F=−m原0/1/2阶梯度得1=5/2。不要重做旧余支。
@@ -44,6 +44,7 @@ M=kerT、N=closureBM；N=M未证。始终保同w/u、全部partial、真intersec
 - 实际方差孔权差已付：原J窗、x+1≤d⁴/64下同F源/列Γ差e^(−7d⁴/4)；零头m−1且Q′≥R+r、x+1≤d⁴/1024给同F0差e^(−7d⁴/64)。绝对参考Z未付。
 - 真空阶乘矩给真实物理差96√μ1/(√(3K)y)，同w/u/partial及一次公共log方差准确；L_m原逆权界31/30。移动权起点不得推P_M同权性。
 - **[指数起点的全T相对加权源](results/R271-appendix-exponential-weight-cutoff-relative-global-gram-and-actual-weighted-residual.md)：** 真完整L列投影Γ界16/15，环境A=I+P(U*U−I)P运输原最小者，不假Γ保列空间。J/s≤ℛ_m²的有限列≤9/8；付J*≥max(h−1,81e²/s,4d⁴+2)后全列≤8/7、T/L差e^(−3d⁴/2)，真实Γ_yTa≤(8/7)√s‖f‖。y≤e^(12d³)母窗已付，最高零头须y≤e^(12(d/2)³)。通用Xκ清除仍含e^(κy)，且未给输出孔正则性；代理继续实际源专属清除及真实物理孔矩，探索在 `r271-work`。
+- **[真实J1源的总孔数矩](results/R271-appendix-actual-number-defect-and-uniform-first-moment-of-the-same-residual.md)：** B=T+[N,T]保全部carry及Cayley，N/Y型≤4η/64η（η=e⁻¹⁰⁷⁰）；h_s=Ta_s的准确拉通给‖Nh_s‖≤5‖B‖/4，正能量付半阶速率，稠密RanT使N图范数趋零。常数不含y，只针对J1同f1，指数清除与全J/F0仍开。
 - 大辅助真F0已付：低新增孔≤L列属全部F_t/F0，r≥h_y+L给能量误差(16/15)32^(−L−1)。原y=m+d、L=d、r3d1、R576(m+1)²d²、Q=R+r合法，sK/y给无权ξ≤e^(−2d)、真压缩源强趋P_M；准确加i0ξ保同来源。Sx孔权与完整MP返回仍开。
 - 冻结大方差零列有原物理下界：‖Ca_s‖≥s/(s+49)，真核z0=a_s费用≥s/[(s+49)√Sx]，合法R=d/r3窗增长如√x。保级双塔未投影差继承首行障碍；最终投影/可改零列的全MP未排除。小头m2、m3反例不在旧联合窗，不逐级外推。
 

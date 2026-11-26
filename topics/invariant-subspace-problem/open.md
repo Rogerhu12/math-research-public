@@ -64,9 +64,7 @@ $$
 
 **[单位211非零m、u1的半比例及jet除数全闭](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-nonzero-isolated-mean-unit-base-mean-half-ratio-exclusion.md)：** 在p+q2、u=bp+cq=1、P0非零图，l0由原mean/S余式排除；jet的g系数零面归λ=f1/2，其g0抽象族因完整Gram秩二排。半比例其余图QQ92/162/170结果式仅余Q5/4，回原五式基为{f−5l/16−1/2,l²}，与已付l0矛盾。自含源2.801380秒/72196KiB/exit0；继续u1的λ≠0,1/2及一般u≠1，不宣全非零m空。
 
-**[rankH3二重加单点、退化Gram的整个ess6已空](results/R150-appendix-rank-three-double-plus-single-second-cumulant-degenerate-gram-essential-six-exclusion.md)：** 原H规范给detGram=−bg²，g0与b0的所有F、Hp和两类V逐一排除；特殊源0/2/−6/∞的不同点极线根均简单。F0用原非退化四空间的二维正交补，其余用原常数/一次梯度和完整六列根向量，非零Hp最后迫u=w。纯手证逐式审完；该H型只续bg≠0非退化Gram，三约化H剩余与ess4/5仍开。
-
-**[rankH3二重加单点与V二jet的整层ess6已空](results/R150-appendix-rank-three-double-plus-single-second-cumulant-nonreduced-third-cumulant-essential-six-exclusion.md)：** 非退化H用合法F=h=g1及V真jet尺度，Gaussian/trace只给(b,c)=(-1/6,-1/4)或(1/6,1/12)。原N的常数/一次系数和V mean给C0²、C0C1、Cw²，最后N(u)分别迫平方−1/12=1/4或1/16=81/16。和退化Gram全排除合成完整V二jet闭合；另已独立排F0及约化V的e0。准确只续bgF e非零的约化V，不再探索这类二jet。
+**rankH3二重加单点的准确剩余：** [退化Gram整层](results/R150-appendix-rank-three-double-plus-single-second-cumulant-degenerate-gram-essential-six-exclusion.md)与[全部非约化V](results/R150-appendix-rank-three-double-plus-single-second-cumulant-nonreduced-third-cumulant-essential-six-exclusion.md)的ess6均已排；原六列根向量、特殊源/∞、两Gaussian常数Gram和N(u)平方矛盾全付，另排F0及约化V的e0。不再重做；只续bgF e均非零的约化V。完整旧范围保[本次open快照](notes/2026-11-26-open-before-actual-number-residual-moment-347c.md)及两正式稿。
 
 **[2+1非退化H、约化V、Hp0的原九次Gram候选](results/R150-appendix-rank-three-double-plus-single-second-cumulant-zero-hp-nine-gram-candidates.md)：** 全部立方相位及Cw0由原N(u)/N(v)排除，只剩D=−C；F=h=g1时c−1/4、b=−(2e³+1)/6，完整六列Gram由G9(e)=16e9−108e8+36e7−15e6+18e4−1的至多九根确定。该结果只给完整必要归约；继续同一原曲线的2+1/两值实现及未用的完整N/最高系数，不能将一般Gram当物理解。非零Hp、三约化H与ess4/5均仍开。
 
@@ -109,6 +107,8 @@ $$
 **[原全T完整Gram逆的闭孔权界](results/R271-appendix-global-actual-operator-weighted-full-gram-inverse.md)：** c26取j=k0并完整求和给两向全carry费≤e^(−7d⁴/4)；y=m+d、s≥2²⁴/y时，全部有限/无限J的原未加权inverse共轭≤16/15，和L_m之差≤e^(−d⁴)。闭域/伴随/全级数均付，保同一个w的准确配对与旧物理列1/y差。s趋0须同时移动权起点，故未推出P_M同孔权；继续真实F0混级及物理MP返回。
 
 **[指数远孔起点的全T相对Gram及真实残量](results/R271-appendix-exponential-weight-cutoff-relative-global-gram-and-actual-weighted-residual.md)：** 完整L列投影的两向Γ界≤16/15；环境正算子I+P(U*U−I)P运输原未加权最小者，既不假Γ保列空间也不付e^(81/s)。有限J/s≤ℛ_m²给整列≤9/8；准确尾截J*≥max(h−1,81e²/s,4d⁴+2)后完整列≤8/7，T/L差≤e^(−3d⁴/2)，Γ_y T a≤(8/7)√s‖f‖。原同w配对准确，真空μ1还给实际物理1/y差。y≤e^(12d³)、R576(m+1)²y²、Q=R+r合法；最高零头改基须改上限为e^(12(d/2)³)。继续同一实际残量的清除：通用Xκ右逆仍付e^(κy)且未给输出孔正则性，不把小残量当真核。
+
+**[原J1同源残量的真实总孔数矩](results/R271-appendix-actual-number-defect-and-uniform-first-moment-of-the-same-residual.md)：** 对a_s=(I+T*T/s)⁻¹f1、h_s=Ta_s，原缺陷B=T+[N,T]的N/Y范数分别≤4e⁻¹⁰⁷⁰/64e⁻¹⁰⁷⁰，完整Cayley项保留。准确拉通Nh=s(TT*+s)⁻¹Ba+T(T*T+s)⁻¹B*h给统一5/4‖B‖界；原正能量给半阶矩s1/4速率，稠密RanT另给真实N图范数趋零。常数不含前缀y；只覆盖同一J1残量，不自动扩到全J/F0，也不把一阶或多项式矩冒称指数清除费。
 
 ### 2.2 仍需接合的原返回接口
 
