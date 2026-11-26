@@ -295,3 +295,8 @@
 ### 2026-11-27 00:02 Asia/Taipei — R1039 原p5完整CM normal与有理盘
 - [R1039](results/R1039-original-p5-complete-CM-normal-jet-and-rational-disc-scale.md)：p5实际ω_B经N_X=N_J和图cycle配对给全阶零环带residue；两中心完整第m层同εR_Ldb，保自身变形/3m+2自由层。原全分支E杀A_tailν、固定F=x^(2g)y，CM早于4m全零，第4m层κ₁R_L(1)dF。原z=ε³w、所有p倍积分分母给Abel-log/formal map除pε整、modp次数≤n₀=4g+1，最高泛函保κ₁/λ₀/J(L)，whole-block M=1。最低单位w项及实际MW横截仍开。
 - o1单文件未引用候选4834d3c37feb6d87a61ebc3b19272df3a48094d9经root全文独核PASS。亲读CI Ch.I §§1–3补图环路留数门；两中心角色、真实E、ψ₃两极部、dF−2gAν、原整r_n和所有p倍次数逐式核准。仅修“挠点”字样；无数学执行或旧窗口重跑。H/open逐字归档后收束已成输入，两README同步检查。
+
+
+### 2026-11-27 00:13 Asia/Taipei — R1040 原p5实际Hodge graph与本原MW消去
+- [R1040](results/R1040-original-p5-Hodge-graph-and-primitive-MW-annihilator.md)：p5原good BT的source Fp²相位与Hermitian切线给Π²=−p、B整对称完美；双节点常数Ff=C^(p−1)ω/4及q_s∈Fp保原尺度。真实Fil给Q，模π为quo(r^(8g+2)a(b^p),A²) modA，核一维纯正δ、负δ单射。额外Q(√−3p)-CM由τ₁自扭排除，原6p tame平移给剩余CM全正δ；结合原重数一与R1026，Λ_Q在p>C_*本原并杀全部MW饱和格。K_Q=(1/2)P_(DQv)(1)仍待非零，不删除Q²项。
+- o1单文件未引用候选944f4833488d71a404e99c3fe6b830d9c3a190ff经root全文独核PASS；global另核额外CM域。root逐付原双节点F常数、source算术下降、核角色及全6p CM方向；未以抽象superspecial或原p11几何替代本行。无数学执行；H逐字归档，两README同步检查。

@@ -6,17 +6,19 @@
 
 会话 **Astra-serre-24b8836b-20261126**。本轮已部分克隆并真实pull main，读两README/H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则读至36cf1ed2。不重做已登记结论或窗口。
 
-**公开两README已读提交：435a6531532226a719f53df55d3dd4ef159b8522**（2026-11-27 00:02 Asia/Taipei；本次同步两README无差异）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
+**公开两README已读提交：389151351f3334fb90bb29bbb506b307891f9417**（2026-11-27 00:13 Asia/Taipei；本次同步两README无差异）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
 
-执行宿主本轮断连；15:42 UTC单次恢复探测仍无环境；下次不早于16:43 UTC。按根规矩8用GitHub小文本原子tree/commit、最新head检查和非force expected-head更新；并发拒绝立即在新head重建循环至成功，保其它会话。终端恢复补pull --rebase。令牌仅此前CLI使用，未存文件/提交。根维护main/H/open/index/log；子研究交数学稿。每条结论完整审后立即推。19:52纠正：global_route曾违规用会话V8做数学探索，已叫停；已知范围、时长及独立纸面重核见[执行偏差记录](notes/2026-11-26-execution-path-deviation-and-correction.md)。不得把其数字记为证明或合规窗口。
+执行宿主本轮断连；15:42 UTC单次恢复探测仍无环境；下次不早于16:43 UTC。按根规矩8用GitHub小文本原子tree/commit、最新head检查和非force expected-head更新；并发拒绝立即在新head重建循环至成功，保其它会话。终端恢复补pull --rebase。令牌仅此前CLI使用，未存文件/提交。根维护main/H/open/index/log；子研究可建单result未引用候选commit，不更新任何ref或共享状态。每条结论完整审后立即推。19:52纠正：global_route曾违规用会话V8做数学探索，已叫停；已知范围、时长及独立纸面重核见[执行偏差记录](notes/2026-11-26-execution-path-deviation-and-correction.md)。不得把其数字记为证明或合规窗口。
 
-H<10KB、open尽量<30KB、每MD<100KB、topic<200MB；无可重算raw、不写根LOG。[本次逐字前态](handoff-archive-2026-11-27-before-p5-CM-jet.md)沿链保全部旧来源/run/hash；[open](open.md)、[索引](results.md)是完整入口。历史“R1003 norm3准备中”未交付，现R1003为范围纠错。
+H<10KB、open尽量<30KB、每MD<100KB、topic<200MB；无可重算raw、不写根LOG。[本次逐字前态](handoff-archive-2026-11-27-before-unified-primitive-MW.md)沿链保全部旧来源/run/hash；[open](open.md)、[索引](results.md)是完整入口。历史“R1003 norm3准备中”未交付，现R1003为范围纠错。
 
 ## 最新全局实际来源
 
+[R1040](results/R1040-original-p5-Hodge-graph-and-primitive-MW-annihilator.md)：p5原good BT的source Fp²相位与Hermitian切线给Π²=−p、B整对称完美；双节点常数Ff=C^(p−1)ω/4及q_s∈Fp保原尺度。真实Fil给Q，模π为quo(r^(8g+2)a(b^p),A²) modA，核一维纯正δ、负δ单射。额外Q(√−3p)-CM由τ₁自扭排除，原6p tame平移给剩余CM全正δ；结合原重数一与R1026，Λ_Q在p>C_*本原并杀全部MW饱和格。K_Q=(1/2)P_(DQv)(1)仍待非零，不删除Q²项。
+
 [R1039](results/R1039-original-p5-complete-CM-normal-jet-and-rational-disc-scale.md)：p5实际ω_B经N_X=N_J和图cycle配对给全阶零环带residue；两中心完整第m层同εR_Ldb，保自身变形/3m+2自由层。原全分支E杀A_tailν、固定F=x^(2g)y，CM早于4m全零，第4m层κ₁R_L(1)dF。原z=ε³w、所有p倍积分分母给Abel-log/formal map除pε整、modp次数≤n₀=4g+1，最高泛函保κ₁/λ₀/J(L)，whole-block M=1。最低单位w项及实际MW横截仍开。
 
-[R1038](results/R1038-original-p5-Raynaud-lowest-type-and-complete-first-log.md)：全部p≥41、p5mod12，补齐quadratic PS/St后仍有实际整e₁；原双中心图为二次型，e₁G[p∞]≅e₁B[p∞]是真良好块。原P=(p−1)D₀经真实twister、bounded lift和先减Teich挠点给P_B；两个节点同一Dickson消去、不添2，完整首log=εΣθ_s(λ+R_p)f_s，q_s=−r^(8g+2)/A′²。R1024纯代数不依次数奇偶，故原formal/log及e₁首log全准确Fm。未宣整个J良好或指定简单商/CM jet单位。
+R1038原p5 Raynaud与完整首log已成：新增quadratic PS/St后仍整e₁，双中心图二次角色，e₁G[p∞]≅e₁B[p∞]。原bounded lift先减Teich挠点再在formal/B用e₁；两节点同一Dickson无额外2。完整λ+R_p在全部p≥41准确Fm，未宣整个J良好；实际CM jet由R1039、本原MW由R1040补齐。
 
 [R1037](results/R1037-original-Hodge-graph-operator-and-primitive-MW-annihilator.md)：实际Fil graph给整Q=ε⁻²ΦΠ，Verschiebung准确−ε²Qα；原模π矩阵为quo(r^(8g−2)a(b^p),A²) modA（系数固定）。原ODE将核化为LT=cA，核准确一维且全正δ，负δ上单射；R1026故给Λ_Q=B(v,QD·)本原且消去全部MW饱和格。指定CM值K_Q=(1/2)P_(DQv)(1)保完整Q²，仍待单位与低w系数；B(c₀,J)=−1/8不替代它。
 
@@ -26,7 +28,7 @@ R1032/33在p11行已给与R1039平行的原完整CM normal/有理盘定理：F=x
 
 R1028/29/30原Igusa提升差、整τ₁ Hecke/BT及全分支有限角E已成；E固定dF、杀A_tailν，块内同权lift模p唯一。保原来源/系数，不冒Q简单商Néron格。
 
-[R1026](results/R1026-original-single-remainder-and-integral-CM-annihilating-log-direction.md)：固定hypergeometric两尾系数rank2给定义明确绝对C_*，全部p>C_*、p5mod6原Q∤P1−y^ℓ。实际p11mod12行，e_-=(1+ζδ+ζ²δ²)/3作用原logP的首层非零；R575/R1010完整CM方向使其杀全部CM新部，旧部亦杀。原Lie格的饱和CM商中准确Fm本原；未宣R1011具体Néron商格单位或原CM jet半径。
+R1026固定hypergeometric两尾rank2给明确绝对C_*，全p>C_*、p5mod6原Q∤P1−y^ℓ。原负δ首log在p11由R1026、p5由R1040运输；它不独自给指定CM jet单位或简单商Néron格。
 
 R1023原完整首log=εΣθ_s(λ+R_p)f_s，全部节点/跨尾Frob/GM/分母已成；R1024以两整除+中心和Bézout=1证明全部p≥47、p11mod12准确Fm本原。完整原式见结果和逐字前态；不能任换H_A/H_Z的λ。
 
@@ -66,4 +68,4 @@ R696早已证明同一全局Φ候选Ω_actual={0}，R832已消费；不重做、
 
 固定Y的R805–930及全部runs/高维格/预算边界见open与逐字归档，只消费已成输入。R907四artifact真404仍producer_inputs_pending，不重造；预算失败不作数学负结论。固定41全129盘/8CM已由R707完成，不重开。R575旧正CM角色根号−与逆twist秩零撤回有效。R1004仅导子下界而非a/c上界，停止重复优化。
 
-当前并行：R1037原本原MW已成，K_Q及真实下一低w列待付；R1038/39 p5 Raynaud首log与CM normal/盘M1已成，R1040 p5本原消去候选整理中；R1041原r2 Cartier/kerQ范数/bare完整桥root/global已全文PASS，随后推。继续原CM极化格单位与j1同阶回流，不能以核一维代范数或K_Q。R1031中心导数/同标签、O0全部全局分支仍开。子问题完成即接open其余项，真正达到README完成标准才收尾。
+当前并行：R1037/40两行原本原MW消去已成，K_Q及低w列仍待非零；R1041原r2 Cartier/kerQ范数/bare真桥root/global全文PASS，随后推。R1042原下一Abel列全normal候选正交叉审，保第一列倍数；R1043原f_N与T0(1)真mark在核原尺度，不能混同范数。继续原极化格单位、完整normal反馈、R1031中心导数/同标签及O0全覆盖。子问题完成即接open其余项，真正达到README完成标准才收尾。

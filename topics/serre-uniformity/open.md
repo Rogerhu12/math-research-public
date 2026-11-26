@@ -6,6 +6,8 @@
 
 ## 原最低型：已经付清的输入与准确剩余标量
 
+[R1040](results/R1040-original-p5-Hodge-graph-and-primitive-MW-annihilator.md)：p5原good BT的source Fp²相位与Hermitian切线给Π²=−p、B整对称完美；双节点常数Ff=C^(p−1)ω/4及q_s∈Fp保原尺度。真实Fil给Q，模π为quo(r^(8g+2)a(b^p),A²) modA，核一维纯正δ、负δ单射。额外Q(√−3p)-CM由τ₁自扭排除，原6p tame平移给剩余CM全正δ；结合原重数一与R1026，Λ_Q在p>C_*本原并杀全部MW饱和格。K_Q=(1/2)P_(DQv)(1)仍待非零，不删除Q²项。
+
 [R1037](results/R1037-original-Hodge-graph-operator-and-primitive-MW-annihilator.md)：实际Fil graph给整Q=ε⁻²ΦΠ，Verschiebung准确−ε²Qα；原模π矩阵为quo(r^(8g−2)a(b^p),A²) modA（系数固定）。原ODE将核化为LT=cA，核准确一维且全正δ，负δ上单射；R1026故给Λ_Q=B(v,QD·)本原且消去全部MW饱和格。指定CM值K_Q=(1/2)P_(DQv)(1)保完整Q²，仍待单位与低w系数；B(c₀,J)=−1/8不替代它。
 
 [R1038](results/R1038-original-p5-Raynaud-lowest-type-and-complete-first-log.md)：全部p≥41、p5mod12，补齐quadratic PS/St后仍有实际整e₁；原双中心图为二次型，e₁G[p∞]≅e₁B[p∞]是真良好块。原P=(p−1)D₀经真实twister、bounded lift和先减Teich挠点给P_B；两个节点同一Dickson消去、不添2，完整首log=εΣθ_s(λ+R_p)f_s，q_s=−r^(8g+2)/A′²。R1024纯代数不依次数奇偶，故原formal/log及e₁首log全准确Fm。未宣整个J良好或指定简单商/CM jet单位。
@@ -14,9 +16,9 @@
 
 R1032/33已给p11行相应完整normal与原有理盘定理：F=x^(2g−1)y、n₀=4g−1、z=ε³w、w=(a−1)/p³；原底中心R_L=(2/m)ΣL_sθ_s/(b−s)²，CM第4m层κ₁R_L(1)dF，Abel-log除pε整且modp次数≤n₀。保所有原坐标/相位和全部p倍积分分母；whole-block M1不自动给最低单位项或指定MW泛函的单位。
 
-R1035/36实际两次PD给原M_L与Lie整比较；原source Fp²相位/Hermitian切线给Π²=−p与B整对称完美。完整split-Hecke中心F₀及原J中实际重数一已核，B(v,T5D·)消去全部MW饱和格；T5版K_p尚待非零，本原Q版见R1037。没有把辅助Res的C²冒原一次C。
+R1035/36实际两次PD给原M_L与Lie整比较；原source Fp²相位/Hermitian切线给Π²=−p与B整对称完美。完整split-Hecke中心F₀及原J中实际重数一已核，B(v,T5D·)消去全部MW饱和格；T5版K_p尚待非零，两行本原Q版见R1037/40。没有把辅助Res的C²冒原一次C。
 
-R1023/24/26/29已保p11整首log与原负δ本原：εΣθ_s(λ+R_p)f_s；两整除加中心用Bézout1排全零，单P1非整除给明确定义C_*；e_-杀全部该行CM新部与old。p5完整首log已由R1038单独付款。最低型是p-adic BT直和块，不冒任何预定Q简单商的Néron格。
+R1023/24/26/29已保p11整首log与原负δ本原：εΣθ_s(λ+R_p)f_s；两整除加中心用Bézout1排全零，单P1非整除给明确定义C_*；e_-杀全部该行CM新部与old。p5完整首log由R1038、原负δ与全部CM/MW消去由R1040单独付款。最低型是p-adic BT直和块，不冒任何预定Q简单商的Néron格。
 
 R1018/19/21原形式点、实际A=T5²与Z=(T31−32)T5²保Fm/杀CM、full-p仿射刚性均已成。其实际H_A/H_Z新支撑仍待算，不能只在R1023公式任换λ。R1028/30同阶Igusa自由修正及真实全分支E已成，不重求已算graded jet。所有常数/阈值/旧执行回执保逐字归档。
 
