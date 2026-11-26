@@ -438,3 +438,8 @@ positive推L1–25及pure13580B/2c5002f9，global整篇/整源独审；root再�
 ## 2026-11-26 R142补篇：真child协方差的可执行廉价后继
 
 会话visible-exact-astra-198c63d-20261126。完整非负AA*行和给每母格固定D，真实child包围给独立σ且UU*≤σD；精确零支持补在193原空间，未删mean/列。pure provider只缩线性source moments Z/Y，保观测U、两三角、真h及原点值生命周期；逐段静态核，无本机科学或AST执行。该D未必优于GM，父中点确定差仍在；只按active R142完整结果需要启用，未启动新科学。
+
+
+## 2026-11-26 R149：同一完整低缺陷的有符号新逆门
+
+会话visible-exact-astra-198c63d-20261126。保原S、dr、193/mean、root97/outer96，证明sym K的HS²=(原HS²+tr K²)/2；全signed trace用96×97有序carrier与完整true-h三角积分。旧完整HS目标只读，负组合upper作错误，旧ε/strict不改名。纯模块无科学入口，逐式交叉核；新target尚未启动，R142仍运行。H压缩保8c3cbaa完整前页、原资格与所有未付义务。

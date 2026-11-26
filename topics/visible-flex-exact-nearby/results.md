@@ -6,9 +6,11 @@
 
 - [R142：已成Green前缀的准确接续与全母格矩积分](results/R142-low193-parent-moment-continuation.md)（2026-11-26，已证明算法；新defect实际值待Actions）：复用原Green，155母格moment与共享A/B/K补未成缺陷，全部mean/两三角/193观察保留。
 
-- [R143：相关体能量后的最优二维必要筛查](results/R143-correlated-body-energy-and-optimal-root-screen.md)（2026-11-26，已证明）：完整非负根费格式须23/30−aEE−aEB²/[4(1−aBB)]>0；新CV同v四顶点消费者已接公开Actions，实际值待。
+- [R143：相关体能量后的最优二维必要筛查](results/R143-correlated-body-energy-and-optimal-root-screen.md)（2026-11-26，已证明）：完整非负根费格式须23/30−aEE−aEB²/[4(1−aBB)]>0；新CV已在45762052058/1完整通过body三门；当前CV/RA组合另由R146二次帽严格排除，见下列actual。
 
 ## 新增结论
+
+- [R149：同一低193缺陷的有符号闭环与对称部逆门](results/R149-signed-Green-loop-and-symmetric-part-coercivity.md)：同原weighted L²(dr;193)中准确HS恒等式、96×97全域signed递推和完整同格三角；旧完整HS²只读，新tr K²及θ均整球保存读回。θ<1给coercive inverse，旧ε门保持原真假；真实新量未算，不把解析判据当成功数值。
 
 - [R142补篇：真child D/σ协方差与单母格矩复用](results/R142-supplement-genuine-child-diagonal-covariance-and-parent-moment-reuse.md)：完整entry absolute bounds给Uchild Uchild*≤σDparent，零行仍补在原193维；pure provider只缩Z/Y、保U/trueh/两三角。最多155母格矩替逐child调用，不预称速度/ε改善，不改active或旧Green身份。
 
@@ -24,7 +26,7 @@
 
 - [R144补篇：完整raw moving holonomy源与弱配对](results/R144-supplement-raw-moving-holonomy-sources-and-complete-weak-pairing.md)：保真实R0及所有jump，明确H^-1φ源的H1 dual费用只用角L2背景和mean gap；selected场外微分保权重变化w′f−ws，不把旧Z当真响应，不授全逆或不同自然端口。
 
-- [R146：二次帽与真实根容量的必要筛查](results/R146-quadratic-cap-and-true-root-capacity-screen.md)（2026-11-26，已证明解析式，实际新积分待Actions）：ℓ=3/200二次帽合法对偶给根EE>148/T2，当前CV完整门须2−148/T2−aEE−aEB²/[4(1−aBB)]>0；保true DH逆、所有mean与PDE可达迹范围，不把容量upper冒lower。
+- [R146：二次帽与真实根容量的必要筛查](results/R146-quadratic-cap-and-true-root-capacity-screen.md)（2026-11-26，已证明；实际45765780668/1完整排当前CV/RA预算）：ℓ=3/200二次帽合法对偶给根EE>148/T2，当前CV完整门须2−148/T2−aEE−aEB²/[4(1−aBB)]>0；保true DH逆、所有mean与PDE可达迹范围，不把容量upper冒lower。
 
 - [R144：四重holonomy把外独立均值转为腰均值](results/R144-fourfold-holonomy-transfers-outer-mean-to-waist.md)（2026-11-26，已证明）：明确邻域内quarter trace严格单调，外Cmean等价m0=−a0；位置平移闭合独立证明，场外所有缺陷/jump与真解三角row变换完整保留。新BVP存在性、实际dual费用、true phase/ν兼容仍待。
 
