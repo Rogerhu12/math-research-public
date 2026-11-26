@@ -54,6 +54,8 @@
 
 21完整Jac528.254022765秒/1164块，未闭第22矩阵另4块与全部elapsed保留；21完成outer/22开始/0自然backendreturn。末05f2636a虽通过完整物理但η.237599993不改善，不能替保留q。继续真实56e8/全部永久坐标、原球/条带/曲率/mean/det/box/margin与η门。原内部minimizer/BFGS未存不伪恢复；同旧Jac/乘子的正定secant延续算法仍在研究。
 
+[正常56e8新范围](notes/2026-11-27-r566-normal56e8-resume-implementation.md)从原实际694/1555/309与空pending继续；先付新1390×3072、全部峰和nested资格，旧1388身份保持，原科学参数未变。此资格不计metric接受；完整恢复/新交换和所有失败费用照旧保留。
+
 已知科学链下界14729.212126063秒，较早未知仍未知；[前epigraph全收据](notes/2026-11-27-r566-physical-epigraph-original-terminal.md)及旧open归档保所有旧工作行/回溯/backend/队列与物理拒绝。原B038缺末日志不作来源；固定g、全域全时reach及宏观族仍欠。
 
 ## O4：原固定宽度十九态，全反馈与更好自由中心输入
