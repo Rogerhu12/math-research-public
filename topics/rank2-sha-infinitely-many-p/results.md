@@ -71,3 +71,5 @@
 - [R976](results/R976-original-cross-complete-22-and-66-spectrum.md)：run45884058894/job140130269899完整22/66及44维delta-new的全部81共同块实际通过，两原全算子十二次恒等、全幂等/分量和均返。F130准确只有−11Φ*/2及E125质量零13-old方向，非mu6全零；H的E260系数1/81而其四nonmu6块均非零，去两秩二线仍首项1/189。原delta-new三条质量零线系数29/216、7/270、167/360；原cross相应完整投影5Z/48、7Ψ35/60、167Ψ53/80，后二条身份尚待全有限角色。保全部质量/余块，不给mixed或产品免费中央零。
 
 - [R979](results/R979-fixed-7993-full-balanced-line-and-original-double-new-bound.md)：在原固定p=7993消费R817三个实际负二非零及Castella A.1.1，给三个整个Selbal=E·zcan和ordinary strict核0，不把canonical改名原c1。用同格本原z的完整惰性检测及全部H²挠连接类，原同一双新下降在逐m正密度Q_m上满足p^Bκ=0、B=exp H²(C0)_tors+vpD，无需c1非零；深返回仍为H¹(J⊗T)。允许原x12/κ为零，不限制辅助模数，不推出c1、s0或跨p非零。
+
+- [R978](results/R978-original-degree130-old-thirteen-source-and-central-difference.md)：原13-old两个二维块由V10真primitive线的raw π/barπ拉回完整张成，全部division/有限δ0与常数方向/质量相位已付。F10+11Φ*/2=κ10(Ψ125(πz)−Ψ125(barπz))、κ10非零是全函数身份。原共同b17下，ordinary R968射线的导数准确κ10 logp(π/barπ)(1−υp)/17（原权变量另乘p−1）；inert完整Tate恒等给κ10(p+1)logp(π/barπ)/17，对每个充分大好惰性p非零。不能同时置F10与Φ*中央零；F10自身非rank2 primitive，未消mixed。
