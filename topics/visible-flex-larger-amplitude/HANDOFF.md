@@ -4,7 +4,7 @@
 
 ## 规则与完整目标
 
-最近规则核查：2026-11-26，真实pull/rebase至 `f473b765b70c44e68090f022df0bd8c1c08737a4`，根及课题README相对f0548477无差异，已完整读授权及规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
+最近规则核查：2026-11-26，真实pull/rebase至 `1c018e543b6b9eee0615820e7ac3333f8713aaab`，根及课题README相对f0548477无差异，已完整读授权及规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
 
 科学计算仅本公开仓库Actions；早前本地偏差及13:00 UTC纠正见[执行记录](notes/2026-11-20-public-actions-execution-correction.md)。根README已授权必要修改/发布；root唯一分支写者；代理只scratch及未引用小源blob。每条结论普通commit/push；NFF立即pull --rebase循环再推，不强推。至少每小时pull，每次核双README差异/立即遵新规并记commit。raw只scratch/runner，不入Git/Release/artifact；只保完整小源/参数/run/SHA/紧凑结论。题≤200MB，MD<100KB，H<10KB，open<30KB。令牌只瞬时CLI，不写文件/提交/回复。
 
@@ -28,9 +28,7 @@ rebuild_a04_chain.py保60321451c/b4d2b98完整必要输入链，Python3.12.14/Nu
 
 run45762076394/1初源a4a535ee，只再生续算必要输入；旧末父/失败保上，不重宣或跨场继承。R683完整源已刊；子问题结束接open，不等确认。
 
-R684早期双variant保[原note](notes/2026-11-26-actual-first-mean-design-and-amplitude.md)；moving mean不替固定g精化。
-
-[旧方向归因](notes/2026-11-26-actual-mean-ray-and-all-row-SOC-attribution.md)保原拒绝史。[独立base修复](notes/2026-11-26-face-PCG-verified-physical-base-launcher-repair.md)真实stage61已返[954fd435](notes/2026-11-26-actual-verified-base-fixed-g-face-direction.md)：旧gn Phi1.2412e−7→1.22142e−7/max.01318391，原ray.5/μ.0120632，QP256未驻点，SOC未接受、必要筛通过。原全AST/roles和物理base均核，未松守卫；stage64纯归因确认投影可行/收敛但SOC真拒因未列；旧43内层trace仍未实读。
+R684/R688旧mean与[旧方向归因](notes/2026-11-26-actual-mean-ray-and-all-row-SOC-attribution.md)完整保[81150 H](https://github.com/Rogerhu12/math-research-public/blob/81150e4539f03217bace0c8607bba2d4b658ee9f/topics/visible-flex-larger-amplitude/HANDOFF.md)。[真实61/64](notes/2026-11-26-actual-verified-base-fixed-g-face-direction.md)旧g返954fd435，max.01318391/256未驻点；投影可行但SOC真拒因未列，旧43内层trace仍未读；不迁旧证书。
 
 R686[同场first/K/四标记](notes/2026-11-26-same-field-batched-curvature-geometry-consumer.md)完整源已刊，六jet/全尾/全角保留、K目标由实际D推；新全K未付，不复算旧取消场。
 
@@ -44,7 +42,7 @@ R690 [完整深谷新输入证明](results/R690-quasimonotone-tail-and-deep-vall
 
 新deep profile383168由[六源/prepare](notes/2026-11-26-fixed-deep-scalar-complete-amplitude-solver.md)固定；[59–62](notes/2026-11-26-actual-fixed-deep-scalar-first-directions.md)保b788与其自身first。[真实67–69](notes/2026-11-26-actual-fixed-deep-scalar-multiround-SOC.md)329e同g两条256方向分别第5/7轮SOC满步接受返8a0509fd：max.01426433→.01289641、Phi.00032736→.00019751、μ.01→.0025，QP仍limit/Pg-tol约30299/27615；末轮投影feasible不冒minnorm收敛。自身全922 first D≤4.118949376/L≥.938925927/body held≥.227952772/embedding已付；marker/K/reach/全域metric未付。已排8a05同层p4/真实μ.0025再2×256、纯归因及ownfirst；原全部点保，不跨场继承；[p/μ审查](notes/2026-11-26-fixed-target-p-continuation-source-audit.md)保后继换损失的真实基线。[同profile精化](notes/2026-11-26-same-deep-scalar-complete-refinement.md)/a616父适配及[d146完整fine+SOC六源](notes/2026-11-26-same-fixed-deep-scalar-refinement-with-separated-SOC.md)已刊，保eta/R/原点/父测度及原SOC政策；ready已填真实8a05身份，尚未排fine，不冒精化收敛。
 
-R691[末端相容/Haar角矩](results/R691-frozen-physical-mean-endjet-and-material-Haar.md)完整已证，不推存在/no-go或新freeze门。[1d12/c5a](notes/2026-11-26-frozen-true-material-Haar-target-interface.md)保全core/RT交叉/严格尾/mean/J/J*，Q/p不定义g。[实际71](notes/2026-11-26-actual-complete-material-Haar-moments.md)7ebb的2049/2049角orbit完整返027c36，Q8192/p12；精度请求未达但盒有效。已刊[完整求解五源b70](notes/2026-11-26-complete-frozen-Haar-amplitude-actions.md)，排真实moments冻结→新μ.01/1×256→纯reader，保原全变量/H²/192+amp/永久点，初始Phi重读、无旧目标比较；当前仅ray。新target/final SHA未返，不冒同g精化/新几何。
+R691[末端相容/Haar角矩](results/R691-frozen-physical-mean-endjet-and-material-Haar.md)完整已证，不推存在/no-go或新freeze门。[1d12/c5a](notes/2026-11-26-frozen-true-material-Haar-target-interface.md)保全core/RT交叉/严格尾/mean/J/J*，Q/p不定义g。[实际71](notes/2026-11-26-actual-complete-material-Haar-moments.md)7ebb的2049/2049角orbit完整返027c36，Q8192/p12；精度请求未达但盒有效。已刊[完整求解五源b70](notes/2026-11-26-complete-frozen-Haar-amplitude-actions.md)，排真实moments冻结→新μ.01/1×256→纯reader，保原全变量/H²/192+amp/永久点，初始Phi重读、无旧目标比较；当前仅ray。新target/final SHA未返，不冒同g精化/新几何。 [faa863连续全Gram](notes/2026-11-26-accurate-Haar-continuous-Gram-consumer.md)已刊：固定准确Haar角矩区间、全RT/共同分割/双方标量余项、同定义公共项准确相消；仅2e/λ1新场，未实跑或认证，不对已知百分之一场耗算上界。
 
 R692[完整旋转连接](results/R692-nonlinear-rotation-connection-and-metric-error.md)已证：经典连接类全MC/周期势、帽和闭圈、无1/c双积分Gram界及全J/J*；C²仅端口，不推所有弱类或非圆存在。新全SO3候选/core/H闭合与实际求解继续，端点lift不冒E恒1。
 

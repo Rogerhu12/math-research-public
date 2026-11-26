@@ -363,3 +363,5 @@
 2026-11-26 10:18:04 UTC — Astra-larger-e4e2a2bf-20261126：独立第二公开job的完整57493编排、request02/必要父链queue02与CPUtorch2.5.1配置直接刊并由push触发；其HANDOFF只写独立slot，原main/science/render/sync AST保持，第一job继续deep/Haar。再生仅为新全SO3的真实输入，不重宣旧结论、旧几何或按SHA造raw；实际run待返。另如实登记stage71本地分数转小数偏差：approx发布前已全部删除，公开只原Actions有理界，后续数值求值仍只Actions，不改规矩追认。
 
 2026-11-26 10:20:54 UTC — Astra-larger-e4e2a2bf-20261126：实际70纯读同一63报告，末面11 advances/Pg比.6841，24加5释放、最长同面30、QP846.306秒、B358次/79.121秒，粗Gram及面无fallback；不把有限预算只归咎单次Schur失败，不重做R681。完整p4→p8同g来源/新基线及符号μ尺度审查刊出：现入口允许显式新μ，禁止跨p自动继承或旧Phi比较，没有统一μ倍率保持全部QP；未数值求任何新μ，当前67/68 max和Phi均降，保持实际p4续算。
+
+2026-11-26 10:45 UTC — Astra-larger-e4e2a2bf-20261126：准确冻结材料Haar的完整连续Gram消费者faa863、证明与摘要接口直接刊；固定准确目标角矩区间/全RT交叉/共同Bernstein分割及双方scalar L2余项完整保留，公共fs²/f²仅同定义准确相消。来源2e/λ1界限明确，不误套deep/SO3；整胞journal与全部input/source身份绑定，不对已知百分之一残差场排昂贵上界。仅静态AST/compile与完整解析审查，无科学运行或连续认证。
