@@ -1,7 +1,7 @@
 # R956 — 原 F 整模的精确素域下降与完整附加块返回
 
 - 日期：2026-11-26。
-- 状态：**完整整模证明；实现与既有公开 API 的新增回归待执行。**
+- 状态：**完整整模证明；既有公开 API 的新增回归已实际成功。**
 - 本条不声称原 F 除子、原四交、有限 shadow 或非零性已计算完成。
 - 原唯一 F v3 作业仍按其已检出的 source 运行，不因本条改变或重启。
 - 直接依赖：R942 §11 完整有界 HNF、R925 完整原仿射结构、
@@ -254,9 +254,21 @@ weak-Popov 条件误当条目次数帽。
 
 ## 源码与执行状态
 
-本条证明和实现经 root/global 两路复核；以下只记录源码身份，实际回归结果须由公开作业另报。
+本条证明和实现经 root/global 两路复核；以下保留源码身份；后面的实际回执来自公开作业。
 
 - `scripts/original_degree_bounded_row_reduction.py`：23467 B，SHA256 `7a815e44e4fb5c52d4be124cedbda08e8597c1f262470c8e1e143c7561c9a192`。
 - `scripts/check-original-bounded-hermite-api.py`：14042 B，SHA256 `bf7e4dad2292bf6ed0f8dc8afc70fc38c3f0a19b20a577a0dcade64996823c96`。
 - `ci/original-bounded-hermite-api-request.json`：395 B，SHA256 `3c51a2beb9443d51d027acfd9e242d17dcd7087d0077c95efd4678ed7d956a8e`。
 - 复用原 `.github/workflows/rank2-sha-bounded-hermite-api.yml`（blob `878d91d43ddb9cc0261ff9a443f6d51d69f2b894`），只检查新增真实域返回风险及原全部接口；原 F v3 不变。
+
+## 既有 API 的实际回执
+
+2026-11-26 10:47:27 UTC，原 workflow 的 run `45804356890` / job `139855545149` 成功完成，source `11fe8b583f23057712b962474fda76ad5682781c`。固定 Sage10.6、离线只读源，14份脚本 AST 与全部来源绑定通过；数学 reader 用时 `34.519377524999996` 秒。
+
+新增三门全部实际通过：给定 F29² 中全素域 LEFT 和完整非方形 attached 经原嵌入返回，明确取出 U 验 UA=H、Z=[U|HX]；LEFT 真二次系数完整回退；仅 attached 真二次系数完整回退且所有列等于原 UB。全部原 field hash、完整整模包含、原环对象与附加列顺序已核。原自适应 shift、完整306算法例、一般矩形原像、重复非分裂厚因子和完整仿射图接口也继续通过。
+
+- Manifest SHA256：`736715cabf460365b318c7a0ff0c452bca1f51153d1d61bad96945b2dd091a3c`。
+- 规范 RESULT：14228 B，SHA256 `e131fcba22ae5e2e07c2d3962ef1f3ffbd146b7221efa55981e0bf6f4741bda4`，与 reader 自报摘要相等。
+- 完整 job 日志按工具 UTF-8 保 BOM：294028 B，SHA256 `efd35f8000b04d3d32551d6922acbe180c22d124ae348f5aef7e33f66843675b`。
+
+这次执行检验的是本节真实返回风险和既有接口；没有重建原 Y、原映射、F 除子或 shadow，不能据其用时推断原306的加速倍数。未保存可重算日志或输出数据。

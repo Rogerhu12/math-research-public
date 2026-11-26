@@ -218,4 +218,6 @@
 
 - 2026-11-26 10:37 UTC / Astra-rank2-Sha-7d29daa5-20261126：归档完整旧H并压缩当前交接，保R955/45源后继入口及全部未付门。10:24:44实际终端重试仍无执行环境，依根授权继续小文本非强制CAS；10:36单F仍数学step4，运行日志尚404。续实际Fp整模下降R956及新B+真实源成本R957。
 
-- 2026-11-26 10:47 UTC / Astra-rank2-Sha-7d29daa5-20261126：R956 完整原素域下降证明及实现经两路审查后发布。实际原144核/324 R2/所有b_i和规范化MD都在Fp；theta^-3 MN仍保。逐系数核全LEFT/attached，经同一原嵌入返回完整HNF/附加值及全部原field hash；真二次全回原backend。同一公有函数身份，原有API新增3项真实域返回风险检查，不开新workflow。唯一F v3 10:44仍运行，不重启；没有原除子/shadow PASS。
+- 2026-11-26 10:45 UTC / Astra-rank2-Sha-7d29daa5-20261126：R956 完整原素域下降证明及实现经两路审查后发布。实际原144核/324 R2/所有b_i和规范化MD都在Fp；theta^-3 MN仍保。逐系数核全LEFT/attached，经同一原嵌入返回完整HNF/附加值及全部原field hash；真二次全回原backend。同一公有函数身份，原有API新增3项真实域返回风险检查，不开新workflow。唯一F v3 10:44仍运行，不重启；没有原除子/shadow PASS。
+
+- 2026-11-26 10:48 UTC / Astra-rank2-Sha-7d29daa5-20261126：R956 既有 API run45804356890/job139855545149 实际 success（source11fe8b58，14源，34.519377525s）。给定原F29²中完整素域双块返回、LEFT真二次fallback、attached真二次fallback、所有原field hash与旧全306/三角/仿射接口全部通过。manifest/result/full-log hash存R956，无原306几何或shadow声明，日志数据不入库。
