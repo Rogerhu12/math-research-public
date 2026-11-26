@@ -144,7 +144,10 @@ def main():
                 row.update(output_sha256=digest(audit_path),status=check['status'],
                     branches=check['branches'],normalized_Darboux=check['normalized_Darboux'],
                     continuous_turning=check['continuous_turning'],
-                    unique_turning_mean_bracket=check['unique_turning_mean_bracket'])
+                    unique_turning_mean_bracket=check['unique_turning_mean_bracket'],
+                    bridge_tail_trace=check.get('bridge_tail_trace'))
+            if audit_process.returncode:
+                row['last_log']=audit_path.with_suffix('.log').read_text(errors='replace')[-2000:]
             state['stages'].append(row)
             audit_process=None
         if installed.returncode==0 and audit_process is None:
@@ -165,8 +168,10 @@ def main():
                 audit_path=out/('cut-'+packet.name.replace('.json.gz','.json'))
                 audit_stream=audit_path.with_suffix('.log').open('x')
                 audit_process=subprocess.Popen([sys.executable,
-                    str(current/'seam_cut_height_compatibility.py'),'--tail-response',str(packet),
+                    str(current/'seam_cut_pair_audit.py'),'--tail-response',str(packet),
+                    '--source-run',str(source),'--physical',str(source.parent/'physical.npz'),
                     '--source-port',str(work/'m24-linear-port.json'),
+                    '--short-bridge-source',str(work/'runtime-source/bundle/topics/visible-flex-larger-amplitude/computations/root_short_bridge.py'),
                     '--out',str(audit_path)],cwd=repo,env=env,stdout=audit_stream,stderr=subprocess.STDOUT)
                 break
         save()

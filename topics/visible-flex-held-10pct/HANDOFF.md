@@ -6,7 +6,7 @@
 
 连通闭C²嵌入、C²连续族；H闭、有内点且diamH≥.2D，整像δhold≥.1D、含反射δE>0，全时reach≥.03D。固定完整g/物理数据/时间范围加密到完整metric≤1e−6并持续下降。必须实际闭合和共用Cartesian两jet；λ<1不提供准确圆弧H。
 
-- 公共已完整读规则并真实pull：`8f01c8fc1f1e13392dc212c31e38d81d08e1dfd1`；私有根README/QUEUE接手登记已推 `2f68946f2fa3e192a291c7c1393231af1a89953e`。每次pull核双README差异，至少每小时一次。root独占git，逐结论push，NFF立即pull --rebase再推，禁force；令牌只命令行。
+- 公共已完整读规则并真实pull：`eff68016b972489fe58aff2b887e538c4472f4c6`；私有根README/QUEUE接手登记已推 `2f68946f2fa3e192a291c7c1393231af1a89953e`。每次pull核双README差异，至少每小时一次。root独占git，逐结论push，NFF立即pull --rebase再推，禁force；令牌只命令行。
 - 工作树 `/tmp/held10-astra-06bbeb395471-public2`；原/workspace盘满，不删他人文件。旧1b6d88ec scratch不存在；54314/45287/79634最终状态仍未知。详细[本次接手/来源](notes/2026-11-26-resume-and-current-sources.md)。
 - 70份精确历史源码已恢复；M24端口/角图/tail参数/native均与旧SHA逐字相同。[可搬迁恢复入口](notes/2026-11-26-tail-source-recovery.md)。恢复仅工程输入，不作为新数学结果。
 - 直接原控制冷恢复818/418节点均exit137；batch8恢复亦被SIGKILL，最后只到Jac开始，未到LU、无accepted raw。不能说数学失败。最后Jac输入曾保存为未接受初猜；05:51 UTC共享环境重置后本地副本已丢，不能继续假设存在。
@@ -22,7 +22,7 @@
 
 1. actual_tail恢复M24 λ.002真实场，续原fullH与8次外迭代。旧.25/.5 warm成功只属旧场，不当fullH，不把未知.75终态推断成功。
 2. fixed_metric从新实际场固定完整δ/尾背景/角图/圆化数据，求同一BVP未知核心并核全C²收敛。旧`fixed_m3_linear_field.py`只准备强固定入口linearDN接口，未运行，不继续无必要的兼容债计算。
-3. seam_geometry处理实际桥--尾公共两jet，保mean1168/真primitive/高度符号；优先在余量较大的尾侧作显式Hermite接缝，尚无fullH数据不得报闭合。 已按原源码核明ω−1=w²(L+q)，全周转角决定meanSlope、归一化Darboux决定RR；有限场须另付真实转角/三角表/求积/二阶残差，不能仅用打印零模。见[源码兼容](notes/2026-11-26-seam-mean-source-compatibility.md)，A≥.1仍是待验条件。
+3. seam_geometry处理实际桥--尾公共两jet，保mean1168/真primitive/高度符号；优先在余量较大的尾侧作显式Hermite接缝，尚无fullH数据不得报闭合。 已按原源码核明ω−1=w²(L+q)，全周转角决定meanSlope、归一化Darboux决定RR；有限场须另付真实转角/三角表/求积/二阶残差，不能仅用打印零模。见[源码兼容](notes/2026-11-26-seam-mean-source-compatibility.md)，A≥.1仍是待验条件。[新cut入口](notes/2026-11-26-seam-new-prefix-cut-entry.md)已接parent：每个真正accepted尾包与其实际prefix同R两jet比较，保mean1168及原高度符号，区分native总导数与真背景加原meanCorrection；尚无新场输出。
 4. root并行圆化到λ1；M32端口已恢复到旧SHA `2be7db12...69684c6`，尚未求新M32场，不与M24恢复抢内存。新设计改变λ/δ与最终同g精化分开。
 
 ## 必须复用的前会话成果

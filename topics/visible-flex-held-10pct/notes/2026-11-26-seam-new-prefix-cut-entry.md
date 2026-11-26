@@ -1,0 +1,119 @@
+# 新 accepted 前缀的公共 R 切口导出入口
+
+日期：2026-11-26。源码
+[seam_bridge_cut_trace.py](../scripts/resume_20261126/seam_bridge_cut_trace.py)
+在保存实际 accepted 前缀的同一公共 runner 上执行。
+它不重建大 Flow、不评价 core、不求解边界问题，也不传出完整场数组。
+当前只有源码及函数级校准；新实际场的数值结果须另记，不能继承旧场的 cut 数值。
+
+## 最小父入口
+
+父任务可一次调用
+[seam_cut_pair_audit.py](../scripts/resume_20261126/seam_cut_pair_audit.py)，
+依次执行原 accepted 尾的连续高度审计和实际前缀两 jet 比较：
+
+~~~bash
+python "$TOPIC/scripts/resume_20261126/seam_cut_pair_audit.py" \
+  --source-run "$ACCEPTED_RUN/run.json" \
+  --physical "$ACCEPTED_RUN/physical.npz" \
+  --source-port "$WORK/m24-linear-port.json" \
+  --short-bridge-source "$WORK/runtime-source/bundle/topics/visible-flex-larger-amplitude/computations/root_short_bridge.py" \
+  --tail-response "$ACCEPTED_TAIL_PACKET" \
+  --out "$WORK/cut-pair-audit.json"
+~~~
+
+主 JSON 保留 `branches`、`normalized_Darboux`、`continuous_turning`、
+`unique_turning_mean_bracket` 原字段，再增加 `bridge_tail_trace` 小摘要。
+详细 JSON、日志与 NPZ 均放在同 runner 的 `cut-pair-audit-local/`，
+不允许输出目录位于仓库内。该薄入口已通过语法检查，未实际运行新 accepted cut。
+
+若只导出前缀端点，直接调用如下：
+
+~~~bash
+python "$TOPIC/scripts/resume_20261126/seam_bridge_cut_trace.py" \
+  --source-run "$ACCEPTED_RUN/run.json" \
+  --physical "$ACCEPTED_RUN/physical.npz" \
+  --source-port "$WORK/m24-linear-port.json" \
+  --short-bridge-source "$WORK/runtime-source/bundle/topics/visible-flex-larger-amplitude/computations/root_short_bridge.py" \
+  --out-npz "$WORK/current-cut-R-jets.npz" \
+  --out "$WORK/current-cut-R-jets.json"
+~~~
+
+当同一 runner 还保存一个原 accepted 尾包时，追加
+`--tail-packet "$ACCEPTED_TAIL_PACKET"`，即可同时输出实际完整高度
+$R$ 阶 0、1、2 jet 的差。该输入仍先经过原残差门限、原 port 和全部真实背景
+参数核验。工具不会从“有 accepted 尾包”自行推断 full-H；
+warm `.25 H` 包若被用于诊断，仍只对应其缩小后的完整输入。
+
+原 portable 前缀必须通过原 `prefix_gate` 及 raw success；
+R63 固定 $g$ 分支必须带真实的 `finite_linear_candidate_pass`。
+两种情况都校验 `physical.npz` SHA、当前 ShortBridge 源和 port 的记录绑定。
+本工具可以处理 $M$ 不同的完整 $3M+1$ 列物理 quintic，
+始终保留原 gauge $.06$ 和字面 mean1168。特别地，不把未知解参数
+$q_{\rm actual}$ 代入 gauge 槽重乘已保存的 $Y$。
+
+## 实际端点定义
+
+`physical.npz` 最后一段是原公共 $C^2$ quintic。将其 binary64 系数和
+物理节点解释为精确有理数，直接取最后左多项式在 $s_c$ 的 0、1、2 阶值，
+再乘固定 gauge，得到完整 $qY$。
+
+桥起点复用原 `multistage_flat_profile._reference` 的定义：
+
+$$
+s_b=\operatorname{binary}\left[
+\left(\frac{\delta}{\operatorname{float}(\delta_{\rm ref})}\right)
+\operatorname{float}\left(\sum_j\ell_j\right)\right].
+$$
+
+这里 $\delta$ 来自实际 `frozen_profile`；只作源代码的那一次规范乘法，
+不能分别求 $T_u,T_d$ 后加起来制造一 ULP 假 cell。
+终点是原 `physical.x[-1]`，并须逐字等于 $s_b+\mathrm{bridge.L}$。
+
+当前 `ShortBridge` 只依赖同一个 cut、起始半径和桥参数；
+$\delta,q,c$ 不改变它的相位形状。代码在同 runner 直接调用绑定的
+`ShortBridge(cut,1.,curvature,peak_fraction)`，
+显式传入原 `curvature=4,peak_fraction=.2`，不误用直接类的默认 $8,.5$。
+实际返回的字面相位参数进入 40 阶精确有理原函数外包；
+如果源平台生成的字面参数变化，也不会偷偷套用旧 field 的数值端点。
+
+## mean 和公共 R 的两阶
+
+区间求值保留与旧证书相同的 mean kernel 和 interval kernel SHA。
+1168 个字面角点通过已登记的字节 SHA 逐字核验。
+late quintic cutoff 的 0、1、2 jet 在 cut 为零；
+core lift 的支撑在该点之前，故此处材料角就是 $\psi$。
+工具计算同一 Frenet mean 的 $M,M_s$，并要求所有原 mean 节点的平方根严格正。
+
+统一目标 cut 为 $R_c=\operatorname{binary}(.3)$、
+$w_c=\operatorname{binary}(.08)$、$w_{R,c}=-7w_c/R_c$，
+$E=1+w_c^2$。对每个完整 Cartesian 系数使用
+
+$$
+F_R=-\sqrt E\,F_s,\qquad
+F_{RR}=E F_{ss}-\frac{w_cw_{R,c}}{\sqrt E}F_s.
+$$
+
+平面 Fourier 迹完整输出。竖向位置只输出相对于**同一个真高度原函数符号**
+$Z_c$ 的值，NPZ 字段明确命名为 `height_R_jets_relative_Zc`；
+没有将 $Z_c$ 选成零，也没有从旧场继承绝对高度界。
+竖向一、二阶则是实际完整值。
+
+若与尾比较，尾在上侧按原完整高度反射；在
+$z_b=Z_c+\mu_c$ 的原合同下，零模位置差先符号消去，随后才计算其余区间差。
+输出不是两个宽 $Z_c$ 区间相减，也不改变尾的 meanSlope/meanSecond。
+记录同时区分两个精确合同：原 worker 的 binary64 总高度导数，
+以及“真实 R58 背景导数 + 原字面 meanCorrection”所定义的高度导数。
+后者才是相应真实背景替换的分量合同，二者差异连同总和 rounding
+逐项给出。只有共享 $R$ stage 导出使用同一组扰动 cut 系数时，
+后者才可直接当作该共享图的迹；不得自动把原 worker 总导数和它等同。
+完整平面接缝还需同一尾共享 $R$ 图的实际平面节点两阶，
+本入口不会以高度比较替代它。
+
+## 已完成的源码校准
+
+已执行 `py_compile`。函数级校准检查了：新入口对原已登记字面相位给出的
+有理半径区间与直接原函数工具逐字相同；canonical $s_b$ 与旧已登记字面值相同；
+解析旋转背景的完整上侧高度导数区间包含 $-w$ 和 $-w_R$。
+这些检查未构造伪造的 accepted 包，不算新前缀或 full-H 通过。
+大数组和 NPZ 仅保留在实际 runner，仓库只存源、入口和后续小执行记录。
