@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R12 实际 Haar 有界头图的底空间无有界尾模补空间（2026-11-27，已证明）：** [实际像延拓与非零字符秩证明](results/R12-appendix-actual-haar-graph-base-has-no-bounded-tail-module-complement.md)若 L⊂K^k 支持原尾的有界 q 次根且由交换有界幂等 E 分裂，则 Y=TE 在整个尾上有界；下一尾字符中的非零幂等像含 r 个二Jordan块，q|r≤k，且行列式单位保证至少一个非零字符像。实际普通 M 的完整头根 q=N>k，故其有下界坐标闭像无任何闭尾不变补空间；幂等不必正交，未排除一般不分裂真像。
+
 - **R12 所有真有限头坐标非 Fredholm，实际 Haar 头图底空间无限余维（2026-11-27，已证明）：** [原核像与完整头幂证明](results/R12-appendix-finite-head-coordinate-nonfredholm-and-actual-haar-graph-codimension.md)用原幂单射/拟幂零排有限非零核、用尾伴随单射排有限正余核，再由根重数排除有界同构。若 Q|M 有下界，实际闭像必非零、真、无限维且无限余维；R231 必取完整头 N=2^(j+1)、k=2^j，不误用二次根排有低头重数的图。一般真底空间仍开。
 
 - **R150 S0/Lt0最小原v六次式的整个首项零面为空（2026-11-27，已证明）：** [原Dixon组合、完整双层投影及二次域返回](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-original-v-leading-zero-exclusion.md)完整核lc_vP045=(4e−k)(ek−1)B44/524288；原三mean差商系数/Cramer追踪给D8，564/750/776次一元投影Bézout仅余e1/2。其B44=(k−2)²(k²+29k+64)乘非零常数，k2原单位排除，末二次域P045/P035的v-Bézout1。109.809478秒/607860KiB/exit0；一般图可合法用首一v六次关系。

@@ -160,3 +160,5 @@ S0/Lt0的k=4e、v=t=0、Omega=2e²−ek+2=0整支均已完整原返回排空；�
 **[最小原P045的全部v首项零面已关闭](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-original-v-leading-zero-exclusion.md)：** 新Dixon差商是原三mean的显式组合，完整两层投影及e1/2的整二次域返回皆通过，109.809478秒/exit0；B44可逆，下一用首一v六次关系保原组合降次及两参数覆盖，未宣一般Lt0为空。
 
 [原有限头坐标的非Fredholm及实际图余维](results/R12-appendix-finite-head-coordinate-nonfredholm-and-actual-haar-graph-codimension.md)已付：有下界时闭像必无限余维；R231保完整低头重数。未知真底空间的原核像/根限制仍需支付。
+
+[实际头图无尾模补空间](results/R12-appendix-actual-haar-graph-base-has-no-bounded-tail-module-complement.md)已付：可分裂根必q≤k，完整原头q>k排除任何有界交换幂等像；不分裂的未知真底空间继续。
