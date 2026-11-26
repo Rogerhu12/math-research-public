@@ -1,13 +1,13 @@
 {
   "schema": "6a65-M12-fixed-original-g-complete-common-cut-prefix-request-v1",
-  "elements": 80,
+  "elements": 160,
   "order": 48,
   "angular": 768,
   "gauss": 8,
   "block": 24,
   "iterations": 6400,
   "newton": 1,
-  "request": "2026-11-26-same-g-same-space-linear-solve-refinement",
-  "previous_run": "45802097600",
-  "physical_scope": "Same original g, source, full common-cut prefix, 158 merged elements, order48/N768/G8 and independent G10/N1536 as run45802097600. Only linear iteration cap1600 to6400; one nonlinear step from the same original field."
+  "request": "2026-11-26-same-g-radial-space-refinement-after-6400",
+  "previous_run": "45804794238",
+  "physical_scope": "Same original g, source, complete common-cut prefix and original initial field. Only elements80 to160; order48/N768/G8/6400 LSMR, one Newton and independent G10/N1536 unchanged. Radius .6 remains an internal seam; whole tail is a separate complete problem."
 }

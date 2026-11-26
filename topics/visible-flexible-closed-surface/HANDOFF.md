@@ -38,15 +38,19 @@ source002=28c629a0627在09:44:12真实消费：实际父态→短Cauchy/.14入�
 
 CI每次literal pull在首行marker记SHA；publisher只合并该行，保root其它文本，不amend已发布提交。等待fetch30秒，新请求或45分钟才真实pull。root分条push同时遇NFF/锁冲突均已即时pull/rebase循环成功。后继文件 `ci-requests/6a65-strong-followup-20261126.json` 必须消费实际末态，不猜SHA。
 
-原M12[同g前缀加密](notes/2026-11-26-6a65-m12-prefix-fixed-g-refinement.md)：首run45797640490真0，158元/order32/800LSMR stop7，独立metric8.05624e−10。第二run45802097600真0/438.416s，158元/order48/N768/G8/1600LSMR仍stop7，独立G10/N1536 metric4.63936e−10、κ5.1127246793。run45804794238只将同空间LSMR上限升6400，等真实正规残差诊断；全部原g/物理/原场保留。raw只各runner，不能借已结束job的field。
+原M12[同g前缀加密](notes/2026-11-26-6a65-m12-prefix-fixed-g-refinement.md)：首run45797640490真0，158元/order32/800LSMR stop7，独立metric8.05624e−10。第二run45802097600真0/438.416s，158元/order48/N768/G8/1600LSMR仍stop7，独立G10/N1536 metric4.63936e−10、κ5.1127246793。run45804794238真success/1496.165s，6400仍stop7；正规残差1.180e−15、独立metric4.64191e−10，峰未下降；新请求只elements80→160，保持order48/N768/G8/6400，详见[实际辨别](notes/2026-11-26-6a65-m12-prefix-radial-refinement-after-6400.md)。全部原g/物理/原场保留。raw只各runner，不能借已结束job的field。
 
-[完整Cauchy oracle](notes/2026-11-26-6a65-geometry-cauchy-source-oracle.md)已冻结f5036c5f…4e440：直接原factory/完整z/A/Z/primitive，延到S+.48真cuff，六jets及三更高mixed jets。明确新zero系数接口probe真0/1.42s，未借CI state/value/接受；真状态消费还须同job身份和deep核对。
+[完整Cauchy oracle](notes/2026-11-26-6a65-geometry-cauchy-source-oracle.md)完整z/A/Z/primitive及真尾直接消费；六jet与两端口接口证据已付，不能借接口probe作实际CI场。
 
 [原M12真全半体](notes/2026-11-26-6a65-m12-entire-half-ci-45803041361-1.json)run45803041361/source93721721真success/1882.249s；362元35378列/2859精确查询、800LSMR stop7、α1。独立metric8.75957e−9→8.49450e−9、κ6.416872698、support.817884894，峰q2.202517253；内部r=.6自由/真cuff两jets0。field d703d006…1af8e仅结束runner；下一真实whole接R226及全源C_X，不能借参考几何给未知W。
 
 [新gap紧支撑全两jet窗](notes/2026-11-26-6a65-geometry-cauchy-short-window.md)已实现：只在[b,b+.2]改真实位置，窗外直接原全尾/A/Z；自然周长改g，不缩放几何。两次明确zero接口probe真0，左右完整迹通过，内部mixed角FD仍2.11e−7（256求积），不能当真CI新baseline或连续证书。
 
 [完整Cartesian点算子](notes/2026-11-26-6a65-solver-strong-cartesian-complete-interface.md)已实际真0：13行含全Gram四次/曲率/7几何，1412标量对原R191/R210相对差≤1.70e−15、伴随≤2.70e−16；合成点不是完整曲面。J80×97全proper-half-turn基及实际源固定g接口已推导；全stream/真实LM仍在接。
+
+## 本次执行环境中断
+
+11:20UTC终端transport断开并标unavailable；未推cold提交de99b8f47无成功回执，远端未见，不计启动。API核两README blob未变，最新核至 `7877441c9d8e883cc5839bad6907d36f36d83d33`；API不冒literal pull。只用小文本快进更新本项与径向请求，CLI恢复后立即pull/rebase并核未发布源码/原件，当前尚不判丢失。
 
 ## 继续顺序
 
