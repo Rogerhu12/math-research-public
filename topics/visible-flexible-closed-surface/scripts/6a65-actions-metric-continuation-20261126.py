@@ -42,6 +42,16 @@ def number(value):
     return format(value, ".15g") if isinstance(value, (int, float)) else str(value)
 
 
+def concurrent_push_rejection(message):
+    # GitHub may lose the main compare-and-swap after advertising its ref.
+    # Match that concrete race, not unrelated remote permission/hook failures.
+    return bool(re.search(
+        r"non-fast-forward|fetch first|\[rejected\]|"
+        r"cannot lock ref ['\"]refs/heads/main['\"]:\s*is at [0-9a-f]+\s+but expected [0-9a-f]+|"
+        r"incorrect old value provided",
+        message, re.IGNORECASE))
+
+
 class RulesChanged(RuntimeError):
     """The controller cannot claim understanding of a new README."""
 
@@ -253,8 +263,7 @@ class Controller:
             pushed = self.git("push", "origin", "HEAD:main", check=False)
             if pushed.returncode == 0:
                 return
-            if not re.search(r"non-fast-forward|fetch first|\[rejected\]",
-                             pushed.stdout + pushed.stderr, re.IGNORECASE):
+            if not concurrent_push_rejection(pushed.stdout + pushed.stderr):
                 raise RuntimeError("Push failed for a reason other than non-fast-forward; see actual Git output")
             self.sync_rules("non-fast-forward")
             self.save()
