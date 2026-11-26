@@ -1,0 +1,39 @@
+{
+  "elapsedSeconds": 4.20347,
+  "gcdFactors": [
+    [
+      "v",
+      23
+    ],
+    [
+      "v-1",
+      4
+    ],
+    [
+      "v+1",
+      8
+    ],
+    [
+      "v^2+1",
+      8
+    ]
+  ],
+  "ordinaryISPClaim": false,
+  "peakRssKiB": 65216,
+  "resultantDegrees": [
+    54,
+    89
+  ],
+  "schema": "r150-unit211-opposite-second-singular-mean-20261126-v1",
+  "scope": "p=1,q=-1,u nonzero,D2=0,D1 nonzero; l=0,1/2 referenced from prior exclusions",
+  "sourceSha256": "01b974c3281c3436286a5aab8b81c6418e8473d6b28d5929168348b95d4ffcc2",
+  "status": "all_exact_QQ_checks_pass",
+  "executionCommand": "PYTHONPATH=/tmp/isp-347c05929dd3/deps python 2026-11-26-unit211-opposite-second-singular-mean-chart-347c.py",
+  "exitCode": 0,
+  "pythonVersion": "3.12.14",
+  "sympyVersion": "1.14.0",
+  "pythonFlintVersion": "0.9.0",
+  "stdoutSha256": "1a25330954cf35c1555cc4ba409e39cb0f2802bca24359719c6bf33b9f4abebc",
+  "executionOwner": "Astra-ISP-347c-20261126 / unit31_general",
+  "rootReview": "Read original reconstruction, complete divisor ledger, QQ resultants and original final fibers; no repeated execution."
+}

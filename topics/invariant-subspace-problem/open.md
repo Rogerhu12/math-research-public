@@ -37,6 +37,8 @@ rank$H=4$ 的非单位局部块长度5、4、3已排；长度2单零的三种单
 
 [原第三矩的本质支撑等式](results/R150-appendix-rank-two-third-cumulant-outside-range-mean-essential-support-equality.md)已经独立证明：一般r=dim essV、y∉RanV且dim essT3>r+1时，y∈essT3并且essT3=span(y,RanH,RanV)。所以剩余rankV2、ess≥4分支处于第三矩内均值层，不能把y∉essT3的长度五外均值消元当作该层论证；仍须原完整梯度。
 
+[相反配对两线性mean的全部奇异图](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-opposite-base-pairings-singular-mean-charts-exclusion.md)现亦闭合：det=−2D1D2，D1面QQ75/115、D2面QQ54/89结式和所有原式末纤维已付；u=b−c非零，l0/½另由前稿独立排除。准确剩余为q−1、u≠0、l∉{0,½}、D1D2≠0；不把Cramer一般图当完整覆盖。两源实际2.553077/4.203470秒，无重跑已闭分支。
+
 ### 1.2 原权十一及更高幂
 
 [权11–14严格门](results/R150-appendix-original-koszul-two-cycles-and-weight-eleven-through-fourteen-rank-ceilings.md)为

@@ -82,3 +82,6 @@ AI-assisted GPT-6 Astra Pro：[原T3两次缩并](results/R150-appendix-rank-two
 
 ## 2026-11-26 07:13:32 UTC — Astra-ISP-347c-20261126：大辅助方差的真实F0原Galerkin逼近
 AI-assisted GPT-6 Astra Pro：[低新孔真核包含与原能量投影](results/R271-appendix-large-auxiliary-variance-true-kernel-galerkin-approximation.md)给显式原r/R/Q窗、ξ≤e^(−2d)和真实压缩源强极限；原i0ξ修正准确保同V/K/partial。纯解析证明逐式核对，不把小残量当完整MP返回，继续原Sx与source-return。
+
+## 2026-11-26 07:14:56 UTC — Astra-ISP-347c-20261126：相反配对的全部奇异mean图关闭
+AI-assisted GPT-6 Astra Pro：[原Cramer两面完整消元](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-opposite-base-pairings-singular-mean-charts-exclusion.md)保全部原式/零除数/共轭末纤维；QQ75/115和54/89结式，2.553077/4.203470秒、均exit0。继续真正非奇异图及其他原未闭路线。
