@@ -10,6 +10,8 @@ R63固定完整g后把未知核放同一函数空间，必须核与全场C² Cau
 
 [R71](results/R71-v4-uniform-small-lambda-curvature-bounds.md)已给当前λ=.004的v4连续曲率/同模投影M一致条件数<1.009及小λ的L²全列可逆；不再把此处完整BVP困难归为这组入口曲率基的M近核。仍须核真实径向传播/端口伴随响应，δ改变物理profile的非齐次列不能由入口L²满射直接吸收。
 
+[R72](results/R72-delta-robin-response-and-phase-compatibility.md)进一步给完整δ响应（含桥转移与移动端点责任）、线性共振伴随积分及有限幅βδ/βphase条件；积分非零与实际Schur仍未测。固定d1=0、以原δ替代首phase是新的明确design选择，不能标同g精化；保原source baseδ/raw p0/chart与各自mean（M32为1552），先做真实零控制同图，再交原BVP全部门。
+
 ## 当前接续顺序（2026-11-20）
 
 - 新多段g原support q=.006→.06已全过；宽窗λ0/τ1完整lift后，λ.002在M24原linearDN前缀已过metric6.48242e−7。原mean1168/GL6和mean512 proxy明确区分；真实尾.25及.5 warm均已完整原门通过；chord3 session54314现接.75/.9，完整fullH与原外迭代仍欠。固定完整g/全部物理参数与均值规则后才进入正式精化。 root下一λ.004/M24真收敛但metric1.53303e−6未门，表示外ψ77/79主导；[M32升谱实际](notes/2026-11-20-m3-newg-lambda0004-m32-accepted.md)已860点过原metric7.604677e−7/BC2.84346e−12，原mean1552；[λ.008/M32](notes/2026-11-20-m3-newg-lambda0008-m32-accepted.md)76535已863点过metric7.844246e−7/BC6.08e−15，现45287续λ.016同原门，旧真尾不动。

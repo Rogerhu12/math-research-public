@@ -166,3 +166,7 @@ R55补充：[较宽设计盒与条件完整D≤2.69](notes/2026-11-20-soft-start
 ## R71. v4 小λ曲率列及同模投影的 M 一致双边界
 
 [完整证明](results/R71-v4-uniform-small-lambda-curvature-bounds.md)。真补弧正交性给算子上界√(2L)，与完整余弦列组合得到连续曲率及同模投影的M无关双边界；λ<1/(1+√(2L/c))时正。当前λ=.004严格条件数<10001/9919<1.009；无限ℓ²到偶零均值L²亦以Neumann级数可逆。不是adaptive-chart位置投影/完整BVP逆界，不推出C²截断收敛或新接受场。
+
+## R72. δ设计的精确端口响应与相位兼容标量
+
+[完整证明](results/R72-delta-robin-response-and-phase-compatibility.md)。完整转移R=ell·B·P·e1保桥/端点导数；本原多段profile精确返回半径1，桥全部输入固定，故桥项才可消。共振δ响应为含det(B)与a⁻³权重的伴随积分，二次型不定，不凭公式断言非零；给有限幅完整chart/lift的伴随相容标量及实际残差右端。R14连续mean微分不新增独立端口行；以δ换d1须实付Schur横截，未证明当前BVP可逆或新场存在。
