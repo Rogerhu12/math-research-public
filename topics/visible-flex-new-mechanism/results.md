@@ -458,3 +458,5 @@
 - [R613完整S的真实60步终态](notes/2026-11-27-r613-full-position-sixty-step-terminal.md)：**真实改善，尚未驻点**；run45891036836新2961.020285526秒/60接受到真337，fineη2.52441e−7、2e−9未过。全部原奇频/QR/SVD保留，末段L2与max分离、高频增长不隐去；R615条件全角5.80359e−7尚缺径向/ODE/舍入，接真337继续。
 
 - [R621真实a237全闭连续终态](notes/2026-11-27-r582-a237-normal-curvature-original-terminal.md)：**已证当前有限材料嵌入，reach比例不足**；新665.753318451秒，mean761叶/非圆31136叶全覆盖，reach≥.01149673962、D≤1.600466642、比例≥.007183367225。法向K上界86.98118受近帽完整primitive界限制，不是实际曲率下界；下一仅新付有限v准确primitive和全部归一化余项的K，继承同q已付参考/C0/C1。
+
+- [R623同场有限垂直原函数与完整归一化余项](results/R623-exact-finite-vertical-primitive-with-normalization-remainder.md)：**已证明全角曲率充分接口**；实际C=v/√(1+v²)准确拆为四模式v和完整无限余项，前者逐频除m/四阶Bernstein全区间包围，后者全径向二jets用π周期11/14。完整水平/法向旋转/混合块与同q局部浸入下界保留，纯helper已审未科学执行，不授新K或宏观完成。

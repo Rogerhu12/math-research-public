@@ -169,3 +169,5 @@ O2b-C [新7371原终态](notes/2026-11-27-r566-physical-epigraph-original-termin
 O2b-B [全S真337终态](notes/2026-11-27-r613-full-position-sixty-step-terminal.md)以60次上限结束、末轮仍接受，不能沿用旧At/M的stall结论。正常续真238d786c/amp1e−5/damp1e−14，全950×256/1728×512与完整口不变；并将固定完整E、真实零入口/τ核心、全Jac和独立post增长接入实际模型，L2与max及条件全角误差分开。
 
 O5 [a237/R621原终态](notes/2026-11-27-r582-a237-normal-curvature-original-terminal.md)完整全闭证书仍只reach/D≥.00718337，K上界86.98118且近帽法向H11同宽。下一R623对实际v四模式逐频准确积分，同时保C−v及其全径向二jets；只新付K，原同q meanρ/D、δ/α和core盒不重算。旧1/K已限制本结果，不能为相同K重开R622标量以掩盖此瓶颈。
+
+O5 [R623](results/R623-exact-finite-vertical-primitive-with-normalization-remainder.md)已付同一实际C的有限线性primitive与完整非线性余项，纯helper经全审。下一新公开K-only范围保同a237/q/mesh/参考身份，已付core全角盒可接完整核心，body全覆盖后才组合新完整reach；原mean/C0/C1认证不复跑，必要未存材料/H重建照实计费。
