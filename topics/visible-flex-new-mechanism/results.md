@@ -188,3 +188,5 @@
 - [R566 固定全平振荡圆盘尾与图像片reach](results/R566-flat-oscillatory-cap-tail-and-graph-reach.md)：**已证明**固定w=.1exp[−(2−sinδ⁻²)/δ]、δ=(r−.22)/.2定义准确平盘与无限简单K变号；连续Hess上界K0=(75/8)e^(-5/2)+256e^-4，含边界法锥的凸底域整片reach≥1/K0>.1832。实际graph扰动Hess≤10时整片reach>.06468；不含body跨块、不授flat核或非径向同度量解。
 
 - [首轮逆设计：同q细网格径向近退化](notes/2026-11-26-inverse-first-run-radial-fold-failure.md)：**数值证据/失败闭账**。run45765708829两lane science119.422/110.244秒，Jac差1e−9；粗η.083/.091而细η1.19855/3.78338、κ74208/26180，径向圈间漏谷，球/条带/h均违约。无接受候选、不复跑原softweight49圈；继续硬几何与动态径向覆盖。
+
+- [R567 完整次阶历史与同χ八个原第二矩准确零](results/R567-complete-next-order-history-and-eight-exact-matrix-moments.md)：**已证明**原完整有序第三保 r1 横列及 BV/C¹ 次阶余项；全参数盒的 S1/P1/P0/R0 消项准确保等待与 O(1/M) 移位。两个真实正/负耦合长回路和三个低尾共同端图有可逆 4+1+2 块，原 P2 停止后八矩准确同零，A=0。未付双端偶 germ、第三/第四返回、pose、13规范或主闭面族；继续实际端口。
