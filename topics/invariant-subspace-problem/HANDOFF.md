@@ -5,9 +5,9 @@
 ## 目标、规则与执行
 
 - **普通复可分无限维Hilbert ISP未完成。** 仅全体有界算子的存在定理或完整反例算完成；继续所有未闭分支。
-- **最近实际pull / 已读规则提交：** `9508ad3286243b49004fd4bee81f6add40f3acd9`（2026-11-26 13:22:51 UTC，Actions实际pull）；两README无差异。每次pull且至少每小时检查diff并记SHA，规则blob为根282e86b03385d3b6245ce7100ae2e2af7b103c2d、课题fef43bdf8690f2eec4751d85784a266eacdd0322。
+- **最近实际pull / 已读规则提交：** `f3eb4bac533921bfcaa11becb44d7e9e68cccc3e`（2026-11-26 13:40:49 UTC，Actions实际pull）；两README无差异。每次pull且至少每小时检查diff并记SHA，规则blob为根282e86b03385d3b6245ce7100ae2e2af7b103c2d、课题fef43bdf8690f2eec4751d85784a266eacdd0322。
 - 私库QUEUE认领已推e776df496eedfa449b0475cefe140fdae7023db4。每结论单推；非快进即重取main/rebase并推到成功，不force，令牌仅CLI。
-- 本地执行09:19 UTC后unavailable，最后本地pull09:16:03 UTC；最近云端main/规则读取 `87239cd571fa9f53882d5bbdf2e8c2becb9bc1c7`（2026-11-26 13:42:11 UTC）。API读取不冒充git pull；Actions继续实际partial clone/pull和3300秒规则检查。根用expected-head非force原子提交保并发，CLI恢复立即pull/rebase。
+- 本地执行09:19 UTC后unavailable，最后本地pull09:16:03 UTC；最近云端main/规则读取 `6e18843738b5700ac5f58ac69b8b41f70440ac7f`（2026-11-26 13:45:57 UTC）。API读取不冒充git pull；Actions继续实际partial clone/pull和3300秒规则检查。根用expected-head非force原子提交保并发，CLI恢复立即pull/rebase。
 - 仅保源、参数、SHA、小回执；MD<100KB、H<10KB、open尽量<30KB、topic<200MB，不写根LOG。完整前H见[快照](notes/2026-11-26-handoff-before-h1-collision-exclusion-347c.md)及归档链，来源/旧费用不删除。
 - 继续unit211的L0补图/S0补图/generic、H3有限中心、R271真实稳定返回。已登记结论和失败旧门不重做，原全文见results索引/open快照。
 
@@ -23,7 +23,7 @@
 ### unit211原剩余图
 
 - L0的w0/w1及[b+c0整支](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-L0-zero-weight-sum-exclusion.md)均闭；后者λgcd152六因子14次、全部原w域gcd1、322真逆/Bézout，3.173630秒。旧Φ=−ρN(b+c)同步关闭；旧三参数超时仍照实留档。
-- L0只续b+c非零补图。p+q2对称三参数九式atlas2.851085秒完成，ρ投影43.769129秒完成；保(1,2)线性λ曲线W、(7,4)曲线G、(7,12)P1双零面及所有余交点。下一W的λ=(2w²+4w+1)/(4w+2)直接原ρ返回，2w+1零面由W自身不相容支付；A=2λ²−2λ+1零面保留。多变量gcd1不作无解。
+- L0只续b+c非零补图。p+q2对称三参数九式atlas2.851085秒完成，ρ投影43.769129秒完成；保(1,2)线性λ曲线W、(7,4)曲线G、(7,12)P1双零面及所有余交点。[W整曲线已闭](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-L0-linear-lambda-curve-exclusion.md)：λ有理参数保2w+1强迫单位与A零面，三原QQ w结式51/60/99的gcd51→16→0，扩展gcd实际回乘，0.406508秒/exit0。续G、双零及余交点。多变量gcd1不作无解。
 - [S0/Af0/L非零整层](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Af0-L-nonzero-complete-exclusion.md)已闭：四QQ投影、八因子20次、原z域全gcd1，109.926880秒；首项λ1/2/J3及旧碰撞已另付。P1双系数零与Lt0小J亦闭，Af两面保留，旧格式化失败不改成功。
 - **[S0/h1或k1整碰撞现闭](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-h1-k1-value-collision-complete-exclusion.md)：** 原λ二次谱4λ²−5λ+2，490.260824秒投影exit2仅五b值；同一d²=−7的全部10参数返回原P1/E1/EB，五原q域全gcd1，55/45/41/41/49真逆，0.156409秒/exit0（run45828523733/job139938856153）。不重跑490秒投影。
 - 续S0/Af非零的h=k及三值互异Lt0大因子；h=k首轮λhalf共享t真实族的执行失败留档，物理t0须用含孤立点的完整五列Gram秩2违反rank≥4，不能只用四列。[λhalf短证明现已登记](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-equal-values-lambda-half-exclusion.md)：15条原恒等式实际通过，t非零给W²0继而q0矛盾，t0由完整五列Gram排除。只启动2λ²=1余两谱；Lt0/g2=0原返回与L0/W原返回一并启动，g1由已付J非零迫可逆。

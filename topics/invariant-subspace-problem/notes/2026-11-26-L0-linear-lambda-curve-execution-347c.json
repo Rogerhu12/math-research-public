@@ -1,0 +1,394 @@
+{
+  "schema": "r150-unit211-L0-linear-lambda-curve-complete-exclusion-v1",
+  "run": 45831444045,
+  "job": 139948952171,
+  "conclusion": "success",
+  "scope": "Entire W=4lambda*w+2lambda-2w^2-4w-1=0 original L0 curve; not all L0",
+  "mathematicalResult": {
+    "claimExcluded": true,
+    "claimWholeL0Excluded": false,
+    "curve": "4*lambda*w+2*lambda-2*w^2-4*w-1",
+    "elapsedSeconds": 0.406508,
+    "fiberReturns": [],
+    "gcdWDegree": 0,
+    "ordinaryISPClaim": false,
+    "peakRssKiB": 41812,
+    "projectionHistory": [
+      {
+        "anchor": "P1_EBo",
+        "gcdWDegree": 51,
+        "other": "P1_N1",
+        "resultantSha256": "4949e2541caad5e102b0f775ac6441ad10332a5587b4436637b2801fe890334d",
+        "resultantWDegree": 51
+      },
+      {
+        "anchor": "P1_EBo",
+        "gcdWDegree": 16,
+        "other": "P1_E1",
+        "resultantSha256": "dc3b790e3d8b2249cbf68310fdeb7f34b8d79ff1152ae6e3f9980d44b7aa099c",
+        "resultantWDegree": 60
+      },
+      {
+        "anchor": "P1_EBo",
+        "gcdWDegree": 0,
+        "other": "E1_N1",
+        "resultantSha256": "111f20446ce54b5ccdf7d8014e87a2208c34cd40fd419c70abcf638d79721f28",
+        "resultantWDegree": 99
+      }
+    ],
+    "sourceSha256": "37d7e46fb7fe0e42169400986f0dbcaff9894a6860c58af13a31957395442e2b",
+    "stage": "entire_original_L0_linear_lambda_curve_excluded"
+  },
+  "originalConditions": [
+    {
+      "claimExcluded": false,
+      "coefficientProfiles": [
+        {
+          "degrees": [
+            4,
+            20
+          ],
+          "sha256": "49473cc2edcd1185f80945e5057868d40cbc951e071b2cbe1a454ca086478b23",
+          "terms": 90
+        },
+        {
+          "degrees": [
+            4,
+            19
+          ],
+          "sha256": "52fcba589b39eadddbc452e128d4ed67062b4de51fc52131bb7bb00612171186",
+          "terms": 73
+        },
+        {
+          "degrees": [
+            3,
+            17
+          ],
+          "sha256": "2c5b677c7694137bd29204f81f83a5b29ae3fc2d2e85dbbef983848381a42621",
+          "terms": 35
+        }
+      ],
+      "elapsedSeconds": 0.255237,
+      "name": "E1",
+      "stage": "original_L0_linear_lambda_curve_condition",
+      "tDegree": 2
+    },
+    {
+      "claimExcluded": false,
+      "coefficientProfiles": [
+        {
+          "degrees": [
+            7,
+            27
+          ],
+          "sha256": "9ed39a38c4d1f280d92ee48cc1d4f18e5a3a853830e8471cdedbca5527c58177",
+          "terms": 180
+        },
+        {
+          "degrees": [
+            7,
+            25
+          ],
+          "sha256": "61e7bde2db58a59c91f370e853c89387c540fe6d61573764a9543b0d000110e8",
+          "terms": 160
+        },
+        {
+          "degrees": [
+            7,
+            23
+          ],
+          "sha256": "010c56e73044428fd50bb4a2c0e2183e0fb50dd0b5a6fe98d9334bb7421945d6",
+          "terms": 129
+        }
+      ],
+      "elapsedSeconds": 0.25709,
+      "name": "EBe",
+      "stage": "original_L0_linear_lambda_curve_condition",
+      "tDegree": 2
+    },
+    {
+      "claimExcluded": false,
+      "coefficientProfiles": [
+        {
+          "degrees": [
+            6,
+            25
+          ],
+          "sha256": "61a69b67699305d0d0cec31753c7f8a5d5ac894689c8b53e67e473deb314be6c",
+          "terms": 147
+        },
+        {
+          "degrees": [
+            6,
+            23
+          ],
+          "sha256": "84003311c8ab9ea883332e2fc3e6110cfeeb294fe01c86a9b3b953cfe6a2c02d",
+          "terms": 128
+        },
+        {
+          "degrees": [
+            6,
+            21
+          ],
+          "sha256": "fcece1e6f7b01b25c5164e44e6aa40d137a302a15566dfb0e336a2fb71addc0b",
+          "terms": 100
+        }
+      ],
+      "elapsedSeconds": 0.258618,
+      "name": "EBo",
+      "stage": "original_L0_linear_lambda_curve_condition",
+      "tDegree": 2
+    },
+    {
+      "claimExcluded": false,
+      "coefficientProfiles": [
+        {
+          "degrees": [
+            3,
+            12
+          ],
+          "sha256": "1c48353834d3a279f3ed94ba8471658538a41e9bcd39bbeaa7eb79b0e87189fb",
+          "terms": 38
+        },
+        {
+          "degrees": [
+            3,
+            10
+          ],
+          "sha256": "7acadc50532f4e524f9fb5f1f88236c6ed3846d98bc634c6409cd4f703069289",
+          "terms": 30
+        }
+      ],
+      "elapsedSeconds": 0.259316,
+      "name": "P1",
+      "stage": "original_L0_linear_lambda_curve_condition",
+      "tDegree": 1
+    },
+    {
+      "claimExcluded": false,
+      "coefficientProfiles": [
+        {
+          "degrees": [
+            10,
+            39
+          ],
+          "sha256": "0266601d799a0ce083225aabfe0cf2c48e39a9ca2ffe80172524b8bba28cec94",
+          "terms": 373
+        },
+        {
+          "degrees": [
+            10,
+            38
+          ],
+          "sha256": "6e38d0bb70e93ba81723d712d6b6c6d473cc0b509f943ca362dfd4109281e808",
+          "terms": 334
+        },
+        {
+          "degrees": [
+            10,
+            36
+          ],
+          "sha256": "fd594f37eff4668bf6c518f555c85db329cb890bf3542fc5f63ffbf02dbbe218",
+          "terms": 297
+        },
+        {
+          "degrees": [
+            10,
+            34
+          ],
+          "sha256": "046bd0613507a96cfc17ff872d4d2fbe08f8d55993e590b85ee7cb335da16d98",
+          "terms": 252
+        }
+      ],
+      "elapsedSeconds": 0.263577,
+      "name": "PBe",
+      "stage": "original_L0_linear_lambda_curve_condition",
+      "tDegree": 3
+    },
+    {
+      "claimExcluded": false,
+      "coefficientProfiles": [
+        {
+          "degrees": [
+            9,
+            38
+          ],
+          "sha256": "d95622bfb70eb1a150b0bcfa98c88742dae235b0b96d20ba65eb23fa7142d882",
+          "terms": 325
+        },
+        {
+          "degrees": [
+            9,
+            36
+          ],
+          "sha256": "708ce47d997af998f5921770a82da24b3206536c61fb3b2b051b77d39aa6c9d2",
+          "terms": 287
+        },
+        {
+          "degrees": [
+            9,
+            34
+          ],
+          "sha256": "028edce7ac71ca6c997a7a98ba15bce0552e5256f31224858af63528fda485bc",
+          "terms": 252
+        },
+        {
+          "degrees": [
+            9,
+            32
+          ],
+          "sha256": "22044556bbb697d231eef221d5518e45c10b1eba0695432df0b48c2f7eb7cebe",
+          "terms": 210
+        }
+      ],
+      "elapsedSeconds": 0.267287,
+      "name": "PBo",
+      "stage": "original_L0_linear_lambda_curve_condition",
+      "tDegree": 3
+    },
+    {
+      "claimExcluded": false,
+      "coefficientProfiles": [
+        {
+          "degrees": [
+            5,
+            22
+          ],
+          "sha256": "8eb44dd6f2066287aec3e7a7d4746e3dd6fd8b7b79ed09d16c834ebae0af458f",
+          "terms": 110
+        },
+        {
+          "degrees": [
+            5,
+            20
+          ],
+          "sha256": "b01ea7064262acf8f3f101462ca55e2e29737da4fbc1889708104d5d03a91a40",
+          "terms": 95
+        },
+        {
+          "degrees": [
+            4,
+            18
+          ],
+          "sha256": "0ddcfb9e191321aade1943bb3e5d8ea26d58607a0b46d42a0d3695254d36c6d8",
+          "terms": 54
+        }
+      ],
+      "elapsedSeconds": 0.269154,
+      "name": "N1",
+      "stage": "original_L0_linear_lambda_curve_condition",
+      "tDegree": 2
+    },
+    {
+      "claimExcluded": false,
+      "coefficientProfiles": [
+        {
+          "degrees": [
+            7,
+            35
+          ],
+          "sha256": "f41e4077cd9b93a8829212be179e50bdb96694796b7505ae5893c52d79ec94ca",
+          "terms": 244
+        },
+        {
+          "degrees": [
+            7,
+            33
+          ],
+          "sha256": "bf2c8472ae903ee2228903f44a6ff6c8e636273f5221095fce4b86163424cca8",
+          "terms": 209
+        },
+        {
+          "degrees": [
+            7,
+            31
+          ],
+          "sha256": "ea30790b08d30064cf1f2ff8c3c7a3185332e1d0fc90981f6f54301fa30d7307",
+          "terms": 177
+        },
+        {
+          "degrees": [
+            5,
+            29
+          ],
+          "sha256": "274743796a42de0938f7a3ebc3287f704a19ff19bb64104a3050623ac5c1c069",
+          "terms": 81
+        }
+      ],
+      "elapsedSeconds": 0.271844,
+      "name": "NBe",
+      "stage": "original_L0_linear_lambda_curve_condition",
+      "tDegree": 3
+    },
+    {
+      "claimExcluded": false,
+      "coefficientProfiles": [
+        {
+          "degrees": [
+            8,
+            34
+          ],
+          "sha256": "05709886f69f2443f53600308877c8c5ac53c120c6014c3b6c04503e07996e25",
+          "terms": 268
+        },
+        {
+          "degrees": [
+            8,
+            33
+          ],
+          "sha256": "f3b2e574a77fc6725b86b5efe50aa80c5cd759ff38527357f43d2dda347aba5b",
+          "terms": 236
+        },
+        {
+          "degrees": [
+            8,
+            31
+          ],
+          "sha256": "64f27bbce82888d8aea5fa9e6a20b116344add5eef4efc49641aa065fa5373d1",
+          "terms": 203
+        },
+        {
+          "degrees": [
+            6,
+            29
+          ],
+          "sha256": "456915ebab16472ca7b78fa0239286b80bc5f30d4acba18b7a1a335c2adeff5f",
+          "terms": 106
+        }
+      ],
+      "elapsedSeconds": 0.274907,
+      "name": "NBo",
+      "stage": "original_L0_linear_lambda_curve_condition",
+      "tDegree": 3
+    }
+  ],
+  "driverReceipt": {
+    "elapsed_seconds": 0.47360775200000305,
+    "max_child_rss_kib": 42380,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "f3eb4bac533921bfcaa11becb44d7e9e68cccc3e",
+        "before": "f3eb4bac533921bfcaa11becb44d7e9e68cccc3e",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "fef43bdf8690f2eec4751d85784a266eacdd0322"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-26T13:40:49.812590+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "45831444045",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-347c-20261126",
+    "source_commit": "f3eb4bac533921bfcaa11becb44d7e9e68cccc3e",
+    "source_exit_code": 0,
+    "source_git_blob": "086b12957534814465fe344874f011ca55a1bba5",
+    "source_sha256": "37d7e46fb7fe0e42169400986f0dbcaff9894a6860c58af13a31957395442e2b",
+    "stdout_bytes": 11372,
+    "stdout_sha256": "b339e4ccc214b9d6ddec210b125b6d13392649a5e08d686d338766503002b065",
+    "stop_reason": null
+  },
+  "ordinaryISPClaim": false
+}

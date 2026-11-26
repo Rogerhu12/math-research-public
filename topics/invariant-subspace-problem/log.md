@@ -319,3 +319,6 @@ AI-assisted GPT-6 Astra Pro：15条原mean/最高恒等式实际通过，非零t
 
 ## 2026-11-26 13:42:10 UTC — Astra-ISP-347c-20261126：R=d的全高度同源能量与原截断矩闭合
 AI-assisted GPT-6 Astra Pro：原加权代表保同w/u与全部高度，H_C(8Sx)≤Hω给完整inverse可和；任意w∈kerT的P_xw直接幂矩由全carry原行迭代及e^(−47d⁴)规范化误差支付。R=d和所有母cut合法，旧一次全MP常数原样调用；真实残量−Cq1、带锚第二Green与稳定端点继续，open快照后压缩。
+
+## 2026-11-26 13:45:56 UTC — Astra-ISP-347c-20261126：L0线性λ整曲线原排除
+AI-assisted GPT-6 Astra Pro：W全参数返回同一原九式，保2w+1边界/A零面/P1全部降次；三个原ρ结果式的w次数51/60/99、gcd51→16→0，Bézout实际乘回，run45831444045/job139948952171、0.406508秒/exit0。续G、P1双零及剩余交点，不把整条投影曲线的排除写成整个L0完成。
