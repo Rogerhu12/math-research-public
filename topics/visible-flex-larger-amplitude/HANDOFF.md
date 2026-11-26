@@ -49,8 +49,8 @@
 <!-- visible-larger-parallel-03:end -->
 
 <!-- visible-larger-parallel-04:start -->
-并行公开Actions04：[run 45857104277/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45857104277)；[实际记录](notes/2026-11-26-public-actions-45857104277-1.md)。阶段`followup:complete-actual-parent-to-fixed-deep-scalar-preparation-20261126-rebuild04`/completed；已返37，exit=0。
-并行04规则核查：2026-11-26 17:39:38 UTC，真实pull至`58dc194f13107b450034033846f9eb5fb31731b2`，双README无变化。
+并行公开Actions04：[run 45857104277/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45857104277)；[实际记录](notes/2026-11-26-public-actions-45857104277-1.md)。阶段`followup:complete-fixed-deep-scalar-amplitude-first-20261126-rebuild04`/completed；已返38，exit=0。
+并行04规则核查：2026-11-26 17:51:32 UTC，真实pull至`0dd3a4bc9edec7c3904991861947937271293217`，双README无变化。
 <!-- visible-larger-parallel-04:end -->
 
 <!-- visible-larger-parallel-05:start -->
