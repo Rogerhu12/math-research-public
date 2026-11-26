@@ -1,0 +1,73 @@
+name: 6a65 gap105 whole branch cold regeneration
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - topics/visible-flexible-closed-surface/ci-requests/6a65-gap105-whole-branch-cold-20261126.json
+
+permissions:
+  contents: write
+
+concurrency:
+  group: visible-flex-6a65-gap105-whole-branch-cold
+  cancel-in-progress: false
+
+jobs:
+  actual-gap105-complete-model:
+    if: github.repository == 'Rogerhu12/math-research-public'
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    env:
+      OPENBLAS_NUM_THREADS: "1"
+      OMP_NUM_THREADS: "1"
+      MKL_NUM_THREADS: "1"
+    steps:
+      - name: Partially clone and retain the exact trigger source
+        shell: bash
+        run: |
+          set -euo pipefail
+          git clone --filter=blob:none --no-checkout --depth=1 "https://github.com/$GITHUB_REPOSITORY.git" "$GITHUB_WORKSPACE"
+          cd "$GITHUB_WORKSPACE"
+          git sparse-checkout set --no-cone '/README.md' '/topics/visible-flexible-closed-surface/'
+          git fetch --filter=blob:none --depth=1 origin "$GITHUB_SHA"
+          git checkout --detach "$GITHUB_SHA"
+          if [ "$(git rev-parse --is-shallow-repository)" = true ]; then
+            git fetch --filter=blob:none --unshallow origin main
+          fi
+          git merge-base --is-ancestor "$GITHUB_SHA" origin/main
+          test "$(git rev-parse HEAD)" = "$GITHUB_SHA"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22.23.5"
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install the declared numerical runtime
+        run: python -m pip install numpy==2.3.5 scipy==1.17.0
+      - name: Compile the new orchestration and complete numerical entries
+        shell: bash
+        run: |
+          set -euo pipefail
+          S=topics/visible-flexible-closed-surface/scripts
+          python -m py_compile \
+            "$S/6a65-actions-gap105-whole-branch-cold.py" \
+            "$S/6a65-actions-cartesian-channel-block-v5-20261126.py" \
+            "$S/6a65-geometry-coupled-gap-prefix.py" \
+            "$S/6a65-geometry-gap-window-background.py" \
+            "$S/6a65-geometry-gap-window-cartesian.py" \
+            "$S/6a65-geometry-gap-window-two-grid-cartesian.py" \
+            "$S/6a65-geometry-gap-window-refined-cartesian.py" \
+            "$S/6a65-geometry-area-ratio-barrier.py" \
+            "$S/6a65-geometry-gap-window-area-cartesian.py"
+          node --check "$S/6a65-cauchy-global-position.cjs"
+      - name: Regenerate this run's source, caches and actual complete steps
+        shell: bash
+        env:
+          CART_CONTINUATION_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          python topics/visible-flexible-closed-surface/scripts/6a65-actions-gap105-whole-branch-cold.py \
+            --repo "$GITHUB_WORKSPACE" \
+            --out-dir "$RUNNER_TEMP/gap105-cold-$GITHUB_RUN_ID-$GITHUB_RUN_ATTEMPT" \
+            --request topics/visible-flexible-closed-surface/ci-requests/6a65-gap105-whole-branch-cold-20261126.json
