@@ -4,7 +4,7 @@
 
 ## 规则与完整目标
 
-最近规则核查：2026-11-26，真实pull/rebase至 `2c5ed0295fae9a87e637299bd6e6539a3d280cba`，根及课题README相对f0548477无差异，已完整读授权及规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
+最近规则核查：2026-11-26，真实pull/rebase至 `22387f8607f0ecf128b9f9769d51d1646f7a5be9`，根及课题README相对f0548477无差异，已完整读授权及规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
 
 科学计算仅本公开仓库Actions；早前本地偏差及纠正见[执行记录](notes/2026-11-20-public-actions-execution-correction.md)。root唯一分支写者；代理只scratch及未引用小源blob。每条结论普通commit/push，NFF立即pull --rebase循环再推，不强推。至少每小时pull，每次核双README差异/立即遵新规并记commit。raw只scratch/runner，不入Git/Release/artifact；保完整小源/参数/run/SHA/紧凑结论。题≤200MB、单文件<5MB、MD<100KB、H<10KB、open<30KB。令牌仅瞬时CLI。环境失联后的恢复及全部原字见下列固定历史；未补造raw。
 
@@ -26,7 +26,7 @@ R653 quarter、R654全H²及R655旧1845+六Gauss5532=7377正权观察、.5/.5测
 
 R690深谷/旧deep两256返9b937ee/993556及自身first bbefd075、R691冻结Haar返bcdcdab/a76c4d全部精确来源/适用域/未付责任保固定889ec全文及所链notes。均未驻点/精化；旧01后排归因及ownfirst未执行。R692完整经典旋转连接证明不推任意C²或非圆存在；原父SO3六源和原完整q链仍保。
 
-[R693](results/R693-so3-radial-closure-branches-and-error-interface.md)已证准确E=1的零Δ或切向反射分支及全六jet误差；首源未存closure汇总，需实际同场读。[R694](results/R694-so3-low-order-signed-quadrature-error-algebra.md)30ae完整signed Peano/低阶mixed jets/六jet和谱费用核已刊；[全胞integrand输入](notes/2026-11-26-direct-axisymmetric-continuous-integrand-envelopes.md)a846完整源/参数已刊未跑，[实际节点费用](notes/2026-11-26-actual-SO3-node-outward-evaluation-fees.md)1371完整源/参数已刊未跑，全四jet的literal工作重读对真盒支付Hermite/normalization/trig/旋转费用；只有限节点。[全角core/端盖](notes/2026-11-26-actual-core-chart-cap-outward-component.md)69c5完整源/参数已刊未跑，先完整正性再同lift真逆盒及六数组费用，不混普通/材料frame；完整积分/六jet/整面费用仍继续。[R695](results/R695-so3-zero-closure-bubble-uniform-IFT.md)新证双内部bubble满秩、显式固定端轴右逆、严格统一收缩球及完整三角隐式J/J*；实际IFT条件未验。闭合或E=1都不替代剩余Gram/曲率/全域几何。
+[R693](results/R693-so3-radial-closure-branches-and-error-interface.md)已证准确E=1的零Δ或切向反射分支及全六jet误差；首源未存closure汇总，需实际同场读。[R694](results/R694-so3-low-order-signed-quadrature-error-algebra.md)30ae完整signed Peano/低阶mixed jets/六jet和谱费用核已刊；[全胞integrand输入](notes/2026-11-26-direct-axisymmetric-continuous-integrand-envelopes.md)a846完整源/参数已刊未跑，[实际节点费用](notes/2026-11-26-actual-SO3-node-outward-evaluation-fees.md)1371完整源/参数已刊未跑，全四jet的literal工作重读对真盒支付Hermite/normalization/trig/旋转费用；只有限节点。[全角core/端盖](notes/2026-11-26-actual-core-chart-cap-outward-component.md)69c5完整源/参数已刊未跑，先完整正性再同lift真逆盒及六数组费用，不混普通/材料frame；[完整signed积分](notes/2026-11-26-actual-signed-meridian-integral-fees.md)1a46全源/600秒ready已刊未跑，严格全922胞/同literal角才开放total和query，原signed Peano与全节点费、逐胞原子journal/恢复保；六jet/整面费用仍继续。[R695](results/R695-so3-zero-closure-bubble-uniform-IFT.md)新证双内部bubble满秩、显式固定端轴右逆、严格统一收缩球及完整三角隐式J/J*；实际IFT条件未验。闭合或E=1都不替代剩余Gram/曲率/全域几何。
 
 03旧run45811843606/1发布故障终止，stage7科学退出码/场/Phi/末bundle未返，不由新run回填；[完整恢复证据](notes/2026-11-26-actual-publication-failure-and-complete-recovery.md)保留。新03b运行45820592817使用3cb1/68a3完整控制修复，原科学设置和字节上限保。
 
