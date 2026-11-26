@@ -322,3 +322,7 @@ python "$SRC/read_mean_metric_candidate.py" \
 ```
 
 `$SRC` 中两小源相邻，或显式给 `--transform-source`。可重算报告/数组只留 runner，发表小源、参数、run 编号、输出哈希与紧凑真实结论。只读诊断之后继续实际新目标求解与最终固定目标精化，不在本条公式或诊断处结束课题。
+
+## 本条入口的实际首次诊断
+
+[2026-11-26同一实际场双variant诊断](../notes/2026-11-26-actual-new-metric-initial-diagnostics.md)已经返回：重定义均值本身未解决百分之一误差；尚须实际优化、固定最终g和同g精化，不能把新目标命名作为完成。
