@@ -1,14 +1,14 @@
 # 当前未解问题：保留基础有限证据，继续同 g 加密及完整强幅度
 
-## 2026-11-26 12:09 UTC 当前实际入口
+## 2026-11-26 12:38 UTC 当前实际入口
 
-基础原M12线已进入真正中央到cuff的同g全域求解，首whole run45803041361实际结束；旧G8独立峰8.49e−9仍不是连续最大值。R226准确归一参考的全时几何、R230整个原源连续二jets和实际W传递已完成。新run45815969723同原有限配置真实运行，在同一个仍保留场的job内接实际W六jets/全时几何、297个原微span观察点和三相位完整STL。微span原参考已见1.96721e−8，故接着针对元190真实加结，不能只重复提高迭代数。prefix同空间6400仍约4.64e−10；仅径向80→160的run45810358787尚在运行。
+原M12同g完整线的[R234](results/R234-actual-entire-half-field-all-phase-geometry-and-meshes.md)已在run45815969723实际保存W上付全时reach/D>.03105876、held/D>.05278322、含反射δE>0和三份完整4471284B STL。但该场连续metric保守界4.862155e−6未过门槛；同场297个原微span点峰1.93342895e−8，旧G8只见8.494317e−9。真实h run45821092388自12:35:36执行，sourcecd31d2b0：仅旧元190插66个原源simple knots，362→428元，保全部旧knots和旧观察点，角阶/Gauss/LSMR/原g不变。继续实际完整求解和交叉Gram的连续误差预算，不能以新空间建成称加密完成。前缀h160 run45810358787数值步骤success但job在发布后cancelled，原公开scalar尚缺、日志返回404；没有可核结果就不报数值，换可执行输入继续。
 
-强幅度长run45778054176的source002已真实完成9个新Cauchy尝试，最新sample metric.26395560/κ26.40154仍不合格；等实际末态和observer完成后，source003只按匹配SHA同job接独立全Cartesian模型。另名cold run45812620369从新真实INITIAL/observer启动独立全13行/7760列Cartesian步，不能借长run原件或计数。真非零Cartesian续态入口在落实，接受与拒绝计数按实际状态维护。
+强幅度长run45778054176的source002已真实完成11步，sample metric.26395456/κ26.40140仍不合格；第12及matching observer须等真实返回。[source003](notes/2026-11-26-6a65-solver-source003-composite-contract.md)已公开静态合同，保持原Cauchy完整尝试/观察，再独立全Cartesian；active后继仅按真实父SHA绑定。独立冷run45812620369实际exit0/1073.140s、全13行7760列接受1步，R²69144.79→16795.95，但metric2.38717/denseκ171535.8仍坏。v3付非零真续态与匹配observer，v4正严格复用同身份固定源缓存以继续多步；不借已结束runner raw或长run计数。
 
-新gap1.05/v.045几何线已付R227/R228原生前15格完整Gram/自身曲率、R229/R231准确积分归一化全链；同一准确场连续metric<2.936e−7、自身κ<9.867915。R232付Γ95准确coast对完整旧Γ384的P/V/A与角两导差，并在新准确f0盒重核全coast。下一先把这些差真正消费到最后一个短Hermite格及其归一化，再接实际后段/完整核；不能把15格合格称为whole合格。
+新gap1.05/v.045的[R233](results/R233-entire-ramp-accurate-coast-normalization.md)已补齐准确端口、最后短Hermite格及完整归一化：全16格metric<6.100e−7、κ<9.867915，两端准确C2。同master已实际接入[新短窗全半核](notes/2026-11-26-6a65-geometry-gap-window-own-complete-baseline.md)，自己的完整13行baseline真0；metric2.48947、窗口κ89407.07/minarea9.618e−5，不合格。后续保持新sourceKind及自己的自然g，只在(b,S)继续真实Cartesian求解以保已证前缀；字面有限角求积误差及完整窗口连续正性仍须支付。
 
-保持本文件第2节强目标和第6节五项完整任务：全域全时度量、全部接缝/帽、非局部reach和含反射幅度、同g真实加密、完整网格。研究仍进行中。
+保持第2节强目标和第6节五项完整任务：全域全时度量、全部接缝/帽、非局部reach和含反射幅度、同g真实加密、完整网格。研究持续进行，不以阶段证明或真实失败收尾。
 
 ## 2026-11-26 10:34 UTC 入口历史（已由下列实际工作接续）
 
