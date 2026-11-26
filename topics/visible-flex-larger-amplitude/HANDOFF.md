@@ -37,8 +37,8 @@ R692[完整旋转连接](results/R692-nonlinear-rotation-connection-and-metric-e
 新独立03完整[warm-only入口](notes/2026-11-26-direct-SO3-warm-only-input-recipe.md)561308/controller1ee062及独立workflow/request已刊排，实际run号待返回；只再生原5prefix+pulse+完整warm，直接用准确R690轴对称单位T0构造完整SO3。原normalized-parent 02继续；03不是旧父/旧g证书继承。历史位置由完整已刊seed逐字保留，未提供的其它runner新增位置须明确范围，不能假称已拿到；每新场重读自己全部提供位置与全网格。达到真完成前继续换输入/方向、接open，不因环境/时限/条件未验收尾。
 
 <!-- visible-larger-parallel-02:start -->
-并行公开Actions02：[run 45800076687/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45800076687)；[实际记录](notes/2026-11-26-public-actions-45800076687-1.md)。阶段`followup:resume-20261126-actual-R671-v3-full-phi-continuation-02`/completed；已返31，exit=0。
-并行02规则核查：2026-11-26 11:37:08 UTC，真实pull至`54ae8d8afb80c791b02a0487273adf1475a4442d`，双README无变化。
+并行公开Actions02：[run 45800076687/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45800076687)；[实际记录](notes/2026-11-26-public-actions-45800076687-1.md)。阶段`followup:R684-actual-new-physical-mean-metric-p4-first-20261126`/completed；已返32，exit=0。
+并行02规则核查：2026-11-26 11:44:13 UTC，真实pull至`e94bd75f9e5a6f6c3369af418b9456c2896728ad`，双README无变化。
 <!-- visible-larger-parallel-02:end -->
 
 <!-- visible-larger-parallel-03:start -->
