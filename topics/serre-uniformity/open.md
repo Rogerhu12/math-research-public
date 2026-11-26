@@ -52,35 +52,7 @@ R946/951/952原Bol障碍O_r(H)=r!(𝒰H)^p/B^(p−r)|SS、kerO=ker𝒰；whole�
 
 [R975](results/R975-original-balanced-Kronecker-integral-heat-recurrence.md)原bare U_n=n!(n−1)!c_n属于Z[1/6][g2,g3]，准确heat递推保polar κ0=1。U_n=F_n(12g2,−216g3)/12，F_n=(R^(n−1)E)|E0；Wilson给c_(p−r)=−r!(r−1)!F_(p−r)(0,−864)/12 modp。所有n<p整性已证，具体近p阶F单位仍开；不能由R^p高导数单位/一般homogeneity反除未知混合项。
 
-[R972](results/R972-original-two-Artin-Hasse-lines-and-ring-class-regulator.md)把同一高η问题放到实际环类单位。a=r+1=3/9、m=(p+1)/3、b=a/3，χ核恰conductor-p环类域L/K，L_P=Qp²(ϖ)、ϖ^m=−p。真实low/high HT给低kill u1、高kill u0，AH degrees b与m−b；DDR Fil阈值+1与upper break区分，cσ保两线不交换。低T=O、完整DFG假设和global Euler/loc给H1=1,H2=0,A_L^χ=0及原始global-unit χ线。其log modp=γ0λ1ϖ^b+γ1λ0ϖ^(m−b)，γ0≠0，**S≠0 iff高η单位 iffγ1≠0**。普通log整同构只在真正e=m<p−1成立，不在辅助高ramification域随意截断。
-
-[R976](results/R976-fixed-Robert-unit-and-original-high-coordinate.md)固定真实生成元U7=V7^(σ−1)，V7=Norm_(ray H_p/L)Ψ(1;p,7⁻¹p)、σ=Frob_(2+s)。regularizer48和χσ−1全原p单位；OV完整elliptic格/Rubin same-χ finite Gras/R972 classgroup零给eχU7生成全unit χ格。ray w_R虽可含p，但在complex regulator精确消去。log〈U7〉modp=ΣB_jϖ^j时γ0=B_b^p、γ1=B_(m−b)，低非零，高m−1/m−3项仍未知。
-
-[R977](results/R977-original-Robert-norm-and-normalized-isogeny-discriminant.md)给真实几何源：E+:y²=x³+1，C=<Ω/p>，φ*ω_C=ω，D_C=Δ(E/C,ω_C)/Δ(E,ω)=p^12Δ(pτ)/Δτ∈L。完整半kernel与F7=Δ⁴/ψ7的已登记norm给V7²=ξ²D_C⁴、logU7=2log(D_C^σ/D_C)，并精确v_ϖD_C=4。令δ_p=D_C/ϖ⁴，log〈δ〉modp=Σd_jϖ^j，则γ0=2(χσ−1)d_b^p、γ1=2(χσ−1)d_(m−b)。因此低d_b单位、S非零 iff近顶d_(m−b)非零。尚未把Kummer ϖ与flat/GM坐标识别；固定源E的height2不证明不同Igusa因子height2。
-
-[R978](results/R978-original-Robert-coordinate-and-pure-Hurwitz-mirror.md)：源E+的[-p]modp=T^(p²)，Milne严格整LT同构g′0=1取τ^(p²−1)=p、X=τ^(3(p−1))、ϖ=ηX且η^m=−1。F7(gT)=Δ⁴T48H(T)/7，H∈1+T⁶O[[T]]；完整半kernel先给V7=ξC0X8G(X)、G整，再于e=m<p−1取log，所有j≥m项按j−m v_p(j)≥m严格消失。纯σ定义log(σz/z)=−ΣG_N z^N/N；仅所选N_j=3(p−1)j<m·3(p−1)=p²−1经unit regularizer48证G_N/N整，并准确B_j=24η^(−j)(ζ^j−1)G_N/N modp。低G_(a(p−1))单位，**S非零 iff G_(n(p−1))单位**；高低指标和p²−1不提供反射非零。保原root/embedding，未引新period、未在高ramification直接截σ log。
-
-[R979](results/R979-balanced-Kronecker-and-normalized-discriminant-Taylor-source.md)：同一实际discriminant有准确Ramanujan/Cayley源，u=(τ−ζ)/(τ−barζ)、T=Ω²Imζ·u/π（原PL参数的−3倍），log[Δ(τ(u))/((1−u)^12Δζ)]=12Σ(n−1)!c_nT^n。E−/E+保Ω²相位，实际n3mod6有c_n+=−c_n−；粗W=T³的m−b项准确12(n−1)!c_n，是p-unit比例。D_C=[p(1−u_p)]^12 exp G_+(T_p³)保原p12及normalized differential；仍无W到ϖ的整比较，不能将complex式代为p-adic截断。
-
-[R980](results/R980-original-level-one-Hurwitz-reflection-and-distinct-mirror-pairs.md)：Robert1980 level1 Thm8完整适用，原S_k恰G_k、源E4=0/E6=864，B_p=E_(p+1)(E+,ω)单位。对t=a,n有G_(t(p−1)+p+1)=B_pG_(t(p−1))/(12t) modp。低star=4p−2/10p−8已单位；高star=np+a=p²−rp+r+1单位仍恰S非零，**两反射对不相连**。原γ1=−288η^(−(m−b))(χσ−1)B_p^−1G_(np+a)，γ0保p次embedding。Robert1978 pair只至少一非零；Gillard1982高level排N0不妨Robertlevel1；1986共轭单项等价须F/Q abelian，本环类域dihedral不适用。
-
-[R982](results/R982-theta-symmetry-obstruction-to-a-common-Frobenius-scalar.md)严格排除literal barλ→λ^p加共同α/ξ的比较模型：原theta对称给H_(j,j)=jH_(j−1,j+1)，j3/6的c+=1/6、−1/900均unit；Robert反射G_K=βG_L/(p+1−j)迫α/β同时−3/2与−6/5，矛盾。只排共同标量模型，不排带index-factorial/Gamma/carry修正或单个near-p比较。近p lowstar与c_n B_p^r同权不构成等式。
-
-R988已建立实际G_(n(p−1))与balanced c_n的准确整比较；当前须证其中等价的高系数普遍非零。N_low+N_high=p²−1、低unit和Frobenius pair整体非零都不单独证明高unit；原生mirror的实际指数及规范须逐条核。不把Cayley坐标直接当ϖ，也不删factorial/p幂。
-
-[R981](results/R981-original-pure-Hurwitz-residue-compression.md)已证原pure G_N的留数公式及包含唯一分母p共振的两digit输入压缩；末收缩O(p)、中间series O(p²)，不宣总线性。当前request改为四p的新pure指标，41/47用独立exact rational ℘并加j3/6诊断；旧R973 c_n/B仅消费。factorial修正候选25β³G_K6=4G_K3明确未证、输出不assert；[R983](results/R983-certified-pure-Hurwitz-coordinates-and-factorial-model-counterexamples.md)公共run44748379140已成功3.552868857s，四点全部核过；factorial共ξ被41/47反例严格否定，denominator-free差10/31，独立exact rational已核。current request已完不重跑。一般高G_N单位仍开；保整余项的真实mixed比较由R988完成。
-
-[R984](results/R984-frobenius-regularized-finite-Kronecker-kernel-and-rational-Cartier-descent.md)：Guerzhoy真一次Frobenius给actualt的R=ζ(l_E)−(μ/p)l_E^φ(t^p)整，λ0、μbar=−β。BKT connection L_j在j≤p−2均属原A[x,y]；有限K=e^(RW)Ξ整且仅simplepole，精确保原c_n。其ν_t=−xω+βt^(p−1)f^pdt有rational primitive J_t，Rbar−J_t=h^p且h无常数，故c_n=[T^n]ΣJ_t(gT)^(n−j)L_j(gT)/(n−j)!。仅i≤p−2矩形可丢h^p影响；高pure不能丢actualt→LT的除p坐标carry。一般unit未证，继续R985 carry及R986不同s源的显式J_s。
-
-[R985](results/R985-strict-coordinate-Frobenius-carry-and-original-pure-Hurwitz-coefficients.md)：实际R_T=R_t∘g+μC_g，δ_g=(g^p−g^φ(Tp))/p，C_g=[l_E^φ(g^p)−L^φ(Tp)]/p均整。全级数L′bar=1给C_gbar=δ_gbar/g′bar^p；连接核C′=(g/g′)^(p−1)−T^(p−1)。所选p∤N−1、N<q−1准确−G_N=[T^(N−1)](J_t(gT)−βC_gbar)。首carry=−3T^(p+6)/7，所以N=p+7的遗漏修正3β/7全原p单位，不能以J选择消掉；低mixed i≤p−2仍不受影响。未由非零修正推总系数非零。
-
-[R986](results/R986-explicit-rational-primitive-and-original-Lubin-Tate-jet.md)：原s源显式J_s=−(2y^p)^−1Σ_(j≠(p−2)/3)binom(d,j)x^(3j+2)/(3j+2)，dJ_s=(−x+βt^(p−1))ω，β=binom(d,(p+1)/6)。Z=−β^-1D^(p−2)x为仅O polep、dZ=ω的唯一规范primitive；Wilson𝔠_pβ=3与E[2]字符给R0=Z−β^-1(x²/y)^p。**𝒯=Z+β^-1J_s^p** 是实际Fp(E)有理函数，d𝒯=ω、𝒯(g_s(T))=T+O(Tq)，保canonical共振。原pure=(N−1)^−1ResO x𝒯^(1−N)ω；mixed=ResO B_n𝒯^(−n−1)ω，B_n=ΣJ_s^(n−j)L_j/(n−j)!，仅mixed可用R0替𝒯。pure保补项β/(N−1)[T^(N−2)]t^(p−1)。不是global log/group hom，两指定residue非零仍开；继续actual Cartier降次和Poincare首分母。
-
-[R987](results/R987-original-Poincare-Cartier-identity-and-first-denominator.md)：真实两open gluing给 **C(xZ^jω)=β^(1−j)j!L_jω，0≤j≤p−1**；有限整L端点由G_(p−1)=0，最低非零W项的下一阶Res(Jω)=1排全部下级修正，唯一顶常数由μ6字符排除。pL_p=−βZ、一次正则核首分母p[W^(p−1)]K_s=−β𝒯−h_s^q，LT<q恰−βT；真正第二Frob只消此有限边界。原theta连接p曲率−βW及实际J修正取消均准确；不从曲率推出c_(p−r)单位。R986已补R594/R658旧formal分解复用范围，新增点是global rational源及实际residues。继续精确pure/mixed收缩与近p单位性。
-
-[R988](results/R988-original-pure-balanced-Cartier-contraction-and-high-trace.md)：完整Cartier与真正theta对称给 **G_(j(p−1))=−j!β^−j c_j+，1≤j≤p−2**；原r2/8、n=p−r有G_high=−β^(r−1)c_n+/(r−1)!、G_highstar=β^r c_n+/r!。原AH高坐标 **γ1=−24η^(−(m−b))(χσ−1)β^(r−1)c_n+/r!**，所有外因子单位、c_n+=−c_n−，故 **原S≠0 iff c_(p−r)±单位 iff F_(p−r)(0,−864)非零**，补成R974逆向而不反除period比。实际p-basis b0=−βB_(p−1)、b6=−β7 B_(p−7)/6!，参数差首影响q−3完整保。低a3/9 pure显式−β−3、−8β−9/35只校准已知unit；真正near-p系数全p单位、同h与height仍开。
-
-[R990](results/R990-original-hypergeometric-fixed-r-coefficient.md)：原(E,X,Y)=(0,0,864)的三Ramanujan ODE逐式匹配 A=2F1(1/12,7/12;2/3;z)、B=2F1(5/12,11/12;4/3;z)，T=−uB/(24A)、z=u³/432。m=(p−r)/3、k=floor(p/12)时B真截成degree k Jacobi多项式；H=((1−z)B²)^−1、f_i=H_i/(1−3i)、Q=4+12zB′/B−z/(1−z)，**c_(p−r)+=(-32)^m(r−1)! [z^m]Qf^−r/4**。全分母在m<ℓ=(p+1)/3内单位，固定r2/8给O(M(p))、O(p)内存。B根/三个cusp极部准确、首resonance Hℓ=B(1)^−2单位；不能跨ℓ反除，目标系数非零仍开。
+R972–990的完整AH/Robert/Δ/LT/Cartier/超几何来源、全部相位/阶乘/唯一共振及否定的共同标量模型，逐字见[本轮压缩前态](open-archive-2026-11-26-before-R1004.md)。当前准确桥是R988：原S≠0 iff c_(p−r)±单位 iff F_(p−r)(0,−864)非零；高低两坐标不能互代。R990以k=⌊p/12⌋、ℓ=(p+1)/3、m=(p−r)/3<ℓ给c^+_(p−r)=(-32)^m(r−1)![z^m]Qf^(-r)/4；B是实际Jacobi多项式、H=1/((1−z)B²)、f_i=H_i/(1−3i)，且H_ℓ=B(1)^(-2)为单位。不得跨ℓ反除；目标近p系数仍未知。R975原heat整性、R976原生成元、R985除p carry、R986原有理LT jet、R987实际Poincare首分母均只消费已成结论；R983四点的factorial共同ξ模型已否定，旧窗口不重跑。
 
 [R989方法](notes/R989-original-r8-sparse-heat-and-Kronecker-window-method.md)/[R991回执](results/R991-certified-original-r8-balanced-window-through-20000.md)：真正新r8 1000<p≤20000共349点全非零，run44755320789成功1.998924778s；1013/1049原三路与每p首resonance一致。payload245369B SHAfea55f009c33e1b120e50c1fd9ff2a23aba25c999d863f506a72105fabfb86aa，全部source/方法/receipt在结果和逐字归档。R988只给该有限集原S单位，已完不重跑。
 
@@ -138,6 +110,9 @@ R907原j1 run43924786163只因pre-core配置KeyError停止；[schema修复](note
 六继承run已核终态failure/空artifact，具体pre-core/预算/143/404见[回执](notes/2026-11-20-resumption-and-run-availability.md)。R787 primal670、R824693、半dual638、R854 N112→224的真实断点与全部在途叶保原归档；预算false FINAL不是负数学结论，旧有效位不重算。
 
 ## O6：保留的其他全局路线与永久边界
+
+[R1004](results/R1004-exact-even-valuation-at-CM-cross-primes.md)继续R320：指定CM交叉迹差在p≡5mod12的赋值总为偶数。实际pⁿ同构给q≥p^(4⌈n/2⌉)+8p^(2⌈n/2⌉)+4；这些迹差的奇/偶相邻检测阈值等价，不给全局p²提升，也不限制a/c。继续真正全局参数控制。
+
 
 固定41全部129盘已由R707完整关闭，八CM/无有理尖点；不重开、不外推一般p。R101/R109等有限层尖点与整j结果保原scope，有gap的BBM全p≤97分类不能作输入。R4已排通常Runge捷径：实际提升域尖点轨道数等于无穷位数。
 
