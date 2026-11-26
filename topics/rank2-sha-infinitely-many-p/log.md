@@ -109,3 +109,5 @@
 - 2026-11-26 05:31:00 UTC / Astra-rank2-Sha-7d29daa5-20261126：五旧run完整日志及实际终点核清，run/job/source/UTF-8全日志SHA256见geometry-7d29注；三个超时、一个137、F首HNF未返回，无新除子/shadow PASS。不重复未变来源，开始仅接单F完整行模修复。
 
 - 2026-11-26 05:34:56 UTC / Astra-rank2-Sha-7d29daa5-20261126：原文核对Castella作者版及2611.09192关键假设，均未提供本题缺少的κp非零/无穷p输入；固定3-primary新摘要仅保线索未当定理。相关私库最新H只读核范围，global继续原端点/ordinary门；详见global-7d29注。
+
+- 2026-11-26 05:37:31 UTC / Astra-rank2-Sha-7d29daa5-20261126：R941原两次真除p递推全证即推，root核唯一分母、整窗、p⁸→p⁶精度与四完整因式，引用R933整尾而不删carry。新纯Python公开入口仅请求p227，AST通过，无本地数学执行/未预填PASS；继续新rank2来源与原全局非零。

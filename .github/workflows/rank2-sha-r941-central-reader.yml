@@ -1,0 +1,40 @@
+name: Rank2 original four central residues R941
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/rank2-sha-r941-central-reader.yml'
+      - 'topics/rank2-sha-infinitely-many-p/scripts/r941-original-six-digit-central-reader.py'
+  workflow_dispatch:
+    inputs:
+      prime:
+        description: 'One prime p > 211 with p = 5 mod 6'
+        required: true
+        default: '227'
+        type: string
+permissions:
+  contents: read
+concurrency:
+  group: rank2-r941-original-central-reader
+  cancel-in-progress: false
+jobs:
+  original-central-reader:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          filter: blob:none
+          sparse-checkout: |
+            topics/rank2-sha-infinitely-many-p/scripts
+          persist-credentials: false
+      - name: Read all four original central residues and full identities
+        shell: bash
+        env:
+          RANK2_PRIME: ${{ inputs.prime || '227' }}
+          PYTHONDONTWRITEBYTECODE: '1'
+        run: |
+          set -euo pipefail
+          python3 -I topics/rank2-sha-infinitely-many-p/scripts/r941-original-six-digit-central-reader.py --prime "$RANK2_PRIME" | tee /tmp/r941-central-result.json
+          sha256sum /tmp/r941-central-result.json

@@ -173,3 +173,5 @@
 - [R927§12](../results/R927-original-yF-pole-degree-from-mixed-kernel-and-cusps.md)：原I+=IA:IC=IA:qA可用一次完整[q·Id;−HA]整核投影准确给出；原I−=(qb/a)I+用全部306源整像，保两最终乘积与双图边界。独立scalar-colon helper已存，未接当前run或冒速度/PASS；§11.1原F任务44765106737/source31c234ea1实际启动。
 
 - [R938附A](../results/R938-original-full-source-finite-offsets-and-affine-carry.md)：全W_low首项R1=(Y−1)^4A2、degA2≤2；原零角迫D2低门亦含t²，beta2/3同读A2。有限图与第四例外厚节点共同读取O(2)的2m限制，保degF0=1/2/3；三条原列付全来源三维像而不冒K1。τ=h+1的真实normal行补−12(uhat0/e0)²A2(1)/q(P_C)，其它页差仍开。
+
+- [R941](../results/R941-original-two-division-central-reader.md)：同原W递推只在r0=(5p−1)/6与f的n=p两次真除p；p⁸起算严格付原四源全部六Gaussian块及j modp⁷。无独立f_p或自由提升，原曲线/倍点/全carry身份保；仅算法证明，公开227执行已请求、尚无PASS，不代无穷性。

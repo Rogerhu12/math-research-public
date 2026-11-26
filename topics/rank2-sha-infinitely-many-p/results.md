@@ -492,3 +492,5 @@
 - [旧quotient实际终点](notes/2026-11-20-old-job-outcomes-and-exact-P-certificate.md)：run44713040079/job136209307176/source7a116c1d8于15:33退出137，最后为原次数24域的有限极大整环开始；没有完整D/九cusp/Au/Av/branch/D0回执。完整log e92fbd54…e40fc3已核，不作数学反证或盲目重跑。
 
 - [R938附A](results/R938-original-full-source-finite-offsets-and-affine-carry.md)：全W_low首项R1=(Y−1)^4A2、degA2≤2；原零角迫D2低门亦含t²，beta2/3同读A2。有限图与第四例外厚节点共同读取O(2)的2m限制，保degF0=1/2/3；三条原列付全来源三维像而不冒K1。τ=h+1的真实normal行补−12(uhat0/e0)²A2(1)/q(P_C)，其它页差仍开。
+
+- [R941](results/R941-original-two-division-central-reader.md)：同原W递推只在r0=(5p−1)/6与f的n=p两次真除p；p⁸起算严格付原四源全部六Gaussian块及j modp⁷。无独立f_p或自由提升，原曲线/倍点/全carry身份保；仅算法证明，公开227执行已请求、尚无PASS，不代无穷性。
