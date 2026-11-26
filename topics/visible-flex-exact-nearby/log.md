@@ -519,3 +519,9 @@ manifest SHA256 e99e081cd404c36e9f754c0839e9f8f7d95502fffa2db02bff093fe90a0599a8
 新[PN完整证明](results/R149-supplement-complete-positive-inverse-to-true-negative-and-incoming.md)及[pure receiver](scripts/fourfold_codazzi_positive_inverse_negative_receivers_math.py)已核：真实58/224/32全成后，WPN精确双向lifting在整个L²_r低193消去原正侧radial head/cokernel；prescribed物理root96仍独立。一般L² lifting只取合法w的迹，实际physical来源才用a(root)=Ec c*+Ed d。224原row3/15按真root低高正交、已含factor9合成完整根，然后同原PW/SP送完整waist/两mean；32两RHS须先乘实际physical pair尺度，rough baseline不冒mixed-root。
 同common x的Φ/Υ已付Ni，新增correction保原左U_H^-1 J± T0^-1及out旋转顺序，joint仅BH KW无额外√2，WPL独立BH/√2。14物理ports保各自source输入，不升级H^-4/3。原E.6/N/SP完整二源域转授保第二非mean，ordinary两径窗正交只用于输入Cauchy费用；jump无长度。纯模块无IO/科学执行；真正low/58/224/32仍待R142后续。signed有限列、fullincoming/high及finite/mean/ν Schur与非线性未完成。
 并登记固定η0新积分实际run45778507038/1（head6a1868c67ab908a66628aec568c8f5feb9296450），R14245761859526/1仍运行；两者尚无完整结论。
+
+### 2026-11-26 — R149 完整负侧二源与真正有符号有限列认证
+
+新[SC证明](results/R149-supplement-signed-finite-columns-and-full-negative-residual-sources.md)及[pure全残差模块](scripts/fourfold_codazzi_signed_finite_column_residual_math.py)已核。原E.6的M=diag(θ/w,θ)给H^-2/3⊕H^-1完整二源，原同N/SP/PW CO不变；whole raw L²负源分root/strict后可用hypot(CO,C2)，两mean与所有impulses保留。
+真实root96列可取正侧h_app=(1−x)p，真外端精确零而保全部完整线性图；root-even误差/高stable/low及high collar/body完整输入通过真实224接收。完整Qδ角degree96使finite trial degreeM的全Jacobi residual degree≤M+192，必须先保两符号/mean/nonlocal完整卷积再Parseval。负trial在真root连续、完整二源残差和真根误差给waist两mean列误差。
+signed rows用真实配对中心；normalized行的adjoint residual由已成同T0逆认证，finite row不冒T0*row有限，所有multiplier/角尾进入完整e。可用原W同selected H_app=K48∘Hfin及W4完整误差球，无新KAM；复合不冒有限Fourier。全部matrix rows/cols与source/target各自权形成I−B Dt M Ds^-1后严格门，物理96子块不冒完整Schur。无新科学数值；真实全低逆/224前置仍待。模块与完整证明交叉审过，科学/AST只由公开Actions执行。

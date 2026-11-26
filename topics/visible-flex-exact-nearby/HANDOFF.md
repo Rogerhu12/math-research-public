@@ -1,12 +1,12 @@
 # 交接：可见振幅的精确闭等距族
 
-维护会话：visible-exact-astra-198c63d-20261126；更新：2026-11-26 07:53:15 UTC。
+维护会话：visible-exact-astra-198c63d-20261126；更新：2026-11-26 07:55:31 UTC。
 **总任务未完成，继续研究，不等用户回复。**
 
 ## 规则、接续与当前环境
 
 已部分浅克隆/pull并完整读根和课题README、原H/open/log及续点notes。私库QUEUE认领已推 f90ec8e0116c67cbc32c03342e6a8d2aee0ccb41。
-本次两README确认至 ac41e08cb844ca19bb2641c9c31656c69efe502d：每次更新前均比较上次已推提交至最新main，未见两README改动；本课题的实际新增以下列记录为准。此前终端pull后的规则差异亦为空。
+本次两README确认至 1a9f6561f6c03f0f6ec0dcf6a447ac268d8e08de：每次更新前均比较上次已推提交至最新main，未见两README改动；本课题的实际新增以下列记录为准。此前终端pull后的规则差异亦为空。
 2026-11-26 05:48 UTC起执行环境unavailable，无法再做终端pull/push；按根规8暂用GitHub集成读取main、比较规则和提交每件<100KB小文本，不向API传令牌。环境恢复后立即终端pull --rebase、核两README并继续；至少每小时检查一次，非FF立即重取main并重接，绝不force。
 
 本地原路径 /tmp/visible-exact-astra-198c63d15049/math-research-public，工作区有同名软链接；无AGENTS。环境恢复前不能声称磁盘待提交文件已推。公开Actions不依赖该执行环境，R142与固定η0新积分均在运行。
@@ -32,6 +32,8 @@ geometry43584188751/26仅在同η0真wholecore含帽C0≤1e−4、|δν|≤1e−
    新[RS](results/R144-supplement-fixed-density-rotational-reference-subtraction.md)给W0=0与同r W′=2βUW+2βa²(U/s²+KV/m²)，D准确恢复非零初值/全部jump/physical外mean。新[完整合同](notes/2026-11-26-R144-fixed-eta0-correlated-mean-contract.md)及science/worker/generator/manifest/workflow已提交6a1868c，实际run45778507038/1已启动：21当前/10历史，320bits、N512、源Taylor24/流25、ρ/h=8，真[0,25/8]、7296原格/6143接口。manifest SHAe99e081cd404c36e9f754c0839e9f8f7d95502fffa2db02bff093fe90a0599a8。只对新目标物化全域固定η0载体，原native仅身份/partition/完整v与mean gap仅读；保全部primitive/径向Cauchy尾、同r signed和与真实forward费。每个接受子格/接口原子checkpoint；异常回滚至最后完整状态和trace前缀，complete仅在最终saved-ball门后置真。5h child、6h job、无自动科学retry。raw ν0/非Qrepair/非selected，任何门仍须实际输出；不授非mean、帽、height、phase或最终族。
 
 7. **[PN完整负侧接线](results/R149-supplement-complete-positive-inverse-to-true-negative-and-incoming.md)及pure receiver已证。** 真实58/224/32后全L²_r正侧head/cokernel消去，prescribed root96保留；224真row3/15给根再PW/SP送waist/两mean。32两类型须乘实际源尺度；rough baseline不升级。原Ni只一次，joint左receiver BH KW无√2，WPL独立BH/√2；14ports各自输入不改。完整E/N/SP第二非mean源转授保全部ordinary/impulse。实际前置未成，未造数字；signed矩阵/fullincoming/ν仍待。
+
+8. **[SC全残差signed列](results/R149-supplement-signed-finite-columns-and-full-negative-residual-sources.md)及pure模块已证。** 完整E/N/SP二源域保第二非mean；finite trial的全Jacobi残差M+192、true r导数/全mean/两符号收费。零外端连续trial经真224→负侧残差→waist完整列误差。实际signed配对+完整adjoint row residual可用旧W的K48∘Hfin及whole角误差；复合/multiplier尾不省。全有符号矩阵按source/target分权认证，root96子块不代全Schur；暂无新数值。
 
 ## 未付的总接口
 
