@@ -6,24 +6,24 @@
 
 最近规则核查：2026-11-26 17:49:44 UTC，真实pull/rebase至 `4ef11ccb1c1510bced9f7ebaac624248dae9c544`，双README相对`76d1f7385a28fcd11f3bc3c38e146f35124f6736`无差异，授权及规矩继续执行。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
 
-科学计算仅本公开仓库Actions；早前本地偏差及纠正见[执行记录](notes/2026-11-20-public-actions-execution-correction.md)。root唯一分支写者；代理只scratch及未引用小源blob。每条结论普通commit/push，NFF立即pull --rebase循环再推，不强推。至少每小时pull，每次核双README差异/立即遵新规并记commit。raw只scratch/runner，不入Git/Release/artifact；保完整小源/参数/run/SHA/紧凑结论。题≤200MB、单文件<5MB、MD<100KB、H<10KB、open<30KB。令牌仅瞬时CLI。终端迁移中于17:55 UTC失联，未提交新参数仅留0-byte文件；最后真实pull仍见上文。当前云API读d490e99094b1502009a41ccc9930442b54b61831双README blob与4ef11相同；API普通快进补刊，未伪称新pull。
+科学计算仅本公开仓库Actions；早前本地偏差及纠正见[执行记录](notes/2026-11-20-public-actions-execution-correction.md)。root唯一分支写者；代理只scratch及未引用小源blob。每条结论普通commit/push，NFF立即pull --rebase循环再推，不强推。至少每小时pull，每次核双README差异/立即遵新规并记commit。raw只scratch/runner，不入Git/Release/artifact；保完整小源/参数/run/SHA/紧凑结论。题≤200MB、单文件<5MB、MD<100KB、H<10KB、open<30KB。令牌仅瞬时CLI。终端迁移中于17:55 UTC失联，未提交新参数仅留0-byte文件；最后真实pull仍见上文。当前云API读583635f3668e3d72e5388b0e28cdaba115a333c3双README blob与4ef11相同；API普通快进补刊，未伪称新pull。
 
 
 目标：同一固定g、闭连通C²嵌入、全t强C²连续；固定有内点H且diamH≥.2D、整像δhold≥.2D、含反射δE>0；全t reach≥.03D、整面relative metric≤1e−6；固定g/参数/范围的真实mesh和频率精化至机器或原求解容差，多t可复现网格，准确说明严格存在缺口。D为完整F0直径。R248准确相位恒等式处理全t，不新增独立t插值门。有限误差/开放片/障碍不完成。
 
 ## 完整历史与共同模型
 
-完整前文保[d02fe交接](https://github.com/Rogerhu12/math-research-public/blob/d02fe6f0e32f837225228f0fa98c5b5f131db258/topics/visible-flex-larger-amplitude/HANDOFF.md)及其固定历史链；全部结论/失败/未返边界保results、open、log、notes。这里只压当前索引，不改研究结论或删科学参数。原M160/J923/922胞/N2048/P7377、全core/H/旋转、quintic三jet、FullHold/S/R/材料图/反射帽、全mean/cross/J/J*及真Phi不删。有限typed不冒连续、iteration_limit不冒驻点、零步不冒精化；算法.992/.025只必要筛，新范数明示，原场证据不跨场迁移。
+完整前文保[50239交接](https://github.com/Rogerhu12/math-research-public/blob/50239b730cf6af1a2c98c8129505c778aafe6d4c/topics/visible-flex-larger-amplitude/HANDOFF.md)及固定历史链。这里只压索引，全部原结论/失败/未返/完整源参数保notes/results/open/log。原M160/J923/922胞/N2048/P7377及全core/H/旋转、quintic三jet、FullHold/材料图/反射帽、全mean/cross/J/J*与真Phi不删。有限筛非连续、iteration_limit非驻点、不跨场迁证。
 
 二十次raw普通移出及原小源/全部参数/恢复commit见[容量记录](notes/2026-11-20-resume-raw-retention.md)。Python3.12.14/NumPy2.3.5/SciPy1.17.0/单BLAS；SO3 CPUtorch2.5.1/float64。原共同来源在[独立运行](notes/2026-11-26-independent-public-nonlinear-continuation.md)，[队列完整归档](notes/2026-11-26-complete-followup-parameter-archives.md)保全部旧参数；未返步骤不归档冒完成。
 
 ## 03b真实方向及接续
 
-03b run45820592817/1，3cb1/68a3修复仅发布接口，旧03 stage7未知不回填。[3–13](notes/2026-11-26-actual-axisymmetric-first-field-and-zero-root-failure.md)、[17–18](notes/2026-11-26-actual-SO3-prior-separation-SOC-17-18.md)、[24尺度](notes/2026-11-26-actual-SO3-SOC-correction-scale-24.md)保完整来源；359ffc原ray1/128接受Phi210.1678/max .5140674、0SOC，后SOC修正过大且全几何未读，不能填真g。[R696实际21/22/25](notes/2026-11-26-actual-R696-angular-unit-direction-21-22-25.md)全1334847变量返4aa387/399ae8，Phi1156.1339/max .5151229，14ray仅末1/8192接受，QP32未驻；raw-c Istar d93e不冒归一化c/H d944。
+03b run45820592817/1已实际返36、job正常success只是执行结束，研究未完成；旧03 stage7未知不回填。先前3–27及R696/359ffc SOC完整结果、全部source/尺度/拒绝地点、raw-c Istar与原H区别保固定完整H及其notes，不重复登记。
 
 [积分实际26/27](notes/2026-11-26-actual-integral-SO3-first-direction-26-27.md)：原606完整Cholesky实际成功；同0f042参考/b025载体/6ffc目标/9d4模型/c06a范数，初cd530/原H1.9470544370684175。返655d29f/cfe87，1333370变量/45324288行，Phi213.8913→197.58458、max .5063653、alpha1/16真有限g负，QP64未驻、0恢复。27的92缺项只不存在trial/restoration，不是失败。
 
-当前同655d真实父、同c06a下一完整64及纯读数已真实返至33，待逐项归因；参数`resume-20261126-direct-integral-norm-655d-next64-ready.json`保全部六manifest/原完整argv。不能把已有结果当新方向返回；初6ffc/9d4和原H不变。其后排原ef017实际29trace、完整pure-v2及下一方向纯归因，实际顺序以runner为准。
+[实际第二积分30/33](notes/2026-11-26-actual-direct-integral-second-direction-30-33.md)真655d→fd3f8c/7212a1，同606/9d4/6ffc/c06a全空间；alpha1/32，Phi189.95031194/max .501279055，真有限g −.0249226672、全1843/1771点双支。QP64未驻，Pg2163.52249≫tol.00267976；1目标拒，1/2至1/16几何拒的family/位置未公开归因，不盲称reach/cell0。后继保全部新地点。
 
 ## 零端点缺陷：失败、读取修复、新机制
 
@@ -31,7 +31,7 @@
 
 [同原方程延拓](notes/2026-11-26-same-endpoint-residual-continuation.md)完整3f37/613d/9649/e57e/a0c9/cc28：[实际28/29](notes/2026-11-26-actual-zero-residual-continuation-28-and-reader29-failure.md)28已消费五manifest，a244/73a9，lambda约.8343未到1/149拒，最终原C未读、初场失败。29纯读取exit1/no输出独立登记。原ef017诊断已排，尚不猜trace；[pure v2](notes/2026-11-26-continuation-reader-v2-short-snapshot-contract.md)75f4只修短snapshot三不存在键，完整metadata全部守卫不变，尚未实际返回。
 
-[实际Jstar高度种子](notes/2026-11-26-actual-Jstar-height-same-target-new-initial-point.md)取0x1.ec0bc59b655d2p+0，仅改原H；完整入口已排03b，原非H字节/全C保留，新根结果未返。[增广gamma/KKT解析](notes/2026-11-26-zero-endpoint-fold-and-added-shape-kkt.md)：原Wz+独立gamma v，u=(z/S,v)成本、9KKT/27角jet/四阶混合链完整；补秩有条件，反射/周期须同支，最小范数选枝不自动继承旧场。[独立完整输入绑定器](notes/2026-11-26-new-reference-literal-Q-complete-input-binding.md)ea94已刊，十八字旧来源与当前十字段分开；[完整gamma源码](notes/2026-11-26-added-gamma-complete-KKT-operator.md)b712/0c488/5134/e092/42c0已刊未跑；[03b完整H种子→gamma与05历史](notes/2026-11-26-live-run03b-height-gamma-and-run05-history.md)已排；实际新场未返。新run字节变不等于数学g变，同目标永久点责任不因新schema免除。[05完整必要输入生成](notes/2026-11-26-run05-complete-reference-bootstrap.md)run45870334713已起、finishfalse；新机制尚未执行。
+[实际Jstar字初点](notes/2026-11-26-actual-Jstar-height-same-target-new-initial-point.md)只改末H，34真失败maxC .013491829/control .453940134，35 pure成功、无场/Phi。[完整gamma源](notes/2026-11-26-added-gamma-complete-KKT-operator.md)b712/0c488/5134/e092/42c0保六控制/九KKT/27角jet/四阶链；36真失败lambda .86109–.861156、140拒，原最终KKT未读/0成功根，未知末C/Ksigma，37未准入。准备gamma+显式H与法向选枝，未有新结果。[05完整必要输入及历史](notes/2026-11-26-live-run03b-height-gamma-and-run05-history.md)45870334713已起，原3/17/21/26真实依赖已排、30须续；新schema/raw不免同g永久点，逐位一致不得仅由同命令推断。
 
 ## 04及旧02边界
 
