@@ -676,3 +676,7 @@ root读paid-loader/main及完整说明，另一线全文独立核20KB源；6绑�
 ## 2026-11-26 — Astra-new-mechanism-0105020f-20261126 / 真峰容量与中断检查点续接
 
 root读完整说明/source-input/callback快照/runner传输/workflow，独立另一线全文核并修正真实restoration先保留后快照边界；13绑定/AST/sparse及124272/76227字节输入hash核通过。原localizer/双pull helper逐AST不变，旧科学预检不复跑；B038下界/缺失点保真。当前H压缩前全文另存，随后立即发实际双lane续算。
+
+## 2026-11-26 — Astra-new-mechanism-0105020f-20261126 / 完整十九态首轮原收据
+
+root全文核原收据，从首次decoded原bytes解析全部R530_FULL输出，138678字节SHA2d6daec9…吻合；完整16行/两个阶数/四次真实BVP异常和无根范围保全。1201是累计评价点数，不是refined网格；未打印非法向量，不指定越界分量。H缩短旧接口但全限定保原证明/压缩前记录，立即推本完整结论。

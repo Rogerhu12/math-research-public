@@ -251,3 +251,7 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 ### 从真实分批终态和完整中断检查点续解
 
 [新双lane输入](notes/2026-11-26-theta-peak-capacity-and-checkpoint-continuation.md)已提交：B030采用真实proposal494径向/1129峰，B038用完整START加2个已写pending到502/540；保原81q/trust，不补造缺失的1峰或被拒q。实际峰cap2048只响应1129>1024，径向513未改。完整状态改经SHA绑定stdin而非截断argv；每个完整callback在全部保留态更新后刷q/actual/pending/trial及尚未折入oracle费用，真实restoration低阈值保留也先更新。原1536约束/3072fine/完整分批localizer及FFT/AD/物理/接受门完全保留。B038已记录成本仍下界，未刷墙钟区间另保，后续不得改称精确总成本。
+
+### 完整十九态首跑已闭，必须处理真实最高历史项
+
+[原收据](notes/2026-11-26-r584-r586-full-nineteen-first-public-receipt-agent.md)run45801587742自然wrapper success，但四真实BVP均49 RHS/1201累计点评价后首次Newton试探触发声明范围异常，没有返回coarse根。child45.742568秒/main44.527690649秒与Fraction7.513446秒均保账；完整σ′probe达1e12–1e14、96→192相对差约8.8e−8，不以局部R0温和掩盖。不得原样重跑四初猜；下一逐式查完整N的最高T²势，若作可逆坐标必须把非零能量/中心/ν/负侧/末势全部回付。

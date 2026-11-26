@@ -312,3 +312,5 @@
 - [R582已付mouth直接返回续算](notes/2026-11-26-r582-paid-mouth-resume-implementation.md)：新公开输入准确绑定原三条SEED及4609字节小态，0新内外种子传递；保原2均值控制、完整undivided两行、几何交换和24→48/96线性表示。只继续原失败前未执行部分，所有原费用保留。
 
 - [真实峰容量及每callback检查点续接](notes/2026-11-26-theta-peak-capacity-and-checkpoint-continuation.md)：新双lane原q/trust保留，B030494/1129、B038502/540含两已写pending；缺1未刷坐标仍明记。只因真实1129>1024增峰cap2048、径向仍513；完整stdin及完成callback全态/费用避免原恢复缺口，原算子/接受门不变。
+
+- [完整十九态首轮公开终态收据](notes/2026-11-26-r584-r586-full-nineteen-first-public-receipt-agent.md)：**完整原观察**。run45801587742付45.742568秒child/44.527690649秒main，343积分/4083几何单项式与完整16行96/192读出；四BVP首次Newton试探均越声明范围，无任何根/末值/pose。真实大历史项保留，转原式最高势而不原样重跑。
