@@ -5,7 +5,7 @@
 
 ## 1. 授权、规则与完整前史
 
-公开本次实际pull且根/题README已读至 **40f04e82182ea7b2f3e45fa99cf71d0301a92dd5**；根/题规则相对继承0749a4cc均空差异。私库实际pull/根README已读至 **1a995ebf0c19ea771ef0684a4f22bf94da9a960e**，QUEUE认领提交 **09f8b8b54e7cfaabaa635bae5c438c7f1521289a**；本会话仍唯一进行中，21:00 UTC前再次实际pull且根README空差异，下一不晚于21:58 UTC。
+公开本次实际pull且根/题README已读至 **0717fd3ae06e5d8ea794b9cbb8524ac016ff0d53**；根/题规则相对继承0749a4cc均空差异。私库实际pull/根README已读至 **1a995ebf0c19ea771ef0684a4f22bf94da9a960e**，QUEUE认领提交 **09f8b8b54e7cfaabaa635bae5c438c7f1521289a**；本会话仍唯一进行中，21:00 UTC前再次实际pull且根README空差异，下一不晚于21:58 UTC。
 
 [压缩前全文](notes/HANDOFF-before-actual337-20261127.md)及其归档链保存全部旧结论、真实输入、失败/偏离、量词与完整费用；移档不重跑已付门。[四来源与文献](notes/2026-11-27-current-four-source-topics-and-literature.md)保已读版本及用途。
 
@@ -31,7 +31,7 @@
 
 [全S原60步终态](notes/2026-11-27-r613-full-position-sixty-step-terminal.md)run **45891036836**/job140153472856/source99007dd1，新2961.020285526秒/60接受/60完整Jac/166拒步；真1130q JSON SHA **238d786c6134bcbd356958c5fcf263916feb5bf1004af7e93722a30ed591e1c7**，iteration337、amp1e−5、H.5188903591561069、nextdamping1e−14、pending null。原60迭代上限，末轮仍接受，不冒驻点。
 
-全部950×256实际S奇1…127、121600行/1130列、完整QR/小R全SVD不变。merit3.47959e−6→3.58788e−7，fine1728×512 η2.524410961e−7，双直接2.524507/2.524790e−7，2e−9仍未过；末段L2下降而max回升、高频D及qnorm2628增长均保留。R615同场条件全角界5.80358648e−7，只在已采半径且仍欠径向/ODE/舍入。原R602 core1.50681e−19/全部口/canonical512高度保持；新正常scope从337续，不换中途较小工作max点。
+全部950×256实际S奇1…127、121600行/1130列、完整QR/小R全SVD不变。merit3.47959e−6→3.58788e−7，fine1728×512 η2.524410961e−7，双直接2.524507/2.524790e−7，2e−9仍未过；末段L2下降而max回升、高频D及qnorm2628增长均保留。R615同场条件全角界5.80358648e−7，只在已采半径且仍欠径向/ODE/舍入。原R602 core1.50681e−19/全部口/canonical512高度保持；[337正常续算](notes/2026-11-27-r613-actual337-normal-continuation-scope.md)已全文核新wrapper/note/workflow、24绑定与原q/费用；原科学driver全部数值函数不改，60步/5400秒/240预留，不重做旧入场门。
 
 [R617](results/R617-finite-pre-tanh-poles-and-open-cap-rigidity.md)有限pre+有限post准确开帽刚性不授误差下界。[R618](results/R618-fixed-metric-core-and-growing-post-response.md)及[真零入口](notes/2026-11-27-r618-fixed-target-evaluation-and-zero-entry.md)已付固定完整E同根/core ζ链、全2J、新角带真实强迫尾、同根e′预算、旧六jets恒等mean转移与τ0旧场/τ1全core。纯helper已全文审读未科学执行；正落实完整模型/Jac/独立post增长，E函数不得随网格改，不能把接口冒固定g根。
 
