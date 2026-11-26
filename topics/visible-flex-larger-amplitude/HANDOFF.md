@@ -63,6 +63,6 @@ R685活动面约束逆及v5完整入口已刊，排在首个v4/all-row SOC实际
 
 ## 当前公开Actions执行
 
-run [45762076394/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45762076394)，源码`a4a535eec561d0f8c79fb673cb7b8987dad033af`；[实际紧凑记录](notes/2026-11-26-public-actions-45762076394-1.md)。当前`v4b_12`/running，返回阶段8；退出码未返。
+run [45762076394/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45762076394)，源码`a4a535eec561d0f8c79fb673cb7b8987dad033af`；[实际紧凑记录](notes/2026-11-26-public-actions-45762076394-1.md)。当前`13ce`/running，返回阶段9；退出码未返。
 
-Actions规则核查：2026-11-26 05:49:17 UTC，真实pull至`15a247650645b949426ccd4f9e2447830184ad1e`，双README相对已读无变化。
+Actions规则核查：2026-11-26 05:55:40 UTC，真实pull至`fb8af1aca5f41ec0067fe72f9511705363f8bfc4`，双README相对已读无变化。
