@@ -1,6 +1,6 @@
 # 真实低逆输出后的58／224／32实际执行入口
 
-2026-11-26，visible-exact-astra-198c63d15049。
+2026-11-26，visible-exact-astra-198c63d-20261126。
 
 已有 B4–B21、P1–P16、L1–L25 的纯数学合同不改。本次补上实际运行代码：
 
@@ -43,3 +43,18 @@ record重建旧私有receiver、kappa、boundary和inverse majorant，既不重�
 WPN保持N=24480的原projection，使用已成WHVA的四个source界、D的完整mean子列界
 及原exact_reference中q>=1/8的准确floor；原N4096 mesh false不被改写。所有原mean、
 ordinary源、两个独立端点、rough高端口与原fixed-metric/负侧/非线性剩余义务不变。
+
+
+## 已保存 strict-epsilon 与 R149 v2 来源的后继准入
+
+新增 complete_R142_low193_neumann_source_point_continuation_v1 分支只接受实际 complete/proved true、child0 的 NS 完整低输出。NS 某次可以只支付其剩余1至5个目标，但交给 physical58 时四个 source、全部193 atoms、5696个真实闭盒及1424个完整 point cells 必须全部齐全。owner 和生成器全文核对 NS 自身源码、纯准入及证明，并沿实际 whole-file references 读取最初 PS scientific/execution/manifest；原 whole defect 六球、strict saved-epsilon 门、model/refinement/reference 必须一致。PS 完整六球后的真实后处理失败可以原样保留；NS 完整输出的成功条件不因此放松。
+
+已有 R149 coercive source-point 分支同时接受已发布的 whole_R142_six_ball_false_branch_with_unchanged_execution_references_v2：完整旧六球可以来自原 R142 或 PS，但必须由同一固定 R149 纯来源准入逐字段验证，且与实际成功的 theta 原件保存的 provenance 相同。旧 complete/proved/failure/returncode 和 target 状态不会被改写。旧 R142 defect=null 仍明确不合格。原 strict 分支及原 R149 v1 分支保留。
+
+上述窄适配不改58／224／32的任一数学公式、记录顺序或目标数。没有实际完整低输出时仍只给 readiness，不生成 future-path manifest 或虚构 actual。
+
+## 每条标量的正式提交顺序
+
+emit 先构造包含新球和新 cursor 的完整候选 scientific 文档，原子写临时文件，完整读回并核 bytes、整个解析对象及新 Arb 球包含关系；全部通过后才把同一批已验证 bytes 原子替换正式输出、更新内存 document。正式 completed 前缀不再先于包含核验推进。计算、保存或读回失败时，原已接受前缀保持原义。
+
+生成器的 pip 安装行使用 YAML block scalar，避免命令中的 colon-space 被解析成非法 mapping；安装版本和实际数学资源不变。这些事务及 YAML 修正不构成新科学目标。

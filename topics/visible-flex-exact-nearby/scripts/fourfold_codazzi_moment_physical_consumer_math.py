@@ -18,6 +18,8 @@ MOMENT_TARGETS = (
 )
 COERCIVE_LOW_KIND = "complete_R149_low193_coercive_source_point_continuation_v1"
 COERCIVE_TARGETS = MOMENT_TARGETS[1:]
+NEUMANN_LOW_KIND = "complete_R142_low193_neumann_source_point_continuation_v1"
+NEUMANN_TARGETS = MOMENT_TARGETS[1:]
 COERCIVITY_KIND = "complete_R149_low193_signed_loop_coercivity_v1"
 COERCIVITY_TARGET = "complete_same_weighted_body_signed_trace_and_symmetric_part"
 WEIGHTED_KIND = "complete_actual_GH_radially_weighted_head_response_v1"
@@ -89,7 +91,7 @@ def admit_complete_inputs(api, low, low_execution, gh5, gh5_execution,
     the unchanged metadata helper. No unsuccessful/early two-target R141
     result can enter this consumer. No projected-only L bound is admitted.
     """
-    require(low["kind"] in (LOW_KIND, MOMENT_LOW_KIND, COERCIVE_LOW_KIND)
+    require(low["kind"] in (LOW_KIND, MOMENT_LOW_KIND, COERCIVE_LOW_KIND, NEUMANN_LOW_KIND)
             and low["complete"] is True and low["proved"] is True
             and low["failure"] is None and low["actual_returncode"] == 0
             and low_execution["scientific_complete"] is True
@@ -114,6 +116,26 @@ def admit_complete_inputs(api, low, low_execution, gh5, gh5_execution,
                 and continuation["parent_actual_coefficient_enclosures_narrowed"] is False
                 and continuation["five_source_roles_and_independent_even_mean_retained"] is True,
                 "six genuine R142 targets plus the whole already certified same Green prefix")
+    elif low["kind"] == NEUMANN_LOW_KIND:
+        prior = low["completed_prior_low_defect"]
+        pfx = low["certificate"]["whole_point_prefix"]
+        targets = tuple(low["completed_targets"])
+        require(targets and targets == tuple(target for target in NEUMANN_TARGETS if target in targets)
+                and low["actual_progress"]["new_targets_completed"] == len(targets)
+                and prior["kind"] == "whole_completed_PS_epsilon_true_with_unchanged_execution_v1"
+                and prior["complete_defect_target_recomputed"] is False
+                and low["certificate"]["model_fields_reused_from_whole_prior_certified_Green"] is True
+                and low["certificate"]["defect"]["strict_gate_uses_saved_decimal_upper"] is True
+                and set(low["certificate"]["comparison_source_norms"]) == set(ROLES)
+                and pfx["kind"] == "R142_complete_saved_neumann_whole_point_prefix_v1"
+                and pfx["complete_refined_cell_count"] == pfx["complete_model_cells"] == 1424
+                and pfx["complete_box_count"] == 5696
+                and pfx["whole_saved_prefix_readback_used"] is True
+                and pfx["every_box_in_accepted_cells_covered"] is True
+                and pfx["original_defect_HS_recomputed"] is False
+                and low["certificate"]["whole_interval_transversality"]["low_resolvent_basis"]
+                    == "strict_complete_defect",
+                "complete actual PS epsilon, all source outputs and durable full-point continuation")
     else:
         prior = low["completed_prior_coercivity"]
         defect = low["completed_prior_low_defect"]
@@ -122,9 +144,16 @@ def admit_complete_inputs(api, low, low_execution, gh5, gh5_execution,
                 and prior["kind"] == "whole_completed_independent_R149_coercivity_success_v1"
                 and prior["completed_targets"] == [COERCIVITY_TARGET]
                 and prior["old_signed_trace_or_theta_target_recomputed"] is False
-                and defect["kind"] == "whole_completed_R142_epsilon_false_branch_v1"
                 and defect["old_HS_target_recomputed"] is False
-                and defect["old_epsilon_false_gate_retained"] is True
+                and ((defect["kind"] == "whole_completed_R142_epsilon_false_branch_v1"
+                      and defect["old_epsilon_false_gate_retained"] is True)
+                     or (defect["kind"]
+                            == "whole_R142_six_ball_false_branch_with_unchanged_execution_references_v2"
+                         and defect["whole_old_complete_HS2_and_all_atoms_retained"] is True
+                         and defect["whole_old_false_Neumann_gate_retained"] is True
+                         and defect["provenance"]["exact_saved_epsilon_upper_is_at_least_one"] is True
+                         and defect["provenance"]["old_failed_execution_relabelled_successful"] is False
+                         and defect["provenance"]["old_target_marker_invented"] is False))
                 and continuation["independent_complete_R149_coercivity_consumed"] is True
                 and continuation["original_R142_epsilon_false_gate_retained"] is True
                 and continuation["old_Green_HS_atoms_trace_or_theta_target_recomputed"] is False
@@ -256,6 +285,13 @@ def admit_complete_inputs(api, low, low_execution, gh5, gh5_execution,
                             for key in ("symmetric_part_norm_upper", "coercivity_gap_lower",
                                         "resolvent_norm_upper", "comparison_defect_body_upper")),
                     "each completed source uses the same whole original saved resolvent")
+        elif low["kind"] == NEUMANN_LOW_KIND:
+            require(actual["strict_low_coefficient_residual_passed"] is True
+                    and actual["comparison_defect_body_upper"] == lc["defect"]["body_norm_upper"]
+                    and comparison == lc["comparison_source_norms"][role]
+                    and actual["high_feedback_or_full_positive_inverse_proved"] is False
+                    and actual["original_finite_Qf_rho_bridge_proved"] is False,
+                    "each saved actual source retains the one full PS epsilon and comparison")
         source_bounds[role] = {"body": saved_upper(api, actual["actual_body_norm_upper"]),
             "atoms": saved_upper(api, actual["actual_atoms193_norm_upper"]),
             "complete": saved_upper(api, actual["actual_complete_source_norm_upper"]),

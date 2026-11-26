@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Metadata-only entry for five unpaid R149 coercive source/point targets.
 
-Requires two REAL WHOLE predecessors: the completed R142 epsilon-false
-branch and a completed independent R149 signed-loop theta-success branch,
+Requires two REAL WHOLE predecessors: a qualified full R142/PS epsilon-false
+result and a completed independent R149 signed-loop theta-success branch,
 with both executions and manifests.  Full input bytes, receipts, schemas,
 source pins and saved-gate metadata are checked before an executable entry
 is written.  No scientific module is imported, no numerical target is
@@ -178,6 +178,7 @@ def main():
         "DEFECT_ACTUAL_ROLE", "DEFECT_EXECUTION_ROLE", "DEFECT_MANIFEST_ROLE",
         "COERCIVITY_ACTUAL_ROLE", "COERCIVITY_EXECUTION_ROLE", "COERCIVITY_MANIFEST_ROLE",
         "PRIOR_DEFECT_KIND", "PRIOR_COERCIVITY_KIND", "PRIOR_COERCIVITY_TARGET",
+        "FALSE_PROVENANCE_KIND_V2", "R149_V2_PROVENANCE_SOURCE_SHA256",
         "TARGETS", "SOURCE_ROLES", "RUNTIME", "CERTIFICATE_PARAMETERS",
         "RETAINED_SCOPE_OVERRIDES", "GATE_SUFFIX", "SCI_FIELDS"})
     require(constants["SOURCE_PATH"] == OWNER_PATH
@@ -196,10 +197,6 @@ def main():
     old_defect = json.loads((root/defect_spec["path"]).read_bytes())
     old_defect_execution = json.loads((root/defect_execution_spec["path"]).read_bytes())
     old_defect_manifest = json.loads((root/defect_manifest_spec["path"]).read_bytes())
-    require(defect_manifest_spec["sha256"] == OLD_DEFECT_MANIFEST_SHA256,
-            "same original completed R142 manifest")
-    completed_pair(old_defect, old_defect_execution, old_defect_manifest,
-                   defect_manifest_spec, defect_spec)
     coercivity_raw = (root/coercivity_path).read_bytes()
     coercivity_execution_raw = (root/coercivity_execution_path).read_bytes()
     old_coercivity = json.loads(coercivity_raw)
@@ -217,21 +214,56 @@ def main():
                 +"/run-"+run+"-"+attempt+"/"+manifest["operation"]["scientific_filename"]
             and coercivity_execution_path == str(Path(coercivity_path).with_name("execution.json")),
             "the actual R149 run directory and whole sibling execution")
-    dc, hc = old_defect["certificate"], old_coercivity["certificate"]
-    require(old_defect["kind"] == constants["PRIOR_DEFECT_KIND"]
-            and old_defect["run_id"] == "45761859526"
-            and old_defect["proved"] is False
-            and old_defect["completed_targets"]
-                == ["complete_parent_moment_true_hybrid_low_coefficient_defect"]
-            and dc["strict_low_coefficient_gate_passed"] is False
-            and dc["actual_low_hybrid_inverse_proved"] is False
-            and dc["sources"] == {} and dc["whole_interval_transversality"] is None
-            and dc["defect"]["source_role"] == "true_coefficient_defect"
-            and dc["defect"]["complete_original_panels"] == 155
-            and dc["defect"]["complete_refined_cells"] == 1424
-            and dc["defect"]["complete_output_atoms"] == 193
-            and decimal_endpoints(dc["defect"]["body_norm_upper"])[1] >= 1,
-            "REAL completed R142 false branch, not a prefix or an already closed old inverse")
+    false_binding = old_coercivity["completed_prior_low_defect"]
+    if false_binding["kind"] == constants["FALSE_PROVENANCE_KIND_V2"]:
+        original_specs = [entry for entry in original_files if entry["path"]
+            == TOPIC+"/notes/2026-11-26-low193-parent-moment-inputs.json"]
+        require(len(original_specs) == 1, "one whole immutable original77 manifest")
+        original_raw = (root/original_specs[0]["path"]).read_bytes()
+        signed_spec = by_role["low_centre_signed_loop_owner"]
+        signed_raw = (root/signed_spec["path"]).read_bytes()
+        require(next(entry for entry in old_coercivity["scientific_modules"]
+                     if entry["role"] == "low_centre_signed_loop_owner") == signed_spec,
+                "the completed theta result used the exact whole v2 source")
+        nodes = [node for node in ast.parse(owner_raw.decode("utf-8"), filename=OWNER_PATH).body
+                 if isinstance(node, ast.FunctionDef) and node.name == "qualify_saved_false_provenance"]
+        require(len(nodes) == 1, "the exact CP owner's pure v2 provenance adapter")
+        namespace = {"require": require, "ast": ast, "hashlib": hashlib, "copy": copy,
+                     "re": re, "Fraction": Fraction,
+                     "R149_V2_PROVENANCE_SOURCE_SHA256": constants["R149_V2_PROVENANCE_SOURCE_SHA256"]}
+        exec(compile(ast.Module(body=nodes, type_ignores=[]), OWNER_PATH, "exec"), namespace)
+        green_spec = by_role["completed_directed_Green_prefix_actual"]
+        dc, old_provenance = namespace["qualify_saved_false_provenance"](
+            old_defect, old_defect_execution, old_defect_manifest,
+            (root/defect_manifest_spec["path"]).read_bytes(),
+            json.loads(original_raw), original_raw,
+            json.loads((root/green_spec["path"]).read_bytes()),
+            manifest, by_role, signed_raw, signed_spec)
+        require(false_binding["provenance"] == old_provenance
+                and false_binding["whole_old_complete_HS2_and_all_atoms_retained"] is True
+                and false_binding["whole_old_false_Neumann_gate_retained"] is True,
+                "whole actual original-or-PS status and six bounds match the paid v2 qualification")
+    else:
+        require(defect_manifest_spec["sha256"] == OLD_DEFECT_MANIFEST_SHA256,
+                "same original completed R142 manifest")
+        completed_pair(old_defect, old_defect_execution, old_defect_manifest,
+                       defect_manifest_spec, defect_spec)
+        dc = old_defect["certificate"]
+        require(old_defect["kind"] == constants["PRIOR_DEFECT_KIND"]
+                and old_defect["run_id"] == "45761859526"
+                and old_defect["proved"] is False
+                and old_defect["completed_targets"]
+                    == ["complete_parent_moment_true_hybrid_low_coefficient_defect"]
+                and dc["strict_low_coefficient_gate_passed"] is False
+                and dc["actual_low_hybrid_inverse_proved"] is False
+                and dc["sources"] == {} and dc["whole_interval_transversality"] is None
+                and dc["defect"]["source_role"] == "true_coefficient_defect"
+                and dc["defect"]["complete_original_panels"] == 155
+                and dc["defect"]["complete_refined_cells"] == 1424
+                and dc["defect"]["complete_output_atoms"] == 193
+                and decimal_endpoints(dc["defect"]["body_norm_upper"])[1] >= 1,
+                "unchanged original complete R142 false admission")
+    hc = old_coercivity["certificate"]
     require(old_coercivity["kind"] == constants["PRIOR_COERCIVITY_KIND"]
             and old_coercivity["proved"] is True
             and old_coercivity["completed_targets"] == [constants["PRIOR_COERCIVITY_TARGET"]]
@@ -353,7 +385,8 @@ def main():
         "whole_independent_coercivity_actual": coercivity_spec,
         "whole_independent_coercivity_execution": coercivity_execution_spec,
         "whole_independent_coercivity_manifest": coercivity_manifest_spec,
-        "two_real_whole_completed_predecessors_required": True,
+        "whole_completed_theta_and_qualified_six_ball_false_predecessor_required": True,
+        "original_or_PS_failed_defect_execution_is_not_relabelled_successful": True,
         "old_epsilon_false_and_actual_theta_success_preserved": True,
         "old_Green_HS_atoms_signed_trace_and_theta_targets_not_recomputed": True,
         "sourcepoint_private_carriers_are_necessary_unpublished_inputs": True,

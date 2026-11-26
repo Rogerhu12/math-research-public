@@ -10,6 +10,7 @@ covariances; theta never substitutes for a source or point norm.
 """
 from __future__ import annotations
 import argparse
+import ast
 import copy
 import hashlib
 import importlib.util
@@ -51,6 +52,8 @@ COERCIVITY_ACTUAL_ROLE = "completed_signed_loop_coercivity_actual"
 COERCIVITY_EXECUTION_ROLE = "completed_signed_loop_coercivity_execution"
 COERCIVITY_MANIFEST_ROLE = "completed_signed_loop_coercivity_manifest"
 PRIOR_DEFECT_KIND = "complete_R142_low193_parent_moment_continuation_v1"
+FALSE_PROVENANCE_KIND_V2 = "whole_R142_six_ball_false_branch_with_unchanged_execution_references_v2"
+R149_V2_PROVENANCE_SOURCE_SHA256 = "46b11da5fb7430576d8a38555b12f6fa57104dc8effdf2f0b88d11e181afff0b"
 PRIOR_COERCIVITY_KIND = "complete_R149_low193_signed_loop_coercivity_v1"
 PRIOR_COERCIVITY_TARGET = "complete_same_weighted_body_signed_trace_and_symmetric_part"
 TARGETS = [
@@ -192,6 +195,38 @@ def prior_success(actual, execution):
     return diagnostic
 
 
+def qualify_saved_false_provenance(actual, execution, old_manifest, old_manifest_raw,
+                                   original_manifest, original_manifest_raw, green_actual,
+                                   retained_manifest, retained_specs, signed_owner_raw, signed_owner_spec):
+    """Reuse only the two exact reviewed R149 metadata functions, never its science."""
+    require(hashlib.sha256(signed_owner_raw).hexdigest()
+                == signed_owner_spec["sha256"] == R149_V2_PROVENANCE_SOURCE_SHA256,
+            "the exact whole published v2 false-provenance definition")
+    source_tree = ast.parse(signed_owner_raw.decode("utf-8"), filename=signed_owner_spec["path"])
+    names = {"ORIGINAL_MANIFEST_SHA256", "ORIGINAL_DEFECT_KIND", "STREAM_DEFECT_KIND",
+        "ORIGINAL_DEFECT_OWNER_SHA256", "STREAM_DEFECT_OWNER_SHA256", "STREAM_DEFECT_MATH_SHA256",
+        "DEFECT_NORM_FIELDS", "OLD_MANIFEST_ROLE", "OLD_DEFECT_ROLE",
+        "RUNTIME", "GATE_SUFFIX", "CERTIFICATE_PARAMETERS"}
+    constants = {}
+    for node in source_tree.body:
+        if isinstance(node, ast.Assign) and len(node.targets) == 1:
+            target = node.targets[0]
+            if isinstance(target, ast.Name) and target.id in names:
+                constants[target.id] = ast.literal_eval(node.value)
+    require(set(constants) == names, "all exact literal metadata qualifications")
+    functions = {"readonly_decimal_endpoints", "completed_parent_defect"}
+    nodes = [node for node in source_tree.body
+             if isinstance(node, ast.FunctionDef) and node.name in functions]
+    require(len(nodes) == len(functions) and {node.name for node in nodes} == functions,
+            "only the two pure whole-record metadata functions")
+    namespace = {"require": require, "Fraction": Fraction, "copy": copy, "re": re, **constants}
+    exec(compile(ast.Module(body=nodes, type_ignores=[]), signed_owner_spec["path"], "exec"), namespace)
+    return namespace["completed_parent_defect"](
+        actual, execution, old_manifest, old_manifest_raw,
+        original_manifest, original_manifest_raw, green_actual,
+        retained_manifest, retained_specs, lambda raw: hashlib.sha256(raw).hexdigest())
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     for name in ("repo", "manifest", "manifest-sha", "out", "native", "native-receipts",
@@ -292,19 +327,44 @@ def main():
                 "execution identifies the entire actual scientific input")
         return actual, execution, previous_manifest
 
-    old_defect, old_defect_execution, old_defect_manifest = completed_pair(
-        DEFECT_ACTUAL_ROLE, DEFECT_EXECUTION_ROLE, DEFECT_MANIFEST_ROLE)
     old_coercivity, old_coercivity_execution, old_coercivity_manifest = completed_pair(
         COERCIVITY_ACTUAL_ROLE, COERCIVITY_EXECUTION_ROLE, COERCIVITY_MANIFEST_ROLE)
-    dc, hc = old_defect["certificate"], old_coercivity["certificate"]
-    require(old_defect["kind"] == PRIOR_DEFECT_KIND and old_defect["proved"] is False
-            and old_defect["completed_targets"]
-                == ["complete_parent_moment_true_hybrid_low_coefficient_defect"]
-            and dc["defect"] is not None and dc["sources"] == {}
-            and dc["whole_interval_transversality"] is None
-            and dc["strict_low_coefficient_gate_passed"] is False
-            and dc["actual_low_hybrid_inverse_proved"] is False,
-            "whole original R142 epsilon false branch, not an unfinished prefix")
+    old_defect = json.loads(core.read_spec(root, specs[DEFECT_ACTUAL_ROLE]))
+    old_defect_execution = json.loads(core.read_spec(root, specs[DEFECT_EXECUTION_ROLE]))
+    old_defect_manifest_raw = core.read_spec(root, specs[DEFECT_MANIFEST_ROLE])
+    old_defect_manifest = json.loads(old_defect_manifest_raw)
+    false_binding = old_coercivity["completed_prior_low_defect"]
+    if false_binding["kind"] == FALSE_PROVENANCE_KIND_V2:
+        original_specs = [entry for entry in manifest["files"] if entry["path"]
+            == TOPIC+"notes/2026-11-26-low193-parent-moment-inputs.json"]
+        require(len(original_specs) == 1, "one whole immutable original77 manifest")
+        original_raw = core.read_spec(root, original_specs[0])
+        signed_spec = specs["low_centre_signed_loop_owner"]
+        signed_raw = core.read_spec(root, signed_spec)
+        dc, old_provenance = qualify_saved_false_provenance(
+            old_defect, old_defect_execution, old_defect_manifest, old_defect_manifest_raw,
+            json.loads(original_raw), original_raw, prefix_actual,
+            manifest, specs, signed_raw, signed_spec)
+        require(false_binding["provenance"] == old_provenance
+                and false_binding["whole_old_complete_HS2_and_all_atoms_retained"] is True
+                and false_binding["whole_old_false_Neumann_gate_retained"] is True,
+                "the actual R149 success consumes this entire unchanged original-or-PS failed/complete outcome")
+        require(next(entry for entry in old_coercivity["scientific_modules"]
+                     if entry["role"] == "low_centre_signed_loop_owner") == signed_spec,
+                "the true completed theta result used the exact reviewed v2 definition")
+    else:
+        old_defect, old_defect_execution, old_defect_manifest = completed_pair(
+            DEFECT_ACTUAL_ROLE, DEFECT_EXECUTION_ROLE, DEFECT_MANIFEST_ROLE)
+        dc = old_defect["certificate"]
+        require(old_defect["kind"] == PRIOR_DEFECT_KIND and old_defect["proved"] is False
+                and old_defect["completed_targets"]
+                    == ["complete_parent_moment_true_hybrid_low_coefficient_defect"]
+                and dc["defect"] is not None and dc["sources"] == {}
+                and dc["whole_interval_transversality"] is None
+                and dc["strict_low_coefficient_gate_passed"] is False
+                and dc["actual_low_hybrid_inverse_proved"] is False,
+                "unchanged original complete R142 epsilon false admission")
+    hc = old_coercivity["certificate"]
     require(old_coercivity["kind"] == PRIOR_COERCIVITY_KIND
             and old_coercivity["proved"] is True
             and old_coercivity["completed_targets"] == [PRIOR_COERCIVITY_TARGET]
@@ -422,13 +482,14 @@ def main():
             "old_unfinished_defect_treated_as_full_false_gate": False,
             "private_carriers_were_published_or_restored": False,
             "same_defined_carriers_necessarily_materialized_for_new_target": True},
-        "completed_prior_low_defect": {
+        "completed_prior_low_defect": (
+            copy.deepcopy(false_binding) if false_binding["kind"] == FALSE_PROVENANCE_KIND_V2 else {
             "kind": "whole_completed_R142_epsilon_false_branch_v1",
             "scientific": {"file": copy.deepcopy(specs[DEFECT_ACTUAL_ROLE]), "json_path": []},
             "execution": {"file": copy.deepcopy(specs[DEFECT_EXECUTION_ROLE]), "json_path": []},
             "manifest": {"file": copy.deepcopy(specs[DEFECT_MANIFEST_ROLE]), "json_path": []},
             "old_HS_target_recomputed": False,
-            "old_epsilon_false_gate_retained": True},
+            "old_epsilon_false_gate_retained": True}),
         "completed_prior_coercivity": {
             "kind": "whole_completed_independent_R149_coercivity_success_v1",
             "scientific": {"file": copy.deepcopy(specs[COERCIVITY_ACTUAL_ROLE]), "json_path": []},

@@ -5,8 +5,9 @@ A missing, failed, or complete-false predecessor yields only a truthful route.
 No numerical manifest/workflow is created until its actual prerequisites exist.
 """
 from __future__ import annotations
-import argparse, ast, hashlib, json
+import argparse, ast, copy, hashlib, importlib.util, json, re, sys
 from pathlib import Path
+from fractions import Fraction
 
 REPO = "Rogerhu12/math-research-public"
 TOPIC = "topics/visible-flex-exact-nearby"
@@ -120,6 +121,7 @@ def main():
         if stage == "low":
             certificate = actual["certificate"]
             coercive_kind = "complete_R149_low193_coercive_source_point_continuation_v1"
+            neumann_kind = "complete_R142_low193_neumann_source_point_continuation_v1"
             if actual["kind"] == coercive_kind:
                 require(certificate["strict_low_coefficient_gate_passed"] is False
                         and certificate["strict_symmetric_part_gate_passed"] is True
@@ -140,10 +142,21 @@ def main():
                     and set(certificate["sources"]) == set(SOURCE_ROLES)
                     and certificate["whole_interval_transversality"]["every_real_radius_covered"] is True,
                     "all true low source and whole-interval outputs exist")
-            expected_count = (5 if actual["kind"] == coercive_kind else
+            if actual["kind"] == neumann_kind:
+                expected_targets = manifest["operation"]["ordered_targets"]
+                require(expected_targets and expected_targets == [target for target in (
+                    "complete_ordinary_raw_low_source_and193_atoms",
+                    "complete_transformed_low_source_and193_atoms",
+                    "complete_low_second_kind_inverse_and193_atoms",
+                    "complete_high0_return_source_without_CFB",
+                    "complete_actual_whole_interval_low_transversality") if target in expected_targets]
+                    and actual["completed_targets"] == expected_targets,
+                    "exact remaining NS targets, with previously completed outputs retained whole")
+            expected_count = (len(manifest["operation"]["ordered_targets"]) if actual["kind"] == neumann_kind else
+                5 if actual["kind"] == coercive_kind else
                 6 if actual["kind"] == "complete_R142_low193_parent_moment_continuation_v1" else 7)
             require(actual["kind"] in ("complete_R142_low193_parent_moment_continuation_v1",
-                    "complete_R141_low193_directed_Green_certificate_v1", coercive_kind)
+                    "complete_R141_low193_directed_Green_certificate_v1", coercive_kind, neumann_kind)
                     and len(actual["completed_targets"]) == expected_count,
                     "explicit original, moment or coercive continuation count without relabeling")
         else:
@@ -195,7 +208,8 @@ def main():
             "exact_reference_source": "scripts/fourfold_codazzi_frozen_cross_block_value_tail.py"})
     if predecessors["low"][0]["kind"] in (
             "complete_R142_low193_parent_moment_continuation_v1",
-            "complete_R149_low193_coercive_source_point_continuation_v1"):
+            "complete_R149_low193_coercive_source_point_continuation_v1",
+            "complete_R142_low193_neumann_source_point_continuation_v1"):
         fixed.update({
             "directed_prefix_actual": "notes/low193_verified_green_ci/run-44730452579-1/actual-scientific-conclusion.json",
             "directed_prefix_execution": "notes/low193_verified_green_ci/run-44730452579-1/execution.json"})
@@ -215,11 +229,137 @@ def main():
                             for key in ("path", "bytes", "sha256", "git_blob_sha")),
                         "entire actual coercive predecessor identified by the completed low result")
                 files.append(current)
+    if (low_actual["kind"] == "complete_R149_low193_coercive_source_point_continuation_v1"
+            and low_actual["completed_prior_low_defect"]["kind"]
+                == "whole_R142_six_ball_false_branch_with_unchanged_execution_references_v2"):
+        fixed.update({
+            "coercive_source_owner": "scripts/fourfold_codazzi_low_centre_coercive_continuation_owner.py",
+            "signed_loop_provenance_source": "scripts/fourfold_codazzi_low_centre_signed_loop_owner.py"})
+        base_path = TOPIC+"/notes/2026-11-26-low193-parent-moment-inputs.json"
+        if not any(entry["path"] == base_path for entry in files):
+            fixed["original_R142_base_manifest"] = "notes/2026-11-26-low193-parent-moment-inputs.json"
+    if low_actual["kind"] == "complete_R142_low193_neumann_source_point_continuation_v1":
+        fixed.update({
+            "neumann_source_owner": "scripts/fourfold_codazzi_low_centre_neumann_continuation_owner.py",
+            "neumann_admission": "scripts/fourfold_codazzi_low_centre_neumann_prefix_admission.py",
+            "neumann_source_point_proof": "results/R142-supplement-saved-Neumann-source-and-point-continuation.md"})
+        for which, suffix in (("scientific", "actual"), ("execution", "execution"),
+                              ("manifest", "manifest")):
+            prior_spec = low_actual["completed_prior_low_defect"][which]["file"]
+            current = spec("parent_defect_"+suffix, prior_spec["path"])
+            require(all(current[key] == prior_spec[key]
+                        for key in ("path", "bytes", "sha256", "git_blob_sha")),
+                    "the whole direct PS predecessor of the actual NS output")
+            files.append(current)
     for role, path in fixed.items(): files.append(spec(role, TOPIC+"/"+path))
     for _, _, _, a, e, m in predecessors.values(): files.extend((a, e, m))
     require(len({x["path"] for x in files}) == len(files) == len({x["role"] for x in files}),
             "each complete actual input has one unique path and role")
     by_role = {x["role"]: x for x in files}
+    if low_actual["kind"] == "complete_R142_low193_neumann_source_point_continuation_v1":
+        low, low_execution, lm, low_spec, execution_spec, manifest_spec = predecessors["low"]
+        old_by_path = {entry["path"]: entry for entry in lm["files"]}
+        for role in ("neumann_source_owner", "neumann_admission", "neumann_source_point_proof"):
+            record = by_role[role]
+            require(record["path"] in old_by_path
+                    and all(record[key] == old_by_path[record["path"]][key]
+                            for key in ("bytes", "sha256", "git_blob_sha")),
+                    "the exact NS owner, metadata definition and proof used in the actual low outcome")
+        ns_nodes = {node.targets[0].id: node.value for node in
+                    ast.parse((root/by_role["neumann_source_owner"]["path"]).read_bytes()).body
+                    if isinstance(node, ast.Assign) and len(node.targets) == 1
+                    and isinstance(node.targets[0], ast.Name)}
+        ns_parameters = ast.literal_eval(ns_nodes["CERTIFICATE_PARAMETERS"])
+        ns_runtime = ast.literal_eval(ns_nodes["RUNTIME"])
+        require(ast.literal_eval(ns_nodes["KIND"]) == low["kind"],
+                "literal exact NS scientific kind")
+        loader = importlib.util.spec_from_file_location("_physical_NS_metadata",
+            root/by_role["neumann_admission"]["path"])
+        require(loader is not None and loader.loader is not None, "explicit pure NS qualifier")
+        qualifier = importlib.util.module_from_spec(loader)
+        loader.loader.exec_module(qualifier)
+        prior_green = json.loads((root/by_role["directed_prefix_actual"]["path"]).read_bytes())
+        ready = qualifier.admit(low, low_execution, lm, lm,
+            actual_spec=low_spec, execution_spec=execution_spec, manifest_spec=manifest_spec,
+            current_owner_spec=by_role["neumann_source_owner"],
+            current_parameters=ns_parameters, current_runtime=ns_runtime,
+            reference_actual=prior_green)
+        require(ready["remaining_targets"] == [] and ready["whole_point_already_complete"] is True,
+                "all true source4 and whole point targets are complete")
+        parent, parent_execution, parent_manifest = (
+            json.loads((root/by_role[role]["path"]).read_bytes()) for role in
+            ("parent_defect_actual", "parent_defect_execution", "parent_defect_manifest"))
+        require(parent["kind"] == qualifier.STREAMED_KIND,
+                "direct original complete epsilon is a real PS outcome")
+        qualifier.admit(parent, parent_execution, parent_manifest, lm,
+            actual_spec=by_role["parent_defect_actual"], execution_spec=by_role["parent_defect_execution"],
+            manifest_spec=by_role["parent_defect_manifest"], current_owner_spec=by_role["neumann_source_owner"],
+            current_parameters=ns_parameters, current_runtime=ns_runtime, reference_actual=prior_green)
+        require(low["certificate"]["defect"] == parent["certificate"]["defect"]
+                and low["certificate"]["model"] == parent["certificate"]["model"]
+                and low["reference_identity"] == parent["reference_identity"],
+                "the one whole saved original PS six bounds remain unchanged")
+        require(not any(name in sys.modules for name in ("flint", "numpy", "scipy")),
+                "physical readiness performs metadata admission only")
+    if (low_actual["kind"] == "complete_R149_low193_coercive_source_point_continuation_v1"
+            and low_actual["completed_prior_low_defect"]["kind"]
+                == "whole_R142_six_ball_false_branch_with_unchanged_execution_references_v2"):
+        theta, theta_execution, theta_manifest = (
+            json.loads((root/by_role[role]["path"]).read_bytes()) for role in
+            ("coercivity_actual", "coercivity_execution", "coercivity_manifest"))
+        old, old_execution, old_manifest = (
+            json.loads((root/by_role[role]["path"]).read_bytes()) for role in
+            ("parent_defect_actual", "parent_defect_execution", "parent_defect_manifest"))
+        low_manifest = predecessors["low"][2]
+        theta_specs = {entry["role"]: entry for entry in theta_manifest["files"]}
+        cp_spec = next(entry for entry in low_manifest["files"]
+                       if entry["role"] == low_manifest["operation"]["scientific_entry_role"])
+        require(all(cp_spec[key] == by_role["coercive_source_owner"][key]
+                    for key in ("path", "bytes", "sha256", "git_blob_sha"))
+                and all(theta_specs["low_centre_signed_loop_owner"][key]
+                        == by_role["signed_loop_provenance_source"][key]
+                        for key in ("path", "bytes", "sha256", "git_blob_sha")),
+                "actual CP and signed-loop outcomes use these whole reviewed definitions")
+        require(theta["complete"] is True and theta["proved"] is True
+                and theta["failure"] is None
+                and theta["actual_returncode"] == theta_execution["actual_child_returncode"] == 0
+                and theta_execution["scientific_complete"] is True
+                and theta["manifest_sha256"] == theta_execution["manifest_sha256"]
+                    == by_role["coercivity_manifest"]["sha256"]
+                and theta["scientific_modules"] == theta_manifest["operation"]["scientific_module_binding"]
+                and theta["complete_current_file_receipts"] == theta_manifest["files"]
+                and theta_execution["current_input_receipts"] == theta_manifest["files"],
+                "the independent theta result is whole and actually successful")
+        cp_tree = ast.parse((root/cp_spec["path"]).read_bytes())
+        functions = [node for node in cp_tree.body if isinstance(node, ast.FunctionDef)
+                     and node.name == "qualify_saved_false_provenance"]
+        constants = {node.targets[0].id: ast.literal_eval(node.value)
+                     for node in cp_tree.body if isinstance(node, ast.Assign)
+                     and len(node.targets) == 1 and isinstance(node.targets[0], ast.Name)
+                     and node.targets[0].id == "R149_V2_PROVENANCE_SOURCE_SHA256"}
+        require(len(functions) == 1 and set(constants) == {"R149_V2_PROVENANCE_SOURCE_SHA256"},
+                "only the current CP owner's pure qualification adapter")
+        namespace = {"require": require, "ast": ast, "hashlib": hashlib, "copy": copy,
+                     "re": re, "Fraction": Fraction, **constants}
+        exec(compile(ast.Module(body=functions, type_ignores=[]), cp_spec["path"], "exec"), namespace)
+        base_specs = [entry for entry in files if entry["path"]
+            == TOPIC+"/notes/2026-11-26-low193-parent-moment-inputs.json"]
+        require(len(base_specs) == 1, "one whole original77 manifest")
+        base_raw = (root/base_specs[0]["path"]).read_bytes()
+        signed_spec = by_role["signed_loop_provenance_source"]
+        _, provenance = namespace["qualify_saved_false_provenance"](
+            old, old_execution, old_manifest,
+            (root/by_role["parent_defect_manifest"]["path"]).read_bytes(),
+            json.loads(base_raw), base_raw,
+            json.loads((root/by_role["directed_prefix_actual"]["path"]).read_bytes()),
+            theta_manifest, theta_specs, (root/signed_spec["path"]).read_bytes(), signed_spec)
+        require(low_actual["completed_prior_low_defect"] == theta["completed_prior_low_defect"]
+                and theta["completed_prior_low_defect"]["provenance"] == provenance
+                and low_actual["certificate"]["defect"] == old["certificate"]["defect"]
+                    == theta["certificate"]["old_defect"],
+                "the full original-or-PS false outcome is retained without execution or marker upgrades")
+        require(not any(name in sys.modules for name in ("flint", "numpy", "scipy")),
+                "no original or new scientific computation in v2 readiness")
     review = json.loads((root/by_role["reviewed_rules"]["path"]).read_bytes())
     require(all(sha((root/path).read_bytes()) == expected for path, expected in review["readme_sha256"].items()),
             "current root and topic READMEs match the explicit reviewed rules")
@@ -285,7 +425,8 @@ jobs:
         with:
           python-version: '3.12.14'
       - name: Install fixed directed scalar runtime
-        run: python -m pip install --disable-pip-version-check --only-binary=:all: python-flint==0.9.0
+        run: |
+          python -m pip install --disable-pip-version-check --only-binary=:all: python-flint==0.9.0
       - name: Consume actual complete predecessor results
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

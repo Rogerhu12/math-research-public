@@ -165,7 +165,7 @@ G以S/T E1856给physical C²整盘/曲率<2/径长<8e−6及同world position/no
 
 R143 correlated body已全4651；R146全418/13376使当前CV/RA根费格式失败，禁止继续该格式Gram/容量/仅DH细化，不推PDE奇异。R145/R147和[NW](results/R147-supplement-actual-same-window-negative-nu-waist.md)各旧成功锁定；NW只给ordinary零root/无impulse负ν分量，非全误差≤.005。
 
-executor恢复时真实pull/rebase至730de7838，规则无diff；11:20再次断开，根规8 fallback读main/差异继续，恢复立即真实pull。科学只在公开Actions；≤200MB、H/open限制、旧目标禁重及全部失败/unknown保。最终须全部门通过并一次冻结ν*/Γ*/η/metric。
+executor已恢复并实际pull/rebase至e08413ed9，两README无diff、worktree干净；workspace盘满用/tmp克隆。至少每小时pull；再断开则根规8读main/diff，恢复立即pull。公开Actions科学、容量/尺寸、旧成功禁重及全部失败/unknown保，最终须同一次冻结metric与所有门。
 
 [CS新中心完整源](results/R144-supplement-compact-centre-ordinary-and-divergence-residual.md)已证exact ordinary/divergence分解，径向常数Δκ只从angular flux准确消去、仍在ordinary项；原Rv−jR0及ξχ′完整保。五个新局部积分量消费actualρ/b后可执行；first-row H−2/3不免费删角导数，384^1/3费与所有rawjump/physical composition仍保。
 
@@ -173,7 +173,7 @@ executor恢复时真实pull/rebase至730de7838，规则无diff；11:20再次断�
 
 [PS完整父段源积分续接](notes/2026-11-26-R142-streamed-defect-execution.md)：proof/pure/owner/generator全核，复用原worker；85pins/14bindings，真实R142三件与完整原77pins逐件核定。首manifest SHA77eebc42e5aea4870217c628455c608abd0071f8236f0c538170d50f5a23cbf3已实例化并推送启动，0/155已接受积分；每母格三球整件保存读回才推进全输出/193atoms游标。新owner19600s、worker20100s、360min job，旧16800s预算原封保留。已有完整六球优先消费，packet计数不授积分前缀。
 
-R149 signed-loop入口已保原77pins并支持PS完整85pins；原程序在六球保存后、完成标记前失败也只消费原全球，PS则整件核六球/目标/155母格。失败状态不改，原/PS不同scope键分别核实；数学尾和trace/HS/θ/γ五目标均不变。当前真实R142缺球，PS运行中，尚无signed-loop实际manifest或运行。
+R149 signed-loop及[CP/physical](notes/2026-11-26-physical-scalar-execution.md)已接原77/PS85完整来源与NS真四源/point；原程序在六球保存后、完成标记前失败也只消费原全球，PS则整件核六球/目标/155母格。失败状态不改，原/PS不同scope键分别核实；数学尾和trace/HS/θ/γ五目标均不变。当前真实R142缺球，PS运行中，尚无signed-loop实际manifest或运行。
 
 
 

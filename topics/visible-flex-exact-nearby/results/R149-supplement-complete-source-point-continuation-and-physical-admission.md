@@ -2,11 +2,13 @@
 
 2026-11-26，visible-exact-astra-198c63d-20261126 / low_inverse。
 
-本篇提供独立 continuation owner 和必要纯 helper；其前置必须是**真实完成**的 R142 整个 $\varepsilon$ false 分支与真实完成的独立 R149 $\theta<1$ 结果。没有为当前未知输出制造 actual 文件、manifest 或可启动 workflow，没有运行新科学。此处也不把独立 R149 的一个 coercivity 目标冒充完整 source/point 证书。
+本篇提供独立 continuation owner 和必要纯 helper；其前置必须有 R142 或 PS 真正完整保存的六个 defect 球、原 $\varepsilon$ false 门和真实完成的独立 R149 $\theta<1$ 结果。前一执行若在完整六球保存后失败，保留其真实失败状态，由已发布的 R149 v2 完整来源准入证明那六球的资格。没有为当前未知输出制造 actual 文件、manifest 或可启动 workflow，没有运行新科学。此处也不把独立 R149 的一个 coercivity 目标冒充完整 source/point 证书。
 
 ## CP1. 三种独立身份和恰好五个新目标
 
-原 R142 的 kind 为 complete_R142_low193_parent_moment_continuation_v1；本分支要求它 complete=true、proved=false、仅完成其完整 true-coefficient defect，原 saved $\varepsilon\ge1$ 及 strict-low false 原样保留。
+原 R142 的 kind 为 complete_R142_low193_parent_moment_continuation_v1；原准入分支仍要求它 complete=true、proved=false、仅完成其完整 true-coefficient defect，原 saved $\varepsilon\ge1$ 及 strict-low false 原样保留。
+
+新增 v2 来源分支只消费独立 R149 已绑定的 whole_R142_six_ball_false_branch_with_unchanged_execution_references_v2。它允许完整原 R142 false、原 R142 六球已保存而后续执行失败，以及 PS 完整155母格源积分与六球、defect target 已原子保存后失败或正常结束的 false 分支。六球覆盖、193 atoms、1424细格、全部原模型与来源均须全文通过已发布 R149 的同一纯准入；未成的 target、complete/proved、failure 和 returncode 原样保留。实际 R142 的 defect=null 不满足本分支。
 
 独立 [R149](R149-signed-Green-loop-and-symmetric-part-coercivity.md) 的 kind 为 complete_R149_low193_signed_loop_coercivity_v1；其唯一 target 为 complete_same_weighted_body_signed_trace_and_symmetric_part。本篇要求该实际 scientific、execution、manifest 完整成功，且其原 defect、model、refinement、参数、reference identity 和最初七个 source definitions 与前一个完整对象一致。
 
@@ -24,7 +26,7 @@
 
 owner 保留原完整 readonly admission/native restoration、原 WVC 全参数族、真实根、全部155 parent、1424细格、193 moving 坐标、原97/96边界和 actual $S$。未公开的同定义 private carriers 如需再物化，只作为新 source/point 目标必需的内部数据；没有把旧 Green 成功再登记。
 
-原 whole defect 六个 norm/HS scalar 从完整 R142 readback 取得，不调用旧 complete_norm_with_shared_outputs。独立 R149 的 public symmetric_part/resolvent 原件按真实 endpoints 恢复，再绑定同一个 private model token。使用已证 [RL.1–15](R142-supplement-coercive-resolvent-complete-source-and-point-lifts.md)：
+原 whole defect 六个 norm/HS scalar 从合格的完整 R142 或 PS readback 取得，不调用旧 complete_norm_with_shared_outputs。独立 R149 的 public symmetric_part/resolvent 原件按真实 endpoints 恢复，再绑定同一个 private model token。使用已证 [RL.1–15](R142-supplement-coercive-resolvent-complete-source-and-point-lifts.md)：
 
 $$
  b_W=R_+g_B,\qquad a_W=g_A+e_Ab_W,\qquad
@@ -64,7 +66,7 @@ $$
  \tag{CP.4}
 $$
 
-并保留原同格 $O_L,O_R$。其 packet 明确是 point_only_source_covariances_complete，**不含** same_panel_complete_HS2_upper 或 same_panel_both_triangles_in_signed_complete_sum。原完整 norm accumulator 因而不能把它误作新完整 defect HS 输入。原 scalar HS/atoms 仍只读 R142。
+并保留原同格 $O_L,O_R$。其 packet 明确是 point_only_source_covariances_complete，**不含** same_panel_complete_HS2_upper 或 same_panel_both_triangles_in_signed_complete_sum。原完整 norm accumulator 因而不能把它误作新完整 defect HS 输入。原 scalar HS/atoms 仍只读合格的 R142 或 PS 原件。
 
 每个 parent 在同一次 four-source pass 顺带准备这个 point $Z$，共享同一个 H/Q template；各 cell 使用自己的原完整 node frames 和 true $h$。四条新 source 仍使用原完整 GM $Z,Y$ 及两个 signed triangles，没有省掉其任一项。完整 A/B/K output covariance 从 ordinary source packets 准备一次；它们是同一原 Green/S 的 source-independent 数据，并用于四源 batch 和后来的全 point 阶段。
 
@@ -81,7 +83,7 @@ point source covariance 的原有递推仍作用于全部细格、完整 $I_L,I_
 以下三个现有非active后继文件增设明确分支：
 
 - [moment_physical_consumer_math](../scripts/fourfold_codazzi_moment_physical_consumer_math.py)：保原 R141七目标、R142六目标的 strict-$\varepsilon$ admission；新 kind 则核独立 R149成功、原false、全部五个新目标、同 saved $\theta/\gamma/R$、每个 source 的一致public records，以及原193 atoms和全point。
-- [physical_chain_owner](../scripts/fourfold_codazzi_physical_chain_owner.py)：新分支额外全文消费 R142 defect 与 R149 coercivity 各自 actual/execution/manifest，核 exact文件身份、全部原件引用、model/refinement与共同源定义。原 Green prefix仍整体保留。
+- [physical_chain_owner](../scripts/fourfold_codazzi_physical_chain_owner.py)：新分支额外全文消费合格的 R142/PS defect 与 R149 coercivity 各自 actual/execution/manifest，核 exact文件身份、全部原件引用、model/refinement与共同源定义。原 Green prefix仍整体保留。
 - [make_physical_chain_manifest](../scripts/make_physical_chain_manifest.py)：只有上述实际成功的低结果存在，才从其 whole-file references 加入这六个真正前驱文件并生成后继 manifest。不得用未来路径或不存在的actual补齐该分支。
 
 complete_new_scalar_closure 的58个公式和其后完整224 ports/32 WPN算式完全未改；这里只使另一条严格付费的低逆证书进入同一数学消费。58门未过或某前驱未成时，不得运行更后一级。
@@ -106,3 +108,12 @@ complete_new_scalar_closure 的58个公式和其后完整224 ports/32 WPN算式�
 因此旧 WHR 路线的“未知 positive radial head 尚未闭”不能机械保留为这个新逆路线额外欠项。仍必须识别 RNS/FC/BT 的 Poisson/readout 与这个同源、同物理mean/height/jump的正侧 inverse；rough natural 输入按其已经付费的 $\Phi/\Upsilon$ 观察进入 L.24，并保原 rough baseline等级（该文第7节）。完整 negative incoming 的 natural/root/waist有限项、真正参数 Schur以及非线性迭代没有因而自动完成。
 
 32表本身是16输出乘两 Hilbert RHS类型的算子响应上界，不是某两条特定 Newton或$\nu$源大小。完整特定 RHS仍须按 L.24–25组装，才能消费它；最终同对象几何与非线性验收仍按 open 第2–7节的真实条件推进。
+
+
+## CP8. v2 只扩充完整旧六球的来源，不重付数学
+
+source-point owner、metadata generator 和 physical owner 共同复用已发布 R149 owner 的两个纯元数据函数 readonly_decimal_endpoints 与 completed_parent_defect；通过 AST 只取这两个函数及其显式 literal 常数，不导入或执行旧科学入口。被复用的完整源固定为 SHA256 46b11da5fb7430576d8a38555b12f6fa57104dc8effdf2f0b88d11e181afff0b，原始77输入 manifest 和当前全部实际输入仍逐件保留。
+
+新增来源记录必须与真实成功的 R149 certificate 所保存的 provenance 完全相同，包括原 actual/execution 的 kind、run、complete/proved、failure、returncode、targets 和 gate 状态；它不能把原失败执行改成成功。原 six-ball epsilon false、PS 的155完整 source prefix 和真实 saved upper 严格比较均由同一准入重新核验元数据，绝不再次求值积分或矩阵。独立 R149 本身仍必须 whole complete/proved true、child0、全部唯一目标完成。
+
+CP 的五个新数学目标、原16800秒科学资源、全部 source/point 算式和旧原分支不变。physical58 仍只在新的四源/193 atoms/whole point 全部真实成功后准入；v2 未授权跳过任何一项。另一个 NS strict-epsilon 续接入口由其独立[证明](R142-supplement-saved-Neumann-source-and-point-continuation.md)给出，不与本分支混同。
