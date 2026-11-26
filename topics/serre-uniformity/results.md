@@ -1,5 +1,7 @@
 # 结论索引
 
+[R1068](results/R1068-original-small-auxiliary-prime-necklace-point-inputs.md)：全p>37原X在2、3的全部点由五/八个真实椭圆模型及Frobenius固定necklaces取得；twisted Burnside保特殊j全部twists，实际endomorphism严排scalar。准确点数分别为(p+4−2(−2/p)−(−1/p)−2(−7/p))/4及(2p+9−5(−3/p)−3(−11/p)−3(−8/p))/6；原cusps均无有理剩余点。完整norm方程名单与Weil pairing/ζ embedding配准已付，实际函数值/同标签排除仍开。
+
 [R1067](results/R1067-original-cuspidal-labels-supported-only-at-p.md)：原全曲线规范标签无条件只在p支撑；wild相对商与全部cusp/垂直p倍相消已付，包含非整j。regular p实际全局到p-local同构，每盘标签唯一global候选、总数≤p·n_Qp(p)，删旧2/3自由度。圆单位坐标及完全分裂辅助素的全部角色/同一y幂剩余式已给；真实étale twists、visibility与Weil范围扩至所有ℓ≠p。irregular类群与辅助共同像排除仍开。
 
 主要目标尚未解决。以下结论不改变 README 的完成标准。
@@ -10,7 +12,7 @@
 
 ## 新增结论（2026-11-27）
 
-- **R1065（真实局部像与候选压缩已证明）**：[R1066](results/R1066-original-p-local-disks-and-bounded-CM-representatives.md)：全 $p>37$ 原 $\mathbf Q_p$ 每个模 $p$ 圆盘含 canonical CM 点，$0<D'\le4p^{3/2}/\sqrt3$、$p\nmid D'$ 且惰性。原 Frobenius 二元格/指定斜率、模 $p^2$ GM、EP source与所有coarse twists均已付；全部实际局部标签准确由这些有限高次数CM评价给出。非 $\mathbf Q$-CM 断言；同一global标签及辅助共同像仍开。
+- **R1066（有界CM代表已证明）**：[R1066](results/R1066-original-p-local-disks-and-bounded-CM-representatives.md)：全 $p>37$ 原 $\mathbf Q_p$ 每个模 $p$ 圆盘含 canonical CM 点，$0<D'\le4p^{3/2}/\sqrt3$、$p\nmid D'$ 且惰性。原 Frobenius 二元格/指定斜率、模 $p^2$ GM、EP source与所有coarse twists均已付；全部实际局部标签准确由这些有限高次数CM评价给出。非 $\mathbf Q$-CM 断言；同一global标签及辅助共同像仍开。
 
 [R1065](results/R1065-original-p-local-cusp-label-compression.md)：全 $p>37$ 原曲线的 Kummer 标签在每个 $\mathbf Q_p$ 模 $p$ 圆盘恒定；原正则模型/cusp闭包/平凡 $U_m$ 角色齐备。§9用精确类数给实际像 $\le p\,n_{\mathbf Q_p}(p)=O(p^{3/2}\log p)$；regular $p$ 真实global twists候选 $\le p\,n_{\mathbf Q_p}(p)p^{\kappa_p}$，保全2/3角色。R1066已给有界CM局部代表；同一global标签及辅助共同像仍开。 后继R1067将原标签支撑缩至{p}，删去κ自由度。
 

@@ -6,11 +6,11 @@
 
 会话 **Astra-serre-24b8836b-20261126**。本轮已部分克隆并真实pull main，读两README/H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则读至36cf1ed2。不重做已登记结论或窗口。
 
-**公开两README已读提交：ba0d97b94a7fa837c937798dd4fe3542f71eb384**（2026-11-27 07:40 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
+**公开两README已读提交：8ff23903d1228eb1c90151fb5f4674e541e26c91**（2026-11-27 07:52 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
 
-已真实部分克隆/pull；07:01再试仍报无可用执行环境，shell未运行；按根规矩8用连接器小文本同步、读两README差异、带expected_sha非force提交，恢复后立即pull --rebase。拒绝即同步重基再推至成功。令牌仅CLI；根维护main/H/open/index/log，子研究独立稿，每条结论立即推。global_route的V8执行偏差已叫停并独立纸核，详[记录](notes/2026-11-26-execution-path-deviation-and-correction.md)，其输出不作证明/合规窗口。
+已真实部分克隆/pull；07:50再试pull仍报无可用执行环境，shell未运行；按根规矩8用连接器小文本同步、读两README差异、带expected_sha非force提交，恢复后立即pull --rebase。拒绝即同步重基再推至成功。令牌仅CLI；根维护main/H/open/index/log，子研究独立稿，每条结论立即推。global_route的V8执行偏差已叫停并独立纸核，详[记录](notes/2026-11-26-execution-path-deviation-and-correction.md)，其输出不作证明/合规窗口。
 
-H<10KB、open尽量<30KB、每MD<100KB、topic<200MB；无可重算raw、不写根LOG。[本次逐字前态](handoff-archive-2026-11-27-before-p-only-global-labels.md)沿链保全部旧来源/run/hash；[open](open.md)、[索引](results.md)是完整入口。历史“R1003 norm3准备中”未交付，现R1003为范围纠错。
+H<10KB、open尽量<30KB、每MD<100KB、topic<200MB；无可重算raw、不写根LOG。[本次逐字前态](handoff-archive-2026-11-27-before-small-auxiliary-points.md)沿链保全部旧来源/run/hash；[open](open.md)、[索引](results.md)是完整入口。历史“R1003 norm3准备中”未交付，现R1003为范围纠错。
 
 ## 最新全局实际来源
 
@@ -29,6 +29,8 @@ R1035–40 的两行实际 PD、整 $B,Q$ 与全 MW 消去已付；$p5$ 仍先�
 R1018–30原Fm/节点log/非约化运输已成，尺度保原文；H_A/H_Z新支撑仍开。
 
 ## O0：不能省略的全局覆盖
+
+[R1068](results/R1068-original-small-auxiliary-prime-necklace-point-inputs.md)：原2、3全部点由真实五/八模型、twisted Burnside及固定necklaces给出，精确点数已付。原cusps无点；仍须逐点原模单位评价与同标签排除，Frobenius相似类不代函数值。
 
 [R1067](results/R1067-original-cuspidal-labels-supported-only-at-p.md)：全p>37原规范标签只在p支撑；regular p每个local标签唯一global候选，总数≤p·n_Qp(p)，删2/3自由度。所有ℓ≠p的真实覆盖、圆单位与同一y剩余式已付；irregular类群/辅助排除仍开。
 
@@ -60,11 +62,7 @@ R1012/16/17/20/25/27 的未经筛选完整 theta 分布、常平方一及全方�
 
 ## O2：原高近p值
 
-[R1041](results/R1041-original-r2-bare-coefficient-and-Hodge-kernel-norm.md)/[R1048](results/R1048-original-AS-primitive-and-kernel-critical-value-norm.md)：原r2 S^p=−36ρB(c₀,c₀)，保ξnormρ/24、fine12≠d₁。原AS全函数给ν primitive；H′=h²，c₀=−H(b^p)/r modA，全部p次幂歧义逐点res0。canonical J=P/h²，P=G₁/a，a=[b^(p−3)]h²单位；范数=Res∞H^p(h′/h)Pdb。H=H₀+b^pH₁，K=−2H₁/a给原f_N²=A(1)²H₀(1)/(18a)。norm/端点仍开，不扩r8。
-
-R1034原两行bare=单位×[z^m](N/P)与有限递推已成：r2真余式/全分母根和，r8须留多项式部分；完整K共振缺陷不能删。r2另有R1041范数桥，两行总系数单位仍开。
-
-R1015/16、R976–1005原regular/carry/Robert/Hurwitz及K共振缺陷保原结果/逐字归档；低单位不代总高值，分母根/多项式部分不删。R988原r2/p11、r8/p5与mod9 scope完整；旧4008差集R963/991/994至200000已成不重开。
+R1041/48原r2 bare为核范数，实际AS原函数和p-block给端点平方；二者不互代，原尺度/完整留数保结果及逐字前态。R1034两行bare完整有限系数，r8须留多项式部分。R988给原trace与高balanced值准确等价，全部相位、carry、K共振及primitive范围保open；低单位不代高值。旧R963/991/994差集4008点至200000已成不重跑，bare及高近p单位仍开。
 
 ## O4：高度边界保留
 

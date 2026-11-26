@@ -2,7 +2,7 @@
 
 **主要目标仍OPEN。** 完整证明绝对常数C，或给出p→∞完整无CM反例族；有限素数、条件结论、低权/局部Abel/部分子群均不够。
 
-此前逐字状态在[最新open归档](open-archive-2026-11-27-before-p-only-global-labels.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重算。
+此前逐字状态在[最新open归档](open-archive-2026-11-27-before-small-auxiliary-points.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重算。
 
 ## 原最低型：已经付清的输入与准确剩余标量
 
@@ -30,6 +30,8 @@ R1037/40原两行PD、source Fp²/Hermitian、Π²=−p、B整完美与Q=ε⁻²
 R1018–40的原完整Fm/两节点Dickson/PD及好BT整比较均已付，详细角色、相位、尺度与C_*见各结果和逐字归档。p5仍先减Teich、只在好B上施e₁；实际paired块重数一，不是辅助Res的C²。未付的H_A/H_Z新支撑、指定CM横截值与完整高度继续保留。
 
 ## O0：全主目标覆盖（R1003恢复原范围）
+
+[R1068](results/R1068-original-small-auxiliary-prime-necklace-point-inputs.md)：原2、3全部点由真实五/八模型、twisted Burnside及固定necklaces给出，精确点数已付。原cusps无点；仍须逐点原模单位评价与同标签排除，Frobenius相似类不代函数值。
 
 [R1067](results/R1067-original-cuspidal-labels-supported-only-at-p.md)：原规范标签仅p支撑，wild相对商/cusp交数齐备、允许非整j。regular p每个local标签唯一global候选，总数≤p·n_Qp(p)，删2/3自由度。圆单位及所有ℓ≠p的真实辅助式已付，全角色/embedding须同一y；irregular类群与共同像排除仍开。
 
@@ -123,17 +125,9 @@ R972–990的完整AH/Robert/Δ/LT/Cartier/超几何来源、全部相位/阶乘
 
 ## O3：固定低权cohomology与原Igusa投影的边界
 
-本节逐式来源和全部尺度已逐字保存在[本次前态](open-archive-2026-11-26-before-bare-linearization.md)；以下只收束已成输入，不重做。
+完整原整格、q尺度、角色、cusp/SS边界及所有公式见[本次逐字前态](open-archive-2026-11-27-before-small-auxiliary-points.md)与R944/947/950/953/956/961/962。已付的低权对角和弱Frobenius单位只检测真实coker顶，不代命名类所在链底；一般高坐标与指定评价仍开。
 
-R944原Ω_V=6∇Z+6^r r!Ψ_F，Z与R947原有理W的全部SS主部、正KS、相对Frob/Igusa根/1/r!配对均已成。R947实际z_V∈H¹ω^-r非零；R950原低权对角在原两行全部p≥41单位，完整Hecke伴随证明已关闭，不能据此换成高坐标。
-
-R953原正则边界类是Hasse序列δ((G|SS)^(1/p))，完整regular remainder底系数−6^r(r−1)!F_P/B_P与低权V极部不同；原F_r全局注入已证，保相对twist/log cusp。注入不迫指定边界评价非零。
-
-[R956](results/R956-original-trace-as-a-fixed-low-weight-Cartier-edge-pairing.md)给实际E_Bol=Sym^(r−1)H⊗F_X*ω的完整SS/cusp自由核余核，coker有0→H¹ω^(2−r)(−C)→coker_Fr→S_(r+2)→0；K_rY的q系数y_pn^(1/p)。原插值Y_F|SS=r!F^p/B^(p−r−1)及留数给S=6^(r−2)/r〈zV,K_rY_F〉，保λ=mI(cF)^(1/p)/(36d1r!)和升换不变性。r2负δ插值唯一，K2Y_F=αV4、α=([Q^p]Y_F)^(1/p)；原trace单位 iff α≠0，仍开。
-
-[R962](results/R962-original-weight-eight-left-term-and-weight-ten-edge-coordinate.md)已付清r8左项：M8非trivial双线的T5返回U5=92160单位，原CM/U5零primary左项确零；完整S10真投影1−U5/147456给α8=(1−5^9/147456)y_p^(1/p)−y_(25p)^(1/p)/147456，S=(6^6/8)α8〈zV,V10〉。α8升换不变，非零仍未证，不能从coker一维推指定类非零。
-
-[R961](results/R961-actual-weak-Frobenius-unit-and-Cartier-cokernel-top.md)原Scholl弱基[v,g]与增强整格已给φv=p³a_pg、φg=b_pv、a_pg_p≡1modp³，g_pH4(v,v)=93312；原全部cusp/SS/宽6/〈3〉/σ逆根尺度保前态。这个单位只检测实际coker顶F0。命名F位于链底，L≥3时可在Cartier像；不能以低FL单位或抽象height2替代α_F。继续实际高源/Cartier链及除p坐标，消费已成结果。
+R956实际coker含H¹ω^(2−r)(−C)及S_(r+2)，原trace严格为真实edge配对；r2原α=([Q^p]Y_F)^(1/p)仍待非零。R962支付r8左项零及完整T5 projector，α8=(1−5^9/147456)y_p^(1/p)−y_(25p)^(1/p)/147456，保全部尺度和升换不变性。不能从低权coker一维、原全局注入或Scholl顶单位推出指定α非零；继续原高源/除p坐标，不重做已成低权配对。
 
 ## O4：原Abel零集、正秩像与真正高度
 
