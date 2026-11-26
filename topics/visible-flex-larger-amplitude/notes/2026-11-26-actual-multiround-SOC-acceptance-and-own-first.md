@@ -72,3 +72,34 @@ stage66直接读取上述7ebb新场，source `f1220a2e83578bb186ec1043c5dc5fd70d
 纯归因source `c74e66265fc9b231ff32c2873c21a9ef27c8735af84a736b31671ffa25363f7d`，checkout `b7386965014e9b4161710619f104ddd324973841`，实际 6.183340887999293秒、科学数组读取0。全部raw/完整逐点报告只留runner，不上传Git/Release/artifact。参数和实际命令在上述两卷可完整重建。
 
 继续已排同一固定deep目标的真实2×256/完整多轮SOC，先按其真实返回选择细化；保留本7ebb父的全部2752/2737地点，作为真实材料Haar积分与新固定目标的一个已读输入。Haar目标必须由该父完整重新积分，旧physical-mean Phi不可跨目标比较。尚未完成README，不停在本条方向记录。
+
+## 6. Stage70：同一旧方向的完整活动面成本实读
+
+这是对stage63同一已保存report的纯读取，不是新的方向或附加科学迭代。checkout `8d6193ea25c02d4731e53ea3047dc62b32ad5c85`，reader `c74e66265fc9b231ff32c2873c21a9ef27c8735af84a736b31671ffa25363f7d`；所读 report仍为 `749fc0a31661e111f2621619b45da25bf25fe0a53a6feca348c831aa1e221821`、实际末场仍为7ebb。真实stage用时6.251386774998537秒、exit0，没有缺失输出或summary错误。
+
+| 实际字段 | 读数 |
+|---|---:|
+| QP advances / 状态 | 256 / iteration_limit |
+| QP q0 | 0.000055188526612374165 |
+| QP带阻尼qz | 0.0000371201007023315 |
+| 原QP带阻尼模型gain | 0.000018068425910042664 |
+| QP秒数 | 846.3056890749995 |
+| 最长同面advances | 30 |
+| 最大活动面rank | 19 |
+| 最后面advances | 11 |
+| 最后面初Pg | 0.0008772697346487798 |
+| 最后面末/初Pg比 | 0.684117720972524 |
+| 面增加 / 释放次数 | 24 / 5 |
+| 最后换面发生于advance | 245 |
+| 粗Gram构造秒数 | 22.98741999000049 |
+| 额外构造J/J* | 0 / 0 |
+| 全B应用次数 / 秒数 | 358 / 79.12080536601388 |
+| 面准备秒数 | 23.660814978000417 |
+| 面fallback次数 | 0 |
+| 完整8轮SOC秒数 | 191.3292312600006 |
+
+实际粗Gram状态 `prepared_current_mean_fixed_SPD`，constrained-face模式 `constrained_Schur`、v3 fallback=false。原未修正全步真gain=0.00003864044477899632，真曲率产品1.0319682319883439，唯一失败是actual_curvature_filter_failed且无missing checks。最后8轮修正的真实接受仍以第3节完整逐轮读数为准；上表QP qz是原QP含阻尼模型值，不能与SOC qz或true Phi混减。
+
+这些实读同时表明频繁换面和每面有限预算存在；不能把未驻点仅归结为一次Gram/Schur失败，也未证明增加Krylov机制有优势。R681已登记的边界不重做。新的同层deep后继只是扩取原报告已有同类字段，零额外F/J；p4→p8若未来选择，按[同固定g损失与阻尼来源审查](2026-11-26-fixed-target-p-continuation-source-audit.md)建立新基线，当前不换p。
+
+实际纯summary 492921 B / `6681a53f6cd8ad87e70d37cf97ed91302307869ebd010058af1f35bc7e8c5b22`，只留runner；原完整读取请求已完整归档在returned-summary-fields-03，所有实际字段保[第8卷](2026-11-26-public-actions-45762076394-1-part-008.md)。

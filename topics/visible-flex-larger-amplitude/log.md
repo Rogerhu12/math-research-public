@@ -361,3 +361,5 @@
 2026-11-26 10:11:39 UTC — Astra-larger-e4e2a2bf-20261126：普通移出旧outward M128 tight的765788B逐径向系数轨道，保全部小字段/首末row/准确原cf163源/完整参数及固定36cd历史恢复。旧开放prefix范围及M160失败精化不变；完整源无外部输入，当前科学链无依赖。只字节/元数据转录，不科学重做，为并行新构造和真正同g细化保容量。
 
 2026-11-26 10:18:04 UTC — Astra-larger-e4e2a2bf-20261126：独立第二公开job的完整57493编排、request02/必要父链queue02与CPUtorch2.5.1配置直接刊并由push触发；其HANDOFF只写独立slot，原main/science/render/sync AST保持，第一job继续deep/Haar。再生仅为新全SO3的真实输入，不重宣旧结论、旧几何或按SHA造raw；实际run待返。另如实登记stage71本地分数转小数偏差：approx发布前已全部删除，公开只原Actions有理界，后续数值求值仍只Actions，不改规矩追认。
+
+2026-11-26 10:20:54 UTC — Astra-larger-e4e2a2bf-20261126：实际70纯读同一63报告，末面11 advances/Pg比.6841，24加5释放、最长同面30、QP846.306秒、B358次/79.121秒，粗Gram及面无fallback；不把有限预算只归咎单次Schur失败，不重做R681。完整p4→p8同g来源/新基线及符号μ尺度审查刊出：现入口允许显式新μ，禁止跨p自动继承或旧Phi比较，没有统一μ倍率保持全部QP；未数值求任何新μ，当前67/68 max和Phi均降，保持实际p4续算。
