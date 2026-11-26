@@ -240,3 +240,8 @@
 ### 2026-11-26 20:59 Asia/Taipei — R1028 原CM jet的同阶整修正
 - [R1028](results/R1028-original-Igusa-Kummer-model-and-same-order-CM-jet-correction.md)：原p11mod12中心u^m=r^(2g)A_p，完整u^-2 Hodge空间=<1,b,b²>db/u²；实际负δ线b db/u²的CM节点阶2g−2、完整权e0−p−1。整底lift可加π0^(3m+2)Ω_I，经厚度三真节点准确在ε⁴改同一t^(4g−2)dt系数。原ρ/首系数保留；指定Hecke/q_C选择的实际系数仍须求，不能默认零或冒原jet单位。
 - 逐类Kummer阶、全惯性、Hodge lift差和实际node单位均纸核；不把一般lift自由冒指定商自由。12:39 UTC恢复探测仍无执行环境，继续根规矩8小文本同步；两README本次无变化，继续原实际Hecke/整投影。
+
+
+### 2026-11-26 21:31 Asia/Taipei — R1029 原最低惯性型的整分裂
+- [R1029](results/R1029-original-lowest-inertia-type-integral-Hecke-splitting.md)：原p11mod12的完整Nns谱保奇cusp/偶PS；Savitt全部剩余型逐项排τ₁与补块重合，给真实e₁∈T^s⊗Zp及原BT整分裂。special Hodge纯权m，全部原首log保留，R1026负δ首层仍本原；块内同权提升模p唯一，R1028任意提升差投后进p层。实际非齐次CM jet及所选简单商Néron格仍须算，不把p-adic类型块冒Q简单商。
+- global/root及o2纸核完整有限类型、剩余惯性列表、实际split Hecke整幂等与p-可除群延伸；后取特殊crystal/Hodge，保原首log和全部分母。Saito来源审读范围在正文如实列明。无数学程序，两README同步无变化；继续实际CM jet及原同标签/bare条件。

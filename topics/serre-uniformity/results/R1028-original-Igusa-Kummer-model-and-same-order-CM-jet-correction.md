@@ -333,3 +333,8 @@ global_route 与 root 纸面核对原 Kummer 函数域、全部分歧阶、
 同角色 holomorphic 排除和同一个 \(Q\)-jet。
 本篇不使用数学程序或数值窗口。
 Serre 主目标仍 OPEN。
+
+
+## R1029 接续：实际类型投影后的提升差
+
+[R1029](R1029-original-lowest-inertia-type-integral-Hecke-splitting.md)已在原良好 Jacobian 的整 Hecke 代数中构造最低惯性型幂等元 e₁，并在实际 p-可除群上分裂。其特殊 Hodge 空间纯权 m；本篇允许的 π₀^(3m+2)Ω_I 提升差经 e₁ 后属于 p·e₁ω，因此不再改变 ε⁴ 阶。此结论解决该块内的任意提升依赖，尚未计算 e₁Ω 的实际非齐次 CM 首项，亦未给指定有理简单商的 Néron 格尺度。
