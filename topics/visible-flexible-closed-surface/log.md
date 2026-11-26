@@ -176,3 +176,5 @@
 - 2026-11-26 12:09 UTC｜Astra-visible-flex-6a65e705-20261126：[R232](results/R232-new-gap-complete-accurate-terminal-port-bounds.md)完整准确coast P/V/A及角两导差由2048全角盒/六阶Taylor/完整反参证明，127.191s真0；新准确f0整coast已重新消费，末短格须继续支付放大。同步真实whole run45815969723、强第9步和open当前入口；旧日志逐字移入链接归档以保持单MD<100KB。
 
 - 2026-11-26 12:11 UTC｜Astra-visible-flex-6a65e705-20261126：[独立Cartesian v3](notes/2026-11-26-6a65-solver-cartesian-v3-nonzero-resume-check.md)新增自身checkpoint及matching observer续态，完整非零向量/固定g/source/全部13行及basis/grid/recipe/run身份不变，拒步保向量与计数。实际52非零列传承和17个身份拒绝真0，仅接口fixture，不冒新Cauchy或LM；下一实际同job消费者。
+
+- 2026-11-26 12:24 UTC｜Astra-visible-flex-6a65e705-20261126：[R233](results/R233-entire-ramp-accurate-coast-normalization.md)同Γ95有符号arc差与全频primitive，付准确非多项式端口在最后短格的完整放大和归一化链；整16格metric<6.100e−7、κ<9.867915、准确两端C2。2.472s/24.252s真0，明确两类中心区别；继续真实后段全核，不冒闭reach/准确等距。

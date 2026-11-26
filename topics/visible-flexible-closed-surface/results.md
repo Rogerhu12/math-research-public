@@ -5,6 +5,8 @@
 
 ## 新增结论
 
+- [R233：完整16格准确归一化ramp及准确coast接合](results/R233-entire-ramp-accurate-coast-normalization.md)：同Γ95的有符号周长差、全频部分弧长primitive和完整非多项式末端P/V/A，支付真实短Hermite格全部径向放大；整段连续metric<6.100e−7、自身κ<9.867915，两端准确C2。两个新进程2.472s/24.252s真0；未冒全闭核或准确等距。
+
 - [R232：新gap完整准确coast端口连续差](results/R232-new-gap-complete-accurate-terminal-port-bounds.md)：同Γ95及旧全部Γ384端迹，2048全角盒/六阶Taylor差/完整弧长反参两导数给P/V/A九项界；127.191s真0，并明确把新准确椭圆f0纳入整coast重核。短Hermite末格仍须支付径向放大，不直接借前15格。
 
 - [R231：前15格正确去均值的全频角primitive](results/R231-first15-full-frequency-normalization-primitive.md)：同R229准确场全系数整数卷积、完整椭圆解析尾、Bernstein内保1/|k|及q/a加权均值，付全部归一化链后metric<2.936e−7、κ<9.867915，239.682s真0/15格全过；实际均值仍进入比例两导数，末coast修复格另付。

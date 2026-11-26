@@ -6,7 +6,7 @@
 
 完整连通闭C2嵌入连续族、共同g和固定握持开区域；全曲面D下held/D≥.05、含反射δE>0、全时reach/D≥.03、全域全时metric≤1e−6；同一g与全部物理参数下真正网格/频率/时间加密到机器或求解容差，并给完整可复现网格。基础后继续held/D≥.2、δE/D≥.05或严格存在。现有有限结果不冒完成。
 
-- 根/课题README完整读于 `f0548477576caa2373d1626227a284ccfa9767d0`。最近已读公开提交 `33fc4bbb484e3e8bac7420df57070e9400d41c74`（2026-11-26 12:11 UTC真实pull/rebase后，双README逐差均无变化）。根blob282e86b0、题blob e2318baa。每次literal pull立即核双README差异，至少每小时；有变只读差异立即执行，API读不冒pull。
+- 根/课题README完整读于 `f0548477576caa2373d1626227a284ccfa9767d0`。最近已读公开提交 `d73ae2e7dcb72c517d6dfe92a4c5f5356ccfaf4b`（2026-11-26 12:25 UTC真实pull/rebase后，双README逐差均无变化）。根blob282e86b0、题blob e2318baa。每次literal pull立即核双README差异，至少每小时；有变只读差异立即执行，API读不冒pull。
 - 私库QUEUE已认领推 `c7785184d0d9c503852fb2137e9e2c091221d080`，进行中（本会话/2026-11-26）。不重复认领。
 - 每结论立即commit/push；NFF立刻pull --rebase循环到成功，不force或amend已发表提交。完整证明直接登记并加results.md索引；不附加独审/冻结门。全部数组只临时区，不进Git/Release/artifact；只源码/参数/run/hash/标量。MD<100KB、H<10KB、题<200MB；不写根LOG。token只命令环境。
 - 根唯一写main；agents只同级scratch。当前部分clone `/tmp/visible-flex-6a65e705/math-research-public`，同级geometry-work/exact-work/solver-work/cold-cartesian-work。旧历史见[11:15 H](https://github.com/Rogerhu12/math-research-public/blob/a9aaaf7d2fbdc01eb0df3e635d9065c20faac354/topics/visible-flexible-closed-surface/HANDOFF.md)、log和open；不重做已登记结论。
@@ -20,7 +20,7 @@
 - [R226](results/R226-m12-normalized-reference-and-continuous-cartesian-bounds.md)准确中央归一参考有完整全时几何：metric<7.667e−8、reach/D>.03120330、held/D>.05278322、含反射δE>0。全501源cell/10chart片、准确部分弧长/bridge已付。solver W六jet连续检查器已公开；未知W仍须自己的场与全源C_X。
 - R222条件gap/held；新gap1.05/v.045 raw按公开配方重生，ramp/coast master SHA相同，供新证明，恢复不算新结论。
 - R224新Γ95整coast的完整连续域D>.9719、U_t>.9657、.1949<κ<8.893；R225严格周长半宽<3.738e−13、两比例曲线集合差<5.618e−13，后者不代角逆/两jet。
-- [R227](results/R227-new-gap-first15-native-ramp-gram-certificate.md)前15实际quintic格/全部768保存系数全域原生Gram谱误差<1.38e−7、面积>.40322802，35.285s真0。末准确coast修复格、normalized s依赖角逆/曲率仍欠。[R228](results/R228-new-gap-first15-native-own-curvature.md)同raw全15格的自身κ<9.866914，960全域叶/0分裂，32.228s真0；源码已恢复且SHA逐字相同。[R229](results/R229-new-gap-first15-exact-integral-normalization.md)准确积分normalized全链已付，前15格metric<4.112e−6、κ<9.868；[R231](results/R231-first15-full-frequency-normalization-primitive.md)正确q/a去均值、全频1/|k|与完整椭圆尾使同场metric<2.936e−7、κ<9.867915，15格239.682s真0；末格仍欠。[R232](results/R232-new-gap-complete-accurate-terminal-port-bounds.md)完整准确P/V/A端口及角两导差已付，2048角盒127.191s真0；新f0重新核整coast，未借R224窄盒。下一真正末Hermite格。
+- R227/R228付新gap前15格全部768系数原生Gram/自身曲率；R229准确归一化全链、R231全频1/|k|与正确q/a去均值将同场metric降至2.936e−7。R232付新准确f0整coast及全部P/V/A角两导差。[R233](results/R233-entire-ramp-accurate-coast-normalization.md)继续准确terminal primitive与真实末短格全部1/L²，合并后完整16格准确normalized ramp metric<6.100e−7、κ<9.867915，两端准确C2；2.472s+24.252s真0。准确coast缩放中心为常数Fourier项，归一化弧长中心在端λ=1及两导0时消去。下一新gap真实后段和完整闭核；不借字面浮点consumer或whole reach。
 
 ## 实际数值线与正在做的下一项
 
