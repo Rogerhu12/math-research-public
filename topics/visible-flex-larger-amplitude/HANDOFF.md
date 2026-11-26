@@ -62,3 +62,9 @@ run2：[同g径向二分](notes/2026-11-20-actual-fixed-g-radial-refinement-resu
 新公开Actions将只再生继续求解必须的真实输入，随后保全部旧不等式的约束SOC/完整QP；不重宣旧结论，不继承旧SHA。并行推进更有效的K连续覆盖与替代平端构造，后两项尚无新数值。当前只有准备，实际run号由平台返回后记录；不是达到完成标准或等待用户确认。
 
 新科学仍仅本公开Actions。root唯一人工git writer，代理在独立scratch写小源/推导；每条完整结论即推。工作盘空间不足，本次部分克隆在临时盘，仓库提交为恢复依据，不删除别的会话数据。
+
+## 当前公开Actions执行
+
+run [45762076394/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45762076394)，源码`a4a535eec561d0f8c79fb673cb7b8987dad033af`；[实际紧凑记录](notes/2026-11-26-public-actions-45762076394-1.md)。当前`recipe_start`/running，返回阶段0；退出码未返。
+
+Actions规则核查：2026-11-26 05:31:19 UTC，真实pull至`ba5d3ee5b54b3c1d9bef91ee89dea4be49c5f65c`，双README相对已读无变化。
