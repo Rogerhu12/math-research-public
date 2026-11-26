@@ -70,10 +70,14 @@ fine1728×512 η2.216608039e−7，原两直接位置读数2.216686200e−7/2.21
 
 ### 当前新输入与完整原门
 
-[R625原首次全反馈终态](notes/2026-11-27-r620-r625-first-full-feedback-natural-final-agent.md)：run45905314619/job140200536341/source84f5f986，新28.886597651秒/0接受。原R625 D/q、65×19状态、解析seed/真实C²/fixed-fine均已付；首次trial因numpy.bool JSON序列化中断，非stall。初始ODEmax3.95860921e16、fine ruling1.798592718e14/真末1.465946528；LU fraction1.4353266e−31，完整方向/条件数未存不猜。[已发布混合规范新scope](notes/2026-11-27-r625-paid-gauge-coordinate-continuation-agent.md)直接载原state/readout，修机械事故并改等价规范增量坐标/有用阻尼方向；必要未存LD规范和Jac重建计费，不重做D/root/seed/fine。
+[R625首次全反馈](notes/2026-11-27-r620-r625-first-full-feedback-natural-final-agent.md)原28.886597651秒/0接受，D/q/seed/原65×19/C²/fine已付；其机械JSON事故已由新混合图续算修复，不重跑旧输入。[混合图原自然终态](notes/2026-11-27-r625-paid-gauge-coordinate-natural-final-agent.md)run45910265752/job140216665730/source44e4af62；190.431593844秒另preload.30223763秒，27接受/122域拒绝/28Jac/36LSMR×1600。原ODEmax4.969070508e15，fine真ruling9.279361316e13/真末max.5412338214，全部门未过。
+
+真实混合state26152B SHA7ff110e6754e1e8311e86bb975328ef6b9b2453c21a6f7281ec8a96fd469b59a及LD锚已输出，L=2.1000000000449615到原下盒；H/v/β均内点，末trust2.5e−9、damp1.234567901234568e−5，自然stall非clock。首LU线性余量小而物理截步不可用，LSMR有真下降；不可补造全部病态已解。末inherited报告布尔默认bug已据原27真读数+1fine准确辨明，不改数值或重放资格。
+
+后继在同盒组织活跃L的完整行方向：真实向外且截步不可用时准确ΔL=0，当前精确L不吸附，向内方向可释放。新算法信赖半径可明确.25重启，保原末trust/全费用；载本次state/锚/真coarse/fine不重初图，原末十增量与所有原方程不删。
 
 
-[R619](results/R619-free-center-leading-energy-and-true-memory-local-flow.md)给非prepared自由奇中心真M首层局部流；C1/C2全程常数，局部正则不授返回。[R624](results/R624-free-center-terminal-constants-and-compatible-analytic-input.md)已证具体全盒/动能余量/唯一首层端常数支。[R625](results/R625-true-terminal-acceleration-and-tail-flat-compatible-input.md)原尾M完整因式给两条准确平方二阶末门及必要负符号；增量乘cos²u保中心j、准确消尾增量二阶，最高43/速度245/54。新D/q必须按新函数评价，不能借旧R624 q。整个参数区间尾模板T<−2131/4800，仍不解两条平方等式、真A末、沿途首层或finiteε ruling。新helper只复用准确矩与成本壳，旧D/q不执行；已接正式原十九态BVP。
+[R619](results/R619-free-center-leading-energy-and-true-memory-local-flow.md)给非prepared自由奇中心真M首层局部流；C1/C2全程常数，局部正则不授返回。[R624](results/R624-free-center-terminal-constants-and-compatible-analytic-input.md)已证具体全盒/动能余量/唯一首层端常数支。[R625](results/R625-true-terminal-acceleration-and-tail-flat-compatible-input.md)原尾M完整因式给两条准确平方二阶末门及必要负符号；增量乘cos²u保中心j、准确消尾增量二阶，最高43/速度245/54。该新D/q已按新函数实际支付并保原收据，不能借旧R624 q，也不再重跑作新入口。整个参数区间尾模板T<−2131/4800，仍不解两条平方等式、真A末、沿途首层或finiteε ruling。新helper只复用准确矩与成本壳，旧D/q不执行；已接正式原十九态BVP。
 
 [R626](results/R626-terminal-positive-quadrics-and-complete-intersection.md)已将R625完整两尾平方式化为两严格正定二次型，给单侧唯一正强度阈值；双方交准确化为≤4次多项式加半角漏点，空/点/重合/相切全保。系数仅用原≤10次真实矩，无新profile积分。[R627](results/R627-joint-terminal-threshold-on-the-true-tail-box.md)再证原尾盒差二次项严格不定、负半平面域非空且强度函数proper；每个真实分支像为闭射线，联合末支存在 iff τ≥τ_joint>0，严格以上2至4点。仍仅满足真实A末/双速度等前提的末点定理，当前未返回态不套用。可据真实待匹配末数据选择末jets，但不能把未返回候选当严格实例或加独立加速度替原反馈。
 

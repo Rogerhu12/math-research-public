@@ -359,3 +359,6 @@
 
 
 - [R627原尾盒两侧末方程的准确联合阈值](results/R627-joint-terminal-threshold-on-the-true-tail-box.md)：**已证明真实末假设下的完整充要条件**；原参考支持/正权给差二次项严格不定及显式负行列式余量，差曲线负半平面上的强度函数proper、每分支像为闭射线。共同末jets存在 iff τ≥τ_joint>0，严格以上2至4点、临界非横截；不把当前未返回曲线当实例或代原十九态全程。
+
+
+- [R625混合规范原自然终态](notes/2026-11-27-r625-paid-gauge-coordinate-natural-final-agent.md)：**实际改善，原根未解、长度下盒stall**；190.431593844秒另来源.30223763秒，27接受使原配点max降至4.96907e15，fine真ruling9.27936e13/真末.541仍未过门。28LU均截步不可用，36完整行LSMR有真下降；L精确2.1000000000449615到原下界，H/v/β内点。原state/LD锚/fine及metadata布尔bug均如实保留，接同盒活跃方向。

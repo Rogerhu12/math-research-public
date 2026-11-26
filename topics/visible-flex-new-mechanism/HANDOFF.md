@@ -5,7 +5,7 @@
 
 ## 1. 授权、规则与继承
 
-公开本次实际pull且根/题README已读至 **0e05f69b7ab68de9092430dc554b0aab346e32ff**；根/题规则相对继承0749a4cc仍为空差异。私库实际pull/根README已读至 **67ef1777c8910b9bfb7ccff27c1c9d832a5d373e**，2026-11-26 23:15:24 UTC空diff；下次不晚于2026-11-27 00:14 UTC。QUEUE唯一仍本会话进行中，原认领09f8b8b54e。
+公开本次实际pull且根/题README已读至 **68bf8fe52432bac7e1005cf98de4104b7b7654dd**；根/题规则相对继承0749a4cc仍为空差异。私库实际pull/根README已读至 **67ef1777c8910b9bfb7ccff27c1c9d832a5d373e**，2026-11-26 23:15:24 UTC空diff；下次不晚于2026-11-27 00:14 UTC。QUEUE唯一仍本会话进行中，原认领09f8b8b54e。
 
 每次pull只读根/题README差异并记SHA，至少每小时；NFF/ref锁立即pull --rebase再推至成功。root独占git和四索引，每条结论即推；科学只公开Actions，本地只纸证/源码及原日志JSON/hash解析。根12不重放已付门；根15不存raw/可重算表，必要新场再生全计费。H<10KB/open<30KB/md<100KB；publisher活跃不改tracked。
 
@@ -39,9 +39,14 @@ R617有限pre+post刚性不授有限误差下界。R618已付同完整E/同均�
 
 R616原自然stall仍为31接受/1753.553893449秒，细四端过但原ruling1.31489e14，eta近边而无系数墙；不再扩旧盒。已证R619真M首层局部流、R620原有限ε三角规范/全Jac、R624唯一支合法输入、R625真实尾M/Vs与必要符号、R626完整两正定尾二次型/四次交与[R627](results/R627-joint-terminal-threshold-on-the-true-tail-box.md)原盒联合正阈值，见open原链接。它们不代整段原根。
 
-[R625首次原终态](notes/2026-11-27-r620-r625-first-full-feedback-natural-final-agent.md)run45905314619/job140200536341/source84f5f986；28.886597651秒/0接受。新D/q已付：q≈.034196522884657424；原65×19状态JSON25413B/SHA0717a6f6、完整seed/C²/固定fine均已付。首次trial因numpy.bool JSON序列化失败，非stall；ODEmax3.95860921e16，原fine ruling1.798592718e14/真末max1.465946528。首LU fraction1.4353266e−31，未落日志的完整方向/条件数不可补造。
+[首次原终态](notes/2026-11-27-r620-r625-first-full-feedback-natural-final-agent.md)28.886597651秒/0接受，D/q/原65×19/seed/C²/fine已付，不重跑；未存LD锚与矩阵的必要重建另计。
 
-[新混合规范续算](notes/2026-11-27-r625-paid-gauge-coordinate-continuation-agent.md)已审发布，从原state/readout续：必要LD规范和矩阵重建计费，旧D/root/seed/fine不重做。保a0，以原unit3967798143562589的两个全程规范增量替j0/f0，原三角盒内等价；明确不可用LU时完整行阻尼LSMR，末10线性增量保持。原19/10参数/8末A+双速度/真历史/全正势/原ruling门全保，18块/576微包/ε1/12000不变。3300秒/180预留，65→129仍须配点门，真曲线门独立；pose/闭材料未付。
+[混合规范真实终态](notes/2026-11-27-r625-paid-gauge-coordinate-natural-final-agent.md)run45910265752/job140216665730/source44e4af62，190.431593844秒+来源.30223763秒；27接受/122域拒绝/28Jac/36LSMR×1600。原ODEmax4.969070508e15，fine ruling9.279361316e13/真末max.5412338214，全部根门未过。实际混合state26152B SHA **7ff110e6754e1e8311e86bb975328ef6b9b2453c21a6f7281ec8a96fd469b59a**，LD锚/原unit与已付fine全存原stdout。
+
+原L=**2.1000000000449615**到下盒，H1.96637/v−.716706/β.29107为内点；末trust2.5e−9/damp1.234567901234568e−5，自然stall非clock。所有LU虽解出但截步不可用；完整行LSMR有真实下降，不冒全部病态消除。FINAL inherited布尔默认错误，实际27新真读数+1fine已付，见收据；不为修metadata重跑。
+
+下一同盒可行活跃L方向，保精确当前L不吸附，向外不可用时同完整矩形行准确ΔL=0，允许真实向内释放；新算法可明确重启trust.25，原末trust账保留。直接载混合锚/state/readout/fine，不重旧初图。原19/10参数/8末A+双速度/真历史/全正势/ruling、18块/576微包/ε1/12000全部保持；65→129仍须原配点门，pose/闭材料未付。
+
 
 ## 7. 当前候选的新完整连续几何
 
