@@ -52,3 +52,13 @@ stage6 b25纯reader真实6.000651554000115秒exit0，产物 `e5fe08d36905cf3c323
 ## 4. 紧接的实际请求
 
 已追加同一6d54完整reader的新fresh输出，请求第一个完整方向的alpha、QP状态/advances/Pg/tolerance、mu、原C/幅度行数、first/last真实试步与trial_count及实际预测量。它只读原report和source，不重复F/J。之后排[宽支撑完整尝试](2026-11-26-zero-closure-narrow-failure-wide-support.md)及其纯reader；新输入只改变六个精确bubble参数和输出目录，全部其余科学argv逐字符串相同，仍拒绝未解根。
+
+## 5. 同一首方向的实际详细归因
+
+公开03b阶段7由原完整6d54 reader正常返回，实际秒数 `6.014455128000009`；同一读出文件仍为 `2e52feaa0142a87cee16ca12256c58a70a9c8a2f247777574a5debe1bb09c3e6`、21661字节，实际source commit为 `e61c4cd60a8e623714afcda45ef920b4ba619c46`。本次只是增加原报告已有标量的公开投影，没有重算方向。
+
+真实接受步长 `0.0078125`，共8次回溯；QP状态 `iteration_limit`、16 advances，末投影梯度 `2550.6296140330887`，原容差 `0.002450868590297488`，活动面0行、最大线性违约0。原选择器预算192，但该方向实际产生28条原几何行，加6条幅度行总计34；没有删除已生成的原约束。行缓存362676640字节、重复前缀缓存0。QP实际399.32366009399993秒、完整方向699.7715167929999秒；QP J/Jtranspose为17/18，完整方向为18/19。
+
+首试alpha1实际Phi未下降，未做完整几何读取，也没有read error；末试alpha1/128实际Phi下降且完整真几何接受。中间6次的拒因不从这两个端点推断，已排[全部8次纯归因参数](../computations/resume-20261126-axisymmetric-all-eight-trials-step.json)。原half objective slope为 `-112.01558056689831`，全步预测Phi变化 `-112.01558083426353`，coordinate step norm `0.051707153464990455`。报告的 `actual_to_full_prediction_ratio=0.015561433810484962` 使用全步预测作分母，不能充作被接受缩步处的模型准确性。末mu仍 `.01`；尚不把更大内层预算选定为下一科学输入。
+
+完整实际命令和所有身份见[阶段7原记录](2026-11-26-public-actions-45820592817-1-part-002.md)。此次有限下降不是QP驻点、固定参数精化或连续度量证书。
