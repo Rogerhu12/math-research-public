@@ -1,0 +1,689 @@
+{
+  "scope": "Actual new M24/631-node v3 lambda .004 one-direction diagnostic. Finite binary64 observations and scalar arithmetic only; no new accepted Newton step, BVP success, full-Jacobian validation, or complete surface.",
+  "maintainer": "Astra-held10-06bbeb39-20261126",
+  "source": {
+    "repository": "Rogerhu12/math-research-public",
+    "path": "topics/visible-flex-held-10pct/ci/live-probe-result.json",
+    "commit": "4a1461933362bea135d4439076c0748eee803ece",
+    "blob_sha": "bb34f87c683429053b37a25f1e1423db8db1d83a",
+    "run_id": 45806625263,
+    "job_id": 139863475211,
+    "recovery_source_sha256": "5ab5b0a2b485e9de8ff4c4dbb25601867eae6bdc3cb99ac8c4734ed139e1624c",
+    "diagnostic_source_sha256": "d9b3a7ade73f064f3d07ebfef361c0e07e12cba4c6f461ff5fc0ae05b40809d8",
+    "full_report": {
+      "path": "/home/runner/work/_temp/held10-probe/fresh-one-direction/one-original-newton-direction/summary.json",
+      "sha256": "ddea2fc58762cedd390fadce340dcb110ad6cf10146df79ad13ce90ce264f828"
+    }
+  },
+  "status": "one_original_collocation_Newton_direction_diagnosed",
+  "original_worker_returncode": 0,
+  "complete_diagnostic": true,
+  "complete_surface": false,
+  "accepted_steps_applied": 0,
+  "solver_invoked": false,
+  "all_21_levels_observed": true,
+  "original_first_passing_exponent": 20,
+  "initializer": {
+    "accepted_source_raw": {
+      "path": "/home/runner/work/_temp/held10-probe/fresh-one-direction/v3-zero-control-anchor/reexpressed-raw.npz",
+      "sha256": "a8b69738fd4677347475e879ed085c0b5bd29fc140d835f3ec0082af7f27c4ab"
+    },
+    "accepted_source_run": {
+      "path": "/home/runner/work/_temp/held10-probe/fresh-one-direction/v3-zero-control-anchor/run.json",
+      "sha256": "f18b57bb34e07b3d89c1a88b4d2b52fc06671c5be4bd7fc3bf0fc928cd89d65e"
+    },
+    "angular": 768,
+    "exact_lift_coefficient": 1,
+    "gauge_q": 0.06,
+    "initial_arrays": {
+      "p": {
+        "dtype": "float64",
+        "sha256": "5d89f056865052bcb89c910d2d62872e029fb273c3db03f8968a52a41593c1b5",
+        "shape": [
+          24
+        ]
+      }
+    },
+    "mean_nodes": 1168,
+    "modes": 24,
+    "nodes": 631,
+    "phase_control_scale": 1,
+    "source_lambda": 0.002,
+    "target_lambda": 0.004
+  },
+  "base_residual": {
+    "collocation": {
+      "finite": true,
+      "l2": 0.0006139780604776365,
+      "maximum_absolute": 0.00012049131911087392
+    },
+    "inlet": {
+      "finite": true,
+      "l2": 1.840407782278957e-13,
+      "maximum_absolute": 1.742356259271105e-13
+    },
+    "terminal": {
+      "finite": true,
+      "l2": 2.3842859306446106e-14,
+      "maximum_absolute": 1.8588388961006245e-14
+    },
+    "total": {
+      "finite": true,
+      "l2": 0.0006139780604776366,
+      "maximum_absolute": 0.00012049131911087392
+    }
+  },
+  "direction": {
+    "controls": {
+      "finite": true,
+      "l2": 18.53133361617966,
+      "maximum_absolute": 6.610210569388513
+    },
+    "fresh_factorizations": 1,
+    "linear_equation_backward_error": {
+      "error": {
+        "finite": true,
+        "l2": 3.1418089006009615e-17,
+        "maximum_absolute": 1.0194908237466398e-17
+      },
+      "largest_error_flat_residual_index": 46086,
+      "measured": {
+        "finite": true,
+        "l2": 0.0006139780604776363,
+        "maximum_absolute": 0.00012049131911087396
+      },
+      "predicted": {
+        "finite": true,
+        "l2": 0.0006139780604776366,
+        "maximum_absolute": 0.00012049131911087392
+      },
+      "relative_l2": 5.117135452945713e-14,
+      "relative_maximum": 8.461114304911235e-14
+    },
+    "merit": {
+      "controls": 343.41032559415027,
+      "state": 0.0010202774853511315,
+      "total": 343.4113458716356
+    },
+    "newton_steps_applied": 0,
+    "original_sign": "trial = base - alpha * direction",
+    "state": {
+      "finite": true,
+      "l2": 0.031941782751611275,
+      "maximum_absolute": 0.0019159738371255168
+    },
+    "state_control_step_sha256": {
+      "dtype": "float64",
+      "sha256": "5a89cd5eb17fbc0e3956cae1cacf25403aa1e1b3c48e7e9ac0e6051625dfd9c9",
+      "shape": [
+        46087
+      ]
+    },
+    "parameter_direction_scalar_summary": {
+      "count": 24,
+      "l1": 76.70912680642444,
+      "l2": 18.53133361617966,
+      "maximum_absolute": 6.610210569388513,
+      "float64_little_endian_sha256": "ac3b59d58b0cee15004794a579955422085d7b68bd3d833965c5969c45f36c30",
+      "regenerable_vector_not_persisted": true
+    },
+    "physical_phase_direction_scalar_summary": {
+      "count": 24,
+      "l1": 76.70912680642444,
+      "l2": 18.53133361617966,
+      "maximum_absolute": 6.610210569388513,
+      "float64_little_endian_sha256": "ac3b59d58b0cee15004794a579955422085d7b68bd3d833965c5969c45f36c30",
+      "regenerable_vector_not_persisted": true
+    }
+  },
+  "trials": [
+    {
+      "exponent": 0,
+      "alpha": 1,
+      "domain_valid": false,
+      "domain_category": "original_core_curvature_or_support_domain",
+      "domain_exception": "FloatingPointError('Warm supported core curvature sample crossed original floor')",
+      "original_armijo_factor": 0.6,
+      "original_armijo_pass": false
+    },
+    {
+      "exponent": 1,
+      "alpha": 0.5,
+      "domain_valid": false,
+      "domain_category": "original_core_curvature_or_support_domain",
+      "domain_exception": "FloatingPointError('Warm supported core curvature sample crossed original floor')",
+      "original_armijo_factor": 0.8,
+      "original_armijo_pass": false
+    },
+    {
+      "exponent": 2,
+      "alpha": 0.25,
+      "domain_valid": false,
+      "domain_category": "original_Frenet_domain",
+      "domain_exception": "FloatingPointError('Adaptive Frenet domain failure: -0.35272678346865394')",
+      "original_armijo_factor": 0.9,
+      "original_armijo_pass": false
+    },
+    {
+      "exponent": 3,
+      "alpha": 0.125,
+      "domain_valid": true,
+      "residual_l2": 0.004060812383009712,
+      "residual_max": 0.0004719016462783064,
+      "merit": {
+        "controls": 69849657774.07892,
+        "state": 6206.447400409849,
+        "total": 69849663980.52632
+      },
+      "original_cost_ratio": 203399406.63065794,
+      "original_armijo_factor": 0.95,
+      "original_armijo_pass": false
+    },
+    {
+      "exponent": 4,
+      "alpha": 0.0625,
+      "domain_valid": true,
+      "residual_l2": 0.0009781565187239475,
+      "residual_max": 0.00011356570036243378,
+      "merit": {
+        "controls": 3045762145.7436585,
+        "state": 298.3346387819824,
+        "total": 3045762444.078297
+      },
+      "original_cost_ratio": 8869137.495581694,
+      "original_armijo_factor": 0.975,
+      "original_armijo_pass": false
+    },
+    {
+      "exponent": 5,
+      "alpha": 0.03125,
+      "domain_valid": true,
+      "residual_l2": 0.0005831426595891494,
+      "residual_max": 0.00011687139370889638,
+      "merit": {
+        "controls": 174232688.09461462,
+        "state": 17.53976286722664,
+        "total": 174232705.63437748
+      },
+      "original_cost_ratio": 507358.6173809885,
+      "original_armijo_factor": 0.9875,
+      "original_armijo_pass": false
+    },
+    {
+      "exponent": 6,
+      "alpha": 0.015625,
+      "domain_valid": true,
+      "residual_l2": 0.000593015677229419,
+      "residual_max": 0.00011864453523328629,
+      "merit": {
+        "controls": 10683956.011024637,
+        "state": 1.0884037393142216,
+        "total": 10683957.099428376
+      },
+      "original_cost_ratio": 31111.252519367703,
+      "original_armijo_factor": 0.99375,
+      "original_armijo_pass": false
+    },
+    {
+      "exponent": 7,
+      "alpha": 0.0078125,
+      "domain_valid": true,
+      "residual_l2": 0.0006058513755931189,
+      "residual_max": 0.00011955891213828555,
+      "merit": {
+        "controls": 684043.6452180333,
+        "state": 0.07127865935960047,
+        "total": 684043.7164966926
+      },
+      "original_cost_ratio": 1991.9077360722458,
+      "original_armijo_factor": 0.996875,
+      "original_armijo_pass": false
+    },
+    {
+      "exponent": 8,
+      "alpha": 0.00390625,
+      "domain_valid": true,
+      "residual_l2": 0.0006107178613300351,
+      "residual_max": 0.00012002287854201692,
+      "merit": {
+        "controls": 48496.67756453584,
+        "state": 0.006070582039790918,
+        "total": 48496.683635117886
+      },
+      "original_cost_ratio": 141.22038837134272,
+      "original_armijo_factor": 0.9984375,
+      "original_armijo_pass": false
+    },
+    {
+      "exponent": 9,
+      "alpha": 0.001953125,
+      "domain_valid": true,
+      "residual_l2": 0.0006125616270760306,
+      "residual_max": 0.00012025654120023394,
+      "merit": {
+        "controls": 4743.369993768567,
+        "state": 0.001501068668246277,
+        "total": 4743.371494837235
+      },
+      "original_cost_ratio": 13.812506639225221,
+      "original_armijo_factor": 0.99921875,
+      "original_armijo_pass": false
+    },
+    {
+      "exponent": 10,
+      "alpha": 0.0009765625,
+      "domain_valid": true,
+      "residual_l2": 0.000613324048692435,
+      "residual_max": 0.0001203737909271506,
+      "merit": {
+        "controls": 966.7745945711049,
+        "state": 0.001090812782294581,
+        "total": 966.7756853838873
+      },
+      "original_cost_ratio": 2.815211835619608,
+      "original_armijo_factor": 0.999609375,
+      "original_armijo_pass": false
+    },
+    {
+      "exponent": 11,
+      "alpha": 0.00048828125,
+      "domain_valid": true,
+      "residual_l2": 0.0006136646540029236,
+      "residual_max": 0.00012043252023246015,
+      "merit": {
+        "controls": 469.3603391119351,
+        "state": 0.0010343757107056661,
+        "total": 469.3613734876458
+      },
+      "original_cost_ratio": 1.3667614047413834,
+      "original_armijo_factor": 0.9998046875,
+      "original_armijo_pass": false
+    },
+    {
+      "exponent": 12,
+      "alpha": 0.000244140625,
+      "domain_valid": true,
+      "residual_l2": 0.0006138247599928446,
+      "residual_max": 0.00012046191097749709,
+      "merit": {
+        "controls": 372.95937362473563,
+        "state": 0.0010233635149959372,
+        "total": 372.96039698825064
+      },
+      "original_cost_ratio": 1.0860456460505536,
+      "original_armijo_factor": 0.99990234375,
+      "original_armijo_pass": false
+    },
+    {
+      "exponent": 13,
+      "alpha": 0.0001220703125,
+      "domain_valid": true,
+      "residual_l2": 0.000613902261090803,
+      "residual_max": 0.00012047661287091374,
+      "merit": {
+        "controls": 350.6400668036437,
+        "state": 0.0010209126542669294,
+        "total": 350.64108771629793
+      },
+      "original_cost_ratio": 1.021052716899356,
+      "original_armijo_factor": 0.999951171875,
+      "original_armijo_pass": false
+    },
+    {
+      "exponent": 14,
+      "alpha": 6.103515625e-05,
+      "domain_valid": true,
+      "residual_l2": 0.0006139403735069242,
+      "residual_max": 0.0001204839654476487,
+      "merit": {
+        "controls": 345.1896127148074,
+        "state": 0.0010203732734928926,
+        "total": 345.1906330880809
+      },
+      "original_cost_ratio": 1.0051812126705633,
+      "original_armijo_factor": 0.9999755859375,
+      "original_armijo_pass": false
+    },
+    {
+      "exponent": 15,
+      "alpha": 3.0517578125e-05,
+      "domain_valid": true,
+      "residual_l2": 0.0006139592701732437,
+      "residual_max": 0.00012048764214341251,
+      "merit": {
+        "controls": 343.8442224983903,
+        "state": 0.0010202702509793868,
+        "total": 343.84524276864136
+      },
+      "original_cost_ratio": 1.0012634902784137,
+      "original_armijo_factor": 0.99998779296875,
+      "original_armijo_pass": false
+    },
+    {
+      "exponent": 16,
+      "alpha": 1.52587890625e-05,
+      "domain_valid": true,
+      "residual_l2": 0.0006139686786207073,
+      "residual_max": 0.00012048948059321767,
+      "merit": {
+        "controls": 343.51353265435705,
+        "state": 0.0010202601058516233,
+        "total": 343.5145529144629
+      },
+      "original_cost_ratio": 1.0003005347495593,
+      "original_armijo_factor": 0.999993896484375,
+      "original_armijo_pass": false
+    },
+    {
+      "exponent": 17,
+      "alpha": 7.62939453125e-06,
+      "domain_valid": true,
+      "residual_l2": 0.0006139733728729757,
+      "residual_max": 0.0001204903998435914,
+      "merit": {
+        "controls": 343.4335056452188,
+        "state": 0.0010202653562056635,
+        "total": 343.434525910575
+      },
+      "original_cost_ratio": 1.0000674993392562,
+      "original_armijo_factor": 0.9999969482421875,
+      "original_armijo_pass": false
+    },
+    {
+      "exponent": 18,
+      "alpha": 3.814697265625e-06,
+      "domain_valid": true,
+      "residual_l2": 0.0006139757175062804,
+      "residual_max": 0.00012049085947508529,
+      "merit": {
+        "controls": 343.4148105385129,
+        "state": 0.0010202705610122698,
+        "total": 343.4158308090739
+      },
+      "original_cost_ratio": 1.0000130599570813,
+      "original_armijo_factor": 0.9999984741210938,
+      "original_armijo_pass": false
+    },
+    {
+      "exponent": 19,
+      "alpha": 1.9073486328125e-06,
+      "domain_valid": true,
+      "residual_l2": 0.0006139768891996807,
+      "residual_max": 0.00012049108929245182,
+      "merit": {
+        "controls": 343.4107918340294,
+        "state": 0.0010202738082429916,
+        "total": 343.41181210783765
+      },
+      "original_cost_ratio": 1.0000013576610314,
+      "original_armijo_factor": 0.9999992370605468,
+      "original_armijo_pass": false
+    },
+    {
+      "exponent": 20,
+      "alpha": 9.5367431640625e-07,
+      "domain_valid": true,
+      "residual_l2": 0.000613977474890561,
+      "residual_max": 0.0001204912042014946,
+      "merit": {
+        "controls": 343.41011465802524,
+        "state": 0.001020275593062814,
+        "total": 343.4111349336183
+      },
+      "original_cost_ratio": 0.9999993857569943,
+      "original_armijo_factor": 0.9999996185302734,
+      "original_armijo_pass": true
+    }
+  ],
+  "directional_differences": [
+    {
+      "alpha": 3.814697265625e-06,
+      "backward_difference": {
+        "error": {
+          "finite": true,
+          "l2": 8.930217913781057e-07,
+          "maximum_absolute": 1.1124822153356405e-07
+        },
+        "largest_error_flat_residual_index": 9273,
+        "measured": {
+          "finite": true,
+          "l2": 0.0006141964937984445,
+          "maximum_absolute": 0.00012049076417497417
+        },
+        "predicted": {
+          "finite": true,
+          "l2": 0.0006139780604776363,
+          "maximum_absolute": 0.00012049131911087396
+        },
+        "relative_l2": 0.0014544848568096894,
+        "relative_maximum": 0.0009232882696818633
+      },
+      "backward_merit_slope": {
+        "additional_factorizations": 0,
+        "finite_difference_observation_only": true,
+        "first_order_armijo_alignment_threshold": 0.2,
+        "ideal_exact_J_alignment": 1,
+        "inverse_direction_error": {
+          "finite": true,
+          "l2": 50.372466135857906,
+          "maximum_absolute": 17.303956226578148
+        },
+        "inverse_directional": {
+          "finite": true,
+          "l2": 31.910490365525824,
+          "maximum_absolute": 10.693745657189634
+        },
+        "normalized_directional_alignment": -1.7117876527697258,
+        "normalized_merit_derivative_estimate": 3.4235753055394516
+      },
+      "centered_difference": {
+        "error": {
+          "finite": true,
+          "l2": 3.1315192172504714e-10,
+          "maximum_absolute": 4.61396913548301e-11
+        },
+        "largest_error_flat_residual_index": 1461,
+        "measured": {
+          "finite": true,
+          "l2": 0.0006139780625660416,
+          "maximum_absolute": 0.00012049132266156448
+        },
+        "predicted": {
+          "finite": true,
+          "l2": 0.0006139780604776363,
+          "maximum_absolute": 0.00012049131911087396
+        },
+        "relative_l2": 5.100376412170732e-07,
+        "relative_maximum": 3.829295894119408e-07
+      },
+      "centered_merit_slope": {
+        "additional_factorizations": 0,
+        "finite_difference_observation_only": true,
+        "first_order_armijo_alignment_threshold": 0.2,
+        "ideal_exact_J_alignment": 1,
+        "inverse_direction_error": {
+          "finite": true,
+          "l2": 2.3724281688856e-05,
+          "maximum_absolute": 1.1226337688796661e-05
+        },
+        "inverse_directional": {
+          "finite": true,
+          "l2": 18.531344059922276,
+          "maximum_absolute": 6.610206786109388
+        },
+        "normalized_directional_alignment": 0.9999990780663053,
+        "normalized_merit_derivative_estimate": -1.9999981561326106
+      },
+      "exponent": 18,
+      "original_analytic_prediction": "J @ direction",
+      "positive_trial_finite": true
+    },
+    {
+      "alpha": 9.5367431640625e-07,
+      "backward_difference": {
+        "error": {
+          "finite": true,
+          "l2": 2.2333602497401358e-07,
+          "maximum_absolute": 2.7804867973422066e-08
+        },
+        "largest_error_flat_residual_index": 9273,
+        "measured": {
+          "finite": true,
+          "l2": 0.0006140325916211408,
+          "maximum_absolute": 0.00012049121733070933
+        },
+        "predicted": {
+          "finite": true,
+          "l2": 0.0006139780604776363,
+          "maximum_absolute": 0.00012049131911087396
+        },
+        "relative_l2": 0.0003637524520017412,
+        "relative_maximum": 0.00023076241656742525
+      },
+      "backward_merit_slope": {
+        "additional_factorizations": 0,
+        "finite_difference_observation_only": true,
+        "first_order_armijo_alignment_threshold": 0.2,
+        "ideal_exact_J_alignment": 1,
+        "inverse_direction_error": {
+          "finite": true,
+          "l2": 12.593292084626983,
+          "maximum_absolute": 4.326053905523269
+        },
+        "inverse_directional": {
+          "finite": true,
+          "l2": 6.030463127355617,
+          "maximum_absolute": 2.2841566638652435
+        },
+        "normalized_directional_alignment": 0.3220435616532899,
+        "normalized_merit_derivative_estimate": -0.6440871233065798
+      },
+      "centered_difference": {
+        "error": {
+          "finite": true,
+          "l2": 1.4160824169684568e-09,
+          "maximum_absolute": 2.1489607702757865e-10
+        },
+        "largest_error_flat_residual_index": 877,
+        "measured": {
+          "finite": true,
+          "l2": 0.0006139780775229393,
+          "maximum_absolute": 0.00012049135261804622
+        },
+        "predicted": {
+          "finite": true,
+          "l2": 0.0006139780604776363,
+          "maximum_absolute": 0.00012049131911087396
+        },
+        "relative_l2": 2.3064055674348265e-06,
+        "relative_maximum": 1.7834984180879878e-06
+      },
+      "centered_merit_slope": {
+        "additional_factorizations": 0,
+        "finite_difference_observation_only": true,
+        "first_order_armijo_alignment_threshold": 0.2,
+        "ideal_exact_J_alignment": 1,
+        "inverse_direction_error": {
+          "finite": true,
+          "l2": 0.0006389428620320728,
+          "maximum_absolute": 0.00022873902815678804
+        },
+        "inverse_directional": {
+          "finite": true,
+          "l2": 18.532000022161363,
+          "maximum_absolute": 6.6104393084166695
+        },
+        "normalized_directional_alignment": 1.0000344754793191,
+        "normalized_merit_derivative_estimate": -2.0000689509586382
+      },
+      "exponent": 20,
+      "original_analytic_prediction": "J @ direction",
+      "positive_trial_finite": true
+    }
+  ],
+  "derived": {
+    "source_commit": "4a1461933362bea135d4439076c0748eee803ece",
+    "blob_sha": "bb34f87c683429053b37a25f1e1423db8db1d83a",
+    "run_id": 45806625263,
+    "job_id": 139863475211,
+    "scope": "Arithmetic on actual finite binary64 diagnostic scalars, not a certified enclosure or full Jacobian validation",
+    "complete": true,
+    "first_passing_exponent": 20,
+    "domains": [
+      {
+        "exponent": 0,
+        "type": "original_core_curvature_or_support_domain",
+        "error": "FloatingPointError('Warm supported core curvature sample crossed original floor')"
+      },
+      {
+        "exponent": 1,
+        "type": "original_core_curvature_or_support_domain",
+        "error": "FloatingPointError('Warm supported core curvature sample crossed original floor')"
+      },
+      {
+        "exponent": 2,
+        "type": "original_Frenet_domain",
+        "error": "FloatingPointError('Adaptive Frenet domain failure: -0.35272678346865394')"
+      }
+    ],
+    "controls_fraction": 0.999997028993079,
+    "state_fraction": 2.9710069210482724e-06,
+    "rows": [
+      {
+        "exponent": 18,
+        "alpha": 3.814697265625e-06,
+        "mu": -1.7117876527697258,
+        "nu": 2.965188563539601,
+        "criterion": -3.423586616836157,
+        "pass": false,
+        "reconstructedRatio": 1.0000130599465058,
+        "observedRatio": 1.0000130599570813,
+        "ratioReconstructionGap": -1.0575540443369391e-11,
+        "observedCriterion": -3.423589389130939,
+        "central_mu": 0.9999990780663053,
+        "central_inverse_error_relative": 1.2802233739731337e-06,
+        "backward_inverse_error_relative": 2.718228075250319,
+        "inverse_amplification_backward": 56406760.30774504,
+        "inverse_amplification_centered": 75759.65543550563,
+        "scalar_curvature_indicator": 710878.8624476669,
+        "centered_Jv_relative": 5.100376412170732e-07,
+        "backward_Jv_relative": 0.0014544848568096894
+      },
+      {
+        "exponent": 20,
+        "alpha": 9.5367431640625e-07,
+        "mu": 0.3220435616532899,
+        "nu": 0.10589774032681257,
+        "criterion": 0.6440870223146247,
+        "pass": true,
+        "reconstructedRatio": 0.9999993857507493,
+        "observedRatio": 0.9999993857569943,
+        "ratioReconstructionGap": -6.2450045135165055e-12,
+        "observedCriterion": 0.644080473924987,
+        "central_mu": 1.0000344754793191,
+        "central_inverse_error_relative": 3.447900329859027e-05,
+        "backward_inverse_error_relative": 0.6795664919786972,
+        "inverse_amplification_backward": 56387195.4204087,
+        "inverse_amplification_centered": 451204.5728241714,
+        "scalar_curvature_indicator": 710888.8502958398,
+        "centered_Jv_relative": 2.3064055674348265e-06,
+        "backward_Jv_relative": 0.0003637524520017412
+      }
+    ],
+    "centered_error_growth": 4.522030103368811,
+    "backward_error_ratio": 3.998556844924655,
+    "backward_inverse_error_ratio": 3.999944239945734,
+    "normalized_curvature_ratio": 0.999985950197181
+  },
+  "interpretation": {
+    "observed_main_mechanism": "Finite-step nonlinear remainder is strongly amplified by the same global inverse. Its backward-difference contribution is approximately first order in alpha, while the centered directional test remains close to the analytic prediction after the same inverse.",
+    "analytic_J_error_established": false,
+    "full_Jacobian_correctness_proved": false,
+    "non_descent_at_zero_established": false,
+    "gross_linear_solve_backward_error_observed": false,
+    "roundoff_or_cancellation_possible_in_centered_small_alpha": true,
+    "relative_contribution_of_every_arithmetic_source_proved": false,
+    "original_failed_run_direction_assigned_to_this_mesh": false,
+    "complete_Cauchy_or_closure_claimed": false
+  }
+}
