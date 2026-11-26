@@ -4,7 +4,7 @@
 
 ## 规则与完整目标
 
-最近规则核查：2026-11-26 17:01:16 UTC，真实pull/rebase至 `80f14454d097ff2a698c41271c7a430d3a8ab03f`，双README相对`3c1d254948af030046d713460a21d74dfa7ec6c7`无差异，授权及规矩继续执行。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
+最近规则核查：2026-11-26 17:04:55 UTC，真实pull/rebase至 `de5320e1a137cb0d7ffb2e9f7cb9c4c9cb66ae7d`，双README相对`80f14454d097ff2a698c41271c7a430d3a8ab03f`无差异，授权及规矩继续执行。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
 
 科学计算仅本公开仓库Actions；早前本地偏差及纠正见[执行记录](notes/2026-11-20-public-actions-execution-correction.md)。root唯一分支写者；代理只scratch及未引用小源blob。每条结论普通commit/push，NFF立即pull --rebase循环再推，不强推。至少每小时pull，每次核双README差异/立即遵新规并记commit。raw只scratch/runner，不入Git/Release/artifact；保完整小源/参数/run/SHA/紧凑结论。题≤200MB、单文件<5MB、MD<100KB、H<10KB、open<30KB。令牌仅瞬时CLI。终端恢复/全部授权保2a7c完整H；真实pull/push，无raw重造。
 
@@ -23,9 +23,9 @@
 
 02同d021/profile0a223/modelad017/normc4b2，[46–48](notes/2026-11-26-actual-parent-interior-restoration-entry.md)真返793b/bb5c，原g已负、metric alpha1/16/16-budget未驻；完整早前来源保notes。[真实49](notes/2026-11-26-actual-run02-cached-SO3-49-and-terminal-boundary.md)174b缓存续返f66c/d2d0，1metric接受/0恢复，max .03662269652/Phi .006640209698、g −4.035176415e−9；2856/2821全点双支保。2216 cache文件真实采用，setup9.95s，原provider缺项回退；新baseline实读，legacy首次绑定不倒填。50未执行，alpha/Pg未知不猜。[完整后退SOC](notes/2026-11-26-normalized-parent-cached-backtracked-soc.md)e716/50a9/01b2/d0ba/3fe4/9e92保所有行/唯一锚与最终记忆复筛；[04](notes/2026-11-26-run02-budget-and-complete-run04-continuation.md)实际45857104277/1已启动，明确再生0f父直接新SOC，非f66继承。
 
-旧deep返9b937ee/993556、max .0126793及自身first bbefd075，Haar bcdcdab/a76c4d、R690–695条件结论和完整全域误差链责任全部保[2a7c完整H](https://github.com/Rogerhu12/math-research-public/blob/2a7c055d3dfd712f6e204bed877b8324c022b785/topics/visible-flex-larger-amplitude/HANDOFF.md)、[results](results.md)及所链notes。旧01后排归因/ownfirst未执行；不能迁证、把partial当全域或把条件定理当任意C²存在。所有新场仍须付全922胞/全尾/全部计算及隐式误差。
+旧deep9b937ee/993556 max .0126793、自身first bbefd075，Haar bcdcdab/a76c4d、R690–695条件结论及完整连续误差链全部保[bd75完整H](https://github.com/Rogerhu12/math-research-public/blob/bd75c8c86fa39ee37fd729a8faf4f52be008838e/topics/visible-flex-larger-amplitude/HANDOFF.md)、results和所链notes。未返归因/ownfirst不回填，不迁证、不冒任意C²存在；新场完整922胞/全尾/浮点和隐式费用仍须实付。
 
-[R696](results/R696-angular-unit-tangents-and-exact-closed-sections.md)准确闭截线/角Gram、中心导数与C²端口已证，E/B待解；[完整角向入口](notes/2026-11-26-R696-angular-unit-complete-entry.md)d2f8/8fa9/7b7c/3654/3d9c已刊排03b。全部1334847自由量/新正范数、固定I/J及真scalar完整尾/实际binary out-width、完整中心s/ss导数与原全筛/历史保，实际三Gram均读；same0f042/6ffc/初H，1×32、rest2×32、mu .01，未接SOC。真实21–22已返4aa387/399ae8，max .5151228969/有限真筛通过，原3d9详细pure已排；准确angularGram不冒数值误差零、驻点或旧空间双射。
+[R696](results/R696-angular-unit-tangents-and-exact-closed-sections.md)/[完整入口](notes/2026-11-26-R696-angular-unit-complete-entry.md)的[真实21/22/25](notes/2026-11-26-actual-R696-angular-unit-direction-21-22-25.md)7b7c/d2f8返4aa387/399ae8：全1334847变量，Phi1156.1555→1156.1339/max .5151229，1615/1550全点真有限g负。QP32 iteration_limit，Pg8825139.66≫tol.08247、全35行；14ray全域内/Phi降/几何已读，前13仅曲率拒、alpha1/8192接受。全内部胞最坏位置保；25的18缺项只因不存在trial14。准确角Gram不冒完整metric/驻点，raw-c Istar d93e不冒原归一化c/H d944，积分误差未包；新norm93e5明示，E/B与连续责任未付。
 
 旧03发布故障与stage7未知结果保[完整记录](notes/2026-11-26-actual-publication-failure-and-complete-recovery.md)，不由03b回填；03b实际45820592817使用3cb1/68a3修复，原科学/字节边界不变。
 
@@ -49,4 +49,4 @@
 
 ## 当前公开Actions执行
 
-01 run45762076394/1已success，真实止77/49followups、11:04:33 UTC准入结束/research_complete=false；后来归因/ownfirst未执行，不编78/79。原全部历史与未返边界保[cd233完整H](https://github.com/Rogerhu12/math-research-public/blob/cd233b9b178729b6a60c46c39039ab218de5313f/topics/visible-flex-larger-amplitude/HANDOFF.md)及所链notes。02同场方向/固定参考缓存、03b曲率预补/SOC、固定moment-Q与角向新构造连续推进；只读实际返回。[队列归档](notes/2026-11-26-complete-followup-parameter-archives.md)保全部旧参数，活动95KB/journal不变。未达全部标准不停。
+01 run45762076394/1真实止77/49followups、11:04:33 UTC准入结束/research_complete=false；后来归因/ownfirst没执行，不编78/79，全部来源保[cd233完整H](https://github.com/Rogerhu12/math-research-public/blob/cd233b9b178729b6a60c46c39039ab218de5313f/topics/visible-flex-larger-amplitude/HANDOFF.md)。03b原integral已明确running，后排完整同端点延拓；04自身再生父后新SOC。[全参数归档](notes/2026-11-26-complete-followup-parameter-archives.md)保完整旧参数/95KB队列边界，未达全标准不停。

@@ -113,7 +113,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 4. 零闭合宽度/半径与旧工作Cz轨迹已登记，[固定Q真实19–20](notes/2026-11-26-actual-fixed-moment-Q-initial-failure-19-20.md)同cd530/初H/05dc依然角5根失败，未产场/Phi/J，不能当不可能证明。[55ad实际23](notes/2026-11-26-actual-03b-supported-chord-pass.md)已完整严格通过三补段/无限尾/全闭角必要式，独立Q和球且仅限本初点/support；原H无此必要障碍，不冒有限控制根存在。继续同原方程残差延拓；[已刊完整新H入口](notes/2026-11-26-explicit-initial-height-fixed-moment-zero-entry.md)；只改新初点自由H，原cd530/Q/g/全部implicit与循环保，尚未选择高度。新Q/新球均不继旧IFT认证。
 
-5. [R696准确角向构造](results/R696-angular-unit-tangents-and-exact-closed-sections.md)和[完整五源入口](notes/2026-11-26-R696-angular-unit-complete-entry.md)已刊并在03b执行。全部1334847自由量/完整中心s、ss导数/固定I与J/J*高度/真实binary端口/原core与反射帽保，新范数明示，真实三Gram全读；准确角恒等式不冒数值G零。首轮1×32/rest2×32、mu .01/原H已真返4aa387/399ae8，max .5151228969、真有限几何通过；详细3d9方向pure已排，未冒驻点，不把零闭合根失败迁为此构造障碍。E/B与全部连续几何继续求解。
+5. [R696准确角向构造](results/R696-angular-unit-tangents-and-exact-closed-sections.md)和[完整五源入口](notes/2026-11-26-R696-angular-unit-complete-entry.md)已刊并在03b执行。全部1334847自由量/完整中心s、ss导数/固定I与J/J*高度/真实binary端口/原core与反射帽保，新范数明示，真实三Gram全读；准确角恒等式不冒数值G零。[实际21/22/25](notes/2026-11-26-actual-R696-angular-unit-direction-21-22-25.md)返4aa387/399ae8，max .5151228969、全有限几何通过；QP32未驻、Pg8825139.66，14ray全Phi降而前13仅曲率拒，alpha1/8192接受，不把零闭合根失败迁为此构造障碍。E/B与全部连续几何继续求解。
 
 6. 真正候选达到足够小误差后，付清自身整面metric≤1e−6、闭连通C²嵌入、固定有内点H与整像20%幅度/含反射δE>0、全t reach≥.03D、同固定问题实际网格和频率精化至机器或原求解容差、多t可复现网格，并正面处理严格存在缺口。完整全胞/节点/corecap/积分/六jet链已刊，所有未付计算误差/隐式条件必须实核；partial或有限点不冒连续。输入不足就换输入/机制，未完成不停，达到后继续提高比例。
 
