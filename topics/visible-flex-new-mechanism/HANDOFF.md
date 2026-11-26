@@ -5,7 +5,7 @@
 
 ## 1. 授权、规则与全部前史
 
-公开本次实际pull且根/题README已读至 **09601895d06d4c15e376f9ffdefac23a5b86486b**；相对继承0749a4cc规则空差异。私库本次实际pull且根README已读至 **a7891a83567e479db246d47684f7aefedd1bb328**；QUEUE认领推送 **09f8b8b54e7cfaabaa635bae5c438c7f1521289a**，本会话进行中。私库最近实际pull约19:27 UTC，下一不晚于20:27 UTC。
+公开本次实际pull且根/题README已读至 **5c4a1a5d82171108150e3f02c5baae4911b252b5**；相对继承0749a4cc规则空差异。私库本次实际pull且根README已读至 **a7891a83567e479db246d47684f7aefedd1bb328**；QUEUE认领推送 **09f8b8b54e7cfaabaa635bae5c438c7f1521289a**，本会话进行中。私库最近实际pull约19:27 UTC，下一不晚于20:27 UTC。
 
 [本次压缩前全文](notes/HANDOFF-before-physical-epigraph-final-20261127.md)及所链[初交接](notes/HANDOFF-inherited-20261127-1f4a61a4.md)保全部旧结论、量词、失败、真实输入与完整费用；移档不重做已付门。[四来源/文献复核](notes/2026-11-27-current-four-source-topics-and-literature.md)固定已读版本及可用范围。
 
@@ -48,6 +48,8 @@ R598同十八正块/576微包宽母、微半宽1/12000、完整正势1、负侧�
 [R609](results/R609-true-integral-histories-and-kinetic-input.md)已付真η/八A/六rho全积分消元，奇中心与一个ζ0链准确从属。[真函数原终态](notes/2026-11-27-r609-true-integral-function-natural-final-agent.md)run45881816067新744.538026459秒，五模四偶78nfev到约1e−16；9/13/17共105接受，原ruling仍1.74e14。真实37q JSON SHAadd6c37a、L3.3491506644355598、冻结unit3967798143562589；固定16×16四端3.40645e−8未合格。
 
 [R612](results/R612-exact-physical-length-elimination-and-three-true-end-integrals.md)给唯一L=√(U/(K−1))和无损三形状端图；[R614](results/R614-complete-two-ruling-global-gauge-projection.md)给两常规范唯一投影/全离解Jac，不逐点除d或m。[细积分原续算](notes/2026-11-27-r614-paid-reduced-function-continuation-implementation-agent.md)run **45885627093**/job140135493248/sourcef3a7faed，19:42 UTC开始：同17模/冻结unit，16×16三端恢复、80步、缓存LD原式重装；末32×16固定L/两规范。先读自然终态，成功seed/低模不重做；pose/全闭几何仍欠。
+
+[R616](results/R616-same-candidate-expanded-box-function-chart.md)已付同真候选零修正扩盒：保全部空间jets/germs，原物理h/k盒内方向不被旧人工饱和压零；纯完整链/几何adapter已备。先读R614自然终态，再据真实边界选择后继，不重拟合成功seed。
 
 ## 7. 全闭面连续几何
 

@@ -426,3 +426,5 @@
 - [R614两完整ruling的全局常规范投影](results/R614-complete-two-ruling-global-gauge-projection.md)：**已证明**四偶共同根上d和m/(2h)的整段列范数必正，两个全程常规范可唯一消元；同权双侧的奇偶正交、不同权完整Gram与完整离解投影Jac均给出。允许m变号，原零点条件/全部历史正势/δH与δL保留，不把逐点规范或根上Schur式代原方程。
 
 - [R615真实位置奇频的连续角证书](results/R615-position-fourier-majorants-and-discrete-primitive-error.md)：**已证明**从同场位置奇频读数、完整Wiener尾、两次有限primitive alias、离散加权均值和连续turning根位移传到实际metric；复位置范数准确使用max(|c_k|,|s_k|)，复用R504原FFT范数。真实径向/ODE/浮点输入仍待支付，配套同场观察未执行且不冒连续认证。
+
+- [R616同一真实候选的严格扩盒函数图](results/R616-same-candidate-expanded-box-function-chart.md)：**已证明**旧接受h/k为新图准确零点入口，值和完整空间二jets同保；有理tanh加法给原物理盒内更宽值域、全程正分母及初始形状方向连续下界，所有中心/末端奇偶germs不变。完整LengthGraph与专用physical adapter待真实后继消费，不授端图/ruling秩或根。

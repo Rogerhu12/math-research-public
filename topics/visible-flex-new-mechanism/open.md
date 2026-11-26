@@ -137,3 +137,5 @@ O4 [真函数首轮自然终态](notes/2026-11-27-r609-true-integral-function-na
 O2b-B 的[R615](results/R615-position-fourier-majorants-and-discrete-primitive-error.md)给真实S奇频的完整连续角预算，复用R606已算系数和R504已证原函数范数；后续同场真实fine读取才能消费，不重跑旧观察，也不免径向/ODE/舍入。
 
 O2b-A [新物理/epigraph原终态](notes/2026-11-27-r582-physical-epigraph-original-terminal.md)已真实降至η6.26231e−5，q SHA f1c8298、243×1536/11025×3072/trust2/pending0；仍未过2.5e−7。从该真态正常续算，末c491 raw只另列warm。新mean对旧参考变化显著，全域几何改用同新mean圆参考并新付紧区间，不借旧q小扰动。
+
+O4 [R616](results/R616-same-candidate-expanded-box-function-chart.md)为原接受函数提供零修正严格同候选扩盒，完整空间jets、germs与真长度/历史链保持。若R614真终态仍贴旧人工tanh值域，可换此新图继续；不扩大R598物理盒，不以同值入口重做成功端点seed或宣称数值改善。
