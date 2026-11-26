@@ -1,0 +1,34 @@
+{
+  "schema": "r150-unit211-one-zero-local-execution-20261126-v1",
+  "session": "Astra-ISP-347c-20261126",
+  "agent": "unit31_general",
+  "dateUTC": "2026-11-26",
+  "source": "2026-11-26-unit-two-plus-one-plus-one-one-zero-347c.py",
+  "sourceSha256": "0ca6f3084ddf37365939534598df77aa8cfa3ba618c6a4fd1d5b7991149a54a4",
+  "command": "python 2026-11-26-unit-two-plus-one-plus-one-one-zero-347c.py > unit211-one-zero-verify.log",
+  "pythonPathOverride": false,
+  "runtime": {
+    "python": "3.12.14",
+    "sympy": "1.14.0"
+  },
+  "returncode": 0,
+  "stdoutSha256": "e67a5241039f645b27dd331953f952dc27f641c81e824c6be7bcb7d002365039",
+  "stdoutBytes": 521,
+  "result": {
+    "elapsedSeconds": 9.863867,
+    "ordinaryISPClaim": false,
+    "peakRssKiB": 63852,
+    "regularFirstGcd": "k^3(k+1)^7(k+2)^2",
+    "regularSecondGcd": "w^18(w-3)(w-1)^2(w+1)^20(w^4-w^3-2w^2-6w-2)^2",
+    "regularSecondResultantDegrees": [
+      69,
+      96,
+      105
+    ],
+    "schema": "r150-unit211-one-zero-20261126-v1",
+    "scope": "p=1,q=0; half weight, t0, h0, all chart denominators, both regular mean surfaces and all resultant fibers",
+    "sourceSha256": "0ca6f3084ddf37365939534598df77aa8cfa3ba618c6a4fd1d5b7991149a54a4",
+    "status": "all_exact_QQ_checks_pass"
+  },
+  "ordinaryISPClaim": false
+}

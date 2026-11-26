@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R150 单位2+1+1恰一条基点配对为零的完整支路为空（2026-11-26，已证明）：** [原物理极线、完整germ与所有mean图](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-one-zero-base-pairing-exclusion.md)排除p≠0,q0及对称情形，六重零/Gram秩论证处理被代数相容式抹去的边界；两一般面用QQ gcd和69/96/105次结式及四次纤维全排。原自足源9.863867秒，保真实执行身份。结合p=q0，只余pq≠0的unit2+1+1。
+
 - **R150 非零秩一第三累积量的完整临界集（2026-11-26，已证明）：** [全部两根族、射影纤维及除子穷尽](results/R150-appendix-rank-one-third-cumulant-complete-critical-classification.md)证明原rankV1临界点必且仅y=a u(s)、H=(a³+4c)u(s)u(s)ᵀ/(6a)、V=c u(s)³，a c≠0；故完整T3及任意方向Bell均零。新增QQ620/648次范数、752/880/960阶门和D8全商代数逆，完整处理重根、合流、降次与∞。高秩V、全局Jacobians幂及普通ISP仍开。
 
 - **R150 三个低接触秩一V族的完整分类（2026-11-26，已证明）：** [完整V贡献、QQ消元与全部射影纤维](results/R150-appendix-rank-one-third-cumulant-three-low-contact-mean-divisor-classification.md)处理Δ_s q_s Δ_t、q_s Δ_t²、q_s²/Δ_t，保B/C的P_y(s)非零贡献；全部存活点同点且完整T3=0。原QQ范数236/248/256、完整余因子门240/255/621及全部有限/∞门已付；丢失源重建后的新执行与旧身份分开。其余四个两根族/穷尽仍需完成。

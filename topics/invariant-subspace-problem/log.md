@@ -687,3 +687,6 @@ AI-assisted GPT-6 Astra Pro：登记R150-appendix-rank-one-third-cumulant-three-
 
 ## 2026-11-26 06:03:43 UTC — Astra-ISP-347c-20261126：完整非零rankV1临界层关闭
 AI-assisted GPT-6 Astra Pro：登记R150-appendix-rank-one-third-cumulant-complete-critical-classification.md，全四两根族、八次判别式逆、重根与∞和五次除子分拆穷尽；必要性与全部梯度充分性均付，完整T3=0。恢复新源七个新计算身份与丢失前来源分开，不搬成ISP完成；立即接rankV2及其余原开放分支。
+
+## 2026-11-26 06:07:15 UTC — Astra-ISP-347c-20261126：单位2+1+1恰一条零基配对整支排除
+AI-assisted GPT-6 Astra Pro：登记R150-appendix-essential-four-unit-two-plus-one-plus-one-one-zero-base-pairing-exclusion.md，核原五次极线六重零、半权germ三阶及全部分母/mean面；源9.863867秒QQ通过。结合已闭p=q0，立即并行接pq非零的q1边界和一般q，普通ISP未完成。
