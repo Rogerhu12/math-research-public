@@ -313,3 +313,5 @@
 - [PA：完整正侧compact–hybrid差及原四block接收](results/R144-supplement-complete-positive-hybrid-adapter-for-compact-centres.md)：保三个ordered primitives、独立meanrank、全S/root97/outer96/point；cross97..160、mean cross0、direct high ordinary/jump0。whole relative speed<1.893e−7；actual core low/high→low<.002130/.003499，16个saved有理比较已过。whole low/high principal/fullSchur仍待。
 
 - [ANP：实际独立真ν particular与全signed腰列](results/R147-supplement-actual-independent-strict-nu-particular-and-signed-column.md)：45893562391/1完整2/2，误差<2.836e−5、194 true/192 raw全保、首incoming严格正；fullν/phase/means未闭。[NH](results/R147-supplement-mean-aware-complete-high-parameter-forcing.md)给含mean泄漏的完整high97 forcing与joint96误差，55/4实际十二scalar入口已齐，旧trial/配对不重。
+
+- [IR：原inverse-density 96行的两种完整残差](results/R149-supplement-complete-inverse-density-row-residuals.md)：b_j正频2j(1−i)，192mode finite trial、4096 directed DFT/1024全head；完整alias/infinite tail/true-map同伦误差，联合H−1/2与L²同对象无额外√96。只给E96*D+^-1 C^-1，A/Θ独立另付；实际入口正接完整IL。

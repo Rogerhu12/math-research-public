@@ -181,9 +181,7 @@ R149 signed-loop与[CP/physical](notes/2026-11-26-physical-scalar-execution.md)�
 
 [JC实际七球](results/R149-supplement-actual-joint-compound-waist-row-error.md)45887337009/1给完整96行误差<8.556891e−5、全homotopy lower>.9836159091670；原DFT/means/alias全保，SC直接消费，不授signed矩阵或fullSchur。
 
-[SB](results/R144-supplement-complete-same-phi-bridge-to-selected-reference.md)原同φ坐标资格/repair/19d*费用保；最新same-metric桥用SM及SMR，真qν−Z仍不借Z。world锚/height/完整GC及最终几何余量须真实闭合。
 
-
-[DC](results/R149-supplement-same-sign-density-compression-and-finite-Theta-rows.md)给C双逆H−1/2≤1与VQ全L²行；[DB](results/R149-supplement-complete-Theta-row-regularity-and-negative-window-density-inverse.md)以true p的C³付H¹dual/C^-1 H−4/3，保CG gain。IL四球入口40/6已齐；Ep/三导actual及alpha signed另付，原means/fullSchur保。
+[DC](results/R149-supplement-same-sign-density-compression-and-finite-Theta-rows.md)给C双逆H−1/2≤1与VQ全L²行；[DB](results/R149-supplement-complete-Theta-row-regularity-and-negative-window-density-inverse.md)以true p的C³付H¹dual/C^-1 H−4/3，保CG gain。IL45896427415/1四球已成；[IR](results/R149-supplement-complete-inverse-density-row-residuals.md)以同一96 signed head付H−1/2/L²全残差，全部alias/tail/true-map/两sign保；actual rows与alpha signed/Θ另付，原means/fullSchur保。
 
 [PA](results/R144-supplement-complete-positive-hybrid-adapter-for-compact-centres.md)保原S/Green/root97/outer96/point与完整四block。whole positive相对speed<1.893e−7，core raw low/high→low<.002130/.003499；cross仅97..160且mean行列0，direct high源/jump0不消返回高响应。下一项是whole low perturbation receiver及直接高principal/Riccati更新，原H1/3源界不能免费吸收一阶项。
