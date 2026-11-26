@@ -256,3 +256,5 @@
 - [R576 准确turning消元与有限高度接口](results/R576-exact-turning-elimination-and-finite-nonlinear-height-interface.md)：**已证明**b,N>0下唯一E设计、二jets的真实E′/残差和准确metric误差；零解凸圈嵌套，给内盘/外C2核心充分门与有限核心通量。仍须实际解高度边值、保持全几何和冻结g精化，非主完成。
 
 - [R580 有限末段缺核与真实共振入口](results/R580-finite-tail-polynomial-kernel-obstruction-and-resonant-seed-interface.md)：**已证明**真实圆背景下β×有限末多项式不能含非零全平linear核；当前8基和loga盒还排p′≠0的C1圆入口。需实际w_eff尾种子/完整端点共振换基，未排强非圆或一般分支，不改判已运行探索。
+
+- [R530 v2公开求积原终态](notes/2026-11-26-r530-v2-public-reduction-receipt-agent.md)：**完整原观察**。run45785471536/job139791021487，19.0664秒child wall；固定profile的局部η、未消history与完整张量同值均≤9.24e−16，24/48/96阶R0仍6.51e16/3.73e14/−4.98e10。不能将代数等价或末一数授稳定小余项；无ODE/有限八根，下一先完整四次平均和C2积分分部。

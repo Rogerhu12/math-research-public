@@ -6,7 +6,7 @@
 
 ## 1. 规则与接手
 
-已部分克隆并实际 `git pull main`，公开根 README、课题 README、HANDOFF、open、results 索引及相关 log/notes 已读。公开已读提交 **5cccfa3bcf448e4d5dece87b556e9019f794cf1c**（2026-11-26 09:05 UTC；本次实际pull后根/题README空差异）；私有根初读 **85fdf1853367ef25c07f3ebdb6ae25c22a3564b8**，随后逐次 pull/rebase 检查根差异，空差异。私有 QUEUE 的本题已改为本会话进行中并成功推送：**9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7**；最后实际pull及规则同blob读至 **beff3c7458835a1397c67704ac9a95d0a4717f12**（2026-11-26 08:52 UTC；磁盘满失败后改稀疏索引，重做actualpull成功，根README空差异、QUEUE仍本会话）。其它课题的并行认领保留。
+已部分克隆并实际 `git pull main`，公开根 README、课题 README、HANDOFF、open、results 索引及相关 log/notes 已读。公开已读提交 **02854ebb5e6d8c45746efc07284de203132ac816**（2026-11-26 09:14 UTC；本次实际pull后根/题README空差异）；私有根初读 **85fdf1853367ef25c07f3ebdb6ae25c22a3564b8**，随后逐次 pull/rebase 检查根差异，空差异。私有 QUEUE 的本题已改为本会话进行中并成功推送：**9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7**；最后实际pull及规则同blob读至 **beff3c7458835a1397c67704ac9a95d0a4717f12**（2026-11-26 08:52 UTC；磁盘满失败后改稀疏索引，重做actualpull成功，根README空差异、QUEUE仍本会话）。其它课题的并行认领保留。
 
 各原观察note保真实双仓pull/规则blob/QUEUE回执；根/题规则均无变化。盘满和失联恢复原记录保于[先前交接](notes/HANDOFF-before-hard-restoration-20261126.md)，历次全文见[几何转向前交接](notes/HANDOFF-before-compact-geometry-20261126.md)及[非线性高度前交接](notes/HANDOFF-before-nonlinear-height-20261126.md)。API读取不冒git pull。
 
@@ -46,7 +46,7 @@
 
 [R573](results/R573-fixed-collar-curvature-and-separated-scale-reach-obstruction.md)仅排原固定资料后δ→0时reach/D→0；净位移闭合、缩放或多消形式阶不能修复，未排新有限输入。[R530完整27态接口](notes/2026-11-26-compact-r530-reduced-endpoint-implementation-agent.md)保3个真实第三投影与4条材料边界。原[开发执行偏离](notes/2026-11-26-r530-local-development-execution-receipt-agent.md)保准确收据，未合格draft不再执行。
 
-[独立v2](notes/2026-11-26-r530-stable-local-field-and-finite-quartic-reduction-agent.md)公开固定profile求原局部η、R482未消history(24)和3×8×8真实张量，run45785471536已自然终态，收据正在登记；代数同值不等于小余项求积稳定，尚无ODE轨道/有限八根。下一用完整四次平均/IBP稳定剩余积分。
+[独立v2原终态](notes/2026-11-26-r530-v2-public-reduction-receipt-agent.md)run45785471536付19.0664秒child wall：局部η/未消history/张量同值误差≤9.24e−16，但固定profile求积24/48/96的R0为6.51e16/3.73e14/−4.98e10，尚未稳定。没有ODE/有限八根；下一先完整四次平均及IBP化为C2再评价。
 
 [R578](results/R578-sixfold-six-node-positive-complete-profile-library.md)已证明新的从起点36完整块：D3六变换、每组六个P6+τP5正节点共同0…10矩，全部位置间距>199/605000，固定微包半宽2e−6与每侧9e−6真collar。保全相位scalar/真实history/Ch<0,Ck>0共同盒；不把旧母轨道/χ搬入新母，有限端根与几何仍须实际支付。
 

@@ -95,7 +95,7 @@ R513同类cap排除、R518固定宽接口、R520/524/527/529原20母的返回障
 
 ### R573：原最后小δ极限违反reach比例，转紧凑输入
 
-[R573](results/R573-fixed-collar-curvature-and-separated-scale-reach-obstruction.md)由真实ruled片形算子与原固定开放collar，得到reach≤ρc=H²+(ξc+Ω)⁻²；首高尾上两个实际表面点给D≥c√R logR/δ−C_R。因此对先固定所有有限资料再δ→0的R544–R570族，reach/D→0，即使第四及高阶以后全部消去仍不达主门。仅限制这个有明确量词的极限，未排全部有限参数/母/其他输入。下一必须控制所有部分位置积分或同步改变最早曲率半径，继续同χ真实history下的紧凑/有限尺度返回；端点净位移为零不足。[27态实际接口](notes/2026-11-26-compact-r530-reduced-endpoint-implementation-agent.md)已明确，保两侧8矩+3个真第三投影、加速度原矩阵及4条材料边界。其[开发本地执行收据](notes/2026-11-26-r530-local-development-execution-receipt-agent.md)只记实际发生的三次有限求积/符号诊断，无ODE/根；源码保为未合格draft。[独立v2](notes/2026-11-26-r530-stable-local-field-and-finite-quartic-reduction-agent.md)已提交公开单job：原局部η解析式、未消第三history的R482(24)和真实3×8×8张量；阶24/48/96仅精化求积，profiles/幅/位置不变。加速度列用原正积分，不从巨大整个值之差提取；没有ODE/优化/根或response rank。
+[R573](results/R573-fixed-collar-curvature-and-separated-scale-reach-obstruction.md)由真实ruled片形算子与原固定开放collar，得到reach≤ρc=H²+(ξc+Ω)⁻²；首高尾上两个实际表面点给D≥c√R logR/δ−C_R。因此对先固定所有有限资料再δ→0的R544–R570族，reach/D→0，即使第四及高阶以后全部消去仍不达主门。仅限制这个有明确量词的极限，未排全部有限参数/母/其他输入。下一必须控制所有部分位置积分或同步改变最早曲率半径，继续同χ真实history下的紧凑/有限尺度返回；端点净位移为零不足。[27态实际接口](notes/2026-11-26-compact-r530-reduced-endpoint-implementation-agent.md)已明确，保两侧8矩+3个真第三投影、加速度原矩阵及4条材料边界。其[开发本地执行收据](notes/2026-11-26-r530-local-development-execution-receipt-agent.md)只记实际发生的三次有限求积/符号诊断，无ODE/根；源码保为未合格draft。[独立v2原终态](notes/2026-11-26-r530-v2-public-reduction-receipt-agent.md)run45785471536的局部η/未消history/张量同值误差≤9.24e−16；固定profiles的24/48/96求积R0仍6.51e16/3.73e14/−4.98e10，不能授稳定小余项或有限根。19.0664秒child wall已登记，没有ODE/rank；下一先完整四次平均及积分分部化为C2再求值，新36块输入另付。
 
 ### R572：同一从起点母已清全部实际微包总通量，继续整个函数
 
