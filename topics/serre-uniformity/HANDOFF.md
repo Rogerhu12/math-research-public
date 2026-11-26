@@ -6,9 +6,9 @@
 
 会话 **Astra-serre-24b8836b-20261126**。本轮已部分克隆并真实pull main，读两README/H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则读至36cf1ed2。不重做已登记结论或窗口。
 
-**公开两README已读提交：263877edd621927c65d4916a62237cc6f6008b23**（2026-11-27 00:37 Asia/Taipei；本次同步两README无差异）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
+**公开两README已读提交：35ddcda5c46248f59b8c85d8595af88a50ce0b2f**（2026-11-27 00:54 Asia/Taipei；真实git pull后两README无差异）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
 
-执行宿主本轮断连；15:42 UTC单次恢复探测仍无环境；下次不早于16:43 UTC。按根规矩8用GitHub小文本原子tree/commit、最新head检查和非force expected-head更新；并发拒绝立即在新head重建循环至成功，保其它会话。终端恢复补pull --rebase。令牌仅此前CLI使用，未存文件/提交。根维护main/H/open/index/log；子研究可建单result未引用候选commit，不更新任何ref或共享状态。每条结论完整审后立即推。19:52纠正：global_route曾违规用会话V8做数学探索，已叫停；已知范围、时长及独立纸面重核见[执行偏差记录](notes/2026-11-26-execution-path-deviation-and-correction.md)。不得把其数字记为证明或合规窗口。
+执行宿主16:44 UTC恢复；原checkout不在新宿主，已重新blob:none/depth1/sparse部分克隆并真实pull --rebase，改回终端git发布。路径/workspace/scratch/24b8836b87e3/math-research-public；仅检出本课题文本。此前断连按根规矩8小文本同步，未force；以后并发拒绝立即pull --rebase/读规则差异再推至成功。令牌只在CLI，不入文件/提交。根维护main/H/open/index/log，子研究写独立scratch数学稿；结论写完立即推。19:52纠正：global_route曾违规用会话V8做数学探索，已叫停；范围、时长及独立纸核见[执行偏差记录](notes/2026-11-26-execution-path-deviation-and-correction.md)，不得以其数字作证明或合规窗口。
 
 H<10KB、open尽量<30KB、每MD<100KB、topic<200MB；无可重算raw、不写根LOG。[本次逐字前态](handoff-archive-2026-11-27-before-complete-CM-coefficients.md)沿链保全部旧来源/run/hash；[open](open.md)、[索引](results.md)是完整入口。历史“R1003 norm3准备中”未交付，现R1003为范围纠错。
 
