@@ -1,11 +1,11 @@
 # 交接：可见振幅的精确闭等距族
 
-维护会话：visible-exact-astra-fb31ed6-20261127；更新：2026-11-26 22:02:11 UTC。
+维护会话：visible-exact-astra-fb31ed6-20261127；更新：2026-11-26 22:09:27 UTC。
 **总任务未完成，持续研究，不等用户回复。**
 
 ## 已读规则、授权与接续
 
-2026-11-27（台北）已 partial+sparse clone 两仓库并 pull main，读根全部规矩、课题README、H/open、当前log及接续notes。公开根/topic规则已读至7dc3fed3b470ac254b3915e24de703660373056b（相对12385db35无diff）；私库21:53pull根规则核至1092e89690665cb110435c777da2103adca540b2，QUEUE接手已推594e561b05a758bd8c02840ca4fbf574cd707436。每次pull核两README差异、至少每小时一次，非FF立即rebase再推。令牌只CLI。当前本地 /workspace/scratch/fb31ed637c77/math-research-public，无AGENTS。
+2026-11-27（台北）已 partial+sparse clone 两仓库并 pull main，读根全部规矩、课题README、H/open、当前log及接续notes。公开根/topic规则已读至fb34f5e0d22fef3199d1c20af2b785378bcc1a78（相对12385db35无diff）；私库21:53pull根规则核至1092e89690665cb110435c777da2103adca540b2，QUEUE接手已推594e561b05a758bd8c02840ca4fbf574cd707436。每次pull核两README差异、至少每小时一次，非FF立即rebase再推。令牌只CLI。当前本地 /workspace/scratch/fb31ed637c77/math-research-public，无AGENTS。
 科学计算用公开Actions；本地可做证明、静态与metadata。根规12取消额外防错审批/独立全件复核流程；新完整证明直接登记，每结论推送。规15保持topic≤200MB、H<10KB，禁止新增可重建大数组。前会话完整H/open以27c422943同路径为准，递归原件与全部范围、失败和未付义务仍在历史，以下不重做旧成功。
 
 ## 同一对象与最终标准
