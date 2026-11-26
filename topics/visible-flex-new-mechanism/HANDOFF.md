@@ -5,7 +5,7 @@
 
 ## 1. 授权、规则与完整前史
 
-公开本次实际pull且根/题README已读至 **2aedf17f1422c9ee8fde20b52a7d29c260b92cd9**；根/题规则相对继承0749a4cc均空差异。私库实际pull/根README已读至 **1a995ebf0c19ea771ef0684a4f22bf94da9a960e**，QUEUE认领提交 **09f8b8b54e7cfaabaa635bae5c438c7f1521289a**；本会话仍唯一进行中，21:00 UTC前再次实际pull且根README空差异，下一不晚于21:58 UTC。
+公开本次实际pull且根/题README已读至 **61893440514f9cbbad7ae4e87ca093659b2f63d7**；根/题规则相对继承0749a4cc均空差异。私库实际pull/根README已读至 **1a995ebf0c19ea771ef0684a4f22bf94da9a960e**，QUEUE认领提交 **09f8b8b54e7cfaabaa635bae5c438c7f1521289a**；本会话仍唯一进行中，21:00 UTC前再次实际pull且根README空差异，下一不晚于21:58 UTC。
 
 [压缩前全文](notes/HANDOFF-before-long-near-pair-20261127.md)及其归档链保存全部旧结论、真实输入、失败/偏离、量词与完整费用；移档不重跑已付门。[四来源与文献](notes/2026-11-27-current-four-source-topics-and-literature.md)保已读版本及用途。
 
@@ -21,11 +21,11 @@
 
 [279正常续算](notes/2026-11-27-r582-physical-pending279-resume-implementation.md)run **45895078668**/job140166868607/source **021c6d790ac7e6e2b163fe9db7870a28f3640ec1**，21:00:36 UTC启动；完整原FINAL/30绑定核合，原driver不动，唯一数值参数243→279，新fine11076先原完整资格。未过stage2.5e−7不增p，目标p=.8/末η≤1e−7；设计mean g仍变化，不冒固定g。原62878端点mesh **0d222bd12ce8a61d0c88264c6fb5c82066f0ca058855b5bf7a670a53b483a991**不变，必要再生完整计费，有限材料与无限核区分。
 
-## 4. B030：原完整物理逆设计
+## 4. B030：真实7371、已闭391与剩余1128
 
-[原终态](notes/2026-11-27-r566-backend-preserving-original-terminal.md)run45883086225/job140126984773/source7923e588，新2372.056416865秒/48Jac/19接受；真81q bb921f60，fine1212×3072/1292定位η.24394558845134018/物理V0。605圈/1355峰/463工作行/1536角，trust.3003387451171875，各1pending；已知费用下界9988.810808117秒，未知祖先费用仍未知。
+[新原终态](notes/2026-11-27-r566-physical-epigraph-original-terminal.md)run **45892179085**/job140157246913/source1530094182，新2370.192668793秒、15metric+1恢复/33Jac；真81q **7371a880eaa603c17191acc747847817dd1e846196ee0d4e74548a125c898513**，1298×3072及1515全峰η **.2277496382670385**、物理V0、margin3.91783e−11在tol内。真实库660圈/1473峰/573工作/1536角，trust.3003387451171875，当前要求fine1322；1298资格不冒1322资格。源bc9原1353已完整补完并接受；新增6coarse/9fine拒绝都是真物理门，恢复一步η上升不冒全程单调。完整已知费用下界12359.003476909998秒，旧未知仍未知。
 
-[新续算](notes/2026-11-27-r566-physical-epigraph-saved-localizer-implementation.md)run **45892179085**/job140157246913/source1530094182，20:35 UTC启动。先在同q/oracle/fine完成未接受bc9的1353原bracket，再采用pending；已付coarse/fine/nested按真身份复用。后续独立抬e仍走原物理门，真η严格下降才接受；raw/BFGS与物理best分轨。全部旧fine永久保留，新定位/FFT完整计费，1024容量不删行，26绑定已全文核；待自然终态。
+末raw **55e30fac8df3438d4e5d627f2c8ac9f867c67357db524e99589009bb8ad6ef36** 未接受：同1322×3072 coarse/fine/nested已付，1519原bracket中391已闭、1128剩余；完整原PARTIAL 325628B/hash f3727616。下一先在同q/fine/oracle5bfa207c继续1128并合并391原峰，再采用5physical/5working pending。旧门不重播、newFFT准备照付，所有旧fine永久保留。原BFGS数组未输出不伪恢复；辅助e提升不冒真η改善。
 
 ## 5. 全奇实际位置与固定完整g
 

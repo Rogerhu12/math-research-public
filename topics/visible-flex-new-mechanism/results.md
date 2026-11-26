@@ -452,3 +452,5 @@
 - [R618固定目标评价与真实零入口](notes/2026-11-27-r618-fixed-target-evaluation-and-zero-entry.md)：**已证明同根导数条件角界及准确入口/修正公式**；完整冻结高度定义同一E，求积只改评价精度；同步转移旧mean六jets，在τ0严格保旧场，τ1经真实高度项支付完整连续core。保括号根与全成本纯接口未执行，原径向/ODE/舍入和全域非线性根未支付。
 
 - [R622更长内蕴近对与同输入reach推论](results/R622-longer-intrinsic-near-pairs-and-same-bound-reach.md)：**已证明完整充分条件**；Kℓ≤5/2时保正弦弦下界及9/(10K)双法弦半径，原参考管投影和远弦条件全保。可用同一已付连续输入另证完整reach并与旧完整证书取max；不混两证书局部项、纯标量helper未执行。
+
+- [B030物理epigraph的真实终态](notes/2026-11-27-r566-physical-epigraph-original-terminal.md)：**数值推进未完成**；原源1353bracket补完，新增15metric+1恢复到真7371/η.2277496382670385/物理V0。已付1298fine与要求1322分列；末55e的391峰完成、1128原bracket未闭，不能按更低fineη提前接受。全部新物理拒绝/费用保留，接原未完队列。
