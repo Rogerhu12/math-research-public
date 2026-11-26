@@ -251,10 +251,157 @@ operate. Neither the nonzero leading coefficient (1005.9) nor the unit cusp
 value (1005.12) is substituted for the varying coefficient in (1005.13).
 
 
-## 5. Dependencies and scope
+## 5. Cusp normalization and the complete residue sum in the original r=2 row
+
+This section retains the original row $p\equiv11\pmod{12}$, $p\ge41$,
+$r=2$, $m=d=\ell-1$. Put $b=B(1)$ and $\kappa=1/(9b^2)$.
+Equations (1005.4) and (1005.9) give
+$\mathscr L_AP=\kappa z^d$.
+
+### 5.1 A permitted change of global continuation
+
+Let $Y=z^\ell B$. Since $\ell\equiv1/3\pmod p$, direct substitution gives
+$
+\mathscr L_A(z^\ell B)=z^\ell\mathscr L_BB=0.
+\tag{1005.15}
+$
+Indeed the coefficient of $z^{-1}B$ is $\ell(\ell-1/3)=0$;
+the new derivative coefficients are $4/3-7z/3$, and the constant term
+is $-\ell(\ell+2/3)-7/144=-55/144$.
+Consequently
+$
+S_\lambda=P+\lambda z^\ell B
+\tag{1005.16}
+$
+has the same nonhomogeneous equation and the same complete $K$ of
+(1005.10). It also agrees with $P$ modulo $z^\ell$, so the actual coefficient
+$
+J=[z^d]QB^2/S_\lambda^2,\qquad
+Q=4+12zB'/B-z/(1-z)
+\tag{1005.17}
+$
+is independent of $\lambda$.
+
+Choose the unique $\lambda_*=-P(1)/b$ and write $S=S_{\lambda_*}$.
+Then $S(1)=0$, while evaluating the equation at $1$ gives
+$
+S'(1)=-\kappa\ne0.
+\tag{1005.18}
+$
+Also $S(0)=1$, and its degree is $d$ if $\lambda_*=0$, or $\ell+k$
+otherwise. Both are less than $p$.
+Every root $\alpha\ne0,1$ of $S$ has multiplicity at most two:
+multiplicity at least three would force
+$\mathscr L_AS(\alpha)=0$, contrary to $\kappa\alpha^d\ne0$.
+No coprimality of $S$ and $B$ is assumed.
+
+### 5.2 The exact cusp residue
+
+Write $t=z-1$, $B=b\sum\beta_jt^j$ and $S=\sum s_jt^j$.
+Their exact differential equations give
+$
+\beta_0=1,\qquad
+\beta_{j+1}=-\frac{(j+5/12)(j+11/12)}{(j+1)^2}\beta_j,
+$
+$
+s_0=0,\qquad
+(j+1)^2s_{j+1}
+=-(j+1/12)(j+7/12)s_j-\kappa\binom dj.
+\tag{1005.19}
+$
+Only $j=0,1,2$ is needed. Since $d\equiv-2/3$, this yields
+$
+B=b\left(1-\frac{55}{144}t+
+            \frac{21505}{82944}t^2+O(t^3)\right),
+$
+$
+S=-\kappa t\left(1-\frac{343}{576}t+
+                \frac{311905}{746496}t^2+O(t^3)\right),
+$
+$
+Q=t^{-1}+\frac5{12}-\frac{385}{3456}t+O(t^2).
+\tag{1005.20}
+$
+Together with $z^{-\ell}=1-t/3+2t^2/9+O(t^3)$, these give
+$
+z^{-\ell}B^2/S^2=
+81b^6t^{-2}\left(1+\frac3{32}t+
+ \frac{187147}{2985984}t^2+O(t^3)\right).
+\tag{1005.21}
+$
+For the actual rational differential
+$
+\nu=z^{-\ell}QB^2/S^2\,dz
+$
+we obtain the full residue at the coincident cusp and denominator root:
+$
+\begin{aligned}
+\operatorname{Res}_{1}\nu
+&=81b^6\left(\frac{187147}{2985984}
+ +\frac3{32}\frac5{12}-\frac{385}{3456}\right)\\
+&=\boxed{-\frac{28853}{36864}b^6.}
+\end{aligned}
+\tag{1005.22}
+$
+All displayed denominators have only the primes $2,3$.
+Furthermore $28853=11\cdot43\cdot61$, so (1005.22) is a unit
+at every prime in this original $r=2$ row: $p\ge41$ and $p\equiv11\pmod{12}$
+exclude all three factors.
+
+One may also verify the same calculation without first multiplying
+the $B^2$ expansion: division in (1005.20) gives
+$
+S/B=-\frac{t}{9b^3}
+ \left(1-\frac{41}{192}t+\frac{57475}{746496}t^2+O(t^3)\right).
+$
+Substitution in $z^{-\ell}Q/(S/B)^2$ yields exactly (1005.22).
+
+### 5.3 The remaining roots cannot be discarded
+
+The finite poles other than zero are contained in
+$\{1\}\cup\{S=0\}$, retaining common roots with $B$ at their actual orders.
+There is no residue at infinity: $\deg S\ge d$ gives coefficient order
+at most $2(k-d)-\ell<-1$.
+Thus the complete residue theorem says exactly
+$
+\boxed{
+J=\frac{28853}{36864}b^6-
+ \sum_{\substack{S(\alpha)=0\\\alpha\ne1}}
+       \operatorname{Res}_{\alpha}\nu.
+}
+\tag{1005.23}
+$
+Each geometric point is counted once, with its actual pole order.
+The unit cusp term is not the full answer.
+
+The existing certified $p=47$ row of R973 gives a concrete check of this
+boundary without a new computation. Its original $c_{45}^-=4$, hence
+$c_{45}^+=43$; the separate report field named original-B is $10$ and must
+not be read as $c_{45}^-$. Here
+$
+b=(-1)^3\,3!/(4/3)_3=34,\quad b^6=3,\quad
+(-32)^{15}/4=31\qquad\text{in }\mathbb F_{47}.
+$
+The unchanged (1005.13) therefore gives $J=12$,
+while (1005.22) gives $\operatorname{Res}_1\nu=45$.
+Consequently
+$
+\sum_{\substack{S(\alpha)=0\\\alpha\ne1}}
+       \operatorname{Res}_\alpha\nu=37\ne0
+       \qquad\text{in }\mathbb F_{47}.
+\tag{1005.24}
+$
+This consumes R973's old certified coefficient and the displayed exact
+identities; it does not rerun that finite point.
+It disproves the claim that the other root residues automatically sum
+to zero after this cusp normalization. It does not disprove possible
+nonvanishing of the complete sum, which remains the required input.
+
+## 6. Dependencies and scope
 
 - [R988](R988-original-pure-balanced-Cartier-contraction-and-high-trace.md) gives the original high-coordinate/whole-trace equivalence.
 - [R990](R990-original-hypergeometric-fixed-r-coefficient.md), especially (990.35), supplies the precisely normalized first resonance and the original fixed-r coefficient formula. All new finite-polynomial identities used here are proved above.
+- [R973](R973-certified-balanced-Kronecker-coefficients-at-four-primes.md), §3: the already certified original $p=47$ coefficient used in (1005.24).
 - [R1003](R1003-global-scope-and-remaining-branches.md) records the distinction between this specified auxiliary source and the full Serre problem.
 
 The remaining assertion is the nonzero coefficient in (1005.13). The unit leading coefficient and the normalized cusp identity do not determine it. Every root of the actual denominator polynomial must remain in a residue argument.

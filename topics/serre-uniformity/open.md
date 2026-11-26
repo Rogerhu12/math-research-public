@@ -56,7 +56,7 @@ R946/951/952原Bol障碍O_r(H)=r!(𝒰H)^p/B^(p−r)|SS、kerO=ker𝒰；whole�
 
 R972–990的完整AH/Robert/Δ/LT/Cartier/超几何来源、全部相位/阶乘/唯一共振及否定的共同标量模型，逐字见[本轮压缩前态](open-archive-2026-11-26-before-R1004.md)。当前准确桥是R988：原S≠0 iff c_(p−r)±单位 iff F_(p−r)(0,−864)非零；高低两坐标不能互代。R990以k=⌊p/12⌋、ℓ=(p+1)/3、m=(p−r)/3<ℓ给c^+_(p−r)=(-32)^m(r−1)![z^m]Qf^(-r)/4；B是实际Jacobi多项式、H=1/((1−z)B²)、f_i=H_i/(1−3i)，且H_ℓ=B(1)^(-2)为单位。不得跨ℓ反除；目标近p系数仍未知。R975原heat整性、R976原生成元、R985除p carry、R986原有理LT jet、R987实际Poincare首分母均只消费已成结论；R983四点的factorial共同ξ模型已否定，旧窗口不重跑。
 
-[R1005](results/R1005-finite-Gauss-companion-and-complete-resonance-defect.md)给指定有限P=截断A至d=ℓ−1、C_i=B_i/(3i+1)：完整Wronskian(1−z){PB+3z(PB′−P′B)}=1−z^ℓC/B(1)²，P_d=−16/(7B(1)²)、C(1)=B(1)²。原c^+_(p−r)=(-32)^m(r−1)![z^m]QB^r/P^r/4；全部有限P根的留数须保，不能用单位首项或cusp代目标。继续精确全留数和；无新扫描。
+[R1005](results/R1005-finite-Gauss-companion-and-complete-resonance-defect.md)给指定有限P=截断A至d=ℓ−1、C_i=B_i/(3i+1)：完整Wronskian(1−z){PB+3z(PB′−P′B)}=1−z^ℓC/B(1)²，P_d=−16/(7B(1)²)、C(1)=B(1)²。原c^+_(p−r)=(-32)^m(r−1)![z^m]QB^r/P^r/4；全部有限P根的留数须保，不能用单位首项或cusp代目标。继续精确全留数和；无新扫描。 补充§5在原r2行取S=P−P(1)z^ℓB/B(1)，尖点留数准确−28853B(1)^6/36864且恒为单位；其余全部S根仍须保。旧47给J12、cusp45、其余总和37，否定自动相消，不代全和非零。
 
 [R989方法](notes/R989-original-r8-sparse-heat-and-Kronecker-window-method.md)/[R991回执](results/R991-certified-original-r8-balanced-window-through-20000.md)：真正新r8 1000<p≤20000共349点全非零，run44755320789成功1.998924778s；1013/1049原三路与每p首resonance一致。payload245369B SHAfea55f009c33e1b120e50c1fd9ff2a23aba25c999d863f506a72105fabfb86aa，全部source/方法/receipt在结果和逐字归档。R988只给该有限集原S单位，已完不重跑。
 

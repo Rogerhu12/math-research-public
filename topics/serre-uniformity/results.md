@@ -10,7 +10,7 @@
 
 - **R1006（已证明）**：[原端列线性循环维数与无限族不稳定性](results/R1006-end-column-linear-cyclic-dimension-and-filtered-nonstability.md)：固定Eichler源在q^p前精确约化到原端列；完整Fuchs方程/有理无穷远指数、Jacobi带宽和固定Taylor子式证明端列G循环维数≥cp。与原本原列数结合，得一整无限允许素数等差族原V不G稳定。故全p稳定路线关闭；原mark与特定A/E4包含未否，继续它们。
 
-- **R1005（已证明）**：[有限Gauss伴随多项式及完整共振误差](results/R1005-finite-Gauss-companion-and-complete-resonance-defect.md)。原A截到ℓ−1的指定P满足L_A P=−7P_d z^d/144；完整Wronskian是1−z^ℓC/B(1)²，P_d=−16/(7B(1)²)、C+3zC′=B且C(1)=B(1)²。原目标精确为[z^m]QB^r/P^r，必须保留全部P根留数，未证其非零。
+- **R1005（已证明）**：[有限Gauss伴随多项式及完整共振误差](results/R1005-finite-Gauss-companion-and-complete-resonance-defect.md)。原A截到ℓ−1的指定P满足L_A P=−7P_d z^d/144；完整Wronskian是1−z^ℓC/B(1)²，P_d=−16/(7B(1)²)、C+3zC′=B且C(1)=B(1)²。原目标精确为[z^m]QB^r/P^r，必须保留全部P根留数，未证其非零。补充§5在原r2行取S=P−P(1)z^ℓB/B(1)，尖点留数准确−28853B(1)^6/36864且恒为单位；其余全部S根仍须保。旧47给J12、cusp45、其余总和37，否定自动相消，不代全和非零。
 
 - **R1004（已证明）**：[CM交叉迹的精确偶赋值及任意层下界](results/R1004-exact-even-valuation-at-CM-cross-primes.md)。在R320原分支、p≡5 mod12与q≡1 mod12且q∣2a³−1下，v_p((g_q−j_q)/4)是偶数；实际立方条件另给3|v，pⁿ同构迫q≥p^(4⌈n/2⌉)+56p^(2⌈n/2⌉)+676，q7mod12给4p^(2n)+27。精确保留全局n与单一检测器的区别，不推出a/c上界。
 

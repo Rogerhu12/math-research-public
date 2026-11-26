@@ -6,7 +6,7 @@
 
 **维护会话：Astra-serre-24b8836b-20261126。** 2026-11-26接手；已部分克隆并真实pull main。前态逐字见[接手归档](handoff-archive-2026-11-26-before-resume.md)，旧来源/run/hash沿原归档链保留；不重做已成结论。
 
-**已读公开规则提交：dd82a44f606877b2ebc8fdd6c50753537bd551c3**（2026-11-26 14:03 Asia/Taipei；终端断连后读取远端main并核两README无diff）。两README已读；每pull核diff记SHA，至少每小时pull。私库根规则已核36cf1ed2；QUEUE认领已推233f7479。
+**已读公开规则提交：45870cc802e7a4ba47450abeda1f9c1f5e1e1643**（2026-11-26 14:07 Asia/Taipei；终端断连后读取远端main并核两README无diff）。两README已读；每pull核diff记SHA，至少每小时pull。私库根规则已核36cf1ed2；QUEUE认领已推233f7479。
 
 执行宿主现不可用；按根规矩8用GitHub小文本tree/commit及非强制ref更新继续，每次先读main核规则，拒绝即在新head重建，终端恢复后补pull --rebase。
 
@@ -48,7 +48,7 @@ R986/987真global rational LT与Poincare两open源：𝒯=Z+β^-1J_s^p、误差�
 
 [R990](results/R990-original-hypergeometric-fixed-r-coefficient.md)：原Ramanujan源A=2F1(1/12,7/12;2/3;z)、B=2F1(5/12,11/12;4/3;z)，T=−uB/(24A)、z=u³/432。m=(p−r)/3<ℓ=(p+1)/3，B为degree floor(p/12)真Jacobi多项式；H=((1−z)B²)^−1、f_i=H_i/(1−3i)、Q=4+12zB′/B−z/(1−z)，**c_(p−r)+=(-32)^m(r−1)![z^m]Qf^−r/4**。全分母单位、首resonance Hℓ=B(1)^−2单位，不可跨ℓ反除；完整ODE/roots/cusps与尺度保结果，目标系数非零仍开。
 
-[R1005](results/R1005-finite-Gauss-companion-and-complete-resonance-defect.md)：原P截到d=ℓ−1，完整Wronskian=1−z^ℓC/B(1)²，P_d=−16/(7B(1)²)、C+3zC′=B、C(1)=B(1)²。原高系数准确[z^m]QB^r/P^r；所有P根留数仍须保，非零未证。
+[R1005](results/R1005-finite-Gauss-companion-and-complete-resonance-defect.md)：原P截到d=ℓ−1，完整Wronskian=1−z^ℓC/B(1)²，P_d=−16/(7B(1)²)、C+3zC′=B、C(1)=B(1)²。原高系数准确[z^m]QB^r/P^r。补充§5在原r2行取S=P−P(1)z^ℓB/B(1)，尖点留数准确−28853B(1)^6/36864且恒为单位；其余全部S根仍须保。旧47给J12、cusp45、其余总和37，否定自动相消，不代全和非零。
 
 ## 当前实际工作：两新窗口完成后继续一般非零
 
