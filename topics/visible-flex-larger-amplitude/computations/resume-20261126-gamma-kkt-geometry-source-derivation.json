@@ -1,0 +1,25 @@
+{
+  "derivation_source_sha256": "6af33f03a013a80639a5f558c762285646c54fbceba7a8ee2acde6b3604d6946",
+  "draft_unlocked": false,
+  "executable_locked_scientific_source": true,
+  "operator_schema": "complete-direct-R690-SO3-added-gamma-six-control-KKT-zero-layer-v1",
+  "operator_source_sha256": "b712a24a0c0223356b4a53e6aa1fa78ba9cea66e4be39c7ee39931be99cb782a",
+  "output_bytes": 51803,
+  "output_name": "so3_zero_gamma_kkt_geometry.py",
+  "output_schema": "complete-added-gamma-six-control-KKT-zero-SO3-world-geometry-and-original-192-amplitude-rows-v1",
+  "output_sha256": "0c4886237d642382a1ae329d36517d5752ba717f0fa1471993bb98769e828f17",
+  "parent_complete_source_sha256": "e4a3271d829a1fc52080b0ac1bdb719f5a13065f23223e64288c77ea6bbc514c",
+  "schema": "complete-gamma-KKT-geometry-pure-source-derivation-v1",
+  "verification": {
+    "actual_changed_AST_definitions": [
+      "GeometryScreen",
+      "GeometryScreen.__init__"
+    ],
+    "all_physical_geometry_methods_from_set_x_through_eof_byte_identical": true,
+    "all_top_level_helpers_and_budget_methods_AST_identical": true,
+    "input_arrays_read": false,
+    "scientific_execution_performed": false,
+    "source_AST_and_compile_verified": true,
+    "unchanged_physical_method_suffix_sha256": "50d6f1414807ea91710ecf3a0e3e52d9530a04f299763d2a05f30c372f27bf7e"
+  }
+}
