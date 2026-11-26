@@ -5,12 +5,12 @@
 ## 主目标、规则与执行
 
 - **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍仅全体有界算子的存在定理或完整反例；子结果不作完成。
-- **最近实际 pull / 已读规则提交：** `1b9171a9a7e6baba43c1b8d45d6e3a49470ff4fa`（2026-11-26 07:58:46 UTC）。本次两README无新规则差异；已读根/课题README、H/open、结果索引及定点log/notes。每次pull及至少每小时比diff，记录SHA。
+- **最近实际 pull / 已读规则提交：** `6e7cca6897244fe8e43f1ee0f468acb1d885c1a1`（2026-11-26 08:03:53 UTC）。本次两README无新规则差异；已读根/课题README、H/open、结果索引及定点log/notes。每次pull及至少每小时比diff，记录SHA。
 - 私库 `QUEUE.md` 已成功更新认领，提交 `e776df496eedfa449b0475cefe140fdae7023db4`；非快进已逐次pull --rebase后重推成功。研究在公开仓库，私库仅维护QUEUE；不force，令牌仅CLI环境。
 - 工作树 `/tmp/isp-347c05929dd3/math-research-public`；root独占git/索引，代理独占TMP；每结论单推，仅存源/参数/身份/SHA。
-- 完整交接链见[最新压缩前H](notes/2026-11-26-handoff-before-rank-three-degenerate-gram-347c.md)及其旧归档。MD<100KB、H<10KB、open尽量<30KB、topic<200MB；不写根LOG。
+- 完整交接链见[最新压缩前H](notes/2026-11-26-handoff-before-unit211-zero-highest-347c.md)及其旧归档。MD<100KB、H<10KB、open尽量<30KB、topic<200MB；不写根LOG。
 - 请求14、311及权11旧执行身份已登记，不重做已闭计算。
-- 当前并行：rankV2/rankH3的ess6满支撑；unit211一般q的P0零/非零分工；R271全T孔权及允许改零列的真实Schur/MP。全局幂与算子桥继续。
+- 当前并行：rankV2/rankH3的ess6满支撑；unit211一般q/P0非零的m零/非零分工；R271全T孔权及允许改零列的真实Schur/MP。全局幂与算子桥继续。
 
 ## R150：原Bell非零临界点与全部来源
 
@@ -20,7 +20,7 @@
 - **[整个V0临界层三个原Bell零](results/R150-appendix-zero-third-cumulant-all-matched-bell-values-vanish-and-exact-index-three.md)：** 无Cat/H/ess/支撑限制，原17梯度准确幂指数3；run44732550495全QQ已付。不是全Jacobian同幂；V0/ess5/6不宣空。
 - **外均值ess4：** Cat(y)=3、dimW4、y∉W，原length5保同L/ν/全jets。rankH3全闭；rankH4 proper单零长度2–5、孤立零点加unit4/2+2均闭，所有边界及∞见索引。
 - **[unit3+1孤立零点全空](results/R150-appendix-essential-four-unit-three-plus-one-isolated-zero-rank-four-branch-is-empty.md)：** 全边界与一般QQ395/1142结式闭合。rankH4孤立零点仅余unit211和unit1⁴；rankH5、V非零inner及ess5/6仍开。
-- **unit211已闭：** 全零配对、零基点mean、整个相等/相反非零配对；完整QQ源及边界保[结果索引](results.md)和前H，不重做。仅续p1、q≠0,±1、b+cq≠0，root的P0零支已经闭合推导、待自含源/正式稿，代理续P0非零。
+- **[unit211整个P0零支已空](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-zero-highest-value-exclusion.md)：** 原41/42与31/31次QQ结式逐纤维闭合，半权P_i=2N_i结合零点mean迫等向2A+Z矛盾；自含源16.849538秒/74488KiB/exit0。旧零配对、零基mean及q±1不重算。准确剩余q≠0,±1、b+cq≠0、P0≠0；root续m非零，代理续m0。
 - **[非零rankV1全临界层](results/R150-appendix-rank-one-third-cumulant-complete-critical-classification.md)：** 恰y=a u、H=(a³+4c)u²/(6a)、V=c u³，ac≠0，T3零；全除子/∞已闭，潜在非零Bell只余rankV≥2和ess≥4。
 - **rankV2既闭：** 全部y∈RanV只余两原子与0/2/−6/∞值均值二jet的T3零族；任意y且rankH≤1又迫ess≤3、matched Bell零。完整原梯度/∞证据保[结果索引](results.md)和前H；潜在非零Bell只余y∉RanV、rankH≥2、ess≥4。
 - **[rankV2高本质维的均值支撑等式](results/R150-appendix-rank-two-third-cumulant-outside-range-mean-essential-support-equality.md)：** y∉RanV且essT3≥4时，y∈essT3且essT3=span(y,RanH,RanV)。纯原张量缩并，不预设共同物理除子；这层属于inner-ess路线，不能套外ess长度5排除。

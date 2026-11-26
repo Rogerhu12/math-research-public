@@ -39,7 +39,7 @@ rank$H=4$ 的非单位局部块长度5、4、3已排；长度2单零的三种单
 
 
 
-[整个相反非零配对分支](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-opposite-base-pairings-exclusion.md)现已闭合：原trace和单点范数差完整保零值，QQ359/838/1011结式仅余已闭w0、w−1及二次纤维，最后返回原M/S/c0迫v0或lhalf矛盾。原自含源49.017732秒/exit0；所有u0、l0/half、D1D2及六异常曲线均有独立完整来源，详见[压缩前open](notes/2026-11-26-open-before-complete-opposite-base-347c.md)和正式总闭合稿，不重做。单位211仅续q≠0,±1、b+cq≠0；root做P0零，unit代理做P0非零。
+[整个相反非零配对分支](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-opposite-base-pairings-exclusion.md)现已闭合：原trace和单点范数差完整保零值，QQ359/838/1011结式仅余已闭w0、w−1及二次纤维，最后返回原M/S/c0迫v0或lhalf矛盾。原自含源49.017732秒/exit0；所有u0、l0/half、D1D2及六异常曲线均有独立完整来源，详见[压缩前open](notes/2026-11-26-open-before-complete-opposite-base-347c.md)和正式总闭合稿，不重做。单位211仅续q≠0,±1、b+cq≠0、P0≠0；root做m非零，unit代理做m零。
 
 [整个rankH=rankV=2层的本质维数界](results/R150-appendix-rank-two-second-and-third-cumulants-have-essential-dimension-at-most-four.md)已完整升级为essT3≤4：最后Gaussian例外把C=−A,D=−B代回两个分别的原H值方程即得17F³0矛盾。全部约化/二jet/∞均已支付，不再研究旧有限Gram的物理曲面门；无需新计算。结合rankH≤1，rankV2的潜在ess5/6必须rankH≥3；当前接rankH3的ess6满支撑反设，ess4仍独立开放。
 
@@ -59,6 +59,8 @@ $$
 若以19/56图处理，仍须每图真正 $g_i^{N_i}$ 原来源，再按 $N=1+\sum(N_i-1)$ 粘合，几何覆盖本身不代判空。即使根理想闭合，仍须原来源费用、Bell 算子共同域、振幅清分母与同 forcing 运输。原全W31/127的整来源存在性与费用不等于已枚举4212来源、系数高度或完整非 rank-one 算子桥。
 
 **[rankH3约化退化Gram的ess6新归约](results/R150-appendix-rank-three-reduced-second-cumulant-degenerate-gram-essential-six-gaussian-reduction.md)：** 原完整六列基与N/最高值给F0全空、V二jet全空，以及F≠0/Hp非零全空；四种行常数连同原N两V值付全单位根。准确余项为约化H/V、F≠0、Hp0、H Gram秩2且两非零边；不把H自身退化当总Gram退化，继续最后支及非退化H Gram、H多jet。
+
+**[单位211整个最高基点值零分支已空](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-zero-highest-value-exclusion.md)：** 一般q在P0零图保全部P1/N0/N1；常规原mean结式41/42、31/31的全部纤维排尽，唯一零t抽象族由完整五维Gram秩二排。奇异D0两图原mean gcd1，半权原P_B=2N_B/P_C=2N_C与零点mean迫u1零，形成已禁止的等向2A+Z。自含原QQ源16.849538秒、74488KiB、exit0，旧边界不复算；只有P0非零继续，准确分m0/N0零与m非零/N0非零。
 
 ## 2. R271：同一来源的完整物理费用
 

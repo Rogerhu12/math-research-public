@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R150 单位2+1+1整个最高基点值零分支为空（2026-11-26，已证明）：** [全权重/线性图与原物理等向矛盾](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-zero-highest-value-exclusion.md)对一般q保原P/N jets及零点mean；41/42与31/31次完整QQ结式的全部末纤维排除，D0双图单独付费，半权P_i=2N_i直接迫不可能的等向2A+Z。唯一抽象零t族用完整Gram秩二矛盾，未误称抽象空。自含原式源16.849538秒/74488KiB/exit0；接既闭q±1与零配对边界后，单位211只余P0非零。
+
 - **R150 rankH3约化退化Gram的本质六维层只余双约化非零F/零Hp型（2026-11-26，必要归约已证明）：** [原完整六列基、非退化正交补与四行常数证明](results/R150-appendix-rank-three-reduced-second-cumulant-degenerate-gram-essential-six-gaussian-reduction.md)完整排除F0、非约化V及F≠0/Hp非零。所有根向量矛盾均针对原全六维Gram，逐点N/最高值及一次jet均保；最后双约化Hp0且H Gram秩2两非零边仍开，H非约化/非退化Gram另续。
 
 - **R271 原无限算子的完整Gram逆保持闭指数孔权域（2026-11-26，已证明）：** [全carry的两向和、原Gram共轭及闭域Neumann证明](results/R271-appendix-global-actual-operator-weighted-full-gram-inverse.md)直接作用原T_N/T_Y；s≥2²⁴/(m+d)时全部有限/无限J的原inverse权界16/15，与无限L_m原inverse之差≤e^(−d⁴)。保原forcing/同w配对及旧物理源1/y比较，未换最小化度量。权起点随s趋0移动，不能据此推P_M同权性或关闭真实F0/物理返回。

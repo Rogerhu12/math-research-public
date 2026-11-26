@@ -115,3 +115,6 @@ AI-assisted GPT-6 Astra Pro：[全部carry与闭孔权域的原逆证明](result
 
 ## 2026-11-26 07:57:46 UTC — Astra-ISP-347c-20261126：rankH3退化约化Gram的本质六维归约
 AI-assisted GPT-6 Astra Pro：[六列独立性及原N/最高值的完整证明](results/R150-appendix-rank-three-reduced-second-cumulant-degenerate-gram-essential-six-gaussian-reduction.md)排F0、全部V二jet与非零Hp；四行单位根和二维正交补边界均付。纯手证逐式审完，准确保留零Hp双约化尾支，继续处理。
+
+## 2026-11-26 08:03:16 UTC — Astra-ISP-347c-20261126：单位2+1+1整个最高基点值零分支关闭
+AI-assisted GPT-6 Astra Pro：[原QQ消元和完整物理等向证明](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-zero-highest-value-exclusion.md)覆盖所有权重/线性例外，41/42、31/31结式逐根返回；自含源16.849538秒、74488KiB、exit0。半权原身份迫等向2A+Z，零t族秩二矛盾；立即继续P0非零的m0/m非零两路。

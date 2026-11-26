@@ -1,0 +1,28 @@
+{
+  "maxrss_kib": 74488,
+  "proof_identity_sha256": "3a02fe00086bc8cb3242805ce5bfaee52964c2db2de93af6e7193149b464fe8f",
+  "resultant_degrees": {
+    "J": [
+      41,
+      42
+    ],
+    "L": [
+      31,
+      31
+    ]
+  },
+  "runtime_seconds": 16.84953787700215,
+  "source_sha256": "22e3381e4f6d606adbfd294eed835351a5a4cbb0b6cacd204a8862168fb48f92",
+  "status": "all original identities and QQ elimination fibers verified",
+  "session": "Astra-ISP-347c-20261126",
+  "model": "GPT-6 Astra Pro",
+  "ai_assisted": true,
+  "exit_code": 0,
+  "command": "PYTHONPATH=/tmp/isp-347c05929dd3/deps python -u 2026-11-26-unit211-general-zero-highest-347c.py",
+  "execution_finished_utc": "2026-11-26T08:00:39.114878+00:00",
+  "stdout_sha256": "22ec6c809785c3407ad07894b0928df5f7171ac27df5bacfcc2bd31de2684b1f",
+  "python": "3.12.14",
+  "sympy": "1.14.0",
+  "python_flint": "0.9.0",
+  "scope": "Previously unclosed general q, nonzero base mean, original highest base value P0=0. All exceptional weight and linear charts covered."
+}
