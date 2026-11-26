@@ -1,0 +1,78 @@
+name: visible-flex B030 complete saved peaks and repair auxiliary epigraph
+on:
+  push:
+    branches: [main]
+    paths:
+      - topics/visible-flex-new-mechanism/computations/request-r566-physical-epigraph-20261127.json
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: visible-flex-r566-rounded-core-B030-working-rows
+  cancel-in-progress: false
+jobs:
+  research:
+    name: Finish actual saved brackets and continue full physical descent
+    runs-on: ubuntu-24.04
+    timeout-minutes: 50
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      PYTHONUNBUFFERED: '1'
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+      MKL_NUM_THREADS: '1'
+      NUMEXPR_NUM_THREADS: '1'
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 0
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-new-mechanism/README.md
+            /topics/visible-flex-new-mechanism/computations/request-r566-backend-preserving-20261127.json
+            /topics/visible-flex-new-mechanism/scripts/inverse_flat_oscillatory_tail_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/inverse_hard_exchange_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/inverse_hard_exchange_resume_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/inverse_r566_angular_oracle_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/inverse_r566_block_jacobian_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/inverse_r566_theta_peak_exchange_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/inverse_rotational_metric_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/run_inverse_rotational_metric_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/inverse_r566_theta_peak_resume_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/inverse_r566_theta_peak_batched_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/inverse_r566_theta_peak_checkpoint_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/run_inverse_state_stdin_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/inverse_r566_theta_peak_radial1025_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/inverse_r566_theta_peak_paid_resume_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/r566_working_rows_full_acceptance_20261126.py
+            /.github/workflows/visible-r566-working-rows-20261126.yml
+            /topics/visible-flex-new-mechanism/computations/request-r566-working-rows-20261126.json
+            /topics/visible-flex-new-mechanism/scripts/r566_working_rows_backtrack_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/r566_backend_preserving_backtrack_20261127.py
+            /topics/visible-flex-new-mechanism/computations/request-r566-working-backtrack-20261126.json
+            /.github/workflows/visible-r566-working-backtrack-20261126.yml
+            /.github/workflows/visible-r566-backend-preserving-20261127.yml
+            /topics/visible-flex-new-mechanism/scripts/r566_physical_epigraph_and_saved_resume_20261127.py
+            /topics/visible-flex-new-mechanism/scripts/r566_saved_brackets_and_epigraph_20261127.py
+            /topics/visible-flex-new-mechanism/computations/request-r566-physical-epigraph-20261127.json
+            /.github/workflows/visible-r566-physical-epigraph-20261127.yml
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.12.14'
+      - name: Pull rules and continue actual B030 with all original physical gates
+        env:
+          MR_TOKEN: ${{ secrets.MR_TOKEN }}
+        run: >-
+          python topics/visible-flex-new-mechanism/scripts/run_inverse_state_stdin_20261126.py
+          --request topics/visible-flex-new-mechanism/computations/request-r566-physical-epigraph-20261127.json
+          --lane rounded-core-B030-physical-epigraph
+      # Complete the actual saved1353 brackets before adopting pending library points.
+      # Reuse identified paid coarse/fine/nested reports only at that identical q/grid.
+      # A lifted auxiliary e never changes q or counts as actual metric descent.
+      # Full physical,coarse,fine,all observed peaks,box,nested gates remain required.
+      # Every omitted coarse/fine witness survives the lift and enters genuine exchange.
+      # Original fine1212 and all later fine coordinates remain permanently required.
+      # All new FFT/localizer/row calls charged;stdout only,no artifacts or caches.
