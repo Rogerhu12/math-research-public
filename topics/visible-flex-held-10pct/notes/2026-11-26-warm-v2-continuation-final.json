@@ -1,0 +1,260 @@
+{
+  "observed_utc": "2026-11-26 09:48 UTC",
+  "workflow_run": 45775899674,
+  "command_id": "held10-warm-v2-design-20261126-01",
+  "status": "actual_continuation_stalled_at_minimum_step",
+  "scope": "Complete actual v2 original-gate continuation return; failed finite fields are not promoted.",
+  "accepted_lambda": 0.002,
+  "last_accepted_run": "/home/runner/work/_temp/held10-warm/warm-v2-design/reexpressed-anchor/run.json",
+  "attempts": [
+    {
+      "name": "attempt-000",
+      "homotopy": 0.004,
+      "modes": 24,
+      "accepted": false,
+      "returncode": 2,
+      "solver_success": false,
+      "raw": {
+        "file": "inner-00.npz",
+        "nodes": 3168,
+        "rms": 0.12464623790843471,
+        "sha256": "4046b47177b00e9d61960b56f87cc00a85567aad3f8cfd23584ccf9148f206b5",
+        "status": 1,
+        "success": false
+      },
+      "scaled_bc_max": 1.7381929229287607e-13,
+      "physical_bc_max": 3.7197673377788306e-16,
+      "run_sha256": "736f42df1e0be5e97e8dfac2cb2a56d0a2c811f331755caf90ffcb46b7f2852b",
+      "next_action": "bisect_lambda_from_last_accepted_field"
+    },
+    {
+      "name": "attempt-001",
+      "homotopy": 0.003,
+      "modes": 24,
+      "accepted": false,
+      "returncode": 2,
+      "solver_success": false,
+      "raw": {
+        "file": "inner-00.npz",
+        "nodes": 3144,
+        "rms": 0.0625026081542265,
+        "sha256": "825d2383ea924a71291a6ff24152a84f183717364c846c64b9280ccd2d745a5e",
+        "status": 1,
+        "success": false
+      },
+      "scaled_bc_max": 1.7381929229287607e-13,
+      "physical_bc_max": 3.7197673377788306e-16,
+      "run_sha256": "54b8ad4dedba09907490760733ad84e1d08aed117c6efaf211cdfd4b40908b88",
+      "next_action": "bisect_lambda_from_last_accepted_field"
+    },
+    {
+      "name": "attempt-002",
+      "homotopy": 0.0025,
+      "modes": 24,
+      "accepted": false,
+      "returncode": 2,
+      "solver_success": false,
+      "raw": {
+        "file": "inner-00.npz",
+        "nodes": 3123,
+        "rms": 0.03129637636809682,
+        "sha256": "a3820345e54e4ec56193c5af8d8de46ebc528f40bb72b0e0ef9718e0a957ee39",
+        "status": 1,
+        "success": false
+      },
+      "scaled_bc_max": 1.7381929229287607e-13,
+      "physical_bc_max": 3.719540036487435e-16,
+      "run_sha256": "4f534a9392b0aafc4bc2807ecee4ca4a030204bb507f7b80acacd0a3b188aa2a",
+      "next_action": "bisect_lambda_from_last_accepted_field"
+    },
+    {
+      "name": "attempt-003",
+      "homotopy": 0.0022500000000000003,
+      "modes": 24,
+      "accepted": false,
+      "returncode": 2,
+      "solver_success": false,
+      "raw": {
+        "file": "inner-00.npz",
+        "nodes": 3107,
+        "rms": 0.015659481056362133,
+        "sha256": "9dc502bc17906b6e71ad40f32d4088438fc93f53940623e440cb849d5f119ca5",
+        "status": 1,
+        "success": false
+      },
+      "scaled_bc_max": 1.7381929229287607e-13,
+      "physical_bc_max": 3.719540036487435e-16,
+      "run_sha256": "374e395121e4f7425eb67d24b3251d1419a45363420bf2e80c06db2b42371278",
+      "next_action": "bisect_lambda_from_last_accepted_field"
+    },
+    {
+      "name": "attempt-004",
+      "homotopy": 0.002125,
+      "modes": 24,
+      "accepted": false,
+      "returncode": 2,
+      "solver_success": false,
+      "raw": {
+        "file": "inner-00.npz",
+        "nodes": 3078,
+        "rms": 0.007832566522972281,
+        "sha256": "10085a082f5c94989db7a3fbe3a64c188fc857cc3e6987835fbca1a9cfb25ec9",
+        "status": 1,
+        "success": false
+      },
+      "scaled_bc_max": 1.7381929229287607e-13,
+      "physical_bc_max": 3.719540036487435e-16,
+      "run_sha256": "9afb1212da34e8f0ee40890658b154aa271d9a23de3c05c1922346f443b10d25",
+      "next_action": "bisect_lambda_from_last_accepted_field"
+    },
+    {
+      "name": "attempt-005",
+      "homotopy": 0.0020625,
+      "modes": 24,
+      "accepted": false,
+      "returncode": 2,
+      "solver_success": false,
+      "raw": {
+        "file": "inner-00.npz",
+        "nodes": 3011,
+        "rms": 0.003916989776054625,
+        "sha256": "eff3edf9f0d01a84df480a90845db7e8974b913b92ad73647fb2458f647bfd57",
+        "status": 1,
+        "success": false
+      },
+      "scaled_bc_max": 1.7381929229287607e-13,
+      "physical_bc_max": 3.719540036487435e-16,
+      "run_sha256": "4bbc474e82d19d4ab834873a1fd39b7baa4654f7be74e532f9cac37c43337f08",
+      "next_action": "bisect_lambda_from_last_accepted_field"
+    },
+    {
+      "name": "attempt-006",
+      "homotopy": 0.00203125,
+      "modes": 24,
+      "accepted": false,
+      "returncode": 2,
+      "solver_success": false,
+      "raw": {
+        "file": "inner-00.npz",
+        "nodes": 2627,
+        "rms": 0.0019586711868091835,
+        "sha256": "8d1e94624918c8485f06a4e55d251525463bcdab667c6db59db8356bb3b8badc",
+        "status": 1,
+        "success": false
+      },
+      "scaled_bc_max": 1.7381929229287607e-13,
+      "physical_bc_max": 3.7197673377788306e-16,
+      "run_sha256": "8dafd59a0c6ddd0665bb6d477b621c364ec291ccd7d795a9f2d9d3454119e422",
+      "next_action": "bisect_lambda_from_last_accepted_field"
+    },
+    {
+      "name": "attempt-007",
+      "homotopy": 0.002015625,
+      "modes": 24,
+      "accepted": false,
+      "returncode": 2,
+      "solver_success": false,
+      "raw": {
+        "file": "inner-00.npz",
+        "nodes": 5316,
+        "rms": 0.0014146552725721763,
+        "sha256": "9abb81bb89223c3c8ceea06c18b31f71faece3e0b232438523eeeb00c433fcf6",
+        "status": 1,
+        "success": false
+      },
+      "scaled_bc_max": 1.7383317008068389e-13,
+      "physical_bc_max": 3.7198699981720377e-16,
+      "run_sha256": "d0a9a2a1ffcf60b35327afd04bff374fa52d6ac91fde951c4d1e50218e00d3db",
+      "next_action": "bisect_lambda_from_last_accepted_field"
+    },
+    {
+      "name": "attempt-008",
+      "homotopy": 0.0020078125,
+      "modes": 24,
+      "accepted": false,
+      "returncode": 2,
+      "solver_success": false,
+      "raw": {
+        "file": "inner-00.npz",
+        "nodes": 3679,
+        "rms": 0.0007073293819031093,
+        "sha256": "bc7e64d0ee946eb30a6fe1a08da43b5d6f5dc73607e6bd8d59674eb5cad9f72c",
+        "status": 1,
+        "success": false
+      },
+      "scaled_bc_max": 1.7330581414398694e-13,
+      "physical_bc_max": 3.720655832988853e-16,
+      "run_sha256": "9a1b6184260b616ebe61104a185e41fbf43f147efad925e45f0b81170a3da3a5",
+      "next_action": "bisect_lambda_from_last_accepted_field"
+    },
+    {
+      "name": "attempt-009",
+      "homotopy": 0.00200390625,
+      "modes": 24,
+      "accepted": false,
+      "returncode": 2,
+      "solver_success": false,
+      "raw": {
+        "file": "inner-00.npz",
+        "nodes": 5380,
+        "rms": 0.0005108628702567015,
+        "sha256": "f7639e8041485e79efa23828f018954d166b2bb92769e4ee046e50251a6bbb7a",
+        "status": 1,
+        "success": false
+      },
+      "scaled_bc_max": 1.7348622538548852e-13,
+      "physical_bc_max": 3.720384443632553e-16,
+      "run_sha256": "9599006ccea7c9aea9991a8a164c8280f9579af9610e14e194412a25ad207c02",
+      "next_action": "bisect_lambda_from_last_accepted_field"
+    },
+    {
+      "name": "attempt-010",
+      "homotopy": 0.002001953125,
+      "modes": 24,
+      "accepted": false,
+      "returncode": 2,
+      "solver_success": false,
+      "raw": {
+        "file": "inner-00.npz",
+        "nodes": 5154,
+        "rms": 0.000059692270663216866,
+        "sha256": "2389b65433222c133fa1e94e18073138d08bb5bd1b25d6bc5adbe57f3d98489f",
+        "status": 1,
+        "success": false
+      },
+      "scaled_bc_max": 1.7377765892945263e-13,
+      "physical_bc_max": 3.7192306577034504e-16,
+      "run_sha256": "413b43e44a76e69793733b5dccdf0db0d02284bb2b531c4423c8e4b4fbfa3bb5",
+      "next_action": "bisect_lambda_from_last_accepted_field"
+    },
+    {
+      "name": "attempt-011",
+      "homotopy": 0.0020009765625,
+      "modes": 24,
+      "accepted": false,
+      "returncode": 2,
+      "solver_success": false,
+      "raw": {
+        "file": "inner-00.npz",
+        "nodes": 5049,
+        "rms": 0.000029935138344800836,
+        "sha256": "d6f47ce97d6005be2d44eb8e6a35188e395abf68ac65cf4b785844d9cf36d78f",
+        "status": 1,
+        "success": false
+      },
+      "scaled_bc_max": 1.753874823151591e-13,
+      "physical_bc_max": 3.7178613865925667e-16,
+      "run_sha256": "d54ac5782683be1211f976077d5fb70467576707677dab62fb31ef063fb80d6b",
+      "next_action": "no_failed_candidate_is_promoted"
+    }
+  ],
+  "previous_detailed_failure_notes": [
+    "2026-11-26-warm-v2-lambda-failures.json",
+    "2026-11-26-warm-v2-no-newton-step.json"
+  ],
+  "last_accepted_source_unchanged": true,
+  "finite_linear_new_lambda_passed": false,
+  "complete_surface": false,
+  "not_a_nonexistence_result": true
+}
+

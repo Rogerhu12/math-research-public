@@ -1,0 +1,107 @@
+{
+  "observed_utc": "2026-11-26 09:48 UTC",
+  "workflow_run": 45775899674,
+  "command_id": "held10-warm-v3-complement-20261126-01",
+  "source_command_script": "topics/visible-flex-held-10pct/scripts/resume_20261126/warm_fixed_m3_continue_v3.py",
+  "source_command_script_sha256": "f60f3e47b8ee2daf3c4b6e1eb086ea5498496f0ccf6699921e492e745192ddcb",
+  "scope": "Actual same-map zero-control reexpression into the distinct R68 complementary phase family; no new BVP, no lambda advance.",
+  "status": "verified_zero_control_reexpression",
+  "run": "/home/runner/work/_temp/held10-warm/warm-v3-design/reexpressed-anchor/run.json",
+  "run_sha256": "ed26f6657d9fee4769f4a95693d617729a1f569998a0d44c266a9d326cca452c",
+  "model_kind": "warm-supported-material-phase-fixed-metric-v3",
+  "acceptance_kind": "same_cartesian_map_verified_reexpression",
+  "solver_invoked": false,
+  "solver_success": null,
+  "homotopy": 0.002,
+  "modes": 24,
+  "raw_return": {
+    "accepted_representation": true,
+    "file": "reexpressed-raw.npz",
+    "message": "No solver invoked: identical zero-control field in a different finite phase family",
+    "nodes": 631,
+    "original_raw_sha256": "5dd5419b19ce21ae2ebb088ea5d13ca6f453e60f15970757126dadd8eca18f7a",
+    "parameters": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "rms": 9.927150345213775e-7,
+    "sha256": "5dd5419b19ce21ae2ebb088ea5d13ca6f453e60f15970757126dadd8eca18f7a",
+    "solver_invoked": false,
+    "status": null,
+    "success": null
+  },
+  "zero_control_identity": {
+    "all_raw_RMS_chart_ds_bitwise_equal": true,
+    "all_raw_RMS_chart_s_bitwise_equal": true,
+    "all_required_exact_equalities": true,
+    "bc_bitwise_equal": true,
+    "chart_join_bitwise_equal": true,
+    "chart_reference_prefix_bitwise_equal": true,
+    "core_F_bitwise_equal": true,
+    "core_Ft_bitwise_equal": true,
+    "core_Ftt_bitwise_equal": true,
+    "cr_bitwise_equal": true,
+    "f_bitwise_equal": true,
+    "fm_bitwise_equal": true,
+    "initial_projection_bitwise_equal": true,
+    "literal_common_R53_baseline": true,
+    "new_actual_phase_controls_zero": true,
+    "physical_bc_bitwise_equal": true,
+    "physical_end_bitwise_equal": true,
+    "prefix_end_bitwise_equal": true,
+    "rms_bitwise_equal": true,
+    "same_angular_projection": true,
+    "same_basis": true,
+    "same_gauge": true,
+    "same_modes": true,
+    "source_actual_phase_controls_zero": true
+  },
+  "metric_diagnostics": [
+    {
+      "angular": 1168,
+      "legacy_max_component_fft_l1": 6.482415781989006e-7,
+      "sample_operator_max": 5.449318613117554e-7,
+      "common_node_component_difference": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "angular": 2336,
+      "legacy_max_component_fft_l1": 6.482415812048341e-7,
+      "sample_operator_max": 5.449318613117554e-7,
+      "common_node_component_difference": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "finite_linear_candidate_pass": true,
+  "phase_family_same_as_v2": false,
+  "complete_surface": false
+}
+

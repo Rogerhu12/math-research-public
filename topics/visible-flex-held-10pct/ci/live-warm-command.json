@@ -27,7 +27,6 @@
       "path": "@WORK@/warm-v3-design/reexpressed-anchor/summary.json",
       "keys": [
         "status",
-        "result",
         "error"
       ]
     },
@@ -47,6 +46,22 @@
         "stages",
         "result",
         "error"
+      ]
+    },
+    {
+      "path": "@WORK@/warm-v3-design/reexpressed-anchor/run.json",
+      "keys": [
+        "physical_sha256",
+        "raw_return"
+      ]
+    },
+    {
+      "path": "@WORK@/warm-v3-design/attempt-000/run.json",
+      "keys": [
+        "raw_return",
+        "domain_newton_stats",
+        "domain_error_counts",
+        "physical_sha256"
       ]
     }
   ]
