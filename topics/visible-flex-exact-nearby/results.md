@@ -375,3 +375,5 @@
 - [RP：完整未解约束return和真参数phase二阶界](results/R144-supplement-full-off-constraint-principal-return-Hessian.md)：32个新saved有理组合；同一folded两腿保true root/两mean/directν/ν²，D²P<530NN、∂φDP<150N、N=L²rL²+100|κ|。原PD未归一moving phase mixed Hessian≤400，固定ν/g余项<96ρ²；真实waist物理零方程严格等价而非零残差chart项全保。仅低阶完整phase，尚待高阶/full regular与νSchur/worldheight及收敛。
 
 - [RT：根端全角阶单高背景 tame Cauchy流](results/R144-supplement-root-angular-tame-flow-with-one-high-background-factor.md)：19个saved有理比较已成，同NR任意fulltail A³≤1e−6，根端所有整数阶显式低norm递推、A^{n+4/3}只线性一次；最高阶n dφ仅低背景161增长。R=.005真实H¹≤15D1+17200D0，接strict到腰≤5100D1+1.32e7D0+340S1+1.12e6S0，density另<1.041；普通源、所有jump和两mean保。无generic径向L² head trace，也未授full finite/边界逆。
+
+- [TCX：同一trial互斥cells续算与完整合并](results/R149-supplement-disjoint-same-trial-cell-continuation.md)：原2063B evaluator逐字SHA、8数学源/4全数组/全plan不变，parent恢复一次，≤3fork/COW只积分互斥缺域。每片完整5×96有向upper和cursor原子保存；union从固定seed+全分片重新合并，连续prefix单独保，不减upper/不重复加总。当前TC运行中不启用；真实终态后才生成manifest，全部old matrix/目标直接继承，full negative覆盖可立即结论、positive仍须全部N。5件source纯metadata/AST已过，无新science。
