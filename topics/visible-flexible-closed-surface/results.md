@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- [R215：半宽.895的完整新固定帽](results/R215-complete-caps-for-point-eight-nine-five-core-width.md)：真正更换凸帽并升喉，准确球包、全极点、held与全部双侧法球预算保D≤3.2、δE≥.1609及R=.097；允许Aq≥1.4、Z∈[.50,.61]、核半宽.895。完整核的metric/reach/球包/排球仍须付，新provider仅是实际求解引导。
+
 - [R214：切口切向强制的核心板宽](results/R214-developed-cut-tangent-forces-minimum-core-width.md)：准确同g测地经线与曲率界给无反射的切向超调，C²平端给严格不等式；纯有理夹定最终A阈值(.3637,.3638)和当前引导阈值(.4525,.4527)。仅必要条件，不排除已越阈值的当前四次metric场。
 
 - [R213：切向兼容与真实法向修正](results/R213-tangential-compatibility-and-normal-correction.md)：完整非零模消元、独立零模/端口、无需微分残差的弱应力测试及线性sup下界；含非旋转II完整卷积与旋转参考法向方程。明确实际Newton须用诱导h，有限矩/有限下降不代付精确存在。
