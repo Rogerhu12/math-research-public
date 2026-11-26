@@ -120,3 +120,5 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 公开仅保完整小源/参数/证明/实际紧凑标量/run/SHA；raw/cache/逐胞盒/完整大报告只runner/scratch。普通移出旧raw保完整再生及固定恢复，不强推。每结论推送，NFF立即rebase循环；每次真实pull核双README且至少每小时一次。当前容量以最新真实树为准，旧§6历史数不沿用。
 
 [完整积分范数六jet条件界](notes/2026-11-26-integral-SO3-norm-full-sixjet-control.md)已刊：固定有限M/正rho/真参考导数下，Green核与全core逆图/H/Delta给全部六物理jet的径向网格无关控制。不是一般H²二阶sup嵌入，不给M无穷一致常数或当前场的真实几何余量，也不为正在运行方向新增门槛。
+
+[完整pure v2读取合同](notes/2026-11-26-continuation-reader-v2-short-snapshot-contract.md)已刊排：按9649真实短snapshot去除三个不存在必取键，完整latest元数据/来源/模型/目标守卫不改，无跨点回填。原29真实异常仍由ef017日志返回确认；科学28失败不变。

@@ -4,7 +4,7 @@
 
 ## 规则与完整目标
 
-最近规则核查：2026-11-26 17:27:09 UTC，真实pull/rebase至 `15119d522c123808a517a581b4425095b86eb2ce`，双README相对`d13d1a4e6d214253af6e970b495103a2a4e19aab`无差异，授权及规矩继续执行。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
+最近规则核查：2026-11-26 17:30:10 UTC，真实pull/rebase至 `36a991172b4114da3d961e57b21148bdcd43159b`，双README相对`15119d522c123808a517a581b4425095b86eb2ce`无差异，授权及规矩继续执行。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
 
 科学计算仅本公开仓库Actions；早前本地偏差及纠正见[执行记录](notes/2026-11-20-public-actions-execution-correction.md)。root唯一分支写者；代理只scratch及未引用小源blob。每条结论普通commit/push，NFF立即pull --rebase循环再推，不强推。至少每小时pull，每次核双README差异/立即遵新规并记commit。raw只scratch/runner，不入Git/Release/artifact；保完整小源/参数/run/SHA/紧凑结论。题≤200MB、单文件<5MB、MD<100KB、H<10KB、open<30KB。令牌仅瞬时CLI。终端恢复/全部授权保2a7c完整H；真实pull/push，无raw重造。
 
@@ -21,7 +21,7 @@
 
 ## 本次实际结果与继续入口
 
-02同d021/0a223/ad017/c4b2的[46–48真内点](notes/2026-11-26-actual-parent-interior-restoration-entry.md)793b/bb5c及[49缓存续](notes/2026-11-26-actual-run02-cached-SO3-49-and-terminal-boundary.md)f66c/d2d0全部实际来源保note。49真1metric、max .03662269652/Phi .006640209698/g −4.035176415e−9、2856/2821全点双支；50未执行，alpha/Pg未知。新baseline实读/缓存真采用不倒填。[完整后退SOC](notes/2026-11-26-normalized-parent-cached-backtracked-soc.md)已刊；[04](notes/2026-11-26-run02-budget-and-complete-run04-continuation.md)45857104277/1自身再生0f父直接新SOC，非f66继承，唯一锚/原全行/最终记忆复筛保。
+02同d021/0a223/ad017/c4b2的[46–48真内点](notes/2026-11-26-actual-parent-interior-restoration-entry.md)793b/bb5c及[49缓存续](notes/2026-11-26-actual-run02-cached-SO3-49-and-terminal-boundary.md)f66c/d2d0全部实际来源保note。49真1metric、max .03662269652/Phi .006640209698/g −4.035176415e−9、2856/2821全点双支；02准入已终、49成功而API总cancelled；50未执行，alpha/Pg未知。新baseline实读/缓存真采用不倒填。[完整后退SOC](notes/2026-11-26-normalized-parent-cached-backtracked-soc.md)已刊；[04](notes/2026-11-26-run02-budget-and-complete-run04-continuation.md)45857104277/1自身再生0f父直接新SOC，非f66继承，唯一锚/原全行/最终记忆复筛保。
 
 旧deep9b937ee/993556 max .0126793、自身first bbefd075，Haar bcdcdab/a76c4d、R690–695条件结论及完整连续误差链全部保[bd75完整H](https://github.com/Rogerhu12/math-research-public/blob/bd75c8c86fa39ee37fd729a8faf4f52be008838e/topics/visible-flex-larger-amplitude/HANDOFF.md)、results和所链notes。未返归因/ownfirst不回填，不迁证、不冒任意C²存在；新场完整922胞/全尾/浮点和隐式费用仍须实付。
 
@@ -33,9 +33,7 @@
 
 [零Δ原失败/14–16](notes/2026-11-26-zero-initial-endpoint-replay-and-moment-input.md)保原完整轨迹与18字05dc；[固定Q真实19–20](notes/2026-11-26-actual-fixed-moment-Q-initial-failure-19-20.md)同cd530/初H/05dc返747544/e4dc、角5初根失败，无场/Phi/J，球内回溯不降不推不存在。[轴端同族](notes/2026-11-26-zero-endpoint-axis-planar-control-equivalence.md)phi0/zy0新旧Q无球时恰同两Ry形状，球映不同椭圆，一般角无共同右线性映射；实际角5非轴端。[真实支撑23](notes/2026-11-26-actual-03b-supported-chord-pass.md)55ad/09819三补段/全尾/全角surplus严格负，384/256叶精度未达但外包保，0root/F/J；原H通过必要式非有限根存在，不能据此称需改H。
 
-[同原方程残差延拓](notes/2026-11-26-same-endpoint-residual-continuation.md)3f37/613d/9649/e57e/a0c9/cc28已刊排03b：同Q/H/.75，失败精确回退，最终λ1无偏移复读C/Cz、原implicit不改；真实28已消费五manifest返a244/73a9，lambda约.8343未到1、149拒，初场失败；[28/29实际](notes/2026-11-26-actual-zero-residual-continuation-28-and-reader29-failure.md)分开登记；原ef017纯trace已排，尚不猜异常或失败角/Cz。[H-only完整入口](notes/2026-11-26-explicit-initial-height-fixed-moment-zero-entry.md)已刊未选H。[新gamma/KKT解析](notes/2026-11-26-zero-endpoint-fold-and-added-shape-kkt.md)原Wz+独立gamma v，明确u=(z/S,v)成本、完整9KKT/27角jet/四阶混合链；严格增加容许形状不冒最小范数选枝继承，补秩仅条件，反射/周期须同支。完整实现中，无新科学结果。
-
-02 [run45800076687/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45800076687)已终止接纳；[实际卷](notes/2026-11-26-public-actions-45800076687-1.md)真返49/exit0，16:08:14准入结束，50未执行；API总cancelled而research step成功，两者不混作49科学失败。
+[同原方程残差延拓](notes/2026-11-26-same-endpoint-residual-continuation.md)3f37/613d/9649/e57e/a0c9/cc28已刊排03b：同Q/H/.75，失败精确回退，最终λ1无偏移复读C/Cz、原implicit不改；真实28已消费五manifest返a244/73a9，lambda约.8343未到1、149拒，初场失败；[28/29实际](notes/2026-11-26-actual-zero-residual-continuation-28-and-reader29-failure.md)分开登记；原ef017纯trace与[完整pure v2](notes/2026-11-26-continuation-reader-v2-short-snapshot-contract.md)75f4已排；短snapshot三缺键不必取，完整metadata守卫不动，尚不猜实际trace或成功。[H-only完整入口](notes/2026-11-26-explicit-initial-height-fixed-moment-zero-entry.md)已刊未选H。[新gamma/KKT解析](notes/2026-11-26-zero-endpoint-fold-and-added-shape-kkt.md)原Wz+独立gamma v，明确u=(z/S,v)成本、完整9KKT/27角jet/四阶混合链；严格增加容许形状不冒最小范数选枝继承，补秩仅条件，反射/周期须同支。完整实现中，无新科学结果。
 
 <!-- visible-larger-parallel-03:start -->
 并行公开Actions03：[run 45820592817/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45820592817)；[实际记录](notes/2026-11-26-public-actions-45820592817-1.md)。阶段`followup:continue-independent-axisymmetric-SO3-integral-norm-655d-full64-20261126-03b`/running；已返29，exit=未返。

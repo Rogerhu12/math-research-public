@@ -121,3 +121,7 @@
 ## 2026-11-26 17:26:56 UTC — 实际28科学根失败与29独立pure故障
 
 刊[完整已返边界](notes/2026-11-26-actual-zero-residual-continuation-28-and-reader29-failure.md)：28实41.35794s/exit1，a244/73a9、lambda .83427837–.83434355、149阶段拒，未到1且未读最终原C，无初场；29 a0c另exit1无readout。静态snapshot/fullmetadata三键不一致不是尚未读的实际traceback，原ef017完整纯诊断7305B/41bb已排，控制器另读原a244准确角/原因/计数。原两个655d续方向对象不改，运行child不打断，无科学重跑。
+
+## 2026-11-26 17:29:59 UTC — 延拓pure完整v2按真实短snapshot修复
+
+刊[完整source/合同](notes/2026-11-26-continuation-reader-v2-short-snapshot-contract.md)75f4/31936B及6867/15174B参数。只删除短endpoint_roots未产三个字段的必取并改独立readout schema；完整endpoint_metadata/全部源目标norm守卫逐AST保持，缺键不补0、不拿另一点回填。根亲核完整diff和真实driver短列表，原ef017后排v2，全部其他完整对象不动。待真实trace/返回，不把静态差异冒实际29异常，不重科学。
