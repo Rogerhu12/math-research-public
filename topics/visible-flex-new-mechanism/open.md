@@ -188,3 +188,7 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 ### R580：当前有限末段的准确线性缺口与换基
 
 [R580](results/R580-finite-tail-polynomial-kernel-obstruction-and-resonant-seed-interface.md)对真实圆q而非零参考证明a_s→−1、真实z_s近端正且全平；β=e^-4.32/δ乘有限多项式的同阶u/v不能满足完整两行linear metric除非末片恒零。当前8基末片跨.82载体终点，原loga盒给a_s(.82)<0，又排p′≠0的C1圆入口；只限这一表示，不排其它空间或强非圆解。下一必须把实际背景w_eff的非零全平seed和完整端图加入新角基，先调Ccore=0/Acore≠0，再作有限预测；中段z_s零点、准确尾误差、全部高模和全几何都要支付。
+
+### R583：同一温和尾的有限高模准确端基
+
+[R583](results/R583-finite-high-mode-flat-kernels-on-the-same-mild-tail.md)在同一R571输入上付2≤j≤8准确全平一维核，未固定半径替代；u≥100的单谷权、正势与DtN对角占优给统一收缩<10⁻³及真实截断界。可给有限高度表示的j2/4/6/8端基，但未给多模同时核心共振、浮点ODE误差、无限谱非线性解或同g精化；外端trace校正必须加入实际残差。

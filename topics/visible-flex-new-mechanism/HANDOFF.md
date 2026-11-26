@@ -34,7 +34,7 @@
 
 [R569](results/R569-fixed-oscillatory-tail-and-flat-infinitesimal-bending.md)已有R566同尾真实全平核，但[原种子](notes/2026-11-26-r569-seed-first-run-receipt.md)二阶代价巨大。[R571](results/R571-milder-phase-tail-flat-kernel-and-core-shooting-zero.md)换δ^-1相位，负holonomy给真实核心C=0/A≠0；[原相位run](notes/2026-11-26-r571-phase-shooting-natural-final.md)173.782205514秒，选φ仍C/A=−3.4767e−5且核心归一|Vss|9.42e9，未授宏观候选。M+1差不解释残差，不盲增M。
 
-[非单调连接原终态](notes/2026-11-26-r571-connector-gain-natural-final.md)run45783828876新增388.178616824秒，24根/0全必要几何通过。近输入R.85/L6/λ1/H1.0414862884有C/A3.82e−10、κ15.73555，但弧长缺.03043、二阶均值C2达2.51e8；无selected_refined，不授精根误差。继续R576有限非线性，已付φ0尾Riccati不重算。
+[非单调连接原终态](notes/2026-11-26-r571-connector-gain-natural-final.md)run45783828876新增388.178616824秒，24根/0全必要几何通过。近输入R.85/L6/λ1/H1.0414862884有C/A3.82e−10、κ15.73555，但弧长缺.03043、二阶均值C2达2.51e8；无selected_refined，不授精根误差。继续R576有限非线性，已付φ0尾Riccati不重算。[R583](results/R583-finite-high-mode-flat-kernels-on-the-same-mild-tail.md)已将同一温和尾的准确全平核扩至2≤j≤8，统一DtN截断界；不授各模核心共振/全频逆，端校正仍入完整残差。
 
 [R574](results/R574-exact-nonlinear-height-equation-and-core-flux-transversality.md)给准确二次Darboux和Green核心导数；[R575](results/R575-local-second-order-mean-flux-and-radial-metric-design.md)使二阶均值通量成为同场一jets，静态e0=2J0可吸收该均值。受迫高模、有限非线性/核心C2/全局几何仍欠。[R576](results/R576-exact-turning-elimination-and-finite-nonlinear-height-interface.md)已证明完整turning唯一解E，二jets给实际E′/非线性残差/重构metric误差，准确零解的凸圈严格嵌套；C2核心通量可编码R579。仅二jets的近似metric不冒曲率，有限高度边值问题正实现，最终仍须冻结同一g再精化。
 
