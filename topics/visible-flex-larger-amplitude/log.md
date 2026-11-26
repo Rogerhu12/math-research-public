@@ -156,3 +156,8 @@
 [完整接续](notes/2026-11-26-live-run03b-height-gamma-and-run05-history.md)：03b已实际返33；保原四对象，排完整H-only/pure后接strict gamma/pure，gamma额外保紧前H报告为第八manifest。05追加原3/17/21/26完整实际依赖再生；不重宣旧结论，不借新来源删地点。终端盘满后迁移失联，CLI后续写未成；云API重新读c53b6b6双README与4ef11无差异，普通单父快进发布，不假称API为pull。新科学未执行，本地无科学。
 
 API首次快进因HEAD并发变动未成；已真实读取572ec0d375c2e08471b372c575620d1ce5ba709e，双README和本课题被改文件逐项blob相同，在新父普通重放，不强推。
+
+
+### 2026-11-26 18:04 UTC — 同g真实Jstar高度字的完整解析与入口
+
+[完整论证与源顺序](notes/2026-11-26-actual-Jstar-height-same-target-new-initial-point.md)明确C0=Γ−er+(I*−H)ez，H=J*仅改竖直项、水平非圆core仍在；working字不是准确积分。原H/Istar几bit与Jstar的实质降低分开，旧34c在首次root前只验证原点/改末H，所有非H字节及原Q/模型/历史/幅度真筛保留。Root已全文审读；参数已在3f03a6b普通快进刊出，尚无新根/场成功。没有本地科学执行。
