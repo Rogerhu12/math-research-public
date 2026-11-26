@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R150 有限H(2+1)/Hp0的两条d一次式与原物理理想相等（2026-11-26，已证明）：** [两条通用多项式身份](results/R150-appendix-rank-three-double-plus-single-zero-hp-two-linear-original-ideal-equivalence.md)将源三次/jet二次改为C_lin/G_lin；保原范数支付A单位，饱和Π不变，不除Ld/Cs或任何新首项。源已启动真实Ke的I*C=1，执行结果独立登记；理想相等不作排空。
+
 - **R150 整个三值互异S0/P1双变量系数零层全空（2026-11-26，已证明）：** [原M4覆盖与完整八维QQ身份](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-P1-zero-coefficients-exclusion.md)保所有λ根/值分配，原Af与L均为全局单位；N(V)定f、P1真实恒零，原E1/EB结果式乘法矩阵8阶满秩且逆乘回1。45真逆，run45813236876/job139886236638、0.070704秒/exit0。剩余S0原解均可合法由P1解f或t，未宣S0整层空。
 
 - **R150 有限H(2+1)/Hp0的原七式与低次数七式在同一局部化环理想相等（2026-11-26，已证明）：** [六条原多项式身份](results/R150-appendix-rank-three-double-plus-single-zero-hp-lowered-original-ideal-equivalence.md)以2U=E′J+E∂sJ消高次喷射；新最高/范数/喷射均d二次。A、T及原导数R是原方程强迫单位，无新饱和因子。此为严格代数降维，特征零单位证书仍在求取。

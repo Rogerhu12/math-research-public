@@ -1,0 +1,38 @@
+{
+  "schema": "r150-unit211-S0-two-parameter-project-timeout-v1",
+  "runId": 45812602031,
+  "jobId": 139884028788,
+  "sourceCommit": "6115dcc48b1ef3bd0d0e7f0291eeca8ab048a851",
+  "sourceBlob": "d5e84acba70019a28cfa0bdc626cdaf5e458b2a2",
+  "sourceSha256": "a87dbfbb36572b114a9f9f53eb57d53047a32c3193fc1f4112b3de0f33e9c9c9",
+  "sourcePath": "topics/invariant-subspace-problem/notes/2026-11-26-unit211-S0-symmetric-two-parameter-347c.py",
+  "sourceBytes": 13121,
+  "graphVerifiedSeconds": 0.016388,
+  "parameterCurve": {
+    "degrees": [
+      15,
+      6
+    ],
+    "terms": 90,
+    "sha256": "b8d7fe9688d558e4938ec55c0414e05d78fb30e1dd2e5256d33f2fd28396aed7"
+  },
+  "originalNineGenerated": true,
+  "originalNineCompletedSeconds": 449.412372,
+  "inputSha256": "79343f59639b06a4ca0f94e6268e4d855ce1dcbac0ea3dc648d9541499570651",
+  "firstProjectionGenerated": false,
+  "sourceElapsedSeconds": 600.006209,
+  "driverElapsedSeconds": 600.286338413,
+  "driverPeakRssKiB": 6885004,
+  "exitCode": 124,
+  "status": "timeout_unknown",
+  "timeoutLocation": "after complete original-nine generation; before first reported P1/mean projection, while eagerly forming all nine polynomials in both projection directions",
+  "stdoutBytes": 4752,
+  "stdoutSha256": "9a960f9fbbefd833ef3fff786b1697622d2c3483e65af4ecbb8a0489d2dbbdd6",
+  "driverStopReason": null,
+  "sourceAlarmSeconds": 600,
+  "claimExcluded": false,
+  "claimS0LayerEmpty": false,
+  "claimLambdaLayerEmpty": false,
+  "ordinaryISPClaim": false,
+  "nextInputChange": "Keep complete original rational equations; clear only necessary mean/P1 polynomials lazily; use the universal line/two-conic Chow identity without dividing a line coefficient."
+}

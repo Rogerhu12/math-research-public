@@ -39,14 +39,7 @@ rank$H=4$ 的非单位局部块长度5、4、3已排；长度2单零的三种单
 
 ### 1.2 原权十一及更高幂
 
-[权11–14严格门](results/R150-appendix-original-koszul-two-cycles-and-weight-eleven-through-fourteen-rank-ceilings.md)为
-$$
-\dim_E\Gamma_{11,12,13,14}\le
-36782,\ 90012,\ 203542,\ 430212.
-$$
-权12起保第三 Koszul 边界；不能把形式二关系全当独立。原 $q_jb^3,b^4,\delta_{14}b^3$ 的完整增广负门分别是 $36783,90013,203543$；[权11门现已完整关闭](results/R150-appendix-complete-weight-eleven-rank-four-quadratic-bell-cube-obstructions-and-weight-fifteen-ceiling.md)：原矩阵 $150646\times37568$ 经40000行固定线性投影，完整增广秩36786、选定子式mod127=45；独立上界夹逼给 $\dim_E\Gamma_{E,11}=36782$，四个 $q_jb^3$ 商类线性独立，原 $\mu_{11}$ 核8912全Koszul。原run44732018666已于2026-11-20 16:03:56 UTC成功结束，本轮仅回收日志，不能再把它列为待算。原最少120/200呈示核维306/786；所有非零规范q组合的原十八来源权至少14。下一q门为权14的 $q_jb^4$；$b^4$（权12）及 $\delta_{14}b^3$（权13）仍开。由新权十一正合另严格推出 $\dim_E\Gamma_{E,15}\le857074$，未来 $b^5$ 增广门857075，尚未运行。
-
-权十已证 $\Gamma_{E,10}=13697$、$\delta_{14}b^2$ 非成员、$\mu_{10}$ 核2171全 Koszul；不再重跑旧矩阵。完整三个 matched Bell 平方在原理想中的非成员不排更高幂或根理想。继续真实自然幂来源，不能只取三个 Bell 的乘积非零而漏掉单个非零方向。
+原权7–11均已完成，勿重算：Γ11=36782、原μ11核8912全Koszul，四个q_jb³商类线性独立；权十Γ10=13697及δ14b²非成员已付。[完整权十一结果](results/R150-appendix-complete-weight-eleven-rank-four-quadratic-bell-cube-obstructions-and-weight-fifteen-ceiling.md)保原run、子式和整数来源。下一为b⁴（权12）、δ14b³（权13）、q_jb⁴（权14）及b⁵（权15）；Γ上界90012/203542/430212/857074，尚未执行这些门。权12起保第三Koszul边界，不把形式关系全当独立；完整Bell平方非成员不排更高幂或根理想。旧全部参数见[本次完整快照](notes/2026-11-26-open-before-two-linear-original-ideal-347c.md)。
 
 ### 1.3 原来源与算子桥
 
@@ -64,11 +57,11 @@ $$
 
 **[一般非零mean的原U值坐标覆盖](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-original-U-value-atlas.md)已付：** 保P0=−U0³、完整三moment/值碰撞、原E0/N0图与N(V)仿射式；t系数准确为bcLS/[2(q−1)]。LS非零图只余(f,q,λ,h,k)，L0与S0全系数退化单独保留；[L0/w1原九式现已全排](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-U-value-L0-w1-exclusion.md)：保两共轭与全部P1首项零纤维的QQ范数gcd64→48→0（0.222536秒/exit0），L0仅续w(w−1)非零的全局f图。旧大展开失败留档；继续剩余原式。
 
-**S0/Af0的已闭例外与剩余曲面：** [完整有限覆盖](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-U-value-S0-finite-parameter-cover.md)的I=H0只余M6；[这整个24维参数族现已排空](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-U-value-S0-M6-exclusion.md)，原P1全局系数单位及E1/EB的24阶QQ结果式乘法身份都已回乘，48真逆，run45808427743/job139869664343、2.914484秒/exit0。[S0/Af0全部值碰撞](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-U-value-S0-collision-exclusion.md)亦全闭。只续I/H非同时零的(λ,z)图；[原P1两图覆盖](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-original-P1-S0-linear-cover.md)现完整付L_f=L_t=0边界，每原解能合法解f或t。[整个S0/P1双系数零支](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-P1-zero-coefficients-exclusion.md)现由M4八维QQ代数全排（45真逆，原E1/EB单位，0.070704秒），覆盖已扩至Af非零部分。M6/碰撞勿重做；Af非零及一般LS图继续；后者原权重13式已生成但mod门达4GiB界未决，不作空性。
+**S0/Af0的已闭例外与剩余曲面：** [完整有限覆盖](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-U-value-S0-finite-parameter-cover.md)的I=H0只余M6；[这整个24维参数族现已排空](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-U-value-S0-M6-exclusion.md)，原P1全局系数单位及E1/EB的24阶QQ结果式乘法身份都已回乘，48真逆，run45808427743/job139869664343、2.914484秒/exit0。[S0/Af0全部值碰撞](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-U-value-S0-collision-exclusion.md)亦全闭。只续I/H非同时零的(λ,z)图；原九式449.412372秒生成、首投影前600秒超时，改用仅所需mean/P1和完整Chow式。[原P1两图覆盖](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-original-P1-S0-linear-cover.md)现完整付L_f=L_t=0边界，每原解能合法解f或t。[整个S0/P1双系数零支](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-P1-zero-coefficients-exclusion.md)现由M4八维QQ代数全排（45真逆，原E1/EB单位，0.070704秒），覆盖已扩至Af非零部分。M6/碰撞勿重做；Af非零及一般LS图继续；后者原权重13式已生成但mod门达4GiB界未决，不作空性。
 
 **[rankH3二重加单点的非零Hp整层ess≤5](results/R150-appendix-rank-three-double-plus-single-second-cumulant-nonzero-hp-essential-six-exclusion.md)：** 原节点/J及At/τ/γ全部零面保留，QQ93/126与两个异常谱六真逆已付，0.011089秒/exit0。勿重做，仅续Hp0四源有限层。
 
-**2+1型H、Hp0九次Gram仅余四源全有限的ess6层：** 全部H/V∞支已闭，来源与真逆保结果索引/归档。[完整重建](results/R150-appendix-rank-three-double-plus-single-zero-hp-finite-source-rational-reconstruction.md)保原12式及11/16全系数；[同Π上的低次原理想相等](results/R150-appendix-rank-three-double-plus-single-zero-hp-lowered-original-ideal-equivalence.md)已将d八次喷射换为二次，A/T为原商环强迫单位。mod1031/e700单位基只供方向，两次真Ke各900秒未决；改用同Π的C/G一次d原输入，继续真实I*C=1。三约化H与ess4/5仍开。
+**2+1型H、Hp0九次Gram仅余四源全有限的ess6层：** 全部H/V∞支已闭，来源与真逆保结果索引/归档。[完整重建](results/R150-appendix-rank-three-double-plus-single-zero-hp-finite-source-rational-reconstruction.md)保原12式及11/16全系数；[同Π上的低次原理想相等](results/R150-appendix-rank-three-double-plus-single-zero-hp-lowered-original-ideal-equivalence.md)已将d八次喷射换为二次，A/T为原商环强迫单位。mod1031/e700单位基只供方向，两次真Ke各900秒未决；[同Π的C/G两条d一次式与原理想相等](results/R150-appendix-rank-three-double-plus-single-zero-hp-two-linear-original-ideal-equivalence.md)现已证明，不除两个新首项，仍保全部零纤维；真实I*C=1继续。三约化H与ess4/5仍开。
 
 ## 2. R271：同一来源的完整物理费用
 

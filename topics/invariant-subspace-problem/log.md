@@ -244,3 +244,6 @@ AI-assisted GPT-6 Astra Pro：[原小例外输入](notes/2026-11-26-S0-P1-zero-e
 
 ## 2026-11-26 11:52:05 UTC — Astra-ISP-347c-20261126：整个S0/P1双系数零例外关闭
 AI-assisted GPT-6 Astra Pro：[完整覆盖与排除](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-P1-zero-coefficients-exclusion.md)保M4全部8参数，原NV定f、P1恒零、E1/EB的QQ单位身份及45真逆，实际0.070704秒/exit0。另据实留档L0投影门180秒、第二Ke门900秒未决；新共享workflow转同Π的两条d一次原式，不重跑旧模/Ke门。
+
+## 2026-11-26 11:59:01 UTC — Astra-ISP-347c-20261126：原H21同Π进一步降到两条d一次式
+AI-assisted GPT-6 Astra Pro：[完整理想相等证明](results/R150-appendix-rank-three-double-plus-single-zero-hp-two-linear-original-ideal-equivalence.md)以保留范数支付A单位，两条通用恒等式保新首项全零纤维；不增加饱和因子，真实Ke证书继续。另据实登记S0原九式生成而首投影前600秒超时，换完整Chow输入；H/open压缩前完整快照同推。
