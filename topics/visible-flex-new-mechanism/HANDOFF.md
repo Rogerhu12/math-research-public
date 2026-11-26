@@ -5,7 +5,7 @@
 
 ## 1. 授权、规则与全部前史
 
-公开本次实际pull且根/题README已读至 **6b65cb005a1e83161e45605ceca80256c1972b79**；相对继承0749a4cc规则空差异。私库本次实际pull且根README已读至 **f7d4488a16beb49a670335f275af43094628e070**；QUEUE认领推送 **09f8b8b54e7cfaabaa635bae5c438c7f1521289a**，本会话进行中。私库本轮再pull、根README空差异且QUEUE仍唯一认领；下一不晚于21:10 UTC。
+公开本次实际pull且根/题README已读至 **a109355d73c4b7557581374ed4f4970153e3d135**；相对继承0749a4cc规则空差异。私库本次实际pull且根README已读至 **f7d4488a16beb49a670335f275af43094628e070**；QUEUE认领推送 **09f8b8b54e7cfaabaa635bae5c438c7f1521289a**，本会话进行中。私库本轮再pull、根README空差异且QUEUE仍唯一认领；下一不晚于21:10 UTC。
 
 [本次压缩前全文](notes/HANDOFF-before-full-position-and-continuous-20261127.md)及所链[初交接](notes/HANDOFF-inherited-20261127-1f4a61a4.md)保全部旧结论、量词、失败、真实输入与完整费用；移档不重做已付门。[四来源/文献复核](notes/2026-11-27-current-four-source-topics-and-literature.md)固定已读版本及可用范围。
 
@@ -37,7 +37,7 @@
 
 [1130q原自然终态](notes/2026-11-27-r606-compact-response-natural-stall.md)run45882634760/job140125470693/source943376ef，新3336.041297306秒、56接受/57Jac，完整At/M目标自然stall。真实iteration277、1130q JSON SHA **d47441a4089148d05fc6dc2e4cd487d074e2e2e9e2ed0b9feea325bfb4357113**、amp1e−5、H.5188922483301639、nextdamping1e−14、pendingnull。实际merit与η均改善；完整1728×512 η **4.378056141084893e−7**，两直接读数同量级，未过2e−9。全部原口/网格/独立448正文响应/完整费用保留。
 
-后继改[R613](results/R613-actual-position-defect-jacobian-and-complete-objective.md)实际S目标N256全奇1…127，保实际1130q；[完整行QR/SVD](notes/2026-11-27-r613-complete-position-row-memory.md)不删原行/奇异方向，不做normal equations。真实新输入已备，尚未登记运行结论。
+后继改[R613](results/R613-actual-position-defect-jacobian-and-complete-objective.md)实际S目标N256全奇1…127，保实际1130q；[完整行QR/SVD](notes/2026-11-27-r613-complete-position-row-memory.md)不删原行/奇异方向，不做normal equations。[实际277后继源](notes/2026-11-27-r613-full-position-actual277-implementation.md)22绑定已核；同950×256全121600行、原1728×512及双直接fine，尚待原运行结论。
 
 [R606](results/R606-weighted-fourier-majorants-continuous-turning-and-metric.md)/[R615](results/R615-position-fourier-majorants-and-discrete-primitive-error.md)同一次系数/rho遍历，fine奇至255；当前条件界仍4.55446e−5。径向/ODE/DtN/舍入仍未付。[R617](results/R617-finite-pre-tanh-poles-and-open-cap-rigidity.md)排固定有限pre-tanh＋有限post准确开帽根，实际.22帽E→1已核；不授正误差下界，后继须角带增长/无限响应及固定g。
 
