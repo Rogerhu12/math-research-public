@@ -5,11 +5,11 @@
 ## 目标、规则与执行
 
 - **普通复可分无限维 Hilbert ISP 未完成。** 仅全体有界算子的存在定理或完整反例算完成。
-- **最近实际 pull / 已读规则提交：** `3b0fe32226b1f91ec37ef68a8d53ff865e9d9b26`（2026-11-26 19:15:14 UTC；本地部分克隆）；本次两 README diff 无变化。每次 pull 且至少每小时检查并更新本项。
+- **最近实际 pull / 已读规则提交：** `dddd38c1c6628ad6f448ebbfe2dbee0892559e64`（2026-11-26 19:22:14 UTC；本地部分克隆）；本次两 README diff 无变化。每次 pull 且至少每小时检查并更新本项。
 - 私库 QUEUE 接手已推 `5746fa79a74af4975476d400dfbe0c4e5cb9ae9d`；私库根规则已读至 `ec011a5c25eeb7aed6eea040d601e7351726ede9`。每结论单推，非快进即 pull --rebase 再推；不 force，令牌仅 CLI。
 - 本轮本地终端可用。前会话执行身份及全部原交接保[接手快照](notes/2026-11-27-handoff-at-takeover-8542.md)；旧执行失败不改标成功，已登记结论不重做。
 - 仅保源、参数、SHA、小回执；MD<100KB、H<10KB、open尽量<30KB、topic<200MB，不写根LOG。已读本轮 log；notes 按交接路径与结果索引定点续读。
-- 正在推进：R271 同一 w 的真实终端/稳定范围；R150 S0三值互异Lt0原余式双零；文献与 Deddens 同源插值。完整证明登记后即接下一未闭项。
+- 正在推进：R271 同一 w 的真实终端/稳定范围；R150 S0三值互异Lt0原r1非零一般图；文献与 Deddens 同源插值。完整证明登记后即接下一未闭项。
 
 ## R150：准确已闭范围与母任务
 
@@ -26,7 +26,7 @@
 - L0只续b+c非零补图。p+q2对称三参数九式atlas2.851085秒完成，ρ投影43.769129秒完成；保(1,2)线性λ曲线W、(7,4)曲线G、(7,12)P1双零面及所有余交点。[W整曲线已闭](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-L0-linear-lambda-curve-exclusion.md)：λ有理参数保2w+1强迫单位与A零面，三原QQ w结式51/60/99的gcd51→16→0，扩展gcd实际回乘，0.406508秒/exit0。续G、双零及余交点；G原QQ门仍在运行；P1双零展开门实际115.316614秒触4GiB，无I*C=1，不重跑。新两图用β的原ρ一次系数：其全零纤维独立保留，非零图完整λ投影/原w域返回，仅原已付单位与W。多变量gcd1不作无解。
 - [S0/Af0/L非零整层](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Af0-L-nonzero-complete-exclusion.md)已闭：四QQ投影、八因子20次、原z域全gcd1，109.926880秒；首项λ1/2/J3及旧碰撞已另付。P1双系数零与Lt0小J亦闭，Af两面保留，旧格式化失败不改成功。
 - **[S0/h1或k1整碰撞现闭](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-h1-k1-value-collision-complete-exclusion.md)：** 原λ二次谱4λ²−5λ+2，490.260824秒投影exit2仅五b值；同一d²=−7的全部10参数返回原P1/E1/EB，五原q域全gcd1，55/45/41/41/49真逆，0.156409秒/exit0（run45828523733/job139938856153）。不重跑490秒投影。
-- **[S0整个h=k碰撞已闭](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-equal-values-complete-exclusion.md)**：补齐2λ²=1同λ二次域，三原156次结式/16次覆盖全部返回原q式；P1双零亦付，新源12.271560秒/exit0。旧1270.862秒driver终止仍是未决执行，不改标；勿重跑。**[Lt0/g2=0面已闭](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-theta-leading-zero-exclusion.md)**，全部72维原单位4.738630秒已付。只续三值互异的g2非零，先付原θ伪余式R0=R1=0例外。
+- **[S0整个h=k碰撞已闭](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-equal-values-complete-exclusion.md)**：补齐2λ²=1同λ二次域，三原156次结式/16次覆盖全部返回原q式；P1双零亦付，新源12.271560秒/exit0。旧1270.862秒driver终止仍是未决执行，不改标；勿重跑。**[Lt0/g2=0面已闭](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-theta-leading-zero-exclusion.md)**，全部72维原单位4.738630秒已付。**[g2非零的θ余式双零例外已闭](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-theta-remainder-zero-exclusion.md)**：82次覆盖全返，末172维原E1/EB单位，26.732127秒/exit0。仅续三值互异r1非零一般图，合法θ=−r0/r1。
 - 一般LS非零的两线性Cramer四参数atlas已实际生成，原Δ0全部保留；仍未判空。旧mod1031内存和600秒失败不重跑。
 
 ### rankH3原ess6
