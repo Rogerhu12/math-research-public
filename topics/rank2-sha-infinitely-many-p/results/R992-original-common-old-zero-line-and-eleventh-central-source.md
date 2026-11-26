@@ -559,6 +559,100 @@ $D_T=1-P_2(T)^{65}(D R_\pi(T))^{10}$。
 
 后继实际比较可直接使用唯一指定方向(41)、第十一真行(31)和非零值(25)，无需新增素数扫描或将 old primitive 改成秩二曲线。本篇尚未证明固定曲线、无穷素数的 Sha 主目标。
 
+## 9. 独立公开全回执及两条真正消核残差
+
+2026-11-26 22:50:12–22:50:23 UTC，source
+`5ce57788fdf943376c908f815e42756f859dc0c7` 的
+[run45907263972](https://github.com/Rogerhu12/math-research-public/actions/runs/45907263972)、
+job `140206875320` 已真实 `success`。整个 direct22 数学约7.396秒，
+新增本篇 consumer 约0.0547秒。原 R987/R993 的全部48完整纤维、
+22列和两extra、conjugate inverse/交换/十二次幂、原66限制哈希、
+完整good13双列、两质量代数及所有既有边界接受门均保持。
+
+新增 consumer 从相同完整算子重新取两个原 primitive 一维投影，
+并从完整 raw $P_{0,\pi},P_{0,\bar\pi}$ 构造 $\mathcal X$。
+其完整有理系数、原角因子、(23)/(24) whole 身份、两核全部质量和
+四列行列式均返回。$\mathcal X$ 的完整向量哈希为
+`4ae3a846a90365a6f1bb1baf0fe4e66f254311938d9f20ab994d3200386fbb32`。
+特别 $G_{65}=\Phi_{260}-\Phi_*$、
+$G_{\mathcal X}=\mathcal X-\Phi_*$、$G_{\rm old}$ 的首项阶数全部
+**准确为12**，不只是先前的至少12。
+
+两条真零差的零阶边界解现在有完整的绝对常数：
+
+$$
+c_\pi=\frac{1612800+403200\delta}{19},\qquad
+ d_\pi=-90720(1+\delta)=181440\omega^2,
+\quad c_{\bar\pi}=-\bar c_\pi,\quad
+ d_{\bar\pi}=-\bar d_\pi=-181440\omega.
+\tag{44}
+$$
+
+定义整个原来源
+
+$$
+\mathcal H_\pi=G_{\rm old}-c_\pi G_{65}-d_\pi G_{\mathcal X},
+\qquad
+\mathcal H_{\bar\pi}=G_{\rm old}-c_{\bar\pi}G_{65}
+-d_{\bar\pi}G_{\mathcal X}.
+\tag{45}
+$$
+
+这两个 whole 函数都准确从 $z^{12}$ 开始。设
+$\mathcal H_\pi=\sigma^{130}x^2 P_{\mathcal H,\pi}(X)$，则全多项式
+回乘认证给
+
+$$
+R_\pi\mid P_{\mathcal H,\pi},\qquad
+R_\pi^2\nmid P_{\mathcal H,\pi},\qquad
+\bar R_\pi\nmid P_{\mathcal H,\pi}.
+\tag{46}
+$$
+
+共轭核的三个断言按 anti-conjugation 全部返回；不是单根采样。
+更具体地，完整首商在 $K[X]/R_\pi$ 中为 $q_0+q_1X$，其中
+
+$$
+q_0=
+\frac{124589723356403328249558420657537024
+-323083996221046420980314156361056256\delta}{1192221823},
+$$
+
+$$
+q_1=
+\frac{1025720826172385737005513142670721024
+-541479769999693375785574112333660160\delta}{1192221823}.
+\tag{47}
+$$
+
+该余式非零给准确的一阶；另一个核的完整余式也非零。
+全 $P_{\mathcal H,\pi}$ 由(45)和原已固定完整来源唯一指定，
+不在仓库保存其可重算系数数组。两个完整向量哈希为
+
+- $\pi$：`b0d610c4713f4a0ae7b56061a1cd29b504defcaede3f0e3bffc5224b4aea9d49`；
+- $\bar\pi$：`9b571fde92e85e340a66c9798c6daf72d9c179d22fc0c61f1c6107a03619b0d8`。
+
+这里的一阶是特征零的准确结论。要同时在模 $p$ 保一阶，可固定
+清除(47)分母并排除
+$N_{K/\mathbf Q}\operatorname{Res}(R_\pi,q_0+q_1X)$ 的非零整数分子
+所含素数；该 resultant 非零因为原二次核代数是域。
+没有在未分解这个固定整数时，擅自声称其全部素因子小于211。
+
+在两 canonical 中央失败的假设下，(45)的两个导数仍与
+$G_{\rm old}$ 的明确非零导数相同。它们虽然杀掉各自的零阶核质量，
+却没有杀掉整个原 $P_2^{65}$ / Miller 高 jet / 移动 $Z$ 零点读取。
+因此(46)提供的是带准确首商的完整新 forcing 输入，
+而非从局部零直接宣布中央矛盾。
+
+本次源码及输出摘要：
+
+- entry 6466 bytes，SHA-256 `e8f068b33c81cc7ea9856e4fe407ce3f267af8ce76e341e1c922e0790ef8bdaa`；
+- 新 consumer 15567 bytes，SHA-256 `220a18e1b483a7981da1621614ecddf902e3184f220053814a6c1e749f6d26ae`；
+- 七份完整数学源码 manifest：`44361a2bda1d492e02d2aecb51497076d771b506b9d6931ccbd686539d25fcaf`；
+- 九份含 request/workflow manifest：`67fa1cef0890f8ae65636cd0df2a2ae80fe08ef57e1ced4d46e5af9064c9c121`；
+- stdout 16730 bytes，SHA-256 `91636d1016ee94422abb30bdced465501081d89819d923909607c4ab3dbda049`；
+- 完整 job log 49369 bytes，SHA-256 `72b3d62a0e18e490e7f8f814cea1eecdb6966e6bdf3e3769ac9c3e962a7ed8b1`。
+
 ## 依赖与真实回执
 
 - R968：whole even degree10 scalar 与原普通射线。
@@ -568,4 +662,4 @@ $D_T=1-P_2(T)^{65}(D R_\pi(T))^{10}$。
 - R989：同一六位输入和整个无限尾；(27)逐项核新来源的适用条件。
 - R993：source `4d1a123b11a4161bdd4e4592eb145ff163d65a38`、run `45903334519`、job `140194103108` 的实际两核规约；两个原矩阵哈希和所有旧门都保留。式(36)–(43)消费其准确 $\rho,\beta$、old 迹及首除商。
 
-以上新来源、whole 身份、中央零及行列式均由所显示公式证明，不需新增数学执行。(32)手写矩阵的 serialization 与原回执哈希比对只是静态文本核对。仓库不新增生成系数或矩阵文件。
+§1–8新来源、whole 身份、中央零及行列式均由所显示公式证明，不需新增数学执行。(32)手写矩阵的 serialization 与原回执哈希比对只是静态文本核对。仓库不新增生成系数或矩阵文件。
