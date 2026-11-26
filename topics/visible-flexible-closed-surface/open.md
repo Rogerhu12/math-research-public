@@ -20,7 +20,7 @@
 
 [R242](results/R242-inverse-area-fourth-power-quantitative-coercivity.md)已付高次倒面积准确连续成本的定量正下界、q=1临界幂及q=2完整固定g J/JT。可据此另立更强面积目标，但原.00134450有限训练成本不是连续B2，[q2完整实现](notes/2026-11-26-6a65-geometry-area-power-two-implementation.md)147非零列/17248行有限核实际0，全残差FD1.84e−10、伴随7.21e−16；不是5292列研究场，研究接受0。新目标仍须自己的研究态baseline/完整FD/试步，原13行保留，不冒当前q1同模型续算。
 
-[R244](results/R244-complete-radial-normal-preconditioning-spectrum.md)已证明完整物理H+ηS的保原LM谱界，并实际完成新91非零列全交叉H/增广/伴随核。接下来可在真实新入口消费完整径向带，双网格/面积行需自己的实际接线；不能将正λ谱界借给原M12无正则问题，亦不能把小核4次LSMR当大模型速度或接受。
+[R244](results/R244-complete-radial-normal-preconditioning-spectrum.md)已证明完整物理H+ηS的保原LM谱界，并实际完成新91非零列全交叉H/增广/伴随核。[双网格/q2完整H接线](notes/2026-11-26-6a65-solver-two-grid-area-full-normal-actual-check.md)126非零列/10836行实际核0，原完整H/增广/伴随及同λS方向均通过；[5292列独立入口](notes/2026-11-26-6a65-solver-q2-full-normal-entry-contract.md)已发布，新的实际生产基线与步尚待执行；不能将正λ谱界借给原M12无正则问题，亦不能把小核4次LSMR当大模型速度或接受。
 
 保持第2节强目标和第6节五项完整任务：全域全时度量、全部接缝/帽、非局部reach和含反射幅度、同g真实加密、完整网格。子问题做完继续，不以阶段证明或实际失败收尾。
 
