@@ -101,3 +101,5 @@ root完整展开CR16为CP1，保ξ的二次与q的三次全部11系数。相同�
 2026-11-26 09:30:10 UTC：TM actual45791979634/1完整科学与execution已核，science8300B/a74d11052da41570a7588d5a79545cfb7295ccf437b3bae971390d59f2b99de6，exec8971B/af0b8f547c4e4215bbfcd42f7e0546391ec247765c3a94c9634c3950acd5fe34。11当前pins与原manifest逐一相同，5stage/21scalar/3exactfraction/24readbacks，12mean/root/density门true。唯一根限定同[-rho,rho]，sameφ1e−4独立充分门false保原wholeball；没有实际距离下界，不改旧forward unknown。mean目标成功锁定，即接CS五源与局部physical角，不等用户。
 
 2026-11-26 09:34:49 UTC：16份未压缩旧open历史副本已整读并双核原bytes/blob/SHA，固定完整原件保4cbb75b8bffb23cb392d50337b22fb8d1b894d1f同路径；16新入口完整读回，原441537B→12912B，净释放428625B。root于8f825b5063ee3cfa726cf8c06b392ff46e697858再次逐件核current原blob未变；R142/fixedη0/TM/C0/RW全manifest及PN/CXN whole owner/generator路径无交。仅历史恢复索引，不修改科学/native/active pins。另TM actual由geometry独立整核，全部21球/13门/24readbacks/11pins一致，mean结论已锁。
+
+2026-11-26 09:36:48 UTC：完整核原B final0553a2a1…、C0nu5eff0838…及movingGeometry8d9057e1…；几何ε明确定义C0(r,φ)，physical指真实幅度完整mean而非固定θ。同步更正TM actual后继措辞：优先compact χw的同φ新界，sameθ P/F商界仅作其实际端口用途；不重原几何科学、不更改TM已成门。

@@ -10,7 +10,7 @@
 
 独立的同材料角 $10^{-4}$ 距离充分门为 **false**，并完整保留。
 它不推翻已通过的均值结论，也没有证明真实距离违反阈值。
-物理角距离、非均值方程和完整闭曲面仍须继续完成。
+完整moving状态距离、非均值方程和完整闭曲面仍须继续完成。
 
 ## 1. 同一完整实际运行
 
@@ -124,8 +124,15 @@ $$
 实际门 `same_phi_moving_C0_sufficient_1e4` 为false。
 这是TM.11的全域粗接收量，不能把这一个上界超阈值说成真实距离
 有一个超阈值的下界。它也不包含真实physical-angle composition。
-后继需保留紧支撑 $\chi$ 的实际位置及原有限Fourier量的相关性，
-另付真物理角变化；本次已成均值目标保持锁定，不重新选择半径重跑。
+后继需保留紧支撑 $\chi$ 的实际位置及原有限Fourier量的相关性。
+原[最终几何 B.1](R133-supplement-final-geometry-from-complete-C0-ball.md)
+所需的完整物理moving状态范数，按其前件
+[C.1](R133-supplement-complete-C0-state-and-nu-geometry-response.md)，
+准确为未除振幅的 $C^0_{r,\phi}$，保全部mean。
+因此直接界定 $b\sup j_\xi+\rho\sup\chi|v-m|$ 即是这个状态门的合法入口；
+本构造的same-$\phi$ 第一分量差准确为零。
+固定physical-$\theta$ 的复合是另一个量，只在需要该坐标的实际端口中另付。
+本次已成均值目标保持锁定，不重新选择半径重跑。
 
 ## 5. 关闭与剩余义务
 
@@ -137,7 +144,7 @@ uniform负mean/正 $Y$、正材料密度及waist/outer两个mean值匹配。
 
 [CS](R144-supplement-compact-centre-ordinary-and-divergence-residual.md)
 的完整ordinary/divergence源现在已有真实 $\rho,b$ 输入。
-两非均值方程、原nonmean jumps、physical-angle距离、selected设计相位、
+两非均值方程、原nonmean jumps、完整moving距离、必要物理端口角复合、selected设计相位、
 完整finite/high/mean/nu逆、径向帽jet、height、holonomy与位置周期
 仍须各自实际完成。尤其outer mean回到raw值不等于全部outer物理行已解。
 本证书没有构造全Codazzi解，也没有宣称最终固定度量闭嵌入族已经完成。
