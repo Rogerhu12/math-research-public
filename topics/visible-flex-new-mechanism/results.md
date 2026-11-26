@@ -278,3 +278,5 @@
 - [513续接B030真实终态](notes/2026-11-26-theta-513-b030-original-terminal-receipt.md)：**完整原观察**。886.355842152新秒，保留η.275005027706/V0，actual443径向/1012峰、pending450/1021。trial η.2708967因733候选超过512未定位被拒，保留q终445候选完成；0自然OptimizeResult。下一全候选分批定位，不冒连续门。
 
 - [513续接B038真实终态](notes/2026-11-26-theta-513-b038-original-terminal-receipt.md)：**完整原观察**。568.432517953新秒，保留细η.51945917/V0，最终518候选未定位，明确未合格；最后backend464/502与已构造actual470/508分开。更好trial因V.0161被拒，后继首先完成全部候选，不借旧500候选接受覆盖新网。
+
+- [R576首轮有限高度实现](notes/2026-11-26-r576-finite-height-implementation.md)：明确新公开输入，原t^1.1 onset改为C∞并重射H；四个准确尾基、完整core校正和52变量非线性高度，唯一turning根设计E。复步隐式Jacobian与一次同run方向核，实际位置三行metric/两步长曲率及外向速度单独读；尚无有限解/冻结g或连续reach。

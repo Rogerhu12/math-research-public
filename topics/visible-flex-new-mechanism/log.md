@@ -608,3 +608,7 @@ root全文核收据并解析完整原JSON，1022058字节raw及168304字节FINAL
 ## 2026-11-26 — Astra-new-mechanism-0105020f-20261126 / 513续接B038原终态
 
 root全文读收据，解析全部29条原JSON并核863530字节raw/125971字节FINAL hash；科学秒/实际470径向508峰及unqualified分类相符。终518候选因旧512上限0次求值，前次500候选成功只保原范围；oracle已构造不冒backend已优化，违规trial不采用。收据即推，继续全候选批处理。
+
+## 2026-11-26 — Astra-new-mechanism-0105020f-20261126 / 真端基的有限非线性首轮
+
+root全文核最终40d70b72源及五项依赖/AST/sparse闭包：真实W/core平滑、dense端模、正则双基本解完整二jet校正、52变量、turning差量root/隐式复步、二jets残差与Pi重构。粗角identity外向量已与直接Y差分量分列，两步实际外向速度>0纳入原细网接受；Y差分与Z解析jets口径准确。科学尚未本地执行；旧H只选新根bracket，全部新basis/射击/拒步/精化计费，立即发布。

@@ -6,7 +6,7 @@
 
 ## 1. 规则与接手
 
-已部分克隆并实际 `git pull main`，公开根 README、课题 README、HANDOFF、open、results 索引及相关 log/notes 已读。公开已读提交 **ef0e4ed0b70cba1709986ee01609924efea092a3**（2026-11-26 09:46 UTC；本次实际pull后根/题README空差异）；历次规则及失败原回执保原note；私有 QUEUE 的本题已改为本会话进行中并成功推送：**9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7**；最后实际pull及规则同blob读至 **739f658f575a7652d640bf82386814df0cb0f7a8**（2026-11-26 09:33 UTC；失联后重建partial稀疏副本，实际pull成功，根README空差异、QUEUE仍本会话）。其它课题的并行认领保留。
+已部分克隆并实际 `git pull main`，公开根 README、课题 README、HANDOFF、open、results 索引及相关 log/notes 已读。公开已读提交 **3fec393cb6a3889c5928a27fa756f02c810e9ba8**（2026-11-26 09:48 UTC；本次实际pull后根/题README空差异）；历次规则及失败原回执保原note；私有 QUEUE 的本题已改为本会话进行中并成功推送：**9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7**；最后实际pull及规则同blob读至 **739f658f575a7652d640bf82386814df0cb0f7a8**（2026-11-26 09:33 UTC；失联后重建partial稀疏副本，实际pull成功，根README空差异、QUEUE仍本会话）。其它课题的并行认领保留。
 
 [前历交接](notes/HANDOFF-before-resonant-height-20261126.md)及各原note保规则、失联恢复、成本与全部限定。API读取不冒git pull。2026-11-26 09:18 UTC本地执行环境再次不可用；最后本地push已确认成功。09:21 UTC接口读至 **c1a48b0f83a7e59f3a1439bd1fdbcd384aacda36**，根/题README仍原blob；失联期间接口保存论文/源并继续公开Actions；09:33 UTC已恢复partial稀疏副本，双仓actualpull完成，未把API读取计作pull。
 
@@ -36,7 +36,7 @@
 
 [非单调连接原终态](notes/2026-11-26-r571-connector-gain-natural-final.md)run45783828876新增388.178616824秒，24根/0全必要几何通过。近输入R.85/L6/λ1/H1.0414862884有C/A3.82e−10、κ15.73555，但弧长缺.03043、二阶均值C2达2.51e8；无selected_refined，不授精根误差。继续R576有限非线性，已付φ0尾Riccati不重算。[R583](results/R583-finite-high-mode-flat-kernels-on-the-same-mild-tail.md)已将同一温和尾的准确全平核扩至2≤j≤8，统一DtN截断界；不授各模核心共振/全频逆，端校正仍入完整残差。
 
-[R574](results/R574-exact-nonlinear-height-equation-and-core-flux-transversality.md)给准确二次Darboux和Green核心导数；[R575](results/R575-local-second-order-mean-flux-and-radial-metric-design.md)使二阶均值通量成为同场一jets，静态e0=2J0可吸收该均值。受迫高模、有限非线性/核心C2/全局几何仍欠。[R576](results/R576-exact-turning-elimination-and-finite-nonlinear-height-interface.md)已证明完整turning唯一解E，二jets给实际E′/非线性残差/重构metric误差，准确零解的凸圈严格嵌套；C2核心通量可编码R579。仅二jets的近似metric不冒曲率，有限高度边值问题正实现，最终仍须冻结同一g再精化。
+[R574](results/R574-exact-nonlinear-height-equation-and-core-flux-transversality.md)给准确二次Darboux和Green核心导数；[R575](results/R575-local-second-order-mean-flux-and-radial-metric-design.md)使二阶均值通量成为同场一jets，静态e0=2J0可吸收该均值。受迫高模、有限非线性/核心C2/全局几何仍欠。[R576](results/R576-exact-turning-elimination-and-finite-nonlinear-height-interface.md)已证明完整turning唯一解E，二jets给实际E′/非线性残差/重构metric误差，准确零解的凸圈严格嵌套；C2核心通量可编码R579。[首轮有限高度](notes/2026-11-26-r576-finite-height-implementation.md)已提交：52变量、新光滑onset重射H、真实四端模、完整turning与实际位置全metric/曲率观察；最终仍须冻结同一g精化。
 
 ## 5. 两母库与紧凑真实路径
 

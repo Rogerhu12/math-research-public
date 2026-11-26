@@ -187,7 +187,7 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 
 ### R576：完整有限高度方程与真实位置误差
 
-[R576](results/R576-exact-turning-elimination-and-finite-nonlinear-height-interface.md)对even/π周期Z、b>0/N>0，严格证明turning平均N/√(E−V)=1唯一决定E；E′和残差的三阶相消均付，准确位置重构的metric缺陷由两次角原函数读出。准确残差零时每圈凸且支撑随r严格增，得到上盘全局嵌入；内平盘与外退化C2核心条件分别给，Pc(R,θ)可精确编码R579常速核心。下一真正解非零角全部残差和正性/端条件，用准确尾基、可生成高模的有限非线性表示；设计E变化非同g精化，近似解曲率仍需高jets/位置导数，全闭reach仍欠。
+[R576](results/R576-exact-turning-elimination-and-finite-nonlinear-height-interface.md)对even/π周期Z、b>0/N>0，严格证明turning平均N/√(E−V)=1唯一决定E；E′和残差的三阶相消均付，准确位置重构的metric缺陷由两次角原函数读出。准确残差零时每圈凸且支撑随r严格增，得到上盘全局嵌入；内平盘与外退化C2核心条件分别给，Pc(R,θ)可精确编码R579常速核心。下一真正解非零角全部残差和正性/端条件，用准确尾基、可生成高模的有限非线性表示；设计E变化非同g精化，近似解曲率仍需高jets/位置导数，全闭reach仍欠。 [首轮实现](notes/2026-11-26-r576-finite-height-implementation.md)已发布，固定光滑core onset重射H、j2/4/6/8真端模与全残差校正、52变量tanh高度、完整turning及同q主动升网；实际Y差分加解析高度jets重算三行metric和两步长κ/外向速度。首幅1e−5递增至.2，任何未过细网不当有限解，精确无限尾仍未数值全覆盖。
 
 ### R580：当前有限末段的准确线性缺口与换基
 

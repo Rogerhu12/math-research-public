@@ -1,0 +1,120 @@
+{
+  "schema": "r576-true-flat-seeded-finite-height-turning-20261126-v1",
+  "repository": "Rogerhu12/math-research-public",
+  "queue_session": "Astra-new-mechanism-0105020f-20261126",
+  "public_rules_read_commit": "907b15b2ae037147f369df8030dbc0e6bf85606e",
+  "private_rules_read_commit": "739f658f575a7652d640bf82386814df0cb0f7a8",
+  "expected_readme_blobs": {
+    "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+    "topics/visible-flex-new-mechanism/README.md": "d0432faff569c8e9af7ed4809847e12880976c11"
+  },
+  "expected_private_readme_blobs": {
+    "README.md": "5ba164843b1f5802184178a82d786264404873a3"
+  },
+  "entry_point": "topics/visible-flex-new-mechanism/scripts/r576_finite_height_turning_20261126.py",
+  "workflow": ".github/workflows/visible-r576-finite-height-20261126.yml",
+  "runtime": {
+    "python": "3.12.14",
+    "packages": {
+      "numpy": "2.3.5",
+      "scipy": "1.17.0"
+    },
+    "checkout_action": "11d5960a326750d5838078e36cf38b85af677262",
+    "setup_python_action": "a26af69be951a213d495a4c3e4e4022e16d87065"
+  },
+  "common_parameters": {
+    "maximum_seconds": 2400,
+    "M": 25,
+    "rtol": 2e-11,
+    "atol": 2e-13,
+    "iterations": 30,
+    "theta_nodes": 64,
+    "target_eta": 2e-09,
+    "height_saturation": 0.15,
+    "core_scale": 0.5,
+    "initial_gain_height": 0.523503932624032
+  },
+  "lanes": {
+    "r576-finite-height": {}
+  },
+  "scope": {
+    "reference_gain_run": 45783828876,
+    "reference_gain_job": 139785506466,
+    "reference_gain_raw_log_sha256": "d3f6bf3847aacdb6a5382860cb2ea1b91bdfbc820a7598680e9d15c076a59198",
+    "reference_profile": {
+      "R": 0.85,
+      "L": 6,
+      "lambda": 0.5,
+      "H": 0.523503932624032
+    },
+    "new_smooth_onset": "old t^1.1 core term multiplied by fixed C-infinity step S(t/.1); modified only .55<r<.58",
+    "old_H_is_a_reference_not_the_new_resonance": true,
+    "new_shooting": {
+      "variable": "compact gain height H",
+      "range": [
+        0.02,
+        4
+      ],
+      "log_nodes": 33,
+      "root_selection": "sign bracket nearest reference H; actual new Ccore/hypot(Acore,Ccore)"
+    },
+    "exact_tail_definition": "R571/R583 infinite DtN flat germs for j=2,4,6,8",
+    "numerical_seed_regeneration_purpose": "new dense continuous spatial basis; old receipt did not preserve dense tables or inner slopes",
+    "seed_first_peak": 17,
+    "finite_terminal": "rho_(M+1)=0",
+    "below_first_peak_radius": "not frozen; exact germ remains defined, current numerical window omitted and uncertified",
+    "core_trace_correction": "complete C-infinity jet blend on [.55,.65] from actual raw/Acore to the regular (A,C)=(1,0) fundamental; all correction residual retained",
+    "modes": [
+      2,
+      4,
+      6,
+      8
+    ],
+    "radial_degree": 5,
+    "radial_internal_knots": [
+      0.235,
+      0.27,
+      0.34,
+      0.48,
+      0.64,
+      0.78
+    ],
+    "radial_basis_count": 12,
+    "unknown_count": 52,
+    "height": "mean-zero .15*tanh(v/.15), generally infinite angular spectrum",
+    "amplitudes": [
+      1e-05,
+      3e-05,
+      0.0001,
+      0.0003,
+      0.001,
+      0.003,
+      0.01,
+      0.03,
+      0.1,
+      0.2
+    ],
+    "metric_design": "unique per-circle turning root; stable e=E-W^2 and two-jet E derivative",
+    "residual": "actual R576 Wstar/sqrt(E), not only linear coefficients",
+    "jacobian": "full implicit-root complex-step; one same-run central-direction comparison",
+    "actual_position_check": "differentiate reconstructed Y itself, two radial steps and angular trigonometric derivatives; recompute all E/F/G and principal curvatures",
+    "same_q_grid_exchange": "start density1; if fine check fails promote density2; density4 validation; unresolved fine or direct metric is not passed",
+    "direct_metric_observation_tolerance": 1.6e-08,
+    "fixed_metric_refinement_claim": false,
+    "complete_finite_isometric_family_claim": false,
+    "continuous_reach_claim": false,
+    "scientific_execution": "this public Actions workflow only",
+    "maximum_parallel_jobs": 1,
+    "job_timeout_minutes": 45,
+    "original_stdout_only": true,
+    "raw_arrays_tables_artifacts_releases_or_git_writes": false,
+    "direct_position_outward_check": "strictly positive -Yr_direct dot JT / u at both actual radial difference steps; identity guard is separately named"
+  },
+  "source_sha256": {
+    "topics/visible-flex-new-mechanism/scripts/r576_finite_height_turning_20261126.py": "40d70b729664a8d59dc653ce30315ea356ce09c461bd4d108fc0a78d05517ad9",
+    "topics/visible-flex-new-mechanism/scripts/r571_milder_seed_outer_jets_20261126.py": "ede50d8c4d362d77f9618b3481233d32e5ecc73842af7d84dddd8c78bb518970",
+    "topics/visible-flex-new-mechanism/scripts/r571_nonmonotone_connector_gain_20261126.py": "81407b0e9a262d65d3037ccffa191ecdc501087911e3daf75edf0fe03cda8deb",
+    "topics/visible-flex-new-mechanism/scripts/run_inverse_rotational_metric_20261126.py": "a97334fb7004ce750c0c949469be2db21ca7a187e53b48032dba2f330cf5e8ae",
+    ".github/workflows/visible-r576-finite-height-20261126.yml": "3a558a0d761babb2cd6fc10d57b0a22b0db531a6745ffbc00a55b52aaefd5fb1"
+  }
+}
