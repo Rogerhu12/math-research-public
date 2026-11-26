@@ -6,10 +6,10 @@
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。固定有限曲线族的联合无穷非零可用无限鸽巢；有限p、随p换曲线、条件桥、非零投影或接口均不完成。
 
-- 两仓库已部分克隆。公开根/课题 README 已读至 `8415b02e03bedab6232dc0665d468f2b3667a51a`（差异空）；每次pull只读两文件新差异，至少每小时同步并记SHA。
+- 两仓库已部分克隆。公开根/课题 README 已读至 `59f43d908636fbb784e8dd244eae2337b1fa8e2b`（差异空）；每次pull只读两文件新差异，至少每小时同步并记SHA。
 - 私库QUEUE接手已推41fe885610073f478b2f5a752461ca56cfd43f09；本次22:49 UTC pull至92b9fa94b75627acf634cd097e34e78360c9e2de，README差异空、QUEUE仍本会话进行中。目录math-research-public、math-research-private；令牌仅进程认证。
 - root独占git/H/open/log/index；每条结论完成即推，非快进立即pull --rebase、检查README再推至成功，不强推。数学只用公开Actions；不存可重算矩阵/数据/log。H<10KB，每MD<100KB。
-- [此次逐字归档](notes/2026-11-27-handoff-before-new-zero-normalization.md)及历史链保全部旧状态；[open](open.md)、[results](results.md)、[R951–1000索引](notes/PROOF-INDEX-R951-R1000.md)保全部未解门，未默删。
+- [此次逐字归档](notes/2026-11-27-handoff-before-explicit-coleman-and-cartier.md)及历史链保全部旧状态；[open](open.md)、[results](results.md)、[R951–1000索引](notes/PROOF-INDEX-R951-R1000.md)保全部未解门，未默删。
 
 ## 一、原唯一几何作业与实际中央回执
 
@@ -17,9 +17,7 @@
 
 旧失败/修复见[终点链](notes/2026-11-27-artinian-v7-final-and-successor.md)：R974原omega/双向坐标与厚Norm已实接v8。R975/R986及root[完整零纤维适配](notes/2026-11-27-original-zero-fiber-frobenius-preparation.md)均未运行/未接v8；当前306 Frobenius已过，不另启重型作业。
 
-**中央真实回执**：v8 run45892525657/sourcec3fc3c60605f4455fc57177367c89e56a9763f6a全20源/18AST/旧门PASS，R982十行与R983三α全部返。R987 direct22 run45898016632/source05bed6026bd3b75f7f77b1927f55f72e4ed689cb全48纤维/22列/66限制hash/两good13质量代数PASS。R993同入口run45903334519/job140194103108/source4d1a123b11a4161bdd4e4592eb145ff163d65a38于22:13:07–20UTC全PASS，8.852秒；完整常数/hash见各结果及归档。
-
-**新轻公开回执全成功**：source5ce57788fdf943376c908f815e42756f859dc0c7；R992完整Ξ/双核consumer run45907263972/job140206875320，原R987/R993全部门保持，消核残差准确z12/恰1阶/对核非零；cπ=403200(4+δ)/19、dπ=181440ω²与首商见R992§9。R994 run45907264125/job140206875649以M4096/Arb256付三个固定β27复L(1)严格正，完整尾6.00236e−62<2^-180；新Rankin解析阶均1。所有source/stdout/log hash在各结果，未存生成矩阵；唯一重型v8不改。
+**公开轻回执**：R982/983、R987、R993和R992全旧门与新增结论均PASS；最新R992 run45907263972/job140206875320/source5ce57788fdf943376c908f815e42756f859dc0c7给两核残差准确z12/恰1阶/对核非零。同期R994 run45907264125/job140206875649以M4096/Arb256及完整尾<2^-180付三个固定β27复L(1)>0，新Rankin解析阶1。全部旧run/source和完整hash见各结果及逐字归档；不存生成数据。
 
 ## 二、固定算术来源
 
@@ -48,9 +46,7 @@ R909 F/R906 P特征零PASS；R924–927原全模型/两图306/46971乘积/厚cus
 
 R885/897 full finite/wild范数；R891/893/940/945原结论以c1非零为前提。深增广来自H¹(J⊗T)，不是JH¹；H²自由/ordinary/s0均未消。原λ Hodge(3,0)/twist(2,−1)，usual core0/balanced1，不改错号或反CM。
 
-R979：固定7993由三canonical负二非零给整个Selbal=E·zcan、ordinary strict核0，无需原c1非零；逐m正密度Q_m上原双新κ有固定p^B挠界，保全部H²挠连接类。但允许κ0，不限制辅助模数、不推c1/s0/跨p。
-
-R984：原R854三canonical在几何Griff²(W)非零独立；H³(1)/(2)、Picard Kummer及有限res/corestr全付，7993排几何代数平凡。实际−6对应传到指定mixed Griff³(X)，不推其他p AJ非零或原端点同一。
+R979/R984：7993给全Selbal=E·zcan、ordinary strict核0及三canonical的Griff²独立非零；全H²挠连接类/逐m正密度Q_m上κ的p^B界和实际−6对应全保。允许κ0，不推c1/s0/其它p AJ非零。
 
 R988/R990：level12 K3到E0²的严格Chow双逆仍成立，但该新CM17图族在2处实际Artin元给Chow反号，取迹到原H整族为零；全Mackey也排全部平移。不作用旧canonical/原端点。已转E27，原族不重试。[实际I9/I3对应](notes/2026-11-27-congruence-i9-i3-surface-and-correspondence-scope.md)已付F²=[−3]、F*Ω=−δΩ及所有有限Aut商非K3。
 
@@ -60,10 +56,12 @@ R988/R990：level12 K3到E0²的严格Chow双逆仍成立，但该新CM17图族�
 
 **R998**：对这三个新β，Kato14.2(2)/CM§15.23加完整全局/局部Shapiro给Hf¹(K,β(1))=Hf¹(K,βc(1))=0，每p离散Selmer有限且几乎全p零。选e_E+后实际混合线barψ²ψη⁻¹(2)=βc(1)，故原f类的全AJ等于最高AJ；P+转置P−仍保，不造全类非零。
 
+**R997**：原I9/I3图先经π1(E)严格同调零；实际Gauss–Manin及唯一Frobenius规范给D b″+D′b′−6b=−3/v²、AJ图=−degφ·b/cφ。BDP3.14全部条件/全局rigid歧义、full9下降、全部54图/18η/原H trace和P±对偶全付；实际fΩ=−δf27(τ/3)，负二阶含9，depletion循环系数为1,−A_p/p²,1/p²。没有调用不满足cyclic27假设的全球5.13；继续原3型全球比较及指定值非零。
+
 Kato/BKO完整桥及Adachi/新预印本范围已在notes，不重查登记的文献。其余O4/O6/O7、P134/十九角/charge40/10980/WD/TM/TJ门详open与历史索引，全部保留。
 
 ## 五、接续分工
 
-central续R992新真零及原实际Cartier剩余；arithmetic续实际13核Ξ/GΞ完整consumer；geometry续I9/I3严格最高投影及新图循环并跟唯一v8；root续三个固定β27复L值的严格解析界/公开执行并消费推送。不得把来源变换、局部非零或纯表示匹配写成主目标完成。
+central续R1000同charge119五条无条件真零及全位门；arithmetic续R1001完整22列Cartier后实际译像关系；geometry续R1002原3型全球toric/Katz比较并跟唯一v8；root读证、消费公开回执并逐条推送。不得把来源变换、局部非零或纯表示匹配写成主目标完成。
 
 中央入口scripts/check-original-e65-full-cm-sixth-axis.py/ci/e65-full-cm-source-request.json；几何入口scripts/produce-original-triangular-artinian-shadow.py及对应request/workflow。结论完成即推，随后继续下一个未解门。

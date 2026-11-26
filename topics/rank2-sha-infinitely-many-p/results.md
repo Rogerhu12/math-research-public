@@ -129,3 +129,6 @@
 
 
 - [R999](results/R999-original-thirteen-residual-and-double-two-torsion-comparison.md)：两条完整13消核残差的二挠首jet逐式核为单位，指定whole组合B130=120Φ260−11Φ*−108X−F10有分子35^-1Z、(X+1)^2Q2因子及24768z12首项。两canonical失败时其真正中央为−δ(p+1)log(π/barπ)/10080非零。原未平移Z^-7P2^65输入逐点取消所有移动Z零点与O极，只余三个二挠极并付完整帽；第六Cartier保7κ5a+，平移后的所有权/原点和−T不删。
+
+
+- [R997](results/R997-actual-cm-graphs-and-highest-coleman-picard-fuchs-formula.md)：原I9/I3的CM图经π1(E)先严格同调零，实际Gauss–Manin推出唯一Frobenius规范的Db″+D′b′−6b=−3/v²及AJ=−degφ·b/cφ。支付BDP3.14全部条件、局部残数/full9下降、实际宽度3负二阶的9因子、三个depletion图的真实次数与p分母，以及全部54图/原H trace/η和P±对偶。全球cyclic27条件不满足，未跳用BDP5.13；继续指定最高值非零及原3型全球比较。
