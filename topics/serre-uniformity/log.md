@@ -372,3 +372,7 @@
 ### 2026-11-27 02:38 Asia/Taipei — R1053 不相交新区间完整至500000
 - [R1053](results/R1053-original-scalar-disjoint-window-through-500000.md)：公开v2 run45874715945/job140098765505、源7e47699，2506个402593…499979原f/g全非零，895.294秒/1200秒。与R1051不相交前缀合成全部200000<p≤500000、p2/5mod9的7878素数完整新区间；不重开、不外推全称。全部pins/输出hash保结果。
 - 已实际读取公开job成功、CONTRACT、SUMMARY、OUTPUT_RECEIPT与BUDGET_RECEIPT；请求和完成列表同hash e7256110…，whole_requested_interval_completed=true，resume_lower=null。无新零，原z零值分支未触发。raw仅runner，未artifact/Release/入库。此有限窗口已完成，不重开；继续实际C(T_c)、kernel norm与O0。
+
+### 2026-11-27 02:43 Asia/Taipei — R1054 原最低列恒落Q核候选被p47否定
+- [R1054](results/R1054-original-lowest-CM-column-kernel-candidate-counterexample.md)：原p47安全j给K=(1−r)^−1j^−3的K15=23（run45874715945，两构造/全恒等式）；R1052使C_CM(b²)≠0，故实际最低列new投影不在Q核。排“全p恒落核”候选，不代指定DQv值非零，也不反驳另有p>C_*范围的命题。
+- 使用R1052的实际最低functional、R1045插值同构、负测试行T=b²和原D自伴/纯正δ核，把公开K15=23严格运输到原最低列；不是任意shadow反例。完整j/七项块仅stdout，结果只保存必要值23及source/run/hash。c_test不冒actual MW行，Q²不删；该候选停止，继续指定真实值。

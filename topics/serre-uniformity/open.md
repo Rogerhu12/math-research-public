@@ -6,9 +6,11 @@
 
 ## 原最低型：已经付清的输入与准确剩余标量
 
+[R1054](results/R1054-original-lowest-CM-column-kernel-candidate-counterexample.md)：原p47安全j给K=(1−r)^−1j^−3的K15=23（run45874715945，两构造/全恒等式）；R1052使C_CM(b²)≠0，故实际最低列new投影不在Q核。排“全p恒落核”候选，不代指定DQv值非零，也不反驳另有p>C_*范围的命题。
+
 [R1052](results/R1052-original-complete-CM-profile-and-actual-lowest-functional.md)：actual full-node中心赋值直接给全部normal极阶界，E一维像保全部返回；source u_s/ε^p的wholeR/p Dickson比较与全primitive误差均付。原完整行h̄_c=−Σκ₁^kc_kλ₀^−(ℓ−k)[Z^k](T_c/A)(B_CM)w^(ℓ−k)/(2m)。最低C_CM(T)=−3^(ℓ−1)/A1·[r^(ℓ−1)]T((1−r)^(1/3))/((1−r)^(5/3)j³)=2B(c,L_CM)。实际读数2B(v,QD L_CM)保Q²；单位/深盘排根仍开。
 
-[R1050](results/R1050-actual-CM-parameter-short-PD-and-Picard-Fuchs.md)：同一actual BT短PD给Ξ=d u′ modu′^p；Z=Ξ³=−r(q/j)³/3，b=B_CM(Z)=1+Z+5Z²/16+…到Z^ℓ。原κ₁=d³c_Q³保双incidence/∞符号，所有分母与末端精度已付；只给实际target参数，完整节点self-return另证。
+R1050同一actual target的短PD/PF参数Z=−r(q/j)³/3已由R1052全轮廓消费；原κ₁、双incidence和全部安全分母保原证明。
 
 [R1047](results/R1047-original-MW-saturated-profile-and-common-zero-bound.md)：两行原新部的全部实际MW消去格Σ到前n₀=(p−2)/3个CM系数为饱和单射；任一本原行保M1。若r_ann=rankΣ≥1，原单位闭盘的公共零点总重数≤n₀−r_ann+1，故原有理点≤n₀、非中心≤n₀−1。以整Tate除法保全部尾，使用真实全MW消去，不恢复旧秩零商。最低单位/非中心根排除及O0仍开。
 
