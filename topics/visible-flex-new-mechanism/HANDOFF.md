@@ -5,7 +5,7 @@
 
 ## 1. 授权、规则与全部前史
 
-公开本次实际pull且根/题README已读至 **6a052ad543c9f6da5a08da5a17b3acf47aedb069**；相对继承0749a4cc规则空差异。私库本次实际pull且根README已读至 **a7891a83567e479db246d47684f7aefedd1bb328**；QUEUE认领推送 **09f8b8b54e7cfaabaa635bae5c438c7f1521289a**，本会话进行中。私库最近实际pull约19:27 UTC，下一不晚于20:27 UTC。
+公开本次实际pull且根/题README已读至 **b662da83f0e65adb9970b47fc4144ec6528a4627**；相对继承0749a4cc规则空差异。私库本次实际pull且根README已读至 **a7891a83567e479db246d47684f7aefedd1bb328**；QUEUE认领推送 **09f8b8b54e7cfaabaa635bae5c438c7f1521289a**，本会话进行中。私库最近实际pull约19:27 UTC，下一不晚于20:27 UTC。
 
 [本次压缩前全文](notes/HANDOFF-before-physical-epigraph-final-20261127.md)及所链[初交接](notes/HANDOFF-inherited-20261127-1f4a61a4.md)保全部旧结论、量词、失败、真实输入与完整费用；移档不重做已付门。[四来源/文献复核](notes/2026-11-27-current-four-source-topics-and-literature.md)固定已读版本及可用范围。
 
@@ -40,6 +40,8 @@
 [R613](results/R613-actual-position-defect-jacobian-and-complete-objective.md)付实际S完整离解Jac与原D等价；[全奇频QR](notes/2026-11-27-r613-complete-position-row-memory.md)保每原行/全奇异方向、小R完整SVD，无normal equations。实际S driver骨架待原compact真末态，不伪造q。若真实merit/η仍背离，以N256全部奇1…127改目标。
 
 [R606](results/R606-weighted-fourier-majorants-continuous-turning-and-metric.md)/[R615](results/R615-position-fourier-majorants-and-discrete-primitive-error.md)给连续角预算；共享helper单次系数/rho遍历同时读两套界，fine奇频至255。径向系数/ODE/DtN/舍入仍须付；浮点观察不是连续证书。R610及同尾核R596/R600旧结论保前史。
+
+[R617](results/R617-finite-pre-tanh-poles-and-open-cap-rigidity.md)新付固定有限pre-tanh＋有限post的准确开帽刚性：无限复极点→Φ→Dini/Gronwall，实际内帽E→1。无正误差下界，不取消当前有限求解；完成路线必须付角带增长/无限独立响应，不能仅凭tanh无限谱当已逃过刚性。
 
 ## 6. 真函数、宽母与完整两ruling
 

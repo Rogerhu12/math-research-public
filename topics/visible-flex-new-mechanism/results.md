@@ -428,3 +428,5 @@
 - [R615真实位置奇频的连续角证书](results/R615-position-fourier-majorants-and-discrete-primitive-error.md)：**已证明**从同场位置奇频读数、完整Wiener尾、两次有限primitive alias、离散加权均值和连续turning根位移传到实际metric；复位置范数准确使用max(|c_k|,|s_k|)，复用R504原FFT范数。真实径向/ODE/浮点输入仍待支付，配套同场观察未执行且不冒连续认证。
 
 - [R616同一真实候选的严格扩盒函数图](results/R616-same-candidate-expanded-box-function-chart.md)：**已证明**旧接受h/k为新图准确零点入口，值和完整空间二jets同保；有理tanh加法给原物理盒内更宽值域、全程正分母及初始形状方向连续下界，所有中心/末端奇偶germs不变。完整LengthGraph与专用physical adapter待真实后继消费，不授端图/ruling秩或根。
+
+- [R617有限pre-tanh的复极点与开帽刚性](results/R617-finite-pre-tanh-poles-and-open-cap-rigidity.md)：**已证明**固定有限角带V加任意有限post的σtanh(V/σ)，由无限简单复极点的完整五阶Laurent系数迫有限Φ恒等；signed最大值的Dini/Gronwall排从正半径开帽长出的非零V，再接R610。当前内帽.22的E→1及反向传播条件明确；不授有限误差正下界，不排角带增长或无限独立响应的固定g极限。

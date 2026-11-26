@@ -139,3 +139,5 @@ O2b-B 的[R615](results/R615-position-fourier-majorants-and-discrete-primitive-e
 O2b-A [新物理/epigraph原终态](notes/2026-11-27-r582-physical-epigraph-original-terminal.md)已真实降至η6.26231e−5，q SHA f1c8298、243×1536/11025×3072/trust2/pending0；仍未过2.5e−7。从该真态正常续算，末c491 raw只另列warm。新mean对旧参考变化显著，全域几何改用同新mean圆参考并新付紧区间，不借旧q小扰动。
 
 O4 [R616](results/R616-same-candidate-expanded-box-function-chart.md)为原接受函数提供零修正严格同候选扩盒，完整空间jets、germs与真长度/历史链保持。若R614真终态仍贴旧人工tanh值域，可换此新图继续；不扩大R598物理盒，不以同值入口重做成功端点seed或宣称数值改善。
+
+O2b-B [R617](results/R617-finite-pre-tanh-poles-and-open-cap-rigidity.md)排固定有限pre-tanh＋有限post的准确clamped根，即使tanh本身有无限谱；实际.22内帽的E/r可积入口已付。它不提供当前有限η下界、不否定数值改善；后继须真正支付角带增长/无限响应与同g收敛，不再只扩大固定post便宣称具备准确根空间。
