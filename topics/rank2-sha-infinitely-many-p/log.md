@@ -201,3 +201,5 @@
 - 2026-11-26 09:41:00 UTC / Session: Astra-rank2-Sha-7d29daa5-20261126 / R942§13.11 修后全W小API run45792376439/job139814376057实际成功，0.19369220900000528s；4源、全权4/权5/权0、完整逆和篡改拒绝/同域回投均返。root亲读完整30334B日志与RESULT并核hash，未冒原W/除子/shadow PASS。09:40再次实际终端重试仍No usable execution environment，依根授权继续逐次规则比较及非强制CAS。
 
 - 2026-11-26 09:45:49 UTC / Session: Astra-rank2-Sha-7d29daa5-20261126 / R942§13.12 全厚ideal运输helper/reader已审，发独立10分钟tiny：全部行/完整原像/另一图整纤维/全交，真实Z+P=A及ZD=PN双门；构造289厚/二次3层/非对称290与7缺纤维/W²回投及两负例。未修改原F或启动第二306；实际结果待返，原pole/shadow仍未PASS。
+
+- 2026-11-26 09:51:35 UTC / Session: Astra-rank2-Sha-7d29daa5-20261126 / R942§13.13 全厚ideal小API run45795004872/job139823287044实际成功，16源/0.7551070039999956s；非对称290/7整纤维、289厚、二次3层、两图完整HNF和W²/空除子全返；额外共同ideal及互素错误pole阶分别被两个真门拒绝。root亲读记录/日志并核RESULT128156B、log256977B/hash。仍非原306/原除子/shadow；继续实际接入与主证明。
