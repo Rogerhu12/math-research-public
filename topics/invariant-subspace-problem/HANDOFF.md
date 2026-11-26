@@ -5,7 +5,7 @@
 ## 主目标、规则与执行
 
 - **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍仅全体有界算子的存在定理或完整反例；子结果不作完成。
-- **最近实际 pull / 已读规则提交：** `882f82b5deebc1a47ac631ad9a9c7c37881219ae`（2026-11-26 06:28:12 UTC）。本次两README无新规则差异；已读根/课题README、H/open、结果索引及定点log/notes。每次pull及至少每小时比diff，记录SHA。
+- **最近实际 pull / 已读规则提交：** `f92b4da0c474e61c59b0e3d9636cbbe6ac073874`（2026-11-26 06:30:47 UTC）。本次两README无新规则差异；已读根/课题README、H/open、结果索引及定点log/notes。每次pull及至少每小时比diff，记录SHA。
 - 私库 `QUEUE.md` 已成功更新认领，提交 `e776df496eedfa449b0475cefe140fdae7023db4`；非快进已逐次pull --rebase后重推成功。研究在公开仓库，私库仅维护QUEUE；不force，令牌仅CLI环境。
 - 断线后重建部分克隆 `/tmp/isp-347c05929dd3/math-research-public`。旧TMP丢失源已恢复；新字节另记执行。root独占git/主索引，子代理独占TMP；每结论单推，只留源/参数/身份/SHA，无数组。
 - 完整交接链见[压缩前H](notes/2026-11-26-handoff-before-weighted-residual-347c.md)及其归档链接。MD<100KB、H<10KB、open尽量<30KB、topic<200MB；不写根LOG。
@@ -17,10 +17,11 @@
 - 原W31/W127、Γ120及权7–10不重算；ΓE10=13697、δ14b²非成员、μ10核2171全Koszul、200/120核111/31，旧run身份已回收。
 - **[原权11已完成](results/R150-appendix-complete-weight-eleven-rank-four-quadratic-bell-cube-obstructions-and-weight-fifteen-ceiling.md)：** run44732018666/job136273939599于2026-11-20 16:03:56 UTC成功；本轮只读旧完整输出。原150646×37568来源经固定投影得36782，四目标增广36786、det127=45；特征零Γ11=36782、μ11核8912全Koszul，四q_jb³类独立。原18来源权≥14。下一b⁴/δb³/qb⁴门90013/203543/430213；新增Γ15≤857074，b⁵门857075均未运行。
 - **全essT3≤3的原matched Bell已零。** W±上确有Cat3真临界点，不能把该层宣空；一般V非零Bell非零只能ess4/5/6。
-- **[整个V0临界层的三个原Bell均零](results/R150-appendix-zero-third-cumulant-all-matched-bell-values-vanish-and-exact-index-three.md)：** 无Cat/H秩/ess/支撑限制，含y0。原highest解H(y)，完整17低梯度I0有(r·y)S_r²∈I0，乘Q_r得S_r³；run44732550495全792×3 QQ回乘0。平方非成员给每个原根准确指数3；不搬成全Jacobian同幂，degree9无需运行。另V0/ess4整层已空的更强几何结论保索引，不把ess5/6宣空。
+- **[整个V0临界层的三个原Bell均零](results/R150-appendix-zero-third-cumulant-all-matched-bell-values-vanish-and-exact-index-three.md)：** 无Cat/H/ess/支撑限制；完整17低梯度给原三Bell准确幂指数3，run44732550495全792×3 QQ回乘已付。不搬成全Jacobian同幂；原V0/ess4几何全空，ess5/6不宣空。
 - **外均值ess4主支：** Cat(y)=3、dimW4、y∉W，唯一原length5代数保同L,ν及全jets。全部rankH3、全部rankH4 proper局部单零（长度2–5）、孤立零点加unit单四jet/两个双点均已空。包括半权、零权、零配对、合流及∞，正式源与执行身份见索引和前H。
-- **[unit3+1孤立零点整个分支已空](results/R150-appendix-essential-four-unit-three-plus-one-isolated-zero-rank-four-branch-is-empty.md)：** 原所有边界加x0/L0，及真正一般图的原mean/c1/χ之QQ395/1142次结式、四纤维返回已闭；本地源6.846828秒通过。孤立零点只余unit2+1+1、unit1⁴；全部rankH5、一般V≠0 inner和ess5/6仍开，保完整原梯度。
-- **[unit2+1+1全部零基配对支已空](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-one-zero-base-pairing-exclusion.md)：** p=q0与恰一条零配对均闭；后者保原五次极线的六重零矛盾、半权真实germ、两mean面及QQ69/96/105结式和四次纤维。原源9.863867秒。剩余只pq≠0，规范p=1后保q=1边界与一般q，不擅自同时规范q。
+- **[unit3+1孤立零点整个分支已空](results/R150-appendix-essential-four-unit-three-plus-one-isolated-zero-rank-four-branch-is-empty.md)：** 全边界及一般图QQ395/1142结式、四纤维已闭。rankH4孤立零点只余unit2+1+1和unit1⁴；全部rankH5、V≠0 inner与ess5/6仍开。
+- **[unit2+1+1全部零基配对已空](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-one-zero-base-pairing-exclusion.md)：** p=q0与恰一条零配对全闭，原五次极线/germ/QQ两面含全部边界；剩余规范p=1且q≠0，不擅自同时规范q。
+- **[unit2+1+1相等非零配对且b+c0已空](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-equal-base-pairings-zero-total-weight-exclusion.md)：** 原mean及最高二阶germ限制A∈{0,2,−6,∞}；四QQ结式gcd全落入禁止零配对，三∞门−32/−1944/−5000。原源0.506024秒。q1的b+c≠0及其它pq≠0继续。
 - **[非零rankV1完整临界层已分类](results/R150-appendix-rank-one-third-cumulant-complete-critical-classification.md)：** 必且仅y=a u(s)、H=(a³+4c)u(s)u(s)ᵀ/(6a)、V=c u(s)³，a c≠0，全部T3=0。四两根族、D8商代数和全部射影/重根分拆已闭；恢复新源所有QQ门准确重现，身份与旧源分开。结合旧V0与ess≤3结论，潜在非零Bell仅rankV≥2且ess4/5/6；低秩V不代y/H共支撑。
 - 原纯三次判据已修为Q=B³−27A²D（完整QQ结式非零），旧正号不再作证；全部来源见结果索引。
 - 原4212来源枚举/系数高度、全局Bell自然幂及完整算子桥仍开。图册须每图真实幂来源并N=1+Σ(Ni−1)粘合；几何覆盖、V0子层证书不代全局原来源/实际费用。
@@ -33,9 +34,9 @@ M=kerT、N=closure BM；N=M未证。始终保same-w/u、全部partial、真inter
 - 原forcing准确是最低整数坐标f1=e1⊗Ω，Ce1=e0、Ce0=0；实际C²f1=0。它不同于任意物理一孔列，后者不能套该低真旗前提。
 - N/Y、偶R/奇r全MP至多最高t⁻¹，新增秩全一阶；偶r可t⁻²。旧/参考头相似e221a/e441a给883a费，原−logt主阶1400a。实际源若≤Lt²、logL=o(a)才有517a余量，这个全源条件未证。
 - [精确源极点](results/R271-appendix-complete-galerkin-highest-carry-pole-and-cancellation-criterion.md)：K=kerX0、E1=P_cokerX0 X1|K、F0=kerE1，E1*q₋₁=P_K(f−H0a0)。有界恰退化全K-Galerkin解属F0；O(t)还须ξ0=0且P_Kξ1=0。固定E不代移动谱投影。
-- **[任意奇高度全Hankel合同/高孔费](results/R271-appendix-general-odd-height-hankel-congruence-and-complete-high-hole-cost.md)：** m≥5、偶R≥d、任意奇r，全部长短坏链和旧真A幂旗保留；A0=min(max(0,(R−n−r+3)/2),m+(R−d+r+1)/2)。全q₋₁≤C_mr4^Ry^(2(d+r−3))s^(2A0−m−R−r+1)γ^(A0−1)Zγ；C_mr全阶乘/exp(12r²/n)明确、原s*=e⁻¹⁰⁷⁰缩放有效。非正交还原只付一次κ；实际γ<1/16加权Zγ仍开。
+- **[任意奇高度完整高孔费](results/R271-appendix-general-odd-height-hankel-congruence-and-complete-high-hole-cost.md)：** m≥5、偶R≥d、任意奇r，长短坏链及旧真旗全部保留；A0两门、全阶乘/exp(12r²/n)、原s缩放和一次非正交κ均付。仍需原γ<1/16的加权Zγ，不把合同当正交。
 - **[全区间正则界](results/R271-appendix-complete-highest-carry-linear-graphs-and-full-interval-regular-cost.md)：** 真核/余核是固定自由块⊥底坐标I的线性图，Π′、Q′≤2L；全0<t≤1有q−t⁻¹q₋₁的明确K0、h、h1、L费用。有效半径已付，粗费用仍大，需实际源/导数或孔相关乘积。
-- **最高单位不变、辅助分级及S一致真旗费已证，见索引两完整稿。** U(A)不改原完整F0；规范方向真极限以cyclic维数补齐。保原Gram的K_D有S/R无关正谱界及辅助带宽n−1，Chebyshev源尾合法但粗条件数只允γ近1；四头相关式阻止免费删混级费。原最低列完整Schur另给ξ0≤1600Kflag³，对0<S≤1成立，Kflag=e221a4^Ry2d[(90m6)^(2d(d+1))+27(n+2)³2^n]。这是无权64^R费；真正加权Zγ继续，不能替换Galerkin压缩逆。
+- **最高单位不变、辅助分级及S一致真旗费已证，见索引。** 原F0不随最高单位变；保原Gram的辅助带宽n−1及S/R无关谱界只给γ近1。原最低列全0<S≤1有ξ0≤1600Kflag³，真实受限逆全付；无权费仍含64^R，不能替换原压缩逆或当γ<1/16。
 - **[全部高度的完整真旗源界](results/R271-appendix-all-height-true-flag-uniform-variance-source.md)已证：** 全0<S≤1、所有奇r≥3的原受限逆费用与零方差Green递推均付；新增r≥5，r3保旧锐界并与原能量界取小。仍是无权费，γ<1/16高孔界与整个κ未闭。
 - **[联合carry的完整相对Gram已付](results/R271-appendix-joint-carry-finite-fock-multiplier-and-exponential-strong-prefix-gram.md)：** 有限Fock准确乘子把原c26预算直接送入同一F的完整Gram/inverse及同forcing能量列；x可至exp(13d³)，整个强头有限塔可至exp(26d³)/4。Γ=32^N两向乘子也近恒等，无32^x费；实际未加权最小者的绝对孔权仍不能凭此替换。
 - **[实际方差窗的物理加权残余差已付](results/R271-appendix-actual-window-weighted-full-galerkin-residual-transfer.md)：** m≥10、x+1≤d⁴/64、原高度窗和s≥S_x，原未加权同F最小者有‖Γ(ξ_A−ξ_C)‖≤e^(−7d⁴/4)‖f‖；a及全能量列同界。最高carry零头用m−1及Q′≥R+r，差≤e^(−7d⁴/64)。参考A_x也保同F0，绝对Zγ仍开。

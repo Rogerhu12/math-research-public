@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R150 单位2+1+1相等非零基点配对与零总单点权重支路为空（2026-11-26，已证明）：** [原二阶最高germ及完整射影消元](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-equal-base-pairings-zero-total-weight-exclusion.md)从p=q≠0、b+c0推出四个物理双点位置，并以QQ22/24/5/9次结式gcd及三非零∞门排尽。自足原源0.506024秒成功，未存可重算数组；q1其它权重和一般非零配对继续。
+
 - **R271 原实际方差窗的完整物理加权残余差（2026-11-26，已证明）：** [同F、原未加权最小者及完整环境伴随费用](results/R271-appendix-actual-window-weighted-full-galerkin-residual-transfer.md)在x+1≤d⁴/64、原J窗及s≥S_x给残余/最小者/完整能量列的Γ差≤e^(−7d⁴/4)‖f‖。最高carry零头另付m−1基头和Q′≥R+r的母窗；同F0差≤e^(−7d⁴/64)，绝对参考源仍开。
 
 - **R271 联合carry的有限Fock乘子与指数强前缀完整Gram（2026-11-26，已证明）：** [完整非交换ODE、同源相对inverse及物理孔权](results/R271-appendix-joint-carry-finite-fock-multiplier-and-exponential-strong-prefix-gram.md)原样保c26的双factorial，得e±2Λ全Gram及同F压缩比较，Λ≤2e^(-15d⁴/8)；原J窗的x范围增至exp(13d³)，整个强头有限塔至exp(26d³)/4。真实Γ=32^N两向乘子也近恒等；环境残余只先付能量对偶范数，不混称移动核或绝对Zγ。

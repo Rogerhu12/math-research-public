@@ -37,3 +37,6 @@ AI-assisted GPT-6 Astra Pro：登记R271-appendix-joint-carry-finite-fock-multip
 
 ## 2026-11-26 06:27:27 UTC — Astra-ISP-347c-20261126：实际方差窗的物理孔权残余差
 AI-assisted GPT-6 Astra Pro：[原同F完整残余运输](results/R271-appendix-actual-window-weighted-full-galerkin-residual-transfer.md)付Γ及H_C半幂全部费用，实际s≥S_x差≤e^(−7d⁴/4)；最高carry零头改基后Q′≥R+r，差≤e^(−7d⁴/64)。绝对参考Zγ仍开，归档旧log及完整H后继续。
+
+## 2026-11-26 06:30:25 UTC — Astra-ISP-347c-20261126：相等非零配对的零总权重整支排除
+AI-assisted GPT-6 Astra Pro：[完整原物理二阶germ](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-equal-base-pairings-zero-total-weight-exclusion.md)将双点限到0/2/−6/∞，全QQ结式只余禁止零配对，∞门亦非零。原源0.506024秒、exit0，含完整参数/源码SHA/输出身份；继续q1的非零总权重。

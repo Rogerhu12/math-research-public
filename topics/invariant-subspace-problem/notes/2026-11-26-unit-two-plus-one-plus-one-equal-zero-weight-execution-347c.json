@@ -1,0 +1,62 @@
+{
+  "elapsedSeconds": 0.506024,
+  "ordinaryISPClaim": false,
+  "originalMeanAndHighestJetVerified": true,
+  "peakRssKiB": 51064,
+  "physicalPolarGates": [
+    {
+      "base": 0,
+      "finiteInfinityFirstJetGate": -32,
+      "gcdRadicalDividesOriginalBasePolar": true,
+      "monicGcd": "z**13*(z - 5)**3",
+      "resultantDegrees": [
+        22,
+        24
+      ]
+    },
+    {
+      "base": 2,
+      "finiteInfinityFirstJetGate": -1944,
+      "gcdRadicalDividesOriginalBasePolar": true,
+      "monicGcd": "(z - 2)**8*(3*z**2 - 17*z + 6)**2/9",
+      "resultantDegrees": [
+        24,
+        24
+      ]
+    },
+    {
+      "base": -6,
+      "finiteInfinityFirstJetGate": -5000,
+      "gcdRadicalDividesOriginalBasePolar": true,
+      "monicGcd": "(z + 6)**8*(5*z**2 + 65*z + 66)**2/25",
+      "resultantDegrees": [
+        24,
+        24
+      ]
+    },
+    {
+      "base": "infinity",
+      "finiteInfinityFirstJetGate": null,
+      "gcdRadicalDividesOriginalBasePolar": true,
+      "monicGcd": "z + 1",
+      "resultantDegrees": [
+        5,
+        9
+      ]
+    }
+  ],
+  "schema": "r150-unit211-equal-base-zero-total-weight-20261126-v1",
+  "scope": "p=q nonzero and b+c=0 only; all original physical base points and infinity",
+  "secondOrderPhysicalGermVerified": true,
+  "sourceSha256": "1a63e7f16608385a425387f77319b23c199451c2b7c7a3eccf38b7f76a10c9ec",
+  "status": "all_exact_QQ_checks_pass",
+  "exitCode": 0,
+  "command": "python 2026-11-26-unit-two-plus-one-plus-one-equal-zero-weight-347c.py",
+  "python": "3.12.14",
+  "sympy": "1.14.0",
+  "pythonPathOverride": null,
+  "stdoutSha256": "22a6fa82a0bea3c7380c82ecd9d950920cc16676be82a4d124bd851e3b3f27c7",
+  "executionDateUTC": "2026-11-26",
+  "aiAssisted": "GPT-6 Astra Pro / Astra-ISP-347c-20261126",
+  "storedArrays": false
+}
