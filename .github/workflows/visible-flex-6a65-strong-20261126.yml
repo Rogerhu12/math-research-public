@@ -1,0 +1,43 @@
+name: Visible flex 6a65 strong same-job continuation
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - topics/visible-flexible-closed-surface/ci-requests/6a65-strong-branch-20261126.json
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: visible-flex-6a65-metric-20261126
+  cancel-in-progress: false
+
+jobs:
+  regenerate-and-consume:
+    if: github.repository == 'Rogerhu12/math-research-public'
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - name: Partially clone the requested source commit
+        shell: bash
+        run: |
+          set -euo pipefail
+          git clone --filter=blob:none --sparse --depth=1 "https://github.com/$GITHUB_REPOSITORY.git" "$GITHUB_WORKSPACE"
+          cd "$GITHUB_WORKSPACE"
+          git sparse-checkout set topics/visible-flexible-closed-surface .github/workflows
+          git fetch --filter=blob:none --depth=1 origin "$GITHUB_SHA"
+          git checkout --detach "$GITHUB_SHA"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22.23.5'
+      - name: Continue the actual strong state before this runner exits
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          python3 topics/visible-flexible-closed-surface/scripts/6a65-actions-strong-branch-20261126.py \
+            --request topics/visible-flexible-closed-surface/ci-requests/6a65-strong-branch-20261126.json \
+            --out-dir "$RUNNER_TEMP/visible-flex-6a65-strong-$GITHUB_RUN_ID-$GITHUB_RUN_ATTEMPT"

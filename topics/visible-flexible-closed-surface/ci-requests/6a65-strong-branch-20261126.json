@@ -1,0 +1,68 @@
+{
+  "schema": "6a65-strong-branch-actions-request-v1",
+  "request_id": "6a65-strong-r219-3-r208-20",
+  "rules_read_commit": "56cf100d253cf6bf41a61d4657bbad2c06fbd943",
+  "heap_mb": 512,
+  "observation": {
+    "radial_subdivisions": 4,
+    "half_angle_intervals": 256
+  },
+  "same_job_followup": {
+    "path": "topics/visible-flexible-closed-surface/ci-requests/6a65-strong-followup-20261126.json",
+    "poll_seconds": 30
+  },
+  "continuations": [
+    {
+      "label": "r219-N128-peaks84",
+      "transition_kind": "new_discretization_and_geometry_guide",
+      "init_script": "6a65-run-low-wide-expanded-peaks.cjs",
+      "run_script": "6a65-run-low-wide-expanded-peaks.cjs",
+      "init_arguments": [
+        "{candidate}",
+        "{source}",
+        "{prefix}",
+        "init"
+      ],
+      "run_arguments": [
+        "{candidate}",
+        "{source}",
+        "{prefix}",
+        "run"
+      ],
+      "initial_suffix": "-initial.json",
+      "checkpoint_suffix": "-state.json",
+      "initial_schema": "6a65-R219-expanded-peaks-initial-v1",
+      "checkpoint_schema": "6a65-R219-expanded-peaks-checkpoint-v1",
+      "accepted_counter": "r219AcceptedSteps",
+      "steps": 3,
+      "prior_observed_steps": 3
+    },
+    {
+      "label": "r219-observed-radial",
+      "transition_kind": "same_field_radial_refinement",
+      "init_script": "6a65-r219-radial-refine-from-observer.cjs",
+      "run_script": "6a65-run-low-wide-expanded-peaks.cjs",
+      "init_arguments": [
+        "{candidate}",
+        "{source}",
+        "{observer}",
+        "{prefix}",
+        "both"
+      ],
+      "run_arguments": [
+        "{candidate}",
+        "{source}",
+        "{prefix}",
+        "run"
+      ],
+      "initial_suffix": "-initial.json",
+      "checkpoint_suffix": "-state.json",
+      "initial_schema": "6a65-R219-expanded-peaks-initial-v1",
+      "checkpoint_schema": "6a65-R219-expanded-peaks-checkpoint-v1",
+      "accepted_counter": "r219AcceptedSteps",
+      "steps": 20,
+      "prior_observed_steps": 3,
+      "report_suffix": "-report.json"
+    }
+  ]
+}
