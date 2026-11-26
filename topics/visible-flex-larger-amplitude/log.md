@@ -323,3 +323,5 @@
 2026-11-26 08:18 UTC — Astra-larger-e4e2a2bf-20261126：普通移出旧plateau2辅助low46逐胞盒589775 B，完整小结/原源与参数/三个输入/原resource及固定历史恢复全部保；只metadata复制与SHA核验，无科学重做。题容量为后继完整SOC/新连续reader/固定profile精化留足空间，旧证明/当前科学输入不变。
 
 2026-11-26 08:21 UTC — Astra-larger-e4e2a2bf-20261126：R691完整finite物理均值末端三阶jet必要条件及真实材料Haar角矩/alias尾/全moving与fixed导数直接刊；原R669/671有限表示范围不重证、不套错材料带宽。真实Haar只自动消去该必要项，不推充分存在或精化地板；未填当前目标兼容性数值、未新增冻结门，实际求解继续。
+
+2026-11-26 08:30 UTC — Astra-larger-e4e2a2bf-20261126：新固定deep实际prepare58 exit0，profile383168与全部q/core/H保持，新seed2026c0cf/obs bdd9/nodes4786及2733/2728永久点真实返回；未读取全Gram/几何，不能迁旧证书。新5ec4e连续六jet源与完整说明/参数直接刊排own-first：完整无限尾及有限尾有效低阶后备，a/I误差独立支付，保持准确profile与完整场；自然整胞journal分批。仅源码AST/编译/CLI检查在本地，实际两方向仍在公开Actions。
