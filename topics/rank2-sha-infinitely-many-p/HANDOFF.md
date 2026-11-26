@@ -6,7 +6,7 @@
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。固定有限曲线族的联合无穷非零可再用无限鸽巢；有限p、随p换曲线、条件桥、非零投影或接口成功均不完成。
 
-- 两仓库已部分克隆。公开根/课题 README 已读至 `d838b827640ebe31208c0aa80b8dded1d282bf8d`（差异为空）；每次pull只读两文件新差异，至少每小时同步并记录SHA。
+- 两仓库已部分克隆。公开根/课题 README 已读至 `e85cb6eac05bebb9d9e8e575f23a53cf4061f613`（差异为空）；每次pull只读两文件新差异，至少每小时同步并记录SHA。
 - 私库QUEUE接手已推41fe885610073f478b2f5a752461ca56cfd43f09；21:01 UTC再次pull至3c31ccbf3bd9272e01b39ca0c497744b47870f6e，根/本题README差异空、QUEUE仍本会话进行中。目录math-research-public、math-research-private；令牌仅进程认证，不入文件。
 - root独占git/共享H/open/log/index；每条结论完成即推，非快进立即pull --rebase、检查README再推至成功，不强推。数学只用公开Actions；不存可重算矩阵/数据/log。H<10KB、每MD<100KB。
 - [逐字压缩前H](notes/2026-11-27-handoff-before-thirteen-and-k3.md)及其历史链保全部旧状态；[open](open.md)、[results](results.md)、[R951–1000索引](notes/PROOF-INDEX-R951-R1000.md)保全部未解门，未默删。
@@ -18,6 +18,8 @@
 前v7真实relative/absolute degree AssertionError、旧Fv3在MD84/306超时124，详[终点链](notes/2026-11-27-artinian-v7-final-and-successor.md)。R974原omega/完整双向残余坐标和每层厚Norm已证且小API实过，接v8；人工1530例仅opt-in，不为几何背书。R975 pair-gcd/全尾Popov及attached界、R986原二次常数域两平移norm构造均已证/未执行/未接v8。R986不是当前Frobenius慢点；原zero-fiber shortcut未接生产，旧入口不能称全PASS。
 
 **中央v8已实际成功**：run45892525657/job140158402506/sourcec3fc3c60605f4455fc57177367c89e56a9763f6a，20:38:41–20:46:00 UTC；20份manifest/18源码AST及全部旧门保持。R982四新角/十低行完整返回，R983三alpha全非零；stdout90103B与log208485B摘要见两结果，不保存生成数据。
+
+R987独立轻入口已准备：原norm7/19各24条完整纤维重建全22（含两extra），要求同原66限制hash，再求全good13/双核实际质量；不读生成数据、不重跑390。待公开Actions回执。
 
 既有实际v5 run45884058894/job140130269899全22/66/44谱、v6 run45886844420/job140139542933真E260投影、v7 run45888699507/job140145723941全13-old均success。完整source/hash/阶段在R976–978；不重复旧计算作为新结论。
 

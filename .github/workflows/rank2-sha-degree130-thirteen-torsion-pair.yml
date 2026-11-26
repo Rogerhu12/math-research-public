@@ -1,0 +1,118 @@
+name: Rank2 original complete22 and thirteen torsion pair
+"on":
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/rank2-sha-degree130-thirteen-torsion-pair.yml"
+      - "topics/rank2-sha-infinitely-many-p/ci/degree130-thirteen-torsion-pair-request.json"
+      - "topics/rank2-sha-infinitely-many-p/scripts/check-original-degree130-thirteen-torsion-entry.py"
+      - "topics/rank2-sha-infinitely-many-p/scripts/check-original-thirteen-torsion-forced-pair.py"
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: rank2-sha-degree130-thirteen-torsion-pair
+  cancel-in-progress: false
+jobs:
+  exact:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: Reconstruct both complete22 matrices and the actual thirteen torsion pair
+        shell: bash
+        run: |
+          set -euo pipefail
+          RANK2_CHECK_DIR="$RUNNER_TEMP/rank2-degree130-thirteen"
+          export RANK2_CHECK_DIR
+          git -c maintenance.auto=false clone --filter=blob:none --sparse --depth=1 --no-checkout --branch main https://github.com/Rogerhu12/math-research-public.git "$RANK2_CHECK_DIR"
+          git -C "$RANK2_CHECK_DIR" sparse-checkout set topics/rank2-sha-infinitely-many-p/scripts topics/rank2-sha-infinitely-many-p/ci .github/workflows
+          git -C "$RANK2_CHECK_DIR" fetch --filter=blob:none --depth=1 --quiet origin "$GITHUB_SHA"
+          git -C "$RANK2_CHECK_DIR" checkout --detach --quiet "$GITHUB_SHA"
+          python3 - <<'PY'
+          import ast, hashlib, json, os, pathlib, subprocess, sys
+          root = pathlib.Path(os.environ["RANK2_CHECK_DIR"])
+          prefix = "topics/rank2-sha-infinitely-many-p/"
+          request_path = prefix + "ci/degree130-thirteen-torsion-pair-request.json"
+          workflow_path = ".github/workflows/rank2-sha-degree130-thirteen-torsion-pair.yml"
+          request = json.loads((root / request_path).read_text())
+          assert request["schema"] == "rank2-original-degree130-thirteen-torsion-pair/v1"
+          assert request["degree"] == 130 and request["offset"] == 2
+          assert request["workers"] == 4 and request["python_flint_version"] == "0.9.0"
+          assert request["complete_CM_norms"] == [7, 19]
+          assert request["complete_fiber_values_each"] == list(range(1, 25))
+          assert request["number_of_complete_fibers"] == 48
+          assert request["all_twenty_two_columns_including_mass"] is True
+          assert request["same_job_full_good13_two_column_operator"] is True
+          assert request["both_complete_quadratic_kernel_algebras"] is True
+          assert request["output_files"] is False
+          script = prefix + "scripts/check-original-degree130-thirteen-torsion-entry.py"
+          assert request["script"] == script and request["args"] == ["--workers=4"]
+          names = [
+              "check-original-degree130-thirteen-torsion-entry.py",
+              "check-original-thirteen-torsion-forced-pair.py",
+              "check-r464-degree102-cm7-exact.py",
+              "check-r466-fixed-two-division-source.py",
+              "check-r480-actual-input-cm19.py",
+          ]
+          assert set(names) == set(request["source_sha256"])
+          manifest = []
+          for name in names:
+              path = prefix + "scripts/" + name
+              data = (root / path).read_bytes()
+              actual = hashlib.sha256(data).hexdigest()
+              assert actual == request["source_sha256"][name]
+              ast.parse(data.decode(), filename=path)
+              manifest.append({"path": path, "bytes": len(data), "sha256": actual})
+          for path in (request_path, workflow_path):
+              data = (root / path).read_bytes()
+              manifest.append({"path": path, "bytes": len(data),
+                               "sha256": hashlib.sha256(data).hexdigest()})
+          print("R987_SOURCE_MANIFEST " + json.dumps(manifest, sort_keys=True,
+                                                      separators=(",", ":")), flush=True)
+          manifest_hash = hashlib.sha256(json.dumps(manifest, sort_keys=True,
+                                       separators=(",", ":")).encode()).hexdigest()
+          print("R987_AST_PASS 5", flush=True)
+          dependencies = pathlib.Path(os.environ["RUNNER_TEMP"]) / "rank2-thirteen-python"
+          subprocess.run([sys.executable, "-m", "pip", "install",
+                          "--disable-pip-version-check", "--target", str(dependencies),
+                          "python-flint==0.9.0"], check=True)
+          os.environ["PYTHONPATH"] = str(dependencies)
+          result = subprocess.run([sys.executable, str(root / script), "--workers=4"],
+                                  cwd=root, stdout=subprocess.PIPE, stderr=None)
+          receipt = {"script": script, "args": ["--workers=4"],
+                     "script_sha256": hashlib.sha256((root / script).read_bytes()).hexdigest(),
+                     "stdout_sha256": hashlib.sha256(result.stdout).hexdigest(),
+                     "stdout_bytes": len(result.stdout), "exit_code": result.returncode}
+          if result.stdout:
+              if len(result.stdout) > 40000:
+                  print("R987_OUTPUT_LIMIT " + json.dumps(receipt, sort_keys=True), flush=True)
+                  raise RuntimeError("Compact exact report exceeded its text bound")
+              report = json.loads(result.stdout)
+              print("RANK2_EXACT_STDOUT " + json.dumps({"script": script, "result": report},
+                                                      sort_keys=True, separators=(",", ":")), flush=True)
+          print("RANK2_PUBLIC_EXACT_CHECK " + json.dumps({
+              "request_id": request["request_id"],
+              "run_id": int(os.environ["GITHUB_RUN_ID"]),
+              "source_commit": os.environ["GITHUB_SHA"],
+              "source_manifest_sha256": manifest_hash,
+              "checks": [receipt], "outputs_persisted": False,
+              "python_flint_version": request["python_flint_version"]},
+              sort_keys=True, separators=(",", ":")), flush=True)
+          if result.returncode:
+              raise RuntimeError("Complete22 thirteen pair failed with exit code " + str(result.returncode))
+          assert report["status"] == "PASS"
+          assert report["complete_fiber_values_each"] == list(range(1, 25))
+          assert report["number_of_complete_fibers"] == 48
+          assert report["all_twenty_two_columns_including_mass"] is True
+          assert report["two_extra_full_fibers_each_returned"] is True
+          assert report["full_conjugate_inverse_commutation_twelfth_powers"] is True
+          assert report["canonical_complete_matrix_sha256"] == request["canonical_complete_matrix_sha256"]
+          pair = report["actual_thirteen_torsion_pair"]
+          assert pair["status"] == "PASS"
+          assert pair["direct_construction_matches_original_full66_restriction"] is True
+          assert pair["four_complete_norm13_fibers_returned"] is True
+          assert pair["both_kernel_quadratic_mass_traces_zero"] is True
+          assert pair["both_nonzero_kernel_orbit_masses_nonzero"] is True
+          assert pair["barpi_kernel_mass_is_exact_conjugate"] is True
+          assert pair["full_mass_rational_function_returned_in_both_kernel_algebras"] is True
+          PY

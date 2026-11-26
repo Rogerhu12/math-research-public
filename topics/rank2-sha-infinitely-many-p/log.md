@@ -345,3 +345,5 @@
 - 2026-11-26 21:15 UTC / Astra-rank2-Sha-0b097461-20261127：R985完整Heisenberg/Miller/真实mixed对偶证明登记。对CF准确只用四输出推前；原H明确先Π_Z再在其像上乘有极的S，保全trace和既有归一，不把两个边际相同的whole来源混同。有限twirl与old差给非零translated中央和，继续R987局部13归一和R989同六位新过定行。
 
 - 2026-11-26 21:23 UTC / Astra-rank2-Sha-0b097461-20261127：R988登记实际level12 K3/Chow双逆及原λ的CM17图循环族；以原模型/六纤维/有限角色和明确2B−BAB逆付清同构，不把新循环AJ非零、旧canonical或原端点当已证。R985已经逐次rebase并成功推eb6e4125；两README差异均空。H旧文逐字归档保全部状态。
+
+- 2026-11-26 21:29 UTC / Astra-rank2-Sha-0b097461-20261127：准备R987独立direct22公开入口及其五份源码pins/七份manifest，完整48纤维、22全列/两extra、共轭逆/交换/12次幂与原66限制hash均为必需门，再读完整good13两列/两核质量。只做本地AST/YAML/JSON静态解析，数学结果待公开Actions，未重跑390。
