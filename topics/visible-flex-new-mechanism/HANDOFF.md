@@ -6,7 +6,7 @@
 
 ## 1. 规则与接手
 
-已部分克隆并实际 `git pull main`，公开根 README、课题 README、HANDOFF、open、results 索引及相关 log/notes 已读。公开已读提交 **9a994f89127008c86dc99636bcda1eebbddff352**（2026-11-26 07:32 UTC；本次实际pull后根/题README空差异）；私有根初读 **85fdf1853367ef25c07f3ebdb6ae25c22a3564b8**，随后逐次 pull/rebase 检查根差异，空差异。私有 QUEUE 的本题已改为本会话进行中并成功推送：**9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7**；最后实际pull及规则同blob读至 **d6fc2f5c519bd5481b5e0ef67fca1c08c7b6eb9a**（2026-11-26 07:21 UTC；实际pull/rebase后根README空差异、QUEUE仍本会话）。其它课题的并行认领保留。
+已部分克隆并实际 `git pull main`，公开根 README、课题 README、HANDOFF、open、results 索引及相关 log/notes 已读。公开已读提交 **172abe0670be6606d7aac6eff17e5bebe5d90282**（2026-11-26 07:40 UTC；本次实际pull后根/题README空差异）；私有根初读 **85fdf1853367ef25c07f3ebdb6ae25c22a3564b8**，随后逐次 pull/rebase 检查根差异，空差异。私有 QUEUE 的本题已改为本会话进行中并成功推送：**9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7**；最后实际pull及规则同blob读至 **d6fc2f5c519bd5481b5e0ef67fca1c08c7b6eb9a**（2026-11-26 07:21 UTC；实际pull/rebase后根README空差异、QUEUE仍本会话）。其它课题的并行认领保留。
 
 历史运行的真实双仓pull、规则blob与私队回执保在各原观察note；当前已核hard首run公开到be4d8f6d/6408017f、私有到201c93af/79f66052，根/题规则均无变化，QUEUE仍本会话。早期盘满、05:48环境失联及05:54重新部分克隆的完整记录保于[本次先前HANDOFF](notes/HANDOFF-before-hard-restoration-20261126.md)和log；已推成果无损，不能把失联时API读取冒作git pull。
 
@@ -29,7 +29,7 @@
 
 [R566](results/R566-flat-oscillatory-cap-tail-and-graph-reach.md)的固定有限公式尾在rc=.22到r=.30全平且K无限变号；完整凸底域graph片reach>.1832，但不含跨块。[R569](results/R569-fixed-oscillatory-tail-and-flat-infinitesimal-bending.md)对同一w已实际构造角频2非零全平无穷小等距场，全部导数exp(−c/δ³)，外端真ODE；X+tV非有限等距。[原R569种子终态](notes/2026-11-26-r569-seed-first-run-receipt.md)39.905028348科学秒、2850383次RHS；准确DtN截断与浮点误差分开。共同归一表内|f_rr|约5.05e7、|v_rr|约3.94e8，不能直接宏观放大；外端f/fr负，转新尾/真实shooting，不盲增M。[R571](results/R571-milder-phase-tail-flat-kernel-and-core-shooting-zero.md)换明确新尾w=.8exp[−(2−sin(δ^-1+φ))/δ]，统一patch reach>.08670；实际一维全平核、相位连续和负holonomy均证。周期真实连接下C_core必在某φ*准确零、A_core非零，故双固定平帽的闭旋转背景已有真实线性匹配。尚欠数值φ*/种子C²、有限非线性及全闭reach，不把相位设计族当同g弯曲。
 
-[hard首run45769777022](notes/2026-11-26-hard-exchange-first-run-restoration.md)新37.974705078科学秒、仅几何恢复；其实际末q/网格/trust进入[识别续接](notes/2026-11-26-hard-exchange-identified-continuation.md)。[续接原终态45773550668](notes/2026-11-26-hard-resume-first-metric-progress.md)两lane新163.220723713/470.738431635秒：B030仍V=.0005436546、η2.0895893；B038在outer6真过fine几何，后71次可行metric改善至η=.8636074715，κ16.377643、球1.00949487、y.38973160，229×1536 fine。两lane最后均因提议1536角约束超原768容量结束，不能把提议算已采用；B030无OptimizeResult，B038末两次后端自然success。下一明确新联合R=1.012/Y=.3928/τ=.06072预算、保原末q/全pending径向、分块Jac降内存并实付新角峰；新trust=.5将显式记录。仍欠冻结g精化/连续嵌入/全点对reach，不授README完成。原条件/失败完整存[续接前交接](notes/HANDOFF-before-hard-resume-20261126.md)。
+[hard首run45769777022](notes/2026-11-26-hard-exchange-first-run-restoration.md)新37.974705078科学秒、仅几何恢复；其实际末q/网格/trust进入[识别续接](notes/2026-11-26-hard-exchange-identified-continuation.md)。[续接原终态45773550668](notes/2026-11-26-hard-resume-first-metric-progress.md)两lane新163.220723713/470.738431635秒：B030仍V=.0005436546、η2.0895893；B038在outer6真过fine几何，后71次可行metric改善至η=.8636074715，κ16.377643、球1.00949487、y.38973160，229×1536 fine。两lane最后均因提议1536角约束超原768容量结束，不能把提议算已采用；B030无OptimizeResult，B038末两次后端自然success。新[联合预算/分块Jac入口](notes/2026-11-26-joint-budget-block-jacobian-implementation.md)已发布：R1.012/Y.3928/τ.06072仍支付原比例；保原q/全pending径向，B038真纳1536约束，B030须先完整重建证旧几何角峰已覆盖。每16方向精确Jac、新trust=.5明记，首Actions方向核对一次；结果待原终态。仍欠冻结g精化/连续嵌入/全点对reach，不授README完成。原条件/失败完整存[续接前交接](notes/HANDOFF-before-hard-resume-20261126.md)。
 
 ## 4. O4 两个不同母库的有效入口
 
@@ -41,10 +41,10 @@ R555余五槽的真实Gram/有序面积身份继续有效；R526的倒行完成�
 
 新[圆核设计入口](notes/2026-11-26-circular-core-continuation-implementation.md)已单独发布：p=q=.18/offset.2先仅17径向变量恢复真实几何，再改变p并解锁81变量。连续公式起点η0不付非圆分支，C_core=0共振仍须解决；每个p重新实际过门，阶段η1e−4不是完成门。1 lane公开Actions，2400秒检查点；结果待原终态。
 
-## 5. 本次正在做的工作
+## 5. 正在继续的实际工作
 
-1. 从已终止 run 的原日志闭 joint168 旧账；研究全域 metric 约束交换与局部空间控制，不重复已失败实例。
-2. R567–R570已付同χ八矩、偶germ及scalar/pose/A/T完整返回；继续整个第四4V_P和同十三规范，不能用有限阶返回冒有限等距族。
-3. [四来源本轮状态](notes/2026-11-26-current-four-source-topics.md)已按c9804f1e逐份读，尚无可直接移用的本题全门族，不跨场借metric/reach。继续检查 O1/O3 的新可用几何：圆领相位组装允许如实 $\delta_E=0$，但非旋转完整连接仍须实际构造；T-surface/管形必须同时满足闭合、二jet、全时reach。
+1. 非圆实例在完整fine硬几何门内降metric，同时圆核设计同伦与R571真相位shooting接入有限非线性。必须最终冻结同一g再精化，并付全闭嵌入/全点对reach。
+2. O4在已付scalar/pose/A/T及全部实际微包总通量之上继续整个第四/同13；同步检查长词直径与固定collar曲率的量级，不能让形式闭合替代主几何门。
+3. [四来源本轮状态](notes/2026-11-26-current-four-source-topics.md)尚无可直接移用的全门族。O1圆领相位允许如实δE=0，仍须完整非旋转嵌入；O3保可用新局部输入。
 
-主要入口：[open](open.md)、[当前索引](results.md)、[早期几何索引](results-index-early.md)、[日志](log.md)。本会话分工笔记为 `notes/2026-11-26-geometry-continuation-agent.md`、`results/R564-negative-coupling-crossing-and-seven-exact-moments.md`、`notes/2026-11-26-inverse-metric-design.md`；未完成笔记不登记为已证明结果。每写完一条结论立即提交推送，接下一开放项。
+入口：[open](open.md)、[当前索引](results.md)、[早期索引](results-index-early.md)、[日志](log.md)。未完成稿不登记已证明；每条完成结论立即提交推送，然后继续开放项。

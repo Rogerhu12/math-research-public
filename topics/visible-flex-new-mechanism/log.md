@@ -472,3 +472,7 @@ run45769777022原两job日志完整解析并核全输出身份；新科学21.293
 ## 2026-11-26 — Astra-new-mechanism-0105020f-20261126 / R572同母全部真实总通量零
 
 核R105有限universal模板/仿射稳定、R352完整五次自然泛函、R521先定位置/正O(2)图及R184准确gauge transfer。修清常germ U与当前偶germ边界：以有限仿射环境E直接保raw输出，并在选母前加入所有actual packet phase totals。Borsuk–Ulam在ψ×偶多项式球面给同一点零，内部无新增flat子包；共同幅归一保零。三类总通量分明，不冒whole pure或逐点period。纸面结构不重算，结论即推；接完整第四并检查巨大位移对reach/D的尺度影响。
+
+## 2026-11-26 — Astra-new-mechanism-0105020f-20261126 / 联合预算与分块Jac
+
+核新R/Y/τ预算的原直径/握持/reach条件式、全部来源q/实际及pending节点与原JSON逐项相同、重建收费/新trust身份/engine与wrapper独立FINAL哈希。root完整审wrapper与算子，独立交叉审空间jets/参数播种/列拼接；修复唯一浮点分支差异，几何行恢复原argmin后加σ，value-only同argmin取值。所有8项源码绑定与AST通过，无本地科学。两新公开lane开始后只读终态原stdout；不授连续reach或固定g收敛。
