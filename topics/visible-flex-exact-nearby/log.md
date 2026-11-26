@@ -530,3 +530,8 @@ signed rows用真实配对中心；normalized行的adjoint residual由已成同T
 
 新[NW证明/合同](results/R147-supplement-same-window-selected-nu-source-to-complete-waist.md)核原43613560173 complete source的fixed_negative_phase_window full_through160整球，与43713242980 D的fixed_negative_window为同一[0,2383968743003/10^13]。选定δ*/d<τ=936826/10^6，准确组合F_N=S_N+τD_N；旧global F_G=S_G+τD_N<3.720478e−6保留，不用upper相减，也不把δ=0源免费转授。
 完整E/N/SP二源域与两段ordinary输入正交给新真实腰贡献hypot(CO,C2)F_N，两physical mean保留。唯一新目标将保存四个完整球、逐条读回，最后乘积消费已保存F_N/G_N；原S0/D/SP/PW整actual/process/manifest仅读，无旧积分或增长重算。可不等R142直接执行；当前只提交证明，实际入口正在接齐。只付该ordinary线性分量，不消positive/root/jump/height/Robin/phase或完整ν/incoming逆。
+
+### 2026-11-26 — R149 原14个物理端口到真负侧的56标量执行定义
+
+提交[EX完整执行说明](results/R149-supplement-actual-positive-negative-receiver-execution.md)、owner、public worker、metadata generator。26整输入绑定实际58/224/32三文件×3、固定SP/PW/WTA/WX五完整actual、六证明、五源码和规则；共同WVC/153链/24480/真根身份逐字段核，WTA复制SP及PW四gain逐字相等。只算14cols×4：true full mixed root、完整waist两mean、joint左两branch、WPL primitive；各原physical source域保持。
+新球先原子保存candidate整doc、读回相等与contains核通过，才提交正式completed prefix；root→waist→branch/primitive均用前驱saved upper，完成56才proved。工作流只在真实58/224/32全通过后由metadata生成器建立，当前没有manifest/workflow、数值或dummy source packet。900s science/30min job，保readme/rebase/capacity/无科学自动retry。已完成原逆/receiver不重算；common x Φ/Υ packet、signed矩阵、negative ordinary源及最终incoming/ν/非线性仍为各自实际目标。
