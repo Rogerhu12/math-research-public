@@ -226,3 +226,5 @@
 - [连续角峰与FFT原函数求积的分离接口](notes/2026-11-26-continuous-theta-peak-oracle-design.md)：**后继算子设计，未科学执行**。实际约束(s,θ)、FFT求积M和径向覆盖各自保存，Ebar及参数微分仍取完整角积分；任意角用Fourier原函数与真实解析T jets。峰定位不冒连续证书，截断Pθ−T、Ebar误差及区间分母门明确；针对已观察的角容量终态，实现独立新源。
 
 - [联合预算B030首次真实可行metric终态](notes/2026-11-26-joint-budget-b030-first-metric-receipt.md)：**完整单lane原观察**。run45777140827/job139763424593以新预算全重建实际过门，精确分块方向差3.81e−10；181.995016962新科学秒，fine η2.089589→.939818940292、V=0、κ16.452596。119×1536为实际约束，3072仍未采用提议，241×3072只fine观察；继续连续峰接口，非1e−6/冻结g/全reach完成。
+
+- [R574 准确非线性高度方程与核心通量横截性](results/R574-exact-nonlinear-height-equation-and-core-flux-transversality.md)：**已证明**固定旋转g的完整Darboux式准确为二次方程；γ正定的单连通圆盘上平坦developing可单值恢复，但核心退化/全局单射仍需付。真实核心零的同场Acore=1通量为−3/R；有限差Green身份直接推出c′及D=−(3/R)c′，不先假设参数场C1。二阶均值响应及三阶μD必要条件明确，受迫高模/全频逆/有限分支未授。

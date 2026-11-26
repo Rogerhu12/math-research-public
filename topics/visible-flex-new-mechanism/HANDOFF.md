@@ -6,7 +6,7 @@
 
 ## 1. 规则与接手
 
-已部分克隆并实际 `git pull main`，公开根 README、课题 README、HANDOFF、open、results 索引及相关 log/notes 已读。公开已读提交 **45277e50a8b19cf857cd2e2e953bdd357009046c**（2026-11-26 07:57 UTC；本次实际pull后根/题README空差异）；私有根初读 **85fdf1853367ef25c07f3ebdb6ae25c22a3564b8**，随后逐次 pull/rebase 检查根差异，空差异。私有 QUEUE 的本题已改为本会话进行中并成功推送：**9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7**；最后实际pull及规则同blob读至 **d6fc2f5c519bd5481b5e0ef67fca1c08c7b6eb9a**（2026-11-26 07:21 UTC；实际pull/rebase后根README空差异、QUEUE仍本会话）。其它课题的并行认领保留。
+已部分克隆并实际 `git pull main`，公开根 README、课题 README、HANDOFF、open、results 索引及相关 log/notes 已读。公开已读提交 **c58f12f832e0207dabb919174c868121d9638ec8**（2026-11-26 08:01 UTC；本次实际pull后根/题README空差异）；私有根初读 **85fdf1853367ef25c07f3ebdb6ae25c22a3564b8**，随后逐次 pull/rebase 检查根差异，空差异。私有 QUEUE 的本题已改为本会话进行中并成功推送：**9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7**；最后实际pull及规则同blob读至 **d6fc2f5c519bd5481b5e0ef67fca1c08c7b6eb9a**（2026-11-26 07:21 UTC；实际pull/rebase后根README空差异、QUEUE仍本会话）。其它课题的并行认领保留。
 
 各原观察note保真实双仓pull/规则blob/QUEUE回执；根/题规则均无变化。盘满和失联恢复原记录保于[先前交接](notes/HANDOFF-before-hard-restoration-20261126.md)，本次压缩前全文保于[几何转向前交接](notes/HANDOFF-before-compact-geometry-20261126.md)。API读取不冒git pull。
 
@@ -28,7 +28,7 @@
 [R565](results/R565-parallel-oval-core-exact-reach-and-amplitude-budget.md)证平行椭圆柱reach=r+q²/p；新p=.85、q=r=.15给A1/B.3及reach3/17，非旧g。[v2失败](notes/2026-11-26-inverse-first-run-radial-fold-failure.md)细η1.19855/3.78338、κ74208/26180，径向漏谷且球/条带失败；不再延长原软权重49圈。
 
 
-[R566](results/R566-flat-oscillatory-cap-tail-and-graph-reach.md)的固定有限公式尾在rc=.22到r=.30全平且K无限变号；完整凸底域graph片reach>.1832，但不含跨块。[R569](results/R569-fixed-oscillatory-tail-and-flat-infinitesimal-bending.md)对同一w已实际构造角频2非零全平无穷小等距场，全部导数exp(−c/δ³)，外端真ODE；X+tV非有限等距。[原R569种子终态](notes/2026-11-26-r569-seed-first-run-receipt.md)准确DtN截断与浮点误差分开；表内|f_rr|约5.05e7、|v_rr|约3.94e8，不能宏观放大；外端f/fr负，转新尾/真实shooting，不盲增M。[R571](results/R571-milder-phase-tail-flat-kernel-and-core-shooting-zero.md)换明确新尾w=.8exp[−(2−sin(δ^-1+φ))/δ]，统一patch reach>.08670；实际一维全平核、相位连续和负holonomy均证。周期真实连接下C_core必在某φ*准确零、A_core非零，故双固定平帽的闭旋转背景已有真实线性匹配。新[相位shooting计算包](notes/2026-11-26-r571-phase-shooting-implementation.md)已发布：M25、实接C²圆柱、φ根/导数/同根加密、同场A_core=1代价及4/6/8有限探针；结果待原终态。有限非线性/全闭reach仍欠，φ设计变化非同g弯曲。
+[R566](results/R566-flat-oscillatory-cap-tail-and-graph-reach.md)的固定有限公式尾在rc=.22到r=.30全平且K无限变号；完整凸底域graph片reach>.1832，但不含跨块。[R569](results/R569-fixed-oscillatory-tail-and-flat-infinitesimal-bending.md)对同一w已实际构造角频2非零全平无穷小等距场，全部导数exp(−c/δ³)，外端真ODE；X+tV非有限等距。[原R569种子终态](notes/2026-11-26-r569-seed-first-run-receipt.md)准确DtN截断与浮点误差分开；表内|f_rr|约5.05e7、|v_rr|约3.94e8，不能宏观放大；外端f/fr负，转新尾/真实shooting，不盲增M。[R571](results/R571-milder-phase-tail-flat-kernel-and-core-shooting-zero.md)换明确新尾w=.8exp[−(2−sin(δ^-1+φ))/δ]，统一patch reach>.08670；实际一维全平核、相位连续和负holonomy均证。周期真实连接下C_core必在某φ*准确零、A_core非零，故双固定平帽的闭旋转背景已有真实线性匹配。新[相位shooting计算包](notes/2026-11-26-r571-phase-shooting-implementation.md)已发布：M25、实接C²圆柱、φ根/导数/同根加密、同场A_core=1代价及4/6/8有限探针；结果待原终态。有限非线性/全闭reach仍欠，φ设计变化非同g弯曲。[R574](results/R574-exact-nonlinear-height-equation-and-core-flux-transversality.md)已给准确二次Darboux式、核心通量和有限差Green身份；真实零处D=−(3/R)(C/A)′，二阶均值响应可积分。受迫高模/正定developing边界/有限分支仍欠。
 
 [硬几何首run](notes/2026-11-26-hard-exchange-first-run-restoration.md)与[原门识别续接](notes/2026-11-26-hard-resume-first-metric-progress.md)完整闭账：B030末V=.00054365/η2.089589，B038首次fine可行并降η至.86360747；均止于未采用1536角超过原768容量。实际原q/网格/trust保，原资格不因新预算改判。
 

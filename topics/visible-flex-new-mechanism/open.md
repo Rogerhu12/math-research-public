@@ -108,6 +108,10 @@ R513同类cap排除、R518固定宽接口、R520/524/527/529原20母的返回障
 
 [R571](results/R571-milder-phase-tail-flat-kernel-and-core-shooting-zero.md)用明确的δ^-1相位族构造全平角频2真核；统一局部graph reach>.08670，准确单谷DtN控制给一维核和相位连续。相位绕2π时归一种子变负倍数，周期真实connector因此存在C_core=0且A_core≠0的φ*，双开平帽固定的闭旋转背景上真实线性匹配已付。[实算入口](notes/2026-11-26-r571-phase-shooting-implementation.md)已发布：M25/紧容差/M+1、真C²connector、核心C=0求根/敏感度、A_core=1同场全尾/连接二阶代价及4/6/8有限探针。原终态后继续有限非轴对称旋转度量嵌入并冻g精化；设计相位φ变化不是所需同g族，背景厚度也不是有限弯曲的全reach。
 
+### R574：准确非线性方程和真实核心通量接口
+
+[R574](results/R574-exact-nonlinear-height-equation-and-core-flux-transversality.md)给固定g的准确二次Darboux式及γ=g−dZ²的条件developing。用有限差Wronskian先保实际端点，再证明真实零处核心归一残差可微且D=−(3/R)(C/A)′；不先假设场C1、不漏归一平方因子。二阶均值有全平显式响应，j4仍须真正求受迫解，三阶μD只必要条件。下一实解非线性，核心高模允许自由生成，并支付γ正定、退化核心C2极限、全闭嵌入和原宏观门。
+
 ### R567–R570：同χscalar/pose/第二/第三已返回，继续整个第四
 
 [R567](results/R567-complete-next-order-history-and-eight-exact-matrix-moments.md)继续R564同母/固定χ/真实跨带和R563三个低尾；完整第三保r1横列、两种复合顺序、真实等待、初次快准备和所有有限桥。整个参数盒的细尺度组合消项控制为O(M²/R)+o(1)，不把旧o(M)改叫o(1)。一次大Ω给严格双回路锥条件，再取有限大R、统一小δ；同一个4+1+2端图及原P2停止使P0=P1=P2=T1=R1^y=S1^y=S0^y=R0^y=0，故原完整m=A=0。
