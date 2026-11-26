@@ -6,9 +6,9 @@
 
 ## 1. 规则与接手
 
-已部分克隆并实际 `git pull main`，公开根 README、课题 README、HANDOFF、open、results 索引及相关 log/notes 已读。公开已读提交 **f8912eafa6d420f72107455c71cf2fd8044259b6**（2026-11-26 05:37 UTC；本次实际pull后根/题README空差异）；私有根初读 **85fdf1853367ef25c07f3ebdb6ae25c22a3564b8**，随后逐次 pull/rebase 检查根差异，空差异。私有 QUEUE 的本题已改为本会话进行中并成功推送：**9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7**；最后规则空差异读至 **6354c0f712b212f94dfa393f996d1ca47b5d9165**。其它课题的并行认领保留。
+已部分克隆并实际 `git pull main`，公开根 README、课题 README、HANDOFF、open、results 索引及相关 log/notes 已读。公开已读提交 **ab5d8cefd5ccfc294ebf85408e539a4565b3362f**（2026-11-26 05:56 UTC；本次实际pull后根/题README空差异）；私有根初读 **85fdf1853367ef25c07f3ebdb6ae25c22a3564b8**，随后逐次 pull/rebase 检查根差异，空差异。私有 QUEUE 的本题已改为本会话进行中并成功推送：**9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7**；最后实际pull及规则同blob读至 **ba1cda6de426c27058a55bfa0da33aa731a55d70**（2026-11-26 05:54 UTC）。其它课题的并行认领保留。
 
-初始执行盘仅余约 11 MB，普通历史的 blob:none 部分克隆仍在对象索引阶段磁盘不足，未改变远端。随后以 `--filter=blob:none --depth=1 --sparse` 在本次临时目录成功克隆两仓；公开仅检出本课题，私有仅根文件。终端 git 已恢复；旧交接中 11-16 执行环境不可用的描述不是本次现状。令牌只在命令行临时环境使用。
+初始执行盘仅余约 11 MB，普通历史的 blob:none 部分克隆仍在对象索引阶段磁盘不足，未改变远端。随后以 `--filter=blob:none --depth=1 --sparse` 在本次临时目录成功克隆两仓；公开仅检出本课题，私有仅根文件。终端 git 已恢复；旧交接中 11-16 执行环境不可用的描述不是本次现状。令牌只在命令行临时环境使用。05:48执行环境中断且临时盘清空；期间连接器只读规则并暂存未挂ref的源码/证明blob，未冒实际pull或科学执行。05:54环境恢复后两仓再次部分克隆及实际pull；已发布结论无损，未发布数值源码按明确新修订重建。
 
 每次 pull 后比较上次已读提交的根/题 README，差异立即读；至少每小时一次，读过 SHA 随本文件更新。root 负责 git/refs/push，子代理只写分配的独立文件。原数值运行范围不重开、不挪用失败 raw 充当前初值；本次新计算须独立说明模型、参数和实际范围。按旧 open 的运行安排，科学执行使用公开 Actions；本地作纸面推导与源码/已有日志解析。根 12 不增设冻结复跑审批，根 15 只留脚本/参数/run/哈希/结论，不保存可重算大数组。
 
@@ -33,14 +33,14 @@
 
 **33母（保原20/cap/13与一次固定χ）**：R533–554已给真实局部正则速度、负Π、k>2、返回层、总p2零/Π负或p1/p2共同零；完整t1速度负费未消。R558真γ=0正t1弧、R560短快变高度有号面积均已计真实历史，净t1仍负。下一为同一完整F/history的长程变高度返回及正净t1，不从局部正则自动推长时存在；其余矩、T、pose、period仍欠。
 
-**R521正交母（不继承33母的原20/cap/13）**：R544同χ真实负p1/正t1；R548–557完整历史转向、三P和其后矩清零；R559/R563用真实长快回路得到 $P_0=P_1=P_2=T_1=R_1^y=S_0^y=0$。余 $S_1^y,R_0^y$ 未清。R562/R563在既定尺度类给完整 $R_0^y>0$；闭振子的负交叉修复受同步 $S_0$ 费用约束。下一探索同χ的新负R0真实作用，连同桥、incoming history、S0/T1费用和六矩端图共同支付；不能只用形式权重或不同χ拼接。
+**R521正交母（不继承33母的原20/cap/13）**：R544同χ真实负p1/正t1；R548–557完整历史转向、三P和其后矩清零；R559/R563用真实长快回路得到 $P_0=P_1=P_2=T_1=R_1^y=S_0^y=0$。R562/R563在原既定尺度类的完整 $R_0^y>0$ 边界保留。新[R564](results/R564-negative-coupling-crossing-and-seven-exact-moments.md)跨过B的简单零点而保持Ck>0，完整两侧补偿桥、窄带快跨越、退化四端控与全部incoming已付；同χ双回路实际端IFT再清 $R_0^y$，故七矩准确同零。余 $S_1^y$ 及所有原未清period/pose/13仍欠；两回路在R0配平后的S1贡献负，不把它误作独立可调方向。下一同一真实词处理S1及共同费用。
 
 R555余五槽的真实Gram/有序面积身份继续有效；R526的倒行完成仍以实际M0/K0块为前提；R517周期scalar自动M0仍以真正合法周期轨道为前提。所有“尚未付”的端口不因下游条件定理自动消失。
 
 ## 5. 本次正在做的工作
 
 1. 从已终止 run 的原日志闭 joint168 旧账；研究全域 metric 约束交换与局部空间控制，不重复已失败实例。
-2. 在 R521 同χ母研究余两矩，优先落实真正负R0入口及其全部共同费用。
+2. R564已付同χ七矩零，继续最后S1及原period；保持同词完整history和已清七矩的真实端图。
 3. 检查 O1/O3 的新可用几何：圆领相位组装允许如实 $\delta_E=0$，但非旋转完整连接仍须实际构造；T-surface/管形必须同时满足闭合、二jet、全时reach。
 
-主要入口：[open](open.md)、[当前索引](results.md)、[早期几何索引](results-index-early.md)、[日志](log.md)。本会话分工笔记为 `notes/2026-11-26-geometry-continuation-agent.md`、`notes/2026-11-26-real-path-moments-agent.md`、`notes/2026-11-26-new-mechanism-agent.md`；未完成笔记不登记为已证明结果。每写完一条结论立即提交推送，接下一开放项。
+主要入口：[open](open.md)、[当前索引](results.md)、[早期几何索引](results-index-early.md)、[日志](log.md)。本会话分工笔记为 `notes/2026-11-26-geometry-continuation-agent.md`、`results/R564-negative-coupling-crossing-and-seven-exact-moments.md`、`notes/2026-11-26-new-mechanism-agent.md`；未完成笔记不登记为已证明结果。每写完一条结论立即提交推送，接下一开放项。

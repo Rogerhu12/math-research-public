@@ -180,3 +180,5 @@
 - [joint168 遗留运行闭账与全体段漏峰](notes/2026-11-26-geometry-continuation-agent.md)：**原输出观察**，1200秒solver钟停无返回/候选/actual，仍58；末非候选κ约46.2343而全域η约.783839，固定selected池漏峰。新1234.031220492秒、祖5018.790751846/147；report祖记录误分类已定位，下一全域约束交换。
 
 - [R565 平行椭圆柱核心的准确reach与幅度预算](results/R565-parallel-oval-core-exact-reach-and-amplitude-budget.md)：**已证明**半轴p/q椭圆外偏移r的柱面reach恰r+q²/p；固定外轴A/B时随r严格增加。新固定p=17/20、q=r=3/20有A1/B.3及reach3/17，保持原.3D条件见证、显著增加核心厚度余量；完整连接/固定新g精化/全闭reach仍未付。
+
+- [R564 负耦合跨越与同规范七矩准确零](results/R564-negative-coupling-crossing-and-seven-exact-moments.md)：**已证明**原H/H0先固定后一次取大中心，B有可穿越简单零而Ck始终正；两侧真实补偿反馈、窄带快跨越与退化端控的全部history/费用均付。同一实际双回路与完整端IFT给P0=P1=P2=T1=R1^y=S0^y=R0^y=0；仍余S1及全部原period/pose/13，不授完整闭面或主完成。
