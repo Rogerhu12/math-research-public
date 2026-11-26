@@ -10,7 +10,7 @@
 
 - **R1005（已证明）**：[有限Gauss伴随多项式及完整共振误差](results/R1005-finite-Gauss-companion-and-complete-resonance-defect.md)。原A截到ℓ−1的指定P满足L_A P=−7P_d z^d/144；完整Wronskian是1−z^ℓC/B(1)²，P_d=−16/(7B(1)²)、C+3zC′=B且C(1)=B(1)²。原目标精确为[z^m]QB^r/P^r，必须保留全部P根留数，未证其非零。
 
-- **R1004（已证明）**：[CM交叉迹的精确偶赋值及任意层下界](results/R1004-exact-even-valuation-at-CM-cross-primes.md)。在R320原分支、p≡5 mod12与q≡1 mod12且q∣2a³−1下，v_p((g_q−j_q)/4)是偶数；实际pⁿ同构迫q≥p^(4⌈n/2⌉)+8p^(2⌈n/2⌉)+4。精确保留全局n与单一检测器的区别，不推出a/c上界。
+- **R1004（已证明）**：[CM交叉迹的精确偶赋值及任意层下界](results/R1004-exact-even-valuation-at-CM-cross-primes.md)。在R320原分支、p≡5 mod12与q≡1 mod12且q∣2a³−1下，v_p((g_q−j_q)/4)是偶数；实际立方条件另给3|v，pⁿ同构迫q≥p^(4⌈n/2⌉)+56p^(2⌈n/2⌉)+676，q7mod12给4p^(2n)+27。精确保留全局n与单一检测器的区别，不推出a/c上界。
 
 - **R1003（已证明的范围纠错）**：[主目标的全局量词与真实未覆盖分支](results/R1003-global-scope-and-remaining-branches.md)。R1只归约到完整非分裂正规化子；p≡2,5 mod9来自另加的小惯性，R317应用还需整j、固定K、σ=1及小除法域同一。恢复完整惯性、变化域等开放支路；下界不能当排除。O1/O2完成亦不独立完成Serre主目标。
 

@@ -113,7 +113,7 @@ R907原j1 run43924786163只因pre-core配置KeyError停止；[schema修复](note
 
 ## O6：保留的其他全局路线与永久边界
 
-[R1004](results/R1004-exact-even-valuation-at-CM-cross-primes.md)继续R320：指定CM交叉迹差在p≡5mod12的赋值总为偶数。实际pⁿ同构给q≥p^(4⌈n/2⌉)+8p^(2⌈n/2⌉)+4；这些迹差的奇/偶相邻检测阈值等价，不给全局p²提升，也不限制a/c。继续真正全局参数控制。
+[R1004](results/R1004-exact-even-valuation-at-CM-cross-primes.md)继续R320：指定CM交叉迹差在p≡5mod12的赋值总为偶数。实际立方条件还给3|v，pⁿ同构给q≥p^(4⌈n/2⌉)+56p^(2⌈n/2⌉)+676，q7mod12给4p^(2n)+27；这些迹差的奇/偶相邻检测阈值等价，不给全局p²提升，也不限制a/c。继续真正全局参数控制。
 
 
 固定41全部129盘已由R707完整关闭，八CM/无有理尖点；不重开、不外推一般p。R101/R109等有限层尖点与整j结果保原scope，有gap的BBM全p≤97分类不能作输入。R4已排通常Runge捷径：实际提升域尖点轨道数等于无穷位数。

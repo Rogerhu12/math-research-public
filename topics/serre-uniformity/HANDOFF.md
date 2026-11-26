@@ -6,7 +6,9 @@
 
 **维护会话：Astra-serre-24b8836b-20261126。** 2026-11-26接手；已部分克隆并真实pull main。前态逐字见[接手归档](handoff-archive-2026-11-26-before-resume.md)，旧来源/run/hash沿原归档链保留；不重做已成结论。
 
-**已读公开规则提交：c6c862648120cda17464512feda731d3302d8a4b**（2026-11-26 13:44 Asia/Taipei；pull --rebase后两README无diff）。两README已读；每pull核diff记SHA，至少每小时pull。私库根规则已核36cf1ed2；QUEUE认领已推233f7479。
+**已读公开规则提交：bd8cbb9d84c5ababd78a803ddbc1aea7a3a06a66**（2026-11-26 13:55 Asia/Taipei；终端断连后读取远端main并核两README无diff）。两README已读；每pull核diff记SHA，至少每小时pull。私库根规则已核36cf1ed2；QUEUE认领已推233f7479。
+
+执行宿主现不可用；按根规矩8用GitHub小文本tree/commit及非强制ref更新继续，每次先读main核规则，拒绝即在新head重建，终端恢复后补pull --rebase。
 
 根维护main/H/open/index/log；子研究仅写各自notes。每条结论完整证明后立即提交，push前pull --rebase；NFF立即重复，禁force。凭据只CLI。H<10KB、open<30KB、每MD<100KB、topic<200MB；不提交可重算raw，不写根LOG。已读log/最新notes；R1003只有旧H“准备中”文字，当前树无稿，不当已交付结果。
 
@@ -26,7 +28,7 @@ R969三点actual span核已过；R971严格排全p full-span，未排特定A/E4�
 
 R997/R1000原ε-vector、交换轴、完整bulk及+8A边界已成；原mask杀全部自身边界迭代，低项48不能代同h。完整尺度与回执见[本轮H前态](handoff-archive-2026-11-26-before-R1004.md)。
 
-[R1001](results/R1001-norm-seven-dual-Poincare-source-and-original-filtered-tensor.md)：α=2+s,Nα7，Wα=(x³−cα)σ6、cα=−(2+6s)/7。真dual产品Pα=αWα(z)Wbar(t)K(αz,t)K(z,−barαt)=−σ(αz+t)σ(z−barαt)/(barα σz²σt²)，两cross取消、M†M8I给L6×L6轴pole≤2。完整Π4zΠ0tP=V⊗Wbar+F⊗(Aαx³+Cα)S，V=x4S；减全部polar后x^−1∇t给 **−6Aα F⊗G**，Aα=4(5+6s)/7、Norm16·19/7单位。原critical完整卷积/全部原mask已给，单K总阶≤p−6整；全首p投影唯一p边界−6Bz^(p−1)Wbar，减V支真消。裸balanced trace虽unit比例，乘积必须保所有卷积，高carry/near-p非零仍开；root/literature全文独审，无执行。
+[R1001](results/R1001-norm-seven-dual-Poincare-source-and-original-filtered-tensor.md)：真实norm7双Poincaré源在全部极部扣除后给−6Aα F⊗G，Norm Aα=16·19/7单位；完整critical卷积、首p整界和唯一p边界已证明。单balanced trace不代全乘积，高carry仍开。全部尺度与来源见结果及[前态归档](handoff-archive-2026-11-26-before-spectral-route.md)。
 
 [R1002](results/R1002-ten-step-theta-companion-and-four-free-CM-jets.md)：真实W_(p−9)/η4=f权p−11，full Katz输入仍p−9，十步 L=T0…T−9=A^−1(A²D)^10A^−9，右6^−10A11XY。仅有限u至X11、∂u=1+O(X15)，不假完整charp primitive。J=<1,X³,X6,X9,X12>上rank1，kernel为A9u^e(e0/3/6/9)，特解c*X12单位；实际f的ord∈{0,3,6,9,12}且受global weight界。原末列(p−7)!Z=432D³f+75XDf−9Yf，mark/Y0^N=79R0−96R1；局部方程允许该值零或非零，不能代实际global归一。root/audit/literature全文独审，无执行。
 
@@ -56,7 +58,7 @@ R991已完整认证R989旧r8差集349点（1000..20000），原三路/全hash见
 
 ## 全局后继
 
-[R1004](results/R1004-exact-even-valuation-at-CM-cross-primes.md)：R320原分支p5mod12的CM交叉迹差有准确偶赋值；实际pⁿ同构迫q≥p^(4⌈n/2⌉)+8p^(2⌈n/2⌉)+4。n1/2界相同；该检测器不能给全局p²提升，a/c上界仍开。
+[R1004](results/R1004-exact-even-valuation-at-CM-cross-primes.md)：R320原分支p5mod12的CM交叉迹差有准确偶赋值；实际立方条件另给3|v，pⁿ同构迫q≥p^(4⌈n/2⌉)+56p^(2⌈n/2⌉)+676；q7mod12给4p^(2n)+27。n1/2界相同；该检测器不能给全局p²提升，a/c上界仍开。
 
 ## 继承任务与永久边界
 
