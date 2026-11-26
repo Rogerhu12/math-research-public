@@ -1,0 +1,109 @@
+{
+  "schema": "6a65-M12-entire-original-source-CX-and-microspan-execution-receipt-v1",
+  "date_UTC": "2026-11-26",
+  "session": "Astra-visible-flex-6a65e705-20261126/g5-and-exact",
+  "source_files": {
+    "scripts/6a65-m12-entire-half-actual-field-geometry-transfer.py": {
+      "sha256": "d6e31c7be1b700a0a6d5ef33048ce2376229de421c9afde64670cc6c367f46b6",
+      "bytes": 7221
+    },
+    "scripts/6a65-m12-entire-half-cold-with-continuous-budgets.py": {
+      "sha256": "6c92f75e752d5c581b7642a576905c3c6fa436a174a8f4ff711e38d862a98136",
+      "bytes": 6888
+    },
+    "scripts/6a65-m12-entire-half-original-span-observer.py": {
+      "sha256": "2bd23a49bcfe06d05f6a22dc1dd744161428bfbbbe27a24cc902638e1eb8b0d2",
+      "bytes": 8708
+    },
+    "scripts/6a65-m12-original-common-cut-prefix-source-bounds.py": {
+      "sha256": "b71e1b7bd0c02a19d047793574afcf49e41a2378435f73e7cf56efef65f8a9d3",
+      "bytes": 12548
+    },
+    "scripts/6a65-m12-stream-tail-query-and-source-bounds-recovered.py": {
+      "sha256": "f890c445f635713c70db43446c67f8825baf457a2c9c17c0c770c296acad278b",
+      "bytes": 13897
+    },
+    "scripts/6a65-m12-tail-polynomial-continuous-bounds-recovered.py": {
+      "sha256": "be6f687af2a0056145aad60737dac613f3d79680aec7ec2cdafb584dda1d6e72",
+      "bytes": 6531
+    }
+  },
+  "all_six_python_sources_compiled": true,
+  "fraction_polynomial_identity_checks": {
+    "count": 60,
+    "all_equal": true
+  },
+  "scope": "Full old R21 common-cut active half coordinate second jets; original microspan reference-only observer. No old CI field is claimed to have survived or passed the new checker.",
+  "tail": {
+    "exit_code": 0,
+    "seconds": 711.8817639329936,
+    "resident_high_water_KiB": 64656,
+    "report_sha256": "2c62cfbee09b36cd615e906cbaf238984a8171bc43a912afdcfd8e8d3bd4802a",
+    "cache_sha256": "6c16f10158f1cceb321d40f3a2eb7c300e9064bf233df0fc772bc2dae842fba8",
+    "blocks": 24,
+    "finite_spans": 18552,
+    "deep_collar_spans": 1,
+    "continuous_source_second_jets": {
+      "upper_exact": "2600000000000000444089317/100000000000000000000000",
+      "display": 26.000000000000004
+    },
+    "row_stream_sha256": "965d7c04d888679baf436b68c6ff31c8744d882cfcd0457ceeb9d51920959eda"
+  },
+  "prefix_and_entire_source": {
+    "exit_code": 0,
+    "seconds": 37.014825115009444,
+    "report_sha256": "f63d8e2db5c94c77bde7bf0835a6f8f62b1ebf1b6d35687db3ac59108bb453f8",
+    "source_cells": 2569,
+    "chart_pieces": 65,
+    "prefix_C_X": {
+      "upper_exact": "892221414543810294436238237/200000000000000000000000",
+      "display": 4461.107072719052
+    },
+    "entire_half_C_X": {
+      "upper_exact": "892221414543810294436238237/200000000000000000000000",
+      "display": 4461.107072719052
+    },
+    "prefix_row_stream_sha256": "75320338af08c429dc7d9e6eff85a79f4d6f7e5f8d9c4c13a49c40000ad45d80",
+    "chart_row_stream_sha256": "de1fae697e46f9ecdb905c5c31ad30803a31568b7e999d6d1f92b743e1377aaf"
+  },
+  "exact_endpoint_derivative_identity": {
+    "raw_last_block_sha256": "89fe80d3453aa25978c343f7d58d51a31dd1d3fe37e6fffcdd48cfc31b551249",
+    "raw_last_block_bytes": 1787305,
+    "cache_sha256": "6c16f10158f1cceb321d40f3a2eb7c300e9064bf233df0fc772bc2dae842fba8",
+    "first_dtype": "<f8",
+    "second_dtype": "<f8",
+    "first_vector_sha256": "00a6583002243097fa7d22969aba82e5a3a4ac4ca7bc773696fdc7a113f2494f",
+    "second_vector_sha256": "1dbd81f6ce7728ec75b8130af017426c279ea582b715a73d285453465f118ab2",
+    "checks": {
+      "first_is_original_binary64_bytes": true,
+      "second_is_original_binary64_bytes": true,
+      "both_dtype_float64": true
+    },
+    "all_checks_pass": true,
+    "source_definition": "Original raw binary64 Fr/Frr endpoint columns copied without arithmetic; exact dyadics, not rounded evaluated derivatives."
+  },
+  "original_microspan_reference_only": {
+    "exit_code": 0,
+    "seconds": 63.921540226001525,
+    "report_sha256": "4fed70299db0ef450f04c7227e092a683d1e8d5366fd81fe2e9adf0b2b020407",
+    "raw_sha256": "2a5ccec2672592cde425b74f8606c8853fda56ec4c9cb0fa332bc368cf84ecea",
+    "reference_only": true,
+    "points": 297,
+    "source_spans": 74,
+    "angular_nodes": 768,
+    "peak": {
+      "metric_peak": 1.9672081297272825e-08,
+      "radius_exact": "542612886509611909244449147375433587809719/1247347073977141182794646048914448905666560",
+      "radius_numerical": "0.43501355623459441778",
+      "common_q_numerical": 2.2023120352036494,
+      "source_span": 17149,
+      "angle_index": 640,
+      "angular_nodes": 768,
+      "whole_basis_element": 190
+    },
+    "inverse_q_radius_roundtrip_max": "1.4032286617393641137e-16"
+  },
+  "new_whole_same_job_chain_executed": false,
+  "actual_saved_solver_field_geometry_consumed": false,
+  "raw_storage": "Recomputable raw in temporary directories only; no Git, artifact, or release upload."
+}

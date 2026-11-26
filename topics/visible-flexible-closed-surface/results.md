@@ -5,6 +5,8 @@
 
 ## 新增结论
 
+- [R230：M12完整原源连续二jets与实际场全时传递](results/R230-m12-entire-original-source-jets-and-actual-field-transfer.md)：原2569前缀格、准确M64接头/65片角图及18552尾格/真实collar全计入，准确有理C_X<4461.108；实际全尾711.882s及前缀37.015s真0。新增297个原微span观察点揭G8漏峰；同job保存场连续几何消费接口已付，尚未冒实际新场通过。
+
 - [R229：新gap前15格完整准确积分归一化](results/R229-new-gap-first15-exact-integral-normalization.md)：支付实际随径向变化的角逆、中心与比例两导数和自身曲率；全域相对metric<4.112e−6、自身κ<9.868，0.208s真0。准确椭圆周长定义保持中央C2，末格/字面有限求积consumer/whole reach另付。
 
 - [R228：新gap前15单元的连续自身曲率](results/R228-new-gap-first15-native-own-curvature.md)：实际全部768系数、R227紧Gram与真实单位法向/正交shape谱区间给全域κ<9.866914，960完整闭盒/0分裂、32.228s真0；末coast修复格和normalized完整链另付，未冒whole reach。

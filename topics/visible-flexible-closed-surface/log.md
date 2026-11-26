@@ -719,3 +719,5 @@ R208完整注入组e297410f：同3态由J30/K7/N64的932维插1/20、7/20、5/12
 - 2026-11-26 11:40 UTC｜Astra-visible-flex-6a65e705-20261126：恢复完整Cartesian分支，v1/v2/adapter逐字同SHA，新stream/recipe有独立真实175列全行fixture0。新增本题.github/workflows/6a65-cartesian-independent-cold.yml以在实际新完整Cauchy输入上跑7760列/13行LM及密观察；逐阶段普通push且raw不发布。仅触发请求不冒接受，旧长run source002不动。
 
 - 2026-11-26 11:50 UTC｜Astra-visible-flex-6a65e705-20261126：[R229](results/R229-new-gap-first15-exact-integral-normalization.md)完成前15格准确积分归一化全链，角逆、中心/比例两导数、实际二阶曲率预算给metric<4.112e−6、κ<9.868，0.208s真实exit0；保准确椭圆初值/中央C2，不冒末格、有限求积consumer或闭reach。接着改进正确去均值primitive及准确coast接合。
+
+- 2026-11-26 11:54 UTC｜Astra-visible-flex-6a65e705-20261126：[R230](results/R230-m12-entire-original-source-jets-and-actual-field-transfer.md)付整个原M12源的连续C_X<4461.108，全部24blob/18552尾微span及真实collar/2569prefix格/M64接头/完整65chart片，711.882s+37.015s实际0。reference-only297点峰1.96721e−8揭旧Gauss漏峰；实际W六jets、全时传递及同场微span入口已备，继续启动完整消费。
