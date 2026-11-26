@@ -1,0 +1,76 @@
+{
+  "run_id": 45814432637,
+  "job_id": 139890356949,
+  "scope": "Actual two-linear Ke input; preserve real outcome, no implicit exclusion",
+  "lowering": {
+    "count": 6,
+    "new_open_factors": [],
+    "scope": "exactly equivalent to frozen original seven equations on the SAME original Pi chart",
+    "seconds": 5.173071065000002,
+    "stage": "universal_lowering_identities_complete",
+    "unit_A_reason": "lowered norm and old Pi",
+    "unit_T_reason": "lowered jet and old Pi plus A"
+  },
+  "two_linear": {
+    "count": 2,
+    "new_open_factors": [],
+    "scope": "same localized ideal: C and G now each degree <=1 in d",
+    "seconds": 5.234128505000001,
+    "stage": "two_linear_universal_identities_complete",
+    "unit_A_reason": "retained Nnew and unchanged Pi"
+  },
+  "input": {
+    "address_space_limit_bytes": 4294967296,
+    "bytes": 597168,
+    "field": "QQ[e]/G9",
+    "field_irreducibility": "already proved by original prime-37 Rabin identities",
+    "generators": 8,
+    "inverse_variable": "n=1/Pi",
+    "physical_variables": [
+      "d=w-s",
+      "z",
+      "x",
+      "s"
+    ],
+    "seconds": 5.2546732899999995,
+    "sha256": "ad480bdbc75d0ed0d2da3c7fc13ca66aab22ef14d1c913837b17d305e712e095",
+    "stage": "singular_Ke_input",
+    "wall_limit_seconds": 900
+  },
+  "outcome": {
+    "limit_seconds": 900,
+    "outcome": "unresolved",
+    "seconds": 905.431003347,
+    "stage": "true_Ke_bounded_timeout",
+    "stdout_sha256": "04e5ea78f4948ce25bca0ac99472277385f3a8e850c773701601266ab4e7ef46",
+    "text": "ISP_KE_FIELD_RELATION_VERIFIED\nISP_BEGIN_KE_LIFT_SMOKE\nISP_KE_LIFT_SMOKE_VERIFIED\nISP_BEGIN_TRUE_KE_ORIGINAL_LIFT\n"
+  },
+  "execution_receipt": {
+    "elapsed_seconds": 905.7872238900001,
+    "max_child_rss_kib": 1421112,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "128f1d4dfde7823404f3e5c7aa7446dfd653e1f2",
+        "before": "bc05818d4e52ccdbe16b1df5ba632d3b3e3a7c0a",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "fef43bdf8690f2eec4751d85784a266eacdd0322"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-26T11:53:01.687157+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "45814432637",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-347c-20261126",
+    "source_commit": "bc05818d4e52ccdbe16b1df5ba632d3b3e3a7c0a",
+    "source_exit_code": 1,
+    "source_git_blob": "70cde76699e9a440c638c5908f6dc907724fac1d",
+    "source_sha256": "9b5d4fd8d4371fb623bd9aedd975e18e566eddfc6a633190c9d922a5b115eba5",
+    "stdout_bytes": 9502,
+    "stdout_sha256": "f7bc6f89efd7ac4a21f0c2d656ec5869aaf84b7b6f7b39f7e70b7c6cf0d8e0c6",
+    "stop_reason": null
+  }
+}

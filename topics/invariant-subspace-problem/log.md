@@ -259,3 +259,6 @@ AI-assisted GPT-6 Astra Pro：[输入检查点](notes/2026-11-26-small-original-
 
 ## 2026-11-26 12:06:10 UTC — Astra-ISP-347c-20261126：三约化H零边含∞的完整图关闭
 AI-assisted GPT-6 Astra Pro：[原物理完整证明](results/R150-appendix-rank-three-reduced-degenerate-Gram-zero-edge-infinity-exclusion.md)保两混合相位及第三根可重，原QQ23/72结式扩展gcd乘回1，实际0.075555984秒/exit0。新pull到3a751a8、两README未变；L0精确因子回执同推，继续其二次ρ图及三约化H有限零边。
+
+## 2026-11-26 12:10:46 UTC — Astra-ISP-347c-20261126：L0原二次因子转入真QQ交点
+AI-assisted GPT-6 Astra Pro：[新输入检查点](notes/2026-11-26-L0-quadratic-factor-checkpoint-347c.md)保Φ首项R²为原单位、全P1首项零面及未闭补因子；新共享workflow只执行其原QQ伪余式/结果式。另据实登记第三种H21真Ke900秒未决，八条恒等式通过不作单位证书，继续新原几何。
