@@ -5,7 +5,7 @@
 
 ## 1. 授权、规则与继承
 
-公开本次实际pull且根/题README已读至 **e5b5cd4b9c32d64dd8d69d1f4b06a848377e0e9b**；根/题规则相对继承0749a4cc仍为空差异。私库实际pull/根README已读至 **67ef1777c8910b9bfb7ccff27c1c9d832a5d373e**，2026-11-26 23:15:24 UTC空diff；下次不晚于2026-11-27 00:14 UTC。QUEUE唯一仍本会话进行中，原认领09f8b8b54e。
+公开本次实际pull且根/题README已读至 **0e05f69b7ab68de9092430dc554b0aab346e32ff**；根/题规则相对继承0749a4cc仍为空差异。私库实际pull/根README已读至 **67ef1777c8910b9bfb7ccff27c1c9d832a5d373e**，2026-11-26 23:15:24 UTC空diff；下次不晚于2026-11-27 00:14 UTC。QUEUE唯一仍本会话进行中，原认领09f8b8b54e。
 
 每次pull只读根/题README差异并记SHA，至少每小时；NFF/ref锁立即pull --rebase再推至成功。root独占git和四索引，每条结论即推；科学只公开Actions，本地只纸证/源码及原日志JSON/hash解析。根12不重放已付门；根15不存raw/可重算表，必要新场再生全计费。H<10KB/open<30KB/md<100KB；publisher活跃不改tracked。
 
@@ -37,7 +37,7 @@ R617有限pre+post刚性不授有限误差下界。R618已付同完整E/同均�
 
 ## 6. 原十九态：R625首终态与新规范坐标续算
 
-R616原自然stall仍为31接受/1753.553893449秒，细四端过但原ruling1.31489e14，eta近边而无系数墙；不再扩旧盒。已证R619真M首层局部流、R620原有限ε三角规范/全Jac、R624唯一支合法输入、R625真实尾M/Vs与必要符号、R626完整两正定尾二次型/四次交，见open原链接。它们不代整段原根。
+R616原自然stall仍为31接受/1753.553893449秒，细四端过但原ruling1.31489e14，eta近边而无系数墙；不再扩旧盒。已证R619真M首层局部流、R620原有限ε三角规范/全Jac、R624唯一支合法输入、R625真实尾M/Vs与必要符号、R626完整两正定尾二次型/四次交与[R627](results/R627-joint-terminal-threshold-on-the-true-tail-box.md)原盒联合正阈值，见open原链接。它们不代整段原根。
 
 [R625首次原终态](notes/2026-11-27-r620-r625-first-full-feedback-natural-final-agent.md)run45905314619/job140200536341/source84f5f986；28.886597651秒/0接受。新D/q已付：q≈.034196522884657424；原65×19状态JSON25413B/SHA0717a6f6、完整seed/C²/固定fine均已付。首次trial因numpy.bool JSON序列化失败，非stall；ODEmax3.95860921e16，原fine ruling1.798592718e14/真末max1.465946528。首LU fraction1.4353266e−31，未落日志的完整方向/条件数不可补造。
 

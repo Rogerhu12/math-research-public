@@ -356,3 +356,6 @@
 
 
 - [R618真全尾均值支与帽口积分界](notes/2026-11-27-r618-true-tail-mean-anchor-bounds.md)：**已证明明确输入界下的条件分支与积分界**；全尾κ单调/连续根、全部Gaussian三jets和积分、原j≤32加权e750−D/|c|、canonical512/pre-tanh/forced全项齐付。纯向外区间helper未科学执行；真实全部系数、源误差与同model/response身份必须消费，不把underflow或零中心区间当真实零函数。
+
+
+- [R627原尾盒两侧末方程的准确联合阈值](results/R627-joint-terminal-threshold-on-the-true-tail-box.md)：**已证明真实末假设下的完整充要条件**；原参考支持/正权给差二次项严格不定及显式负行列式余量，差曲线负半平面上的强度函数proper、每分支像为闭射线。共同末jets存在 iff τ≥τ_joint>0，严格以上2至4点、临界非横截；不把当前未返回曲线当实例或代原十九态全程。
