@@ -57,3 +57,5 @@
 - [R973](../results/R973-original-degree130-arithmetic-spectrum-and-e260-source.md)：完整W2⊗W5⊗W13与全部有限环面角色给20标签/22维：14维mu6、8维真非mu6，含E125/E12500的13-old双重数；由全部局部角色识别12条Q上j0来源，不由两好位猜曲线。固定E260的(4,18)、(−4,14)以两独立三下降像给rank≥2；全部2/3/5/双13角色、Haar、Schwartz、全权平方及ordinary/inert通常全Selmer桥已付。同次v5 Π260 H130=Φ260/81而Π260 F130=0，完整余块保留；跨p非零仍开。
 
 - [R976](../results/R976-original-cross-complete-22-and-66-spectrum.md)：run45884058894/job140130269899完整22/66及44维delta-new的全部81共同块实际通过，两原全算子十二次恒等、全幂等/分量和均返。F130准确只有−11Φ*/2及E125质量零13-old方向，非mu6全零；H的E260系数1/81而其四nonmu6块均非零，去两秩二线仍首项1/189。原delta-new三条质量零线系数29/216、7/270、167/360；原cross相应完整投影5Z/48、7Ψ35/60、167Ψ53/80，后二条身份尚待全有限角色。保全部质量/余块，不给mixed或产品免费中央零。
+
+- [R979](../results/R979-fixed-7993-full-balanced-line-and-original-double-new-bound.md)：在原固定p=7993消费R817三个实际负二非零及Castella A.1.1，给三个整个Selbal=E·zcan和ordinary strict核0，不把canonical改名原c1。用同格本原z的完整惰性检测及全部H²挠连接类，原同一双新下降在逐m正密度Q_m上满足p^Bκ=0、B=exp H²(C0)_tors+vpD，无需c1非零；深返回仍为H¹(J⊗T)。允许原x12/κ为零，不限制辅助模数，不推出c1、s0或跨p非零。

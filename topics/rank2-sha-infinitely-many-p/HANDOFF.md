@@ -6,10 +6,10 @@
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。有限p、随p换曲线、条件桥和接口成功不算完成；固定有限曲线族的联合无穷非零可以再用无限鸽巢选定一条。
 
-- 两仓库已部分克隆、实际pull。公开根/课题 README 已读至 `bcb4117809c98707f79dbb228734ff119c384cef`（差异为空）；每次pull检查两文件差异，至少每小时同步并更新此SHA。
+- 两仓库已部分克隆、实际pull。公开根/课题 README 已读至 `a69af6ff76c829d68cdea098e88f81ca18284980`（差异为空）；每次pull检查两文件差异，至少每小时同步并更新此SHA。
 - 私库QUEUE接手已推 `41fe885610073f478b2f5a752461ca56cfd43f09`，根/本题README于20:03 UTC复核至eb74b5a78f485b18621f95381131a88bbd62467c（差异空，QUEUE仍本会话）。两本地目录为math-research-public、math-research-private；终端可用，令牌仅进程认证，不入文件。
 - root独占git/共享H/open/log/index；结论完成即推，非快进立即pull --rebase、检查README再推至成功；不强推。数学执行用公开Actions，不保存可重算数据/矩阵/log。H<10KB、单MD<100KB。
-- 本次完整旧状态保在[压缩前H](notes/2026-11-27-handoff-before-whole-cross-spectrum.md)。它链接[接手原H](notes/2026-11-27-handoff-at-takeover-0b097461.md)、[v8前H](notes/2026-11-27-handoff-after-v8-launch-before-degree130.md)及2026-11-26全部历史链。所有未关闭旧门仍在[open](open.md)及两卷proof index，未默删。
+- 完整旧状态沿[本次压缩前H](notes/2026-11-27-handoff-before-fixed-7993-and-old13.md)及其中历史链保存；全部未关闭门仍在[open](open.md)与proof index，未默删。
 
 ## 一、实际几何与中央计算
 
@@ -17,11 +17,11 @@
 
 唯一run45882239615/job140124138541，source `3b0fe32226b1f91ec37ef68a8d53ff865e9d9b26`，19:15:47 UTC进入数学step4，当前运行。固定Sage10.6/离线只读、r29/q2453/batch64/minimal、两特征零PASS pins、45源和原全七式/两图/四交/九对/全厚/18×9保持。实际theta17由原六常数读取，不假定tiny值。
 
-前一v7 run45838674625/job139974211422/source6e79456a于16:20:03 UTC实际AssertionError，原因是相对商域degree被当绝对次数；非超时/OOM，原F/四交/shadow未返。完整日志及失败位置在[实际终点](notes/2026-11-27-artinian-v7-final-and-successor.md)。更早Fv3在首MD84/306列处350分钟超时124，Fv2退出137；全部原hash/阶段在旧H及几何note。
+前v7 run45838674625/job139974211422/source6e79456a实际相对/绝对次数AssertionError，无原F/shadow；旧Fv3在MD84/306列超时124。全部阶段/hash在[几何终点](notes/2026-11-27-artinian-v7-final-and-successor.md)。
 
-**R974已证/实过**：保原底域嵌入、omega、全部相对/绝对坐标及厚范数的native有限域表示。tiny run45881262808/job140120885101/sourcecd894128真实success，五case/双层返回/非Fp原Norm[21,17]通过；完整result/log/hash见R974§7。v8只把不向原几何提供任何对象的独立人工1530例改显式opt-in，未执行记False/None；真实F/P/厚Norm门不减。
+R974已证/实过：保原底域/omega、全部双向坐标和每层厚Norm的native域。tiny45881262808/job140120885101五case通过，接唯一v8；人工1530例不供给几何，仅opt-in记False/None，真实门不减。
+R975已证/未执行：真实一/两行生成全列gcd才作Bézout，完整尾Popov重置，非pair原回退；主块max(D,3δ+1)及全attached界已付。独立helper不被v8导入。
 
-**R975已证/未执行**：同原全列gcd的一/两行主元后重置完整Popov尾块，主块界max(D,3δ+1)、attached真界和非pair回退均付。独立original_pair_reset_row_reduction.py已推，不被当前v8导入；不预报pair存在或提速。
 
 ### 原中央完整谱v5已返，保共同carry新来源接v6
 
@@ -35,11 +35,7 @@ v6 run45886844420/job140139542933/source6f9a83a8于19:58:37 UTC真实success；�
 
 **R970**：固定E*:y²=x³+65³精确rank2，两2下降像完整付；2/3/5/双13的全部角色/Schwartz、degree130全权实平方和ordinary Katz/inert signed通常全Selmer桥保持。
 
-**R971**：同原六sigma真实轴A+c+10d，F*=S34·σ(10z)/(5σ(2z))；完整五倍除法给PS·J5全部22坐标，首阶6/质量0。整Gram(130,3900,540,270,120,8)、det norm70963776000000、双逆/半特征和四方向CM五伴随转移已证，全部旧mixed行保留。
-
-**R972已证/实过**：run45881262820/job140120885384/sourcecd894128完整66→22 pull/trace、两CM双向返回及目标共同核维数1。Phi首阶6、全有理最小分母385；ΠH130=−11Phi/405，ΠF*=−11Phi/2。伴随质量−11/2为单位；物理尺度65³/(17·385)，不能误写65。完整H和F自身均非算术线。
-
-实际SZ=−11δ*Phi/1215+(δ*Hperp)/3+Rnew；Hperp首项10/567，Rnew首项2/35，均非零。span{Z390,δ*Phi}加入SZ准确rank2→3；原cross算术投影−11δ*Phi/270不等于整个读数。全部精确source/log/stdout/矩阵hash在R972。继续R976全余谱和真实有限角色，不能凭投影非零赋整个cross中央零。
+**R971–972已证/实过**：同原六sigma轴A+c+10d给完整F10=σ130x²PS·J5，整Gram/双逆/全半特征/四CM五伴随均付；完整66→22 pull/trace及唯一算术线同run45881262820/job140120885384真实返回。Φ*分母385、ΠH=−11Φ*/405、ΠF10=−11Φ*/2，原物理65³/(17·385)与伴随单位保留。SZ=−11δ*Φ*/1215+δ*Hperp/3+Rnew，两个余项首项10/567和2/35均非零；SZ使span{Z,δ*Φ*}的rank2→3，不能消整个cross。
 
 **R973已证**：完整W2/W5/W13全部有限角色给20标签/22维，14维mu6+8维真非mu6；E125/E12500为13-old重数二。固定E260:y²=x³+260两独立三下降像给rank≥2，全部2/3/5/双13 Schwartz、Haar、全权平方及ordinary/inert通常全Selmer桥完整付。原完整22唯一线(4,5)，v5 Π260H130=Φ260/81、Π260F130=0；其余8条primitive Q曲线质量非零/rank0，非mu6不冒Q椭圆来源。跨p非零仍开。
 
@@ -62,6 +58,8 @@ v6 run45886844420/job140139542933/source6f9a83a8于19:58:37 UTC真实success；�
 R909 F、R906 P特征零PASS，R924–927全原模型/两图306/46971乘积/六厚cusp/maps及dF1296已付。每E度39840，成本2256+r*dF或2256(r+1)；原u/λ/vnew/微分/∞O/返回17、三退化、omega/Artin(2,0,1)、Z02=Z/Z20=−Z和18×9双轴不能换。四交00/01/11/12、全厚长/边界/Tate迹/shadow仍等v8；7993只证明canonical对象。
 
 R885/897全finite/wild范数及Artin/尺度保持。R891/893/940/945仍以前提原c1≠0：深增广来自H¹(J⊗T)，不是JH¹；残余B=v+vpD不付H²自由、ordinary局部或s0。原lambda Hodge(3,0)/twist(2,−1)，usual core0/balanced core1、R859 inert反CM/ordinary错号不改。
+
+**R979已证**：在固定7993以R817实际canonical Katz非零和Castella A.1.1得三个完整Selbal=E·zcan、ordinary strict核0，无需原c1非零。原双新κ在逐m正密度检测Q_m上满足p^Bκ=0，B=H²(C0)挠指数+vpD；保全部残余连接类，深返回H¹(J⊗T)。允许x12/κ=0，不限制辅助模数，非c1/s0或无穷p非零。
 
 本轮[Kato/全Selmer文献核查](notes/2026-11-27-mixed-weight-period-audit-and-height-difference-scope.md)逐式核两张比较图和BKO通常Selmer上界，无新缺口亦不重复编号。Adachi高度差只给非平凡，不给rank2 determinant；ordinary CM还被其假设排除。全部O4/O6/O7、P134/十九角/charge40/10980、全WD/TM/TJ及旧严格群门见open及历史索引，未关闭。
 
