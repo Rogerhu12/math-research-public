@@ -33,4 +33,4 @@
 
 - [R964](../results/R964-original-e65-rational-off-target-unit-commutator.md)：原66维有理Π和真实α_h给显式G=(324/25)(7ReδF+ImδF)，ΠG=0、Π(d/h7·G)=Z。G,Z在原canonical61格，真实两行[[1,0],[qS,1]]单位，完整交换子像OZ+O(d/h7)Z primitive秩2、核59。保C24准确1/7尺度；合法whole joint off-target已给，但不把边际Q2整除升级到所有伴随系数，不传播中央零，继续原H/2完整对应及全部混合cut。
 
-- [R965](../results/R965-original-e65-full-joint-dyadic-companion-unit-inverse.md)：同原Lh两全来源共J指数4且完整半特征相同；显示pure-comp u/v的Norm131/71与全中心给四码Heisenberg。绝对η=(-e0+e1+eω+eω²)/2，三项D=ΣU_rV_ωr/2满足h=Dρ、D²=−3/4及完整单位逆。原lift取指定奇次幂压到E[16]^5，保全部中心/整性/模型尺度；经Πfirst交换得到全Λh=DΛρ，不误称C_h交换。原mixedcut准确为9a/2乘三条tame中心积分，全部cut及测试顺序仍保，未给新中央零或无穷性。
+- [R965](../results/R965-original-e65-full-joint-dyadic-companion-unit-inverse.md)：同原Lh两全来源共J指数4且完整半特征相同；显示pure-comp u/v的Norm131/71与全中心给四码Heisenberg。绝对η=(-e0+e1+eω+eω²)/2，三项D=ΣU_rV_ωr/2满足h=Dρ、D²=−3/4及完整单位逆。原lift取指定奇次幂压到E[16]^5，保全部中心/整性/模型尺度；经Πfirst交换得到全Λh=DΛρ，不误称C_h交换。原mixedcut准确为9a/2乘三条tame中心积分，全部cut及测试顺序仍保，未给新中央零或无穷性。 §9简代表仅用输入1/5/6，原中心精确相同并同时固定S/T/W±/Z观察；与重排原34块H/P/Rc及Q深核真交换，四态h34/h56严格分开，非新forcing。

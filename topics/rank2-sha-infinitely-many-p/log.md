@@ -281,3 +281,5 @@
 - 2026-11-26 14:09 UTC / Astra-rank2-Sha-7d29daa5-20261126：R956§7完成完整矩形原像的忠实平坦/单常数核身份，并在同一函数内部实施整条Fp列约束链。H不缩放、Y不乘γ、原M及全厚目标不变；每列目标γ和舍弃pivot γ⁻¹给完整原域提升，与native分别记操作流，末尾实际核Y·原M整返原H及原monic index。既有三角tiny v2增加真γ 3×2/完整官方kernel及全部目标坐标/重复非分裂厚层/zero/双fallback；只原tiny触发，当前F和heldv6不动，尚未预记新增PASS。
 
 - 2026-11-26 14:14 UTC / Astra-rank2-Sha-7d29daa5-20261126：原三角tiny source6ae52365/run45836149006/job139965432077实际success（14:10:21UTC，13源码AST/0.492784613s）。根亲取完整log并核manifest/result摘要、真γ 3×2/非分裂2、3厚层/官方全kernel和每个目标坐标/zero/双fallback，以及native与原lift两流和scale4。R956§7.5登记实际回执，§8登记已根审v7三个源码blob及原306接受门；45源/所有旧原门保持。v7仍持有未触发，唯一F未结束，原除子/shadow未冒PASS。
+
+- 2026-11-26 14:16 UTC / Astra-rank2-Sha-7d29daa5-20261126：R965§9发布同lift简代表u′=((3+4ω)r,0,0,0,−3r/2,−δωr/2)、v′=(barγ7 s,0,0,0,δs,0)。根推导/双审完整J差、中心E=−37/−19，实际U′=U/V′=V；同时固定S/T/W±/Z观察，消去先前仅整Bezout的δ假障碍而不引入3中心。真实与重排34块H/P/Rc/Q核交换，明确U_*hraw=ω²h34且h34≠h56，四态不冒新增forcing。H完整归档后压缩，当前F14:15仍step4。
