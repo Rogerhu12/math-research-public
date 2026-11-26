@@ -24,6 +24,8 @@ R969公开三点113/131/227得到全mask rank10/11/19、A/E4组合及额外两q�
 
 [R1006](results/R1006-end-column-linear-cyclic-dimension-and-filtered-nonstability.md)：固定Eichler源在q^p前精确约化到原端列；完整Fuchs方程/有理无穷远指数、Jacobi带宽和固定Taylor子式证明端列G循环维数≥cp。与原本原列数结合，得一整无限允许素数等差族原V不G稳定。故全p稳定路线关闭；原mark与特定A/E4包含未否，继续它们。
 
+[R1009](results/R1009-end-column-order-four-CM-jet-bound.md)：原端列P_p在p≥41、p5mod6且p∤8093时，粗CM消失阶≤4。真实十步方程经q^p精度/次数界转成固定PF非齐次方程，五个实际局部源输出的Taylor矩阵准确三角化，最后主项3⁴·8093/(2²⁰·25·11)；因此某j≤4的G^jP_p标记非零。该四阶在局部源中可达到，不决定真实零阶mark；5∤p+1时端列保留，继续证明原筛选列的真实有限CM来源，不要求全V稳定。
+
 [R995](results/R995-original-mixed-source-for-the-first-coarse-CM-normal-jet.md)：原E−/Y−864、K=G⊗H+6F⊗Y_s、∇=∂−6ζ下，Π4DJ=Π4D²J=0使完整D³(∇²J)的两个中间Leibniz块真消；实际三支为G‴/216⊗𝒜+12uF′⊗(3𝑀−12G)+F⊗(12𝑀−144G+6ℛ)。复用旧MH3–4热式，全部P1/P2/P3与216P1P2保留，𝒜=∇²H‴，ζ修正不消G‴支。Ψ_ij首项=(a+1)(a+2)(a+3)g_(i+1)𝒜_j/216；原G(Z)mark=(25Z+Ψ)/144，E−正号/原mask/尺度不换。两个实际Taylor阶≤p−4,p−5、ζ权≤p−2，均整。root/literature逐式独审；新项尚无原retained关系，不冒G稳定或同h。
 
 [R996](results/R996-original-end-column-cusp-unit-and-filtered-space-nonzero.md)：原末列Z_(p−7,1)=12T_(p−7,3)的完整norm-one Gaussian给尖点常数233/(p−7)!；p233为8mod9，原允许类排除，故此列全p全局非零。原h=p−4的primitive iff5∤p+1、Legendre=P4(1/s)=19/9单位，故 **5∤p+1整族的原filtered V≠0已证**。5|p+1时此列被删；CM mark仍开；全p稳定性已由R1006否定。一般cusp完整式a!CT Z_ab=[v^b](∂−6ζ0)²Π3(e^v(1−v/2)^(-b−6))保全Gaussian/ζ，首p整界和单Bernoulli简式已核，不假其为原Legendre。
@@ -96,6 +98,8 @@ $$
 [R1007](results/R1007-deck-compatible-CM-correspondence-height-valuation-obstruction.md)：原μ3相容对应的修改对角满足ND_Z(c0)=3D_Z(c0)、D_Z(y)=D_Z(c0)−2Z[y−c0]。同一真实整高度格及N/Z自伴、NG=0、ZG=λG、λ∈ℓZℓ下，指定高度必在ℓ²Zℓ；原纯CM对应不能满足新valuation-QC的赋值1条件，一致改基点或整splitting不解除。保η_h与清分母；底曲线块及其它全高度关系仍开。
 
 [R1008](results/R1008-wild-inertia-and-all-rational-correspondence-centralization.md)：原canonical level6p全H¹在三处野惯性平凡；原κ₄κ_d⁻¹扭曲将一个野惯性元素实现为δ，实际偶分支d∈Q₃ cubes。故整个End_Q(J_d)均中央化δ，包含非CM/旧形式/全部重数。R1007的三挠Picard投影及ℓ²高度整除因此适用于全部有理自对应，关闭原曲线上的新nondeck入口；保留底曲线η_h、其它完整高度及O0范围。
+
+R696已由同一个实际全局Φ的局部中心化子证明候选的λ₂=λ₃=0、Ω_actual={0}，原及实际偶分支均包括；R832已消费。此旧结论不计算一般Q₃点值域，不删η_h，后继不重复零靶论证。
 
 R921/R924的实际整completed Hom、两节点极界、完整inertia和原a_h均已解决相应normal首层问题。中央p^−a_h G_h整restricted且最高项单位；几何开盘零数由最小单位下标决定，不是有理零数或height。
 

@@ -8,6 +8,8 @@
 
 ## 新增结论（2026-11-26）
 
+- **R1009（已证明）**：[原端列四阶CM消失界](results/R1009-end-column-order-four-CM-jet-bound.md)：原端列P_p在p≥41、p5mod6且p∤8093时，粗CM消失阶≤4。真实十步方程经q^p精度/次数界转成固定PF非齐次方程，五个实际局部源输出的Taylor矩阵准确三角化，最后主项3⁴·8093/(2²⁰·25·11)；因此某j≤4的G^jP_p标记非零。该四阶在局部源中可达到，不决定真实零阶mark；5∤p+1时端列保留，继续证明原筛选列的真实有限CM来源，不要求全V稳定。
+
 - **R1008（已证明）**：[全部有理对应的野惯性中央化](results/R1008-wild-inertia-and-all-rational-correspondence-centralization.md)：原canonical level6p全H¹在三处野惯性平凡；原κ₄κ_d⁻¹扭曲将一个野惯性元素实现为δ，实际偶分支d∈Q₃ cubes。故整个End_Q(J_d)均中央化δ，包含非CM/旧形式/全部重数。R1007的三挠Picard投影及ℓ²高度整除因此适用于全部有理自对应，关闭原曲线上的新nondeck入口；保留底曲线η_h、其它完整高度及O0范围。
 
 - **R1007（已证明的精确范围排除）**：[R1007](results/R1007-deck-compatible-CM-correspondence-height-valuation-obstruction.md)：原μ3相容对应的修改对角满足ND_Z(c0)=3D_Z(c0)、D_Z(y)=D_Z(c0)−2Z[y−c0]。同一真实整高度格及N/Z自伴、NG=0、ZG=λG、λ∈ℓZℓ下，指定高度必在ℓ²Zℓ；原纯CM对应不能满足新valuation-QC的赋值1条件，一致改基点或整splitting不解除。保η_h与清分母；R1008现将结论推广到原及实际偶分支全部有理自对应，底曲线块及其它全高度关系仍开。
