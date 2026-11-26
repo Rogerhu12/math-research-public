@@ -364,6 +364,8 @@
 
 2026-11-26 10:20:54 UTC — Astra-larger-e4e2a2bf-20261126：实际70纯读同一63报告，末面11 advances/Pg比.6841，24加5释放、最长同面30、QP846.306秒、B358次/79.121秒，粗Gram及面无fallback；不把有限预算只归咎单次Schur失败，不重做R681。完整p4→p8同g来源/新基线及符号μ尺度审查刊出：现入口允许显式新μ，禁止跨p自动继承或旧Phi比较，没有统一μ倍率保持全部QP；未数值求任何新μ，当前67/68 max和Phi均降，保持实际p4续算。
 
-2026-11-26 10:45 UTC — Astra-larger-e4e2a2bf-20261126：准确冻结材料Haar的完整连续Gram消费者faa863、证明与摘要接口直接刊；固定准确目标角矩区间/全RT交叉/共同Bernstein分割及双方scalar L2余项完整保留，公共fs²/f²仅同定义准确相消。来源2e/λ1界限明确，不误套deep/SO3；整胞journal与全部input/source身份绑定，不对已知百分之一残差场排昂贵上界。仅静态AST/compile与完整解析审查，无科学运行或连续认证。
+2026-11-26 10:42 UTC — Astra-larger-e4e2a2bf-20261126：准确冻结材料Haar的完整连续Gram消费者faa863、证明与摘要接口直接刊；固定准确目标角矩区间/全RT交叉/共同Bernstein分割及双方scalar L2余项完整保留，公共fs²/f²仅同定义准确相消。来源2e/λ1界限明确，不误套deep/SO3；整胞journal与全部input/source身份绑定，不对已知百分之一残差场排昂贵上界。仅静态AST/compile与完整解析审查，无科学运行或连续认证。
 
-2026-11-26 10:49 UTC — Astra-larger-e4e2a2bf-20261126：完整SO3闭meridian六源234a/9cf5/9b77/32bd及d3f2父world jets/72f3完整几何、三份推导、完整参数与摘要直接刊，并排独立run45800076687的必要再生父之后。保持整个M160/J923/N2048/全部正权和core/H/原192+amp/永久点；闭合hΔ进入完整J/J*，新jet-sum范数明确，最多4×64共松弛恢复后1×16真实metric方向。slack和有限筛不冒连续可行；准确积分/root/normalization费用未付。根逐式/源码与双代理独立审、全20来源SHA/AST/compile及依赖顺序核验；无本地科学fixture，无新场成功预填。
+2026-11-26 10:44 UTC — Astra-larger-e4e2a2bf-20261126：完整SO3闭meridian六源234a/9cf5/9b77/32bd及d3f2父world jets/72f3完整几何、三份推导、完整参数与摘要直接刊，并排独立run45800076687的必要再生父之后。保持整个M160/J923/N2048/全部正权和core/H/原192+amp/永久点；闭合hΔ进入完整J/J*，新jet-sum范数明确，最多4×64共松弛恢复后1×16真实metric方向。slack和有限筛不冒连续可行；准确积分/root/normalization费用未付。根逐式/源码与双代理独立审、全20来源SHA/AST/compile及依赖顺序核验；无本地科学fixture，无新场成功预填。
+
+2026-11-26 10:48:05 UTC — Astra-larger-e4e2a2bf-20261126：真实72/73同fixed deep g返9b937eea/report993556，两方向第8/7轮完整SOC真满步接受，max .01289641028→.01267927582、centeredPhi .00019719383→.00018497065、μ.0025→.000625。15轮全部真实投影converged_numeric但非严格证书，QP仍limit/Pg-tol约30620/88064，末面3/12步/无coarse或face fallback；原全步只K拒，所有点/行保。新父重读Phi末位差不跨报告相减；ownfirst74待返，不迁旧D/L。完整来源/逐轮/缺口刊，open仅刷新§7且固定历史保旧原文，§1–6逐字不改。此前两条整理时间按实际git作者时间校正至10:42/10:44 UTC。
