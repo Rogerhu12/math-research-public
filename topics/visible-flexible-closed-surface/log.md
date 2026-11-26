@@ -184,3 +184,5 @@
 - 2026-11-26 12:28 UTC｜Astra-visible-flex-6a65e705-20261126：[冷启动独立首接受](notes/2026-11-26-6a65-cartesian-cold-first-actual-acceptance.md)run45812620369子进程1073.140s真实exit0，全13行7760列、α1，完整R²69144.79→16795.95；metric2.38717/denseκ171535.8仍不合格。LSMR80/stop7未称收敛，独立计数1不加原Cauchy；结束job raw不借续态，继续同身份缓存及多步真实求解。
 
 - 2026-11-26 12:33 UTC｜Astra-visible-flex-6a65e705-20261126：[R234](results/R234-actual-entire-half-field-all-phase-geometry-and-meshes.md)run45815969723真实同一W通过全时reach/D>.03105876、held/D>.05278322、含反射δE>0，并真生成三份4471284B完整STL；全7stage1578.303s真0。连续metric三角界4.862155e−6未达门槛；micro峰1.93343e−8仍元190，继续保旧节点/旧观察的h档，不冒完成。
+
+- 2026-11-26 12:35 UTC｜Astra-visible-flex-6a65e705-20261126：[原元190同g加密](notes/2026-11-26-6a65-m12-element190-source-aligned-h-preparation.md)仅插66原源simple knots，362→428元、35378→41846列，旧网格全保；追加8个旧G8点使观察是真超集。后缀准确恢复12.904s/最终prepare13.835s真0，3791准确queries；rev3完整10stage+STL请求已写，真实新solve待返回，不预报下降。

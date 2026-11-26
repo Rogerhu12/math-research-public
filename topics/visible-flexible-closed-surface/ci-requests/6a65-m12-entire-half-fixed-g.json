@@ -1,6 +1,6 @@
 {
   "schema": "6a65-M12-entire-half-fixed-g-request-v1",
-  "request_revision": 2,
+  "request_revision": 3,
   "scope": "Original central-to-true-cuff half including prefix, bridge, finite tail and deep collar; the radius-.6 internal seam is free.",
   "original_metric_unchanged": true,
   "true_flat_cuff_included": true,
@@ -17,5 +17,18 @@
   "continuous_source_and_actual_field_budgets": true,
   "original_microspan_observer": true,
   "complete_three_phase_STL": true,
-  "numerical_solver_configuration_unchanged": true
+  "numerical_solver_configuration_unchanged": false,
+  "local_element": 190,
+  "source_aligned_h": {
+    "window": [
+      ".432",
+      ".436"
+    ],
+    "simple_knots": true,
+    "all_old_knots_retained": true,
+    "old_independent_observer_retained_in_union": true
+  },
+  "original_g_source_angle_gauss_iteration_and_step_settings_unchanged": true,
+  "comparison_actual_run": 45815969723,
+  "comparison_actual_field_sha256": "cc306594546fd27754fa6ee8b8bcca2e329933e604d69020738ebb95cce177b3"
 }

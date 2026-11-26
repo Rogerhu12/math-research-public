@@ -1,0 +1,73 @@
+{
+  "schema": "6a65-M12-element190-source-aligned-h-preparation-receipt-v1",
+  "date_UTC": "2026-11-26",
+  "source_files": {
+    "scripts/6a65-m12-entire-half-local-source-knot-cold-run.py": {
+      "bytes": 9074,
+      "sha256": "44e3f2082c6f5bbcef9cc88f3450ffb10c4146abfc7eaa42f51105ff50a58648"
+    },
+    "scripts/6a65-m12-entire-half-local-source-knot-prepare.py": {
+      "bytes": 7578,
+      "sha256": "bd5a876026ef535d661f911e1f302b42dbb89329946b72bf0a086f66fc2bf431"
+    },
+    "scripts/6a65-m12-entire-half-old-observer-union.py": {
+      "bytes": 5516,
+      "sha256": "3240869420d2dfb975f71cfae48772b30d780a4989adcd6b9e7e3fd8355826b4"
+    },
+    "scripts/6a65-m12-original-tail-local-knot-suffix.py": {
+      "bytes": 5685,
+      "sha256": "8794dc0f510b399f8726f988461a641b46e7808eb185b13c959d8f689e44ca63"
+    }
+  },
+  "all_four_python_sources_compiled": true,
+  "suffix_recovery": {
+    "exit_code": 0,
+    "seconds": 12.90397185200709,
+    "blocks_read": 3,
+    "bytes_read": 10624295,
+    "source_node_count": 75,
+    "source_node_first": 17102,
+    "source_node_last": 17176,
+    "recipe_sha256": "9c943e53e7568a54886911a29eb885c0a1d6596cc0522f2031dd995f53caa7f3",
+    "all_75_Fraction_nodes_and_indices_equal_R230_full_forward_stream": true
+  },
+  "final_h_prepare": {
+    "exit_code": 0,
+    "seconds": 13.83476617000997,
+    "grid_sha256": "1820e8994f3a16af7c9e030465ab6d4eb89ed0a8f94ae493164b6bed078bbba3",
+    "query_file_sha256": "2cdbcd42135ef6f4d8588a4c85ed82e9c0e07a0cb073c9ef04d06b9cb5ff64bd",
+    "elements": 428,
+    "unknowns": 41846,
+    "added_knots": 66,
+    "training_radial_nodes": 2568,
+    "independent_radial_nodes": 3424,
+    "additional_old_observer_points": 8,
+    "exact_tail_queries": 3791,
+    "old_knots_all_retained": true,
+    "new_multiplicity": "simple",
+    "same_original_g": true,
+    "r_q_roundtrip_max": "1.3945550443594800782e-16"
+  },
+  "plan_only": {
+    "exit_code": 0,
+    "source_hashes_checked": true,
+    "stage_names": [
+      "prepare-base-grid",
+      "recover-original-local-knots",
+      "local-source-knot-h-refinement",
+      "exact-tail-queries-and-continuous-source",
+      "continuous-prefix-and-entire-source",
+      "whole-half-solve",
+      "R226-actual-field-continuous-six-jets",
+      "actual-field-all-phase-geometry-transfer",
+      "actual-field-original-microspan-observer",
+      "old-independent-observer-preserving-union"
+    ],
+    "actual_stages_executed": [],
+    "plan_sha256": "dc66384d0eaf4c4f8234fb375d68dff3212301dca54f1e113095402774cde38f"
+  },
+  "full_h_numerical_solve_executed": false,
+  "new_actual_field_geometry_consumed": false,
+  "new_error_decrease_claim": false,
+  "raw_storage": "Temporary local/runner only; no Git/artifact/release data."
+}
