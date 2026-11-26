@@ -575,3 +575,8 @@ ef674完整旧载体必要再生准入07：26612B完整源、12671B逐成员依�
 ### 2026-11-26 23:50:01 UTC — Astra-larger-e4e2a2bf-20261126
 
 登记0b6d03完整detached矩阵来源证明及最窄实现合同：从a62c完整局部控制jet逐项推出J3=M0、J6下三角(M0;M1,M0)、J9下三角(M0;M1,M0;M2,2M1,M0)，完整M1/M2含全部total angular链；τ与zero-target只在加法右端，不影响局部矩阵，却不能复用根/residual/接受状态。准确复用须同调用完整data/point/model/源/φ顺序/previous3×6/frame3×3×6/eta、kind和阶/mesh权字节相同且detached；只缓存原函数真实返回完整矩阵，不由公式拼float阵。原_solve_stage与两Jacobian/ba3d九AST保持，所有每阶段根/IFT链保。root全文审；此为完整分析，尚无实现/执行/hit/加速或误差证据，不阻断07独立包络方向，课题继续。
+
+
+### 2026-11-26 23:55:32 UTC — Astra-larger-e4e2a2bf-20261126
+
+07第3整dc5真实恢复926db：run45909290354/1第3实际completed0、sourcecommit40f73dbacdd18bab36cda4cd6b421a1d1b917694，原ef674整源不变，2397live/4793 evaluated及准确uncertainty/profile/radius核同，完整NPZ SHA dc5且227202B真正匹配旧05。其后实际打开两个NPZ，完整cells/u/Gauss dtype/shape/字节与当前7c8全同；report19691B/926db461...，binding1537B/aaa65a5e...，全源/全部参数/6必要Gauss字及精确数组SHA保新note。F/J/root=0、内部389.466s，不重跑旧优化。支付跨run径向地址身份，未支付旧φ来源/P0完整继承、未知protected旧次序或新场全E物理真筛/连续证书；新consumer仍须独立重hash/read，不能只信producertrue。两可选failure字段summary缺失如实记录，非科学失败。06/07继续，未完成。

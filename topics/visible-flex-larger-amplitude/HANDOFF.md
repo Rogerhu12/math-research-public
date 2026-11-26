@@ -4,7 +4,7 @@
 
 ## 规则与完整目标
 
-最近规则核查：2026-11-26 23:51:14 UTC，真实pull/rebase至 `69a4744bf72716b0f35a35852fd2a6880cb335ce`，双README相对`bb4e153184cd532f7a12231d2fed82577762ae43`无差异，继续遵守全部规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
+最近规则核查：2026-11-26 23:56:03 UTC，真实pull/rebase至 `47c74c6b1cc94b225c653a0e7472afbff357dd1d`，双README相对`8f76886b40d2ce3cc99ef591255a5915f16bb043`无差异，继续遵守全部规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
 
 科学计算仅本公开仓库Actions；执行偏差见[早前记录](notes/2026-11-20-public-actions-execution-correction.md)及[四次大JSON整读纠正](notes/2026-11-26-large-file-connector-read-correction.md)。root唯一分支写者；结论即普通推，NFF立即rebase循环，不强推。每次pull核双README差异并遵新规，至少每小时，记commit。raw只scratch/runner，不入Git/Release/artifact；保完整小源/参数/run/SHA/紧凑结论。题≤200MB、单文件<5MB、MD<100KB、H<10KB、open<30KB。令牌仅瞬时CLI。终端失联与恢复/云API普通快进记录保7774固定H；旧scratch迁移未确认，不冒恢复。
 
@@ -47,7 +47,7 @@
 
 [06完整重建入口](notes/2026-11-26-run06-complete-parent-reconstruction-and-current-PCG-entry.md)全部原28+十二父、三SOC/第四方向责任保，finish=false。首启动45903578703在fetch未公开规则ref时退出，科学未开始；[完整原因/实际修复](notes/2026-11-26-run06-startup-failure-unfetchable-rules-commit.md)已换实读公开HEAD，科学源/queue不改。新父/地点/μ只读新run真实返回，再接当前八列PCG。
 
-[07完整原输入](notes/2026-11-26-run07-complete-warm-reference-bootstrap.md)两步已返；同3df warm/e640准确参数，新carrier7c8≠旧dc5。[完整地点闭包与独立包络合同](notes/2026-11-26-seed19-permanent-location-source-closure-and-envelope-policy.md)已刊：root选policy2，已知e783前缀保、全E真筛/typed分离、未知protected不冒false；[旧载体必要再生](notes/2026-11-26-actual-run05-carrier-deterministic-input-reconstruction.md)ef674按真实2397叶、整dc5硬核已排07；跨run责任待真返。05 API取消、仅18完整返，19未知；不空历史。
+[07完整原输入](notes/2026-11-26-run07-complete-warm-reference-bootstrap.md)两步已返；同3df warm/e640准确参数，新carrier7c8≠旧dc5。[完整地点闭包与独立包络合同](notes/2026-11-26-seed19-permanent-location-source-closure-and-envelope-policy.md)已刊：root选policy2，已知e783前缀保、全E真筛/typed分离、未知protected不冒false；[旧载体真返](notes/2026-11-26-run07-actual-restored-old-carrier-and-radial-word-identity.md)第3已整dc5/227202恢复，cells/u/Gauss与07全字同，report926db/bindingaaa65；新场全E消费仍待。05 API取消、仅18完整返，19未知；不空历史。
 
 
 
