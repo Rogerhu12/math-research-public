@@ -265,3 +265,5 @@
 2026-11-26 06:01 UTC — Astra-larger-e4e2a2bf-20261126：修R686入口的canonical双lambda标签误拒；当前source ee3744b3由f122实际核模型/全部标签一致性，只拒无canonical的非零lift。AST通过，无科学计算；继续新g真实求解入口。
 
 2026-11-26 06:03 UTC — Astra-larger-e4e2a2bf-20261126：刊R684完整newg driver/launcher并排当前run真实旧末父后的physical/p4两方向；全J/J*、原H²/全变量和完整历史地点均保，去round13并用可靠v3CG。仅AST/argv检查，无新数值；继续实际返回、同g冻结/精化及全域证书。
+
+2026-11-26 06:05 UTC — Astra-larger-e4e2a2bf-20261126：R687新增中心化正项谱损失、扣全常数底的finite-max界与显式块权比完整证明；明确引用R660/664/673已有零集与下降而不重复登记。尚无目标更换或模型新运行；继续当前newg真实Actions与同场后继。
