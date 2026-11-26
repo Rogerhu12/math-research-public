@@ -143,3 +143,5 @@ O4 [R616](results/R616-same-candidate-expanded-box-function-chart.md)为原接�
 O2b-B [R617](results/R617-finite-pre-tanh-poles-and-open-cap-rigidity.md)排固定有限pre-tanh＋有限post的准确clamped根，即使tanh本身有无限谱；实际.22内帽的E/r可积入口已付。它不提供当前有限η下界、不否定数值改善；后继须真正支付角带增长/无限响应与同g收敛，不再只扩大固定post便宣称具备准确根空间。
 
 O4 [R614原终态](notes/2026-11-27-r614-paid-reduced-function-natural-final-agent.md)真四端细一致已到5.12616e−10；原ruling1.70391e14未解。269次旧系数guard与a1=−6、0恢复失败确定换图依据；固定真实d56ddad1向量进入R616零修正，原母/单位/末固定L与规范不变。
+
+O2b-C [新后端原终态](notes/2026-11-27-r566-backend-preserving-original-terminal.md)真bb921、η.243945588、605/1355/463及各1pending；48/48工作和12/12完整coarse拒绝均实际metric epigraph，下一抬独立e而保完整物理/定位接受。未接受bc9b的fine已付、1353brackets全待处理，须先按同身份续完，不冒接受或重播原fine。
