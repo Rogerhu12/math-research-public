@@ -5,7 +5,7 @@
 ## 目标、规则与执行
 
 - **普通复可分无限维 Hilbert ISP 未完成。** 仅全体有界算子的存在定理或完整反例算完成。
-- **最近实际 pull / 已读规则提交：** `dcd3602b7ec46c474fc075e2381bc55dfae0bfe1`（2026-11-26 19:39:44 UTC；本地部分克隆）；本次两 README diff 无变化。每次 pull 且至少每小时检查并更新本项。
+- **最近实际 pull / 已读规则提交：** `c0f997366d3547e1965e3397dc5fcfb60b60ee4c`（2026-11-26 19:41:36 UTC；本地部分克隆）；本次两 README diff 无变化。每次 pull 且至少每小时检查并更新本项。
 - 私库 QUEUE 接手已推 `5746fa79a74af4975476d400dfbe0c4e5cb9ae9d`；私库根规则已读至 `ec011a5c25eeb7aed6eea040d601e7351726ede9`。每结论单推，非快进即 pull --rebase 再推；不 force，令牌仅 CLI。
 - 本轮本地终端可用。前会话执行身份及全部原交接保[接手快照](notes/2026-11-27-handoff-at-takeover-8542.md)；本轮后续完整细节保[第二快照](notes/2026-11-27-handoff-before-new-tower-and-closure-8542.md)。失败不改标成功，已登记不重做。
 - 仅保源、参数、SHA、小回执；MD<100KB、H<10KB、open尽量<30KB、topic<200MB，不写根LOG。已读本轮 log；notes 按交接路径与结果索引定点续读。
@@ -23,7 +23,7 @@
 ### unit211原剩余图
 
 - L0的w0/w1、b+c0整支与W线性λ整曲线均闭；原同域返回/单位证书见结果索引与第二快照。仅续b+c非零的G(7,4)、P1双零及余交点；新β一次系数全零/非零两图保全部原纤维。旧三参数超时与双零115.316614秒/4GiB仍未决，不重跑。
-- S0/Af0/L非零、h1/k1、整个h=k三种碰撞及Lt0/g2零面均闭，原全部共轭、首项零与P1双零已付；细节保第二快照。新h=k同λ返回12.271560秒，旧1270.862秒driver终止仍未决。[Lt0原θ余式双零例外](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-theta-remainder-zero-exclusion.md)也闭：82次覆盖全返，末172维原E1/EB单位26.732127秒/exit0。仅续Af非零、三值互异且r1非零一般图，合法θ=−r0/r1。
+- S0/Af0/L非零、h1/k1、整个h=k三种碰撞及Lt0/g2零面均闭，原全部共轭、首项零与P1双零已付；细节保第二快照。新h=k同λ返回12.271560秒，旧1270.862秒driver终止仍未决。[Lt0原θ余式双零例外](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-theta-remainder-zero-exclusion.md)也闭：82次覆盖全返，末172维原E1/EB单位26.732127秒/exit0。仅续Af非零、三值互异且r1非零一般图，合法θ=−r0/r1。[M的z首项零纤维也已闭](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-parameter-leading-zero-exclusion.md)：完整结式256z^14J²M，λquarter/A0原22/40维E1/EB单位，0.774927秒；一般M图可付(4λ−1)A。
 - 一般LS非零的两线性Cramer四参数atlas已实际生成，原Δ0全部保留；仍未判空。旧mod1031内存和600秒失败不重跑。
 
 ### rankH3原ess6

@@ -150,7 +150,7 @@ A单射、稠密像、拟幂零且非紧；普通非零真闭不变子空间仍�
 
 **[R=d同W全能量及原截断源全矩已付](results/R271-appendix-geometric-cutoffs-same-w-complete-energy-and-d-sized-once-mp.md)：** H_C(8Sx)≤Hω保全高度。任意w∈M的P_xw经原行迭代与e^(−47d⁴)全carry误差有全矩可和；R=d,x=m+d,h=2d,Q=2d³及真帽cut数d³−5d合法。旧K*一次全MP适用，真实残量仍−Cq1；同forcing、有锚第二Green及稳定核返回继续。
 
-**S0/Lt0现只续r1非零一般图：** g2零面与g2非零的原θ余式双零例外均已完整关闭，末72维/172维原单位与所有参数覆盖详见结果索引及快照；θ=−r0/r1已获合法除法。
+**S0/Lt0现只续r1非零一般图：** g2零面与g2非零的原θ余式双零例外均已完整关闭，末72维/172维原单位与所有参数覆盖详见结果索引及快照；θ=−r0/r1已获合法除法。[M的全部z首项零纤维](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-parameter-leading-zero-exclusion.md)现亦闭：λquarter/A0两谱全22/40维原均值单位，0.774927秒/exit0；完整结式256z^14J²M保证覆盖，剩余M图可付(4λ−1)A。
 
 **[全部固定次数及同源慢增的真实顺次MP已付](results/R271-appendix-fixed-successive-actual-mp-common-variance-and-slowly-growing-depth.md)：** 共同c_k=2·512^(2k)方差窗保所有r≤k的完整K_(r|k)费用、原−Cq_r反馈与同一母支持；终列准确为Σ(−C)^pa⊗(D†)^pΩ。任意同w∈M可选k_m→∞、k_m≤m/12，使修正/误差/残量平方可和且s_m→0。仍未付k=h_m−1的实际终端费用；近核列不作kerT或closureBM，接同w真实层相关性/精确残量清除。
 

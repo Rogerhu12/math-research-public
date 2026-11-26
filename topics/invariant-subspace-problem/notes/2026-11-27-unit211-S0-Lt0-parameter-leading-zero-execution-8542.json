@@ -1,0 +1,148 @@
+{
+  "schema": "r150-unit211-S0-Lt0-parameter-leading-zero-execution-v1",
+  "sourcePath": "notes/2026-11-27-unit211-S0-Lt0-parameter-leading-zero-return-8542.py",
+  "sourceSha256": "f970e31be8ffdd360a30a7e4f108c312fb8801061c380e86a77b05dfaa49a158",
+  "sourceBytes": 14350,
+  "command": "PYTHONPATH=/workspace/scratch/8542378f2b73/isp_pydeps python topics/invariant-subspace-problem/notes/2026-11-27-unit211-S0-Lt0-parameter-leading-zero-return-8542.py",
+  "pythonVersion": "3.12.14",
+  "pythonFlintVersion": "0.9.0",
+  "exitCode": 0,
+  "alarmSeconds": 180,
+  "stdoutSha256": "8d4a2304095b26efbe55584a72cfd353e66bf76eb8d00ded203a1376f63c8781",
+  "stdoutBytes": 4271,
+  "result": {
+    "claimExcluded": true,
+    "claimWholeLt0LayerEmpty": false,
+    "claimWholeS0LayerEmpty": false,
+    "elapsedSeconds": 0.774927,
+    "ordinaryISPClaim": false,
+    "peakRssKiB": 30840,
+    "reports": [
+      {
+        "baseDimension": 11,
+        "baseInverseIdentities": 25,
+        "certificate": {
+          "combination": {
+            "currentWeight": 0,
+            "withPreviousAccumulator": false
+          },
+          "fieldInverseIdentitiesChecked": 25,
+          "identity": "original_resultant_combination * its_inverse = 1",
+          "inverseSha256": "baf0d7e675d281447db1f494c8a9a810c1087a0829788a73724ad83aa54b7332",
+          "normDegreeInZ": 10,
+          "pair": [
+            "E1",
+            "EB"
+          ]
+        },
+        "fiber": "lambda=1/4",
+        "fullDimension": 22,
+        "history": [
+          {
+            "pair": [
+              "E1",
+              "EB"
+            ],
+            "unitCertificateFound": true,
+            "zeroResultant": false
+          }
+        ],
+        "inputSha256": "1d90fa406a950a4882563cd6d6fc003782d2df7c1588f823fac4e1a8cc2e0dd5",
+        "quadraticIrreducibilityAssumed": false
+      },
+      {
+        "baseDimension": 20,
+        "baseInverseIdentities": 26,
+        "certificate": {
+          "combination": {
+            "currentWeight": 0,
+            "withPreviousAccumulator": false
+          },
+          "fieldInverseIdentitiesChecked": 26,
+          "identity": "original_resultant_combination * its_inverse = 1",
+          "inverseSha256": "d17f3df6f7f929f47902012e6c2c90dc1eb56c6ac729e9943f4788bca4b5f128",
+          "normDegreeInZ": 19,
+          "pair": [
+            "E1",
+            "EB"
+          ]
+        },
+        "fiber": "A=0",
+        "fullDimension": 40,
+        "history": [
+          {
+            "pair": [
+              "E1",
+              "EB"
+            ],
+            "unitCertificateFound": true,
+            "zeroResultant": false
+          }
+        ],
+        "inputSha256": "ae0e6130eee453353c345a8c2a038cc9521433e5b2f93dec73dc63c7256a6569",
+        "quadraticIrreducibilityAssumed": false
+      }
+    ],
+    "sourceSha256": "f970e31be8ffdd360a30a7e4f108c312fb8801061c380e86a77b05dfaa49a158",
+    "status": "all_original_Lt0_parameter_curve_leading_zero_fibers_excluded"
+  },
+  "cover": {
+    "claimExcluded": false,
+    "completeResultantFactorization": "Res_theta(G,K)=256 z^14 J^2 M",
+    "elapsedSeconds": 0.02606,
+    "fibers": [
+      {
+        "coefficientsLowFirst": [
+          "-390471296/2187",
+          "1329893696/2187",
+          "-2603238232/3645",
+          "385310872/2187",
+          "3725032103/12150",
+          "-50085267011/218700",
+          "-53021448683/1749600",
+          "7306202671/72900",
+          "-683773147597/13996800",
+          "12133187237/1166400",
+          "-83360311/97200",
+          "1"
+        ],
+        "degree": 11,
+        "label": "lambda=1/4"
+      },
+      {
+        "coefficientsLowFirst": [
+          "862356025/81",
+          "-3096360200/81",
+          "7005495010/81",
+          "-10938433310/81",
+          "13254977426/81",
+          "-12528148144/81",
+          "3164461304/27",
+          "-5663363378/81",
+          "2629466443/81",
+          "-102928478/9",
+          "93231512/27",
+          "-131407526/81",
+          "34735774/27",
+          "-72227240/81",
+          "11677180/27",
+          "-11255480/81",
+          "2192269/81",
+          "-26338/9",
+          "1840/9",
+          "-22/3",
+          "1"
+        ],
+        "degree": 20,
+        "label": "A=0"
+      }
+    ],
+    "lcM": "(4 lambda - 1)^2 (2 lambda^2 - 2 lambda +1)^4",
+    "omittedFactorsAlreadyPaid": [
+      "z",
+      "J"
+    ],
+    "sourceSha256": "f970e31be8ffdd360a30a7e4f108c312fb8801061c380e86a77b05dfaa49a158",
+    "stage": "complete_original_parameter_curve_leading_zero_cover"
+  }
+}

@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R150 S0/Lt0一般参数曲线的全部z首项零纤维为空（2026-11-27，已证明）：** [同参数22/40维原返回](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-parameter-leading-zero-exclusion.md)保完整Res_theta(G,K)=256z^14J²M，lc_z M=(4λ−1)²(2λ²−2λ+1)^4；λquarter与A0两谱的原E1/EB结果式均真逆乘回1，二次塔不假不可约。更新源exit0/0.774927秒/30840KiB；原剩余一般曲线可合法付该首项，未宣整Lt0为空。
+
 - **R12 全部非平凡odometer谱投影到整个D范数闭包有统一正距离（2026-11-27，已证明）：** [高位角与准确Fourier系数证明](results/R12-appendix-uniform-positive-distance-of-all-odometer-spectral-projections.md)给dist(Q_S,R)≥1/π，涵盖无限秩/无限余秩且不假设平移C*范围。每个充分高层均有成员跳变；R∩{U}′仅有0/I幂等元，其代数元标量，自伴核心内Fourier乘子谱连通。连续谱乘子及全R自伴核仍未排除。
 
 - **R12 全部2-adic加权平移到原Deddens范数闭包的距离已确定（2026-11-27，已证明）：** [原回绕块、精确距离及具体C*自伴核](results/R12-appendix-norm-closure-all-adic-translation-distances-and-concrete-crossed-product-core.md)给t∉N0时距离=||v||∞，n≥0时为零点邻域上的本质一致消失范数；有限字符收缩保成本极限次序。在全部M_vU^t生成的具体B中，R∩R*∩B=乘法MASA且交换子∩B=多项式范数闭包；R38原Y∈D\B证明范围不能删。全B(H)秩一字符提取均趋零，故未把部分系数唯一性扩到全R。
