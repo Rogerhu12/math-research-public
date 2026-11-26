@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R150 L0的整个P1系数结式K曲线为空（2026-11-27，已证明）：** [两个beta首项图、完整覆盖及原t0返回](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-L0-K-curve-complete-exclusion.md)原系数身份在b1非零图付beta单位，三原必要式精确剥两因子；1253次投影/329次13域覆盖，三域严格一元模证据、九小域原单位与46域同G点及剩余11/11投影均排。b1零迫b0零/t0，42次覆盖末两同lambda/w族由原E1/EBe排除。自含源146.591630秒/281732KiB/exit0；只续X_(34,52)与Y_(78,95)原交点。
+
 - **R150 S0/Lt0的整个u=3/2原参数纤维为空（2026-11-27，已证明）：** [三完整原投影的QQ Bézout](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-ehalf-original-exclusion.md)将P045/P035/P034及新Q4直接返回ehalf，保持全部v首项零；107/116/75次结式的实际累计原组合等于k^8(k+2)^2(k+5/2)^8，系数次数86/77/66，全乘回。各零点由原Q、bc或已闭半权排除；4.198285秒/53512KiB/exit0。未用新Q4首项非零，独立付2e−1。
 
 - **R150 S0/Lt0同eta原四次式的全部首项零面为空（2026-11-27，已证明）：** [完整参数覆盖和三次域原返回](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-same-eta-quartic-leading-zero-exclusion.md)原Qa低行与N1/均值重叠给764项Q4；B_(11,8)=32lc_vQ4的全零面，经四个完整k投影369/464/292/990次覆盖。QQ整除加保378/827次的一元模1031 Bézout核出全部共同因子；末ehalf三次k域中原Q4/Q5 Bézout=1，全部逆/除法回乘。源内34.215046秒/127252KiB/exit0；可首一化新四次式，未判一般Lt0。

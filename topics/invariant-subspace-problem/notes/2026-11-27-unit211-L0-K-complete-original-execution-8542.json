@@ -1,0 +1,567 @@
+{
+  "session": "Astra-ISP-8542378f-20261127",
+  "script": "2026-11-27-unit211-L0-K-complete-original-return-8542.py",
+  "parameters": [],
+  "runtime": {
+    "python": "3.12.14",
+    "pythonFlint": "0.9.0"
+  },
+  "limits": {
+    "sourceAlarmSeconds": 300,
+    "driverHardTimeoutSeconds": 360,
+    "addressSpaceGiB": 4
+  },
+  "sourceSha256": "08596d2df60d01c6e1cd6100e9ae2b89d65a00e39e70111fb67506ea5ed04155",
+  "exitCode": 0,
+  "wallSeconds": 146.59162957899935,
+  "stdoutBytes": 19388,
+  "stdoutSha256": "c7ea7a273a0533b554234dbb28ee03a4a8411553fc12d3b4bd648bb1d9714ec2",
+  "finalRecord": {
+    "boundaryCoverDegree": 42,
+    "boundaryOriginalTZeroReturns": 2,
+    "claimExcluded": true,
+    "degree46Domain": true,
+    "elapsedSeconds": 146.507432,
+    "modularParameterDomains": 3,
+    "multivariatePseudoDivisionIdentities": 10,
+    "numberFieldPseudoDivisionIdentities": 4,
+    "ordinaryISPClaim": false,
+    "originalSourceDenominatorCount": 35,
+    "peakRssKiB": 281732,
+    "rationalPrimitiveIdentities": 6,
+    "regularCoverDegree": 1253,
+    "regularSquarefreeDegree": 329,
+    "scope": "entire K(lambda,w)=0, both b1 charts, all original t/rho and leading fibers retained",
+    "smallExactParameterDomains": 9,
+    "sourceSha256": "08596d2df60d01c6e1cd6100e9ae2b89d65a00e39e70111fb67506ea5ed04155",
+    "stage": "complete_original_L0_K_curve_exclusion"
+  },
+  "parameterReturns": [
+    {
+      "betaConstant": {
+        "degrees": [
+          0,
+          5,
+          7
+        ],
+        "sha256": "57fd2a9b134112a3841351cb47d46725840d7357700dc53b36ee4bc1dc86a8cc",
+        "terms": 40
+      },
+      "betaLeading": {
+        "degrees": [
+          0,
+          4,
+          7
+        ],
+        "sha256": "7328b69c019062c56807100d065d9489d5c987f0c8c8a718ca4dcdc2411ca755",
+        "terms": 32
+      },
+      "betaUnitIdentityMultipliedBack": true,
+      "curve": {
+        "degrees": [
+          0,
+          7,
+          12
+        ],
+        "sha256": "cb413e446bf3362f8feeba6f6ca1f62427a881eab70b95e6d1f917a8bd1cb546",
+        "terms": 85
+      },
+      "elapsedSeconds": 4.311025,
+      "leadingW": "-1/75*lam^2",
+      "stage": "complete_K_input"
+    },
+    {
+      "bezoutSha256": "717c7f1ae8873681f6f86812bbcc54000be834dbe7ddfeb486ff8c7a2fc21621",
+      "claimExcluded": true,
+      "completeSecondProjectionModDegree": 2522,
+      "elapsedSeconds": 133.765398,
+      "lambdaDegree": 1,
+      "originalWDegrees": [
+        12,
+        224
+      ],
+      "phiCoefficientsLowFirst": [
+        "-11",
+        "12"
+      ],
+      "phiSha256": "3138b776a3434b50fa6450ba63d4c8adae69a6459a439421395de90802a1cce3",
+      "prime": 1031,
+      "stage": "regular_K_univariate_coprimality"
+    },
+    {
+      "bezoutSha256": "4f6c2c398738ebebe36fc8b9eef0b770f0e932f3df83672d90e695417b207697",
+      "claimExcluded": true,
+      "completeSecondProjectionModDegree": 2522,
+      "elapsedSeconds": 133.767417,
+      "lambdaDegree": 26,
+      "originalWDegrees": [
+        12,
+        224
+      ],
+      "phiCoefficientsLowFirst": null,
+      "phiSha256": "785e5c9de6ee346327c8c751b8cb22479e9dea05433aa21f9e77df02ab78e8d2",
+      "prime": 1031,
+      "stage": "regular_K_univariate_coprimality"
+    },
+    {
+      "bezoutSha256": "c33cdf665eaedf69ff0c2ae5dac4b06bcfa837570aa8b57f4eda38dd4874bdcf",
+      "claimExcluded": true,
+      "completeSecondProjectionModDegree": 2522,
+      "elapsedSeconds": 133.770724,
+      "lambdaDegree": 234,
+      "originalWDegrees": [
+        12,
+        224
+      ],
+      "phiCoefficientsLowFirst": null,
+      "phiSha256": "0a22f4a37490abaf22eb73a91044c21a81ff0466a49403d8df6567b799af9e08",
+      "prime": 1031,
+      "stage": "regular_K_univariate_coprimality"
+    },
+    {
+      "claimExcluded": true,
+      "elapsedSeconds": 133.835836,
+      "fieldInverseMultiplyBacks": 44,
+      "lambdaDegree": 1,
+      "originalWDegree": 2,
+      "phiCoefficientsLowFirst": [
+        "-2",
+        "3"
+      ],
+      "removedPaidUnits": [
+        [
+          "regular_b1",
+          1
+        ],
+        [
+          "regular_b1",
+          1
+        ]
+      ],
+      "stage": "regular_K_exact_small_parameter_return"
+    },
+    {
+      "claimExcluded": true,
+      "elapsedSeconds": 133.851519,
+      "fieldInverseMultiplyBacks": 33,
+      "lambdaDegree": 1,
+      "originalWDegree": 6,
+      "phiCoefficientsLowFirst": [
+        "-1",
+        "2"
+      ],
+      "removedPaidUnits": [
+        [
+          "original_2",
+          1
+        ],
+        [
+          "original_2",
+          1
+        ],
+        [
+          "original_2",
+          1
+        ],
+        [
+          "original_2",
+          1
+        ],
+        [
+          "original_2",
+          1
+        ],
+        [
+          "original_4",
+          1
+        ]
+      ],
+      "stage": "regular_K_exact_small_parameter_return"
+    },
+    {
+      "claimExcluded": true,
+      "elapsedSeconds": 133.961067,
+      "fieldInverseMultiplyBacks": 22,
+      "lambdaDegree": 1,
+      "originalWDegree": 2,
+      "phiCoefficientsLowFirst": [
+        "-7",
+        "6"
+      ],
+      "removedPaidUnits": [
+        [
+          "original_3",
+          1
+        ],
+        [
+          "original_3",
+          1
+        ]
+      ],
+      "stage": "regular_K_exact_small_parameter_return"
+    },
+    {
+      "claimExcluded": true,
+      "elapsedSeconds": 134.186635,
+      "fieldInverseMultiplyBacks": 32,
+      "lambdaDegree": 2,
+      "originalWDegree": 4,
+      "phiCoefficientsLowFirst": [
+        "1",
+        "-2",
+        "3"
+      ],
+      "removedPaidUnits": [
+        [
+          "original_5",
+          1
+        ],
+        [
+          "original_5",
+          1
+        ],
+        [
+          "original_5",
+          1
+        ],
+        [
+          "original_5",
+          1
+        ]
+      ],
+      "stage": "regular_K_exact_small_parameter_return"
+    },
+    {
+      "claimExcluded": true,
+      "elapsedSeconds": 134.37533,
+      "fieldInverseMultiplyBacks": 25,
+      "lambdaDegree": 2,
+      "originalWDegree": 2,
+      "phiCoefficientsLowFirst": [
+        "1",
+        "-2",
+        "2"
+      ],
+      "removedPaidUnits": [
+        [
+          "original_4",
+          1
+        ],
+        [
+          "original_4",
+          1
+        ]
+      ],
+      "stage": "regular_K_exact_small_parameter_return"
+    },
+    {
+      "claimExcluded": true,
+      "elapsedSeconds": 134.921937,
+      "fieldInverseMultiplyBacks": 22,
+      "lambdaDegree": 2,
+      "originalWDegree": 2,
+      "phiCoefficientsLowFirst": [
+        "-1",
+        "-6",
+        "8"
+      ],
+      "removedPaidUnits": [
+        [
+          "original_3",
+          1
+        ],
+        [
+          "original_3",
+          1
+        ]
+      ],
+      "stage": "regular_K_exact_small_parameter_return"
+    },
+    {
+      "claimExcluded": true,
+      "elapsedSeconds": 135.694159,
+      "fieldInverseMultiplyBacks": 23,
+      "lambdaDegree": 3,
+      "originalWDegree": 1,
+      "phiCoefficientsLowFirst": [
+        "-1",
+        "2",
+        "-4",
+        "4"
+      ],
+      "removedPaidUnits": [
+        [
+          "original_4",
+          1
+        ]
+      ],
+      "stage": "regular_K_exact_small_parameter_return"
+    },
+    {
+      "claimExcluded": true,
+      "elapsedSeconds": 138.59142,
+      "fieldInverseMultiplyBacks": 29,
+      "lambdaDegree": 3,
+      "originalWDegree": 1,
+      "phiCoefficientsLowFirst": [
+        "-37",
+        "116",
+        "-204",
+        "144"
+      ],
+      "removedPaidUnits": [
+        [
+          "original_8",
+          1
+        ]
+      ],
+      "stage": "regular_K_exact_small_parameter_return"
+    },
+    {
+      "claimExcluded": true,
+      "elapsedSeconds": 146.197587,
+      "fieldInverseMultiplyBacks": 44,
+      "lambdaDegree": 7,
+      "originalWDegree": 2,
+      "phiCoefficientsLowFirst": [
+        "-45",
+        "214",
+        "-331",
+        "108",
+        "324",
+        "-336",
+        "32",
+        "128"
+      ],
+      "removedPaidUnits": [
+        [
+          "regular_b1",
+          1
+        ],
+        [
+          "regular_b1",
+          1
+        ]
+      ],
+      "stage": "regular_K_exact_small_parameter_return"
+    },
+    {
+      "bezoutMultiplyBack": true,
+      "claimExcluded": true,
+      "closedGFactorMultiplicity": 1,
+      "derivedWValueSha256": "6266113f92680b9858f48781b08f5052a0cbe5e352b827bc6ad28e5f42339f00",
+      "elapsedSeconds": 146.42649,
+      "matrixDeterminantWitness": [
+        1031,
+        241
+      ],
+      "prime": 1031,
+      "remainingWDegrees": [
+        11,
+        11
+      ],
+      "stage": "regular_K_entire_degree46_return",
+      "univariateResultantModDegree": 990
+    },
+    {
+      "alphaZeroNeverAssumed": true,
+      "degree": 42,
+      "elapsedSeconds": 146.428419,
+      "factorDegrees": [
+        1,
+        1,
+        2,
+        3,
+        3,
+        7,
+        2,
+        2,
+        1
+      ],
+      "factorProductMultipliedBack": true,
+      "stage": "boundary_beta_zero_complete_parameter_cover"
+    },
+    {
+      "claimExcluded": true,
+      "elapsedSeconds": 146.430471,
+      "lambdaDegree": 1,
+      "parameterUnitRemovals": [
+        [
+          "original_3",
+          1
+        ]
+      ],
+      "remainingWDegree": 0,
+      "stage": "boundary_beta_zero_original_t_zero_return"
+    },
+    {
+      "claimExcluded": true,
+      "elapsedSeconds": 146.450491,
+      "fieldInverseMultiplyBacks": 72,
+      "lambdaDegree": 1,
+      "originalTZeroRows": [
+        "E1",
+        "EBe"
+      ],
+      "parameterUnitRemovals": [],
+      "phiCoefficientsLowFirst": [
+        "-2",
+        "3"
+      ],
+      "remainingRhoDegree": 0,
+      "remainingWDegree": 1,
+      "rhoUnitRemovals": [
+        [
+          "original_6",
+          2
+        ],
+        [
+          "original_6",
+          2
+        ]
+      ],
+      "sameWValueCoefficientsLowFirst": [
+        "1/4"
+      ],
+      "stage": "boundary_beta_zero_original_t_zero_return"
+    },
+    {
+      "claimExcluded": true,
+      "elapsedSeconds": 146.453559,
+      "lambdaDegree": 2,
+      "parameterUnitRemovals": [
+        [
+          "original_3",
+          1
+        ]
+      ],
+      "remainingWDegree": 0,
+      "stage": "boundary_beta_zero_original_t_zero_return"
+    },
+    {
+      "claimExcluded": true,
+      "elapsedSeconds": 146.457052,
+      "lambdaDegree": 3,
+      "parameterUnitRemovals": [
+        [
+          "original_4",
+          1
+        ]
+      ],
+      "remainingWDegree": 0,
+      "stage": "boundary_beta_zero_original_t_zero_return"
+    },
+    {
+      "claimExcluded": true,
+      "elapsedSeconds": 146.461987,
+      "lambdaDegree": 3,
+      "parameterUnitRemovals": [
+        [
+          "original_8",
+          1
+        ]
+      ],
+      "remainingWDegree": 0,
+      "stage": "boundary_beta_zero_original_t_zero_return"
+    },
+    {
+      "claimExcluded": true,
+      "elapsedSeconds": 146.50023,
+      "fieldInverseMultiplyBacks": 73,
+      "lambdaDegree": 7,
+      "originalTZeroRows": [
+        "E1",
+        "EBe"
+      ],
+      "parameterUnitRemovals": [],
+      "phiCoefficientsLowFirst": [
+        "-45",
+        "214",
+        "-331",
+        "108",
+        "324",
+        "-336",
+        "32",
+        "128"
+      ],
+      "remainingRhoDegree": 0,
+      "remainingWDegree": 1,
+      "rhoUnitRemovals": [
+        [
+          "original_6",
+          2
+        ],
+        [
+          "original_6",
+          2
+        ]
+      ],
+      "sameWValueCoefficientsLowFirst": [
+        "11419/4918",
+        "-43245/4918",
+        "13535/2459",
+        "22592/2459",
+        "-34328/2459",
+        "3680/2459",
+        "12288/2459"
+      ],
+      "stage": "boundary_beta_zero_original_t_zero_return"
+    },
+    {
+      "claimExcluded": true,
+      "elapsedSeconds": 146.502686,
+      "lambdaDegree": 2,
+      "parameterUnitRemovals": [
+        [
+          "original_4",
+          1
+        ]
+      ],
+      "remainingWDegree": 0,
+      "stage": "boundary_beta_zero_original_t_zero_return"
+    },
+    {
+      "claimExcluded": true,
+      "elapsedSeconds": 146.505551,
+      "lambdaDegree": 2,
+      "parameterUnitRemovals": [
+        [
+          "original_5",
+          1
+        ],
+        [
+          "original_5",
+          1
+        ]
+      ],
+      "remainingWDegree": 0,
+      "stage": "boundary_beta_zero_original_t_zero_return"
+    },
+    {
+      "claimExcluded": true,
+      "elapsedSeconds": 146.507188,
+      "lambdaDegree": 1,
+      "parameterUnitRemovals": [
+        [
+          "original_2",
+          1
+        ],
+        [
+          "original_2",
+          1
+        ],
+        [
+          "original_2",
+          1
+        ],
+        [
+          "original_4",
+          1
+        ]
+      ],
+      "remainingWDegree": 0,
+      "stage": "boundary_beta_zero_original_t_zero_return"
+    }
+  ],
+  "regenerableDataCommitted": false
+}
