@@ -4,7 +4,7 @@
 
 ## 规则与完整目标
 
-最近规则核查：2026-11-26 16:25:21 UTC，真实pull/rebase至 `a7e53091633e8a2ec17fa658eff74477545819d9`，双README相对`d928b21dfb09ee93c7514d74c16376090c0c42e9`无差异，授权及规矩继续执行。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
+最近规则核查：2026-11-26 16:27:16 UTC，真实pull/rebase至 `c383471aaa0ce67839ed16fdd27d50054ccf936a`，双README相对`a7e53091633e8a2ec17fa658eff74477545819d9`无差异，授权及规矩继续执行。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
 
 科学计算仅本公开仓库Actions；早前本地偏差及纠正见[执行记录](notes/2026-11-20-public-actions-execution-correction.md)。root唯一分支写者；代理只scratch及未引用小源blob。每条结论普通commit/push，NFF立即pull --rebase循环再推，不强推。至少每小时pull，每次核双README差异/立即遵新规并记commit。raw只scratch/runner，不入Git/Release/artifact；保完整小源/参数/run/SHA/紧凑结论。题≤200MB、单文件<5MB、MD<100KB、H<10KB、open<30KB。令牌仅瞬时CLI。终端中断/恢复及全部授权操作保2a7c完整H；已回终端真实pull/push，未造raw。
 
@@ -13,7 +13,7 @@
 
 ## 共同模型、历史与未付责任
 
-原q全模型与永久地址责任保[2a7c完整H](https://github.com/Rogerhu12/math-research-public/blob/2a7c055d3dfd712f6e204bed877b8324c022b785/topics/visible-flex-larger-amplitude/HANDOFF.md)及全部原notes：M160/J923/922胞/N2048、原1332245自由量、共享quintic三jet、全部free core/H；准确FullHold/S/R/材料图与两帽反射端口。原7377正权/.5测度、全mean/cross/J/J*与真Phi、原C/幅度/历史literal binary点全部保。算法.992/.025只必要筛；SO3新范数明示，不冒旧q空间双射或原范数。
+原q全模型与永久地址责任保[2a7c完整H](https://github.com/Rogerhu12/math-research-public/blob/2a7c055d3dfd712f6e204bed877b8324c022b785/topics/visible-flex-larger-amplitude/HANDOFF.md)及全部原notes：M160/J923/922胞/N2048、原1332245自由量、共享quintic三jet、全部free core/H；准确FullHold/S/R/材料图与两帽反射端口。原7377正权/.5测度、全mean/cross/J/J*与真Phi、原C/幅度/历史literal binary点全部保。算法.992/.025只必要筛；SO3新范数明示，不冒旧q空间双射或原范数。[节点范数局部反例](notes/2026-11-26-node-jet-norm-and-radial-integral-control.md)准确证明细化时无统一径向H²控制，未把它当实际拒绝的既定原因；原integral完整新输入继续。
 
 历史完整原文循上述2a7c/235206固定链；全部失败/未返/适用范围保[results](results.md)、[open](open.md)、log与notes，不重做登记结论、不从SHA造raw、不跨场迁证，也不把线性障碍或任意mean当非线性完整结论。
 

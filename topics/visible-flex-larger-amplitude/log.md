@@ -73,3 +73,7 @@
 ## 2026-11-26 16:25:05 UTC — 完整显式新初始高度入口
 
 刊[四源/说明](notes/2026-11-26-explicit-initial-height-fixed-moment-zero-entry.md)34c9/c1d3/2e5b/e996。先按44ac完整构造核原cd530和固定18Q，再只改新初点末H、保非H前缀逐byte与完整g/model，初F前保存全部新旧点来源，失败亦可纯归因。ff500完整save_report→EOF逐字不改，原隐式J/全C/正权/Phase I/真验收全保。本地只源码/AST/byte核；未定H/未排这新入口，按已排55ad真实必要容量继续。
+
+## 2026-11-26 16:27:08 UTC — 节点范数与精确径向积分控制的解析界限
+
+刊[完整共享五次反例](notes/2026-11-26-node-jet-norm-and-radial-integral-control.md)，直接多项式积分181/462、10/7、120/7，等宽准确范数平方比181/231+(20/7)(ell/h)^2+(240/7)(ell/h)^4无界；固定网格仍正/等价，未删自由量、未作本地数值或fixture。root完整读并核手推积分/比值。此解析范围不证明实际17/18失败因果；已存在integral原公式/转置独立审核，准备明确新范数全方向而不暗过旧norm restart守卫。
