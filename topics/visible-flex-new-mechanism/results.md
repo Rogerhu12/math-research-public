@@ -366,3 +366,5 @@
 - [R599 单调高度平帽背景的全reach充分证书](results/R599-monotone-height-flat-cap-global-reach.md)：**已证明**完整侧面单值a(z)≥rc≥τ、上下平帽C²及连续子午曲率≤1/τ给全部法向τ切圆避开正负侧/上下帽/帽内源点，故完整reach≥τ。允许a_s变号，未把局部曲率直接当reach；原实际背景的全尾正图/半径/连续曲率仍待付，非圆q不沿用此证书。
 
 - [R582有限非圆首原终态](notes/2026-11-26-r582-finite-resonant-first-original-receipt.md)：run45824332845付70.621876255科学秒，160段960944RHS、core/backward及62878端点共同Hermite完成；细Model商法因冗余H求积报错。无START/几何/Jac/优化，不能称无科学启动或数学障碍；下一仅取实际解析radius三jets，必要重建已识别内场另付全成本。
+
+- [R582相同输入radius-only修补](notes/2026-11-26-r582-finite-radius-only-repair.md)：独立wrapper仅将seed商法的参考a/a_s/a_ss按原算式读取，去掉不需要H；原field/model/driver冻结、完整4811/材料点和接受门不变。新增origin/成本剥除后stdin准确还原原hash，已付70.621876255秒保留；必要新内场求值另计，下一首次完整几何/优化。
