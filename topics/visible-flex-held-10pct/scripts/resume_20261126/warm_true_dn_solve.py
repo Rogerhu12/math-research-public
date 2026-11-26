@@ -32,6 +32,7 @@ from scipy.integrate import solve_bvp
 
 WARM_KIND = 'warm-supported-material-phase-fixed-metric'
 WARM_KIND_V2 = WARM_KIND+'-v2'
+WARM_KIND_V3 = WARM_KIND+'-v3'
 KIND = WARM_KIND+'-actual-dn'
 
 
@@ -80,17 +81,27 @@ def diagnostic_json(value):
 def model_path(repo, source):
     """Resolve the explicitly declared phase-coordinate contract."""
     name = {WARM_KIND: 'warm_fixed_m3_model.py',
-            WARM_KIND_V2: 'warm_fixed_m3_model_v2.py'}.get(source.get('model_kind'))
+            WARM_KIND_V2: 'warm_fixed_m3_model_v2.py',
+            WARM_KIND_V3: 'warm_fixed_m3_model_v3.py'}.get(source.get('model_kind'))
     if name is None:
         raise ValueError('Unknown warm phase-coordinate model; no implicit reinterpretation')
     return Path(repo)/'topics/visible-flex-held-10pct/scripts/resume_20261126'/name
+
+
+def model_bindings(repo, source):
+    """Keep every explicit provider binding of the declared finite family."""
+    if source['model_kind'] == WARM_KIND:
+        current = model_path(repo, source).parent
+        return dict(warm_provider_sha256=sha(current/'warm_supported_core_factory.py'))
+    provider = module('_warm_actual_provider_contract', model_path(repo, source))
+    return provider.provider_bindings()
 
 
 def validate_warm_source(repo, source_run):
     """Validate a real accepted lambda-one input; perform no numerical solve."""
     repo, source_run = Path(repo).resolve(), Path(source_run).resolve()
     source = load(source_run)
-    if (source.get('model_kind') not in (WARM_KIND, WARM_KIND_V2)
+    if (source.get('model_kind') not in (WARM_KIND, WARM_KIND_V2, WARM_KIND_V3)
             or source.get('fixed_metric') is not True
             or source.get('homotopy') != 1.
             or source.get('warm_definition', {}).get('homotopy') != 1.):
@@ -99,8 +110,8 @@ def validate_warm_source(repo, source_run):
             or source.get('original_actual_nonlinear_tail')
             or source.get('actual_tail_requested')):
         raise ValueError('This first nonlinear-DN handoff requires its declared linear source')
-    if source.get('model_kind') == WARM_KIND_V2:
-        validator = module('_warm_v2_actual_input_gate', model_path(repo, source))
+    if source.get('model_kind') in (WARM_KIND_V2, WARM_KIND_V3):
+        validator = module('_warm_versioned_actual_input_gate', model_path(repo, source))
         # A verified same-map reexpression preserves its original solver
         # provenance; it is never relabelled as a new BVP return here.
         source = validator.accepted_input(source_run, require_lambda_one=True)
@@ -131,14 +142,9 @@ def validate_warm_source(repo, source_run):
     for name, expected in source.get('source_hashes', {}).items():
         if sha(name) != expected:
             raise ValueError('A source model/step file changed: '+name)
-    current = repo/'topics/visible-flex-held-10pct/scripts/resume_20261126'
-    provider_name = ('warm_supported_core_factory_v2.py'
-                     if source['model_kind'] == WARM_KIND_V2 else 'warm_supported_core_factory.py')
-    if sha(current/provider_name) != source['warm_provider_sha256']:
-        raise ValueError('The source warm core provider changed')
-    if (source['model_kind'] == WARM_KIND_V2 and
-            sha(current/'warm_supported_core_factory.py') != source['warm_geometry_base_sha256']):
-        raise ValueError('The complete supported-core geometry implementation changed')
+    for key, expected in model_bindings(repo, source).items():
+        if source.get(key) != expected:
+            raise ValueError('An explicit finite-family provider binding changed: '+key)
     files = {
         source_run.parent/source['raw_return']['file']: source['raw_return']['sha256'],
         source_run.parent/'physical.npz': source['physical_sha256'],
@@ -174,9 +180,13 @@ def load_model(config):
             raise ValueError('Frozen actual-DN geometry changed: '+key)
     if record.get('linear_source_model_kind') != source['model_kind']:
         raise ValueError('The original phase-coordinate contract changed')
-    for key in ('frozen_radial_chart', 'warm_geometry_base_sha256'):
+    for key in ('frozen_radial_chart', 'warm_geometry_base_sha256',
+                'basis_anchor_v2_run', 'basis_anchor_v2_sha256'):
         if record.get(key) != source.get(key):
             raise ValueError('The frozen versioned geometry changed: '+key)
+    for key, expected in model_bindings(repo, source).items():
+        if record.get(key) != expected:
+            raise ValueError('The actual finite-family provider binding changed: '+key)
     warm_model = module('_warm_actual_read_geometry', model_path(repo, source))
     obj = warm_model.load_model(dict(source_run=str(source_path)))
     obj.relative_metric_loader_record = dict(model_kind=KIND, fixed_metric=True,
@@ -301,9 +311,11 @@ def main():
              'mean_nodes', 'bc_normalization', 'modes', 'angular', 'origin_design_run',
              'origin_design_sha256', 'frozen_source_signature', 'physical_tail_parameters',
              'physical_tail_cut', 'linear_port_path', 'linear_port_sha256', 'warm_provider_sha256')})
-        for key in ('frozen_radial_chart', 'warm_geometry_base_sha256'):
+        for key in ('frozen_radial_chart', 'warm_geometry_base_sha256',
+                    'basis_anchor_v2_run', 'basis_anchor_v2_sha256'):
             if key in source:
                 record[key] = copy.deepcopy(source[key])
+        record.update(model_bindings(repo, source))
         gates = dict(source['gates'], max_nodes=args.max_nodes,
                      tail_solve_tolerance=2e-9, original_outer_budget=8)
         audit_angular = sorted(set(max(16*(3*obj.M+1), int(n)) for n in
@@ -314,16 +326,19 @@ def main():
             linear_source_solver_invoked=source.get('solver_invoked', True),
             source_raw_sha256=source['raw_return']['sha256'], source_physical_sha256=source['physical_sha256'],
             gates=gates, actual_audit_angular=audit_angular,
-            source_hashes={str(path): sha(path) for path in
+            source_hashes={**source.get('source_hashes', {}), **{str(path): sha(path) for path in
                 (Path(__file__), model_path(repo, source), current/'warm_supported_core_factory.py',
                  resume/'portable_prefix_continue.py', current/'streamed_release_prefix_driver.py',
-                 manifest_path, args.base_tail_config, args.tail_config)},
+                 manifest_path, args.base_tail_config, args.tail_config)}},
             tail_settings=str(args.tail_config.resolve()), tail_settings_sha256=sha(args.tail_config),
             native_manifest=str(manifest_path), native_manifest_sha256=sha(manifest_path),
             warm_height_arithmetic='numpy: H * factor**np.arange(1,M+1)',
             same_complete_problem_as_source=False)
-        if source['model_kind'] == WARM_KIND_V2:
-            for path in (current/'warm_supported_core_factory_v2.py',
+        if source['model_kind'] in (WARM_KIND_V2, WARM_KIND_V3):
+            provider_name = ('warm_complement_core_factory_v3.py'
+                             if source['model_kind'] == WARM_KIND_V3
+                             else 'warm_supported_core_factory_v2.py')
+            for path in (current/provider_name,
                          current/'warm_auxiliary_domain_guard.py', current/'warm_fixed_m3_model.py'):
                 record['source_hashes'][str(path)] = sha(path)
         raw_path = source_path.parent/source['raw_return']['file']

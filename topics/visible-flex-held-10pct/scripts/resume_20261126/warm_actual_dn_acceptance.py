@@ -115,9 +115,14 @@ def accepted_actual_input(path, *, repo=None):
                 'frozen_source_signature', 'warm_provider_sha256'):
         if record[key] != source[key]:
             raise ValueError('Frozen warm geometry changed: '+key)
-    for key in ('frozen_radial_chart', 'warm_geometry_base_sha256'):
+    for key in ('frozen_radial_chart', 'warm_geometry_base_sha256',
+                'basis_anchor_v2_run', 'basis_anchor_v2_sha256'):
         if record.get(key) != source.get(key):
             raise ValueError('Frozen versioned geometry changed: '+key)
+    if hasattr(implementation, 'model_bindings'):
+        for key, expected in implementation.model_bindings(repository, source).items():
+            if record.get(key) != expected:
+                raise ValueError('An explicit actual finite-family provider binding changed: '+key)
     if (record['linear_source_model_kind'] != source['model_kind']
             or record['linear_source_acceptance_kind'] != source.get('acceptance_kind', 'actual_warm_bvp_return')
             or record['linear_source_solver_invoked'] != source.get('solver_invoked', True)
