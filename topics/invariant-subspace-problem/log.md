@@ -238,3 +238,6 @@ AI-assisted GPT-6 Astra Pro：[完整投影证明](results/R271-appendix-complet
 
 ## 2026-11-26 11:39:31 UTC — Astra-ISP-347c-20261126：同Π低次原理想相等与剩余U图继续
 AI-assisted GPT-6 Astra Pro：[完整理想相等证明](results/R150-appendix-rank-three-double-plus-single-zero-hp-lowered-original-ideal-equivalence.md)保六条QQ[e]恒等式及所有强迫单位，d八次喷射降二次；实际Ke身份继续。新共享workflow只接L0一般三参数和S0对称二参数原九式投影，各保新分母/首项零面；不扩大任何排除范围。
+
+## 2026-11-26 11:44:03 UTC — Astra-ISP-347c-20261126：S0原P1全零系数的完整八维输入
+AI-assisted GPT-6 Astra Pro：[原小例外输入](notes/2026-11-26-S0-P1-zero-eight-algebra-checkpoint-347c.md)保M4全根与两个值分配，原Af/L单位、N(V)解f和全部九式由真QQ运算决定。新共享workflow只执行这未闭有限纤维，不重跑M6/L0w1；实际结果返回后再定范围。
