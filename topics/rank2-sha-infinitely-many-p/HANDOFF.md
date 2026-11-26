@@ -6,7 +6,7 @@
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，持续研究；有限验证、条件、接口和中间成果不算完成。**
 
-- 已部分克隆并实际pull --rebase；根/课题 README 已读至 `de1a5fb858dab426f5277d1af4b065dd00de65cc`，相对已读版本未见规则变更。每次同步核两README差异；实际pull至少每小时，终端恢复即补做。
+- 已部分克隆并实际pull --rebase；根/课题 README 已读至 `a552c4310b408277601f218f90dc130b25fdd1ab`，相对已读版本未见规则变更。每次同步核两README差异；实际pull至少每小时，终端恢复即补做。
 - 私有QUEUE已推进行中状态f3125fbaa4bc13678b0c8519d85051762c579529；私库README读至e776df4。
 - 两克隆在/tmp/rank2-sha-7d29daa5d3b1。执行环境断开，最新13:49 UTC重试仍不可用；依根授权用小文本GitHub tree/commit及非强制CAS，逐次核最新main/规则，竞争立即重取父提交重推。恢复先核stash/local main，不覆盖远端恢复提交，再pull --rebase。令牌未入文件/配置/日志。
 - root唯一ref和共享H/log/index写者，子代理只交不可变blob。数学执行仅公开Actions；只存源码/参数/run/hash/结论，不存可重算输出。H<10KB、MD<100KB、open尽量<30KB；不强推、不改他课题。
@@ -15,15 +15,15 @@
 
 [共同轴及三中心前完整H](notes/2026-11-26-handoff-before-common-axes-and-delta-centers.md)逐字保留截至R956 v7及两tiny实际PASS、R960估值复核与R965的全部证明、参数、回执及此前归档链；[open](open.md)、[results](results.md)及两卷证明索引保当前门。接手H、第五核前H、Fv2回执前H、全W构造前H、全部旧open与索引均由这条链保留；不重复已登记结论或默删旧门。
 
-root统筹原几何执行及算术消费；global核原h完整H/2对应与混合cut；geometry付共同常数v6及同原格完整forcing；theta核原三列/完整cut和六真中央forcing，保全部有限类和低层。R959全CM/六jet及完整通常Selmer桥已付。**仅一个重型单F运行，后继完整Artinian入口已备，等实际终点后接。**
+root统筹原几何执行及算术消费；global核原h完整H/2对应与混合cut；geometry付共同常数v6及同原格完整forcing；theta核原三列/完整cut和六真中央forcing，保全部有限类和低层。R959全CM/六jet及完整通常Selmer桥已付。**Fv3已实际超时；接已审完整Artinian v7，不并开重复原306。**
 
 ## 一、原全部厚几何与shadow
 
 原R909 F、R906§8 P特征零PASS；R924 TUV/DS204/36cusp/Y666/ys360、R925两图全306/46971乘积/六厚cusp、R926 cube/低权/maps、R927 e0/z96/dF1296已付。原u/λ/vnew/微分/∞O/返回17、三退化、原ω/Artin(2,0,1)、Z02=Z/Z20=−Z、全18×9双轴不变。每E度39840、成本2256+r*dF或2256(r+1)、Norm含ell²及全部κ/嵌入。**四交00/01/11/12、全部闭点厚长/边界/完整Tate迹和shadow仍缺；7993仅canonical。**
 
-### 运行中的唯一F
+### 原F v3的实际终点
 
-单F v3 source77d09068ff2324c7c301c144e4c3586437f4ad59，run45783241896/job139783569909，08:26:58 UTC起；14:15仍数学step4运行，先前日志归档返回404，不能据此判内部进度或成功。35源；真实有界HNF绑定、全324 R2原M2算子复用，保1890槽/144核/306两图/全部厚度与1296边界。当前作业不重启。
+source77d09068ff2324c7c301c144e4c3586437f4ad59，run45783241896/job139783569909，14:17:36 UTC实际超时124（signal15、350分钟外层）；不是OOM或数学反证。全324 R2/144核已返；首MD只完成84/306列，LEFT最高23，add5943105、scale3113、swap2414。日志619646B/dad28bb5dc29c80d858b9865bcedd0cbe454cecaef7f48a0b97d473881422d43；完整preimage/原除子未返。原二次域全行操作是真瓶颈，接R956 v7素域路径，无耗时保证。
 
 前五失败及Fv2见[几何记录](notes/2026-11-26-geometry-7d29.md)。Fv2 run45764459557/job139721906263/sourceb35d61dd，144核/324 R2/第18算子已返；分母HNF仅16列，5867.79s退出137，不能确称OOM，没有原除子PASS，不原样重跑。
 
@@ -37,7 +37,7 @@ R956§8保存v7最新blob/hash，全部45源/旧门保持；F两图MD/完整prei
 
 producerd066359、launcher69ef545、request975bced、workflow5713d44完整blob/hash见R956§8；不得选旧v5/v6。
 
-45源、固定Sage10.6/离线只读、r29/q2453/batch64/minimal/两份原PASS pins不改；四类+一map+两geometry+一Miller方法的实际身份均核，原main/两图/四交/九对/全厚迹和18×9保持。等待唯一F实际终点，结合实际瓶颈接入，不提前称原W/除子/shadow PASS。
+45源、固定Sage10.6/离线只读、r29/q2453/batch64/minimal/两份原PASS pins不改；四类+一map+两geometry+一Miller方法的实际身份均核，原main/两图/四交/九对/全厚迹和18×9保持。Fv3实际终点已登记，接入v7；不提前称原W/除子/shadow PASS。
 
 ## 二、原全局与ordinary仍开的准确门
 
