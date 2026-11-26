@@ -1,23 +1,27 @@
 {
-  "id": "held10-warm-v2-anchor-20261126-01",
-  "read_rules_commit": "cdeea34f7a911eb3f88efc8ad57b7b4584889303",
-  "script": "topics/visible-flex-held-10pct/scripts/resume_20261126/warm_zero_control_reexpression_v2.py",
+  "id": "held10-warm-v2-anchor-failure-log-20261126-01",
+  "read_rules_commit": "88bddce046501fc906dd6d9c5fbe25c4722c48d4",
+  "script": "topics/visible-flex-held-10pct/scripts/resume_20261126/inspect_command_failure.py",
   "args": [
-    "--source-run",
-    "@WORK@/warm-prefix-recovery/lambda002_m24/run.json",
-    "--probe-summary",
-    "@WORK@/warm-handoff-probe-01/summary.json",
+    "--work",
+    "@WORK@",
+    "--log",
+    "@WORK@/live-held10-warm-v2-anchor-20261126-01.log",
     "--outdir",
+    "@WORK@/warm-v2-anchor-failure-log",
+    "--check",
+    "@WORK@/warm-prefix-recovery/lambda002_m24/run.json",
+    "--check",
+    "@WORK@/warm-handoff-probe-01/summary.json",
+    "--check",
     "@WORK@/warm-v2-anchor"
   ],
   "diagnostics": [
     {
-      "path": "@WORK@/warm-v2-anchor/summary.json",
+      "path": "@WORK@/warm-v2-anchor-failure-log/summary.json",
       "keys": [
         "status",
-        "progress",
-        "result",
-        "error"
+        "result"
       ]
     }
   ]
