@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R271 任意高度最低forcing的完整真旗与方差一致源界（2026-11-26，已证明）：** [全区间Schur、精确Green递推和全部原受限逆费用](results/R271-appendix-all-height-true-flag-uniform-variance-source.md)对任意r≥2的完整C不变F⊂ker C^r、f∈F∩ker C²给全0<S≤1的C^j a_S/S^j明确界及环境残余；原N头全部奇r≥3的受限逆已用完整整数约束/全部长链付费。新增实质为r≥5；r3优先旧锐界，并可逐项取新界与实际能量界的小值。未付γ<1/16孔加权源或N=M。
+
 - **R150 全部秩一V高接触均值极线的完整分类（2026-11-26，已证明）：** [41/32/23三族、全部边界与统一重数推论](results/R150-appendix-rank-one-third-cumulant-high-contact-mean-divisor-classification.md)由旧请求14的完整QQ门登记41仅两T3=0真族、32/23整支空；与五重及311支合并，任意ord_s P_y≥3的rankV1临界点完整T3=0，s只在0/2/−6/∞。保q重根、合流和∞，未再运行旧源；潜在非零Bell只余低接触，另ord2余单根三次型已空。
 
 - **R150 孤立零点加单位3+1的完整rankH4支路为空（2026-11-26，已证明）：** [全部边界、原一般图与QQ消元](results/R150-appendix-essential-four-unit-three-plus-one-isolated-zero-rank-four-branch-is-empty.md)补写旧run14的x0/L0完整边界，再从原mean/局部相容/单点χ构造M,C,X；原QQ395/1142次结式gcd只余四纤维，逐一回原式均落b0/bhalf/γ0，故整个3+1支路关闭。新增源6.846828秒完整通过，仅存源码/参数/SHA；继续unit2+1+1及unit1⁴，不扩大为全局Bell。

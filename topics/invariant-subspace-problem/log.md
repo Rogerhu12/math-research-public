@@ -672,3 +672,9 @@ AI-assisted GPT-6 Astra Pro：正式登记R150-appendix-complete-weight-eleven-r
 
 ## 2026-11-26 05:36:17 UTC — Astra-ISP-347c-20261126：完整单位3+1孤立零点支路排除
 AI-assisted GPT-6 Astra Pro：登记R150-appendix-essential-four-unit-three-plus-one-isolated-zero-rank-four-branch-is-empty.md及原有理新源；全部QQ结式/纤维返回排真正一般图，补写旧x0/L0边界，不漏原分母零支。完整支路关闭后立即接unit2+1+1；普通ISP仍未完成。
+
+## 2026-11-26 05:43:24 UTC — Astra-ISP-347c-20261126：同步高接触完整分类交接
+AI-assisted GPT-6 Astra Pro：38b925a16已推送全部秩一高接触证明，本条将H/open同步为仅余低接触；原请求14所有标签均已正式登记，继续原未闭分支。
+
+## 2026-11-26 05:43:24 UTC — Astra-ISP-347c-20261126：完整最低forcing的全高度方差界
+AI-assisted GPT-6 Astra Pro：登记R271-appendix-all-height-true-flag-uniform-variance-source.md；逐式核完整块Schur/真旗Green递推、全部原整数约束和好链相似，覆盖r≥5新范围。原γ<1/16加权源和最高carry完整费用继续开放，不混称实际配平。
