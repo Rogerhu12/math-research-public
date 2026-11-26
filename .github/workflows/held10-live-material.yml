@@ -55,7 +55,7 @@ jobs:
               subprocess.run(['git','fetch','--depth=1','--filter=blob:none','--no-tags','origin',revision],check=True)
       - name: Restore declared source and physical inputs
         run: |
-          python topics/visible-flex-held-10pct/scripts/resume_m3/portable_bootstrap.py --repo "$GITHUB_WORKSPACE" --workdir "$RUNNER_TEMP/held10-live" > "$RUNNER_TEMP/held10-live-bootstrap.log" 2>&1
+          python topics/visible-flex-held-10pct/scripts/resume_20261126/tail_recovery_setup.py --repo "$GITHUB_WORKSPACE" --work "$RUNNER_TEMP/held10-live" > "$RUNNER_TEMP/held10-live-bootstrap.log" 2>&1
       - name: Keep actual fields and run reviewed research commands
         env:
           GITHUB_TOKEN: ${{ github.token }}

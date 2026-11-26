@@ -1,31 +1,50 @@
 {
-  "id": "held10-material-m24-true-dn-01",
-  "read_rules_commit": "892655985f7c5874d4bf7e8521487636b306a44c",
-  "script": "topics/visible-flex-held-10pct/scripts/resume_m3/continue_actual_mode_true_tail.py",
+  "id": "held10-m24-direct-recovery-20261126-01",
+  "read_rules_commit": "0d6418c0156692bd45e279a46a755bdaf0a601fb",
+  "script": "topics/visible-flex-held-10pct/scripts/resume_m3/portable_prefix_continue.py",
   "args": [
-    "--repo",
-    "@REPO@",
-    "--source-run",
-    "@WORK@/material-lam002-m24-stage/linear/run.json",
-    "--tail-config",
-    "@WORK@/material-lam002-m24-stage/tail-settings.json",
+    "--source-topic",
+    "@WORK@/multistage-source",
+    "--short-bridge",
+    "@WORK@/runtime-source/bundle/topics/visible-flex-larger-amplitude/computations/root_short_bridge.py",
+    "--profile",
+    "@WORK@/m24-recovery-profile.json",
+    "--chart",
+    "@WORK@/inputs/reference/chart.json",
+    "--port",
+    "@WORK@/m24-linear-port.json",
+    "--control-record",
+    "@WORK@/m24-recovery-controls.json",
+    "--core-module",
+    "@REPO@/topics/visible-flex-held-10pct/scripts/resume_m3/material_support_factory.py",
+    "--core-config",
+    "@REPO@/topics/visible-flex-held-10pct/scripts/resume_m3/multistage_wide_circle_lambda0p002.json",
+    "--amplitude",
+    ".06",
+    "--warp-reference",
+    ".06",
+    "--modes",
+    "24",
+    "--angular",
+    "768",
+    "--audit-angular",
+    "512",
+    "--nodes",
+    "401",
+    "--max-nodes",
+    "6000",
+    "--tol",
+    "1e-6",
+    "--bc-tol",
+    "1e-7",
+    "--physical-bc-tol",
+    "2e-9",
     "--outdir",
-    "@WORK@/material-lam002-m24-true-dn",
-    "--workers",
-    "2"
+    "@WORK@/m24-direct-recovery"
   ],
   "diagnostics": [
     {
-      "path": "@WORK@/material-lam002-m24-true-dn/true-tail-stage.json",
-      "keys": [
-        "status",
-        "error",
-        "result",
-        "stages"
-      ]
-    },
-    {
-      "path": "@WORK@/material-lam002-m24-true-dn/actual/run.json",
+      "path": "@WORK@/m24-direct-recovery/run.json",
       "keys": [
         "solver_success",
         "error",
@@ -33,8 +52,12 @@
         "prefix_audit",
         "domain_newton_stats",
         "domain_error_counts",
-        "actual_outer_checks",
-        "tail_seam"
+        "actual_tail_requested",
+        "core_settings",
+        "gauge_q",
+        "modes",
+        "angular",
+        "fixed_metric_refinement"
       ]
     }
   ]

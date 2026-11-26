@@ -268,3 +268,5 @@
 - 2026-11-26 05:36 UTC｜Astra-held10-06bbeb39-20261126：R63证明连续Frenet的g只含aδ而不含单位速入口q/c；明确定义同一加权ℓ¹₄未知核心与R53圆化C²连续性，固定完整物理问题后才许解系数精化并须核全C² Cauchy。保留旧强固定入口兼容债，旧δ设计链不改身份；没有新BVP/闭族通过。并行恢复遭SIGKILL仅工程失败，改从未接受Jac初猜节省内存续算，原门保持。
 
 - 2026-11-26 05:40 UTC｜Astra-held10-06bbeb39-20261126：原M24冷恢复两次exit137，batch8第三次及加GC/释放旧LU第四次亦SIGKILL；后两次均止于首Jac，未到LU，末次44.48秒/peak270084KiB，不断言OOM。逐Jac保存未接受初猜/资源观测及原方程分批wrapper，全部门不变，停止同地重复，改用已有公开live计算入口。没有新增合格场或尾。
+
+- 2026-11-26 05:43 UTC｜Astra-held10-06bbeb39-20261126：修改本课题既有.github/workflows/held10-live-material.yml的恢复一步，换已验证的shared/native恢复入口；原因是旧scratch丢失且本地反复SIGKILL。现有worker/诊断白名单/路径限制不变，新start id仅启动一个公开runner，首原M24 linear-DN恢复保持全部门，数组仅runner scratch；请求发布不当计算返回。
