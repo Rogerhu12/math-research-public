@@ -70,3 +70,6 @@ AI-assisted GPT-6 Astra Pro：[原零点mean加最高的无除法S](results/R150
 
 ## 2026-11-26 07:01:47 UTC — Astra-ISP-347c-20261126：rankV2的全部rankH至多一排除ess4
 AI-assisted GPT-6 Astra Pro：[完整原梯度与射影局部阶数手证](results/R150-appendix-rank-two-third-cumulant-rank-at-most-one-second-cumulant-essential-bound.md)保任意y、不预设共支撑，约化与二jet均迫ess≤3、原matched Bell零。无新计算，原已付判别式不重跑；继续rankH≥2外RanV。
+
+## 2026-11-26 07:09:07 UTC — Astra-ISP-347c-20261126：相反配对的半总权重整支排除
+AI-assisted GPT-6 Astra Pro：[原零点mean与共同范数](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-opposite-base-pairings-half-total-weight-exclusion.md)保全部mean面/交点，QQ源1.939650秒、exit0；不重跑已付计算。已重推此前两结论成功，继续其他总权重及原开放分支。

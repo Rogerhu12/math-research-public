@@ -31,6 +31,8 @@ rank$H=4$ 的非单位局部块长度5、4、3已排；长度2单零的三种单
 
 **一般V非零的rankV1全层现已关闭：** [完整临界集定理](results/R150-appendix-rank-one-third-cumulant-complete-critical-classification.md)保原全部33梯度，证明所有rankV1临界点恰为y=a u(s)、H=(a³+4c)u(s)u(s)ᵀ/(6a)、V=c u(s)³，a c≠0，s任意射影点，完整T3=0。证明穷尽五次均值极线的全部除子型，保q重根、D8纤维、t=r真双根与全部无穷远；全部旧311/高接触及新低接触/四两根族不再重做。结合已闭V0和essT3≤3，潜在非零原匹配Bell只可能rankV≥2且essT3=4/5/6。[整个rankV2内均值完整分类](results/R150-appendix-rank-two-third-cumulant-all-inside-mean-complete-classification.md)现已完成约化两点和非约化二jet：y∈RanV时全部T3=0。二jet真实切向均值由原完整六mean的QQ32/32、全64阶门618和∞45排空；D8的8维α幂基给原t=R7(α)身份，所有g²吸收闭合。其余只保物理值均值的四点切向族，H的支撑是结论。新的确切剩余为rankV2且y∉RanV、更高rankV；所有原全局幂来源仍开，不能由rankV2自动推共同支撑。 [rankV2与rankH≤1的完整范围](results/R150-appendix-rank-two-third-cumulant-rank-at-most-one-second-cumulant-essential-bound.md)也已证明essT3≤3并使原matched Bell全零：保全部原低梯度和真实异点根重数，约化型用六维极大全等向空间，二jet用原最高式唯一最低阶排除ess4。潜在rankV2非零Bell还必须rankH≥2；该手证不重跑既有门。
 
+[相反配对的整个半总单点权纤维](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-opposite-base-pairings-half-total-weight-exclusion.md)现已关闭：q−1、b+c½，完整mean两面、所有分母零纤维及原零点共同范数均保留，QQ原源1.939650秒。相反配对的其他总权重和非零基点mean仍须继续，不能重复已闭b=c或本半权纤维。
+
 ### 1.2 原权十一及更高幂
 
 [权11–14严格门](results/R150-appendix-original-koszul-two-cycles-and-weight-eleven-through-fourteen-rank-ceilings.md)为

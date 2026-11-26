@@ -1,0 +1,20 @@
+{
+  "elapsedSeconds": 1.93965,
+  "nonzeroFamilyNormReadouts": [
+    "-135/65536",
+    "1431/2048"
+  ],
+  "ordinaryISPClaim": false,
+  "peakRssKiB": 50416,
+  "schema": "r150-unit211-opposite-half-total-20261126-v1",
+  "scope": "p=1,q=-1,b+c=1/2,b-c nonzero; both complete mean families and every singular fiber",
+  "sourceSha256": "b4aafd09dde79b792e80d591226791b52a368be77f948bdd5fd4c0b3015f3fef",
+  "status": "all_exact_QQ_checks_pass",
+  "executionCommand": "python 2026-11-26-unit211-opposite-half-total-weight-347c.py",
+  "exitCode": 0,
+  "pythonVersion": "3.12.14",
+  "sympyVersion": "1.14.0",
+  "stdoutSha256": "d18504e60a2f3c1cb7892da1c9d15df55c3b9efdfc9a223baa2b661b7eba43f4",
+  "executionOwner": "Astra-ISP-347c-20261126 / unit31_general",
+  "rootReview": "Original equations, all mean branches and zero denominators reviewed; no repeated execution."
+}

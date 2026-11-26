@@ -5,16 +5,16 @@
 ## 主目标、规则与执行
 
 - **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍仅全体有界算子的存在定理或完整反例；子结果不作完成。
-- **最近实际 pull / 已读规则提交：** `bcf3932a4d05409293753031844b776aef6cd57b`（2026-11-26 07:08:04 UTC）。本次两README无新规则差异；已读根/课题README、H/open、结果索引及定点log/notes。每次pull及至少每小时比diff，记录SHA。
+- **最近实际 pull / 已读规则提交：** `1f54fd91af971df795d01a19dc615c1883927b62`（2026-11-26 07:09:15 UTC）。本次两README无新规则差异；已读根/课题README、H/open、结果索引及定点log/notes。每次pull及至少每小时比diff，记录SHA。
 - 私库 `QUEUE.md` 已成功更新认领，提交 `e776df496eedfa449b0475cefe140fdae7023db4`；非快进已逐次pull --rebase后重推成功。研究在公开仓库，私库仅维护QUEUE；不force，令牌仅CLI环境。
-- 断线后重建部分克隆 `/tmp/isp-347c05929dd3/math-research-public`。旧TMP丢失源已恢复；新字节另记执行。root独占git/主索引，子代理独占TMP；每结论单推，只留源/参数/身份/SHA，无数组。
-- 完整交接链见[最新压缩前H](notes/2026-11-26-handoff-before-absolute-new-strong-source-347c.md)及其旧归档。MD<100KB、H<10KB、open尽量<30KB、topic<200MB；不写根LOG。
-- 请求14、311及权11的旧执行身份均已回收登记；单标签成功不代全workflow成功，不重做已闭计算。
+- 工作树 `/tmp/isp-347c05929dd3/math-research-public`；root独占git/索引，代理独占TMP；每结论单推，仅存源/参数/身份/SHA。
+- 完整交接链见[最新压缩前H](notes/2026-11-26-handoff-before-opposite-weight-fibers-347c.md)及其旧归档。MD<100KB、H<10KB、open尽量<30KB、topic<200MB；不写根LOG。
+- 请求14、311及权11旧执行身份已登记，不重做已闭计算。
 - 当前并行：rankV2外均值；unit2+1+1非零基点mean（root做q1）；R271真F0/Sx绝对源及完整返回。原全局幂来源与算子桥继续。
 
 ## R150：原Bell非零临界点与全部来源
 
-- 原W31/W127、Γ120及权7–10不重算；ΓE10=13697、δ14b²非成员、μ10核2171全Koszul、200/120核111/31，旧run身份已回收。
+- 原W31/W127、Γ120及权7–10不重算，完整秩/来源/身份保索引及前H。
 - **[原权11已完成](results/R150-appendix-complete-weight-eleven-rank-four-quadratic-bell-cube-obstructions-and-weight-fifteen-ceiling.md)：** 旧run44732018666/job136273939599成功已回收；Γ11=36782、μ11核8912全Koszul，四q_jb³类独立。原18来源权≥14；下一权12/13/14/15门90013/203543/430213/857075均未运行。
 - **全essT3≤3的原matched Bell已零。** W±上确有Cat3真临界点，不能把该层宣空；一般V非零Bell非零只能ess4/5/6。
 - **[整个V0临界层的三个原Bell均零](results/R150-appendix-zero-third-cumulant-all-matched-bell-values-vanish-and-exact-index-three.md)：** 无Cat/H/ess/支撑限制；完整17低梯度给原三Bell准确幂指数3，run44732550495全792×3 QQ回乘已付。不搬成全Jacobian同幂；原V0/ess4几何全空，ess5/6不宣空。
@@ -22,18 +22,19 @@
 - **[unit3+1孤立零点整个分支已空](results/R150-appendix-essential-four-unit-three-plus-one-isolated-zero-rank-four-branch-is-empty.md)：** 全边界及一般图QQ395/1142结式、四纤维已闭。rankH4孤立零点只余unit2+1+1和unit1⁴；全部rankH5、V≠0 inner与ess5/6仍开。
 - **[unit2+1+1全部零配对及零基点mean已空](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-zero-base-mean-exclusion.md)：** p=q0、恰一零、pq≠0且bp+cq0均闭；原零点最高共同范数配合QQ879/1020/1637结式及全部Cramer/t0/xhalf纤维。主源213.188311秒，除因子清单另5.079883秒。剩余pq(bp+cq)≠0，不重做已闭支。
 - **[unit2+1+1等配对的零单点配对支已空](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-equal-base-pairings-zero-singleton-pairing-exclusion.md)：** p=q≠0仅余t≠0、l=b+c∉{0,½,1}。原孤立零点mean+最高给S=Pbar−2Nbar0；t0两mean面S均非零，原源1.205597秒。一般图QQ(l) F5b实际240秒无结论，继续换原式消元。
+- **[unit2+1+1相反配对的半总权重已空](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-opposite-base-pairings-half-total-weight-exclusion.md)：** q−1、b+c½的两完整mean面与所有零纤维均排；原零点mean给S，非零族再用原共同范数矛盾。QQ源1.939650秒；其余相反配对非零mean仍开。
 - **[非零rankV1完整临界层已分类](results/R150-appendix-rank-one-third-cumulant-complete-critical-classification.md)：** 恰y=a u(s)、H=(a³+4c)u(s)u(s)ᵀ/(6a)、V=c u(s)³，ac≠0，完整T3=0。除子分拆/射影/重根与所有QQ门均闭，新旧源执行分记；潜在非零Bell仅rankV≥2且ess4/5/6。
 - **rankV2已闭范围：** [全部内均值](results/R150-appendix-rank-two-third-cumulant-all-inside-mean-complete-classification.md)只有两原子族和0/2/−6/∞的物理值均值二jet族，完整T3=0；不预设H支撑。[所有rankH≤1](results/R150-appendix-rank-two-third-cumulant-rank-at-most-one-second-cumulant-essential-bound.md)又迫essT3≤3，原matched Bell全零，含任意y及∞。潜在非零Bell只余y∉RanV、rankH≥2、ess≥4。
-- 原纯三次判据已修为Q=B³−27A²D（完整QQ结式非零），旧正号不再作证；全部来源见结果索引。
+- 原纯三次判据准确为Q=B³−27A²D，旧正号不可作证；原来源全保索引。
 - 原4212来源枚举/系数高度、全局Bell自然幂及完整算子桥仍开。图册须每图真实幂来源并N=1+Σ(Ni−1)粘合；几何覆盖、V0子层证书不代全局原来源/实际费用。
 
 ## R271：同w的实际完整源费用
 
 M=kerT、N=closure BM；N=M未证。始终保same-w/u、全部partial、真intersection旗、MP自然域、负前缀/未来/carry与真帽外投影。旧τ14/Bessel、PV−PK能量、一次MP与各低旗预算只保原范围；核外第二逆/任意kernel-input未付。
 
-- 旧纯远孔完整Galerkin/MP、真旗代表及分离高度的全β行Bessel1均保索引原窗；非零同w锚必要Σκ⁻²有限。原m∈4ℕ≥20、d=2^m、R=d、Q=4d；增长R/Q重核母窗，不移用旧帽。
-- 原forcing准确是最低整数坐标f1=e1⊗Ω，Ce1=e0、Ce0=0；实际C²f1=0。它不同于任意物理一孔列，后者不能套该低真旗前提。
-- 原N/Y、偶R/奇r的全MP至多t⁻¹且新秩一阶；偶r可t⁻²。旧/参考头883a合费对原1400a，只在真实全源≤Lt²、logL=o(a)时余517a；该条件未证。
+- 旧完整Galerkin/MP、真旗代表及β行Bessel1保原窗；same-w锚必要Σκ⁻²有限。增长R/Q须重核母窗及真帽。
+- 原forcing为f1=e1⊗Ω、C²f1=0；不是任意物理一孔输入。
+- 原N/Y偶R奇r的全MP至多t⁻¹，偶r可t⁻²。旧883a/1400a预算还须全源≤Lt²且logL=o(a)，未证。
 - [精确源极点](results/R271-appendix-complete-galerkin-highest-carry-pole-and-cancellation-criterion.md)：K=kerX0、E1=P_cokerX0 X1|K、F0=kerE1，E1*q₋₁=P_K(f−H0a0)。有界恰退化全K-Galerkin解属F0；O(t)还须ξ0=0且P_Kξ1=0。固定E不代移动谱投影。
 - **[任意奇高度完整高孔费](results/R271-appendix-general-odd-height-hankel-congruence-and-complete-high-hole-cost.md)：** m≥5、偶R≥d、任意奇r，长短坏链及旧真旗全部保留；A0两门、全阶乘/exp(12r²/n)、原s缩放和一次非正交κ均付。仍需原γ<1/16的加权Zγ，不把合同当正交。
 - **[全区间正则界](results/R271-appendix-complete-highest-carry-linear-graphs-and-full-interval-regular-cost.md)：** 完整真核/余核线性图给Π′、Q′≤2L，全部0<t≤1的q−t⁻¹q₋₁费用已付。粗费用仍大，继续实际源/导数和孔相关乘积。
@@ -43,7 +44,7 @@ M=kerT、N=closure BM；N=M未证。始终保same-w/u、全部partial、真inter
 - **[指数强前缀的实际源强极限](results/R271-appendix-exponential-strong-prefix-actual-variance-source-limit.md)：** d≤x、x+1≤exp(26d³)/4、1≤J≤d+x−m−1且s≥S_x→0时，完整H_C,J逆强趋P_M、全部正高度能量趋0；含J1及s=S_x。原Q≥R+J和大辅助窗已付；没有速率，不移到未知F0压缩逆。
 - **[实际方差窗的物理加权残余差已付](results/R271-appendix-actual-window-weighted-full-galerkin-residual-transfer.md)：** m≥10、x+1≤d⁴/64、原高度窗和s≥S_x，原未加权同F最小者有‖Γ(ξ_A−ξ_C)‖≤e^(−7d⁴/4)‖f‖；a及全能量列同界。最高carry零头用m−1及Q′≥R+r，差≤e^(−7d⁴/64)。参考A_x也保同F0，绝对Zγ仍开。
 - **[新增任意强位的绝对加权完整源已付](results/R271-appendix-all-strong-bit-extension-weighted-complete-source.md)：** y=m+d、s≥2²⁴/y、γ1/32，任意x≥y/J≥0的原完整最小者与全列有新增孔权≤16/15‖g‖，全部物理孔费≤(16/15)32^(y+h−1)；完整Neumann保原inverse。差≤常数√ε_y，故固定大辅助比例也允任意增长x的源强极限；原V/K/partial同源保Q窗。F0/Sx的绝对残余仍开。
-- 小头m2/R2的小κ、m3/R0/r3的巨大κ和非零极点均保索引；这些不在旧联合窗，不能逐级外推。
+- 小头m2/R2小κ、m3/R0/r3巨大κ及非零极点保索引，均不在旧联合窗，不逐级外推。
 - 原全部返回、完整负部同w倒数和、核外第二逆/第三旗、真帽逆伴随仍开；小残量/另核/有限层不代原项。固定公共多项式塔障碍只排原家族，源专属lift继续。
 
 ## 原Deddens与变化来源
