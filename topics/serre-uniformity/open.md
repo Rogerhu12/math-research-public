@@ -93,7 +93,9 @@ $$
 
 ## O4：原Abel零集、正秩像与真正高度
 
-[R1007](results/R1007-deck-compatible-CM-correspondence-height-valuation-obstruction.md)：原μ3相容对应的修改对角满足ND_Z(c0)=3D_Z(c0)、D_Z(y)=D_Z(c0)−2Z[y−c0]。同一真实整高度格及N/Z自伴、NG=0、ZG=λG、λ∈ℓZℓ下，指定高度必在ℓ²Zℓ；原纯CM对应不能满足新valuation-QC的赋值1条件，一致改基点或整splitting不解除。保η_h与清分母；新非甲板相容对应、底曲线块及其它全高度关系仍开。
+[R1007](results/R1007-deck-compatible-CM-correspondence-height-valuation-obstruction.md)：原μ3相容对应的修改对角满足ND_Z(c0)=3D_Z(c0)、D_Z(y)=D_Z(c0)−2Z[y−c0]。同一真实整高度格及N/Z自伴、NG=0、ZG=λG、λ∈ℓZℓ下，指定高度必在ℓ²Zℓ；原纯CM对应不能满足新valuation-QC的赋值1条件，一致改基点或整splitting不解除。保η_h与清分母；底曲线块及其它全高度关系仍开。
+
+[R1008](results/R1008-wild-inertia-and-all-rational-correspondence-centralization.md)：原canonical level6p全H¹在三处野惯性平凡；原κ₄κ_d⁻¹扭曲将一个野惯性元素实现为δ，实际偶分支d∈Q₃ cubes。故整个End_Q(J_d)均中央化δ，包含非CM/旧形式/全部重数。R1007的三挠Picard投影及ℓ²高度整除因此适用于全部有理自对应，关闭原曲线上的新nondeck入口；保留底曲线η_h、其它完整高度及O0范围。
 
 R921/R924的实际整completed Hom、两节点极界、完整inertia和原a_h均已解决相应normal首层问题。中央p^−a_h G_h整restricted且最高项单位；几何开盘零数由最小单位下标决定，不是有理零数或height。
 
