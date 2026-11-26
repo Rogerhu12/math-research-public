@@ -1,0 +1,145 @@
+{
+  "schema": "isp-bounded-inputs-before-original-jet-fibers-v1",
+  "ordinary_isp_claim": false,
+  "records": [
+    {
+      "job": 139847488409,
+      "receipt": {
+        "elapsed_seconds": 900.3844757700001,
+        "max_child_rss_kib": 111904,
+        "ordinary_isp_claim": false,
+        "rules_reads": [
+          {
+            "after": "9c5f7ee324397ea545fdff7d6030db7be0ad627a",
+            "before": "c81ee4f55686ccce58b48538804ca3bf1e8da182",
+            "rules_git_blobs": {
+              "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+              "topics/invariant-subspace-problem/README.md": "fef43bdf8690f2eec4751d85784a266eacdd0322"
+            },
+            "rules_unchanged": true,
+            "utc": "2026-11-26T10:31:16.440964+00:00"
+          }
+        ],
+        "run_attempt": "1",
+        "run_id": "45802044010",
+        "schema": "isp-frozen-exact-actions-execution-v1",
+        "session": "Astra-ISP-347c-20261126",
+        "source_commit": "c81ee4f55686ccce58b48538804ca3bf1e8da182",
+        "source_exit_code": 124,
+        "source_git_blob": "6674069ebf36d78bf2a60df1d426713863488888",
+        "source_sha256": "0e1df73d382e645263b6b62d3c2d70ee4dff0c7da0045a31434b7c9152efe07c",
+        "stdout_bytes": 84,
+        "stdout_sha256": "dba450c85acbe10503e61578daad826c76dfb852ceb9e37e55b5ff1a6f027e14",
+        "stop_reason": null
+      },
+      "reports": [
+        "2026-11-26T10:46:16.7573476Z {\"claimExcluded\": false, \"elapsedSeconds\": 900.011302, \"status\": \"timeout_unknown\"}"
+      ]
+    },
+    {
+      "job": 139847488577,
+      "receipt": {
+        "elapsed_seconds": 900.516209366,
+        "max_child_rss_kib": 145156,
+        "ordinary_isp_claim": false,
+        "rules_reads": [
+          {
+            "after": "c81ee4f55686ccce58b48538804ca3bf1e8da182",
+            "before": "c81ee4f55686ccce58b48538804ca3bf1e8da182",
+            "rules_git_blobs": {
+              "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+              "topics/invariant-subspace-problem/README.md": "fef43bdf8690f2eec4751d85784a266eacdd0322"
+            },
+            "rules_unchanged": true,
+            "utc": "2026-11-26T10:31:14.410979+00:00"
+          }
+        ],
+        "run_attempt": "1",
+        "run_id": "45802044010",
+        "schema": "isp-frozen-exact-actions-execution-v1",
+        "session": "Astra-ISP-347c-20261126",
+        "source_commit": "c81ee4f55686ccce58b48538804ca3bf1e8da182",
+        "source_exit_code": 124,
+        "source_git_blob": "b05382bffaa69ba4e78b6e937fcfc6aa65833d0a",
+        "source_sha256": "05239419a2e6e95d1fdcea78bc6966a1c9c488d629d88ee4191c659cc4e145ff",
+        "stdout_bytes": 352,
+        "stdout_sha256": "0f184731595ee46035646698c5a581e6acca3e5e073dcb2533917629a1829bbc",
+        "stop_reason": null
+      },
+      "reports": [
+        "2026-11-26T10:41:45.5092380Z {\"basisDegrees\": [2, 2], \"claimExcluded\": false, \"elapsedSeconds\": 630.777373, \"parameterZeroDimensional\": true, \"sexticIrreduciblePrime\": 41, \"sourceSha256\": \"05239419a2e6e95d1fdcea78bc6966a1c9c488d629d88ee4191c659cc4e145ff\", \"stage\": \"exact_finite_parameter_ideal\"}",
+        "2026-11-26T10:46:14.7317121Z {\"claimExcluded\": false, \"elapsedSeconds\": 900.000124, \"status\": \"timeout_unknown\"}"
+      ]
+    },
+    {
+      "job": 139847489331,
+      "receipt": {
+        "elapsed_seconds": 1206.806615703,
+        "max_child_rss_kib": 405776,
+        "ordinary_isp_claim": false,
+        "rules_reads": [
+          {
+            "after": "c81ee4f55686ccce58b48538804ca3bf1e8da182",
+            "before": "c81ee4f55686ccce58b48538804ca3bf1e8da182",
+            "rules_git_blobs": {
+              "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+              "topics/invariant-subspace-problem/README.md": "fef43bdf8690f2eec4751d85784a266eacdd0322"
+            },
+            "rules_unchanged": true,
+            "utc": "2026-11-26T10:31:14.385182+00:00"
+          }
+        ],
+        "run_attempt": "1",
+        "run_id": "45802044010",
+        "schema": "isp-frozen-exact-actions-execution-v1",
+        "session": "Astra-ISP-347c-20261126",
+        "source_commit": "c81ee4f55686ccce58b48538804ca3bf1e8da182",
+        "source_exit_code": -9,
+        "source_git_blob": "1c518acbdc88c461059cdab62f0fa899eeb77424",
+        "source_sha256": "a757281820fadfa0a4f255e11e62a4ebd53f07d9762ba3d189da2c38b06b8310",
+        "stdout_bytes": 1227,
+        "stdout_sha256": "d04ba83fb4fbbac6fc41b19de4b778ca9b175b5077798cbe17533abe50b9aeec",
+        "stop_reason": "wall_time_limit"
+      },
+      "reports": [
+        "2026-11-26T10:31:20.0728130Z {\"degree\": [0, 0, 0, 9], \"factors\": [{\"multiplicity\": 1, \"polynomial\": \"262144*Q^9 - 136445952*Q^8 + 413595392*Q^7 - 485798592*Q^6 + 270885520*Q^5 - 70094916*Q^4 + 7538804*Q^3 - 883844*Q^2 + 156660*Q - 12753\", \"sha256\": \"7ae6df79f5e42b862aa5a8a1046090f6e9b8e22f12271de59e60f3afdd83e3b6\"}], \"seconds\": 5.623329154000032, \"stage\": \"l2_curve\"}",
+        "2026-11-26T10:31:20.2188406Z {\"degrees\": [[2, 4, 3], [2, 4, 6], [2, 3, 4], [3, 6, 7], [3, 6, 9], [0, 0, 9]], \"factor\": \"262144*Q^9 - 136445952*Q^8 + 413595392*Q^7 - 485798592*Q^6 + 270885520*Q^5 - 70094916*Q^4 + 7538804*Q^3 - 883844*Q^2 + 156660*Q - 12753\", \"seconds\": 5.769184418000009, \"stage\": \"l2_original_fiber_start\"}"
+      ]
+    },
+    {
+      "job": 139856248348,
+      "receipt": {
+        "elapsed_seconds": 185.476095366,
+        "max_child_rss_kib": 327240,
+        "ordinary_isp_claim": false,
+        "rules_reads": [
+          {
+            "after": "28db6c3bfe7c30753fea7a1aeb98ead5f7d4b34d",
+            "before": "816ddd187cbedbcd7af373ebc0ec9db50f3b3145",
+            "rules_git_blobs": {
+              "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+              "topics/invariant-subspace-problem/README.md": "fef43bdf8690f2eec4751d85784a266eacdd0322"
+            },
+            "rules_unchanged": true,
+            "utc": "2026-11-26T10:47:47.655065+00:00"
+          }
+        ],
+        "run_attempt": "1",
+        "run_id": "45804559912",
+        "schema": "isp-frozen-exact-actions-execution-v1",
+        "session": "Astra-ISP-347c-20261126",
+        "source_commit": "816ddd187cbedbcd7af373ebc0ec9db50f3b3145",
+        "source_exit_code": 0,
+        "source_git_blob": "ec43e7dd9a88012ce2b282bfabeef2355a50636a",
+        "source_sha256": "441014cd9eb64e04a96c96ff962a2b1f02d04aac149aa6bb4118e075eb0120aa",
+        "stdout_bytes": 13967,
+        "stdout_sha256": "dc8820774fdb9404410c3ee3a0fa9b38e469739b297a70bd87b5febacd7e576d",
+        "stop_reason": null
+      },
+      "reports": [
+        "2026-11-26T10:50:53.0061828Z {\"limit_seconds\": 180, \"outcome\": \"unresolved\", \"seconds\": 185.030841276, \"stage\": \"singular_bounded_timeout\", \"stdout_sha256\": \"bc253998fd0e740ba3bb534e90c7a85f7a9730c5820bb2c703e70e1aca016367\", \"text\": \"ISP_BEGIN_TWELVE_ORIGINAL\\n\"}",
+        "2026-11-26T10:50:53.0067157Z {\"scope\": \"modular direction only; no QQ/Ke/complex exclusion claim\", \"seconds\": 185.031587842, \"source_sha256\": \"441014cd9eb64e04a96c96ff962a2b1f02d04aac149aa6bb4118e075eb0120aa\", \"stage\": \"complete_probe\"}"
+      ]
+    }
+  ]
+}
