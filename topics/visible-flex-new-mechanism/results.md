@@ -430,3 +430,5 @@
 - [R616同一真实候选的严格扩盒函数图](results/R616-same-candidate-expanded-box-function-chart.md)：**已证明**旧接受h/k为新图准确零点入口，值和完整空间二jets同保；有理tanh加法给原物理盒内更宽值域、全程正分母及初始形状方向连续下界，所有中心/末端奇偶germs不变。完整LengthGraph与专用physical adapter待真实后继消费，不授端图/ruling秩或根。
 
 - [R617有限pre-tanh的复极点与开帽刚性](results/R617-finite-pre-tanh-poles-and-open-cap-rigidity.md)：**已证明**固定有限角带V加任意有限post的σtanh(V/σ)，由无限简单复极点的完整五阶Laurent系数迫有限Φ恒等；signed最大值的Dini/Gronwall排从正半径开帽长出的非零V，再接R610。当前内帽.22的E→1及反向传播条件明确；不授有限误差正下界，不排角带增长或无限独立响应的固定g极限。
+
+- [1130q独立径向响应的完整自然终态](notes/2026-11-27-r606-compact-response-natural-stall.md)：**数值改善但未完成**；run45882634760新3336.041297306秒/56接受/57Jac，真277q细η4.378056141e−7且双直接读数同量级，完整At/M自然stall。输入d47441a4、全部原网/口/费用固定，后继换全奇实际S目标；不授固定g极限。

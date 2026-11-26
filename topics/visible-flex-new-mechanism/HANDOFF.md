@@ -5,7 +5,7 @@
 
 ## 1. 授权、规则与全部前史
 
-公开本次实际pull且根/题README已读至 **f27405d369913d30b89346b02a51ab20cb82ae30**；相对继承0749a4cc规则空差异。私库本次实际pull且根README已读至 **f7d4488a16beb49a670335f275af43094628e070**；QUEUE认领推送 **09f8b8b54e7cfaabaa635bae5c438c7f1521289a**，本会话进行中。私库本轮再pull、根README空差异且QUEUE仍唯一认领；下一不晚于21:10 UTC。
+公开本次实际pull且根/题README已读至 **6b65cb005a1e83161e45605ceca80256c1972b79**；相对继承0749a4cc规则空差异。私库本次实际pull且根README已读至 **f7d4488a16beb49a670335f275af43094628e070**；QUEUE认领推送 **09f8b8b54e7cfaabaa635bae5c438c7f1521289a**，本会话进行中。私库本轮再pull、根README空差异且QUEUE仍唯一认领；下一不晚于21:10 UTC。
 
 [本次压缩前全文](notes/HANDOFF-before-full-position-and-continuous-20261127.md)及所链[初交接](notes/HANDOFF-inherited-20261127-1f4a61a4.md)保全部旧结论、量词、失败、真实输入与完整费用；移档不重做已付门。[四来源/文献复核](notes/2026-11-27-current-four-source-topics-and-literature.md)固定已读版本及可用范围。
 
@@ -33,15 +33,13 @@
 
 ## 5. 完整高度与实际位置方程
 
-旧八/十一模、全尾/归一/口与682q所有真实费用在前史；完整R602 core六jets/Jac保留。[682q全谱终态](notes/2026-11-27-r606-full-spectrum-natural-stall.md)run45854123850新1068.193324629秒，41接受后stall；细η5.59672e−7，未过2e−9。
+旧八/十一模、682q全部费用在前史；完整R602 core六jets/Jac保留。[682q终态](notes/2026-11-27-r606-full-spectrum-natural-stall.md)41接受后stall、细η5.59672e−7。
 
-[1130q正文响应](notes/2026-11-27-r606-compact-response-implementation.md)run **45882634760**，source943376ef，19:18 UTC开始，待自然终态。新增448 C4紧支撑参数；全部正偶2…88、旧682q/所有口/同canonical512无限tanh/完整R602不变。60新步、5400秒范围；未达目标时不延长旧682q。
+[1130q原自然终态](notes/2026-11-27-r606-compact-response-natural-stall.md)run45882634760/job140125470693/source943376ef，新3336.041297306秒、56接受/57Jac，完整At/M目标自然stall。真实iteration277、1130q JSON SHA **d47441a4089148d05fc6dc2e4cd487d074e2e2e9e2ed0b9feea325bfb4357113**、amp1e−5、H.5188922483301639、nextdamping1e−14、pendingnull。实际merit与η均改善；完整1728×512 η **4.378056141084893e−7**，两直接读数同量级，未过2e−9。全部原口/网格/独立448正文响应/完整费用保留。
 
-[R613](results/R613-actual-position-defect-jacobian-and-complete-objective.md)付实际S完整离解Jac与原D等价；[全奇频QR](notes/2026-11-27-r613-complete-position-row-memory.md)保每原行/全奇异方向、小R完整SVD，无normal equations。实际S driver骨架待原compact真末态，不伪造q。若真实merit/η仍背离，以N256全部奇1…127改目标。
+后继改[R613](results/R613-actual-position-defect-jacobian-and-complete-objective.md)实际S目标N256全奇1…127，保实际1130q；[完整行QR/SVD](notes/2026-11-27-r613-complete-position-row-memory.md)不删原行/奇异方向，不做normal equations。真实新输入已备，尚未登记运行结论。
 
-[R606](results/R606-weighted-fourier-majorants-continuous-turning-and-metric.md)/[R615](results/R615-position-fourier-majorants-and-discrete-primitive-error.md)给连续角预算；共享helper单次系数/rho遍历同时读两套界，fine奇频至255。径向系数/ODE/DtN/舍入仍须付；浮点观察不是连续证书。R610及同尾核R596/R600旧结论保前史。
-
-[R617](results/R617-finite-pre-tanh-poles-and-open-cap-rigidity.md)新付固定有限pre-tanh＋有限post的准确开帽刚性：无限复极点→Φ→Dini/Gronwall，实际内帽E→1。无正误差下界，不取消当前有限求解；完成路线必须付角带增长/无限独立响应，不能仅凭tanh无限谱当已逃过刚性。
+[R606](results/R606-weighted-fourier-majorants-continuous-turning-and-metric.md)/[R615](results/R615-position-fourier-majorants-and-discrete-primitive-error.md)同一次系数/rho遍历，fine奇至255；当前条件界仍4.55446e−5。径向/ODE/DtN/舍入仍未付。[R617](results/R617-finite-pre-tanh-poles-and-open-cap-rigidity.md)排固定有限pre-tanh＋有限post准确开帽根，实际.22帽E→1已核；不授正误差下界，后继须角带增长/无限响应及固定g。
 
 ## 6. 真函数、宽母与完整两ruling
 
@@ -59,6 +57,6 @@ R598同十八正块/576微包宽母、微半宽1/12000、完整正势1、负侧�
 
 [R604](results/R604-normal-chord-stability-and-finite-parametric-norm-interface.md)给全法弦扰动及真实C0/C1/协变C2充分证书。[frame接口](notes/2026-11-27-r604-continuous-rotating-frame-norm-interface.md)与[R582同场径向盒](notes/2026-11-27-r582-same-field-radial-interval-interface.md)已发布：精确端jets/Bernstein、原全部97q控制、同圆角core全角界。[当前/参考a,z](notes/2026-11-27-r582-same-field-mean-interval-interface.md)及直接差jets已备；[R608新q适用性](notes/2026-11-27-r608-tail-transfer-to-retained-circle-agent.md)确认16控制仍在原3/5盒，旧尾引理原样用；新公开范围须重建相同mesh一次计费、覆盖全部材料分片/中心柱/帽/无限尾，才能登记新全域范数与reach。没有把数值零suffix当解析高度尾，也没有宣称有限材料等于无限核。
 
-[新连续几何scope](notes/2026-11-27-r582-retained-continuous-reach-implementation.md)先认证同f1c新mean圆参考，再必要重建62878端点一次，付全材料/中心柱/双帽/无限尾及R604实际界；预算是细化目标，不是通过门，不借旧圆资格。原Actions尚待运行结果。
+[新连续几何scope](notes/2026-11-27-r582-retained-continuous-reach-implementation.md)先认证同f1c新mean圆参考，再必要重建62878端点一次，付全材料/中心柱/双帽/无限尾及R604实际界；预算是细化目标，不是通过门，不借旧圆资格。原run45890735034/source4322a257于20:23 UTC启动，待自然终态。
 
 全体已证索引在[results](results.md)，真实计算及全部费用在notes；任何局部结论后继续下一实际输入，只有本题全部完成标准真正达成才收尾。

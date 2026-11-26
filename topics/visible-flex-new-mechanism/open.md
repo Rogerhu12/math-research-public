@@ -46,7 +46,7 @@ R602从属完整核心D已降到1.596e−19，实际e′R关系也成立于数�
 
 [正式全谱续算](notes/2026-11-26-r606-paid-full-spectrum-implementation.md)保同682q、同canonical场、全部已付11个口和完整核心修正，实际改为全At/M正频2…48的24行等角权目标；不要只继续降低2…22的十一弱行，也不先机械增加齐次模。18/20/22的实际DtN/13jets本run已付，后继不能重做其inner。新高模向内短传递、dense/connector/core/H积分的必要再生仍照实计费；不是新口免费送入。
 
-[原全谱自然驻点](notes/2026-11-27-r606-full-spectrum-natural-stall.md)已核41接受后merit下降而真实η升到5.59672e−7；[新增448正文响应](notes/2026-11-27-r606-compact-response-implementation.md)的1130q原run45882634760进行中，完整2…88输出/原所有点和端式保留，不延长旧空间。
+[原682q自然驻点](notes/2026-11-27-r606-full-spectrum-natural-stall.md)及[1130q真实自然终态](notes/2026-11-27-r606-compact-response-natural-stall.md)均已读取。后者56接受/57Jac后原At/M目标stall，merit与η都改善，实际277q细η4.378056141e−7仍未过2e−9。下一以同一真实1130q改完整S全奇1…127目标；原所有点、口、端式和费用保留。
 
 同一个f/fr/frr均值函数固定512角定义，角jets不改。旧按观察网均值形成不同高度的语义差已修，不能恢复网依赖定义。R602的δα+2完整修正及其对所有变量的链式导数必须进入同一六jet高度；只删核心行或贴边采样不能支付准确端式。
 
@@ -128,7 +128,7 @@ T-surface、可弯管或变换共轭网须同时付端口位置、切平面、�
 
 R612已将O4四偶端图无损化为唯一物理长度及三形状积分，详见[完整证明](results/R612-exact-physical-length-elimination-and-three-true-end-integrals.md)。在原函数run45881816067自然终态暴露相应瓶颈后采用；固定物理L精化、全势与两ruling不由消元代付。
 
-O2b-B的[R613](results/R613-actual-position-defect-jacobian-and-complete-objective.md)已给同场实际位置目标的完整Jac与原方程等价，纯算子待消费；先读取compact1130q原run45882634760自然终态，再按真实瓶颈决定后继，不延长旧682q驻点。
+O2b-B的[R613](results/R613-actual-position-defect-jacobian-and-complete-objective.md)已给同场实际位置目标的完整Jac与原方程等价，完整算子已备；compact原终态证明新空间At/M目标自然stall且实际η仍不足，下一从真277q支付全奇位置目标，不延长旧驻点。
 
 O4的[R614](results/R614-complete-two-ruling-global-gauge-projection.md)已付两常规范全局消元、四偶根上两列非退化及完整离解导数；双侧不同权必须用完整Gram，不能逐点除d或m。该结果不要求复跑现有同单位全局LS，后继按原真实终态消费。
 
