@@ -493,6 +493,6 @@
 
 - [R938附A](results/R938-original-full-source-finite-offsets-and-affine-carry.md)：全W_low首项R1=(Y−1)^4A2、degA2≤2；原零角迫D2低门亦含t²，beta2/3同读A2。有限图与第四例外厚节点共同读取O(2)的2m限制，保degF0=1/2/3；三条原列付全来源三维像而不冒K1。τ=h+1的真实normal行补−12(uhat0/e0)²A2(1)/q(P_C)，其它页差仍开。
 
-- [R941](results/R941-original-two-division-central-reader.md)：同原W递推只在r0=(5p−1)/6与f的n=p两次真除p；p⁸起算严格付原四源全部六Gaussian块及j modp⁷。无独立f_p或自由提升，原曲线/倍点/全carry身份保；仅算法证明，公开227执行已请求、尚无PASS，不代无穷性。
+- [R941](results/R941-original-two-division-central-reader.md)：同原W递推只在r0=(5p−1)/6与f的n=p两次真除p；p⁸起算严格付原四源全部六Gaussian块及j modp⁷。无独立f_p或自由提升，原曲线/倍点/全carry身份保；公开p227四原中央实际赋值1，curve/倍点/全carry过；run45762838950及完整hash见§5，仍不代无穷性。
 
 - [R942](results/R942-original-split-scalar-preimages-and-whole-module-elimination.md)：原整模以逐可逆行操作完整消元，不累计巨大变换矩阵；全部附加源同步消元准确返回原分母。原q/q0逐线性因子的完整剩余核求全scalar原像，每重数逐层保厚、全306源/两图/两个product与边界门保持；只有等价算法证明及源码，实际单F除子仍待。
