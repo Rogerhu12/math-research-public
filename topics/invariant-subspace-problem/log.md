@@ -463,3 +463,6 @@ AI-assisted GPT-6 Astra Pro：固定奇p的p−1二进位支持作不交高位�
 
 ## 2026-11-26 22:22:31 UTC — Astra-ISP-8542378f-20261127：全部整幂根与真实闭域限制
 AI-assisted GPT-6 Astra Pro：奇幂恢复把任意q根放入正确有限放大交换子，深头完整Jordan块得q|pk，companion付充分性。闭图及同域移幂排除有限整幂全像正则化，未替代PH⊂DomT。私库22:13:10 UTC实际pull至d5fa06df，README diff无变、QUEUE仍本会话；H/open全量快照压缩后继续原未闭接口。
+
+## 2026-11-26 22:23:27 UTC — Astra-ISP-8542378f-20261127：普通真不变空间无任何幂的不变闭补
+AI-assisted GPT-6 Astra Pro：E/Y均在准确原幂交换子，深头Eχ与完整J交换保证像只有D长Jordan块；p根整除迫字符秩0或满。全字符迹的谱连通付一致选择，det单位排非零真E。任意p及非正交闭补同时覆盖；未知不分裂空间与真实平坦域继续开放。

@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R12 任意普通真不变空间均无任何整幂的不变闭补空间（2026-11-27，已证明）：** [完整深头块数、全部字符与迹谱连通](results/R12-appendix-no-power-invariant-closed-complement-for-any-ordinary-invariant-subspace.md)对RanE=M∈LatA、E交换A^p，令Y=AE；准确有限放大交换子使每个字符像Eχ与完整J交换。其像仅有完整D长块，p次根整除迫Eχ=0或I；深尾迹的谱连通迫所有字符同选，再用det(I−E)或detE为单位得E=0/I。允许非正交闭补空间；不排除代数和稠密但非闭的分解，也不扩大到独立有限重数放大。
+
 - **R12 原尾全部整幂的有界根分类与闭根域障碍（2026-11-27，已证明）：** [完整奇幂交换子、深头Jordan计数及真实域证明](results/R12-appendix-all-integer-power-root-multiplicity-and-closed-root-domains.md)给任意λ≠0、k/p/q正整数，X^q=λI_k B_m^p存在有界解当且仅当q|pk，不预设X与B_m交换。必要性保kp个长度至少二的Jordan块；充分性用q/gcd(p,q)维companion。同一整除排除闭稳定域根包含任意完整Ran B_m^r；平坦P正则化仍须另付PH⊂DomT。
 
 - **R12 原奇幂可一致有界强多项式恢复，全部幂交换子及真实子商同步确定（2026-11-27，已证明）：** [原高位组、独立方差及可和carry](results/R12-appendix-odd-power-strong-recovery-all-power-commutants-and-actual-subquotients.md)对奇p取p−1的二进位支持和不交高位平移组，真实平均R_L强趋I、||R_L||≤2^s₂(p−1)，B_mR_L为B_m^p的多项式。故两者Lat、交换子及强闭多项式代数相同；一般p仅依v₂p，完整交换子=M_(2^v₂p)(C_(m+v₂p))。同一强恢复下降到每个实际闭不变旗子商，保持未知真实空间；不把子商识别为全尾或套全空间根重数。
