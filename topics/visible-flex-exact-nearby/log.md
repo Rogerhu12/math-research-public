@@ -105,3 +105,5 @@ root完整展开CR16为CP1，保ξ的二次与q的三次全部11系数。相同�
 2026-11-26 09:36:48 UTC：完整核原B final0553a2a1…、C0nu5eff0838…及movingGeometry8d9057e1…；几何ε明确定义C0(r,φ)，physical指真实幅度完整mean而非固定θ。同步更正TM actual后继措辞：优先compact χw的同φ新界，sameθ P/F商界仅作其实际端口用途；不重原几何科学、不更改TM已成门。
 
 2026-11-26 09:41:54 UTC：LC完整证明已root核。有限real Fourier A0系数含α一次，Eφ逐原row含区外bJ；CS替换hatUA/hatZA在径向积分前保位置，χ′平方原多项式确切积分；[z]比值跳及原Jv/Jm全保。sameθ联合P/F反向角公式先分最终qξ项、固定raw m积分，不漏mean导数。仅新证明/目标定义，未授新C0数值门。
+
+2026-11-26 09:43:09 UTC：TC完整proof已root核SC/E/N原Lambda及5source窗，Hermite k!/右端符号和完整root单位/共享值、零外端及cutoff导数、全288卷积/Legendre径向质量/mean-rank均保。新trial-only有限代数对象独立，不消费尚未有的P224；SC17–24真PDE列误差与真矩阵门仍待其实际前件。proof finalblob60d1fb64b02d6cdf9ef5e287579cfc510b686968/17014B，owner正在接，无新actual。

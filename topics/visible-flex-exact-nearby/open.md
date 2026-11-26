@@ -178,3 +178,5 @@ TM首次具体入口已接：11个完整小输入、旧D0与精确waist L²字�
 几何输入的坐标资格已完整核原C.1/B.1：ε=max(||δu||C0(r,φ),||δv||C0(r,φ))，是未除α、保mean的完整moving状态。新compact mean的u同φ准确不变，v可用b sup jξ+ρ sup χ|v−m|；固定θ复合是另一量，仅按实际物理端口需求支付，不误增B.1前件。此处未给新数值门。
 
 [LC localized全状态/完整源](results/R144-supplement-localized-full-state-C0-and-compact-source-receivers.md)已核：同φ E=bJ+ρχW_A，区外仍保mean；全7721行有限32载体同时给CS五完整积分、真正χ′平方质量和6143个normalized新jump上界。旧TM/Γ/原残差不重，独立sameθ联合P/F公式仅定义，待新actual。
+
+[TC真根连续96试列](results/R149-supplement-true-root-continuous-PDE-trials-and-complete-residuals.md)已核：同selected窄δ、原7721整η third-jet载体、真r* Hermite even96=I/全根共享、零外端和完整χ′、288全支持/5 source窗/两mean腰与RW signed配对。独立trial-only kind可先算已定义有限对象；SC真列误差/真矩阵入口仍只在完整P224后执行，无actual成功声明。

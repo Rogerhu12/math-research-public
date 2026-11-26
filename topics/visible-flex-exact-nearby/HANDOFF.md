@@ -1,11 +1,11 @@
 # 交接：可见振幅的精确闭等距族
 
-维护会话：visible-exact-astra-198c63d-20261126；更新：2026-11-26 09:41:55 UTC。
+维护会话：visible-exact-astra-198c63d-20261126；更新：2026-11-26 09:43:10 UTC。
 **总任务未完成，持续研究，不等用户回复。**
 
 ## 已读规则、授权与接续
 
-已部分浅克隆并pull main，完整读根README（全部授权/规矩）、课题README及原HANDOFF/open/log/notes；私库QUEUE认领已推f90ec8e0116c67cbc32c03342e6a8d2aee0ccb41。两README确认至 106d180d44b8b234481a3311738c61a6b2f6249b；每次更新main检查其diff，≥每小时，当前无差异。
+已部分浅克隆并pull main，完整读根README（全部授权/规矩）、课题README及原HANDOFF/open/log/notes；私库QUEUE认领已推f90ec8e0116c67cbc32c03342e6a8d2aee0ccb41。两README确认至 28c629a06272441ae1e86f7cbe5f2715ea91601b；每次更新main检查其diff，≥每小时，当前无差异。
 05:48 UTC起executor不可用，09:16再次确认；按根规8用GitHub集成读main/规则diff、编辑每件<100KB UTF8。用户令牌不入文件/API。恢复立即真实pull --rebase再核两README。非FF马上接最新main并循环推成功，不force。本地/tmp/visible-exact-astra-198c63d15049/math-research-public，无AGENTS。
 科学数值仅本公开Actions；此处只证明、静态代码与元数据。旧完整成功不重跑；规15 topic≤200000000B、H<10000B、open≤30000B，不新增可重建数组/artifact/Release。09:25完整metadata tree199340447B，TM新代码73480B另计；已将12份重复H/open及另16份旧open改为永久完整原件入口，分别净减397237B/428625B；科学/native/active pins未动。
 本页与open本次压缩前完整记录逐字保[35c59f45a19bad429fb46b09d562c8d30f067b94原H](https://github.com/Rogerhu12/math-research-public/blob/35c59f45a19bad429fb46b09d562c8d30f067b94/topics/visible-flex-exact-nearby/HANDOFF.md)及同提交open；此前5d204186/3919d213同路径及da8724c完整索引继续有效。所有旧scope、失败门、单位、mean、真实域和未付义务均保，不因摘要减少。
@@ -29,7 +29,7 @@ geometry43584188751/26仅在同η0全core含帽物理C0≤1e−4、|δν|≤1e�
 ## 已锁定的实际结果与排除
 
 - **[common source4](results/R149-supplement-actual-common-high-WPN-source-unit-ball.md)**45783842857/1，child0/complete/provedtrue，4/4，25pins/320bits。science27978B SHA75f2544374f60f3a1fc1118b922d9b884f59bc0a53755c17999e8c9f015e851b；execution13082B SHAbdfea6f0d42c098bb24f2add51c8c4e7006c71c3d6933bdf493809c5cc3363bc。17独立零/18槽、真24480投影及state outermean保；大界不授smallness。首45783284224仅YAML jobs0，修后首child即成功，目标锁。
-- **[RW actual](results/R149-supplement-actual-reflected-finite-waist-rows.md)**45787309600/1全96/480，30当前/4历史，L4096/N1024，a=2H(0)不置0；signed mean、全部alias/tail、private完整carrier读回保。science86146B SHAb0faf218c059b6f7ee113a5f127a7518e78d2c87dc70b4dcf650ce97594c7fa4；exec16042B SHA3cfc1cbc9f8b1c5fe450c779146042c6b7f4bd4f42ca48606c4c9309e94a0b00。首row mean非零，未给PDE列/Θ/fullincoming。
+- **[RW actual](results/R149-supplement-actual-reflected-finite-waist-rows.md)**45787309600/1全96/480，30当前/4历史，L4096/N1024，a=2H(0)不置0；signed mean、全部alias/tail、private完整carrier读回保。science86146B SHAb0faf218c059b6f7ee113a5f127a7518e78d2c87dc70b4dcf650ce97594c7fa4；exec16042B SHA3cfc1cbc9f8b1c5fe450c779146042c6b7f4bd4f42ca48606c4c9309e94a0b00。首row mean非零，未给PDE列/Θ/fullincoming。[TC真根连续trial](results/R149-supplement-true-root-continuous-PDE-trials-and-complete-residuals.md)有限残差新目标已核，真列误差仍等P224。
 - **[C0/CP11 actual](results/R144-supplement-actual-compact-mean-C0-receivers-and-positive-moments.md)**45787608966/1全7721/6143/7721、52球，正矩门true；15当前/5历史，science16007B SHA0ce421d4a1e14a57915531261c531ce8231a8874aba5dfd704d37f67bb8d7641；exec12471B SHA9e21d438e609b207274e6a510d7e7b3ce87522e19a3547635206ab609a91bedc。Γ/Rm/Rnm/Jm只读；KJ保τ+与terminal T^-1，11核保真χ支撑。其smallroot/mean-ball已由TM actual完成；raw固定ν0/η0 scope不变。
 - **[旧forward](results/R144-supplement-actual-forward-mean-enclosure-and-unresolved-gates.md)**45772466407/1只6791续930后完整7721/6143；positive/C0/outermean unknown，首6803，无真违例。全η目标锁定；RS W0=0、D0/signed bulk/atoms/physicalmean保。[suffix规约](notes/2026-11-26-R144-fixed-eta0-mean-suffix-state-spec.md)仅实际未完成才续，真cursor及join侧别/W/G/AD/D0整球不重置。
 - **R143**45762052058完整4651六球/body三门true；**R146**45765780668完整418/13376、T2<102.965、Qupper<−.16618，排当前CV/RA非负根费格式，不推BVP奇异。不再该格式Gram/容量/仅细化DH。
