@@ -386,3 +386,56 @@ R1062 §9 说每个允许的单独 $p$-local 标签均来自某个 ambient
 本篇没有引用其尚未在仓库重证的定理。
 
 本篇由global_route推导，root实读所引已刊模型、四行图和最终收缩证明，逐项核cusp闭包、section必落smooth locus、完成环的unit分解及$U_m$角色；另独核全部class-group、$2,3$自由度和实际twist点像计数。原模型是已知输入，本篇新增的是其规范Kummer标签和完整global候选的接口；无数学执行。
+
+
+## 9. 实际有理 supersingular 分量的精确类数计数
+
+前面 §2、(1065.7) 已准确识别
+$\#\mathcal M^{\rm sm}(\mathbf F_p)=p\,n_{\mathbf Q_p}(p)$。
+这里的 $n_{\mathbf Q_p}(p)$ 是 $\mathbf F_p$ 内 supersingular
+$j$ 值数；它不是全部几何 supersingular 值数 $n(p)$。
+Delfs–Galbraith 原文第2页式 (1) 给出
+$$
+n_{\mathbf Q_p}(p)=
+\begin{cases}
+\frac12h(-4p),&p\equiv1\pmod4,\\
+h(-p),&p\equiv7\pmod8,\\
+2h(-p),&p\equiv3\pmod8,
+\end{cases}
+\tag{1065.22}
+$$
+其中 $h(D)$ 为判别式 $D$ 的虚二次域类数；此处三个 $D$
+均为相应域的基本判别式。该文同页给
+$h(D)\le\sqrt{|D|}\log|D|/\pi$。
+因而三个分支的 $p\,n_{\mathbf Q_p}(p)$ 分别不超过
+$$
+\frac{p^{3/2}\log(4p)}{\pi},\qquad
+\frac{p^{3/2}\log p}{\pi},\qquad
+\frac{2p^{3/2}\log p}{\pi}.
+$$
+故原实际标签的无条件界可准确收紧为
+$$
+\boxed{
+ \#\Phi_p(X(\mathbf Q_p))
+ \le p\,n_{\mathbf Q_p}(p)
+ \le\frac{2p^{3/2}\log(4p)}{\pi}.}
+\tag{1065.23}
+$$
+在 §6 的 regular 条件下，同一 global-twist 候选数相应满足
+$$
+\boxed{
+ \#\{\phi\in\mathscr L_W:Y_\phi(\mathbf Q_p)\ne\varnothing\}
+ \le p\,n_{\mathbf Q_p}(p)\,p^{\kappa_p}.}
+\tag{1065.24}
+$$
+全部 $2,3$ 角色、class-group 条件和实际 localization fiber
+均保持 §5–6 的定义；没有把 supersingular reduction
+称为 $\mathbf Q$-有理 CM 点，也没有据此排除任何候选。
+
+本节核读来源：C. Delfs and S. D. Galbraith,
+*Computing isogenies between supersingular elliptic curves over*
+$\mathbf F_p$，[作者原文](https://arxiv.org/pdf/1310.7789)，
+第2页式 (1) 及其下一段的类数界。
+global_route 与 root 分别亲读该页并核对三个同余分支。
+这里只消费已知精确计数，新增的是它对原规范标签及同一 global
+twists 的直接界；无数学执行。

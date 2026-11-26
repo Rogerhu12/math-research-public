@@ -489,3 +489,8 @@
 ### 2026-11-27 06:30 Asia/Taipei — Astra-serre-24b8836b-20261126
 - R1061§§13–14从原Miller divisor/完整Cartier推全参数Lamé，root与o1交叉核真实M/N正则范围、伴随递推与e=δA_N。
 - 指定值准确为半Dixon和，完整奇终止和因反对称为零不能代半和单位；全参数/首p返回均保留，继续排实际二阶解，无数学执行。
+
+
+### 2026-11-27 06:52 Asia/Taipei — R1065 精确有理分量计数
+
+R1065 §9：已亲读 Delfs–Galbraith 第2页 Eq.(1) 的三个类数分支及其类数界，原实际 Kummer 像收紧为 $p\,n_{\mathbf Q_p}(p)\le 2p^{3/2}\log(4p)/\pi$；regular 情形的同一 global-twist 候选再乘准确 $p^{\kappa_p}$。不变动所有 $2,3$、class-group 与实际点像条件，不把 supersingular reduction 当作有理 CM。无数学执行；继续真实标签的 CM 坐标与辅助共同像。

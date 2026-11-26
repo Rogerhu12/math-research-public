@@ -31,7 +31,7 @@ R1018–40的原完整Fm/两节点Dickson/PD及好BT整比较均已付，详细�
 
 ## O0：全主目标覆盖（R1003恢复原范围）
 
-[R1065](results/R1065-original-p-local-cusp-label-compression.md)：全部 $p>37$ 的原完整 $X_{\rm ns}^+(p)$ 标签在每个原 $\mathbf Q_p$ 模 $p$ 圆盘恒定；实际局部像至多 $p\,n(p)$。证明保全部四行正则模型、cusp闭包及 $U_m$ 平凡角色。regular $p$ 下可能有 $p$ 点的真实global twists至多 $p\,n(p)p^{\kappa_p}$，$\kappa_p$ 精确保全部2/3角色；未将实际标签算成CM标签，辅助共同像仍开。
+[R1065](results/R1065-original-p-local-cusp-label-compression.md)：全 $p>37$ 原曲线的 Kummer 标签在每个 $\mathbf Q_p$ 模 $p$ 圆盘恒定；原正则模型/cusp闭包/平凡 $U_m$ 角色齐备。§9用精确类数给实际像 $\le p\,n_{\mathbf Q_p}(p)=O(p^{3/2}\log p)$；regular $p$ 真实global twists候选 $\le p\,n_{\mathbf Q_p}(p)p^{\kappa_p}$，保全2/3角色。标签坐标、CM代表及辅助共同像仍开。
 
 [R1064](results/R1064-original-cuspidal-cover-descent-and-auxiliary-character-visibility.md)：真实Q-torsor与cusp平方角色已付；regular p下每cusp单一p^r次闭点，无Runge盈余。辅助ℓ只读ℓ^(2j+1)=1角色，真实可见商/Weil给有限辅助范围；同标签共同像排除仍开。
 
