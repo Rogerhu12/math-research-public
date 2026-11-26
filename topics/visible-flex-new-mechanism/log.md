@@ -548,3 +548,8 @@ open原28316B全文按链接层级移入open-before-fixed-E-and-K-only归档，�
 ## 2026-11-27｜R625同一已付原态的混合规范与完整行续算
 
 全文审8128B helper/37025B driver/6165B stdlib runner/12218B说明及6230B workflow，42绑定/17CLI/AST/sparse核合；同伴另核R620完整逆图和29维chain。保a0与旧65×19，原两全程规范以固定unit偏移，旧实际C²仅读a0/L故零入口同曲线；原D/root/seed/coarse/fine不重跑。全部原行与末十增量保持，LU真实预测先记录，不可用才完整行物理坐标阻尼LSMR；同态缓存、全部拒步/中断费用保持。新runner清凭证前一次载原log并核hash，纯内存stdin给无凭证科学进程。原numpy.bool输出事故修复，所有原成功门未改；本地未科学求值。
+
+
+## 2026-11-27｜R618实际全系数真帽口producer
+
+全文核23041B source与5978B说明，回查原R594/R602的amp种子、61+4基、10个post和amp²原force系数，AST/hash全合。输入前绑定实际model/response/全部r及完整源合同，全部j2…22归一、原canonical512/forced与新增所有Gaussian/方向逐项求和；零支撑只在原准确区间消费。七类源误差必须显式状态/证据，严格未付即拒，条件结果不授finite-body到准确germ接口误差为零。只源码审，未生成虚构已证合同或科学调用。

@@ -5,7 +5,7 @@
 
 ## 1. 授权、规则与继承
 
-公开本次实际pull且根/题README已读至 **47080d3904d3117d347f0d544b3151e06153ff7e**；根/题规则相对继承0749a4cc仍为空差异。私库实际pull/根README已读至 **67ef1777c8910b9bfb7ccff27c1c9d832a5d373e**，2026-11-26 23:15:24 UTC空diff；下次不晚于2026-11-27 00:14 UTC。QUEUE唯一仍本会话进行中，原认领09f8b8b54e。
+公开本次实际pull且根/题README已读至 **4b91da739e9c242e311b7ff389ee8f1d78798492**；根/题规则相对继承0749a4cc仍为空差异。私库实际pull/根README已读至 **67ef1777c8910b9bfb7ccff27c1c9d832a5d373e**，2026-11-26 23:15:24 UTC空diff；下次不晚于2026-11-27 00:14 UTC。QUEUE唯一仍本会话进行中，原认领09f8b8b54e。
 
 每次pull只读根/题README差异并记SHA，至少每小时；NFF/ref锁立即pull --rebase再推至成功。root独占git和四索引，每条结论即推；科学只公开Actions，本地只纸证/源码及原日志JSON/hash解析。根12不重放已付门；根15不存raw/可重算表，必要新场再生全计费。H<10KB/open<30KB/md<100KB；publisher活跃不改tracked。
 
@@ -33,7 +33,7 @@ actual694圈/1555峰/309work/1536角/trust.3003387451171875，新fine1390未获�
 
 [正常397续算](notes/2026-11-27-r613-actual397-normal-continuation-scope.md)run45909455678/job140214007842/source12e47b06，23:11:43 UTC启动；原950×256/1728×512/S奇1…127/完整QR-SVD/60步均不改。独立R618新路线冻结**这份397完整q/amp/H/原reconstruction**为唯一固定E，之后正常路径的新H/q不替换其目标。旧337/277及所有费用完整继承。
 
-R617有限pre+post刚性不授有限误差下界。R618已付同完整E/同均值根/全2J核心ζ/τ链；[完整height与chain](notes/2026-11-27-r618-complete-growing-post-fixed-metric-model.md)62836B/87fdb14d与17855B/0668d1af已审发布，保1129旧非mean和真到rc全平非齐次尾。实际response/r/θ/meanθ/model、原唯一restore与真tail_anchor身份已补齐。S→η/导数jets只在同根/primitive alias付清后成立，直接位置读出正在落实。[全尾均值分支/帽口积分纸界与helper](notes/2026-11-27-r618-true-tail-mean-anchor-bounds.md)已审发布，旧germ/M/ODE误差不能默认0；后续由实际模型全系数生产同身份anchor。
+R617有限pre+post刚性不授有限误差下界。R618已付同完整E/同均值根/全2J核心ζ/τ链；[完整height与chain](notes/2026-11-27-r618-complete-growing-post-fixed-metric-model.md)62836B/87fdb14d与17855B/0668d1af已审发布，保1129旧非mean和真到rc全平非齐次尾。实际response/r/θ/meanθ/model、原唯一restore与真tail_anchor身份已补齐。S→η/导数jets只在同根/primitive alias付清后成立，直接位置读出正在落实。[全尾均值分支/帽口积分纸界与helper](notes/2026-11-27-r618-true-tail-mean-anchor-bounds.md)已审发布，旧germ/M/ODE误差不能默认0；[实际模型全系数anchor](notes/2026-11-27-r618-current-model-tail-anchor-producer.md)已审发布；七类源误差须显式登记，严格模式未付即拒、条件模式不赋零。
 
 ## 6. 原十九态：R625首终态与新规范坐标续算
 
@@ -47,6 +47,6 @@ R616原自然stall仍为31接受/1753.553893449秒，细四端过但原ruling1.3
 
 [a237原R621](notes/2026-11-27-r582-a237-normal-curvature-original-terminal.md)665.753318451秒，完整mean761叶/非圆31136叶：δ≤.001983413969、α≤.02076148645、K≤86.981181881；R604证旧0d有限场嵌入，reach/D≥.007183367225不足.03。旧f1比例.00783058/527.88478224秒仍仅属原q。R623准确有限v primitive+全归一化余项已证。
 
-[R623入口失败](notes/2026-11-27-r623-curvature-only-original-mesh-mismatch.md)run45902483327/job140191333308/source18d66d1a3，133.483449239秒；再生f60≠原0d，入口拒绝，无区间K。原完整端点/段dense未保存，小口jets差不授同场；不猜硬件原因。[当前59a4新完整几何](notes/2026-11-27-r623-current59a4-single-field-geometry-scope.md)已审发布：其mean也变，新圆参考+全C0/C1/R623K同一次实际对象。精确f60只复用同q16149物理观察；再异场则同对象重付物理。宽界不裁，未闭覆盖不授全证书。
+[R623入口失败](notes/2026-11-27-r623-curvature-only-original-mesh-mismatch.md)run45902483327/job140191333308/source18d66d1a3，133.483449239秒；再生f60≠原0d，入口拒绝，无区间K。原完整端点/段dense未保存，小口jets差不授同场；不猜硬件原因。[当前59a4新完整几何](notes/2026-11-27-r623-current59a4-single-field-geometry-scope.md)run45909787850/job140215094495/source9523887d，23:14:57 UTC启动：其mean也变，新圆参考+全C0/C1/R623K同一次实际对象。精确f60只复用同q16149物理观察；再异场则同对象重付物理。宽界不裁，未闭覆盖不授全证书。
 
 R622仅在短reach未建立或far受限时组合；完整证书取max，不能混近远项。R33相位族全时继承、R565宏观预算与原joint-budget仍有效：目标p=.8需完整ball R1.012/strip .3928/core(1,0,0)、帽盘diam .44及reach≥.06072；当前p=.181不可借宏观见证。每条结果即推并继续，只有完整README与强目标真正完成才收尾。

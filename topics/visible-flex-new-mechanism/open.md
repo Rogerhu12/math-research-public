@@ -44,7 +44,7 @@ fine1728×512 η2.216608039e−7，原两直接位置读数2.216686200e−7/2.21
 
 [R618](results/R618-fixed-metric-core-and-growing-post-response.md)及[真零入口](notes/2026-11-27-r618-fixed-target-evaluation-and-zero-entry.md)已给同一个完整E函数、同根p0及全隐式导数、核心ζ/ζ′、完整2J从属项、全部旧六jets准确mean分拆和τ0旧场/τ1真实核心。[完整模型/Jac/真实height链](notes/2026-11-27-r618-complete-growing-post-fixed-metric-model.md)已审发布，尚未科学执行：保1129旧非mean参数/原所有口，增加独立compact、core P0和定义到rc的解析全平角列；其真实L_jf源不能冒齐次解，原2J/mean/connection/position链和真实尾账齐全。新J不以有限谱输出或删核心行冒完整根。
 
-[真全尾均值与帽口积分界](notes/2026-11-27-r618-true-tail-mean-anchor-bounds.md)已付条件纸证/纯区间helper：完整原j≤32 germs、canonical512与forced、全部Gaussian和参数方向进入同盒；a≤20的强尾余量不替真实全系数检查，原M/Cauchy/ODE/归一误差不得置零。下一生产实际397同model/response anchor并接直接位置读出。
+[真全尾均值与帽口积分界](notes/2026-11-27-r618-true-tail-mean-anchor-bounds.md)已付条件纸证/纯区间helper：完整原j≤32 germs、canonical512与forced、全部Gaussian和参数方向进入同盒；a≤20的强尾余量不替真实全系数检查，原M/Cauchy/ODE/归一误差不得置零。[实际全系数producer](notes/2026-11-27-r618-current-model-tail-anchor-producer.md)已审发布，先绑定source/response/model再算全部旧germ/pre-tanh/forced/新tail及所选方向；严格/条件源误差不混用。接真实397固定E非零响应和直接位置读出。
 
 每次求积只改善同一个连续E的评价，不换g；完整冻结高度/amp/口/参数身份须绑定真终态。求根支用真实均值c0，不假定逐角C同号；同根失败和全部求积成本保留。真正接受后继续角带/径向/尾的同g收敛，最后推宏观幅度；amp1e−5不授握持变化门。R574/R576/R594/R600/R606/R613/R615均按原量词消费，a失号时不得点除。
 
