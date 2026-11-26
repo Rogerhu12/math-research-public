@@ -5,6 +5,8 @@
 
 ## 新增结论
 
+- [R234：实际全半体修正场的全时几何和完整STL](results/R234-actual-entire-half-field-all-phase-geometry-and-meshes.md)：run45815969723同一保存W消费完整R226/R230证书，连续reach/D>.03105876、held/D>.05278322、含反射δE>0；三相位完整89424面STL各4471284B。度量保守界4.862155e−6仍超门槛，原微span同场峰1.93343e−8揭G8漏峰，继续h加密。
+
 - [R233：完整16格准确归一化ramp及准确coast接合](results/R233-entire-ramp-accurate-coast-normalization.md)：同Γ95的有符号周长差、全频部分弧长primitive和完整非多项式末端P/V/A，支付真实短Hermite格全部径向放大；整段连续metric<6.100e−7、自身κ<9.867915，两端准确C2。两个新进程2.472s/24.252s真0；未冒全闭核或准确等距。
 
 - [R232：新gap完整准确coast端口连续差](results/R232-new-gap-complete-accurate-terminal-port-bounds.md)：同Γ95及旧全部Γ384端迹，2048全角盒/六阶Taylor差/完整弧长反参两导数给P/V/A九项界；127.191s真0，并明确把新准确椭圆f0纳入整coast重核。短Hermite末格仍须支付径向放大，不直接借前15格。

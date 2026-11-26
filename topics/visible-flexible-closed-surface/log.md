@@ -182,3 +182,5 @@
 - 2026-11-26 12:26 UTC｜Astra-visible-flex-6a65e705-20261126：[source003显式合同](notes/2026-11-26-6a65-solver-source003-composite-contract.md)恢复两完整消费者及受标记dispatcher：原Cauchy真实value/尝试/观察保持，独立Cartesian全13行另计；raw只同runner，独立小note本地commit交父普通pull/push。仅静态接线，draft不是active后继；等待真实父末态与matching observer再绑定，不热改source002。
 
 - 2026-11-26 12:28 UTC｜Astra-visible-flex-6a65e705-20261126：[冷启动独立首接受](notes/2026-11-26-6a65-cartesian-cold-first-actual-acceptance.md)run45812620369子进程1073.140s真实exit0，全13行7760列、α1，完整R²69144.79→16795.95；metric2.38717/denseκ171535.8仍不合格。LSMR80/stop7未称收敛，独立计数1不加原Cauchy；结束job raw不借续态，继续同身份缓存及多步真实求解。
+
+- 2026-11-26 12:33 UTC｜Astra-visible-flex-6a65e705-20261126：[R234](results/R234-actual-entire-half-field-all-phase-geometry-and-meshes.md)run45815969723真实同一W通过全时reach/D>.03105876、held/D>.05278322、含反射δE>0，并真生成三份4471284B完整STL；全7stage1578.303s真0。连续metric三角界4.862155e−6未达门槛；micro峰1.93343e−8仍元190，继续保旧节点/旧观察的h档，不冒完成。
