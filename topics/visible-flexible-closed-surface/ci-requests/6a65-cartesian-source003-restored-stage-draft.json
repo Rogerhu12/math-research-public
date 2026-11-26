@@ -1,0 +1,50 @@
+{
+  "schema": "6a65-source003-independent-consumer-draft-not-a-followup",
+  "notAValidMatchedFollowupPacket": true,
+  "bindingRequirements": [
+    "actual run_id and attempt",
+    "actual final original Cauchy state SHA256",
+    "actual matching final observer SHA256",
+    "root-read current README commit",
+    "published new source commit"
+  ],
+  "scientificSemantics": {
+    "originalStage": "One actual same-objective full-column Cauchy attempt; read inherited accepted count even after a real stall",
+    "independentStage": "At its genuine original observer, freeze that actual complete g and run one separate Cartesian full baseline/LM/refined observer",
+    "originalCauchyCurvatureTau": "Unchanged; inherit actual input",
+    "independentEntry": "6a65-cartesian-independent-experiment-v2.py",
+    "rawRetained": "Same runner only"
+  },
+  "continuations": [
+    {
+      "label": "Cauchy-original-then-Cartesian1",
+      "transition_kind": "new_discretization_and_geometry_guide",
+      "transitionScope": "Only the independently labelled downstream Cartesian space is new; original Cauchy objective and layout unchanged",
+      "init_script": "6a65-resume-cauchy-with-independent-cartesian-v2.cjs",
+      "run_script": "6a65-resume-cauchy-with-independent-cartesian-v2.cjs",
+      "init_arguments": [
+        "init",
+        "{candidate}",
+        "{source}",
+        "{prefix}",
+        "{observer}",
+        "{recipe}"
+      ],
+      "run_arguments": [
+        "run",
+        "{candidate}",
+        "{source}",
+        "{prefix}"
+      ],
+      "initial_suffix": "-initial.json",
+      "checkpoint_suffix": "-state.json",
+      "report_suffix": "-report.json",
+      "initial_schema": "6a65-Cauchy-global-position-initial-v1",
+      "checkpoint_schema": "6a65-Cauchy-global-position-checkpoint-v1",
+      "accepted_counter": "cauchySameObjectiveContinuationSteps",
+      "steps": 1,
+      "prior_observed_steps": 0,
+      "recipe": "topics/visible-flexible-closed-surface/ci-requests/6a65-cartesian-independent-recipe-20261126.json"
+    }
+  ]
+}

@@ -4,6 +4,8 @@
  * are not continuous error/reach certificates or a new solved refinement. */
 const fs=require("node:fs"),path=require("node:path"),crypto=require("node:crypto");
 function observe(candidate,input,options={}) {
+  if(input?.cartesianDownstream?.schema==="6a65-independent-Cartesian-after-actual-Cauchy-observer-v1")
+    return require("./6a65-composite-cauchy-cartesian-observer-v2.cjs").observe(candidate,input,options);
   if(["6a65-Cauchy-global-position-initial-v1","6a65-Cauchy-global-position-checkpoint-v1"].includes(input?.schema))
     return require("./6a65-cauchy-same-field-observer-recovered-v2.cjs").forStrongController(candidate,input,options);
   const subdivisions=options.subdivisions??4,angularIntervals=options.angularIntervals??128;
@@ -59,6 +61,7 @@ if(require.main===module) {
   if(!candidateFile||!inputFile||!outputFile||fs.existsSync(outputFile))throw Error("candidate input fresh-output [radial-subdivisions half-angle-intervals]");
   const start=Date.now(),hash=f=>crypto.createHash("sha256").update(fs.readFileSync(f)).digest("hex");
   const out=observe(JSON.parse(fs.readFileSync(candidateFile)),JSON.parse(fs.readFileSync(inputFile)),{
+    candidateFile,inputFile,outputFile,
     subdivisions:Number(radial),angularIntervals:Number(angular),
     progress:r=>process.stdout.write(JSON.stringify({event:"progress",...r})+"\n")});
   out.inputs={candidateFile,candidateSHA256:hash(candidateFile),inputFile,inputSHA256:hash(inputFile),scriptSHA256:hash(__filename)};
