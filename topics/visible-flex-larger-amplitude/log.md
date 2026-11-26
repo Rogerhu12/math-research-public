@@ -113,3 +113,7 @@
 ## 2026-11-26 17:15:16 UTC — 完整积分范数的全自由块六jet连续控制
 
 刊[完整条件引理](notes/2026-11-26-integral-SO3-norm-full-sixjet-control.md)，准确Green核、有限角模式、全部core真实逆图/Γ二jet/H及Delta完整变化，推原meridian表示全部六jet sup差，常数无径向hmin负幂。root完整手推审：Fss只需Ts/Ωs，不冒一般H²控制二阶sup；M/正rho/真参考上界仍为明确条件，所有工作因子/载体/积分误差未包。无本地科学、不新增数值门或把旧失败单因果归范数，当前原integral方向继续。
+
+## 2026-11-26 17:23:05 UTC — 原完整integral实际26–27及真655d续方向
+
+刊[全部真实返回](notes/2026-11-26-actual-integral-SO3-first-direction-26-27.md)：606完整band/Cholesky成功，c06a新范数、全1333370变量，Phi213.89131→197.58458/max .50636533，真有限g负，alpha1/16接受，QP64仍iteration_limit/Pg992.949。5真ray/42C/全1757与1715点/全部分支、原成本及92不存在事件摘要缺项保。原完整来源不改，真实655d/cfe87同范数下一1×64/rest4×64已排，另保28报告位置。21–29完整92518B/cabb逐字archive003，28/29真实失败不改；没本地科学或伪造raw。

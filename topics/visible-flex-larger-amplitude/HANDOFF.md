@@ -4,7 +4,7 @@
 
 ## 规则与完整目标
 
-最近规则核查：2026-11-26 17:16:36 UTC，真实pull/rebase至 `42b0cc663ae92022a11f540660e886cee318abea`，双README相对`6c1b569ad6c6fadeba7edfd73f5db4efa9ef5ad1`无差异，授权及规矩继续执行。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
+最近规则核查：2026-11-26 17:23:17 UTC，真实pull/rebase至 `d13d1a4e6d214253af6e970b495103a2a4e19aab`，双README相对`42b0cc663ae92022a11f540660e886cee318abea`无差异，授权及规矩继续执行。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
 
 科学计算仅本公开仓库Actions；早前本地偏差及纠正见[执行记录](notes/2026-11-20-public-actions-execution-correction.md)。root唯一分支写者；代理只scratch及未引用小源blob。每条结论普通commit/push，NFF立即pull --rebase循环再推，不强推。至少每小时pull，每次核双README差异/立即遵新规并记commit。raw只scratch/runner，不入Git/Release/artifact；保完整小源/参数/run/SHA/紧凑结论。题≤200MB、单文件<5MB、MD<100KB、H<10KB、open<30KB。令牌仅瞬时CLI。终端恢复/全部授权保2a7c完整H；真实pull/push，无raw重造。
 
@@ -13,7 +13,7 @@
 
 ## 共同模型、历史与未付责任
 
-原q全模型、维数/范数、永久binary地址及历史责任保[bd75完整H](https://github.com/Rogerhu12/math-research-public/blob/bd75c8c86fa39ee37fd729a8faf4f52be008838e/topics/visible-flex-larger-amplitude/HANDOFF.md)及全部notes。原M160/J923/922胞/N2048、7377正权/.5测度、全部core/H/旋转、共享quintic三jet、准确FullHold/S/R/材料图/反射帽、全mean/cross/J/J*与真Phi不删。算法.992/.025只必要筛；新范数明示，不冒旧空间双射。[节点范数界限](notes/2026-11-26-node-jet-norm-and-radial-integral-control.md)非实际失败因果；[完整积分六jet控制](notes/2026-11-26-integral-SO3-norm-full-sixjet-control.md)已证固定有限M/正rho下允许全部core/H的径向网格无关连续界，非驻点/实际真余量或M一致界；[606 integral](notes/2026-11-26-direct-axisymmetric-integral-norm-full-direction.md)同g新q.initial/新mu .01，全1×64/rest4×64及4份已返地点，实际执行待返。
+原q全模型、维数/范数、永久binary地址及历史责任保[bd75完整H](https://github.com/Rogerhu12/math-research-public/blob/bd75c8c86fa39ee37fd729a8faf4f52be008838e/topics/visible-flex-larger-amplitude/HANDOFF.md)及全部notes。原M160/J923/922胞/N2048、7377正权/.5测度、全部core/H/旋转、共享quintic三jet、准确FullHold/S/R/材料图/反射帽、全mean/cross/J/J*与真Phi不删。算法.992/.025只必要筛；新范数明示，不冒旧空间双射。[节点范数界限](notes/2026-11-26-node-jet-norm-and-radial-integral-control.md)非实际失败因果；[完整积分六jet控制](notes/2026-11-26-integral-SO3-norm-full-sixjet-control.md)已证固定有限M/正rho下允许全部core/H的径向网格无关连续界，非驻点/实际真余量或M一致界；[606 integral](notes/2026-11-26-direct-axisymmetric-integral-norm-full-direction.md)[实际26/27](notes/2026-11-26-actual-integral-SO3-first-direction-26-27.md)返655d/cfe87：原完整Cholesky成功、Phi197.58458/max .5063653、alpha1/16/真有限g负，QP64未驻；已排同父同c06a下一完整64，六报告地点全保。
 
 历史完整原文循上述2a7c/235206固定链；全部失败/未返/适用范围保[results](results.md)、[open](open.md)、log与notes，不重做登记结论、不从SHA造raw、不跨场迁证，也不把线性障碍或任意mean当非线性完整结论。
 
@@ -33,7 +33,7 @@
 
 [零Δ原失败/14–16](notes/2026-11-26-zero-initial-endpoint-replay-and-moment-input.md)保原完整轨迹与18字05dc；[固定Q真实19–20](notes/2026-11-26-actual-fixed-moment-Q-initial-failure-19-20.md)同cd530/初H/05dc返747544/e4dc、角5初根失败，无场/Phi/J，球内回溯不降不推不存在。[轴端同族](notes/2026-11-26-zero-endpoint-axis-planar-control-equivalence.md)phi0/zy0新旧Q无球时恰同两Ry形状，球映不同椭圆，一般角无共同右线性映射；实际角5非轴端。[真实支撑23](notes/2026-11-26-actual-03b-supported-chord-pass.md)55ad/09819三补段/全尾/全角surplus严格负，384/256叶精度未达但外包保，0root/F/J；原H通过必要式非有限根存在，不能据此称需改H。
 
-[同原方程残差延拓](notes/2026-11-26-same-endpoint-residual-continuation.md)3f37/613d/9649/e57e/a0c9/cc28已刊排03b：同Q/H/.75，失败精确回退，最终λ1无偏移复读C/Cz、原implicit不改；五完整manifest含必需前序积分报告，未返不冒成功，缺依赖明确失败。[H-only完整入口](notes/2026-11-26-explicit-initial-height-fixed-moment-zero-entry.md)已刊未选H。[新gamma/KKT解析](notes/2026-11-26-zero-endpoint-fold-and-added-shape-kkt.md)原Wz+独立gamma v，明确u=(z/S,v)成本、完整9KKT/27角jet/四阶混合链；严格增加容许形状不冒最小范数选枝继承，补秩仅条件，反射/周期须同支。完整实现中，无新科学结果。
+[同原方程残差延拓](notes/2026-11-26-same-endpoint-residual-continuation.md)3f37/613d/9649/e57e/a0c9/cc28已刊排03b：同Q/H/.75，失败精确回退，最终λ1无偏移复读C/Cz、原implicit不改；真实28已消费五manifest返a244/73a9，lambda约.8343未到1、149拒，初场失败；29纯reader也失败无readout，正按实际report修复归因，不猜失败角/Cz。[H-only完整入口](notes/2026-11-26-explicit-initial-height-fixed-moment-zero-entry.md)已刊未选H。[新gamma/KKT解析](notes/2026-11-26-zero-endpoint-fold-and-added-shape-kkt.md)原Wz+独立gamma v，明确u=(z/S,v)成本、完整9KKT/27角jet/四阶混合链；严格增加容许形状不冒最小范数选枝继承，补秩仅条件，反射/周期须同支。完整实现中，无新科学结果。
 
 02 [run45800076687/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45800076687)已终止接纳；[实际卷](notes/2026-11-26-public-actions-45800076687-1.md)真返49/exit0，16:08:14准入结束，50未执行；API总cancelled而research step成功，两者不混作49科学失败。
 
@@ -49,4 +49,4 @@
 
 ## 当前公开Actions执行
 
-01 run45762076394/1真实止77/49followups、11:04:33 UTC准入结束/research_complete=false；后来归因/ownfirst没执行，不编78/79，全部来源保[cd233完整H](https://github.com/Rogerhu12/math-research-public/blob/cd233b9b178729b6a60c46c39039ab218de5313f/topics/visible-flex-larger-amplitude/HANDOFF.md)。03b原integral已明确running，后排完整同端点延拓；04自身再生父后新SOC。[全参数归档](notes/2026-11-26-complete-followup-parameter-archives.md)保完整旧参数/95KB队列边界，未达全标准不停。
+01 run45762076394/1真实止77/49followups、11:04:33 UTC准入结束/research_complete=false；后来归因/ownfirst没执行，不编78/79，全部来源保[cd233完整H](https://github.com/Rogerhu12/math-research-public/blob/cd233b9b178729b6a60c46c39039ab218de5313f/topics/visible-flex-larger-amplitude/HANDOFF.md)。03b已返29；655d同范数下一64已排，延拓真失败的纯归因并行修复；04自身再生父后新SOC。[全参数归档](notes/2026-11-26-complete-followup-parameter-archives.md)保完整旧参数/95KB队列边界，未达全标准不停。

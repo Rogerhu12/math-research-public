@@ -14,3 +14,7 @@
 ## 2026-11-26 16:43:49 UTC — 03b第二完整参数归档
 
 原活动65711B/SHA3d856854bb1dc8721166bb63b1c88945769c2604f466195e80dc2ef7323ac9d1逐byte保[archive002](../computations/resume-20261126-followups-03b-completed-archive-002.json)，含全旧step对象及archive001指针。仅已实际返14–20移出活动（19仍失败）；21–24全对象不变，后来实际返回由attempted跳过。新加原3d9完整R696纯读取、原606 integral全方向/6d54归因，全部明确参数见[说明](2026-11-26-direct-axisymmetric-integral-norm-full-direction.md)及[完整ledger](../computations/resume-20261126-followups-03b-archive002-ledger.json)。
+
+## 2026-11-26：03b完整archive003
+
+[实际26/27与后继](2026-11-26-actual-integral-SO3-first-direction-26-27.md)登记已返21–29的完整92518B/cabb队列逐字归档（包括28、29真实失败），全部9对象/argv及archive002指针保。完整来源/每条实际状态见computations/resume-20261126-followups-03b-archive003-ledger.json。新655d同范数续方向为全新完整对象，不改旧对象或实际journal。
