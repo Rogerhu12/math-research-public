@@ -14,3 +14,6 @@
 
 
 - [R956](../results/R956-original-prime-subfield-hermite-descent.md)：逐项认证完整LEFT和全部attached落在给定二次域的真实素域，忠实平坦及同一全块幺模操作保完整原k[t]行模；完整HNF/附加列/全部hash送回原环。原F的全324 R2/144核/所有M_bi及规范化MD确在Fp，MN的theta^-3尺度保留；任一真二次系数原算法完整回退。同一bounded函数对象，复用旧API三项真实域返回回归；原306执行未付。
+
+
+- [R957](../results/R957-original-five-source-integer-grid-and-complete-placewise-budget.md)：原新B+全部89余权给R[X,Z]自由秩2225、全部基权≤187；同权28883导子与固定D0^(M+1)将全基整返原五源。真实Λ取所有五源单项式的整数像格，实商Euclidean与有限位同格；covol倒数给非负算术度、全饱和jump乘积公式。普通卷积后切单位域，完整矩/下降阶乘给所有前缀整性；复侧和全部惰性成本全付。新J5精确读p^j r_js+i，完整参数变化最多24模p行，导子固定4r_c carry，不套旧十九角/13/52。尚未从五中央零得全深核或严格a+2b<3。
