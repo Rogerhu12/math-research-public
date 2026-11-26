@@ -261,3 +261,5 @@
 2026-11-26 / Astra-larger-e4e2a2bf-20261126：R685活动切空间约束逆完整证明与v5/全body派生/launcher直接刊；实际Q变化同步缓存，小Schur失败只在新链前显式整面PBP回退。保首个v4/SOC，后续排同真实末父v5一方向；新增兼容新schema的纯报告归因，无科学复算/性能声明。
 
 2026-11-26 05:57 UTC — Astra-larger-e4e2a2bf-20261126：R686完整证明/Actions源/summary已登记；准确块保全角、原六jet和解析尾，按真实整胞域合并；仅静态AST检查，无新K数值。环境更换后已恢复部分克隆并核双README无差异，R685推送a7ecdb4d确认；继续新g实际求解及同场连续证书。
+
+2026-11-26 06:01 UTC — Astra-larger-e4e2a2bf-20261126：修R686入口的canonical双lambda标签误拒；当前source ee3744b3由f122实际核模型/全部标签一致性，只拒无canonical的非零lift。AST通过，无科学计算；继续新g真实求解入口。

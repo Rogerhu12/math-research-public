@@ -146,9 +146,12 @@ class Worker:
         self.kernel = load('curvature', source/'actions_closed_curvature.py', CURVATURE_SHA)
         with np.load(args.bundle, allow_pickle=False) as data:
             canonical_reference = 'reference_tail_model_json' in data.files
-            noncanonical = [key for key in ('exact_tail_lambda',)
+            nonzero_tags = [key for key in ('reference_tail_lambda', 'exact_tail_lambda')
                             if key in data.files and F(float(data[key].item())) != 0]
-            if noncanonical:
+            # Canonical writers may preserve both matching lambda tags.
+            # The frozen R674 reader below checks the model, mandatory
+            # reference tag, every optional tag and all input identities.
+            if nonzero_tags and not canonical_reference:
                 raise ValueError('Use a canonical supported field, not an unrecognized nonzero lift')
         if args.model == 'auto':
             self.kind = 'reference' if canonical_reference else 'polynomial'

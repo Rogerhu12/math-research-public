@@ -195,3 +195,7 @@ python "$REPO/topics/visible-flex-larger-amplitude/scripts/resume_20261126/actio
 新几何合并器须诚实识别本schema和新producer，而不是把其输出标签伪装成8ca/f122。
 也可直接在实际同场返回后按R650与R661进行有证明的数学合并；
 无论如何，只有完整K的真实返回才支付相应曲率责任。
+
+## 8. canonical 双标签的实际读取修正
+
+初版c9fb源码错误地把带非零 `exact_tail_lambda` 补充标签的合法canonical bundle也拒绝。现ee3744b3版本只在缺canonical模型而出现任一非零lambda标签时拒绝；合法canonical双标签交冻结f122的 `_read_model` 核mandatory reference标签、optional标签与模型身份一致性。此为静态发现的入口修正，无科学运行或K数值改变；全部包围公式保持。
