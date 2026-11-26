@@ -1,5 +1,7 @@
 # 当前未解问题：保留基础有限证据，继续同 g 加密及完整强幅度
 
+[polar v2实际第1步](notes/2026-11-26-6a65-geometry-polar-v2-fullH-first-actual-step.md)同g/prepared全5292列/14行真实接受、自然0/51.719838s：R²75.58254663、metric峰1.43230255、κ88.73245945/σ.301401509。完整H两档各LSMR1/stop2，真物理normal约1e−14至2e−15；总目标下降但metric峰上升，仍未合格，后继已从自己的真实非零态继续。
+
 [polar v2自身完整基线](notes/2026-11-26-6a65-geometry-polar-v2-actual-complete-baseline.md)两新cache/assemble/value真实0，完整5292列/434560行，R²97.051245、metric.939401、κ104.978/σ.246551，目标g不换、接受0。全H入口v2/真物理normal已发布并在真实LM消费；当前仍固定prefix，R248全前缀修正后续须自己的prepared及全域证书。
 
 [q2冷入口真实失败原因](notes/2026-11-26-6a65-solver-q2-cold-active-summary-conflict.md)：root对活动摘要的ab2cd23e更正与CI prepare更新冲突，缓存已实际成功但publisher退出，LM尚未开始/接受0；明确非数学失败。运行中摘要只由其controller写，勘误独立发表；修实际冲突而不盲重跑旧链，继续polar新源实际求解。
