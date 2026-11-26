@@ -1,13 +1,11 @@
 {
-  "request_id": "rank2-r943-degree178-original-full-cm-source-20261126",
+  "request_id": "rank2-r943-fifth-original-jet-and-actual-angular-caps-20261126",
   "python_flint_version": "0.9.0",
   "checks": [
     {
       "engine": "python3",
-      "script": "topics/rank2-sha-infinitely-many-p/scripts/check-r943-degree178-full-cm-source.py",
-      "args": [
-        "--workers=4"
-      ],
+      "script": "topics/rank2-sha-infinitely-many-p/scripts/check-r943-original-degree178-fifth-axis.py",
+      "args": [],
       "include_stdout": true
     }
   ]
