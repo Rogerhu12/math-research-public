@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R12 每个原 Haar 尾强不可约，任意普通不变空间无闭不变补空间（2026-11-27，已证明）：** [准确首位分块与逐尾幂等刚性](results/R12-appendix-all-original-tails-strongly-irreducible-and-ordinary-invariant-complements.md)对任意完整交换子幂等 E，原分块给(I−4α_m⁻¹B_(m+1)R²)R=0；前因子由真实拟幂零性可逆，迫 E=I₂⊗D。逐位到原纯Haar尾交仅余0/I。因此全部普通真不变M无闭A不变补空间，全交换子元素的谱连通；互补稠密不变对的和必非闭。未把强不可约作无普通不变空间，也不把连通谱作单点谱。
+
 - **R12 实际 Haar 有界头图的底空间无有界尾模补空间（2026-11-27，已证明）：** [实际像延拓与非零字符秩证明](results/R12-appendix-actual-haar-graph-base-has-no-bounded-tail-module-complement.md)若 L⊂K^k 支持原尾的有界 q 次根且由交换有界幂等 E 分裂，则 Y=TE 在整个尾上有界；下一尾字符中的非零幂等像含 r 个二Jordan块，q|r≤k，且行列式单位保证至少一个非零字符像。实际普通 M 的完整头根 q=N>k，故其有下界坐标闭像无任何闭尾不变补空间；幂等不必正交，未排除一般不分裂真像。
 
 - **R12 所有真有限头坐标非 Fredholm，实际 Haar 头图底空间无限余维（2026-11-27，已证明）：** [原核像与完整头幂证明](results/R12-appendix-finite-head-coordinate-nonfredholm-and-actual-haar-graph-codimension.md)用原幂单射/拟幂零排有限非零核、用尾伴随单射排有限正余核，再由根重数排除有界同构。若 Q|M 有下界，实际闭像必非零、真、无限维且无限余维；R231 必取完整头 N=2^(j+1)、k=2^j，不误用二次根排有低头重数的图。一般真底空间仍开。

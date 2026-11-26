@@ -162,3 +162,5 @@ S0/Lt0的k=4e、v=t=0、Omega=2e²−ek+2=0整支均已完整原返回排空；�
 [原有限头坐标的非Fredholm及实际图余维](results/R12-appendix-finite-head-coordinate-nonfredholm-and-actual-haar-graph-codimension.md)已付：有下界时闭像必无限余维；R231保完整低头重数。未知真底空间的原核像/根限制仍需支付。
 
 [实际头图无尾模补空间](results/R12-appendix-actual-haar-graph-base-has-no-bounded-tail-module-complement.md)已付：可分裂根必q≤k，完整原头q>k排除任何有界交换幂等像；不分裂的未知真底空间继续。
+
+[全部原尾强不可约](results/R12-appendix-all-original-tails-strongly-irreducible-and-ordinary-invariant-complements.md)已付：任何普通真M无闭A不变补空间，全交换子元素谱连通；仍需构造不分裂闭核/闭像或支付真实闭根图域。
