@@ -10,6 +10,8 @@
 
 ## 新增结论
 
+- [R145：同selected成员ν-proposal的正区源与外两行](results/R145-selected-nu-proposal-positive-source-and-outer-rows.md)（2026-11-26，已证明）：复用完整旧球及精确多项式/角微分，full/low/high源<2.9478e−5/2.9476e−5/2.8714e−5，真实Robin<9e−12、独立physicalmean<4e−18；负/germ/root/height及全逆仍待。
+
 - [R138根锚与谱体组合的必要筛查](results/R138-supplement-root-anchored-spectral-budget-necessary-screen.md)：原high41更紧有理给ω96<1/导<377，同试探逐点≤24/25原integrand，whole T直接导改进T<120；故须aEE<23/30、wE<22、Csp<23。原已选统一λ-Schur更迫根费>19/5，单独排该算法；true DH^-1与更多可达约束仍开放，0新积分，SG三松门仍有效。
 
 - [R141正区Newton普通源七量首次公开合同](notes/2026-11-20-R141-positive-Newton-ordinary-source-contract.md)：29当前/原raw3+positive4、34参数/18门/36字段，owner与pure按同selected pair接旧CRA/Z/方向增量。只新外尾及完整full/low/high合成，private snapshot保原path、七量保存读回；N21已恢复1/m原式。首次push，实际七量待，外功能值/全逆另付。

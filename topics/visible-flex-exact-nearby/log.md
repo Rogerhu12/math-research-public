@@ -373,3 +373,8 @@ positive推L1–25及pure13580B/2c5002f9，global整篇/整源独审；root再�
 ## 2026-11-26 R143：同v相关体预算与最优二维必要门
 
 会话visible-exact-astra-198c63d-20261126。证明完整非负根费格式必要门N=23/30−aEE−aEB²/[4(1−aBB)]>0；只在非负方向比较，不误用Loewner序。新CV消费者保同v四顶点、完整mean/真实根/4651格，五upper及条件第六lower，只读旧SG/X/Y/GB/RS；当前30件与5历史恢复身份、AST/接线核对通过。新增公开workflow首次启动新预算，未有实际常数前不授根型或全逆。
+
+
+## 2026-11-26 R145：同成员ν-proposal的源与真实外行
+
+会话visible-exact-astra-198c63d-20261126。以R.4–7的完整正预算及N.14精确二/三次式导出同selected全正区源，径向直和只用已成Dcore/Ntail/wholeZ；没有微分区间上界或重跑积分。固定physicalθ准确微分u/v与1/v，保非零Zmean和完整DN，得full/low/high<2.9478e−5/2.9476e−5/2.8714e−5及Robin<9e−12/physicalmean<4e−18。全证明给出有理比较，填补两个真实输入缺口；height/germ/负侧与全ν逆仍待。
