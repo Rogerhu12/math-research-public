@@ -42,8 +42,8 @@ R692[完整旋转连接](results/R692-nonlinear-rotation-connection-and-metric-e
 <!-- visible-larger-parallel-02:end -->
 
 <!-- visible-larger-parallel-03:start -->
-并行公开Actions03：[run 45811843606/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45811843606)；[实际记录](notes/2026-11-26-public-actions-45811843606-1.md)。阶段`warm`/completed；已返1，exit=0。
-并行03规则核查：2026-11-26 11:39:28 UTC，真实pull至`c620dc2d6ce11ab22a44444fd6af256e702fee5d`，双README无变化。
+并行公开Actions03：[run 45811843606/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45811843606)；[实际记录](notes/2026-11-26-public-actions-45811843606-1.md)。阶段`followup_waiting`/running；已返1，exit=未返。
+并行03规则核查：2026-11-26 11:39:30 UTC，真实pull至`45b6d778b05427a8670fe0b172bfe0a5a42685c4`，双README无变化。
 <!-- visible-larger-parallel-03:end -->
 
 ## 当前公开Actions执行
