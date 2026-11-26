@@ -6,7 +6,7 @@
 
 ## 1. 规则与接手
 
-已部分克隆并实际 `git pull main`，公开根 README、课题 README、HANDOFF、open、results 索引及相关 log/notes 已读。公开已读提交 **8182371c172aaab41ac456d653c116b229678404**（2026-11-26 08:39 UTC；本次实际pull后根/题README空差异）；私有根初读 **85fdf1853367ef25c07f3ebdb6ae25c22a3564b8**，随后逐次 pull/rebase 检查根差异，空差异。私有 QUEUE 的本题已改为本会话进行中并成功推送：**9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7**；最后实际pull及规则同blob读至 **4f7e1d119bd02b0b37fe4d2d409a4f88c6a96a9e**（2026-11-26 08:06 UTC；实际pull/rebase后根README空差异、QUEUE仍本会话）。其它课题的并行认领保留。
+已部分克隆并实际 `git pull main`，公开根 README、课题 README、HANDOFF、open、results 索引及相关 log/notes 已读。公开已读提交 **98e3aee3eec975cffd02219161d6e0d938efad78**（2026-11-26 08:42 UTC；本次实际pull后根/题README空差异）；私有根初读 **85fdf1853367ef25c07f3ebdb6ae25c22a3564b8**，随后逐次 pull/rebase 检查根差异，空差异。私有 QUEUE 的本题已改为本会话进行中并成功推送：**9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7**；最后实际pull及规则同blob读至 **4f7e1d119bd02b0b37fe4d2d409a4f88c6a96a9e**（2026-11-26 08:06 UTC；实际pull/rebase后根README空差异、QUEUE仍本会话）。其它课题的并行认领保留。
 
 各原观察note保真实双仓pull/规则blob/QUEUE回执；根/题规则均无变化。盘满和失联恢复原记录保于[先前交接](notes/HANDOFF-before-hard-restoration-20261126.md)，历次全文见[几何转向前交接](notes/HANDOFF-before-compact-geometry-20261126.md)及[非线性高度前交接](notes/HANDOFF-before-nonlinear-height-20261126.md)。API读取不冒git pull。
 
@@ -52,7 +52,7 @@ R555/R526/R517原条件范围继续有效；未付端口不由下游条件定理
 ## 5. 正在继续的实际工作
 
 1. 非圆实例在完整fine硬几何门内降metric，同时圆核设计同伦与R571真相位shooting接入有限非线性。必须最终冻结同一g再精化，并付全闭嵌入/全点对reach。
-2. O4转紧凑/有限尺度真实返回，并继续整个第四/同13。[R573](results/R573-fixed-collar-curvature-and-separated-scale-reach-obstruction.md)已证：原固定collar给reach≤H²+(ξc+Ω)⁻²，首高尾给实际D≥c√R logR/δ−C_R；固定R最后δ→0时reach/D→0。只排该分离尺度极限，不排未核有限参数或其他输入；净位移闭合/整体缩放/增加形式阶数不能修复。新[R530接口](notes/2026-11-26-compact-r530-reduced-endpoint-implementation-agent.md)以27态保完整三投影history，四边界曲线读全程范围；真实有限根仍未得。
+2. O4转有限紧凑输入并继续整个第四/同13。[R573](results/R573-fixed-collar-curvature-and-separated-scale-reach-obstruction.md)仅排原固定资料后δ→0的reach/D极限；净位移闭合或缩放不修复，未排新有限输入。[R530完整27态接口](notes/2026-11-26-compact-r530-reduced-endpoint-implementation-agent.md)保三投影history与四边界曲线；[独立v2](notes/2026-11-26-r530-stable-local-field-and-finite-quartic-reduction-agent.md)公开求原局部η、R482(24)及3×8×8真实张量，固定profile只加密求积，Ch/Ck用正积分而非巨大值相减。新单job提交，尚无ODE轨道/有限八根。
 3. [四来源本轮状态](notes/2026-11-26-current-four-source-topics.md)尚无可直接移用的全门族。O1圆领相位允许如实δE=0，仍须完整非旋转嵌入；O3保可用新局部输入。
 
 入口：[open](open.md)、[当前索引](results.md)、[早期索引](results-index-early.md)、[日志](log.md)。未完成稿不登记已证明；每条完成结论立即提交推送，然后继续开放项。

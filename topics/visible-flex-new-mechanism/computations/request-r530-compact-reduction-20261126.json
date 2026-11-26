@@ -1,0 +1,61 @@
+{
+  "schema": "r530-compact-full-history-reduction-20261126-v2",
+  "repository": "Rogerhu12/math-research-public",
+  "queue_session": "Astra-new-mechanism-0105020f-20261126",
+  "public_rules_read_commit": "8182371c172aaab41ac456d653c116b229678404",
+  "private_rules_read_commit": "4f7e1d119bd02b0b37fe4d2d409a4f88c6a96a9e",
+  "expected_readme_blobs": {
+    "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+    "topics/visible-flex-new-mechanism/README.md": "d0432faff569c8e9af7ed4809847e12880976c11"
+  },
+  "expected_private_readme_blobs": {
+    "README.md": "5ba164843b1f5802184178a82d786264404873a3"
+  },
+  "entry_point": "topics/visible-flex-new-mechanism/scripts/r530_compact_history_v2_agent.py",
+  "workflow": ".github/workflows/visible-r530-compact-reduction-20261126.yml",
+  "runtime": {
+    "python": "3.12.14",
+    "packages": {
+      "numpy": "2.3.5",
+      "scipy": "1.17.0",
+      "sympy": "1.14.0"
+    },
+    "checkout_action": "11d5960a326750d5838078e36cf38b85af677262",
+    "setup_python_action": "a26af69be951a213d495a4c3e4e4022e16d87065"
+  },
+  "common_parameters": {
+    "mode": "check",
+    "orders": "24,48,96",
+    "gap_order": 8,
+    "center": 10.0,
+    "tensor": true
+  },
+  "lanes": {
+    "r530-finite-history": {}
+  },
+  "scope": {
+    "fixed_model": "R521 actual disjoint 16 by 11 positive copy graph, 32 true micro-packets per block",
+    "actual_width": "4e-7",
+    "fixed_amplitude": "width^(7/4)/256, independent of quadrature order",
+    "history_coordinates": "A in E8, t_j=I_j(g,T(g;Delta)), j=0,1,2",
+    "original_chain_retained": "R73(15)-(17)",
+    "r482_identity_used": "uneliminated third-history equation (24) only; no R480 quotient hypothesis",
+    "new_scope": "analytic local eta formulas against direct R56, A-linear and A-quadratic ruling split, full fixed projected tensor B[j,alpha,beta]",
+    "accelerations": "known R521 positive integral formulas; no subtraction of two whole large rulings",
+    "ode_integration_or_optimization": false,
+    "finite_root_claim": false,
+    "response_rank_claim": false,
+    "README_completion_claim": false,
+    "scientific_execution": "this public Actions workflow only",
+    "maximum_parallel_jobs": 1,
+    "job_timeout_minutes": 45,
+    "original_stdout_only": true,
+    "raw_arrays_artifacts_releases_or_git_writes": false,
+    "prior_local_development_receipt": "notes/2026-11-26-r530-local-development-execution-receipt-agent.md"
+  },
+  "source_sha256": {
+    "topics/visible-flex-new-mechanism/scripts/r530_compact_history_v2_agent.py": "2ca4b47c390d9e59c8e5f02866eba911dc2295e890ee403e151b56b44bd36659",
+    "topics/visible-flex-new-mechanism/scripts/run_inverse_rotational_metric_20261126.py": "a97334fb7004ce750c0c949469be2db21ca7a187e53b48032dba2f330cf5e8ae",
+    ".github/workflows/visible-r530-compact-reduction-20261126.yml": "adbc371339ce6f597a954869529b35486ac332bf521334199c9cbef4b8a668cc"
+  }
+}

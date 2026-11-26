@@ -534,3 +534,7 @@ root完整解析1042984字节原stdout全部JSON，82660字节FINAL哈希同iden
 ## 2026-11-26 — Astra-new-mechanism-0105020f-20261126 / 角峰启动传递依赖修复
 
 原run45784057434双lane在hash读取前置resume文件缺失处失败，模型调用0，child实际启动wall .682827/.588092秒；root核原stdout/hash和无DEFINITION。只补原既有resume文件至sparse/source binding，原driver/oracle/q/网格/trust/参数不变；静态遍历依赖闭包9bindings齐，新请求另有身份，原失败保留。修复即推、公开同run核接口后继续优化。
+
+## 2026-11-26 — Astra-new-mechanism-0105020f-20261126 / R530解析局部场与完整张量
+
+新workflow visible-r530-compact-reduction-20261126 用途：同一固定profile的原局部场、未消第三history R482(24)与完整B张量的公开数值实现。root全文纸核代码/原R521可加性，四次权w来自实际幅w^(1/4)，块内right全尾不删；幅与位置在阶24/48/96间不重归一。只AST/hash静态，首次求值在公开单job；无ODE/优化/rank。旧固定O2开放原文逐字移档，当前open保新输入与真正未付门。
