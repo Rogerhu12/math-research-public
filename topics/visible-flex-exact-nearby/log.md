@@ -408,3 +408,8 @@ positive推L1–25及pure13580B/2c5002f9，global整篇/整源独审；root再�
 ## 2026-11-26 R146实际：完整二次帽排当前CV/RA门
 
 会话visible-exact-astra-198c63d-20261126。45765780668/1全418格/13376子格、两scalar完整；science22092B/5b14b6f9、exec19691B/1ddf995e，32当前与10历史身份相合，唯一child0/2.0394s、数学1.9282s。T2<102.965，必要Qupper<−.16618，严格排当前CV/RA非负费用门；原body三门成功不改，无实际BVP奇异主张。停止此预算所有Gram科学，转PDE reachable/保号联合和直接R142，所有旧目标0。
+
+
+## 2026-11-26 R147：真实selected负窗源与完整mean行
+
+会话visible-exact-astra-198c63d-20261126。原负窗Δs球按已证正预算缩到selected后给三源<(3.720478,3.718314,2.955779)e−6，腰odd保修补<1.122e−15；旧目标0。完整mean微分精确消原moving high直达块，signed scalar式保−3R0/m、reference-subtractedν方差、全jump；同selected物理角Jacobian与DN给外mean逆<50/反馈<1.2e−6/纯ν affine<2e−16。high间接回路/外mean high/height均保，source不冒response；继续真正inverse与配对。
