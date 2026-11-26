@@ -1,0 +1,66 @@
+{
+  "elapsed_seconds": 3.376682982999995,
+  "max_child_rss_kib": 96328,
+  "ordinary_isp_claim": false,
+  "rules_reads": [
+    {
+      "after": "50e3e4e18ac8392c2eaace7e2d6d3493a6771eda",
+      "before": "96819c8f4b69f55f513137692d3e4587f104196d",
+      "rules_git_blobs": {
+        "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+        "topics/invariant-subspace-problem/README.md": "fef43bdf8690f2eec4751d85784a266eacdd0322"
+      },
+      "rules_unchanged": true,
+      "utc": "2026-11-26T09:48:33.235066+00:00"
+    }
+  ],
+  "run_attempt": "1",
+  "run_id": "45795365604",
+  "schema": "isp-frozen-exact-actions-execution-v1",
+  "session": "Astra-ISP-347c-20261126",
+  "source_commit": "96819c8f4b69f55f513137692d3e4587f104196d",
+  "source_exit_code": 0,
+  "source_git_blob": "7e9a9bbc9423724001810784b7974d1e5d9dfa0b",
+  "source_sha256": "aea1e29af94582450e39bed3ec34c2ab8e4d0246ebfb66c291e14259680097c3",
+  "stdout_bytes": 18031,
+  "stdout_sha256": "f973930c24a27f7fbefc0bd3cea76a58126a86b05e77bcbdb12c164f400cdcf7",
+  "stop_reason": null,
+  "job_id": 139824522596,
+  "result": {
+    "source_elapsed_seconds": 3.040982398,
+    "QQ_inverse_count": 72,
+    "irreducible_prime": 37,
+    "field_degree": 9,
+    "specialization": {
+      "prime": 1031,
+      "e": 700
+    },
+    "sylvester": {
+      "dimension": 107,
+      "determinant": 891
+    },
+    "exceptional_multiplication_norms": [
+      {
+        "label": "D8 J nonzero L nonzero",
+        "dimension": 40,
+        "determinant": 385
+      },
+      {
+        "label": "D12 J nonzero L nonzero",
+        "dimension": 48,
+        "determinant": 360
+      },
+      {
+        "label": "D12 original J zero",
+        "dimension": 24,
+        "determinant": 574
+      },
+      {
+        "label": "s=-2 original cubic",
+        "dimension": 3,
+        "determinant": 379
+      }
+    ],
+    "scope": "H21 Hp0 isolated H point infinity: essential dimension at most five"
+  }
+}

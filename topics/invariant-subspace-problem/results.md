@@ -217,3 +217,5 @@
 - **R271 原J1同源残量的真实二阶公共方差端点（2026-11-26，已证明）：** [立方位置能量与移动远孔指数权](results/R271-appendix-critical-second-hole-moment-and-common-log-variance-selection.md)保原未加权inverse及全部carry，得N²h_s点态谱量界和带log方差平方积分≤50；每个[e⁻²ᴸ,e⁻ᴸ]一次选s_L使真实二阶矩趋零，全部前缀共用。m/d/y及最高零头母窗均支付；未声称全s二阶收敛或完整J/F0、指数右逆费用。
 
 - **R150 rankH3二重加单点、非零Hp整层ess≤5（2026-11-26，已证明）：** [原节点配对、完整N差与QQ异常谱](results/R150-appendix-rank-three-double-plus-single-second-cumulant-nonzero-hp-essential-six-exclusion.md)保零/等值、J及At/τ/γ零面；真实93/126结式和两个QQ商环障碍逆排尽参数。run45795365604/job139824523000、df42d64c、0.011089秒/36048KiB/exit0。合并旧退化/非约化层后，该2+1型ess6仅余Hp0物理候选。
+
+- **R150 2+1型H、Hp0的孤立源w∞整个ess6为空（2026-11-26，已证明）：** [原尺度、完整异常纤维和九次域单位](results/R150-appendix-rank-three-double-plus-single-second-cumulant-zero-hp-infinity-essential-six-exclusion.md)保J=M=0、D8/D12及s−2全纤维；107阶Sylvester和40/48/24/3维乘法矩阵均为数域单位，72个QQ逆全部回乘。run45795365604/job139824522596、aea1e29a、3.040982秒/96328KiB/exit0。仅续Hp0的有限w物理实现。

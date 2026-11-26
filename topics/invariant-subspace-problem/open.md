@@ -64,7 +64,7 @@ $$
 
 **[rankH3二重加单点的非零Hp整层已闭](results/R150-appendix-rank-three-double-plus-single-second-cumulant-nonzero-hp-essential-six-exclusion.md)：** 原重节点零/等配对全排并付J分母；原N差导出G1/G2时不除At/τ/γ。完整QQ93/126结式gcd56只余Q2/Q4，全部good σ纤维由原G1/Ht的QQ真逆排除。run45795365604/job139824523000实际0.011089秒/36048KiB/exit0；与已闭[退化Gram](results/R150-appendix-rank-three-double-plus-single-second-cumulant-degenerate-gram-essential-six-exclusion.md)、[非约化V/F0/e0](results/R150-appendix-rank-three-double-plus-single-second-cumulant-nonreduced-third-cumulant-essential-six-exclusion.md)合并，仅续bgF e非零、Hp0的约化V。
 
-**[2+1非退化H、约化V、Hp0的原九次Gram候选](results/R150-appendix-rank-three-double-plus-single-second-cumulant-zero-hp-nine-gram-candidates.md)：** 全部立方相位及Cw0由原N(u)/N(v)排除，只剩D=−C；F=h=g1时c−1/4、b=−(2e³+1)/6，完整六列Gram由G9(e)=16e9−108e8+36e7−15e6+18e4−1的至多九根确定。此为必要归约，仍须原曲线实现及剩余N/最高式。非零Hp已闭；三约化H与ess4/5仍开。
+**[2+1型Hp0九次完整Gram](results/R150-appendix-rank-three-double-plus-single-second-cumulant-zero-hp-nine-gram-candidates.md)只余有限孤立H源：** 原相位/Cw0全付，D=−C、G9至多九候选。[w∞完整排除](results/R150-appendix-rank-three-double-plus-single-second-cumulant-zero-hp-infinity-essential-six-exclusion.md)用原E/Es、尺度F1/F2保全部J0，G9九次域内107阶Sylvester及40/48/24/3维异常代数均单位，72个QQ逆真回乘；run45795365604/job139824522596实际3.040982秒/96328KiB/exit0。继续有限w的原曲线实现，先处理V∞；三约化H及ess4/5仍开。
 
 ## 2. R271：同一来源的完整物理费用
 
