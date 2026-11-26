@@ -1,0 +1,42 @@
+{
+  "id": "held10-fresh-original-newton-direction-20261126-01",
+  "read_rules_commit": "6e0da1821489ab3b9fdaa63d7128ed819d31eb34",
+  "script": "topics/visible-flex-held-10pct/scripts/resume_20261126/seam_recover_original_newton_probe.py",
+  "args": [
+    "--repo",
+    "@REPO@",
+    "--work",
+    "@WORK@",
+    "--outdir",
+    "@WORK@/fresh-one-direction"
+  ],
+  "diagnostics": [
+    {
+      "path": "@WORK@/fresh-one-direction/observation.json",
+      "keys": [
+        "status",
+        "progress",
+        "result",
+        "error",
+        "stages"
+      ]
+    },
+    {
+      "path": "@WORK@/fresh-one-direction/one-original-newton-direction/observation.json",
+      "keys": [
+        "status",
+        "progress",
+        "result",
+        "error"
+      ]
+    },
+    {
+      "path": "@WORK@/fresh-one-direction/v3-zero-control-anchor/summary.json",
+      "keys": [
+        "status",
+        "result",
+        "error"
+      ]
+    }
+  ]
+}

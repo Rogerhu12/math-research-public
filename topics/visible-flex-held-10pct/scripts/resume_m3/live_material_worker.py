@@ -58,7 +58,7 @@ def main():
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--repo", type=Path, required=True)
     ap.add_argument("--workdir", type=Path, required=True)
-    ap.add_argument("--channel", choices=("material", "lowq", "warm", "design"), default="material",
+    ap.add_argument("--channel", choices=("material", "lowq", "warm", "design", "probe"), default="material",
                     help="Separate reviewed command/result streams on distinct runners")
     a = ap.parse_args()
     if a.channel != "material":
