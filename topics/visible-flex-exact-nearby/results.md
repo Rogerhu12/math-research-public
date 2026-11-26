@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [SC实际真96列/两个完整矩阵后继](notes/2026-11-27-actual-signed-finite-execution.md)：五源实现已齐；完整58/224/32、TC3、RW96、JC7准入后算96真列误差与两signed96 gate，原carrier按全SHA必要恢复、每自然对象即推。当前前件未齐，仅metadata readiness，尚无actual manifest或科学运行。
+
 - [SM：真正selected metric上的双端mean精确中心](results/R144-supplement-mean-exact-compact-centres-on-the-selected-metric.md)：全|δ|≤1e−10解析根|ξ|<1.75e−11、.1275<ξ′<.166，exact compact support；同metric Qδ pair A0差<4.760e−7、φ导数差<1.264e−6。已将mean中心置于actualδ*，新nonmean残差/DF/phase/height仍须真实付。
 
 - [AVM：实际负metric腰导数与正密度补偿](results/R144-supplement-actual-negative-metric-waist-derivative-and-positive-density-compensation.md)：45888851105/1全7721/6143、紧窗1156/1157完整，κν∈(−3.986e−4,−3.151e−4)，tν∈(.1277,.1649)；非zero通过，全部原mean/跳/metric与fullSchur欠项保留。

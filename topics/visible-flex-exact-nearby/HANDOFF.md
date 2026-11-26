@@ -1,11 +1,11 @@
 # 交接：可见振幅的精确闭等距族
 
-维护会话：visible-exact-astra-fb31ed6-20261127；更新：2026-11-26 20:18:30 UTC。
+维护会话：visible-exact-astra-fb31ed6-20261127；更新：2026-11-26 20:23:36 UTC。
 **总任务未完成，持续研究，不等用户回复。**
 
 ## 已读规则、授权与接续
 
-2026-11-27（台北）已 partial+sparse clone 两仓库并 pull main，读根全部规矩、课题README、H/open、当前log及接续notes。公开根/topic规则已读至092954f3e6a0bfaeffaf03104f4428c863747422（相对12385db35无diff）；私库根规则已核至e9b71a39b014d0f9513cbec3d7191afee707a549，QUEUE接手已推594e561b05a758bd8c02840ca4fbf574cd707436。每次pull核两README差异、至少每小时一次，非FF立即rebase再推。令牌只CLI。当前本地 /workspace/scratch/fb31ed637c77/math-research-public，无AGENTS。
+2026-11-27（台北）已 partial+sparse clone 两仓库并 pull main，读根全部规矩、课题README、H/open、当前log及接续notes。公开根/topic规则已读至db18f730405566b7dae810bb5da3b7717956267b（相对12385db35无diff）；私库根规则已核至e9b71a39b014d0f9513cbec3d7191afee707a549，QUEUE接手已推594e561b05a758bd8c02840ca4fbf574cd707436。每次pull核两README差异、至少每小时一次，非FF立即rebase再推。令牌只CLI。当前本地 /workspace/scratch/fb31ed637c77/math-research-public，无AGENTS。
 科学计算用公开Actions；本地可做证明、静态与metadata。根规12取消额外防错审批/独立全件复核流程；新完整证明直接登记，每结论推送。规15保持topic≤200MB、H<10KB，禁止新增可重建大数组。前会话完整H/open以27c422943同路径为准，递归原件与全部范围、失败和未付义务仍在历史，以下不重做旧成功。
 
 ## 同一对象与最终标准
@@ -21,7 +21,7 @@ geometry43584188751/26仅在同η0全core含帽物理C0≤1e−4、|δν|≤1e�
 2. **完整positive58→224→32→PN56/CXN6。** [physical入口](notes/2026-11-26-physical-scalar-execution.md)、[PN证明](results/R149-supplement-complete-positive-inverse-to-true-negative-and-incoming.md)、[56入口](results/R149-supplement-actual-positive-negative-receiver-execution.md)、[CXN6入口](results/R149-supplement-actual-common-high-negative-receiver-execution.md)已推；前驱未齐无实际manifest。NS/strict/R149 v2完整来源分别核，旧false/失败保。成功square才消全部L²_r正侧head/cokernel，保raw root96与负侧/mean/ν。14ports各自身输入；source4同因P/T用三角，physical c*=0不等于aux Ec*e=0；Ni/output9一次，joint左BH KW，WPL BH/√2。
 3. **[R144固定η0实际失败](results/R144-supplement-actual-fixed-eta0-forward-mean-and-terminal-mismatch.md)。** 45778507038/1全7296格/6143接口已成、禁重。positive true，但C0/outermean false：row7147下界>1.00195589e−4，末端mean偏移约−7.66584024e−3。只排此forward中心，续compact mean。
 4. **[SM真正selected metric的mean精确中心](results/R144-supplement-mean-exact-compact-centres-on-the-selected-metric.md)。** 全|δ|≤1e−10唯一analytic ξ(δ)，|ξ|<1.75e−11、.1275<ξ′<.166；双端mean准确且相对原compact中心的变化严格只在[.05,.18]。同metric距Qδ pair A0<4.760e−7、φ导数<1.264e−6，实际δ*包含；raw mean差<2.464e−7。真κν actual45888851105/1为(−3.986e−4,−3.151e−4)，tν∈(.1277,.1649)，全原row/jump保。原SR锐根/五源、MJ全两端mean逆及RI控制支持细界完整保[092954f3原H](https://github.com/Rogerhu12/math-research-public/blob/092954f3e6a0bfaeffaf03104f4428c863747422/topics/visible-flex-exact-nearby/HANDOFF.md)和各proof，不重。RI未切片内部Schur恒0；新中心同metric full nonmean残差/DF差、ν反馈、phase/height/caps仍须付，SM不是固定metric等距族。
-5. **TC真96试列。** 各历史恢复失败完整保[恢复记录](notes/2026-11-27-true-root-trial-input-restoration.md)及[原runtime](notes/2026-11-27-TC-original-runtime-restoration.md)。mounted45884668422/1已过原cubic/14分片全部SHA，随后proposal精确节点round成同float，三目标0。[grid修复](notes/2026-11-27-TC-proposal-grid-separation.md)只合并proposal相同float，certificate全原exact cuts/质量照旧且计数不增；新run45889161044/1已过全部恢复/preflight并发consumed，科学运行。CF4/QR/残差数学不变，三目标584球尚待。[JF](results/R149-supplement-joint-signed-finite-matrix-error.md)给真target Bessel门，actual仍须全P224/TC/RW，非fullSchur。
+5. **TC真96试列。** 各历史恢复失败完整保[恢复记录](notes/2026-11-27-true-root-trial-input-restoration.md)及[原runtime](notes/2026-11-27-TC-original-runtime-restoration.md)。mounted45884668422/1已过原cubic/14分片全部SHA，随后proposal精确节点round成同float，三目标0。[grid修复](notes/2026-11-27-TC-proposal-grid-separation.md)只合并proposal相同float，certificate全原exact cuts/质量照旧且计数不增；新run45889161044/1已过全部恢复/preflight并发consumed，科学运行。CF4/QR/残差数学不变，三目标584球尚待。[JF](results/R149-supplement-joint-signed-finite-matrix-error.md)给真target Bessel门，[SC实际后继](notes/2026-11-27-actual-signed-finite-execution.md)五源已齐：全58/224/32+TC3+RW96+JC7后做96真列误差和两个全signed96门，必要carrier核原wholehash；未齐不造manifest，非fullSchur。
 6. **[CG完整graph高块](results/R149-supplement-positive-feedback-in-the-complete-graph-high-block.md)**已双核：W^-1 A Ptilde先准确相邻约消，common反馈费2^199 Cadd ΛJ^-1/3；真port09联合96列只左B^-1，reference差与Θ high全留。J=2^4608的新门等待actual6/56，未给finite/mean/ν/all-s；WDH原selected homogeneous χ<2^-44/逆<2独立保。
 
 ## 已锁定的实际结果与排除

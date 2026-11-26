@@ -181,7 +181,7 @@ R149 signed-loop及[CP/physical](notes/2026-11-26-physical-scalar-execution.md)�
 
 [LC actual](results/R144-supplement-actual-localized-full-state-and-compact-sources.md)45797426031/1：19当前/10历史，全7721行/6143join/27球、整件contains/trace已核；sameφ 1e−4门true，CS五源/χ′质量/全jump锁定。anisotropic约2.926756632289e−5仅显示，消费全保存球；未来GC修正另付，旧TM/Γ/残差不重。
 
-[TC必要恢复](notes/2026-11-27-true-root-trial-input-restoration.md)各失败完整保原记录；mounted45884668422/1已过原cubic/14分片SHA，但proposal精确节点转float重复导致递增断言失败，三目标0；[grid修复](notes/2026-11-27-TC-proposal-grid-separation.md)保全exact分割/质量，计数不增，新入口待实际。真PDE列仍须完整P224/SC。
+[TC必要恢复](notes/2026-11-27-true-root-trial-input-restoration.md)各失败完整保原记录；mounted45884668422/1已过原cubic/14分片SHA，但proposal精确节点转float重复导致递增断言失败，三目标0；[grid修复](notes/2026-11-27-TC-proposal-grid-separation.md)保全exact分割/质量，计数不增，新入口待实际。[SC三目标入口](notes/2026-11-27-actual-signed-finite-execution.md)已齐，真PDE列仍须全P224/TC/RW/JC。
 
 [JC实际七球](results/R149-supplement-actual-joint-compound-waist-row-error.md)45887337009/1给完整96行误差<8.556891e−5、全homotopy lower>.9836159091670；原DFT/means/alias全保，SC直接消费，不授signed矩阵或fullSchur。
 

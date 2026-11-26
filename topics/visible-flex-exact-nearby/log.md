@@ -248,3 +248,6 @@ NS五件共129172B，owner71056B SHA18db439d5895e4232882940a57b7bd9457982383e1ac
 
 
 2026-11-26 20:18:30 UTC / visible-exact-astra-fb31ed6-20261127：SM证明整|δ|≤1e−10矩形正Y、Fξ>.0045并用actual signed VM控制全参数漂移；唯一analytic根|ξ|<1.75e−11、.1275<ξ′<.166，same-metric Qδ桥A0<4.760e−7、φ导<1.264e−6，原端mean/compact支集及raw非mean接口完整。已存小球的44条纯有理比较通过，无旧ODE/积分重算；真实δ*未取数值点。全nonmean残差/DF差与fullSchur仍续做，不把mean精确称固定metric族。H原SR/MJ/RI细界保存092954f3全文索引。
+
+
+2026-11-26 20:23:36 UTC / visible-exact-astra-fb31ed6-20261127：SC五源与完整执行定义已逐段阅读保存；同selected Qδ全部58/224/32、TC三对象/完整prefix、RW96、JC7及WX原20gate资格全保。必要value-producing TC AST只省无关三导数数组且全原trial_value/matrix SHA必须匹配；JC全七球只消费。全部96新列误差、两整个signed矩阵gate保存回读，所有依赖norm来自正式upper，true/false如实保。公共worker用published origin tree+local delta及非FF循环；137 TC闭包以whole原manifest传递、不复制膨胀manifest。实际前件未齐，所以未生成workflow/manifest或数值输入。
