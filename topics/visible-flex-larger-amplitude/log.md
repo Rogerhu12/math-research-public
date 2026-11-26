@@ -570,3 +570,8 @@ ef674完整旧载体必要再生准入07：26612B完整源、12671B逐成员依�
 ### 2026-11-26 23:47:53 UTC — Astra-larger-e4e2a2bf-20261126
 
 登记a7f186及62cb完整cached费用源：完整R713角jet/node消费者49032B、准确mean producer40325B、05c5纯再生器18894B及完整来源/职责说明。严格绑定已实际推送68bf的3803 reader、f075 driver/a62c normal/3e47 calibration/ba3d C1，各自独立report/request/journal schema；当前outer不是新seed，原实际batch15数组/完整来源/全角原顺序/原预算与叶哈希链保。root完整读再生器/新增binding/说明并实际纯文本重生两个变体，plain逐字ded2/7596、cached逐字a7f186/62cb；原数学AST全保，source-lock仅scratch留SHA，不发布可重算表。未选batch/未跑fee，不能支付working raw校准/当前normal/整域六jet/几何；不作为新求解的前门。新envelope来源若变须另绑定，课题未完成。
+
+
+### 2026-11-26 23:50:01 UTC — Astra-larger-e4e2a2bf-20261126
+
+登记0b6d03完整detached矩阵来源证明及最窄实现合同：从a62c完整局部控制jet逐项推出J3=M0、J6下三角(M0;M1,M0)、J9下三角(M0;M1,M0;M2,2M1,M0)，完整M1/M2含全部total angular链；τ与zero-target只在加法右端，不影响局部矩阵，却不能复用根/residual/接受状态。准确复用须同调用完整data/point/model/源/φ顺序/previous3×6/frame3×3×6/eta、kind和阶/mesh权字节相同且detached；只缓存原函数真实返回完整矩阵，不由公式拼float阵。原_solve_stage与两Jacobian/ba3d九AST保持，所有每阶段根/IFT链保。root全文审；此为完整分析，尚无实现/执行/hit/加速或误差证据，不阻断07独立包络方向，课题继续。
