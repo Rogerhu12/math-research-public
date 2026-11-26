@@ -169,3 +169,5 @@ G以S/T E1856给physical C²整盘/曲率<2/径长<8e−6及同world position/no
 R144任何接续必须按[完整suffix规约](notes/2026-11-26-R144-fixed-eta0-mean-suffix-state-spec.md)保原prefix整球、诊断/witness和真实接口归属。新ρ同时用于root、收缩、density门；mean修复不付非mean、physical同角、height、holonomy、帽、truephase或完整nonlinear。原Bcal^-1<5e10、selected腰mean严格(5,8)e−15、NG迹门和S/T极小seed与loss1734/bg1796/E1856等原条件仍在历史完整段，不因摘要减少。
 
 RW首轮执行入口现已推：30当前/4原历史整输入，manifest SHAbe8da3e31973d9c3725a4dcb4834287a1add06121e3853ea4308b08b656fac05；96×5小球，L4096/N1024完整private载体逐一保存读回、全部alias/tail及true H/mean资格保。只首轮、无自动重试；run待读。完整接线见对应owner/worker/manifest，未宣称actual通过。
+
+C0/CP11首轮具体入口已推：15当前/5原parts，manifest SHA9f2ae6850b56799356a8fd5aac2b2cdb2de62efb077f76e05327851ba88d8aff；原7721/6143输入只读，52新全球含11个profile kernels。严格区分whole终态和accepted prefix/suffix，原mean-jump terminal侧别保；实际小根、mean球和whole物理C0仍未宣称。

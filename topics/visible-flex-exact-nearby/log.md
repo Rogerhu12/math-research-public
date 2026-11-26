@@ -78,4 +78,6 @@ root完整展开CR16为CP1，保ξ的二次与q的三次全部11系数。相同�
 
 2026-11-26 08:55 UTC：12份非科学重复历史H/open逐字检查点改为固定提交 caf464381c5c41ab86c007648edf407972156569 的同路径入口，每件登记原blob、UTF8字节数和SHA256，净减397237B。已静态排除R142/固定η0/RW/C0全部活动manifest引用；不改native/科学结果/失败与未付义务，不重旧成功。两README无差异；本H继续保<10000B。
 
-2026-11-26 09:02 UTC：RW whole metadata/pure/owner/worker已完成双核，五件具体入口首次发布，manifest be8da3e31973d9c3725a4dcb4834287a1add06121e3853ea4308b08b656fac05。旧H/K零常数AST资格、原W/Js完整成功闭包、真a/mean/完整DFT和candidate保存读回均保；只有96新row目标，无旧科学调用。首轮Actions触发，等待真实运行记录。
+2026-11-26 08:55 UTC：RW whole metadata/pure/owner/worker已完成双核，五件具体入口首次发布，manifest be8da3e31973d9c3725a4dcb4834287a1add06121e3853ea4308b08b656fac05。旧H/K零常数AST资格、原W/Js完整成功闭包、真a/mean/完整DFT和candidate保存读回均保；只有96新row目标，无旧科学调用。首轮Actions触发，等待真实运行记录。
+
+2026-11-26 08:57:35 UTC：C0/CP11首轮具体六件发布，manifest9f2ae6850b56799356a8fd5aac2b2cdb2de62efb077f76e05327851ba88d8aff；root与geometry核全部τ跳/原η盒、11系数与保存rollback，合同两显示公式分隔符修正。科学/worker已固定，旧科学零，当前无actual小根门。前条RW发布时刻据真实event修正为08:55。
