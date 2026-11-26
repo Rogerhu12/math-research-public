@@ -5,7 +5,7 @@
 
 ## 1. 授权、规则与完整前史
 
-公开本次实际pull且根/题README已读至 **0717fd3ae06e5d8ea794b9cbb8524ac016ff0d53**；根/题规则相对继承0749a4cc均空差异。私库实际pull/根README已读至 **1a995ebf0c19ea771ef0684a4f22bf94da9a960e**，QUEUE认领提交 **09f8b8b54e7cfaabaa635bae5c438c7f1521289a**；本会话仍唯一进行中，21:00 UTC前再次实际pull且根README空差异，下一不晚于21:58 UTC。
+公开本次实际pull且根/题README已读至 **fba4da9c16f432585341b0de9356425fed23c980**；根/题规则相对继承0749a4cc均空差异。私库实际pull/根README已读至 **1a995ebf0c19ea771ef0684a4f22bf94da9a960e**，QUEUE认领提交 **09f8b8b54e7cfaabaa635bae5c438c7f1521289a**；本会话仍唯一进行中，21:00 UTC前再次实际pull且根README空差异，下一不晚于21:58 UTC。
 
 [压缩前全文](notes/HANDOFF-before-actual337-20261127.md)及其归档链保存全部旧结论、真实输入、失败/偏离、量词与完整费用；移档不重跑已付门。[四来源与文献](notes/2026-11-27-current-four-source-topics-and-literature.md)保已读版本及用途。
 
@@ -25,7 +25,7 @@
 
 [新终态](notes/2026-11-27-r566-physical-epigraph-original-terminal.md)run **45892179085**/job140157246913/source1530094182，新2370.192668793秒、15metric+1恢复/33Jac；真81q **7371a880eaa603c17191acc747847817dd1e846196ee0d4e74548a125c898513**，1298×3072/1515全峰η.2277496382670385、物理V0。actual660圈/1473峰/573work/1536角、trust.3003387451171875；当前要求fine1322，旧1298资格不自动扩大。原bc9的1353队列已补并接受；6coarse/9fine拒绝都是真物理门，恢复一步η上升不冒全程单调。费用下界12359.003476909998秒，旧未知仍未知。
 
-末raw **55e30fac8df3438d4e5d627f2c8ac9f867c67357db524e99589009bb8ad6ef36**未接受；同1322 coarse/fine/nested已付，1519bracket中391闭/1128待补，原PARTIAL325628B/f3727616，oracle5bfa207c。先同身份补1128并合并391，再采用5physical/5working pending。新正常scope在审；所有旧fine永续保留，newFFT/部分费用不丢、内BFGS未输出不伪恢复、e提升不冒η改善。
+末raw **55e30fac8df3438d4e5d627f2c8ac9f867c67357db524e99589009bb8ad6ef36**未接受；同1322 coarse/fine/nested已付，1519bracket中391闭/1128待补，原PARTIAL325628B/f3727616，oracle5bfa207c。先同身份补1128并合并391，再采用5physical/5working pending。[391续算scope](notes/2026-11-27-r566-partial391-resume-implementation.md)已全文审读/30绑定及原FINAL/PARTIAL逐项核，原全部数值参数不动；同身份先补1128。所有旧fine永续保留，newFFT/部分费用不丢、内BFGS未输出不伪恢复、e提升不冒η改善。
 
 ## 5. 全奇位置：真实337继续下降与固定g模型
 
