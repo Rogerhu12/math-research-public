@@ -1,6 +1,6 @@
 # R959 — 新固定 E65 的独立点、全部局部 Schwartz 与 degree390 真来源
 
-日期：2026-11-26。**已证明：秩至少二、全部有限角色与局部 Schwartz、真实 degree390 的非零 theta 来源和全权平方身份。** 完整66维 CM 矩阵、唯一源向量与六低 jet 的公开计算尚待执行；普通/惰性通常全 Sha 桥继续接入。本篇保持这些门的不同状态，主目标未完成。
+日期：2026-11-26。**已证明：秩至少二、全部有限角色与局部 Schwartz、真实 degree390 来源和全权平方、普通/惰性完整通常 Selmer 桥；原全CM与六低 jet 已公开 PASS。** 同一原中央的首导数非零可推出本曲线通常全 Sha 初级部分有限，但无穷素数量词仍未付。本篇保持这些门的不同状态，主目标未完成。
 
 ## 1. 同一固定曲线及两个实际点
 
@@ -174,7 +174,7 @@ $$
 
 原五固定曲线和原五中央没有被此新输入替换。若构造并验证 $E_{65}$ 的第六完整来源，其用途是提供一个真正不同的固定曲线输入，继续检验完整低 jet 矩阵及同源中央消费。
 
-前五节只用原曲线证明两个点独立；以下另行证明这条曲线自己的全部有限角色、Hermitian 参数、Schwartz、degree390 来源及平方身份。三处导子与分裂十三处均直接核算，未从 E89 搬用。最后再明确列出尚待运行的整个 CM 核及后继通常 Selmer 比较门。
+前五节只用原曲线证明两个点独立；以下另行证明这条曲线自己的全部有限角色、Hermitian 参数、Schwartz、degree390 来源及平方身份。三处导子与分裂十三处均直接核算，未从 E89 搬用。后文给出整个 CM 核的实际回执及完整通常 Selmer 比较，仍保留跨素数非零门。
 
 秩下界为显示证明，无需数学数值执行。以下局部完整有限表示与整个 CM 来源的源码另行固定；不保存可重算表。
 
@@ -628,14 +628,12 @@ $$
 这使用 (18)、(36) 的同一算术来源；不是只数两个 Frobenius
 就冒充完整局部证明。
 
-待公开运行的精确门为：全矩阵交换；(39) 的完整共同核恰为一维；
+本次公开 run45812554270 的完整实际门为：全矩阵交换；(39) 的完整共同核恰为一维；
 该核归一后全部系数有理，$X^{65}$ 系数零、$X^{64}$ 系数一；
 全部66坐标回乘两矩阵；随后重生原五来源并核真实六低 jet
-行列式非零。本节目前没有预记这些有限门为 PASS。
-若共同核不止一维，必须继续加实际完整算子或本地 projector，
-不能任选核向量作为 $\Phi$。
+行列式非零。这些有限门已全部通过：完整264×132有理核的秩为130，故共同 $K$ 核确为一维；原质量列零、首阶六及全部有理系数均实际返回。代码在核维数不为一时明确失败，没有任选核向量。
 
-一旦这些门实际通过，令其全向量为 $(c_0,\ldots,c_{64},0)$。
+由这些门的实际成功，令其全向量为 $(c_0,\ldots,c_{64},0)$。
 准确齐次来源为
 $$
 F_{65,b}(z)=\sigma_b^{390}
@@ -644,12 +642,11 @@ F_{65,b}(z)=\sigma_b^{390}
 \tag{40}
 $$
 其物理来源为 $b=65$；共同 $E_1$ 上的真实角权为195。
-首项归一给 $[z^6]=1$；全部原点阶、系数及低 jet 仍须由上述
-公开完整回执读取，而非本文凭维数宣称。
+首项归一给 $[z^6]=1$；全部原点阶、系数与低 jet 来自上述公开完整回执。实际最小公分母为175，未凭维数宣称首项非零。
 
 ## 11. 新 split 坏处在后继原 Selmer 比较中的费用
 
-本节只先把新十三处的费用付清，不提前宣告第六中央或其独立性。
+本节付清新十三处的费用；第13–17节再将实际回执接到第六中央及其六低 jet 独立性。
 普通与惰性桥可沿 R820/R943 的同一完整模板继续，但都必须保持
 degree390、(18)、(19)、(31) 和真实微分缩放。
 
@@ -688,9 +685,9 @@ $$
 固定坏位与六次微分缩放都在统一有限坏集之外为单位。
 因此新 split 处不会制造未付的随权非单位费用。
 
-后继仍须在实际完整来源及六低 jet 回执通过后，将
+本次实际完整来源及六低 jet 回执已通过；第13–17节把
 (41)–(43) 接到相同的普通 Katz 分支、惰性完整 signed 格和
-全部通常 Selmer 余秩；不能以本节的单位估计代替这些身份。
+全部通常 Selmer 余秩。这里的单位估计本身没有代替这些身份。
 本节没有把中央泛函当成来源环上的乘法同态。
 
 ### 本次新增的原文依据
@@ -732,4 +729,484 @@ AST 读取；六个旧依赖与新 local helper 的 SHA256 在主程序中逐项
 只在共同 $K$ 线确为一维、首阶为六、全系数有理后才归一源向量。
 旧 E89 的29项系数只由本次子进程完整 CM 生产器取得，不读旧输出表。
 局部检查先核所有完整有限环面矩阵、投影、十三处真实 $\rho_\alpha$
-全部13坐标返回与原 Haar 范数。尚无实际 PASS 回执；源码不代结果。
+全部13坐标返回与原 Haar 范数。本次真实 PASS 回执如下，源码与实际结果分别核定。
+
+
+### 12.1 实际全源、局部和六低 jet 回执
+
+[run45812554270](https://github.com/Rogerhu12/math-research-public/actions/runs/45812554270)，
+job139883858590，源提交 `c620dc2d6ce11ab22a44444fd6af256e702fee5d`；
+2026-11-26 11:43:38 UTC 完成，退出码0，用时242.733780988秒。
+全部8份源码 AST、10源固定 manifest、64个原局部接受门及完整 CM
+接受门通过。原完整 CM7/19 分别含68条全纤维，全部66列都保留；
+两算子交换、两共轭逆、原 CM19 的 $\Theta^2$ 绝对锚均通过。
+
+- manifest2318 B（不含末换行），SHA256 `e7633263b33aa5c7262df3676e5aa0e1e229ca88ad913a92bc6044915f492fed`。
+- stdout6921 B，SHA256 `0bca27627e665d8c9707e70bd1f5f5f60f6fa336d3739cefe3456a965ea74643`。从公开外层报告逐字取出原排序 JSON 加末换行，重算字节数和摘要与运行捕获值相同。
+- 完整日志37177 B，SHA256 `8d26fc3f7192c186f5b5c712bb16268bd98aa7531f04f6f7cb2b92e1cd9f0cf7`。
+- 完整两 CM 矩阵摘要 `e80e5777735077da004012b5abe8dfd2ba246b9404fd53899502c453242d1fff`；完整核摘要 `58c8279bd9ccb1c357b70c90b352a87e8bc7774164b43fb4ba1e633a013957bc`。
+- 真源65项多项式摘要 `3cedb9c16e797086890bd0fd4a2d760d49ce3fd78a204b45d2a5318aff636318`。全264×132有理矩阵秩130，唯一 $K$ 线、全部核向量与两算子全回乘通过；源为有理系数、质量列零、首阶六，最小公分母175。
+- 同 job 重生旧 E89 的原完整 CM 矩阵，摘要仍为 `6ee0222d90db6add172d6d6e650a2f8186b1776072661594a242b4e65c78d665`；真实旧五低 jet 行列式返回
+$$
+B_5=-\frac{104568614585465172496900768457847209984}{46188380197265625}\ne0.
+$$
+六低 jet 行列式为第17节显示的真实 $B_6\ne0$。
+完整系数和矩阵仅在本次运行内消费，不另存可重算输出。
+
+## 13. 同一原 degree390 来源的整缩放与普通完整测度
+
+本节及后四节消费第12节公开 run45812554270/job139883858590
+已通过的完整 CM 回执唯一确定的 $c_0,\ldots,c_{64}$。
+不另选本征线；六低 jet 独立性在第17节按同一次真实回执使用。
+
+置
+$$
+d_{65}=\operatorname{lcm}_{0\le j\le64}\operatorname{den}(c_j)=175,\quad
+\widehat c_j=d_{65}c_j\in\mathbf Z,\qquad
+\widehat F_1=d_{65}F_{65,1}=\sum_m\widehat\alpha_mz^m .
+\tag{44}
+$$
+完整归一给 $\widehat\alpha_6=d_{65}$、$\widehat\alpha_0=0$。
+这些整数 $\widehat c_j$ 的共同 content 为一：若整数 $g>1$ 同时整除
+它们，则 $g\mid\widehat c_{64}=d_{65}$，而 $d_{65}/g$ 已清掉
+全部原系数分母，与最小公倍数的定义矛盾。
+物理来源和固定平方常数一起缩放：
+$$
+\widehat\Phi_{65}=d_{65}\Phi_{65}
+=65^{-1}\widehat F_1(\theta z)=\sum_m\widehat s_mz^m,
+\quad\theta^6=65,\qquad
+\widehat\kappa_{65}=\kappa_{65}/d_{65}^{\,2}.
+\tag{45}
+$$
+因此
+$$
+\mathscr E_{65,m}
+=\frac{\widehat\kappa_{65}}{s_0}\,390^{-m}\widehat s_m^{\,2}.
+\tag{46}
+$$
+分母175来自同一次实际全源计算，故在下述 $p>211$ 都为单位。
+整体清分母的写法仍完整保留其成本：整性步骤本身甚至不需
+$p\nmid d_{65}$，固定缩放的赋值没有被预先删去。
+
+统一取 $p>211$。先设 $p\equiv1\bmod3$。
+R295、R397、R820 的普通 sigma 唯一性适用于本曲线：
+CM 自同构 $[\omega]$ 把对数微分方程中的常数 $c_p$ 变为
+$\omega^2c_p$，所以 $c_p=0$，且
+$\sigma_{65}(\log_{E_{65}}t)\in t\mathbf Z_p[[t]]$。
+(44) 的每个实际项
+$$
+\widehat c_j\,65^{64-j}\sigma_{65}^{390}x_{65}^{3j}
+$$
+在形式参数中的阶为 $390-6j\ge6$，故整。
+取与原 $\varpi_{65}$ 相容的单位普通周期 $\Omega_{p,65}$，
+Amice 对应给同一个有界整测度
+$$
+\widehat\Phi_{65}(\Omega_{p,65}\log(1+Z))
+=\int_{\mathbf Z_p}(1+Z)^x\,d\widehat\nu_{65,p}(x),
+\quad
+\widehat M_m=\Omega_{p,65}^{\,m}m!\widehat s_m .
+\tag{47}
+$$
+记
+$$
+\widehat G_{65,p}(T)=
+\int_{\mathbf Z_p^\times}
+(1+T)^{\log_p\langle x\rangle/\log_p(1+p)}
+\,d\widehat\nu_{65,p}(x).
+\tag{48}
+$$
+它的全部 Taylor 系数整。原全质量零尚不单独证明其单位质量零。
+
+令 $\pi=\psi_{65}(\mathfrak p)$、
+$\bar\pi=\psi_{65}(\bar{\mathfrak p})$，在原普通嵌入中
+$v_p(\pi)=1$、$v_p(\bar\pi)=0$、$\pi\bar\pi=p$。
+对正的 $p-1\mid m$，同一
+$\epsilon_m=\psi_{65}^{m+1}\bar\psi_{65}^{-m}$ 的所有坏单位角色
+由第7节保持；导子仍是 $(390)$。十三处非紧 uniformizer 的
+随权变化保留在原角色中，并未把它规定为常数。
+两个真正 Katz Euler 因子都为
+$$
+1-\epsilon_m(\mathfrak p)/p
+=1-\epsilon_m^{-1}(\bar{\mathfrak p})
+=1-\frac{\pi^m}{\bar\pi^{m+1}} .
+\tag{49}
+$$
+$p$ 处角色未分歧，故对应 Gauss 因子为一；其余处使用各自的
+primitive Euler 乘积。按 R397 已付的同一 Katz/de Shalit
+周期规范，(46) 给
+$$
+\mathcal K_{65,p}((1+p)^m-1)
+=\frac{\widehat\kappa_{65}}{s_0}\Omega_{p,65}\,390^{-m}
+ \left(1-\frac{\pi^m}{\bar\pi^{m+1}}\right)^2
+ \widehat M_m^{\,2}.
+\tag{50}
+$$
+这里两个实际阶乘合成 $(m!\widehat s_m)^2$。
+
+对固定 $p-1\mid m_0\ge0$，取 $m_j=m_0+(p-1)p^j$。
+非单位矩的赋值至少 $m_j$，(49) 与一之差的赋值也至少 $m_j$；
+于是其 $p$-adic 极限给单位矩。再由互异权点趋零的解析唯一性，
+得到整条原分支身份
+$$
+\boxed{\mathcal K_{65,p}(T)=
+\frac{\widehat\kappa_{65}}{s_0}\Omega_{p,65}
+(1+T)^{-a_{390,p}}\widehat G_{65,p}(T)^2,\qquad
+a_{390,p}=\frac{\log_p\langle390\rangle}{\log_p(1+p)}.}
+\tag{51}
+$$
+固定 $\widehat\kappa_{65}$ 不要求为单位；该式不是逐权选择平方根。
+
+## 14. 普通整下降与整个通常 Selmer
+
+本曲线的实际射线次数是第7节的
+$10368=2^7\,3^4$；$p>211$ 不整除它。
+类数一、最大整环 CM、有理曲线、好普通和正根数均已付。
+Agboola–Howard Theorem2.4.17(1)(b),(c) 因而给通常单 CM Selmer
+对偶在反圆塔上 torsion，其特征理想由 (51) 的相容非零
+Katz 分支生成。若采用带辅助理想的版本，可用好惰性理想 $(11)$；
+实际 $\psi_{65}((11))=-11$，同 R820 的普通规范下中心辅助值
+为 $-(11^2+11)=-132$，当前为单位。
+五处是本曲线坏位，不能沿用 E89 的辅助理想 $(5)$。
+
+连通 $\pi$ 挠点在一阶 tame inertia 上有阶 $p-1$ 的像；
+pro-$p$ 塔不能消掉它，所以塔上没有非零 $\pi$-初级挠点。
+Inflation–restriction 与通常 Kummer 条件的限制相容给基层
+通常 Selmer 到塔上不变量的单射，故
+$$
+\operatorname{corank}_{\mathbf Z_p}
+ \operatorname{Sel}_{\pi^\infty}(E_{65}/K)
+\le\operatorname{ord}_{T=0}\mathcal K_{65,p}.
+\tag{52}
+$$
+设
+$$
+r=\operatorname{rank}E_{65}(\mathbf Q)\ge2,\qquad
+r_p=\operatorname{corank}_{\mathbf Z_p}
+ \Sha(E_{65}/\mathbf Q)[p^\infty].
+$$
+原 $-3$ 二次扭转 $E_{-1755}$ 与 $E_{65}$ 通过
+$$
+(x,y)\longmapsto
+\left(\frac{x^3+260}{x^2},
+      \frac{y(x^3-520)}{x^3}\right)
+$$
+有理三同源，其与对偶的复合是 $[3]$。
+在 $p\ne2,3$ 处，二次限制与核心限制、两特征投影及三同源保持
+**完整通常 Selmer** 的余秩；复共轭交换两个 CM 分量。
+所以 (52) 左边准确为 $r+r_p$。结合 (51) 得
+$$
+\boxed{\widehat G_{65,p}\ne0,\qquad
+\widehat G_{65,p}(0)=0,\qquad
+r+r_p\le2\operatorname{ord}_0\widehat G_{65,p}.}
+\tag{53}
+$$
+从而
+$$
+\boxed{\widehat G'_{65,p}(0)\ne0
+\Longrightarrow r=2,\quad
+\Sha(E_{65}/\mathbf Q)[p^\infty]\ \text{有限}.}
+\tag{54}
+$$
+Sha 初级群是有限余生成群，余秩零遂给有限；没有删除任何潜在
+Sha 自由方向，也没有把通常 Selmer 换成严格局部 Selmer。
+
+为接共同原 $b=17$ 模型，设 $u^6=65/17$，选择相容周期
+$\Omega_{p,65}=u^{-1}\Omega_{p,17}$。真正齐次式 (40) 给
+$$
+\widehat\Phi_{65}(z)
+=u^{-6}\widehat F_{65,17}(uz),\qquad
+\widehat\nu_{65,p}
+=\frac{17}{65}\widehat\nu_{\widehat F_{65,17},p},\qquad
+\widehat G_{65,p}
+=\frac{17}{65}\widehat G_{\widehat F_{65,17},p}.
+\tag{55}
+$$
+这是实际单位缩放；来源的 Gaussian charge 是195，而非65。
+
+## 15. 惰性完整 Newton 因子、signed 格与新 split Euler
+
+现在 $p=6s-1>211$，置 $d=p+1$、
+$\mathcal O=\mathbf Z_{p^2}$。在共同 $E_1$ 上取
+$$
+f=\log(\sigma/z),\quad c=[z^d]f,\quad
+B=x\sigma^2=\sum_m\beta_mz^m .
+$$
+$c$ 是 R301 已付的原首分母，$v_p(c)=-1$，不另选 Gaussian。
+定义
+$$
+\widehat G_{390}=\widehat F_1e^{-390cz^d},\quad
+a_h=(390c)^{-h}[z^{dh}]\widehat G_{390},\quad
+\widehat J_{390,p}(v)=\sum_{h\ge0}a_h(v)_h,
+\tag{56}
+$$
+$$
+J_{0,p}(v)=\sum_{h\ge0}(2c)^{-h}
+[z^{dh}](Be^{-2cz^d})(v)_h .
+$$
+写 $\mathcal W=z^2x$、$R=p^{-1/(2p)}$。
+完整余项是
+$$
+\widehat G_{390}(z)
+=\sum_{j=0}^{64}\widehat c_j z^{390-6j}
+ \mathcal W(z)^{3j}\exp\{390(f-cz^d)\}.
+\tag{57}
+$$
+R301 的严格圆盘上 $\|\mathcal W\|_R=1$、修正指数范数至多一；
+所有 $\widehat c_j$ 整且实际幂至少六，所以
+$\|\widehat G_{390}\|_R\le R^6$。因此
+$$
+\boxed{v_p(a_h)\ge
+\left\lceil\frac{h(p-1)+6}{2p}\right\rceil\quad(h\ge1),\qquad
+\widehat J_{390,p}\in pv\,\mathbf Z_p\langle v\rangle,\quad
+J_{0,p}\in1+p\mathbf Z_p\langle v\rangle.}
+\tag{58}
+$$
+两函数在 $|v|_p<p^{(p-1)/(2p)}$ 解析。
+真正有限 Gaussian 卷积给所有整数 $k\ge0$
+$$
+\widehat J_{390,p}(k)=k!(390c)^{-k}\widehat\alpha_{dk},
+\qquad
+J_{0,p}(k)=k!(2c)^{-k}\beta_{dk}.
+\tag{59}
+$$
+参考全部 $\beta_{dk}$ 因而非零。
+
+$\mathbf F_p^\times\subset\mathbf F_{p^2}^{\times6}$，故可取
+$\theta^6=65$ 的单位 Hensel 提升。
+实际整模型、形式群和完整 Tate 格同构为
+$$
+F_\theta:E_1\longrightarrow E_{65},\quad
+(X,Y)\longmapsto(\theta^2X,\theta^3Y),\quad
+F_\theta^*\omega_{65}=\theta^{-1}\omega_1 .
+\tag{60}
+$$
+物理 Gaussian 是 $\theta^dc$。
+(45) 与它同时运输时，Newton 系数的 $\theta^{dh}$ 完全相消，
+故物理半因子为 $65^{-1}\widehat J_{390,p}$；
+共同 $b=17$ 模型的半因子则为 $17^{-1}\widehat J_{390,p}$。
+
+$\psi_{65}/\psi_1$ 是有限六次角色，$d\mid m$ 消掉其有限部分与
+$p$ 处 tame 部分，所以两曲线使用同一反圆分分支。
+取原始参数 $q_{\rm ac}\in1+p\mathcal O$、
+$v_p(q_{\rm ac}-1)=1$，有
+$$
+x_m=q_{\rm ac}^{\,m}-1,\qquad v_p(x_{dk})=1+v_p(k).
+\tag{61}
+$$
+R303/R820 已付的完整 BKO 整比较适用于 (60)：
+$M_j=M_j^+\oplus M_j^-$，两格各为 $\mathcal O[[T]]$ 的自由秩一模，
+$j=1,65$。两根数都是正号。
+参考实际 $L(E_1,1)/\varpi_1=(1-\omega)/6$ 为单位；
+BKO24 Corollary4.11(i) 证明中的整基判据使原参考类 $\xi_1$
+成为正号格的整基。因此唯一有
+$$
+F_\theta^*\xi_{65}=\mathcal A_{65,p}(T)\xi_1,\qquad
+0\ne\mathcal A_{65,p}\in\mathcal O[[T]].
+\tag{62}
+$$
+新射线度10368和六次同构度与 $p$ 互素。
+这些是完整原格，不是删有限子模后的伪同构。
+
+### 15.1 同一个标准类的混合权与所有新费用
+
+沿 R303、R820、R943 的两条已核特化路径，从同一个 primitive
+射线椭圆单位得到
+$T_j^{-(2m+1)}(1+m)$ 和
+$\psi_j^{-(2m+1)}\chi_{\rm cyc}^{1+m}$。
+在相容原 CM 基和 Tate 基下，它们都是
+$\mathbf u_j\otimes b_j^{\otimes(2m+1)}\otimes\zeta^{\otimes m}$。
+Norm、twist、特化、局部化及 Kato §15.11 的 period 图相容。
+本次变化逐项为：
+
+1. Primitive 导子是 $(390)$ 与 $(2\delta)$；原2、3、5及两个13
+   uniformizer 全部保留。较深的 $\delta^2$ 导子、其有限 Gauss
+   和、坏处范数幂只含固定坏素数和根单位，在当前 $p$ 均为单位。
+2. 可取好惰性辅助素数 $\ell\equiv1\bmod p$、
+   $\ell\nmid390p$。两曲线在 $(\ell)$ 的 Hecke 值同为 $-\ell$；
+   该高权规范的辅助除法为
+   $\ell^2+\ell^{-1}\equiv2\bmod p$，是整单位除法。
+   它与第14节普通中心辅助值的规范不同。
+3. 真微分张量贡献 $\theta^{-(2m+1)}$。CM 张量在秩一格上作，
+   没有额外对称幂阶乘分母。共同临界 Tate/Gamma 因子含
+   $(i\sqrt3)^m m!$，非单位 $m!$ 只在两曲线比中消去。
+4. 两个惰性好位的原 Euler 因子都为 $1+1/p$，赋值为 $-1$，
+   也只在比中抵消。参考五处原因子为 $6/5$。
+5. 参考两个十三处分裂因子必须保留完整 (42) 的 $E_{13}(m)$。
+   对 $d\mid m$，$\rho/\bar\rho$ 模 $p$ 落在范数一群，
+   故 (43) 给 $E_{13}(m)\equiv12/13\bmod p$。
+   它在整条允许权支上为单位，未被偷换成常数。
+   三处两曲线均按各自 primitive 约化，不增加人为删因子。
+
+这正好支付原相对 period 比较的新费用，给准确赋值身份
+$$
+v_p\mathcal A_{65,p}(x_m)
+=v_p\mathscr E_{65,m}-v_p\mathscr E_{1,m},
+\qquad m>0,\quad d\mid m.
+\tag{63}
+$$
+只用每权的准确赋值；未假设剩余单位随权解析。
+
+参考平方
+$\mathscr E_{1,m}=(6s_0)^{-1}2^{-m}\beta_m^2$
+与 (45)–(46) 给完整代数比
+$$
+\frac{\mathscr E_{65,m}}{\mathscr E_{1,m}}
+=6\widehat\kappa_{65}\,65^{-2}\theta^{2m}195^{-m}
+ \left(\frac{\widehat\alpha_m}{\beta_m}\right)^2 .
+\tag{64}
+$$
+在 $m=dk$ 时，(59) 准确给
+$\widehat\alpha_{dk}/\beta_{dk}
+=195^k\widehat J_{390,p}(k)/J_{0,p}(k)$。
+$65,\theta,195$ 和参考 $J_0$ 都为单位，故
+$$
+\boxed{v_p\mathcal A_{65,p}(x_{dk})
+=v_p(\widehat\kappa_{65})+
+ 2v_p\widehat J_{390,p}(k).}
+\tag{65}
+$$
+$d_{65}$ 的实际赋值完整留在
+$\widehat\kappa_{65}=\kappa_{65}/d_{65}^2$ 和 $\widehat J$ 中。
+
+## 16. 惰性通常 Selmer 与完整有限证书
+
+若 $\widehat J_{390,p}\equiv0$，非零的 (62) 在
+$x_{dp^n}\to0$ 无穷点上为零，矛盾。
+令 $e=\operatorname{ord}_0\widehat J_{390,p}$，
+$j_e=[v^e]\widehat J_{390,p}$。
+沿 $k=p^n$，将 (61)、(65) 两边首项赋值中的 $n$ 系数和常数
+分别比较，得到
+$$
+\operatorname{ord}_0\mathcal A_{65,p}=2e,\qquad
+v_p([T^{2e}]\mathcal A_{65,p})
+=v_p(\widehat\kappa_{65})+2v_p(j_e)-2e .
+\tag{66}
+$$
+没有把固定 $\widehat\kappa_{65}$ 的赋值设成零。
+
+BKO21 的基层**通常 Selmer** 界及 R303 的同一控制给
+$$
+\operatorname{corank}_{\mathcal O}
+ \operatorname{Sel}_{p^\infty}(E_{65}/K)
+\le\operatorname{ord}_0\mathcal A_{65,p}.
+$$
+平凡角色在正号格，没有相反符号的一维加项。
+第14节的二次分解和三同源，在把
+$[\mathcal O:\mathbf Z_p]=2$ 还原后，使左边准确等于 $r+r_p$。
+故
+$$
+\boxed{\widehat J_{390,p}\ne0,\quad
+r+r_p\le2\operatorname{ord}_0\widehat J_{390,p},\quad
+\widehat J'_{390,p}(0)\ne0
+\Longrightarrow r=2,\
+\Sha(E_{65}/\mathbf Q)[p^\infty]\text{有限}.}
+\tag{67}
+$$
+
+普通处置 $m_n=(p-1)p^n$。
+(47)–(53) 的整性、单位中心零和非单位矩误差给完整有限证书
+$$
+\boxed{\widehat G'_{65,p}(0)\ne0
+\Longleftrightarrow
+\exists n\ge0:\ 
+v_p(m_n!\widehat s_{m_n})<2n+2.}
+\tag{68}
+$$
+导数若零，所有二阶以上项至少 $2n+2$；导数若非零，
+充分大 $n$ 的线性项严格支配。
+$m_n\ge2n+2$ 保非单位矩误差不干扰。普通单位周期不改变赋值。
+
+惰性处令
+$$
+L_H=\sum_{h=1}^H(-1)^{h-1}(h-1)!\,a_h,\qquad
+M_H=
+\left\lceil\frac{(H+1)(p-1)+6}{2p}\right\rceil+v_p(H!).
+$$
+(58) 给 $v_p(\widehat J'(0)-L_H)\ge M_H$，且 $M_H\to\infty$。
+因此
+$$
+\boxed{\widehat J'_{390,p}(0)\ne0
+\Longleftrightarrow
+\exists H\ge1:\ v_p(L_H)<M_H.}
+\tag{69}
+$$
+首层为
+$$
+\widehat J'_{390,p}(0)/p
+\equiv\widehat\alpha_{p+1}/(390pc)\pmod p .
+\tag{70}
+$$
+该首层可失败，而完整导数仍可能非零；本节始终使用 (69)。
+
+## 17. 第六个真实来源怎样进入共同格
+
+桥 (53)、(67) 使 $\widehat F_{65,17}$ 成为第六条合法原中央。
+归一前后的非零固定标量不会改变中央是否为零；
+(55)、(60) 保来源、微分、Gaussian 和全部通常 Selmer 同时运输。
+
+第12节同一次公开执行实际给
+$$
+B_6=
+\frac{1579472550030363202950836562870943002550037052625072544182213541888}
+{8911594013888276092529296875}\ne0.
+\tag{71a}
+$$
+把旧五条完整来源与 $\widehat F_1=d_{65}F_{65,1}$ 放在一起，
+其真实六行行列式准确为 $175B_6$。
+旧四源来自固定精确角因子，旧 E89 的29项系数来自同 job
+完整 CM7/CM13 重生；第六源全部65项来自同 job 全66列识别。
+所以这不是以六个自由符号作行列式，也不接受旧输出表作输入。
+
+六轴模 $p$ 可逆只在实际有理数 $175B_6$ 为 $p$ 单位时使用。
+可不作任何整数分解而准确排除其显示分子和分母的素因子；
+这是一个已确定的有限集。实际上，六低 jet 的全部分母由
+原源分母175、91及至 $w^5$ 的同一 ODE、指数递推生成，
+其素因子均不超过31，所以当前只需排除 (71a) 的分子素因子。
+第13–16节的整中央桥在每个 $p>211$ 都成立。
+两层范围不可混同。
+
+在原角变量 $t=-b/x^3$、$\Theta=x\sigma^2$ 中，
+$$
+\widehat F_{65,b}
+=b^{-1}\Theta_b^{195}\widehat f_{65}(t),\qquad
+\widehat f_{65}(t)
+=\sum_{j=0}^{64}\widehat c_j(-t)^{65-j}.
+\tag{71}
+$$
+$t=0$ 重数恰一，因为 $\widehat c_{64}=d_{65}\ne0$。
+整体次数由实际 $\widehat c_0$ 决定，不能先猜为65；
+其余共同角点重数也须完整返回。
+本篇不把 $\widehat F_{65}$ 的乘积、shear 或一般原环元素赋予新的中央零。
+要将六中央变成新的受迫高轴和全局严格预算，
+必须在同一完整来源格内支付 (71) 的角帽、原 carry 和行列式成本。
+这项消费由实际六源和六次 Gaussian 进行，未宣称六个代数独立变量。
+
+### 第13–17节的输入和准确使用范围
+
+本节只扩展已有完整桥，不重证已登记的通用步骤：
+[R301](R301-jzero-inert-analytic-half-factor-and-exact-first-denominator.md)
+的严格圆盘与首分母；
+[R303](R303-jzero-inert-full-selmer-period-comparison-and-central-criterion.md)
+的完整 signed 格、混合权和通常 Selmer；
+[R397](R397-e24-original-ordinary-square-and-full-selmer-bridge.md)
+的普通周期与 Katz 规范；
+[R820](R820-original-minus-eleven-full-central-and-selmer-bridges.md)
+的较深三导子及完整新源比较；
+[R943](R943-original-e89-fifth-central-full-selmer-and-five-axis-gate.md)
+的同 job 第五原来源。
+
+新输入是本篇第7–12节的真实 split13 Schwartz/degree390 和第13节
+不可省的整分母缩放；其新 Euler 费用在 (42)–(43)、(63) 全支付。
+主要原文核定：
+
+- Agboola–Howard，Theorem2.1.1、Theorem2.4.17(1)(b),(c)，
+  <https://www.numdam.org/article/AIF_2006__56_4_1001_0.pdf>。
+  使用通常单 CM Selmer 特征理想；本曲线新射线度10368已核。
+- Burungale–Kobayashi–Ota (2021)，Theorems2.1、6.1–6.2，
+  <https://annals.math.princeton.edu/2021/194-3/p08>；
+  BKO (2024)，§2.2.1、Corollary4.11(i) 证明及 Proposition4.12，
+  <https://catalog.lib.kyushu-u.ac.jp/opac_download_md/7330258/7330258.pdf>。
+  使用原完整 signed 格、参考整基、通常 Selmer 和相同标准类。
+- Kato，§15.8、两张 §15.11 定义性 period 图及 (15.16.1)，
+  <https://www.numdam.org/article/AST_2004__295__117_0.pdf>。
+  使用同一 CM 秩一张量的已付相容，不添加一般高权 motivic 假设。
