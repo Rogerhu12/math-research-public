@@ -1,0 +1,298 @@
+{
+  "session": "Astra-ISP-8542378f-20261127",
+  "runtime": {
+    "python": "3.12.14",
+    "pythonFlint": "0.9.0"
+  },
+  "probes": [
+    {
+      "script": "2026-11-27-unit211-L0-original-cofactor-limited-probe-8542.py",
+      "parameters": [],
+      "sourceSha256": "8630e235eb74e51e47c359cd544edda216c266e2eabca75456d9878240e339e9",
+      "observedShellExitCode": 124,
+      "sourceAlarmSeconds": 120,
+      "externalHardTimeoutSeconds": 150,
+      "addressSpaceGiB": 8,
+      "externalWallSeconds": null,
+      "stdoutSha256": "6dcb429e79595b56815f06a67953dda48015dd361a832593538355d3eb24cadb",
+      "stdoutBytes": 15547,
+      "actualRecords": [
+        {
+          "a": {
+            "degrees": [
+              0,
+              7,
+              10
+            ],
+            "sha256": "fcd96da916347f46f6f06e00409026ed9557698ffb4f47ca7e57e9e3613327c9",
+            "terms": 71
+          },
+          "b": {
+            "degrees": [
+              0,
+              7,
+              7
+            ],
+            "sha256": "36d3cba5dac0f87305fa629c21057a037b01d665008b059f3316a472f7583d6c",
+            "terms": 54
+          },
+          "cancelled": {
+            "degrees": [
+              0,
+              3,
+              4
+            ],
+            "sha256": "c052f75624c8d9bca43544a61fcc457923fcc68cb4907aa2e9489f0880fe1201",
+            "terms": 14
+          },
+          "claimExcluded": false,
+          "elapsedSeconds": 5.051732,
+          "originalCombinationMultipliedBack": true,
+          "row": {
+            "degrees": [
+              4,
+              21,
+              26
+            ],
+            "sha256": "2dd806259ddea7b72658c48c29b7e1299028056337a667b4e485afae928f561f",
+            "terms": 2074
+          },
+          "stage": "original_cofactor_reduced_subresultant_1"
+        },
+        {
+          "a": {
+            "degrees": [
+              1,
+              25,
+              37
+            ],
+            "sha256": "f787bf4529785001b86e407b2d71c1e6838d677b061483eb9c38b53649a4fde3",
+            "terms": 1513
+          },
+          "b": {
+            "degrees": [
+              1,
+              25,
+              35
+            ],
+            "sha256": "6dae083d2d81ba851d5655b166a3ba5437798844b3deb359717120dc04b7e534",
+            "terms": 1434
+          },
+          "cancelled": {
+            "degrees": [
+              0,
+              10,
+              10
+            ],
+            "sha256": "5c6421dd42aad927eb12a16539687588d5b1039ea5b96da684aa0cb843061d17",
+            "terms": 99
+          },
+          "claimExcluded": false,
+          "elapsedSeconds": 5.896856,
+          "originalCombinationMultipliedBack": true,
+          "row": {
+            "degrees": [
+              3,
+              37,
+              53
+            ],
+            "sha256": "a3dcc8bc06137746d06f317277303105e96f6e5957cf869eec0dc8d46edcb364",
+            "terms": 6373
+          },
+          "stage": "original_cofactor_reduced_subresultant_2"
+        },
+        {
+          "a": {
+            "degrees": [
+              2,
+              43,
+              67
+            ],
+            "sha256": "e09ba3bf16416db2156bb6cc0e8b11bff655f82243fb05c7561f0dfc45f108da",
+            "terms": 6901
+          },
+          "b": {
+            "degrees": [
+              2,
+              43,
+              66
+            ],
+            "sha256": "4089e3f683697e03c9a817a3eef797e3627d5c3c01cde3e539ddae828348f308",
+            "terms": 6734
+          },
+          "cancelled": {
+            "degrees": [
+              0,
+              34,
+              48
+            ],
+            "sha256": "50253c2d9dcb7bb76ad052d3f469960ddda262a6f52923dee5689d2363cf07dc",
+            "terms": 1368
+          },
+          "claimExcluded": false,
+          "elapsedSeconds": 10.881256,
+          "originalCombinationMultipliedBack": true,
+          "row": {
+            "degrees": [
+              2,
+              53,
+              81
+            ],
+            "sha256": "4f78c38f9150b04c21d30288a8ae878d751c9e76a5bba7ac475f1f600187b2ea",
+            "terms": 10515
+          },
+          "stage": "original_cofactor_reduced_subresultant_3"
+        },
+        {
+          "a": {
+            "degrees": [
+              3,
+              62,
+              93
+            ],
+            "sha256": "0290fc77501286c858cbfa67c26e5e68614d99ea4e316df57eb3d57632c46560",
+            "terms": 18651
+          },
+          "b": {
+            "degrees": [
+              3,
+              62,
+              92
+            ],
+            "sha256": "8fd29a8080755f7bef453e19aaa591e9e323eb150eb7a13bf625b82d82c21f5e",
+            "terms": 18345
+          },
+          "cancelled": {
+            "degrees": [
+              0,
+              67,
+              108
+            ],
+            "sha256": "f5b7209fec7da8a470b9879e3079b04ae61972ae78acf29527ba6eaaa591a896",
+            "terms": 5873
+          },
+          "claimExcluded": false,
+          "elapsedSeconds": 59.252569,
+          "originalCombinationMultipliedBack": true,
+          "row": {
+            "degrees": [
+              1,
+              70,
+              107
+            ],
+            "sha256": "d7d3cc26cca7821ba57c9fe5e38c6a0401a5b4ecc0f65aef48ae28c9ecd29985",
+            "terms": 12511
+          },
+          "stage": "original_cofactor_reduced_subresultant_4"
+        },
+        {
+          "claimExcluded": false,
+          "elapsedSeconds": 148.527508,
+          "stage": "timeout_unknown"
+        }
+      ],
+      "claimExcluded": false,
+      "frozenDoNotRepeat": true
+    },
+    {
+      "script": "2026-11-27-unit211-L0-XY-modular-degree-limited-probe-8542.py",
+      "parameters": [],
+      "sourceSha256": "5f44f807f1495ece379716d06bf93f1ad16c5f12ac36e41e88da93f97661c9f4",
+      "observedShellExitCode": 0,
+      "sourceAlarmSeconds": 90,
+      "externalHardTimeoutSeconds": 100,
+      "addressSpaceGiB": 4,
+      "externalWallSeconds": null,
+      "stdoutSha256": "49fa82bf66302cd1d06bf16479c8fa7960a098fc157b8d9b7205c19267e91662",
+      "stdoutBytes": 549,
+      "actualRecords": [
+        {
+          "seconds": 3.5522378819987352,
+          "stage": "actual_Sylvester_assignment_dual_degree_bound",
+          "matrixSize": 147,
+          "lambdaDegreeBound": 6285,
+          "ordinaryBidegreeBound": 7286,
+          "dualVerified": true
+        },
+        {
+          "seconds": 3.608299685998645,
+          "stage": "new_modular_complete_resultant_begin",
+          "originalWDegrees": [
+            52,
+            95
+          ]
+        },
+        {
+          "seconds": 11.920704894000664,
+          "stage": "new_modular_complete_resultant_return",
+          "actualDegree": 5953,
+          "equalsProvedUpperBound": false,
+          "coefficientSha256": "d273c971c052da0f90ab20c22ffa6bd9047c1145203017c1a91c8acc1cc02390",
+          "claimExcluded": false
+        }
+      ],
+      "claimExcluded": false,
+      "frozenDoNotRepeat": true
+    },
+    {
+      "script": "2026-11-27-unit211-L0-XY-exact-degree-limited-probe-8542.py",
+      "parameters": [],
+      "sourceSha256": "bfee921d8f18c98c260c7b6ff4c02d83788858a7755170bd7edb172f8006d4fe",
+      "observedShellExitCode": 142,
+      "sourceAlarmSeconds": 120,
+      "externalHardTimeoutSeconds": 130,
+      "addressSpaceGiB": 6,
+      "externalWallSeconds": null,
+      "stdoutSha256": "6eb92611db3d45ab7cba5bf3898659007917562f3a47e83bc7516b5079f97dcf",
+      "stdoutBytes": 8481,
+      "actualRecords": [
+        {
+          "seconds": 4.917309428998124,
+          "stage": "actual_Sylvester_assignment_dual_degree_bound",
+          "matrixSize": 147,
+          "lambdaDegreeBound": 6285,
+          "ordinaryBidegreeBound": 7286,
+          "dualVerified": true
+        },
+        {
+          "seconds": 9.453294502000062,
+          "stage": "new_exact_shifted_row_reduction",
+          "steps": 100,
+          "currentUpperDegree": 6285,
+          "maxRowDegree": 34
+        },
+        {
+          "seconds": 112.1999019319992,
+          "stage": "new_exact_shifted_row_reduction",
+          "steps": 5700,
+          "currentUpperDegree": 6230,
+          "maxRowDegree": 27
+        },
+        {
+          "seconds": 114.71877628699804,
+          "stage": "new_exact_shifted_row_reduction",
+          "steps": 5800,
+          "currentUpperDegree": 6229,
+          "maxRowDegree": 27
+        },
+        {
+          "seconds": 117.23136888099907,
+          "stage": "new_exact_shifted_row_reduction",
+          "steps": 5900,
+          "currentUpperDegree": 6228,
+          "maxRowDegree": 27
+        },
+        {
+          "seconds": 119.69005253599971,
+          "stage": "new_exact_shifted_row_reduction",
+          "steps": 6000,
+          "currentUpperDegree": 6228,
+          "maxRowDegree": 27
+        }
+      ],
+      "claimExcluded": false,
+      "frozenDoNotRepeat": true
+    }
+  ],
+  "ordinaryISPClaim": false
+}
