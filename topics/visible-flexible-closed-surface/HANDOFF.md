@@ -33,7 +33,7 @@
 
 **cached v4已结束；v5新请求**：[实际故障与真Git修复核](notes/2026-11-26-6a65-solver-cached-first-acceptance-marker-failure.md)：45825253169于13:34:59失败，首完整步/observer仅复现旧cold，不计新科学接受；pull后重复自己H marker使发布失败，无第二步，不借结束raw。新publisher只合并同文字节自己marker，真实NFF/README变化fixture0。[R239](results/R239-complete-cartesian-radial-block-preconditioning.md)保原λS方程；[91列非零真核](notes/2026-11-26-6a65-solver-channel-blocks-actual-finite-check.md)块误差5.86e−16、同方程方向差1.67e−15、伴随1.42e−15、LSMR42/stop2。[v5完整入口](notes/2026-11-26-6a65-solver-channel-block-v5-run-contract.md)已发表：新job真重生源/自身cache，7760列完整20尝试预算，原λS/13行不变，逐步完整试步/密观察，旧计数不借；实际run待查询。
 
-**新gap固定g后段**：[原联合链](notes/2026-11-26-6a65-geometry-gap-window-two-grid-seven-nine.md)15接受，[5292列增广](notes/2026-11-26-6a65-geometry-gap-window-5292-column-refinement.md)再3；[完整14行](notes/2026-11-26-6a65-geometry-gap-window-area-two-steps-and-external-stop.md)保同g/两训练组/全部13原行，σ*=.5，完整FD2.79e−10/JT5.73e−15。再2次α.5共20，末f103e34f…82b30、R14²2.971891=原13行2.970547+面积.00134450，metric.994814/κ679.312/η.00513924/held.672105仍坏。批次第三步前303.309s外部−9；[后继单步](notes/2026-11-26-6a65-geometry-gap-window-area-single-step-external-stop.md)2.488s再−9，无新normal/接受，原因未证。η=σ²，无第三observer；[R240](results/R240-reciprocal-area-square-excludes-rank-loss.md)连续结论不借离散值。固定区成本1.6862e−8未扣，prefix仍须修。
+**新gap固定g后段**：[原联合链](notes/2026-11-26-6a65-geometry-gap-window-two-grid-seven-nine.md)15接受，[5292列增广](notes/2026-11-26-6a65-geometry-gap-window-5292-column-refinement.md)再3；[完整14行](notes/2026-11-26-6a65-geometry-gap-window-area-two-steps-and-external-stop.md)保同g/两训练组/全部13原行，σ*=.5，完整FD2.79e−10/JT5.73e−15。再2次α.5共20，末f103e34f…82b30、R14²2.971891=原13行2.970547+面积.00134450，metric.994814/κ679.312/η.00513924/held.672105仍坏。批次第三步前303.309s外部−9；[后继单步](notes/2026-11-26-6a65-geometry-gap-window-area-single-step-external-stop.md)2.488s再−9，无新normal/接受，原因未证。η=σ²，无第三observer；[R240](results/R240-reciprocal-area-square-excludes-rank-loss.md)排秩亏；[R242](results/R242-inverse-area-fourth-power-quantitative-coercivity.md)给q>1准确积分的显式面积正界和临界幂。当前离散值不借证。固定区成本1.6862e−8未扣，prefix仍须修。
 
 [新同job入口](notes/2026-11-26-6a65-geometry-gap105-cold-run-contract.md)已发表：完整自身prefix/zero/cache，6/9/3/12真尝试预算不借旧20计数；45min真实规则检查，单进程一步，预算后保raw及严格绑定续算口，area真拒绝只接release。新编排先runner编译，实际run待查询。
 
@@ -47,7 +47,7 @@
 
 13:55本地执行环境unavailable，root恢复45s失败；此前临时盘余59MB，外部−9原因/原盘存亡未证。最后CLI push R240=ba8153c9成功；未推小源码核hash保全，raw未上传。根唯一主分支写者。
 
-<!-- 6a65-root-api-rules --> 2026-11-26 14:26:07 UTC API只读核main f4e9ce7a0294f8fa917fb1299075f5c53fb0ec78，双README blob未变；CLI停机，非force预期头发布，不冒literal pull。恢复后先真实pull并逐差核规矩。
+<!-- 6a65-root-api-rules --> 2026-11-26 14:29:49 UTC API只读核main 2e556daa5ac5fd95045c0f6a19153be6b3582099，双README blob未变；CLI停机，非force预期头发布，不冒literal pull。恢复后先真实pull并逐差核规矩。
 
 外部h487继续；geometry保旧20接受，独立冷任务新请求已发，跟踪实际状态；solver保91列完整预条件核，v5新请求已发表，跟踪实际启动/退出；exact接同g多层暖启动和频率提升。完成子问题接open下一项，不作阶段收尾。
 <!-- 6a65-ci-rules --> run 45778054176/1；实际 pull #183 至 `42d711248fdfcc164c1fa7c87770ab529ae24ca5`；2026-11-26T13:10:41+00:00；双 README 无差异，沿用根已读规则；回执原因 pre-process:Cauchy-original-then-Cartesian1-current-field。

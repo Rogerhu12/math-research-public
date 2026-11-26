@@ -5,6 +5,8 @@
 
 ## 新增结论
 
+- [R242：高次倒面积成本的定量面积正性与临界幂](results/R242-inverse-area-fourth-power-quantitative-coercivity.md)（2026-11-26）：对准确连续成本和已付 Lipschitz/正密度/内扇形常数，q>1 给显式面积比正下界，q=2 常数9/512；q<1有完整光滑秩亏反例。给出新q=2完整J/JT；不把有限训练成本或采样最小值冒连续证书。
+
 - [R241：实际h428场的全域全时度量与几何](results/R241-actual-h428-continuous-metric-and-all-phase-geometry.md)：run45826114835同场R236核10.738s真0，严格metric≤8.086781e−7首次对该场过1e−6；原全时reach/D>.03105610、held/D>.05278322、含反射δE>0及三完整小于5MB STL同时成立。准确同一目标g有限容差，不冒诱导度量完全相等、#5加密或强幅度完成。
 
 - [R240：倒面积平方的连续有限成本排除秩亏](results/R240-reciprocal-area-square-excludes-rank-loss.md)：正则二维图/正a/固定局部正密度下，C2给σ局部Lipschitz，零点令倒面积平方积分对数发散；付边界扇形、极点范围、完整固定g J/JT。谱度量误差≤.5时新增行恰零；实际离散有限成本不能借作连续浸入证书。
