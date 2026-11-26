@@ -1,5 +1,5 @@
 {
-  "schema": "rank2-original-bounded-hermite-api/v1",
+  "schema": "rank2-original-bounded-hermite-api/v2",
   "prime": 29,
   "extension_degree": 2,
   "modulus_ascending": [
@@ -10,6 +10,7 @@
   "checks": [
     "bounded-whole-hermite",
     "entire-attached-return",
+    "exact-prime-subfield-descent-and-quadratic-fallback",
     "existing-triangular-and-affine-interfaces",
     "full306-algorithm-fixture"
   ],

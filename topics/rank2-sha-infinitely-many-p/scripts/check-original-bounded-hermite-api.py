@@ -12,7 +12,8 @@ import time
 from pathlib import Path
 from sage.all import GF, PolynomialRing, matrix, vector, identity_matrix
 from sage.env import SAGE_VERSION
-from original_ys_divisor_ideal_tools import canonical, digest, field_description
+from original_ys_divisor_ideal_tools import (
+    canonical, digest, field_description, polynomial_matrix_digest)
 from original_degree_bounded_row_reduction import complete_degree_bounded_row_hermite
 import original_polynomial_row_reduction as operation_module
 
@@ -130,14 +131,79 @@ def direct_checks(k):
         all_receipts_sha256=digest(reports))
 
 
+def exact_prime_descent_checks(k):
+    """Given original quadratic field; full attached return and BOTH fallbacks."""
+    R = PolynomialRing(k, "r956_same_given_quadratic_parameter")
+    t, a = R.gen(), k.gen()
+    assert int(k.degree()) == 2 and a**int(k.characteristic()) != a
+    M = matrix(R, [[t**3+1, t], [t**2, t**2+1]])
+    X = matrix(R, [[t+1, t**2, 1], [1, t, t**3+1]])
+    B = identity_matrix(R, 2).augment(M*X)
+    H, Z, descended = complete_degree_bounded_row_hermite(
+        M, attached=B, progress=progress,
+        label="given original quadratic field, all prime coefficients and full attached block")
+    assert H.base_ring() is R and Z.base_ring() is R
+    U = Z[:, :2]
+    assert U*M == H and Z[:, 2:] == H*X
+    assert U.det() and U.det().degree() == 0
+    assert H == M.hermite_form(include_zero_rows=False)
+    assert descended["exact_prime_subfield_descent"]["applied"] is True
+    assert descended["exact_prime_subfield_descent"]["entire_left_block_returned_before_descent"]
+    assert descended["exact_prime_subfield_descent"]["entire_attached_block_returned_before_descent"]
+    assert descended["exact_prime_subfield_descent"]["operation_stream_hash_uses_original_coefficient_field"]
+    assert descended["original_rows_sha256"] == polynomial_matrix_digest(M)
+    assert descended["original_attached_sha256"] == polynomial_matrix_digest(B)
+    assert descended["complete_hermite_basis_sha256"] == polynomial_matrix_digest(H)
+    assert descended["transformed_attached_sha256"] == polynomial_matrix_digest(Z)
+
+    # A genuine quadratic LEFT coefficient forbids descent, even for prime RHS.
+    nonprime_left = matrix(R, M)
+    nonprime_left[0, 1] += a
+    H_left, U_left, left_fallback = complete_degree_bounded_row_hermite(
+        nonprime_left, attached=identity_matrix(R, 2), progress=progress,
+        label="actual nonprime LEFT coefficient retains the complete original backend")
+    assert H_left.base_ring() is R and U_left.base_ring() is R
+    assert H_left == nonprime_left.hermite_form(include_zero_rows=False)
+    assert U_left*nonprime_left == H_left
+    gate = left_fallback["exact_prime_subfield_descent"]
+    assert gate["applied"] is False and gate["first_nonprime_block"] == "left"
+    assert gate["unchanged_original_field_backend_used"]
+
+    # Prime LEFT alone is insufficient: a genuine quadratic attached entry
+    # must be retained, not projected to its prime coefficient.
+    nonprime_attached = matrix(R, B)
+    nonprime_attached[1, 3] += a*t
+    H_side, Z_side, side_fallback = complete_degree_bounded_row_hermite(
+        M, attached=nonprime_attached, progress=progress,
+        label="actual nonprime ATTACHED coefficient retains every original source value")
+    assert H_side == H and H_side.base_ring() is R and Z_side.base_ring() is R
+    assert Z_side == U*nonprime_attached
+    gate = side_fallback["exact_prime_subfield_descent"]
+    assert gate["applied"] is False and gate["first_nonprime_block"] == "attached"
+    assert gate["unchanged_original_field_backend_used"]
+    assert side_fallback["original_attached_sha256"] == polynomial_matrix_digest(nonprime_attached)
+    return dict(
+        status="exact_original_prime_subfield_and_both_quadratic_fallbacks_passed",
+        supplied_quadratic_field=field_description(k),
+        original_polynomial_ring_objects_returned=True,
+        all_original_attached_columns_and_transformation_returned=True,
+        original_input_and_output_hashes_retained=True,
+        actual_nonprime_left_coefficient_fell_back=True,
+        actual_nonprime_attached_coefficient_fell_back=True,
+        no_quadratic_coordinate_or_source_row_discarded=True,
+        whole_descent=descended, genuine_left_fallback=left_fallback,
+        genuine_attached_fallback=side_fallback)
+
+
 def main():
     raw = REQUEST.read_bytes()
     assert len(raw) <= 4096
     request = json.loads(raw)
     assert request == {
-        "schema":"rank2-original-bounded-hermite-api/v1",
+        "schema":"rank2-original-bounded-hermite-api/v2",
         "prime":29, "extension_degree":2, "modulus_ascending":[-2, 0, 1],
         "checks":["bounded-whole-hermite", "entire-attached-return",
+                  "exact-prime-subfield-descent-and-quadratic-fallback",
                   "existing-triangular-and-affine-interfaces", "full306-algorithm-fixture"],
         "original_geometry":False,
     }
@@ -178,6 +244,7 @@ def main():
     k = GF(request["prime"]**2, name="r942_api_a", modulus=modulus)
     assert k.gen()**2 == k(2)
     checked = direct_checks(k)
+    prime_descent = exact_prime_descent_checks(k)
     previous = [
         operation_module.operation_reduction_preflight(k, progress=progress),
         preimage_module.triangular_preimage_preflight(k, progress=progress),
@@ -190,6 +257,7 @@ def main():
         "run_attempt":os.environ["RANK2_RUN_ATTEMPT"],
         "manifest_sha256":digest(manifest), "image":IMAGE, "sage_version":SAGE_VERSION,
         "test_constants":field_description(k), "direct_checks":checked,
+        "exact_prime_descent_and_full_quadratic_fallback":prime_descent,
         "all_existing_module_preflights":previous,
         "all_source_ASTs_checked":True, "source_file_count":len(SOURCE_FILES),
         "original_maps_recomputed":False, "original_normalization_recomputed":False,

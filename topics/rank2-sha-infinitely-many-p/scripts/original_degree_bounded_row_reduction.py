@@ -13,10 +13,10 @@ if (os.environ.get("GITHUB_ACTIONS") != "true" or
 
 import hashlib
 import time
-from sage.all import matrix, vector
+from sage.all import matrix, vector, PolynomialRing
 from original_ys_divisor_ideal_tools import (
     canonical, digest, polynomial_digest, polynomial_matrix_digest,
-    field_description, _hermite_remainder_rows)
+    field_description, finite_field_coordinates, _hermite_remainder_rows)
 
 SOURCE_DEPENDENCIES = (
     "original_degree_bounded_row_reduction.py",
@@ -33,17 +33,103 @@ def _degree(row):
     return max((int(f.degree()) for f in row), default=-1)
 
 
+def _entire_prime_subfield_inputs(rows, attached):
+    """Attempt only exact coefficient descent of BOTH entire input blocks."""
+    R, k = rows.base_ring(), rows.base_ring().base_ring()
+    receipt = dict(
+        applied=False, original_constants=field_description(k),
+        left_coefficients_checked=0, attached_coefficients_checked=0,
+        no_coefficient_or_original_source_row_discarded=True,
+        original_constant_field_or_root_replaced=False)
+    p = int(k.characteristic())
+    if int(k.degree()) != 2 or int(k.cardinality()) != p**2:
+        receipt["reason"] = "caller coefficients are not a quadratic finite field"
+        return None, None, receipt
+    # The prime subfield of the CALLER'S actual field has its unique
+    # canonical embedding. No finite-field constructor or new root occurs.
+    fp = k.prime_subfield()
+    assert int(fp.cardinality()) == p and int(fp.degree()) == 1
+    assert k(fp.one()) == k.one()
+    S = PolynomialRing(fp, R.variable_name())
+    conversion = {}
+    converted = []
+    for block_name, block in (("left", rows), ("attached", attached)):
+        if block is None:
+            converted.append(None)
+            continue
+        assert block.base_ring() is R
+        entries = []
+        for row_index in range(block.nrows()):
+            for column_index in range(block.ncols()):
+                polynomial = block[row_index, column_index]
+                coefficients = []
+                for power, value in enumerate(polynomial.list()):
+                    receipt[block_name+"_coefficients_checked"] += 1
+                    if value not in conversion:
+                        coordinates = finite_field_coordinates(value, k)
+                        assert len(coordinates) == 2
+                        if coordinates[1] != 0 or value**p != value:
+                            receipt.update(
+                                reason="an actual "+block_name+" coefficient is outside the given prime subfield",
+                                first_nonprime_block=block_name,
+                                first_nonprime_position=[row_index, column_index, power],
+                                first_nonprime_coefficient_sha256=digest(coordinates))
+                            return None, None, receipt
+                        prime_value = fp(coordinates[0])
+                        assert k(prime_value) == value
+                        conversion[value] = prime_value
+                    prime_value = conversion[value]
+                    assert k(prime_value) == value
+                    coefficients.append(prime_value)
+                lowered = S(coefficients)
+                # Exact inverse conversion of EVERY original polynomial.
+                assert R([k(c) for c in lowered.list()]) == polynomial
+                entries.append(lowered)
+        lowered_block = matrix(S, block.nrows(), block.ncols(), entries)
+        assert lowered_block.nrows() == block.nrows()
+        assert lowered_block.ncols() == block.ncols()
+        converted.append(lowered_block)
+    assert len(converted) == 2 and converted[0] is not None
+    receipt.update(
+        applied=True, reason="both whole input blocks lie in the given prime subfield",
+        prime_subfield=field_description(fp),
+        canonical_embedding="prime subfield of the caller's unchanged constant field",
+        complete_original_polynomial_ring_variable=str(R.variable_name()),
+        entire_left_block_returned_before_descent=True,
+        entire_attached_block_returned_before_descent=attached is not None,
+        original_matrix_shapes_and_every_zero_row_preserved=True,
+        actual_prime_source_rows_sha256=polynomial_matrix_digest(converted[0]),
+        actual_prime_attached_sha256=(None if converted[1] is None else
+                                     polynomial_matrix_digest(converted[1])))
+    return converted[0], converted[1], receipt
+
+
 def complete_degree_bounded_row_hermite(rows, attached=None, progress=None,
                                         label="complete degree-bounded row module"):
     """Return the entire upper row HNF, attached transform, and certificate.
 
     For input degree D and module determinant degree delta, every LEFT
     entry during the algorithm has degree <= max(D, 2*delta+1).
+    R956 descends only when BOTH whole blocks have exact prime-subfield
+    coefficients, then returns through the same original embedding.
     Neither the source module nor any attached coordinate is projected out.
     The attached block is not subjected to a false identical degree bound:
     for square M and attached B its proven bound is
       max(D,2*delta+1)+(n-1)*D-delta+degree(B).
     """
+    started = time.monotonic()
+    original_ring = rows.base_ring()
+    original_field = original_ring.base_ring()
+    original_input_rows, original_input_attached = rows, attached
+    original_m, original_n = int(rows.nrows()), int(rows.ncols())
+    assert original_m >= original_n > 0
+    if attached is not None:
+        assert original_m == original_n
+        assert attached.base_ring() is original_ring and attached.nrows() == original_m
+    descended_rows, descended_attached, field_descent = _entire_prime_subfield_inputs(
+        rows, attached)
+    if field_descent["applied"]:
+        rows, attached = descended_rows, descended_attached
     R = rows.base_ring()
     m, n = int(rows.nrows()), int(rows.ncols())
     assert m >= n > 0
@@ -66,16 +152,20 @@ def complete_degree_bounded_row_hermite(rows, attached=None, progress=None,
     phase_records = []
     max_left_degree = input_degree
     max_attached_degree = attached_input_degree
-    started, last_report = time.monotonic(), time.monotonic()
+    last_report = time.monotonic()
     report("whole degree-bounded module start", label=label,
            original_rows=m, original_columns=n, input_degree=input_degree,
            attached_block=has_attached,
-           attached_input_degree=attached_input_degree)
+           attached_input_degree=attached_input_degree,
+           exact_prime_subfield_descent=field_descent)
 
     def record(kind, indices, coefficients=()):
         counts[kind] += 1
         stream.update(canonical(dict(kind=kind, indices=list(indices),
-            coefficients=[polynomial_digest(R(c)) for c in coefficients])).encode())
+            coefficients=[polynomial_digest(
+                R(c) if R is original_ring else original_ring([
+                    original_field(z) for z in R(c).list()]))
+                for c in coefficients])).encode())
         stream.update(b"\n")
 
     def swap(i, j):
@@ -317,10 +407,40 @@ def complete_degree_bounded_row_hermite(rows, attached=None, progress=None,
     # The reverse inclusion is checked for EVERY original generating row.
     assert _hermite_remainder_rows(original, H).is_zero()
     transformed = matrix(R, side) if has_attached else None
+    if field_descent["applied"]:
+        field_descent["native_prime_hermite_basis_sha256"] = polynomial_matrix_digest(H)
+        field_descent["native_prime_transformed_attached_sha256"] = (
+            None if transformed is None else polynomial_matrix_digest(transformed))
+        H = matrix(original_ring, H.nrows(), H.ncols(), [
+            original_ring([original_field(c) for c in value.list()]) for value in H.list()])
+        if transformed is not None:
+            transformed = matrix(original_ring, transformed.nrows(), transformed.ncols(), [
+                original_ring([original_field(c) for c in value.list()])
+                for value in transformed.list()])
+        determinant = original_ring([original_field(c) for c in determinant.list()])
+        assert H.base_ring() is original_ring and H.is_hermite()
+        assert all(H[j, j].leading_coefficient() == original_field.one() for j in range(n))
+        assert _hermite_remainder_rows(original_input_rows, H).is_zero()
+        if transformed is not None:
+            assert transformed.base_ring() is original_ring
+            assert transformed.nrows() == original_input_attached.nrows()
+            assert transformed.ncols() == original_input_attached.ncols()
+        field_descent.update(
+            exact_original_row_and_attached_orders_restored=True,
+            complete_Hermite_basis_returned_to_same_original_ring=True,
+            complete_attached_block_returned_to_same_original_ring=has_attached,
+            every_original_input_row_divides_by_whole_returned_Hermite_basis=True,
+            row_module_base_change_is_exact_by_flatness=True,
+            same_complete_unimodular_operations_on_both_blocks=True,
+            operation_stream_hash_uses_original_coefficient_field=True)
+    else:
+        assert R is original_ring and H.base_ring() is original_ring
+        assert transformed is None or transformed.base_ring() is original_ring
+        field_descent["unchanged_original_field_backend_used"] = True
     receipt = dict(
         method="complete unshifted Popov and recursive bounded single-column shifts",
         label=label, original_shape=[m, n], full_rank=n,
-        original_rows_sha256=polynomial_matrix_digest(original),
+        original_rows_sha256=polynomial_matrix_digest(original_input_rows),
         complete_hermite_basis_sha256=polynomial_matrix_digest(H),
         full_monic_determinant_sha256=polynomial_digest(determinant),
         determinant_degree=delta, original_entry_degree=input_degree,
@@ -338,11 +458,12 @@ def complete_degree_bounded_row_hermite(rows, attached=None, progress=None,
         both_polynomial_row_module_inclusions_verified=True,
         accumulated_unimodular_matrix_constructed=False,
         attached_block=has_attached,
-        original_attached_sha256=(polynomial_matrix_digest(original_attached)
+        original_attached_sha256=(polynomial_matrix_digest(original_input_attached)
                                  if has_attached else None),
         transformed_attached_sha256=(polynomial_matrix_digest(transformed)
                                     if has_attached else None),
         attached_block_receives_identical_complete_operations=has_attached,
         no_fraction_field_kernel_or_denominator_clearing_used=True,
+        exact_prime_subfield_descent=field_descent,
         elapsed_seconds=time.monotonic()-started)
     return H, transformed, receipt

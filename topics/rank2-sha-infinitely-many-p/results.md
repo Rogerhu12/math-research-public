@@ -23,6 +23,8 @@
 
 - [R955](results/R955-original-thick-miller-batch-unit-inverses.md)：同一完整非约化A/I内，总积为单位当且仅当每个原因子为单位；一次完整仿射原像逆加反向前缀返回全部原逆元。原ell5/7链精确5/7个非恒定因子，单位求解降为1，全部常数/垂直线/每条线及每个平方前缀/原辅助与全厚norm保持。未运行原306消费，不预记shadow或非零。
 
+- [R956](results/R956-original-prime-subfield-hermite-descent.md)：逐项认证完整LEFT和全部attached落在给定二次域的真实素域，忠实平坦及同一全块幺模操作保完整原k[t]行模；完整HNF/附加列/全部hash送回原环。原F的全324 R2/144核/所有M_bi及规范化MD确在Fp，MN的theta^-3尺度保留；任一真二次系数原算法完整回退。同一bounded函数对象，复用旧API三项真实域返回回归；原306执行未付。
+
 ## 当前几何计算入口
 
 [R942§11](results/R942-original-split-scalar-preimages-and-whole-module-elimination.md)已证明完整Popov与单列shift的全程多项式次数界，以及全部附加源的独立次数界。它修复单F v2的实际HNF瓶颈，公开小API与生产门分开登记；§13又付完整306 W基和全部厚ideal两图运输，两个独立小API实际成功；原四交/全部厚Norm/shadow没有预记PASS。
