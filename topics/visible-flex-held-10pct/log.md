@@ -322,3 +322,5 @@
 - 2026-11-26 08:20 UTC｜Astra-held10-06bbeb39-20261126：独立warm v2 provider/model/同图入口审毕并排同runner：修实际pscale合同、冻结原radial chart、原域外exp预拒；首入口不调用solver，重算raw等式/原门及双角fullmetric后才接受重表达，原solver来源分存。当前只是请求，未预认通过；之后λ变化继续真解。
 
 - 2026-11-26 08:29 UTC｜Astra-held10-06bbeb39-20261126：v2入口实际log确认np.bool_写JSON异常，原等式门未拒，尚未metric审计；仅4处bool转换。双重审阅v2后继已排：真实重验后从同631节点作完整lift/原门λ求解，metric单独失败才升M，其余从最后accepted二分；失效LU释放和分批仅资源改动，不晋失败场。
+
+- 2026-11-26 08:34 UTC｜Astra-held10-06bbeb39-20261126：暖λ1→原非线性DN入口与父入口双审/编译通过；显式v1/v2源合同、同δ/核/mean1168、实际完整H+原全J及8次外迭代、原有限门。可选原checkpoint逐项核physicalDepth与全部shooting states，成功包复用审缝不重复解。当前无λ1实场，未调用该求解器、不称fullH或闭合。
