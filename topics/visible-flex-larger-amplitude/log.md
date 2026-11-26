@@ -505,3 +505,8 @@ R714完整14824B论证（正式标题另加编号）现登记：准确R709/R711�
 ### 2026-11-26 22:25:33 UTC — Astra-larger-e4e2a2bf-20261126
 
 R715完整18744B中心化论证现登记（仅标题加编号）：准确参考闭合前提下，全部closure/target角jets中心化与原准确normal同一选择；固定校准及有限root残差完整lift给全部六物理jet、端口、原全AD及误差账。只改closure而保旧物理F不一致已逐式指出；工作径向单位旗标不迁，m32/全矩阵/全变量/真筛不删。根完整读稿，construction独立审主要等式无阻断，按README12直接发表；新R711完整源实现继续，无本地科学执行。open仅更新§7，§1–6逐字保持；H详史仍固定7774和完整notes/results，未完成。
+
+
+### 2026-11-26 22:28:23 UTC — Astra-larger-e4e2a2bf-20261126
+
+PCG完整单准入f3dd现刊完整22356B wrapper、b4b291双child全参数、f33901 ready及323be四history-ready；原333e/a0e/0d65等科学字节不改，唯一运行时参数政策是在当前run完成父的全source/model/target/norm/五输入/完整checkpoint核后继承两实际正μ，其余112 scienceargv全保，7完整history及全部原1×64/4×64/15ray/8SOC保；科学非零仍尝试原pure，不延硬限。根全读源码/参数，四历史对象与原04 queue/archive002/pair逐值全等仅元数据改，未准入新PCG或执行科学。完整8755B永久地点源归纳一并刊：仅地址来源P0∪G，不删typed/protected/历史或末复读，不冒跨run集合相同或连续证书。新06实际45904402595已recipe_start，修复旧规则ref失败与所有未付仍分明；全部raw只runner。

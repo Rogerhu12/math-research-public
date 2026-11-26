@@ -4,7 +4,7 @@
 
 ## 规则与完整目标
 
-最近规则核查：2026-11-26 22:26:31 UTC，真实pull/rebase至 `66378322dd43eed884374fed72b1d4d2fc9be2e8`，双README相对`dd090b58882b779861f66dce1a1183b256b73ea6`无差异，继续遵守全部规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
+最近规则核查：2026-11-26 22:28:23 UTC，真实pull/rebase至 `d0aa2823d8c36985acd3db63e64fb1fa16212e31`，双README相对`66378322dd43eed884374fed72b1d4d2fc9be2e8`无差异，继续遵守全部规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
 
 科学计算仅本公开仓库Actions；执行偏差见[早前记录](notes/2026-11-20-public-actions-execution-correction.md)及[四次大JSON整读纠正](notes/2026-11-26-large-file-connector-read-correction.md)。root唯一分支写者；结论即普通推，NFF立即rebase循环，不强推。每次pull核双README差异并遵新规，至少每小时，记commit。raw只scratch/runner，不入Git/Release/artifact；保完整小源/参数/run/SHA/紧凑结论。题≤200MB、单文件<5MB、MD<100KB、H<10KB、open<30KB。令牌仅瞬时CLI。终端失联与恢复/云API普通快进记录保7774固定H；旧scratch迁移未确认，不冒恢复。
 
@@ -25,7 +25,7 @@
 
 [02父46–48](notes/2026-11-26-actual-parent-interior-restoration-entry.md)/[49终界](notes/2026-11-26-actual-run02-cached-SO3-49-and-terminal-boundary.md)保完整旧边界；02终止、50未跑。04 actual40真实父51c8，41误key/42未起child/43trace及[最小完整修复](notes/2026-11-26-actual-run04-cached-SOC-source-role-index-repair.md)均保。
 
-[04实际44/45](notes/2026-11-26-run04-actual44-45-first-backtracked-SOC-accepted.md)与[46/47](notes/2026-11-26-run04-actual46-47-second-backtracked-SOC-accepted.md)全文保；[实际48/49第三次SOC](notes/2026-11-26-run04-actual48-49-third-backtracked-SOC-accepted.md)同892f/c4b2/μ.01由0c9a到a801/reportbf641，Phi .005037814/有限观察Gram算子范数max .0339045651/g−2.33774e−5。2SOC/2投影/1末复读，锚1/32、fallback1/64，全2235/2156重读；QP64仍未驻/Pg1.973998≫tol。新父/cache和六份全历史入[原完整pair](computations/resume-20261126-run04-after48-complete-pair-parameters.json)。[04终态](notes/2026-11-26-run04-terminal-job-with-admitted-pair-unreturned.md)：原50已实际启动，22:07API真见job/科学step取消，只有1–49完整返回；未据此断言无新地点或科学失败。原完整第四方向责任由06真实再生。 [八列PCG完整接线](notes/2026-11-26-current-SO3-eight-column-PCG-complete-source-integration.md)五全源a0e/333e/78f/6420/0d65已刊，当前8A+8A*、原μ²I/全部C/PhaseI和整SOC保；a801候选仅准备，无新运行或加速实证。
+[04实际44/45](notes/2026-11-26-run04-actual44-45-first-backtracked-SOC-accepted.md)与[46/47](notes/2026-11-26-run04-actual46-47-second-backtracked-SOC-accepted.md)全文保；[实际48/49第三次SOC](notes/2026-11-26-run04-actual48-49-third-backtracked-SOC-accepted.md)同892f/c4b2/μ.01由0c9a到a801/reportbf641，Phi .005037814/有限观察Gram算子范数max .0339045651/g−2.33774e−5。2SOC/2投影/1末复读，锚1/32、fallback1/64，全2235/2156重读；QP64仍未驻/Pg1.973998≫tol。新父/cache和六份全历史入[原完整pair](computations/resume-20261126-run04-after48-complete-pair-parameters.json)。[04终态](notes/2026-11-26-run04-terminal-job-with-admitted-pair-unreturned.md)：原50已实际启动，22:07API真见job/科学step取消，只有1–49完整返回；未据此断言无新地点或科学失败。原完整第四方向责任由06真实再生。 [八列PCG完整单准入](notes/2026-11-26-run06-complete-regeneration-and-current-PCG-request.md)f3dd全wrapper/全参数/四history-ready已刊，严格从06实际第四父继承两μ，保8A+8A*/全空间/原C/PhaseI/SOC及纯读；尚未准入或声称提速。
 
 旧deep/Haar/R690–695/误差链见固定H及results/notes，不迁证；01止77、旧03 stage7未知。
 
