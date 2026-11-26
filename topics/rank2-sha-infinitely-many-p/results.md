@@ -93,3 +93,6 @@
 
 
 - [R985](results/R985-original-full-heisenberg-companion-and-central-forcing.md)：原L11显式六中心与绝对sigma相位给完整Heisenberg伴随身份及全22边际生成；全S130的rank-one twirl把整个六张量分成同一Φ260的固定挠点译像和确定五伴随。完整Miller代数lift、原周期有限矩核和所有mixed cut转置已付，R978 old差给明确非零有限中央和。共同carry只在真实四输出推前后使用；H的特定whole lift先投原Z、再在其无极像上乘S并作原trace。translated中央不可免费赋rank2 canonical零，仍须消费实际非交换关系。
+
+
+- [R988](results/R988-level-twelve-k3-chow-bridge-and-original-lambda-input.md)：原Γ0(12)∩Γ1(3)的K3实际模型/六纤维/MW=Z/6与NS判别式−12给完整ψ0²，保导子2。真实Shioda–Inose商图和固定CM同源先给有限L上Chow逆；降K后，Kimura偶rank2的三反对称迹式使homologically-trivial误差平方零，明确修正逆为2B−BAB。张量E0及三η投影后准确返回原ψ0³η⁻¹(2)，全finite/wild角色不改；固定CM17图循环族的AJ/ordinary条件在S×E0与E0³间交换。未赋新循环非零，未把它等同旧canonical或原端点。
