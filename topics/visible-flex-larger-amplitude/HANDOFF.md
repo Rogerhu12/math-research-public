@@ -4,7 +4,7 @@
 
 ## 规则与完整目标
 
-最近规则核查：2026-11-26，真实pull/rebase至 `1efb0a680bd8b4b35e2314846ad494d3855662aa`，根及课题README相对f0548477无差异，已完整读授权及规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
+最近规则核查：2026-11-26，真实pull/rebase至 `e76fa29dcfb5e528fb08c35ff71c4813e1614a20`，根及课题README相对f0548477无差异，已完整读授权及规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
 
 科学计算仅本公开仓库Actions；早前本地偏差及13:00 UTC纠正见[执行记录](notes/2026-11-20-public-actions-execution-correction.md)。根README已授权必要修改/发布；root唯一分支写者；代理只scratch及未引用小源blob。每条结论普通commit/push；NFF立即pull --rebase循环再推，不强推。至少每小时pull，每次核双README差异/立即遵新规并记commit。raw只scratch/runner，不入Git/Release/artifact；只保完整小源/参数/run/SHA/紧凑结论。题≤200MB，MD<100KB，H<10KB，open<30KB。令牌只瞬时CLI，不写文件/提交/回复。
 
@@ -28,7 +28,7 @@ rebuild_a04_chain.py保60321451c/b4d2b98完整必要输入链，Python3.12.14/Nu
 
 run45762076394/1初源a4a535ee，只再生续算必要输入；旧末父/失败保上，不重宣或跨场继承。R683完整源已刊；子问题结束接open，不等确认。
 
-R684/R688旧mean与[旧方向归因](notes/2026-11-26-actual-mean-ray-and-all-row-SOC-attribution.md)完整保[81150 H](https://github.com/Rogerhu12/math-research-public/blob/81150e4539f03217bace0c8607bba2d4b658ee9f/topics/visible-flex-larger-amplitude/HANDOFF.md)。[真实61/64](notes/2026-11-26-actual-verified-base-fixed-g-face-direction.md)旧g返954fd435，max.01318391/256未驻点；投影可行但SOC真拒因未列，旧43内层trace仍未读；不迁旧证书。
+R684/R688旧mean及真实61/64全部保[81150 H](https://github.com/Rogerhu12/math-research-public/blob/81150e4539f03217bace0c8607bba2d4b658ee9f/topics/visible-flex-larger-amplitude/HANDOFF.md)：954fd435/旧g max.01318391，QP未驻点，SOC真拒因未列，旧43内层trace仍未读；不迁旧证书。
 
 R686[同场first/K/四标记](notes/2026-11-26-same-field-batched-curvature-geometry-consumer.md)完整源已刊，六jet/全尾/全角保留、K目标由实际D推；新全K未付，不复算旧取消场。
 
@@ -42,7 +42,7 @@ R691[末端相容/Haar角矩](results/R691-frozen-physical-mean-endjet-and-mater
 
 R692[完整旋转连接](results/R692-nonlinear-rotation-connection-and-metric-error.md)已证：经典连接类全MC/周期势、帽和闭圈、无1/c双积分Gram界及全J/J*；C²仅端口，不推所有弱类或非圆存在。[完整SO3六源](notes/2026-11-26-complete-closed-SO3-meridian-solver.md)234a/9cf5/9b77/32bd已刊并排run02：从当次真实deep父建立冻结T0/材料图，所有旋转jets/free core/H、原正权7377×全2048、原192+amp及全部binary永久点保；hΔ闭合进入全部F/J/J*/几何，不冒E恒1。新jet-sum正范数/μ.01，最多4×64共slack恢复后1×16真实metric方向，slack不冒真可行；完整求值/root/归一化连续费用未付，原场证书不继承。
 
-环境更换/部分克隆/未刊源完整字节恢复见log及113e；不冒已刊或新科学。
+[R693完整闭合分支](results/R693-so3-radial-closure-branches-and-error-interface.md)已证：准确E=1给零Δ或明确切向反射支；近似分支/全六jet积分误差条件齐，未认证。首源未存closure汇总，需同场实际读；继续零Δ端点修正和真实求解。环境更换/恢复见log及113e。
 
 <!-- visible-larger-parallel-02:start -->
 并行公开Actions02：[run 45800076687/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45800076687)；[实际记录](notes/2026-11-26-public-actions-45800076687-1.md)。阶段`8d`/running；已返13，exit=未返。

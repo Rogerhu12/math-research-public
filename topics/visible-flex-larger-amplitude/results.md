@@ -319,3 +319,5 @@
 - [R691：冻结有限物理均值的末端相容与真实材料Haar角矩](results/R691-frozen-physical-mean-endjet-and-material-Haar.md) — 完整三阶jet必要条件、finite/continuous physical测度与材料Haar之别、同一交叉向量的精确积分分部、P/Q/ell/b完整矩与alias尾界、全自由core的moving导数和fixed目标责任。只修一条必要相容，不断言任意均值可实现、不设新冻结门、不排除C²精化极限；实际完整求解继续。
 
 - [R692：完整非线性旋转连接、闭圈重建与无1/c的真实Gram误差界](results/R692-nonlinear-rotation-connection-and-metric-error.md) — 完整Maurer–Cartan/周期势/非线性Gauss及全变分、经典连接类的固定帽完整性、双积分控制真实相对Gram证明；中圈反射/非平凡性另付，含镜反例与单谐波kernel圆窄阻断。不推所有C²弱类、非圆解存在或新数值，继续全谱构造。
+
+- [R693：SO3闭合lift的精确径向分支与完整积分误差接口](results/R693-so3-radial-closure-branches-and-error-interface.md) — 完整证明径向E=1时闭合差为零或明确切向分支，非零支为逐材料角的meridian反射；给正确端段拆分的近似分支界、完整六jet积分/隐式root/归一化误差及分段midpoint兜底。只为下一实际构造给解析条件，不推存在/不可能或连续证书；首版report缺closure汇总不能捏造，求解继续。
