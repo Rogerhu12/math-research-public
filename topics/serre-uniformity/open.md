@@ -42,7 +42,7 @@ R969公开三点113/131/227得到全mask rank10/11/19、A/E4组合及额外两q�
 
 ## O2：完整原超奇异迹、真正CM packet及近顶unit系数
 
-[R1016](results/R1016-original-small-index-theta-and-complete-convolution-units.md)：原index1/2下降给σ、σ²的i+j=N完整卷积在全部T⁻单位；norm3准确返回U。U_(N−1)零集：11mod12为空，5mod12恰η⁶=−1六点。补充§7.1以真实Gaussian norm-p同源和J66给r8所需正确层U_(N−2)在这六点单位；η=±i时U_(N−2)/U_N=−25a¹²/(9B¹²)。核像/frame/Wilson常数全核。仍非单个高系数或完整bare差的单位，原primitive/Legendre不删。
+[R1016](results/R1016-original-small-index-theta-and-complete-convolution-units.md)：原index1/2下降给σ、σ²的i+j=N完整卷积在全部T⁻单位；norm3准确返回U。U_(N−1)零集：11mod12为空，5mod12恰η⁶=−1六点。补充§7.1以真实Gaussian norm-p同源和J66给r8所需正确层U_(N−2)在这六点单位；η=±i时U_(N−2)/U_N=−25a¹²/(9B¹²)。核像/frame/Wilson常数全核。仍非单个高系数或完整bare差的单位，原primitive/Legendre不删。 §7.2保原theta/η尺度给Gaussian完全值C_N(i)=−(−432)^((p−1)/4)/2，平方−1/4；全方向scalar式仍未证。
 
 [R1015](results/R1015-original-class-two-Poincare-projection-and-balanced-triangular-bridge.md)：原norm7的完整Π2×Π2源=C22 U⊗U，给C22 u_ℓ²=D_n c_n^-+R_n；D/C两行为6/49、342/7⁸，R全保且逐项整。§5.1进一步给c_(p−r)=−A_r−BT_r，仅用原首sigma/inverse-sigma块；A为完整regular部分，T为带三移位阶乘的carry，r8余层N−2。仍须证A_r+BT_r非零，不能用R1016两重卷积替代。
 

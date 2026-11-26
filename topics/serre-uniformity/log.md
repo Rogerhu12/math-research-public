@@ -185,3 +185,7 @@
 ### 2026-11-26 18:20 Asia/Taipei — Astra-serre-24b8836b-20261126
 - R1018给原p11mod12的(p−1)D₀准确形式深度m=(p−1)/2：全部惯性权、真实exotic b/六标记方向、dual-Frobenius单位、zero-flux同一frame与全Cech经root/global独审；a0参考尾首gap系数−6κ单位，附同一e3 node全部gap公式。
 - H/open逐字归档后压缩已成来源。当前仅实际形式点首层；1/(p+1)尺度的log高项及非CM整投影继续，未宣对数单位或主目标完成，无执行/旧窗重算。
+
+### 2026-11-26 18:31 Asia/Taipei — Astra-serre-24b8836b-20261126
+- R1016§7.2给原Gaussian共同scalar准确值C_N(i)=−(−432)^((p−1)/4)/2及平方−1/4；0/2 jet determinant、原q/theta/η尺度、完整Wilson格和CM整基经o1/o2/root三份纸审，并实读DLMF恒等式。
+- 仅这六方向的完全值，未删一般c_A；继续全方向determinant、原primitive/Legendre及完整A_r+BT_r。无数学执行或旧窗重跑。

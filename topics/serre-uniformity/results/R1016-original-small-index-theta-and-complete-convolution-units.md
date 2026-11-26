@@ -453,6 +453,161 @@ J_{6,6}(\Omega_{\gamma,2}w_{0,2})
 root 与 o2_high_coefficient 已独立纸面核准两个 Wilson 符号、
 常数 \(2025,25/9\)、核像方向及首-\(p\) frame 边界；无数值执行。
 
+### 7.2 Gaussian 方向上的原 scalar 完全值
+
+仍设 \(p\equiv5\pmod{12}\)，令 \(\iota^2=-1\) 于
+\(\mathbf F_p\)。本节不仅给非零，而且固定原共同 scalar：
+\[
+\boxed{\quad
+\mathcal C_N(\iota)
+=-\frac12(-432)^{(p-1)/4},\qquad
+\mathcal C_N(\iota)^2=-\frac14.
+\quad}
+\tag{1016.G1}
+\]
+它也给全部 \(\eta^6=-1\) 的相同值。
+在 §7.1 的真实 Gaussian norm-\(p\) 矩阵中，
+\(c_A=\mathcal C_N(\iota)\)；没有将 \(c_A\) 归一成任意单位。
+
+先沿用 [R812 的原 q 模型](R812-original-apolar-source-and-Gaussian-Frobenius-low-moment.md)
+§§3、5、6.1，取
+\[
+d_0^{12}=-432,\quad
+\lambda=d_0\eta_D^{-2},\quad t=\lambda z,
+\]
+其中 \(\eta_D\) 是 Dedekind eta，区别于本篇的方向变量。
+定义实际 index-two theta 基
+\[
+\Theta_r(t,q)=\sum_{a\equiv r\ (2)}q^{a^2/4}e^{at},
+\qquad
+\Psi_r(z)=\eta_D^{-1}e^{-E_2t^2/12}\Theta_r(t,q),
+\quad r=0,1,
+\]
+以及同一个原代数变换矩阵
+\[
+\Phi_2=\binom{V}{\mathsf X}
+ =U_2\binom{\Psi_0}{\Psi_1}.
+\tag{1016.G2}
+\]
+该 q 规范由原 \(\sigma'(0)=1\)、没有额外 Gaussian 的 sigma
+确定，不能删除 \(U_2\) 的共同尺度。
+
+**行列式的准确规范。** Jacobi 恒等式给
+\[
+\Theta_0(0)\Theta_1''(0)-\Theta_1(0)\Theta_0''(0)
+ =2\eta_D^6.
+\]
+可直接核常数：将
+[Jacobi 平方恒等式](https://dlmf.nist.gov/20.7.E4)
+在零点二次微分，再用
+[导数乘积式](https://dlmf.nist.gov/20.4.E6)，得到
+\(\theta_3''/\theta_3-\theta_2''/\theta_2=\theta_4^4\)。
+本节 \(\Theta_0(t)=\theta_3(-it,q)\)、
+\(\Theta_1(t)=\theta_2(-it,q)\)，故其 Wronskian 为
+\(\theta_2\theta_3\theta_4^4=2\eta_D^6\)，最后等式直接由三个
+Jacobi 乘积相乘得到。
+原 \(\Phi_2\) 的零、二阶导数矩阵行列式为 \(-2\)，而
+\(\Psi\) 的相同行列式为 \(2\lambda^2\eta_D^4=2d_0^2\)。
+所以
+\[
+\boxed{\quad\det U_2=-d_0^{-2}.\quad}
+\tag{1016.G3}
+\]
+
+**保完整 first-\(p\) 频率和。** 取
+\[
+\mathscr B_2=[z^{p-1}]\Phi_2(z)\Phi_2(\iota z)^{\mathsf T}.
+\]
+两个 index-two Gaussian 精确抵消。
+这里没有 R812 使用 \(L^2,L^3\) 时的五个缺端项，
+因为当前只是读取未微分乘积的完整 \(p-1\) 系数。
+Wilson 给每对整数频率的系数
+\[
+-\eta_D^{-2}\lambda^{p-1}(a+\iota b)^{p-1}.
+\]
+把该幂写成 \(1-1_{\{a+\iota b=0\bmod p\}}\)。
+非格点一项在原基中为
+\(-\lambda^{p-1}\Phi_2(0)\Phi_2(0)^{\mathsf T}\)，其
+\(VV\) 条目恒为零，因为 \(V(0)=0\)。
+
+另一项用真正 Gaussian 理想重新索引。
+选择 \(p=m_0^2+n_0^2\)、\(m_0+\iota n_0=0\bmod p\)，
+写 \(a=m_0c-n_0d,\ b=n_0c+m_0d\)。
+二次频率变为 \(p(c^2+d^2)\)。
+模二的矩阵只有恒等或两轴交换；作用于同一个 theta-value
+外积时两者相同。因此零指标格给的正是该外积的 Frobenius，
+没有额外排列、Gauss scalar 或丢失的半周期。
+
+令
+\[
+M_2=U_2(U_2^{(p)})^{-1},\qquad v_0=\Phi_2(0)=\binom01.
+\]
+所有 eta/lambda 幂的比准确为
+\(\lambda^{p-1}\eta_D^{2p-2}=d_0^{p-1}\)，所以在原
+\(VV\) 条目有
+\[
+-\mathcal C_N(\iota)
+ =d_0^{p-1}(M_2)_{V,\mathsf X}^{\,2}.
+\tag{1016.G4}
+\]
+左侧的负号也可直接从
+\(V(\iota z)=-z^2\sum a_j(-1)^jz^{6j}\) 核准；
+\(N\) 为偶数，所以读数恰是 \(-\mathcal C_N(\iota)\)。
+
+**CM 处真实 Frobenius 矩阵。** 取 \(r=\sqrt3\)、\(e^3=1\)。
+原半周期作用在 \(\Phi_2\) 列基上的 row 矩阵为
+\[
+H_e=\frac1r
+ \begin{pmatrix}-1&e^{-1}\\2e&1\end{pmatrix}.
+\tag{1016.G5}
+\]
+它由实际 multiplier
+\((x-e)/(er)\) 和 R1017 (1017.8) 的加法式得到。
+标准 level-two theta 矩阵的条目在 \(\mu_4\) 中；
+因 \(p\equiv1\pmod4\)，其 Frobenius 不变。
+由 \(H_eU_2=U_2D_e\) 及其 Frobenius 式，得到
+\[
+M_2H_e^{(p)}=H_eM_2.
+\]
+而 \(\sum_eH_e=\operatorname{diag}(-r,r)\)，在当前同余类
+\(r^p=-r\)。因此 \(M_2\) 反对角。
+再用 \(e=1\) 的完整矩阵，得
+\[
+M_2=\begin{pmatrix}0&\mu\\-2\mu&0\end{pmatrix}.
+\]
+由 (1016.G3)，
+\[
+2\mu^2=\det M_2=d_0^{2(p-1)}.
+\]
+代入 (1016.G4)，得到
+\(\mathcal C_N(\iota)=-d_0^{3(p-1)}/2\)，即 (1016.G1) 的第一式。
+再用
+\((-432/p)=(-3/p)=-1\)，得到其平方为 \(-1/4\)。
+
+**实际 CM 评价的整性。** 此处未把 \(\lambda\)、q 参数或完整
+非整 sigma 当作 supersingular 单位。
+如 R812 §6.1，先把 (1016.G2) 代数化为 level-two theta
+变换和行列式规范，再评价。这个小 index 情形可直接排除所有
+\(p>3\) 的坏分母：在 (1016.G5) 中，固定 \(i=(\zeta-\zeta^2)/r\)，可取
+\[
+w_+=(1,1+r)^{\mathsf T},\qquad
+w_-=H_\zeta w_+
+=-\frac{(1+r)(1+i)}2(1,1-r)^{\mathsf T}.
+\]
+该基行列式为 \(r(1+r)(1+i)\)，仅在二、三处可能不是单位。
+在与原实半周期及 \(\zeta\) 半周期一致的标记下，标准 theta 基
+相对于上述 Heisenberg 基只带固定 \(\mu_4\) 单位相位及一个共同尺度；
+该共同尺度的平方再由 (1016.G3) 固定为单位。
+因此 \(U_2,U_2^{-1},M_2\) 在全部所述素数均可合法约化。
+整个 apolar 输入只用各轴次数 \(<p\) 的已证整截断。
+
+o1_theta、o2_high_coefficient 与 root 分别核准了本节全部尺度、
+原 theta Wronskian、完整格指标、Wilson 符号、row-action、
+实际 CM 整性和共同 scalar；无数值执行。
+本节仅断言这六个 Gaussian 方向的完全值；
+全方向的共同 scalar 平方式仍需独立证明，
+也未从此推出原 bare \(A_r+BT_r\) 非零或 primitive/Legendre 同标签单位。
+
 ## 8. 对原问题的准确适用范围
 
 本篇确实给出了同一个原 sigma 源的、对全部 \(p\ge41\) 的非零结论，
