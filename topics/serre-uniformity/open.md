@@ -24,7 +24,7 @@ R969公开三点113/131/227得到全mask rank10/11/19、A/E4组合及额外两q�
 
 [R1006](results/R1006-end-column-linear-cyclic-dimension-and-filtered-nonstability.md)：固定Eichler源在q^p前精确约化到原端列；完整Fuchs方程/有理无穷远指数、Jacobi带宽和固定Taylor子式证明端列G循环维数≥cp。与原本原列数结合，得一整无限允许素数等差族原V不G稳定。故全p稳定路线关闭；原mark与特定A/E4包含未否，继续它们。
 
-[R1009](results/R1009-end-column-order-four-CM-jet-bound.md)：原端列P_p在p≥41、p5mod6且p∤8093时，粗CM消失阶≤4。真实十步方程经q^p精度/次数界转成固定PF非齐次方程，五个实际局部源输出的Taylor矩阵准确三角化，最后主项3⁴·8093/(2²⁰·25·11)；因此某j≤4的G^jP_p标记非零。该四阶在局部源中可达到，不决定真实零阶mark；5∤p+1时端列保留，继续证明原筛选列的真实有限CM来源，不要求全V稳定。
+[R1009](results/R1009-end-column-order-four-CM-jet-bound.md)：原端列P_p在全部p≥41、p5mod6时，粗CM消失阶≤4；8093由旧R706的g_N单位与R995首导式关闭，无重算。真实十步方程经q^p精度/次数界转成固定PF非齐次方程，五个实际局部源输出的Taylor矩阵准确三角化，最后主项3⁴·8093/(2²⁰·25·11)；因此某j≤4的G^jP_p标记非零。该四阶在局部源中可达到，不决定真实零阶mark；5∤p+1时端列保留，继续证明原筛选列的真实有限CM来源，不要求全V稳定。
 
 [R995](results/R995-original-mixed-source-for-the-first-coarse-CM-normal-jet.md)：原E−/Y−864、K=G⊗H+6F⊗Y_s、∇=∂−6ζ下，Π4DJ=Π4D²J=0使完整D³(∇²J)的两个中间Leibniz块真消；实际三支为G‴/216⊗𝒜+12uF′⊗(3𝑀−12G)+F⊗(12𝑀−144G+6ℛ)。复用旧MH3–4热式，全部P1/P2/P3与216P1P2保留，𝒜=∇²H‴，ζ修正不消G‴支。Ψ_ij首项=(a+1)(a+2)(a+3)g_(i+1)𝒜_j/216；原G(Z)mark=(25Z+Ψ)/144，E−正号/原mask/尺度不换。两个实际Taylor阶≤p−4,p−5、ζ权≤p−2，均整。root/literature逐式独审；新项尚无原retained关系，不冒G稳定或同h。
 
