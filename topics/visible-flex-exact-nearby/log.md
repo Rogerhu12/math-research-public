@@ -388,3 +388,8 @@ positive推L1–25及pure13580B/2c5002f9，global整篇/整源独审；root再�
 ## 2026-11-26 真实物理58／224／32阶段入口
 
 会话visible-exact-astra-198c63d-20261126。补完整低输出后的实际scalar owner/worker/manifest生成器，明确R142六新目标+旧Green前缀准入，weighted高图单独绑定，不冒旧GH4。每阶段保存读回后才可接下一阶段，目标完整分支和224/32顺序已核；旧阶段仅恢复保存记录，不重复数学。已有失败前缀路由ready=false，未造manifest或数值；新科学待低逆真实通过。
+
+
+## 2026-11-26 R144：外独立mean与腰mean的完整等价
+
+会话visible-exact-astra-198c63d-20261126。quarter-SO3 trace对C常数的严格单调给局部零集换row；另证位置闭合、单frame/C²接帽，场外bulk/边界/全部jump与真解row变换全保，aR^-2费用不省。最终amplitude仅输出、第四Robin仍在regular，true phase/ν不删。05:48 UTC执行环境失联后按根规8改用GitHub小文本API继续研究与提交，两README已比较无变；公开R142仍在运行。下一步实际mean消元、负窗源及不同二次帽预算。

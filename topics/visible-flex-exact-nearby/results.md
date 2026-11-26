@@ -10,6 +10,8 @@
 
 ## 新增结论
 
+- [R144：四重holonomy把外独立均值转为腰均值](results/R144-fourfold-holonomy-transfers-outer-mean-to-waist.md)（2026-11-26，已证明）：明确邻域内quarter trace严格单调，外Cmean等价m0=−a0；位置平移闭合独立证明，场外所有缺陷/jump与真解三角row变换完整保留。新BVP存在性、实际dual费用、true phase/ν兼容仍待。
+
 - [真实物理58／224／32执行入口](notes/2026-11-26-physical-scalar-execution.md)（2026-11-26）：显式接受R142六新目标及原Green前缀，已成阶段仅读，完整前置成功才生成gate/ports/wpn入口；实际输出尚待，不生成占位数值。
 
 - [R143实际相关体预算](results/R143-supplement-actual-correlated-body-budget.md)：45762052058/1完整4651格六球成功；Ccorr<17.809、wE<19.745、aEE<.641002、aEB<.555960，body三门true，最优必要upper约.0378703仅未排；条件allow lower>555.584，真实根费仍待。
