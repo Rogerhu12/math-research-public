@@ -6,12 +6,12 @@
 
 连通闭C²嵌入、C²连续族；H闭、有内点且diamH≥.2D，整像δhold≥.1D、含反射δE>0，全时reach≥.03D。固定完整g/物理数据/时间范围加密到完整metric≤1e−6并持续下降。必须实际闭合和共用Cartesian两jet；λ<1不提供准确圆弧H。
 
-- 公共已完整读规则并真实pull：`369a6637d679f2b33cbaba22eadf4609a203862a`；私有根README/QUEUE接手登记已推 `2f68946f2fa3e192a291c7c1393231af1a89953e`。每次pull核双README差异，至少每小时一次。root独占git，逐结论push，NFF立即pull --rebase再推，禁force；令牌只命令行。
+- 公共已完整读规则并真实pull：`770d5f283765ae0eab14e30ca8edbed61e64a160`；私有根README/QUEUE接手登记已推 `2f68946f2fa3e192a291c7c1393231af1a89953e`。每次pull核双README差异，至少每小时一次。root独占git，逐结论push，NFF立即pull --rebase再推，禁force；令牌只命令行。
 - 工作树 `/tmp/held10-astra-06bbeb395471-public2`；原/workspace盘满，不删他人文件。旧1b6d88ec scratch不存在；54314/45287/79634最终状态仍未知。详细[本次接手/来源](notes/2026-11-26-resume-and-current-sources.md)。
 - 70份精确历史源码已恢复；M24端口/角图/tail参数/native均与旧SHA逐字相同。[可搬迁恢复入口](notes/2026-11-26-tail-source-recovery.md)。恢复仅工程输入，不作为新数学结果。
 - 直接原控制冷恢复818/418节点均exit137；batch8恢复亦被SIGKILL，最后只到Jac开始，未到LU、无accepted raw。不能说数学失败。最后Jac输入曾保存为未接受初猜；05:51 UTC共享环境重置后本地副本已丢，不能继续假设存在。
 - 第四次恢复也已SIGKILL（44.48s，peak270084KiB），仍无Jac返回、无LU；不猜原因、不再本地重复。公开[run45763361623](https://github.com/Rogerhu12/math-research-public/actions/runs/45763361623)恢复步骤已实际成功，job139718340526正在原M24/768/401线性DN恢复；最近result只含初始solver_success:false，未有raw_return，不能误判失败或通过。保场后接fullH的已编译入口见[说明](notes/2026-11-26-live-recovery-continuation.md)。
-- 05:51 UTC共享环境失联后/tmp重置；重新部分克隆到public2，远端R63等已推成果保留。尚未推的cut primitive细化、本地fixed runner及mean兼容note需重建；旧临时SHA不冒充新文件。公共runner和其场数据未受该本地重置影响。
+- 05:51 UTC共享环境失联后/tmp重置；重新部分克隆到public2，远端R63等已推成果保留。临时源按保留推导重建，R64已绑定新源实跑；fixed runner及mean接口按各自当前记录恢复，旧临时SHA不冒充新文件。公共runner和其场数据未受该本地重置影响。
 - 根§12优先真实数学/求解，§15可再生数组不入Git/Release/artifacts；只存源/参数/命令/hash/小标量。H<10KB、单MD<100KB、目录<200MB，不写根LOG。
 
 ## 新结论与当前三路
@@ -25,14 +25,14 @@
 
 ## 必须复用的前会话成果
 
-完整旧状态和细节索引见[2026-11-20最后H](https://github.com/Rogerhu12/math-research-public/blob/f0548477576caa2373d1626227a284ccfa9767d0/topics/visible-flex-held-10pct/HANDOFF.md)。具体note优先；R1--R62和已登记失败不重跑。
+完整旧状态和细节索引见[2026-11-20最后H](https://github.com/Rogerhu12/math-research-public/blob/f0548477576caa2373d1626227a284ccfa9767d0/topics/visible-flex-held-10pct/HANDOFF.md)。具体note优先；R1--R64和已登记失败不重跑。
 
 - 新R55多段profile原mode3线性根δ=.06414432506418023；新g q=.006→.06已过，宽窗S=.5/b=.2/k=.2/τ1。原M24 λ.002 linearDN实场631点/metric6.482415924575457e−7/BC3.72e−16、δ=.06413464104697915，原mean1168/GL6。mean512 proxy不是同图。
 - 原M24 fullH chord3只确认.25和.5；.5真实残差9.47489311e−10、1153×48 finite；.75及外迭代最终未知。唯一full-harmonic初猜probe比原uniform差1.674804倍，勿重试。见[.25与命令](notes/2026-11-20-m3-m24-original-warm025-and-chord-continuation.md)、[.5](notes/2026-11-20-m3-m24-chord-warm050.md)。
 - 原λ.004/M24 metric1.53303e−6未门；升M32 λ.004 metric7.604677e−7、λ.008 metric7.844246e−7过，mean1552。δ/c为设计未知；λ.016旧终态未知。[M32/.008](notes/2026-11-20-m3-newg-lambda0008-m32-accepted.md)。
 - R54横向圆弧H允许柱长ℓ≤.01；R55宽盒若实际全图D0≤2.68/K≤12.3/support≥.087，则D≤2.69、reach/D>.03022335、H径比>.2006459、m3held>.1097823。[条件窗](notes/2026-11-20-soft-start-wide-design-box.md)。不是已实现比例。R55原短ramp障碍/R57中间k=.45障碍不排所有C²；最终k=.2另有首段保护窗预算。
 - R58真实4.625背景h<.025835/w≤.41/K≤8，z_b∈[.1,1.28]时尺寸/support预算已付。x图二阶有跳，物理R图才能共C²；原局部G16/α积分层已付，IEEE和新非旋转场不自动通过。
-- R60原M24显式C²桥（共同Hermite/真primitive/mean1168）：全角全径向metric<9.3e−7、半径<1.245/support>.3986798571/K<8.367444；统一目标g的末.001修正旧界<9.301e−7。同prefix真高度z0∈[.44631325,.47839692]。不能把旧场界搬到新trueDN场。
+- R60原M24显式C²桥（共同Hermite/真primitive/mean1168）：全角全径向metric<9.3e−7、半径<1.245/support>.3986798571/K<8.367444；统一目标g的末.001修正旧界<9.301e−7。同prefix真高度z0∈[.44631325,.47839692]。R64直接primitive给A−Rc约2.2575781683e−17且非零，同一目标修补后metric<9.300000001512e−7；新源已实跑，停止继续磨该微小项。不能把旧场界搬到新trueDN场。
 - R61中央L=.001显式C²入口修补，metric≤8.19863e−7/K≤2.18421/半径<1.14/support>.504。原prefix--bridge 219个Yjet和3个ejet精确相等，同mean1168/真高度，不需patch。
 - R62原M24完整前缀真core和桥：1065闭径向区间×4672角盒、metric≤9.695184e−7/K≤9.649812、未决0。合R61为完整开放连接器，不是fullH或闭族。原core积分/反函数/Γ3/Γ4已付，勿重铺盒。
 - 原.25真实尾已付stage0/127/128/143/144和整cell7共R结点图；cell7的144段metric≤4.885242e−25/K<8.001、143内缝及deep锚共用。[整cell7](notes/2026-11-20-warm025-shared-r-cell7.md)。深C²圆领metric<3.772e−30/K<8.001并接R58平盘。余尾/实际fullH尚欠，不重复已付部分。

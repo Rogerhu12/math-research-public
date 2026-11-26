@@ -133,3 +133,7 @@ R55补充：[较宽设计盒与条件完整D≤2.69](notes/2026-11-20-soft-start
 ## R63. 固定目标度量与作为未知解的核心
 
 [完整证明](results/R63-fixed-metric-and-solution-core-variables.md)。连续Frenet方程给g=ds²+aδ²dθ²，单位速入口q/c不进入g；在同一加权ℓ¹₄空间上严格定义R53圆化、核C²连续性及N无关完整BVP。规定所有有限入口系数是更强问题；新fixed-g序列仍必须保全部物理输入并实际核非零同一极限核/全场C²收敛。未有新BVP或10%完成。
+
+## R64. 同一 M24 真桥的末端原函数及固定目标界收紧
+
+[完整证明](results/R64-literal-bridge-cut-primitive-and-fixed-target-bound.md)。精确有理Taylor积分给实际A−binary(.3)∈[2.2575781682669222,2.2575781682669225]e−17，严格非零；同一个已定义末.001目标半径修补的0/1/2界收紧至2.25913e−17/1.12957e−13/4.51981e−10，原R60同图转到同g后metric<9.300000001512e−7。不改图/g/mean1168，不重跑桥场，不涉及fullH或λ1。

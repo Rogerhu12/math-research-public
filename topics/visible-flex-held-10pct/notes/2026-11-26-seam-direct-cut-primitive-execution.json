@@ -1,0 +1,56 @@
+{
+  "status": "direct_literal_cut_primitive_enclosed",
+  "scope": "Same original R60 map and already defined target radius patch; only its bounds are sharpened.",
+  "source_sha256": "ac9c07f3022f3b271a873acad100dc779f421d44fe1397ccd75612597ac8b7a1",
+  "input_record_sha256": "3e2c62be58d9f5dfaa2f19b26e2745f2e424c9115b350e9a33785e44e4c214d2",
+  "original_run_sha256": "c44b6fd2fbb13cc9ce0451cc6ab1d3c06521de0622de27190bde94c4c550462a",
+  "original_ShortBridge_source_sha256": "7e00a3336a302ba94c751c09e6f75749d6973c86605269538c8f0b44c60779b4",
+  "degree": 40,
+  "terminal_extension_used": true,
+  "target_patch_0_1_2_upper": [
+    2.259125465362424e-17,
+    1.1295627326812119e-13,
+    4.5198097675145096e-10
+  ],
+  "same_target_complete_bridge_metric_upper": 9.300000001511123e-07,
+  "map_modified": false,
+  "target_metric_modified": false,
+  "mean_rule_modified": false,
+  "tail_attached": false,
+  "full_H_certified": false,
+  "nonlinear_solves": 0,
+  "core_evaluations": 0,
+  "seconds": 0.06675413399352692,
+  "command": [
+    "python",
+    "topics/visible-flex-held-10pct/scripts/resume_20261126/seam_bridge_endpoint_primitive.py",
+    "--record",
+    "topics/visible-flex-held-10pct/notes/2026-11-20-short-bridge-gl64-jet-execution.json",
+    "--out",
+    "/tmp/held10-seam-rebuilt/recorded-m24-cut-primitive-rebuilt.json"
+  ],
+  "execution_exit_code": 0,
+  "output_sha256": "fc8537759a415980b92935d6dbf79608376f27e18f1947e3c74ea5cb4a80a1c5",
+  "output_bytes": 60076,
+  "actual_radius_minus_cut": {
+    "lower": 2.2575781682669222e-17,
+    "upper": 2.2575781682669225e-17
+  },
+  "actual_radius_interval_width_upper": 1.1149388319468693e-42,
+  "target_minus_actual_jets": [
+    {
+      "lower": -2.2575781682669225e-17,
+      "upper": -2.2575781682669222e-17
+    },
+    {
+      "lower": -3.8393935033519557e-17,
+      "upper": -3.839393503351955e-17
+    },
+    {
+      "lower": -2.307938832091436e-15,
+      "upper": -2.3079388320914355e-15
+    }
+  ],
+  "rebuilt_after_tmp_reset": true,
+  "full_rational_output_in_git": false
+}
