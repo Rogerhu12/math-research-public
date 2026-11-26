@@ -6,6 +6,10 @@
 
 截至R967的前版索引逐字保存在[完整索引归档](results-archive-2026-11-20-before-R968.md)，内接R833前索引及更早全部证明。相对链接保持同目录。归档内保留R808–900真实原高度/函数/Norm/执行入口及完成回执；历史“待计算”以同项较晚的实际certified结果为准，不重做已成结论。固定p41全129盘已由[R707](results/R707-complete-level41-rational-point-classification.md)关闭；一般完整正规化子及全p原高度仍开放。
 
+## 新增结论（2026-11-26）
+
+- **R1003（已证明的范围纠错）**：[主目标的全局量词与真实未覆盖分支](results/R1003-global-scope-and-remaining-branches.md)。R1只归约到完整非分裂正规化子；p≡2,5 mod9来自另加的小惯性，R317应用还需整j、固定K、σ=1及小除法域同一。恢复完整惯性、变化域等开放支路；下界不能当排除。O1/O2完成亦不独立完成Serre主目标。
+
 ## 新增结论（2026-11-20）
 
 - **R933（已证明）**：[同h Legendre因子与固定第二类微分Cartier](results/R933-same-label-Legendre-factor-and-fixed-Cartier-differential.md)。在原E*:v²=w³+6w+7上，U=[w^(p−1)]f^m、V=[w^(p−2)]f^m，保δ与同h，315δL_h=283U−224V；固定β=(224w−283)dw/(2v)满足Cβ=−315δL_hω。原因子零等价β约化后有显式有理原函数；未证明非零，不混ordinary与该条件，不触及Q′或height。SHA256 6ec44e35fae255b54ddcedef37a44de34bbf59882beecc7a46fd20bb8c5e18b1。

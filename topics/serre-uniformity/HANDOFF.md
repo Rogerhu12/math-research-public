@@ -4,13 +4,13 @@
 
 证明绝对C使所有无CM E/Q在p>C时模p满射，或给p→∞完整反例族。**主目标OPEN，尚未达README标准。**
 
-**维护会话：serre-public-astra-20261120-de0a3e3b。** 已部分克隆并真实pull main，接手serre-public-astra-20261115。压缩前逐字状态在[最新H归档](handoff-archive-2026-11-21-before-ten-step-theta-jets.md)，沿链保全部旧source/SHA/尺度/失败边界，不重做已登记结论。
+**维护会话：Astra-serre-24b8836b-20261126。** 2026-11-26接手；已部分克隆并真实pull main。前态逐字见[接手归档](handoff-archive-2026-11-26-before-resume.md)，旧来源/run/hash沿原归档链保留；不重做已成结论。
 
-**已读规则提交：3a1c3b0679da00d183100e3bff3f046003038809**（2026-11-20T16:10:03.236824+00:00；终端真实git pull --rebase origin main，两README无diff）
+**已读公开规则提交：6e4850027b7c818e2fe2a74c95029f182c8407fd**（2026-11-26 13:36 Asia/Taipei；pull --rebase后两README无diff）。两README已读；每pull核diff记SHA，至少每小时pull。私库根规则已核36cf1ed2；QUEUE认领已推233f7479。
 
-两README完整已读，SHA256 root 581402c2 / topic 35f82f3d。每结论立即推；每push前且至少每小时真实pull；每pull检查两README，有变只读diff立刻照办并记已读SHA。NFF/lock-ref竞态立即pull --rebase再推直到成功，禁force。PAT只CLI，不入文件/提交；root独占main/H/open/index/log。
+根维护main/H/open/index/log；子研究仅写各自notes。每条结论完整证明后立即提交，push前pull --rebase；NFF立即重复，禁force。凭据只CLI。H<10KB、open<30KB、每MD<100KB、topic<200MB；不提交可重算raw，不写根LOG。已读log/最新notes；R1003只有旧H“准备中”文字，当前树无稿，不当已交付结果。
 
-新数学只本公开仓库Actions，本地只纸证/IO/schema/hash/AST。raw不入Git/Release；本轮stdout和scratch，无artifact。H<10000B、open<30000B、每MD<100000B、topic<200MB；log Asia/Taipei且每次≤5行，不写根LOG。已成结果不因压缩重跑。
+**范围纠错[R1003](results/R1003-global-scope-and-remaining-branches.md)**：R1只余完整Nns。p2/5mod9仅小惯性C³；R317另需整j、K=Q(√−3)、σ=1、小除法域同一。完整惯性/变化域等未排，导子下界不等于排除；O1/O2只是指定辅助源。
 
 ## O1：同一个原本原标签的三个因子非零
 
@@ -64,4 +64,4 @@ O3–O6见open/归档。原J_h两CM权、det/Igusa/fullNorm/ζ²、a_h/normal顶
 
 固定Y的R805–930全部原W/两图/jets/7K trace/五Z/30连接/Artin迹只消费；R907四必要artifact真404，待原字节，不以摘要代数组、不重跑。五672铅笔/九NormΦ/真实Rcal I_Z³/YP-FM/endpoint格/P1 c-a仍开；σ/cY/eη/d-N/full nonp/Poincare/splitting/height不能删。全部254极阶/U272/双7/508rank507与符号尺度保open/归档；YL1零非rank0，UE=dY+2period及torus≥g+1保留。
 
-R317仅完整Nns、p2/5mod9、a³+db³=1/p|b，D/bc无界。R707固定41全129盘/8CM不外推；R575正CM根号−、逆twist秩零撤回、R706 h1零保留。非挠/log/rank/低单位/深盘数非height。旧失败/空artifact/已成Hurwitz block曲率/p²无新约束不重做；budget false FINAL不构成负结论。主目标仍OPEN。
+R317只适用上述条件分支，D/bc无界。R707固定41全129盘/8CM不外推；R575正CM根号−、逆twist秩零撤回、R706 h1零保留。非挠/log/rank/低单位/深盘数非height。旧失败/空artifact/已成Hurwitz block曲率/p²无新约束不重做；budget false FINAL不构成负结论。主目标仍OPEN。

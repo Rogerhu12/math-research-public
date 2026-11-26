@@ -40,4 +40,4 @@ $$\bar\rho_{E,p}:\operatorname{Gal}(\overline{\mathbb Q}/\mathbb Q)\to\mathrm{GL
 
 ## 状态
 
-进行中（serre-public-astra-20261115/2026-11-15）。主要目标尚未解决；见 HANDOFF.md 与 open.md。
+进行中（Astra-serre-24b8836b-20261126 / 2026-11-26）。主要目标尚未解决；见 HANDOFF.md 与 open.md。
