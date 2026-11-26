@@ -7,7 +7,7 @@
 
 给出连通闭 $C^2$ 嵌入族、共同度量和固定握持开区域，按完整曲面直径计 $\delta_{\rm hold}/D\ge .05$、$\delta_E>0$、全时 reach$/D\ge .03$；全域全时 metric 误差不超过 $10^{-6}$，并支付同一几何下真正加密到求解容差及可复现网格。基础之后继续 $\delta_{\rm hold}/D\ge .2$、$\delta_E/D\ge .05$ 或严格存在。
 
-- 公开根 README、课题 README 已完整读于 `f0548477576caa2373d1626227a284ccfa9767d0`；真实 `git pull --rebase origin main` 于 2026-11-26 05:16 UTC 成功。每次 pull 后比较这两个文件，至少每小时一次。最近已读公开提交 `16bb5419b52b927448b1a0b363da3ff0bdac20be`（2026-11-26 08:05 UTC真实pull/rebase后，双README逐差均无变化）；本轮推前双 README 均无差异。
+- 公开根 README、课题 README 已完整读于 `f0548477576caa2373d1626227a284ccfa9767d0`；真实 `git pull --rebase origin main` 于 2026-11-26 05:16 UTC 成功。每次 pull 后比较这两个文件，至少每小时一次。最近已读公开提交 `4b4f80fe1bba7c41e4d37ae80ae4625396c3e66a`（2026-11-26 08:07 UTC真实pull/rebase后，双README逐差均无变化）；本轮推前双 README 均无差异。
 - 私库根 README 已完整读；QUEUE 已认领并推送 `c7785184d0d9c503852fb2137e9e2c091221d080`。并发推拒均立即pull/rebase再推成功。私库规则比较基准 `0229299ed65827c2ace194596315e58a19c989ee` 至该提交无差异。
 - 根规矩优先：完整证明直接登记；不用旧独审/冻结流程；可重算数据不入 Git、Release 或拆块，只保脚本、参数、运行标识和哈希；单 MD<100KB、H<10KB、课题总量<200MB；不写根 LOG、不强推。令牌只在命令行进程环境。
 - 本地部分克隆在 `/tmp/visible-flex-6a65e705/math-research-public`；工作区同名路径是链接。初次ENOSPC后迁/tmp成功；旧会话未推原件不可用，以已推内容/配方为准。
@@ -25,15 +25,17 @@
 
 ## 当前实际计算与正在消费的输入
 
-**1. 原分支。** R211原2步、quartic6、R208插1/24后3步均已实际执行，详见[角向完整零注入及六接受](notes/2026-11-26-6a65-angular-zero-injection-and-six-accepted.md)。原J34/K11三步末R²=.04957385、metric=.24611323、κ13.28509；R207均值不足消去主要残差。这些是既见设计输入，不重记为新研究或最终固定g加密。
+**1. 原分支。** 原2步/quartic6、R208/J34三步、K11三步已实跑，[完整链](notes/2026-11-26-6a65-angular-zero-injection-and-six-accepted.md)保留。metric .246113/κ13.285仍欠；已见输入重生不算新研究。
 
 **2. 强幅度主线。** gap1/Δ=.05新g经R215三步、固定42峰点三步、K11三步已有完整记录；主输入链见[角向六接受](notes/2026-11-26-6a65-angular-zero-injection-and-six-accepted.md)。[R219真帽/N128/84点三步](notes/2026-11-26-6a65-r219-three-accepted-and-dense-observation.md)自然exit0，metric=.183831154、dense κ15.294264、held.623708仍欠。该态SHA `c04b3e122fde0a4e307240b50057d4b3accdd27843c5404c9e1463bdb102f68a`，同态152915点观察SHA `3a9ee98b6889f6776ecb6b04ebc7761564e485f4c594e5491aa5d81e0008b9c4`。
 
 [真实两峰驱动R208](notes/2026-11-26-6a65-r219-observed-radial-three-accepted.md)插1/24、49/120、17/40，J33→36/1694列；新baseline后三次全列LM真0，R²=.03452887、metric=.192962、κ13.68908、held.624026、A=.86624249、Z=.50886055。末态 `geometry-work/r219-observed-radial-lm03-state.json` SHA `e6a9ce54e7ee69abe9ef2af78518005d7c6869b9e32398aba3ae26bcf9c73d99`。[同N128完整K19零注入及首步](notes/2026-11-26-6a65-r219-k19-one-real-step.md)已自然exit0：新增1152列、六点twojet/8640旧列差0；2846列LM拒全步、收半步，R²=.03210829、metric=.1921304、κ13.03759、held.622856。末态SHA `7d6fb4a770c170d7487890671e1e3865f36ac39339427f49a456fafdc04e23ef`。全部原件在同级scratch，不进Git。
 
-**3. 完整精确修正方向。** 原 up 24系数补丁只清12个弱槽，真复合原R114 Phi抬峰；582维切向补偿仍略高于旧Phi。[新增4径向块48弱矩/96 Cartesian列](notes/2026-11-26-6a65-four-radial-stresses-full-gram.md)可清所选矩，但完整原图峰1.048e−9→1.295e−9，1164切向补偿后1.609e−10仍高于旧1.459e−10；[新的完整Gram Schur方向](notes/2026-11-26-6a65-full-gram-schur-and-fixed-support.md)虽降能量，三档真实复合仍抬峰。支撑外旧残差不能用紧支撑补丁消除。[整个原M12 up plateau](notes/2026-11-26-6a65-m12-whole-up-plateau.md)也已准确R137消费并8192区间实证D>.7814/κ<2.7604；仍接非flat端口。当前直接消费原M12有限Fourier截面与原exact metric桥，处理完整弧长/端口/连续角域，不再把有限弱矩或有限Schur逆当全频逆。
+**3. 原M12同g方向。** 有限12弱槽、48弱矩和完整Gram Schur均已实算，能量下降但完整峰未胜旧Phi，不重复。见[四径向应力](notes/2026-11-26-6a65-four-radial-stresses-full-gram.md)、[完整Schur及支撑外缺口](notes/2026-11-26-6a65-full-gram-schur-and-fixed-support.md)。[整个原up plateau](notes/2026-11-26-6a65-m12-whole-up-plateau.md)准确R137/8192盒给D>.7814、κ<2.7604，非flat两端仍未匹配；不把有限矩或逆当全频存在。
 
-**4. 新几何机制。** 强支真实空间截面的R137沿程首先遇ruling focus；[明确改为水平投影的新输入](notes/2026-11-26-6a65-geometry-r137-new-actual-ports.md)可实际生成L=.35、v=.003精确flat段，采样κ<7.5，但没有连续证书且两侧完整端口必须另付。[完整Hermite连接与四批真实LM](notes/2026-11-26-6a65-geometry-r137-two-connectors-and-actual-lm.md)已消费全X/Xs/Xss和f两jets；82→204列及加密暴露面积低谷，metric约.997/κ143，未采用。[准确中央柱后的真实负K Cauchy段](notes/2026-11-26-6a65-geometry-central-cauchy-real-ramp.md)已执行，弱坡段metric<4.31e−13，接准确形式coast完整两jet差<5.84e−10；未支付连续余项/后半闭合。旧Z=.56只能记为失败，不援引R219。
+**4. 新几何机制。** [水平投影新R137输入](notes/2026-11-26-6a65-geometry-r137-new-actual-ports.md)实际生成精确形式coast，原空间截面会focus；[双Hermite/82→204列真实LM](notes/2026-11-26-6a65-geometry-r137-two-connectors-and-actual-lm.md)完整metric近1且面积谷，不采用。[准确中央Cauchy弱坡](notes/2026-11-26-6a65-geometry-central-cauchy-real-ramp.md)实算metric<4.31e−13，完整coast端口已消费。转全局位置构造，连续余项/后半闭合仍欠；旧Z=.56不能援引R219。
+
+- [m12-central-ramp-three-refinements](notes/2026-11-26-6a65-m12-central-ramp-three-refinements.md)：原M12同g首ramp的三档实际C2图已到metric 2.14436e−10→4.31484e−12→3.66688e−12，κ5.11272；中央全三端迹准确，未覆盖正K及闭图。继续准确coast拼接和完整位置BVP。
 
 ## 公共CI的真实状态与继续方式
 
