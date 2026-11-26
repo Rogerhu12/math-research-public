@@ -9,11 +9,11 @@ The proof of normalization and conductor is separate from this finite reader.
 from __future__ import annotations
 from fractions import Fraction as Q
 import hashlib
+import importlib.util
 import json
 import math
 import os
 import pathlib
-import subprocess
 import sys
 import time
 
@@ -142,12 +142,15 @@ def main():
     producer = HERE / "check-r943-degree178-full-cm-source.py"
     producer_sha = hashlib.sha256(producer.read_bytes()).hexdigest()
     assert producer_sha == PRODUCER_SHA
-    proc = subprocess.run(
-        [sys.executable, str(producer), "--workers=4"],
-        stdout=subprocess.PIPE, stderr=None, text=True, check=False)
-    if proc.returncode:
-        raise RuntimeError("Original full CM producer return code: " + str(proc.returncode))
-    report = json.loads(proc.stdout)
+    # Preserve the unchanged original producer, including all complete fibers
+    # and its JSON certification.  Capture its actual matrices in memory so
+    # the six-sigma reader consumes this same rebuild, not saved tables.
+    helper_path = HERE / "check-original-e89-six-sigma-projection.py"
+    spec = importlib.util.spec_from_file_location("r958_six_sigma", helper_path)
+    helper = importlib.util.module_from_spec(spec)
+    sys.modules[spec.name] = helper
+    spec.loader.exec_module(helper)
+    report, six_sigma = helper.rebuild_and_check(producer)
     assert report["status"] == "PASS"
     assert report["canonical_matrix_sha256"] == MATRIX_SHA
     assert report["joint_mass_kernel_dimension"] == 1
@@ -289,6 +292,7 @@ def main():
             "parameter_shear_c": chosen,
             "candidate_different_origin_angular_order_range": [
                 (conductor_weight+88)//89, 29*conductor_weight//89]}
+    out["six_sigma_projection"] = six_sigma
     out["reader_sha256"] = hashlib.sha256(pathlib.Path(__file__).read_bytes()).hexdigest()
     out["elapsed_seconds"] = time.time()-START
     print(json.dumps(out, separators=(",", ":")))

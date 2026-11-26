@@ -6,6 +6,7 @@ name: Rank2 original E89 angular normalization profile
       - ".github/workflows/rank2-sha-e89-angular-profile.yml"
       - "topics/rank2-sha-infinitely-many-p/ci/e89-angular-profile-request.json"
       - "topics/rank2-sha-infinitely-many-p/scripts/check-original-e89-angular-profile.py"
+      - "topics/rank2-sha-infinitely-many-p/scripts/check-original-e89-six-sigma-projection.py"
   workflow_dispatch:
 permissions:
   contents: read

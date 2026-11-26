@@ -6,16 +6,16 @@
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，持续研究；有限验证、条件、接口和中间成果不算完成。**
 
-- 已部分克隆并实际pull --rebase；根/课题 README 已读至 `b91da887cca5f2eed98c723683edd09cfdd0ffaa`，相对已读版本未见规则变更。每次同步核两README差异；实际pull至少每小时，终端恢复即补做。
+- 已部分克隆并实际pull --rebase；根/课题 README 已读至 `eed35f2fb51b2b4f48ee85adc0fab5249aeaa074`，相对已读版本未见规则变更。每次同步核两README差异；实际pull至少每小时，终端恢复即补做。
 - 私有QUEUE已推进行中状态f3125fbaa4bc13678b0c8519d85051762c579529；私库README读至e776df4。
-- 两克隆在/tmp/rank2-sha-7d29daa5d3b1。执行环境断开，最新10:24:44 UTC重试仍不可用；依根授权用小文本GitHub tree/commit及非强制CAS，逐次核最新main/规则，竞争立即重取父提交重推。恢复先核stash/local main，不覆盖远端恢复提交，再pull --rebase。令牌未入文件/配置/日志。
+- 两克隆在/tmp/rank2-sha-7d29daa5d3b1。执行环境断开，最新11:17:43 UTC重试仍不可用；依根授权用小文本GitHub tree/commit及非强制CAS，逐次核最新main/规则，竞争立即重取父提交重推。恢复先核stash/local main，不覆盖远端恢复提交，再pull --rebase。令牌未入文件/配置/日志。
 - root唯一ref和共享H/log/index写者，子代理只交不可变blob。数学执行仅公开Actions；只存源码/参数/run/hash/结论，不存可重算输出。H<10KB、MD<100KB、open尽量<30KB；不强推、不改他课题。
 
 ## 完整历史与当前任务
 
 [本次素域下降前完整H](notes/2026-11-26-handoff-before-prime-field-descent.md)逐字保留截至R955的全部证明、参数、回执与旧归档链；[open](open.md)、[results](results.md)及两卷证明索引保当前门。接手H、第五核前H、Fv2回执前H、全W构造前H、全部旧open与索引均由这条链保留；不重复已登记结论或默删旧门。
 
-root统筹原几何真实执行及算术消费；geometry把已审R956接到后继实际入口；theta消费已证R957同格J5的实际u†；global做同σ6的W178完整CM投影R958；geometry另核E65真实局部来源（R959已证两原点独立，theta尚待）。**仅一个重型单F运行，后继完整Artinian入口已备，等实际终点后接。**
+root统筹原几何真实执行及算术消费；geometry把已审R956接到后继实际入口；theta消费已证R957同格J5的实际u†；global的同σ6 W178投影R958已接原angular API待真实α，草稿不算已证；geometry另核E65真实局部来源（R959已证两原点独立，theta尚待）。**仅一个重型单F运行，后继完整Artinian入口已备，等实际终点后接。**
 
 ## 一、原全部厚几何与shadow
 
@@ -23,7 +23,7 @@ root统筹原几何真实执行及算术消费；geometry把已审R956接到后�
 
 ### 运行中的唯一F
 
-单F v3 source77d09068ff2324c7c301c144e4c3586437f4ad59，run45783241896/job139783569909，08:26:58 UTC起；10:59仍数学step4运行，日志归档返回404，不能据此判内部进度或成功。35源；真实有界HNF绑定、全324 R2原M2算子复用，保1890槽/144核/306两图/全部厚度与1296边界。当前作业不重启。
+单F v3 source77d09068ff2324c7c301c144e4c3586437f4ad59，run45783241896/job139783569909，08:26:58 UTC起；11:17仍数学step4运行，日志归档返回404，不能据此判内部进度或成功。35源；真实有界HNF绑定、全324 R2原M2算子复用，保1890槽/144核/306两图/全部厚度与1296边界。当前作业不重启。
 
 前五失败及Fv2见[几何记录](notes/2026-11-26-geometry-7d29.md)。Fv2 run45764459557/job139721906263/sourceb35d61dd，144核/324 R2/第18算子已返；分母HNF仅16列，5867.79s退出137，不能确称OOM，没有原除子PASS，不原样重跑。
 
