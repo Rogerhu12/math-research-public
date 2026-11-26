@@ -8,6 +8,8 @@
 
 ## 新增结论（2026-11-26）
 
+- **R1007（已证明的精确范围排除）**：[R1007](results/R1007-deck-compatible-CM-correspondence-height-valuation-obstruction.md)：原μ3相容对应的修改对角满足ND_Z(c0)=3D_Z(c0)、D_Z(y)=D_Z(c0)−2Z[y−c0]。同一真实整高度格及N/Z自伴、NG=0、ZG=λG、λ∈ℓZℓ下，指定高度必在ℓ²Zℓ；原纯CM对应不能满足新valuation-QC的赋值1条件，一致改基点或整splitting不解除。保η_h与清分母；新非甲板相容对应、底曲线块及其它全高度关系仍开。
+
 - **R1006（已证明）**：[原端列线性循环维数与无限族不稳定性](results/R1006-end-column-linear-cyclic-dimension-and-filtered-nonstability.md)：固定Eichler源在q^p前精确约化到原端列；完整Fuchs方程/有理无穷远指数、Jacobi带宽和固定Taylor子式证明端列G循环维数≥cp。与原本原列数结合，得一整无限允许素数等差族原V不G稳定。故全p稳定路线关闭；原mark与特定A/E4包含未否，继续它们。
 
 - **R1005（已证明）**：[有限Gauss伴随多项式及完整共振误差](results/R1005-finite-Gauss-companion-and-complete-resonance-defect.md)。原A截到ℓ−1的指定P满足L_A P=−7P_d z^d/144；完整Wronskian是1−z^ℓC/B(1)²，P_d=−16/(7B(1)²)、C+3zC′=B且C(1)=B(1)²。原目标精确为[z^m]QB^r/P^r，必须保留全部P根留数，未证其非零。补充§5在原r2行取S=P−P(1)z^ℓB/B(1)，尖点留数准确−28853B(1)^6/36864且恒为单位；其余全部S根仍须保。旧47给J12、cusp45、其余总和37，否定自动相消，不代全和非零。

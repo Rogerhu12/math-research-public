@@ -93,6 +93,8 @@ $$
 
 ## O4：原Abel零集、正秩像与真正高度
 
+[R1007](results/R1007-deck-compatible-CM-correspondence-height-valuation-obstruction.md)：原μ3相容对应的修改对角满足ND_Z(c0)=3D_Z(c0)、D_Z(y)=D_Z(c0)−2Z[y−c0]。同一真实整高度格及N/Z自伴、NG=0、ZG=λG、λ∈ℓZℓ下，指定高度必在ℓ²Zℓ；原纯CM对应不能满足新valuation-QC的赋值1条件，一致改基点或整splitting不解除。保η_h与清分母；新非甲板相容对应、底曲线块及其它全高度关系仍开。
+
 R921/R924的实际整completed Hom、两节点极界、完整inertia和原a_h均已解决相应normal首层问题。中央p^−a_h G_h整restricted且最高项单位；几何开盘零数由最小单位下标决定，不是有理零数或height。
 
 R945两中央Q中心阶恰2，scalar/w在pR0有唯一根，可能仍为中心。替代227/h151与857/h445同h临界积非零已成。[R948](results/R948-rational-quadratic-Abel-root-and-original-coordinate-separation.md)已由原共同phase和顶参考把二次根降到pZp；非中心 iff char0 M2非零，v(w*)=2+v(M2)−ν/2，ν在两例为0且v(M5)=−5。另一原坐标按R727完整tail准则只有中心零，故这两个有限p的原开盘全Abel**零**集恰中心；这不等于一般rational point排除。原候选可能有非零Mordell–Weil像，仍须真正global/height关系。

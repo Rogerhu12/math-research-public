@@ -1,73 +1,130 @@
 # Serre 一致性交接
 
-## 目标、授权与维护
+## 目标与当前状态
 
-证明绝对C使所有无CM E/Q在p>C时模p满射，或给p→∞完整反例族。**主目标OPEN，尚未达README标准。**
+证明绝对常数 C，使全部无 CM E/Q 在 p>C 时模 p 满射，或给 p→∞ 的完整反例族。**主目标 OPEN；未达到课题 README 完成标准。**
 
-**维护会话：Astra-serre-24b8836b-20261126。** 2026-11-26接手；已部分克隆并真实pull main。前态逐字见[接手归档](handoff-archive-2026-11-26-before-resume.md)，旧来源/run/hash沿原归档链保留；不重做已成结论。
+维护会话：**Astra-serre-24b8836b-20261126**。2026-11-26 已部分克隆并真实 pull main；私库 QUEUE 认领已推 233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则读至36cf1ed2。前会话全部有效结论继续保留，不重算。
 
-**已读公开规则提交：45870cc802e7a4ba47450abeda1f9c1f5e1e1643**（2026-11-26 14:07 Asia/Taipei；终端断连后读取远端main并核两README无diff）。两README已读；每pull核diff记SHA，至少每小时pull。私库根规则已核36cf1ed2；QUEUE认领已推233f7479。
+**已读公开规则提交：0d8d620038c40f337508a5ff9677a1092ce88f85**（2026-11-26 14:28 Asia/Taipei；本次同步两 README 无差异）。每次同步检查两 README diff，至少每小时一次，有变化只读差异并立即执行。
 
-执行宿主现不可用；按根规矩8用GitHub小文本tree/commit及非强制ref更新继续，每次先读main核规则，拒绝即在新head重建，终端恢复后补pull --rebase。
+执行宿主在本轮断连，当前不可用。根规矩8许可仅 GitHub 集成可用时传小文本；已用原子 tree/commit 和非强制 expected-head ref 更新继续。每次先读最新 main、核规则与待改路径；并发拒绝后在新 head 重建直到成功。终端恢复后补 pull --rebase。令牌仅在此前 CLI 使用，未写文件或提交。
 
-根维护main/H/open/index/log；子研究仅写各自notes。每条结论完整证明后立即提交，push前pull --rebase；NFF立即重复，禁force。凭据只CLI。H<10KB、open<30KB、每MD<100KB、topic<200MB；不提交可重算raw，不写根LOG。已读log/最新notes；R1003只有旧H“准备中”文字，当前树无稿，不当已交付结果。
+根维护 main/H/open/index/log；子研究仅交数学稿。每条完整结论立即推送，不强推、不改已发布历史。H<10KB、open尽量<30KB、每MD<100KB、topic<200MB；不存可重算 raw，不写根 LOG。
 
-**范围纠错[R1003](results/R1003-global-scope-and-remaining-branches.md)**：R1只余完整Nns。p2/5mod9仅小惯性C³；R317另需整j、K=Q(√−3)、σ=1、小除法域同一。完整惯性/变化域等未排，导子下界不等于排除；O1/O2只是指定辅助源。
+完整上一版交接及全部来源/run/hash：
+[本轮高度前归档](handoff-archive-2026-11-26-before-height-obstruction.md)、
+[接手前归档](handoff-archive-2026-11-26-before-resume.md)、
+[open](open.md)、[结果索引](results.md)。
+归档沿链保留旧尺度和已成计算。原旧 HANDOFF 的“R1003 norm3准备中”没有实际交付稿；现在 R1003 是下述范围纠错。
 
-## O1：同一个原本原标签的三个因子非零
+## O0：全主目标覆盖必须保留
 
-p=6N+5，h=6i+7，i+j=N−1，须同h使原primitive/Legendre mask下P_(h−1)(1/s)fi gj≠0。R949/954/957–959全失败 iff (1+24X)|原B_p(C,X)，X0=−1/24，fine额外阶3。R964逆CM族只控h_(i+2)；R966/968完整heat/Gaussian源给Z_i∈M_(p−5)，mark/E6^N=−72(-864)^−N fi gj。须实际filtered span含A/E4或mark functional非零。
+[R1003](results/R1003-global-scope-and-remaining-branches.md)：R1只剩完整非分裂正规化子 N_ns(p)。p≡2,5 mod9 来自另加的小惯性 C³；R317还需整j、K=Q(√−3)、σ=1、小二/三除法域同时一致。完整惯性、非整j、变化K、σ非平凡和异小域的大导子支路没有被当前 CM 证明链排除。导子下界不是上界。O1/O2 是指定辅助源；即使全解决，也不能单独宣 Serre 完成。
 
-R969三点actual span核已过；R971严格排全p full-span，未排特定A/E4包含。R945中央零与完整S单位并存，完整trace不推同h；R734原primitive Legendre单位已成不能独完O1。
+## O1：原同一标签的三个因子非零
 
-[R992](results/R992-original-full-level-Jacobi-operator-and-filtered-stability-criterion.md)：全M_(p−5)上G(F)=[D²(XF)+X²F/144]/[X²(1−z)]分母消去；Jacobi互异谱、各mark1、kernel=Tate A/E4。**原V≠0且G稳定⇒同h非零**。旧227 central global非零/mark零排逐列本征；E+ mark(25F−D³F)/144。全部源与谱见结果/归档。
+p=6N+5、h=6i+7、i+j=N−1。必须在同一个原本原 h 上使
+P_(h−1)(1/s) f_i g_j≠0；s²=−3，全部原 Norm/两 CM 权/相位不换。
+R968 的实际列 Z_(6i+4,6j+1)∈M_(p−5)，CM mark为
+−72(−864)^−N f_i g_j。R949/954/957–959给全失败的原粗 CM 因子判据。
+R898 已把原 theta 向量、有限环面、Legendre 相位及两筛接到同一整源；
+抽象不可约或单位 content 不决定指定 jet。
 
-[R995](results/R995-original-mixed-source-for-the-first-coarse-CM-normal-jet.md)：原Π4D³(∇²J)完整G‴/216、12uF′、F三支及全ζ修正已核，E−mark(25Z+Ψ)/144和首p整界保；新partner非旧g，尚无retained关系/G稳定。
+R969 三个实际满秩点只消费；R971 已否全p full-span。
+R996/999 已证 **55∤p+1⇒原筛选空间 V_p≠0**，只是全局非零。
+旧中央227/857的零和替代标签均已登记，不重算。
 
-[R996](results/R996-original-end-column-cusp-unit-and-filtered-space-nonzero.md)：完整norm-one Gaussian给Z_(p−7,1)尖点233/(p−7)!；233为8mod9排除。h=p−4 primitive iff5∤p+1，P4=19/9单位，故该整族V≠0。完整一般cusp保Π3、Gaussian、ζ和平方法及首p界；不假与Legendre相同，不推CM mark。
+[R992](results/R992-original-full-level-Jacobi-operator-and-filtered-stability-criterion.md)：
+原 G 归一到
+L=z(1−z)∂²+(4/3−7z/3)∂−55/144，Jacobi简单谱、各本征 mark1，
+ker G为Tate A/E4。条件命题 V≠0 且 G(V)⊂V⇒同h非零仍正确。
 
-R997/R1000原ε-vector、交换轴、完整bulk及+8A边界已成；原mask杀全部自身边界迭代，低项48不能代同h。完整尺度与回执见[本轮H前态](handoff-archive-2026-11-26-before-R1004.md)。
+**[R1006](results/R1006-end-column-linear-cyclic-dimension-and-filtered-nonstability.md) 已否定全p原稳定性。**
+原端列的固定 Eichler germ在q^p前精确匹配；十二阶Fuchs系统/有理无穷远指数、
+Jacobi带宽首尾系数与固定Taylor子式证明循环维数≥cp。
+原本原标签数在一个无限允许素数等差族上小于cp，而端列被保留；
+所以该族充分大p均不稳定。不能再把全p稳定当待证目标。
+这不排原 mark 非零或特定 A/E4 包含。
 
-[R1001](results/R1001-norm-seven-dual-Poincare-source-and-original-filtered-tensor.md)：真实norm7双Poincaré源在全部极部扣除后给−6Aα F⊗G，Norm Aα=16·19/7单位；完整critical卷积、首p整界和唯一p边界已证明。单balanced trace不代全乘积，高carry仍开。全部尺度与来源见结果及[前态归档](handoff-archive-2026-11-26-before-spectral-route.md)。
+R995/997/1000 全部 mixed heat、bulk和边界已成；原mask杀自身边界迭代，
+不能以低项或曲率代同h。R1001 norm7真双Poincaré源减全polar后恢复 F⊗G，
+但全乘积高carry仍开；norm3源同样不能单独给非零。
+R1002 原W_(p−9)/η4权p−11，十步方程有四自由CM jet；
+准确端列432D³f+75XDf−9Yf，mark79R0−96R1，局部方程不能固定它。
 
-[R1002](results/R1002-ten-step-theta-companion-and-four-free-CM-jets.md)：保真实full权p−9/quotient权p−11的十步theta方程；有限CM五维jet仅rank1，四自由jet不能决定实际mark。准确原端列432D³f+75XDf−9Yf，mark79R0−96R1；全部整界/尺度见结果及前态归档。
+本轮续查已消费：R891 的36个E[6]基点判据、R904六通道Wronskian与度数界，
+均不能排互补零；top f_N 已重合于O2高权链底，不能当独立低单位。
+继续实际非端点两筛、特定A/E4包含或新的全局标记输入。
 
-[R1006](results/R1006-end-column-linear-cyclic-dimension-and-filtered-nonstability.md)：固定Eichler源在q^p前精确约化到原端列；完整Fuchs方程/有理无穷远指数、Jacobi带宽和固定Taylor子式证明端列G循环维数≥cp。与原本原列数结合，得一整无限允许素数等差族原V不G稳定。故全p稳定路线关闭；原mark与特定A/E4包含未否，继续它们。
+## O2：原完整 trace 与高 Artin–Hasse 坐标
 
-## O2：原完整trace及高坐标单位
+R955/R970 原CM packet是单一Cartier链；
+**原S≠0 iff链长1 iff原高同余理想单位**。
+低权晶体单位只检测coker顶，R961不能搬到命名链底 F。
+R972低Selmer/classgroup为零、global-unit低坐标单位，均不强迫高坐标单位。
+R976–980原Robert单位/normalizedΔ/strict LT/pure Hurwitz反射的全部尺度保留；
+Frobenius共轭指数不是同一坐标。R982/983共同scalar/factorial模型已否。
+R984/985的真实除p carry不能删。
 
-R955/R970整个原CM packet为Cartier nilpotent单链，L=dim包=rank level9高权p−1/p−7完整classical Hecke模；**原S≠0 iff L1 iff完整η_f单位 iff准确TU adjoint值单位**。保Γ6/Γ036整格、det返回、σ⁻¹T_p和2/3 type，无两Weil增倍；坏链是真非CM congruence。
+[R988](results/R988-original-pure-balanced-Cartier-contraction-and-high-trace.md)：
+原S≠0 iff c_(p−r)±单位 iff F_(p−r)(0,−864)非零；
+r=2用于p11mod12，r=8用于p5mod12，并保p2/5mod9。
+低unit及整性不是这个近p值的unit。
 
-R958 r2原moment S^p=−216c_momℓ(R_F)，R_F=−2D^(2N+1)β²C^p，目标moment仍开。R960/965真实Igusa因子h=L+1，κ=(1/p)[x^((p²−1)/3)]a^(2p+2)=36α=−g_pT=−g_pS^p/432，g_p=48[x^(m+1)]a²单位。**不能把该因子换成固定CM椭圆源height2**；链顶单位不推链底。
+R990固定 A=2F1(1/12,7/12;2/3;z)、B=2F1(5/12,11/12;4/3;z)，
+ℓ=(p+1)/3、m=(p−r)/3<ℓ，B为degree floor(p/12)的真实Jacobi多项式。
+H=((1−z)B²)^−1、f_i=H_i/(1−3i)、Q=4+12zB′/B−z/(1−z)，
+c_(p−r)+=(-32)^m(r−1)! [z^m]Q f^−r/4，首共振Hℓ=B(1)^−2。
 
-R972–985原ring-class/AH/Robert/normalizedΔ/strictLT所有源、相位和完整尺度在结果/归档。χ faithful、global-unit低γ0单位，高S≠0 iffγ1≠0；cσ不交换HT线。fixed7与半norm保，R975整性不推near-p单位；R974 period比不反除。R982/983指定共同α/ξ/factorial模型已否；R984/985实际除p carry−3T^(p+6)/7不可删。
+[R1005](results/R1005-finite-Gauss-companion-and-complete-resonance-defect.md)：
+指定P=A截到ℓ−1，完整Wronskian是1−z^ℓ C/B(1)²，
+C+3zC′=B、C(1)=B(1)²、P顶系数−16/(7B(1)²)。
+原目标准确为[z^m]QB^r/P^r，须保所有分母根。
+§5原r2取S=P−P(1)z^ℓB/B(1)，cusp留数
+−28853B(1)^6/36864在全原r2类为单位，但其余根不消失：
+旧47值给J12、cusp45、其余和37。完整全和非零仍开。
+旧R973的B字段10不是c45−（后者4）。
 
-R986/987真global rational LT与Poincare两open源：𝒯=Z+β^-1J_s^p、误差首q−3，R594/R658旧formal分解不重登；gluing给C(xZ^jω)=β^(1−j)j!L_jω，pL_p=−βZ。第二Frob有限取消/曲率−βW不推near-p单位；完整公式和来源保最新H归档。
+R963/991/994全部旧有限窗口已完成：新两行到200000共4008点均非零，
+run44760218207/job136370438703，原三路校准/hash见R994及交接归档。
+不重跑、不过度外推。正在核 modified Serre derivative/权参数导数的原递推，
+尚未形成新非零结论；不把Gaussian或split-CM异常素数表当原高坐标反例。
 
-[R988](results/R988-original-pure-balanced-Cartier-contraction-and-high-trace.md)：真Cartier给G_(j(p−1))=−j!β^−j c_j+（1≤j≤p−2），原n=p−r有G_high=−β^(r−1)c_n+/(r−1)!，γ1=−24η^(−(m−b))(χσ−1)β^(r−1)c_n+/r!。全部外因子单位，c+=−c−，故 **原S≠0 iff c_(p−r)±单位 iff F_(p−r)(0,−864)非零**；不反除period比。低pure单位/真实p-basis/参数差q−3见结果与归档，不代near-p单位。
+## O4：真实全局高度
 
-[R990](results/R990-original-hypergeometric-fixed-r-coefficient.md)：原Ramanujan源A=2F1(1/12,7/12;2/3;z)、B=2F1(5/12,11/12;4/3;z)，T=−uB/(24A)、z=u³/432。m=(p−r)/3<ℓ=(p+1)/3，B为degree floor(p/12)真Jacobi多项式；H=((1−z)B²)^−1、f_i=H_i/(1−3i)、Q=4+12zB′/B−z/(1−z)，**c_(p−r)+=(-32)^m(r−1)![z^m]Qf^−r/4**。全分母单位、首resonance Hℓ=B(1)^−2单位，不可跨ℓ反除；完整ODE/roots/cusps与尺度保结果，目标系数非零仍开。
+[R1007](results/R1007-deck-compatible-CM-correspondence-height-valuation-obstruction.md)：
+原X₁→Y、μ3固定c0、N=φ*φ_*、qN=0。
+甲板相容对称对应有 ND_Z(c0)=3D_Z(c0)，
+D_Z(y)=D_Z(c0)−2Z[y−c0]。
+在真实整格、同一高度b(M,M)⊂ℓZℓ、N/Z自伴及
+NG=0、ZG=λG、λ∈ℓZℓ时，b(G,D_Z(y))∈ℓ²Zℓ；
+新 valuation-QC 所需赋值1无法由这些原纯CM对应实现。
+对一致换基点仍成立，整splitting改变也不解除模ℓ²障碍。
+这不删除η_h，不排新非甲板相容对应、底曲线块或其它完整高度方法。
 
-[R1005](results/R1005-finite-Gauss-companion-and-complete-resonance-defect.md)：原P截到d=ℓ−1，完整Wronskian=1−z^ℓC/B(1)²，P_d=−16/(7B(1)²)、C+3zC′=B、C(1)=B(1)²。原高系数准确[z^m]QB^r/P^r。补充§5在原r2行取S=P−P(1)z^ℓB/B(1)，尖点留数准确−28853B(1)^6/36864且恒为单位；其余全部S根仍须保。旧47给J12、cusp45、其余总和37，否定自动相消，不代全和非零。
+Jaswal 2026新预印本只作方法假设来源，未把其121主定理当已认可输入；
+一般p在水平处坏约化，不能直接套辅助好素ℓ的整性。
+R1007自足证明不依赖该预印本结论。
 
-## 当前实际工作：两新窗口完成后继续一般非零
+R948只证两个有限例原Abel零集为中心；rational候选仍可能有非零MW像。
+非挠、log、rank、低unit或深盘简单根都不是height。
+原σ/cY、eη、d/N、完整nonp、Poincaré和splitting必须保留。
 
-R991已完整认证R989旧r8差集349点（1000..20000），原三路/全hash见回执与H归档；不重跑。
+## O5/O6 与当前续做方向
 
-[R994](results/R994-certified-original-combined-windows-through-200000.md)：run44760218207/job136370438703/source248592d7f成功531.337922156s。真正新r8 2622点、新r2 1386点共4008全非零/无尾；四新点原三路、完整wp ODE及各首resonance核过。root纯IO全回执核；payload2865567B SHA e764dff838bb24b18c8fec7f7634c2044f403e59e23a349cc00d0554c000dc8d。仅有限S单位；所有sources/rows/pins见结果与归档，已完不重跑。
+原固定Y的R805–930全部已成输入只消费。R907四个必要artifact真404，
+不能用摘要重造原数组。五672铅笔/九NormΦ、真实Rcal I_Z³、YP/FM、
+端点格与P1 c/a等断点详见open和归档；失败预算不当负数学结论。
 
-R1006已关闭全p原V稳定路线；继续原mark、特定A/E4包含、真实高carry及全局归一。55|p+1剩余V非零、O2近p单位、O0全覆盖与真正height仍开；norm3源单独不代非零。主目标OPEN。
+[R1004](results/R1004-exact-even-valuation-at-CM-cross-primes.md)：
+实际CM交叉迹差在p5mod12有精确偶赋值；立方条件给3|v。
+原pⁿ同构迫q1mod12≥p^(4⌈n/2⌉)+56p^(2⌈n/2⌉)+676，
+q7mod12≥4p^(2n)+27；相邻奇/偶层检测阈值相同。
+它不给全局p²提升或a/c上界，停止仅优化此下界常数。
+继续真正参数/高度控制并覆盖O0其它分支。
 
-## 全局后继
-
-[R1004](results/R1004-exact-even-valuation-at-CM-cross-primes.md)：R320原分支p5mod12的CM交叉迹差有准确偶赋值；实际立方条件另给3|v，pⁿ同构迫q≥p^(4⌈n/2⌉)+56p^(2⌈n/2⌉)+676；q7mod12给4p^(2n)+27。n1/2界相同；该检测器不能给全局p²提升，a/c上界仍开。
-
-## 继承任务与永久边界
-
-[open](open.md)、[结果索引](results.md)与[H归档](handoff-archive-2026-11-20-before-rational-LT-jet.md)保全部来源/run/hash。R963允许r2的1000<p≤1e5全部1582点无零、R967κ/g_p尺度、R969/R973均已完只消费。R944/947/950低GM单位、R946/951/952 whole Bol/两个radical、R956紧支coker/λ尺度、R962 r8左项零与α8式已成；whole饱和须全𝒰包零，R953高Hasse不换低极部，R961链顶非链底。
-
-O3–O6见open/归档。原J_h两CM权、det/Igusa/fullNorm/ζ²、a_h/normal顶项和全j平方比保；R913两权非O1评价权。R948 Abel盘零仅中心，不排非零MW像/证height。
-
-固定Y的R805–930全部原W/两图/jets/7K trace/五Z/30连接/Artin迹只消费；R907四必要artifact真404，待原字节，不以摘要代数组、不重跑。五672铅笔/九NormΦ/真实Rcal I_Z³/YP-FM/endpoint格/P1 c-a仍开；σ/cY/eη/d-N/full nonp/Poincare/splitting/height不能删。全部254极阶/U272/双7/508rank507与符号尺度保open/归档；YL1零非rank0，UE=dY+2period及torus≥g+1保留。
-
-R317只适用上述条件分支，D/bc无界。R707固定41全129盘/8CM不外推；R575正CM根号−、逆twist秩零撤回、R706 h1零保留。非挠/log/rank/低单位/深盘数非height。旧失败/空artifact/已成Hurwitz block曲率/p²无新约束不重做；budget false FINAL不构成负结论。主目标仍OPEN。
+固定41的R707全129盘/8CM已经关闭，不能外推一般p。
+R575正CM根号−和逆twist秩零撤回继续有效。
+当前三线：原同h非零；原高近p值；非甲板相容高度/全局覆盖。
+完成任何一个仍须接open其余问题，不把中间结果当主目标完成。
