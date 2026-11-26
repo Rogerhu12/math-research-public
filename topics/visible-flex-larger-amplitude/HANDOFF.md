@@ -4,9 +4,9 @@
 
 ## 规则与完整目标
 
-最近规则核查：2026-11-26 22:15:05 UTC，真实pull/rebase至 `36023fbfda31974d623f0e0d75529d805a4032b1`，双README相对`4d1a123b11a4161bdd4e4592eb145ff163d65a38`无差异，继续遵守全部规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
+最近规则核查：2026-11-26 22:15:49 UTC，真实pull/rebase至 `2a70a12756f481aaa76c642961f548e3b6737b7b`，双README相对`36023fbfda31974d623f0e0d75529d805a4032b1`无差异，继续遵守全部规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
 
-科学计算仅本公开仓库Actions；执行偏差见[早前记录](notes/2026-11-20-public-actions-execution-correction.md)及[四次大JSON整读纠正](notes/2026-11-26-large-file-connector-read-correction.md)。root唯一分支写者；结论即普通推，NFF立即rebase循环，不强推。每次pull核双README差异并遵新规，至少每小时，记commit。raw只scratch/runner，不入Git/Release/artifact；保完整小源/参数/run/SHA/紧凑结论。题≤200MB、单文件<5MB、MD<100KB、H<10KB、open<30KB。令牌仅瞬时CLI。17:55终端失联后曾用云API普通快进；19:17显式/tmp恢复并新部分克隆，现恢复终端git。旧迁移完成情况未知，不假称恢复旧scratch。
+科学计算仅本公开仓库Actions；执行偏差见[早前记录](notes/2026-11-20-public-actions-execution-correction.md)及[四次大JSON整读纠正](notes/2026-11-26-large-file-connector-read-correction.md)。root唯一分支写者；结论即普通推，NFF立即rebase循环，不强推。每次pull核双README差异并遵新规，至少每小时，记commit。raw只scratch/runner，不入Git/Release/artifact；保完整小源/参数/run/SHA/紧凑结论。题≤200MB、单文件<5MB、MD<100KB、H<10KB、open<30KB。令牌仅瞬时CLI。终端失联与恢复/云API普通快进记录保7774固定H；旧scratch迁移未确认，不冒恢复。
 
 
 目标：同一固定g、闭连通C²嵌入、全t强C²连续；固定有内点H且diamH≥.2D、整像δhold≥.2D、含反射δE>0；全t reach≥.03D、整面relative metric≤1e−6；固定g/参数/范围的真实mesh和频率精化至机器或原求解容差，多t可复现网格，准确说明严格存在缺口。D为完整F0直径。R248准确相位恒等式处理全t，不新增独立t插值门。有限误差/开放片/障碍不完成。
@@ -19,9 +19,7 @@
 
 ## 03b与05的完整既有边界
 
-03b45820592817终止/37未起，旧03 stage7未知；原3–36、gamma-H12–14、normal15/16及18字Q的全失败/来源保固定交接和notes，R697/R702/R705不重做。[R706](notes/2026-11-26-run05-actual-input-identities-and-same-mathematical-target.md)给同准确g但不同工作文件。
-
-05的[完整8–11归因](notes/2026-11-26-run05-actual8-11-integral-direction-full-trial-families-and-history.md)含5/6与原初cd530/core/H/omega来源、f1e504/report182574、Phi189.962702/max .501278495/α1/32/μ.01，QP64未驻；四大下降ray只reach正，完整K/D伙伴与1851/1851/protected39历史保。[direct后退SOC四全源](notes/2026-11-26-direct-integral-complete-backtracked-SOC-source-and-policy.md)450a/b550/7207/b706及九历史ready已刊；seed19真实返回后加第十历史再准入，原全参数/最终memory复读保留。
+旧03b/03及05的5–18完整输入、失败、初字和地点链全保7774固定交接及[8–11全归因](notes/2026-11-26-run05-actual8-11-integral-direction-full-trial-families-and-history.md)；不重做R697/R702/R705。[R706](notes/2026-11-26-run05-actual-input-identities-and-same-mathematical-target.md)同准确g不迁工作字节。[direct后退SOC四全源](notes/2026-11-26-direct-integral-complete-backtracked-SOC-source-and-policy.md)及九历史ready已刊；seed19真实返回后加第十历史再准入，全部原参数/最终memory复读保。
 
 ## 04及旧02边界
 
@@ -35,7 +33,7 @@
 
 ## 已刊工具与未付目标
 
-[R708](results/R708-supported-unit-meridian-seed-contraction.md)/[R709](results/R709-global-convex-mean-closure-without-contraction.md)的唯一均值正根/两角jet/残差界已证，无q<1门。[完整新固定seed入口](notes/2026-11-26-fixed-supported-unit-reference-normal-SO3-entry.md)九全源bd9c/30ea/e1bb/9fec/5297/d84b/e482/fa468/d788及全参数已刊并排05，九份历史均实存；端层S/16、epsilon1/10，原全变量/Gram/geometry、m32保。仅静态核，未预称首场或成功；均值J不迁证normal Cu。
+[R709](results/R709-global-convex-mean-closure-without-contraction.md)完整凸均值正根/两角jet已证；[原固定seed九全源入口](notes/2026-11-26-fixed-supported-unit-reference-normal-SO3-entry.md)已排05，全部九历史/原全变量/m32保，未返首场；均值J不迁证normal Cu。
 
 [R700](results/R700-integral-so3-full-sixjet-control.md)限固定M/正rho，QR49a1限234ac/7f未跑；全922胞/尾/浮点/隐式费用及同g真实精化未付，其他完整工具保固定交接/results。研究未完成。
 
