@@ -1,0 +1,139 @@
+{
+  "source_head": "9c5f7ee324397ea545fdff7d6030db7be0ad627a",
+  "run_id": "45802097600",
+  "run_attempt": "1",
+  "job_status_before_publication": "success",
+  "scope": "The complete original M12 common-cut prefix only; r=.6 is an internal tail seam.",
+  "full_tail_solved": false,
+  "exact_isometry_proved": false,
+  "regeneration": "Run this workflow at the same source commit. The original prefix and every tail block are recovered by known public Git blobs with SHA checks.",
+  "raw_retention": "RUNNER_TEMP only. No raw Git, release, or artifact publication.",
+  "receipt": {
+    "head": "9c5f7ee324397ea545fdff7d6030db7be0ad627a",
+    "run_id": "45802097600",
+    "scope": "All original prefix intervals. The radius .6 port is an internal tail seam, not the true flat terminal.",
+    "full_tail_solved": false,
+    "exact_isometry_proved": false,
+    "request_sha256": "dbd021e304a47ea4b5c6c9d640b37dd7cd2cc69a35c4a9f42320bb7c8538c88f",
+    "files": {
+      "tail-endpoint.json": {
+        "sha256": "aebf52b5364e62ef26eba3b3ddacc845cf7e1962964905d9e0c4f45eafc4fa42",
+        "bytes": 8142
+      },
+      "joint-prefix.log": {
+        "sha256": "21998b76021beee2dcde87155bde98d7b4ebb1d1e3863c464902c9b1c4f7463a",
+        "bytes": 4614
+      },
+      "endpoint.log": {
+        "sha256": "5c68e186c190184a1e6819ec631c7fb45d38ad788b77a36f594c6206c73f3e34",
+        "bytes": 10138
+      },
+      "joint-prefix.json.field.npz": {
+        "sha256": "78428c9792b7ca4f341ca8c732b1dad8d08155fc21fb3f0f23d84c7fb5485d70",
+        "bytes": 181955
+      },
+      "joint-prefix.json": {
+        "sha256": "86917a4c4edefa60114ef97564fbd7a49d65b5aae0b77284c49a111ac6320a02",
+        "bytes": 3602
+      },
+      "m12-prefix-data.npz.gz": {
+        "sha256": "359d491cd592962d467fdd538013977ee9a92070346de41c227d9ca3e1ef3bd0",
+        "bytes": 3112330
+      },
+      "tail-endpoint.json.endpoint.npz": {
+        "sha256": "d713b3b75d48d075439b76a5fc4b18e0f12a7df6fe250703b0d188563c83e6d0",
+        "bytes": 23134
+      }
+    }
+  },
+  "scalar_observation": {
+    "schema": "6a65-original-M12-global-common-cut-prefix-joint-position-BVP-recovered-v1",
+    "script_sha256": "ddca0e263e7ff8e28b959b18da2439de6245d05914b6612efe9840bd661c7edd",
+    "source": {
+      "data_sha256": "359d491cd592962d467fdd538013977ee9a92070346de41c227d9ca3e1ef3bd0",
+      "common_meta_sha256": "253179d585d4ac0e59206d4e579de5663943f126473668c45a3bbda665c9c8f2",
+      "bridge_sha256": "1389cf1a339b0a0d749beb666b6def24a31e766eff0abf63289217728ceacdaa",
+      "endpoint_report_sha256": "aebf52b5364e62ef26eba3b3ddacc845cf7e1962964905d9e0c4f45eafc4fa42",
+      "endpoint_cache_sha256": "d713b3b75d48d075439b76a5fc4b18e0f12a7df6fe250703b0d188563c83e6d0",
+      "original_common_cut_producer_sha256": "317e519fda8d78fb70b53f8a8c80d51599dec1ac46e92741cd9b2576a3f4fa7d"
+    },
+    "linear_operator_sha256": "b8857ea5eaccd1c744fddd94182cc733396360fadb96400576cb9fb818eeeca0",
+    "streaming_operator_sha256": "0c1b791f7c8526b366759ac86e52dd9339f8817e081b86f992ade75b6d22323c",
+    "field_sha256": "78428c9792b7ca4f341ca8c732b1dad8d08155fc21fb3f0f23d84c7fb5485d70",
+    "original_exact_metric_unchanged": true,
+    "exact_bridge_root_used": true,
+    "physical_length_numerical": 2.021775895105453,
+    "lambda_numerical": 1.0000000000000004,
+    "basis_unit_coordinate": "x=s/S_star=native/S0; saved binary unit knots, exact S_star from original bridge root",
+    "elements": 158,
+    "order": 48,
+    "unknowns": 22922,
+    "angular": 768,
+    "gauss": 8,
+    "analytic_adjoint_relative_error": 4.953376908871223e-15,
+    "initial_training": {
+      "metric_peak": 7.974019222701765e-09,
+      "weighted_energy": 3.6957411451008803e-19,
+      "curvature_peak": 5.112724678538015,
+      "support_lower": 0.8178848911914878,
+      "peak_radial_index": 42,
+      "peak_angle_index": 256
+    },
+    "rows": [
+      {
+        "step": 0,
+        "lsmr_stop": 7,
+        "lsmr_iterations": 1600,
+        "lsmr_residual": 4.7333250295032695e-11,
+        "condition_estimate": 40.40572018066576,
+        "accepted_alpha": 1.0,
+        "attempts": [
+          {
+            "alpha": 1.0,
+            "metric_peak": 4.640735744274841e-10,
+            "weighted_energy": 2.2404366578450988e-21,
+            "curvature_peak": 5.112724678545759,
+            "support_lower": 0.8178848938629955,
+            "peak_radial_index": 1225,
+            "peak_angle_index": 633
+          }
+        ],
+        "memory": {
+          "VmHWM": "269068 kB",
+          "VmRSS": "169464 kB"
+        }
+      }
+    ],
+    "independent_observer_before": {
+      "metric_peak": 7.972465798645733e-09,
+      "weighted_energy": 3.695740559432329e-19,
+      "curvature_peak": 5.1127246793205305,
+      "support_lower": 0.8178848911920708,
+      "peak_radial_index": 53,
+      "peak_angle_index": 512
+    },
+    "independent_observer_after": {
+      "metric_peak": 4.6393601242341044e-10,
+      "weighted_energy": 2.2404902625081332e-21,
+      "curvature_peak": 5.1127246793227545,
+      "support_lower": 0.8178848938612796,
+      "peak_radial_index": 1533,
+      "peak_angle_index": 242
+    },
+    "independent_peak_physical_s": 1.9621752344277992,
+    "central_and_common_cut_0_1_2_jet_correction_max": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "central_reference": "Exact arclength normalization of original rational central curve to f=1; Xs=ez, Xss=0; installed over the whole first ramp by full two-jet Hermite correction before solving",
+    "all_internal_prefix_interfaces_free": true,
+    "common_cut_is_internal_tail_seam_not_flat_terminal": true,
+    "tail_and_true_flat_collar_not_solved_in_this_run": true,
+    "continuous_metric_certificate": false,
+    "whole_closed_surface_constructed": false,
+    "block": 24,
+    "resident_high_water_KiB": 269068,
+    "seconds": 438.41565698
+  }
+}

@@ -55,4 +55,4 @@ CI每次literal pull在首行marker记SHA；publisher只合并该行，保root�
 ## 继续顺序
 
 根：新Γ95连续证书/同g加密与真实CI消费；geometry：完整Cauchy oracle和新gap短窗口；exact：M12真实全尾共同图；solver：全位置Gram/曲率/七几何行JVP/JT。子题结束接open.md。合格核才支付全域全时metric、完整非局部reach、固定全部参数的真正加密和完整网格；不得以当前阶段记录收尾。
-<!-- 6a65-m12-ci-rules --> README unchanged at 8d0bb00c8a7ce7c5cf5c64c9eb022d6af989b846; run 45797640490 attempt 1.
+<!-- 6a65-m12-ci-rules --> README unchanged at f9cec40ba07ca9ec4fec177946d90700346c98a3; run 45802097600 attempt 1.
