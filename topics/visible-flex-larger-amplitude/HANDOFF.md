@@ -60,6 +60,6 @@ R691 [完整目标末端相容/Haar角矩](results/R691-frozen-physical-mean-end
 
 ## 当前公开Actions执行
 
-run [45762076394/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45762076394)，源码`a4a535eec561d0f8c79fb673cb7b8987dad033af`；[实际紧凑记录](notes/2026-11-26-public-actions-45762076394-1.md)。当前`followup:actual-fixed-deep-scalar-amplitude-report-attribution-20261126`/completed，返回阶段60；退出码0。
+run [45762076394/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45762076394)，源码`a4a535eec561d0f8c79fb673cb7b8987dad033af`；[实际紧凑记录](notes/2026-11-26-public-actions-45762076394-1.md)。当前`followup:actual-R671-face-PCG-verified-physical-base-first-20261126`/running，返回阶段60；退出码未返。
 
-Actions规则核查：2026-11-26 08:30:35 UTC，真实pull至`faf0155f5148166f2b076dcfc3076b83d9044e6d`，双README相对已读无变化。
+Actions规则核查：2026-11-26 08:31:51 UTC，真实pull至`67f0ba8e6fd40f0b91b1d1c35e71e0fa2985fbf5`，双README相对已读无变化。
