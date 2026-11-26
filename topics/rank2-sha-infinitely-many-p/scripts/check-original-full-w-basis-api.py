@@ -64,7 +64,7 @@ def exact_quadratic_embedding_case():
     C, receipt = transport._recover_complete_matrix(P, weights, fp)
     assert C.base_ring() is R
     assert C == diagonal_matrix(R, [R.one(), R(k(2))])
-    corrupted = P.copy()
+    corrupted = matrix(R, P)
     corrupted[0, 0] += omega
     rejected = False
     try:

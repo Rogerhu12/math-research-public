@@ -448,7 +448,7 @@ def complete_w_matrix_recovery_preflight():
     assert recovered == expected and any(p.degree() > 0 for p in recovered.list() if p)
     # Force the extra source rows to participate in the final full return:
     # a term divisible by (t-5)^5 changes no recovery coefficient but must fail.
-    corrupted = P_all.copy()
+    corrupted = matrix(R, P_all)
     corrupted[n, 0] += (t-5)**5
     rejected = False
     try:

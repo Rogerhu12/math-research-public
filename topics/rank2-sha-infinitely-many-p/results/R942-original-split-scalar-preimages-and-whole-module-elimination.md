@@ -1585,3 +1585,25 @@ v(Z)=max(v(N)−v(D),0)、v(P)=max(v(D)−v(N),0)。
 
 本节给完整运输的证明和可执行门，尚未发布这一理想运输的生产
 接入，更没有把未执行的六个极除子或四个原交除子记成 PASS。
+
+
+### 13.10. 公开小 API 首次实际失败及准确修复
+
+run **45791997495**、job **139813067288**、source
+`8b76a69ba347ad927afeb938bc45e27202a99ce5` 于2026-11-26
+09:27:17 UTC在构造fixture中失败，无最终RESULT。
+完整日志19653 bytes，SHA-256
+`9b7ec914dfed38181499c6890a58465df05df20d64a6ac94269793cd04f92741`。
+
+root亲读manifest及完整栈；4维非恒定矩阵的全部源/逆回乘和expected
+断言已返回，随后负例的 `P_all.copy()` 抛出
+`Matrix_polynomial_dense` 无该属性的 AttributeError。
+只修这处与同reader二次域负例的 `P.copy()`，均改为既有Sage
+构造器 `matrix(R, P_all)` / `matrix(R, P)`；数学算法、全部门、
+请求及workflow不改。root逐行diff确认两份源码各仅这一处变更。
+
+修后helper23629 bytes，SHA-256
+`85cc92c3536fc0a326d3d51f6fb553f823fb1d63f70622ba4caa9ebd33680af8`；
+reader6554 bytes，SHA-256
+`3e7bb1a8e57b381965c586fb5983b94d6a1ff5c7faa8a5dc5182299b4de2fd54`。
+本次推送只重发独立小API；仍未执行原306 W或原除子。
