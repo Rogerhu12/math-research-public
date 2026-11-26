@@ -1,0 +1,41 @@
+{
+  "schema": "6a65-strong-branch-same-job-followup-v1",
+  "followup_id": "6a65-r219-K19-after-real-J36-20",
+  "run_id": "45778054176",
+  "attempt": "1",
+  "action": "continue",
+  "parent_state_sha256": "5c3d8e5eb512e44c366cd99390650f5370f30410f678c506f2f80cfeaa78398d",
+  "parent_observer_sha256": "8999201de9998dcc843f0d91717eec1b67c124c604418b3d532dfcdb6585aeb6",
+  "rules_read_commit": "e4c6c316be388a4ce6f7fbba182ac7c40aa2a63f",
+  "source_commit": "def7385e2054e5ffb5edad1a32ee470565fd006a",
+  "scope": "Actual same-job current R219/J36 checkpoint; only angular basis K11 to K19 is enlarged. N128, 84 frozen peak points, R219 caps, physical clock, geometry guide, and all old coefficients remain unchanged at zero injection. New complete baseline precedes every new acceptance.",
+  "continuations": [
+    {
+      "label": "r219-J36-K19-after20",
+      "transition_kind": "new_discretization_and_geometry_guide",
+      "init_script": "6a65-r219-angular-zero-injection.cjs",
+      "run_script": "6a65-run-low-wide-expanded-peaks.cjs",
+      "init_arguments": [
+        "{candidate}",
+        "{source}",
+        "19",
+        "{prefix}"
+      ],
+      "run_arguments": [
+        "{candidate}",
+        "{source}",
+        "{prefix}",
+        "run"
+      ],
+      "initial_suffix": "-initial.json",
+      "checkpoint_suffix": "-state.json",
+      "initial_schema": "6a65-R219-expanded-peaks-initial-v1",
+      "checkpoint_schema": "6a65-R219-expanded-peaks-checkpoint-v1",
+      "accepted_counter": "r219AcceptedSteps",
+      "steps": 12,
+      "prior_observed_steps": 0,
+      "report_suffix": "-report.json",
+      "precise_transition": "New angular discretization only; existing geometry guide is explicitly unchanged; no new peak points or weights."
+    }
+  ]
+}

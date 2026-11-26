@@ -7,7 +7,7 @@
 
 完整连通闭C2嵌入族、共同g和固定握持开区域；全曲面D下held/D≥.05、含反射δE>0、全时reach/D≥.03、全域全时metric≤1e−6，并支付同一g/全部物理参数下真加密到求解容差及可复现完整网格。基础之后继续held/D≥.2、δE/D≥.05或严格存在。本题尚未完成。
 
-- 根/课题README完整读于 `f0548477576caa2373d1626227a284ccfa9767d0`；接手真实pull在05:16UTC成功。最近已读公开提交 `ca72aa01e4ca293de2bece8a9eefb41e34d87579`（2026-11-26 08:31 UTC真实pull/rebase后，双README逐差均无变化）。每次真实pull后核两README差异，至少每小时；有变只读差异立即执行。本轮各次均无差异。
+- 根/课题README完整读于 `f0548477576caa2373d1626227a284ccfa9767d0`；接手真实pull在05:16UTC成功。最近已读公开提交 `3380bc2ced15d787c24ca170c885f976c4e7a71a`（2026-11-26 08:42 UTC真实pull/rebase后，双README逐差均无变化）。每次真实pull后核两README差异，至少每小时；有变只读差异立即执行。本轮各次均无差异。
 - 私库根规矩完整读；QUEUE认领已推 `c7785184d0d9c503852fb2137e9e2c091221d080`，状态进行中（本会话/2026-11-26）。认领推拒均即时pull/rebase再推成功。
 - 每结论分条commit/push；推拒立即pull --rebase循环，不强推、不amend已发布提交。完整证明直接登记；不回到旧独审/冻结手续。可重算数组不进Git/Release/artifact，只存源码、参数、run/hash。单MD<100KB、H<10KB、课题<200MB；不写根LOG。令牌只在命令进程环境。
 - 部分克隆 `/tmp/visible-flex-6a65e705/math-research-public`；同级 `solver-work/geometry-work/exact-work` 保存raw。/workspace空间不足，勿将大数组放回。05:47旧环境/tmp丢失，05:54已重新部分克隆和冷重生，不借旧失联数组身份。
@@ -24,9 +24,9 @@
 
 ## 实际主线与当前原件
 
-**强分支原线。** 原2/quartic6、gap1/Δ.05三步、42峰点三步、K11三步及R219/N128/84点三步均有真实链：[角空间六步](notes/2026-11-26-6a65-angular-zero-injection-and-six-accepted.md)、[R219三步及152915点观察](notes/2026-11-26-6a65-r219-three-accepted-and-dense-observation.md)。R219第三态metric .183831、dense κ15.294、held.623708不合格。文件 `geometry-work/low-wide-R219-lm03-state.json` SHA `c04b3e122fde0a4e307240b50057d4b3accdd27843c5404c9e1463bdb102f68a`；observer SHA `3a9ee98b6889f6776ecb6b04ebc7761564e485f4c594e5491aa5d81e0008b9c4`。
+**强分支原线。** 原2/quartic6、gap1/Δ.05三步、42峰点三步、K11三步及R219/N128/84点三步均有真实链：[角空间六步](notes/2026-11-26-6a65-angular-zero-injection-and-six-accepted.md)、[R219三步及152915点观察](notes/2026-11-26-6a65-r219-three-accepted-and-dense-observation.md)。R219第三态metric .183831、dense κ15.294、held.623708不合格。完整原件及两SHA见上述R219三步note。
 
-[两真实峰驱动R208](notes/2026-11-26-6a65-r219-observed-radial-three-accepted.md)插1/24、49/120、17/40，J33→36；1694列3步真0，末R².03452887/metric.192962/κ13.689。末态 `r219-observed-radial-lm03-state.json` SHA `e6a9ce54e7ee69abe9ef2af78518005d7c6869b9e32398aba3ae26bcf9c73d99`。
+[两真实峰驱动R208](notes/2026-11-26-6a65-r219-observed-radial-three-accepted.md)插1/24、49/120、17/40，J33→36；1694列3步真0，末R².03452887/metric.192962/κ13.689。三步原件身份见该note。
 
 [完整K19首接受](notes/2026-11-26-6a65-r219-k19-one-real-step.md)在同N128和全部84峰点零注入1152列，旧两jet/列probe差0。2846列/226238行真0：全步拒、半步收，R².03210829/metric.1921304/κ13.03759/held.622856，A.86403767/Z.50726027。末态 `r219-J36-K19-lm01-state.json` SHA `7d6fb4a770c170d7487890671e1e3865f36ac39339427f49a456fafdc04e23ef`。没有第二步，未冒同最终g收敛。
 
@@ -42,7 +42,7 @@
 
 旧run45767322734/job139731246744在第20数学接受真0后因CAS发布failure，21–60未发生；原bot小报告已实际fetch/cherry-pick，CAS识别已修，[记录](notes/2026-11-26-6a65-solver-actions-twentieth-cas-failure.md)。不能用静态running猜活状态。
 
-[新run45778054176](https://github.com/Rogerhu12/math-research-public/actions/runs/45778054176)/job139766458381，冻结head2ed4f1ef9、loaded controller5093095a…，08:26UTC API仍in_progress。原17恢复+R219已见3步+真实observer真0；R208/J36至第14步均真0，其中11个新接受，末metric.185997/κ13.58266/held.623890仍欠，计划20步中前3仅是已见恢复。raw保持同job，不因main变化热替换数值源码；最终等严格state/observer/readrules SHA匹配的后继请求。正常停滞保真实旧态/观察并等新方向，不记拒绝trial为结果。
+[新run45778054176](https://github.com/Rogerhu12/math-research-public/actions/runs/45778054176)/job139766458381，冻结head2ed4f1ef9、loaded controller5093095a…，08:36UTC实际20步全部exit0（17个新接受）；末metric.185644/κ13.57097/held.623703，157541点真0 observer κ13.86048，仍欠。末态SHA `5c3d8e5eb512e44c366cd99390650f5370f30410f678c506f2f80cfeaa78398d` / observer SHA `8999201de9998dcc843f0d91717eec1b67c124c604418b3d532dfcdb6585aeb6`。根已发严格匹配后继：同N128/84点/R219的K11→19零注入后12次完整新尝试，来源def7385e2；发包不是接受结果。raw保持同job，不因main变化热替换数值源码；最终等严格state/observer/readrules SHA匹配的后继请求。正常停滞保真实旧态/观察并等新方向，不记拒绝trial为结果。
 
 CI每次literal pull在首行marker记SHA；publisher只合并该行，保root其它文本，不amend已发布提交。等待fetch30秒，新请求或45分钟才真实pull。root分条push同时遇NFF/锁冲突均已即时pull/rebase循环成功。后继文件 `ci-requests/6a65-strong-followup-20261126.json` 必须消费实际末态，不猜SHA。
 
