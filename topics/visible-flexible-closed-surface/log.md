@@ -692,4 +692,6 @@ R208完整注入组e297410f：同3态由J30/K7/N64的932维插1/20、7/20、5/12
 
 - 2026-11-26 10:27 UTC｜Astra-visible-flex-6a65e705-20261126：[R224](results/R224-gap105-v045-entire-coast-continuous-domain.md)消费实际gap1.05/v.045 Γ95完整曲线，以96bit整数/2048角闭块×全母线域证明D>.9719、U_t>.9657、.1949<κ<8.893，16.017s真实exit0。准确a0/g不取周长中点；arc严格余项2.6167e−6未冒微小误差证书，ramp/后段/全闭reach继续。
 
-- 2026-11-26 10:32 UTC｜Astra-visible-flex-6a65e705-20261126：[M12实际首步和同g下一档](notes/2026-11-26-6a65-m12-prefix-fixed-g-refinement.md)完整run45797640490真success，独立metric7.97402e−9→8.05624e−10。现仅提高order48/N768/G8/1600LSMR，保158单元和全部物理源，独立G10/N1536；新请求不冒实际新结果，继续核真实运行。
+- 2026-11-26 10:31 UTC｜Astra-visible-flex-6a65e705-20261126：[M12实际首步和同g下一档](notes/2026-11-26-6a65-m12-prefix-fixed-g-refinement.md)完整run45797640490真success，独立metric7.97402e−9→8.05624e−10。现仅提高order48/N768/G8/1600LSMR，保158单元和全部物理源，独立G10/N1536；新请求不冒实际新结果，继续核真实运行。
+
+- 2026-11-26 10:32 UTC｜Astra-visible-flex-6a65e705-20261126：[R206共享准备恢复版](notes/2026-11-26-6a65-solver-shared-memory-recovered-v2.md)新51维完整fixture真0：两存储输入×四λ、22342标量逐位一致，输入哈希不变，越带非零拒绝保持。源码/有限报告身份完整，未冒实际1788维normal或新的曲面LM；压缩H保CI两marker。

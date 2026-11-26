@@ -7,7 +7,7 @@
 
 完整连通闭C2嵌入族、共同g和固定握持开区域；全曲面D下held/D≥.05、含反射δE>0、全时reach/D≥.03、全域全时metric≤1e−6，并支付同一g/全部物理参数下真加密到求解容差及可复现完整网格。基础之后继续held/D≥.2、δE/D≥.05或严格存在。本题尚未完成。
 
-- 根/课题README完整读于 `f0548477576caa2373d1626227a284ccfa9767d0`；接手真实pull在05:16UTC成功。最近已读公开提交 `c81ee4f55686ccce58b48538804ca3bf1e8da182`（2026-11-26 10:31 UTC真实pull/rebase后，双README逐差均无变化）。每次真实pull后核两README差异，至少每小时；有变只读差异立即执行。本轮各次均无差异。
+- 根/课题README完整读于 `f0548477576caa2373d1626227a284ccfa9767d0`；接手真实pull在05:16UTC成功。最近已读公开提交 `781c101c33c5772780958c7560cb92049c6673d6`（2026-11-26 10:32 UTC真实pull/rebase后，双README逐差均无变化）。每次真实pull后核两README差异，至少每小时；有变只读差异立即执行。本轮各次均无差异。
 - 私库根规矩完整读；QUEUE认领已推 `c7785184d0d9c503852fb2137e9e2c091221d080`，状态进行中（本会话/2026-11-26）。认领推拒均即时pull/rebase再推成功。
 - 每结论分条commit/push；推拒立即pull --rebase循环，不强推、不amend已发布提交。完整证明直接登记；不回到旧独审/冻结手续。可重算数组不进Git/Release/artifact，只存源码、参数、run/hash。单MD<100KB、H<10KB、课题<200MB；不写根LOG。令牌只在命令进程环境。
 - 部分克隆 `/tmp/visible-flex-6a65e705/math-research-public`；同级 `solver-work/geometry-work/exact-work` 保存raw。/workspace空间不足，勿将大数组放回。05:47和09:18两次失盘；09:38已重新部分克隆、真实pull。旧本地raw/未公开源均失，不借旧字节身份；第二次中断及恢复见[真实回执](notes/2026-11-26-6a65-cauchy-same-job-recovered-transition.md)。
@@ -26,7 +26,7 @@
 
 **强分支旧输入。** 已登记的2/quartic6、gap1/Δ.05、42/84峰点、K11/K19和R208真插结不重做；详见[09:18前H](https://github.com/Rogerhu12/math-research-public/blob/3e210ee69/topics/visible-flexible-closed-surface/HANDOFF.md)。这些实际有限下降都未达metric/reach/held。
 
-**原M12同g修正。** 四应力48弱矩/完整Gram Schur虽降低能量但未胜旧Phi，全记录见历史H。[首ramp三档](notes/2026-11-26-6a65-m12-central-ramp-three-refinements.md)和[R221](results/R221-m12-ramp-generated-exact-coast-and-c2-seam.md)完整C2接合/6838整数叶整coast已付。M95/191/383接合后metric3.46869e−10/4.31484e−12/3.66688e−12仍是局部采样。[全自由正K BVP/双seam](notes/2026-11-26-6a65-free-positive-bvp-and-signed-seam.md)局部独立峰3.8004e−11却抬首ramp5.1657e−9，未采用；转同g全域联动。[24旧blob准确端点](notes/2026-11-26-6a65-exact-tail-endpoint-streaming.md)已定点恢复；r=.6只是内接缝，不冒真平领。signed连续域门槛未付，不借R221证书。
+**原M12同g修正。** R221原首ramp→精确coast完整C2接合/6838整数叶已付，三档metric仍仅采样；[全自由正K BVP/双seam](notes/2026-11-26-6a65-free-positive-bvp-and-signed-seam.md)局部下降却抬全前缀峰，未采用。[原24blob准确端点](notes/2026-11-26-6a65-exact-tail-endpoint-streaming.md)已恢复；r=.6是内接缝，真全尾正在装入。历史失败/四弱矩见旧H与log，不再重做。
 
 **新强初场历史。** 长warm、.18/.14自然周长和pure-clock旧value/失盘详见[恢复记录](notes/2026-11-26-6a65-cauchy-same-job-recovered-transition.md)。旧raw失去即不借字节身份。当前真实同job已重生全部1788列，继续完整LM；剩余E/F不能靠再改标量clock支付。
 
@@ -36,13 +36,17 @@
 
 ## 公共CI实际状态与继续
 
-旧run45767322734/job139731246744在第20数学接受真0后因CAS发布failure，21–60未发生；原bot小报告已实际fetch/cherry-pick，CAS识别已修，[记录](notes/2026-11-26-6a65-solver-actions-twentieth-cas-failure.md)。不能用静态running猜活状态。
+旧run45767322734第20数学接受后CAS发布失败，21–60未发生；原bot小报告已取回、CAS已修，见[记录](notes/2026-11-26-6a65-solver-actions-twentieth-cas-failure.md)。
 
-[run45778054176](https://github.com/Rogerhu12/math-research-public/actions/runs/45778054176)/job139766458381，冻结head2ed4f1ef9、loaded controller5093095a…。R208/J36实际20步全0（17新增），157541点observer也0，仍欠metric/κ/held。source-001=def7385e2的K19完整12次接受/独立观察均实际0：末metric.1885028/κ13.01170/held.620585；观察metric.1890794/κ13.02914。当前state `9ada2ac0…590d9`、observer `7c11d591…50a15`，完整SHA见[实际CI报告](notes/2026-11-26-6a65-actions-strong-45778054176-1.md)。09:39实际API仍in_progress，raw保同job。[恢复v2入口](notes/2026-11-26-6a65-cauchy-same-job-recovered-transition.md)已备：实际父态→短Cauchy/.14入口/自然周长/纯clock/1788列新fit+value，再完整LM。源码/recipe身份与计数已实际检查；后继f69a57df已被真实消费：09:44:12发布source-002=28c629a0627冻结，状态running_same_job_followup；09:50:30新baseline真0：1788列，R².18745698/metric.34164247/κ18.53034，initial SHA1bd298e2…77ad；首两步真实exit0/alpha .25,.5；10:18:23末R².1090827/metric.2668901/κ26.79246/held.6282139，state9c757d18…3f47f；κ仍比新baseline差，不合格。新epoch冻结，不热替换controller，不冒接受。
+[当前run45778054176](https://github.com/Rogerhu12/math-research-public/actions/runs/45778054176)/job139766458381，冻结head2ed4f1ef9、controller5093095a…。R208/J36实际20步、source001 K19完整12次和各自observer都真0；K19末state9ada2ac0…590d9/observer7c11d591…50a15，密观察metric.1890794/κ13.02914，未合格。完整身份见[CI报告](notes/2026-11-26-6a65-actions-strong-45778054176-1.md)。
+
+source002=28c629a0627在09:44:12真实消费：实际父态→短Cauchy/.14入口/自然周长/纯clock/全部1788列fit+value→12完整LM尝试。新baseline09:50:30真0，R².18745698/metric.34164247/κ18.53034；首两步真0/α.25,.5，10:18:23末metric.2668901/κ26.79246/held.6282139，state9c757d18…3f47f。κ仍劣于baseline，不能计合格。新epoch冻结，不热替换controller或猜末态；raw只同job，quiet不推断失败。恢复入口见[说明](notes/2026-11-26-6a65-cauchy-same-job-recovered-transition.md)。
 
 CI每次literal pull在首行marker记SHA；publisher只合并该行，保root其它文本，不amend已发布提交。等待fetch30秒，新请求或45分钟才真实pull。root分条push同时遇NFF/锁冲突均已即时pull/rebase循环成功。后继文件 `ci-requests/6a65-strong-followup-20261126.json` 必须消费实际末态，不猜SHA。
 
 原M12[恢复版全前缀workflow](notes/2026-11-26-6a65-m12-global-prefix-recovered-workflow.md)首无job失败已修；[真实run45797640490](notes/2026-11-26-6a65-m12-global-prefix-ci-45797640490-1.json)完整成功：原g/158单元15386列，800LSMR stop7，α1接受；独立G8/N768 metric7.97402e−9→8.05624e−10，κ5.11272468。实际166.276s，raw SHA1e0cf38f…0a5d仅RUNNER_TEMP。[下一档同g请求](notes/2026-11-26-6a65-m12-prefix-fixed-g-refinement.md)已写：158单元/order48/N768/G8及1600LSMR，独立G10/N1536；r=.6仅内部端口，真正全尾另续。
+
+[R206共享准备小对照](notes/2026-11-26-6a65-solver-shared-memory-recovered-v2.md)恢复版51维两输入×4λ实际exit0，22342标量逐位同旧式，输入未变、越带拒绝保持；未消费实际1788维normal，未接当前CI，不冒内存原因或曲面接受。
 
 ## 继续顺序
 
