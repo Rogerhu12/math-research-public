@@ -355,3 +355,7 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 ### R594 完整八模实际BVP包已准备
 
 [正式新输入](notes/2026-11-26-r594-eight-mode-weak-bvp-implementation.md)冻结全部实际265q及强迫列H/scale，从零加入7真实flat/core幅、8×61个δα+2径向函数和静态H，共496未知。实际128角/全原span径向网解At/M八个弱行及R597真实核心行；完整隐式turning Jacobian与原metric/核心D、质量谱皆另报。新10/12/14/16分别付DtN和外传，旧四口/射击/64角baseline不复跑。只有同q细网及两direct观察均≤2e−9才升级幅度，其余原无限尾/连续谱/固定g/宏观门仍未授。
+
+### R582 固定有限非圆正式输入已准备
+
+[新完整实现](notes/2026-11-26-r582-finite-resonant-continuation-implementation.md)保参考真μν和已付归一口，新的dense外传/两s-ODE明确计费；共同C² quintic供应实际空间导数，数值零尾和准确无限核的差仍欠认证。固定p=.181/ε=.001开始，旧81q可变且p不回缩，逐级完整细硬几何/metric过门才增到p=.8；所有4811原细节点逐元素保留。每个retained/trial都有自己的p，当前构造网与实际资格不混。末p目标η1e−7仍仅数值设计门；固定最终g精化、原无限尾/FFT误差和全pair reach继续。

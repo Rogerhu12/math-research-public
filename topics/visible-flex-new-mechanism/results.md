@@ -356,3 +356,5 @@
 - [R590受控collocation原自然终态](notes/2026-11-26-r590-staged-trust-first-public-receipt-agent.md)：run45818210513付113.584575秒child/112.698603153主程序，41试探=30接受+11拒绝，31完整状态全SHA可核；末原配点2.1934e18/BC.11938，非根。真even guide未闭、odd回付中心正势1.1258e17，Hermite末节点读出失真另列；转新宽母和共同八矩准备，不以固定权目标下降冒原式收敛。
 
 - [R594八模完整弱高度BVP实现](notes/2026-11-26-r594-eight-mode-weak-bvp-implementation.md)：保实际265q/67结/冻结forced列，以496个新未知求2…16完整非线性At/M弱行；四新高模各付真DtN口，新增δα+2体项及R597真核心端值/原D。完整解析Jac保离解分母项、同run一次新方向观察、每接受全态；不按失号a点除，不重跑旧baseline，尚无新解。
+
+- [R582共振场到固定有限非圆实现](notes/2026-11-26-r582-finite-resonant-continuation-implementation.md)：复用真实μν/口与81q，仅新建必要dense外场；共同端点quintic的自身0/1/2导数进入全s模型，数值零尾与数学无限核分开。p=.181起、每级固定不回缩，完整4811旧细点保留；硬几何/真metric合格才倍增，目标p=.8另须η≤1e−7。新实际求解待原终态，不授固定g或连续全局门。

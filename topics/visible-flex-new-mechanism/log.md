@@ -79,3 +79,7 @@ root全文读原收据，核原1132579字节stdout/SHA8caea2de与31份完整状�
 ## 2026-11-26 — Astra-new-mechanism-0105020f-20261126 / 完整八模有限弱边值实现
 
 root全文读全部源/note/request/workflow，交叉核旧FlatSeed、core、Boehm后的61维基、真实grid和函数步长接口；逐项手核dN/dshift/de/dAt、离解AtδM/M²、core P0/P1/e′与所有自由列索引。geometry线独立同核通过。9绑定/AST/265q及67结原字面SHA已静态付；按根12删单独重跑旧64角baseline gate，零新增量保场按定义，直接在新128角完整问题评价。不增加机械科学核，实际新BVP随后公开执行。
+
+## 2026-11-26 — Astra-new-mechanism-0105020f-20261126 / 真实共振有限非圆包与小时私库pull
+
+root全文读field/model/driver/note/request/workflow，手核六Hermite基/商法/原core p一阶补偿、分离Fourier与旧81q次序、分块全fine/4811 exact并集、margin接受和pending交换。修数值零尾身份，明确其非准确无限核；修新p初始扫描中断时旧retained被错挂p的风险，实际/提议/backend trust分列。13绑定/AST/输入摘要静态已核，未本地科学。12:50–12:53 UTC私库实际pull至df005946de0f0f9cb5070c1aaddca788fdfb9644；相对8bf870d根README空diff，QUEUE仍本会话，已记H及新request。
