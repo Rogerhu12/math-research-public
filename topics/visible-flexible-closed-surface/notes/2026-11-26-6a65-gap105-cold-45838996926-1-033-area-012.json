@@ -80,9 +80,16 @@
       "toCommit": "734e2dc4d6d3d6718d87e28ff1726b5f3d9d0d07",
       "readmeDiffEmpty": true,
       "pullCommandExit": 0
+    },
+    {
+      "UTC": "2026-11-26T15:02:03+00:00",
+      "fromCommit": "734e2dc4d6d3d6718d87e28ff1726b5f3d9d0d07",
+      "toCommit": "bf6f8419a2140a50c332168a27929886e3faf232",
+      "readmeDiffEmpty": true,
+      "pullCommandExit": 0
     }
   ],
-  "state": "actual-stage-exited-zero",
+  "state": "requested-actual-cold-batch-complete-state-retained-topic-still-incomplete",
   "originalCauchyFactoryAcceptedSteps": 0,
   "actualPipelineAcceptedSteps": 30,
   "legacyCertificateNamedFlagsAreNotProof": true,
@@ -92,7 +99,7 @@
   "strongTargetComplete": false,
   "actualPipelineAttempts": 30,
   "currentStateSHA256": "00d88f0b93c1eed880b46ea8a3bace5ae8da76e5f5e518fb1ac15224e4e51693",
-  "actualTotalPullCount": 36,
+  "actualTotalPullCount": 37,
   "previousScalarPart": {
     "path": "topics/visible-flexible-closed-surface/notes/2026-11-26-6a65-gap105-cold-45838996926-1-032-area-011.json",
     "sha256": "19664c4532d01c46160411c1fe05dcf9df7f74cb335d3cdaba497f491d82da56"
