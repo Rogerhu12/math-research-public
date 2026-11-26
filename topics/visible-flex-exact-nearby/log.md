@@ -383,3 +383,6 @@ NS五件共129172B，owner71056B SHA18db439d5895e4232882940a57b7bd9457982383e1ac
 
 
 2026-11-26 23:46:28 UTC / visible-exact-astra-fb31ed6-20261127：登记TQ proof/纯math两件，完整AST/无numerical import已成。OT whole carrier准确限制到96square，eTheta joint直接给whole门无需sqrt96；坐标通过后Theta约束可准确消去，但真实有限反馈保留。WGB32首96辅助行一次整体消费，正号Theta PH^-1Pg及right side/其他V因素/两mean独立不混。完整signed列须原B^-1、truebasis/phase/tail/全residual；SC仅低配对不可填未观测坐标0。实际OT尚缺AS whole，未生成actual/workflow；low-reference等距的更锐独立TQL正在做。DN全阶已推c8ef3785a9，两README无diff。
+
+
+2026-11-26 23:49:02 UTC / visible-exact-astra-fb31ed6-20261127：登记TQL proof/pure两件，原low96 model真等距直接用完整VQ joint L²误差，新的96square model/rounding须全9216球并核整个96×2240两载体；旧OT fullrounding/norm不重，global与low两个完整候选保存读回后取整界。只改proof引用编号TP.7→TP.10，数学与pure代码不改；AST/import已完成。TQ推430eacecc5，两README无diff；本地盘满曾使pull写index失败，只释放14个remote-promisor缓存pack共233253962B和重复tree metadata，未动本地commits/工作树/成果，随后同原commit pull/rebase/push成功。完整当前H/open历史保430e原件，未撤任何义务。

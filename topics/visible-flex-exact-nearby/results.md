@@ -381,3 +381,5 @@
 - [DN全阶：实函数空间真实外DN tame逆](results/R144-supplement-all-angular-exterior-DN-tame-inverse-in-real-function-spaces.md)：18个saved有理比较已过；同zero-width module扩球(5e−10,1e−11)、actual t<.081/首moment<.141，Taylor极化与严格频率守恒给所有[∂^n,A]及adjoints。最高导用actual小L² norm，K=Qθ−T全nonmean逆<1.001、显式K_n，单个高背景Γ_n线性一次且由raw A^{n+1}付；无需未知strip/高norm小。两mean/height独立，不冒认whole raw或positive high全逆。
 
 - [TQ：原Theta限制与完整Schur辅助行consumer](results/R149-supplement-original-Theta-restriction-and-joint-Schur-row-consumer.md)：whole OT96×2240→真正Theta Q97 signed96square，joint误差无额外sqrt96；完整逆门通过后是坐标同构，真实有限反馈仍须付。whole-column误差eTheta bX+(bTheta+eTheta)dX；WGB32首96辅助行严格整体[-Q+PH^-1PKQ,PH^-1PU,PH^-1Pg]，保正号/原序，其他finite因子和mean独立。SC低配对不冒原B^-1全列，high residual须全频；纯模块AST/import已过，无actual门预报。
+
+- [TQL：原low96 model精确等距与Theta square误差](results/R149-supplement-exact-low-model-isometry-and-Theta-square-error.md)：真正Gbar E96^a=E96^b精确等距，限制输入后完整E_VQ无需KG512；原whole96×2240 formal/dyadic载体同一，前9216项新HS费用付全部phase/DT/model rounding，ξlow=E_VQ+Elow，与旧global完整候选先保存再整界择小。原两mean/ν/phase/fullphysical Schur仍独立，无新actual预报。
