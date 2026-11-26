@@ -8,6 +8,8 @@
 
 ## 新增结论（2026-11-26）
 
+- **R1021（已证明）**：[R1021](results/R1021-actual-full-p-affine-tail-rigidity-and-quotient-parameter.md)：实际full-p正则环经μ_(p²−1)平均，Cohen方程仅p+F_e+F_2e+…；radial chart在整个非约化O/(p)上为常数DL仿射模型，全部level作用模p真实线性。原普通p-商target eigenparameter准确u′=ε(c_Qψ+pR_Q)，R_Q仅仿射正则，六标记与c_Q单位保留；Dickson恒等式𝒟=ψ^p+C^(p−1)/ψ给首gap的具体Frob消去函数。未把仿射误差当节点有界，实际log跨尾项继续算。
+
 - **R1020（已证明）**：[R1020](results/R1020-original-critical-convolution-complete-theta-scalar-bridge.md)：原全方向精确比值H_p/C_N=120εt·aχ(Nα)²(χᾱ+β̄)/(6B)⁵；t³=4、a=α mod s、χ为α/β mod3的唯一μ6 lift。真实index2另一vacuum系数4c_A、norm3分布负号给d₀=−36c_A；canonical三挠基尺度与Weyl二次相位全部核准。十二个同核表示不变；共同C_N保留，不代primitive/Legendre同h非零或O2 bare单位。
 
 - **R1019（已证明）**：[R1019](results/R1019-original-CM-killing-correspondences-preserve-first-formal-layer.md)：固定实际A=T5²、Z=(T31−32)T5²后，原P=(p−1)D₀仍准确F^m\F^(m+1)，对p11mod12且p>C_A/C_Z；C分别=max(575,N_HA)、max(36863,N_HZ)，N为固定p无关Norm函数的lc/resultant整数。完整字面支撑≤144/9216、dlog零≤142/9214，选无支撑SS尾保同一frame/主化lift；H非constant由导子25/775的唯一完整六标记逆链。A、Z杀全部CM新部，Z另杀Q有理挠点；不扩大到Qp挠点，实际log和simple商整投影仍开。
