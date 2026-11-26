@@ -28,8 +28,8 @@ $$
 
 对 degree130 的完整来源写
 $$
-\Phi=\sigma^{130}x^2\sum_{j=0}^{21}u_jX^j,qquad X=x^3,
-\qquad u_{21}=0,quad u_{20}=1.
+\Phi=\sigma^{130}x^2\sum_{j=0}^{21}u_jX^j,\qquad X=x^3,
+\qquad u_{21}=0,\quad u_{20}=1.
 $$
 准确的角多项式是
 $$
@@ -39,8 +39,8 @@ f(t)=\sum_{j=0}^{21}u_j(-t)^{21-j}.
 $$
 对 degree390 来源写
 $$
-\Psi=\sigma^{390}\sum_{j=0}^{65}c_jX^j,qquad
-c_{65}=0,quad c_{64}=1,
+\Psi=\sigma^{390}\sum_{j=0}^{65}c_jX^j,\qquad
+c_{65}=0,\quad c_{64}=1,
 $$
 则
 $$
@@ -48,8 +48,8 @@ $$
 f(t)=\sum_{j=0}^{65}c_j(-t)^{65-j}.
 \tag{5}
 $$
-这些是完整逐项身份：在(4)中 $2+3j=130-6(21-j)$，在(5)中
-$3j=390-6(65-j)$。因此所有十个来源都从 $z^6$ 起、首系数为一且质量为零。
+这些是完整逐项身份：在(4)中 $2(2+3j)=130-6(21-j)$，在(5)中
+$6j=390-6(65-j)$。因此所有十个来源都从 $z^6$ 起、首系数为一且质量为零。
 
 同次原22/66列投影、两 CM 返回及完整角反转给下表。$D$ 是整来源和角多项式的同一个最小分母，清分母后的整数系数 content 为一。
 
@@ -82,7 +82,7 @@ $$
 $$
 表中的每一新源在原 charge $d_i$ 上满足
 $$
-\deg f_i\le\lfloor d_i\beta\rfloor,qquad
+\deg f_i\le\lfloor d_i\beta\rfloor,\qquad
 \operatorname{ord}_{q}f_i\ge\lceil d_i\alpha_q\rceil
 \quad(q=t,t-1,h_7).
 \tag{8}

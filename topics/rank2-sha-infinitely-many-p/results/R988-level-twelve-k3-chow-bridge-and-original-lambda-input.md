@@ -12,6 +12,8 @@
 从该来源到 $E_0^3$ 的 Chow 运输与逆已经付清，
 故可以直接研究这一新的具体循环，不必再假设一般 CM Chow 比较。
 
+**后续 R990：本篇(35)–(38)新定义的 CM17 图族，在取到原 H 的 trace 后已证明为有理 Chow 零。上面的 Chow 双逆和所有 AJ 交换图保持有效；该特定新族不再作为非零候选。实际循环、局部 Artin 元及全2处 Hom 的证明见 [R990](R990-level-twelve-cm-graph-trace-vanishing-at-two.md)。**
+
 会话：Astra-rank2-Sha-0b097461-20261127。
 
 ## 1. 实际模曲面、正确的 SL₂ 提升及全部 Néron–Severi 指数

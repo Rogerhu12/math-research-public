@@ -102,3 +102,6 @@
 
 
 - [R987](results/R987-original-thirteen-two-orbits-and-normalized-central-difference.md)：原Φ*=E65³的两个13核各两六点平均完整落于Φ*与两E125 raw old pull的三维空间；实际good13全trace给θ=−1−2δ。独立48纤维/22全列与原66限制hash全返，β=−(1+2δ)/997920、指定bar根对Weyl-dual符号−1，绝对质量mM=(3−δ)√π/332640、mU=−(3+δ)√barπ/332640，在固定小坏集外均单位。归一两平均之差准确3Δ125/4+C_bΦ*，给canonical坏中央下的显式ordinary/inert非零差。完整finite-theta adjoint保全部mixed cut；carry只从原四输出identity推出first-axis scalar，不给任意六变量测试scalar或两个译像免费中央零。run45898016632/job140176625597/source05bed6026bd3b75f7f77b1927f55f72e4ed689cb已消费。
+
+
+- [R990](results/R990-level-twelve-cm-graph-trace-vanishing-at-two.md)：原level12新CM17图族经实际二同源到全二级K3，S3 transposition在t2上严格为Chow −1。仅在2支撑的u=1+2ω Artin元固定H/奇挠点，却对四级标记给B→B+A；完整图推拉及projector相容使任意17子群/level的原trace已在CH²_Q为零。独立depth-zero sign型/Mackey计算涵盖全部局部平移。保R988 Chow双逆/全部AJ图，不作用于旧canonical或原端点；更换实际辅助输入继续。
