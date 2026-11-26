@@ -117,3 +117,6 @@
 
 
 - [R995](results/R995-original-lambda-projector-from-elliptic-surface-isogeny.md)：实际I9/I3曲面的三同源给严格f²=−3、f†=−f；关键[n]=n于t2由generic纤维CH0及KMP balanced对应商完整证明，免用有限维性/realization保真。与g=[δ]*配对的(1+f⊗g/3)/2为自伴最高Chow投影且可下降Q。真实CM图的完整fiber-product、内外projector次序、原η trace与H³(2) AJ交换均付；不把投影存在或全高度非零当指定最高AJ非零。
+
+
+- [R994](results/R994-original-beta27-three-rigorous-central-values.md)：原三个β27,j=ψ27ηj的完整CM理想系数、原g0/有限角色和level31212/root+1给中央Mellin单和；M4096/Arb256以完整尾界6.00236e−62<2^-180严格认证三个值均正。run45907264125/job140206875649真实成功，1236完整理想/三份精确共轭全返。结合原R818，R991新Rankin在s2阶数均准确1；不由复解析秩或R995投影存在推出跨p最高AJ非零。
