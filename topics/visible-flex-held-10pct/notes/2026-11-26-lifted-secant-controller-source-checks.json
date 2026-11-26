@@ -1,0 +1,21 @@
+{
+  "kind": "source_structure_check",
+  "complete": true,
+  "BVP_invoked": false,
+  "DN_invoked": false,
+  "actual_continuation_executed": false,
+  "checks": {
+    "finite_nonnegative": true,
+    "original_finite_checks": true,
+    "complete_initializer": true,
+    "last_prefix_event": true,
+    "parser_defaults_and_options_unchanged": true,
+    "complete_original_mode_transfer_branch_unchanged": true,
+    "actual_command_gates_history_and_all_continuation_branches_unchanged": true,
+    "same_M_original_predict_call_unchanged": true,
+    "raw_last_log_removed": true,
+    "one_MB_stop_removed": true
+  },
+  "original_controller_sha256": "b7600de7a668288c85e7ce70ffca09748bb7e251075c1320441d1a76d280d081",
+  "new_controller_sha256": "519c596e3bbff4c5f61038b78b91e9c996655abba8a6a2b96acf16b6853fb373"
+}

@@ -179,3 +179,5 @@ O9初猜对照：原旧态可健康起步，但q025线性放大H的完整Newton�
 已核[v5 actual设计→固定g](notes/2026-11-26-v5-design-to-fixed-actual-dn-interface.md)和[原R53 λ1实际场的两种固定未知空间](notes/2026-11-26-r53-actual-to-fixed-metric-interface.md)。须冻结最终actual δ、完整字面径向/角图、源Cartesian mean/primitive和尾背景；首步明示未接受初猜真求解，不能伪造线性锚。现有五件actual-refinement入口的KIND/1168/端点频率分支需窄适配，R53几何factory本身无.002锁。当前均无λ1/full-DN输入，不构成精化结果。
 
 [跨M完整lift割线入口](notes/2026-11-26-cross-mode-secant-entry.md)79ebe59d已通过语法/CLI及非平凡径向图独立代数核。分别核真锚，以左自己的λ/δ/图作原系数1完整lift，再按共同t与右原cubic外推；不造M40接受锚、cubic或physical，不把不同mean解释成同g。计划消费material VM自己的.032/M32和.064/M40，尚未真实生成预测或BVP；实际续入须独立CLI并重过全部原门。
+
+[独立lifted-secant续入](notes/2026-11-26-lifted-secant-continuation.md)519c已真实compile/help与原控制流AST核，旧在跑源不改。只有低M真锚预测改走独立CLI，同M原预测及实际solver/验收/metric-only升M/失败二分不变；自然返回后从实测最高真锚接续。三个活跃通道只热加inner-00的status/nodes/rms投影；内层返回即使status0也不冒完整metric/physical接受，未投影参数向量。
