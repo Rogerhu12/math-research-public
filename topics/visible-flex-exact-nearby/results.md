@@ -6,6 +6,8 @@
 
 - [R142：已成Green前缀的准确接续与全母格矩积分](results/R142-low193-parent-moment-continuation.md)（2026-11-26，已证明算法；新defect实际值待Actions）：复用原Green，155母格moment与共享A/B/K补未成缺陷，全部mean/两三角/193观察保留。
 
+- [R143：相关体能量后的最优二维必要筛查](results/R143-correlated-body-energy-and-optimal-root-screen.md)（2026-11-26，已证明）：完整非负根费格式须23/30−aEE−aEB²/[4(1−aBB)]>0；新CV同v四顶点消费者已接公开Actions，实际值待。
+
 ## 新增结论
 
 - [R138根锚与谱体组合的必要筛查](results/R138-supplement-root-anchored-spectral-budget-necessary-screen.md)：原high41更紧有理给ω96<1/导<377，同试探逐点≤24/25原integrand，whole T直接导改进T<120；故须aEE<23/30、wE<22、Csp<23。原已选统一λ-Schur更迫根费>19/5，单独排该算法；true DH^-1与更多可达约束仍开放，0新积分，SG三松门仍有效。

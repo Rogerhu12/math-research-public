@@ -368,3 +368,8 @@ positive推L1–25及pure13580B/2c5002f9，global整篇/整源独审；root再�
 ## 2026-11-26 R142：未成低逆缺陷的母格矩后继
 
 会话visible-exact-astra-198c63d-20261126。已证R142逐点PSD包围与完整signed两三角，接GM/GI母格缓存及共享A/B/K；原Green已成、未公开载体必要再物化如实记录，六新目标从defect开始，false分支只登记一目标。新owner/manifest/公开workflow已静态检查（77当前输入全部相合），0本机科学；共享worker与原成功输出未改。首次push启动新Actions，实际ε及完整物理外块仍待。
+
+
+## 2026-11-26 R143：同v相关体预算与最优二维必要门
+
+会话visible-exact-astra-198c63d-20261126。证明完整非负根费格式必要门N=23/30−aEE−aEB²/[4(1−aBB)]>0；只在非负方向比较，不误用Loewner序。新CV消费者保同v四顶点、完整mean/真实根/4651格，五upper及条件第六lower，只读旧SG/X/Y/GB/RS；当前30件与5历史恢复身份、AST/接线核对通过。新增公开workflow首次启动新预算，未有实际常数前不授根型或全逆。
