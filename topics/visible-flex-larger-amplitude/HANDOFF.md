@@ -44,8 +44,8 @@
 [积分六jet控制](notes/2026-11-26-integral-SO3-norm-full-sixjet-control.md)是固定有限M/正rho、全core/H的径向网格无关界，非实际余量或M一致界。[完整QR](notes/2026-11-26-complete-so3-integral-qr-coordinate-interface.md)49a1已刊未跑，仅真实234ac/7f布局，不冒zero/R696/gamma兼容；原Cholesky已经成功，当前方向不换范数。连续cert源已刊未跑；必须先得到真实合格候选，再付完整922胞/全尾/浮点/隐式费用及同g实际精化。研究尚未达到README全部完成标准，继续工作。
 
 <!-- visible-larger-parallel-03:start -->
-并行公开Actions03：[run 45820592817/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45820592817)；[实际记录](notes/2026-11-26-public-actions-45820592817-1.md)。阶段`followup:complete-added-gamma-nine-KKT-strict-same-reference-first-20261126-03b`/running；已返35，exit=未返。
-并行03规则核查：2026-11-26 18:06:35 UTC，真实pull至`077ad1bbf2869a97f6ba68ff62625a4eb0037eb7`，双README无变化。
+并行公开Actions03：[run 45820592817/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45820592817)；[实际记录](notes/2026-11-26-public-actions-45820592817-1.md)。阶段`followup:complete-added-gamma-nine-KKT-strict-same-reference-first-20261126-03b`/failed；已返36，exit=1。
+并行03规则核查：2026-11-26 18:07:04 UTC，真实pull至`b687416ea02e9886f9525c540413d1566eca57a3`，双README无变化。
 <!-- visible-larger-parallel-03:end -->
 
 <!-- visible-larger-parallel-04:start -->
