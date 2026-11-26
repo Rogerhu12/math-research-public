@@ -82,7 +82,7 @@ p未过约2.5e−7阶段门前不升级，目标仍p=.8、最终η≤1e−7。�
 
 K-attainer的reference-normal H11和完整H11都约85.090789，投影没有消除主要宽界；它们是上界，不能冒实际曲率峰/下界。旧f1独立证书比例.00783058仅属f1，同mesh不等于同q，不能移给a237或14d1。
 
-[R623](results/R623-exact-finite-vertical-primitive-with-normalization-remainder.md)已完整证明实际C=v/√(1+v²)的准确有限v primitive＋全部归一化余项：四频逐项除m、cos2θ四阶Bernstein全子区间，余项全径向二jets用π周期11/14；水平11/7、法向转动、全混合块同保。新K-only范围只重求完整K，沿用同a237已付参考ρ/D、δ/α及原core全角盒；body从原collar端全覆盖，中央柱/反射/完整Cartesian帽齐付。未保存端点/H prefix必要再生照实计费。
+[R623](results/R623-exact-finite-vertical-primitive-with-normalization-remainder.md)已完整证明实际C=v/√(1+v²)的准确有限v primitive＋全部归一化余项：四频逐项除m、cos2θ四阶Bernstein全子区间，余项全径向二jets用π周期11/14；水平11/7、法向转动、全混合块同保。[新K-only正式范围](notes/2026-11-27-r623-a237-curvature-only-implementation.md)只重求完整K，沿用同a237已付参考ρ/D、δ/α及原core全角盒；body从原collar端全覆盖，中央柱/反射/完整Cartesian帽齐付。未保存端点/H prefix必要再生照实计费。
 
 新K完整后才接R604；[R622](results/R622-longer-intrinsic-near-pairs-and-same-bound-reach.md)仅在短证书未建立或远项限制且比例不足时另组合。若短证书已受1/K限制，更小的.9/K不可能改善，跳过。完整证书可取max，不能混新较长阈值与旧1/K。若新范围clock中断，保已闭区域最大值/原剩余栈/当前未闭cell，补剩余而不复跑已闭叶。
 

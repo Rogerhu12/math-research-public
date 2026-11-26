@@ -1,0 +1,95 @@
+name: visible-flex same a237 new complete finite primitive curvature
+on:
+  push:
+    branches: [main]
+    paths:
+      - topics/visible-flex-new-mechanism/computations/request-r623-a237-curvature-only-20261127.json
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: visible-flex-r623-a237-curvature-only-20261127
+  cancel-in-progress: false
+jobs:
+  research:
+    name: Pay only new complete a237 curvature with exact finite vertical primitive
+    runs-on: ubuntu-24.04
+    timeout-minutes: 40
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      PYTHONUNBUFFERED: '1'
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+      MKL_NUM_THREADS: '1'
+      NUMEXPR_NUM_THREADS: '1'
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 0
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-new-mechanism/README.md
+            /topics/visible-flex-new-mechanism/computations/request-r623-a237-curvature-only-20261127.json
+            /.github/workflows/visible-r582-current-rows-first-20261126.yml
+            /.github/workflows/visible-r582-local-tail-columns-20261126.yml
+            /.github/workflows/visible-r582-paid-local-tail-angular-20261126.yml
+            /.github/workflows/visible-r582-physical-epigraph-20261127.yml
+            /.github/workflows/visible-r582-retained-continuous-20261127.yml
+            /topics/visible-flex-new-mechanism/notes/2026-11-26-r582-finite-radius-only-original-receipt.md
+            /topics/visible-flex-new-mechanism/scripts/inverse_flat_oscillatory_tail_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/inverse_hard_exchange_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/inverse_hard_exchange_resume_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/inverse_r566_block_jacobian_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/inverse_rotational_metric_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/r582_actual_circle_seed_and_return_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/r582_continuous_mean_profile_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/r582_current_rows_first_continuation_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/r582_finite_resonant_continuation_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/r582_finite_resonant_model_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/r582_finite_resonant_radius_only_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/r582_local_tail_columns_model_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/r582_local_tail_continuation_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/r582_paid_local_tail_angular_continue_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/r582_paid_resonant_field_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/r582_physical_epigraph_continuation_20261127.py
+            /topics/visible-flex-new-mechanism/scripts/r582_retained_continuous_reach_20261127.py
+            /topics/visible-flex-new-mechanism/scripts/r582_same_field_mean_intervals_20261127.py
+            /topics/visible-flex-new-mechanism/scripts/r582_same_field_radial_intervals_20261127.py
+            /topics/visible-flex-new-mechanism/scripts/r582_stable_material_field_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/r582_true_core_shooting_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/r604_reference_reach_norms_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/r604_rotating_frame_continuous_norms_20261127.py
+            /topics/visible-flex-new-mechanism/scripts/r611_circular_reference_global_geometry_20261127.py
+            /topics/visible-flex-new-mechanism/scripts/run_inverse_state_stdin_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/r582_a237_normal_curvature_reach_20261127.py
+            /topics/visible-flex-new-mechanism/scripts/r621_normal_projected_curvature_20261127.py
+            /.github/workflows/visible-r582-a237-normal-curvature-20261127.yml
+            /topics/visible-flex-new-mechanism/computations/request-r582-a237-normal-curvature-20261127.json
+            /topics/visible-flex-new-mechanism/scripts/r623_a237_curvature_only_20261127.py
+            /topics/visible-flex-new-mechanism/scripts/r623_finite_vertical_primitive_curvature_20261127.py
+            /topics/visible-flex-new-mechanism/scripts/r622_long_near_reach_from_complete_bounds_20261127.py
+            /topics/visible-flex-new-mechanism/results/R623-exact-finite-vertical-primitive-with-normalization-remainder.md
+            /topics/visible-flex-new-mechanism/results/R622-longer-intrinsic-near-pairs-and-same-bound-reach.md
+            /.github/workflows/visible-r623-a237-curvature-only-20261127.yml
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.12.14'
+      - name: Same paid reference and full input with only a new global curvature
+        env:
+          MR_TOKEN: ${{ secrets.MR_TOKEN }}
+        run: >-
+          python topics/visible-flex-new-mechanism/scripts/run_inverse_state_stdin_20261126.py
+          --request topics/visible-flex-new-mechanism/computations/request-r623-a237-curvature-only-20261127.json
+          --lane same-a237-new-K
+      # Full original a237 FINAL/FIELD bytes bind all reused scalar/core certificates.
+      # Reuse complete same-q reference and global C0/C1;do not rescan them.
+      # Preserve exact all-four-mode v and nonlinear v/sqrt(1+v*v) remainder.
+      # Bernstein subdivision encloses the full angular polynomial without samples.
+      # Pay one necessary material/height reconstruction and complete [C,L] K traversal.
+      # Paid [0,C] core/collar,mirror and both complete flat caps remain covered.
+      # R622 scalar only if new R604 is unestablished or far-limited below point03.
+      # Original and new complete certificates compared without mixing their terms.
+      # Stdout only;no optimizer,fine,Jacobian,artifacts,leaf tables or caches.
