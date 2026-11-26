@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R150 单位2+1+1相反基点配对的零基点mean整支为空（2026-11-26，已证明）：** [原孤立零点最高式和完整范数纤维](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-opposite-pairings-zero-base-mean-exclusion.md)从P(U)=0得到全权无除法J=2m³及2N_i³+JP_i²=0；p1/q−1/b=c的非半权以完整Gram秩排除，半权两纤维以原等向2+1分类排除。自足QQ源0.734565秒；未扩到q−1的非零基点mean。
+
 - **R150 两点第三累积量与均值立方系数一致时完整临界层只有零第三矩族（2026-11-26，已证明）：** [原完整H解、低梯度与所有射影门](results/R150-appendix-rank-two-third-cumulant-aligned-mean-pencil-is-zero-third-tensor.md)不预设H支撑，排除全部非零λ；两个QQ512次结式全1024阶门802、∞32阶门78，61.711516秒完整成功。保全V²和四参数链式法则；并由最高整除给polar gcd≤1的整个内均值层。旧两原子族本身不重作新发现。
 
 - **R150 单位2+1+1相等非零基点配对与零总单点权重支路为空（2026-11-26，已证明）：** [原二阶最高germ及完整射影消元](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-equal-base-pairings-zero-total-weight-exclusion.md)从p=q≠0、b+c0推出四个物理双点位置，并以QQ22/24/5/9次结式gcd及三非零∞门排尽。自足原源0.506024秒成功，未存可重算数组；q1其它权重和一般非零配对继续。
