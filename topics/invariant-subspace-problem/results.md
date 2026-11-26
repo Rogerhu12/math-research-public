@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R271 原无限算子的完整Gram逆保持闭指数孔权域（2026-11-26，已证明）：** [全carry的两向和、原Gram共轭及闭域Neumann证明](results/R271-appendix-global-actual-operator-weighted-full-gram-inverse.md)直接作用原T_N/T_Y；s≥2²⁴/(m+d)时全部有限/无限J的原inverse权界16/15，与无限L_m原inverse之差≤e^(−d⁴)。保原forcing/同w配对及旧物理源1/y比较，未换最小化度量。权起点随s趋0移动，不能据此推P_M同权性或关闭真实F0/物理返回。
+
 - **R271 真空完整源的逐孔矩、实际物理同源运输与全inverse权界（2026-11-26，已证明）：** [全部初等对称矩与准确正号物理翻译](results/R271-appendix-vacuum-source-moments-all-strong-physical-transport-and-weighted-inverse.md)保原未加权最小者，s≥K/y时两实际同u物理列的γ1/32新孔差≤96√μ1/(√(3K)y)，一次方差选择可用Δ/(y√K)并同时保所有合法x/Q。完整inverse共轭≤31/30、全列≤16/15，闭孔权域与范数极限推广原无限L_m全级数Gram。全空间正则化不是物理真核，F0/Sx和完整返回仍未付。
 
 - **R150 秩二H与秩二V的全部完整临界点本质维数至多四（2026-11-26，已证明）：** [把相反交叉列代回两个分别的原H值方程](results/R150-appendix-rank-two-second-and-third-cumulants-have-essential-dimension-at-most-four.md)得A²=B²=e²/2、e⁴=−F⁴，配2e³=−F³推出e=2F再17F³0，排尽最后Gaussian例外。接全二jet及先前双约化分支，整个rankH=rankV=2仅ess≤4；纯手证含∞，无需原先拟做曲面/有限域门。ess4、rankH≥3及更高rankV仍继续。

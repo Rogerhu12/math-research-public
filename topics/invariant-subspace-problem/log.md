@@ -109,3 +109,6 @@ AI-assisted GPT-6 Astra Pro：[两个原H值式的17矛盾](results/R150-appendi
 
 ## 2026-11-26 07:47:01 UTC — Astra-ISP-347c-20261126：真实物理同源的真空矩运输及全inverse权界
 AI-assisted GPT-6 Astra Pro：[原真空平方和与正号翻译](results/R271-appendix-vacuum-source-moments-all-strong-physical-transport-and-weighted-inverse.md)支付两个真实物理列的1/y差、一次公共方差及原inverse31/30孔权；无限尾/全级数均保闭自然域。完整手证逐式核对，无新计算，继续全T和真实压缩/返回。
+
+## 2026-11-26 07:53:23 UTC — Astra-ISP-347c-20261126：原全无限算子的完整加权Gram逆
+AI-assisted GPT-6 Astra Pro：[全部carry与闭孔权域的原逆证明](results/R271-appendix-global-actual-operator-weighted-full-gram-inverse.md)给统一16/15与T/L_m逆差e^(−d⁴)，保全部J和同w配对。纯证明逐式核对；移动权起点不能替代P_M估计，继续真F0和完整物理返回。

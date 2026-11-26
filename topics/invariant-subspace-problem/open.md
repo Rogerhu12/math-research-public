@@ -98,6 +98,8 @@ $$
 
 **[真空源矩给实际物理1/y运输及全inverse权界](results/R271-appendix-vacuum-source-moments-all-strong-physical-transport-and-weighted-inverse.md)：** 原全部新增位的精确elementary/falling-factorial平方和≤ηe^(ηH)μ1；正号翻译保旧/新两个真实物理同u列，Γ_new差≤96√μ1/(√(3K)y)，一次log方差选择对全部合法x/Q给Δ/(y√K)。原完整inverse的Γ共轭≤31/30，闭自然域推广无限L_m及全级数Gram。它仍是大辅助全空间正则化源，不是物理核，也不能把增长Q的同源身份当固定cut；继续原T比较、真约束Schur及物理返回。
 
+**[原全T完整Gram逆的闭孔权界](results/R271-appendix-global-actual-operator-weighted-full-gram-inverse.md)：** c26取j=k0并完整求和给两向全carry费≤e^(−7d⁴/4)；y=m+d、s≥2²⁴/y时，全部有限/无限J的原未加权inverse共轭≤16/15，和L_m之差≤e^(−d⁴)。闭域/伴随/全级数均付，保同一个w的准确配对与旧物理列1/y差。s趋0须同时移动权起点，故未推出P_M同孔权；继续真实F0混级及物理MP返回。
+
 ### 2.2 仍需接合的原返回接口
 
 - 旧 $\tau14$ 下全高度同w Bessel/能量、一次物理MP及共同log方差均已付；后继 $CD^\dagger$、核外第二逆和真正完整最小源仍开。一次界不自动反复适用，真核终式不保初始阻尼。
