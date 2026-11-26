@@ -544,3 +544,7 @@ manifest11815B/SHA b697e8665801a6e4d5120ca312d72a339cc28a2516d6dabd255f56ee79690
 ### 2026-11-26 — R147 同窗 ν 普通源/腰贡献实际成功
 
 [完整actual](results/R147-supplement-actual-same-window-negative-nu-waist.md) run45781137624/1，job139776609104，4/4新球、child0、provedtrue、无failure。整science 15210B/1a06d01060a63eac98aeaa330f130a8ee766ab5ac878634e637f9cea30e1cb70，execution 13970B/eeb4ed157912e742e8d773ca32b04570296973b924f4a92b1a4ec153c30efe2b，29pins/source/runtime/选定参数/真实window全核；所有candidate保存读回后才completed，乘积消费正式saved upper。F_G<3.720478e−6、F_N<1.307204e−6、G_N<171.351714、Dordinary<2.24e−4。保完整第二非mean及腰两mean、原source和真实dr；不是rawC0或全qν−Z误差。positive/root/impulse/height/Robin/mean/phase/fullincoming仍独立，目标锁定仅读。R142与固定η0积分继续运行。
+
+### 2026-11-26 — R144 紧支撑密度的二次外mean补偿
+
+提交CD完整推导及真正suffix状态规约。χ=4096t⁶(1−t)⁶在[1/20,9/50]为C5，按原负曲率窗证明β>0；固定u及jξ保角mean1，Yξ准确二次且A/B非正。唯一小根保真实正测度V和D_R门，支撑外terminal式保signed源/atoms；同物理角C0、ξχ′、mean零非mean非零、全部原接口及外radialjet完整保留。外state恢复不抹原边界残差、height、phase或cap。suffix规约只承认actual未完前缀，保存整W/G/A_D/D0和全部旧诊断，区分正在格和刚结束格的join归属，不要求重造旧private trace、不伪造拼接hash。本次纯证明/定义，无新科学积分。R142和固定η0仍step5。

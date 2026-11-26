@@ -169,3 +169,7 @@ G以S/T E1856给physical C²整盘/曲率<2/径长<8e−6及同world position/no
 6. **执行环境断开后的接续。** 2026-11-26 05:48 UTC起本机不可用；公开Actions仍运行。暂按根规8用GitHub集成处理小文本、比较main规则；恢复后立即pull/rebase核两README。所有尚仅在失联磁盘的内容必须按真实blob/提交确认，不能标成已推。
 
 最终仍须同一次冻结ν*/Γ*/η/metric后构造同一闭嵌入族；任何组件、源预算或路线排除都不是验收。
+
+### R144：紧支撑密度补偿与真正续算状态
+
+[CD补篇](results/R144-supplement-compact-density-quadratic-mean-compensator.md)给Yξ=Y0+ξA+ξ²B，A/B≤0、|B|≤|A|/2；小根需actual正测度V下界与D_R完整球。χ在[1/20,9/50]为C5，ξχ′、fullmean、physical同角组合、所有raw接口/radialjet/height/phase/cap均保。外pointstate恢复不令原残差为零；rawν0不得继承selected证书。[suffix规约](notes/2026-11-26-R144-fixed-eta0-mean-suffix-state-spec.md)精确区分格内cursor和旧格右端，W/G/A_D/D0整球及原prefix诊断足够续；完整目标只读。本次无新数值，继续actual固定η0输出与独立完整逆。

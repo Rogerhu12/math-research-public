@@ -10,6 +10,8 @@
 
 ## 新增结论
 
+- [R144补篇：紧支撑密度的二次mean补偿](results/R144-supplement-compact-density-quadratic-mean-compensator.md)：严格Yξ=Y0+ξA+ξ²B、符号与条件唯一小根；保whole正性/physicalC0/ξχ′/raw接口、完整phase及帽。外端state恢复只保原残差，不授full解。[suffix状态规约](notes/2026-11-26-R144-fixed-eta0-mean-suffix-state-spec.md)明确完整保存球、真实cursor/接口及旧prefix不可重算。尚无新actual。
+
 - [R144补篇：固定密度的旋转参考相减](results/R144-supplement-fixed-density-rotational-reference-subtraction.md)：复用旧Q.3，新的W主载体准确零初值且无需w′；D代数恢复保原mean初值、全部signed atoms和bulk，W连续不删全场jump。给同Θ的C0及physical外mean准确差，前向a^-2放大保留；新固定η0同r积分未执行。
 
 - [R149补篇：四源、全point与physical准入](results/R149-supplement-complete-source-point-continuation-and-physical-admission.md)：真实R142 false和R149 coercivity成功后，五个新目标补四源/193atoms与5696盒；point只物化原Z covariance，旧HS/trace/θ只读，γ/R原public records复用。三physical入口显式新kind，[metadata生成器](scripts/make_low193_coercive_source_point_manifest.py)只在真实双前驱全文核后构造95pins/五目标；58/224/32算式不改；原WPN lifting成功时已消整个正侧径向未知，完整负侧/真源/ν/非线性仍待。
