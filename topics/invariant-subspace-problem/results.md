@@ -233,3 +233,5 @@
 - **R150 单位211非零孤立点均值的整个单位基点均值图为空（2026-11-26，已证明）：** [原混合行列式及整九维系数代数](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-nonzero-isolated-mean-unit-base-complete-exclusion.md)以QQ1085/1389 gcd迫l2，Q九次全部纤维的原z共同因子6→1→1→0，13次真逆和除法逐步乘回。run45804559912/job139856248459、1cfd5100、5.703188秒/94636KiB/exit0。合并有限覆盖/半权和旧全边界，整个p+q2/u1图关闭；一般u继续。
 
 - **R150 单位211非零mean的原U值完整分层与L/S线性退化图（2026-11-26，已证明）：** [原moment、全局E0/N0和原N(V)线性身份](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-original-U-value-atlas.md)保三种值碰撞、P0=−U0³及全部原九式；t系数bcLS/[2(q−1)]给五坐标图，L0/w1全部降到QQsqrt17的rho/f/t。run45803350694/job139852028816短原身份0.568990秒/70884KiB/exit0；旧大展开超时失败分记，未宣物理充分性或全层空。
+
+- **R150 原U值图S0/Af0三值互异层的完整有限参数覆盖（2026-11-26，已证明）：** [原常数线性图与QQ21次Sylvester身份](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-U-value-S0-finite-parameter-cover.md)把I=H0面归到不可约M6，z为全局有理式，两个值分配与至多两个q根给最多24纤维；bc、值判别与l1全由QQ gcd支付。独立BigInt源同字节V8实际3ms全过，模41只用于不可约性；未宣这些原(f,t)纤维为空。

@@ -205,3 +205,6 @@ AI-assisted GPT-6 Astra Pro：[原高曲线与完整九维商代数证明](resul
 
 ## 2026-11-26 10:57:01 UTC — Astra-ISP-347c-20261126：一般非零mean的原U值完整坐标分层
 AI-assisted GPT-6 Astra Pro：[原moment/线性N完整证明](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-original-U-value-atlas.md)支付全部值碰撞和L/S新除数，保同Gram缩放及原九式；短源0.568990秒/70884KiB/exit0，旧900秒大展开exit−9独立留档。H压缩前完整快照保留；继续一般原方程与退化纤维，不宣坐标图物理充分。
+
+## 2026-11-26 10:58:14 UTC — Astra-ISP-347c-20261126：U值S0线性退化层的完整有限覆盖
+AI-assisted GPT-6 Astra Pro：[原I/H常数式与QQ有限覆盖证明](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-U-value-S0-finite-parameter-cover.md)支付所有非M6因子、z/值/权重除数及q降次，至多24个参数纤维。独立BigInt源同字节V8实际3ms全过，完整源码与小回执同推；这里只关闭覆盖引理，原九式纤维排除继续。

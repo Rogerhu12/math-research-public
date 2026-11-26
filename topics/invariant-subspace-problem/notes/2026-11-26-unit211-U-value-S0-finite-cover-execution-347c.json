@@ -1,0 +1,29 @@
+{
+  "schema": "isp-unit211-S0-finite-cover-V8-execution-v2",
+  "execution_start_utc": "2026-11-26T10:30:33.371Z",
+  "eval_elapsed_milliseconds": 3,
+  "execution_context": "functions.exec V8 isolate, exact identical source bytes eval(source)",
+  "source_git_blob": "e1b4bd0c77ae9b9c65356df21a372d4ddab062bb",
+  "source_sha256": "91aac492c15bb8813efcebd68ca439a960616a6b14f851b7e8c5beec698e4797",
+  "source_bytes": 8282,
+  "result": "all_exact_cover_identities_pass",
+  "resultant_degree": 21,
+  "sextic_irreducible_mod_prime": 41,
+  "rational_specializations": {
+    "1/4": "z",
+    "3/2": "z",
+    "1/2": "z-1"
+  },
+  "sqrt2_specialization": "z-11/4+3*lambda",
+  "z_graph_denominator_nonzero": true,
+  "z_nonzero": true,
+  "distinct_value_discriminant_nonzero": true,
+  "two_weights_nonzero": true,
+  "l_minus_one_nonzero": true,
+  "maximum_lambda_x_q_parameter_fibers": 24,
+  "finite_fiber_argument": "six conjugate lambda values, two distinct x roots, at most two q roots; the q polynomial cannot vanish identically since b*c != 0 and l != 1",
+  "claim_excluded": false,
+  "claim_lambda_layer_empty": false,
+  "ordinary_isp_claim": false,
+  "stdout_file_available": false
+}
