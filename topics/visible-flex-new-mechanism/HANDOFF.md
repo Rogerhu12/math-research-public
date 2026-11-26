@@ -6,7 +6,7 @@
 
 ## 1. 规则与接手
 
-已部分克隆并实际 `git pull main`，公开根 README、课题 README、HANDOFF、open、results 索引及相关 log/notes 已读。公开已读提交 **7a0d291e039d1092a1bd8cba456a7823c93e4a19**（2026-11-26 13:20 UTC；本次实际pull后根/题README空差异）；历次规则及失败原回执保原note；私有 QUEUE 的本题已改为本会话进行中并成功推送：**9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7**；最后实际pull及规则同blob读至 **df005946de0f0f9cb5070c1aaddca788fdfb9644**（2026-11-26 12:50–12:53 UTC；实际pull成功，根README空差异、QUEUE仍本会话）。其它课题的并行认领保留。
+已部分克隆并实际 `git pull main`，公开根 README、课题 README、HANDOFF、open、results 索引及相关 log/notes 已读。公开已读提交 **f88ee99ceaff212d292bea56d269a3a9af9e2a4b**（2026-11-26 13:22 UTC；本次实际pull后根/题README空差异）；历次规则及失败原回执保原note；私有 QUEUE 的本题已改为本会话进行中并成功推送：**9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7**；最后实际pull及规则同blob读至 **df005946de0f0f9cb5070c1aaddca788fdfb9644**（2026-11-26 12:50–12:53 UTC；实际pull成功，根README空差异、QUEUE仍本会话）。其它课题的并行认领保留。
 
 [八模前交接](notes/HANDOFF-before-eight-mode-natural-final-20261126.md)及其所链前史保全部原规则/成本/范围；09:18及11:20 UTC两次本地失联期间仅API保存，不冒actualpull。09:33、11:28恢复后已实际双pull。每pull核根/题README差异并执行，至少每小时；root独占git/索引，每条结论即推，NFF立即rebase重推。科学仅公开Actions，本地限纸证/源码/原日志解析；已披露3次开发偏离保原note且停止。根12不加机械复跑，根15不留可重算raw。
 
@@ -18,7 +18,7 @@
 
 B030的前两次callback关停和第三START关停保[原收据](notes/2026-11-26-theta-generic-start-only-shutdown-receipt.md)及其链。run45819650602/job139908280075没有新q/完成Jac/FINAL；实际同81q已采用571径向/1276峰、1536θ、trust1.20135498046875，1144×3072/1116括号给η.25895160786/V0。新定位22.603199331秒，链科学下界2875.870845068；三段未刷46.3705572/27.382752/68.2931574秒wall和其它未闭合工作仍未知，未判OOM。B038无日志末态/成本仍未知，不当输入。
 
-[新工作行后端](notes/2026-11-26-r566-working-rows-implementation.md)已备：只对实际field/orbit子集形成Jac，每圈仍1536全FFT/原mean E；完整571/1276及所有新违约、全部fine/全峰仍决定接受，fine同margin/t门明确。24真r分批、512工作行仅限制矩阵，不删物理行；新restriction映射一次与实际run共用Jac，不重跑旧fine/旧parity。完整pending/trust/费用随callback刷出；下一正式求解。
+[新工作行后端](notes/2026-11-26-r566-working-rows-implementation.md)正式发布：只对实际field/orbit子集形成Jac，每圈仍1536全FFT/原mean E；完整571/1276及所有新违约、全部fine/全峰仍决定接受，fine同margin/t门明确。24真r分批、512工作行仅限制矩阵，不删物理行；新restriction映射一次与实际run共用Jac，不重跑旧fine/旧parity。完整pending/trust/费用随callback刷出；下一据自然原终态继续。
 
 [R580](results/R580-finite-tail-polynomial-kernel-obstruction-and-resonant-seed-interface.md)仅排旧多项式；[R582](results/R582-actual-circular-tail-flat-kernel-and-resonant-entry.md)付真无限尾；[R592](results/R592-undivided-finite-order-crossing-and-exact-angular-bound.md)付zs遇有限阶零的undivided接口，当前不造零点。
 
@@ -44,7 +44,7 @@ B030的前两次callback关停和第三START关停保[原收据](notes/2026-11-2
 
 [R590受控原终态](notes/2026-11-26-r590-staged-trust-first-public-receipt-agent.md)run45818210513自然付113.584575秒child/112.698603153主程序，30接受/11拒绝、31全态；末原colloc2.1934e18/BC.11938非根，even guide未闭、odd中心正势1.1258e17、Hermite末节点失真。旧末state仅scratch，不当新母输入。
 
-[R598](results/R598-three-rotations-wide-eighteen-block-mother.md)付特殊同点first槽三旋转及完整历史，18正节点0…10矩/间距>319/30000、微半宽1/12000/真collar1/3000。首微宽因子改善15625/9非新势/根数据。[新实际质量BVP](notes/2026-11-26-r598-prepared-wide-mother-original-mass-bvp-implementation-agent.md)已备：新母全预收、共同七剩余矩+唯一∫hk=0、prepared仅初猜；每节点19微分+2原ruling、原29BC和完整正势，31AD真中心链。19行单位1、ruling单位冻结，ρ/ζ0的guard按新初猜固定单位而不改方程。每接受全状态先刷，忠实Hermite端值；原残差过门才同输入加密。下一实际解根/pose/period/全几何。
+[R598](results/R598-three-rotations-wide-eighteen-block-mother.md)付特殊同点first槽三旋转及完整历史，18正节点0…10矩/间距>319/30000、微半宽1/12000/真collar1/3000。首微宽因子改善15625/9非新势/根数据。[新实际质量BVP](notes/2026-11-26-r598-prepared-wide-mother-original-mass-bvp-implementation-agent.md)commit92d261c4e已交run：新母全预收、共同七剩余矩+唯一∫hk=0、prepared仅初猜；每节点19微分+2原ruling、原29BC和完整正势，31AD真中心链。19行单位1、ruling单位冻结，ρ/ζ0的guard按新初猜固定单位而不改方程。每接受全状态先刷，忠实Hermite端值；原残差过门才同输入加密。下一实际解根/pose/period/全几何。
 
 ## 6. 持续工作
 

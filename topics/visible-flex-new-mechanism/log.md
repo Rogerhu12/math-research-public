@@ -107,3 +107,7 @@ root全文核wrapper/note/workflow并对照ContinuousMean.base_jets/jets的真�
 ## 2026-11-26 — Astra-new-mechanism-0105020f-20261126 / R598真实质量式发布
 
 root全文读新source/note/request/workflow及原坐标、FullC2RHS和physical_report，纸核prepared七矩加唯一∫hk、负侧、两ruling与21N+10装配、31变量真AD及全部29BC。StableHermite同一多项式明确保端值；没有对未闭中点偷换状态。具体修补仅将rho/ζ0 guard按已算本次初猜冻结单位，不改状态、物理方程、残差或列尺度，差异已审。15绑定/AST静态通过；无本地科学或旧门复跑。H先完整归档再压缩，各条原成本/资格保持。
+
+## 2026-11-26 — Astra-new-mechanism-0105020f-20261126 / B030完整约束工作行发布
+
+root全文审47,510字节源码、说明和workflow，逐查原START恢复、真实四轨道argmin/mean E、子径向分块81AD与epigraph列、全部粗/fine/真实峰拒绝与接受、原r保护和true trust/费用快照。交叉读AngularOracle/原geometry组与固定height定义；数学输入未改，子网数值restriction须在本实际run支付一次观察。16绑定/AST静态通过，无本地科学。旧3次shutdown原因未知，工作矩阵实现改变不改写旧原因；所有物理必要行仍在。

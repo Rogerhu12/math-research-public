@@ -383,3 +383,7 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 ### R598 新母prepared原质量式正式求解
 
 [新实现](notes/2026-11-26-r598-prepared-wide-mother-original-mass-bvp-implementation-agent.md)已将真两侧ruling保为代数阶段行，19原微分和全部29BC不减；新宽母系数和七剩余矩/∫hk准备重新支付，所有历史/势/规范恢复均保原式。guard单位从本新guide已计算的ρ/ζ0冻结，仅说明有限搜索scope；不会把合法物理大单位误作1e6绝对禁区。正式运行后原differential/ruling/BC全部过门才加密，不以权重merit或计数授根。
+
+### B030 完整物理问题的局部工作矩阵已准备
+
+[新后端](notes/2026-11-26-r566-working-rows-implementation.md)复用完整START，仍以全部571/1276、1536角、完整3072fine和全部实际峰判断每个候选；子径向24圈只减局部Jac的内存，不改变mean E或删约束。原actual浮点r受保护，遗漏违约拒绝并进入全physical pending/工作证据；同margin/t也在fine检查。原trust到自然返回或真实接受后才适配，原未知关停成本不冒已知。下一直接实际求解，不额外重放已付初始fine/旧oracle门。

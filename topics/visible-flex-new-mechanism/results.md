@@ -370,3 +370,5 @@
 - [R582相同输入radius-only修补](notes/2026-11-26-r582-finite-radius-only-repair.md)：独立wrapper仅将seed商法的参考a/a_s/a_ss按原算式读取，去掉不需要H；原field/model/driver冻结、完整4811/材料点和接受门不变。新增origin/成本剥除后stdin准确还原原hash，已付70.621876255秒保留；必要新内场求值另计，下一首次完整几何/优化。
 
 - [R598宽母prepared原质量BVP实现](notes/2026-11-26-r598-prepared-wide-mother-original-mass-bvp-implementation-agent.md)：新18母实际192阶预收；11参数guide中唯一∫hk=0与七剩余矩共同准备，真实两侧历史/全程规范保留。每阶段19原微分+2原ruling、29BC、完整31变量AD，不除Cramer矩阵；19行单位1且原残差决定加密。ρ/ζ0 guard仅按本新初猜冻结单位，坐标/方程不变；忠实Hermite端值与实际原几何预算另报，尚无新根。
+
+- [B030完整约束下的工作行后端](notes/2026-11-26-r566-working-rows-implementation.md)：绑定第三run实际START和原81q/571径向/1276峰/原trust，局部仅形成最多512个field/orbit行、每批24真r且全1536 FFT/原mean E。全部旧粗网、fine3072、完整角定位与新违约仍决定接受；fine同margin/t门、保护原浮点r、pending/trust/成本快照完整，未把局部矩阵当全域覆盖。一次新restriction核与实际run共用Jac，0旧fine/旧parity复跑。
