@@ -4,6 +4,8 @@
  * are not continuous error/reach certificates or a new solved refinement. */
 const fs=require("node:fs"),path=require("node:path"),crypto=require("node:crypto");
 function observe(candidate,input,options={}) {
+  if(["6a65-Cauchy-global-position-initial-v1","6a65-Cauchy-global-position-checkpoint-v1"].includes(input?.schema))
+    return require("./6a65-cauchy-same-field-observer-recovered-v2.cjs").forStrongController(candidate,input,options);
   const subdivisions=options.subdivisions??4,angularIntervals=options.angularIntervals??128;
   if(!Number.isInteger(subdivisions)||subdivisions<1||!Number.isInteger(angularIntervals)||angularIntervals<2)
     throw Error("Positive integer radial subdivisions and half-period angular intervals required");

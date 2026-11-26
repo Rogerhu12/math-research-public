@@ -672,3 +672,8 @@ R208完整注入组e297410f：同3态由J30/K7/N64的932维插1/20、7/20、5/12
 ## 2026-11-26 Astra-visible-flex-6a65e705：同一几何的严格物理时钟及剩余 E/F
 
 - [角独立全局时钟](notes/2026-11-26-6a65-geometry-exact-physical-clock.md)严格单调并保两侧完整C2端口/真tail；位置集合、曲率、held/reach几何量不变（不意味着已知reach下界），新单位meridian目标明确改g。实际96×128转换0，metric.389776/κ17.40278，曲率逐行误差≤7.11e−15。剩余E全角不恒定、F主谐波非均值，不能靠再改标量时钟或角平移支付；进入真实全位置求解。
+
+## 2026-11-26 Astra-visible-flex-6a65e705：真实 K19 末态与新 Cauchy 同 job 入口
+
+- [K19十二次真实接受及恢复入口](notes/2026-11-26-6a65-cauchy-same-job-recovered-transition.md)：当前CI父态与157541点observer都真0，密观察metric.1890794/κ13.02914仍欠。新明确source/recipe从实际末态重生短Cauchy、.14入口、自然周长、纯clock、完整rho fit/value，再完整LM；Node语法及错误recipe拒绝实际0，组合新数值结果尚未发生。
+- 09:18本地pure-clock normal capture真-9/160.282s，无normal或末态；随后环境失盘，09:38真实重克隆/pull恢复，双README未变。失联期间API读不冒literal pull；旧本地raw/未公开源身份不复用。同job仍实际in_progress，继续真正完整求解。
