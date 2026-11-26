@@ -314,3 +314,5 @@
 - [真实峰容量及每callback检查点续接](notes/2026-11-26-theta-peak-capacity-and-checkpoint-continuation.md)：新双lane原q/trust保留，B030494/1129、B038502/540含两已写pending；缺1未刷坐标仍明记。只因真实1129>1024增峰cap2048、径向仍513；完整stdin及完成callback全态/费用避免原恢复缺口，原算子/接受门不变。
 
 - [完整十九态首轮公开终态收据](notes/2026-11-26-r584-r586-full-nineteen-first-public-receipt-agent.md)：**完整原观察**。run45801587742付45.742568秒child/44.527690649秒main，343积分/4083几何单项式与完整16行96/192读出；四BVP首次Newton试探均越声明范围，无任何根/末值/pose。真实大历史项保留，转原式最高势而不原样重跑。
+
+- [R589 完整自主双反馈与真实偶端germs](results/R589-autonomous-full-feedback-and-even-end-germs.md)：**已证明**保原r/σ/ν和全部incoming的自主反射，A端零加两末速度零给真实局部唯一性下全scalar/完整T偶germs。自由H/L的19态+4常数/23BC准确；未授实际根、pose或第四返回。
