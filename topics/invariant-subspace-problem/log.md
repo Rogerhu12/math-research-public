@@ -235,3 +235,6 @@ AI-assisted GPT-6 Astra Pro：[完整证明](results/R150-appendix-essential-fou
 
 ## 2026-11-26 11:34:02 UTC — Astra-ISP-347c-20261126：全部远位硬化的真实同源预算闭合
 AI-assisted GPT-6 Astra Pro：[完整投影证明](results/R271-appendix-complete-tail-hardening-common-auxiliary-mode-and-global-source-energy.md)支付自然闭域、全部横向源/重新最小化、两端点正误差及同u母窗；稳定范围端点继续。另据实登记首次Ke900秒未决与原权重4GiB内存界；新共享workflow接同Π的低次数真Ke原输入，不重跑旧门或模门。
+
+## 2026-11-26 11:39:31 UTC — Astra-ISP-347c-20261126：同Π低次原理想相等与剩余U图继续
+AI-assisted GPT-6 Astra Pro：[完整理想相等证明](results/R150-appendix-rank-three-double-plus-single-zero-hp-lowered-original-ideal-equivalence.md)保六条QQ[e]恒等式及所有强迫单位，d八次喷射降二次；实际Ke身份继续。新共享workflow只接L0一般三参数和S0对称二参数原九式投影，各保新分母/首项零面；不扩大任何排除范围。

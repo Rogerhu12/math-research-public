@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R150 有限H(2+1)/Hp0的原七式与低次数七式在同一局部化环理想相等（2026-11-26，已证明）：** [六条原多项式身份](results/R150-appendix-rank-three-double-plus-single-zero-hp-lowered-original-ideal-equivalence.md)以2U=E′J+E∂sJ消高次喷射；新最高/范数/喷射均d二次。A、T及原导数R是原方程强迫单位，无新饱和因子。此为严格代数降维，特征零单位证书仍在求取。
+
 - **R271 全部远位硬化与完整源重新最小化有同源总能量预算（2026-11-26，已证明）：** [共同额外mode中的真闭核投影](results/R271-appendix-complete-tail-hardening-common-auxiliary-mode-and-global-source-energy.md)给损失q_C(Sx+t)−q_L(t)，两个正项同时付；端点运输后由固定全T的∫μ_T+2δ控制。t=εSx、m/Q/最高零头联合窗、全部横向源、自然域和原同u均保留。总费用及普通范数端点已付，稳定范围BM与物理MP仍须继续。
 
 - **R150 原最高一阶式的显式线性图完整覆盖S0/Af0（2026-11-26，已证明）：** [一般p,q的三系数及全部零面证明](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-original-P1-S0-linear-cover.md)逐付z=R与T0=0；λhalf是碰撞，λquarter返回原moment判别767/4000非零。每原解至少可解f或t；run45809839217/job139874500382、0.176205秒/exit0。此为降维覆盖，尚非整个S0空性。
