@@ -159,7 +159,7 @@ G以S/T E1856给physical C²整盘/曲率<2/径长<8e−6及同world position/no
 | R149 physical链 | [58→224→32](notes/2026-11-26-physical-scalar-execution.md)及[PN56](results/R149-supplement-actual-positive-negative-receiver-execution.md)等待真低逆；全部L²_r head消元必须真实square通过，14原ports保持自身单位，true root96/mean/ν仍留。 |
 | common source4→6 | [source4实际](results/R149-supplement-actual-common-high-WPN-source-unit-ball.md)45783842857/1完整4/4锁定。原Xfr−4/3、state outermean与aux Ec*e保；[CXN6完整入口](results/R149-supplement-actual-common-high-negative-receiver-execution.md)已推，无actual32则无manifest。P/T同因三角，Ni/output9一次。 |
 | fixedη0 forward | 45778507038/1完整7296格/6143接口；positive mean门true，同φ C0及outer mean门false。row7147实际距离下界>1.00195589e−4、terminal mean偏移约−7.66584024e−3，不再续跑此已完整forward。改接下行compact mean中心，不推全族不存在。 |
-| compact mean/C0 | [TM actual](results/R144-supplement-actual-terminal-mean-small-root-and-density.md)45791979634/1全12 mean/root/density门true；[LC actual](results/R144-supplement-actual-localized-full-state-and-compact-sources.md)45797426031/1全7721/6143/27球，sameφ C0约1.978398124460e−5、1e−4门true。新中心五源和全jump已锁，未来真GC修正仍另加；nonmean/height/caps未成。 |
+| compact mean/C0 | [SR锐界](results/R144-supplement-sharp-compact-root-from-completed-forward-mean.md)用已成FM/CP/TM/LC给同一根−8e−13<ξ*<−7e−13、mean≤2e−7、同φ状态<3.847e−7、selected距<3.865e−7；全第二ordinary<7.461e−8。非mean/height/caps及ν变化源仍待；tinyξ不缩ξ′。 |
 | reflected waist | [RW实际](results/R149-supplement-actual-reflected-finite-waist-rows.md)45787309600/1全96rows/480球，真a=2H(0)、signed mean、整DFT/alias/tail。下一按[SC](results/R149-supplement-signed-finite-columns-and-full-negative-residual-sources.md)付真PDE trial/完整残差/signed pairing，不把root96子块叫fullSchur。 |
 | graph高块 | [CG](results/R149-supplement-positive-feedback-in-the-complete-graph-high-block.md)准确邻接约消并保真正物理96列；actual common6/PN56未齐，新高门未通过。WDH旧homogeneous高逆保持原范围，完整巨大finite/mean/ν/phase不删。 |
 
@@ -181,6 +181,6 @@ R149 signed-loop及[CP/physical](notes/2026-11-26-physical-scalar-execution.md)�
 
 [LC actual](results/R144-supplement-actual-localized-full-state-and-compact-sources.md)45797426031/1：19当前/10历史，全7721行/6143join/27球、整件contains/trace已核；sameφ 1e−4门true，CS五源/χ′质量/全jump锁定。anisotropic约2.926756632289e−5仅显示，消费全保存球；未来GC修正另付，旧TM/Γ/残差不重。
 
-[TC首入口实际失败](results/R149-supplement-actual-true-root-trial-input-restoration-failure.md)45806282910/1：旧Z part000历史地址不存在，科学children0、child=null、无文件/目标。78当前整核保；27历史仅旧metadata一致，不能称地址全恢复。原manifest/失败完整留存，正用原三份nodal answer及原Hermite/完整cubic/14旧SHA核必要载体重物化；不QR、不重旧范数，单独登记恢复子进程。三新目标584球仍未开始，全部真域/两mean/signed及SC/P224义务不减。
+[TC原输入恢复](notes/2026-11-27-true-root-trial-input-restoration.md)：旧45806282910/1 science0保持；新45881752490/1已恢复137当前输入和40旧row，却在原nodal→cubic SHA处失败，science0。正恢复原Docker/BLAS环境，不更换Z或放宽原SHA。三目标584球仍待，真PDE误差另需P224/SC；完整Schur未成。
 
 [SB完整同φ衔接](results/R144-supplement-complete-same-phi-bridge-to-selected-reference.md)：同η0，新中心与Qδ*完整pair A0及moving C0<1.98e−5，原repair/19d*全付。换ν的mean/ordinary源显式保，真qν−Z不借Z；未来纠正≤8e−5只是充分余量，world锚/height/完整GC仍待。

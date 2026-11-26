@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R144 SR：由完整forward末端锐定同一compact根与全残差](results/R144-supplement-sharp-compact-root-from-completed-forward-mean.md)：−8e−13<ξ*<−7e−13，mean≤2e−7、同φ状态<3.847e−7、selected距离<3.865e−7；χ′ordinary<3.903e−12、完整第二ordinary<7.461e−8。四份原球的有理推论，无新积分，全部mean/flux/jump与metric区别保留。
+
 - [R142 DP：源区间互不交分片、共用一次Green及完整三平方合并](results/R142-supplement-disjoint-source-slices-with-one-shared-Green.md)：严格保持全径向输出/193 atoms与逐格signed双三角；同runner fork≤3，保真实片段进度，无新actual门。
 
 - [R144 FM：固定η0 forward完整实际均值与外端错配](results/R144-supplement-actual-fixed-eta0-forward-mean-and-terminal-mismatch.md)：45778507038/1全7296格/6143接口；Y严格正，但moving C0下界超1e−4，末端mean shift约−0.00766584、外physical Cmean shift>0.00022411927。只排此固定密度中心的接法，继续已成compact mean；无需再续此target。
