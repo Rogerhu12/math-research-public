@@ -159,18 +159,18 @@ G以S/T E1856给physical C²整盘/曲率<2/径长<8e−6及同world position/no
 | R149 physical链 | [58→224→32](notes/2026-11-26-physical-scalar-execution.md)及[PN56](results/R149-supplement-actual-positive-negative-receiver-execution.md)等待真低逆；全部L²_r head消元必须真实square通过，14原ports保持自身单位，true root96/mean/ν仍留。 |
 | common source4→6 | [source4实际](results/R149-supplement-actual-common-high-WPN-source-unit-ball.md)45783842857/1完整4/4锁定。原Xfr−4/3、state outermean与aux Ec*e保；[CXN6完整入口](results/R149-supplement-actual-common-high-negative-receiver-execution.md)已推，无actual32则无manifest。P/T同因三角，Ni/output9一次。 |
 | fixedη0 forward | 45778507038/1在跑，7296格6143接口、320bits/N512/源24流25、5h/6h。旧wholeη45772466407完整但positive/C0/外mean unknown、无真违例，成功覆盖锁定不重；[suffix规范](notes/2026-11-26-R144-fixed-eta0-mean-suffix-state-spec.md)仅真未完成才用。 |
-| compact mean | [C0/CP11实际](results/R144-supplement-actual-compact-mean-C0-receivers-and-positive-moments.md)45787608966/1全52球、7721/6143/7721，ā正门true。新terminal小球→初端差→D_R/H_R界及紧支撑小根scalar门正在准备。全physical角C0/new nonmean/rawjump/height/caps另付，rawν0不借selected。 |
+| compact mean | [TM actual](results/R144-supplement-actual-terminal-mean-small-root-and-density.md)45791979634/1完成5stage/21球，12个mean/root/density门true，sameφ1e−4充分门false。精确ρ/b已存，唯一根在同小区间内，mean连续负/Y正/density正；不继承selected。下一紧窗联合物理角C0与CS五源，nonmean跳/height/caps另付。 |
 | reflected waist | [RW实际](results/R149-supplement-actual-reflected-finite-waist-rows.md)45787309600/1全96rows/480球，真a=2H(0)、signed mean、整DFT/alias/tail。下一按[SC](results/R149-supplement-signed-finite-columns-and-full-negative-residual-sources.md)付真PDE trial/完整残差/signed pairing，不把root96子块叫fullSchur。 |
 | graph高块 | [CG](results/R149-supplement-positive-feedback-in-the-complete-graph-high-block.md)准确邻接约消并保真正物理96列；actual common6/PN56未齐，新高门未通过。WDH旧homogeneous高逆保持原范围，完整巨大finite/mean/ν/phase不删。 |
 
 R143 correlated body已全4651；R146全418/13376使当前CV/RA根费格式失败，禁止继续该格式Gram/容量/仅DH细化，不推PDE奇异。R145/R147和[NW](results/R147-supplement-actual-same-window-negative-nu-waist.md)各旧成功锁定；NW只给ordinary零root/无impulse负ν分量，非全误差≤.005。
 
-执行环境05:48 UTC断开，08:22仍不可用；公开Actions持续。每次main更新核两README，恢复立即真实pull/rebase。≤200MB容量、H/open尺寸、旧科学不重及失败/unknown完整保留规则仍适用。最后必须同一次冻结ν*/Γ*/η/metric并构造同一连通闭嵌入族，所有最终门逐一真实通过。
+执行环境05:48 UTC断开，09:16仍不可用；公开Actions持续。每次main更新核两README，恢复立即真实pull/rebase。≤200MB容量、H/open尺寸、旧科学不重及失败/unknown完整保留规则仍适用。最后必须同一次冻结ν*/Γ*/η/metric并构造同一连通闭嵌入族，所有最终门逐一真实通过。
 
 [CS新中心完整源](results/R144-supplement-compact-centre-ordinary-and-divergence-residual.md)已证exact ordinary/divergence分解，径向常数Δκ只从angular flux准确消去、仍在ordinary项；原Rv−jR0及ξχ′完整保。五个新局部积分量消费actualρ/b后可执行；first-row H−2/3不免费删角导数，384^1/3费与所有rawjump/physical composition仍保。
 
-[TM terminal→normalized constant](results/R144-supplement-terminal-mean-small-ball-controls-normalized-forward-constant.md)已证：同ξ=0 terminal q0满足完整CP球时，Dbar=Yf(0)−Yt(0)；以原saved D0、t=b_w/m*得|Dbar|≤d0+(1+d0)t(2−t)/(1−t)²。原waist L2 rawmean源可收紧b_w。继而sameρ二次root、统一mean球与density门分开实际核；不必重forward/W，当前仅证明，actual scalar待执行。
+[TM terminal→normalized constant](results/R144-supplement-terminal-mean-small-ball-controls-normalized-forward-constant.md)已证：同ξ=0 terminal q0满足完整CP球时，Dbar=Yf(0)−Yt(0)；以原saved D0、t=b_w/m*得|Dbar|≤d0+(1+d0)t(2−t)/(1−t)²。原waist L2 rawmean源可收紧b_w。继而sameρ二次root、统一mean球与density门分开实际核；不必重forward/W，actual45791979634/1已通过全部mean/root/density门，独立sameφ距离门false；旧forward及新mean结论各保持范围。
 
 [PS完整父段源积分续接](results/R142-supplement-durable-complete-parent-source-moment-prefixes.md)：同155parents/1424cells的全径向及193原子输出，每完整parent保存body/root/outer累计三球并整读后推进。A/B/K/J仅物化原comparison表示；已接收源域不重复moments。当前R142未结束，未作新actual入口；旧完整六球优先，裸计数不授非空前缀。
 
-TM首次具体入口已接：11个完整小输入、旧D0与精确waist L²字段，5个保存读回阶段；manifest acb8c78b307d25a142b776e7fbb225172098f37c92230fc53ef7301870d1f41f。无native/ODE/旧科学，唯一小根和uniform mean/density门以actual为准；sameφ C0独立，不继承physical-C0/selectedphase。
+TM首次具体入口已接：11个完整小输入、旧D0与精确waist L²字段，5个保存读回阶段；manifest acb8c78b307d25a142b776e7fbb225172098f37c92230fc53ef7301870d1f41f。无native/ODE/旧科学，actual小根及uniform mean/density门已true并锁定；sameφ C0充分门false、physical-C0/selectedphase仍独立。
