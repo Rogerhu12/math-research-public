@@ -169,3 +169,5 @@ O9初猜对照：原旧态可健康起步，但q025线性放大H的完整Newton�
 原直接design的[.04/M32实际返回](notes/2026-11-26-original-design-lambda0040-memory-return.json)也为MemoryError、无raw/physical/RMS；returncode0不作成功，栈未投影，不借独立v5栈归因。真.032仍接受锚，当前attempt008的目标尚未实露。独立完整割线已另到.064/M40；不把两条链的状态混合。
 
 [v4第二.003/M24实际返回](notes/2026-11-26-v4-second-actual-return.json)为status1/3130点/RMS.0439794，虽scaledBC3.89058e−8和physicalBC4.65616e−12已过，仍未接受。5接受步/minα2^-20/域拒16/merit拒101，未曝光细分域原因；从真实zero锚.002二分.0025进入第三次，不晋级该失败场。
+
+完整割线链的[λ.128/M40实际尝试](notes/2026-11-26-original-design-secant-lambda0128-domain-return.json)使用真.064/M40完整raw（此时仅一个真M40锚），报Adaptive Frenet domain failure: -9.69571782897475e−9；无raw/physical/RMS，栈未投影，不断言是初始域、δ差分或增网造成。保持原域门、真接受.064，父链自然attempt004，不clip或晋级异常场。

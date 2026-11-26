@@ -1,0 +1,63 @@
+{
+  "schema": "held10-original-secant-lambda0128-domain-return-v1",
+  "session": "Astra-held10-06bbeb39-20261126",
+  "scope": "Actual lambda .128/M40 original complete-raw continuation returned a Frenet-domain exception without saved solver or physical output. The source is the genuinely accepted .064/M40 field. No clipping, nonexistence result, or unobserved exception site is inferred.",
+  "source": {
+    "repository": "Rogerhu12/math-research-public",
+    "immutable_commit": "d87df3e9dd086b0f103fa028f60fa7205094a8da",
+    "path": "topics/visible-flex-held-10pct/ci/live-material-result.json",
+    "git_blob_sha1": "f65c501b6463b96319fc13805cb00a453c603737",
+    "workflow_run_id": 45821850836,
+    "job_id": 139915839771,
+    "command_id": "held10-original-design-full-state-secant-20261126-01",
+    "script": "topics/visible-flex-held-10pct/scripts/resume_20261126/lowq_prefix_recovery_secant_design.py",
+    "script_sha256": "8eb09e79242a3d4af6d84de6cd0149227ef9eda7a4e3c7d50aec889a7b54594b"
+  },
+  "actual_return": {
+    "accepted": false,
+    "actual_audit_mean_nodes": null,
+    "actual_delta": null,
+    "complete_saved_initializer": false,
+    "domain_error_counts": null,
+    "domain_newton_stats": null,
+    "error": "FloatingPointError('Adaptive Frenet domain failure: -9.69571782897475e-09')",
+    "homotopy": 0.128,
+    "initializer": {
+      "accepted_seed": true,
+      "kind": "original_complete_raw",
+      "source_run": "/home/runner/work/_temp/held10-live/secant-design-recovery/secant-material-design/attempt-002/run.json"
+    },
+    "metric": null,
+    "metric_only_failure": false,
+    "modes": 40,
+    "name": "attempt-003",
+    "nodes": null,
+    "original_finite_checks": {
+      "physical_bc": false,
+      "rms": false,
+      "solver": false,
+      "solver_and_boundary_pass": false,
+      "tolerances": true
+    },
+    "physical_bc_max": null,
+    "physical_sha256": null,
+    "raw_sha256": null,
+    "returncode": 0,
+    "rms": null,
+    "run": "/home/runner/work/_temp/held10-live/secant-design-recovery/secant-material-design/attempt-003/run.json",
+    "run_sha256": "a82192f3da38655c5c622543b13a9bf364ad81754b19b0a11f1ea3c3a46a4048",
+    "solver_success": false,
+    "source_run": "/home/runner/work/_temp/held10-live/secant-design-recovery/secant-material-design/attempt-002/run.json"
+  },
+  "last_accepted_run": "/home/runner/work/_temp/held10-live/secant-design-recovery/secant-material-design/attempt-002/run.json",
+  "last_accepted_lambda": 0.064,
+  "controller_status": "attempt-004",
+  "next_actual_target_unexposed": true,
+  "exception_stack_unexposed": true,
+  "resource_or_numerical_exception_site_not_guessed": true,
+  "raw_and_physical_missing": true,
+  "failed_trial_promoted": false,
+  "full_nonlinear_tail_paid": false,
+  "fixed_metric_refinement": false,
+  "complete_surface": false
+}
