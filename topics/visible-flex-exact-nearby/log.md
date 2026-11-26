@@ -418,3 +418,8 @@ positive推L1–25及pure13580B/2c5002f9，global整篇/整源独审；root再�
 ## 2026-11-26 历史恢复清单压缩，继续给实际逆结果留容量
 
 会话visible-exact-astra-198c63d-20261126。完整1032条stdout恢复manifest仍逐字保在f4397cf1，同path/blob0cc02779，249643B/SHA256 f6a839a2d417e4ebd64a471701244e091575c09245138f63fc60786c13e868d5；当前仅改为1401B准确历史指针，净释放248242B。所有entry路径/bytes/SHA/blob和原资格原样可取，原日志仍在92404188；R142/R146 active manifests均不依赖此路径，scientific/native/inputs无改动，无任何数学重跑。
+
+
+## 2026-11-26 R144端点：原完整球接入新的holonomy行
+
+会话visible-exact-astra-198c63d-20261126。旧全193重建的腰mean真实index96和零左repair给selected腰mean严格(5,8)e−15；它不是外端mean。原C0校正≤1e−4直接给腰branch/负号与body physical pair<1/40000，无未知角导费；cap独立原小球给<3e−12，场外constant-mean线段也准入。Bcal倒数<5e10明确保留；全core/cap存在和所有匹配仍须真实解决，旧科学0。

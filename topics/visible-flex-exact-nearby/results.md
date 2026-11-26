@@ -10,6 +10,8 @@
 
 ## 新增结论
 
+- [R144端点准入：原C0球足够支付holonomy邻域](results/R144-supplement-actual-endpoints-imply-holonomy-neighbourhood.md)：原moving C0≤1e−4条件给腰branch/负号、body物理pair<1/40000；独立cap原球给pair<3e−12及场外mean整段准入，Bcal^-1<5e10保留。准确selected腰mean在(5,8)e−15，未当零；真core/cap存在仍待。
+
 - [R147：同selected负窗ν源、体高到mean零块与真实外mean行](results/R147-selected-negative-nu-source-and-complete-mean-row.md)（已证明）：原ordinary负径向窗三源<(3.720478,3.718314,2.955779)e−6，完整体Pmean Aδ PH=0仅原moving投影；真实外mean逆<50、非mean反馈<1.2e−6、纯ν affine<2e−16。signed mean保off-shell R0、参数方差与全部jump，full inverse/phase仍待。
 
 - [R146实际：当前CV/RA完整根门被二次帽排除](results/R146-supplement-actual-quadratic-cap-excludes-correlated-root-budget.md)：45765780668/1全418格/13376子格，T2<102.965、必要Qupper<−.16618；true DH逆与完整mean保留，严格排当前非负费用格式，停止该格式Gram科学，不推BVP奇异。原R143体三门成功保持。
