@@ -10,6 +10,8 @@
 
 ## 新增结论
 
+- [R144补篇：完整raw moving holonomy源与弱配对](results/R144-supplement-raw-moving-holonomy-sources-and-complete-weak-pairing.md)：保真实R0及所有jump，明确H^-1φ源的H1 dual费用只用角L2背景和mean gap；selected场外微分保权重变化w′f−ws，不把旧Z当真响应，不授全逆或不同自然端口。
+
 - [R146：二次帽与真实根容量的必要筛查](results/R146-quadratic-cap-and-true-root-capacity-screen.md)（2026-11-26，已证明解析式，实际新积分待Actions）：ℓ=3/200二次帽合法对偶给根EE>148/T2，当前CV完整门须2−148/T2−aEE−aEB²/[4(1−aBB)]>0；保true DH逆、所有mean与PDE可达迹范围，不把容量upper冒lower。
 
 - [R144：四重holonomy把外独立均值转为腰均值](results/R144-fourfold-holonomy-transfers-outer-mean-to-waist.md)（2026-11-26，已证明）：明确邻域内quarter trace严格单调，外Cmean等价m0=−a0；位置平移闭合独立证明，场外所有缺陷/jump与真解三角row变换完整保留。新BVP存在性、实际dual费用、true phase/ν兼容仍待。

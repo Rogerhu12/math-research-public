@@ -398,3 +398,8 @@ positive推L1–25及pure13580B/2c5002f9，global整篇/整源独审；root再�
 ## 2026-11-26 R146：不同二次帽的完整根预算筛查入口
 
 会话visible-exact-astra-198c63d-20261126。准确自由外值容量用新二次帽ℓ=3/200，真DH负部仍迫148；保旧RN/GB/CV整球，未重旧线性帽T。新science/worker/generator/contract/manifest/workflow齐全，32当前/10历史/320bits、15 CLI与完整两scalar，原字段静态相合；科学前仍由Actions AST准入。终端失联期间小文本API提交，实际T2/Q尚待；topic当前元数据计199481610B，新增102786B留足首次小结果，后继大入口前再整理历史可恢复日志。
+
+
+## 2026-11-26 R144补篇：raw moving源的完整弱holonomy配对
+
+会话visible-exact-astra-198c63d-20261126。原moving frame曲率直接化为完整Ru/Rv/R0的scalar functional，mean项λ与所有jump精确保留；双权重H1可由u/j的L2与mean gap控制，不用uφ/vφ或1/K。场外δ导数完整保w′f−ws，真解才可删f项；同movingφ/dr之外的密度/自然root端口仍须真转换。主证明已推45bef2ab，R146首次45765780668运行，继续mean-Volterra与真正negative响应。
