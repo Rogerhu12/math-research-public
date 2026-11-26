@@ -229,3 +229,6 @@ AI-assisted GPT-6 Astra Pro：[真实L0回执与新输入](notes/2026-11-26-orig
 
 ## 2026-11-26 11:25:17 UTC — Astra-ISP-347c-20261126：L0/w1完整原纤维关闭
 AI-assisted GPT-6 Astra Pro：[完整证明](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-U-value-L0-w1-exclusion.md)保ρ及两λ共轭、P1全部首项零面；两方向原mean结果式的QQ范数gcd64→48→0，实际0.222536秒/exit0。一般权重门只修fmpz报告序列化并据实记原失败；共享workflow移除已成功P1覆盖任务，仅续未运行到GB的原权重门。
+
+## 2026-11-26 11:28:36 UTC — Astra-ISP-347c-20261126：原P1完整两图覆盖S0余层
+AI-assisted GPT-6 Astra Pro：[完整证明](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-original-P1-S0-linear-cover.md)给一般p,q的原germ一次式；z=R、T0=0及λhalf/quarter全部系数退化均付，原moment判别767/4000，实际0.176205秒/exit0。按合法f/t两图继续S0非同时零余曲面；没有把覆盖当排空。

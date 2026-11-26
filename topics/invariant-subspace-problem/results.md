@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R150 原最高一阶式的显式线性图完整覆盖S0/Af0（2026-11-26，已证明）：** [一般p,q的三系数及全部零面证明](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-original-P1-S0-linear-cover.md)逐付z=R与T0=0；λhalf是碰撞，λquarter返回原moment判别767/4000非零。每原解至少可解f或t；run45809839217/job139874500382、0.176205秒/exit0。此为降维覆盖，尚非整个S0空性。
+
 - **R150 U值L0/w1的整个原纤维全空（2026-11-26，已证明）：** [原二次域单位账本及双齐次投影](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-U-value-L0-w1-exclusion.md)保两个λ共轭、全部ρ及P1两系数同零；三个原mean结果式的QQ范数gcd64→48→0。run45808873477/job139871189527、0.222536秒/exit0。L0仅剩w(w−1)非零原图；没有把该一般余图排除。
 
 - **R150 S0/Af0/I=H0 的完整M6参数族全空（2026-11-26，已证明）：** [原24维QQ代数与真实单位身份](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-U-value-S0-M6-exclusion.md)保所有值分配/q根，P1的f系数在全代数可逆；原E1/EB二次结果式的24阶乘法矩阵有真逆并回乘1，48次逆均付。run45808427743/job139869664343、2.914484秒/exit0；I/H非同时零曲面仍开。

@@ -7,7 +7,7 @@
 - **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仅全体有界算子的存在定理或完整反例；子结果不作完成，继续研究。
 - **最近实际pull / 已读规则提交：** `53707161f2cf0f3404c928a547025811ff25097d`（2026-11-26 11:22:06 UTC，公开Actions实际pull；本地最后pull为09:16:03 UTC）。两README blob无差异；每次pull和至少每小时查diff，记录SHA。
 - 私库QUEUE认领已推 `e776df496eedfa449b0475cefe140fdae7023db4`；研究在公开仓库。每结论单推，推前pull/rebase；NFF/ref锁拒绝循环rebase再推，不force，令牌仅CLI。
-- 本地执行环境09:19 UTC后unavailable；最近云端main/规则读取 `c4062cc7afa6978c7fb77e68d137b32a156bd6a8`（2026-11-26 11:25:18 UTC），两README blob未变。此为API读取，不冒充git pull；公开Actions驱动继续实际pull及3300秒规则检查。根通过非force/expected-head原子提交保并发；CLI恢复后立即pull/rebase。只保存源、参数、SHA和小回执。
+- 本地执行环境09:19 UTC后unavailable；最近云端main/规则读取 `402d6157efc3443bad0c6bdb4bd12d6086165da0`（2026-11-26 11:28:37 UTC），两README blob未变。此为API读取，不冒充git pull；公开Actions驱动继续实际pull及3300秒规则检查。根通过非force/expected-head原子提交保并发；CLI恢复后立即pull/rebase。只保存源、参数、SHA和小回执。
 - 最新完整前H见[压缩快照](notes/2026-11-26-handoff-before-four-variable-H21-347c.md)及其归档链。MD<100KB、H<10KB、open尽量<30KB、topic<200MB，不写根LOG。
 - 已登记请求14/311、权11及旧结式不重算。当前并行：unit211非零m；rankV2/rankH3的ess6；R271真实加权源与物理清除。
 
@@ -27,7 +27,7 @@
 - **[unit211整个零m分支已闭](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-nonzero-base-highest-zero-isolated-mean-exclusion.md)：** 两QQ高曲线结式671/629、2876/2736的gcd仅已付u0/1/−2；原低曲线、奇异面/P0零及秩二族全排。run45789670184/job139805205519、0374源、1443.281305秒/297956KiB/exit0。勿再做零m，续非零m。
 - **[unit211非零m的整个u1图已闭](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-nonzero-isolated-mean-unit-base-complete-exclusion.md)：** 原高曲线仅余l2；整个Q九次代数的共同原z因子为1，13真逆全付。run45804559912/job139856248459、5.703188秒/exit0。一般u≠1依[原U值图](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-original-U-value-atlas.md)继续：保值碰撞与所有L/S零面，不重做u1。
 - **[L0/w1整层已闭](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-U-value-L0-w1-exclusion.md)：** ρ/D/N/M/J原单位账本、两P1齐次投影均保首项零纤维，原QQ范数gcd64→48→0；run45808873477/job139871189527、0.222536秒/exit0。L0只续w(w−1)≠0；S0余曲面和LS非零原权重门继续。后者首条报告fmpz序列化失败已修，尚无模GB结论。
-- **[S0/Af0/I=H0全部M6纤维已闭](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-U-value-S0-M6-exclusion.md)：** 完整24维QQ代数保全部λ/x/q，原P1系数全局单位；E1/EB的未除首项结果式有真QQ逆，48次逆及24阶乘法身份均回乘。run45808427743/job139869664343、2.914484秒/exit0。S0碰撞亦全空，原I/H非同时零的(λ,z)图继续。
+- **[S0/Af0/I=H0全部M6纤维已闭](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-U-value-S0-M6-exclusion.md)：** 完整24维QQ代数保全部λ/x/q，原P1系数全局单位；E1/EB的未除首项结果式有真QQ逆，48次逆及24阶乘法身份均回乘。run45808427743/job139869664343、2.914484秒/exit0。S0碰撞亦全空；[原P1两图覆盖](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-original-P1-S0-linear-cover.md)付全部双系数同时零面，每原解可合法解f或t。只续I/H非同时零的(λ,z)图。
 - rankH3三不同点、H自身Gram退化的ess6：F0、V二jet、非零Hp全空；只余双约化、F≠0、Hp0、Gram秩2且两非零边。非退化三点H也继续。不能以H子Gram退化代整个六维K退化。
 - rankH3单三jet、rankV2整层ess≤5已闭：Hp0所有特殊/∞、V二jet及Hp0原十六维代数全付；F=−m原jet得1=5/2。不要重做旧余支。
 - **[2+1型H非零Hp整层ess≤5](results/R150-appendix-rank-three-double-plus-single-second-cumulant-nonzero-hp-essential-six-exclusion.md)：** 原重节点/J及所有At/τ/γ零面均保；QQ93/126的Q2/Q4异常谱由六真逆排除。run45795365604/job139824523000、df42d64c、0.011089秒/exit0。合并退化/V二jet/F0/e0后仅余非退化Hp0约化V。
@@ -48,4 +48,4 @@ M=kerT、N=closureBM；N=M未证。始终保同w/u、全部partial、真intersec
 
 ## Deddens 与其余开放路线
 
-D_A localizing但范数不闭，固定c球非localizing且范数闭包无非零compact；同最优c有限头SOT逼近、有限输入弱紧与有限最优插值可达已付，任意目标费有限仍开。交换子单位球是原多项式单位球SOT闭包；一般Π不强连续（Bm norm→0、c≤2，而ΠBm→−I/4），不能平均任意D逼近。负幂自然域及真实u_n已付；硬/软copy五次费只排原家族。继续变化来源费用、未知M被D核心保持、∩A^kM稠密和增长预算；其余G_reg、Haar/边界奇异态、子商与完整同forcing接口依open及归档接续。
+Deddens固定c球非localizing、无非零compact范数闭包；一般Π非SOT连续，硬/软copy五次费用仅排原家族。原最优插值、全部自然域与同forcing已付；准确常数及来源保前H/结果索引。余D核心保持、∩A^kM稠密、G_reg/Haar/子商与来源增长预算依open继续。
