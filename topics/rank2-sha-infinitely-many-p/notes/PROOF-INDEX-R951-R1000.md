@@ -46,4 +46,6 @@
 
 - [R971](../results/R971-original-norm130-six-sigma-source-and-whole-frame.md)：原同六sigma真实轴A+c+10d的完整五倍除法给F*=σ130x²PS·J5全部22坐标，首阶6/质量0；整Gram(130,3900,540,270,120,8)、全部半特征/双逆/四方向CM五伴随转移及旧mixed行返回已付。真实算术投影和整个cross的余谱由R972同次全390消费，未以degree或两个特征猜线。
 
+- [R972](../results/R972-original-degree130-cross-cm-projection.md)：同次run45881262820/job140120885384完整66→22列pull/trace、两CM双向返回及唯一目标线全部PASS；算术源首阶6/有理分母385，ΠH130=−11Φ*/405、ΠF*=−11Φ*/2，五伴随质量−11/2为单位，物理尺度65³/(17·385)保留。H⊥首项10/567和完整SZ的δ-new首项2/35均真非零，span{Z,δ*Φ*}加入SZ准确rank2→3。新算术分量已付，不能把完整cross或mixed域赋零；续全81块及有限算术角色。
+
 - [R974](../results/R974-original-residue-native-model-and-complete-norm-return.md)：原指定残余域的保底域绝对表示与完整双向坐标，逐层矩阵/相对范数保持全部厚度；run45881262808/job140120885101真实API通过，原几何/shadow仍待唯一v8。

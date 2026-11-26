@@ -6,7 +6,7 @@
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，持续研究；有限验证、条件、接口和中间成果不算完成。**
 
-- 已部分克隆两仓库并实际 pull --rebase；公开根/课题 README 已读至 `e732a2c6029a5577a5e40b45705233d10e4b5c45`（本轮差异为空）。每次拉取检查两 README 差异，至少每小时同步一次。
+- 已部分克隆两仓库并实际 pull --rebase；公开根/课题 README 已读至 `d55c2d28d22240f9f172fb9e43582c9ed7d96c5a`（本轮差异为空）。每次拉取检查两 README 差异，至少每小时同步一次。
 - 私有 QUEUE 接手状态已推至 `41fe885610073f478b2f5a752461ca56cfd43f09`；私库根 README 读至 `4b91389`。克隆在 `/workspace/scratch/0b097461a16b/math-research-public` 与 `math-research-private`，终端可用；令牌仅进程内认证，不入文件。
 - root 唯一 git/共享 H/open/log/index 写者；geometry 接 v7 实际终点与完整原厚商修正，central 接 R970 degree130 的完整投影和实际交叉项，arithmetic 核通常 Selmer 桥及新的无穷性输入。新编号 R971–972 为中央项、R973 算术、R974 几何；不重复已有结论。
 - 数学执行沿公开 Actions；只存源码、参数、run、hash和结论。H<10KB，单MD<100KB；不强推。接手前完整状态见 [原 H](notes/2026-11-27-handoff-at-takeover-0b097461.md)。
@@ -27,13 +27,13 @@ Fv3 run45783241896/job139783569909在首MD84/306列处实际超时124，非OOM�
 
 ### 已付算法和实际小回执
 
-R942§8–13全程有界HNF/paired graph/306 W及全厚ideal两图运输已证，三原小API真实PASS；R955全厚Miller批量逆保持全部原因子/前缀/Norm。R956严格下降、全attached常数返回与整条矩形preimage下降均已证，两个新增tiny run45832239579/job139951704598及run45836149006/job139965432077实际PASS；原306/全厚shadow未付。全部源码/hash/参数见R942/955/956及H归档。
+R942§8–13全程有界HNF/paired graph/306 W及全厚ideal两图运输已证，三原小API真实PASS；R955全厚Miller批量逆保持全部原因子/前缀/Norm。R956原素域、全attached常数和完整矩形preimage下降已证；tiny45832239579/45836149006实际PASS，全部job/hash/参数沿R942/955/956及H归档。原306/全厚shadow未付。
 
 ### v7实际终点与唯一后继v8
 
 source6e79456aa2250a589306ba39d983ecdc46a2f267/run45838674625/job139974211422，于2026-11-26 16:20:03 UTC实际failure。完整日志显示relative finite-field extension的degree/cardinality断言失败；非超时/OOM，原F/四交/shadow未返。R956§8保全部45源/hash；后继修复保持原商域双向映射、全部厚层与Norm，详[真实终点](notes/2026-11-27-artinian-v7-final-and-successor.md)。
 
-R974原底域双向模型tiny run45881262808/job140120885101/sourcecd894128实际success；完整RESULT SHA99ec7d327ac73cfb354805c3fd6397ef0ccad40192956bc55790d06e8750a27a，全部五case/厚Norm返回见R974§7。v8已接修复；独立人工1530例改显式opt-in，未执行标False/None，不为原F/P提供数据。固定Sage10.6/r29/q2453/batch64/minimal、两PASS pins/45源/全七式/两图/四交/九对/全厚/18×9保持；待新run，不预记原几何成功。
+R974原底域双向模型tiny run45881262808/job140120885101/sourcecd894128实际success；完整RESULT SHA99ec7d327ac73cfb354805c3fd6397ef0ccad40192956bc55790d06e8750a27a，全部五case/厚Norm返回见R974§7。v8已接修复；独立人工1530例改显式opt-in，未执行标False/None，不为原F/P提供数据。固定Sage10.6/r29/q2453/batch64/minimal、两PASS pins/45源/全七式/两图/四交/九对/全厚/18×9保持；唯一v8 source3b0fe32226b1f91ec37ef68a8d53ff865e9d9b26/run45882239615/job140124138541于19:15:47 UTC进入数学步骤，未预记原几何成功。
 
 ## 二、原全局与ordinary仍开的准确门
 
@@ -67,6 +67,6 @@ R959固定E65两点独立、完整390/2,3,5/双13来源/全CM六jet已付，run4
 
 **R968已证**：C=H0/δ、F=−ωH1/δ同时保原S/T/W±/Z/W′；degree10/210 whole核共真实符号υp=χ10λ。十二次Q使q9=0、q3=3^12·11·1069/(2^19·5^9·7^6)，三支新q保原Τ且整个四输出返回υp^n；原五深一单位网格差准确vp=8n，只读原正第一矩。完整补域及不同CM投影仍保；新q仅前四，原H_cd/Pj/Rc确实保持，继续其真实mixed余域；D156不保新q。
 
-**R970/971已证**：固定E*:y²=x³+274625精确rank2、全部2/3/5/双13角色/degree130全权平方和通常全Sha桥保持。原六sigma真实轴A+c+10d给F*=S34·σ(10z)/(5σ(2z))，全部22坐标PS·J5、Gram(130,3900,540,270,120,8)、整双逆和四方向CM五伴随已付；旧mixed行保留。完整390→22消费者run45881262820/job140120885384已success：目标共同维数1，ΠH130=−11Φ*/405、ΠF*=−11Φ*/2；完整H、F均非算术线，SZ加入{Z390,δ*Φ*}使rank2→3。R972正在登记同次全回执及真实余谱，不能凭非零投影消整个cross。
+**R970/971/972已证**：固定E*:y²=x³+274625精确rank2、全部2/3/5/双13角色/degree130全权平方和通常全Sha桥保持。原六sigma真实轴A+c+10d给F*=S34·σ(10z)/(5σ(2z))，全部22坐标PS·J5、Gram(130,3900,540,270,120,8)、整双逆和四方向CM五伴随已付；旧mixed行保留。完整390→22消费者run45881262820/job140120885384已success：目标共同维数1，ΠH130=−11Φ*/405、ΠF*=−11Φ*/2；完整H、F均非算术线，SZ加入{Z390,δ*Φ*}使rank2→3。R972全回执已登记；H⊥首项10/567、δ-new SZ首项2/35，均非零。完整81个CRT块由R976续算，有限角色由central/arithmetic联读，不能消整个cross。
 
 原P134/十九角/charge40/10980、全WD/TM/TJ、旧39carry与五块52不混；R872–938合法lift/反馈/稳定K∞全部原门仍保。R939 D2∩K1=D4，R944/948的D5/平方单射带原严格条件；R938仅Wlow满像，R936/937仅指定陪集排除。O4/O6/O7、R364/R561/R654/R712全部原全群门见open及完整H链，持续处理。

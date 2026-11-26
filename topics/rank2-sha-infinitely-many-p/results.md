@@ -58,4 +58,6 @@
 
 - [R971](results/R971-original-norm130-six-sigma-source-and-whole-frame.md)：原同六sigma真实轴A+c+10d的F*=S34·σ(10z)/(5σ(2z))，完整五倍除法给全部22坐标PS·J5，首阶6/质量0。整Hermitian框架Gram(130,3900,540,270,120,8)、双逆、全部半特征和四方向CM五伴随转移均付；det norm70963776000000。全旧观察按真实逆逐支保留，投影非零与cross剩余谱由R972同次全390消费登记，不从degree/两个好位猜算术线。
 
+- [R972](results/R972-original-degree130-cross-cm-projection.md)：同次run45881262820/job140120885384完整66→22列pull/trace、两CM双向返回及唯一目标线全部PASS；算术源首阶6/有理分母385，ΠH130=−11Φ*/405、ΠF*=−11Φ*/2，五伴随质量−11/2为单位，物理尺度65³/(17·385)保留。H⊥首项10/567和完整SZ的δ-new首项2/35均真非零，span{Z,δ*Φ*}加入SZ准确rank2→3。新算术分量已付，不能把完整cross或mixed域赋零；续全81块及有限算术角色。
+
 - [R974](results/R974-original-residue-native-model-and-complete-norm-return.md)：修复原v7的相对商域/绝对有限域表示混用；指定原底域嵌入、全部相对/绝对幂基双向同构及每层相对范数完整返回，厚度和原omega不变。run45881262808/job140120885101全部真实API已过，接唯一v8；原F/四交/shadow未预记成功。
