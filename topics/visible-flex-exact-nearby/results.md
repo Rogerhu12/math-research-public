@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [VM：真实度量参数的有符号mean矩与紧支lift](results/R144-supplement-signed-metric-mean-moments-and-compact-parameter-lift.md)：消去m³密度后用三signed矩给κν及两端mean控制，保全部原跳与nonmean/phase反馈。8整输入、5新积分独立入口已齐；原whole-cell U/V/m值域经producer核实，χ′在极值处分符号，实际值待保存。
+
 - [JCA：实际完整96行联合误差](results/R149-supplement-actual-joint-compound-waist-row-error.md)：45887337009/1七球完整true，Ejoint<8.556891e−5、全homotopy lower>.9836159091670；不重原DFT/KAM，SC只消费整件，真PDE列与全部Schur仍独立。
 
 - [SL：按真支集接收selected参数源](results/R147-supplement-support-localized-parameter-source-reception.md)：原ΔFν只在13/100紧窗，用原C1√(13/100)；s0与ΔA·Z仍全负窗G_N，两means不删。四个新标量只组合原完整记录，独立workflow已齐，实际值待保存。

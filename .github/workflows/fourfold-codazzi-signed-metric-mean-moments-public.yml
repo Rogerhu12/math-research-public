@@ -1,0 +1,45 @@
+name: R144 signed true metric mean moments
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/fourfold-codazzi-signed-metric-mean-moments-public.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: r144-signed-metric-mean-moments-v1
+  cancel-in-progress: false
+
+jobs:
+  signed-metric-mean-moments:
+    if: github.repository == 'Rogerhu12/math-research-public' && github.run_attempt == 1
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            README.md
+            topics/visible-flex-exact-nearby/README.md
+            topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_signed_metric_mean_moments_public_worker.py
+            topics/visible-flex-exact-nearby/notes/2026-11-27-R144-signed-metric-mean-moments-inputs.json
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12.14'
+      - name: Install directed arithmetic
+        run: python -m pip install --disable-pip-version-check python-flint==0.9.0
+      - name: Evaluate new signed compact metric moments
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          OPENBLAS_NUM_THREADS: "1"
+          OMP_NUM_THREADS: "1"
+          MKL_NUM_THREADS: "1"
+        run: |
+          python topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_signed_metric_mean_moments_public_worker.py --repo "$GITHUB_WORKSPACE" --manifest topics/visible-flex-exact-nearby/notes/2026-11-27-R144-signed-metric-mean-moments-inputs.json --manifest-sha 3d6dd3f27d608e483d15d45b8a2edd1046afc5b5c4213d9f937f05ca94cb8118

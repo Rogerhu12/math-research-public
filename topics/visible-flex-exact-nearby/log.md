@@ -230,3 +230,6 @@ NS五件共129172B，owner71056B SHA18db439d5895e4232882940a57b7bd9457982383e1ac
 
 
 2026-11-26 20:06:08 UTC / visible-exact-astra-fb31ed6-20261127：JC run45887337009/1七球/整件execution已读，actual fec83298af0f0bacfe907f9c445cc42f0ed165129cbea18a38cb5d0214ef336e，exec425ab1174d167392f169cceac24a76e0c7580820a546302d316ba9b7db944695；完整联合96行误差<8.556891e−5，同伦lower>.9836159091670。依赖全取正式有向readback，旧目标0，SC继续真列及signed gate。TC原恢复通过后的mesh断言失败已知，马上修正且保全部积分分割。
+
+
+2026-11-26 20:08:01 UTC / visible-exact-astra-fb31ed6-20261127：VM证明及5积分→3signed矩→κν/compact lift实际入口保存；原7721/6143/1156域、whole-cell函数值range和χ′极值分符号已核，旧H/abar/bbar目标不重。metadata read_commit改为真实已公开f173d3293，worker规则变化时先恢复该commit再读diff。最终manifest3d6dd3f27d608e483d15d45b8a2edd1046afc5b5c4213d9f937f05ca94cb8118，8当前全件/原mean native固定SHA，实际结果待执行。私库20:05已pull e9b71a39b014d0f9513cbec3d7191afee707a549，根README无变化，QUEUE本会话仍有效。

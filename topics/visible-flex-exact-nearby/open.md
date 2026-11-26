@@ -159,13 +159,13 @@ G以S/T E1856给physical C²整盘/曲率<2/径长<8e−6及同world position/no
 | R149 physical链 | [58→224→32](notes/2026-11-26-physical-scalar-execution.md)及[PN56](results/R149-supplement-actual-positive-negative-receiver-execution.md)等待真低逆；全部L²_r head消元必须真实square通过，14原ports保持自身单位，true root96/mean/ν仍留。 |
 | common source4→6 | [source4实际](results/R149-supplement-actual-common-high-WPN-source-unit-ball.md)45783842857/1完整4/4锁定。原Xfr−4/3、state outermean与aux Ec*e保；[CXN6完整入口](results/R149-supplement-actual-common-high-negative-receiver-execution.md)已推，无actual32则无manifest。P/T同因三角，Ni/output9一次。 |
 | fixedη0 forward | 45778507038/1完整7296格/6143接口；positive mean门true，同φ C0及outer mean门false。row7147实际距离下界>1.00195589e−4、terminal mean偏移约−7.66584024e−3，不再续跑此已完整forward。改接下行compact mean中心，不推全族不存在。 |
-| compact mean/C0 | [SR锐界](results/R144-supplement-sharp-compact-root-from-completed-forward-mean.md)用已成FM/CP/TM/LC给同一根−8e−13<ξ*<−7e−13、mean≤2e−7、同φ状态<3.847e−7、selected距<3.865e−7；全第二ordinary<7.461e−8。[MJ两端mean逆](results/R144-supplement-compact-terminal-mean-Jacobian-and-two-endpoint-inverse.md)已付ordinary/jump/shape/terminal和控制导数；非mean/height/caps及ν源、全Schur仍待。 |
+| compact mean/C0 | [SR锐界](results/R144-supplement-sharp-compact-root-from-completed-forward-mean.md)用已成FM/CP/TM/LC给同一根−8e−13<ξ*<−7e−13、mean≤2e−7、同φ状态<3.847e−7、selected距<3.865e−7；全第二ordinary<7.461e−8。[MJ两端mean逆](results/R144-supplement-compact-terminal-mean-Jacobian-and-two-endpoint-inverse.md)已付ordinary/jump/shape/terminal和控制导数；[VM](results/R144-supplement-signed-metric-mean-moments-and-compact-parameter-lift.md)真ν signed矩入口已齐；actual及全nonmean/height/Schur仍待。 |
 | reflected waist | [RW实际](results/R149-supplement-actual-reflected-finite-waist-rows.md)45787309600/1全96rows/480球，真a=2H(0)、signed mean、整DFT/alias/tail。[JF联合矩阵误差](results/R149-supplement-joint-signed-finite-matrix-error.md)以真target Bessel减去列误差的额外√96；完整TC/P224和signed配对仍待，source/target权重、mean及fullSchur保留。 |
 | graph高块 | [CG](results/R149-supplement-positive-feedback-in-the-complete-graph-high-block.md)准确邻接约消并保真正物理96列；actual common6/PN56未齐，新高门未通过。WDH旧homogeneous高逆保持原范围，完整巨大finite/mean/ν/phase不删。 |
 
 R143 correlated body已全4651；R146全418/13376使当前CV/RA根费格式失败，禁止继续该格式Gram/容量/仅DH细化，不推PDE奇异。R145/R147和[NW](results/R147-supplement-actual-same-window-negative-nu-waist.md)各旧成功锁定；NW只给ordinary零root/无impulse负ν分量，非全误差≤.005。
 
-本会话已在独立partial+sparse目录接手，公开main已pull至12385db351ab03292b18db4cfc40e86754aadc89并读两README。每次pull核规则差异、至少每小时一次。公开Actions科学、容量/尺寸、旧成功禁重及全部失败/unknown保，最终须同一次冻结metric与所有门。
+本会话partial+sparse接手及最新README已读提交见HANDOFF；每次pull核规则、至少每小时一次。公开科学/容量/旧成功禁重及失败/unknown全保，最终同一次冻结metric和所有门。
 
 [CS新中心完整源](results/R144-supplement-compact-centre-ordinary-and-divergence-residual.md)已证exact ordinary/divergence分解，径向常数Δκ只从angular flux准确消去、仍在ordinary项；原Rv−jR0及ξχ′完整保。五个新局部积分量消费actualρ/b后可执行；first-row H−2/3不免费删角导数，384^1/3费与所有rawjump/physical composition仍保。
 
