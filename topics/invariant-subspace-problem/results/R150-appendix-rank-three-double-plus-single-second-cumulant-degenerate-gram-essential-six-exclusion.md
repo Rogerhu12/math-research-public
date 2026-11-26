@@ -358,3 +358,5 @@ $$
 
 因此 $2+1$ 型 H 的本质六维反设只余 $bg\ne0$ 的非退化 Gram。本文不关闭这个剩余型、本质四五维、更高秩层或 ISP 的完成标准。
 
+
+后续[非约化V的完整排除](R150-appendix-rank-three-double-plus-single-second-cumulant-nonreduced-third-cumulant-essential-six-exclusion.md)已将所有二重jet V一并关闭，并独立排除非退化H中的全部F0及约化V的e0；本型ess6只余bgF e均非零的约化V。

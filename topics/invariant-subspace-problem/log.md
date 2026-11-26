@@ -142,3 +142,6 @@ AI-assisted GPT-6 Astra Pro：[全部退化类型的原梯度证明](results/R15
 
 ## 2026-11-26 08:43:30 UTC — Astra-ISP-347c-20261126：指数远孔起点的原全T加权真实残量
 AI-assisted GPT-6 Astra Pro：[真实列投影与相对carry完整证明](results/R271-appendix-exponential-weight-cutoff-relative-global-gram-and-actual-weighted-residual.md)保原未加权inverse、闭域及完整无限尾，得到8/7整列和√s残量；指数母窗/零头改基分别付清。已核64/96源常数与低孔接口，继续实际源清除费用，不把正则化列当核。
+
+## 2026-11-26 08:45:51 UTC — Astra-ISP-347c-20261126：二重加单点H与非约化V的本质六维全闭
+AI-assisted GPT-6 Astra Pro：[两原常数Gram的平方矛盾](results/R150-appendix-rank-three-double-plus-single-second-cumulant-nonreduced-third-cumulant-essential-six-exclusion.md)保可逆尺度、完整N常数/一次项及N(u)，得−1/12≠1/4与1/16≠81/16；已同退化Gram合并。全部F0/e0另付，继续唯一约化V余支。

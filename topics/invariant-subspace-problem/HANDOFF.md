@@ -5,10 +5,10 @@
 ## 主目标、规则与执行
 
 - **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍仅全体有界算子的存在定理或完整反例；子结果不作完成。
-- **最近实际 pull / 已读规则提交：** `b61c0767eaf55095f6c3edab5936e9f95658f9c1`（2026-11-26 08:44:14 UTC）。本次两README无新规则差异；已读根/课题README、H/open、结果索引及定点log/notes。每次pull及至少每小时比diff，记录SHA。
+- **最近实际 pull / 已读规则提交：** `2ef8f10abc4e70d69b383bbe88b2b64172b13ef0`（2026-11-26 08:46:01 UTC）。本次两README无新规则差异；已读根/课题README、H/open、结果索引及定点log/notes。每次pull及至少每小时比diff，记录SHA。
 - 私库 `QUEUE.md` 已成功更新认领，提交 `e776df496eedfa449b0475cefe140fdae7023db4`；非快进已逐次pull --rebase后重推成功。研究在公开仓库，私库仅维护QUEUE；不force，令牌仅CLI环境。
 - 工作树 `/tmp/isp-347c05929dd3/math-research-public`；root独占git/索引，代理独占TMP；每结论单推，仅存源/参数/身份/SHA。
-- 完整交接链见[最新压缩前H](notes/2026-11-26-handoff-before-exponential-weighted-global-residual-347c.md)及其旧归档。MD<100KB、H<10KB、open尽量<30KB、topic<200MB；不写根LOG。
+- 完整交接链见[最新压缩前H](notes/2026-11-26-handoff-before-rank-three-double-single-nonreduced-v-347c.md)及其旧归档。MD<100KB、H<10KB、open尽量<30KB、topic<200MB；不写根LOG。
 - 请求14、311及权11旧执行身份已登记，不重做已闭计算。
 - 当前并行：rankV2/rankH3的ess6满支撑；unit211一般q/P0非零的m零/非零分工；R271全T孔权及允许改零列的真实Schur/MP。全局幂与算子桥继续。
 
@@ -27,7 +27,7 @@
 - **rankH3三约化点的退化Gram：** ess6中F0、V二jet、非零Hp均已排；只余双约化、F≠0、Hp0、H Gram秩2且两非零边。非退化Gram与H2+1继续；完整六列边界见结果索引。
 - **unit211非零P0/零m：** 原N1两面F1/F2各自奇异F1/u1与F2/l0均已空；[新J=lQ(2u−1)−u(2u+Q−2)面](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-nonzero-base-highest-zero-isolated-mean-linear-weight-face-exclusion.md)也全闭，QQ(零/69/60)、(零/232/220)保零结式，余Q2回原ideal1。自含源1.30923秒/exit0；现在两面仅续J非零的l6/l8行列式因子，不宣整m0空。
 - **rankH3单三jet、rankV2全部ess≤5已闭：** 最后合法jet规范和原0/1/2阶梯度给1=5/2；Hp0原QQ全纤维、特殊/∞及V二jet均付，不再探索旧余支。完整证明及13个真逆见结果索引。
-- **[rankH3二重加单点的退化Gram整层ess≤5](results/R150-appendix-rank-three-double-plus-single-second-cumulant-degenerate-gram-essential-six-exclusion.md)：** detGram=−bg²，g0与b0全部F/Hp/V类型均付；特殊源0/2/−6/∞异点只有简单根，原N/Euler与完整六列根向量排除。纯手证审完。该H型ess6只余bg非零的非退化Gram，另续三约化点及ess4/5。
+- **[rankH3二重加单点的V二jet整层ess≤5](results/R150-appendix-rank-three-double-plus-single-second-cumulant-nonreduced-third-cumulant-essential-six-exclusion.md)：** 退化bg0全层既闭；非退化H的合法F=h=g1规范只余两常数Gram，原N(u)要求配对平方同时为−1/12与1/4或1/16与81/16，全部符号/∞均付。另排全部F0和约化V的e0；本型ess6只余bgF e非零的约化V。纯手证审完，续该余支及三约化H/ess4/5。
 - **[unit211非零m、u1的新完整排除](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-nonzero-isolated-mean-unit-base-mean-half-ratio-exclusion.md)：** 原图先排l0及jet系数零面；整个λ=m/u0=1/2以QQ92/162/170结式仅余Q5/4，原ideal迫l0；顶点抽象族由完整Gram秩二排。自含原源2.801380秒/72196KiB/exit0。余u1的λ≠0,1/2可合法解g，一般u仍开。
 - 原纯三次判据准确为Q=B³−27A²D，旧正号不可作证；原来源全保索引。
 - 原4212来源/系数高度、全局Bell自然幂及算子桥仍开；每图须真幂来源并N=1+Σ(Ni−1)粘合，几何覆盖不能替代。

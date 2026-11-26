@@ -66,6 +66,8 @@ $$
 
 **[rankH3二重加单点、退化Gram的整个ess6已空](results/R150-appendix-rank-three-double-plus-single-second-cumulant-degenerate-gram-essential-six-exclusion.md)：** 原H规范给detGram=−bg²，g0与b0的所有F、Hp和两类V逐一排除；特殊源0/2/−6/∞的不同点极线根均简单。F0用原非退化四空间的二维正交补，其余用原常数/一次梯度和完整六列根向量，非零Hp最后迫u=w。纯手证逐式审完；该H型只续bg≠0非退化Gram，三约化H剩余与ess4/5仍开。
 
+**[rankH3二重加单点与V二jet的整层ess6已空](results/R150-appendix-rank-three-double-plus-single-second-cumulant-nonreduced-third-cumulant-essential-six-exclusion.md)：** 非退化H用合法F=h=g1及V真jet尺度，Gaussian/trace只给(b,c)=(-1/6,-1/4)或(1/6,1/12)。原N的常数/一次系数和V mean给C0²、C0C1、Cw²，最后N(u)分别迫平方−1/12=1/4或1/16=81/16。和退化Gram全排除合成完整V二jet闭合；另已独立排F0及约化V的e0。准确只续bgF e非零的约化V，不再探索这类二jet。
+
 ## 2. R271：同一来源的完整物理费用
 
 目标仍是 $M=\ker T$、$N=\overline{BM}$ 的 $N=M$。保同一 $w/u$、全部 partial、真实 intersection 旗、MP 自然域、负前缀/未来/carry、完整帽逆伴随及外投影；所有已闭引理只能按原范围组合。
