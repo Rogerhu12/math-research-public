@@ -77,6 +77,8 @@ request 91699B/0611ff5c76d3bf25be879d7d2de01ab214f9253a8be742b5fc7764d2e6f98b96�
 
 首个v2新范围已发布：[完整实现说明](notes/2026-11-26-inverse-metric-implementation.md)、[表示与原文边界](notes/2026-11-26-inverse-metric-design.md)。两lane B=.3/.38，原stdout返回前不宣候选。参数Jacobian为解析空间jet的前向微分；首run内单方向差分排实现错误。目标g在设计阶段可变，双倍网格只评价同q；最后必须冻结g才做真正精化。C∞平坦尾仍可能缺无限K变号，下一可实际改用R566输入，不能把有限网格下降冒作主门。
 
+新端口已付[R566](results/R566-flat-oscillatory-cap-tail-and-graph-reach.md)：r=.22的准确平盘外接固定w=.1exp[−(2−sinδ⁻²)/δ]，δ=(r−.22)/.2，至r=.30；C∞全平、K无限简单变号，凸底域graph片reach>.1832。下一把实际z背景和开放于每个r>.22的非径向自由量接进逆设计，不把整段尾冻结。原外边jets及body跨块法弦仍另付；更快全平权未证明包含真实核，失败须换权或尾。
+
 ## O4：完整真实第四成本与新首阶机制
 
 ### 既有接口与严格边界

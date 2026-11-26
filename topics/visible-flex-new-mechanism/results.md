@@ -184,3 +184,5 @@
 - [R564 负耦合跨越与同规范七矩准确零](results/R564-negative-coupling-crossing-and-seven-exact-moments.md)：**已证明**原H/H0先固定后一次取大中心，B有可穿越简单零而Ck始终正；两侧真实补偿反馈、窄带快跨越与退化端控的全部history/费用均付。同一实际双回路与完整端IFT给P0=P1=P2=T1=R1^y=S0^y=R0^y=0；仍余S1及全部原period/pose/13，不授完整闭面或主完成。
 
 - [全体段自由旋转度量逆设计v2](notes/2026-11-26-inverse-metric-implementation.md)：**新模型和正式计算请求，尚无科学观察**。平行椭圆核心、准确开端口、a/z/全角切向共同优化，全体产品网格误差保；两lane B=.3/.38，前向参数微分、实际曲率/包络惩罚。g在设计中可变，不授固定g收敛；原first源码丢失后明确新修订重建，未复跑旧58。
+
+- [R566 固定全平振荡圆盘尾与图像片reach](results/R566-flat-oscillatory-cap-tail-and-graph-reach.md)：**已证明**固定w=.1exp[−(2−sinδ⁻²)/δ]、δ=(r−.22)/.2定义准确平盘与无限简单K变号；连续Hess上界K0=(75/8)e^(-5/2)+256e^-4，含边界法锥的凸底域整片reach≥1/K0>.1832。实际graph扰动Hess≤10时整片reach>.06468；不含body跨块、不授flat核或非径向同度量解。

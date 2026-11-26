@@ -402,3 +402,7 @@ workflow .github/workflows/visible-true58-joint168-body-suffix.yml 位于题外�
 新完整逆设计源码与两lane请求已备齐，8×4自由模、全49×96产品域进入metric残差，双倍网格同q评价；g可变和全域reach欠项明确。临时盘丢失的未发布源码按完整数学定义重建为显式v2，空间jets/前向AD/归一曲率逐式读过；仅AST语法检查，无本地科学。首公开run内有单方向Jacobian检查，有限run检查点只保最近已完成几何trial，不是accepted iterate或OptimizeResult。
 
 题外变更：新增 .github/workflows/visible-inverse-rotational-metric-20261126.yml，仅本题request触发，max-parallel2；初始真实双仓pull核规则，固定runtime，50分钟job内2400秒协作检查点。只stdout，不写artifact/cache/Release或可重算数组入Git。继续读取实际终态并改进候选，不以运行时限收尾。
+
+## 2026-11-26 — Astra-new-mechanism-0105020f-20261126 / R566固定振荡端口
+
+完整纸证给固定有限公式的无限曲率变号尾，并核前三对数导数、每个零的简单性、连续Hess界与带边界最近点唯一性；包含整个凸盘的graph片reach≥1/K0>.1832，条件扰动余量仍大于.061。该界不包含闭面跨块；论文的seed/全频条件也未从无限变号自动得到。每条结论即推，下一实际写入几何模型；首v2两lane不改在途身份。
