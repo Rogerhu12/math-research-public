@@ -221,3 +221,5 @@
 - **R150 2+1型H、Hp0的孤立源w∞整个ess6为空（2026-11-26，已证明）：** [原尺度、完整异常纤维和九次域单位](results/R150-appendix-rank-three-double-plus-single-second-cumulant-zero-hp-infinity-essential-six-exclusion.md)保J=M=0、D8/D12及s−2全纤维；107阶Sylvester和40/48/24/3维乘法矩阵均为数域单位，72个QQ逆全部回乘。run45795365604/job139824522596、aea1e29a、3.040982秒/96328KiB/exit0。仅续Hp0的有限w物理实现。
 
 - **R150 单位211非零均值u1图的有限曲线覆盖与整半权排除（2026-11-26，已证明）：** [原三mean全部恒零例外及QQ结式](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-nonzero-mean-unit-base-scaled-finite-cover.md)支付两级有限纤维，整l1/2的60/98/108次结式gcd仅Q38，剩解必须落(l18,Q10)曲线。未把二元gcd自动当全零集；run45795365604/job139824522922数学断言全过、末摘要fmpz序列化exit1据实保留。其余交点和一般u继续。
+
+- **R271 完整原Gram列的位置能量及公共二阶物理矩（2026-11-26，已证明）：** [原未加权J∞正规式和完整辅助尾](results/R271-appendix-complete-gram-position-energy-and-common-second-hole-moment.md)给√s X≤σ√μ_L并返回同一固定μ_T，∫μ_T ds/s≤1。A=√s‖N²k_T‖在每log窗单一s_L趋零，原全部T幂行/前缀共用；闭域、移动比较头及最高零头母窗全部付清。纯手证，无新计算；未把连续方差、完整列或物理矩当实际Sx、真F0或核清除。

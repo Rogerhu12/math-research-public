@@ -7,8 +7,8 @@
 - **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仅全体有界算子的存在定理或完整反例；子结果不作完成，继续研究。
 - **最近实际pull / 已读规则提交：** `3d671b1c98f929848e2c437698cece6f8d2e033e`（2026-11-26 10:15:20 UTC，公开Actions实际pull；本地最后pull为09:16:03 UTC）。两README blob无差异；每次pull和至少每小时查diff，记录SHA。
 - 私库QUEUE认领已推 `e776df496eedfa449b0475cefe140fdae7023db4`；研究在公开仓库。每结论单推，推前pull/rebase；NFF/ref锁拒绝循环rebase再推，不force，令牌仅CLI。
-- 本地执行环境09:19 UTC后unavailable；最近云端main/规则读取 `32fa619620b8b3694a62b1ef89dc113f4df72afd`（2026-11-26 10:24:04 UTC），两README blob未变。此为API读取，不冒充git pull；公开Actions驱动继续实际pull及3300秒规则检查。根通过非force/expected-head原子提交保并发；CLI恢复后立即pull/rebase。只保存源、参数、SHA和小回执。
-- 最新完整前H见[压缩快照](notes/2026-11-26-handoff-before-h21-nonzero-hp-347c.md)及其归档链。MD<100KB、H<10KB、open尽量<30KB、topic<200MB，不写根LOG。
+- 本地执行环境09:19 UTC后unavailable；最近云端main/规则读取 `bc89577201eda4d48114ef1af10c005b4c3998c3`（2026-11-26 10:25:54 UTC），两README blob未变。此为API读取，不冒充git pull；公开Actions驱动继续实际pull及3300秒规则检查。根通过非force/expected-head原子提交保并发；CLI恢复后立即pull/rebase。只保存源、参数、SHA和小回执。
+- 最新完整前H见[压缩快照](notes/2026-11-26-handoff-before-complete-gram-moment-347c.md)及其归档链。MD<100KB、H<10KB、open尽量<30KB、topic<200MB，不写根LOG。
 - 已登记请求14/311、权11及旧结式不重算。当前并行：unit211非零m；rankV2/rankH3的ess6；R271真实加权源与物理清除。
 
 ## R150：原完整梯度、Bell与支撑
@@ -24,11 +24,11 @@
 
 ### 正在推进的三张原分支
 
-- **[unit211整个零m分支已闭](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-nonzero-base-highest-zero-isolated-mean-exclusion.md)：** 三mean到(u,Q)有限纤维全部例外已付；两QQ高曲线结式671/629、2876/2736，末gcd仅u78(u−1)96及(u+2)21u228(u−1)459，原低曲线/秩二族全排。run45789670184/job139805205519原源0374全过，1443.281305秒/297956KiB/exit0；失败137只保历史。结合旧P0零与奇异面关闭零m，立即续非零m/U值图。
+- **[unit211整个零m分支已闭](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-nonzero-base-highest-zero-isolated-mean-exclusion.md)：** 两QQ高曲线结式671/629、2876/2736的gcd仅已付u0/1/−2；原低曲线、奇异面/P0零及秩二族全排。run45789670184/job139805205519、0374源、1443.281305秒/297956KiB/exit0。勿再做零m，续非零m。
 - **unit211非零m：** [u1半比例/jet面](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-nonzero-isolated-mean-unit-base-mean-half-ratio-exclusion.md)已闭；[缩放有限覆盖/整l1/2](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-nonzero-mean-unit-base-scaled-finite-cover.md)现正式登记，保有限纤维全部例外，必要曲线(l18,Q10)。旧run45795365604/job139824522922仅末摘要编码exit1，数学断言全过。新run45799548882/job139838880139的两QQ结式1085/1389只余l2，尚须原纤维返回；unit代理续U值图及L0/w1、S0碰撞。源和真实状态见[检查点](notes/2026-11-26-next-equations-execution-checkpoint-347c.md)。
 - rankH3三不同点、H自身Gram退化的ess6：F0、V二jet、非零Hp全空；只余双约化、F≠0、Hp0、Gram秩2且两非零边。非退化三点H也继续。不能以H子Gram退化代整个六维K退化。
 - rankH3单三jet、rankV2整层ess≤5已闭：Hp0原十六维QQ/13真逆、所有特殊/∞和V二jet全付；最后F=−m原0/1/2阶梯度得1=5/2。不要重做旧余支。
-- **[2+1型H的非零Hp整层ess≤5](results/R150-appendix-rank-three-double-plus-single-second-cumulant-nonzero-hp-essential-six-exclusion.md)：** 原重节点付C0D0(C0−D0)与J非零，完整N差保所有At/τ/γ零面；QQ93/126次gcd56只余Q2/Q4，两个good σ谱均由原G1/Ht真逆排除。run45795365604/job139824523000、df42d64c、0.011089秒/36048KiB/exit0。合并退化Gram/V二jet/F0/e0后仅续非退化Hp0约化V。
+- **[2+1型H非零Hp整层ess≤5](results/R150-appendix-rank-three-double-plus-single-second-cumulant-nonzero-hp-essential-six-exclusion.md)：** 原重节点/J及所有At/τ/γ零面均保；QQ93/126的Q2/Q4异常谱由六真逆排除。run45795365604/job139824523000、df42d64c、0.011089秒/exit0。合并退化/V二jet/F0/e0后仅余非退化Hp0约化V。
 - **[2+1型Hp0九次Gram](results/R150-appendix-rank-three-double-plus-single-second-cumulant-zero-hp-nine-gram-candidates.md)：** F=h=g1后D=−C，G9给至多九个完整Gram。[孤立H源w∞现已全闭](results/R150-appendix-rank-three-double-plus-single-second-cumulant-zero-hp-infinity-essential-six-exclusion.md)：原E/Es与尺度F1/F2保J0；G9模37不可约，数域107阶Sylvester和40/48/24/3维异常代数全单位，72个QQ真逆。run45795365604/job139824522596、aea1e29a、3.040982秒/96328KiB/exit0。仅续有限w的原物理实现，先付V∞边界。
 
 原纯三次判据为Q=B³−27A²D，旧正号不可作证。4212来源/系数高度、全局Bell自然幂、全部共同域与算子桥仍开；每图要原真幂来源，再以N=1+Σ(Ni−1)粘合，几何覆盖不能替代。
@@ -44,7 +44,7 @@ M=kerT、N=closureBM；N=M未证。始终保同w/u、全部partial、真intersec
 - 实际方差孔权差已付：原J窗、x+1≤d⁴/64下同F源/列Γ差e^(−7d⁴/4)；零头m−1且Q′≥R+r、x+1≤d⁴/1024给同F0差e^(−7d⁴/64)。绝对参考Z未付。
 - 真空阶乘矩给真实物理差96√μ1/(√(3K)y)，同w/u/partial及一次公共log方差准确；L_m原逆权界31/30。移动权起点不得推P_M同权性。
 - **[指数起点的全T相对加权源](results/R271-appendix-exponential-weight-cutoff-relative-global-gram-and-actual-weighted-residual.md)：** 真完整L列投影Γ界16/15，环境A=I+P(U*U−I)P运输原最小者，不假Γ保列空间。J/s≤ℛ_m²的有限列≤9/8；付J*≥max(h−1,81e²/s,4d⁴+2)后全列≤8/7、T/L差e^(−3d⁴/2)，真实Γ_yTa≤(8/7)√s‖f‖。y≤e^(12d³)母窗已付，最高零头须y≤e^(12(d/2)³)。通用Xκ清除仍含e^(κy)，且未给输出孔正则性；代理继续实际源专属清除及真实物理孔矩，探索在 `r271-work`。
-- **J1同源真实孔矩：** [原数缺陷](results/R271-appendix-actual-number-defect-and-uniform-first-moment-of-the-same-residual.md)保全carry/Cayley，B≤64η且Nh_s图收敛；[位置矩](results/R271-appendix-position-number-pullthrough-and-nearly-quadratic-physical-residual-moments.md)给p<2及N²/log^θ、θ>1/2图收敛；[二阶公共方差](results/R271-appendix-critical-second-hole-moment-and-common-log-variance-selection.md)以y=ceil(2^40/s)、Γ=32^N≥y接合，积分≤50，每log窗同一s_L使N²h→0。全母窗已付；不宣全s二阶、全J/F0或指数清除。代理正扩展原完整Gram列。
+- **原同源物理孔矩：** J1的[一阶](results/R271-appendix-actual-number-defect-and-uniform-first-moment-of-the-same-residual.md)、[近二阶](results/R271-appendix-position-number-pullthrough-and-nearly-quadratic-physical-residual-moments.md)及[公共二阶](results/R271-appendix-critical-second-hole-moment-and-common-log-variance-selection.md)已付。现[完整J∞列](results/R271-appendix-complete-gram-position-energy-and-common-second-hole-moment.md)亦证明：原位置正规式√s X≤σ√μ_L，完整辅助√j尾返回固定μ_T且∫μ_T ds/s≤1；√s‖N²k_T‖在每log窗一次选择趋零，所有行/前缀共用。全母窗/自然域付清；未宣全s极限、离散实际Sx、真F0或指数清除，代理正续Sx锚定及源专属返回。
 - 大辅助真F0已付：低新增孔≤L列属全部F_t/F0，r≥h_y+L给能量误差(16/15)32^(−L−1)。原y=m+d、L=d、r3d1、R576(m+1)²d²、Q=R+r合法，sK/y给无权ξ≤e^(−2d)、真压缩源强趋P_M；准确加i0ξ保同来源。Sx孔权与完整MP返回仍开。
 - 冻结大方差零列有原物理下界：‖Ca_s‖≥s/(s+49)，真核z0=a_s费用≥s/[(s+49)√Sx]，合法R=d/r3窗增长如√x。保级双塔未投影差继承首行障碍；最终投影/可改零列的全MP未排除。小头m2、m3反例不在旧联合窗，不逐级外推。
 

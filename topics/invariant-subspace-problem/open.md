@@ -33,7 +33,7 @@ rank$H=4$ 的非单位局部块长度5、4、3已排；长度2单零的三种单
 [原第三矩的本质支撑等式](results/R150-appendix-rank-two-third-cumulant-outside-range-mean-essential-support-equality.md)已经独立证明：一般r=dim essV、y∉RanV且dim essT3>r+1时，y∈essT3并且essT3=span(y,RanH,RanV)。所以剩余rankV2、ess≥4分支处于第三矩内均值层，不能把y∉essT3的长度五外均值消元当作该层论证；仍须原完整梯度。
 
 
-[整个相反非零配对分支](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-opposite-base-pairings-exclusion.md)现已闭合：原trace和单点范数差完整保零值，QQ359/838/1011结式仅余已闭w0、w−1及二次纤维，最后返回原M/S/c0迫v0或lhalf矛盾。原自含源49.017732秒/exit0；所有u0、l0/half、D1D2及六异常曲线均有独立完整来源，详见[压缩前open](notes/2026-11-26-open-before-complete-opposite-base-347c.md)和正式总闭合稿，不重做。单位211仅续q≠0,±1、b+cq≠0、P0≠0；root和unit代理续m非零的互补原图。
+[相反非零配对整支](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-opposite-base-pairings-exclusion.md)已闭：QQ359/838/1011结式的全部末纤维返回原M/S/c0，49.017732秒/exit0；所有异常图、完整Gram秩与原QQ来源见正文及既存快照，不重做。单位211仅续非零m、q≠0,±1、b+cq≠0、P0≠0。
 
 [整个rankH=rankV=2层的本质维数界](results/R150-appendix-rank-two-second-and-third-cumulants-have-essential-dimension-at-most-four.md)已完整升级为essT3≤4：最后Gaussian例外把C=−A,D=−B代回两个分别的原H值方程即得17F³0矛盾。全部约化/二jet/∞均已支付，不再研究旧有限Gram的物理曲面门；无需新计算。结合rankH≤1，rankV2的潜在ess5/6必须rankH≥3；当前接rankH3的ess6满支撑反设，ess4仍独立开放。
 
@@ -106,9 +106,9 @@ $$
 
 **[指数远孔起点的全T相对Gram及真实残量](results/R271-appendix-exponential-weight-cutoff-relative-global-gram-and-actual-weighted-residual.md)：** 完整L列投影的两向Γ界≤16/15；环境正算子I+P(U*U−I)P运输原未加权最小者，既不假Γ保列空间也不付e^(81/s)。有限J/s≤ℛ_m²给整列≤9/8；准确尾截J*≥max(h−1,81e²/s,4d⁴+2)后完整列≤8/7，T/L差≤e^(−3d⁴/2)，Γ_y T a≤(8/7)√s‖f‖。原同w配对准确，真空μ1还给实际物理1/y差。y≤e^(12d³)、R576(m+1)²y²、Q=R+r合法；最高零头改基须改上限为e^(12(d/2)³)。继续同一实际残量的清除：通用Xκ右逆仍付e^(κy)且未给输出孔正则性，不把小残量当真核。
 
-**[同一J1源的真实孔矩](results/R271-appendix-actual-number-defect-and-uniform-first-moment-of-the-same-residual.md)及[近二阶位置权](results/R271-appendix-position-number-pullthrough-and-nearly-quadratic-physical-residual-moments.md)：** a_s=(I+T*T/s)⁻¹f1、h_s=Ta_s保原forcing。原B≤64e⁻¹⁰⁷⁰给N图范数趋零；位置权给全部1<p<2及N²/log^θ(N+c)图范数趋零（θ>1/2）。截权相对形式保全部Cayley/闭域，log方差平方积分付一次公共s，全部旧前缀共用。θ1/2、指数孔权、全J/F0以及同源物理右逆费用仍未付。
+**J1原残量的物理矩已付：** [一阶数缺陷](results/R271-appendix-actual-number-defect-and-uniform-first-moment-of-the-same-residual.md)保全carry/Cayley/闭域；[近二阶位置矩](results/R271-appendix-position-number-pullthrough-and-nearly-quadratic-physical-residual-moments.md)给1<p<2及N²/log^θ的图收敛（θ>1/2）。该J1结论的完整来源及常数保正文，不重做。
 
-**[真实二阶公共方差端点](results/R271-appendix-critical-second-hole-moment-and-common-log-variance-selection.md)：** 原a_s/h_s保持J1同forcing；真实立方位置权与Γ_y=32^N≥y、y=ceil(2^40/s)接合，得N²h_s≤3√s+4√L_s‖h_s‖/√s及带log方差积分≤50。每个趋零log窗一次选s_L，使真实N²h_sL→0并控制全部前缀；完整母窗和最高零头改基已付。仅沿此公共选择，不宣全s二阶极限；全J、真F0与指数清除仍开。
+**原同源二阶公共方差：** [J1端点](results/R271-appendix-critical-second-hole-moment-and-common-log-variance-selection.md)已付每窗同一s_L的N²h趋零。[完整J∞原Gram列](results/R271-appendix-complete-gram-position-energy-and-common-second-hole-moment.md)现亦闭合：位置正规式与完整辅助尾给A(s)=√s‖N²k_T‖、A²≤32L_s⁴s+72L_sμ_T，∫μ_T ds/s≤1；一次公共s_L使A趋零，全部原T幂行和物理前缀同时控制，未替换最小化度量。完整闭域及最高零头母窗均付。继续实际离散S_x锚定、真F0和同源物理右逆/指数费用；不宣全s二阶极限或核修正。
 
 ### 2.2 仍需接合的原返回接口
 

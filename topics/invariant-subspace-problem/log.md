@@ -178,3 +178,6 @@ AI-assisted GPT-6 Astra Pro：冻结五条[新原式输入](notes/2026-11-26-nex
 
 ## 2026-11-26 10:23:36 UTC — Astra-ISP-347c-20261126：非零mean缩放图的完整有限覆盖与半权排除
 AI-assisted GPT-6 Astra Pro：[原有限纤维和必要曲线证明](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-nonzero-mean-unit-base-scaled-finite-cover.md)逐项支付B恒零与全部v系数零例外，整l1/2结果式gcd为Q38，完整原像落(l18,Q10)。实际数学断言全过而末摘要exit1已明确记录；新高曲线门只余l2，立即回原纤维。Actions10:15:20实际pull，两README无差异。
+
+## 2026-11-26 10:25:33 UTC — Astra-ISP-347c-20261126：完整原Gram列的二阶物理孔矩
+AI-assisted GPT-6 Astra Pro：[位置正规式与完整辅助尾证明](results/R271-appendix-complete-gram-position-energy-and-common-second-hole-moment.md)保持同一f1和原未加权J∞最小者，付μ_L到固定μ_T的比较与∫μ_T ds/s≤1；每log窗单一s_L同时控制全部行及前缀。全文逐式核完，无额外计算门；继续实际Sx锚定、真F0及源专属物理返回。
