@@ -543,3 +543,8 @@ open原28316B全文按链接层级移入open-before-fixed-E-and-K-only归档，�
 ## 2026-11-27｜R618真全尾均值支与帽口积分条件界
 
 全文核14190B证明和14161B区间helper，并回查R600/R588的B=2^32、870000a^-4、108<α17<109及完整Green比；同伴独立纸审同过。逐式κ/freeδT、Gaussian三jets/积分与W乘积最高次数6−k、e750−D/|c|及canonical512/forced全系数链保持；只有真实误差输入已包围才授严格anchor，未付M/ODE不默认0。纯源码AST/hash，无本地科学。私库23:15:24 UTC实际pull67ef1777c8根README空diff/QUEUE仍本会话；结果索引前段R507–R550完整移档，正文/相对链接/费用原样保留。
+
+
+## 2026-11-27｜R625同一已付原态的混合规范与完整行续算
+
+全文审8128B helper/37025B driver/6165B stdlib runner/12218B说明及6230B workflow，42绑定/17CLI/AST/sparse核合；同伴另核R620完整逆图和29维chain。保a0与旧65×19，原两全程规范以固定unit偏移，旧实际C²仅读a0/L故零入口同曲线；原D/root/seed/coarse/fine不重跑。全部原行与末十增量保持，LU真实预测先记录，不可用才完整行物理坐标阻尼LSMR；同态缓存、全部拒步/中断费用保持。新runner清凭证前一次载原log并核hash，纯内存stdin给无凭证科学进程。原numpy.bool输出事故修复，所有原成功门未改；本地未科学求值。

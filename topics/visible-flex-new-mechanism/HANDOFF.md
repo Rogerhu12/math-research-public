@@ -5,7 +5,7 @@
 
 ## 1. 授权、规则与继承
 
-公开本次实际pull且根/题README已读至 **9523887dd5e6207e1c372f074beba6e0fc2d6b61**；根/题规则相对继承0749a4cc仍为空差异。私库实际pull/根README已读至 **67ef1777c8910b9bfb7ccff27c1c9d832a5d373e**，2026-11-26 23:15:24 UTC空diff；下次不晚于2026-11-27 00:14 UTC。QUEUE唯一仍本会话进行中，原认领09f8b8b54e。
+公开本次实际pull且根/题README已读至 **47080d3904d3117d347f0d544b3151e06153ff7e**；根/题规则相对继承0749a4cc仍为空差异。私库实际pull/根README已读至 **67ef1777c8910b9bfb7ccff27c1c9d832a5d373e**，2026-11-26 23:15:24 UTC空diff；下次不晚于2026-11-27 00:14 UTC。QUEUE唯一仍本会话进行中，原认领09f8b8b54e。
 
 每次pull只读根/题README差异并记SHA，至少每小时；NFF/ref锁立即pull --rebase再推至成功。root独占git和四索引，每条结论即推；科学只公开Actions，本地只纸证/源码及原日志JSON/hash解析。根12不重放已付门；根15不存raw/可重算表，必要新场再生全计费。H<10KB/open<30KB/md<100KB；publisher活跃不改tracked。
 
@@ -41,7 +41,7 @@ R616原自然stall仍为31接受/1753.553893449秒，细四端过但原ruling1.3
 
 [R625首次原终态](notes/2026-11-27-r620-r625-first-full-feedback-natural-final-agent.md)run45905314619/job140200536341/source84f5f986；28.886597651秒/0接受。新D/q已付：q≈.034196522884657424；原65×19状态JSON25413B/SHA0717a6f6、完整seed/C²/固定fine均已付。首次trial因numpy.bool JSON序列化失败，非stall；ODEmax3.95860921e16，原fine ruling1.798592718e14/真末max1.465946528。首LU fraction1.4353266e−31，未落日志的完整方向/条件数不可补造。
 
-后继从原state/readout续：必要LD规范和矩阵重建计费，旧D/root/seed/fine不重做。保a0，以原unit3967798143562589的两个全程规范增量替j0/f0，原三角盒内等价；明确不可用LU时完整行阻尼LSMR，末10线性增量保持。原19/10参数/8末A+双速度/真历史/全正势/原ruling门全保，18块/576微包/ε1/12000不变。3300秒/180预留，65→129仍须配点门，真曲线门独立；pose/闭材料未付。
+[新混合规范续算](notes/2026-11-27-r625-paid-gauge-coordinate-continuation-agent.md)已审发布，从原state/readout续：必要LD规范和矩阵重建计费，旧D/root/seed/fine不重做。保a0，以原unit3967798143562589的两个全程规范增量替j0/f0，原三角盒内等价；明确不可用LU时完整行阻尼LSMR，末10线性增量保持。原19/10参数/8末A+双速度/真历史/全正势/原ruling门全保，18块/576微包/ε1/12000不变。3300秒/180预留，65→129仍须配点门，真曲线门独立；pose/闭材料未付。
 
 ## 7. 当前候选的新完整连续几何
 
