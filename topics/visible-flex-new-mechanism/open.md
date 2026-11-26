@@ -145,3 +145,5 @@ O2b-B [R617](results/R617-finite-pre-tanh-poles-and-open-cap-rigidity.md)排固�
 O4 [R614原终态](notes/2026-11-27-r614-paid-reduced-function-natural-final-agent.md)真四端细一致已到5.12616e−10；原ruling1.70391e14未解。269次旧系数guard与a1=−6、0恢复失败确定换图依据；固定真实d56ddad1向量进入R616零修正，原母/单位/末固定L与规范不变。
 
 O2b-C [新后端原终态](notes/2026-11-27-r566-backend-preserving-original-terminal.md)真bb921、η.243945588、605/1355/463及各1pending；48/48工作和12/12完整coarse拒绝均实际metric epigraph，下一抬独立e而保完整物理/定位接受。未接受bc9b的fine已付、1353brackets全待处理，须先按同身份续完，不冒接受或重播原fine。
+
+O4 [R619](results/R619-free-center-leading-energy-and-true-memory-local-flow.md)从真实自由奇中心直接起正则首层真M流，提供不同于prepared退化入口的明确输入；C0从属、C1/C2仍全程常数。下一若用此生成全程输入，须回付固定ε/六rho/全正势与八矩返回，不能重置末端A或以局部代完整原式。

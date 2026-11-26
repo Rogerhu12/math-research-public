@@ -5,7 +5,7 @@
 
 ## 1. 授权、规则与完整前史
 
-公开本次实际pull且根/题README已读至 **dc10569e7d6d64a9cd5fce219d69c5fe5fd6c858**；根/题规则相对继承0749a4cc均空差异。私库实际pull/根README已读至 **f7d4488a16beb49a670335f275af43094628e070**，QUEUE认领提交 **09f8b8b54e7cfaabaa635bae5c438c7f1521289a**；本会话仍唯一进行中，下一私库pull不晚于21:10 UTC。
+公开本次实际pull且根/题README已读至 **dc291b5037f5e6ab2bdc8b7b0b51a328be9fa588**；根/题规则相对继承0749a4cc均空差异。私库实际pull/根README已读至 **f7d4488a16beb49a670335f275af43094628e070**，QUEUE认领提交 **09f8b8b54e7cfaabaa635bae5c438c7f1521289a**；本会话仍唯一进行中，下一私库pull不晚于21:10 UTC。
 
 [压缩前全文](notes/HANDOFF-before-saved-brackets-20261127.md)及其中完整归档链保留全部旧结论、真实输入、失败/偏离、量词和所有费用；移档不重跑已付门。[四来源与文献](notes/2026-11-27-current-four-source-topics-and-literature.md)保已读版本和用途。
 
@@ -42,6 +42,8 @@ R598同十八正块/576微包宽母、真η/八A/六rho、中心与两全程常�
 [R614真终态](notes/2026-11-27-r614-paid-reduced-function-natural-final-agent.md)run45885627093新1009.284237733秒/49接受，真37q SHAd56ddad1、L3.4780567811688816；固定32×16四端5.12616e−10过1e−9，原ruling仍1.70391e14、重装差约.18非严格界。a1=−6、269次系数guard/0端恢复失败确定换图理由。
 
 [R616同候选扩盒](results/R616-same-candidate-expanded-box-function-chart.md)保全部原物理盒、jets/germs/母/单位/历史。[实际续算](notes/2026-11-27-r616-actual-expanded-box-continuation-implementation-agent.md)run **45890056841**/job140150220830/source6977e7a4，于20:18 UTC启动。d56真基线+17/17零修正，新trust.1/damping1e−4明确，不重拟合成功seed；16×16求解与末固定32×16，待自然终态。pose尚未闭、宏观族未成。
+
+[R619自由中心首层](results/R619-free-center-leading-energy-and-true-memory-local-flow.md)新付一般B±=Bc(1+d²)±2C1hd+C2m、两个固定自由常数及真实中心S0S1非零的局部真M流；显式合法正/负速度例和负m例，不借prepared结论。仅首层/局部，原固定ε、八矩返回和全程仍待付，作为不同输入继续。
 
 ## 7. 全闭面连续几何
 
