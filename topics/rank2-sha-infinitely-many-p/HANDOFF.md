@@ -6,7 +6,7 @@
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。有限p、随p换曲线、条件桥和接口成功不算完成；固定有限曲线族的联合无穷非零可以再用无限鸽巢选定一条。
 
-- 两仓库已部分克隆、实际pull。公开根/课题 README 已读至 `429b3abcc732a56f4fbe0c0fbd83cc9ab6325a1a`（差异为空）；每次pull检查两文件差异，至少每小时同步并更新此SHA。
+- 两仓库已部分克隆、实际pull。公开根/课题 README 已读至 `9e96b2f90f6129e7b881ee45afbcfc48c904bed3`（差异为空）；每次pull检查两文件差异，至少每小时同步并更新此SHA。
 - 私库QUEUE接手已推 `41fe885610073f478b2f5a752461ca56cfd43f09`，根/本题README于20:03 UTC复核至eb74b5a78f485b18621f95381131a88bbd62467c（差异空，QUEUE仍本会话）。两本地目录为math-research-public、math-research-private；终端可用，令牌仅进程认证，不入文件。
 - root独占git/共享H/open/log/index；结论完成即推，非快进立即pull --rebase、检查README再推至成功；不强推。数学执行用公开Actions，不保存可重算数据/矩阵/log。H<10KB、单MD<100KB。
 - 完整旧状态沿[本次压缩前H](notes/2026-11-27-handoff-before-four-new-arithmetic-sources.md)及其中历史链保存；全部未关闭门仍在[open](open.md)与proof index，未默删。
@@ -15,7 +15,7 @@
 
 ### 原完整几何v8
 
-唯一run45882239615/job140124138541，source `3b0fe32226b1f91ec37ef68a8d53ff865e9d9b26`，19:15:47 UTC进入数学step4，当前运行。固定Sage10.6/离线只读、r29/q2453/batch64/minimal、两特征零PASS pins、45源和原全七式/两图/四交/九对/全厚/18×9保持。实际theta17由原六常数读取，不假定tiny值。
+唯一run45882239615/job140124138541，source `3b0fe32226b1f91ec37ef68a8d53ff865e9d9b26`，19:15:47 UTC进入数学step4；原maps于19:56:59完成，v=ys²−1全零极degree612及首cusp完整商长/HNF已过。20:29:58原306 residual Frobenius为121/306，继续运行；四交/全厚/shadow未完成。固定Sage10.6/离线只读、r29/q2453/batch64/minimal、两特征零PASS pins、45源和原全七式/两图/四交/九对/全厚/18×9保持。实际theta17由原六常数读取，不假定tiny值。
 
 前v7 run45838674625/job139974211422/source6e79456a实际相对/绝对次数AssertionError，无原F/shadow；旧Fv3在MD84/306列超时124。全部阶段/hash在[几何终点](notes/2026-11-27-artinian-v7-final-and-successor.md)。
 
@@ -64,6 +64,8 @@ R909 F、R906 P特征零PASS，R924–927全原模型/两图306/46971乘积/六�
 R885/897全finite/wild范数及Artin/尺度保持。R891/893/940/945仍以前提原c1≠0：深增广来自H¹(J⊗T)，不是JH¹；残余B=v+vpD不付H²自由、ordinary局部或s0。原lambda Hodge(3,0)/twist(2,−1)，usual core0/balanced core1、R859 inert反CM/ordinary错号不改。
 
 **R979已证**：在固定7993以R817实际canonical Katz非零和Castella A.1.1得三个完整Selbal=E·zcan、ordinary strict核0，无需原c1非零。原双新κ在逐m正密度检测Q_m上满足p^Bκ=0，B=H²(C0)挠指数+vpD；保全部残余连接类，深返回H¹(J⊗T)。允许x12/κ=0，不限制辅助模数，非c1/s0或无穷p非零。
+
+**R984已证**：原R854三个固定规范Heegner收缩循环在几何Griff²(W)中非零/独立；曲线对应到weight4的H³(1)因Hodge型不同为零，准确再twist到AJ H³(2)，Picard Kummer与有限扩域res/corestr给几何代数平凡必被指定AJ杀掉，以7993排除。原−6对应将独立性传到指定mixed分量Griff³(X)。不推所有p的AJ非零，不把原端点换成规范类。
 
 本轮[Kato/全Selmer文献核查](notes/2026-11-27-mixed-weight-period-audit-and-height-difference-scope.md)逐式核两张比较图和BKO通常Selmer上界，无新缺口亦不重复编号。Adachi高度差只给非平凡，不给rank2 determinant；ordinary CM还被其假设排除。全部O4/O6/O7、P134/十九角/charge40/10980、全WD/TM/TJ及旧严格群门见open及历史索引，未关闭。
 

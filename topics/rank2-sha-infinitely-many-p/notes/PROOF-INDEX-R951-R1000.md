@@ -69,3 +69,6 @@
 
 
 - [R983](../results/R983-original-common-carry-nineteen-division-source.md)：真实a19=(2+ω,2+ω,1,ω²,19,δγ7)保原C/F；完整原norm7/21和整数19除法给F19=σ390Xψ19A7R7/19、首阶6/质量0。整Gram(390,11310,232,40,10,2)、双逆/半特征、所有旧mixed观察及四CM全五伴随已付。中央v8同次读三算术目标/全81块和四新源全角/十低行，当前新实际输出待返；非零α的固定坏集不得预删。
+
+
+- [R984](../results/R984-original-canonical-heegner-cycles-in-geometric-griffiths-group.md)：原R854三个固定Heegner收缩循环在几何Griff²(W)中非零且独立。实际曲线对应的H¹→e_gH³(1)由weight4 Hodge型为零，准确再twist到AJ H³(2)；Picard Kummer的完整交换及有限扩域res/corestr使几何代数平凡类被指定AJ杀掉，由既有7993非零排除。原有限角色给独立性，真实−6收缩把它传到指定Griff³(X) mixed分量；不从Chow/Griff非零外推跨p实现非零。
