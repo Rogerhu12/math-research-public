@@ -120,3 +120,5 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 公开只保完整小源/参数/证明/真实紧凑标量/run/SHA，raw/cache/逐胞盒/完整大报告只runner或scratch。旧raw普通移出保源/参数/完整结论及固定历史恢复；每条结论普通push，NFF立即rebase重推；每次真实pull核双README且至少每小时一次。当前容量实数见最新推送，不沿用旧§6历史值。
 
 [原606完整积分范数方向](notes/2026-11-26-direct-axisymmetric-integral-norm-full-direction.md)已排03b，同固定g新完整q.initial/新范数/明确mu .01，原全部变量和四份已返地点源保；旧norm restart守卫不变。原3d9详细R696纯读取排在前，积分因子是否成功及真实效果待实际返回。
+
+[完整残差延拓](notes/2026-11-26-same-endpoint-residual-continuation.md)已刊并排积分后：同原C/固定Q/H/球，λ仅求根辅助，最终原C/Cz独立复读；全部五历史地点输入含必需积分报告，缺文件不能默默略去。完整源码与源锁/参数/回退和未付连续分支责任见note，未报新结果。

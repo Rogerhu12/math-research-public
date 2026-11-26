@@ -4,7 +4,7 @@
 
 ## 规则与完整目标
 
-最近规则核查：2026-11-26 16:54:12 UTC，真实pull/rebase至 `1f865b675de50b256ee16bd851e0cce8f7d26a99`，双README相对`38ff5afce5e328d3ca780fd5064692c5e85d28cc`无差异，授权及规矩继续执行。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
+最近规则核查：2026-11-26 16:59:55 UTC，真实pull/rebase至 `3c1d254948af030046d713460a21d74dfa7ec6c7`，双README相对`1f865b675de50b256ee16bd851e0cce8f7d26a99`无差异，授权及规矩继续执行。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
 
 科学计算仅本公开仓库Actions；早前本地偏差及纠正见[执行记录](notes/2026-11-20-public-actions-execution-correction.md)。root唯一分支写者；代理只scratch及未引用小源blob。每条结论普通commit/push，NFF立即pull --rebase循环再推，不强推。至少每小时pull，每次核双README差异/立即遵新规并记commit。raw只scratch/runner，不入Git/Release/artifact；保完整小源/参数/run/SHA/紧凑结论。题≤200MB、单文件<5MB、MD<100KB、H<10KB、open<30KB。令牌仅瞬时CLI。终端中断/恢复及全部授权操作保2a7c完整H；已回终端真实pull/push，未造raw。
 
@@ -13,7 +13,7 @@
 
 ## 共同模型、历史与未付责任
 
-原q全模型与永久地址责任保[2a7c完整H](https://github.com/Rogerhu12/math-research-public/blob/2a7c055d3dfd712f6e204bed877b8324c022b785/topics/visible-flex-larger-amplitude/HANDOFF.md)及全部原notes：M160/J923/922胞/N2048、原1332245自由量、共享quintic三jet、全部free core/H；准确FullHold/S/R/材料图与两帽反射端口。原7377正权/.5测度、全mean/cross/J/J*与真Phi、原C/幅度/历史literal binary点全部保。算法.992/.025只必要筛；SO3新范数明示，不冒旧q空间双射或原范数。[节点范数局部反例](notes/2026-11-26-node-jet-norm-and-radial-integral-control.md)准确证明细化时无统一径向H²控制，未把它当实际拒绝的既定原因；[606 integral完整新输入](notes/2026-11-26-direct-axisymmetric-integral-norm-full-direction.md)已排03b：同g新q.initial/新mu .01，全1×64/rest4×64与4份真实地点源，全部新T*重建。
+原q全模型、维数/范数、永久binary地址及历史责任保[bd75完整H](https://github.com/Rogerhu12/math-research-public/blob/bd75c8c86fa39ee37fd729a8faf4f52be008838e/topics/visible-flex-larger-amplitude/HANDOFF.md)及全部notes。原M160/J923/922胞/N2048、7377正权/.5测度、全部core/H/旋转、共享quintic三jet、准确FullHold/S/R/材料图/反射帽、全mean/cross/J/J*与真Phi不删。算法.992/.025只必要筛；新范数明示，不冒旧空间双射。[节点范数界限](notes/2026-11-26-node-jet-norm-and-radial-integral-control.md)非实际失败因果；[606 integral](notes/2026-11-26-direct-axisymmetric-integral-norm-full-direction.md)同g新q.initial/新mu .01，全1×64/rest4×64及4份已返地点，实际执行待返。
 
 历史完整原文循上述2a7c/235206固定链；全部失败/未返/适用范围保[results](results.md)、[open](open.md)、log与notes，不重做登记结论、不从SHA造raw、不跨场迁证，也不把线性障碍或任意mean当非线性完整结论。
 
@@ -33,7 +33,7 @@
 
 [零Δ原失败与实际14–16](notes/2026-11-26-zero-initial-endpoint-replay-and-moment-input.md)完整记录保1d457全文：窄/.5/.75都首8角失败无场/J；14全弦长严格通过，15旧轨迹末候选球内仍未降、工作Cz病态，16纯抽取18字/05dc，未冒真逆或根证明。
 
-[固定Q真实19–20](notes/2026-11-26-actual-fixed-moment-Q-initial-failure-19-20.md)完整44ac/e4a3/ff500/082b/c942已执行。同0f042/6ffc/cd530/H/05dc，返747544/e4dc：新d035模型角5初根失败，batch残差.0348922311/修正.4392978791，432回溯角读；无初末场/Phi/J、0成功root不冒未尝试。新Q非旧W共同右换坐标，相近残差不推不存在。[支撑必要式实际23](notes/2026-11-26-actual-03b-supported-chord-pass.md)55ad/09819真返：三补段/全尾/全角覆盖、最大surplus上界严格负，384/256叶准入止而两精度未达不损外包，0root/F/J。原H已通过，非有限控制族根存在证明，不能据此称需改H。[显式新H完整入口](notes/2026-11-26-explicit-initial-height-fixed-moment-zero-entry.md)34c9/c1d3/2e5b/e996已刊，44ac/18字/原implicit与全循环不改，先核原cd530再只改自由H，尚未选H。优先同原方程残差延拓；最终λ1必须无偏移复读C/Cz。
+[固定Q真实19–20](notes/2026-11-26-actual-fixed-moment-Q-initial-failure-19-20.md)完整44ac/e4a3/ff500/082b/c942已执行。同0f042/6ffc/cd530/H/05dc，返747544/e4dc：新d035模型角5初根失败，batch残差.0348922311/修正.4392978791，432回溯角读；无初末场/Phi/J、0成功root不冒未尝试。新Q非旧W共同右换坐标，相近残差不推不存在。[支撑必要式实际23](notes/2026-11-26-actual-03b-supported-chord-pass.md)55ad/09819真返：三补段/全尾/全角覆盖、最大surplus上界严格负，384/256叶准入止而两精度未达不损外包，0root/F/J。原H已通过，非有限控制族根存在证明，不能据此称需改H。[显式新H完整入口](notes/2026-11-26-explicit-initial-height-fixed-moment-zero-entry.md)34c9/c1d3/2e5b/e996已刊，44ac/18字/原implicit与全循环不改，先核原cd530再只改自由H，尚未选H。[完整同方程残差延拓](notes/2026-11-26-same-endpoint-residual-continuation.md)3f37/613d/9649/e57e/a0c9/cc28已刊排03b；同Q/H/.75，失败精确回退，最终λ1无偏移复读C/Cz、原implicit不改。五完整manifest含必需前序积分报告；未返不冒成功，缺依赖明确失败。
 
 02 [run45800076687/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45800076687)已终止接纳；[实际卷](notes/2026-11-26-public-actions-45800076687-1.md)真返49/exit0，16:08:14准入结束，50未执行；API总cancelled而research step成功，两者不混作49科学失败。
 
