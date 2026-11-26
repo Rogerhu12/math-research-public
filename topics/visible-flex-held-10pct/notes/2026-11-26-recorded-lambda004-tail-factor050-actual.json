@@ -1,0 +1,42 @@
+{
+  "session": "Astra-held10-06bbeb39-20261126",
+  "observed_utc": "2026-11-26T10:46:10Z",
+  "workflow_run": 45763361623,
+  "command_id": "held10-recorded-lambda004-fullH-20261126-02",
+  "script": "topics/visible-flex-held-10pct/scripts/resume_20261126/tail_solve_recorded_height.py",
+  "script_sha256": "7dd0fd35fdc3df98496bdb3a7e442026d79fcc20ea40b7d7cbee264a1a8a8110",
+  "source_commit": "799c0d7362622c12d3abe4d1f6fe9126d8f87a0f",
+  "input_scope": "Recorded lambda=.004 prefix candidate_H; independent tail only",
+  "height_factor": 0.5,
+  "height_arithmetic": "numpy H_j * factor**j, complete historical lambda=.004 M24 target",
+  "accepted_original_tail": {
+    "audit": {
+      "actualMetric": 8.215663479503087e-15,
+      "formalCurvature": 8.148738377594706,
+      "fullD": 1.409763836009543e-13,
+      "holonomy": 2.252220902079782e-18,
+      "maxPhysicalPV": 0.00016206110908710908,
+      "minD": 0.999592793623349,
+      "minLeading": 0.8194761510565995,
+      "normalizedFullDefect": 3.121933823111746e-12
+    },
+    "converged": true,
+    "factor": 0.5,
+    "full_height": false,
+    "record": "/home/runner/work/_temp/held10-live/recorded-lambda004-fullH-fresh-01/tail_0002.json.gz",
+    "residual": 9.444905600895387e-10,
+    "sha256": "1fdc4b76ad6b64e9b60792de6bd836a9cb49da7f35752f4dcb9996c380b4be13"
+  },
+  "unscaled_full_height_accepted": false,
+  "prefix_metric_passed": false,
+  "accepted_prefix_tail_coupling": false,
+  "continuous_geometry_certificate": false,
+  "complete_surface": false,
+  "next_factor_observed": 0.75,
+  "next_request": {
+    "audit": true,
+    "call": 3,
+    "event": "request",
+    "time": "2026-11-26T10:44:57.849Z"
+  }
+}
