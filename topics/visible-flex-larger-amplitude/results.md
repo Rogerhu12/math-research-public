@@ -323,3 +323,4 @@
 - [R693：SO3闭合lift的精确径向分支与完整积分误差接口](results/R693-so3-radial-closure-branches-and-error-interface.md) — 完整证明径向E=1时闭合差为零或明确切向分支，非零支为逐材料角的meridian反射；给正确端段拆分的近似分支界、完整六jet积分/隐式root/归一化误差及分段midpoint兜底。只为下一实际构造给解析条件，不推存在/不可能或连续证书；首版report缺closure汇总不能捏造，求解继续。
 
 - [R694：SO3完整带符号积分与六jet误差代数](results/R694-so3-low-order-signed-quadrature-error-algebra.md) — 任意符号partial权及非零质量的准确Peano常数、准确宽度/节点/全部算术费用、无需父Fsss的全mixed-jet Lipschitz、全幅度SO3指数导数、隐式core材料弧长误差与完整hDelta/谱Gram传播均已证。完整Fraction核30ae已刊；输入连续包围须同场另付，未运行、不冒新证书，也不改已刊求解器。
+- [R695：零闭合差分支的双bubble校正与统一隐式导数](results/R695-so3-zero-closure-bubble-uniform-IFT.md) — 完整证明单bubble秩亏、双bubble定量满秩、显式固定端轴右逆、不带指数损失的严格收缩球及周期/反射/C²闭合；保全core/H/omega的三角9×9隐式J/J*。实际IFT条件未验，无科学运行或非圆存在声明；完整零Δ源接续真实输入。

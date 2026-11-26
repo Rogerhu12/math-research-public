@@ -1,46 +1,40 @@
 # HANDOFF — visible-flex-larger-amplitude
 
-维护：Astra-larger-e4e2a2bf-20261126（AI）。2026-11-26接手Astra-larger-resume-24b2ab87-20261120。**未完成；不因阶段/时长停止，完成README全部标准后继续增大比例。**
+维护：Astra-larger-e4e2a2bf-20261126（AI），接手Astra-larger-resume-24b2ab87-20261120。**未完成；不因阶段/时长停止，达到README全部标准后继续增大比例。**
 
 ## 规则与完整目标
 
-最近规则核查：2026-11-26，真实pull/rebase至 `5f5aa1fb03fab3ccf36010c283865f7465334b00`，根及课题README相对f0548477无差异，已完整读授权及规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
+最近规则核查：2026-11-26，真实pull/rebase至 `c1e34bd91b543b6176149be7fcdac822e1dd49e9`，根及课题README相对f0548477无差异，已完整读授权及规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
 
-科学计算仅本公开仓库Actions；早前本地偏差及13:00 UTC纠正见[执行记录](notes/2026-11-20-public-actions-execution-correction.md)。根README已授权必要修改/发布；root唯一分支写者；代理只scratch及未引用小源blob。每条结论普通commit/push；NFF立即pull --rebase循环再推，不强推。至少每小时pull，每次核双README差异/立即遵新规并记commit。raw只scratch/runner，不入Git/Release/artifact；只保完整小源/参数/run/SHA/紧凑结论。题≤200MB，MD<100KB，H<10KB，open<30KB。令牌只瞬时CLI，不写文件/提交/回复。
+科学计算仅本公开仓库Actions；早前本地偏差及纠正见[执行记录](notes/2026-11-20-public-actions-execution-correction.md)。root唯一分支写者；代理只scratch及未引用小源blob。每条结论普通commit/push，NFF立即pull --rebase循环再推，不强推。至少每小时pull，每次核双README差异/立即遵新规并记commit。raw只scratch/runner，不入Git/Release/artifact；保完整小源/参数/run/SHA/紧凑结论。题≤200MB、单文件<5MB、MD<100KB、H<10KB、open<30KB。令牌仅瞬时CLI。11:22环境再次失联，恢复后重新部分克隆/真实pull；已刊与未引用完整小源都恢复，未补造raw。
 
-目标：同一固定g、闭连通C²嵌入、全t强C²连续；固定有内点H且diamH≥.2D、整像δhold≥.2D、含反射δE>0；全t reach≥.03D、整面relative metric≤1e−6；固定g/参数/范围的实际网格和频率精化至机器或原求解容差，给多t可复现网格并说明严格存在缺口。D为完整F0直径。R248准确相位恒等式已消去独立t插值问题，不新增时间网格门。有限误差/开放片/障碍不完成。
+目标：同一固定g、闭连通C²嵌入、全t强C²连续；固定有内点H且diamH≥.2D、整像δhold≥.2D、含反射δE>0；全t reach≥.03D、整面relative metric≤1e−6；固定g/参数/范围的真实mesh和频率精化至机器或原求解容差，多t可复现网格，准确说明严格存在缺口。D为完整F0直径。R248准确相位恒等式处理全t，不新增独立t插值门。有限误差/开放片/障碍不完成。
 
-## 模型与真正未付处
+## 共同模型、历史与未付责任
 
-现923准确节点、M160、1332245原自由量，共享quintic三jet q；core前三系数固定，其余原变量保留。材料Θ下g固定，改变core只改内部坐标。原FullHold/准确S/R及节点αS+β不换成采样插值。上下镜像/两帽/准确仿射接口，R248相位族；固定非轴marker帽用自身共同诱导g，不冒旧平盘等距。
+原q链为M160/J923/922胞/N2048，1332245原自由量，共享quintic三jets，core前三固定、其余core/H全自由。准确FullHold/S/R及符号节点αS+β保留；材料Θ下g固定，当前core仅改内部图。两帽/中圈反射准确接合，固定非轴marker帽用自身共同诱导g，不冒旧平盘等距。
 
-R653 quarter/R654完整H²/R655全部旧1845+六Gauss5532=7377正权观察保留，Jw=.5/.5，weighted/raw/legacy不混减、max/K不加权。全部physical-H/core变量、nu_c24范数及R664真Phi回溯保。算法.992/.025只是必要点screen；每新场复读全部历史/新位置，所有binary点保，不round13合并，不删变量/范数/原C。
+R653 quarter、R654全H²及R655旧1845+六Gauss5532=7377正权观察、.5/.5测度、所有角点、完整J/J*与R664真实Phi回溯保留。weighted/raw/legacy不混减，max/K不加权。算法.992/.025只是必要screen。原192工作行及新增幅度行、每次全历史/新位置复读、所有binary点及保护信息都保，不round13合并，不删变量或原C。新SO3有明确不同坐标/正范数，不冒原q空间双射或原范数。
 
-## 旧结论、边界与复现
+完整当前压缩前记录见[402d完整H](https://github.com/Rogerhu12/math-research-public/blob/402d6157efc3443bad0c6bdb4bd12d6086165da0/topics/visible-flex-larger-amplitude/HANDOFF.md)，旧完整历史由其36cd/81150/51ab链保。旧失败/未返/适用条件及源码不重做：[results](results.md)、[open](open.md)、log和全部notes均保。44758209061 exit0、44772201880硬限取消，旧全K/raw未返，不用SHA造数据；旧场证书不跨场。R669线性唯一/有限quintic障碍不是非线性不可能；任意mean目标未保证可实现。
 
-完整证明见[results](results.md)。旧run/3ef8/7fd/756、R650–685适用条件、所有旧失败和未返及完整来源保[36cd完整H](https://github.com/Rogerhu12/math-research-public/blob/36cd9baa89bd93944d5fd338aff36fc6b49e97f0/topics/visible-flex-larger-amplitude/HANDOFF.md)及其0cd/28c/e67前链，不重做。solver44758209061已exit0、geometry44772201880已硬限取消，旧全K/raw未返，不能用SHA造数据。7fd严格metric lower>.01195；旧场first/非平面/幅度/K不跨场，R648/651/652仅开放prefix。全部六jet/无限尾/QP/J/原范数/全C/父测度与同场证书责任保留。
+十六次raw普通移出及原小源/全部参数/恢复commit见[容量记录](notes/2026-11-20-resume-raw-retention.md)。Python3.12.14/NumPy2.3.5/SciPy1.17.0/单BLAS，SO3另CPUtorch2.5.1/float64；完整来源在[独立运行说明](notes/2026-11-26-independent-public-nonlinear-continuation.md)及实际运行卷。finite typed不冒连续，iteration_limit不冒驻点，零步不冒精化。
 
-必要输入链及Python3.12.14/NumPy2.3.5/SciPy1.17.0/单BLAS来源保[独立运行说明](notes/2026-11-26-independent-public-nonlinear-continuation.md)和旧H链。原源resume_20261120、新源resume_20261126。十六次raw普通移出保完整小源/参数/历史恢复见[容量记录](notes/2026-11-20-resume-raw-retention.md)；finite typed不冒连续、iteration_limit不冒驻点、零步不冒精化。
+## 本次实际结果与继续入口
 
-## 2026-11-26实际接手与紧接工作
+R684/R688/R689旧mean、e3d→643→2d3和真实61/64/63/65/66保402d历史链。[真实63/65/66](notes/2026-11-26-actual-multiround-SOC-acceptance-and-own-first.md)7ebb虽Phi降但max升至.014722916，QP未驻点；自身first已付但marker/K/reach/全域metric/精化未付。R686[完整同场几何入口](notes/2026-11-26-same-field-batched-curvature-geometry-consumer.md)已刊；R666同场reach责任仍未付。
 
-run45762076394/1初源a4a535ee，只再生续算必要输入；旧末父/失败保上，不重宣或跨场继承。R683完整源已刊；子问题结束接open，不等确认。
+R690[深谷新输入](results/R690-quasimonotone-tail-and-deep-valley-input.md)已证积分比可积唯一性判据及明确非可积深谷，保原prefix/S、更新准确R/I、参考Hold曲率≤5/2；仅避开一个充分判据，不推非圆存在。[实际54](notes/2026-11-26-actual-deep-valley-complete-scalar-input.md)e091无限尾盒有效而300秒未达请求精度。后继同固定g来源/参数383168/e39保六源prepare，fresh输入必须核实际身份，不能硬写旧profile哈希。
 
-R684/R688旧mean及真实61/64全部保[81150 H](https://github.com/Rogerhu12/math-research-public/blob/81150e4539f03217bace0c8607bba2d4b658ee9f/topics/visible-flex-larger-amplitude/HANDOFF.md)：954fd435/旧g max.01318391，QP未驻点，SOC真拒因未列，旧43内层trace仍未读；不迁旧证书。
+[真实72/73/74](notes/2026-11-26-actual-fixed-deep-next-two256-and-attribution.md)：329e同deep g两256方向，第8/7轮SOC满步接受返9b937eea/report993556；max .01289641028→.01267927582，centeredPhi .00019719383→.00018497065，μ.0025→.000625。全原197及新增行、2785曲率/2756半径点保；QP limit/Pg-tol约30620/88064，末面3/12步，coarse/face无fallback，原满步仅K拒。新父Phi末位差只用当次baseline。必要product.991798484/amp通过；自身全922 first bbefd075：D≤4.118905347、L≥.938949608、heldbody≥.227960958/embedding。tail盒有效但请求精度false；marker/K/reach/全域metric未付。不证明p4平台或coarse收敛。[固定g fine+SOC](notes/2026-11-26-same-fixed-deep-scalar-refinement-with-separated-SOC.md)完整d146等源/参数已刊未排，ready仍指8a非9b；不冒精化。
 
-R686[同场first/K/四标记](notes/2026-11-26-same-field-batched-curvature-geometry-consumer.md)完整源已刊，六jet/全尾/全角保留、K目标由实际D推；新全K未付，不复算旧取消场。
+R691[准确Haar证明](results/R691-frozen-physical-mean-endjet-and-material-Haar.md)保全RT/末端相容/J。真实71/75完整moments027c36和目标e35ce2/manifest4db6a2已返，请求精度false；冻结只是定义。[真实76/77](notes/2026-11-26-actual-frozen-Haar-first-full-direction-and-attribution.md)b70同该目标返bcdcdab/a76c4d：max .01500409671→.01406459392、centeredPhi .00018604610→.00017030316，1方向真接受/末μ.01；必要product.99144266/amp过，2758曲率/2754半径点保。公开summary和完整日志缺alpha/QP/Pg/J，不猜。追加fresh纯归因及bcd自身first因01准入已结束而**未执行**；旧7ebb证书不迁，marker/K/reach/全域metric/精化未付。[faa863全Gram核](notes/2026-11-26-accurate-Haar-continuous-Gram-consumer.md)已刊未跑，不对已知百分之一候选冒上界认证。
 
-R688/e3d→643→2d3前史及[R689完整连续/固定均值链](notes/2026-11-26-frozen-mean-target-numerical-pipeline.md)保81150完整H及相应notes。[真实63/65/66](notes/2026-11-26-actual-multiround-SOC-acceptance-and-own-first.md)返7ebb：Phi降至.0001392034但max升至.014722916，μ.005/QP未驻点；全197→213行与永久点保。自身first D≤4.124124731/L≥.938564547/heldbody≥.227579088/embedding已付；marker/K/reach/全域metric与固定g精化未付。
+R692[完整旋转连接](results/R692-nonlinear-rotation-connection-and-metric-error.md)证全MC/周期势/帽闭圈及无1/c双积分Gram/全J/J*，仅经典连接类，不推任意C²弱类或非圆存在。[SO3六源](notes/2026-11-26-complete-closed-SO3-meridian-solver.md)234a/9cf5/9b77/32bd已刊排02；实际deep父冻结T0与材料图，全部旋转jets/free core/H/7377×全2048/原192+幅度/永久binary点保。F=G+hΔ全项进F/J/J*/几何，不冒E=1；新jet-sum正范数/μ.01，最多4×64共同slack恢复后1×16真实metric方向，slack不冒真可行。完整连续积分/root/归一化费用另付。
 
-R690 [完整深谷新输入证明](results/R690-quasimonotone-tail-and-deep-valley-input.md)已刊：B=积分c/c可积的唯一性判据及明确非可积深谷；保原prefix/S、更新准确R/I，参考Hold曲率≤5/2。e091 [实际stage54](notes/2026-11-26-actual-deep-valley-complete-scalar-input.md)完整无限尾已返、无振荡丢弃；300秒/1318叶未达1e−18请求，但盒有效。新factory/固定gn全求解直接续接；无非圆存在或新几何声明。
+[R693](results/R693-so3-radial-closure-branches-and-error-interface.md)已证准确E=1的零Δ或切向反射分支及全六jet误差；首源未存closure汇总，需实际同场读。[R694](results/R694-so3-low-order-signed-quadrature-error-algebra.md)30ae完整signed Peano/非零质量/低阶mixed jets/六jet和谱费用核已刊，同场输入盒未付。[R695](results/R695-so3-zero-closure-bubble-uniform-IFT.md)新证双内部bubble满秩、显式固定端轴右逆、严格统一收缩球及完整三角隐式J/J*；实际IFT条件未验、完整零Δ源在接。闭合或E=1都不替代剩余Gram/曲率/全域几何。
 
-新deep profile383168由[六源/prepare](notes/2026-11-26-fixed-deep-scalar-complete-amplitude-solver.md)固定；b788/8a05各自first和历史保[67–69](notes/2026-11-26-actual-fixed-deep-scalar-multiround-SOC.md)。[真实72/73](notes/2026-11-26-actual-fixed-deep-next-two256-and-attribution.md)329e同g两256方向分别第8/7轮SOC满步接受返9b937eea/report993556：max.01289641028→.01267927582、centeredPhi.00019719383→.00018497065、μ.0025→.000625；原197及新增行/2785曲率和2756半径点保。QP仍limit/Pg-tol约30620/88064；末面仅3/12步、35/13及38/10加释放，coarse/face无fallback，原满步只K拒。末必要product.991798484/amp通过；自己74全922 first已返bbefd075：D≤4.118905347/L≥.938949608/heldbody≥.227960958/embedding；完整tail有效但精度请求未达，marker/K/reach/全域metric未付，不迁旧证书。新父Phi重读有末位差，下降只用当次baseline。未证明p4平台或coarse收敛。[p/μ审查](notes/2026-11-26-fixed-target-p-continuation-source-audit.md)保换损失真实基线；[d146同profile fine+SOC](notes/2026-11-26-same-fixed-deep-scalar-refinement-with-separated-SOC.md)保eta/R/全原点/父测度/原SOC政策，尚未排fine，ready仍指8a而非9b，不冒精化。
-
-R691[末端相容/准确Haar](results/R691-frozen-physical-mean-endjet-and-material-Haar.md)及1d12/c5a全RT/严格尾/J链已刊；[真实71/75](notes/2026-11-26-actual-frozen-material-Haar-target.md)完整moments027c36、准确目标e35ce2/manifest4db6a2已返，工作精度请求未达。[真实76/77](notes/2026-11-26-actual-frozen-Haar-first-full-direction-and-attribution.md)同目标b70返bcdcdab/a76c4d：max .01500409671→.01406459392、centeredPhi .00018604610→.00017030316，一方向真接受/末μ.01、必要product.99144266/amp通过，2758曲率/2754半径永久点保。公开summary及完整job日志均缺alpha/QP状态/Pg/J，不能由256预算或μ猜；fresh纯归因和bcd自身first在01准入结束后排入，**未执行**。旧7ebb证书不迁；自身marker/K/reach/全域metric/固定g精化未付。[faa863连续全Gram](notes/2026-11-26-accurate-Haar-continuous-Gram-consumer.md)完整已刊，尚未实跑，不对已知百分之一场冒上界认证。
-
-R692[完整旋转连接](results/R692-nonlinear-rotation-connection-and-metric-error.md)已证：经典连接类全MC/周期势、帽和闭圈、无1/c双积分Gram界及全J/J*；C²仅端口，不推所有弱类或非圆存在。[完整SO3六源](notes/2026-11-26-complete-closed-SO3-meridian-solver.md)234a/9cf5/9b77/32bd已刊并排run02：从当次真实deep父建立冻结T0/材料图，所有旋转jets/free core/H、原正权7377×全2048、原192+amp及全部binary永久点保；hΔ闭合进入全部F/J/J*/几何，不冒E恒1。新jet-sum正范数/μ.01，最多4×64共slack恢复后1×16真实metric方向，slack不冒真可行；完整求值/root/归一化连续费用未付，原场证书不继承。
-
-[R693完整闭合分支](results/R693-so3-radial-closure-branches-and-error-interface.md)已证：准确E=1给零Δ或明确切向反射支；近似分支/全六jet积分误差条件齐，未认证。首源未存closure汇总，需同场实际读；继续零Δ端点修正和真实求解。[R694带符号积分全误差核](results/R694-so3-low-order-signed-quadrature-error-algebra.md)30ae完整已刊，保非零质量/全mixed-jets/六jet和谱费用；同场输入盒未付，不冒证书。环境恢复见log/113e。
+新独立03将只再生原5prefix+pulse+完整warm，直接用准确R690轴对称单位T0构造完整SO3。原normalized-parent 02继续；03不是旧父/旧g证书继承。历史位置由完整已刊seed逐字保留，未提供的其它runner新增位置须明确范围，不能假称已拿到；每新场重读自己全部提供位置与全网格。达到真完成前继续换输入/方向、接open，不因环境/时限/条件未验收尾。
 
 <!-- visible-larger-parallel-02:start -->
 并行公开Actions02：[run 45800076687/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45800076687)；[实际记录](notes/2026-11-26-public-actions-45800076687-1.md)。阶段`followup:resume-20261126-reconstructed-R671-full-phi-actual-mu-02`/completed；已返30，exit=0。
