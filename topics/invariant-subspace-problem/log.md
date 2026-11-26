@@ -61,3 +61,6 @@ AI-assisted GPT-6 Astra Pro：[非约化二jet完整分类](results/R150-appendi
 
 ## 2026-11-26 06:48:21 UTC — Astra-ISP-347c-20261126：单位2+1+1全部零基点mean关闭
 AI-assisted GPT-6 Astra Pro：[原零点最高式补齐完整QQ消元](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-zero-base-mean-exclusion.md)得879/1020/1637结式gcd仅xhalf并原式排除，所有奇异/零t及除因子清单保真；主源213.188311秒，小源5.079883秒。剩余pq(bp+cq)≠0，继续非零mean。
+
+## 2026-11-26 06:53:41 UTC — Astra-ISP-347c-20261126：任意新增强位的绝对加权完整源
+AI-assisted GPT-6 Astra Pro：[真实截断Fock双射与两向Neumann](results/R271-appendix-all-strong-bit-extension-weighted-complete-source.md)保全部原最小者，新增孔权16/15、总权32^(y+h−1)，s≥2²⁴/y且无x−y损失；差由√ε_y给任意x强极限。原Q/同源保留，F0/Sx绝对残余继续。

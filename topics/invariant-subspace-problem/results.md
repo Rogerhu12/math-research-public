@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R271 任意新增强位的完整原最小源绝对物理孔权（2026-11-26，已证明）：** [有限Fock精确双射、两向孔权与原Gram逆](results/R271-appendix-all-strong-bit-extension-weighted-complete-source.md)在y=m+d、s≥2²⁴/y给所有x≥y/J≥0的新增γ1/32孔权≤16/15‖g‖，总物理代表只付32^(y+h−1)，无x−y损失。差进一步由旧正能量√ε_y控制，得任意增长x的完整源强极限；保原同forcing、V/K及partial来源。真F0/Sx仍须另付。
+
 - **R150 单位2+1+1与孤立零点的全部零基点mean支路为空（2026-11-26，已证明）：** [原线性mean、全部奇异纤维与完整QQ消元](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-zero-base-mean-exclusion.md)关闭q≠0,±1；QQ879/1020/1637结式gcd只余(x−½)^362，该纤维另以原式全排。准确除去因子的完整清单另核，主源213.188311秒、小源5.079883秒，均exit0；接已付q±1与零配对，剩余pq(bp+cq)≠0。
 
 - **R150 秩二第三累积量的全部内均值临界点完整分类（2026-11-26，已证明）：** [二jet最高整除、原D8反演及完整低梯度](results/R150-appendix-rank-two-third-cumulant-all-inside-mean-complete-classification.md)排除所有真实切向均值，只余物理值均值的0/2/−6/∞四点切向T3零族；接两点层后整个rankV2且y∈RanV的T3均零。原64阶门618、∞45、全部33梯度及三参数链式，0.108923秒实际成功；外均值与更高秩继续。

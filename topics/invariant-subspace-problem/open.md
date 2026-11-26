@@ -74,6 +74,8 @@ $$
 
 [实际原方差中的完整孔权残余运输](results/R271-appendix-actual-window-weighted-full-galerkin-residual-transfer.md)进一步支付原未加权Galerkin最小者的差，而非改度量的候选：m≥10、d≤x、x+1≤d⁴/64及原J窗中，Γ=32^N下残余、最小者与全能量列差均≤e^(−7d⁴/4)‖f‖。最高carry零头取m−1、n=d/2时，x+1≤d⁴/1024给同F0的Zγ差≤e^(−7d⁴/64)，新母支持准确Q′≥R+r。仍须证明参考Z_(A_x,F0)自身的绝对界；不能换为ker A_x^r或先取零方差。
 
+**已付的绝对孔权范围：** [任意新增强位的原完整最小源](results/R271-appendix-all-strong-bit-extension-weighted-complete-source.md)在y=m+d、s≥2²⁴/y时，对所有x≥y和有限J给γ1/32的新增强孔权≤16/15‖g‖，全物理代表孔权≤(16/15)32^(y+h−1)‖g‖，不含x−y的损失。完整旧列的Γ投影交换及两向creation乘子支付原未加权inverse；真实差由√ε_y控制，固定大辅助方差比例亦给任意增长x的完整源极限。原V/K/u/partial身份仍须Q≥R+J与原c26母窗。此结果使用完整空间和大辅助方差，未关闭真F0/S_x的绝对残余；下一步须处理该压缩空间或由原同源大方差列完整返回MP。
+
 [最高单位不变、辅助分级与真实能量预条件](results/R271-appendix-highest-unit-invariant-true-kernel-and-graded-physical-energy.md)现已证明：完整F0不依赖实际V方向中的可逆U(A)，规范方向的真核用同generic维数补齐。保全部原物理Gram后，K_D预条件确有辅助带宽n−1及S/R无关正谱界，因此完整实际源的Chebyshev尾界不再有P_F0保级缺口。但粗条件数只允许γ接近1，尚不能支付高孔门所需γ<1/16；四头两列相关式表明不能免费丢掉混级费。[原最低列的完整三阶真旗Schur及方差一致残余界](results/R271-appendix-lowest-source-true-flag-schur-and-uniform-variance-residual-cost.md)随后已给全0<S≤1的原ξ0≤1600Kflag³。两个真实受限逆以完整整数增广约束和好链全参数支付，Kflag不含最高U逆、最高t或S的损失；但其无权成本仍含64^R，不是所需物理孔加权Zγ。继续实际指定coherent列与压缩能量逆的加权改善。
 
 [任意高度的完整真旗方差一致界与Green递推](results/R271-appendix-all-height-true-flag-uniform-variance-source.md)现已证明：任意r≥2、完整F⊂ker C^r且C不变、f∈F∩ker C²，全部0<S≤1有原C^j a_S/S^j及完整环境残余界；原N头全部奇r≥3的真实受限逆均已用整数增广约束、全部长链和原相似付费。r3保旧锐界，新增覆盖r≥5，并可与原能量界逐项取小。精确零方差Green列位于真实底部范围。仍未得到γ<1/16孔加权Zγ，不能把无权方差界当实际最高carry配平；继续原指定列的孔衰减与源专属lift。
