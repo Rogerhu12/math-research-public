@@ -6,7 +6,7 @@
 
 ## 1. 规则与接手
 
-已部分克隆并实际 `git pull main`，公开根 README、课题 README、HANDOFF、open、results 索引及相关 log/notes 已读。公开已读提交 **423fda275f353a22afcf30900683c946a8649b84**（2026-11-26 08:59 UTC；本次实际pull后根/题README空差异）；私有根初读 **85fdf1853367ef25c07f3ebdb6ae25c22a3564b8**，随后逐次 pull/rebase 检查根差异，空差异。私有 QUEUE 的本题已改为本会话进行中并成功推送：**9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7**；最后实际pull及规则同blob读至 **beff3c7458835a1397c67704ac9a95d0a4717f12**（2026-11-26 08:52 UTC；磁盘满失败后改稀疏索引，重做actualpull成功，根README空差异、QUEUE仍本会话）。其它课题的并行认领保留。
+已部分克隆并实际 `git pull main`，公开根 README、课题 README、HANDOFF、open、results 索引及相关 log/notes 已读。公开已读提交 **41774fc83d3d39eb3598742488f8c970b9a2250c**（2026-11-26 09:01 UTC；本次实际pull后根/题README空差异）；私有根初读 **85fdf1853367ef25c07f3ebdb6ae25c22a3564b8**，随后逐次 pull/rebase 检查根差异，空差异。私有 QUEUE 的本题已改为本会话进行中并成功推送：**9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7**；最后实际pull及规则同blob读至 **beff3c7458835a1397c67704ac9a95d0a4717f12**（2026-11-26 08:52 UTC；磁盘满失败后改稀疏索引，重做actualpull成功，根README空差异、QUEUE仍本会话）。其它课题的并行认领保留。
 
 各原观察note保真实双仓pull/规则blob/QUEUE回执；根/题规则均无变化。盘满和失联恢复原记录保于[先前交接](notes/HANDOFF-before-hard-restoration-20261126.md)，历次全文见[几何转向前交接](notes/HANDOFF-before-compact-geometry-20261126.md)及[非线性高度前交接](notes/HANDOFF-before-nonlinear-height-20261126.md)。API读取不冒git pull。
 
@@ -27,6 +27,8 @@
 [圆核原终态](notes/2026-11-26-circular-entry-and-small-core-continuation-receipt.md)run45778418134新增2401.892431903秒，p=.18入口V0/η8.66e−16；p=.20/.19/.185/.1825均未过stage1e−4，末η.0005411。最后合格仍圆；stage4真正156×384，235×768仅末扫描提议。下一须真实j2核心forcing/平坦尾核及背景共振，不能只缩p冒分支；所有p设计改变非同g。
 
 [R577](results/R577-intrinsic-geodesic-normal-chord-and-complete-reach-certificate.md)已付新的连续认证接口：全表面实际|κ|≤K、内蕴d≤π/(2K)的近对保持法弦半径1/K；材料路径只供d上界。全远对严格分离/法弦另付后才得嵌入/reach，当前有限FFT曲率不可冒连续K。
+
+[R579](results/R579-smooth-thick-rounded-core-with-exact-perimeter-and-macro-budget.md)给真实C∞凸核心：两正交薄椭圆加圆盘，周长恰2π·.85、支撑A1/B.37，完整柱面reach>.075，|z|≤.04核心在球1.05内。若完整连接同付球/条带/τ.063，原三比例准确成立；完整连接与跨片仍未付。
 
 ## 4. 真实平坦核到有限非线性
 

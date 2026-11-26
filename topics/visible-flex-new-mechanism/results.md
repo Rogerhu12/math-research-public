@@ -250,3 +250,5 @@
 - [R577 真实内蕴短距与完整法弦半径](results/R577-intrinsic-geodesic-normal-chord-and-complete-reach-certificate.md)：**已证明**C2浸入的全局实际|κ|≤K下，d≤π/(2K)的不同材料点保弦正和法弦半径1/K；近路径长度覆盖与R30全远对正分离合成嵌入/reach。无需坐标测地线或唯一性，未付当前数值连续K/全点对门。
 
 - [R578 六变换六正节点的完整真实库](results/R578-sixfold-six-node-positive-complete-profile-library.md)：**已证明**D3平均和P6+τP5正十次矩，仅36完整块/1152微包；节点间距>199/605000，固定2e−6半宽及双9e−6 collar。保完整history、scalar合成和非退化加速度；未授有限八根/period/宏观几何。
+
+- [R579 精确周长的光滑厚宏观核心](results/R579-smooth-thick-rounded-core-with-exact-perimeter-and-macro-budget.md)：**已证明**两正交薄椭圆加圆盘给C∞凸核，周长1.7π、A1/B.37、柱面reach>.075、|z|≤.04核心ball<1.05；完整连接条件下原三比例恰可支付。尚无连接、同g有限解或全闭reach。

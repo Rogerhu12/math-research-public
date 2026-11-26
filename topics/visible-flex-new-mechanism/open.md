@@ -172,3 +172,7 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 ### R578：从起点36块的严格正完整库
 
 [R578](results/R578-sixfold-six-node-positive-complete-profile-library.md)以D3六正交变换准确平均原第四的0/±2/±4频率，P6+τP5每组6正节点共享0…10矩；全36位置间距>199/605000。一次微包半宽2e−6、完整包络半径1/8000，真collar每侧9e−6，保R521三矩/全部第三ruling/真实history和合法域Ch<0,Ck>0。只是固定的新输入，不承接旧母轨道或χ；下一实际解稳定有限端图与全程空间预算。
+
+### R579：R=.85的真实光滑厚宏观核心
+
+[R579](results/R579-smooth-thick-rounded-core-with-exact-perimeter-and-macro-budget.md)以两正交薄椭圆与圆盘Minkowski和给明确C∞严格凸核心；精确周长1.7π、支撑A1/B.37，严格.075<r<.09，柱面reach≥r，|z|≤.04整核ball<1.05。转真实弧长θ后G=.85²，准确编码R576核心turning通量。若全闭连接另外支付球1.05/条带.37/reach.063和固定盘rc.22，则δhold/D≥.3、握持比22/105>.2、reach/D≥.03；δE如实0。当前只付核心，不自动修复R571弧长不足或跨片reach。
