@@ -1,0 +1,85 @@
+{
+  "schema": "r571-paid-tail-nonmonotone-connector-gain-20261126-v1",
+  "repository": "Rogerhu12/math-research-public",
+  "queue_session": "Astra-new-mechanism-0105020f-20261126",
+  "public_rules_read_commit": "da8724c16cd21d3a839150e81b9f5d5f051d8623",
+  "private_rules_read_commit": "4f7e1d119bd02b0b37fe4d2d409a4f88c6a96a9e",
+  "expected_readme_blobs": {
+    "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+    "topics/visible-flex-new-mechanism/README.md": "d0432faff569c8e9af7ed4809847e12880976c11"
+  },
+  "expected_private_readme_blobs": {
+    "README.md": "5ba164843b1f5802184178a82d786264404873a3"
+  },
+  "entry_point": "topics/visible-flex-new-mechanism/scripts/r571_nonmonotone_connector_gain_20261126.py",
+  "workflow": ".github/workflows/visible-r571-connector-gain-20261126.yml",
+  "runtime": {
+    "python": "3.12.14",
+    "packages": {
+      "numpy": "2.3.5",
+      "scipy": "1.17.0"
+    },
+    "checkout_action": "11d5960a326750d5838078e36cf38b85af677262",
+    "setup_python_action": "a26af69be951a213d495a4c3e4e4022e16d87065"
+  },
+  "common_parameters": {
+    "maximum_seconds": 2400,
+    "scan_heights": 33,
+    "report_nodes": 1025,
+    "final_nodes": 4097,
+    "rtol": 2e-11,
+    "atol": 2e-13,
+    "amplitude_ranking_probe": 0.001
+  },
+  "lanes": {
+    "r571-connector-gain": {}
+  },
+  "scope": {
+    "source_run_id": 45777456573,
+    "source_job_id": 139764481718,
+    "source_tag": "R571_PHASE_ZERO_SEED",
+    "source_phase": 0,
+    "source_commit": "45e301661dc4101e0a9652cbf49f14133f3dc94e",
+    "source_raw_log_sha256": "6f94e4dec5d8eb5a842b146967c1af601c9d0ee7ea1a2749e45de959946f8a02",
+    "source_small_state": "13 outer jets, two old error-observation directions, and seven sampled peak scalars",
+    "old_tail_Riccati_recomputed": false,
+    "new_static_core_radii": [
+      0.75,
+      0.85
+    ],
+    "log_suppression_values": [
+      6,
+      10,
+      14
+    ],
+    "core_scale_values": [
+      0.5,
+      1,
+      1.5,
+      2
+    ],
+    "gain_height_range": [
+      0.02,
+      4
+    ],
+    "gain_height_scans_per_profile": 33,
+    "actual_core_matching": "C_core/hypot(A_core,C_core)=0",
+    "true_field_normalization": "same field divided by signed A_core; mean response divided by A_core squared",
+    "geometry": "actual curvature/ball/mirror necessary rows, total meridian arc, target core-to-held-cap chord, core perimeter support bound",
+    "quadratic_mean": "R575 exact compatible flux, full connector first and second spatial jets; outer height is a gauge, incoming flux is not set zero",
+    "gain_control_derivative": "compact-support Green integral gives d(C_core/A_core)/dH without extra ODE",
+    "finite_amplitude_family_claim": false,
+    "continuous_reach_claim": false,
+    "fixed_metric_refinement_claim": false,
+    "scientific_execution": "this public Actions workflow only",
+    "maximum_parallel_jobs": 1,
+    "job_timeout_minutes": 45,
+    "original_stdout_only": true,
+    "raw_arrays_tables_artifacts_releases_or_git_writes": false
+  },
+  "source_sha256": {
+    "topics/visible-flex-new-mechanism/scripts/r571_nonmonotone_connector_gain_20261126.py": "81407b0e9a262d65d3037ccffa191ecdc501087911e3daf75edf0fe03cda8deb",
+    "topics/visible-flex-new-mechanism/scripts/run_inverse_rotational_metric_20261126.py": "a97334fb7004ce750c0c949469be2db21ca7a187e53b48032dba2f330cf5e8ae",
+    ".github/workflows/visible-r571-connector-gain-20261126.yml": "433091dbafd6263b55b70eac2976e49bf47984c1c72f56dd53d4d25751550599"
+  }
+}

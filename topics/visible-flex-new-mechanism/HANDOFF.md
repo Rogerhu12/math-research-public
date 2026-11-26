@@ -6,7 +6,7 @@
 
 ## 1. 规则与接手
 
-已部分克隆并实际 `git pull main`，公开根 README、课题 README、HANDOFF、open、results 索引及相关 log/notes 已读。公开已读提交 **da8724c16cd21d3a839150e81b9f5d5f051d8623**（2026-11-26 08:22 UTC；本次实际pull后根/题README空差异）；私有根初读 **85fdf1853367ef25c07f3ebdb6ae25c22a3564b8**，随后逐次 pull/rebase 检查根差异，空差异。私有 QUEUE 的本题已改为本会话进行中并成功推送：**9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7**；最后实际pull及规则同blob读至 **4f7e1d119bd02b0b37fe4d2d409a4f88c6a96a9e**（2026-11-26 08:06 UTC；实际pull/rebase后根README空差异、QUEUE仍本会话）。其它课题的并行认领保留。
+已部分克隆并实际 `git pull main`，公开根 README、课题 README、HANDOFF、open、results 索引及相关 log/notes 已读。公开已读提交 **bec726ad20f1eaf8f6d2b411ecbdaba22ddcf883**（2026-11-26 08:30 UTC；本次实际pull后根/题README空差异）；私有根初读 **85fdf1853367ef25c07f3ebdb6ae25c22a3564b8**，随后逐次 pull/rebase 检查根差异，空差异。私有 QUEUE 的本题已改为本会话进行中并成功推送：**9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7**；最后实际pull及规则同blob读至 **4f7e1d119bd02b0b37fe4d2d409a4f88c6a96a9e**（2026-11-26 08:06 UTC；实际pull/rebase后根README空差异、QUEUE仍本会话）。其它课题的并行认领保留。
 
 各原观察note保真实双仓pull/规则blob/QUEUE回执；根/题规则均无变化。盘满和失联恢复原记录保于[先前交接](notes/HANDOFF-before-hard-restoration-20261126.md)，本次压缩前全文保于[几何转向前交接](notes/HANDOFF-before-compact-geometry-20261126.md)。API读取不冒git pull。
 
@@ -18,10 +18,7 @@
 
 ## 3. O2 当前真实数值状态
 
-固定椭圆核心 $A=1,B=7/25,w_c=1/50$；$L=.9,r_c=.22,t_c=.036,t_f=.846$，六帽 $R=.274$。完整168/172表示及永久 enriched $c_0$ 不换。
-固定 $g$ 身份 `fd5bc5fe2c114bdbe82c266a5e816ba22ed58f1f486f5bc3241ddaac95de88b6`，$b_0$ 身份 `d61fb298989834c9eb2b4fe3bbff1fb5983d1bb3b3980cb6441f14e6c0299bb5`。
-
-最新接受点仍为 **58**：粗/细辅助量 .26600541430262403/.26600541463999305、细κ57.9997782607127，非握持变化量。主reach局部需κ≤1000/61且欠全点对；球1.01/条带.38999未全域成立。ring17、反射R1、joint19、free36、prefix102、whole34、full51、full62均闭账失败，不重开。[joint168原终态](notes/2026-11-26-geometry-continuation-agent.md)run43925761699 research成功但solver达时限，无返回/候选；新增1234.031220492秒、累计5018.790751846秒/147原full。末trial曲率约46.2343而metric峰.78384，不授接受；report祖COMPLETE误分类已修。
+旧固定椭圆核心、同g/b0/永久reference及168/172身份保于[open](open.md)和[已闭原记录](notes/open-closed-o2-runs-before-r571-20261126.md)。最新接受点仍 **58**：fine辅助metric量.26600541463999305、κ57.9997782607127，非握持变化量；主reach需κ≤1000/61且欠全点对/全域球条带。所有ring17至full62及[joint168](notes/2026-11-26-geometry-continuation-agent.md)已闭，不重开。后者无OptimizeResult/候选，新增1234.031220492秒、累计5018.790751846秒/147原full；末trial不授接受，report祖COMPLETE误分类已修。
 
 ### 新几何输入：O2b 逆设计与振荡尾
 
@@ -30,7 +27,7 @@
 
 [R566](results/R566-flat-oscillatory-cap-tail-and-graph-reach.md)的固定振荡尾有整片graph reach>.1832，不含跨块；[R569](results/R569-fixed-oscillatory-tail-and-flat-infinitesimal-bending.md)已给同尾非零全平真线性核。其[原种子观察](notes/2026-11-26-r569-seed-first-run-receipt.md)表内|f_rr|5.05e7/|v_rr|3.94e8，不能直接宏观放大；准确DtN与浮点误差分开，X+tV非有限等距。
 
-[R571](results/R571-milder-phase-tail-flat-kernel-and-core-shooting-zero.md)换明确δ^-1相位尾，统一patch reach>.08670；一维真flat核及负holonomy给周期connector上的真实C_core零/A_core非零。[原run45777456573](notes/2026-11-26-r571-phase-shooting-natural-final.md)173.782205514秒，选φ1.508384770827仍有C/A=−3.4767e−5；核心归一|Vss|9.41956e9，两个相位导数未稳定。M+1差2.43e−10不足解释根残差，不盲增M。转新连接段/更慢相位输入，复用已付φ0尾，实际付增益/高度/曲率/弧长预算；不是宏观可行候选。
+[R571](results/R571-milder-phase-tail-flat-kernel-and-core-shooting-zero.md)换δ^-1相位尾，patch reach>.08670；真flat核负holonomy给真实C_core零/A_core非零。[原run45777456573](notes/2026-11-26-r571-phase-shooting-natural-final.md)173.782205514秒，选φ1.508384770827仍C/A=−3.4767e−5、核心归一|Vss|9.41956e9，导数未稳定；M+1差2.43e−10不足解释残差，不盲增M。[新非单调连接段](notes/2026-11-26-r571-connector-gain-implementation.md)复用原φ0尾口，R=.75/.85，完整A,D传递及正则核心射击；实际付曲率/高度/球/弧长和R575二阶均值代价，紧支撑Green式读控制导数。单job公开扫描已提交；新设计换g，尚无宏观候选。
 
 [R574](results/R574-exact-nonlinear-height-equation-and-core-flux-transversality.md)给准确二次Darboux式、核心通量和有限差Green身份，真实零处D=−(3/R)(C/A)′；[R575](results/R575-local-second-order-mean-flux-and-radial-metric-design.md)再将均值通量J0化为同场一jets，J0′=N0、帽端常数0、j2真核J0(R)=27/(4R²)；静态e0=2J0可吸收均值，但仍非有限解。受迫高模、正定developing与退化核心C2边界、有限分支仍欠。所有φ/connector设计变化先换g，最终仍须冻结同一g。
 
