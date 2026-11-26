@@ -78,3 +78,6 @@
 
 
 - [R982](../results/R982-original-ten-arithmetic-sources-and-exact-central-residuals.md)：同次v8全四新来源的角degree21/21/64/64和分母385/175/245/5845准确返回，完整十源帽仍4/13；A6⊂A10⊂B6给同规范化/原69343导子，完整十源整数格及全位费用保持。真实10×10 jet秩10，经确定Schur余式给z42/z48/z54/z60+O(z66)四整函数。普通同一测度线性，惰性在k=(p−1)n用(Ni/390)^((p−1)v)Ji((p−1)v)构成不依赖表示的准确共同读者；质量零使十中央失败传到四余式。保不同charge Gaussian与原p6窗，不传播乘积或宣称无穷非零。
+
+
+- [R985](../results/R985-original-full-heisenberg-companion-and-central-forcing.md)：原L11显式六中心与绝对sigma相位给完整Heisenberg伴随身份及全22边际生成；全S130的rank-one twirl把整个六张量分成同一Φ260的固定挠点译像和确定五伴随。完整Miller代数lift、原周期有限矩核和所有mixed cut转置已付，R978 old差给明确非零有限中央和。共同carry只在真实四输出推前后使用；H的特定whole lift先投原Z、再在其无极像上乘S并作原trace。translated中央不可免费赋rank2 canonical零，仍须消费实际非交换关系。

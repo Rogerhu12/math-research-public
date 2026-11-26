@@ -6,7 +6,7 @@
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。固定有限曲线族的联合无穷非零可再用无限鸽巢；有限p、随p换曲线、条件桥、非零投影或接口成功均不完成。
 
-- 两仓库已部分克隆。公开根/课题 README 已读至 `10fa71cdf87cebb827a3d2305008278fe15c4814`（差异为空）；每次pull只读两文件新差异，至少每小时同步并记录SHA。
+- 两仓库已部分克隆。公开根/课题 README 已读至 `8c93b8a6d812f0b201bd34941cdb8bff10c8bf0f`（差异为空）；每次pull只读两文件新差异，至少每小时同步并记录SHA。
 - 私库QUEUE接手已推41fe885610073f478b2f5a752461ca56cfd43f09；21:01 UTC再次pull至3c31ccbf3bd9272e01b39ca0c497744b47870f6e，根/本题README差异空、QUEUE仍本会话进行中。目录math-research-public、math-research-private；令牌仅进程认证，不入文件。
 - root独占git/共享H/open/log/index；每条结论完成即推，非快进立即pull --rebase、检查README再推至成功，不强推。数学只用公开Actions；不存可重算矩阵/数据/log。H<10KB、每MD<100KB。
 - [逐字压缩前H](notes/2026-11-27-handoff-before-ten-source-return.md)及其历史链保全部旧状态；[open](open.md)、[results](results.md)、[R951–1000索引](notes/PROOF-INDEX-R951-R1000.md)保全部未解门，未默删。
@@ -29,7 +29,7 @@
 
 **R977**：a11=(2+ω,2+ω,1,ω²,1,11)保共同C/F，F11=σ130x²ψ11/11首阶6/质量0。全Gram(130,1170,54,18,6,2)、双逆/半特征和四CM五伴随已付；v6 Π260F11=1400Φ260/33、分母175，普通p>211完整伴随单位，保260/(17·175)。全14非零余块/4nonmu6保留，两old质量非零。
 
-**R978**：V10真源Ψ125=σ10x²(X−8)、Ψ12500=σ10x²(X+10)，两raw π/barπ全拉回张成两个old块。κ10=δ/10080，F10+11Φ*/2=κ10Δ125；H125−11F11,125/37800=F10,125/270，H12500−11F11,12500/23625=δΔ12500/1701000。两整差的ordinary真单位切导数是常数·logp(π/barπ)(1−υp)/17，R968权另乘p−1；inert全Tate为常数·(p+1)logp(π/barπ)/17，充分大好惰性p逐p非零。未知基源导数在真质量零差中相消。F10/H/F11不是rank2 primitive，不能免费赋零。
+**R978**：V10真源是σ10x²(X−8)、σ10x²(X+10)，两raw13 pull完整。F10+11Φ*/2=(δ/10080)Δ125；H125−11F11,125/37800=F10,125/270，H12500−11F11,12500/23625=δΔ12500/1701000。两整差的ordinary真单位导数为相应常数·logp(π/barπ)(1−υp)/17（R968权另乘p−1），inert为常数·(p+1)logp/17；充分大好p非零。F10/H/F11并非rank2 primitive，不能免费赋零。
 
 **R980**：A·F10+A·F11准确19维；H补两rank0质量线与最后old方向后全22维。四nonmu6块完整joint CRT及二次Galois分裂给两个质量1单位伴随。保mixed转置/有限中心/反卷积平移；两rank2线在A下仍仅2维。
 
@@ -47,7 +47,7 @@
 - R960六块p6核、高尾/低格/五修正及原a_p=pκ单位和125logp前缀费用有效；不自动推到深forcing。R962 p227余式首位157、完整C24秩2→3和五位核零只是有限p；共同格Oc*与两角商不是物理J6深核。
 - R963真实h投影与完整伴随、R964 off-target交换子、R965 D156单位逆保原全部mixed条件；边际Q2整除不升为whole除法，D156不保R968新C/F。R966–967全12中心的1/−1/2/1√3只消已付角，cross仍留2J′(C1J)/9。
 - R968共同C=H0/δ、F=−ωH1/δ保全部四输出。十二次carry消q9留q3，整来源乘υp^n；同五深一单位网格S/T归一差准确vp8n。原H_cd/Pj/Rc保持新测试，完整补域与CM投影仍可补偿，不能用非零子管宣称全局矛盾。
-- R985在写原Heisenberg完整torsion/伴随生成，算术投影P的已知零只能给P T_u，不给T_u P；twirl交换子总和在R978真实old差上非零，同CF carry只是同一scalar。须准确消费translated central tests/所有cut，不能由空间生成扩大零空间。
+- **R985已证**：原L11显式torsion lift及绝对sigma相位给全22伴随生成；全S130 twirl I=ΣT_uPT_u^-1/130把整个六张量写成Φ260的固定有限挠点译像⊗真实伴随。Miller代数lift及实际有限测试核保全部mixed cut；原old差给明确非零有限中央和。CF加权仅在η四输出推前后成立，H lift先Π_Z再有域的M_S/原trace，未偷认全六状态。P T_u零不付T_u P零；所需translated tests仍须实际消费。
 
 ## 四、几何到全局/ordinary的独立门
 
@@ -63,6 +63,6 @@ Kato比较图/BKO通常群桥的本轮完整核查及Adachi/新rank2预印本的
 
 ## 五、当前分工与下一实际工作
 
-central完成R985完整Miller/Heisenberg转置并跟中央v8；arithmetic继续真实translated central tests与共同CF交换子消费；geometry继续原几何v8及原λ跨p mixed对应；root已写R982/R983实际消费，接R985，并继续完整联合forcing、同步与逐条推送。R975/R986不重复作可选测试，不改运行源。
+central推进R989全十来源同p6精度/两个超几何参数；arithmetic写R987原13两orbit/轻direct22入口；geometry完成R988实际K3–E0² Chow桥后续新循环AJ并跟原v8；root已写R982/R983并登记R985，并继续完整联合forcing、同步与逐条推送。R975/R986不重复作可选测试，不改运行源。
 
 中央入口scripts/check-original-e65-full-cm-sixth-axis.py与ci/e65-full-cm-source-request.json；几何入口scripts/produce-original-triangular-artinian-shadow.py与相应request/workflow。结论完成立即登记并推，随后继续下一个真实未解门。
