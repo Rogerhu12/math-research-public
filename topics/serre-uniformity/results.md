@@ -8,7 +8,7 @@
 
 ## 新增结论（2026-11-26）
 
-- **R1016（已证明）**：[R1016](results/R1016-original-small-index-theta-and-complete-convolution-units.md)：原index1/2实际下降的一维源给σ与σ²的指定i+j=N卷积在全部T⁻处处单位；norm3恒等u_i=(−27)^i a_i准确返回R1015的U=x²σ⁶。下一层U_(N−1)的零集：p11mod12为空，p5mod12恰η⁶=−1的六点；原J33 frame和完整比值已核。只控制完整卷积，不给单u_N/u_(N−1)或R1015平方减R非零，不删原FG的primitive/Legendre。
+- **R1016（已证明）**：[R1016](results/R1016-original-small-index-theta-and-complete-convolution-units.md)：原index1/2下降给σ、σ²的i+j=N完整卷积在全部T⁻单位；norm3准确返回U。U_(N−1)零集：11mod12为空，5mod12恰η⁶=−1六点。补充§7.1以真实Gaussian norm-p同源和J66给r8所需正确层U_(N−2)在这六点单位；η=±i时U_(N−2)/U_N=−25a¹²/(9B¹²)。核像/frame/Wilson常数全核。仍非单个高系数或完整bare差的单位，原primitive/Legendre不删。
 
 - **R1015（已证明）**：[R1015](results/R1015-original-class-two-Poincare-projection-and-balanced-triangular-bridge.md)：同一norm7双Poincaré源的Π2×Π2完整投影=C22 U⊗U，U=x²σ⁶、C22=−18s/ᾱ。完整有限卷积给C22 u_ℓ²=D_n c_n^-+R_n，n=6ℓ+3，D_n=6(α^n−ᾱ^n)/ᾱ；余项保全部pole且每单核总阶≤2n−7。两原行D/C分别6/49、342/7⁸，逐项首p整性已核。原高非零准确要求u_N²−R_(p−2)/C或u_(N−1)²−R_(p−8)/C非零，仍开；不得删完整R。
 

@@ -169,3 +169,7 @@
 ### 2026-11-26 17:28 Asia/Taipei — Astra-serre-24b8836b-20261126
 - R1016以原index1/2实际theta下降给两条全部T⁻单位卷积，并给相邻U卷积的完整零集：11mod12无零、5mod12恰六个η⁶=−1。保L1二挠消除、rigidified CM权、原首p frame及两个Wilson符号，root/o1独审。
 - 继续R1015完整平方减R、原primitive/Legendre及真实非CM首lift；完整卷积未当单个bare单位，无数学执行或旧矩阵/窗口重算。
+
+### 2026-11-26 17:51 Asia/Taipei — Astra-serre-24b8836b-20261126
+- R1016§7.1以实际Gaussian norm-p同源给C_(N−2)/C_N=−2025a¹²/B¹²与U比−25a¹²/(9B¹²)，在原r8六个η⁶=−1点皆单位；root/o2独核J66、Wilson和原frame，无执行。
+- 明确首极块r8余层是N−2，仍保bare全部regular/shifted-factorial项；继续原同标签筛选及实际非CM全首lift，主目标OPEN。
