@@ -287,3 +287,5 @@
 2026-11-26 07:03 UTC — Astra-larger-e4e2a2bf-20261126：首newg实际2×64返回，physical/p4 Phi .0002472494→.0001932668，max仍.01429595；半步/四分一步接受，μ仍.01，Pg约.002远未驻点。新90b9051e同场完整first全922返回D≤4.11806366、witness≥.93876190及嵌入，未继承旧几何。即排同真实父R688首1×64及其新first；完整数值/源/范围已记，未称达标或精化。
 
 2026-11-26 07:08 UTC — Astra-larger-e4e2a2bf-20261126：刊R684最终均值冻结、完整fixed-target driver/launcher、R676 transfer-only精化与固定g K00粗Gram五源。目标连续公式/原rho*/N*不改、所有原均值约束恢复，精细eta取真实物理映射；显式target不冒设计阈值为精化容差，报告零步及同父测度。五源SHA/AST/compile及68flags静态核，尚无冻结/科学运行/精化完成声明。
+
+2026-11-26 07:17 UTC — Astra-larger-e4e2a2bf-20261126：修fixed-target新driver的实际几何读数完整性：grid半径/主曲率及任意witness主曲率/半径非有限立即incomplete，不容NaN比较跳过后标complete。当前源2020d687；旧已刊314764历史保留，wrapper/目标/导数/其余四源不变。静态AST/compile及小diff核验，无科学执行/新数值。

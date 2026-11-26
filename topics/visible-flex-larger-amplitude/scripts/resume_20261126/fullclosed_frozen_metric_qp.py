@@ -88,6 +88,8 @@ def point_geometry(problem,x):
     for stage in range(problem.P):
         z=problem.six_jets(p,stage)
         radius=np.linalg.norm(z['F'],axis=1)
+        if not np.isfinite(radius).all():
+            return dict(complete=False,first_invalid_stage=stage,reason='Nonfinite actual body radius')
         kr=int(np.argmax(radius))
         if radius[kr]>maximum_radius:
             maximum_radius=float(radius[kr])
@@ -102,6 +104,8 @@ def point_geometry(problem,x):
         determinant=area*area
         trace=(e*G+g*E-2*f*F)/determinant;gauss=(e*g-f*f)/determinant
         k=(np.abs(trace)+np.sqrt(np.maximum(0.,trace*trace-4*gauss)))/2
+        if not np.isfinite(k).all():
+            return dict(complete=False,first_invalid_stage=stage,min_area=minimum_area,reason='Nonfinite actual principal curvature')
         loc=int(np.argmax(k))
         if k[loc]>maximum:
             maximum=float(k[loc]);where=dict(stage=stage,s=float(problem.times[stage]),phi=float(problem.phi[loc]))
@@ -617,8 +621,10 @@ def main():
         for witness in witnesses+radius_witnesses:
             value=point_module.witness_geometry(problem,prepared,witness,geometry_module,implementation)
             result['arbitrary_witnesses'].append(value)
-            if not value['complete']:
+            if (not value['complete'] or not np.isfinite(value.get('principal_curvatures',[])).all()
+                    or not np.isfinite(value.get('radius',float('nan')))):
                 result['complete']=False
+                result['actual_read_error']='Incomplete or nonfinite arbitrary physical geometry'
                 return result
             if value['maximum_absolute_principal_curvature']>result['maximum_absolute_principal_curvature']:
                 result['maximum_absolute_principal_curvature']=value['maximum_absolute_principal_curvature']

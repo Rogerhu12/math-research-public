@@ -159,10 +159,12 @@ fine carrier 的 `refinement_parent_stage_map` 和父 carrier SHA 证明所有�
 | 完整源 | Bytes | SHA256 |
 |---|---:|---|
 | frozen_mean_metric.py | 26935 | 9d6440ab9f86cfe5312b78643e704a3ec861f2c5b6fd45047461af92eca81d28 |
-| fullclosed_frozen_metric_qp.py | 61821 | 314764054fef40eefd8d17d21dfe17ac01e22789d8e887c14d835c36ad4f00b0 |
+| fullclosed_frozen_metric_qp.py | 62374 | 2020d6873b90e9c874de01e0b71e702cb73a9121f21aba68a113d990694ff59c |
 | launch_frozen_metric_actions.py | 16730 | abf90ba2f0c050dee5b4415a0eb4ef564e4655dfbc157cfe9c9dff722b211064 |
 | refine_frozen_metric_actions.py | 13674 | 9bfc964502cab208fa77ae3e0dc045b5d1c1e9f7aedb3b36637b95b165d40ffe |
 | frozen_metric_coarse_moments.py | 21978 | a531818d75040ff571ad1249eecb3c18f7341284d1cdd86d2032b0f8f4ef9f63 |
+
+静态末审另补 actual geometry 读数完整性：grid radius/principal curvature 或任意 witness principal/radius 出现非有限值时立即返回 incomplete，不允许 NaN 比较被跳过后仍标 complete；没有新增数值 fixture 或接受门。
 
 上述源已全部逐行检查无 trailing whitespace。四个 construction 完整源 AST/compile 通过；launcher 的纯 `--print-command` 生成139个 argv 项、68个 flags，全部与独立 fixed driver 的 argparse 定义匹配，v5/frame/v3/centered/目标源路径明确。没有导入实际场、读取科学 raw 或启动任何科学数值 fixture。
 
