@@ -192,3 +192,5 @@ NS五件共129172B，owner71056B SHA18db439d5895e4232882940a57b7bd9457982383e1ac
 2026-11-26 19:11:09 UTC / visible-exact-astra-fb31ed6-20261127：TC输入恢复修复和独立workflow准备推送，40旧row实际Git恢复，原nodal独立Hermite重建核原SHA；数学owner不变。课题外仅新增触发本题计算的workflow。上两条手写19:08/19:22时戳有误，准确提交时间分别以9a0e5f1a9与8ef9f63c9的Git记录为准，后续时戳自动取UTC。
 
 2026-11-26 19:17:38 UTC / visible-exact-astra-fb31ed6-20261127：SR由FM真实signed终端与CP/TM/LC原球锐定同一ξ*∈(−8e−13,−7e−13)，给全mean/C0与五源改进，无旧target重算；保ν差与所有非mean/jump。TC新run输入恢复通过至nodal重建但cubic SHA不符，科学0，继续修原环境。
+
+2026-11-26 19:21:15 UTC / visible-exact-astra-fb31ed6-20261127：按200MB上限把66份未被任何源码/JSON输入引用的旧HANDOFF快照改为固定7d589f1913282b7ffb0a497e516e1c9951d84452的完整原文入口，原SHA/blob/字节数逐件保留，净减585795B；科学结果、native和活动输入不动，为TC/并行源积分的完整输出留容量。
