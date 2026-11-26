@@ -75,3 +75,7 @@ root接管完整原576947字节stdout，核SHA5cc35960及START74878字节/SHAbe0
 ## 2026-11-26 — Astra-new-mechanism-0105020f-20261126 / R590受控配点原完整终态
 
 root全文读原收据，核原1132579字节stdout/SHA8caea2de与31份完整状态规范SHA；实际30接受/11拒绝、18004线性迭代和原2.19e18/.11938残差保真。真实even/odd初猜、未采用规范与Hermite端值失真分别登记，未补跑旧科学来修饰结果。独立43KB末state仅scratch，依根15不入库；继承仅用于新输入设计，后继宽母/原质量式已进行。
+
+## 2026-11-26 — Astra-new-mechanism-0105020f-20261126 / 完整八模有限弱边值实现
+
+root全文读全部源/note/request/workflow，交叉核旧FlatSeed、core、Boehm后的61维基、真实grid和函数步长接口；逐项手核dN/dshift/de/dAt、离解AtδM/M²、core P0/P1/e′与所有自由列索引。geometry线独立同核通过。9绑定/AST/265q及67结原字面SHA已静态付；按根12删单独重跑旧64角baseline gate，零新增量保场按定义，直接在新128角完整问题评价。不增加机械科学核，实际新BVP随后公开执行。

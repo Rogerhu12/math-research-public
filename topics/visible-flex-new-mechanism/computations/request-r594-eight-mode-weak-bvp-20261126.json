@@ -1,0 +1,131 @@
+{
+  "repository": "Rogerhu12/math-research-public",
+  "queue_session": "Astra-new-mechanism-0105020f-20261126",
+  "expected_readme_blobs": {
+    "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+    "topics/visible-flex-new-mechanism/README.md": "d0432faff569c8e9af7ed4809847e12880976c11"
+  },
+  "expected_private_readme_blobs": {
+    "README.md": "5ba164843b1f5802184178a82d786264404873a3"
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "packages": {
+      "numpy": "2.3.5",
+      "scipy": "1.17.0"
+    },
+    "checkout_action": "11d5960a326750d5838078e36cf38b85af677262",
+    "setup_python_action": "a26af69be951a213d495a4c3e4e4022e16d87065"
+  },
+  "schema": "r594-paid-whole-height-eight-mode-weak-BVP-20261126-v1",
+  "public_rules_read_commit": "f96716859c81870ba1e6466018d3c436f9f9efad",
+  "private_rules_read_commit": "d32134baa3f44e02966ff59252f00c2e634341fe",
+  "entry_point": "topics/visible-flex-new-mechanism/scripts/r594_eight_mode_weak_height_bvp_20261126.py",
+  "workflow": ".github/workflows/visible-r594-eight-mode-weak-bvp-20261126.yml",
+  "common_parameters": {
+    "maximum_seconds": 2400,
+    "M": 25,
+    "rtol": 2e-11,
+    "atol": 2e-13,
+    "iterations": 60,
+    "theta_nodes": 128,
+    "target_eta": 2e-09,
+    "height_saturation": 0.15
+  },
+  "lanes": {
+    "r594-eight-mode-weak-bvp": {}
+  },
+  "scope": {
+    "source_run": 45813421528,
+    "source_job": 139886872647,
+    "source_commit": "f96716859c81870ba1e6466018d3c436f9f9efad",
+    "source_raw_stdout_sha256": "7bf33880b3071344907b4dfc7629444aef92bb1a2088957637c3c1ef49b20d8c",
+    "source_FINAL_sha256": "4235164d7bf44d9bc42986beb81ba73bee80450048fbe1bffb6ec5a985fd5fdd",
+    "source_actual_265q_sha256": "242afcd609b5a9f3ff9480689d296dfdc3171c51f46d1c35f6b1875c9959cab6",
+    "source_actual_67knots_sha256": "9e3ce07c7d55f46135c31b86f45bddec557495c2f6648ef4b723b53637fb3e15",
+    "source_actual_H": 0.5188907586810884,
+    "source_active_eta": 3.042718636745052e-07,
+    "paid_force_frozen_H": 0.5188895813736972,
+    "paid_force_positive_scale": 16533.1541790287,
+    "whole_paid_field": "The complete original pre-tanh four-mode plus all 264 coordinates and the actual paid post-tanh forced j4 term; no Fourier projection of f itself",
+    "original_q_and_normalizations": "Frozen source parameters remain the immutable base field; all newly added height coefficients are zero initially",
+    "old_inner_Riccati_repeated": false,
+    "old_H_shooting_repeated": false,
+    "new_inner_modes": [
+      10,
+      12,
+      14,
+      16
+    ],
+    "new_DtN_definition": "For each new mode independently, same phase=0 mild W and R596 alpha17 bracket, M=25 means rho26=0; complete balanced slope, outer13jets, log normalization, raw core traces and source costs printed",
+    "old_dense_fields": "Necessary reconstruction of paid dense outer/core fields and the frozen forced direction is charged, not described as free reuse",
+    "angular_modes": [
+      2,
+      4,
+      6,
+      8,
+      10,
+      12,
+      14,
+      16
+    ],
+    "new_radial_body_space": "61 degree-five B-splines on the whole original 67-knot vector; chi(r)*(.85-r)^(alpha+2)/(.85-.30)^(alpha+2) multiplier, chi C-infinity zero<=.23 and one>=.24",
+    "new_homogeneous_boundary_columns": "7 genuine flat modes 4 through 16 with complete explicit [.55,.65] two-jet core correction; j2 core increment fixed zero; true j2 linear field remains inside whole paid field",
+    "primary_core_amplitude": "Retained paid primary mode; no extra j2 core coefficient; static H remains one design variable",
+    "new_unknown_dimension": 496,
+    "exact_continuum_target": "For each positive mode m<=16, mean(cos(m theta)*D/M)=mean(cos(m theta)*At/M)=0, with exact R597 finite core trace rows and the stated endpoint class",
+    "no_pointwise_division_by_a": true,
+    "nonlinear_D_and_mean_metric": "Every root and every trial uses the full implicit turning E; e-prime eliminates only in the weak rows, complete old R and metric remain reported",
+    "analytic_Jacobian": "Differentiate the exact turning root and At/M, including -At*deltaM/M^2 at nonzero residual; core derivative uses the same implicit eR and independent P_r response",
+    "new_single_direction_observation": "One complex-step directional observation of the new full weak Jacobian at the first actual state, same run only; no old paid check replay",
+    "core_endpoint": "R597 full finite At_R, eR-prime and D_R; no R-epsilon substitution for core rows",
+    "matrix_and_geometry_observations": "Every retained state reports signed pointwise a, 8x8 weak mass eigenvalues/relative smallest singular value/rank at actual worst radius, plus complete geometry; loss of pointwise a sign is not divided away",
+    "acceptance": "Fixed radial quadrature and 1/m^2 row units plus finite core rows; all-direction damped SVD, function-jet trial radius, strictly resolvable actual weak merit decrease and ratio>.01; current state only changes after true acceptance",
+    "checkpoint": "Every valid initial/accepted complete 496-q state flushed; clock/failure FINAL recovers most recent actual checkpoint, not the unreturned outer function value",
+    "active_grid": "Old phase-aware radial grid and six subdivisions of every old spline span, 128 angles",
+    "fine_and_direct": "Twice radial density, 256 angles, actual position radial differences at step and half step; full D Fourier modes0..40 and exact core D modes0..34",
+    "amplitudes": [
+      1e-05,
+      3e-05,
+      0.0001,
+      0.0003,
+      0.001,
+      0.003,
+      0.01,
+      0.03,
+      0.1,
+      0.2
+    ],
+    "progression_gate": "Actual same-q fine and both direct metric eta<=2e-9, positive sampled height and direct outward ratio; otherwise continue future work from real retained state",
+    "finite_angular_weak_BVP_not_infinite_solution": true,
+    "infinite_nonlinear_inner_tail_paid": false,
+    "floating_ODE_error_certificate": false,
+    "continuous_Fourier_tail_certificate": false,
+    "same_fixed_metric_refinement_claim": false,
+    "complete_finite_family_claim": false,
+    "continuous_curvature_or_reach_claim": false,
+    "scientific_execution": "this public Actions workflow only",
+    "maximum_parallel_jobs": 1,
+    "job_timeout_minutes": 45,
+    "original_stdout_only": true,
+    "raw_arrays_tables_artifacts_releases_or_git_writes": false,
+    "completed_old_64_angle_baseline_repeated": false
+  },
+  "source_sha256": {
+    "topics/visible-flex-new-mechanism/scripts/r576_function_space_continuation_20261126.py": "0e65a0140d0401d91f19381fffab791eb289de3c905c4aa5674735e322ea85fe",
+    "topics/visible-flex-new-mechanism/scripts/r576_finite_height_turning_20261126.py": "40d70b729664a8d59dc653ce30315ea356ce09c461bd4d108fc0a78d05517ad9",
+    "topics/visible-flex-new-mechanism/scripts/r571_milder_seed_outer_jets_20261126.py": "ede50d8c4d362d77f9618b3481233d32e5ecc73842af7d84dddd8c78bb518970",
+    "topics/visible-flex-new-mechanism/scripts/r571_nonmonotone_connector_gain_20261126.py": "81407b0e9a262d65d3037ccffa191ecdc501087911e3daf75edf0fe03cda8deb",
+    "topics/visible-flex-new-mechanism/scripts/run_inverse_rotational_metric_20261126.py": "a97334fb7004ce750c0c949469be2db21ca7a187e53b48032dba2f330cf5e8ae",
+    "topics/visible-flex-new-mechanism/scripts/r576_exact_knot_height_continuation_20261126.py": "28ab4e379e1a1dddb6dd10ee64b795bb9810c1cc72a9b39b092ae6f142d923d3",
+    "topics/visible-flex-new-mechanism/scripts/r576_body_forced_j4_height_20261126.py": "5ae3884c3a877a87a933b82a66aeb2e4d861a3883a9b4bf31f67bc48bb49908c",
+    "topics/visible-flex-new-mechanism/scripts/r594_eight_mode_weak_height_bvp_20261126.py": "4a4ef267e6b35d9eae59acc96441aa50ded2ead3f57e90f86a9da49c90f005bb",
+    ".github/workflows/visible-r594-eight-mode-weak-bvp-20261126.yml": "44c099895688dfe8b06104acd58bbc6020461837468235a59d47cca06f244eca"
+  },
+  "proof_interfaces": [
+    "topics/visible-flex-new-mechanism/results/R576-exact-turning-elimination-and-finite-nonlinear-height-interface.md",
+    "topics/visible-flex-new-mechanism/results/R594-exact-nonlinear-radial-acceleration-and-galerkin-leakage.md",
+    "topics/visible-flex-new-mechanism/results/R596-same-mild-tail-flat-kernels-through-sixteen.md",
+    "topics/visible-flex-new-mechanism/results/R597-nonlinear-core-trace-and-realizable-free-order.md"
+  ]
+}

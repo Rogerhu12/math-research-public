@@ -354,3 +354,5 @@
 - [B030通用续接START后外部关停](notes/2026-11-26-theta-generic-start-only-shutdown-receipt.md)：run45819650602无callback/FINAL/完成Jac；原q在实际571/1276及1144×3072新观察发现η.25895160786/V0，0新优化接受可核。1116括号/22.603199331秒定位已付，其余科学费用未闭合，第三68.2931574秒未刷墙钟单列；下一改变工作矩阵实现且保完整接受门。
 
 - [R590受控collocation原自然终态](notes/2026-11-26-r590-staged-trust-first-public-receipt-agent.md)：run45818210513付113.584575秒child/112.698603153主程序，41试探=30接受+11拒绝，31完整状态全SHA可核；末原配点2.1934e18/BC.11938，非根。真even guide未闭、odd回付中心正势1.1258e17，Hermite末节点读出失真另列；转新宽母和共同八矩准备，不以固定权目标下降冒原式收敛。
+
+- [R594八模完整弱高度BVP实现](notes/2026-11-26-r594-eight-mode-weak-bvp-implementation.md)：保实际265q/67结/冻结forced列，以496个新未知求2…16完整非线性At/M弱行；四新高模各付真DtN口，新增δα+2体项及R597真核心端值/原D。完整解析Jac保离解分母项、同run一次新方向观察、每接受全态；不按失号a点除，不重跑旧baseline，尚无新解。
