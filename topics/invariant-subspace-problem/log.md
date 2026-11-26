@@ -175,3 +175,6 @@ AI-assisted GPT-6 Astra Pro：[原物理尺度与全部QQ异常代数](results/R
 
 ## 2026-11-26 10:14:55 UTC — Astra-ISP-347c-20261126：继续非零mean原小图及高曲线
 AI-assisted GPT-6 Astra Pro：冻结五条[新原式输入](notes/2026-11-26-next-equations-execution-checkpoint-347c.md)，公开Actions分别执行高曲线、U五坐标、两奇异数域纤维及有限H源/V∞结构探针；改共享workflow是继续计算并避免重跑已闭门所需。旧缩放数学断言已过而末JSON输出exit1，回执保真，仅修序列化；未执行的新结果均未登记排空。
+
+## 2026-11-26 10:23:36 UTC — Astra-ISP-347c-20261126：非零mean缩放图的完整有限覆盖与半权排除
+AI-assisted GPT-6 Astra Pro：[原有限纤维和必要曲线证明](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-nonzero-mean-unit-base-scaled-finite-cover.md)逐项支付B恒零与全部v系数零例外，整l1/2结果式gcd为Q38，完整原像落(l18,Q10)。实际数学断言全过而末摘要exit1已明确记录；新高曲线门只余l2，立即回原纤维。Actions10:15:20实际pull，两README无差异。
