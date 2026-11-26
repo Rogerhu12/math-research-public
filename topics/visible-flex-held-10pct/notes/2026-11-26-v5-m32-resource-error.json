@@ -1,0 +1,75 @@
+{
+  "schema": "held10-v5-m32-actual-resource-error-v1",
+  "maintainer": "Astra-held10-06bbeb39-20261126",
+  "scope": "Actual v5 lambda=.004/M32 driver error with no saved solver return. The earlier M24 metric-only solver return remains the usable initializer. No mathematical nonexistence or Newton/RMS failure is inferred.",
+  "observed_at_utc": "2026-11-26 13:42:18 UTC",
+  "evidence": {
+    "repository": "Rogerhu12/math-research-public",
+    "path": "topics/visible-flex-held-10pct/ci/live-lowq-result.json",
+    "immutable_commit": "5859e00dd3490ccc33142a7df19a3a281594bd7d",
+    "git_blob": "b605bdb66480ff278763a47741bc60354662b724",
+    "commit_published_at_utc": "2026-11-26T13:40:50Z",
+    "command_id": "held10-fresh-v5-delta-phase-design-20261126-01",
+    "command_checkout_commit": "32a9e3bf8e09ef98c3f6f09a1b647ac5b794ba48",
+    "script": "topics/visible-flex-held-10pct/scripts/resume_20261126/seam_recover_v5_material_design.py",
+    "script_sha256": "a8992f4de1b4ddc1a07c3a932f27254d98d6013ad022ffaa6113bcdcdbf4bd8f"
+  },
+  "actual_driver_error": {
+    "name": "attempt-001",
+    "homotopy": 0.004,
+    "modes": 32,
+    "run": "/home/runner/work/_temp/held10-lowq/fresh-v5/v5-material-design/attempt-001/run.json",
+    "run_sha256": "7e5509e46883bec8f573263324d04e25ee79254dd2b718427aa6771e9cc8de53",
+    "returncode": 0,
+    "error": "MemoryError()",
+    "artifact_error": "KeyError('raw_return')",
+    "solver_success": false,
+    "raw_status": null,
+    "raw_sha256": null,
+    "physical_sha256": null,
+    "nodes": null,
+    "rms": null,
+    "metric_l1": null,
+    "physical_bc_max": null,
+    "actual_audit_mean_nodes": null,
+    "domain_newton_stats": null,
+    "domain_error_counts": null,
+    "accepted": false,
+    "metric_only_failure": false,
+    "complete_saved_initializer": false,
+    "original_finite_checks": {
+      "actual_solver": false,
+      "angular_floor": false,
+      "metric": false,
+      "physical_bc": false,
+      "rms": false,
+      "solver_and_boundary_pass": false,
+      "tolerances": true
+    }
+  },
+  "preserved_prior_metric_seed": {
+    "run": "/home/runner/work/_temp/held10-lowq/fresh-v5/v5-material-design/attempt-000/run.json",
+    "run_sha256": "557fc49f790feec1ef165e21acefb2a3d14090d7eb49a86f013c2c6ec9057f87",
+    "accepted": false,
+    "complete_saved_initializer": true,
+    "metric_only_failure": true
+  },
+  "limits": {
+    "saved_solver_return_observed": false,
+    "actual_solver_invocation_state_unexposed": true,
+    "error_stack_location_unexposed": true,
+    "process_zero_not_used_as_solver_success": true,
+    "resource_error_not_misclassified_as_a_mathematical_failure": true
+  },
+  "no_parameter_or_field_vectors_saved": true,
+  "complete_surface": false,
+  "controller_at_evidence": {
+    "observed_status": "actual_attempt_budget_returned",
+    "accepted_lambda": 0.002,
+    "last_accepted_run": "/home/runner/work/_temp/held10-lowq/fresh-v5/v5-material-design/zero-control/run.json",
+    "actual_attempts": 3,
+    "fully_accepted_design_passes": 0,
+    "last_returned_attempt": "attempt-002",
+    "last_returned_target": 0.003
+  }
+}

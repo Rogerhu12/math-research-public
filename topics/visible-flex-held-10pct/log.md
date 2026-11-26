@@ -428,3 +428,5 @@
 - 2026-11-26 13:39 UTC｜Astra-held10-06bbeb39-20261126：已核原full-H执行及v5 DN接口：现chord/native4可复用，generic未装chord、单改配置无效；须分绑原port基线/runtime/manifest，保full-H/J/audit/最多8outer。v5只接实际solver场，δ内部列保留、固定cut底块零有明确范围；原seam mean另于源图，非公共Cartesian两jet通过。旧尾只获约109分钟，不由期限推6h不可解；无新尾/缓存改动。
 
 - 2026-11-26 13:41 UTC｜Astra-held10-06bbeb39-20261126：首完整割线真实λ.032/M32全原门过，866点/RMS9.91172e−7/metric6.71186e−7/物理BC2.63e−18，3原接受步/零域与merit拒；run97ffa238/raw28a171df/physicalf0c54a25。两真锚.008/.016、β2完整初猜与接受输出分别绑定；同已知λ的新场/方法结果，不作更高λ或同g精化，父链自然继续attempt001。
+
+- 2026-11-26 13:45 UTC｜Astra-held10-06bbeb39-20261126：v5第二实际.004/M32返回MemoryError，run7e5509e4，无raw/physical/RMS，process0不作solver成功。独立小reader仅核已存run SHA并投影traceback源位置/hash，不输出原文本/状态/参数数组；同lowq runner已提交只读定位请求，未重跑任何方程。原真.004/M24 metric-only场仍保留，随后实际续入按第三返回决定。
