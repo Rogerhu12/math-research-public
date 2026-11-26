@@ -158,3 +158,7 @@ R55补充：[较宽设计盒与条件完整D≤2.69](notes/2026-11-20-soft-start
 ## R69. 同一补弧族的完整核心 C² 差界
 
 [完整证明](results/R69-uniform-core-c2-difference-from-phase-controls.md)。同baseline/λ/window/真实basis与旋转中心规范下，令E0、E1为连续phase/曲率差界、η=min(2,E0)，则完整闭合核心位置差≤(P/√3)η，一阶≤η，二阶≤E1+min(K0,K1)η。位置界来自精确旋转闭合Green算子，未移除零模或另选对齐；ℓ¹ Cauchy控制序列给核心C² Cauchy，有限两层下降本身不满足该假设。尚无新λ1或全场数值代入。
+
+## R70. 全周期到补弧相位的设计同伦
+
+[完整证明](results/R70-full-to-complementary-phase-homotopy.md)。新族在λ<1允许保护弧内曲率控制、λ1精确回R68补弧族；保三重闭合/反射/共同规范/C²依赖，每列曲率范数≤1，原更宽三阶守卫仍适用。每个有限M与λ的核心列无核不等于完整BVP可逆；非零d的λ导数明确含basis交叉项。独立v4源及小API检查已部署，尚无真实v4 BVP接受。
