@@ -94,7 +94,7 @@ $$
 
 **新增完整比较接口：** [联合carry、有限Fock乘子与指数强前缀](results/R271-appendix-joint-carry-finite-fock-multiplier-and-exponential-strong-prefix-gram.md)用原同一F、同一f支付完整有限高度Gram和inverse的相对误差，条件3J(x+1)³≤exp(417d³/4)；原高度窗覆盖x≤exp(13d³)，强头整个有限塔覆盖x≤exp(26d³)/4。原物理孔权Γ=32^N的双向乘子亦近恒等，不付32^x；但不能把同F换成ker A_x^r，不能以加权Gram变分问题替原未加权最小者，更不能据此宣绝对Zγ已付。
 
-[实际方差的指数强前缀完整源极限](results/R271-appendix-exponential-strong-prefix-actual-variance-source-limit.md)已把完整空间inverse的强极限扩到d≤x、x+1≤exp(26d³)/4、1≤J≤d+x−m−1、s≥S_x→0，特别允许真实s=S_x与J1。原完整正高度总能量趋0，全部Fock列强趋P_M f⊗e0，母支持Q≥R+J及大辅助方差Q≥R+h+1仍合法。只有完整F=H，未给移动ε速率或未知F0压缩inverse的同一极限，仍须绝对参考Zγ。
+[实际方差的完整源极限](results/R271-appendix-exponential-strong-prefix-actual-variance-source-limit.md)已付真实Sx与全部正高度能量趋零；只涉及完整源，不自动给未知F0压缩inverse或绝对Zγ。原强前缀母窗与来源保归档。
 
 [实际原方差中的完整孔权残余运输](results/R271-appendix-actual-window-weighted-full-galerkin-residual-transfer.md)进一步支付原未加权Galerkin最小者的差，而非改度量的候选：m≥10、d≤x、x+1≤d⁴/64及原J窗中，Γ=32^N下残余、最小者与全能量列差均≤e^(−7d⁴/4)‖f‖。最高carry零头取m−1、n=d/2时，x+1≤d⁴/1024给同F0的Zγ差≤e^(−7d⁴/64)，新母支持准确Q′≥R+r。仍须证明参考Z_(A_x,F0)自身的绝对界；不能换为ker A_x^r或先取零方差。
 
@@ -102,7 +102,7 @@ $$
 
 **[大辅助方差真实F0已取得完整逼近](results/R271-appendix-large-auxiliary-variance-true-kernel-galerkin-approximation.md)：** 对原未加权压缩inverse，低新孔≤L列真实属于全部F_t和F0，r≥2d+L给能量误差≤(16/15)32^(−L−1)。L=d、r=3d+1、R=576(m+1)²d²、Q=R+r严格满足原窗和零头改基；s=K/y给无权ξ≤e^(−2d)及真压缩源强趋P_M。原物理列加准确i0ξ后保同V/K/u/partial。剩余为Sx的绝对孔权，或把此同源列送回真正物理核/纯高度代表的全部MP和真帽费用；辅助到物理逆缩放不能由无权小残量代付。
 
-**[大辅助零列不能冻结返回](results/R271-appendix-large-variance-fixed-zero-column-return-lower-bound.md)：** 原指定f1给准确〈Ca_s,e0〉=s(1−q_s)及‖Ca_s‖≥s/(s+49)。保a_s为零远孔系数的任何真物理核列必须付s/[(s+49)√Sx]，原合法R=d/r3窗增长如√x；同F的a_s与a_Sx也至少差2²⁴/(700x)。保级双塔的未投影差有相同首行障碍，但最终正交投影可消去它；可改变零列的全物理MP并未被排除。真正下一接口必须保同forcing并重新最小化全部列。
+**[大辅助零列不能冻结返回](results/R271-appendix-large-variance-fixed-zero-column-return-lower-bound.md)：** 固定原零列的真实核返回有√x下界；该障碍不适用于重新最小化全部列。旧准确常数及合法窗保归档，勿重做。
 
 **[真空源矩给实际物理1/y运输及全inverse权界](results/R271-appendix-vacuum-source-moments-all-strong-physical-transport-and-weighted-inverse.md)：** 原全部新增位的精确elementary/falling-factorial平方和≤ηe^(ηH)μ1；正号翻译保旧/新两个真实物理同u列，Γ_new差≤96√μ1/(√(3K)y)，一次log方差选择对全部合法x/Q给Δ/(y√K)。原完整inverse的Γ共轭≤31/30，闭自然域推广无限L_m及全级数Gram。它仍是大辅助全空间正则化源，不是物理核，也不能把增长Q的同源身份当固定cut；继续原T比较、真约束Schur及物理返回。
 
@@ -114,12 +114,14 @@ $$
 
 **完整原源的真实物理孔矩：** [完整J∞列](results/R271-appendix-complete-gram-position-energy-and-common-second-hole-moment.md)给A=√s‖N²k_T‖及A²≤32L_s⁴s+72L_sμ_T。[实际离散S_x网格](results/R271-appendix-actual-variance-grid-factorial-powers-and-complete-source-hole-moments.md)已进一步闭合：直接从边界N/Y证明阶乘幂，保μ导数与正插值误差，得Σμ_T(Sx)/x<∞；每物理log窗一次选偶x，完整二阶矩及真实远尾占据趋零，原全部幂行和前缀共用。小比较头、原支持/高度窗和最高零头全部支付。继续真F0、准确物理核返回和完整MP/指数费用；不把远尾真空投影后的列当精确头源。
 
+**[全部真实远位硬化与重新最小化现已支付](results/R271-appendix-complete-tail-hardening-common-auxiliary-mode-and-global-source-energy.md)：** 同一额外mode中的真闭交核嵌套给q_C(Sx+t)−q_L(t)，准确等于硬核违例与重最小化两个正项；两端点比较后≤∫_t^(t+Sx)μ_T(v)dv/v+2δ。t=εSx、Q6y、小头及最高零头窗均付，ε可在联合窗趋零，普通范数端点为P_Mf。最后仍须把同一源端点放进稳定范围closureBM，或为Ta_T(t)支付正则右逆的准确输入及输出费用；正t核不作kerT。
+
 ### 2.2 仍需接合的原返回接口
 
 - 旧 $\tau14$ 下全高度同w Bessel/能量、一次物理MP及共同log方差均已付；后继 $CD^\dagger$、核外第二逆和真正完整最小源仍开。一次界不自动反复适用，真核终式不保初始阻尼。
 - 完整一/二远孔 Schur、第三旗增益、纯两孔 $q_\flat=P_{\operatorname{Ran}C^2}q$ 无罚来源已付；仍需该真实 $q_\flat$ 的全费用、跨旗余源及移动 $\gamma_2$。首逆标量≤1、首头增益可和或低旗 Schur 都不能删除核外第二逆。
 - 原相邻创建家族的真帽完整配对和平均首反馈 $\bar\alpha$ 已付；未付首真空源 $\bar g_0=\sum p_iH_i a_{0,i}$ 及同一 $P_EY(P_Kf)$ 的真实帽测试。任意kernel-input、未来带/partial或 $q_h(-T_0)^*$ 未自动落入已证家族。
-- 完整逐位 Schur 必须保全部横向零源、实际重新最小化和同一C。共同辅助模型的收缩词预算不代逐位硬化；$\sigma_i$ 没有同一 $C^*$ 左因子，裸 $(I-P_E)D^*X$ 不能删。
+- 旧逐位Schur的横向/重最小化障碍由下述总投影预算绕开；裸缺项仍不能删。
 - 真强头 canonical 修复的高段已付；中段公共固定多项式塔有完整指数障碍，勿再追该已排预算。实际源特殊能量或源依赖lift仍开。
 - 完整负部合并仍需原same-w的 $\le c_mQ\|F_mu\|^2$ 且 $\sum1/c_m=\infty$。真实 $z_2$ 留 $Cq_2$，完整物理终端 $K^4=o(\log m)$ 不倒用至 $R>0$；原 Chebyshev 窗超过母窗的问题保留。
 

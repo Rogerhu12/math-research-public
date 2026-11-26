@@ -1,0 +1,406 @@
+{
+  "schema": "isp-bounded-original-inputs-v1",
+  "ordinaryISPClaim": false,
+  "executions": [
+    {
+      "job": 139871189003,
+      "receipt": {
+        "elapsed_seconds": 904.7609021820001,
+        "max_child_rss_kib": 1506624,
+        "ordinary_isp_claim": false,
+        "rules_reads": [
+          {
+            "after": "5f5aa1fb03fab3ccf36010c283865f7465334b00",
+            "before": "e74a6d1b37742414d1215bb37440b7c2fe56851c",
+            "rules_git_blobs": {
+              "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+              "topics/invariant-subspace-problem/README.md": "fef43bdf8690f2eec4751d85784a266eacdd0322"
+            },
+            "rules_unchanged": true,
+            "utc": "2026-11-26T11:15:43.477064+00:00"
+          }
+        ],
+        "run_attempt": "1",
+        "run_id": "45808873477",
+        "schema": "isp-frozen-exact-actions-execution-v1",
+        "session": "Astra-ISP-347c-20261126",
+        "source_commit": "e74a6d1b37742414d1215bb37440b7c2fe56851c",
+        "source_exit_code": 1,
+        "source_git_blob": "6ce004bf22ba60e25b4c4a23ebaf012500e8f867",
+        "source_sha256": "36b76b00b5f6240ce2e449ce27fd99fe637e9c903cd403ed89017e26dbe9831f",
+        "stdout_bytes": 5217,
+        "stdout_sha256": "dd0d68737f670fe25189a2f83dc64687372c39fe7a8c3f851ee0f0ef882bac88",
+        "stop_reason": null
+      },
+      "reports": [
+        {
+          "degrees": [
+            0,
+            0,
+            3,
+            3,
+            6,
+            0
+          ],
+          "frozen_modular_sha256": "19bc341ee6dd27f8216e6d5003ac6db37b13e28c4894d27f4ebf4db66c9770f2",
+          "label": "source_Jred",
+          "seconds": 4.181958603999995,
+          "sha256": "38bdb13ac6904bb246b4f8baa3c321684e35090bad23f9c3c913301895cc59fa",
+          "stage": "universal_original_equation",
+          "terms": 38
+        },
+        {
+          "degrees": [
+            0,
+            3,
+            4,
+            4,
+            7,
+            0
+          ],
+          "frozen_modular_sha256": "9e44c51f99a96cd9e75b6a9778fac940970d06c3f385611a4424c63295a088f6",
+          "label": "source_C3",
+          "seconds": 4.183121831000001,
+          "sha256": "d3d2f27dcd2cb574f98bd9659900f2b8c7a758a2cb6a8b4e2d0047de0cda92e0",
+          "stage": "universal_original_equation",
+          "terms": 181
+        },
+        {
+          "degrees": [
+            0,
+            2,
+            5,
+            5,
+            9,
+            3
+          ],
+          "frozen_modular_sha256": "12a5b564fc0d93a2cfaba7d5526c13abe724d57b35f5ee2a0b6d8d4dad00e347",
+          "label": "highest_w_quadratic",
+          "seconds": 4.1859201729999995,
+          "sha256": "07901052818d790cfc712ac680ed76de8d421fb28b2a83b31be1275ba69d8aee",
+          "stage": "universal_original_equation",
+          "terms": 624
+        },
+        {
+          "degrees": [
+            0,
+            2,
+            10,
+            10,
+            20,
+            2
+          ],
+          "frozen_modular_sha256": "47c625d943bf791c06e8f954c7a5a9ee056a67f457b9201b01ba262a77237c94",
+          "label": "mean_norm_quadratic",
+          "seconds": 4.223969474999997,
+          "sha256": "e626ed7b9c4f88459121d28eeab7f95cb1aa8b059b175d4b7488d6d6ca1af76b",
+          "stage": "universal_original_equation",
+          "terms": 7936
+        },
+        {
+          "degrees": [
+            0,
+            8,
+            8,
+            8,
+            24,
+            3
+          ],
+          "frozen_modular_sha256": "0126c8527aa0b4190b7e0ac9fd3120408258d8cfb790fefe883e669fdc49552a",
+          "label": "original_jet_scale",
+          "seconds": 4.267038129999996,
+          "sha256": "1a05cf7cd75646577d8b7f8898ceda875c10d23bfdbba63adc8d99d224660e13",
+          "stage": "universal_original_equation",
+          "terms": 9094
+        },
+        {
+          "degrees": [
+            0,
+            5,
+            5,
+            5,
+            10,
+            5
+          ],
+          "frozen_modular_sha256": "86c48a24fd9a0336c3ccccd6ef2590f270c70eb2135de74b0f73e99c00e34817",
+          "label": "original_single_ratio",
+          "seconds": 4.271993721999998,
+          "sha256": "00c8e496138d2537599ded5fc2f6fa72bdc7e18b58af25ced48e8b4628f55738",
+          "stage": "universal_original_equation",
+          "terms": 1103
+        },
+        {
+          "degrees": [
+            0,
+            6,
+            8,
+            8,
+            19,
+            1
+          ],
+          "frozen_modular_sha256": "e7739330a0f5408ab7409794a179ac741d49cfb6bf08bd67a3038737f7b19707",
+          "label": "highest_source_derivative",
+          "seconds": 4.294567701999995,
+          "sha256": "8ec025757696553b79536e9fc8c2c68c7318caad05027a7fcc69a12c2b46cac9",
+          "stage": "universal_original_equation",
+          "terms": 5042
+        },
+        {
+          "degrees": [
+            1,
+            4,
+            7,
+            9,
+            15,
+            0
+          ],
+          "frozen_modular_sha256": "fc213ed7bacd67885785f1d6e2ae2a356677f2ad53491f274d356b61d455cfe8",
+          "label": "original_physical_units",
+          "seconds": 4.301764229999996,
+          "sha256": "339c283772e0846170762b2f5dc4474dbe888753186962bfe712d11dd6b8dc51",
+          "stage": "universal_original_equation",
+          "terms": 1433
+        },
+        {
+          "job_id": 139865351533,
+          "no_modular_groebner_rerun": true,
+          "run_id": 45807166646,
+          "seconds": 4.3018022259999995,
+          "source_git_blob": "8d084112f3c15ba913a54ee4fb97868154200b0c",
+          "stage": "frozen_input_identity_complete"
+        },
+        {
+          "returncode": 0,
+          "seconds": 4.309794853999996,
+          "stage": "singular_version",
+          "text": "Singular for x86_64-Linux version 4.4.1 (44105, 64 bit) Dec  6 2025 11:10:58"
+        },
+        {
+          "address_space_limit_bytes": 4294967296,
+          "bytes": 627596,
+          "field": "QQ[e]/G9",
+          "field_irreducibility": "already proved by original prime-37 Rabin identities",
+          "generators": 8,
+          "inverse_variable": "n=1/Pi",
+          "physical_variables": [
+            "d=w-s",
+            "z",
+            "x",
+            "s"
+          ],
+          "seconds": 4.325109546999997,
+          "sha256": "45f41d38e04e87781a89a2f54feed8ae1b3716beea4a28f3dc683087fee1ef34",
+          "stage": "singular_Ke_input",
+          "wall_limit_seconds": 900
+        },
+        {
+          "limit_seconds": 900,
+          "outcome": "unresolved",
+          "seconds": 904.436981264,
+          "stage": "true_Ke_bounded_timeout",
+          "stdout_sha256": "21ab34724568de4745dc2feb8f6722dda13fbd8bce72cf393cf149c272a40a7f",
+          "text": "ISP_BEGIN_KE_LIFT_SMOKE\nISP_KE_LIFT_SMOKE_VERIFIED\nISP_BEGIN_TRUE_KE_ORIGINAL_LIFT\n"
+        }
+      ]
+    },
+    {
+      "job": 139876576618,
+      "receipt": {
+        "elapsed_seconds": 121.45156127900003,
+        "max_child_rss_kib": 4173368,
+        "ordinary_isp_claim": false,
+        "rules_reads": [
+          {
+            "after": "64b43d744e0ddb9f013f68cb9f83c7d8b8423166",
+            "before": "483a5d5a3402f78adec622e5b14fca85de3c6240",
+            "rules_git_blobs": {
+              "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+              "topics/invariant-subspace-problem/README.md": "fef43bdf8690f2eec4751d85784a266eacdd0322"
+            },
+            "rules_unchanged": true,
+            "utc": "2026-11-26T11:25:52.625297+00:00"
+          }
+        ],
+        "run_attempt": "1",
+        "run_id": "45810449031",
+        "schema": "isp-frozen-exact-actions-execution-v1",
+        "session": "Astra-ISP-347c-20261126",
+        "source_commit": "483a5d5a3402f78adec622e5b14fca85de3c6240",
+        "source_exit_code": 0,
+        "source_git_blob": "c97cbc20fa41d508bf1f51d3d2cf960512916c9f",
+        "source_sha256": "818215df816bdb84c6e5275fa9fa66a7ffada157e285b3e268550cbac2335368",
+        "stdout_bytes": 4073,
+        "stdout_sha256": "85e4f1b992100d1dbe8633d7684d6e4daaa94897058ef5053e63be9b3b15bc07",
+        "stop_reason": null
+      },
+      "reports": [
+        {
+          "elapsedSeconds": 0.04733,
+          "ftDegree": 0,
+          "label": "moment2",
+          "sha256": "f3bfdf049f1470c25c35d5f9c98af0fdeeb385b8cde48da28a3374d0ef3f16d1",
+          "stage": "original_weight_equation",
+          "terms": 5,
+          "totalDegree": 3
+        },
+        {
+          "elapsedSeconds": 0.047516,
+          "ftDegree": 0,
+          "label": "moment3",
+          "sha256": "399e2e2c25bb3a8e3ff4498d540739f24b2ef3f5f11b7af95f1be54f8f4b90fd",
+          "stage": "original_weight_equation",
+          "terms": 6,
+          "totalDegree": 4
+        },
+        {
+          "elapsedSeconds": 0.049059,
+          "ftDegree": 1,
+          "label": "NV",
+          "sha256": "b49f8106be3ad2b8197be51a3403b6971e2f44a2442d551956359c65f4c8c7ef",
+          "stage": "original_weight_equation",
+          "terms": 164,
+          "totalDegree": 10
+        },
+        {
+          "elapsedSeconds": 0.051518,
+          "ftDegree": 2,
+          "label": "E1",
+          "sha256": "2f68e4c98c3c16eb362a97722c8d8a4329a6c758d6ccda085b46bc354967fab8",
+          "stage": "original_weight_equation",
+          "terms": 397,
+          "totalDegree": 17
+        },
+        {
+          "elapsedSeconds": 0.053284,
+          "ftDegree": 2,
+          "label": "EB",
+          "sha256": "3c026858fe82d4624e5481978cdb2d520451c5280b8cf5519d0ed547b7fd4a38",
+          "stage": "original_weight_equation",
+          "terms": 285,
+          "totalDegree": 15
+        },
+        {
+          "elapsedSeconds": 0.05506,
+          "ftDegree": 2,
+          "label": "EC",
+          "sha256": "ff9d8ceff2fb56b422eaa7584a4cad1c356ec0ca5067c54f2d6de1cbd2139f4c",
+          "stage": "original_weight_equation",
+          "terms": 285,
+          "totalDegree": 14
+        },
+        {
+          "elapsedSeconds": 0.055841,
+          "ftDegree": 1,
+          "label": "P1",
+          "sha256": "f8f5b03a863be3151726c9c7d782b9e6fe7eaac0b1cd09aee2e2b885853e2bb5",
+          "stage": "original_weight_equation",
+          "terms": 112,
+          "totalDegree": 11
+        },
+        {
+          "elapsedSeconds": 0.06367,
+          "ftDegree": 3,
+          "label": "PB",
+          "sha256": "b01e4a4306783b671dc4f38ddb60c2bc121b6b6cb5e888e68f51fd7d1bdfc38f",
+          "stage": "original_weight_equation",
+          "terms": 1318,
+          "totalDegree": 21
+        },
+        {
+          "elapsedSeconds": 0.071408,
+          "ftDegree": 3,
+          "label": "PC",
+          "sha256": "5c3c7b7d9ba917b857e8940357518a6ccb72441611eb7b2d677a67ea565297d6",
+          "stage": "original_weight_equation",
+          "terms": 1318,
+          "totalDegree": 21
+        },
+        {
+          "elapsedSeconds": 0.075673,
+          "ftDegree": 2,
+          "label": "N1",
+          "sha256": "ea01c27ef2bf25b651e5fe62bbaf35896523e0a7f7dbf227ffd60ba866eac54b",
+          "stage": "original_weight_equation",
+          "terms": 714,
+          "totalDegree": 19
+        },
+        {
+          "elapsedSeconds": 0.080473,
+          "ftDegree": 3,
+          "label": "NB",
+          "sha256": "934f7bb146d77a1d50e656ac4c9bfe354de31692a09acc47de6277af96755a11",
+          "stage": "original_weight_equation",
+          "terms": 809,
+          "totalDegree": 17
+        },
+        {
+          "elapsedSeconds": 0.085289,
+          "ftDegree": 3,
+          "label": "NC",
+          "sha256": "9ee469f189471702d93f34e73064737aad2d31fc82b2a86da0ca055058ad8b23",
+          "stage": "original_weight_equation",
+          "terms": 809,
+          "totalDegree": 17
+        },
+        {
+          "elapsedSeconds": 0.087339,
+          "ftDegree": 0,
+          "label": "original_chart_units",
+          "sha256": "0e8d43ed3ebeb0c6683dd2129640844c1afdcef34334dd2f0de177f0e7eff0d9",
+          "stage": "original_weight_equation",
+          "terms": 325,
+          "totalDegree": 21
+        },
+        {
+          "additionalOriginalNV": true,
+          "chart": "b*c*q*(q-1)*(q+1)*lambda*u*P0*X*Y*(X-Y)*L*S != 0",
+          "claimExcluded": false,
+          "elapsedSeconds": 0.087377,
+          "momentCount": 2,
+          "originalEquationCount": 9,
+          "rationalWeightElimination": false,
+          "sourceSha256": "818215df816bdb84c6e5275fa9fa66a7ffada157e285b3e268550cbac2335368",
+          "stage": "original_weight_graph_verified"
+        },
+        {
+          "bytes": 132510,
+          "claimExcluded": false,
+          "elapsedSeconds": 0.131679,
+          "generators": 13,
+          "prime": 1031,
+          "sha256": "b2ef1b512947bba92f743f57e122406bf1415d228798d68939349b547265f36f",
+          "stage": "singular_input",
+          "variables": [
+            "n",
+            "t",
+            "f",
+            "lam",
+            "Y",
+            "X",
+            "q",
+            "c",
+            "b"
+          ]
+        },
+        {
+          "claimExcluded": false,
+          "elapsedSeconds": 121.367792,
+          "outcome": "unresolved",
+          "returncode": 14,
+          "stage": "singular_output",
+          "stdoutSha256": "c1c0f42a00b0307923c697a0ff8f2c0e89a8845308099928d5584812820391c0",
+          "text": "ISP_BEGIN_GENERIC_WEIGHT_ORIGINAL\n\nSingular error: no more memory\nSystem 4161844k:4287878k Appl 3579809k/56927k Malloc 532k/0k Valloc 3636204k/56927k Pages 909051/0 Regions 2026:2026 Internal: 236864\n\nhalt 14\n"
+        },
+        {
+          "claimLambdaLayerEmpty": false,
+          "elapsedSeconds": 121.368324,
+          "ordinaryISPClaim": false,
+          "peakRssKiB": 41116,
+          "scope": "original generic U-weight chart, modular direction only",
+          "sourceSha256": "818215df816bdb84c6e5275fa9fa66a7ffada157e285b3e268550cbac2335368",
+          "stage": "complete_structural_probe"
+        }
+      ]
+    }
+  ]
+}

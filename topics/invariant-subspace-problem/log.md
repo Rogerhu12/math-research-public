@@ -232,3 +232,6 @@ AI-assisted GPT-6 Astra Pro：[完整证明](results/R150-appendix-essential-fou
 
 ## 2026-11-26 11:28:36 UTC — Astra-ISP-347c-20261126：原P1完整两图覆盖S0余层
 AI-assisted GPT-6 Astra Pro：[完整证明](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-original-P1-S0-linear-cover.md)给一般p,q的原germ一次式；z=R、T0=0及λhalf/quarter全部系数退化均付，原moment判别767/4000，实际0.176205秒/exit0。按合法f/t两图继续S0非同时零余曲面；没有把覆盖当排空。
+
+## 2026-11-26 11:34:02 UTC — Astra-ISP-347c-20261126：全部远位硬化的真实同源预算闭合
+AI-assisted GPT-6 Astra Pro：[完整投影证明](results/R271-appendix-complete-tail-hardening-common-auxiliary-mode-and-global-source-energy.md)支付自然闭域、全部横向源/重新最小化、两端点正误差及同u母窗；稳定范围端点继续。另据实登记首次Ke900秒未决与原权重4GiB内存界；新共享workflow接同Π的低次数真Ke原输入，不重跑旧门或模门。
