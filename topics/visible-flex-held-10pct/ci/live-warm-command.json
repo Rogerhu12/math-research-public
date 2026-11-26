@@ -1,67 +1,32 @@
 {
-  "id": "held10-warm-v3-complement-20261126-01",
-  "read_rules_commit": "4028a90918db87d5d592395449a71cd5af2c826a",
-  "script": "topics/visible-flex-held-10pct/scripts/resume_20261126/warm_fixed_m3_continue_v3.py",
+  "id": "held10-warm-one-newton-direction-20261126-01",
+  "read_rules_commit": "b8ac255dd88d9cd8ef0b43fbc6803325aee6ff1a",
+  "script": "topics/visible-flex-held-10pct/scripts/resume_20261126/seam_probe_original_newton_direction.py",
   "args": [
-    "--repo",
-    "@REPO@",
-    "--work",
-    "@WORK@",
     "--source-run",
-    "@WORK@/warm-v2-design/reexpressed-anchor/run.json",
+    "@WORK@/warm-v3-design/reexpressed-anchor/run.json",
+    "--homotopy",
+    ".004",
     "--outdir",
-    "@WORK@/warm-v3-design"
+    "@WORK@/warm-one-newton-direction"
   ],
   "diagnostics": [
+    {
+      "path": "@WORK@/warm-one-newton-direction/observation.json",
+      "keys": [
+        "status",
+        "progress",
+        "result",
+        "error"
+      ]
+    },
     {
       "path": "@WORK@/warm-v3-design/summary.json",
       "keys": [
         "status",
         "stages",
-        "progress",
         "result",
         "error"
-      ]
-    },
-    {
-      "path": "@WORK@/warm-v3-design/reexpressed-anchor/summary.json",
-      "keys": [
-        "status",
-        "error"
-      ]
-    },
-    {
-      "path": "@WORK@/warm-v3-design/attempt-000/summary.json",
-      "keys": [
-        "status",
-        "progress",
-        "result",
-        "error"
-      ]
-    },
-    {
-      "path": "@WORK@/warm-v2-design/summary.json",
-      "keys": [
-        "status",
-        "stages",
-        "result",
-        "error"
-      ]
-    },
-    {
-      "path": "@WORK@/warm-v3-design/reexpressed-anchor/run.json",
-      "keys": [
-        "physical_sha256",
-        "raw_return"
-      ]
-    },
-    {
-      "path": "@WORK@/warm-v3-design/attempt-000/run.json",
-      "keys": [
-        "raw_return",
-        "domain_newton_stats",
-        "domain_error_counts",
-        "physical_sha256"
       ]
     }
   ]

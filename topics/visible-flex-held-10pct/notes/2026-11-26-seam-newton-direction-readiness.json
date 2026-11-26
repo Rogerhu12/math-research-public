@@ -1,0 +1,36 @@
+{
+  "kind": "sole_accepted_parameter_direction_and_new_diagnostic_readiness",
+  "source": {
+    "path": "/tmp/held10-astra-06bbeb395471-public3/topics/visible-flex-held-10pct/scripts/resume_20261126/seam_probe_original_newton_direction.py",
+    "sha256": "d9b3a7ade73f064f3d07ebfef361c0e07e12cba4c6f461ff5fc0ae05b40809d8"
+  },
+  "actual_failure_record": {
+    "path": "/tmp/held10-astra-06bbeb395471-public3/topics/visible-flex-held-10pct/notes/2026-11-26-warm-v3-first-lambda-failure.json",
+    "sha256": "22dac5f7b4026853703b2bc4063cd806c35b3ece71d3b928f290016507ba8313"
+  },
+  "actual_zero_anchor_record": {
+    "path": "/tmp/held10-astra-06bbeb395471-public3/topics/visible-flex-held-10pct/notes/2026-11-26-warm-v3-anchor-actual.json",
+    "sha256": "3d5e1d16a44e2e5a37b820f5cc73d3a70e2d99d600b128351a9e9f322e128769"
+  },
+  "source_raw_return_sha256": "db0e9c6b5754cdabb7fe1af9748b3cb7b3569a707551cc97872034cb45f406ae",
+  "sole_alpha_exact": "1/1048576",
+  "maximum_parameter_direction_exact": "7442435542358505/1125899906842624",
+  "parameter_direction_l1_exact": "2763737592416698671/36028797018963968",
+  "maximum_parameter_direction": 6.610210638732021,
+  "parameter_direction_l1": 76.70912772807789,
+  "direction_p0": 0.09459551589230289,
+  "line_searches": 4,
+  "total_trial_evaluations": 84,
+  "all_four_searches_used_all_21_levels": true,
+  "accepted_step_mesh_or_Jacobian_identity_known": false,
+  "this_is_not_a_measured_first_mesh_Newton_direction": true,
+  "diagnostic_python_compile_exit": 0,
+  "diagnostic_cli_help_exit": 0,
+  "actual_diagnostic_executed": false,
+  "new_accepted_field": false,
+  "diagnostic_plan": "One fresh original LU at the exact same-M refine=1 warm .004 initializer; original cost split state/controls; all21 same-base trials; centered/backward Jv differences at2^-18 and2^-20.",
+  "raw_arrays_transferred": false,
+  "old_field_certificate_recomputed": false,
+  "projection_only_change": "Added bounded observation.json status/progress/result for the existing worker; original numerical diagnostic unchanged.",
+  "same_LU_inverse_merit_slope_projection": "Backwards/centered original-function FD vectors are solved through the same single LU; normalized d-dot-inverse derivative/cost is an estimate with ideal value1, Armijo first-order threshold.2. No new factorization or update."
+}
