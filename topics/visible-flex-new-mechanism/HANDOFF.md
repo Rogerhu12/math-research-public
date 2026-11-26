@@ -5,7 +5,7 @@
 
 ## 1. 规则、授权与原始记录
 
-公开已读提交 **321e4d46b6ec547020fe3113ffb2173c4d670888**（2026-11-26 16:39 UTC；本次实际pull后根/题README空差异）；最后实际pull及规则同blob读至 **c327c81112584c628a80fd59c6a8e0b6a90e96bd**（2026-11-26 16:39 UTC；实际pull成功，根README空差异、QUEUE仍本会话）。私有 QUEUE 仍为本会话进行中，原认领提交9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7，其他课题认领不改。
+公开已读提交 **0749a4cc82cc0b30001fb5adb2e71bad1d1dd968**（2026-11-26 16:42 UTC；本次实际pull后根/题README空差异）；最后实际pull及规则同blob读至 **0c30d2c77ba6cd890669d145ce9dd1929f527a04**（2026-11-26 16:42 UTC；实际pull成功，根README空差异、QUEUE仍本会话）。私有 QUEUE 仍为本会话进行中，原认领提交9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7，其他课题认领不改。
 
 [本次压缩前全文](notes/HANDOFF-before-continuous-angular-bounds-20261126.md)及其所链[继承交接](notes/HANDOFF-inherited-20261116-1809.md)保全部结论、条件、旧失败、输入与费用；不因摘要删账。三次环境失联后已恢复；远端临时CLI和后续本地CLI均真实双pull/rebase/push。每次实际pull后查根/题README差异并执行，至少每小时；API读取不冒pull。root独占git和共享索引，每条结论即推，NFF立即pull --rebase再推至成功。
 
@@ -47,13 +47,15 @@ R596/R600只付同尾准确核至16/32及截断理论；实际口、归一和ODE
 
 R584/R586/R589/R590保19态真历史、一次χ、正平方、负侧反号、偶端germs及原C²等价式。R598付同一个十八正块/576微包宽母（微半宽1/12000）；旧母/状态不混入。R601付prepared a=H/b=0/V_s=0，正势仍须支付。R603只在声明共同C²紧族、零rho和有界缩放规范下迫非零|v|=2，不排固定ε根。
 
-[首九参数完整mass终态](notes/2026-11-26-r603-vtwo-first-mass-public-receipt-agent.md)：run45839778794真付180.569685459主秒/181.470336墙秒；50接受/51全态/77219LSMR，末原ruling6.2885e14、BC.68010、原sigma历史1.1184e13。guide中心准确而全程正势5.2986e14；末插值真导数差5.8568，focal/Dsample .024786<.03，不是原轨道或根。
+[首九参数失败](notes/2026-11-26-r603-vtwo-first-mass-public-receipt-agent.md)的180.569685459主秒/77219LSMR、BC.6801/巨量sigma及不足.03的实际几何预算全保，不再重复同九族/软BC。
 
 [R605](results/R605-real-memory-coordinates-and-leading-energy-local-flow.md)付可逆R/θ/I记忆与内部正则首层流，仍欠全程返回。[精确BC原终态](notes/2026-11-26-r605-memory-hard-mass-first-public-receipt-agent.md)run45850563705/job140015513011，新348.104444742主秒/349.370370墙秒、50接受/84773LSMR；29BC误差8.267e−18，但原flow .25009/ruling8.9625e9、真M缺陷.18717/sigma2.223e12，未触129精化。末存储A零不是真矩返回，原自由中心已非prepared。
 
 真实密度恒等式8Δt1+2Δp1=∫(k²−1−(h_s/h)²)要求真共同返回时RMS(k)≥1；本guide原积分组合−5.23948未闭。下一以真实h/k及η/A/rho完整积分消去history自由，奇中心可按原端图回代；须付足全程k能量及全部剩余矩/原两ruling，不再延长旧硬BC节点scope。全部period、pose、宏观与reach仍欠。
 
 [R607](results/R607-positive-prepared-center-leading-energy-layer.md)给真M/运动学的正四阶中心层：k‴=6、c∈(1/6,3/4)及同λ使B±−λm=O(s⁶)。有限阶相容不授退化中心到内部流或全程返回，继续实际质量式。
+
+[R609](results/R609-true-integral-histories-and-kinetic-input.md)已付真η/八A/六rho全积分消元、四奇中心尾积分和一个全程固定ζ0中心链，剩四偶端条件/两原ruling；明确新输入连续原盒合法且真实动能组合>4/25。下一9/13/17模真曲线求解，不借独立history或prepared附加条件。
 
 ## 7. 全域几何与继续顺序
 
