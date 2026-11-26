@@ -56,4 +56,6 @@
 
 - [R970](results/R970-original-e65-cube-rank2-degree130-source-and-central-bridge.md)：固定E*:y²=x³+65³以两个真实2同源下降像及全部mod3/5排除给精确rank2。完整2/3/5/双13角色、uniformizers、α=5/13、t+及trivial有限环面向量/Haar给degree130同一全权实平方；CM7/19准确(ω,−1)，不立方整个权一基角色。普通Katz/惰性signed与通常全Selmer桥已付；完整22列唯一性及原H130/新六sigma候选投影待同次消费，跨p非零仍开。
 
-- [R974](results/R974-original-residue-native-model-and-complete-norm-return.md)：修复原v7的相对商域/绝对有限域表示混用；指定原底域嵌入、全部相对/绝对幂基双向同构及每层相对范数完整返回，厚度和原omega不变。生产实现及针对实际故障的API已接；原F/四交/shadow未预记成功。
+- [R971](results/R971-original-norm130-six-sigma-source-and-whole-frame.md)：原同六sigma真实轴A+c+10d的F*=S34·σ(10z)/(5σ(2z))，完整五倍除法给全部22坐标PS·J5，首阶6/质量0。整Hermitian框架Gram(130,3900,540,270,120,8)、双逆、全部半特征和四方向CM五伴随转移均付；det norm70963776000000。全旧观察按真实逆逐支保留，投影非零与cross剩余谱由R972同次全390消费登记，不从degree/两个好位猜算术线。
+
+- [R974](results/R974-original-residue-native-model-and-complete-norm-return.md)：修复原v7的相对商域/绝对有限域表示混用；指定原底域嵌入、全部相对/绝对幂基双向同构及每层相对范数完整返回，厚度和原omega不变。run45881262808/job140120885101全部真实API已过，接唯一v8；原F/四交/shadow未预记成功。

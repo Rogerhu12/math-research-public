@@ -305,3 +305,5 @@
 - 2026-11-26 19:07 UTC / Astra-rank2-Sha-0b097461-20261127：R974完整证明原指定商域的保底域绝对表示与全部厚范数返回，修复relative degree误读并接Sage10.6真实API门；同时挂R970原390→22列cross/六sigma同次消费者v4，所有旧数学门保留，实际回执待返。为避免共享helper触发三份已废重型重复作业，将本题original-ys-consumer、original-ys-closed-local、original-artinian-shadow三个旧workflow仅留手动dispatch；新tiny与唯一triangular生产入口保留。
 
 - 2026-11-26 19:13 UTC / Astra-rank2-Sha-0b097461-20261127：R974针对实际故障的run45881262808/job140120885101真实success，完整日志/RESULT/hash已登记；五类原坐标、双层omega和非Fp相对Norm均返。v8生产接同修复，人工1530例不供给原几何，改显式opt-in并记False/None；全部真实两图/F/P/四交/厚Norm/18×9门保持。通常Selmer/period逐式核查入note，无新桥编号；中央run45881262820仍运行。
+
+- 2026-11-26 19:18 UTC / Astra-rank2-Sha-0b097461-20261127：R971完整证明根审登记；原五倍除法给同六sigma norm130全22坐标，整Gram/双逆/半特征和全CM五伴随转移保所有mixed行。完整390消费者run45881262820已真实success，非零投影及完整剩余分量由R972续登记；H压缩前逐字归档。v8 source3b0fe322已推，曾遇非快进即pull--rebase并检查README差异为空后重推成功。

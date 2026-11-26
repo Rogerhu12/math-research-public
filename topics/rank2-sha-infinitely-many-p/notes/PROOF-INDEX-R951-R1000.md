@@ -44,4 +44,6 @@
 
 - [R970](../results/R970-original-e65-cube-rank2-degree130-source-and-central-bridge.md)：固定E*:y²=x³+65³以两个真实2同源下降像及全部mod3/5排除给精确rank2。完整2/3/5/双13角色、uniformizers、α=5/13、t+及trivial有限环面向量/Haar给degree130同一全权实平方；CM7/19准确(ω,−1)，不立方整个权一基角色。普通Katz/惰性signed与通常全Selmer桥已付；完整22列唯一性及原H130/新六sigma候选投影待同次消费，跨p非零仍开。
 
-- [R974](../results/R974-original-residue-native-model-and-complete-norm-return.md)：原指定残余域的保底域绝对表示与完整双向坐标，逐层矩阵/相对范数保持全部厚度；修复v7实际API故障，未宣称原几何或shadow成功。
+- [R971](../results/R971-original-norm130-six-sigma-source-and-whole-frame.md)：原同六sigma真实轴A+c+10d的完整五倍除法给F*=σ130x²PS·J5全部22坐标，首阶6/质量0；整Gram(130,3900,540,270,120,8)、全部半特征/双逆/四方向CM五伴随转移及旧mixed行返回已付。真实算术投影和整个cross的余谱由R972同次全390消费，未以degree或两个特征猜线。
+
+- [R974](../results/R974-original-residue-native-model-and-complete-norm-return.md)：原指定残余域的保底域绝对表示与完整双向坐标，逐层矩阵/相对范数保持全部厚度；run45881262808/job140120885101真实API通过，原几何/shadow仍待唯一v8。
