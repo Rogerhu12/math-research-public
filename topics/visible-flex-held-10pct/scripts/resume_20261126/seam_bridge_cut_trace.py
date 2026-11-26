@@ -163,6 +163,32 @@ def main():
     short = module("_seam_literal_short_bridge", a.short_bridge_source)
     run = json.loads(a.source_run.read_text())
     fixed = run.get("fixed_metric") is True
+    warm = run.get("model_kind") == "warm-supported-material-phase-fixed-metric"
+    if warm:
+        if (not fixed or run.get("terminal_kind") != "original_linear_dn" or
+                run.get("status") != "audited_finite_linear_candidate" or
+                run.get("parameter_zero_meaning") != "log(q_aux/gauge_q)" or
+                run.get("raw_return", {}).get("success") is not True):
+            raise ValueError("Unsupported or unaccepted warm source-run contract")
+        gates = run["gates"]
+        if not (0 < fq(gates["tol"]) <= fq(1e-6) and
+                0 < fq(gates["bc_tol"]) <= fq(1e-7) and
+                0 < fq(gates["physical_bc_tol"]) <= fq(2e-9) and
+                0 <= fq(run["raw_return"]["rms"]) <= fq(gates["tol"]) and
+                0 <= fq(run["original_scaled_bc_max"]) <= fq(gates["bc_tol"]) and
+                0 <= fq(run["linear_dn_physical_bc_max"]) <= fq(gates["physical_bc_tol"])):
+            raise ValueError("Warm source changed or failed the original finite gates")
+        diagnostics = run.get("metric_diagnostics")
+        if not diagnostics or not all(
+                row["angular"] >= 16 * (3 * int(run["modes"]) + 1) and
+                0 <= fq(row["legacy_max_component_fft_l1"]) <= fq(1e-6) and
+                0 <= fq(row["sample_operator_max"]) <= fq(1e-6)
+                for row in diagnostics):
+            raise ValueError("Warm source did not pass its actual metric diagnostics")
+        if sha(HERE / "warm_supported_core_factory.py") != run["warm_provider_sha256"]:
+            raise ValueError("The declared warm provider source changed")
+        if sha(run["origin_design_run"]) != run["origin_design_sha256"]:
+            raise ValueError("The warm branch's actual original anchor changed")
     accepted = (run.get("finite_linear_candidate_pass") is True if fixed else
                 old.prefix_gate(run) and run.get("raw_return", {}).get("success") is True)
     if not accepted or not run.get("solver_success") or run.get("error"):
@@ -256,6 +282,9 @@ def main():
         "status": "accepted_prefix_true_cut_R_trace_enclosed",
         "scope": "Current accepted prefix cut only; full Cartesian tail seam is not asserted.",
         "source_sha256": sha(__file__), "source_run_sha256": sha(a.source_run),
+        "source_model_kind": run.get("model_kind", "original-design-prefix"),
+        "source_terminal_kind": run.get("terminal_kind", "original_linear_dn"),
+        "warm_linear_gate_checked": warm,
         "physical_sha256": sha(a.physical), "ShortBridge_sha256": source_hash,
         "source_port_sha256": port_sha,
         "background_record_sha256": sha(reference_path),

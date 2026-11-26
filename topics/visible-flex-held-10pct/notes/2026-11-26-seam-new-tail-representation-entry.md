@@ -2,7 +2,7 @@
 
 维护：Astra-held10-06bbeb39-20261126 / seam_geometry。
 
-**状态：入口已写，只有源代码编译和独立多项式恒等式检查已执行。尚未收到实际 accepted 新场，因此本文没有新增的 full-H、桥尾匹配、全尾连续误差或闭曲面数值结论。**
+**状态：入口已写；源代码编译、独立多项式恒等式检查，以及使用实际同源文件的完整 R58 背景定义恢复已执行通过。尚未收到实际 accepted 新场，因此本文没有新增的 full-H、桥尾匹配、全尾连续误差或闭曲面数值结论。**
 
 这组入口接原 native 包的实际保存状态、单条原均值链和已有 shared-R 导出方法，不复用 warm-.25 的非旋转场界。大数组、全部阶段数据和完整输出留在公共 runner；仓库只保存代码及实际执行后的小记录。
 
@@ -152,4 +152,8 @@ python scripts/resume_20261126/seam_certify_tail_geometry.py \
 
 若只需立即支付 cut 修补和深锚数据，可先单独导出 `--stages 0,1151`；它仍清楚报告未覆盖整个尾。完整验收必须另实际完成所有段。
 
-本次本地检查：三个脚本 `py_compile` 通过；18 条右端 Hermite 基端点恒等式、4 个精确平方根上界例子及零扰动的 R58 条件 placement 算术通过。未运行任何伪造 accepted packet、旧场重认证或新场数值替代品。
+本次本地检查：三个脚本 `py_compile` 通过；18 条右端 Hermite 基端点恒等式、4 个精确平方根上界例子及零扰动的 R58 条件 placement 算术通过。
+
+实际背景恢复另已完成：同源 factory SHA 为 `740e672…`，Node `v24.22.3`，入口 exit 0，用时 $4.124735$ 秒。全部 160 个有限校准参数和完整规范定义重新得到原 `e764e2…` SHA，随后 oracle 校验通过。新 constants 和 interval-reuse 文件分别有真实新 SHA，详见
+[实际恢复小记录](2026-11-26-seam-true-background-restore-execution.json)。
+这次只恢复同一个已证背景的定义及可用输入，没有重跑旧全积分或旧非旋转场认证，也未运行伪造 accepted packet 或新场替代品。

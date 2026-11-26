@@ -27,6 +27,10 @@ HELPER_SHAS = {
         "51edadb5ca1e2a6c36369c7965788065ff79ab44ce21a219c6d36e3aae896945",
     "export_q060_shared_r_tail_batch.mjs":
         "379848293df82db3125707a07864f4d8a1ce452f82947a84815c3d788fe64f27",
+    "extract_q060_stage_from_native_record.py":
+        "4eecd166b16aa66cd91a520baafb1530950a0462617c126db1ee507c92cb5f8c",
+    "../resume_n4_tail/native_extended/probe_native_frozen_flow.py":
+        "42893f210b6d31c59abd04cdfec415a2408a543f726f87d808fc99cf8fad45db",
 }
 
 
@@ -158,6 +162,69 @@ def validate_packet_states(packet, M, spacing):
         raise ValueError("Incomplete or nonfinite finite state")
 
 
+def validate_native_identity(record, native_manifest, packet, source_port):
+    """Cross-bind actual config, physical metric, ABI and frozen native bytes."""
+    meta, port = checked(record["static_metadata"]), read(source_port)
+    cfg, cp = packet["config"], packet["response"]["checkpoint"]
+    S, M = len(cp["states"]) - 1, cfg["modes"]
+    if native_manifest["schema"] != "n4-native-batch-adapter-v1":
+        raise ValueError("Unexpected original native manifest schema")
+    if meta["manifest"] != record["manifest"]:
+        raise ValueError("Native metadata and actual evaluation bind different manifests")
+    if [row["stage"] for row in meta["stages"]] != list(range(S)):
+        raise ValueError("Native static stage order/count differs from the accepted checkpoint")
+    # These are the reviewed original createCompactTailShooting defaults.
+    # In particular cuspAwareFlow is true ONLY for an explicit boolean true;
+    # absence does not silently enable the current native cusp-aware branch.
+    expected = {
+        "spacing": cfg.get("spacing", 6), "quadrature": cfg.get("quadrature", 128),
+        "steps": cfg.get("steps", 64), "projectionFloor": cfg.get("projectionFloor", .05),
+        "orientation": port["parameters"]["orientation"],
+        "cuspAwareFlow": cfg.get("cuspAwareFlow") is True,
+    }
+    expected.update(M=M, stageCount=S)
+    if any(meta["scope"].get(k) != v for k, v in expected.items()):
+        raise ValueError("Native static scope differs from the actual accepted config")
+    if any(meta["scope"].get(k) != v for k, v in native_manifest["fixed_scope"].items()):
+        raise ValueError("Original native manifest scope differs from its static metadata")
+    if meta["physicalParameters"] != port["parameters"]:
+        raise ValueError("Native mean chain belongs to a different physical metric")
+    if meta["original_scalar_and_variational_grid_bytes_equal"] is not True:
+        raise ValueError("Original scalar/variational grid identity is not established")
+    if type(record["withJac"]) is not bool:
+        raise ValueError("Native Jacobian flag is not an explicit original boolean")
+    data = Path(record["input"]["path"]).read_bytes()
+    if hashlib.sha256(data).hexdigest() != record["input"]["sha256"]:
+        raise ValueError("Actual native input bytes changed")
+    N, spacing = cfg["quadrature"], cfg["spacing"]
+    nq = N // math.gcd(N, spacing)
+    if (data[:8] != b"VFN4LD01" or len(data) != meta["counts"]["inputBytes"] or
+            struct.unpack_from("<9i", data, 8) !=
+            (1, M, N, spacing, nq, 30, 20, S, int(record["withJac"]))):
+        raise ValueError("Original native input ABI or finite scope differs")
+    token = hashlib.sha256(data[:44] + data[108:]).hexdigest()
+    if data[44:108].decode("ascii") != token or token != record["payload_token"]:
+        raise ValueError("Original input payload token does not hash its actual bytes")
+    if struct.unpack_from("<4d", data, 108) != (expected["projectionFloor"], 8e-14, 5e-12, 1e-300):
+        raise ValueError("Original native root floor/tolerances changed")
+    if sha(record["output"]["path"]) != record["output"]["sha256"]:
+        raise ValueError("Actual native output bytes changed")
+    source_refs = [*native_manifest["owned_sources"],
+                   *native_manifest["native_files"].values(),
+                   *native_manifest.get("runtime_libraries", [])]
+    for reference in source_refs:
+        if sha(reference["path"]) != reference["sha256"]:
+            raise ValueError("Bound native source/binary/runtime changed: " + reference["path"])
+    return {
+        "status": "actual_native_scope_metric_abi_and_payload_cross_checked",
+        "metadata": record["static_metadata"], "manifest": record["manifest"],
+        "input": record["input"], "output": record["output"],
+        "accepted_state_vectors_checked": S, "native_source_runtime_files_checked": len(source_refs),
+        "original_scalar_variational_grid_identity": True,
+        "original_root_gates_changed": False,
+    }
+
+
 def index_shared_nodes(manifest_path, mean_chain_path, outpath):
     manifest, chain = read(manifest_path), read(mean_chain_path)
     if manifest["status"] != "selected_stages_share_one_literal_R_C2_definition":
@@ -226,6 +293,7 @@ def export(args):
     native = select_native(packet, args.native_record, args.native_record_dir)
     native_data = read(native)
     native_manifest = checked(native_data["manifest"])
+    protocol = validate_native_identity(native_data, native_manifest, packet, args.source_port)
     source_topic = Path(native_manifest["source_topic"])
     for name, digest in packet["source_sha256"].items():
         if sha(source_topic / "scripts" / name) != digest:
@@ -238,6 +306,7 @@ def export(args):
         "status": "running", "source": ref(__file__),
         "accepted_packet": ref(args.tail_response), "source_port": ref(args.source_port),
         "native_record": ref(native), "height_identity": height,
+        "native_protocol_identity": protocol,
         "original_accepted_gate": {"converged": True, "residual": response["residual"],
                                    "solveTolerance": packet["config"]["solveTolerance"]},
         "source_files": packet["source_sha256"], "finite_scope": {"M": M, "quadrature": 512, "spacing": spacing},
