@@ -294,3 +294,5 @@
 - [R576函数尺度实际续解](notes/2026-11-26-r576-function-space-continuation.md)：新单lane完整保已付内口/参考H*/52q，只换实际height jets限步及真实下降/预测比回溯；同空间停滞才一次68维局部扩充，零新列保原高度。内Riccati/shoot不复跑，全部实际位置检查和费用保留，尚无新结果。
 
 - [分批B030原终态](notes/2026-11-26-theta-batched-b030-original-terminal-receipt.md)：**完整原观察**。295.608894049新秒，终651候选全定位，η.265137352907/V0，actual450/1021与未采用494/1129分开；首次真实1024峰库cap，0自然后端返回。全部原候选保留的分批已工作，下一扩真实峰库并续同q，非主门。
+
+- [R582真实圆核种子与undivided返回实现](notes/2026-11-26-r582-actual-circle-seed-return-implementation.md)：新单lane真实17q及新两控制，准确P/ε、真实端口六jets与完整两行C²返回表示；全细几何/失格撤回及中断best完整保存。保守θ谱上界、SVD条件与同均值线性细化范围明确，尚无新种子数值/共振或有限族。

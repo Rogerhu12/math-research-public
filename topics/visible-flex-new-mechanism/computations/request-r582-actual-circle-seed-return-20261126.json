@@ -1,0 +1,79 @@
+{
+  "schema": "r582-actual-circle-flat-seed-undivided-return-request-v1",
+  "repository": "Rogerhu12/math-research-public",
+  "queue_session": "Astra-new-mechanism-0105020f-20261126",
+  "expected_readme_blobs": {
+    "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+    "topics/visible-flex-new-mechanism/README.md": "d0432faff569c8e9af7ed4809847e12880976c11"
+  },
+  "expected_private_readme_blobs": {
+    "README.md": "5ba164843b1f5802184178a82d786264404873a3"
+  },
+  "public_rules_read_commit": "907b15b2ae037147f369df8030dbc0e6bf85606e",
+  "private_rules_read_commit": "739f658f575a7652d640bf82386814df0cb0f7a8",
+  "runtime": {
+    "checkout_action": "11d5960a326750d5838078e36cf38b85af677262",
+    "packages": {
+      "numpy": "2.3.5",
+      "scipy": "1.17.0"
+    },
+    "python": "3.12.14",
+    "setup_python_action": "a26af69be951a213d495a4c3e4e4022e16d87065"
+  },
+  "entry_point": "topics/visible-flex-new-mechanism/scripts/r582_actual_circle_seed_and_return_20261126.py",
+  "workflow": ".github/workflows/visible-r582-actual-circle-seed-return-20261126.yml",
+  "common_parameters": {
+    "M": 168,
+    "rtol": 2e-11,
+    "atol": 2e-13,
+    "max_step": 0.15,
+    "tolerance_refinement": 8,
+    "return_basis": 24,
+    "return_radial_nodes": 257,
+    "geometry_radial_nodes": 513,
+    "maximum_control_iterations": 60,
+    "maximum_control_exchanges": 4,
+    "maximum_log_radius_control": 0.04,
+    "maximum_height_control": 0.06,
+    "maximum_seconds": 1800
+  },
+  "lanes": {
+    "actual-circle-compact-return": {
+      "source_state_json": "{\"schema\":\"identified-circle-stage-zero-for-actual-flat-seed-v1\",\"origin\":{\"run_id\":45778418134,\"job_id\":139767648038,\"stage\":0,\"source_commit\":\"668a3f6c6aee92b00c5ca547dd7677d257d0cdc0\",\"stage_JSON_bytes\":21505,\"stage_JSON_sha256\":\"a78102463e4a816d00e000c969372af423a41ee93ab4996574b16048265b9324\",\"original_log_UTF8_bytes\":1042984,\"original_log_UTF8_sha256\":\"7a1a626217d090742fed665049c96c4124a49b68d0d051c85fa6d305765f964d\",\"source_whole_scientific_run_seconds\":2401.8924319029998,\"source_circle_stage_seconds\":2.981966937},\"q\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.35001924628214787,-0.3531732092117735,-0.3244617668413918,-0.43706812962213554,-0.5435744674362258,-0.3821726524975292,-0.5654097637847235,-0.5041937321653266,0,-0.0013474117462880936,-0.09175492884312668,-0.15680738719807807,-0.05955223441757437,-0.19856521037391323,-0.5877276747743894,0.09658185324267708,0.6747017055797783],\"actual_last_backend_radial_nodes\":[0,0.01875,0.036,0.0375,0.056249999999999994,0.075,0.09375,0.11249999999999999,0.13125,0.15,0.16874999999999998,0.1875,0.20625,0.22499999999999998,0.24375,0.253125,0.2625,0.28125,0.3,0.31875,0.32399999999999995,0.33749999999999997,0.35625,0.375,0.39375,0.4125,0.43124999999999997,0.44999999999999996,0.46875,0.4875,0.49687499999999996,0.50625,0.515625,0.525,0.54375,0.5625,0.5812499999999999,0.6,0.612,0.61875,0.6281249999999999,0.6375,0.6398437499999999,0.6421874999999999,0.64453125,0.645703125,0.646875,0.6515625,0.65625,0.6609375,0.6656249999999999,0.6703124999999999,0.67265625,0.6749999999999999,0.69375,0.7125,0.7218749999999999,0.73125,0.740625,0.7453125,0.74765625,0.75,0.7687499999999999,0.7875,0.80625,0.8200000000000001,0.825,0.84375,0.8624999999999999,0.88125,0.9],\"last_pending_radial_nodes\":[0,0.01875,0.036,0.0375,0.056249999999999994,0.075,0.09375,0.11249999999999999,0.13125,0.15,0.16874999999999998,0.1875,0.20625,0.22499999999999998,0.24375,0.24843749999999998,0.253125,0.2625,0.28125,0.3,0.31875,0.32399999999999995,0.33749999999999997,0.35625,0.375,0.39375,0.4125,0.43124999999999997,0.44999999999999996,0.46875,0.4875,0.49687499999999996,0.50625,0.515625,0.525,0.54375,0.5625,0.5812499999999999,0.6,0.612,0.61875,0.6281249999999999,0.6375,0.6398437499999999,0.6421874999999999,0.64453125,0.645703125,0.646875,0.6515625,0.65625,0.6609375,0.6656249999999999,0.6679687499999999,0.6703124999999999,0.67265625,0.673828125,0.6749999999999999,0.69375,0.7125,0.7218749999999999,0.73125,0.740625,0.7453125,0.74765625,0.748828125,0.75,0.7687499999999999,0.7875,0.80625,0.8200000000000001,0.825,0.84375,0.8624999999999999,0.88125,0.9],\"all_actual_and_pending_radial_nodes\":[0,0.01875,0.036,0.0375,0.056249999999999994,0.075,0.09375,0.11249999999999999,0.13125,0.15,0.16874999999999998,0.1875,0.20625,0.22499999999999998,0.24375,0.24843749999999998,0.253125,0.2625,0.28125,0.3,0.31875,0.32399999999999995,0.33749999999999997,0.35625,0.375,0.39375,0.4125,0.43124999999999997,0.44999999999999996,0.46875,0.4875,0.49687499999999996,0.50625,0.515625,0.525,0.54375,0.5625,0.5812499999999999,0.6,0.612,0.61875,0.6281249999999999,0.6375,0.6398437499999999,0.6421874999999999,0.64453125,0.645703125,0.646875,0.6515625,0.65625,0.6609375,0.6656249999999999,0.6679687499999999,0.6703124999999999,0.67265625,0.673828125,0.6749999999999999,0.69375,0.7125,0.7218749999999999,0.73125,0.740625,0.7453125,0.74765625,0.748828125,0.75,0.7687499999999999,0.7875,0.80625,0.8200000000000001,0.825,0.84375,0.8624999999999999,0.88125,0.9],\"source_actual_trust\":3.796875,\"source_next_trust\":4,\"source_geometry_grid_status\":\"75 proposed nodes finally scanned; last backend 71 nodes\",\"source_is_finite_circle_geometry_not_noncircular_family\":true}"
+    }
+  },
+  "source_sha256": {
+    "topics/visible-flex-new-mechanism/scripts/inverse_flat_oscillatory_tail_20261126.py": "b9c778fbeafb0d9beb061b3f472b8db1661daec5a78a63eb886a8e4770574f9b",
+    "topics/visible-flex-new-mechanism/scripts/inverse_rotational_metric_20261126.py": "e25dff6a411e8edc485babe6545087cfbea2b6d16cd804e6dcb51f17d8fab319",
+    "topics/visible-flex-new-mechanism/scripts/run_inverse_rotational_metric_20261126.py": "a97334fb7004ce750c0c949469be2db21ca7a187e53b48032dba2f330cf5e8ae",
+    "topics/visible-flex-new-mechanism/scripts/r582_actual_circle_seed_and_return_20261126.py": "fd4bd864c3e9e96d741b7bc896a1bf6f9d50ba54eda0c02bd898f21bd42427a4",
+    ".github/workflows/visible-r582-actual-circle-seed-return-20261126.yml": "b637852adb7583c993a9714d10c7abbe3a79386853109b31fab53974d9c5b67b"
+  },
+  "scope": {
+    "source_circle_stage_not_reoptimized": true,
+    "actual_17_mean_coordinates_not_zero_background": true,
+    "actual_weight_and_actual_stationary_points_recomputed": true,
+    "exact_DtN_truncation_bound_distinct_from_numerical_ODE_error": true,
+    "M_and_tolerance_comparisons_charged_in_same_new_run": true,
+    "compact_new_mean_control_support": [
+      0.06,
+      0.8
+    ],
+    "tail_mouth_requested_s": 0.82,
+    "new_controls_do_not_modify_the_seed_tail": true,
+    "core_return_uses_undivided_two_equations": true,
+    "C2_core_and_tail_jets_enforced": true,
+    "geometry_hard_constraints_and_complete_fine_acceptance": true,
+    "linear_field_refinement_at_frozen_new_mean_controls_only": true,
+    "finite_nonlinear_isometric_family_claim": false,
+    "fixed_metric_refinement_claim": false,
+    "continuous_reach_claim": false,
+    "README_completion_claim": false,
+    "scientific_execution": "this public Actions workflow only",
+    "maximum_parallel_jobs": 1,
+    "job_timeout_minutes": 50,
+    "cooperative_scientific_checkpoint_seconds": 1800,
+    "original_stdout_only": true,
+    "artifact_release_git_or_cross_run_cache_writes": false
+  }
+}
