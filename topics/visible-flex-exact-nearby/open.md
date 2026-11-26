@@ -151,7 +151,7 @@ G以S/T E1856给physical C²整盘/曲率<2/径长<8e−6及同world position/no
 
 ## 8. 当前实际执行和后继
 
-2026-11-26更新。此前本节全记录逐字保[35c59f45a19bad429fb46b09d562c8d30f067b94原open](https://github.com/Rogerhu12/math-research-public/blob/35c59f45a19bad429fb46b09d562c8d30f067b94/topics/visible-flex-exact-nearby/open.md)，前七节全部义务与原proof scope不变。
+2026-11-26更新。本次压缩前全记录逐字保[0b6458992907e2349c6798cc01779736c90b95d7原open](https://github.com/Rogerhu12/math-research-public/blob/0b6458992907e2349c6798cc01779736c90b95d7/topics/visible-flex-exact-nearby/open.md)，其中更早35c59及全部原proof链接继续有效；前七节所有义务与scope不变。
 
 | 路线 | 实际状态与下一项 |
 |---|---|
@@ -169,14 +169,13 @@ R143 correlated body已全4651；R146全418/13376使当前CV/RA根费格式失�
 
 [CS新中心完整源](results/R144-supplement-compact-centre-ordinary-and-divergence-residual.md)已证exact ordinary/divergence分解，径向常数Δκ只从angular flux准确消去、仍在ordinary项；原Rv−jR0及ξχ′完整保。五个新局部积分量消费actualρ/b后可执行；first-row H−2/3不免费删角导数，384^1/3费与所有rawjump/physical composition仍保。
 
-[TM terminal→normalized constant](results/R144-supplement-terminal-mean-small-ball-controls-normalized-forward-constant.md)已证：同ξ=0 terminal q0满足完整CP球时，Dbar=Yf(0)−Yt(0)；以原saved D0、t=b_w/m*得|Dbar|≤d0+(1+d0)t(2−t)/(1−t)²。原waist L2 rawmean源可收紧b_w。继而sameρ二次root、统一mean球与density门分开实际核；不必重forward/W，actual45791979634/1已通过全部mean/root/density门，独立sameφ距离门false；旧forward及新mean结论各保持范围。
+[TM terminal→normalized constant](results/R144-supplement-terminal-mean-small-ball-controls-normalized-forward-constant.md)使用真实terminal球与waist L²界控制Dbar，保全部CP/source/jumps；actual45791979634/1已完成unique-root、统一mean/density，旧粗sameφ门false留原件。LC已另完成更紧C0，不重forward/W。
 
 [PS完整父段源积分续接](notes/2026-11-26-R142-streamed-defect-execution.md)：proof/pure及owner/generator已全核，复用原worker；85pins/14bindings，只在真实未成R142全件结束且defect=null后建入口。每母格三积分整件保存读回，再推进全输出/193atoms游标；已接受源域不重复moments。任何已有完整六球优先消费，旧count/hash不授积分前缀；未建actual manifest。
 
-TM首次具体入口已接：11个完整小输入、旧D0与精确waist L²字段，5个保存读回阶段；manifest acb8c78b307d25a142b776e7fbb225172098f37c92230fc53ef7301870d1f41f。无native/ODE/旧科学，actual小根及uniform mean/density门已true并锁定；sameφ C0充分门false、physical-C0/selectedphase仍独立。
 
 几何输入的坐标资格已完整核原C.1/B.1：ε=max(||δu||C0(r,φ),||δv||C0(r,φ))，是未除α、保mean的完整moving状态。新compact mean的u同φ准确不变，v可用b sup jξ+ρ sup χ|v−m|；固定θ复合是另一量，仅按实际物理端口需求支付，不误增B.1前件。此处未给新数值门。
 
 [LC localized全状态/完整源](results/R144-supplement-localized-full-state-C0-and-compact-source-receivers.md)及[实际入口](notes/2026-11-26-R144-localized-full-state-and-compact-sources-contract.md)全核并首启：19当前/10历史、7721行/6143join/27球，manifest862c70975a9ac155404e7f80c3dc9f00a634be68a5c72facbdd91207d97c581d。同φ E=bJ+ρχW_A区外保mean，CS五完整源和χ′质量/全jump同时保存。[actual45797426031/1](results/R144-supplement-actual-localized-full-state-and-compact-sources.md)27球完整，C0门true；五源/完整跳跃锁定，anisotropic pair显示约2.926756632289e−5。checkpoint整bytes/球contains/accepted trace全验，未来GC修正须另加。旧TM/Γ/原残差不重。
 
-[TC真根连续96试列](results/R149-supplement-true-root-continuous-PDE-trials-and-complete-residuals.md)已核：同selected窄δ、原7721整η third-jet载体、真r* Hermite even96=I/全根共享、零外端和完整χ′、288全支持/5 source窗/两mean腰与RW signed配对。独立trial-only kind可先算已定义有限对象；SC真列误差/真矩阵入口仍只在完整P224后执行，无actual成功声明。
+[TC真根连续96试列](results/R149-supplement-true-root-continuous-PDE-trials-and-complete-residuals.md)的math/proposal/inputs纯模块已双核并保存：原Box/FFT API、exact repair链、whole7721 η third-jets、true-root共享/outer cutoff、288支持/5 source窗/两mean/RW signed配对完整。固定certification质量须正Fraction；signed finite pairing只收零uniform-error的完整density。独立trial-only owner在接全96同格累积，未运行；SC真列误差/真矩阵仍只在完整P224后执行。

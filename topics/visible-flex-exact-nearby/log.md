@@ -123,3 +123,7 @@ run45797426031/1，event ed2dcbc7/actualcheckout34221b7d，10:02:10–10:02:37�
 ## 2026-11-26 10:10 UTC：旧HANDOFF全文可恢复归档
 
 46份Nov14旧HANDOFF全稿已完整读取并核bytes/blob/SHA，原件固定提交351c695824be817fb5da66e6558753fa0193cca1；root在67a5b618重新逐件核当前原件未变、每个恢复入口的完整字节/身份/永久URL。450771B改为36822B，净释放413949B，最大完整stub827B。12份当前manifest以及PN/CXN/PS/LC待机源码均无这些输入路径/文件名依赖。只将重复历史页改为同路径完整原文链接及精确git show恢复命令；原义务/失败/结论范围全部保，未动科学actual/native、活动输入或历史。为后续TC与正在运行的完整结果留出容量；未将32376B发布映射存进topic。
+
+## 2026-11-26 10:16 UTC：TC全96试列纯计算和输入闭包保存
+
+TC有向核心26193B SHA1131c70ad0f568a692321dd2aab9de76b194aa5abb3f160924ab3befa290771c、dyadic proposal12027B SHAa50faff5db45a96cd2fb8ffa7b9e0881d7df992d1e67ae7b587efed7feb49025、输入helper19454B SHA4409dd3c8733972e3d9479ef6449ab85b39f2d2900cd5fe4376dda5cd335c826已逐行保存。root/global分别核完整trueh Hermite、原Box/CBox/FFT轴/normalization、全288 residual、Legendre真实质量、mean rank/两个waist mean、physical/incoming signed pairing。补强certificate length是正Fraction及配对density零uniform-error准入。helper只读原40parts/7721whole payload，精确恢复α一次的Q0及不乘α的Z；全部旧target仍不调用。这里只落已审纯模块，不伪造actual或启未知P224依赖；新trial-only owner继续接完整径向前缀与signed矩阵读回。
