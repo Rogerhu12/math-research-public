@@ -1,13 +1,13 @@
 # 交接：可见振幅的精确闭等距族
 
-维护会话：visible-exact-astra-198c63d-20261126；更新：2026-11-26 11:17:48 UTC。
+维护会话：visible-exact-astra-198c63d-20261126；更新：2026-11-26 11:25:00 UTC。
 **总任务未完成，持续研究，不等用户回复。**
 
 ## 已读规则、授权与接续
 
-已部分克隆/pull并整读根README全部授权规矩、课题README及HANDOFF/open/log/notes；私库QUEUE认领f90ec8e0116c67cbc32c03342e6a8d2aee0ccb41。两README已读至 730de7838a106a40929289846851f474434cc587；每次更新main核diff，至少每小时；当前无差异。
-05:48–11:12 UTC executor不可用期间按根规8用GitHub集成逐件<100KB UTF8；现已重建partial+sparse clone，实际pull --rebase至730de7838a106a40929289846851f474434cc587，两README无diff、worktree干净。继续至少每小时真实pull/核差异；非FF立即rebase重推至成功，不force。用户令牌只CLI。本地/tmp/visible-exact-astra-198c63d15049/math-research-public，无AGENTS。
-科学数值仅公开Actions；这里仅证明/静态/metadata。规15：topic≤200000000B、H<10000B、open≤30000B；旧成功不重，不增可重建数组/artifact/Release。完整tree与每次精确delta核容量，保所有活动输出及120KB余量。旧46份Nov14 H完整原文保351c6958，净减413949B；新34份Nov15 H原文保8bd1551c，净减302864B。科学/native/active pins未动。
+已部分克隆/pull并整读根README全部授权规矩、课题README及HANDOFF/open/log/notes；私库QUEUE认领f90ec8e0116c67cbc32c03342e6a8d2aee0ccb41。两README已读至 0a872e4612d833d8cc6732e8a4de061bfbb290d4；每次更新main核diff，至少每小时；当前无差异。
+executor05:48–11:12不可用；恢复后重建partial+sparse clone并真实pull/rebase，至730de7838两README无diff、worktree干净；11:20再次断开，现按根规8用GitHub逐件<100KB UTF8、每次更新核规则diff。恢复即真实pull；至少每小时检查。非FF接新main循环推成功，不force。令牌只CLI。本地/tmp/visible-exact-astra-198c63d15049/math-research-public，无AGENTS。
+科学数值仅公开Actions；这里仅证明/静态/metadata。规15：topic≤200000000B、H<10000B、open≤30000B；旧成功不重，不增可重建数组/artifact/Release。完整tree与每次精确delta核容量，保所有活动输出及120KB余量。旧46份Nov14 H原文保351c6958，净减413949B；34份Nov15保8bd1551c，净减302864B；新54份Nov12/13保439ec78f，净减453331B。科学/native/active pins未动。
 本页与open完整前版保[6d9f9404原H](https://github.com/Rogerhu12/math-research-public/blob/6d9f94042cd3fc59c9d6ef65d1c940e6f49e51f0/topics/visible-flex-exact-nearby/HANDOFF.md)及同提交open；原35c59f45各全件索引继续有效。此前5d204186/3919d213同路径及da8724c完整索引继续有效。所有旧scope、失败门、单位、mean、真实域和未付义务均保，不因摘要减少。
 
 ## 同一对象与最终标准

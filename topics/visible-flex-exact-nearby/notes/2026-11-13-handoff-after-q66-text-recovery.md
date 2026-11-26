@@ -1,71 +1,19 @@
-# 交接：可见振幅附近的精确等距解
+# 完整历史 HANDOFF 原文入口
 
-visible-exact-astra-ac0d，2026-11-13 22:40 UTC。主目标未完成，持续研究。
+本页保留旧交接全文的不可变入口；不是对其科学结论的摘要。原文中的全部义务、失败、未付门和旧成功禁重要求仍按完整原文适用。
 
-## 规矩与同步
+[阅读完整原文](https://github.com/Rogerhu12/math-research-public/blob/439ec78f4f7685969f9bce2d7f86eb848646684d/topics/visible-flex-exact-nearby/notes/2026-11-13-handoff-after-q66-text-recovery.md)
 
-根及题README已读；最后实际pull核对70820829092fa46ddf943a968509a85e9941b7ee。环境失效后经GitHub逐字比较afda9a25260a3fa409ece81c8550ac66df37dd14双README均不变；API核对不是实际pull。
-每次真实pull --rebase立即diff双README；有变只读差异照做并记SHA，至少每小时pull。每结论独立commit/push；非FF立刻pull/rebase/普通push循环，不force。PAT仅瞬时CLI。
-root独占Git/H/open/results/log；代理只新文件。helper活跃时不改任何tracked文件（否则rebase阻塞），只写新源/新结果。根LOG停写。H<10000B、md<100KB、open尽量<30KB，>1MB压缩、单件≤5MB。只add指定件。规矩11：可重建大中间不重复入Git，存源/参数/hash；最终证明必要候选另论。规矩13不设freeze/独审/重复核验，完整证明/必要严格计算完成即推。
-repo=/workspace/scratch/ac0d699811ad/math-research；topic=topics/visible-flex-exact-nearby。数值PYTHONPATH=/workspace/scratch/ac0d699811ad/python-deps，OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 PYTHONDONTWRITEBYTECODE=1。
-终端恢复后仍用scratch push_ready_conclusions.py/sync_push_native.py，逐条真实pull/rebase/diff/push。API阶段只传小文本，fresh main为父且禁止force。进程必须看到真实exit才授结局，失句柄不猜原因。
-partial promisor/blob:none，不hydrate全库、不手删indexed pack；支持MIDX及prune-packed仅已推记录的动作。共享磁盘可波动，不把变化擅记为自己释放。
-queue1–65全推，65末c4958b0fda40acfb91cc0421ada526876957fea8（helper26436实际exit0）。完整H链notes/2026-11-13-handoff-after-queue64-complete.md→63→62等。open旧历史through-queue57、results旧through-queue47。已完成不重做。
+- 原提交：`439ec78f4f7685969f9bce2d7f86eb848646684d`
+- 原路径：`topics/visible-flex-exact-nearby/notes/2026-11-13-handoff-after-q66-text-recovery.md`
+- 完整 UTF-8 字节：9969
+- Git blob：`45f3e26ad704ab9029574f1635405c80bb84de94`
+- 完整 SHA256：`79937761fc297eb634d5b563f92150bee9985a2c40b1edbb8736dbe6be9021ec`
 
-## 真正目标与对象身份
+精确恢复完整原文：
 
-一个公共精确度量、连通闭C²嵌入族且C²连续；D=diam F0，闭H有内点/diam≥.2D/逐点固定，未对齐全像held≥.05D，含反射E(3)的δE>0，每时reach≥.03D。纯相位像只是刚体旋转；同族四个不同非共面固定曲率marker仍须付（R17及2026-11-12-current-family-fixed-curvature-marker-budget）。未全部达到前不断接open。
-原对象SHA91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848，δ*=−7789843107295549/4611686018427387904，旧wholeη±1e−9。新Eν=Eexp(νh)，h=4096t^6(1−t)^6支持(.05,.18)，a不变。ν/腰/deep任何变动皆新候选；旧g0精确R131环带/旧几何不得转授。最终共同参数t是phase族；当前center后验η=0，不能写成wholeη。
+```bash
+git show 439ec78f4f7685969f9bce2d7f86eb848646684d:topics/visible-flex-exact-nearby/notes/2026-11-13-handoff-after-q66-text-recovery.md
+```
 
-## root当前主中心与实际在跑
-
-**完整新主中心** ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413，文件/dev/shm/visible-exact-ac0d699811ad/moving-m32-alpha0765-fullR-v2-tol2e9-candidate.json。6145节点/全部M32 movingφ/512角，真实r[0,25/8]；ν=−2572625729470897/72057594037927936，α=6890507429876859/9007199254740992。25874实际normal0/finite true、RMS1.999907e−9、BC1.405e−16，两个完整FFT门2.782e−14/9.847e−16。全部24577点3M采样physical B2.931e−8/C1.995e−7，不是连续证书。
-源moving_regular_endpoint_probe/system/warm_start/diagnostic全新独立文件。原cut1.5完整body保留；cap仅初猜后全方程校正，未外推。原97005为tracked共享诊断改动阻塞rebase主动Ctrl-C130，原process/log/attempt1源/patch保；共用旧源已恢复，不再改正在运行依赖。
-
-**执行环境不可用，未完成部分必须恢复/重做**：2026-11-13 22:33后平台明示unavailable；root三个exec均transport disconnected/recovery timed out45s。无可用重启接口。GitHub集成可读写小文本；按根8仅传文本/<100KB，不读写binary或分块数据。正准备有界GitHub Actions重算所缺原生输出，使用终端Git发布；尚未声称runner已经启动。
-连续后验7296闭单元的旧80112/78103/88297/37027均失句柄，最后已见完整行272/208/224/208共912；原日志、原子prefix及逐字副本已落本地但未推。新64行×3正常分片监督器38642/81509/33568/11767本次四者实际exit247，不能猜OOM/137/数学失败，不能声称新增行已成。源native_row_process_slices.py仍未推；已推moving_residual_checkpointed/continuous_residual与first8可直接重建。唯一远程已保存完整prefix为首8，余行若本地不恢复就实际重算。
-旧fullR物理角几何9687同为失句柄，最后r≈.54743，最终floating报告未见；不是完成。新smoothφ连接几何消费者尚未写。旧cut1.5几何仍仅采样候选。
-失效及每条已推身份见notes/2026-11-13-runtime-unavailable-after-queue65.json。
-
-**新精确moving frame**：τ=dv/m−γu；r连接(p,q,t)=(βτ/γ,a(γKv+du/m),ad/m)，φ连接(A,B,C)=(βv/(γm),au/m,a/m)。完整残差Ru/Rv/R0给三曲率β/(γm)(Rv−vR0/m)、a/m(Ru−uR0/m)、−aR0/m²；position torsion同第二式的v分量。原1/v峰在连接准确取消，全部mean/source/接缝/两基本型及正交无指数源传播证明已写，9个exact rational门全过。root接用该smoothφ连接的几何consumer和完整jump/连续C0费；真实曲率vgap仍不省。
-
-旧.75/.765 cut全候选/已知ENOSPC、六个实际137原因未知、失句柄及原M256 step02完整续成均在H64及原notes。M256 step02 slice29半步accepted，ν−2699017768149991/72057594037927936，RMS.001176/BC.000943仍false；三原fullRHS齐，主线已切新moving，勿盲跑step03。所有大candidate/index/shardhash按对应reconstruction重建，不重复Git大数组。
-
-## newton_source：当前真实端口
-
-真ν型域[-1/16,-1/40]及全原root/正型已证；唯一根.2383968742994<r*<.2383968743003，ν支持外准确不变。旧.75 moving1528盒/1013真jump完整L2/H1/分数阶/外strict已推，不自动转新中心。
-已推真R25/8 q256/allη/全m0<q<1及非零真实尾：proposal≈.9999999999993694、误差<9.149587e−18。假设实际physical Z A0≤1e−10、fB≤2^-60，完整long收缩<.000147457、B余<1.638401e−14/mean<2.048001e−15；raw高度/另一端F仍欠。真strong-tail身份见原R119，不默换新第二bump。
-全域target源 fourfold_codazzi_full_body_graft_target_jets.py / ReciprocalFullTargetJets给γβK s第三jets；原body六jet/∞尾、真natural graft fullWiener齐。r=3按真实单侧，不跨germ。7闭盒/3右迹pilot正常0，已推。
-newton最终ac1d… actualR实际session39823 normal0/12.349s：全physical Z<2.533e−13、true Robin<1.256750e−15、j>32<6.663e−21；预定1e−12球加非线性后<1.258388e−15/mean<2.048004e−19，Bmean0。source/proof已由原工具输入准确恢复并现发布；原native未推需实际重算（不伪造原字节）；source SHA aa98cdd2289b13ac125a0bdb193faa9ae389b566d9a561c0b0e93208d29937f1，J128/N512/320bit/σ1/8/τ0。新双bump尾身份已付，外fB/height/另一F未省。继续新中心strict能量/全逆。
-
-## phase_inverse：新中心全根块
-
-旧.75完整fold/Airy32、balanced宽2^-36、fixed-r两向H1合同/全部源已推。最后共同片真实strict→Airy合同已完成待q65推；有导数损失，不能当同空间全反馈。
-已转新ac1d…center，真joint复r1e−5、movingφ1/1024、physicalθ1/8192的完整逆图10门实际normal0：v复gap>.448887、inverseκ<.599104，m/m′及physical导数0..4/全Jacobi两行齐。该germ已q65推；同中心fold/Airy/fixed-r新consumer27门实际全过：foldJac>1.180435，inverseLip<.033367722，balanced<.028684969，physicalH1→Airy<32.817996，canonicalH1→physicalL2<4.528367。新source/proof已恢复并发布；原native未推，SHA34aeb2a304d2ac814524b0e90553852bbea895b806b5cf26b64d11af46c41844，仅需实际重算小consumer。续正区全图/全BVP。被动拉回physical Jacobi保持全部true θr/加权mean，不能把moving变分非局部项暗省。
-
-## tail_connector：新双参数尾及全网络
-
-原8193后K2^128/ζ131强尾、全标签/C²平端/源/mean/CK/KAM/固定Γ0已推，94次宽损Newton余2^-5760041760非0，未授收敛。第41–42束外Schur/fullweak/真实raw Wr=-1/λm=e^(ML)/sqrtM已付；旧全reference Green仍损2080宽，非同权内部逆。
-第43真实第二compact bump准确保持主Θ，改完整首phase；第44全正双根Airy/fullDN无遗漏1/M首相位；第45两个负根Maslov/strict/fullDN已得真实ω=−8S、β=−b/2及全row M^-4/3余。第46完整双参数全频算术28门已q65推：全n gap>1/(128Ni|n|)，实际高块Neumann<2^-30；所有低块/mean/source/外接口仍须付。
-第47新双bump真实全标签/第四线/好集/actual lambda重实例已ready，排版修订请取最新文件；实际d4∈(14,15)，新lambda4=−4ω与全m指数fee，不能免费绑定旧对象。代理继续真实低Schur/联合非径向β参数行/全F，而非只给高块。
-
-## 下一消费者
-
-1. 聚合7296真闭盒与全部原接口，保全A0/A1/高模/mean，不把部分native写成whole。
-2. 直接消费新moving无峰frame连接，付连续位置/法向/全域σ/κ/D/held；有边/采样/未闭合只能作候选预算。
-3. phase/newton接最终中心真正全频/全源/全mean BVP逆及非线性；tail接实际全F/同权内部网络。
-4. 同最终族接真正闭帽、四固定marker、H/held/含反射非全等/reach，全部满足才收尾。
-
-## 本轮后续已完成结论
-
-- q65/真R25/8 .765 finite true6145nodes，中心ac1d5b98…；全连续/几何在跑。
-
-- q65/完整moving连续核及首8真闭盒已证，四片续成不重做已成行。
-
-- q65/完整moving frame、mean/source/torsion及接缝恒等式已证。
-
-- q65/旧.75共同片真实端口完整收束；phase已转新中心完整consumer。
-
-- q65/第46束完整真相位全频算术及高块已付；低Schur未省。
-
-- q65/新最终中心真实joint physical复域已付，phase续完整fold/图。
+2026-11-26 已独立核对原全文、字节数及两项完整身份；为本课题正在推进的完整输出释放容量，原科学结果与历史原文未改。
