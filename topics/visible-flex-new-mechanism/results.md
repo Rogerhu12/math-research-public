@@ -408,3 +408,5 @@
 - [B030工作行真实终态及完整证据恢复](notes/2026-11-26-r566-working-rows-natural-final-and-log-recovery.md)：**0接受的实际失败**；2370.471193446秒/326Jac主要耗在322次working不可行拒绝，原81q/571圈/1276峰及trust.3003387451171875保留；0fine/0定位，不以未接受epigraph计进展，下一真实可行性回溯后仍付全部物理门。
 
 - [R606 连续角主控、turning根与metric传播](results/R606-weighted-fourier-majorants-continuous-turning-and-metric.md)：**已证明**从真实有限径向系数给全部六jets的加权Fourier代数界，严格alias及离散到连续根包围，再用非零At/M谱和正权均值付实际metric；保完整低模残差、均值约定与core根误差六jet链。真实径向/ODE/DtN/舍入输入仍须另付，不把现有网格授连续资格。
+
+- [R607 prepared中心两侧首层的正四阶相容](results/R607-positive-prepared-center-leading-energy-layer.md)：**已证明（有限阶）**真运动学/完整M给显式c∈(1/6,3/4)、k‴=6和同λ>0，使B±−λm=O(s⁶)，包括Q一阶的五阶差准确清零；m正支真实实现。没有授准确首层全程、原有限宽度ruling或返回。

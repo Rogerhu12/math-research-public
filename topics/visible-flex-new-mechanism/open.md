@@ -471,3 +471,7 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 ### B030 真保留态的可行回溯进入正式计算
 
 [正式源](notes/2026-11-26-r566-working-backtrack-implementation.md)持久保真实working可行基epigraph与q，回缩工作不可行的后端trial，只有全coarse/fine/角定位/nested通过且真改进才接受；缩短步接受即重启。原132427B FINAL重组身份精确相同，未完成trust决定不补算。下一从真正自然终态判是否已跨过322次工作拒绝的具体瓶颈。
+
+### R607 中心正支已有真实首两阶相容，继续全程
+
+[R607](results/R607-positive-prepared-center-leading-energy-layer.md)以全部真M给同一正λ、正R四阶系数和B±−λm=O(s⁶)，五阶差含Q自身的一阶变化。下一仍须处理退化中心准确流/全程八矩和原有限ε系统，不能把有限jet提升成已解方程。当前新全程源不等待这项有限阶证明。

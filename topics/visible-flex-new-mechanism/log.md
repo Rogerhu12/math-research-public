@@ -205,3 +205,7 @@ root全文读28KB新源、说明/request/workflow与原mass装配/center chart/�
 ## 2026-11-26 15:38 UTC — Astra-new-mechanism-0105020f-20261126 / B030原状态工作可行回溯
 
 root全文读新main/source_input、说明/request/workflow，19绑定/AST/必要输入及原FINAL132427B身份纯解析核合；完整coarse/fine/角定位/原工作几何和margin均保，PhaseI转metric时重新选完整行。新共享.github/workflows/visible-r566-working-backtrack-20261126.yml续真实81q/trust/费用；旧direction和已知库选择不重跑，科学本地零。
+
+## 2026-11-26 15:41 UTC — Astra-new-mechanism-0105020f-20261126 / R607真实中心正相容层
+
+root逐项纸核原density八槽、r0二阶相消、CA全分量、Q/es三阶乘积与B五阶含Q项，显式正权平均给c范围及同λ。完整有限阶命题直接登记，不设独立重跑门；高阶/准确首层/原finite-width全局仍欠，继续真实R605 mass与全程输入。
