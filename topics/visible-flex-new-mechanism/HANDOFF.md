@@ -5,9 +5,9 @@
 
 ## 1. 规则、授权与原始记录
 
-公开本次实际pull且根/题README已读至 **05307f5f1591aa789460cce307c7843cc1f9d155**；相对继承0749a4cc规则空差异。私库本次实际pull且根README已读至 **a7891a83567e479db246d47684f7aefedd1bb328**；QUEUE认领推送 **09f8b8b54e7cfaabaa635bae5c438c7f1521289a**，状态本会话进行中。继承全文见[接手原件](notes/HANDOFF-inherited-20261127-1f4a61a4.md)。
+公开本次实际pull且根/题README已读至 **5891608efc2b9f4498eb4674c7a09b9eab3b476a**；相对继承0749a4cc规则空差异。私库本次实际pull且根README已读至 **a7891a83567e479db246d47684f7aefedd1bb328**；QUEUE认领推送 **09f8b8b54e7cfaabaa635bae5c438c7f1521289a**，状态本会话进行中。继承全文见[接手原件](notes/HANDOFF-inherited-20261127-1f4a61a4.md)。
 
-[三续算前全文](notes/HANDOFF-before-three-continuations-20261127.md)及其所链历次交接保全部结论、条件、旧失败、输入与费用。每次实际pull后查根/题README差异并执行，至少每小时；API读取不冒pull。root独占git和共享索引，每条结论即推，NFF立即pull --rebase再推至成功。
+[真函数终态前全文](notes/HANDOFF-before-true-integral-final-20261127.md)及其所链历次交接保全部结论、条件、旧失败、输入与费用。每次实际pull后查根/题README差异并执行，至少每小时；API读取不冒pull。root独占git和共享索引，每条结论即推，NFF立即pull --rebase再推至成功。
 
 科学只在公开Actions；本地仅纸证、源码、AST/JSON/hash和原日志解析。根12不重复已付门，根15不存raw/可重算表；必要下一输入由CLI随明确scope发布。原偏离及修正保[前史](notes/2026-11-26-r582-necessary-input-recovery-original-receipt.md)。
 
@@ -51,13 +51,9 @@ R584/R586/R589/R590保19态真历史、一次χ、正平方、负侧反号、偶
 
 旧九参数失败全部科学及几何预算见前次交接；不延长旧族或软BC。
 
-[R605](results/R605-real-memory-coordinates-and-leading-energy-local-flow.md)付可逆R/θ/I记忆与内部正则首层流，仍欠全程返回。[精确BC原终态](notes/2026-11-26-r605-memory-hard-mass-first-public-receipt-agent.md)run45850563705/job140015513011，新348.104444742主秒/349.370370墙秒、50接受/84773LSMR；29BC误差8.267e−18，但原flow .25009/ruling8.9625e9、真M缺陷.18717/sigma2.223e12，未触129精化。末存储A零不是真矩返回，原自由中心已非prepared。
+R605/R607的真实记忆/首层有限阶相容及原独立history硬BC失败全部保前次交接；原硬BC虽小，真实M缺陷.18717、ruling8.96e9，不延长旧scope。
 
-真共同返回必要RMS(k)≥1；旧guide组合−5.23948未闭。下一以真实h/k及η/A/rho完整积分消去history自由，奇中心可按原端图回代；须付足全程k能量及全部剩余矩/原两ruling，不再延长旧硬BC节点scope。全部period、pose、宏观与reach仍欠。
-
-R607只付prepared中心有限阶相容，未授全程返回；证明与费用保前次交接。
-
-[R609](results/R609-true-integral-histories-and-kinetic-input.md)已付真η/八A/六rho全积分消元、四奇中心尾积分和一个全程固定ζ0中心链，剩四偶端条件/两原ruling；明确新输入连续原盒合法且真实动能组合>4/25。[9/13/17模真曲线源](notes/2026-11-27-r609-true-integral-function-bvp-implementation-agent.md)已推fd5a779d，run45881816067进行中：同Gauss前缀/完整Jet、四偶恢复、两常规范与全正势；不借独立history或prepared条件。
+[R609](results/R609-true-integral-histories-and-kinetic-input.md)已付真η/八A/六rho全积分消元、四奇中心尾积分和一个全程固定ζ0中心链，剩四偶端条件/两原ruling；明确新输入连续原盒合法且真实动能组合>4/25。[真函数原终态](notes/2026-11-27-r609-true-integral-function-natural-final-agent.md)run45881816067/job140122740344新744.538026459秒，五模四偶78nfev到约1e−16，9/13/17共105接受；真ruling1.74e14仍未解。实际37q SHAadd6c37a、L3.3491506644355598、冻结unit3967798143562589；固定16×16四端3.40645e−8暴露积分缺陷。下一同真17模末态接R612/R614和16×16，不重做seed/低模；完整物理ruling及固定L/规范细网保。
 
 [R612](results/R612-exact-physical-length-elimination-and-three-true-end-integrals.md)付四偶根唯一L=√(U/(K−1))及无损三形状端图，完整历史/正势/δL保留；三端图秩及两ruling仍待解。
 
