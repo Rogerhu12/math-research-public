@@ -1,0 +1,22 @@
+{
+  "schema": "visible-larger-public-research-request-v1",
+  "request_id": "visible-larger-resume-20261126-03",
+  "rules_read_commit": "c1e34bd91b543b6176149be7fcdac822e1dd49e9",
+  "rules_sha256": {
+    "README.md": "581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102",
+    "topics/visible-flex-larger-amplitude/README.md": "3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d"
+  },
+  "recipe": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/rebuild_axisymmetric_so3_warm.py",
+  "stop_after": "warm",
+  "followup_file": "topics/visible-flex-larger-amplitude/computations/resume-20261126-followups-03.json",
+  "controller_budget_seconds": 20000,
+  "continuation_purpose": "Regenerate only the complete original warm geometry input required for an independently defined accurate axisymmetric unit meridian based on the actual R690 scalar source. All current core/H/SO3 variables and complete positive observations are retained. This new representation does not claim the old normalized-parent field, profile byte identity, objective or certificates. No old nonlinear optimization direction is replayed or reclassified as new work.",
+  "prior_run_id": "45800076687",
+  "actual_input_reconstruction_only_until_new_source_appended": true,
+  "new_numerical_dependency": {
+    "torch": "2.5.1",
+    "device": "CPU",
+    "dtype_for_new_solver": "float64",
+    "official_install_source": "https://pytorch.org/get-started/previous-versions/"
+  }
+}
