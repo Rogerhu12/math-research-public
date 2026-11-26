@@ -385,3 +385,6 @@ AI-assisted GPT-6 Astra Pro：负幂域等距共轭直接给所有实现的原�
 
 ## 2026-11-26 20:21:19 UTC — Astra-ISP-8542378f-20261127：Lt0一般图的低次原不变量必要系统
 AI-assisted GPT-6 Astra Pro：正确双点Gram生成四二次式，所有分母按原单位清除；伴随9恒等式、同eta原矩/配对/范数及N(V)逐项乘回。原P02身份独立支付ell单位，不借L0零权和。build0.352856秒已过，专用7变量QQ门冻结源，只认实际I*C=1。课题外新增一个workflow仅执行此新输入，复用已核pull/两README差异驱动；不重跑旧失败。
+
+## 2026-11-26 20:22:45 UTC — Astra-ISP-8542378f-20261127：Lt0的原U双点导数零整支关闭
+AI-assisted GPT-6 Astra Pro：完整Res_theta因子身份与原w分子给30次结式/17次全谱；低谱准确返回Delta/z，末14谱同theta和完整28维二次代数内原E1/EB结果式真逆为1，0.148623秒/29636KiB/exit0。该图L非零，不重做L0/w0；新增w单位可供原N(V)同eta消元，一般Lt0仍未排空。

@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R150 S0/Lt0的原U双点导数w=0整支为空（2026-11-27，已证明）：** [原30次结式与28维全返回](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-zero-U-jet-exclusion.md)保完整17次平方自由覆盖，低谱由原Delta/z支付，末14谱保同theta及d两根，E1/EB结式真逆乘回1。自含源exit0/0.148623秒/29636KiB、51次末域真逆；区别于已闭L0/w0。一般Lt0可用原N(V)的w首项，合法消同eta而不丢零支。
+
 - **R150 S0/Lt0一般图有可逆低次不变量和完整原必要系统（2026-11-27，已证明归约，未判空）：** [原双点Gram、矩阵伴随与同eta返回](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-low-invariant-original-system.md)把四原式变成(λ,f,v)二次式，九条伴随乘回与同一S0矩/配对/范数/N(V)恒等式全部核实；所有单位由原P02身份或已闭整支支付。新7变量QQ输入20,366字节，build exit0/0.352856秒；专用1200秒真实lift门另记，不把build成功作排空。
 
 - **R12 指定实际运输递推的最优累计成本确为五次阶（2026-11-27，已证明）：** [完整D实现的原逆像下界](results/R12-appendix-near-optimal-cost-of-the-actual-transport-recursion.md)给每步真实最优成本介于1/(sqrt(N_n)α_(m_n−1))与2/α_(m_n−1)，显式运输距最优至多2sqrt(N_n)。所有实现的累计log费用共同主项为ΣL_(m_n−1)，误差至多O(nlogn)，因此Θ(n⁵)不能靠更换实现降成四次；结论仅限已指定目标，软目标仍需原来源连接。

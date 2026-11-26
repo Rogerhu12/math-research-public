@@ -1,0 +1,132 @@
+{
+  "schema": "r150-unit211-S0-Lt0-w-zero-execution-v1",
+  "sourcePath": "notes/2026-11-27-unit211-S0-Lt0-w-zero-original-return-8542.py",
+  "sourceSha256": "0a072a7dcfca1ba8365c23d894d92eab1f84192ec19724e739343b10615f8e24",
+  "sourceBytes": 17812,
+  "pythonVersion": "3.12.14",
+  "pythonFlintVersion": "0.9.0",
+  "command": "PYTHONPATH=/workspace/scratch/8542378f2b73/isp_pydeps python topics/invariant-subspace-problem/notes/2026-11-27-unit211-S0-Lt0-w-zero-original-return-8542.py",
+  "exitCode": 0,
+  "alarmSeconds": 180,
+  "stdoutSha256": "daa93ca03cdcb5bf90ef191d3e28fdbb426e05d8ca74cf9c9dc462ffffc0133e",
+  "stdoutBytes": 3890,
+  "cover": {
+    "claimExcluded": false,
+    "completeResultantFactorization": "Res_theta(G,K)=256 z^14 J^2 M",
+    "elapsedSeconds": 0.02105,
+    "factors": [
+      {
+        "coefficientsLowFirst": [
+          "-1/2",
+          "1"
+        ],
+        "degree": 1
+      },
+      {
+        "coefficientsLowFirst": [
+          "1/2",
+          "-5/4",
+          "1"
+        ],
+        "degree": 2
+      },
+      {
+        "coefficientsLowFirst": [
+          "2/405",
+          "-26/405",
+          "89/270",
+          "-106/135",
+          "1247/3240",
+          "617/216",
+          "-12779/1440",
+          "85681/6480",
+          "-71113/6480",
+          "2393/1080",
+          "26599/3240",
+          "-111/8",
+          "691/60",
+          "-31/6",
+          "1"
+        ],
+        "degree": 14
+      }
+    ],
+    "resultantDegree": 30,
+    "sourceSha256": "0a072a7dcfca1ba8365c23d894d92eab1f84192ec19724e739343b10615f8e24",
+    "squarefreeDegree": 17,
+    "squarefreeSha256": "99f8df882b11e1294fad92bd1c4c46ddcc09d5c3eb57fb95f6aabe80078abc09",
+    "stage": "complete_original_w_zero_parameter_cover"
+  },
+  "result": {
+    "claimExcluded": true,
+    "claimWholeLt0LayerEmpty": false,
+    "claimWholeS0LayerEmpty": false,
+    "elapsedSeconds": 0.148623,
+    "ordinaryISPClaim": false,
+    "peakRssKiB": 29636,
+    "reports": [
+      {
+        "baseDegree": 1,
+        "bezoutIdentities": 4,
+        "claimExcluded": true,
+        "inverseIdentities": 10,
+        "lambdaFactor": "x + (-1/2)",
+        "paidHistory": [
+          {
+            "unit": "distinct_h_k_Delta",
+            "zDegree": 1
+          }
+        ],
+        "remainingZDegree": 0
+      },
+      {
+        "baseDegree": 2,
+        "bezoutIdentities": 3,
+        "claimExcluded": true,
+        "inverseIdentities": 7,
+        "lambdaFactor": "x^2 + (-5/4)*x + 1/2",
+        "paidHistory": [
+          {
+            "unit": "z",
+            "zDegree": 1
+          }
+        ],
+        "remainingZDegree": 0
+      },
+      {
+        "baseDimension": 14,
+        "baseInverseIdentities": 51,
+        "certificate": {
+          "combination": {
+            "currentWeight": 0,
+            "withPreviousAccumulator": false
+          },
+          "fieldInverseIdentitiesChecked": 51,
+          "identity": "original_resultant_combination * its_inverse = 1",
+          "inverseSha256": "401dbcf444050d23452e0262e25746bf08f321fe2436ea4d97beff429862e691",
+          "normDegreeInLambda": 13,
+          "pair": [
+            "E1",
+            "EB"
+          ]
+        },
+        "fiber": "x^14 + (-31/6)*x^13 + 691/60*x^12 + (-111/8)*x^11 + 26599/3240*x^10 + 2393/1080*x^9 + (-71113/6480)*x^8 + 85681/6480*x^7 + (-12779/1440)*x^6 + 617/216*x^5 + 1247/3240*x^4 + (-106/135)*x^3 + 89/270*x^2 + (-26/405)*x + 2/405",
+        "fullDimension": 28,
+        "history": [
+          {
+            "pair": [
+              "E1",
+              "EB"
+            ],
+            "unitCertificateFound": true,
+            "zeroResultant": false
+          }
+        ],
+        "inputSha256": "3de2b7637e44eb7bde06c93a62656bf44b0c5e5cbb36a7c7838ea93d6b61620f",
+        "quadraticIrreducibilityAssumed": false
+      }
+    ],
+    "sourceSha256": "0a072a7dcfca1ba8365c23d894d92eab1f84192ec19724e739343b10615f8e24",
+    "status": "entire_original_Lt0_w_zero_stratum_excluded"
+  }
+}
