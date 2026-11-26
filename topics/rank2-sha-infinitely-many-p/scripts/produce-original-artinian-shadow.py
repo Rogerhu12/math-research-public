@@ -139,6 +139,8 @@ def main():
     parser.add_argument("--q-precision",type=int,default=2453)
     parser.add_argument("--batch-size",type=int,default=64)
     parser.add_argument("--kernel-method",choices=("minimal","hermite"),default="minimal")
+    parser.add_argument("--run-api-preflight",action="store_true",
+                        help="also run the independent artificial 1530-length API example")
     args=parser.parse_args()
     assert args.q_precision>=2453 and args.batch_size>0
     request=pinned_request(args)
@@ -169,8 +171,18 @@ def main():
         affine,cube,progress=progress,compact_context=compact)
     emit("RANK2_ARTINIAN_CONSUMER_MAPS",map_receipt)
     phase_receipts={"maps":digest(map_receipt)}
-    preflight_receipt=original_thick_norm_preflight(six)
-    emit("RANK2_ARTINIAN_PREFLIGHT",preflight_receipt)
+    # R974: this artificial pi^2*(xi-1) example supplies no geometric
+    # input to F/P, the four intersections, or their thick trace.  Keep it
+    # explicitly available, but do not repeat an API fixture on production
+    # runs.  Every actual source, ideal and thick-layer return below stays.
+    preflight_receipt=None
+    if args.run_api_preflight:
+        preflight_receipt=original_thick_norm_preflight(six)
+        emit("RANK2_ARTINIAN_PREFLIGHT",preflight_receipt)
+    else:
+        progress("independent artificial thick API preflight not requested",
+                 auxiliary_api_preflight_executed=False,
+                 original_geometric_acceptance_gates_retained=True)
     retained={"cube":cube,"compact_cube":compact,"affine":affine,"six":six}
     geometry=intersections=shadow=None
     all_intersection_support_accounted=False
@@ -262,7 +274,10 @@ def main():
         "complete_large_divisor_ideals_computed":intersections is not None,
         "all_intersection_closed_points_computed":False,
         "all_original_intersection_support_and_thickness_accounted":all_intersection_support_accounted,
-        "same_original_two_chart_artinian_preflight_sha256":digest(preflight_receipt),
+        "auxiliary_api_preflight_requested":args.run_api_preflight,
+        "auxiliary_api_preflight_executed":preflight_receipt is not None,
+        "same_original_two_chart_artinian_preflight_sha256":(
+            digest(preflight_receipt) if preflight_receipt is not None else None),
         "all_original_thick_Artin_values_and_complete_traces_computed":shadow is not None,
         "original_shadow_computed":shadow is not None,
         "original_rational_AJ_detected_nonzero":(

@@ -1,5 +1,5 @@
 {
-  "schema": "rank2-original-triangular-artinian-request/v7",
+  "schema": "rank2-original-triangular-artinian-request/v8",
   "prime": 29,
   "first": {
     "job": 133436977753,
@@ -20,5 +20,6 @@
   "q_precision": 2453,
   "batch_size": 64,
   "kernel_method": "minimal",
-  "linear_algebra": "r956-prime-scalar-preimage-bounded-full-transport-batch-units"
+  "linear_algebra": "r974-native-residue-full-transport-batch-units",
+  "run_api_preflight": false
 }

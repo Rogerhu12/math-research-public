@@ -38,8 +38,8 @@ def request_arguments(root):
     assert len(raw) <= 32768
     obj = json.loads(raw)
     assert set(obj) == {"schema", "prime", "first", "packet", "phase", "trace_method",
-                        "q_precision", "batch_size", "kernel_method", "linear_algebra"}
-    assert obj["schema"] == "rank2-original-triangular-artinian-request/v7"
+                        "q_precision", "batch_size", "kernel_method", "linear_algebra", "run_api_preflight"}
+    assert obj["schema"] == "rank2-original-triangular-artinian-request/v8"
     assert type(obj["prime"]) is int and obj["prime"] in (29, 41)
     cli = ["--prime", str(obj["prime"])]
     keys = ("job", "run", "run_head", "source", "result_sha256")
@@ -57,7 +57,8 @@ def request_arguments(root):
     add_pinned_arguments(parser)
     checked = pinned_request(parser.parse_args(cli))
     assert obj["phase"] == "shadow"
-    assert obj["linear_algebra"] == "r956-prime-scalar-preimage-bounded-full-transport-batch-units"
+    assert obj["linear_algebra"] == "r974-native-residue-full-transport-batch-units"
+    assert type(obj["run_api_preflight"]) is bool
     assert obj["trace_method"] in ("artinian",)
     assert type(obj["q_precision"]) is int and obj["q_precision"] >= 2453
     assert type(obj["batch_size"]) is int and obj["batch_size"] > 0
@@ -65,7 +66,9 @@ def request_arguments(root):
     extra = ["--phase", obj["phase"], "--trace-method", obj["trace_method"],
              "--q-precision", str(obj["q_precision"]),
              "--batch-size", str(obj["batch_size"]), "--kernel-method", obj["kernel_method"]]
-    checked.update({key:obj[key] for key in ("phase", "trace_method", "q_precision", "batch_size", "kernel_method", "linear_algebra")})
+    if obj["run_api_preflight"]:
+        extra.append("--run-api-preflight")
+    checked.update({key:obj[key] for key in ("phase", "trace_method", "q_precision", "batch_size", "kernel_method", "linear_algebra", "run_api_preflight")})
     return cli, checked, hashlib.sha256(raw).hexdigest(), extra
 
 

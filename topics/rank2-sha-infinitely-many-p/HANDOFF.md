@@ -6,7 +6,7 @@
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，持续研究；有限验证、条件、接口和中间成果不算完成。**
 
-- 已部分克隆两仓库并实际 pull --rebase；公开根/课题 README 已完整读至 `48f6fd1f4105892777a8339066c74ed7f29f64ae`。每次拉取检查两 README 差异，至少每小时同步一次。
+- 已部分克隆两仓库并实际 pull --rebase；公开根/课题 README 已读至 `7fd834524dc444af633f673607e662e56ef54d00`（本轮差异为空）。每次拉取检查两 README 差异，至少每小时同步一次。
 - 私有 QUEUE 接手状态已推至 `41fe885610073f478b2f5a752461ca56cfd43f09`；私库根 README 读至 `4b91389`。克隆在 `/workspace/scratch/0b097461a16b/math-research-public` 与 `math-research-private`，终端可用；令牌仅进程内认证，不入文件。
 - root 唯一 git/共享 H/open/log/index 写者；geometry 接 v7 实际终点与完整原厚商修正，central 接 R970 degree130 的完整投影和实际交叉项，arithmetic 核通常 Selmer 桥及新的无穷性输入。新编号 R971–972 为中央项、R973 算术、R974 几何；不重复已有结论。
 - 数学执行沿公开 Actions；只存源码、参数、run、hash和结论。H<10KB，单MD<100KB；不强推。接手前完整状态见 [原 H](notes/2026-11-27-handoff-at-takeover-0b097461.md)。
@@ -15,7 +15,7 @@
 
 [共同carry/δ-old后完整H](notes/2026-11-26-handoff-after-common-carry-and-delta-old-source.md)保此前全部证明、参数、回执及归档链；[open](open.md)、[results](results.md)及两卷证明索引保当前门。接手H、第五核前H、Fv2回执前H、全W构造前H、全部旧open与索引均由这条链保留；不重复已登记结论或默删旧门。
 
-root统筹原几何执行及算术消费；global核原h完整H/2对应与混合cut；geometry付共同常数v6及同原格完整forcing；theta核原三列/完整cut和六真中央forcing，保全部有限类和低层。R959全CM/六jet及完整通常Selmer桥已付。**Fv3已实际超时；v7已查明有限商域次数断言失败，正在修复，不原样重跑。**
+root统筹原几何及中央消费；分工见上。R959全CM/六jet及通常Selmer桥保持；本轮[逐式文献核查](notes/2026-11-27-mixed-weight-period-audit-and-height-difference-scope.md)未发现Kato两图或BKO全群范围缺口，非新结论。**Fv3超时；v7有限商域API失败已由R974修复并实际小例通过，接v8。**
 
 ## 一、原全部厚几何与shadow
 
@@ -31,11 +31,11 @@ source77d09068ff2324c7c301c144e4c3586437f4ad59，run45783241896/job139783569909�
 
 R942§8–13全程有界HNF/paired graph/306 W及全厚ideal两图运输已证，三原小API真实PASS；R955全厚Miller批量逆保持全部原因子/前缀/Norm。R956严格下降、全attached常数返回与整条矩形preimage下降均已证，两个新增tiny run45832239579/job139951704598及run45836149006/job139965432077实际PASS；原306/全厚shadow未付。全部源码/hash/参数见R942/955/956及H归档。
 
-### 当前唯一后继Artinian v7
+### v7实际终点与唯一后继v8
 
 source6e79456aa2250a589306ba39d983ecdc46a2f267/run45838674625/job139974211422，于2026-11-26 16:20:03 UTC实际failure。完整日志显示relative finite-field extension的degree/cardinality断言失败；非超时/OOM，原F/四交/shadow未返。R956§8保全部45源/hash；后继修复保持原商域双向映射、全部厚层与Norm，详[真实终点](notes/2026-11-27-artinian-v7-final-and-successor.md)。
 
-固定Sage10.6/离线只读、r29/q2453/batch64/minimal及两份原PASS pins保持；四类+一map+两geometry+一Miller绑定、全七式/两图/四交/九对/全厚/18×9均保。实际θ17=[5,10]从same六常数读取，不假定tiny坐标。不得选旧v5/v6或预记原W/除子/shadow成功。
+R974原底域双向模型tiny run45881262808/job140120885101/sourcecd894128实际success；完整RESULT SHA99ec7d327ac73cfb354805c3fd6397ef0ccad40192956bc55790d06e8750a27a，全部五case/厚Norm返回见R974§7。v8已接修复；独立人工1530例改显式opt-in，未执行标False/None，不为原F/P提供数据。固定Sage10.6/r29/q2453/batch64/minimal、两PASS pins/45源/全七式/两图/四交/九对/全厚/18×9保持；待新run，不预记原几何成功。
 
 ## 二、原全局与ordinary仍开的准确门
 

@@ -47,13 +47,14 @@ import original_ys_artinian_shadow_consumer as consumer
 HERE = Path(__file__).resolve().parent
 STARTED = time.monotonic()
 BASE_SHA256 = {
-    "produce-original-artinian-shadow.py": "f83cba8aae5cb15380483f007f1bfec18a646161443c48edd686e0cb7871ba90",
+    "original_ys_closed_point_tools.py": "7428cadb6b2179aebd547c749ec11ae46305476947aa443f7266e64d03ccc7bb",
+    "produce-original-artinian-shadow.py": "36fe80db8081891db70d1ab9a62e9af4b72df386c9832ba7590117a3ea82bc4e",
     "original_ys_fraction_bridge.py": "788949117cba32c3ce347257ab71681bfe4a6940f935e017efef852c6ea4d9b8",
     "original_ys_artinian_shadow_consumer.py": "a543c957c539fecef082cf26860cb321a3731d0c19e29e34205d8346f279c2e4",
     "original_degree_bounded_row_reduction.py": "41be1b362e024ba847240c7bd928ae4e991b3c160d1c3556f7d8837d9b1788fa",
     "original_triangular_preimage_tools.py": "f1f3f7925bfdc32e771111c4a512a81470229473fd25f9193cd3a6f38a22d9fd"
 }
-IMPLEMENTATION = "r956-prime-scalar-preimage-bounded-full-transport-batch-units"
+IMPLEMENTATION = "r974-native-residue-full-transport-batch-units"
 ORIGINAL = None
 
 
@@ -152,13 +153,16 @@ def main():
         mathematical_acceptance_claimed=False)
     emit("RANK2_TRIANGULAR_ARTINIAN_BINDINGS", binding_receipt)
 
-    # No gate is reconstructed or shortened here. In particular the full
-    # two-chart rank-306 mixed-thickness preflight still runs before geometry.
+    # All actual geometric gates remain. R974 moves the independent artificial
+    # API example to an explicit opt-in flag; an omitted example is not a PASS.
     original.main()
     context = original.ORIGINAL_COMPLETE_ARTINIAN_SHADOW_CONTEXT
     receipt = context["certificate"]
     assert receipt["status"] == "all_requested_original_acceptance_gates_completed"
     assert receipt["completed_phase"] == "shadow"
+    assert receipt["auxiliary_api_preflight_executed"] == ("--run-api-preflight" in sys.argv)
+    if not receipt["auxiliary_api_preflight_executed"]:
+        assert receipt["same_original_two_chart_artinian_preflight_sha256"] is None
     assert receipt["original_shadow_computed"] is True
     assert receipt["all_intersection_closed_points_computed"] is False
     assert receipt["all_original_intersection_support_and_thickness_accounted"] is True
