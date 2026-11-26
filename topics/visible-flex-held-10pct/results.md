@@ -129,3 +129,7 @@ R55补充：[较宽设计盒与条件完整D≤2.69](notes/2026-11-20-soft-start
 ## R62. 实际 M24 完整真核心前缀和桥的连续证书
 
 [完整结论](results/R62-actual-m24-complete-prefix-and-bridge-certificate.md)。指定λ.002/M24线性场的真R53核心、完整lift及固定mean1168，1065径向闭区间×4672角盒实际全过metric≤9.695184e−7/K≤9.649812、未决0；合R61入口/精确桥缝和已声明统一target g，整个开放连接器保持同metric界，半径<1.245/support>.3986798571。不是新trueDN场、λ1、全尾或完整闭族。
+
+## R63. 固定目标度量与作为未知解的核心
+
+[完整证明](results/R63-fixed-metric-and-solution-core-variables.md)。连续Frenet方程给g=ds²+aδ²dθ²，单位速入口q/c不进入g；在同一加权ℓ¹₄空间上严格定义R53圆化、核C²连续性及N无关完整BVP。规定所有有限入口系数是更强问题；新fixed-g序列仍必须保全部物理输入并实际核非零同一极限核/全场C²收敛。未有新BVP或10%完成。
