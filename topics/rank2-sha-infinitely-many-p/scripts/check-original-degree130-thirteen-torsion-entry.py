@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""R987 focused public entry: complete direct22 CM and exact13 torsion pair.
+"""R987/R993 public entry: complete direct22 CM and exact13 torsion boundaries.
 
 All 24 full fibers for BOTH operators are reconstructed from the unchanged
 canonical norm7/norm19 formulas.  The two extra fibers, every mass column,
@@ -113,11 +113,14 @@ def main():
           file=sys.stderr, flush=True)
     helper = module("r987_actual_thirteen_pair", HERE / "check-original-thirteen-torsion-forced-pair.py")
     pair = helper.check_original_thirteen_torsion_pair(context)
-    source_files = [Path(__file__).name, "check-original-thirteen-torsion-forced-pair.py", *SOURCE_PINS]
+    boundary_helper = module("r993_actual_thirteen_boundary", HERE / "check-original-thirteen-boundary-weights.py")
+    boundary = boundary_helper.check_original_thirteen_boundary_weights(context)
+    source_files = [Path(__file__).name, "check-original-thirteen-torsion-forced-pair.py",
+                    "check-original-thirteen-boundary-weights.py", *SOURCE_PINS]
     metadata = [{"path": name, "bytes": (HERE/name).stat().st_size,
                  "sha256": hashlib.sha256((HERE/name).read_bytes()).hexdigest()}
                 for name in source_files]
-    result = {"status": "PASS", "format": "R987 complete direct22 and actual13 torsion pair",
+    result = {"status": "PASS", "format": "R987/R993 complete direct22, actual13 pair and full boundary weights",
               "workers": args.workers, "source_files": metadata,
               "source_manifest_sha256": digest(metadata),
               "full_operator_basis": "sigma^130*x^2*X^j, j=0,...,21, X=x^3",
@@ -128,6 +131,7 @@ def main():
               "full_conjugate_inverse_commutation_twelfth_powers": True,
               "canonical_complete_matrix_sha256": full_hash,
               "actual_thirteen_torsion_pair": pair,
+              "actual_thirteen_boundary_weights": boundary,
               "elapsed_seconds": time.monotonic()-started}
     print(json.dumps(result, sort_keys=True))
 

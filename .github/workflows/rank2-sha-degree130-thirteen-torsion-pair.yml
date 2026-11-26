@@ -1,4 +1,4 @@
-name: Rank2 original complete22 and thirteen torsion pair
+name: Rank2 original complete22 and thirteen torsion boundaries
 "on":
   push:
     branches: [main]
@@ -7,6 +7,7 @@ name: Rank2 original complete22 and thirteen torsion pair
       - "topics/rank2-sha-infinitely-many-p/ci/degree130-thirteen-torsion-pair-request.json"
       - "topics/rank2-sha-infinitely-many-p/scripts/check-original-degree130-thirteen-torsion-entry.py"
       - "topics/rank2-sha-infinitely-many-p/scripts/check-original-thirteen-torsion-forced-pair.py"
+      - "topics/rank2-sha-infinitely-many-p/scripts/check-original-thirteen-boundary-weights.py"
   workflow_dispatch:
 permissions:
   contents: read
@@ -44,12 +45,15 @@ jobs:
           assert request["all_twenty_two_columns_including_mass"] is True
           assert request["same_job_full_good13_two_column_operator"] is True
           assert request["both_complete_quadratic_kernel_algebras"] is True
+          assert request["same_job_full_thirteen_boundary_weights"] is True
+          assert request["exact_kernel_multiplicities_and_first_nonzero_quotients"] is True
           assert request["output_files"] is False
           script = prefix + "scripts/check-original-degree130-thirteen-torsion-entry.py"
           assert request["script"] == script and request["args"] == ["--workers=4"]
           names = [
               "check-original-degree130-thirteen-torsion-entry.py",
               "check-original-thirteen-torsion-forced-pair.py",
+              "check-original-thirteen-boundary-weights.py",
               "check-r464-degree102-cm7-exact.py",
               "check-r466-fixed-two-division-source.py",
               "check-r480-actual-input-cm19.py",
@@ -71,7 +75,7 @@ jobs:
                                                       separators=(",", ":")), flush=True)
           manifest_hash = hashlib.sha256(json.dumps(manifest, sort_keys=True,
                                        separators=(",", ":")).encode()).hexdigest()
-          print("R987_AST_PASS 5", flush=True)
+          print("R987_R993_AST_PASS 6", flush=True)
           dependencies = pathlib.Path(os.environ["RUNNER_TEMP"]) / "rank2-thirteen-python"
           subprocess.run([sys.executable, "-m", "pip", "install",
                           "--disable-pip-version-check", "--target", str(dependencies),
@@ -115,4 +119,19 @@ jobs:
           assert pair["both_nonzero_kernel_orbit_masses_nonzero"] is True
           assert pair["barpi_kernel_mass_is_exact_conjugate"] is True
           assert pair["full_mass_rational_function_returned_in_both_kernel_algebras"] is True
+          boundary = report["actual_thirteen_boundary_weights"]
+          assert boundary["status"] == "PASS"
+          assert boundary["complete_direct22_matrix_sha256"] == request["canonical_complete_matrix_sha256"]
+          assert boundary["whole_raw_F10_and_old_delta_identity"] is True
+          assert boundary["Gold_equals_3360_delta_times_Phi_star_minus_F10"] is True
+          assert boundary["resultant_equals_6912_pi_times_4_plus_delta"] is True
+          assert boundary["conjugate_and_anticonjugate_full_returns"] is True
+          assert boundary["fixed_Z_torsion_bad_primes"] == [2, 3, 13, 19]
+          packets = boundary["both_complete_quadratic_kernel_packets"]
+          assert set(packets) == {"pi", "barpi"}
+          for packet in packets.values():
+              assert packet["Phi260_minus_rho_Phi_star_is_whole_kernel_multiple"] is True
+              assert packet["exact_kernel_vanishing_multiplicity"] >= 1
+              assert packet["maximal_kernel_power_full_return"] is True
+              assert packet["all_reductions_and_inverse_products_returned"] is True
           PY

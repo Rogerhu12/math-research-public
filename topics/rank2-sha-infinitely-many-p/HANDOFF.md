@@ -6,7 +6,7 @@
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。固定有限曲线族的联合无穷非零可用无限鸽巢；有限p、随p换曲线、条件桥、非零投影或接口均不完成。
 
-- 两仓库已部分克隆。公开根/课题 README 已读至 `fb34f5e0d22fef3199d1c20af2b785378bcc1a78`（差异空）；每次pull只读两文件新差异，至少每小时同步并记SHA。
+- 两仓库已部分克隆。公开根/课题 README 已读至 `efd1ef93dacf0137820b8fbe4b96ba262113fc0f`（差异空）；每次pull只读两文件新差异，至少每小时同步并记SHA。
 - 私库QUEUE接手已推41fe885610073f478b2f5a752461ca56cfd43f09；21:52 UTC pull至b9b67887dabefa2da9cfac805c7271433cf15a4e，README差异空、QUEUE仍本会话进行中。目录math-research-public、math-research-private；令牌仅进程认证。
 - root独占git/H/open/log/index；每条结论完成即推，非快进立即pull --rebase、检查README再推至成功，不强推。数学只用公开Actions；不存可重算矩阵/数据/log。H<10KB，每MD<100KB。
 - [此次逐字归档](notes/2026-11-27-handoff-before-local-two-trace.md)及历史链保全部旧状态；[open](open.md)、[results](results.md)、[R951–1000索引](notes/PROOF-INDEX-R951-R1000.md)保全部未解门，未默删。
@@ -19,7 +19,7 @@
 
 **中央v8已成功**：run45892525657/job140158402506/sourcec3fc3c60605f4455fc57177367c89e56a9763f6a，20:38:41–20:46:00 UTC；20份manifest/18源码AST及全部旧门保留。R982四新角/十低行、R983三alpha全非零，stdout90103B/log208485B的hash见结果。
 
-**R987独立direct22已成功**：run45898016632/job140176625597/source05bed6026bd3b75f7f77b1927f55f72e4ed689cb，21:25:14–33 UTC；原48纤维/22全列/两extra/原66限制hash全返，完整good13双列及两个质量代数都返。原v5/v6/v7均success，全22/66/44谱与source/hash见R976–978；不重复执行。
+**R987独立direct22已成功**：run45898016632/job140176625597/source05bed6026bd3b75f7f77b1927f55f72e4ed689cb，21:25:14–33 UTC；原48纤维/22全列/两extra/原66限制hash全返，完整good13双列及两个质量代数都返。原v5/v6/v7均success，全22/66/44谱与source/hash见R976–978。R993同入口新增两实际primitive/原F10的13核质量、准确消失重数/首商、Gold边界行列式及L_T六次权；保原全部门，已接公开入口待新回执，未本地执行数学。
 
 ## 二、已经支付的固定算术来源
 

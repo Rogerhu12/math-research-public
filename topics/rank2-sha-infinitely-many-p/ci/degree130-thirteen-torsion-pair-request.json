@@ -1,6 +1,6 @@
 {
   "schema": "rank2-original-degree130-thirteen-torsion-pair/v1",
-  "request_id": "2026-11-27-r987-complete-direct22-thirteen-two-orbits",
+  "request_id": "2026-11-27-r993-complete-direct22-thirteen-boundary-weights",
   "degree": 130,
   "offset": 2,
   "workers": 4,
@@ -41,16 +41,19 @@
   "both_complete_quadratic_kernel_algebras": true,
   "canonical_complete_matrix_sha256": "aed9d071b6bf9b8b2751b253883fc2664e2dd19724edec8383c5a7f3e4017113",
   "source_sha256": {
-    "check-original-degree130-thirteen-torsion-entry.py": "dd4c858aed133196c03923e2dd76c59ebe72f51309e3e332ef34f74f311c4ba3",
+    "check-original-degree130-thirteen-torsion-entry.py": "e91528215bc3421c5891649beb2a027764c1398cc596647bff6321d40de351ea",
     "check-original-thirteen-torsion-forced-pair.py": "550d182490d957b31898fda76c18999e2eaffc59f796eefd6b1dd75c26092104",
     "check-r464-degree102-cm7-exact.py": "b3e11a9da1b28a7623d86acf944262ab23c2d1969b1f0183030a4d1c96b5f1ff",
     "check-r466-fixed-two-division-source.py": "effd6f1526421cfcb9da3bd7769eed258374fa0addf337313d0315cb3ef08245",
-    "check-r480-actual-input-cm19.py": "3d4d9a05872cdde0f24ff756ec79407417afa943eabf6f71f4e48d32f91f9c45"
+    "check-r480-actual-input-cm19.py": "3d4d9a05872cdde0f24ff756ec79407417afa943eabf6f71f4e48d32f91f9c45",
+    "check-original-thirteen-boundary-weights.py": "72b72c384ab352e1cdd405f1b985517bb2d2ebbef64dd0a7f31fb07473074717"
   },
   "script": "topics/rank2-sha-infinitely-many-p/scripts/check-original-degree130-thirteen-torsion-entry.py",
   "args": [
     "--workers=4"
   ],
   "output_files": false,
-  "scope": "Rebuild the complete original22 norm7/norm19 matrices from all48 full fibers and require their identical original66 restriction hash; retain the proved full pull/trace intertwiners. Then reconstruct good13 on both full level10 columns and both quadratic torsion-kernel mass functions with their absolute phases. No generated mathematical input, no degree390 producer rerun, and no translated canonical zero assertion."
+  "scope": "Retain every original R987 complete48-fiber/full22/fullgood13 gate and reconstruct both primitive rank-one sources and the raw six-sigma F10 in the same genuine direct22 context. Return both complete quadratic13-kernel mass algebras, exact primitive cancellation multiplicities and first nonzero quotient remainders, Gold boundary determinants and actual L_T sixth-power weights. All original P2(T), Xi_T, moving Z-zero and two-torsion terms remain in the proof; no local term is identified with the whole Cartier reader.",
+  "same_job_full_thirteen_boundary_weights": true,
+  "exact_kernel_multiplicities_and_first_nonzero_quotients": true
 }
