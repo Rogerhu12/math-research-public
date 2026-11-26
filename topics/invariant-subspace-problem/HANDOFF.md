@@ -7,7 +7,7 @@
 - **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仅全体有界算子的存在定理或完整反例；子结果不作完成，继续研究。
 - **最近实际 pull / 已读规则提交：** `48650a963a2b3b4c9a0bec8b71495b4b9cd0c149`（2026-11-26 09:16:03 UTC）。本次两README无新规则差异；已读根/课题README、H/open、结果索引及定点log/notes。每次pull及至少每小时比diff，记录SHA。
 - 私库QUEUE认领已推 `e776df496eedfa449b0475cefe140fdae7023db4`；研究在公开仓库。每结论单推，推前pull/rebase；NFF/ref锁拒绝循环rebase再推，不force，令牌仅CLI。
-- 本地执行环境09:19 UTC后unavailable；最近云端main/规则读取 `526c0ae46a8ad9f0772d529ae277db838fae6f3d`（2026-11-26 09:32:30 UTC），两README blob未变。此为API读取，不冒充git pull；公开Actions驱动继续实际pull及3300秒规则检查。根通过非force/expected-head原子提交保并发；CLI恢复后立即pull/rebase。只保存源、参数、SHA和小回执。
+- 本地执行环境09:19 UTC后unavailable；最近云端main/规则读取 `6d1b3233cf6e174cff53e75b96207e1bed29bf82`（2026-11-26 09:48:12 UTC），两README blob未变。此为API读取，不冒充git pull；公开Actions驱动继续实际pull及3300秒规则检查。根通过非force/expected-head原子提交保并发；CLI恢复后立即pull/rebase。只保存源、参数、SHA和小回执。
 - 最新完整前H见[压缩快照](notes/2026-11-26-handoff-before-rank-three-double-single-zero-hp-nine-347c.md)及其归档链。MD<100KB、H<10KB、open尽量<30KB、topic<200MB，不写根LOG。
 - 已登记请求14/311、权11及旧结式不重算。当前并行：unit211的m零/非零；rankV2/rankH3的ess6；R271真实加权源与物理清除。
 
@@ -25,11 +25,11 @@
 ### 正在推进的三张原分支
 
 - **unit211，P0非零、m零：** F1/u1、F2/l0两奇异jet面及J=lQ(2u−1)−u(2u+Q−2)零面已闭。代理正在完成整个m0：已严证3mean在A4开集到(u,Q)有限纤维；全部低曲线、原秩二族与第一高曲线QQ671/629 gcd均付。第二高曲线首个QQ结式2876次已完成974.697804秒；第二条exit137，原因未知，不能记完成。已切换原4×4必要行列式/逐步伪余式缩小输入，保全部首项零纤维；主稿末gcd仍待真正完成。已提交冻结源0374f893及专属公开Actions（180分钟/12GiB，run45789670184已实际in_progress），完整[执行检查点](notes/2026-11-26-unit211-zero-mean-general-execution-checkpoint-347c.md)保失败身份。探索在 `unit31-work`，不把预检或模素数定位作证明。
-- **[unit211，P0/m非零，u1半比例已闭](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-nonzero-isolated-mean-unit-base-mean-half-ratio-exclusion.md)：** 共同p+q2后u=bp+cq=1，l0、jet系数零面及整λ=m/u0=1/2均排除；QQ92/162/170末Q5/4原ideal迫l0，顶点族完整Gram秩二。源2.801380秒/72196KiB/exit0。root继续λ≠0,1/2：v=2λ−1、z=(2f−1)/v合法，把原三mean改为v二次式，正在支付投影及全部例外；一般u≠1仍开。探索在 `root-qgeneral-work`。
+- **[unit211非零m的u1半比例已闭](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-nonzero-isolated-mean-unit-base-mean-half-ratio-exclusion.md)：** l0、jet系数零及λ1/2全付，源2.801380秒/exit0。剩余令v=2λ−1、z=(2f−1)/v；已实算有限纤维/半权/两mean投影，重建自含源与H2+1无穷远源一起转独立Actions，见[执行检查点](notes/2026-11-26-scaled-and-infinity-execution-checkpoint-347c.md)。新完整源尚待实际全门，剩(l18,Q10)高曲线及一般u仍开；TMP的混合4×4投影在环境中断时未观测执行，不记成功。
 - rankH3三不同点、H自身Gram退化的ess6：F0、V二jet、非零Hp全空；只余双约化、F≠0、Hp0、Gram秩2且两非零边。非退化三点H也继续。不能以H子Gram退化代整个六维K退化。
 - rankH3单三jet、rankV2整层ess≤5已闭：Hp0原十六维QQ/13真逆、所有特殊/∞和V二jet全付；最后F=−m原0/1/2阶梯度得1=5/2。不要重做旧余支。
 - rankH3二重加单点：退化bg0整个ess6、所有V二jet以及全部F0/约化e0已闭；非退化二jet最后原N(u)给−1/12≠1/4或1/16≠81/16。只余bgF e非零、约化V。
-- **[该2+1型Hp0的九次完整Gram归约](results/R150-appendix-rank-three-double-plus-single-second-cumulant-zero-hp-nine-gram-candidates.md)：** 合法F=h=g1后c−1/4、b=−(2e³+1)/6；全部立方相位和Cw0已付，必D=−C。G9=16e9−108e8+36e7−15e6+18e4−1，完整六列Gram最多九个无序候选。只证明必要归约；代理继续原曲线实现/其余N及最高系数，非零Hp也开。探索在 `drafts`。
+- **[2+1型Hp0九次完整Gram归约](results/R150-appendix-rank-three-double-plus-single-second-cumulant-zero-hp-nine-gram-candidates.md)：** F=h=g1后c−1/4、b=−(2e³+1)/6；相位/Cw0全付，D=−C，G9=16e9−108e8+36e7−15e6+18e4−1。仅九个必要Gram，未判物理实现。w∞的原整数结式168/173次已实算；s−2、D8/D12及J0全例外的新QQ/范数源转Actions，待全门实际通过。代理续有限w与非零Hp。
 
 原纯三次判据为Q=B³−27A²D，旧正号不可作证。4212来源/系数高度、全局Bell自然幂、全部共同域与算子桥仍开；每图要原真幂来源，再以N=1+Σ(Ni−1)粘合，几何覆盖不能替代。
 
