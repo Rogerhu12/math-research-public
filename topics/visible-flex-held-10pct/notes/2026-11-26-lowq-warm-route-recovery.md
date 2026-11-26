@@ -21,8 +21,23 @@ run45772029917首命令已真正exit2，尚未导port或求BVP：再生chart SHA
 
 这是本次恢复的数值坐标输入变化，不冒充历史chart逐字重现，也不把它当已证的同g精化。原物理多段g不由参考chart的reference_profile替换，后续固定g序列仍必须明确冻结实际chart。初次本地恢复记录中的历史chart同SHA结论只对应当时本地文件，不能外推为所有公共环境再生结果。
 
-## 本次已真实恢复的前两个接受场
+## 本次已实际返回的恢复链
 
-新chart绑定后的原M8 q=.006与.012已真实通过solver/raw/physical/原metric门，完整checkpoint已保存并校验SHA。q006为598节点、RMS9.980240987715278e−7、metric5.590336281611129e−9、physicalBC1.4482700396610016e−16；q012为603节点、RMS9.793280840450635e−7、metric1.1331833951017772e−8、physicalBC1.4521917635783272e−16。当前已从q012完整checkpoint续q020，不能预认其终态。
+从公开结果版本 `c9c5e7da2fc690e9d046fc7297cecde2d0412150`（07:20:57 UTC）读取：七档小幅度及 λ0 exact-lift 已实际通过原 solver/raw/physical/metric 门。下表是此次新chart上的实际返回，不登记为新的存在性结论。
 
-对应run/raw/physical/checkpoint SHA及M8/M16原export实际返回保存在lowq-accepted-recovery.json。新M8/M16 port的物理parameters/cut与M24逐项相同，整包SHA不同于历史值，已标false；未把含源hash的完整包差直接解释成数值坡率相等。这里恢复的是旧成功设计支的实际输入，q/delta/warp仍是设计变量，不计作固定g精化或10%新成果。
+| 实际阶段 | 节点 | RMS | 原有限 metric | 身份 |
+|---|---:|---:|---:|---|
+| q006_linear_m8 | 598 | 9.980240988e-07 | 5.590336282e-09 | 原门通过 |
+| q012_linear_m8 | 603 | 9.79328084e-07 | 1.133183395e-08 | 原门通过 |
+| q020_linear_m8 | 606 | 9.902730133e-07 | 1.922357551e-08 | 原门通过 |
+| q030_linear_m8 | 610 | 9.984644272e-07 | 2.94708925e-08 | 原门通过 |
+| q040_linear_m8 | 850 | 9.841842431e-07 | 4.015882858e-08 | 原门通过 |
+| q050_linear_m8 | 903 | 9.973606919e-07 | 7.91015673e-08 | 原门通过 |
+| q060_linear_m8 | 622 | 9.912228426e-07 | 4.091571675e-07 | 原门通过 |
+| lambda0_exact_lift_m8 | 622 | 9.912230563e-07 | 5.455217033e-07 | 原门通过 |
+| lambda002_m8_transfer_initializer | 622 | 9.927135478e-07 | 3.193207023e-05 | metric 未门；只作完整升谱初猜 |
+| lambda002_m16 | 628 | 9.927099303e-07 | 4.272493001e-06 | metric 未门；只作完整升谱初猜 |
+
+对应 run/raw/physical/checkpoint SHA 与 M8/M16 原export实际返回保存在 [lowq-accepted-recovery.json](2026-11-26-lowq-accepted-recovery.json)。端口物理 parameters/cut 逐项相同，完整包 SHA 不同历史值；不把包差解释成数值坡率相等。q/delta/warp 仍为设计变量，不计固定g精化或10%新成果。
+
+该可见版本正求 λ.002/M24。07:21:58 起原worker因组合诊断超过64KiB而返回 omitted；从此不能推断M24终态或子路线已启动。原计算保留，等待实际可读返回。独立warm通道为本身runner必要再生同一链；其源/输出hash按实际文件记录，不能借另一runner的接受标签替代。
