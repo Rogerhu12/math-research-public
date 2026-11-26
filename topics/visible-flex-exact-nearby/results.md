@@ -460,3 +460,8 @@ signed rows用真实配对中心；normalized行的adjoint residual由已成同T
 
 提交[EX完整执行说明](results/R149-supplement-actual-positive-negative-receiver-execution.md)、owner、public worker、metadata generator。26整输入绑定实际58/224/32三文件×3、固定SP/PW/WTA/WX五完整actual、六证明、五源码和规则；共同WVC/153链/24480/真根身份逐字段核，WTA复制SP及PW四gain逐字相等。只算14cols×4：true full mixed root、完整waist两mean、joint左两branch、WPL primitive；各原physical source域保持。
 新球先原子保存candidate整doc、读回相等与contains核通过，才提交正式completed prefix；root→waist→branch/primitive均用前驱saved upper，完成56才proved。工作流只在真实58/224/32全通过后由metadata生成器建立，当前没有manifest/workflow、数值或dummy source packet。900s science/30min job，保readme/rebase/capacity/无科学自动retry。已完成原逆/receiver不重算；common x Φ/Υ packet、signed矩阵、negative ordinary源及最终incoming/ν/非线性仍为各自实际目标。
+
+### 2026-11-26 — 启动 R147 同负窗 selected ordinary 源到完整腰部四球
+
+完整审查后提交五入口文件与唯一workflow。29件整当前输入：26旧原件/证明/现规+3新源码；S0 summary/process/manifest和D/SP/PW各whole execution/manifest/source完全绑定，内嵌science逐字还原原hash，原pilot源码AST核fixed_negative_phase_window真有理端点。使用当前Nov20规则receipt，旧实际manifest原规记录不改。
+manifest11815B/SHA b697e8665801a6e4d5120ca312d72a339cc28a2516d6dabd255f56ee79690f2d；owner42664B/87cade88d1e5844575487c49130cf7806d82a8b5556635f9db3dab7e4f31866d，worker28305B/17cb1a5c838cba72571880d871df533aad18577b08e28a8b92d9f681f78aff39。320bits/70位保存，4球每条candidate读回contains后才进completed，最终乘积用正式FN/GN upper；300s数学/600s child/20min workflow，无自动科学retry。旧源积分、Cauchy、Green、inverse不重。这里只启动真实新目标，run及实际结果随后登记；其ordinary贡献不代完整ν响应或闭族。
