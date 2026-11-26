@@ -9,7 +9,7 @@
 
 连通闭C2嵌入连续族、共同g、固定握持开区域；全曲面D下held/D≥.05、含反射δE>0、全时reach/D≥.03、全域全时metric≤1e−6；同一g/参数下真实网格/频率/时间加密到机器或求解容差，并给可重生完整网格。基础后继续held/D≥.2、δE/D≥.05或严格存在。有限结果不冒完成。
 
-- 根/课题README完整读于 `f0548477576caa2373d1626227a284ccfa9767d0`。最近已读公开提交 `4aaa7c1bd5d1f0538aa2a09b6265523354a82f2d`（2026-11-26 15:29:18 UTC真实pull/rebase后，双README逐差无变化）。根blob282e86b0、题blob e2318baa。每次literal pull立即核双README差异，至少每小时；有变只读差异立即执行，API读不冒pull。
+- 根/课题README完整读于 `f0548477576caa2373d1626227a284ccfa9767d0`。最近已读公开提交 `2f9f5939dee3a41f8436c1a90567388517e7ea73`（2026-11-26 15:33:46 UTC真实pull/rebase后，双README逐差无变化）。根blob282e86b0、题blob e2318baa。每次literal pull立即核双README差异，至少每小时；有变只读差异立即执行，API读不冒pull。
 - 私库QUEUE已认领推c7785184d0d9c503852fb2137e9e2c091221d080，进行中（本会话/2026-11-26），不重复认领。
 - 每结论立即CLI commit/push，NFF立刻literal pull --rebase/双README差异/再推循环；不force或改写已发表提交。完整证明直接登记results及索引，不附加独审/冻结门。根第15条：可重算证书/数据/Actions输出不存Git/Release，公开脚本、参数、run/SHA及实际结论；不分件规避。MD<100KB、H<10KB、题<200MB，不写根LOG，token仅命令环境。
 - 根唯一写main，agents只同级scratch。当前部分clone `/tmp/visible-flex-6a65e705/math-research-public`；同级geometry-work/exact-work/solver-work。旧历史见[11:15 H](https://github.com/Rogerhu12/math-research-public/blob/a9aaaf7d2fbdc01eb0df3e635d9065c20faac354/topics/visible-flexible-closed-surface/HANDOFF.md)、log/open/results索引；不重做已登记结论。
@@ -26,7 +26,7 @@
 
 ## 强幅度完整求解：两个实际运行及新输入
 
-**新v5**：[合同](notes/2026-11-26-6a65-solver-channel-block-v5-run-contract.md)，run45837984058/source0a26d8e0。原value317.038s和observer578.302s真0，INITIAL9fbce3d3…9f0a2/observer88fe44a5…eac95；15:19:30实际完成16次新接受，缓存第2步起真实复用，每步约49s；训练R²13.7897，密观察曲率成本165795.9/κ784043.6，normal相对.20418且LSMR80/stop7，仍严重漏峰和未收敛。首步1796.982s主要建源。13行/7760列/固定g/原λS，R239角通道块；20尝试、同job raw续算，真实拒绝不盲重试。
+**[v5真实20步](notes/2026-11-26-6a65-solver-v5-actual-twenty-step-batch.md)**：run45837984058/source0a26d8e0全20次接受、自然0；缓存后19步实际复用，每步约49s。末训练R²9.39167/metric1.61525，但密观察κ11746251.13/η3.00287e−6，全部LSMR80/stop7，末物理normal比.112742。两径向网格并非嵌套。state e112e214…cfdd0772/observer fd538180…688cb4ac；已发严格匹配release包，不再追加原采样，真正释放回执待查。主题继续新q2/全XYZ输入。
 
 **gap1.05/v.045新实际链**：[合同](notes/2026-11-26-6a65-geometry-gap105-cold-run-contract.md)，run45838996926/source1dd2ae1757346004be6a7641e492a562648baccc。prefix24.716s、zero170.073s、cache733.310s各真0；6单组+9双组+3增广+12面积q1=30真实接受，预算已完，实际状态明确保raw等待。prepared f9e7d265e0b0f7efb2077aa6b796457515d684e7c9df39c4fb23c946ea66932b；末state 00d88f0b93c1eed880b46ea8a3bace5ae8da76e5f5e518fb1ac15224e4e51693，末记录033-area-012。R14²2.61923327356504=原13行2.61827793375019+面积.000955339815；metric.990636/κ584.069/η.00829861/σ.09109671/held.673974，仍严重不合格。area7→12的σ从.109659下降，不称面积持续改善。两组皆训练，非独立观察。
 
@@ -53,5 +53,5 @@
 
 当前CLI已恢复，工作全在/tmp；旧失联raw不在，外部−9原因未证。root主分支，exact推进M48及专用全H，solver推进q2全H，geometry推进正高度新输入。子题完成继续open，不阶段收尾。
 
-<!-- 6a65-root-literal-rules --> 2026-11-26 15:29:18 UTC 真实pull/rebase读取main 4aaa7c1bd5d1f0538aa2a09b6265523354a82f2d，双README逐差无变化；CLI已恢复，后续普通Git发布。
+<!-- 6a65-root-literal-rules --> 2026-11-26 15:33:46 UTC 真实pull/rebase读取main 2f9f5939dee3a41f8436c1a90567388517e7ea73，双README逐差无变化；CLI已恢复，后续普通Git发布。
 <!-- 6a65-m12-angular-warm-ci-rules --> README unchanged at ad4b129edcc09592770ea062c229511aae519102; run 45847254548 attempt 1.
