@@ -1,0 +1,83 @@
+{
+  "schema": "held10-actual-v2-reexpression-v1",
+  "session": "Astra-held10-06bbeb39-20261126",
+  "observed_utc": "2026-11-26 08:35 UTC",
+  "workflow_run": 45775899674,
+  "workflow_url": "https://github.com/Rogerhu12/math-research-public/actions/runs/45775899674",
+  "command_id": "held10-warm-v2-design-20261126-01",
+  "status": "verified_zero_control_reexpression",
+  "source_run_sha256": "95cf676b072a34f48321138cf4fc90e69a35164e43897f2c79fb23f7eecc6eb2",
+  "source_raw_sha256": "46519d74e4a498cdc1328a6d459cb9ed949becd93ca3b185a08136afbad10732",
+  "run": "/home/runner/work/_temp/held10-warm/warm-v2-design/reexpressed-anchor/run.json",
+  "run_sha256": "bea39fb06862dfbfa1a00c6b89981f42a02c01b135739a0ee3ec15d716fa4e1f",
+  "raw_sha256": "5dd5419b19ce21ae2ebb088ea5d13ca6f453e60f15970757126dadd8eca18f7a",
+  "acceptance_kind": "same_cartesian_map_verified_reexpression",
+  "solver_invoked": false,
+  "solver_success": null,
+  "raw_success": null,
+  "finite_linear_candidate_pass": true,
+  "homotopy": 0.002,
+  "modes": 24,
+  "nodes": 631,
+  "rms": 9.927150345213775e-7,
+  "zero_control_identity": {
+    "all_original_RMS_chart_ds_bitwise_equal": true,
+    "all_original_RMS_chart_s_bitwise_equal": true,
+    "all_required_exact_equalities": true,
+    "bc_bitwise_equal": true,
+    "core_F_bitwise_equal": true,
+    "core_Ft_bitwise_equal": true,
+    "core_Ftt_bitwise_equal": true,
+    "cr_bitwise_equal": true,
+    "f_bitwise_equal": true,
+    "fm_bitwise_equal": true,
+    "initial_projection_bitwise_equal": true,
+    "literal_baseline_object": true,
+    "physical_bc_bitwise_equal": true,
+    "physical_profile_end_equal": true,
+    "prefix_end_equal": true,
+    "rms_bitwise_equal": true,
+    "same_angular_projection": true,
+    "same_basis": true,
+    "same_chart_join": true,
+    "same_chart_reference_prefix": true,
+    "same_gauge": true,
+    "same_modes": true,
+    "zero_phase_controls": true
+  },
+  "metric_diagnostics": [
+    {
+      "angular": 1168,
+      "component_fft_l1": [
+        6.482415781989006e-7,
+        2.1831101115962824e-7,
+        3.672697116141875e-7
+      ],
+      "legacy_max_component_fft_l1": 6.482415781989006e-7,
+      "sample_operator_max": 5.449318613117554e-7,
+      "common_node_component_difference": [
+        0,
+        0,
+        0
+      ],
+      "continuous_angle_inputs_declared_certified": false
+    },
+    {
+      "angular": 2336,
+      "component_fft_l1": [
+        6.482415812048341e-7,
+        2.1831101379962403e-7,
+        3.672697140520996e-7
+      ],
+      "legacy_max_component_fft_l1": 6.482415812048341e-7,
+      "sample_operator_max": 5.449318613117554e-7,
+      "common_node_component_difference": [
+        0,
+        0,
+        0
+      ],
+      "continuous_angle_inputs_declared_certified": false
+    }
+  ],
+  "scope": "Actual same-Cartesian-map representation accepted after identical raw equations and two finite angular metric audits. No lambda advance, no new BVP, no new continuous interval certificate, no full nonlinear tail, no complete surface."
+}

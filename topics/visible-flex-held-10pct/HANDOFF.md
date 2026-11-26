@@ -6,7 +6,7 @@
 
 连通闭C²嵌入、C²连续族；H闭、有内点且diamH≥.2D，整像δhold≥.1D、含反射δE>0，全时reach≥.03D。固定完整g/物理数据/时间范围加密到完整metric≤1e−6并持续下降。必须实际闭合和共用Cartesian两jet；λ<1不提供准确圆弧H。
 
-- 公共已完整读规则并真实pull：`3717571e82ff12d984be2362db02d009b4878c05`；私有根README/QUEUE接手登记已推 `2f68946f2fa3e192a291c7c1393231af1a89953e`。每次pull核双README差异，至少每小时一次。root独占git，逐结论push，NFF立即pull --rebase再推，禁force；令牌只命令行。
+- 公共已完整读规则并真实pull：`fc80ade0b50315db9483a023ad85878196bd1b8e`；私有根README/QUEUE接手登记已推 `2f68946f2fa3e192a291c7c1393231af1a89953e`。每次pull核双README差异，至少每小时一次。root独占git，逐结论push，NFF立即pull --rebase再推，禁force；令牌只命令行。
 - 工作树 `/tmp/held10-astra-06bbeb395471-public2`；原/workspace盘满，不删他人文件。旧1b6d88ec scratch不存在；54314/45287/79634最终状态仍未知。详细[本次接手/来源](notes/2026-11-26-resume-and-current-sources.md)。
 - 70份源及实际chart69a3e8eb...已冻结，保物理输入/原门；[恢复入口](notes/2026-11-26-tail-source-recovery.md)，不当新数学结果。
 - 公共[material run45763361623](https://github.com/Rogerhu12/math-research-public/actions/runs/45763361623)：M24 cold已真实δ中心差分越域，无raw；三路parent原门拒源exit2。现M16/512 cold已218→652→1954→5860节点且RMS仍大，未终态，原observer/分块8全门保留。下一命令是[λ.004历史完整H独立尾](notes/2026-11-26-recorded-lambda004-tail-input.md)，不取消当前任务；δ域内差分入口仅准备。
@@ -23,7 +23,7 @@
 **R67已证明**：[全谐波固定帽](results/R67-universal-threefold-marker-and-euclidean-noncongruence.md)去掉未知核心m3非零假设：非圆凸核总有某3j矩非零，帽全阶标记及两短柱选择给整段全E(3)非全等。明确帽成本保条件10%/reach余量，仍欠实际λ1图与原门。
 
 1. actual_tail恢复M24 λ.002真实场，续原fullH与8次外迭代。material队列另备[历史λ.004完整H的独立尾](notes/2026-11-26-recorded-lambda004-tail-input.md)，仅待当前命令自然返回，不称λ.002耦合。旧.25/.5 warm成功只属旧场，不当fullH，不把未知.75终态推断成功。
-2. fixed_metric另开[暖phase固定g的λ设计](notes/2026-11-26-warm-fixed-metric-lambda-branch.md)，warm独立通道[实际M24](notes/2026-11-26-warm-m24-actual-recovery.json)已原门过：631点/metric6.4824157829e−7，attempt000实际Overflow无raw，后续无暖accepted，M80端口失败后自然结束；[probe实跑exit0](notes/2026-11-26-warm-handoff-equivalence-execution.json)的旧chart RHS/BC/RMS全逐位同，[v2独立同图入口](notes/2026-11-26-warm-v2-zero-control-entry.md)首进程实际日志确认为np.bool_写JSON失败，已只修4处bool；同runner重验后由v2父入口继续真实λ求解；R65同λd=0保持完整核心，actualδ/gauge/mean1168固定，λ设计不当固定问题收敛，原角审计至少16(3M+1)。[λ1真DN入口](notes/2026-11-26-warm-lambda1-actual-dn-entry.md)已双审，保v1/v2身份/实际mean1168，尚无λ1输入；[λ1正式精化入口](notes/2026-11-26-warm-lambda1-fixed-problem-refinement-entry.md)仅实际λ1 accepted触发：同M加密、两次升M并比六jet/phase ℓ1；未执行。
+2. fixed_metric的[暖phase固定g λ设计](notes/2026-11-26-warm-fixed-metric-lambda-branch.md)运行于warm run45775899674。原M24已恢复；v1暖尝试全未过（Overflow/MemoryError/M80端口），不重跑。probe冻结旧chart逐位同；v2入口首轮仅np.bool保存失败，修4处后[同图重表达实际原门过](notes/2026-11-26-warm-v2-anchor-actual.json)：631点、RMS9.9271503452e−7、双角metric≤6.4824158121e−7；明确未调用新solver。当前v2父入口由此真实求λ.004，保δ/完整anchor/chart/gauge/mean1168，未有λ前进接受。metric单独超门才升M，其余从最后accepted二分λ。λ1后的[真DN](notes/2026-11-26-warm-lambda1-actual-dn-entry.md)和[固定问题精化](notes/2026-11-26-warm-lambda1-fixed-problem-refinement-entry.md)入口已备、均未执行；后者仍需v2适配，不能用v1合同冒收。
 3. seam_geometry处理实际桥--尾公共两jet，保mean1168/真primitive/高度符号；优先在余量较大的尾侧作显式Hermite接缝，尚无fullH数据不得报闭合。 已按原源码核明ω−1=w²(L+q)，全周转角决定meanSlope、归一化Darboux决定RR；须另付连续转角/求积/二阶残差。见[源码兼容](notes/2026-11-26-seam-mean-source-compatibility.md)，A≥.1仍是待验条件。[新cut入口](notes/2026-11-26-seam-new-prefix-cut-entry.md)已接parent：每个真正accepted尾包与其实际prefix同R两jet比较，保mean1168及原高度符号，区分native总导数与真背景加原meanCorrection；尚无新场输出。R66给三重高度下连续转角I=1即平面primitive闭合及缺口界，实际I与投影误差未付。[全尾表示/认证入口](notes/2026-11-26-seam-new-tail-representation-entry.md)已审，新shared-R/mean链/全段metric/K与deep collar待新场；[父入口](notes/2026-11-26-seam-tail-geometry-parent-entry.md)可先stage0再保原证书续全尾。同背景已实跑/SHA一致，[实际修补入口](notes/2026-11-26-seam-certified-attachment-entry.md)绑定同map证书选择L。
 
 ## 必须复用的前会话成果

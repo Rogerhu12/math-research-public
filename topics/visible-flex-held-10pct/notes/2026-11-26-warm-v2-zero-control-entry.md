@@ -40,3 +40,7 @@ python scripts/resume_20261126/warm_fixed_m3_continue_v2.py \
 ```
 
 该命令先真实验证同图重表达，只有accepted_input接受后才开始λ>.002设计；任何实际结果另行登记，当前不预认λ前进。
+
+## 实际同图验收已通过
+
+[实际小记录](2026-11-26-warm-v2-anchor-actual.json)绑定原source、实际新run/raw和全部原方程逐位等式。双角1168/2336完整相对metric最大分别为6.482415781989006e−7与6.482415812048341e−7，sample operator均为5.449318613117554e−7；原631点RMS9.927150345213775e−7。身份仍是重表达、solver_invoked=false/solver_success=null，不新增BVP成功。父入口已经开始原631点上的λ.004真实求解；当前尚无该步accepted，不把同图审计算λ前进。

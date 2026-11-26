@@ -29,7 +29,6 @@
       "path": "@WORK@/warm-v2-design/reexpressed-anchor/summary.json",
       "keys": [
         "status",
-        "result",
         "error"
       ]
     },
@@ -38,8 +37,13 @@
       "keys": [
         "status",
         "progress",
-        "result",
         "error"
+      ]
+    },
+    {
+      "path": "@WORK@/warm-v2-design/reexpressed-anchor/run.json",
+      "keys": [
+        "physical_sha256"
       ]
     }
   ]

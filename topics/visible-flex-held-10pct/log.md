@@ -324,3 +324,5 @@
 - 2026-11-26 08:29 UTC｜Astra-held10-06bbeb39-20261126：v2入口实际log确认np.bool_写JSON异常，原等式门未拒，尚未metric审计；仅4处bool转换。双重审阅v2后继已排：真实重验后从同631节点作完整lift/原门λ求解，metric单独失败才升M，其余从最后accepted二分；失效LU释放和分批仅资源改动，不晋失败场。
 
 - 2026-11-26 08:34 UTC｜Astra-held10-06bbeb39-20261126：暖λ1→原非线性DN入口与父入口双审/编译通过；显式v1/v2源合同、同δ/核/mean1168、实际完整H+原全J及8次外迭代、原有限门。可选原checkpoint逐项核physicalDepth与全部shooting states，成功包复用审缝不重复解。当前无λ1实场，未调用该求解器、不称fullH或闭合。
+
+- 2026-11-26 08:35 UTC｜Astra-held10-06bbeb39-20261126：v2同图重表达实际原门过，run bea39fb0/raw5dd5419b；631点RMS9.92715e−7、双角1168/2336 metric最大6.48241581205e−7，全部raw方程/核心/chart等式逐位同。身份仍solver_invoked=false/null来源，非λ前进；父入口已真求λ.004，未有该步接受。
