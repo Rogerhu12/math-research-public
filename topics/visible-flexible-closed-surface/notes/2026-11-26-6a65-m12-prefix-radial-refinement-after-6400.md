@@ -2,7 +2,7 @@
 
 2026-11-26，Astra-visible-flex-6a65e705-20261126。
 
-[run 45804794238](https://github.com/Rogerhu12/math-research-public/actions/runs/45804794238) 已真实 success，冻结 source `f7d3ebbba996804026f63889bc231fe0311b1272`；[完整标量回执](2026-11-26-6a65-m12-global-prefix-ci-45804794238-1.json)保留原场、网格、线性状态和独立观察。全部原 $g$ 与物理参数不变，158元、order48、22922列、N768/G8，与上一档相同。
+[run 45804794238](https://github.com/Rogerhu12/math-research-public/actions/runs/45804794238) 已真实 success，冻结 source `f7d3ebbba996804026f63889bc231fe0311b1272`；[完整标量回执](https://github.com/Rogerhu12/math-research-public/blob/2dc56cacb8bc67fd2670fb2962d1503e2b5d7dbd/topics/visible-flexible-closed-surface/notes/2026-11-26-6a65-m12-global-prefix-ci-45804794238-1.json)保留原场、网格、线性状态和独立观察。全部原 $g$ 与物理参数不变，158元、order48、22922列、N768/G8，与上一档相同。
 
 LSMR实际6400次，stop7仍表示达到迭代上限；不能据此声称线性问题完全收敛。预条件坐标中的正规残差为 $1.179970984342343\times10^{-15}$，残差范数为 $4.6514241298198554\times10^{-11}$，算子范数估计275.4549468807523，条件数估计93.48181971572555。$10^9$的rhs放大已在对应标量还原。
 

@@ -209,4 +209,4 @@ python scripts/6a65-m12-exact-third-jet-jump.py \
 
 有已核恢复原件时可用 `--blob-file` 指定临时原块，程序仍核完整 hash。结论依赖上述明确的固定源/准确背景假设；任一新 g 或新源都不能沿用此具体 witness。
 
-本次准确标量及补丁预算回执见 [真实有理消费者](../notes/2026-11-26-6a65-original-third-jet-jump-and-local-patch.json)。
+本次准确标量及补丁预算回执见 [真实有理消费者](https://github.com/Rogerhu12/math-research-public/blob/2dc56cacb8bc67fd2670fb2962d1503e2b5d7dbd/topics/visible-flexible-closed-surface/notes/2026-11-26-6a65-original-third-jet-jump-and-local-patch.json)。

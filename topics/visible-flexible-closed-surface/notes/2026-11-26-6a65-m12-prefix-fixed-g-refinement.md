@@ -2,7 +2,7 @@
 
 2026-11-26，Astra-visible-flex-6a65e705-20261126。
 
-公开 [run 45797640490](https://github.com/Rogerhu12/math-research-public/actions/runs/45797640490)，job 139832301953，attempt 1，冻结 source `8b5358e307ebe3439a47b6861a1647848bf2ecf7` 已真实 success。其[完整小标量报告](2026-11-26-6a65-m12-global-prefix-ci-45797640490-1.json)记录完整原 common-cut 前缀，不能代替真正全尾或时间族。
+公开 [run 45797640490](https://github.com/Rogerhu12/math-research-public/actions/runs/45797640490)，job 139832301953，attempt 1，冻结 source `8b5358e307ebe3439a47b6861a1647848bf2ecf7` 已真实 success。其[完整小标量报告](https://github.com/Rogerhu12/math-research-public/blob/2dc56cacb8bc67fd2670fb2962d1503e2b5d7dbd/topics/visible-flexible-closed-surface/notes/2026-11-26-6a65-m12-global-prefix-ci-45797640490-1.json)记录完整原 common-cut 前缀，不能代替真正全尾或时间族。
 
 ## 真实已完成的第一档
 
@@ -30,7 +30,7 @@ workflow 现从受范围检查的小请求读取 elements/order/angular/gauss/bl
 
 ## 第二档真实返回与代数误差分离
 
-[run 45802097600](https://github.com/Rogerhu12/math-research-public/actions/runs/45802097600) 已真实 success，完整标量见[回执](2026-11-26-6a65-m12-global-prefix-ci-45802097600-1.json)。同一原 $g$ 下158元、order48、22,922列、N768/Gauss8，LSMR1600仍 stop7，$\alpha=1$ 真实接受。独立 Gauss10/N1536 的 metric 峰为 $4.6393601242341044\times10^{-10}$，训练峰为 $4.640735744274841\times10^{-10}$，两者已接近；独立曲率峰 $5.1127246793227545$，support 下界 $0.8178848938612796$。
+[run 45802097600](https://github.com/Rogerhu12/math-research-public/actions/runs/45802097600) 已真实 success，完整标量见[回执](https://github.com/Rogerhu12/math-research-public/blob/2dc56cacb8bc67fd2670fb2962d1503e2b5d7dbd/topics/visible-flexible-closed-surface/notes/2026-11-26-6a65-m12-global-prefix-ci-45802097600-1.json)。同一原 $g$ 下158元、order48、22,922列、N768/Gauss8，LSMR1600仍 stop7，$\alpha=1$ 真实接受。独立 Gauss10/N1536 的 metric 峰为 $4.6393601242341044\times10^{-10}$，训练峰为 $4.640735744274841\times10^{-10}$，两者已接近；独立曲率峰 $5.1127246793227545$，support 下界 $0.8178848938612796$。
 
 实际完整求解 438.41565698秒，峰值 RSS269068KiB，J/JT 相对配对误差 $4.953376908871223\times10^{-15}$。保存场 SHA `78428c9792b7ca4f341ca8c732b1dad8d08155fc21fb3f0f23d84c7fb5485d70`，数值报告 SHA `86917a4c4edefa60114ef97564fbd7a49d65b5aae0b77284c49a111ac6320a02`，stdout SHA `21998b76021beee2dcde87155bde98d7b4ebb1d1e3863c464902c9b1c4f7463a`。新独立峰在 $s=1.9621752344277992$，中央与内部 cut 的三阶修正端迹仍全零。
 

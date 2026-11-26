@@ -2,7 +2,7 @@
 
 2026-11-26，Astra-visible-flex-6a65e705-20261126。
 
-[实际run45812620369](https://github.com/Rogerhu12/math-research-public/actions/runs/45812620369) 的完整独立 Cartesian 子进程已自然 exit **0**。外部进程回执为 **1073.140468766 s**，真实结束时间 **2026-11-26 12:07:12 UTC**。下表和全部身份来自[同job公开标量回执](2026-11-26-6a65-cartesian-cold-45812620369-1.json)，不是新程序对旧raw的重算。
+[实际run45812620369](https://github.com/Rogerhu12/math-research-public/actions/runs/45812620369) 的完整独立 Cartesian 子进程已自然 exit **0**。外部进程回执为 **1073.140468766 s**，真实结束时间 **2026-11-26 12:07:12 UTC**。下表和全部身份来自[同job公开标量回执](https://github.com/Rogerhu12/math-research-public/blob/2dc56cacb8bc67fd2670fb2962d1503e2b5d7dbd/topics/visible-flexible-closed-surface/notes/2026-11-26-6a65-cartesian-cold-45812620369-1.json)，不是新程序对旧raw的重算。
 
 原输入是本job按公开无z配方真实生成的1788列 Cauchy INITIAL及其matching observer；原Cauchy接受数为0。此独立模型固定该实际输入的完整g、角primitive和全部物理参数，保留13点行、7760列、训练512角，共323584点/4206592行。接受一步α=1，独立接受数1；原Cauchy状态及计数未改，不能计成原长分支的一步。
 

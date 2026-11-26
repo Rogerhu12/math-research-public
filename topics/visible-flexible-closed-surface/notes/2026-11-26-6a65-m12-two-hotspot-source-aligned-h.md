@@ -4,7 +4,7 @@
 
 ## 1. 以实际全域峰值选择第二单元
 
-[实际 run 45821092388 回执](2026-11-26-6a65-m12-entire-half-ci-45821092388-1.json) 对应源提交 cd31d2b00bcf8470c3856c8ac22e88e89b83ab8d，保存场 SHA-256 为 6d328d4cfbc5e6fdafd44705e7c8f35dfe00833b3675f53e8ae3ca2fc6cf00af。原 297 个微窗点的峰由上一实际场的 $1.933428950273708\cdot10^{-8}$ 降至 $3.9674219465268834\cdot10^{-10}$；全域独立观察及旧观察超集的峰为 $4.216833660031229\cdot10^{-9}$，位于 $q=2.1217812728079277$。
+[实际 run 45821092388 回执](https://github.com/Rogerhu12/math-research-public/blob/2dc56cacb8bc67fd2670fb2962d1503e2b5d7dbd/topics/visible-flexible-closed-surface/notes/2026-11-26-6a65-m12-entire-half-ci-45821092388-1.json) 对应源提交 cd31d2b00bcf8470c3856c8ac22e88e89b83ab8d，保存场 SHA-256 为 6d328d4cfbc5e6fdafd44705e7c8f35dfe00833b3675f53e8ae3ca2fc6cf00af。原 297 个微窗点的峰由上一实际场的 $1.933428950273708\cdot10^{-8}$ 降至 $3.9674219465268834\cdot10^{-10}$；全域独立观察及旧观察超集的峰为 $4.216833660031229\cdot10^{-9}$，位于 $q=2.1217812728079277$。
 
 独立观察径向索引为 1413，每元 8 个 Gauss 点，因此它属于零起算第 176 元。该单元在第一次加密位置之前，原 362 元和当前 428 元的编号相同。数值区间为
 
@@ -59,7 +59,7 @@ $$
 
 传递准备 14.8969037 秒、exit 0；网格报告 SHA 为 11464789bf6058f649ee587c02654e9bc1672e82581f402173459939dae0fde9，查询配方 SHA 为 2ad64e01e99855502e5fc03887fb8d8ac09ccf43bcd51c9a1093f9a9c5e5dcda。网格报告含本地祖先来源元数据，故其文件 SHA 不冒称为 Actions 网格报告 SHA；前一代查询配方确与实际 h428 回执的 2cdbcd42135ef6f4d8588a4c85ed82e9c0e07a0cb073c9ef04d06b9cb5ff64bd 一致。
 
-使用扩大的源节点包络重新实际准备第一个热点后，旧 428 元网格逐项和查询 SHA 均保持完全相同。[集合及精确点检查](2026-11-26-6a65-m12-two-hotspot-prepare-check.json) 实际 0.147938 秒、exit 0；新冷入口 plan-only 实际 exit 0，未运行新求解。八个 Python 文件均可编译；工作流 YAML、9 段 bash 语法、6 段 Python AST 实际通过。身份见 [冻结源码回执](2026-11-26-6a65-m12-two-hotspot-frozen-source-receipt.json)。
+使用扩大的源节点包络重新实际准备第一个热点后，旧 428 元网格逐项和查询 SHA 均保持完全相同。[集合及精确点检查](https://github.com/Rogerhu12/math-research-public/blob/2dc56cacb8bc67fd2670fb2962d1503e2b5d7dbd/topics/visible-flexible-closed-surface/notes/2026-11-26-6a65-m12-two-hotspot-prepare-check.json) 实际 0.147938 秒、exit 0；新冷入口 plan-only 实际 exit 0，未运行新求解。八个 Python 文件均可编译；工作流 YAML、9 段 bash 语法、6 段 Python AST 实际通过。身份见 [冻结源码回执](https://github.com/Rogerhu12/math-research-public/blob/2dc56cacb8bc67fd2670fb2962d1503e2b5d7dbd/topics/visible-flexible-closed-surface/notes/2026-11-26-6a65-m12-two-hotspot-frozen-source-receipt.json)。
 
 ## 6. 完整同场流水线
 
@@ -82,7 +82,7 @@ python topics/visible-flexible-closed-surface/scripts/6a65-m12-entire-half-two-h
 
 本档工作流给 90 分钟预算。数值开始前将触发提交的整个 topic 和两份 README 复制到 RUNNER_TEMP 的冻结目录，核对触发 HEAD、干净文件及 README SHA。数值程序只读这份冻结来源；发布工作树可继续普通拉取。监督器在开始时和每隔 2700 秒实际执行 pull --rebase，返回后立即读两份 README 的差异；未变则只更新本作业 HANDOFF marker，普通 commit/push。非快进后重复该过程，保留其他人的正文与 marker。
 
-发现 README 变化时，监督器保存实际差异，终止当前数值进程组并以 42 退出；后续 scalar publisher 也检查同一状态，不能跳过。主会话据此应用新规则再继续。已执行的 [纯本地 Git 集成检查](2026-11-26-6a65-m12-live-rules-supervisor-check.json) 实际制造并通过一次非快进重试、保留并发 HANDOFF 内容，随后制造真实 README 变化并确认没有再发布 marker、没有把变更提交标成已读；检查耗时 0.481403 秒、exit 0。该检查只操作临时本地仓库，没有外部 ref 写入。
+发现 README 变化时，监督器保存实际差异，终止当前数值进程组并以 42 退出；后续 scalar publisher 也检查同一状态，不能跳过。主会话据此应用新规则再继续。已执行的 [纯本地 Git 集成检查](https://github.com/Rogerhu12/math-research-public/blob/2dc56cacb8bc67fd2670fb2962d1503e2b5d7dbd/topics/visible-flexible-closed-surface/notes/2026-11-26-6a65-m12-live-rules-supervisor-check.json) 实际制造并通过一次非快进重试、保留并发 HANDOFF 内容，随后制造真实 README 变化并确认没有再发布 marker、没有把变更提交标成已读；检查耗时 0.481403 秒、exit 0。该检查只操作临时本地仓库，没有外部 ref 写入。
 
 所有 raw 仍只留 RUNNER_TEMP；不上传 artifact、Release 或 raw Git。恢复凭据仅留恢复子进程；纯数值消费器剥离该变量。发布普通小 scalar 回执的窄 push 路径不被报告自身触发。本文只证明此运行入口的对象和观察包含性，未支付第 5 条所需的完整精确解或无缺陷收敛。
 
@@ -90,4 +90,4 @@ python topics/visible-flexible-closed-surface/scripts/6a65-m12-entire-half-two-h
 
 旧 h428 实际主回执已有 70,453 字节。为完整保留 R236 与双微窗、祖先来源、长作业规则记录，新 publisher 固定写三个相互绑定的小 JSON：主身份/数值观察、全部连续及 STL 报告、全部 localized metric 报告。主文件包含每个外件的路径、字节数、SHA-256 以及同一场/网格/源提交身份；外件也保存这些身份。三件在同一个普通提交中发布，不删报告内容。
 
-[格式预算回执](2026-11-26-6a65-m12-two-hotspot-scalar-format-budget.json) 只使用旧真实 h428 报告和独立实际执行的人工场 R236 报告做序列化格式检查，未冒认二者属于同一数学场。给主文件和连续报告各另加 8192 字节元数据余量后，实际执行工作流中的分件代码，得到 35,190、53,383、14,385 字节；各件均小于 100,000 字节。反序列化后全部输入 scalar 项逐项恢复，并重新验证外件 SHA 与字节数。临时格式样本未发到仓库；公开的只有这份明确标识格式用途的小检查回执。
+[格式预算回执](https://github.com/Rogerhu12/math-research-public/blob/2dc56cacb8bc67fd2670fb2962d1503e2b5d7dbd/topics/visible-flexible-closed-surface/notes/2026-11-26-6a65-m12-two-hotspot-scalar-format-budget.json) 只使用旧真实 h428 报告和独立实际执行的人工场 R236 报告做序列化格式检查，未冒认二者属于同一数学场。给主文件和连续报告各另加 8192 字节元数据余量后，实际执行工作流中的分件代码，得到 35,190、53,383、14,385 字节；各件均小于 100,000 字节。反序列化后全部输入 scalar 项逐项恢复，并重新验证外件 SHA 与字节数。临时格式样本未发到仓库；公开的只有这份明确标识格式用途的小检查回执。

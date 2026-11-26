@@ -275,4 +275,4 @@ JavaScript 二进制浮点相加可把末两坐标显示为尾数 `...6914`；
 
 ## 可复算的准确有理检查
 
-全部端点比较由[标准库 Fraction 程序](../scripts/6a65-geometry-central-gap-held-budget.py)给出，输入[明确的旧观察记录](../notes/2026-11-26-6a65-central-gap-recorded-observations.json)只决定条件命题中的数值假设。实际程序自然 exit 0，11个gap端点盒、所有严格比较及两个必要积分门槛都已返回；完整输出只留scratch，输出SHA和确切命令见上述记录。正项级数余项、单调性与式(2)、(4)–(6)给出证明，不把浮点开方显示值或旧有限观察当作连续证书。
+全部端点比较由[标准库 Fraction 程序](../scripts/6a65-geometry-central-gap-held-budget.py)给出，输入[明确的旧观察记录](https://github.com/Rogerhu12/math-research-public/blob/2dc56cacb8bc67fd2670fb2962d1503e2b5d7dbd/topics/visible-flexible-closed-surface/notes/2026-11-26-6a65-central-gap-recorded-observations.json)只决定条件命题中的数值假设。实际程序自然 exit 0，11个gap端点盒、所有严格比较及两个必要积分门槛都已返回；完整输出只留scratch，输出SHA和确切命令见上述记录。正项级数余项、单调性与式(2)、(4)–(6)给出证明，不把浮点开方显示值或旧有限观察当作连续证书。

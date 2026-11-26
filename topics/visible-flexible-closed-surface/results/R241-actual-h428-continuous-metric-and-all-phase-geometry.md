@@ -20,7 +20,7 @@ $$
 
 ## 1. 新执行的唯一实际输入
 
-[run 45826114835](https://github.com/Rogerhu12/math-research-public/actions/runs/45826114835) 消费冻结提交 f878ec7a2766c1d2a00f06c8d05893828986f7a5，全部步骤实际 success。完整证据见[同 job 标量回执](../notes/2026-11-26-6a65-m12-entire-half-ci-45826114835-1.json)。
+[run 45826114835](https://github.com/Rogerhu12/math-research-public/actions/runs/45826114835) 消费冻结提交 f878ec7a2766c1d2a00f06c8d05893828986f7a5，全部步骤实际 success。完整证据见[同 job 标量回执](https://github.com/Rogerhu12/math-research-public/blob/2dc56cacb8bc67fd2670fb2962d1503e2b5d7dbd/topics/visible-flexible-closed-surface/notes/2026-11-26-6a65-m12-entire-half-ci-45826114835-1.json)。
 
 此次先真实重生此前 h428 输入，再在同一 runner 内运行新的 R236 核验；没有从已经结束的 run 借取 raw。重生场 SHA 与 run 45821092388 的场逐字相同，因此不把这次相同数值接受重新登记为新的改善。网格与报告包含新的执行元数据，其 SHA 分别绑定本次执行，不能与旧运行混用。
 

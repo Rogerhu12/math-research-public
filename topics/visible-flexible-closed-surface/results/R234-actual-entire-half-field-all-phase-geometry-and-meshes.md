@@ -15,7 +15,7 @@ $$
 
 ## 1. 唯一实际场和整域身份
 
-[run45815969723](https://github.com/Rogerhu12/math-research-public/actions/runs/45815969723) 在冻结提交 `3a751a836c60a4f33efa9e0ddd3060a188621adc` 消费原 M12 同一个准确 $g$。完整域包括中央、所有前缀、准确 bridge、全部有限尾和 deep collar，直到真正 flat cuff；半径 .6 的接口自由。实际完整标量证据保存在[同job回执](../notes/2026-11-26-6a65-m12-entire-half-ci-45815969723-1.json)。
+[run45815969723](https://github.com/Rogerhu12/math-research-public/actions/runs/45815969723) 在冻结提交 `3a751a836c60a4f33efa9e0ddd3060a188621adc` 消费原 M12 同一个准确 $g$。完整域包括中央、所有前缀、准确 bridge、全部有限尾和 deep collar，直到真正 flat cuff；半径 .6 的接口自由。实际完整标量证据保存在[同job回执](https://github.com/Rogerhu12/math-research-public/blob/2dc56cacb8bc67fd2670fb2962d1503e2b5d7dbd/topics/visible-flexible-closed-surface/notes/2026-11-26-6a65-m12-entire-half-ci-45815969723-1.json)。
 
 此次数值空间仍为362元、35378列、角阶32、训练384角/G6、LSMR800及一个完整Newton更新。LSMR实际stop7，不能称迭代收敛。实际接受α=1，独立768角/G8观测峰 $8.494317027540887\cdot10^{-9}$；这个采样峰不替代连续界。
 

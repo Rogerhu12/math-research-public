@@ -4,7 +4,7 @@
 
 [run 45821092388](https://github.com/Rogerhu12/math-research-public/actions/runs/45821092388)，job 139913217811，实际 Actions 终态为 **completed/success**。源为 cd31d2b00bcf8470c3856c8ac22e88e89b83ab8d，request revision 3。完整十阶段均自然 exit 0，执行器总用时 **2390.295613826 秒**；其中真实全半体求解为 1611.516835517 秒。其后同场三份完整 STL 真实生成，用时 5.875450812 秒，标量结果普通推送成功。
 
-完整原回执为 [本 run 的 scalar JSON](2026-11-26-6a65-m12-entire-half-ci-45821092388-1.json)。本条是新的有限同度量加密结果，不是新的精确等距存在证明，也没有付清 README 第 5 条。
+完整原回执为 [本 run 的 scalar JSON](https://github.com/Rogerhu12/math-research-public/blob/2dc56cacb8bc67fd2670fb2962d1503e2b5d7dbd/topics/visible-flexible-closed-surface/notes/2026-11-26-6a65-m12-entire-half-ci-45821092388-1.json)。本条是新的有限同度量加密结果，不是新的精确等距存在证明，也没有付清 README 第 5 条。
 
 ## 唯一空间改变与没有丢掉的观察
 

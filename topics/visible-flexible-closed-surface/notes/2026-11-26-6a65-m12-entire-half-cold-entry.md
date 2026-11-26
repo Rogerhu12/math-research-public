@@ -12,7 +12,7 @@ $$
 7.974019\times10^{-9}\longrightarrow 8.0562388296\times10^{-10}.
 $$
 
-这是原固定 $g$ 的真实位置联动下降。LSMR stop 7 表示到迭代上限；训练峰约 $5.16781\times10^{-10}$ 不能替代独立峰。独立新峰在 $s\approx1.961593$，仍位于 bridge 内部；固定的 common cut 是 $S_*\approx2.021775895$。主曲率峰约 $5.11272467855$，实际 J/JT 相对配对误差约 $7.56\times10^{-15}$。完整标量记录见 [该 run 记录](2026-11-26-6a65-m12-global-prefix-ci-45797640490-1.json)。
+这是原固定 $g$ 的真实位置联动下降。LSMR stop 7 表示到迭代上限；训练峰约 $5.16781\times10^{-10}$ 不能替代独立峰。独立新峰在 $s\approx1.961593$，仍位于 bridge 内部；固定的 common cut 是 $S_*\approx2.021775895$。主曲率峰约 $5.11272467855$，实际 J/JT 相对配对误差约 $7.56\times10^{-15}$。完整标量记录见 [该 run 记录](https://github.com/Rogerhu12/math-research-public/blob/2dc56cacb8bc67fd2670fb2962d1503e2b5d7dbd/topics/visible-flexible-closed-surface/notes/2026-11-26-6a65-m12-global-prefix-ci-45797640490-1.json)。
 
 这一次仍固定内部 common cut，故下面释放该接口的完整半体问题是后续实作。它不改变原度量、时间范围或输入振幅。
 
