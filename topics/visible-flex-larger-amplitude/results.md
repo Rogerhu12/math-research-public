@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- **R713（已证明，准确profile费用可执行）**：[完整有理矩与实际三moment误差](results/R713-exact-smooth-triangle-moments-and-actual-fees.md) — 全十二片任意绝对矩有限有理递推，统一Taylor余项包围A/A′/A″并与同批真实工作字付全差额；新全(0,π)根与两角传播、中央h/h_s全片区间完整。82e6独立来源绑定实际报告/数组，外部准确总均值/参考/节点关联及normal费用仍未付，未科学执行。
+
 - **R712（已证明，全部正半径准确初种子比较）**：[完整正半径中央二阶比较](results/R712-full-positive-radius-central-second-derivative-comparison.md) — sinc亏损在(0,π)的统一下界给新旧中央max|Fss|比例≤256π√2/2325<1/2；保同准确均值、core/H、端层和长度，覆盖旧五段自然延拓全部0<r<1。工作π/2源未改，完整K/reach与优化末场不迁证。
 
 - **R711（已证明，准确中央机制与条件几何比较）**：[平滑三角型中央相位](results/R711-smooth-triangle-central-profile-and-geometric-comparison.md) — 同R709均值根覆盖全部0<r<1；保闭合/全角/端口，最大相位斜率在明确scalar类内32/31近最优。同r>2/π准确初seed的中央max|Fss|严格低于旧ε=.1一半；完整两角/位置局部化及正交曲率上界明列，不冒完整K、嵌入、reach或实际运行。
