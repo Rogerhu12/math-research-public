@@ -5,7 +5,7 @@
 ## 主目标、规则与执行
 
 - **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍仅全体有界算子的存在定理或完整反例；子结果不作完成。
-- **最近实际 pull / 已读规则提交：** `e412d5618db4ed9a51624909bdc4f1596c8b17e5`（2026-11-26 06:36:27 UTC）。本次两README无新规则差异；已读根/课题README、H/open、结果索引及定点log/notes。每次pull及至少每小时比diff，记录SHA。
+- **最近实际 pull / 已读规则提交：** `9780251b318fc9058c2f0c0250702f43bbeb345e`（2026-11-26 06:39:33 UTC）。本次两README无新规则差异；已读根/课题README、H/open、结果索引及定点log/notes。每次pull及至少每小时比diff，记录SHA。
 - 私库 `QUEUE.md` 已成功更新认领，提交 `e776df496eedfa449b0475cefe140fdae7023db4`；非快进已逐次pull --rebase后重推成功。研究在公开仓库，私库仅维护QUEUE；不force，令牌仅CLI环境。
 - 断线后重建部分克隆 `/tmp/isp-347c05929dd3/math-research-public`。旧TMP丢失源已恢复；新字节另记执行。root独占git/主索引，子代理独占TMP；每结论单推，只留源/参数/身份/SHA，无数组。
 - 完整交接链见[压缩前H](notes/2026-11-26-handoff-before-weighted-residual-347c.md)及其归档链接。MD<100KB、H<10KB、open尽量<30KB、topic<200MB；不写根LOG。
@@ -31,15 +31,16 @@
 
 M=kerT、N=closure BM；N=M未证。始终保same-w/u、全部partial、真intersection旗、MP自然域、负前缀/未来/carry与真帽外投影。旧τ14/Bessel、PV−PK能量、一次MP与各低旗预算只保原范围；核外第二逆/任意kernel-input未付。
 
-- [纯远孔完整Galerkin/MP](results/R271-appendix-dual-tower-kernel-only-error-pure-far-height-representatives-and-joint-reciprocal-budget.md)及[分离高度门](results/R271-appendix-separated-height-bands-exact-full-head-bessel-and-d-sized-prefix-budget.md)：m∈4ℕ≥20、d=2^m、R=d、Q=4d，允许上半高度带的全β行Bessel1；非零同w锚必要Σκ⁻²有限。增长R/Q必须重新核原母窗，不能移用旧帽。
+- 旧纯远孔完整Galerkin/MP、真旗代表及分离高度的全β行Bessel1均保索引原窗；非零同w锚必要Σκ⁻²有限。原m∈4ℕ≥20、d=2^m、R=d、Q=4d；增长R/Q重核母窗，不移用旧帽。
 - 原forcing准确是最低整数坐标f1=e1⊗Ω，Ce1=e0、Ce0=0；实际C²f1=0。它不同于任意物理一孔列，后者不能套该低真旗前提。
 - N/Y、偶R/奇r全MP至多最高t⁻¹，新增秩全一阶；偶r可t⁻²。旧/参考头相似e221a/e441a给883a费，原−logt主阶1400a。实际源若≤Lt²、logL=o(a)才有517a余量，这个全源条件未证。
 - [精确源极点](results/R271-appendix-complete-galerkin-highest-carry-pole-and-cancellation-criterion.md)：K=kerX0、E1=P_cokerX0 X1|K、F0=kerE1，E1*q₋₁=P_K(f−H0a0)。有界恰退化全K-Galerkin解属F0；O(t)还须ξ0=0且P_Kξ1=0。固定E不代移动谱投影。
 - **[任意奇高度完整高孔费](results/R271-appendix-general-odd-height-hankel-congruence-and-complete-high-hole-cost.md)：** m≥5、偶R≥d、任意奇r，长短坏链及旧真旗全部保留；A0两门、全阶乘/exp(12r²/n)、原s缩放和一次非正交κ均付。仍需原γ<1/16的加权Zγ，不把合同当正交。
-- **[全区间正则界](results/R271-appendix-complete-highest-carry-linear-graphs-and-full-interval-regular-cost.md)：** 真核/余核是固定自由块⊥底坐标I的线性图，Π′、Q′≤2L；全0<t≤1有q−t⁻¹q₋₁的明确K0、h、h1、L费用。有效半径已付，粗费用仍大，需实际源/导数或孔相关乘积。
+- **[全区间正则界](results/R271-appendix-complete-highest-carry-linear-graphs-and-full-interval-regular-cost.md)：** 完整真核/余核线性图给Π′、Q′≤2L，全部0<t≤1的q−t⁻¹q₋₁费用已付。粗费用仍大，继续实际源/导数和孔相关乘积。
 - **最高单位不变、辅助分级及S一致真旗费已证，见索引。** 原F0不随最高单位变；保原Gram的辅助带宽n−1及S/R无关谱界只给γ近1。原最低列全0<S≤1有ξ0≤1600Kflag³，真实受限逆全付；无权费仍含64^R，不能替换原压缩逆或当γ<1/16。
 - **[全部高度的完整真旗源界](results/R271-appendix-all-height-true-flag-uniform-variance-source.md)已证：** 全0<S≤1、所有奇r≥3的原受限逆费用与零方差Green递推均付；新增r≥5，r3保旧锐界并与原能量界取小。仍是无权费，γ<1/16高孔界与整个κ未闭。
-- **[联合carry的完整相对Gram已付](results/R271-appendix-joint-carry-finite-fock-multiplier-and-exponential-strong-prefix-gram.md)：** 有限Fock准确乘子把原c26预算直接送入同一F的完整Gram/inverse及同forcing能量列；x可至exp(13d³)，整个强头有限塔可至exp(26d³)/4。Γ=32^N两向乘子也近恒等，无32^x费；实际未加权最小者的绝对孔权仍不能凭此替换。
+- **[联合carry完整相对Gram](results/R271-appendix-joint-carry-finite-fock-multiplier-and-exponential-strong-prefix-gram.md)：** 原双factorial经有限Fock乘子给同F全Gram/inverse、同forcing全列与双向Γ乘子近恒等；不以加权最小者替原未加权者。
+- **[指数强前缀的实际源强极限](results/R271-appendix-exponential-strong-prefix-actual-variance-source-limit.md)：** d≤x、x+1≤exp(26d³)/4、1≤J≤d+x−m−1且s≥S_x→0时，完整H_C,J逆强趋P_M、全部正高度能量趋0；含J1及s=S_x。原Q≥R+J和大辅助窗已付；没有速率，不移到未知F0压缩逆。
 - **[实际方差窗的物理加权残余差已付](results/R271-appendix-actual-window-weighted-full-galerkin-residual-transfer.md)：** m≥10、x+1≤d⁴/64、原高度窗和s≥S_x，原未加权同F最小者有‖Γ(ξ_A−ξ_C)‖≤e^(−7d⁴/4)‖f‖；a及全能量列同界。最高carry零头用m−1及Q′≥R+r，差≤e^(−7d⁴/64)。参考A_x也保同F0，绝对Zγ仍开。
 - 小头m2/R2 κ²<e⁻²⁰⁰⁰、m3/R0/r3 κ²>e³⁸⁰⁰⁰且极点非零，均非旧联合窗；不能逐级外推。原m3高孔/一般r3已闭范围保前H和索引，不重算。
 - 全部返回接口继续：旧carry真实源、完整负部合并与同w倒数和、核外第二逆/第三旗、帽逆伴随后误差。固定公共多项式塔的指数障碍只排原家族，不排实际源专属lift；不能以小残量、另一个核或任意有限层替换原项。

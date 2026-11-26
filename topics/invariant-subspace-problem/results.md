@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R271 指数强前缀上实际方差的完整源强极限（2026-11-26，已证明）：** [真实头inverse、完整正能量及母支持](results/R271-appendix-exponential-strong-prefix-actual-variance-source-limit.md)在x+1≤exp(26d³)/4、全强头有限塔和s≥S_x→0给H_C,J逆强趋原P_M，正高度总能量趋0；含J1与s=S_x，保Q及大辅助方差真实来源。只运输完整F=H，不宣未知F0压缩逆或绝对孔权已付。
+
 - **R150 整个约化秩二第三累积量的内均值临界层完整分类（2026-11-26，已证明）：** [原双极线整除、全部g²吸收及射影边界](results/R150-appendix-rank-two-reduced-third-cumulant-inside-mean-complete-classification.md)从最高式强制两个均值系数非零并立方对齐，接前稿完整低梯度得唯一两原子T3零族。九原Bézout子式的两来源身份、六次/D8/W±全部37个QQ逆回乘，0.016357秒实际成功。H二点支撑是结论；外均值、二jet和更高秩仍开。
 
 - **R150 单位2+1+1相反基点配对的零基点mean整支为空（2026-11-26，已证明）：** [原孤立零点最高式和完整范数纤维](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-opposite-pairings-zero-base-mean-exclusion.md)从P(U)=0得到全权无除法J=2m³及2N_i³+JP_i²=0；p1/q−1/b=c的非半权以完整Gram秩排除，半权两纤维以原等向2+1分类排除。自足QQ源0.734565秒；未扩到q−1的非零基点mean。

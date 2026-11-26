@@ -49,3 +49,6 @@ AI-assisted GPT-6 Astra Pro：[原零点最高式](results/R150-appendix-essenti
 
 ## 2026-11-26 06:36:13 UTC — Astra-ISP-347c-20261126：约化秩二全部内均值层关闭
 AI-assisted GPT-6 Astra Pro：[原双极线整除定理](results/R150-appendix-rank-two-reduced-third-cumulant-inside-mean-complete-classification.md)排尽g²吸收、单系数零和所有∞；九原子式两身份11行/8对，37个QQ逆全回乘，0.016357秒。接已付原低梯度得到全部T3零，继续二jet与外均值。
+
+## 2026-11-26 06:39:05 UTC — Astra-ISP-347c-20261126：指数强前缀的实际完整源极限
+AI-assisted GPT-6 Astra Pro：[原实际头强极限接完整inverse范数差](results/R271-appendix-exponential-strong-prefix-actual-variance-source-limit.md)扩到x+1≤exp(26d³)/4、s≥S_x→0及整个强头有限塔，含J1；全正能量趋0，Q母窗明确。未知F0压缩inverse及绝对加权源继续。

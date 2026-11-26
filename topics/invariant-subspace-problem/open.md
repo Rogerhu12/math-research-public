@@ -70,6 +70,8 @@ $$
 
 **新增完整比较接口：** [联合carry、有限Fock乘子与指数强前缀](results/R271-appendix-joint-carry-finite-fock-multiplier-and-exponential-strong-prefix-gram.md)用原同一F、同一f支付完整有限高度Gram和inverse的相对误差，条件3J(x+1)³≤exp(417d³/4)；原高度窗覆盖x≤exp(13d³)，强头整个有限塔覆盖x≤exp(26d³)/4。原物理孔权Γ=32^N的双向乘子亦近恒等，不付32^x；但不能把同F换成ker A_x^r，不能以加权Gram变分问题替原未加权最小者，更不能据此宣绝对Zγ已付。
 
+[实际方差的指数强前缀完整源极限](results/R271-appendix-exponential-strong-prefix-actual-variance-source-limit.md)已把完整空间inverse的强极限扩到d≤x、x+1≤exp(26d³)/4、1≤J≤d+x−m−1、s≥S_x→0，特别允许真实s=S_x与J1。原完整正高度总能量趋0，全部Fock列强趋P_M f⊗e0，母支持Q≥R+J及大辅助方差Q≥R+h+1仍合法。只有完整F=H，未给移动ε速率或未知F0压缩inverse的同一极限，仍须绝对参考Zγ。
+
 [实际原方差中的完整孔权残余运输](results/R271-appendix-actual-window-weighted-full-galerkin-residual-transfer.md)进一步支付原未加权Galerkin最小者的差，而非改度量的候选：m≥10、d≤x、x+1≤d⁴/64及原J窗中，Γ=32^N下残余、最小者与全能量列差均≤e^(−7d⁴/4)‖f‖。最高carry零头取m−1、n=d/2时，x+1≤d⁴/1024给同F0的Zγ差≤e^(−7d⁴/64)，新母支持准确Q′≥R+r。仍须证明参考Z_(A_x,F0)自身的绝对界；不能换为ker A_x^r或先取零方差。
 
 [最高单位不变、辅助分级与真实能量预条件](results/R271-appendix-highest-unit-invariant-true-kernel-and-graded-physical-energy.md)现已证明：完整F0不依赖实际V方向中的可逆U(A)，规范方向的真核用同generic维数补齐。保全部原物理Gram后，K_D预条件确有辅助带宽n−1及S/R无关正谱界，因此完整实际源的Chebyshev尾界不再有P_F0保级缺口。但粗条件数只允许γ接近1，尚不能支付高孔门所需γ<1/16；四头两列相关式表明不能免费丢掉混级费。[原最低列的完整三阶真旗Schur及方差一致残余界](results/R271-appendix-lowest-source-true-flag-schur-and-uniform-variance-residual-cost.md)随后已给全0<S≤1的原ξ0≤1600Kflag³。两个真实受限逆以完整整数增广约束和好链全参数支付，Kflag不含最高U逆、最高t或S的损失；但其无权成本仍含64^R，不是所需物理孔加权Zγ。继续实际指定coherent列与压缩能量逆的加权改善。
