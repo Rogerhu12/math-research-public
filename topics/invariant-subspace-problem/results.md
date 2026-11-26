@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R150 秩二H与秩二V的全部完整临界点本质维数至多四（2026-11-26，已证明）：** [把相反交叉列代回两个分别的原H值方程](results/R150-appendix-rank-two-second-and-third-cumulants-have-essential-dimension-at-most-four.md)得A²=B²=e²/2、e⁴=−F⁴，配2e³=−F³推出e=2F再17F³0，排尽最后Gaussian例外。接全二jet及先前双约化分支，整个rankH=rankV=2仅ess≤4；纯手证含∞，无需原先拟做曲面/有限域门。ess4、rankH≥3及更高rankV仍继续。
+
 - **R150 单位2+1+1相反非零基点配对整个分支为空（2026-11-26，已证明）：** [原trace、单点共同范数差与完整QQ消元](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-opposite-base-pairings-exclusion.md)在保全部边界后给359/838/1011次二轮结式，gcd仅w^90(w+1)^4(w²+2w−1)²；w−1迫已闭v0，二次纤维返回原M/S/c0迫已闭lhalf。自含原二次代数源49.017732秒/exit0，未选平方根或放松jet，整个p=−q≠0闭合；一般q≠0,±1继续。
 
 - **R150 单位2+1+1相反配对一般mean图的六异常曲线全空（2026-11-26，已证明）：** [原Cramer式、全部非零因子及商环除法](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-opposite-base-pairings-regular-exceptional-curves-exclusion.md)排v/w/v+w/B/G±；唯一抽象零t候选用原五维Gram秩二矛盾，三次曲线QQ93/145和67/146保全部四次/二次纤维，最终原D1或D2的平方归零。原源92.272577秒/exit0；继续真实非异常一般图，未以边界排除宣全支完成。

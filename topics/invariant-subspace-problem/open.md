@@ -36,12 +36,12 @@ rank$H=4$ 的非单位局部块长度5、4、3已排；长度2单零的三种单
 [原第三矩的本质支撑等式](results/R150-appendix-rank-two-third-cumulant-outside-range-mean-essential-support-equality.md)已经独立证明：一般r=dim essV、y∉RanV且dim essT3>r+1时，y∈essT3并且essT3=span(y,RanH,RanV)。所以剩余rankV2、ess≥4分支处于第三矩内均值层，不能把y∉essT3的长度五外均值消元当作该层论证；仍须原完整梯度。
 
 
-[rankH=rankV=2至少一方为二jet的完整维数界](results/R150-appendix-rank-two-second-and-third-cumulants-with-a-tangent-support-have-essential-dimension-at-most-four.md)现已证明essT3≤4：三种配对保全原Γ、H/V梯度、Gaussian零Hp例外和射影局部阶数，五维反设与原Gram秩下界矛盾。双约化时尚有g≠0、Hp0、F²+g²0分支，不能援引二jet证明删除它；所有ess4和更高rankH仍继续。
 
-[rankH2/rankV2本质五维的有限Gaussian规范](results/R150-appendix-rank-two-second-and-third-cumulants-essential-five-reduced-gaussian-normal-form.md)进一步排除双约化g0与所有Hp非零。剩余只能Hp0、F²+g²0；规范F1后g²=−1、e³=−1/2、C=−A、D=−B、AB=−g/2、A²+B²=e²，五阶Gram非退化。仍须在同一原四个物理点上同时满足完整N二次和最高三次极线身份；有限抽象Gram不是实际临界点。
 
 
 [整个相反非零配对分支](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-opposite-base-pairings-exclusion.md)现已闭合：原trace和单点范数差完整保零值，QQ359/838/1011结式仅余已闭w0、w−1及二次纤维，最后返回原M/S/c0迫v0或lhalf矛盾。原自含源49.017732秒/exit0；所有u0、l0/half、D1D2及六异常曲线均有独立完整来源，详见[压缩前open](notes/2026-11-26-open-before-complete-opposite-base-347c.md)和正式总闭合稿，不重做。单位211仅续q≠0,±1、b+cq≠0；root做P0零，unit代理做P0非零。
+
+[整个rankH=rankV=2层的本质维数界](results/R150-appendix-rank-two-second-and-third-cumulants-have-essential-dimension-at-most-four.md)已完整升级为essT3≤4：最后Gaussian例外把C=−A,D=−B代回两个分别的原H值方程即得17F³0矛盾。全部约化/二jet/∞均已支付，不再研究旧有限Gram的物理曲面门；无需新计算。结合rankH≤1，rankV2的潜在ess5/6必须rankH≥3；当前接rankH3的ess6满支撑反设，ess4仍独立开放。
 
 ### 1.2 原权十一及更高幂
 
