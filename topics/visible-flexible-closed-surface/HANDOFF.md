@@ -6,7 +6,7 @@
 
 完整连通闭C2嵌入连续族、共同g和固定握持开区域；全曲面D下held/D≥.05、含反射δE>0、全时reach/D≥.03、全域全时metric≤1e−6；同一g与全部物理参数下真正网格/频率/时间加密到机器或求解容差，并给完整可复现网格。基础后继续held/D≥.2、δE/D≥.05或严格存在。现有有限结果不冒完成。
 
-- 根/课题README完整读于 `f0548477576caa2373d1626227a284ccfa9767d0`。最近已读公开提交 `d0034d1a5b642df9040cca32a37ad1a0eb24282d`（2026-11-26 11:33 UTC真实pull/rebase后，双README逐差均无变化）。根blob282e86b0、题blob e2318baa。每次literal pull立即核双README差异，至少每小时；有变只读差异立即执行，API读不冒pull。
+- 根/课题README完整读于 `f0548477576caa2373d1626227a284ccfa9767d0`。最近已读公开提交 `6115dcc48b1ef3bd0d0e7f0291eeca8ab048a851`（2026-11-26 11:39 UTC真实pull/rebase后，双README逐差均无变化）。根blob282e86b0、题blob e2318baa。每次literal pull立即核双README差异，至少每小时；有变只读差异立即执行，API读不冒pull。
 - 私库QUEUE已认领推 `c7785184d0d9c503852fb2137e9e2c091221d080`，进行中（本会话/2026-11-26）。不重复认领。
 - 每结论立即commit/push；NFF立刻pull --rebase循环到成功，不force或amend已发表提交。完整证明直接登记并加results.md索引；不附加独审/冻结门。全部数组只临时区，不进Git/Release/artifact；只源码/参数/run/hash/标量。MD<100KB、H<10KB、题<200MB；不写根LOG。token只命令环境。
 - 根唯一写main；agents只同级scratch。当前部分clone `/tmp/visible-flex-6a65e705/math-research-public`，同级geometry-work/exact-work/solver-work/cold-cartesian-work。旧历史见[11:15 H](https://github.com/Rogerhu12/math-research-public/blob/a9aaaf7d2fbdc01eb0df3e635d9065c20faac354/topics/visible-flexible-closed-surface/HANDOFF.md)、log和open；不重做已登记结论。
@@ -32,9 +32,9 @@
 
 whole峰q2.202517253在全局第190零基单元、r约.43480348、原n0/j3窄过渡。训练G6与独立G8均落同元。下一whole先加该元及邻元原Hermite微span/四分点密观察，付真实source全C_X和R226实际W预算；不能把prefix h经验直接借给whole。全时与STL仍接着做。
 
-**强幅度当前长run**：[45778054176](https://github.com/Rogerhu12/math-research-public/actions/runs/45778054176)/job139766458381，冻结controller5093095a…。原R208/K19已见态不重做；真实source002=28c629a0627从同runner原末态建立完整1788列新Cauchy基线，再12次完整尝试。09:50:30 baseline metric.34164247/κ18.53034；第6实际0于11:14:49，metric.26399353/κ26.40670/R².107717904/α.5，state8ecf1e67…49e15；仍未合格。全部实际回执在[长run报告](notes/2026-11-26-6a65-actions-strong-45778054176-1.md)。不热替换source002，不猜第12步或observer SHA。
+**强幅度当前长run**：[45778054176](https://github.com/Rogerhu12/math-research-public/actions/runs/45778054176)/job139766458381，冻结controller5093095a…。原R208/K19已见态不重做；真实source002=28c629a0627从同runner原末态建立完整1788列新Cauchy基线，再12次完整尝试。09:50:30 baseline metric.34164247/κ18.53034；第7实际0于11:28:56，metric.26397357/κ26.40398/R².107708577/α1，state6465a0f0…9581fe3；仍未合格。全部实际回执在[长run报告](notes/2026-11-26-6a65-actions-strong-45778054176-1.md)。不热替换source002，不猜第12步或observer SHA。
 
-**完整Cartesian新分支**：完整13行点算子已推/实际核；stream J80/M32全部97角通道=7760列、全Gram/曲率/7几何、右带状预条件、完整LM/密观察的代码已写并有限核。11:20未推本地提交de99b8f47随失盘丢失，不能计冷run启动。正恢复全文源码并对照旧SHA；root已另名恢复cold控制器。它将公开无z config实际完整value+原observer生成自己的新INITIAL，再独立求一步，保原g与primitive，v2记录K_g=−a''/a采样；不借当前长job的raw或接受计数。
+**完整Cartesian新分支**：[恢复实现与实际有限核验](notes/2026-11-26-6a65-solver-cartesian-stream-recovery-and-actual-finite-check.md)已付全13行/7760列接口、伴随2.23e−15、cache一致及端两jets全0。v1/v2和adapter逐字恢复；stream b8cfd595…16e4a9与recipe0794c4…841a7为新身份。新[cold workflow](notes/2026-11-26-6a65-cartesian-independent-cold-entry.md)用公开无z config真实value/observer生成新INITIAL再独立LM；固定全部g/primitive并报K_g采样。请求已备，未冒实际基线/接受；不借当前长job raw/计数。
 
 完整Cauchy oracle/短窗接口已有独立小probe证据；新gap换接后须自己的自然g和完整真实value。source003 composite仅在长job真实末态与observer完成后匹配，返回父观察仍属原Cauchy，Cartesian有自己的计数/身份。
 

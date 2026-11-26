@@ -1,0 +1,68 @@
+{
+  "schema": "6a65-complete-fixed-g-Cartesian-experiment-recipe-v1",
+  "sourceKind": "actual-short-Cauchy-checkpoint",
+  "restoredRecipeIdentity": "2026-11-26 scratch-loss recovery; fresh file hash, never an old receipt",
+  "basis": {
+    "radialBasisCount": 80,
+    "maxAngularFrequency": 32
+  },
+  "angles": 512,
+  "quadrature": {
+    "metricGauss": 2,
+    "curvatureGauss": 2,
+    "geometryGauss": 2
+  },
+  "observation": {
+    "angles": 1024,
+    "radialSubdivisions": 2
+  },
+  "radialBlock": 16,
+  "sourceBatchSize": 4,
+  "oracleHeapMB": 256,
+  "cachePointBlocks": true,
+  "preconditioner": {
+    "kind": "banded_sobolev_h2",
+    "beta0": 0.01,
+    "beta1": 1,
+    "beta2": 0.001
+  },
+  "lsmr": {
+    "atol": 0.00001,
+    "btol": 0.00001,
+    "conditionLimit": 1000000000,
+    "maxIterations": 80,
+    "show": false
+  },
+  "lm": {
+    "lambda": 0.001,
+    "maxDampingAttempts": 3,
+    "alphas": [
+      1,
+      0.5,
+      0.25,
+      0.125
+    ],
+    "armijo": 0.0001
+  },
+  "sourceRules": {
+    "physicalMetric": "freeze the entire actual source rho and a/as/ass",
+    "primitiveAngles": "preserve the actual Cauchy position primitive",
+    "cutAndCentralJets": "all six endpoint two-jets fixed by clamped quintic correction support",
+    "originalCauchyCounts": "read actual input; never increment by this independent experiment"
+  },
+  "objectiveRules": {
+    "pointRows": 13,
+    "metricTau": "inherit actual source",
+    "curvatureTau": "inherit actual source without retuning",
+    "curvatureGuide": "inherit actual source",
+    "geometry": "complete R219 actual seven rows, actual centralA and cuff Z",
+    "weights": "inherit actual source guide weights and node shares; explicit ds/originalS and angular1/N"
+  },
+  "claims": {
+    "newModelBaselineMustBeActuallyEvaluated": true,
+    "requestedCompleteAttempts": 1,
+    "rawOutsideGit": true,
+    "continuousCertificate": false,
+    "strongTargetComplete": false
+  }
+}
