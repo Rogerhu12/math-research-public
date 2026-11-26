@@ -1,5 +1,5 @@
 {
-  "schema": "rank2-original-triangular-preimage-api/v1",
+  "schema": "rank2-original-triangular-preimage-api/v2",
   "prime": 29,
   "extension_degree": 2,
   "modulus_ascending": [
@@ -9,7 +9,8 @@
   ],
   "checks": [
     "complete-row-and-attached-source",
-    "complete-triangular-preimage"
+    "complete-triangular-preimage",
+    "whole-prime-scalar-rectangular-preimage-and-full-original-return"
   ],
   "original_geometry": false
 }

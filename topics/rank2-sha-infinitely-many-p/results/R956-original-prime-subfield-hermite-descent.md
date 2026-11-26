@@ -1,7 +1,7 @@
 # R956 — 原 F 整模的精确素域下降与完整附加块返回
 
 - 日期：2026-11-26。
-- 状态：**完整整模证明；§§1–4 的严格下降 API 已实际成功；§5 的共同常数扩展亦已实际通过，见§5.4。**
+- 状态：**完整整模证明；§§1–4 的严格下降 API 已实际成功；§5 的共同常数扩展亦已实际通过，见§5.4；§7整条原像下降证明已付，新增API待回执。**
 - 本条不声称原 F 除子、原四交、有限 shadow 或非零性已计算完成。
 - 原唯一 F v3 作业仍按其已检出的 source 运行，不因本条改变或重启。
 - 直接依赖：R942 §11 完整有界 HNF、R925 完整原仿射结构、
@@ -533,3 +533,211 @@ $r=29$、q2453、batch64、minimal、shadow/artinian、
 workflow 仍为 blob `5713d440f42e1bd2f638944ce2dc9d3d4ddd1d5b`。
 本节只登记已审源码；尚未挂到触发路径，尚无v6执行回执。
 继续等唯一原F作业的真实终点，按其实际结果接入，不并开同一原306重算。
+
+
+## 7. 同一完整矩形原像的素域与单常数下降
+
+本节补足§5.1实际原 F 链中仍在二次域工作的一个完整阶段，
+不改变已审 v6 或正在运行的原 F 作业。
+原 `complete_triangular_preimage(H,M)` 从
+`R=H.base_ring()` 起，在这个原二次域的多项式环内做
+全部余式、逐列 `quo_rem/xgcd`、完整残余行和完整来源行更新。
+此前 R956 只可能在最后的来源 HNF 才尝试素域下降；
+即使最终规范原像在素域，中间来源行也可能混有原常数及其逆，
+所以末次 HNF 的接受门不保证已经降低整条列约束链的域成本。
+
+### 7.1 完整矩形原像及规范源基
+
+令 $f=\mathbf F_r\subset k=\mathbf F_{r^2}$，
+$R_0=f[t]\subset R=k[t]$ 都取调用者原嵌入，且
+$$
+H\in\operatorname{Mat}_{n}(R_0)
+$$
+为完整、首一、非退化上行 HNF。令原 $M$ 有 $r_0$ 行、$n$ 列，
+不要求 $r_0=n$，只在**全部**系数通过
+$$
+M=\gamma\,\iota(M_0),\qquad
+M_0\in\operatorname{Mat}_{r_0\times n}(R_0),\quad
+\gamma\in k^\times
+\tag{16}
+$$
+后接受。$H$ 本身不作任何常数缩放。
+设
+$$
+\mathcal P_0
+=\ker\{R_0^{r_0}\xrightarrow{\,M_0\,}
+               R_0^n/\operatorname{row}_{R_0}H\}.
+$$
+原完整原像恰为
+$$
+\boxed{\quad
+\mathcal P
+=\{v\in R^{r_0}:vM\in\operatorname{row}_RH\}
+=R\otimes_{R_0}\mathcal P_0 .
+\quad}
+\tag{17}
+$$
+证明：$R$ 平坦，故保完整映射核；常数 $\gamma$ 是 $R$ 单位，
+乘它不改变 $R^n/\operatorname{row}_RH$ 中的零条件。
+$\det(H)R_0^{r_0}\subset\mathcal P_0$，故原像总为满源秩 $r_0$，
+包括 $M_0=0$ 的情形。没有假设 $M$ 自身满秩。
+
+对原 R942 的完整逐列算法只换系数环，
+仍保每一来源行与每个厚目标因子。
+其返回的规范 HNF $Y_0$ 经同一嵌入仍满足原 HNF 条件，
+由规范形唯一性
+$$
+Y=\iota(Y_0)
+\tag{18}
+$$
+就是全部原 $\mathcal P$ 的规范源基。
+**返回的来源 $Y$ 不乘 $\gamma$。**
+后继 paired solver 仍收到未改的原 $M_N$，
+因此其真实 RHS 仍为 $YM_N$，原 $X$ 的尺度没有变化。
+
+接受门复用§5已经实际通过的纯系数转换函数：
+第一矩阵是整个 $H$，第二矩阵是整个矩形 $M$。
+该转换函数不做行操作、也不要求两个矩阵同行数；
+完整 HNF 函数对 attached 同行数的要求是另外的调用者约束。
+本节明确记录第二矩阵的角色为**原 operator**，
+不把它冒称为一个同行附加变换块。
+每个 $H$ 系数原本就须在素域；
+每个 $M$ 系数除同一候选 $\gamma$ 后都须在素域，
+每个完整多项式都乘回原值。任何一项失败，
+完整原 $H,M$ 原封送入原二次域流程。
+
+### 7.2 原域全列操作的精确提升
+
+需要区分真正执行的素域操作流与其在原域上的完整解释。
+假设一列开始时，素域算法保有完整来源 $P_0$ 和残余 $W_0$，
+满足
+$$
+W_0\equiv P_0M_0\pmod{\operatorname{row}H}.
+$$
+对应原域残余是 $\gamma W_0$，
+来源仍是 $P_0$，因为完整 HNF 余式运算与常数相乘交换。
+
+素域该列的实际附加阵为
+$$
+\mathscr A_0=
+ \begin{pmatrix}W_0&P_0\\-H_j&0\end{pmatrix}.
+$$
+原问题的同一附加阵为
+$$
+\mathscr A=
+ \begin{pmatrix}\gamma W_0&P_0\\-H_j&0\end{pmatrix}.
+$$
+先只把末尾那一个目标行 $[-H_j\mid0]$ 乘 $\gamma$，
+得到残余块 $\gamma\binom{W_0}{-H_j}$，
+而完整来源块 $\binom{P_0}{0}$ 未变。
+接着逐个应用素域实际算法的完整幺模行操作 $U_0$；
+原残余块始终是素域残余块乘 $\gamma$，
+原来源块则始终等于原嵌入下的素域来源块。
+这些都是全行操作，保全部 $r_0$ 个来源坐标。
+
+素域归约结束时首行主元为首一 $g$、其余 $r_0$ 行该列为零。
+对应原主元是 $\gamma g$。只把即将舍去的**非核首行**
+乘 $\gamma^{-1}$ 后，原主元恢复为首一 $g$，
+全部保留的零行及其完整来源投影不变。
+所以原域全操作为
+$$
+\operatorname{diag}(\gamma^{-1},1,\ldots,1)\,
+ \iota(U_0)\,
+\operatorname{diag}(1,\ldots,1,\gamma).
+\tag{19}
+$$
+其行列式等于 $\det(U_0)$，确为原 $R$ 单位。
+两次额外操作从不缩放保留的来源核行。
+原完整一列核的投影仍因 $H_{jj}\ne0$ 而单射，
+故所有 $r_0$ 条零行确实生成整个下一原像，不是只生成一个包含子模。
+
+同时
+$$
+\gcd(H_{jj},\gamma W_{0,1j},\ldots,\gamma W_{0,r_0j})_{\rm monic}
+=\gcd(H_{jj},W_{0,1j},\ldots,W_{0,r_0j})_{\rm monic},
+$$
+每层首一指数因子 $H_{jj}/g$ 原样保留。
+逐列完整返回的来源基与累计首一行列式因此和原问题严格一致，
+包含所有非分裂因子及重复层；未进行多项式因子分解。
+
+### 7.3 实现与两个不可混淆的操作流
+
+`complete_triangular_preimage` 的公开函数名、函数对象和所有消费者接口保持。
+只有完整系数门成功时，内部 $H_0,M_0,W_0,P_0$ 与所有
+`quo_rem/xgcd`、源行更新及余式规约改在 $R_0$ 工作。
+
+最终先把完整 $P_0$ 注入原 $R$，再调用已通过的 R956 HNF API。
+这个调用的实际算法仍在素域，但旧
+`complete_source_basis_reduction` receipt 的来源与输出 hash
+继续准确按**原 $k$ 坐标**记录。
+返回后实际计算全部
+$$
+Y\,M\quad\hbox{并逐行除以完整原 }H,
+\tag{20}
+$$
+要求全部余式为零；同时核原 $R$ 对象、$r_0\times r_0$ 完整形状、
+首一 HNF 与原累计首一 index 相等。不是用 $YM_0$ 的返回替代 (20)。
+
+原 target/operator/result/index 哈希仍指
+$H,M,Y,\det(Y)$ 的原给定域表示。
+每列 `whole_residual_column_sha256` 继续编码真正的
+$\gamma W_0$；另列 native 残余摘要作区分。
+
+实现分别维护：
+
+- native 操作流：记录真正执行的素域完整操作及其素域系数编码；
+- 原域提升操作流：将每个 native 操作系数注入原域，
+  并在每个非零列加入 (19) 的前后两次原常数单位操作。
+  原 `full_operation_stream_sha256` 和 `operation_counts` 指这一份。
+  新 `native_full_operation_stream_sha256` 及
+  `native_operation_counts` 指前一份。
+
+这两份摘要从不冒称相同。
+原域流是经 (19) 完整证明的提升，不假称逐层额外物化并重复计算了所有原域大行。
+receipt 明确区分这一情形与完整 fallback 时的直接原域执行。
+附加的 scale 次数恰为每个非零列二次，其余操作计数相同。
+若没有任何非零约束列，额外次数为零；零源返回全部 $I_{r_0}$。
+
+这针对真实原 F 的整条列约束链中的二次域多项式费用。
+尚无实际原306耗时回执，因此不写加速倍数或资源保证。
+
+### 7.4 复用已有三角原像小 API
+
+只改三个已有触发路径：
+`scripts/original_triangular_preimage_tools.py`、
+`scripts/check-original-triangular-preimage-api.py`、
+`ci/original-triangular-preimage-api-request.json`。
+当前本课题61份 workflow 的完整 push paths 已核：
+三者仅命中
+`.github/workflows/rank2-sha-triangular-preimage-api.yml`
+（blob `b3f30906e51d0287cb38757767eef6b94f47b433`）。
+不改 bounded helper 本体，也不触发其独立小 API、原 F 或 Artinian 重型作业。
+
+新 request v2 保原给定 $k=\mathbf F_{29}[a]/(a^2-2)$ 和旧完整两个 preflight。
+在同一公开 job 现场生成一个原素域不可约三次 $q$，
+并核它在原二次域仍不可约；目标分别保 $q^2$、$q^3$ 和 $(t-1)^3$ 全厚度。
+给原 $\theta_{17}^6=17$、$\gamma=\theta_{17}^{-3}$，
+测试完整 $3\times2$ 的 $\gamma M_0$。
+官方原域完整 kernel basis of $\binom M{-H}$
+经全部来源投影和完整 HNF 后必须逐项等于本算法的 $Y$；
+其**全部目标坐标**也一并返回，逐行核 $YM=AH$。
+另核零来源、真二次目标 H、包含两个独立常数方向的 M 的完整 fallback。
+
+同一个 $M_0$ 与 $\gamma M_0$ 的规范源基必须相同；
+native 操作流相同，原域提升流则准确含额外单位操作，分别核摘要与计数。
+所有原输入/输出/index、最后完整 source HNF 和原 M 回乘也逐项核。
+
+源码身份：
+
+- 原像 helper：23261 B，SHA256
+  `f1f3f7925bfdc32e771111c4a512a81470229473fd25f9193cd3a6f38a22d9fd`；
+- 既有 API reader：13309 B，SHA256
+  `ba3d9df5ad66255289eea8c1c492e0ceead2dd57944eade1c1fc9404df235fa3`；
+- request v2：347 B，SHA256
+  `76faf3a6849e211a8925aa97056aabb13265bbad1f5c18bb4856c3b627737c0c`。
+
+本节尚待这一独立真实公开 API 回执。
+后继原 Artinian v7 可在通过后固定新增 preimage pin，
+并在同一原 $F_y$ 两图要求真实 $H_D,M_N,Y$ 来源链进入上述接受门；
+源数仍45，原 bounded pin与全部真实 PASS pins 不变。
+当前v6仅为已审持有版本，在新回执之前不因本节改变选择或触发原306。

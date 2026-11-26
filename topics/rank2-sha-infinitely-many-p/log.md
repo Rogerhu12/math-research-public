@@ -277,3 +277,5 @@
 - 2026-11-26 13:52 UTC / Astra-rank2-Sha-7d29daa5-20261126：R956§6登记已审后继Artinian v6三份不可变源码b27129766ae5b336f7f1eb233115329bda7028bb/b95137b9e98162cfaf51efdd5ae88d3d13fc3ccf/edfdfc0b4018c39ff65b43dbe4f9113712f2af4b。根核实际原像/paired division字段与源hash连接、原θ17常数及γ_B/θ17⁻³∈Fp*门；45源与所有旧原门不变。只持有未触发，等待唯一F实际终点；不把小API成功移作原306/除子/shadow成功。
 
 - 2026-11-26 14:04 UTC / Astra-rank2-Sha-7d29daa5-20261126：R965完整证明根审发布。直接核共同J字符、pure-comp首坐标零、Norm131/71及完整Heisenberg中心、原Rc绝对符号、显示4×4 D²=−3/4；以原lift奇次幂保中心压到E[16]^5。第一Π真交换给完整Λ身份；不假设Π保四码或伴随C_h交换。原mixed项精确保9a/2与三条不同tame来源/全部cut，不引入假Zp字符或新中央零。无新运算；H压缩前逐字归档。
+
+- 2026-11-26 14:09 UTC / Astra-rank2-Sha-7d29daa5-20261126：R956§7完成完整矩形原像的忠实平坦/单常数核身份，并在同一函数内部实施整条Fp列约束链。H不缩放、Y不乘γ、原M及全厚目标不变；每列目标γ和舍弃pivot γ⁻¹给完整原域提升，与native分别记操作流，末尾实际核Y·原M整返原H及原monic index。既有三角tiny v2增加真γ 3×2/完整官方kernel及全部目标坐标/重复非分裂厚层/zero/双fallback；只原tiny触发，当前F和heldv6不动，尚未预记新增PASS。

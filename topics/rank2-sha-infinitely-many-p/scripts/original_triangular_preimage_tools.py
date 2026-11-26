@@ -24,6 +24,7 @@ from original_ys_divisor_ideal_tools import (
     element_digest, field_description, _hermite_remainder_rows)
 from original_ys_artinian_norm_tools import (
     OriginalArtinianNormTools, SOURCE_DEPENDENCIES as ARTINIAN_DEPENDENCIES)
+from original_degree_bounded_row_reduction import _entire_prime_subfield_inputs
 from original_polynomial_row_reduction import (
     complete_row_hermite, _determinant_of_hermite,
     SOURCE_DEPENDENCIES as OPERATION_DEPENDENCIES)
@@ -52,30 +53,84 @@ def complete_triangular_preimage(H, M, progress=None,
     rows, with their ENTIRE source blocks, give the next preimage basis.
     Projection to source coordinates is injective because H[j,j] != 0.
     """
-    R, n, r = H.base_ring(), int(H.nrows()), int(M.nrows())
+    started = time.monotonic()
+    original_ring = H.base_ring()
+    original_field = original_ring.base_ring()
+    n, r = int(H.nrows()), int(M.nrows())
     assert n > 0 and r > 0 and H.ncols() == n and H.is_hermite()
-    assert M.base_ring() is R and M.ncols() == n
+    assert M.base_ring() is original_ring and M.ncols() == n
     assert all(H[j, j] and H[j, j].leading_coefficient() == 1 for j in range(n))
-    original_H, original_M = matrix(R, H), matrix(R, M)
+    original_H, original_M = matrix(original_ring, H), matrix(original_ring, M)
+    # This helper only converts coefficients, and accepts differently shaped
+    # matrices. Here its LEFT is the ENTIRE target H, while its scalar block
+    # is the ENTIRE rectangular operator M, NOT an attached source transform.
+    lowered_H, lowered_M, candidate_scalar, coefficient_gate = _entire_prime_subfield_inputs(H, M)
+    descended = coefficient_gate["applied"]
+    source_scalar = candidate_scalar if descended else original_field.one()
+    if descended:
+        H, M = lowered_H, lowered_M
+        assert H.nrows() == H.ncols() == n
+        assert M.nrows() == r and M.ncols() == n
+        assert H.is_hermite() and H.base_ring() is M.base_ring()
+    else:
+        H, M = original_H, original_M
+    R = H.base_ring()
+    working_H, working_M = matrix(R, H), matrix(R, M)
+    source_descent = dict(
+        applied=descended, coefficient_gate=coefficient_gate,
+        original_constants=field_description(original_field),
+        native_constants=field_description(R.base_ring()),
+        original_target_shape=[n, n], original_source_operator_shape=[r, n],
+        coefficient_converter_target_is_H_and_scalar_block_is_rectangular_M=True,
+        coefficient_conversion_has_no_attached_row_transformation_semantics=True,
+        whole_original_target_sha256=polynomial_matrix_digest(original_H),
+        whole_original_operator_sha256=polynomial_matrix_digest(original_M),
+        native_target_sha256=polynomial_matrix_digest(working_H),
+        native_scalar_normalized_operator_sha256=polynomial_matrix_digest(working_M),
+        same_canonical_source_basis_is_returned_without_multiplying_by_scalar=True,
+        original_operator_is_unchanged_for_the_callers_following_paired_solve=True)
+
+    def original_polynomial(value):
+        value = R(value)
+        if R is original_ring:
+            return value
+        return original_ring([original_field(c) for c in value.list()])
+
+    def original_matrix(A, scalar=original_field.one()):
+        return matrix(original_ring, A.nrows(), A.ncols(), [
+            scalar*original_polynomial(value) for value in A.list()])
+
     P = identity_matrix(R, r)
-    W = _hermite_remainder_rows(original_M, H)
+    W = _hermite_remainder_rows(working_M, H)
     index_determinant = R.one()
     report = progress or _progress
-    started = time.monotonic()
     counts = dict(swap=0, add=0, bezout=0, scale=0)
-    tape_hash = hashlib.sha256()
+    original_counts = dict(swap=0, add=0, bezout=0, scale=0)
+    native_tape_hash = hashlib.sha256()
+    original_tape_hash = hashlib.sha256()
     stages = []
     zero_columns = []
     report("whole triangular preimage start", label=label,
-           original_source_rank=r, original_target_rank=n)
+           original_source_rank=r, original_target_rank=n,
+           exact_prime_subfield_source_descent=source_descent)
+
+    def original_record(kind, column, indices, coefficients=()):
+        original_counts[kind] += 1
+        original_tape_hash.update(canonical(dict(
+            kind=kind, target_column=column, rows=list(indices),
+            coefficients=[polynomial_digest(original_ring(c)) for c in coefficients]
+        )).encode())
+        original_tape_hash.update(b"\n")
 
     def record(kind, column, indices, coefficients=()):
         counts[kind] += 1
-        tape_hash.update(canonical(dict(
+        native_tape_hash.update(canonical(dict(
             kind=kind, target_column=column, rows=list(indices),
             coefficients=[polynomial_digest(R(c)) for c in coefficients]
         )).encode())
-        tape_hash.update(b"\n")
+        native_tape_hash.update(b"\n")
+        original_record(kind, column, indices,
+                        tuple(original_polynomial(c) for c in coefficients))
 
     for column in range(n):
         assert all(not W[i, j] for i in range(r) for j in range(column))
@@ -85,6 +140,11 @@ def complete_triangular_preimage(H, M, progress=None,
             zero_columns.append(column)
         else:
             before_column = matrix(R, r, 1, values)
+            # The original residual block is source_scalar*W, with the SAME
+            # whole source block P. Scale only the added target [-H_j|0].
+            # It becomes source_scalar*[W;-H_j] before every native operation.
+            if source_scalar != 1:
+                original_record("scale", column, (r,), (source_scalar,))
             # All source rows, including zero residual rows, are kept.
             residual_rows = [vector(R, row) for row in W.rows()] + [-vector(R, H.row(column))]
             source_rows = [vector(R, row) for row in P.rows()] + [vector(R, r)]
@@ -129,6 +189,12 @@ def complete_triangular_preimage(H, M, progress=None,
                 residual_rows[0] = unit*residual_rows[0]
                 source_rows[0] = unit*source_rows[0]
                 record("scale", column, (0,), (unit,))
+            # After all native operations the original nonzero pivot is
+            # source_scalar*g. Restore it to monic by a unit scale on that
+            # pivot ONLY; the r retained zero rows and source blocks do not
+            # change. This is a LIFTED original-field tape, not its native hash.
+            if source_scalar != 1:
+                original_record("scale", column, (0,), (original_field.one()/source_scalar,))
             g = residual_rows[0][column]
             full_gcd = h
             for value in values:
@@ -148,41 +214,83 @@ def complete_triangular_preimage(H, M, progress=None,
             index_determinant *= factor
             stages.append(dict(
                 target_column=column,
-                whole_residual_column_sha256=polynomial_matrix_digest(before_column),
-                original_diagonal_sha256=polynomial_digest(h),
-                full_column_gcd_sha256=polynomial_digest(g),
-                exact_source_index_sha256=polynomial_digest(factor),
+                whole_residual_column_sha256=polynomial_matrix_digest(
+                    original_matrix(before_column, source_scalar)),
+                native_residual_column_sha256=polynomial_matrix_digest(before_column),
+                original_diagonal_sha256=polynomial_digest(original_polynomial(h)),
+                full_column_gcd_sha256=polynomial_digest(original_polynomial(g)),
+                exact_source_index_sha256=polynomial_digest(original_polynomial(factor)),
                 exact_source_index_length=int(factor.degree()),
                 every_source_row_kept_before_and_after=True,
                 complete_one_column_kernel_projected=True,
                 projected_kernel_is_injective=True,
-                original_target_row_and_full_attached_source_transformed=True))
+                original_target_row_and_full_attached_source_transformed=True,
+                original_target_and_discarded_pivot_unit_scales=(2 if source_scalar != 1 else 0),
+                entire_retained_source_projection_not_scaled=True))
         if (column+1) % 16 == 0 or column+1 == n:
             report("whole triangular preimage advanced", label=label,
                    completed_target_columns=column+1, total_target_columns=n,
                    imposed_nonzero_columns=len(stages),
                    entire_zero_columns=len(zero_columns),
                    cumulative_index_length=int(index_determinant.degree()),
-                   operation_counts=dict(counts),
+                   operation_counts=dict(original_counts),
+                   native_operation_counts=dict(counts),
                    preimage_elapsed_seconds=time.monotonic()-started)
     assert W.is_zero()
-    assert _hermite_remainder_rows(P*original_M, original_H).is_zero()
+    assert _hermite_remainder_rows(P*working_M, working_H).is_zero()
+    native_source_basis_sha256 = polynomial_matrix_digest(P)
+    # Calling the existing HNF API on the EXACT original-ring P preserves
+    # all legacy source-reduction hashes. On descent it itself computes over
+    # Fp (R956), so no final quadratic-field row-reduction is reintroduced.
+    original_P = original_matrix(P)
     result, unused, source_reduction = complete_row_hermite(
-        P, progress=report, label=label+": whole final source basis")
-    assert unused is None
+        original_P, progress=report, label=label+": whole final source basis")
+    assert unused is None and result.base_ring() is original_ring
+    assert result.nrows() == result.ncols() == r and result.is_hermite()
     assert _hermite_remainder_rows(result*original_M, original_H).is_zero()
-    assert _determinant_of_hermite(result) == index_determinant
+    original_index = original_polynomial(index_determinant)
+    assert _determinant_of_hermite(result) == original_index
+    assert original_counts["scale"] == counts["scale"]+(
+        2*len(stages) if source_scalar != 1 else 0)
+    assert all(original_counts[key] == counts[key] for key in ("swap", "add", "bezout"))
+    if descended:
+        final_descent = source_reduction["exact_prime_subfield_descent"]
+        assert final_descent["applied"]
+        assert final_descent["complete_Hermite_basis_returned_to_same_original_ring"]
+        source_descent.update(
+            every_native_polynomial_and_scalar_returned_to_original_input=True,
+            complete_native_source_basis_sha256=native_source_basis_sha256,
+            final_complete_source_HNF_backend_is_the_same_prime_subfield=True,
+            final_source_basis_and_its_monic_index_returned_to_original_ring=True,
+            full_original_M_multiplied_and_divided_by_full_original_H=True,
+            full_kernel_base_change_exact_by_flatness_and_constant_unit=True,
+            all_original_source_coordinates_preserved_without_rescaling=True,
+            all_column_arithmetic_performed_in_the_given_prime_subfield=True)
+    else:
+        source_descent.update(
+            unchanged_original_field_backend_used=True,
+            full_original_M_multiplied_and_divided_by_full_original_H=True)
     receipt = dict(
         method="complete successive upper-Hermite polynomial congruences",
         original_source_rank=r, original_target_rank=n,
         original_target_basis_sha256=polynomial_matrix_digest(original_H),
         original_source_operator_sha256=polynomial_matrix_digest(original_M),
         entire_result_basis_sha256=polynomial_matrix_digest(result),
-        entire_result_monic_determinant_sha256=polynomial_digest(index_determinant),
+        entire_result_monic_determinant_sha256=polynomial_digest(original_index),
         full_quotient_length=int(index_determinant.degree()),
         complete_source_basis_reduction=source_reduction,
         exact_column_constraints=stages, entire_zero_columns=zero_columns,
-        operation_counts=counts, full_operation_stream_sha256=tape_hash.hexdigest(),
+        operation_counts=original_counts,
+        full_operation_stream_sha256=original_tape_hash.hexdigest(),
+        native_operation_counts=counts,
+        native_full_operation_stream_sha256=native_tape_hash.hexdigest(),
+        original_operation_stream_is_lifted_from_prime_field=descended,
+        original_operation_stream_is_direct_original_backend=not descended,
+        original_lift_target_and_discarded_pivot_unit_scale_count=(
+            2*len(stages) if source_scalar != 1 else 0),
+        original_field_rows_materialized_at_every_column=not descended,
+        native_and_original_operation_streams_recorded_separately=True,
+        exact_prime_subfield_source_descent=source_descent,
         all_bezout_determinants_one_checked=True,
         every_one_column_kernel_completely_projected=True,
         every_projection_injective_by_nonzero_target_diagonal=True,
