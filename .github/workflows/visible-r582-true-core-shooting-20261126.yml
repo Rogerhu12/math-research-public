@@ -1,0 +1,61 @@
+name: visible-flex true actual core shooting from paid mouth
+on:
+  push:
+    branches: [main]
+    paths:
+      - topics/visible-flex-new-mechanism/computations/request-r582-true-core-shooting-20261126.json
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: visible-flex-r582-true-core-shooting-20261126
+  cancel-in-progress: false
+jobs:
+  research:
+    name: true s-ODE from paid actual mouth
+    runs-on: ubuntu-24.04
+    timeout-minutes: 50
+    strategy:
+      fail-fast: false
+      max-parallel: 1
+      matrix:
+        lane: [true-paid-mouth-core-shooting]
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      PYTHONUNBUFFERED: '1'
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+      MKL_NUM_THREADS: '1'
+      NUMEXPR_NUM_THREADS: '1'
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 0
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-new-mechanism/README.md
+            /topics/visible-flex-new-mechanism/computations/request-r582-true-core-shooting-20261126.json
+            /topics/visible-flex-new-mechanism/scripts/r582_true_core_shooting_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/r582_continuous_mean_profile_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/r582_actual_circle_seed_and_return_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/inverse_flat_oscillatory_tail_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/inverse_rotational_metric_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/run_inverse_state_stdin_20261126.py
+            /.github/workflows/visible-r582-true-core-shooting-20261126.yml
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.12.14'
+      - name: Pull current rules and shoot the true core from the paid mouth
+        env:
+          MR_TOKEN: ${{ secrets.MR_TOKEN }}
+        run: >-
+          python topics/visible-flex-new-mechanism/scripts/run_inverse_state_stdin_20261126.py
+          --request topics/visible-flex-new-mechanism/computations/request-r582-true-core-shooting-20261126.json
+          --lane ${{ matrix.lane }}
+      # Only new actual core shooting, geometry and continuous z_s chart work.
+      # All paid tail transfers and 24/48/96 fits remain identified inputs.
+      # Actual public/private pull and rule checks; stdout only, no cache,
+      # artifacts, releases, credentials in science, or repository mutations.
