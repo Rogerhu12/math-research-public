@@ -1,0 +1,86 @@
+{
+  "scope": "Fixed binary64 Cartesian coefficients defining the accepted up full-step candidate; parameters only, not a scan archive. Decode hex entries with float.fromhex and interpret as exact binary rationals. Decimal coefficients mirror the same binary64 values for the numerical reader.",
+  "data_sha256": "359d491cd592962d467fdd538013977ee9a92070346de41c227d9ca3e1ef3bd0",
+  "geometry_sha256": "253179d585d4ac0e59206d4e579de5663943f126473668c45a3bbda665c9c8f2",
+  "source_sha256": "fdf510d186d7fe7dfc9a9b7679838c811f20a69e31873c270cd9e7af4a1e724b",
+  "fit_report_sha256": "06fce726301a9820060527d27709aa8d25e7873a7b324cc38315e66e4a12f752",
+  "patch_background": "R21 X+W; not R114 X composed with Phi",
+  "regions": [
+    {
+      "name": "up",
+      "support_rational": [
+        "12869634856555301714754456594821/44134523297546036379737891607500",
+        "18519718452116164352243510990459/44134523297546036379737891607500"
+      ],
+      "frequencies": [
+        3,
+        6,
+        9,
+        12,
+        15,
+        18,
+        21,
+        24,
+        27,
+        30,
+        33,
+        36
+      ],
+      "coefficient_order": "radial k=3..36, then vertical k=3..36",
+      "fit": {
+        "coefficients_hex": [
+          "-0x1.56f809832c326p-46",
+          "-0x1.98d11445fb05bp-46",
+          "-0x1.3c31d31b5a4bep-45",
+          "-0x1.29c89d4c01047p-42",
+          "0x1.5063f4e9c19a6p-38",
+          "-0x1.ccef5e13387a3p-35",
+          "0x1.0fd955a1f7d4fp-32",
+          "-0x1.103519285baacp-31",
+          "0x1.399fa55bf3648p-33",
+          "0x1.2340fee2f546ap-31",
+          "0x1.907fa2dead7fep-35",
+          "-0x1.3d0242b87a960p-31",
+          "-0x1.ae50c846ef056p-47",
+          "-0x1.02381e42acacdp-46",
+          "-0x1.8a191bd0d15c6p-46",
+          "0x1.8fbfa2b7bc3e3p-44",
+          "-0x1.5706604d69931p-39",
+          "0x1.6742011236545p-36",
+          "-0x1.62822229d93bcp-34",
+          "0x1.2737ff0e3be52p-33",
+          "-0x1.f3c3450dbdb09p-36",
+          "-0x1.0280edd04c996p-33",
+          "-0x1.fed7ded194e79p-37",
+          "0x1.0fdca7d30fd77p-33"
+        ],
+        "coefficients": [
+          -1.9038598206155854e-14,
+          -2.2693886525368268e-14,
+          -3.510465556964452e-14,
+          -2.644850118117083e-13,
+          4.7803958953450405e-12,
+          -5.240224586734823e-11,
+          2.4724519144103484e-10,
+          -4.951424036794474e-10,
+          1.426195089747522e-10,
+          5.297877383057845e-10,
+          4.5531416952423486e-11,
+          -5.766357036479795e-10,
+          -1.1943655952744965e-14,
+          -1.433404571359223e-14,
+          -2.1876838156787782e-14,
+          8.876201476610986e-14,
+          -2.43733855823712e-12,
+          2.0421443244022282e-11,
+          -8.060586282981539e-11,
+          1.3424993794143182e-10,
+          -2.8408224604019737e-11,
+          -1.1755384036796775e-10,
+          -1.4519038236733541e-11,
+          1.2362849511102553e-10
+        ]
+      }
+    }
+  ]
+}
