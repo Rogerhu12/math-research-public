@@ -341,3 +341,5 @@
 - [PAν：strict参数particular的真实selected幅值边框](results/R147-supplement-selected-amplitude-border-for-the-strict-parameter-particular.md)：完整physical amplitude准确微分保分母/角/mean；旧97行到same selected背景的primitive+mean dual差<194·19dϑ<3.454e−7，whole row<18，三个有理比较已过。NP完整误差精确转为D/(ng√q)，新same-trial signed97配对只待actual；不从PO观测恢复未观测幅值，不授νSchur符号。
 
 - [APO：实际完整观测逆与真物理参数高尾](results/R147-supplement-actual-physical-parameter-observation-inverse-and-high-tail.md)：45903437912/1完整12/12、rc0，M96双侧残差<1.330e−43、inverse<9.817；同trial primitive L2/导数<.001579/.006321。true physical high97及原B^-1在同J的高尾<7.321e−5，normalized whole<.171639、joint96error<2.051e−5；完整PDE误差/mean保，不授未观测amp/phase或fullνSchur。
+
+- [QN：fulltail邻域中的全正端given-head高逆](results/R144-supplement-actual-whole-positive-high-inverse-in-a-full-tail-neighbourhood.md)：未知无权A³≤1e−6、独立外端A³≤1e−9，59个saved有理门全过。true mean进入新Riccati，body<.310/.801、实际outer<.002402、root<.453/4.129；全部七端口/全jump/physical mean/height/Robin保。普通Wiener零宽长图及函数参数Cauchy已付，不假未知空间解析；无限cross与新mean行列另给明确ρ费用，不沿用97–160有限carrier。

@@ -320,3 +320,6 @@ NS五件共129172B，owner71056B SHA18db439d5895e4232882940a57b7bd9457982383e1ac
 
 
 2026-11-26 22:20:35 UTC / visible-exact-astra-fb31ed6-20261127：登记APO真实45903437912/1全12球成功，actual11760B/39060a8d…、execution24760B/00916f83…，科学4.773s、旧目标0。全M96/inverse/recovered列私有1057215B/fccaebb6…保存读回，所有原whole NP/RW/JC/NH/NW完整消费。physical high97及同原B^-1/J高尾<7.321e−5，complete normalized L2<.171639、joint96error<2.051e−5；12个小球上界按完整mid+radius有理核过，不重科学。保两mean/所有sines/未观测幅值phase；PAν解析结论已推c5151016b，两README无diff。
+
+
+2026-11-26 22:27:22 UTC / visible-exact-astra-fb31ed6-20261127：登记QN完整proof/checker，59/59 saved有理组合已过。原PH高逆扩至未知无穷尾A³≤1e−6、实际外端≤1e−9；new mean principal由完整Riccati吸收，两个body<.310/.801、whole exterior反射<.002402、旧root反射<.453/4.129，七端口/jumps与mean保。root特别读QN4–6的非解析资格：原L无权module加实际长PDE有限Fourier强极限保真holonomy mean，Cauchy是函数参数而非空间strip。HL/LH/LL新全频费和非零mean行/列<77ρ/281ρ均保，full finite/negative/迭代未冒完成。APO已推17142bd76，两README无diff。
