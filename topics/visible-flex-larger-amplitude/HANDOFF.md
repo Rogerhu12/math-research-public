@@ -4,7 +4,7 @@
 
 ## 规则与完整目标
 
-最近规则核查：2026-11-26 17:12:46 UTC，真实pull/rebase至 `1c4b1aa11e57d0a2f0143c8c6b2cfef2d365e682`，双README相对`4d0e91a07d3eca5a280860cff9897ce29bcde25b`无差异，授权及规矩继续执行。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
+最近规则核查：2026-11-26 17:16:36 UTC，真实pull/rebase至 `42b0cc663ae92022a11f540660e886cee318abea`，双README相对`6c1b569ad6c6fadeba7edfd73f5db4efa9ef5ad1`无差异，授权及规矩继续执行。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
 
 科学计算仅本公开仓库Actions；早前本地偏差及纠正见[执行记录](notes/2026-11-20-public-actions-execution-correction.md)。root唯一分支写者；代理只scratch及未引用小源blob。每条结论普通commit/push，NFF立即pull --rebase循环再推，不强推。至少每小时pull，每次核双README差异/立即遵新规并记commit。raw只scratch/runner，不入Git/Release/artifact；保完整小源/参数/run/SHA/紧凑结论。题≤200MB、单文件<5MB、MD<100KB、H<10KB、open<30KB。令牌仅瞬时CLI。终端恢复/全部授权保2a7c完整H；真实pull/push，无raw重造。
 
@@ -13,7 +13,7 @@
 
 ## 共同模型、历史与未付责任
 
-原q全模型、维数/范数、永久binary地址及历史责任保[bd75完整H](https://github.com/Rogerhu12/math-research-public/blob/bd75c8c86fa39ee37fd729a8faf4f52be008838e/topics/visible-flex-larger-amplitude/HANDOFF.md)及全部notes。原M160/J923/922胞/N2048、7377正权/.5测度、全部core/H/旋转、共享quintic三jet、准确FullHold/S/R/材料图/反射帽、全mean/cross/J/J*与真Phi不删。算法.992/.025只必要筛；新范数明示，不冒旧空间双射。[节点范数界限](notes/2026-11-26-node-jet-norm-and-radial-integral-control.md)非实际失败因果；[606 integral](notes/2026-11-26-direct-axisymmetric-integral-norm-full-direction.md)同g新q.initial/新mu .01，全1×64/rest4×64及4份已返地点，实际执行待返。
+原q全模型、维数/范数、永久binary地址及历史责任保[bd75完整H](https://github.com/Rogerhu12/math-research-public/blob/bd75c8c86fa39ee37fd729a8faf4f52be008838e/topics/visible-flex-larger-amplitude/HANDOFF.md)及全部notes。原M160/J923/922胞/N2048、7377正权/.5测度、全部core/H/旋转、共享quintic三jet、准确FullHold/S/R/材料图/反射帽、全mean/cross/J/J*与真Phi不删。算法.992/.025只必要筛；新范数明示，不冒旧空间双射。[节点范数界限](notes/2026-11-26-node-jet-norm-and-radial-integral-control.md)非实际失败因果；[完整积分六jet控制](notes/2026-11-26-integral-SO3-norm-full-sixjet-control.md)已证固定有限M/正rho下允许全部core/H的径向网格无关连续界，非驻点/实际真余量或M一致界；[606 integral](notes/2026-11-26-direct-axisymmetric-integral-norm-full-direction.md)同g新q.initial/新mu .01，全1×64/rest4×64及4份已返地点，实际执行待返。
 
 历史完整原文循上述2a7c/235206固定链；全部失败/未返/适用范围保[results](results.md)、[open](open.md)、log与notes，不重做登记结论、不从SHA造raw、不跨场迁证，也不把线性障碍或任意mean当非线性完整结论。
 

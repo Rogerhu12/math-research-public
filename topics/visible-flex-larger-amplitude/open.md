@@ -118,3 +118,5 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 真正候选达到足够小误差后，仍须付自身整面metric≤1e−6、闭连通C²嵌入、固定有内点H且diamH≥.2D、整像20%握持位移/含反射非全等、全t reach≥.03D、同固定g及全参数的真实网格/频率精化至机器或原solver容差、多t可复现网格，并正面处理严格存在缺口。完整全胞/节点/corecap/积分/六jet链已刊，所有未包计算/隐式费用须实核，partial不冒连续。输入不足就换输入/机制；未完成不停，达到后继续提高比例。
 
 公开仅保完整小源/参数/证明/实际紧凑标量/run/SHA；raw/cache/逐胞盒/完整大报告只runner/scratch。普通移出旧raw保完整再生及固定恢复，不强推。每结论推送，NFF立即rebase循环；每次真实pull核双README且至少每小时一次。当前容量以最新真实树为准，旧§6历史数不沿用。
+
+[完整积分范数六jet条件界](notes/2026-11-26-integral-SO3-norm-full-sixjet-control.md)已刊：固定有限M/正rho/真参考导数下，Green核与全core逆图/H/Delta给全部六物理jet的径向网格无关控制。不是一般H²二阶sup嵌入，不给M无穷一致常数或当前场的真实几何余量，也不为正在运行方向新增门槛。

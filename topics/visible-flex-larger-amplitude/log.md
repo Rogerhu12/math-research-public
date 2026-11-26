@@ -109,3 +109,7 @@
 ## 2026-11-26 17:12:35 UTC — 第20次已核旧raw普通移出
 
 实际移出6份独立M64/M48开放轨道共1,613,460B；[完整来源/恢复](notes/2026-11-26-legacy-six-open-m64-retention.md)保三全源/全部argv/config/非轨道标量/首末row、固定1d284字节及所有失败。root逐字核原件/历史/scratch和所有留存字段，重搜scripts/computations无精确basename引用；保v=.25祖先。没有重跑旧结论或科学运算，未改历史，工作源码/证明/运行参数继续保留。
+
+## 2026-11-26 17:15:16 UTC — 完整积分范数的全自由块六jet连续控制
+
+刊[完整条件引理](notes/2026-11-26-integral-SO3-norm-full-sixjet-control.md)，准确Green核、有限角模式、全部core真实逆图/Γ二jet/H及Delta完整变化，推原meridian表示全部六jet sup差，常数无径向hmin负幂。root完整手推审：Fss只需Ts/Ωs，不冒一般H²控制二阶sup；M/正rho/真参考上界仍为明确条件，所有工作因子/载体/积分误差未包。无本地科学、不新增数值门或把旧失败单因果归范数，当前原integral方向继续。
