@@ -501,3 +501,35 @@ $\theta_{17}^{-3}$ 为 $(0,8)$。完整共同常数下降与完整非方 RHS 左
 该回执只确认已证明算法的实际实现路径和原域返回。
 原 F 的两图、四交、厚度、完整除子和 shadow 仍须由后继真实原作业取得，
 不能把此处算法例的成功转写为原几何成功。
+
+
+## 6. 已审持有的原 Artinian v6（未触发）
+
+在§5.4真实小 API 通过后，后继只替换共同常数 helper pin、实施标识、
+request版本，并在原 $F_y$ 两图的实际完整 paired graph 后加入如下门：
+
+1. 从同一 `six.artin_constants["theta17"]` 取得原 $\theta_{17}$，
+   对每个原 $N$ 系数验证除 $\theta_{17}^{-3}$ 后在原素域，并完整乘回。
+2. 完整原像 receipt 必须将原 $M_N$ 与原 $Y$ 的摘要准确连接；
+   最后完整左除法 receipt 必须将原 $M_D$ 与原 $X$ 摘要连接，
+   并返回每个原 source 行，不改源行或目标。
+3. 实际 $(YM_N)^{\mathsf t}$ 整块必须进入已通过的小 API 路径；
+   原306维 LEFT/全attached/全操作/hash/原环返回全部逐项核。
+4. 候选 $\gamma_B$ 不被误定为恰等于 $\theta_{17}^{-3}$；
+   要求其比值 $\gamma_B/\theta_{17}^{-3}\in\mathbf F_r^\times$，
+   从真实原二次域坐标恢复并核每个乘回身份。
+
+相对§4的45源列表逐项相同，全部旧绑定、两份原 PASS pins、
+$r=29$、q2453、batch64、minimal、shadow/artinian、
+全七映射/两图/四交/厚商/完整 Tate 迹及18×9门保持。
+三份最新不可变源码如下；§4的v5仅为历史版本，不再选作后继。
+
+| 路径 | blob | 字节 / SHA256 |
+|---|---|---|
+| `scripts/produce-original-triangular-artinian-shadow.py` | `b27129766ae5b336f7f1eb233115329bda7028bb` | 27682 / `e3b8bd5135087ffc5d4d80a7680a776ef31b6ea9baefa09e9e8119363932e8cf` |
+| `scripts/launch-original-triangular-artinian-shadow.py` | `b95137b9e98162cfaf51efdd5ae88d3d13fc3ccf` | 10316 / `8df6cf6c56a9b1056e5f7c389d6b486eff98f7bc65cd7c19d30f3523fb81311c` |
+| `ci/original-triangular-artinian-shadow-request.json` | `edfdfc0b4018c39ff65b43dbe4f9113712f2af4b` | 834 / `27354233d51e947d828914c240e21822798c54c3ba80552fdd51e354db0e525e` |
+
+workflow 仍为 blob `5713d440f42e1bd2f638944ce2dc9d3d4ddd1d5b`。
+本节只登记已审源码；尚未挂到触发路径，尚无v6执行回执。
+继续等唯一原F作业的真实终点，按其实际结果接入，不并开同一原306重算。
