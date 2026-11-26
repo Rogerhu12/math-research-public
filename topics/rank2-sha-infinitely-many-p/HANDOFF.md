@@ -6,14 +6,14 @@
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。固定有限曲线族的联合无穷非零可用无限鸽巢；有限p、随p换曲线、条件桥、非零投影或接口均不完成。
 
-- 两仓库已部分克隆。公开根/课题 README 已读至 `0b5a7619db7dbe845dd64cbe37c9270f76ca9434`（差异空）；每次pull只读两文件新差异，至少每小时同步并记SHA。
+- 两仓库已部分克隆。公开根/课题 README 已读至 `fb34f5e0d22fef3199d1c20af2b785378bcc1a78`（差异空）；每次pull只读两文件新差异，至少每小时同步并记SHA。
 - 私库QUEUE接手已推41fe885610073f478b2f5a752461ca56cfd43f09；21:52 UTC pull至b9b67887dabefa2da9cfac805c7271433cf15a4e，README差异空、QUEUE仍本会话进行中。目录math-research-public、math-research-private；令牌仅进程认证。
 - root独占git/H/open/log/index；每条结论完成即推，非快进立即pull --rebase、检查README再推至成功，不强推。数学只用公开Actions；不存可重算矩阵/数据/log。H<10KB，每MD<100KB。
 - [此次逐字归档](notes/2026-11-27-handoff-before-local-two-trace.md)及历史链保全部旧状态；[open](open.md)、[results](results.md)、[R951–1000索引](notes/PROOF-INDEX-R951-R1000.md)保全部未解门，未默删。
 
 ## 一、原唯一几何作业与实际中央回执
 
-**原几何v8仍运行**：run45882239615/job140124138541/source3b0fe32226b1f91ec37ef68a8d53ff865e9d9b26；19:15:47 UTC入数学。maps19:56:59完成，v=ys²−1全零极degree612及首cusp商长/HNF已过；最后真进度20:29:58为原306 residual Frobenius 121/306，后来旧日志快照不当新进展。四交/全厚/shadow未完。固定Sage10.6、r29/q2453/batch64/minimal、45源、两特征零PASS pins、原两图/七式/四交/18×9全保；数学限时21000s、工作流360min。
+**原几何v8仍运行**：run45882239615/job140124138541/source3b0fe32226b1f91ec37ef68a8d53ff865e9d9b26；19:15:47 UTC入数学。maps19:56:59完成，v=ys²−1全零极degree612及首cusp商长/HNF已过；新真日志：20:56:17全306 Frobenius完成；21:03/10/14首cusp正商4个成分中3个完整认证，(degree,m,length)=(1,2,2)/(8,2,16)/(1,578,578)。21:20:54第4因子Hermite71/306；四交/全厚/shadow未完。固定Sage10.6、r29/q2453/batch64/minimal、45源、两特征零PASS pins、原两图/七式/四交/18×9全保；数学限时21000s、工作流360min。
 
 前v7相对/绝对次数断言失败，旧Fv3在MD84/306超时124，见[终点链](notes/2026-11-27-artinian-v7-final-and-successor.md)。R974原omega/双向残余坐标与厚Norm已证/API实过并接v8。R975 Popov全尾和R986二次两平移norm未执行/未接v8，非当前Frobenius慢点。root已准备[完整零纤维素域适配](notes/2026-11-27-original-zero-fiber-frobenius-preparation.md)：helper保306/全部46971双序乘积、原常数嵌入与全厚门；仅AST，未接v8/未运行/未另启作业。
 
