@@ -29,6 +29,8 @@ import mpmath as mp
 REVIEWED={
     'resume_m3/certify_prefix_metric_interval_taylor.py':
         '6b36ccd6bab54fa35c6fe62a433f417faf7a51b80c35b798b17567eb22714986',
+    'resume_m3/certify_bridge_metric_fourier_taylor.py':
+        'fe99f0afc6ed90dac1b9b3616c857421fa621901958dfbafdbb26191c5766bb2',
     'resume_m3/certify_r59_fixed_mean_ranges.py':
         'ab08dc1dc7f24f6e92e3d64fcc530767cb66f5ae5a2940f953460a3274b6a1a5',
     'finite_closure/m3_m8_closed_map/interval_geometry_kernel.py':
