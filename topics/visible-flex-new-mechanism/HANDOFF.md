@@ -5,7 +5,7 @@
 
 ## 1. 规则、授权与原始记录
 
-公开本次实际pull且根/题README已读至 **99b502a103ad2ec5eb8dc76dd6de01f127734771**；相对继承0749a4cc规则空差异。私库本次实际pull且根README已读至 **41fe885610073f478b2f5a752461ca56cfd43f09**；QUEUE认领推送 **09f8b8b54e7cfaabaa635bae5c438c7f1521289a**，状态本会话进行中。继承全文见[接手原件](notes/HANDOFF-inherited-20261127-1f4a61a4.md)。
+公开本次实际pull且根/题README已读至 **f0e223586af8b28f5998c3b21bcbd006b11244ba**；相对继承0749a4cc规则空差异。私库本次实际pull且根README已读至 **41fe885610073f478b2f5a752461ca56cfd43f09**；QUEUE认领推送 **09f8b8b54e7cfaabaa635bae5c438c7f1521289a**，状态本会话进行中。继承全文见[接手原件](notes/HANDOFF-inherited-20261127-1f4a61a4.md)。
 
 [三续算前全文](notes/HANDOFF-before-three-continuations-20261127.md)及其所链历次交接保全部结论、条件、旧失败、输入与费用。每次实际pull后查根/题README差异并执行，至少每小时；API读取不冒pull。root独占git和共享索引，每条结论即推，NFF立即pull --rebase再推至成功。
 
@@ -19,7 +19,7 @@
 
 B030旧工作行0接受、完整费用与全部输入见[前次交接](notes/HANDOFF-before-three-continuations-20261127.md)，不重复旧门。
 
-[回溯原终态](notes/2026-11-26-r566-working-backtrack-natural-final.md)run45851261982/job140017925998已由只读run45858771537全核21.77MB/326JSON/1FINAL，新2370.412352738秒/48Jac/41fine及完整定位，24真接受，η降至.252604422421174/V0。真实81q SHA59f94716、585圈/1310峰/294行、trust.3003387451171875，工作base extra .25260441924759375，无pending；末后端/trust决定未完，raw全步不作输入。链已知科学下界7616.754391252秒，旧未知费用保。下一从此真末态继续，末1/64缩短步及逐接受重启的后端效率须按实际算子处理，完整coarse/fine/定位均保。
+[回溯原终态](notes/2026-11-26-r566-working-backtrack-natural-final.md)run45851261982/job140017925998已由只读run45858771537全核21.77MB/326JSON/1FINAL，新2370.412352738秒/48Jac/41fine及完整定位，24真接受，η降至.252604422421174/V0。真实81q SHA59f94716、585圈/1310峰/294行、trust.3003387451171875，工作base extra .25260441924759375，无pending；末后端/trust决定未完，raw全步不作输入。链已知科学下界7616.754391252秒，旧未知费用保。[同后端历史续算](notes/2026-11-27-r566-backend-preserving-implementation.md)已备：raw与完整best双轨，缩短接受不再无条件重启；真实库/phase变化仍重启，原全部门保留。
 
 ## 4. R582：实际有限非圆与完整尾部
 

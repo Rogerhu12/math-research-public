@@ -289,3 +289,7 @@ root全文纸核八密度与四偶可逆行变换、四奇尾积分双向等价�
 ## 2026-11-27 — Astra-new-mechanism-1f4a61a4-20261127 / R613实际位置完整导数
 
 逐式核隐式turning、原加权残差及其离解项、相位/框架变化和E归一；反周期排外层均值核，正outward排metric另一支，双向界及奇频Parseval完整。配套helper只消费现成同场缓存，AST/源码核过无执行，compact在原scope自然继续。
+
+## 2026-11-27 — Astra-new-mechanism-1f4a61a4-20261127 / B030保留本次真实后端历史
+
+全文读说明及相对原完整回溯源的全部增量，核WorkingRows值/Jac缓存按真实参数字节、固定盒及raw/best双轨；只取消无库变化的缩短完整接受重启。各field日志复用原fun向量不额外求值，真实库/phase交换仍重启；22绑定与AST核合，无科学重演。
