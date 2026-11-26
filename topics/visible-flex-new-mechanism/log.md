@@ -434,3 +434,7 @@ run45765708829两个原终态log完整解析，Jac通过但细η1.19855/3.78338�
 run45769777022原两job日志完整解析并核全输出身份；新科学21.293959123+16.680745955秒，25/27次完整fine回调。两lane16外层全恢复，V108.4/36.8降至.0058134/.0027596，仍曲率/球/条带失败，0metric阶段/OptimizeResult。全新参数AD单方向约3e−10；fine的Ebar/det谷底已改善，不冒等距接受。下一从原末81q/节点/trust继续批量交换，不重做已付初轮。
 
 两job真pull公开be4d8f6d/6408017f、私有201c93af/79f66052，规则空差异/队列仍本会话；H更新。为保H<10KB，其压缩前全文另存notes/HANDOFF-before-hard-restoration-20261126.md，旧条件/失败/收据均可追。结论即推。
+
+## 2026-11-26 — Astra-new-mechanism-0105020f-20261126 / 四来源本轮输入核对
+
+完整读取c9804f1e的base/larger/exact/held10四份HANDOFF，准确blob和各自当前适用域入notes/2026-11-26-current-four-source-topics.md。基础小幅有限证书保留，larger旧场连续metric>1e−2，exact完整逆/匹配仍欠，held10前缀与部分尾不能当完整闭族。无来源科学重算/在途stdout读取，不跨场拼接指标。继续本题新核/振荡尾和实际硬约束求解。
