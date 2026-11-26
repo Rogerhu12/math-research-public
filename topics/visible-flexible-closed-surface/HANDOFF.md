@@ -7,7 +7,7 @@
 
 完整连通闭C2嵌入族、共同g和固定握持开区域；全曲面D下held/D≥.05、含反射δE>0、全时reach/D≥.03、全域全时metric≤1e−6，并支付同一g/全部物理参数下真加密到求解容差及可复现完整网格。基础之后继续held/D≥.2、δE/D≥.05或严格存在。本题尚未完成。
 
-- 根/课题README完整读于 `f0548477576caa2373d1626227a284ccfa9767d0`；接手真实pull在05:16UTC成功。最近已读公开提交 `586539efadeeb0d8e3694a28f116a4e241bbb51a`（2026-11-26 08:12 UTC真实pull/rebase后，双README逐差均无变化）。每次真实pull后核两README差异，至少每小时；有变只读差异立即执行。本轮各次均无差异。
+- 根/课题README完整读于 `f0548477576caa2373d1626227a284ccfa9767d0`；接手真实pull在05:16UTC成功。最近已读公开提交 `428c3f0d28037bebc10dde954e30ba67476d5b2a`（2026-11-26 08:14 UTC真实pull/rebase后，双README逐差均无变化）。每次真实pull后核两README差异，至少每小时；有变只读差异立即执行。本轮各次均无差异。
 - 私库根规矩完整读；QUEUE认领已推 `c7785184d0d9c503852fb2137e9e2c091221d080`，状态进行中（本会话/2026-11-26）。认领推拒均即时pull/rebase再推成功。
 - 每结论分条commit/push；推拒立即pull --rebase循环，不强推、不amend已发布提交。完整证明直接登记；不回到旧独审/冻结手续。可重算数组不进Git/Release/artifact，只存源码、参数、run/hash。单MD<100KB、H<10KB、课题<200MB；不写根LOG。令牌只在命令进程环境。
 - 部分克隆 `/tmp/visible-flex-6a65e705/math-research-public`；同级 `solver-work/geometry-work/exact-work` 保存raw。/workspace空间不足，勿将大数组放回。05:47旧环境/tmp丢失，05:54已重新部分克隆和冷重生，不借旧失联数组身份。
@@ -34,7 +34,7 @@
 
 **新的完整几何输入。** [R137新端口](notes/2026-11-26-6a65-geometry-r137-new-actual-ports.md)与[双Hermite实际失败](notes/2026-11-26-6a65-geometry-r137-two-connectors-and-actual-lm.md)已登记；[中央Cauchy弱坡](notes/2026-11-26-6a65-geometry-central-cauchy-real-ramp.md)给真实精确前缀。[强前缀后三条正K Cauchy尾](notes/2026-11-26-6a65-geometry-actual-cauchy-tail-stops.md)都在metric>1e−5提前失败，未到cut，已换输入。
 
-[新全half warm](notes/2026-11-26-6a65-geometry-complete-unit-t-warm.md)为真实中央→C2 Cauchy→准确R137 coast→完整Hermite→真R205平cuff；完整弧长归一两jet，无独立端迹投影。当前L=.75新g：c=.1015625/ramp=.18/coast=.05/v=.15/cut1.0815625，base.height .8894838920546868，A=.8746432018013935/Z=.51。`r137-warm02-flatcut-samples.npz` SHA `3675506acd0150593e9c1f21bd24e2f90990103be88bf56b4e9adecd08a4b5c0`。G≈1e−15但右metric1.458/κ1309/minarea.0525；这是新初值。根已真完成J38/K11/N128/1788列的θφheight带一阶导数拟合，正在跑完整value；不算接受。[右长.8/.95/1三基线](notes/2026-11-26-6a65-geometry-right-length-three-baselines.md)降低过快Xs却恶化面积/κ/held，不替换当前输入。geometry分工改接已有非退化强态后段。
+[新全half warm](notes/2026-11-26-6a65-geometry-complete-unit-t-warm.md)为真实中央→C2 Cauchy→准确R137 coast→完整Hermite→真R205平cuff；完整弧长归一两jet，无独立端迹投影。当前L=.75新g：c=.1015625/ramp=.18/coast=.05/v=.15/cut1.0815625，base.height .8894838920546868，A=.8746432018013935/Z=.51。`r137-warm02-flatcut-samples.npz` SHA `3675506acd0150593e9c1f21bd24e2f90990103be88bf56b4e9adecd08a4b5c0`。G≈1e−15但右metric1.458/κ1309/minarea.0525；这是新初值。[根J38/K11/N128/1788列完整拟合及value](notes/2026-11-26-6a65-cauchy-global-fit-and-real-baseline.md)三进程真0，230490行metric1.4554/κ14332暴露更尖面积谷；新基线SHA `b9210b09459df8fe0a6cd3c3351c08bd6f028478e479f2db6e3470f31c014ca5`，全列首LM已实际启动，不算接受。[右长.8/.95/1三基线](notes/2026-11-26-6a65-geometry-right-length-three-baselines.md)降低过快Xs却恶化面积/κ/held，不替换当前输入。geometry分工改接已有非退化强态后段。
 
 ## 公共CI实际状态与继续
 
