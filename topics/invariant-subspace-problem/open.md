@@ -64,7 +64,7 @@ $$
 
 **[单位211非零P0、零m的两奇异jet面全闭](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-nonzero-base-highest-zero-isolated-mean-singular-faces-exclusion.md)：** 共同缩放p+q2、Q=pq后，E0=N0全局图的原N1分成F1F2；F1的g系数2Q(u−1)、F2的g系数−2lQ²。准确已闭F1/u1与F2/l0，非同名参数的另一面不误排；QQ22/58/44与59/92/88末纤维分别迫bc0/u0。源1.138905秒/exit0，继续F1/u≠1与F2/l≠0及根负责的m非零。
 
-**[rankH3单一三重jet的Hp0本质六维全空](results/R150-appendix-rank-three-single-jet-second-cumulant-zero-hp-essential-six-exclusion.md)：** 原最高三/四阶系数迫V两列在H三jet上相反，真实source导数Wronskian的40次QQ结果式只余16维代数；13次单位逆保全纤维与重根，原trace障碍9Xi⁶+24Xi³+64却为单位。s−1的有限/∞边界为1174404/125、17955600非零；新源2.356464秒/exit0。结合初始归约的特殊接触/V二jet/F2m排除，三jet H只余普通源、约化V、Hp≠0、F=−m、e³=−4m³。
+**[rankH3单一三重jet、rankV2的全部ess6已空](results/R150-appendix-rank-three-single-jet-second-cumulant-has-essential-dimension-at-most-five.md)：** 最后F=−m/Hp非零在保持H的合法真jet规范中，Gaussian迫p1=d0、p0p2=hb²；原N/最高的0/1/2阶式先付7/15边界，再得S³+3mS/(2e)=1而左边5/2。结合Hp0的原十六维QQ全纤维，以及所有特殊源/∞、V二jet和F2m排除，整单一三jet仅ess≤5。纯手证，无新计算；只续H2+1、三值H及原ess4/5。
 
 **[单位211零m两图的线性权重面J0全闭](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-nonzero-base-highest-zero-isolated-mean-linear-weight-face-exclusion.md)：** J=lQ(2u−1)−u(2u+Q−2)；u=1/2会违Q≠1，故合法解l。完整QQ第二轮次数(零,69,60)/(零,232,220)保恒零式，gcd只余第一图Q2并由原五式GB1排除。自含源1.30923秒/64372KiB/exit0；剩余原两图的l6/l8高次行列式因子和全部实际来源继续。
 

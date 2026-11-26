@@ -4,6 +4,8 @@
 
 **状态：已证明的完整分支排除。** 原完整临界点若 rankH3 的唯一除子为一个三重物理 jet、rankV2，且 $\dim\operatorname{ess}(T_3)=6$，则 V 必约化，H 的源必须为二阶自接触的普通点。以本稿明确规范定义 $m$ 后，只余 $Hp=0,F^2=-3m^2$ 或 $Hp\ne0,F=-m$；$F=2m$ 由原三阶局部系数给 $447m^6=0$ 而被排除。所有射影边界均含在论证中。
 
+**后续闭合：** 本稿保留的单一三重H本质六维余支现由[原二阶系数的完整排除](R150-appendix-rank-three-single-jet-second-cumulant-has-essential-dimension-at-most-five.md)全部关闭；整个rankH3单一三jet、rankV2仅ess≤5。原分支推导保留作依赖。
+
 ## 1. 全部三重 H 的可逆 jet 规范
 
 使用原 $K$、$T_3=y^3-6yH+4V$、$p=Ky$、$F=yKy/2$ 和[完整原梯度](R150-appendix-six-mode-cubic-bell-third-moment-schur-reduction.md)。记物理曲线在其 H 源处的 Taylor 列为 $u_0,u_1,u_2,\ldots$，包含无穷远的原正规图。秩三的唯一物理 jet 表示为

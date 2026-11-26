@@ -4,6 +4,8 @@
 
 **状态：已证明。** 原完整临界点若 rankH3 的唯一物理支撑为一个三重 jet、rankV2，且 $Hp=0$，则 $\dim\operatorname{ess}(T_3)\le5$。证明先从完整原梯度推出两个 V 值在 H 源上的准确三重抵消，再在原极线的十六维有理商代数中排除 trace 必要条件。全部 $s=-1$ 首项边界、无穷远和自接触降次均保留。
 
+**后续闭合：** 本稿保留的单一三重H本质六维余支现由[原二阶系数的完整排除](R150-appendix-rank-three-single-jet-second-cumulant-has-essential-dimension-at-most-five.md)全部关闭；整个rankH3单一三jet、rankV2仅ess≤5。原分支推导保留作依赖。
+
 ## 1. 原规范与已付分支
 
 仍用原六模式 $K$、Hankel 累积量、$p=Ky$、$F=yKy/2$ 和 $T_3=y^3-6yH+4V$。反设本质维数六，则 $(y,z_0,z_1,z_2,u,v)$ 是原整个六空间的一组基。

@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R150 rankH3单一三重jet、rankV2的全部完整临界点本质维数至多五（2026-11-26，已证明）：** [保持H的实际jet规范与原二阶系数](results/R150-appendix-rank-three-single-jet-second-cumulant-has-essential-dimension-at-most-five.md)排最后F=−m/Hp非零支；原常数7/15边界付清，一阶迫两个V导数零，二阶和原trace给1=5/2。接特殊/∞、V二jet、F2m和Hp0全部已闭，整个单一三jet ess6关闭。纯手证，无新计算；其余H长度三类型及ess4/5仍继续。
+
 - **R150 rankH3单一三jet的Hp0本质六维支全空（2026-11-26，已证明）：** [原极线导数与完整十六维QQ代数](results/R150-appendix-rank-three-single-jet-second-cumulant-zero-hp-essential-six-exclusion.md)从真实三/四阶最高系数推出两V交叉列相反，40次结果式保全部边界；每个商环除数以13次真逆回乘付清，trace障碍9Xi⁶+24Xi³+64在全代数中可逆。s−1有限/∞门亦非零，新源2.356464秒/exit0。接初始归约只余普通源/约化V/Hp非零/F−m，ess4/5与其它H类型继续。
 
 - **R150 单位2+1+1非零最高基值、零孤立点均值两图的线性权重面为空（2026-11-26，已证明）：** [原三mean行列式及完整两图QQ返回](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-nonzero-base-highest-zero-isolated-mean-linear-weight-face-exclusion.md)支付J=lQ(2u−1)−u(2u+Q−2)全零面。完整结式含两个恒零式，第二轮非零次数69/60与232/220；唯一Q2候选回原五式GB1。自含源1.30923秒/64372KiB/exit0；余l6/l8行列式面继续，不以二元gcd覆盖全部零集。
