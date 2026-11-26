@@ -5,7 +5,7 @@
 
 ## 1. 授权、规则与前史
 
-公开本次实际pull且根/题README已读至 **c5151016b402c6d2cfc53e61b9a45d894583301c**；相对继承0749a4cc根/题规则仍为空差异。私库实际pull/根README已读至 **0fb004a642c0e796e0912d5b4aa6199a20bb6517**，2026-11-26 21:48:04 UTC根README空差异；下一不晚于22:47 UTC。QUEUE本会话唯一进行中，原认领提交09f8b8b54e7cfaabaa635bae5c438c7f1521289a。
+公开本次实际pull且根/题README已读至 **dd090b58882b779861f66dce1a1183b256b73ea6**；相对继承0749a4cc根/题规则仍为空差异。私库实际pull/根README已读至 **0fb004a642c0e796e0912d5b4aa6199a20bb6517**，2026-11-26 21:48:04 UTC根README空差异；下一不晚于22:47 UTC。QUEUE本会话唯一进行中，原认领提交09f8b8b54e7cfaabaa635bae5c438c7f1521289a。
 
 [H全文归档](notes/HANDOFF-before-fixed-E-and-K-only-20261127.md)及其链保全部旧结论、费用、输入与量词。[当前open](open.md)已重组为真实14d1/7371/337、新K-only/固定E/原BVP；[旧open全文](notes/open-before-fixed-E-and-K-only-20261127.md)不丢旧实例。[四来源与文献](notes/2026-11-27-current-four-source-topics-and-literature.md)保已读版本和准确用途。
 
@@ -45,10 +45,10 @@
 
 true_history继续R625原尾端加速度必要式；独立提出将增量乘cos²u，保中心j、消尾增量二阶，旧盒/动能/唯一性可继承，最高43、速度245/54<6；需完整新纸证与新的D/q，不借R624旧q。先完成这个具体输入再一次接尚未发布BVP，原source不暗改。
 
-## 7. 全闭连续几何：同a237新R623终态待读
+## 7. 全闭连续几何：R623真实场身份失败，改正输入
 
 [a237/R621原完整收据](notes/2026-11-27-r582-a237-normal-curvature-original-terminal.md)run45895935112/job140169696746/sourceac528e756，新665.753318451秒；mean761叶ρ≥.06072/D≤1.596499814，非圆31136叶0pending，δ≤.001983413969、α≤.02076148645、K≤86.981181881。R604已证真有限材料嵌入，reach≥.01149673962/D≤1.600466642，比例.007183367225未过.03；近帽法向H11≈环境H11，不把上界冒曲率下界。旧f1费用527.88478224秒及其独立比例.00783058仍保，不跨q。
 
-[R623](results/R623-exact-finite-vertical-primitive-with-normalization-remainder.md)准确四频v primitive＋完整C−v余项/全jets已付。[新K-only范围](notes/2026-11-27-r623-a237-curvature-only-implementation.md)19323B/41绑定/原FINAL+FIELD逐字全审，实际推18d66d1a3；run **45902483327**已自然success，finite_geometry唯一取原完整log后给真实K/费用/覆盖，尚未授新结论。保同q已付ρ/D/δ/α/core，新[C,L]＋准确柱/collar/反射/全帽齐付；宽界不裁18，未闭栈/当前cell/partial max保留，必要端点/H重建计费。
+[R623](results/R623-exact-finite-vertical-primitive-with-normalization-remainder.md)准确四频primitive和完整归一化余项已付。[K-only真实终态](notes/2026-11-27-r623-curvature-only-original-mesh-mismatch.md)run45902483327/job140191333308/source18d66d1a3；新增133.483449239秒，在ExactEndpointHermite入口因实际mesh **f60be03b0af36d5d182f21860fe69cef80439c12bb23562d63dc2b57648bf52c**≠请求0d222而停止，无区间K/新reach。新dense960932RHS对旧960944，62878端点数相同仍非同场；原δ/α不得移用。核相同声明输入/软件，根因尚未证。先查已保存原场信息；无法准确恢复则新有限场须自己的全C0/C1/K和物理资格。只独立同mean参考ρ/D可复用；全部失败费用保留。
 
 [R622](results/R622-longer-intrinsic-near-pairs-and-same-bound-reach.md)只在新R604未建或far受限且比例不足时消费；1/K限制时更小.9/K不能改善而跳过。完整证书取max，不混近远项。R33/R565及joint-budget原全时间/宏观预算沿open保留；当前p=.181不得借p=.8握持见证。每条新结论即推并接开放项，只有README全部门和强目标真完成才收尾。
