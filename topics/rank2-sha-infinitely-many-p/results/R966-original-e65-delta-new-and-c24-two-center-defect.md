@@ -608,39 +608,39 @@ R536(7)–(8) 的十个 $\phi_j$ 及 $\phi_*=-C^6/8$ 都是原六输入
 $(1+\lambda\kappa^j)^{-1}$，所以整个 $\mathcal R_pP_p$ 仍齐次六次。
 原 (24) 选择的实际系数 $x_p$ 依赖 $\lambda,\kappa$，但不依赖
 被反射的六个积分变量。因此 (25) 及 (40)–(43) 中
-$
+$$
  q_{n,p}^{(j)}
  =\frac1{b\Omega^6}
    (\mathcal R_pP_p)(D_j/\kappa^n,E_j,G)
-$
+$$
 在所有六输入同时取负时不变。
 每个 $\Gamma_{n,j}=\{C,F\ {\rm unit},D_j\in p^n\}$ 也在同一
 反射下稳定，因为显示的三个观察都是线性形式。
 保完整三分支及其 $1/3$ 后，准确得到
-$
+$$
  \boxed{\mathfrak q_{n,p}(-\xi)=\mathfrak q_{n,p}(\xi).}
 \tag{42}
-$
+$$
 
 R544(22)，等价的 R548(37)，使用这个同一个
 $q=\mathfrak q_{n,p}$：
-$
+$$
  f=1_{L_{\rm mix}\ {\rm unit}}q
   \bigl(1_{Y_s\ {\rm unit}}d\log\langle Y_s\rangle
         -1_{W\ {\rm unit}}d\log\langle W\rangle\bigr).
-$
+$$
 三个 unit 条件在取负下不变；原 principal 权满足
 $\langle-x\rangle=\langle x\rangle$。
 故 $f(-\xi)=f(\xi)$ 是原完整测试的恒等式。
 所有实际 $R_c,P_1,L_h^{-1}$ 都是线性映射，于是 R548(41) 与
 R965(33) 的指定剩余测试已经满足
-$
+$$
  \boxed{
  F_{\rm rem}
  =\bigl((f-f\circ R_c)\circ P_1\bigr)\circ L_h^{-1},
  \qquad F_{\rm rem}(-Y,-\mathbf Z)=F_{\rm rem}(Y,\mathbf Z).}
 \tag{43}
-$
+$$
 全部 $\kappa^{-n}$、$q$ 系数、cubic carry、unit/deep 条件和
 logarithm 都保持原值；没有只偶化一个局部因子。
 
@@ -653,6 +653,238 @@ $-1/2$；原 $(\mathcal P_{65}\Phi)(F_{\rm rem})$ 本身是否为零
 [R536(7)–(11),(24)–(25),(40)–(43)](R536-exact-fibre-mass-compensation-and-invariant-cubic-carry.md)；
 [R544(22)](R544-original-s3-and-exact-mixed-unit-complement.md)；
 [R548(37),(41)](R548-original-whole-third-source-cm-reflection-and-complete-positive-spectrum.md)。
+
+## 8. 交叉项的实际非零 δ-old 来源与十二平移轨道
+
+本节仍只消费同一个原 $Z$，没有新数学执行。
+先置 $b=1$，写
+$
+ Z=\sigma^{390}P_Z(X),\qquad
+ P_Z=X(X+1)Q_2R_{60},\qquad
+ c_1=[X]P_Z,\qquad [X^{64}]P_Z=1.
+\tag{44}
+$
+R960 的实际完整 profile 给 $\deg P_Z=64$，
+所以 $\deg R_{60}=60$。所有定义和三点 lift 都取本篇原规范。
+
+### 8.1 主分量本身已显示交叉项的准确位置
+
+由本篇反射式，
+$
+ C_1(-z)=-C_2(z),\qquad J(-z)=-J(z),
+ \qquad C_1+C_2=9SC-C .
+$
+因此整个偶部分准确为
+$
+ \frac{C_1J+C_2J}{2}=\frac{9SZ-Z}{2}.
+$
+右端是原 $\mu_6$ 主型，奇部分被 $\Pi_0$ 杀掉，故
+$
+ \boxed{\Pi_0(C_1J)=\frac{9SZ-Z}{2}.}
+\tag{45}
+$
+这不是只比较某几个 jet。
+
+R967 的十二个指定有序来源
+$\mathcal U_T^{(390)}\mathcal T_j^{(390)}Z$，
+$T\in E[2]$、$j=0,1,2$，其主分量均为该篇已付的准确 scalar
+乘 $Z$。所以它们的主分量张成恰为 $K'Z$，这里 $K'$
+含全部既定 Weyl 常数，尤其 $\sqrt3$。
+在这个张成内，除以非零截面 $Z$ 后所得椭圆函数必为常数。
+而
+$
+ \frac{SZ}{Z}=\frac{X(X-8)}{7X^2-4X+16},
+ \qquad
+ \frac{\Pi_0(C_1J)}{Z}=\frac12\left(
+      \frac{9X(X-8)}{7X^2-4X+16}-1\right)
+\tag{46}
+$
+都非常数。因而 $SZ$ 以及 $C_1J$ 的实际主分量均不在这个
+已受迫张成中。这里用的是完整函数身份，不是由环境维数猜测秩。
+
+### 8.2 原三点迹给一个非零的完整 degree130 来源
+
+保持 R877 的实际线丛 trace，定义
+$
+ \boxed{\mathscr H_{130}:=
+       \mathrm T_{\delta,130}(SZ).}
+\tag{47}
+$
+其定义是
+$
+ \mathscr H_{130}(w)
+ =\sigma(w)^{130}
+   \operatorname{Tr}_{K(E)/\delta^*K(E)}
+   \frac{SZ(z)}{\sigma(\delta z)^{130}},
+ \qquad w=\delta z.
+\tag{48}
+$
+因此完整投影关系为
+$
+ \Pi_\delta^{(390)}(SZ)=\frac13[\delta]^*\mathscr H_{130}.
+\tag{49}
+$
+式(48)由原有限平坦同源及标准除法函数定义，先是 whole
+degree130 截面，而非一个有待证无极的有理候选。
+
+可直接写出其全部有限 trace 输入。若
+$
+ H(X)=(X-8)(X+1)R_{60}(X)=\sum_{k=0}^{62}h_kX^k ,
+$
+则
+$
+ \frac{SZ}{\sigma(\delta z)^{130}}
+   =\delta^{-130}x^{-124}H(x^3).
+\tag{50}
+$
+在目标坐标 $a=x(w)$ 上，原三根满足
+$x^3+3ax^2+4=0$。于是
+$
+ \mathscr H_{130}
+ =\delta^{-130}\sigma^{130}
+       \sum_{k=0}^{62}h_k\operatorname{Tr}(x^{3k-124}).
+\tag{51}
+$
+正幂由
+$
+ q_n=-3a\,q_{n-1}-4q_{n-3},\qquad
+ (q_0,q_1,q_2)=(3,-3a,9a^2)
+$
+读取；负幂用 $u=x^{-1}$ 的
+$
+ u^3+\frac{3a}{4}u+\frac14=0,\qquad
+ (r_0,r_1,r_2)=(3,0,-3a/2),\quad
+ r_n=-\frac{3a}{4}r_{n-2}-\frac14r_{n-3}.
+\tag{52}
+$
+这些式子固定了整个来源，不需拟合或选择新特征线。
+
+现在读取准确的首阶。原点有
+$SZ=z^6/7+O(z^{12})$。
+设 $T_1=(0,\epsilon)$、$T_2=(0,-\epsilon)$，
+$\epsilon^2=1$，并保本篇的 Gaussian/canonical lift。
+由 (22b)，
+$
+ Z_1=\frac{\epsilon c_1}{2^{127}}z^3+O(z^6),\qquad
+ Z_2=-\frac{\epsilon c_1}{2^{127}}z^3+O(z^6).
+$
+另一方面，$x(z+T_j)=2\epsilon_jz+O(z^4)$，
+$\epsilon_j=\pm\epsilon$，故
+$
+ S(z+T_j)=-4\epsilon_jz^3+O(z^6).
+$
+乘法与同一个 degree390 lift 的关系准确为
+$\mathcal T_j(SZ)=S(z+T_j)Z_j$，所以
+$
+ [z^6]\mathcal T_1(SZ)=[z^6]\mathcal T_2(SZ)
+       =-\frac{c_1}{2^{125}} .
+$
+因此
+$
+ \boxed{
+ [z^6]\Pi_\delta(SZ)=
+       \frac1{21}-\frac{c_1}{3\cdot2^{124}},\qquad
+ [z^6]\mathscr H_{130}
+       =\frac{c_1}{27\cdot2^{124}}-\frac1{189}.}
+\tag{53}
+$
+第二式还保了 (49) 的 $1/3$ 及 $\delta^6=-27$；
+没有把投影与 trace 的倍率混同。
+
+(53) 的两个系数确实非零，这由已有公开运行的一个准确回执
+决定，不需重新输出或重算原多项式。来源提交
+$\mathtt{a39e5a6f88c9695ae43abcc6358679a422c4d5e8}$ 的
+[run45823614454](https://github.com/Rogerhu12/math-research-public/actions/runs/45823614454)，
+job139921952585，原字段
+$\mathtt{actual\_six\_jets.actual\_six\_source\_angular\_profile}$
+给
+$
+ \deg f_Z=64,\quad
+ \operatorname{ord}_{t=0,1,h_7}f_Z=1,\quad
+ G_Z=\frac{f_Z}{t(t-1)h_7}.
+$
+其 $\mathtt{fixed\_bad\_prime\_resultants.leading\_GZ}$
+回执在约分以后为
+$\mathtt{numerator\_bits}=123$、
+$\mathtt{denominator\_bits}=6$，准确值摘要是
+$
+ \mathtt{53646a5d95785d66d6854a361f6a378074b2b5b9fbdc995ce08ad72adfdb8a5d}.
+$
+原同提交
+$\mathtt{scripts/original\_e65\_angular\_profile.py}$
+的 $\mathtt{rational\_receipt}$ 先用 $\mathtt{Fraction}$
+约分再读取正分母的 $\mathtt{bit\_length}$。
+由 $f_Z=(-t)^{65}P_Z(-1/t)$ 和 $h_7=7+4t+16t^2$，
+准确有 $\operatorname{lc}(G_Z)=c_1/16$。
+若 (53) 为零，则
+$\operatorname{lc}(G_Z)=2^{120}/7$，约分分母的 bit length
+只有三，与这个原回执矛盾。
+
+本节作者已重新只读取同一来源脚本和完整公开日志核定该字段；
+含工具返回 UTF8 BOM 的日志为69656 B，SHA256
+$\mathtt{502f82e4cdfd2643ee2a3204dfdfc175eb4de308050ad3ea5a721a8902f72a3f}$。
+没有保存任何可重算系数表，也没有重新运行数学生产器。
+
+于是 $\mathscr H_{130}$ 是固定的、有理的、非零的原 whole
+来源，而且准确从六阶起。trace 保反射和 $\mu_6$ 作用，因此
+$
+ \boxed{\mathscr H_{130}
+   \in \sigma^{130}x^2\mathbf Q[X]_{\le20},
+       \qquad \operatorname{ord}_0\mathscr H_{130}=6.}
+\tag{54}
+$
+所有原 $p>211$ 好位上，同一个有限平坦 trace 和固定单位除法
+保持整性；若还要求 (53) 模 $p$ 非零，须另删其固定非零分子的
+有限素因子，不能把特征零非零直接写成所有 $p$ 的单位。
+
+### 8.3 全来源的 trace 不变量及同模型返回
+
+$\Pi_\delta Z=0$，而原 $E[2]$ 与 $E[\delta]$ lifts
+在 degree390 上的完整交换子为一。因此上述十二个实际来源
+都在 $\ker\Pi_\delta$ 中；这句话保的是 ordered lifts，
+不删除它们单次乘法可能出现的中心。
+
+由 (49)、(53)，
+$
+ \Pi_\delta(SZ)\ne0.
+$
+所以 $SZ$ 连整个来源也不在这些十二个来源的线性张成中。
+而 $\Pi_\delta$ 与反射及 $\Pi_0$ 交换，(45) 进一步给
+$
+ \boxed{\Pi_\delta\Pi_0(C_1J)
+       =\frac92\,\Pi_\delta(SZ)\ne0.}
+\tag{55}
+$
+这给同一 cross 的真实 trace 不变量，超出了仅说其主分量维数不够。
+
+在原共同 $b$ 模型上，取 $\theta_b^6=b$，全部点、Gaussian
+和标准除法函数随同运输：
+$
+ Z_b(z)=b^{-1}Z_1(\theta_bz),\qquad
+ S_b(z)=S_1(\theta_bz),\qquad
+ \mathscr H_{130,b}(z)=b^{-1}\mathscr H_{130,1}(\theta_bz).
+\tag{56}
+$
+因此 (49)、(53)–(55) 在同一 $E_{17}$ 模型保持，原 E65 的
+物理比例 $17/65$ 仍须单独完整保留。
+
+(54) 不能被认成原 E65 的第二个算术来源，也不能仅因它从六阶
+起就给它一个中央零。它是从当前指定 cross 真正返回的固定
+degree130 来源。若要继续谱识别，其原 $\delta$-old 嵌入可在
+既有 degree390 全矩阵中准确使用：对
+$\sigma^{130}x^2X^j$，$0\le j\le21$，标准除法式给
+$
+ [\delta]^*(\sigma^{130}x^2X^j)
+ =\sigma^{390}I_j(X),\qquad
+ I_j=(-1)^{j+1}3^{63-3j}
+          X^{42-2j}(X+4)^{3j+2}.
+\tag{57}
+$
+其次数 $44+j$ 严格递增，最高系数是原好位的单位；
+全部二十二列独立，中心零的 (54) 只用 $j\le20$。
+式(51)和(57)指定的是同一个原来源和整嵌入。
+这里尚未给它选择一条新 Hecke 角色或新的 rank-two 曲线，
+也没有把 (47) 的 trace 与普通 unit-cut 或惰性首除 $p$ 自由交换。
 
 ## 已付输入与剩余实际门
 
@@ -673,6 +905,7 @@ $-1/2$；原 $(\mathcal P_{65}\Phi)(F_{\rm rem})$ 本身是否为零
 - [R877：同一标准 δ 三点迹与原 C24 的完整投影](R877-original-norm-three-common-source-and-h22-partner.md)。
 - [R963：原 h 与 E65 的完整投影](R963-original-h-e65-full-cm-projection.md)。
 - [R964：实际 $d/h_7$ 来源和完整交换子](R964-original-e65-rational-off-target-unit-commutator.md)。
+- [R967：同一二挠与三点全十二有序来源](R967-original-e65-dyadic-principal-translates-and-mixed-readout.md)。
 - [R965：原两态的完整二挠伴随单位逆](R965-original-e65-full-joint-dyadic-companion-unit-inverse.md)。
 - [R855：whole 原格与准确中心零除 p 行](R855-original-full-heat-connection-and-canonical-divided-jet.md)。
 - [R856：原 whole Hurwitz 与 Frobenius 递推](R856-original-full-hurwitz-frobenius-recurrence-and-universal-divisibility.md)。

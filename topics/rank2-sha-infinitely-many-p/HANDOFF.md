@@ -6,7 +6,7 @@
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，持续研究；有限验证、条件、接口和中间成果不算完成。**
 
-- 已部分克隆并实际pull --rebase；根/课题 README 已读至 `72c3f63a1d1266ee36e16aefa8296295f645e22d`，相对已读版本未见规则变更。每次同步核两README差异；实际pull至少每小时，终端恢复即补做。
+- 已部分克隆并实际pull --rebase；根/课题 README 已读至 `0821b1c731c385e9cbfe04499a0a6191184bebc1`，相对已读版本未见规则变更。每次同步核两README差异；实际pull至少每小时，终端恢复即补做。
 - 私有QUEUE已推进行中状态f3125fbaa4bc13678b0c8519d85051762c579529；私库README读至e776df4。
 - 两克隆在/tmp/rank2-sha-7d29daa5d3b1。执行环境断开，最新14:43 UTC重试仍不可用；依根授权用小文本GitHub tree/commit及非强制CAS，逐次核最新main/规则，竞争立即重取父提交重推。恢复先核stash/local main，不覆盖远端恢复提交，再pull --rebase。令牌未入文件/配置/日志。
 - root唯一ref和共享H/log/index写者，子代理只交不可变blob。数学执行仅公开Actions；只存源码/参数/run/hash/结论，不存可重算输出。H<10KB、MD<100KB、open尽量<30KB；不强推、不改他课题。
@@ -33,7 +33,7 @@ R942§8–13全程有界HNF/paired graph/306 W及全厚ideal两图运输已证�
 
 ### 当前唯一后继Artinian v7
 
-source6e79456aa2250a589306ba39d983ecdc46a2f267/run45838674625/job139974211422，14:24:22UTC启动；14:48核checkout/固定镜像成功，step4仍运行。R956§8保全部45源/hash；两个tiny真PASS，MD/完整preimage/attached原域返回门齐备，仍无原链PASS。
+source6e79456aa2250a589306ba39d983ecdc46a2f267/run45838674625/job139974211422，14:24:22UTC启动；14:58核checkout/固定镜像成功，step4仍运行。R956§8保全部45源/hash；两个tiny真PASS，MD/完整preimage/attached原域返回门齐备，仍无原链PASS。
 
 固定Sage10.6/离线只读、r29/q2453/batch64/minimal及两份原PASS pins保持；四类+一map+两geometry+一Miller绑定、全七式/两图/四交/九对/全厚/18×9均保。实际θ17=[5,10]从same六常数读取，不假定tiny坐标。不得选旧v5/v6或预记原W/除子/shadow成功。
 
@@ -63,7 +63,7 @@ R959固定E65两点独立、完整390/2,3,5/双13来源/全CM六jet已付，run4
 
 **R965已证**：同原J四码、全部半特征和pure-comp两Heisenberg群给D=ΣU_rV_ωr/2，h=Dρ、D²=−3/4；原lift指定奇次幂取E[16]^5，保整性和b尺度。经Πfirst真交换得全Λh=DΛρ及单位逆，不要求Π保码或C_h交换。原R548(41)为9a/2乘三tame中心全cut积分；六算术联立与无穷性继续。 §9同lift简代表仅用1/5/6并保S/T/W±/Z，与重排34块H/P/Rc/Q核真交换；h34/h56及四态分开，不冒新增forcing。
 
-**R966已证**：原全Fourier/绝对三点lift给Πδ390 Z=0，真三译像中央为原值的1/−1/2/−1/2。SZ=ΣCj(J−Jj)/9，坏Z后留2J′(C1J)/9交叉读数。Y3非零type3；全Λ偶使全局偶mixed测试上译像=−1/2原投影；§7.2从原q六次齐次和全部cut/log证明Frem本来全局偶，直接适用但读数仍未消。保完整Gaussian/周期/除p窗及ordinary sum-unitcut与inert Newton范围，续同交叉及四态消费。
+**R966已证**：原全Fourier/绝对三点lift给Πδ390 Z=0，真三译像中央为原值的1/−1/2/−1/2。SZ=ΣCj(J−Jj)/9，坏Z后留2J′(C1J)/9交叉读数。Y3非零type3；全Λ偶使全局偶mixed测试上译像=−1/2原投影；§7.2从原q六次齐次和全部cut/log证明Frem本来全局偶，直接适用但读数仍未消。§8实际δ-trace给非零H130，首阶6；原run约分分母bit6排首项零，ΠδΠ0(C1J)=9Πδ(SZ)/2≠0。全12轨道δ-new不能付cross，保22列δ-old嵌入/原尺度，续其真实算术角色。
 
 **R967已证**：原E2 Weyl=3^(-195/2)B_T，Π0B_TZ=3^97Z；2/3全12有序中心给原读数倍率1、−1/2、1/√3、−1/(2√3)。原全μ6 mixed压缩仅已投影ρ/h，单码不冒μ6。Π0(C1J)=(9SZ−Z)/2非常数比，cross不在这12受迫投影张成；续实际其他来源及共同carry。
 
