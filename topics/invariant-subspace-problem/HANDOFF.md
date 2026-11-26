@@ -5,7 +5,7 @@
 ## 主目标、规则与执行
 
 - **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍仅全体有界算子的存在定理或完整反例；子结果不作完成。
-- **最近实际 pull / 已读规则提交：** `6c93eaee2822ee191664472494a1b00d18201eba`（2026-11-26 06:44:14 UTC）。本次两README无新规则差异；已读根/课题README、H/open、结果索引及定点log/notes。每次pull及至少每小时比diff，记录SHA。
+- **最近实际 pull / 已读规则提交：** `67884601166c344cd60113bf54dedf705a0e9f46`（2026-11-26 06:46:08 UTC）。本次两README无新规则差异；已读根/课题README、H/open、结果索引及定点log/notes。每次pull及至少每小时比diff，记录SHA。
 - 私库 `QUEUE.md` 已成功更新认领，提交 `e776df496eedfa449b0475cefe140fdae7023db4`；非快进已逐次pull --rebase后重推成功。研究在公开仓库，私库仅维护QUEUE；不force，令牌仅CLI环境。
 - 断线后重建部分克隆 `/tmp/isp-347c05929dd3/math-research-public`。旧TMP丢失源已恢复；新字节另记执行。root独占git/主索引，子代理独占TMP；每结论单推，只留源/参数/身份/SHA，无数组。
 - 完整交接链见[压缩前H](notes/2026-11-26-handoff-before-weighted-residual-347c.md)及其归档链接。MD<100KB、H<10KB、open尽量<30KB、topic<200MB；不写根LOG。
@@ -23,7 +23,7 @@
 - **[unit2+1+1全部零基配对已空](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-one-zero-base-pairing-exclusion.md)：** p=q0与恰一条零配对全闭，原五次极线/germ/QQ两面含全部边界；剩余规范p=1且q≠0，不擅自同时规范q。
 - **unit2+1+1新增边界：** [q1的全部P0零支已空](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-equal-base-pairings-zero-highest-value-exclusion.md)（l=b+c∈{0,½,1}）；新半权/单位总权以原J=2m³和全部范数纤维迫A1=U0=U1=0，回到原等向2+1矛盾。q−1且b=c亦已闭，保索引；q1仅l∉{0,½,1}，其它非零配对继续。
 - **[非零rankV1完整临界层已分类](results/R150-appendix-rank-one-third-cumulant-complete-critical-classification.md)：** 恰y=a u(s)、H=(a³+4c)u(s)u(s)ᵀ/(6a)、V=c u(s)³，ac≠0，完整T3=0。除子分拆/射影/重根与所有QQ门均闭，新旧源执行分记；潜在非零Bell仅rankV≥2且ess4/5/6。
-- **[整个约化rankV2内均值层已分类](results/R150-appendix-rank-two-reduced-third-cumulant-inside-mean-complete-classification.md)：** V=c u³+d v³、cd≠0、s≠t且y∈span(u,v)时，完整临界恰已知两原子T3零族，不预设H支撑。原九Bézout小子式的完整来源身份、六次/D8/W±商代数37个QQ单位逆已排全部g²吸收与∞；低梯度512/512及∞门不重算。外均值和二jet型V继续。
+- **[整个rankV2内均值层已分类](results/R150-appendix-rank-two-third-cumulant-all-inside-mean-complete-classification.md)：** y∈RanV时两不同点恰已知两原子族；二jet型只余y=a u、H=(a³+4c)u²/(6a)+(d/a)(uw+wu)、V=c u³+d SymΣu²w，ad≠0且s∈{0,2,−6,∞}；全部T3=0。原g²吸收、D8反演、全部33梯度及有限64阶门618/∞45已付，不预设H支撑。继续rankV2的y∉RanV及更高秩。
 - 原纯三次判据已修为Q=B³−27A²D（完整QQ结式非零），旧正号不再作证；全部来源见结果索引。
 - 原4212来源枚举/系数高度、全局Bell自然幂及完整算子桥仍开。图册须每图真实幂来源并N=1+Σ(Ni−1)粘合；几何覆盖、V0子层证书不代全局原来源/实际费用。
 

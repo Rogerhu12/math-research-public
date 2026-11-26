@@ -1,0 +1,48 @@
+{
+  "format": "isp-local-exact-verification-v1",
+  "date": "2026-11-26",
+  "source": "2026-11-26-r150-tangent-rank-two-v-inside-mean-verify.py",
+  "sourceSHA256": "0e94b0f786c48bade2af4b3c809c47be6092e66095838e5589bb3a19c8003640",
+  "arguments": [],
+  "exitCode": 0,
+  "pythonVersion": "3.12.14",
+  "pythonFlintVersion": "0.9.0",
+  "toolChunk": "033487",
+  "toolWallSeconds": 0.199537054,
+  "record": {
+    "allOriginalChainRulesVerified": true,
+    "allOriginalVTermsRetained": true,
+    "allRankTwoVClaim": false,
+    "allRankTwoVInsideMeanNowClassified": true,
+    "doubleRootGraphGate": {
+      "basisMatrixSHA256": "d032b5239cfca863319526bc51d4f6632e835b2c3ba8b0930103a8ea237023a3",
+      "dimension": 8,
+      "doubleRootGraphInjectiveAtEveryComplexPoint": true,
+      "exactInverseVerified": true,
+      "inverseMatrixSHA256": "f667ed395a6b0b1eae1d706ffe48346c555f8a0593136fa7ab676ce839357927",
+      "recoveryPolynomialSHA256": "06764e061edfc478f6e8ce958de5a59aefa5f17070cc279183fe2b6bc42df70f"
+    },
+    "elapsedSeconds": 0.10892299099941738,
+    "finiteFullGradientSHA256": "167ed9dcfb93f1c6d3fa36b23f9231b95622351745836556fc7d196278aa408f",
+    "finiteMeanGate": {
+      "QQGcdDegree": 0,
+      "degrees": [
+        32,
+        32
+      ],
+      "detMod1009": 618,
+      "dimension": 64,
+      "leadingCoefficientsMod1009": [
+        964,
+        458
+      ],
+      "polynomialSHA256": "cce35ba0f2e7fcfe77424d0870eb385b61c618bdab614636d88e6b3a124c52c0"
+    },
+    "genuineTangentMeanExcluded": true,
+    "infinityFullGradientSHA256": "c89a3515058acbcc9920cdb4e23d34985e66babfa9ce77652e238f106a9f50c9",
+    "infinityMeanDetMod1009": 45,
+    "ordinaryISPClaim": false,
+    "sourceSHA256": "0e94b0f786c48bade2af4b3c809c47be6092e66095838e5589bb3a19c8003640",
+    "stage": "complete"
+  }
+}

@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R150 秩二第三累积量的全部内均值临界点完整分类（2026-11-26，已证明）：** [二jet最高整除、原D8反演及完整低梯度](results/R150-appendix-rank-two-third-cumulant-all-inside-mean-complete-classification.md)排除所有真实切向均值，只余物理值均值的0/2/−6/∞四点切向T3零族；接两点层后整个rankV2且y∈RanV的T3均零。原64阶门618、∞45、全部33梯度及三参数链式，0.108923秒实际成功；外均值与更高秩继续。
+
 - **R150 单位2+1+1相等非零基点配对的全部最高基点值零支路为空（2026-11-26，已证明）：** [总权重半与一的完整原均值/零点式](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-equal-base-pairings-zero-highest-value-exclusion.md)新增排除l=b+c=½、1；原J及范数迫A1=U0=U1=0，与同一原等向2+1 jets矛盾。接已付l0，q1只余l∉{0,½,1}。自足原QQ源1.616533秒、exit0，无零值或∞遗漏。
 
 - **R271 指数强前缀上实际方差的完整源强极限（2026-11-26，已证明）：** [真实头inverse、完整正能量及母支持](results/R271-appendix-exponential-strong-prefix-actual-variance-source-limit.md)在x+1≤exp(26d³)/4、全强头有限塔和s≥S_x→0给H_C,J逆强趋原P_M，正高度总能量趋0；含J1与s=S_x，保Q及大辅助方差真实来源。只运输完整F=H，不宣未知F0压缩逆或绝对孔权已付。
