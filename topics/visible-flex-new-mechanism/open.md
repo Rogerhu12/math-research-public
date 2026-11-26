@@ -133,3 +133,5 @@ O2b-B的[R613](results/R613-actual-position-defect-jacobian-and-complete-objecti
 O4的[R614](results/R614-complete-two-ruling-global-gauge-projection.md)已付两常规范全局消元、四偶根上两列非退化及完整离解导数；双侧不同权必须用完整Gram，不能逐点除d或m。该结果不要求复跑现有同单位全局LS，后继按原真实终态消费。
 
 O4 [真函数首轮自然终态](notes/2026-11-27-r609-true-integral-function-natural-final-agent.md)已读：105接受、原ruling仍1.74e14，细16×16原四端3.40645e−8。后继明确同17模真实37q、同冻结unit接R612/R614与细积分，不重做成功五模seed或9/13模；几何/pose仍未闭。
+
+O2b-B 的[R615](results/R615-position-fourier-majorants-and-discrete-primitive-error.md)给真实S奇频的完整连续角预算，复用R606已算系数和R504已证原函数范数；后续同场真实fine读取才能消费，不重跑旧观察，也不免径向/ODE/舍入。

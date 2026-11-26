@@ -5,7 +5,7 @@
 
 ## 1. 规则、授权与原始记录
 
-公开本次实际pull且根/题README已读至 **5891608efc2b9f4498eb4674c7a09b9eab3b476a**；相对继承0749a4cc规则空差异。私库本次实际pull且根README已读至 **a7891a83567e479db246d47684f7aefedd1bb328**；QUEUE认领推送 **09f8b8b54e7cfaabaa635bae5c438c7f1521289a**，状态本会话进行中。继承全文见[接手原件](notes/HANDOFF-inherited-20261127-1f4a61a4.md)。
+公开本次实际pull且根/题README已读至 **8e0062d56a7d756b42e1a151acaaf4614427df90**；相对继承0749a4cc规则空差异。私库本次实际pull且根README已读至 **a7891a83567e479db246d47684f7aefedd1bb328**；QUEUE认领推送 **09f8b8b54e7cfaabaa635bae5c438c7f1521289a**，状态本会话进行中。继承全文见[接手原件](notes/HANDOFF-inherited-20261127-1f4a61a4.md)。
 
 [真函数终态前全文](notes/HANDOFF-before-true-integral-final-20261127.md)及其所链历次交接保全部结论、条件、旧失败、输入与费用。每次实际pull后查根/题README差异并执行，至少每小时；API读取不冒pull。root独占git和共享索引，每条结论即推，NFF立即pull --rebase再推至成功。
 
@@ -44,6 +44,8 @@ R596/R600的同尾有限核、全部旧强迫/插结/尺度失败及费用见前
 R610固定有限角带刚性及其无限tanh例外完整保[前次交接](notes/HANDOFF-before-three-continuations-20261127.md)。
 
 [R613](results/R613-actual-position-defect-jacobian-and-complete-objective.md)付真实位置缺陷完整离解Jac、原D方程等价及奇频目标；纯算子已备。compact原run45882634760先自然完成，若仍merit/η背离再用，不改已发scope。
+
+[R615](results/R615-position-fourier-majorants-and-discrete-primitive-error.md)付同场实际S奇频到连续metric的完整alias/均值/根移/双primitive界；观察helper待下一真实求解消费，旧R606不重跑。
 
 ## 6. 宽母、真实记忆与完整质量式
 

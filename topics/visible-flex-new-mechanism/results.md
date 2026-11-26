@@ -424,3 +424,5 @@
 - [R611实际圆参考的完整连续reach证书](results/R611-actual-circular-reference-complete-reach-certificate.md)：**已证明（公开向外区间）**修复准确积分系数后的run45882464935以2125叶覆盖全紧区间并接R608无限尾/R599全闭面切圆，reach≥.06072、D≤1.560001714985865、reach/D≥.0389230341330427。原34.7883秒及修复32.4257秒分列；实际积分包围宽于请求仍通过完整几何，不授非圆q或全时间族。
 
 - [R614两完整ruling的全局常规范投影](results/R614-complete-two-ruling-global-gauge-projection.md)：**已证明**四偶共同根上d和m/(2h)的整段列范数必正，两个全程常规范可唯一消元；同权双侧的奇偶正交、不同权完整Gram与完整离解投影Jac均给出。允许m变号，原零点条件/全部历史正势/δH与δL保留，不把逐点规范或根上Schur式代原方程。
+
+- [R615真实位置奇频的连续角证书](results/R615-position-fourier-majorants-and-discrete-primitive-error.md)：**已证明**从同场位置奇频读数、完整Wiener尾、两次有限primitive alias、离散加权均值和连续turning根位移传到实际metric；复位置范数准确使用max(|c_k|,|s_k|)，复用R504原FFT范数。真实径向/ODE/浮点输入仍待支付，配套同场观察未执行且不冒连续认证。
