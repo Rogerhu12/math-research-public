@@ -6,7 +6,7 @@
 
 R1018已证原P=(p−1)D₀在良好J₁准确Fm，m=(p−1)/2、π₀^((p²−1)/2)=p；原六标记/zero-flux/全局Cech与e3 odd gaps保留。R1019实际A=T5²、Z=(T31−32)T5²保Fm且杀CM，Z另杀Q挠点，充分大界分别max(575,N_HA)、max(36863,N_HZ)，N为固定Norm函数lc/resultant。R1021真full-p Cohen/μ平均给全非约化O/(p)仿射刚性，原u′=ε(c_Qψ+pR_Q)、R_Q仅仿射正则。全部证明与支撑/次数界见[逐字前态](open-archive-2026-11-26-before-actual-CM-jet.md)。R1023现已付清实际首log节点和跨尾返回；实际H_A/H_Z新支撑、所选简单商Néron格及非齐次CM jet仍须核；最低惯性型整投影已由R1029完成。
 
-[R1033](results/R1033-original-rational-CM-disc-exact-lowest-type-scale-and-tail.md)：原z=ε³w、w=(a−1)/p³；全部实际type1 Abel-log除pε后整，modp次数≤n₀=4g−1，最高系数=(2κ₁√A_tail/m)λ₀^−n₀·J(L)。完整p倍积分分母已排，formal坐标同轮廓，whole-block原M=1。最低非零w系数、实际MW饱和消去及Q简单商Néron尺度仍开，不冒唯一零点。
+[R1033](results/R1033-original-rational-CM-disc-exact-lowest-type-scale-and-tail.md)：原z=ε³w、w=(a−1)/p³；全部实际type1 Abel-log除pε后整，modp次数≤n₀=4g−1，最高系数=(2κ₁√A_tail/m)λ₀^−n₀·J(L)。完整p倍积分分母已排，formal坐标同轮廓，whole-block原M=1。最低非零w系数及Q简单商Néron尺度仍开；实际MW饱和消去已由R1036/37完成，不冒唯一零点。
 
 [R1032](results/R1032-original-lowest-type-complete-CM-normal-jet-functional.md)：原p11mod12底L在中心第m层为ε(2/m)ΣL_sθ_s db/(b−s)²；逐层gluing保中心变形，CM早于4m全零。最高极部与R1030整投影给实际e₁Ω_L的4m层=κ₁R_L(1)d(x^(2g−1)y)，原κ₁保留。原Abel系数列为−κ₁√A_tail ε⁴/m·Σθ_s/(1−s)²f_s，现与首log同格；不把graded jet或whole-vector比较冒真实MW饱和空间/统一半径。
 
@@ -16,9 +16,11 @@ R1028真实Igusa与同阶提升差、R1029真整τ₁ Hecke/BT分裂、R1030全�
 
 [R1023](results/R1023-original-CM-divisor-complete-first-log-vector.md)准确原log首向量εΣθ_s(λ+R_p)f_s，全部真实节点、跨尾Frob、GM/Schwarzian和整分母保留。[R1024](results/R1024-original-complete-first-log-uniform-nonvanishing.md)用原两整除+中心与互素残差，证明全部p≥47、p11mod12 whole-J深度准确1/(p+1)。R1026保实际e_-单块；具体简单商Néron尺度和CM jet仍开，原H_A/H_Z不能只替换λ。
 
-[R1035](results/R1035-original-lowest-type-integral-Lie-comparison-by-two-PD-thickenings.md)：短PD R/(ε²) 的角色缺失给实际G₁模ε²为constant；大PD(ε²)完整阶乘界给原crystal M⊗R与actual Fil graph，M_L整同构实际Lie，保split Hecke及真实本地T5/δ的协变作用。未用R→k的π-PD或Frob Fil补空间；实际配对、全部F₀/同源重数及两列取值仍须证明。
+[R1035](results/R1035-original-lowest-type-integral-Lie-comparison-by-two-PD-thickenings.md)：短PD R/(ε²) 的角色缺失给实际G₁模ε²为constant；大PD(ε²)完整阶乘界给原crystal M⊗R与actual Fil graph，M_L整同构实际Lie，保split Hecke及真实本地T5/δ的协变作用。未用R→k的π-PD或Frob Fil补空间；实际配对与全部MW消去后由R1036/37完成，指定jet取值仍开。
 
 [R1036](results/R1036-original-integral-alternating-test-and-complete-MW-annihilation.md)：原source Fp²下降与Hermitian切线给Π²=−p，B(v,w)=〈Πv,w〉整对称完美，A=B(v,T5Dw)交错。split-Hecke生成真实F₀，原J的D₀非挠paired块实际仅一次C，故完整v=ε⁻¹e₁logP定义整泛函消去全部MW及饱和格。原CM最高系数=−κ₁√A_tail λ₀^−n₀ K_p/m，K_p=(1/2)Σq_s a_s H_(s^p)仍须证非零；未宣泛函本原或唯一零点。
+
+[R1037](results/R1037-original-Hodge-graph-operator-and-primitive-MW-annihilator.md)：实际Fil graph给整Q=ε⁻²ΦΠ，Verschiebung准确−ε²Qα；原模π矩阵为quo(r^(8g−2)a(b^p),A²) modA（系数固定）。原ODE将核化为LT=cA，核准确一维且全正δ，负δ上单射；R1026故给Λ_Q=B(v,QD·)本原且消去全部MW饱和格。指定CM值K_Q=(1/2)P_(DQv)(1)保完整Q²，仍待单位与低w系数；B(c₀,J)=−1/8不替代它。
 
 ## O0：全主目标覆盖（R1003恢复原范围）
 

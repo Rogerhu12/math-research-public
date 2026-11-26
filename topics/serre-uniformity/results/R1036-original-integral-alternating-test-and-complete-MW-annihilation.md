@@ -566,3 +566,14 @@ global_route、o2_high_coefficient 与 root 纸核 source 与 target 的区别�
 Hermitian 切线主因子、协变 Frobenius/极化、全部中心和实际重数，
 并核完整 log 的 MW 消去与原 jet 的所有单位。
 没有数学程序执行、没有旧窗口重算，未把 \(K_p\) 当作已经非零。
+
+
+## R1037 后继：实际本原整泛函
+
+[R1037](R1037-original-Hodge-graph-operator-and-primitive-MW-annihilator.md)
+由实际 Hodge graph 构造另一算子 \(\mathcal Q\)，
+证明其原负 deck 模 \(\pi_0\) 作用单射，
+从而给出消去全部 MW 饱和格的本原整泛函
+\(B(v,\mathcal QD\,\cdot)\)。
+这不声称本篇 \(T_5\) 版本自动本原；
+两个指定 CM 读数及原盘最低单位项仍须各自核对。

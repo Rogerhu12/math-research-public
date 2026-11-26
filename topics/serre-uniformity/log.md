@@ -280,3 +280,8 @@
 ### 2026-11-26 23:16 Asia/Taipei — R1036 实际整MW消去测试
 - [R1036](results/R1036-original-integral-alternating-test-and-complete-MW-annihilation.md)：原source Fp²下降与Hermitian切线给Π²=−p，B(v,w)=〈Πv,w〉整对称完美，A=B(v,T5Dw)交错。split-Hecke生成真实F₀，原J的D₀非挠paired块实际仅一次C，故完整v=ε⁻¹e₁logP定义整泛函消去全部MW及饱和格。原CM最高系数=−κ₁√A_tail λ₀^−n₀ K_p/m，K_p=(1/2)Σq_s a_s H_(s^p)仍须证非零；未宣泛函本原或唯一零点。
 - root/global/o2独立纸核；global与o2完整审候选e4a36f9a4717b4f73a4a308c238fcad702ee43eb均PASS，按共同意见补Hermitian重合点切线项、α角色及p处至多一维说明。原辅助h2没有冒原J重数，F₀全部中心与实际v消去逐项支付。只定义K_p未宣单位；实际Hodge graph新算子与p5双中心另继续。无数学执行，两README同步差异检查。
+
+
+### 2026-11-26 23:40 Asia/Taipei — R1037 实际Hodge graph与本原MW泛函
+- [R1037](results/R1037-original-Hodge-graph-operator-and-primitive-MW-annihilator.md)：实际Fil graph给整Q=ε⁻²ΦΠ，Verschiebung准确−ε²Qα；原模π矩阵为quo(r^(8g−2)a(b^p),A²) modA（系数固定）。原ODE将核化为LT=cA，核准确一维且全正δ，负δ上单射；R1026故给Λ_Q=B(v,QD·)本原且消去全部MW饱和格。指定CM值K_Q=(1/2)P_(DQv)(1)保完整Q²，仍待单位与低w系数；B(c₀,J)=−1/8不替代它。
+- root/global/o2纸核实际Verschiebung负号、完整首矩阵、半线性与固定系数、ODE核维数及全MW本原。精确候选4aaf2ebe78acbfb984d5a3fe7db625e90e59a9fb获global与o2全文PASS；按共同意见补齐根处消失的−T‴A项；未把端点式或核配对当指定K_Q单位。无数学执行；H逐字归档，两README同步检查。

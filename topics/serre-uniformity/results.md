@@ -8,6 +8,8 @@
 
 ## 新增结论（2026-11-26）
 
+- **R1037（已证明）**：[R1037](results/R1037-original-Hodge-graph-operator-and-primitive-MW-annihilator.md)：实际Fil graph给整Q=ε⁻²ΦΠ，Verschiebung准确−ε²Qα；原模π矩阵为quo(r^(8g−2)a(b^p),A²) modA（系数固定）。原ODE将核化为LT=cA，核准确一维且全正δ，负δ上单射；R1026故给Λ_Q=B(v,QD·)本原且消去全部MW饱和格。指定CM值K_Q=(1/2)P_(DQv)(1)保完整Q²，仍待单位与低w系数；B(c₀,J)=−1/8不替代它。
+
 - **R1036（已证明）**：[R1036](results/R1036-original-integral-alternating-test-and-complete-MW-annihilation.md)：原source Fp²下降与Hermitian切线给Π²=−p，B(v,w)=〈Πv,w〉整对称完美，A=B(v,T5Dw)交错。split-Hecke生成真实F₀，原J的D₀非挠paired块实际仅一次C，故完整v=ε⁻¹e₁logP定义整泛函消去全部MW及饱和格。原CM最高系数=−κ₁√A_tail λ₀^−n₀ K_p/m，K_p=(1/2)Σq_s a_s H_(s^p)仍须证非零；未宣泛函本原或唯一零点。
 
 - **R1035（已证明）**：[R1035](results/R1035-original-lowest-type-integral-Lie-comparison-by-two-PD-thickenings.md)：短PD R/(ε²) 的角色缺失给实际G₁模ε²为constant；大PD(ε²)完整阶乘界给原crystal M⊗R与actual Fil graph，M_L整同构实际Lie，保split Hecke及真实本地T5/δ的协变作用。未用R→k的π-PD或Frob Fil补空间；实际配对、全部F₀/同源重数及两列取值仍须证明。
