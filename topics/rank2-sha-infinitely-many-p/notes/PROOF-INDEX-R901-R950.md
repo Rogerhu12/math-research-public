@@ -191,3 +191,6 @@
 - [R944](../results/R944-original-five-block-full-square-source-injectivity.md)：R943新增第四真长窗与原第五短行，对完整D2依次相继除F；dD−2κ<N时准确进D4。真实四次restriction余像维≤max(0,dD−4κ−ell+1)，严格dD−4κ<ell给K5∩D2=D5，再dD<5κ由C nef给全平方子源单射。保原零角逐系数t²/t³、Euler有限位移及所有端点/52成本，不偷加旧秩或宣称一般有限类/深核闭合。
 
 - [R946](../results/R946-original-four-long-sharp-ten-root-energy-and-full-linear-cost.md)：完整四jet的所有最近根/重数/截断情形给锐利根能量10S；实nef权c_m=min(m²,10m)保同一来源且统一付全部极损80D。原全W四长必要界10q(H−r)≤3B_D²+80D；旧三长临界且真有第四长时排q≥2，五块自然临界只排q≥3。密集q1/2、原forcing/后页仍开，不把第五中央或低jet秩当深核。
+
+
+- [R947](../results/R947-original-e89-normalization-and-integral-conductor.md)：原完整E89角检查先给gcd(H18,G25)=4，再由同环U+=U+S4实核互素；全部6052余权与无基点pencil付完整B+_m=Theta^m a^ceil(m/89)R[t]≤floor(29m/89)−4ceil(m/89)。实际1700/424映射及二次involution排除给全函数域；monicΨ1700的固定参数导数c+权28883整返全部B+，保p饱和/指数系数/全纯及jet成本。R821原V66也在B+33，故五真源同一规范化和Hilbert主项25/89；不赋乘积中央零。
