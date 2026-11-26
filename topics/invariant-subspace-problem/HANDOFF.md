@@ -5,7 +5,7 @@
 ## 目标、规则与执行
 
 - **普通复可分无限维 Hilbert ISP 未完成。** 仅全体有界算子的存在定理或完整反例算完成。
-- **最近实际 pull / 已读规则提交：** `794112a11e2920abf053f01973d7a935e8d3edb9`（2026-11-26 20:20:18 UTC；本地部分克隆）；本次两 README diff 无变化。每次 pull 且至少每小时检查并更新本项。
+- **最近实际 pull / 已读规则提交：** `7964341702f36431f19eb4cc9bc34cd6ba2c10af`（2026-11-26 20:21:27 UTC；本地部分克隆）；本次两 README diff 无变化。每次 pull 且至少每小时检查并更新本项。
 - 私库 QUEUE 接手已推 `5746fa79a74af4975476d400dfbe0c4e5cb9ae9d`；私库根规则已读至 `ec011a5c25eeb7aed6eea040d601e7351726ede9`。每结论单推，非快进即 pull --rebase 再推；不 force，令牌仅 CLI。
 - 本轮本地终端可用。前会话执行身份及全部原交接保[接手快照](notes/2026-11-27-handoff-at-takeover-8542.md)；本轮快照链见[最新完整归档](notes/2026-11-27-handoff-before-low-invariant-and-soft-target-8542.md)。失败不改标成功，已登记不重做。
 - 仅保源、参数、SHA、小回执；MD<100KB、H<10KB、open尽量<30KB、topic<200MB，不写根LOG。已读本轮 log；notes 按交接路径与结果索引定点续读。
@@ -24,7 +24,7 @@
 
 - L0的w0/w1、b+c0整支与W线性λ整曲线均闭；原同域返回/单位证书见结果索引与第二快照。仅续b+c非零的G(7,4)、P1双零及余交点；新β一次系数全零/非零两图保全部原纤维。旧三参数超时与双零115.316614秒/4GiB仍未决，不重跑。
 - S0已闭Af0/L非零、h1/k1与整个h=k碰撞；Lt0的g2零面、原θ余式双零、M的z首项零、u2/ell1/base权a0均闭，完整谱与原单位见结果索引。新增[ell=1/2/base权a1/2整支](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-half-base-weight-exclusion.md)亦闭：20次覆盖全返，末32维原E1/EB单位，0.475966秒。仅续Af非零、三值互异Lt0一般图，可用θ=−r0/r1与(4λ−1)A、ell−1、ell−1/2单位。
-- 旧scratch双点均值分量误写的374/580次投影与PRS全部废止，三已推源及u2/ellhalf均不受影响；详见[纠错记录](notes/2026-11-27-r150-Lt0-invalid-mean-projection-correction-8542.md)。新正确低次四式正在核原矩阵，不引用作废数据；旧1270秒driver终止与490秒投影exit2保持原身份。
+- 旧scratch双点均值分量误写的374/580次投影与PRS全部废止，三已推源及u2/ellhalf均不受影响；详见[纠错记录](notes/2026-11-27-r150-Lt0-invalid-mean-projection-correction-8542.md)。[新可逆低次原系统](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-low-invariant-original-system.md)已核四二次式/9伴随/同eta全部身份，7变量QQ输入20KB；新1200秒门只认实际I*C=1，build0.352856秒不是排空。旧失败照存。
 - 一般LS非零的两线性Cramer四参数atlas已实际生成，原Δ0全部保留；仍未判空。旧mod1031内存和600秒失败不重跑。
 
 ### rankH3原ess6
@@ -32,7 +32,7 @@
 - 三约化H退化Gram：F0、V二jet、Hp非零、同相位、所有H∞、中心0/2已闭。中心0旧b34错误Eh退出0无效，正确K/L/Eh的四纤维U幂才是证据。
 - 中心−6仅A7/9、ab637/5580的首项零三维U³已闭；一般范数662.582秒到时未决。余中心c≠0,2、V可∞与非退化H Gram继续。
 - 三约化H一般有限中心：原N一阶/Ke3与个别源/12次域归约已证，完整V与未平方相位保留。Ke3实际280.311秒/4GiB，L12实际900秒均无单位；准确输入哈希/运行身份见[第三快照](notes/2026-11-27-handoff-before-original-N-Hermite-8542.md)，不重跑，改新低次原几何。
-- H单三jet/rankV2整个ess6已闭。H2+1的非零Hp、退化Gram、V二jet、F0/e0和全部∞闭，仅四源有限Hp0非退化层。原同Π的C/G两条d一次式已证，三种真Ke900秒未决。[新原N二阶/孤立一阶降式](results/R150-appendix-rank-three-double-plus-single-zero-hp-original-N-Hermite-strengthening.md)加入两个真实系数，d次数5/8；完整求导固定w，所有原身份实际build通过4.926643秒。新源run45886748045/job140139221544数域/smoke通过，完整1.465MB输入实际900秒未决，驱动905.464秒/RSS714476KiB，无I*C=1；不重跑，继续低次原几何。
+- H单三jet整个ess6闭；H2+1仅四有限源Hp0非退化层。原同Π的C/G两条d一次式已证，三种真Ke900秒未决。[新增原N二阶/孤立一阶](results/R150-appendix-rank-three-double-plus-single-zero-hp-original-N-Hermite-strengthening.md)为d次数5/8，固定w求导与原身份已核。新run45886748045/job140139221544数域/smoke通过，实际900秒未决（905.464秒/RSS714476KiB），无I*C=1；不重跑，换低次几何。已闭全部退化/∞及原输入见最新快照链。
 - 纯三次判据B³−27A²D，旧正号不可作证。每图须原真幂来源，再以N=1+Σ(Ni−1)粘合；几何覆盖不代来源费和算子桥。
 
 ## R271：完整同源费用与稳定端点

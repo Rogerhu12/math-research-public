@@ -143,3 +143,5 @@ A单射、稠密像、拟幂零且非紧；普通非零真闭不变子空间仍�
 **[全部固定次数及同源慢增的真实顺次MP已付](results/R271-appendix-fixed-successive-actual-mp-common-variance-and-slowly-growing-depth.md)：** 共同c_k=2·512^(2k)方差窗保所有r≤k的完整K_(r|k)费用、原−Cq_r反馈与同一母支持；终列准确为Σ(−C)^pa⊗(D†)^pΩ。任意同w∈M可选k_m→∞、k_m≤m/12，使修正/误差/残量平方可和且s_m→0。仍未付k=h_m−1的实际终端费用；近核列不作kerT或closureBM，接同w真实层相关性/精确残量清除。
 
 **[同一相容真空塔的固定基数负相关改进](results/R271-appendix-fixed-cardinality-negative-correlation-near-optimal-compatible-vacuum-towers.md)已证：** 完整物理范数J_r近最优范围由L=o(√x)扩至L=o(x^(2/3))，原相容性、同一forcing与完整Gram不变。平方损失O(L(L+logx)²/x²)；固定头误差O_m((logx)^(3/2)/x)，已付Chebyshev短核源界给x=ceil exp(9d⁴)模型窗。仍超原全局exp(O(d³))母窗；同w到真实短核的δ_L、carry/lift与稳定BM端点继续，不能以小C^(L+1)残量替真实核距离。
+
+**[S0/Lt0新低次原系统](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-low-invariant-original-system.md)：** e=u−1、k=Q/e、v=4kbc·t可逆，四原二次式和同一eta的矩/配对/范数/N(V)保留所有原解；原P02恒等式支付ell≠0，半权已闭支付矩阵首项。7变量QQ真实证书门已接专用Actions；本地build0.352856秒只证明输入身份，未判空。

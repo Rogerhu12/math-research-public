@@ -1,0 +1,47 @@
+{
+  "schema": "r150-Lt0-low-invariant-build-only-v1",
+  "sourcePath": "notes/2026-11-27-unit211-S0-Lt0-low-invariant-original-QQ-8542.py",
+  "sourceSha256": "05e7694122dc8ac6c94ba7a1f1093efa1ac79f00919adab1cd01f136fd27f6ba",
+  "sourceBytes": 14347,
+  "pythonVersion": "3.12.14",
+  "pythonFlintVersion": "0.9.0",
+  "command": "PYTHONPATH=/workspace/scratch/8542378f2b73/isp_pydeps python topics/invariant-subspace-problem/notes/2026-11-27-unit211-S0-Lt0-low-invariant-original-QQ-8542.py --build-only",
+  "exitCode": 0,
+  "stdoutSha256": "bbc17ad20045e806c60881504341774b8e0a6ad6ea475e8d996e03eaaa8d18ff",
+  "stdoutBytes": 5806,
+  "lastStage": {
+    "stage": "build_only_complete",
+    "allOriginalCoordinateAndMatrixChecksPassed": true,
+    "claimExcluded": false,
+    "seconds": 0.3528557589997945
+  },
+  "generatedScript": {
+    "stage": "entire_low_QQ_input_built",
+    "scriptBytes": 20366,
+    "scriptSha256": "b324e3e541d95f66cd5c5098628f14f87c9ce3aeb6761b496cea1795ca5fbeb2",
+    "saturationAtoms": [
+      "u-1",
+      "Q/(u-1)",
+      "u",
+      "ell*k",
+      "T0/(1-u)",
+      "distinct_p_q",
+      "bc",
+      "lambda",
+      "z",
+      "distinct_h_k",
+      "L",
+      "Af",
+      "closed_base_a0",
+      "closed_base_a_half",
+      "closed_parameter_leading_linear",
+      "closed_parameter_leading_A"
+    ],
+    "sourceSha256": "05e7694122dc8ac6c94ba7a1f1093efa1ac79f00919adab1cd01f136fd27f6ba",
+    "ordinaryISPClaim": false,
+    "claimExcluded": false,
+    "seconds": 0.3528360990003421
+  },
+  "singularActuallyRun": false,
+  "claimExcluded": false
+}
