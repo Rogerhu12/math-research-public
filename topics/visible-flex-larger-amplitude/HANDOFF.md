@@ -4,7 +4,7 @@
 
 ## 规则与完整目标
 
-最近规则核查：2026-11-26，真实pull/rebase至 `f85072959b35b66aa86855a20faceb116579269c`，根及课题README相对f0548477无差异，已完整读授权及规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
+最近规则核查：2026-11-26，真实pull/rebase至 `ac7a062e99d9a4819675ba1c3a366be2b34e27df`，根及课题README相对f0548477无差异，已完整读授权及规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
 
 科学计算仅本公开仓库Actions；早前本地偏差及13:00 UTC纠正见[执行记录](notes/2026-11-20-public-actions-execution-correction.md)。根README已授权必要修改/发布；根唯一local git writer，代理只work/小源。每条结论普通commit/push；NFF立即pull --rebase循环再推，不强推。至少每小时pull，每次核双README差异/立即遵新规并记commit。raw只scratch/runner，不入Git/Release/artifact；只保完整小源/参数/run/SHA/紧凑结论。题≤200MB，MD<100KB，H<10KB，open<30KB。令牌只瞬时CLI，不写文件/提交/回复。
 
@@ -53,15 +53,15 @@ R653准确quarter；R654完整H²尺度；R655付原node/mid盲空间，故旧18
 
 新run45762076394/1已实际启动（初源a4a535ee），仅再生继续求解必要输入；实际旧末父/失败边界如上，不重宣旧结论或继承旧SHA。R683完整全旧行SOC已刊并排实际父后；子任务结束接open下一项，不等确认。
 
-R684 [真实首physical/p4两方向](notes/2026-11-26-actual-first-mean-design-and-amplitude.md)已返90b9051e：Phi .0002472494→.0001932668、max .01471465→.01429595，alpha .5/.25，mu仍.01；64步Pg约.002远未驻点。该新场全922 first：D≤4.11806366、whole-image witness≥.93876190、support≥.30252893、嵌入已付；marker/K/固定g精化未付。初始[双variant诊断](notes/2026-11-26-actual-new-metric-initial-diagnostics.md)不以换g冒改善。移动均值不自动保20%比例，后继继续同场D/L/H检查并加幅度保护。
+R684 [首physical/p4两方向](notes/2026-11-26-actual-first-mean-design-and-amplitude.md)真实返90b9，max .01429595；初始[双variant诊断](notes/2026-11-26-actual-new-metric-initial-diagnostics.md)不以换g冒改善。移动均值不自动保幅度，最新父与保护入口见R688；固定g/实际精化未付。
 
 R685活动面约束逆及v5完整入口已刊，排在首个v4/all-row SOC实际返回之后；原QP/母范数/全部行/欧氏停止不变，未返不称加速。新schema归因用read_constrained_solver_report，不交旧adc90冒读。
 
-R686完整K分块及[同场first/K/四标记合并入口](notes/2026-11-26-same-field-batched-curvature-geometry-consumer.md)已刊，保原六jet/准确尾/全角；同runner逐块自然返回、整胞域统一界，K目标按实际D准确推，不用期望D。未有新K，接足够小的新候选，不复算旧取消场。
+R686完整K分块及[同场first/K/四标记消费者](notes/2026-11-26-same-field-batched-curvature-geometry-consumer.md)已刊，保原六jet/准确尾/全角，K目标由实际D推。接足够小的新候选，未有新K，不复算旧取消场。
 
 R687给中心化正项Phi、趋零finite-max界及显式残差块权比；只代数，不改当前目标或宣称新数值。
 
-R688 [实际首面PCG及同场first](notes/2026-11-26-actual-first-mean-face-PCG-and-amplitude.md)已返e3d69d2e：1×64/alpha.5/mu.01，Phi .00018311710/max .01419569835；预条件成功无回退但QP远未驻点。同场全922 D≤4.11809083、witness≥.93877715、嵌入已付。紧接按4.2/.9/1.01加入全变量幅度保护；marker/K/固定g精化仍未付。
+R688 [实际首面PCG及同场first](notes/2026-11-26-actual-first-mean-face-PCG-and-amplitude.md)已返e3d69d2e：1×64/alpha.5/mu.01，Phi .00018311710/max .01419569835；预条件成功无回退但QP远未驻点。同场全922 D≤4.11809083、witness≥.93877715、嵌入已付。[幅度保护五源/完整推导](notes/2026-11-26-held-amplitude-protected-mean-design.md)已刊并排此父2×64：4.2/.9/1.01固定预算、原C全保、全自由dp及全grid/永久点±p真筛，随后自身first；未返不称改善。marker/K/固定g精化仍未付。
 
 R689固定均值连续Gram入口已刊：两准确场共同分割、公共lift平方恒等抵消、双方余项及全角全胞；只静态检查，接足够小的实际新候选，不给旧失败场虚报精化。
 
