@@ -1,0 +1,222 @@
+name: 6a65 M12 fixed-g joint prefix cold run
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/6a65-m12-fixed-g-joint-prefix.yml
+      - topics/visible-flexible-closed-surface/ci-requests/6a65-m12-fixed-g-joint-prefix.json
+  workflow_dispatch:
+    inputs:
+      iterations:
+        description: LSMR iterations for every complete Newton solve
+        required: true
+        default: "800"
+      newton:
+        description: Number of complete nonlinear updates
+        required: true
+        default: "1"
+permissions:
+  contents: write
+jobs:
+  prefix:
+    if: github.repository == 'Rogerhu12/math-research-public'
+    runs-on: ubuntu-latest
+    timeout-minutes: 55
+    env:
+      OPENBLAS_NUM_THREADS: "1"
+      OMP_NUM_THREADS: "1"
+      M12_RECOVERY_TOKEN: ${{ github.token }}
+      M12_COLD_DIR: ${{ runner.temp }}/visible-flex-m12-${{ github.run_id }}-${{ github.run_attempt }}
+    steps:
+      - name: Partially clone the frozen trigger source
+        shell: bash
+        run: |
+          set -euo pipefail
+          git clone --filter=blob:none --no-checkout --depth=1 "https://github.com/$GITHUB_REPOSITORY.git" "$GITHUB_WORKSPACE"
+          cd "$GITHUB_WORKSPACE"
+          git sparse-checkout set --no-cone '/README.md' '/topics/visible-flexible-closed-surface/'
+          git fetch --filter=blob:none --depth=1 origin "$GITHUB_SHA"
+          git checkout --detach "$GITHUB_SHA"
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install numerical runtime
+        run: python -m pip install numpy==2.3.5 scipy==1.17.0
+      - name: Read the small numerical request
+        env:
+          M12_DISPATCH_ITERATIONS: ${{ inputs.iterations }}
+          M12_DISPATCH_NEWTON: ${{ inputs.newton }}
+        run: |
+          python - <<'PY'
+          import json,os
+          from pathlib import Path
+          p=Path('topics/visible-flexible-closed-surface/ci-requests/6a65-m12-fixed-g-joint-prefix.json')
+          request=json.loads(p.read_text()) if p.exists() else {}
+          iterations=int(os.environ.get('M12_DISPATCH_ITERATIONS') or request.get('iterations',800))
+          newton=int(os.environ.get('M12_DISPATCH_NEWTON') or request.get('newton',1))
+          if not 1<=iterations<=20000 or not 1<=newton<=20:raise ValueError('Invalid finite iteration request')
+          with Path(os.environ['GITHUB_ENV']).open('a') as output:
+              output.write('M12_ITERATIONS='+str(iterations)+'\nM12_NEWTON='+str(newton)+'\n')
+          print(json.dumps({'iterations':iterations,'newton':newton,
+                            'elements':80,'order':32,'angular':384,'gauss':6,
+                            'fixed_original_metric':True,'scope':'complete common-cut prefix, not the true terminal cuff'}))
+          PY
+      - name: Recover and verify the original prefix blob
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p "$M12_COLD_DIR"
+          python - <<'PY'
+          import os,urllib.request,json,base64,hashlib
+          from pathlib import Path
+          blob='26ce0426c60ef868c53597a82252e0559c1cc21e'
+          expected='359d491cd592962d467fdd538013977ee9a92070346de41c227d9ca3e1ef3bd0'
+          headers={'User-Agent':'M12-fixed-g-cold-run','Accept':'application/vnd.github+json'}
+          token=os.environ.get('M12_RECOVERY_TOKEN')
+          if token:headers['Authorization']='Bearer '+token
+          url='https://api.github.com/repos/Rogerhu12/math-research-public/git/blobs/'+blob
+          with urllib.request.urlopen(urllib.request.Request(url,headers=headers),timeout=60) as response:
+              payload=json.load(response)
+          if payload['sha']!=blob or payload['encoding']!='base64':raise ValueError('Wrong source blob')
+          raw=base64.b64decode(payload['content'])
+          if len(raw)!=3112330 or hashlib.sha256(raw).hexdigest()!=expected:raise ValueError('Wrong original M12 prefix')
+          if hashlib.sha1(b'blob '+str(len(raw)).encode()+b'\0'+raw).hexdigest()!=blob:raise ValueError('Wrong Git framing')
+          (Path(os.environ['M12_COLD_DIR'])/'m12-prefix-data.npz.gz').write_bytes(raw)
+          print(json.dumps({'prefix_blob':blob,'prefix_sha256':expected,'bytes':len(raw)}))
+          PY
+      - name: Stream the exact rational tail endpoint
+        shell: bash
+        run: |
+          set -euo pipefail
+          python topics/visible-flexible-closed-surface/scripts/6a65-m12-stream-tail-exact-endpoint.py \
+            --manifest topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r01-s64-q512-manifest.json \
+            --out "$M12_COLD_DIR/tail-endpoint.json" | tee "$M12_COLD_DIR/endpoint.log"
+      - name: Solve the complete common-cut prefix with one unchanged g
+        shell: bash
+        run: |
+          set -euo pipefail
+          env -u M12_RECOVERY_TOKEN python topics/visible-flexible-closed-surface/scripts/6a65-m12-global-common-cut-position-recovered.py \
+            --data "$M12_COLD_DIR/m12-prefix-data.npz.gz" \
+            --endpoint-report "$M12_COLD_DIR/tail-endpoint.json" \
+            --endpoint-cache "$M12_COLD_DIR/tail-endpoint.json.endpoint.npz" \
+            --out "$M12_COLD_DIR/joint-prefix.json" \
+            --elements 80 --order 32 --angular 384 --gauss 6 \
+            --iterations "$M12_ITERATIONS" --newton "$M12_NEWTON" --block 24 \
+            | tee "$M12_COLD_DIR/joint-prefix.log"
+      - name: Write a compact identity receipt
+        if: always()
+        shell: bash
+        run: |
+          python - <<'PY'
+          import hashlib,json,os
+          from pathlib import Path
+          base=Path(os.environ['M12_COLD_DIR'])
+          base.mkdir(exist_ok=True)
+          files={}
+          for p in base.iterdir():
+              if p.is_file():
+                  raw=p.read_bytes()
+                  files[p.name]={'sha256':hashlib.sha256(raw).hexdigest(),'bytes':len(raw)}
+          receipt={'head':os.environ['GITHUB_SHA'],'run_id':os.environ['GITHUB_RUN_ID'],
+                   'scope':'All original prefix intervals. The radius .6 port is an internal tail seam, not the true flat terminal.',
+                   'full_tail_solved':False,'exact_isometry_proved':False,'files':files}
+          (base/'cold-receipt.json').write_text(json.dumps(receipt,indent=2)+'\n')
+          print(json.dumps(receipt,indent=2))
+          PY
+      - name: Publish only the scalar run receipt and own rules marker
+        if: always()
+        shell: bash
+        env:
+          M12_JOB_STATUS: ${{ job.status }}
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import hashlib,json,os,subprocess
+          from pathlib import Path
+          root=Path('topics/visible-flexible-closed-surface')
+          cold=Path(os.environ['M12_COLD_DIR']);cold.mkdir(exist_ok=True)
+          run=os.environ['GITHUB_RUN_ID'];attempt=os.environ['GITHUB_RUN_ATTEMPT']
+          source_head=subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip()
+          report_path=cold/'joint-prefix.json';receipt_path=cold/'cold-receipt.json'
+          observed=json.loads(report_path.read_text()) if report_path.exists() else None
+          receipt=json.loads(receipt_path.read_text()) if receipt_path.exists() else {}
+          record={'source_head':source_head,'run_id':run,'run_attempt':attempt,
+                  'job_status_before_publication':os.environ['M12_JOB_STATUS'],
+                  'scope':'The complete original M12 common-cut prefix only; r=.6 is an internal tail seam.',
+                  'full_tail_solved':False,'exact_isometry_proved':False,
+                  'regeneration':'Run this workflow at the same source commit. The original prefix and every tail block are recovered by known public Git blobs with SHA checks.',
+                  'raw_retention':'RUNNER_TEMP only. No raw Git, release, or artifact publication.',
+                  'receipt':receipt,'scalar_observation':observed}
+          target=root/'notes'/('2026-11-26-6a65-m12-global-prefix-ci-'+run+'-'+attempt+'.json')
+          raw=(json.dumps(record,indent=2,allow_nan=False)+'\n').encode()
+          if len(raw)>100000:raise ValueError('Scalar receipt unexpectedly exceeds 100 KB')
+          target.write_bytes(raw)
+          (cold/'publish-path.txt').write_text(str(target)+'\n')
+          print(json.dumps({'publish_path':str(target),'bytes':len(raw),'sha256':hashlib.sha256(raw).hexdigest()}))
+          PY
+          export GIT_TERMINAL_PROMPT=0
+          export GIT_CONFIG_COUNT=2 GIT_CONFIG_KEY_0=credential.helper GIT_CONFIG_VALUE_0='' GIT_CONFIG_KEY_1=credential.helper
+          export GIT_CONFIG_VALUE_1='!f() { printf "username=x-access-token\npassword=%s\n" "$M12_RECOVERY_TOKEN"; }; f'
+          git config user.name "Astra-visible-flex-6a65"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          report_path="$(cat "$M12_COLD_DIR/publish-path.txt")"
+          handoff_path="topics/visible-flexible-closed-surface/HANDOFF.md"
+          export M12_CI_SUBJECT="Record M12 fixed-g joint prefix scalar run ${GITHUB_RUN_ID} attempt ${GITHUB_RUN_ATTEMPT}"
+          git add -- "$report_path"
+          git commit -m "$M12_CI_SUBJECT"
+          while true; do
+            before="$(git rev-parse HEAD)"
+            if ! git pull --rebase origin main; then
+              conflicts="$(git diff --name-only --diff-filter=U)"
+              if [ "$conflicts" != "$handoff_path" ]; then
+                echo "Rebase conflict is not confined to this job's HANDOFF marker; root must resolve it."
+                exit 43
+              fi
+              git show ":2:$handoff_path" > "$M12_COLD_DIR/handoff-upstream.txt"
+              cp "$M12_COLD_DIR/handoff-upstream.txt" "$handoff_path"
+              git add -- "$handoff_path"
+              GIT_EDITOR=true git rebase --continue
+            fi
+            export M12_RULES_READ_SHA="$(git rev-parse origin/main)"
+            export M12_RULES_STATE="README unchanged"
+            if ! git diff --quiet "$before" HEAD -- README.md topics/visible-flexible-closed-surface/README.md; then
+              export M12_RULES_STATE="README changed; root review pending"
+            fi
+            python - <<'PY'
+          import os
+          from pathlib import Path
+          path=Path('topics/visible-flexible-closed-surface/HANDOFF.md')
+          lines=path.read_text().splitlines(keepends=True)
+          marker='<!-- 6a65-m12-ci-rules -->'
+          hits=[i for i,line in enumerate(lines) if line.startswith(marker)]
+          if len(hits)>1:raise ValueError('Ambiguous own HANDOFF marker')
+          line=(marker+' '+os.environ['M12_RULES_STATE']+' at '+os.environ['M12_RULES_READ_SHA']+
+                '; run '+os.environ['GITHUB_RUN_ID']+' attempt '+os.environ['GITHUB_RUN_ATTEMPT']+'.\n')
+          if hits:lines[hits[0]]=line
+          else:
+              if lines and not lines[-1].endswith('\n'):lines[-1]+='\n'
+              lines.append(line)
+          path.write_text(''.join(lines))
+          print(line,end='')
+          PY
+            if [ "$M12_RULES_STATE" != "README unchanged" ]; then
+              git diff "$before" HEAD -- README.md topics/visible-flexible-closed-surface/README.md
+              echo "Root must read and apply this README diff before publishing the pending receipt and marker."
+              exit 42
+            fi
+            git add -- "$handoff_path"
+            if ! git diff --cached --quiet; then
+              if git merge-base --is-ancestor HEAD origin/main; then
+                git commit -m "$M12_CI_SUBJECT"
+              else
+                if [ "$(git log -1 --format=%s)" != "$M12_CI_SUBJECT" ]; then
+                  echo "Refusing to amend a commit that this job did not create."
+                  exit 44
+                fi
+                git commit --amend --no-edit
+              fi
+            fi
+            if git push origin HEAD:main; then
+              break
+            fi
+          done
