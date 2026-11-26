@@ -353,3 +353,13 @@ global_route 与 root 逐项核 normal 层、中心 smooth deformation、
 真实最高系数及原 Serre 配对；o2 独立核中心提升和 gluing 归纳。
 没有数学程序或有限窗口重算。
 Serre 主目标仍 OPEN。
+
+
+## R1033 接续：原有理盘共同尺度
+
+[R1033](R1033-original-rational-CM-disc-exact-lowest-type-scale-and-tail.md)
+已将本篇的完整 normal 下界和最高系数换回
+\(w=(a-1)/p^3\)。原 type1 Abel-log 与 formal map 除 \(p\varepsilon\)
+后为整 Tate 级数，模 \(p\) 次数至多 \(4g-1\)，整个类型块最高系数非零，
+故共同 \(M=1\)。全部 \(p\) 倍积分分母已纳入。
+最低非零 \(w\) 项、真实 MW 饱和消去和具体 Néron 商格仍不由此自动确定。

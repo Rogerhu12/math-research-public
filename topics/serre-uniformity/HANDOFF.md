@@ -6,13 +6,15 @@
 
 会话 **Astra-serre-24b8836b-20261126**。本轮已部分克隆并真实pull main，读两README/H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则读至36cf1ed2。不重做已登记结论或窗口。
 
-**公开两README已读提交：5496310065e75ee570c1ac6898d881ad6927ae13**（2026-11-26 22:04 Asia/Taipei；本次同步两README无差异）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
+**公开两README已读提交：f1e45ed5ebe805cc2cc1da9510f6e9154c8133de**（2026-11-26 22:26 Asia/Taipei；本次同步两README无差异）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
 
 执行宿主本轮断连；13:42 UTC单次恢复探测仍无环境。按根规矩8用GitHub小文本原子tree/commit、最新head检查和非force expected-head更新；并发拒绝立即在新head重建循环至成功，保其它会话。终端恢复补pull --rebase。令牌仅此前CLI使用，未存文件/提交。根维护main/H/open/index/log；子研究交数学稿。每条结论完整审后立即推。19:52纠正：global_route曾违规用会话V8做数学探索，已叫停；已知范围、时长及独立纸面重核见[执行偏差记录](notes/2026-11-26-execution-path-deviation-and-correction.md)。不得把其数字记为证明或合规窗口。
 
 H<10KB、open尽量<30KB、每MD<100KB、topic<200MB；无可重算raw、不写根LOG。[本次逐字前态](handoff-archive-2026-11-26-before-CM-jet-functional.md)沿链保全部旧来源/run/hash；[open](open.md)、[索引](results.md)是完整入口。历史“R1003 norm3准备中”未交付，现R1003为范围纠错。
 
 ## 最新全局实际来源
+
+[R1033](results/R1033-original-rational-CM-disc-exact-lowest-type-scale-and-tail.md)：原z=ε³w、w=(a−1)/p³；全部实际type1 Abel-log除pε后整，modp次数≤n₀=4g−1，最高系数=(2κ₁√A_tail/m)λ₀^−n₀·J(L)。完整p倍积分分母已排，formal坐标同轮廓，whole-block原M=1。最低非零w系数、实际MW饱和消去及Q简单商Néron尺度仍开，不冒唯一零点。
 
 [R1032](results/R1032-original-lowest-type-complete-CM-normal-jet-functional.md)：原p11mod12底L在中心第m层为ε(2/m)ΣL_sθ_s db/(b−s)²；逐层gluing保中心变形，CM早于4m全零。最高极部与R1030整投影给实际e₁Ω_L的4m层=κ₁R_L(1)d(x^(2g−1)y)，原κ₁保留。原Abel系数列为−κ₁√A_tail ε⁴/m·Σθ_s/(1−s)²f_s，现与首log同格；不把graded jet或whole-vector比较冒真实MW饱和空间/统一半径。
 

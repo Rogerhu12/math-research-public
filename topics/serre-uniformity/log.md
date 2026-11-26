@@ -260,3 +260,8 @@
 ### 2026-11-26 22:02 Asia/Taipei — R1032 原CM normal jet完整泛函
 - [R1032](results/R1032-original-lowest-type-complete-CM-normal-jet-functional.md)：原p11mod12底L在中心第m层为ε(2/m)ΣL_sθ_s db/(b−s)²；逐层gluing保中心变形，CM早于4m全零。最高极部与R1030整投影给实际e₁Ω_L的4m层=κ₁R_L(1)d(x^(2g−1)y)，原κ₁保留。原Abel系数列为−κ₁√A_tail ε⁴/m·Σθ_s/(1−s)²f_s，现与首log同格；不把graded jet或whole-vector比较冒真实MW饱和空间/统一半径。
 - global/root/o2纸核零residue与Ω(D)提升的不同职责、完整normal归纳、真实trace-zero最高极部、全分支投影及原配对。未把graded层当generic首Taylor层或全MW空间；无数学执行，两README同步无变化。
+
+
+### 2026-11-26 22:14 Asia/Taipei — R1033 原有理CM盘的准确共同尺度
+- [R1033](results/R1033-original-rational-CM-disc-exact-lowest-type-scale-and-tail.md)：原z=ε³w、w=(a−1)/p³；全部实际type1 Abel-log除pε后整，modp次数≤n₀=4g−1，最高系数=(2κ₁√A_tail/m)λ₀^−n₀·J(L)。完整p倍积分分母已排，formal坐标同轮廓，whole-block原M=1。最低非零w系数、实际MW饱和消去及Q简单商Néron尺度仍开，不冒唯一零点。
+- global/root纸核原z=ε³w和λ₀、向上取整与特殊4g项、所有p倍积分分母、整formal BT坐标及深层log比较。消费R378既有一般tail界，不恢复旧秩零商身份；无数学执行，两README同步无变化。

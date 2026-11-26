@@ -6,6 +6,8 @@
 
 R1018已证原P=(p−1)D₀在良好J₁准确Fm，m=(p−1)/2、π₀^((p²−1)/2)=p；原六标记/zero-flux/全局Cech与e3 odd gaps保留。R1019实际A=T5²、Z=(T31−32)T5²保Fm且杀CM，Z另杀Q挠点，充分大界分别max(575,N_HA)、max(36863,N_HZ)，N为固定Norm函数lc/resultant。R1021真full-p Cohen/μ平均给全非约化O/(p)仿射刚性，原u′=ε(c_Qψ+pR_Q)、R_Q仅仿射正则。全部证明与支撑/次数界见[逐字前态](open-archive-2026-11-26-before-actual-CM-jet.md)。R1023现已付清实际首log节点和跨尾返回；实际H_A/H_Z新支撑、所选简单商Néron格及非齐次CM jet仍须核；最低惯性型整投影已由R1029完成。
 
+[R1033](results/R1033-original-rational-CM-disc-exact-lowest-type-scale-and-tail.md)：原z=ε³w、w=(a−1)/p³；全部实际type1 Abel-log除pε后整，modp次数≤n₀=4g−1，最高系数=(2κ₁√A_tail/m)λ₀^−n₀·J(L)。完整p倍积分分母已排，formal坐标同轮廓，whole-block原M=1。最低非零w系数、实际MW饱和消去及Q简单商Néron尺度仍开，不冒唯一零点。
+
 [R1032](results/R1032-original-lowest-type-complete-CM-normal-jet-functional.md)：原p11mod12底L在中心第m层为ε(2/m)ΣL_sθ_s db/(b−s)²；逐层gluing保中心变形，CM早于4m全零。最高极部与R1030整投影给实际e₁Ω_L的4m层=κ₁R_L(1)d(x^(2g−1)y)，原κ₁保留。原Abel系数列为−κ₁√A_tail ε⁴/m·Σθ_s/(1−s)²f_s，现与首log同格；不把graded jet或whole-vector比较冒真实MW饱和空间/统一半径。
 
 R1028真实Igusa与同阶提升差、R1029真整τ₁ Hecke/BT分裂、R1030全部配对分支上的整有限角E均已成。E固定dF、杀A_tailν；块内同权lift模p唯一并保完整原首log。该块不冒Q简单商，具体Néron尺度仍开。原全部系数/角色/来源见各结果及逐字前态。
