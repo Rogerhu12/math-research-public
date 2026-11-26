@@ -6,7 +6,7 @@
 
 ## 1. 规则与接手
 
-已部分克隆并实际 `git pull main`，公开根 README、课题 README、HANDOFF、open、results 索引及相关 log/notes 已读。公开已读提交 **a40aa2fb637c6e480d19afa291a22935198627e8**（2026-11-26 11:56 UTC；本次实际pull后根/题README空差异）；历次规则及失败原回执保原note；私有 QUEUE 的本题已改为本会话进行中并成功推送：**9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7**；最后实际pull及规则同blob读至 **4a97d422c004724bff537e2c5e322b82aec4ccdd**（2026-11-26 11:28 UTC；恢复partial副本后实际pull，根README空差异、QUEUE仍本会话）。其它课题的并行认领保留。
+已部分克隆并实际 `git pull main`，公开根 README、课题 README、HANDOFF、open、results 索引及相关 log/notes 已读。公开已读提交 **1ef79b8f9651620533c5eb767b1fab06faf62df0**（2026-11-26 12:05 UTC；本次实际pull后根/题README空差异）；历次规则及失败原回执保原note；私有 QUEUE 的本题已改为本会话进行中并成功推送：**9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7**；最后实际pull及规则同blob读至 **4a97d422c004724bff537e2c5e322b82aec4ccdd**（2026-11-26 11:28 UTC；恢复partial副本后实际pull，根README空差异、QUEUE仍本会话）。其它课题的并行认领保留。
 
 [前历交接](notes/HANDOFF-before-new-actual-runs-20261126.md)保全部原规则/成本/范围；09:18及11:20 UTC两次本地失联期间仅API保存，不冒actualpull。09:33、11:28恢复后已实际双pull。每pull核根/题README差异并执行，至少每小时；root独占git/索引，每条结论即推，NFF立即rebase重推。科学仅公开Actions，本地限纸证/源码/原日志解析；已披露3次开发偏离保原note且停止。根12不加机械复跑，根15不留可重算raw。
 
@@ -20,7 +20,7 @@
 
 [R580](results/R580-finite-tail-polynomial-kernel-obstruction-and-resonant-seed-interface.md)仅排旧有限多项式；[R582](results/R582-actual-circular-tail-flat-kernel-and-resonant-entry.md)付真无限尾；[R592](results/R592-undivided-finite-order-crossing-and-exact-angular-bound.md)保真实遇zs零时的穿越，不造当前零点。
 
-[true-s原终态](notes/2026-11-26-r582-true-core-shooting-original-terminal-receipt.md)run45812850055/job139884885837付31.672817549科学秒，0旧seed/LS。μ−.040019082162222074、ν−.048942275258064924，C/A两精度2.9854e−15/7.7913e−13；4811细几何V0、κ16.42911578。整个ν±.001盒/全s的71区间付zs>.00785181746；实际H包络宽1.817e−6保真，未冒请求1e−6。归一场二jet峰28.8894；amax.3891>.38核心且尾到.22，下一保完整s参数图作有限非圆，不强套全r图。数值ODE/无限尾口误差及准确根仍未认证；旧全部口/LS费用保原note。
+[true-s原终态](notes/2026-11-26-r582-true-core-shooting-original-terminal-receipt.md)run45812850055/job139884885837付31.672817549科学秒，0旧seed/LS。μ−.040019082162222074、ν−.048942275258064924，C/A两精度2.9854e−15/7.7913e−13；4811细几何V0、κ16.42911578。原ν0±.001盒/全s的71区间付zs>.00785181746；实际H包络宽1.817e−6保真，未冒请求1e−6。归一场二jet峰28.8894；amax.3891>.38核心且尾到.22，下一保完整s参数图作有限非圆，不强套全r图。数值ODE/无限尾口误差及准确根仍未认证；旧全部口/LS费用保原note。
 
 [R577](results/R577-intrinsic-geodesic-normal-chord-and-complete-reach-certificate.md)的完整reach门和[R579](results/R579-smooth-thick-rounded-core-with-exact-perimeter-and-macro-budget.md)厚核心预算均保原证明；当前连接/跨片/全对仍未付，有限FFT/曲率不替代。
 
@@ -36,17 +36,15 @@
 
 [R591](results/R591-forced-flat-harmonics-and-third-order-shooting.md)付二阶j4强迫/代数e2、真实无限强迫尾及核心返回、三阶j2/j6源；近核心正bump严格给射击导数非零。[R593](results/R593-exact-resonant-background-and-finite-nonresonance.md)给新准确静态族付j2/4/6/8分母、球<1/帽比>.22；不认证当前数值H点，有限阶仍非完整分支。
 
+[R594](results/R594-exact-nonlinear-radial-acceleration-and-galerkin-leakage.md)新付完整径向加速度、离解真二jets导数及a<0时有限角主矩阵可逆；保整个已付f0新增函数列，连续漏模可界真实metric。普通全角良定/两端匹配/核心剩余项/实际a符号仍欠；下一实际有限角BVP，不以投影零冒等距。
+
 ## 5. 两母库与紧凑真实路径
 
-两母不可混用：33母保原20/cap/13与一次χ，R521母不继承。R567/568/570/572的八矩/偶germ/真实返回及第四4V_P等未付项，R573只排固定输入后δ→0的reach/D；完整限定/费用保[压缩前记录](notes/HANDOFF-before-full-history-potential-20261126.md)与原证明，不据此重开已闭旧跑。
+33母的20/cap/13与一次χ不与R578的36母混用；原period/第四、δ→0 reach障碍及旧费用全保[此前交接](notes/HANDOFF-before-radial-and-parametric-bvp-20261126.md)/原证明，已闭旧跑不重开。[R578](results/R578-sixfold-six-node-positive-complete-profile-library.md)固定36完整块、0…10矩、2e−6微半宽与真collar，Ch<0/Ck>0并非端根。
 
-[此前完整记录](notes/HANDOFF-before-full-history-potential-20261126.md)保v2失败、R581稳定C2原run及全部科学成本。[R581](results/R581-exact-c2-local-ruling-with-full-history-chain.md)付真实局部R的C2积分；[R584](results/R584-centered-third-history-and-nineteen-state-full-ruling-bvp.md)付可逆中心第三坐标、19态+3参数/22BC；[R586](results/R586-sixfold-full-history-coefficient-projection-and-finite-integrals.md)付完整六元系数投影、真二尾及C3有限预收。[完整十九态首跑](notes/2026-11-26-r584-r586-full-nineteen-first-public-receipt-agent.md)run45801587742付45.742568秒child/44.527690649秒main，完整σ′达1e12–1e14；四例各49 RHS/1201累计点评价，第一次Newton试探越声明范围，无根/缺陷/pose。下一精确状态势改写；不重跑原四猜，也不删真实大项。
+[R584](results/R584-centered-third-history-and-nineteen-state-full-ruling-bvp.md)/[R586](results/R586-sixfold-full-history-coefficient-projection-and-finite-integrals.md)付真19态/六历史预收；[R589](results/R589-autonomous-full-feedback-and-even-end-germs.md)付完整自主反射和偶端germs，但根/pose/第四仍欠。[R590](results/R590-full-history-square-potential-and-c2-update.md)付势/C²等价式，正势必须全回付。
 
-[R589](results/R589-autonomous-full-feedback-and-even-end-germs.md)付完整自主反射：真实A端零且γ=υ=0使全scalar/完整T偶germs成立，固定原规范/全部incoming不改。自由H/L的19态+4常数与13中心+10末端准确匹配；根、pose及第四仍欠。
-
-[R590](results/R590-full-history-square-potential-and-c2-update.md)付完整势/C²等价式。[新νhat首终态](notes/2026-11-26-r590-c2-nuhat-first-public-receipt-agent.md)run45812495528/job139883653226付68.247768秒child/67.375023603主程序；Fraction差0、新六历史温和且Jac方向误差3.09e−10，原正势约1.677e12完整保留。真实BVP95RHS/6542累计点/16Jac后触发非有限或>|1e100|守卫；未输出触发向量/接受历史，无coarse根/原缺陷/refine/pose。下一真矩中心初猜与有合法拒步/保存接受态的原方程collocation；大中心势用准确差式稳定相消，不重投本猜或旧验证门。
-
-[R578](results/R578-sixfold-six-node-positive-complete-profile-library.md)固定新36完整块、六元/六正节点共0…10矩、2e−6微半宽与真collar；保完整history及Ch<0/Ck>0，不继承旧母χ/轨道。端根与全空间仍须实际付。
+[新νhat首终态](notes/2026-11-26-r590-c2-nuhat-first-public-receipt-agent.md)run45812495528/job139883653226付68.247768秒child/67.375023603主程序。完整Fraction差0/Jac方向误差3.09e−10；原势约1.677e12。BVP95RHS/6542累计点/16Jac触发非有限或>|1e100|守卫，未存触发向量/接受历史，无coarse根/原缺陷/refine/pose。下一保29真条件：真实矩初猜、显式midpoint、严格拒步/缩步和每接受全态；大中心势用共同中心准确差稳定相消，不重投本猜或旧验证门。
 
 ## 6. 持续工作与入口
 

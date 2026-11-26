@@ -326,3 +326,13 @@
 - [R592 有限阶水平切点的未除法连接与准确角谱](results/R592-undivided-finite-order-crossing-and-exact-angular-bound.md)：**已证明**zs有限阶零点的Volterra局部存在唯一性、真实六jets、根移动链式和分段C²表示；单j2连续角谱最大值准确消元。当前实际未观察零点，不把条件接口当真实障碍或既有指标改善。
 
 - [R593 准确共振背景及保持核的有限非共振](results/R593-exact-resonant-background-and-finite-nonresonance.md)：**已证明**明确有理参数的新光滑onset族满足已付R571相位输入，故有准确j2核；两近核心正bump的控制Jac非奇异，可保核并移开4/6/8。新静态闭背景球<1且帽直径比>.22，仍无可见有限弯曲/reach主门。
+
+- [完整C²自由端实现](notes/2026-11-26-r590-c2-positive-square-free-germs-implementation-agent.md)与[原首终态](notes/2026-11-26-r590-c2-nuhat-first-public-receipt-agent.md)：同36母原势保全，19态/10参数/29BC；run45812495528实际68.247768秒child，真恒等/解析Jac已付，后续Newton守卫退出，无根或pose。转真实矩初猜与有接受控制的collocation。
+
+- [精确插结高度自然终态](notes/2026-11-26-r576-exact-knot-natural-final.md)：run45804732428付1670.428137923科学秒，227接受、真实264q/67结；原幅1e−5细η2.7468e−7，尚非宏观或固定g收敛。[真实受迫j4续解](notes/2026-11-26-r576-body-forced-j4-implementation.md)完整保原场，从零加真实非齐次方向并保所有切换余项。
+
+- [B030完整callback中断收据](notes/2026-11-26-theta-checkpoint-b030-runner-interruption-receipt.md)与[径向1025续接](notes/2026-11-26-theta-peak-b030-radial1025-continuation.md)：原run45805406202系外部shutdown，保η.2603264973/V0、actual512/1167→539/1218及原trust；380.596751247秒仅下界、后46.3705572秒未刷工作未知。真实539>513支持新1025单lane，B038无日志末态不当输入。
+
+- [同paid口true-s实现](notes/2026-11-26-r582-true-core-shooting-implementation.md)与[原自然终态](notes/2026-11-26-r582-true-core-shooting-original-terminal-receipt.md)：run45812850055付31.672817549科学秒、0旧seed/LS；整个原ν0盒/全s区间zs下界.0078518，真实μν两精度C/A都<1e−12、4811细几何V0。仍非准确尾口/ODE/根证书，直接推进全s图有限非圆。
+
+- [R594 完整非线性径向加速度及漏模界](results/R594-exact-nonlinear-radial-acceleration-and-galerkin-leakage.md)：**已证明**a<0时直接解全部非线性最高项，完整离解Frechet链保δωD；零均值主项显式逆与有限弱角矩阵严格负定。保旧完整f0的有限ODE、正规核心最高项尺度及连续高模尾→真实metric界均给出；未授实际符号/两端返回/无限角收敛或主门。
