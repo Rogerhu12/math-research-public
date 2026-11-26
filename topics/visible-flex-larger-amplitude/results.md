@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- **R702（已证明，范围以正文为准）**：[同固定目标的显式高度初值与准确端点恒等式](results/R702-fixed-target-explicit-height-endpoint-identity.md) — 准确零旋转端点失配的水平core项不随H变化，H只移竖直目标；采用实际Jstar工作字不把它称准确积分，也不保证根。 原已刊完整论证的正式编号，无新科学复算。
+
 - **R701（已证明，范围以正文为准）**：[新增控制形状、横截秩条件与完整KKT隐式链](results/R701-added-shape-rank-and-complete-kkt-jets.md) — 独立gamma严格增加控制函数族；实际补秩需横截条件，九KKT/27角jet/四阶链完整保，未证明实际折叠或根存在。 原已刊证明的正式编号登记，无新科学复算。
 
 - **R700（已证明，范围以正文为准）**：[固定有限角阶下完整积分范数六jet控制](results/R700-integral-so3-full-sixjet-control.md) — 固定有限角阶与正rho条件下，Green核及全core/H链控制六个物理jet，常数不依赖最小径向胞宽；非M一致界。 原已刊证明的正式编号登记，无新科学复算。
