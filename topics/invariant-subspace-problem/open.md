@@ -33,6 +33,8 @@ rank$H=4$ 的非单位局部块长度5、4、3已排；长度2单零的三种单
 
 [相反配对的整个半总单点权纤维](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-opposite-base-pairings-half-total-weight-exclusion.md)现已关闭：q−1、b+c½，完整mean两面、所有分母零纤维及原零点共同范数均保留，QQ原源1.939650秒。相反配对的其他总权重和非零基点mean仍须继续，不能重复已闭b=c或本半权纤维。
 
+[相反配对的零总单点权纤维](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-opposite-base-pairings-zero-total-weight-exclusion.md)也已关闭：q−1、b+c0自动有b−c非零，原mean的D0、w0、H0全付；QQ8/20结式gcd只余w1，原S=4v排尽。原源0.883975秒，故本相反配对仅继续其他总单点权。
+
 ### 1.2 原权十一及更高幂
 
 [权11–14严格门](results/R150-appendix-original-koszul-two-cycles-and-weight-eleven-through-fourteen-rank-ceilings.md)为

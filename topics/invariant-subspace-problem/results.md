@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R150 单位2+1+1相反基点配对的整个零总单点权支路为空（2026-11-26，已证明）：** [原mean、零点S与完整QQ结式](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-opposite-base-pairings-zero-total-weight-exclusion.md)先支付D0/w0/H0，再以度8/20的两个原结式gcd=(w−1)^4锁最后纤维，原S余式4v与D=v非零矛盾。自含原QQ源0.883975秒/exit0，含所有允许∞；不扩大到其余总权。
+
 - **R150 单位2+1+1相反基点配对的整个半总单点权支路为空（2026-11-26，已证明）：** [原完整mean两面与零点共同范数](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-opposite-base-pairings-half-total-weight-exclusion.md)保留v=1或w=−v的所有交点；零纤维以完整Gram秩排除，非零族原S/c0只留u²=3/8或−3/4，原范数均非零；其余二次纤维直接矛盾。自含原QQ源1.939650秒，接已闭b=c后整个q−1、b+c½关闭。
 
 - **R150 秩二第三累积量且二阶累积量秩至多一时本质维数至多三（2026-11-26，已证明）：** [原完整低梯度、极大全等向空间与最高式局部阶数](results/R150-appendix-rank-two-third-cumulant-rank-at-most-one-second-cumulant-essential-bound.md)包括任意原y、约化/二jet型V及全部∞；若反设ess4，原Γ迫F=P_z=0，原H梯度给V_p0，两类型分别矛盾。因此已有完整ess≤3定理给三个matched Bell零；无需新计算，rankV2潜在非零Bell仅rankH≥2且y∉RanV。

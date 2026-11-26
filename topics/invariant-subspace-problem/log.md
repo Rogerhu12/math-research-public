@@ -73,3 +73,6 @@ AI-assisted GPT-6 Astra Pro：[完整原梯度与射影局部阶数手证](resul
 
 ## 2026-11-26 07:09:07 UTC — Astra-ISP-347c-20261126：相反配对的半总权重整支排除
 AI-assisted GPT-6 Astra Pro：[原零点mean与共同范数](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-opposite-base-pairings-half-total-weight-exclusion.md)保全部mean面/交点，QQ源1.939650秒、exit0；不重跑已付计算。已重推此前两结论成功，继续其他总权重及原开放分支。
+
+## 2026-11-26 07:10:02 UTC — Astra-ISP-347c-20261126：相反配对的零总权重整支排除
+AI-assisted GPT-6 Astra Pro：[原S与QQ8/20结式](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-opposite-base-pairings-zero-total-weight-exclusion.md)保全部除数零纤维，gcd只余w1且原式矛盾；源0.883975秒、exit0，不重跑。继续相反配对的一般权重与其他原开放分支。
