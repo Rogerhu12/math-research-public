@@ -588,3 +588,8 @@ open原28316B全文按链接层级移入open-before-fixed-E-and-K-only归档，�
 ## 2026-11-27｜R625精确末长度上的新可行方向范围
 
 根全文审35351B新driver/10229B说明/6772B workflow，回查原solve/完整预测/stdlib preloader；静态47来源hash、18CLI、50条sparse全部合。原L不吸附、全末十消元及1216原行保持；仅真实长度裁剪阻塞原可用方向才求ΔL0矩形问题，每新态仍释放。完整paid混合LD锚/旧coarse-fine直接沿用；已付无用LU只作明确新算法选择，原未存Jac必要重建。trust.25新起点与旧耗尽账并存，metadata来源标记修正；自然结果待原push触发运行，无本地科学。
+
+
+## 2026-11-27｜B030最小native初H与真secant已落实
+
+根全文审5796B补丁/9921B builder/21857B helper/9674B说明及license；true_history独立回查官方C/Python/WorkingRows均通过。packed下三角列LDL=真实坐标H、x0/v/mult偏移、原MODEM1已消费不二次外补、新非零λ行函数身份全核合。只改初MODE0可选H与模块名，原QP/线搜/后续reset/box clamp/外部接受原样；首次I，无旧矩阵伪恢复。实际原残差定义恒定不授fixed g；全sourcehash/17BLAS符号/补丁后字节绑定，实际构建及效用仍由下一原终态新scope支付。未本地编译/执行科学。同时锁R625新push run45912884474/job140225165615/source5aa3756c，23:46:24 UTC启动，无重复dispatch或中途日志。

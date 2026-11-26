@@ -5,7 +5,7 @@
 
 ## 1. 授权、规则与继承
 
-公开本次实际pull且根/题README已读至 **c8ef3785a92b3b0b7c637455b2385ac504cf3eab**；根/题规则相对继承0749a4cc仍为空差异。私库实际pull/根README已读至 **67ef1777c8910b9bfb7ccff27c1c9d832a5d373e**，2026-11-26 23:15:24 UTC空diff；下次不晚于2026-11-27 00:14 UTC。QUEUE唯一仍本会话进行中，原认领09f8b8b54e。
+公开本次实际pull且根/题README已读至 **430eacecc59115ef2351316afb29ee3dbfac63bc**；根/题规则相对继承0749a4cc仍为空差异。私库实际pull/根README已读至 **67ef1777c8910b9bfb7ccff27c1c9d832a5d373e**，2026-11-26 23:15:24 UTC空diff；下次不晚于2026-11-27 00:14 UTC。QUEUE唯一仍本会话进行中，原认领09f8b8b54e。
 
 每次pull只读根/题README差异并记SHA，至少每小时；NFF/ref锁立即pull --rebase再推至成功。root独占git和四索引，每条结论即推；科学只公开Actions，本地只纸证/源码及原日志JSON/hash解析。根12不重放已付门；根15不存raw/可重算表，必要新场再生全计费。H<10KB/open<30KB/md<100KB；publisher活跃不改tracked。
 
@@ -25,7 +25,7 @@
 
 [partial391原终态](notes/2026-11-27-r566-partial391-original-terminal.md)run45900339926/job140184283363/sourceb6343b326；2370.208649153秒，原391复用/1128补完后55e才接受，共8metric+2恢复（含η上升）。真q **56e8d87b39bf336a4cdb8c4106108396e735c498254a9e51c1a84c503904fb2f**，1388×3072/8886峰η.222444466001、物理V0，margin1.24e−12在原容差内、非严格余量。
 
-actual694圈/1555峰/309work/1536角/trust.3003387451171875；新fine1390未获1388资格，pending双空，旧队列不再跑。21完整Jac/1164块+未闭4块、0自然后端返回；末更差05f被拒。已知链≥14729.212126063秒，未知仍未知。[正常56e8](notes/2026-11-27-r566-normal56e8-resume-implementation.md)run45909082053/job140212809662/source5cd6055b，23:08:06 UTC启动，待自然终态；新baseline不计metric接受。[真实secant协议](notes/2026-11-27-r566-true-secant-restart-source-receipt.md)证原33首callback先于BFGS/32交换；旧H/λ未存，首次I，后用同冻结λ/同行函数的已付两J，phase/角语义变重置。native新实现待发布。
+actual694圈/1555峰/309work/1536角/trust.3003387451171875；新fine1390未获1388资格，pending双空，旧队列不再跑。21完整Jac/1164块+未闭4块、0自然后端返回；末更差05f被拒。已知链≥14729.212126063秒，未知仍未知。[正常56e8](notes/2026-11-27-r566-normal56e8-resume-implementation.md)run45909082053/job140212809662/source5cd6055b，23:08:06 UTC启动，待自然终态；新baseline不计metric接受。[真实secant协议](notes/2026-11-27-r566-true-secant-restart-source-receipt.md)证原33首callback先于BFGS/32交换；旧H/λ未存，首次I，后用同冻结λ/同行函数的已付两J，phase/角语义变重置。[native初H/真secant](notes/2026-11-27-r566-native-initial-curvature-and-true-secant-implementation.md)已双审发布：原LDL82维/3403项，MODEM1已消费不再外补；首次I，后续native reset仍I，512KiB必要checkpoint不存完整J。下一真实终态接新driver。
 
 ## 5. 完整S与真正固定E的增长模型
 
@@ -45,7 +45,7 @@ R616旧stall31接受/1753.553893449秒，细四端过而ruling1.31489e14、eta�
 
 原L=**2.1000000000449615**到下盒，H1.96637/v−.716706/β.29107为内点；末trust2.5e−9/damp1.234567901234568e−5，自然stall非clock。所有LU虽解出但截步不可用；完整行LSMR有真实下降，不冒全部病态消除。FINAL inherited布尔默认错误，实际27新真读数+1fine已付，见收据；不为修metadata重跑。
 
-[同盒可行L新范围](notes/2026-11-27-r625-paid-feasible-length-continuation-agent.md)已审发布，待push原run：精确L不吸附，真正长度截步阻塞才用1216×1215全行ΔL=0，每新态重试自由方向以释放；明确trust.25/damp沿末值。直接载混合锚/state/readout/fine，入口已付无用LU不重因数，未存Jac必要重建。原19/10参数/8末A+双速度/真历史/全正势/ruling、18块/576微包/ε1/12000全部保持；65→129仍须原配点门，pose/闭材料未付。
+[同盒可行L新范围](notes/2026-11-27-r625-paid-feasible-length-continuation-agent.md)已审发布：run45912884474/job140225165615/source5aa3756c，23:46:24 UTC启动。精确L不吸附，真正长度截步阻塞才用1216×1215全行ΔL=0，每新态重试自由方向以释放；明确trust.25/damp沿末值。直接载混合锚/state/readout/fine，入口已付无用LU不重因数，未存Jac必要重建。原19/10参数/8末A+双速度/真历史/全正势/ruling、18块/576微包/ε1/12000全部保持；65→129仍须原配点门，pose/闭材料未付。
 
 
 ## 7. 当前59a4有限场已通过单候选reach比例门
@@ -54,4 +54,4 @@ R616旧stall31接受/1753.553893449秒，细四端过而ruling1.31489e14、eta�
 
 R604完整比例.0298560486123受far限制；按原声明同输入接R622，near=.0500165169989、far=.0519626546087，**reach≥.0500165169989、D≤1.60458313759、reach/D≥.0311710349107>.03**。没有混新阈值与旧1/K；这是同一完整C²闭有限材料场的嵌入/几何，非已解fixed-g宏观族。旧[a237](notes/2026-11-27-r582-a237-normal-curvature-original-terminal.md)665.753318451秒/.007183367225、旧f1 527.88478224秒/.00783058和[异场入口失败](notes/2026-11-27-r623-curvature-only-original-mesh-mismatch.md)133.483449239秒全部保留，不移旧界。当前η仍未达阶段门，接97/固定E及宏观推进。
 
-R33相位族全时继承、R565宏观预算与原joint-budget仍有效：目标p=.8需完整ball R1.012/strip .3928/core(1,0,0)、帽盘diam .44及reach≥.06072；当前p=.181不可借宏观见证。每条结果即推并继续，只有完整README与强目标真正完成才收尾。
+R33全时相位继承/R565原宏观预算保持：p=.8须ball R1.012/strip .3928/core(1,0,0)、帽盘diam .44、reach≥.06072；p=.181不借宏观见证。完整README及强目标未过不停。

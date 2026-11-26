@@ -1,0 +1,142 @@
+--- a/__slsqp.c
++++ b/__slsqp.c
+@@ -46,7 +46,7 @@
+     struct SLSQP_vars* S, double* funx, double* restrict gradx,
+     double* restrict C, double* restrict d, double* restrict sol,
+     double* restrict mult, double* restrict xl, double* restrict xu, double* buffer,
+-    int* indices)
++    int* indices, const double* initial_ldl)
+ {
+ 
+     int one = 1, lda = (S->m > 0 ? S->m : 1);
+@@ -88,6 +88,17 @@
+     S->reset = 0;
+     for (int i = 0; i < n; i++) { s[i] = 0.0; }
+     for (int i = 0; i < m; i++) { mu[i] = 0.0; }
++
++    /* R566: the optional packed LDL is an approximate first-QP curvature.
++       The Python boundary has checked every entry and every D diagonal.
++       No reverse-communication state, multiplier or line search is resumed.
++       Later RESET_BFGS paths below retain the original identity reset. */
++    if (initial_ldl != NULL)
++    {
++        for (int i = 0; i < n2; i++) { bfgs[i] = initial_ldl[i]; }
++        S->reset = 1;
++        goto ITER_START;
++    }
+ 
+ RESET_BFGS:
+     // Reset the BFGS matrix stored in packed format
+--- a/__slsqp.h
++++ b/__slsqp.h
+@@ -80,7 +80,7 @@
+ };
+ 
+ 
+-void __slsqp_body(struct SLSQP_vars* S, double* funx, double* gradx, double* C, double* d, double* sol, double* mult, double* xl, double* xu, double* buffer, int* indices);
++void __slsqp_body(struct SLSQP_vars* S, double* funx, double* gradx, double* C, double* d, double* sol, double* mult, double* xl, double* xu, double* buffer, int* indices, const double* initial_ldl);
+ 
+ 
+ // A simple destructor for buffer attached to a NumPy array via a capsule.
+@@ -196,14 +196,14 @@
+     if (mem_ret == NULL)
+     {
+         free(buffer);
+-        PYERR(slsqp_error, "scipy.optimize._slsqplib: Memory reallocation failed.");
++        PYERR(slsqp_error, "scipy.optimize._r566_slsqp_seeded_20261127: Memory reallocation failed.");
+     }
+ 
+     npy_intp shape_ret[1] = {n};
+     PyArrayObject* ap_ret = (PyArrayObject*)PyArray_SimpleNewFromData(1, shape_ret, NPY_FLOAT64, mem_ret);
+     if (ap_ret == NULL) {
+         free(mem_ret);
+-        PYERR(slsqp_error, "scipy.optimize._slsqplib: Failed to create numpy array from data.");
++        PYERR(slsqp_error, "scipy.optimize._r566_slsqp_seeded_20261127: Failed to create numpy array from data.");
+     }
+ 
+     // Attach the buffer to a capsule
+@@ -211,14 +211,14 @@
+     if (capsule == NULL) {
+         Py_DECREF(ap_ret);
+         free(mem_ret);
+-        PYERR(slsqp_error, "scipy.optimize._slsqplib: Failed to create capsule.");
++        PYERR(slsqp_error, "scipy.optimize._r566_slsqp_seeded_20261127: Failed to create capsule.");
+     }
+ 
+     // For ref counting of the memory
+     if (PyArray_SetBaseObject(ap_ret, capsule) == -1) {
+         Py_DECREF(ap_ret);
+         free(mem_ret);
+-        PYERR(slsqp_error, "scipy.optimize._slsqplib: Failed to set array's base.");
++        PYERR(slsqp_error, "scipy.optimize._r566_slsqp_seeded_20261127: Failed to set array's base.");
+     }
+ 
+     // Return the result
+@@ -335,7 +335,39 @@
+     double* buffer_data = (double*)PyArray_DATA(ap_buffer);
+     int* indices_data = (int*)PyArray_DATA(ap_indices);
+ 
+-    __slsqp_body(&Vars, &funx, gradx_data, C_data, d_data, sol_data, mult_data, xl_data, xu_data, buffer_data, indices_data);
++    /* R566: this optional argument is permitted only at the first MODE0.
++       It is a column-packed unit-lower L with diagonal D, not Cholesky. */
++    const double* initial_ldl = NULL;
++    PyObject* seed_obj = PyDict_GetItemString(input_dict, "_r566_initial_ldl");
++    if ((seed_obj != NULL) && (seed_obj != Py_None))
++    {
++        if (Vars.mode != 0) { PYERR(slsqp_error, "Initial LDL is only valid in mode zero."); }
++        if (!PyArray_Check(seed_obj)) { PYERR(slsqp_error, "Initial LDL must be a NumPy array."); }
++        PyArrayObject* seed = (PyArrayObject*)seed_obj;
++        if ((Vars.n < 1) || (PyArray_NDIM(seed) != 1) ||
++            (PyArray_TYPE(seed) != NPY_FLOAT64) || !PyArray_IS_C_CONTIGUOUS(seed) ||
++            (PyArray_SIZE(seed) != (npy_intp)Vars.n*(Vars.n+1)/2))
++        {
++            PYERR(slsqp_error, "Initial LDL has incompatible type, shape or packing.");
++        }
++        initial_ldl = (const double*)PyArray_DATA(seed);
++        npy_intp n2 = (npy_intp)Vars.n*(Vars.n+1)/2;
++        for (npy_intp i = 0; i < n2; i++)
++        {
++            if (!isfinite(initial_ldl[i])) { PYERR(slsqp_error, "Initial LDL must be finite."); }
++        }
++        npy_intp diagonal = 0;
++        for (int i = 0; i < Vars.n; i++)
++        {
++            if (!(initial_ldl[diagonal] > 0.0))
++            {
++                PYERR(slsqp_error, "Every initial LDL diagonal must be positive.");
++            }
++            diagonal += Vars.n-i;
++        }
++    }
++
++    __slsqp_body(&Vars, &funx, gradx_data, C_data, d_data, sol_data, mult_data, xl_data, xu_data, buffer_data, indices_data, initial_ldl);
+ 
+     // During the intermediate steps, there can be a few ULPs of bound violations,
+     // hence we clamp the solution if given, to the finite bound values when mode
+@@ -405,7 +437,7 @@
+ 
+ struct PyModuleDef moduledef = {
+     PyModuleDef_HEAD_INIT,
+-    "_slsqplib",
++    "_r566_slsqp_seeded_20261127",
+     NULL,
+     -1,
+     slsqplib_module_methods,
+@@ -417,7 +449,7 @@
+ 
+ 
+ PyMODINIT_FUNC
+-PyInit__slsqplib(void)
++PyInit__r566_slsqp_seeded_20261127(void)
+ {
+     import_array();
+ 
+@@ -425,7 +457,7 @@
+     if (module == NULL) { return NULL; }
+     PyObject* mdict = PyModule_GetDict(module);
+     if (mdict == NULL) { return NULL; }
+-    slsqp_error = PyErr_NewException("_slsqplib.error", NULL, NULL);
++    slsqp_error = PyErr_NewException("_r566_slsqp_seeded_20261127.error", NULL, NULL);
+     if (slsqp_error == NULL) { return NULL; }
+     if (PyDict_SetItemString(mdict, "error", slsqp_error)) { return NULL; }
+ 
