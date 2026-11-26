@@ -6,14 +6,15 @@
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。固定有限曲线族的联合无穷非零可用无限鸽巢；有限p、随p换曲线、条件桥、非零投影或接口均不完成。
 
-- 两仓库已部分克隆。公开根/课题 README 已读至 `59f43d908636fbb784e8dd244eae2337b1fa8e2b`（差异空）；每次pull只读两文件新差异，至少每小时同步并记SHA。
+- 两仓库已部分克隆。公开根/课题 README 已读至 `bfe2490bfc87df45ceb4ea252962dff12007c7bd`（差异空）；每次pull只读两文件新差异，至少每小时同步并记SHA。
 - 私库QUEUE接手已推41fe885610073f478b2f5a752461ca56cfd43f09；本次22:49 UTC pull至92b9fa94b75627acf634cd097e34e78360c9e2de，README差异空、QUEUE仍本会话进行中。目录math-research-public、math-research-private；令牌仅进程认证。
 - root独占git/H/open/log/index；每条结论完成即推，非快进立即pull --rebase、检查README再推至成功，不强推。数学只用公开Actions；不存可重算矩阵/数据/log。H<10KB，每MD<100KB。
-- [此次逐字归档](notes/2026-11-27-handoff-before-explicit-coleman-and-cartier.md)及历史链保全部旧状态；[open](open.md)、[results](results.md)、[R951–1000索引](notes/PROOF-INDEX-R951-R1000.md)保全部未解门，未默删。
+- [此次逐字归档](notes/2026-11-27-handoff-before-explicit-coleman-and-cartier.md)及历史链保全部旧状态；[open](open.md)、[results](results.md)、[R1001–1050索引](notes/PROOF-INDEX-R1001-R1050.md)及前卷保全部未解门，未默删。
 
 ## 一、原唯一几何作业与实际中央回执
 
-**原几何v8仍运行**：run45882239615/job140124138541/source3b0fe32226b1f91ec37ef68a8d53ff865e9d9b26；19:15:47 UTC入数学。maps19:56:59完成，v=ys²−1全零极degree612及首cusp商长/HNF已过；新真日志：20:56:17全306 Frobenius完成；21:03/10/14首cusp正商4个成分中3个完整认证，(degree,m,length)=(1,2,2)/(8,2,16)/(1,578,578)。21:21:54第4因子(d8,m2,length16)完成，首612块四因子全付。第二块306 Frobenius22:03:58完成，22:13:24/22:18:36两厚因子返回，22:19:16第三因子Hermite21/306；四交/全厚/shadow未完。固定Sage10.6、r29/q2453/batch64/minimal、45源、两特征零PASS pins、原两图/七式/四交/18×9全保；数学限时21000s、工作流360min。
+**原几何v8仍运行**：run45882239615/job140124138541/source3b0fe32226b1f91ec37ef68a8d53ff865e9d9b26；19:15:47 UTC入数学。maps、v=ys²−1全零极degree612/首cusp HNF已过；首306 Frobenius20:56:17及612块四厚因子21:21:54全完。第二306 Frobenius22:03:58，22:13/18两厚因子返回，最后真进度22:19:16第三因子Hermite21/306；四交/全厚/shadow未完。固定Sage10.6、r29/q2453/batch64/minimal、45源、两特征零pins、原两图/七式/四交/18×9全保；数学21000s/工作流360min。
+
 
 旧失败/修复见[终点链](notes/2026-11-27-artinian-v7-final-and-successor.md)：R974原omega/双向坐标与厚Norm已实接v8。R975/R986及root[完整零纤维适配](notes/2026-11-27-original-zero-fiber-frobenius-preparation.md)均未运行/未接v8；当前306 Frobenius已过，不另启重型作业。
 
@@ -39,6 +40,8 @@ R959/R970–983已付E65/E65³/E260/E54925/E8125的rank≥2及原全部有限/�
 - **R996**：原f6/f10的norm7 pull差给X42/X70，在所有好inert和原普通wholeS6/S10射线真双中央零。完整角gcd仅q=t(t−1)，h7两角全单位；新D=(64∞−0−1)/195。三条真实同权1365参数/Koszul付生成权≤2733，导子c8=c6S16/权69615；全195余权rank12090、基≤393、乘法≤2项/l1≤2，累计Hilbert31/195。原p6新增两行/全部ordered前缀保留，导子5r8跨界；乘积中央不赋零。central续同格全位严格门R1000。
 
 - **R999**：完整B130=120Φ260−11Φ*−108X130−F10，从24768z12起，分子∈35^-1Z[X]并整除(X+1)^2Q2。原两消13核残差二挠首jet为−64·23·3^30(1+5δ)/19单位；指定组合真实升为双因子。坏canonical时jB=−δ(p+1)log(π/barπ)/10080非零。未平移Z^-7P2^65R_B在O及全部移动Z零点正则，只余三个E2、极帽65p³−65p²+58p+61；第六Cartier仍保7κ5a+，平移后O/−T/全权全保。arithmetic续完整三次Cartier及两exact层R1001。
+
+**R1001**：原完整22列的第六Cartier准确为β6^(1/p)ω/Z；无H分母的p曲率矩阵保持原P2。三次Cartier返留数+32个同W6短窗，全部列/半线性保留；两个exact层H0/H1还须按原点导数读回。T6=−4c6/7−6(H0′^p+H1′^(p²)+A2^(p³))，对B同原g6+7κ5a+。不能只由固定33行/消去后exact迫中央零；arithmetic续R1003实际译像关系。
 
 ## 四、几何与全局门
 

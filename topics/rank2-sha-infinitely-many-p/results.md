@@ -8,7 +8,8 @@
 
 - [截至R950的完整旧索引](notes/2026-11-26-results-index-through-r950.md)：逐字保留此前全部条目、更正、运行回执与旧归档入口。
 - [R901–R950](notes/PROOF-INDEX-R901-R950.md)；此前各分卷和完整早期索引沿旧索引的链接读取。
-- [R951–R1000](notes/PROOF-INDEX-R951-R1000.md)：当前接续卷。
+- [R951–R1000](notes/PROOF-INDEX-R951-R1000.md)。
+- [R1001–R1050](notes/PROOF-INDEX-R1001-R1050.md)：当前接续卷。
 - [当前实际门](open.md)和[交接](HANDOFF.md)保同一原来源、全部未付条件与接续分工。
 
 ## 当前新增结论
@@ -132,3 +133,6 @@
 
 
 - [R997](results/R997-actual-cm-graphs-and-highest-coleman-picard-fuchs-formula.md)：原I9/I3的CM图经π1(E)先严格同调零，实际Gauss–Manin推出唯一Frobenius规范的Db″+D′b′−6b=−3/v²及AJ=−degφ·b/cφ。支付BDP3.14全部条件、局部残数/full9下降、实际宽度3负二阶的9因子、三个depletion图的真实次数与p分母，以及全部54图/原H trace/η和P±对偶。全球cyclic27条件不满足，未跳用BDP5.13；继续指定最高值非零及原3型全球比较。
+
+
+- [R1001](results/R1001-original-sixth-cartier-full22-fixed-boundary-return.md)：同一原Z/G/P2的全部22列准确第六Cartier由原p基的β6行读取，p曲率构造不除H。完整原权在三次Cartier后恰落留数+32个实际二挠短窗，所有质量列/半线性根保留；两层exact多项式逐式返原第一Cartier，得到有限部−4/7及B130的完整g6+7κ5a+等式。固定33行不替代两层读取，也不冒整六位中央门；继续真实译像/同原权关系。
