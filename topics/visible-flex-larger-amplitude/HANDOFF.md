@@ -4,7 +4,7 @@
 
 ## 规则与完整目标
 
-最近规则核查：2026-11-26 21:02:44 UTC，真实pull/rebase至 `27efc5d8bd559614d7c578fc8eb619a281919a6a`，双README相对`e44b867ff0149c50212614049846ae5496ccf9e5`无差异，继续遵守全部规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
+最近规则核查：2026-11-26 21:06:43 UTC，真实pull/rebase至 `76f5322d0e0fa630e1bb30bf77808e9af06e857c`，双README相对`9515618fa868fa2a0851e00c7e05987ebcaee55b`无差异，继续遵守全部规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
 
 科学计算仅本公开仓库Actions；执行偏差见[早前记录](notes/2026-11-20-public-actions-execution-correction.md)及[四次大JSON整读纠正](notes/2026-11-26-large-file-connector-read-correction.md)。root唯一分支写者；结论即普通推，NFF立即rebase循环，不强推。每次pull核双README差异并遵新规，至少每小时，记commit。raw只scratch/runner，不入Git/Release/artifact；保完整小源/参数/run/SHA/紧凑结论。题≤200MB、单文件<5MB、MD<100KB、H<10KB、open<30KB。令牌仅瞬时CLI。17:55终端失联后曾用云API普通快进；19:17显式/tmp恢复并新部分克隆，现恢复终端git。旧迁移完成情况未知，不假称恢复旧scratch。
 
@@ -13,17 +13,17 @@
 
 ## 完整历史与共同模型
 
-完整前文保[30e589完整交接](https://github.com/Rogerhu12/math-research-public/blob/30e589214abe6fe485eabc26ff2028d52d109e5c/topics/visible-flex-larger-amplitude/HANDOFF.md)及其固定历史链；仅压索引，全部结论/失败/未返/完整源参数保notes/results/open/log。原M160/J923/922胞/N2048/P7377及全core/H/旋转、quintic三jet、FullHold/材料图/反射帽、全mean/cross/J/J*与真Phi不删。有限筛非连续、iteration_limit非驻点、不跨场迁证。
+本次压索引前全文保[bcfbc完整交接](https://github.com/Rogerhu12/math-research-public/blob/bcfbc0caca28944264a8215cfa0120537516ff37/topics/visible-flex-larger-amplitude/HANDOFF.md)，连同30e589/9b8f及更早链；全部结论、失败、未返、源参数保notes/results/open/log。原M160/J923/922胞/N2048/P7377、全core/H/旋转、quintic三jet、FullHold/材料图/反射帽及全mean/cross/J/J*和真Phi不删。有限筛非连续，iteration_limit非驻点。
 
 二十二次raw普通移出及原小源/全部参数/恢复commit见[容量记录](notes/2026-11-20-resume-raw-retention.md)。Python3.12.14/NumPy2.3.5/SciPy1.17.0/单BLAS；SO3 CPUtorch2.5.1/float64。原共同来源在[独立运行](notes/2026-11-26-independent-public-nonlinear-continuation.md)，[队列完整归档](notes/2026-11-26-complete-followup-parameter-archives.md)保全部旧参数；未返步骤不归档冒完成。
 
 ## 03b与零端点：已知失败和实际新机制
 
-03b45820592817终止、37未起；旧03 stage7未知。3–36全方向/拒点/来源和零端点19/28/34/36失败完整保[9b8f交接](https://github.com/Rogerhu12/math-research-public/blob/9b8f35dfcff6997596a6fc8b25486a5bfe803438/topics/visible-flex-larger-amplitude/HANDOFF.md)及其全部note。均未有成功新场/root，不推秩亏或不存在。18字固定Q不变；R697/R702/R705已登记同族/H恒等式/完整walker空贡献，不重做。
+03b45820592817终止、37未起；旧03 stage7未知。3–36原方向/拒点及零端点19/28/34/36失败全文在固定9b8f交接和对应note，均无成功新场/root，不推秩亏或不存在。18字Q不变，R697/R702/R705不重做。
 
-[R703](results/R703-normal-endpoint-lifting-and-fixed-partition-jets.md)/[R707](results/R707-fixed-normal-chain-root-jet-error-propagation.md)已证全法向链/误差，实际余量未付。[法向五源](notes/2026-11-26-fixed-normal-plane-complete-SO3-entry.md)42ea/2557/68a6/c5f1/8381保m32全6m/9m和全部外层。05[实际12–14 gamma-H](notes/2026-11-26-run05-actual12-14-gamma-height-failure-and-saved-KKT-matrices.md)初F失败，止λ约.9641；129保存KKT矩阵数值满秩、reduced L正，但最坏K条件约2.75e9，不冒准确秩/SOSC或归因。[实际15/16原H normal](notes/2026-11-26-run05-actual15-16-fixed-normal-common-partition-failure.md)全m32完成26、27失败，report6080d2；936次3维solve、0当前成功根/0场/0方向，不推秩亏或不可达。
+[R703](results/R703-normal-endpoint-lifting-and-fixed-partition-jets.md)/[R707](results/R707-fixed-normal-chain-root-jet-error-propagation.md)保全法向链/误差，实际余量未付。05[12–14 gamma-H](notes/2026-11-26-run05-actual12-14-gamma-height-failure-and-saved-KKT-matrices.md)止约.9641，129保存KKT数值满秩但不证准确秩/SOSC；[15/16原H normal](notes/2026-11-26-run05-actual15-16-fixed-normal-common-partition-failure.md)完成26/失败27，936次3维solve、无初场。
 
-[实际输入](notes/2026-11-26-run05-actual-input-identities-and-same-mathematical-target.md)/[R706](results/R706-regenerated-input-same-exact-metric-definition.md)：05同warm/e640/law/chart给同数学g，reference/profile/carrier与误差盒确变；末向量不推一致。[实际7](notes/2026-11-26-run05-actual7-full-history-and-initial-word-fingerprints.md)已真读初字/完整地点，不补造旧03b集合。
+[输入/R706](notes/2026-11-26-run05-actual-input-identities-and-same-mathematical-target.md)给同warm/e640/law/chart的同准确g，工作文件确变；[实际7](notes/2026-11-26-run05-actual7-full-history-and-initial-word-fingerprints.md)真读cd530初字/原core/H/omega正零/全地点，计数不替集合等号。
 
 ## 05本场实际返回
 

@@ -103,7 +103,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 §1–6逐字保留。此前§7及全部旧失败、来源和准确历史链保[固定open a936](https://github.com/Rogerhu12/math-research-public/blob/a93699427718235cb07d70c8f0971e5981dbfbe1/topics/visible-flex-larger-amplitude/open.md)；其已登记结论不重做。当前规则读取、真实run和最后点见[HANDOFF](HANDOFF.md)。原全变量/全Gram/同g/真Phi/C/J/J*、永久地点和阈值均保。R248的准确相位恒等式处理物理全t，不另增独立插值门。
 
-1. **规范化参考分支04。** [实际44/45](notes/2026-11-26-run04-actual44-45-first-backtracked-SOC-accepted.md)第一次真接受完整后退锚SOC：892f同父51c8到9c9f，report08e30b，Phi .005665054、max .0351360911、有限g负。锚1/64与真fallback1/128；所有2063/2012永久点重新读。QP64的Pg仍大于原容差，不能称驻点。保持真实mu .01、c4b2母范数与完整cache来源，下一完整1×64及pure已排，须按其真实返回接续。旧02/03终止和未启动步骤保固定历史，不从job success推科学完成。
+1. **规范化参考分支04。** [实际44/45](notes/2026-11-26-run04-actual44-45-first-backtracked-SOC-accepted.md)首次SOC后，[46/47](notes/2026-11-26-run04-actual46-47-second-backtracked-SOC-accepted.md)再真接受：892f同9c9f→0c9a/report606e10，Phi .005135594、max .0341095095、有限g负。3SOC/3投影/1全memory复读，锚1/8/fallback1/16，全2155/2070地点；QP64 Pg1.41534仍未驻。保持mu .01/c4b2、实际cache及39/40/44/46历史，下一完整1×64和pure已排；其真实返回后继续。单准入pair已刊、不改当前48/49或job硬限。旧02/03终止和未起保固定历史。
 
 2. **05真实输入与原历史。** [同数学目标记录](notes/2026-11-26-run05-actual-input-identities-and-same-mathematical-target.md)/[R706](results/R706-regenerated-input-same-exact-metric-definition.md)说明再生的reference/profile/carrier字节确变，但同warm、准确标量定义及固定图给同g；工作载体/误差盒不冒相等。[实际7](notes/2026-11-26-run05-actual7-full-history-and-initial-word-fingerprints.md)真正读出cd530初字、原core/H及omega正零。全部必要3/17/21/26/30路线已在本runner重建；这些路线标签不等于05的实际序号。完整地址并集必须由实际报告读取，计数相等不替集合等号。
 
@@ -115,7 +115,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 6. **新固定支撑单位seed直接进入完整外层。** [R703](results/R703-normal-endpoint-lifting-and-fixed-partition-jets.md)/[R707](results/R707-fixed-normal-chain-root-jet-error-propagation.md)已给共同有限法向链和全部误差传播，实际余量尚未付。[R708](results/R708-supported-unit-meridian-seed-contraction.md)/[R709](results/R709-global-convex-mean-closure-without-contraction.md)给准确支撑单位seed；R709用全局凸均值闭合去掉q<1限制，完整角二jet与全局根残差界已登记。九份全源和[完整实施/参数](notes/2026-11-26-fixed-supported-unit-reference-normal-SO3-entry.md)已刊并排05；固定原core/H只定义参考T*，全部当前core/omega/H继续自由，原准确g和全尾不变。首参数b=S/16、epsilon1/10、共同m32；新seed均值J不迁证normal Cu。九份实际历史已存在，直接完整运行，不加fixture前门。真实初场/方向未返回不能预写成功；若失败，按实际原因换输入或机制继续。
 
-7. **下一份候选的准确费用。** [R700完整积分范数六jet控制](results/R700-integral-so3-full-sixjet-control.md)限固定有限M、正rho及完整参考导数，不给M一致常数或现成余量。新seed尚须准确积分、归一化、trig、均值根/角jet/normal链和工作算术误差；原scalar盒不冒付新费用。[完整QR接口](notes/2026-11-26-complete-so3-integral-qr-coordinate-interface.md)只对真实234ac/7f布局且未运行，原Cholesky已成功；不额外把它设成运行门。R704的eta尾边界已登记，本轮仍保原目标。
+7. **下一份候选的准确费用。** [R700](results/R700-integral-so3-full-sixjet-control.md)限固定M/正rho，无M一致或现成余量。[R710](results/R710-supported-unit-seed-complete-angular-jet-error-bounds.md)给完整均值根/两角jet/投影与幅度逆/物理jet误差及实际批次绑定区间核；准确积分、尾、trig和算术费用尚未付，不以工作残差冒准确残差。normal链仍按R707付。[完整QR接口](notes/2026-11-26-complete-so3-integral-qr-coordinate-interface.md)只适用234ac/7f且未跑，不设额外门；R704已登记，本轮保原目标。
 
 候选仍须支付§4–6全部标准：同g闭C²嵌入/全t强C²族、固定H及整像20%幅度、含反射非全等、全t reach≥.03D、整面metric≤1e−6、固定问题实际mesh/频率精化到原容差、多t网格及严格存在缺口。有限筛/局部根/中间报告不完成。输入不足换方向，完成后提高比例。
 

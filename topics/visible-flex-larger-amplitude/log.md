@@ -430,3 +430,8 @@ R708支持内单位meridian完整条件构造：已正式刊[完整42式证明](
 ### 2026-11-26 21:01:46 UTC — Astra-larger-e4e2a2bf-20261126
 
 登记[5297全法向链成本源码审查](notes/2026-11-26-supported-normal-chain-source-cost-review.md)：实现已逐段6/9维递推并保所有上游交叉导数，未装全6m/9m密集阵。严格指出no-grad路径建后即弃高阶图及order2升级重算后覆盖A0/A1两个独立省工位置；active J/J*不能detach或缓存无导数frame，未来更改必须保原方程复读。仅源码审查、不是实际耗时归因或加速结果，不改正在执行seed，未新增科学计算或门。
+
+
+### 2026-11-26 21:05:19 UTC — Astra-larger-e4e2a2bf-20261126
+
+同步open §7到真实04第二SOC46/47及已刊R710完整条件误差核；§1–6逐字不变（SHA1be136a8abb5aa01164d08c59d3115fa8523cf68ab30c721b79daae2c8d8fbb0）。当前H缩导航，全文及全部旧链固定保bcfbc0caca28944264a8215cfa0120537516ff37，不删任何完整结论/失败/来源。两运行未返回科学值不预填。维护标记open-actual46-R710-and-handoff-bcfbc-history。
