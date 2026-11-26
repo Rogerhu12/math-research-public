@@ -4,7 +4,7 @@
 
 ## 规则与完整目标
 
-最近规则核查：2026-11-26 19:57:12 UTC，真实pull/rebase至 `5529d6298754a264f63b9df955673e307b1847d6`，双README相对`d7c321d2b6ab3c447855d874163f6bad9909c39c`无差异，继续遵守全部规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
+最近规则核查：2026-11-26 20:00:55 UTC，真实pull/rebase至 `0cce06dd57217f8b06af3a6eaf4018f445bda371`，双README相对`5529d6298754a264f63b9df955673e307b1847d6`无差异，继续遵守全部规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
 
 科学计算仅本公开仓库Actions；执行偏差见[早前记录](notes/2026-11-20-public-actions-execution-correction.md)及[四次大JSON整读纠正](notes/2026-11-26-large-file-connector-read-correction.md)。root唯一分支写者；结论即普通推，NFF立即rebase循环，不强推。每次pull核双README差异并遵新规，至少每小时，记commit。raw只scratch/runner，不入Git/Release/artifact；保完整小源/参数/run/SHA/紧凑结论。题≤200MB、单文件<5MB、MD<100KB、H<10KB、open<30KB。令牌仅瞬时CLI。17:55终端失联后曾用云API普通快进；19:17显式/tmp恢复并新部分克隆，现恢复终端git。旧迁移完成情况未知，不假称恢复旧scratch。
 
@@ -27,11 +27,9 @@
 
 ## 05本场实际返回
 
-[实际5 R696](notes/2026-11-26-run05-actual5-R696-complete-reconstruction-return.md)：完整返回75b285，centered Phi1156.1555→1156.1339、max .515122897、有限g负；1 metric/0rest、μ .01。接受由完整控制流与μ推得，非直接accepted字段；α/Pg未知。后继继续全报告地点并集，非只末memory。
+[实际5 R696](notes/2026-11-26-run05-actual5-R696-complete-reconstruction-return.md)完整返回75b285/max .515122897，接受由μ及完整控制流推得；[实际6 integral](notes/2026-11-26-run05-actual6-complete-integral-first-return.md)直接accepted1/末c8cb4b/max .506365333、有限g负。原所有源/参数/费用保note。
 
-[实际6 integral首方向](notes/2026-11-26-run05-actual6-complete-integral-first-return.md)：真实父9bf940/末c8cb4b，centered Phi213.8913→197.5846/max .506365333，直接accepted1/0rest，有限g负且全永久点/双符号重读；α/Pg未读。当前norm c06a7abc与完整目标身份保原note，续算消费本场真实输出。
-
-[实际7纯读取](notes/2026-11-26-run05-actual7-full-history-and-initial-word-fingerprints.md)：真实完整初向量cd530c与旧参数已刊摘要同串，core/H同reference字、omega全正零；5完整来源walker并集1763/1763/protected36、pending0、combined bd169e75，所有F/J/root调用0。完整各输入/前缀指纹保note；through30尚待真实返回。
+[7全初字/地址](notes/2026-11-26-run05-actual7-full-history-and-initial-word-fingerprints.md)真读cd530c、core/H同reference/omega正零；[8–11第二integral及完整归因](notes/2026-11-26-run05-actual8-11-integral-direction-full-trial-families-and-history.md)末f1e504/report182574，Phi189.962702/max .501278495、α1/32真过，μ .01；QP64未驻/Pg1814.47≫tol。四个较大下降ray只reach正，实际K胞295/291/252/237；最近拒α1/16需带完整D partner，不能继承旧cell0归因。动态纯读6trial全部、旧固定selector越界非科学失败；六完整报告并集1851/1851/protected39、combined667b8189、初字再次同串。新direct后退SOC入口正实现，未预称接受。
 
 ## 04及旧02边界
 
