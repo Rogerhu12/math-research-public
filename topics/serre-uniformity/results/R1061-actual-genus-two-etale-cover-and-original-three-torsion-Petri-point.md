@@ -585,6 +585,191 @@ $
 但没有据此编造数值身份 $K_2=K$，也没有从端点差排除任一卷积相消。
 
 
+
+## 11. 同一个指定值的有界第一原函数及准确常数
+
+保持本篇原模型 $E:V^2=U^3+v^2$，
+$v=-6s$、$v^2=-108$、$\omega=dU/(2V)$。
+以下写 $\mathscr D=d/\omega$，并置
+$
+p=6k-1,\quad k=N+1,\quad m=3k-1=(p-1)/2,\quad
+z=(1-V/v)/2,\quad K=\mathbf F_p(v).
+$
+本节的 $z$ 仅为 $E$ 上这个仿射函数，整数 $k$ 不表示底域。
+全部 Cartier 等式采用§§9–10固定的相对 Cartier；
+输出微分为 $\omega'$，底域常数不取额外 $p$ 次根。
+既有规范是
+$
+\mathscr D U=2V,\quad \mathscr D V=3U^2,\quad
+\mathscr D\Psi=\delta,\quad
+\mathscr C_{\rm rel}(F_Q\Psi\omega)=e\omega'.
+$
+
+存在唯一 $P\in K[V]$、$\deg P\le k-1=N$，使
+$
+3(V^2-v^2)P'(V)+2VP(V)=z^k-h,\qquad
+h=\frac{(1/3)_k}{(2/3)_k}.
+\tag{1061.21}
+$
+这里没有从 $h$ 非零猜测原函数。
+令 $L_1=3(V^2-v^2)\partial_V+2V$，则
+$
+L_1(V^j)=(3j+2)V^{j+1}-3jv^2V^{j-1}.
+$
+对 $0\le j\le k-1$，最高系数 $3j+2$ 都是单位，
+故 $L_1$ 从次数至多 $k-1$ 到次数至多 $k$ 的像有余维一。
+其归一余核泛函 $\lambda(1)=1$ 由
+$
+\lambda(V^{2r+1})=0,\qquad
+\lambda(V^{2r})=v^{2r}\frac{(1/2)_r}{(5/6)_r}
+$
+给出。在次数至多 $k$ 的范围，所有分母 $6r-1\le3k-1<p$。
+
+为计算 $\lambda(z^k)$，可先在有理系数域用归一 Beta 积分
+$
+\lambda(f)=
+\frac{\int_0^1 f(v(1-2z))z^{-2/3}(1-z)^{-2/3}\,dz}
+     {B(1/3,1/3)}.
+$
+若 $w(z)=z^{-2/3}(1-z)^{-2/3}$，则
+$(3z(1-z)w(z))'=(1-2z)w(z)$，且端点边界项为零。
+分部积分遂给 $\lambda(L_1P)=0$，并且
+$
+\lambda(z^k)
+ =B(k+1/3,1/3)/B(1/3,1/3)
+ =(1/3)_k/(2/3)_k.
+$
+这是有限有理恒等式的证明；上述安全分母允许直接约到原特征 $p$。
+故 $z^k-h$ 恰在像中，存在唯一所述 $P$。
+特别地，令 $G=UP(V)$，则
+$
+\mathscr D G=z^k-h.
+\tag{1061.22}
+$
+
+原常数 $h$ 可完全初等地化为原立方根。令
+$
+A_f=(3k-1)!,\qquad B_f=(k-1)!,\qquad C_f=(2k-1)!.
+$
+由于 $1/3=2k$、$2/3=4k$ 于 $\mathbf F_p$，逐项反射给
+$
+(1/3)_k=A_f/C_f,\qquad
+(2/3)_k=(-1)^kC_f/B_f,\qquad
+h=(-1)^k A_fB_f/C_f^2.
+$
+另一方面
+$
+C_f=2^{k-1}B_f\prod_{j=1}^k(2j-1),\qquad
+\prod_{j=1}^k(2j-1)=(-2)^kA_f/C_f;
+$
+第二式逐项使用 $p-(2j-1)=2(3k-j)$。
+所以
+$
+\boxed{\quad h=2^{1-2k}=2^{4k-1},\qquad h^3=2.\quad}
+\tag{1061.23}
+$
+全过程的阶乘指标均小于 $p$。
+在已固定的原 $\mathbf F_p$ 立方根规范下，
+$t_{\rm CM}^3=4$ 的残值与立方映射双射给
+$\overline{t_{\rm CM}}=h^2$。
+这只确定第一原函数中的常数，本身不证明 $e$ 或 $S_n$ 非零。
+
+还须把该有界原函数接回原 $e$。
+原加法律和 $Q=(0,v)$、$3Q=O$ 给
+$
+\tau_Q^*F_Q=z^k,\qquad
+\tau_Q^*\Psi=\Psi+((V-v)/U)^p.
+$
+第一式亦可由原 divisor 及在 $-Q$ 处的 leading value 一核确定：
+两边 divisor 均为 $3k(Q-O)$，在 $-Q$ 的值均为一。
+相对 Cartier 与该平移相容，目标上是 $\tau_{FQ}$；
+它固定 $\omega'$。
+由于 $\mathscr C_{\rm rel}(F_Q\omega)=0$，
+新增的 $p$ 次幂斜率项准确消去，得到
+$
+\mathscr C_{\rm rel}(z^k\Psi\omega)=e\omega'.
+$
+由 (1061.22)，$W=G+h\Psi/\delta$ 满足 $dW=z^k\omega$。
+另外 $\Psi\omega=\tfrac12 U S(U^3)dU$
+是次数 $3N+1<p-1$ 的多项式微分，故其 Cartier 为零。
+对 $d(W\Psi)$ 施 Cartier，严格得到
+$
+\boxed{\quad e\omega'=-\delta\,\mathscr C_{\rm rel}(G\omega).\quad}
+\tag{1061.24}
+$
+这里 $\delta\in\mathbf F_p^\times$ 为原固定常数；
+没有混用相对参数线性与绝对 Cartier 的 $p$ 次根。
+
+## 12. 指定值为零与真实二次积分的精确等价
+
+定义 $K$-线性空间
+$
+\mathcal W=\{UP(V)\omega:\deg P\le N\}.
+$
+其维数为 $N+1$；每条微分只在 $O$ 有极，
+极阶至多 $3N+2=m<p$，而唯一可能的留数由全局留数定理为零。
+Cartier 的局部指数公式遂给
+$\mathscr C_{\rm rel}(\mathcal W)\subset K\omega'$。
+
+这个线性泛函确实非零，不能从一般的完美配对代替。
+直接写
+$
+U\omega=\frac{U(U^3+v^2)^m}{2V^p}\,dU.
+$
+分子最高次数 $3m+1<2p-1$；
+唯一 Cartier 指数 $p-1$ 对应 $3j+1=p-1$，即 $j=2N+1$。
+故
+$
+\mathscr C_{\rm rel}(U\omega)
+ =\binom m{2N+1}(v^2)^{N+1}\omega'.
+\tag{1061.25}
+$
+右侧为单位，所有阶乘指标都小于 $p$。
+因此 $\ker(\mathscr C_{\rm rel}|_{\mathcal W})$ 的维数恰为 $N$。
+
+对 $\deg R\le N-1$，实际微分为
+$
+d(U^2R(V))
+ =U\{3(V^2-v^2)R'(V)+4VR(V)\}\omega.
+$
+记 $L_2=3(V^2-v^2)\partial_V+4V$。
+其在 $V^j$ 上的最高项系数为 $3j+4$，
+对 $0\le j\le N-1$ 全部为单位，所以该 $N$ 维像是单射，
+且因其为 exact differential 全部落在上述 Cartier 核中。
+两边维数相同，得到
+$
+\ker(\mathscr C_{\rm rel}|_{\mathcal W})
+ =\{d(U^2R(V)):\deg R\le N-1\}.
+\tag{1061.26}
+$
+这个证明支付了有界原函数的存在性。
+一般的 Cartier 为零不允许无条件压低原函数极阶，
+例如 $\omega$ 的原函数 $\Psi/\delta$ 有 $p$ 阶极；
+本式使用实际空间及明确非零的 Cartier 泛函。
+
+综合 (1061.21)、(1061.24)、(1061.26)，得到保留原来源的等价条件：
+$
+\boxed{
+\begin{aligned}
+e=0\quad\Longleftrightarrow\quad&
+ \exists R\in K[V],\quad\deg R\le N-1,\\
+&9(V^2-v^2)^2R''+36V(V^2-v^2)R'
+ +(20V^2-12v^2)R=z^k-h.
+\end{aligned}}
+\tag{1061.27}
+$
+必要性由 $P=L_2R$ 得到；
+充分性由 $L_1$ 在所需次数范围的单射性，
+迫给定第一原函数 $P$ 就是 $L_2R$。
+展开 $L_1L_2$ 时 $R'$ 系数准确为 $36V(V^2-v^2)$，
+常数项为 $20V^2-12v^2$；所需 $R$ 若存在则唯一。
+
+这是实际函数的二次积分方程。
+当前仍须排除该多项式解，或另由原输入证明 $e\ne0$。
+$h^3=2$、$h$ 的单位性及 (1061.25) 的另一非零读数，
+均不能替代指定 $P$ 的非零读数。
+由§9，(1061.27)也等价于原 $S_n=0$，本节尚未排除它。
+
 ## 来源与本次核对
 
 - [R1059](R1059-original-fN-actual-X108-Raynaud-pairing-and-inverse-central-sum.md)：原 $X_0(108)$ 函数、good 模型、固定微分尺度和 $S_n$ 配对。
@@ -596,3 +781,5 @@ o1_theta给实际覆盖、三挠线和配对下降；o2_high_coefficient独立�
 补充§§6–8：o2_high_coefficient给规范Ψ递推和完整first-p Cartier系数；root独立推Miller首变分和Ψ加法律，o1_theta独立核两式；root逐项核U/V两坐标的全部次数、Q处极阶、半线性及完整slope消去。Frobenius特征方程可见Andrew Sutherland [MIT 18.783 Lecture 8](https://math.mit.edu/classes/18.783/2022/LectureSlides8.pdf)第5张幻灯片。无数学执行。
 
 补充§9：o1_theta给实际双覆盖/dual Cartier/Poincaré frame的非零桥，root独核相对Cartier的base线性、FQ参数、两个生成元、B_E单位因子及切向因子2，明确纠正relative/absolute标量约定。§10由root给原η的直接primitive与K=−sS，o2独核分部积分的K₂，所有不同权保留。全文无数学执行。
+
+补充§§11–12：o1_theta给实际三平移、有界第一原函数和h的阶乘证明；root独核原参数、完整相对Cartier和分部积分，提出并证明实际空间上的单位Cartier读数与核维数，o1逐式独核。由此支付二次有界primitive的必要充分性；没有从极阶小于p直接假设原函数也有界。无数学程序执行。
