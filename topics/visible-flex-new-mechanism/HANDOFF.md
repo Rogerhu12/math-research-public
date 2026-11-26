@@ -5,7 +5,7 @@
 
 ## 1. 授权、规则与前史
 
-公开本次实际pull且根/题README已读至 **afcef3c9a7124c6a857261878321809da9194f3b**；相对继承0749a4cc根/题规则仍为空差异。私库实际pull/根README已读至 **2dcbca6979066ac65a5e161f6d360c2b7a49bd6b**，2026-11-26 22:28:22 UTC根README空差异；下一不晚于23:27 UTC。QUEUE本会话唯一进行中，原认领提交09f8b8b54e7cfaabaa635bae5c438c7f1521289a。
+公开本次实际pull且根/题README已读至 **b372945a90fc05b02073093c32626b5648f85b32**；相对继承0749a4cc根/题规则仍为空差异。私库实际pull/根README已读至 **2dcbca6979066ac65a5e161f6d360c2b7a49bd6b**，2026-11-26 22:28:22 UTC根README空差异；下一不晚于23:27 UTC。QUEUE本会话唯一进行中，原认领提交09f8b8b54e7cfaabaa635bae5c438c7f1521289a。
 
 [H全文归档](notes/HANDOFF-before-fixed-E-and-K-only-20261127.md)及其链保全部旧结论、费用、输入与量词。[当前open](open.md)已重组为真实14d1/7371/337、新K-only/固定E/原BVP；[旧open全文](notes/open-before-fixed-E-and-K-only-20261127.md)不丢旧实例。[四来源与文献](notes/2026-11-27-current-four-source-topics-and-literature.md)保已读版本和准确用途。
 
@@ -41,7 +41,7 @@
 
 [R619](results/R619-free-center-leading-energy-and-true-memory-local-flow.md)首层真M局部流、[R620](results/R620-fixed-width-center-jet-gauge-chart.md)原有限ε三角规范/完整19Jac已付。[R624](results/R624-free-center-terminal-constants-and-compatible-analytic-input.md)给全返回/Bc>0必C0C2<0、完整B″/真矩、m41全盒/动能>1/45及唯一Φ根/斜率>8Bc；只首层相容输入，不授finiteε根。
 
-[R625](results/R625-true-terminal-acceleration-and-tail-flat-compatible-input.md)原尾M/Vs因式和两侧平方末方程已证。cos²增量保中心j/消尾大二阶，最高43/速度245/54，保全盒/动能/唯一支但须新D/q，必要T<−2131/4800；完整平方门/真A末未解。9430B纸证/8965Bhelper/接线diff已审，旧R624 D/q不运行。R626继续准确尾二次型/两侧交，不加旧诊断前门。
+[R625](results/R625-true-terminal-acceleration-and-tail-flat-compatible-input.md)原尾M/Vs因式和两侧平方末方程已证。cos²增量保中心j/消尾大二阶，最高43/速度245/54，保全盒/动能/唯一支但须新D/q，必要T<−2131/4800；完整平方门/真A末未解。9430B纸证/8965Bhelper/接线diff已审，旧R624 D/q不运行。[R626](results/R626-terminal-positive-quadrics-and-complete-intersection.md)已证两正定尾二次型、准确单侧阈值与完整四次交/退化/补点；只末jets，不代全程。
 
 [正式全反馈范围](notes/2026-11-27-r620-free-center-full-feedback-bvp-implementation-agent.md)main47541B/2edc5a80，35绑定/38sparse。原19/Jac/10参数、8末A+双速度、实际C² quintic真历史/ruling、全部数值门不变；18块/576微包/ε1/12000/正势1/原unit3967798143562589保持。3300科学秒/180预留、最后态/部分成本完整；65→129仅配点门过后允许，真实曲线门独立。新输入60位D积分/180二分是非严格近似，不移首层C到原常规范。发布即接public Actions，无完成宣称；pose/闭材料仍欠。
 
