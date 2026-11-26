@@ -376,3 +376,5 @@
 - [R600 同一温和尾的准确全平模至j32](results/R600-same-mild-tail-flat-kernels-through-thirty-two.md)：**已证明**同一W/紧相位、同u≥100/α17起口扩至全部整数2≤j≤32；明确B=2^32、势≤870000a⁻⁴，Green≤.21315<1/4，端窗/对角吸收/邻接耦合均逐项付清，仍有原10^-3比值收缩与准确有限截断界。旧低模不重算；新18…32实际口、浮点误差/完整非线性仍待付。
 
 - [R598宽母prepared首个公开收据](notes/2026-11-26-r598-wide-prepared-first-public-receipt-agent.md)：run45828239888自然付28.749599218主秒/29.946569子进程墙秒，新192表/Gram及400nfev/8916call guide已完成，原八矩max.041066未闭。整阵调用单列encode发生shape错误，已付1027值评价而ρ积分/gauge LS/mass/Jac均未进入。实际guide焦距cap/Dsample=.02747<.03只是本初猜数值必要预算失利；不排母/后续路径。
+
+- [R594已付八模末态的实际续接](notes/2026-11-26-r594-paid-weak-resume-implementation.md)：真实496q、四个完整13jet口和60个trial恢复damping1e−14；只续当前ε1e−5的60步，0旧Riccati/射击/方向观察。必要dense/core再建全计费并读出原口/归一差；原全部r使用域内中心或单侧四阶位置导数及半步，排序还原物理位置。完整metric/core/漏模和双direct门保持，未授收敛或几何。

@@ -6,7 +6,7 @@
 
 ## 1. 规则与接手
 
-已部分克隆并实际 `git pull main`，公开根 README、课题 README、HANDOFF、open、results 索引及相关 log/notes 已读。公开已读提交 **75cef37eff8a97d6e499744cc417f1b98fe93268**（2026-11-26 13:33 UTC；本次实际pull后根/题README空差异）；历次规则及失败原回执保原note；私有 QUEUE 的本题已改为本会话进行中并成功推送：**9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7**；最后实际pull及规则同blob读至 **3bbebf4d37896abec43717c8d4f177a2dec256d1**（2026-11-26 13:28–13:29 UTC；实际pull成功，根README空差异、QUEUE仍本会话）。其它课题的并行认领保留。
+已部分克隆并实际 `git pull main`，公开根 README、课题 README、HANDOFF、open、results 索引及相关 log/notes 已读。公开已读提交 **781a9b648f019a9207f4c59cd7c80e8669bdd422**（2026-11-26 13:49 UTC；本次实际pull后根/题README空差异）；历次规则及失败原回执保原note；私有 QUEUE 的本题已改为本会话进行中并成功推送：**9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7**；最后实际pull及规则同blob读至 **3bbebf4d37896abec43717c8d4f177a2dec256d1**（2026-11-26 13:28–13:29 UTC；实际pull成功，根README空差异、QUEUE仍本会话）。其它课题的并行认领保留。
 
 [八模前交接](notes/HANDOFF-before-eight-mode-natural-final-20261126.md)及其所链前史保全部原规则/成本/范围；09:18及11:20 UTC两次本地失联期间仅API保存，不冒actualpull。09:33、11:28恢复后已实际双pull。每pull核根/题README差异并执行，至少每小时；root独占git/索引，每条结论即推，NFF立即rebase重推。科学仅公开Actions，本地限纸证/源码/原日志解析；已披露3次开发偏离保原note且停止。根12不加机械复跑，根15不留可重算raw。
 
@@ -30,11 +30,11 @@ B030的前两次callback关停和第三START关停保[原收据](notes/2026-11-2
 
 ## 4. 完整高度有限边值路线
 
-旧完整尾口/射击、插结和forced-j4所有输入/费用保[八模前交接](notes/HANDOFF-before-eight-mode-natural-final-20261126.md)及其原收据，不重做已登记结论。[插结](notes/2026-11-26-r576-exact-knot-natural-final.md)1670.428137923秒/227接受/264q/67结；[forced-j4](notes/2026-11-26-r576-body-forced-j4-natural-final.md)460.575048554秒/33接受/114拒绝/265q，ε1e−5细η3.04271863675e−7。冻结force H=.5188895813736972、scale16533.1541790287与实际H分开，整个pre-tanh场保留。
+旧完整射击、插结和forced-j4输入/成本保[八模前交接](notes/HANDOFF-before-eight-mode-natural-final-20261126.md)及原收据；forced H=.5188895813736972、scale16533.1541790287冻结，完整265q/67结/pre-tanh场保留，不重做已付口。
 
 [R576](results/R576-exact-turning-elimination-and-finite-nonlinear-height-interface.md)付完整turning/实际metric；[R594](results/R594-exact-nonlinear-radial-acceleration-and-galerkin-leakage.md)付完整At/M、离解真Jac与连续漏模→metric；[R597](results/R597-nonlinear-core-trace-and-realizable-free-order.md)付准确core e/e′/D与δα+2自由响应。实际a失号时不点除，弱主块采样rank不作连续逆。
 
-[八模自然终态](notes/2026-11-26-r594-eight-mode-weak-natural-final.md)run45822196061/job139917033661付452.79767207秒，60接受/65拒绝，迭代上限仍下降，非停滞。完整496q和四新模13jets已付；ε仍1e−5，弱merit5.39069e−6→1.99136e−6、细η3.02631e−7，coreD1.19015e−7、漏模m18峰1.143e−5。direct η.007976/.017725峰在真实内口h≈4.44e−14；尺度解释不作合格证。下一从真实496q/末damping续60步、复用四口0内Riccati；所有原r用有限域内中心/单侧四阶位置stencil及半步，不删首点、不伪核心。
+[八模自然终态](notes/2026-11-26-r594-eight-mode-weak-natural-final.md)run45822196061付452.79767207秒/60接受65拒绝，仍下降的迭代上限。完整496q/四新模13jets已付；ε1e−5、细η3.02631e−7/coreD1.19015e−7、m18峰1.143e−5；两direct η.007976/.017725及h≈4.44e−14未合格。[paid续接](notes/2026-11-26-r594-paid-weak-resume-implementation.md)从实际496q/末damping1e−14续60步，0旧Riccati/射击/方向门；必要dense外场全计费。原全r用有限域内中心/单侧四阶位置stencil及半步，保实际端点/完整弱行、coreD/漏模与双direct门，不冒全角证书。
 
 [R596](results/R596-same-mild-tail-flat-kernels-through-sixteen.md)的原j≤16范围保留；[R600](results/R600-same-mild-tail-flat-kernels-through-thirty-two.md)新以B=2^32/势870000a⁻⁴付同u≥100至j32，Green<1/4、耦合<1/64，准确截断不变。实际18…32口仍未付，不以纸证冒数值口。[R587](results/R587-fixed-metric-mean-height-elimination-at-flat-cap-and-core.md)/[R588](results/R588-quantitative-common-inner-tail-and-actual-metric-bound.md)/[R591](results/R591-forced-flat-harmonics-and-third-order-shooting.md)/[R593](results/R593-exact-resonant-background-and-finite-nonresonance.md)准确均值、四模尾界、强迫与静态共振全保原范围；均未授当前数值外传、完整有限分支、固定g精化或reach。
 

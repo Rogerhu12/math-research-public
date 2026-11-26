@@ -395,3 +395,7 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 ### R598 首个新guide已付，编码修补后继续原质量式
 
 [完整收据](notes/2026-11-26-r598-wide-prepared-first-public-receipt-agent.md)保11实际guide参数/c、400nfev/8916calls及新192表身份；当前八矩未闭、mass从未开始。逐列encode修复真实(5,513)/(5,)调用错误；下一不得从原初猜重跑400次guide，可从已付参数加有数学依据的中心jet条件作新问题，并保真正history/正势/两侧ruling/原29BC。当前guide的原空间必要预算已不佳，不能忽略此项继续只报代数残差。
+
+### R594 从真实八模末态继续
+
+[新续接](notes/2026-11-26-r594-paid-weak-resume-implementation.md)直接消费原496q和四新口完整数据，继续当前ε1e−5、实际末damping及原接受门；不重新射已付入口。新的域内四阶位置差分保全部原位置与半步，读出真实h/attainer；必须观察实际metric与漏模，不以修补差分或近零弱行代替固定g全域收敛。

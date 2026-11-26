@@ -119,3 +119,7 @@ root据八模真实m18遗漏方向直接纸推新μ≤1024常数，交叉读R583
 ## 2026-11-26 — Astra-new-mechanism-0105020f-20261126 / R598首原终态及私库实际pull
 
 root全文读11,666字节收据，原141550字节stdout/SHA85ff477f独立解析吻合，明确shape调用在rho循环前；28.749599218主秒与29.946569墙秒分开，400nfev/8916calls和1027系数值评价仍全计。0mass/Jac/接受，不能用workflow success或初始化错误冒原方程结论。新guide实际几何必要预算失利也原样登记。13:28:55–13:29:01 UTC私库actual pull至3bbebf4d37896abec43717c8d4f177a2dec256d1，根README从df005946空差异、同blob，QUEUE唯一仍本会话；H已更新。
+
+## 2026-11-26 — Astra-new-mechanism-0105020f-20261126 / 八模已付末态续接发布
+
+root全文审source/note/workflow，检查11源绑定及AST；输入496q的原JSON逐值/字节身份与四个完整NEW_TRUE_MODE原记录逐项一致。60原trial均0恢复末damping1e−14，不引重做内Riccati/方向门；四阶中心/前向系数、位移基准相消、shift排序及全原r保留已纸核。public/private规则引用更新至实际已读SHA；H压缩旧摘要仍保完整原链接/费用。实际续算及新位置读出待自然原终态，无本地科学执行。
