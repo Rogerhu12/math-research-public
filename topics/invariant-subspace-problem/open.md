@@ -151,8 +151,6 @@ A单射、稠密像、拟幂零且非紧；普通非零真闭不变子空间仍�
 
 S0/Lt0的k=4e、v=t=0、Omega=2e²−ek+2=0整支均已完整原返回排空；可付4e−k、v、Omega。准确全谱、Bézout和源回执保[压缩前页](notes/2026-11-27-open-before-v-leading-exclusion-8542.md)及结果索引，所有未闭原约束保持。
 
-**[最小原P045的全部v首项零面已关闭](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-original-v-leading-zero-exclusion.md)：** 新Dixon差商是原三mean的显式组合，完整两层投影及e1/2的整二次域返回皆通过，109.809478秒/exit0；B44可逆，下一用首一v六次关系保原组合降次及两参数覆盖，未宣一般Lt0为空。
-
 
 
 
@@ -178,3 +176,6 @@ Deddens自伴MASA、全部可分重数有限成本投影、全2-adic平移距离
 
 
 [b=c整支](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-equal-singleton-weights-and-same-eta-elimination.md)已付U/Bnum；新[同eta五几何变量完整原输入](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-same-eta-five-geometry-original-system.md)保15原式、全部mean与N/P偶奇、相同eta和物理L返回。源7161bc65实际build11.280860秒/exit0，公开专用Actions运行1200秒QQ门；只有实际I*cert=[1]才排一般Lt0，构造通过不判空。
+
+
+[全交换子兼容字符喷射与平坦分母](results/R12-appendix-full-commutant-compatible-formal-jets-and-flat-root-denominators.md)已付：不整除闭稳定根的实际标量分母必须属于I∞，该范数闭理想强*稠密但与UHF零交。仍须在其中构造同源PH⊂DomT及有界分子；R267共同全部幂分母的平坦性不付这一真实域包含。
