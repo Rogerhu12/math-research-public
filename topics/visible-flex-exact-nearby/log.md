@@ -77,3 +77,5 @@ root完整展开CR16为CP1，保ξ的二次与q的三次全部11系数。相同�
 把12个旧open/HANDOFF重复历史页改为逐件完整不可变恢复入口，同提交3919d213b7fafe6605c2ab55ed4212468eccfd20，各保原path/blob/bytes/SHA；实际全文可完整读回，不改历史。释放397485B。逐路径核R142/fixedη0/RW/compactC0所有当前和历史manifest不交，不动任何science/native/active pin。open第2–7节保留，近期第8节全文同提交完整恢复，当前表仅接续入口；旧false/unknown和未付义务不减，旧成功禁重。
 
 2026-11-26 08:55 UTC：12份非科学重复历史H/open逐字检查点改为固定提交 caf464381c5c41ab86c007648edf407972156569 的同路径入口，每件登记原blob、UTF8字节数和SHA256，净减397237B。已静态排除R142/固定η0/RW/C0全部活动manifest引用；不改native/科学结果/失败与未付义务，不重旧成功。两README无差异；本H继续保<10000B。
+
+2026-11-26 09:02 UTC：RW whole metadata/pure/owner/worker已完成双核，五件具体入口首次发布，manifest be8da3e31973d9c3725a4dcb4834287a1add06121e3853ea4308b08b656fac05。旧H/K零常数AST资格、原W/Js完整成功闭包、真a/mean/完整DFT和candidate保存读回均保；只有96新row目标，无旧科学调用。首轮Actions触发，等待真实运行记录。
