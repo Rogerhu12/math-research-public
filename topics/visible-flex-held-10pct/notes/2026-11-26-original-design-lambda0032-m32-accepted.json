@@ -1,0 +1,72 @@
+{
+  "session": "Astra-held10-06bbeb39-20261126",
+  "observed_utc": "2026-11-26 12:18:46 UTC",
+  "workflow_run": 45801006547,
+  "job": 139843898376,
+  "command_id": "held10-material-delta-design-20261126-01",
+  "launch_commit": "3db68dba9d65b9002f04667548e16c779fda0446",
+  "result_blob_sha": "11fc603fb1c99a517e21025d92cbbd762dc791f0",
+  "source_script": "topics/visible-flex-held-10pct/scripts/resume_20261126/lowq_prefix_recovery_design.py",
+  "source_script_sha256": "a69f5c6ca118221700b16f01645b87be94afba349ca576825c47993891c22223",
+  "scope": "New actual original M32 lambda=.032 finite design acceptance after .016; delta remains a design unknown.",
+  "actual_return": {
+    "accepted": true,
+    "actual_audit_mean_nodes": 1552,
+    "actual_delta": 0.06413339850075069,
+    "complete_saved_initializer": true,
+    "domain_error_counts": {
+      "Adaptive Frenet domain failure": 4
+    },
+    "domain_newton_stats": {
+      "accepted_steps": 21,
+      "calls": 3,
+      "minimum_alpha": 0.0625,
+      "no_step": 2,
+      "rejected_domain_trials": 4,
+      "rejected_merit_trials": 44
+    },
+    "error": null,
+    "homotopy": 0.032,
+    "metric": 6.457357913412891e-7,
+    "metric_only_failure": false,
+    "modes": 32,
+    "name": "attempt-004",
+    "nodes": 2325,
+    "original_finite_checks": {
+      "physical_bc": true,
+      "rms": true,
+      "solver": true,
+      "solver_and_boundary_pass": true,
+      "tolerances": true
+    },
+    "physical_bc_max": 4.353758342567232e-12,
+    "physical_sha256": "211b225e238a47f67fd879bcee22fcc4399360a2f093d8c36073ccea95cb412e",
+    "raw_sha256": "16e1673d69400c9c28efd2f7107927326c4284820c1886f83638df528b172b19",
+    "returncode": 0,
+    "rms": 8.085736599983559e-7,
+    "run": "/home/runner/work/_temp/held10-design/design-prefix-recovery/material-delta-design/attempt-004/run.json",
+    "run_sha256": "556ddefe35eac655cc961a903d0fd42031e8806778b33f7eb275c1799e330566",
+    "solver_success": true,
+    "source_run": "/home/runner/work/_temp/held10-design/design-prefix-recovery/material-delta-design/attempt-003/run.json"
+  },
+  "source_accepted_run_sha256": "c079ed08271021c2dce4d135101d2692a9eb59eb49a685b902cefdccfb3751b7",
+  "source_note": "2026-11-26-original-design-lambda0016-m32-accepted.json",
+  "continuation": {
+    "status": "attempt-005",
+    "lambda": 0.064,
+    "source_run": "/home/runner/work/_temp/held10-design/design-prefix-recovery/material-delta-design/attempt-004/run.json",
+    "source_raw_sha256": "16e1673d69400c9c28efd2f7107927326c4284820c1886f83638df528b172b19",
+    "initial_nodes": 2325,
+    "accepted_lambda_scalar_in_old_summary_may_lag": true
+  },
+  "scope_limits": {
+    "original_linear_dn": true,
+    "metric_is_original_finite_audit": true,
+    "continuous_interval_certificate": false,
+    "full_nonlinear_tail_paid": false,
+    "fixed_metric_refinement": false,
+    "exact_protected_arc_reached": false,
+    "complete_surface": false
+  },
+  "retention": "Only original scalar returns, parameters, source/run identities and hashes. All regenerable fields remain on the actual runner."
+}
