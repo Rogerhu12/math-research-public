@@ -5,7 +5,7 @@
 ## 目标、规则与执行
 
 - **普通复可分无限维 Hilbert ISP 未完成。** 仅全体有界算子的存在定理或完整反例算完成。
-- **最近实际 pull / 已读规则提交：** `25797fea188f8c678515ed84a8ceb15d0a8c3464`（2026-11-26 19:54:45 UTC；本地部分克隆）；本次两 README diff 无变化。每次 pull 且至少每小时检查并更新本项。
+- **最近实际 pull / 已读规则提交：** `342a47861ffb5dd9f7f5fe6beaa8fc3300304b55`（2026-11-26 19:55:58 UTC；本地部分克隆）；本次两 README diff 无变化。每次 pull 且至少每小时检查并更新本项。
 - 私库 QUEUE 接手已推 `5746fa79a74af4975476d400dfbe0c4e5cb9ae9d`；私库根规则已读至 `ec011a5c25eeb7aed6eea040d601e7351726ede9`。每结论单推，非快进即 pull --rebase 再推；不 force，令牌仅 CLI。
 - 本轮本地终端可用。前会话执行身份及全部原交接保[接手快照](notes/2026-11-27-handoff-at-takeover-8542.md)；本轮后续完整细节保[第二快照](notes/2026-11-27-handoff-before-new-tower-and-closure-8542.md)。失败不改标成功，已登记不重做。
 - 仅保源、参数、SHA、小回执；MD<100KB、H<10KB、open尽量<30KB、topic<200MB，不写根LOG。已读本轮 log；notes 按交接路径与结果索引定点续读。
@@ -31,7 +31,7 @@
 - 三约化H退化Gram：F0、V二jet、Hp非零、同相位、所有H∞、中心0/2已闭。中心0旧b34错误Eh退出0无效，正确K/L/Eh的四纤维U幂才是证据。
 - 中心−6仅A7/9、ab637/5580的首项零三维U³已闭；一般范数662.582秒到时未决。余中心c≠0,2、V可∞与非退化H Gram继续。
 - 三约化H一般有限中心：原N一阶/Ke3与个别源/12次域归约已证，完整V与未平方相位保留。Ke3实际280.311秒/4GiB，L12实际900秒均无单位；准确输入哈希/运行身份见[第三快照](notes/2026-11-27-handoff-before-original-N-Hermite-8542.md)，不重跑，改新低次原几何。
-- H单三jet/rankV2整个ess6已闭。H2+1的非零Hp、退化Gram、V二jet、F0/e0和全部∞闭，仅四源有限Hp0非退化层。原同Π的C/G两条d一次式已证，三种真Ke900秒未决。[新原N二阶/孤立一阶降式](results/R150-appendix-rank-three-double-plus-single-zero-hp-original-N-Hermite-strengthening.md)加入两个真实系数，d次数5/8；完整求导固定w，所有原身份实际build通过4.926643秒。新源/专用workflow已启动特征零转换矩阵门，仍待实际I*C=1；不把build或模证据作单位。
+- H单三jet/rankV2整个ess6已闭。H2+1的非零Hp、退化Gram、V二jet、F0/e0和全部∞闭，仅四源有限Hp0非退化层。原同Π的C/G两条d一次式已证，三种真Ke900秒未决。[新原N二阶/孤立一阶降式](results/R150-appendix-rank-three-double-plus-single-zero-hp-original-N-Hermite-strengthening.md)加入两个真实系数，d次数5/8；完整求导固定w，所有原身份实际build通过4.926643秒。新源/专用workflow run45886748045 已启动特征零转换矩阵门，仍待实际I*C=1；不把build或模证据作单位。
 - 纯三次判据B³−27A²D，旧正号不可作证。每图须原真幂来源，再以N=1+Σ(Ni−1)粘合；几何覆盖不代来源费和算子桥。
 
 ## R271：完整同源费用与稳定端点
@@ -50,8 +50,8 @@ M=kerT、N=closureBM；N=M未证。保同w/u、全部partial、真intersection�
 
 ## 其余开放
 
-[Deddens自伴核已刻画](results/R12-appendix-selfadjoint-deddens-core-and-all-separable-multiplicity-invariant-projections.md)：D_A∩D_A*=乘法MASA，非平凡普通不变投影成本必无限；全部可分重数只允许常值重数投影。固定c球非localizing、无compact范数闭包、Π强不连续及copy五次费均已付；不重做。继续原同源最优插值、D核心保持、∩A^kM增长率、非复制来源及G_reg/Haar/子商全部未闭接口。
+Deddens本轮完整已闭结论见[索引](results.md)：D∩D*=乘法MASA，非平凡原A不变投影成本必无限；任意可分重数只允许常值重数投影。固定c族非localizing、R无compact、平均Π强不连续与复制五次费亦已付，不重做。
 
-[原范数闭包R的全部加权2-adic平移距离](results/R12-appendix-norm-closure-all-adic-translation-distances-and-concrete-crossed-product-core.md)现已确定；平移生成C*代数B中自伴核=MASA、交换子∩B=poly范数闭包。但R38实际Y∈D\B，全R自伴核仍开；不能由全部有限字符提取消失在B(H)上推出算子零。继续原超出B部分与同源插值。
+范数闭包R的全部2-adic加权平移距离已确定，平移生成B中自伴核=MASA且交换子∩B=poly范数闭包；原R38的Y∈D\B保真剩余。全R对任意非平凡odometer谱投影距离≥1/π，不能据此排除连续谱Fourier乘子。新增[任意非奇异加权复合的准确距离](results/R12-appendix-exact-distance-of-all-weighted-composition-operators-to-the-closed-selfadjoint-core.md)：到R∩R*与MASA均等于权在移动集上的ess sup；无限换位实例到B距离1，确属B外。
 
-[所有非平凡odometer谱投影到全R距离≥1/π](results/R12-appendix-uniform-positive-distance-of-all-odometer-spectral-projections.md)已证，任意S包含无限秩/余秩；R∩{U}′的幂等元仅0/I，代数元标量。自伴Fourier乘子的连续谱剩余不能删，全R核心仍开。
+全R自伴核仍开，不以移动字符消失或一般细块小量替全B(H)唯一性。已转同一实际尾纤维的非复制运输插值，保原递推来源与费用；未知M未证被D核心保持。∩A^kM增长率、G_reg/Haar/子商及原快照中全部未闭接口继续。

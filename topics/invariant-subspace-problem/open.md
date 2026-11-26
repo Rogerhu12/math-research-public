@@ -116,6 +116,8 @@ A单射、稠密像、拟幂零且非紧；普通非零真闭不变子空间仍�
 
 [全部odometer非平凡谱投影已排除于整个R](results/R12-appendix-uniform-positive-distance-of-all-odometer-spectral-projections.md)，统一距离≥1/π，不限平移生成B。R∩{U}′的代数元只能标量，自伴核心内Fourier乘子谱必须连通；连续谱剩余及全R核心仍开。
 
+[任意非奇异加权复合算子的自伴核距离](results/R12-appendix-exact-distance-of-all-weighted-composition-operators-to-the-closed-selfadjoint-core.md)现已完整确定：到R∩R*与MASA都等于其权在移动集的ess sup；无限二进位换位实例到平移生成B距离1。一般非复合算子仍不能无损拼合细块；当前正向推进实际尾纤维的非复制运输插值。
+
 硬复制和任意复软复制（自适应、统一有界放大、固定非零球）已有五次累计成本障碍，原幂衰减只有四次；软化cut不能修复。一般有限头重排与非复制来源仍开。未知A不变空间未证被D核心保持。
 
 ## 4. 其余开放路线和范围
