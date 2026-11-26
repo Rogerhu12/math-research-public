@@ -6,7 +6,7 @@
 
 固定一条 E/Q，完整证明 rank≥2 且无穷不同 p 的通常全 Sha[p∞] 有限。**未完成；继续研究，不把接口、条件结论、有限验证当完成。**
 
-- 公开部分克隆、恢复稀疏检出并实际 pull --rebase；根/课题 README 已读至 `7434a4bfa8e817a644a8cfd8ae0c6edf7ca0aadf`，相对接手首读无差异。之后每次 pull 核差异，至少一小时一次。
+- 公开部分克隆、恢复稀疏检出并实际 pull --rebase；根/课题 README 已读至 `b35d61ddf92880b44f22fbd2e4284c200c79a8f6`，相对接手首读无差异。之后每次 pull 核差异，至少一小时一次。
 - 私有队列接手已推 `f3125fbaa4bc13678b0c8519d85051762c579529`；私库根 README 已读至 `e776df4`（推前同步点）。两次非快进均立即 rebase 后重推成功。
 - 本次 clone 在 /workspace 空间不足，已移动本次两个克隆到 /tmp/rank2-sha-7d29daa5d3b1；只处理本次创建文件，恢复后 public worktree 干净。令牌未写入文件或配置。
 - 2026-11-26执行环境断开后，临时用GitHub原子tree/commit及非强制CAS同步main；逐次核两README差异，恢复环境后补git pull --rebase。未推改动从已审差异恢复，未将断开视作完成。
@@ -46,7 +46,7 @@ R893 只在 c1≠0 下给 D=UZ°、Uunit、ccan=H Dfun D、Ccan=H Dfun²。s=ord
 
 R908/R913 finite/wild 新增惰性位loc零已付；tame D固定，wild Dp=p^cpD仅逐p固定；同格可除T才继承。R921 残余H¹提升L/连接C、j*=diag(u,0)、cor=diag(0,1)、βm(C)=−up^(e−m) modh及全局连接读数保；几何loc零只控L。c1非零、ordinary、s0和无穷p仍未付。
 
-[本轮原文范围核查](notes/2026-11-26-global-7d29.md)：Castella 2026作者版仍需κp非零，2611.09192的定理已假设Sha有限/高度非退化；新固定3-primary变曲线摘要不提供本题量词。私库q-bsd与selmer-to-analytic最新H也未给可移植的闭合输入。
+[本轮原文范围核查](notes/2026-11-26-global-7d29.md)：Castella 2026作者版仍需κp非零，2611.09192的定理已假设Sha有限/高度非退化；新固定3-primary变曲线摘要不提供本题量词。Wan–Xiang–Xu新预稿仍限解析秩一；Scavia的非零循环定义域变动且原十八阶投影未付。私库q-bsd与selmer-to-analytic最新H也未给可移植的闭合输入。
 
 ## 第三门：四原中央与全部边界
 
