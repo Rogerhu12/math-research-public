@@ -374,3 +374,5 @@
 - [B030完整约束下的工作行后端](notes/2026-11-26-r566-working-rows-implementation.md)：绑定第三run实际START和原81q/571径向/1276峰/原trust，局部仅形成最多512个field/orbit行、每批24真r且全1536 FFT/原mean E。全部旧粗网、fine3072、完整角定位与新违约仍决定接受；fine同margin/t门、保护原浮点r、pending/trust/成本快照完整，未把局部矩阵当全域覆盖。一次新restriction核与实际run共用Jac，0旧fine/旧parity复跑。
 
 - [R600 同一温和尾的准确全平模至j32](results/R600-same-mild-tail-flat-kernels-through-thirty-two.md)：**已证明**同一W/紧相位、同u≥100/α17起口扩至全部整数2≤j≤32；明确B=2^32、势≤870000a⁻⁴，Green≤.21315<1/4，端窗/对角吸收/邻接耦合均逐项付清，仍有原10^-3比值收缩与准确有限截断界。旧低模不重算；新18…32实际口、浮点误差/完整非线性仍待付。
+
+- [R598宽母prepared首个公开收据](notes/2026-11-26-r598-wide-prepared-first-public-receipt-agent.md)：run45828239888自然付28.749599218主秒/29.946569子进程墙秒，新192表/Gram及400nfev/8916call guide已完成，原八矩max.041066未闭。整阵调用单列encode发生shape错误，已付1027值评价而ρ积分/gauge LS/mass/Jac均未进入。实际guide焦距cap/Dsample=.02747<.03只是本初猜数值必要预算失利；不排母/后续路径。
