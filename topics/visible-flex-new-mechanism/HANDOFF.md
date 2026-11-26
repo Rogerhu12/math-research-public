@@ -6,7 +6,7 @@
 
 ## 1. 规则与接手
 
-已部分克隆并实际 `git pull main`，公开根 README、课题 README、HANDOFF、open、results 索引及相关 log/notes 已读。公开已读提交 **e79934ab64e0f753e5057ed0abc619599ad12b3c**（2026-11-26 07:54 UTC；本次实际pull后根/题README空差异）；私有根初读 **85fdf1853367ef25c07f3ebdb6ae25c22a3564b8**，随后逐次 pull/rebase 检查根差异，空差异。私有 QUEUE 的本题已改为本会话进行中并成功推送：**9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7**；最后实际pull及规则同blob读至 **d6fc2f5c519bd5481b5e0ef67fca1c08c7b6eb9a**（2026-11-26 07:21 UTC；实际pull/rebase后根README空差异、QUEUE仍本会话）。其它课题的并行认领保留。
+已部分克隆并实际 `git pull main`，公开根 README、课题 README、HANDOFF、open、results 索引及相关 log/notes 已读。公开已读提交 **45277e50a8b19cf857cd2e2e953bdd357009046c**（2026-11-26 07:57 UTC；本次实际pull后根/题README空差异）；私有根初读 **85fdf1853367ef25c07f3ebdb6ae25c22a3564b8**，随后逐次 pull/rebase 检查根差异，空差异。私有 QUEUE 的本题已改为本会话进行中并成功推送：**9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7**；最后实际pull及规则同blob读至 **d6fc2f5c519bd5481b5e0ef67fca1c08c7b6eb9a**（2026-11-26 07:21 UTC；实际pull/rebase后根README空差异、QUEUE仍本会话）。其它课题的并行认领保留。
 
 各原观察note保真实双仓pull/规则blob/QUEUE回执；根/题规则均无变化。盘满和失联恢复原记录保于[先前交接](notes/HANDOFF-before-hard-restoration-20261126.md)，本次压缩前全文保于[几何转向前交接](notes/HANDOFF-before-compact-geometry-20261126.md)。API读取不冒git pull。
 
@@ -30,7 +30,10 @@
 
 [R566](results/R566-flat-oscillatory-cap-tail-and-graph-reach.md)的固定有限公式尾在rc=.22到r=.30全平且K无限变号；完整凸底域graph片reach>.1832，但不含跨块。[R569](results/R569-fixed-oscillatory-tail-and-flat-infinitesimal-bending.md)对同一w已实际构造角频2非零全平无穷小等距场，全部导数exp(−c/δ³)，外端真ODE；X+tV非有限等距。[原R569种子终态](notes/2026-11-26-r569-seed-first-run-receipt.md)准确DtN截断与浮点误差分开；表内|f_rr|约5.05e7、|v_rr|约3.94e8，不能宏观放大；外端f/fr负，转新尾/真实shooting，不盲增M。[R571](results/R571-milder-phase-tail-flat-kernel-and-core-shooting-zero.md)换明确新尾w=.8exp[−(2−sin(δ^-1+φ))/δ]，统一patch reach>.08670；实际一维全平核、相位连续和负holonomy均证。周期真实连接下C_core必在某φ*准确零、A_core非零，故双固定平帽的闭旋转背景已有真实线性匹配。新[相位shooting计算包](notes/2026-11-26-r571-phase-shooting-implementation.md)已发布：M25、实接C²圆柱、φ根/导数/同根加密、同场A_core=1代价及4/6/8有限探针；结果待原终态。有限非线性/全闭reach仍欠，φ设计变化非同g弯曲。
 
-[hard首run45769777022](notes/2026-11-26-hard-exchange-first-run-restoration.md)新37.974705078科学秒、仅几何恢复；其实际末q/网格/trust进入[识别续接](notes/2026-11-26-hard-exchange-identified-continuation.md)。[续接原终态45773550668](notes/2026-11-26-hard-resume-first-metric-progress.md)两lane新163.220723713/470.738431635秒：B030仍V=.0005436546、η2.0895893；B038在outer6真过fine几何，后71次可行metric改善至η=.8636074715，κ16.377643、球1.00949487、y.38973160，229×1536 fine。两lane最后均因提议1536角约束超原768容量结束，不能把提议算已采用；B030无OptimizeResult，B038末两次后端自然success。新[联合预算/分块Jac入口](notes/2026-11-26-joint-budget-block-jacobian-implementation.md)已发布：R1.012/Y.3928/τ.06072仍支付原比例；保原q/全pending径向，B038真纳1536约束，B030须先完整重建证旧几何角峰已覆盖。每16方向精确Jac、新trust=.5明记，首Actions方向核对一次；两lane原终态分别核验。[连续角峰接口](notes/2026-11-26-continuous-theta-peak-oracle-design.md)把FFT求积/非均匀实际约束/径向覆盖分开，Ebar仍来自完整角积分，误差与连续证书另付；实现中。仍欠冻结g精化/连续嵌入/全点对reach，不授README完成。原条件/失败完整存[续接前交接](notes/HANDOFF-before-hard-resume-20261126.md)。
+[硬几何首run](notes/2026-11-26-hard-exchange-first-run-restoration.md)与[原门识别续接](notes/2026-11-26-hard-resume-first-metric-progress.md)完整闭账：B030末V=.00054365/η2.089589，B038首次fine可行并降η至.86360747；均止于未采用1536角超过原768容量。实际原q/网格/trust保，原资格不因新预算改判。
+
+[联合预算/分块Jac](notes/2026-11-26-joint-budget-block-jacobian-implementation.md)改R1.012/Y.3928/τ.06072，仍支付原比例；新trust=.5及每16方向AD明确。[B030实际终态](notes/2026-11-26-joint-budget-b030-first-metric-receipt.md)run45777140827/job139763424593新增181.995016962秒、方向差3.81e−10：241×3072 fine的V=0、η=.939818940292、κ16.452596、球1.01043031、y.38901204。真实119×1536约束、3072仅末提议，12外层后容量终态，无OptimizeResult；B038另读自身原终态。[连续角峰接口](notes/2026-11-26-continuous-theta-peak-oracle-design.md)已登记，正实现独立源：分开FFT求积/真实约束角/径向覆盖，Ebar仍完整角积分，求积误差和连续证书另付。所有点值几何可行均非全闭reach，g尚未冻结。
+
 
 ## 4. O4 两个不同母库的有效入口
 
