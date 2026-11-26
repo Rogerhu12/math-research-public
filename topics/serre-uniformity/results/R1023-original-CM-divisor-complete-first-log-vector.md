@@ -537,3 +537,12 @@ global_route 给出原几何推导，root 独立纸面核准全部权界、整 f
 rational partial fraction 与 (1023.31) 的全部条件。
 本篇的证明不依赖有限素数探索、矩阵秩程序或 BigInt 系数输出。
 Serre 主目标仍 OPEN。
+
+
+## 后继：完整首向量已全称排零
+
+[R1024](R1024-original-complete-first-log-uniform-nonvanishing.md) 对同一个
+(1023.31) 的两整除及中心条件给纯代数矛盾，覆盖全部
+\(p\ge47,\ p\equiv11\bmod12\)。因此本篇原 entire-Jacobian
+首 log 准确非零，深度为 \(m\)。它不指定哪个 SS 分量为单位，
+也没有省略本篇 §8 的实际非 CM 整投影条件。

@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。本轮已部分克隆并真实pull main，读两README/H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则读至36cf1ed2。不重做已登记结论或窗口。
 
-**公开两README已读提交：4a61b1fe1c2dc22ba5cd8d80bb198523f41d4def**（2026-11-26 20:06 Asia/Taipei；本次同步两README无差异）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
+**公开两README已读提交：aa20aaf5b9fe97ca657a50714da5fcd178a6c632**（2026-11-26 20:09 Asia/Taipei；本次同步两README无差异）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
 
 执行宿主本轮断连；08:36 UTC单次恢复探测仍无环境。按根规矩8用GitHub小文本原子tree/commit、最新head检查和非force expected-head更新；并发拒绝立即在新head重建循环至成功，保其它会话。终端恢复补pull --rebase。令牌仅此前CLI使用，未存文件/提交。根维护main/H/open/index/log；子研究交数学稿。每条结论完整审后立即推。19:52纠正：global_route曾违规用会话V8做数学探索，已叫停；已知范围、时长及独立纸面重核见[执行偏差记录](notes/2026-11-26-execution-path-deviation-and-correction.md)。不得把其数字记为证明或合规窗口。
 
@@ -14,7 +14,9 @@ H<10KB、open尽量<30KB、每MD<100KB、topic<200MB；无可重算raw、不写�
 
 ## 最新全局实际来源
 
-[R1023](results/R1023-original-CM-divisor-complete-first-log-vector.md)：p>37、p11mod12，原P=(p−1)D₀完整log仍在Fm，首向量准确εΣθ_s(λ(s)+R_p(s))f_s；λ=−6(b+1)/(1−b³)，R_p是6(b^p+1)/[(1−b³)^(4g+1)A_p²]的三支持极部。真实节点、全部跨尾Frob/Schwarzian/半线性尺度及整log分母均保；原输入全零iff两条Q整除和P2(1)=1。尚须排全零及核实际非CM整投影，不能直接换H_A/H_Z的λ。
+[R1024](results/R1024-original-complete-first-log-uniform-nonvanishing.md)：全部p≥47、p11mod12，原log((p−1)D₀)准确Fm\Fm+1，v_p=1/(p+1)。原Q的两整除加中心条件迫五阶残差108439/39844224与11227003/2762532864；明确Bézout等于1，排全部首向量同时为零。o2/root完整纸核，不消费违规数值。尚不指定单个SS分量或非CM商整投影单位。
+
+[R1023](results/R1023-original-CM-divisor-complete-first-log-vector.md)：原P完整首log=εΣθ_s(λ(s)+R_p(s))f_s，所有真实跨尾Frob、GM/Schwarzian、半线性尺度和log分母均保；R1024现排全零。实际非CM整投影仍开，不能直接替换H_A/H_Z的λ。
 
 [R1010](results/R1010-original-CM-divisor-nontorsion-in-nonCM-part.md)：原X₁的D₀=(3−N)[c₁−c₀]在非CM新部非挠；全p≥10¹⁸、p5mod6，p11mod12可到431。真实Hecke/CM域/31挠点/深导子/PV/gonality纸审；不搬到变化X_d。
 
@@ -73,4 +75,4 @@ R696早已证明同一全局Φ候选Ω_actual={0}，R832已消费；不重做、
 
 固定Y的R805–930及全部runs/高维格/预算边界见open与逐字归档，只消费已成输入。R907四artifact真404仍producer_inputs_pending，不重造；预算失败不作数学负结论。固定41全129盘/8CM已由R707完成，不重开。R575旧正CM角色根号−与逆twist秩零撤回有效。R1004仅导子下界而非a/c上界，停止重复优化。
 
-当前并行：R1023两余式排全零；R1020/22的实际sign与原primitive/Legendre谱；原bare完整余项；实际CM-killing及非CM整投影。子问题完成即接open其余项，真正达到README完成标准才收尾。
+当前并行：原全向量的实际CM-killing/非CM整投影；R1020/22的实际sign与原primitive/Legendre谱；原bare完整余项；实际CM-killing及非CM整投影。子问题完成即接open其余项，真正达到README完成标准才收尾。

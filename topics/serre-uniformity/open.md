@@ -10,7 +10,9 @@
 
 [R1021](results/R1021-actual-full-p-affine-tail-rigidity-and-quotient-parameter.md)：实际full-p正则环经μ_(p²−1)平均，Cohen方程仅p+F_e+F_2e+…；radial chart在整个非约化O/(p)上为常数DL仿射模型，全部level作用模p真实线性。原普通p-商target eigenparameter准确u′=ε(c_Qψ+pR_Q)，R_Q仅仿射正则，六标记与c_Q单位保留；Dickson恒等式𝒟=ψ^p+C^(p−1)/ψ给首gap的具体Frob消去函数。未把仿射误差当节点有界；R1023现已在实际节点保全算出首log跨尾项，整投影继续。
 
-[R1023](results/R1023-original-CM-divisor-complete-first-log-vector.md)：p>37、p11mod12，原P=(p−1)D₀完整log仍在Fm，首向量准确εΣθ_s(λ(s)+R_p(s))f_s；λ=−6(b+1)/(1−b³)，R_p是6(b^p+1)/[(1−b³)^(4g+1)A_p²]的三支持极部。真实节点、全部跨尾Frob/Schwarzian/半线性尺度及整log分母均保；原输入全零iff两条Q整除和P2(1)=1。尚须排全零及核实际非CM整投影，不能直接换H_A/H_Z的λ。
+[R1023](results/R1023-original-CM-divisor-complete-first-log-vector.md)：p>37、p11mod12，原P=(p−1)D₀完整log仍在Fm，首向量准确εΣθ_s(λ(s)+R_p(s))f_s；λ=−6(b+1)/(1−b³)，R_p是6(b^p+1)/[(1−b³)^(4g+1)A_p²]的三支持极部。真实节点、全部跨尾Frob/Schwarzian/半线性尺度及整log分母均保；原输入全零iff两条Q整除和P2(1)=1。全零已由R1024排除；实际非CM整投影仍须核准，不能直接换H_A/H_Z的λ。
+
+[R1024](results/R1024-original-complete-first-log-uniform-nonvanishing.md)：全部p≥47、p11mod12，原log((p−1)D₀)准确Fm\Fm+1，v_p=1/(p+1)。原Q的两整除加中心条件迫五阶残差108439/39844224与11227003/2762532864；明确Bézout等于1，排全部首向量同时为零。o2/root完整纸核，不消费违规数值。尚不指定单个SS分量或非CM商整投影单位。
 
 ## O0：全主目标覆盖（R1003恢复原范围）
 

@@ -215,3 +215,8 @@
 ### 2026-11-26 20:06 Asia/Taipei — R1023 原完整首 log
 - [R1023](results/R1023-original-CM-divisor-complete-first-log-vector.md)：p>37、p11mod12，原P=(p−1)D₀完整log仍在Fm，首向量准确εΣθ_s(λ(s)+R_p(s))f_s；λ=−6(b+1)/(1−b³)，R_p是6(b^p+1)/[(1−b³)^(4g+1)A_p²]的三支持极部。真实节点、全部跨尾Frob/Schwarzian/半线性尺度及整log分母均保；原输入全零iff两条Q整除和P2(1)=1。尚须排全零及核实际非CM整投影，不能直接换H_A/H_Z的λ。
 - root独立纸核完整几何、整log及全函数判据；不依赖已记录的违规V8探索。全向量非零另证，主目标OPEN。
+
+
+### 2026-11-26 20:09 Asia/Taipei — R1024 原完整首 log 全称非零
+- [R1024](results/R1024-original-complete-first-log-uniform-nonvanishing.md)：全部p≥47、p11mod12，原log((p−1)D₀)准确Fm\Fm+1，v_p=1/(p+1)。原Q的两整除加中心条件迫五阶残差108439/39844224与11227003/2762532864；明确Bézout等于1，排全部首向量同时为零。o2/root完整纸核，不消费违规数值。尚不指定单个SS分量或非CM商整投影单位。
+- 两一阶式、原低jet、四次五项卷积、全部残差和Bézout由o2与root独立纸核；真实来源R1023已推。继续非CM整投影，主目标OPEN。

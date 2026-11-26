@@ -8,6 +8,8 @@
 
 ## 新增结论（2026-11-26）
 
+- **R1024（已证明）**：[R1024](results/R1024-original-complete-first-log-uniform-nonvanishing.md)：全部p≥47、p11mod12，原log((p−1)D₀)准确Fm\Fm+1，v_p=1/(p+1)。原Q的两整除加中心条件迫五阶残差108439/39844224与11227003/2762532864；明确Bézout等于1，排全部首向量同时为零。o2/root完整纸核，不消费违规数值。尚不指定单个SS分量或非CM商整投影单位。
+
 - **R1023（已证明）**：[R1023](results/R1023-original-CM-divisor-complete-first-log-vector.md)：p>37、p11mod12，原P=(p−1)D₀完整log仍在Fm，首向量准确εΣθ_s(λ(s)+R_p(s))f_s；λ=−6(b+1)/(1−b³)，R_p是6(b^p+1)/[(1−b³)^(4g+1)A_p²]的三支持极部。真实节点、全部跨尾Frob/Schwarzian/半线性尺度及整log分母均保；原输入全零iff两条Q整除和P2(1)=1。尚须排全零及核实际非CM整投影，不能直接换H_A/H_Z的λ。
 
 - **R1022（已证明）**：[R1022](results/R1022-original-theta-all-direction-constant-square.md)：全部p≥41、p5mod6，原4η⁶C_N(η)²=D_p∈(Fp×)²方向无关，D_p=−4Σa_i²a_(N−i)²；p5mod12准确D_p=1。真实index1积分torus由trace定标到Q(μ_(p+1))，复共轭即p-Frob，primitive拉回及canonical metric给相对norm1；完整addition分布保总D阶p的cross，接回c_A²=D_pγ²/4。原方向scalar只剩共同单位及实际±号，不能删符号或代primitive/Legendre谱、bare余项。
