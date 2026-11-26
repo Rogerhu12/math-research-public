@@ -5,9 +5,9 @@
 
 ## 1. 授权、规则与全部前史
 
-公开本次实际pull且根/题README已读至 **092954f3e6a0bfaeffaf03104f4428c863747422**；相对继承0749a4cc规则空差异。私库本次实际pull且根README已读至 **f7d4488a16beb49a670335f275af43094628e070**；QUEUE认领推送 **09f8b8b54e7cfaabaa635bae5c438c7f1521289a**，本会话进行中。私库本轮再pull、根README空差异且QUEUE仍唯一认领；下一不晚于21:10 UTC。
+公开本次实际pull且根/题README已读至 **f27405d369913d30b89346b02a51ab20cb82ae30**；相对继承0749a4cc规则空差异。私库本次实际pull且根README已读至 **f7d4488a16beb49a670335f275af43094628e070**；QUEUE认领推送 **09f8b8b54e7cfaabaa635bae5c438c7f1521289a**，本会话进行中。私库本轮再pull、根README空差异且QUEUE仍唯一认领；下一不晚于21:10 UTC。
 
-[本次压缩前全文](notes/HANDOFF-before-physical-epigraph-final-20261127.md)及所链[初交接](notes/HANDOFF-inherited-20261127-1f4a61a4.md)保全部旧结论、量词、失败、真实输入与完整费用；移档不重做已付门。[四来源/文献复核](notes/2026-11-27-current-four-source-topics-and-literature.md)固定已读版本及可用范围。
+[本次压缩前全文](notes/HANDOFF-before-full-position-and-continuous-20261127.md)及所链[初交接](notes/HANDOFF-inherited-20261127-1f4a61a4.md)保全部旧结论、量词、失败、真实输入与完整费用；移档不重做已付门。[四来源/文献复核](notes/2026-11-27-current-four-source-topics-and-literature.md)固定已读版本及可用范围。
 
 每次实际pull后查根/题README差异并执行，至少每小时；API读取不冒pull。root独占git和共享索引，每条结论即推，NFF/并发锁立即pull --rebase再推至成功。科学只在公开Actions；本地仅纸证、源码/AST/JSON/hash和原日志解析。根12不重播已付门，必要新场再生计费；根15不存raw/可重算数组。原偏离及修正仍保前史。
 
@@ -33,7 +33,7 @@
 
 ## 5. 完整高度与实际位置方程
 
-原八模452.79767207+464.449434512秒、十一模1426.507060097秒及全尾/归一/口费用保前史；R602完整core六jets与Jac保留，不能只删核心行。[全谱真实终态](notes/2026-11-27-r606-full-spectrum-natural-stall.md)run45854123850新1068.193324629秒、41接受后原682q自然STALL；q JSON SHAe7b9eb77、H.5188956854994686、iteration221。merit降至.00429405，实际细η却5.59672e−7，未过2e−9，正文m4/6/8成主项。
+旧八/十一模、全尾/归一/口与682q所有真实费用在前史；完整R602 core六jets/Jac保留。[682q全谱终态](notes/2026-11-27-r606-full-spectrum-natural-stall.md)run45854123850新1068.193324629秒，41接受后stall；细η5.59672e−7，未过2e−9。
 
 [1130q正文响应](notes/2026-11-27-r606-compact-response-implementation.md)run **45882634760**，source943376ef，19:18 UTC开始，待自然终态。新增448 C4紧支撑参数；全部正偶2…88、旧682q/所有口/同canonical512无限tanh/完整R602不变。60新步、5400秒范围；未达目标时不延长旧682q。
 
@@ -47,16 +47,18 @@
 
 R598同十八正块/576微包宽母、微半宽1/12000、完整正势1、负侧反号、真历史/全程常规范均不变。R601 prepared中心、R603条件首层速度2、R605/R607真记忆及有限阶相容不授全程根；旧九参数/独立history失败和成本保前史。
 
-[R609](results/R609-true-integral-histories-and-kinetic-input.md)已付真η/八A/六rho全积分消元，奇中心与一个ζ0链准确从属。[真函数原终态](notes/2026-11-27-r609-true-integral-function-natural-final-agent.md)run45881816067新744.538026459秒，五模四偶78nfev到约1e−16；9/13/17共105接受，原ruling仍1.74e14。真实37q JSON SHAadd6c37a、L3.3491506644355598、冻结unit3967798143562589；固定16×16四端3.40645e−8未合格。
+[R609](results/R609-true-integral-histories-and-kinetic-input.md)真η/八A/六rho、奇中心/ζ0链已付；run45881816067新744.538026459秒，9/13/17共105接受，原ruling仍1.74e14；旧全部q/细端失败/成本保前史。
 
 [R612](results/R612-exact-physical-length-elimination-and-three-true-end-integrals.md)给唯一L=√(U/(K−1))和无损三形状端图；[R614](results/R614-complete-two-ruling-global-gauge-projection.md)给两常规范唯一投影/全离解Jac，不逐点除d或m。[细积分自然终态](notes/2026-11-27-r614-paid-reduced-function-natural-final-agent.md)run45885627093新1009.284237733秒/49接受；真37q JSON SHAd56ddad1、L3.4780567811688816。固定32×16四端5.12616e−10过1e−9，原ruling仍1.70391e14；重装差约.18不是严格误差界。a1=−6系数壁造成269次提前拒绝、端恢复失败0，原图停止。后继据此用R616真baseline/零新修正，同母/单位/原门；pose仍未闭。
 
-[R616](results/R616-same-candidate-expanded-box-function-chart.md)已付同真候选零修正扩盒：保全部空间jets/germs，原物理h/k盒内方向不被旧人工饱和压零；纯完整链/几何adapter已备。[实际扩盒续算源](notes/2026-11-27-r616-actual-expanded-box-continuation-implementation-agent.md)固定d56ddad1基线/17+17零修正，新trust.1/damping1e−4明列，不重拟合成功seed。
+[R616](results/R616-same-candidate-expanded-box-function-chart.md)已付同真候选零修正扩盒：保全部空间jets/germs，原物理h/k盒内方向不被旧人工饱和压零；纯完整链/几何adapter已备。[实际扩盒续算源](notes/2026-11-27-r616-actual-expanded-box-continuation-implementation-agent.md)固定d56ddad1基线/17+17零修正，新trust.1/damping1e−4明列，不重拟合成功seed；run45890056841/job140150220830/source6977e7a4于20:18 UTC实际启动，待原终态。
 
 ## 7. 全闭面连续几何
 
 [R611](results/R611-actual-circular-reference-complete-reach-certificate.md)旧圆参考已严格付清：修复积分准确系数后的run45882464935新32.425678908秒/2125叶，接R608无限尾/R599全切圆，reach≥.06072、D≤1.560001714985865。首轮34.7883秒不作严格证据，全部源/hash/费用在原note。新q比较圆面不能继承其紧区间结果。
 
 [R604](results/R604-normal-chord-stability-and-finite-parametric-norm-interface.md)给全法弦扰动及真实C0/C1/协变C2充分证书。[frame接口](notes/2026-11-27-r604-continuous-rotating-frame-norm-interface.md)与[R582同场径向盒](notes/2026-11-27-r582-same-field-radial-interval-interface.md)已发布：精确端jets/Bernstein、原全部97q控制、同圆角core全角界。[当前/参考a,z](notes/2026-11-27-r582-same-field-mean-interval-interface.md)及直接差jets已备；[R608新q适用性](notes/2026-11-27-r608-tail-transfer-to-retained-circle-agent.md)确认16控制仍在原3/5盒，旧尾引理原样用；新公开范围须重建相同mesh一次计费、覆盖全部材料分片/中心柱/帽/无限尾，才能登记新全域范数与reach。没有把数值零suffix当解析高度尾，也没有宣称有限材料等于无限核。
+
+[新连续几何scope](notes/2026-11-27-r582-retained-continuous-reach-implementation.md)先认证同f1c新mean圆参考，再必要重建62878端点一次，付全材料/中心柱/双帽/无限尾及R604实际界；预算是细化目标，不是通过门，不借旧圆资格。原Actions尚待运行结果。
 
 全体已证索引在[results](results.md)，真实计算及全部费用在notes；任何局部结论后继续下一实际输入，只有本题全部完成标准真正达成才收尾。
