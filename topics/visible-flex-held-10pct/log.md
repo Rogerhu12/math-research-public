@@ -350,3 +350,5 @@
 - 2026-11-26 09:51 UTC｜Astra-held10-06bbeb39-20261126：v2完整12步自然RMS失败止于原最小λ步，末raw d6f47ce9/2.9935e−5，锚仍.002。v3实际同零锚原门过runed26f665、raw5dd5419b，全部逐位等式同、双角metric≤6.48242e−7，未调用新solver；随后λ.004已真正启动，未报成功。已存完整小返回并收窄已收锚点诊断，不改运行源码。
 
 - 2026-11-26 10:01 UTC｜Astra-held10-06bbeb39-20261126：动态全尾导出修正factory与checkpoint的13项原覆盖语义（physicalDepth8与shooting depth分别核），保完整物理/port绑定。实际stage-core改由packet/native/磁盘三方SHA和全部参数区表达式绑定，历史全SHA只作来源；原chord加native实际patch通过源码级检查，无新tail场或几何证书。
+
+- 2026-11-26 10:04 UTC｜Astra-held10-06bbeb39-20261126：五源actual-DN精化入口全文独立审读并合入，绑定真实前场/fullH、同完整P/mean1168，M与RK步数同步精化并重新过原full-H/J/8outer全门。已有compile/help及真实历史线性输入拒绝检查；没有实际λ1输入或新精化场，core+prefix六jet采样与phase有理界不冒充全尾C²/极限。

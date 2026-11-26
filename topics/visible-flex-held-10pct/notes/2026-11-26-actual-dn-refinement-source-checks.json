@@ -1,0 +1,25 @@
+{
+  "kind": "actual_refinement_source_and_input_gate_checks_only",
+  "source_sha256": {
+    "warm_actual_dn_refine_model.py": "45195b5b2a80a509dbc1882cd8b92a52813c2984198fee61bdafc3f52b7dc3c1",
+    "warm_actual_dn_refine_acceptance.py": "3844afaf3ad6c41bcf8370f635bed42c6f1dcec50bc385acb1d59c04d8be446b",
+    "warm_actual_dn_refine_step.py": "54d48717642ee1f65eba5d935297eb8e018b2483a06e028f3a502895dd0b324c",
+    "warm_actual_dn_refine_compare.py": "d413752429629fe1515c827f820c56b6c91687fb93543163017289b351998579",
+    "warm_actual_dn_refine_pipeline.py": "047abc9589cfb7df600c0b04d0457543effeda6cb20a1713b51684658f51824a"
+  },
+  "python_compile_exit": 0,
+  "help_exit": {
+    "step": 0,
+    "compare": 0,
+    "pipeline": 0
+  },
+  "actual_historical_linear_input": {
+    "status": "actual_refinement_stage_failed",
+    "error": "ValueError('A real accepted original nonlinear-DN field is required')",
+    "stages": [],
+    "linear_bvp_invoked": false,
+    "returncode": 2
+  },
+  "actual_nonlinear_refinement_run": false,
+  "new_field_accepted": false
+}
