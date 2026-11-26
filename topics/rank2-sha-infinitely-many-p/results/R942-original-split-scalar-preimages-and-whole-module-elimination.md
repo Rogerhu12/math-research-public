@@ -1684,3 +1684,52 @@ manifest SHA-256：
 
 以上全部对象是明示的构造API输入。此次没有构造原306 W、原端点
 极除子、四交或shadow；这些原几何终点仍待同进程实际接入。
+
+
+### 13.14. 原全部几何与 Artinian 接入的已审完整源码
+
+root已逐字审读独立 `original_ys_geometry_transport.py`，并亲读旧
+bridge 的 `prepare_original_ys_geometry` 和随后原四交入口作比较。
+新helper原始10220 bytes，SHA-256：
+`cb39ebfb3b7adfa63c5d0ec2483354621938eb52381e957977f5e8f1544cd371`。
+
+它只在原完整除子的内部调用中复用三个直接代表：
+原A0q0、A1q0、F仍由原完整paired graph求正负部分；
+A2q0用同A1q0的常数反射，三个q2各用同q0的W整模运输。
+全306 W只在第一次实际需要时于同一进程/embedding构造一次。
+每个原目标函数对象保持不同，全部显示N/D各自通过
+Z+P=A及ZD=PN完整双门。
+
+原T/v两完整主除子、所有cusp/branch闭点支持、108/54计数、
+原registry、六个2256极次数、独立first degree、两图及无穷边界和
+全部返回字段保留。随后原四交/九对/所有Artin厚层与shadow的main
+未重写，仍使用三个固定原文件SHA验证的完整consumer。
+
+已审未来四份生产入口如下，**尚未挂main或触发第二重型计算**；
+此表取代§10.6的旧版本，原参数和两份特征零PASS pins不改：
+
+| 目标路径（课题scripts/ci，workflow除外） | 完整Git blob |
+| --- | --- |
+| scripts/produce-original-triangular-artinian-shadow.py | `e64e900c3d0784150a60fb07fa021230c2a32ab9` |
+| scripts/launch-original-triangular-artinian-shadow.py | `2788e4b6b13f782b36a340c7145c0b30df2454b9` |
+| ci/original-triangular-artinian-shadow-request.json | `49cf2450c5fbd990d4fdab529def92ac26294a00` |
+| .github/workflows/rank2-sha-original-triangular-artinian-shadow.yml | `5713d440f42e1bd2f638944ce2dc9d3d4ddd1d5b` |
+
+producer SHA-256为
+`07f7e08b48dfb5ed4dd0b874d78b4d4c4ac998516ca5651dec9aa75917799ed7`；
+launcher SHA-256为
+`2593d1e799f3f21a5daecdf257c403dd394aad516479a433e1068425381ca7ab`；
+request SHA-256为
+`73b3bd80c2c16ada5b94536602d0fd8c7a117bf9fe1e5057b25dc66bb73ecbe5`。
+
+显式绑定保原四个类，加一处七方程builder及两处同geometry函数，
+每处先核原身份、后核同一新身份。host准确明列44份唯一源码，
+含全部有界HNF、七方程、全W及厚ideal实现；原q2453/batch64、
+minimal和两个完整PASS source/run/job/result hash均保持。
+最后必须实际读到完整W/三组120M2、三个直接原除子、
+六个W正负运输与两个反射运输，以及四目标各两图的双门回执。
+范围仍明确区分全部厚支持与逐闭点分解、canonical与ordinary；
+不存在保存的正规化或系数表输入。
+
+本次仅保存新geometry helper及这份已审接入记录；唯一单F v3继续运行。
+实际原W、全部极除子、四交与shadow的通过与否必须由后续真实生产返回。
