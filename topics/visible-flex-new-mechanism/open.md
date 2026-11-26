@@ -451,3 +451,7 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 ### R605 全程记忆与能量相容成为实际新输入
 
 [R605](results/R605-real-memory-coordinates-and-leading-energy-local-flow.md)付R/θ/I坐标和m正guide，必须以同一个λ同时付两侧完整首层与全部八矩，再回原有限ε/rho/ruling/pose；内部正则点不是prepared中心可达证明。下一原mass用准确边界变量嵌入保29BC及真链式Jac，不以放松BC或继续旧九族代替闭合。
+
+### B030 从真实保留态作可行性回溯再付全物理
+
+[完整原终态](notes/2026-11-26-r566-working-rows-natural-final-and-log-recovery.md)恢复后确认0接受，工作矩阵虽小但326Jac中322次callback未进完整coarse。下一保同81q、571圈/1276峰与实际trust.3003387451171875，沿真实trial作working可行性回溯/必要恢复，再过全部coarse/fine/定位；旧限制映射核已付，未接受t=.14643不能当eta进展。

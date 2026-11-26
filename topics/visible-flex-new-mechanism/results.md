@@ -404,3 +404,5 @@
 - [R604 全闭参考的显式reach扰动证书](results/R604-normal-chord-stability-and-finite-parametric-norm-interface.md)：**已证明**从参考全法弦ρ和新全域位移/法向/切向导数/曲率界，构造所有短弦的真材料路径并排近远自交，得全闭面reach下界；给真实C1/C2及参数jets接口，不把当前有限网范数或未验证圆参考当已付。
 
 - [R605 真实二维记忆与首层正则流](results/R605-real-memory-coordinates-and-leading-energy-local-flow.md)：**已证明**原运动学等价I_s=θ_s/R²，矩形记忆可双号；显式全程m正guide保中心a=H/v=2与末双零速度，两侧共常数能量椭圆在实际内部点有正则交点并给真M局部流。prepared前缀、八矩返回、有限ε/rho/period/pose/reach仍未付。
+
+- [B030工作行真实终态及完整证据恢复](notes/2026-11-26-r566-working-rows-natural-final-and-log-recovery.md)：**0接受的实际失败**；2370.471193446秒/326Jac主要耗在322次working不可行拒绝，原81q/571圈/1276峰及trust.3003387451171875保留；0fine/0定位，不以未接受epigraph计进展，下一真实可行性回溯后仍付全部物理门。
