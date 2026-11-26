@@ -6,7 +6,7 @@
 
 ## 1. 规则与接手
 
-已部分克隆并实际 `git pull main`，公开根 README、课题 README、HANDOFF、open、results 索引及相关 log/notes 已读。公开已读提交 **a97a4e50d63af5f66ead5305974e76c4ec5e4c22**（2026-11-26 14:30 UTC；本次实际pull后根/题README空差异）；历次规则及失败原回执保原note；私有 QUEUE 的本题已改为本会话进行中并成功推送：**9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7**；最后实际pull及规则同blob读至 **8ca13fb0c8ff91c987dd23b69d783591a6bac84f**（2026-11-26 14:30 UTC；实际pull成功，根README空差异、QUEUE仍本会话）。其它课题的并行认领保留。
+已部分克隆并实际 `git pull main`，公开根 README、课题 README、HANDOFF、open、results 索引及相关 log/notes 已读。公开已读提交 **a097acb3bb47124889d38503842e0e721aa9df32**（2026-11-26 14:30 UTC；本次实际pull后根/题README空差异）；历次规则及失败原回执保原note；私有 QUEUE 的本题已改为本会话进行中并成功推送：**9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7**；最后实际pull及规则同blob读至 **8ca13fb0c8ff91c987dd23b69d783591a6bac84f**（2026-11-26 14:30 UTC；实际pull成功，根README空差异、QUEUE仍本会话）。其它课题的并行认领保留。
 
 [八模前交接](notes/HANDOFF-before-eight-mode-natural-final-20261126.md)及其所链前史保全部原规则/成本/范围；09:18、11:20 UTC失联/恢复原账保留；13:54第三次失联后未发布源码仅作不可变checkpoint。root指定临时branch的CLI发布器实际clone/pull/rebase/push，双库规则读账按真实运行更新，API读取不冒pull。每pull核根/题README差异并执行，至少每小时；root独占git/索引，每条结论即推，NFF立即rebase重推。科学仅公开Actions，本地限纸证/源码/原日志解析；已披露3次开发偏离保原note且停止。根12不加机械复跑，根15不留可重算raw。
 
@@ -26,7 +26,7 @@ B030前三次关停保[原收据](notes/2026-11-26-theta-generic-start-only-shut
 
 [首失败](notes/2026-11-26-r582-finite-resonant-first-original-receipt.md)付70.621876255秒，内场完成后冗余H积分报错；[radius-only原终态](notes/2026-11-26-r582-finite-radius-only-original-receipt.md)run45827253372另付214.678352088秒，固定p=.181/ε=.001，15outer/43callback后失败。10835×384细η.99600、κ8413.03、V509.839；只1次V约7.7e−12的工作恢复，实际q已变1.425e−5，末q不合格。eta峰是材料端点，不能只归因于区间二导相消；下一同p保全部旧点，以稳定表示/真实尾部新列续，不重跑旧15outer。
 
-[R577](results/R577-intrinsic-geodesic-normal-chord-and-complete-reach-certificate.md)/[R579](results/R579-smooth-thick-rounded-core-with-exact-perimeter-and-macro-budget.md)保全reach门/厚核心预算；[R595](results/R595-rotational-reach-and-complete-meridian-reduction.md)付完整±子午化简。[R599](results/R599-monotone-height-flat-cap-global-reach.md)新证a(z)≥rc≥τ、平帽C²及连续子午曲率≤1/τ时全闭旋转reach≥τ，全部侧/帽对已排；当前背景仍欠全尾zs/半径/连续κ，非圆q不继承。
+[R577/R579全reach与厚核心](results/R579-smooth-thick-rounded-core-with-exact-perimeter-and-macro-budget.md)及[R595](results/R595-rotational-reach-and-complete-meridian-reduction.md)/[R599](results/R599-monotone-height-flat-cap-global-reach.md)保完整±子午/上下帽充分证书；真实圆背景仍欠全尾正图/半径/连续κ，非圆q不继承。
 
 ## 4. 完整高度有限边值路线
 
@@ -48,7 +48,7 @@ B030前三次关停保[原收据](notes/2026-11-26-theta-generic-start-only-shut
 
 [R598](results/R598-three-rotations-wide-eighteen-block-mother.md)付完整18正块/三旋转、0…10矩与微半宽1/12000/collar1/3000；[原质量实现](notes/2026-11-26-r598-prepared-wide-mother-original-mass-bvp-implementation-agent.md)保19微分+2ruling/29BC/31AD/完整正势，原残差过门才加密。[首终态](notes/2026-11-26-r598-wide-prepared-first-public-receipt-agent.md)run45828239888付28.749599218主秒/29.946569墙秒、guide400nfev/8916calls，八矩未闭；整阵encode shape错误在rho积分前，0mass/Jac。后继从已付11参数做新中心jet/逐列原编码，不重跑旧400；旧guide必要空间比率.02747<.03也保原账。
 
-[R601](results/R601-prepared-center-true-jet-and-fixed-gauge-acceleration.md)新证prepared真中心V_s=(a−H)Q_c(p−yr)/(4H³)，同一次固定ζ0使两原ruling给a=H/b=0，最高能量从s²延后s⁴；正势/权导数及二阶y4项仍在。新10参数guide从已付11参数映射，不重做旧400，原全BVP仍释放原参数。
+[R601](results/R601-prepared-center-true-jet-and-fixed-gauge-acceleration.md)付同一次ζ0令prepared真中心a=H/b=0，V_s=0但正势/权导数/二阶y4仍在。[R603](results/R603-prepared-leading-energy-and-speed-two-guide.md)新证共同C²收敛紧合法族、零rho入值及ε²νhat有限极限下，非零中心v必须|v|=2；先C0极限后取极限轨道jet，未排固定ε根。明定9参数同时给a=H/v=2/唯一∫hk=0，下一直接从已付11参数生成这个较强输入，旧10族未运行。
 
 ## 6. 持续工作
 
