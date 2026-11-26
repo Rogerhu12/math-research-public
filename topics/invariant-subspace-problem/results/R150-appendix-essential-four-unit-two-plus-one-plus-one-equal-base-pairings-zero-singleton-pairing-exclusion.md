@@ -145,3 +145,5 @@ $$
 源码 SHA-256：`90220cc8dee7b4b0642e25d16fb1e1e56002bbcd4dda63bac50f9199668fd19d`。实际执行为 CPython 3.12.14、SymPy 1.14.0，无 `PYTHONPATH` 覆盖；exit $0$，源内 $1.205597$ 秒，峰值 $49728$ KiB。[紧凑执行记录](../notes/2026-11-26-unit-two-plus-one-plus-one-equal-zero-single-pairing-execution-347c.json)保留原命令、源与输出身份，未存可重算数组。
 
 相等非零配对只余 $t\ne0,l\notin\{0,1/2,1\}$；一般非等配对、全局原幂来源与普通 Hilbert ISP 保持开放。
+
+**后续完整闭合（2026-11-26）：** 本条的原边界证明保持有效；余下等配对一般图现由[完整相等配对专条](R150-appendix-essential-four-unit-two-plus-one-plus-one-equal-base-pairings-complete-exclusion.md)关闭，整个 $p=q\ne0$ 不再是待做分支。

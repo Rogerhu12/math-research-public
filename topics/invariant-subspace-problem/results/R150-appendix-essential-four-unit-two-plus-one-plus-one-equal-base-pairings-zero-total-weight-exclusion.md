@@ -172,3 +172,5 @@ $$
 - [紧凑执行回执](../notes/2026-11-26-unit-two-plus-one-plus-one-equal-zero-weight-execution-347c.json)保留原 mean/最高首阶、物理二阶 germ、四个完整 gcd、全部无穷远门和原输出身份；未保存可重算结式数组。
 
 本条只关闭 $p=q\ne0,b+c=0$；$p=q\ne0,b+c\ne0$ 及其它非零配对继续开放。
+
+**后续完整闭合（2026-11-26）：** 本条的原边界证明保持有效；余下等配对一般图现由[完整相等配对专条](R150-appendix-essential-four-unit-two-plus-one-plus-one-equal-base-pairings-complete-exclusion.md)关闭，整个 $p=q\ne0$ 不再是待做分支。

@@ -5,7 +5,7 @@
 ## 主目标、规则与执行
 
 - **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍仅全体有界算子的存在定理或完整反例；子结果不作完成。
-- **最近实际 pull / 已读规则提交：** `31abee9d46d64b7d623e6a4fa2573015f0bed38f`（2026-11-26 07:28:01 UTC）。本次两README无新规则差异；已读根/课题README、H/open、结果索引及定点log/notes。每次pull及至少每小时比diff，记录SHA。
+- **最近实际 pull / 已读规则提交：** `3e1a6772b08acc6e34d1156701ba017788c183ac`（2026-11-26 07:29:46 UTC）。本次两README无新规则差异；已读根/课题README、H/open、结果索引及定点log/notes。每次pull及至少每小时比diff，记录SHA。
 - 私库 `QUEUE.md` 已成功更新认领，提交 `e776df496eedfa449b0475cefe140fdae7023db4`；非快进已逐次pull --rebase后重推成功。研究在公开仓库，私库仅维护QUEUE；不force，令牌仅CLI环境。
 - 工作树 `/tmp/isp-347c05929dd3/math-research-public`；root独占git/索引，代理独占TMP；每结论单推，仅存源/参数/身份/SHA。
 - 完整交接链见[最新压缩前H](notes/2026-11-26-handoff-before-large-variance-true-f0-347c.md)及其旧归档。MD<100KB、H<10KB、open尽量<30KB、topic<200MB；不写根LOG。
@@ -21,7 +21,7 @@
 - **外均值ess4：** Cat(y)=3、dimW4、y∉W，原length5保同L/ν/全jets。rankH3全闭；rankH4 proper单零长度2–5、孤立零点加unit4/2+2均闭，所有边界及∞见索引。
 - **[unit3+1孤立零点全空](results/R150-appendix-essential-four-unit-three-plus-one-isolated-zero-rank-four-branch-is-empty.md)：** 全边界与一般QQ395/1142结式闭合。rankH4孤立零点仅余unit211和unit1⁴；rankH5、V非零inner及ess5/6仍开。
 - **[unit211零配对/零基点mean全空](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-zero-base-mean-exclusion.md)：** p=q0、恰一零、pq≠0且bp+cq0均闭；QQ879/1020/1637与全部奇异/除因子纤维已付。余pq(bp+cq)≠0。
-- **[unit211等配对t0全空](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-equal-base-pairings-zero-singleton-pairing-exclusion.md)：** q1只余t≠0、l∉{0,½,1}；原S两mean面非零。旧QQ(l)F5b240秒无结论；新k=4βt/l使c0对t线性，继续QQ消元。
+- **[unit211相等非零配对整个分支已空](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-equal-base-pairings-complete-exclusion.md)：** q1全部l/t闭合；新k=4βt/l消元，原S/Λ0的QQ结式只余5l²−4l+1，72×80/秩70原乘子身份迫k0矛盾。自含新源19.744046秒/exit0；旧边界不重跑。只续q≠0,1及非零基点mean。
 - **[unit211相反配对全部奇异mean图已空](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-opposite-base-pairings-singular-mean-charts-exclusion.md)：** q−1的b=c、l0/½、D1D2=0全闭；两QQ结式75/115及54/89、所有零除数和共轭纤维均付。余u=b−c≠0、l∉{0,½}、D1D2≠0的一般图。
 - **[非零rankV1全临界层](results/R150-appendix-rank-one-third-cumulant-complete-critical-classification.md)：** 恰y=a u、H=(a³+4c)u²/(6a)、V=c u³，ac≠0，T3零；全除子/∞已闭，潜在非零Bell只余rankV≥2和ess≥4。
 - **rankV2已闭范围：** [全部内均值](results/R150-appendix-rank-two-third-cumulant-all-inside-mean-complete-classification.md)只有两原子族和0/2/−6/∞的物理值均值二jet族，完整T3=0；不预设H支撑。[所有rankH≤1](results/R150-appendix-rank-two-third-cumulant-rank-at-most-one-second-cumulant-essential-bound.md)又迫essT3≤3，原matched Bell全零，含任意y及∞。潜在非零Bell只余y∉RanV、rankH≥2、ess≥4。

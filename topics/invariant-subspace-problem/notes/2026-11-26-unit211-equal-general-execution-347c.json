@@ -1,0 +1,193 @@
+{
+  "elapsedSeconds": 19.744046,
+  "finalCertificate": {
+    "augmentedRank": 70,
+    "columns": 80,
+    "identityRemainder": "0",
+    "multiplierDegreeInKV": 3,
+    "multiplierDegreeInL": 1,
+    "multiplierSha256": "81f5bdb609e64b3a733a08f611e9d03632eed779e8767baee001c2ea7dc834ad",
+    "rows": 72,
+    "target": "k"
+  },
+  "finalFiber": "5*l^2-4*l+1=0",
+  "kResultantBidegrees": [
+    [
+      16,
+      38
+    ],
+    [
+      16,
+      34
+    ],
+    [
+      16,
+      40
+    ],
+    [
+      16,
+      42
+    ]
+  ],
+  "kResultantNonzeroUnits": [
+    [
+      [
+        "l",
+        4
+      ],
+      [
+        "2*l - 1",
+        7
+      ],
+      [
+        "l - 1",
+        8
+      ]
+    ],
+    [
+      [
+        "l",
+        4
+      ],
+      [
+        "l - 1",
+        4
+      ],
+      [
+        "2*l - 1",
+        6
+      ]
+    ],
+    [
+      [
+        "l - 1",
+        6
+      ],
+      [
+        "2*l - 1",
+        6
+      ],
+      [
+        "l",
+        8
+      ]
+    ],
+    [
+      [
+        "l",
+        4
+      ],
+      [
+        "l - 1",
+        4
+      ],
+      [
+        "2*l - 1",
+        5
+      ]
+    ]
+  ],
+  "lResultantLedger": [
+    {
+      "lResultantDegrees": [
+        88,
+        88,
+        106
+      ],
+      "monicGcd": "l^28 - 54/5*l^27 + 266/5*l^26 - 158*l^25 + 315*l^24 - 444*l^23 + 2268/5*l^22 - 1692/5*l^21 + 183*l^20 - 70*l^19 + 18*l^18 - 14/5*l^17 + 1/5*l^16",
+      "partBidegree": [
+        2,
+        3
+      ],
+      "partMultiplicity": 1
+    },
+    {
+      "lResultantDegrees": [
+        309,
+        315,
+        405
+      ],
+      "monicGcd": "l^122 - 179/5*l^121 + 12489/20*l^120 - 14143/2*l^119 + 467609/8*l^118 - 3007197/8*l^117 + 313244581/160*l^116 - 169746993/20*l^115 + 7997311629/256*l^114 - 25367122847/256*l^113 + 280582043465/1024*l^112 - 341281678341/512*l^111 + 1436969524*l^110 - 1413855953707/512*l^109 + 1216824777639/256*l^108 - 3766765855417/512*l^107 + 6573779240823/640*l^106 - 33199335913923/2560*l^105 + 1898989517205/128*l^104 - 7885163384865/512*l^103 + 929380107825/64*l^102 - 6371708516127/512*l^101 + 2481856025859/256*l^100 - 3514300810965/512*l^99 + 282481193925/64*l^98 - 1318472200647/512*l^97 + 3484413838773/2560*l^96 - 1665128427067/2560*l^95 + 8970088223/32*l^94 - 55602302001/512*l^93 + 9644253509/256*l^92 - 29813168551/2560*l^91 + 2041017381/640*l^90 - 393201653/512*l^89 + 5156919/32*l^88 - 14914395/512*l^87 + 285977/64*l^86 - 291973/512*l^85 + 15081/256*l^84 - 2423/512*l^83 + 71/256*l^82 - 27/2560*l^81 + 1/5120*l^80",
+      "partBidegree": [
+        10,
+        12
+      ],
+      "partMultiplicity": 1
+    },
+    {
+      "lResultantDegrees": [
+        59,
+        59,
+        79
+      ],
+      "monicGcd": "l^20 - 2*l^19 + 3/2*l^18 - 1/2*l^17 + 1/16*l^16",
+      "partBidegree": [
+        2,
+        2
+      ],
+      "partMultiplicity": 2
+    }
+  ],
+  "ordinaryISPClaim": false,
+  "originalNumeratorLedger": [
+    {
+      "denominator": "8*beta*t",
+      "equation": 0,
+      "nonzeroNumeratorFactors": [],
+      "rationalUnit": "-1"
+    },
+    {
+      "denominator": "64*beta**2*t**2",
+      "equation": 1,
+      "nonzeroNumeratorFactors": [
+        [
+          "l",
+          1
+        ]
+      ],
+      "rationalUnit": "-1"
+    },
+    {
+      "denominator": "32",
+      "equation": 2,
+      "nonzeroNumeratorFactors": [
+        [
+          "2*l - 1",
+          1
+        ]
+      ],
+      "rationalUnit": "-3"
+    },
+    {
+      "denominator": "64*beta*l*t",
+      "equation": 3,
+      "nonzeroNumeratorFactors": [],
+      "rationalUnit": "-1"
+    }
+  ],
+  "peakRssKiB": 78596,
+  "reducedDenominators": [
+    "k*(l - 1)*(2*l - 1)",
+    "(l - 1)**2*(2*l - 1)",
+    "(l - 1)*(2*l - 1)"
+  ],
+  "schema": "r150-unit211-equal-general-20261126-v1",
+  "scope": "p=q=1,bc*t*l*(l-1)*(2*l-1) nonzero; all remaining equal-base points excluded",
+  "sourceSha256": "cc7b22bbbb720e2fd19378ceb18618784175c783ac77a4c7a053e195050e4422",
+  "status": "all_original_QQ_checks_and_final_identity_pass",
+  "exitCode": 0,
+  "executionCommand": "PYTHONPATH=/tmp/isp-347c05929dd3/deps python 2026-11-26-unit211-equal-general-347c.py",
+  "pythonVersion": "3.12.14",
+  "sympyVersion": "1.14.0",
+  "pythonFlintVersion": "0.9.0",
+  "executionDateUTC": "2026-11-26",
+  "executionOwner": "Astra-ISP-347c-20261126",
+  "stdoutSha256": "fccbef76786524454d23b94b88d247b4dd69373a2a43e2309bd30045f470e872",
+  "priorReceiptFormattingAttempt": {
+    "exitCode": 1,
+    "sourceSha256": "f74986832760e4a8f48941e6aea21ca8b0441a4abc84d9592c4a024cecd583f3",
+    "outputSha256": "69b5597b05631d4f356161452f2e9de818ed5cd101c73d62ec8e0fe993db8665",
+    "failure": "Final JSON serialization of a python-flint fmpz value; all preceding mathematical assertions reached the receipt step."
+  },
+  "storedArrays": false
+}

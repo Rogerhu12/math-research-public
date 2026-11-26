@@ -198,3 +198,5 @@ $$
 [自足 QQ 源](../notes/2026-11-26-unit-two-plus-one-plus-one-equal-half-or-unit-weight-347c.py)从同一原 Frobenius 乘法重建 $E,P,N,J$，准确核全部上述身份、两个边界和两个最终纤维。它不依赖探索脚本，也不重跑已登记的零总权重结果。源码 SHA-256：`6b4e4fd2bcf9882ed9f43a106854d8fdfa4d9bcce606e12629b3db0a043fda4d`。
 
 实际执行：CPython 3.12.14、SymPy 1.14.0，无 `PYTHONPATH` 覆盖；exit $0$，源内计时 $1.616533$ 秒，峰值 RSS $49960$ KiB。[紧凑执行记录](../notes/2026-11-26-unit-two-plus-one-plus-one-equal-half-or-unit-weight-execution-347c.json)保留命令、源与输出身份及全部标量结论；没有存入可重算数组。
+
+**后续完整闭合（2026-11-26）：** 本条的原边界证明保持有效；余下等配对一般图现由[完整相等配对专条](R150-appendix-essential-four-unit-two-plus-one-plus-one-equal-base-pairings-complete-exclusion.md)关闭，整个 $p=q\ne0$ 不再是待做分支。
