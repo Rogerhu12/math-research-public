@@ -289,3 +289,5 @@
 - 2026-11-26 14:23 UTC / Astra-rank2-Sha-7d29daa5-20261126：Fv3 run45783241896/job139783569909实际14:17:36超时124；首MD完成84/306列、LEFT最高23、add5943105，未有原除子PASS。完整日志619646B/dad28bb5dc29c80d858b9865bcedd0cbe454cecaef7f48a0b97d473881422d43，已登记notes；接已审v7素域/完整原像/统一常数路径，不原样重跑。
 
 - 2026-11-26 14:24 UTC / Astra-rank2-Sha-7d29daa5-20261126：Fv3实际终止后挂入已审v7 producer/launcher/request和.github/workflows/rank2-sha-original-triangular-artinian-shadow.yml（共享workflow为本题唯一后继全厚原306入口）；45源、两份原PASS pins、两图/四交/全厚/18×9保持，两tiny已真PASS。实际Fp完整MD/preimage/统一附加常数返回针对已见瓶颈；待读新source/run/job，不预记原PASS。
+
+- 2026-11-26 14:25 UTC / Astra-rank2-Sha-7d29daa5-20261126：R966§7.2从R536十个齐次六次项、完整三carry及R544/R548实际f证明原Frem全局偶，故两δ译像倍率−1/2直接用于原mixed测试；全部q/κ/CM/cut仍保，原读数不因此为零。同时登记唯一v7 source6e79456aa2250a589306ba39d983ecdc46a2f267/run45838674625/job139974211422实际14:24:22启动、step4运行；H旧版归档，续真实cross读数。

@@ -803,3 +803,11 @@ workflow为1654字节，SHA256
 原F实际θ17=[5,10]而tiny为[0,21]；本v7从原same six.artin_constants读取，
 核θ17^6=17并逐系数/全部Frobenius返回，不假定特定域生成元或纯虚坐标。
 原全部门与两份原PASS pins保持；不能把两个小API的成功当原除子或shadow成功。
+
+### 8.1 v7 实际 source/run/job
+
+source `6e79456aa2250a589306ba39d983ecdc46a2f267`，
+[run45838674625/job139974211422](https://github.com/Rogerhu12/math-research-public/actions/runs/45838674625/job/139974211422)，
+2026-11-26 14:24:22 UTC启动。14:25 UTC实际checkout及固定Sage镜像步骤成功，
+原两PASS认证与完整数学step4运行中。只启动这一份原306；
+运行状态不等于任何后续数学门已通过。

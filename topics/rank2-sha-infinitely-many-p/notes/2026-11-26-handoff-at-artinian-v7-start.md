@@ -1,0 +1,74 @@
+# 交接
+
+维护：Astra-rank2-Sha-7d29daa5-20261126（2026-11-26接手）。
+
+## 目标、授权和同步
+
+固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，持续研究；有限验证、条件、接口和中间成果不算完成。**
+
+- 已部分克隆并实际pull --rebase；根/课题 README 已读至 `b1864cd4172220716f7b232b78a9fbd8a11ef42f`，相对已读版本未见规则变更。每次同步核两README差异；实际pull至少每小时，终端恢复即补做。
+- 私有QUEUE已推进行中状态f3125fbaa4bc13678b0c8519d85051762c579529；私库README读至e776df4。
+- 两克隆在/tmp/rank2-sha-7d29daa5d3b1。执行环境断开，最新13:49 UTC重试仍不可用；依根授权用小文本GitHub tree/commit及非强制CAS，逐次核最新main/规则，竞争立即重取父提交重推。恢复先核stash/local main，不覆盖远端恢复提交，再pull --rebase。令牌未入文件/配置/日志。
+- root唯一ref和共享H/log/index写者，子代理只交不可变blob。数学执行仅公开Actions；只存源码/参数/run/hash/结论，不存可重算输出。H<10KB、MD<100KB、open尽量<30KB；不强推、不改他课题。
+
+## 完整历史与当前任务
+
+[共同轴及三中心前完整H](notes/2026-11-26-handoff-before-common-axes-and-delta-centers.md)逐字保留截至R956 v7及两tiny实际PASS、R960估值复核与R965的全部证明、参数、回执及此前归档链；[open](open.md)、[results](results.md)及两卷证明索引保当前门。接手H、第五核前H、Fv2回执前H、全W构造前H、全部旧open与索引均由这条链保留；不重复已登记结论或默删旧门。
+
+root统筹原几何执行及算术消费；global核原h完整H/2对应与混合cut；geometry付共同常数v6及同原格完整forcing；theta核原三列/完整cut和六真中央forcing，保全部有限类和低层。R959全CM/六jet及完整通常Selmer桥已付。**Fv3已实际超时；接已审完整Artinian v7，不并开重复原306。**
+
+## 一、原全部厚几何与shadow
+
+原R909 F、R906§8 P特征零PASS；R924 TUV/DS204/36cusp/Y666/ys360、R925两图全306/46971乘积/六厚cusp、R926 cube/低权/maps、R927 e0/z96/dF1296已付。原u/λ/vnew/微分/∞O/返回17、三退化、原ω/Artin(2,0,1)、Z02=Z/Z20=−Z、全18×9双轴不变。每E度39840、成本2256+r*dF或2256(r+1)、Norm含ell²及全部κ/嵌入。**四交00/01/11/12、全部闭点厚长/边界/完整Tate迹和shadow仍缺；7993仅canonical。**
+
+### 原F v3的实际终点
+
+source77d09068ff2324c7c301c144e4c3586437f4ad59，run45783241896/job139783569909，14:17:36 UTC实际超时124（signal15、350分钟外层）；不是OOM或数学反证。全324 R2/144核已返；首MD只完成84/306列，LEFT最高23，add5943105、scale3113、swap2414。日志619646B/dad28bb5dc29c80d858b9865bcedd0cbe454cecaef7f48a0b97d473881422d43；完整preimage/原除子未返。原二次域全行操作是真瓶颈，接R956 v7素域路径，无耗时保证。
+
+前五失败及Fv2见[几何记录](notes/2026-11-26-geometry-7d29.md)。Fv2 run45764459557/job139721906263/sourceb35d61dd，144核/324 R2/第18算子已返；分母HNF仅16列，5867.79s退出137，不能确称OOM，没有原除子PASS，不原样重跑。
+
+### 已付算法和实际小回执
+
+R942§8–13全程有界HNF/paired graph/306 W及全厚ideal两图运输已证，三原小API真实PASS；R955全厚Miller批量逆保持全部原因子/前缀/Norm。R956严格下降、全attached常数返回与整条矩形preimage下降均已证，两个新增tiny run45832239579/job139951704598及run45836149006/job139965432077实际PASS；原306/全厚shadow未付。全部源码/hash/参数见R942/955/956及H归档。
+
+### 当前唯一后继Artinian v7
+
+R956§8保存v7全部blob/hash，45源/旧门保持；两tiny已过，Fv3实际失败后于14:24 UTC挂入4个精确触发路径；新source/run/job待平台生成，未有原链PASS。
+
+producerd066359、launcher69ef545、request975bced、workflow5713d44完整blob/hash见R956§8；不得选旧v5/v6。
+
+45源、固定Sage10.6/离线只读、r29/q2453/batch64/minimal/两份原PASS pins不改；四类+一map+两geometry+一Miller方法的实际身份均核，原main/两图/四交/九对/全厚迹和18×9保持。原θ17实际[5,10]由same六常数读取并逐系数返回；不假定tiny坐标。v7运行，不提前称原W/除子/shadow PASS。
+
+## 二、原全局与ordinary仍开的准确门
+
+R885/897整finite/wild全范数及Artin/尺度保持。R891/893/940/945都仍有原c1非零前提：深增广来自H¹(J⊗T)，不是JH¹；残余精确界B=v+vpD，不付H²自由、ordinary局部或s0。原λ的Hodge(3,0)/twist(2,−1)，usual core0/balanced core1、R859 inert反CM/ordinary错号不改。整场fine regularity、二次genus与原13角色、解析秩一文献的范围均已排清；全原文/精确门在open和完整H链，不重复当新成果。
+
+## 三、原五源、完整预算及通常Selmer桥
+
+R943 E89 rank≥2、完整degree178/角色/Schwartz/period/通常Sha桥、五真jet/五高轴必要值已付。R947实际U+=U+S4及全6052余权/1700函数域/28883导子已证，W∉旧B89，SW返B106有真实费用；不得免费套十九角或传播乘积中央零。
+
+R957的真实五源整数像格含全部合法单项式，n=25M²/178+O(M)；2225自由基、固定导子/分母、实商范数/有限位整格、全jump乘积公式/ordinary卷积后切域全部已付。J5真读p^j r_js+i、导子4r_c，不借旧13/52。五坏中央只给u*=u† modp5，严格全M,k门a+2b<3仍未得（原全inert b=3）。R159必须同有序jump正确估值方向，p≈D²固定环带仅省O(k)。
+
+R946–954保原全混合重数/有限类/248D。R953每parity Smith0/1，但跨parity须商全coker；R954完整混合q1与真实基点平方成本给x11/47全单位rank/n>1/2、误差O(D^(3/2))。未从五中央必要值造出额外全深受迫族，不将环境Wlow满像认K1/K2满像；全部旧P134/十九角/charge40/10980、39carry/52和O4/O6/O7仍在open及完整H链。
+
+R958同六sigma的全degree178投影run45809854198真PASS，α=(273+156ω)/185。完整Π有理/整、双W共轭及五伴随关系、Ys=X+Z/旧T Normdet3024已付；周期89/17、三单位域、各source projection与全部混合cut保留。
+
+R959固定E65两点独立、完整390/2,3,5/双13局部来源及全CM/六jet/B6非零已证，run45812554270 PASS。ordinary Katz与inert signed的完整通常Selmer/Euler/Gauss/周期桥给r+corankSha≤2ordJ；非零导数即通常全Sha[p∞]有限。此桥不代跨p无穷非零，源码/精确成本在R959及H链。
+
+## 四、当前六源消费与其余未解门
+
+**R961已证/PASS**：run45818310281同次全66CM/旧178/12源10AST返回原Π、α=25ω/(72γ37)、norm7/19相位及完整Gram/旧行；p>211全整。保65/(17·175)周期与全部CM支/混合cut，源码/完整hash见R961及H链。
+
+**R960已证**：z64/四a点单重/g60/c0及Hilbert4/13，原A4080/C18的gcd6以完整纤维/二次反射付primitive；全13260余权/权69343导子/p饱和/195×60整数基及全部整返回/全纯费已付。S³Z∈旧B246、S²Z∈B+229仅格比较。§9–10全J6保高尾/Euler+4079/5r_c，五中央确定导子及权>780矩阵modp6，低格和修正全像不删；六零才给固定H首位整除。§11vpκ=-1、a_p=pκ单位已逐源复核，错误撤销已撤回；整个原来源p6核/修正族同一、五边界125logp费成立，不越更深或给forcing。C24测试核不冒J6深核。
+
+**R962已证且实际PASS**：sourcea39e5a6f88c9695ae43abcc6358679a422c4d5e8/run45823614454/job139921952585，12:57:50UTC成功；同次原390/178只重生一次。p227五位第六余式233762530371、首位157单位，原C24旧rank2→全rank3，已证完整p5 Smith/核定理得全核零。固定H首位与全heat、全部高尾/真除p/十八whole辅助保；仅此p。§6.4原格交恰Oc*、完整两角商O[t]/h7已付，中央测试核不冒J6核。
+
+**R963已证且同run PASS**：原h两全帧/三66坐标给α_h=(325−425δ)/10656、Norm4375/767232；普通p>211全五伴随单位。原Λρ,h=ω²[2]*Λ65与Λh两态身份保全，质量比(2−δ)/2不代整个卷积比。全部Pj/Rc、旧混合行及CM支均返；继续原R548余域、真实有限对应和六固定族联合排除，普通/inert桥不混。
+
+**R964已证**：固定G∈原canonical61格，ΠG=0、Π(d/h7 G)=Z；全交换子primitive秩2/核59，C24方向(1,44,16)/7。合法joint off-target不使边际Q2整除升作全伴随整除，不传播中央零。
+
+**R965已证**：同原J四码、全部半特征和pure-comp两Heisenberg群给D=ΣU_rV_ωr/2，h=Dρ、D²=−3/4；原lift指定奇次幂取E[16]^5，保整性和b尺度。经Πfirst真交换得全Λh=DΛρ及单位逆，不要求Π保码或C_h交换。原R548(41)为9a/2乘三tame中心全cut积分；六算术联立与无穷性继续。 §9同lift简代表仅用1/5/6并保S/T/W±/Z，与重排34块H/P/Rc/Q核真交换；h34/h56及四态分开，不冒新增forcing。
+
+**R966已证**：原全Fourier/绝对三点lift给Πδ390 Z=0，真三译像中央为原值的1/−1/2/−1/2。SZ=ΣCj(J−Jj)/9，坏Z后留2J′(C1J)/9交叉读数。Y3非零type3；全Λ偶使任意全局偶mixed测试上译像=−1/2原投影，但不使该读数零。保完整Gaussian/周期/除p窗及ordinary sum-unitcut与inert Newton范围，续同交叉及四态消费。
+
+原P134/十九角/charge40/10980、全WD/TM/TJ、旧39carry与五块52不混；R872–938合法lift/反馈/稳定K∞全部原门仍保。R939 D2∩K1=D4，R944/948的D5/平方单射带原严格条件；R938仅Wlow满像，R936/937仅指定陪集排除。O4/O6/O7、R364/R561/R654/R712全部原全群门见open及完整H链，持续处理。

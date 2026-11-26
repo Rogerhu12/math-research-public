@@ -594,6 +594,66 @@ torsion 来源都允许 (41)。若再施加 $\mathcal P_{65}$，其偶性
 (40) 给原 mixed 读数的准确共同倍率，没有消去该读数本身，
 也不删除 (33) 的交叉乘积。
 
+
+### 7.2 原指定 carry 测试已经全局偶
+
+本节只用 R536、R544、R548 的原测试，不改其系数或域。
+此处的普通参数始终是
+$\lambda=-\bar\pi_0^{-1},\ \kappa=p\lambda^2$；
+它与惰性 Gaussian 的同名参数不同。
+
+R536(7)–(8) 的十个 $\phi_j$ 及 $\phi_*=-C^6/8$ 都是原六输入
+的齐次六次多项式。该文 (10) 的线性换元不改次数，
+(11) 的 $\mathcal R_p$ 只对每个 $E$ 次数乘以准确系数
+$(1+\lambda\kappa^j)^{-1}$，所以整个 $\mathcal R_pP_p$ 仍齐次六次。
+原 (24) 选择的实际系数 $x_p$ 依赖 $\lambda,\kappa$，但不依赖
+被反射的六个积分变量。因此 (25) 及 (40)–(43) 中
+$
+ q_{n,p}^{(j)}
+ =\frac1{b\Omega^6}
+   (\mathcal R_pP_p)(D_j/\kappa^n,E_j,G)
+$
+在所有六输入同时取负时不变。
+每个 $\Gamma_{n,j}=\{C,F\ {\rm unit},D_j\in p^n\}$ 也在同一
+反射下稳定，因为显示的三个观察都是线性形式。
+保完整三分支及其 $1/3$ 后，准确得到
+$
+ \boxed{\mathfrak q_{n,p}(-\xi)=\mathfrak q_{n,p}(\xi).}
+\tag{42}
+$
+
+R544(22)，等价的 R548(37)，使用这个同一个
+$q=\mathfrak q_{n,p}$：
+$
+ f=1_{L_{\rm mix}\ {\rm unit}}q
+  \bigl(1_{Y_s\ {\rm unit}}d\log\langle Y_s\rangle
+        -1_{W\ {\rm unit}}d\log\langle W\rangle\bigr).
+$
+三个 unit 条件在取负下不变；原 principal 权满足
+$\langle-x\rangle=\langle x\rangle$。
+故 $f(-\xi)=f(\xi)$ 是原完整测试的恒等式。
+所有实际 $R_c,P_1,L_h^{-1}$ 都是线性映射，于是 R548(41) 与
+R965(33) 的指定剩余测试已经满足
+$
+ \boxed{
+ F_{\rm rem}
+ =\bigl((f-f\circ R_c)\circ P_1\bigr)\circ L_h^{-1},
+ \qquad F_{\rm rem}(-Y,-\mathbf Z)=F_{\rm rem}(Y,\mathbf Z).}
+\tag{43}
+$
+全部 $\kappa^{-n}$、$q$ 系数、cubic carry、unit/deep 条件和
+logarithm 都保持原值；没有只偶化一个局部因子。
+
+所以 (40) 可以直接应用于 (43) 及 §7.1 所列完整已投影来源，
+无需先修改测试。仍只得到两个 $\delta$ 中心的准确倍率
+$-1/2$；原 $(\mathcal P_{65}\Phi)(F_{\rm rem})$ 本身是否为零
+须由同一实际四态、全部 CM 分支和其余算术行继续支付。
+
+本节的原编号依据：
+[R536(7)–(11),(24)–(25),(40)–(43)](R536-exact-fibre-mass-compensation-and-invariant-cubic-carry.md)；
+[R544(22)](R544-original-s3-and-exact-mixed-unit-complement.md)；
+[R548(37),(41)](R548-original-whole-third-source-cm-reflection-and-complete-positive-spectrum.md)。
+
 ## 已付输入与剩余实际门
 
 本篇已付原 E65 的标准三点 new 性、完整 Gaussian/lift 比较、
