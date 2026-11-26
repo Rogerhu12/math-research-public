@@ -6,7 +6,7 @@
 
 ## 1. 规则与接手
 
-已部分克隆并实际 `git pull main`，公开根 README、课题 README、HANDOFF、open、results 索引及相关 log/notes 已读。公开已读提交 **65dc1facf72f2b7352b412ea5eb0dd98a5b54045**（2026-11-26 13:07 UTC；本次实际pull后根/题README空差异）；历次规则及失败原回执保原note；私有 QUEUE 的本题已改为本会话进行中并成功推送：**9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7**；最后实际pull及规则同blob读至 **df005946de0f0f9cb5070c1aaddca788fdfb9644**（2026-11-26 12:50–12:53 UTC；实际pull成功，根README空差异、QUEUE仍本会话）。其它课题的并行认领保留。
+已部分克隆并实际 `git pull main`，公开根 README、课题 README、HANDOFF、open、results 索引及相关 log/notes 已读。公开已读提交 **902b6001a64ab1b2f611e94eb96c991ce6418881**（2026-11-26 13:08 UTC；本次实际pull后根/题README空差异）；历次规则及失败原回执保原note；私有 QUEUE 的本题已改为本会话进行中并成功推送：**9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7**；最后实际pull及规则同blob读至 **df005946de0f0f9cb5070c1aaddca788fdfb9644**（2026-11-26 12:50–12:53 UTC；实际pull成功，根README空差异、QUEUE仍本会话）。其它课题的并行认领保留。
 
 [八模前交接](notes/HANDOFF-before-eight-mode-natural-final-20261126.md)及其所链前史保全部原规则/成本/范围；09:18及11:20 UTC两次本地失联期间仅API保存，不冒actualpull。09:33、11:28恢复后已实际双pull。每pull核根/题README差异并执行，至少每小时；root独占git/索引，每条结论即推，NFF立即rebase重推。科学仅公开Actions，本地限纸证/源码/原日志解析；已披露3次开发偏离保原note且停止。根12不加机械复跑，根15不留可重算raw。
 
@@ -20,9 +20,9 @@
 
 [R580](results/R580-finite-tail-polynomial-kernel-obstruction-and-resonant-seed-interface.md)仅排旧有限多项式；[R582](results/R582-actual-circular-tail-flat-kernel-and-resonant-entry.md)付真无限尾；[R592](results/R592-undivided-finite-order-crossing-and-exact-angular-bound.md)保真实遇zs零时的穿越，不造当前零点。
 
-[true-s原终态](notes/2026-11-26-r582-true-core-shooting-original-terminal-receipt.md)run45812850055/job139884885837付31.672817549科学秒，0旧seed/LS。μ−.040019082162222074、ν−.048942275258064924，C/A两精度2.9854e−15/7.7913e−13；4811细几何V0、κ16.42911578。原ν0±.001盒/全s的71区间付zs>.00785181746；实际H包络宽1.817e−6保真，未冒请求1e−6。归一场二jet峰28.8894；amax.3891>.38核心且尾到.22，下一保完整s参数图作有限非圆，不强套全r图。数值ODE/无限尾口误差及准确根仍未认证；旧全部口/LS费用保原note。[有限非圆包](notes/2026-11-26-r582-finite-resonant-continuation-implementation.md)已发布commit d1e1da311并交实际run：同口新dense场以共同C² quintic表示，数值零尾误差明记；p从.181固定续到.8，保原4811细观察与完整硬几何，终η门1e−7。
+[true-s原终态](notes/2026-11-26-r582-true-core-shooting-original-terminal-receipt.md)保run45812850055新31.672817549秒/0旧seed，真实μν和已付归一口；C/A两精度<1e−12、4811细几何V0。原ν0盒/全s∈[.036,.82]付zs>.0078518；H包络宽1.817e−6，ODE/准确根未认证。amax.3891>.38故保全s图。[有限非圆包](notes/2026-11-26-r582-finite-resonant-continuation-implementation.md)commit d1e1da311已交run：共同C² quintic、数值零尾误差明记；p=.181固定续到.8，保4811细点/硬几何，终η门1e−7。
 
-[R577](results/R577-intrinsic-geodesic-normal-chord-and-complete-reach-certificate.md)的完整reach门和[R579](results/R579-smooth-thick-rounded-core-with-exact-perimeter-and-macro-budget.md)厚核心预算均保原证明；当前连接/跨片/全对仍未付，有限FFT/曲率不替代。[R595](results/R595-rotational-reach-and-complete-meridian-reduction.md)付旋转像reach等于完整±子午截线、全角法弦只须同方位/对径两端；轴与镜像全含，不除a_s/z_s。当前静态背景尚未实际全对验证，非圆面不继承此化简。
+[R577](results/R577-intrinsic-geodesic-normal-chord-and-complete-reach-certificate.md)/[R579](results/R579-smooth-thick-rounded-core-with-exact-perimeter-and-macro-budget.md)保全reach门/厚核心预算；[R595](results/R595-rotational-reach-and-complete-meridian-reduction.md)付完整±子午化简。[R599](results/R599-monotone-height-flat-cap-global-reach.md)新证：整个侧面a=a(z)≥rc≥τ、两平帽C²、全连续子午曲率≤1/τ时全旋转闭面reach≥τ；两侧/两帽/帽内部全切圆已排。当前实际背景仍欠全尾zs正、全a下界与连续曲率认证；非圆候选不继承。
 
 ## 4. 真实平坦核到有限非线性
 
