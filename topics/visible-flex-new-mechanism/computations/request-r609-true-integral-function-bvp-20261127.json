@@ -1,0 +1,128 @@
+{
+  "schema": "r609-actual-integral-function-bvp-20261127-v1",
+  "repository": "Rogerhu12/math-research-public",
+  "queue_session": "Astra-new-mechanism-1f4a61a4-20261127",
+  "public_rules_read_commit": "a0baf078d83c4defba4be05475b39f077e09f02b",
+  "private_rules_read_commit": "41fe885610073f478b2f5a752461ca56cfd43f09",
+  "expected_readme_blobs": {
+    "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+    "topics/visible-flex-new-mechanism/README.md": "d0432faff569c8e9af7ed4809847e12880976c11"
+  },
+  "expected_private_readme_blobs": {
+    "README.md": "5ba164843b1f5802184178a82d786264404873a3"
+  },
+  "entry_point": "topics/visible-flex-new-mechanism/scripts/r609_true_integral_function_bvp_agent.py",
+  "workflow": ".github/workflows/visible-r609-true-integral-function-bvp-20261127.yml",
+  "proof_interfaces": [
+    "topics/visible-flex-new-mechanism/results/R584-centered-third-history-and-nineteen-state-full-ruling-bvp.md",
+    "topics/visible-flex-new-mechanism/results/R590-full-history-square-potential-and-c2-update.md",
+    "topics/visible-flex-new-mechanism/results/R598-three-rotations-wide-eighteen-block-mother.md",
+    "topics/visible-flex-new-mechanism/results/R609-true-integral-histories-and-kinetic-input.md"
+  ],
+  "implementation_note": "topics/visible-flex-new-mechanism/notes/2026-11-27-r609-true-integral-function-bvp-implementation-agent.md",
+  "runtime": {
+    "python": "3.12.14",
+    "packages": {
+      "numpy": "2.3.5",
+      "scipy": "1.17.0",
+      "sympy": "1.14.0",
+      "mpmath": "1.3.0"
+    },
+    "checkout_action": "11d5960a326750d5838078e36cf38b85af677262",
+    "setup_python_action": "a26af69be951a213d495a4c3e4e4022e16d87065"
+  },
+  "common_parameters": {
+    "modes": "9,13,17",
+    "panels": 8,
+    "quadrature_order": 16,
+    "mother_order": 192,
+    "gap_order": 8,
+    "seed_nfev": 240,
+    "iterations": 35,
+    "trials": 8,
+    "trust": 0.2,
+    "maximum_trust": 1.0,
+    "damping": 0.0001,
+    "end_tol": 1e-09,
+    "ruling_tol": 1e-07
+  },
+  "lanes": {
+    "true-integral-functions": {}
+  },
+  "scope": {
+    "previous_paid_run": 45850563705,
+    "previous_paid_job": 140015513011,
+    "previous_receipt": "topics/visible-flex-new-mechanism/notes/2026-11-26-r605-memory-hard-mass-first-public-receipt-agent.md",
+    "previous_raw_stdout_fetched_again": false,
+    "why_new_scope": "The old exact-boundary node solve had original flow .25009, ruling 8.9625e9 and true moment-history defect .18717. Replace independent history coordinates by the actual curve integrals proved in R609; do not extend that old solve.",
+    "same_actual_R598_mother": true,
+    "micro_half_width": "1/12000",
+    "actual_blocks": 18,
+    "micro_packets": 576,
+    "full_positive_potential_coefficient": 1,
+    "whole_negative_history_sign_retained": true,
+    "h_k_model": "h=1.9+tanh(sum a_j cos(j*pi*x)); k=1.95*tanh(sum b_j sin((2*j+1)*pi*x/2)); physical s=L*x.",
+    "explicit_new_five_mode_seed": {
+      "a": [
+        0.4,
+        -0.6,
+        -1.2,
+        0.0,
+        0.0
+      ],
+      "b": [
+        -2.0,
+        2.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "L": 4.5
+    },
+    "actual_function_modes": [
+      9,
+      13,
+      17
+    ],
+    "parameter_counts": [
+      21,
+      29,
+      37
+    ],
+    "true_history_definition": "eta integral from zero; all eight A integrate original M, four odd centers are negative total integrals; all six rho integrate the original C2 coefficients on both sides. No independent history nodes.",
+    "four_even_constraints": "R609 (9): p1/L, (8*t1+2*p1)/L, 8*H^2*r1/L, 4*H^2*s0/L. Exact invertible row transform, none omitted.",
+    "center_gauge": "zeta0 is R609 (17), with all H/v/Ac/a0 derivatives; only zeta1/zeta2 remain two globally constant controls.",
+    "jacobian": "Full forward parameter chain through shape jets, L, eta, eight true histories, dependent center, both coefficient evaluations, six rho, complete factored positive potential and all gauge pairings.",
+    "integration": "Eight panels, sixteen-point positive Gauss each, plus two observation endpoints. Same Legendre prefix integration operator for eta/A/rho; finite quadrature is not an exact integral certificate.",
+    "step": "Actual four-end SVD tangent direction with damped GN. Every trial restores only the actual curve through true endpoint integration; all end rows <=1e-9 and actual sampled box, plus strict complete-ruling RMS decrease, required for acceptance.",
+    "global_gauge": "One two-column global LS per actual curve. Same initial actual-ruling-based unit frozen across all mode and grid levels. No point-dependent gauges.",
+    "actual_scope_bounds": "Each function coefficient in [-6,6], physical L in [2.1,7.9], finite gauge coordinates <=1e6; sampled eta<.999 and gamma/upsilon<5.99. Only h/k bounds have continuous guarantees at this stage.",
+    "refinement": "At final same curve and L, same free gauges and same unit, rebuild all histories on 16x16+2 nodes. Dependent centers/zeta0 are recomputed by definition, no free-gauge refit. Print original residuals coarse and fine.",
+    "physical_readout": "Original same-curve frame/position, both collar edges, first variations, sampled focal cap/diameter and both pose conditions; original nu/nuhat, terminal sigma/Tproj and reanchored gauge. No continuous reach or finite-flex claim.",
+    "necessary_rebuilding": "Same R598 coefficient table and positive Gram must be regenerated because raw tables were not stored; costs counted. No old identity, derivative, quadrature comparison, guide or optimizer gate replay.",
+    "scientific_execution": "Public repository Actions only",
+    "local_checks": "Paper/source/AST/JSON/hash only; no numerical or symbolic execution.",
+    "stdout_only": true,
+    "raw_tables_states_artifacts_or_releases_saved": false,
+    "job_git_mutations": false,
+    "maximum_parallel_jobs": 1,
+    "job_timeout_minutes": 90,
+    "continuous_root_or_README_completion_claim": false
+  },
+  "source_sha256": {
+    "topics/visible-flex-new-mechanism/scripts/r530_c2_r578_evaluator_agent.py": "68a6ed1d747cb51520639003d560227a6acb859e0becab1af08de55aa2c5adc7",
+    "topics/visible-flex-new-mechanism/scripts/r530_compact_history_v2_agent.py": "2ca4b47c390d9e59c8e5f02866eba911dc2295e890ee403e151b56b44bd36659",
+    "topics/visible-flex-new-mechanism/scripts/r530_full_centered_nineteen_bvp_agent.py": "bfb4344260a2fc8f3df99a294a7af8c0823ff133f40758de31bb98b05b5d3373",
+    "topics/visible-flex-new-mechanism/scripts/r590_c2_history_positive_square_free_germs_agent.py": "f8ff39a75b0b8053d71ca6a69eb10fdef3560f36ea2e18da6955839686b97b4c",
+    "topics/visible-flex-new-mechanism/scripts/r590_c2_staged_trust_collocation_agent.py": "b24c5ed7e3871a92b0ee595f7fda284780f01a8cc657b6895169373e4fca0403",
+    "topics/visible-flex-new-mechanism/scripts/r598_wide_mother_prepared_mass_bvp_agent.py": "513290476ce4795e75b7d3802b2d94f906c55465cbaca59970eaf93b919146c0",
+    "topics/visible-flex-new-mechanism/scripts/run_inverse_rotational_metric_20261126.py": "a97334fb7004ce750c0c949469be2db21ca7a187e53b48032dba2f330cf5e8ae",
+    "topics/visible-flex-new-mechanism/scripts/r609_true_integral_function_bvp_agent.py": "5e0998002d0101b10529020dfe749e9516777511a2dc80a276867ad5cb1cf61c",
+    "topics/visible-flex-new-mechanism/results/R584-centered-third-history-and-nineteen-state-full-ruling-bvp.md": "955f99b1ab78757513550e1acef0b597b6af6796a57b812328b26f365b9e49e1",
+    "topics/visible-flex-new-mechanism/results/R590-full-history-square-potential-and-c2-update.md": "d1475aa2db6b90f3a637e0e678d5ea268925b0f2128687c91fb1b9ab4cfbe0ff",
+    "topics/visible-flex-new-mechanism/results/R598-three-rotations-wide-eighteen-block-mother.md": "1f1e81e1779be336a88b3df7880d53c30c9342c93efae403e0acec141051a1f1",
+    "topics/visible-flex-new-mechanism/results/R609-true-integral-histories-and-kinetic-input.md": "7a64230d572c90824332385b93dfdbce2ef90fc216d83c84b8a7d9565f2009d5",
+    "topics/visible-flex-new-mechanism/notes/2026-11-27-r609-true-integral-function-bvp-implementation-agent.md": "3265e0b228afc5cd4c20575c0b8b30e6f6fa30ea44a7d8ee79aadb64d1f1d75a",
+    ".github/workflows/visible-r609-true-integral-function-bvp-20261127.yml": "3ae5c42910a22a8f0d85f0985b430f62f34bc54ea29bfdcb697600b7ade454ab"
+  }
+}

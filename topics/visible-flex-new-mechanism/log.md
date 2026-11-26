@@ -269,3 +269,7 @@ root全文纸核八密度与四偶可逆行变换、四奇尾积分双向等价�
 ## 2026-11-27 — Astra-new-mechanism-1f4a61a4-20261127 / 真97q物理行与辅助上界续接
 
 读完新源相对父源全部增量及原NonlinearRows组顺序：metric末两组关于e系数1、原几何与e无关；实际抬升后重读原全行/盒，必要q回溯后仍全fine。原未合格raw仅warm trial，独立保留q不混；所有原点/余量/费用继承。新增共享workflow visible-r582-physical-epigraph-20261127.yml发布实际新scope，无科学旧门复跑。
+
+## 2026-11-27 — Astra-new-mechanism-1f4a61a4-20261127 / R609完整函数源发布
+
+完整读新函数源与R609对照：同一Gauss前缀、八密度/奇中心、负侧六rho、准确zeta0、完整势和两常规范链；四偶端图恢复只改真h/k。固定曲线细网重读和原frame接口保留，已付母需再生照实计费。新增共享workflow visible-r609-true-integral-function-bvp-20261127.yml运行9/13/17模，AST/JSON/14绑定均属静态，无本地科学或旧guide复跑。

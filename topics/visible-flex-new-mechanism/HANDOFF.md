@@ -5,7 +5,7 @@
 
 ## 1. 规则、授权与原始记录
 
-公开本次实际pull且根/题README已读至 **26fdefa01846d2b849efecbdd8f7f15a44c51c7f**；相对继承0749a4cc规则空差异。私库本次实际pull且根README已读至 **41fe885610073f478b2f5a752461ca56cfd43f09**；QUEUE认领推送 **09f8b8b54e7cfaabaa635bae5c438c7f1521289a**，状态本会话进行中。继承全文见[接手原件](notes/HANDOFF-inherited-20261127-1f4a61a4.md)。
+公开本次实际pull且根/题README已读至 **ff52df17b71ab3d8031857fba3005e688f2ef32d**；相对继承0749a4cc规则空差异。私库本次实际pull且根README已读至 **41fe885610073f478b2f5a752461ca56cfd43f09**；QUEUE认领推送 **09f8b8b54e7cfaabaa635bae5c438c7f1521289a**，状态本会话进行中。继承全文见[接手原件](notes/HANDOFF-inherited-20261127-1f4a61a4.md)。
 
 [本次压缩前全文](notes/HANDOFF-before-continuous-angular-bounds-20261126.md)及其所链[继承交接](notes/HANDOFF-inherited-20261116-1809.md)保全部结论、条件、旧失败、输入与费用；不因摘要删账。每次实际pull后查根/题README差异并执行，至少每小时；API读取不冒pull。root独占git和共享索引，每条结论即推，NFF立即pull --rebase再推至成功。
 
@@ -51,11 +51,11 @@ R584/R586/R589/R590保19态真历史、一次χ、正平方、负侧反号、偶
 
 [R605](results/R605-real-memory-coordinates-and-leading-energy-local-flow.md)付可逆R/θ/I记忆与内部正则首层流，仍欠全程返回。[精确BC原终态](notes/2026-11-26-r605-memory-hard-mass-first-public-receipt-agent.md)run45850563705/job140015513011，新348.104444742主秒/349.370370墙秒、50接受/84773LSMR；29BC误差8.267e−18，但原flow .25009/ruling8.9625e9、真M缺陷.18717/sigma2.223e12，未触129精化。末存储A零不是真矩返回，原自由中心已非prepared。
 
-真实密度恒等式8Δt1+2Δp1=∫(k²−1−(h_s/h)²)要求真共同返回时RMS(k)≥1；本guide原积分组合−5.23948未闭。下一以真实h/k及η/A/rho完整积分消去history自由，奇中心可按原端图回代；须付足全程k能量及全部剩余矩/原两ruling，不再延长旧硬BC节点scope。全部period、pose、宏观与reach仍欠。
+真共同返回必要RMS(k)≥1；旧guide组合−5.23948未闭。下一以真实h/k及η/A/rho完整积分消去history自由，奇中心可按原端图回代；须付足全程k能量及全部剩余矩/原两ruling，不再延长旧硬BC节点scope。全部period、pose、宏观与reach仍欠。
 
 [R607](results/R607-positive-prepared-center-leading-energy-layer.md)给真M/运动学的正四阶中心层：k‴=6、c∈(1/6,3/4)及同λ使B±−λm=O(s⁶)。有限阶相容不授退化中心到内部流或全程返回，继续实际质量式。
 
-[R609](results/R609-true-integral-histories-and-kinetic-input.md)已付真η/八A/六rho全积分消元、四奇中心尾积分和一个全程固定ζ0中心链，剩四偶端条件/两原ruling；明确新输入连续原盒合法且真实动能组合>4/25。下一9/13/17模真曲线求解，不借独立history或prepared附加条件。
+[R609](results/R609-true-integral-histories-and-kinetic-input.md)已付真η/八A/六rho全积分消元、四奇中心尾积分和一个全程固定ζ0中心链，剩四偶端条件/两原ruling；明确新输入连续原盒合法且真实动能组合>4/25。[9/13/17模真曲线完整源](notes/2026-11-27-r609-true-integral-function-bvp-implementation-agent.md)已备：同Gauss前缀积分/完整Jet链、四偶恢复、两常规范与全正势；不借独立history或prepared条件。
 
 ## 7. 全域几何与继续顺序
 
