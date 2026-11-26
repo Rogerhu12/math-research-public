@@ -886,3 +886,114 @@ p.9 两个 $f_{54}$ 的 $q^5$ 系数，p.10 Definition 4.2 的
 $e_1,\ldots,e_4$，以及 p.11 的 $\tau_3$ 作用。
 o2_high_coefficient 推导，root 重读原 Hecke/PD 身份及上述 primary，
 独核整个零主分量而非仅 $\ker Q$ 上的幂零证明；无数学程序执行。
+
+
+## 12. 原 Cartier 在 CM 点的共振读数与相邻两列
+
+先对两行共同的 $p=6N+5\ge41$，保持
+$$
+r=1-b^3,\quad \ell=2N+2,\quad d=\ell-1,\quad
+A=A_1bq(r),\quad A_1=A(1),\quad b(0)=q(0)=1.
+$$
+取 R1058 的规范有理函数 $\widehat J$，满足准确全局恒等式
+$$
+\widehat J-3r\widehat J'
+ =W_{\rm poly}-A_1^2r^\ell,\qquad
+W_{\rm poly}=\frac{(1-r)^{2\ell-2}}{q^2},
+\qquad \widehat J(0)=1.
+\tag{1063.55}
+$$
+全局不能把 $\widehat J$ 误写成齐次 period；
+准确地只有 $\widehat J=j/q\bmod r^\ell$。
+定义
+$$
+\widehat Z=-\frac{r}{3\widehat J^3},\qquad
+\sigma_{\rm CM}=\frac{(-3)^{-\ell}}{A_1^2}\in\mathbf F_p^\times.
+$$
+因此 $\widehat Z$ 与 R1052 的原 $Z=-r(q/j)^3/3$
+模 $r^{\ell+1}$ 一致，逆代换的次数不超过 $\ell$ 的系数也一致。
+下面第 $\ell$ 个系数不需要定义齐次 $j$ 在共振阶 $\ell$ 的系数。
+
+令 $a\in\mathbf F_p[b]/(A)$，$F_a=T_a/A$，
+保持 R1037/40 的外部系数固定 $a(b^p)$ 约定。
+R1058 的完整原来源为
+$$
+F_{Qa}\,db=\mathscr C_b(gF_a\,db),\qquad
+g=\frac{r^{2\ell-2}}{A^2}.
+$$
+由 $6\ell-2=2p$、$3\ell-2=p-1$，(1063.55) 给出准确有理微分恒等式
+$$
+\boxed{
+g\,db=
+\frac{(-3)^{2\ell-2}}{A_1^2}
+ \left(\frac{\widehat J^2}{b^2}\right)^p
+ \widehat Z^{2\ell-2}\,d\widehat Z
+-
+\left(\frac1{3b^2}\right)^p r^{p-1}\,dr.
+}
+\tag{1063.56}
+$$
+验证只需代入
+$$
+W_{\rm poly}=\frac{b^{2p-4}}{q^2},\qquad
+db=-\frac{dr}{3b^2},\qquad
+d\widehat Z=-\frac{\widehat J^{-4}}3
+   (W_{\rm poly}-A_1^2r^\ell)\,dr.
+$$
+第一项代入后的非齐次余项恰由第二项抵消；
+第二项正是原共振修正，不能省掉。
+
+乘 $F_a$，使用 Cartier 的 $p$ 次乘法性和可分换元自然性，
+在 $r=\widehat Z=0$ 取常数。
+第一项读到 $[\widehat Z^\ell]F_a(\widehat B(\widehat Z))$，
+因为 $(p-1)-(2\ell-2)=\ell$；
+第二项读到 $F_a(1)$。
+在零点 $db/dr=d\widehat Z/dr=-1/3$，故
+$$
+\boxed{
+F_{Qa}(1)=F_a(1)
+ +\sigma_{\rm CM}[Z^\ell]F_a(B_{\rm CM}(Z)).
+}
+\tag{1063.57}
+$$
+常数 $(-3)^{2\ell-2}=(-3)^{-\ell}$，因为两指数之差为 $p-1$。
+当前全部输入系数在 $\mathbf F_p$，Cartier 的 $p$ 次根没有额外标量；
+若改为一般 $k$ 系数，必须另保半线性，
+不能直接沿用 (1063.57) 的 $\mathbf F_p$ 写法。
+
+现在仅在§10原 $r=2$ bare 失败分支应用。
+令 $F_0=T_0/A$、$F_1=T_1/A$，$Qc_0=0$、$Qy_0=c_0$，写
+$$
+a_i=[Z^i]F_0(B_{\rm CM}(Z)),\qquad
+b_i=[Z^i]F_1(B_{\rm CM}(Z)).
+$$
+这两列及其规范前像均在 $\mathbf F_p$：
+$T_0$ 的原规范在 $\mathbf F_p$，
+$T_1$ 则由 (1063.46)–(1063.47) 的唯一递推取得。
+所以 (1063.57) 给
+$$
+a_0=-\sigma_{\rm CM}a_\ell,\qquad
+b_0-a_0=-\sigma_{\rm CM}b_\ell.
+\tag{1063.58}
+$$
+R1052/58 的原最低读数为 $C_0=a_d$、$C_1=b_d$。
+代入 (1063.49)，得到保全原前像的准确式
+$$
+\boxed{
+\mathcal C_{\rm adj}
+=3\kappa\sigma_{\rm CM}
+  (a_\ell b_d-a_d b_\ell).
+}
+\tag{1063.59}
+$$
+实际 $w$ 一次系数仍乘同一 $u_{\min}$；
+第一槽 $v_{\rm full}$ 的原 $\varepsilon$ 归一未改变。
+
+(1063.59) 把原端点差换成同一实际 CM 参数中相邻次数
+$d,\ell$ 的行列式，$T_1$ 的完整 Frobenius 余项仍保留。
+尚须证明该行列式非零；单列或单个 jet 非零不足以推出行列式非零。
+也未将 $p5$ 的参考核列扩成原 $r=8$ bare 范数身份。
+
+本节由 o2_high_coefficient 推导，root 独核规范 $\widehat J$ 的非齐次项、
+完整 Cartier 微分式的两个符号、$\mathbf F_p$ 半线性、
+共振安全界及原 adjugate 的行列式方向；无数学程序执行。

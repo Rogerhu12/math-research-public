@@ -18,7 +18,7 @@
 
 - **R1062（完整全局必要条件已证明）**：[R1062](results/R1062-original-full-nonsplit-cuspidal-kummer-descent.md)：完整 $X_{\rm ns}^+(p)$ 的无基点 cusp 归一化给全部有理点固定 $S=\{2,3,p\}$ 的有限 Kummer 标签，保全部 class-group 项；实际 Galois cusp 模至少含 $\lfloor p/4\rfloor-1$ 个一维 $p$-挠角色。辅助好素须比较同一标签与全部约化点。regular $p$ 时单独 $p$-local 比较满射，不能筛盘；全局标签浓缩仍开。
 
-- **R1063（实际整族与各向同性已证明）**：[R1063](results/R1063-original-Hecke-and-Hodge-graph-annihilator-family.md)：原完整 $v$ 的整奇次 $Q$/Hecke 族全消去 MW；轨道各向同性，不能满新部。§9由本原 $U:Y\to X$、满射 $U^\dagger$ 构造实际整 $V_\lambda=US_\lambda$ 因子及全部 split-Hecke 交换子解格的合法行，不除 bare 核范数。真整辛商为 $\Psi(x,y)=(U^\dagger x,y)$；最低读数是同一两列行列式，Lagrangian 满度及 jet 不落轨道仍开。 §10在原r2 bare失败分支给真实adjugate行、唯一Q前像递推及四配对；最低为完整两列行列式，非零仍开。 §11原零主分量的T5幂零，固定X108四维块T5²=9，故两者无非零Hecke相容线性子商桥。
+- **R1063（实际整族与各向同性已证明）**：[R1063](results/R1063-original-Hecke-and-Hodge-graph-annihilator-family.md)：原完整 $v$ 的整奇次 $Q$/Hecke 族全消去 MW；轨道各向同性，不能满新部。§9由本原 $U:Y\to X$、满射 $U^\dagger$ 构造实际整 $V_\lambda=US_\lambda$ 因子及全部 split-Hecke 交换子解格的合法行，不除 bare 核范数。真整辛商为 $\Psi(x,y)=(U^\dagger x,y)$；最低读数是同一两列行列式，Lagrangian 满度及 jet 不落轨道仍开。 §10在原r2 bare失败分支给真实adjugate行、唯一Q前像递推及四配对；最低为完整两列行列式，非零仍开。 §11原零主分量的T5幂零，固定X108四维块T5²=9，故两者无非零Hecke相容线性子商桥。 §12完整Cartier共振修正给Q在CM的准确读数，原adjugate最低化为同一参数相邻d,ell两列行列式；非零仍开。
 
 - **R1061（已证明的实际几何判据）**：[R1061](results/R1061-actual-genus-two-etale-cover-and-original-three-torsion-Petri-point.md)：原X108三挠线准确给 $e\ne0\iff S_n\ne0$；有界primitive的 $h^3=2$、二阶解判据和真实Miller/Lamé矩给原半Dixon和。§15完整退化 $p^2$ Gauss/digit计算给 $4D_N'(1)+4D_N(1)/3$ 单位，只推出半和若零则其参数根简单；尚无actual CM参数桥或目标单位。
 

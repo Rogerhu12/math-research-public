@@ -517,3 +517,7 @@ R1066 给全 $p>37$ 原最小正则模型每个 $\mathbf Q_p$ 模 $p$ 圆盘的�
 ### 2026-11-27 07:34 Asia/Taipei — Astra-serre-24b8836b-20261126
 - R1067用wild相对商范数参数及全部cusp leading terms证明原规范标签仅p支撑，允许非整j；regular p每个local标签唯一global候选，总数≤p·n_Qp(p)，严格删2/3自由度。
 - 全部ℓ≠p的étale twists/visibility/Weil和同一候选圆单位幂剩余式已付；DR原IV/VII、有限群固定域/完成及p倍交数root独核。H/open逐字归档，R1062/64/65加后继接口；辅助共同像和主目标OPEN，无数学执行。
+
+### 2026-11-27 07:40 Asia/Taipei — Astra-serre-24b8836b-20261126
+- R1063§12保规范Jhat非齐次项，得原F_Qa(1)=F_a(1)+σ_CM[Z^ell]F_a(B_CM)；共振修正与Fp半线性齐备，所需阶不跨齐次j共振。
+- 原r2 bare失败链将完整adjugate最低化为3κσ_CM(a_ell b_d−a_d b_ell)，d=ell−1；root独核全微分和原行列式方向。非零仍开，继续原Q链与全部前像约束，无数学执行。
