@@ -1,0 +1,129 @@
+{
+  "schema": "isp-unit211-nonzero-mean-unit-base-completed-v1",
+  "scope": "p+q=2, u=bp+cq=1, nonzero isolated mean: original branch excluded",
+  "ordinary_isp_claim": false,
+  "general_u_claim": false,
+  "high_curve": {
+    "elapsed_seconds": 25.054241902999998,
+    "max_child_rss_kib": 116052,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "3d671b1c98f929848e2c437698cece6f8d2e033e",
+        "before": "3d671b1c98f929848e2c437698cece6f8d2e033e",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "fef43bdf8690f2eec4751d85784a266eacdd0322"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-26T10:15:20.296049+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "45799548882",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-347c-20261126",
+    "source_commit": "3d671b1c98f929848e2c437698cece6f8d2e033e",
+    "source_exit_code": 0,
+    "source_git_blob": "fd5d197de52ade5a9479c6a8be03df5b8a52e93b",
+    "source_sha256": "3e946d84c93c28310d7be2a332295fcbd13c8cd44f6b9478be8f47aa8a3c00a0",
+    "stdout_bytes": 2476,
+    "stdout_sha256": "f96602d8dbaf2f405bfa962eb240c404b9277b2eb6b4bd5ec7cf1bb2575029a5",
+    "stop_reason": null,
+    "job_id": "139838880139",
+    "source_seconds": 24.917169209,
+    "resultant_degrees": [
+      1085,
+      1389
+    ],
+    "gcd_factors": [
+      [
+        "l",
+        350
+      ],
+      [
+        "l-1",
+        84
+      ],
+      [
+        "2l-1",
+        6
+      ],
+      [
+        "l-2",
+        2
+      ]
+    ]
+  },
+  "remaining_projection": {
+    "elapsed_seconds": 5.639394548999995,
+    "max_child_rss_kib": 94096,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "f9cec40ba07ca9ec4fec177946d90700346c98a3",
+        "before": "31ec7ed7c882830bd16e320a111f93f8ef161c67",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "fef43bdf8690f2eec4751d85784a266eacdd0322"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-26T10:39:42.505474+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "45803350694",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-347c-20261126",
+    "source_commit": "31ec7ed7c882830bd16e320a111f93f8ef161c67",
+    "source_exit_code": 0,
+    "source_git_blob": "0d2c11a5c0fe7ddfdf4e7da53a1b1307010e12d0",
+    "source_sha256": "16dc7381be4a1a05d93e97d7f214e78400986a348756a2f0a3bfec0aa3d457d9",
+    "stdout_bytes": 1169,
+    "stdout_sha256": "3d5a2c323828ee77cacbf6407c14ffe4abf5f86de2c1afb749bae25b2a17f291",
+    "stop_reason": null,
+    "job_id": "139852028943",
+    "source_seconds": 5.498579259,
+    "remaining_Q_degree": 9,
+    "at_execution_claim_excluded": false
+  },
+  "whole_nine_algebra": {
+    "elapsed_seconds": 5.83700889499994,
+    "max_child_rss_kib": 94636,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "28db6c3bfe7c30753fea7a1aeb98ead5f7d4b34d",
+        "before": "816ddd187cbedbcd7af373ebc0ec9db50f3b3145",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "fef43bdf8690f2eec4751d85784a266eacdd0322"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-26T10:47:39.591721+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "45804559912",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-347c-20261126",
+    "source_commit": "816ddd187cbedbcd7af373ebc0ec9db50f3b3145",
+    "source_exit_code": 0,
+    "source_git_blob": "c56ec251ddb70c33f28e425d5b0ef2e081c99119",
+    "source_sha256": "1cfd5100af446074d2d98868eacba312afa5f50d1596fc2fe7aa72465ffdd861",
+    "stdout_bytes": 3167,
+    "stdout_sha256": "f149695fb9c761210b9e4af893fcebfe9e24b0d8dbb4adf08228f6d26a3c7434",
+    "stop_reason": null,
+    "job_id": "139856248459",
+    "source_seconds": 5.703188372,
+    "QQ_inverse_count": 13,
+    "common_z_degrees": [
+      6,
+      1,
+      1,
+      0
+    ],
+    "inverse_record_sha256": "0d1d303f84e9bf6d07f94839564e580ca95ccae4967bd76fa02966bddd95b302",
+    "claim_excluded": true
+  }
+}

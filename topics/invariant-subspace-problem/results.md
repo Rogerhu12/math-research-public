@@ -229,3 +229,5 @@
 - **R150 二重加单点H的Hp0层、V含无穷远源时ess≤5（2026-11-26，已证明）：** [原几何尺度和完整有限塔证明](results/R150-appendix-rank-three-double-plus-single-second-cumulant-zero-hp-infinite-V-source-essential-six-exclusion.md)付全部s−2降次；150/117次QQ结式的95/62余商以157阶836提升到九次域，D8/D2全48/12维塔的F1范数971/748均非零，32个QQ逆逐项回乘。run45802044010/job139847488013、f7c6c7b9、0.636825秒/77140KiB/exit0；接既闭w∞后仅续四源全有限。
 
 - **R150 H二重加单点、Hp0、有限孤立源的完整等价有理重建（2026-11-26，已证明）：** [原五次消失式和全部尺度反演](results/R150-appendix-rank-three-double-plus-single-zero-hp-finite-source-rational-reconstruction.md)消去全部y与平方根，四几何式、一个原范数和11/16全极线系数与原完整临界系统正反等价；保V∞降次及完整Γ。四源全有限再给12条低次对称原式，所有新单位由原尺度强制；纯手证，不把归约或有限域探针当空性。
+
+- **R150 单位211非零孤立点均值的整个单位基点均值图为空（2026-11-26，已证明）：** [原混合行列式及整九维系数代数](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-nonzero-isolated-mean-unit-base-complete-exclusion.md)以QQ1085/1389 gcd迫l2，Q九次全部纤维的原z共同因子6→1→1→0，13次真逆和除法逐步乘回。run45804559912/job139856248459、1cfd5100、5.703188秒/94636KiB/exit0。合并有限覆盖/半权和旧全边界，整个p+q2/u1图关闭；一般u继续。

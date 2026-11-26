@@ -60,7 +60,7 @@ $$
 
 **[rankH3单一三重jet、rankV2的全部ess6已空](results/R150-appendix-rank-three-single-jet-second-cumulant-has-essential-dimension-at-most-five.md)：** 最后F=−m/Hp非零在保持H的合法真jet规范中，Gaussian迫p1=d0、p0p2=hb²；原N/最高的0/1/2阶式先付7/15边界，再得S³+3mS/(2e)=1而左边5/2。结合Hp0的原十六维QQ全纤维，以及所有特殊源/∞、V二jet和F2m排除，整单一三jet仅ess≤5。纯手证，无新计算；只续H2+1、三值H及原ess4/5。
 
-**单位211非零m的u1图：** [半比例及jet除数](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-nonzero-isolated-mean-unit-base-mean-half-ratio-exclusion.md)已排l0、λ1/2及系数零面；[缩放有限覆盖](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-nonzero-mean-unit-base-scaled-finite-cover.md)又完整支付整l1/2和两级有限纤维，所有余解落(l18,Q10)必要曲线。原数学断言全过而末JSON报告exit1，回执如实保留。后继QQ1085/1389结果式只余l2，继续原纤维，不宣整个u1或一般非零m已空；一般u≠1继续。
+**[单位211非零m的整个u1图已空](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-nonzero-isolated-mean-unit-base-complete-exclusion.md)：** 共同规范p+q2后，原有限覆盖与整半权已付；两QQ高曲线结式1085/1389迫l2，原B/R01/R02/R04在整个Q九次商代数中的共同z因子为1，13次QQ真逆全部回乘。run45804559912/job139856248459、5.703188秒/94636KiB/exit0。结合全部低配对/P0零/半比例/jet边界关闭u1，不重做旧l2多变量GB。只能继续一般u≠1，不能把共同缩放再用一次；U值图和L/S系数退化面接着推进。
 
 **[rankH3二重加单点的非零Hp整层已闭](results/R150-appendix-rank-three-double-plus-single-second-cumulant-nonzero-hp-essential-six-exclusion.md)：** 原重节点零/等配对全排并付J分母；原N差导出G1/G2时不除At/τ/γ。完整QQ93/126结式gcd56只余Q2/Q4，全部good σ纤维由原G1/Ht的QQ真逆排除。run45795365604/job139824523000实际0.011089秒/36048KiB/exit0；与已闭[退化Gram](results/R150-appendix-rank-three-double-plus-single-second-cumulant-degenerate-gram-essential-six-exclusion.md)、[非约化V/F0/e0](results/R150-appendix-rank-three-double-plus-single-second-cumulant-nonreduced-third-cumulant-essential-six-exclusion.md)合并，仅续bgF e非零、Hp0的约化V。
 
