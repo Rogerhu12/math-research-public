@@ -38,8 +38,8 @@ R690深谷/旧deep两256返9b937ee/993556及自身first bbefd075、R691冻结Haa
 [零Δ五完整源](notes/2026-11-26-zero-closure-so3-complete-entry.md)5b4c/7698/b4d7/2741/b25保；窄00a00590、[宽.5 e21cc593/宽.75 4341323c](notes/2026-11-26-zero-closure-wide-failure-radius-input.md)均首8角失败，无初末场/J；完整原policy/批最大值与非存在边界见notes，不冒IFT球。实际[14弦长](notes/2026-11-26-zero-initial-chord-necessity-diagnostic.md)6578返49538e：全160core/256叶/真S,R/rho正，弦长surplus严格负，排除本H一般弦长障碍。[15真实重演](notes/2026-11-26-zero-initial-endpoint-replay-and-moment-input.md)731934返26b094：原AST全同、index5失败，末candidate范数.5028248<.75且残差未降；Cz数值minσ .0003935，仅局部病态线索。922胞工作moment-Q初Cz≈I可用未装，不冒真逆/根证明。[实际16的18参数](computations/frozen-zero-moment-Q-actual16-parameters.json)已全返并冻结definition05dc5e，纯提取0 F/root/J，26b094字不随自由点改；新完整Q模型/原implicit链/全筛继续，保H/同g，.75新球不继旧认证，raw留runner。
 
 <!-- visible-larger-parallel-02:start -->
-并行公开Actions02：[run 45800076687/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45800076687)；[实际记录](notes/2026-11-26-public-actions-45800076687-1.md)。阶段`followup:complete-actual-parent-SO3-interior-restore-first-20261126`/completed；已返46，exit=0。
-并行02规则核查：2026-11-26 15:09:05 UTC，真实pull至`cdfcb4f8b5abd0e654df62809b96464fae6897c9`，双README无变化。
+并行公开Actions02：[run 45800076687/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45800076687)；[实际记录](notes/2026-11-26-public-actions-45800076687-1.md)。阶段`followup:actual-complete-parent-SO3-interior-restore-attribution-20261126`/completed；已返47，exit=0。
+并行02规则核查：2026-11-26 15:09:15 UTC，真实pull至`facf37874367cb34794d59d2c4fcbf48156eb6a6`，双README无变化。
 <!-- visible-larger-parallel-02:end -->
 
 <!-- visible-larger-parallel-03:start -->
