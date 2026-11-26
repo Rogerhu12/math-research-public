@@ -6,11 +6,13 @@
 
 ## 新增结论
 
+- [R149 CX actual：完整共同高频WPN源单位球](results/R149-supplement-actual-common-high-WPN-source-unit-ball.md)：45783842857/1四新球完整通过/child0，25whole pins/320bits，formal保存读回和同源两行/全外mean均保。B/E/P/T为大但有限完整界，不授逆或smallness；目标锁定，真实32后再六receiver。
+
 - [R149 RW：真实反射target的96个有限腰行](results/R149-supplement-reflected-finite-waist-rows-from-complete-conjugacy.md)：同非零reflection phase，old完整G odd投影保一份E_H；固定Js双侧投影消有限trial adjoint，L4096/N1024严格DFT和全部alias/tail给row误差。保incoming mean和physical两半primitive/独立means，非Θ/WGB/fullSchur。[pure算法](scripts/fourfold_codazzi_reflected_waist_row_trials_math.py)已给，科学待actual。
 
 - [R144 CR：完整C0均值接收、收缩门及归一化紧支撑矩](results/R144-supplement-complete-C0-mean-receiver-and-compact-moments.md)：旧完整核row sums接真实C0，保全mean jump、核差反馈及二三次项；terminal小球与二次root唯一识别，正密度另付。新ā/b̄只需旧紧窗载体，全部数值门待actual。
 
-- [R149 CX：真实共同高频输入的完整WPN源单位球](results/R149-supplement-common-high-WPN-source-unit-ball.md)：保同输入两路径与全部外mean，已成D均值列的L²权给weighted body及原24480径向尾。25whole pins的独立4标量入口已提交；无未来58/224/32假设，无fake Smax或旧目标重算。实际值待本run。
+- [R149 CX：真实共同高频输入的完整WPN源单位球](results/R149-supplement-common-high-WPN-source-unit-ball.md)：保同输入两路径与全部外mean，已成D均值列的L²权给weighted body及原24480径向尾。25whole pins的独立4标量入口已提交；无未来58/224/32假设，无fake Smax或旧目标重算。实际四球已完整成功45783842857/1，见新增actual。
 
 2026-11-26 当前新增完整论证和实际结果均在下列原路径。进一步新增从此处登记。
 

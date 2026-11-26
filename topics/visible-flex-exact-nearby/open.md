@@ -176,7 +176,7 @@ G以S/T E1856给physical C²整盘/曲率<2/径长<8e−6及同world position/no
 
 ### R149：独立 common 高输入的完整 source4
 
-[CX完整证明](results/R149-supplement-common-high-WPN-source-unit-ball.md)已从同x∈Xfr_H−4/3定义真实(F,e)，state外mean和aux Ec*e不设零；17独立槽的零逐项有源身份。新weighted body/tail用已成D mean列的L²权与真153×160格长，完整B/E/P/T四球可不等58/224/32。25whole输入、manifest3f0126ad…/320bits入口已提交，实际值须完整run；未来32×真实P/T才给strong additional response，rough baseline、finite/ν/全incoming仍各付。
+[CX完整证明](results/R149-supplement-common-high-WPN-source-unit-ball.md)已从同x∈Xfr_H−4/3定义真实(F,e)，state外mean和aux Ec*e不设零；17独立槽的零逐项有源身份。新weighted body/tail用已成D mean列的L²权与真153×160格长，完整B/E/P/T四球可不等58/224/32。25whole输入、修后manifestfe1ef17c…/320bits，actual45783842857/1四球完整通过，见[完整actual](results/R149-supplement-actual-common-high-WPN-source-unit-ball.md)；未来32×真实P/T才给strong additional response，rough baseline、finite/ν/全incoming仍各付。
 
 ### R144：旧完整 mean Green 的新 C0 接收与紧窗正矩
 
@@ -185,3 +185,5 @@ G以S/T E1856给physical C²整盘/曲率<2/径长<8e−6及同world position/no
 ### R149：真实反射 target 的96个有限腰行
 
 [RW](results/R149-supplement-reflected-finite-waist-rows-from-complete-conjugacy.md)与pure模块定义同a=2H(0)的真实反射g_j、原H/K完整复合odd lift及固定L4096/N1024 exact DFT；保全部alias/truncation/旧E_H，任何midpoint不选新trial。双侧Js投影只令finite trial adjoint恒等，完整true row尾仍收费；incoming old-angle mean保，physical两半primitive和density mean不混。无新actual/signed PDE列或fullSchur，下一完成whole历史输入与96逐row保存读回。
+
+common4实际输出现锁定只读：science75f25443…/27978B，executionbdfea6f0…/13082B，全部同输入/mean/源资格保。大界有限不表示smallness或完整incoming已过；下一个六receiver必须等待真实58/224/32。

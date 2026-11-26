@@ -63,3 +63,7 @@ Root审完CX证明、pure math、owner/worker/generator和25whole pins。原WOB.
 ### 2026-11-26 — 真实反射有限腰行与完整复合 DFT
 
 提交RW final proof545154…和pure65ff349…。root与low复核真实g_j和a=2H(0)、density adjoint无额外Jacobian、双侧Js投影、odd contraction仅一份E_H、完整alias映射与Parseval。root要求补显式H/Kconstant及原证0：完整H24/K48原源码准入，k(phi+h)不丢h平移；0/π4网格值由odd degree-one/周期精确推出。全L4096/N1024 carrier和96行误差是独立新target，尚无科学执行；未来保存全row读回后才完成前缀，旧W/KAM/normalizer不重。incoming/physicalprimitive不同rows、两mean、rotatedoutgoing/Θ/WGB/finite inverse全保原义务。
+
+### 2026-11-26 — common4 真正首次科学执行完整通过
+
+[actual完整报告](results/R149-supplement-actual-common-high-WPN-source-unit-ball.md)45783842857/1 job139785554394：4/4、child0、complete/provedtrue、failure null。root完整核science27978B/75f2544374f60f3a1fc1118b922d9b884f59bc0a53755c17999e8c9f015e851b、exec13082B/bdfea6f0d42c098bb24f2add51c8c4e7006c71c3d6933bdf493809c5cc3363bc，全部25输入/runtime/精确schema/18槽/selected/S/projection/mean，5次pull规则空diff。新B/E/P/T均正式candidate保存读回，P只用savedB/E，旧科学0。量级大有限，不伪称强追加或完整incoming小；旧target锁定。接真实32及后续完整六receiver/高压缩，同步推进C0紧窗矩与96真反射row。
