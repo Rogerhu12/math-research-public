@@ -10,6 +10,8 @@
 
 ## 新增结论
 
+- [R142补篇：真child D/σ协方差与单母格矩复用](results/R142-supplement-genuine-child-diagonal-covariance-and-parent-moment-reuse.md)：完整entry absolute bounds给Uchild Uchild*≤σDparent，零行仍补在原193维；pure provider只缩Z/Y、保U/trueh/两三角。最多155母格矩替逐child调用，不预称速度/ε改善，不改active或旧Green身份。
+
 - [R146补篇：完整high压缩逆与联合源Gram](results/R146-supplement-full-high-compression-inverse-and-joint-source-Gram.md)：保b=a−ε角依赖及low96约束，准确Gram为G−U*B^-1U；任意准确dyadic试探X给全high upper而无需验证有限逆。联合source原为无限维，真实mean/余尾与PDE可达性仍保；当前已排CV/RA不重开。
 
 - [R144补篇：同材料角的精确mean重投影](results/R144-supplement-exact-nonlinear-mean-elimination-and-retraction.md)：在R144真腰初值下固定u及j=v/m，用完整线性Volterra构造mean；正性门、aR^-2放大、signed R0/jump及全部新非mean残差显式保留。区别已成R133固定v−m的scalarization，旧Γ/Green不重；新whole小量尚未算。

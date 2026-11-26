@@ -433,3 +433,8 @@ positive推L1–25及pure13580B/2c5002f9，global整篇/整源独审；root再�
 ## 2026-11-26 R146补篇：准确high短接和完整联合源
 
 会话visible-exact-astra-198c63d-20261126。保原high97与mean/primitive费用，用b=a−ε准确压缩逆得全角G−U*B^-1U；任意准确dyadic X给平方剩余upper，无需把浮点逆作证。完整源先保无限维joint算子，只有真实有限列才降有限Gram且source尾独立付。纯解析0科学，已排CV/RA不重开；继续同输入直接逆和K对称部有符号新门。
+
+
+## 2026-11-26 R142补篇：真child协方差的可执行廉价后继
+
+会话visible-exact-astra-198c63d-20261126。完整非负AA*行和给每母格固定D，真实child包围给独立σ且UU*≤σD；精确零支持补在193原空间，未删mean/列。pure provider只缩线性source moments Z/Y，保观测U、两三角、真h及原点值生命周期；逐段静态核，无本机科学或AST执行。该D未必优于GM，父中点确定差仍在；只按active R142完整结果需要启用，未启动新科学。
