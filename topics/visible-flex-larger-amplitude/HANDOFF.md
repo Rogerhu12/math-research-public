@@ -4,7 +4,7 @@
 
 ## 规则与完整目标
 
-最近规则核查：2026-11-26，真实pull/rebase至 `2ed4f1ef9ce44350df196aade0a243ead4e251fa`，根及课题README相对f0548477无差异，已完整读授权及规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
+最近规则核查：2026-11-26，真实pull/rebase至 `63446aacfdc2de1d8424ca5812b7b2846610dd59`，根及课题README相对f0548477无差异，已完整读授权及规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
 
 科学计算仅本公开仓库Actions；早前本地偏差及13:00 UTC纠正见[执行记录](notes/2026-11-20-public-actions-execution-correction.md)。根README已授权必要修改/发布；根唯一local git writer，代理只work/小源。每条结论普通commit/push；NFF立即pull --rebase循环再推，不强推。至少每小时pull，每次核双README差异/立即遵新规并记commit。raw只scratch/runner，不入Git/Release/artifact；只保完整小源/参数/run/SHA/紧凑结论。题≤200MB，MD<100KB，H<10KB，open<30KB。令牌只瞬时CLI，不写文件/提交/回复。
 
@@ -22,11 +22,7 @@ R653准确quarter；R654完整H²尺度；R655付原node/mid盲空间，故旧18
 
 [旧run终态](notes/2026-11-26-actual-actions-terminal-and-geometric-scope.md)已核实：solver44758209061的42阶段正常结束；geometry44772201880到5h50m硬限被取消，完整K没有公开返回，不能当仍running或由SHA恢复旧raw。
 
-最新真实求解末父为R671的3ef8c4e1，见[实际PCG/SOC结果](notes/2026-11-20-actual-coarse-PCG-and-parent-row-SOC-result.md)：同λ1/eta885、原ray1/16，Phi8.45471390e−8/max.01204893/product.99197618，mu=.0007539530259341321；主QP256未驻点。26行SOC满rank但破其他旧C，slack最小−.0001067679，修正真Phi/几何未执行。连续证书不能由旧7fd移给3ef8。
-
-7fd自身已有全922嵌入/support≥.29455858、D≤4.11896941、held/D≥.22806068及活动非平面；[连续metric实际](notes/2026-11-20-actual-continuous-metric-and-refined-ray-diagnosis.md)严格lower .01195265>1e−6，因此该场必须改变。旧径向fine仅很小下降，不证精化收敛。
-
-独立geometry03的756936ee是另一真实场：全922首jet/半径给Dmarked≤4.10130034、held/D≥.22886895，但完整K/reach未返。旧输入再生warm字节差异原因未归；不追历史SHA重做，不跨场继承。全部完整源/参数/旧失败/运行索引保[f0548477交接](https://github.com/Rogerhu12/math-research-public/blob/f0548477576caa2373d1626227a284ccfa9767d0/topics/visible-flex-larger-amplitude/HANDOFF.md)及其原链。
+旧会话末父3ef8、7fd及独立geometry03/756的全部参数/失败责任保 [实际旧末父](notes/2026-11-20-actual-coarse-PCG-and-parent-row-SOC-result.md)、[连续metric诊断](notes/2026-11-20-actual-continuous-metric-and-refined-ray-diagnosis.md)及 [6512c63e压缩前H](https://github.com/Rogerhu12/math-research-public/blob/6512c63e2a52c84bf05ca14a8fc5d6dd63b91b9c/topics/visible-flex-larger-amplitude/HANDOFF.md)。3ef8约.012误差且QP未驻点；26行SOC破旧C。7fd严格metric lower .01195>1e−6；756为另一场、无完整K。旧first/非平面/幅度不移给新父，不用证书加密冒改变失败场；旧raw不能由SHA制造。当前run实际父见下。
 
 ## 已证结果与当前源
 
@@ -66,6 +62,8 @@ R688 [实际首面PCG及同场first](notes/2026-11-26-actual-first-mean-face-PCG
 R689固定均值连续Gram入口已刊：两准确场共同分割、公共lift平方恒等抵消、双方余项及全角全胞；只静态检查，接足够小的实际新候选，不给旧失败场虚报精化。
 
 [固定g五源管线](notes/2026-11-26-frozen-mean-target-numerical-pipeline.md)已刊：整公式/源/父字节冻结、D*J全部均值保留、同g coarse/v5、R676 transfer-only与同父测度比较。显式target且报零步，尚未触发冻结或精化。
+
+R690 [完整深谷新输入证明](results/R690-quasimonotone-tail-and-deep-valley-input.md)已刊：B=积分c/c可积的唯一性判据及明确非可积深谷；保原prefix/S、更新准确R/I，参考Hold曲率≤5/2。e091完整无限尾/跨锚点标量入口已排真实300秒包围；无新非圆解/固定g精化/几何声明。construction接新的固定gn完整求解，避免移动均值把新a分母约消。
 
 新科学仍仅本公开Actions。root唯一人工git writer，代理在独立scratch写小源/推导；每条完整结论即推。工作盘空间不足，本次部分克隆在临时盘，仓库提交为恢复依据，不删除别的会话数据。
 
