@@ -4,7 +4,7 @@
 
 ## 规则与完整目标
 
-最近规则核查：2026-11-26，真实pull/rebase至 `ac7a062e99d9a4819675ba1c3a366be2b34e27df`，根及课题README相对f0548477无差异，已完整读授权及规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
+最近规则核查：2026-11-26，真实pull/rebase至 `cd4da6d9462613f03b0bb7d6da162955978c9b70`，根及课题README相对f0548477无差异，已完整读授权及规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
 
 科学计算仅本公开仓库Actions；早前本地偏差及13:00 UTC纠正见[执行记录](notes/2026-11-20-public-actions-execution-correction.md)。根README已授权必要修改/发布；根唯一local git writer，代理只work/小源。每条结论普通commit/push；NFF立即pull --rebase循环再推，不强推。至少每小时pull，每次核双README差异/立即遵新规并记commit。raw只scratch/runner，不入Git/Release/artifact；只保完整小源/参数/run/SHA/紧凑结论。题≤200MB，MD<100KB，H<10KB，open<30KB。令牌只瞬时CLI，不写文件/提交/回复。
 
@@ -55,7 +55,7 @@ R653准确quarter；R654完整H²尺度；R655付原node/mid盲空间，故旧18
 
 R684 [首physical/p4两方向](notes/2026-11-26-actual-first-mean-design-and-amplitude.md)真实返90b9，max .01429595；初始[双variant诊断](notes/2026-11-26-actual-new-metric-initial-diagnostics.md)不以换g冒改善。移动均值不自动保幅度，最新父与保护入口见R688；固定g/实际精化未付。
 
-R685活动面约束逆及v5完整入口已刊，排在首个v4/all-row SOC实际返回之后；原QP/母范数/全部行/欧氏停止不变，未返不称加速。新schema归因用read_constrained_solver_report，不交旧adc90冒读。
+[实际方向归因](notes/2026-11-26-actual-mean-ray-and-all-row-SOC-attribution.md)：R684两条及R688全步真Phi降但K筛拒；R688预条件无回退。旧g全192行SOC真模型可行但修正仍未接受，最终原ray父d4bc3506。旧g v5入口exit1无report，正读真实trace；新幅度分支继续。
 
 R686完整K分块及[同场first/K/四标记消费者](notes/2026-11-26-same-field-batched-curvature-geometry-consumer.md)已刊，保原六jet/准确尾/全角，K目标由实际D推。接足够小的新候选，未有新K，不复算旧取消场。
 
