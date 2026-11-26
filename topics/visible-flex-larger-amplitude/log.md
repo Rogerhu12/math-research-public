@@ -375,3 +375,5 @@
 2026-11-26 10:54:26 UTC — Astra-larger-e4e2a2bf-20261126：R693完整径向恒等式/零闭合与非零切向分支/逐材料角反射、正确拆端的近似分支界、完整六jet积分/root/归一化费用及分段midpoint兜底直接刊。root逐式核验、construction补反射推论，明确首版report未存closure_delta汇总，不能从旧报告补值。只有完整解析条件，未付新数值/连续证书或存在；后继零Δ端点全变量修正与公开真实求解继续，不设首跑新门。
 
 2026-11-26 10:55:17 UTC — Astra-larger-e4e2a2bf-20261126：真实75 c5a从7ebb/完整027c36 moments冻结准确材料Haar目标e35ce2，manifest4db6a2/19744B，6.227917秒exit0/无缺项。完整source/model/角身份、五输入与准确积分定义记独立note；Q8192只是工作载体，精度请求仍false，冻结不是方向、target/metric/geometry/refinement/topic仍false。76/77实际方向尚未读，不填旧Phi或未来末场。
+
+2026-11-26 10:56:59 UTC — Astra-larger-e4e2a2bf-20261126：第15/16次普通raw移出旧强core二级boost M96/M128轨道，保全部小字段/首末row/完整源和两级输入/所有参数与固定51ab历史恢复，原样本失败及位移遮挡范围保原note；旧runtime未记不猜。只元数据/JSON复制/SHA和依赖文本检查，无科学重做，当前两run/SO3不依赖它们。H压缩既有共同算法说明，完整旧词由已刊51ab和前链保留，未放松全变量/全观察/C/永久点/真筛责任。

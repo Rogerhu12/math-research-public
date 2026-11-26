@@ -469,3 +469,9 @@ git show e95fea50651bcfe32aad52826caa8a692c2ff741:topics/visible-flex-larger-amp
 原完整源 `computations/alternative-outward-probe.py` 为7708 B / `cf163a5c42cff95137a78eefda058b6a18f5f226b4261b686a42e645f4002fcb`，已逐字匹配；无外部输入，初始支撑core和profile都由完整源与A=.38/M128/N2048/v=.5/S1/amax1.35/rtol1e-11/steps60/maxstep.0002/end.9/coast.8/.1定义。旧status=success、54684调用、61.43171715736389秒，真实run/OS退出码/版本未记录，不补造。未来重算仅公开Actions。
 
 只转录原top字段与首末row，未读系数作科学计算、未重做旧结论。该开放prefix的小采样误差不冒闭面解或完整证书；上一项M160高模污染/失败精化结论完整保留。精确文件名扫描未发现当前完整场、Haar、deep或新SO3入口依赖。
+
+## 15–16. 2026-11-26 原强core二级boost两条开放轨道
+
+普通移出 `root-strong-double-boost-q038-m96.json` 与 `root-strong-double-boost-q038-m128.json`，原字节分别 611505 与 787285；完整身份、全部非数组字段、首末完整row、61个轨道状态的大小、完整argv/defaults、两件完整小源及两个仍保留祖先输入见[紧凑复现记录](../computations/resume-20261126-legacy-double-boost-retention.json)。完整原字节可从提交 `51ab895bc75e45349d005a043393f285f3111a34` 的相同路径恢复，原件另留scratch；不改历史。
+
+实际SHA分别 `4d3d3add9b053d6946b908a014267d15da0200a4dbc3c041b8c513123bfef574` 与 `ed4e9086205958df3a569d601490625c8001c8c87b1acab3445590d5dacd1871`。完整源0af61a3b/cf163a5c及直接输入3d8ebf12、祖先6d3ef805逐字核验；只做JSON字段复制、元数据/SHA与依赖文本搜索，没有重新运行轨道或重算任何科学量。原runtime版本/OS退出码/run未记，不填猜测。原数值结论和失败范围完整保留于[root旧记录](root-refinement-and-failed-steps-20261110.md)：两条到达s=1.15，样本误差仍超1e−6且遮挡旧位移见证，只有开放片；不因清理把两阶样本下降升级为闭曲面或完成的精化。当前deep/Haar/SO3求解不读这两输出。

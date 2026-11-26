@@ -76,3 +76,5 @@ python computations/alternative-controlled-profile.py \
 成功点的设计量为delta=.12128844133、boost_length=.17393595598、boost_speed=.88667149452。比原基点height下降约.01394，但κ上升，必要局部预算乘积`κ*2height`约32.99，未优于原约32.93。不能单凭height下降称作整曲面优化。该点尾口高度最大2.31906e−5；尚无实际非线性尾耦合、固定g加密、完整曲率包络或闭图。
 
 相应文件为`root-neck-triple-q070-c6half-m18-summary.json`（仅失败摘要）及`root-neck-triple-q070-c6more-m18*`（真实成功checkpoint与摘要）。负数科学记数CLI参数应写成`--third-support=-8.90192216046e-5`；曾有一次分开传值被argparse拒绝，未进入数学求解，不计作数学失败。
+
+2026-11-26存储维护：本页第3节两份大系数轨道已普通移出当前树；全部旧结论和失败范围保持，完整源/两级输入/参数、紧凑字段及固定历史恢复见[双boost复现记录](../computations/resume-20261126-legacy-double-boost-retention.json)。当前复现应在本公开Actions中将输出写至runner scratch。
