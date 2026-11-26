@@ -1,0 +1,174 @@
+{
+  "schema": "isp-input-defect-execution-record-v1",
+  "run_id": 45820227879,
+  "job_id": 139910286959,
+  "mathematical_status": "INPUT DEFECT; all exclusion claims in the raw program output are withdrawn and unusable for the original system",
+  "defect": "Original reciprocal central-zero polar is L(t)=5t-1. Source b34d4894 erroneously used Eh=q^2+qY+Z from the old central-infinity kernel in Phase and U. Correct Eh=q^2-5qY+25Z.",
+  "unaffected": "Original central-infinity source f67005f96502947b66af3ee9789622e92992b48c and its executed QQ theorem are unaffected.",
+  "replacement_source_blob": "6110026f5aeee5d257bba5fb409d6828fda55b31",
+  "raw_stages_for_identity_only": [
+    {
+      "J_scale": 33554432,
+      "V_scale": "-5120*A + 800*B + 1024",
+      "c0": "1888*A**3 + 217*A**2*B - 672*A**2 - 290*A*B - 7*B",
+      "c1": "6944*A**3 - 1085*A**2*B - 7392*A**2 - 438*A*B + 1536*A + 835*B",
+      "c2": "-11264*A**2 + 1760*A*B + 4096*A + 224*B - 1024",
+      "count": 7,
+      "cubic_scale": 512,
+      "field": "QQ",
+      "original_center": 0,
+      "physical_H_parameters": "A=a+b,B=32ab in reciprocal chart",
+      "seconds": 0.4241180179999873,
+      "stage": "original_kernel_identities_complete"
+    },
+    {
+      "N_degree": 426,
+      "N_sha256": "3451ece1aa210115f6b5a0ab7b03225bf37f35f6c012772dc7620f19a58c13e4",
+      "P_degree": 288,
+      "P_sha256": "9d8bdbba3a5c3de7cca56661850791c5a3c9e4a5ab997a71bdd0d23292c94155",
+      "bezout_verified": true,
+      "gcd_degree": 124,
+      "seconds": 39.77326586399998,
+      "stage": "exact_triangular_norm_gcd",
+      "gcd_text_omitted": true
+    },
+    {
+      "factors": [
+        {
+          "degree": 1,
+          "factor": "x",
+          "multiplicity": 24
+        },
+        {
+          "degree": 1,
+          "factor": "x + (-1)",
+          "multiplicity": 6
+        },
+        {
+          "degree": 1,
+          "factor": "3*x + 1",
+          "multiplicity": 6
+        },
+        {
+          "degree": 2,
+          "factor": "800*x^2 + (-795)*x + 157",
+          "multiplicity": 44
+        }
+      ],
+      "scope": "all complex A-roots retained; no quotient-primary equivalence claimed",
+      "seconds": 39.774101313,
+      "stage": "all_elimination_fibers"
+    },
+    {
+      "dimension": 6,
+      "factor": "x",
+      "index": 0,
+      "original_multiplicity": 24,
+      "physical_power": 6,
+      "seconds": 39.952668626000005,
+      "stage": "begin_finite_QQ_fiber"
+    },
+    {
+      "certificate_sha256": "ce7a7a65e09fb902d46935eabd1edf83decb428243f9124fdf36cd65db9c7ba8",
+      "dimension": 6,
+      "identity": "U^dimension=af*original_phase+bf*original_norm modulo (f(A),Qb,Cx)",
+      "index": 0,
+      "nonzero_coefficients": 3,
+      "rank": 3,
+      "seconds": 39.95689099899998,
+      "stage": "finite_QQ_fiber_verified"
+    },
+    {
+      "dimension": 6,
+      "factor": "x + (-1)",
+      "index": 1,
+      "original_multiplicity": 6,
+      "physical_power": 6,
+      "seconds": 40.118501300000005,
+      "stage": "begin_finite_QQ_fiber"
+    },
+    {
+      "certificate_sha256": "ff3268db72f34cee59ecc7c8856b5c41f9c51e5f29fba3783cb762b589067a60",
+      "dimension": 6,
+      "identity": "U^dimension=af*original_phase+bf*original_norm modulo (f(A),Qb,Cx)",
+      "index": 1,
+      "nonzero_coefficients": 0,
+      "rank": 2,
+      "seconds": 40.11875693,
+      "stage": "finite_QQ_fiber_verified"
+    },
+    {
+      "dimension": 6,
+      "factor": "3*x + 1",
+      "index": 2,
+      "original_multiplicity": 6,
+      "physical_power": 6,
+      "seconds": 40.30555443499999,
+      "stage": "begin_finite_QQ_fiber"
+    },
+    {
+      "certificate_sha256": "1b9813b46f4f83b4ed29c3b0341d809df71af2d97c7070540fd3d3dc8993644d",
+      "dimension": 6,
+      "identity": "U^dimension=af*original_phase+bf*original_norm modulo (f(A),Qb,Cx)",
+      "index": 2,
+      "nonzero_coefficients": 3,
+      "rank": 4,
+      "seconds": 40.311173839000006,
+      "stage": "finite_QQ_fiber_verified"
+    },
+    {
+      "dimension": 12,
+      "factor": "800*x^2 + (-795)*x + 157",
+      "index": 3,
+      "original_multiplicity": 44,
+      "physical_power": 12,
+      "seconds": 40.576064375,
+      "stage": "begin_finite_QQ_fiber"
+    },
+    {
+      "certificate_sha256": "719e7a1ef50c497f3e4dcae0f5f53a458dc14700ddefe9c35bdb1b0f59cc3a27",
+      "dimension": 12,
+      "identity": "U^dimension=af*original_phase+bf*original_norm modulo (f(A),Qb,Cx)",
+      "index": 3,
+      "nonzero_coefficients": 6,
+      "rank": 6,
+      "seconds": 40.65131717199999,
+      "stage": "finite_QQ_fiber_verified"
+    },
+    {
+      "ordinary_isp_claim": false,
+      "outcome": "all exact QQ necessary source fibers contradict original physical U!=0",
+      "seconds": 40.651558847000004,
+      "source_sha256": "79a6b42c24d77a85d2bda92ce1c84e04c28f1f9f03347a0640271452b4404cfd",
+      "stage": "complete"
+    }
+  ],
+  "execution_receipt": {
+    "elapsed_seconds": 41.044139929999986,
+    "max_child_rss_kib": 204872,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "ed27f68cd6a0d4d951542f1af6db2e24f0f34f3b",
+        "before": "ed27f68cd6a0d4d951542f1af6db2e24f0f34f3b",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "fef43bdf8690f2eec4751d85784a266eacdd0322"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-26T12:30:28.263259+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "45820227879",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-347c-20261126",
+    "source_commit": "ed27f68cd6a0d4d951542f1af6db2e24f0f34f3b",
+    "source_exit_code": 0,
+    "source_git_blob": "b34d4894e6848c2dd54512340c26a035797cd96f",
+    "source_sha256": "79a6b42c24d77a85d2bda92ce1c84e04c28f1f9f03347a0640271452b4404cfd",
+    "stdout_bytes": 23501,
+    "stdout_sha256": "5b7fdec50856b790bd58c17019e6c2c1938027ce9ec185d3186d7ab2cde6b771",
+    "stop_reason": null
+  }
+}

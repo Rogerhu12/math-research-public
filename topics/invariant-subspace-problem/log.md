@@ -271,3 +271,6 @@ AI-assisted GPT-6 Astra Pro：[完整原物理证明](results/R150-appendix-rank
 
 ## 2026-11-26 12:30:01 UTC — Astra-ISP-347c-20261126：原小权重与有限中心图继续
 AI-assisted GPT-6 Astra Pro：[新输入检查点](notes/2026-11-26-small-weights-and-finite-center-checkpoint-347c.md)识别Φ=−ρN(b+c)，用同一允许尺度接L0两参数全κ代数；同时接S0/Lt0小J与同步变换原K的中心0图。新共享workflow仅执行这些未闭输入，旧多参数任务回执仍单独保留，不预宣排除。
+
+## 2026-11-26 12:36:52 UTC — Astra-ISP-347c-20261126：实际Riordan完整源运输闭合
+AI-assisted GPT-6 Astra Pro：[完整证明](results/R271-appendix-actual-riordan-complete-fock-source-transport-and-original-source-correction.md)保全部强位混合项、精确全塔及原未加权重最小化，原同u拉回保明确ΔF；稳定端点和远孔/MP费继续。另登记新中心0旧输入缺陷，raw成功无数学效力；新共享workflow仅跑正确Eh源和S0三个原首项谱。

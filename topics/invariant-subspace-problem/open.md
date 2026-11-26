@@ -99,6 +99,8 @@ rank$H=4$ 的非单位局部块长度5、4、3已排；长度2单零的三种单
 
 **[全部真实远位硬化与重新最小化现已支付](results/R271-appendix-complete-tail-hardening-common-auxiliary-mode-and-global-source-energy.md)：** 同一额外mode中的真闭交核嵌套给q_C(Sx+t)−q_L(t)，准确等于硬核违例与重最小化两个正项；两端点比较后≤∫_t^(t+Sx)μ_T(v)dv/v+2δ。t=εSx、Q6y、小头及最高零头窗均付，ε可在联合窗趋零，普通范数端点为P_Mf。最后仍须把同一源端点放进稳定范围closureBM，或为Ta_T(t)支付正则右逆的准确输入及输出费用；正t核不作kerT。
 
+**[实际Riordan完整Fock源与原同源差值](results/R271-appendix-actual-riordan-complete-fock-source-transport-and-original-source-correction.md)已证：** 同一实际Sx≤s≤2Sx内，精确全塔三角代换Bφ及逆均有统一原范数界；原未加权重最小化源差≤3C0³ min(√ε,√(μ/h))，准确新头保ψ_m(A_m+Dstrong)/d0的所有混合项。完整全空间源仍强趋P_Mf；拉回后的物理列保ΔF，以原差值投影准确恢复同一u和全部partial。此为原Hilbert范数预算，不能把全空间ε极限转入未知F0；远孔指数权对应辅助数权且不与Bφ交换，完整MP/真帽对ΔF的放大仍须实际支付。
+
 ### 2.2 仍需接合的原返回接口
 
 - 旧 $\tau14$ 下全高度同w Bessel/能量、一次物理MP及共同log方差均已付；后继 $CD^\dagger$、核外第二逆和真正完整最小源仍开。一次界不自动反复适用，真核终式不保初始阻尼。

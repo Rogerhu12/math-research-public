@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R271 实际Riordan非线性强头的完整Fock源及原同源差值有统一预算（2026-11-26，已证明）：** [精确全塔代换与原未加权重最小化](results/R271-appendix-actual-riordan-complete-fock-source-transport-and-original-source-correction.md)给差≤3C0³ min(√ε,√(μ/h))，实际Sx内保全部强位混合项并强趋同P_Mf。原物理拉回保ΔF，准确恢复同u/partial；未把原范数差冒作未知F0能量、32^N孔权或完整MP返回。纯手证，继续稳定范围端点。
+
 - **R150 三约化H退化Gram、Hp0的中心H∞整个物理图为空（2026-11-26，已证明）：** [原endpoint极线与完整首一三角代数证明](results/R150-appendix-rank-three-reduced-degenerate-Gram-central-infinity-exclusion.md)保全部5¹²尺度、重复根和原物理U；QQ范数284/426只留A、A−4、A+12及5A²+36A+37四因子，完整6/6/6/12维QQ商代数的U幂原身份全回乘。run45818497162/job139904312131、18.036312604秒/190212KiB/exit0。合并零边∞与同相位排除后，余H三源全有限，V仍可∞。
 
 - **R150 三约化H退化Gram、Hp0、零边含∞的整个物理图为空（2026-11-26，已证明）：** [原kernel/全部尺度与真QQ证明](results/R150-appendix-rank-three-reduced-degenerate-Gram-zero-edge-infinity-exclusion.md)保两非平凡相位、第三根可重及所有物理单位，降为(s,X)的三条必要式。实际X结式次数23/72，QQ扩展gcd回乘1，未删候选因子也未用有限代数fallback。run45815953727/job139895617025、0.075555984秒/75088KiB/exit0；只续有限零边的中心有限/∞图。
