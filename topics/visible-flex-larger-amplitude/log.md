@@ -420,3 +420,8 @@ R708支持内单位meridian完整条件构造：已正式刊[完整42式证明](
 ### 2026-11-26 20:57:43 UTC — Astra-larger-e4e2a2bf-20261126
 
 登记[R710完整角向误差与85e90准确区间核](results/R710-supported-unit-seed-complete-angular-jet-error-bounds.md)：从完整准确均值残差及一二总导数费用，推全北半球弦段正隙、根/J/两角jet、投影w及幅度逆和端层/中央物理jet界。全Fraction外向区间核、精确Taylor余项/Machin常数与实际报告/种子/批次双读身份绑定源已完整公开；root与独立代理逐段核证明/完整源码及最终差异，仅AST/编译/身份验证，无科学本地执行。准确积分、无限尾、三角与算术费用仍需实际支付，未伪造零费request，未把工作残差当准确残差或给全角连续证书。旧03b最后规则核查全文仍在9b8f固定HANDOFF历史链，当前H压导航以守10KB。
+
+
+### 2026-11-26 20:58:49 UTC — Astra-larger-e4e2a2bf-20261126
+
+刊[完整normalized science/pure单次准入包装789f](notes/2026-11-26-complete-normalized-SO3-science-and-pure-pair-wrapper.md)：严格锁6c59/892f/009e三个完整源，以单独完整两step参数SHA绑定；真实同restart准入父，全部原argv/outputs/双验证旗保持，科学非零返回也尝试原pure，分别保真实返回/输出SHA。完整路径与跨child输出冲突检查保raw在runner；不延长硬时限、不迁证、不改当前48/49。root完整读源，geometry独立核关键全函数；AST/编译/身份静态核通过，无科学执行。实际后继参数须等新真实父返回，未预填结果。
