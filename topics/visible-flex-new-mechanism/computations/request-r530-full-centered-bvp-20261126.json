@@ -1,0 +1,109 @@
+{
+  "schema": "r584-r586-complete-centered-nineteen-bvp-20261126-v1",
+  "repository": "Rogerhu12/math-research-public",
+  "queue_session": "Astra-new-mechanism-0105020f-20261126",
+  "public_rules_read_commit": "8f9a755506c429d39f443fef672de762337a9f59",
+  "private_rules_read_commit": "739f658f575a7652d640bf82386814df0cb0f7a8",
+  "expected_readme_blobs": {
+    "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+    "topics/visible-flex-new-mechanism/README.md": "d0432faff569c8e9af7ed4809847e12880976c11"
+  },
+  "expected_private_readme_blobs": {
+    "README.md": "5ba164843b1f5802184178a82d786264404873a3"
+  },
+  "entry_point": "topics/visible-flex-new-mechanism/scripts/r530_full_centered_nineteen_bvp_agent.py",
+  "workflow": ".github/workflows/visible-r530-full-centered-bvp-20261126.yml",
+  "proof_interfaces": [
+    "topics/visible-flex-new-mechanism/results/R581-exact-c2-local-ruling-with-full-history-chain.md",
+    "topics/visible-flex-new-mechanism/results/R584-centered-third-history-and-nineteen-state-full-ruling-bvp.md",
+    "topics/visible-flex-new-mechanism/results/R586-sixfold-full-history-coefficient-projection-and-finite-integrals.md"
+  ],
+  "runtime": {
+    "python": "3.12.14",
+    "packages": {
+      "numpy": "2.3.5",
+      "scipy": "1.17.0",
+      "sympy": "1.14.0",
+      "mpmath": "1.3.0"
+    },
+    "checkout_action": "11d5960a326750d5838078e36cf38b85af677262",
+    "setup_python_action": "a26af69be951a213d495a4c3e4e4022e16d87065"
+  },
+  "common_parameters": {
+    "orders": "96,192",
+    "gap_order": 8,
+    "heights": "1.1,1.3",
+    "lengths": "3,5",
+    "powers": "4",
+    "peak": 2.8,
+    "curvature": 1.8,
+    "nodes": 25,
+    "max_nodes": 401,
+    "refine_max_nodes": 1201,
+    "tol": 0.0001,
+    "bc_tol": 1e-8,
+    "refine_tol": 0.000001,
+    "coefficients_only": false
+  },
+  "lanes": {
+    "full-nineteen-bvp": {}
+  },
+  "scope": {
+    "fixed_model": "Same exact R578 actual 36-block library, window [4,6], width 2e-6, amplitude width^(7/4)/256",
+    "full_history": "R584 nineteen actual states: geometry5, A8, sigma_plus3, sigma_minus3; A_minus=J A_plus; all six third projections retained",
+    "parameter_identity": "Constant nubar is an invertible triangular reparametrization of the one actual nu; actual nu=nubar-2*r_center is reported",
+    "boundary_conditions": "Fixed H,L per case: center h=H,k=eta=gamma=0,A_even=0,sigma_plus=sigma_minus=0 (14), final A=0 (8); unknown v0,Aodd,nubar give the original eight controls",
+    "finite_cases": [
+      {
+        "H": 1.1,
+        "L": 3
+      },
+      {
+        "H": 1.1,
+        "L": 5
+      },
+      {
+        "H": 1.3,
+        "L": 3
+      },
+      {
+        "H": 1.3,
+        "L": 5
+      }
+    ],
+    "legal_box": "Arctangent coordinates enforce 0.8<h<3, |k|<2, |eta|<1; no replacement ODE outside the actual R530 domain",
+    "seed_status": "Analytic finite h/k curves only initialize collocation; their third guesses satisfy the instantaneous ruling but are not declared actual full-history trajectories",
+    "exact_compilation": "Fraction Laurent algebra; exact R581 highest identity, QQ/LLQ angular projection, whole q_g^2 centered numerator before fixed integration; no numerical geometry interpolation",
+    "fixed_integral_reduction": "R586 exact six-node reference for all 36 actual blocks, position degree<=10; whole-block second right tails and all gaps retained",
+    "weighted_integrals": "Each current readout is quartic; physical w^(1/4) is extracted exactly once as w, and the six-element averaged reference integral gets factor6; global history/nubar are never weighted by block again",
+    "precision": "Long-double profile moments and coefficient evaluation; original Gauss nodes and bump derivatives are evaluated by the bound source",
+    "coefficient_refinement": "96 and 192 on unchanged input; report complete coefficient probe and centered history derivative, not just local R",
+    "new_actual_work": "After compilation and quadrature, solve all four genuine nineteen-state boundary problems; successful cases or finite near-solutions at mesh ceiling continue on the same input",
+    "continued_mesh_rule": "A coarse status1 mesh-ceiling iterate with max normalized residual<0.5 gets the declared refined solve; it is not called a root",
+    "actual_output_defects": "Report original ruling from collocation accelerations, actual kinematic/M/complete-third derivative defects, eight endpoints and actual fixed nu",
+    "geometry_output": "For refined successful candidates only, integrate original frame/position and read all four whole-window boundary curves and two actual pose endpoint scalars",
+    "old_raw_R581_scope_replayed": false,
+    "scientific_execution": "this public Actions workflow only",
+    "local_checks": "AST parse and file hashes only; no scientific imports or executions",
+    "maximum_parallel_jobs": 1,
+    "job_timeout_minutes": 150,
+    "raw_arrays_artifacts_releases_or_git_writes": false,
+    "original_stdout_only": true,
+    "exact_root_claim": false,
+    "response_rank_claim": false,
+    "full_third_operator_period_claim": false,
+    "full_fourth_period_claim": false,
+    "README_completion_claim": false
+  },
+  "source_sha256": {
+    "topics/visible-flex-new-mechanism/scripts/r530_full_centered_nineteen_bvp_agent.py": "bfb4344260a2fc8f3df99a294a7af8c0823ff133f40758de31bb98b05b5d3373",
+    "topics/visible-flex-new-mechanism/scripts/r530_c2_r578_evaluator_agent.py": "68a6ed1d747cb51520639003d560227a6acb859e0becab1af08de55aa2c5adc7",
+    "topics/visible-flex-new-mechanism/scripts/r530_compact_history_v2_agent.py": "2ca4b47c390d9e59c8e5f02866eba911dc2295e890ee403e151b56b44bd36659",
+    "topics/visible-flex-new-mechanism/scripts/run_inverse_rotational_metric_20261126.py": "a97334fb7004ce750c0c949469be2db21ca7a187e53b48032dba2f330cf5e8ae",
+    ".github/workflows/visible-r530-full-centered-bvp-20261126.yml": "e282bf3dcdd5037226d26d845d4c86410b3ef5f6e5d9f492877948f74f8dae63",
+    "topics/visible-flex-new-mechanism/results/R581-exact-c2-local-ruling-with-full-history-chain.md": "caa50a611300a6dfe8f8d90b03862dc4664a46db8374301060ec976619823094",
+    "topics/visible-flex-new-mechanism/results/R584-centered-third-history-and-nineteen-state-full-ruling-bvp.md": "955f99b1ab78757513550e1acef0b597b6af6796a57b812328b26f365b9e49e1",
+    "topics/visible-flex-new-mechanism/results/R586-sixfold-full-history-coefficient-projection-and-finite-integrals.md": "33f39639beefb859aca33e2aa283c5c2f199a1bdd74b3437d49791effe19fd54"
+  }
+}
+

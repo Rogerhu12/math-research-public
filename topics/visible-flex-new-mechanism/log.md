@@ -648,3 +648,7 @@ root全文读42709字节最终源主体与增补，纸核β三u jets、log真实
 ## 2026-11-26 — Astra-new-mechanism-0105020f-20261126 / B038外部中断与小时规则pull
 
 root全文核收据、870264字节原日志/最后OUTER与START的三hash；逐项核outer2保留q、proposal格/峰等于outer3实际q/500/538，566终候选与两个已写pending可恢复，第三峰未flush不能造。记录精确成本下界及后未刷区间。另本小时私库实际pull至c5fd979bd7793b3516aaa9f142855772720cb9b1，10:23 UTC复查相对739f658f根README空diff、blob5ba16484…不变、QUEUE仍本会话；公开每次publisher pull继续核双README。
+
+## 2026-11-26 — Astra-new-mechanism-0105020f-20261126 / 完整十九态实际BVP发布
+
+root全文读802行源/实施/workflow及请求绑定，核Fraction最高项、QQ/LLQ与真实D0/时间链、完整有序第三分子、六节点预收、atan链式、Cramer符号、22BC及真实collocation导数缺陷。负侧球范数的D_B不变性写明；8源hash/AST/sparse已核，科学未本地执行。单job直接做固定四例与条件同输入加密，不追加旧raw复跑门。
