@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R12 完整交换子没有一般非零分母、无可闭性及任何RSC向量（2026-11-27，已证明）：** [任意全交换子高块压缩与实际同源零交](results/R12-appendix-full-commutant-no-bounded-regularizer-and-nonclosability.md)对指定q_n=16^n、m_n=q_n²的正连续循环f，证明任意非零P∈C使PX_f全有限柱无界，故无PH⊂DomX_f及任何有界商包含。C1∩Cf=0而两者均稠密，明确代数投影给不可闭序列，直接代数证明排除任意RSC向量。高块误差保完整维数、固定外锚与全列范数；R136支付同一X_f的C自伴与全参数单射稠密，不构造普通不变空间。一般分母路线已闭，特殊闭根/湮灭来源仍须另付。
+
 - **R150 S0/Lt0原lambda·v、f·v二次首项整零面为空（2026-11-27，已证明）：** [24项H_(6,4)的完整原返回](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-quadratic-head64-zero-exclusion.md)由N1/Qa原mean余式重建准确主子式，H64与原F41给230次QQ全覆盖，剥已付参数因子后保89次。另原G132,109的完整k结式模像754次，保4/109原次数与89次首项，实际一元Bézout1；源354c81f9实际125.960501秒/115220KiB/exit0。可合法解五个二次单项式，继续原重叠及P/N，不作自由基底或一般排空声明。
 
 - **R271 N型最大carry域与严格三角重构（2026-11-27，已证明）：** [逐块唯一、准确最大域及图范数](results/R271-appendix-maximal-n-carry-domain-triangular-reconstruction.md)完整正交降列给等距U，保首缺位J给||U*J||≤1/12且第q行仅i<q有限来源。先由真实Kh∈H作Neumann解，再逐行唯一，未先假平方和；各Pq h在H时，Kh在H恰等价ρ权平方和，Sh来源上最大域和有限支撑图核心准确成立。W若已付Sh而非零，必须D*h/Kh分别非H的真实抵消；该来源/抵消仍未付，也不把N正交结构套Y。

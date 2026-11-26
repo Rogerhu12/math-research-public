@@ -172,13 +172,13 @@ Deddens自伴MASA、全部可分重数有限成本投影、全2-adic平移距离
 [全部整幂根与闭域](results/R12-appendix-all-integer-power-root-multiplicity-and-closed-root-domains.md)已证X^q=λI_k B_m^p有界解恰当q|pk。不整除的闭稳定域根不能包含任何完整Ran B_m^r；奇p域保持由同一强恢复支付。平坦接口仍为PH⊂DomT，P的像在所有幂像内不支付此包含。
 
 
-新同eta原Q4的[整首项零面](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-same-eta-quartic-leading-zero-exclusion.md)与[整个ehalf原纤维](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-ehalf-original-exclusion.md)均已独立闭合，可付B_(11,8)、2e−1；原证明无循环。新[整个A24曲线](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-Qa-A24-curve-exclusion.md)以799次QQ完整覆盖和3116次完整结式约化的保次数一元证据关闭，Qa投影只余C83。C83/H33完整QQ投影120秒SIGALRM无返回，冻结；新[原N1/Qa主子式整零面](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-N1-Qa-pivot-zero-exclusion.md)已闭，67项v一次J1可逆，四原矩阵身份给同点λ=d12/δ、f=−d02/δ。继续同eta与完整原mean/P/N，不重复大投影或把两线性行当全系统。
+同eta原Q4整首项B_(11,8)、ehalf、整A24与N1/Qa全部J1零面已闭，原四矩阵身份给同点λ/f，余Qa投影C83；C83/H33完整QQ120秒失败冻结。全部原证明、799次覆盖及保次数证据保[压缩前open](notes/2026-11-27-open-before-full-commutant-denominator-obstruction-8542.md)。继续完整原mean/P/N，不以两线性行替全系统。
 
 
 [b=c整支](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-equal-singleton-weights-and-same-eta-elimination.md)已付U/Bnum；新[同eta五几何变量完整原输入](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-same-eta-five-geometry-original-system.md)保15原式、全部mean与N/P偶奇、相同eta和物理L返回。源7161bc65实际build11.280860秒/exit0，run45908775594已1200秒超时，独立std过、仅BEGIN、无单位，源冻结；改上述新原二次重写。
 
 
-[全交换子兼容字符喷射与平坦分母](results/R12-appendix-full-commutant-compatible-formal-jets-and-flat-root-denominators.md)已付：不整除闭稳定根的实际标量分母必须属于I∞，该范数闭理想强*稠密但与UHF零交。仍须在其中构造同源PH⊂DomT及有界分子；R267共同全部幂分母的平坦性不付这一真实域包含。
+[全交换子兼容喷射](results/R12-appendix-full-commutant-compatible-formal-jets-and-flat-root-denominators.md)只给不整除闭根的实际分母必平坦。新[完整C无任何非零分母定理](results/R12-appendix-full-commutant-no-bounded-regularizer-and-nonclosability.md)已对显式正连续循环f证明PX_f全柱无界、无PH入域、C1∩Cf=0；两轨道均稠密，完整C无可闭性/任何RSC向量。原完整高块误差、固定外锚与全列范数都已付，不能再从I∞/R267的强*密度推出一般分母。继续利用实际闭根或湮灭见证的额外方程构造特殊来源，不把该坏源移给它们。
 
 
 五原二次式F_(41,33)必要曲线已付；新[H_(6,4)整首项零面](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-quadratic-head64-zero-exclusion.md)由230→89次QQ覆盖和同原G132,109的一元Bézout关闭，125.960501秒/exit0。可解五个二次单项式，续三次重叠与同点原N/P；有限生成不作自由。10×10全伴随180秒失败冻结。
