@@ -1,0 +1,40 @@
+{
+  "schema": "r150-unit211-zero-base-local-execution-20261126-v1",
+  "session": "Astra-ISP-347c-20261126",
+  "agent": "unit31_general",
+  "dateUTC": "2026-11-26",
+  "executionKind": "completed local exact QQ computation before executor replacement",
+  "label": "unit211_zero_base_347c",
+  "source": "2026-11-26-unit-two-plus-one-plus-one-zero-base-347c.py",
+  "sourceSha256": "862c74dd3888c91e7e24c12707f62af9657b573fd283326b5b12a5219b3004b1",
+  "command": "PYTHONPATH=<python-flint-0.9.0-location> python 2026-11-26-unit-two-plus-one-plus-one-zero-base-347c.py --wall-seconds 180 --memory-mib 1024",
+  "runtime": {
+    "python": "3.12.14",
+    "sympy": "1.14.0",
+    "pythonFlint": "0.9.0"
+  },
+  "returncode": 0,
+  "stdoutSha256": "29f95e2ad083dd9e903710bf7ad0910fd071de98c122d7c6ce14e1738aef38ee",
+  "result": {
+    "JzeroResultant": 5699868278390784,
+    "elapsedSeconds": 1.330961,
+    "genericGcd": "(u-1/2)^11",
+    "ordinaryISPClaim": false,
+    "peakRssKiB": 66212,
+    "resultantDegrees": [
+      19,
+      17
+    ],
+    "schema": "r150-unit211-zero-base-20261126-v1",
+    "scope": "p=q=0 only; full t0, half-coordinate, both mean surfaces and all J0/diagonal fibers",
+    "sourceSha256": "862c74dd3888c91e7e24c12707f62af9657b573fd283326b5b12a5219b3004b1",
+    "status": "all_exact_QQ_checks_pass"
+  },
+  "recovery": {
+    "originalTemporaryFilesystemLost": true,
+    "sourceRecoveredFrom": "original two tool-call source blocks preserved in the agent conversation",
+    "sourceByteIdentityVerifiedBy": "sha256sum after executor replacement",
+    "reexecuted": false
+  },
+  "ordinaryISPClaim": false
+}

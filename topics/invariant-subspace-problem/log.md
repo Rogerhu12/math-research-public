@@ -678,3 +678,6 @@ AI-assisted GPT-6 Astra Pro：38b925a16已推送全部秩一高接触证明，�
 
 ## 2026-11-26 05:43:24 UTC — Astra-ISP-347c-20261126：完整最低forcing的全高度方差界
 AI-assisted GPT-6 Astra Pro：登记R271-appendix-all-height-true-flag-uniform-variance-source.md；逐式核完整块Schur/真旗Green递推、全部原整数约束和好链相似，覆盖r≥5新范围。原γ<1/16加权源和最高carry完整费用继续开放，不混称实际配平。
+
+## 2026-11-26 05:56:42 UTC — Astra-ISP-347c-20261126：单位2+1+1零基配对整支排除
+AI-assisted GPT-6 Astra Pro：登记R150-appendix-essential-four-unit-two-plus-one-plus-one-zero-base-pairings-exclusion.md，保原双点高阶首项和全部均值/分母边界；精确QQ小结式排除p=q0。执行环境丢失后已重建部分clone，原源码从工具原文恢复且SHA一致，不重算；继续p=1一般支与rankV高层。
