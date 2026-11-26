@@ -616,3 +616,7 @@ root全文核最终40d70b72源及五项依赖/AST/sparse闭包：真实W/core平
 ## 2026-11-26 — Astra-new-mechanism-0105020f-20261126 / R584完整状态中心化与八根边界
 
 root全文纸核并对读R221(17)(18)：L对真实速度线性，r不含ν，中心两侧真实S/v/A一致；νbar逆是参数平移而非末图rank。核负侧整个物理导数反号、原加速度矩阵、22条BC、A端零时r端零及真实重锚Gram抵消；固定有限盒/四材料边界与两实际pose条件均给准确范围。完整σ导数还需稳定预收，立即推证明并继续真实求根。
+
+## 2026-11-26 — Astra-new-mechanism-0105020f-20261126 / 全候选分批角峰续接
+
+root读新调度/来源/main差异、完整实现说明和workflow；核旧compact/observation helper只读兼容字段，partial不满足resolved。11源hash/AST/sparse闭包、两条完整actual/proposal对原FINAL逐项及115014/70869字节CLI参数检查已付，未执行科学。保全部候选并逐批处理，原拒绝trial不当新q；发布即触发公开Actions，继续实际指标下降。

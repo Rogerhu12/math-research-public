@@ -282,3 +282,5 @@
 - [R576首轮有限高度实现](notes/2026-11-26-r576-finite-height-implementation.md)：明确新公开输入，原t^1.1 onset改为C∞并重射H；四个准确尾基、完整core校正和52变量非线性高度，唯一turning根设计E。复步隐式Jacobian与一次同run方向核，实际位置三行metric/两步长曲率及外向速度单独读；尚无有限解/冻结g或连续reach。
 
 - [R584 完整ruling的中心化第三坐标与十九态八端BVP](results/R584-centered-third-history-and-nineteen-state-full-ruling-bvp.md)：**已证明**将L−E存入可逆真实第三坐标，中心共用r_c/νbar且参数变换可逆；双侧A−=JA+仅省冗余八槽，六第三槽全留。19态+3参数/14+8BC准确等价原八根目标，末Gram与三投影、四边界球和两pose读出明确；未授累计稳定/rank/根/完整period。
+
+- [完整候选分批角峰续接](notes/2026-11-26-theta-full-candidate-batches-implementation.md)：新双lane明确续接，512只作批大小，全保每个已观察区间；完整actual/pending/trust及B038未合格身份保留。时钟部分态存q/全观察格/已完成峰/剩余区间及实际成本，不能当接受；原物理/FFT/AD/接受门和未命中的径向/峰库cap不变。
