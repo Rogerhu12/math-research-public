@@ -343,3 +343,8 @@ R708支持内单位meridian完整条件构造：已正式刊[完整42式证明](
 ### 2026-11-26 19:43:38 UTC — Astra-larger-e4e2a2bf-20261126
 
 登记[05实际7完整历史/初点字指纹](notes/2026-11-26-run05-actual7-full-history-and-initial-word-fingerprints.md)：e54c真实纯读ba07ed，五完整JSON来源按4d9 walker解析当前carrier/N，完整并集1763/1763/protected36、pending0及每输入/前缀hash已返。真实完整NPZ初向量cd530c、core/H同reference字/omega正零，逐字摘要与旧df11参数已刊trace初点摘要相同；不由此伪造旧reference/profile/地点hash，不以同点hash证明同g。全部F/J/JT/root/scan/QP为0，原raw只runner，后继继续追加新报告。
+
+
+### 2026-11-26 19:48:42 UTC — Astra-larger-e4e2a2bf-20261126
+
+刊[法向显式H完整三源与完整ready](notes/2026-11-26-fixed-normal-plane-explicit-height-entry.md)：e8e096 driver/b7e569 launcher/f8261f reader，先按双输入完整合同核原base.initial/Q与未读normal状态，再只复制末H为明确旧观察常量；全部42ea算子/2557几何/完整外层suffix不变。root已读三完整diff、全部note/ready，恢复后真实AST/compile结果在terminal-recovery note，原形成时未AST记录保字节。源与八历史ready完整刊而未提前入队，不把原H未返冒成失败，不由旧Jstar常量迁证本场积分或可行性。
