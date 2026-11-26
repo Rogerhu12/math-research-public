@@ -315,3 +315,5 @@
 2026-11-26 08:09 UTC — Astra-larger-e4e2a2bf-20261126：R690新固定gn完整六源/prepare与两方向/纯归因直接刊排，4ae factory+dcfa完整粗Gram+d3c3全driver，真正保E−1/B-a/C-a²的所有均值行，不以moving mean约消新a。实际64362793父全部历史/失败已见点先收再迁新carrier；目标/profile在求解前固定，旧场证书不继承。原mu.01/2×64/4.2/.9/1.01/全部C和母范数保留，显式1e−9不冒原solver floor。静态AST/完整CLI及双代理审核，无本地科学运行，待真实读数后继续。
 
 2026-11-26 08:13 UTC — Astra-larger-e4e2a2bf-20261126：typed SOC真实stage55–57返2d3e，197+2行全部保，内缩后固定typed真值负而完整Kproduct.99201661仍拒；真Phi/amp都过，最终原ray.5实际接受。Pg/tol572816未驻点，后继同父多轮完整分离/更充分内层继续，不松阈值。自身全922first D≤4.118425457/L≥.938819942及embedding实返，完整源/报告/缺失grid cell-u键责任见新note；新固定gn同时执行。
+
+2026-11-26 08:15 UTC — Astra-larger-e4e2a2bf-20261126：旧g face入口独立8c3d/618e修复完整刊排：原全body/roles核验之后独立返回canonical physical base，再由原literal DRIVER_SHA比较，parent/declaredlineage不改。两层真实stderr保留，科学7b3/v5/完整C/原256预算及tau0不改；接同runner已返d4bc fresh目录，后读现有纯reader。仅源码静态/AST与字节等价核对，不把原外层异常冒成已实读内因、不预填新方向成功。

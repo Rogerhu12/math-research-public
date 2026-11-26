@@ -1,0 +1,145 @@
+{
+  "scope": "Only append after publishing the two complete independent adapter/launcher sources. Actual d4bc all-row parent paths already exist; original stage43 failure path is not reused.",
+  "steps": [
+    {
+      "id": "actual-R671-face-PCG-verified-physical-base-first-20261126",
+      "script": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/launch_full_phi_face_pcg_verified_base.py",
+      "parent_bundle": "exact-tail-full-phi-all-row-SOC-first/final.npz",
+      "args": [
+        "--repo",
+        "{repo}",
+        "--work",
+        "{work}",
+        "--model",
+        "R671",
+        "--parent-report",
+        "{work}/exact-tail-full-phi-all-row-SOC-first/report.json",
+        "--parent-source",
+        "{work}/exact-tail-full-phi-all-row-SOC-first-continuation-inputs/derived-parent-row-SOC.py",
+        "--bundle",
+        "{work}/exact-tail-full-phi-all-row-SOC-first/final.npz",
+        "--carrier",
+        "{work}/recover_evidence/gauss6-current-three/same-scalar-gauss-observations.npz",
+        "--node-report",
+        "{work}/fullclosed_solver/data/fullclosed-hold-warm.json",
+        "--scalar-input",
+        "{work}/fullclosed_solver/data/pulse-a5-complete-base.json.gz",
+        "--manifest",
+        "{work}/geometry_path/curvature-qp-spectral-hessian-r22-union-next-four-witnesses-compact.json",
+        "--directions",
+        "1",
+        "--maxiter",
+        "256",
+        "--active-rows",
+        "192",
+        "--stage-block",
+        "64",
+        "--qp-atol",
+        "0",
+        "--qp-rtol",
+        "1e-6",
+        "--soc-tau",
+        "0",
+        "--outdir",
+        "{work}/exact-tail-full-phi-face-PCG-verified-base-first"
+      ],
+      "outputs": [
+        "exact-tail-full-phi-face-PCG-verified-base-first/report.json",
+        "exact-tail-full-phi-face-PCG-verified-base-first/final.npz",
+        "exact-tail-full-phi-face-PCG-verified-base-first/exact-tail-lift-profiles.json",
+        "exact-tail-full-phi-face-PCG-verified-base-first/exact-tail-lift-profiles.npz",
+        "exact-tail-full-phi-face-PCG-verified-base-first-continuation-inputs/SOC-continuation-plan.json"
+      ],
+      "cleanup_generated_patterns": [
+        "exact-tail-full-phi-face-PCG-verified-base-first/inequality-rows-*",
+        "exact-tail-full-phi-face-PCG-verified-base-first/soc-rows-*"
+      ],
+      "scope": "New independent preparation repair, same actual completed all-row d4bc parent, same old fixed g, terminal mu replay, all exact positions, p8/epsilon/scale/norm/C and original v5/all-row scientific source chain. The verified physical base is read only after original 7b3 complete body/role checks; original DRIVER_SHA guard remains. This does not change the explicit original maxiter256 or tau0 and does not claim QP convergence. Failed original stage43 paths are retained. Child preparation stdout/stderr is exposed on any real failure.",
+      "summary": {
+        "exact-tail-full-phi-face-PCG-verified-base-first/report.json": {
+          "schema": "schema",
+          "source_commit": "source_commit",
+          "driver_sha": "source_sha256",
+          "parent_sha": "bundle_sha256",
+          "final_sha": "final_bundle_sha256",
+          "initial_mu": "initial_damping",
+          "final_mu": "final_damping",
+          "old_Phi": "initial.spectral.phi_normalized",
+          "final_Phi": "current.spectral.phi_normalized",
+          "final_max": "current.max_relative_gram",
+          "d0_accept": "directions.0.accepted",
+          "d0_alpha": "directions.0.accepted_alpha",
+          "d0_kind": "directions.0.accepted_update_kind",
+          "d0_QP": "directions.0.qp.schema",
+          "d0_status": "directions.0.qp.status",
+          "d0_Pg": "directions.0.qp.final_face_projected_gradient_norm",
+          "d0_tol": "directions.0.qp.gradient_tolerance",
+          "d0_J": "directions.0.inner_counts.jvp",
+          "d0_JT": "directions.0.inner_counts.vjp",
+          "d0_SOC_attempt": "directions.0.soc_attempted",
+          "d0_SOC_accept": "directions.0.soc.accepted",
+          "final_filter": "final_curvature_filter.passed"
+        },
+        "exact-tail-full-phi-face-PCG-verified-base-first-continuation-inputs/SOC-continuation-plan.json": {
+          "schema": "schema",
+          "parent_driver_sha": "parent_driver.sha256",
+          "verified_physical_base": "parent_driver.verified_physical_base.sha256",
+          "verified_physical_model": "parent_driver.verified_physical_base.model",
+          "physical_base_adapter": "parent_driver.physical_base_adapter.sha256",
+          "actual_mu": "actual_terminal_damping.terminal_damping",
+          "actual_driver": "derived_driver.sha256",
+          "actual_return": "actual_return.returncode",
+          "actual_QP": "QP_source.sha256",
+          "raw_positions_read": "scientific_arrays_read"
+        }
+      }
+    },
+    {
+      "id": "actual-R671-face-PCG-verified-base-returned-attribution-20261126",
+      "script": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/read_constrained_solver_report.py",
+      "parent_bundle": "exact-tail-full-phi-face-PCG-verified-base-first/final.npz",
+      "args": [
+        "--repo",
+        "{repo}",
+        "--report",
+        "{work}/exact-tail-full-phi-face-PCG-verified-base-first/report.json",
+        "--driver",
+        "{work}/exact-tail-full-phi-face-PCG-verified-base-first-continuation-inputs/derived-parent-row-SOC.py",
+        "--out",
+        "{work}/postprocess/actual-face-PCG-v5-verified-base-attribution-20261126.json"
+      ],
+      "outputs": [
+        "postprocess/actual-face-PCG-v5-verified-base-attribution-20261126.json"
+      ],
+      "summary": {
+        "postprocess/actual-face-PCG-v5-verified-base-attribution-20261126.json": {
+          "schema": "schema",
+          "report_complete": "report_complete",
+          "source_body_bound": "actual_driver.actual_entire_body_AST_matched",
+          "final_bundle_sha256": "final_bundle_sha256",
+          "final_Phi": "final.spectral.phi_normalized",
+          "final_max": "final.max_relative_gram",
+          "final_damping": "final_damping",
+          "direction_accepted": "directions.0.accepted",
+          "direction_kind": "directions.0.accepted_update_kind",
+          "QP_status": "directions.0.QP.status",
+          "QP_advances": "directions.0.QP.advances",
+          "QP_projected_gradient": "directions.0.QP.final_face_projected_gradient_norm",
+          "QP_tolerance": "directions.0.QP.gradient_tolerance",
+          "SOC_proposal": "directions.0.SOC.proposal.proposal_available",
+          "SOC_reason": "directions.0.SOC.proposal.reason",
+          "SOC_accepted": "directions.0.SOC.accepted",
+          "SOC_projection_feasible": "directions.0.SOC.projection.numerical_feasible",
+          "SOC_projection_converged": "directions.0.SOC.projection.minimum_norm_convergence_claimed",
+          "SOC_projection_violation": "directions.0.SOC.projection.actual_maximum_violation",
+          "SOC_old_linear_violation": "directions.0.SOC.proposal.corrected_maximum_linear_violation",
+          "SOC_new_model_violation": "directions.0.SOC.proposal.all_fixed_parent_nonlinear_target_maximum_violation",
+          "field_calls": "field_evaluations",
+          "J_calls": "J_calls",
+          "JT_calls": "Jtranspose_calls"
+        }
+      },
+      "scope": "Pure existing 9566 reader on unchanged complete 7b3 scientific driver/body/schema after the repaired actual continuation returns; no new arrays/J/fixture and no old failure relabelled as science."
+    }
+  ]
+}
