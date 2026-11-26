@@ -66,6 +66,8 @@ $$
 
 **[rankH3单一三重jet的ess6新归约](results/R150-appendix-rank-three-single-jet-second-cumulant-essential-six-gaussian-reduction.md)：** 原合法坐标/单位规范H后，HK谱(−m/2,m,−m/2)，保全部V收缩的Euler恒等式排V二jet与所有m0特殊/∞。约化V/F2m由原三阶系数和两个V值推出447m⁶0，故只余普通源、约化V的Hp0/F²=−3m²或Hp非零/F=−m。继续其原物理极线，H2+1及非退化三值Gram另保开放。
 
+**[单位211零m两图的线性权重面J0全闭](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-nonzero-base-highest-zero-isolated-mean-linear-weight-face-exclusion.md)：** J=lQ(2u−1)−u(2u+Q−2)；u=1/2会违Q≠1，故合法解l。完整QQ第二轮次数(零,69,60)/(零,232,220)保恒零式，gcd只余第一图Q2并由原五式GB1排除。自含源1.30923秒/64372KiB/exit0；剩余原两图的l6/l8高次行列式因子和全部实际来源继续。
+
 ## 2. R271：同一来源的完整物理费用
 
 目标仍是 $M=\ker T$、$N=\overline{BM}$ 的 $N=M$。保同一 $w/u$、全部 partial、真实 intersection 旗、MP 自然域、负前缀/未来/carry、完整帽逆伴随及外投影；所有已闭引理只能按原范围组合。

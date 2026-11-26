@@ -1,0 +1,34 @@
+{
+  "elapsedSeconds": 1.30923,
+  "finalFiber": "F1 face Q=2 original ideal has reduced Groebner basis [1]",
+  "ordinaryISPClaim": false,
+  "peakRssKiB": 64372,
+  "schema": "r150-unit211-P0nonzero-mzero-linear-weight-face-20261126-v1",
+  "scope": "p+q=2,Q nonzero and not one,P0 nonzero,m=0; J=l*Q*(2*u-1)-u*(2*u+Q-2)=0 excluded on both complete N1 faces",
+  "secondResultantDegrees": [
+    [
+      -1,
+      69,
+      60
+    ],
+    [
+      -1,
+      232,
+      220
+    ]
+  ],
+  "sourceSha256": "a5a848592942b59087c7b276473b9820ba2bde7406055f0f71a62e2c69639495",
+  "status": "all_exact_QQ_checks_pass",
+  "zeroResultantsRetained": true,
+  "session": "Astra-ISP-347c-20261126",
+  "author_agent": "unit31_general",
+  "model": "GPT-6 Astra Pro",
+  "ai_assisted": true,
+  "exit_code": 0,
+  "command": "PYTHONPATH=/tmp/isp-347c05929dd3/deps python 2026-11-26-unit211-nonzero-base-highest-zero-isolated-mean-linear-weight-face-347c.py",
+  "python": "3.12.14",
+  "sympy": "1.14.0",
+  "python_flint": "0.9.0",
+  "stdout_sha256": "1a955b15abc384816a02518db16a2688f4b616796b1bfac6345d590f9565017a",
+  "execution_finished_utc": "2026-11-26T08:07:57.614032+00:00"
+}

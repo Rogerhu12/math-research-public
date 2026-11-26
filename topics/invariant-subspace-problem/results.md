@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R150 单位2+1+1非零最高基值、零孤立点均值两图的线性权重面为空（2026-11-26，已证明）：** [原三mean行列式及完整两图QQ返回](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-nonzero-base-highest-zero-isolated-mean-linear-weight-face-exclusion.md)支付J=lQ(2u−1)−u(2u+Q−2)全零面。完整结式含两个恒零式，第二轮非零次数69/60与232/220；唯一Q2候选回原五式GB1。自含源1.30923秒/64372KiB/exit0；余l6/l8行列式面继续，不以二元gcd覆盖全部零集。
+
 - **R150 rankH3单一三jet本质六维排除非约化V、特殊接触及F=2m（2026-11-26，已证明）：** [合法原jet规范、完整Euler与447矛盾](results/R150-appendix-rank-three-single-jet-second-cumulant-essential-six-gaussian-reduction.md)保同一原六列基及V全部线性/二次项，覆盖0/2/−6/∞。完整最高式三阶系数把F2m的两符号分支排尽；只余普通H源、约化V的Hp0/F²=−3m²或Hp非零/F=−m。纯手证，无新增数值门，其余H支撑型及原ess4/5继续。
 
 - **R150 单位2+1+1非零最高基值、零孤立点均值的两奇异jet面为空（2026-11-26，已证明）：** [原对称图、N1准确两因子及完整例外返回](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-nonzero-base-highest-zero-isolated-mean-singular-faces-exclusion.md)以同一原代数/全jets，关闭F1/u1和F2/l0这两个精确范围。QQ22/58/44与59/92/88结式只余Q15/16或4，回原理想迫bc0或u0；自含源1.138905秒/63756KiB/exit0。两因子的一般部分与m非零仍继续。

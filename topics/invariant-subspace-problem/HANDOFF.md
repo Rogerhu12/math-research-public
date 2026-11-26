@@ -5,10 +5,10 @@
 ## 主目标、规则与执行
 
 - **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍仅全体有界算子的存在定理或完整反例；子结果不作完成。
-- **最近实际 pull / 已读规则提交：** `3bdb136df372e7f0c40823e1bc5b1316b0ecfdba`（2026-11-26 08:10:03 UTC）。本次两README无新规则差异；已读根/课题README、H/open、结果索引及定点log/notes。每次pull及至少每小时比diff，记录SHA。
+- **最近实际 pull / 已读规则提交：** `e67d4a23c43271846dc52688fa6509da4d93a928`（2026-11-26 08:16:39 UTC）。本次两README无新规则差异；已读根/课题README、H/open、结果索引及定点log/notes。每次pull及至少每小时比diff，记录SHA。
 - 私库 `QUEUE.md` 已成功更新认领，提交 `e776df496eedfa449b0475cefe140fdae7023db4`；非快进已逐次pull --rebase后重推成功。研究在公开仓库，私库仅维护QUEUE；不force，令牌仅CLI环境。
 - 工作树 `/tmp/isp-347c05929dd3/math-research-public`；root独占git/索引，代理独占TMP；每结论单推，仅存源/参数/身份/SHA。
-- 完整交接链见[最新压缩前H](notes/2026-11-26-handoff-before-rank-three-triple-jet-347c.md)及其旧归档。MD<100KB、H<10KB、open尽量<30KB、topic<200MB；不写根LOG。
+- 完整交接链见[最新压缩前H](notes/2026-11-26-handoff-before-unit211-zero-mean-linear-face-347c.md)及其旧归档。MD<100KB、H<10KB、open尽量<30KB、topic<200MB；不写根LOG。
 - 请求14、311及权11旧执行身份已登记，不重做已闭计算。
 - 当前并行：rankV2/rankH3的ess6满支撑；unit211一般q/P0非零的m零/非零分工；R271全T孔权及允许改零列的真实Schur/MP。全局幂与算子桥继续。
 
@@ -25,8 +25,8 @@
 - **[rankV2高本质维的均值支撑等式](results/R150-appendix-rank-two-third-cumulant-outside-range-mean-essential-support-equality.md)：** y∉RanV且essT3≥4时，y∈essT3且essT3=span(y,RanH,RanV)。纯原张量缩并，不预设共同物理除子；这层属于inner-ess路线，不能套外ess长度5排除。
 - **[rankH2/rankV2全部ess≤4](results/R150-appendix-rank-two-second-and-third-cumulants-have-essential-dimension-at-most-four.md)：** 双约化最后Gaussian规范代回两个分别的原H值式，得A²=B²=e²/2、e⁴=−F⁴，再e=2F、17F³0矛盾。全二jet/∞已付，无新计算；该规范不再做物理曲面门。rankV2的ess5/6只余rankH≥3，ess4仍开。
 - **[rankH3约化退化Gram的ess6必要归约](results/R150-appendix-rank-three-reduced-second-cumulant-degenerate-gram-essential-six-gaussian-reduction.md)：** H为三不同点且自身Gram退化时，原完整梯度排全部F0、V二jet和非零Hp；六列完整根向量/二维正交补均付。只余双约化、F≠0、Hp0、H Gram秩2且两非零边，非退化Gram及H多jet未覆盖。
-- **[unit211非零P0/零m两奇异jet面已空](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-nonzero-base-highest-zero-isolated-mean-singular-faces-exclusion.md)：** p+q2，原N1=F1F2；准确只闭F1/u1与F2/l0，QQ22/58/44及59/92/88余根返回bc0/u0。自含源1.138905秒/exit0；两一般面继续，未宣整m0空。
-- **[rankH3单一三jet的ess6归约](results/R150-appendix-rank-three-single-jet-second-cumulant-essential-six-gaussian-reduction.md)：** 合法局部规范保全部V项，原Euler给F³+9Fm²−6m³=4e³；全特殊接触m0、V二jet及F2m排空，后者原三阶jet给447m⁶0。只余普通H源的Hp0/F²−3m²，或Hp非零/F−m；H2+1等未覆盖。
+- **unit211非零P0/零m：** 原N1两面F1/F2各自奇异F1/u1与F2/l0均已空；[新J=lQ(2u−1)−u(2u+Q−2)面](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-nonzero-base-highest-zero-isolated-mean-linear-weight-face-exclusion.md)也全闭，QQ(零/69/60)、(零/232/220)保零结式，余Q2回原ideal1。自含源1.30923秒/exit0；现在两面仅续J非零的l6/l8行列式因子，不宣整m0空。
+- **[rankH3单一三jet的ess6归约](results/R150-appendix-rank-three-single-jet-second-cumulant-essential-six-gaussian-reduction.md)：** 合法局部规范保全部V项，原Euler给F³+9Fm²−6m³=4e³；全特殊接触m0、V二jet及F2m排空，后者原三阶jet给447m⁶0。只余普通H源的Hp0/F²=−3m²，或Hp非零/F=−m；H2+1等未覆盖。
 - 原纯三次判据准确为Q=B³−27A²D，旧正号不可作证；原来源全保索引。
 - 原4212来源/系数高度、全局Bell自然幂及算子桥仍开；每图须真幂来源并N=1+Σ(Ni−1)粘合，几何覆盖不能替代。
 
