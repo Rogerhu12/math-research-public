@@ -367,3 +367,8 @@ q_C[x-c_1]\in C(\mathbf Q),\qquad
 \(m\) 层本原性。它尚不保证本篇任意选定具体 \(C\) 模型的
 Néron differential 饱和；同源尺度与原 \(c_1\) jet 的相对比较
 仍是实际待证接口。
+
+
+## 后继：实际整MW消去测试
+
+[R1035](R1035-original-lowest-type-integral-Lie-comparison-by-two-PD-thickenings.md)已支付原最低型的实际Lie整搬运；[R1036](R1036-original-integral-alternating-test-and-complete-MW-annihilation.md)进一步核本篇条件非挠块的split中心及原J真实重数，构造由完整原log定义的整MW消去泛函。它可能为零或非本原，原CM配对K_p仍待单位证明；不据此宣称本篇任意商模型的Néron格饱和。

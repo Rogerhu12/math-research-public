@@ -275,3 +275,8 @@
 ### 2026-11-26 22:52 Asia/Taipei — R1035 原实际Lie整比较
 - [R1035](results/R1035-original-lowest-type-integral-Lie-comparison-by-two-PD-thickenings.md)：短PD R/(ε²) 的角色缺失给实际G₁模ε²为constant；大PD(ε²)完整阶乘界给原crystal M⊗R与actual Fil graph，M_L整同构实际Lie，保split Hecke及真实本地T5/δ的协变作用。未用R→k的π-PD或Frob Fil补空间；实际配对、全部F₀/同源重数及两列取值仍须证明。
 - global/o2/root独立纸核两种PD、全部阶乘和子理想、真实graph与态射自然性；global全文审候选b668422d5819b06f487345f9333519728d694de7通过，并单独核准补入的F²M=V²M=pM formal范围证明。root亲读Zink Theorem48/94、Cor95及topological basechange/Th103。未把辅助Res同源重数默认为一；实际MW配对另证。14:41 UTC一次宿主恢复探测仍无环境，继续根规矩8 GitHub小文本同步。无数学执行；H逐字归档，两README差异检查。
+
+
+### 2026-11-26 23:16 Asia/Taipei — R1036 实际整MW消去测试
+- [R1036](results/R1036-original-integral-alternating-test-and-complete-MW-annihilation.md)：原source Fp²下降与Hermitian切线给Π²=−p，B(v,w)=〈Πv,w〉整对称完美，A=B(v,T5Dw)交错。split-Hecke生成真实F₀，原J的D₀非挠paired块实际仅一次C，故完整v=ε⁻¹e₁logP定义整泛函消去全部MW及饱和格。原CM最高系数=−κ₁√A_tail λ₀^−n₀ K_p/m，K_p=(1/2)Σq_s a_s H_(s^p)仍须证非零；未宣泛函本原或唯一零点。
+- root/global/o2独立纸核；global与o2完整审候选e4a36f9a4717b4f73a4a308c238fcad702ee43eb均PASS，按共同意见补Hermitian重合点切线项、α角色及p处至多一维说明。原辅助h2没有冒原J重数，F₀全部中心与实际v消去逐项支付。只定义K_p未宣单位；实际Hodge graph新算子与p5双中心另继续。无数学执行，两README同步差异检查。
