@@ -546,3 +546,13 @@ Serre 主目标仍 OPEN。
 \(p\ge47,\ p\equiv11\bmod12\)。因此本篇原 entire-Jacobian
 首 log 准确非零，深度为 \(m\)。它不指定哪个 SS 分量为单位，
 也没有省略本篇 §8 的实际非 CM 整投影条件。
+
+
+## 后继：实际杀 CM 的整方向
+
+[R1026](R1026-original-single-remainder-and-integral-CM-annihilating-log-direction.md)
+对原 \(P_1\) 证明充分大 \(p\) 的单一非整除，并通过同一
+\(\delta_*P\) 的完整公式给实际整 projector
+\(e_-=(1+\zeta\delta_*+\zeta^2\delta_*^2)/3\) 的首 log 单位。
+在 \(p\equiv11\bmod12\) 行它杀全部 CM 新部，保原饱和 Lie 商
+本原性；具体简单商 Néron 格与原 CM jet 比较仍未省略。

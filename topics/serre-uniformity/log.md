@@ -225,3 +225,8 @@
 ### 2026-11-26 20:14 Asia/Taipei — R1025 原全部方向实际符号
 - [R1025](results/R1025-original-theta-exact-mod-six-direction-phases.md)：原全部方向相位已定：d_A=δ′_p abγ、2c_A/γ=δ′_p e_Aab，故η³C_N=−δ′_p e_Aab/2；a,b为α,β mod√−3的±1，e_A由模2非零列给出。所有有限处integrality+Kronecker把相位缩为±，实际3处Jordan/Tate线与原二jet读出ab；R1020遂给原带符号五次H值。共同δ′保留，primitive/Legendre同h与bare仍开。
 - o1/root纸核所有有限处、3处真实好模型、torus/Tate线及原二jet；不执行数学程序。继续同一primitive/Legendre retained mark。
+
+
+### 2026-11-26 20:24 Asia/Taipei — R1026 原单余式及真实杀CM整方向
+- [R1026](results/R1026-original-single-remainder-and-integral-CM-annihilating-log-direction.md)：固定hypergeometric两尾系数rank2给定义明确绝对C_*，全部p>C_*、p5mod6原Q∤P1−y^ℓ。实际p11mod12行，e_-=(1+ζδ+ζ²δ²)/3作用原logP的首层非零；R575/R1010完整CM方向使其杀全部CM新部，旧部亦杀。原Lie格的饱和CM商中准确Fm本原；未宣R1011具体Néron商格单位或原CM jet半径。
+- 两正Euler积分、分数幂、固定det界与真实δP相位均纸核；完整原CM方向已逐源确认。继续实际quotient/CM jet，不把饱和Lie商冒充Néron格。

@@ -292,3 +292,12 @@ E_5=
 - [执行路径纠正](../notes/2026-11-26-execution-path-deviation-and-correction.md)：global_route 的违规 V8 探索及数值复核不作为本篇证据；这里使用 o2 与 root 的独立纸面推导及上列可逐项核查的整数式。
 
 Serre 主目标仍 OPEN。继续实际非 CM 整投影及原候选排除。
+
+
+## 后继：单一角色的充分大范围
+
+[R1026](R1026-original-single-remainder-and-integral-CM-annihilating-log-direction.md)
+不再联合第二整除或中心条件，而以同一个 \(P_1,Q_p\) 的
+固定特征零解析来源证明充分大 \(p\) 的单一非整除，
+继而给实际杀 CM 的整 Lie 方向。它与本篇覆盖全部
+\(p\ge47,\ p\equiv11\bmod12\) 的 whole-vector 定理互不替换。

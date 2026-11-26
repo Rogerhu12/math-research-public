@@ -357,3 +357,13 @@ q_C[x-c_1]\in C(\mathbf Q),\qquad
 - Clemens Fuchs and Duc Hiep Pham, *The p-adic analytic subgroup theorem revisited*, **p-Adic Numbers, Ultrametric Analysis and Applications 7** (2015), 143–156，Theorem 2.2，特别是结论中代数子群包含指定点：[原文](https://arxiv.org/html/1502.00768v1)，[DOI](https://doi.org/10.1134/S2070046615020065)。
 - 原几何、点域和基点归一化：[R616](R616-original-CM-point-difference-and-explicit-height-basis.md) §§1–2；原非 CM 非挠输入：[R1010](R1010-original-CM-divisor-nontorsion-in-nonCM-part.md)。没有使用相反扭向的秩零断言。
 - global_route 与 root 独立纸面审核三次标准表示、内扭曲/Schur 指数、实际商下降及两次解析子群定理。root 补核每个 \(\ell\)-进系数域因子的非零性与 \(\dim\mathcal L_\ell=f\)。本篇无新数学程序执行，无旧窗口重算。
+
+
+## 后继：原饱和 CM Lie 商的首层单位
+
+[R1026](R1026-original-single-remainder-and-integral-CM-annihilating-log-direction.md)
+在充分大的 \(p\equiv11\bmod12\) 行，给原 \(P=(p-1)D_0\)
+在真实整 \(\delta\)-方向和原 Lie 格定义的饱和 CM 商中的第
+\(m\) 层本原性。它尚不保证本篇任意选定具体 \(C\) 模型的
+Néron differential 饱和；同源尺度与原 \(c_1\) jet 的相对比较
+仍是实际待证接口。
