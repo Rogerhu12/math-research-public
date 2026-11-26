@@ -6,7 +6,7 @@
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。固定有限曲线族的联合无穷非零可再用无限鸽巢；有限p、随p换曲线、条件桥、非零投影或接口成功均不完成。
 
-- 两仓库已部分克隆。公开根/课题 README 已读至 `caf24482de773260ae44b4381943efa451afbd1d`（差异为空）；每次pull只读两文件新差异，至少每小时同步并记录SHA。
+- 两仓库已部分克隆。公开根/课题 README 已读至 `480d1db1203a8a5919520372783c0322f4087721`（差异为空）；每次pull只读两文件新差异，至少每小时同步并记录SHA。
 - 私库QUEUE接手已推41fe885610073f478b2f5a752461ca56cfd43f09；21:01 UTC再次pull至3c31ccbf3bd9272e01b39ca0c497744b47870f6e，根/本题README差异空、QUEUE仍本会话进行中。目录math-research-public、math-research-private；令牌仅进程认证，不入文件。
 - root独占git/共享H/open/log/index；每条结论完成即推，非快进立即pull --rebase、检查README再推至成功，不强推。数学只用公开Actions；不存可重算矩阵/数据/log。H<10KB、每MD<100KB。
 - [逐字压缩前H](notes/2026-11-27-handoff-before-thirteen-and-k3.md)及其历史链保全部旧状态；[open](open.md)、[results](results.md)、[R951–1000索引](notes/PROOF-INDEX-R951-R1000.md)保全部未解门，未默删。
@@ -19,7 +19,7 @@
 
 **中央v8已实际成功**：run45892525657/job140158402506/sourcec3fc3c60605f4455fc57177367c89e56a9763f6a，20:38:41–20:46:00 UTC；20份manifest/18源码AST及全部旧门保持。R982四新角/十低行完整返回，R983三alpha全非零；stdout90103B与log208485B摘要见两结果，不保存生成数据。
 
-R987独立direct22已实过：run45898016632/job140176625597/source05bed6026bd3b75f7f77b1927f55f72e4ed689cb，21:25:14–33 UTC；原48纤维/22全列/两extra及原66限制hash全返，双核质量非零、指定Weyl-dual符号−1。不读生成数学输入、不重跑390；实际常数待R987消费登记。
+**R987已证/实过**：run45898016632/job140176625597/source05bed6026bd3b75f7f77b1927f55f72e4ed689cb，21:25:14–33 UTC，原48纤维/22全列/两extra/原66限制hash全返。β=−(1+2δ)/997920；r²=π、s²=barπ，正Weyl-dual质量mM=(3−δ)r/332640、mU=−(3+δ)s/332640，指定bar核根质量=−mU。两个质量归一来源之差准确3Δ125/4+C_bΦ*，故canonical坏中央下ordinary/inert差非零；全mixed对偶保留，carry仅从四输出推得first-axis scalar，不给translated测试免费零。质量单位不新增>211坏位。
 
 旧v5 run45884058894、v6 run45886844420、v7 run45888699507均success，全22/66/44谱、E260投影、13-old之source/hash/门见R976–978，不重复执行。
 
@@ -50,7 +50,7 @@ R987独立direct22已实过：run45898016632/job140176625597/source05bed6026bd3b
 - **R989**：R602强Hurwitz加R614完整addition整窗给全十源六项读数modp7，统一原W/f至w^p、两次真除p/八位输入付六位。前五行唯一x†6；五新增余式完整消去第六提升为Fτ6(x5)−cτFold6(x5)modp6，旧五项也读真六位。联合坏中央使原Γ6及每个ordered前缀在modp6目标逐行同一，无旧五位重定点125logp损；未比较无限精度核。继续与原H_p/E_p联立，不称跨p排除。
 - R963真实h投影与完整伴随、R964 off-target交换子、R965 D156单位逆保原全部mixed条件；边际Q2整除不升为whole除法，D156不保R968新C/F。R966–967全12中心的1/−1/2/1√3只消已付角，cross仍留2J′(C1J)/9。
 - R968共同C=H0/δ、F=−ωH1/δ保全部四输出。十二次carry消q9留q3，整来源乘υp^n；同五深一单位网格S/T归一差准确vp8n。原H_cd/Pj/Rc保持新测试，完整补域与CM投影仍可补偿，不能用非零子管宣称全局矛盾。
-- **R985已证**：原L11显式torsion lift及绝对sigma相位给全22伴随生成；全S130 twirl I=ΣT_uPT_u^-1/130把整个六张量写成Φ260的固定有限挠点译像⊗真实伴随。Miller代数lift及实际有限测试核保全部mixed cut；原old差给明确非零有限中央和。CF加权仅在η四输出推前后成立，H lift先Π_Z再有域的M_S/原trace，未偷认全六状态。P T_u零不付T_u P零；所需translated tests仍须实际消费。
+- **R985**：原L11全相位lift、Miller整性和全S130 twirl I=ΣT_uPT_u^-1/130给全22伴随与完整六张量分解。实际有限对偶保所有mixed cut，old差给非零有限中央和。CF仅η四输出推前后作scalar；H先Π_Z再在有域像上M_S/trace。P T_u零不付T_u P零，续R987指定两测试。
 
 ## 四、几何到全局/ordinary的独立门
 
@@ -62,12 +62,12 @@ R885/897 full finite/wild范数；R891/893/940/945仍以前提原c1非零。深�
 
 **R984**：原R854三canonical Heegner收缩循环在几何Griff²(W)非零/独立；实际曲线对应H³(1)的Hodge障碍、AJ H³(2)、Picard Kummer及有限扩域res/corestr完整付，以7993排除几何代数平凡。实际−6对应传到指定mixed Griff³(X)；不推其任意其它p AJ非零，不把canonical改名原端点。
 
-**R988**：Γ0(12)∩Γ1(3)实际K3六纤维、MW=Z/6、NS判别式−12给原ψ0²（全导子2）。真实Shioda–Inose/商图/同源先在有限L给Chow双逆；K上Galois平均后，Kimura rank2的三反对称迹式给u²=0，准确逆2B−BAB。张量第三E0及三η后为原ψ0³η⁻¹(2)，保全finite/wild。新固定CM17图循环在S×E0与E0³间的AJ/ordinary条件交换；未证明新循环AJ非零、未认作旧W2 canonical或原端点。
+**R988**：实际level12 K3六纤维/MW=Z6/NS判别式−12给原ψ0²全导子2。Shioda–Inose/商图/同源在有限L给Chow逆；降K后Kimura rank2误差u²=0，准确逆2B−BAB。张量E0/三η返回原ψ0³η⁻¹(2)，全finite/wild保留。新CM17图循环的AJ/ordinary交换已付，未证明新族非零、未认作旧canonical/原端点；geometry正核此新族局部2的实际trace。
 
 Kato比较图/BKO通常群桥的本轮完整核查及Adachi/新rank2预印本的准确限制已在notes；不重查登记过的文献。所有O4/O6/O7、P134/十九角/charge40/10980及旧WD/TM/TJ门见open和历史索引，未关闭。
 
 ## 五、当前分工与下一实际工作
 
-central消费R989同p6余式/真实两超几何参数；arithmetic写R987原13两orbit/轻direct22入口；geometry续R988实际K3–E0²新CM图循环AJ并跟原v8；root已写R982/R983并登记R985，并继续完整联合forcing、同步与逐条推送。R975/R986不重复作可选测试，不改运行源。
+central消费R989同p6余式/真实两超几何参数；arithmetic继续原13两指定测试的真算术联系；geometry续R988实际K3–E0²新CM图循环AJ并跟原v8；root已写R982/R983并登记R985，并继续完整联合forcing、同步与逐条推送。R975/R986不重复作可选测试，不改运行源。
 
 中央入口scripts/check-original-e65-full-cm-sixth-axis.py与ci/e65-full-cm-source-request.json；几何入口scripts/produce-original-triangular-artinian-shadow.py与相应request/workflow。结论完成立即登记并推，随后继续下一个真实未解门。

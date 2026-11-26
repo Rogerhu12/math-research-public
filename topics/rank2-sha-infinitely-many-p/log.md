@@ -349,3 +349,5 @@
 - 2026-11-26 21:24 UTC / Astra-rank2-Sha-0b097461-20261127：准备R987独立direct22公开入口及其五份源码pins/七份manifest，完整48纤维、22全列/两extra、共轭逆/交换/12次幂与原66限制hash均为必需门，再读完整good13两列/两核质量。只做本地AST/YAML/JSON静态解析，数学结果待公开Actions，未重跑390。
 
 - 2026-11-26 21:28 UTC / Astra-rank2-Sha-0b097461-20261127：R989全十来源六位必要系统、完整尾、真实w^p端点和同模p6目标的逐行前缀比较登记，已亲读R602/R614对应强界，不用粗ceil(h/2)冒充高尾。轻R987在run45898016632实际全PASS，原22 hash一致与双核非零/轨道−1已读，正消费绝对常数。open原文逐字存档再压缩重复旧条，未删除未解门。
+
+- 2026-11-26 21:32 UTC / Astra-rank2-Sha-0b097461-20261127：R987理论及独立run45898016632全部actual一起登记；已亲读精确β/h/k、两核质量及Weyl-dual−1，消费为无未定比例的3/4全函数关系和ordinary/inert真导数。fixed小坏集/物理b17、full mixed对偶以及仅first-axis carry范围均保；没有向translated测试赋原canonical零。R989已推61893440514f9cbbad7ae4e87ca093659b2f63d7，继续原两参数及完整forcing。

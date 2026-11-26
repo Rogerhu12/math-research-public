@@ -87,3 +87,6 @@
 
 
 - [R989](../results/R989-original-ten-source-sixth-digit-and-unchanged-six-block-prefixes.md)：全十实际来源以R602强Hurwitz及R614完整addition整窗付全部无限尾，六项J′准确modp7；原W/f至w^p、八位输入和两次真实除p支付同五高轴的六位Hensel点。五新增行的第六提升完整消去为Fτ6(x5)−cτFold6(x5)modp6，保旧五项的真实第六位及不同charge Euler读者。联合坏中央使原完整Γ6、低权格/五修正和每个ordered前缀在模p6目标逐行同一，比较新六位点无需125logp旧重定点成本；不比较无限精度核。原H_p/E_p全部六位须同点联立，未推出跨p非零。
+
+
+- [R987](../results/R987-original-thirteen-two-orbits-and-normalized-central-difference.md)：原Φ*=E65³的两个13核各两六点平均完整落于Φ*与两E125 raw old pull的三维空间；实际good13全trace给θ=−1−2δ。独立48纤维/22全列与原66限制hash全返，β=−(1+2δ)/997920、指定bar根对Weyl-dual符号−1，绝对质量mM=(3−δ)√π/332640、mU=−(3+δ)√barπ/332640，在固定小坏集外均单位。归一两平均之差准确3Δ125/4+C_bΦ*，给canonical坏中央下的显式ordinary/inert非零差。完整finite-theta adjoint保全部mixed cut；carry只从原四输出identity推出first-axis scalar，不给任意六变量测试scalar或两个译像免费中央零。run45898016632/job140176625597/source05bed6026bd3b75f7f77b1927f55f72e4ed689cb已消费。
