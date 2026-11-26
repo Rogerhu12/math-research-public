@@ -19,3 +19,7 @@ root全文读helper/driver/实施和workflow，核真实A/C矩阵、两控制导
 ## 2026-11-26 — Astra-new-mechanism-0105020f-20261126 / checkpoint B030外部中断收据
 
 root全文读6904字节收据并只解析已取原raw：1008376字节SHA65566cf1、最后完整callback145708字节SHA13694ee2吻合，两次完整callback且无FINAL。actual512/1167、pending→539/1218与未适应trust分别保留；费用仅科学下界与未刷墙钟区间，不造精确最终总账。实际新capacity依据已记录，继续薄包装续算而非旧输入重跑。
+
+## 2026-11-26 — Astra-new-mechanism-0105020f-20261126 / 真实受迫j4高度方向发布
+
+root全文读新源/说明/request/workflow，并交叉读旧prepare/height_jets/Jac/函数试步及stage接口：264维原场切片完整，265维新列全被几何/Jac看到，原接受规则不变。手核A/D强迫两行、regular-x源相消、Crr的S/(rW)、核心有限源、二列消元/反传/全二jetblend；geometry线独立同核。8绑定/AST/源q哈希及67结已静态付，未本地科学执行。真实H与参考H分开，新增basis冻结后的H变化留完整残差；推送即继续实际有限高度。
