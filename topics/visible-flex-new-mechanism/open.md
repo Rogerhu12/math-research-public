@@ -467,3 +467,7 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 ### R605 真全程返回输入与29条硬边界已进入原mass
 
 [正式源说明](notes/2026-11-26-r605-memory-energy-hard-mass-implementation-agent.md)以sin⁴ϑcos²ϑ形状使m中心/末端为0而内部正；全八矩与末速度0必使B端0，这条必要端条件已进入guide。固定64点同一定义I、全程两侧共λ目标后，原mass以真实中心Jet和单位列精确消元29BC；投影初猜与实际历史缺陷分别输出，仍须支付原有限ε/全rho/ruling/period/pose/reach。
+
+### B030 真保留态的可行回溯进入正式计算
+
+[正式源](notes/2026-11-26-r566-working-backtrack-implementation.md)持久保真实working可行基epigraph与q，回缩工作不可行的后端trial，只有全coarse/fine/角定位/nested通过且真改进才接受；缩短步接受即重启。原132427B FINAL重组身份精确相同，未完成trust决定不补算。下一从真正自然终态判是否已跨过322次工作拒绝的具体瓶颈。

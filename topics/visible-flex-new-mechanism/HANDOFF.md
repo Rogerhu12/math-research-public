@@ -5,7 +5,7 @@
 
 ## 1. 规则、授权与原始记录
 
-公开已读提交 **0b40e5d55db3a21c91bd9a9e41afb3dc3dfcbf6c**（2026-11-26 15:35 UTC；本次实际pull后根/题README空差异）；最后实际pull及规则同blob读至 **4cdc56e5daaf56b750a3b518d2244c97fdff42ac**（2026-11-26 15:35 UTC；实际pull成功，根README空差异、QUEUE仍本会话）。私有 QUEUE 仍为本会话进行中，原认领提交9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7，其他课题认领不改。
+公开已读提交 **c5564fffd3f8081ca7cf9f6cb2687b962cfcc607**（2026-11-26 15:39 UTC；本次实际pull后根/题README空差异）；最后实际pull及规则同blob读至 **11e7bad28f4a1b04b53773daf62361f7a176cfab**（2026-11-26 15:39 UTC；实际pull成功，根README空差异、QUEUE仍本会话）。私有 QUEUE 仍为本会话进行中，原认领提交9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7，其他课题认领不改。
 
 [本次压缩前全文](notes/HANDOFF-before-continuous-angular-bounds-20261126.md)及其所链[继承交接](notes/HANDOFF-inherited-20261116-1809.md)保全部结论、条件、旧失败、输入与费用；不因摘要删账。三次环境失联后已恢复；远端临时CLI和后续本地CLI均真实双pull/rebase/push。每次实际pull后查根/题README差异并执行，至少每小时；API读取不冒pull。root独占git和共享索引，每条结论即推，NFF立即pull --rebase再推至成功。
 
@@ -19,7 +19,7 @@
 
 [原工作行自然终态及证据恢复](notes/2026-11-26-r566-working-rows-natural-final-and-log-recovery.md)：run45828479581/job139938706452，经只读恢复run45844119049完整核38.7MB原log/670JSON；新科学2370.471193446秒、326Jac/322工作行拒绝，0接受/0fine/0角定位。真实81q SHA7e708ba7仍是原输入，η.25895160785933824/V0资格沿用原来源，不冒新观察；571圈/1276峰/1536角完整保留，working150无pending，actual/proposed trust均.3003387451171875，末trust决定未完。未接受SLSQP/trial不当输入。
 
-下一从此真实状态作工作行可行性回溯/恢复，合格后仍过全部coarse/fine/真实角定位；不重做已付restriction映射核。链已知科学下界5246.342038514秒，旧三段未刷费用仍未知。B038缺原末log不作输入。
+[新工作行可行回溯正式源](notes/2026-11-26-r566-working-backtrack-implementation.md)保此真实q/150行/未完成trust决定与可行基extra，沿后端trial二分至2⁻¹⁶。working合格后仍过全部coarse/fine/真实角定位，缩短步全门接受即重启后端；旧restriction核不重跑。链已知科学下界5246.342038514秒，旧三段未刷费用仍未知。B038缺原末log不作输入。
 
 ## 4. R582：实际有限非圆与完整尾部
 

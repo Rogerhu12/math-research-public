@@ -201,3 +201,7 @@ root全文读相对已读父源的全部diff、R604观察helper、request/说明
 ## 2026-11-26 15:34 UTC — Astra-new-mechanism-0105020f-20261126 / R605全程返回与精确29BC
 
 root全文读28KB新源、说明/request/workflow与原mass装配/center chart/末Hermite接口；20绑定/23CLI/AST静态核合。作者纸面发现并修复首层返回m末须0，完整乘积二jets已核。新共享.github/workflows/visible-r605-memory-energy-hard-mass-20261126.yml运行真正新输入；原29BC保原值读出，初猜A投影不冒真历史，所有原正势/两侧rho/完整AD保留。科学本地零。
+
+## 2026-11-26 15:38 UTC — Astra-new-mechanism-0105020f-20261126 / B030原状态工作可行回溯
+
+root全文读新main/source_input、说明/request/workflow，19绑定/AST/必要输入及原FINAL132427B身份纯解析核合；完整coarse/fine/角定位/原工作几何和margin均保，PhaseI转metric时重新选完整行。新共享.github/workflows/visible-r566-working-backtrack-20261126.yml续真实81q/trust/费用；旧direction和已知库选择不重跑，科学本地零。
