@@ -310,4 +310,6 @@
 
 - [R687：中心化正谱目标与趋零最大误差界](results/R687-centered-spectral-loss-and-sharp-zero-limit-bound.md) — 正项表达避免常数底相减，完整正权下的有限max双边界在损失趋零时趋零，显式L/epsilon块权比；区分原三分量坐标及完整QP，未运行、不冒连续误差或新候选。
 
+- [R688：完整移动均值导数的粗Gram与活动面PCG](results/R688-complete-mean-metric-coarse-Gram-and-face-PCG.md) — 两均值导数和新的R664块完整装配，保所有角点/径向行/原母范数；正定失败只在链前显式回退原全mean QP，不删变量或改目标。三源完整刊载，尚无实测加速或新数值。
+
 - [R689：固定有限均值目标的公共项抵消与全域连续Gram证书](results/R689-frozen-finite-mean-continuous-gram-certificate.md) — 两个准确场的公共lift平方在包围前恒等抵消，完整共同分割及双方物理余项归一化；同一个冻结目标覆盖不同mesh/M/N，严格全胞才给全域上界。完整Actions入口已刊，仅静态核查，无新误差或reach数值。
