@@ -773,7 +773,7 @@ add4、bezout2、swap2、scale0；原域提升恰另有scale4。
 
 这些是同一完整算法和实际返回的回执，原306几何仍没有由此冒记成功。
 
-## 8. 已审持有的原 Artinian v7（未触发）
+## 8. 原 Artinian v7 的完整输入与实际启动
 
 v7相对§6的v6只增加§7完整 preimage pin和实际原F两图门：
 原 $H_D,M_N,Y$ 的全部摘要必须连接，原306源/目标全形状、
@@ -793,5 +793,13 @@ r29/q2453/batch64/minimal以及全部旧原门不变。
 | `ci/original-triangular-artinian-shadow-request.json` | `975bced4fb2130a46ca47209f30fe17b29426fda` | 835 / `aec8f1d46935ffc9686f86c66bb79774aa2a5906af656d39fc826e76ccd37050` |
 
 workflow仍为 `5713d440f42e1bd2f638944ce2dc9d3d4ddd1d5b`。
-v7是当前最新已审持有版本，尚未挂触发路径。
-须等唯一原F实际终点，结合日志再接；不能把两个小API的成功当原除子或shadow成功。
+2026-11-26 14:24 UTC，原F v3已实际350分钟超时，完整日志与已见瓶颈见
+[几何记录§4](../notes/2026-11-26-geometry-7d29.md)。
+本次将以上三份v7源码及原审定workflow同时挂入实际触发路径，
+启动唯一后继原306/全厚shadow作业；source/run/job在平台生成后登记。
+workflow为1654字节，SHA256
+`4f81e15af934ae89cd98722427853679581297c1a424a7e4372ff79fc1ff8622`，
+四个准确push paths、ubuntu-latest、360分钟job、21000秒host，权限只读。
+原F实际θ17=[5,10]而tiny为[0,21]；本v7从原same six.artin_constants读取，
+核θ17^6=17并逐系数/全部Frobenius返回，不假定特定域生成元或纯虚坐标。
+原全部门与两份原PASS pins保持；不能把两个小API的成功当原除子或shadow成功。
