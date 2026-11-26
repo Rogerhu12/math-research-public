@@ -6,7 +6,7 @@
 
 ## 1. 规则与接手
 
-已部分克隆并实际 `git pull main`，公开根 README、课题 README、HANDOFF、open、results 索引及相关 log/notes 已读。公开已读提交 **98e3aee3eec975cffd02219161d6e0d938efad78**（2026-11-26 08:42 UTC；本次实际pull后根/题README空差异）；私有根初读 **85fdf1853367ef25c07f3ebdb6ae25c22a3564b8**，随后逐次 pull/rebase 检查根差异，空差异。私有 QUEUE 的本题已改为本会话进行中并成功推送：**9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7**；最后实际pull及规则同blob读至 **4f7e1d119bd02b0b37fe4d2d409a4f88c6a96a9e**（2026-11-26 08:06 UTC；实际pull/rebase后根README空差异、QUEUE仍本会话）。其它课题的并行认领保留。
+已部分克隆并实际 `git pull main`，公开根 README、课题 README、HANDOFF、open、results 索引及相关 log/notes 已读。公开已读提交 **4e0fcb6cfae103aff827afeaea22658fad0362b2**（2026-11-26 08:44 UTC；本次实际pull后根/题README空差异）；私有根初读 **85fdf1853367ef25c07f3ebdb6ae25c22a3564b8**，随后逐次 pull/rebase 检查根差异，空差异。私有 QUEUE 的本题已改为本会话进行中并成功推送：**9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7**；最后实际pull及规则同blob读至 **4f7e1d119bd02b0b37fe4d2d409a4f88c6a96a9e**（2026-11-26 08:06 UTC；实际pull/rebase后根README空差异、QUEUE仍本会话）。其它课题的并行认领保留。
 
 各原观察note保真实双仓pull/规则blob/QUEUE回执；根/题规则均无变化。盘满和失联恢复原记录保于[先前交接](notes/HANDOFF-before-hard-restoration-20261126.md)，历次全文见[几何转向前交接](notes/HANDOFF-before-compact-geometry-20261126.md)及[非线性高度前交接](notes/HANDOFF-before-nonlinear-height-20261126.md)。API读取不冒git pull。
 
@@ -39,15 +39,16 @@
 
 ## 4. O4 两个不同母库的有效入口
 
-**33母（保原20/cap/13与一次固定χ）**：R533–560已付真返回层、双保持及p1/p2端图，净t1仍负。原所有范围/失败见上述完整交接与open；下一同一完整F/history的长程变高度净正t1，余矩/pose/period仍欠，不跨接R521母。
+两母不可混用：**33母**保原20/cap/13与一次χ，R533–560已付真实返回层和双保持/p1p2端图，净t1仍负；继续同完整F/history的长程变高度净正t1，细条件见[open](open.md)。
 
-**R521正交母（不继承33母的原20/cap/13）**：[R567](results/R567-complete-next-order-history-and-eight-exact-matrix-moments.md)保同χ真实history/跨带/完整次阶清原八矩，m=A=0；[R568](results/R568-even-end-germs-and-real-second-third-return.md)付双端偶germ，PP^R闭scalar/m/A/T。[R570](results/R570-neutral-residence-pose-and-real-four-piece-return.md)再付真实pose，使(PP^R)²闭scalar全jets/frame/位置/A/T，但第四仍4V_P。[R572](results/R572-odd-map-mother-and-all-actual-packet-total-fluxes.md)从起点奇映射选同一母，清自然Λ(U)、环境E的raw self和R521全部微包总通量；非零χ的A=T=0周期等canonical∈E。whole period/内部partial/同13未清；R573又限制原分离尺度几何。前史所有限定结论仍保于完整交接/各R原文。
-
+**R521正交母**不继承上述20/cap/13。[R567](results/R567-complete-next-order-history-and-eight-exact-matrix-moments.md)清八矩m=A；[R568](results/R568-even-end-germs-and-real-second-third-return.md)付偶germ；[R570](results/R570-neutral-residence-pose-and-real-four-piece-return.md)使(PP^R)²闭scalar/frame/位置/A/T，整个第四仍4V_P。[R572](results/R572-odd-map-mother-and-all-actual-packet-total-fluxes.md)从起点选母清自然Λ、环境raw self和全部微包总通量；内部partial/whole第四/同13仍欠，原分离尺度又受R573限制。完整前史保于[压缩前交接](notes/HANDOFF-before-nonlinear-height-20261126.md)。
 
 R555/R526/R517原条件范围继续有效；未付端口不由下游条件定理自动消失。
 
 [圆核原终态](notes/2026-11-26-circular-entry-and-small-core-continuation-receipt.md)run45778418134新增2401.892431903秒：p=.18入口V0/η8.66e−16；p=.20/.19/.185/.1825依次η.004477/.002407/.001116/.000541，均未过stage1e−4。前三角容量、末时钟，非无解证据；最后合格仍圆核。stage4实际156×384、235×768仅最终扫描提议。下一调圆背景使真实j2核心forcing线性匹配，再预测有限非圆，不机械缩p冒分支；所有p设计变化非同g。
 
+
+[R577](results/R577-intrinsic-geodesic-normal-chord-and-complete-reach-certificate.md)给新的连续认证接口：完整面|κ|≤K且实际内蕴d≤π/(2K)的点对保持法弦半径1/K；坐标路径只需给d上界。与远对严格分离/法弦全覆盖合成嵌入与reach，当前仅有限曲率扫描不能代入该K。
 
 ## 5. 正在继续的实际工作
 

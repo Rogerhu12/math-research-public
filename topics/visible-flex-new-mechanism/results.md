@@ -246,3 +246,5 @@
 - [角峰首启动失败与传递依赖修复](notes/2026-11-26-theta-peak-import-closure-failure-and-repair.md)：双lane缺既有resume模块，0模型求值，启动wall合计1.270919秒。仅补sparse/hash依赖闭包，科学源和全部参数保持，修复请求重新启动原未执行科学。
 
 - [R530稳定局部场与有限四次history实现](notes/2026-11-26-r530-stable-local-field-and-finite-quartic-reduction-agent.md)：新公开单job提交，原局部η/完整未消history/3×8×8真实张量，固定profiles在24/48/96阶求积精化；加速度正积分，不用巨大值相减。尚无ODE/根或rank，原开发偏离收据保留。
+
+- [R577 真实内蕴短距与完整法弦半径](results/R577-intrinsic-geodesic-normal-chord-and-complete-reach-certificate.md)：**已证明**C2浸入的全局实际|κ|≤K下，d≤π/(2K)的不同材料点保弦正和法弦半径1/K；近路径长度覆盖与R30全远对正分离合成嵌入/reach。无需坐标测地线或唯一性，未付当前数值连续K/全点对门。
