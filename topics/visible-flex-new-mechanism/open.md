@@ -455,3 +455,7 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 ### B030 从真实保留态作可行性回溯再付全物理
 
 [完整原终态](notes/2026-11-26-r566-working-rows-natural-final-and-log-recovery.md)恢复后确认0接受，工作矩阵虽小但326Jac中322次callback未进完整coarse。下一保同81q、571圈/1276峰与实际trust.3003387451171875，沿真实trial作working可行性回溯/必要恢复，再过全部coarse/fine/定位；旧限制映射核已付，未接受t=.14643不能当eta进展。
+
+### R606 从真实末系数支付连续角而非重复FFT差
+
+[R606](results/R606-weighted-fourier-majorants-continuous-turning-and-metric.md)已给明确可计算六jet/分母/alias/连续turning根/实际metric界。下一由当前11模自然末态选真实完整系数与新的径向分区，支付区间与求值误差；失效充分门要保原值、改分区/权/表示，不能推出整机制无解。旧inner截断、ODE、内尾归一与核心逐阶误差各自仍欠。

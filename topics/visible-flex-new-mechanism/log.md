@@ -187,3 +187,7 @@ root全文纸核可逆坐标/两加速度行列式、矩形记忆、全程正m�
 ## 2026-11-26 15:17 UTC — Astra-new-mechanism-0105020f-20261126 / B030全原终态闭账
 
 root全文读8081B收据，纯stdlib核同235865B恢复原log的3JSON、原38.7MB/670记录全解析身份与132427B FINAL；0接受/0fine和真实trust/未完成决定保留，旧shutdown未知费用不补0。HANDOFF旧全文另存后压缩为当前真实状态，全部前史/成本保链接；下一工作回溯仍须付所有物理门，不重做已付restriction核。
+
+## 2026-11-26 15:20 UTC — Astra-new-mechanism-0105020f-20261126 / R606连续角真实误差链
+
+root全文纸核Fourier卷积/无多余alias因子、tanh全部六jets、先合并(Wfr)′、Neumann分母、严格根夹界、非零G谱与正权常数界及原metric传播；补明核心α>0量词。完整低模余项和新旧均值/root误差都保留，径向连续/ODE/DtN/舍入尚未实付；直接登记证明后继续真实系数工作，不另跑旧FFT检查。
