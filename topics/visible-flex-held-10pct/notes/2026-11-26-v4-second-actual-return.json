@@ -1,0 +1,71 @@
+{
+  "schema": "held10-v4-second-actual-return-v1",
+  "maintainer": "Astra-held10-06bbeb39-20261126",
+  "scope": "Actual v4 lambda=.003/M24 natural return. Both recorded boundary residuals meet their original thresholds, while RMS and solver status fail. The unaccepted return is not a proof of impossibility of the fixed-metric problem.",
+  "observed_at_utc": "2026-11-26 14:14:46 UTC",
+  "evidence": {
+    "repository": "Rogerhu12/math-research-public",
+    "path": "topics/visible-flex-held-10pct/ci/live-probe-result.json",
+    "immutable_commit": "77634805c10c0156bff072741121d437a889daef",
+    "git_blob": "044a5507e0c35c18e3aabf6f56f1194ce4045b57",
+    "commit_published_at_utc": "2026-11-26T14:11:55Z",
+    "command_id": "held10-warm-v4-full-to-complement-20261126-01",
+    "command_checkout_commit": "4a1461933362bea135d4439076c0748eee803ece",
+    "script": "topics/visible-flex-held-10pct/scripts/resume_20261126/warm_fixed_m3_continue_v4.py",
+    "script_sha256": "b8c18468635ebad021c19f0d61f6caec364ebb2343349c6345e25fa8cb2bc021"
+  },
+  "actual_return": {
+    "name": "attempt-001",
+    "homotopy": 0.003,
+    "modes": 24,
+    "run": "/home/runner/work/_temp/held10-probe/warm-v4-design/attempt-001/run.json",
+    "run_sha256": "1b6dff60eba02c61439df6dd4ff9b158d34e9227abfcdfbe366efac9c7cd589c",
+    "raw_file": "inner-00.npz",
+    "raw_sha256": "a8103f4c68a8990e27592c63d854f79b1a5157ab16b6c3604044fed904d1c8f8",
+    "solver_invoked": true,
+    "solver_success": false,
+    "raw_success": false,
+    "raw_status": 1,
+    "nodes": 3130,
+    "rms": 0.0439793756086056,
+    "scaled_bc_max": 3.8905805604949606e-8,
+    "physical_bc_max": 4.656158080187474e-12,
+    "returncode": 2,
+    "accepted": false,
+    "error": null,
+    "domain_newton_stats": {
+      "accepted_steps": 5,
+      "calls": 3,
+      "minimum_alpha": 9.5367431640625e-7,
+      "no_step": 3,
+      "rejected_domain_trials": 16,
+      "rejected_merit_trials": 101
+    },
+    "auxiliary_domain_guard": {
+      "original_open_domain_lower": 1e-7,
+      "original_open_domain_upper": 0.124,
+      "padded_log_precheck_lower": -14.304684934198283,
+      "padded_log_precheck_upper": 1.7259370033829362,
+      "rejected_before_exp": 1,
+      "valid_function_and_jacobian_changed": false,
+      "no_geometry_or_metric_guard_removed": true
+    }
+  },
+  "controller_after_return": {
+    "observed_status": "attempt-002",
+    "last_accepted_run": "/home/runner/work/_temp/held10-probe/warm-v4-design/reexpressed-anchor/run.json",
+    "accepted_lambda": 0.002,
+    "next_action": "bisect_lambda_from_last_accepted_field",
+    "next_lambda": 0.0025
+  },
+  "limitations": {
+    "unexposed_domain_rejection_types": true,
+    "auxiliary_pre_exp_count_not_assumed_to_partition_newton_domain_count": true,
+    "no_failed_field_promoted": true,
+    "physical_file_sha_not_exposed_in_this_projection": true
+  },
+  "no_parameter_or_field_vectors_saved": true,
+  "actual_nonlinear_tail_paid": false,
+  "fixed_metric_refinement_paid": false,
+  "complete_surface": false
+}

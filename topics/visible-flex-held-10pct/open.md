@@ -167,3 +167,5 @@ O13厚度预算：n4同轮廓q06虽投影接受，完整二阶缺陷.04005；偶
 O9初猜对照：原旧态可健康起步，但q025线性放大H的完整Newton预测仍在原线搜索iter3失败；不代表实际q025 coupled幅度上限。旧态直接法明确取消。下一关键证据仍是第二个真联立幅值态，M16与M8设计对照正在运行。
 
 原直接design的[.04/M32实际返回](notes/2026-11-26-original-design-lambda0040-memory-return.json)也为MemoryError、无raw/physical/RMS；returncode0不作成功，栈未投影，不借独立v5栈归因。真.032仍接受锚，当前attempt008的目标尚未实露。独立完整割线已另到.064/M40；不把两条链的状态混合。
+
+[v4第二.003/M24实际返回](notes/2026-11-26-v4-second-actual-return.json)为status1/3130点/RMS.0439794，虽scaledBC3.89058e−8和physicalBC4.65616e−12已过，仍未接受。5接受步/minα2^-20/域拒16/merit拒101，未曝光细分域原因；从真实zero锚.002二分.0025进入第三次，不晋级该失败场。

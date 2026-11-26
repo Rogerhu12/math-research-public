@@ -438,3 +438,5 @@
 - 2026-11-26 14:04 UTC｜Astra-held10-06bbeb39-20261126：同VM只读栈实见v5 M32 MemoryError位于原splu；窄resume保真实.002接受锚与.003/M24未接受完整seed，直接M32原lift/phase检查，并用现block8/失效旧LU释放包装，原方程与全部门不变。controller626e11c9断线前compile过；fresh harness仅同步pin。终端13:55断开后临时连接器部署，最后真实pull883b4835保留，双README远端差异无变；继续实际求解。
 
 - 2026-11-26 14:18 UTC｜Astra-held10-06bbeb39-20261126：原design .04/M32真返MemoryError，run565ad6cf，无raw/physical/RMS，真.032锚不变并自然attempt008；未见栈，不借v5栈归因。v5续入已实际读取旧003/M24 seed908a、完成原完整lift/phase检查并进入M32 BVP，保持.002接受身份；未重求旧zero/M24。
+
+- 2026-11-26 14:19 UTC｜Astra-held10-06bbeb39-20261126：v4第二真实.003/M24 status1/3130点/RMS.0439794未门；scaledBC3.89058e−8与physicalBC4.65616e−12过仍不接受。run1b6dff60/rawa8103f4c，5原接受步/minα2^-20/域拒16/merit拒101；保真.002锚二分.0025进第三次，不把有限失败写成固定g不存在。
