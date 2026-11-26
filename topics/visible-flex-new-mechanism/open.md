@@ -26,7 +26,7 @@
 
 [原311正常范围](notes/2026-11-27-r582-physical-normal311-resume-implementation.md)已审发布：原全部科学数值函数和门保持；按311真实库接续，永久旧fine不丢，旧Jac/诊断不重做，未存后端数组不伪恢复。p阶段约2.5e−7未过不升级；目标p=.8、末η≤1e−7。同空间真停滞时按实际残差换输入/算法，不能只延已停实例。当前mean g仍是设计变量，最终须同一g/参数/时间域精化。
 
-最新mean q64:80及h96均变，首个tail-u坐标q80也变；[当前59a4完整新几何范围](notes/2026-11-27-r623-current59a4-single-field-geometry-scope.md)已审发布，重新支付同mean圆参考及全C0/C1/R623K，不移旧a237/f1/0d资格。一次精确f60重建可复用同59a4原16149物理观察；再异场则同对象付全物理和连续几何。旧169/185/189/243/279/298、50Jac无接受、finite表示失败和全部μν/三种子费用见[279前史](notes/2026-11-27-r582-physical-pending279-original-terminal.md)及归档，未撤旧账。
+最新mean q64:80及h96均变，首个tail-u坐标q80也变；[当前59a4完整几何原终态](notes/2026-11-27-r623-current59a4-complete-reach-original-terminal.md)已成功：实际再生0d而非优化f60，明确新付同q16167×3072物理资格与同mean圆参考/全C0/C1/K；R622完整reach/D≥.0311710349107。该资格仅属此q/p/实际field，运行中normal的新q不能直接继承。旧169/185/189/243/279/298、50Jac无接受、finite表示失败和全部μν/三种子费用见[279前史](notes/2026-11-27-r582-physical-pending279-original-terminal.md)及归档，未撤旧账。
 
 ## O2b-B：全奇位置继续下降，同时落实真正固定g的增长响应
 
@@ -97,7 +97,9 @@ K-attainer的reference-normal H11和完整H11都约85.090789，投影没有消�
 
 [R623](results/R623-exact-finite-vertical-primitive-with-normalization-remainder.md)准确有限v primitive及全部归一化余项证明保持。[K-only原终态](notes/2026-11-27-r623-curvature-only-original-mesh-mismatch.md)：run45902483327/job140191333308/source18d66d1a3，新科学133.483449239秒，实际端点mesh f60be03b≠原0d222，入口真实拒绝，未开始区间K。相同62878端点/声明输入和软件不能证明相同场；新dense960932RHS、旧960944，差异已在ODE出现，根因未证。旧δ/α/K仅属原0d。已核原完整端点/段dense未保存；后继转最新59a4/f60，其mean也变，完整重付自身圆参考/C0/C1/K。若同field可复用同59a4原物理观察，再异场则同对象重付物理；禁止改标签或以小口jets差转移全域界。
 
-新K完整后才接R604；[R622](results/R622-longer-intrinsic-near-pairs-and-same-bound-reach.md)仅在短证书未建立或远项限制且比例不足时另组合。若短证书已受1/K限制，更小的.9/K不可能改善，跳过。完整证书可取max，不能混新较长阈值与旧1/K。若新范围clock中断，保已闭区域最大值/原剩余栈/当前未闭cell，补剩余而不复跑已闭叶。
+[当前59a4原完整证书](notes/2026-11-27-r623-current59a4-complete-reach-original-terminal.md)新增300.608286784秒：实际0d重新付16167物理、mean3038叶/非圆18134叶且无未闭。δ≤.001950462096/α≤.022649638646/K≤17.994055844；R604比例.0298560486123远项受限，再按声明同输入接R622得到near .0500165169989/far .0519626546087/D≤1.60458313759，完整比例≥.0311710349107>.03。单有限材料闭嵌入与全部几何已建立；η3.84e−5、fixed g和宏观门仍未过。mean帽高宽1.81724e−6及全部尾误差保留，不裁为目标精度。
+
+后继新候选K完整后才接R604；[R622](results/R622-longer-intrinsic-near-pairs-and-same-bound-reach.md)仅在短证书未建立或远项限制且比例不足时另组合。若短证书已受1/K限制，更小的.9/K不可能改善，跳过。完整证书可取max，不能混新较长阈值与旧1/K。若新范围clock中断，保已闭区域最大值/原剩余栈/当前未闭cell，补剩余而不复跑已闭叶。
 
 [R611](results/R611-actual-circular-reference-complete-reach-certificate.md)与R608/R599原圆全闭证书只在同准确mean身份上复用。参考R604有限observer、Hermite seed数值值和finite FFT都不自动成连续证明；材料定义、无限参考、数值评价误差三者分开。目标不足则增强实际充分界或换实际输入，不能据充分门失败断整个机制无根。
 
