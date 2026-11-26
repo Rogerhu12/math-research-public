@@ -55,3 +55,4 @@
 
 <!-- 6a65-root-literal-rules --> 2026-11-26 15:41:46 UTC 真实pull/rebase读取main ab8e7931197db54e6fe77e2b7bcbdf5c4639cdab，双README逐差无变化；CLI已恢复，后续普通Git发布。
 <!-- 6a65-m12-angular-warm-ci-rules --> README unchanged at ad4b129edcc09592770ea062c229511aae519102; run 45847254548 attempt 1.
+<!-- 6a65-m12-full-normal-ci-rules --> README unchanged at 724c40189bf85488b74487693313877499a75cd3; run 45851669566 attempt 1.
