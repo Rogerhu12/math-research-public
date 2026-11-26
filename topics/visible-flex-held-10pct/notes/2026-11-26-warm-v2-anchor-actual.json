@@ -19,7 +19,7 @@
   "homotopy": 0.002,
   "modes": 24,
   "nodes": 631,
-  "rms": 9.927150345213775e-7,
+  "rms": 9.927150345213775e-07,
   "zero_control_identity": {
     "all_original_RMS_chart_ds_bitwise_equal": true,
     "all_original_RMS_chart_s_bitwise_equal": true,
@@ -49,12 +49,12 @@
     {
       "angular": 1168,
       "component_fft_l1": [
-        6.482415781989006e-7,
-        2.1831101115962824e-7,
-        3.672697116141875e-7
+        6.482415781989006e-07,
+        2.1831101115962824e-07,
+        3.672697116141875e-07
       ],
-      "legacy_max_component_fft_l1": 6.482415781989006e-7,
-      "sample_operator_max": 5.449318613117554e-7,
+      "legacy_max_component_fft_l1": 6.482415781989006e-07,
+      "sample_operator_max": 5.449318613117554e-07,
       "common_node_component_difference": [
         0,
         0,
@@ -65,12 +65,12 @@
     {
       "angular": 2336,
       "component_fft_l1": [
-        6.482415812048341e-7,
-        2.1831101379962403e-7,
-        3.672697140520996e-7
+        6.482415812048341e-07,
+        2.1831101379962403e-07,
+        3.672697140520996e-07
       ],
-      "legacy_max_component_fft_l1": 6.482415812048341e-7,
-      "sample_operator_max": 5.449318613117554e-7,
+      "legacy_max_component_fft_l1": 6.482415812048341e-07,
+      "sample_operator_max": 5.449318613117554e-07,
       "common_node_component_difference": [
         0,
         0,
@@ -79,5 +79,6 @@
       "continuous_angle_inputs_declared_certified": false
     }
   ],
-  "scope": "Actual same-Cartesian-map representation accepted after identical raw equations and two finite angular metric audits. No lambda advance, no new BVP, no new continuous interval certificate, no full nonlinear tail, no complete surface."
+  "scope": "Actual same-Cartesian-map representation accepted after identical raw equations and two finite angular metric audits. No lambda advance, no new BVP, no new continuous interval certificate, no full nonlinear tail, no complete surface.",
+  "physical_sha256": "85ee93caf241c557d131aacae4e0253e023ce8d45ca0db41f109ab937741898a"
 }

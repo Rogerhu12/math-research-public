@@ -1,0 +1,62 @@
+{
+  "session": "Astra-held10-06bbeb39-20261126",
+  "workflow_run": 45775899674,
+  "command_id": "held10-warm-v2-design-20261126-01",
+  "observed_utc": "2026-11-26 08:43 UTC",
+  "source_anchor_run_sha256": "bea39fb06862dfbfa1a00c6b89981f42a02c01b135739a0ee3ec15d716fa4e1f",
+  "source_anchor_raw_sha256": "5dd5419b19ce21ae2ebb088ea5d13ca6f453e60f15970757126dadd8eca18f7a",
+  "actual_completed_bvp_attempts": [
+    {
+      "accepted": false,
+      "error": null,
+      "homotopy": 0.004,
+      "kind": "actual_warm_bvp",
+      "modes": 24,
+      "name": "attempt-000",
+      "next_action": "bisect_lambda_from_last_accepted_field",
+      "next_lambda": 0.003,
+      "physical_bc_max": 3.7197673377788306e-16,
+      "raw": {
+        "file": "inner-00.npz",
+        "nodes": 3168,
+        "rms": 0.12464623790843471,
+        "sha256": "4046b47177b00e9d61960b56f87cc00a85567aad3f8cfd23584ccf9148f206b5",
+        "status": 1,
+        "success": false
+      },
+      "returncode": 2,
+      "run": "/home/runner/work/_temp/held10-warm/warm-v2-design/attempt-000/run.json",
+      "run_sha256": "736f42df1e0be5e97e8dfac2cb2a56d0a2c811f331755caf90ffcb46b7f2852b",
+      "scaled_bc_max": 1.7381929229287607e-13,
+      "solver_invoked": true,
+      "solver_success": false
+    },
+    {
+      "accepted": false,
+      "error": null,
+      "homotopy": 0.003,
+      "kind": "actual_warm_bvp",
+      "modes": 24,
+      "name": "attempt-001",
+      "next_action": "bisect_lambda_from_last_accepted_field",
+      "next_lambda": 0.0025,
+      "physical_bc_max": 3.7197673377788306e-16,
+      "raw": {
+        "file": "inner-00.npz",
+        "nodes": 3144,
+        "rms": 0.0625026081542265,
+        "sha256": "825d2383ea924a71291a6ff24152a84f183717364c846c64b9280ccd2d745a5e",
+        "status": 1,
+        "success": false
+      },
+      "returncode": 2,
+      "run": "/home/runner/work/_temp/held10-warm/warm-v2-design/attempt-001/run.json",
+      "run_sha256": "54b8ad4dedba09907490760733ad84e1d08aed117c6efaf211cdfd4b40908b88",
+      "scaled_bc_max": 1.7381929229287607e-13,
+      "solver_invoked": true,
+      "solver_success": false
+    }
+  ],
+  "accepted_lambda": 0.002,
+  "scope": "Only completed actual finite BVP returns observed so far; controller continues from last accepted source. These failures do not prove physical nonexistence, do not promote any failed field, and do not isolate the cause to a basis condition number."
+}
