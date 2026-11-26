@@ -1,0 +1,58 @@
+{
+  "schema": "held10-original-design-lambda0040-resource-return-v1",
+  "session": "Astra-held10-06bbeb39-20261126",
+  "scope": "Actual original design lambda .04/M32 returned MemoryError without a saved raw or physical field. Process return code zero is not solver success. The failure location is not exposed here and is not inferred from the separate v5 exception.",
+  "source": {
+    "repository": "Rogerhu12/math-research-public",
+    "immutable_commit": "5496310065e75ee570c1ac6898d881ad6927ae13",
+    "path": "topics/visible-flex-held-10pct/ci/live-design-result.json",
+    "git_blob_sha1": "4acd66db82f95da9b45d561951fff8b74a5d1824",
+    "workflow_run_id": 45801006547,
+    "job_id": 139843898376
+  },
+  "actual_return": {
+    "accepted": false,
+    "actual_audit_mean_nodes": null,
+    "actual_delta": null,
+    "complete_saved_initializer": false,
+    "domain_error_counts": null,
+    "domain_newton_stats": null,
+    "error": "MemoryError()",
+    "homotopy": 0.04,
+    "metric": null,
+    "metric_only_failure": false,
+    "modes": 32,
+    "name": "attempt-007",
+    "nodes": null,
+    "original_finite_checks": {
+      "physical_bc": false,
+      "rms": false,
+      "solver": false,
+      "solver_and_boundary_pass": false,
+      "tolerances": true
+    },
+    "physical_bc_max": null,
+    "physical_sha256": null,
+    "raw_sha256": null,
+    "returncode": 0,
+    "rms": null,
+    "run": "/home/runner/work/_temp/held10-design/design-prefix-recovery/material-delta-design/attempt-007/run.json",
+    "run_sha256": "565ad6cfb24d04054d04381816743721475e0b2183ebcde24e29c2672a4a717e",
+    "solver_success": false,
+    "source_run": "/home/runner/work/_temp/held10-design/design-prefix-recovery/material-delta-design/attempt-004/run.json"
+  },
+  "last_accepted": {
+    "homotopy": 0.032,
+    "run": "/home/runner/work/_temp/held10-design/design-prefix-recovery/material-delta-design/attempt-004/run.json",
+    "run_sha256": "556ddefe35eac655cc961a903d0fd42031e8806778b33f7eb275c1799e330566",
+    "raw_sha256": "16e1673d69400c9c28efd2f7107927326c4284820c1886f83638df528b172b19",
+    "physical_sha256": "211b225e238a47f67fd879bcee22fcc4399360a2f093d8c36073ccea95cb412e"
+  },
+  "controller_observed_status": "attempt-008",
+  "next_actual_target_unexposed": true,
+  "failed_return_not_promoted": true,
+  "mathematical_nonexistence_claimed": false,
+  "full_nonlinear_tail_paid": false,
+  "fixed_metric_refinement": false,
+  "complete_surface": false
+}
