@@ -323,3 +323,6 @@ NS五件共129172B，owner71056B SHA18db439d5895e4232882940a57b7bd9457982383e1ac
 
 
 2026-11-26 22:27:22 UTC / visible-exact-astra-fb31ed6-20261127：登记QN完整proof/checker，59/59 saved有理组合已过。原PH高逆扩至未知无穷尾A³≤1e−6、实际外端≤1e−9；new mean principal由完整Riccati吸收，两个body<.310/.801、whole exterior反射<.002402、旧root反射<.453/4.129，七端口/jumps与mean保。root特别读QN4–6的非解析资格：原L无权module加实际长PDE有限Fourier强极限保真holonomy mean，Cauchy是函数参数而非空间strip。HL/LH/LL新全频费和非零mean行/列<77ρ/281ρ均保，full finite/negative/迭代未冒完成。APO已推17142bd76，两README无diff。
+
+
+2026-11-26 22:31:39 UTC / visible-exact-astra-fb31ed6-20261127：root完成UH新统一physical边界Hessian。先完整读旧G/CH/U/SR/N，未重旧角微分或fixedcentre余项；新结论在compact两实际端点的未知A³≤1e−6整球统一给m,v负间隙3、j31/32..33/32、P1<.51、P2<193。完整逆角二变分保μ，ratio后composition总系数1001/600<2，26/26纯有理saved比较过，科学producer0。得两mean未删的one-high H1×L2界及真实二次/差分接收；R的DN仍另需QN外端1e−9与height域。QN已推a67c1d2d8，两README无diff。
