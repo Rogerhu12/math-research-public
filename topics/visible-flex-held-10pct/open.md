@@ -14,6 +14,8 @@ R63固定完整g后把未知核放同一函数空间，必须核与全场C² Cau
 
 [v5最小入口](notes/2026-11-26-v5-original-delta-phase-design-entry.md)已冻结；[fresh lowq直接入口](notes/2026-11-26-seam-fresh-v5-recovery.md)必要恢复实际原R53 M24后直接进入零锚及最多3次原BVP，保baseδ/raw p0/chart、固定q/d1=0与R70高phase。新run45822332434已过bootstrap，probe备用v5已撤，保当前v4计算。[真实零锚](notes/2026-11-26-v5-zero-control-actual.json)已过37项原方程/core/完整jets/chart/mean同一核验，run4593371f/raw6fb36ac7/physicalbce9ccd2；solver=false/null，不当新λ求解接受。[首.004/M24实际BVP](notes/2026-11-26-v5-first-actual-solver-return.json)status0/RMS9.94361e−7/BC1.49e−14过，但metric1.71372e−5未门，仅作完整lift至M32的初猜；6步/minα.5为本次观察，不外推全族。其后[.004/M32真实MemoryError](notes/2026-11-26-v5-m32-resource-error.json)无raw/physical/RMS，driver返回0不等于solver成功；原.004/M24完整metric-only场保留，失败M32不作seed。当前三次段已结束，马上同VM读取已存traceback的源位置/hash以定位资源异常；不重求零锚/M24或猜内存分配位置。每个段返回后依据实际接受场继续，不能把预算返回当课题结束。
 
+[v5第三真实返回](notes/2026-11-26-v5-third-actual-solver-return.json)为λ.003/M24 status0/632点、RMS9.95177e−7/物理BC1.62790e−15，但metric8.46899e−6未门；run908a4801/raw53fc02bc/physical5f911599均完整。三次预算已自然结束，接受锚仍真同图zero λ.002，不能晋级该seed；现在从旧summary双身份直接续首pending=.003的M32原完整lift/phase检查，不重复zero/M24。原.004/M32资源栈另读；资源包装仅原执行优化，保全部有限门。
+
 [原R53完整割线入口](notes/2026-11-26-original-design-secant-entry.md)在独立material新作业必要恢复真实同M两锚后，用原计算t cubic PPoly预测完整Y/p；仅初猜，原solver/RMS/BC/metric全门决定接受。通常网格并集；若超过原max_nodes则在右场原网格评价两原PPoly，不重拟合或截状态。当前链不重启，恢复旧λ不重复计作结论。
 
 [首个完整割线真实返回](notes/2026-11-26-original-design-secant-lambda0032-first-return.json)已全原门通过：.008/.016同M真场预测λ=.032（β2，初猜864点），实际M32/866点、RMS9.91172e−7/metric6.71186e−7/物理BC2.62752e−18，3接受Newton步且无域/merit拒。它到达已登记过的同一λ、得到不同raw场，不声称更高λ/同图/固定g精化；原直接.032是2325点/21步，仅比较本次有限求解观察。run97ffa238/raw28a171df/physicalf0c54a25完整来源已核，父链现attempt001继续。

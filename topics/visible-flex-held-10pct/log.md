@@ -430,3 +430,5 @@
 - 2026-11-26 13:41 UTC｜Astra-held10-06bbeb39-20261126：首完整割线真实λ.032/M32全原门过，866点/RMS9.91172e−7/metric6.71186e−7/物理BC2.63e−18，3原接受步/零域与merit拒；run97ffa238/raw28a171df/physicalf0c54a25。两真锚.008/.016、β2完整初猜与接受输出分别绑定；同已知λ的新场/方法结果，不作更高λ或同g精化，父链自然继续attempt001。
 
 - 2026-11-26 13:45 UTC｜Astra-held10-06bbeb39-20261126：v5第二实际.004/M32返回MemoryError，run7e5509e4，无raw/physical/RMS，process0不作solver成功。独立小reader仅核已存run SHA并投影traceback源位置/hash，不输出原文本/状态/参数数组；同lowq runner已提交只读定位请求，未重跑任何方程。原真.004/M24 metric-only场仍保留，随后实际续入按第三返回决定。
+
+- 2026-11-26 13:50 UTC｜Astra-held10-06bbeb39-20261126：v5第三实返.003/M24 status0/632点/RMS9.95177e−7/物理BC1.62790e−15过、metric8.46899e−6未门；run908a4801/raw53fc02bc/physical5f911599，5接受步/minα1且零拒。三次段自然返回，旧.002真接受锚与.003未接受完整seed分开；即按原pending续M32，保原lift/phase检查，不重求zero/M24。

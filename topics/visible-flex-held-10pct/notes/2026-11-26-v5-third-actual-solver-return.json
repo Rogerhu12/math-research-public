@@ -1,0 +1,102 @@
+{
+  "schema": "held10-v5-third-actual-solver-return-v1",
+  "maintainer": "Astra-held10-06bbeb39-20261126",
+  "scope": "Actual third v5 attempt: lambda=.003/M24 returned a complete solver/RMS/physical-boundary pass with a finite metric failure. This field is an unaccepted solver seed for the next mode lift, and the accepted anchor remains lambda=.002.",
+  "observed_at_utc": "2026-11-26 13:43:48 UTC",
+  "evidence": {
+    "repository": "Rogerhu12/math-research-public",
+    "path": "topics/visible-flex-held-10pct/ci/live-lowq-result.json",
+    "immutable_commit": "5859e00dd3490ccc33142a7df19a3a281594bd7d",
+    "git_blob": "b605bdb66480ff278763a47741bc60354662b724",
+    "command_id": "held10-fresh-v5-delta-phase-design-20261126-01",
+    "command_checkout_commit": "32a9e3bf8e09ef98c3f6f09a1b647ac5b794ba48",
+    "script": "topics/visible-flex-held-10pct/scripts/resume_20261126/seam_recover_v5_material_design.py",
+    "script_sha256": "a8992f4de1b4ddc1a07c3a932f27254d98d6013ad022ffaa6113bcdcdbf4bd8f",
+    "worker_status": "finished"
+  },
+  "actual_return": {
+    "run": "/home/runner/work/_temp/held10-lowq/fresh-v5/v5-material-design/attempt-002/run.json",
+    "run_sha256": "908a480127f769124731af36bcf64196b7507de9b49a85ecbd78194ad7cdbd40",
+    "raw_sha256": "53fc02bc6099e167701f9cd3b1044f9c4e033c54a5970b306913b5ce1419e4cf",
+    "physical_sha256": "5f911599bbe3b71486cb8bd8de9fc2d4fecb7b3839bd995aa53390e1f5b224eb",
+    "name": "attempt-002",
+    "homotopy": 0.003,
+    "modes": 24,
+    "actual_delta": 0.06413454321639729,
+    "returncode": 0,
+    "solver_success": true,
+    "raw_status": 0,
+    "nodes": 632,
+    "rms": 9.951771312030289e-7,
+    "metric_l1": 0.000008468987358775224,
+    "physical_bc_max": 1.6278966166405014e-15,
+    "actual_audit_mean_nodes": 1168,
+    "accepted": false,
+    "metric_only_failure": true,
+    "complete_saved_initializer": true,
+    "error": null,
+    "artifact_error": null,
+    "original_finite_checks": {
+      "actual_solver": true,
+      "angular_floor": true,
+      "metric": false,
+      "physical_bc": true,
+      "rms": true,
+      "solver_and_boundary_pass": true,
+      "tolerances": true
+    },
+    "domain_newton_stats": {
+      "accepted_steps": 5,
+      "calls": 2,
+      "minimum_alpha": 1,
+      "no_step": 0,
+      "rejected_domain_trials": 0,
+      "rejected_merit_trials": 0
+    },
+    "domain_error_counts": {}
+  },
+  "accepted_anchor": {
+    "run": "/home/runner/work/_temp/held10-lowq/fresh-v5/v5-material-design/zero-control/run.json",
+    "run_sha256": "4593371f39fc1b8e81c7e97227c5232fc984746994a0fd810ee72eeabe361a17",
+    "raw_sha256": "6fb36ac7de8a170784be0da282577ad4506e61eb2f930959f26bfa76c045bea6",
+    "physical_sha256": "bce9ccd21ebba59c45af0fc0ffcfb3602a450b6a22ac0d777df1360add1cc975",
+    "homotopy": 0.002,
+    "acceptance_kind": "same_cartesian_map_verified_reexpression",
+    "solver_invoked": false,
+    "finite_linear_candidate_pass": true
+  },
+  "controller_at_return": {
+    "status": "actual_attempt_budget_returned",
+    "accepted_lambda": 0.002,
+    "actual_attempts": 3,
+    "fully_accepted_design_passes": 0,
+    "pending_targets": {
+      "target_00": 0.003,
+      "target_01": 0.004,
+      "target_02": 0.008,
+      "target_03": 0.016,
+      "target_04": 0.032,
+      "target_05": 0.064,
+      "target_06": 0.128,
+      "target_07": 0.256,
+      "target_08": 0.512,
+      "target_09": 0.75,
+      "target_10": 1
+    }
+  },
+  "continuation_requirements": {
+    "use_true_accepted_anchor_and_unaccepted_metric_seed_separately": true,
+    "do_not_repeat_zero_anchor_or_completed_m24_solve": true,
+    "first_pending_target_matches_metric_seed": true,
+    "first_pending_target": 0.003,
+    "next_mode_from_frozen_controller_defaults": 32,
+    "next_mode_is_plan_not_an_observed_accepted_field": true,
+    "original_complete_lift_and_actual_phase_inspection_still_required": true,
+    "prior_m32_memory_error_requires_resource_diagnosis": true
+  },
+  "no_parameter_or_field_vectors_saved": true,
+  "fixed_metric_refinement_paid": false,
+  "actual_nonlinear_tail_paid": false,
+  "continuous_geometry_paid": false,
+  "complete_surface": false
+}
