@@ -460,3 +460,8 @@ R708支持内单位meridian完整条件构造：已正式刊[完整42式证明](
 ### 2026-11-26 21:39:21 UTC — Astra-larger-e4e2a2bf-20261126
 
 登记[04实际48/49第三次全行SOC及a801单准入续算](notes/2026-11-26-run04-actual48-49-third-backtracked-SOC-accepted.md)：原892f/c4b2/μ.01完整场0c9a→a801，Phi .005037813931167355、有限Gram算子范数max .03390456510876344、g负；两SOC/锚1/32/fallback1/64，全2235/2156实际重读，QP64仍iteration_limit。root已读完整小卷真实48/49与全note/全部新argv；原1×64/rest4×64全部变量/C/原目标/地点不变，经789f一次准入完整science+pure，不延硬限。只把实际46/47全对象及全返回证据归档002，未返不动，保全部header和其余对象。
+
+
+### 2026-11-26 21:41:35 UTC — Astra-larger-e4e2a2bf-20261126
+
+刊[R711完整十二片normal入口九源及再生器](notes/2026-11-26-R711-smooth-triangle-full-normal-entry.md)：f848/0d09/6a80/307e/66e8/ef46/fd95/8dc8/3914及dd59完整正文，完整十历史ready保。root逐段读九源全部变更、完整再生器/说明/全部参数；十二片192正权和真实(0,π)工作括号，无强制A(π)=0。原准确g/core/H和全部自由量、normal32/全J链、物理driver与geometry整后缀不变；仅frame create_graph随原外grad状态，active全图保留。只准备未排队，必须等真实旧seed报告并保之后所有地点，不预称成功；d1fe完整交接固定保存后压短H索引。
