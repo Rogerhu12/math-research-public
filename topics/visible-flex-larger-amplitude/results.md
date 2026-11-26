@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- **R710（已证明，条件误差传播定理）**：[支持内单位种子的完整角向误差界](results/R710-supported-unit-seed-complete-angular-jet-error-bounds.md) — 从R709全局正根及全准确残差费用，给北半球弦段下界、全Jacobian与两角jet传播、法向投影和幅度反解、中央/端层物理jet区间；完整有理区间实现严格绑定实际报告/种子/批次，尚无已支付的实际积分与算术费用，不冒节点外或全场证书。
+
 - **R709（已证明，条件存在/控制定理）**：[支持内单位种子的全局凸均值闭合](results/R709-global-convex-mean-closure-without-contraction.md) — 完整端层是凸势梯度，闭球极小给唯一正半球均值根；PSD切块付全Jacobian逆，无需R708的q<1；全一二角jet、同支对称与实际残差到准确根界完整给出，原其余Gram/几何/精化仍待实际求解。
 
 - **R708（已证明，条件构造）**：[支持内单位meridian的三均值收缩与对称转角闭合](results/R708-supported-unit-meridian-seed-contraction.md) — 统一弦长正隙/正竖直分量及端层半球条件给显式共同端层、全三分量收缩唯一枝、单调幅度根、全角反射与core/cap六jet；强条件另给最短SO3图，原其余Gram/几何/表示误差未解决。

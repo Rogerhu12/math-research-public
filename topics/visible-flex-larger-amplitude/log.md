@@ -415,3 +415,8 @@ R708支持内单位meridian完整条件构造：已正式刊[完整42式证明](
 ### 2026-11-26 20:51:03 UTC — Astra-larger-e4e2a2bf-20261126
 
 登记[04实际46/47](notes/2026-11-26-run04-actual46-47-second-backtracked-SOC-accepted.md)并接同892f/c4b2/mu.01下一完整方向：9c9f→0c9a/report606e10，Phi .005135593635366869、max .034109509524516045、有限g负；3SOC/3投影/1最终全memory读、锚.125/fallback.0625，QP64 Pg1.41534仍未驻。46实际全cache/所有39/40/44/46地点显式继承，下一1×64/rest4×64两步完整argv加入04；当前队列<95KB，未移出任何未返任务。全部阈值/原目标/变量不变，未预称下次结果。
+
+
+### 2026-11-26 20:57:43 UTC — Astra-larger-e4e2a2bf-20261126
+
+登记[R710完整角向误差与85e90准确区间核](results/R710-supported-unit-seed-complete-angular-jet-error-bounds.md)：从完整准确均值残差及一二总导数费用，推全北半球弦段正隙、根/J/两角jet、投影w及幅度逆和端层/中央物理jet界。全Fraction外向区间核、精确Taylor余项/Machin常数与实际报告/种子/批次双读身份绑定源已完整公开；root与独立代理逐段核证明/完整源码及最终差异，仅AST/编译/身份验证，无科学本地执行。准确积分、无限尾、三角与算术费用仍需实际支付，未伪造零费request，未把工作残差当准确残差或给全角连续证书。旧03b最后规则核查全文仍在9b8f固定HANDOFF历史链，当前H压导航以守10KB。
