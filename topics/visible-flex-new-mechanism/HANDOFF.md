@@ -5,7 +5,7 @@
 
 ## 1. 规则、授权与原始记录
 
-公开已读提交 **fd9306130da2b6779d99794d42389dc774ad971c**（2026-11-26 16:11 UTC；本次实际pull后根/题README空差异）；最后实际pull及规则同blob读至 **1074df224622463dde97f92c7539df1f75b83a1a**（2026-11-26 16:11 UTC；实际pull成功，根README空差异、QUEUE仍本会话）。私有 QUEUE 仍为本会话进行中，原认领提交9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7，其他课题认领不改。
+公开已读提交 **bf58c0db896c01d135bd1a6c67d6472ffc793f64**（2026-11-26 16:13 UTC；本次实际pull后根/题README空差异）；最后实际pull及规则同blob读至 **3cea6b6ce3e57b3293afb8118922abf58fc6b57d**（2026-11-26 16:13 UTC；实际pull成功，根README空差异、QUEUE仍本会话）。私有 QUEUE 仍为本会话进行中，原认领提交9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7，其他课题认领不改。
 
 [本次压缩前全文](notes/HANDOFF-before-continuous-angular-bounds-20261126.md)及其所链[继承交接](notes/HANDOFF-inherited-20261116-1809.md)保全部结论、条件、旧失败、输入与费用；不因摘要删账。三次环境失联后已恢复；远端临时CLI和后续本地CLI均真实双pull/rebase/push。每次实际pull后查根/题README差异并执行，至少每小时；API读取不冒pull。root独占git和共享索引，每条结论即推，NFF立即pull --rebase再推至成功。
 
@@ -27,7 +27,7 @@ R580排旧有限多项式，R582付实际圆背景无限全平核，R592付遇�
 
 [首个97q终态](notes/2026-11-26-r582-local-tail-first-original-terminal-receipt.md)已付125.663352586秒/17恢复；[更密角网原终态](notes/2026-11-26-r582-paid-angular-original-terminal-receipt.md)run45850216756/job140014319556新217.706907412秒/2恢复/5Jac，metric接受0，η.0004334870087785436、κ16.45256917。真实97q SHAeb37b419，p=.181/ε=.001/trust2；actual185×1536、fine10934×3072保全部旧点，pending4圈，189×3072提议未采用。未过2.5e−7，不增p。
 
-原两metric callback均无紧急角漏峰；backend trial尚违反已加入metric行，fine新径向曲率峰即打断SQP，角翻倍只是附带策略。下一先让全部Rows.fun可行才付fine/交换，保189圈、1536实际约束角和3072细角及未采用proposal身份；不弱化完整接受门。首次R604有限观察δ=.001、α=.00432120、λ=1.0013167、ν=.00417069只复用860块，不授连续界。旧97方向核/诊断不再做；真正阶段通过才增p至目标.8，改g设计不作固定g精化。
+原两metric callback均无紧急角漏峰；backend trial尚违反已加入metric行，fine新径向曲率峰即打断SQP，角翻倍只是附带策略。[当前全行优先源](notes/2026-11-26-r582-current-rows-first-implementation.md)已发布38915135，先让全部Rows.fun可行才付fine/交换，保189圈、1536实际约束角和3072细角及未采用proposal身份；不弱化完整接受门。首次R604有限观察δ=.001、α=.00432120、λ=1.0013167、ν=.00417069只复用860块，不授连续界。旧97方向核/诊断不再做；真正阶段通过才增p至目标.8，改g设计不作固定g精化。
 
 ## 5. 完整高度与非线性核心
 
