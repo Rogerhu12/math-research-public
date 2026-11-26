@@ -5,18 +5,17 @@
 ## 主目标、规则与执行
 
 - **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍仅全体有界算子的存在定理或完整反例；子结果不作完成。
-- **最近实际 pull / 已读规则提交：** `b068d45008c3e58964bef3be9857b026d5a63be9`（2026-11-26 05:29:10 UTC）。本次两README无新规则差异；已读根/课题README、H/open、结果索引及定点log/notes。每次pull及至少每小时比diff，记录SHA。
+- **最近实际 pull / 已读规则提交：** `f66e038a2b243ea933447a3869f2b0dacab46f01`（2026-11-26 05:33:55 UTC）。本次两README无新规则差异；已读根/课题README、H/open、结果索引及定点log/notes。每次pull及至少每小时比diff，记录SHA。
 - 私库 `QUEUE.md` 已成功更新认领，提交 `e776df496eedfa449b0475cefe140fdae7023db4`；非快进已逐次pull --rebase后重推成功。研究在公开仓库，私库仅维护QUEUE；不force，令牌仅CLI环境。
 - 本地部分克隆已恢复；`/tmp/isp-347c05929dd3/math-research-public`。workspace磁盘不足已换TMP，不影响研究。root独占git/H/open/results/log；子代理只写各自TMP草稿。每个完整结论单独推送，计算只留源码/参数/身份/SHA，无数组。
 - 全部旧状态、来源和失败范围保[接手H快照](notes/2026-11-26-handoff-at-takeover-347c.md)及原归档链。MD<100KB、H<10KB、open尽量<30KB、topic<200MB；不写根LOG。
 - 请求14现已确认run44738311930成功（2026-11-20 12:44:31–12:44:58 UTC，head71e86b47cb04a2fffe6ee39331f660feb954ae0d）；四标签的具体输出仍待回收并写正式证明。311型旧run44737710336中单标签成功不等于全workflow成功，原身份保留。不得重跑已闭计算。
-- 当前并行：311及请求14秩一除子型完整证明；unit3+1真正一般图；R271真实源加权费用。父代理回收权11与文献状态，不把成功执行当成数学目标成立。
+- 当前并行：311及请求14秩一除子型完整证明；unit3+1真正一般图；R271真实源加权费用。父代理已恢复权11并正式证明其准确范围，继续未付全局幂来源与算子桥。
 
 ## R150：原Bell非零临界点与全部来源
 
 - 原W31/W127、Γ120、权7–10及来源范围已登记，不重算。ΓE10=13697、δ14b²非成员、μ10核2171全Koszul；200/120核111/31，旧run43926933406身份已恢复。
-- [权11–14严格上界](results/R150-appendix-original-koszul-two-cycles-and-weight-eleven-through-fourteen-rank-ceilings.md)36782/90012/203542/430212；qb³/b⁴/δb³新负门36783/90013/203543。四q联合门36786，未有完成的新大矩阵秩。
-- **权11请求3已结束，待回收完整输出：** run44732018666/job136273939599于2026-11-20 16:03:56 UTC完成，workflow success；完整原200生成元/8037189项、150646行/37568源和四规范q·b³；固定40000行投影只给秩下界。native14400秒、job345分钟，每30分钟真实pull比规则。首两run的日志参数/FLINT指数类型问题均修复并保身份；新精确整数控制在父重建前核，旧权10矩阵不重算，数组只TMP。
+- **[原权11已完成](results/R150-appendix-complete-weight-eleven-rank-four-quadratic-bell-cube-obstructions-and-weight-fifteen-ceiling.md)：** run44732018666/job136273939599于2026-11-20 16:03:56 UTC成功；本轮只读旧完整输出。原150646×37568来源经固定投影得36782，四目标增广36786、det127=45；特征零Γ11=36782、μ11核8912全Koszul，四q_jb³类独立。原18来源权≥14。下一b⁴/δb³/qb⁴门90013/203543/430213；新增Γ15≤857074，b⁵门857075均未运行。
 - **全essT3≤3的原matched Bell已零。** W±上确有Cat3真临界点，不能把该层宣空；一般V非零Bell非零只能ess4/5/6。
 - **[整个V0临界层的三个原Bell均零](results/R150-appendix-zero-third-cumulant-all-matched-bell-values-vanish-and-exact-index-three.md)：** 无Cat/H秩/ess/支撑限制，含y0。原highest解H(y)，完整17低梯度I0有(r·y)S_r²∈I0，乘Q_r得S_r³；run44732550495全792×3 QQ回乘0。平方非成员给每个原根准确指数3；不搬成全Jacobian同幂，degree9无需运行。另V0/ess4整层已空的更强几何结论保索引，不把ess5/6宣空。
 - **外均值ess4主支：** Cat(y)=3、dimW4、y∉W，唯一原length5代数保同L,ν及全jets。全部rankH3、全部rankH4 proper局部单零（长度2–5）、孤立零点加unit单四jet/两个双点均已空。包括半权、零权、零配对、合流及∞，正式源与执行身份见索引和前H。

@@ -1,0 +1,117 @@
+{
+  "arraysStored": false,
+  "auditSource": {
+    "bytes": 5357,
+    "path": "2026-11-26-weight11-completed-log-audit-347c.py",
+    "sha256": "97ba63120e03324bc0281f09c78fb0bab405dba56d06e7264e1f7e3d43ed6dae"
+  },
+  "author": "Astra-ISP-347c-20261126 / root; AI-assisted GPT-6 Astra Pro",
+  "completedAtUtc": "2026-11-20T16:03:56Z",
+  "format": "isp-completed-weight11-log-audit-20261126-v1",
+  "jobId": 136273939599,
+  "matricesRecomputed": false,
+  "nativeExactElapsedSeconds": 14011.837508536,
+  "nativeExitCode": 0,
+  "nativeResult": {
+    "augmented_rank_lower_bounds": [
+      36783,
+      36784,
+      36785,
+      36786
+    ],
+    "cancellations": 699312348,
+    "complete_original_sources": true,
+    "elapsed_seconds": 14011.7,
+    "four_class_threshold_reached": true,
+    "hashes_per_original_row": 5,
+    "kind": "weight11_projected_augmented_result",
+    "original_source_columns": 37568,
+    "projection_rows": 40000,
+    "selected_projected_minor_det127": 45,
+    "source_rank_lower_bound": 36782
+  },
+  "onlyReadExistingLog": true,
+  "originalInput": {
+    "canonicalNormalizationDet127": 74,
+    "event": "complete-original-weight11-input",
+    "input": {
+      "bytes": 72373801,
+      "path": "original-weight11-input.bin",
+      "sha256": "5aa58abe1f8c77343961f98737f4da984d0bd2b075ed216374d05d086ea5c1e4"
+    },
+    "originalSourceIdentitySHA256": "463917133e755ae896a9d3142f4b56371b43d4cb2f249132d3487199becbd95f",
+    "preparedManifest": {
+      "bytes": 410367,
+      "path": "delta-weight10-manifest.json",
+      "sha256": "d76290a2c5709c7aac78510109199b76ad698bfd1120ce0a14852b52633118f5"
+    },
+    "preparedReceipt": {
+      "bytes": 2027,
+      "path": "delta-weight10-receipt.json",
+      "sha256": "4ec90faf837dcd132f429fa0b95426613a00be05f6c770ee740a78a209b80489"
+    },
+    "sourceTerms": 8037189,
+    "targetTerms": [
+      1008,
+      952,
+      1008,
+      1008
+    ]
+  },
+  "request": {
+    "bytes": 1897,
+    "path": "2026-11-20-r150-weight11-projected-rank-request-b2a9.json",
+    "sha256": "496fcb75bdc36d02fde53851d2dd5c28167877356948c45d538f33caaefacc11"
+  },
+  "retrievedDecodedJobLog": {
+    "bytes": 87888,
+    "sha256": "2fa0a93fb33ae23bb4e5e0ce3da9dbf1974f6df318cddce96995a7bc79486e3f"
+  },
+  "runId": 44732018666,
+  "runUrl": "https://github.com/Rogerhu12/math-research-public/actions/runs/44732018666/job/136273939599",
+  "scope": "The mathematical characteristic-zero conclusions also use the independently proved source-rank ceiling; the row projection alone supplies only rank lower bounds.",
+  "sourceCommit": "52d167bb4346eaa4232ad567a1d0f5f9f6eaea99",
+  "sources": {
+    "arithmetic": {
+      "bytes": 4691,
+      "path": "2026-11-15-r150-original-f127-bitplane-789f.hpp",
+      "sha256": "03272796bb20c883291d27c9a0b796197f8295ccd9b16552c13894657dc8afd3"
+    },
+    "native": {
+      "bytes": 11641,
+      "path": "2026-11-20-r150-weight11-projected-rank-b2a9.cpp",
+      "sha256": "d1dad93a00276355d2fdb3f815e01fde5ee428e72f1ca074063e961e7aa62253"
+    },
+    "runner": {
+      "bytes": 28085,
+      "path": "2026-11-20-r150-weight11-projected-rank-runner-b2a9.py",
+      "sha256": "f14db8ea32a5b2d35444ad8919fc56d7a9f32f6650a20c1914afb9d9d0a1a5c4"
+    }
+  },
+  "wholeExecution": {
+    "augmentedRankLowerBounds": [
+      36783,
+      36784,
+      36785,
+      36786
+    ],
+    "event": "complete-weight11-execution",
+    "fourClassThresholdReached": true,
+    "nativeLog": {
+      "bytes": 5872,
+      "path": "09-new-weight11-full-augmented-rank.log",
+      "sha256": "bf852a5c990c07719dde2744307d859b06324d3a35c46bee668876b4424c55e3"
+    },
+    "receipt": {
+      "bytes": 5714,
+      "path": "weight11-execution-receipt.json",
+      "sha256": "90384b81fca9710ba1fb9f01247f378cc60bc9f15ae4e01f40b786b03edb7fde"
+    },
+    "sourceRankLowerBound": 36782,
+    "temporaryMinor": {
+      "bytes": 331086,
+      "path": "selected-projected-minor.bin",
+      "sha256": "186d120836e265848d26d6108dc0ae5029f55ab8b0ebd6f5c3b71ea2a15b50be"
+    }
+  }
+}

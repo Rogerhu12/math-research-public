@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R150 原权十一准确秩与四个二次式乘Bell三次幂的独立性（2026-11-26，已证明）：** [完整投影下界、特征零夹逼及权十五新门](results/R150-appendix-complete-weight-eleven-rank-four-quadratic-bell-cube-obstructions-and-weight-fifteen-ceiling.md)恢复run44732018666原完整输出，36786阶投影子式mod127=45；结合独立原上界得ΓE,11=36782、原μ11核8912全Koszul，四个q_j b³类线性独立。两呈示核786/306，任意非零q组合的原十八来源权至少14；新增Γ15≤857074。未重跑矩阵，不把投影秩当上界；更高Bell幂与完整算子桥仍开。
+
 - **R150 秩一V的三重均值极线乘二次余因子完整分类（2026-11-26，已证明）：** [完整原梯度、全部射影边界和特征零证明](results/R150-appendix-rank-one-third-cumulant-three-plus-one-plus-one-mean-divisor-classification.md)把 $P_y\propto\Delta_s^3(q_s/\Delta_t)$、$q_s(t)=0$ 的全部临界点分类为 $s=t\in\{0,2,-6,\infty\}$ 的真临界族；各族完整 $T_3=0$。恢复旧run44737710336单标签原输出，完整368阶mod1009行列式774及全部边界门均非零；未重跑已付计算，不扩大为全rankV1或普通ISP。
 
 - **原算子全部非零闭不变子商的移位相似障碍（2026-11-20，已证明）：** [完整弱逃逸及交织成本证明](results/R12-appendix-shift-similarity-subquotients-and-intertwiner-power-cost.md)由原二幂弱极限I/2排除与任意重数严格分级移位及有限维块直和的有界相似，包含全部标量加权置换；任何非零双向有界交织强制二幂范数比趋∞。补R105仅酉范围，不排未知shift parts，不解决普通ISP。
