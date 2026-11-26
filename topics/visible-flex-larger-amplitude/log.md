@@ -379,3 +379,5 @@
 2026-11-26 10:56:59 UTC — Astra-larger-e4e2a2bf-20261126：第15/16次普通raw移出旧强core二级boost M96/M128轨道，保全部小字段/首末row/完整源和两级输入/所有参数与固定51ab历史恢复，原样本失败及位移遮挡范围保原note；旧runtime未记不猜。只元数据/JSON复制/SHA和依赖文本检查，无科学重做，当前两run/SO3不依赖它们。H压缩既有共同算法说明，完整旧词由已刊51ab和前链保留，未放松全变量/全观察/C/永久点/真筛责任。
 
 2026-11-26 11:02:19 UTC — Astra-larger-e4e2a2bf-20261126：Haar77纯摘要补取已有原input report的Pg/tol/J/J*/末history面/真满步/μ与既有reader方向字段；逐字段核真实b70/v3源，不改变任何科学argv、source、输出或预算，不重算F/J。已完成72–75仅scalar selectors归档04，原全部执行字段逐值不变，queue只压JSON空白以保95KB硬限；若真实字段未存在仍记summary error，不捏造。当前76方向未返，继续实际读取。
+
+2026-11-26 11:04:39 UTC — Astra-larger-e4e2a2bf-20261126：真实76/77已返Haar新场bcdcdab/report a76c4d，同e35ce/027c固定目标max .01500409671→.01406459392、centeredPhi .00018604610→.00017030316，实际一方向接受。原77早于补selectors返回，立即排独立fresh纯d8归因读已有report及本新场自己全922 first，完整原66参数/源和分域保，仅改真实bundle/自身profile/输出；不移旧7ebb证书，不填未知alpha/Pg。是否获controller实际准入仍须实读。
