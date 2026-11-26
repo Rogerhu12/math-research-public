@@ -1,0 +1,135 @@
+{
+  "schema": "r150-unit211-S0-original-leading-spectra-observed-execution-v1",
+  "observedUTC": "2026-11-26",
+  "repository": "Rogerhu12/math-research-public",
+  "workflowRun": 45821311603,
+  "job": 139913974571,
+  "jobConclusion": "success",
+  "sourceBlob": "e46f3d212336d4944e613174f1f11112875b580a",
+  "sourceSha256": "6f8aeb452357198e255ddfa110b1cb8df44cd2620103f27374d8156e83e84992",
+  "mathematicalResult": {
+    "claimExcluded": true,
+    "claimLambdaLayerEmpty": false,
+    "claimS0LayerEmpty": false,
+    "elapsedSeconds": 20.080736,
+    "fiberReturns": [
+      {
+        "commonZDegree": 0,
+        "excluded": true,
+        "factorDegree": 1,
+        "fieldInverseIdentitiesChecked": 58,
+        "history": [
+          {
+            "commonZDegree": 0,
+            "pair": [
+              "E1",
+              "EBe"
+            ]
+          }
+        ],
+        "lambdaFactor": "x + (-2)",
+        "leadingMultiplicity": 1,
+        "originalFDegree": 5,
+        "remainingPolynomialSha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+        "wholeFiberPaidUnitZero": null
+      },
+      {
+        "commonZDegree": 0,
+        "excluded": true,
+        "factorDegree": 1,
+        "fieldInverseIdentitiesChecked": 60,
+        "history": [
+          {
+            "degree": 1,
+            "removedPaidUnit": "H3 for p!=q"
+          },
+          {
+            "commonZDegree": 0,
+            "pair": [
+              "E1",
+              "EBe"
+            ]
+          }
+        ],
+        "lambdaFactor": "x + (-1)",
+        "leadingMultiplicity": 1,
+        "originalFDegree": 5,
+        "remainingPolynomialSha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+        "wholeFiberPaidUnitZero": null
+      },
+      {
+        "commonZDegree": 0,
+        "excluded": true,
+        "factorDegree": 3,
+        "fieldInverseIdentitiesChecked": 57,
+        "history": [
+          {
+            "commonZDegree": 0,
+            "pair": [
+              "E1",
+              "EBe"
+            ]
+          }
+        ],
+        "lambdaFactor": "x^3 + (-11/5)*x^2 + 19/10*x + (-1/2)",
+        "leadingMultiplicity": 2,
+        "originalFDegree": 5,
+        "remainingPolynomialSha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+        "wholeFiberPaidUnitZero": null
+      }
+    ],
+    "inputSha256": "0e9b97510ea6611e122210a58a51b18b266174d6813011a10237174522ccab3c",
+    "ordinaryISPClaim": false,
+    "peakRssKiB": 187400,
+    "schema": "r150-unit211-S0-nonsimultaneous-native-two-parameter-v1",
+    "scope": "only lambda=1,lambda=2,and 10lambda^3-22lambda^2+19lambda-5=0 inside S=Af=0,L!=0,(I,H)!=0",
+    "sourceCurveLeadingFactorization": {
+      "content": "25/6144",
+      "factors": [
+        {
+          "factor": "x + (-2)",
+          "multiplicity": 1
+        },
+        {
+          "factor": "x + (-1)",
+          "multiplicity": 1
+        },
+        {
+          "factor": "x^3 + (-11/5)*x^2 + 19/10*x + (-1/2)",
+          "multiplicity": 2
+        }
+      ]
+    },
+    "sourceSha256": "6f8aeb452357198e255ddfa110b1cb8df44cd2620103f27374d8156e83e84992",
+    "status": "all_original_zero_leading_coefficient_fibers_excluded"
+  },
+  "driverReceipt": {
+    "elapsed_seconds": 20.160298919,
+    "max_child_rss_kib": 187400,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "85f8c05de49cde33e3cf78fe29c0657cc38a36c3",
+        "before": "85f8c05de49cde33e3cf78fe29c0657cc38a36c3",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "fef43bdf8690f2eec4751d85784a266eacdd0322"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-26T12:37:32.499092+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "45821311603",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-347c-20261126",
+    "source_commit": "85f8c05de49cde33e3cf78fe29c0657cc38a36c3",
+    "source_exit_code": 0,
+    "source_git_blob": "e46f3d212336d4944e613174f1f11112875b580a",
+    "source_sha256": "6f8aeb452357198e255ddfa110b1cb8df44cd2620103f27374d8156e83e84992",
+    "stdout_bytes": 6209,
+    "stdout_sha256": "d843d5234742694f6087683c01dff8f853e287a8c3c461b673cc1b8bc8b398d8",
+    "stop_reason": null
+  },
+  "scope": "Only lambda=1,lambda=2,and J3=0 inside S=Af=0,L!=0,(I,H)!=0; neither the entire S layer nor the invariant subspace problem is closed."
+}

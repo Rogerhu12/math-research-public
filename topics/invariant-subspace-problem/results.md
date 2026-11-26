@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R150 S=Af=0、L非零、I/H非同时零图的全部原z首项零谱为空（2026-11-26，已证明）：** [原完整域返回证明](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-original-leading-spectra-exclusion.md)覆盖λ=1、λ=2及10λ³−22λ²+19λ−5全部三根。原F降5次，各与第一原Chow共同gcd为1；λ1只剥违反p≠q的H3因子，58/60/57真逆逐一乘回。run45821311603/job139913974571、20.080736秒/187400KiB/exit0。一般λ候选继续回原式，不把旧六投影格式化失败改标成功。
+
 - **R150 三约化H退化Gram、Hp0的中心H=0整个原物理图为空（2026-11-26，已证明）：** [正确变换kernel及完整四纤维证明](results/R150-appendix-rank-three-reduced-degenerate-Gram-central-zero-exclusion.md)保原∞源，使用L=5t−1与Eh=q²−5qY+25Z。QQ284/426范数gcd128只留A、A−1、3A+1、800A²−795A+157；6/6/6/12维原U幂身份全部回乘，run45821311603/job139913975096、30.726058秒/exit0。旧b34d源的错误Eh输出明确撤回；只续中心非零的有限H源图，非退化H仍开。
 
 - **R150 三值互异S0、P1的t系数零时小J整支全空（2026-11-26，已证明）：** [原权重身份与完整八维QQ返回](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-small-J-exclusion.md)以J=−z²Δ(1−2b)(1−2c)迫权重half/1，全部MJ四次/q二次参数上原E1/EB结果式有真逆。49逆、8阶单位乘回，run45820227879/job139910286544、0.108022秒/exit0。未剥任何q因子、L在整个代数中可逆，故没有暗留L0；Af两面全保。Lt0的(26,12)大因子仍开。
