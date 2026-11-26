@@ -1,4 +1,4 @@
-name: Rank2 original E65 complete CM source and sixth axis
+name: Rank2 original E65 complete source and six-source consumers
 "on":
   push:
     branches: [main]
@@ -7,6 +7,8 @@ name: Rank2 original E65 complete CM source and sixth axis
       - "topics/rank2-sha-infinitely-many-p/ci/e65-full-cm-source-request.json"
       - "topics/rank2-sha-infinitely-many-p/scripts/check-original-e65-full-cm-sixth-axis.py"
       - "topics/rank2-sha-infinitely-many-p/scripts/original_e65_local_schwartz.py"
+      - "topics/rank2-sha-infinitely-many-p/scripts/original_e65_angular_profile.py"
+      - "topics/rank2-sha-infinitely-many-p/scripts/check-original-e65-six-sigma-projection.py"
   workflow_dispatch:
 permissions:
   contents: read
@@ -18,7 +20,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 120
     steps:
-      - name: Rebuild original E65 and E89 sources and verify all six actual jets
+      - name: Rebuild complete E65 and E89 sources and consume all six angles and sigma projection
         shell: bash
         run: |
           set -euo pipefail
@@ -33,12 +35,14 @@ jobs:
           root = pathlib.Path(os.environ["RANK2_CHECK_DIR"])
           prefix = "topics/rank2-sha-infinitely-many-p/"
           request = json.loads((root / (prefix + "ci/e65-full-cm-source-request.json")).read_text())
-          assert request["schema"] == "rank2-original-e65-full-cm-sixth-axis/v1"
+          assert request["schema"] == "rank2-original-e65-full-cm-sixth-axis/v2"
           assert request["python_flint_version"] == "0.9.0"
           assert request["workers"] == 4 and request["degree"] == 390
           assert request["complete_CM_norms"] == [7, 19]
           assert request["same_job_complete_E89_rebuild"] is True
           assert request["whole_five_plus_one_actual_jets"] is True
+          assert request["same_job_complete_six_source_angular_profile"] is True
+          assert request["same_job_genuine_six_sigma_projection"] is True
           assert request["require_sixth_jet_independence"] is True
           assert request["output_files"] is False
           script = prefix + "scripts/check-original-e65-full-cm-sixth-axis.py"
@@ -46,6 +50,8 @@ jobs:
           sources = [
               "check-original-e65-full-cm-sixth-axis.py",
               "original_e65_local_schwartz.py",
+              "original_e65_angular_profile.py",
+              "check-original-e65-six-sigma-projection.py",
               "check-r480-actual-input-cm19.py",
               "check-r466-fixed-two-division-source.py",
               "check-r464-degree102-cm7-exact.py",
@@ -53,7 +59,7 @@ jobs:
               "check-r943-degree178-full-cm-source.py",
               "check-r732-original-type-five-cm13.py",
           ]
-          assert len(sources) == len(set(sources)) == 8
+          assert len(sources) == len(set(sources)) == 10
           for name in sources:
               p = root / (prefix + "scripts/" + name)
               ast.parse(p.read_text(), filename=str(p))
@@ -90,4 +96,7 @@ jobs:
           assert report["actual_source"]["all_original_columns"] == 66
           assert report["actual_six_jets"]["same_job_old_E89_full_CM_rebuilt"] is True
           assert report["actual_six_jets"]["actual_B6_nonzero"] is True
+          assert report["actual_six_jets"]["actual_six_source_angular_profile"]["status"] == "PASS"
+          assert report["actual_six_sigma_projection"]["status"] == "PASS"
+          assert report["actual_six_sigma_projection"]["same_job_full_CM_matrices_used"] is True
           PY

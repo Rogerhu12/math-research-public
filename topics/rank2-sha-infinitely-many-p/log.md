@@ -239,3 +239,5 @@
 - 2026-11-26 11:52 UTC / Astra-rank2-Sha-7d29daa5-20261126：11:51实际终端git status重试仍报No usable execution environment，无法执行本轮pull；继续按根第8条小文本API非强制同步，每次比较两README，新规即读差异执行。上次结论推送遇main竞争已立刻重取父提交并成功bb11e1aba16a118f3f1baab963322d3711d3276d。R959完整六源及桥已交theta处理同原有限restriction，geometry支付真实角帽/整返回；global续双W混合域。唯一F未重启。
 
 - 2026-11-26 11:58 UTC / Astra-rank2-Sha-7d29daa5-20261126：R958§9新证明已推：由原完整A7·barA7=I、简单e谱及同核同像，Π为有理矩阵；有限Heisenberg和原W锚付q整性及当前好p整性。给共轭真轴/非零barα、同Gram整L−、完整Λ−=M5_*barΛ+；同一坏E89中央给两条真实投影后条件行。Ys=X+Z及旧T的准确单位三坐标/整逆/Normdet3024、原S管三不交扇区全部显示。两source projection与每条CM/角分支及全混合unit/deep条件均保，R548(40)三裸项未置零；无需重跑已有矩阵。下一步同E65真σ6候选和六源角帽在同一次原390入口消费。
+
+- 2026-11-26 12:21 UTC / Astra-rank2-Sha-7d29daa5-20261126：全文审R960角helper与R961完整结构/源码，将两者接入同一原390入口v2；保所有旧pins/64局部/完整66CM/同次178来源，12源10AST，先独立输出全角回执，再核真实Π/α/phase/Gram/全部旧cut。尚无新数学回执；H逐字归档并压缩，F v3于12:15仍运行。

@@ -6,16 +6,16 @@
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，持续研究；有限验证、条件、接口和中间成果不算完成。**
 
-- 已部分克隆并实际pull --rebase；根/课题 README 已读至 `93f1cb4514669008da221f1e7ecd4e101b6ad951`，相对已读版本未见规则变更。每次同步核两README差异；实际pull至少每小时，终端恢复即补做。
+- 已部分克隆并实际pull --rebase；根/课题 README 已读至 `afd9c82737ba5d81794bdd82b8208410ac9c8b50`，相对已读版本未见规则变更。每次同步核两README差异；实际pull至少每小时，终端恢复即补做。
 - 私有QUEUE已推进行中状态f3125fbaa4bc13678b0c8519d85051762c579529；私库README读至e776df4。
 - 两克隆在/tmp/rank2-sha-7d29daa5d3b1。执行环境断开，最新11:51 UTC重试仍不可用；依根授权用小文本GitHub tree/commit及非强制CAS，逐次核最新main/规则，竞争立即重取父提交重推。恢复先核stash/local main，不覆盖远端恢复提交，再pull --rebase。令牌未入文件/配置/日志。
 - root唯一ref和共享H/log/index写者，子代理只交不可变blob。数学执行仅公开Actions；只存源码/参数/run/hash/结论，不存可重算输出。H<10KB、MD<100KB、open尽量<30KB；不强推、不改他课题。
 
 ## 完整历史与当前任务
 
-[本次E65前完整H](notes/2026-11-26-handoff-before-e65-full-source.md)逐字保留截至R958的全部证明、参数、回执及此前完整归档链；[open](open.md)、[results](results.md)及两卷证明索引保当前门。接手H、第五核前H、Fv2回执前H、全W构造前H、全部旧open与索引均由这条链保留；不重复已登记结论或默删旧门。
+[六源消费者前完整H](notes/2026-11-26-handoff-before-six-source-consumers.md)逐字保留截至R959完整通常Selmer桥与R958双W的全部证明、参数、回执及此前完整归档链；[open](open.md)、[results](results.md)及两卷证明索引保当前门。接手H、第五核前H、Fv2回执前H、全W构造前H、全部旧open与索引均由这条链保留；不重复已登记结论或默删旧门。
 
-root统筹原几何执行及算术消费；global接R958双W真实混合余域；geometry付真六源角帽/整规范化；theta消费R959第六低门与原有限restriction forcing，保R957同格J5/u†。R959全CM/六jet及完整通常Selmer桥已付。**仅一个重型单F运行，后继完整Artinian入口已备，等实际终点后接。**
+root统筹原几何执行及算术消费；global继续R958双W与R961同六sigma混合余域；geometry付R960真六源角帽/整规范化；theta消费六真中央的同格forcing，保全部有限类和低层。R959全CM/六jet及完整通常Selmer桥已付。**仅一个重型单F运行，后继完整Artinian入口已备，等实际终点后接。**
 
 ## 一、原全部厚几何与shadow
 
@@ -23,7 +23,7 @@ root统筹原几何执行及算术消费；global接R958双W真实混合余域�
 
 ### 运行中的唯一F
 
-单F v3 source77d09068ff2324c7c301c144e4c3586437f4ad59，run45783241896/job139783569909，08:26:58 UTC起；11:47仍数学step4运行，先前日志归档返回404，不能据此判内部进度或成功。35源；真实有界HNF绑定、全324 R2原M2算子复用，保1890槽/144核/306两图/全部厚度与1296边界。当前作业不重启。
+单F v3 source77d09068ff2324c7c301c144e4c3586437f4ad59，run45783241896/job139783569909，08:26:58 UTC起；12:15仍数学step4运行，先前日志归档返回404，不能据此判内部进度或成功。35源；真实有界HNF绑定、全324 R2原M2算子复用，保1890槽/144核/306两图/全部厚度与1296边界。当前作业不重启。
 
 前五失败及Fv2见[几何记录](notes/2026-11-26-geometry-7d29.md)。Fv2 run45764459557/job139721906263/sourceb35d61dd，144核/324 R2/第18算子已返；分母HNF仅16列，5867.79s退出137，不能确称OOM，没有原除子PASS，不原样重跑。
 
@@ -47,11 +47,9 @@ producer7df9e0、launcher53b5bcf、request3f3970d、workflow5713d44的完整不�
 
 ## 二、原全局类、ordinary和最高λ
 
-R885/897全finite/wild范数、Artin/尺度/副本和spDn=Ep,n cn整unit保；整族除T须全部tame底零。R891原anti-Kummer/交域/17惯性/两点cup给c1≠0⇒Selbal=Ec1；usual core0不改core1。R893仅有此非零前提的D=UZ°、ccan=H DfunD、Ccan=H Dfun²；s=ordT Dfun未知，ordinary/canonical底非零恰s0。R900/901全部old/new/邻点格保，奇compact BK零不等有限Selmer零。
+R885/897全finite/wild范数、Artin/尺度/副本和整unit不变；R891原两点cup只给c1≠0⇒Selbal=Ec1；R893的D=UZ°及canonical二次次数均有此非零前提。原s0、H²自由、ordinary及跨p未付。R940深增广来自H¹(J⊗T)，不作JH¹；R945以c1⁰=p^v z且c1≠0为前提给p^vH²tors=0和完整残余界，B=v+vpD。原惰性Dloc0、tame固定/wild逐p固定不改。
 
-R908/913惰性Dloc=0，tame D固定、wild Dp只逐p固定。R921提升L/连接C、j*=diag(u,0)、cor=diag(0,1)、βm=−up^(e−m)保；R940双D导数的深增广约化只来自H¹(J⊗T)，不作JH¹。R945 c1⁰=p^v z、完整残余两点杯积给p^vH²tors=0和p^vS_N⊆(O/p^N)z；坏惯性3/2/18损0、B=v+vpD。H²自由、c1非零/s0/ordinary/跨p均未删。
-
-原整Artin场fine H¹/H²≥2不等最高λ；Du二次genus经K等变对应投原pro13 χ零，AJ模性不付ordinary。相关已核文献/原角色/正规性范围见旧H与三份11-26 global注，不重复登记。有限ell5/7 shadow仍须原角色和全部比例返回，不能免费跨p。
+fine全Artin H¹/H²不等最高λ；原λ Hodge(3,0)/twist(2,−1)、usual core0与balanced core1、R859 inert反CM及ordinary错号、Katz非critical与原非零门均保。R908–945各准确前提、R858根号/简单零、R830/831坏对数费和三份已核文献注全见完整H链及open；没有由有限ell5/7 shadow免费跨p。
 
 ## 三、五真中央与全来源实际核
 
@@ -59,22 +57,18 @@ R941仅p227四j赋值1。R943 E89 rank≥2、全degree178/2,3,89角色/Schwartz/
 
 **R957**全89×25自由基及真Λ五源整数像格已付，n=25M²/178+O(M)；28883导子/固定分母只增O(M)。同商范数与有限位格、全jump乘积公式、ordinary卷积后切域与前缀整性、复/全inert预算均核。新J5=p^j r_js+i；无旧carrier的扰动至多24模p行，导子实际4r_c carry。五中央零未传播到乘积，严格全M,k门a+2b<3仍待实际u†消费。
 
-R946/949/950保全部混合重数、31截帽/248D；自然x∈(9/41,1/3)的q2必须唯一最近5..8重根，m8排除仅x<4/15。R951全parity共同真实固定部A²≥4Δ，原移动H1/H2和16个Y极奇偶差全付。
+R946–954原全部混合重数/248D、原有限类与商窗口都保；R952两点线束只给原核界，R953每parity Smith0/1但跨parity必须商全coker。R954真实q1全混合首核及Hopf/RR平方基点费用给x11/47全单位rank/n>1/2，误差O(D^(3/2))；五坏中央仍只u*=u† modp5，未得额外全深强迫族。全部精确常数/证明/限制见完整H链、对应R和open。
 
-R952同一τ不变F^m的实际商限制保远支T/垂直v，2N≤d+(2m−9)κ+(m−3)λ；非τ对被排。下一重数H0零，使整个Kε注入两点线束；x11/47核比<1/1250、全M单位rank/n>312/625，不加两块像。
-
-R953原O格合法factor lift、实际g/原单位/52carry全付；低13行迫k≥0，真实reader180/−162/90/−35及两点逐次减jT除F矛盾。自然x∈(9/41,2/7)每parity块β1单射/满列/Smith全0或1；全M至少ceil(n/2)指数≤1。**跨parity修正必须商全coker，不能套单块结论。**
-
-R954整个混合首核含q1：累计Gauss、真实固定重数≤11/≥12、移动基点平方损失、积分Cartier Hopf/RR或pencil均付，误差O(D^(3/2))。x11/47全单位rank/n≥√(705/398)−633/796>1/2。五坏中央仅给u*=u† modp5；尚无受迫额外全深核族。优先实际消费，不把无条件rank常数当主反证。
-
-R159旗标需要同有序jump子式的正确估值方向；这些原子理想上界不自动有利。p≈D²固定环带只省O(k)，不改klogk；p≪D²须原长ordered窗口。R657长前缀全列/Smith界不填较短缺行或免费拆charge像。
+R159需同有序jump子式正确估值方向；p≈D²固定环带只省O(k)，不改klogk。p≪D²的原长ordered窗口不能由R657短缺行或拆charge免费补；严格全M,k预算a+2b<3仍开。
 
 **R958**同原六sigma的全degree178投影已实际PASS：source45522b1、run45809854198/job139874554129，α=(273+156ω)/185≠0，c0、q(e)=15−15ω。原全CM摘要不变；§9全谱给Π有理/整及共轭W行、完整Λ关系，Ys=X+Z与旧T的Normdet3024单位三坐标；保原周期89/17、两套source projection和全混合cut，续R548余域。
 
 **R959**E65两点独立、全390导子/2,3,5,双13角色/Schwartz、α15/13及split成本12已付。sourcec620dc2d、run45812554270/job139883858590全64局部门/66列CM7/19唯一核、首阶6/有理分母175及同次旧E89→B6≠0成功；原完整普通/signed通常Selmer桥、17/65周期及全部Euler费用已付，r+corankSha≤2ordJ。全hash见R959§12.1，六轴排其显示B6分子有限素集；续真实角帽/有限限制forcing与无穷非零。
 
-## 四、仍有效的原同P后页及其它门
+## 四、当前六源消费与其余未解门
 
-原P134/十九角/charge40/10980、全WD/TM/TJ/旧39carry保，新五块52不混。R872/888/890合法lift/Cech/TF；R902/903单射不相加；R907/911/914全反馈；R916/918/920稳定K∞/K′保，两p³解之差须真落jH3才可归jK′，受限S不删。R936/937左行−11/28仅排指定陪集；R938同A2有限类/厚节点只Wlow满像。
+R960/R961共用同一既有E65工作流v2，保原64局部、全66CM与同次E89重建一次；12源/10AST。角helper3ba9ee9和同六sigma helper8da5efe全部源码已审；入口先输出R960完整角回执，再核R961全谱Π/非零α、norm7/19真奇sigma相位、全部Gram/有限支/旧混合cut。**此新run尚无数学回执，不能预记α非零或角帽具体重数。** 完整pins/请求/证明草稿blob见notes/2026-11-26-e65-six-source-consumers.md。R961保νF65,17=65/(17·175)νhatE65；首项一与整175规范不混。
 
-R939平方D2∩K1=D4；R944五块在严格四次门入D5，再dD<5κ才平方单射。R948全K五层(N,N,N,min(N,h+ell),max(ell,N−h))保D5，条件维数界不能冒真forcing。O4/O6/O7、R364/R561/R654/R712全部原全群门见open及完整归档，继续处理。
+R960理论待实际z≥64、e_i≤2、gcd(68g,18)=2后消费完整归一化/Noether返回；S4Z∈旧B263和S3Z∈B+246只是整返回，不赋乘积中央零。Theta核六高轴须保m≤floor((hs−1)/(s−6))（h≤7时可到8）及全部尾；sextic归零qt4带三层低纤维，不能只剩A0。旧quartic核被新增E4长行排除，但尚未制造真正全六块forcing。
+
+原P134/十九角/charge40/10980、全WD/TM/TJ、旧39carry与五块52不混；R872–938合法lift/反馈/稳定K∞全部原门仍保。R939 D2∩K1=D4，R944/948的D5/平方单射带原严格条件；R938仅Wlow满像，R936/937仅指定陪集排除。O4/O6/O7、R364/R561/R654/R712全部原全群门见open及完整H链，持续处理。

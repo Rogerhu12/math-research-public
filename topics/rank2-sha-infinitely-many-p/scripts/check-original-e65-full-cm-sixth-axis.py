@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Original E65: all 66 CM7/CM19 columns, same-job E89, and sixth actual jet.
+"""Original E65: complete CM, sixth jet, all-angle and six-sigma consumers.
 
 Public Rogerhu12/math-research-public Actions only; python-flint==0.9.0.
 No generated file is read or written.  All source coefficients are rebuilt
@@ -33,7 +33,9 @@ SOURCE_PINS = {
     "check-r943-original-degree178-fifth-axis.py": "c4226727954c4f5fc8477bb17987a49242ef73103049ff7de8e004d442698ec6",
     "check-r943-degree178-full-cm-source.py": "b5c2e3f6781e1a788e2d3fd749f10e2ecab9e6c58e2950aecc9acf727f237e67",
     "check-r732-original-type-five-cm13.py": "d1b3c2f851e9ec6b6d6b6655141e36b4bb1108a30e57ff8365b5f583d880e469",
-    "original_e65_local_schwartz.py": "b13ad04a3b12dd28e4e749a9b92f9bd3fcfe6bc976201f1057a5a58cf8c765d5"
+    "original_e65_local_schwartz.py": "b13ad04a3b12dd28e4e749a9b92f9bd3fcfe6bc976201f1057a5a58cf8c765d5",
+    "original_e65_angular_profile.py": "54676c475e830d8ab33441aae0cb5f1557f86b5d87e799619d9e46f9d6b32b31",
+    "check-original-e65-six-sigma-projection.py": "bac8a8109ef029d4665586427fe331e76fc2299848e2cea2bf85e7abb74487f3"
 }
 SOURCE_FILES = [
     PREFIX + "scripts/check-original-e65-full-cm-sixth-axis.py",
@@ -43,7 +45,7 @@ SOURCE_FILES = [
     PREFIX + "ci/e65-full-cm-source-request.json",
     ".github/workflows/rank2-sha-e65-full-cm-source.yml",
 ]
-assert len(SOURCE_FILES) == len(set(SOURCE_FILES)) == 10
+assert len(SOURCE_FILES) == len(set(SOURCE_FILES)) == 12
 
 
 def module(name, path):
@@ -153,7 +155,7 @@ def full_quadratic_nullspace(operators):
             [[str(a),str(b)] for a,b in v] for v in basis])}
 
 
-def construct_complete_source(workers):
+def construct_complete_source(workers, return_context=False):
     # The original CM19 sigma-leading-constant anchor, with no rephasing.
     for target in (1, DIMENSION+2):
         _, anchor = D19.fiber((4, 2, target))
@@ -212,6 +214,10 @@ def construct_complete_source(workers):
         "source_polynomial_X_ascending_sha256":
             canonical_hash([str(x) for x in coefficients]),
         "output_coefficients_embedded_in_code":False})
+    if return_context:
+        return coefficients, report, {
+            "A7": A7, "A19": A19, "H": H,
+            "canonical_complete_matrix_sha256": report["canonical_complete_matrix_sha256"]}
     return coefficients, report
 
 
@@ -241,6 +247,12 @@ def sixth_actual_jet(coefficients):
     b5 = old.determinant([list(reversed(jet[:5])) for name,jet in five])
     b6 = old.determinant([list(reversed(jet)) for name,jet in all_jets])
     assert b5, "Same-job old five actual jets failed their original independence"
+    angle = module("original_e65_same_job_angle", HERE / "original_e65_angular_profile.py")
+    angular = angle.original_e65_angular_profile(coefficients, old.SOURCE_ASC)
+    # Preserve this complete independent gate if the later genuine sigma
+    # projection is zero.  Generated data remain transient Actions stdout.
+    print("R960_ANGULAR_STAGE " + json.dumps(angular, sort_keys=True, separators=(",",":")),
+          file=sys.stderr, flush=True)
     return {
         "status":"PASS" if b6 else "SIX_ACTUAL_JETS_DEPENDENT",
         "same_job_old_E89_full_CM_rebuilt":True,
@@ -256,6 +268,7 @@ def sixth_actual_jet(coefficients):
         "same_job_actual_B5_determinant":str(b5),
         "same_job_actual_B6_determinant":str(b6),
         "actual_B6_nonzero":bool(b6),
+        "actual_six_source_angular_profile":angular,
         "permanent_source_relations_removed_by_actual_CM_identification":True,
         "all_source_coefficients_generated_in_same_job":True}
 
@@ -268,12 +281,14 @@ def main():
     assert os.environ.get("GITHUB_REPOSITORY") == "Rogerhu12/math-research-public"
     request_path = ROOT / (PREFIX + "ci/e65-full-cm-source-request.json")
     request = json.loads(request_path.read_text())
-    assert request["schema"] == "rank2-original-e65-full-cm-sixth-axis/v1"
+    assert request["schema"] == "rank2-original-e65-full-cm-sixth-axis/v2"
     assert request["degree"] == DEGREE and request["workers"] == args.workers
     assert request["python_flint_version"] == "0.9.0"
     assert request["complete_CM_norms"] == [7,19]
     assert request["same_job_complete_E89_rebuild"] is True
     assert request["whole_five_plus_one_actual_jets"] is True
+    assert request["same_job_complete_six_source_angular_profile"] is True
+    assert request["same_job_genuine_six_sigma_projection"] is True
     import flint
     assert flint.__version__ == "0.9.0"
     hashes = {name:hashlib.sha256((ROOT/name).read_bytes()).hexdigest()
@@ -281,7 +296,7 @@ def main():
     for name,digest in SOURCE_PINS.items():
         assert hashes[PREFIX+"scripts/"+name] == digest, name
     manifest = {
-        "schema":"rank2-original-e65-source-manifest/v1",
+        "schema":"rank2-original-e65-source-manifest/v2",
         "source_commit":os.environ["GITHUB_SHA"],
         "run_id":int(os.environ["GITHUB_RUN_ID"]),
         "request":request,
@@ -291,22 +306,27 @@ def main():
           file=sys.stderr,flush=True)
     local = LOCAL.check_original_e65_local_schwartz()
     print("R959 all original local Schwartz checks passed",file=sys.stderr,flush=True)
-    coefficients, source = construct_complete_source(args.workers)
+    coefficients, source, cm_context = construct_complete_source(args.workers, return_context=True)
+    print("R959_SOURCE_COMPLETE " + json.dumps(source, sort_keys=True, separators=(",",":")),
+          file=sys.stderr, flush=True)
     jets = sixth_actual_jet(coefficients)
+    helper = module("original_e65_six_sigma", HERE / "check-original-e65-six-sigma-projection.py")
+    six_sigma = helper.check_original_e65_six_sigma(coefficients, cm_context)
     result = {
-        "schema":"rank2-original-e65-full-cm-sixth-axis-result/v1",
+        "schema":"rank2-original-e65-full-cm-sixth-axis-result/v2",
         "status":"PASS" if jets["actual_B6_nonzero"] else "SOURCE_PASS_SIX_JETS_DEPENDENT",
         "curve":"y^2=x^3+65",
         "full_local_Schwartz":local,
         "actual_source":source,
         "actual_six_jets":jets,
+        "actual_six_sigma_projection":six_sigma,
         "source_manifest_sha256":canonical_hash(manifest),
         "elapsed_seconds":time.monotonic()-START,
         "ordinary_infinite_prime_nonvanishing_proved":False,
         "inert_infinite_prime_nonvanishing_proved":False,
         "global_deep_kernel_proved":False,
         "output_files":False,
-        "scope":"Original full E65 source and the six actual low jets; no transfer of central zero to products."}
+        "scope":"Original complete E65/E89 sources, six actual jets, all-angle normalization data and full genuine six-sigma projection; no central zero assigned to products or mixed cuts."}
     encoded = json.dumps(result,sort_keys=True,separators=(",",":"))
     print(encoded,flush=True)
     if request["require_sixth_jet_independence"]:

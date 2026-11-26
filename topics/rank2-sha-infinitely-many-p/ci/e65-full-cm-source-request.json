@@ -1,6 +1,6 @@
 {
-  "schema": "rank2-original-e65-full-cm-sixth-axis/v1",
-  "request_id": "2026-11-26-r959-e65-degree390-complete-cm7-cm19-sixth-actual-axis",
+  "schema": "rank2-original-e65-full-cm-sixth-axis/v2",
+  "request_id": "2026-11-26-r960-r961-original-six-source-angle-and-six-sigma",
   "degree": 390,
   "workers": 4,
   "python_flint_version": "0.9.0",
@@ -16,5 +16,7 @@
   "args": [
     "--workers=4"
   ],
-  "scope": "All original bad-place Schwartz checks, both entire 66-column CM matrices, actual unique target line and the same-job six-source low jets; no original-306 normalization or infinite-prime nonvanishing claim."
+  "scope": "Same-job complete original E65/E89 CM sources and all six jets, complete angular profile with whole returns, and actual nonzero six-sigma projection with all 66 columns, full norm7/19 sigma phases, integral Gram and all old mixed cuts.",
+  "same_job_complete_six_source_angular_profile": true,
+  "same_job_genuine_six_sigma_projection": true
 }
