@@ -8,6 +8,8 @@
 
 ## 新增结论（2026-11-26）
 
+- **R1038（已证明）**：[R1038](results/R1038-original-p5-Raynaud-lowest-type-and-complete-first-log.md)：全部p≥41、p5mod12，补齐quadratic PS/St后仍有实际整e₁；原双中心图为二次型，e₁G[p∞]≅e₁B[p∞]是真良好块。原P=(p−1)D₀经真实twister、bounded lift和先减Teich挠点给P_B；两个节点同一Dickson消去、不添2，完整首log=εΣθ_s(λ+R_p)f_s，q_s=−r^(8g+2)/A′²。R1024纯代数不依次数奇偶，故原formal/log及e₁首log全准确Fm。未宣整个J良好或指定简单商/CM jet单位。
+
 - **R1037（已证明）**：[R1037](results/R1037-original-Hodge-graph-operator-and-primitive-MW-annihilator.md)：实际Fil graph给整Q=ε⁻²ΦΠ，Verschiebung准确−ε²Qα；原模π矩阵为quo(r^(8g−2)a(b^p),A²) modA（系数固定）。原ODE将核化为LT=cA，核准确一维且全正δ，负δ上单射；R1026故给Λ_Q=B(v,QD·)本原且消去全部MW饱和格。指定CM值K_Q=(1/2)P_(DQv)(1)保完整Q²，仍待单位与低w系数；B(c₀,J)=−1/8不替代它。
 
 - **R1036（已证明）**：[R1036](results/R1036-original-integral-alternating-test-and-complete-MW-annihilation.md)：原source Fp²下降与Hermitian切线给Π²=−p，B(v,w)=〈Πv,w〉整对称完美，A=B(v,T5Dw)交错。split-Hecke生成真实F₀，原J的D₀非挠paired块实际仅一次C，故完整v=ε⁻¹e₁logP定义整泛函消去全部MW及饱和格。原CM最高系数=−κ₁√A_tail λ₀^−n₀ K_p/m，K_p=(1/2)Σq_s a_s H_(s^p)仍须证非零；未宣泛函本原或唯一零点。

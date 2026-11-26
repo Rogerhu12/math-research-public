@@ -285,3 +285,8 @@
 ### 2026-11-26 23:40 Asia/Taipei — R1037 实际Hodge graph与本原MW泛函
 - [R1037](results/R1037-original-Hodge-graph-operator-and-primitive-MW-annihilator.md)：实际Fil graph给整Q=ε⁻²ΦΠ，Verschiebung准确−ε²Qα；原模π矩阵为quo(r^(8g−2)a(b^p),A²) modA（系数固定）。原ODE将核化为LT=cA，核准确一维且全正δ，负δ上单射；R1026故给Λ_Q=B(v,QD·)本原且消去全部MW饱和格。指定CM值K_Q=(1/2)P_(DQv)(1)保完整Q²，仍待单位与低w系数；B(c₀,J)=−1/8不替代它。
 - root/global/o2纸核实际Verschiebung负号、完整首矩阵、半线性与固定系数、ODE核维数及全MW本原。精确候选4aaf2ebe78acbfb984d5a3fe7db625e90e59a9fb获global与o2全文PASS；按共同意见补齐根处消失的−T‴A项；未把端点式或核配对当指定K_Q单位。无数学执行；H逐字归档，两README同步检查。
+
+
+### 2026-11-26 23:57 Asia/Taipei — R1038 原p5双中心与完整首log
+- [R1038](results/R1038-original-p5-Raynaud-lowest-type-and-complete-first-log.md)：全部p≥41、p5mod12，补齐quadratic PS/St后仍有实际整e₁；原双中心图为二次型，e₁G[p∞]≅e₁B[p∞]是真良好块。原P=(p−1)D₀经真实twister、bounded lift和先减Teich挠点给P_B；两个节点同一Dickson消去、不添2，完整首log=εΣθ_s(λ+R_p)f_s，q_s=−r^(8g+2)/A′²。R1024纯代数不依次数奇偶，故原formal/log及e₁首log全准确Fm。未宣整个J良好或指定简单商/CM jet单位。
+- o1/root逐式纸核，o1全文审精确候选2e30f2840ab66b8f004b0f5087d395bc65183642 PASS；按共同意见显写degree-p mixed项整。root亲读FL Prop4.4/Th5.3/§§7–8与EP Th3.3/3.5，消费原R906/910/921及R1024全部代数。15:42 UTC恢复探测仍无宿主，下次不早于16:43 UTC；继续根规矩8同步。无数学执行；H逐字归档，两README差异检查。

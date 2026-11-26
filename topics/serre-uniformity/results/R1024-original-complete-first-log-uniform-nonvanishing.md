@@ -301,3 +301,14 @@ Serre 主目标仍 OPEN。继续实际非 CM 整投影及原候选排除。
 固定特征零解析来源证明充分大 \(p\) 的单一非整除，
 继而给实际杀 CM 的整 Lie 方向。它与本篇覆盖全部
 \(p\ge47,\ p\equiv11\bmod12\) 的 whole-vector 定理互不替换。
+
+
+## R1038：另一个模十二行的实际应用
+
+[R1038](R1038-original-p5-Raynaud-lowest-type-and-complete-first-log.md)
+补完 \(p\equiv5\bmod12\) 的实际 Raynaud、整最低型、
+双节点与完整首 log 后，逐项核对本篇 §§2–5 的代数证明
+不依赖 \(\deg q\) 的奇偶。
+它因此给本行全部 \(p\ge41\) 的原良好 \(B\) 部分及实际
+最低型首 log 准确深度 \(m\)。
+本篇的“整个好约化 Jacobian”对象不直接移到该半稳定行。

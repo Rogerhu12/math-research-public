@@ -509,3 +509,13 @@ Serre 主目标仍 OPEN。
 已计算其原 CM 第 \(4m\) normal 层及完整底 Hodge 线性泛函。
 不再重复求该 graded jet。具体半秩商的 MW 饱和格、
 Néron 相对尺度及原有理盘的全部低项和尾项仍须继续。
+
+
+## R1038：双中心行的真正整最低型
+
+[R1038](R1038-original-p5-Raynaud-lowest-type-and-complete-first-log.md)
+已逐项补入 \(p\equiv5\bmod12\) 新增的二次 PS/Steinberg 型，
+排除其与 \(\tau_1\) 的剩余碰撞；
+图的二次角色被整幂等元杀掉，得到实际 Raynaud 良好
+\(e_1G[p^\infty]\simeq e_1B[p^\infty]\) 及完整首 log 保留。
+不将整个本行 Jacobian 称为良好模型。
