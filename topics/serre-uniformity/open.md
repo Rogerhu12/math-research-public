@@ -34,9 +34,7 @@ R1只把全部异常缩为p>37的完整N_ns；**p≡2,5 mod9只是另加小惯�
 
 [R1049](results/R1049-original-fN-theta-first-direction-moment.md)：保原F⊗R₋、实际三挠刚化/全部模6相位，η⁵P_FR(η⁶)=t²δ′φ_A/12；原f_N=−t²δ′Σηφ_A/[12(p+1)]。十二代表相位全核；方向逐点单位不代一阶矩非零，原同h筛选仍开。 §6另精确给固定primary Θ与零常数积分EΘ：f_N=t²δ′[q^p]Θ(q)EΘ(q⁴)/[4(p+1)]；完整36/12与交换相位保留，指定系数单位仍开。
 
-[R1051](results/R1051-original-scalar-new-prefix-through-402581.md)：公开run45869953028/job140082478470、源30cecd32，严格新增5372素数200003…402581（p2/5mod9）原f_N/g_N全非零，1080.04秒/1200秒预算，准确完成前缀。余段从402593续算；全部请求/完成列表/输出hash在结果，不作全称推论。
-
-v2只续402593至500000并在同1200秒预算作新的p47必要核条件诊断；完整CM源桥未付前只读纯代数结果。旧scalar输入不重算，方法/预算见[记录](notes/2026-11-27-original-scalar-obstruction-new-window-method.md)。
+[R1053](results/R1053-original-scalar-disjoint-window-through-500000.md)：公开v2 run45874715945/job140098765505、源7e47699，2506个402593…499979原f/g全非零，895.294秒/1200秒。与R1051不相交前缀合成全部200000<p≤500000、p2/5mod9的7878素数完整新区间；不重开、不外推全称。全部pins/输出hash保结果。
 
 [R1043](results/R1043-original-fN-and-Hodge-kernel-CM-endpoint.md)：全部p=6N+5≥41，原sigma/正CM/六标记准确f_N=−T₀(1)/6，T₀∈Fp[b³]唯一满足LT₀=A、首系数−1。完整fine Cartier身份给同一V_(p−1)†=ξr^(N+1)T₀；保两行ξ的(−1)^(N+1)、E6=−c6和原mark E6/η12=−24√−3。原B(c₀,λ)=B(c₀,v)=3T₀(1)/A(1)=−18f_N/A(1)。端值单位及同h筛选仍开，不混同r2范数或扩到r8 bare。
 

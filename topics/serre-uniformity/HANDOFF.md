@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。本轮已部分克隆并真实pull main，读两README/H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则读至36cf1ed2。不重做已登记结论或窗口。
 
-**公开两README已读提交：9bbafc1e43290eae0a592245e39f291ff51051c7**（2026-11-27 02:36 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
+**公开两README已读提交：c5859b97cb5ad15eb429852f9350a44cb9a205f8**（2026-11-27 02:39 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
 
 已真实部分克隆/pull；终端再次不可用，按根规矩8用连接器小文本同步、读两README差异、带expected_sha非force提交，恢复后立即pull --rebase。拒绝即同步重基再推至成功。令牌仅CLI；根维护main/H/open/index/log，子研究独立稿，每条结论立即推。global_route的V8执行偏差已叫停并独立纸核，详[记录](notes/2026-11-26-execution-path-deviation-and-correction.md)，其输出不作证明/合规窗口。
 
@@ -70,6 +70,6 @@ R696早已证明同一全局Φ候选Ω_actual={0}，R832已消费；不重做、
 
 原λ始终为−6(b+1)/r（R1045.5）。当前并行：两行实际MW后M1与原盘点数界已成，继续最低w单位/正赋值深盘零点。原最高K_Q、R1041核范数、R1043端点及同h筛选各有独立读数，不能混同；O0完整全局覆盖仍未关。子问题完成即接open其余项，真正达README完成标准才收尾。
 
-[R1051](results/R1051-original-scalar-new-prefix-through-402581.md)：公开run45869953028/job140082478470、源30cecd32，严格新增5372素数200003…402581（p2/5mod9）原f_N/g_N全非零，1080.04秒/1200秒预算，准确完成前缀。余段从402593续算；全部请求/完成列表/输出hash在结果，不作全称推论。
+[R1053](results/R1053-original-scalar-disjoint-window-through-500000.md)：公开v2 run45874715945/job140098765505、源7e47699，2506个402593…499979原f/g全非零，895.294秒/1200秒。与R1051不相交前缀合成全部200000<p≤500000、p2/5mod9的7878素数完整新区间；不重开、不外推全称。全部pins/输出hash保结果。
 
-公开CI v2已成功：[45874715945](https://github.com/Rogerhu12/math-research-public/actions/runs/45874715945)/job140098765505，源7e47699；2506个402593…499979全f/g非零，895.294秒，至500000新区间已完整。新p47诊断K15=23（两构造/恒等式通过），最低列恒落Q核候选被否；实际DQv最低值仍开，结果分条登记中。
+同run的新p47诊断K15=23（两构造/恒等式通过）；R1052源桥已付，最低列恒落Q核候选被否，下一条登记。实际DQv最低值仍开，纸面持续。
