@@ -1,0 +1,23 @@
+{
+  "schema": "visible-larger-public-research-request-v1",
+  "request_id": "visible-larger-resume-20261126-05",
+  "rules_read_commit": "d02fe6f0e32f837225228f0fa98c5b5f131db258",
+  "rules_sha256": {
+    "README.md": "581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102",
+    "topics/visible-flex-larger-amplitude/README.md": "3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d"
+  },
+  "recipe": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/rebuild_axisymmetric_so3_warm.py",
+  "stop_after": "warm",
+  "followup_file": "topics/visible-flex-larger-amplitude/computations/resume-20261126-followups-05.json",
+  "controller_budget_seconds": 20000,
+  "continuation_purpose": "Generate this run's complete actual warm and independent R690 reference as the necessary input to the full new gamma endpoint mechanism; retain all original variables, complete source guards, scalar/chart and history inputs. Finish remains false so complete scientific followups can be appended. This bootstrap does not claim old run reference/profile/base bytes, same mathematical g, field success, or permission to omit same-target permanent locations.",
+  "actual_input_reconstruction_only_until_new_source_appended": true,
+  "new_numerical_dependency": {
+    "torch": "2.5.1",
+    "device": "CPU",
+    "dtype_for_new_solver": "float64",
+    "official_install_source": "https://pytorch.org/get-started/previous-versions/"
+  },
+  "bootstrap_scope": "Only the full warm recipe and the complete already published 4e reference producer are presently queued. No obsolete optimizer or pure failure/replay is run just to recreate a declaration. After actual input returns, the complete new mechanism will bind that actual input; all history applicable to the selected scientific branch must be explicitly supplied.",
+  "source_and_history_policy": "Old 4dc/44ac same-reference guards remain unchanged. The separate ea94 binder may adopt the eighteen public literal words for a new actual input; a byte-identity mismatch alone does not establish a different mathematical g or cancel permanent-location responsibility. Raw data are not transferred, repackaged or reconstructed from a SHA."
+}

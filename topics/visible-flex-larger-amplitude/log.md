@@ -139,3 +139,8 @@
 ### 2026-11-26 17:42:15 UTC — 新实际reference的完整固定Q输入合同
 
 刊出完整22763-byte ea94cff11a975b44a6f91d46d3d08423ce386225b6eb8154bfb3f834706c9e39纯绑定器及[全部合同](notes/2026-11-26-new-reference-literal-Q-complete-input-binding.md)。Root逐段读完整源/说明，实际AST/compile通过；两代理另核7f/4e字段。新输入schema独立保十八字参数与当前base/reference/profile/chart/初点十字段，旧05dc strict guard不改。来源路径/时长造成新SHA不证明新数学g、不免同目标永久点；尚无Actions执行或新科学结果。
+
+
+### 2026-11-26 17:43:43 UTC — 05完整warm/reference必要输入执行入口
+
+刊出[完整05 bootstrap](notes/2026-11-26-run05-complete-reference-bootstrap.md)：完整controller05/请求/queue/workflow，仅先warm+全4e参考，finishfalse。Root全文审查且AST/compile、03槽逆替换和原科学全部argv/outputs/summary逐值核对通过；双README实际pull另记H。新run不假称旧g或准许省同目标永久点，完整gamma源另审后接续。没有本地科学计算，运行/结果由真实CI记录。

@@ -1,0 +1,41 @@
+{
+  "schema": "complete-independent-run05-bootstrap-derivation-v1",
+  "source_read_commit": "d02fe6f0e32f837225228f0fa98c5b5f131db258",
+  "rules_sha256": {
+    "README.md": "581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102",
+    "topics/visible-flex-larger-amplitude/README.md": "3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d"
+  },
+  "old_controller_sha256": "68a3e8ce77cddb822d646e20af7d94aff9d682f6174f544a322f5ed92ce2ba53",
+  "new_controller_sha256": "9aa095731c7f0c199bbd65fd209be5f0ad2136ce7f36e95b333d4bbb3f966c06",
+  "only_controller_changes": [
+    [
+      "visible-larger-parallel-03:",
+      "visible-larger-parallel-05:",
+      2
+    ],
+    [
+      "\u516c\u5f00Actions03",
+      "\u516c\u5f00Actions05",
+      1
+    ],
+    [
+      "\u5e76\u884c03\u89c4\u5219\u6838\u67e5",
+      "\u5e76\u884c05\u89c4\u5219\u6838\u67e5",
+      1
+    ]
+  ],
+  "restoring_exact_slot_replacements_recovers_whole_source_bytes": true,
+  "followup_import_source_sha256": "3cb1e706ab43dac6e952ce00b41e83055112d2ee65edb37682d1f05e94f2ee3f",
+  "scientific_prepare_archive_sha256": "5a48586c89b2821aa0f6bdba43d051ecdd94e59e7046e485deaaf85f791690ca",
+  "original_prepare_step_id": "independent-axisymmetric-R690-reference-prepare-v2-first-20261126-recover03b",
+  "new_prepare_step_id": "independent-axisymmetric-R690-reference-prepare-v2-first-20261126-05",
+  "all_scientific_args_outputs_summary_and_parent_exactly_equal": true,
+  "controller_AST_compile_passed": true,
+  "new_queue_bytes": 5288,
+  "new_queue_below_95000": true,
+  "finish_when_done": false,
+  "workflow_timeout_minutes": 350,
+  "controller_budget_seconds": 20000,
+  "local_scientific_execution": false,
+  "git_or_ref_mutation_by_solver_agent": false
+}
