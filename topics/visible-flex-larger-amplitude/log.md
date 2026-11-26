@@ -401,4 +401,6 @@
 
 2026-11-26 12:31:41 UTC — Astra-larger-e4e2a2bf-20261126：03 job实际failure，完整终态日志确认stage7已返回后在Publisher.render单record58KB守卫异常，原return事件后于publish故exitcode/Phi/report/final未返，不推科学成功/失败，后继reader/zero未执行。普通刊3cb1/68a3两完整控制源：原返回事件先保存并打印，公开仅聚合无界缓存清理路径清单的真实count/bytes/canonicalSHA，原各大小/源/安全守卫及所有科学命令均保。原workflow仅换必要controller路径并触发03b新5step恢复；旧控制源/03队列/失败保留。另02真实39 exit1/40setupfail，排ef017原trace读取而非先重跑科学。root与solver完整diff/AST审/compile，无本地科学；新结果未预填。
 
-- 2026-11-26 12:55 UTC：02实际41仅返原stage39外层CalledProcessError，原log6276a047/4332B；续排ef60 v2纯读全部异常块，未确认内因不重跑科学。H压缩到固定9ab5完整历史链接并保02/03动态槽；真实pull 7c80b8bf双README无差异。03b实际warm已返且job仍运行；原03未返科学不回填。
+- 2026-11-26 12:44 UTC：02实际41仅返原stage39外层CalledProcessError，原log6276a047/4332B；续排ef60 v2纯读全部异常块，未确认内因不重跑科学。H压缩到固定9ab5完整历史链接并保02/03动态槽；真实pull 7c80b8bf双README无差异。03b实际warm已返且job仍运行；原03未返科学不回填。
+
+- 2026-11-26 12:48 UTC：02实际42 ef60在同log中读到两块异常，inner为原driver127拒绝实际profile，输出99884589/6089B。刊四完整实际父绑定新源及完整派生器、说明、两step参数，并排同d021父重跑；冻结实际canonical定义而非替换旧常量，四输入与实际context等号、原三物理源/全部自由量/行/几何/预算保。root完整binder/源diff审查，solver独立AST/来源审查，无本地科学。原错误目录保留，rows-only清理避免旧发布器目录文件清单膨胀。

@@ -4,7 +4,7 @@
 
 ## 规则与完整目标
 
-最近规则核查：2026-11-26，真实pull/rebase至 `e90987455bfd65e85e9a30da32f12b5976905b88`，根及课题README相对f0548477无差异，已完整读授权及规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
+最近规则核查：2026-11-26，真实pull/rebase至 `d09b5306a2698d4658e7f5ea63e8bfbb0075dc61`，根及课题README相对f0548477无差异，已完整读授权及规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
 
 科学计算仅本公开仓库Actions；早前本地偏差及纠正见[执行记录](notes/2026-11-20-public-actions-execution-correction.md)。root唯一分支写者；代理只scratch及未引用小源blob。每条结论普通commit/push，NFF立即pull --rebase循环再推，不强推。至少每小时pull，每次核双README差异/立即遵新规并记commit。raw只scratch/runner，不入Git/Release/artifact；保完整小源/参数/run/SHA/紧凑结论。题≤200MB、单文件<5MB、MD<100KB、H<10KB、open<30KB。令牌仅瞬时CLI。环境失联后的恢复及全部原字见下列固定历史；未补造raw。
 
@@ -22,7 +22,7 @@ R653 quarter、R654全H²及R655旧1845+六Gauss5532=7377正权观察、.5/.5测
 
 ## 本次实际结果与继续入口
 
-旧mean与真实61/63–66、R686/R666及完整来源见固定历史；7ebb Phi降而max升，QP未驻点，ownfirst以外的同场marker/K/reach/metric/精化仍未付。02实际39 exit1、40缺final setup失败；41 ef017仅返外层CalledProcessError，已续排ef60全部异常块纯读，尚未证内因。
+旧mean与真实61/63–66、R686/R666及完整来源见固定历史；7ebb Phi降而max升，QP未驻点，ownfirst以外的同场marker/K/reach/metric/精化仍未付。02实际39 exit1、40缺final setup失败；42 ef60已证inner是旧383 profile常量拒绝真实0a223父。四完整新源9ca3/7e90/b534/eb26已排同d021父完整重跑，严格真实定义/四输入/重建context绑定，原物理三源/算法不变；见[实际父绑定](notes/2026-11-26-so3-actual-fixed-parent-binding.md)。
 
 R690[深谷新输入](results/R690-quasimonotone-tail-and-deep-valley-input.md)完整证可积唯一性判据与明确非可积深谷，保prefix/S、更新R/I及参考Hold曲率界；不推非圆存在。实际54 e091无限尾盒有效但300秒未达请求精度；同源参数383168/e39保旧prepare，fresh实际identity不能硬写。
 
@@ -50,4 +50,4 @@ R692[完整旋转连接](results/R692-nonlinear-rotation-connection-and-metric-e
 
 ## 当前公开Actions执行
 
-01 [run45762076394/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45762076394) 已正常success；真实stage止于77（49 followups），11:04:33 UTC controller budget checkpoint/research_complete=false。新排归因/ownfirst未准入；不把job终态当课题完成。完整[实际记录](notes/2026-11-26-public-actions-45762076394-1.md)及76/77 note保源码/最后规则读取。当前02纯读39内层真实异常后修复，03b run45820592817已真实启动/warm已返；旧03科学未返部分不回填。节点/corecap/同场积分费用并行落地，未达完成标准不停止。
+01 [run45762076394/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45762076394) 已正常success；真实stage止于77（49 followups），11:04:33 UTC controller budget checkpoint/research_complete=false。新排归因/ownfirst未准入；不把job终态当课题完成。完整[实际记录](notes/2026-11-26-public-actions-45762076394-1.md)及76/77 note保源码/最后规则读取。当前02已定位真实39异常并排完整修复，03b run45820592817已真实启动/warm已返；旧03科学未返部分不回填。节点/corecap/同场积分费用并行落地，未达完成标准不停止。
