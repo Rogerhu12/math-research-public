@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- [R213：切向兼容与真实法向修正](results/R213-tangential-compatibility-and-normal-correction.md)：完整非零模消元、独立零模/端口、无需微分残差的弱应力测试及线性sup下界；含非旋转II完整卷积与旋转参考法向方程。明确实际Newton须用诱导h，有限矩/有限下降不代付精确存在。
+
 - [R212：不依赖反射的空间经线长度下界](results/R212-spatial-meridian-length-bound-without-reflection.md)：全切向球面的加权映射给任意空间曲线的端点/正交切向/曲率长度界，含绕圈。仅在准确同g下由经线测地性把曲面曲率界转为曲线界；C0近似metric不作此推论。当前低Z未被排除。[同一第4态加密角采样](notes/2026-11-13-fd2d-R208-fourth-state-same-field-angle-circles.md)固定原N64函数、只加观测角，揭示有限峰增长，不作连续证书。
 - [R211：完整谱曲率的四次目标与全部链式导数](results/R211-quartic-spectral-curvature-merit-and-complete-chain.md)：原三行谱残差平方和q改为q+q²/4，残差乘sqrt(1+q/4)，保零集、guide和全部参数链。真实30维小核JVP相对差≤1.006e−9、normal恒等误差≤3.321e−15；这是新有限目标，不能把其基线或下降混为原目标。
 - [R210：允许远径核心小幅超高的完整升喉帽](results/R210-extended-throat-caps-for-far-radius-core-protrusions.md)：准确加高1/50、Z∈[.40,.61]，若全部超出原Z的核心点r≥.514并仍满足wholecore reach/球包/板宽/held等原条件，则完整双侧法球与帽强比例成立。第4态381×65点仅作实际位置筛查；[闭组](notes/2026-11-13-fd2d-R210-extended-throat-closed-manifest.json)不借样本宣称全域通过。
