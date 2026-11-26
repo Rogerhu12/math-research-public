@@ -249,7 +249,7 @@
 
 - [TM：terminal mean小球控制归一化forward常数](results/R144-supplement-terminal-mean-small-ball-controls-normalized-forward-constant.md)：从同线性Y方程的准确初端差，保原D0/mean源/jumps，免重新forward即可给小根充分门。原waist L² receiver可收紧；实际门待独立scalar消费。
 
-- [PS：完整父区间源积分的真实续接](results/R142-supplement-durable-complete-parent-source-moment-prefixes.md)：源变量分片保整个输出及两有符号同格三角，完整三球先保存读回再推进；仅纯实现，无新ε或运行结论。
+- [PS：完整父区间源积分的真实续接](results/R142-supplement-durable-complete-parent-source-moment-prefixes.md)：源变量分片保整个输出及两有符号同格三角，完整三球先保存读回再推进；[执行入口](notes/2026-11-26-R142-streamed-defect-execution.md)的owner/generator已全核，85pins/14bindings且复用原worker。仅真实未成前件可启动；无新ε或运行结论。
 
 - [TMA：实际唯一compact小根与完整mean/density](results/R144-supplement-actual-terminal-mean-small-root-and-density.md)：45791979634/1五阶段21球，12个完整门true；独立sameφ1e−4充分门false。原mean/jumps/D0全保，真实ρ/b供CS与紧窗物理比较，未授全PDE/帽/最终族。
 

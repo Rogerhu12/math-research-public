@@ -1,13 +1,13 @@
 # 交接：可见振幅的精确闭等距族
 
-维护会话：visible-exact-astra-198c63d-20261126；更新：2026-11-26 09:43:10 UTC。
+维护会话：visible-exact-astra-198c63d-20261126；更新：2026-11-26 09:56:14 UTC。
 **总任务未完成，持续研究，不等用户回复。**
 
 ## 已读规则、授权与接续
 
-已部分浅克隆并pull main，完整读根README（全部授权/规矩）、课题README及原HANDOFF/open/log/notes；私库QUEUE认领已推f90ec8e0116c67cbc32c03342e6a8d2aee0ccb41。两README确认至 28c629a06272441ae1e86f7cbe5f2715ea91601b；每次更新main检查其diff，≥每小时，当前无差异。
+已部分浅克隆并pull main，完整读根README（全部授权/规矩）、课题README及原HANDOFF/open/log/notes；私库QUEUE认领已推f90ec8e0116c67cbc32c03342e6a8d2aee0ccb41。两README确认至 d0e55ff088a7f635fc32f4ccb3ee847336c45d8d；每次更新main检查其diff，≥每小时，当前无差异。
 05:48 UTC起executor不可用，09:16再次确认；按根规8用GitHub集成读main/规则diff、编辑每件<100KB UTF8。用户令牌不入文件/API。恢复立即真实pull --rebase再核两README。非FF马上接最新main并循环推成功，不force。本地/tmp/visible-exact-astra-198c63d15049/math-research-public，无AGENTS。
-科学数值仅本公开Actions；此处只证明、静态代码与元数据。旧完整成功不重跑；规15 topic≤200000000B、H<10000B、open≤30000B，不新增可重建数组/artifact/Release。09:25完整metadata tree199340447B，TM新代码73480B另计；已将12份重复H/open及另16份旧open改为永久完整原件入口，分别净减397237B/428625B；科学/native/active pins未动。
+科学数值仅本公开Actions；此处只证明、静态代码与元数据。旧完整成功不重跑；规15 topic≤200000000B、H<10000B、open≤30000B，不新增可重建数组/artifact/Release。09:54完整metadata tree199049282B；已存旧页归档，科学/native/active pins未动。
 本页与open本次压缩前完整记录逐字保[35c59f45a19bad429fb46b09d562c8d30f067b94原H](https://github.com/Rogerhu12/math-research-public/blob/35c59f45a19bad429fb46b09d562c8d30f067b94/topics/visible-flex-exact-nearby/HANDOFF.md)及同提交open；此前5d204186/3919d213同路径及da8724c完整索引继续有效。所有旧scope、失败门、单位、mean、真实域和未付义务均保，不因摘要减少。
 
 ## 同一对象与最终标准
@@ -19,7 +19,7 @@ geometry43584188751/26仅在同η0全core含帽物理C0≤1e−4、|δν|≤1e�
 
 ## 当前真实工作次序
 
-1. **R142低逆45761859526/1仍step5**，job139713486035，09:03未结束。[母格接续](results/R142-low193-parent-moment-continuation.md)：77pins/768bits、155parents/1424cells，manifest SHA50e5bbf2e55ee6fa7c24cd074cb2a7bd691101c3167004b840011710ac963b7e。原44730452579只Green/defect675，非fullfalse；active不改。结束后整读defect六球，勿仅凭completed_targets判断；ε<1续缺source/193atoms/5696盒，fullfalse才R149 signed-loop。若只有cell进度而无完整defect球，计数/private hash不含A/B/K/Z/Y，不伪称可恢复moment；[PS逐父区间保存](results/R142-supplement-durable-complete-parent-source-moment-prefixes.md)proof/pure已核；仅缺失源域可续，不虚构旧矩阵。
+1. **R142低逆45761859526/1仍step5**，job139713486035，09:53未结束；77pins/768bits、155parents/1424cells，manifest SHA50e5bbf2e55ee6fa7c24cd074cb2a7bd691101c3167004b840011710ac963b7e。原44730452579只Green/defect675，非fullfalse；active不改。结束整读defect六球，不仅看completed_targets；ε<1续缺source/193atoms/5696盒，fullfalse才signed-loop。若六球未成，使用已全核[PS完整母格续接](notes/2026-11-26-R142-streamed-defect-execution.md)：85pins/14bindings、原worker，owner每母格三球整件保存读回再推进，旧计数/private hash不冒moment；有完整六球即拒重算。owner/helper/generator已存，无actual manifest。
 2. **完整positive58→224→32→PN56/CXN6。** [physical入口](notes/2026-11-26-physical-scalar-execution.md)、[PN证明](results/R149-supplement-complete-positive-inverse-to-true-negative-and-incoming.md)、[56入口](results/R149-supplement-actual-positive-negative-receiver-execution.md)、[CXN6入口](results/R149-supplement-actual-common-high-negative-receiver-execution.md)已推；前驱未齐无实际manifest。strict/R149 kind区分，旧false保。成功square才消全部L²_r正侧head/cokernel，保raw root96与负侧/mean/ν。14ports各自身输入；source4同因P/T用三角，physical c*=0不等于aux Ec*e=0；Ni/output9一次，joint左BH KW，WPL BH/√2。
 3. **R144固定η0完整积分45778507038/1运行**，job139767949993。[合同](notes/2026-11-26-R144-fixed-eta0-correlated-mean-contract.md)：21当前/10历史、320bits/N512/源24流25/ρ=8h、7296格6143接口，manifest e99e081cd404c36e9f754c0839e9f8f7d95502fffa2db02bff093fe90a0599a8。5h science/6h job无自动retry。新固定η0同r载体、全angular/radial Cauchy尾、完整primitive/source保；每accepted格/接口atomic，异常回滚。rawν0不借selected。
 4. **[TM actual唯一小根/均值](results/R144-supplement-actual-terminal-mean-small-root-and-density.md)**45791979634/1已完整通过12个mean/root/density门，5stage/21球/3精确参数/24readbacks；science8300B SHAa74d11052da41570a7588d5a79545cfb7295ccf437b3bae971390d59f2b99de6，exec8971B SHAaf0b8f547c4e4215bbfcd42f7e0546391ec247765c3a94c9634c3950acd5fe34。独立sameφ1e−4门false，非实际违反；后继按[LC完整局部式](results/R144-supplement-localized-full-state-C0-and-compact-source-receivers.md)估计未除α的同φ C0（geometry C.1/B.1）及[CS完整源](results/R144-supplement-compact-centre-ordinary-and-divergence-residual.md)。均值目标锁定；rawν0不借selected phase/逆，所有nonmean跳/帽/height保。

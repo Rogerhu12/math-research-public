@@ -171,7 +171,7 @@ R143 correlated body已全4651；R146全418/13376使当前CV/RA根费格式失�
 
 [TM terminal→normalized constant](results/R144-supplement-terminal-mean-small-ball-controls-normalized-forward-constant.md)已证：同ξ=0 terminal q0满足完整CP球时，Dbar=Yf(0)−Yt(0)；以原saved D0、t=b_w/m*得|Dbar|≤d0+(1+d0)t(2−t)/(1−t)²。原waist L2 rawmean源可收紧b_w。继而sameρ二次root、统一mean球与density门分开实际核；不必重forward/W，actual45791979634/1已通过全部mean/root/density门，独立sameφ距离门false；旧forward及新mean结论各保持范围。
 
-[PS完整父段源积分续接](results/R142-supplement-durable-complete-parent-source-moment-prefixes.md)：同155parents/1424cells的全径向及193原子输出，每完整parent保存body/root/outer累计三球并整读后推进。A/B/K/J仅物化原comparison表示；已接收源域不重复moments。当前R142未结束，未作新actual入口；旧完整六球优先，裸计数不授非空前缀。
+[PS完整父段源积分续接](notes/2026-11-26-R142-streamed-defect-execution.md)：proof/pure及owner/generator已全核，复用原worker；85pins/14bindings，只在真实未成R142全件结束且defect=null后建入口。每母格三积分整件保存读回，再推进全输出/193atoms游标；已接受源域不重复moments。任何已有完整六球优先消费，旧count/hash不授积分前缀；未建actual manifest。
 
 TM首次具体入口已接：11个完整小输入、旧D0与精确waist L²字段，5个保存读回阶段；manifest acb8c78b307d25a142b776e7fbb225172098f37c92230fc53ef7301870d1f41f。无native/ODE/旧科学，actual小根及uniform mean/density门已true并锁定；sameφ C0充分门false、physical-C0/selectedphase仍独立。
 
