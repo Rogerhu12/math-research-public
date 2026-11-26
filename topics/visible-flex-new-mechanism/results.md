@@ -352,3 +352,5 @@
 - [R597 完整非线性核心余项与真实自由阶](results/R597-nonlinear-core-trace-and-realizable-free-order.md)：**已证明**P=Wfr及其真实两端值给准确eR/e′R与D_R，全角弱行中均值准确消去；齐次/已付forced/tanh/bulk逐项保。新δ^(α+2)自由项保持P0和正则核心二jets而独立控制P1，补旧δ^(2+2α)阶所缺的有限源响应；有限BVP仍须实际求。
 
 - [B030通用续接START后外部关停](notes/2026-11-26-theta-generic-start-only-shutdown-receipt.md)：run45819650602无callback/FINAL/完成Jac；原q在实际571/1276及1144×3072新观察发现η.25895160786/V0，0新优化接受可核。1116括号/22.603199331秒定位已付，其余科学费用未闭合，第三68.2931574秒未刷墙钟单列；下一改变工作矩阵实现且保完整接受门。
+
+- [R590受控collocation原自然终态](notes/2026-11-26-r590-staged-trust-first-public-receipt-agent.md)：run45818210513付113.584575秒child/112.698603153主程序，41试探=30接受+11拒绝，31完整状态全SHA可核；末原配点2.1934e18/BC.11938，非根。真even guide未闭、odd回付中心正势1.1258e17，Hermite末节点读出失真另列；转新宽母和共同八矩准备，不以固定权目标下降冒原式收敛。
