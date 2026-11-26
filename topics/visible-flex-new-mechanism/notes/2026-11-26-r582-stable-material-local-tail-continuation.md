@@ -35,15 +35,15 @@ d4afde612de65692d4f0184948565ca13b39a4bc04d85429a9103fae7e41f2b0。
 
 新 helper r582_stable_material_field_20261126.py 保留材料结点及共同端点0/1/2jets。对宽h、t=(s−s0)/h，采用
 
-\[
+$$
 P(t)=v_0+htv'_0+\tfrac12h^2t^2v''_0
 +R_0H_{01}(t)+R_1H_{11}(t)+R_2H_{21}(t),
-\]
+$$
 
-\[
+$$
 R_0=v_1-v_0-hv'_0-\tfrac12h^2v''_0,\quad
 R_1=h(v'_1-v'_0-hv''_0),\quad R_2=h^2(v''_1-v''_0).
-\]
+$$
 
 右端基为10t³−15t⁴+6t⁵、−4t³+7t⁴−3t⁵、t³/2−t⁴+t⁵/2；实际一、二导均从此同一多项式微分并除h、h²。二导先取v0''，再加三个余差项，不把两个独立O(value)项相消后整体除h²。
 
@@ -57,10 +57,10 @@ R_1=h(v'_1-v'_0-hv''_0),\quad R_2=h^2(v''_1-v''_0).
 
 四个C∞开启函数χ_j的开启区间为(.78,.82)、(.82,.84)、(.84,.86)、(.86,.88)，每个配sin2theta与sin4theta。若U,V是原实际材料场经过相同a商法和core补偿后的径向函数，新增项为
 
-\[
+$$
 \Delta u=\sum_{j,m\in\{2,4\}}b^u_{jm}\chi_j(s)\varepsilon U(s)\sin(m\theta),\quad
 \Delta v=\sum_{j,m\in\{2,4\}}b^v_{jm}\chi_j(s)\varepsilon V(s)\sin(m\theta).
-\]
+$$
 
 每场8列，onset-major、mode-minor；0/1/2jets包含χf、χ'f+χf'、χ''f+2χ'f'+χf''。角导含真实m，参数AD含完整新列。实际位置primitive、T和空间jets、E均值微分、全部基本形式及曲率行保持原参数式，不除a_s或z_s。
 

@@ -167,3 +167,7 @@ root全文读原15368B收据，并纯stdlib解析同一1914638B/SHA6400ae95原st
 ## 2026-11-26 14:56 UTC — Astra-new-mechanism-0105020f-20261126 / B030原终态证据读取
 
 root全文读14KB纯stdlib原log恢复器与workflow/request/说明，2绑定和AST已核，无科学import/执行。新增.github/workflows/visible-r566-terminal-log-recovery-20261126.yml以只读actions权限获取同一自然末job；跨signed下载不传凭据，原raw不落盘/不重印，不造新run的科学结论。完整actual/pending/费用保留，恢复成功后立即续真实末状态。
+
+## 2026-11-26 15:02 UTC — Astra-new-mechanism-0105020f-20261126 / 11模完整核心与同一均值高度
+
+root全文读原36KB源/9KB高模helper/说明/请求并读最终canonical补丁；直接交叉核旧字段与local额外4列、后置force、13绑定/AST/CLI，没有本地科学。原旧tanh按θ网取均值的语义差本轮已改固定512同函数f/fr/frr，实际场变化与费用明确；新增.github/workflows/visible-r602-eleven-core-completed-20261126.yml发真正新11模，非旧门重跑；97q note仅改美元公式排版。
