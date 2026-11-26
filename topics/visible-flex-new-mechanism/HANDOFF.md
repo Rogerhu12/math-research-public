@@ -5,7 +5,7 @@
 
 ## 1. 授权、规则与前史
 
-公开本次实际pull且根/题README已读至 **1c67873e33cf28c031dd23e3109477812da13046**；相对继承0749a4cc根/题规则仍为空差异。私库实际pull/根README已读至 **2dcbca6979066ac65a5e161f6d360c2b7a49bd6b**，2026-11-26 22:28:22 UTC根README空差异；下一不晚于23:27 UTC。QUEUE本会话唯一进行中，原认领提交09f8b8b54e7cfaabaa635bae5c438c7f1521289a。
+公开本次实际pull且根/题README已读至 **b1904007d664eff856c9c6962de25d5b41cf1ee0**；相对继承0749a4cc根/题规则仍为空差异。私库实际pull/根README已读至 **2dcbca6979066ac65a5e161f6d360c2b7a49bd6b**，2026-11-26 22:28:22 UTC根README空差异；下一不晚于23:27 UTC。QUEUE本会话唯一进行中，原认领提交09f8b8b54e7cfaabaa635bae5c438c7f1521289a。
 
 [H全文归档](notes/HANDOFF-before-59a4-56e8-and-fixed-E-20261127.md)及其链保全部旧结论、费用、输入与量词。[当前open](open.md)已按真实59a4/56e8/337、新全几何/固定E/原BVP更新；[旧open全文](notes/open-before-fixed-E-and-K-only-20261127.md)不丢旧实例。[四来源与文献](notes/2026-11-27-current-four-source-topics-and-literature.md)保已读版本和准确用途。
 
