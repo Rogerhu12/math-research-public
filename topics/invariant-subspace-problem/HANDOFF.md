@@ -7,7 +7,7 @@
 - **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仅全体有界算子的存在定理或完整反例；子结果不作完成，继续研究。
 - **最近实际pull / 已读规则提交：** `51d84b503698026fb3dd4aaf21517a0003eab86c`（2026-11-26 13:02:02 UTC，公开Actions实际pull；本地最后pull09:16:03 UTC）。两README无差异；每次pull且至少每小时查diff、记SHA。
 - 私库QUEUE认领已推 `e776df496eedfa449b0475cefe140fdae7023db4`；研究在公开仓库。每结论单推，推前pull/rebase；NFF/ref锁拒绝循环rebase再推，不force，令牌仅CLI。
-- 本地执行环境09:19 UTC后unavailable；最近云端main/规则读取 `f878ec7a2766c1d2a00f06c8d05893828986f7a5`（2026-11-26 13:07:56 UTC），两README blob未变。此为API读取，不冒充git pull；公开Actions驱动继续实际pull及3300秒规则检查。根通过非force/expected-head原子提交保并发；CLI恢复后立即pull/rebase。只保存源、参数、SHA和小回执。
+- 本地执行环境09:19 UTC后unavailable；最近云端main/规则读取 `153d6a3129a3a2e5e2b33422e98b82875d68133f`（2026-11-26 13:14:01 UTC），两README blob未变。此为API读取，不冒充git pull；公开Actions驱动继续实际pull及3300秒规则检查。根通过非force/expected-head原子提交保并发；CLI恢复后立即pull/rebase。只保存源、参数、SHA和小回执。
 - 最新完整前H见[压缩快照](notes/2026-11-26-handoff-before-L0-complement-projection-347c.md)及其归档链。MD<100KB、H<10KB、open尽量<30KB、topic<200MB，不写根LOG。
 - 已登记请求14/311、权11及旧结式不重算。并行unit211的L0/b+c非零、S0/Af非零、一般LS；H3一般有限中心；R271来源专属稳定返回。已闭范围与未决输入见下文/结果索引，不重跑旧门。
 
@@ -29,9 +29,9 @@
 - unit211非零m整个u1图已闭：原高曲线仅余l2，全部Q九次商代数的z因子为1，13真逆；run45804559912，5.703188秒/exit0。一般u≠1按原U值图继续，保值碰撞及全部L/S零面。
 
 - **[L0/w1已闭](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-U-value-L0-w1-exclusion.md)：** QQ64→48→0及原P1首项零全付。**[L0/b+c0整支现闭](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-L0-zero-weight-sum-exclusion.md)**：λgcd152只余六因子14次，全部原w域gcd1，322真逆/Bézout全回乘，3.173630秒；原Φ=−ρN(b+c)整因子同步闭，旧三参数到时仍按未决留档。只续b+c非零大补因子，新p+q2对称三参数原QQ atlas实际2.851085秒完成，把P1/E1、P1/N1和E1/N1的ρ次降至5；原P1残余系数二次/一次，现取完整ρ投影并保双零面。S0旧末格式化失败已留档；[新四QQ/八原域返回整图已闭](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Af0-L-nonzero-complete-exclusion.md)，109.926880秒/exit0；不重跑。一般LS两线性四参数atlas已生成，Δ0保全，仍开放。旧mod内存/600秒失败不重跑。
-- **S0/Af0/L非零全范围现闭：** 合并原碰撞、I=H0/M6与u1，四QQ结果式gcd1320只余八因子20次，全部原z域gcd1；109.926880秒/exit0。[P1双系数零](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-P1-zero-coefficients-exclusion.md)与[Lt0小J](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-small-J-exclusion.md)亦全闭，后者Af两面全保。续Af非零、Lt0大因子；h1/k1新碰撞源已启动，保两λ根、全部P1首项零面。
+- **S0/Af0/L非零全范围现闭：** 合并原碰撞、I=H0/M6与u1，四QQ结果式gcd1320只余八因子20次，全部原z域gcd1；109.926880秒/exit0。[P1双系数零](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-P1-zero-coefficients-exclusion.md)与[Lt0小J](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-small-J-exclusion.md)亦全闭，后者Af两面全保。续Af非零、Lt0大因子；h1/k1投影490.261秒实际exit2，只余五显式b值，正回原q/t；h=k三谱原新源启动，保全部P1首项零面。
 
-- rankH3三约化H退化Gram的ess6：F0、V二jet、Hp非零、同相位、全部H∞均已闭。[中心0整图现亦闭](results/R150-appendix-rank-three-reduced-degenerate-Gram-central-zero-exclusion.md)：正确变换K0、L=5t−1、Eh=q²−5qY+25Z；QQ284/426的四因子6/6/6/12维U幂全部回乘，30.726058秒/exit0。旧b34d源Eh错误已撤回、退出0无效。[中心2整图亦闭](results/R150-appendix-rank-three-reduced-degenerate-Gram-central-two-exclusion.md)：首项零A−1迫重根，QQ864/1296及四个6/6/24/6维U幂全回乘，229.449772秒/exit0。只余H全有限、中心c≠0,2；c−6实际结果待回收，保零首项边界；V仍可∞。非退化H Gram亦开。
+- rankH3三约化H退化Gram的ess6：F0、V二jet、Hp非零、同相位、全部H∞均已闭。[中心0整图现亦闭](results/R150-appendix-rank-three-reduced-degenerate-Gram-central-zero-exclusion.md)：正确变换K0、L=5t−1、Eh=q²−5qY+25Z；QQ284/426的四因子6/6/6/12维U幂全部回乘，30.726058秒/exit0。旧b34d源Eh错误已撤回、退出0无效。[中心2整图亦闭](results/R150-appendix-rank-three-reduced-degenerate-Gram-central-two-exclusion.md)：首项零A−1迫重根，QQ864/1296及四个6/6/24/6维U幂全回乘，229.449772秒/exit0。只余H全有限、中心c≠0,2；[c−6首项零A7/9已闭](results/R150-appendix-rank-three-reduced-degenerate-Gram-central-minus-six-leading-zero-exclusion.md)，完整三维U³已实际回乘；一般范数662.582秒到时未决，不重跑。新全有限中心原N一阶Ke3输入启动，含−6且不除零首项；V仍可∞。非退化H Gram亦开。
 
 - rankH3单三jet/rankV2整个ess6已闭，含全部Hp、特殊源/∞、V二jet；原完整证明见结果索引，勿重做。
 - 2+1型H的非零Hp、退化Gram、V二jet、F0/e0均已全闭；原QQ93/126、异常谱及所有零面见结果索引。仅续非退化Hp0约化V。
