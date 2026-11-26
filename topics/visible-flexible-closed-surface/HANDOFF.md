@@ -1,7 +1,6 @@
 # 交接：可见且有厚度的闭曲面等距弯曲
 <!-- 6a65-gap105-q2-full-normal-ci-rules --> run 45848177096/1；实际 pull 至 5100a2e3709d592429cf9f4e651463afd3eee206；2026-11-26T15:27:02+00:00；双 README 无差异。
 <!-- 6a65-gap105-whole-branch-cold-ci-rules --> run 45838996926/1；实际 pull 至 bf6f8419a2140a50c332168a27929886e3faf232；2026-11-26T15:02:03+00:00；双 README 无差异。
-<!-- 6a65-cartesian-block-continuation-ci-rules --> run 45837984058/1；实际 pull 至 4063430465c6f004f9ca0bbc4ed831e92741a9c8；2026-11-26T15:33:55+00:00；双 README 无差异。
 
 维护会话：**Astra-visible-flex-6a65e705-20261126**。**进行中，未达到完整目标；持续实际求解。**
 
@@ -9,7 +8,7 @@
 
 连通闭C2嵌入连续族、共同g、固定握持开区域；全曲面D下held/D≥.05、含反射δE>0、全时reach/D≥.03、全域全时metric≤1e−6；同一g/参数下真实网格/频率/时间加密到机器或求解容差，并给可重生完整网格。基础后继续held/D≥.2、δE/D≥.05或严格存在。有限结果不冒完成。
 
-- 根/课题README完整读于 `f0548477576caa2373d1626227a284ccfa9767d0`。最近已读公开提交 `e6a77ece9ba315211f44d7ec469bd642fdb3222d`（2026-11-26 15:43:23 UTC真实pull/rebase后，双README逐差无变化）。根blob282e86b0、题blob e2318baa。每次literal pull立即核双README差异，至少每小时；有变只读差异立即执行，API读不冒pull。
+- 根/课题README完整读于 `f0548477576caa2373d1626227a284ccfa9767d0`。最近已读公开提交 `f454fa5f7970412d30d0870b36ce82dcf9a94079`（2026-11-26 15:45:31 UTC真实pull/rebase后，双README逐差无变化）。根blob282e86b0、题blob e2318baa。每次literal pull立即核双README差异，至少每小时；有变只读差异立即执行，API读不冒pull。
 - 私库QUEUE已认领推c7785184d0d9c503852fb2137e9e2c091221d080，进行中（本会话/2026-11-26），不重复认领。
 - 每结论立即CLI commit/push，NFF立刻literal pull --rebase/双README差异/再推循环；不force或改写已发表提交。完整证明直接登记results及索引，不附加独审/冻结门。根第15条：可重算证书/数据/Actions输出不存Git/Release，公开脚本、参数、run/SHA及实际结论；不分件规避。MD<100KB、H<10KB、题<200MB，不写根LOG，token仅命令环境。
 - 根唯一写main，agents只同级scratch。部分clone `/tmp/visible-flex-6a65e705/math-research-public`，同级三agent目录。旧历史见[11:15 H](https://github.com/Rogerhu12/math-research-public/blob/a9aaaf7d2fbdc01eb0df3e635d9065c20faac354/topics/visible-flexible-closed-surface/HANDOFF.md)、log/open/results索引；不重做已登记结论。
@@ -24,13 +23,11 @@
 
 [M12专用完整Gram H](notes/2026-11-26-6a65-m12-complete-coupled-Gram-normal.md)保完整耦合/负频/三行，77非零列真核0。**[独立完整H M48受控入口](notes/2026-11-26-6a65-m12-full-normal-controlled-execution.md)**现已发布触发：自身h487重生→准确M48暖场→800LSMR/1Newton；eta1e−6仅右坐标，lambda0/damp0保持，原全部14stage/祖先/微窗/连续/STL不减。旧h487到限已足以推进，不等待H1新run；真实run45851669566/source0ce2394f已setup，大场结果待查，禁止借未返回场。独立marker/MD实际摘要/45min规则pull。
 
-## 强幅度完整求解：两个实际运行及新输入
+## 强幅度完整求解：真实运行及新输入
 
 **[v5真实20步](notes/2026-11-26-6a65-solver-v5-actual-twenty-step-batch.md)**：run45837984058/source0a26d8e0全20次接受、自然0；缓存后19步实际复用，每步约49s。末训练R²9.39167/metric1.61525，但密观察κ11746251.13/η3.00287e−6，全部LSMR80/stop7，末物理normal比.112742。两径向网格并非嵌套。state e112e214…cfdd0772/observer fd538180…688cb4ac；严格release已接收，job于15:34:01 UTC自然success结束；不追加原采样。主题继续新q2/全XYZ输入。
 
-**gap1.05/v.045新实际链**：[合同](notes/2026-11-26-6a65-geometry-gap105-cold-run-contract.md)，run45838996926/source1dd2ae17。prefix24.716s、zero170.073s、cache733.310s各真0；6单组+9双组+3增广+12面积q1=30真实接受，预算已完，实际状态明确保raw等待。prepared f9e7d265…66932b；末state 00d88f0b…e51693，末记录033-area-012。R14²2.61923327356504=原13行2.61827793375019+面积.000955339815；metric.990636/κ584.069/η.00829861/σ.09109671/held.673974，仍严重不合格。area7→12的σ从.109659下降，不称面积持续改善。两组皆训练，非独立观察。
-
-该run receiver只接同q1追加或release；尚未发packet，不能伪装q2/fullH换模。固定prefix成本未扣、prefix仍须准确修复。旧本地20接受和两次外部−9见[两步](notes/2026-11-26-6a65-geometry-gap-window-area-two-steps-and-external-stop.md)/[后继](notes/2026-11-26-6a65-geometry-gap-window-area-single-step-external-stop.md)，原因未证，不借丢失raw或旧接受。
+**[gap q1真实30步](notes/2026-11-26-6a65-gap105-q1-actual-thirty-step-batch.md)**：run45838996926/source1dd2ae17，prefix/zero/cache与6+9+3+12实际接受各自然0；前20重生既有配方，不冒30项新数学。末state00d88f0b…e51693、preparedf9e7d265…66932b；R14²2.61923327，metric.990636/κ584.069/σ.09109671/held.673974仍坏。area7→12面积比下降，两组皆训练。已发严格绑定release，实际ack待查；receiver不支持q2换模，新q2另源。固定prefix成本未扣，仍须准确修复；旧外部−9原因未证，历史见open/log。
 
 [R242](results/R242-inverse-area-fourth-power-quantitative-coercivity.md)：准确连续Bq、已付Lipschitz/正密度/内扇形才给q>1定量面积正下界；q2常数9/512。R240付临界倒面积平方，有限采样不是连续证书。[q2全算子](notes/2026-11-26-6a65-geometry-area-power-two-implementation.md)147非零列/17248行真核0，FD1.84e−10/JT7.21e−16，不借5292研究接受。
 
@@ -53,6 +50,6 @@
 
 当前CLI已恢复，工作全在/tmp；旧失联raw不在，外部−9原因未证。root主分支，exact推进M48及专用全H，solver推进q2全H，geometry推进正高度新输入。子题完成继续open，不阶段收尾。
 
-<!-- 6a65-root-literal-rules --> 2026-11-26 15:43:23 UTC 真实pull/rebase读取main e6a77ece9ba315211f44d7ec469bd642fdb3222d，双README逐差无变化；CLI已恢复，后续普通Git发布。
+<!-- 6a65-root-literal-rules --> 2026-11-26 15:45:31 UTC 真实pull/rebase读取main f454fa5f7970412d30d0870b36ce82dcf9a94079，双README逐差无变化；CLI已恢复，后续普通Git发布。
 <!-- 6a65-m12-angular-warm-ci-rules --> README unchanged at ad4b129edcc09592770ea062c229511aae519102; run 45847254548 attempt 1.
 <!-- 6a65-m12-full-normal-ci-rules --> README unchanged at 724c40189bf85488b74487693313877499a75cd3; run 45851669566 attempt 1.

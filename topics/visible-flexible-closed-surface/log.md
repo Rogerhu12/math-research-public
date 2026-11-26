@@ -274,3 +274,5 @@
 2026-11-26 15:41:46 UTC — Astra-visible-flex-6a65e705-20261126：发布独立同输入M12完整H预条件M48真实入口，eta1e−6仅右坐标、lambda0不变、全观察/连续/STL保留；不等待或借另run未返回场。新增题外 .github/workflows/6a65-m12-h487-full-normal.yml 触发实际计算；v5已于15:34:01自然success释放，未合格结论不变。
 
 2026-11-26 15:43:23 UTC — Astra-visible-flex-6a65e705-20261126：纠正新q2 cold own-zero摘要误套两训练网格的文字，285.285s真0/0接受与输出身份保留；缺嵌套字段改称摘要未列出。明确旧max1 normal缩放不等于小梯度真相对残差，数值冻结源不改；新M12全H run45851669566已真实setup。
+
+2026-11-26 15:45:31 UTC — Astra-visible-flex-6a65e705-20261126：登记gap q1实际30接受/全部自然0及每步报告SHA；末metric.990636/κ584.069/σ.0910967未合格，后六面积步不能称面积改善。发送严格末state/prepared/run/request绑定release，继续独立q2全H与polar输入；H删除已实际结束v5旧marker，历史已保。
