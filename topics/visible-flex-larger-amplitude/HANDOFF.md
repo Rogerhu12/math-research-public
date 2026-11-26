@@ -54,6 +54,6 @@
 <!-- visible-larger-parallel-04:end -->
 
 <!-- visible-larger-parallel-05:start -->
-并行公开Actions05：[run 45870334713/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45870334713)；[实际记录](notes/2026-11-26-public-actions-45870334713-1.md)。阶段`followup:run05-history-reconstruction-26-complete-independent-axisymmetric-SO3-integral-norm-full64-first-20261126`/running；已返5，exit=未返。
-并行05规则核查：2026-11-26 19:13:34 UTC，真实pull至`c0721f484afbbf693eb7cd7e8cac26996bbf158e`，双README无变化。
+并行公开Actions05：[run 45870334713/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45870334713)；[实际记录](notes/2026-11-26-public-actions-45870334713-1.md)。阶段`followup:run05-history-reconstruction-26-complete-independent-axisymmetric-SO3-integral-norm-full64-first-20261126`/completed；已返6，exit=0。
+并行05规则核查：2026-11-26 19:27:51 UTC，真实pull至`7fc831211a88a951b855b667eb5384b6bb90d34a`，双README无变化。
 <!-- visible-larger-parallel-05:end -->
