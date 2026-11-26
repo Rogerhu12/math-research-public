@@ -7,7 +7,7 @@
 
 完整连通闭C2嵌入连续族、共同g和固定握持开区域；全曲面D下held/D≥.05、含反射δE>0、全时reach/D≥.03、全域全时metric≤1e−6；同一g与全部物理参数下真正网格/频率/时间加密到机器或求解容差，并给完整可复现网格。基础后继续held/D≥.2、δE/D≥.05或严格存在。现有有限结果不冒完成。
 
-- 根/课题README完整读于 `f0548477576caa2373d1626227a284ccfa9767d0`。最近已读公开提交 `76a81f3ad8430eabdcbcea2326f37cbe65ad4475`（2026-11-26 13:41 UTC真实pull/rebase后，双README逐差均无变化）。根blob282e86b0、题blob e2318baa。每次literal pull立即核双README差异，至少每小时；有变只读差异立即执行，API读不冒pull。
+- 根/课题README完整读于 `f0548477576caa2373d1626227a284ccfa9767d0`。最近已读公开提交 `4da1e3ac2ce10743dbba50b18002747e14f57f36`（2026-11-26 13:44 UTC真实pull/rebase后，双README逐差均无变化）。根blob282e86b0、题blob e2318baa。每次literal pull立即核双README差异，至少每小时；有变只读差异立即执行，API读不冒pull。
 - 私库QUEUE已认领推 `c7785184d0d9c503852fb2137e9e2c091221d080`，进行中（本会话/2026-11-26）。不重复认领。
 - 每结论立即commit/push；NFF立刻pull --rebase循环到成功，不force或amend已发表提交。完整证明直接登记并加results.md索引；不附加独审/冻结门。全部数组只临时区，不进Git/Release/artifact；只源码/参数/run/hash/标量。MD<100KB、H<10KB、题<200MB；不写根LOG。token只命令环境。
 - 根唯一写main；agents只同级scratch。当前部分clone `/tmp/visible-flex-6a65e705/math-research-public`，同级geometry-work/exact-work/solver-work/cold-cartesian-work。旧历史见[11:15 H](https://github.com/Rogerhu12/math-research-public/blob/a9aaaf7d2fbdc01eb0df3e635d9065c20faac354/topics/visible-flexible-closed-surface/HANDOFF.md)、log和open；不重做已登记结论。
@@ -26,7 +26,7 @@
 
 **原前缀历史**：[6400档](notes/2026-11-26-6a65-m12-prefix-radial-refinement-after-6400.md)仍stop7/峰4.64191e−10非硬底；h160 run45810358787数值步骤成功但发布时cancelled，scalar缺/日志404，不补造数值，已换真全半体方向继续。
 
-**强长run**：[45778054176报告](notes/2026-11-26-6a65-actions-strong-45778054176-1.md)/job139766458381，350min，13:38实际completed/cancelled。source003 inventory1a535f75…de8fee，先1788列Cauchy再独立v2，见[合同](notes/2026-11-26-6a65-solver-source003-composite-contract.md)/[匹配](notes/2026-11-26-6a65-source003-actual-Cauchy12-matched-activation.md)。第12态重生相同后，本phase1真接受818.216s/α.25，state4c53afcd…207ce，R².107699548464153/metric.2639542415/κ26.40135294；rho仍变量，非同g加密。下游独立note404且无退出回执，不补造Cartesian接受；终止日志正登记。
+**强长run**：[45778054176报告](notes/2026-11-26-6a65-actions-strong-45778054176-1.md)/job139766458381，350min，13:38实际completed/cancelled。source003 inventory1a535f75…de8fee，先1788列Cauchy再独立v2，见[合同](notes/2026-11-26-6a65-solver-source003-composite-contract.md)/[匹配](notes/2026-11-26-6a65-source003-actual-Cauchy12-matched-activation.md)。第12态重生相同后，本phase1真接受818.216s/α.25，state4c53afcd…207ce，R².107699548464153/metric.2639542415/κ26.40135294；rho仍变量，非同g加密。[真实终止](notes/2026-11-26-6a65-solver-source003-job-cancelled-actual.md)：13:38:36日志明确canceled；原observer仅205857点进度、版本probe0，独立note404且无实验退出/state/observer回执，不补造Cartesian接受。
 
 **独立Cartesian v4**：全13行/7760列，见[算子](notes/2026-11-26-6a65-solver-cartesian-stream-recovery-and-actual-finite-check.md)。[cold首步](notes/2026-11-26-6a65-cartesian-cold-first-actual-acceptance.md)真接受但metric2.38717/denseκ171536，raw不借。[只读缓存](notes/2026-11-26-6a65-solver-cartesian-v4-direct-source-cache.md)/[发布链](notes/2026-11-26-6a65-solver-cartesian-multistep-publisher-check.md)已核；旧45823011528[浅历史故障](notes/2026-11-26-6a65-solver-cached-job-shallow-history-failure.md)发生于数值前。补祖先的新45825253169/source64f20c32自13:02:19请求20次；value239.542s/observer401.093s均0，INITIAL363e6d6a…86cbc/observerca03fc1c…2b0e77，13:13:33开始v4仍待首真实退出。每次完整value/J/JT/试步/observer和45min规则检查；旧首接受只重生输入。[R239](results/R239-complete-cartesian-radial-block-preconditioning.md)付精确径向块预条件、原λSobolev增广算子；另名实现准备，不热改v4/不称改善。
 
