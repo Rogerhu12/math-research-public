@@ -29,7 +29,7 @@ rank$H=4$ 的非单位局部块长度5、4、3已排；长度2单零的三种单
 
 全部 ess$T_3\le3$ 已给 matched Bell 零；原 $W_\pm$ 上确有 Cat3 真临界点，不能把 Cat3 整层判空。Bell 非零只可能在 V≠0 且 ess4/5/6。原两原子开集的例外和有限32全参数模型仍按原范围，不能先删 $D=0$ 或合流。
 
-**一般V非零的秩一分支：** [全部高接触均值极线](results/R150-appendix-rank-one-third-cumulant-high-contact-mean-divisor-classification.md)现已完整分类：rankV1写V=v u(s)³，原highest迫P_y非零且整除k_s³；若ord_s P_y≥3，必为同点T3=0族，s∈{0,2,−6,∞}。证明合并已闭五重、311及原请求14的41/32全边界，保q重根与∞；23型亦整支空。当前只续ord_s P_y≤2的其余完整除子分配及高秩V，不重跑旧高接触源。全部原低梯度和非零Bell条件仍须保留。 [三个低接触族](results/R150-appendix-rank-one-third-cumulant-three-low-contact-mean-divisor-classification.md)现亦全闭：Δ_s q_s Δ_t、q_s Δ_t²、q_s²/Δ_t的全部临界点均T3=0，B/C原V贡献完整保留。只续四个两根族与除子穷尽及高秩V；不能用低接触部分覆盖代全分类。
+**一般V非零的rankV1全层现已关闭：** [完整临界集定理](results/R150-appendix-rank-one-third-cumulant-complete-critical-classification.md)保原全部33梯度，证明所有rankV1临界点恰为y=a u(s)、H=(a³+4c)u(s)u(s)ᵀ/(6a)、V=c u(s)³，a c≠0，s任意射影点，完整T3=0。证明穷尽五次均值极线的全部除子型，保q重根、D8纤维、t=r真双根与全部无穷远；全部旧311/高接触及新低接触/四两根族不再重做。结合已闭V0和essT3≤3，潜在非零原匹配Bell只可能rankV≥2且essT3=4/5/6。下一步从真正rankV2的长度二支撑开始，仍不能把V本身支撑冒充y/H/V共同支撑；更高rankV及原全局幂来源保持开放。
 
 ### 1.2 原权十一及更高幂
 

@@ -1,0 +1,88 @@
+{
+  "format": "isp-recovered-proof-provenance-v1",
+  "originalExecutionHistory": {
+    "arguments": [
+      "s_t2_r2"
+    ],
+    "date": "2026-11-26",
+    "exitCode": 0,
+    "label": "s_t2_r2",
+    "provenance": "Historical exact execution metadata recovered from the same conversation before executor loss. Raw old stdout and old source bytes are not present on this rebuilt executor; this is not a new execution and not assigned to reconstructed source bytes.",
+    "pythonVersion": "3.12.14",
+    "source": "2026-11-26-r150-rank-one-two-root-families-verify.py",
+    "sourceBytesRecoverable": false,
+    "sourceSHA256": "a9a2916849bb6812251c187572dfcc13824271ce1a4b8d4658560bdd3d21b289",
+    "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdoutBytes": 2128,
+    "stdoutSHA256": "c230376a0aad1d7b653f1768a08f5278e5035b05c430b17f708dc86409dfa729",
+    "wallSeconds": 9.47487341699889
+  },
+  "reconstructedSourceNewExecution": {
+    "arguments": [
+      "s_t2_r2"
+    ],
+    "date": "2026-11-26",
+    "executionEnvironment": "new local executor after original executor loss",
+    "exitCode": 0,
+    "format": "isp-recovered-source-new-execution-v1",
+    "label": "s_t2_r2",
+    "pythonVersion": "3.12.14",
+    "records": [
+      {
+        "DQuotientGates": {},
+        "QQCofactorDegrees": [
+          480,
+          480
+        ],
+        "QQNormDegrees": [
+          648,
+          648
+        ],
+        "allOriginalVContributionsRetained": true,
+        "cofactorSylvesterDetMod1009": 294,
+        "cofactorSylvesterDimension": 960,
+        "completeRankOneClassificationVerified": true,
+        "elapsedSeconds": 10.555544978997204,
+        "fullGradientHash": "91e25701915fc6b0f7445cfcf27f397461eb505f7a12af712faaac32a68b7f09",
+        "globalMatchedBellClaim": false,
+        "highestFullResidualHash": "cfd4eecab7c1cc319cb02129842df4d961efb77a4a7cebb6176d320f51b9ec00",
+        "label": "s_t2_r2",
+        "ordinaryISPClaim": false,
+        "recoveryNote": "Reconstructed after executor loss. This execution belongs to this exact source SHA.",
+        "sMinusOneBoundaryUnitGates": {
+          "finite_finite": {
+            "exactQQInverseVerified": true,
+            "inverseSHA256": "2630ca9155e63b0cf118825c73ef7c11edd02628e4898ec31da30e3d500e5e71",
+            "valueDegree": 0,
+            "valueSHA256": "4c84fca069fcd23c062e134bca9a555d553ff2c6fa63a2c0906df072b1efc524"
+          },
+          "finite_infinity": {
+            "exactQQInverseVerified": true,
+            "inverseSHA256": "df79f77e73f39b2b6511d5dbd865fc9256dfc990506b712dc17ff2ae883fda92",
+            "valueDegree": 1,
+            "valueSHA256": "21658df0c7a28779e63d3b95e08a9c937f24e022b6414ea928b7e98895c4eb08"
+          },
+          "infinity_finite": {
+            "exactQQInverseVerified": true,
+            "inverseSHA256": "df79f77e73f39b2b6511d5dbd865fc9256dfc990506b712dc17ff2ae883fda92",
+            "valueDegree": 1,
+            "valueSHA256": "21658df0c7a28779e63d3b95e08a9c937f24e022b6414ea928b7e98895c4eb08"
+          }
+        },
+        "sZeroAndInfinityReductionTable": [
+          "E5",
+          "E32",
+          "E32"
+        ],
+        "sourceSHA256": "13513509b4a11ac1acdfa1fb7f336773ce51efc0d6b36314385b28002b93f1cf",
+        "stage": "complete"
+      }
+    ],
+    "source": "2026-11-26-r150-rank-one-two-root-families-verify.py",
+    "sourceSHA256": "13513509b4a11ac1acdfa1fb7f336773ce51efc0d6b36314385b28002b93f1cf",
+    "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdoutBytes": 1558,
+    "stdoutSHA256": "e871770cf08c9699aa190a6011f1954c90b30c710a4738a0dd36bf47a26050c1",
+    "wallSeconds": 10.904051860998152
+  }
+}

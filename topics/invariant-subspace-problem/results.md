@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R150 非零秩一第三累积量的完整临界集（2026-11-26，已证明）：** [全部两根族、射影纤维及除子穷尽](results/R150-appendix-rank-one-third-cumulant-complete-critical-classification.md)证明原rankV1临界点必且仅y=a u(s)、H=(a³+4c)u(s)u(s)ᵀ/(6a)、V=c u(s)³，a c≠0；故完整T3及任意方向Bell均零。新增QQ620/648次范数、752/880/960阶门和D8全商代数逆，完整处理重根、合流、降次与∞。高秩V、全局Jacobians幂及普通ISP仍开。
+
 - **R150 三个低接触秩一V族的完整分类（2026-11-26，已证明）：** [完整V贡献、QQ消元与全部射影纤维](results/R150-appendix-rank-one-third-cumulant-three-low-contact-mean-divisor-classification.md)处理Δ_s q_s Δ_t、q_s Δ_t²、q_s²/Δ_t，保B/C的P_y(s)非零贡献；全部存活点同点且完整T3=0。原QQ范数236/248/256、完整余因子门240/255/621及全部有限/∞门已付；丢失源重建后的新执行与旧身份分开。其余四个两根族/穷尽仍需完成。
 
 - **R150 单位2+1+1的两个基点配对同时为零时整支为空（2026-11-26，已证明）：** [完整原双点首项、均值面及全部边界](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-zero-base-pairings-exclusion.md)保双点最高三阶与二次二阶、同一m与零点列；t0及半坐标由原式/Gram秩排除，两完整mean面以QQ19/17次结式gcd和J0非零结式排除。源码1.330961秒成功，原字节从工具记录恢复且SHA相同；不重跑。unit2+1+1非零基配对仍开。

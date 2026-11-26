@@ -1,0 +1,98 @@
+{
+  "format": "isp-recovered-proof-provenance-v1",
+  "originalExecutionHistory": {
+    "arguments": [
+      "s2_t2_r"
+    ],
+    "date": "2026-11-26",
+    "exitCode": 0,
+    "label": "s2_t2_r",
+    "provenance": "Historical exact execution metadata recovered from the same conversation before executor loss. Raw old stdout and old source bytes are not present on this rebuilt executor; this is not a new execution and not assigned to reconstructed source bytes.",
+    "pythonVersion": "3.12.14",
+    "source": "2026-11-26-r150-rank-one-two-root-families-verify.py",
+    "sourceBytesRecoverable": false,
+    "sourceSHA256": "a9a2916849bb6812251c187572dfcc13824271ce1a4b8d4658560bdd3d21b289",
+    "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdoutBytes": 2570,
+    "stdoutSHA256": "4c0b1a966d9b092a8e3b57226d46a30a4d7b71eda889d926683fa182b212503f",
+    "wallSeconds": 17.50739142599923
+  },
+  "reconstructedSourceNewExecution": {
+    "arguments": [
+      "s2_t2_r"
+    ],
+    "date": "2026-11-26",
+    "executionEnvironment": "new local executor after original executor loss",
+    "exitCode": 0,
+    "format": "isp-recovered-source-new-execution-v1",
+    "label": "s2_t2_r",
+    "pythonVersion": "3.12.14",
+    "records": [
+      {
+        "DQuotientGates": {
+          "doubleDoubleDelegatesToRegistered23": true,
+          "doubleSimpleIsPhysicalSurvivor": true,
+          "factorizationAndAllDenominatorInversesVerified": true,
+          "reversedSimpleDouble": {
+            "exactQQInverseVerified": true,
+            "inverseSHA256": "ec6d72a0b98a2be6b58c734db99a4d6df2834b4928d3934a7c404ee24fcec96d",
+            "valueDegree": 7,
+            "valueSHA256": "d886566e88e675b4138a638ad34544f0006bcf239e2b784afb4e863ab3db4b89"
+          }
+        },
+        "QQCofactorDegrees": [
+          376,
+          376
+        ],
+        "QQNormDegrees": [
+          620,
+          620
+        ],
+        "allOriginalVContributionsRetained": true,
+        "cofactorSylvesterDetMod1009": 12,
+        "cofactorSylvesterDimension": 752,
+        "completeRankOneClassificationVerified": true,
+        "elapsedSeconds": 14.350180048990296,
+        "fullGradientHash": "af566b047e6047c2158996f56768574fdfcf4c3f00343e1ce8fca7129f06f0ba",
+        "globalMatchedBellClaim": false,
+        "highestFullResidualHash": "cfd4eecab7c1cc319cb02129842df4d961efb77a4a7cebb6176d320f51b9ec00",
+        "label": "s2_t2_r",
+        "ordinaryISPClaim": false,
+        "recoveryNote": "Reconstructed after executor loss. This execution belongs to this exact source SHA.",
+        "sMinusOneBoundaryUnitGates": {
+          "finite_finite": {
+            "exactQQInverseVerified": true,
+            "inverseSHA256": "74b7a7c4a9277f4878e43ef66b41aff0e51b35d7fbe70e61901bec45a5e4f50d",
+            "valueDegree": 1,
+            "valueSHA256": "e52bbb73532d8c76aa4b9c0bfce776863b9a41a0d688982760a1e427c9f81355"
+          },
+          "finite_infinity": {
+            "exactQQInverseVerified": true,
+            "inverseSHA256": "61c6b99e3741e996dea3b549a28a22bbb292286a7eeba4c25ca35ad8b4be2d72",
+            "valueDegree": 1,
+            "valueSHA256": "3d5d20e79d4cf8a15ea54fcffb0a5d17e96954dbc036a1f6a46bfa3542b3b006"
+          },
+          "infinity_finite": {
+            "exactQQInverseVerified": true,
+            "inverseSHA256": "569ab8587285e6de22b246125399f507a17b9cc13b482b7bc20859147a01ecb7",
+            "valueDegree": 1,
+            "valueSHA256": "fec8f56a41c988752e52aaccf5755078ff4b5060a895e498cd7fc2df9368afda"
+          }
+        },
+        "sZeroAndInfinityReductionTable": [
+          "E5",
+          "S",
+          "E32"
+        ],
+        "sourceSHA256": "13513509b4a11ac1acdfa1fb7f336773ce51efc0d6b36314385b28002b93f1cf",
+        "stage": "complete"
+      }
+    ],
+    "source": "2026-11-26-r150-rank-one-two-root-families-verify.py",
+    "sourceSHA256": "13513509b4a11ac1acdfa1fb7f336773ce51efc0d6b36314385b28002b93f1cf",
+    "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdoutBytes": 1938,
+    "stdoutSHA256": "33940a10f27c6eade958b600915fa165e337ec51456566ca67e7de0d929da338",
+    "wallSeconds": 14.747555721012759
+  }
+}
