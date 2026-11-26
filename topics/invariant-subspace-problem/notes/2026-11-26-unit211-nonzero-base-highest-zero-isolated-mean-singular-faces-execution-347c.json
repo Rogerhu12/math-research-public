@@ -1,0 +1,37 @@
+{
+  "elapsedSeconds": 1.138905,
+  "ordinaryISPClaim": false,
+  "peakRssKiB": 63756,
+  "residualFibers": [
+    "u=1: Q=15/16 forces bc=0",
+    "l=0: Q=4 forces u=0"
+  ],
+  "schema": "r150-unit211-P0nonzero-mzero-singular-faces-20261126-v1",
+  "scope": "p+q=2,Q=pq nonzero and not one,P0 nonzero,m=0; F1=0,u=1 and F2=0,l=0 excluded with every new denominator fiber",
+  "secondResultantDegrees": [
+    [
+      22,
+      58,
+      44
+    ],
+    [
+      59,
+      92,
+      88
+    ]
+  ],
+  "sourceSha256": "1b0d38f1cf761cd704e3df9cfe50b58992e1ff73a517c34ef5e5b9771961503b",
+  "status": "all_exact_QQ_checks_pass",
+  "session": "Astra-ISP-347c-20261126",
+  "author_agent": "unit31_general",
+  "model": "GPT-6 Astra Pro",
+  "ai_assisted": true,
+  "exit_code": 0,
+  "command": "PYTHONPATH=/tmp/isp-347c05929dd3/deps python 2026-11-26-unit211-nonzero-base-highest-zero-isolated-mean-singular-faces-347c.py",
+  "python": "3.12.14",
+  "sympy": "1.14.0",
+  "python_flint": "0.9.0",
+  "stdout_sha256": "fc95094e36a8ede8c51bfccfa0387fc8691668d587c01d39307f4d16412feb25",
+  "execution_finished_utc": "2026-11-26T08:01:36.906264+00:00",
+  "earlier_attempt": "One SymPy structural comparison of expanded versus factored forms failed. It was replaced by exact expansion of their difference; final source ran successfully in full."
+}

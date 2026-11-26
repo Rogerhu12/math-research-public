@@ -62,6 +62,8 @@ $$
 
 **[单位211整个最高基点值零分支已空](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-zero-highest-value-exclusion.md)：** 一般q在P0零图保全部P1/N0/N1；常规原mean结式41/42、31/31的全部纤维排尽，唯一零t抽象族由完整五维Gram秩二排。奇异D0两图原mean gcd1，半权原P_B=2N_B/P_C=2N_C与零点mean迫u1零，形成已禁止的等向2A+Z。自含原QQ源16.849538秒、74488KiB、exit0，旧边界不复算；只有P0非零继续，准确分m0/N0零与m非零/N0非零。
 
+**[单位211非零P0、零m的两奇异jet面全闭](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-nonzero-base-highest-zero-isolated-mean-singular-faces-exclusion.md)：** 共同缩放p+q2、Q=pq后，E0=N0全局图的原N1分成F1F2；F1的g系数2Q(u−1)、F2的g系数−2lQ²。准确已闭F1/u1与F2/l0，非同名参数的另一面不误排；QQ22/58/44与59/92/88末纤维分别迫bc0/u0。源1.138905秒/exit0，继续F1/u≠1与F2/l≠0及根负责的m非零。
+
 ## 2. R271：同一来源的完整物理费用
 
 目标仍是 $M=\ker T$、$N=\overline{BM}$ 的 $N=M$。保同一 $w/u$、全部 partial、真实 intersection 旗、MP 自然域、负前缀/未来/carry、完整帽逆伴随及外投影；所有已闭引理只能按原范围组合。
