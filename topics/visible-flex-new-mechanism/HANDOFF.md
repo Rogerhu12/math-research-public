@@ -6,7 +6,7 @@
 
 ## 1. 规则与接手
 
-已部分克隆并实际 `git pull main`，公开根 README、课题 README、HANDOFF、open、results 索引及相关 log/notes 已读。公开已读提交 **433e1d1821090b208ff614c06970deee20fd5e97**（2026-11-26 12:10 UTC；本次实际pull后根/题README空差异）；历次规则及失败原回执保原note；私有 QUEUE 的本题已改为本会话进行中并成功推送：**9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7**；最后实际pull及规则同blob读至 **4a97d422c004724bff537e2c5e322b82aec4ccdd**（2026-11-26 11:28 UTC；恢复partial副本后实际pull，根README空差异、QUEUE仍本会话）。其它课题的并行认领保留。
+已部分克隆并实际 `git pull main`，公开根 README、课题 README、HANDOFF、open、results 索引及相关 log/notes 已读。公开已读提交 **b9e1902f218487a2416a1182d90d7d5f35cd2f86**（2026-11-26 12:12 UTC；本次实际pull后根/题README空差异）；历次规则及失败原回执保原note；私有 QUEUE 的本题已改为本会话进行中并成功推送：**9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7**；最后实际pull及规则同blob读至 **4a97d422c004724bff537e2c5e322b82aec4ccdd**（2026-11-26 11:28 UTC；恢复partial副本后实际pull，根README空差异、QUEUE仍本会话）。其它课题的并行认领保留。
 
 [前历交接](notes/HANDOFF-before-new-actual-runs-20261126.md)保全部原规则/成本/范围；09:18及11:20 UTC两次本地失联期间仅API保存，不冒actualpull。09:33、11:28恢复后已实际双pull。每pull核根/题README差异并执行，至少每小时；root独占git/索引，每条结论即推，NFF立即rebase重推。科学仅公开Actions，本地限纸证/源码/原日志解析；已披露3次开发偏离保原note且停止。根12不加机械复跑，根15不留可重算raw。
 
@@ -22,7 +22,7 @@
 
 [true-s原终态](notes/2026-11-26-r582-true-core-shooting-original-terminal-receipt.md)run45812850055/job139884885837付31.672817549科学秒，0旧seed/LS。μ−.040019082162222074、ν−.048942275258064924，C/A两精度2.9854e−15/7.7913e−13；4811细几何V0、κ16.42911578。原ν0±.001盒/全s的71区间付zs>.00785181746；实际H包络宽1.817e−6保真，未冒请求1e−6。归一场二jet峰28.8894；amax.3891>.38核心且尾到.22，下一保完整s参数图作有限非圆，不强套全r图。数值ODE/无限尾口误差及准确根仍未认证；旧全部口/LS费用保原note。
 
-[R577](results/R577-intrinsic-geodesic-normal-chord-and-complete-reach-certificate.md)的完整reach门和[R579](results/R579-smooth-thick-rounded-core-with-exact-perimeter-and-macro-budget.md)厚核心预算均保原证明；当前连接/跨片/全对仍未付，有限FFT/曲率不替代。
+[R577](results/R577-intrinsic-geodesic-normal-chord-and-complete-reach-certificate.md)的完整reach门和[R579](results/R579-smooth-thick-rounded-core-with-exact-perimeter-and-macro-budget.md)厚核心预算均保原证明；当前连接/跨片/全对仍未付，有限FFT/曲率不替代。[R595](results/R595-rotational-reach-and-complete-meridian-reduction.md)付旋转像reach等于完整±子午截线、全角法弦只须同方位/对径两端；轴与镜像全含，不除a_s/z_s。当前静态背景尚未实际全对验证，非圆面不继承此化简。
 
 ## 4. 真实平坦核到有限非线性
 
