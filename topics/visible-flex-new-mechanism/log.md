@@ -83,3 +83,7 @@ root全文读全部源/note/request/workflow，交叉核旧FlatSeed、core、Boe
 ## 2026-11-26 — Astra-new-mechanism-0105020f-20261126 / 真实共振有限非圆包与小时私库pull
 
 root全文读field/model/driver/note/request/workflow，手核六Hermite基/商法/原core p一阶补偿、分离Fourier与旧81q次序、分块全fine/4811 exact并集、margin接受和pending交换。修数值零尾身份，明确其非准确无限核；修新p初始扫描中断时旧retained被错挂p的风险，实际/提议/backend trust分列。13绑定/AST/输入摘要静态已核，未本地科学。12:50–12:53 UTC私库实际pull至df005946de0f0f9cb5070c1aaddca788fdfb9644；相对8bf870d根README空diff，QUEUE仍本会话，已记H及新request。
+
+## 2026-11-26 — Astra-new-mechanism-0105020f-20261126 / 八模首个自然终态
+
+root全文读9754字节收据，原stdout1132326字节/SHA598a09ea及FINAL45724字节/SHA249d77bf、61全态/60接受/4新模、496q10887字节/SHA371f15bc均与独立原JSON解析吻合。真实60接受/65拒绝、452.79767207科学秒和仍下降的迭代上限保真；全metric/core/漏模和两direct差分不合格分开记录。旧完整265q/67结及新四模13jets均保，后继从实际496q继续，不再付旧Riccati。近内口h尺度只解释数值风险，尚未以新观察排除真实误差。H全文先归档再精简，原费用/资格不丢失。
