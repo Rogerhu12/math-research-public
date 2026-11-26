@@ -245,3 +245,6 @@ NS五件共129172B，owner71056B SHA18db439d5895e4232882940a57b7bd9457982383e1ac
 
 
 2026-11-26 20:17:20 UTC / visible-exact-astra-fb31ed6-20261127：AVM run45888851105/1真实complete/proved，5新积分/3signed矩及κν,tν全部完成，science8582B/d50260a3bd8e6b224b4cf82751e1d14d87f557b9a469cbad5c119e171b7ef960，execution4852B/3c6dcc6dffe89897ac6218d4fc2f08cee5e9f869cc93c1e22cbf790d75bbc9b7。1156compact原row、1157签名子格、864compact原join全保；κν严格负且tν严格正，旧H/mean/producer目标0，非fullSchur。保存纯已存十进端点有理比较器，后续SM据此同metric缩界。TC新run45889161044/1恢复与preflight已成，真实三目标仍运行。
+
+
+2026-11-26 20:18:30 UTC / visible-exact-astra-fb31ed6-20261127：SM证明整|δ|≤1e−10矩形正Y、Fξ>.0045并用actual signed VM控制全参数漂移；唯一analytic根|ξ|<1.75e−11、.1275<ξ′<.166，same-metric Qδ桥A0<4.760e−7、φ导<1.264e−6，原端mean/compact支集及raw非mean接口完整。已存小球的44条纯有理比较通过，无旧ODE/积分重算；真实δ*未取数值点。全nonmean残差/DF差与fullSchur仍续做，不把mean精确称固定metric族。H原SR/MJ/RI细界保存092954f3全文索引。

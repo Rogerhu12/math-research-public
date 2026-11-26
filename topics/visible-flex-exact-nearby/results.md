@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [SM：真正selected metric上的双端mean精确中心](results/R144-supplement-mean-exact-compact-centres-on-the-selected-metric.md)：全|δ|≤1e−10解析根|ξ|<1.75e−11、.1275<ξ′<.166，exact compact support；同metric Qδ pair A0差<4.760e−7、φ导数差<1.264e−6。已将mean中心置于actualδ*，新nonmean残差/DF/phase/height仍须真实付。
+
 - [AVM：实际负metric腰导数与正密度补偿](results/R144-supplement-actual-negative-metric-waist-derivative-and-positive-density-compensation.md)：45888851105/1全7721/6143、紧窗1156/1157完整，κν∈(−3.986e−4,−3.151e−4)，tν∈(.1277,.1649)；非zero通过，全部原mean/跳/metric与fullSchur欠项保留。
 
 - [TC浮点步进/精确积分分割修复](notes/2026-11-27-TC-proposal-grid-separation.md)：45884668422原输入全恢复后在proposal入口断言失败，三目标0。只合并相同float的trial节点，原全部exact cuts/径向质量及≤9000计数保留；独立separated-grid入口继续首次三目标。
