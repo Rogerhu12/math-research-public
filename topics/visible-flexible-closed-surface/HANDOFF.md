@@ -7,7 +7,7 @@
 
 完整连通闭C2嵌入连续族、共同g和固定握持开区域；全曲面D下held/D≥.05、含反射δE>0、全时reach/D≥.03、全域全时metric≤1e−6；同一g与全部物理参数下真正网格/频率/时间加密到机器或求解容差，并给完整可复现网格。基础后继续held/D≥.2、δE/D≥.05或严格存在。现有有限结果不冒完成。
 
-- 根/课题README完整读于 `f0548477576caa2373d1626227a284ccfa9767d0`。最近已读公开提交 `e1fd92a533eb523242dac7116479a26b65679ba5`（2026-11-26 13:25 UTC真实pull/rebase后，双README逐差均无变化）。根blob282e86b0、题blob e2318baa。每次literal pull立即核双README差异，至少每小时；有变只读差异立即执行，API读不冒pull。
+- 根/课题README完整读于 `f0548477576caa2373d1626227a284ccfa9767d0`。最近已读公开提交 `1ede94fe8284c0247fb671bb847bfd7b88bbebc2`（2026-11-26 13:26 UTC真实pull/rebase后，双README逐差均无变化）。根blob282e86b0、题blob e2318baa。每次literal pull立即核双README差异，至少每小时；有变只读差异立即执行，API读不冒pull。
 - 私库QUEUE已认领推 `c7785184d0d9c503852fb2137e9e2c091221d080`，进行中（本会话/2026-11-26）。不重复认领。
 - 每结论立即commit/push；NFF立刻pull --rebase循环到成功，不force或amend已发表提交。完整证明直接登记并加results.md索引；不附加独审/冻结门。全部数组只临时区，不进Git/Release/artifact；只源码/参数/run/hash/标量。MD<100KB、H<10KB、题<200MB；不写根LOG。token只命令环境。
 - 根唯一写main；agents只同级scratch。当前部分clone `/tmp/visible-flex-6a65e705/math-research-public`，同级geometry-work/exact-work/solver-work/cold-cartesian-work。旧历史见[11:15 H](https://github.com/Rogerhu12/math-research-public/blob/a9aaaf7d2fbdc01eb0df3e635d9065c20faac354/topics/visible-flexible-closed-surface/HANDOFF.md)、log和open；不重做已登记结论。
@@ -30,7 +30,7 @@
 
 **独立Cartesian v4**：[完整算子](notes/2026-11-26-6a65-solver-cartesian-stream-recovery-and-actual-finite-check.md)全13行/7760列，stream b8cfd595…16e4a9、recipe0794c4…841a7。[cold45812620369](notes/2026-11-26-6a65-cartesian-cold-first-actual-acceptance.md)真实首α1，R²69144.79→16795.95/metric2.38717/denseκ171535.8仍坏，独立接受1不加原Cauchy，raw不借。[v3非零续态](notes/2026-11-26-6a65-solver-cartesian-v3-nonzero-resume-check.md)/[v4只读缓存](notes/2026-11-26-6a65-solver-cartesian-v4-direct-source-cache.md)/[真实Git发布链](notes/2026-11-26-6a65-solver-cartesian-multistep-publisher-check.md)已核，接口不冒数学执行。首batch45823011528[浅历史故障](notes/2026-11-26-6a65-solver-cached-job-shallow-history-failure.md)在数值前；补全trigger祖先后，新45825253169/source64f20c32自13:02:19请求20次真尝试。value239.542s/observer401.093s均0，INITIAL363e6d6a…86cbc/observerca03fc1c…2b0e77；13:13:33开始v4，第一旧接受仅输入重生，每步保实际state/observer并45min核规则。
 
-**新gap固定g后段**：[独立短窗源](notes/2026-11-26-6a65-geometry-gap-window-own-complete-baseline.md)保R233准确prefix与原tail，own natural g明确。全周期2400列[前三步](notes/2026-11-26-6a65-geometry-gap-window-first-three-complete-cartesian-steps.md)/[4–6](notes/2026-11-26-6a65-geometry-gap-window-steps-four-six-and-escaped-peak.md)真接受；第6训练κ2614.99而192角实际κ291549.99，必须保后者。下一固定128+192两完整组/每组13行的联合模型须自己新基线，不借旧目标下降。三note已勘误minImmersion=|Xs×Xu|²/a²为目标归一化Gram行列式，数值/状态不变。暂固prefix只先解后段；其非零metric和高于guide9.5的固定曲率成本，不能冒全域趋机器精度；须修prefix或扩支撑并重验。
+**新gap固定g后段**：[独立短窗源](notes/2026-11-26-6a65-geometry-gap-window-own-complete-baseline.md)保R233准确prefix与原tail，own natural g明确。全周期2400列[前三步](notes/2026-11-26-6a65-geometry-gap-window-first-three-complete-cartesian-steps.md)/[4–6](notes/2026-11-26-6a65-geometry-gap-window-steps-four-six-and-escaped-peak.md)真接受；第6训练κ2614.99而192角实际κ291549.99，必须保后者。[联合前三步](notes/2026-11-26-6a65-geometry-gap-window-two-grid-first-three.md)完整1711424行/2400列，两组各.5权、共同可逆列坐标；LSMR上限80→160明示。自身R²19005.898→95.3056、κ291550→27408.66，第三全步真拒/.5接受；114.117s真0，joint接受3+继承6，总9。末stateb74f307d…72a7a；无第三独立观察、metric近1仍坏。三note已勘误minImmersion=|Xs×Xu|²/a²为目标归一化Gram行列式，数值/状态不变。暂固prefix只先解后段；其非零metric和高于guide9.5的固定曲率成本，不能冒全域趋机器精度；须修prefix或扩支撑并重验。
 
 [R235](results/R235-reflected-third-jet-compatibility-and-exact-local-patch.md)付反射第三迹定理及node18551准确jump；当前C4不能恰消，但无sup硬底、不排C2细化。全Fourier C2补丁预算已付，未加CI场。
 

@@ -208,3 +208,5 @@
 - 2026-11-26 13:16 UTC｜Astra-visible-flex-6a65e705-20261126：点算子源核清minImmersion=|Xs×Xu|²/a²，是目标归一化Gram行列式；更正新gap基线/前三步/4–6三note误称面积元，所有数值/状态/接受不变。同步source003原尝试818.216s真0、α.25/R².1076995485（rho仍设计，不冒同g），新cached source value239.542s+observer401.093s真0，继续v4实际求解。
 
 - 2026-11-26 13:24 UTC｜Astra-visible-flex-6a65e705-20261126：[首原源h真实下降](notes/2026-11-26-6a65-m12-actual-first-source-aligned-h-improvement.md)run45821092388全10stage2390.296s真0，428元41846列/全步接受/800LSMR仍stop7；原297同点峰1.93343e−8→3.96742e−10约48.73倍、旧观察超集4.21683e−9。实际全时reach/D>.03105610/held>.05278322/δE>0及三完整STL再过，metric粗界4.870781e−6仍false；新热点176决定下一h，H压缩保全部实际入口。
+
+- 2026-11-26 13:26 UTC｜Astra-visible-flex-6a65e705-20261126：[新gap联合前三步](notes/2026-11-26-6a65-geometry-gap-window-two-grid-first-three.md)两个完整源组各.5权/1711424行/2400列共用同一可逆列坐标，真实伴随7.28e−15；LSMR80→160明示，自身R²19005.898→95.3056，第三全步拒/.5真接受，114.117s自然0。joint3+旧6共9，κ27408.66/metric近1仍坏，固定前缀非零metric和guide常数不能冒全域收敛，继续同模型。
