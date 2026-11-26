@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R150 S0/Lt0整个b=c支为空，同一eta可合法唯一恢复（2026-11-27，已证明）：** [原曲线三投影Bézout与同eta范数身份](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-equal-singleton-weights-and-same-eta-elimination.md)U=ek+2e−2零支只除原e，原P045/P035/P034/Q4的234/245/168次完整投影QQ组合为95次已付单位乘积；末2e+1由原半权排，4.246669秒/53892KiB/exit0。原Malign随之付Bnum非零，eta=UD/(2jBnum)唯一；Zden(UD)²−(1−ek)D(2jBnum)²=Zden·D·Qa实际乘回，故同eta原范数准确恢复。一般图保所有原mean/N(V)/P/N。
+
 - **R271 规范来源的真实carry范数与总孔图核心扩大（2026-11-27，已证明条件定理）：** [全正交列、Y全逆与同源总孔截断](results/R271-appendix-canonical-source-carry-norm-total-hole-core.md)保b_q=q⁻²alpha_q/alpha_(q−1)：N型下降首缺位列全正交，付ρ_q≈b_q平方和；Y型完整Cayley差付10b_q块l1。用R238真实每个总孔层在H，Kh在H后纯创建准确升一孔，原总孔cut同时返T*h与B*h；可容许exp(θ16^q)、θ<87.5，并有真实H输出的严格扩大例。若同W规范源满足即w0；未从固定总孔层界推出全首缺位块可和，W源费与两道范围核心仍开。
 
 - **R150 S0/Lt0原N1/Qa的全部lambda/f主子式零面为空（2026-11-27，已证明）：** [原四矩阵身份、98次覆盖和完整二次域返回](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-N1-Qa-pivot-zero-exclusion.md)新J1仅67项/v一次，零面迫两原余子式同时零；完整v投影恰为已闭A24乘U_(10,8)/V_(10,9)。98次QQ参数覆盖的35次余因子以保原次数一元Bézout排，整e²+1域原k-gcd恰k违原单位；29.509413秒/127628KiB/exit0。支付同一点λ=d12/δ、f=−d02/δ，仍返回全原mean与同eta/P/N。

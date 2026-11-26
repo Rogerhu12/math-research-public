@@ -1,0 +1,30 @@
+{
+  "session": "Astra-ISP-8542378f-20261127",
+  "script": "2026-11-27-unit211-S0-Lt0-equal-singleton-weights-original-return-8542.py",
+  "parameters": [],
+  "sourceSha256": "c85369cf7679912846a143c019dae763dbf8a288a23d3ad25d46e0eebb523f09",
+  "sourceBytes": 30610,
+  "actualExitCode": 0,
+  "wallSeconds": 4.246668990999751,
+  "stdoutSha256": "aa17261355dcccddb61c74b8a81442188e4186a55c3b801953005115a416d634",
+  "stdoutBytes": 22265,
+  "limits": {
+    "alarmSeconds": 60,
+    "addressSpaceGiB": 4
+  },
+  "finalRecord": {
+    "stage": "complete",
+    "scope": "entire U=ek+2e-2=0 (b=c) original S0 Lt0 curve",
+    "newPaidFactors": [
+      "Unum",
+      "Bnum"
+    ],
+    "wholeS0Lt0ExclusionClaim": false,
+    "ordinaryISPClaim": false,
+    "sourceSha256": "c85369cf7679912846a143c019dae763dbf8a288a23d3ad25d46e0eebb523f09",
+    "peakRssKiB": 53892,
+    "claimExcluded": true,
+    "seconds": 4.14480933699997
+  },
+  "retainedRegenerableData": false
+}

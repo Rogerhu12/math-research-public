@@ -47,7 +47,7 @@ rankH4所有proper局部单零层（长度2–5）已闭，原双点单零的单
 
 单位211整个P0零支及整个零孤立mean分支均已闭，全部原纤维、来源和运行身份保结果索引与[完整快照](notes/2026-11-27-open-before-general-root-domains-8542.md)。只续非零m/P0，不重做原高曲线或Gram秩二边界。
 
-**[rankH3单一三重jet、rankV2的全部ess6已空](results/R150-appendix-rank-three-single-jet-second-cumulant-has-essential-dimension-at-most-five.md)：** 最后F=−m/Hp非零在保持H的合法真jet规范中，Gaussian迫p1=d0、p0p2=hb²；原N/最高的0/1/2阶式先付7/15边界，再得S³+3mS/(2e)=1而左边5/2。结合Hp0的原十六维QQ全纤维，以及所有特殊源/∞、V二jet和F2m排除，整单一三jet仅ess≤5。纯手证，无新计算；只续H2+1、三值H及原ess4/5。
+rankH3单三jet的全部ess6已闭，末非零Hp原Gaussian/最高/normal给左侧5/2与1矛盾；完整Hp0/有限及∞边界见结果索引和[此前完整快照](notes/2026-11-27-open-before-complete-K-8542.md)。只续H2+1、三值H和原ess4/5，不重做已闭层。
 
 单位211整个u1图已闭，完整QQ曲线/九次原商代数/13逆返回与run45804559912见结果索引和上述快照。只续u≠1，不能二次用共同缩放。
 
@@ -175,3 +175,6 @@ Deddens自伴MASA、全部可分重数有限成本投影、全2-adic平移距离
 
 
 新同eta原Q4的[整首项零面](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-same-eta-quartic-leading-zero-exclusion.md)与[整个ehalf原纤维](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-ehalf-original-exclusion.md)均已独立闭合，可付B_(11,8)、2e−1；原证明无循环。新[整个A24曲线](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-Qa-A24-curve-exclusion.md)以799次QQ完整覆盖和3116次完整结式约化的保次数一元证据关闭，Qa投影只余C83。C83/H33完整QQ投影120秒SIGALRM无返回，冻结；新[原N1/Qa主子式整零面](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-N1-Qa-pivot-zero-exclusion.md)已闭，67项v一次J1可逆，四原矩阵身份给同点λ=d12/δ、f=−d02/δ。继续同eta与完整原mean/P/N，不重复大投影或把两线性行当全系统。
+
+
+新[整个b=c支及同eta重建](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-equal-singleton-weights-and-same-eta-elimination.md)已闭，U/Bnum可付；eta=UD/(2jBnum)与Qa精确等价原配对/范数，保同一个eta返回所有N(V)与奇P/N。正在形成一般Lt0的完整低次原系统，任何新计算仍须原组合/全部分母及实际单位证书。
