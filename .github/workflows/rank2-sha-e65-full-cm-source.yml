@@ -12,6 +12,7 @@ name: Rank2 original E65 complete source and six-source consumers
       - "topics/rank2-sha-infinitely-many-p/scripts/check-original-sixth-on-five-axis-overdetermination.py"
       - "topics/rank2-sha-infinitely-many-p/scripts/check-original-degree130-cross-cm-projection.py"
       - "topics/rank2-sha-infinitely-many-p/scripts/check-original-degree130-whole-spectrum.py"
+      - "topics/rank2-sha-infinitely-many-p/scripts/check-original-e260-six-sigma-source.py"
   workflow_dispatch:
 permissions:
   contents: read
@@ -38,7 +39,7 @@ jobs:
           root = pathlib.Path(os.environ["RANK2_CHECK_DIR"])
           prefix = "topics/rank2-sha-infinitely-many-p/"
           request = json.loads((root / (prefix + "ci/e65-full-cm-source-request.json")).read_text())
-          assert request["schema"] == "rank2-original-e65-full-cm-sixth-axis/v5"
+          assert request["schema"] == "rank2-original-e65-full-cm-sixth-axis/v6"
           assert request["python_flint_version"] == "0.9.0"
           assert request["workers"] == 4 and request["degree"] == 390
           assert request["complete_CM_norms"] == [7, 19]
@@ -49,6 +50,7 @@ jobs:
           assert request["same_job_original_h_projection"] is True
           assert request["same_job_complete_degree130_cross_projection"] is True
           assert request["same_job_complete_degree130_and_original66_spectrum"] is True
+          assert request["same_job_e260_common_carry_source"] is True
           assert request["same_job_sixth_on_five_axis_overdetermination"] is True
           assert request["overdetermination_prime"] == 227
           assert request["overdetermination_precision"] == 5
@@ -64,6 +66,7 @@ jobs:
               "check-original-sixth-on-five-axis-overdetermination.py",
               "check-original-degree130-cross-cm-projection.py",
               "check-original-degree130-whole-spectrum.py",
+              "check-original-e260-six-sigma-source.py",
               "r941-original-six-digit-central-reader.py",
               "check-r480-actual-input-cm19.py",
               "check-r466-fixed-two-division-source.py",
@@ -72,7 +75,7 @@ jobs:
               "check-r943-degree178-full-cm-source.py",
               "check-r732-original-type-five-cm13.py",
           ]
-          assert len(sources) == len(set(sources)) == 14
+          assert len(sources) == len(set(sources)) == 15
           for name in sources:
               p = root / (prefix + "scripts/" + name)
               ast.parse(p.read_text(), filename=str(p))
@@ -145,4 +148,13 @@ jobs:
               assert whole66["all_delta_new_block_ranks_sum"] == 44
           assert spectrum["any_component_assigned_arithmetic_central_zero"] is False
           assert spectrum["infinite_prime_nonvanishing_proved"] is False
+          new_source = report["actual_e260_common_carry_source"]
+          assert new_source["status"] in ("PASS_NONZERO_GENUINE_SOURCE", "PASS_GENUINE_SOURCE_TARGET_PROJECTION_ZERO")
+          assert new_source["all_22_columns_including_mass_retained"] is True
+          assert new_source["r11_global_division_recurrence_returned_twice"] is True
+          assert new_source["complete_target_projection_rank"] == 1
+          assert new_source["complete_81_blocks_returned"] is True
+          assert new_source["whole_integral_frame"]["common_H0_H1_whole_orthogonality_returned"] is True
+          assert new_source["whole_integral_frame"]["full_gram_and_both_inverse_returns"] is True
+          assert new_source["mixed_cut_removed"] is False
           PY

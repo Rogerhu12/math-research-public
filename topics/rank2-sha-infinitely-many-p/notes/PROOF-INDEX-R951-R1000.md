@@ -51,3 +51,5 @@
 - [R974](../results/R974-original-residue-native-model-and-complete-norm-return.md)：原指定残余域的保底域绝对表示与完整双向坐标，逐层矩阵/相对范数保持全部厚度；run45881262808/job140120885101真实API通过，原几何/shadow仍待唯一v8。
 
 - [R975](../results/R975-original-pair-pivot-popov-reset-and-whole-attached-bound.md)：同原完整多项式行模，只有真实一/两行生成整列gcd才作全行Bézout；每列提取后重置整个余尾为unshifted Popov，未找到pair则原有界shift回退。全程主块界max(D,3δ+1)、最终HNF≤3δ及完整attached adjugate界已证，保R956原域/常数回返。独立后继helper已保存，未运行/不改当前v8；全gcd1不保证pair的完整Popov反例一并给出。
+
+- [R977](../results/R977-original-common-carry-eleven-division-source-and-whole-frame.md)：新真实六轴(2+ω,2+ω,1,ω²,1,11)完整正交原H0/H1，保同C/F共同carry。全十一倍递推给F11=σ130x²ψ11/11所有22坐标、首阶6/质量0；整Gram(130,1170,54,18,6,2)、双逆、全半特征和四方向CM五伴随已付。E260非零投影只由v6实际消费，不预设；所有旧mixed观察按新整逆逐支返回。

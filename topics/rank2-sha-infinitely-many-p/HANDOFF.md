@@ -6,12 +6,12 @@
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。有限p、随p换曲线、条件桥和接口成功不算完成；固定有限曲线族的联合无穷非零可以再用无限鸽巢选定一条。
 
-- 两仓库已部分克隆、实际pull。公开根/课题 README 已读至 `e9dbecafe33179f3e999affbd21b49fb03985e29`（差异为空）；每次pull检查两文件差异，至少每小时同步并更新此SHA。
+- 两仓库已部分克隆、实际pull。公开根/课题 README 已读至 `3d10ef1404c9bfebe9c60e75187f52f611662a94`（差异为空）；每次pull检查两文件差异，至少每小时同步并更新此SHA。
 - 私库QUEUE接手已推 `41fe885610073f478b2f5a752461ca56cfd43f09`，根README读至4b91389。两本地目录为math-research-public、math-research-private；终端可用，令牌仅进程认证，不入文件。
 - root独占git/共享H/open/log/index；结论完成即推，非快进立即pull --rebase、检查README再推至成功；不强推。数学执行用公开Actions，不保存可重算数据/矩阵/log。H<10KB、单MD<100KB。
 - 本次完整旧状态保在[压缩前H](notes/2026-11-27-handoff-before-whole-cross-spectrum.md)。它链接[接手原H](notes/2026-11-27-handoff-at-takeover-0b097461.md)、[v8前H](notes/2026-11-27-handoff-after-v8-launch-before-degree130.md)及2026-11-26全部历史链。所有未关闭旧门仍在[open](open.md)及两卷proof index，未默删。
 
-## 一、实际正在运行的两条计算
+## 一、实际几何与中央计算
 
 ### 原完整几何v8
 
@@ -23,9 +23,11 @@
 
 **R975已证/未执行**：同原全列gcd的一/两行主元后重置完整Popov尾块，主块界max(D,3δ+1)、attached真界和非pair回退均付。独立original_pair_reset_row_reduction.py已推，不被当前v8导入；不预报pair存在或提速。
 
-### 原中央完整谱v5
+### 原中央完整谱v5已返，保共同carry新来源接v6
 
-run45884058894/job140130269899，source `fbb1c31937b02426caa21e77d65bd22e080a32c9`，19:29:52 UTC开始，当前运行。原全390/E89/六jet/六sigma/h/p227完整门都保；新consumer同时消费22维H130/F130和原66维delta-new余项，9×9全部CRT块、完整秩/质量/和及分量回乘。若原66不满足12次恒等式，返回实际全annihilator，不强删谱。16源/14AST，只有临时日志，没有生成数据入库。
+run45884058894/job140130269899/sourcefbb1c319于19:36:09 UTC实际success；全22/66/44和全部81块通过。F130只含E65³线与E125的质量零13-old方向；H含E260分量1/81但F130该分量为零，四个非mu6块均保。R976全回执已写，算术标签等R973接续登记。
+
+v6已接新F11真六sigma/psi11全式、E260完整22投影、全部81分量及同C/F整框架；所有v5原390/E89/六jet/六sigma/h/p227门保持，17源/15AST。待新run绑定，零或非零都按实际输出，不能预猜。
 
 ## 二、本轮已完成的中央输入与准确余项
 
@@ -38,6 +40,8 @@ run45884058894/job140130269899，source `fbb1c31937b02426caa21e77d65bd22e080a32c
 实际SZ=−11δ*Phi/1215+(δ*Hperp)/3+Rnew；Hperp首项10/567，Rnew首项2/35，均非零。span{Z390,δ*Phi}加入SZ准确rank2→3；原cross算术投影−11δ*Phi/270不等于整个读数。全部精确source/log/stdout/矩阵hash在R972。继续R976全余谱和真实有限角色，不能凭投影非零赋整个cross中央零。
 
 **R973在写，未预登记**：arithmetic已构造固定E260:y²=x³+260的两个独立三下降类、全2/3/5/双13来源，目标(omega,−omega²)，对应v5索引(4,5)。须完成其完整证明/通常全群桥及同次唯一核和真实H/F投影后登记。有限Weil标签预计22=14维mu6+8维非mu6，数值块尚待v5实际回执，不预记成功。
+
+**R977结构已证**：真实a11=(2+omega,2+omega,1,omega²,1,11)保原H0/H1正交，F11=σ130x²psi11/11首阶6/质量0；全部除法、Gram(130,1170,54,18,6,2)、双逆/半特征和四方向CM转移已付。原共同C/F carry逐支保持，E260实际非零投影仍等v6，不移用旧F130的−11/2。
 
 ## 三、保留的真正无穷性与mixed门
 
