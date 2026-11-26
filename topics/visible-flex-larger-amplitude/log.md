@@ -173,3 +173,8 @@ API首次快进因HEAD并发变动未成；已真实读取572ec0d375c2e08471b372
 ### 2026-11-26 18:15:41 UTC — 真实31/32诊断与pure-v2完整读取
 
 [完整实际归因](notes/2026-11-26-actual-continuation-failure-and-reader-repair-31-32.md)：原ef017亲读真实29日志bc8ce，KeyError endpoint_continuation_policy的完整调用链已证；75f4 v2真实成功并原样保a244科学失败。224stage/75accept/149reject/1030Newton，八literal角与五失败索引分开，原lambda1/C验收未读、无成功根/场/implicit。三索引缺项仅因失败列表五项，不补零/不造Cz奇异值。Root已全文核note及实际31/32公开compact，未重跑科学。
+
+
+### 2026-11-26 18:24:51 UTC — 实际34/35初根失败与纯读取边界
+
+根逐字核实际公开part008与完整专记，记录同6ffc目标/05dc Q仅末H改字；实际初根回溯失败不构成无解结论，初场未成不得比较Phi。公开报告/命令/reader全部SHA、大小、退出码、失败角与摘要缺项范围见专记。逐条普通云API快进提交，终端仍不可用，最后真实pull未伪更新。
