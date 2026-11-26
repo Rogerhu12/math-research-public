@@ -1761,3 +1761,24 @@ reader12698 bytes，SHA-256
 `71d72aad16d95e3d17c3092e35d040e8c29a005b`，13630 bytes，
 SHA-256 `cee5e8ebc201f525e0039970b03a39105ba25bde7f47cf1825a3a19287d78d2e`。
 其它三份入口、44源host、原全部验门及唯一单F作业保持。
+
+### 13.16. 原缓存字段修复后的实际回执
+
+run **45798014615**、job **139833584624**、source
+`29d0dbe492ead62d9a281ea9d309675b3a76b0ad` 于2026-11-26
+10:06:13 UTC全部成功，数学检查 **0.569610468999997秒**、
+同次 **16** 份源码AST。root亲读manifest、RESULT各实际门和成功状态，
+并核原始字节hash。
+
+同一生产formatter在真实rank1常值1的两个已核整图上返回
+False/True及正负边界四个原键，全部对象来源断言通过。
+原290/7缺纤维、289厚层、非分裂二次点3层、全部HNF及W²返回、
+额外共同ideal与错误极阶的两种真拒绝均仍通过。
+没有生成原306矩阵、原除子、四交或shadow。
+
+manifest3603 bytes，SHA-256
+`e2f95506ab01bc0ef36b735619327c3ce41a78a06f7d65f70f4dc18d31a14070`。
+紧凑RESULT无尾换行128403 bytes，SHA-256
+`9a71fed2cb458a9638fe633c46b4fdc2fc3cd2d0ffe8a47b6d13d45db21c581e`。
+完整日志266564 bytes，SHA-256
+`c98725898d6b57ca938d12e4523aa07331d79832338a4f8dc0916dc7eb3c34d7`。
