@@ -62,4 +62,4 @@ R691[末端相容/Haar角矩](results/R691-frozen-physical-mean-endjet-and-mater
 
 run [45762076394/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45762076394)，源码`a4a535eec561d0f8c79fb673cb7b8987dad033af`；[实际紧凑记录](notes/2026-11-26-public-actions-45762076394-1.md)。当前`followup:actual-R671-face-PCG-verified-physical-base-first-20261126`/running，返回阶段60；退出码未返。
 
-Actions规则核查：2026-11-26 08:31:51 UTC，真实pull至`67f0ba8e6fd40f0b91b1d1c35e71e0fa2985fbf5`，双README相对已读无变化。
+Actions规则核查：2026-11-26 08:37:12 UTC，真实pull至`eba4e7a619c478c8a78a13a96283bf07eca505ff`，双README相对已读无变化。
