@@ -56,13 +56,14 @@ PARAMETERS = {
     "maximum_private_live_array_bytes":8589934592,
     "maximum_scientific_seconds":16800,"complete_cell_checkpoint_stride":8,
     "floating_proposal_runtime_core":"Haswell","floating_proposal_threads":"1",
+    "proposal_grid_policy":"coalesce equal binary64 images; preserve every exact integration cut",
 }
 RUNTIME = {"python":"3.12.14","packages":{"numpy":"2.3.5","python-flint":"0.9.0"}}
 SOURCE_HASHES = {
     "proof":"6313fc86c667e9e0c74675e9773bc7160bf3a555c2f326659bf54ad060e7d13f",
     "trial_math":"1131c70ad0f568a692321dd2aab9de76b194aa5abb3f160924ab3befa290771c",
     "proposal_math":"a50faff5db45a96cd2fb8ffa7b9e0881d7df992d1e67ae7b587efed7feb49025",
-    "inputs_math":"4409dd3c8733972e3d9479ef6449ab85b39f2d2900cd5fe4376dda5cd335c826",
+    "inputs_math":"15ca9ab3da4e9ec6c5c9d786f5ff6cc9bd204d1375d7d1925b3449a15db29bb7",
 }
 STATE_FIELDS = [
     "actual_checkout_commit","actual_returncode","complete","completed_targets",
@@ -520,6 +521,13 @@ def main():
                 and len(plan) > 0,"whole exact certificate plan within its explicit work bound")
         definition_sha = digest(canonical(definition))
         plan_sha = digest(canonical(plan))
+        state["preparation"]["complete_proposal_grid"] = {
+            "selected_nodes":len(proposal_nodes),
+            "exact_fixed_cut_count":definition["exact_fixed_cut_count"],
+            "coalesced_proposal_only_cut_count":definition["coalesced_proposal_only_cut_count"],
+            "all_original_exact_integration_cuts_retained":True,
+            "complete_certificate_cells":len(plan),
+            "strict_binary64_proposal_steps":all(a < b for a,b in zip(proposal_nodes,proposal_nodes[1:]))}
         atomic(private/"complete-trial-definition.json",canonical(definition))
         atomic(private/"complete-certificate-plan.json",canonical(plan))
         reference = proposal_module.FloatingCentreReference(np,rows,base,

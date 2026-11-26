@@ -1,11 +1,11 @@
 # 交接：可见振幅的精确闭等距族
 
-维护会话：visible-exact-astra-fb31ed6-20261127；更新：2026-11-26 20:08:01 UTC。
+维护会话：visible-exact-astra-fb31ed6-20261127；更新：2026-11-26 20:10:53 UTC。
 **总任务未完成，持续研究，不等用户回复。**
 
 ## 已读规则、授权与接续
 
-2026-11-27（台北）已 partial+sparse clone 两仓库并 pull main，读根全部规矩、课题README、H/open、当前log及接续notes。公开根/topic规则已读至f173d3293fd214c7d48bb83a5e8912f1838352ac（相对12385db35无diff）；私库根规则已核至e9b71a39b014d0f9513cbec3d7191afee707a549，QUEUE接手已推594e561b05a758bd8c02840ca4fbf574cd707436。每次pull核两README差异、至少每小时一次，非FF立即rebase再推。令牌只CLI。当前本地 /workspace/scratch/fb31ed637c77/math-research-public，无AGENTS。
+2026-11-27（台北）已 partial+sparse clone 两仓库并 pull main，读根全部规矩、课题README、H/open、当前log及接续notes。公开根/topic规则已读至07cea51f7b3da48c8ef8c6448369cf9ebecd6f13（相对12385db35无diff）；私库根规则已核至e9b71a39b014d0f9513cbec3d7191afee707a549，QUEUE接手已推594e561b05a758bd8c02840ca4fbf574cd707436。每次pull核两README差异、至少每小时一次，非FF立即rebase再推。令牌只CLI。当前本地 /workspace/scratch/fb31ed637c77/math-research-public，无AGENTS。
 科学计算用公开Actions；本地可做证明、静态与metadata。根规12取消额外防错审批/独立全件复核流程；新完整证明直接登记，每结论推送。规15保持topic≤200MB、H<10KB，禁止新增可重建大数组。前会话完整H/open以27c422943同路径为准，递归原件与全部范围、失败和未付义务仍在历史，以下不重做旧成功。
 
 ## 同一对象与最终标准
@@ -21,7 +21,7 @@ geometry43584188751/26仅在同η0全core含帽物理C0≤1e−4、|δν|≤1e�
 2. **完整positive58→224→32→PN56/CXN6。** [physical入口](notes/2026-11-26-physical-scalar-execution.md)、[PN证明](results/R149-supplement-complete-positive-inverse-to-true-negative-and-incoming.md)、[56入口](results/R149-supplement-actual-positive-negative-receiver-execution.md)、[CXN6入口](results/R149-supplement-actual-common-high-negative-receiver-execution.md)已推；前驱未齐无实际manifest。NS/strict/R149 v2完整来源分别核，旧false/失败保。成功square才消全部L²_r正侧head/cokernel，保raw root96与负侧/mean/ν。14ports各自身输入；source4同因P/T用三角，physical c*=0不等于aux Ec*e=0；Ni/output9一次，joint左BH KW，WPL BH/√2。
 3. **[R144固定η0实际失败](results/R144-supplement-actual-fixed-eta0-forward-mean-and-terminal-mismatch.md)。** 45778507038/1全7296格/6143接口已成、禁重。positive true，但C0/outermean false：row7147下界>1.00195589e−4，末端mean偏移约−7.66584024e−3。只排此forward中心，续compact mean。
 4. **[SR紧支撑mean的实际锐界](results/R144-supplement-sharp-compact-root-from-completed-forward-mean.md)。** 用FM真实D_R/H_R与原CP/TM/LC全保存球证明同一个根−8e−13<ξ*<−7e−13（未换根）。新完整mean球b=2e−7，selfmap<1.923e−7/L<.014241；同φ/pair A0距raw<3.847e−7、距同η0 selected Qδ*<3.865e−7。五源单调缩界：χ′ordinary<3.903e−12、完整第二ordinary<7.461e−8、第二H−1<1.324e−6、anisotropic pair<1.030e−5，全部6143joins保旧界。只用四份完整结果的有理推理，不重积分。TM45791979634和LC45797426031旧成功保；真实GC/nonmean/height仍待，ν0与ν0+δ*的完整metric源另付。[MJ实际mean逆](results/R144-supplement-compact-terminal-mean-Jacobian-and-two-endpoint-inverse.md)给ordinary .605、jump1.518、shape .087、terminal1.058；terminal控制腰导数∈(.002415,.002469)，两端mean≤2.067E+1.067|b0|，ξ′≤415(|b0|+E)。保kerℓ真slice和full nonmean反馈，tinyξ不缩ξ′；[RI](results/R144-supplement-compact-mean-rank-one-interface-for-full-nonmean-inverse.md)证control直接源只负区/≤96，但未切片内部Schur恒0，真ν配对仍待。[VM](results/R144-supplement-signed-metric-mean-moments-and-compact-parameter-lift.md)已推真metric signed三矩/紧支两端mean lift；8整输入、5新积分、原H/abar/bbar不重，actual待到。
-5. **TC必要输入恢复继续。** 原45806282910/1在不存在的Z历史地址终止，science0；[原nodal恢复](notes/2026-11-27-true-root-trial-input-restoration.md)保原Hermite/完整cubic及14分片SHA，40旧row取Git原bytes。45881752490/1恢复137当前/40row后cubic SHA不符、science0；固定原成功Docker且撤重物化CORETYPE，45883126797/1却在首git命令遭挂载dubious ownership、尚未恢复输入。[修正说明](notes/2026-11-27-TC-original-runtime-restoration.md)仅给明确workspace设safe.directory；run45884668422/1已于19:36:17UTC通过原cubic和14分片全部SHA/owner preflight并发布consumed，后于proposal网格严格递增断言失败，三目标0；不同精确端点round成同float，正修mesh且保全certificate分割。三目标584球待实际，[JF联合误差](results/R149-supplement-joint-signed-finite-matrix-error.md)已证真实target Bessel门；actual仍须全P224/TC/RW，非fullSchur。
+5. **TC真96试列。** 各历史恢复失败完整保[恢复记录](notes/2026-11-27-true-root-trial-input-restoration.md)及[原runtime](notes/2026-11-27-TC-original-runtime-restoration.md)。mounted45884668422/1已过原cubic/14分片全部SHA，随后proposal精确节点round成同float，三目标0。[grid修复](notes/2026-11-27-TC-proposal-grid-separation.md)只合并proposal相同float，certificate全原exact cuts/质量照旧且计数不增；新separated-grid入口推后执行。CF4/QR/残差数学不变，三目标584球尚待。[JF](results/R149-supplement-joint-signed-finite-matrix-error.md)给真target Bessel门，actual仍须全P224/TC/RW，非fullSchur。
 6. **[CG完整graph高块](results/R149-supplement-positive-feedback-in-the-complete-graph-high-block.md)**已双核：W^-1 A Ptilde先准确相邻约消，common反馈费2^199 Cadd ΛJ^-1/3；真port09联合96列只左B^-1，reference差与Θ high全留。J=2^4608的新门等待actual6/56，未给finite/mean/ν/all-s；WDH原selected homogeneous χ<2^-44/逆<2独立保。
 
 ## 已锁定的实际结果与排除
@@ -32,7 +32,7 @@ geometry43584188751/26仅在同η0全core含帽物理C0≤1e−4、|δν|≤1e�
 - [C0/CP11](results/R144-supplement-actual-compact-mean-C0-receivers-and-positive-moments.md)45787608966/1：全7721/6143/52球、正矩true；τ+、terminal T⁻¹、11核及rawν0/η0完整保，root/mean新界见SR/MJ。
 - [旧forward](results/R144-supplement-actual-forward-mean-enclosure-and-unresolved-gates.md)45772466407/1：完整7721/6143，positive/C0/outermean unknown、非真实反例；全η目标已锁。[suffix](notes/2026-11-26-R144-fixed-eta0-mean-suffix-state-spec.md)仅真未成时续，全W/G/AD/D0与join侧保。
 - R14345762052058全4651六球/body三门true；R14645765780668全418/13376、T2<102.965、Qupper<−.16618，排当前CV/RA格式，非BVP奇异；禁继续该格式Gram/容量/仅DH细化。
-- R145/R147/[NW](results/R147-supplement-actual-same-window-negative-nu-waist.md)45781137624/1旧4/4已成：FN<1.307204e−6、GN<171.351714、ordinary腰/两mean<2.24e−4；只零root无impulse分量，−3R0/m及all jump/high-low mean不删。新[SL紧支ν接收](results/R147-supplement-support-localized-parameter-source-reception.md)分原ΔFν与ΔA·Z，19输入/4标量入口已齐、推后执行；真正signed meanν列另推进，非全ν/phase。
+- R145/R147/[NW](results/R147-supplement-actual-same-window-negative-nu-waist.md)45781137624/1旧4/4已成：FN<1.307204e−6、GN<171.351714、ordinary腰/两mean<2.24e−4；只零root无impulse分量，−3R0/m及all jump/high-low mean不删。新[SL紧支ν接收](results/R147-supplement-support-localized-parameter-source-reception.md)分原ΔFν与ΔA·Z；首run45887481333因临时math.py遮蔽stdlib、四目标0，正修命名续接。真signed meanν列另推进，非全ν/phase。
 
 ## 所有仍未付的最终接口
 

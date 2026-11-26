@@ -15,8 +15,8 @@ TOPIC = "topics/visible-flex-exact-nearby"
 OWNER = TOPIC+"/scripts/fourfold_codazzi_true_root_trial_owner.py"
 WORKER = TOPIC+"/scripts/fourfold_codazzi_true_root_trial_public_worker.py"
 GENERATOR = TOPIC+"/scripts/make_true_root_trial_residual_manifest.py"
-BASE_MANIFEST = TOPIC+"/notes/2026-11-27-true-root-trial-original-runtime-mounted-inputs"
-BASE_WORKFLOW = ".github/workflows/fourfold-codazzi-true-root-trials-original-runtime-mounted-public"
+BASE_MANIFEST = TOPIC+"/notes/2026-11-27-true-root-trial-separated-grid-inputs"
+BASE_WORKFLOW = ".github/workflows/fourfold-codazzi-true-root-trials-separated-grid-public"
 OUTPUT_BASE = TOPIC+"/notes/true_root_trial_residual_ci"
 REVIEWED_RULES_SHA256 = "26da0165d2a7ec5f968959332c9fd04aae7259059de2b56f41e76b49b61fc051"
 
@@ -125,15 +125,15 @@ EXTRA_CURRENT = [{
 }, {
     "role": "inputs_math",
     "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_root_trial_inputs.py",
-    "bytes": 19454,
-    "sha256": "4409dd3c8733972e3d9479ef6449ab85b39f2d2900cd5fe4376dda5cd335c826",
-    "git_blob_sha": "5a50a95d49561ed3bca2d3a5c00d2151803ecec2"
+    "bytes": 21106,
+    "sha256": "15ca9ab3da4e9ec6c5c9d786f5ff6cc9bd204d1375d7d1925b3449a15db29bb7",
+    "git_blob_sha": "8f7243bbbcbe0b5a26e028e95cc977ad92011822"
 }, {
     "role": "owner",
     "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_root_trial_owner.py",
-    "bytes": 62761,
-    "sha256": "0a94eae9a86a168c8a31b2739c08b9f9c273fee387ac755ed23a21744922f3b1",
-    "git_blob_sha": "821335205dca3da7553eef523baa032d36dd0918"
+    "bytes": 63363,
+    "sha256": "193a317166204eef3870f12e5aee08be5a3de46e18b65de4b471b2a478f253dc",
+    "git_blob_sha": "5d2a99611153ef63570e02143181d9cb05ae18af"
 }, {
     "role": "worker",
     "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_root_trial_public_worker.py",
@@ -520,7 +520,7 @@ def build(root,prior_manifest_path=None,prior_execution_path=None):
             roles[role] = path
     for spec in EXTRA_CURRENT:
         # The input-only public-worker repair is a new explicit source;
-        # every mathematical TC source retains its original exact identity.
+        # only the explicit equal-image grid repair changes the new TC definition.
         expected = None if spec["role"] == "worker" else spec
         add(spec["path"],whole_small(root,spec["path"]),expected,spec["role"])
     add(GENERATOR,whole_small(root,GENERATOR),role="generator")
@@ -658,7 +658,7 @@ def build(root,prior_manifest_path=None,prior_execution_path=None):
                 "one concrete original first-attempt run")
         suffix = "-continue-"+prior_execution["run_id"]+"-"+definitions[prior_execution_path]["sha256"][:12]
     manifest_path,workflow_path = BASE_MANIFEST+suffix+".json",BASE_WORKFLOW+suffix+".yml"
-    problem = "R149_complete_true_root_finite_trials_original_runtime_20261127"+suffix
+    problem = "R149_complete_true_root_finite_trials_separated_grid_20261127"+suffix
     manifest = {
         "repository":REPO,"kind":owner.MANIFEST_KIND,"scientific_kind":owner.KIND,
         "stage":"true_root_finite_trial_residuals","problem_id":problem,
@@ -673,7 +673,7 @@ def build(root,prior_manifest_path=None,prior_execution_path=None):
         "operation":{
             "topic_maximum_bytes":200000000,"reserve_bytes":120000,
             "readme_pull_interval_seconds":1800,"automatic_scientific_retry":False,
-            "consumed_marker":OUTPUT_BASE+"/consumed-original-runtime-mounted-20261127"+suffix+".json","output_base":OUTPUT_BASE,
+            "consumed_marker":OUTPUT_BASE+"/consumed-separated-grid-20261127"+suffix+".json","output_base":OUTPUT_BASE,
             "maximum_state_bytes":18000,"maximum_matrix_bytes":26000,
             "maximum_negative_bytes":50000,"maximum_positive_bytes":52000,"maximum_prefix_bytes":20000,
             "maximum_execution_bytes":35000,"maximum_total_publication_bytes":170000,
@@ -684,6 +684,10 @@ def build(root,prior_manifest_path=None,prior_execution_path=None):
             "necessary_original_nodal_Hermite_reconstruction_separately_counted":True,
             "original40_row_objects_restored_from_Git_without_archive_dependency":True,
             "original_failed_45806282910_manifest_and_execution_unchanged":True,
+            "failed_grid_run_45884668422_whole_outcomes_unchanged":True,
+            "previous_failed_grid_run_completed_targets":0,
+            "proposal_only_equal_float_nodes_coalesced":True,
+            "every_original_exact_radial_integration_cut_retained":True,
             "fixed_original_eta_width_retained":"1/1000000000",
             "selected_Q0_plus_delta_Z_and_both_means_retained":True,
             "old_completed_scalar_row_KAM_Gram_or_inverse_targets_recomputed":0,

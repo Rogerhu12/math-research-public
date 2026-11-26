@@ -233,3 +233,6 @@ NS五件共129172B，owner71056B SHA18db439d5895e4232882940a57b7bd9457982383e1ac
 
 
 2026-11-26 20:08:01 UTC / visible-exact-astra-fb31ed6-20261127：VM证明及5积分→3signed矩→κν/compact lift实际入口保存；原7721/6143/1156域、whole-cell函数值range和χ′极值分符号已核，旧H/abar/bbar目标不重。metadata read_commit改为真实已公开f173d3293，worker规则变化时先恢复该commit再读diff。最终manifest3d6dd3f27d608e483d15d45b8a2edd1046afc5b5c4213d9f937f05ca94cb8118，8当前全件/原mean native固定SHA，实际结果待执行。私库20:05已pull e9b71a39b014d0f9513cbec3d7191afee707a549，根README无变化，QUEUE本会话仍有效。
+
+
+2026-11-26 20:10:53 UTC / visible-exact-astra-fb31ed6-20261127：TC run45884668422/1完整输入恢复已成但proposal grid断言失败，三目标0/四receipt null。修复equal-binary64 trial nodes，全部原exact积分cuts/质量完整保留；原common row已union全部base knots，故certificate计数不增、原≤9000门保持。新manifestc5fd0a7a8cd7c6a1a2207e7b640a213ea8dd2ed8bb967107cff969501ed5d447，新workflow首次执行未成三目标。SL首run45887481333因临时math.py遮蔽stdlib失败、四目标0，agent正改命名且保旧consumed/完整execution。

@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [TC浮点步进/精确积分分割修复](notes/2026-11-27-TC-proposal-grid-separation.md)：45884668422原输入全恢复后在proposal入口断言失败，三目标0。只合并相同float的trial节点，原全部exact cuts/径向质量及≤9000计数保留；独立separated-grid入口继续首次三目标。
+
 - [VM：真实度量参数的有符号mean矩与紧支lift](results/R144-supplement-signed-metric-mean-moments-and-compact-parameter-lift.md)：消去m³密度后用三signed矩给κν及两端mean控制，保全部原跳与nonmean/phase反馈。8整输入、5新积分独立入口已齐；原whole-cell U/V/m值域经producer核实，χ′在极值处分符号，实际值待保存。
 
 - [JCA：实际完整96行联合误差](results/R149-supplement-actual-joint-compound-waist-row-error.md)：45887337009/1七球完整true，Ejoint<8.556891e−5、全homotopy lower>.9836159091670；不重原DFT/KAM，SC只消费整件，真PDE列与全部Schur仍独立。

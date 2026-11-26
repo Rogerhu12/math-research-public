@@ -265,14 +265,35 @@ def complete_plan(rows,base_nodes):
     cuts = {Fraction(x) for row in rows for x in row["interval"]}
     cuts.update(Fraction.from_float(float(x)) for x in base_nodes)
     cuts.update((Fraction(0),OUTER,Fraction(3),*CONTROL,POSITIVE_CUT,NEGATIVE_CUT))
-    fixed = sorted(x for x in cuts if x < ROOT[0] or x > ROOT[1])
+    exact_fixed = sorted(x for x in cuts if x < ROOT[0] or x > ROOT[1])
+    # A common-row rational endpoint and an original binary64 cubic knot
+    # can be distinct rationals with the SAME binary64 image.  The floating
+    # proposal cannot step across that zero float length.  Select one exact
+    # representative per image; the certificate below STILL splits at every
+    # original exact cut, including all discarded proposal-only cuts.
+    protected = {Fraction(0), OUTER, Fraction(3), *CONTROL,
+                 POSITIVE_CUT, NEGATIVE_CUT}
+    buckets = {}
+    for value in exact_fixed:
+        buckets.setdefault(float(value), []).append(value)
+    fixed = []
+    for rounded, values in sorted(buckets.items()):
+        mandatory = [value for value in values if value in protected]
+        require(len(mandatory) <= 1, "distinct mandatory proposal cuts remain float-separated")
+        fixed.append(mandatory[0] if mandatory else values[0])
     require(fixed[0] == 0 and fixed[-1] == OUTER,"complete fixed mesh endpoints")
     root_index = sum(x < ROOT[0] for x in fixed)
     labels = [str(x) for x in fixed[:root_index]]+["true_root"]+[str(x) for x in fixed[root_index:]]
     proposal_root = Fraction.from_float(float((ROOT[0]+ROOT[1])/2))
     require(ROOT[0] <= proposal_root <= ROOT[1],"one explicit dyadic proposal root")
     proposal_nodes = [float(proposal_root if x == "true_root" else Fraction(x)) for x in labels]
+    require(all(a < b for a,b in zip(proposal_nodes,proposal_nodes[1:])),
+            "every selected proposal interval has strictly positive binary64 length")
     certificate = []
+    # Trial knots and integration cuts are different partitions.  Coalescing
+    # float-coincident trial knots must NEVER coalesce an original row, cubic
+    # piece, coefficient seam, source-window boundary, or its radial measure.
+    certificate_cuts = sorted(cuts)
     row_intervals = [tuple(map(Fraction,row["interval"])) for row in rows]
     row_rights = [value[1] for value in row_intervals]
     for i,(left,right) in enumerate(zip(labels,labels[1:])):
@@ -287,8 +308,8 @@ def complete_plan(rows,base_nodes):
             l,r = max(l,a),min(r,b)
             if l >= r:
                 continue
-            internal = sorted({l,r,*[x for x in (Fraction(3),*CONTROL,POSITIVE_CUT,NEGATIVE_CUT)
-                                     if l < x < r]})
+            start,stop = bisect_right(certificate_cuts,l),bisect_right(certificate_cuts,r)
+            internal = [l]+[x for x in certificate_cuts[start:stop] if x < r]+[r]
             for x,y in zip(internal,internal[1:]):
                 names = (["negative_strict"] if y <= NEGATIVE_CUT else ["negative_root"]) if side == "negative" else (
                          ["positive_low","positive_high_collar"] if y <= POSITIVE_CUT else
@@ -301,6 +322,10 @@ def complete_plan(rows,base_nodes):
     definition = {"kind":"TC_true_root_septic_dyadic_endpoint_definition_v1",
         "node_labels":labels,"proposal_root_dyadic":str(proposal_root),
         "proposal_root_hex":float(proposal_root).hex(),
+        "proposal_fixed_node_policy":"one exact representative per binary64 image; mandatory cuts first, otherwise least rational",
+        "exact_fixed_cut_count":len(exact_fixed),
+        "coalesced_proposal_only_cut_count":len(exact_fixed)-len(fixed),
+        "all_original_exact_integration_cuts_retained":True,
         "root_index":root_index,"cutoff":"TC.10 exact L0(8(r-3)) after r=3",
         "root_even96_exact":"identity","same_entire_root_value_on_both_sides":True,
         "physical_frequency_factor":4,"real_normalization":"sqrt(2) sin/cos; mean one"}
