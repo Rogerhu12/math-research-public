@@ -50,8 +50,8 @@
 03b最后实际规则核查18:07:06 UTC至`edb7fef0719e20d8d8e3ff7d1b305020cc145949`，双README无差异；终态与未运行37保[原完整记录](notes/2026-11-26-actual-gamma-KKT-initial-failure-and-03b-exit-36.md)。
 
 <!-- visible-larger-parallel-04:start -->
-并行公开Actions04：[run 45857104277/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45857104277)；[实际记录](notes/2026-11-26-public-actions-45857104277-1.md)。阶段`followup:actual-normalized-parent-cached-backtracked-SOC-v2-20261126-run04`/completed；已返45，exit=0。
-并行04规则核查：2026-11-26 19:56:58 UTC，真实pull至`f8157ea4d7ff6100ee609763ca8b8ad5da475cbb`，双README无变化。
+并行公开Actions04：[run 45857104277/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45857104277)；[实际记录](notes/2026-11-26-public-actions-45857104277-1.md)。阶段`followup_waiting`/running；已返45，exit=未返。
+并行04规则核查：2026-11-26 20:10:39 UTC，真实pull至`248f8b8c19f4211ae146123a2b09abef477bd4da`，双README无变化。
 <!-- visible-larger-parallel-04:end -->
 
 <!-- visible-larger-parallel-05:start -->
