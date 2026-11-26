@@ -6,7 +6,7 @@
 
 固定一条 E/Q，完整证明 rank≥2 且无穷不同 p 的通常全 Sha[p∞] 有限。**未完成；继续研究，不把接口、条件结论、有限验证当完成。**
 
-- 公开部分克隆、恢复稀疏检出并实际 pull --rebase；根/课题 README 已读至 `f18fb9aedf84b5218fadd8cfc18b9a60bead5c03`，相对接手首读无差异。之后每次 pull 核差异，至少一小时一次。
+- 公开部分克隆、恢复稀疏检出并实际 pull --rebase；根/课题 README 已读至 `0ac504e69a4b5b2ff8a01e60ceb7831695d0f818`，相对接手首读无差异。之后每次 pull 核差异，至少一小时一次。
 - 私有队列接手已推 `f3125fbaa4bc13678b0c8519d85051762c579529`；私库根 README 已读至 `e776df4`（推前同步点）。两次非快进均立即 rebase 后重推成功。
 - 本次 clone 在 /workspace 空间不足，已移动本次两个克隆到 /tmp/rank2-sha-7d29daa5d3b1；只处理本次创建文件，恢复后 public worktree 干净。令牌未写入文件或配置。
 - 仅公开 main 研究、公开 Actions 数学执行；root 唯一 git/ref/共享状态写者。每条完整结论即推，推前 pull、遇拒立即 rebase；不强推。H<10KB，MD<100KB，open尽量<30KB，重算输出不保存，只源/参数/run/hash。
@@ -31,7 +31,7 @@ R909 原F及 R906§8 原P特征零完整 PASS；R924 原 TUV/DS204/36cusp/Y666/y
 
 完整四交除子00/01/11/12、全部闭点度/厚长度/无穷边界/Artin、原 shadow 尚未完成。全成本2256+r*dF或2256(r+1)，每E真度39840；Norm含ell²旧回归已过。有限AJ不替无穷p/ordinary桥。
 
-接手H中仍运行的修正source3a7bbe995四入口（六P44761009320、Artinian44761009090、Tate44761009050、closed/local44761008940）及F44765106737，现在均已由API确认 completed/failure；geometry正查完整日志和具体失败行，尚不宣布任何新PASS。不重复未变失败任务。
+接手H中仍运行的修正source3a7bbe995四入口（六P44761009320、Artinian44761009090、Tate44761009050、closed/local44761008940）及F44765106737，现在均已核完整日志和末阶段：六P重复乘法超时、Artinian/Tate完整多项式核超时、closed/local退出137、F首HNF未返；[全部source/run/job/hash](notes/2026-11-26-geometry-7d29.md)。不能从退出码猜数学反例或已确定OOM；只修单个F路径，保全原门，不重复未变任务。
 
 R925§24整像、R927§10–12两图scalar/colon、R931厚范数和同scalar读者保持全部回乘/长度/原k门；独立helper未运行不能填PASS。
 
