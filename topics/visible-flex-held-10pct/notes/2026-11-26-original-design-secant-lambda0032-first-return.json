@@ -1,0 +1,143 @@
+{
+  "schema": "held10-original-design-secant-first-return-v1",
+  "observed_at_utc": "2026-11-26 13:35:49 UTC",
+  "source": {
+    "repository": "Rogerhu12/math-research-public",
+    "commit": "5932d52dc1967161044f78add98ed9dcaf34d700",
+    "path": "topics/visible-flex-held-10pct/ci/live-material-result.json",
+    "git_blob_sha1": "4e43be3b92e3e328c39970453e506752e338a428",
+    "live_command_id": "held10-original-design-full-state-secant-20261126-01",
+    "live_script": "topics/visible-flex-held-10pct/scripts/resume_20261126/lowq_prefix_recovery_secant_design.py",
+    "live_script_sha256": "8eb09e79242a3d4af6d84de6cd0149227ef9eda7a4e3c7d50aec889a7b54594b",
+    "live_reported_source_commit": "a0151c8df0c893d8d7dab9b6a02c5ad28db9fcfa"
+  },
+  "scope": "Actual original R53 linear-DN finite BVP accepted from a previously unaccepted complete-state/common-computational-t secant initializer. This reaches an already recorded lambda=.032 with a different accepted field. It is not a higher-lambda result, fixed-metric refinement, nonlinear-tail acceptance, or a complete surface.",
+  "original_finite_prefix_gates_passed": true,
+  "full_nonlinear_tail_paid": false,
+  "fixed_metric_refinement": false,
+  "complete_surface": false,
+  "secant_sources": [
+    {
+      "homotopy": 0.008,
+      "modes": 32,
+      "run": "/home/runner/work/_temp/held10-live/secant-design-recovery/original-design-to-016/attempt-002/run.json",
+      "run_sha256": "3e9e8cad7981a3acff49cdca8c0b28e4456b69644e1b0e6e077f0e75b5c04f1b",
+      "raw_sha256": "e8b1ab59abe16860931b682a892d9edfff29f223f772684c33849697d1de371d",
+      "physical_sha256": "a79135b2ede16b34ae573a674e52ea41983cb460b43e2cf5d5b1bd373210d863",
+      "actual_delta": 0.06413440359979122,
+      "nodes": 863,
+      "rms": 9.971604500140864e-7,
+      "metric": 7.844245643456677e-7,
+      "physical_bc_max": 6.0774853910077676e-15,
+      "actual_audit_mean_nodes": 1552,
+      "scope": "Necessary regeneration of an already recorded accepted source; not a new mathematical conclusion."
+    },
+    {
+      "homotopy": 0.016,
+      "modes": 32,
+      "run": "/home/runner/work/_temp/held10-live/secant-design-recovery/original-design-to-016/attempt-003/run.json",
+      "run_sha256": "7e8f48430f77305659a9665a07fa096cb2b8878e035e73afdaa3be4527e4e60c",
+      "raw_sha256": "793bcbee3bf9c8ae9dca90a82f95880cffb82b1304e2b7391711d5ed63f5ef14",
+      "physical_sha256": "ff54433f914eba44ad2a4b552f856e77c27c89f57edcdf9ff4b7d442958ad994",
+      "actual_delta": 0.06413407851992392,
+      "nodes": 864,
+      "rms": 9.975298973847549e-7,
+      "metric": 6.748168981056152e-7,
+      "physical_bc_max": 6.961299471856893e-17,
+      "actual_audit_mean_nodes": 1552,
+      "scope": "Necessary regeneration of an already recorded accepted source; not a new mathematical conclusion."
+    }
+  ],
+  "initializer": {
+    "accepted_bvp": false,
+    "beta": 2,
+    "initial_raw_sha256": "f2aec7cf4f90a9d529f3652cdcecff3f7764b1c9539ad40b7a5a89d46a58c8da",
+    "kind": "unaccepted_full_state_secant",
+    "left_run": "/home/runner/work/_temp/held10-live/secant-design-recovery/original-design-to-016/attempt-002/run.json",
+    "nodes": 864,
+    "predictor": "/home/runner/work/_temp/held10-live/secant-design-recovery/secant-material-design/attempt-000-secant/predictor.json",
+    "predictor_sha256": "886e01bae4a1bf89ff1f3b85fe05ac9547b288d4c8c9a24e5719e6ca58214e9e",
+    "right_run": "/home/runner/work/_temp/held10-live/secant-design-recovery/original-design-to-016/attempt-003/run.json",
+    "target_lambda": 0.032
+  },
+  "actual_return": {
+    "accepted": true,
+    "actual_audit_mean_nodes": 1552,
+    "actual_delta": 0.06413339840876348,
+    "complete_saved_initializer": true,
+    "domain_error_counts": {},
+    "domain_newton_stats": {
+      "accepted_steps": 3,
+      "calls": 2,
+      "minimum_alpha": 1,
+      "no_step": 0,
+      "rejected_domain_trials": 0,
+      "rejected_merit_trials": 0
+    },
+    "error": null,
+    "homotopy": 0.032,
+    "initializer": {
+      "accepted_bvp": false,
+      "beta": 2,
+      "initial_raw_sha256": "f2aec7cf4f90a9d529f3652cdcecff3f7764b1c9539ad40b7a5a89d46a58c8da",
+      "kind": "unaccepted_full_state_secant",
+      "left_run": "/home/runner/work/_temp/held10-live/secant-design-recovery/original-design-to-016/attempt-002/run.json",
+      "nodes": 864,
+      "predictor": "/home/runner/work/_temp/held10-live/secant-design-recovery/secant-material-design/attempt-000-secant/predictor.json",
+      "predictor_sha256": "886e01bae4a1bf89ff1f3b85fe05ac9547b288d4c8c9a24e5719e6ca58214e9e",
+      "right_run": "/home/runner/work/_temp/held10-live/secant-design-recovery/original-design-to-016/attempt-003/run.json",
+      "target_lambda": 0.032
+    },
+    "metric": 6.711863404914179e-7,
+    "metric_only_failure": false,
+    "modes": 32,
+    "name": "attempt-000",
+    "nodes": 866,
+    "original_finite_checks": {
+      "physical_bc": true,
+      "rms": true,
+      "solver": true,
+      "solver_and_boundary_pass": true,
+      "tolerances": true
+    },
+    "physical_bc_max": 2.627517047334276e-18,
+    "physical_sha256": "f0c54a25c14d9e3b9c74427535f70361a57ceee0ed0fff151040f090dcaedf4c",
+    "raw_sha256": "28a171df3df28c2ed71b9bb75750188dcc8b446e0b693dbfef164b1930a40483",
+    "returncode": 0,
+    "rms": 9.911724839334851e-7,
+    "run": "/home/runner/work/_temp/held10-live/secant-design-recovery/secant-material-design/attempt-000/run.json",
+    "run_sha256": "97ffa2382f4ae683052d8045074a1ac7bcf9afb1b32dd13f190173903fe37092",
+    "solver_success": true,
+    "source_run": "/home/runner/work/_temp/held10-live/secant-design-recovery/original-design-to-016/attempt-003/run.json"
+  },
+  "previous_recorded_lambda032_comparison": {
+    "run": "/home/runner/work/_temp/held10-design/design-prefix-recovery/material-delta-design/attempt-004/run.json",
+    "run_sha256": "556ddefe35eac655cc961a903d0fd42031e8806778b33f7eb275c1799e330566",
+    "raw_sha256": "16e1673d69400c9c28efd2f7107927326c4284820c1886f83638df528b172b19",
+    "physical_sha256": "211b225e238a47f67fd879bcee22fcc4399360a2f093d8c36073ccea95cb412e",
+    "nodes": 2325,
+    "rms": 8.085736599983559e-7,
+    "metric": 6.457357913412891e-7,
+    "physical_bc_max": 4.353758342567232e-12,
+    "actual_delta": 0.06413339850075069,
+    "domain_newton_stats": {
+      "accepted_steps": 21,
+      "calls": 3,
+      "minimum_alpha": 0.0625,
+      "no_step": 2,
+      "rejected_domain_trials": 4,
+      "rejected_merit_trials": 44
+    },
+    "scope": "Same original numerical problem at lambda=.032. Distinct meshes/raw bytes and residuals; no same-map or continuous-error assertion."
+  },
+  "unprojected_fields": {
+    "max_state_increment_from_right": null,
+    "max_parameter_increment_from_right": null,
+    "reason": "The actual predictor writes these scalar norms at top level, but those keys are outside the existing live worker projection allowlist. Do not invent them or extend that allowlist."
+  },
+  "continuation_observed": {
+    "status": "attempt-001",
+    "target_lambda": null,
+    "reason": "No actual next-target field was projected at this immutable commit; the attempt index is not a target observation."
+  }
+}
