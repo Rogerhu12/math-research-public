@@ -29,14 +29,9 @@ rank$H=4$ 的非单位局部块长度5、4、3已排；长度2单零的三种单
 
 全部 ess$T_3\le3$ 已给 matched Bell 零；原 $W_\pm$ 上确有 Cat3 真临界点，不能把 Cat3 整层判空。Bell 非零只可能在 V≠0 且 ess4/5/6。原两原子开集的例外和有限32全参数模型仍按原范围，不能先删 $D=0$ 或合流。
 
-**一般V非零的rankV1全层现已关闭：** [完整临界集定理](results/R150-appendix-rank-one-third-cumulant-complete-critical-classification.md)保原全部33梯度，证明所有rankV1临界点恰为y=a u(s)、H=(a³+4c)u(s)u(s)ᵀ/(6a)、V=c u(s)³，a c≠0，s任意射影点，完整T3=0。证明穷尽五次均值极线的全部除子型，保q重根、D8纤维、t=r真双根与全部无穷远；全部旧311/高接触及新低接触/四两根族不再重做。结合已闭V0和essT3≤3，潜在非零原匹配Bell只可能rankV≥2且essT3=4/5/6。[整个rankV2内均值完整分类](results/R150-appendix-rank-two-third-cumulant-all-inside-mean-complete-classification.md)现已完成约化两点和非约化二jet：y∈RanV时全部T3=0。二jet真实切向均值由原完整六mean的QQ32/32、全64阶门618和∞45排空；D8的8维α幂基给原t=R7(α)身份，所有g²吸收闭合。其余只保物理值均值的四点切向族，H的支撑是结论。新的确切剩余为rankV2且y∉RanV、更高rankV；所有原全局幂来源仍开，不能由rankV2自动推共同支撑。 [rankV2与rankH≤1的完整范围](results/R150-appendix-rank-two-third-cumulant-rank-at-most-one-second-cumulant-essential-bound.md)也已证明essT3≤3并使原matched Bell全零：保全部原低梯度和真实异点根重数，约化型用六维极大全等向空间，二jet用原最高式唯一最低阶排除ess4。潜在rankV2非零Bell还必须rankH≥2；该手证不重跑既有门。
-
-
+**低秩V完整已闭范围：** [rankV1全临界集](results/R150-appendix-rank-one-third-cumulant-complete-critical-classification.md)及[rankV2内均值全层](results/R150-appendix-rank-two-third-cumulant-all-inside-mean-complete-classification.md)均仅给T3=0；全部原梯度、D8、合流/无穷远与旧计算门已付，不重做。[rankV2且rankH≤1](results/R150-appendix-rank-two-third-cumulant-rank-at-most-one-second-cumulant-essential-bound.md)给essT3≤3、matched Bell零。潜在rankV2非零Bell须y∉RanV、rankH≥2、ess4/5/6；不能自动推共同支撑。完整旧来源/运行身份及边界保[本次压缩前open](notes/2026-11-26-open-before-unit211-nonzero-mean-unit-base-half-ratio-347c.md)和结果索引；全局幂来源仍开。
 
 [原第三矩的本质支撑等式](results/R150-appendix-rank-two-third-cumulant-outside-range-mean-essential-support-equality.md)已经独立证明：一般r=dim essV、y∉RanV且dim essT3>r+1时，y∈essT3并且essT3=span(y,RanH,RanV)。所以剩余rankV2、ess≥4分支处于第三矩内均值层，不能把y∉essT3的长度五外均值消元当作该层论证；仍须原完整梯度。
-
-
-
 
 
 [整个相反非零配对分支](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-opposite-base-pairings-exclusion.md)现已闭合：原trace和单点范数差完整保零值，QQ359/838/1011结式仅余已闭w0、w−1及二次纤维，最后返回原M/S/c0迫v0或lhalf矛盾。原自含源49.017732秒/exit0；所有u0、l0/half、D1D2及六异常曲线均有独立完整来源，详见[压缩前open](notes/2026-11-26-open-before-complete-opposite-base-347c.md)和正式总闭合稿，不重做。单位211仅续q≠0,±1、b+cq≠0、P0≠0；root做m非零，unit代理做m零。
@@ -67,6 +62,8 @@ $$
 **[rankH3单一三重jet、rankV2的全部ess6已空](results/R150-appendix-rank-three-single-jet-second-cumulant-has-essential-dimension-at-most-five.md)：** 最后F=−m/Hp非零在保持H的合法真jet规范中，Gaussian迫p1=d0、p0p2=hb²；原N/最高的0/1/2阶式先付7/15边界，再得S³+3mS/(2e)=1而左边5/2。结合Hp0的原十六维QQ全纤维，以及所有特殊源/∞、V二jet和F2m排除，整单一三jet仅ess≤5。纯手证，无新计算；只续H2+1、三值H及原ess4/5。
 
 **[单位211零m两图的线性权重面J0全闭](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-nonzero-base-highest-zero-isolated-mean-linear-weight-face-exclusion.md)：** J=lQ(2u−1)−u(2u+Q−2)；u=1/2会违Q≠1，故合法解l。完整QQ第二轮次数(零,69,60)/(零,232,220)保恒零式，gcd只余第一图Q2并由原五式GB1排除。自含源1.30923秒/64372KiB/exit0；剩余原两图的l6/l8高次行列式因子和全部实际来源继续。
+
+**[单位211非零m、u1的半比例及jet除数全闭](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-nonzero-isolated-mean-unit-base-mean-half-ratio-exclusion.md)：** 在p+q2、u=bp+cq=1、P0非零图，l0由原mean/S余式排除；jet的g系数零面归λ=f1/2，其g0抽象族因完整Gram秩二排。半比例其余图QQ92/162/170结果式仅余Q5/4，回原五式基为{f−5l/16−1/2,l²}，与已付l0矛盾。自含源2.801380秒/72196KiB/exit0；继续u1的λ≠0,1/2及一般u≠1，不宣全非零m空。
 
 ## 2. R271：同一来源的完整物理费用
 
