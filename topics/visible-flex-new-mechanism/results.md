@@ -410,3 +410,5 @@
 - [R606 连续角主控、turning根与metric传播](results/R606-weighted-fourier-majorants-continuous-turning-and-metric.md)：**已证明**从真实有限径向系数给全部六jets的加权Fourier代数界，严格alias及离散到连续根包围，再用非零At/M谱和正权均值付实际metric；保完整低模残差、均值约定与core根误差六jet链。真实径向/ODE/DtN/舍入输入仍须另付，不把现有网格授连续资格。
 
 - [R607 prepared中心两侧首层的正四阶相容](results/R607-positive-prepared-center-leading-energy-layer.md)：**已证明（有限阶）**真运动学/完整M给显式c∈(1/6,3/4)、k‴=6和同λ>0，使B±−λm=O(s⁶)，包括Q一阶的五阶差准确清零；m正支真实实现。没有授准确首层全程、原有限宽度ruling或返回。
+
+- [R608实际圆参考的定量无限尾与平帽](results/R608-actual-circular-reference-tail-curvature-and-flat-cap.md)：**已证明**同一β=4χ(1−χ)/五次样条/无限H在δ≤2/25上z_s≥31w/32、a−rc>ℓδ/2、|κm|<1/3，且全平接完整圆盘。实际圆参考R599余下紧区间二jets需向外区间支付；不授非圆q连续reach或浮点评价精确性。

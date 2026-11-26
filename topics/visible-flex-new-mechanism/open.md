@@ -88,6 +88,8 @@ R33的相位作用可使两开平帽在材料上固定；需非圆、准确旋�
 
 R577保完整曲率半径的近弦估计；R579/R595给厚核心/旋转入口全对接口；R599给真实单调子午图的全图切圆证书。[R604](results/R604-normal-chord-stability-and-finite-parametric-norm-interface.md)给全法弦圆参考到新浸入的明确近远弦单射/reach界，中央柱纵向参数化不可遗漏。
 
+[R608](results/R608-actual-circular-reference-tail-curvature-and-flat-cap.md)已付同解析圆参考δ≤2/25的无限尾正图、a>rc、κm<1/3及完整平帽；还须向外区间覆盖[c,L−2ℓ/25]的真实二jets，截止点与无限尾必须有准确重叠。数值CUT/求积/浮点近似不重定义解析参考。
+
 当前R604 observer只在已完成97q几何上读真实X/Xs/aT/n/原曲率，不重复geometry或AD。圆参考仍需连续全尾、全帽、a下界、z_s正性及曲率；非圆q还须连续扰动范数、材料/Hermite/ODE/FFT/舍入误差。有限采样最大值不授连续界，圆参考reach不授非圆reach。若扰动损耗吃掉原.03D余量，必须增强真实参考/远弦证明或改变几何输入，不能只缩证明范围。
 
 ## O1：双圆领相位机制，保留备选
