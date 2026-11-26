@@ -1,0 +1,23 @@
+{
+  "schema": "visible-larger-public-research-request-v1",
+  "request_id": "visible-larger-resume-20261126-07",
+  "rules_read_commit": "5ba0a710721368db72afcd4cb1a9400844bf0c26",
+  "rules_sha256": {
+    "README.md": "581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102",
+    "topics/visible-flex-larger-amplitude/README.md": "3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d"
+  },
+  "recipe": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/rebuild_axisymmetric_so3_warm.py",
+  "stop_after": "warm",
+  "followup_file": "topics/visible-flex-larger-amplitude/computations/resume-20261126-followups-07.json",
+  "controller_budget_seconds": 20000,
+  "continuation_purpose": "Build the complete actual warm and independent R690 reference required by the next full reference-centred normal mechanism with C1 reuse. These are necessary input producers, not a repeated scientific conclusion or a new prescreen. No old optimized field or incomplete seed19 field is treated as a parent; all later applicable physical-location and protected-history responsibilities remain explicit.",
+  "actual_input_reconstruction_only_until_new_source_appended": true,
+  "new_numerical_dependency": {
+    "torch": "2.5.1",
+    "device": "CPU",
+    "dtype_for_new_solver": "float64",
+    "official_install_source": "https://pytorch.org/get-started/previous-versions/"
+  },
+  "bootstrap_scope": "Only the complete existing 561308 warm recipe and the complete published 4e655 reference producer are queued. The full original scientific argv, M160/J923/N2048/P7377, eleven original historical seed payloads and whole scalar tail are retained. The controller keeps finish_when_done=false so complete scientific successors and the source-closed historical consumer can be appended. Actual seed19 has not returned at preparation and is not replayed, declared empty, or used as a fabricated report.",
+  "source_and_history_policy": "No identity is inferred from matching commands or old SHA. The actual new warm/reference bytes, fixed scalar definition, carrier, chart and full original locations will be recorded. Missing later same-target physical or protected/typed history cannot be silently omitted. Any finite-envelope substitute requires a separate complete source-closed consumer and explicit scientific policy, not this bootstrap request."
+}

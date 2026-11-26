@@ -4,7 +4,7 @@
 
 ## 规则与完整目标
 
-最近规则核查：2026-11-26 23:05:50 UTC，真实pull/rebase至 `7aa70fa88839f489adc9bb3c24eb33d7b57b1e2f`，双README相对`9a64cf198d6a1d6ac78504b3a5bb97ecd0e087e5`无差异，继续遵守全部规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
+最近规则核查：2026-11-26 23:09:59 UTC，真实pull/rebase至 `f13ed734eb2d0cdd7f75fbb5a2ab4a1fac25292f`，双README相对`9734fa784ecab699f75fe8d5dc79202c5d8cd37e`无差异，继续遵守全部规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
 
 科学计算仅本公开仓库Actions；执行偏差见[早前记录](notes/2026-11-20-public-actions-execution-correction.md)及[四次大JSON整读纠正](notes/2026-11-26-large-file-connector-read-correction.md)。root唯一分支写者；结论即普通推，NFF立即rebase循环，不强推。每次pull核双README差异并遵新规，至少每小时，记commit。raw只scratch/runner，不入Git/Release/artifact；保完整小源/参数/run/SHA/紧凑结论。题≤200MB、单文件<5MB、MD<100KB、H<10KB、open<30KB。令牌仅瞬时CLI。终端失联与恢复/云API普通快进记录保7774固定H；旧scratch迁移未确认，不冒恢复。
 
@@ -29,7 +29,7 @@
 
 旧deep/Haar/R690–695/误差链见固定H及results/notes，不迁证；01止77、旧03 stage7未知。
 
-[法向显式H完整入口](notes/2026-11-26-fixed-normal-plane-explicit-height-entry.md)e8e096/b7e569/f8261f已真返[17/18](notes/2026-11-26-run05-actual17-18-fixed-normal-height-initial-failure.md)：cd530原初只改H至efe12015，非H字节同；m32完成29、30失败，reporta89f22，原endpoint未复读，无场/Phi/方向。八实际历史均消费，新增seed的九前驱现已齐；完成更多阶段不冒度量改善。
+[05实际17/18](notes/2026-11-26-run05-actual17-18-fixed-normal-height-initial-failure.md)：efe12015只改cd530原初H，m32完成29/第30失败、reporta89f22，原endpoint未复读，无场/Phi。八历史已消费；seed19的九真实前驱齐，完成阶段数量不冒度量改善。
 
 ## 已刊工具与未付目标
 
@@ -47,10 +47,9 @@
 
 [06完整重建入口](notes/2026-11-26-run06-complete-parent-reconstruction-and-current-PCG-entry.md)全部原28+十二父、三SOC/第四方向责任保，finish=false。首启动45903578703在fetch未公开规则ref时退出，科学未开始；[完整原因/实际修复](notes/2026-11-26-run06-startup-failure-unfetchable-rules-commit.md)已换实读公开HEAD，科学源/queue不改。新父/地点/μ只读新run真实返回，再接当前八列PCG。
 
-<!-- visible-larger-parallel-04:start -->
-并行公开Actions04：[run 45857104277/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45857104277)；[实际记录](notes/2026-11-26-public-actions-45857104277-1.md)。阶段`followup:complete-normalized-SO3-after48-original64-and-pure-single-admission-20261126-run04`/running；已返49，exit=未返。
-并行04规则核查：2026-11-26 21:49:59 UTC，真实pull至`7538bdab264ac3b2470e8d9c37143d0c70ef0ac6`，双README无变化。
-<!-- visible-larger-parallel-04:end -->
+[07必要原输入重建](notes/2026-11-26-run07-complete-warm-reference-bootstrap.md)仅完整warm→4e参考，原全argv/十一历史payload保；公开规则ref5ba0，finish=false。下一cached-centered完整方向/未返19历史另显式接入，不冒空地点。
+
+
 
 <!-- visible-larger-parallel-05:start -->
 并行公开Actions05：[run 45870334713/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45870334713)；[实际记录](notes/2026-11-26-public-actions-45870334713-1.md)。阶段`followup:complete-supported-unit-fixed-reference-normal-full-history-first-20261126-05`/running；已返18，exit=未返。
