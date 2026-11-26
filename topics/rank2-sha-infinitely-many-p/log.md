@@ -283,3 +283,5 @@
 - 2026-11-26 14:14 UTC / Astra-rank2-Sha-7d29daa5-20261126：原三角tiny source6ae52365/run45836149006/job139965432077实际success（14:10:21UTC，13源码AST/0.492784613s）。根亲取完整log并核manifest/result摘要、真γ 3×2/非分裂2、3厚层/官方全kernel和每个目标坐标/zero/双fallback，以及native与原lift两流和scale4。R956§7.5登记实际回执，§8登记已根审v7三个源码blob及原306接受门；45源/所有旧原门保持。v7仍持有未触发，唯一F未结束，原除子/shadow未冒PASS。
 
 - 2026-11-26 14:16 UTC / Astra-rank2-Sha-7d29daa5-20261126：R965§9发布同lift简代表u′=((3+4ω)r,0,0,0,−3r/2,−δωr/2)、v′=(barγ7 s,0,0,0,δs,0)。根推导/双审完整J差、中心E=−37/−19，实际U′=U/V′=V；同时固定S/T/W±/Z观察，消去先前仅整Bezout的δ假障碍而不引入3中心。真实与重排34块H/P/Rc/Q核交换，明确U_*hraw=ω²h34且h34≠h56，四态不冒新增forcing。H完整归档后压缩，当前F14:15仍step4。
+
+- 2026-11-26 14:17 UTC / Astra-rank2-Sha-7d29daa5-20261126：R966完整证明根审发布。亲核原R959全Fourier/period及R877标准lift、Gaussian和half特征，得实际Πδ390 Z=0；三指定译像整Newton/普通中央关系−1/2，非任意伙伴零。完整SZ两中心差及坏Z后交叉2J′(C1J)/9保持sum-unitcut；新增实际Y3首项εc1/2^127 z3和全Λ偶给全局偶mixed测试的真实−1/2压缩。仅原准确中心零I390用真除p，固定c1分子坏集未偷删；不赋mixed/交叉零，不完成无穷性。
