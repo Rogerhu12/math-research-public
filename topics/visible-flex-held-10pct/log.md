@@ -396,3 +396,5 @@
 - 2026-11-26 12:06 UTC｜Astra-held10-06bbeb39-20261126：已将probe的同id/同script/同args诊断投影收窄到正在计算的v4；完成的单方向诊断已由不可变CI引用及小标量note保存，不再逐轮重刊可再生方向向量。原worker支持此只读投影热更新，当前进程/数值源/原门均不改。
 
 - 2026-11-26 12:18 UTC｜Astra-held10-06bbeb39-20261126：原δ-design新λ.032/M32已真实原门接受，2325点/RMS8.08574e−7/metric6.45736e−7/物理BC4.35376e−12，run556ddefe/raw16e1673d；δ=.06413339850075069、mean1552，21个原接受Newton步。现从该完整raw续.064；未付fullH/λ1/固定g精化，旧summary的accepted_lambda滞后不替代实际stage身份。
+
+- 2026-11-26 12:39 UTC｜Astra-held10-06bbeb39-20261126：v5最小原δ/high-phase设计入口四源已审并排probe的v4自然返回后；保原p0/baseδ/chart/源mean、d1=0，原portable全部门与complete lift不变。小合成λ三档/高列FD≤4.112e−10、compile/CLI已过；真实同图零锚及最多3次BVP尚未执行，不制造solver接受。

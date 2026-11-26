@@ -1,22 +1,22 @@
 {
-  "id": "held10-warm-v4-full-to-complement-20261126-01",
-  "read_rules_commit": "28cadf5915d7a5b7b6ccb52f7e2fccd66d761f73",
-  "script": "topics/visible-flex-held-10pct/scripts/resume_20261126/warm_fixed_m3_continue_v4.py",
+  "id": "held10-warm-v5-original-delta-phase-design-20261126-01",
+  "read_rules_commit": "ed27f68cd6a0d4d951542f1af6db2e24f0f34f3b",
+  "script": "topics/visible-flex-held-10pct/scripts/resume_20261126/warm_delta_phase_continue_v5.py",
   "args": [
     "--repo",
     "@REPO@",
     "--work",
     "@WORK@",
     "--source-run",
-    "@WORK@/fresh-one-direction/v3-zero-control-anchor/run.json",
+    "@WORK@/fresh-one-direction/lambda002_m24/run.json",
     "--outdir",
-    "@WORK@/warm-v4-design",
+    "@WORK@/warm-v5-design",
     "--max-attempts",
     "3"
   ],
   "diagnostics": [
     {
-      "path": "@WORK@/warm-v4-design/summary.json",
+      "path": "@WORK@/warm-v5-design/summary.json",
       "keys": [
         "status",
         "progress",
@@ -26,9 +26,10 @@
       ]
     },
     {
-      "path": "@WORK@/warm-v4-design/reexpressed-anchor/summary.json",
+      "path": "@WORK@/warm-v5-design/zero-control/summary.json",
       "keys": [
         "status",
+        "progress",
         "result",
         "error"
       ]

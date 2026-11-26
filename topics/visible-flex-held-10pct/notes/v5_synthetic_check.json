@@ -1,0 +1,116 @@
+{
+  "scope": "Small synthetic v5 fixed-q/high-phase-chain check; never runs a BVP.",
+  "synthetic_only": true,
+  "BVP_invoked": false,
+  "actual_reexpression_executed": false,
+  "accepted_BVP_field": false,
+  "rows": [
+    {
+      "homotopy": 0.002,
+      "literal_zero_core_identity": {
+        "F": true,
+        "Ft": true,
+        "Ftt": true
+      },
+      "actual_phase_chain_bitwise_equal": true,
+      "first_API_jet_zero": true,
+      "changed_q_API_rejected": true,
+      "high_phase_derivatives": [
+        {
+          "column": 1,
+          "maximum_absolute_two_jet_FD_error": 1.4996320851778933e-10
+        },
+        {
+          "column": 7,
+          "maximum_absolute_two_jet_FD_error": 1.0553116713829525e-10
+        },
+        {
+          "column": 8,
+          "maximum_absolute_two_jet_FD_error": 1.0212864928749177e-10
+        },
+        {
+          "column": 23,
+          "maximum_absolute_two_jet_FD_error": 7.782985367299489e-11
+        }
+      ],
+      "common_basis_bitwise_equal": true,
+      "actual_phase_zero_extension_bitwise_equal": true,
+      "zero_extension_two_jet_roundoff": 0.0
+    },
+    {
+      "homotopy": 0.5,
+      "literal_zero_core_identity": {
+        "F": true,
+        "Ft": true,
+        "Ftt": true
+      },
+      "actual_phase_chain_bitwise_equal": true,
+      "first_API_jet_zero": true,
+      "changed_q_API_rejected": true,
+      "high_phase_derivatives": [
+        {
+          "column": 1,
+          "maximum_absolute_two_jet_FD_error": 1.8678525393056589e-10
+        },
+        {
+          "column": 7,
+          "maximum_absolute_two_jet_FD_error": 1.7913404093405916e-10
+        },
+        {
+          "column": 8,
+          "maximum_absolute_two_jet_FD_error": 1.164936203057465e-10
+        },
+        {
+          "column": 23,
+          "maximum_absolute_two_jet_FD_error": 1.1745816819175303e-10
+        }
+      ],
+      "common_basis_bitwise_equal": true,
+      "actual_phase_zero_extension_bitwise_equal": true,
+      "zero_extension_two_jet_roundoff": 0.0
+    },
+    {
+      "homotopy": 1.0,
+      "literal_zero_core_identity": {
+        "F": true,
+        "Ft": true,
+        "Ftt": true
+      },
+      "actual_phase_chain_bitwise_equal": true,
+      "first_API_jet_zero": true,
+      "changed_q_API_rejected": true,
+      "high_phase_derivatives": [
+        {
+          "column": 1,
+          "maximum_absolute_two_jet_FD_error": 1.640193120211464e-10
+        },
+        {
+          "column": 7,
+          "maximum_absolute_two_jet_FD_error": 1.940881899642477e-10
+        },
+        {
+          "column": 8,
+          "maximum_absolute_two_jet_FD_error": 1.0541606476621723e-10
+        },
+        {
+          "column": 23,
+          "maximum_absolute_two_jet_FD_error": 4.111982698784544e-10
+        }
+      ],
+      "common_basis_bitwise_equal": true,
+      "actual_phase_zero_extension_bitwise_equal": true,
+      "zero_extension_two_jet_roundoff": 0.0
+    }
+  ],
+  "modes": 24,
+  "phase_control_scale": 0.5,
+  "seconds": 2.424920778008527,
+  "source_hashes": {
+    "/tmp/held10-astra-06bbeb395471-fixed-rebuild/v5/warm_delta_phase_factory_v5.py": "56772568ba9ddbfcf78d65cb0104991b694a4806335914762158a58d2391fc83",
+    "/tmp/held10-astra-06bbeb395471-public4/topics/visible-flex-held-10pct/scripts/resume_20261126/warm_homotopy_core_factory_v4.py": "f303897c231639b2dd68854d7bf37cc8862eea4e52b468d5be84c856e84fbcb5",
+    "/tmp/held10-astra-06bbeb395471-public4/topics/visible-flex-held-10pct/scripts/resume_20261126/warm_supported_core_factory.py": "9192499334d9f8603c812cd95964cc660a065132a82ce240fe2331f64c9b14dc",
+    "/tmp/held10-astra-06bbeb395471-public4/topics/visible-flex-held-10pct/scripts/resume_transfer/material_flattened_support_core.py": "1d655f2bdad53e1d320c1115a9873abe399a9b7ba930722c415d02dedb9b1f20",
+    "/tmp/held10-astra-06bbeb395471-fixed-rebuild/v5/check_warm_delta_phase_v5.py": "fa442bdfcbcb6ba98f18497f2418f2c42ba6cb3b807f5166071d4fb789a23fd0",
+    "/tmp/visible-flex-6a65e705/math-research-public/topics/visible-flexible-closed-surface/notes/fixed_metric_mode3_core.py": "a529904e265ddc95635c6c6601ea173eb0e1383a75e458d3eaee024fe7078ead"
+  }
+}
