@@ -4,7 +4,7 @@
 
 ## 规则与完整目标
 
-最近规则核查：2026-11-26 19:41:53 UTC，真实pull/rebase至 `66134fdb9971d8e2e2df9bf6a39cd2388a59fc20`，双README相对`5a37b96940f2d553fd6350415a2f2b48a8e40714`无差异，继续遵守全部规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
+最近规则核查：2026-11-26 19:43:38 UTC，真实pull/rebase至 `bb534a8bba9c05dd51389a2d00cd437e1460c690`，双README相对`66134fdb9971d8e2e2df9bf6a39cd2388a59fc20`无差异，继续遵守全部规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
 
 科学计算仅本公开仓库Actions；执行偏差见[早前记录](notes/2026-11-20-public-actions-execution-correction.md)及[四次大JSON整读纠正](notes/2026-11-26-large-file-connector-read-correction.md)。root唯一分支写者；结论即普通推，NFF立即rebase循环，不强推。每次pull核双README差异并遵新规，至少每小时，记commit。raw只scratch/runner，不入Git/Release/artifact；保完整小源/参数/run/SHA/紧凑结论。题≤200MB、单文件<5MB、MD<100KB、H<10KB、open<30KB。令牌仅瞬时CLI。17:55终端失联后曾用云API普通快进；19:17显式/tmp恢复并新部分克隆，现恢复终端git。旧迁移完成情况未知，不假称恢复旧scratch。
 
@@ -25,13 +25,15 @@
 
 [R703](results/R703-normal-endpoint-lifting-and-fixed-partition-jets.md)/[R707](results/R707-fixed-normal-chain-root-jet-error-propagation.md)完整固定法向链/误差传播已证，尚无实际余量；[法向五源](notes/2026-11-26-fixed-normal-plane-complete-SO3-entry.md)42ea/2557/68a6/c5f1/8381已排05，m32全6m/9m链、原H、七实际历史；[gamma显式H入口](notes/2026-11-26-added-gamma-KKT-explicit-height-entry.md)8f375/da411/c3fdd也已排05真实30后，两者尚未返。新增[单位seed R708](results/R708-supported-unit-meridian-seed-contraction.md)正实现固定参考，保原完整外层变量。
 
-[05实际输入](notes/2026-11-26-run05-actual-input-identities-and-same-mathematical-target.md)/[R706](results/R706-regenerated-input-same-exact-metric-definition.md)：45870334713已起，旧3/17/21/26/30完整依赖必要重建；同warm/e640/law/chart给同数学g，reference/profile/carrier与误差盒确变。末向量不推一致；完整初字及地址待[纯指纹v2](notes/2026-11-26-complete-history-and-initial-point-fingerprint-v2.md)真实记录。
+[05实际输入](notes/2026-11-26-run05-actual-input-identities-and-same-mathematical-target.md)/[R706](results/R706-regenerated-input-same-exact-metric-definition.md)：45870334713已起，旧3/17/21/26/30完整依赖必要重建；同warm/e640/law/chart给同数学g，reference/profile/carrier与误差盒确变。末向量不推一致；[实际7纯指纹](notes/2026-11-26-run05-actual7-full-history-and-initial-word-fingerprints.md)已真读初字与through26完整地点，不补造旧03b集合。
 
 ## 05本场实际返回
 
 [实际5 R696](notes/2026-11-26-run05-actual5-R696-complete-reconstruction-return.md)：完整返回75b285，centered Phi1156.1555→1156.1339、max .515122897、有限g负；1 metric/0rest、μ .01。接受由完整控制流与μ推得，非直接accepted字段；α/Pg未知。后继继续全报告地点并集，非只末memory。
 
 [实际6 integral首方向](notes/2026-11-26-run05-actual6-complete-integral-first-return.md)：真实父9bf940/末c8cb4b，centered Phi213.8913→197.5846/max .506365333，直接accepted1/0rest，有限g负且全永久点/双符号重读；α/Pg未读。当前norm c06a7abc与完整目标身份保原note，续算消费本场真实输出。
+
+[实际7纯读取](notes/2026-11-26-run05-actual7-full-history-and-initial-word-fingerprints.md)：真实完整初向量cd530c与旧参数已刊摘要同串，core/H同reference字、omega全正零；5完整来源walker并集1763/1763/protected36、pending0、combined bd169e75，所有F/J/root调用0。完整各输入/前缀指纹保note；through30尚待真实返回。
 
 ## 04及旧02边界
 

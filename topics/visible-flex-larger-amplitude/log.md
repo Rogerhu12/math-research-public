@@ -338,3 +338,8 @@ R708支持内单位meridian完整条件构造：已正式刊[完整42式证明](
 ### 2026-11-26 19:41:53 UTC — Astra-larger-e4e2a2bf-20261126
 
 登记[05实际6完整integral首方向](notes/2026-11-26-run05-actual6-complete-integral-first-return.md)：606完整1333370变量/45324288正权行、四完整历史源、norm c06a7abc；实际7f3d9c报告/末c8cb4b、centered Phi213.89131075534186→197.584579939444/max .5063653325058848，直接接受1metric/0rest、μ .01、有限g负、全永久点/双符号重读。完整来源/argv/范数/原预算/工作筛/费用保note，α/Pg/QP实际终态未知，连续三证均false；后继读本场真实父与完整报告地址，不继承旧03b场或证书。
+
+
+### 2026-11-26 19:43:38 UTC — Astra-larger-e4e2a2bf-20261126
+
+登记[05实际7完整历史/初点字指纹](notes/2026-11-26-run05-actual7-full-history-and-initial-word-fingerprints.md)：e54c真实纯读ba07ed，五完整JSON来源按4d9 walker解析当前carrier/N，完整并集1763/1763/protected36、pending0及每输入/前缀hash已返。真实完整NPZ初向量cd530c、core/H同reference字/omega正零，逐字摘要与旧df11参数已刊trace初点摘要相同；不由此伪造旧reference/profile/地点hash，不以同点hash证明同g。全部F/J/JT/root/scan/QP为0，原raw只runner，后继继续追加新报告。
