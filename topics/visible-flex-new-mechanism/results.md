@@ -306,3 +306,5 @@
 - [R588 共同准确内尾的连续定量界](results/R588-quantitative-common-inner-tail-and-actual-metric-bound.md)：**已证明**明确归一/有限表示盒下，u≥108的四真端模C3<e^-1100，完整非线性height/turning实际metric<e^-600且曲率<e^-60。覆盖四口间小片；准确germ与有限Cauchy/外传误差分开，非主门。
 
 - [R576精确插结高度续解](notes/2026-11-26-r576-exact-knot-height-implementation.md)：新公开输入复用真实68q/内口/H，经四块Boehm及保留local列准确嵌入120维；最多6轮实际峰驱动插结。全奇异方向SVD和可辨实际下降保真，完整同q细网/直接位置门；尚无新有限结果或固定g收敛。
+
+- [R582三份实际种子与JSON接口失败收据](notes/2026-11-26-r582-paid-seed-json-failure-receipt.md)：**完整原观察**。run45800483161在三份真正背景种子均到s=.82后序列化失败，114.013392秒child墙钟及29内cell/480外段全部保账。没有中段SLSQP或返回fit，不按failure丢科学成本；后继直接从已付口六jets续。
