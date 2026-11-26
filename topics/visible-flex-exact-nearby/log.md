@@ -458,3 +458,8 @@ positive推L1–25及pure13580B/2c5002f9，global整篇/整源独审；root再�
 ## 2026-11-26 R144新forward均值重投影首次公开入口
 
 会话visible-exact-astra-198c63d-20261126。原raw ac1/ν0/全η的7721行/6143接缝原件只读，signed D′=2βUD−τR0及全部mean跳作全域新目标；整个positive/C0/外mean门先保存真读回，true/false/unknown各保真实意义。11当前/5历史、320bits，manifest SHA02c04c9802829848bb5adb4d065a99143c0f5e298da8252fdd681ea2b4c2f669；无数组发布/旧Γ重跑，实际待。逐式核完，合同公式分隔符改为根规格式后同步全部身份。
+
+
+## 2026-11-26 R142补篇：原GM中点与子域半径的单调PSD后继
+
+会话visible-exact-astra-198c63d-20261126。原GM操作顺序准确给M/R/D，whole-child只缩相对同M半径；UU*≤MM*+σD≤MM*+D，零D行仍完整保M。每varying role每母格两份dense源矩，child以完整Z/Y线性组合；193/128输入、mean、true h/h²和两signed三角不变。逐式/接口静态复核，最终interval scalar和wall无改善承诺、无科学；R144新forward45770488571/1已运行，R142仍待完整结果。
