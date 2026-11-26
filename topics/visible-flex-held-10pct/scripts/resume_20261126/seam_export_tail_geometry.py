@@ -187,8 +187,17 @@ def validate_native_identity(record, native_manifest, packet, source_port):
         raise ValueError("Native static scope differs from the actual accepted config")
     if any(meta["scope"].get(k) != v for k, v in native_manifest["fixed_scope"].items()):
         raise ValueError("Original native manifest scope differs from its static metadata")
-    if meta["physicalParameters"] != port["parameters"]:
-        raise ValueError("Native mean chain belongs to a different physical metric")
+    # The original linear-port exporter retains only its explicit physical
+    # configuration keys. Native metadata and checkpoint.parameters retain the
+    # complete factory parameters, including defaults and derived quantities.
+    # Bind all complete keys to that actual checkpoint, plus every port key;
+    # do not mistake the valid partial port schema for a different metric.
+    physical = meta["physicalParameters"]
+    if any(k not in cp["parameters"] or cp["parameters"][k] != v
+           for k, v in physical.items()):
+        raise ValueError("Native complete physical parameters differ from the accepted checkpoint")
+    if any(k not in physical or physical[k] != v for k, v in port["parameters"].items()):
+        raise ValueError("Native mean chain differs from an explicit original port parameter")
     if meta["original_scalar_and_variational_grid_bytes_equal"] is not True:
         raise ValueError("Original scalar/variational grid identity is not established")
     if type(record["withJac"]) is not bool:
@@ -220,6 +229,8 @@ def validate_native_identity(record, native_manifest, packet, source_port):
         "metadata": record["static_metadata"], "manifest": record["manifest"],
         "input": record["input"], "output": record["output"],
         "accepted_state_vectors_checked": S, "native_source_runtime_files_checked": len(source_refs),
+        "complete_checkpoint_physical_parameters_checked": len(physical),
+        "explicit_port_parameters_checked": len(port["parameters"]),
         "original_scalar_variational_grid_identity": True,
         "original_root_gates_changed": False,
     }
