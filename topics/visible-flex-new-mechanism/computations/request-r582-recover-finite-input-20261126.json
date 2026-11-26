@@ -1,0 +1,44 @@
+{
+  "schema": "r582-original-completed-log-necessary-next-input-recovery-v1",
+  "repository": "Rogerhu12/math-research-public",
+  "queue_session": "Astra-new-mechanism-0105020f-20261126",
+  "expected_readme_blobs": {
+    "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+    "topics/visible-flex-new-mechanism/README.md": "d0432faff569c8e9af7ed4809847e12880976c11"
+  },
+  "expected_private_readme_blobs": {
+    "README.md": "5ba164843b1f5802184178a82d786264404873a3"
+  },
+  "public_rules_read_commit": "f28e377f69168b22537e82f49a4993349c1fa919",
+  "private_rules_read_commit": "a425ec63d36b3d204d35a07c24ae76f6394fcc24",
+  "runtime": {
+    "python": "3.12.14",
+    "packages": {},
+    "checkout_action": "11d5960a326750d5838078e36cf38b85af677262",
+    "setup_python_action": "a26af69be951a213d495a4c3e4e4022e16d87065"
+  },
+  "source_sha256": {
+    "topics/visible-flex-new-mechanism/scripts/r582_recover_finite_input_20261126.py": "c24f08450fab25446f1bca4c75b1b22e3b5cce55d66f4bc2b5831cc130eaf8c4",
+    "topics/visible-flex-new-mechanism/scripts/run_inverse_state_stdin_20261126.py": "7fde98e3337eb537b18b18789b125fcac57e7382e8f22c755947e907c0ea7785",
+    "topics/visible-flex-new-mechanism/notes/2026-11-26-r582-finite-radius-only-original-receipt.md": "e8781d68fca91b48896369af506b1ddc3ba904f81cc3d7d4eb15937c73537a4f",
+    ".github/workflows/visible-r582-recover-finite-input-20261126.yml": "8b74b8e91009ddf0bdecb9dce3ad7f5a4570adb3b447d637d94396b451c6be34"
+  },
+  "scope": {
+    "identified_completed_run": 45827253372,
+    "identified_completed_job": 139934478969,
+    "original_raw_bytes": 12912168,
+    "original_raw_sha256": "0f8c0ea00bf770412d0b532dc8d28dd1d7ff0c8c2c51a874e11023e9a2432feb",
+    "original_FINAL_bytes": 447283,
+    "original_FINAL_sha256": "397a1a6fb7999c36f4849956ef6b820ba615118ce9733ebf0e6356a6ecbfb169",
+    "lost_pre_receipt_next_input_bytes": 218542,
+    "lost_pre_receipt_next_input_sha256": "470a67d1b19249bdd08fc8b63cd129c12a4bf71b8e30c5b24a51c0ef496d0e3b",
+    "reason": "transient workspace loss and original large-log connector transport failure",
+    "mathematical_model_evaluations": 0,
+    "old_scientific_runs_replayed": 0,
+    "output_only_necessary_next_input_coordinates_and_existing_cost_ledger": true,
+    "raw_log_and_FIELD_endpoint_arrays_saved_or_uploaded": false,
+    "maximum_parallel_jobs": 1,
+    "maximum_minutes": 15,
+    "stdout_only": true
+  }
+}

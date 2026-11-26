@@ -1,0 +1,47 @@
+name: visible-flex recover original finite input
+on:
+  push:
+    branches: [main]
+    paths:
+      - topics/visible-flex-new-mechanism/computations/request-r582-recover-finite-input-20261126.json
+  workflow_dispatch:
+permissions:
+  contents: read
+  actions: read
+concurrency:
+  group: visible-flex-r582-recover-finite-input-20261126
+  cancel-in-progress: false
+jobs:
+  recover:
+    name: recover necessary parameters from one completed original log
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      PYTHONUNBUFFERED: '1'
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 0
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-new-mechanism/README.md
+            /topics/visible-flex-new-mechanism/scripts/r582_recover_finite_input_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/run_inverse_state_stdin_20261126.py
+            /topics/visible-flex-new-mechanism/notes/2026-11-26-r582-finite-radius-only-original-receipt.md
+            /topics/visible-flex-new-mechanism/computations/request-r582-recover-finite-input-20261126.json
+            /.github/workflows/visible-r582-recover-finite-input-20261126.yml
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.12.14'
+      - name: Pull rules and read the identified completed original job
+        env:
+          MR_TOKEN: ${{ secrets.MR_TOKEN }}
+        run: >-
+          python topics/visible-flex-new-mechanism/scripts/r582_recover_finite_input_20261126.py
+          --request topics/visible-flex-new-mechanism/computations/request-r582-recover-finite-input-20261126.json
+      # Stdlib data recovery only: no numerical model, old scientific replay,
+      # raw-log output, endpoint arrays, artifact, cache or repository mutation.
