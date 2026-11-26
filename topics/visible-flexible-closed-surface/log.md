@@ -222,3 +222,5 @@
 - 2026-11-26 13:40 UTC｜Astra-visible-flex-6a65e705-20261126：R239完整Cartesian精确径向块带结构、全部13行角通道主块及保原λSobolev的增广预条件证明完成。区别物理J与已有变坐标operator，不删跨角耦合、不称新实现已改善；另名实现准备并继续真实v4和新gap求解。
 
 - 2026-11-26 13:44 UTC｜Astra-visible-flex-6a65e705-20261126：强长run45778054176实际13:38completed/cancelled，日志13:38:36明确终止；原第13次Cauchy接受保留。下游仅原observer累计进度及版本probe0，无独立Cartesian实验退出或发布，不能补造接受；分开继续实际cached v4、新gap与完整h分支。
+
+- 2026-11-26 13:46 UTC｜Astra-visible-flex-6a65e705-20261126：新gap同g真空间增广2400→5292列，旧knots/Boehm全六jets转移明确核后重算自身基线；三次完整接受282.278s真0，累计18，R²3.57579/κ635.719/metric.995495仍坏。均LSMR160/stop7、实际α.5/.5/1，继续明确新增面积行的完整模型，未以离散正面积冒连续浸入。
