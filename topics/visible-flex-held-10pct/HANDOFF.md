@@ -6,11 +6,10 @@
 
 连通闭C²嵌入、C²连续族；H闭、有内点且diamH≥.2D，整像δhold≥.1D、含反射δE>0，全时reach≥.03D。固定完整g/物理数据/时间范围加密到完整metric≤1e−6并持续下降。必须实际闭合和共用Cartesian两jet；λ<1不提供准确圆弧H。
 
-- 公共已完整读规则并真实pull：`2f0610738b74371ed3ae047e9d09ee9c5b08c0a1`；私有根README/QUEUE接手登记已推 `2f68946f2fa3e192a291c7c1393231af1a89953e`。每次pull核双README差异，至少每小时一次。root独占git，逐结论push，NFF立即pull --rebase再推，禁force；令牌只命令行。
+- 公共已完整读规则并真实pull：`a178b821c29702a9fb7d2f702893a8352196d5a6`；私有根README/QUEUE接手登记已推 `2f68946f2fa3e192a291c7c1393231af1a89953e`。每次pull核双README差异，至少每小时一次。root独占git，逐结论push，NFF立即pull --rebase再推，禁force；令牌只命令行。
 - 当前部分克隆`/tmp/held10-astra-06bbeb395471-public4`；11:21断开内容已以0a872e46保存，终端恢复后只用Git。[接手来源](notes/2026-11-26-resume-and-current-sources.md)。
 - [70源恢复](notes/2026-11-26-tail-source-recovery.md)保原输入/门，不计新结论。
-- [material run45763361623](https://github.com/Rogerhu12/math-research-public/actions/runs/45763361623)已于11:13:59 UTC因原worker5.5小时自限中断.75（最后norm2.55），无第三包；[终态](notes/2026-11-26-recorded-tail-worker-interruption.json)。历史λ.004独立尾[.25](notes/2026-11-26-recorded-lambda004-tail-factor025-actual.json)/[.5](notes/2026-11-26-recorded-lambda004-tail-factor050-actual.json)原audit已过，但原prefix metric未门；转新实际候选full-DN。
-- 独立[lowq run45772029917](https://github.com/Rogerhu12/math-research-public/actions/runs/45772029917)：12:30:41 UTC原worker5.5小时期限结束；[终态](notes/2026-11-26-lowq-worker-deadline-actual.json)仍省略超64KiB诊断。已知q链/λ0过、M8/M16仅初猜；M24及后续数学状态未知。
+- 旧[material终态](notes/2026-11-26-recorded-tail-worker-interruption.json)：run45763361623于11:13:59 UTC到原期限，历史λ.004真尾.25/.5过、.75未知；prefix metric未门。旧[lowq终态](notes/2026-11-26-lowq-worker-deadline-actual.json)：run45772029917于12:30:41到期限，M24+终态未知；不重复旧尾/失败链。
 - 根§12优先真实数学/求解，§15可再生数组不入Git/Release/artifacts；只存源/参数/命令/hash/小标量。H<10KB、单MD<100KB、目录<200MB，不写根LOG。
 
 ## 新结论与当前路线
@@ -30,6 +29,8 @@
 3. 新全场几何必须保源字面mean/真primitive与共同Cartesian两jet；现warm reader仅1168及v1/v2/v3，v4/v5/新mean需显式适配。已备[真核](notes/2026-11-26-warm-true-core-interval-extension.md)、[全prefix metric](notes/2026-11-26-warm-continuous-prefix-metric-entry.md)、[真桥](notes/2026-11-26-warm-continuous-bridge-geometry-entry.md)、[新cut](notes/2026-11-26-seam-new-prefix-cut-entry.md)、[真Zc](notes/2026-11-26-seam-new-true-cut-height-entry.md)、[动态全尾v2](notes/2026-11-26-seam-dynamic-tail-geometry-v2.md)及[全尾C²差](notes/2026-11-26-seam-actual-tail-c2-comparison.md)。全尾保实际M/N完整谱、唯一R节点/primitive与源参数；13项factory/checkpoint覆盖已修。C²差保真实ΔZc/Δmu_cut，未含cut修补；有限对比非Cauchy。R66连续转角I=1给三重primitive闭合，实际积分/投影仍欠。只有API/纯代数小核，尚无新λ1全场证书；不搬旧界，不重铺旧组件。
 
 **R69已证明**：[完整核心C²差](results/R69-uniform-core-c2-difference-from-phase-controls.md)：同phase族/中心规范下，η=min(2,E0)，位置≤Pη/√3、一阶≤η、二阶≤E1+min(Ki)η；精确闭合Green算子保零模。未付全场Cauchy。
+
+[原full-H执行合同](notes/2026-11-26-full-height-native-continuation-source-audit.md)与[v5 DN接口](notes/2026-11-26-v5-full-dn-source-interface.md)已核：复用现chord-source/native4，generic入口未装chord；基线/runtime配置分别绑定，保full-H/J/audit/最多8outer。v5只收真实solver来源；原seam mean≠源Cartesian mean，不能冒充公共两jet。无新尾求解。
 
 ## 必须复用的前会话成果
 

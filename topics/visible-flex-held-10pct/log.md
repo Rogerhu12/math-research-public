@@ -424,3 +424,5 @@
 - 2026-11-26 13:26 UTC｜Astra-held10-06bbeb39-20261126：旧warm worker实际13:02:07到5.5h期限，job success仅工作流。v3最后真正返回.00203125为status1/2627点/RMS.0019586562，raw3b9c1c34、rund9cf469b；七次推进均未接受，末attempt007/.002015625终态未知。保全部已返来源，不以中断作数学结论，继续现v4/v5/secant。
 
 - 2026-11-26 13:35 UTC｜Astra-held10-06bbeb39-20261126：v4首.004/M24真实自然返回status1/5016点，RMS.0780476、物理BC6.29195e−6皆未门，runa3bc68f9/raw3bc514a1；22原接受步/minα2^-17/域拒142，不混作已知域类型的分项。保真.002锚二分.003，完整失败记录与不可变CI已核；不把此次数值失败写成固定g不可解。
+
+- 2026-11-26 13:39 UTC｜Astra-held10-06bbeb39-20261126：已核原full-H执行及v5 DN接口：现chord/native4可复用，generic未装chord、单改配置无效；须分绑原port基线/runtime/manifest，保full-H/J/audit/最多8outer。v5只接实际solver场，δ内部列保留、固定cut底块零有明确范围；原seam mean另于源图，非公共Cartesian两jet通过。旧尾只获约109分钟，不由期限推6h不可解；无新尾/缓存改动。

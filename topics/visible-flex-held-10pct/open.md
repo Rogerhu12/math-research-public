@@ -20,6 +20,8 @@ R63固定完整g后把未知核放同一函数空间，必须核与全场C² Cau
 
 [δ单列替换诊断](notes/2026-11-26-one-column-delta-replacement.md)给同λ/实际g/字面chart/mean/高参数且d1=0的完整Jacobian关系；需先实际核全残差及其余块同一。一次旧LU转置给γ=wᵀbδ，必要时再一正解给完整新方向；当前无γ实测，不为已不存在LU另跑抽象证书，等真实v5返回需要定位时使用。
 
+[原 full-H/native 源码合同](notes/2026-11-26-full-height-native-continuation-source-audit.md)及[v5 actual-DN 接口](notes/2026-11-26-v5-full-dn-source-interface.md)已核：现runner的chord-source/native可复用，generic协调器却尚未装bounded-chord；仅加配置不能启用该实现。实际来源须真SOLVER_RETURN、baseline/runtime配置分开绑定，保全部full-H/J/audit和最多8次真实外迭代。v5的δ内部完整列/高phase入口列不变，当前固定cut的参数直接底块为零有明确范围；旧seam采用另一mean，仍欠源字面mean的Cartesian两jet实测。未运行新尾，不增加抽象缓存或预设速度保证。
+
 ## 当前接续顺序（2026-11-20）
 
 - 新多段g原support q=.006→.06已全过；宽窗λ0/τ1完整lift后，λ.002在M24原linearDN前缀已过metric6.48242e−7。原mean1168/GL6和mean512 proxy明确区分；真实尾.25及.5 warm均已完整原门通过；chord3 session54314现接.75/.9，完整fullH与原外迭代仍欠。固定完整g/全部物理参数与均值规则后才进入正式精化。 root下一λ.004/M24真收敛但metric1.53303e−6未门，表示外ψ77/79主导；[M32升谱实际](notes/2026-11-20-m3-newg-lambda0004-m32-accepted.md)已860点过原metric7.604677e−7/BC2.84346e−12，原mean1552；[λ.008/M32](notes/2026-11-20-m3-newg-lambda0008-m32-accepted.md)76535已863点过metric7.844246e−7/BC6.08e−15，现45287续λ.016同原门，旧真尾不动。
