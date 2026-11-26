@@ -5,7 +5,7 @@
 
 ## 1. 规则、授权与原始记录
 
-公开已读提交 **e35104857461ae1367434a4cbdc573fef577c4b6**（2026-11-26 15:21 UTC；本次实际pull后根/题README空差异）；最后实际pull及规则同blob读至 **b0bc06351b56a4f4e14b64e6671ef25b01a32f6a**（2026-11-26 15:21 UTC；实际pull成功，根README空差异、QUEUE仍本会话）。私有 QUEUE 仍为本会话进行中，原认领提交9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7，其他课题认领不改。
+公开已读提交 **79285a0ba6b5b8afd2e7d6b5900f461536c09116**（2026-11-26 15:33 UTC；本次实际pull后根/题README空差异）；最后实际pull及规则同blob读至 **2aac7bb7ee989c774e0495c45c100e955e3c2419**（2026-11-26 15:33 UTC；实际pull成功，根README空差异、QUEUE仍本会话）。私有 QUEUE 仍为本会话进行中，原认领提交9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7，其他课题认领不改。
 
 [本次压缩前全文](notes/HANDOFF-before-continuous-angular-bounds-20261126.md)及其所链[继承交接](notes/HANDOFF-inherited-20261116-1809.md)保全部结论、条件、旧失败、输入与费用；不因摘要删账。三次环境失联后已恢复；远端临时CLI和后续本地CLI均真实双pull/rebase/push。每次实际pull后查根/题README差异并执行，至少每小时；API读取不冒pull。root独占git和共享索引，每条结论即推，NFF立即pull --rebase再推至成功。
 
@@ -27,7 +27,7 @@ R580排旧有限多项式，R582付实际圆背景无限全平核，R592付遇�
 
 [97q首个真实细网恢复](notes/2026-11-26-r582-local-tail-first-original-terminal-receipt.md)：run45842923121/job139989034161、source d262130d83ddfc5dd51ebc34941678bef313dac1，125.663352586秒，17恢复接受。稳定同一quintic配16真尾列；同p=.181/ε=.001，10905×768细网工作V0、η.000433487、κ16.45257，未过2.5e−7。真实97q SHA815b1168，actual169×384/trust2，pending10圈和768角未采用；末不合格trial不能用。
 
-下一实际构造179×768，并保全部10905旧细点、全部pending/原费用/真实trust2继续metric；已付97q方向核和两个旧峰诊断不重跑。旧大尾失败有真实一jet放大，稳定求值本身未修好物理输入。只有完整工作几何与阶段metric都过门才提高p，最终目标p=.8；g设计变化不当固定g精化。
+[更密角网正式续算](notes/2026-11-26-r582-paid-local-tail-angular-continuation.md)已备并发布；实际构造179×768/fine1536，保全部10905旧细点、全部pending/原费用/真实trust2继续metric。新R604观察只复用已有几何，不改完整接受；已付97q方向核和七点旧诊断不重跑。旧大尾失败有真实一jet放大，稳定求值本身未修好物理输入。只有完整工作几何与阶段metric都过门才提高p，最终目标p=.8；g设计变化不当固定g精化。
 
 ## 5. 完整高度与非线性核心
 

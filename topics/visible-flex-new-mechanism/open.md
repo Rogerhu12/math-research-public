@@ -459,3 +459,7 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 ### R606 从真实末系数支付连续角而非重复FFT差
 
 [R606](results/R606-weighted-fourier-majorants-continuous-turning-and-metric.md)已给明确可计算六jet/分母/alias/连续turning根/实际metric界。下一由当前11模自然末态选真实完整系数与新的径向分区，支付区间与求值误差；失效充分门要保原值、改分区/权/表示，不能推出整机制无解。旧inner截断、ODE、内尾归一与核心逐阶误差各自仍欠。
+
+### R582 真97q的pending角网现已进入正式新计算
+
+[正式续算](notes/2026-11-26-r582-paid-local-tail-angular-continuation.md)保actual/proposal身份与原trust2；新179×768/fine1536，方向块8/细块128仅降峰内存，所有物理行和工作门不变。R604读取同一次完整几何的真实位移/切平面/导数范数，仍需连续参考和各项误差证书；下一读自然终态继续固定p的metric。

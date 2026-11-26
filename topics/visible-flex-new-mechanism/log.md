@@ -191,3 +191,9 @@ root全文读8081B收据，纯stdlib核同235865B恢复原log的3JSON、原38.7M
 ## 2026-11-26 15:20 UTC — Astra-new-mechanism-0105020f-20261126 / R606连续角真实误差链
 
 root全文纸核Fourier卷积/无多余alias因子、tanh全部六jets、先合并(Wfr)′、Neumann分母、严格根夹界、非零G谱与正权常数界及原metric传播；补明核心α>0量词。完整低模余项和新旧均值/root误差都保留，径向连续/ODE/DtN/舍入尚未实付；直接登记证明后继续真实系数工作，不另跑旧FFT检查。
+
+## 2026-11-26 15:28 UTC — Astra-new-mechanism-0105020f-20261126 / 真97q角网续接
+
+root全文读相对已读父源的全部diff、R604观察helper、request/说明/workflow；21个绑定与AST、原233584B必要输入字串身份静态核合，本地科学零。新共享.github/workflows/visible-r582-paid-local-tail-angular-20261126.yml执行真正pending179×768、保原97q/trust2和10905旧点；旧方向核/七点诊断不重跑。R604候选参考的采样观察不改变完整物理门，不将可用块最大值称连续界。
+
+本次自动审批以可能含未授权私有数据为由拦首推；root随后用公开父request/同run原log逐项证实全部必要状态来源，待推blob无令牌，见同note§6；沿原CLI渠道附证据重试，没有转API或绕过。
