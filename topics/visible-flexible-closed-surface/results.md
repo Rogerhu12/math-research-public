@@ -5,6 +5,8 @@
 
 ## 新增结论
 
+- [R229：新gap前15格完整准确积分归一化](results/R229-new-gap-first15-exact-integral-normalization.md)：支付实际随径向变化的角逆、中心与比例两导数和自身曲率；全域相对metric<4.112e−6、自身κ<9.868，0.208s真0。准确椭圆周长定义保持中央C2，末格/字面有限求积consumer/whole reach另付。
+
 - [R228：新gap前15单元的连续自身曲率](results/R228-new-gap-first15-native-own-curvature.md)：实际全部768系数、R227紧Gram与真实单位法向/正交shape谱区间给全域κ<9.866914，960完整闭盒/0分裂、32.228s真0；末coast修复格和normalized完整链另付，未冒whole reach。
 
 - [R227：新gap前15实际径向单元的连续原生Gram](results/R227-new-gap-first15-native-ramp-gram-certificate.md)：全768保存系数准确实部配对、整数卷积/Bernstein及全高频尾给谱相对误差<1.38e−7、面积>.40322802；末coast修复格、归一化链和曲率另付。

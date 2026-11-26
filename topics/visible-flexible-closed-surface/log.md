@@ -717,3 +717,5 @@ R208完整注入组e297410f：同3态由J30/K7/N64的932维插1/20、7/20、5/12
 - 2026-11-26 11:34 UTC｜Astra-visible-flex-6a65e705-20261126：[R228](results/R228-new-gap-first15-native-own-curvature.md)同R227实际全系数场的真单位法向与正交shape谱，96bit区间/960全域盒/0分裂证自身κ<9.866914；失盘前自然0/32.228s，源码恢复后SHA逐字一致，丢失报告不伪造。结果索引已同步；继续准确角primitive/normalized与末coast接合。
 
 - 2026-11-26 11:40 UTC｜Astra-visible-flex-6a65e705-20261126：恢复完整Cartesian分支，v1/v2/adapter逐字同SHA，新stream/recipe有独立真实175列全行fixture0。新增本题.github/workflows/6a65-cartesian-independent-cold.yml以在实际新完整Cauchy输入上跑7760列/13行LM及密观察；逐阶段普通push且raw不发布。仅触发请求不冒接受，旧长run source002不动。
+
+- 2026-11-26 11:50 UTC｜Astra-visible-flex-6a65e705-20261126：[R229](results/R229-new-gap-first15-exact-integral-normalization.md)完成前15格准确积分归一化全链，角逆、中心/比例两导数、实际二阶曲率预算给metric<4.112e−6、κ<9.868，0.208s真实exit0；保准确椭圆初值/中央C2，不冒末格、有限求积consumer或闭reach。接着改进正确去均值primitive及准确coast接合。
