@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R150 S0/Lt0的u=93/77整条原参数纤维为空（2026-11-27，已证明）：** [原子式全纤维返回与累计一元Bézout](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-parameter-leading-77e16-exclusion.md)逐项回乘 D(e,k,v)−D(16/77,k,v)=(e−16/77)H；154/163/173次完整Res_v的44次gcd仅为原k、T0、bc与已闭k4e/半权因子。全部重数实际剥至非零常数，累计三个原投影Bézout乘回；9.856205秒/98196KiB/exit0。可付77e−16；另如实登记H33大直接投影90秒SIGALRM，未判空且不重跑。
+
 - **R12 每个原 Haar 尾强不可约，任意普通不变空间无闭不变补空间（2026-11-27，已证明）：** [准确首位分块与逐尾幂等刚性](results/R12-appendix-all-original-tails-strongly-irreducible-and-ordinary-invariant-complements.md)对任意完整交换子幂等 E，原分块给(I−4α_m⁻¹B_(m+1)R²)R=0；前因子由真实拟幂零性可逆，迫 E=I₂⊗D。逐位到原纯Haar尾交仅余0/I。因此全部普通真不变M无闭A不变补空间，全交换子元素的谱连通；互补稠密不变对的和必非闭。未把强不可约作无普通不变空间，也不把连通谱作单点谱。
 
 - **R12 实际 Haar 有界头图的底空间无有界尾模补空间（2026-11-27，已证明）：** [实际像延拓与非零字符秩证明](results/R12-appendix-actual-haar-graph-base-has-no-bounded-tail-module-complement.md)若 L⊂K^k 支持原尾的有界 q 次根且由交换有界幂等 E 分裂，则 Y=TE 在整个尾上有界；下一尾字符中的非零幂等像含 r 个二Jordan块，q|r≤k，且行列式单位保证至少一个非零字符像。实际普通 M 的完整头根 q=N>k，故其有下界坐标闭像无任何闭尾不变补空间；幂等不必正交，未排除一般不分裂真像。

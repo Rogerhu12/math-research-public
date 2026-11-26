@@ -1,0 +1,176 @@
+{
+  "schema": "r150-Lt0-parameter-leading-77e16-return-v1",
+  "sourcePath": "notes/2026-11-27-unit211-S0-Lt0-parameter-leading-77e16-return-8542.py",
+  "sourceSha256": "ad723eb2aef6fd6ae292dddcf8e52e78ba1f27f1d76230c34205f11b80147a2b",
+  "sourceBytes": 20966,
+  "pythonVersion": "3.12.14",
+  "pythonFlintVersion": "0.9.0",
+  "command": "PYTHONPATH=/workspace/scratch/8542378f2b73/isp_pydeps python topics/invariant-subspace-problem/notes/2026-11-27-unit211-S0-Lt0-parameter-leading-77e16-return-8542.py",
+  "exitCode": 0,
+  "elapsedSeconds": 9.856204720999813,
+  "peakRssKiB": 98196,
+  "stdoutSha256": "be44208f4a63a6912e5660077df9eaeb0610d7ba4a3c4e4095116114a852a4b5",
+  "stdoutBytes": 18297,
+  "originalReturn": [
+    {
+      "stage": "original_minor_on_parameter_leading_boundary",
+      "rows": [
+        0,
+        4,
+        5
+      ],
+      "eValue": "16/77",
+      "degrees": [
+        16,
+        6
+      ],
+      "terms": 84,
+      "originalParameterIdentityMultipliedBack": true,
+      "onlyPaidDivisions": [],
+      "sha256": "a51771c9e39b11f534139b9e9875bd7ad93a041274a1ade632c69edb4edd6a7d",
+      "claimExcluded": false,
+      "seconds": 3.3450412459988
+    },
+    {
+      "stage": "original_minor_on_parameter_leading_boundary",
+      "rows": [
+        0,
+        3,
+        5
+      ],
+      "eValue": "16/77",
+      "degrees": [
+        19,
+        6
+      ],
+      "terms": 108,
+      "originalParameterIdentityMultipliedBack": true,
+      "onlyPaidDivisions": [],
+      "sha256": "40e34ddd362665cd5cf4fcd47cdf4ac21a745b1f87d6ec390fc67354a70217b4",
+      "claimExcluded": false,
+      "seconds": 3.3558748479990754
+    },
+    {
+      "stage": "original_minor_on_parameter_leading_boundary",
+      "rows": [
+        0,
+        3,
+        4
+      ],
+      "eValue": "16/77",
+      "degrees": [
+        21,
+        6
+      ],
+      "terms": 119,
+      "originalParameterIdentityMultipliedBack": true,
+      "onlyPaidDivisions": [],
+      "sha256": "e5856559ad5335997fc4c6a331f7554a04da63efdaf3188bc3b6ad2afbc419f1",
+      "claimExcluded": false,
+      "seconds": 3.3665929669987236
+    },
+    {
+      "stage": "original_minor_on_parameter_leading_boundary",
+      "rows": [
+        0,
+        1,
+        5
+      ],
+      "eValue": "16/77",
+      "degrees": [
+        22,
+        6
+      ],
+      "terms": 129,
+      "originalParameterIdentityMultipliedBack": true,
+      "onlyPaidDivisions": [],
+      "sha256": "e5b81b3d0b20af5aeb38f520f63c53ab0cc9a3bd48e222a61296dc4785f1c2d7",
+      "claimExcluded": false,
+      "seconds": 3.386436460999903
+    },
+    {
+      "stage": "full_original_parameter_boundary_resultant",
+      "otherRows": [
+        0,
+        3,
+        5
+      ],
+      "kDegree": 154,
+      "allVLeadingZeroFibersRetained": true,
+      "sha256": "58a0d3bd29c7fdd34c68e71bed756fd9b7ee81f6a313a8491bb4e37245172cb9",
+      "claimExcluded": false,
+      "seconds": 3.4409372359987174
+    },
+    {
+      "stage": "full_original_parameter_boundary_resultant",
+      "otherRows": [
+        0,
+        3,
+        4
+      ],
+      "kDegree": 163,
+      "allVLeadingZeroFibersRetained": true,
+      "sha256": "d8c16c12b4316f271751d3aaa656dde903f244a0aeed2b52e40df6f5b8c44122",
+      "claimExcluded": false,
+      "seconds": 3.5029312039987417
+    },
+    {
+      "stage": "full_original_parameter_boundary_resultant",
+      "otherRows": [
+        0,
+        1,
+        5
+      ],
+      "kDegree": 173,
+      "allVLeadingZeroFibersRetained": true,
+      "sha256": "55aa7448ca2eb0af04a27c2b78d5516c733ccd4542409e77296e5063e0f1ae5e",
+      "claimExcluded": false,
+      "seconds": 3.5863794359993335
+    },
+    {
+      "stage": "actual_QQ_k_parameter_boundary_Bezout_verified",
+      "gcdDegree": 44,
+      "coefficientDegrees": [
+        171,
+        162,
+        74
+      ],
+      "gcdOnlyPaidFactorRemovals": [
+        [
+          "k",
+          14
+        ],
+        [
+          "bc",
+          11
+        ],
+        [
+          "T0",
+          2
+        ],
+        [
+          "closed_half_weight",
+          4
+        ],
+        [
+          "closed_consistency_line",
+          2
+        ]
+      ],
+      "bezoutCoefficientsSha256": "589dc12c49ade50ae1730b601cda36ef60c7d3d85d2c68799e9c5b3d59dd0dc9",
+      "claimExcluded": true,
+      "seconds": 9.85553188599988
+    }
+  ],
+  "lastStage": {
+    "stage": "complete",
+    "scope": "entire S0 Lt0 77e-16=0 parameter fiber, after previously complete k4e/v0 exclusions; original lower and highest constraints retained",
+    "sourceSha256": "ad723eb2aef6fd6ae292dddcf8e52e78ba1f27f1d76230c34205f11b80147a2b",
+    "ordinaryISPClaim": false,
+    "claimExcluded": true,
+    "peakRssKiB": 98196,
+    "seconds": 9.856204720999813
+  },
+  "claimExcluded": true,
+  "ordinaryISPClaim": false
+}

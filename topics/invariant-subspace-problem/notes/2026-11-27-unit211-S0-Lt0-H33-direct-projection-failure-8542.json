@@ -1,0 +1,20 @@
+{
+  "schema": "r150-Lt0-H33-direct-large-projection-failure-v1",
+  "operation": "Res_k of the unique bidegree(33,21) factor of the paid Dixon/P045 projection and the full paid P045/P035 projection of bidegree(132,109)",
+  "sourceReconstructionBasis": "notes/2026-11-27-unit211-S0-Lt0-original-v-leading-zero-return-8542.py",
+  "basisSourceSha256": "9e17050e11f5b66eb06860423b863cf7a9088a2aba80fc3b0ae4df19e3fe6407",
+  "scratchDriverSha256": "f9d7e730420d68343887d0c4b37ba92a8db462a2597a6dac39839647a87577b3",
+  "driverBytes": 1693,
+  "alarmSeconds": 90,
+  "addressSpaceBytes": 4294967296,
+  "observedTermination": "shell reported Alarm clock (SIGALRM 14)",
+  "pythonNumericExitStatusCaptured": false,
+  "wrapperExitCode": 0,
+  "wrapperExitExplanation": "a following cat command returned zero; it does not report success of the Python calculation",
+  "lastCompletedStage": "read two input polynomials, no resultant returned",
+  "stdoutSha256": "e59f1b41be84ece8575713b63fe74d81e03cdf8ae45d6911fc2d43bd13af75e0",
+  "stdoutBytes": 198,
+  "claimExcluded": false,
+  "doNotRepeatSameDirectProjection": true,
+  "subsequentDifferentInput": "exact paid-leading pseudo-division modulo H33, 89 verified steps, produced degree(478,20) remainder; no new resultant was run on that remainder"
+}
