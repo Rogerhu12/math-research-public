@@ -1,0 +1,156 @@
+{
+  "schema": "r150-generic-original-two-linear-exact-atlas-v1",
+  "runId": 45818497162,
+  "jobId": 139904311723,
+  "execution": {
+    "elapsed_seconds": 0.353992513999998,
+    "max_child_rss_kib": 46676,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "abb271537c66e5cd38a75ee7305befd52adb4a2e",
+        "before": "3707eea2a0c64cdbd32b9966de2ed97fddcd11e8",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "fef43bdf8690f2eec4751d85784a266eacdd0322"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-26T12:19:17.159945+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "45818497162",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-347c-20261126",
+    "source_commit": "3707eea2a0c64cdbd32b9966de2ed97fddcd11e8",
+    "source_exit_code": 0,
+    "source_git_blob": "8fc825fd5a0d6267604c981e599f6e5f7b5d2e89",
+    "source_sha256": "9883b1421d6f75beef9ce221fdcc08de860e6b65bbf7fe271ee19a1c76304c9d",
+    "stdout_bytes": 7262,
+    "stdout_sha256": "699aeda722d444775b2c7257ab627adf1ae2972676b29672baf61d1a90c58952",
+    "stop_reason": null
+  },
+  "identities": {
+    "Delta": {
+      "degrees": [
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        6,
+        5,
+        5
+      ],
+      "sha256": "00cb6c02adafcc9dcdb1051647fc1ebbcf8cf1a423c93225a11186ef6bbdf1b7",
+      "terms": 176
+    },
+    "Fnum": {
+      "degrees": [
+        0,
+        0,
+        0,
+        2,
+        3,
+        3,
+        7,
+        6,
+        6
+      ],
+      "sha256": "91085513b70cd6edfd1b9002e2c6f19461f6cbf352f523d025974568d16a8bba",
+      "terms": 578
+    },
+    "Tnum": {
+      "degrees": [
+        0,
+        0,
+        0,
+        3,
+        3,
+        3,
+        7,
+        6,
+        6
+      ],
+      "sha256": "ed7806995f8924514ae29487c75e4975e30c33006dccfd4598062a2cd6e65db8",
+      "terms": 928
+    },
+    "claimExcluded": false,
+    "determinantZeroFiberRetained": true,
+    "elapsedSeconds": 0.08084,
+    "meanUnitBaseAlreadyExcluded": "2*u-q-1=0 in p=1 normalization",
+    "stage": "original_two_line_Cramer_identities_verified"
+  },
+  "fourParameterMinors": [
+    {
+      "claimExcluded": false,
+      "elapsedSeconds": 0.095695,
+      "name": "Delta",
+      "onlyOriginalPaidUnitsRemoved": true,
+      "profile": {
+        "degrees": [
+          12,
+          13,
+          13,
+          5
+        ],
+        "sha256": "25bb04b7be4e58da4d33745a6ef7ee03e42f9d3f1a973a45ee6ecb94a2f6498a",
+        "terms": 2398
+      },
+      "stage": "original_four_parameter_linear_minor"
+    },
+    {
+      "claimExcluded": false,
+      "elapsedSeconds": 0.141016,
+      "name": "Fnum",
+      "onlyOriginalPaidUnitsRemoved": true,
+      "profile": {
+        "degrees": [
+          16,
+          16,
+          16,
+          6
+        ],
+        "sha256": "db3ccfef10580efdf8ba4bb51e0ae70b6611d5266c3eaa0c4b9d2adbb073a019",
+        "terms": 6075
+      },
+      "stage": "original_four_parameter_linear_minor"
+    },
+    {
+      "claimExcluded": false,
+      "elapsedSeconds": 0.228835,
+      "name": "Tnum",
+      "onlyOriginalPaidUnitsRemoved": true,
+      "profile": {
+        "degrees": [
+          20,
+          19,
+          19,
+          6
+        ],
+        "sha256": "7778f72828c1125106612b9fefccfc24809a3b97feb4f4e3fe4fd587569f4098",
+        "terms": 9513
+      },
+      "stage": "original_four_parameter_linear_minor"
+    }
+  ],
+  "complete": {
+    "claimExcluded": false,
+    "determinantZeroFiberRetained": true,
+    "elapsedSeconds": 0.286709,
+    "ordinaryISPClaim": false,
+    "peakRssKiB": 46676,
+    "sourceSha256": "9883b1421d6f75beef9ce221fdcc08de860e6b65bbf7fe271ee19a1c76304c9d",
+    "stage": "complete_exact_original_linear_atlas",
+    "valueCollisionChartsStillSeparate": true,
+    "variables": [
+      "lambda",
+      "X",
+      "Y",
+      "q"
+    ]
+  },
+  "factorProductsRemultiplied": true,
+  "claimExcluded": false
+}

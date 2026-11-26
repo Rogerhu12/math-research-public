@@ -1,0 +1,119 @@
+{
+  "scope": "Actual QQ exclusion of entire primitive-phase central-H-infinity chart, all four source fibers verified",
+  "run_id": 45818497162,
+  "job_id": 139904312131,
+  "norm_gcd": {
+    "N_degree": 426,
+    "N_sha256": "2a3c622766abdedd9e32698b76130caec0cf750cca965000a0705940b261b262",
+    "P_degree": 284,
+    "P_sha256": "d8bb446b6df5227457f042218ec04f30b0b0ec09e76c57d59768e61d40d003ac",
+    "bezout_verified": true,
+    "gcd_degree": 128,
+    "seconds": 17.334125237999984,
+    "stage": "exact_triangular_norm_gcd"
+  },
+  "all_fibers": {
+    "factors": [
+      {
+        "degree": 1,
+        "factor": "x",
+        "multiplicity": 24
+      },
+      {
+        "degree": 1,
+        "factor": "x + (-4)",
+        "multiplicity": 6
+      },
+      {
+        "degree": 1,
+        "factor": "x + 12",
+        "multiplicity": 6
+      },
+      {
+        "degree": 2,
+        "factor": "5*x^2 + 36*x + 37",
+        "multiplicity": 46
+      }
+    ],
+    "scope": "all complex A-roots retained; no quotient-primary equivalence claimed",
+    "seconds": 17.334659997999978,
+    "stage": "all_elimination_fibers"
+  },
+  "verified_fibers": [
+    {
+      "certificate_sha256": "48ab0d395cab638b7d6f7be47812301e13d7bcb0ba48d1fa9a7667bd0651f540",
+      "dimension": 6,
+      "identity": "U^dimension=af*original_phase+bf*original_norm modulo (f(A),Qb,Cx)",
+      "index": 0,
+      "nonzero_coefficients": 3,
+      "rank": 3,
+      "seconds": 17.480650829999973,
+      "stage": "finite_QQ_fiber_verified"
+    },
+    {
+      "certificate_sha256": "7bdfedf441e73c25b029d3808f738de56125df309e97af78896a4437923e89b9",
+      "dimension": 6,
+      "identity": "U^dimension=af*original_phase+bf*original_norm modulo (f(A),Qb,Cx)",
+      "index": 1,
+      "nonzero_coefficients": 3,
+      "rank": 4,
+      "seconds": 17.63209289699998,
+      "stage": "finite_QQ_fiber_verified"
+    },
+    {
+      "certificate_sha256": "c1a04860961f205442ac8be3c01273beb421e9825e3432fee44da84fab5e421f",
+      "dimension": 6,
+      "identity": "U^dimension=af*original_phase+bf*original_norm modulo (f(A),Qb,Cx)",
+      "index": 2,
+      "nonzero_coefficients": 3,
+      "rank": 4,
+      "seconds": 17.78181090999999,
+      "stage": "finite_QQ_fiber_verified"
+    },
+    {
+      "certificate_sha256": "45fb6aceefbfd64312970a11ce1c468444b6e7a40c0d8bd93878762ea1e34815",
+      "dimension": 12,
+      "identity": "U^dimension=af*original_phase+bf*original_norm modulo (f(A),Qb,Cx)",
+      "index": 3,
+      "nonzero_coefficients": 6,
+      "rank": 6,
+      "seconds": 18.036144365999974,
+      "stage": "finite_QQ_fiber_verified"
+    }
+  ],
+  "complete": {
+    "ordinary_isp_claim": false,
+    "outcome": "all exact QQ necessary source fibers contradict original physical U!=0",
+    "seconds": 18.03631260399999,
+    "source_sha256": "fd594e1340b0a63b8c50ced8c52bca31ce75b0e2d843f66fd1cbd1d135b7f1e0",
+    "stage": "complete"
+  },
+  "execution_receipt": {
+    "elapsed_seconds": 18.35559639799999,
+    "max_child_rss_kib": 190212,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "abb271537c66e5cd38a75ee7305befd52adb4a2e",
+        "before": "3707eea2a0c64cdbd32b9966de2ed97fddcd11e8",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "fef43bdf8690f2eec4751d85784a266eacdd0322"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-26T12:19:13.205372+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "45818497162",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-347c-20261126",
+    "source_commit": "3707eea2a0c64cdbd32b9966de2ed97fddcd11e8",
+    "source_exit_code": 0,
+    "source_git_blob": "f67005f96502947b66af3ee9789622e92992b48c",
+    "source_sha256": "fd594e1340b0a63b8c50ced8c52bca31ce75b0e2d843f66fd1cbd1d135b7f1e0",
+    "stdout_bytes": 15361,
+    "stdout_sha256": "f165bacee3f56d0d43633a38239f29afb35ecfb84ea5195cd97bf122fae5639c",
+    "stop_reason": null
+  }
+}

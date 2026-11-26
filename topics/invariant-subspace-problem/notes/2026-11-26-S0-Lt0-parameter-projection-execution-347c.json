@@ -1,0 +1,178 @@
+{
+  "schema": "r150-unit211-S0-Lt0-actual-parameter-projection-v1",
+  "runId": 45815953727,
+  "jobId": 139895616657,
+  "sourceBlob": "72132f927eaa2c26a683a0a9202863cb5b48b596",
+  "sourceBytes": 3103,
+  "sourcePath": "topics/invariant-subspace-problem/notes/2026-11-26-unit211-S0-Lt0-original-parameter-projection-347c.py",
+  "driverReceipt": {
+    "elapsed_seconds": 0.10410643900000238,
+    "max_child_rss_kib": 39412,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "3a751a836c60a4f33efa9e0ddd3060a188621adc",
+        "before": "bafa9883e0cf79eac8a9b82a14f15d2615c43bcd",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "fef43bdf8690f2eec4751d85784a266eacdd0322"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-26T12:02:46.428470+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "45815953727",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-347c-20261126",
+    "source_commit": "bafa9883e0cf79eac8a9b82a14f15d2615c43bcd",
+    "source_exit_code": 0,
+    "source_git_blob": "72132f927eaa2c26a683a0a9202863cb5b48b596",
+    "source_sha256": "bc4d9b7314f826b4edc5757e9119b7301d484136d7e92d1efbfee4b62d624c23",
+    "stdout_bytes": 21053,
+    "stdout_sha256": "98293eaeb9bdd67182af37b01a7661d69bd6d0127d490bcd4983e345e6b6db56",
+    "stop_reason": null
+  },
+  "sourceElapsedSeconds": 0.041178,
+  "sourcePeakRssKiB": 38728,
+  "LtPolynomial": {
+    "degrees": [
+      8,
+      5,
+      2
+    ],
+    "terms": 80
+  },
+  "compatibilityPolynomial": {
+    "degrees": [
+      16,
+      10,
+      4
+    ],
+    "terms": 456
+  },
+  "pseudoSteps": 3,
+  "linearRemainder": [
+    {
+      "degrees": [
+        27,
+        21,
+        0
+      ],
+      "terms": 328
+    },
+    {
+      "degrees": [
+        28,
+        21,
+        0
+      ],
+      "terms": 345
+    }
+  ],
+  "commonRemainderFactorization": {
+    "content": "1/192",
+    "factors": [
+      {
+        "exponent": 1,
+        "polynomial": "192*lam^4 + 96*lam^3*z - 624*lam^3 + 12*lam^2*z^2 - 236*lam^2*z + 776*lam^2 - 4*lam*z^2 + 196*lam*z - 442*lam + 4*z^3 - z^2 - 62*z + 100",
+        "profile": {
+          "degrees": [
+            4,
+            3,
+            0
+          ],
+          "terms": 13
+        },
+        "sha256": "8634d9e245b4b05077d8ee04721f81547dd754a92ce90c9f2cb5faa013066be2"
+      },
+      {
+        "exponent": 5,
+        "polynomial": "z",
+        "profile": {
+          "degrees": [
+            0,
+            1,
+            0
+          ],
+          "terms": 1
+        },
+        "sha256": "951a9014873bfbb92266685db59c271e496f93fea267be9466833765c467e751"
+      }
+    ]
+  },
+  "linearCoefficientsAfterCommon": [
+    {
+      "profile": {
+        "degrees": [
+          23,
+          13,
+          0
+        ],
+        "terms": 236
+      },
+      "sha256": "7f2963c4b45515cdb5b1319e5112fc38fe7e2d40292a2cd9deb249d8cacdd5f0"
+    },
+    {
+      "profile": {
+        "degrees": [
+          24,
+          13,
+          0
+        ],
+        "terms": 251
+      },
+      "sha256": "2fc72e29adb22234fdaed9c9278cb1ae8c51f9f4b0cdd50fb0c3bb948e5693c4"
+    }
+  ],
+  "originalResultantFactorization": {
+    "content": "256",
+    "factors": [
+      {
+        "exponent": 1,
+        "polynomial": null,
+        "profile": {
+          "degrees": [
+            26,
+            12,
+            0
+          ],
+          "terms": 263
+        },
+        "sha256": "f242374fc82835330a309061c0169d3699f7c455e4c8636aea1871137fb00a37"
+      },
+      {
+        "exponent": 2,
+        "polynomial": "192*lam^4 + 96*lam^3*z - 624*lam^3 + 12*lam^2*z^2 - 236*lam^2*z + 776*lam^2 - 4*lam*z^2 + 196*lam*z - 442*lam + 4*z^3 - z^2 - 62*z + 100",
+        "profile": {
+          "degrees": [
+            4,
+            3,
+            0
+          ],
+          "terms": 13
+        },
+        "sha256": "8634d9e245b4b05077d8ee04721f81547dd754a92ce90c9f2cb5faa013066be2"
+      },
+      {
+        "exponent": 14,
+        "polynomial": "z",
+        "profile": {
+          "degrees": [
+            0,
+            1,
+            0
+          ],
+          "terms": 1
+        },
+        "sha256": "951a9014873bfbb92266685db59c271e496f93fea267be9466833765c467e751"
+      }
+    ]
+  },
+  "status": "exact_original_necessary_parameter_factors_generated",
+  "unpaidBranchesRetained": true,
+  "claimExcluded": false,
+  "claimS0LayerEmpty": false,
+  "claimLambdaLayerEmpty": false,
+  "ordinaryISPClaim": false
+}

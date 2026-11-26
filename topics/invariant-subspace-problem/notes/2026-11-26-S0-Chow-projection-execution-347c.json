@@ -1,0 +1,117 @@
+{
+  "schema": "r150-unit211-S0-Chow-actual-projection-execution-v1",
+  "runId": 45815953727,
+  "jobId": 139895617058,
+  "sourceBlob": "0ada29eae406fa3c9553837a557b44530de7b8e4",
+  "sourceBytes": 13819,
+  "sourcePath": "topics/invariant-subspace-problem/notes/2026-11-26-unit211-S0-lazy-original-Chow-projections-347c.py",
+  "sourceReport": {
+    "claimExcluded": false,
+    "claimLambdaLayerEmpty": false,
+    "claimS0LayerEmpty": false,
+    "elapsedSeconds": 26.471018,
+    "inputSha256": "0e9b97510ea6611e122210a58a51b18b266174d6813011a10237174522ccab3c",
+    "ordinaryISPClaim": false,
+    "peakRssKiB": 186804,
+    "projectionHistory": [
+      {
+        "ChowPolynomial": {
+          "degrees": [
+            210,
+            84
+          ],
+          "terms": 14106
+        },
+        "ChowSha256": "61fc40f181e395a6181d5bd060a9280a6b0aef955eff334763667faecc8e3405",
+        "commonParameterCurve": {
+          "degrees": [
+            0,
+            0
+          ],
+          "terms": 1
+        },
+        "pair": [
+          "E1",
+          "EBe"
+        ]
+      },
+      {
+        "ChowPolynomial": {
+          "degrees": [
+            208,
+            84
+          ],
+          "terms": 13936
+        },
+        "ChowSha256": "f2f6f2b4c0212b94fd5d702d63cfaff58f7306700c62026bb06ae26c22fa7f7b",
+        "commonParameterCurve": {
+          "degrees": [
+            0,
+            0
+          ],
+          "terms": 1
+        },
+        "pair": [
+          "E1",
+          "EBo"
+        ]
+      },
+      {
+        "ChowPolynomial": {
+          "degrees": [
+            202,
+            82
+          ],
+          "terms": 13187
+        },
+        "ChowSha256": "3a9a4b43224163a7133fc21ec8de17887f2a04a3f59a77e832ab21438c35a04c",
+        "commonParameterCurve": {
+          "degrees": [
+            0,
+            0
+          ],
+          "terms": 1
+        },
+        "pair": [
+          "EBe",
+          "EBo"
+        ]
+      }
+    ],
+    "schema": "r150-unit211-S0-nonsimultaneous-native-two-parameter-v1",
+    "sourceSha256": "a83036aa396bd2e5d2662c394ab5ba0c0686aaebd11aa81eca9f86dd5297d959",
+    "status": "exact_original_Chow_projections_generated_candidates_unresolved",
+    "universalFinitePointIdentityVerified": true
+  },
+  "driverReceipt": {
+    "elapsed_seconds": 26.555903205,
+    "max_child_rss_kib": 186804,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "3a751a836c60a4f33efa9e0ddd3060a188621adc",
+        "before": "bafa9883e0cf79eac8a9b82a14f15d2615c43bcd",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "fef43bdf8690f2eec4751d85784a266eacdd0322"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-26T12:02:47.805836+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "45815953727",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-347c-20261126",
+    "source_commit": "bafa9883e0cf79eac8a9b82a14f15d2615c43bcd",
+    "source_exit_code": 0,
+    "source_git_blob": "0ada29eae406fa3c9553837a557b44530de7b8e4",
+    "source_sha256": "a83036aa396bd2e5d2662c394ab5ba0c0686aaebd11aa81eca9f86dd5297d959",
+    "stdout_bytes": 4535,
+    "stdout_sha256": "dabd1502a13a16f7664c6a7ecf9703c6dd3972f8a72bb36502be5764a7f72eea",
+    "stop_reason": null
+  },
+  "fullNineRationalInputVerifiedSeconds": 12.987752,
+  "scope": "S=Af=0,L!=0,(I,H)!=0, all original nine; necessary conic-line projections only",
+  "claimExcluded": false
+}
