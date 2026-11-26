@@ -6,7 +6,7 @@
 
 ## 1. 规则与接手
 
-已部分克隆并实际 `git pull main`，公开根 README、课题 README、HANDOFF、open、results 索引及相关 log/notes 已读。公开已读提交 **404db7f0c2741145b5273fba28512d0cfa22a1e6**（2026-11-26 15:02 UTC；本次实际pull后根/题README空差异）；历次规则及失败原回执保原note；私有 QUEUE 的本题已改为本会话进行中并成功推送：**9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7**；最后实际pull及规则同blob读至 **eb50c8fd3ab1cf615431316cb43294851d4b9f0b**（2026-11-26 15:02 UTC；实际pull成功，根README空差异、QUEUE仍本会话）。其它课题的并行认领保留。
+已部分克隆并实际 `git pull main`，公开根 README、课题 README、HANDOFF、open、results 索引及相关 log/notes 已读。公开已读提交 **312b5fbd802a0376b8e785c38eb4d474e47a54ae**（2026-11-26 15:05 UTC；本次实际pull后根/题README空差异）；历次规则及失败原回执保原note；私有 QUEUE 的本题已改为本会话进行中并成功推送：**9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7**；最后实际pull及规则同blob读至 **f3d090c0ac9cdf0ea201555f81183bd77347c9fc**（2026-11-26 15:05 UTC；实际pull成功，根README空差异、QUEUE仍本会话）。其它课题的并行认领保留。
 
 [八模前交接](notes/HANDOFF-before-eight-mode-natural-final-20261126.md)及其所链前史保全部原规则/成本/范围；09:18、11:20 UTC失联/恢复原账保留；13:54第三次失联后未发布源码仅作不可变checkpoint。root指定临时branch的CLI发布器实际clone/pull/rebase/push，双库规则读账按真实运行更新，API读取不冒pull。每pull核根/题README差异并执行，至少每小时；root独占git/索引，每条结论即推，NFF立即rebase重推。科学仅公开Actions，本地限纸证/源码/原日志解析；已披露4次开发偏离保原note及[恢复记录](notes/2026-11-26-r582-necessary-input-recovery-original-receipt.md)且停止。根12不加机械复跑，根15不留可重算raw。
 
@@ -24,7 +24,7 @@
 
 [true-s原终态](notes/2026-11-26-r582-true-core-shooting-original-terminal-receipt.md)保run45812850055新31.672817549秒、真实μν/归一口、两精度C/A<1e−12和4811细几何V0。原ν0盒全s∈[.036,.82]付zs>.0078518，H包络宽1.817e−6、准确ODE/根未认证；amax.3891>.38故保完整s图。新有限p从.181续到.8，保旧细点/硬几何，终η门1e−7，数值Hermite零尾与数学无限核差未认证。
 
-[首失败](notes/2026-11-26-r582-finite-resonant-first-original-receipt.md)付70.621876255秒，内场完成后冗余H积分报错；[radius-only原终态](notes/2026-11-26-r582-finite-radius-only-original-receipt.md)run45827253372另付214.678352088秒，固定p=.181/ε=.001，15outer/43callback后失败。10835×384细η.99600、κ8413.03、V509.839；只1次V约7.7e−12的工作恢复，实际q已变1.425e−5，末q不合格。eta峰是材料端点，不能只归因于区间二导相消；下一同p保全部旧点，以稳定表示/真实尾部新列续，不重跑旧15outer。
+[旧有限失败](notes/2026-11-26-r582-finite-radius-only-original-receipt.md)保首70.621876255秒/后214.678352088秒、真81q/124圈/10835细点与全部前史；原同p=.181下η≈.996/κ8413并非口上界可控制，旧15outer不重放。
 
 [R577/R579全reach与厚核心](results/R579-smooth-thick-rounded-core-with-exact-perimeter-and-macro-budget.md)及[R595](results/R595-rotational-reach-and-complete-meridian-reduction.md)/[R599](results/R599-monotone-height-flat-cap-global-reach.md)保完整±子午/上下帽充分证书；真实圆背景仍欠全尾正图/半径/连续κ，非圆q不继承。
 
@@ -54,7 +54,7 @@
 
 [九参数原mass首终态](notes/2026-11-26-r603-vtwo-first-mass-public-receipt-agent.md)run45839778794真付180.569685459主秒/181.470336墙秒，50接受/51全态/77219LSMR；末原ruling6.2885e14、BC.68010，未加密。guide中心准备准确但全程正势5.2986e14；末插值真导数差5.8568，focal/Dsample .024786<.03。下一改变全程能量/二维记忆路径与BC组织，不延长同九族。
 
-[必要输入已恢复](notes/2026-11-26-r582-necessary-input-recovery-original-receipt.md)：原raw/FINAL与81q/124圈/10835细点准确同源，科学0。已发布[97q真实尾列](notes/2026-11-26-r582-stable-material-local-tail-continuation.md)：同p=.181，同端点quintic稳定求值，16真实尾形列；完整旧细点/硬几何与原费用保留，新空间trust1明确重置，不重放旧15outer。下一据自然终态续。
+[97q首个真实细网恢复](notes/2026-11-26-r582-local-tail-first-original-terminal-receipt.md)run45842923121付125.663352586秒、17恢复接受；同p=.181，10905×768细网工作V0、η.000433487、κ16.45257，未过2.5e−7。真实97q SHA815b1168，actual169×384/trust2，pending10圈与768角尚未采用；末trial不作输入。下一179×768保全部旧细点/费用续metric，已付方向核/旧峰诊断不重跑；原大尾失败主要来自真实一jet幅度，不归咎插值相消。
 
 ## 6. 持续工作
 

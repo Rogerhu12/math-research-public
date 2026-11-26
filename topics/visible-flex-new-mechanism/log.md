@@ -171,3 +171,7 @@ root全文读14KB纯stdlib原log恢复器与workflow/request/说明，2绑定和
 ## 2026-11-26 15:02 UTC — Astra-new-mechanism-0105020f-20261126 / 11模完整核心与同一均值高度
 
 root全文读原36KB源/9KB高模helper/说明/请求并读最终canonical补丁；直接交叉核旧字段与local额外4列、后置force、13绑定/AST/CLI，没有本地科学。原旧tanh按θ网取均值的语义差本轮已改固定512同函数f/fr/frr，实际场变化与费用明确；新增.github/workflows/visible-r602-eleven-core-completed-20261126.yml发真正新11模，非旧门重跑；97q note仅改美元公式排版。
+
+## 2026-11-26 15:05 UTC — Astra-new-mechanism-0105020f-20261126 / 97q完整细网首次恢复
+
+root全文读8793B收据，并纯stdlib从同6608903B原log核raw/413785B FINAL身份和19Jac/17恢复接受；真实V0、未过metric及角cap未应用pending分清。新尾v列才修复巨大有限一jet，稳定表示本身没有修好旧候选；全部已付成本保留，下一续真实97q/179×768候选网及原trust2，旧核/比较不重复。
