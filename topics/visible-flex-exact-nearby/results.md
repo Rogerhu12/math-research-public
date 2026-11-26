@@ -327,3 +327,5 @@
 - [PH：紧mean中心的实际全正侧given-head高逆](results/R144-supplement-actual-positive-high-graph-for-compact-centres.md)：相对全局Riccati付主部、完整M32 remainder正预算转移，50个saved有理比较过；两窗口body<.305/.792、interface<.000586/.015293，root<.442/3.902，完整七端口及真实raw outer全付。原低193/S不改，full low-high/finite/ν/非线性另付。
 
 - [DT：原同sign source Toeplitz与完整Theta行作用](results/R149-supplement-original-same-sign-source-Toeplitz-and-Theta-row-action.md)：以WBN14纠正DB一句全PαP记号，原bound不变；正输出仅正输入卷积、负频共轭、96行/全alpha模型误差和原Gbar one-loss保持。未新增不同source normalizer，未重IR，真正alpha/Theta/fullSchur待。
+
+- [TH：完整低范数tame body/真ν Hessian与保mean平滑](results/R144-supplement-complete-low-norm-tame-Hessian-and-mean-preserving-smoothing.md)：29个saved有理组合给whole B6/G14及真metric导数；所有s≥0仅一高因子，ρ≤1e−4源579/215、mean115.327，PH三输出已接。原raw jumps Hessian0而affine data全留；physical边界Hessian/变背景full逆/收敛迭代待。

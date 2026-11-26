@@ -169,8 +169,6 @@ R143 correlated body已全4651；R146全418/13376使当前CV/RA根费格式失�
 
 R149 signed-loop与[CP/physical](notes/2026-11-26-physical-scalar-execution.md)已接原77/PS85及NS真四源/point；六球后失败只读已成whole，原/PS scope分别核。PS须六球/目标/155母格原子完成，ε未知不启signed-loop，数学尾/trace/HS/θ/γ不变。
 
-
-
 原同φ坐标资格、mean/世界锚及全部scope保[eb774fb原open](https://github.com/Rogerhu12/math-research-public/blob/eb774fb06c6cb6dc51ffac0b31e5ebe833f359b1/topics/visible-flex-exact-nearby/open.md)与原proof。
 
 LC完整27球与sameφ门保原proof及上表，future GC修正仍须另付。
@@ -179,9 +177,10 @@ TC45889161044/1首signed矩阵/waist目标已成，全残差继续；[恢复记�
 
 [JC实际七球](results/R149-supplement-actual-joint-compound-waist-row-error.md)45887337009/1给完整96行误差<8.556891e−5、全homotopy lower>.9836159091670；原DFT/means/alias全保，SC直接消费，不授signed矩阵或fullSchur。
 
-
 [DC](results/R149-supplement-same-sign-density-compression-and-finite-Theta-rows.md)给C双逆H−1/2≤1与VQ全L²行；[DB](results/R149-supplement-complete-Theta-row-regularity-and-negative-window-density-inverse.md)以true p的C³付H¹dual/C^-1 H−4/3，保CG gain。[IL actual](results/R149-supplement-actual-original-inverse-density-lift.md)四球已成；[SDI](results/R149-supplement-actual-small-density-inverse-constants-and-Theta-errors.md)得真p′>.9749、p″<1/6、p‴<24，KC,-4/3<5/2、全Θ joint误差因子1071/1000；[IR](results/R149-supplement-complete-inverse-density-row-residuals.md)以同一96 signed head付H−1/2/L²全残差，全部alias/tail/true-map/两sign保；IR50/6实际入口已齐，99自然目标/两norm同次完整认证；actual rows与alpha signed/Θ另付，原means/fullSchur保。
 
 [PA](results/R144-supplement-complete-positive-hybrid-adapter-for-compact-centres.md)保原S/Green/root97/outer96/point与完整四block。whole positive相对speed<1.893e−7，core raw low/high→low<.002130/.003499；cross仅97..160且mean行列0，direct high源/jump0不消返回高响应。下一项是whole low perturbation receiver及直接高principal/Riccati更新，原H1/3源界不能免费吸收一阶项。
 
 [DT](results/R149-supplement-original-same-sign-source-Toeplitz-and-Theta-row-action.md)纠正DB单句Tα记号：原WBN14为两same-sign Toeplitz，非全PαP。DB/SDI用到的自伴/完整norm界均不变；新有限signed A*G行只同sign卷积，全alpha误差与Θ one-loss独立支付，旧IR输入不改。
+
+[TH](results/R144-supplement-complete-low-norm-tame-Hessian-and-mean-preserving-smoothing.md)完整raw body/真ν Hessian已付，low A0小而每项仅一高范数；源579ρX4/3、215ρX1/3及mean115.327ρL²全保。变背景full逆、physical chart/phase Hessian和可求和迭代仍待。
