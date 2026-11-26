@@ -19,6 +19,8 @@
 
 - [R953](results/R953-original-parity-first-bockstein-injectivity-and-integral-exponent-one.md)：同一实际g/原目标单位/完整52跨界下，全部同parity核共用最近F^m，m5..8。合法原格factor lift保T/v，五行真实首carry经有限逆Taylor给180/−162/90/−35；低13行先迫k≥0，两点逐次减jT真除F得到矛盾。自然x∈(9/41,2/7)时每parity块首次Bockstein单射、满列且全部Smith指数0/1；全矩阵至少ceil(n/2)个指数≤1，前nε指数和≤dimKε。不加两块像，跨parity修正和q1仍开。
 
+- [R954](results/R954-original-full-kernel-basepoint-chain-and-mixed-parity-rank.md)：直接处理整个五块首核含q1/混合奇偶。实际ideal(t^N,t^ell X^4,X^5)给累计Gauss≥5q；真实固定重数分≤11/≥12，以全部tame根/Jensen/交数和原forcing得νq(A)≤√(3qA²)+√(88qD)+8D，不作逐点cap5。剩余移动系统的实际基点平方损失与积分Cartier/Hopf及pencil给统一全H0界，误差O(D^(3/2))已付。自然x11/47全单位rank/n≥√(705/398)−633/796>1/2，不加两块像。尚无坏中央强迫的额外全深核族，不据此宣称β单射或无穷性。
+
 ## 当前几何计算入口
 
-[R942§11](results/R942-original-split-scalar-preimages-and-whole-module-elimination.md)已证明完整Popov与单列shift的全程多项式次数界，以及全部附加源的独立次数界。它修复单F v2的实际HNF瓶颈，公开小API与生产门分开登记；原四交/全部厚Norm/shadow没有预记PASS。
+[R942§11](results/R942-original-split-scalar-preimages-and-whole-module-elimination.md)已证明完整Popov与单列shift的全程多项式次数界，以及全部附加源的独立次数界。它修复单F v2的实际HNF瓶颈，公开小API与生产门分开登记；§13又付完整306 W基和全部厚ideal两图运输，两个独立小API实际成功；原四交/全部厚Norm/shadow没有预记PASS。
