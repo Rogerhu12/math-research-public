@@ -49,3 +49,7 @@ manifest11815B/SHA b697e8665801a6e4d5120ca312d72a339cc28a2516d6dabd255f56ee79690
 ### 2026-11-26 — 启动独立 common 高输入的完整WPN四源界
 
 Root审完CX证明、pure math、owner/worker/generator和25whole pins。原WOB.24明确C_R0是sqrt(真区间长)，L.18参考mean子列给||q||L²≤dB；据此用真153×160投影的cellwise Poincare付tail，无新Smax目标。x为同一selected frozen Xfr_H−4/3单位球，17独立数据零有原式，e完整193及state mean保，aux Ec*e不当零。完整源码/manifest SHA逐项元数据核；source4逐candidate整读回contains才completed，P消费正式savedB/E。manifest10328B/SHA3f0126adb30311dbafd9437d710531f8a7612bd655983daf64d8560403f2d034，320bits，900s math/1200s child/30min job，无自动科学retry。规15容量在94f4e01精确198982209B，全包约104KB，预留新输出及active任务；旧科学0。真实newrun待自然push启动，未预填值/不授full逆。
+
+### 2026-11-26 — common4 首次启动的 YAML 解析修复（无科学执行）
+
+首run45783284224及随后同坏定义的自动解析记录全部jobs=[]，没有worker/科学child/consumed marker。定位pip plain scalar中--only-binary=:all:后的colon-space为YAML语法；改为run块标量，generator相同模板同步，重新绑定generator bytes/SHA/blob和manifest fe1ef17c743c480f9bef6494723b43dca2cba7798fb2cac693eb843c4d527d70。其余24输入、owner/worker/math/公式和目标完全不变；未重复任何旧/新科学，仅允许首次实际执行。

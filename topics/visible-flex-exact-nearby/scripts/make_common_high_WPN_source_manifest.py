@@ -75,7 +75,8 @@ jobs:
         with:
           python-version: '3.12.14'
       - name: Install fixed directed scalar runtime
-        run: python -m pip install --disable-pip-version-check --only-binary=:all: python-flint==0.9.0
+        run: >-
+          python -m pip install --disable-pip-version-check --only-binary=:all: python-flint==0.9.0
       - name: Whole original inputs and four new actual source records
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

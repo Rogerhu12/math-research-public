@@ -1,12 +1,12 @@
 # 交接：可见振幅的精确闭等距族
 
-维护会话：visible-exact-astra-198c63d-20261126；更新：2026-11-26 08:27:07 UTC。
+维护会话：visible-exact-astra-198c63d-20261126；更新：2026-11-26 08:31:01 UTC。
 **总任务未完成，继续研究，不等用户回复。**
 
 ## 规则、接续与当前环境
 
 已部分浅克隆/pull并完整读根和课题README、原H/open/log及续点notes。私库QUEUE认领已推 f90ec8e0116c67cbc32c03342e6a8d2aee0ccb41。
-本次两README确认至 f4f6b36dc67e4e2d131378ca28b2c97f954ad0f0：每次更新前均比较上次已推提交至最新main，未见两README改动；本课题的实际新增以下列记录为准。此前终端pull后的规则差异亦为空。
+本次两README确认至 01e0bd789f42b03088958b1dfb9d5eafb0c97b92：每次更新前均比较上次已推提交至最新main，未见两README改动；本课题的实际新增以下列记录为准。此前终端pull后的规则差异亦为空。
 2026-11-26 05:48 UTC起执行环境unavailable，无法再做终端pull/push；按根规8暂用GitHub集成读取main、比较规则和提交每件<100KB小文本，不向API传令牌。环境恢复后立即终端pull --rebase、核两README并继续；至少每小时检查一次，非FF立即重取main并重接，绝不force。
 
 本地原路径 /tmp/visible-exact-astra-198c63d15049/math-research-public，工作区有同名软链接；无AGENTS。环境恢复前不能声称磁盘待提交文件已推。公开Actions不依赖该执行环境，R142与固定η0新积分均在运行。
@@ -34,7 +34,7 @@ geometry43584188751/26仅在同η0真wholecore含帽C0≤1e−4、|δν|≤1e−
 
 9. **[CD紧支撑密度补偿](results/R144-supplement-compact-density-quadratic-mean-compensator.md)已证，尚无actual。** 固定u，jξ=1+(1+ξχ)(j−1)，χ支持[1/20,9/50]且C5；Yξ=Y0+ξA+ξ²B，A/B≤0、|B|≤|A|/2。真实正测度V与|D_R|<a_-ρ(1−ρ/2)才唯一小根；wholeY/j正性、physical同角C0、ξχ′非mean源与全部raw jump逐项保留。外端完整pointstate恢复仅原残差，radialjet仍−jR0；支撑外terminal公式保原signed源/atoms。新[suffix状态规约](notes/2026-11-26-R144-fixed-eta0-mean-suffix-state-spec.md)保W/G/A_D/D0整球及wholeprefix诊断/真实cursor，只有实际未完成才能续；不造新run或数值。
 
-10. **[CX真实common高源单位球](results/R149-supplement-common-high-WPN-source-unit-ball.md)与实际4入口本次启动。** 同x∈Xfr_H−4/3，F=V0Φx、e=−(V0RΦ−BRHΥ)x，独立17槽零有原身份，state外mean及aux Ec*e保。whole WOBSA/D/WVC+六原件给B=hypot(Bx,t0 dB KΦ)、E=Dx、P=hypot(B,E)、T=max(h*,√h*dB)KΦ/π，非fake Smax。25pins，manifest SHA3f0126adb30311dbafd9437d710531f8a7612bd655983daf64d8560403f2d034；320bits/四球candidate读回，旧科学0。无需未来58/224/32；此刻无actual值，待本唯一workflow真实输出。
+10. **[CX真实common高源单位球](results/R149-supplement-common-high-WPN-source-unit-ball.md)与实际4入口本次启动。** 同x∈Xfr_H−4/3，F=V0Φx、e=−(V0RΦ−BRHΥ)x，独立17槽零有原身份，state外mean及aux Ec*e保。whole WOBSA/D/WVC+六原件给B=hypot(Bx,t0 dB KΦ)、E=Dx、P=hypot(B,E)、T=max(h*,√h*dB)KΦ/π，非fake Smax。25pins，manifest SHAfe1ef17c743c480f9bef6494723b43dca2cba7798fb2cac693eb843c4d527d70；320bits/四球candidate读回，旧科学0。无需未来58/224/32。首45783284224在YAML解析失败、jobs=[]/科学0；仅修pip含colon-space的block scalar并重绑generator/manifest，待首次真正child。
 
 ## 未付的总接口
 
