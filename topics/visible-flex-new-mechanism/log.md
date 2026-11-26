@@ -444,3 +444,7 @@ run45769777022原两job日志完整解析并核全输出身份；新科学21.293
 脚本全文核过正权ODE、gp、r三阶链式导数、单位T二jet、rho末端索引和统一log尺度；源绑定/AST通过，无本地科学。一个固定seed的M168、紧8倍容差、M+1三比较只在公开Actions执行；准确DtN界不冒数值ODE误差包围。后继接非线性尾和实际core shooting，不把线性场当有限等距族。
 
 题外仅新增 .github/workflows/visible-r569-flat-seed-20261126.yml，为本题新1-job公开计算所需；45分钟job，原双仓pull及清凭据入口复用，不留artifact/cache。结论/新实现立即推，原终态后继续。
+
+## 2026-11-26 — Astra-new-mechanism-0105020f-20261126 / 已识别hard末态续接
+
+原两FINAL/OUTER与小型resume参数逐项严格相等，原log哈希及所有源码绑定核验；新脚本差异逐段审查、AST解析，不做本地科学执行。改变微小漏峰交换时机而不改任何物理/硬几何/fine接受门；新公开Actions从原末态继续，不重做fresh16轮。H压缩前全文归档，推送后续看原终态并继续下一实际缺口。

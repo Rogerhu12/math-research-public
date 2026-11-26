@@ -6,7 +6,7 @@
 
 ## 1. 规则与接手
 
-已部分克隆并实际 `git pull main`，公开根 README、课题 README、HANDOFF、open、results 索引及相关 log/notes 已读。公开已读提交 **f079a358572afae76310c3e6865b7d281cad1f77**（2026-11-26 06:51 UTC；本次实际pull后根/题README空差异）；私有根初读 **85fdf1853367ef25c07f3ebdb6ae25c22a3564b8**，随后逐次 pull/rebase 检查根差异，空差异。私有 QUEUE 的本题已改为本会话进行中并成功推送：**9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7**；最后实际pull及规则同blob读至 **f269d5ce0269dc4eb2580f48cfcb76932f868452**（2026-11-26 06:37 UTC；实际pull/rebase后根README空差异、QUEUE仍本会话）。其它课题的并行认领保留。
+已部分克隆并实际 `git pull main`，公开根 README、课题 README、HANDOFF、open、results 索引及相关 log/notes 已读。公开已读提交 **e0484f6512f54254f56cb1c5617fb9bc07a45f9e**（2026-11-26 07:11 UTC；本次实际pull后根/题README空差异）；私有根初读 **85fdf1853367ef25c07f3ebdb6ae25c22a3564b8**，随后逐次 pull/rebase 检查根差异，空差异。私有 QUEUE 的本题已改为本会话进行中并成功推送：**9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7**；最后实际pull及规则同blob读至 **f269d5ce0269dc4eb2580f48cfcb76932f868452**（2026-11-26 06:37 UTC；实际pull/rebase后根README空差异、QUEUE仍本会话）。其它课题的并行认领保留。
 
 历史运行的真实双仓pull、规则blob与私队回执保在各原观察note；当前已核hard首run公开到be4d8f6d/6408017f、私有到201c93af/79f66052，根/题规则均无变化，QUEUE仍本会话。早期盘满、05:48环境失联及05:54重新部分克隆的完整记录保于[本次先前HANDOFF](notes/HANDOFF-before-hard-restoration-20261126.md)和log；已推成果无损，不能把失联时API读取冒作git pull。
 
@@ -25,9 +25,13 @@
 
 原 ring17、反射 R1、joint19、free36、prefix102、whole34、full51、full62 均已失败闭账，不重做。11-16 遗留的 `joint168-fixed-height-continuation` run **43925761699** 已实际终止：research job **133504652845** success，report job **133517748533** failure。[原 research 日志已闭账](notes/2026-11-26-geometry-continuation-agent.md)：唯一solver达时限，无OptimizeResult/候选/预测/actual；新1234.031220492秒，祖累计5018.790751846秒/147原full值。末非候选 trial 的曲率约46.2343而全域metric峰升至.7838387322；固定selected池漏新峰。report误把嵌套祖COMPLETE当current而失败。须改变全域约束覆盖/几何表示，不延长旧SLSQP，不升格末trial。
 
-### 新几何输入：O2b 逆设计
+### 新几何输入：O2b 逆设计与振荡尾
 
-[R565](results/R565-parallel-oval-core-exact-reach-and-amplitude-budget.md)已证平行椭圆柱reach恰r+q²/p。新固定p=17/20、q=r=3/20保持外轴A1/B.3、核心reach3/17；其周长/待设计度量与旧g不同。已发布新v2逆设计源码/请求：同时设计a,z和全角切向，C∞平坦端口、全体段metric峰交换；两lane为B=.3与.38，49×96、8×4控制、每轮60次/三轮，公开Actions run45765708829已正常终态但两lane科学失败，无新接受候选。源重建后完整解析jet与前向参数微分由两路纸面审查，未本地科学执行。[首run原观察](notes/2026-11-26-inverse-first-run-radial-fold-failure.md)：B.3/.38粗η约.083/.091，97×192同qη1.19855/3.78338，κ74208/26180，s=.421875漏径向近退化；ball>1.42、|y|>.52且h触.08。Jac差1e−9量级，主要是采样和软几何失效。仅失败trial，不沿原49圈软权重延长；下一硬不等式/径向交换并接新振荡尾。最后必须冻结新g再精化，完整连接和全闭reach仍欠。 [R566](results/R566-flat-oscillatory-cap-tail-and-graph-reach.md)另给固定有限公式的C∞全平振荡尾：rc=.22到r=.30，K无限简单变号，完整凸底域帽/尾graph片reach≥1/K0>.1832，K0=(75/8)e^(-5/2)+256e^(-4)。此片不含跨块reach。[R569](results/R569-fixed-oscillatory-tail-and-flat-infinitesimal-bending.md)在同一w上以单谷逆/精确DtN/收敛递推实际构造角频2全平非零无穷小等距场，固定开平帽；全部导数exp(−c/δ³)，外端由真ODE决定。下一非线性和接核；X+tV仍非有限等距。[R569外端数值入口](notes/2026-11-26-r569-seed-numerical-interface.md)已备单job：M168、紧8倍容差与M+1同尺度比较、完整单位T二jet；只公开Actions执行，结果待原终态。[hard首run45769777022](notes/2026-11-26-hard-exchange-first-run-restoration.md)两lane自然结束，37.974705078新科学秒；16外层均恢复阶段，尚无OptimizeResult或metric阶段。B.30/.38最终fine V=.0058134/.0027596、κ16.4887/16.4387，Ebar/det谷底受控，但ball/strip仍略超。完整81q/动态节点/trust在原stdout，可作明确小参数续接；下一批量收集微小漏峰、只显著缺口即时交换，让后端在当前全约束网上实收敛。不重做fresh16轮，不把恢复改善授为等距接受。
+[R565](results/R565-parallel-oval-core-exact-reach-and-amplitude-budget.md)给平行椭圆柱reach恰r+q²/p；新p=.85、q=r=.15保持A1/B.3而核心reach3/17，和旧g不同。[v2首run失败](notes/2026-11-26-inverse-first-run-radial-fold-failure.md)：run45765708829两个新lane，粗η约.083/.091但fine 1.19855/3.78338、κ74208/26180；s=.421875漏径向近退化，球/条带也失败。Jac正确量级，不沿原软权重/固定49圈延长。
+
+[R566](results/R566-flat-oscillatory-cap-tail-and-graph-reach.md)的固定有限公式尾在rc=.22到r=.30全平且K无限变号；完整凸底域graph片reach>.1832，但不含跨块。[R569](results/R569-fixed-oscillatory-tail-and-flat-infinitesimal-bending.md)对同一w已实际构造角频2非零全平无穷小等距场，全部导数exp(−c/δ³)，外端真ODE；X+tV非有限等距。[其外端数值接口](notes/2026-11-26-r569-seed-numerical-interface.md)的M168、紧8倍与M+1同尺度计算待原终态核对，不能以seed代替完整非线性。
+
+[hard首run45769777022](notes/2026-11-26-hard-exchange-first-run-restoration.md)两lane37.974705078新科学秒；16外层全恢复，0 OptimizeResult/metric阶段。B.30/.38 fine V=.0058134/.0027596、κ16.4887/16.4387，Ebar/det谷底受控但球/条带仍超。新[已识别状态续接](notes/2026-11-26-hard-exchange-identified-continuation.md)严格使用原81q/约束节点/trust，逐项与原FINAL/OUTER核对；微小漏峰完整pending、后端返回时批量交换，显著缺口才即时重启。原物理、硬门及fine验收容差不变；120外层/80步，257×768约束容量，2400秒检查点。未本地科学执行，发布后由公开Actions实际计算。原失败/条件/运行身份全文存[本次续接前交接](notes/HANDOFF-before-hard-resume-20261126.md)，不撤销。仍须冻结新g后的收敛、全闭嵌入/点对reach和宏观幅度。
 
 ## 4. O4 两个不同母库的有效入口
 
