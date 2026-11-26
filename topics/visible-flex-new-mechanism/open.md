@@ -447,3 +447,7 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 ### R604 连续全域范数接到真实非圆候选
 
 [R604](results/R604-normal-chord-stability-and-finite-parametric-norm-interface.md)提供完整近远弦充分证书。下一先按真实开核心/两帽/全尾定义验证圆参考，再用同一有限q的实际X/Xs/aT/n及主曲率取得范数；材料端结构和纵向参数化要单独支付，不能从一个端点jet或有限网V0推出全域reach。
+
+### R605 全程记忆与能量相容成为实际新输入
+
+[R605](results/R605-real-memory-coordinates-and-leading-energy-local-flow.md)付R/θ/I坐标和m正guide，必须以同一个λ同时付两侧完整首层与全部八矩，再回原有限ε/rho/ruling/pose；内部正则点不是prepared中心可达证明。下一原mass用准确边界变量嵌入保29BC及真链式Jac，不以放松BC或继续旧九族代替闭合。

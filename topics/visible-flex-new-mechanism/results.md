@@ -402,3 +402,5 @@
 - [R582 97q首次完整细几何恢复](notes/2026-11-26-r582-local-tail-first-original-terminal-receipt.md)：**数值进展，仍未等距**；run45842923121在同p=.181用17恢复接受得10905×768细工作V0、η.000433487/κ16.45257，0metric接受；真实97q/169×384/trust2与全部pending保真，125.663352586秒计费，下一从未应用的179×768续接。
 
 - [R604 全闭参考的显式reach扰动证书](results/R604-normal-chord-stability-and-finite-parametric-norm-interface.md)：**已证明**从参考全法弦ρ和新全域位移/法向/切向导数/曲率界，构造所有短弦的真材料路径并排近远自交，得全闭面reach下界；给真实C1/C2及参数jets接口，不把当前有限网范数或未验证圆参考当已付。
+
+- [R605 真实二维记忆与首层正则流](results/R605-real-memory-coordinates-and-leading-energy-local-flow.md)：**已证明**原运动学等价I_s=θ_s/R²，矩形记忆可双号；显式全程m正guide保中心a=H/v=2与末双零速度，两侧共常数能量椭圆在实际内部点有正则交点并给真M局部流。prepared前缀、八矩返回、有限ε/rho/period/pose/reach仍未付。

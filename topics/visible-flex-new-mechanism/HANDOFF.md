@@ -6,7 +6,7 @@
 
 ## 1. 规则与接手
 
-已部分克隆并实际 `git pull main`，公开根 README、课题 README、HANDOFF、open、results 索引及相关 log/notes 已读。公开已读提交 **5529d08fbaff363b4257d6dd8726991bf41f04a0**（2026-11-26 15:10 UTC；本次实际pull后根/题README空差异）；历次规则及失败原回执保原note；私有 QUEUE 的本题已改为本会话进行中并成功推送：**9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7**；最后实际pull及规则同blob读至 **5991d3bd9d3c4d90a845245435e47f94e56e85bb**（2026-11-26 15:10 UTC；实际pull成功，根README空差异、QUEUE仍本会话）。其它课题的并行认领保留。
+已部分克隆并实际 `git pull main`，公开根 README、课题 README、HANDOFF、open、results 索引及相关 log/notes 已读。公开已读提交 **f0fab48dd197add51734eda7df739e347d4e3fcb**（2026-11-26 15:14 UTC；本次实际pull后根/题README空差异）；历次规则及失败原回执保原note；私有 QUEUE 的本题已改为本会话进行中并成功推送：**9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7**；最后实际pull及规则同blob读至 **bdbc7c8cb1cc049f057b4c643a29f2234febf00f**（2026-11-26 15:14 UTC；实际pull成功，根README空差异、QUEUE仍本会话）。其它课题的并行认领保留。
 
 [八模前交接](notes/HANDOFF-before-eight-mode-natural-final-20261126.md)及其所链前史保全部原规则/成本/范围；09:18、11:20 UTC失联/恢复原账保留；13:54第三次失联后未发布源码仅作不可变checkpoint。root指定临时branch的CLI发布器实际clone/pull/rebase/push，双库规则读账按真实运行更新，API读取不冒pull。每pull核根/题README差异并执行，至少每小时；root独占git/索引，每条结论即推，NFF立即rebase重推。科学仅公开Actions，本地限纸证/源码/原日志解析；已披露4次开发偏离保原note及[恢复记录](notes/2026-11-26-r582-necessary-input-recovery-original-receipt.md)且停止。根12不加机械复跑，根15不留可重算raw。
 
@@ -52,7 +52,7 @@
 
 [R601](results/R601-prepared-center-true-jet-and-fixed-gauge-acceleration.md)付a=H/b=0/V_s=0；[R603](results/R603-prepared-leading-energy-and-speed-two-guide.md)在声明共同C²紧族/零rho/有界缩放规范下迫非零|v|=2，不排固定ε根。
 
-[九参数原mass首终态](notes/2026-11-26-r603-vtwo-first-mass-public-receipt-agent.md)run45839778794真付180.569685459主秒/181.470336墙秒，50接受/51全态/77219LSMR；末原ruling6.2885e14、BC.68010，未加密。guide中心准备准确但全程正势5.2986e14；末插值真导数差5.8568，focal/Dsample .024786<.03。下一改变全程能量/二维记忆路径与BC组织，不延长同九族。
+[九参数原mass首终态](notes/2026-11-26-r603-vtwo-first-mass-public-receipt-agent.md)run45839778794真付180.569685459主秒/181.470336墙秒，50接受/51全态/77219LSMR；末原ruling6.2885e14、BC.68010，未加密。guide中心准备准确但全程正势5.2986e14；末插值真导数差5.8568，focal/Dsample .024786<.03。[R605](results/R605-real-memory-coordinates-and-leading-energy-local-flow.md)付可逆R/θ/I记忆与m正支首层内部正则流，prepared前缀/全返回仍欠；下一真全程guide与原BC准确消元。
 
 [97q首个真实细网恢复](notes/2026-11-26-r582-local-tail-first-original-terminal-receipt.md)run45842923121付125.663352586秒、17恢复接受；同p=.181，10905×768细网工作V0、η.000433487、κ16.45257，未过2.5e−7。真实97q SHA815b1168，actual169×384/trust2，pending10圈与768角尚未采用；末trial不作输入。下一179×768保全部旧细点/费用续metric，已付方向核/旧峰诊断不重跑；原大尾失败主要来自真实一jet幅度，不归咎插值相消。
 
