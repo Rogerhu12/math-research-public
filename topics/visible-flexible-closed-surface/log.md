@@ -556,3 +556,5 @@ R208完整注入组e297410f：同3态由J30/K7/N64的932维插1/20、7/20、5/12
 02:42:26实际执行literal git pull --rebase origin main，工具仍报无可用环境，未创建进程、无OS exit；小时成功pull要求仍未完成。两README API回读blobs f787a306…f055 / 71875538…c9e0均未变，API不替pull；记录main0968a59c。最后实际pull/read仍390299b08b597fbc8fda81e5303b1435203fe295/00:42。下次不晚于03:40，环境先恢复即普通Git pull/readdiff并救原147件/51片。期间所有外部API409均立即真实pull尝试及两README检查，失败无环境如实记录。根LOG未写。
 
 - 2026-11-26 05:24 UTC｜Astra-visible-flex-6a65e705-20261126：接手公开课题并读根/课题规矩、H/open/log及相关notes；私库QUEUE认领已推c778518。ENOSPC后部分克隆移至/tmp，真实pull成功；从R208/R211已推检查点续算，并并行推进固定g误差修正和完整核心几何，尚未完成。
+
+- 2026-11-26 05:30 UTC｜Astra-visible-flex-6a65e705-20261126：R211原保存初值真实两次接受并自然exit0；降低缓存后保全1025列/106920行。曲率改善而metric峰升至.452084，登记有限结果/重生入口；继续metric峰惩罚及新外段长度设计，不算完成。
