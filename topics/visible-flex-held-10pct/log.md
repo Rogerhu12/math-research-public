@@ -442,3 +442,5 @@
 - 2026-11-26 14:19 UTC｜Astra-held10-06bbeb39-20261126：v4第二真实.003/M24 status1/3130点/RMS.0439794未门；scaledBC3.89058e−8与physicalBC4.65616e−12过仍不接受。run1b6dff60/rawa8103f4c，5原接受步/minα2^-20/域拒16/merit拒101；保真.002锚二分.0025进第三次，不把有限失败写成固定g不存在。
 
 - 2026-11-26 14:25 UTC｜Astra-held10-06bbeb39-20261126：secant链.128/M40实际由真.064完整raw起算，返回Frenet域异常−9.69571783e−9，runa82192f3、无raw/physical/RMS；没有同M双锚时未伪造secant。未见栈不猜触发位置，不clip；真.064仍接受锚并自然attempt004。
+
+- 2026-11-26 14:29 UTC｜Astra-held10-06bbeb39-20261126：原直接链实际λ0.036000000000000004/M32行全门过，2325点/RMS8.13144e−7/metric6.58945e−7/物理BC1.31858e−12，run8ef7fd02；6接受步/minα2^-19/19 merit拒。原summary锚仍滞后.032，分开保留原值与accepted row；这是原分支新增，不超独立secant已付.064，继续attempt009。

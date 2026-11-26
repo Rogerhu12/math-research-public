@@ -1,0 +1,107 @@
+{
+  "schema": "held10-original-design-lambda0036-actual-accepted-v1",
+  "session": "Astra-held10-06bbeb39-20261126",
+  "scope": "New actual finite acceptance on the original direct-design branch, below the independent secant branch's already accepted .064. The published controller result retains a stale .032 scalar; that value is preserved separately rather than silently rewritten.",
+  "source": {
+    "repository": "Rogerhu12/math-research-public",
+    "immutable_commit": "a552c4310b408277601f218f90dc130b25fdd1ab",
+    "path": "topics/visible-flex-held-10pct/ci/live-design-result.json",
+    "git_blob_sha1": "e8ae60e01f1ab438668b63dc5523c03febefe7bd",
+    "workflow_run_id": 45801006547,
+    "job_id": 139843898376,
+    "command_id": "held10-material-delta-design-20261126-01",
+    "script": "topics/visible-flex-held-10pct/scripts/resume_20261126/lowq_prefix_recovery_design.py",
+    "script_sha256": "a69f5c6ca118221700b16f01645b87be94afba349ca576825c47993891c22223"
+  },
+  "actual_return": {
+    "accepted": true,
+    "actual_audit_mean_nodes": 1552,
+    "actual_delta": 0.06413322196809473,
+    "complete_saved_initializer": true,
+    "domain_error_counts": {},
+    "domain_newton_stats": {
+      "accepted_steps": 6,
+      "calls": 1,
+      "minimum_alpha": 0.0000019073486328125,
+      "no_step": 0,
+      "rejected_domain_trials": 0,
+      "rejected_merit_trials": 19
+    },
+    "error": null,
+    "homotopy": 0.036000000000000004,
+    "metric": 6.589453978597589e-7,
+    "metric_only_failure": false,
+    "modes": 32,
+    "name": "attempt-008",
+    "nodes": 2325,
+    "original_finite_checks": {
+      "physical_bc": true,
+      "rms": true,
+      "solver": true,
+      "solver_and_boundary_pass": true,
+      "tolerances": true
+    },
+    "physical_bc_max": 1.3185763896296332e-12,
+    "physical_sha256": "4914d70b50096cc8a56877374b5b955fdd6ad8088e9a309b4b66299f59456431",
+    "raw_sha256": "023e99ed7fc9f4a4cb14e4e793df98731db9d82b94d5d661cd762cb169dec3d8",
+    "returncode": 0,
+    "rms": 8.131440223700203e-7,
+    "run": "/home/runner/work/_temp/held10-design/design-prefix-recovery/material-delta-design/attempt-008/run.json",
+    "run_sha256": "8ef7fd02f55f077d94365057760edb89706a59452c9d38450dd3360459e4424f",
+    "solver_success": true,
+    "source_run": "/home/runner/work/_temp/held10-design/design-prefix-recovery/material-delta-design/attempt-004/run.json"
+  },
+  "observed_controller_status": "attempt-009",
+  "observed_controller_result": {
+    "accepted_lambda": 0.032,
+    "last_accepted_run": "/home/runner/work/_temp/held10-design/design-prefix-recovery/material-delta-design/attempt-004/run.json",
+    "last_attempt": {
+      "accepted": true,
+      "actual_audit_mean_nodes": 1552,
+      "actual_delta": 0.06413322196809473,
+      "complete_saved_initializer": true,
+      "domain_error_counts": {},
+      "domain_newton_stats": {
+        "accepted_steps": 6,
+        "calls": 1,
+        "minimum_alpha": 0.0000019073486328125,
+        "no_step": 0,
+        "rejected_domain_trials": 0,
+        "rejected_merit_trials": 19
+      },
+      "error": null,
+      "homotopy": 0.036000000000000004,
+      "metric": 6.589453978597589e-7,
+      "metric_only_failure": false,
+      "modes": 32,
+      "name": "attempt-008",
+      "nodes": 2325,
+      "original_finite_checks": {
+        "physical_bc": true,
+        "rms": true,
+        "solver": true,
+        "solver_and_boundary_pass": true,
+        "tolerances": true
+      },
+      "physical_bc_max": 1.3185763896296332e-12,
+      "physical_sha256": "4914d70b50096cc8a56877374b5b955fdd6ad8088e9a309b4b66299f59456431",
+      "raw_sha256": "023e99ed7fc9f4a4cb14e4e793df98731db9d82b94d5d661cd762cb169dec3d8",
+      "returncode": 0,
+      "rms": 8.131440223700203e-7,
+      "run": "/home/runner/work/_temp/held10-design/design-prefix-recovery/material-delta-design/attempt-008/run.json",
+      "run_sha256": "8ef7fd02f55f077d94365057760edb89706a59452c9d38450dd3360459e4424f",
+      "solver_success": true,
+      "source_run": "/home/runner/work/_temp/held10-design/design-prefix-recovery/material-delta-design/attempt-004/run.json"
+    }
+  },
+  "controller_result_lag_explicit": true,
+  "next_actual_target_unexposed": true,
+  "independent_recorded_frontier": {
+    "homotopy": 0.064,
+    "modes": 40,
+    "run_sha256": "4d455f1ac6a7ebf8f186c27f42a3a00c773bb132f04deff16fb8e228e6e110ad"
+  },
+  "full_nonlinear_tail_paid": false,
+  "fixed_metric_refinement": false,
+  "complete_surface": false
+}
