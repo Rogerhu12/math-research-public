@@ -1,0 +1,151 @@
+{
+  "job": 139871189527,
+  "receipt": {
+    "elapsed_seconds": 0.29813787600000197,
+    "max_child_rss_kib": 35204,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "0423c3c399f117d4ab3e077fbfb8d7f8ee242c3a",
+        "before": "e74a6d1b37742414d1215bb37440b7c2fe56851c",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "fef43bdf8690f2eec4751d85784a266eacdd0322"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-26T11:15:28.193075+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "45808873477",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-347c-20261126",
+    "source_commit": "e74a6d1b37742414d1215bb37440b7c2fe56851c",
+    "source_exit_code": 0,
+    "source_git_blob": "c7b972d1fbc52775b2735d7657c0562b249fc397",
+    "source_sha256": "b1b30f4af0ff76187005861f3c1425707cd955e71f049f85ea2cdc4360d86abb",
+    "stdout_bytes": 1781,
+    "stdout_sha256": "3bb16c277296eff08994a31cd6af01dea44a238fd180dc1158f2f84db7b6ab5e",
+    "stop_reason": null
+  },
+  "reports": [
+    {
+      "claimExcluded": false,
+      "elapsedSeconds": 0.002742,
+      "sourceSha256": "b1b30f4af0ff76187005861f3c1425707cd955e71f049f85ea2cdc4360d86abb",
+      "stage": "paid_unit_parameter_graph_verified",
+      "unitDegrees": [
+        1,
+        1,
+        1,
+        2,
+        2
+      ]
+    },
+    {
+      "claimExcluded": false,
+      "elapsedSeconds": 0.145116,
+      "inputSha256": "88918140426e7a9fab4ad2159baa2dd07cc5815a5a87e4c888e74f67803ee7ae",
+      "profiles": [
+        {
+          "ftDegree": 2,
+          "name": "E1",
+          "rhoDegree": 12,
+          "termsFT": 6
+        },
+        {
+          "ftDegree": 2,
+          "name": "EB",
+          "rhoDegree": 13,
+          "termsFT": 6
+        },
+        {
+          "ftDegree": 2,
+          "name": "EC",
+          "rhoDegree": 12,
+          "termsFT": 6
+        },
+        {
+          "ftDegree": 1,
+          "name": "P1",
+          "rhoDegree": 7,
+          "termsFT": 3
+        },
+        {
+          "ftDegree": 3,
+          "name": "PB",
+          "rhoDegree": 19,
+          "termsFT": 10
+        },
+        {
+          "ftDegree": 3,
+          "name": "PC",
+          "rhoDegree": 19,
+          "termsFT": 10
+        },
+        {
+          "ftDegree": 2,
+          "name": "N1",
+          "rhoDegree": 12,
+          "termsFT": 6
+        },
+        {
+          "ftDegree": 3,
+          "name": "NB",
+          "rhoDegree": 16,
+          "termsFT": 10
+        },
+        {
+          "ftDegree": 3,
+          "name": "NC",
+          "rhoDegree": 16,
+          "termsFT": 10
+        }
+      ],
+      "sourceSha256": "b1b30f4af0ff76187005861f3c1425707cd955e71f049f85ea2cdc4360d86abb",
+      "stage": "all_original_equations_generated_and_verified"
+    },
+    {
+      "claimExcluded": true,
+      "claimLambdaLayerEmpty": false,
+      "elapsedSeconds": 0.222536,
+      "finalFieldGcdDegree": null,
+      "finalNormGcdDegree": 0,
+      "inputSha256": "88918140426e7a9fab4ad2159baa2dd07cc5815a5a87e4c888e74f67803ee7ae",
+      "ordinaryISPClaim": false,
+      "peakRssKiB": 34524,
+      "projectionHistory": [
+        {
+          "normGcdDegree": 64,
+          "orientation": 0,
+          "pair": [
+            "E1",
+            "EB"
+          ],
+          "rhoDegree": 32
+        },
+        {
+          "normGcdDegree": 48,
+          "orientation": 1,
+          "pair": [
+            "E1",
+            "EB"
+          ],
+          "rhoDegree": 40
+        },
+        {
+          "normGcdDegree": 0,
+          "orientation": 0,
+          "pair": [
+            "E1",
+            "EC"
+          ],
+          "rhoDegree": 32
+        }
+      ],
+      "schema": "r150-unit211-L0-w1-native-unit-ledger-v1",
+      "sourceSha256": "b1b30f4af0ff76187005861f3c1425707cd955e71f049f85ea2cdc4360d86abb",
+      "status": "exact_original_fiber_excluded"
+    }
+  ]
+}
