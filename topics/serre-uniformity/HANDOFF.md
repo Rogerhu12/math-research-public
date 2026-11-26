@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。本轮已部分克隆并真实pull main，读两README/H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则读至36cf1ed2。不重做已登记结论或窗口。
 
-**公开两README已读提交：741abe6c961fa42df9c8a3fed017c07dc42e1492**（2026-11-27 02:17 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
+**公开两README已读提交：94f1aef2814052c8c80a4085c4f1d7078638652e**（2026-11-27 02:28 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
 
 本轮两次真实部分克隆/pull已完成；最新执行宿主再次断连，按根规矩8用连接器小文本同步和带expected_sha的非force原子提交，恢复后立即pull --rebase。令牌只在CLI，不入文件/提交/MCP。根维护main/H/open/index/log，子研究仅独立数学稿；每条结论立即推。并发拒绝立即同步/读规则差异/重新基于新main再推至成功。global_route曾违规用V8数学探索，已叫停并独立纸核，范围/时长见[偏差记录](notes/2026-11-26-execution-path-deviation-and-correction.md)，不以输出作证明或合规窗口。
 
@@ -14,13 +14,15 @@ H<10KB、open尽量<30KB、每MD<100KB、topic<200MB；无可重算raw、不写�
 
 ## 最新全局实际来源
 
+[R1052](results/R1052-original-complete-CM-profile-and-actual-lowest-functional.md)：actual full-node中心赋值直接给全部normal极阶界，E一维像保全部返回；source u_s/ε^p的wholeR/p Dickson比较与全primitive误差均付。原完整行h̄_c=−Σκ₁^kc_kλ₀^−(ℓ−k)[Z^k](T_c/A)(B_CM)w^(ℓ−k)/(2m)。最低C_CM(T)=−3^(ℓ−1)/A1·[r^(ℓ−1)]T((1−r)^(1/3))/((1−r)^(5/3)j³)=2B(c,L_CM)。实际读数2B(v,QD L_CM)保Q²；单位/深盘排根仍开。
+
 [R1050](results/R1050-actual-CM-parameter-short-PD-and-Picard-Fuchs.md)：同一actual BT短PD给Ξ=d u′ modu′^p；Z=Ξ³=−r(q/j)³/3，b=B_CM(Z)=1+Z+5Z²/16+…到Z^ℓ。原κ₁=d³c_Q³保双incidence/∞符号，所有分母与末端精度已付；只给实际target参数，完整节点self-return另证。
 
 [R1045](results/R1045-original-MW-annihilator-nonzero-reduction.md)/[R1046](results/R1046-original-p5-complete-CM-flag-and-MW-nonzero-reduction.md)：两行原实际MW消去后准确M1(p>C_*)。完整旗标rank n₀=(p−2)/3；三CM留数S₀=1与Euler有限₃F₂排contact，Q²完整。p5双中心/∞与分歧12均付清。[R1047](results/R1047-original-MW-saturated-profile-and-common-zero-bound.md)进一步给全部实际消去格Σ的系数映射饱和，原盘公共零数≤n₀−rankΣ+1；有理点≤n₀，非中心≤n₀−1。最低单位与非中心根排除仍开。
 
 R1037/40分别付清两行实际Q=ε⁻²ΦΠ、Π²=−p、完美对称B、纯正δ一维核/负δ单射及全部MW本原消去。两行K_Q仍保Q²待单位；B(c₀,J)=−1/8只检测核。
 
-R1038原p5完整Raynaud、双中心/二次图、先减Teich再在formal/B施e₁及两节点同一Dickson已成，完整λ+R_p全p≥41准确Fm。R1039完整CM normal第4m层κ₁R_L(1)d(x^(2g)y)，原z=ε³w及全部p倍积分分母给Abel/formal除pε整、modp次数≤4g+1，whole-block M1。原J非整体良好；最低单位项未定。
+R1038/39原p5双中心/二次图、Raynaud好B、先减Teich再formal/B上施e₁与双节点同一Dickson均已成；完整λ+R全p≥41准确Fm，Abel/formal除pε整及全部p倍积分尾保原证明。原J非整体良好。
 
 R1035/36原两次PD/source Fp²-Hermitian给实际Lie整比较，split-Hecke真生成F₀，D₀非挠paired块重数一；不冒辅助C²或指定简单商Néron格。R1032/33(p11)、R1039(p5)完整首CM层/原z=ε³w及全p倍积分尾界由R1044–47消费。
 
@@ -54,11 +56,7 @@ R1012/16/17/20/25/27未经筛选的完整theta分布、常平方1与全方向单
 
 R1034原两行bare=单位×[z^m](N/P)与有限递推已成：r2真余式/全分母根和，r8须留多项式部分；完整K共振缺陷不能删。r2另有R1041范数桥，两行总系数单位仍开。
 
-R1015原c_(p−r)=−A_r−BT_r，保完整regular与三阶乘carry，r8余层N−2；R1016原index1/2完整卷积及Gaussian单位不能代该总差。R988原S≠0 iff c_(p−r)±≠0 iff F_(p−r)(0,−864)≠0，r2用于11mod12/r8用于5mod12，保原mod9。R990/R1005完整K共振缺陷与全部分母根不可删；旧47 J12/cusp45/其它37不重算。
-
-R955/970原链长1等价高同余理想单位；R961低晶体单位只测coker顶F0，R972低Selmer/classgroup不强迫高坐标。R976–988 Robert/Δ/LT/Hurwitz全部尺度保留，R982/983共同scalar模型已否，R984/985除p carry不删。
-
-[原除p坐标](notes/2026-11-26-original-high-coordinates-in-divided-Ramanujan-polynomial.md)整𝔅_p给c_(p−r)±=r!12^(r−1)[E^r]𝔅_p(E,0,±864)，仍须证单位。[AS比较](notes/2026-11-26-ahlgren-samart-actual-low-coordinate-comparison.md)的9β³/2及乘低G得−9/2只低单位。旧R963/991/994窗口只消费：4008新差集至200000非零，run44760218207/job136370438703的完整三路/预算/hash保结果与归档，不外推全p。
+R1015/16及R976–1005的原regular/carry、Robert/Δ/LT/Hurwitz和K共振缺陷全保；低单位不强迫高坐标，所有分母根/多项式部分不可删。R988给同一c_(p−r)± iff F_(p−r)(0,−864)，r2/p11、r8/p5保原mod9；[除p坐标](notes/2026-11-26-original-high-coordinates-in-divided-Ramanujan-polynomial.md)与[AS比较](notes/2026-11-26-ahlgren-samart-actual-low-coordinate-comparison.md)不代总高系数单位。R963/991/994旧4008差集至200000只消费，原run44760218207/job136370438703及完整hash/预算保结果与归档。
 
 ## O4：高度边界保留
 
@@ -74,4 +72,4 @@ R696早已证明同一全局Φ候选Ω_actual={0}，R832已消费；不重做、
 
 [R1051](results/R1051-original-scalar-new-prefix-through-402581.md)：公开run45869953028/job140082478470、源30cecd32，严格新增5372素数200003…402581（p2/5mod9）原f_N/g_N全非零，1080.04秒/1200秒预算，准确完成前缀。余段从402593续算；全部请求/完成列表/输出hash在结果，不作全称推论。
 
-公开CI v2已准备并随本次提交触发：只续402593≤p≤500000，另在同预算内读一个新的p47 CM核候选必要条件；不重算旧scalar。源/run待取得真实触发回执后登记，[方法](notes/2026-11-27-original-scalar-obstruction-new-window-method.md)。纸面继续。
+公开CI v2：[45874715945](https://github.com/Rogerhu12/math-research-public/actions/runs/45874715945)/job140098765505，源7e47699cd195f7fd70eca38a2f9f1011a636a090；只续402593≤p≤500000及一次新p47核必要条件。1200秒单job正在算术步骤，待读真实输出；[方法](notes/2026-11-27-original-scalar-obstruction-new-window-method.md)。

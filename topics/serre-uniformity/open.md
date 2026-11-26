@@ -6,21 +6,21 @@
 
 ## 原最低型：已经付清的输入与准确剩余标量
 
+[R1052](results/R1052-original-complete-CM-profile-and-actual-lowest-functional.md)：actual full-node中心赋值直接给全部normal极阶界，E一维像保全部返回；source u_s/ε^p的wholeR/p Dickson比较与全primitive误差均付。原完整行h̄_c=−Σκ₁^kc_kλ₀^−(ℓ−k)[Z^k](T_c/A)(B_CM)w^(ℓ−k)/(2m)。最低C_CM(T)=−3^(ℓ−1)/A1·[r^(ℓ−1)]T((1−r)^(1/3))/((1−r)^(5/3)j³)=2B(c,L_CM)。实际读数2B(v,QD L_CM)保Q²；单位/深盘排根仍开。
+
 [R1050](results/R1050-actual-CM-parameter-short-PD-and-Picard-Fuchs.md)：同一actual BT短PD给Ξ=d u′ modu′^p；Z=Ξ³=−r(q/j)³/3，b=B_CM(Z)=1+Z+5Z²/16+…到Z^ℓ。原κ₁=d³c_Q³保双incidence/∞符号，所有分母与末端精度已付；只给实际target参数，完整节点self-return另证。
 
 [R1047](results/R1047-original-MW-saturated-profile-and-common-zero-bound.md)：两行原新部的全部实际MW消去格Σ到前n₀=(p−2)/3个CM系数为饱和单射；任一本原行保M1。若r_ann=rankΣ≥1，原单位闭盘的公共零点总重数≤n₀−r_ann+1，故原有理点≤n₀、非中心≤n₀−1。以整Tate除法保全部尾，使用真实全MW消去，不恢复旧秩零商。最低单位/非中心根排除及O0仍开。
 
-R1046独立付p5双中心/res0、双∞(±1)^k/full分歧12与全部normal/自由项，给同一旗标和实际MW后M1；详细公式合列于下方R1044/46，最低单位与非中心根仍开。
-
 [R1045](results/R1045-original-MW-annihilator-nonzero-reduction.md)：原p11、p>C_*的真实本原Λ_Q作用原整CM盘后，完整模p多项式非零，MW消去后准确M=1。更强纯代数适用于全p=6N+5：非零new T若与v=λ+R正交，完整三CM留数与S₀=1迫contact从ℓ升到ℓ+1；原Euler算子给有限₃F₂，degree N<ℓ与局部指数0,1,ℓ排二重零。保完整Q²λ；不要求general new determinant单位，不宣最高J₀、最低w系数单位或深盘唯一零点。
 
-[R1044](results/R1044-original-CM-disc-complete-coefficient-flag.md)/R1046：两行原CM全部系数给Cauchy旗标V_(ℓ−k)≡u_kJ_(k−1) mod前列，u_k=(-1)^kκ₁^k(2√A_tail)^(3k−2)λ₀^−(ℓ−k)/[m(3k−1)]原单位；真实全分支E/η齐次代表保全部normal与自由项。whole-type rankℓ−1、核维N；指定行整式零 iff(b−1)^ℓ|(T_c−γA)。R1045排实际c=DQv的contact，非中心根仍开。
+R1044/46的完整Cauchy旗标现由R1052给全等式；whole-type rankℓ−1、核维N、原所有单位及p5双中心/∞/分歧12均保原证明。指定c的完整contact由R1045排除，最低单位与非中心根仍开。
 
 R1037/40分别支付p11/p5实际good BT的两次PD、原source Fp²/Hermitian与Π²=−p、B整对称完美。Q=ε⁻²ΦΠ是实际Fil的Lie算子，模π为quo(r^k a(b^p),A²) modA（外系数固定）；k分别8g−2/8g+2。核c₀准确一维纯正δ，负δ单射。完整v=(1−Q)λ保degree-p返回；Λ_Q=B(v,QD·)在全p>C_*本原并杀原全部MW饱和格。K_Q=(1/2)P_(DQv)(1)必须读完整商，Q²不可删；B(c₀,J₀)=−1/8不代K_Q单位。
 
 R1038原p5双中心与图二次角色、新quadratic PS/St逐型、e₁G[p∞]≅e₁B[p∞]、bounded lift先减prime-to-p Teich挠点均已成；只有formal/B上施e₁。两节点同一Dickson无额外2，原完整首log=εΣθ(λ+R_p)f，全部p≥41准确Fm；p11相应R1023/24。R1026纯代数单P1非整除给明确绝对C_*，p5原负δ运输及额外CM域排除/原6p正CM方向由R1040支付。未宣整个p5 J良好。
 
-R1032/33(p11)、R1039(p5)给完整首CM层κ₁R_L(1)dF、原z=ε³w及Abel/formal除pε整，所有p倍积分分母保留，约化次数≤n₀。首列及后继由R1044–47消费；D_aux只在当前CM标记regular，其它CM返回保留。最低单位和非零根仍开。
+R1032/33(p11)、R1039(p5)的原4m首层、全部p倍积分尾和whole-block M1只消费；其它CM返回及D_aux真实支撑保原证明。
 
 R1035/36实际Lie格与完整split-Hecke中心F₀、原J中D₀非挠paired块重数一已核，未冒辅助Res的C²。T5版和Q版实际消去都保真实原格；所选Q简单商Néron格不能从p-adic type直和自动推出。R1041原r2 bare读数是B(c₀,c₀)，R1043原f_N读数是B(c₀,v)，两者与K_Q不同，分别仍待非零。
 
