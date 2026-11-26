@@ -1,5 +1,7 @@
 # 当前未解问题：保留基础有限证据，继续同 g 加密及完整强幅度
 
+[q2 cold 阶段勘误](notes/2026-11-26-6a65-q2-cold-public-summary-scope-correction.md)：own-zero285.285s真0/接受0；统一renderer的“两组皆训练”只适用于joint及后继，不能套给own-zero/single。max-one缩放normal也不能在小梯度时冒真相对收敛；活动数值源保持，后继报告另列真相对量。
+
 [M12完整H受控执行](notes/2026-11-26-6a65-m12-full-normal-controlled-execution.md)已发布并由新独立窄push触发；自身h487重生及准确M48暖初场，eta1e−6只换右坐标，原lambda0/全部三Gram/800LSMR及连续后验保持，不借另run未返回场。立即继续真实计算，实际run与结果待查。
 
 [R245第二热点h487实际结果](results/R245-actual-h487-refinement-and-continuous-geometry.md)已全部返回：run45833090043全部11stage/STL/R236真0，487元47628列，独立超集峰4.21683e−9→9.83953e−10；完整连续metric<8.211825e−7、reach/D>.03109495、held/D>.05278322、含反射δE>0。连续证明界略大于h428，不称所有界单调。LSMR800/stop7，未完成第5条；下一R243同g M48暖续，保所有旧观察/两微窗和完整normal，后续按实际峰再定径向加密。旧三件完整可重算输出发布方案不再使用，新入口只发小Markdown实际结论及SHA。
