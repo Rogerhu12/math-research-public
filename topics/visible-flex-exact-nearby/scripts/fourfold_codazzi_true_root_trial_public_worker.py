@@ -1,7 +1,8 @@
 """One complete true-root finite-trial target with whole old input restoration.
 
-Only the new TC owner is a numerical child.  Old whole arrays are restored
-from their exact original history/archives and named pure readers only.
+The original direction is rebuilt in one separately counted input child,
+using its unchanged nodal Hermite algorithm and full original SHA checks.
+Old intrinsic rows are copied from Git. The TC owner then runs new targets.
 A new complete natural conclusion is published immediately.  Every public
 radial checkpoint is a whole all96/all5-source prefix, never a progress
 counter standing in for a residual.  No private coefficient array is uploaded.
@@ -319,8 +320,13 @@ def main():
     def restore_history():
         receipts = []
         for spec in history_specs:
+            if spec.get("reconstruct_only") is True:
+                require(spec in manifest["input_restoration"]["generated_direction_inputs"]
+                        and spec["restore_only"] is False and "commit" not in spec,
+                        "a generated original direction shard is not a nonexistent Git object")
+                continue
             require(spec["restore_only"] is True
-                    and spec["encoding"] in ("gzip-json","gzip-npz","utf-8-json"),
+                    and spec["encoding"] in ("gzip-json","gzip-npz","utf-8-json","opaque-bytes"),
                     "whole original metadata/native restoration without science")
             fetch_commit(spec["commit"])
             raw,observed = checked_bytes(spec,spec["commit"],small=False)
@@ -333,54 +339,24 @@ def main():
             "scientific_target_calls":0,"original_bytes_changed":0}
 
     def restore_rows():
-        old_manifest = parse((inputs_root/roles["old_rows_manifest"]["path"]).read_bytes())
-        old_source = (inputs_root/roles["old_rows_worker"]["path"]).read_bytes()
-        require(sha(old_source) == "2e1527bfecb2b33ca911d7f8215d8c09e896e36b58144446b34b4a6f01fcc52f"
-                and old_manifest["historical_input_commit"] == "7c130fb94528de8f003a43e7049fb42768a64eec"
-                and old_manifest["original_body_manifest_sha256"]
-                    == roles["old_body_manifest"]["sha256"]
-                and old_manifest["original_accepted_response_summary_sha256"]
-                    == roles["old_response_summary"]["sha256"],
-                "entire exact original restoration definition and accepted old receipts")
-        helper = import_source(inputs_root/roles["inputs_math"]["path"],"_TC_worker_pure_inputs")
-        names = ("sha","read","relpath","compact","api_json","download_original_archive","restore_original_parts")
-        namespace = {"Path":Path,"hashlib":hashlib,"json":json,"urllib":urllib,
-                     "shutil":shutil,"gzip":gzip,"zipfile":zipfile,
-                     "PUBLIC":REPO,"TOPIC":Path(TOPIC)}
-        extraction = helper.pure_definitions(old_source,names,namespace,"same_old_original_archive_reader")
-        restoration = {}
-        next_check = [time.monotonic()+1800]
-        def checkpoint():
-            state["original_row_restoration"] = {**restoration,
-                "pure_restoration_AST_receipt":extraction,
-                "all_old_scientific_producer_calls":0}
-            print(encode({"complete_old_original_parts_restored":
-                restoration.get("actual_original_natural_parts_restored",0)}).decode(),end="",flush=True)
-            if time.monotonic() >= next_check[0]:
-                pull()
-                next_check[0] = time.monotonic()+1800
-        fetch_commit(old_manifest["historical_input_commit"])
-        paths = namespace["restore_original_parts"](
-            old_manifest,inputs_root,root,git,token,restoration,checkpoint)
-        table,parts = [],[]
-        for path in paths:
-            raw = path.read_bytes()
-            data = parse(gzip.decompress(raw))
-            entry = {"indices":data["selected_indices"],"bytes":len(raw),"sha256":sha(raw)}
-            table.append(entry)
-            parts.append({"file":str(path.relative_to(rows_index.parent)),**entry})
-        table.sort(key=lambda item:item["indices"])
-        require(len(table) == len(parts) == 40,"whole40 original parts restoration")
+        helper = import_source(inputs_root/roles["restoration_helper"]["path"],"_TC_exact_Git_rows")
+        parts,table = helper.restore_rows(manifest["input_restoration"],inputs_root,
+                                          checked_bytes,fetch_commit,atomic)
         document = {"kind":"TC_restored_complete_original_40_parts_v1",
             "original_manifest_sha256":roles["old_body_manifest"]["sha256"],
             "parts":parts,"part_receipts":table}
         atomic(rows_index,encode(document))
-        checkpoint()
-        state["original_row_restoration"].update(
-            complete_original_part_count=40,
-            complete_original_part_receipts_sha256=sha(encode(table)),
-            complete_private_restoration_index_sha256=sha(encode(document)),
-            original_arrays_recomputed=0,original_arrays_published=0)
+        state["original_row_restoration"] = {
+            "kind":"exact_complete_original_Git_objects",
+            "historical_commit":helper.COMMIT,"complete_original_part_count":40,
+            "complete_original_part_receipts_sha256":sha(encode(table)),
+            "complete_private_restoration_index_sha256":sha(encode(document)),
+            "original_arrays_recomputed":0,"original_arrays_published":0,
+            "original_archive_downloads":0}
+
+    def reconstruct_direction():
+        helper = import_source(inputs_root/roles["restoration_helper"]["path"],"_TC_exact_nodal_Hermite")
+        helper.reconstruct_direction(manifest["input_restoration"],inputs_root,temporary,roles,state)
 
     def scalar(record):
         return isinstance(record,dict) and set(record) == {"ball"} and isinstance(record["ball"],str)
@@ -603,8 +579,9 @@ def main():
         materialize_current(head)
         restore_history()
         restore_rows()
+        reconstruct_direction()
         require(not any(name in sys.modules for name in ("numpy","flint","scipy")),
-                "whole old restoration and preflight begin without numerical imports")
+                "the public worker and preflight import no numerical library; reconstruction was a separate child")
         owner = import_source(inputs_root/roles["owner"]["path"],"_TC_whole_owner_admission")
         require(owner.PARAMETERS == manifest["parameters"] and owner.RUNTIME == manifest["runtime"]
                 and owner.STATE_FIELDS == manifest["allowed_scientific_fields"]
@@ -623,7 +600,7 @@ def main():
         del admitted
         gc.collect()
         require(not any(name in sys.modules for name in ("numpy","flint","scipy")),
-                "whole native/source/actual admission called no old numerical target")
+                "whole native/source/actual admission called no old residual, norm or QR target")
         import platform
         from importlib.metadata import version
         runtime = {"python":platform.python_version(),

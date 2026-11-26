@@ -188,3 +188,5 @@ NS五件共129172B，owner71056B SHA18db439d5895e4232882940a57b7bd9457982383e1ac
 2026-11-26 19:08 UTC / visible-exact-astra-fb31ed6-20261127：登记R144 FM完整实际证明，严格区分真实lower反例与充分门失败；更正接手快报的末端mean十进指数为−7.66584e−3。私库QUEUE已推594e561b05，公开续接已推0f3608fad；继续compact mean、真正signed列和完整逆。
 
 2026-11-26 19:22 UTC / visible-exact-astra-fb31ed6-20261127：登记R142 DP有限可加性与共享Green分片实现，消除多runner重复物化，现有run45880363964继续；真实epsilon仍未成，后继owner尚在接线。只新增证明与源码，未更改或重做旧源积分。
+
+2026-11-26 19:11:09 UTC / visible-exact-astra-fb31ed6-20261127：TC输入恢复修复和独立workflow准备推送，40旧row实际Git恢复，原nodal独立Hermite重建核原SHA；数学owner不变。课题外仅新增触发本题计算的workflow。上两条手写19:08/19:22时戳有误，准确提交时间分别以9a0e5f1a9与8ef9f63c9的Git记录为准，后续时戳自动取UTC。

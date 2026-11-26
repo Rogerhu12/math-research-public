@@ -15,8 +15,8 @@ TOPIC = "topics/visible-flex-exact-nearby"
 OWNER = TOPIC+"/scripts/fourfold_codazzi_true_root_trial_owner.py"
 WORKER = TOPIC+"/scripts/fourfold_codazzi_true_root_trial_public_worker.py"
 GENERATOR = TOPIC+"/scripts/make_true_root_trial_residual_manifest.py"
-BASE_MANIFEST = TOPIC+"/notes/2026-11-26-true-root-trial-residual-inputs"
-BASE_WORKFLOW = ".github/workflows/fourfold-codazzi-true-root-trials-public"
+BASE_MANIFEST = TOPIC+"/notes/2026-11-27-true-root-trial-rematerialized-inputs"
+BASE_WORKFLOW = ".github/workflows/fourfold-codazzi-true-root-trials-rematerialized-public"
 OUTPUT_BASE = TOPIC+"/notes/true_root_trial_residual_ci"
 REVIEWED_RULES_SHA256 = "26da0165d2a7ec5f968959332c9fd04aae7259059de2b56f41e76b49b61fc051"
 
@@ -414,7 +414,7 @@ jobs:
         with:
           python-version: '3.12.14'
       - name: Install the fixed directed finite-trial runtime
-        run: python -m pip install --disable-pip-version-check numpy==2.3.5 python-flint==0.9.0
+        run: python -m pip install --disable-pip-version-check numpy==2.3.5 python-flint==0.9.0 scipy==1.17.0 sympy==1.14.0 mpmath==1.3.0
       - name: Whole old inputs, true-root finite trial and only missing complete objects
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -515,7 +515,10 @@ def build(root,prior_manifest_path=None,prior_execution_path=None):
             require(role not in roles or roles[role] == path,"unique declared semantic role")
             roles[role] = path
     for spec in EXTRA_CURRENT:
-        add(spec["path"],whole_small(root,spec["path"]),spec,spec["role"])
+        # The input-only public-worker repair is a new explicit source;
+        # every mathematical TC source retains its original exact identity.
+        expected = None if spec["role"] == "worker" else spec
+        add(spec["path"],whole_small(root,spec["path"]),expected,spec["role"])
     add(GENERATOR,whole_small(root,GENERATOR),role="generator")
     rwm,nwm = (parse(contents[roles[name]]) for name in ("RW_manifest","NW_manifest"))
     for old in (rwm,nwm):
@@ -524,20 +527,26 @@ def build(root,prior_manifest_path=None,prior_execution_path=None):
     require(len(definitions) == 78,"the complete fixed text closure has78 unique whole files")
     roles["reviewed_rules"] = next(s["path"] for s in rwm["files"] if s["role"] == "reviewed_rules")
     roles["old_rows_manifest"] = next(s["path"] for s in nwm["files"] if s["role"] == "D_manifest")
-    for spec in HISTORICAL_INPUTS:
-        require(spec["path"] not in definitions and spec["restore_only"] is True,
-                "original historical inputs are distinct immutable full objects")
+    helper_path = TOPIC+"/scripts/fourfold_codazzi_true_root_trial_restore.py"
+    add(helper_path,whole_small(root,helper_path),role="restoration_helper")
+    restoration = import_source(safe(root,helper_path),"_TC_metadata_exact_restoration")
+    extra_current,history,input_restoration = restoration.build_plan(root,HISTORICAL_INPUTS)
+    for spec in extra_current:
+        add(spec["path"],whole_small(root,spec["path"]),spec)
+    for spec in history:
+        require(spec["path"] not in definitions and
+                (spec["restore_only"] is True or spec.get("reconstruct_only") is True),
+                "each original input has one explicit restoration or reconstruction source")
         roles[spec["role"]] = spec["path"]
-    require(len(HISTORICAL_INPUTS) == 27
-            and len({s["path"] for s in HISTORICAL_INPUTS}) == 27,
-            "all4 conjugacy natives,2 full cubic indices,19 original shards and2 repair natives")
-    inherited = {s["path"]:s for s in HISTORICAL_INPUTS}
+    require(len(history) == 32 and len({s["path"] for s in history}) == 32,
+            "original27 inputs plus3 exact nodal ranges and2 original geometry arrays")
+    inherited = {s["path"]:s for s in history}
     for spec in rwm["historical_inputs"]:
         require(inherited[spec["path"]] == spec,"all four original RW native qualifications preserved verbatim")
     old_body = parse(contents[roles["old_body_manifest"]])
     scalarization = parse(contents[roles["original_scalarization_manifest"]])
     for role,dimension,parts in (("base_index",65,5),("direction_index",193,14)):
-        index_spec = next(s for s in HISTORICAL_INPUTS if s["role"] == role)
+        index_spec = next(s for s in history if s["role"] == role)
         index = original_small_index(root,index_spec)
         require(index["kind"] == "complete_lossless_radial_cubic_shards_v1"
                 and index["coefficient_shape"] == [4,6144,dimension]
@@ -548,10 +557,12 @@ def build(root,prior_manifest_path=None,prior_execution_path=None):
             path = str(Path(index_spec["path"]).parent/part["file"])
             got = inherited[path]
             require(got["sha256"] == part["sha256"] and got["bytes"] == part["bytes"]
-                    and got["encoding"] == "gzip-npz" and got["commit"] == index_spec["commit"],
-                    "every original complete lossless shard is pinned as a whole")
+                    and got["encoding"] == "gzip-npz"
+                    and ((role == "base_index" and got["commit"] == index_spec["commit"])
+                         or (role == "direction_index" and got.get("reconstruct_only") is True)),
+                    "every original complete shard is pinned; missing direction shards are explicit reconstruction")
     for role in ("old_centre_repair","old_direction_repair"):
-        spec = next(s for s in HISTORICAL_INPUTS if s["role"] == role)
+        spec = next(s for s in history if s["role"] == role)
         require(any(old["path"] == spec["path"] and old["bytes"] == spec["bytes"]
                     and old["sha256"] == spec["sha256"] for old in scalarization["files"]),
                 "same complete original signed repair-native identity")
@@ -643,7 +654,7 @@ def build(root,prior_manifest_path=None,prior_execution_path=None):
                 "one concrete original first-attempt run")
         suffix = "-continue-"+prior_execution["run_id"]+"-"+definitions[prior_execution_path]["sha256"][:12]
     manifest_path,workflow_path = BASE_MANIFEST+suffix+".json",BASE_WORKFLOW+suffix+".yml"
-    problem = "R149_complete_true_root_finite_trials_20261126"+suffix
+    problem = "R149_complete_true_root_finite_trials_restored_20261127"+suffix
     manifest = {
         "repository":REPO,"kind":owner.MANIFEST_KIND,"scientific_kind":owner.KIND,
         "stage":"true_root_finite_trial_residuals","problem_id":problem,
@@ -651,14 +662,14 @@ def build(root,prior_manifest_path=None,prior_execution_path=None):
         "target_order":owner.TARGETS,"new_target_order":new_targets,
         "allowed_scientific_fields":owner.STATE_FIELDS,
         "files":[definitions[path] for path in sorted(definitions)],
-        "historical_inputs":HISTORICAL_INPUTS,"roles":roles,
-        "expected_current_input_count":len(definitions),"expected_historical_input_count":27,
+        "historical_inputs":history,"roles":roles,"input_restoration":input_restoration,
+        "expected_current_input_count":len(definitions),"expected_historical_input_count":len(history),
         "continuation":continuation,
         "actual_prior_natural_object_metadata_admission":prior_admission,
         "operation":{
             "topic_maximum_bytes":200000000,"reserve_bytes":120000,
             "readme_pull_interval_seconds":1800,"automatic_scientific_retry":False,
-            "consumed_marker":OUTPUT_BASE+"/consumed"+suffix+".json","output_base":OUTPUT_BASE,
+            "consumed_marker":OUTPUT_BASE+"/consumed-restored-20261127"+suffix+".json","output_base":OUTPUT_BASE,
             "maximum_state_bytes":18000,"maximum_matrix_bytes":26000,
             "maximum_negative_bytes":50000,"maximum_positive_bytes":52000,"maximum_prefix_bytes":20000,
             "maximum_execution_bytes":35000,"maximum_total_publication_bytes":170000,
@@ -666,6 +677,9 @@ def build(root,prior_manifest_path=None,prior_execution_path=None):
         "scope":{
             "complete_original_rows":7721,"complete_original_natural_parts":40,
             "complete_original_cubic_shards":19,"complete_original_signed_repair_chains":2,
+            "necessary_original_nodal_Hermite_reconstruction_separately_counted":True,
+            "original40_row_objects_restored_from_Git_without_archive_dependency":True,
+            "original_failed_45806282910_manifest_and_execution_unchanged":True,
             "fixed_original_eta_width_retained":"1/1000000000",
             "selected_Q0_plus_delta_Z_and_both_means_retained":True,
             "old_completed_scalar_row_KAM_Gram_or_inverse_targets_recomputed":0,
