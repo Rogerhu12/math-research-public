@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R12 指定实际运输递推的最优累计成本确为五次阶（2026-11-27，已证明）：** [完整D实现的原逆像下界](results/R12-appendix-near-optimal-cost-of-the-actual-transport-recursion.md)给每步真实最优成本介于1/(sqrt(N_n)α_(m_n−1))与2/α_(m_n−1)，显式运输距最优至多2sqrt(N_n)。所有实现的累计log费用共同主项为ΣL_(m_n−1)，误差至多O(nlogn)，因此Θ(n⁵)不能靠更换实现降成四次；结论仅限已指定目标，软目标仍需原来源连接。
+
 - **R12 同一实际源的非复制运输与全程固定球递推已构造（2026-11-27，已证明）：** [准确边费、前缀亏损与真实R_n证明](results/R12-appendix-same-source-transport-interpolation-and-sustainable-actual-recursion.md)用可测非负流分别支付普通范数与全部Deddens成本，达到精确最小普通插值范数；保持原h的截取误差趋0。N_n≥4n的显式f_n给R_nAf_(n−1)=f_n、统一普通范数及O(n⁵)累计log成本；保β_n∏c≥1/√2，不宣未知M被保持或已得矛盾预算。
 
 - **R150 S0/Lt0的整个半base权支路为空（2026-11-27，已证明）：** [ellhalf/a-half全原返回](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-half-base-weight-exclusion.md)由原M与z²−2D的52次结式给20次完整谱，低谱各返原z域由Delta/z排除；末16谱保同θ和d两根，在32维原代数中E1/EB真逆乘回1。自含源exit0/0.475966秒/30200KiB，原九式输入与52次真逆已核；后续一般图可付ell−1/2，不宣整Lt0完成。

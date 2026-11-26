@@ -5,9 +5,9 @@
 ## 目标、规则与执行
 
 - **普通复可分无限维 Hilbert ISP 未完成。** 仅全体有界算子的存在定理或完整反例算完成。
-- **最近实际 pull / 已读规则提交：** `426bd18eeeafcfa7c479c550b6f6d2843e36052d`（2026-11-26 20:11:17 UTC；本地部分克隆）；本次两 README diff 无变化。每次 pull 且至少每小时检查并更新本项。
+- **最近实际 pull / 已读规则提交：** `794112a11e2920abf053f01973d7a935e8d3edb9`（2026-11-26 20:20:18 UTC；本地部分克隆）；本次两 README diff 无变化。每次 pull 且至少每小时检查并更新本项。
 - 私库 QUEUE 接手已推 `5746fa79a74af4975476d400dfbe0c4e5cb9ae9d`；私库根规则已读至 `ec011a5c25eeb7aed6eea040d601e7351726ede9`。每结论单推，非快进即 pull --rebase 再推；不 force，令牌仅 CLI。
-- 本轮本地终端可用。前会话执行身份及全部原交接保[接手快照](notes/2026-11-27-handoff-at-takeover-8542.md)；本轮后续完整细节保[第二快照](notes/2026-11-27-handoff-before-new-tower-and-closure-8542.md)。失败不改标成功，已登记不重做。
+- 本轮本地终端可用。前会话执行身份及全部原交接保[接手快照](notes/2026-11-27-handoff-at-takeover-8542.md)；本轮快照链见[最新完整归档](notes/2026-11-27-handoff-before-low-invariant-and-soft-target-8542.md)。失败不改标成功，已登记不重做。
 - 仅保源、参数、SHA、小回执；MD<100KB、H<10KB、open尽量<30KB、topic<200MB，不写根LOG。已读本轮 log；notes 按交接路径与结果索引定点续读。
 - 正在推进：R271 同一 w 的真实终端/稳定范围；R150 S0三值互异Lt0原r1非零一般图；文献与 Deddens 同源插值。完整证明登记后即接下一未闭项。
 
@@ -57,4 +57,4 @@ Deddens本轮完整已闭结论见[索引](results.md)：D∩D*=乘法MASA，非
 
 全R自伴核仍开，不以移动字符消失或一般细块小量替全B(H)唯一性。已转同一实际尾纤维的非复制运输插值，保原递推来源与费用；未知M未证被D核心保持。∩A^kM增长率、G_reg/Haar/子商及原快照中全部未闭接口继续。
 
-[原同源运输及可持续递推](results/R12-appendix-same-source-transport-interpolation-and-sustainable-actual-recursion.md)已证：逐尾流π的行质量/普通列容量/边费用平方列容量给Xh=g及真实双范数；前缀条件刻画最小普通范数，精确亏损趋0。N_n为最小dyadic≥4n、f_n=1_{r≥2n−1}有真实R_nAf_(n−1)=f_n、||R_n||≤2/α0、c≤2/α_(m_n−1)，累计log费用O(n⁵)。仍须β_n∏c≥1/√2，未知M保持与矛盾预算未付。
+[原同源运输](results/R12-appendix-same-source-transport-interpolation-and-sustainable-actual-recursion.md)已给实际R_nAf_(n−1)=f_n、统一普通范数与双列流预算；[完整D成本下界](results/R12-appendix-near-optimal-cost-of-the-actual-transport-recursion.md)给同一硬目标最优成本的比值夹逼2sqrt(N_n)，累计log费用确为Θ(n⁵)。不能只换实现降四次；继续软目标及同源连接，β_n∏c下界与未知M保持仍未付。
