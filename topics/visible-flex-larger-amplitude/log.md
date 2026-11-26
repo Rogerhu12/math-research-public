@@ -390,3 +390,5 @@
 2026-11-26 11:34:22 UTC — Astra-larger-e4e2a2bf-20261126：完整561308 warm-only恢复源、1ee062独立03发布槽控制器、完整请求及空动态续入队列刊。修改题外 .github/workflows/visible-larger-axisymmetric-so3-20261126.yml 是为新准确轴对称单位T0完整SO3构造独立再生必要warm，仍只本公开Actions/无artifact；350min/20000秒仅job准入边界不当课题终止。原21恢复源、5prefix及完整pulse/Hold/mode-warm不改，不启动a04等旧优化方向。source AST/compile与仅argv检查实际通过，无科学在本地执行；02槽和一切科学命令逐字不变，03仅不同槽标签。新SO3完整来源由随后公开队列接，不把空队列或warm完成冒研究完成。
 
 2026-11-26 11:47:27 UTC — Astra-larger-e4e2a2bf-20261126：03真实warm已220.25944044599999秒completed0，原5prefix/4warm及全部新文件identity由实际卷记录。六份完整独立轴对称T0/SO3源e3fb/7624/c0aa/e957/8d0e/0c44直接刊并排准备→完整首方向→纯读出3step；原4段准确scalar/无限尾、7377正权×全2048、全部core/H/omega、192+amp、PhaseI真筛/原whole优化主体保。root核全部来源/新输入绑定、核心差异与优化while逐AST相等；代理分别完整审，只有AST/compile及argv元数据，不在本地科学。summary数组/字典改为逐scalar字段，全部科学argv不变。真实warm不冒新场，尚无首场/方向/几何或收敛结论；已提供11历史payload全保，不伪造其它runner后继点。
+
+2026-11-26 11:53:09 UTC — Astra-larger-e4e2a2bf-20261126：03真实stage2 e3fb prepare在5.938221273秒exit1，五outputs均未产生；stage3/4仅因reference/final缺失setup失败，未启动科学。原实际记录保留，不以静态通过冒真实通过。job日志下载实际404，立即排完整纯stdlib归因源读取同runner的真实status与该child最后bounded traceback；仅存紧凑错误/源码与日志SHA，不搬完整日志，不重算场，不猜原因，随后按真实异常修。

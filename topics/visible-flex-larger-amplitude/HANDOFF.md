@@ -4,7 +4,7 @@
 
 ## 规则与完整目标
 
-最近规则核查：2026-11-26，真实pull/rebase至 `2f0d2be8999cbf76b2bc2dcd660fc00cc07a2efa`，根及课题README相对f0548477无差异，已完整读授权及规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
+最近规则核查：2026-11-26，真实pull/rebase至 `128f1d4dfde7823404f3e5c7aa7446dfd653e1f2`，根及课题README相对f0548477无差异，已完整读授权及规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
 
 科学计算仅本公开仓库Actions；早前本地偏差及纠正见[执行记录](notes/2026-11-20-public-actions-execution-correction.md)。root唯一分支写者；代理只scratch及未引用小源blob。每条结论普通commit/push，NFF立即pull --rebase循环再推，不强推。至少每小时pull，每次核双README差异/立即遵新规并记commit。raw只scratch/runner，不入Git/Release/artifact；保完整小源/参数/run/SHA/紧凑结论。题≤200MB、单文件<5MB、MD<100KB、H<10KB、open<30KB。令牌仅瞬时CLI。11:22环境再次失联，恢复后重新部分克隆/真实pull；已刊与未引用完整小源都恢复，未补造raw。
 
@@ -34,7 +34,7 @@ R692[完整旋转连接](results/R692-nonlinear-rotation-connection-and-metric-e
 
 [R693](results/R693-so3-radial-closure-branches-and-error-interface.md)已证准确E=1的零Δ或切向反射分支及全六jet误差；首源未存closure汇总，需实际同场读。[R694](results/R694-so3-low-order-signed-quadrature-error-algebra.md)30ae完整signed Peano/非零质量/低阶mixed jets/六jet和谱费用核已刊，同场输入盒未付。[R695](results/R695-so3-zero-closure-bubble-uniform-IFT.md)新证双内部bubble满秩、显式固定端轴右逆、严格统一收缩球及完整三角隐式J/J*；实际IFT条件未验、完整零Δ源在接。闭合或E=1都不替代剩余Gram/曲率/全域几何。
 
-03 [run45811843606/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45811843606) 由4d8fbb03触发，561308完整warm-only已真实220.259秒exit0，Hold3df37d/node5d3f4d/scalar1fbd5e输入齐。[准确轴对称SO3六源](notes/2026-11-26-independent-axisymmetric-so3-complete-entry.md)e3fb/7624/c0aa/e957/8d0e/0c44及完整3step已刊排：准确全prefix/Hold/深尾T0，独立完整hΔ场/PhaseI/全空间方向/纯读出，不重放旧优化，实际profile按返回固定。11历史payload全保，未提供runner后继点明确不伪造；全网格和新分支所有永久点真复读。新场完整费用及精化待付，02原父路线继续，零Δ源与整胞积分输入界接续。
+03 [run45811843606/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45811843606) 由4d8fbb03触发，561308完整warm-only已真实220.259秒exit0，Hold3df37d/node5d3f4d/scalar1fbd5e输入齐。[准确轴对称SO3六源](notes/2026-11-26-independent-axisymmetric-so3-complete-entry.md)e3fb/7624/c0aa/e957/8d0e/0c44及完整3step已刊；prepare首返5.938秒exit1、两个下游未启动，纯真实trace归因续排；入口保：准确全prefix/Hold/深尾T0，独立完整hΔ场/PhaseI/全空间方向/纯读出，不重放旧优化，实际profile按返回固定。11历史payload全保，未提供runner后继点明确不伪造；全网格和新分支所有永久点真复读。新场完整费用及精化待付，02原父路线继续，零Δ源与整胞积分输入界接续。
 
 <!-- visible-larger-parallel-02:start -->
 并行公开Actions02：[run 45800076687/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45800076687)；[实际记录](notes/2026-11-26-public-actions-45800076687-1.md)。阶段`followup:held-amplitude-protected-complete-mean-design-first-20261126`/failed；已返35，exit=1。

@@ -312,6 +312,41 @@
         }
       },
       "scope": "Actual complete new source/report attribution; independently bind the actual reference/profile canonical definition, norm and rows. Separate common slack from real g and all inherited baseline claims; no F/J or raw arrays recomputed."
+    },
+    {
+      "id": "actual-axisymmetric-reference-first-failure-trace-20261126",
+      "script": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/read_actual_followup_failure.py",
+      "args": [
+        "--status",
+        "{work}/status.json",
+        "--step-id",
+        "independent-axisymmetric-R690-reference-prepare-first-20261126",
+        "--output",
+        "{work}/postprocess/axisymmetric-reference-first-failure.json"
+      ],
+      "outputs": [
+        "postprocess/axisymmetric-reference-first-failure.json"
+      ],
+      "summary": {
+        "postprocess/axisymmetric-reference-first-failure.json": {
+          "source_sha256": "source_sha256",
+          "step_id": "step_id",
+          "actual_source_sha256": "actual_source_sha256",
+          "actual_source_commit": "actual_source_commit",
+          "actual_returncode": "actual_returncode",
+          "actual_recorded_seconds": "actual_recorded_seconds",
+          "actual_log_sha256": "actual_log_sha256",
+          "actual_log_bytes": "actual_log_bytes",
+          "final_python_traceback_found": "final_python_traceback_found",
+          "final_exception_line": "final_exception_line",
+          "bounded_failure_excerpt": "bounded_failure_excerpt",
+          "excerpt_character_limit_reached": "excerpt_character_limit_reached",
+          "complete_log_published": "complete_log_published",
+          "scientific_arrays_read": "scientific_arrays_read",
+          "field_or_J_evaluations": "field_or_J_evaluations"
+        }
+      },
+      "scope": "Pure actual child failure attribution from the same live runner status and bounded final traceback. No scientific arrays or F/J evaluations; complete log remains on runner. No failure cause guessed."
     }
   ]
 }
