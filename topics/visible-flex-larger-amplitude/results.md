@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- **R703（已证明，范围以正文为准）**：[法向端点提升、共同有限分段与全部隐式jet链](results/R703-normal-endpoint-lifting-and-fixed-partition-jets.md) — 完整法向提升及共同固定分段给准确闭合、交叉Jacobian与定量收缩；全上游角jet/J/J*链保留，辅助tau不是物理t。 原已刊完整论证的正式编号，无新科学复算。
+
 - **R702（已证明，范围以正文为准）**：[同固定目标的显式高度初值与准确端点恒等式](results/R702-fixed-target-explicit-height-endpoint-identity.md) — 准确零旋转端点失配的水平core项不随H变化，H只移竖直目标；采用实际Jstar工作字不把它称准确积分，也不保证根。 原已刊完整论证的正式编号，无新科学复算。
 
 - **R701（已证明，范围以正文为准）**：[新增控制形状、横截秩条件与完整KKT隐式链](results/R701-added-shape-rank-and-complete-kkt-jets.md) — 独立gamma严格增加控制函数族；实际补秩需横截条件，九KKT/27角jet/四阶链完整保，未证明实际折叠或根存在。 原已刊证明的正式编号登记，无新科学复算。
