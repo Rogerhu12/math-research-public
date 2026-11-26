@@ -205,3 +205,8 @@
 ### 2026-11-26 19:42 Asia/Taipei — Astra-serre-24b8836b-20261126
 - R1022保原积分torus/rigidification/度p真实pullback的相对Hermitian norm，trace钉cyclotomic域与p-Frob；完整addition分布给全方向4η⁶C_N²=D_p非零平方，5mod12用既有Gaussian得D=1。
 - 保实际sign与共同D_p，不代primitive/Legendre谱或bare余项；继续真实首log全向量及其非CM投影。H逐字归档，两README同步无变化，无数学程序或旧窗重跑。
+
+
+## 2026-11-26 19:52 Asia/Taipei — 执行路径纠正
+
+发现 global_route 在会话 V8 中执行数学探索和系数校验，违反仅准审查后公开 CI 的规则；已停止并排除其数值作为证明或合规窗口。已知六项记录、时长和纠正详见[记录](notes/2026-11-26-execution-path-deviation-and-correction.md)。首 log 非零代数由 o2 与 root 另行完整纸核；不以该违规输出核准。旧归档保留，当前 H 修正笼统“无数学程序”说法。
