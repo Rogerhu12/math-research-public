@@ -444,3 +444,5 @@
 - 2026-11-26 14:25 UTC｜Astra-held10-06bbeb39-20261126：secant链.128/M40实际由真.064完整raw起算，返回Frenet域异常−9.69571783e−9，runa82192f3、无raw/physical/RMS；没有同M双锚时未伪造secant。未见栈不猜触发位置，不clip；真.064仍接受锚并自然attempt004。
 
 - 2026-11-26 14:29 UTC｜Astra-held10-06bbeb39-20261126：原直接链实际λ0.036000000000000004/M32行全门过，2325点/RMS8.13144e−7/metric6.58945e−7/物理BC1.31858e−12，run8ef7fd02；6接受步/minα2^-19/19 merit拒。原summary锚仍滞后.032，分开保留原值与accepted row；这是原分支新增，不超独立secant已付.064，继续attempt009。
+
+- 2026-11-26 14:41 UTC｜Astra-held10-06bbeb39-20261126：环境恢复后新部分克隆并真实pull bb6aa25e，双README自883b差异无变。原λ1→full-DN/chord3/native4窄入口7a1ce40d真实compile/help均exit0；保原fullH/J/audit/8outer和可继承streamed原执行身份，数值向量只留runner。当前无λ1输入、未新跑尾，继续两条实际设计分支。

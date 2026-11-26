@@ -6,8 +6,8 @@
 
 连通闭C²嵌入、C²连续族；H闭、有内点且diamH≥.2D，整像δhold≥.1D、含反射δE>0，全时reach≥.03D。固定完整g/物理数据/时间范围加密到完整metric≤1e−6并持续下降。必须实际闭合和共用Cartesian两jet；λ<1不提供准确圆弧H。
 
-- 公共已完整读规则并真实pull：`883b48354b4b91b361c26e55f96b046a7ff6069f`；私有根README/QUEUE接手登记已推 `2f68946f2fa3e192a291c7c1393231af1a89953e`。每次pull核双README差异，至少每小时一次。root独占git，逐结论push，NFF立即pull --rebase再推，禁force；令牌只命令行。
-- 终端13:55 UTC再断开；临时用仓库接口，双README差异核至`575a8901dbcb11fdcdcf42441cb59939085ad8d5`均无变，未冒充真实pull。恢复后立即部分克隆/pull并核规则。[接手来源](notes/2026-11-26-resume-and-current-sources.md)。
+- 公共规则已读；最后实际pull并核双README：`13f6560ccdaf8390582e3f899d415487c88b5f92`（2026-11-26 14:41 UTC），差异无变。私有QUEUE接手已推`2f68946f2fa3e192a291c7c1393231af1a89953e`。每次pull核双README，至少每小时；root独占git，逐结论push，NFF立即pull --rebase再推，禁force；令牌只命令行。
+- 终端13:55–14:36 UTC断开期间临时接口提交；恢复后已新部分克隆并真实pull，规则无变。[接手来源](notes/2026-11-26-resume-and-current-sources.md)。
 - [70源恢复](notes/2026-11-26-tail-source-recovery.md)保原输入/门，不计新结论。
 - 旧[material终态](notes/2026-11-26-recorded-tail-worker-interruption.json)：run45763361623于11:13:59 UTC到原期限，历史λ.004真尾.25/.5过、.75未知；prefix metric未门。旧[lowq终态](notes/2026-11-26-lowq-worker-deadline-actual.json)：run45772029917于12:30:41到期限，M24+终态未知；不重复旧尾/失败链。
 - 根§12优先真实数学/求解，§15可再生数组不入Git/Release/artifacts；只存源/参数/命令/hash/小标量。H<10KB、单MD<100KB、目录<200MB，不写根LOG。
@@ -30,7 +30,7 @@
 
 **R69已证明**：[完整核心C²差](results/R69-uniform-core-c2-difference-from-phase-controls.md)：同phase族/中心规范下，η=min(2,E0)，位置≤Pη/√3、一阶≤η、二阶≤E1+min(Ki)η；精确闭合Green算子保零模。未付全场Cauchy。
 
-[原full-H执行合同](notes/2026-11-26-full-height-native-continuation-source-audit.md)与[v5 DN接口](notes/2026-11-26-v5-full-dn-source-interface.md)已核：复用现chord-source/native4，generic入口未装chord；基线/runtime配置分别绑定，保full-H/J/audit/最多8outer。v5只收真实solver来源；原seam mean≠源Cartesian mean，不能冒充公共两jet。无新尾求解。
+[原full-H合同](notes/2026-11-26-full-height-native-continuation-source-audit.md)/[v5接口](notes/2026-11-26-v5-full-dn-source-interface.md)已核。[λ1→原DN/chord3/native4窄入口](notes/2026-11-26-original-lambda-one-chord-native4-entry.md)7a1ce40d已compile/help过：复用同VM源/二进制，配置分别绑定；保full-H/J/audit/8outer，可继承真实streamed包装。当前无λ1输入、未执行新尾；源mean≠seam mean，不冒充共同Cartesian两jet。
 
 ## 必须复用的前会话成果
 

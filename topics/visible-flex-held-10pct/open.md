@@ -173,3 +173,5 @@ O9初猜对照：原旧态可健康起步，但q025线性放大H的完整Newton�
 完整割线链的[λ.128/M40实际尝试](notes/2026-11-26-original-design-secant-lambda0128-domain-return.json)使用真.064/M40完整raw（此时仅一个真M40锚），报Adaptive Frenet domain failure: -9.69571782897475e−9；无raw/physical/RMS，栈未投影，不断言是初始域、δ差分或增网造成。保持原域门、真接受.064，父链自然attempt004，不clip或晋级异常场。
 
 原直接分支[新λ字面0.036000000000000004/M32行](notes/2026-11-26-original-design-lambda0036-accepted.json)已全原门通过：2325点/RMS8.13144e−7/metric6.58945e−7/物理BC1.31858e−12；run8ef7fd02。保留summary result仍写.032的滞后原值，实际accepted row与它分别记录，不静默改写。当前attempt009下一目标未露；全局已知前沿仍是独立secant的.064/M40。
+
+[λ1来源接原完整DN的窄协调入口](notes/2026-11-26-original-lambda-one-chord-native4-entry.md)已实际通过compile/help；仅支持真实原R53或v5 solver来源，保原full-H/J/audit/8outer，复用同VM chord3/native4及已验streamed执行身份。当前λ1输入仍缺，未启动新尾；配置/Cartesian mean/全闭同g缺口均不因此支付。
