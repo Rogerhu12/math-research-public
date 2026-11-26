@@ -381,3 +381,7 @@ workflow .github/workflows/visible-true58-joint168-body-suffix.yml 位于题外�
 两仓浅历史部分克隆并实际pull，根/题规则已读；私有QUEUE本题认领已推9278b28，处理相邻行并发冲突时保留其它课题新状态。
 原joint168研究9条记录齐但solver时限无返回，report误识别祖COMPLETE；仍58，累计5018.790751846秒/147，完整见接手note。
 新并行推进全体段metric交换、同χ余矩修复和新的闭合几何；原HANDOFF完整归档，主标准未改，继续研究。
+
+## 2026-11-26 — Astra-new-mechanism-0105020f-20261126 / 报告器来源修复
+
+修复 joint168 reporter 将 INPUT/source_ancestor 同名tag误作current的分类；保真实当前缺失检查。三个纯日志情形通过，未运行科学或改判原失败。继续全域几何求解。

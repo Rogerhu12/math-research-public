@@ -265,7 +265,12 @@ def actual_receipt_comparisons(records):
                     # Emitted receipts carry the full producer prefix. A missing
                     # current MODEL/TRACE/RESULT body is not an ancestor receipt.
                     declared_tag=obj.get("tag")
-                    current=bool(isinstance(declared_tag,str) and declared_tag.startswith(PREFIX))
+                    # A continuation reuses PREFIX but carries its preceding
+                    # attempt under INPUT/source_ancestor. Producer names do
+                    # not make those inherited receipts current-run records.
+                    inherited = row["tag"] == "INPUT" and path[:1] == ("source_ancestor",)
+                    current=bool(not inherited and isinstance(declared_tag,str)
+                                 and declared_tag.startswith(PREFIX))
                     current=current or bool(row["tag"]=="COMPLETE" and len(path)==1 and path[0] in {
                         "model_stdout_receipt","model_partial_stdout_receipt",
                         "solve_trace_stdout_receipt","solve_partial_stdout_receipt",

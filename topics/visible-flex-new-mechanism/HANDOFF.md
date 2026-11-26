@@ -6,7 +6,7 @@
 
 ## 1. 规则与接手
 
-已部分克隆并实际 `git pull main`，公开根 README、课题 README、HANDOFF、open、results 索引及相关 log/notes 已读。公开已读提交 **dba767eeee618d70f394831cc2e8cd21aa2a6885**（2026-11-26；本次实际pull后根/题README空差异）；私有根初读 **85fdf1853367ef25c07f3ebdb6ae25c22a3564b8**，随后逐次 pull/rebase 检查根差异，空差异。私有 QUEUE 的本题已改为本会话进行中并成功推送：**9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7**；最后规则空差异读至 **6354c0f712b212f94dfa393f996d1ca47b5d9165**。其它课题的并行认领保留。
+已部分克隆并实际 `git pull main`，公开根 README、课题 README、HANDOFF、open、results 索引及相关 log/notes 已读。公开已读提交 **0cce0bd70f245a11f13a0c38f13431bf5d9bfc4f**（2026-11-26 05:33 UTC；本次实际pull后根/题README空差异）；私有根初读 **85fdf1853367ef25c07f3ebdb6ae25c22a3564b8**，随后逐次 pull/rebase 检查根差异，空差异。私有 QUEUE 的本题已改为本会话进行中并成功推送：**9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7**；最后规则空差异读至 **6354c0f712b212f94dfa393f996d1ca47b5d9165**。其它课题的并行认领保留。
 
 初始执行盘仅余约 11 MB，普通历史的 blob:none 部分克隆仍在对象索引阶段磁盘不足，未改变远端。随后以 `--filter=blob:none --depth=1 --sparse` 在本次临时目录成功克隆两仓；公开仅检出本课题，私有仅根文件。终端 git 已恢复；旧交接中 11-16 执行环境不可用的描述不是本次现状。令牌只在命令行临时环境使用。
 

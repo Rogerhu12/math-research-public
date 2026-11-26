@@ -79,3 +79,9 @@ SOLVE_TRACE 的 status 为 `stopped-at-declared-new-solver-limit`。真实异常
 4. 原 `.26`、曲率58、1e-7 minimum improvement 与原系数盒只是这串已关闭有限问题的定义；它们不是 README 的完成标准。新明确参数族可以改变盒、控制基和目标，但必须给完整身份、真实全域验证及固定 g 精化。不得通过对旧失败重新判定来完成这一改变。
 
 构造上仍需达到 eta→0、curvature≤1000/61，并支付跨片 reach、闭帽、连续支持域与固定度量细化。上述仅给新全域求解问题的可执行入口，不宣称存在可行方向或主解。
+
+## 6. 后续报告器修复（2026-11-26）
+
+`frame_metric_true58_joint168_body_suffix_report.py` 的原 `actual_receipt_comparisons` 仅凭 producer tag 前缀判 current，而续接请求复用相同前缀。现先识别 `INPUT/source_ancestor/...` 的继承上下文，再作当前记录判定；顶层 COMPLETE/FINAL_CLOCK 的真实缺失门不变。这只修日志来源分类，不改变原solver结果、旧report状态或任何科学门。
+
+用三个小型纯日志fixture确认：同标签祖回执不要求当前正文；真实当前回执缺正文仍标missing；当前hash/长度匹配时正确找到记录。无科学模块导入，无重算旧研究。
