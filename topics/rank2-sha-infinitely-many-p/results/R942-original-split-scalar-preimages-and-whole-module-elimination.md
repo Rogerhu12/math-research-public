@@ -547,3 +547,129 @@ basis_multiplier 正是通过同一个 operations.multiplication_matrix 构造�
 | rank2-sha-original-low-p-divisors.yml | eeedd02b8fe3fe823f27da1ab9ba6bc2ebe4bb62 | 3b89076c157248f96c04458d82df30e8d58cccce |
 
 这些是待接入的源码，不是已执行回执。原两份F/P认证、q2453/batch64/minimal及34源完整绑定均保；没有以“已备”冒原六除子完成。
+
+## 10. 完整 paired graph 与仿射单位提升：同一三角原像的两个推论
+
+R931 原厚模路径在有效理想商之后，还有两个真实费用：完整分式图调用第二个 $2n\times n$ 多项式核，分式值与单位逆再调用带全部变换矩阵的多项式单位解。只更换 §8 的有效商尚不能消除这些后继调用。本节直接使用已经证明的完整三角原像和 §3 的附加块整左除法，保留全部原来源和目标坐标。
+
+### 10.1 全分式图的两投影一起返回
+
+设 $R=k[t]$，$M_D,M_N\in\operatorname{Mat}_n(R)$，且 $M_D$ 非奇异。它们在实际路径中是同一原归一化基上的分母、分子乘法矩阵。完整图为
+$$
+\mathcal G=\{(x,y)\in R^n\oplus R^n:xM_D=yM_N\}.
+\tag{10.1}
+$$
+先用完整行模算法求
+$H_D=\operatorname{HNF}_{R}(M_D)$，再按 §8 求完整原像
+$$
+Y=\operatorname{basis}_R\{y:yM_N\in\operatorname{row}_R(H_D)\}.
+\tag{10.2}
+$$
+$Y$ 保全部 $n$ 个来源方向。逐行使用 §3 的附加块整左除法，求
+$$
+XM_D=YM_N.
+\tag{10.3}
+$$
+每个条目必须在 $R$ 中，且 (10.3) 回乘全部行、全部列。
+
+**命题 10.1。** $(X\mid Y)$ 是 (10.1) 的完整 $R$-基，不只是其分式域张成空间。
+
+**证明。** 任意 $(x,y)\in\mathcal G$ 的 $y$ 属于 (10.2)，故唯一写为 $y=bY$，$b\in R^n$。由 (10.3)，
+$(x-bX)M_D=0$；$M_D$ 非奇异给 $x=bX$。反向包含由 (10.3) 逐项成立。因此全部图和两投影都准确返回。证明允许 $M_N=0$，未要求分子可逆。$\square$
+
+原分式的真极理想就是 (10.2) 的整个分母投影：它记录所有使 $y(N/D)$ 整的原 $y$。在实际整曲线的乘法中，这个模块本来就是理想。不能用某个被选分母 $D$ 的零除子替代它，也不能只保留少数 paired rows。新 helper 返回原来相同的 $X,Y,M_N,M_D$ 与完整极理想接口。
+
+### 10.2 仿射约束必须保留最后一个来源坐标
+
+设 $H$ 是完整非奇异上 HNF，$M\in\operatorname{Mat}_{r,n}(R)$，$b\in R^n$。所需方程为
+$$
+uM-b=vH,\qquad u\in R^r,\ v\in R^n.
+\tag{10.4}
+$$
+构造整个增广来源
+$$
+\widetilde M=\binom M{-b},
+\qquad
+\mathcal P=\{(u,\lambda)\in R^{r+1}:
+uM-\lambda b\in\operatorname{row}_R(H)\}.
+\tag{10.5}
+$$
+按 §8 取得完整基 $P$；特别不能丢掉 $\lambda$ 列，也不能在分式域中先把它归一为一。$\mathcal P$ 有满秩 $r+1$：$R^n/\operatorname{row}(H)$ 为扭模，某个非零多项式杀掉整个目标，故其倍乘的全部标准源属于 $\mathcal P$。
+
+令
+$$
+g=\operatorname{monic\,gcd}(P_{0,r},\ldots,P_{r,r}).
+\tag{10.6}
+$$
+最后源坐标在完整模块中的像准确为理想 $(g)$。故 (10.4) 有整解，当且仅当 $g=1$。若成立，用多项式 Bézout 组合给
+$$
+\beta P=(u,1).
+\tag{10.7}
+$$
+算法保留整个 $\beta$、整个 $(u,1)$，并回乘 (10.7) 的全部源坐标。最后用完整 HNF 坐标除法返回 $v$，回乘
+$$
+uM-b=vH
+\tag{10.8}
+$$
+的每个目标坐标。若 $g$ 非单位，准确拒绝该仿射解；不能除以 $g$ 或局部化后接受。
+
+这证明了存在性、必要性和完整返回。多项式 gcd 过程中可以归一基域非零常数；没有逆掉非单位的目标乘子或有理函数分母。
+
+### 10.3 原厚分式值与单位逆保留哪些门
+
+在同一原归一化代数 $A$ 中，令 $I$ 是完整有效理想，$H=I.\mathrm{basis}$，原单位向量为 $1_A$。
+
+对于原分式 $N/D$，先用 §10.1 保整个 paired graph，然后用 §10.2 解
+$$
+uY\equiv1_A\pmod I.
+\tag{10.9}
+$$
+返回的全局向量为
+$$
+D'=uY,\quad N'=uX,\quad N'D=D'N,\quad D'-1_A\in I.
+\tag{10.10}
+$$
+原分式在完整厚商 $A/I$ 上的值因此是 $N'\bmod I$。即使原 $N,D$ 在该支上同时为零，(10.10) 仍是先在全局成立的真实分式恒等式，随后才利用 $D'\equiv1$；没有仅凭模 $I$ 的 $hD=N$ 断言可恢复 $0/0$。
+
+值也不依赖选择：若另一组 $(N'',D'')$ 满足同样条件，由乘以原非零因子 $D$ 的单射性得
+$N'D''=N''D'$；模 $I$ 后两个分母均为一，故 $N'\equiv N''$。算法另外保留旧接口的全局 cross-product、完整极理想加 $I$ 为单位、以及最终原算子在整个 $I$ 上的返回。
+
+单位逆是 (10.4) 的特例：
+$$
+uM_h\equiv1_A\pmod I.
+\tag{10.11}
+$$
+返回整个 $u$ 的约化并回乘原完整 $M_h$。目标始终是同一个全厚理想；没有取根基、删重复层或换剩余域。空除子的值与范数约定沿用 R931。
+
+此外，原几何前置调用的 zero_pole_ideals 也必须使用同一完整图，
+其零、极理想分别是全部 $X,Y$ 行模的规范化；不能在前置阶段又回到旧的 $2n\times n$ 核。
+若完整源理想 $J$ 的基为 $B_J$，原 integral_fraction_multiple 则直接用
+已证附加块整除法返回
+$
+VM_D=B_JM_N.
+\tag{10.12}
+$
+它对每个原基行同时求解并完整回乘；只要一条来源不整就拒绝。
+所得像是整个 $J(N/D)$，没有丢掉非整来源或清分母。
+新 engine 继承已证完整行 HNF，仅替换这两个调用。
+
+厚值实现类继承 §8 的完整有效商，并只替换 R931 的
+fraction_graph、recover_fraction、inverse_unit。R931 的每个 $\pi$-进厚层、原 $k_\pi/k$ 嵌入、完整诱导算子和相对范数仍由原 norm_unit 执行。本节没有实现新 CRT，也没有改原曲面或影子目标。
+
+### 10.4 独立小 API 与尚未接入的生产路径
+
+新独立源为
+[original_triangular_artinian_values.py](../scripts/original_triangular_artinian_values.py)；
+小入口为
+[check-original-triangular-values-api.py](../scripts/check-original-triangular-values-api.py)，固定原先同一 Sage 10.6 镜像和显式算法 fixture $k=\mathbf F_{29^2}$、生成元平方为二。
+
+小入口逐项要求：
+
+- 对非分裂重复因子的 $2\times2$ 完整图，与 Sage 原完整 $4\times2$ 多项式核的两投影作同一个整 HNF 换基比较；
+- 对零分子返回全部分母自由源；
+- 对 $(\pi t)/\pi$ 返回完整图 $(tI,I)$，保原同时为零情形；
+- 对 $3$ 个来源、$2$ 个目标的仿射方程返回全部原坐标；
+- 在 $\pi^2(t-1)$ 的全厚模上恢复该共同零分式；
+- 对确实无整解的 $\pi u\equiv1\pmod{\pi^2}$ 拒绝，不局部化。
+
+这只检查新接口与小例的执行语义，不是原 $306$ 维曲面、除子、范数或 shadow 的 PASS。新 helper 与小入口不改变正在运行的单 $F$ 任务，也尚未挂进第二个重型正规化入口。回执一旦可用，按真实 run、source 与 hash 登记。

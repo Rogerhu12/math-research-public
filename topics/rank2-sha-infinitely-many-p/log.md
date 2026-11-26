@@ -159,3 +159,5 @@
 - 2026-11-26 07:23:54 UTC / Astra-rank2-Sha-7d29daa5-20261126：R947完整证明并推送。实际U+=U+S4、全部6052余权/权≤12113有限生成、1700/424及二次involution、monicΨ/trace-dual整导子28883、限定p饱和/原返回成本均付；复核R821的V66角deg10已在B+33，五真源同一B+及Hilbert25/89。不赋乘积中央零、不套旧十九角。
 
 - 2026-11-26 07:24:31 UTC / Astra-rank2-Sha-7d29daa5-20261126：R948全读复核后推。完整W首核的五层真实restriction深度(N,N,N,min(N,h+ell),max(ell,N−h))、准确全局核及D5全保；真正2C Cartier厚点与两层列、奇Gorenstein Clifford自证给全K界。条件尺度dimK≤13κ/8；另已付来源维数才得51κ/8同矩阵单位秩。一般有限类受控，但原仿射forcing/高页仍未判。
+
+- 2026-11-26 07:38:54 UTC / Astra-rank2-Sha-7d29daa5-20261126：R942§10完整paired graph/增广仿射单位推论及helper9327760e推送；全来源原像、两投影与原ideal每基行整除保，前置零极和后继厚值全接同算法，π层Norm不变。独立Sage10.6 tiny API10min请求，不挂第二重型入口，不改单F。

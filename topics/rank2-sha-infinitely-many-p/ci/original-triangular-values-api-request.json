@@ -1,0 +1,15 @@
+{
+  "schema": "rank2-original-triangular-values-api/v1",
+  "prime": 29,
+  "extension_degree": 2,
+  "modulus_ascending": [
+    -2,
+    0,
+    1
+  ],
+  "checks": [
+    "complete-paired-graph",
+    "complete-affine-source-augmentation"
+  ],
+  "original_geometry": false
+}

@@ -501,7 +501,7 @@
 
 - [R940](results/R940-original-double-inert-descent-and-bounded-augmentation.md)：原整双新x12的π_m增广正是双D导数的唯一下降；保固定D后在两新惰性位全局部零。原c1≠0时，以最小环双槽的cτ平方选惰性单位检测，固定barp-strict复形H²tors指数b_p给p^(b_p+v_pD)κ12,m=0；深约化归零且唯一来自H1(J⊗T)。只同实际类的增广子格，不冒scalar整除、s0或跨p非零。
 
-- [R942§8](results/R942-original-split-scalar-preimages-and-whole-module-elimination.md)：完整上Hermite目标的全部矩形来源原像，由每列(w,−h)完整可逆消元并保全部零行的附加源块严格生成；无需分裂、分式清分母或约化厚度。逐层h/gcd指数只作返回，实际有效理想商保全生成元与完整乘积。仅独立小API请求，未重启原F或冒原306除子/PASS。
+- [R942§8](results/R942-original-split-scalar-preimages-and-whole-module-elimination.md)：完整上Hermite目标的全部矩形来源原像，由每列(w,−h)完整可逆消元并保全部零行的附加源块严格生成；无需分裂、分式清分母或约化厚度。逐层h/gcd指数只作返回，实际有效理想商保全生成元与完整乘积。小API run45767886956实际通过，未重启原F或冒原306除子/PASS。
 
 - [R943](results/R943-original-e89-fifth-central-full-selmer-and-five-axis-gate.md)：固定E89由两真点下降证rank≥2；2/3/89完整角色、Schwartz、degree178共同CM源、非零六次首项和全权平方付齐，普通及惰性均比较通常全Selmer。第五原中央共享原g，B5单位给五真实高轴唯一modp⁵必要值；完整H6尾/第六权整窗、原w13三/四/五次先折回、52跨界成本及20首响应均保。W∉B89，只有有成本SW∈B106；五轴不等于深核或无穷非零。
 
@@ -516,3 +516,6 @@
 
 
 - [R948](results/R948-original-five-block-full-source-filtration-and-double-curve-kernel.md)：同一五块完整K沿D_i嵌套过滤，真实深度(N,N,N,min(N,h+ell),max(ell,N−h))，各商准确注入原C线束且D5保留；给全有限h0界，不相加不同子块秩。四明确次数门下D2核零，全K注入2C上真正Cartier长N限制；Gorenstein曲线Clifford界自证。条件d≈4κ/h≈9κ/8/N≈9κ/4/χ=oκ时任意允许ell≥1给dimK≤13κ/8+oκ，另已付nD≈8κ才给同矩阵单位rank≥51κ/8；不付指定仿射forcing/深核。
+
+
+- [R942§10](results/R942-original-split-scalar-preimages-and-whole-module-elimination.md)：完整paired graph由分母HNF的全部来源原像Y及整左除法X保两投影，含零分子/共零；仿射uM−b∈rowH保全部增广坐标，最后列gcd=1恰是可整解，完整Bézout及回乘不局部化。前置零极/整分式乘I与厚值/单位逆同接已证原模算法，所有π层Norm仍沿R931。仅独立小API请求，不改运行中F或冒306/shadow PASS。
