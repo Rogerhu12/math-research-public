@@ -155,7 +155,7 @@ G以S/T E1856给physical C²整盘/曲率<2/径长<8e−6及同world position/no
 
 | 路线 | 实际状态与下一项 |
 |---|---|
-| R142→PS | [actual45761859526/1](results/R142-supplement-actual-parent-moment-wall-cap-and-durable-continuation.md)预算终止且无六球；[PS真实入口](notes/2026-11-26-low193-streamed-defect-after-45761859526-inputs.json)85pins已核并推送启动，accepted0/155，逐母格三平方全保存。新19600s科学预算，旧16800保；ε未知，true后缺源/point，fullfalse才signed。 |
+| R142→PS | [actual45761859526/1](results/R142-supplement-actual-parent-moment-wall-cap-and-durable-continuation.md)预算终止且无六球；[PS真实入口](notes/2026-11-26-low193-streamed-defect-after-45761859526-inputs.json)85pins已核，run45802396138/1运行，accepted0/155，逐母格三平方全保存。新19600s科学预算，旧16800保；ε未知，true后缺源/point，fullfalse才signed。 |
 | R149 physical链 | [58→224→32](notes/2026-11-26-physical-scalar-execution.md)及[PN56](results/R149-supplement-actual-positive-negative-receiver-execution.md)等待真低逆；全部L²_r head消元必须真实square通过，14原ports保持自身单位，true root96/mean/ν仍留。 |
 | common source4→6 | [source4实际](results/R149-supplement-actual-common-high-WPN-source-unit-ball.md)45783842857/1完整4/4锁定。原Xfr−4/3、state outermean与aux Ec*e保；[CXN6完整入口](results/R149-supplement-actual-common-high-negative-receiver-execution.md)已推，无actual32则无manifest。P/T同因三角，Ni/output9一次。 |
 | fixedη0 forward | 45778507038/1在跑，7296格6143接口、320bits/N512/源24流25、5h/6h。旧wholeη45772466407完整但positive/C0/外mean unknown、无真违例，成功覆盖锁定不重；[suffix规范](notes/2026-11-26-R144-fixed-eta0-mean-suffix-state-spec.md)仅真未完成才用。 |
@@ -172,6 +172,9 @@ R143 correlated body已全4651；R146全418/13376使当前CV/RA根费格式失�
 [TM terminal→normalized constant](results/R144-supplement-terminal-mean-small-ball-controls-normalized-forward-constant.md)使用真实terminal球与waist L²界控制Dbar，保全部CP/source/jumps；actual45791979634/1已完成unique-root、统一mean/density，旧粗sameφ门false留原件。LC已另完成更紧C0，不重forward/W。
 
 [PS完整父段源积分续接](notes/2026-11-26-R142-streamed-defect-execution.md)：proof/pure/owner/generator全核，复用原worker；85pins/14bindings，真实R142三件与完整原77pins逐件核定。首manifest SHA77eebc42e5aea4870217c628455c608abd0071f8236f0c538170d50f5a23cbf3已实例化并推送启动，0/155已接受积分；每母格三球整件保存读回才推进全输出/193atoms游标。新owner19600s、worker20100s、360min job，旧16800s预算原封保留。已有完整六球优先消费，packet计数不授积分前缀。
+
+R149 signed-loop入口已保原77pins并支持PS完整85pins；原程序在六球保存后、完成标记前失败也只消费原全球，PS则整件核六球/目标/155母格。失败状态不改，原/PS不同scope键分别核实；数学尾和trace/HS/θ/γ五目标均不变。当前真实R142缺球，PS运行中，尚无signed-loop实际manifest或运行。
+
 
 
 几何输入的坐标资格已完整核原C.1/B.1：ε=max(||δu||C0(r,φ),||δv||C0(r,φ))，是未除α、保mean的完整moving状态。新compact mean的u同φ准确不变，v可用b sup jξ+ρ sup χ|v−m|；固定θ复合是另一量，仅按实际物理端口需求支付，不误增B.1前件。此处未给新数值门。

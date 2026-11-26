@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
 """Metadata-only entry generator for the R149 complete signed-loop target.
 
-Requires the REAL WHOLE completed R142 false Neumann branch before writing
-either executable manifest or workflow.  Reads complete bytes, hashes and
-AST literals only.  Imports no scientific module, runs no numerical target,
+Requires REAL WHOLE six-ball false-Neumann data from the exact original R142
+or PS streamed owner before writing executable files. An original process may
+have failed after saving all six balls but before its target marker; PS saves
+its target atomically with the balls. All failed execution flags remain.
+Reads complete bytes, hashes and the owner's pure metadata admission functions.  Imports no scientific module, runs no numerical target,
 does no git/ref operation, and cannot invent a prior actual result hash.
 """
 import argparse
@@ -11,6 +13,7 @@ import ast
 import copy
 import hashlib
 import json
+import re
 from fractions import Fraction
 from pathlib import Path
 
@@ -86,6 +89,9 @@ def main():
     parser.add_argument("--repo", required=True)
     parser.add_argument("--manifest-out", required=True)
     parser.add_argument("--workflow-out", required=True)
+    parser.add_argument("--defect-actual")
+    parser.add_argument("--defect-execution")
+    parser.add_argument("--defect-manifest")
     args = parser.parse_args()
     root = Path(args.repo).resolve()
     base_raw = (root/BASE_MANIFEST).read_bytes()
@@ -103,71 +109,67 @@ def main():
     for spec in original_files:
         require(identity(spec["role"], spec["path"], (root/spec["path"]).read_bytes()) == spec,
                 "whole original R142 input unchanged: "+spec["role"])
-    old_actual_raw = (root/OLD_ACTUAL_PATH).read_bytes()
-    old_execution_raw = (root/OLD_EXECUTION_PATH).read_bytes()
-    actual, execution = json.loads(old_actual_raw), json.loads(old_execution_raw)
-    require(actual["kind"] == "complete_R142_low193_parent_moment_continuation_v1"
-            and actual["run_id"] == execution["run_id"] == "45761859526"
-            and actual["run_attempt"] == execution["run_attempt"] == "1"
-            and actual["manifest_sha256"] == execution["manifest_sha256"] == BASE_SHA256
-            and actual["complete"] is True and actual["proved"] is False
-            and actual["failure"] is None
-            and actual["actual_returncode"] == execution["actual_child_returncode"] == 0
-            and execution["scientific_complete"] is True
-            and execution["scientific_started"] is True
-            and execution["scientific_children"] == 1
-            and actual["completed_targets"] == execution["completed_target_names"]
-                == ["complete_parent_moment_true_hybrid_low_coefficient_defect"]
-            and actual["current_target"] is None
-            and actual["certificate"]["strict_low_coefficient_gate_passed"] is False
-            and actual["certificate"]["actual_low_hybrid_inverse_proved"] is False,
-            "REAL WHOLE complete false branch before any executable entry is created")
-    old_operation = manifest["operation"]
-    require(sorted(actual) == old_operation["scientific_field_names"]
-            and actual["scientific_modules"] == old_operation["scientific_module_binding"]
-            and actual["parameters"] == manifest["parameters"]
-            and actual["certificate_parameters"] == old_operation["certificate_parameters"]
-            and actual["complete_current_file_receipts"] == manifest["files"]
-            and execution["current_input_receipts"] == manifest["files"]
-            and actual["runtime"] == old_operation["fixed_runtime"]
-            and actual["retained_scope"] == old_operation["retained_scope"]
-            and [item["name"] for item in actual["gates"]] == old_operation["complete_gate_names"]
-            and all(item["passed"] is True for item in actual["gates"]),
-            "whole original schema, sources, receipts, parameters, runtime, scope and gates")
-    old_actual_spec = identity("completed_parent_moment_defect_actual", OLD_ACTUAL_PATH, old_actual_raw)
-    receipts = [item for item in execution["scientific_files"] if item["path"] == OLD_ACTUAL_PATH]
-    require(receipts == [{key: old_actual_spec[key] for key in ("path", "bytes", "sha256")}],
-            "whole original execution receipt matches the entire saved actual input")
-    old_defect = actual["certificate"]["defect"]
-    record = old_defect["body_norm_upper"]
-    require(record["kind"] == "complete_decimal_ball_v1"
-            and int(record["radius_integer"]) >= 0
-            and (int(record["midpoint_integer"])+int(record["radius_integer"]))
-                *Fraction(10)**int(record["decimal_exponent"]) >= 1,
-            "the old saved epsilon really has its complete false gate")
-    require(old_defect["source_role"] == "true_coefficient_defect"
-            and old_defect["complete_original_panels"] == 155
-            and old_defect["complete_refined_cells"] == 1424
-            and old_defect["complete_output_atoms"] == 193
-            and actual["certificate"]["model"]["comparison_BVP_verified"] is True
-            and actual["certificate"]["model"]["refined_cells"] == 1424
-            and len(actual["certificate"]["refinement"]["counts"]) == 155
-            and sum(actual["certificate"]["refinement"]["counts"]) == 1424,
-            "all original body cells, mean and193 atoms retained")
     owner_raw = (root/OWNER_PATH).read_bytes()
     constants = literal_assignments(owner_raw, {
         "SOURCE_PATH", "KIND", "ENTRY_ROLE", "MATH_ROLE", "LOCAL_ROLE", "REFINED_ROLE",
         "LOOP_ROLE", "PROVIDER_ROLE", "RESOLVENT_ROLE", "OLD_DEFECT_ROLE",
         "OLD_EXECUTION_ROLE", "OLD_MANIFEST_ROLE", "TARGETS", "RUNTIME",
-        "CERTIFICATE_PARAMETERS", "GATE_SUFFIX", "SCI_FIELDS"})
+        "CERTIFICATE_PARAMETERS", "GATE_SUFFIX", "SCI_FIELDS",
+        "ORIGINAL_MANIFEST_PATH", "ORIGINAL_MANIFEST_SHA256",
+        "ORIGINAL_DEFECT_KIND", "STREAM_DEFECT_KIND", "ORIGINAL_DEFECT_OWNER_SHA256",
+        "STREAM_DEFECT_OWNER_SHA256", "STREAM_DEFECT_MATH_SHA256", "DEFECT_NORM_FIELDS"})
     require(constants["SOURCE_PATH"] == OWNER_PATH
             and constants["KIND"] == "complete_R149_low193_signed_loop_coercivity_v1"
             and constants["TARGETS"] == ["complete_same_weighted_body_signed_trace_and_symmetric_part"]
             and constants["SCI_FIELDS"] == sorted(constants["SCI_FIELDS"])
+            and constants["ORIGINAL_MANIFEST_PATH"] == BASE_MANIFEST
+            and constants["ORIGINAL_MANIFEST_SHA256"] == BASE_SHA256
             and constants["CERTIFICATE_PARAMETERS"]["completed_parent_moment_manifest_sha256"] == BASE_SHA256
             and constants["CERTIFICATE_PARAMETERS"]["conjugated_defect_Taylor_degree"] == 24
             and constants["RUNTIME"]["directed_certificate_bits"] == 768,
             "one exact distinct signed-loop target and complete owner literals")
+    supplied = (args.defect_actual, args.defect_execution, args.defect_manifest)
+    require(all(v is None for v in supplied) or all(isinstance(v, str) and v for v in supplied),
+            "provide all three whole actual predecessor paths, or use the original defaults")
+    supplied = (OLD_ACTUAL_PATH, OLD_EXECUTION_PATH, BASE_MANIFEST) if supplied[0] is None else supplied
+
+    def relative(value):
+        path = Path(value)
+        if path.is_absolute():
+            path = path.resolve().relative_to(root)
+        result = path.as_posix()
+        require(".." not in path.parts and result.startswith(TOPIC+"/")
+                and all(c.isalnum() or c in "_-./" for c in result),
+                "one safe entire topic input path")
+        return result
+
+    old_actual_path, old_execution_path, old_manifest_path = map(relative, supplied)
+    old_actual_raw = (root/old_actual_path).read_bytes()
+    old_execution_raw = (root/old_execution_path).read_bytes()
+    old_manifest_raw = (root/old_manifest_path).read_bytes()
+    actual, execution, old_manifest = map(json.loads, (
+        old_actual_raw, old_execution_raw, old_manifest_raw))
+    require(actual["kind"] in (constants["ORIGINAL_DEFECT_KIND"], constants["STREAM_DEFECT_KIND"])
+            and old_manifest["kind"] == manifest["kind"]
+            and old_manifest["repository"] == manifest["repository"]
+            and old_manifest["problem_id"] == manifest["problem_id"]
+            and len(old_manifest["files"]) in (77, 85),
+            "only a whole original77 or exact PS85 source closure")
+    require(isinstance(actual["certificate"]["defect"], dict),
+            "no complete six-ball defect exists: use the unfinished PS path, never this new target")
+    predecessor_additions = []
+    for spec in old_manifest["files"]:
+        require(identity(spec["role"], relative(spec["path"]),
+                         (root/spec["path"]).read_bytes()) == spec,
+                "whole predecessor input unchanged: "+spec["role"])
+        if spec["role"] in by_role:
+            require(by_role[spec["role"]] == spec, "identical original77 role retained")
+        else:
+            require(spec["path"] not in {v["path"] for v in by_role.values()},
+                    "new predecessor input path has one exact role")
+            predecessor_additions.append(copy.deepcopy(spec))
+            by_role[spec["role"]] = copy.deepcopy(spec)
+    original_files += predecessor_additions
     additions = []
     for role, path in (
         (constants["ENTRY_ROLE"], OWNER_PATH),
@@ -177,9 +179,9 @@ def main():
         ("proof_R149_signed_loop", PROOF_PATH),
         ("proof_R149_conjugated_defect", CONJUGATED_PROOF_PATH),
         ("proof_R142_resolvent_lift", RESOLVENT_PROOF_PATH),
-        (constants["OLD_DEFECT_ROLE"], OLD_ACTUAL_PATH),
-        (constants["OLD_EXECUTION_ROLE"], OLD_EXECUTION_PATH),
-        (constants["OLD_MANIFEST_ROLE"], BASE_MANIFEST),
+        (constants["OLD_DEFECT_ROLE"], old_actual_path),
+        (constants["OLD_EXECUTION_ROLE"], old_execution_path),
+        (constants["OLD_MANIFEST_ROLE"], old_manifest_path),
         ("signed_loop_manifest_generator", GENERATOR_PATH)):
         raw = (root/path).read_bytes()
         require(role not in by_role and path not in {item["path"] for item in original_files},
@@ -189,11 +191,39 @@ def main():
         spec = identity(role, path, raw)
         additions.append(spec)
         by_role[role] = spec
+    # A resumed PS manifest need not itself list the original77 manifest bytes.
+    # Retain that immutable whole object once, using an existing path binding if present.
+    if not any(v["path"] == BASE_MANIFEST for v in original_files+additions):
+        spec = identity("original_parent_moment_base_manifest", BASE_MANIFEST, base_raw)
+        require(spec["role"] not in by_role, "unique whole original77 manifest role")
+        additions.append(spec)
+        by_role[spec["role"]] = spec
     manifest["files"] = original_files+additions
     manifest["expected_current_input_count"] = len(manifest["files"])
     require(len({item["role"] for item in manifest["files"]}) == len(manifest["files"])
             and len({item["path"] for item in manifest["files"]}) == len(manifest["files"]),
             "whole new entry has unique roles and paths")
+    # These two reviewed functions perform only whole metadata comparisons and
+    # exact decimal-record decoding. Importing or running the scientific owner,
+    # any producer entrypoint, or a numerical library is not permitted here.
+    metadata_names = {"readonly_decimal_endpoints", "completed_parent_defect"}
+    metadata_tree = ast.parse(owner_raw.decode("utf-8"), filename=OWNER_PATH)
+    metadata_nodes = [node for node in metadata_tree.body
+                      if isinstance(node, ast.FunctionDef) and node.name in metadata_names]
+    require({node.name for node in metadata_nodes} == metadata_names
+            and len(metadata_nodes) == len(metadata_names),
+            "only the exact owner's two pure metadata admission functions")
+    metadata_namespace = {"require": require, "Fraction": Fraction,
+                          "copy": copy, "re": re, **constants}
+    exec(compile(ast.Module(body=metadata_nodes, type_ignores=[]), OWNER_PATH, "exec"),
+         metadata_namespace)
+    green_spec = by_role["completed_directed_Green_prefix_actual"]
+    green_actual = json.loads((root/green_spec["path"]).read_bytes())
+    old_certificate, old_provenance = metadata_namespace["completed_parent_defect"](
+        actual, execution, old_manifest, old_manifest_raw, json.loads(base_raw), base_raw,
+        green_actual, manifest, by_role, lambda raw: hashlib.sha256(raw).hexdigest())
+    require(old_certificate["defect"] == actual["certificate"]["defect"],
+            "all six original saved balls stay byte-derived and unchanged")
     require(by_role["proof_R149_conjugated_defect"]["git_blob_sha"]
                 == "55180c7cda85e4ba5c7f63af396d8223f196732b",
             "final whole reviewed conjugated proof with correct display delimiters")
@@ -206,6 +236,8 @@ def main():
         "new_complete_signed_trace_target_only": True,
         "old_complete_HS2_and_epsilon_and_all_atoms_read_only": True,
         "old_complete_false_Neumann_gate_retained": True,
+        "whole_six_ball_defect_survives_a_failed_original_or_PS_execution": True,
+        "old_failed_execution_and_missing_target_markers_not_upgraded": True,
         "actual_low_claim_requires_complete_saved_symmetric_part_gate": True,
         "same_real_all193_ordinary_dr_body_Hilbert_space": True,
         "atoms_not_appended_to_the_Hilbert_space_used_for_K_adjoint": True,
@@ -240,6 +272,8 @@ def main():
         "whole_original_defect_actual": by_role[constants["OLD_DEFECT_ROLE"]],
         "whole_original_defect_execution": by_role[constants["OLD_EXECUTION_ROLE"]],
         "whole_original_defect_manifest": by_role[constants["OLD_MANIFEST_ROLE"]],
+        "whole_defect_actual_provenance": copy.deepcopy(old_provenance),
+        "whole_predecessor_input_count_retained": len(old_manifest["files"]),
         "same_current_WVC_and_all_original_admission_retained": True,
         "complete_original_HS2_is_read_only_and_not_an_op_norm_square": True,
         "complete_prior_Green_success_not_registered_again": True,
@@ -320,7 +354,8 @@ jobs:
     print(json.dumps({"manifest": str(manifest_out), "bytes": len(raw), "sha256": digest,
         "workflow": str(workflow_out), "complete_input_count": len(manifest["files"]),
         "bound_scientific_sources": len(op["scientific_module_binding"]),
-        "scientific_evaluations": 0, "old_completed_targets_recomputed": 0}, sort_keys=True))
+        "scientific_evaluations": 0, "old_completed_targets_recomputed": 0,
+        "accepted_defect_provenance": old_provenance}, sort_keys=True))
 
 
 if __name__ == "__main__":

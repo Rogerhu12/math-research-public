@@ -2,8 +2,9 @@
 
 Complete original W2C admission and21 native restorations are retained.
 Completed R142 whole HS-square and norm records are READ ONLY.  This owner
-requires that R142 actually finished its complete false Neumann branch;
-an incomplete prefix or an already successful inverse is not a new target.
+accepts complete six-ball false-Neumann data from the exact original R142
+owner or its PS streamed continuation, including a failed process which already
+saved all complete bounds. A packet-only prefix or successful inverse is excluded.
 The original comparison definition is exactly reidentified, and unpublished
 same-definition Green carriers are materialized only as necessary inputs.
 
@@ -53,6 +54,15 @@ RESOLVENT_ROLE = "low_centre_resolvent_lift_math"
 OLD_DEFECT_ROLE = "completed_parent_moment_defect_actual"
 OLD_EXECUTION_ROLE = "completed_parent_moment_defect_execution"
 OLD_MANIFEST_ROLE = "completed_parent_moment_defect_manifest"
+ORIGINAL_MANIFEST_PATH = TOPIC + "notes/2026-11-26-low193-parent-moment-inputs.json"
+ORIGINAL_MANIFEST_SHA256 = "50e5bbf2e55ee6fa7c24cd074cb2a7bd691101c3167004b840011710ac963b7e"
+ORIGINAL_DEFECT_KIND = "complete_R142_low193_parent_moment_continuation_v1"
+STREAM_DEFECT_KIND = "complete_R142_low193_streamed_defect_continuation_v1"
+ORIGINAL_DEFECT_OWNER_SHA256 = "8b18646640f168b47f27e7e76539886e3346689165e82159a45f0fbcdb976b91"
+STREAM_DEFECT_OWNER_SHA256 = "f45cf5788ef3be337127d65282eaf1496ef07fc1cdecb354665a86be899dd621"
+STREAM_DEFECT_MATH_SHA256 = "8873da2b7794d78af8d0be77f0508578ec6bc7f4ea9eb0f0bd63564f61b1015d"
+DEFECT_NORM_FIELDS = ("body_HS2_upper", "root97_HS2_upper", "outer96_HS2_upper",
+                      "body_norm_upper", "atoms193_norm_upper", "complete_norm_upper")
 TARGETS = ["complete_same_weighted_body_signed_trace_and_symmetric_part"]
 RUNTIME = {"Python": "3.12.14", "python_flint": "0.9.0",
            "admission_and_model_definition_bits": 320,
@@ -106,7 +116,11 @@ CERTIFICATE_PARAMETERS = {
     "unpublished_same_definition_carriers_necessarily_materialized": True,
     "whole_output_atom_count": 193,
     "conjugated_defect_Taylor_degree": 24,
-    "completed_parent_moment_defect_run": "45761859526/1",
+    "original_parent_moment_defect_run": "45761859526/1",
+    "accepted_defect_provenance": ["original_complete_false_branch",
+        "original_whole_six_ball_failed_prefix", "streamed_whole_six_ball_false_branch"],
+    "whole_six_ball_defect_in_failed_execution_is_read_only": True,
+    "failed_old_execution_relabelled_successful": False,
     "completed_parent_moment_manifest_sha256": "50e5bbf2e55ee6fa7c24cd074cb2a7bd691101c3167004b840011710ac963b7e",
     "completed_parent_moment_defect_new_target": False,
     "completed_parent_moment_defect_must_be_whole_false_Neumann_branch": True,
@@ -179,7 +193,9 @@ def prior_success(actual, execution):
 
 def readonly_decimal_endpoints(record):
     """Exact rational decode for admission only; no numerical library."""
-    require(record["kind"] == "complete_decimal_ball_v1"
+    require(set(record) == {"kind", "midpoint_integer", "radius_integer", "decimal_exponent", "semantics"}
+            and record["semantics"] == "the exact directed scalar lies in (midpoint +/- radius)*10^exponent"
+            and record["kind"] == "complete_decimal_ball_v1"
             and all(isinstance(record[key], str) and re.fullmatch(r"-?\d+", record[key])
                     for key in ("midpoint_integer", "radius_integer", "decimal_exponent")),
             "whole saved original decimal enclosure")
@@ -191,55 +207,120 @@ def readonly_decimal_endpoints(record):
 
 
 def completed_parent_defect(actual, execution, old_manifest, old_manifest_raw,
-                            manifest, specs, core):
-    """Admit the WHOLE completed R142 false branch, never an unfinished prefix."""
-    require(core.digest(old_manifest_raw)
-                == CERTIFICATE_PARAMETERS["completed_parent_moment_manifest_sha256"]
-            and actual["manifest_sha256"] == execution["manifest_sha256"] == core.digest(old_manifest_raw)
-            and actual["kind"] == "complete_R142_low193_parent_moment_continuation_v1"
-            and actual["run_id"] == execution["run_id"] == "45761859526"
-            and actual["run_attempt"] == execution["run_attempt"] == "1"
-            and actual["complete"] is True and actual["proved"] is False
-            and actual["failure"] is None
-            and actual["actual_returncode"] == execution["actual_child_returncode"] == 0
+                            original_manifest, original_manifest_raw, green_actual,
+                            manifest, specs, digest):
+    """Read six WHOLE bounds; execution completion and target markers stay separate.
+
+    The original owner assigns all six balls before finish_target's first budget
+    check.  Its except block may therefore save a mathematically complete defect
+    with no completed-target marker.  The streamed owner atomically saves its six
+    balls together with its one target marker, before later post-input checks.
+    Neither case authorizes any repeat of the completed defect integrals.
+    If an original saved gate marker is absent, the false strict branch is
+    determined only from this unchanged complete decimal epsilon upper; the
+    original unset marker, failed status and missing target label stay unset.
+    """
+    require(digest(original_manifest_raw) == ORIGINAL_MANIFEST_SHA256
+            and original_manifest["expected_current_input_count"] == 77
+            and len(original_manifest["files"]) == 77,
+            "whole immutable original77 manifest, never an invented scalar input")
+    old_operation = old_manifest["operation"]
+    old_specs = {v["role"]: v for v in old_manifest["files"]}
+    require(len(old_specs) == len(old_manifest["files"])
+            == len({v["path"] for v in old_manifest["files"]}),
+            "whole predecessor roles and paths are unique")
+    for spec in original_manifest["files"]:
+        require(old_specs[spec["role"]] == specs[spec["role"]] == spec,
+                "all original77 whole definitions retained: "+spec["role"])
+    for spec in old_manifest["files"]:
+        require(specs[spec["role"]] == spec,
+                "every whole predecessor input retained: "+spec["role"])
+    require(actual["manifest_sha256"] == execution["manifest_sha256"]
+                == digest(old_manifest_raw) == specs[OLD_MANIFEST_ROLE]["sha256"]
+            and actual["kind"] == old_operation["scientific_kind"]
+            and actual["kind"] in (ORIGINAL_DEFECT_KIND, STREAM_DEFECT_KIND)
+            and actual["run_id"] == execution["run_id"]
+            and actual["run_attempt"] == execution["run_attempt"]
+            and re.fullmatch(r"\d{1,20}", actual["run_id"])
+            and re.fullmatch(r"\d{1,10}", actual["run_attempt"])
             and execution["scientific_started"] is True
             and execution["scientific_children"] == 1
-            and execution["scientific_complete"] is True,
-            "whole completed original parent-moment result and execution")
-    target = ["complete_parent_moment_true_hybrid_low_coefficient_defect"]
+            and actual["proved"] is False,
+            "one entire actual original or streamed false-branch execution")
+    require(actual["parameters"] == old_manifest["parameters"]
+                == original_manifest["parameters"] == manifest["parameters"]
+            and old_manifest["historical_inputs"] == original_manifest["historical_inputs"]
+                == manifest["historical_inputs"]
+            and old_manifest["scientific_modules"] == original_manifest["scientific_modules"]
+                == manifest["scientific_modules"]
+            and actual["scientific_modules"] == old_operation["scientific_module_binding"]
+            and actual["certificate_parameters"] == old_operation["certificate_parameters"]
+            and actual["retained_scope"] == old_operation["retained_scope"]
+            and actual["runtime"] == old_operation["fixed_runtime"] == RUNTIME
+            and sorted(actual) == old_operation["scientific_field_names"]
+            and actual["complete_current_file_receipts"] == old_manifest["files"]
+            and execution["current_input_receipts"] == old_manifest["files"]
+            and len(actual["original_admission"]["checks"]) == 18
+            and all(v["passed"] is True for v in actual["original_admission"]["checks"]),
+            "whole schema, definition, historical and current receipts, runtime and scope")
+    receipts = [v for v in execution["scientific_files"]
+                if v["path"] == specs[OLD_DEFECT_ROLE]["path"]]
+    require(receipts == [{k: specs[OLD_DEFECT_ROLE][k]
+                         for k in ("path", "bytes", "sha256")}],
+            "execution receipt binds the complete scientific input bytes")
     certificate = actual["certificate"]
-    require(actual["completed_targets"] == execution["completed_target_names"] == target
-            and actual["current_target"] is None
-            and certificate["strict_low_coefficient_gate_passed"] is False
+    progress = actual["actual_progress"]
+    original = actual["kind"] == ORIGINAL_DEFECT_KIND
+    target = ("complete_parent_moment_true_hybrid_low_coefficient_defect" if original
+              else "complete_streamed_parent_true_hybrid_low_coefficient_defect")
+    minimum_gate = ("whole_same_WVC_context_and_successful_prior_model_identified"
+                    if original else "whole_same_WVC_model_and_prior_source_prefix_identified")
+    expected_suffix = list(GATE_SUFFIX)
+    expected_suffix[2] = minimum_gate
+    require(old_operation["complete_gate_names"]
+                == original_manifest["operation"]["complete_gate_names"][:18] + expected_suffix,
+            "the exact original or streamed gate sequence")
+    old_gates = [v["name"] for v in actual["gates"]]
+    require(len(old_gates) >= old_operation["complete_gate_names"].index(minimum_gate)+1
+            and old_gates == old_operation["complete_gate_names"][:len(old_gates)]
+            and all(v["passed"] is True for v in actual["gates"]),
+            "every saved gate is an accepted complete prefix through same-model admission")
+    if actual["complete"] is True:
+        require(execution["scientific_complete"] is True
+                and actual["actual_returncode"] == execution["actual_child_returncode"] == 0
+                and actual["failure"] is None
+                and old_gates == old_operation["complete_gate_names"],
+                "normal complete predecessor retains every original final check")
+        execution_status = "complete_execution"
+    else:
+        require(actual["complete"] is False
+                and execution["scientific_complete"] is False
+                and type(execution["actual_child_returncode"]) is int
+                and execution["actual_child_returncode"] != 0
+                and (actual["actual_returncode"] is None
+                     or (type(actual["actual_returncode"]) is int
+                         and actual["actual_returncode"] == execution["actual_child_returncode"]))
+                and (actual["actual_returncode"] is None or actual["failure"] is not None),
+                "whole failed or interrupted execution remains failed or interrupted")
+        execution_status = "saved_whole_defect_in_incomplete_execution"
+    require(actual["completed_targets"] == execution["completed_target_names"]
+            and actual["current_target"] == execution["interrupted_target"]
             and certificate["actual_low_hybrid_inverse_proved"] is False
             and certificate["sources"] == {}
             and certificate["whole_interval_transversality"] is None
-            and certificate["declared_early_end"]["actual_singularity_inferred"] is False,
-            "complete old false sufficient gate, not an old completed inverse")
-    require(actual["parameters"] == old_manifest["parameters"] == manifest["parameters"]
-            and actual["scientific_modules"] == old_manifest["operation"]["scientific_module_binding"]
-            and old_manifest["historical_inputs"] == manifest["historical_inputs"]
-            and old_manifest["scientific_modules"] == manifest["scientific_modules"]
-            and actual["certificate_parameters"] == old_manifest["operation"]["certificate_parameters"],
-            "whole original definition and input identity, no scalar-only substitution")
-    old_operation = old_manifest["operation"]
-    require(sorted(actual) == old_operation["scientific_field_names"]
-            and actual["complete_current_file_receipts"] == old_manifest["files"]
-            and execution["current_input_receipts"] == old_manifest["files"]
-            and actual["retained_scope"] == old_operation["retained_scope"]
-            and actual["runtime"] == old_operation["fixed_runtime"]
-            and [item["name"] for item in actual["gates"]] == old_operation["complete_gate_names"]
-            and all(item["passed"] is True for item in actual["gates"]),
-            "whole original field schema, current receipts, runtime, scope and every gate")
-    scientific_receipts = [item for item in execution["scientific_files"]
-                           if item["path"] == specs[OLD_DEFECT_ROLE]["path"]]
-    require(scientific_receipts == [{key: specs[OLD_DEFECT_ROLE][key]
-                                    for key in ("path", "bytes", "sha256")}],
-            "whole original execution identifies these entire actual scientific bytes")
-    for spec in old_manifest["files"]:
-        require(specs[spec["role"]] == spec, "unchanged whole original R142 input: "+spec["role"])
+            and progress["old_completed_targets_recomputed"] == 0
+            and progress["all_four_source_packet_cells_completed"] == 0
+            and progress["whole_point_boxes_completed"] == 0
+            and all(certificate[name] is False for name in (
+                "actual_complete_CFB_centre_proved", "actual_positive_family_inverse_proved",
+                "original_finite_rho_bridge_proved", "original_seven_input_ports_proved",
+                "either_original_RHS_proved", "topic_completion_proved")),
+            "no old inverse, four-source, point or geometric claim is silently upgraded")
     model, refinement, defect = certificate["model"], certificate["refinement"], certificate["defect"]
-    require(model["comparison_BVP_verified"] is True
+    require(actual["reference_identity"] == green_actual["reference_identity"]
+            and model == green_actual["certificate"]["model"]
+            and refinement["counts"] == green_actual["certificate"]["refinement"]["counts"]
+            and model["comparison_BVP_verified"] is True
             and model["complete_raw_model_chain"] == CERTIFICATE_PARAMETERS["prior_model_chain"]
             and model["refined_cells"] == refinement["complete_refined_cells"] == 1424
             and refinement["original_panels"] == 155
@@ -249,23 +330,127 @@ def completed_parent_defect(actual, execution, old_manifest, old_manifest_raw,
             and refinement["complete_integration_boxes"] == 1424*4
             and refinement["same_exact_raw_midpoint_model"] is True
             and refinement["true_parent_tau_map_and_lengths_retained"] is True,
-            "complete old same-model identity and every actual refined cell")
-    require(defect["source_role"] == "true_coefficient_defect"
+            "exact original complete comparison model, all true lengths and all1424 cells")
+    require(isinstance(defect, dict)
+            and set(defect) in (set(DEFECT_NORM_FIELDS) | {
+                "source_role", "complete_original_panels", "complete_refined_cells", "complete_output_atoms"},
+                set(DEFECT_NORM_FIELDS) | {"source_role", "complete_original_panels",
+                "complete_refined_cells", "complete_output_atoms", "strict_gate_uses_saved_decimal_upper"})
+            and defect["source_role"] == "true_coefficient_defect"
             and defect["complete_original_panels"] == 155
             and defect["complete_refined_cells"] == 1424
-            and defect["complete_output_atoms"] == 193
-            and defect["strict_gate_uses_saved_decimal_upper"] is True
-            and actual["actual_progress"]["current_source_panels_completed"] == 1424
-            and actual["actual_progress"]["new_targets_completed"] == 1
-            and actual["actual_progress"]["old_completed_targets_recomputed"] == 0,
-            "complete original body HS bound, all193 atoms and actual progress")
-    for name in ("body_HS2_upper", "root97_HS2_upper", "outer96_HS2_upper",
-                 "body_norm_upper", "atoms193_norm_upper", "complete_norm_upper"):
+            and defect["complete_output_atoms"] == 193,
+            "the entire six-ball body/root97/outer96 defect, not a packet or partial-sum count")
+    for name in DEFECT_NORM_FIELDS:
         require(readonly_decimal_endpoints(defect[name])[1] >= 0,
-                "complete original nonnegative bound: "+name)
+                "whole saved nonnegative defect bound: "+name)
     require(readonly_decimal_endpoints(defect["body_norm_upper"])[1] >= 1,
-            "the old saved whole epsilon upper really has its false strict gate")
-    return certificate
+            "this saved epsilon upper has a false strict sufficient gate")
+    recorded_gate = certificate["strict_low_coefficient_gate_passed"]
+    require(recorded_gate is None or recorded_gate is False,
+            "an existing true strict gate belongs to the separate source/point continuation")
+    marker = defect.get("strict_gate_uses_saved_decimal_upper")
+    require(marker is None or marker is True, "only the original exact saved-upper marker")
+    declared = certificate["declared_early_end"]
+    if declared is not None:
+        unpaid_key = ("ordinary_source_atom_and_point_certificate_not_claimed" if original
+                      else "ordinary_four_source_and_whole_point_certificate_not_claimed")
+        reason = ("complete directed sufficient defect upper is not strictly below1" if original
+                  else "complete sufficient defect upper is not strictly below1")
+        require(set(declared) == {"reason", "actual_singularity_inferred",
+                                  "completed_complete_bounds_retained", unpaid_key}
+                and declared["reason"] == reason
+                and declared["actual_singularity_inferred"] is False
+                and declared["completed_complete_bounds_retained"] is True
+                and declared[unpaid_key] is True,
+                "the exact original or PS false-branch scope and all unpaid sources stay unchanged")
+    if original:
+        require(digest(old_manifest_raw) == ORIGINAL_MANIFEST_SHA256
+                and old_manifest_raw == original_manifest_raw
+                and actual["run_id"] == "45761859526" and actual["run_attempt"] == "1"
+                and old_operation["scientific_entry_role"] == "low_centre_moment_continuation_owner"
+                and old_specs[old_operation["scientific_entry_role"]]["sha256"]
+                    == ORIGINAL_DEFECT_OWNER_SHA256
+                and progress["current_source_role"] == "true_coefficient_defect"
+                and progress["current_source_panels_completed"] == 1424,
+                "exact fixed original source and its complete all-cell norm-return path")
+        if actual["completed_targets"] == []:
+            require(actual["complete"] is False and actual["current_target"] == target
+                    and progress["new_targets_completed"] == 0,
+                    "six whole balls may precede finish_target; its absent marker is not invented")
+        else:
+            require(actual["completed_targets"] == [target] and actual["current_target"] is None
+                    and progress["new_targets_completed"] == 1,
+                    "only the original complete defect target is present")
+        if actual["complete"] is True:
+            require(actual["completed_targets"] == [target]
+                    and recorded_gate is False and marker is True and declared is not None,
+                    "unchanged original successful false branch")
+        provenance_kind = ("original_complete_false_branch" if actual["complete"] else
+                           "original_whole_six_ball_failed_prefix")
+    else:
+        expected_binding = list(original_manifest["scientific_modules"]) + [
+            old_specs[role] for role in ("low_centre_streamed_defect_owner",
+                "low_centre_verified_green_math", "low_centre_verified_green_local_math",
+                "low_centre_refined_green_math", "low_centre_exact_cell_moments",
+                "low_centre_parent_moment_provider", "low_centre_streamed_parent_moments")]
+        require(len(old_manifest["files"]) == 85
+                and old_operation["scientific_module_binding"] == expected_binding
+                and old_operation["scientific_entry_role"] == "low_centre_streamed_defect_owner"
+                and old_specs["low_centre_streamed_defect_owner"]["sha256"] == STREAM_DEFECT_OWNER_SHA256
+                and old_specs["low_centre_streamed_parent_moments"]["sha256"] == STREAM_DEFECT_MATH_SHA256
+                and old_operation["ordered_targets"] == [target]
+                and old_operation["complete_target_counts"] == [1]
+                and actual["completed_targets"] == [target]
+                and actual["current_target"] is None
+                and progress["new_targets_completed"] == 1
+                and recorded_gate is False and marker is True and declared is not None,
+                "exact PS atomic whole-six-ball and one-target formal save, even if later checks failed")
+        prefix = certificate["source_integral_prefix"]
+        require(isinstance(prefix, dict) and set(prefix) == {
+                    "kind", "source_roles", "complete_original_parent_count", "complete_parent_count",
+                    "complete_refined_cell_count", "complete_model_cell_count", "whole_output_atom_count",
+                    "all_real_radial_outputs_in_each_source_slice",
+                    "both_same_cell_signed_triangles_retained", "moments_contract",
+                    "sums", "whole_saved_prefix_readback_used"}
+                and prefix["kind"] == "R142_complete_parent_source_integral_prefix_v1"
+                and prefix["source_roles"] == ["true_coefficient_defect"]
+                and prefix["complete_original_parent_count"] == prefix["complete_parent_count"] == 155
+                and prefix["complete_model_cell_count"] == prefix["complete_refined_cell_count"] == 1424
+                and prefix["whole_output_atom_count"] == 193
+                and prefix["whole_saved_prefix_readback_used"] is True
+                and prefix["all_real_radial_outputs_in_each_source_slice"] is True
+                and prefix["both_same_cell_signed_triangles_retained"] is True
+                and prefix["moments_contract"]
+                    == "GM1_through17_exact_whole_cell_covariance_and_two_signed_triangles"
+                and set(prefix["sums"]) == {"true_coefficient_defect"}
+                and set(prefix["sums"]["true_coefficient_defect"]) == set(DEFECT_NORM_FIELDS[:3])
+                and progress["accepted_complete_source_parent_count"] == 155
+                and type(progress["reused_complete_source_parent_count"]) is int
+                and 0 <= progress["reused_complete_source_parent_count"] <= 155
+                and progress["current_source_panels_completed"]
+                    == (0 if progress["reused_complete_source_parent_count"] == 155 else 1424),
+                "all155 saved complete source parents and all outputs, including the zero-rematerialization path")
+        for name in DEFECT_NORM_FIELDS[:3]:
+            require(readonly_decimal_endpoints(prefix["sums"]["true_coefficient_defect"][name])[1] >= 0,
+                    "whole saved PS source-square enclosure: "+name)
+        provenance_kind = "streamed_whole_six_ball_false_branch"
+    provenance = {
+        "kind": provenance_kind, "execution_status": execution_status,
+        "actual_kind": actual["kind"], "run_id": actual["run_id"], "run_attempt": actual["run_attempt"],
+        "recorded_complete": actual["complete"], "recorded_proved": actual["proved"],
+        "recorded_actual_returncode": actual["actual_returncode"],
+        "recorded_execution_returncode": execution["actual_child_returncode"],
+        "recorded_failure": copy.deepcopy(actual["failure"]),
+        "recorded_completed_targets": copy.deepcopy(actual["completed_targets"]),
+        "recorded_current_target": actual["current_target"],
+        "recorded_gate_count": len(old_gates), "recorded_strict_gate": recorded_gate,
+        "recorded_saved_upper_marker": marker,
+        "complete_defect_qualification_comes_from_all_six_whole_records": True,
+        "exact_saved_epsilon_upper_is_at_least_one": True,
+        "old_failed_execution_relabelled_successful": False,
+        "old_target_marker_invented": False, "old_defect_integrals_recomputed": False}
+    return certificate, provenance
 
 
 def main():
@@ -342,9 +527,13 @@ def main():
     old_defect_execution = json.loads(core.read_spec(root, specs[OLD_EXECUTION_ROLE]))
     old_defect_manifest_raw = core.read_spec(root, specs[OLD_MANIFEST_ROLE])
     old_defect_manifest = json.loads(old_defect_manifest_raw)
-    old_defect_certificate = completed_parent_defect(
-        old_defect_actual, old_defect_execution, old_defect_manifest,
-        old_defect_manifest_raw, manifest, specs, core)
+    original_manifest_specs = [v for v in manifest["files"] if v["path"] == ORIGINAL_MANIFEST_PATH]
+    require(len(original_manifest_specs) == 1, "one entire immutable original77 manifest input")
+    original_manifest_raw = core.read_spec(root, original_manifest_specs[0])
+    original_manifest = json.loads(original_manifest_raw)
+    old_defect_certificate, old_defect_provenance = completed_parent_defect(
+        old_defect_actual, old_defect_execution, old_defect_manifest, old_defect_manifest_raw,
+        original_manifest, original_manifest_raw, prefix_actual, manifest, specs, core.digest)
     require(old_defect_certificate["model"] == prefix_actual["certificate"]["model"],
             "whole original comparison-Green model record is unchanged")
     admission_names = [item["name"] for item in admitted["admission"]["checks"]]
@@ -386,6 +575,7 @@ def main():
             "complete_prior_centre_mean_exclusion_and_execution_admitted": True,
             "complete_old_Green_success_and_defect_wall_cap_prefix_admitted": True,
             "whole_completed_old_HS_and_false_Neumann_branch_admitted": True,
+            "whole_old_defect_provenance": copy.deepcopy(old_defect_provenance),
             "old_success_not_registered_as_new_target": True,
             "prior_diagnostic_will_not_be_recomputed": True,
             "new_scientific_targets_evaluated": 0, "old_scientific_calls": 0,
@@ -433,13 +623,14 @@ def main():
             "private_carriers_were_published_or_restored": False,
             "same_defined_carriers_necessarily_materialized_for_new_target": True},
         "completed_prior_low_defect": {
-            "kind": "whole_completed_R142_parent_moment_false_branch_references_v1",
+            "kind": "whole_R142_six_ball_false_branch_with_unchanged_execution_references_v2",
             "scientific": {"file": copy.deepcopy(specs[OLD_DEFECT_ROLE]), "json_path": []},
             "execution": {"file": copy.deepcopy(specs[OLD_EXECUTION_ROLE]), "json_path": []},
             "manifest": {"file": copy.deepcopy(specs[OLD_MANIFEST_ROLE]), "json_path": []},
             "old_HS_target_recomputed": False,
             "whole_old_complete_HS2_and_all_atoms_retained": True,
-            "whole_old_false_Neumann_gate_retained": True},
+            "whole_old_false_Neumann_gate_retained": True,
+            "provenance": copy.deepcopy(old_defect_provenance)},
         "preparation_prefix": {"stage": "not_started", "detail": None},
         "reference_identity": None, "runtime": {}, "current_target": None,
         "completed_targets": [], "gates": [],
