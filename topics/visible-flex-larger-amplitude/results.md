@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- **R698（已证明，范围以正文为准）**：[节点jet范数反例与真实径向积分控制](results/R698-node-jet-norm-and-radial-integral-control.md) — 显式共享五次扰动给节点jet范数不能以网格无关常数控制完整径向H²；固定有限网格的正范数等价仍保。 原已刊证明的正式编号登记，无新科学复算。
+
 - **R697（已证明，范围以正文为准）**：[轴端平面两形状可达族与控制球的准确关系](results/R697-zero-endpoint-axis-planar-control-equivalence.md) — 在指定零旋转反射轴分支，新旧Q同一两Ry形状族，有限球为不同椭圆；一般角不可冒共同右线性映射，不推根存在。 原已刊证明的正式编号登记，无新科学复算。
 
 - **R696（准确闭截线与角向单位切向新表示已证明）**：[完整中心primitive、六jet及原core/cap端口](results/R696-angular-unit-tangents-and-exact-closed-sections.md)：全部odd/odd/even SO3对称保证全角闭合，精确角Gram与中心径向一二导、全部C²接合保；固定scalar高度basis J/J*允许任意H>1/20的单调初body，保全core/H并加纯径向quintic自由。新1334847维/正范数、条件局部chart范围明定，不冒旧空间双射；剩余E/B、全局几何/幅度/精化与存在仍未解。
