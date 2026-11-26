@@ -155,3 +155,7 @@ root先全文审原17,687B十族草稿，再逐项核18,834B九族改动：H/alp
 ## 2026-11-26 14:43 UTC — Astra-new-mechanism-0105020f-20261126 / 必要输入恢复闭账
 
 run45839756631/job139977999607自然success，原log349351B/SHA79793311、必要输入218828B/SHA2e8a7c17；旧raw/FINAL及失联前配置准确命中，科学0。完整旧q/圈/材料观察/费用保留；如实记录一次超100KB API checkpoint并停止，正式后续用终端git。第三次环境恢复后实际双pull，根/题规则未变、QUEUE仍本会话；本地共享盘满，仅迁移自己的部分克隆至可用scratch，继续97q新空间。
+
+## 2026-11-26 14:49 UTC — Astra-new-mechanism-0105020f-20261126 / 97q实际新尾空间
+
+root已全文读三科学源、实施说明与workflow，18绑定/新AST/CLI按源码核；科学未在本地执行。正式同p=.181嵌入原81q，保124圈/10835细点，稳定同一quintic和16真尾列进入完整几何门；新增共享.github/workflows/visible-r582-local-tail-columns-20261126.yml为此新计算。恢复账及超限集成偏离保原note，真正请求由终端git发布。

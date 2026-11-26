@@ -2,11 +2,11 @@
 
 **进行中，未完成；仍没有满足 README 全部条件的完整候选。**
 接手会话：**Astra-new-mechanism-0105020f-20261126**（2026-11-26）。
-原会话最后交接全文保存在 [继承交接](notes/HANDOFF-inherited-20261116-1809.md)；所有旧结论、条件、失败和运行成本保留，不以本次摘要撤销。
+[继承交接](notes/HANDOFF-inherited-20261116-1809.md)保原会话全部结论、条件、失败和费用。
 
 ## 1. 规则与接手
 
-已部分克隆并实际 `git pull main`，公开根 README、课题 README、HANDOFF、open、results 索引及相关 log/notes 已读。公开已读提交 **df5d5cecb2d242a77796d5f8ba1c5697bb6bf560**（2026-11-26 14:46 UTC；本次实际pull后根/题README空差异）；历次规则及失败原回执保原note；私有 QUEUE 的本题已改为本会话进行中并成功推送：**9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7**；最后实际pull及规则同blob读至 **d7880f4d8859d0057567287bc4af5ba70a705f1b**（2026-11-26 14:46 UTC；实际pull成功，根README空差异、QUEUE仍本会话）。其它课题的并行认领保留。
+已部分克隆并实际 `git pull main`，公开根 README、课题 README、HANDOFF、open、results 索引及相关 log/notes 已读。公开已读提交 **5c06c53a9396cd085e160fa98d7390a0d5da5270**（2026-11-26 14:49 UTC；本次实际pull后根/题README空差异）；历次规则及失败原回执保原note；私有 QUEUE 的本题已改为本会话进行中并成功推送：**9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7**；最后实际pull及规则同blob读至 **17a1d44187eb572830728e941f368ac80a5a3fe7**（2026-11-26 14:49 UTC；实际pull成功，根README空差异、QUEUE仍本会话）。其它课题的并行认领保留。
 
 [八模前交接](notes/HANDOFF-before-eight-mode-natural-final-20261126.md)及其所链前史保全部原规则/成本/范围；09:18、11:20 UTC失联/恢复原账保留；13:54第三次失联后未发布源码仅作不可变checkpoint。root指定临时branch的CLI发布器实际clone/pull/rebase/push，双库规则读账按真实运行更新，API读取不冒pull。每pull核根/题README差异并执行，至少每小时；root独占git/索引，每条结论即推，NFF立即rebase重推。科学仅公开Actions，本地限纸证/源码/原日志解析；已披露4次开发偏离保原note及[恢复记录](notes/2026-11-26-r582-necessary-input-recovery-original-receipt.md)且停止。根12不加机械复跑，根15不留可重算raw。
 
@@ -44,13 +44,13 @@ B030前三次关停保[原收据](notes/2026-11-26-theta-generic-start-only-shut
 
 旧33母/36母、一次χ、完整period和所有旧失败/成本保[本轮前交接](notes/HANDOFF-before-working-rows-and-wide-mother-20261126.md)及其原链接，不混母或状态。[R584](results/R584-centered-third-history-and-nineteen-state-full-ruling-bvp.md)/[R586](results/R586-sixfold-full-history-coefficient-projection-and-finite-integrals.md)/[R589](results/R589-autonomous-full-feedback-and-even-end-germs.md)/[R590](results/R590-full-history-square-potential-and-c2-update.md)保19态/全部历史/真偶端germs/正平方与C²等价式。
 
-[R590原终态](notes/2026-11-26-r590-staged-trust-first-public-receipt-agent.md)保113.584575秒child/112.698603153主秒、30接受11拒绝/31态；末原colloc2.1934e18/BC.11938非根。旧母/状态不当新母输入，guide/能量/Hermite失真全保原note。
+[此前完整交接](notes/HANDOFF-before-local-tail-and-eleven-core-20261126.md)保R590原求解失败/全部费用及上轮已付11参数，不混母、不把未合格状态当根。
 
 [R598](results/R598-three-rotations-wide-eighteen-block-mother.md)付完整18正块/三旋转、0…10矩与微半宽1/12000/collar1/3000；[原质量实现](notes/2026-11-26-r598-prepared-wide-mother-original-mass-bvp-implementation-agent.md)保19微分+2ruling/29BC/31AD/完整正势，原残差过门才加密。[首终态](notes/2026-11-26-r598-wide-prepared-first-public-receipt-agent.md)run45828239888付28.749599218主秒/29.946569墙秒、guide400nfev/8916calls，八矩未闭；整阵encode shape错误在rho积分前，0mass/Jac。后继从已付11参数做新中心jet/逐列原编码，不重跑旧400；旧guide必要空间比率.02747<.03也保原账。
 
 [R601](results/R601-prepared-center-true-jet-and-fixed-gauge-acceleration.md)付prepared真中心a=H/b=0/V_s=0，正势仍在。[R603](results/R603-prepared-leading-energy-and-speed-two-guide.md)在声明的共同C²紧族/零rho/ε²νhat有限极限下迫非零|v|=2，不排固定ε根。[九参数原mass](notes/2026-11-26-r603-vtwo-center-mass-implementation-agent.md)直接由已付11向量给a=H/v=2/唯一∫hk=0，旧10族未跑；逐列原encode修补、19+2/29BC/31AD/完整正势与末态真实形算子保留。必要新guide/history/表全部计费，原残差过门才加密，尚无新根或宏观资格。
 
-[必要输入已恢复](notes/2026-11-26-r582-necessary-input-recovery-original-receipt.md)：run45839756631核同原raw/FINAL，准确恢复81q/124圈/全部10835细点；新输入218828B/SHA2e8a7c17，科学0、wall4.237356066秒。原费用保留；下一97q新空间，不替q/删点或重放旧失败。
+[必要输入已恢复](notes/2026-11-26-r582-necessary-input-recovery-original-receipt.md)：原raw/FINAL与81q/124圈/10835细点准确同源，科学0。已发布[97q真实尾列](notes/2026-11-26-r582-stable-material-local-tail-continuation.md)：同p=.181，同端点quintic稳定求值，16真实尾形列；完整旧细点/硬几何与原费用保留，新空间trust1明确重置，不重放旧15outer。下一据自然终态续。
 
 ## 6. 持续工作
 
