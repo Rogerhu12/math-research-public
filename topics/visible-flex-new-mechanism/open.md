@@ -135,3 +135,5 @@ O4的[R614](results/R614-complete-two-ruling-global-gauge-projection.md)已付�
 O4 [真函数首轮自然终态](notes/2026-11-27-r609-true-integral-function-natural-final-agent.md)已读：105接受、原ruling仍1.74e14，细16×16原四端3.40645e−8。后继明确同17模真实37q、同冻结unit接R612/R614与细积分，不重做成功五模seed或9/13模；几何/pose仍未闭。
 
 O2b-B 的[R615](results/R615-position-fourier-majorants-and-discrete-primitive-error.md)给真实S奇频的完整连续角预算，复用R606已算系数和R504已证原函数范数；后续同场真实fine读取才能消费，不重跑旧观察，也不免径向/ODE/舍入。
+
+O2b-A [新物理/epigraph原终态](notes/2026-11-27-r582-physical-epigraph-original-terminal.md)已真实降至η6.26231e−5，q SHA f1c8298、243×1536/11025×3072/trust2/pending0；仍未过2.5e−7。从该真态正常续算，末c491 raw只另列warm。新mean对旧参考变化显著，全域几何改用同新mean圆参考并新付紧区间，不借旧q小扰动。
