@@ -461,3 +461,11 @@ git show e95fea50651bcfe32aad52826caa8a692c2ff741:topics/visible-flex-larger-amp
 ```
 
 完整文件名定向搜索只找到原 `alternative-provenance-summary.json`，该历史引用照保；旧消费者要完整轨道时先恢复scratch。当前两代resume求解/几何及请求不使用该路径。只移出61套完整系数状态/482末系数和逐行数组；原标量结论、完整小源、参数和历史均保留，不改已有提交。
+
+## 14. 2026-11-26：旧 outward M128 tight 的完整系数轨道
+
+普通移出 `notes/alternative-outward-coast-m128-tight-history.json`（765788 B，SHA256 `3b42f2a050860fa8402ccee1b7384326a96c20bd0611b1c6b1d1d68b3a43a744`，git blob `87fe20b792a30d96507a804b12ae74ae3c148bf6`）。完整原字节可从固定提交 `36cd9baa89bd93944d5fd338aff36fc6b49e97f0` 恢复；scratch副本另保，不改Git历史。紧凑原字段、配置、首末row、完整argv及实际记录范围保[小元数据](../computations/resume-20261126-legacy-outward-m128-tight-retention.json)。61条逐径向系数状态与最终386系数不再留当前树。
+
+原完整源 `computations/alternative-outward-probe.py` 为7708 B / `cf163a5c42cff95137a78eefda058b6a18f5f226b4261b686a42e645f4002fcb`，已逐字匹配；无外部输入，初始支撑core和profile都由完整源与A=.38/M128/N2048/v=.5/S1/amax1.35/rtol1e-11/steps60/maxstep.0002/end.9/coast.8/.1定义。旧status=success、54684调用、61.43171715736389秒，真实run/OS退出码/版本未记录，不补造。未来重算仅公开Actions。
+
+只转录原top字段与首末row，未读系数作科学计算、未重做旧结论。该开放prefix的小采样误差不冒闭面解或完整证书；上一项M160高模污染/失败精化结论完整保留。精确文件名扫描未发现当前完整场、Haar、deep或新SO3入口依赖。
