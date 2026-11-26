@@ -90,3 +90,5 @@ recorded pre-lambda-one source before any BVP or DN call.  The frozen-mean
 chain-rule formulas and the height-reference interface were independently
 reviewed with the seam-geometry agent.  Actual lambda-one execution remains
 conditional on the same-metric continuation producing an accepted input.
+
+The separate read-only gate `warm_actual_dn_acceptance.py` now validates the complete final raw/physical/metric/mean artifacts, the real final outer boundary check, full-H target and packet, original full Jacobian, complete shooting state and physical-cell subset, frozen numerical sources and all finite gates. It calls no solver. The port physical contract has exactly the original exporter's declared 22 keys and contains no `depth`; subdivided `depth` and physical `physicalDepth` are checked separately against states and configuration, never silently renamed. No actual lambda-one input has yet been passed through this complete gate.

@@ -328,3 +328,5 @@
 - 2026-11-26 08:35 UTC｜Astra-held10-06bbeb39-20261126：v2同图重表达实际原门过，run bea39fb0/raw5dd5419b；631点RMS9.92715e−7、双角1168/2336 metric最大6.48241581205e−7，全部raw方程/核心/chart等式逐位同。身份仍solver_invoked=false/null来源，非λ前进；父入口已真求λ.004，未有该步接受。
 
 - 2026-11-26 08:43 UTC｜Astra-held10-06bbeb39-20261126：R68证明旧Wsin全周期控制有显式指数近核，新补弧坐标族有M⁻⁶连续曲率L²下界、保d0完整锚/λ1准确弧/固定g。真实两N采样新M24 cond87.52、旧已到舍入底；只属basis非BVP逆界。v2 λ.004/.003原RMS真实失败不晋源，独立v3准备从同零锚实算，原门不改。
+
+- 2026-11-26 08:53 UTC｜Astra-held10-06bbeb39-20261126：新cut明确v2重表达及actualDN真返回身份；真Zc入口推广actual M，核literal1168/同projection，保共右二jet/真桥积分并全径向Fraction累加，临时Fraction验端后释放。集中真DN门逐项核最后原fullH/全J/全部states及原门；代码双审/编译通过，无新λ1/core证书或实际Zc，不搬旧界。

@@ -1,0 +1,135 @@
+{
+  "session": "Astra-held10-06bbeb39-20261126",
+  "observed_utc": "2026-11-26 08:53 UTC",
+  "workflow_run": 45775899674,
+  "command_id": "held10-warm-v2-design-20261126-01",
+  "actual_domain_statistics": {
+    "attempt-000": {
+      "domain_newton_stats": {
+        "accepted_steps": 0,
+        "calls": 3,
+        "minimum_alpha": 1,
+        "no_step": 3,
+        "rejected_domain_trials": 63,
+        "rejected_merit_trials": 0
+      },
+      "all_actual_parameters_zero": true,
+      "raw_sha256": "4046b47177b00e9d61960b56f87cc00a85567aad3f8cfd23584ccf9148f206b5"
+    },
+    "attempt-001": {
+      "domain_newton_stats": {
+        "accepted_steps": 0,
+        "calls": 3,
+        "minimum_alpha": 1,
+        "no_step": 3,
+        "rejected_domain_trials": 63,
+        "rejected_merit_trials": 0
+      },
+      "all_actual_parameters_zero": true,
+      "raw_sha256": "825d2383ea924a71291a6ff24152a84f183717364c846c64b9280ccd2d745a5e"
+    }
+  },
+  "completed_bvp_attempts": [
+    {
+      "accepted": false,
+      "error": null,
+      "homotopy": 0.004,
+      "kind": "actual_warm_bvp",
+      "modes": 24,
+      "name": "attempt-000",
+      "next_action": "bisect_lambda_from_last_accepted_field",
+      "next_lambda": 0.003,
+      "physical_bc_max": 3.7197673377788306e-16,
+      "raw": {
+        "file": "inner-00.npz",
+        "nodes": 3168,
+        "rms": 0.12464623790843471,
+        "sha256": "4046b47177b00e9d61960b56f87cc00a85567aad3f8cfd23584ccf9148f206b5",
+        "status": 1,
+        "success": false
+      },
+      "returncode": 2,
+      "run": "/home/runner/work/_temp/held10-warm/warm-v2-design/attempt-000/run.json",
+      "run_sha256": "736f42df1e0be5e97e8dfac2cb2a56d0a2c811f331755caf90ffcb46b7f2852b",
+      "scaled_bc_max": 1.7381929229287607e-13,
+      "solver_invoked": true,
+      "solver_success": false
+    },
+    {
+      "accepted": false,
+      "error": null,
+      "homotopy": 0.003,
+      "kind": "actual_warm_bvp",
+      "modes": 24,
+      "name": "attempt-001",
+      "next_action": "bisect_lambda_from_last_accepted_field",
+      "next_lambda": 0.0025,
+      "physical_bc_max": 3.7197673377788306e-16,
+      "raw": {
+        "file": "inner-00.npz",
+        "nodes": 3144,
+        "rms": 0.0625026081542265,
+        "sha256": "825d2383ea924a71291a6ff24152a84f183717364c846c64b9280ccd2d745a5e",
+        "status": 1,
+        "success": false
+      },
+      "returncode": 2,
+      "run": "/home/runner/work/_temp/held10-warm/warm-v2-design/attempt-001/run.json",
+      "run_sha256": "54b8ad4dedba09907490760733ad84e1d08aed117c6efaf211cdfd4b40908b88",
+      "scaled_bc_max": 1.7381929229287607e-13,
+      "solver_invoked": true,
+      "solver_success": false
+    },
+    {
+      "accepted": false,
+      "error": null,
+      "homotopy": 0.0025,
+      "kind": "actual_warm_bvp",
+      "modes": 24,
+      "name": "attempt-002",
+      "next_action": "bisect_lambda_from_last_accepted_field",
+      "next_lambda": 0.0022500000000000003,
+      "physical_bc_max": 3.719540036487435e-16,
+      "raw": {
+        "file": "inner-00.npz",
+        "nodes": 3123,
+        "rms": 0.03129637636809682,
+        "sha256": "a3820345e54e4ec56193c5af8d8de46ebc528f40bb72b0e0ef9718e0a957ee39",
+        "status": 1,
+        "success": false
+      },
+      "returncode": 2,
+      "run": "/home/runner/work/_temp/held10-warm/warm-v2-design/attempt-002/run.json",
+      "run_sha256": "4f534a9392b0aafc4bc2807ecee4ca4a030204bb507f7b80acacd0a3b188aa2a",
+      "scaled_bc_max": 1.7381929229287607e-13,
+      "solver_invoked": true,
+      "solver_success": false
+    },
+    {
+      "accepted": false,
+      "error": null,
+      "homotopy": 0.0022500000000000003,
+      "kind": "actual_warm_bvp",
+      "modes": 24,
+      "name": "attempt-003",
+      "next_action": "bisect_lambda_from_last_accepted_field",
+      "next_lambda": 0.002125,
+      "physical_bc_max": 3.719540036487435e-16,
+      "raw": {
+        "file": "inner-00.npz",
+        "nodes": 3107,
+        "rms": 0.015659481056362133,
+        "sha256": "9dc502bc17906b6e71ad40f32d4088438fc93f53940623e440cb849d5f119ca5",
+        "status": 1,
+        "success": false
+      },
+      "returncode": 2,
+      "run": "/home/runner/work/_temp/held10-warm/warm-v2-design/attempt-003/run.json",
+      "run_sha256": "374e395121e4f7425eb67d24b3251d1419a45363420bf2e80c06db2b42371278",
+      "scaled_bc_max": 1.7381929229287607e-13,
+      "solver_invoked": true,
+      "solver_success": false
+    }
+  ],
+  "scope": "Actual completed runs show zero accepted Newton steps and 63 domain-rejected trials each for the first two target lambdas; all 24 returned phase coordinates remain zero. This does not identify which physical or auxiliary domain check rejected each trial and does not prove nonexistence. Failed candidates are not promoted."
+}

@@ -52,6 +52,33 @@ R63 固定 $g$ 分支必须带真实的 `finite_linear_candidate_pass`。
 始终保留原 gauge $.06$ 和字面 mean1168。特别地，不把未知解参数
 $q_{\rm actual}$ 代入 gauge 槽重乘已保存的 $Y$。
 
+### 暖 v2 与实际 nonlinear-DN 的显式接受门
+
+暖 v1 和上述原线性分支仍保留各自的原门。新增的 v2 分支直接调用
+`warm_fixed_m3_model_v2.accepted_input`，使用其集中核验的实际身份。
+同一 Cartesian 图的重新表达保留 `solver_invoked=false`、
+`solver_success=null` 和原成功求解器出处；脚本不会补造新的求解器成功，
+也不会把未知模型版本解释成已知版本。
+
+实际 nonlinear-DN 分支使用其明确的
+`audited_finite_actual_dn_candidate`、原始 RMS、实际 scaled/physical BC、
+完整有限度量和成功返回门。只读校验原接受的 $\lambda=1$ 线性源后，
+逐项比较冻结 profile、warm 定义、provider、角图、gauge、mean1168、
+版本化径向 chart 及物理尾参数。最终 raw、physical 和有限度量文件均核 SHA。
+
+这一分支还必须把最终 `result`、`tail_seam`、真实 accepted stage、
+`height-target-outer-XX.json` 与同一个 full-height 包串起来：
+原请求 factor 为 $1$，原完整 Jacobian 和 audit 均已实际请求，
+包的完整 `cutHeight` 和 request height 等于最终新场登记的
+`candidate_H`。height-target 的物理和 raw SHA 必须等于最终字段；
+实际入口最后使用字节复制保存 `physical.npz`，不会把同数组的另一次
+不明序列化当作同一文件。原 `load_packet` 随后再次核实际尾残差门及背景。
+如果同时指定 `--tail-packet`，必须给这一个最终包。
+
+这些新增记录在 `source_acceptance` 中明确标出。它们证明的是实际有限返回
+和完整输入的身份；公共 Cartesian 两jet是否一致仍由真实两侧迹及后续修补
+预算决定，不能从 full-height 请求身份推出。
+
 ## 实际端点定义
 
 `physical.npz` 最后一段是原公共 $C^2$ quintic。将其 binary64 系数和
