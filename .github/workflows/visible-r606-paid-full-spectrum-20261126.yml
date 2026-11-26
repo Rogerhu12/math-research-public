@@ -1,0 +1,64 @@
+name: visible-flex same paid height full positive spectrum
+on:
+  push:
+    branches: [main]
+    paths:
+      - topics/visible-flex-new-mechanism/computations/request-r606-paid-full-spectrum-20261126.json
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: visible-flex-r594-eight-mode-weak-bvp-20261126
+  cancel-in-progress: false
+jobs:
+  research:
+    name: Continue actual682q against every positive mode through48
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      PYTHONUNBUFFERED: '1'
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+      MKL_NUM_THREADS: '1'
+      NUMEXPR_NUM_THREADS: '1'
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 0
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-new-mechanism/README.md
+            /topics/visible-flex-new-mechanism/computations/request-r606-paid-full-spectrum-20261126.json
+            /topics/visible-flex-new-mechanism/scripts/r576_function_space_continuation_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/r576_finite_height_turning_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/r571_milder_seed_outer_jets_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/r571_nonmonotone_connector_gain_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/run_inverse_rotational_metric_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/r576_exact_knot_height_continuation_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/r576_body_forced_j4_height_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/r594_eight_mode_weak_height_bvp_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/r594_paid_weak_resume_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/r600_factored_high_mode_jets_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/r602_eleven_mode_core_completed_height_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/run_inverse_state_stdin_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/r606_paid_full_spectrum_height_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/r606_weighted_majorant_observation_20261126.py
+            /.github/workflows/visible-r606-paid-full-spectrum-20261126.yml
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.12.14'
+      - name: Pull both rule sets and continue the full positive residual
+        env:
+          MR_TOKEN: ${{ secrets.MR_TOKEN }}
+        run: >-
+          python topics/visible-flex-new-mechanism/scripts/run_inverse_state_stdin_20261126.py
+          --request topics/visible-flex-new-mechanism/computations/request-r606-paid-full-spectrum-20261126.json
+          --lane r606-paid-full-spectrum
+      # Actual682q and all eleven paid mouths retained; zero new inner/Riccati.
+      # Every positive At/M frequency through48 enters the equal-unit objective.
+      # R606 coefficient observations use the same actual field; no extra gate.
+      # Stdout only: no raw table files, artifacts, releases, or Git writes.

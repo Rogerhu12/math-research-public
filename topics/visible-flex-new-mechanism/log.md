@@ -217,3 +217,7 @@ root全文读12532B收据，并纯stdlib核原1580253B stdout、139JSON、57128B
 ## 2026-11-26 15:50 UTC — Astra-new-mechanism-0105020f-20261126 / R608实际圆参考全尾
 
 root全文纸核实际beta/样条源、控制支撑、包络两导数、正z_s指数界、相对端余量与两主曲率/全帽拼接；补明无限H解析定义与数值CUT/求积误差的区别。直接登记严格全尾，下一紧区间二jets与非圆真实损耗仍欠；未执行科学或另设复核门。
+
+## 2026-11-26 15:56 UTC — Astra-new-mechanism-0105020f-20261126 / 同682q全正频目标
+
+root全文读新30KB源/9KB helper/说明/request/workflow，交叉核父evaluate/Jac真链、原11质量块和已付高口密场继承；15绑定/AST/CLI与原q/31425B输入字节核合。新共享.github/workflows/visible-r606-paid-full-spectrum-20261126.yml只扩真实2…48输出行，0新inner/旧方向门；R606浮点系数观察明确未付ODE/舍入/径向区间，不作新接受门，本地科学零。

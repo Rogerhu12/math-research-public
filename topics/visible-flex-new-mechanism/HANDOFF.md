@@ -5,7 +5,7 @@
 
 ## 1. 规则、授权与原始记录
 
-公开已读提交 **6682ce0120609a340ef00f18cfcf1d89505cdc39**（2026-11-26 15:51 UTC；本次实际pull后根/题README空差异）；最后实际pull及规则同blob读至 **db27f6635070dc3a311ccfa1815a39e9b3bc9974**（2026-11-26 15:51 UTC；实际pull成功，根README空差异、QUEUE仍本会话）。私有 QUEUE 仍为本会话进行中，原认领提交9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7，其他课题认领不改。
+公开已读提交 **6a6519cc0b47b87fdea5fc3d2acf7d18cc7e234e**（2026-11-26 15:57 UTC；本次实际pull后根/题README空差异）；最后实际pull及规则同blob读至 **4ef70649bcd6ae2a39fe028685c9b68a0492f2a9**（2026-11-26 15:57 UTC；实际pull成功，根README空差异、QUEUE仍本会话）。私有 QUEUE 仍为本会话进行中，原认领提交9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7，其他课题认领不改。
 
 [本次压缩前全文](notes/HANDOFF-before-continuous-angular-bounds-20261126.md)及其所链[继承交接](notes/HANDOFF-inherited-20261116-1809.md)保全部结论、条件、旧失败、输入与费用；不因摘要删账。三次环境失联后已恢复；远端临时CLI和后续本地CLI均真实双pull/rebase/push。每次实际pull后查根/题README差异并执行，至少每小时；API读取不冒pull。root独占git和共享索引，每条结论即推，NFF立即pull --rebase再推至成功。
 
@@ -35,7 +35,7 @@ R576付完整turning/位置，R594付真实At/M、离解Jac与漏模传播，R59
 
 [两次八模末态](notes/2026-11-26-r594-paid-weak-resume-natural-final.md)保452.79767207+464.449434512秒、496q/四已付13jets；iteration120近停滞，ε1e−5实际位置η≈3.026e−7，未过2e−9，不再延长同空间。
 
-[11模自然终态](notes/2026-11-26-r602-eleven-core-completed-natural-final.md)：run45845035304/job139996367531，新1426.507060097秒、60接受；coreD1.596e−19，但实际η3.05743e−7未过2e−9，m30/40漏峰1.73e−5/1.64e−5。真实682q JSON15027B/SHAa752de58、H.5188901259915873、global180/damping1e−14。原18/20/22新口及13jets现已付，不重inner；下一同场全At/M正频到44/48目标。固定512 canonical同一f/fr/frr和完整R602六jets/Jac保留，不能回到网依赖均值。
+[11模自然终态](notes/2026-11-26-r602-eleven-core-completed-natural-final.md)：run45845035304/job139996367531，新1426.507060097秒、60接受；coreD1.596e−19，但实际η3.05743e−7未过2e−9，m30/40漏峰1.73e−5/1.64e−5。真实682q JSON15027B/SHAa752de58、H.5188901259915873、global180/damping1e−14。原18/20/22新口及13jets现已付，不重inner；[同场全谱源](notes/2026-11-26-r606-paid-full-spectrum-implementation.md)现已正式发布，24个正频2…48等角权目标、同682q/原11口/完整core；旧方向核不重跑。固定512 canonical同一f/fr/frr和完整R602六jets/Jac保留，不能回到网依赖均值。
 
 R596/R600只付同尾准确核至16/32及截断理论；实际口、归一和ODE误差逐次计费。全平内尾及旧R588的范围不能自动扩给新高模。所有旧强迫/插结/尺度失败完整保原索引和前史。
 
