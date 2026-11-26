@@ -57,8 +57,8 @@
 <!-- visible-larger-parallel-05:end -->
 
 <!-- visible-larger-parallel-06:start -->
-并行公开Actions06：[run 45904402595/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45904402595)；[实际记录](notes/2026-11-26-public-actions-45904402595-1.md)。阶段`followup:resume-20261126-reconstructed-complete-manifest-compaction-02-rebuild06`/completed；已返29，exit=0。
-并行06规则核查：2026-11-26 23:21:33 UTC，真实pull至`9d158091ba660d7b9fc679fd90057c572a9c5e6d`，双README无变化。
+并行公开Actions06：[run 45904402595/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45904402595)；[实际记录](notes/2026-11-26-public-actions-45904402595-1.md)。阶段`followup:resume-20261126-reconstructed-R671-full-phi-actual-mu-02-rebuild06`/completed；已返30，exit=0。
+并行06规则核查：2026-11-26 23:30:38 UTC，真实pull至`7528864052e02a9fc1fb1538972b1b5438e2f379`，双README无变化。
 <!-- visible-larger-parallel-06:end -->
 
 <!-- visible-larger-parallel-07:start -->
