@@ -22,3 +22,7 @@
 mean_metric_design.py沿已刊b7eb35d5版本。实际source commit取每个followup冻结worktree的git HEAD，单独记录workflow触发SHA。原父的几何/metric证书不移用，原Phi8不能与新Phi4相减。
 
 本地仅AST解析、完整CLI文本准备及源接口核对；没有本地运行场、矩阵、求解或科学数组。数值必须由真实公开Actions返回。最终候选的完整连续s径向度量随后固定；后续网格/频率精化必须比较该同一g，不能边精化边重新取新均值。当前尚未冻结最终g，也没有完成README。
+
+## 排队前的输入与顺序更新
+
+为让新度量方向不等待旧PCG/SOC再生方向，首诊断/设计现改接同runner真正完成的exact-tail-full-phi-v3-continuation父。旧PCG/SOC与原固定g新算法仍随后按原链继续；这个新目标分支没有把v3叫作旧末父，也不借旧7fd证书。实际父报告/bundle SHA及完整永久地点union仍逐次核对。仅改变尚未执行的输入选择与队列顺序，lambda/eta/carrier/原空间不变。
