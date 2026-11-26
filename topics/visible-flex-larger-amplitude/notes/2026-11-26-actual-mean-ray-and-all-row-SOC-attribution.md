@@ -37,3 +37,15 @@ stage42归因由既刊 `95667e2fc5d9d0016379370cb37f8f0d254a7f371a94242302c63ee0
 stage43真实source commit `f4fe34a2a6f83acc6c4d4b81c7dad33190c7d015`、launcher `f092e359fac156f6673a428b1b1175a8607e127b0ec86f2e1dc3d812658c8476`，在6.132699742999648秒exit1，没有report/final输出。stage44其后置reader因缺失final而未启动科学。源的本地prepare-source-only生成成功只说明那一段静态生成可完成，不确定实际子错误；新增同runner日志读取器将绑定真实失败record，仅摘其最后traceback，不复制完整日志，不盲改模型或重跑已完成方向。
 
 新幅度分支已另从实际合格e3d父继续；旧g入口失败不成为暂停整个课题的理由。所有未付全域metric、固定g精化及同场几何责任不变。
+
+## 07:39 UTC：真实SOC余差与幅度入口未完成的范围
+
+追加纯报告stage49使用原95667 reader，返回SHA仍 `79e3db1fcf983fbeedd21adcc8ea6e6f8298889b994d06dd0fa443943c0779e0`：原全步必要产品 .9920002900532436，真实修正后 .9920000000863105，仍严格超过原 .992 门。修正的finite/domain/descent全true；最坏曲率地址变成cell821/u .16939530676686776/phi .28532042654672923，原全步最坏为cell234/u .864848514888/phi .664225919133。全行修正确实消除了大部分违约，但tau0没有为剩余非线性误差给向内余量。后续采用明确正向内算法参数再付真筛，不放宽 .992，也不据地址变化单独推定漏行。
+
+幅度首入口stage45真实运行56.48356082800001秒后exit1；实际父e3d重新读出的初max .014195698352864161/初Phi .0001831170990243604/必要K产品 .9919774528443649都与父一致。新初始幅度全筛passed，最大g=-.048128178412825684。旧192行mmap2051701248 B和追加后197行mmap2105130968 B已产生，随后自然退出，尚未存last_inequality_preparation、任何方向或final。其不完整报告3403439 B/SHA `feb508a9f80b730f7e9ce1686938d395bb2bf5d3abd8ea11ff8bbfdbe8b6e01e` 保runner；后置归因/first因无final未执行。不能将该实现失败称作幅度数学不可行。
+
+静态对照定位幅度helper的record同时显式传sign并展开同含sign的details，可能触发Python重复keyword TypeError；同runner的v2失败读取器已排，返回前只记静态定位。新helper将仅消除重复传参，保留实际sign字段，数学约束/原阈值不动。
+
+旧g v5实际失败日志只保存外层CalledProcessError（源的capture_output隐藏了子stderr），说明失败在explicit-SOC-parent-prepare调用；没有据此填写未观察到的内层错误。必须用保真stderr的新准备入口继续查清，不能旁路完整父源绑定。
+
+当前21个已实际返回任务的**摘要字段投影表**移至 `computations/resume-20261126-returned-summary-fields-01.json`；每个原任务的id/script/完整argv/parent/outputs/cleanup/scope仍逐值留在活动队列，未删重建依赖或改变科学参数。完整历史实际投影已在各卷。需要重放某项完整摘要时按archive的step id恢复对应summary即可；此操作解决控制器95KB队列读取限，不把原raw搬进仓库。

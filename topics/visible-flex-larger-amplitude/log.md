@@ -297,3 +297,5 @@
 2026-11-26 07:33 UTC — Astra-larger-e4e2a2bf-20261126：e8dcbeab已刊D/L完整蕴含及五源幅度保护入口，本次真实排e3d自身first选定的4.2/.9/1.01预算2×64、纯归因及同场first。保原C逐行prefix、R688/v5/全J/H2，新增原free dp与cap/H行，全grid/永久两符号真筛，新增记忆后父重读齐。队列只压空白保所有旧step内容，仍<95000B；两种新生cache在自然返回后明确清理。首次带缩进队列因自身95KB读取限未写入，随后此等价紧凑JSON正常排入；没有失败科学重试或删任务。
 
 2026-11-26 07:35 UTC — Astra-larger-e4e2a2bf-20261126：纯3489 reader实际确认R684两条/R688首条全步Phi下降均被真K筛拒，R688构造J/J*=0、faceB无fallback，末面仅2 advances。旧g全192行SOC实际投影可行但修正未接受，原rayα.5返d4bc；新note完整记录。旧g v5入口6.13秒exit1无report，排同runner实际traceback及原SOC真trial字段读取，不预猜错误或重做方向；新幅度继续。
+
+2026-11-26 07:39 UTC — Astra-larger-e4e2a2bf-20261126：实际全行SOC修正后产品.9920000000863105仍略超.992，truePhi/domain均过；后继加显式向内修正而非松阈值。幅度stage45初筛g=-.0481281784通过，造197行后exit1，无方向/final；正读内层trace，静态重复sign修复另链。21个已返任务仅summary字段表归档，原全部科学argv/依赖/输出/清理逐值保留在queue，避95KB限而不删重建步骤。
