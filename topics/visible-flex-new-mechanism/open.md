@@ -66,7 +66,7 @@ p未过约2.5e−7阶段门前不升级，目标仍p=.8、最终η≤1e−7。�
 
 ### 当前新输入与完整原门
 
-[R619](results/R619-free-center-leading-energy-and-true-memory-local-flow.md)给非prepared自由奇中心的真M首层局部流和准确C0从属关系；C1/C2始终全程常数，a0式含Qs Vc²，局部正则不授完整返回。[R624](results/R624-free-center-terminal-constants-and-compatible-analytic-input.md)已完整证明兼容首层末常数的唯一支合法输入及动能余量；原d、全部B″交叉项、真实参考矩和根稳定界均已付，纯helper的数值积分误差另列。后继R625正以原尾端加速度门提出乘cos²u的新增量，须新D/唯一q而不借旧输入；它仍须原有限ε全程十九态、真实A末和两ruling，不能凭首层常数兼容授根。
+[R619](results/R619-free-center-leading-energy-and-true-memory-local-flow.md)给非prepared自由奇中心真M首层局部流；C1/C2全程常数，局部正则不授返回。[R624](results/R624-free-center-terminal-constants-and-compatible-analytic-input.md)已证具体全盒/动能余量/唯一首层端常数支。[R625](results/R625-true-terminal-acceleration-and-tail-flat-compatible-input.md)原尾M完整因式给两条准确平方二阶末门及必要负符号；增量乘cos²u保中心j、准确消尾增量二阶，最高43/速度245/54。新D/q必须按新函数评价，不能借旧R624 q。整个参数区间尾模板T<−2131/4800，仍不解两条平方等式、真A末、沿途首层或finiteε ruling。新helper只复用准确矩与成本壳，旧D/q不执行；已接正式原十九态BVP。
 
 [R620](results/R620-fixed-width-center-jet-gauge-chart.md)已付原有限ε的a0/j0/f0三角常规范图、完整M/六rho/正势的时间参数混合二jets，以及19rhs乘L/全部Jac。新原全反馈scope保10参数、左19真初值与末8A+双速度十行；拟接受状态由实际C² quintic h/k重新积分η、A、rho，并按同一物理L/三规范重装原两ruling。原存储历史只作配点变量，不替实际曲线。
 

@@ -5,11 +5,11 @@
 
 ## 1. 授权、规则与前史
 
-公开本次实际pull且根/题README已读至 **dd090b58882b779861f66dce1a1183b256b73ea6**；相对继承0749a4cc根/题规则仍为空差异。私库实际pull/根README已读至 **0fb004a642c0e796e0912d5b4aa6199a20bb6517**，2026-11-26 21:48:04 UTC根README空差异；下一不晚于22:47 UTC。QUEUE本会话唯一进行中，原认领提交09f8b8b54e7cfaabaa635bae5c438c7f1521289a。
+公开本次实际pull且根/题README已读至 **afcef3c9a7124c6a857261878321809da9194f3b**；相对继承0749a4cc根/题规则仍为空差异。私库实际pull/根README已读至 **2dcbca6979066ac65a5e161f6d360c2b7a49bd6b**，2026-11-26 22:28:22 UTC根README空差异；下一不晚于23:27 UTC。QUEUE本会话唯一进行中，原认领提交09f8b8b54e7cfaabaa635bae5c438c7f1521289a。
 
 [H全文归档](notes/HANDOFF-before-fixed-E-and-K-only-20261127.md)及其链保全部旧结论、费用、输入与量词。[当前open](open.md)已重组为真实14d1/7371/337、新K-only/固定E/原BVP；[旧open全文](notes/open-before-fixed-E-and-K-only-20261127.md)不丢旧实例。[四来源与文献](notes/2026-11-27-current-four-source-topics-and-literature.md)保已读版本和准确用途。
 
-每次实际pull后查根/题README，只读变化并立即执行，至少每小时，SHA入H。root独占git/H/log/open/results；每条结论即推，NFF/并发锁立即pull --rebase再推至成功。科学/符号/数值只公开Actions；本地纸证、源码/AST/JSON/hash和原日志/坐标解析。根12禁重放已付门，必要新场再生全计费；根15只源码/必要下一输入/小收据，不存raw/可重算表。H<10000B、open<30KB、每md<100KB；检查准备命令exit后才发布，运行publisher时不改tracked文件。
+每次实际pull查根/题README差异并记SHA，至少每小时；NFF/ref锁立即pull --rebase推至成功。root独占git/四索引，每结论即推；科学只公开Actions，本地限纸证/源码与原记录解析。根12不重放已付门、根15不存raw/可重算表，必要新场再生全计费；H<10KB/open<30KB/md<100KB，publisher活跃时不改tracked。
 
 ## 2. 真正完成门
 
@@ -33,17 +33,17 @@
 
 [正常337范围](notes/2026-11-27-r613-actual337-normal-continuation-scope.md)run **45899589237**/job140181814100/source59ef89bf6，21:39:06 UTC启动；950×256/1728×512、全S奇1…127/全QR-SVD/所有口/core/canonical512、60步/5400秒/240预留原样。
 
-[R617](results/R617-finite-pre-tanh-poles-and-open-cap-rigidity.md)固定有限pre+post刚性不授有限误差下界。[R618](results/R618-fixed-metric-core-and-growing-post-response.md)与[真零入口](notes/2026-11-27-r618-fixed-target-evaluation-and-zero-entry.md)已付同E/同根/完整2J/ζ/τ链。新未发布完整height55985B/8a5686a3、chain17855B/0668d1af及16435B说明已冻结；root审chain原17159B数学通过，alias增量待核；finite_geometry独立全文审height，root接着审说明/关键链。保1129旧非mean/旧口，新增compact/core P0和到rc的真全平非齐次尾，L_jf显式；同根mean/primitive alias未付前S→η只条件观察，真实metric仍需双直接/角预算。完整cap→mouth均值与参数积分/持帽定位不可默认零。
+[R617](results/R617-finite-pre-tanh-poles-and-open-cap-rigidity.md)固定有限pre+post刚性不授有限误差下界。[R618](results/R618-fixed-metric-core-and-growing-post-response.md)与[真零入口](notes/2026-11-27-r618-fixed-target-evaluation-and-zero-entry.md)已付同E/同根/完整2J/ζ/τ链。完整新模型/chain/说明纸核通过，正修mean-height的response/radii、coefficient_fields的response/grid及旧对象provenance三处实际身份缺口。保1129旧非mean/原口，新增compact/core P0和定义到rc的真全平非齐次尾；原L_jf源、2J、mean/connection/position链齐全。root已读完整17855B chain并核output mean/Nyquist诊断；同根及primitive alias未付前S→η只条件观察，真实metric须双直接/角预算。cap→mouth均值/参数积分和持帽定位不可默认零；新a≤20可改善真尾包围，但完整旧germ/新尾同根条件仍须支付。
 
-## 6. 原固定ε十九态：R624新相容输入与R625尾端改进
+## 6. 原固定ε十九态：R625尾平输入接全反馈范围
 
-[R616终态](notes/2026-11-27-r616-expanded-true-function-natural-final-agent.md)run45890056841/job140150220830/source6977e7a4；1753.553893449秒/31接受/149完整trial/193未分类恢复失败/0系数墙。真37修正2935e5b667b52a7771a48193d7a0ce8bcbc7f0fc55304f951d6e1b3b960d895f，细四端4.98266e−10过、原ruling1.31489e14未解，eta近.999而系数远边；不再扩旧盒，不冒所有失败同因。
+[R616终态](notes/2026-11-27-r616-expanded-true-function-natural-final-agent.md)run45890056841/job140150220830/source6977e7a4；1753.553893449秒/31接受/149完整trial/193未分类恢复失败/0系数墙。真37修正2935e5b6，细四端4.98266e−10过、原ruling1.31489e14未解，eta近.999；不再扩旧盒，不冒所有失败同因。
 
-[R619](results/R619-free-center-leading-energy-and-true-memory-local-flow.md)真自由中心首层流与[R620](results/R620-fixed-width-center-jet-gauge-chart.md)原固定ε三角规范/完整19反馈全Jac已付。原R620未发布BVP48375B/bac767c0及45942B clock/refinement全diff已审；3300秒/180预留、完整部分成本/最后态、配点门与实际曲线门分开，65→129只前者过才允许；全原单位ruling/真历史门不放宽。18块/576微包、ε1/12000、正势1/unit3967798143562589、8末A+双末速度保持，pose未闭。
+[R619](results/R619-free-center-leading-energy-and-true-memory-local-flow.md)首层真M局部流、[R620](results/R620-fixed-width-center-jet-gauge-chart.md)原有限ε三角规范/完整19Jac已付。[R624](results/R624-free-center-terminal-constants-and-compatible-analytic-input.md)给全返回/Bc>0必C0C2<0、完整B″/真矩、m41全盒/动能>1/45及唯一Φ根/斜率>8Bc；只首层相容输入，不授finiteε根。
 
-[R624](results/R624-free-center-terminal-constants-and-compatible-analytic-input.md)20962B完整纸证/11840B纯helper与6219B接线说明全审通过：原d=hη−k，B_c>0全返回必C0C2<0；完整B″四项给C2对j仿射。真实参考[4.01,5.99]≤10次矩、六段198证9/20<r<7/15；m41全盒/动能>1/45，Φ唯一根且−Φ′/Bc>8。Fraction准确常数＋60位非严格D积分/180二分只数值评价该唯一根，未冒finiteε根。
+[R625](results/R625-true-terminal-acceleration-and-tail-flat-compatible-input.md)原尾M/Vs因式和两侧平方末方程已证。cos²增量保中心j/消尾大二阶，最高43/速度245/54，保全盒/动能/唯一支但须新D/q，必要T<−2131/4800；完整平方门/真A末未解。9430B纸证/8965Bhelper/接线diff已审，旧R624 D/q不运行。R626继续准确尾二次型/两侧交，不加旧诊断前门。
 
-true_history继续R625原尾端加速度必要式；独立提出将增量乘cos²u，保中心j、消尾增量二阶，旧盒/动能/唯一性可继承，最高43、速度245/54<6；需完整新纸证与新的D/q，不借R624旧q。先完成这个具体输入再一次接尚未发布BVP，原source不暗改。
+[正式全反馈范围](notes/2026-11-27-r620-free-center-full-feedback-bvp-implementation-agent.md)main47541B/2edc5a80，35绑定/38sparse。原19/Jac/10参数、8末A+双速度、实际C² quintic真历史/ruling、全部数值门不变；18块/576微包/ε1/12000/正势1/原unit3967798143562589保持。3300科学秒/180预留、最后态/部分成本完整；65→129仅配点门过后允许，真实曲线门独立。新输入60位D积分/180二分是非严格近似，不移首层C到原常规范。发布即接public Actions，无完成宣称；pose/闭材料仍欠。
 
 ## 7. 全闭连续几何：R623真实场身份失败，改正输入
 
