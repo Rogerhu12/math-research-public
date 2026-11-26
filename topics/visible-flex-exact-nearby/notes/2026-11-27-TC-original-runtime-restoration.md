@@ -52,3 +52,21 @@ libc 与明确的 core 选择。独立 TC 数学 owner 的 proposal 仍保留其
 前两次失败入口、原字节身份和未完成状态不改写。不放宽任何 SHA 门，
 不把新浮点重建当作原连续方向；若仍不匹配，继续依据实际结果定位
 输入重建环境，尚未完成的 TC 科学目标保持未启动。
+
+## 原容器第一次启动与挂载目录修正
+
+[run45883126797/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45883126797)
+的 job140127118048 于 2026-11-26 19:22:53 UTC 停在 worker 首条
+`git rev-parse HEAD`。不可变容器拉取、Git 安装、checkout 和全部原版本
+Python 包安装均成功；实际错误为 Git 对容器挂载 checkout 的
+`detected dubious ownership`。尚未恢复 nodal 输入、运行重物化或进入
+任何数学目标，不能把这次结果归因于 cubic SHA 或 BLAS。
+
+checkout action 的 safe.directory 使用其临时 global config，后续容器
+shell 没有承继该条配置。workflow 和 generator 现在在 checkout 后为
+明确的 `$GITHUB_WORKSPACE` 单路径执行
+`git config --global --add safe.directory "$GITHUB_WORKSPACE"`；不用
+通配或更换仓库。完整 cubic/分片 SHA 和数学 owner 均保持不变；新
+`original-runtime-mounted` manifest 只重新 pin 已修正 generator 与
+对应具体入口，保留失败时的原 manifest/workflow。挂载修正第一次
+必要恢复仍须通过全部原 SHA 门后才允许调用数学 owner。

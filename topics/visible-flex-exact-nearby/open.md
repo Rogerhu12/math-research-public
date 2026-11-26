@@ -181,6 +181,6 @@ R149 signed-loop及[CP/physical](notes/2026-11-26-physical-scalar-execution.md)�
 
 [LC actual](results/R144-supplement-actual-localized-full-state-and-compact-sources.md)45797426031/1：19当前/10历史，全7721行/6143join/27球、整件contains/trace已核；sameφ 1e−4门true，CS五源/χ′质量/全jump锁定。anisotropic约2.926756632289e−5仅显示，消费全保存球；未来GC修正另付，旧TM/Γ/残差不重。
 
-[TC原输入恢复](notes/2026-11-27-true-root-trial-input-restoration.md)：旧45806282910/1 science0保持；新45881752490/1已恢复137当前输入和40旧row，却在原nodal→cubic SHA处失败，science0。正恢复原Docker/BLAS环境，不更换Z或放宽原SHA。三目标584球仍待，真PDE误差另需P224/SC；完整Schur未成。
+[TC原输入恢复](notes/2026-11-27-true-root-trial-input-restoration.md)：45806282910/1旧Z路径不存在、45881752490/1原cubic SHA不符，均science0。原Docker入口45883126797/1首git遭挂载ownership、尚未重建；新mounted入口仅信任明确workspace，原SHA不放宽。三目标584球仍待，真PDE误差须完整P224/SC，fullSchur未成。
 
 [SB完整同φ衔接](results/R144-supplement-complete-same-phi-bridge-to-selected-reference.md)：同η0，新中心与Qδ*完整pair A0及moving C0<1.98e−5，原repair/19d*全付。换ν的mean/ordinary源显式保，真qν−Z不借Z；未来纠正≤8e−5只是充分余量，world锚/height/完整GC仍待。

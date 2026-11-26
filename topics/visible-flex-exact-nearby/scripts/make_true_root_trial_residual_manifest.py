@@ -15,8 +15,8 @@ TOPIC = "topics/visible-flex-exact-nearby"
 OWNER = TOPIC+"/scripts/fourfold_codazzi_true_root_trial_owner.py"
 WORKER = TOPIC+"/scripts/fourfold_codazzi_true_root_trial_public_worker.py"
 GENERATOR = TOPIC+"/scripts/make_true_root_trial_residual_manifest.py"
-BASE_MANIFEST = TOPIC+"/notes/2026-11-27-true-root-trial-original-runtime-inputs"
-BASE_WORKFLOW = ".github/workflows/fourfold-codazzi-true-root-trials-original-runtime-public"
+BASE_MANIFEST = TOPIC+"/notes/2026-11-27-true-root-trial-original-runtime-mounted-inputs"
+BASE_WORKFLOW = ".github/workflows/fourfold-codazzi-true-root-trials-original-runtime-mounted-public"
 OUTPUT_BASE = TOPIC+"/notes/true_root_trial_residual_ci"
 REVIEWED_RULES_SHA256 = "26da0165d2a7ec5f968959332c9fd04aae7259059de2b56f41e76b49b61fc051"
 
@@ -415,6 +415,8 @@ jobs:
             /topics/visible-flex-exact-nearby/README.md
             /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_root_trial_public_worker.py
             /@MANIFEST@
+      - name: Trust only this explicitly mounted checkout
+        run: git config --global --add safe.directory "$GITHUB_WORKSPACE"
       - name: Install the fixed directed finite-trial runtime
         run: python -m pip install --disable-pip-version-check numpy==2.3.5 python-flint==0.9.0 scipy==1.17.0 sympy==1.14.0 mpmath==1.3.0
       - name: Whole old inputs, true-root finite trial and only missing complete objects
@@ -671,7 +673,7 @@ def build(root,prior_manifest_path=None,prior_execution_path=None):
         "operation":{
             "topic_maximum_bytes":200000000,"reserve_bytes":120000,
             "readme_pull_interval_seconds":1800,"automatic_scientific_retry":False,
-            "consumed_marker":OUTPUT_BASE+"/consumed-original-runtime-20261127"+suffix+".json","output_base":OUTPUT_BASE,
+            "consumed_marker":OUTPUT_BASE+"/consumed-original-runtime-mounted-20261127"+suffix+".json","output_base":OUTPUT_BASE,
             "maximum_state_bytes":18000,"maximum_matrix_bytes":26000,
             "maximum_negative_bytes":50000,"maximum_positive_bytes":52000,"maximum_prefix_bytes":20000,
             "maximum_execution_bytes":35000,"maximum_total_publication_bytes":170000,
