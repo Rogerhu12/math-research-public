@@ -528,3 +528,8 @@ open原28316B全文按链接层级移入open-before-fixed-E-and-K-only归档，�
 ## 2026-11-27｜真实397原完整S方法正常后继
 
 全文核6075B新wrapper、4566B说明与4643B workflow，26绑定/AST/sparse和157609B真实输入核合；q逐字等于原FINAL，原4520.668522229001秒及全部计数继承。新reader递归穿过normal337输入取原31425B重建，避免假定顶层旧键；完整模型/QR/SVD/line/fine均直接原函数，common参数逐字同原337，不重放已付入场读出。实际397→最多457、原60步上限，独立R618仍锁原397目标。
+
+
+## 2026-11-27｜R618完整固定E增长模型与真实高度链
+
+已完成17855B chain及17893B说明全文审、62836B完整模型独立同伴逐式审和root身份关键差分审。保1129旧非mean、独立compact/全平Gaussian尾/核心P0与全2J τ链，完整隐式均值/connection/两次primitive和height参数导数不删。response/r/θ/meanθ/model身份、唯一原restore工厂及输入tail_anchor模型身份均绑定；不接受异模型积分重贴标签。纯源码AST/hash通过，无本地科学；S→η/导数jets仍欠同根/alias支付，下一实际397固定E与真anchor/direct-position消费继续。
