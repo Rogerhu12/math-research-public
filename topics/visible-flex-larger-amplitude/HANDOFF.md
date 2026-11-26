@@ -4,7 +4,7 @@
 
 ## 规则与完整目标
 
-最近规则核查：2026-11-26，真实pull/rebase至 `600f833e4ec2f73184990e620119cbb66ab1f4e8`，根及课题README相对f0548477无差异，已完整读授权及规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
+最近规则核查：2026-11-26，真实pull/rebase至 `04e6094a6abadbc00088adc7e3bb3da033ee3a73`，根及课题README相对f0548477无差异，已完整读授权及规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
 
 科学计算仅本公开仓库Actions；早前本地偏差及13:00 UTC纠正见[执行记录](notes/2026-11-20-public-actions-execution-correction.md)。根README已授权必要修改/发布；根唯一local git writer，代理只work/小源。每条结论普通commit/push；NFF立即pull --rebase循环再推，不强推。至少每小时pull，每次核双README差异/立即遵新规并记commit。raw只scratch/runner，不入Git/Release/artifact；只保完整小源/参数/run/SHA/紧凑结论。题≤200MB，MD<100KB，H<10KB，open<30KB。令牌只瞬时CLI，不写文件/提交/回复。
 
@@ -44,7 +44,7 @@ R684[首两方向](notes/2026-11-26-actual-first-mean-design-and-amplitude.md)�
 
 R686[同场first/K/四标记](notes/2026-11-26-same-field-batched-curvature-geometry-consumer.md)完整源已刊，六jet/全尾/全角保留、K目标由实际D推；新全K未付，不复算旧取消场。
 
-R688/e3d与幅度v2/643的完整真实前史保 [v2两方向](notes/2026-11-26-actual-amplitude-v2-directions-and-own-first.md)。最新 [typedSOC stage55–57](notes/2026-11-26-actual-complete-amplitude-SOC-and-own-first.md)返2d3e053c：原ray.5/mu.01，Phi .000167270661584/max .014179633163807，QP Pg/tol572816仍未驻点。原192+5及追加2行保全；SOC真实固定行max=-9.40596e−7但全筛产品.99201661仍拒，非阈值放松问题；同父多轮完整分离与更充分内层接着做。最终点筛通过，自身全922 D≤4.118425457/L≥.938819942/embedding已付，marker/K/E3/固定g精化未付。失败新位置及各试探永保。
+R688/e3d与幅度v2/643的完整真实前史保 [v2两方向](notes/2026-11-26-actual-amplitude-v2-directions-and-own-first.md)。最新 [typedSOC stage55–57](notes/2026-11-26-actual-complete-amplitude-SOC-and-own-first.md)返2d3e053c：原ray.5/mu.01，Phi .000167270661584/max .014179633163807，QP Pg/tol572816仍未驻点。原192+5及追加2行保全；SOC真实固定行max=-9.40596e−7但全筛产品.99201661仍拒，非阈值放松问题；[多轮完整分离](notes/2026-11-26-fixed-parent-multiround-separated-SOC-application.md)9f18/1c87已刊排该真实父1×256/最多8轮；同x/d保全C，单容量cache只追加，每轮独立Az/真Phi/全双筛，保原ray。最终点筛通过，自身全922 D≤4.118425457/L≥.938819942/embedding已付，marker/K/E3/固定g精化未付。失败新位置及各试探永保。
 
 R689同一冻结均值连续Gram/共同分割/双方全余项入口已刊，实际全域上界仍未付；不对已知失败场冒精化。
 
