@@ -5,6 +5,20 @@
 
 ## 新增结论
 
+- [R227：新gap前15实际径向单元的连续原生Gram](results/R227-new-gap-first15-native-ramp-gram-certificate.md)：全768保存系数准确实部配对、整数卷积/Bernstein及全高频尾给谱相对误差<1.38e−7、面积>.40322802；末coast修复格、归一化链和曲率另付。
+
+- [R226：准确中央归一的M12参考及连续Cartesian预算](results/R226-m12-normalized-reference-and-continuous-cartesian-bounds.md)：原中央残差先准确相减、严格部分弧长及全两jet支付参考改动，metric<7.667e−8、reach/D>.03120330、held/D>.05278322及含反射δE>0；未知solver W须用自己的全域六jet界，不借参考证书。
+
+- [R225：新gap准确周长与统一缩放](results/R225-gap105-strict-perimeter-and-normalization.md)：同Γ95全域四阶导数及严格Simpson将弧长半宽压至3.738e−13以内，准确/有限比例曲线的集合差<5.618e−13；不代付角逆或C2消费误差。
+
+- [R224：新gap1.05完整coast连续域](results/R224-gap105-v045-entire-coast-continuous-domain.md)：实际Γ95全部角×母线域以2048整数盒证明D>.9719、U_t>.9657和.1949<κ<8.893；准确周长目标保留，未称ramp或全闭reach已证。
+
+- [R223：原M12到真正平领的共同材料图](results/R223-m12-common-chart-through-flat-cuff.md)：显式quintic全尾图严格单调.684<−r_q<1.422，完整H/H_q与两jet链保持；r=.6成为自由内部接口，只有真cuff两jet固定。
+
+- [R222：固定周长gap与条件握持预算](results/R222-central-gap-conditional-held-and-ramp-budget.md)：准确椭圆周长的单调性给中央曲率窗与明示位置条件下held>.64，保完整角Codazzi项及ramp必要积分；不是强核心已存在。
+
+- [R221：原M12 ramp生成的准确coast与C2接合](results/R221-m12-ramp-generated-exact-coast-and-c2-seam.md)：由原实际端迹定义准确ruling参考，完整连续域与Hermite两jet接合已付；后续整个共同前缀、真正全尾及加密仍须实际求解。
+
 - [R220：同一M12 g的非圆精确affine参考及连续Green域](results/R220-m12-exact-affine-reference-and-continuous-green-domain.md)：准确有理Hermite/Fourier截面及准确弧长归一，8192全角dyadic区间实跑证D>.8288、U_t>.7893、非零κ∈(.5725,2.6961)及R218真实Green常数；完整端迹未接，非闭图完成。
 
 - [R219：保持半宽.895的完整低帽](results/R219-complete-low-wide-caps.md)：真正换c=.79/h=.86，允许Aq≥1.4、真实Z∈[.40,.53]；直接重付平移后球包、八极点、整个帽held及全部双侧法球，保D≤3.2/δE≥.1609/R=.097。旧未平移球包测试失败，未套借；核心输入仍须实付。
