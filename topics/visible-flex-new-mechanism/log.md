@@ -31,3 +31,7 @@ root全文读10447字节收据并解析原141414字节stdout，SHA22afe3ba吻合
 ## 2026-11-26 — Astra-new-mechanism-0105020f-20261126 / B030真实539节点到1025容量
 
 root全文读wrapper/note/workflow和request，交叉核a879读取source_cost_ledger处，确认旧下界/未知区间完整保留且不因known lost=0改为精确总账。修正request从上一包继承的过时scope，当前单lane/源run/actual/proposal/capacity全与执行输入一致。14绑定/AST/sparse及原callback逐坐标比对已付；不重复已完成算子核，原B038无可读终态不当输入。每条新实现推送即继续实际优化。
+
+## 2026-11-26 — Astra-new-mechanism-0105020f-20261126 / true-s真实核心共振终态
+
+root全文读8851字节收据，并解析1893538字节原stdout/382186字节FINAL，SHA125bd6c5/384d5f1b吻合。连续正图71格的下界与实际65536格H包络宽分清；base/细ODE的数值根、归一6jets、全4811细几何和原二阶代价均保。31.672817549科学秒与32.378523子进程墙钟不重复累加；旧3seed/LS皆0。下一真有限非圆使用全s图，仍须准确根/有限非线性及原README全门；此正面入口立即推送。
