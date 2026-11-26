@@ -44,8 +44,8 @@ R692[完整旋转连接](results/R692-nonlinear-rotation-connection-and-metric-e
 <!-- visible-larger-parallel-02:end -->
 
 <!-- visible-larger-parallel-03:start -->
-并行公开Actions03：[run 45820592817/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45820592817)；[实际记录](notes/2026-11-26-public-actions-45820592817-1.md)。阶段`followup:complete-independent-axisymmetric-SO3-v2-first-20261126-recover03b`/completed；已返3，exit=0。
-并行03规则核查：2026-11-26 12:57:12 UTC，真实pull至`c6d878049bdd5c341ed15bf0178c56e9aa77e81d`，双README无变化。
+并行公开Actions03：[run 45820592817/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45820592817)；[实际记录](notes/2026-11-26-public-actions-45820592817-1.md)。阶段`followup:actual-independent-axisymmetric-SO3-attribution-v2-first-20261126-recover03b`/completed；已返4，exit=0。
+并行03规则核查：2026-11-26 12:57:21 UTC，真实pull至`f340991d3fb57e5c95215237365802183ea3d56c`，双README无变化。
 <!-- visible-larger-parallel-03:end -->
 
 ## 当前公开Actions执行
