@@ -6,8 +6,8 @@
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。有限p、随p换曲线、条件桥和接口成功不算完成；固定有限曲线族的联合无穷非零可以再用无限鸽巢选定一条。
 
-- 两仓库已部分克隆、实际pull。公开根/课题 README 已读至 `e98d150674d97eb614fbeacda1277a2b4c1fd8f7`（差异为空）；每次pull检查两文件差异，至少每小时同步并更新此SHA。
-- 私库QUEUE接手已推 `41fe885610073f478b2f5a752461ca56cfd43f09`，根README读至4b91389。两本地目录为math-research-public、math-research-private；终端可用，令牌仅进程认证，不入文件。
+- 两仓库已部分克隆、实际pull。公开根/课题 README 已读至 `2c7de493c88f16e58d77ce39f97e04c5707bb4d2`（差异为空）；每次pull检查两文件差异，至少每小时同步并更新此SHA。
+- 私库QUEUE接手已推 `41fe885610073f478b2f5a752461ca56cfd43f09`，根/本题README于20:03 UTC复核至eb74b5a78f485b18621f95381131a88bbd62467c（差异空，QUEUE仍本会话）。两本地目录为math-research-public、math-research-private；终端可用，令牌仅进程认证，不入文件。
 - root独占git/共享H/open/log/index；结论完成即推，非快进立即pull --rebase、检查README再推至成功；不强推。数学执行用公开Actions，不保存可重算数据/矩阵/log。H<10KB、单MD<100KB。
 - 本次完整旧状态保在[压缩前H](notes/2026-11-27-handoff-before-whole-cross-spectrum.md)。它链接[接手原H](notes/2026-11-27-handoff-at-takeover-0b097461.md)、[v8前H](notes/2026-11-27-handoff-after-v8-launch-before-degree130.md)及2026-11-26全部历史链。所有未关闭旧门仍在[open](open.md)及两卷proof index，未默删。
 
@@ -25,7 +25,7 @@
 
 ### 原中央完整谱v5已返，保共同carry新来源接v6
 
-run45884058894/job140130269899/sourcefbb1c319于19:36:09 UTC实际success；全22/66/44和全部81块通过。F130只含E65³线与E125的质量零13-old方向；H含E260分量1/81但F130该分量为零，四个非mu6块均保。R976全回执已写，算术标签等R973接续登记。
+run45884058894/job140130269899/sourcefbb1c319于19:36:09 UTC实际success；全22/66/44和全部81块通过。F130只含E65³线与E125的质量零13-old方向；H含E260分量1/81但F130该分量为零，四个非mu6块均保。R973算术标签及R976全部谱/回执已登记；三个delta-new质量零线分别29Z/216、7Ψ35/270、167Ψ53/360，后二条全算术角色仍待。
 
 v6已接新F11真六sigma/psi11全式、E260完整22投影、全部81分量及同C/F整框架；所有v5原390/E89/六jet/六sigma/h/p227门保持，17源/15AST。待新run绑定，零或非零都按实际输出，不能预猜。
 
@@ -65,6 +65,6 @@ R885/897全finite/wild范数及Artin/尺度保持。R891/893/940/945仍以前提
 
 ## 五、持续任务与文件
 
-central负责R976全22+66余谱与来源提取；arithmetic负责R973新E260全部有限身份/通常全群桥和余块角色；geometry跟进v8实际终点并推进原c1/global/ordinary新输入，R975不再重复验证；root统筹全mixed/无穷性及提交。
+central负责R978完整13-old双pull消费者；arithmetic负责其真实旧相位和ordinary整体log非零证明；geometry跟进v8实际终点并推进原c1/global/ordinary新输入，R975不再重复验证；root统筹全mixed/无穷性及提交。
 
 当前入口：scripts/produce-original-triangular-artinian-shadow.py、ci/original-triangular-artinian-shadow-request.json、对应唯一triangular workflow；中央scripts/check-original-e65-full-cm-sixth-axis.py、check-original-degree130-cross-cm-projection.py、check-original-degree130-whole-spectrum.py及e65-full-cm-source-request.json。每条结果完成立即登记results/proof index并推；继续下一个实际未解门。
