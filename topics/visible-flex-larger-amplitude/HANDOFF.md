@@ -54,6 +54,6 @@
 <!-- visible-larger-parallel-04:end -->
 
 <!-- visible-larger-parallel-05:start -->
-并行公开Actions05：[run 45870334713/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45870334713)；[实际记录](notes/2026-11-26-public-actions-45870334713-1.md)。阶段`followup:run05-history-reconstruction-17-complete-independent-axisymmetric-SO3-prior-separation-SOC-first-20261126`/running；已返3，exit=未返。
-并行05规则核查：2026-11-26 18:27:34 UTC，真实pull至`5b83fc75fada6cffe46e464ca50f54891523cf1e`，双README无变化。
+并行公开Actions05：[run 45870334713/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45870334713)；[实际记录](notes/2026-11-26-public-actions-45870334713-1.md)。阶段`followup:run05-history-reconstruction-17-complete-independent-axisymmetric-SO3-prior-separation-SOC-first-20261126`/completed；已返4，exit=0。
+并行05规则核查：2026-11-26 18:31:00 UTC，真实pull至`4b892504f20ea409eea9159f558887d4db3a247d`，双README无变化。
 <!-- visible-larger-parallel-05:end -->
