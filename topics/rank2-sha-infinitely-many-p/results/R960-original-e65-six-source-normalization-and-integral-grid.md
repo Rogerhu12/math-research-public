@@ -582,3 +582,302 @@ reader 是
 依赖：R473 原全函数域；R947 五源完整规范化/导子及整返回；
 R959 原 E65 完整算术来源、六低 jet 和通常 Selmer 桥。
 本篇从不把来源环乘法解释成中央泛函的乘法性。
+
+
+## 9. 真五中央必要值在同一六源整格上的完整六块运输
+
+本节从 R943 的真实五轴必要系统接到本篇六源原格。
+它不把五条或六条中央零当作来源环上的乘法恒等式，
+也不由参数确定性宣称任何右核存在。
+固定坏集合还包括 $c_6$ 在原点的首系数；写
+$$
+c_6=\Theta^{69343}q_6(t),\quad
+r_c=\operatorname{ord}_{t=0}q_6,\quad
+\ell_c=(-1)^{r_c}[t^{r_c}]q_6\ne0 .
+\tag{42}
+$$
+第7节给 $356\le r_c\le22758$，故这是先于 $p,M$ 固定的有限代价。
+以下 $p=6s-1$ 在所有固定坏集外，且
+$$
+1\le\ell,\qquad \ell+r_c<s .
+\tag{43}
+$$
+目标物理长度 $L=5s+\ell$、$L+r_c$ 均小于 $6s=p+1$；
+因整数性，$L+r_c\le p$。所有所用展开在 R614 原 addition 整窗内。
+
+### 9.1 同一来源、整数格及实际范数
+
+为分清完整规范化和原来源呈示，记
+$$
+\mathcal B_M=\bigoplus_{0\le m\le M}\Lambda_m^{(6)},\qquad
+\mathcal A_N=\operatorname{im}\left\{
+ \bigoplus_{\substack{e\in\mathbf Z_{\ge0}^6\\
+ (17,36,68,33,89,195)\cdot e\le N}}\mathbf Z E_e
+ \longrightarrow\mathbf Q[[w]],\ E_e\mapsto F^e\right\}.
+\tag{44}
+$$
+这里 $F=(S,T,U,V_{66},W,Z)$ 仍是六个原质量零来源；
+没有把 $\rho_6,\rho_6t^{60}$ 另当算术中央。
+第7节的固定有限返回表给一个先于 $M$ 固定的整数 $D_{\rm ret}>0$，
+令 $Q_M=D_{\rm ret}^{M+1}$，便有同一来源的整映射
+$$
+\iota_M:\mathcal B_M\longrightarrow\mathcal A_{M+69343},
+\qquad P\longmapsto Q_Mc_6P .
+\tag{45}
+$$
+它是单射；在所有好 $p$ 处是饱和单射。
+证明逐字使用 (28) 的全整环饱和性，再保留实际分次与 $Q_M$ 的单位性；
+并非从截断 jet 的秩推出来源饱和。
+
+$\mathcal A_N$ 的实范数取 (44) 标准 Euclidean 范数的真正商范数，
+有限位取同一整数像格的 gauge 范数。
+$\mathcal B_M$ 则取 (35) 的同一显示整基。
+(30) 的整返回使 (45) 的实算子范数至多 $\exp(O(M+1))$；
+所有有限位是整映射，恢复 $Q_M$ 的代价仅在固定坏位，
+合计 $(M+1)\log D_{\rm ret}$。
+这正是 R957 §4–7 的实际商格论证在六个真实来源上的使用：
+呈示核 primitive、真实 Taylor 前缀饱和，
+全部普通测度先作原加法卷积再切单位域。
+本节没有将某个随 $p$ 选择的有理补空间赋成新的整数标准格。
+
+### 9.2 原六块环和全部物理行
+
+置
+$$
+\Gamma_L^{(6)}=\mathcal O[w,\epsilon]/
+ (w^s-p\epsilon,\epsilon^6,w^\ell\epsilon^5),
+\quad
+\Gamma_{L+r_c}^{(6)}=\mathcal O[w,\epsilon]/
+ (w^s-p\epsilon,\epsilon^6,w^{\ell+r_c}\epsilon^5).
+\tag{46}
+$$
+第一环在 $j=0,\ldots,4$ 的每块保 $w^i\epsilon^j,\ 0\le i<s$，
+最后一块保 $0\le i<\ell$；第二环最后长度为 $\ell+r_c$。
+这些是自由 $\mathcal O$ 基，不删除任何块内尾。
+
+保持 R943 的同一个 $t(w)$、$a_p=p\kappa$、
+$g_\circ$ 及五个实际高轴。
+令
+$$
+h_\circ=(g_\circ/d)^{1/17},\quad
+\eta_A=w^{s-5}K_A,\quad K_A=P_4+w^5H_A,\quad
+h_A=h_\circ e^{\eta_A/17},
+\quad \mathcal E=\frac1{17}\vartheta\partial_\vartheta.
+\tag{47}
+$$
+$H_A$ 是原三角坐标 $u$ 确定的整个尾，不取任意替代。
+对 $P=\sum_mP_m\in\mathcal B_M$ 定义
+$$
+\mathcal J_{6,A}(P)_j
+=\left[\sum_{i=0}^j
+ \frac{a_p^i}{i!}p^{j-i}\mathscr S^{j-i}
+ (\mathcal E^iP)(t(w),h_A(w))\right]_{<m_j},
+\quad
+m_0=\cdots=m_4=s,\quad m_5=\ell .
+\tag{48}
+$$
+$\mathscr S$ 为准确的 $s$ 阶系数移位。
+(48) 等价于把
+$P(t(w),h_A(w)\exp(a_p\epsilon/17))$
+在整个 (46) 中求值；分母 $17,1!,\ldots,5!$ 都是单位。
+源的任何整多项式恒等关系仍为零，因此也定义在 (44) 的完整原像格上。
+
+在原算术值 $A^*$ 处，
+$h_{A^*}=\Theta\exp(-\kappa w^s/17)$。
+故原物理系数 $r_k(f)=[w^k]f$ 与 (48) 准确相连：
+$$
+\mathcal J_{6,A^*}(f)_{j,i}
+=p^j r_{js+i}(f).
+\tag{49}
+$$
+对非齐次 $f$ 逐真实权求和；没有统一改成错误的相对 charge。
+这条式子与 ordinary 完整矩读取同一个 $r_k$，不将其单位切域混作 (49)。
+
+### 9.3 导子主块、真实全尾和固定跨界成本
+
+$\mathcal J_{6,\circ}(c_6)$ 在完整较长目标内准确为
+$w^{r_c}U_{c,\circ}$，其中 $U_{c,\circ}$ 是整单位。
+可直接取
+$$
+U_{c,\circ}
+=(t/w)^{r_c}\frac{q_6(t)}{t^{r_c}}\,
+ h_\circ^{69343}\exp(4079\,a_p\epsilon).
+\tag{50}
+$$
+其常数是 $\ell_c$；式 (50) 保整个 $q_6,t,h_\circ$ 和 Gaussian。
+对 $P$ 的每个真实权 $m$，总 Euler 为
+$$
+\mathcal E_{\mathrm{tot}}=\mathcal E+4079,
+\qquad
+\mathcal E_{\mathrm{tot}}P_m=\frac{m+69343}{17}P_m .
+\tag{51}
+$$
+于是 (45) 在原六块目标的整个评价矩阵满足
+$$
+\boxed{\;
+\mathcal M^c_A(P):=\mathcal J_{L+r_c,A}(Q_Mc_6P)
+=Q_MU_{c,\circ}
+ \sum_{j=0}^{5}\frac{(p\epsilon)^j}{j!}\,
+ w^{r_c-5j}K_A^j\,
+ \mathcal J_{6,\circ}(\mathcal E_{\mathrm{tot}}^jP).
+\;}
+\tag{52}
+$$
+等式在 (46) 中准确成立，并保所有高尾和后续折回。
+
+证明先在同一非齐次来源逐权展开
+$e^{\eta_A\mathcal E_{\mathrm{tot}}}$。
+$j$ 次项首阶是 $r_c+j(s-5)$。
+因 $r_c\ge356$，$j\le5$ 的 $r_c-5j$ 均非负，
+可以真正使用
+$w^{r_c+j(s-5)}=(p\epsilon)^j w^{r_c-5j}$，
+而不是引入负幂后删项。
+对 $j\ge6$，最早的 $j=6$ 与目标之差为
+$$
+r_c+6(s-5)-(5s+\ell+r_c)=s-\ell-30>0,
+$$
+因为 (43) 给 $s-\ell>r_c\ge356$。
+后续项首阶递增，故全部超出完整目标。
+取 $j=0$ 时需要 $\mathcal J$ 到 $L$；$j>0$ 的有效位移更大，
+所以 (48) 的同一全窗口已经足够，没有少读输入尾。
+这也付清各项作为 (46) 两环之间映射的边界关系。
+
+单独的真实乘法
+$$
+m_{r_c}:\Gamma_L^{(6)}\longrightarrow\Gamma_{L+r_c}^{(6)},
+\qquad x\mapsto w^{r_c}x
+\tag{53}
+$$
+有准确 Smith 数据：$5r_c$ 个指数一，其余源指数零，
+另有 $r_c$ 个自由余目标方向。
+这是因为五个满块各有恰 $r_c$ 个末位跨界，
+$w^i\epsilon^j\mapsto p\,w^{i+r_c-s}\epsilon^{j+1}$，
+而末短块由 (43) 不跨界。
+各像坐标互不重叠，最前 $r_c$ 个物理方向为空。
+完整单位 (50) 和好位单位 $Q_M$ 不改变这些数据。
+因此导子返回在目标的固定 torsion 费用为 $5r_c$；
+不能把这项再作为原评价的独立单位秩相加。
+
+### 9.4 真实中央零给出的同一个矩阵模 $p^6$
+
+R943 的五条原中央同时零时，实际五轴满足
+$u^*\equiv u^\dagger\pmod{p^5}$；
+$u^\dagger$ 是固定原 $g_\circ,t,a_p$ 的五行 Hensel 零点。
+(47) 从 $u$ 到整个 $K_A$ 是整线性映射，所以
+$K_{A^*}-K_{u^\dagger}\in p^5\mathcal O[[w]]$。
+(52) 的每个非常数参数项已有一个 $p$，从而
+$$
+\boxed{\mathcal M^c_{A^*}\equiv\mathcal M^c_{u^\dagger}
+                   \pmod{p^6}}
+\tag{54}
+$$
+在同一 (45)、同一完整目标和所有非齐次列上成立。
+不是重新挑选源基，也不是只比较末度或一组左行。
+任何给定源向量及其五个允许修正，在这两个完整矩阵下的
+$p^6$ 成员性完全相同。
+
+对整个原来源格还可准确界定未使用导子的有限差。
+若 $f\in\mathcal A_N$ 的所有权都大于 $4\cdot195=780$，
+(7) 迫其各项在 $(t,h_A)$ 代入后含 $w^5$；
+$\mathcal E$ 及所有单位 Gaussian 保留这个因子。
+当 $u-v\in p^5$ 时，模 $p^6$ 的差只剩
+$p^5w^{s-5}(K_u-K_v)/p^5$ 乘一次 Euler 评价。
+这里的 $w^5$ 使 $w^s=p\epsilon$ 再给一个 $p$。因此
+$$
+\mathcal J_{6,u}(f)\equiv\mathcal J_{6,v}(f)\pmod{p^6}
+\quad(f\in\mathcal A_{N,>780},\ u-v\in p^5).
+\tag{55}
+$$
+较高差次项已含 $p^{10}$。
+在 $p$ 的正特征剩余系数中，(55) 也可从 (48) 的整多项式直接展开；
+没有使用含 $p!$ 分母的无限形式指数。
+
+所以 (54) 并非仅说明一个大导子平移：
+五条真实中央的必要值已确定整个高权来源的六块矩阵模 $p^6$。
+完整来源余下的差只读取固定、真实的 $\mathcal A_{\le780}$，
+其维数不随 $N$ 增长；这些列仍须保留。
+因为同一角函数域中不同 $\vartheta$ 权独立，
+(44) 的权分解也是实际整数直和，此处没有把物理 Taylor 的互相抵消
+误认作不同权之间的永久关系。
+第六原来源及 R962 的过定行正落在这份低权格，不能删去。
+
+## 10. 指定必要值的全部修正族与第六行的准确联立
+
+固定好 $p$、同一预算和指定的整首来源 $P_0\in\mathcal B_M$。
+在 (54) 的同一个完整矩阵
+$N=\mathcal M^c_{u^\dagger}$ 下，真正待判集合是
+$$
+\mathfrak F_{p,M}(P_0)=
+\{(P_1,\ldots,P_5):
+ N(P_0+pP_1+\cdots+p^5P_5)\in p^6\Gamma_{L+r_c}^{(6)},
+ \ P_i\in\mathcal B_{M,i}^{\rm allowed}\}.
+\tag{56}
+$$
+$\mathcal B_{M,i}^{\rm allowed}$ 表示该问题原先允许的准确整来源；
+若各页相同才取整个 $\mathcal B_M$。
+(54) 证明这份指定族与实际 $A^*$ 的族完全相同。
+(45) 及来源饱和性保证每一步所写的 $P_i$ 都回到同一原六源预算，
+系数范数费用仍是 $\exp(O(M))$，没有除 $p$ 后改用较大的有理来源。
+
+(56) 有不丢行、可逐页判定的准确条件。
+先验 $\bar NP_0=0$。若已保
+$N(P_0+\cdots+p^{j-1}P_{j-1})\in p^j\Gamma$，
+第 $j$ 页的整个实际目标是
+$$
+y_j=-\,N(P_0+\cdots+p^{j-1}P_{j-1})/p^j\bmod p
+ \ \in\ \bar N(\mathcal B_{M,j}^{\rm allowed}\bmod p),
+\qquad 1\le j\le5 .
+\tag{57}
+$$
+该式对每个已给定的前缀是充要条件；
+分子包含所选整提升的全部下一位，所有六块及其跨界都在同一自由目标内。
+只有在这个完整像中找到 $P_j$ 后，才能进入下一页。
+第7.1节的自由基置换和固定整数乘法表使两边都是同一可重生整呈示，
+而不是另立的抽象有限商。这里没有声称 (56) 非空或将其替换为
+选定 normal 行的通过。
+
+第六中央的实际条件必须与 (56) 保在一起。令旧五源为 $F_\nu$，
+$q_\nu=d_\nu/17$，$q_Z=195/17$。
+从 R959 同次六低 jet 取
+$$
+b_\nu=(\lambda_{\nu,5},\ldots,\lambda_{\nu,1}),\quad
+B_5=(b_\nu)_\nu,\quad
+c=b_ZB_5^{-1},\quad
+\Delta=Z-\sum_{\nu=S,T,U,V,W}c_\nu F_\nu .
+\tag{58}
+$$
+$B_5$ 在指定好位为单位，全部系数和固定分母先于 $p$ 确定。
+真实低 jet 给 $\Delta\in w^6\mathbf Q[[w]]$，
+且 $[w^6]\Delta=-\det(B_6)/\det(B_5)\ne0$。
+置同一实际低权来源
+$$
+H=\mathcal E^{-1}\Delta
+=\frac{Z}{q_Z}-\sum_\nu\frac{c_\nu F_\nu}{q_\nu}.
+\tag{59}
+$$
+此处只在六个非零实际权上取逆，$p>211$ 保其分母为单位；
+并未把 $\mathcal E$ 在常数列或权为 $p$ 倍数的整格上求逆。
+固定清分母后，(58)–(59) 都属于 (44) 的真实 $\mathcal A_{\le195}$。
+
+R943 的归一中央式第一位是
+$F_\nu(u)\equiv [w^s]\widehat F_{\nu,A}/q_\nu\pmod p$。
+故六个原中央同时零必给同源的确定必要条件
+$$
+\boxed{[w^s]H\in p\mathcal O.}
+\tag{60}
+$$
+这里原质量零保证 $[w^s]H$ 与 regularized 版本完全相同，故该系数整。
+其参数不变性也可直接核：
+$\mathcal EH=\Delta$ 的前五项准确为零，
+$\eta_A$ 从 $w^{s-5}$ 起，第一扰动从 $w^{s+1}$ 才进入；
+第二及更高扰动在 $s>9$ 时也越过 $w^s$。
+Gaussian 首变化为 $w^s\mathcal EH$，同样不改变这个系数。
+所以 (60) 的 $H$ 是原物理来源，不能用任意参考高尾替代。
+
+更高精度须采用 R962 的完整过定余式，
+包括六个原 Newton 的全部尾和实际五行 Hensel 提升；
+(60) 不替代它们。
+(56)–(60) 已将实际必要值、高权同格修正族与固定低权第六行
+写成同一来源内可判的联合条件。
+仍需在这份指定联合条件中证明不可相容，或实际完成一个
+可消费的深核估计；未从其表示法或 Hilbert 常数宣称主目标完成。
