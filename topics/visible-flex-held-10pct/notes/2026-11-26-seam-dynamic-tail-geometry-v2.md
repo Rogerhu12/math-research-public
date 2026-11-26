@@ -119,3 +119,7 @@ python "$TOPIC/scripts/resume_20261126/seam_run_tail_geometry_v2.py" \
 
 完整数组、逐段证明、native 文件及大 summary 留在 runner；仓库只收源、此范围说明和未来实际执行后的小证据。该版本的编译与实际输入执行状态须以单独小记录为准，不能将本入口说明当成成功证书。
 
+
+## 6. 同一完整谱的切口修补读取器
+
+独立 `seam_certify_cut_attachment_v2.py` 使用上述 v2 完整输入门，再逐项绑定实际 stage0 的 schema、全部频率与同一 spectrum contract，以及对应的新连续证书。其余真实预算提取、原 Hermite 两jet修补和度量/曲率合并公式均与已审原件相同；未知图定义不会进入修补。源码 SHA-256 为 `2845cc1ef39d41bff6443a08078cd84bb9875de1ca084549cfec5b972c4f0bd3`；本地真实编译和 `--help` 均 exit 0，尚未输入实际新尾场。

@@ -342,3 +342,5 @@
 - 2026-11-26 09:22 UTC｜Astra-held10-06bbeb39-20261126：M16 cold真实status1/RMS10.03887未门；历史λ.004尾因调用端预mkdir撞原native fresh目录合同，尚未求方程。已双审四入口仅删预建子目录，新唯一目录继续原完整H/原门；不删历史数据。09:18本地环境断开，双README API核无变，暂用连接器保快进；09:15 reader条目原误记09:20已改正。
 
 - 2026-11-26 09:36 UTC｜Astra-held10-06bbeb39-20261126：两次本地重置后已重建partial public3并真实pull，双README无变。独立全尾v2按实际M/N冻结完整谱、唯一R/mean链及新深领，五源双审/compile/Node/help通过；仅频率接口检查，无新尾场或旧证书重跑。N/D变化另付同图C²差及真实ΔZc，未假付精化。
+
+- 2026-11-26 09:38 UTC｜Astra-held10-06bbeb39-20261126：动态全尾的独立cut_attachment_v2已审/compile/help，严格绑定实际stage0与新证书的完整谱合同，再用原预算和同一Hermite修补。未改变任何数学公式，尚无新场输入或接缝成功。
