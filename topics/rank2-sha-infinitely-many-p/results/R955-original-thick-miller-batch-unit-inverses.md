@@ -183,3 +183,32 @@ request/implementation 标签同步，不能只改代码漏改来源数断言。
 以真正原 \(306\) 维完整数据接受或拒绝此实现。
 
 实现源码12700 bytes，SHA-256 `f763351681f110963652cd6ff3566e8240991ffad98c93580da0b2e1a7933fe2`。root已对照原consumer的逐线、辅助常数和完整norm调用及原两个二进制链；此处发布源码与证明，不把尚未运行的原306消费过程记为PASS。
+
+## 6. 已审最小生产接线及当前持有版本
+
+root已对照未改consumer的真实返回路径
+`pair_summaries/full_original_pairing_norms/all_complete_components/whole_miller_norm`，
+以及 `original_tate_reader` 的实际context键。新增wrapper逐个读取
+原调用产生的batch记录；原0长路径只接受原norm1标志，不伪造调用。
+helper导入时捕获原方法对象，绑定前后核相同对象和原完整文件SHA。
+其余四类、一map、两geometry绑定及原完整main保持。
+
+以下三件替代R942§13.14–13.15的持有版本；尚未写入触发路径，
+仍等唯一F实际终点后接后继生产：
+
+| 路径 | Git blob | 字节数 |
+| --- | --- | ---: |
+| scripts/produce-original-triangular-artinian-shadow.py | `02dc1f76f03c9aa779584c64f14e999369b2ccdb` | 18433 |
+| scripts/launch-original-triangular-artinian-shadow.py | `33c973d77063d92dadbda935bad31435630a08e0` | 10318 |
+| ci/original-triangular-artinian-shadow-request.json | `16a9668f6e7f80ec70d33745b2d38026f813620a` | 836 |
+
+对应SHA-256分别为：
+
+- producer：`957e97d425d2cda76225b29697918e785755e6b9da9b2cc5ecf58f01e49cfeb6`；
+- launcher：`a06b3316bcf48cd6d6c5ae0c83f92c9b4e010f990db23a6b05b2bb1c9059c3ee`；
+- request：`15967f981c59903374072a2e47bd1091f6660744adf45d7b6b7766dc9504d9ef`。
+
+workflow仍为Git blob `5713d440f42e1bd2f638944ce2dc9d3d4ddd1d5b`。
+host准确明列45个唯一完整来源；schema v4及implementation同步。
+原两份PASS pins、r29/q2453/batch64/minimal、原两图/四交/九对/
+所有厚层及全部18×9读数均不改。尚无这份后继原生产的实际回执。
