@@ -6,7 +6,7 @@
 
 [R235](results/R235-reflected-third-jet-compatibility-and-exact-local-patch.md)给当前反射保留C4修正的准确局部兼容限制：原node18551的真实第三迹跳非零，准确等距则须零。无正sup硬底、不排除C2细化收敛；显式全Fourier C2消跳补丁已付预算，尚未加到任何实际场。接着真实同g加密及更精确连续Gram，不把局部障碍当终止理由。
 
-强幅度长run45778054176已完成source002的12次真实尝试，末metric.2639543763/κ26.4013713；最后209969点observer真0、metric.2639876841/κ27.02188092。[source003合同](notes/2026-11-26-6a65-solver-source003-composite-contract.md)按真实父态/observer严格激活，12:52:20原receiver已freeze；初始化真0、逐值复现父目标，下一真实原Cauchy尝试及独立v2 Cartesian继续。独立cold45812620369全13行7760列接受1，但metric2.38717/denseκ171535.8仍坏。缓存job45823011528数值前真实浅历史失败，修复保持精确trigger后，新45825253169已首次普通推scalar并开始实际源生成；v4计划20次完整真尝试，不借旧raw/计数。
+强幅度长run45778054176已完成source002的12次真实尝试，末metric.2639543763/κ26.4013713；最后209969点observer真0、metric.2639876841/κ27.02188092。[source003合同](notes/2026-11-26-6a65-solver-source003-composite-contract.md)按真实父态/observer严格激活，12:52:20原receiver已freeze；初始化真0、逐值复现父目标；原Cauchy818.216s真0、α.25接受至R².1076995485/metric.2639542415，rho仍设计变量，不冒同g加密。原观察及独立v2 Cartesian继续。独立cold45812620369全13行7760列接受1，但metric2.38717/denseκ171535.8仍坏。缓存job45823011528数值前真实浅历史失败，修复保持精确trigger后，新45825253169已首次普通推scalar，实际value239.542s与observer401.093s均真0后开始v4；v4计划20次完整真尝试，不借旧raw/计数。
 
 新gap1.05/v.045的[R233](results/R233-entire-ramp-accurate-coast-normalization.md)准确全ramp metric<6.100e−7、κ<9.867915和C2接合已付；完整短窗源保持它及真实尾，固定自己的自然g。[全周期前三步](notes/2026-11-26-6a65-geometry-gap-window-first-three-complete-cartesian-steps.md)及[后续4–6](notes/2026-11-26-6a65-geometry-gap-window-steps-four-six-and-escaped-peak.md)真实接受共6，全部2400列/13行。第6训练κ2614.99但192角实际κ291549.99暴露窄峰；下一固定联合128+192完整残差需自己新基线。窗口连续角速正性、实际全域浸入/metric/曲率及非局部reach仍须付。
 

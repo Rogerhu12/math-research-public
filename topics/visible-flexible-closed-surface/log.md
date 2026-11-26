@@ -204,3 +204,5 @@
 - 2026-11-26 13:07 UTC｜Astra-visible-flex-6a65e705-20261126：[R236](results/R236-local-bernstein-angular-continuous-metric-budget.md)完整局部Bernstein/Jensen/角平方范数/中央修正与96bit向外包界，独立人工场两阶段23.096s真0、新metric2.19659e−6如实false；不是旧cc306实际场新界。rev4保428元同配置/全部旧检查，显式同job重生并消费本验证器；workflow补全trigger祖先、9段bash语法真0，未冒新solve结果。
 
 - 2026-11-26 13:09 UTC｜Astra-visible-flex-6a65e705-20261126：[R235](results/R235-reflected-third-jet-compatibility-and-exact-local-patch.md)完整Gram/Gauss第三迹引理支付反射M=0与K<0，原node18551完整有理Ax<−1.68/Az<−.0077；当前C4不能准确消跳但不排C2趋零。显式全Fourier C2局部补丁消本圈jump、原基线metric<2.572125e−8、消费者0.091s真0，未偷加CI；更新open真实3条主线，R236实际run45826114835已启动。
+
+- 2026-11-26 13:16 UTC｜Astra-visible-flex-6a65e705-20261126：点算子源核清minImmersion=|Xs×Xu|²/a²，是目标归一化Gram行列式；更正新gap基线/前三步/4–6三note误称面积元，所有数值/状态/接受不变。同步source003原尝试818.216s真0、α.25/R².1076995485（rho仍设计，不冒同g），新cached source value239.542s+observer401.093s真0，继续v4实际求解。
