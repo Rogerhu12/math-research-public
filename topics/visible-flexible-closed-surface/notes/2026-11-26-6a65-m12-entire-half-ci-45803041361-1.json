@@ -1,0 +1,264 @@
+{
+  "source_head": "93721721e33a06c0389498912aecc183f8f4a949",
+  "run_id": "45803041361",
+  "run_attempt": "1",
+  "job_status_before_publication": "success",
+  "scope": "Original fixed-g central-to-true-cuff half, including prefix, bridge, finite tail and deep collar; radius .6 is an unconstrained interior interface.",
+  "whole_half_execution_completed": true,
+  "finite_numerical_only": true,
+  "exact_isometry_proved": false,
+  "whole_family_reach_certified": false,
+  "regeneration": "Run this workflow at the same source commit and request. Known public blobs and checked source hashes regenerate every temporary array.",
+  "raw_retention": "RUNNER_TEMP only. No raw Git, release, or artifact publication.",
+  "receipt": {
+    "head": "93721721e33a06c0389498912aecc183f8f4a949",
+    "run_id": "45803041361",
+    "scope": "The entire original M12 half through the true flat cuff; internal radius-.6 seam is free.",
+    "finite_numerical_only": true,
+    "exact_isometry_proved": false,
+    "files": {
+      "entire-half/entire-half-cold-execution.json": {
+        "sha256": "19e86b4d6d7dc8112934c1c5f85b7d44924b5cc6dd19ed97aaf02173ea27ebf7",
+        "bytes": 3931
+      },
+      "entire-half/entire-half-exact-tail-queries.json": {
+        "sha256": "9af445ac7c17f04e487a8ec1b64a77c677c57a6cd787eac41cffd519f76490ca",
+        "bytes": 8230
+      },
+      "entire-half/entire-half-exact-tail-queries.json.npz": {
+        "sha256": "5391e11d0c8cd1faae38efd69c296699920ab4f05ac9f7aa3e10f8ab321aecdf",
+        "bytes": 11733716
+      },
+      "entire-half/entire-half-grid.json": {
+        "sha256": "6abeb5cecef86c8385186324da9dec67a5dadb7b50c4cac05c2cfcbbf8cea3b9",
+        "bytes": 10902
+      },
+      "entire-half/entire-half-grid.json.queries.json": {
+        "sha256": "1fa91973c3a9665319c50a522838535903a8de12d75317a35f503a4bdca8253e",
+        "bytes": 136390
+      },
+      "entire-half/entire-half-result.json": {
+        "sha256": "ab74ce968c101040fd9b0ed032289de395ec8ac9bf188690696fb68005071e54",
+        "bytes": 4695
+      },
+      "entire-half/entire-half-result.json.field.npz": {
+        "sha256": "d703d0065ab0617ee9c28a5cb37129f8c39005fb4b9cc73b7c2b6f04eb91af8e",
+        "bytes": 277284
+      },
+      "entire-half-cold.log": {
+        "sha256": "b097d3c06294405dea54a5cf52c6e8d848ab767c055f4a17fdacd43d3d574148",
+        "bytes": 20955
+      },
+      "m12-prefix-data.npz.gz": {
+        "sha256": "359d491cd592962d467fdd538013977ee9a92070346de41c227d9ca3e1ef3bd0",
+        "bytes": 3112330
+      }
+    }
+  },
+  "execution": {
+    "schema": "6a65-M12-entire-half-cold-execution-v1",
+    "script_sha256": "d5f0c967bbec9cd45382afdde8418d974635af734d6fa4aa98aab1d0a0d41f3d",
+    "scope": "Original unchanged g from exact central trace through prefix, bridge, finite tail, deep collar to the true flat cuff.",
+    "source_data_sha256": "359d491cd592962d467fdd538013977ee9a92070346de41c227d9ca3e1ef3bd0",
+    "commands": [
+      [
+        "/opt/hostedtoolcache/Python/3.12.16/x64/bin/python",
+        "/home/runner/work/math-research-public/math-research-public/topics/visible-flexible-closed-surface/scripts/6a65-m12-entire-half-cartesian-bvp.py",
+        "prepare",
+        "--scripts",
+        "/home/runner/work/math-research-public/math-research-public/topics/visible-flexible-closed-surface/scripts",
+        "--data",
+        "/home/runner/work/_temp/visible-flex-m12-entire-half-45803041361-1/m12-prefix-data.npz.gz",
+        "--out",
+        "/home/runner/work/_temp/visible-flex-m12-entire-half-45803041361-1/entire-half/entire-half-grid.json",
+        "--prefix-elements",
+        "80",
+        "--tail-elements",
+        "64",
+        "--tail-depth",
+        "12",
+        "--order",
+        "32",
+        "--angular",
+        "384",
+        "--gauss",
+        "6"
+      ],
+      [
+        "/opt/hostedtoolcache/Python/3.12.16/x64/bin/python",
+        "/home/runner/work/math-research-public/math-research-public/topics/visible-flexible-closed-surface/scripts/6a65-m12-stream-tail-query-cache.py",
+        "--manifest",
+        "/home/runner/work/math-research-public/math-research-public/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r01-s64-q512-manifest.json",
+        "--queries",
+        "/home/runner/work/_temp/visible-flex-m12-entire-half-45803041361-1/entire-half/entire-half-grid.json.queries.json",
+        "--out",
+        "/home/runner/work/_temp/visible-flex-m12-entire-half-45803041361-1/entire-half/entire-half-exact-tail-queries.json"
+      ],
+      [
+        "/opt/hostedtoolcache/Python/3.12.16/x64/bin/python",
+        "/home/runner/work/math-research-public/math-research-public/topics/visible-flexible-closed-surface/scripts/6a65-m12-entire-half-cartesian-bvp.py",
+        "solve",
+        "--scripts",
+        "/home/runner/work/math-research-public/math-research-public/topics/visible-flexible-closed-surface/scripts",
+        "--data",
+        "/home/runner/work/_temp/visible-flex-m12-entire-half-45803041361-1/m12-prefix-data.npz.gz",
+        "--out",
+        "/home/runner/work/_temp/visible-flex-m12-entire-half-45803041361-1/entire-half/entire-half-result.json",
+        "--grid",
+        "/home/runner/work/_temp/visible-flex-m12-entire-half-45803041361-1/entire-half/entire-half-grid.json",
+        "--query-report",
+        "/home/runner/work/_temp/visible-flex-m12-entire-half-45803041361-1/entire-half/entire-half-exact-tail-queries.json",
+        "--query-cache",
+        "/home/runner/work/_temp/visible-flex-m12-entire-half-45803041361-1/entire-half/entire-half-exact-tail-queries.json.npz",
+        "--iterations",
+        "800",
+        "--newton",
+        "1",
+        "--block",
+        "24"
+      ]
+    ],
+    "stages": [
+      {
+        "stage": "prepare",
+        "exit_code": 0,
+        "seconds": 11.320052539999999
+      },
+      {
+        "stage": "exact-tail-queries",
+        "exit_code": 0,
+        "seconds": 158.42111993
+      },
+      {
+        "stage": "whole-half-solve",
+        "exit_code": 0,
+        "seconds": 1712.492012619
+      }
+    ],
+    "finished": true,
+    "seconds": 1882.249134163,
+    "recovery_token_removed_from_numerical_children": true,
+    "result_sha256": "ab74ce968c101040fd9b0ed032289de395ec8ac9bf188690696fb68005071e54",
+    "field_sha256": "d703d0065ab0617ee9c28a5cb37129f8c39005fb4b9cc73b7c2b6f04eb91af8e",
+    "grid_sha256": "6abeb5cecef86c8385186324da9dec67a5dadb7b50c4cac05c2cfcbbf8cea3b9",
+    "tail_query_report_sha256": "9af445ac7c17f04e487a8ec1b64a77c677c57a6cd787eac41cffd519f76490ca",
+    "tail_query_cache_sha256": "5391e11d0c8cd1faae38efd69c296699920ab4f05ac9f7aa3e10f8ab321aecdf"
+  },
+  "scalar_observation": {
+    "schema": "6a65-original-M12-entire-half-fixed-g-Cartesian-BVP-v1",
+    "script_sha256": "7214054f65bfbd1055122dddf235074bc812c88cdf5d418b630877bf8b21880b",
+    "grid_sha256": "6abeb5cecef86c8385186324da9dec67a5dadb7b50c4cac05c2cfcbbf8cea3b9",
+    "query_report_sha256": "9af445ac7c17f04e487a8ec1b64a77c677c57a6cd787eac41cffd519f76490ca",
+    "query_cache_sha256": "5391e11d0c8cd1faae38efd69c296699920ab4f05ac9f7aa3e10f8ab321aecdf",
+    "joint_source_sha256": "ddca0e263e7ff8e28b959b18da2439de6245d05914b6612efe9840bd661c7edd",
+    "stream_operator_sha256": "0c1b791f7c8526b366759ac86e52dd9339f8817e081b86f992ade75b6d22323c",
+    "background_source_sha256": "cab284d7506523dbe56a2711a654764084ef0a5d253187bafcec965ca06da1dd",
+    "field_sha256": "d703d0065ab0617ee9c28a5cb37129f8c39005fb4b9cc73b7c2b6f04eb91af8e",
+    "source": {
+      "data_sha256": "359d491cd592962d467fdd538013977ee9a92070346de41c227d9ca3e1ef3bd0",
+      "common_meta_sha256": "253179d585d4ac0e59206d4e579de5663943f126473668c45a3bbda665c9c8f2",
+      "bridge_sha256": "1389cf1a339b0a0d749beb666b6def24a31e766eff0abf63289217728ceacdaa",
+      "endpoint_report_sha256": "9af445ac7c17f04e487a8ec1b64a77c677c57a6cd787eac41cffd519f76490ca",
+      "endpoint_cache_sha256": "5391e11d0c8cd1faae38efd69c296699920ab4f05ac9f7aa3e10f8ab321aecdf",
+      "original_common_cut_producer_sha256": "317e519fda8d78fb70b53f8a8c80d51599dec1ac46e92741cd9b2576a3f4fa7d"
+    },
+    "background": {
+      "manifest_sha256": "cc23977e25a09c34db91723dd784cab4b18b89e325fc2ca2fb8dd7ee6866a104",
+      "calibration_sha256": "bcfaba00aec62290b5b29432836c9e76ef6cf0d582b06c046677b0f8688ca9f4",
+      "alpha_proof_sha256": "04aae85c19f78fd82808ac32b104537dbb584c39cac8a648107722c855685c62",
+      "alpha_numerical": "97.645347407779752975",
+      "inner_anchor_residual_numerical": "-2.3039296165316969223e-19",
+      "finite_height_numerical": "0.049281104169724834997",
+      "deep_radius_excess_numerical": "1.0666055288578827424e-51",
+      "profiles": 1440,
+      "quadrature_leaves": 12404,
+      "quadrature_evaluations": 1084128,
+      "maximum_refinement_depth": 22,
+      "estimated_quadrature_error_only": [
+        "4.958989633457624119e-19",
+        "2.7900835966822545108e-22",
+        "4.9578584168294391183e-19",
+        "2.8079596762909198764e-22",
+        "3.2363333222187712712e-20",
+        "1.26835507095349638526e-23"
+      ],
+      "original_exact_background_definition_retained": true,
+      "numerical_evaluator_not_interval_certificate": true,
+      "infinite_protected_height_not_numerically_included": true
+    },
+    "order": 32,
+    "angular": 384,
+    "gauss": 6,
+    "elements": 362,
+    "unknowns": 35378,
+    "analytic_adjoint_relative_error": 6.408932773287976e-15,
+    "initial_training_entire_half": {
+      "metric_peak": 1.9442656817858506e-08,
+      "weighted_energy": 4.647387712229265e-19,
+      "curvature_peak": 6.428966883534731,
+      "support_lower": 0.8178848911908392,
+      "peak_radial_index": 1141,
+      "peak_angle_index": 64
+    },
+    "rows": [
+      {
+        "step": 0,
+        "lsmr_stop": 7,
+        "lsmr_iterations": 800,
+        "lsmr_residual": 2.1924028654622278e-10,
+        "condition_estimate": 36.29981670328565,
+        "accepted_alpha": 1.0,
+        "attempts": [
+          {
+            "alpha": 1.0,
+            "metric_peak": 1.9112439630930567e-08,
+            "weighted_energy": 4.806630318049823e-20,
+            "curvature_peak": 6.428961096923134,
+            "support_lower": 0.8178848939571124,
+            "peak_radial_index": 1141,
+            "peak_angle_index": 64
+          }
+        ]
+      }
+    ],
+    "independent_observer_before": {
+      "metric_peak": 8.75957151258433e-09,
+      "weighted_energy": 4.38050884309428e-19,
+      "curvature_peak": 6.416878776645082,
+      "support_lower": 0.8178848911914877,
+      "peak_radial_index": 1522,
+      "peak_angle_index": 128
+    },
+    "independent_observer_after": {
+      "metric_peak": 8.494503545009024e-09,
+      "weighted_energy": 2.2015457871776056e-20,
+      "curvature_peak": 6.4168726979752995,
+      "support_lower": 0.8178848939569524,
+      "peak_radial_index": 1522,
+      "peak_angle_index": 384
+    },
+    "independent_peak_material_q": 2.2025172529962367,
+    "central_and_true_cuff_correction_jets_max": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "original_common_cut_actual_six_jet_differences": [
+      0.0,
+      0.0,
+      2.237726045655905e-16,
+      4.440892098500626e-16,
+      2.4835037038225095e-16,
+      4.577599668110672e-16
+    ],
+    "original_exact_metric_unchanged": true,
+    "all_internal_interfaces_free": true,
+    "true_flat_cuff_included": true,
+    "full_half_including_finite_tail_and_deep_collar": true,
+    "continuous_metric_certificate": false,
+    "exact_isometry_proved": false,
+    "whole_family_reach_certified": false,
+    "resident_high_water_KiB": 279132,
+    "seconds": 1711.985140795
+  }
+}
