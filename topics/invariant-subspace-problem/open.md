@@ -153,3 +153,5 @@ A单射、稠密像、拟幂零且非紧；普通非零真闭不变子空间仍�
 **[整个实际M的占满前缀新指数率](results/R271-appendix-full-tensor-exponential-bound-and-improved-occupied-prefix-decay.md)已证：** 完整张量指数范数配合同一真实D_rg_r余项，r=ceil(log2n)给γ_ex>5/3和明确e^(−47n⁴)carry；优化率Γ_occ约1.723637，所有严格小于它的率对全M及固定最高k类成立。仍远低于真实α_q^-1除法图范数；继续W特殊来源/主理想闭图，未证N=M。
 
 **[S0/Lt0整条Omega=2e²−ek+2=0关闭](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-quadratic-invariant-curve-exclusion.md)：** 原坐标曲线的完整清分母身份与224/266/254次Res_v给仅含已付因子的QQ[e] Bézout，3.710581秒/exit0；一般图可付Omega。独立于新QQ门，继续剩余两参数原几何和全部物理返回。
+
+**[明确可测平坦同源返回](results/R12-appendix-measurable-flat-common-source-recursion-and-all-negative-graphs.md)已完成：** 正测紧集避全部整数，实际R_nAf_(n−1)=f_n、普通范数统一、全部固定负幂图范数返回；全n,k原权预算保留。累计五次费仍未降至第n逆像的四次费，且没有未知M保持；继续直接限制未知普通M的原算子关系，不以继续优化此全空间例子替代该接口。
