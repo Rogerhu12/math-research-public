@@ -6,8 +6,8 @@
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。固定有限曲线族的联合无穷非零可用无限鸽巢；有限p、随p换曲线、条件桥、非零投影或接口均不完成。
 
-- 两仓库已部分克隆。公开根/课题 README 已读至 `8c8e27e052298ec8c824bdec10fd77679d40871f`（差异空）；每次pull只读两文件新差异，至少每小时同步并记SHA。
-- 私库QUEUE接手已推41fe885610073f478b2f5a752461ca56cfd43f09；21:52 UTC pull至b9b67887dabefa2da9cfac805c7271433cf15a4e，README差异空、QUEUE仍本会话进行中。目录math-research-public、math-research-private；令牌仅进程认证。
+- 两仓库已部分克隆。公开根/课题 README 已读至 `aa4a1848803f8f990518190ddf7c0e28c1aa8b74`（差异空）；每次pull只读两文件新差异，至少每小时同步并记SHA。
+- 私库QUEUE接手已推41fe885610073f478b2f5a752461ca56cfd43f09；本次22:49 UTC pull至92b9fa94b75627acf634cd097e34e78360c9e2de，README差异空、QUEUE仍本会话进行中。目录math-research-public、math-research-private；令牌仅进程认证。
 - root独占git/H/open/log/index；每条结论完成即推，非快进立即pull --rebase、检查README再推至成功，不强推。数学只用公开Actions；不存可重算矩阵/数据/log。H<10KB，每MD<100KB。
 - [此次逐字归档](notes/2026-11-27-handoff-before-strict-highest-projector.md)及历史链保全部旧状态；[open](open.md)、[results](results.md)、[R951–1000索引](notes/PROOF-INDEX-R951-R1000.md)保全部未解门，未默删。
 
@@ -18,6 +18,8 @@
 旧失败/修复见[终点链](notes/2026-11-27-artinian-v7-final-and-successor.md)：R974原omega/双向坐标与厚Norm已实接v8。R975/R986及root[完整零纤维适配](notes/2026-11-27-original-zero-fiber-frobenius-preparation.md)均未运行/未接v8；当前306 Frobenius已过，不另启重型作业。
 
 **中央真实回执**：v8 run45892525657/sourcec3fc3c60605f4455fc57177367c89e56a9763f6a全20源/18AST/旧门PASS，R982十行与R983三α全部返。R987 direct22 run45898016632/source05bed6026bd3b75f7f77b1927f55f72e4ed689cb全48纤维/22列/66限制hash/两good13质量代数PASS。R993同入口run45903334519/job140194103108/source4d1a123b11a4161bdd4e4592eb145ff163d65a38于22:13:07–20UTC全PASS，8.852秒；完整常数/hash见各结果及归档。
+
+**新轻公开请求已准备**：direct22原R987/R993全部门后接R992完整Ξ/两核/四列det及whole消核首商；7源pins全保。另用既有small-check跑固定三个β27,j复L(1)，M4096/Arb256、全尾<2^-180需真区间认证；原g0/η/primary/FE见[完整输入证明](notes/2026-11-27-beta27-rigorous-central-value-input.md)。二者本地仅AST/hash，实际数学待新公开回执；唯一重型v8不改。
 
 ## 二、固定算术来源
 

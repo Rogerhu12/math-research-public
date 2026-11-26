@@ -32,11 +32,11 @@ jobs:
           prefix = "topics/rank2-sha-infinitely-many-p/"
           request = json.loads((root / (prefix + "ci/small-check-request.json")).read_text())
           if request.get("python_flint_version"):
-              if request["python_flint_version"] != "0.8.0":
+              if request["python_flint_version"] not in {"0.8.0", "0.9.0"}:
                   raise RuntimeError("Only the recorded python-flint version is supported")
               dependencies = pathlib.Path(os.environ["RUNNER_TEMP"]) / "rank2-exact-python"
               subprocess.run([sys.executable, "-m", "pip", "install", "--disable-pip-version-check",
-                              "--target", str(dependencies), "python-flint==0.8.0"], check=True)
+                              "--target", str(dependencies), "python-flint==" + request["python_flint_version"]], check=True)
               os.environ["PYTHONPATH"] = str(dependencies)
           records = []
           for item in request["checks"]:

@@ -1,11 +1,14 @@
 {
-  "request_id": "rank2-20261115-r736-gaussian-normalizer",
-  "python_flint_version": "0.8.0",
+  "request_id": "rank2-20261127-r994-original-beta27-rigorous-central-values",
+  "python_flint_version": "0.9.0",
   "checks": [
     {
       "engine": "python3",
-      "script": "topics/rank2-sha-infinitely-many-p/scripts/check-r736-normalizer-and-gaussian-square.py",
-      "args": [],
+      "script": "topics/rank2-sha-infinitely-many-p/scripts/check-r994-original-beta27-central-values.py",
+      "args": [
+        "--cutoff=4096",
+        "--precision=256"
+      ],
       "include_stdout": true
     }
   ]

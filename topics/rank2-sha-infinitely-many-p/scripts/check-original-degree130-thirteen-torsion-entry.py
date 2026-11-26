@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""R987/R993 public entry: complete direct22 CM and exact13 torsion boundaries.
+"""R987/R993/R992 public entry: complete direct22 CM and exact13 torsion boundaries.
 
 All 24 full fibers for BOTH operators are reconstructed from the unchanged
 canonical norm7/norm19 formulas.  The two extra fibers, every mass column,
@@ -115,8 +115,11 @@ def main():
     pair = helper.check_original_thirteen_torsion_pair(context)
     boundary_helper = module("r993_actual_thirteen_boundary", HERE / "check-original-thirteen-boundary-weights.py")
     boundary = boundary_helper.check_original_thirteen_boundary_weights(context)
+    zero_helper = module("r992_actual_thirteen_zero", HERE / "check-original-thirteen-inert-zero-source.py")
+    zero_source = zero_helper.check_original_thirteen_inert_zero_source(context)
     source_files = [Path(__file__).name, "check-original-thirteen-torsion-forced-pair.py",
-                    "check-original-thirteen-boundary-weights.py", *SOURCE_PINS]
+                    "check-original-thirteen-boundary-weights.py",
+                    "check-original-thirteen-inert-zero-source.py", *SOURCE_PINS]
     metadata = [{"path": name, "bytes": (HERE/name).stat().st_size,
                  "sha256": hashlib.sha256((HERE/name).read_bytes()).hexdigest()}
                 for name in source_files]
@@ -132,6 +135,7 @@ def main():
               "canonical_complete_matrix_sha256": full_hash,
               "actual_thirteen_torsion_pair": pair,
               "actual_thirteen_boundary_weights": boundary,
+              "actual_thirteen_inert_zero_source": zero_source,
               "elapsed_seconds": time.monotonic()-started}
     print(json.dumps(result, sort_keys=True))
 

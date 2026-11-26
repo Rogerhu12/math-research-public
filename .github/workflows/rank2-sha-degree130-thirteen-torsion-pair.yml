@@ -8,6 +8,7 @@ name: Rank2 original complete22 and thirteen torsion boundaries
       - "topics/rank2-sha-infinitely-many-p/scripts/check-original-degree130-thirteen-torsion-entry.py"
       - "topics/rank2-sha-infinitely-many-p/scripts/check-original-thirteen-torsion-forced-pair.py"
       - "topics/rank2-sha-infinitely-many-p/scripts/check-original-thirteen-boundary-weights.py"
+      - "topics/rank2-sha-infinitely-many-p/scripts/check-original-thirteen-inert-zero-source.py"
   workflow_dispatch:
 permissions:
   contents: read
@@ -47,6 +48,7 @@ jobs:
           assert request["both_complete_quadratic_kernel_algebras"] is True
           assert request["same_job_full_thirteen_boundary_weights"] is True
           assert request["exact_kernel_multiplicities_and_first_nonzero_quotients"] is True
+          assert request["same_job_full_inert_zero_source"] is True
           assert request["output_files"] is False
           script = prefix + "scripts/check-original-degree130-thirteen-torsion-entry.py"
           assert request["script"] == script and request["args"] == ["--workers=4"]
@@ -54,6 +56,7 @@ jobs:
               "check-original-degree130-thirteen-torsion-entry.py",
               "check-original-thirteen-torsion-forced-pair.py",
               "check-original-thirteen-boundary-weights.py",
+              "check-original-thirteen-inert-zero-source.py",
               "check-r464-degree102-cm7-exact.py",
               "check-r466-fixed-two-division-source.py",
               "check-r480-actual-input-cm19.py",
@@ -75,7 +78,7 @@ jobs:
                                                       separators=(",", ":")), flush=True)
           manifest_hash = hashlib.sha256(json.dumps(manifest, sort_keys=True,
                                        separators=(",", ":")).encode()).hexdigest()
-          print("R987_R993_AST_PASS 6", flush=True)
+          print("R987_R993_R992_AST_PASS 7", flush=True)
           dependencies = pathlib.Path(os.environ["RUNNER_TEMP"]) / "rank2-thirteen-python"
           subprocess.run([sys.executable, "-m", "pip", "install",
                           "--disable-pip-version-check", "--target", str(dependencies),
@@ -134,4 +137,18 @@ jobs:
               assert packet["exact_kernel_vanishing_multiplicity"] >= 1
               assert packet["maximal_kernel_power_full_return"] is True
               assert packet["all_reductions_and_inverse_products_returned"] is True
+          zero_source = report["actual_thirteen_inert_zero_source"]
+          assert zero_source["status"] == "PASS"
+          assert zero_source["complete_direct22_matrix_sha256"] == request["canonical_complete_matrix_sha256"]
+          assert zero_source["whole_raw_pull_identity"] is True
+          assert zero_source["Xi_divisible_by_full_Xplus1_Q2"] is True
+          assert zero_source["whole_H_F11_old_identity_from_actual_R978_coefficients"] is True
+          assert zero_source["whole_N7_plus_omega_squared_Xi_equals_Delta125_over_45360"] is True
+          assert zero_source["full_conjugate_and_anticonjugate_returns"] is True
+          zero_packets = zero_source["both_complete_quadratic_kernel_packets"]
+          assert set(zero_packets) == {"pi", "barpi"}
+          for packet in zero_packets.values():
+              assert packet["exact_kernel_vanishing_multiplicity"] >= 1
+              assert packet["maximal_kernel_power_full_return"] is True
+              assert packet["whole_kernel_killed_residual_first_order"] >= 12
           PY
