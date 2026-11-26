@@ -4,7 +4,7 @@
 
 ## 规则和真实同步
 
-- 根/课题README完整读于 `f0548477576caa2373d1626227a284ccfa9767d0`。最近已读公开提交 `6f36a149267b4ee5709f57de18b8bd2a7e46b796`（2026-11-26 16:14:12 UTC真实pull/rebase后，双README逐差无变化）。根blob282e86b0、题blob e2318baa。每次literal pull立即核双README差异，至少每小时；有变只读差异立即执行，API读不冒pull。
+- 根/课题README完整读于 `f0548477576caa2373d1626227a284ccfa9767d0`。最近已读公开提交 `ba140ef8c41521634bc43d7bdc99a116d455f2bf`（2026-11-26 16:15:33 UTC真实pull/rebase后，双README逐差无变化）。根blob282e86b0、题blob e2318baa。每次literal pull立即核双README差异，至少每小时；有变只读差异立即执行，API读不冒pull。
 - 私库QUEUE已认领推c7785184d0d9c503852fb2137e9e2c091221d080，进行中（本会话/2026-11-26），不重复认领。
 - 每结论立即CLI commit/push；NFF立即literal pull --rebase、核双README差异、再推直到成功，不force或改已发表提交。完整证明写results并索引，不附加独审/冻结门。根15禁止完整可重算输出存Git/Release，只脚本/参数/run/SHA/实际结论。MD<100KB、H<10KB、题<200MB，不写根LOG，令牌只命令环境。
 - root唯一写main，三agent只同级scratch。部分clone `/tmp/visible-flex-6a65e705/math-research-public`；同级exact-work/geometry-work/solver-work。旧历史见[11:15 H](https://github.com/Rogerhu12/math-research-public/blob/a9aaaf7d2fbdc01eb0df3e635d9065c20faac354/topics/visible-flexible-closed-surface/HANDOFF.md)、log/open/results；不重做已登记结论。
@@ -22,7 +22,7 @@
 - [H1 M48/N768](notes/2026-11-26-6a65-m12-h487-angular-warm-execution-contract.md)：run45847254548/source3046ad8c，15:16:02 UTC进入数学；同job重生h487再暖续。
 - [完整H M48对照](notes/2026-11-26-6a65-m12-full-normal-controlled-execution.md)：run45851669566/source0ce2394f，15:42:26进入数学；自身重生，不借另job未返场。eta1e−6只换右坐标，原lambda0/damp0、800LSMR/1Newton保持。
 
-两者保全部祖先/G8-N1536/两微窗、真cuff、完整物理normal及真实停止、R236全连续和STL；350min/45min规则pull，只小MD+输出SHA。[专用完整Gram核](notes/2026-11-26-6a65-m12-complete-coupled-Gram-normal.md)77非零列已真0，不把正lambda白化下界借给lambda0。exact另准备第三热点h509和真实径向暖转移；准备本身不冒新改善。
+两者保全部祖先/G8-N1536/两微窗、真cuff、完整物理normal及真实停止、R236全连续和STL；350min/45min规则pull，只小MD+输出SHA。[专用完整Gram核](notes/2026-11-26-6a65-m12-complete-coupled-Gram-normal.md)77非零列已真0，不把正lambda白化下界借给lambda0。[径向/角度准确暖转移](notes/2026-11-26-6a65-m12-nested-warm-transfer-interface.md)已付Boehm后binary64存储的全连续六jet误差和真实非零有限核0/408有理比较；生产大场尚未消费。第三热点已准备487→509/22源节点，保24祖先点及全部4631旧query；准备不冒改善。
 
 ## 强支当前：独立polar v2完整XYZ/fullH
 
@@ -50,6 +50,6 @@ R242连续q>1面积下界须已付Lipschitz/密度/扇形与连续成本，有�
 
 root维护main/全前缀接口；geometry持续polar实际求解及几何；solver处理原方程/fullH和publisher实际冲突；exact推进两个M48/源对齐h509。不在阶段结果收尾，完成子问题立即继续open。
 
-<!-- 6a65-root-literal-rules --> 2026-11-26 16:14:12 UTC 真实pull/rebase读取main 6f36a149267b4ee5709f57de18b8bd2a7e46b796，双README逐差无变化；CLI已恢复，后续普通Git发布。
+<!-- 6a65-root-literal-rules --> 2026-11-26 16:15:33 UTC 真实pull/rebase读取main ba140ef8c41521634bc43d7bdc99a116d455f2bf，双README逐差无变化；CLI已恢复，后续普通Git发布。
 <!-- 6a65-m12-angular-warm-ci-rules --> README unchanged at c021d04494bd07b4ff7a1fd4b66888e803e122c6; run 45847254548 attempt 1.
 <!-- 6a65-m12-full-normal-ci-rules --> README unchanged at 724c40189bf85488b74487693313877499a75cd3; run 45851669566 attempt 1.

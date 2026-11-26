@@ -1,5 +1,7 @@
 # 当前未解问题：保留基础有限证据，继续同 g 加密及完整强幅度
 
+[M12径向/角向暖转移消费接口](notes/2026-11-26-6a65-m12-nested-warm-transfer-interface.md)完成：准确有理Boehm/角补零后，仅binary64保存差另付全六jets/物理图界；非零55→153列、408准确有理比较真0。使用已证包含事实，不新编定理号，不冒大场实际运行；后续h509必须消费自身旧field/R226及新query缓存。
+
 [并发摘要最小实修](notes/2026-11-26-6a65-solver-owned-markdown-concurrent-publication.md)已真实bare-Git回放0：实际1次NFF/1次同MD冲突，紧接literal pull，严格撤本次唯一未发表摘要再从实际ledger重建；独立勘误、块外/H他人正文保留。只工程修复，旧结束runner不重跑，后继hosted polar明确输入epoch。
 
 [polar v2实际第3步](notes/2026-11-26-6a65-geometry-polar-v2-fullH-third-actual-step.md)同g/prepared全场真实接受、自然0/25.635477s：R²49.87011752、κ64.47053295/σ.492390910，面积成本仅1.34876e−6；metric峰1.83600258仍升。当前梯度完整模型保持，不能用面积恢复代替等距收敛；第四步已实际继续，并准备真正第三观察。
