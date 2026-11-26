@@ -200,3 +200,6 @@
 
 
 - [R942§10](../results/R942-original-split-scalar-preimages-and-whole-module-elimination.md)：完整paired graph由分母HNF的全部来源原像Y及整左除法X保两投影，含零分子/共零；仿射uM−b∈rowH保全部增广坐标，最后列gcd=1恰是可整解，完整Bézout及回乘不局部化。前置零极/整分式乘I与厚值/单位逆同接已证原模算法，所有π层Norm仍沿R931。仅独立小API请求，不改运行中F或冒306/shadow PASS。
+
+
+- [R949](../results/R949-original-reduced-contact-mixed-window-and-repeated-factor-budget.md)：原四长S/一短L的完整Gauss多边形与整数根计数给10S+15min(L,S/5)；物理点实际无重复分量时，十九角全成本仅3B²+8D。自然4N+ell≈B²/2且ell/N∈(1/6,1/3)严格排约化q2，故剩余q2必须有穿过物理点的真实重复因子；q1仍开。任意重数另保6Σm(m−1)C²和8Σ(3m²−2m)b全费用；在另已付max m=o(D)、x1/5下重复自交比liminf≥1/63。不从重复因子免费推出R948前提或深核。
