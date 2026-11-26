@@ -180,3 +180,7 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 ### R576：完整有限高度方程与真实位置误差
 
 [R576](results/R576-exact-turning-elimination-and-finite-nonlinear-height-interface.md)对even/π周期Z、b>0/N>0，严格证明turning平均N/√(E−V)=1唯一决定E；E′和残差的三阶相消均付，准确位置重构的metric缺陷由两次角原函数读出。准确残差零时每圈凸且支撑随r严格增，得到上盘全局嵌入；内平盘与外退化C2核心条件分别给，Pc(R,θ)可精确编码R579常速核心。下一真正解非零角全部残差和正性/端条件，用准确尾基、可生成高模的有限非线性表示；设计E变化非同g精化，近似解曲率仍需高jets/位置导数，全闭reach仍欠。
+
+### R580：当前有限末段的准确线性缺口与换基
+
+[R580](results/R580-finite-tail-polynomial-kernel-obstruction-and-resonant-seed-interface.md)对真实圆q而非零参考证明a_s→−1、真实z_s近端正且全平；β=e^-4.32/δ乘有限多项式的同阶u/v不能满足完整两行linear metric除非末片恒零。当前8基末片跨.82载体终点，原loga盒给a_s(.82)<0，又排p′≠0的C1圆入口；只限这一表示，不排其它空间或强非圆解。下一必须把实际背景w_eff的非零全平seed和完整端图加入新角基，先调Ccore=0/Acore≠0，再作有限预测；中段z_s零点、准确尾误差、全部高模和全几何都要支付。

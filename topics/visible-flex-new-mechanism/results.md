@@ -254,3 +254,5 @@
 - [R579 精确周长的光滑厚宏观核心](results/R579-smooth-thick-rounded-core-with-exact-perimeter-and-macro-budget.md)：**已证明**两正交薄椭圆加圆盘给C∞凸核，周长1.7π、A1/B.37、柱面reach>.075、|z|≤.04核心ball<1.05；完整连接条件下原三比例恰可支付。尚无连接、同g有限解或全闭reach。
 
 - [R576 准确turning消元与有限高度接口](results/R576-exact-turning-elimination-and-finite-nonlinear-height-interface.md)：**已证明**b,N>0下唯一E设计、二jets的真实E′/残差和准确metric误差；零解凸圈嵌套，给内盘/外C2核心充分门与有限核心通量。仍须实际解高度边值、保持全几何和冻结g精化，非主完成。
+
+- [R580 有限末段缺核与真实共振入口](results/R580-finite-tail-polynomial-kernel-obstruction-and-resonant-seed-interface.md)：**已证明**真实圆背景下β×有限末多项式不能含非零全平linear核；当前8基和loga盒还排p′≠0的C1圆入口。需实际w_eff尾种子/完整端点共振换基，未排强非圆或一般分支，不改判已运行探索。

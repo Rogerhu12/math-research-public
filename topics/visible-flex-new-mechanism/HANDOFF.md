@@ -6,7 +6,7 @@
 
 ## 1. 规则与接手
 
-已部分克隆并实际 `git pull main`，公开根 README、课题 README、HANDOFF、open、results 索引及相关 log/notes 已读。公开已读提交 **6c03edd229e29fd0206d450f29b8e0a72bef96ed**（2026-11-26 09:02 UTC；本次实际pull后根/题README空差异）；私有根初读 **85fdf1853367ef25c07f3ebdb6ae25c22a3564b8**，随后逐次 pull/rebase 检查根差异，空差异。私有 QUEUE 的本题已改为本会话进行中并成功推送：**9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7**；最后实际pull及规则同blob读至 **beff3c7458835a1397c67704ac9a95d0a4717f12**（2026-11-26 08:52 UTC；磁盘满失败后改稀疏索引，重做actualpull成功，根README空差异、QUEUE仍本会话）。其它课题的并行认领保留。
+已部分克隆并实际 `git pull main`，公开根 README、课题 README、HANDOFF、open、results 索引及相关 log/notes 已读。公开已读提交 **5cccfa3bcf448e4d5dece87b556e9019f794cf1c**（2026-11-26 09:05 UTC；本次实际pull后根/题README空差异）；私有根初读 **85fdf1853367ef25c07f3ebdb6ae25c22a3564b8**，随后逐次 pull/rebase 检查根差异，空差异。私有 QUEUE 的本题已改为本会话进行中并成功推送：**9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7**；最后实际pull及规则同blob读至 **beff3c7458835a1397c67704ac9a95d0a4717f12**（2026-11-26 08:52 UTC；磁盘满失败后改稀疏索引，重做actualpull成功，根README空差异、QUEUE仍本会话）。其它课题的并行认领保留。
 
 各原观察note保真实双仓pull/规则blob/QUEUE回执；根/题规则均无变化。盘满和失联恢复原记录保于[先前交接](notes/HANDOFF-before-hard-restoration-20261126.md)，历次全文见[几何转向前交接](notes/HANDOFF-before-compact-geometry-20261126.md)及[非线性高度前交接](notes/HANDOFF-before-nonlinear-height-20261126.md)。API读取不冒git pull。
 
@@ -24,7 +24,7 @@
 
 [真实角峰实现](notes/2026-11-26-real-angular-peak-exchange-implementation.md)保原1536全均匀约束/真实q/trust，另外加入实际非均匀峰，Ebar仍全角积分；actual违规覆盖内的新峰不立即重启，小峰pending待自然返回，完整fine/已定位峰共同判接受。[首启动缺依赖](notes/2026-11-26-theta-peak-import-closure-failure-and-repair.md)模型0次，已最小修复。新run45785004209已自然终态，原双lane收据正在逐条登记；初读B030 η.39843255/B038 .65058868，均V0、径向容量终止而非时钟/角cap。下一完整保actual+pending续接，并改进准确尾基；不把有限点可行当连续reach，g尚未冻结。
 
-[圆核原终态](notes/2026-11-26-circular-entry-and-small-core-continuation-receipt.md)run45778418134新增2401.892431903秒，p=.18入口V0/η8.66e−16；p=.20/.19/.185/.1825均未过stage1e−4，末η.0005411。最后合格仍圆；stage4真正156×384，235×768仅末扫描提议。下一须真实j2核心forcing/平坦尾核及背景共振，不能只缩p冒分支；所有p设计改变非同g。
+[圆核原终态](notes/2026-11-26-circular-entry-and-small-core-continuation-receipt.md)run45778418134新增2401.892431903秒，p=.18入口V0/η8.66e−16；p=.20/.19/.185/.1825均未过stage1e−4，末η.0005411。最后合格仍圆；stage4真正156×384，235×768仅末扫描提议。[R580](results/R580-finite-tail-polynomial-kernel-obstruction-and-resonant-seed-interface.md)已证当前β×末段有限多项式不含非零真实尾核；末片跨carrier终点又排当前8基p′≠0的C1圆入口。只限原表示，不排强非圆或新空间。下一加实际背景的真实flat seed再调共振，不能仅缩p/调均值；p设计变化非同g。
 
 [R577](results/R577-intrinsic-geodesic-normal-chord-and-complete-reach-certificate.md)已付新的连续认证接口：全表面实际|κ|≤K、内蕴d≤π/(2K)的近对保持法弦半径1/K；材料路径只供d上界。全远对严格分离/法弦另付后才得嵌入/reach，当前有限FFT曲率不可冒连续K。
 
