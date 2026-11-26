@@ -6,7 +6,7 @@
 
 ## 1. 规则与接手
 
-已部分克隆并实际 `git pull main`，公开根 README、课题 README、HANDOFF、open、results 索引及相关 log/notes 已读。公开已读提交 **8c3cbaa1315b461278ee1c3bef11bd6d715cfd0d**（2026-11-26 06:29 UTC；本次实际pull后根/题README空差异）；私有根初读 **85fdf1853367ef25c07f3ebdb6ae25c22a3564b8**，随后逐次 pull/rebase 检查根差异，空差异。私有 QUEUE 的本题已改为本会话进行中并成功推送：**9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7**；最后实际pull及规则同blob读至 **ba1cda6de426c27058a55bfa0da33aa731a55d70**（2026-11-26 05:54 UTC）。其它课题的并行认领保留。
+已部分克隆并实际 `git pull main`，公开根 README、课题 README、HANDOFF、open、results 索引及相关 log/notes 已读。公开已读提交 **4c81b6a4d41589c489cf70d56a86a1cb2a57a0c8**（2026-11-26 06:32 UTC；本次实际pull后根/题README空差异）；私有根初读 **85fdf1853367ef25c07f3ebdb6ae25c22a3564b8**，随后逐次 pull/rebase 检查根差异，空差异。私有 QUEUE 的本题已改为本会话进行中并成功推送：**9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7**；最后实际pull及规则同blob读至 **ba1cda6de426c27058a55bfa0da33aa731a55d70**（2026-11-26 05:54 UTC）。其它课题的并行认领保留。
 
 首run两job另实际pull公开至0bed8be337a9de6da7e1167ba7583a5aaf0c3efd、私有至7d6da16a7fc29488f6e8925d92601986798860fd，三规则不变且QUEUE为本会话；原收据见首run note。
 
@@ -29,7 +29,7 @@
 
 ### 新几何输入：O2b 逆设计
 
-[R565](results/R565-parallel-oval-core-exact-reach-and-amplitude-budget.md)已证平行椭圆柱reach恰r+q²/p。新固定p=17/20、q=r=3/20保持外轴A1/B.3、核心reach3/17；其周长/待设计度量与旧g不同。已发布新v2逆设计源码/请求：同时设计a,z和全角切向，C∞平坦端口、全体段metric峰交换；两lane为B=.3与.38，49×96、8×4控制、每轮60次/三轮，公开Actions run45765708829已正常终态但两lane科学失败，无新接受候选。源重建后完整解析jet与前向参数微分由两路纸面审查，未本地科学执行。[首run原观察](notes/2026-11-26-inverse-first-run-radial-fold-failure.md)：B.3/.38粗η约.083/.091，97×192同qη1.19855/3.78338，κ74208/26180，s=.421875漏径向近退化；ball>1.42、|y|>.52且h触.08。Jac差1e−9量级，主要是采样和软几何失效。仅失败trial，不沿原49圈软权重延长；下一硬不等式/径向交换并接新振荡尾。最后必须冻结新g再精化，完整连接和全闭reach仍欠。 [R566](results/R566-flat-oscillatory-cap-tail-and-graph-reach.md)另给固定有限公式的C∞全平振荡尾：rc=.22到r=.30，K无限简单变号，完整凸底域帽/尾graph片reach≥1/K0>.1832，K0=(75/8)e^(-5/2)+256e^(-4)。此片不含跨块reach，非径向分支仍须求解；下一将它实际接入新模型。
+[R565](results/R565-parallel-oval-core-exact-reach-and-amplitude-budget.md)已证平行椭圆柱reach恰r+q²/p。新固定p=17/20、q=r=3/20保持外轴A1/B.3、核心reach3/17；其周长/待设计度量与旧g不同。已发布新v2逆设计源码/请求：同时设计a,z和全角切向，C∞平坦端口、全体段metric峰交换；两lane为B=.3与.38，49×96、8×4控制、每轮60次/三轮，公开Actions run45765708829已正常终态但两lane科学失败，无新接受候选。源重建后完整解析jet与前向参数微分由两路纸面审查，未本地科学执行。[首run原观察](notes/2026-11-26-inverse-first-run-radial-fold-failure.md)：B.3/.38粗η约.083/.091，97×192同qη1.19855/3.78338，κ74208/26180，s=.421875漏径向近退化；ball>1.42、|y|>.52且h触.08。Jac差1e−9量级，主要是采样和软几何失效。仅失败trial，不沿原49圈软权重延长；下一硬不等式/径向交换并接新振荡尾。最后必须冻结新g再精化，完整连接和全闭reach仍欠。 [R566](results/R566-flat-oscillatory-cap-tail-and-graph-reach.md)另给固定有限公式的C∞全平振荡尾：rc=.22到r=.30，K无限简单变号，完整凸底域帽/尾graph片reach≥1/K0>.1832，K0=(75/8)e^(-5/2)+256e^(-4)。此片不含跨块reach。[R569](results/R569-fixed-oscillatory-tail-and-flat-infinitesimal-bending.md)在同一w上以单谷逆/精确DtN/收敛递推实际构造角频2全平非零无穷小等距场，固定开平帽；全部导数exp(−c/δ³)，外端由真ODE决定。下一非线性和接核；X+tV仍非有限等距。新模型/硬约束求解正在接线。
 
 ## 4. O4 两个不同母库的有效入口
 
