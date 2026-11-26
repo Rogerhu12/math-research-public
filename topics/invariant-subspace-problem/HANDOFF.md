@@ -5,7 +5,7 @@
 ## 目标、规则与执行
 
 - **普通复可分无限维 Hilbert ISP 未完成。** 仅全体有界算子的存在定理或完整反例算完成。
-- **最近实际 pull / 已读规则提交：** `fd5a779d908f44909d6bcb4dc476acdf598b16f2`（2026-11-26 19:11:59 UTC；本地部分克隆）；本次两 README diff 无变化。每次 pull 且至少每小时检查并更新本项。
+- **最近实际 pull / 已读规则提交：** `3b0fe32226b1f91ec37ef68a8d53ff865e9d9b26`（2026-11-26 19:15:14 UTC；本地部分克隆）；本次两 README diff 无变化。每次 pull 且至少每小时检查并更新本项。
 - 私库 QUEUE 接手已推 `5746fa79a74af4975476d400dfbe0c4e5cb9ae9d`；私库根规则已读至 `ec011a5c25eeb7aed6eea040d601e7351726ede9`。每结论单推，非快进即 pull --rebase 再推；不 force，令牌仅 CLI。
 - 本轮本地终端可用。前会话执行身份及全部原交接保[接手快照](notes/2026-11-27-handoff-at-takeover-8542.md)；旧执行失败不改标成功，已登记结论不重做。
 - 仅保源、参数、SHA、小回执；MD<100KB、H<10KB、open尽量<30KB、topic<200MB，不写根LOG。已读本轮 log；notes 按交接路径与结果索引定点续读。
@@ -52,4 +52,4 @@ M=kerT、N=closureBM；N=M未证。保同w/u、全部partial、真intersection�
 
 ## 其余开放
 
-Deddens固定c球非localizing、无非零compact范数闭包；Π非SOT连续，硬/软copy五次费仅排原家族。原最优插值、自然域及同forcing已付；D核心保持、∩A^kM稠密的增长率、非复制来源仍开。G_reg/Haar/子商及归档全部未闭接口按open接续，不以阶段或时限收尾。
+[Deddens自伴核已刻画](results/R12-appendix-selfadjoint-deddens-core-and-all-separable-multiplicity-invariant-projections.md)：D_A∩D_A*=乘法MASA，非平凡普通不变投影成本必无限；全部可分重数只允许常值重数投影。固定c球非localizing、无compact范数闭包、Π强不连续及copy五次费均已付；不重做。继续原同源最优插值、D核心保持、∩A^kM增长率、非复制来源及G_reg/Haar/子商全部未闭接口。

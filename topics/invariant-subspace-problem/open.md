@@ -4,7 +4,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-26-open-before-labelled-source-reduction-347c.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-deddens-core-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -16,9 +16,7 @@
 
 rank$H=4$ 的非单位局部块长度5、4、3已排；长度2单零的三种单位长度3补空间现在也全部排除。单位四重点加孤立零单点另已排。各正式证明见结果索引；除子型 $4+1$ 与 $3+2$ 的两种 rank4 缺陷放置因此全闭。
 
-**新闭合：[单位 $2+1$ 补空间加双点单零](results/R150-appendix-essential-four-unit-two-plus-one-double-zero-rank-four-branch-is-empty.md)。** 完整原 mean/N、半权、零差、全部除法例外均处理；regular 的原三乘三系统与最高/第二梯度给 $F_7,R_{28}$ 的特征零 gcd1。原源在 run44723783966 精确通过，保代码/参数/运行身份与SHA，不存计算数组。
-
-**新闭合：[单位三约化点加双点单零](results/R150-appendix-essential-four-reduced-three-double-zero-rank-four-branch-is-empty.md)。** 全部cross值数/mean零与非零都已处理；生成元的原mean只给三族，最高式确定第二cross列，完整N的六个原分量排三族。run44724947207精确QQ源通过，末两quartic resultant非零。至此所有rankH4 proper局部单零（长度2–5）已闭。
+rankH4所有proper局部单零层（长度2–5）已闭，原双点单零的单位2+1、三约化补空间证明与真实运行身份均保完整快照及结果索引，不重算。
 
 当前依次处理：
 
@@ -129,6 +127,8 @@ A单射、稠密像、拟幂零且非紧；普通非零真闭不变子空间仍�
 [全D最优成本有限头化](results/R12-appendix-full-deddens-algebra-optimal-cost-finite-head-approximation.md)给每个X的同最优c强逼近。固定成本球的有限输入像弱紧、恰为同成本有限头像范数闭包；有限插值最小成本若有限则达到。**当前继续同一变化递推来源的实际凸最优费用**，不能假任意目标有限成本。
 
 [全交换子的收缩多项式密度](results/R12-appendix-contractive-polynomial-density-of-full-haar-commutant.md)及特选同头/平均双逼近成本最优1已经闭合；不再重做。一般平均却[在统一成本球仍强不连续](results/R12-appendix-finite-conjugation-average-discontinuity-at-uniform-cost.md)：真实有限头 $B_m\to0$ 于op范数、$c(B_m)\le2$，但 $\Pi B_m\to-I/4$ 于SOT。因此全D强逼近不能直接平均成保持同输入的交换子插值。
+
+**[自伴Deddens核及全部可分重数投影已完整刻画](results/R12-appendix-selfadjoint-deddens-core-and-all-separable-multiplicity-invariant-projections.md)：** D_A∩D_A*=L∞乘法MASA；真实非零真A不变投影必有无限Deddens成本。任意可分重数中，有有限成本的不变投影只为常值重数投影；故“有界投影自动有有限成本”这一步不可用。未证明未知M被全D保持；继续同源插值及非复制来源。
 
 硬复制和任意复软复制（自适应、统一有界放大、固定非零球）已有五次累计成本障碍，原幂衰减只有四次；软化cut不能修复。一般有限头重排与非复制来源仍开。未知A不变空间未证被D核心保持。
 

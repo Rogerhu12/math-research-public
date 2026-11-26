@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R12 整个自伴Deddens核与任意可分重数的不变投影已刻画（2026-11-27，已证明）：** [全尾块估计与完整乘法场证明](results/R12-appendix-selfadjoint-deddens-core-and-all-separable-multiplicity-invariant-projections.md)给D_A∩D_A*=L∞乘法MASA；双成本控制的非对角块以(2^m−1)α_m/β_(2^m−1)趋零。真实A不变投影若有有限成本只能0/I；任意可分重数中只允许常值重数投影，正性与逐对角积分处理无限重数。没有赋予未知投影成本假设；文献现状核至综述2026-10-23 v2，普通ISP未闭。
+
 - **R150 S0 的整个 h=k 原值碰撞为空（2026-11-27，已证明）：** [完整三谱及同一二次域原纤维排除](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-equal-values-complete-exclusion.md)补齐2λ²=1两谱；三条同λ156次结式给16次必要覆盖，全部原q纤维由已付单位或真Bézout1排除，保P1首项双零。新源exit0/12.271560秒，353原除法、198PRS商、161真逆及45Bézout实际回乘；与原λhalf证明合成整h=k。三值互异S0、L0和generic仍开。
 
 - **R150 S0/Lt0原θ二次首项零的整个限定面为空（2026-11-26，已证明）：** [全部参数覆盖及完整72维原单位](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-theta-leading-zero-exclusion.md)以J≠0支付θ一次系数，144次λ结式/squarefree43覆盖全部谱；五低谱已付，最后36谱的原E1/EB结果式实际逆乘为1，30真域逆、4.738630秒/exit0。两d根全保，无二次不可约假设；继续g2非零及其他S0余层。
