@@ -67,7 +67,7 @@ R513同类cap排除、R518固定宽接口、R520/524/527/529原20母的返回障
 
 [B030真实角峰原终态](notes/2026-11-26-theta-peak-b030-first-real-angle-receipt.md)run45785004209/job139789445888新增706.272697351秒，517×3072及190已定位峰的η=.39843255166751135、V0；actual257径向×1536+258峰轨道，pending275径向+287峰，trust.533935546875未重置。0自然OptimizeResult，径向257容量终止；完整pending续接后继续降残差，不借有限V0授全域证书。
 
-[B038真实角峰原终态](notes/2026-11-26-theta-peak-b038-first-real-angle-receipt.md)同run/job139789446406新增763.897576187秒，保留q在501×3072/257定位峰η=.6505886787494949、V0。末trial约.5993因V=.00019213899被拒，不能当续接q。actual250径向/213峰、pending303/268，trust.2669677734375；0自然OptimizeResult、径向257容量终止。下一完整保两lane末态及全部pending，提高已命中容量到513，原物理/角FFT/AD/接受门不改、已付接口核不重跑。
+[B038真实角峰原终态](notes/2026-11-26-theta-peak-b038-first-real-angle-receipt.md)同run/job139789446406新增763.897576187秒，保留q在501×3072/257定位峰η=.6505886787494949、V0。末trial约.5993因V=.00019213899被拒，不能当续接q。actual250径向/213峰、pending303/268，trust.2669677734375；0自然OptimizeResult、径向257容量终止。[513容量续接](notes/2026-11-26-theta-peak-capacity-continuation-implementation.md)已提交：完整保两lane末态及全部pending，提高已命中容量到513，原物理/角FFT/AD/接受门不改、已付接口核不重跑。
 
 [圆核原终态](notes/2026-11-26-circular-entry-and-small-core-continuation-receipt.md)run45778418134新增2401.892431903秒，p=.18入口V0/η8.66e−16；四个非圆p=.20/.19/.185/.1825虽V0但η.004477/.002407/.001116/.000541均未过stage1e−4。前三角容量、末时钟，最后合格仍圆；stage4实际156×384而235×768仅末扫描提议。下一从真圆q调背景和完整j2 forcing共振，再预测有限非圆；不以缩p越过数值门冒分支，p变化非同g。
 

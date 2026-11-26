@@ -264,3 +264,5 @@
 - [B030首次真实角峰终态](notes/2026-11-26-theta-peak-b030-first-real-angle-receipt.md)：**完整单lane原观察**。706.272697351新秒，η.939819→.398432551668、V0、κ16.45823；actual257径向/258峰与pending275/287严格分开，trust.533935546875。11次即时曲率交换、0自然OptimizeResult，径向容量终止；非连续reach/冻结g或主门。
 
 - [B038首次真实角峰终态](notes/2026-11-26-theta-peak-b038-first-real-angle-receipt.md)：**完整单lane原观察**。763.897576187新秒，保留η.650588678749/V0、κ16.46652；末trial η约.5993因V=.000192被拒。actual250径向/213峰、pending303/268、trust.2669677734375；12即时曲率交换、0自然返回，径向容量终止。下一取保留q和全部pending，非全门。
+
+- [真实theta末态及全部pending库的513容量续接](notes/2026-11-26-theta-peak-capacity-continuation-implementation.md)：新双lane明确续接，原实际与未采用完整状态逐项绑定；B038取保留q，1536均匀约束/全部峰/原trust均保留，唯一容量参数257→513。物理、FFT、AD、交换和接受函数沿原源，已付parity/方向核不再执行；新重建/求值全部计费，非完成。

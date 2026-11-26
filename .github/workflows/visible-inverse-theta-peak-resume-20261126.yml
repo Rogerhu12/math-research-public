@@ -1,0 +1,66 @@
+name: visible-flex continue actual theta peaks on the complete pending radial grid
+on:
+  push:
+    branches: [main]
+    paths:
+      - topics/visible-flex-new-mechanism/computations/request-inverse-theta-peak-resume-20261126.json
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: visible-flex-inverse-theta-peak-resume-20261126
+  cancel-in-progress: false
+jobs:
+  research:
+    name: continue actual theta peaks ${{ matrix.lane }}
+    runs-on: ubuntu-24.04
+    timeout-minutes: 50
+    strategy:
+      fail-fast: false
+      max-parallel: 2
+      matrix:
+        lane: [rounded-core-B030, rounded-core-B038]
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      PYTHONUNBUFFERED: '1'
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+      MKL_NUM_THREADS: '1'
+      NUMEXPR_NUM_THREADS: '1'
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 0
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-new-mechanism/README.md
+            /topics/visible-flex-new-mechanism/computations/request-inverse-theta-peak-resume-20261126.json
+            /topics/visible-flex-new-mechanism/scripts/inverse_flat_oscillatory_tail_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/inverse_hard_exchange_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/inverse_hard_exchange_resume_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/inverse_r566_angular_oracle_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/inverse_r566_block_jacobian_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/inverse_r566_theta_peak_exchange_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/inverse_rotational_metric_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/run_inverse_rotational_metric_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/inverse_r566_theta_peak_resume_20261126.py
+            /.github/workflows/visible-inverse-theta-peak-resume-20261126.yml
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.12.14'
+      - name: Pull current rules and resume the complete actual and pending peak state
+        env:
+          MR_TOKEN: ${{ secrets.MR_TOKEN }}
+        run: >-
+          python topics/visible-flex-new-mechanism/scripts/run_inverse_rotational_metric_20261126.py
+          --request topics/visible-flex-new-mechanism/computations/request-inverse-theta-peak-resume-20261126.json
+          --lane ${{ matrix.lane }}
+      # Same physical/FFT/AD/peak operator, exact retained q, both actual and
+      # pending libraries, source trust and proposed trust separately recorded.
+      # The prior paid parity/directional check is provenance-bound, not rerun.
+      # Capacity 513 addresses this identified pending radial grid. All new
+      # reconstruction/optimization cost counts. Original stdout only; no
+      # artifact, cross-run cache, release or Git write. Two real rule pulls.

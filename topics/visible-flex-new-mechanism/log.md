@@ -576,3 +576,7 @@ root全文读收据，核678528字节raw与59785字节FINAL SHA，全部JSON和a
 ## 2026-11-26 — Astra-new-mechanism-0105020f-20261126 / B038真实角峰原终态
 
 root全文读收据并核681213字节raw/59396字节FINAL SHA，全部JSON和成本/actual/pending相符。明确保留q η.65058868/V0与最后被拒trial η约.5993/V.000192，不把更好却违规值送续接。径向257容量为实际瓶颈，原trust保留、已付接口不复跑，收据即推。
+
+## 2026-11-26 — Astra-new-mechanism-0105020f-20261126 / 513径向实际末态续接
+
+root全文读新loader并逐AST比完整main：只变已说明的末态恢复、峰库、容量和已付核标记，实际优化循环仅删重复接口核。两lane完整actual_terminal_state与last_unapplied_constraint_proposal同原FINAL逐项相等，10源hash/sparse依赖闭包相符；未导入或执行科学。257容量确已命中，275/303待采位置与287/268峰全保，新输入即推公开执行。

@@ -6,7 +6,7 @@
 
 ## 1. 规则与接手
 
-已部分克隆并实际 `git pull main`，公开根 README、课题 README、HANDOFF、open、results 索引及相关 log/notes 已读。公开已读提交 **83cfc157e487d3812f4a7c7ed7d501be09a3925c**（2026-11-26 09:16 UTC；本次实际pull后根/题README空差异）；私有根初读 **85fdf1853367ef25c07f3ebdb6ae25c22a3564b8**，随后逐次 pull/rebase 检查根差异，空差异。私有 QUEUE 的本题已改为本会话进行中并成功推送：**9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7**；最后实际pull及规则同blob读至 **beff3c7458835a1397c67704ac9a95d0a4717f12**（2026-11-26 08:52 UTC；磁盘满失败后改稀疏索引，重做actualpull成功，根README空差异、QUEUE仍本会话）。其它课题的并行认领保留。
+已部分克隆并实际 `git pull main`，公开根 README、课题 README、HANDOFF、open、results 索引及相关 log/notes 已读。公开已读提交 **94357c748babfa36a981882494dfdd173ddfe301**（2026-11-26 09:17 UTC；本次实际pull后根/题README空差异）；私有根初读 **85fdf1853367ef25c07f3ebdb6ae25c22a3564b8**，随后逐次 pull/rebase 检查根差异，空差异。私有 QUEUE 的本题已改为本会话进行中并成功推送：**9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7**；最后实际pull及规则同blob读至 **beff3c7458835a1397c67704ac9a95d0a4717f12**（2026-11-26 08:52 UTC；磁盘满失败后改稀疏索引，重做actualpull成功，根README空差异、QUEUE仍本会话）。其它课题的并行认领保留。
 
 各原观察note保真实双仓pull/规则blob/QUEUE回执；根/题规则均无变化。盘满和失联恢复原记录保于[先前交接](notes/HANDOFF-before-hard-restoration-20261126.md)，历次全文见[几何转向前交接](notes/HANDOFF-before-compact-geometry-20261126.md)及[非线性高度前交接](notes/HANDOFF-before-nonlinear-height-20261126.md)。API读取不冒git pull。
 
@@ -22,7 +22,7 @@
 
 [R565](results/R565-parallel-oval-core-exact-reach-and-amplitude-budget.md)的平行椭圆核心与[R566](results/R566-flat-oscillatory-cap-tail-and-graph-reach.md)振荡平帽是新g输入。v2、hard、识别续接及联合预算原run逐次闭账，完整源链保于[压缩前交接](notes/HANDOFF-before-resonant-height-20261126.md)和[open](open.md)。联合预算保持R1.012/Y.3928/τ.06072，B030/B038末fine η.939819/.853614、V0，但各3072约束提议未采用。
 
-[真实角峰实现](notes/2026-11-26-real-angular-peak-exchange-implementation.md)保原1536全均匀约束/真实q/trust，另外加入实际非均匀峰，Ebar仍全角积分；actual违规覆盖内的新峰不立即重启，小峰pending待自然返回，完整fine/已定位峰共同判接受。[首启动缺依赖](notes/2026-11-26-theta-peak-import-closure-failure-and-repair.md)模型0次，已最小修复。run45785004209自然终态。[B030原收据](notes/2026-11-26-theta-peak-b030-first-real-angle-receipt.md)新增706.272697351秒，η.939819→.39843255、V0；actual257径向/258峰，pending275/287、trust.53393555。[B038收据](notes/2026-11-26-theta-peak-b038-first-real-angle-receipt.md)新增763.897576187秒，保留η.65058868/V0；actual250/213、pending303/268、trust.26696777。末trial η.5993因V.000192被拒。均径向容量终止/0自然返回；完整保actual+pending续接，连续reach/冻结g仍欠。
+[真实角峰实现](notes/2026-11-26-real-angular-peak-exchange-implementation.md)保原1536全均匀约束/真实q/trust，另外加入实际非均匀峰，Ebar仍全角积分；actual违规覆盖内的新峰不立即重启，小峰pending待自然返回，完整fine/已定位峰共同判接受。[首启动缺依赖](notes/2026-11-26-theta-peak-import-closure-failure-and-repair.md)模型0次，已最小修复。run45785004209自然终态。[B030原收据](notes/2026-11-26-theta-peak-b030-first-real-angle-receipt.md)新增706.272697351秒，η.939819→.39843255、V0；actual257径向/258峰，pending275/287、trust.53393555。[B038收据](notes/2026-11-26-theta-peak-b038-first-real-angle-receipt.md)新增763.897576187秒，保留η.65058868/V0；actual250/213、pending303/268、trust.26696777。末trial η.5993因V.000192被拒。均径向容量终止/0自然返回；[513容量续接](notes/2026-11-26-theta-peak-capacity-continuation-implementation.md)已提交，全actual+pending保留、已付接口不重跑，连续reach/冻结g仍欠。
 
 [圆核原终态](notes/2026-11-26-circular-entry-and-small-core-continuation-receipt.md)run45778418134新增2401.892431903秒，p=.18入口V0/η8.66e−16；p=.20/.19/.185/.1825均未过stage1e−4，末η.0005411。最后合格仍圆；stage4真正156×384，235×768仅末扫描提议。[R580](results/R580-finite-tail-polynomial-kernel-obstruction-and-resonant-seed-interface.md)已证当前β×末段有限多项式不含非零真实尾核；末片跨carrier终点又排当前8基p′≠0的C1圆入口。只限原表示，不排强非圆或新空间。下一加实际背景的真实flat seed再调共振，不能仅缩p/调均值；p设计变化非同g。
 
