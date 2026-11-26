@@ -6,7 +6,7 @@
 
 维护会话：**Astra-serre-24b8836b-20261126**。2026-11-26 已部分克隆并真实 pull main；私库 QUEUE 认领已推 233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则读至36cf1ed2。前会话全部有效结论继续保留，不重算。
 
-**已读公开规则提交：df60c9705ce2f45c0ea7b84833a9ade54dae78cc**（2026-11-26 16:14 Asia/Taipei；本次同步两 README 无差异）。每次同步检查两 README diff，至少每小时一次，有变化只读差异并立即执行。
+**已读公开规则提交：932525def9e568fd6ec430169a25d19e2463ff4a**（2026-11-26 16:25 Asia/Taipei；本次同步两 README 无差异）。每次同步检查两 README diff，至少每小时一次，有变化只读差异并立即执行。
 
 执行宿主在本轮断连，当前不可用。根规矩8许可仅 GitHub 集成可用时传小文本；已用原子 tree/commit 和非强制 expected-head ref 更新继续。每次先读最新 main、核规则与待改路径；并发拒绝后在新 head 重建直到成功。终端恢复后补 pull --rebase。令牌仅在此前 CLI 使用，未写文件或提交。
 
@@ -63,8 +63,8 @@ p≠8093时局部四阶可达；某j≤4的G^j端列mark非零仍须接回原保
 R782/R788/R891/R904已有完整Schur/首pole/连接和gap边界，只消费。
 更正：R949的独立f_N与R988的bare c_(p−r)之间没有已证直接单位桥。
 R706确给5992个f_N单位及除137147外的5991个g_N单位；不互换两者。
-当前继续实际V_(p−1)†/degree-two同源Frobenius比较及原高/低carry，
-不重跑已成窗口。
+[R1012](results/R1012-original-p-similitude-divided-high-coordinates-and-critical-bridge.md)：每个Normκ=−1方向恰12个Eisenstein norm-p表示，构成实际p-similitude。首pole在原矩形全消；四个指定divided高系数q_j的相邻差准确为aκ^pH_p(κ)/(5βᾱ)，全部未知整高带只进共同常数。等价原导数平衡系数[z^(p−3)t^(p−3)]F′(u)G(w)=(B/5)κ^p(βᾱ)^(p−3)H_p(κ)，外因子全单位。仍未证左端非零，也未接bare c_(p−r)；继续真实Poincaré来源并保primitive/Legendre。
+实际V_(p−1)†的旧来源已消费，不重跑已成窗口。
 
 ## O2：原高近p值
 

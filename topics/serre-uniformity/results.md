@@ -8,6 +8,8 @@
 
 ## 新增结论（2026-11-26）
 
+- **R1012（已证明）**：[R1012](results/R1012-original-p-similitude-divided-high-coordinates-and-critical-bridge.md)：每个Normκ=−1方向恰12个Eisenstein norm-p表示，构成实际p-similitude。首pole在原矩形全消；四个指定divided高系数q_j的相邻差准确为aκ^pH_p(κ)/(5βᾱ)，全部未知整高带只进共同常数。等价原导数平衡系数[z^(p−3)t^(p−3)]F′(u)G(w)=(B/5)κ^p(βᾱ)^(p−3)H_p(κ)，外因子全单位。仍未证左端非零，也未接bare c_(p−r)；继续真实Poincaré来源并保primitive/Legendre。
+
 - **实际高坐标接口**：[原除p坐标](notes/2026-11-26-original-high-coordinates-in-divided-Ramanujan-polynomial.md)：实际整多项式𝔅_p=(R^(p−1)E+E^p−E_(p−1)E_(p+1))/p给c_(p−r)±=r!12^(r−1)[E^r]𝔅_p(E,0,±864)。r2标量24、r8为8!12⁷，正E坐标不依纯modular升换；仍未证非零。新theta-cycle filtration不能代指定CM读数；BKO2025精确估值只对wild塔角色和Λ生成元，不能搬到原tame U₇。继续同一高坐标的实际来源。
 
 - **R1011（已证明）**：[R1011](results/R1011-original-nonCM-half-rank-quotient-and-rational-CM-jet-transversality.md)已构造原J₁实际Q简单商C，q_CN=0、β=q_CD₀非挠，End_Q⁰C=全实F₀，dimC=2f、rankC(Q)=f且C(Q)⊗Q=F₀β。用同一canonical c的κ₄投影和Nekovář3.2，保内扭曲/全部同源重数；Faltings中央化子与MW秩共同排Schur指数。各素ℓ的真实对数空间维f、与有理Lie向量交零；原c₁首个Abel jet因此有实际MW消去泛函，首项非零。尚无p整首项赋值或统一圆盘半径，不移用旧一维CM通道，继续真实β的Coleman/晶体两列与尾项。

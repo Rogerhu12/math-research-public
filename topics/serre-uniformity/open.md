@@ -10,6 +10,8 @@ R1只把全部异常缩为p>37的完整N_ns；**p≡2,5 mod9只是另加小惯�
 
 ## O1：全p同一真实本原标签的临界非零
 
+[R1012](results/R1012-original-p-similitude-divided-high-coordinates-and-critical-bridge.md)：每个Normκ=−1方向恰12个Eisenstein norm-p表示，构成实际p-similitude。首pole在原矩形全消；四个指定divided高系数q_j的相邻差准确为aκ^pH_p(κ)/(5βᾱ)，全部未知整高带只进共同常数。等价原导数平衡系数[z^(p−3)t^(p−3)]F′(u)G(w)=(B/5)κ^p(βᾱ)^(p−3)H_p(κ)，外因子全单位。仍未证左端非零，也未接bare c_(p−r)；继续真实Poincaré来源并保primitive/Legendre。
+
 本节限定原指定CM源；其R317应用受O0全部附加条件约束，D/bc无统一上界。p=6N+5、h=6i+7、i+j=N−1，原J32准确单位乘(P_(h−1)(1/s)fi gj)^p；必须同一个本原h使三个因子非零，完整Norm/两CM权/det/半周期/ζ²相位不换。
 
 R734/旧双标签/R935已经给原Legendre单位标签；R945证明227/h115的f18=0、857/h433的g70=0而两完整S仍单位，故完整trace单位不能代中央同h。替代h、Q²两值及旧有限窗均已成，不重算。
