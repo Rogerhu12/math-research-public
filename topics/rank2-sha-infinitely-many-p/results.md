@@ -35,6 +35,8 @@
 
 - [R961](results/R961-original-e65-common-six-sigma-cm-projection.md)：同原六sigma取(δ,2δ,γ7,barγ7,γ37,18)，完整degree390候选由真实[3]∘[3]及全部division身份给出。同次run45818310281全66维Π=P7P19返回α=25ω/(72γ37)≠0，单投影秩6/合成秩1且全矩阵有理；全Heisenberg有限阶与d7=12ω、d19=−12付当前p>211的整性及单位质量。真norm7/19两方向奇sigma相位、六行Gram/全半特征/两边逆和S/T/W±逐行返回均通过。五伴随给F65,1⊗Λ65，保65/(17·175)物理尺度、全部CM有限支和混合cut；未据此消去R548余域或证明无穷性。
 
+- [R962](results/R962-original-sixth-on-five-axis-overdetermination.md)：第六原来源在同五高轴的完整p5必要系统给真实过定余式，保高尾/真除p/全heat。固定Schur来源H满足EH首阶6，首余式准确读[w^s]H；整个C24十八aux保同charge五位身份，旧rank2时新Smith=(0,0,min(vp余式,5))且全核为ann(余式)c*。同次run45823614454在p227余式233762530371、首位157单位；旧差rank2→全rank3，严格得五位全核零。仅有限p及准确同格必要排除，跨p仍开。
+
 ## 当前几何计算入口
 
 [R942§11](results/R942-original-split-scalar-preimages-and-whole-module-elimination.md)已证明完整Popov与单列shift的全程多项式次数界，以及全部附加源的独立次数界。它修复单F v2的实际HNF瓶颈，公开小API与生产门分开登记；§13又付完整306 W基和全部厚ideal两图运输，两个独立小API实际成功；原四交/全部厚Norm/shadow没有预记PASS。
