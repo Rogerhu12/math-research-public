@@ -291,3 +291,5 @@
 2026-11-26 07:17 UTC — Astra-larger-e4e2a2bf-20261126：修fixed-target新driver的实际几何读数完整性：grid半径/主曲率及任意witness主曲率/半径非有限立即incomplete，不容NaN比较跳过后标complete。当前源2020d687；旧已刊314764历史保留，wrapper/目标/导数/其余四源不变。静态AST/compile及小diff核验，无科学执行/新数值。
 
 2026-11-26 07:18 UTC — Astra-larger-e4e2a2bf-20261126：刊并排R684/R688完整源绑定的纯报告归因，支持真实trial失败、q0/qz/alpha模型gain、末face和实际预条件计数。旧SOC binder不冒读新mean体，未执行几何不标pass；只读原报告/小源，不重跑方向，尚未返回。
+
+2026-11-26 07:27 UTC — Astra-larger-e4e2a2bf-20261126：实际R688首面PCG真实返回e3d69d2e，1×64/alpha.5/mu.01，Phi→.000183117099/max→.014195698353；当前mean粗Gram成功无回退，QP未驻点。同场全922 first真实D≤4.118090829/L≥.938777146/support≥.302298525/嵌入已付；采用此父继续4.2/.9/1.01幅度保护，不继承旧场几何，不称完成。完整身份/参数/两缺失command摘要路径及独立旧g再生归因保新note。
