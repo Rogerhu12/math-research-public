@@ -10,6 +10,8 @@
 
 ## 新增结论
 
+- [R144补篇：同材料角的精确mean重投影](results/R144-supplement-exact-nonlinear-mean-elimination-and-retraction.md)：在R144真腰初值下固定u及j=v/m，用完整线性Volterra构造mean；正性门、aR^-2放大、signed R0/jump及全部新非mean残差显式保留。区别已成R133固定v−m的scalarization，旧Γ/Green不重；新whole小量尚未算。
+
 - [R144端点准入：原C0球足够支付holonomy邻域](results/R144-supplement-actual-endpoints-imply-holonomy-neighbourhood.md)：原moving C0≤1e−4条件给腰branch/负号、body物理pair<1/40000；独立cap原球给pair<3e−12及场外mean整段准入，Bcal^-1<5e10保留。准确selected腰mean在(5,8)e−15，未当零；真core/cap存在仍待。
 
 - [R147：同selected负窗ν源、体高到mean零块与真实外mean行](results/R147-selected-negative-nu-source-and-complete-mean-row.md)（已证明）：原ordinary负径向窗三源<(3.720478,3.718314,2.955779)e−6，完整体Pmean Aδ PH=0仅原moving投影；真实外mean逆<50、非mean反馈<1.2e−6、纯ν affine<2e−16。signed mean保off-shell R0、参数方差与全部jump，full inverse/phase仍待。
