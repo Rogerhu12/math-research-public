@@ -141,3 +141,7 @@ R55补充：[较宽设计盒与条件完整D≤2.69](notes/2026-11-20-soft-start
 ## R65. R53 端点核与保实际锚点的补弧核心族
 
 [完整证明](results/R65-r53-endpoint-kernel-and-warm-supported-core.md)。固定目标k时材料曲率切向Tλ在保护弧的零均值方向准确乘1−λ，因此λ1有无限维核；有限support Fourier切向实解析，端点仍单射，不能据此宣称当前有限BVP秩亏。给旧实场完整核心及两jet等几何交接的新补弧phase族，gauge与正坐标q_aux语义分开。小synthetic接口检查已执行；尚无near-1接受场、新BVP或闭面。
+
+## R66. 三重高度迹的连续转角与平面原函数闭合
+
+[完整证明](results/R66-threefold-turning-and-planar-primitive-closure.md)。真实3j高度/径向高度迹使每扇区转角相同，平面原函数周缺口准确为C(1+ρ+ρ²)；连续转角I=1时平移与切向都闭合，|I−1|≤ν时位置缺口≤(8π²/9)Rν。明确R12/R14从共同g、高度一jet到Cartesian二jet的合同，区分有限Fourier自闭合与等距primitive误差；尚无新fullH或接缝数值代入。
