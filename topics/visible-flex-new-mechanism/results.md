@@ -222,3 +222,5 @@
 - [R573 固定collar曲率与分离尺度返回的reach比例障碍](results/R573-fixed-collar-curvature-and-separated-scale-reach-obstruction.md)：**已证明**原ruled片完整形算子给起点reach≤H²+(ξc+Ω)⁻²；首高尾两个实际collar点给D≥c√R logR/δ−C_R。先固定母/H/H0/Ω/有限R后δ→0，任何保原collar的闭C²完成均有reach/D→0，最终违反.03门；净pose返回、整体缩放和collar外校正不能消去。未算有限阈值、不排一般有限参数；转紧凑输入而非只增形式阶数。
 
 - [圆核入口的真实启动失败与角网格修复](notes/2026-11-26-circular-entry-angular-guard-failure.md)：**完整原失败收据及必要修复**。run45775603393在首次Model保护即因16角<4×4+4退，child wall .604799秒，无核心积分/几何/优化结果。新v2改32角及一致CLI保护，原物理/17变量/续接门不改；下次才首次执行此输入的模型科学，不判圆核不可行。
+
+- [连续角峰与FFT原函数求积的分离接口](notes/2026-11-26-continuous-theta-peak-oracle-design.md)：**后继算子设计，未科学执行**。实际约束(s,θ)、FFT求积M和径向覆盖各自保存，Ebar及参数微分仍取完整角积分；任意角用Fourier原函数与真实解析T jets。峰定位不冒连续证书，截断Pθ−T、Ebar误差及区间分母门明确；针对已观察的角容量终态，实现独立新源。
