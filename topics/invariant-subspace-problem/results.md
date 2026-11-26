@@ -199,3 +199,5 @@
 - **R150 unit3+1非半权的零一阶跨点配对整支为空（2026-11-20，已证明）：** [完整mean分解与原范数返回](results/R150-appendix-essential-four-unit-three-plus-one-nonhalf-zero-first-jet-pairing-branch-is-empty.md)先付Db零边界，再把原mean准确分成Q(u,κ)=0与u²+1=0；两个无除法原相容式给QQ范数gcdκ+1及(κ²+1)^4，全部例外回原式矛盾。run44737710336原QQ(κ)二元商代数核全1.484秒，不靠数值近似；只余p q alpha非零的真正一般图，其gamma0/n0边界此前已分别付。
 
 - **R150 单位211非零孤立点均值的单位基点均值图排除整个半比例（2026-11-26，已证明）：** [原全局图、jet除数与完整QQ纤维](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-nonzero-isolated-mean-unit-base-mean-half-ratio-exclusion.md)先排l0及系数零面；λ1/2其余图的92/162/170次结果式只余Q5/4，原ideal迫l0。顶点g0抽象族由完整物理Gram秩二排；自含源2.801380秒/72196KiB/exit0。准确余u1的λ≠0,1/2及一般u，不冒充整非零均值分支闭合。
+
+- **R150 rankH3二重加单点的退化Gram整层ess≤5（2026-11-26，已证明）：** [原完整梯度、特殊源及六列非退化证明](results/R150-appendix-rank-three-double-plus-single-second-cumulant-degenerate-gram-essential-six-exclusion.md)覆盖detGram=−bg²的全部零面、两类V及全部F/Hp。特殊极线异点简单性含∞；F0用真实二维正交补，其余由完整六列根向量矛盾。纯手证，无新计算；非退化bg≠0与ess4/5继续。

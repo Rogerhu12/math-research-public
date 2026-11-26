@@ -134,5 +134,8 @@ AI-assisted GPT-6 Astra Pro：[原极线与十六维QQ单位证书](results/R150
 ## 2026-11-26 08:24:39 UTC — Astra-ISP-347c-20261126：rankH3单一三jet的整个本质六维支关闭
 AI-assisted GPT-6 Astra Pro：[原0/1/2阶梯度的5/2矛盾](results/R150-appendix-rank-three-single-jet-second-cumulant-has-essential-dimension-at-most-five.md)排最后负谱支，保合法jet规范、全部边界及V项；与Hp0原QQ门合成ess≤5。纯手证审完，不重做既闭门，立即接H2+1/三值及其它开放支。
 
-## 2026-11-26 08:36:35 UTC — Astra-ISP-347c-20261126：单位211非零均值的u1半比例及jet除数关闭
+## 2026-11-26 08:35:52 UTC — Astra-ISP-347c-20261126：单位211非零均值的u1半比例及jet除数关闭
 AI-assisted GPT-6 Astra Pro：[同一原式QQ与完整Gram证明](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-nonzero-isolated-mean-unit-base-mean-half-ratio-exclusion.md)排l0、系数零面及整λ1/2；92/162/170末Q5/4原ideal迫l0，零g族秩二。原源2.801380秒/72196KiB/exit0，继续剩余比例和一般u。
+
+## 2026-11-26 08:38:21 UTC — Astra-ISP-347c-20261126：rankH3二重加单点的退化Gram本质六维全闭
+AI-assisted GPT-6 Astra Pro：[全部退化类型的原梯度证明](results/R150-appendix-rank-three-double-plus-single-second-cumulant-degenerate-gram-essential-six-exclusion.md)保特殊源与∞、零/非零Hp及两类V；每个根向量都对原六列检验，非退化四空间的二维正交补边界已付。纯手证审完，继续bg非零与其余开放层。

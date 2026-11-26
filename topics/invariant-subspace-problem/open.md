@@ -22,8 +22,7 @@ rank$H=4$ 的非单位局部块长度5、4、3已排；长度2单零的三种单
 
 当前依次处理：
 
-1. 孤立零单点，单位长度4补空间现只余 $2+1+1$、$1+1+1+1$。单位单四重点、两个单位双点均已闭。[整个单位3+1分支](results/R150-appendix-essential-four-unit-three-plus-one-isolated-zero-rank-four-branch-is-empty.md)现亦完全排除：先前p0/半权/alpha0/q0/gamma0及原n0非零保持原范围，补写run14已成功的x0/L0边界；一般图以原mean、c1及无除法单点相容χ给QQ结式gcd和全部纤维返回，唯一非零非半权候选又落γ0。完整来源及原边界引用保本结果和[本次open快照](notes/2026-11-26-open-before-complete-unit-three-plus-one-347c.md)。不再重做3+1任何子支。
-   单位2+1+1已闭：[全部零配对](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-one-zero-base-pairing-exclusion.md)、[全部零基点mean](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-zero-base-mean-exclusion.md)，以及[整个相等非零配对p=q](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-equal-base-pairings-complete-exclusion.md)。最后一条新用k=4bc·t/l的原c0线性化、原S/Λ0及QQ结式，最终二次权重纤维由72×80/秩70的明确原理想身份迫k0矛盾；19.744046秒/exit0。全部l0/½/1、t0、射影/∞、奇异和首项纤维已付，不重做。相反配对q−1的已闭权重与奇异图见下文；准确一般剩余为p=1、q≠0,±1、b+cq≠0。压缩前完整来源/边界见[原open快照](notes/2026-11-26-open-before-complete-equal-base-347c.md)。
+1. 孤立零单点的单位长度4补空间只余 $2+1+1$ 与 $1+1+1+1$。单位单四重点、两个双点、[整个3+1](results/R150-appendix-essential-four-unit-three-plus-one-isolated-zero-rank-four-branch-is-empty.md)均已完全排除。单位211的零配对、零基点mean、相等/相反非零配对与整个P0零支亦已关闭；准确剩余可规范p=1、q≠0,±1、b+cq≠0、P0≠0，再分零/非零孤立点mean，当前子图见下文。全部旧除法边界、原QQ来源及执行身份保[本次完整压缩前open](notes/2026-11-26-open-before-rank-three-double-single-degenerate-347c.md)与结果索引，不重算已闭门。
 2. 全部 rank$H=5$，即 $L$ 为单位的七种长度五除子分拆。
 3. 内均值 $y\in W$ 与 ess$T_3=5,6$。不能把 $V$ 自己的低秩支撑自动当作 $y,H,V$ 的共同支撑；降秩情况及完整原梯度必须保留。[V=0、rankH3且y在RanH外的整支](results/R150-appendix-zero-third-cumulant-rank-three-outer-range-exclusion.md)现已由原J2/迹/二次因式排除；所以V=0且ess4只余rankH4、y在其唯一length4原jets支撑。[双二次独立及唯一简单基点归约](results/R150-appendix-zero-third-cumulant-essential-four-independent-quadrics-and-basepoint-reduction.md)进一步排除全部相关二次/N=0例外，物理投影须为有唯一简单基点的四次曲线。[四不同点整支](results/R150-appendix-zero-third-cumulant-reduced-essential-four-section-is-empty.md)已由原完整节点普通矩梯度、全部a_i零例外和原H-gradient因式排除；[全部重节点型](results/R150-appendix-zero-third-cumulant-nonreduced-essential-four-section-is-empty.md)随后亦由保根方向相关性的完整Gaussian梯度与原极线几何排除。因此V=0、essT3=4整层现已关闭。随后[整个V0临界层的三个原匹配Bell均零](results/R150-appendix-zero-third-cumulant-all-matched-bell-values-vanish-and-exact-index-three.md)亦已由完整七次QQ来源证明，覆盖ess5/6与所有Cat退化；完整I0中(r·y)S_r²∈I0并给S_r³∈I0，结合平方非成员得到准确指数3。该七次门已完成，不需另跑degree9。继续一般V≠0内均值ess4、ess5/6及原全局Jacobian幂来源；不得把V0消元图证书当全局同幂。
 
@@ -64,6 +63,8 @@ $$
 **[单位211零m两图的线性权重面J0全闭](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-nonzero-base-highest-zero-isolated-mean-linear-weight-face-exclusion.md)：** J=lQ(2u−1)−u(2u+Q−2)；u=1/2会违Q≠1，故合法解l。完整QQ第二轮次数(零,69,60)/(零,232,220)保恒零式，gcd只余第一图Q2并由原五式GB1排除。自含源1.30923秒/64372KiB/exit0；剩余原两图的l6/l8高次行列式因子和全部实际来源继续。
 
 **[单位211非零m、u1的半比例及jet除数全闭](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-nonzero-isolated-mean-unit-base-mean-half-ratio-exclusion.md)：** 在p+q2、u=bp+cq=1、P0非零图，l0由原mean/S余式排除；jet的g系数零面归λ=f1/2，其g0抽象族因完整Gram秩二排。半比例其余图QQ92/162/170结果式仅余Q5/4，回原五式基为{f−5l/16−1/2,l²}，与已付l0矛盾。自含源2.801380秒/72196KiB/exit0；继续u1的λ≠0,1/2及一般u≠1，不宣全非零m空。
+
+**[rankH3二重加单点、退化Gram的整个ess6已空](results/R150-appendix-rank-three-double-plus-single-second-cumulant-degenerate-gram-essential-six-exclusion.md)：** 原H规范给detGram=−bg²，g0与b0的所有F、Hp和两类V逐一排除；特殊源0/2/−6/∞的不同点极线根均简单。F0用原非退化四空间的二维正交补，其余用原常数/一次梯度和完整六列根向量，非零Hp最后迫u=w。纯手证逐式审完；该H型只续bg≠0非退化Gram，三约化H剩余与ess4/5仍开。
 
 ## 2. R271：同一来源的完整物理费用
 
