@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R150 三约化H退化Gram、Hp0的同相位整条物理支为空（2026-11-26，已证明）：** [齐次原最高式与三个真实源值](results/R150-appendix-rank-three-reduced-degenerate-Gram-aligned-phase-physical-exclusion.md)在全部有限/∞源上给P=(U+V)/(2e)，从而y=(u+v)/(2e)、e=1/2，与2e³=−1矛盾。平方自由三次除子及二次插值保所有仿射降次，无计算假设。十八Gram覆盖只余两个非平凡相位、至多十二Gram，继续原完整物理方程。
+
 - **R150 三约化H退化Gram、Hp0的完整有限相位分类（2026-11-26，已证明）：** [原mean/N/最高值与全六列证明](results/R150-appendix-rank-three-reduced-degenerate-Gram-zero-hp-finite-phase-classification.md)给相位(ω²,ω,ω)、r3=−r2，以及δ²=−4e²（ω1）或−e²（ω非1），2e³=−1；最多18个归一化Gram。全6×6行列式非零，不将H子Gram退化误作矛盾。此为覆盖全部有限/∞源的必要分类，尚非原物理实现或排空。
 
 - **R150 有限H(2+1)/Hp0的两条d一次式与原物理理想相等（2026-11-26，已证明）：** [两条通用多项式身份](results/R150-appendix-rank-three-double-plus-single-zero-hp-two-linear-original-ideal-equivalence.md)将源三次/jet二次改为C_lin/G_lin；保原范数支付A单位，饱和Π不变，不除Ld/Cs或任何新首项。源已启动真实Ke的I*C=1，执行结果独立登记；理想相等不作排空。

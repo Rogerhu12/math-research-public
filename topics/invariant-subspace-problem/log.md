@@ -250,3 +250,6 @@ AI-assisted GPT-6 Astra Pro：[完整理想相等证明](results/R150-appendix-r
 
 ## 2026-11-26 11:59:42 UTC — Astra-ISP-347c-20261126：三约化H退化Gram余支有限分类
 AI-assisted GPT-6 Astra Pro：[完整相位证明](results/R150-appendix-rank-three-reduced-degenerate-Gram-zero-hp-finite-phase-classification.md)用原mean及两个V值迫相位(ω²,ω,ω)，全六列非退化迫唯一相反符号，至多18个归一化Gram并给非零全行列式。有限/∞源全部保留；这里只完成必要分类，继续原物理恒等式。
+
+## 2026-11-26 12:00:27 UTC — Astra-ISP-347c-20261126：三约化H同相位整支关闭
+AI-assisted GPT-6 Astra Pro：[原物理完整排除](results/R150-appendix-rank-three-reduced-degenerate-Gram-aligned-phase-physical-exclusion.md)以齐次三源除子和原最高式迫y=(u+v)/(2e)，原配对继而迫e=1/2，与2e³=−1矛盾；含∞和全部降次。纯手证单推，余两非平凡相位的至多12个Gram继续。
