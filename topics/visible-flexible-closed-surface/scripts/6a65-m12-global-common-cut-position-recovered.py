@@ -297,6 +297,10 @@ def main():
             if stat['weighted_energy']<before['weighted_energy'] and stat['metric_peak']<=1.05*before['metric_peak']:
                 accepted=alpha;coeff+=alpha*change;break
         row={'step':step,'lsmr_stop':int(solution[1]),'lsmr_iterations':int(solution[2]),'lsmr_residual':float(solution[3])/scale,
+             'lsmr_normal_residual_preconditioned':float(solution[4])/scale,
+             'lsmr_operator_norm_estimate':float(solution[5]),
+             'lsmr_solution_preconditioned_norm':float(solution[7])/scale,
+             'lsmr_rhs_scaling':scale,'lsmr_atol':1e-10,'lsmr_btol':1e-10,
              'condition_estimate':float(solution[6]),'accepted_alpha':accepted,'attempts':attempts,'memory':rss()}
         rows.append(row);print(json.dumps(row),flush=True)
         if accepted is None:break

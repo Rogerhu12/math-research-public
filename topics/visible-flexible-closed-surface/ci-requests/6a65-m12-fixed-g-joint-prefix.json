@@ -5,9 +5,9 @@
   "angular": 768,
   "gauss": 8,
   "block": 24,
-  "iterations": 1600,
+  "iterations": 6400,
   "newton": 1,
-  "request": "2026-11-26-same-g-angular-order-and-quadrature-refinement",
-  "previous_run": "45797640490",
-  "physical_scope": "Exactly the same original prefix through internal radius .6. Same original g, amplitude, physical geometry, true source and endpoint traces; only correction order, integration and linear iteration budget refined. Whole tail is a separate calculation."
+  "request": "2026-11-26-same-g-same-space-linear-solve-refinement",
+  "previous_run": "45802097600",
+  "physical_scope": "Same original g, source, full common-cut prefix, 158 merged elements, order48/N768/G8 and independent G10/N1536 as run45802097600. Only linear iteration cap1600 to6400; one nonlinear step from the same original field."
 }
