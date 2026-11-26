@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R271 任意固定次数的真实顺次MP及同源慢增次数有完整共同窗口预算（2026-11-26，已证明）：** [全反馈、准确终列与全部中间层证明](results/R271-appendix-fixed-successive-actual-mp-common-variance-and-slowly-growing-depth.md)保每次D†及−Cq_r，同一c_kS至2c_kS窗口有显式K_(r|k)，所有孔层仍小于h。任意w∈kerT可选k_m→∞、k_m≤m/12，使误差/修正/残量平方可和、s_m→0；终端Σ(−C)^pa⊗(D†)^pΩ准确保primitive反馈。k=h−1增长费尚未付，不推出稳定BM端点。
+
 - **R150 全部剩余有限中央H源有个别原源/12次常数域的完整必要归约（2026-11-26，已证明，未判空）：** [原phase、三N导数与两最高一阶的精确降式](results/R150-appendix-rank-three-reduced-degenerate-Gram-labelled-original-N-and-highest-first-reduction.md)保五个物理源、全12嵌入、完整交叉k与所有新首项零面，Π不含c+6/a3。两条Direct最高导数身份及所有分母原单位写全；前4.447MB trace门实际内存未决留档，新run45831444045/job139948952361只认真实I*C=1。
 
 - **R150 原L0的线性λ投影曲线W整支为空（2026-11-26，已证明）：** [原二参数九式与完整QQ w排除](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-L0-linear-lambda-curve-exclusion.md)以W本身支付2w+1，保整个κ代数、A零面及所有P1降次。原ρ结式给w次数51/60/99，累计gcd51→16→0，Bézout实际回乘；run45831444045/job139948952171、0.406508秒/exit0。G(7,4)、双零与余交点仍开。

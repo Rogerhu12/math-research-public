@@ -7,7 +7,7 @@
 - **普通复可分无限维Hilbert ISP未完成。** 仅全体有界算子的存在定理或完整反例算完成；继续所有未闭分支。
 - **最近实际pull / 已读规则提交：** `f3eb4bac533921bfcaa11becb44d7e9e68cccc3e`（2026-11-26 13:40:49 UTC，Actions实际pull）；两README无差异。每次pull且至少每小时检查diff并记SHA，规则blob为根282e86b03385d3b6245ce7100ae2e2af7b103c2d、课题fef43bdf8690f2eec4751d85784a266eacdd0322。
 - 私库QUEUE认领已推e776df496eedfa449b0475cefe140fdae7023db4。每结论单推；非快进即重取main/rebase并推到成功，不force，令牌仅CLI。
-- 本地执行09:19 UTC后unavailable，最后本地pull09:16:03 UTC；最近云端main/规则读取 `b0ce03b92b21b08dafeab40218a72e12e1e6bdbf`（2026-11-26 13:53:17 UTC）。API读取不冒充git pull；Actions继续实际partial clone/pull和3300秒规则检查。根用expected-head非force原子提交保并发，CLI恢复立即pull/rebase。
+- 本地执行09:19 UTC后unavailable，最后本地pull09:16:03 UTC；最近云端main/规则读取 `55a5a1be2f820bcc8b77e0a6420de4538942b8eb`（2026-11-26 13:57:06 UTC）。API读取不冒充git pull；Actions继续实际partial clone/pull和3300秒规则检查。根用expected-head非force原子提交保并发，CLI恢复立即pull/rebase。
 - 仅保源、参数、SHA、小回执；MD<100KB、H<10KB、open尽量<30KB、topic<200MB，不写根LOG。完整前H见[快照](notes/2026-11-26-handoff-before-h1-collision-exclusion-347c.md)及归档链，来源/旧费用不删除。
 - 继续unit211的L0补图/S0补图/generic、H3有限中心、R271真实稳定返回。已登记结论和失败旧门不重做，原全文见results索引/open快照。
 
@@ -26,7 +26,7 @@
 - L0只续b+c非零补图。p+q2对称三参数九式atlas2.851085秒完成，ρ投影43.769129秒完成；保(1,2)线性λ曲线W、(7,4)曲线G、(7,12)P1双零面及所有余交点。[W整曲线已闭](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-L0-linear-lambda-curve-exclusion.md)：λ有理参数保2w+1强迫单位与A零面，三原QQ w结式51/60/99的gcd51→16→0，扩展gcd实际回乘，0.406508秒/exit0。续G、双零及余交点；G及原P1双系数零的两张完整QQ必要理想新门已启动，只认实际I*C=1，Π保全部原单位并仅加已闭W。多变量gcd1不作无解。
 - [S0/Af0/L非零整层](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Af0-L-nonzero-complete-exclusion.md)已闭：四QQ投影、八因子20次、原z域全gcd1，109.926880秒；首项λ1/2/J3及旧碰撞已另付。P1双系数零与Lt0小J亦闭，Af两面保留，旧格式化失败不改成功。
 - **[S0/h1或k1整碰撞现闭](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-h1-k1-value-collision-complete-exclusion.md)：** 原λ二次谱4λ²−5λ+2，490.260824秒投影exit2仅五b值；同一d²=−7的全部10参数返回原P1/E1/EB，五原q域全gcd1，55/45/41/41/49真逆，0.156409秒/exit0（run45828523733/job139938856153）。不重跑490秒投影。
-- 续S0/Af非零的h=k及三值互异Lt0大因子；h=k首轮λhalf共享t真实族的执行失败留档，物理t0须用含孤立点的完整五列Gram秩2违反rank≥4，不能只用四列。[λhalf短证明现已登记](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-equal-values-lambda-half-exclusion.md)：15条原恒等式实际通过，t非零给W²0继而q0矛盾，t0由完整五列Gram排除。只启动2λ²=1余两谱；Lt0/g2=0原QQ投影43.666386秒完成但exit2：144次λ结式/squarefree43，五低谱已付，仅余不可约36次和唯一z(λ)。新整个72维K36[d]/(d²−Δ)原九式返回已启动，不假设二次塔不可约，不重跑43秒投影。
+- 续S0/Af非零的h=k及三值互异Lt0大因子；h=k首轮λhalf共享t真实族的执行失败留档，物理t0须用含孤立点的完整五列Gram秩2违反rank≥4，不能只用四列。[λhalf短证明现已登记](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-equal-values-lambda-half-exclusion.md)：15条原恒等式实际通过，t非零给W²0继而q0矛盾，t0由完整五列Gram排除。只启动2λ²=1余两谱；Lt0/g2=0原QQ投影43.666386秒/exit2后，最后36次谱的原72维返回实际4.738630秒/exit0；E1/EB结果式真逆已回乘，全部限定面闭合证明待登记。原二次塔不假设不可约，旧投影不重跑。
 - 一般LS非零的两线性Cramer四参数atlas已实际生成，原Δ0全部保留；仍未判空。旧mod1031内存和600秒失败不重跑。
 
 ### rankH3原ess6
@@ -49,7 +49,7 @@ M=kerT、N=closureBM；N=M未证。保同w/u、全部partial、真intersection�
 - 实际Riordan完整塔同一Sx≤s≤2Sx，Bφ/Bχ与原未加权重最小化给差≤3C0³min(√ε,√(μ/h))；保所有强位混合项与ΔF恢复原同u，仍趋P_Mf。F0/远孔32^N/最终MP未付。
 - [任意几何起点全部正远孔整行](results/R271-appendix-all-positive-far-hole-moving-coherent-rows-and-matched-source-cost.md)用ω²=S(x+p−1)/(pSx)保全部p≠q，常数Bλ；J≤2x逆权≤27J，原cut/同w及真有限头MP型全保。f−a_full的Γ²≤27μ1但锚趋0，不能移给有锚f/第二Green。
 - 旧τ14极快起点下有限全高度无权Bessel常数2早已付，只引用。新的任意几何/无限加权行不重做或替代该旧范围。[R=d全高度能量及原截断源全矩已证](results/R271-appendix-geometric-cutoffs-same-w-complete-energy-and-d-sized-once-mp.md)：H_C(8Sx)≤Hω；对任意同w∈M，P_xw的全部幂矩由真实行迭代、e^(−47d⁴)全carry误差及新整行Bessel支付。x=m+d,h=2d,Q=2d³、真帽cut数d³−5d全合法；旧K*=1+47616·2·512²一次MP原样接入，但−Cq1/后继CD†及完整最小源仍开。
-- 继续有锚来源的真实第二Green/核外残量；不能删(I−P_K)Gv或移用未知F0费用。
+- **[真实顺次MP的全部固定次数及同源慢增次数已付](results/R271-appendix-fixed-successive-actual-mp-common-variance-and-slowly-growing-depth.md)：** 共同s∈[c_kS,2c_kS]、c_k=2·512^(2k)下全部r≤k有K_(r|k)预算；完整telescoping终列Σ(−C)^pa⊗(D†)^pΩ保primitive反馈，中间孔数不增。任意同w∈M可选k_m→∞、k_m≤m/12，使修正/误差/真实−Cq_k平方可和且s_m→0。**实际终端k=h−1费用仍未付**，不能将近核列放入kerT或closureBM；继续同w层相关性和带锚第二Green，保(I−P_K)Gv。
 
 ## 其余开放
 
