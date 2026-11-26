@@ -553,3 +553,8 @@ open原28316B全文按链接层级移入open-before-fixed-E-and-K-only归档，�
 ## 2026-11-27｜R618实际全系数真帽口producer
 
 全文核23041B source与5978B说明，回查原R594/R602的amp种子、61+4基、10个post和amp²原force系数，AST/hash全合。输入前绑定实际model/response/全部r及完整源合同，全部j2…22归一、原canonical512/forced与新增所有Gaussian/方向逐项求和；零支撑只在原准确区间消费。七类源误差必须显式状态/证据，严格未付即拒，条件结果不授finite-body到准确germ接口误差为零。只源码审，未生成虚构已证合同或科学调用。
+
+
+## 2026-11-27｜R618同一固定E的实际双位置读出
+
+全文审17097B helper与3529B说明，四个原中心/前向一二差分、actual Y角导数及完整Xjets第一/第二形式和归一metric逐式核合；源AST/hash通过。消费已付当前fine并保持全部1728原r/N≥512，双h仅共享准确相同新查询；N4只供径向字典，实际mean/output primitive均同冻结函数，不调用旧随trial变E的geometry。帽积分常数仅从局部jets消去，未授全X/reach；root/alias/source/差分误差显式未付，无本地科学。

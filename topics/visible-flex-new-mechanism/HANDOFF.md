@@ -5,7 +5,7 @@
 
 ## 1. 授权、规则与继承
 
-公开本次实际pull且根/题README已读至 **4b91da739e9c242e311b7ff389ee8f1d78798492**；根/题规则相对继承0749a4cc仍为空差异。私库实际pull/根README已读至 **67ef1777c8910b9bfb7ccff27c1c9d832a5d373e**，2026-11-26 23:15:24 UTC空diff；下次不晚于2026-11-27 00:14 UTC。QUEUE唯一仍本会话进行中，原认领09f8b8b54e。
+公开本次实际pull且根/题README已读至 **e5b5cd4b9c32d64dd8d69d1f4b06a848377e0e9b**；根/题规则相对继承0749a4cc仍为空差异。私库实际pull/根README已读至 **67ef1777c8910b9bfb7ccff27c1c9d832a5d373e**，2026-11-26 23:15:24 UTC空diff；下次不晚于2026-11-27 00:14 UTC。QUEUE唯一仍本会话进行中，原认领09f8b8b54e。
 
 每次pull只读根/题README差异并记SHA，至少每小时；NFF/ref锁立即pull --rebase再推至成功。root独占git和四索引，每条结论即推；科学只公开Actions，本地只纸证/源码及原日志JSON/hash解析。根12不重放已付门；根15不存raw/可重算表，必要新场再生全计费。H<10KB/open<30KB/md<100KB；publisher活跃不改tracked。
 
@@ -33,7 +33,7 @@ actual694圈/1555峰/309work/1536角/trust.3003387451171875，新fine1390未获�
 
 [正常397续算](notes/2026-11-27-r613-actual397-normal-continuation-scope.md)run45909455678/job140214007842/source12e47b06，23:11:43 UTC启动；原950×256/1728×512/S奇1…127/完整QR-SVD/60步均不改。独立R618新路线冻结**这份397完整q/amp/H/原reconstruction**为唯一固定E，之后正常路径的新H/q不替换其目标。旧337/277及所有费用完整继承。
 
-R617有限pre+post刚性不授有限误差下界。R618已付同完整E/同均值根/全2J核心ζ/τ链；[完整height与chain](notes/2026-11-27-r618-complete-growing-post-fixed-metric-model.md)62836B/87fdb14d与17855B/0668d1af已审发布，保1129旧非mean和真到rc全平非齐次尾。实际response/r/θ/meanθ/model、原唯一restore与真tail_anchor身份已补齐。S→η/导数jets只在同根/primitive alias付清后成立，直接位置读出正在落实。[全尾均值分支/帽口积分纸界与helper](notes/2026-11-27-r618-true-tail-mean-anchor-bounds.md)已审发布，旧germ/M/ODE误差不能默认0；[实际模型全系数anchor](notes/2026-11-27-r618-current-model-tail-anchor-producer.md)已审发布；七类源误差须显式登记，严格模式未付即拒、条件模式不赋零。
+R617有限pre+post刚性不授有限误差下界。R618已付同完整E/同均值根/全2J核心ζ/τ链；[完整height与chain](notes/2026-11-27-r618-complete-growing-post-fixed-metric-model.md)62836B/87fdb14d与17855B/0668d1af已审发布，保1129旧非mean和真到rc全平非齐次尾。实际response/r/θ/meanθ/model、原唯一restore与真tail_anchor身份已补齐。S→η/导数jets只在同根/primitive alias付清后成立，[双直接位置读出](notes/2026-11-27-r618-same-fixed-metric-direct-position.md)已审发布，保所有原fine及双h；首actual397非零scope准备硬τ1/固定E，其余1472响应列完整求解。[全尾均值分支/帽口积分纸界与helper](notes/2026-11-27-r618-true-tail-mean-anchor-bounds.md)已审发布，旧germ/M/ODE误差不能默认0；[实际模型全系数anchor](notes/2026-11-27-r618-current-model-tail-anchor-producer.md)已审发布；七类源误差须显式登记，严格模式未付即拒、条件模式不赋零。
 
 ## 6. 原十九态：R625首终态与新规范坐标续算
 
