@@ -376,3 +376,8 @@
 ### 2026-11-27 02:43 Asia/Taipei — R1054 原最低列恒落Q核候选被p47否定
 - [R1054](results/R1054-original-lowest-CM-column-kernel-candidate-counterexample.md)：原p47安全j给K=(1−r)^−1j^−3的K15=23（run45874715945，两构造/全恒等式）；R1052使C_CM(b²)≠0，故实际最低列new投影不在Q核。排“全p恒落核”候选，不代指定DQv值非零，也不反驳另有p>C_*范围的命题。
 - 使用R1052的实际最低functional、R1045插值同构、负测试行T=b²和原D自伴/纯正δ核，把公开K15=23严格运输到原最低列；不是任意shadow反例。完整j/七项块仅stdout，结果只保存必要值23及source/run/hash。c_test不冒actual MW行，Q²不删；该候选停止，继续指定真实值。
+
+### 2026-11-27 03:01 Asia/Taipei — 原p47实际最低值专用公开请求
+- 新建 scripts/original_p47_actual_lowest_functional.py 与 notes/original-p47-lowest-functional-request.json、方法记录。仅p47原c=DQ(1−Q)λ，λ=−6(b+1)/r；先作完整a(b^p)/A² quotient，再核LT/(2rA′)与全部余式，保Q²。最低泛函以R1052留数、真实Z反演及全S trace三读，另核B(c,v)=0和原完整轮廓非零。
+- 课题外必要修改：新建 .github/workflows/serre-original-p47-lowest-functional.yml。使用独立路径触发，避免重触发已完成scalar窗；单job、纯Python，数学SIGALRM/循环120秒、outer5分钟。两README、源码、方法、原R1037/R1045/R1052及请求hash全部固定，stdout紧凑回执，无raw/artifact/Release。
+- 根已逐式纸核程序，未本地执行数学。02:50继续因宿主无可用执行环境而按根规矩8连接器同步main/两README无diff；最近真实pull仍01:48，未伪称已执行新pull。精简H旧闭合入口，完整来源保对应结果/open/归档。

@@ -1,0 +1,44 @@
+name: Serre original p47 lowest functional
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - topics/serre-uniformity/notes/original-p47-lowest-functional-request.json
+
+permissions:
+  contents: read
+
+concurrency:
+  group: serre-original-p47-lowest-functional-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  actual_lowest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/serre-uniformity/README.md
+            /topics/serre-uniformity/scripts/original_p47_actual_lowest_functional.py
+            /topics/serre-uniformity/notes/original-p47-lowest-functional-request.json
+            /topics/serre-uniformity/notes/2026-11-27-original-p47-lowest-functional-method.md
+            /topics/serre-uniformity/results/R1037-original-Hodge-graph-operator-and-primitive-MW-annihilator.md
+            /topics/serre-uniformity/results/R1045-original-MW-annihilator-nonzero-reduction.md
+            /topics/serre-uniformity/results/R1052-original-complete-CM-profile-and-actual-lowest-functional.md
+      - name: Compute the one original actual lowest functional
+        env:
+          PYTHONUNBUFFERED: '1'
+          PYTHONDONTWRITEBYTECODE: '1'
+          SERRE_EXPECTED_ROOT_README_SHA256: '581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102'
+          SERRE_EXPECTED_TOPIC_README_SHA256: '6ce1403bd2d2587bb9cca70bd0095a1264b1167fe2c4b62f0652ae671e6277a5'
+          SERRE_EXPECTED_PROGRAM_SHA256: 'f4ca20109a960de0b0f31e1bb0aa622feaadc0400125b69c4493304026d0ea59'
+          SERRE_EXPECTED_REQUEST_SHA256: '02a71c8d435bfadffe74f8ea511bc668a530c6cb572d90b8e1922d928b4427b4'
+        run: python topics/serre-uniformity/scripts/original_p47_actual_lowest_functional.py
