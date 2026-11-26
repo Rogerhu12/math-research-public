@@ -462,3 +462,5 @@
 - [R623同场有限垂直原函数与完整归一化余项](results/R623-exact-finite-vertical-primitive-with-normalization-remainder.md)：**已证明全角曲率充分接口**；实际C=v/√(1+v²)准确拆为四模式v和完整无限余项，前者逐频除m/四阶Bernstein全区间包围，后者全径向二jets用π周期11/14。完整水平/法向旋转/混合块与同q局部浸入下界保留，纯helper已审未科学执行，不授新K或宏观完成。
 
 - [R582正常279续算的真实14d1终态](notes/2026-11-27-r582-physical-pending279-original-terminal.md)：**数值改善但阶段未过**；新2375.001235837秒/9接受，11100×3072 η4.262265975e−5、物理V0，p仍.181。一次真实strip峰交换至296；末raw不合格、独立半步才接受。12完整Jac+6未闭块、全部15fine与费用保留，按2pending接298/11103新资格，不移用a237连续几何。
+
+- [R624自由中心端常数与唯一支明式输入](results/R624-free-center-terminal-constants-and-compatible-analytic-input.md)：**已证明必要关系与具体合法输入**；在声明首层真流量词下，真实8A/双速度返回且Bc>0必C0C2<0。完整中心二阶交叉式与准确参考矩给m41全程合法、动能>1/45的曲线族，原d端常数图有唯一q*且−Φ′/Bc>8。纯helper只近似评价该根，积分误差未证；不授沿途首层能量、真A末、固定εruling或闭pose。

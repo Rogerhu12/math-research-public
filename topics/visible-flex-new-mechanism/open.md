@@ -66,7 +66,7 @@ p未过约2.5e−7阶段门前不升级，目标仍p=.8、最终η≤1e−7。�
 
 ### 当前新输入与完整原门
 
-[R619](results/R619-free-center-leading-energy-and-true-memory-local-flow.md)给非prepared自由奇中心的真M首层局部流和准确C0从属关系；C1/C2始终全程常数，a0式含Qs Vc²，局部正则不授完整返回。新R624正在逐式支付一个兼容首层末能量常数的明确合法输入；它仍须原有限ε全程十九态、真实A末和两ruling，不能凭首层常数兼容授根。
+[R619](results/R619-free-center-leading-energy-and-true-memory-local-flow.md)给非prepared自由奇中心的真M首层局部流和准确C0从属关系；C1/C2始终全程常数，a0式含Qs Vc²，局部正则不授完整返回。[R624](results/R624-free-center-terminal-constants-and-compatible-analytic-input.md)已完整证明兼容首层末常数的唯一支合法输入及动能余量；原d、全部B″交叉项、真实参考矩和根稳定界均已付，纯helper的数值积分误差另列。后继R625正以原尾端加速度门提出乘cos²u的新增量，须新D/唯一q而不借旧输入；它仍须原有限ε全程十九态、真实A末和两ruling，不能凭首层常数兼容授根。
 
 [R620](results/R620-fixed-width-center-jet-gauge-chart.md)已付原有限ε的a0/j0/f0三角常规范图、完整M/六rho/正势的时间参数混合二jets，以及19rhs乘L/全部Jac。新原全反馈scope保10参数、左19真初值与末8A+双速度十行；拟接受状态由实际C² quintic h/k重新积分η、A、rho，并按同一物理L/三规范重装原两ruling。原存储历史只作配点变量，不替实际曲线。
 
