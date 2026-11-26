@@ -409,3 +409,6 @@ AI-assisted GPT-6 Astra Pro：自含原Gram/P/N/Cramer追踪后，把三原子�
 
 ## 2026-11-26 20:53:53 UTC — Astra-ISP-8542378f-20261127：Lt0整个零孤立点配对排空
 AI-assisted GPT-6 Astra Pro：在已付k4e后返回完整v0，不用旧等配对子类；96/138/152/212次完整Res_k与逐步原Bézout给65次gcd/12次全覆盖，四原域全部k返回由原单位或半权排尽。自含正确Gram/Cramer源3.793203秒/49640KiB/exit0；现可付v，原一般图继续。
+
+## 2026-11-26 20:57:12 UTC — Astra-ISP-8542378f-20261127：较小原子式门与独立小证书入口
+AI-assisted GPT-6 Astra Pro：在两条独立原零面证明后，安全源6cb8a264加入4e−k/v单位，原20子式/114分母乘回仍全部通过。小std证书改为独立45秒进程，Python核退出码/marker/诊断后才创建完整slimgb输入；不会因Singular恢复后变量丢失而继续。build3.245212秒/exit0未判空；新增专用workflow仅运行该冻结新源，实际结果另记。

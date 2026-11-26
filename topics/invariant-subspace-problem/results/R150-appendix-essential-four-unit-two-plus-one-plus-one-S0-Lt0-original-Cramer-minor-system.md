@@ -127,3 +127,11 @@ b03c51376eb3a972da6bbb05a523b1bacaf6290b81bb06eea094bd98df4f17d0
 准确事件顺序是：`liftstd(smoke,smokec,"modstd")` 尚未打印 smoke 通过，就先报 `no more memory`（虚拟地址约 8 GiB）和 `tasks.lib::waitTasks` 类型错误，随后 signal 11 尝试重启，smoke 变量丢失。进程后来打印完整门的 BEGIN 标志，至 1200 秒截止。**没有有效的小单位证书，也没有原系统的单位证书。** 不能将其记作一个已正常启动、只在最后超时的完整 Gröbner 计算；原数学归约不受影响，但此算法入口必须修正。
 
 [官方 liftstd 文档](https://www.singular.uni-kl.de/Manual/latest/sing_294.htm)明确列出 `"std"` 与 `"slimgb"`，并规定变换矩阵的原乘回身份。下一输入已经实质加入原孤立点完整 P/N 和 Cramer 原组合；旧七变量输入不重跑。
+
+## 6. 独立小证书的新执行入口及已闭的两个原零面
+
+[整条 k=4e](R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-mean-consistency-line-exclusion.md)和[整个 v=0](R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-zero-singleton-pairing-exclusion.md)已各自完成原方程证明，因此新门可合法剥除 4e−k，并把 v 加入单位乘积。原二十个子式的剩余因子全部保留，改写及所有原行乘回仍实际核验。
+
+[新自含安全入口](../notes/2026-11-27-unit211-S0-Lt0-original-Cramer-minors-safe-smoke-slimgb-QQ-8542.py)的 SHA 为 `6cb8a264fd87d7020c868784d76e01c2b6283d655f5c8fec92292870765007c2`。Python 先独立运行 45 秒/8 GiB 限额的 `std` 小单位进程，必须退出0、准确打印回乘通过且没有 Singular 错误诊断；未通过时完整输入文件不会写出，大门不会启动。通过后才运行完整 `slimgb`，1200 秒/8 GiB，仍必须真实 `matrix(I)*cert=[1]` 且退出0。
+
+[实际 build-only 回执](../notes/2026-11-27-unit211-S0-Lt0-original-Cramer-minors-safe-smoke-slimgb-QQ-build-execution-8542.json)为 exit0、3.245212 秒。完整输入 1,425,935 字节、SHA `5d20ee9a067136fdc2db4b4ca634b9e27c7769ee062cbd703102c6b4c7879dd8`，只在临时目录重算。专用 workflow `invariant-subspace-Lt0-original-minors-safe-8542.yml` 固定源提交/Git blob 并复用实际 pull/规则差异驱动；运行回执另记。此时仍未判整个 Lt0 为空。

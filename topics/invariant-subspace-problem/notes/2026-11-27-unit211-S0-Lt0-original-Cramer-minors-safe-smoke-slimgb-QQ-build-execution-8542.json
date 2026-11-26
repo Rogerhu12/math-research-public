@@ -1,0 +1,53 @@
+{
+  "schema": "r150-Lt0-original-Cramer-minors-safe-smoke-slimgb-build-v1",
+  "sourcePath": "notes/2026-11-27-unit211-S0-Lt0-original-Cramer-minors-safe-smoke-slimgb-QQ-8542.py",
+  "sourceSha256": "6cb8a264fd87d7020c868784d76e01c2b6283d655f5c8fec92292870765007c2",
+  "sourceBytes": 23057,
+  "pythonVersion": "3.12.14",
+  "pythonFlintVersion": "0.9.0",
+  "command": "PYTHONPATH=/workspace/scratch/8542378f2b73/isp_pydeps python topics/invariant-subspace-problem/notes/2026-11-27-unit211-S0-Lt0-original-Cramer-minors-safe-smoke-slimgb-QQ-8542.py --build-only",
+  "exitCode": 0,
+  "stdoutSha256": "236b5f3fbbf60d9471797d17af9f62f88867b6d479f3c53ea9e9d7332f679e80",
+  "stdoutBytes": 16594,
+  "lastStage": {
+    "stage": "build_only_complete",
+    "allOriginalTracesAndMinorsVerified": true,
+    "claimExcluded": false,
+    "seconds": 3.245211905999895
+  },
+  "generatedScript": {
+    "stage": "original_minor_QQ_input_built",
+    "variables": 4,
+    "nonSaturationGenerators": 20,
+    "scriptBytes": 1425935,
+    "scriptSha256": "5d20ee9a067136fdc2db4b4ca634b9e27c7769ee062cbd703102c6b4c7879dd8",
+    "coefficientDenominatorChecks": 114,
+    "saturationAtoms": [
+      "u-1",
+      "Q/(u-1)",
+      "u",
+      "ell*k",
+      "bc",
+      "closed_half_weight",
+      "T0",
+      "distinct_p_q",
+      "closed_base_zero",
+      "closed_consistency_line",
+      "closed_zero_singleton_pairing"
+    ],
+    "smokeInIndependentProcess": true,
+    "smokeTimeoutSeconds": 45,
+    "smokeScriptSha256": "45fdb64c032d31a0cd29a8b29f0fef094e8763e13b66a1aed0923b78ed82faaf",
+    "smokeAlgorithm": "std",
+    "fullAlgorithm": "slimgb",
+    "noModstdLibraryOrParallelTasks": true,
+    "zeroPairingPaidBy": "2026-11-27-unit211-S0-Lt0-zero-singleton-pairing-return-8542.py",
+    "consistencyLinePaidBy": "2026-11-27-unit211-S0-Lt0-mean-consistency-degenerate-line-return-8542.py",
+    "omittedEtaDependentUnitsEnlargeNecessaryVariety": true,
+    "sourceSha256": "6cb8a264fd87d7020c868784d76e01c2b6283d655f5c8fec92292870765007c2",
+    "claimExcluded": false,
+    "seconds": 3.2451498020000145
+  },
+  "singularActuallyRun": false,
+  "claimExcluded": false
+}
