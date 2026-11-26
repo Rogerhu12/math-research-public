@@ -1,0 +1,22 @@
+{
+  "schema": "visible-larger-public-research-request-v1",
+  "request_id": "visible-larger-resume-20261126-02",
+  "rules_read_commit": "a5f108f99d3ac7b77721049d89c59532971bf9d8",
+  "rules_sha256": {
+    "README.md": "581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102",
+    "topics/visible-flex-larger-amplitude/README.md": "3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d"
+  },
+  "recipe": "topics/visible-flex-larger-amplitude/scripts/resume_20261120/rebuild_a04_chain.py",
+  "stop_after": "continue",
+  "followup_file": "topics/visible-flex-larger-amplitude/computations/resume-20261126-followups-02.json",
+  "controller_budget_seconds": 20000,
+  "continuation_purpose": "Rebuild only the necessary genuine complete deep-parent ancestry for the new full nonlinear SO3/unit-meridian representation with free core and H. This independent job keeps research progressing beyond the first hosted-job clock. No registered conclusion, raw checkpoint or geometry certificate is imported from a hash. The first deep/Haar continuation remains active in its separate job.",
+  "prior_run_id": "45762076394",
+  "actual_input_reconstruction_only_until_new_source_appended": true,
+  "new_numerical_dependency": {
+    "torch": "2.5.1",
+    "device": "CPU",
+    "dtype_for_new_solver": "float64",
+    "official_install_source": "https://pytorch.org/get-started/previous-versions/"
+  }
+}

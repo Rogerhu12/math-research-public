@@ -4,7 +4,7 @@
 
 ## 规则与完整目标
 
-最近规则核查：2026-11-26，真实pull/rebase至 `2abbe1972672a3b1c34b36c104457d03da41cfc8`，根及课题README相对f0548477无差异，已完整读授权及规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
+最近规则核查：2026-11-26，真实pull/rebase至 `e0487116bc6b0206b7c39e279f3a2932ff37f47d`，根及课题README相对f0548477无差异，已完整读授权及规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
 
 科学计算仅本公开仓库Actions；早前本地偏差及13:00 UTC纠正见[执行记录](notes/2026-11-20-public-actions-execution-correction.md)。根README已授权必要修改/发布；root唯一分支写者；代理只scratch及未引用小源blob。每条结论普通commit/push；NFF立即pull --rebase循环再推，不强推。至少每小时pull，每次核双README差异/立即遵新规并记commit。raw只scratch/runner，不入Git/Release/artifact；只保完整小源/参数/run/SHA/紧凑结论。题≤200MB，MD<100KB，H<10KB，open<30KB。令牌只瞬时CLI，不写文件/提交/回复。
 
@@ -18,19 +18,11 @@ R653准确quarter；R654完整H²尺度；R655付原node/mid盲空间，故旧18
 
 .992/.025是当前算法必要点screen，不是reach证明；所有历史/新发现位置在每次新场真实复读。纯位置新入口只去任意100KB限和round13合并，保每个不同binary点；不删目标行/变量/范数。
 
-## 旧运行的真实末父与边界
+## 旧结论、边界与复现
 
-[旧run终态](notes/2026-11-26-actual-actions-terminal-and-geometric-scope.md)：solver44758209061实际成功退出，geometry44772201880到硬限取消，旧完整K/raw未返回，不能当仍running或用SHA造数据。3ef8/7fd/独立756的完整数值、范围及全部失败保 [e67d4a23交接](https://github.com/Rogerhu12/math-research-public/blob/e67d4a23c43271846dc52688fa6509da4d93a928/topics/visible-flex-larger-amplitude/HANDOFF.md)及其原链，不重做。7fd严格metric lower>.01195，不能靠证书加密变合格；所有旧first/非平面/幅度/K不跨场。当前真实分支父见下。
+完整证明见[results](results.md)。旧run/3ef8/7fd/756、R650–685适用条件、所有旧失败和未返及完整来源保[36cd完整H](https://github.com/Rogerhu12/math-research-public/blob/36cd9baa89bd93944d5fd338aff36fc6b49e97f0/topics/visible-flex-larger-amplitude/HANDOFF.md)及其0cd/28c/e67前链，不重做。solver44758209061已exit0、geometry44772201880已硬限取消，旧全K/raw未返，不能用SHA造数据。7fd严格metric lower>.01195；旧场first/非平面/幅度/K不跨场，R648/651/652仅开放prefix。全部六jet/无限尾/QP/J/原范数/全C/父测度与同场证书责任保留。
 
-## 已证结果与当前源
-
-完整证明见[results](results.md)；R650–685逐条适用条件、全部旧失败/未返及源定位保[0cd完整交接](https://github.com/Rogerhu12/math-research-public/blob/0cd0481d1a36d1d342be6423db29d9dbe2d0a86d/topics/visible-flex-larger-amplitude/HANDOFF.md)及其5a7/80f前链。全六jet/无限尾、完整QP/J/原范数/全部C、共同父测度与同场证书责任不删除；有限typed筛不冒连续几何，iteration_limit不冒驻点，零步不冒精化。原源resume_20261120/，新源resume_20261126/。
-
-## 复现与不重做
-
-rebuild_a04_chain.py保60321451c/b4d2b98完整链；Python3.12.14/NumPy2.3.5/SciPy1.17.0/单BLAS。旧warm/Gauss盲点/blend/高K/cap16/0241等已登记边界保下列H及原记录，不重做。R648/651/652仅开放prefix。十四次raw普通移出保源/输入/历史恢复见[容量记录](notes/2026-11-20-resume-raw-retention.md)，不改历史。
-
-旧完整逐项边界保[28c855a0交接](https://github.com/Rogerhu12/math-research-public/blob/28c855a0591a398a1aae55663c37801165194e38/topics/visible-flex-larger-amplitude/HANDOFF.md)及其前链；所有未付责任继续，不等确认。
+rebuild_a04_chain.py保60321451c/b4d2b98完整必要输入链，Python3.12.14/NumPy2.3.5/SciPy1.17.0/单BLAS；旧warm/Gauss盲点/blend/高K/cap16/0241边界均在上链。原源resume_20261120/，新源resume_20261126/。十四次raw普通移出保全部小源/参数/历史恢复见[容量记录](notes/2026-11-20-resume-raw-retention.md)，不改历史。finite typed不冒连续几何、iteration_limit不冒驻点、零步不冒精化。
 
 ## 2026-11-26实际接手与紧接工作
 
@@ -57,6 +49,10 @@ R691[末端相容/Haar角矩](results/R691-frozen-physical-mean-endjet-and-mater
 R692[完整旋转连接](results/R692-nonlinear-rotation-connection-and-metric-error.md)已证：经典连接类全MC/周期势、帽和闭圈、无1/c双积分Gram界及全J/J*；C²仅端口，不推所有弱类或非圆存在。新全SO3候选/core/H闭合与实际求解继续，端点lift不冒E恒1。
 
 环境更换/部分克隆/未刊源完整字节恢复见log及113e；不冒已刊或新科学。
+
+<!-- visible-larger-parallel-02:start -->
+独立公开Actions02请求与完整编排已刊，待真实run回填；只再生新SO3必需父链，旧结论/证书不重宣。见[独立运行说明](notes/2026-11-26-independent-public-nonlinear-continuation.md)。
+<!-- visible-larger-parallel-02:end -->
 
 ## 当前公开Actions执行
 
