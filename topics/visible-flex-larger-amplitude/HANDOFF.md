@@ -6,7 +6,7 @@
 
 最近规则核查：2026-11-26 17:49:44 UTC，真实pull/rebase至 `4ef11ccb1c1510bced9f7ebaac624248dae9c544`，双README相对`76d1f7385a28fcd11f3bc3c38e146f35124f6736`无差异，授权及规矩继续执行。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
 
-科学计算仅本公开仓库Actions；早前本地偏差及纠正见[执行记录](notes/2026-11-20-public-actions-execution-correction.md)。root唯一分支写者；代理只scratch及未引用小源blob。每条结论普通commit/push，NFF立即pull --rebase循环再推，不强推。至少每小时pull，每次核双README差异/立即遵新规并记commit。raw只scratch/runner，不入Git/Release/artifact；保完整小源/参数/run/SHA/紧凑结论。题≤200MB、单文件<5MB、MD<100KB、H<10KB、open<30KB。令牌仅瞬时CLI。终端迁移中于17:55 UTC失联，未提交新参数仅留0-byte文件；最后真实pull仍见上文。当前云API读583635f3668e3d72e5388b0e28cdaba115a333c3双README blob与4ef11相同；API普通快进补刊，未伪称新pull。
+科学计算仅本公开仓库Actions；早前本地偏差及纠正见[执行记录](notes/2026-11-20-public-actions-execution-correction.md)。root唯一分支写者；代理只scratch及未引用小源blob。每条结论普通commit/push，NFF立即pull --rebase循环再推，不强推。至少每小时pull，每次核双README差异/立即遵新规并记commit。raw只scratch/runner，不入Git/Release/artifact；保完整小源/参数/run/SHA/紧凑结论。题≤200MB、单文件<5MB、MD<100KB、H<10KB、open<30KB。令牌仅瞬时CLI。终端迁移中于17:55 UTC失联，未提交新参数仅留0-byte文件；最后真实pull仍见上文。当前云API读a5d0922f3cb1576f1617da4b70ae59424bca1342双README blob与4ef11相同；API普通快进补刊，未伪称新pull。
 
 
 目标：同一固定g、闭连通C²嵌入、全t强C²连续；固定有内点H且diamH≥.2D、整像δhold≥.2D、含反射δE>0；全t reach≥.03D、整面relative metric≤1e−6；固定g/参数/范围的真实mesh和频率精化至机器或原求解容差，多t可复现网格，准确说明严格存在缺口。D为完整F0直径。R248准确相位恒等式处理全t，不新增独立t插值门。有限误差/开放片/障碍不完成。
@@ -29,7 +29,7 @@
 
 [14–16](notes/2026-11-26-zero-initial-endpoint-replay-and-moment-input.md)保原轨迹及18字固定05dc；[19–20](notes/2026-11-26-actual-fixed-moment-Q-initial-failure-19-20.md)同初点/H角5失败，无场/Phi/J，不推不存在。[轴端同族](notes/2026-11-26-zero-endpoint-axis-planar-control-equivalence.md)：phi0/zy0无球时新旧Q恰同两Ry形状，球是不同椭圆；一般角无共同右线性映射，非全可达像比较。[支撑实际23](notes/2026-11-26-actual-03b-supported-chord-pass.md)三补段/全尾/全角必要surplus严格负，叶精度未达但外包保；原H通过必要式，不证有限根存在，也不据此改H。
 
-[同原方程延拓](notes/2026-11-26-same-endpoint-residual-continuation.md)完整3f37/613d/9649/e57e/a0c9/cc28：[实际28/29](notes/2026-11-26-actual-zero-residual-continuation-28-and-reader29-failure.md)28已消费五manifest，a244/73a9，lambda约.8343未到1/149拒，最终原C未读、初场失败。29纯读取exit1/no输出独立登记。原ef017诊断已排，尚不猜trace；[pure v2](notes/2026-11-26-continuation-reader-v2-short-snapshot-contract.md)75f4只修短snapshot三不存在键，完整metadata全部守卫不变，尚未实际返回。
+[同原方程延拓](notes/2026-11-26-same-endpoint-residual-continuation.md)3f37/9649的28真失败a244/73a9，lambda约.8343未到1、原最终C未读。[实际31/32](notes/2026-11-26-actual-continuation-failure-and-reader-repair-31-32.md)原ef017 trace确认29为KeyError endpoint_continuation_policy；75f4 pure-v2成功读原a244失败，224attempt/75accept/149reject/1030Newton，失败角0,1,3,4,7，无成功根/场/implicit。末Cz奇异值未读，不能由null推折叠或不存在。
 
 [实际Jstar字初点](notes/2026-11-26-actual-Jstar-height-same-target-new-initial-point.md)只改末H，34真失败maxC .013491829/control .453940134，35 pure成功、无场/Phi。[完整gamma源](notes/2026-11-26-added-gamma-complete-KKT-operator.md)b712/0c488/5134/e092/42c0保六控制/九KKT/27角jet/四阶链；36真失败lambda .86109–.861156、140拒，原最终KKT未读/0成功根，未知末C/Ksigma，37未准入。准备gamma+显式H与法向选枝，未有新结果。[05完整必要输入及历史](notes/2026-11-26-live-run03b-height-gamma-and-run05-history.md)45870334713已起，原3/17/21/26真实依赖已排、30须续；新schema/raw不免同g永久点，逐位一致不得仅由同命令推断。
 

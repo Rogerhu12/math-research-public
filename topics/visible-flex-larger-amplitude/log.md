@@ -168,3 +168,8 @@ API首次快进因HEAD并发变动未成；已真实读取572ec0d375c2e08471b372
 [完整实际结论](notes/2026-11-26-actual-direct-integral-second-direction-30-33.md)：真655d→fd3f8c/7212a1，同606/c06a/6ffc，全1333370变量，Phi197.58458→189.95031/max .501279055，alpha1/32、有限g负、全1843/1771点双支。QP64 iteration_limit非驻点；大步真几何拒的family/地点未公开归因。Root亲读公开30/33及全部数值来源；H压索引、固定50239保完整前文，反映34–36真失败/37未执行边界，详细归因另刊。无本地科学。
 
 上一H解析日志18:04是准备标签；实际普通快进50239发生于18:07 UTC。临时目录迁移完成状态仍未知，未宣称终端恢复。
+
+
+### 2026-11-26 18:15:41 UTC — 真实31/32诊断与pure-v2完整读取
+
+[完整实际归因](notes/2026-11-26-actual-continuation-failure-and-reader-repair-31-32.md)：原ef017亲读真实29日志bc8ce，KeyError endpoint_continuation_policy的完整调用链已证；75f4 v2真实成功并原样保a244科学失败。224stage/75accept/149reject/1030Newton，八literal角与五失败索引分开，原lambda1/C验收未读、无成功根/场/implicit。三索引缺项仅因失败列表五项，不补零/不造Cz奇异值。Root已全文核note及实际31/32公开compact，未重跑科学。
