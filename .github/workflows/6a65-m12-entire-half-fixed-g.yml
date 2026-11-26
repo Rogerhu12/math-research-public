@@ -1,0 +1,224 @@
+name: 6a65 M12 entire half fixed-g finite cold run
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/6a65-m12-entire-half-fixed-g.yml
+      - topics/visible-flexible-closed-surface/ci-requests/6a65-m12-entire-half-fixed-g.json
+  workflow_dispatch:
+    inputs:
+      iterations:
+        description: LSMR iterations for the full true-cuff half
+        required: true
+        default: "800"
+      newton:
+        description: Complete nonlinear updates with the original fixed g
+        required: true
+        default: "1"
+permissions:
+  contents: write
+jobs:
+  entire-half:
+    if: github.repository == 'Rogerhu12/math-research-public'
+    runs-on: ubuntu-latest
+    timeout-minutes: 55
+    env:
+      OPENBLAS_NUM_THREADS: "1"
+      OMP_NUM_THREADS: "1"
+      M12_RECOVERY_TOKEN: ${{ github.token }}
+    steps:
+      - name: Set the runner temporary directory
+        shell: bash
+        run: |
+          set -euo pipefail
+          printf 'M12_COLD_DIR=%s/visible-flex-m12-entire-half-%s-%s\n' "$RUNNER_TEMP" "$GITHUB_RUN_ID" "$GITHUB_RUN_ATTEMPT" >> "$GITHUB_ENV"
+      - name: Partially clone the frozen trigger source
+        shell: bash
+        run: |
+          set -euo pipefail
+          git clone --filter=blob:none --no-checkout --depth=1 "https://github.com/$GITHUB_REPOSITORY.git" "$GITHUB_WORKSPACE"
+          cd "$GITHUB_WORKSPACE"
+          git sparse-checkout set --no-cone '/README.md' '/topics/visible-flexible-closed-surface/'
+          git fetch --filter=blob:none --depth=1 origin "$GITHUB_SHA"
+          git checkout --detach "$GITHUB_SHA"
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install numerical runtime
+        run: python -m pip install numpy==2.3.5 scipy==1.17.0
+      - name: Read the complete true-cuff finite request
+        env:
+          M12_DISPATCH_ITERATIONS: ${{ inputs.iterations }}
+          M12_DISPATCH_NEWTON: ${{ inputs.newton }}
+        run: |
+          python - <<'PY'
+          import json,os
+          from pathlib import Path
+          p=Path('topics/visible-flexible-closed-surface/ci-requests/6a65-m12-entire-half-fixed-g.json')
+          request=json.loads(p.read_text())
+          values={key:int(request[key]) for key in ('prefix_elements','tail_elements','tail_depth','order','angular','gauss','iterations','newton','block')}
+          for key in ('iterations','newton'):
+              override=os.environ.get('M12_DISPATCH_'+key.upper())
+              if override:values[key]=int(override)
+          if request.get('original_metric_unchanged') is not True or request.get('true_flat_cuff_included') is not True:
+              raise ValueError('This workflow requires the original full true-cuff scope')
+          if not 1<=values['iterations']<=20000 or not 1<=values['newton']<=20:raise ValueError('Invalid finite iteration request')
+          if not 20<=values['prefix_elements']<=1000 or not 20<=values['tail_elements']<=1000:raise ValueError('Invalid radial request')
+          if not 8<=values['tail_depth']<=40 or not 8<=values['order']<=128:raise ValueError('Invalid source/basis request')
+          if not 4<=values['gauss']<=16 or values['angular']<=2*(3*values['order']+1):raise ValueError('Aliased finite grid request')
+          if not 1<=values['block']<=64:raise ValueError('Invalid streaming block')
+          with Path(os.environ['GITHUB_ENV']).open('a') as output:
+              for key,value in values.items():output.write('M12_'+key.upper()+'='+str(value)+'\n')
+          print(json.dumps({**values,'fixed_original_metric':True,'finite_numerical_only':True,
+                            'scope':'Full original half: central trace, prefix, bridge, finite tail, deep collar, true flat cuff. The radius-.6 interface is free.'}))
+          PY
+      - name: Recover and verify the original prefix blob
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p "$M12_COLD_DIR"
+          python - <<'PY'
+          import os,urllib.request,json,base64,hashlib
+          from pathlib import Path
+          blob='26ce0426c60ef868c53597a82252e0559c1cc21e'
+          expected='359d491cd592962d467fdd538013977ee9a92070346de41c227d9ca3e1ef3bd0'
+          headers={'User-Agent':'M12-entire-half-fixed-g-cold-run','Accept':'application/vnd.github+json'}
+          token=os.environ.get('M12_RECOVERY_TOKEN')
+          if token:headers['Authorization']='Bearer '+token
+          url='https://api.github.com/repos/Rogerhu12/math-research-public/git/blobs/'+blob
+          with urllib.request.urlopen(urllib.request.Request(url,headers=headers),timeout=60) as response:payload=json.load(response)
+          if payload['sha']!=blob or payload['encoding']!='base64':raise ValueError('Wrong source blob')
+          raw=base64.b64decode(payload['content'])
+          if len(raw)!=3112330 or hashlib.sha256(raw).hexdigest()!=expected:raise ValueError('Wrong original M12 prefix')
+          if hashlib.sha1(b'blob '+str(len(raw)).encode()+b'\0'+raw).hexdigest()!=blob:raise ValueError('Wrong Git framing')
+          (Path(os.environ['M12_COLD_DIR'])/'m12-prefix-data.npz.gz').write_bytes(raw)
+          print(json.dumps({'prefix_blob':blob,'prefix_sha256':expected,'bytes':len(raw)}))
+          PY
+      - name: Run exact tail queries and the whole-half finite Cartesian solve
+        shell: bash
+        run: |
+          set -euo pipefail
+          python topics/visible-flexible-closed-surface/scripts/6a65-m12-entire-half-cold-run.py \
+            --data "$M12_COLD_DIR/m12-prefix-data.npz.gz" \
+            --directory "$M12_COLD_DIR/entire-half" \
+            --prefix-elements "$M12_PREFIX_ELEMENTS" --tail-elements "$M12_TAIL_ELEMENTS" --tail-depth "$M12_TAIL_DEPTH" \
+            --order "$M12_ORDER" --angular "$M12_ANGULAR" --gauss "$M12_GAUSS" \
+            --iterations "$M12_ITERATIONS" --newton "$M12_NEWTON" --block "$M12_BLOCK" \
+            | tee "$M12_COLD_DIR/entire-half-cold.log"
+      - name: Write only a compact identity receipt
+        if: always()
+        shell: bash
+        run: |
+          python - <<'PY'
+          import hashlib,json,os
+          from pathlib import Path
+          base=Path(os.environ['M12_COLD_DIR']);base.mkdir(exist_ok=True)
+          files={}
+          for p in sorted(base.rglob('*')):
+              if p.is_file():
+                  digest=hashlib.sha256()
+                  with p.open('rb') as source:
+                      for block in iter(lambda:source.read(1048576),b''):digest.update(block)
+                  files[str(p.relative_to(base))]={'sha256':digest.hexdigest(),'bytes':p.stat().st_size}
+          receipt={'head':os.environ['GITHUB_SHA'],'run_id':os.environ['GITHUB_RUN_ID'],
+                   'scope':'The entire original M12 half through the true flat cuff; internal radius-.6 seam is free.',
+                   'finite_numerical_only':True,'exact_isometry_proved':False,'files':files}
+          (base/'cold-receipt.json').write_text(json.dumps(receipt,indent=2)+'\n')
+          print(json.dumps(receipt,indent=2))
+          PY
+      - name: Publish the scalar result and this job's own rules marker
+        if: always()
+        shell: bash
+        env:
+          M12_JOB_STATUS: ${{ job.status }}
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import hashlib,json,os,subprocess
+          from pathlib import Path
+          root=Path('topics/visible-flexible-closed-surface');cold=Path(os.environ['M12_COLD_DIR']);cold.mkdir(exist_ok=True)
+          run=os.environ['GITHUB_RUN_ID'];attempt=os.environ['GITHUB_RUN_ATTEMPT']
+          source_head=subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip()
+          report_path=cold/'entire-half/entire-half-result.json';receipt_path=cold/'cold-receipt.json'
+          execution_path=cold/'entire-half/entire-half-cold-execution.json'
+          observed=json.loads(report_path.read_text()) if report_path.exists() else None
+          receipt=json.loads(receipt_path.read_text()) if receipt_path.exists() else {}
+          execution=json.loads(execution_path.read_text()) if execution_path.exists() else None
+          record={'source_head':source_head,'run_id':run,'run_attempt':attempt,
+                  'job_status_before_publication':os.environ['M12_JOB_STATUS'],
+                  'scope':'Original fixed-g central-to-true-cuff half, including prefix, bridge, finite tail and deep collar; radius .6 is an unconstrained interior interface.',
+                  'whole_half_execution_completed':bool(execution and execution.get('finished')),
+                  'finite_numerical_only':True,'exact_isometry_proved':False,'whole_family_reach_certified':False,
+                  'regeneration':'Run this workflow at the same source commit and request. Known public blobs and checked source hashes regenerate every temporary array.',
+                  'raw_retention':'RUNNER_TEMP only. No raw Git, release, or artifact publication.',
+                  'receipt':receipt,'execution':execution,'scalar_observation':observed}
+          target=root/'notes'/('2026-11-26-6a65-m12-entire-half-ci-'+run+'-'+attempt+'.json')
+          raw=(json.dumps(record,indent=2,allow_nan=False)+'\n').encode()
+          if len(raw)>100000:raise ValueError('Scalar receipt unexpectedly exceeds 100 KB')
+          target.write_bytes(raw);(cold/'publish-path.txt').write_text(str(target)+'\n')
+          print(json.dumps({'publish_path':str(target),'bytes':len(raw),'sha256':hashlib.sha256(raw).hexdigest()}))
+          PY
+          export GIT_TERMINAL_PROMPT=0
+          export GIT_CONFIG_COUNT=2 GIT_CONFIG_KEY_0=credential.helper GIT_CONFIG_VALUE_0='' GIT_CONFIG_KEY_1=credential.helper
+          export GIT_CONFIG_VALUE_1='!f() { printf "username=x-access-token\npassword=%s\n" "$M12_RECOVERY_TOKEN"; }; f'
+          git config user.name "Astra-visible-flex-6a65"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          report_path="$(cat "$M12_COLD_DIR/publish-path.txt")"
+          handoff_path="topics/visible-flexible-closed-surface/HANDOFF.md"
+          export M12_CI_SUBJECT="Record M12 entire-half fixed-g scalar run ${GITHUB_RUN_ID} attempt ${GITHUB_RUN_ATTEMPT}"
+          git add -- "$report_path"
+          git commit -m "$M12_CI_SUBJECT"
+          while true; do
+            before="$(git rev-parse HEAD)"
+            if ! git pull --rebase origin main; then
+              conflicts="$(git diff --name-only --diff-filter=U)"
+              if [ "$conflicts" != "$handoff_path" ]; then
+                echo "Rebase conflict is not confined to this job's HANDOFF marker; root must resolve it."
+                exit 43
+              fi
+              git show ":2:$handoff_path" > "$M12_COLD_DIR/handoff-upstream.txt"
+              cp "$M12_COLD_DIR/handoff-upstream.txt" "$handoff_path"
+              git add -- "$handoff_path"
+              GIT_EDITOR=true git rebase --continue
+            fi
+            export M12_RULES_READ_SHA="$(git rev-parse origin/main)"
+            export M12_RULES_STATE="README unchanged"
+            if ! git diff --quiet "$before" HEAD -- README.md topics/visible-flexible-closed-surface/README.md; then
+              export M12_RULES_STATE="README changed; root review pending"
+            fi
+            python - <<'PY'
+          import os
+          from pathlib import Path
+          path=Path('topics/visible-flexible-closed-surface/HANDOFF.md')
+          lines=path.read_text().splitlines(keepends=True);marker='<!-- 6a65-m12-entire-half-ci-rules -->'
+          hits=[i for i,line in enumerate(lines) if line.startswith(marker)]
+          if len(hits)>1:raise ValueError('Ambiguous own HANDOFF marker')
+          line=(marker+' '+os.environ['M12_RULES_STATE']+' at '+os.environ['M12_RULES_READ_SHA']+
+                '; run '+os.environ['GITHUB_RUN_ID']+' attempt '+os.environ['GITHUB_RUN_ATTEMPT']+'.\n')
+          if hits:lines[hits[0]]=line
+          else:
+              if lines and not lines[-1].endswith('\n'):lines[-1]+='\n'
+              lines.append(line)
+          path.write_text(''.join(lines));print(line,end='')
+          PY
+            if [ "$M12_RULES_STATE" != "README unchanged" ]; then
+              git diff "$before" HEAD -- README.md topics/visible-flexible-closed-surface/README.md
+              echo "Root must read and apply this README diff before publishing the pending receipt and marker."
+              exit 42
+            fi
+            git add -- "$handoff_path"
+            if ! git diff --cached --quiet; then
+              if git merge-base --is-ancestor HEAD origin/main; then
+                git commit -m "$M12_CI_SUBJECT"
+              else
+                if [ "$(git log -1 --format=%s)" != "$M12_CI_SUBJECT" ]; then
+                  echo "Refusing to amend a commit that this job did not create."
+                  exit 44
+                fi
+                git commit --amend --no-edit
+              fi
+            fi
+            if git push origin HEAD:main; then
+              break
+            fi
+          done
