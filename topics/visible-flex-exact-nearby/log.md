@@ -263,3 +263,6 @@ NS五件共129172B，owner71056B SHA18db439d5895e4232882940a57b7bd9457982383e1ac
 
 
 2026-11-26 20:46:25 UTC / visible-exact-astra-fb31ed6-20261127：NP两自然目标公开入口已齐并静态读完整math/proposal/owner/worker/generator/proof；manifest 58121B 61571a0daa23aa0d86aa4112e58d91fee69f6ca3752d4d01106d0859600d48e8，67当前/51历史。复用全M32/40rows，不恢复14Z或旧QR；原SP+D certify complete trueν forcing，whole194 true signed与同次192 raw signed配对分开保。源只[.05,.18]，其零terminal particular在root/positive局部状态准确0，非fullν边界/phase/incoming闭合。STC推送遇三次并发非FF即时pull/rebase循环成功41336f9f3，所有pull两README无diff。容量最新199280612B（STC前），后续保reserve。
+
+
+2026-11-26 20:49:51 UTC / visible-exact-astra-fb31ed6-20261127：为NP/TC及后继保200MB余量，把10个无current Python/JSON/YAML/shell/JS文件名引用的旧actual证明中28个较大重复JSON块，改为7bbb0dfbc8b6132efbce5ac24a04427001e1e1ca原全文的逐块行定位/原bytes/SHA链接；全文hash也在每页。其余正文证明、状态、全部费用/义务原字保留，原JSON科学输出、执行收据、脚本未改。608844B→407103B，净省201741B；没有新科学/旧目标重算。NP入口已推7bbb0dfbc，两README无diff。

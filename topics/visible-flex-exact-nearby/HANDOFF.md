@@ -1,11 +1,11 @@
 # 交接：可见振幅的精确闭等距族
 
-维护会话：visible-exact-astra-fb31ed6-20261127；更新：2026-11-26 20:46:25 UTC。
+维护会话：visible-exact-astra-fb31ed6-20261127；更新：2026-11-26 20:49:51 UTC。
 **总任务未完成，持续研究，不等用户回复。**
 
 ## 已读规则、授权与接续
 
-2026-11-27（台北）已 partial+sparse clone 两仓库并 pull main，读根全部规矩、课题README、H/open、当前log及接续notes。公开根/topic规则已读至41336f9f3643b3af13fe9b096691f3c24b0bb140（相对12385db35无diff）；私库根规则已核至e9b71a39b014d0f9513cbec3d7191afee707a549，QUEUE接手已推594e561b05a758bd8c02840ca4fbf574cd707436。每次pull核两README差异、至少每小时一次，非FF立即rebase再推。令牌只CLI。当前本地 /workspace/scratch/fb31ed637c77/math-research-public，无AGENTS。
+2026-11-27（台北）已 partial+sparse clone 两仓库并 pull main，读根全部规矩、课题README、H/open、当前log及接续notes。公开根/topic规则已读至7bbb0dfbc8b6132efbce5ac24a04427001e1e1ca（相对12385db35无diff）；私库根规则已核至e9b71a39b014d0f9513cbec3d7191afee707a549，QUEUE接手已推594e561b05a758bd8c02840ca4fbf574cd707436。每次pull核两README差异、至少每小时一次，非FF立即rebase再推。令牌只CLI。当前本地 /workspace/scratch/fb31ed637c77/math-research-public，无AGENTS。
 科学计算用公开Actions；本地可做证明、静态与metadata。根规12取消额外防错审批/独立全件复核流程；新完整证明直接登记，每结论推送。规15保持topic≤200MB、H<10KB，禁止新增可重建大数组。前会话完整H/open以27c422943同路径为准，递归原件与全部范围、失败和未付义务仍在历史，以下不重做旧成功。
 
 ## 同一对象与最终标准
@@ -30,7 +30,7 @@ geometry43584188751/26仅在同η0全core含帽物理C0≤1e−4、|δν|≤1e�
 - [common source4](results/R149-supplement-actual-common-high-WPN-source-unit-ball.md)45783842857/1：完整4/4真24480投影及state outermean，大界不授smallness。
 - [RW actual](results/R149-supplement-actual-reflected-finite-waist-rows.md)45787309600/1：96/480完整，a=2H(0)、signed mean/alias/tail；非PDE列/Θ/fullSchur。[JC实际七球](results/R149-supplement-actual-joint-compound-waist-row-error.md)45887337009/1完整true：联合96行误差<8.556891e−5、同伦lower>.9836159091670；SC只消费整件，不重JC。
 - 旧C0/CP11、7721 forward、R143/R146完整actual及所有false/unknown逐字保[41336f9原H](https://github.com/Rogerhu12/math-research-public/blob/41336f9f3643b3af13fe9b096691f3c24b0bb140/topics/visible-flex-exact-nearby/HANDOFF.md)及原proof；成功禁重，R146只排原CV/RA格式。
-- R145/R147/[NW](results/R147-supplement-actual-same-window-negative-nu-waist.md)旧成功锁；[ASL实际](results/R147-supplement-actual-support-localized-negative-nu-reception.md)45889444013/1全4球true，将ordinary负ν贡献降到<1.87e−4（约.000185739702843137），G_C<69.154771。只ΔFν用真compact支集，s0/ΔA·Z全负窗，−3R0/m与两mean全保；首math.py失败及旧marker保原件。[NP独立真ν列](results/R147-supplement-independent-strict-nu-particular-and-signed-waist-column.md)两目标入口已齐：真实strict terminal particular、194 signed balls及同次192 raw pairings；67当前/51历史、manifest 61571a0daa23aa0d86aa4112e58d91fee69f6ca3752d4d01106d0859600d48e8，无旧Z/QR恢复。实际值待run，非全ν/phase/误差≤.005。
+- R145/R147/[NW](results/R147-supplement-actual-same-window-negative-nu-waist.md)旧成功锁；[ASL实际](results/R147-supplement-actual-support-localized-negative-nu-reception.md)45889444013/1全4球true，将ordinary负ν贡献降到<1.87e−4（约.000185739702843137），G_C<69.154771。只ΔFν用真compact支集，s0/ΔA·Z全负窗，−3R0/m与两mean全保；首math.py失败及旧marker保原件。[NP独立真ν列](results/R147-supplement-independent-strict-nu-particular-and-signed-waist-column.md)两目标入口已齐：真实strict terminal particular、194 signed balls及同次192 raw pairings；67当前/51历史、manifest 61571a0daa23aa0d86aa4112e58d91fee69f6ca3752d4d01106d0859600d48e8，无旧Z/QR恢复。入口已推7bbb0dfbc，实际待run，非全ν/phase/误差≤.005。
 
 ## 所有仍未付的最终接口
 
