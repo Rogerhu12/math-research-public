@@ -272,3 +272,5 @@
 - 2026-11-26 05:43 UTC｜Astra-held10-06bbeb39-20261126：修改本课题既有.github/workflows/held10-live-material.yml的恢复一步，换已验证的shared/native恢复入口；原因是旧scratch丢失且本地反复SIGKILL。现有worker/诊断白名单/路径限制不变，新start id仅启动一个公开runner，首原M24 linear-DN恢复保持全部门，数组仅runner scratch；请求发布不当计算返回。
 
 - 2026-11-26 05:56 UTC｜Astra-held10-06bbeb39-20261126：公共45763361623源码恢复真实成功，原M24求解中；本地环境失联重置/tmp，重新部分克隆public2，已推R63保留，未推primitive不冒称登记。重建同runner原fullH/chord3接续入口并通过编译/参数检查，真实accepted raw才能启动；原门/8outer及f^j warm不变，当前无新接受场。
+
+- 2026-11-26 05:59 UTC｜Astra-held10-06bbeb39-20261126：将R12/R14具体接到当前尾源码，严格核明ω−1=w²(L+q)、∂cω=wA/D^(3/2)及Darboux的ER²归一化；同分支精确转角强制meanSlope、Darboux强制RR。有限场须支付字面cos均值/求积/运算及实际残差，A≥.1系数126.201918/37.981536仅条件数，未验当前全角分支或fullH；不加独立均值BC。note和精确常量记录重建并存，继续接真实场。
