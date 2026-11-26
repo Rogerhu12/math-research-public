@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- [R214：切口切向强制的核心板宽](results/R214-developed-cut-tangent-forces-minimum-core-width.md)：准确同g测地经线与曲率界给无反射的切向超调，C²平端给严格不等式；纯有理夹定最终A阈值(.3637,.3638)和当前引导阈值(.4525,.4527)。仅必要条件，不排除已越阈值的当前四次metric场。
+
 - [R213：切向兼容与真实法向修正](results/R213-tangential-compatibility-and-normal-correction.md)：完整非零模消元、独立零模/端口、无需微分残差的弱应力测试及线性sup下界；含非旋转II完整卷积与旋转参考法向方程。明确实际Newton须用诱导h，有限矩/有限下降不代付精确存在。
 
 - [R212：不依赖反射的空间经线长度下界](results/R212-spatial-meridian-length-bound-without-reflection.md)：全切向球面的加权映射给任意空间曲线的端点/正交切向/曲率长度界，含绕圈。仅在准确同g下由经线测地性把曲面曲率界转为曲线界；C0近似metric不作此推论。当前低Z未被排除。[同一第4态加密角采样](notes/2026-11-13-fd2d-R208-fourth-state-same-field-angle-circles.md)固定原N64函数、只加观测角，揭示有限峰增长，不作连续证书。
