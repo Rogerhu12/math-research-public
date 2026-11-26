@@ -351,3 +351,5 @@
 - PAν首实际八球入口：manifest [2026-11-27-strict-nu-amplitude-border-inputs.json](notes/2026-11-27-strict-nu-amplitude-border-inputs.json)，62914B/7d8345c67b64d515c5ee71b15af6c06ca33892144dfdd84e153398640627bc01，78当前+51完整历史。原740×193四endpoint jet arrays及whole plan/selection/offset receipts全匹配才作新signed97 pairing；旧NP residual/194/192 pairing/norm全部零，八整球（3signed）实际待。
 
 - [TM：原graph-model adjoint对完整有限Θ行](results/R149-supplement-original-model-adjoint-on-complete-finite-Theta-rows.md)：原WFI真实目标基a/b/π4、low≤96 reference1与high真实signed分母分开保，旧CYA256给KG512；同IR/AS trial形成全96×2240 original Θ carrier，whole parameter/phase/rounding joint HS误差另加，不重旧7416 gap、不加√96，actual待AS整成功。
+
+- [APA：实际strict参数的有符号physical幅值边框](results/R147-supplement-actual-selected-amplitude-border-for-the-strict-parameter-particular.md)：45906257068/1全8球/rc0，原NP740×193四整数组全部SHA同，old residual/norm/pairing0。真幅度∈[-.006499,-.005501]、原exactα归一∈[-.008810,-.007190]均严格负；全selected row差/mean/fullPDEerror均已付。齐次regular补偿、phase/height与完整νSchur不由此自动闭合。

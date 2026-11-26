@@ -338,3 +338,6 @@ NS五件共129172B，owner71056B SHA18db439d5895e4232882940a57b7bd9457982383e1ac
 
 
 2026-11-26 22:45:35 UTC / visible-exact-astra-fb31ed6-20261127：登记TM proof/pure，接原Gbar*的真实model action而非C-only行。完整WFI u^b/v^a基与mean ν=−μ/2保；low1..96必须Llow reference1，高≥97才原signed reciprocal，CYA已成256只解析给KG512。全96×2240 carrier后whole实际phase/μ interval与joint HS rounding付费，原物理low列/两mean/fullSchur不冒已成。仅修一处qquad排版，math不改，AST已过科学0。PA实际入口已推dd3cf2713，两README无diff；AS45906100247/1已过容器/准入并进science。
+
+
+2026-11-26 22:48:51 UTC / visible-exact-astra-fb31ed6-20261127：登记APA actual45906257068/1全8目标成功；actual8966B/04d09519…、execution27977B/76969066…，owner11.934s、child15.967s，原NP四整740×193 jets SHA全部核同，旧目标0。whole97新signed配对[-.006269836±2.48e−10]，真实row-change<9.672e−11、完整PDEerror<2.290511e−4；最终正式whole球给physical[-.006499,-.005501]和normalized[-.008810,-.007190]严格负，scalar mean/fullunknown tail保。仅改proof一处PA.8→PA.14正确公式引用；TM已推48ba4d77b，两README无diff。
