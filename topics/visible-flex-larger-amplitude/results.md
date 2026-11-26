@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- **R714（已证明，准确零支与完整一阶重接）**：[精确零支与同值 normal-frame 的完整一阶重接](results/R714-normal-frame-exact-zero-and-C1-reuse.md) — 准确原初参考的全法向阶段为零但外层敏感度非零；完整18控制jet同字时，保留每阶段上游图并重接全部54×18导数可保持原J/J*，不保持二阶外Hessian。现行working积分不保证零字，实际重复次数/提速与费用未付，不删32阶段或现有源。
+
 - **R713（已证明，准确profile费用可执行）**：[完整有理矩与实际三moment误差](results/R713-exact-smooth-triangle-moments-and-actual-fees.md) — 全十二片任意绝对矩有限有理递推，统一Taylor余项包围A/A′/A″并与同批真实工作字付全差额；新全(0,π)根与两角传播、中央h/h_s全片区间完整。82e6独立来源绑定实际报告/数组，外部准确总均值/参考/节点关联及normal费用仍未付，未科学执行。
 
 - **R712（已证明，全部正半径准确初种子比较）**：[完整正半径中央二阶比较](results/R712-full-positive-radius-central-second-derivative-comparison.md) — sinc亏损在(0,π)的统一下界给新旧中央max|Fss|比例≤256π√2/2325<1/2；保同准确均值、core/H、端层和长度，覆盖旧五段自然延拓全部0<r<1。工作π/2源未改，完整K/reach与优化末场不迁证。

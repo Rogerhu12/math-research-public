@@ -480,3 +480,8 @@ R708支持内单位meridian完整条件构造：已正式刊[完整42式证明](
 ### 2026-11-26 21:58:02 UTC — Astra-larger-e4e2a2bf-20261126
 
 [第23次原raw普通移出](notes/2026-11-26-legacy-low46-box-and-strong-component-retention.md)：按根README15把两个旧逐胞报告共1089853B移出当前树，保11273原blob/既有SHA、八完整小源、3/6真实生产输入及原argv/defaults/资源/结论范围。四生成列表也不转存为小JSON，只有字段/数量/digest/固定恢复。root读完整新小记录/说明并核源SHA，helper逐target核当前/恢复blob和字节；无大报告整读、无科学重算、无当前输入/地点/未返删除，容量供06完整再生及新源使用。
+
+
+### 2026-11-26 22:10:51 UTC — Astra-larger-e4e2a2bf-20261126
+
+R714完整14824B论证（正式标题另加编号）现登记：准确R709/R711原初种子的全32法向零支与非零完整外层敏感度，及严格同18控制jet/当前源与计算图下的C1 frame重接定理已证；完整54×18导数含所需高阶混合项，保全部上游链与J/J*，不冒二阶外Hessian。现行working provider与外层积分规则不同，不能把准确零当工作零或宣称实际重复/提速；未改现行科学源或删阶段。根已读完整证明，按README12直接登记而不增设fixture门。缩短H前全文保e06fb5a09a2d033201dcedfdc7c9ae6e1676d80e固定提交，所有旧来源/失败/历史保notes/results；无科学计算。

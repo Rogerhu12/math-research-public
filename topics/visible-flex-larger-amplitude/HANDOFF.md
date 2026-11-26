@@ -4,7 +4,7 @@
 
 ## 规则与完整目标
 
-最近规则核查：2026-11-26 22:03:21 UTC，真实pull/rebase至 `9dc3eaa4c22ade3487182a781faf8d970b67f074`，双README相对`fb34f5e0d22fef3199d1c20af2b785378bcc1a78`无差异，继续遵守全部规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
+最近规则核查：2026-11-26 22:11:13 UTC，真实pull/rebase至 `770e64d4d5663ea4e342a993130605faaca27862`，双README相对`ea5df4ce101b2a4ef1900fe4cfad3afd37051f02`无差异，继续遵守全部规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
 
 科学计算仅本公开仓库Actions；执行偏差见[早前记录](notes/2026-11-20-public-actions-execution-correction.md)及[四次大JSON整读纠正](notes/2026-11-26-large-file-connector-read-correction.md)。root唯一分支写者；结论即普通推，NFF立即rebase循环，不强推。每次pull核双README差异并遵新规，至少每小时，记commit。raw只scratch/runner，不入Git/Release/artifact；保完整小源/参数/run/SHA/紧凑结论。题≤200MB、单文件<5MB、MD<100KB、H<10KB、open<30KB。令牌仅瞬时CLI。17:55终端失联后曾用云API普通快进；19:17显式/tmp恢复并新部分克隆，现恢复终端git。旧迁移完成情况未知，不假称恢复旧scratch。
 
@@ -13,19 +13,15 @@
 
 ## 完整历史与共同模型
 
-本轮压索引前全文保[5e5f完整交接](https://github.com/Rogerhu12/math-research-public/blob/5e5fb3621fefd0c116179854d40c2765f8172865/topics/visible-flex-larger-amplitude/HANDOFF.md)，含bcfbc/30e589/9b8f及更早链；全结论/失败/未返/来源参数保notes/results/open/log。原M160/J923/N2048/P7377、全部core/H/旋转/Gram/mean/cross/J/J*/真Phi/FullHold材料图和反射帽不删；有限筛非连续，iteration_limit非驻点。
+本轮压索引前全文保[e06f完整交接](https://github.com/Rogerhu12/math-research-public/blob/e06fb5a09a2d033201dcedfdc7c9ae6e1676d80e/topics/visible-flex-larger-amplitude/HANDOFF.md)，含5e5f/bcfbc/30e589/9b8f及更早链；全结论/失败/未返/来源参数保notes/results/open/log。原M160/J923/N2048/P7377、全部core/H/旋转/Gram/mean/cross/J/J*/真Phi/FullHold材料图和反射帽不删；有限筛非连续，iteration_limit非驻点。
 
 二十三次raw普通移出及原小源/全部参数/恢复commit见[容量记录](notes/2026-11-20-resume-raw-retention.md)。Python3.12.14/NumPy2.3.5/SciPy1.17.0/单BLAS；SO3 CPUtorch2.5.1/float64。原共同来源在[独立运行](notes/2026-11-26-independent-public-nonlinear-continuation.md)，[队列完整归档](notes/2026-11-26-complete-followup-parameter-archives.md)保全部旧参数；未返步骤不归档冒完成。
 
-## 03b与零端点：已知失败
+## 03b与05的完整既有边界
 
-03b45820592817终止/37未起，旧03 stage7未知；原3–36、gamma-H12–14及normal15/16的完整失败/源码/参数/归因全保固定交接与notes，不推不存在。15/16为26完成/27失败、936次3维solve，无初场；18字Q不变，R697/R702/R705不重做。[R706](notes/2026-11-26-run05-actual-input-identities-and-same-mathematical-target.md)给同准确g、不同工作文件，不能迁旧字节。
+03b45820592817终止/37未起，旧03 stage7未知；原3–36、gamma-H12–14、normal15/16及18字Q的完整失败/来源均在固定交接和notes；15完成26/失败27、936次3维solve，无初场，不重做R697/R702/R705。[R706](notes/2026-11-26-run05-actual-input-identities-and-same-mathematical-target.md)保持同准确g但不同工作文件，不能迁字节。
 
-## 05本场实际返回
-
-[实际5 R696](notes/2026-11-26-run05-actual5-R696-complete-reconstruction-return.md)完整返回75b285/max .515122897，接受由μ及完整控制流推得；[实际6 integral](notes/2026-11-26-run05-actual6-complete-integral-first-return.md)直接accepted1/末c8cb4b/max .506365333、有限g负。原所有源/参数/费用保note。
-
-[7全初字/地址](notes/2026-11-26-run05-actual7-full-history-and-initial-word-fingerprints.md)真读cd530c、core/H同reference/omega正零；[8–11第二integral及完整归因](notes/2026-11-26-run05-actual8-11-integral-direction-full-trial-families-and-history.md)末f1e504/report182574，Phi189.962702/max .501278495、α1/32真过，μ .01；QP64未驻/Pg1814.47≫tol。四个较大下降ray只reach正，实际K胞295/291/252/237；最近拒α1/16需带完整D partner，不能继承旧cell0归因。动态纯读6trial全部、旧固定selector越界非科学失败；六完整报告并集1851/1851/protected39、combined667b8189、初字再次同串。[direct后退SOC完整四源](notes/2026-11-26-direct-integral-complete-backtracked-SOC-source-and-policy.md)450a/b550/7207/b706已刊，7f/2240/02875/c06a全保，最近拒ray锚+fallback最终全memory复读；九历史ready保。seed真实返回后显式补其第十历史再准入，未预称接受。
+05[5 R696](notes/2026-11-26-run05-actual5-R696-complete-reconstruction-return.md)末75b285/max .515122897；[6 integral](notes/2026-11-26-run05-actual6-complete-integral-first-return.md)accepted1/末c8cb4b/max .506365333、有限g负。[7全初字](notes/2026-11-26-run05-actual7-full-history-and-initial-word-fingerprints.md)及[8–11完整归因](notes/2026-11-26-run05-actual8-11-integral-direction-full-trial-families-and-history.md)真读cd530/core/H同ref/omega正零，第二integral末f1e504/report182574，Phi189.962702/max .501278495/α1/32/μ.01；QP64未驻。四大下降ray只reach正，实际胞295/291/252/237与完整D partner均保；完整历史1851/1851/protected39，不由计数猜集合。[direct后退SOC四全源](notes/2026-11-26-direct-integral-complete-backtracked-SOC-source-and-policy.md)450a/b550/7207/b706与九历史ready已刊；seed19真实返回后加其第十历史再准入，原全J/范数/参数/末memory复读均保。
 
 ## 04及旧02边界
 
@@ -46,6 +42,8 @@
 [R710](results/R710-supported-unit-seed-complete-angular-jet-error-bounds.md)给完整均值根、两角jet及物理T/Tφ/Tφφ/Ts误差；85e90有理区间核与实际批次绑定已刊，仅条件传播。准确积分/尾/三角/算术费用未付，不冒零费或全角证书。 [R713](results/R713-exact-smooth-triangle-moments-and-actual-fees.md)及[82e6完整消费者](notes/2026-11-26-R713-smooth-triangle-actual-fee-consumer-api.md)准确有理矩支付新profile三moment全差额与中央h/h_s；全(0,π)地板/两角费用保，仍欠外部均值/参考/节点关联与normal费用，尚未执行。
 
 [R711](results/R711-smooth-triangle-central-profile-and-geometric-comparison.md)/[R712](results/R712-full-positive-radius-central-second-derivative-comparison.md)准确十二片三角profile全0<r<1，scalar斜率32/31近最优；同准确初seed中央Fss低于旧一半，不迁K/reach或优化末场。[独立完整入口](notes/2026-11-26-R711-smooth-triangle-full-normal-entry.md)九执行/读取源+完整再生器已刊，192正权节点/实际(0,π)括号/原全normal与求解循环保；仅no_grad frame免无用高阶图，active全图不改。十历史ready仅准备，旧seed19及后来返回报告必须全入；未准入、未称新场。
+
+[R714](results/R714-normal-frame-exact-zero-and-C1-reuse.md)准确初seed的全32法向零支与非零外层敏感度已证；同一当前图内18控制jet同字时，完整54×18一阶重接保持J/J*。现行working积分不保证逐字零、全角jet同值或实际缓存收益，不删阶段、不迁证、不据此改旧源。
 
 <!-- visible-larger-parallel-04:start -->
 并行公开Actions04：[run 45857104277/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45857104277)；[实际记录](notes/2026-11-26-public-actions-45857104277-1.md)。阶段`followup:complete-normalized-SO3-after48-original64-and-pure-single-admission-20261126-run04`/running；已返49，exit=未返。
