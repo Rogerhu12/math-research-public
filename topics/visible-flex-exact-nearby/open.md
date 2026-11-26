@@ -164,6 +164,8 @@ G以S/T E1856给physical C²整盘/曲率<2/径长<8e−6及同world position/no
 
 [SC完整二源与signed列](results/R149-supplement-signed-finite-columns-and-full-negative-residual-sources.md)已证并有pure全残差模块。真连续零外端trial的全部M+192残差→真实224根误差→完整负两源/waist/两mean；signed rows用真实配对与adjoint残差，旧W的H_app/完整误差可复用，所有multiplier/复合尾保留。完整finite gate保各source/target权与全部rows/cols，物理96不代BF完整Schur；待实际低逆/224后付新列。
 
+[NW同固定负窗](results/R147-supplement-same-window-selected-nu-source-to-complete-waist.md)新target保旧global转授，另用原S0同窗full球+τD_N，按hypot(CO,C2)付ordinary腰贡献；四完整新球不等R142，入口正接齐，无新数值。所有positive/root/impulse/mean/phase匹配独立。
+
 6. **执行环境断开后的接续。** 2026-11-26 05:48 UTC起本机不可用；公开Actions仍运行。暂按根规8用GitHub集成处理小文本、比较main规则；恢复后立即pull/rebase核两README。所有尚仅在失联磁盘的内容必须按真实blob/提交确认，不能标成已推。
 
 最终仍须同一次冻结ν*/Γ*/η/metric后构造同一闭嵌入族；任何组件、源预算或路线排除都不是验收。

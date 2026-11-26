@@ -450,3 +450,8 @@ manifest SHA256 e99e081cd404c36e9f754c0839e9f8f7d95502fffa2db02bff093fe90a0599a8
 新[SC证明](results/R149-supplement-signed-finite-columns-and-full-negative-residual-sources.md)及[pure全残差模块](scripts/fourfold_codazzi_signed_finite_column_residual_math.py)已核。原E.6的M=diag(θ/w,θ)给H^-2/3⊕H^-1完整二源，原同N/SP/PW CO不变；whole raw L²负源分root/strict后可用hypot(CO,C2)，两mean与所有impulses保留。
 真实root96列可取正侧h_app=(1−x)p，真外端精确零而保全部完整线性图；root-even误差/高stable/low及high collar/body完整输入通过真实224接收。完整Qδ角degree96使finite trial degreeM的全Jacobi residual degree≤M+192，必须先保两符号/mean/nonlocal完整卷积再Parseval。负trial在真root连续、完整二源残差和真根误差给waist两mean列误差。
 signed rows用真实配对中心；normalized行的adjoint residual由已成同T0逆认证，finite row不冒T0*row有限，所有multiplier/角尾进入完整e。可用原W同selected H_app=K48∘Hfin及W4完整误差球，无新KAM；复合不冒有限Fourier。全部matrix rows/cols与source/target各自权形成I−B Dt M Ds^-1后严格门，物理96子块不冒完整Schur。无新科学数值；真实全低逆/224前置仍待。模块与完整证明交叉审过，科学/AST只由公开Actions执行。
+
+### 2026-11-26 — R147 同一固定负窗的 selected ν 源与完整腰部接收
+
+新[NW证明/合同](results/R147-supplement-same-window-selected-nu-source-to-complete-waist.md)核原43613560173 complete source的fixed_negative_phase_window full_through160整球，与43713242980 D的fixed_negative_window为同一[0,2383968743003/10^13]。选定δ*/d<τ=936826/10^6，准确组合F_N=S_N+τD_N；旧global F_G=S_G+τD_N<3.720478e−6保留，不用upper相减，也不把δ=0源免费转授。
+完整E/N/SP二源域与两段ordinary输入正交给新真实腰贡献hypot(CO,C2)F_N，两physical mean保留。唯一新目标将保存四个完整球、逐条读回，最后乘积消费已保存F_N/G_N；原S0/D/SP/PW整actual/process/manifest仅读，无旧积分或增长重算。可不等R142直接执行；当前只提交证明，实际入口正在接齐。只付该ordinary线性分量，不消positive/root/jump/height/Robin/phase或完整ν/incoming逆。

@@ -1,12 +1,12 @@
 # 交接：可见振幅的精确闭等距族
 
-维护会话：visible-exact-astra-198c63d-20261126；更新：2026-11-26 07:55:31 UTC。
+维护会话：visible-exact-astra-198c63d-20261126；更新：2026-11-26 07:57:34 UTC。
 **总任务未完成，继续研究，不等用户回复。**
 
 ## 规则、接续与当前环境
 
 已部分浅克隆/pull并完整读根和课题README、原H/open/log及续点notes。私库QUEUE认领已推 f90ec8e0116c67cbc32c03342e6a8d2aee0ccb41。
-本次两README确认至 1a9f6561f6c03f0f6ec0dcf6a447ac268d8e08de：每次更新前均比较上次已推提交至最新main，未见两README改动；本课题的实际新增以下列记录为准。此前终端pull后的规则差异亦为空。
+本次两README确认至 3360ff38cb2fd66b7988dce06e543594ff383b48：每次更新前均比较上次已推提交至最新main，未见两README改动；本课题的实际新增以下列记录为准。此前终端pull后的规则差异亦为空。
 2026-11-26 05:48 UTC起执行环境unavailable，无法再做终端pull/push；按根规8暂用GitHub集成读取main、比较规则和提交每件<100KB小文本，不向API传令牌。环境恢复后立即终端pull --rebase、核两README并继续；至少每小时检查一次，非FF立即重取main并重接，绝不force。
 
 本地原路径 /tmp/visible-exact-astra-198c63d15049/math-research-public，工作区有同名软链接；无AGENTS。环境恢复前不能声称磁盘待提交文件已推。公开Actions不依赖该执行环境，R142与固定η0新积分均在运行。
@@ -28,6 +28,7 @@ geometry43584188751/26仅在同η0真wholecore含帽C0≤1e−4、|δν|≤1e−
 3. **58→224→32物理入口已接。** [执行说明](notes/2026-11-26-physical-scalar-execution.md)：真实完整低逆后58全门过才14列224量，再16输出×两Hilbert RHS类型32量。三入口明确区分原strict和R149新kind，原公式未改；old失败ready=false。WPN exact lifting覆盖整个L²_r低193，真正成功后正侧未知径向头消去；负侧incoming、mean、ν与非线性仍未闭。特定Newton/ν源不能把32两RHS类型当源大小。
 4. **R143成功、R146已排当前根费用。** [R143 actual](results/R143-supplement-actual-correlated-body-budget.md)45762052058/1全4651格六球：Ccorr<17.809、wE<19.745、aEE<.641002、aEB<.555960、body三门true。[R146 actual](results/R146-supplement-actual-quadratic-cap-excludes-correlated-root-budget.md)45765780668/1全418格/13376子格：T2<102.965、Qupper<−.16618，严格排CV/RA非负格式。停止该格式Gram/容量/仅细化DH，不推BVP奇异。完整high压缩/joint source是不同工具，全源尾/mean不删。
 5. **同selected源和真实mean行已补。** [R145](results/R145-selected-nu-proposal-positive-source-and-outer-rows.md)ν源正区full/low/high<2.9478e−5/2.9476e−5/2.8714e−5，Robin<9e−12、physicalmean<4e−18。[R147](results/R147-selected-negative-nu-source-and-complete-mean-row.md)负窗三源<(3.720478,3.718314,2.955779)e−6、腰odd<1.122e−15；真外mean |ωR^-1|<50、||ellR||<1.2e−6、纯ν |gR|<2e−16。signed mean保−3R0/m、ν方差、全jump；体Pmean Aδ PH=0不消high→low→mean。NA/OA原成功、F_B/GH5/GH4、D/weighted GH/高根及全部旧成目标仅读。
+   新[NW同窗加强](results/R147-supplement-same-window-selected-nu-source-to-complete-waist.md)使用原S0完整fixed_negative_phase_window与同窗D_N，F_N=S_N+(936826/10^6)D_N，再hypot(CO,C2)接完整waist/两mean；旧global上界保留。四球独立新目标无需R142，入口接齐中，尚无新数值。
 6. **R144等价mean行和新固定η0完整积分入口。** holonomy、raw弱dual、端点及固定u,j nonlinear重投影的原完整资格保3e1a H/各proof：条件C0≤1e−4、cap独立球、Bcal^-1<5e10、selected腰mean严格(5,8)e−15，positivity/aR^-2/非mean残差全保。[旧forward actual](results/R144-supplement-actual-forward-mean-enclosure-and-unresolved-gates.md)45772466407/1从6791前缀仅续930，完整7721/6143；三门unknown、首positivity未决6803、无真违例。旧全η/row输入锁定。
    新[RS](results/R144-supplement-fixed-density-rotational-reference-subtraction.md)给W0=0与同r W′=2βUW+2βa²(U/s²+KV/m²)，D准确恢复非零初值/全部jump/physical外mean。新[完整合同](notes/2026-11-26-R144-fixed-eta0-correlated-mean-contract.md)及science/worker/generator/manifest/workflow已提交6a1868c，实际run45778507038/1已启动：21当前/10历史，320bits、N512、源Taylor24/流25、ρ/h=8，真[0,25/8]、7296原格/6143接口。manifest SHAe99e081cd404c36e9f754c0839e9f8f7d95502fffa2db02bff093fe90a0599a8。只对新目标物化全域固定η0载体，原native仅身份/partition/完整v与mean gap仅读；保全部primitive/径向Cauchy尾、同r signed和与真实forward费。每个接受子格/接口原子checkpoint；异常回滚至最后完整状态和trace前缀，complete仅在最终saved-ball门后置真。5h child、6h job、无自动科学retry。raw ν0/非Qrepair/非selected，任何门仍须实际输出；不授非mean、帽、height、phase或最终族。
 
