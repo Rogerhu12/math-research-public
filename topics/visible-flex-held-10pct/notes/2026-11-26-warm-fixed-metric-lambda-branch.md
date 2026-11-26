@@ -57,3 +57,9 @@ python scripts/resume_20261126/check_warm_lambda_entry.py \
 独立warm通道用同一已真实成功的小q链必要再生一份本runner状态（不是重登记旧结论），M24原门后直接进入本新phase控制族，不重复启动原三路。请求为held10-warm-supported-route-20261126-01，bootstrap仍恢复相同源/物理输入；新chart明确按实际setup绑定。完整场不跨runner上传，旧两个runner不取消。
 
 新worker保持原64KiB/1MiB限制、原路径与键白名单。超总量先裁去重复历史/源码列表并保各路status/error；同一活跃id、script、args允许只刷新经原检查的diagnostics，无需重启数学进程。请求默认不投影含完整commands的stages，源和各单run仍全在runner。该改动不影响已经载入旧worker的两个进程，也不修改任何数学门。
+
+## 新warm runner的实际M24入口已返回
+
+run45775899674 的必要q链、λ0与完整M8→M16→M24 lift已执行到实际M24接受：631节点，RMS9.927150345213775e−7，原有限metric6.482415782905739e−7，physicalBC3.7178883222402893e−16，actualδ=.06413464104697911。源run/raw/physical SHA见[小执行记录](2026-11-26-warm-m24-actual-recovery.json)。这是当前runner自己的场，不据此推断另一个lowq runner的终态；旧M24全域连续几何界不转搬到新场。
+
+暖phase父链已用它实际启动attempt-000，同λ=.002、M24/768、mean1168；初始域通过并进入真实Jacobian求值。尚无该暖场的solver/metric接受返回，不把初始域或同图定义当作求解完成。继续原λ设计链。
