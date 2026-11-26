@@ -380,3 +380,6 @@ NS五件共129172B，owner71056B SHA18db439d5895e4232882940a57b7bd9457982383e1ac
 
 
 2026-11-26 23:45:38 UTC / visible-exact-astra-fb31ed6-20261127：登记DN全阶proof/reader两件，18个new saved有理比较已成禁重。真正zero-width模块扩参数球Z5e−10/g1e−11，四原contraction/selfmap门全过、actual归一t<.081和首moment<.141。算子Taylor极化3^p与平移严格频率守恒形成可求和完整卷积majorant，commutator高背景只一次；最高输入导保持原actual小L²，不用2^n Neumann。K=Qθ−T逆<1.001及显式K_n、K1<2.048561；四rows和scalar adjoints/负阶均保，真实Cθ^j链式以单raw A^{n+1}付，仅明示H¹到Wiener一导损失。两physicalmean和独立height保，positive body/方向chart还待接。TCX已推c9114548e0，两README无diff。
+
+
+2026-11-26 23:46:28 UTC / visible-exact-astra-fb31ed6-20261127：登记TQ proof/纯math两件，完整AST/无numerical import已成。OT whole carrier准确限制到96square，eTheta joint直接给whole门无需sqrt96；坐标通过后Theta约束可准确消去，但真实有限反馈保留。WGB32首96辅助行一次整体消费，正号Theta PH^-1Pg及right side/其他V因素/两mean独立不混。完整signed列须原B^-1、truebasis/phase/tail/全residual；SC仅低配对不可填未观测坐标0。实际OT尚缺AS whole，未生成actual/workflow；low-reference等距的更锐独立TQL正在做。DN全阶已推c8ef3785a9，两README无diff。

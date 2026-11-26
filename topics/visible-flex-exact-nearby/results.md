@@ -379,3 +379,5 @@
 - [TCX：同一trial互斥cells续算与完整合并](results/R149-supplement-disjoint-same-trial-cell-continuation.md)：原2063B evaluator逐字SHA、8数学源/4全数组/全plan不变，parent恢复一次，≤3fork/COW只积分互斥缺域。每片完整5×96有向upper和cursor原子保存；union从固定seed+全分片重新合并，连续prefix单独保，不减upper/不重复加总。当前TC运行中不启用；真实终态后才生成manifest，全部old matrix/目标直接继承，full negative覆盖可立即结论、positive仍须全部N。5件source纯metadata/AST已过，无新science。
 
 - [DN全阶：实函数空间真实外DN tame逆](results/R144-supplement-all-angular-exterior-DN-tame-inverse-in-real-function-spaces.md)：18个saved有理比较已过；同zero-width module扩球(5e−10,1e−11)、actual t<.081/首moment<.141，Taylor极化与严格频率守恒给所有[∂^n,A]及adjoints。最高导用actual小L² norm，K=Qθ−T全nonmean逆<1.001、显式K_n，单个高背景Γ_n线性一次且由raw A^{n+1}付；无需未知strip/高norm小。两mean/height独立，不冒认whole raw或positive high全逆。
+
+- [TQ：原Theta限制与完整Schur辅助行consumer](results/R149-supplement-original-Theta-restriction-and-joint-Schur-row-consumer.md)：whole OT96×2240→真正Theta Q97 signed96square，joint误差无额外sqrt96；完整逆门通过后是坐标同构，真实有限反馈仍须付。whole-column误差eTheta bX+(bTheta+eTheta)dX；WGB32首96辅助行严格整体[-Q+PH^-1PKQ,PH^-1PU,PH^-1Pg]，保正号/原序，其他finite因子和mean独立。SC低配对不冒原B^-1全列，high residual须全频；纯模块AST/import已过，无actual门预报。
