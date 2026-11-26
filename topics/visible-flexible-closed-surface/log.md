@@ -691,3 +691,5 @@ R208完整注入组e297410f：同3态由J30/K7/N64的932维插1/20、7/20、5/12
 - 2026-11-26 10:04 UTC｜Astra-visible-flex-6a65e705-20261126：[新gap1.05/v.045完整前缀](notes/2026-11-26-6a65-geometry-coupled-gap-prefix.md)监控41.103s真实exit0，1637RHS/M191；ramp κ9.6363、Γ95 coast κ8.8926，实际C2消费metric2.65953e−9，有限角观察不冒连续证书。保存新种子/两端口/回执SHA及独立镜轴核对，继续接实际尾和完整fit。
 
 - 2026-11-26 10:27 UTC｜Astra-visible-flex-6a65e705-20261126：[R224](results/R224-gap105-v045-entire-coast-continuous-domain.md)消费实际gap1.05/v.045 Γ95完整曲线，以96bit整数/2048角闭块×全母线域证明D>.9719、U_t>.9657、.1949<κ<8.893，16.017s真实exit0。准确a0/g不取周长中点；arc严格余项2.6167e−6未冒微小误差证书，ramp/后段/全闭reach继续。
+
+- 2026-11-26 10:32 UTC｜Astra-visible-flex-6a65e705-20261126：[M12实际首步和同g下一档](notes/2026-11-26-6a65-m12-prefix-fixed-g-refinement.md)完整run45797640490真success，独立metric7.97402e−9→8.05624e−10。现仅提高order48/N768/G8/1600LSMR，保158单元和全部物理源，独立G10/N1536；新请求不冒实际新结果，继续核真实运行。

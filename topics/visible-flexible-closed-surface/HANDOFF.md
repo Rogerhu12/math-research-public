@@ -7,7 +7,7 @@
 
 完整连通闭C2嵌入族、共同g和固定握持开区域；全曲面D下held/D≥.05、含反射δE>0、全时reach/D≥.03、全域全时metric≤1e−6，并支付同一g/全部物理参数下真加密到求解容差及可复现完整网格。基础之后继续held/D≥.2、δE/D≥.05或严格存在。本题尚未完成。
 
-- 根/课题README完整读于 `f0548477576caa2373d1626227a284ccfa9767d0`；接手真实pull在05:16UTC成功。最近已读公开提交 `737cd017325c7d89b6c700a7bfc33bd32b54d8b6`（2026-11-26 10:29 UTC真实pull/rebase后，双README逐差均无变化）。每次真实pull后核两README差异，至少每小时；有变只读差异立即执行。本轮各次均无差异。
+- 根/课题README完整读于 `f0548477576caa2373d1626227a284ccfa9767d0`；接手真实pull在05:16UTC成功。最近已读公开提交 `c81ee4f55686ccce58b48538804ca3bf1e8da182`（2026-11-26 10:31 UTC真实pull/rebase后，双README逐差均无变化）。每次真实pull后核两README差异，至少每小时；有变只读差异立即执行。本轮各次均无差异。
 - 私库根规矩完整读；QUEUE认领已推 `c7785184d0d9c503852fb2137e9e2c091221d080`，状态进行中（本会话/2026-11-26）。认领推拒均即时pull/rebase再推成功。
 - 每结论分条commit/push；推拒立即pull --rebase循环，不强推、不amend已发布提交。完整证明直接登记；不回到旧独审/冻结手续。可重算数组不进Git/Release/artifact，只存源码、参数、run/hash。单MD<100KB、H<10KB、课题<200MB；不写根LOG。令牌只在命令进程环境。
 - 部分克隆 `/tmp/visible-flex-6a65e705/math-research-public`；同级 `solver-work/geometry-work/exact-work` 保存raw。/workspace空间不足，勿将大数组放回。05:47和09:18两次失盘；09:38已重新部分克隆、真实pull。旧本地raw/未公开源均失，不借旧字节身份；第二次中断及恢复见[真实回执](notes/2026-11-26-6a65-cauchy-same-job-recovered-transition.md)。
@@ -42,7 +42,7 @@
 
 CI每次literal pull在首行marker记SHA；publisher只合并该行，保root其它文本，不amend已发布提交。等待fetch30秒，新请求或45分钟才真实pull。root分条push同时遇NFF/锁冲突均已即时pull/rebase循环成功。后继文件 `ci-requests/6a65-strong-followup-20261126.json` 必须消费实际末态，不猜SHA。
 
-原M12[恢复版全前缀workflow](notes/2026-11-26-6a65-m12-global-prefix-recovered-workflow.md)首无job失败已修；[真实run45797640490](notes/2026-11-26-6a65-m12-global-prefix-ci-45797640490-1.json)完整成功：原g/158单元15386列，800LSMR stop7，α1接受；独立G8/N768 metric7.97402e−9→8.05624e−10，κ5.11272468。实际166.276s，raw SHA1e0cf38f…0a5d仅RUNNER_TEMP。下一档仍同g/158单元，提高order48/N768/G8及1600LSMR；r=.6仅内部端口，真正全尾另续。
+原M12[恢复版全前缀workflow](notes/2026-11-26-6a65-m12-global-prefix-recovered-workflow.md)首无job失败已修；[真实run45797640490](notes/2026-11-26-6a65-m12-global-prefix-ci-45797640490-1.json)完整成功：原g/158单元15386列，800LSMR stop7，α1接受；独立G8/N768 metric7.97402e−9→8.05624e−10，κ5.11272468。实际166.276s，raw SHA1e0cf38f…0a5d仅RUNNER_TEMP。[下一档同g请求](notes/2026-11-26-6a65-m12-prefix-fixed-g-refinement.md)已写：158单元/order48/N768/G8及1600LSMR，独立G10/N1536；r=.6仅内部端口，真正全尾另续。
 
 ## 继续顺序
 

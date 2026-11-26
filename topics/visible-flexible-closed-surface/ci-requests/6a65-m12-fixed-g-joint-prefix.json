@@ -1,7 +1,13 @@
 {
   "schema": "6a65-M12-fixed-original-g-complete-common-cut-prefix-request-v1",
-  "iterations": 800,
+  "elements": 80,
+  "order": 48,
+  "angular": 768,
+  "gauss": 8,
+  "block": 24,
+  "iterations": 1600,
   "newton": 1,
-  "request": "2026-11-26-first-recovered-streaming-cold-run",
-  "physical_scope": "Original prefix through its internal radius .6 common cut; full tail/cuff extension remains separate work."
+  "request": "2026-11-26-same-g-angular-order-and-quadrature-refinement",
+  "previous_run": "45797640490",
+  "physical_scope": "Exactly the same original prefix through internal radius .6. Same original g, amplitude, physical geometry, true source and endpoint traces; only correction order, integration and linear iteration budget refined. Whole tail is a separate calculation."
 }
