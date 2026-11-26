@@ -230,3 +230,8 @@
 ### 2026-11-26 20:24 Asia/Taipei — R1026 原单余式及真实杀CM整方向
 - [R1026](results/R1026-original-single-remainder-and-integral-CM-annihilating-log-direction.md)：固定hypergeometric两尾系数rank2给定义明确绝对C_*，全部p>C_*、p5mod6原Q∤P1−y^ℓ。实际p11mod12行，e_-=(1+ζδ+ζ²δ²)/3作用原logP的首层非零；R575/R1010完整CM方向使其杀全部CM新部，旧部亦杀。原Lie格的饱和CM商中准确Fm本原；未宣R1011具体Néron商格单位或原CM jet半径。
 - 两正Euler积分、分数幂、固定det界与真实δP相位均纸核；完整原CM方向已逐源确认。继续实际quotient/CM jet，不把饱和Lie商冒充Néron格。
+
+
+### 2026-11-26 20:35 Asia/Taipei — R1027 原绝对常平方全行为一
+- [R1027](results/R1027-original-level-p-squared-theta-distribution-and-constant-one.md)：全部p≥41、p5mod6原D_p=1，4η⁶C_N²=1，Σa_i²a_(N−i)²=−1/4。真实Lp²第p theta分布在Frobenius子空间为(Dv)^p；保A†拉回全部total-D阶p交叉项与刚化[p]=−Frob²双轴符号，得d_A d_A†^p=γ/κ；R1025原符号付清绝对常数。共同δ′只剩±1，原两mask/bare仍开。
+- o1/root纸核genuine输出distribution、全部交叉项的有限次数预算、[p]两负号及Wilson/dagger相位。无数学程序，继续原同标签条件。

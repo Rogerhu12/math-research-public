@@ -20,9 +20,11 @@ R1只把全部异常缩为p>37的完整N_ns；**p≡2,5 mod9只是另加小惯�
 
 ## O1：全p同一真实本原标签的临界非零
 
+[R1027](results/R1027-original-level-p-squared-theta-distribution-and-constant-one.md)：全部p≥41、p5mod6原D_p=1，4η⁶C_N²=1，Σa_i²a_(N−i)²=−1/4。真实Lp²第p theta分布在Frobenius子空间为(Dv)^p；保A†拉回全部total-D阶p交叉项与刚化[p]=−Frob²双轴符号，得d_A d_A†^p=γ/κ；R1025原符号付清绝对常数。共同δ′只剩±1，原两mask/bare仍开。
+
 [R1025](results/R1025-original-theta-exact-mod-six-direction-phases.md)：原全部方向相位已定：d_A=δ′_p abγ、2c_A/γ=δ′_p e_Aab，故η³C_N=−δ′_p e_Aab/2；a,b为α,β mod√−3的±1，e_A由模2非零列给出。所有有限处integrality+Kronecker把相位缩为±，实际3处Jordan/Tate线与原二jet读出ab；R1020遂给原带符号五次H值。共同δ′保留，primitive/Legendre同h与bare仍开。
 
-[R1022](results/R1022-original-theta-all-direction-constant-square.md)：全部p≥41、p5mod6，原4η⁶C_N(η)²=D_p∈(Fp×)²方向无关，D_p=−4Σa_i²a_(N−i)²；p5mod12准确D_p=1。真实index1积分torus由trace定标到Q(μ_(p+1))，复共轭即p-Frob，primitive拉回及canonical metric给相对norm1；完整addition分布保总D阶p的cross，接回c_A²=D_pγ²/4。原方向±已由R1025精确付清，共同单位保留；不能代primitive/Legendre谱或bare余项。
+[R1022](results/R1022-original-theta-all-direction-constant-square.md)：全部p≥41、p5mod6，原4η⁶C_N(η)²=D_p∈(Fp×)²方向无关，D_p=−4Σa_i²a_(N−i)²；p5mod12原计算D_p=1，全行现由R1027闭合。真实index1积分torus由trace定标到Q(μ_(p+1))，复共轭即p-Frob，primitive拉回及canonical metric给相对norm1；完整addition分布保总D阶p的cross，接回c_A²=D_pγ²/4。原方向±已由R1025精确付清，共同单位保留；不能代primitive/Legendre谱或bare余项。
 
 [R1020](results/R1020-original-critical-convolution-complete-theta-scalar-bridge.md)：原全方向精确比值H_p/C_N=120εt·aχ(Nα)²(χᾱ+β̄)/(6B)⁵；t³=4、a=α mod s、χ为α/β mod3的唯一μ6 lift。真实index2另一vacuum系数4c_A、norm3分布负号给d₀=−36c_A；canonical三挠基尺度与Weyl二次相位全部核准。十二个同核表示不变；共同C_N保留，不代primitive/Legendre同h非零或O2 bare单位。
 

@@ -635,3 +635,13 @@ O1 要求的原 primitive/Legendre 因子仍在。R1013 的 \(H_p\)、实际全�
 - 有限平坦下降及 theta 表示唯一性的原始定理使用 R1013 已实读的 Moonen, Theorem 8.10、Proposition 8.15，以及 Shin, Propositions 2.12–2.13；本篇不使用 étale \(p\)-核算法。
 
 o1_theta 与 root 独立核准 index-one 的二-primary kernel 点和、两轴 Picard 判据、rigidified CM 权、两个 Wilson 符号、首-\(p\) frame 比较、下一层准确比值和双十二计数。无数学程序执行，没有重新计算旧矩阵、常数窗口或素数扫描。
+
+
+## 后继：全部行的绝对常平方现为一
+
+[R1027](R1027-original-level-p-squared-theta-distribution-and-constant-one.md)
+用实际 \(L_{p^2}\) 的 genuine 第 \(p\) 个 theta distribution、
+\(A^\dagger A=[p]\) 的刚化复合及 R1025 的实际 dagger 符号，
+证明全部 \(p\ge41,\ p\equiv5\bmod6\) 都有 \(D_p=1\)。
+共同 \(\delta'_p\) 仍保其 \(\pm1\) 符号；原 primitive/Legendre
+同标签和 bare 完整余项不因此自动关闭。

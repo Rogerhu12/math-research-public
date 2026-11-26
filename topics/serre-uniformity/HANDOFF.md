@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。本轮已部分克隆并真实pull main，读两README/H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则读至36cf1ed2。不重做已登记结论或窗口。
 
-**公开两README已读提交：fb2eaa80c75f2655721831f0025466d4576d262b**（2026-11-26 20:24 Asia/Taipei；本次同步两README无差异）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
+**公开两README已读提交：0dbacf2e99db32f190c8e5fe35f743b2891e42dd**（2026-11-26 20:35 Asia/Taipei；本次同步两README无差异）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
 
 执行宿主本轮断连；08:36 UTC单次恢复探测仍无环境。按根规矩8用GitHub小文本原子tree/commit、最新head检查和非force expected-head更新；并发拒绝立即在新head重建循环至成功，保其它会话。终端恢复补pull --rebase。令牌仅此前CLI使用，未存文件/提交。根维护main/H/open/index/log；子研究交数学稿。每条结论完整审后立即推。19:52纠正：global_route曾违规用会话V8做数学探索，已叫停；已知范围、时长及独立纸面重核见[执行偏差记录](notes/2026-11-26-execution-path-deviation-and-correction.md)。不得把其数字记为证明或合规窗口。
 
@@ -34,9 +34,11 @@ H<10KB、open尽量<30KB、每MD<100KB、topic<200MB；无可重算raw、不写�
 
 ## O1：原同一保留标签
 
-[R1025](results/R1025-original-theta-exact-mod-six-direction-phases.md)：原全部方向相位已定：d_A=δ′_p abγ、2c_A/γ=δ′_p e_Aab，故η³C_N=−δ′_p e_Aab/2；a,b为α,β mod√−3的±1，e_A由模2非零列给出。所有有限处integrality+Kronecker把相位缩为±，实际3处Jordan/Tate线与原二jet读出ab；R1020遂给原带符号五次H值。共同δ′保留，primitive/Legendre同h与bare仍开。
+[R1027](results/R1027-original-level-p-squared-theta-distribution-and-constant-one.md)：全部p≥41、p5mod6原D_p=1，4η⁶C_N²=1，Σa_i²a_(N−i)²=−1/4。真实Lp²第p theta分布在Frobenius子空间为(Dv)^p；保A†拉回全部total-D阶p交叉项与刚化[p]=−Frob²双轴符号，得d_A d_A†^p=γ/κ；R1025原符号付清绝对常数。共同δ′只剩±1，原两mask/bare仍开。
 
-R1022已证4η⁶C_N²=D_p∈(Fp×)²全方向相同，D_p=−4Σa_i²a_(N−i)²；p5mod12准确为1。R1020的原H_p/C_N=120εt·aχ(Nα)²(χᾱ+β̄)/(6B)⁵保全部tame相位，R1025现付清方向±。不得删共同单位或两mask。
+[R1025](results/R1025-original-theta-exact-mod-six-direction-phases.md)：原d_A=δ′abγ、2c_A/γ=δ′e_Aab；a,b取α,β mod√−3的±1，e_A取模2列符号。所有有限处与实际3处Tate二jet定方向符号，R1027现定δ′²=1。原两mask不删。
+
+R1022原常平方由R1027全行定为1。R1020保原H_p/C_N=120εt·aχ(Nα)²(χᾱ+β̄)/(6B)⁵；R1025/27付清方向±和共同平方，不代两mask。
 
 p=6N+5，h=6i+7，i+j=N−1，必须同一个原本原h上
 P_(h−1)(1/s)f_i g_j≠0，s²=−3；原Norm/两CM权/相位不换。

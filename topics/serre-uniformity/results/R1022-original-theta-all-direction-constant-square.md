@@ -453,3 +453,13 @@ canonical kernel splitting、回文符号、\(H\) 的整性、
 \((\delta'_p)^2=D_p\)；共同单位仍保留。
 其证明使用所有有限处整性及真实三处 Tate 线，不以方向抽样猜符号。
 原 primitive/Legendre 两 mask 仍须继续。
+
+
+## 后继：全部行的绝对常平方现为一
+
+[R1027](R1027-original-level-p-squared-theta-distribution-and-constant-one.md)
+用实际 \(L_{p^2}\) 的 genuine 第 \(p\) 个 theta distribution、
+\(A^\dagger A=[p]\) 的刚化复合及 R1025 的实际 dagger 符号，
+证明全部 \(p\ge41,\ p\equiv5\bmod6\) 都有 \(D_p=1\)。
+共同 \(\delta'_p\) 仍保其 \(\pm1\) 符号；原 primitive/Legendre
+同标签和 bare 完整余项不因此自动关闭。
