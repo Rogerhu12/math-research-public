@@ -677,3 +677,5 @@ R208完整注入组e297410f：同3态由J30/K7/N64的932维插1/20、7/20、5/12
 
 - [K19十二次真实接受及恢复入口](notes/2026-11-26-6a65-cauchy-same-job-recovered-transition.md)：当前CI父态与157541点observer都真0，密观察metric.1890794/κ13.02914仍欠。新明确source/recipe从实际末态重生短Cauchy、.14入口、自然周长、纯clock、完整rho fit/value，再完整LM；Node语法及错误recipe拒绝实际0，组合新数值结果尚未发生。
 - 09:18本地pure-clock normal capture真-9/160.282s，无normal或末态；随后环境失盘，09:38真实重克隆/pull恢复，双README未变。失联期间API读不冒literal pull；旧本地raw/未公开源身份不复用。同job仍实际in_progress，继续真正完整求解。
+
+- 2026-11-26 09:44 UTC｜Astra-visible-flex-6a65e705-20261126：新source 28c629a0627 已公开；严格匹配当前9ada2ac0父态/7c11d591观察，发送同job完整Cauchy新输入及12次尝试配方。实际controller parse_plan通过；请求不计新基线/接受，等真实同runner消费并继续核验。
