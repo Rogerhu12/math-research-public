@@ -5,7 +5,7 @@
 
 ## 1. 授权、规则与继承
 
-公开本次实际pull且根/题README已读至 **1e79adc1ca242e390a38aa7d41bcdc187782ca8e**；根/题规则相对继承0749a4cc仍为空差异。私库实际pull/根README已读至 **67ef1777c8910b9bfb7ccff27c1c9d832a5d373e**，2026-11-26 23:15:24 UTC空diff；下次不晚于2026-11-27 00:14 UTC。QUEUE唯一仍本会话进行中，原认领09f8b8b54e。
+公开本次实际pull且根/题README已读至 **c9114548e0f025a68360fa912be9d91a4c153172**；根/题规则相对继承0749a4cc仍为空差异。私库实际pull/根README已读至 **67ef1777c8910b9bfb7ccff27c1c9d832a5d373e**，2026-11-26 23:15:24 UTC空diff；下次不晚于2026-11-27 00:14 UTC。QUEUE唯一仍本会话进行中，原认领09f8b8b54e。
 
 每次pull只读根/题README差异并记SHA，至少每小时；NFF/ref锁立即pull --rebase再推至成功。root独占git和四索引，每条结论即推；科学只公开Actions，本地只纸证/源码及原日志JSON/hash解析。根12不重放已付门；根15不存raw/可重算表，必要新场再生全计费。H<10KB/open<30KB/md<100KB；publisher活跃不改tracked。
 
@@ -23,9 +23,9 @@
 
 ## 4. B030当前56e8，旧队列已经闭合
 
-[partial391原终态](notes/2026-11-27-r566-partial391-original-terminal.md)run45900339926/job140184283363/sourceb6343b326；2370.208649153秒。原391复用/1128补完后55e才接受；共8metric+2恢复，含一次恢复η上升。真q **56e8d87b39bf336a4cdb8c4106108396e735c498254a9e51c1a84c503904fb2f**，1388×3072/8886峰η.22244446600107332、物理V0；margin约1.24e−12违约在原容差内，非严格正余量。
+[partial391原终态](notes/2026-11-27-r566-partial391-original-terminal.md)run45900339926/job140184283363/sourceb6343b326；2370.208649153秒，原391复用/1128补完后55e才接受，共8metric+2恢复（含η上升）。真q **56e8d87b39bf336a4cdb8c4106108396e735c498254a9e51c1a84c503904fb2f**，1388×3072/8886峰η.222444466001、物理V0，margin1.24e−12在原容差内、非严格余量。
 
-actual694圈/1555峰/309work/1536角/trust.3003387451171875，新fine1390未获旧1388资格。pending双空、无PARTIAL，旧队列不再跑。21完整Jac/1164块+未闭第22矩阵4块，0自然后端返回；末05f2636a全物理过但η.2376不改善而拒绝。已知链≥14729.212126063秒，未知仍未知。[正常56e8范围](notes/2026-11-27-r566-normal56e8-resume-implementation.md)run45909082053/job140212809662/source5cd6055b，23:08:06 UTC启动，待原自然终态；新1390完整资格不计metric接受。[真实secant源码证据与新协议](notes/2026-11-27-r566-true-secant-restart-source-receipt.md)已审发布：原33次首callback均先于BFGS，32真交换；旧H/λ未存，首次I，后用同冻结λ/同行函数的已付两J，phase/角语义变重置。native最小初H钩子实现中。
+actual694圈/1555峰/309work/1536角/trust.3003387451171875；新fine1390未获1388资格，pending双空，旧队列不再跑。21完整Jac/1164块+未闭4块、0自然后端返回；末更差05f被拒。已知链≥14729.212126063秒，未知仍未知。[正常56e8](notes/2026-11-27-r566-normal56e8-resume-implementation.md)run45909082053/job140212809662/source5cd6055b，23:08:06 UTC启动，待自然终态；新baseline不计metric接受。[真实secant协议](notes/2026-11-27-r566-true-secant-restart-source-receipt.md)证原33首callback先于BFGS/32交换；旧H/λ未存，首次I，后用同冻结λ/同行函数的已付两J，phase/角语义变重置。native新实现待发布。
 
 ## 5. 完整S与真正固定E的增长模型
 
@@ -33,11 +33,11 @@ actual694圈/1555峰/309work/1536角/trust.3003387451171875，新fine1390未获�
 
 [正常397续算](notes/2026-11-27-r613-actual397-normal-continuation-scope.md)run45909455678/job140214007842/source12e47b06，23:11:43 UTC启动；原950×256/1728×512/S奇1…127/完整QR-SVD/60步均不改。独立R618新路线冻结**这份397完整q/amp/H/原reconstruction**为唯一固定E，之后正常路径的新H/q不替换其目标。旧337/277及所有费用完整继承。
 
-R617有限pre+post刚性不授有限误差下界。R618已付同完整E/同均值根/全2J核心ζ/τ链；[完整height与chain](notes/2026-11-27-r618-complete-growing-post-fixed-metric-model.md)62836B/87fdb14d与17855B/0668d1af已审发布，保1129旧非mean和真到rc全平非齐次尾。实际response/r/θ/meanθ/model、原唯一restore与真tail_anchor身份已补齐。S→η/导数jets只在同根/primitive alias付清后成立，[双直接位置读出](notes/2026-11-27-r618-same-fixed-metric-direct-position.md)已审发布，保所有原fine及双h；首actual397非零scope准备硬τ1/固定E，其余1472响应列完整求解。[全尾均值分支/帽口积分纸界与helper](notes/2026-11-27-r618-true-tail-mean-anchor-bounds.md)已审发布，旧germ/M/ODE误差不能默认0；[实际模型全系数anchor](notes/2026-11-27-r618-current-model-tail-anchor-producer.md)已审发布；七类源误差须显式登记，严格模式未付即拒、条件模式不赋零。
+R617有限pre+post刚性不授有限误差下界。R618已付同完整E/同均值根/全2J核心ζ/τ链；[完整height与chain](notes/2026-11-27-r618-complete-growing-post-fixed-metric-model.md)62836B/87fdb14d与17855B/0668d1af已审发布，保1129旧非mean和真到rc全平非齐次尾。实际response/r/θ/meanθ/model、原唯一restore与真tail_anchor身份已补齐。S→η/导数jets只在同根/primitive alias付清后成立，[双直接位置读出](notes/2026-11-27-r618-same-fixed-metric-direct-position.md)已审发布，保所有原fine及双h；[稳定坐标与薄消费入口](notes/2026-11-27-r618-stable-coordinate-bound-scope-path.md)已审发布：同E在W≤1用λ/W>1用ζ，参考同支嵌套盒的浮点观察不冒全角界；源/政策建模前绑定，旧文件不变。首actual397固定τ1/a1、其余1472响应列完整求解。[全尾均值分支/帽口积分纸界与helper](notes/2026-11-27-r618-true-tail-mean-anchor-bounds.md)已审发布，旧germ/M/ODE误差不能默认0；[实际模型全系数anchor](notes/2026-11-27-r618-current-model-tail-anchor-producer.md)已审发布；七类源误差须显式登记，严格模式未付即拒、条件模式不赋零。
 
 ## 6. 原十九态：R625首终态与新规范坐标续算
 
-R616原自然stall仍为31接受/1753.553893449秒，细四端过但原ruling1.31489e14，eta近边而无系数墙；不再扩旧盒。已证R619真M首层局部流、R620原有限ε三角规范/全Jac、R624唯一支合法输入、R625真实尾M/Vs与必要符号、R626完整两正定尾二次型/四次交与[R627](results/R627-joint-terminal-threshold-on-the-true-tail-box.md)原盒联合正阈值，见open原链接。它们不代整段原根。
+R616旧stall31接受/1753.553893449秒，细四端过而ruling1.31489e14、eta近边；不再扩旧盒。R619/620/624/625/626及[R627](results/R627-joint-terminal-threshold-on-the-true-tail-box.md)保真M流、全Jac/合法输入与联合尾阈值，原链接见open；均不代整段原根。
 
 [首次原终态](notes/2026-11-27-r620-r625-first-full-feedback-natural-final-agent.md)28.886597651秒/0接受，D/q/原65×19/seed/C²/fine已付，不重跑；未存LD锚与矩阵的必要重建另计。
 
