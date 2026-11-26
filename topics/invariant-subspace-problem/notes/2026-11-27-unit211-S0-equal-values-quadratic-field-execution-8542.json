@@ -1,0 +1,383 @@
+{
+  "schema": "isp-local-exact-execution-v1",
+  "session": "Astra-ISP-8542-20261127",
+  "utc": "2026-11-26T19:08:40.752705+00:00",
+  "source": "2026-11-27-unit211-S0-equal-values-quadratic-field-return-8542.py",
+  "source_sha256": "b7069f8779f512c3f50a3c889071bbd6712bf3227fdb9476dffc73ac100f494f",
+  "command": "PYTHONPATH=<python-flint-0.9.0> python 2026-11-27-unit211-S0-equal-values-quadratic-field-return-8542.py --seconds 120",
+  "python_flint": "0.9.0",
+  "exit_code": 0,
+  "elapsed_seconds": 12.27156,
+  "peak_rss_kib": 60284,
+  "stdout_sha256": "fc90e5e28a9b0b0d0bbb1225b1ccb9831cec18f7fc42060385caf05faf06c03f",
+  "stdout_bytes": 13131,
+  "original_input_sha256": "1ca70ab4b1840756d7251d43cddd1b0d4607b3ea9e4de35cd3aff611215d1469",
+  "original_polynomial_quotient_identities": 353,
+  "same_lambda_resultants": [
+    {
+      "bDegree": 156,
+      "exactQuotientIdentities": 66,
+      "normDegree": 312,
+      "pair": [
+        [
+          "P1",
+          "E1"
+        ],
+        [
+          "P1",
+          "EB"
+        ]
+      ],
+      "sha256": "d8c31b88abd1a723e2580956795626e718c0b65780edec81b9ea6b0f785309d2",
+      "subresultantDegrees": [
+        [
+          11,
+          24
+        ],
+        [
+          10,
+          46
+        ],
+        [
+          9,
+          66
+        ],
+        [
+          8,
+          84
+        ],
+        [
+          7,
+          100
+        ],
+        [
+          6,
+          114
+        ],
+        [
+          5,
+          126
+        ],
+        [
+          4,
+          136
+        ],
+        [
+          3,
+          144
+        ],
+        [
+          2,
+          150
+        ],
+        [
+          1,
+          154
+        ],
+        [
+          0,
+          156
+        ]
+      ]
+    },
+    {
+      "bDegree": 156,
+      "exactQuotientIdentities": 66,
+      "normDegree": 312,
+      "pair": [
+        [
+          "P1",
+          "E1"
+        ],
+        [
+          "P1",
+          "EC"
+        ]
+      ],
+      "sha256": "51b8f11390695594736851eddefbbcc054378ea7f9224158bd30bfa964b184a8",
+      "subresultantDegrees": [
+        [
+          11,
+          24
+        ],
+        [
+          10,
+          46
+        ],
+        [
+          9,
+          66
+        ],
+        [
+          8,
+          84
+        ],
+        [
+          7,
+          100
+        ],
+        [
+          6,
+          114
+        ],
+        [
+          5,
+          126
+        ],
+        [
+          4,
+          136
+        ],
+        [
+          3,
+          144
+        ],
+        [
+          2,
+          150
+        ],
+        [
+          1,
+          154
+        ],
+        [
+          0,
+          156
+        ]
+      ]
+    },
+    {
+      "bDegree": 156,
+      "exactQuotientIdentities": 66,
+      "normDegree": 312,
+      "pair": [
+        [
+          "P1",
+          "E1"
+        ],
+        [
+          "P1",
+          "N1"
+        ]
+      ],
+      "sha256": "2da5c9f10ef020b619b5fa5d178e8778a5cc65f7be6890a1661b2fd04df9438b",
+      "subresultantDegrees": [
+        [
+          11,
+          35
+        ],
+        [
+          10,
+          56
+        ],
+        [
+          9,
+          75
+        ],
+        [
+          8,
+          92
+        ],
+        [
+          7,
+          107
+        ],
+        [
+          6,
+          120
+        ],
+        [
+          5,
+          131
+        ],
+        [
+          4,
+          140
+        ],
+        [
+          3,
+          147
+        ],
+        [
+          2,
+          152
+        ],
+        [
+          1,
+          155
+        ],
+        [
+          0,
+          156
+        ]
+      ]
+    }
+  ],
+  "finite_b_cover": [
+    {
+      "degree": 1,
+      "multiplicity": 1,
+      "polynomial": "x"
+    },
+    {
+      "degree": 1,
+      "multiplicity": 1,
+      "polynomial": "x + (-1/2)"
+    },
+    {
+      "degree": 2,
+      "multiplicity": 1,
+      "polynomial": "x^2 + (-31/49)*x + 17/196"
+    },
+    {
+      "degree": 2,
+      "multiplicity": 1,
+      "polynomial": "x^2 + (-40/49)*x + 8/49"
+    },
+    {
+      "degree": 2,
+      "multiplicity": 1,
+      "polynomial": "x^2 + (-80/49)*x + 32/49"
+    },
+    {
+      "degree": 8,
+      "multiplicity": 1,
+      "polynomial": "x^8 + (-160/49)*x^7 + 2603121970495552/621651170018641*x^6 + (-1616747953596928/621651170018641)*x^5 + 445916973585408/621651170018641*x^4 + 1336424316928/621651170018641*x^3 + (-30846579507200/621651170018641)*x^2 + 985112510464/88807310002663*x + (-9807331328/12686758571809)"
+    }
+  ],
+  "original_q_fiber_returns": [
+    {
+      "excluded": true,
+      "phi": "x",
+      "reason": "original_b_is_nonzero"
+    },
+    {
+      "bDegree": 1,
+      "bezoutIdentities": 18,
+      "divisionIdentities": 39,
+      "excluded": true,
+      "inverseIdentities": 57,
+      "phi": "x + (-1/2)",
+      "qGcdDegrees": [
+        12,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "remainingQDegree": 0,
+      "removedPaidUnits": [
+        {
+          "degree": 1,
+          "paidUnit": "original_q"
+        },
+        {
+          "degree": 1,
+          "paidUnit": "original_q"
+        },
+        {
+          "degree": 1,
+          "paidUnit": "original_q"
+        },
+        {
+          "degree": 1,
+          "paidUnit": "original_q"
+        },
+        {
+          "degree": 1,
+          "paidUnit": "original_q"
+        },
+        {
+          "degree": 1,
+          "paidUnit": "original_q"
+        },
+        {
+          "degree": 1,
+          "paidUnit": "original_q"
+        }
+      ]
+    },
+    {
+      "bDegree": 2,
+      "bezoutIdentities": 2,
+      "divisionIdentities": 7,
+      "excluded": true,
+      "inverseIdentities": 10,
+      "phi": "x^2 + (-31/49)*x + 17/196",
+      "qGcdDegrees": [
+        5,
+        0
+      ],
+      "remainingQDegree": 0,
+      "removedPaidUnits": []
+    },
+    {
+      "bDegree": 2,
+      "bezoutIdentities": 16,
+      "divisionIdentities": 38,
+      "excluded": true,
+      "inverseIdentities": 55,
+      "phi": "x^2 + (-40/49)*x + 8/49",
+      "qGcdDegrees": [
+        12,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "remainingQDegree": 0,
+      "removedPaidUnits": [
+        {
+          "degree": 2,
+          "paidUnit": "previously_closed_Af_zero"
+        },
+        {
+          "degree": 2,
+          "paidUnit": "previously_closed_Af_zero"
+        }
+      ]
+    },
+    {
+      "excluded": true,
+      "inverseIdentities": 1,
+      "phi": "x^2 + (-80/49)*x + 32/49",
+      "reason": "original_c_is_nonzero"
+    },
+    {
+      "bDegree": 8,
+      "bezoutIdentities": 9,
+      "divisionIdentities": 28,
+      "excluded": true,
+      "inverseIdentities": 38,
+      "phi": "x^8 + (-160/49)*x^7 + 2603121970495552/621651170018641*x^6 + (-1616747953596928/621651170018641)*x^5 + 445916973585408/621651170018641*x^4 + 1336424316928/621651170018641*x^3 + (-30846579507200/621651170018641)*x^2 + 985112510464/88807310002663*x + (-9807331328/12686758571809)",
+      "qGcdDegrees": [
+        12,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        0
+      ],
+      "remainingQDegree": 0,
+      "removedPaidUnits": []
+    }
+  ],
+  "closed": true,
+  "scope": "S=0,h=k,2lambda^2=1 only; combining the earlier lambda=1/2 proof closes all h=k on S=0.",
+  "ordinary_isp_claim": false
+}
