@@ -5,9 +5,9 @@
 
 ## 1. 授权、规则与前史
 
-公开本次实际pull且根/题README已读至 **b372945a90fc05b02073093c32626b5648f85b32**；相对继承0749a4cc根/题规则仍为空差异。私库实际pull/根README已读至 **2dcbca6979066ac65a5e161f6d360c2b7a49bd6b**，2026-11-26 22:28:22 UTC根README空差异；下一不晚于23:27 UTC。QUEUE本会话唯一进行中，原认领提交09f8b8b54e7cfaabaa635bae5c438c7f1521289a。
+公开本次实际pull且根/题README已读至 **22172d407a894d06983c3bc23e0b2f608886a47b**；相对继承0749a4cc根/题规则仍为空差异。私库实际pull/根README已读至 **2dcbca6979066ac65a5e161f6d360c2b7a49bd6b**，2026-11-26 22:28:22 UTC根README空差异；下一不晚于23:27 UTC。QUEUE本会话唯一进行中，原认领提交09f8b8b54e7cfaabaa635bae5c438c7f1521289a。
 
-[H全文归档](notes/HANDOFF-before-fixed-E-and-K-only-20261127.md)及其链保全部旧结论、费用、输入与量词。[当前open](open.md)已重组为真实14d1/7371/337、新K-only/固定E/原BVP；[旧open全文](notes/open-before-fixed-E-and-K-only-20261127.md)不丢旧实例。[四来源与文献](notes/2026-11-27-current-four-source-topics-and-literature.md)保已读版本和准确用途。
+[H全文归档](notes/HANDOFF-before-59a4-56e8-and-fixed-E-20261127.md)及其链保全部旧结论、费用、输入与量词。[当前open](open.md)已重组为真实14d1/7371/337、新K-only/固定E/原BVP；[旧open全文](notes/open-before-fixed-E-and-K-only-20261127.md)不丢旧实例。[四来源与文献](notes/2026-11-27-current-four-source-topics-and-literature.md)保已读版本和准确用途。
 
 每次实际pull查根/题README差异并记SHA，至少每小时；NFF/ref锁立即pull --rebase推至成功。root独占git/四索引，每结论即推；科学只公开Actions，本地限纸证/源码与原记录解析。根12不重放已付门、根15不存raw/可重算表，必要新场再生全计费；H<10KB/open<30KB/md<100KB，publisher活跃时不改tracked。
 
@@ -21,11 +21,13 @@
 
 [正常298范围](notes/2026-11-27-r582-physical-pending298-resume-implementation.md)run **45901312947**/job140187488430/source98ded25f6，21:54:44 UTC启动，待自然原log。33绑定/全部原数值函数不改，唯一参数入口279→298，新11103须新完整资格；全部旧fine/pending保留。p阶段2.5e−7未过不增，目标p=.8/末η≤1e−7，mean g仍是设计变量。原62878端点mesh **0d222bd12ce8a61d0c88264c6fb5c82066f0ca058855b5bf7a670a53b483a991**，有限材料不冒无限核；a237/f1几何不可移给14d1。全部原费用保[前史](notes/2026-11-27-r582-physical-paid-resume-original-terminal.md)。
 
-## 4. B030：真实7371与原391/1128定位队列
+## 4. B030：真实56e8，旧391/1128队列已全部闭合
 
-[原epigraph终态](notes/2026-11-27-r566-physical-epigraph-original-terminal.md)run45892179085/job140157246913/source1530094182；新2370.192668793秒/15metric+1恢复/33Jac。真81q **7371a880eaa603c17191acc747847817dd1e846196ee0d4e74548a125c898513**，1298×3072/1515全峰η.2277496382670385、物理V0；actual660圈/1473峰/573work/1536角、trust.3003387451171875。当前fine1322，旧1298资格不自动扩大；恢复一步η上升、全部物理拒绝保留。科学链下界12359.003476909998秒，旧未知仍未知。
+[partial391原终态](notes/2026-11-27-r566-partial391-original-terminal.md)run45900339926/job140184283363/sourceb6343b326；新2370.208649153秒，原391复用/1128补完后旧55e真实接受；本段8metric+2恢复，含一次恢复η上升。真81q **56e8d87b39bf336a4cdb8c4106108396e735c498254a9e51c1a84c503904fb2f**，1388×3072/全部8886峰η.22244446600107332，物理V0；ball/working margin违约约1.24e−12在原容差内，非严格正余量。
 
-末55e30fac8df3438d4e5d627f2c8ac9f867c67357db524e99589009bb8ad6ef36未接受；同1322 coarse/fine/nested已付，1519bracket中391闭/1128剩余，oracle5bfa207c。先补原队列再采用5physical/5working pending。[391范围](notes/2026-11-27-r566-partial391-resume-implementation.md)run **45900339926**/job140184283363/sourceb6343b326，21:45:53 UTC启动；全部门/参数保留、原峰和fine不重播、内BFGS未保存不伪恢复。新原log分析显示32完成outer=6coarse交换+16fine接受交换+9fine拒绝交换+1恢复切相位，第33仅checkpoint；不是33次完成交换。Jac520.479508672秒。SciPy原callback早于BFGS更新，后继在研究真实Jac/同旧乘子的正定secant延续，尚未开范围，不改在跑源。
+actual694圈/1555峰/309work/1536角、trust.3003387451171875；新requiredfine1390未自动获旧1388资格。pending双空、无PARTIAL，旧队列不再跑。21完整Jac/1164块+未闭第22矩阵4块，0自然后端返回；末05f2636a η.2376已全检但不改善而拒绝。总已知科学链下界14729.212126063秒，未知仍未知。
+
+接真实56e8正常续算、保全部永久坐标/原物理门；未存内部BFGS不伪恢复。原callback在BFGS更新前交换库的事实保留，后继真实Jac/同旧乘子的正定secant算法研究尚未科学执行。全部旧接受/恢复/物理拒绝/费用见本收据及其原[epigraph](notes/2026-11-27-r566-physical-epigraph-original-terminal.md)。
 
 ## 5. 全奇位置：真实337与完整固定E模型
 
