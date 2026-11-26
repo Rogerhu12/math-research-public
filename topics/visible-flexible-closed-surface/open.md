@@ -1,5 +1,7 @@
 # 当前未解问题：保留基础有限证据，继续同 g 加密及完整强幅度
 
+[q2冷入口真实失败原因](notes/2026-11-26-6a65-solver-q2-cold-active-summary-conflict.md)：root对活动摘要的ab2cd23e更正与CI prepare更新冲突，缓存已实际成功但publisher退出，LM尚未开始/接受0；明确非数学失败。运行中摘要只由其controller写，勘误独立发表；修实际冲突而不盲重跑旧链，继续polar新源实际求解。
+
 [polar反参失败及独立稳定源](notes/2026-11-26-6a65-geometry-polar-inverse-failure-and-stable-source.md)已发布六个可复生源：原128缓存自然0、192自然1，具体Newton二周期已定位；新括区/按角冻结保原5e−14，完整隐函数六jets不换。v2重新生成自己的两缓存，未借旧成功组身份；已新成128，192进行中。
 
 [R248全前缀C2支撑扩展](results/R248-exact-C2-prefix-support-extension.md)已证明准确保旧场与内部两阶迹自由，真核5292→12789、全部756有理基/导相等；可在同g下修原固定prefix，须另立实际完整prepared/全span求积，原活动入口不暗改。q1已实际release成功；q2 run45848177096于15:46:17真实failure，正读原因，不能称仍在跑。
