@@ -460,3 +460,6 @@ AI-assisted GPT-6 Astra Pro：N型全部低carry准确为向量⊗同一y_r，�
 
 ## 2026-11-26 22:07:12 UTC — Astra-ISP-8542378f-20261127：原奇幂强恢复及全部实际子商
 AI-assisted GPT-6 Astra Pro：固定奇p的p−1二进位支持作不交高位组，原normalized幂乘积与纯物理创建差由可和eta逐项支付；完整柱向量方差(2^k−1)/L及统一2^k范数给强单位R_L。B R_L的每项次数为p倍数，故原B从B^p有界强恢复；一般幂完整有限重数交换子及同一真实旗子商上的恢复随之成立。未知子商的全空间根分类仍不可移植。
+
+## 2026-11-26 22:22:31 UTC — Astra-ISP-8542378f-20261127：全部整幂根与真实闭域限制
+AI-assisted GPT-6 Astra Pro：奇幂恢复把任意q根放入正确有限放大交换子，深头完整Jordan块得q|pk，companion付充分性。闭图及同域移幂排除有限整幂全像正则化，未替代PH⊂DomT。私库22:13:10 UTC实际pull至d5fa06df，README diff无变、QUEUE仍本会话；H/open全量快照压缩后继续原未闭接口。

@@ -4,7 +4,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-original-N-Hermite-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-general-root-domains-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -146,7 +146,7 @@ A单射、稠密像、拟幂零且非紧；普通非零真闭不变子空间仍�
 
 **[明确可测平坦同源返回](results/R12-appendix-measurable-flat-common-source-recursion-and-all-negative-graphs.md)已完成：** 正测紧集避全部整数，实际R_nAf_(n−1)=f_n、普通范数统一、全部固定负幂图范数返回；全n,k原权预算保留。累计五次费仍未降至第n逆像的四次费，且没有未知M保持；继续直接限制未知普通M的原算子关系，不以继续优化此全空间例子替代该接口。
 
-**[全部原尾根的重数整除与不变投影距离](results/R12-appendix-tail-root-multiplicity-and-all-invariant-projection-distances.md)已完成：** 有界q次根⇔q|k由逐尾交换子字符和完整Jordan秩证明。任意普通M经真有限头坐标不可能同构onto整个尾，||P_M−Q||=1；非零真P_M距UHF/UHF+K为1/2。直接限制未知M；剩余图必须保实际真尾底空间、非满像或无界逆，不能用该整重数结论排除它们。
+原尾有界根及不变投影距离完整结论见[正文](results/R12-appendix-tail-root-multiplicity-and-all-invariant-projection-distances.md)。普通M的有限头真像仍须保非满像或无界逆；全尾字符不可移给未知限制。
 
 **[原形式除法的实际闭关系](results/R271-appendix-actual-formal-division-closed-relation-and-two-range-cores.md)已付：** 原TJ_B有限支撑图闭包的多值部恰Ce0；投去它后有N⊂ker A_min⊂M及I⊂J⊂N⊥。最大伴随域是实际T*像可除域，其闭包为e0⊥。继续分别证明J=I和J=N⊥，不能用一维多值部或单一图核心代稳定缺陷结论。
 
@@ -171,3 +171,6 @@ Deddens自伴MASA、全部可分重数有限成本投影、全2-adic平移距离
 [同源dyadic两边界](results/R271-appendix-exact-dyadic-division-graph-boundaries-and-cayley-cost.md)已付，含Y全逆和可能增长的h^(<r)成本；指定prefix-cut当且仅当λ_r||y_r||及真实头顶行趋零。一般W的最大图域/这两费仍需原来源证明。
 
 [原奇幂有界强恢复](results/R12-appendix-odd-power-strong-recovery-all-power-commutants-and-actual-subquotients.md)已付，全部p的Lat/交换子只依v₂p，且同一多项式降到每个实际闭不变子商。未知子商不因此成为完整尾；继续根与平坦像的真实域包含。
+
+
+[全部整幂根与闭域](results/R12-appendix-all-integer-power-root-multiplicity-and-closed-root-domains.md)已证X^q=λI_k B_m^p有界解恰当q|pk。不整除的闭稳定域根不能包含任何完整Ran B_m^r；奇p域保持由同一强恢复支付。平坦接口仍为PH⊂DomT，P的像在所有幂像内不支付此包含。
