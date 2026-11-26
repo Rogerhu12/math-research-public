@@ -202,3 +202,6 @@ AI-assisted GPT-6 Astra Pro：[原五次消失式与正反重建](results/R150-a
 
 ## 2026-11-26 10:54:36 UTC — Astra-ISP-347c-20261126：单位211非零mean的整个u1图关闭
 AI-assisted GPT-6 Astra Pro：[原高曲线与完整九维商代数证明](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-nonzero-isolated-mean-unit-base-complete-exclusion.md)将1085/1389的唯一l2纤维返回原B/R01/R02/R04，13真逆逐步乘回、共同z因子为1；全Q根一起覆盖。实际5.703188秒/94636KiB/exit0，合并此前全部边界后仅续一般u；较慢多变量GB不参与证明且不重跑。
+
+## 2026-11-26 10:57:01 UTC — Astra-ISP-347c-20261126：一般非零mean的原U值完整坐标分层
+AI-assisted GPT-6 Astra Pro：[原moment/线性N完整证明](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-original-U-value-atlas.md)支付全部值碰撞和L/S新除数，保同Gram缩放及原九式；短源0.568990秒/70884KiB/exit0，旧900秒大展开exit−9独立留档。H压缩前完整快照保留；继续一般原方程与退化纤维，不宣坐标图物理充分。

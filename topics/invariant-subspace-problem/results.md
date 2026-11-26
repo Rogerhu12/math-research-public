@@ -231,3 +231,5 @@
 - **R150 H二重加单点、Hp0、有限孤立源的完整等价有理重建（2026-11-26，已证明）：** [原五次消失式和全部尺度反演](results/R150-appendix-rank-three-double-plus-single-zero-hp-finite-source-rational-reconstruction.md)消去全部y与平方根，四几何式、一个原范数和11/16全极线系数与原完整临界系统正反等价；保V∞降次及完整Γ。四源全有限再给12条低次对称原式，所有新单位由原尺度强制；纯手证，不把归约或有限域探针当空性。
 
 - **R150 单位211非零孤立点均值的整个单位基点均值图为空（2026-11-26，已证明）：** [原混合行列式及整九维系数代数](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-nonzero-isolated-mean-unit-base-complete-exclusion.md)以QQ1085/1389 gcd迫l2，Q九次全部纤维的原z共同因子6→1→1→0，13次真逆和除法逐步乘回。run45804559912/job139856248459、1cfd5100、5.703188秒/94636KiB/exit0。合并有限覆盖/半权和旧全边界，整个p+q2/u1图关闭；一般u继续。
+
+- **R150 单位211非零mean的原U值完整分层与L/S线性退化图（2026-11-26，已证明）：** [原moment、全局E0/N0和原N(V)线性身份](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-original-U-value-atlas.md)保三种值碰撞、P0=−U0³及全部原九式；t系数bcLS/[2(q−1)]给五坐标图，L0/w1全部降到QQsqrt17的rho/f/t。run45803350694/job139852028816短原身份0.568990秒/70884KiB/exit0；旧大展开超时失败分记，未宣物理充分性或全层空。

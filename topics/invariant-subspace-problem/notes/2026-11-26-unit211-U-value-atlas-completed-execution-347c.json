@@ -1,0 +1,93 @@
+{
+  "elapsed_seconds": 0.8710056850000001,
+  "max_child_rss_kib": 70884,
+  "ordinary_isp_claim": false,
+  "rules_reads": [
+    {
+      "after": "31ec7ed7c882830bd16e320a111f93f8ef161c67",
+      "before": "31ec7ed7c882830bd16e320a111f93f8ef161c67",
+      "rules_git_blobs": {
+        "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+        "topics/invariant-subspace-problem/README.md": "fef43bdf8690f2eec4751d85784a266eacdd0322"
+      },
+      "rules_unchanged": true,
+      "utc": "2026-11-26T10:39:39.063623+00:00"
+    }
+  ],
+  "run_attempt": "1",
+  "run_id": "45803350694",
+  "schema": "isp-frozen-exact-actions-execution-v1",
+  "session": "Astra-ISP-347c-20261126",
+  "source_commit": "31ec7ed7c882830bd16e320a111f93f8ef161c67",
+  "source_exit_code": 0,
+  "source_git_blob": "91fad0d4be319fe57760ac51f7ee2a6b448bbb5a",
+  "source_sha256": "da790bddccce690e0e12cbe3941b6c02c2912319f646c5195834408b4bde965f",
+  "stdout_bytes": 1317,
+  "stdout_sha256": "a208e272b4d18051e4dddf7abc400dd890ea327387a4a07fd1deb260fc2f63df",
+  "stop_reason": null,
+  "job_id": "139852028816",
+  "math_result": {
+    "claimLambdaLayerEmpty": false,
+    "claimPhysicalSufficiency": false,
+    "elapsedSeconds": 0.56899,
+    "fiveCoordinateExpansionGenerated": false,
+    "newDivisors": [
+      "L=q(h-1)-(k-1)",
+      "S=h+k+1-2lambda"
+    ],
+    "ordinaryISPClaim": false,
+    "originalNineConditions": [
+      {
+        "name": "E1",
+        "terms": 31,
+        "totalDegree": 5
+      },
+      {
+        "name": "EB",
+        "terms": 51,
+        "totalDegree": 5
+      },
+      {
+        "name": "EC",
+        "terms": 51,
+        "totalDegree": 5
+      },
+      {
+        "name": "2(P1-3wP0)",
+        "terms": 29,
+        "totalDegree": 7
+      },
+      {
+        "name": "2(PB-h3P0)",
+        "terms": 47,
+        "totalDegree": 9
+      },
+      {
+        "name": "2(PC-k3P0)",
+        "terms": 47,
+        "totalDegree": 9
+      },
+      {
+        "name": "4(N1-2lambda*wP0)",
+        "terms": 97,
+        "totalDegree": 8
+      },
+      {
+        "name": "4(NB-lambda*h2P0)",
+        "terms": 116,
+        "totalDegree": 9
+      },
+      {
+        "name": "4(NC-lambda*k2P0)",
+        "terms": 116,
+        "totalDegree": 9
+      }
+    ],
+    "originalNineEquationInputSha256": "943079b018af336d8ddfd4a4d993e4095cc90a83edc972f92ca5f1eda4894e1d",
+    "peakRssKiB": 70884,
+    "schema": "r150-original-U-atlas-small-identities-v1",
+    "sourceSha256": "da790bddccce690e0e12cbe3941b6c02c2912319f646c5195834408b4bde965f",
+    "status": "all_original_identity_and_complete_value_atlas_checks_pass"
+  },
+  "old_large_expansion_success": false
+}
