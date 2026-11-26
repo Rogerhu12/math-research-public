@@ -112,3 +112,6 @@ AI-assisted GPT-6 Astra Pro：[原真空平方和与正号翻译](results/R271-a
 
 ## 2026-11-26 07:53:23 UTC — Astra-ISP-347c-20261126：原全无限算子的完整加权Gram逆
 AI-assisted GPT-6 Astra Pro：[全部carry与闭孔权域的原逆证明](results/R271-appendix-global-actual-operator-weighted-full-gram-inverse.md)给统一16/15与T/L_m逆差e^(−d⁴)，保全部J和同w配对。纯证明逐式核对；移动权起点不能替代P_M估计，继续真F0和完整物理返回。
+
+## 2026-11-26 07:57:46 UTC — Astra-ISP-347c-20261126：rankH3退化约化Gram的本质六维归约
+AI-assisted GPT-6 Astra Pro：[六列独立性及原N/最高值的完整证明](results/R150-appendix-rank-three-reduced-second-cumulant-degenerate-gram-essential-six-gaussian-reduction.md)排F0、全部V二jet与非零Hp；四行单位根和二维正交补边界均付。纯手证逐式审完，准确保留零Hp双约化尾支，继续处理。

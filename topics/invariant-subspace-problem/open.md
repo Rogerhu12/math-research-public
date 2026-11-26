@@ -58,6 +58,8 @@ $$
 
 若以19/56图处理，仍须每图真正 $g_i^{N_i}$ 原来源，再按 $N=1+\sum(N_i-1)$ 粘合，几何覆盖本身不代判空。即使根理想闭合，仍须原来源费用、Bell 算子共同域、振幅清分母与同 forcing 运输。原全W31/127的整来源存在性与费用不等于已枚举4212来源、系数高度或完整非 rank-one 算子桥。
 
+**[rankH3约化退化Gram的ess6新归约](results/R150-appendix-rank-three-reduced-second-cumulant-degenerate-gram-essential-six-gaussian-reduction.md)：** 原完整六列基与N/最高值给F0全空、V二jet全空，以及F≠0/Hp非零全空；四种行常数连同原N两V值付全单位根。准确余项为约化H/V、F≠0、Hp0、H Gram秩2且两非零边；不把H自身退化当总Gram退化，继续最后支及非退化H Gram、H多jet。
+
 ## 2. R271：同一来源的完整物理费用
 
 目标仍是 $M=\ker T$、$N=\overline{BM}$ 的 $N=M$。保同一 $w/u$、全部 partial、真实 intersection 旗、MP 自然域、负前缀/未来/carry、完整帽逆伴随及外投影；所有已闭引理只能按原范围组合。
