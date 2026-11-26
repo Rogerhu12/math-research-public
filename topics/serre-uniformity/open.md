@@ -24,7 +24,7 @@ R969公开三点113/131/227得到全mask rank10/11/19、A/E4组合及额外两q�
 
 [R1006](results/R1006-end-column-linear-cyclic-dimension-and-filtered-nonstability.md)：固定Eichler源在q^p前精确约化到原端列；完整Fuchs方程/有理无穷远指数、Jacobi带宽和固定Taylor子式证明端列G循环维数≥cp。与原本原列数结合，得一整无限允许素数等差族原V不G稳定。故全p稳定路线关闭；原mark与特定A/E4包含未否，继续它们。
 
-[R1009](results/R1009-end-column-order-four-CM-jet-bound.md)：原端列P_p在全部p≥41、p5mod6时，粗CM消失阶≤4；8093由旧R706的g_N单位与R995首导式关闭，无重算。真实十步方程经q^p精度/次数界转成固定PF非齐次方程，五个实际局部源输出的Taylor矩阵准确三角化，最后主项3⁴·8093/(2²⁰·25·11)；因此某j≤4的G^jP_p标记非零。该四阶在局部源中可达到，不决定真实零阶mark；5∤p+1时端列保留，继续证明原筛选列的真实有限CM来源，不要求全V稳定。
+[R1009](results/R1009-end-column-order-four-CM-jet-bound.md)：原端列P_p在全部p≥41、p5mod6时，粗CM消失阶≤4；8093由旧R706的g_N单位与R995首导式关闭，无重算。真实十步方程经q^p精度/次数界转成固定PF非齐次方程，五个实际局部源输出的Taylor矩阵准确三角化，最后主项3⁴·8093/(2²⁰·25·11)；因此某j≤4的G^jP_p标记非零。p≠8093时该四阶在局部源中可达到，不决定真实零阶mark；5∤p+1时端列保留，继续证明原筛选列的真实有限CM来源，不要求全V稳定。
 
 [R995](results/R995-original-mixed-source-for-the-first-coarse-CM-normal-jet.md)：原E−/Y−864、K=G⊗H+6F⊗Y_s、∇=∂−6ζ下，Π4DJ=Π4D²J=0使完整D³(∇²J)的两个中间Leibniz块真消；实际三支为G‴/216⊗𝒜+12uF′⊗(3𝑀−12G)+F⊗(12𝑀−144G+6ℛ)。复用旧MH3–4热式，全部P1/P2/P3与216P1P2保留，𝒜=∇²H‴，ζ修正不消G‴支。Ψ_ij首项=(a+1)(a+2)(a+3)g_(i+1)𝒜_j/216；原G(Z)mark=(25Z+Ψ)/144，E−正号/原mask/尺度不换。两个实际Taylor阶≤p−4,p−5、ζ权≤p−2，均整。root/literature逐式独审；新项尚无原retained关系，不冒G稳定或同h。
 
@@ -41,6 +41,8 @@ R969公开三点113/131/227得到全mask rank10/11/19、A/E4组合及额外两q�
 [R1002](results/R1002-ten-step-theta-companion-and-four-free-CM-jets.md)：真实W_(p−9)/η4=f权p−11，full Katz输入仍p−9，十步 L=T0…T−9=A^−1(A²D)^10A^−9，右6^−10A11XY。仅有限u至X11、∂u=1+O(X15)，不假完整charp primitive。J=<1,X³,X6,X9,X12>上rank1，kernel为A9u^e(e0/3/6/9)，特解c*X12单位；实际f的ord∈{0,3,6,9,12}且受global weight界。原末列(p−7)!Z=432D³f+75XDf−9Yf，mark/Y0^N=79R0−96R1；局部方程允许该值零或非零，不能代实际global归一。root/audit/literature全文独审，无执行。
 
 ## O2：完整原超奇异迹、真正CM packet及近顶unit系数
+
+[AS原坐标比较](notes/2026-11-26-ahlgren-samart-actual-low-coordinate-comparison.md)：同一q/eta模型、完整Cartier提取与Wilson–Dixon有限和给C_AS(p)=9β³/2，准确返回R988的G_(3(p−1))低单位，乘积−9/2。新Guerzhoy仅低µ=−β；Hanson–Jameson只指定五个固定一维CM空间。均未给原c_(p−r)或高Artin–Hasse坐标，须继续实际高源比较。
 
 原全SS和S含所有点、t0权1/非零H根权3/fine12/椭圆零项；指定j0项为零不能代全和。R936/939/941原trace、Jacobi ODE和CT公式全部已成，源C负RHS、β^p=β、Tate E6=−c6、η12=−6sD、KS正号保全。R963公开允许r2的1000<p≤1e5全部1582点无零；R967独立κ/g_p两点尺度通过，只有限证据。
 

@@ -8,7 +8,9 @@
 
 ## 新增结论（2026-11-26）
 
-- **R1009（已证明）**：[原端列四阶CM消失界](results/R1009-end-column-order-four-CM-jet-bound.md)：原端列P_p在全部p≥41、p5mod6时，粗CM消失阶≤4；8093由旧R706的g_N单位与R995首导式关闭，无重算。真实十步方程经q^p精度/次数界转成固定PF非齐次方程，五个实际局部源输出的Taylor矩阵准确三角化，最后主项3⁴·8093/(2²⁰·25·11)；因此某j≤4的G^jP_p标记非零。该四阶在局部源中可达到，不决定真实零阶mark；5∤p+1时端列保留，继续证明原筛选列的真实有限CM来源，不要求全V稳定。
+- **文献接口核准**：[AS原坐标比较](notes/2026-11-26-ahlgren-samart-actual-low-coordinate-comparison.md)：同一q/eta模型、完整Cartier提取与Wilson–Dixon有限和给C_AS(p)=9β³/2，准确返回R988的G_(3(p−1))低单位，乘积−9/2。新Guerzhoy仅低µ=−β；Hanson–Jameson只指定五个固定一维CM空间。均未给原c_(p−r)或高Artin–Hasse坐标，须继续实际高源比较。
+
+- **R1009（已证明）**：[原端列四阶CM消失界](results/R1009-end-column-order-four-CM-jet-bound.md)：原端列P_p在全部p≥41、p5mod6时，粗CM消失阶≤4；8093由旧R706的g_N单位与R995首导式关闭，无重算。真实十步方程经q^p精度/次数界转成固定PF非齐次方程，五个实际局部源输出的Taylor矩阵准确三角化，最后主项3⁴·8093/(2²⁰·25·11)；因此某j≤4的G^jP_p标记非零。p≠8093时该四阶在局部源中可达到，不决定真实零阶mark；5∤p+1时端列保留，继续证明原筛选列的真实有限CM来源，不要求全V稳定。
 
 - **R1008（已证明）**：[全部有理对应的野惯性中央化](results/R1008-wild-inertia-and-all-rational-correspondence-centralization.md)：原canonical level6p全H¹在三处野惯性平凡；原κ₄κ_d⁻¹扭曲将一个野惯性元素实现为δ，实际偶分支d∈Q₃ cubes。故整个End_Q(J_d)均中央化δ，包含非CM/旧形式/全部重数。R1007的三挠Picard投影及ℓ²高度整除因此适用于全部有理自对应，关闭原曲线上的新nondeck入口；保留底曲线η_h、其它完整高度及O0范围。
 
