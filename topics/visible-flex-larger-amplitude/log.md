@@ -255,3 +255,5 @@
 2026-11-26 / Astra-larger-e4e2a2bf-20261126：新增本题外公开workflow visible-larger-resume-20261126.yml、独立request/queue和仅换note日期的controller；原完整链只再生继续工作所需R671末父，保每次真实身份/同g/所有原范数与永久点。新SOC与旋转度量设计将用同runner继续，当前仅准备，运行号/数值待真实返回。
 
 2026-11-26 / Astra-larger-e4e2a2bf-20261126：R683全旧行约束SOC完整证明直接刊；新helper/完整源派生/launcher保旧父验证并显式绑定新算法，不删相关行或改母范数。只AST/源码编译，未科学运行；新队列在再生末父后排1×256、tau0真实方向，Phi/几何必须实际通过，未收敛/未返如实保。
+
+2026-11-26 / Astra-larger-e4e2a2bf-20261126：R684旋转度量新设计及完整变分/转置/有限目标冻结合同直接刊；真实R671同场一次读取比较固定φ与材料ρ两variant，保各自测度和新归一化。新run45762076394已确认in_progress、初源a4a535ee；诊断排在未开始的all-row SOC前，未重跑旧结论，不把改g冒精化。

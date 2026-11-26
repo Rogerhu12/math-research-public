@@ -4,7 +4,7 @@
 
 ## 规则与完整目标
 
-最近规则核查：2026-11-26，真实pull/rebase至 `4aeac62d01433d2d9bfcbc1518151750a32c1c05`，根及课题README相对f0548477无差异，已完整读授权及规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
+最近规则核查：2026-11-26，真实pull/rebase至 `e3781b9dc23bafa03e5345e1dd6ec3f1a8001bd5`，根及课题README相对f0548477无差异，已完整读授权及规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
 
 科学计算仅本公开仓库Actions；早前本地偏差及13:00 UTC纠正见[执行记录](notes/2026-11-20-public-actions-execution-correction.md)。根README已授权必要修改/发布；根唯一local git writer，代理只work/小源。每条结论普通commit/push；NFF立即pull --rebase循环再推，不强推。至少每小时pull，每次核双README差异/立即遵新规并记commit。raw只scratch/runner，不入Git/Release/artifact；只保完整小源/参数/run/SHA/紧凑结论。题≤200MB，MD<100KB，H<10KB，open<30KB。令牌只瞬时CLI，不写文件/提交/回复。
 
@@ -18,21 +18,15 @@ R653准确quarter；R654完整H²尺度；R655付原node/mid盲空间，故旧18
 
 .992/.025是当前算法必要点screen，不是reach证明；所有历史/新发现位置在每次新场真实复读。纯位置新入口只去任意100KB限和round13合并，保每个不同binary点；不删目标行/变量/范数。
 
-## 两条公开计算责任
+## 旧运行的真实末父与边界
 
-**求解/精化run44758209061/1**：[总索引](notes/2026-11-20-public-actions-44758209061-1.md)。初始源4ae16219，控制器591ad0fe分卷，source snapshot逐步固定；[原six及归因已返](notes/2026-11-20-actual-original-six-and-geometric-rejections.md)：e08cc378，Phi7.950104e−8/max.0117336774，六步全接受，product.9919991086，末mu不变。全步均降Phi但真实几何拒；未达度量目标。
+[旧run终态](notes/2026-11-26-actual-actions-terminal-and-geometric-scope.md)已核实：solver44758209061的42阶段正常结束；geometry44772201880到5h50m硬限被取消，完整K没有公开返回，不能当仍running或由SHA恢复旧raw。
 
-输入再生与旧c4a3字节同，完整清单cb095d37保1635曲率/244半径/19保护点；完整身份见索引。
+最新真实求解末父为R671的3ef8c4e1，见[实际PCG/SOC结果](notes/2026-11-20-actual-coarse-PCG-and-parent-row-SOC-result.md)：同λ1/eta885、原ray1/16，Phi8.45471390e−8/max.01204893/product.99197618，mu=.0007539530259341321；主QP256未驻点。26行SOC满rank但破其他旧C，slack最小−.0001067679，修正真Phi/几何未执行。连续证书不能由旧7fd移给3ef8。
 
-[R671实际v3及全first/R675已返](notes/2026-11-20-actual-R671-v3-and-complete-first-geometry.md)：97fd→7fd35275，lambda1/eta885，alpha.5，Phi8.52075845e−8/max.01209078/product.99197460，末mu=.0007539530259341321。QP256未驻点；fullPhi7.82023e−8却product1.00126764。新场全922嵌入/support≥.29455858，D≤4.11896941，held/D≥.22806068，活动内域非平面已付；marker/E/K/reach未付。
+7fd自身已有全922嵌入/support≥.29455858、D≤4.11896941、held/D≥.22806068及活动非平面；[连续metric实际](notes/2026-11-20-actual-continuous-metric-and-refined-ray-diagnosis.md)严格lower .01195265>1e−6，因此该场必须改变。旧径向fine仅很小下降，不证精化收敛。
 
-run2：[同g径向二分](notes/2026-11-20-actual-fixed-g-radial-refinement-result.md)仅alpha1/256，final daffb002，不证精化收敛；[纯读诊断](notes/2026-11-20-actual-continuous-metric-and-refined-ray-diagnosis.md)前8trial均降Phi但geometry拒，7fd严格lower .01195265>1e−6/完整upper=null。
-
-[PCG+SOC实际已返](notes/2026-11-20-actual-coarse-PCG-and-parent-row-SOC-result.md)：7fd→3ef8c4e1，原ray alpha1/16，Phi8.45471390e−8/max.01204893/product.99197618，mu原值。v4 256未驻点，coarse构造/应用成功；SOC26满rank却破旧Cold，slack最小−.0001067679，未做修正真Phi/几何。下一项为保全部旧行的约束SOC；旧场连续证书不移用新3ef8。
-
-**独立几何worker03**：[run44772201880/1](https://github.com/Rogerhu12/math-research-public/actions/runs/44772201880)，初源e0d4892a，[实际索引](notes/2026-11-20-public-actions-44772201880-1.md)。[真实新场756936ee首jet/半径已返](notes/2026-11-20-geometry03-actual-field-and-radius-return.md)，不是c4a3；warm起字节不同；[有限静态核对](notes/2026-11-20-warm-reproduction-static-scope.md)未见简单RNG/未赋值缺陷，实际成因未归。全922嵌入sigma≥.29654，Dbody≤4.09930034/Dmarked≤4.10130034，held/D≥.22886895、grip/D≥.21944259。原8ca全K目标8.1未返，继而同场准确组合；不得跨run继承证书。逐胞续接f476仅准备，不改已admit核。
-
-旧run44748103105因95KB发布失败结束；R67102已自然返但无可核数值。[pair真返](notes/2026-11-20-actual-full-phi-margin-pair-result.md)，两者半步接受、.992余量更大；旧场证书不移用新场。
+独立geometry03的756936ee是另一真实场：全922首jet/半径给Dmarked≤4.10130034、held/D≥.22886895，但完整K/reach未返。旧输入再生warm字节差异原因未归；不追历史SHA重做，不跨场继承。全部完整源/参数/旧失败/运行索引保[f0548477交接](https://github.com/Rogerhu12/math-research-public/blob/f0548477576caa2373d1626227a284ccfa9767d0/topics/visible-flex-larger-amplitude/HANDOFF.md)及其原链。
 
 ## 已证结果与当前源
 
@@ -59,7 +53,9 @@ run2：[同g径向二分](notes/2026-11-20-actual-fixed-g-radial-refinement-resu
 
 [旧运行真实终态](notes/2026-11-26-actual-actions-terminal-and-geometric-scope.md)：solver44758209061已于11/20正常退出、42阶段均登记；geometry44772201880因5h50m硬时限取消，K子进程没有公开返回，不能继续标running或继承未返K。
 
-R683完整约束SOC及三件Actions源已刊（原范数/全部旧行、条件非线性可行），已排真正新末父上的首方向，尚未返回。新公开Actions只再生继续求解必须的真实输入，随后保全部旧不等式的约束SOC/完整QP；不重宣旧结论，不继承旧SHA。并行推进更有效的K连续覆盖与替代平端构造，后两项尚无新数值。当前只有准备，实际run号由平台返回后记录；不是达到完成标准或等待用户确认。
+R683完整约束SOC及三件Actions源已刊（原范数/全部旧行、条件非线性可行），已排真正新末父上的首方向，尚未返回。新公开Actions只再生继续求解必须的真实输入，随后保全部旧不等式的约束SOC/完整QP；不重宣旧结论，不继承旧SHA。并行推进更有效的K连续覆盖与替代平端构造，后两项尚无新数值。新run45762076394/1已实际启动（初源a4a535ee），下面由控制器持续写真实阶段；不是完成或等待用户确认。
+
+R684完整新旋转度量设计已刊，双variant同场诊断已排；有限均值目标可以固定为完整连续s公式，不能随精化重定义。其实际求解由完整新J/J*推进，不偷用旧直接角矩。
 
 新科学仍仅本公开Actions。root唯一人工git writer，代理在独立scratch写小源/推导；每条完整结论即推。工作盘空间不足，本次部分克隆在临时盘，仓库提交为恢复依据，不删除别的会话数据。
 

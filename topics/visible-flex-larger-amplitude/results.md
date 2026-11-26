@@ -301,3 +301,5 @@
 - [R681：当前J的物理coarse框架与原QP预条件](results/R681-current-J-coarse-frame-preconditioning.md) — 冗余坐标的正确W/一般K修正、局部Q转置、moving-frame全正谱角矩和同母范数SPD/PCG完整证明；全变量/全观察保留，尚无新PCG运行或已证加速。
 
 - [R683：保留全部旧行的约束二阶修正与原范数半空间投影](results/R683-all-old-row-constrained-second-order-correction.md) — 全部旧线性余量和固定父非线性修正目标进入同一最小范数问题；无满行秩假设的投影/对偶/KKT完整证明，严格非线性可行性另有明确局部条件。三件完整Actions源已刊，尚无新数值。
+
+- [R684：旋转度量的角均值设计、全导数及固定目标精化](results/R684-rotational-mean-metric-design-and-frozen-target.md) — 两种明确新目标的正定/闭合/相位误差、归一化、密度权及全J/J*完整证明；新设计后必须冻结连续目标再精化。双variant同场一次读取入口已排，尚无新数值，不冒原g收敛。
