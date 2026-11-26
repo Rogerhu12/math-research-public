@@ -54,6 +54,6 @@
 <!-- visible-larger-parallel-04:end -->
 
 <!-- visible-larger-parallel-05:start -->
-并行公开Actions05：[run 45870334713/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45870334713)；[实际记录](notes/2026-11-26-public-actions-45870334713-1.md)。阶段`followup:independent-axisymmetric-R690-reference-prepare-v2-first-20261126-05`/completed；已返2，exit=0。
-并行05规则核查：2026-11-26 17:53:22 UTC，真实pull至`13b0b3b34bc28e3693c819c2d8bb48fee0ce2805`，双README无变化。
+并行公开Actions05：[run 45870334713/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45870334713)；[实际记录](notes/2026-11-26-public-actions-45870334713-1.md)。阶段`followup_waiting`/running；已返2，exit=未返。
+并行05规则核查：2026-11-26 18:02:15 UTC，真实pull至`3f03a6bab4772836f49ef96521599578d0a61230`，双README无变化。
 <!-- visible-larger-parallel-05:end -->
