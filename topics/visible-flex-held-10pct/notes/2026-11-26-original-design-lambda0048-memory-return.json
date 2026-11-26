@@ -1,0 +1,58 @@
+{
+  "record_kind": "actual_original_design_resource_exception_projection",
+  "session": "Astra-held10-06bbeb39-20261126",
+  "first_observed_utc": "2026-11-26 13:05:35 UTC",
+  "immutable_snapshot_read_utc": "2026-11-26 13:06:50 UTC",
+  "source": {
+    "repository": "Rogerhu12/math-research-public",
+    "path": "topics/visible-flex-held-10pct/ci/live-design-result.json",
+    "immutable_commit": "15c99f90fcff9edc06ac01d22181ea40249150f8",
+    "git_blob_sha1": "e4d434ec8c9ef526790731b44382cf511f422d2a",
+    "url": "https://github.com/Rogerhu12/math-research-public/blob/15c99f90fcff9edc06ac01d22181ea40249150f8/topics/visible-flex-held-10pct/ci/live-design-result.json",
+    "workflow_run_id": 45801006547,
+    "job_id": 139843898376,
+    "live_command_id": "held10-material-delta-design-20261126-01",
+    "worker_reported_commit": "3db68dba9d65b9002f04667548e16c779fda0446",
+    "diagnostic_key": "design-prefix-recovery/material-delta-design/summary.json"
+  },
+  "actual_row": {
+    "accepted": false,
+    "actual_audit_mean_nodes": null,
+    "actual_delta": null,
+    "complete_saved_initializer": false,
+    "domain_error_counts": null,
+    "domain_newton_stats": null,
+    "error": "MemoryError()",
+    "homotopy": 0.048,
+    "metric": null,
+    "metric_only_failure": false,
+    "modes": 32,
+    "name": "attempt-006",
+    "nodes": null,
+    "original_finite_checks": {
+      "physical_bc": false,
+      "rms": false,
+      "solver": false,
+      "solver_and_boundary_pass": false,
+      "tolerances": true
+    },
+    "physical_bc_max": null,
+    "physical_sha256": null,
+    "raw_sha256": null,
+    "returncode": 0,
+    "rms": null,
+    "run": "/home/runner/work/_temp/held10-design/design-prefix-recovery/material-delta-design/attempt-006/run.json",
+    "run_sha256": "becad4d5890c0143967dc5fc7100c9c381282f131b8058d1317be852f11838e1",
+    "solver_success": false,
+    "source_run": "/home/runner/work/_temp/held10-design/design-prefix-recovery/material-delta-design/attempt-004/run.json"
+  },
+  "last_accepted": {
+    "homotopy": 0.032,
+    "run": "/home/runner/work/_temp/held10-design/design-prefix-recovery/material-delta-design/attempt-004/run.json"
+  },
+  "next_observed_stage": "attempt-007",
+  "next_target_homotopy_observed": null,
+  "exception_classification": "Observed Python MemoryError() only; the actual allocation site and traceback are not present in this projection. No mathematical failure or timing cause is inferred.",
+  "diagnostic_limit": "Original worker permits top-level exception but not traceback; the existing portable run stores traceback. No whitelist, live source or running process was changed to obtain this record.",
+  "complete_surface": false
+}
