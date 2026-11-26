@@ -6,11 +6,12 @@
 
 连通闭C²嵌入、C²连续族；H闭、有内点且diamH≥.2D，整像δhold≥.1D、含反射δE>0，全时reach≥.03D。固定完整g/物理数据/时间范围加密到完整metric≤1e−6并持续下降。必须实际闭合和共用Cartesian两jet；λ<1不提供准确圆弧H。
 
-- 公共已完整读规则并真实pull：`38b925a16f785a253b8b5488a86bf9dbb6de15d2`；私有根README/QUEUE接手登记已推 `2f68946f2fa3e192a291c7c1393231af1a89953e`。每次pull核双README差异，至少每小时一次。root独占git，逐结论push，NFF立即pull --rebase再推，禁force；令牌只命令行。
-- 工作树 `/tmp/held10-astra-06bbeb395471-public`；原/workspace盘满，不删他人文件。旧1b6d88ec scratch不存在；54314/45287/79634最终状态仍未知。详细[本次接手/来源](notes/2026-11-26-resume-and-current-sources.md)。
+- 公共已完整读规则并真实pull：`e88153c5c2f2950826841ef9bd6d1c63f0d10a94`；私有根README/QUEUE接手登记已推 `2f68946f2fa3e192a291c7c1393231af1a89953e`。每次pull核双README差异，至少每小时一次。root独占git，逐结论push，NFF立即pull --rebase再推，禁force；令牌只命令行。
+- 工作树 `/tmp/held10-astra-06bbeb395471-public2`；原/workspace盘满，不删他人文件。旧1b6d88ec scratch不存在；54314/45287/79634最终状态仍未知。详细[本次接手/来源](notes/2026-11-26-resume-and-current-sources.md)。
 - 70份精确历史源码已恢复；M24端口/角图/tail参数/native均与旧SHA逐字相同。[可搬迁恢复入口](notes/2026-11-26-tail-source-recovery.md)。恢复仅工程输入，不作为新数学结果。
-- 直接原控制冷恢复818/418节点均exit137；batch8恢复亦被SIGKILL，最后只到Jac开始，未到LU、无accepted raw。不能说数学失败。最后Jac输入作为**未接受初猜**保存在`/tmp/held10-astra-06bbeb395471-tail/m24-streamed-observer/last-jac-input.npz`。
-- 第四次`m24-released-recovery`也已SIGKILL（44.48s，peak270084KiB），仍无Jac返回、无LU；不猜原因、不再本地重复。公开live runner启动请求已准备，`ci/live-material-start.json`新id，首原M24/768/401恢复后保场继续fullH；未预认job成功。本地备用工作原理：同M24/angular768/全部门，raw续上一个未接受初猜；`streamed_release_prefix_driver.py`按8径向点调用原RHS/Jac、回收无引用Flow环、refresh前释放无后续用途旧LU。不是新方程或降精度。observer与parent保真实资源终态。
+- 直接原控制冷恢复818/418节点均exit137；batch8恢复亦被SIGKILL，最后只到Jac开始，未到LU、无accepted raw。不能说数学失败。最后Jac输入曾保存为未接受初猜；05:51 UTC共享环境重置后本地副本已丢，不能继续假设存在。
+- 第四次恢复也已SIGKILL（44.48s，peak270084KiB），仍无Jac返回、无LU；不猜原因、不再本地重复。公开[run45763361623](https://github.com/Rogerhu12/math-research-public/actions/runs/45763361623)恢复步骤已实际成功，job139718340526正在原M24/768/401线性DN恢复；最近result只含初始solver_success:false，未有raw_return，不能误判失败或通过。保场后接fullH的已编译入口见[说明](notes/2026-11-26-live-recovery-continuation.md)。
+- 05:51 UTC共享环境失联后/tmp重置；重新部分克隆到public2，远端R63等已推成果保留。尚未推的cut primitive细化、本地fixed runner及mean兼容note需重建；旧临时SHA不冒充新文件。公共runner和其场数据未受该本地重置影响。
 - 根§12优先真实数学/求解，§15可再生数组不入Git/Release/artifacts；只存源/参数/命令/hash/小标量。H<10KB、单MD<100KB、目录<200MB，不写根LOG。
 
 ## 新结论与当前三路

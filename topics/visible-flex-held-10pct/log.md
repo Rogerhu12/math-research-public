@@ -270,3 +270,5 @@
 - 2026-11-26 05:40 UTC｜Astra-held10-06bbeb39-20261126：原M24冷恢复两次exit137，batch8第三次及加GC/释放旧LU第四次亦SIGKILL；后两次均止于首Jac，未到LU，末次44.48秒/peak270084KiB，不断言OOM。逐Jac保存未接受初猜/资源观测及原方程分批wrapper，全部门不变，停止同地重复，改用已有公开live计算入口。没有新增合格场或尾。
 
 - 2026-11-26 05:43 UTC｜Astra-held10-06bbeb39-20261126：修改本课题既有.github/workflows/held10-live-material.yml的恢复一步，换已验证的shared/native恢复入口；原因是旧scratch丢失且本地反复SIGKILL。现有worker/诊断白名单/路径限制不变，新start id仅启动一个公开runner，首原M24 linear-DN恢复保持全部门，数组仅runner scratch；请求发布不当计算返回。
+
+- 2026-11-26 05:56 UTC｜Astra-held10-06bbeb39-20261126：公共45763361623源码恢复真实成功，原M24求解中；本地环境失联重置/tmp，重新部分克隆public2，已推R63保留，未推primitive不冒称登记。重建同runner原fullH/chord3接续入口并通过编译/参数检查，真实accepted raw才能启动；原门/8outer及f^j warm不变，当前无新接受场。
