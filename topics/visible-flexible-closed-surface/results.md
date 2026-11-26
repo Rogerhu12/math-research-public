@@ -5,6 +5,8 @@
 
 ## 新增结论
 
+- [R219：保持半宽.895的完整低帽](results/R219-complete-low-wide-caps.md)：真正换c=.79/h=.86，允许Aq≥1.4、真实Z∈[.40,.53]；直接重付平移后球包、八极点、整个帽held及全部双侧法球，保D≤3.2/δE≥.1609/R=.097。旧未平移球包测试失败，未套借；核心输入仍须实付。
+
 - [R218：准确平坦ruling带的全耦合Green与双端值域](results/R218-flat-coast-green-operator-and-two-port-range.md)：完整曲率线性化和Codazzi将法向兼容化成真实ruling的二阶源方程；显式给两完整周期函数端迹、开领条件、定量界及角阶损失。反例证明normal两矩不足支付切向双端/环带holonomy，不套近似M12。
 
 - [R217：同一R215帽的较低中央支持窗口](results/R217-r215-caps-with-lower-central-support.md)：将中央支持下界改为34/25、高度下界改为.52，重新付清八个极点、整个帽/喉held与握持直径；保留所有原核连续条件及强比例。不把新参数窗当实际核。
