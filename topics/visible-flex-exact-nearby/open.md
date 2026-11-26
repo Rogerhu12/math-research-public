@@ -151,36 +151,20 @@ G以S/T E1856给physical C²整盘/曲率<2/径长<8e−6及同world position/no
 
 ## 8. 当前实际执行和后继
 
-2026-11-26更新。原全记录保[0b6458992907e2349c6798cc01779736c90b95d7原open](https://github.com/Rogerhu12/math-research-public/blob/0b6458992907e2349c6798cc01779736c90b95d7/topics/visible-flex-exact-nearby/open.md)，其中更早35c59及全部原proof链接继续有效；前七节所有义务与scope不变。
+本节此前全部执行细节、失败/unknown、来源和scope保[7dc3fed原open](https://github.com/Rogerhu12/math-research-public/blob/7dc3fed3b470ac254b3915e24de703660373056b/topics/visible-flex-exact-nearby/open.md)，其中递归原件仍有效；第1–7节所有数学义务保持。成功目标禁重，下面只列实际接续。
 
 | 路线 | 实际状态与下一项 |
 |---|---|
-| R142→PS | PS45802396138/1实际预算终止，ε仍未知，但完整76/155母格三积分已保存；[真实续接入口](notes/2026-11-27-low193-streamed-defect-after-45802396138-inputs.json)只算余79母格，85pins/14bindings/24gates与原数学目标不变。全六球true接[NS](notes/2026-11-26-R142-neumann-source-point-execution.md)，fullfalse才signed-loop。 |
-| R149 physical链 | [58→224→32](notes/2026-11-26-physical-scalar-execution.md)及[PN56](results/R149-supplement-actual-positive-negative-receiver-execution.md)等待真低逆；全部L²_r head消元必须真实square通过，14原ports保持自身单位，true root96/mean/ν仍留。 |
-| common source4→6 | [source4实际](results/R149-supplement-actual-common-high-WPN-source-unit-ball.md)45783842857/1完整4/4锁定。原Xfr−4/3、state outermean与aux Ec*e保；[CXN6完整入口](results/R149-supplement-actual-common-high-negative-receiver-execution.md)已推，无actual32则无manifest。P/T同因三角，Ni/output9一次。 |
-| fixedη0 forward | 45778507038/1完整7296格/6143接口；positive mean门true，同φ C0及outer mean门false。row7147实际距离下界>1.00195589e−4、terminal mean偏移约−7.66584024e−3，不再续跑此已完整forward。改接下行compact mean中心，不推全族不存在。 |
-| compact mean/C0 | [SM](results/R144-supplement-mean-exact-compact-centres-on-the-selected-metric.md)全∣δ∣≤1e−10双端mean唯一根∣ξ∣<1.75e−11、.1275<ξ′<.166，same-metric Qδ桥<4.760e−7/φ导数<1.264e−6；实际δ*包含。AVM真κν严格负，SR/MJ/RI旧全界保原proof；[SMR](results/R144-supplement-selected-metric-compact-residual-and-full-operator-fees.md)完整残差/DF body费已付；[STC](results/R144-supplement-actual-full-frequency-strict-propagation-for-compact-centres.md)全频strict L1/L2腰增益<191.810/92.666、完整残差incoming<2.195e−4。[RTC](results/R144-supplement-actual-root-Cauchy-and-true-cut-for-compact-centres.md)六root窗/真cut已付，root→waist<2038.527、源<144.146、完整负残差<.002029；[PH](results/R144-supplement-actual-positive-high-graph-for-compact-centres.md)已付整个正侧given-head高逆/七端口，低receiver/fullSchur仍待。 |
-| reflected waist | [RW实际](results/R149-supplement-actual-reflected-finite-waist-rows.md)45787309600/1全96rows/480球，真a=2H(0)、signed mean、整DFT/alias/tail。[JF联合矩阵误差](results/R149-supplement-joint-signed-finite-matrix-error.md)以真target Bessel减去列误差的额外√96；完整TC/P224和signed配对仍待，source/target权重、mean及fullSchur保留。 |
-| graph高块 | [DG](results/R149-supplement-complete-graph-remainder-through-same-sign-density-compression.md)以真实C^-1 H−4/3<2^14收齐whole graph，原J homogeneous<2^-437；actual common6/PN56未齐，完整coupled/physical96门与巨大finite/mean/ν/phase仍待。 |
+| PS低193 | 45802396138/1预算终止仅76/155完整母格，ε未知；45880363964/1继续余79。取消被自动审批拒绝，保运行；终态后DP只用新完整prefix。六球true接NS四源/193atoms/point，fullfalse才signed-loop，unknown不分支。 |
+| 完整positive链 | 58→224→32→PN56/CXN6仍须真低逆。14ports保各单位、同因三角、aux Ec*e、BH KW与Ni；square通过才消原head，不能预报physical/negative真列。 |
+| compact negative | [SM](results/R144-supplement-mean-exact-compact-centres-on-the-selected-metric.md)全参数双端mean精确；SMR/STC/RTC已付完整残差/6143joins/两mean/六root窗与true cut，negative残差incoming<.002029。原forward C0/outermean false保；RI内部未切片Schur恒0。 |
+| compact positive | [PA](results/R144-supplement-complete-positive-hybrid-adapter-for-compact-centres.md)保原S/Green与97..160交叉；[PH](results/R144-supplement-actual-positive-high-graph-for-compact-centres.md)已付whole given-head高逆、两窗口body<.305/.792和七端口/真实outer。低receiver、完整low-high及physical有限系统继续。 |
+| TC真96试列 | 45889161044/1完整signed矩阵/waist首目标已存；最新公开prefix296/7724 cells，三目标584球未齐。所有旧恢复/grid失败与exact cuts保原记录。SC须whole TC3/P224/RW96/JC7，不重已成matrix/旧积分。 |
+| 真ν列 | [ANP](results/R147-supplement-actual-independent-strict-nu-particular-and-signed-column.md)45893562391/1全2目标、194 true/192 raw配对、D<2.836e−5；[ANH](results/R147-supplement-actual-complete-high-parameter-forcing.md)45897599620/1全12球，paired high97<.001846。全mean与未观测sine保；真实target normalizer/amplitude/phase/νSchur另付。 |
+| 原96坐标 | [IR actual](results/R149-supplement-actual-complete-original-inverse-density-rows.md)45899761652/1全99目标，joint εH<.142402、ε0<.435430、L行误差<.071201。[DT](results/R149-supplement-original-same-sign-source-Toeplitz-and-Theta-row-action.md)保原same-sign Tα，DB句误已明确更正而bounds不变；alpha signed carrier、原A/Θ实际action继续。 |
+| 完整graph高块 | [SDI](results/R149-supplement-actual-small-density-inverse-constants-and-Theta-errors.md)得C^-1 Bessel H−1<5/3、H−4/3<5/2；原J homogeneous<2^-449。coupled/physical96仍须actual6/56；巨大finite complement、mean/height/ν/phase及原normalizers不删。 |
+| 非线性 | [TH](results/R144-supplement-complete-low-norm-tame-Hessian-and-mean-preserving-smoothing.md)付whole raw body/真ν single-high Hessian，ρ≤1e−4源579ρX4/3、215ρX1/3及mean115.327ρL²；raw smoothing保全部mean/join。变背景full逆、physical chart/phase Hessian与可求和迭代仍待。 |
 
-R143 correlated body已全4651；R146全418/13376使当前CV/RA根费格式失败，禁止继续该格式Gram/容量/仅DH细化，不推PDE奇异。R145/R147旧成功锁；[ASL实际](results/R147-supplement-actual-support-localized-negative-nu-reception.md)45889444013全4球降ordinary负ν分量到<1.87e−4，零root/无impulse，非全误差≤.005。[ANP](results/R147-supplement-actual-independent-strict-nu-particular-and-signed-column.md)45893562391/1完整2/2，strict腰误差<2.836e−5、194 true/192 raw signed全保、首incoming正。[ANH](results/R147-supplement-actual-complete-high-parameter-forcing.md)45897599620/1全12球，高97<.001846、joint96误差全付；mean/sine保，不重trial/配对，不授fullνSchur。
+全部WPL/WX/source4/RW/JC旧完整成功以及R143/R146的已排格式保各完整proof和上面immutable原页。新物理观测必须先付真正PDE源、target/source相位与全mean，未观测方向不能由有限signed配对猜出。
 
-最新README已读SHA见HANDOFF；每pull核规则、至少每小时。公开科学/容量/旧成功禁重与失败/unknown保，最终同次冻结metric和所有门。
-
-R149 signed-loop与[CP/physical](notes/2026-11-26-physical-scalar-execution.md)已接原77/PS85及NS真四源/point；六球后失败只读已成whole，原/PS scope分别核。PS须六球/目标/155母格原子完成，ε未知不启signed-loop，数学尾/trace/HS/θ/γ不变。
-
-原同φ坐标资格、mean/世界锚及全部scope保[eb774fb原open](https://github.com/Rogerhu12/math-research-public/blob/eb774fb06c6cb6dc51ffac0b31e5ebe833f359b1/topics/visible-flex-exact-nearby/open.md)与原proof。
-
-LC完整27球与sameφ门保原proof及上表，future GC修正仍须另付。
-
-TC45889161044/1首signed矩阵/waist目标已成，全残差继续；[恢复记录](notes/2026-11-27-true-root-trial-input-restoration.md)和[grid记录](notes/2026-11-27-TC-proposal-grid-separation.md)保旧全部失败与exact cuts/CF4/QR。SC实际入口须whole TC3/P224/RW96/JC7，前件未齐不冒真PDE列。
-
-[JC实际七球](results/R149-supplement-actual-joint-compound-waist-row-error.md)45887337009/1给完整96行误差<8.556891e−5、全homotopy lower>.9836159091670；原DFT/means/alias全保，SC直接消费，不授signed矩阵或fullSchur。
-
-[DC](results/R149-supplement-same-sign-density-compression-and-finite-Theta-rows.md)给C双逆H−1/2≤1与VQ全L²行；[DB](results/R149-supplement-complete-Theta-row-regularity-and-negative-window-density-inverse.md)以true p的C³付H¹dual/C^-1 H−4/3，保CG gain。[IL actual](results/R149-supplement-actual-original-inverse-density-lift.md)四球已成；[SDI](results/R149-supplement-actual-small-density-inverse-constants-and-Theta-errors.md)得真p′>.9749、p″<1/6、p‴<24，KC,-4/3<5/2、全Θ joint误差因子1071/1000；[IR](results/R149-supplement-complete-inverse-density-row-residuals.md)以同一96 signed head付H−1/2/L²全残差，全部alias/tail/true-map/两sign保；IR50/6实际入口已齐，99自然目标/两norm同次完整认证；actual rows与alpha signed/Θ另付，原means/fullSchur保。
-
-[PA](results/R144-supplement-complete-positive-hybrid-adapter-for-compact-centres.md)保原S/Green/root97/outer96/point与完整四block。whole positive相对speed<1.893e−7，core raw low/high→low<.002130/.003499；cross仅97..160且mean行列0，direct high源/jump0不消返回高响应。下一项是whole low perturbation receiver及直接高principal/Riccati更新，原H1/3源界不能免费吸收一阶项。
-
-[DT](results/R149-supplement-original-same-sign-source-Toeplitz-and-Theta-row-action.md)纠正DB单句Tα记号：原WBN14为两same-sign Toeplitz，非全PαP。DB/SDI用到的自伴/完整norm界均不变；新有限signed A*G行只同sign卷积，全alpha误差与Θ one-loss独立支付，旧IR输入不改。
-
-[TH](results/R144-supplement-complete-low-norm-tame-Hessian-and-mean-preserving-smoothing.md)完整raw body/真ν Hessian已付，low A0小而每项仅一高范数；源579ρX4/3、215ρX1/3及mean115.327ρL²全保。变背景full逆、physical chart/phase Hessian和可求和迭代仍待。
+最终仍须同一态的H1/fullmean/true residual0/wholeC0、NG入口、所有B/C/Cmean/腰/height/holonomy/位置周期、单一world frame及regularcaps；完成后才一次冻结ν*/Γ*/η/metric并使用第1节可见幅度/reach/marker余量。每pull核根/topic README差异、至少每小时，已读SHA及私库进行中状态见HANDOFF。

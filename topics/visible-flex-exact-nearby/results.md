@@ -329,3 +329,5 @@
 - [DT：原同sign source Toeplitz与完整Theta行作用](results/R149-supplement-original-same-sign-source-Toeplitz-and-Theta-row-action.md)：以WBN14纠正DB一句全PαP记号，原bound不变；正输出仅正输入卷积、负频共轭、96行/全alpha模型误差和原Gbar one-loss保持。未新增不同source normalizer，未重IR，真正alpha/Theta/fullSchur待。
 
 - [TH：完整低范数tame body/真ν Hessian与保mean平滑](results/R144-supplement-complete-low-norm-tame-Hessian-and-mean-preserving-smoothing.md)：29个saved有理组合给whole B6/G14及真metric导数；所有s≥0仅一高因子，ρ≤1e−4源579/215、mean115.327，PH三输出已接。原raw jumps Hessian0而affine data全留；physical边界Hessian/变背景full逆/收敛迭代待。
+
+- [IR实际完整原inverse-density行](results/R149-supplement-actual-complete-original-inverse-density-rows.md)：45899761652/1完整99/99，joint H−1/2残差<.142402、L²残差<.435430、完整L行误差<.071201；全96 signed head/aliases/infinite tails/true-map误差同次保。原A/Theta/physical means与fullSchur仍独立待付，旧科学不重。
