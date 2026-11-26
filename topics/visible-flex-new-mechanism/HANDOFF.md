@@ -6,7 +6,7 @@
 
 ## 1. 规则与接手
 
-已部分克隆并实际 `git pull main`，公开根 README、课题 README、HANDOFF、open、results 索引及相关 log/notes 已读。公开已读提交 **ab5d8cefd5ccfc294ebf85408e539a4565b3362f**（2026-11-26 05:56 UTC；本次实际pull后根/题README空差异）；私有根初读 **85fdf1853367ef25c07f3ebdb6ae25c22a3564b8**，随后逐次 pull/rebase 检查根差异，空差异。私有 QUEUE 的本题已改为本会话进行中并成功推送：**9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7**；最后实际pull及规则同blob读至 **ba1cda6de426c27058a55bfa0da33aa731a55d70**（2026-11-26 05:54 UTC）。其它课题的并行认领保留。
+已部分克隆并实际 `git pull main`，公开根 README、课题 README、HANDOFF、open、results 索引及相关 log/notes 已读。公开已读提交 **4c1031d0d2d5c37c57d7d547eec02884184ba7e9**（2026-11-26 06:04 UTC；本次实际pull后根/题README空差异）；私有根初读 **85fdf1853367ef25c07f3ebdb6ae25c22a3564b8**，随后逐次 pull/rebase 检查根差异，空差异。私有 QUEUE 的本题已改为本会话进行中并成功推送：**9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7**；最后实际pull及规则同blob读至 **ba1cda6de426c27058a55bfa0da33aa731a55d70**（2026-11-26 05:54 UTC）。其它课题的并行认领保留。
 
 初始执行盘仅余约 11 MB，普通历史的 blob:none 部分克隆仍在对象索引阶段磁盘不足，未改变远端。随后以 `--filter=blob:none --depth=1 --sparse` 在本次临时目录成功克隆两仓；公开仅检出本课题，私有仅根文件。终端 git 已恢复；旧交接中 11-16 执行环境不可用的描述不是本次现状。令牌只在命令行临时环境使用。05:48执行环境中断且临时盘清空；期间连接器只读规则并暂存未挂ref的源码/证明blob，未冒实际pull或科学执行。05:54环境恢复后两仓再次部分克隆及实际pull；已发布结论无损，未发布数值源码按明确新修订重建。
 
@@ -27,7 +27,7 @@
 
 ### 新几何输入：O2b 逆设计
 
-[R565](results/R565-parallel-oval-core-exact-reach-and-amplitude-budget.md)已证平行椭圆柱reach恰r+q²/p。新固定p=17/20、q=r=3/20保持外轴A1/B.3、核心reach3/17；其周长/待设计度量与旧g不同。正在实现同时设计a,z和全角切向的旋转度量连接，C∞平坦端口、全体段metric峰交换；未有新数值候选。最后必须冻结新g再精化，不能把换g当收敛；完整连接和全闭reach仍欠。
+[R565](results/R565-parallel-oval-core-exact-reach-and-amplitude-budget.md)已证平行椭圆柱reach恰r+q²/p。新固定p=17/20、q=r=3/20保持外轴A1/B.3、核心reach3/17；其周长/待设计度量与旧g不同。已发布新v2逆设计源码/请求：同时设计a,z和全角切向，C∞平坦端口、全体段metric峰交换；两lane为B=.3与.38，49×96、8×4控制、每轮60次/三轮，公开Actions待定位，无新数值候选。源重建后完整解析jet与前向参数微分由两路纸面审查，未本地科学执行。最后必须冻结新g再精化，不能把换g当收敛；完整连接和全闭reach仍欠。
 
 ## 4. O4 两个不同母库的有效入口
 
@@ -43,4 +43,4 @@ R555余五槽的真实Gram/有序面积身份继续有效；R526的倒行完成�
 2. R564已付同χ七矩零，继续最后S1及原period；保持同词完整history和已清七矩的真实端图。
 3. 检查 O1/O3 的新可用几何：圆领相位组装允许如实 $\delta_E=0$，但非旋转完整连接仍须实际构造；T-surface/管形必须同时满足闭合、二jet、全时reach。
 
-主要入口：[open](open.md)、[当前索引](results.md)、[早期几何索引](results-index-early.md)、[日志](log.md)。本会话分工笔记为 `notes/2026-11-26-geometry-continuation-agent.md`、`results/R564-negative-coupling-crossing-and-seven-exact-moments.md`、`notes/2026-11-26-new-mechanism-agent.md`；未完成笔记不登记为已证明结果。每写完一条结论立即提交推送，接下一开放项。
+主要入口：[open](open.md)、[当前索引](results.md)、[早期几何索引](results-index-early.md)、[日志](log.md)。本会话分工笔记为 `notes/2026-11-26-geometry-continuation-agent.md`、`results/R564-negative-coupling-crossing-and-seven-exact-moments.md`、`notes/2026-11-26-inverse-metric-design.md`；未完成笔记不登记为已证明结果。每写完一条结论立即提交推送，接下一开放项。

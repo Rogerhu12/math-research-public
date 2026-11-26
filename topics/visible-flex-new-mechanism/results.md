@@ -182,3 +182,5 @@
 - [R565 平行椭圆柱核心的准确reach与幅度预算](results/R565-parallel-oval-core-exact-reach-and-amplitude-budget.md)：**已证明**半轴p/q椭圆外偏移r的柱面reach恰r+q²/p；固定外轴A/B时随r严格增加。新固定p=17/20、q=r=3/20有A1/B.3及reach3/17，保持原.3D条件见证、显著增加核心厚度余量；完整连接/固定新g精化/全闭reach仍未付。
 
 - [R564 负耦合跨越与同规范七矩准确零](results/R564-negative-coupling-crossing-and-seven-exact-moments.md)：**已证明**原H/H0先固定后一次取大中心，B有可穿越简单零而Ck始终正；两侧真实补偿反馈、窄带快跨越与退化端控的全部history/费用均付。同一实际双回路与完整端IFT给P0=P1=P2=T1=R1^y=S0^y=R0^y=0；仍余S1及全部原period/pose/13，不授完整闭面或主完成。
+
+- [全体段自由旋转度量逆设计v2](notes/2026-11-26-inverse-metric-implementation.md)：**新模型和正式计算请求，尚无科学观察**。平行椭圆核心、准确开端口、a/z/全角切向共同优化，全体产品网格误差保；两lane B=.3/.38，前向参数微分、实际曲率/包络惩罚。g在设计中可变，不授固定g收敛；原first源码丢失后明确新修订重建，未复跑旧58。

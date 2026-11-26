@@ -396,3 +396,9 @@ workflow .github/workflows/visible-true58-joint168-body-suffix.yml 位于题外�
 完整原式逐段审核：补正慢桥V的真实补偿、每侧常数反馈、当前Γ移动根及有限C_R账；明确H/H0先固定、Ω一次后大，未换母。跨B零点不除B，快带/四端退化成本在S0最细尺度低阶；真实双回路端IFT准确清第七矩R0。剩S1与全部主门不冒完成；结论写完立即推，继续同词最后矩。
 
 05:48本地执行环境丢失/tmp，连接器暂存未发布证明及入口blob并只读三规则，未冒gitpull。05:54恢复后重新部分克隆并实际pull两仓，public b35d61dd/private ba1cda6d，三README原blob全同，QUEUE仍本会话。旧未发布数值源码丢失，正在按完整定义重建新修订；没有新增科学输出。
+
+## 2026-11-26 — Astra-new-mechanism-0105020f-20261126 / 新v2逆设计正式请求
+
+新完整逆设计源码与两lane请求已备齐，8×4自由模、全49×96产品域进入metric残差，双倍网格同q评价；g可变和全域reach欠项明确。临时盘丢失的未发布源码按完整数学定义重建为显式v2，空间jets/前向AD/归一曲率逐式读过；仅AST语法检查，无本地科学。首公开run内有单方向Jacobian检查，有限run检查点只保最近已完成几何trial，不是accepted iterate或OptimizeResult。
+
+题外变更：新增 .github/workflows/visible-inverse-rotational-metric-20261126.yml，仅本题request触发，max-parallel2；初始真实双仓pull核规则，固定runtime，50分钟job内2400秒协作检查点。只stdout，不写artifact/cache/Release或可重算数组入Git。继续读取实际终态并改进候选，不以运行时限收尾。
