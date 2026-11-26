@@ -114,6 +114,10 @@ R513同类cap排除、R518固定宽接口、R520/524/527/529原20母的返回障
 
 [R564前一开放接口](notes/open-r564-before-eight-moments-20261126.md)和其中所链R559/R563/R562前史逐字保留；各限定族的正R0或S1号边界不撤，R567使用更细完整core费用及共同端图离开旧假设。
 
+### R572：同一从起点母已清全部实际微包总通量，继续整个函数
+
+[R572](results/R572-odd-map-mother-and-all-actual-packet-total-fluxes.md)用同一个非零ψ×偶多项式母、固定复制图和有限五次奇映射，准确清自然Λ(U)、仿射稳定环境E的raw self与所有实际微包/相位的raw totals。环境E覆盖任意有限canonical路径，A=T=0使真实非零χ周期等canonical；不借未证常germ U成员性、不假设whole pure零。下一在这同一母/χ上实际支付内部partial、完整period函数及13；积分零、圆上盲核或不受约束response span均不能替代该端图。
+
 ### 同一33母到真实返回层的完整前史
 
 [R533/R536/R540/R546/R547/R551原条目](open-archive-R533-R536-R540-R546-R547-R551-background-20261116.md)逐字保完整H不定/正则图、真实负Π、同支大曲率、脉冲全矩费用、联合矩障碍及实际负δ入口；原20/cap/13、固定χ、全部入m/T和未付长流条件不撤。R553以后继续同一分支。

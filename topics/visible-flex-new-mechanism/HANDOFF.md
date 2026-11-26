@@ -6,7 +6,7 @@
 
 ## 1. 规则与接手
 
-已部分克隆并实际 `git pull main`，公开根 README、课题 README、HANDOFF、open、results 索引及相关 log/notes 已读。公开已读提交 **87bae96f6448a340737ac770149b62a91cd8f685**（2026-11-26 07:28 UTC；本次实际pull后根/题README空差异）；私有根初读 **85fdf1853367ef25c07f3ebdb6ae25c22a3564b8**，随后逐次 pull/rebase 检查根差异，空差异。私有 QUEUE 的本题已改为本会话进行中并成功推送：**9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7**；最后实际pull及规则同blob读至 **d6fc2f5c519bd5481b5e0ef67fca1c08c7b6eb9a**（2026-11-26 07:21 UTC；实际pull/rebase后根README空差异、QUEUE仍本会话）。其它课题的并行认领保留。
+已部分克隆并实际 `git pull main`，公开根 README、课题 README、HANDOFF、open、results 索引及相关 log/notes 已读。公开已读提交 **9a994f89127008c86dc99636bcda1eebbddff352**（2026-11-26 07:32 UTC；本次实际pull后根/题README空差异）；私有根初读 **85fdf1853367ef25c07f3ebdb6ae25c22a3564b8**，随后逐次 pull/rebase 检查根差异，空差异。私有 QUEUE 的本题已改为本会话进行中并成功推送：**9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7**；最后实际pull及规则同blob读至 **d6fc2f5c519bd5481b5e0ef67fca1c08c7b6eb9a**（2026-11-26 07:21 UTC；实际pull/rebase后根README空差异、QUEUE仍本会话）。其它课题的并行认领保留。
 
 历史运行的真实双仓pull、规则blob与私队回执保在各原观察note；当前已核hard首run公开到be4d8f6d/6408017f、私有到201c93af/79f66052，根/题规则均无变化，QUEUE仍本会话。早期盘满、05:48环境失联及05:54重新部分克隆的完整记录保于[本次先前HANDOFF](notes/HANDOFF-before-hard-restoration-20261126.md)和log；已推成果无损，不能把失联时API读取冒作git pull。
 
@@ -27,7 +27,7 @@
 
 [R565](results/R565-parallel-oval-core-exact-reach-and-amplitude-budget.md)给平行椭圆柱reach恰r+q²/p；新p=.85、q=r=.15保持A1/B.3而核心reach3/17，和旧g不同。[v2首run失败](notes/2026-11-26-inverse-first-run-radial-fold-failure.md)：run45765708829两个新lane，粗η约.083/.091但fine 1.19855/3.78338、κ74208/26180；s=.421875漏径向近退化，球/条带也失败。Jac正确量级，不沿原软权重/固定49圈延长。
 
-[R566](results/R566-flat-oscillatory-cap-tail-and-graph-reach.md)的固定有限公式尾在rc=.22到r=.30全平且K无限变号；完整凸底域graph片reach>.1832，但不含跨块。[R569](results/R569-fixed-oscillatory-tail-and-flat-infinitesimal-bending.md)对同一w已实际构造角频2非零全平无穷小等距场，全部导数exp(−c/δ³)，外端真ODE；X+tV非有限等距。[首份种子原终态](notes/2026-11-26-r569-seed-first-run-receipt.md)run45771143212已成功闭账：39.905028348新科学秒、2850383次RHS；统一alpha160归一下的外端log尺度3857.13965，紧容差/M+1外端差约9.04e−9/2.73e−11。表内|f_rr|约5.05e7、单位T的|v_rr|约3.94e8，非连续上界；不能直接放大为宏观弯曲。外端f/fr均负，下一改尾/phase并实做C_core=0，不继续盲增M。[R571](results/R571-milder-phase-tail-flat-kernel-and-core-shooting-zero.md)换明确新尾w=.8exp[−(2−sin(δ^-1+φ))/δ]，统一patch reach>.08670；实际一维全平核、相位连续和负holonomy均证。周期真实连接下C_core必在某φ*准确零、A_core非零，故双固定平帽的闭旋转背景已有真实线性匹配。尚欠数值φ*/种子C²、有限非线性及全闭reach，不把相位设计族当同g弯曲。
+[R566](results/R566-flat-oscillatory-cap-tail-and-graph-reach.md)的固定有限公式尾在rc=.22到r=.30全平且K无限变号；完整凸底域graph片reach>.1832，但不含跨块。[R569](results/R569-fixed-oscillatory-tail-and-flat-infinitesimal-bending.md)对同一w已实际构造角频2非零全平无穷小等距场，全部导数exp(−c/δ³)，外端真ODE；X+tV非有限等距。[原R569种子终态](notes/2026-11-26-r569-seed-first-run-receipt.md)39.905028348科学秒、2850383次RHS；准确DtN截断与浮点误差分开。共同归一表内|f_rr|约5.05e7、|v_rr|约3.94e8，不能直接宏观放大；外端f/fr负，转新尾/真实shooting，不盲增M。[R571](results/R571-milder-phase-tail-flat-kernel-and-core-shooting-zero.md)换明确新尾w=.8exp[−(2−sin(δ^-1+φ))/δ]，统一patch reach>.08670；实际一维全平核、相位连续和负holonomy均证。周期真实连接下C_core必在某φ*准确零、A_core非零，故双固定平帽的闭旋转背景已有真实线性匹配。尚欠数值φ*/种子C²、有限非线性及全闭reach，不把相位设计族当同g弯曲。
 
 [hard首run45769777022](notes/2026-11-26-hard-exchange-first-run-restoration.md)新37.974705078科学秒、仅几何恢复；其实际末q/网格/trust进入[识别续接](notes/2026-11-26-hard-exchange-identified-continuation.md)。[续接原终态45773550668](notes/2026-11-26-hard-resume-first-metric-progress.md)两lane新163.220723713/470.738431635秒：B030仍V=.0005436546、η2.0895893；B038在outer6真过fine几何，后71次可行metric改善至η=.8636074715，κ16.377643、球1.00949487、y.38973160，229×1536 fine。两lane最后均因提议1536角约束超原768容量结束，不能把提议算已采用；B030无OptimizeResult，B038末两次后端自然success。下一明确新联合R=1.012/Y=.3928/τ=.06072预算、保原末q/全pending径向、分块Jac降内存并实付新角峰；新trust=.5将显式记录。仍欠冻结g精化/连续嵌入/全点对reach，不授README完成。原条件/失败完整存[续接前交接](notes/HANDOFF-before-hard-resume-20261126.md)。
 
@@ -35,7 +35,7 @@
 
 **33母（保原20/cap/13与一次固定χ）**：R533–554已给真实局部正则速度、负Π、k>2、返回层、总p2零/Π负或p1/p2共同零；完整t1速度负费未消。R558真γ=0正t1弧、R560短快变高度有号面积均已计真实历史，净t1仍负。下一为同一完整F/history的长程变高度返回及正净t1，不从局部正则自动推长时存在；其余矩、T、pose、period仍欠。
 
-**R521正交母（不继承33母的原20/cap/13）**：R544–R563的同χ真实历史、慢快桥及限定尺度号障碍保持。新[R564](results/R564-negative-coupling-crossing-and-seven-exact-moments.md)在Ck>0下跨B零点，保完整真实端控/history清七矩；[R567](results/R567-complete-next-order-history-and-eight-exact-matrix-moments.md)完整次阶消项及共同4+1+2端图再清第八矩，原m=A=0。[R568](results/R568-even-end-germs-and-real-second-third-return.md)改真实末开控制并重解八矩，支付双端偶germ，PP^R准确闭scalar/全m/A/T。[R570](results/R570-neutral-residence-pose-and-real-four-piece-return.md)在八矩纤维以恒总驻留的有限词和首高尾真实位移支付两pose条件，(PP^R)²准确闭scalar/frame/位置/A/T。整个第四仍4V_P，同13/有限闭面继续；原限定族正R0/S1边界不撤。
+**R521正交母（不继承33母的原20/cap/13）**：R544–R563的同χ真实历史、慢快桥及限定尺度号障碍保持。新[R564](results/R564-negative-coupling-crossing-and-seven-exact-moments.md)在Ck>0下跨B零点，保完整真实端控/history清七矩；[R567](results/R567-complete-next-order-history-and-eight-exact-matrix-moments.md)完整次阶消项及共同4+1+2端图再清第八矩，原m=A=0。[R568](results/R568-even-end-germs-and-real-second-third-return.md)改真实末开控制并重解八矩，支付双端偶germ，PP^R准确闭scalar/全m/A/T。[R570](results/R570-neutral-residence-pose-and-real-four-piece-return.md)在八矩纤维以恒总驻留的有限词和首高尾真实位移支付两pose条件，(PP^R)²准确闭scalar/frame/位置/A/T。整个第四仍4V_P，同13/有限闭面继续；原限定族正R0/S1边界不撤。[R572](results/R572-odd-map-mother-and-all-actual-packet-total-fluxes.md)从起点以一个ψ×偶多项式球面奇映射选同母，准确清Λ(U)、有限仿射环境E的raw self及固定R521图全部实际微包总通量。非零χ在A=T=0时整周期等canonical∈E；不虚授偶germ属于常germ的U。整个period/内部partial/同13仍未清。
 
 R555余五槽的真实Gram/有序面积身份继续有效；R526的倒行完成仍以实际M0/K0块为前提；R517周期scalar自动M0仍以真正合法周期轨道为前提。所有“尚未付”的端口不因下游条件定理自动消失。
 

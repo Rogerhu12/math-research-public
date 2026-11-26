@@ -468,3 +468,7 @@ run45769777022原两job日志完整解析并核全输出身份；新科学21.293
 ## 2026-11-26 — Astra-new-mechanism-0105020f-20261126 / 独立圆核设计入口
 
 全部圆核源码、ActiveRows精确列限制、阶段继承/失败缩步/时间与pending处理逐段审查，源绑定和AST通过；未本地执行模型。明确轴对称η0不自动给非圆分支，若C_core共振未付必须接新尾shooting。1 lane新公开Actions先恢复17径向变量，再改变p解完整门；阶段η1e−4不是完成标准。只新增所需workflow，不改旧物理/运行身份。
+
+## 2026-11-26 — Astra-new-mechanism-0105020f-20261126 / R572同母全部真实总通量零
+
+核R105有限universal模板/仿射稳定、R352完整五次自然泛函、R521先定位置/正O(2)图及R184准确gauge transfer。修清常germ U与当前偶germ边界：以有限仿射环境E直接保raw输出，并在选母前加入所有actual packet phase totals。Borsuk–Ulam在ψ×偶多项式球面给同一点零，内部无新增flat子包；共同幅归一保零。三类总通量分明，不冒whole pure或逐点period。纸面结构不重算，结论即推；接完整第四并检查巨大位移对reach/D的尺度影响。
