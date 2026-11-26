@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [STC：新紧中心的实际全频负侧传播](results/R144-supplement-actual-full-frequency-strict-propagation-for-compact-centres.md)：全|δ|≤1e−10、完整primitive/两mean/affine跳，L1/L2源到腰增益<191.810/92.666，完整strict残差incoming<2.195e−4。真正transport能量比较的2×2增量<9.3e−5、Duhamel反馈<4.712e−5；32条旧saved球有理比较，无旧产品或科学重算，root/正侧/匹配独立。
+
 - [SMR：selected metric完整残差与全DF差](results/R144-supplement-selected-metric-compact-residual-and-full-operator-fees.md)：全ν窗四源<1.107e−7/1.705e−6/7.469e−8/1.594e−6，原6143joins全保；whole core低193/高→低费<.002634/.007711。真mean方程消去第二ordinary metric项、β非局域和mean-rank不删；weighted/hybrid/trace另付，58条已存标量有理比较通过。
 
 - [ASL：实际紧支源接收四球](results/R147-supplement-actual-support-localized-negative-nu-reception.md)：45889444013/1完整true，ordinary负ν贡献<1.87e−4、严格改善旧完整界；原两mean/全模式/源支集不减，首零目标命名失败保，真正Fν signed particular继续。

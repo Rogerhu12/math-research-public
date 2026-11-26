@@ -257,3 +257,6 @@ NS五件共129172B，owner71056B SHA18db439d5895e4232882940a57b7bd9457982383e1ac
 
 
 2026-11-26 20:32:47 UTC / visible-exact-astra-fb31ed6-20261127：SMR把CS恒等式完整移到νδ，真实mean方程恰消第二ordinary metric费，χ′/全原残差/6143joins仍在。新metric三源由原43713242980完整compact M0/M1正预算付；58条有理比较得四源与全物理DF差，core193/.002634及97..288回低/.007711。root提出Qsel安全7/6不可从旧7/6直接推，已用原完整43597921732 raw6.406213/5.437241加repair+19d/83d的真实余量补证；未重旧native/科学。全频负传播转移继续，未把有限193 fee冒全频有界或授新逆。
+
+
+2026-11-26 20:43:01 UTC / visible-exact-astra-fb31ed6-20261127：STC已证全Fourier新中心strict传播。原SP精确输运/primitive/两mean能量式给真正2×2比较，same-metric state/φ差令matrix increment<9.3e−5、reverse反馈<4.712e−5；L1/L2<191.810/92.666，全原残差与jump的incoming<2.195e−4。32有理saved比较全过，未作有限一阶算子全频Neumann。root窗口/positive/原normalizer/fullSchur仍另付。SMR已推a7e083837，两README无diff；PS及TC科学仍运行。

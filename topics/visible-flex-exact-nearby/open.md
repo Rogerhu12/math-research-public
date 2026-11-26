@@ -151,7 +151,7 @@ G以S/T E1856给physical C²整盘/曲率<2/径长<8e−6及同world position/no
 
 ## 8. 当前实际执行和后继
 
-2026-11-26更新。本次压缩前全记录逐字保[0b6458992907e2349c6798cc01779736c90b95d7原open](https://github.com/Rogerhu12/math-research-public/blob/0b6458992907e2349c6798cc01779736c90b95d7/topics/visible-flex-exact-nearby/open.md)，其中更早35c59及全部原proof链接继续有效；前七节所有义务与scope不变。
+2026-11-26更新。原全记录保[0b6458992907e2349c6798cc01779736c90b95d7原open](https://github.com/Rogerhu12/math-research-public/blob/0b6458992907e2349c6798cc01779736c90b95d7/topics/visible-flex-exact-nearby/open.md)，其中更早35c59及全部原proof链接继续有效；前七节所有义务与scope不变。
 
 | 路线 | 实际状态与下一项 |
 |---|---|
@@ -159,13 +159,13 @@ G以S/T E1856给physical C²整盘/曲率<2/径长<8e−6及同world position/no
 | R149 physical链 | [58→224→32](notes/2026-11-26-physical-scalar-execution.md)及[PN56](results/R149-supplement-actual-positive-negative-receiver-execution.md)等待真低逆；全部L²_r head消元必须真实square通过，14原ports保持自身单位，true root96/mean/ν仍留。 |
 | common source4→6 | [source4实际](results/R149-supplement-actual-common-high-WPN-source-unit-ball.md)45783842857/1完整4/4锁定。原Xfr−4/3、state outermean与aux Ec*e保；[CXN6完整入口](results/R149-supplement-actual-common-high-negative-receiver-execution.md)已推，无actual32则无manifest。P/T同因三角，Ni/output9一次。 |
 | fixedη0 forward | 45778507038/1完整7296格/6143接口；positive mean门true，同φ C0及outer mean门false。row7147实际距离下界>1.00195589e−4、terminal mean偏移约−7.66584024e−3，不再续跑此已完整forward。改接下行compact mean中心，不推全族不存在。 |
-| compact mean/C0 | [SM](results/R144-supplement-mean-exact-compact-centres-on-the-selected-metric.md)全∣δ∣≤1e−10双端mean唯一根∣ξ∣<1.75e−11、.1275<ξ′<.166，same-metric Qδ桥<4.760e−7/φ导数<1.264e−6；实际δ*包含。AVM真κν严格负，SR/MJ/RI旧全界保原proof；[SMR](results/R144-supplement-selected-metric-compact-residual-and-full-operator-fees.md)完整残差/DF body费已付，原weighted/hybrid/trace资格及fullSchur仍待。 |
+| compact mean/C0 | [SM](results/R144-supplement-mean-exact-compact-centres-on-the-selected-metric.md)全∣δ∣≤1e−10双端mean唯一根∣ξ∣<1.75e−11、.1275<ξ′<.166，same-metric Qδ桥<4.760e−7/φ导数<1.264e−6；实际δ*包含。AVM真κν严格负，SR/MJ/RI旧全界保原proof；[SMR](results/R144-supplement-selected-metric-compact-residual-and-full-operator-fees.md)完整残差/DF body费已付；[STC](results/R144-supplement-actual-full-frequency-strict-propagation-for-compact-centres.md)全频strict L1/L2腰增益<191.810/92.666、完整残差incoming<2.195e−4。root/positive/weighted/hybrid/trace及fullSchur仍待。 |
 | reflected waist | [RW实际](results/R149-supplement-actual-reflected-finite-waist-rows.md)45787309600/1全96rows/480球，真a=2H(0)、signed mean、整DFT/alias/tail。[JF联合矩阵误差](results/R149-supplement-joint-signed-finite-matrix-error.md)以真target Bessel减去列误差的额外√96；完整TC/P224和signed配对仍待，source/target权重、mean及fullSchur保留。 |
 | graph高块 | [CG](results/R149-supplement-positive-feedback-in-the-complete-graph-high-block.md)准确邻接约消并保真正物理96列；actual common6/PN56未齐，新高门未通过。WDH旧homogeneous高逆保持原范围，完整巨大finite/mean/ν/phase不删。 |
 
 R143 correlated body已全4651；R146全418/13376使当前CV/RA根费格式失败，禁止继续该格式Gram/容量/仅DH细化，不推PDE奇异。R145/R147旧成功锁；[ASL实际](results/R147-supplement-actual-support-localized-negative-nu-reception.md)45889444013全4球降ordinary负ν分量到<1.87e−4，零root/无impulse，非全误差≤.005。
 
-本会话partial+sparse接手及最新README已读提交见HANDOFF；每次pull核规则、至少每小时一次。公开科学/容量/旧成功禁重及失败/unknown全保，最终同一次冻结metric和所有门。
+最新README已读SHA见HANDOFF；每pull核规则、至少每小时。公开科学/容量/旧成功禁重与失败/unknown保，最终同次冻结metric和所有门。
 
 [CS新中心完整源](results/R144-supplement-compact-centre-ordinary-and-divergence-residual.md)已证exact ordinary/divergence分解，径向常数Δκ只从angular flux准确消去、仍在ordinary项；原Rv−jR0及ξχ′完整保。五个新局部积分量消费actualρ/b后可执行；first-row H−2/3不免费删角导数，384^1/3费与所有rawjump/physical composition仍保。
 
