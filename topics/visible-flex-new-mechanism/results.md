@@ -280,3 +280,5 @@
 - [513续接B038真实终态](notes/2026-11-26-theta-513-b038-original-terminal-receipt.md)：**完整原观察**。568.432517953新秒，保留细η.51945917/V0，最终518候选未定位，明确未合格；最后backend464/502与已构造actual470/508分开。更好trial因V.0161被拒，后继首先完成全部候选，不借旧500候选接受覆盖新网。
 
 - [R576首轮有限高度实现](notes/2026-11-26-r576-finite-height-implementation.md)：明确新公开输入，原t^1.1 onset改为C∞并重射H；四个准确尾基、完整core校正和52变量非线性高度，唯一turning根设计E。复步隐式Jacobian与一次同run方向核，实际位置三行metric/两步长曲率及外向速度单独读；尚无有限解/冻结g或连续reach。
+
+- [R584 完整ruling的中心化第三坐标与十九态八端BVP](results/R584-centered-third-history-and-nineteen-state-full-ruling-bvp.md)：**已证明**将L−E存入可逆真实第三坐标，中心共用r_c/νbar且参数变换可逆；双侧A−=JA+仅省冗余八槽，六第三槽全留。19态+3参数/14+8BC准确等价原八根目标，末Gram与三投影、四边界球和两pose读出明确；未授累计稳定/rank/根/完整period。
