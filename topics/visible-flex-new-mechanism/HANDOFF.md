@@ -6,11 +6,9 @@
 
 ## 1. 规则与接手
 
-已部分克隆并实际 `git pull main`，公开根 README、课题 README、HANDOFF、open、results 索引及相关 log/notes 已读。公开已读提交 **d54e31c88cac16603a5e71fece47e30931ee9511**（2026-11-26 11:12 UTC；本次实际pull后根/题README空差异）；历次规则及失败原回执保原note；私有 QUEUE 的本题已改为本会话进行中并成功推送：**9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7**；最后实际pull及规则同blob读至 **94811d9096ce4cf840e3c949bdae7a875f79104f**（2026-11-26 11:10 UTC；本小时实际pull成功，根README空差异、QUEUE仍本会话）。其它课题的并行认领保留。
+已部分克隆并实际 `git pull main`，公开根 README、课题 README、HANDOFF、open、results 索引及相关 log/notes 已读。公开已读提交 **908b0d9448e2058e38b41af24f126b7166afcb66**（2026-11-26 11:38 UTC；本次实际pull后根/题README空差异）；历次规则及失败原回执保原note；私有 QUEUE 的本题已改为本会话进行中并成功推送：**9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7**；最后实际pull及规则同blob读至 **4a97d422c004724bff537e2c5e322b82aec4ccdd**（2026-11-26 11:28 UTC；恢复partial副本后实际pull，根README空差异、QUEUE仍本会话）。其它课题的并行认领保留。
 
-[前历交接](notes/HANDOFF-before-resonant-height-20261126.md)及原note保全部规则/成本/限定。09:18 UTC本地失联后用接口继续保存，API不冒actualpull；09:33恢复partial副本并实际双pull，完整身份见本日日志。
-
-每次pull核根/题README差异并立即执行，至少每小时一次，SHA随H更新；root独占git及共享索引。科学仅公开Actions，本地限纸证/源码/原日志解析；[3次本地开发偏离](notes/2026-11-26-r530-local-development-execution-receipt-agent.md)已如实闭账，源/参数保且已停止，不作路径或结论；根12不加机械复跑门，根15只留源码/参数/run/SHA/小结，不留可重算raw。每条完成结论即推；NFF立即pull --rebase再推。
+[前历交接](notes/HANDOFF-before-new-actual-runs-20261126.md)保全部原规则/成本/范围；09:18及11:20 UTC两次本地失联期间仅API保存，不冒actualpull。09:33、11:28恢复后已实际双pull。每pull核根/题README差异并执行，至少每小时；root独占git/索引，每条结论即推，NFF立即rebase重推。科学仅公开Actions，本地限纸证/源码/原日志解析；已披露3次开发偏离保原note且停止。根12不加机械复跑，根15不留可重算raw。
 
 ## 2. 主完成标准
 
@@ -48,7 +46,7 @@
 
 [R589](results/R589-autonomous-full-feedback-and-even-end-germs.md)付完整自主反射：真实A端零且γ=υ=0使全scalar/完整T偶germs成立，固定原规范/全部incoming不改。自由H/L的19态+4常数与13中心+10末端准确匹配；根、pose及第四仍欠。
 
-[R590](results/R590-full-history-square-potential-and-c2-update.md)付完整第三最高T²为状态势E全导数，余更新准确降C2且真J不重置；ρ/νhat/共同Ec可逆。ruling必须回付非负平方I[D²T²Q(H_A+2F0)²/(64h)]、完整负侧与末E±，不因大项删除，下一真实新BVP保全。
+[R590](results/R590-full-history-square-potential-and-c2-update.md)付完整最高平方势与保真J的C²更新；原ruling完整正平方不删。[真实新BVP](notes/2026-11-26-r590-c2-positive-square-free-germs-implementation-agent.md)已准备：直接νhat/当前正Gram、原19态/10参数/29BC，自由H/L、准备中心及新三半波guide；真A/rho积分初猜、全解析Jac及原sigma缺陷恢复均保。恢复后809行AST/11绑定实核通过；发布即公开求解，非旧四猜复跑。
 
 [R578](results/R578-sixfold-six-node-positive-complete-profile-library.md)固定新36完整块、六元/六正节点共0…10矩、2e−6微半宽与真collar；保完整history及Ch<0/Ck>0，不继承旧母χ/轨道。端根与全空间仍须实际付。
 
