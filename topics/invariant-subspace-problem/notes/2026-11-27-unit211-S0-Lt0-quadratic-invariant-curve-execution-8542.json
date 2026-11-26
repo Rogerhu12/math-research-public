@@ -1,0 +1,216 @@
+{
+  "schema": "r150-Lt0-quadratic-invariant-curve-return-v1",
+  "sourcePath": "notes/2026-11-27-unit211-S0-Lt0-quadratic-invariant-curve-return-8542.py",
+  "sourceSha256": "0f23810cf5c2617eef839e6803155342ee10d794006693ec2abaa72a089bda05",
+  "sourceBytes": 21095,
+  "pythonVersion": "3.12.14",
+  "pythonFlintVersion": "0.9.0",
+  "command": "PYTHONPATH=/workspace/scratch/8542378f2b73/isp_pydeps python topics/invariant-subspace-problem/notes/2026-11-27-unit211-S0-Lt0-quadratic-invariant-curve-return-8542.py",
+  "exitCode": 0,
+  "elapsedSeconds": 3.7105806920008035,
+  "peakRssKiB": 52788,
+  "stdoutSha256": "5e7d18e9fe61bea8bcaaadb215e3804ded4dc7ea8bd96b627c562dd83b654760",
+  "stdoutBytes": 18514,
+  "curveReturn": [
+    {
+      "stage": "original_minor_returned_to_quadratic_invariant_curve",
+      "rows": [
+        0,
+        4,
+        5
+      ],
+      "clearingPaidEPower": 16,
+      "degrees": [
+        24,
+        5
+      ],
+      "terms": 107,
+      "paidRemovals": [
+        [
+          "e",
+          5
+        ],
+        [
+          "ell",
+          4
+        ],
+        [
+          "closed_zero_singleton_pairing",
+          1
+        ]
+      ],
+      "originalCurveIdentityMultipliedBack": true,
+      "sha256": "75ac1c8511a9ba34d6d42743c2908bab634700f43e778056b266ad56a04a96b1",
+      "claimExcluded": false,
+      "seconds": 3.4951435519997176
+    },
+    {
+      "stage": "original_minor_returned_to_quadratic_invariant_curve",
+      "rows": [
+        0,
+        3,
+        5
+      ],
+      "clearingPaidEPower": 19,
+      "degrees": [
+        28,
+        5
+      ],
+      "terms": 130,
+      "paidRemovals": [
+        [
+          "e",
+          4
+        ],
+        [
+          "ell",
+          8
+        ],
+        [
+          "closed_zero_singleton_pairing",
+          1
+        ]
+      ],
+      "originalCurveIdentityMultipliedBack": true,
+      "sha256": "6be4bc146dbac76f3e653ca51c3b7c2665a04973d85523e6ba1ac5825acfaf93",
+      "claimExcluded": false,
+      "seconds": 3.5084198839995224
+    },
+    {
+      "stage": "original_minor_returned_to_quadratic_invariant_curve",
+      "rows": [
+        0,
+        3,
+        4
+      ],
+      "clearingPaidEPower": 21,
+      "degrees": [
+        34,
+        6
+      ],
+      "terms": 177,
+      "paidRemovals": [
+        [
+          "e",
+          3
+        ],
+        [
+          "ell",
+          8
+        ]
+      ],
+      "originalCurveIdentityMultipliedBack": true,
+      "sha256": "4cd1622c6b18b048cde10786fa311605b881c1759a5123daef621eb269ecc7ce",
+      "claimExcluded": false,
+      "seconds": 3.5224229030009155
+    },
+    {
+      "stage": "original_minor_returned_to_quadratic_invariant_curve",
+      "rows": [
+        0,
+        1,
+        5
+      ],
+      "clearingPaidEPower": 22,
+      "degrees": [
+        34,
+        5
+      ],
+      "terms": 166,
+      "paidRemovals": [
+        [
+          "e",
+          7
+        ],
+        [
+          "ell",
+          8
+        ],
+        [
+          "closed_zero_singleton_pairing",
+          1
+        ]
+      ],
+      "originalCurveIdentityMultipliedBack": true,
+      "sha256": "7456b4f5c75b1d340503eb7382e08f186e5fda54da8bcaf91efe1ee8a806c06a",
+      "claimExcluded": false,
+      "seconds": 3.544886179999594
+    },
+    {
+      "stage": "full_original_curve_resultant",
+      "otherRows": [
+        0,
+        3,
+        5
+      ],
+      "parameterDegree": 224,
+      "vDegrees": [
+        5,
+        5
+      ],
+      "allLeadingZeroFibersRetained": true,
+      "sha256": "5eb92b667a00e76c11506dbd800cc39890bdc950813affce590b1ca0d6300583",
+      "claimExcluded": false,
+      "seconds": 3.55406503300037
+    },
+    {
+      "stage": "full_original_curve_resultant",
+      "otherRows": [
+        0,
+        3,
+        4
+      ],
+      "parameterDegree": 266,
+      "vDegrees": [
+        5,
+        6
+      ],
+      "allLeadingZeroFibersRetained": true,
+      "sha256": "5a4a27a0403b19409da0d795186ab693666a0a3adcb613e0ddc3951db832c50c",
+      "claimExcluded": false,
+      "seconds": 3.568149454000377
+    },
+    {
+      "stage": "full_original_curve_resultant",
+      "otherRows": [
+        0,
+        1,
+        5
+      ],
+      "parameterDegree": 254,
+      "vDegrees": [
+        5,
+        5
+      ],
+      "allLeadingZeroFibersRetained": true,
+      "sha256": "30bbadfc1eac83313f55cf8513b621046078f91723ee54fc2a08a3e09e8b06a2",
+      "claimExcluded": false,
+      "seconds": 3.5795505980004236
+    },
+    {
+      "stage": "actual_original_curve_univariate_Bezout_verified",
+      "gcdDegree": 118,
+      "gcd": "e^32(e+1)^40(e-1)^2(e^2+1)^18(e^2-2e-1)^4",
+      "coefficientDegrees": [
+        203,
+        161,
+        78
+      ],
+      "allGcdFactorsPaidByOriginalCurveIdentities": true,
+      "bezoutCoefficientsSha256": "11b71cf67d66dd804df8b799b6b2c7184612673c8eec8e0b73d547e67958cd25",
+      "claimExcluded": true,
+      "seconds": 3.71031991900054
+    }
+  ],
+  "lastStage": {
+    "stage": "complete",
+    "scope": "entire S0 Lt0 Q=2((u-1)^2+1), equivalently 2e^2-e*k+2=0, after independent complete v0 and k4e exclusions",
+    "sourceSha256": "0f23810cf5c2617eef839e6803155342ee10d794006693ec2abaa72a089bda05",
+    "ordinaryISPClaim": false,
+    "claimExcluded": true,
+    "peakRssKiB": 52788,
+    "seconds": 3.7105806920008035
+  },
+  "claimExcluded": true,
+  "ordinaryISPClaim": false
+}

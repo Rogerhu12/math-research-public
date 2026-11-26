@@ -151,3 +151,5 @@ A单射、稠密像、拟幂零且非紧；普通非零真闭不变子空间仍�
 **[S0/Lt0原t=0整支关闭](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-zero-singleton-pairing-exclusion.md)：** 四完整Res_k覆盖后1/2/2/4维同e原域全返回，所有逆/除法/Bézout实际通过，3.793203秒/exit0；一般图可付v，不借用旧等base配对子类。下一仍为原三参数小行列式全门及其更低原几何。
 
 **[整个实际M的占满前缀新指数率](results/R271-appendix-full-tensor-exponential-bound-and-improved-occupied-prefix-decay.md)已证：** 完整张量指数范数配合同一真实D_rg_r余项，r=ceil(log2n)给γ_ex>5/3和明确e^(−47n⁴)carry；优化率Γ_occ约1.723637，所有严格小于它的率对全M及固定最高k类成立。仍远低于真实α_q^-1除法图范数；继续W特殊来源/主理想闭图，未证N=M。
+
+**[S0/Lt0整条Omega=2e²−ek+2=0关闭](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-quadratic-invariant-curve-exclusion.md)：** 原坐标曲线的完整清分母身份与224/266/254次Res_v给仅含已付因子的QQ[e] Bézout，3.710581秒/exit0；一般图可付Omega。独立于新QQ门，继续剩余两参数原几何和全部物理返回。

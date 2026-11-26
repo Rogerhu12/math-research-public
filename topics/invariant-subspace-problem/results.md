@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R150 S0/Lt0的Q=2((u−1)²+1)整条原曲线为空（2026-11-27，已证明）：** [原曲线清分母及一元Bézout](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-quadratic-invariant-curve-exclusion.md)先逐式核e^mD−Dcur=(ek−2e²−2)H，再取224/266/254次完整Res_v；三式原组合准确等于e^32(e+1)^40(e−1)²(e²+1)^18(e²−2e−1)^4，全部因子由原单位及已闭半权支付。3.710581秒/52788KiB/exit0；独立于运行中的QQ门，一般图可付Omega。
+
 - **R271 整个实际核的占满前缀指数率提高到γ_ex>5/3（2026-11-27，已证明）：** [完整张量指数范数与真实carry](results/R271-appendix-full-tensor-exponential-bound-and-improved-occupied-prefix-decay.md)给||exp(zD_n)||=expΣasinh(|z|a_j/2)，同一个真实近核方程取r=ceil(log2n)，得到||Q_nf||≤(exp(−γ_ex n+4(logn+1)²)+exp(−47n⁴))||f||。对全M、两真实模型及固定最高k剩余类统一；精确变分率Γ_occ约1.723637。真实α_q逆图范数仍未付，未把该指数估计作N=M。
 
 - **R150 S0/Lt0的原孤立点配对t=0整支为空（2026-11-27，已证明）：** [完整参数覆盖与四原域返回](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-zero-singleton-pairing-exclusion.md)令v=4kbc·t=0，四完整Res_k的65次gcd给12次平方自由全覆盖；非平凡1/2/2/4维原域分别返回k−2、k²、k−4e+4、1，全由原单位/已闭半权支付。每个域逆、除法和Bézout实际回乘，3.793203秒/49640KiB/exit0；与旧等配对子类不同，一般图可付v。

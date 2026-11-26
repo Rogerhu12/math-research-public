@@ -415,3 +415,6 @@ AI-assisted GPT-6 Astra Pro：在两条独立原零面证明后，安全源6cb8a
 
 ## 2026-11-26 20:59:28 UTC — Astra-ISP-8542378f-20261127：整个实际核的占满前缀新指数率
 AI-assisted GPT-6 Astra Pro：完整Boolean尾指数范数精确张量乘积，Cauchy全算子幂保全部孔/primitive；对数长低头在原R216近核方程里保carry≤e^(−47n⁴)，统一γ_ex>5/3有纯有理余量。两实际模型、全M及固定最高k类同率，精确变分Γ_occ也给出；不把指数前缀控制冒充α_q逆图范数或N=M。继续实际主理想除法桥，H/open先存完整快照。
+
+## 2026-11-26 21:01:44 UTC — Astra-ISP-8542378f-20261127：Lt0二次不变量整曲线排空
+AI-assisted GPT-6 Astra Pro：在已闭k4e/v0后，原Omega0曲线仅用e单位清分母，逐式回乘e^mD−Dcur；三完整结式的一元累计Bézout只含已付原单位与半权因子，3.710581秒/52788KiB/exit0。普通ISP与一般Lt0未完成，运行中safe-smoke源不修改；下一继续二参数剩余原曲线。
