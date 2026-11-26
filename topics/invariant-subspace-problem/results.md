@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R271 同一最大除法图源的两条真实dyadic边界已完整确定（2026-11-27，已证明）：** [N型正交身份与Y型全Cayley预算](results/R271-appendix-exact-dyadic-division-graph-boundaries-and-cayley-cost.md)对唯一Sh=y、T*h=f，截断h^(<r)的N型图误差准确分为完整低carry向量⊗y_r和同源缺一位顶行；Y型按原偶周期保全部Z=(I−κN_r*)⁻¹，相对真实有限头两误差各≤12α_r/α_(r−1)²||y||≤12e^(−760·16^(r−1))||y||。因此这一指定截断图收敛当且仅当λ_r||y_r||与真实有限头顶行均趋0；未宣所有图核心序列都须如此，也未证明一般W的规范原像已在该最大图域。
+
 - **R150 S0/Lt0有同eta的四单项式原有限生成归约（2026-11-27，已证明输入）：** [六指定原式双向来源与全部重叠](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-same-eta-four-monomial-original-system.md)原配对/N(V)的2×2系数行列式为32(k+4)²j⁴(1−e)，均已付；六二次单项式降到1、λ、f、eta的生成系，逐条双向原组合、九个三次重叠和六个互素乘积全回乘，1325分母核实。新D·Qa原身份不除B，Qa返回仅451项/v²。7.896800秒/43084KiB/exit0；未宣四维自由或全临界理想等价。旧dc2d新增Dixon门真实1200秒未决，单独保回执，不重跑。
 
 - **R271 原伴随的负前缀延拓及更大的输出条件图核心已付（2026-11-27，已证明）：** [完整首零位块、carry与真实双分量逼近](results/R271-appendix-negative-prefix-extension-and-output-conditioned-division-graph-core.md)保块后全primitive，给两型T*从Y_−1到H范数<3，B*范数≤α0，且无条件整域多项式阶1为准确阈值。若同一形式h有b(h)=Σ(q+1)⁻²||P_qh||有限并且准确T*h∈H，则原有限支撑在(B*h,T*h)图范数中逼近，输出属于closure RanT*；覆盖所有β<3/2的Y_−β及带log端点。真实W的规范h(w)若付此费即w0；未证明一般W自动付费，也不把总孔层界移作全前缀块范数。

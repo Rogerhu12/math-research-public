@@ -167,3 +167,5 @@ S0/Lt0的k=4e、v=t=0、Omega=2e²−ek+2=0整支均已完整原返回排空；�
 Deddens自伴MASA、全部可分重数有限成本投影、全2-adic平移距离、具体B内核心、odometer非平凡谱投影距离≥1/π及全非奇异加权复合距离均已闭，完整链接/原边界保[快照](notes/2026-11-27-open-before-same-eta-and-output-core-8542.md)。R38真实Y∈D\B；全R自伴核、连续Fourier乘子及未知普通M的D保持仍开，不能无损拼合一般细块。
 
 [同eta四单项式原生成归约](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-same-eta-four-monomial-original-system.md)已付，六指定原式双向改写与全部重叠保留；新Qa小原必要行继续。dc2d完整门1200秒真实未决，smoke单独通过，源冻结不重跑。
+
+[同源dyadic两边界](results/R271-appendix-exact-dyadic-division-graph-boundaries-and-cayley-cost.md)已付，含Y全逆和可能增长的h^(<r)成本；指定prefix-cut当且仅当λ_r||y_r||及真实头顶行趋零。一般W的最大图域/这两费仍需原来源证明。

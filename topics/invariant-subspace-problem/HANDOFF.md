@@ -5,7 +5,7 @@
 ## 目标、规则与执行
 
 - **普通复可分无限维 Hilbert ISP 未完成。** 仅全体有界算子的存在定理或完整反例算完成。
-- **最近实际 pull / 已读规则提交：** `5ae6bf48b0403667b00c6806d8034fba90673fc7`（2026-11-26 22:00:57 UTC；本地部分克隆）；本次两 README diff 无变化。每次 pull 且至少每小时检查并更新本项。
+- **最近实际 pull / 已读规则提交：** `e06fb5a09a2d033201dcedfdc7c9ae6e1676d80e`（2026-11-26 22:04:49 UTC；本地部分克隆）；本次两 README diff 无变化。每次 pull 且至少每小时检查并更新本项。
 - 私库 QUEUE 接手已推 `5746fa79a74af4975476d400dfbe0c4e5cb9ae9d`；私库根规则2026-11-26 21:25 UTC已pull至 `98a93f8a4d1394417e739b7d26713f98038e497b`，diff无变、QUEUE保持本会话。每结论单推，非快进即 pull --rebase 再推；不 force，令牌仅 CLI。
 - 本轮本地终端可用。前会话执行身份及全部原交接保[接手快照](notes/2026-11-27-handoff-at-takeover-8542.md)；本轮快照链见[最新完整归档](notes/2026-11-27-handoff-before-complete-G-and-actual-graph-cores-8542.md)。失败不改标成功，已登记不重做。
 - 仅保源、参数、SHA、小回执；MD<100KB、H<10KB、open尽量<30KB、topic<200MB，不写根LOG。已读本轮 log；notes 按交接路径与结果索引定点续读。
@@ -48,7 +48,7 @@ M=kerT、N=closureBM，N=M未证。保持同w/u、全部partial、真intersectio
 - 相容真空塔负相关把范围扩至L=o(x^(2/3))，同源Gram/短真核距离δ_L保留；Chebyshev模型x=ceil exp(9d⁴)仍超exp(O(d³))母窗。通用小κ指数孔右逆、泛短核小残量桥均已有障碍，不能重提为已付。
 - 全实际M的占满前缀率已提高：γ_ex=log2+asinh1+2(1−1/√2)/5>5/3，明确主项exp(−γ_ex n+4(logn+1)²)与carry e^(−47n⁴)；精确变分Γ_occ约1.723637，固定最高k类同率。仍远低于原alpha_q逆权exp(Θ16^q)，不能推出真除法域。
 - 新原G0=TJ_B的图闭包为closure Ran(B,T)，多值部恰Ce0，真实e_(2^j)/a_j给趋近；投去真空后A_min可闭，A_max=J_BT，N⊂ker A_min⊂M。最大G0*域={y:T*y∈RanB*}，闭包e0⊥。I=closure RanT*⊂J=closure RanG0*⊂N⊥，必须分别付J=I和J=N⊥；单一图核心、一维多值部或循环主理想均不代N=M。
-- 负前缀图核心已付：两型T*:Y_−1→H范数<3，无条件阶1准确；同一h的b(h)=Σ(q+1)^−2||P_qh||有限且准确T*h∈H时，原有限支撑同时逼近B*h/T*h。涵盖β<3/2和log端点；真W的规范h(w)若付b即w=0，尚未从W特殊关系付费，不把总孔数界换全前缀块。继续真实dyadic跨界费用及第二道范围核心。
+- 负前缀图核心已付：两型T*:Y_−1→H范数<3，无条件阶1准确；同一h的b(h)=Σ(q+1)^−2||P_qh||有限且准确T*h∈H时，原有限支撑同时逼近B*h/T*h。涵盖β<3/2和log端点；真W的规范h(w)若付b即w=0，尚未从W特殊关系付费，不把总孔数界换全前缀块。同一最大图源的dyadic两真实边界已精确分解：λ_r||y_r||和原有限头缺位顶行；Y全逆误差≤12exp(−760·16^(r−1))||y||。两费趋零仅等价指定prefix-cut图收敛，未付一般W的域/费用，继续第二道范围核心。
 
 ## 原 Haar A：Deddens 与未知普通 M
 
