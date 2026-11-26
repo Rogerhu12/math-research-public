@@ -12,6 +12,7 @@ def sha(p): return hashlib.sha256(Path(p).read_bytes()).hexdigest()
 def main():
     p=argparse.ArgumentParser();p.add_argument('warm');p.add_argument('reference');p.add_argument('out')
     p.add_argument('--derivative-weight',type=float,default=.03)
+    p.add_argument('--fit-radius',action='store_true',help='Explicit new design: fit complete rho values and physical first jets')
     a=p.parse_args();out=Path(a.out)
     if out.exists(): raise FileExistsError(out)
     raw=np.load(a.warm);ref=json.loads(Path(a.reference).read_text());u=np.asarray(ref['u'])
@@ -45,10 +46,18 @@ def main():
     hz=raw['X'][idx,:,2].mean(axis=1)-np.asarray([r['meanZ'] for r in ref['rows']])
     hzs=raw['Xs'][idx,:,2].mean(axis=1)-np.asarray([r['meanZs'] for r in ref['rows']])
     z[2*J*K:2*J*K+J]=fit(hz,hzs)
+    if a.fit_radius:
+        rho=f-np.asarray([r['f'] for r in ref['rows']])
+        rhos=fs-np.asarray([r['fs'] for r in ref['rows']])
+        z[legacy-J:legacy]=fit(rho,rhos)
+        if np.max(abs(z[legacy-J:legacy]))>ref['input']['options'].get('radiusCoefficientBound',.4):
+            raise ValueError('Complete fitted rho coefficients exceed the explicitly declared domain')
     state=ref['input'];state.update(schema='6a65-Cauchy-global-position-initial-v1',z=z.tolist(),cauchyAcceptedSteps=0,accepted=False,
         warmFit={'schema':'6a65-full-theta-phi-height-first-jet-LS-fit-v1','warmSHA256':sha(a.warm),'referenceSHA256':sha(a.reference),
         'entrySHA256':sha(__file__),'samples':len(s),'angles':N,'dimension':len(z),'modes':K,'radialBasisCount':J,
-        'physicalDerivativeWeight':w,'linearFitRank':int(np.linalg.matrix_rank(M)),'zeroRadiusInitial':True,
+        'physicalDerivativeWeight':w,'linearFitRank':int(np.linalg.matrix_rank(M)),'zeroRadiusInitial':not a.fit_radius,
+        'completeRadiusFirstJetFit':a.fit_radius,'maxAbsoluteRadiusCoefficient':float(abs(z[legacy-J:legacy]).max()),
+        'resultingMetric':'finite base plus fitted rho; fitting the target perimeter is an explicit new physical metric design' if a.fit_radius else 'original new base with zero rho',
         'cutAndAmplitudeUnchanged':bool(z[ref['cutHeightIndex']]==ref['zero'][ref['cutHeightIndex']] and z[ref['amplitudeIndex']]==ref['zero'][ref['amplitudeIndex']]),
         'maxAbsoluteCoefficient':float(abs(z).max()),'fitNotMetricCertificate':True},
         physicalMetricStillADesignVariable=True,continuousCertificate=False,strongTargetComplete=False)

@@ -8,11 +8,17 @@ const INITIAL="6a65-Cauchy-global-position-initial-v1",CHECKPOINT="6a65-Cauchy-g
 const hash=p=>crypto.createHash("sha256").update(fs.readFileSync(p)).digest("hex");
 const emit=x=>process.stdout.write(JSON.stringify(x)+"\n");
 const clean=x=>Object.fromEntries(Object.entries(x).filter(([k])=>!["H","g","diagonal","residuals","jvp","z"].includes(k)));
+function baseSource(input){
+  if(input.baseModel===undefined||input.baseModel==="long-cauchy-v1")return "6a65-geometry-cauchy-warm-base.cjs";
+  if(input.baseModel==="short-cauchy-v1")return "6a65-geometry-short-cauchy-base.cjs";
+  throw Error("Unknown explicit physical base definition");
+}
 function build(candidate,input){
   if(!input.options||!input.cauchyDesign)throw Error("Explicit new metric/options required");
   const originalEngine=require("./fd2d-direct-position-tangent-lift-baseline-R187.cjs").createR187();
   const originalBase=originalEngine.candidate(candidate);
-  const base=require("./6a65-geometry-cauchy-warm-base.cjs").createCauchyWarmBase(originalEngine,originalBase.a0,input.cauchyDesign);
+  const factory=require("./"+baseSource(input));
+  const base=(factory.createShortCauchyWarmBase??factory.createCauchyWarmBase)(originalEngine,originalBase.a0,input.cauchyDesign);
   const engine={...originalEngine,candidate:()=>base};
   const metric=require("./fd2d-nonuniform-metric-provider-R196.cjs").createR196MetricProvider(engine,candidate,input.options);
   metric.definition={...metric.definition,cauchyWarmDesign:base.cauchyWarmDesign,
@@ -26,7 +32,7 @@ function build(candidate,input){
   else throw Error("Unknown explicit curvature objective definition");
   const referenceFactory=amplitude=>require("./fd2d-bent-annulus-reference-R205.cjs").createR205BentAnnulusReference(engine,base,
     {amplitude,angles:input.options.angles,cacheLimit:0});
-  const curvatureOptions={...input.curvatureOptions,sliceReuse:{valueLimit:8,derivativeLimit:4}};
+  const curvatureOptions={...input.curvatureOptions,sliceReuse:input.runtimeOptions?.sliceReuse??{valueLimit:0,derivativeLimit:0}};
   const position=require("./fd2d-R201-R205-variable-amplitude-lazy-curvature.cjs").createR201R205AmplitudeProvider(
     engine,metric,referenceFactory,curvatureOptions,algebra);
   position.definition={...position.definition,curvaturePenaltyModel:algebra.definition,
@@ -99,7 +105,7 @@ if(require.main===module){
         providerDefinition:q.provider.definition,cauchyAcceptedSteps:0,accepted:false,continuousCertificate:false,strongTargetComplete:false};
     }else output=await runOne(candidate,input);
     output.source={inputSHA256:hash(inputFile),candidateSHA256:hash(candidateFile),entrySHA256:hash(__filename),
-      baseSHA256:hash(path.join(__dirname,"6a65-geometry-cauchy-warm-base.cjs")),
+      baseSHA256:hash(path.join(__dirname,baseSource(input))),
       curvatureAlgebraSHA256:hash(path.join(__dirname,input.curvatureModel==="6a65-explicit-tau-quartic-curvature-hinge-v1"?
         "6a65-explicit-tau-curvature-hinge.cjs":"fd2d-curvature-quartic-hinge-R211.cjs")),gridSHA256:gridFile?hash(gridFile):null};
     output.execution={startedUTC,endedUTC:new Date().toISOString(),seconds:(Date.now()-start)/1000,node:process.version,

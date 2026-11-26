@@ -638,3 +638,8 @@ R208完整注入组e297410f：同3态由J30/K7/N64的932维插1/20、7/20、5/12
 - 2026-11-26 08:27 UTC｜Astra-visible-flex-6a65e705-20261126：真实非退化后段全90截面重新拟合1788列，并明确新tau1e6曲率启动定义；reference/fit/fullvalue三进程真0，metric2.483/κ51.876/held.644946。三处真实完整参数方向FD误差约1e−10，首完整LM在跑；不同目标不混比，原R211不改。
 
 - 2026-11-26 08:42 UTC｜Astra-visible-flex-6a65e705-20261126：同job强支R208/J36真实20步+157541点observer完成，17个新接受，metric.185644/κ观察13.86048仍欠。已核实际末态/observer两SHA并发严格匹配K19零注入后12步请求；只扩角基，N128/84点/真实帽和guide保持，等待真实消费而非把发包计结果。发布使用独立稀疏worktree，原数值源码工作区保留。
+
+## 2026-11-26 Astra-visible-flex-6a65e705：完整自然周长 rho 初值和真实 value
+
+- [新完整模型](notes/2026-11-26-6a65-perimeter-full-rho-fit-baseline.md)明确短base和全部rho一jet拟合，1788参数、J38/K11/N128。实际reference/fit真0；首value被SIGKILL，监控重试真0，115.055s，完整metric.885019/κ28.74355/held.625658，总R².902330。所有真实退出与hash已记；无normal、无接受、无连续证书。
+- 补记前条已推的[长前缀旧强尾段完整移植](notes/2026-11-26-6a65-geometry-cauchy-strong-transplant.md)：真实C2/单调时钟/完整角弧长两jets，96×128，metric2.46038/κ50.5869/held.645147。原3717571e8提交已含源码/note/H；此处补log索引，并将时钟十进制下界改为保守严格下界，未改变算法或数值。
