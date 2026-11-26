@@ -5,9 +5,9 @@
 ## 主目标、规则与执行
 
 - **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仅全体有界算子的存在定理或完整反例；子结果不作完成，继续研究。
-- **最近实际pull / 已读规则提交：** `51d84b503698026fb3dd4aaf21517a0003eab86c`（2026-11-26 13:02:02 UTC，公开Actions实际pull；本地最后pull09:16:03 UTC）。两README无差异；每次pull且至少每小时查diff、记SHA。
+- **最近实际pull / 已读规则提交：** `902b6001a64ab1b2f611e94eb96c991ce6418881`（2026-11-26 13:08:17 UTC，公开Actions实际pull；本地最后pull09:16:03 UTC）。两README无差异；每次pull且至少每小时查diff、记SHA。
 - 私库QUEUE认领已推 `e776df496eedfa449b0475cefe140fdae7023db4`；研究在公开仓库。每结论单推，推前pull/rebase；NFF/ref锁拒绝循环rebase再推，不force，令牌仅CLI。
-- 本地执行环境09:19 UTC后unavailable；最近云端main/规则读取 `bcfb70e6bd701dd2a60bfecf4edb7ce95a437176`（2026-11-26 13:18:28 UTC），两README blob未变。此为API读取，不冒充git pull；公开Actions驱动继续实际pull及3300秒规则检查。根通过非force/expected-head原子提交保并发；CLI恢复后立即pull/rebase。只保存源、参数、SHA和小回执。
+- 本地执行环境09:19 UTC后unavailable；最近云端main/规则读取 `9704840a2a00dd8345435f8024fea07187dd9923`（2026-11-26 13:22:26 UTC），两README blob未变。此为API读取，不冒充git pull；公开Actions驱动继续实际pull及3300秒规则检查。根通过非force/expected-head原子提交保并发；CLI恢复后立即pull/rebase。只保存源、参数、SHA和小回执。
 - 最新完整前H见[压缩快照](notes/2026-11-26-handoff-before-general-N-first-347c.md)及其归档链。MD<100KB、H<10KB、open尽量<30KB、topic<200MB，不写根LOG。
 - 已登记请求14/311、权11及旧结式不重算。并行unit211的L0/b+c非零、S0/Af非零、一般LS；H3一般有限中心；R271来源专属稳定返回。已闭范围与未决输入见下文/结果索引，不重跑旧门。
 
@@ -28,8 +28,8 @@
 
 - unit211非零m整个u1图已闭：原高曲线仅余l2，全部Q九次商代数的z因子为1，13真逆；run45804559912，5.703188秒/exit0。一般u≠1按原U值图继续，保值碰撞及全部L/S零面。
 
-- **[L0/w1已闭](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-U-value-L0-w1-exclusion.md)：** QQ64→48→0及原P1首项零全付。**[L0/b+c0整支现闭](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-L0-zero-weight-sum-exclusion.md)**：λgcd152只余六因子14次，全部原w域gcd1，322真逆/Bézout全回乘，3.173630秒；原Φ=−ρN(b+c)整因子同步闭，旧三参数到时仍按未决留档。只续b+c非零大补因子，新p+q2对称三参数原QQ atlas实际2.851085秒完成，把P1/E1、P1/N1和E1/N1的ρ次降至5；原P1残余系数二次/一次，现取完整ρ投影并保双零面。S0旧末格式化失败已留档；[新四QQ/八原域返回整图已闭](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Af0-L-nonzero-complete-exclusion.md)，109.926880秒/exit0；不重跑。一般LS两线性四参数atlas已生成，Δ0保全，仍开放。旧mod内存/600秒失败不重跑。
-- **S0/Af0/L非零全范围现闭：** 合并原碰撞、I=H0/M6与u1，四QQ结果式gcd1320只余八因子20次，全部原z域gcd1；109.926880秒/exit0。[P1双系数零](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-P1-zero-coefficients-exclusion.md)与[Lt0小J](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-small-J-exclusion.md)亦全闭，后者Af两面全保。续Af非零、Lt0大因子；h1/k1投影490.261秒实际exit2，只余五显式b值，正回原q/t；h=k三谱原新源启动，保全部P1首项零面。
+- **[L0/w1已闭](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-U-value-L0-w1-exclusion.md)：** QQ64→48→0及原P1首项零全付。**[L0/b+c0整支现闭](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-L0-zero-weight-sum-exclusion.md)**：λgcd152只余六因子14次，全部原w域gcd1，322真逆/Bézout全回乘，3.173630秒；原Φ=−ρN(b+c)整因子同步闭，旧三参数到时仍按未决留档。只续b+c非零大补因子，新p+q2对称三参数原QQ atlas实际2.851085秒完成，把P1/E1、P1/N1和E1/N1的ρ次降至5；原P1残余系数二次/一次；ρ投影43.769129秒完成，保小曲线(1,2)/(7,4)、双零(7,12)与大补面，接原返回。S0旧末格式化失败已留档；[新四QQ/八原域返回整图已闭](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Af0-L-nonzero-complete-exclusion.md)，109.926880秒/exit0；不重跑。一般LS两线性四参数atlas已生成，Δ0保全，仍开放。旧mod内存/600秒失败不重跑。
+- **S0/Af0/L非零全范围现闭：** 合并原碰撞、I=H0/M6与u1，四QQ结果式gcd1320只余八因子20次，全部原z域gcd1；109.926880秒/exit0。[P1双系数零](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-P1-zero-coefficients-exclusion.md)与[Lt0小J](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-small-J-exclusion.md)亦全闭，后者Af两面全保。续Af非零、Lt0大因子；h1/k1投影exit2仅五显式b值，新10参数原q返回已启动；h=k首轮t0抽象族已找到完整5列Gram秩2接口，正除已付物理t0后续非零t与另两谱。
 
 - rankH3三约化H退化Gram/ess6：F0、V二jet、Hp非零、同相位、全部H∞及中心0/2均闭；c0旧b34错误Eh输出继续撤回。c−6的A7/9原边界已闭，一般范数662.582秒未决不重跑。只余有限中心c≠0,2、V可∞；[完整原N一阶必要归约](results/R150-appendix-rank-three-reduced-degenerate-Gram-general-finite-center-original-N-first-necessary-equations.md)已证，保两原phase/norm余式、两端点导数和中心t9，全物理Pi不含a3/c+6；新真Ke3 run45827161540/job139934167647待实际单位身份。非退化H Gram亦开。
 
@@ -52,9 +52,11 @@ M=kerT、N=closureBM；N=M未证。始终保同w/u、全部partial、真intersec
 - **[全部远位硬化](results/R271-appendix-complete-tail-hardening-common-auxiliary-mode-and-global-source-energy.md)已付：** 同一额外mode、真闭交核及全部重最小化损失≤固定μ_T端点积分+2δ；t=εSx、m/Q及最高零头联合窗全部付清。同u/partial和普通范数端点P_Mf已付，仍未将P_Mf放入closureBM；不能把硬化投影后的全部孔层当旧有限带宽。
 
 - 大辅助真F0、低新增孔所有F_t/F0及原r/R/Q合法联合窗已付，强趋P_M源仍不能直接付Sx孔权/完整MP返回；精确常数与来源保前H快照及结果索引。
-- 冻结大方差零列有原物理下界：‖Ca_s‖≥s/(s+49)，真核z0=a_s费用≥s/[(s+49)√Sx]，合法R=d/r3窗增长如√x。保级双塔未投影差继承首行障碍；最终投影/可改零列的全MP未排除。小头m2、m3反例不在旧联合窗，不逐级外推。
+- 冻结大方差零列原核返回费用有√x下界，旧同源来源见前H；障碍不适用于重最小化全部列。保级双塔、原m2/m3反例不能外推，最终投影/可改零列全MP仍开。
 
 - **[实际Riordan完整Fock源运输](results/R271-appendix-actual-riordan-complete-fock-source-transport-and-original-source-correction.md)已证：** 同一实际Sx≤s≤2Sx上，全塔Bφ/Bχ及原未加权重最小化给差≤3C0³ min(√ε,√(μ/h))；保ψ_m(A_m+Dstrong)/d0全部混合项。原物理拉回保ΔF，准确恢复同u及全部partial；完整源仍强趋P_Mf。F0能量、远孔32^N和最终MP放大未付，继续原稳定返回。
+
+- **[全部正远孔的移动整行](results/R271-appendix-all-positive-far-hole-moving-coherent-rows-and-matched-source-cost.md)已证：** 权ω²=S(x+p−1)/(pSx)保全部p≠q交叉，统一Bessel常数Bλ；J≤2x时逆权≤27J，接原全部cut/同w匹配，最优费是真有限头Gram的MP型。实际完整源f−a的Γ²≤27μ1及物理合成界已付，但其锚趋0，不能换成有锚f或第二Green；N=M仍未证。
 
 ## Deddens 与其余开放路线
 

@@ -1,0 +1,322 @@
+{
+  "schema": "isp-L0-complement-original-rho-projection-v1",
+  "run_id": 45826185026,
+  "job_id": 139930806977,
+  "stages": [
+    {
+      "allBoundaryFibersRetained": true,
+      "alpha": {
+        "degrees": [
+          2,
+          3,
+          3
+        ],
+        "sha256": "bb9eb0e3224bc072e6f00e770b1fb23f108792a601242c4ed517fdd76094c0b4",
+        "terms": 19
+      },
+      "alphaFormula": "4*R*rho^2-(4*R^2+2*A)*rho+B-R*A+2*R^3",
+      "beta": {
+        "degrees": [
+          1,
+          5,
+          7
+        ],
+        "sha256": "9faf63dbba8070a73e6757d3281c71efd7c28b3fedfeaeca843ff4faed5b95de",
+        "terms": 72
+      },
+      "claimExcluded": false,
+      "elapsedSeconds": 2.436829,
+      "stage": "P1_double_zero_original_input"
+    },
+    {
+      "allOriginalZeroLeadingFibersRetained": true,
+      "claimExcluded": false,
+      "elapsedSeconds": 2.437551,
+      "factorProductRemultiplied": true,
+      "factors": [
+        {
+          "multiplicity": 1,
+          "profile": {
+            "degrees": [
+              0,
+              7,
+              12
+            ],
+            "sha256": "e227c289c7e6d0dca788a772948a87ea2af021dda47876644e65be783c4ef745",
+            "terms": 85
+          }
+        }
+      ],
+      "name": "P1_both_coefficients_zero_necessary_curve",
+      "original": {
+        "degrees": [
+          0,
+          7,
+          12
+        ],
+        "sha256": "cb413e446bf3362f8feeba6f6ca1f62427a881eab70b95e6d1f917a8bd1cb546",
+        "terms": 85
+      },
+      "stage": "exact_original_rho_projection_factors"
+    },
+    {
+      "allOriginalZeroLeadingFibersRetained": true,
+      "claimExcluded": false,
+      "elapsedSeconds": 5.921413,
+      "factorProductRemultiplied": true,
+      "factors": [
+        {
+          "multiplicity": 1,
+          "polynomial": "4*lam*w + 2*lam - 2*w^2 - 4*w - 1",
+          "profile": {
+            "degrees": [
+              0,
+              1,
+              2
+            ],
+            "sha256": "3c70aba7c1b6db5eaa3d986ffd34c7165dfb4d8d8c808313c1d65bf22c7e929a",
+            "terms": 5
+          }
+        },
+        {
+          "multiplicity": 1,
+          "polynomial": "384*lam^7*w^3 + 576*lam^7*w^2 + 192*lam^7*w - 128*lam^6*w^4 - 1472*lam^6*w^3 - 1904*lam^6*w^2 - 464*lam^6*w + 32*lam^6 + 352*lam^5*w^4 + 2304*lam^5*w^3 + 2592*lam^5*w^2 + 368*lam^5*w - 96*lam^5 - 400*lam^4*w^4 - 1936*lam^4*w^3 - 1916*lam^4*w^2 - 20*lam^4*w + 120*lam^4 + 248*lam^3*w^4 + 952*lam^3*w^3 + 828*lam^3*w^2 - 156*lam^3*w - 84*lam^3 - 88*lam^2*w^4 - 264*lam^2*w^3 - 194*lam^2*w^2 + 120*lam^2*w + 36*lam^2 + 16*lam*w^4 + 28*lam*w^3 + 10*lam*w^2 - 42*lam*w - 9*lam + 4*w^3 + 4*w^2 + 6*w + 1",
+          "profile": {
+            "degrees": [
+              0,
+              7,
+              4
+            ],
+            "sha256": "9422bed84800d7ed6a6dcf1910e6c1baebf5c50b8c2c37324361824d269f8c84",
+            "terms": 37
+          }
+        },
+        {
+          "multiplicity": 1,
+          "profile": {
+            "degrees": [
+              0,
+              34,
+              52
+            ],
+            "sha256": "024ae1a0d91e2064ac90de4b2971faa47102eee98615c4547f7ecd0970f3740b",
+            "terms": 1580
+          }
+        },
+        {
+          "multiplicity": 4,
+          "profile": {
+            "degrees": [
+              0,
+              7,
+              12
+            ],
+            "sha256": "e227c289c7e6d0dca788a772948a87ea2af021dda47876644e65be783c4ef745",
+            "terms": 85
+          }
+        }
+      ],
+      "name": "P1_E1__P1_N1",
+      "original": {
+        "degrees": [
+          0,
+          70,
+          106
+        ],
+        "sha256": "72bc073fa97a8720729953cfb8fba256ad5d8a189b0f281a772f5af8dfe5573a",
+        "terms": 6491
+      },
+      "stage": "exact_original_rho_projection_factors"
+    },
+    {
+      "allOriginalZeroLeadingFibersRetained": true,
+      "claimExcluded": false,
+      "elapsedSeconds": 24.716634,
+      "factorProductRemultiplied": true,
+      "factors": [
+        {
+          "multiplicity": 1,
+          "polynomial": "4*lam*w + 2*lam - 2*w^2 - 4*w - 1",
+          "profile": {
+            "degrees": [
+              0,
+              1,
+              2
+            ],
+            "sha256": "3c70aba7c1b6db5eaa3d986ffd34c7165dfb4d8d8c808313c1d65bf22c7e929a",
+            "terms": 5
+          }
+        },
+        {
+          "multiplicity": 1,
+          "polynomial": "384*lam^7*w^3 + 576*lam^7*w^2 + 192*lam^7*w - 128*lam^6*w^4 - 1472*lam^6*w^3 - 1904*lam^6*w^2 - 464*lam^6*w + 32*lam^6 + 352*lam^5*w^4 + 2304*lam^5*w^3 + 2592*lam^5*w^2 + 368*lam^5*w - 96*lam^5 - 400*lam^4*w^4 - 1936*lam^4*w^3 - 1916*lam^4*w^2 - 20*lam^4*w + 120*lam^4 + 248*lam^3*w^4 + 952*lam^3*w^3 + 828*lam^3*w^2 - 156*lam^3*w - 84*lam^3 - 88*lam^2*w^4 - 264*lam^2*w^3 - 194*lam^2*w^2 + 120*lam^2*w + 36*lam^2 + 16*lam*w^4 + 28*lam*w^3 + 10*lam*w^2 - 42*lam*w - 9*lam + 4*w^3 + 4*w^2 + 6*w + 1",
+          "profile": {
+            "degrees": [
+              0,
+              7,
+              4
+            ],
+            "sha256": "9422bed84800d7ed6a6dcf1910e6c1baebf5c50b8c2c37324361824d269f8c84",
+            "terms": 37
+          }
+        },
+        {
+          "multiplicity": 1,
+          "profile": {
+            "degrees": [
+              0,
+              78,
+              95
+            ],
+            "sha256": "18ca332f72da75420eabe23d4f8acfa65ee692959e120236bf956c4567234888",
+            "terms": 6379
+          }
+        },
+        {
+          "multiplicity": 4,
+          "profile": {
+            "degrees": [
+              0,
+              7,
+              12
+            ],
+            "sha256": "e227c289c7e6d0dca788a772948a87ea2af021dda47876644e65be783c4ef745",
+            "terms": 85
+          }
+        }
+      ],
+      "name": "P1_E1__P1_EBe",
+      "original": {
+        "degrees": [
+          0,
+          114,
+          149
+        ],
+        "sha256": "521a874e5f65b43109a52635e0f4c0afba3fdce9b373565681b36e7d006bbbd5",
+        "terms": 14582
+      },
+      "stage": "exact_original_rho_projection_factors"
+    },
+    {
+      "allOriginalZeroLeadingFibersRetained": true,
+      "claimExcluded": false,
+      "elapsedSeconds": 43.768733,
+      "factorProductRemultiplied": true,
+      "factors": [
+        {
+          "multiplicity": 1,
+          "polynomial": "144*lam^4*w^4 + 288*lam^4*w^3 + 144*lam^4*w^2 - 96*lam^3*w^5 - 396*lam^3*w^4 - 384*lam^3*w^3 - 36*lam^3*w^2 + 48*lam^3*w + 16*lam^2*w^6 + 112*lam^2*w^5 + 194*lam^2*w^4 + 16*lam^2*w^3 - 124*lam^2*w^2 - 38*lam^2*w + 4*lam^2 - 4*lam*w^6 - 12*lam*w^5 + 18*lam*w^4 + 68*lam*w^3 + 45*lam*w^2 - 3*lam*w - 4*lam - 3*w^4 + w^3 + 5*w^2 + 5*w + 1",
+          "profile": {
+            "degrees": [
+              0,
+              4,
+              6
+            ],
+            "sha256": "62b1b9e7cf34a7ffbb6ca31b4ea8317bb4405ebc0dfe4b02b669912f4e8a030a",
+            "terms": 27
+          }
+        },
+        {
+          "multiplicity": 1,
+          "polynomial": "384*lam^7*w^3 + 576*lam^7*w^2 + 192*lam^7*w - 128*lam^6*w^4 - 1472*lam^6*w^3 - 1904*lam^6*w^2 - 464*lam^6*w + 32*lam^6 + 352*lam^5*w^4 + 2304*lam^5*w^3 + 2592*lam^5*w^2 + 368*lam^5*w - 96*lam^5 - 400*lam^4*w^4 - 1936*lam^4*w^3 - 1916*lam^4*w^2 - 20*lam^4*w + 120*lam^4 + 248*lam^3*w^4 + 952*lam^3*w^3 + 828*lam^3*w^2 - 156*lam^3*w - 84*lam^3 - 88*lam^2*w^4 - 264*lam^2*w^3 - 194*lam^2*w^2 + 120*lam^2*w + 36*lam^2 + 16*lam*w^4 + 28*lam*w^3 + 10*lam*w^2 - 42*lam*w - 9*lam + 4*w^3 + 4*w^2 + 6*w + 1",
+          "profile": {
+            "degrees": [
+              0,
+              7,
+              4
+            ],
+            "sha256": "9422bed84800d7ed6a6dcf1910e6c1baebf5c50b8c2c37324361824d269f8c84",
+            "terms": 37
+          }
+        },
+        {
+          "multiplicity": 1,
+          "profile": {
+            "degrees": [
+              0,
+              34,
+              52
+            ],
+            "sha256": "024ae1a0d91e2064ac90de4b2971faa47102eee98615c4547f7ecd0970f3740b",
+            "terms": 1580
+          }
+        },
+        {
+          "multiplicity": 1,
+          "profile": {
+            "degrees": [
+              0,
+              59,
+              81
+            ],
+            "sha256": "10e5a228b46131d534319e8ce70e2957043adee0124fc4e3098c90f059fba35d",
+            "terms": 4256
+          }
+        },
+        {
+          "multiplicity": 2,
+          "polynomial": "4*lam*w + 2*lam - 2*w^2 - 4*w - 1",
+          "profile": {
+            "degrees": [
+              0,
+              1,
+              2
+            ],
+            "sha256": "3c70aba7c1b6db5eaa3d986ffd34c7165dfb4d8d8c808313c1d65bf22c7e929a",
+            "terms": 5
+          }
+        }
+      ],
+      "name": "P1_E1__E1_N1",
+      "original": {
+        "degrees": [
+          0,
+          106,
+          147
+        ],
+        "sha256": "603384a3ad2f1b1f3b96e37e8959fcc6ceaca88d39ca62e0adf6428fc58b1554",
+        "terms": 13713
+      },
+      "stage": "exact_original_rho_projection_factors"
+    },
+    {
+      "claimExcluded": false,
+      "claimWholeL0Excluded": false,
+      "elapsedSeconds": 43.769129,
+      "ordinaryISPClaim": false,
+      "peakRssKiB": 138476,
+      "sourceSha256": "afbf5b32af7581f5f84dc83f1d9a88b271f2280b07b78968930b7bf639d899a2",
+      "stage": "complete_original_L0_complement_rho_curves"
+    }
+  ],
+  "execution_receipt": {
+    "elapsed_seconds": 43.82426111400001,
+    "max_child_rss_kib": 138476,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "902b6001a64ab1b2f611e94eb96c991ce6418881",
+        "before": "902b6001a64ab1b2f611e94eb96c991ce6418881",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "fef43bdf8690f2eec4751d85784a266eacdd0322"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-26T13:08:17.580373+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "45826185026",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-347c-20261126",
+    "source_commit": "902b6001a64ab1b2f611e94eb96c991ce6418881",
+    "source_exit_code": 0,
+    "source_git_blob": "1e389b66ee97edab78907d575d2377631b7a65e7",
+    "source_sha256": "afbf5b32af7581f5f84dc83f1d9a88b271f2280b07b78968930b7bf639d899a2",
+    "stdout_bytes": 20484,
+    "stdout_sha256": "6360be094513fcdaa43437aaeeba39b476e1d676befbf3ec38cfaf41d259a93e",
+    "stop_reason": null
+  },
+  "claim_excluded": false,
+  "ordinary_isp_claim": false
+}

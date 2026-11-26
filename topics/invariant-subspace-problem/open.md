@@ -4,7 +4,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-26-open-before-S0-Af0-complete-347c.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-26-open-before-all-positive-far-rows-347c.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -81,7 +81,7 @@ rank$H=4$ 的非单位局部块长度5、4、3已排；长度2单零的三种单
 
 [实际原方差中的完整孔权残余运输](results/R271-appendix-actual-window-weighted-full-galerkin-residual-transfer.md)进一步支付原未加权Galerkin最小者的差，而非改度量的候选：m≥10、d≤x、x+1≤d⁴/64及原J窗中，Γ=32^N下残余、最小者与全能量列差均≤e^(−7d⁴/4)‖f‖。最高carry零头取m−1、n=d/2时，x+1≤d⁴/1024给同F0的Zγ差≤e^(−7d⁴/64)，新母支持准确Q′≥R+r。仍须证明参考Z_(A_x,F0)自身的绝对界；不能换为ker A_x^r或先取零方差。
 
-**既闭的完整空间/真旗范围：** [新增强位的全空间源](results/R271-appendix-all-strong-bit-extension-weighted-complete-source.md)在y=m+d、s≥2²⁴/y给新增孔权≤16/15，保原未加权inverse；同源V/K/u/partial须Q≥R+J及母窗。[最高单位不变和辅助带宽](results/R271-appendix-highest-unit-invariant-true-kernel-and-graded-physical-energy.md)保全部真实F0，但粗条件数仅给γ近1；[任意高度的真旗/Green界](results/R271-appendix-all-height-true-flag-uniform-variance-source.md)在全0<S≤1支付原指定f∈F∩kerC²的环境残余和所有奇高度受限逆，r3锐界仍保。以上均不支付γ<1/16的绝对Zγ；64^R、真实混级与同源返回继续，不能用辅助孔带宽代物理孔衰减。详细常数、全部短长链与执行身份保[本次完整open快照](notes/2026-11-26-open-before-exponential-weighted-global-residual-347c.md)和结果索引。
+**既闭的完整空间/真旗范围：** 原全部新增强位全空间源、最高单位不变、全0<S≤1的任意高度真旗/Green及来源已付，原γ<1/16的绝对Zγ、真F0与完整物理MP仍开；全部准确常数、原域/同forcing、短长链及执行身份保[前完整快照](notes/2026-11-26-open-before-all-positive-far-rows-347c.md)及其归档，不重做。
 
 **[大辅助方差真实F0已取得完整逼近](results/R271-appendix-large-auxiliary-variance-true-kernel-galerkin-approximation.md)：** 对原未加权压缩inverse，低新孔≤L列真实属于全部F_t和F0，r≥2d+L给能量误差≤(16/15)32^(−L−1)。L=d、r=3d+1、R=576(m+1)²d²、Q=R+r严格满足原窗和零头改基；s=K/y给无权ξ≤e^(−2d)及真压缩源强趋P_M。原物理列加准确i0ξ后保同V/K/u/partial。剩余为Sx的绝对孔权，或把此同源列送回真正物理核/纯高度代表的全部MP和真帽费用；辅助到物理逆缩放不能由无权小残量代付。
 
@@ -143,3 +143,5 @@ A单射、稠密像、拟幂零且非紧；普通非零真闭不变子空间仍�
 **[原强尾公共中位尺度已付](results/R271-appendix-median-strong-tail-scaling-four-power-condition-and-full-odd-height-cost.md)（已证明）：** 完整物理相似条件数精确为阶乘比且≤4^R；保持孔级的同一primitive代数投影也付4^R。公共强权尺度全部转入原有限头，偶R≥d、奇1≤r≤m+R的完整MP上界含64^R及显式y幂/阶乘，因此强段对数是O(R)+(d+r)log(m+R)。下一可审更大多项式R，但必须分别支付原Galerkin源的统一高阶系数/邻域及原支持母窗；未从逆费用推出真实κ界。
 
 **[三位N头的高孔完整极点界](results/R271-appendix-three-bit-highest-carry-high-hole-principal-minor-residue-order.md)（已证明）：** 五短尾链以真正整数/有理重建证开齐全部新增秩，非正交翻孔形式与完整极点方程给q₋₁=O(s^(R/2−3))。原强权还有对所有0<s≤1的显式10^100·4^R(3+R/2)^16 s^(R/2−3)Z_R(s)，所有强段相似费用在前因子，Z_R是原完整高孔加权残差。run44724947207实际全核通过。下一仍须在实际s=e⁻¹⁰⁷⁰控制Z_R、最高t的余项，并处理一般m；不能把固定R渐近或单极点项当整个费用。
+
+**[全部正远孔的移动整行与同源费用已付](results/R271-appendix-all-positive-far-hole-moving-coherent-rows-and-matched-source-cost.md)：** ω²=S(x+p−1)/(pSx)同时控制所有p≠q交叉，几何起点的Bessel常数仍Bλ；J≤2x仅27J平方逆权。原全部cut、Q/R/J门与同w/u保留，最优Γ²是真有限头全幂Gram的MP型。实际f−a_full给Γ²≤27μ1及正物理列合成界，但该源锚趋0；不能将此费移给有锚f、a−PkerC f、第二Green或真F0。继续同一有锚来源的实际最优费用与稳定范围端点。

@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R271 全部正远孔移动整行有统一Bessel界及准确同源成本（2026-11-26，已证明）：** [完整层间交叉与全幂matched证明](results/R271-appendix-all-positive-far-hole-moving-coherent-rows-and-matched-source-cost.md)以ω²=S(x+p−1)/(pSx)保全部p≠q，Bessel常数与单孔相同；J≤2x只付27J平方逆权。完整原cut/partial及真有限头MP最优型均保，实际f−a_full的Γ²≤27μ1并有物理合成界；此源锚趋0，未支付有锚原f或第二Green的稳定返回。
+
 - **R150 全部剩余有限中央H源有更低次数的原N一阶必要系统（2026-11-26，归约已证明，未判空）：** [完整原phase/norm及三条原N导数](results/R150-appendix-rank-three-reduced-degenerate-Gram-general-finite-center-original-N-first-necessary-equations.md)从实际Kc与两首一二次源代数给十条必要多项式；保V全部项、先求导后H余式、中心t9系数。系数域QQ[e]/(2e³+1)，Pi只含已付物理单位与已闭c0/2；c−6和所有a3零面均保。真I*C=1门已启动，成功身份尚待实际输出。
 
 - **R150 原中心H=−6的零首项端点纤维为空（2026-11-26，已证明）：** [原A=7/9、ab=637/5580的完整三维QQ证明](results/R150-appendix-rank-three-reduced-degenerate-Gram-central-minus-six-leading-zero-exclusion.md)保全部V源三次代数和真实L，U³原身份在0.160615秒实际回乘。run45823574259/job139921814446的后续一般a≠0范数到时，整体exit1仍如实记录，不能据此关闭整个中心−6；后续换一般有限中心原N一阶输入。
