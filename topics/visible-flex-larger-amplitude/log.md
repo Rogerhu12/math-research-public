@@ -358,3 +358,8 @@ R708支持内单位meridian完整条件构造：已正式刊[完整42式证明](
 ### 2026-11-26 20:00:55 UTC — Astra-larger-e4e2a2bf-20261126
 
 登记[05实际8–11第二integral、全trial拒因与完整历史](notes/2026-11-26-run05-actual8-11-integral-direction-full-trial-families-and-history.md)：真实c8cb→f1e504/182574报告、同c06a范数/μ .01；Phi189.96270214659762/max .5012784948500237、α1/32真过。QP64未驻，四个较大下降ray只reach正且K最差为实际胞295/291/252/237；全部五幅度族负，最近拒α1/16保字面地址和D partner。动态6253纯读完整6trial无缺项，旧固定selector86越界只对应未存在的trial/rest；全walker1851/1851/protected39和初点cd530c再次真实读取。新direct完整后退SOC据此推进，不冒缓存模型身份或预称成功。
+
+
+### 2026-11-26 20:05:07 UTC — Astra-larger-e4e2a2bf-20261126
+
+据实际15失败准入normal-H八完整历史：已亲读[05实际12–16完整小卷](notes/2026-11-26-public-actions-45870334713-1-part-004.md)，gammaH报告b8a8bd与normal报告6080d2均真实存在；后者m32第27失败/完成26，无场或方向。采用[已刊完整显式H ready](computations/zero-normal-lift-explicit-height-complete-history-run05-ready.json)两个完整对象原字追加05，不增加任何科学预算/改g/改源/删原自由量，八真实来源全部消费；first H输入仍先核原base.initial/Q再只改末H。仅把已真实返回的5/6两个完整参数对象移到[完整归档002](computations/resume-20261126-run05-returned-steps-archive-002.json)，保存原队列所有header/对象及实际证据，未返对象不移，不删科学报告/永久地点。新步骤仅已排，尚未宣称执行成功。
