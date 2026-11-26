@@ -201,10 +201,12 @@
 
 - [R569同一数学种子的外端数值接口](notes/2026-11-26-r569-seed-numerical-interface.md)：**实现已运行，原终态见下条收据**。M168/同M紧8倍/M+1三传递，准确rho_(M+1)=0索引、统一y(alpha160)=1和同一log显示尺度；输出完整f/a/单位T外端二jet，准确DtN截断界和数值误差观察分开。固定g非线性方程和core C=0 shooting条件已明确，未宣实现有限分支。
 
-- [从原恢复末态继续的批量漏峰交换](notes/2026-11-26-hard-exchange-identified-continuation.md)：**新计算范围已发布，结果待实际运行**。两个lane严格复用原81q/已学约束网/trust的小型输入参数，物理和硬门完全相同；小漏峰完整登记并在后端返回后批量加入，显著未覆盖峰立即交换。原状态仍不合格，不授metric接受或固定g精化。
+- [从原恢复末态继续的批量漏峰交换](notes/2026-11-26-hard-exchange-identified-continuation.md)：**计算已终态，见下条实际收据**。两个lane严格复用原81q/已学约束网/trust的小型输入参数，物理和硬门完全相同；小漏峰完整登记并在后端返回后批量加入，显著未覆盖峰立即交换。原状态仍不合格，不授metric接受或固定g精化。
 
 - [R569线性种子的首份原终态与C²代价](notes/2026-11-26-r569-seed-first-run-receipt.md)：**完整数值观察，未授有限等距**。run45771143212自然success，39.905028348科学秒、2850383次RHS。同alpha160归一与共同外端尺度下，尾内|f_rr|约5.05e7、|v_rr|约3.94e8；外端f/fr负号排除直接单调w连接。DtN理论截断与数值积分差分开报告；换尾/相位/连接后继续实际核心shooting。
 
 - [R570 保八矩的有限姿态词与真实四段返回](results/R570-neutral-residence-pose-and-real-four-piece-return.md)：**已证明**同高度总驻留恒定的SO(3)有限词保持冻结完整八矩成本不随姿态变；按实际incoming冻结与完整能量/积分C¹控制，重解原八矩给u_σ=O(δ²)。首高尾慢图修正和原位置积分支付巨大横向分量，实际两pose方程可同解，故同χ (PP^R)²准确闭scalar全jets、frame、位置、A、T。整个第四仍4V_P、同13和有限等距/全reach/幅度仍欠。
 
 - [R571 新固定相位尾的全平核与核心线性射击零](results/R571-milder-phase-tail-flat-kernel-and-core-shooting-zero.md)：**已证明**明确新wφ=.8exp[−(2−sin(δ^-1+φ))/δ]有统一patch Hess/graph reach，单谷DtN给真实一维全平核、全部导数exp(−c/δ²)和相位连续。归一峰随φ一圈移一cell导致准确负holonomy；周期正则connector的C_core故有实际零且A_core非零，双开平帽的闭旋转背景可线性匹配。种子C²代价、有限非线性、冻结g精化和全闭reach/幅度未付。
+
+- [识别续接：B038首次通过fine几何并改善metric](notes/2026-11-26-hard-resume-first-metric-progress.md)：**完整原终态观察**，run45773550668新增163.220723713+470.738431635科学秒。B030仍V=.00054365；B038在原不变几何门下V=0，71次可行metric改善至η=.86360747，末两次后端自然success。最后角提议1536未加入因原容量768；仍非全域连续证书/1e−6或冻结g收敛，继续新明确预算及分块Jac。

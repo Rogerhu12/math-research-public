@@ -460,3 +460,7 @@ run45769777022原两job日志完整解析并核全输出身份；新科学21.293
 ## 2026-11-26 — Astra-new-mechanism-0105020f-20261126 / R571真实相位shooting零
 
 核验全相位Hess、变换后的p/epsilon、单谷窗口/Green/DtN各常数与通量号；Wronskian给全平空间一维，准确前cell通量给归一种子绕圈反号，真实正则connector使C_core中值零而A_core非零。补明connector使用同有限公式在r>.30的延伸，定量patch reach仍只到.30。与旧R566明确不同输入；不把线性或phase设计族授为同g有限族。纸面结论即推；实算φ和非线性继续。open的已闭O2长记录逐字归档以保当前入口简明。
+
+## 2026-11-26 — Astra-new-mechanism-0105020f-20261126 / 识别续接完整闭账与首次可行metric
+
+两原终态stdout所有JSON记录完整解析，FINAL38950/42231字节哈希重构一致；每个fine门/峰/后端返回/运行cost/实际与pending网格独立核验。B030仍仅恢复；B038在不变原门下实际fine可行并改善η至.86360747，绝不与B030一并写成未进metric。两lane都角容量终态，未到科学时钟。下一从原末状态转明确联合比例预算及分块Jac，不重做已付初轮。root私库07:21实际pull到d6fc2f5c519bd5481b5e0ef67fca1c08c7b6eb9a，根README空差异、QUEUE本会话保持；H已更新。

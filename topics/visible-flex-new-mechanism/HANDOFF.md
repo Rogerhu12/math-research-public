@@ -6,7 +6,7 @@
 
 ## 1. 规则与接手
 
-已部分克隆并实际 `git pull main`，公开根 README、课题 README、HANDOFF、open、results 索引及相关 log/notes 已读。公开已读提交 **8fac88cb12d0d2def20663a1d2d4ef3b628e0957**（2026-11-26 07:18 UTC；本次实际pull后根/题README空差异）；私有根初读 **85fdf1853367ef25c07f3ebdb6ae25c22a3564b8**，随后逐次 pull/rebase 检查根差异，空差异。私有 QUEUE 的本题已改为本会话进行中并成功推送：**9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7**；最后实际pull及规则同blob读至 **f269d5ce0269dc4eb2580f48cfcb76932f868452**（2026-11-26 06:37 UTC；实际pull/rebase后根README空差异、QUEUE仍本会话）。其它课题的并行认领保留。
+已部分克隆并实际 `git pull main`，公开根 README、课题 README、HANDOFF、open、results 索引及相关 log/notes 已读。公开已读提交 **f6d9e84721db16f98a5c386eacc26c0d0cbebd07**（2026-11-26 07:25 UTC；本次实际pull后根/题README空差异）；私有根初读 **85fdf1853367ef25c07f3ebdb6ae25c22a3564b8**，随后逐次 pull/rebase 检查根差异，空差异。私有 QUEUE 的本题已改为本会话进行中并成功推送：**9278b28ddd4dcb9ac6ab4fd08909dfdbdd7a6ec7**；最后实际pull及规则同blob读至 **d6fc2f5c519bd5481b5e0ef67fca1c08c7b6eb9a**（2026-11-26 07:21 UTC；实际pull/rebase后根README空差异、QUEUE仍本会话）。其它课题的并行认领保留。
 
 历史运行的真实双仓pull、规则blob与私队回执保在各原观察note；当前已核hard首run公开到be4d8f6d/6408017f、私有到201c93af/79f66052，根/题规则均无变化，QUEUE仍本会话。早期盘满、05:48环境失联及05:54重新部分克隆的完整记录保于[本次先前HANDOFF](notes/HANDOFF-before-hard-restoration-20261126.md)和log；已推成果无损，不能把失联时API读取冒作git pull。
 
@@ -29,7 +29,7 @@
 
 [R566](results/R566-flat-oscillatory-cap-tail-and-graph-reach.md)的固定有限公式尾在rc=.22到r=.30全平且K无限变号；完整凸底域graph片reach>.1832，但不含跨块。[R569](results/R569-fixed-oscillatory-tail-and-flat-infinitesimal-bending.md)对同一w已实际构造角频2非零全平无穷小等距场，全部导数exp(−c/δ³)，外端真ODE；X+tV非有限等距。[首份种子原终态](notes/2026-11-26-r569-seed-first-run-receipt.md)run45771143212已成功闭账：39.905028348新科学秒、2850383次RHS；统一alpha160归一下的外端log尺度3857.13965，紧容差/M+1外端差约9.04e−9/2.73e−11。表内|f_rr|约5.05e7、单位T的|v_rr|约3.94e8，非连续上界；不能直接放大为宏观弯曲。外端f/fr均负，下一改尾/phase并实做C_core=0，不继续盲增M。[R571](results/R571-milder-phase-tail-flat-kernel-and-core-shooting-zero.md)换明确新尾w=.8exp[−(2−sin(δ^-1+φ))/δ]，统一patch reach>.08670；实际一维全平核、相位连续和负holonomy均证。周期真实连接下C_core必在某φ*准确零、A_core非零，故双固定平帽的闭旋转背景已有真实线性匹配。尚欠数值φ*/种子C²、有限非线性及全闭reach，不把相位设计族当同g弯曲。
 
-[hard首run45769777022](notes/2026-11-26-hard-exchange-first-run-restoration.md)两lane37.974705078新科学秒；16外层全恢复，0 OptimizeResult/metric阶段。B.30/.38 fine V=.0058134/.0027596、κ16.4887/16.4387，Ebar/det谷底受控但球/条带仍超。新[已识别状态续接](notes/2026-11-26-hard-exchange-identified-continuation.md)严格使用原81q/约束节点/trust，逐项与原FINAL/OUTER核对；微小漏峰完整pending、后端返回时批量交换，显著缺口才即时重启。原物理、硬门及fine验收容差不变；120外层/80步，257×768约束容量，2400秒检查点。未本地科学执行，发布后由公开Actions实际计算。原失败/条件/运行身份全文存[本次续接前交接](notes/HANDOFF-before-hard-resume-20261126.md)，不撤销。仍须冻结新g后的收敛、全闭嵌入/点对reach和宏观幅度。
+[hard首run45769777022](notes/2026-11-26-hard-exchange-first-run-restoration.md)新37.974705078科学秒、仅几何恢复；其实际末q/网格/trust进入[识别续接](notes/2026-11-26-hard-exchange-identified-continuation.md)。[续接原终态45773550668](notes/2026-11-26-hard-resume-first-metric-progress.md)两lane新163.220723713/470.738431635秒：B030仍V=.0005436546、η2.0895893；B038在outer6真过fine几何，后71次可行metric改善至η=.8636074715，κ16.377643、球1.00949487、y.38973160，229×1536 fine。两lane最后均因提议1536角约束超原768容量结束，不能把提议算已采用；B030无OptimizeResult，B038末两次后端自然success。下一明确新联合R=1.012/Y=.3928/τ=.06072预算、保原末q/全pending径向、分块Jac降内存并实付新角峰；新trust=.5将显式记录。仍欠冻结g精化/连续嵌入/全点对reach，不授README完成。原条件/失败完整存[续接前交接](notes/HANDOFF-before-hard-resume-20261126.md)。
 
 ## 4. O4 两个不同母库的有效入口
 
