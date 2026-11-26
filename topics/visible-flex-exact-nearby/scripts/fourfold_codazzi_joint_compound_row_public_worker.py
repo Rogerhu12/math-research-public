@@ -82,8 +82,8 @@ def patched_source():
         "R149_complete_reflected_finite_waist_rows_execution_v1": "R149_complete_joint_compound_row_execution_v1",
         "consumed_R149_complete_reflected_finite_waist_rows_target_v1": "consumed_R149_complete_joint_compound_row_target_v1",
         "whole_actual_conjugacy_inputs_reserved_for_one_new_complete_96row_target": "whole_actual_conjugacy_inputs_reserved_for_seven_new_joint_scalars",
-        "reserve exact reflected waist ": "reserve joint compound waist rows ",
-        "preserve exact reflected waist ": "preserve joint compound waist rows ",
+        "visible-exact: reserve exact reflected waist ": "visible-exact: reserve joint compound waist rows ",
+        "visible-exact: preserve exact reflected waist ": "visible-exact: preserve joint compound waist rows ",
     }
     for old, new in replacements.items():
         if old not in source:
