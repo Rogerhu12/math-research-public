@@ -454,3 +454,5 @@
 - [R622更长内蕴近对与同输入reach推论](results/R622-longer-intrinsic-near-pairs-and-same-bound-reach.md)：**已证明完整充分条件**；Kℓ≤5/2时保正弦弦下界及9/(10K)双法弦半径，原参考管投影和远弦条件全保。可用同一已付连续输入另证完整reach并与旧完整证书取max；不混两证书局部项、纯标量helper未执行。
 
 - [B030物理epigraph的真实终态](notes/2026-11-27-r566-physical-epigraph-original-terminal.md)：**数值推进未完成**；原源1353bracket补完，新增15metric+1恢复到真7371/η.2277496382670385/物理V0。已付1298fine与要求1322分列；末55e的391峰完成、1128原bracket未闭，不能按更低fineη提前接受。全部新物理拒绝/费用保留，接原未完队列。
+
+- [R613完整S的真实60步终态](notes/2026-11-27-r613-full-position-sixty-step-terminal.md)：**真实改善，尚未驻点**；run45891036836新2961.020285526秒/60接受到真337，fineη2.52441e−7、2e−9未过。全部原奇频/QR/SVD保留，末段L2与max分离、高频增长不隐去；R615条件全角5.80359e−7尚缺径向/ODE/舍入，接真337继续。
