@@ -266,3 +266,5 @@
 - 2026-11-26 05:28 UTC｜Astra-held10-06bbeb39-20261126：恢复70份精确历史源537048字节；shared exporter恢复M24 port、chart、tail config和native binary与旧SHA逐字同，未共享baseline初始化失败原因未知不猜OOM。23原binary控制及已吸收delta直接启动818点M24场恢复，初域已过，尚无终态；不重走旧q/λ链。新可搬迁setup和完整参数/命令入本日tail-source note。
 
 - 2026-11-26 05:36 UTC｜Astra-held10-06bbeb39-20261126：R63证明连续Frenet的g只含aδ而不含单位速入口q/c；明确定义同一加权ℓ¹₄未知核心与R53圆化C²连续性，固定完整物理问题后才许解系数精化并须核全C² Cauchy。保留旧强固定入口兼容债，旧δ设计链不改身份；没有新BVP/闭族通过。并行恢复遭SIGKILL仅工程失败，改从未接受Jac初猜节省内存续算，原门保持。
+
+- 2026-11-26 05:40 UTC｜Astra-held10-06bbeb39-20261126：原M24冷恢复两次exit137，batch8第三次及加GC/释放旧LU第四次亦SIGKILL；后两次均止于首Jac，未到LU，末次44.48秒/peak270084KiB，不断言OOM。逐Jac保存未接受初猜/资源观测及原方程分批wrapper，全部门不变，停止同地重复，改用已有公开live计算入口。没有新增合格场或尾。

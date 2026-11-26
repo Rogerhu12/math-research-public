@@ -82,3 +82,28 @@ cgroup OOM 计数，故只登记 SIGKILL，不把原因断言为 OOM，更不说
 语法和导入检查，没有为验证包装器而再跑一遍完整准备。它要求全新、仓库外
 的 `--work`；不生成 BVP 或尾成功主张。全部可再生输入、检查点和 native
 数据留 scratch，继续原 fullH 与前缀联立后再绑定最终固定 g。
+
+## 原 401 入口与首个资源观测的实际终态
+
+401 入口也已真实返回 `exit137`。它完成初域并进入原 Newton，首个 full
+trial 的 Frenet margin 为 `-.8102927711606788`，由原线搜正常拒绝；
+随后进程被终止，没有首网格/raw。不能把这一次 trial 拒绝等同于 BVP 失败。
+
+第三个新目录 `m24-streamed-recovery` 使用 root 的
+`streamed_prefix_driver.py --rhs-block 8` 和本子任务的
+`tail_observe_prefix.py`。仅沿径向分批评价原 RHS/Jacobian，保 M24、768
+角点、原 BC、原 Newton 和全部门。observer 在每次 Jacobian 入口保存完整
+`x,y,p,pscale`，明确是**未接受的初猜**；并记录 Jacobian、sparse LU 的前后
+事件与进程实际峰值 RSS，不修改原运算。
+
+该运行真实返回 `returncode=-9`，18.265470712 秒；父进程
+`RUSAGE_CHILDREN.ru_maxrss=494444 KiB`。observer 只见 8.152483831 秒的
+首 `jacobian_start`，峰 RSS 同为 494444 KiB，没有 `jacobian_return`
+或任何 sparse-LU 事件。这定位了该次终止在首 Jacobian 构造中，尚不确定
+终止来源。紧凑事件/完整非秘密 argv/快照 SHA 见
+`2026-11-26-tail-resource-entry.json`。原 `last-jac-input.npz` 留在
+`W/m24-streamed-observer/`，后续可用作 raw-restart，不再丢失本次初猜。
+
+首次观测启动还遇到 `/usr/bin/time` 不存在，exit127、零次数学调用；随即
+用 Python 父进程的 subprocess/resource 包装得到上面真实终态。后续将
+从快照接省内存的原方程评价，不原样重试已经被终止的入口。

@@ -1,0 +1,97 @@
+{
+  "scope": "Observed resource terminations during necessary field regeneration; no mathematical failure inferred.",
+  "cold_n801": {
+    "shell_exit_code": 137,
+    "initial_domain_passed": true,
+    "initial_nodes": 818,
+    "BVP_returned": false
+  },
+  "cold_n401": {
+    "shell_exit_code": 137,
+    "initial_domain_passed": true,
+    "initial_nodes": 418,
+    "first_full_trial_domain_rejected": true,
+    "BVP_returned": false
+  },
+  "streamed_n401": {
+    "returncode": -9,
+    "seconds": 18.265470711994567,
+    "maximum_rss_kib": 494444,
+    "user_seconds": 17.066914,
+    "system_seconds": 1.1764109999999999
+  },
+  "streamed_resource_events": [
+    {
+      "kind": "driver_start",
+      "seconds": 0.001518510005553253,
+      "maximum_rss_kib": 60372
+    },
+    {
+      "kind": "jacobian_start",
+      "seconds": 8.1524838309997,
+      "maximum_rss_kib": 494444,
+      "calls": 1,
+      "nodes": 418,
+      "dimension": 73,
+      "parameters": 24
+    }
+  ],
+  "streamed_command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "-u",
+    "/tmp/held10-astra-06bbeb395471-public/topics/visible-flex-held-10pct/scripts/resume_20261126/tail_observe_prefix.py",
+    "--observer-dir",
+    "/tmp/held10-astra-06bbeb395471-tail/m24-streamed-observer",
+    "--driver",
+    "/tmp/held10-astra-06bbeb395471-public/topics/visible-flex-held-10pct/scripts/resume_20261126/streamed_prefix_driver.py",
+    "--",
+    "--rhs-block",
+    "8",
+    "--source-topic",
+    "/tmp/held10-astra-06bbeb395471-tail/multistage-source",
+    "--short-bridge",
+    "/tmp/held10-astra-06bbeb395471-tail/runtime-source/bundle/topics/visible-flex-larger-amplitude/computations/root_short_bridge.py",
+    "--profile",
+    "/tmp/held10-astra-06bbeb395471-tail/m24-recovery-profile.json",
+    "--chart",
+    "/tmp/held10-astra-06bbeb395471-tail/inputs/reference/chart.json",
+    "--port",
+    "/tmp/held10-astra-06bbeb395471-tail/m24-linear-port.json",
+    "--control-record",
+    "/tmp/held10-astra-06bbeb395471-tail/m24-recovery-controls.json",
+    "--core-module",
+    "/tmp/held10-astra-06bbeb395471-public/topics/visible-flex-held-10pct/scripts/resume_m3/material_support_factory.py",
+    "--core-config",
+    "/tmp/held10-astra-06bbeb395471-public/topics/visible-flex-held-10pct/scripts/resume_m3/multistage_wide_circle_lambda0p002.json",
+    "--amplitude",
+    ".06",
+    "--warp-reference",
+    ".06",
+    "--modes",
+    "24",
+    "--angular",
+    "768",
+    "--audit-angular",
+    "512",
+    "--nodes",
+    "401",
+    "--max-nodes",
+    "6000",
+    "--tol",
+    "1e-6",
+    "--bc-tol",
+    "1e-7",
+    "--physical-bc-tol",
+    "2e-9",
+    "--outdir",
+    "/tmp/held10-astra-06bbeb395471-tail/m24-streamed-recovery"
+  ],
+  "initializer_only_snapshot_sha256": "f40d8a6806e04cc9cf69f21d15500a063e0eb898e96dbf856e0f7f6006feccca",
+  "observer_sha256": "c6d37072139aa6e7de288566120649605f033650ebb113e707f0f08f4ef127cb",
+  "first_streamed_launcher": {
+    "exit_code": 127,
+    "reason": "/usr/bin/time missing",
+    "mathematical_calls": 0
+  },
+  "conclusion": "Streamed run reached first Jacobian entry, but not Jacobian return or sparse LU. Peak RSS observed 494444 KiB; kill source not proven."
+}
