@@ -1,0 +1,461 @@
+{
+  "schema": "r150-L0-entire-original-G-curve-return-v1",
+  "sourcePath": "notes/2026-11-27-unit211-L0-G-complete-original-return-8542.py",
+  "sourceSha256": "be8068dbf2c3cfd4ff4f1ba1b4f979b0ee5ab8076dda01c542fe600ae28d3884",
+  "sourceBytes": 24332,
+  "pythonVersion": "3.12.14",
+  "pythonFlintVersion": "0.9.0",
+  "alarmSeconds": 300,
+  "addressSpaceBytes": 4294967296,
+  "exitCode": 0,
+  "elapsedSeconds": 25.192543,
+  "peakRssKiB": 125164,
+  "stdoutSha256": "5e9c72543034b90c5d7934cc441308444386ee6166430ed8b1eb1e57fc66cb20",
+  "stdoutBytes": 16869,
+  "exactReturns": [
+    {
+      "elapsedSeconds": 4.351768,
+      "name": "P1_E1",
+      "originalIdentityMultipliedBack": true,
+      "profile": {
+        "degrees": [
+          4,
+          71,
+          3
+        ],
+        "sha256": "843e714e49ae08ba7a69eada90ea54d8f471a0e27ed59419812c89f480d2790e",
+        "terms": 1367
+      },
+      "stage": "paid_G_original_pseudo_remainder"
+    },
+    {
+      "elapsedSeconds": 4.440649,
+      "name": "P1_N1",
+      "originalIdentityMultipliedBack": true,
+      "profile": {
+        "degrees": [
+          4,
+          76,
+          3
+        ],
+        "sha256": "6f3e040fda8282126f6e90fc74f2f4c307f89dae3e0883dc09cbeed09200cf6c",
+        "terms": 1479
+      },
+      "stage": "paid_G_original_pseudo_remainder"
+    },
+    {
+      "elapsedSeconds": 4.610459,
+      "name": "P1_EBe",
+      "originalIdentityMultipliedBack": true,
+      "profile": {
+        "degrees": [
+          6,
+          79,
+          3
+        ],
+        "sha256": "2e953bcce89c3e7aa15e923e114623c720bea62705cf805c693df2f750236ced",
+        "terms": 2137
+      },
+      "stage": "paid_G_original_pseudo_remainder"
+    },
+    {
+      "elapsedSeconds": 4.610602,
+      "stage": "complete_G_rho_projection_begin"
+    },
+    {
+      "elapsedSeconds": 12.685217,
+      "profile": {
+        "degrees": [
+          0,
+          538,
+          24
+        ],
+        "sha256": "17d566e7b84c6b5c3bf7da9c769a08a1ccbfb56259e97f5be94eb301bce94ee3",
+        "terms": 13439
+      },
+      "stage": "complete_G_rho_projection"
+    },
+    {
+      "elapsedSeconds": 13.452346,
+      "profile": {
+        "degrees": [
+          0,
+          637,
+          3
+        ],
+        "sha256": "4e577ea3af3469a84a638128a6c8e2cdde0ff1c646c661af9219a58b620db9ef",
+        "terms": 2551
+      },
+      "stage": "complete_G_w_pseudo_remainder"
+    },
+    {
+      "elapsedSeconds": 18.525682,
+      "factorDegrees": [
+        1,
+        2,
+        2,
+        2,
+        6,
+        7,
+        8,
+        8,
+        20,
+        46,
+        204
+      ],
+      "factorProductMultipliedBack": true,
+      "projectionDegree": 914,
+      "projectionSha256": "fce6e0598a3bf287b1b51f38803e43359f96024819daeb0a12cfc8ecd716c500",
+      "squarefreeDegree": 306,
+      "squarefreeSha256": "7f66899c158f6ccbae76a6474f129dc53e5c1ffc0e0b13c0051fb45ea7dd60af",
+      "stage": "complete_G_finite_lambda_cover"
+    },
+    {
+      "bezoutMultiplyBack": true,
+      "claimExcluded": true,
+      "elapsedSeconds": 18.655083,
+      "modularBezoutSha256": "ff6587c1c36691c37d54115ea4efbec2c5b0750b0533857e3e9f6ae5c438117e",
+      "originalRhoDegrees": [
+        4,
+        6
+      ],
+      "originalSecondRhoResultantWDegree": 30,
+      "phiDegree": 204,
+      "phiLeadingDegreePreserved": true,
+      "prime": 1031,
+      "secondCompleteProjectionModPrimeDegree": 2920,
+      "stage": "degree204_exact_univariate_coprimality_witness"
+    },
+    {
+      "claimExcluded": true,
+      "elapsedSeconds": 18.667897,
+      "lambdaDegree": 1,
+      "parameterUnitRemovals": [
+        [
+          "original_2",
+          1
+        ],
+        [
+          "original_2",
+          1
+        ],
+        [
+          "original_2",
+          1
+        ]
+      ],
+      "phiCoefficientsLowFirst": [
+        "-1",
+        "2"
+      ],
+      "rawWDegree": 3,
+      "remainingWDegree": 0,
+      "stage": "complete_same_parameter_original_return"
+    },
+    {
+      "claimExcluded": true,
+      "elapsedSeconds": 18.681512,
+      "lambdaDegree": 2,
+      "parameterUnitRemovals": [
+        [
+          "original_4",
+          1
+        ]
+      ],
+      "phiCoefficientsLowFirst": [
+        "1",
+        "-2",
+        "2"
+      ],
+      "rawWDegree": 1,
+      "remainingWDegree": 0,
+      "stage": "complete_same_parameter_original_return"
+    },
+    {
+      "claimExcluded": true,
+      "elapsedSeconds": 18.729396,
+      "lambdaDegree": 2,
+      "parameterUnitRemovals": [
+        [
+          "original_5",
+          1
+        ],
+        [
+          "original_5",
+          1
+        ]
+      ],
+      "phiCoefficientsLowFirst": [
+        "1",
+        "-2",
+        "3"
+      ],
+      "rawWDegree": 2,
+      "remainingWDegree": 0,
+      "stage": "complete_same_parameter_original_return"
+    },
+    {
+      "claimExcluded": true,
+      "elapsedSeconds": 18.757237,
+      "lambdaDegree": 2,
+      "parameterUnitRemovals": [
+        [
+          "original_3",
+          1
+        ]
+      ],
+      "phiCoefficientsLowFirst": [
+        "-1",
+        "-6",
+        "8"
+      ],
+      "rawWDegree": 1,
+      "remainingWDegree": 0,
+      "stage": "complete_same_parameter_original_return"
+    },
+    {
+      "claimExcluded": true,
+      "elapsedSeconds": 18.786259,
+      "lambdaDegree": 6,
+      "parameterUnitRemovals": [
+        [
+          "original_5",
+          1
+        ]
+      ],
+      "phiCoefficientsLowFirst": [
+        "1",
+        "-4",
+        "11",
+        "-20",
+        "26",
+        "-22",
+        "4"
+      ],
+      "rawWDegree": 1,
+      "remainingWDegree": 0,
+      "stage": "complete_same_parameter_original_return"
+    },
+    {
+      "claimExcluded": true,
+      "elapsedSeconds": 18.820362,
+      "lambdaDegree": 7,
+      "parameterUnitRemovals": [
+        [
+          "original_4",
+          1
+        ]
+      ],
+      "phiCoefficientsLowFirst": [
+        "5",
+        "-26",
+        "54",
+        "-14",
+        "-156",
+        "352",
+        "-336",
+        "128"
+      ],
+      "rawWDegree": 1,
+      "remainingWDegree": 0,
+      "stage": "complete_same_parameter_original_return"
+    },
+    {
+      "claimExcluded": true,
+      "elapsedSeconds": 18.968455,
+      "lambdaDegree": 8,
+      "parameterUnitRemovals": [
+        [
+          "original_8",
+          1
+        ]
+      ],
+      "phiCoefficientsLowFirst": [
+        "97",
+        "-836",
+        "3480",
+        "-8900",
+        "15124",
+        "-17352",
+        "13024",
+        "-5792",
+        "1152"
+      ],
+      "rawWDegree": 1,
+      "remainingWDegree": 0,
+      "stage": "complete_same_parameter_original_return"
+    },
+    {
+      "claimExcluded": true,
+      "elapsedSeconds": 19.027199,
+      "lambdaDegree": 8,
+      "parameterUnitRemovals": [
+        [
+          "closed_W",
+          1
+        ]
+      ],
+      "phiCoefficientsLowFirst": [
+        "-9",
+        "48",
+        "-113",
+        "66",
+        "290",
+        "-880",
+        "1176",
+        "-832",
+        "256"
+      ],
+      "rawWDegree": 1,
+      "remainingWDegree": 0,
+      "stage": "complete_same_parameter_original_return"
+    },
+    {
+      "claimExcluded": true,
+      "elapsedSeconds": 19.505484,
+      "lambdaDegree": 20,
+      "multiplicationDeterminantWitness": [
+        1031,
+        893
+      ],
+      "multiplicationMatrixExactReturn": true,
+      "originalCommonRhoDegree": 2,
+      "originalRhoUnitRemovals": [
+        [
+          "original_7",
+          1
+        ],
+        [
+          "original_7",
+          1
+        ]
+      ],
+      "parameterUnitRemovals": [],
+      "phiCoefficientsLowFirst": [
+        "5",
+        "-86",
+        "751",
+        "-4320",
+        "18035",
+        "-57032",
+        "138416",
+        "-253716",
+        "325848",
+        "-204088",
+        "-230340",
+        "876048",
+        "-1346992",
+        "1230656",
+        "-511168",
+        "-330880",
+        "752576",
+        "-647168",
+        "325376",
+        "-94208",
+        "12288"
+      ],
+      "rawWDegree": 1,
+      "remainingRhoDegree": 0,
+      "remainingWDegree": 1,
+      "sameLambdaWSolutionVerified": true,
+      "stage": "complete_same_parameter_original_return",
+      "wValueSha256": "670f672202e453d90323ca067352da64f9077c67c571b54f9d8bc05ef2f9ddb1"
+    },
+    {
+      "claimExcluded": true,
+      "elapsedSeconds": 25.192261,
+      "lambdaDegree": 46,
+      "multiplicationDeterminantWitness": [
+        1031,
+        639
+      ],
+      "multiplicationMatrixExactReturn": true,
+      "originalCommonRhoDegree": 3,
+      "originalRhoUnitRemovals": [
+        [
+          "original_7",
+          1
+        ],
+        [
+          "paid_P1_alpha",
+          1
+        ],
+        [
+          "paid_P1_alpha",
+          1
+        ]
+      ],
+      "parameterUnitRemovals": [],
+      "phiCoefficientsLowFirst": [
+        "1273383",
+        "-42259494",
+        "675282314",
+        "-6771276002",
+        "45920390833",
+        "-201311158108",
+        "329629642448",
+        "3094049973112",
+        "-34965061297427",
+        "213047815676514",
+        "-955357598615702",
+        "3391215637968870",
+        "-9709753601288337",
+        "22146242220035944",
+        "-37967332366168276",
+        "39601064541043972",
+        "7888184217621820",
+        "-109264304084580840",
+        "72091219841678608",
+        "786646994471459808",
+        "-3774988827210410352",
+        "9952015383036997888",
+        "-16918633211022963264",
+        "12485536572660129472",
+        "33033809581754374464",
+        "-170028483070970225024",
+        "459792653620862249728",
+        "-946884479767329670144",
+        "1620731495133071550464",
+        "-2387951984305359886336",
+        "3080905494980864557056",
+        "-3511967539872851017728",
+        "3552646642354672517120",
+        "-3193873114931676479488",
+        "2549957794085340381184",
+        "-1803342053390708637696",
+        "1124766474134933733376",
+        "-614860319944868364288",
+        "292120776395399888896",
+        "-119283297158361513984",
+        "41249105225791307776",
+        "-11842016717653934080",
+        "2745295579843133440",
+        "-493501195533418496",
+        "64492232484323328",
+        "-5445056458653696",
+        "222651104624640"
+      ],
+      "rawWDegree": 1,
+      "remainingRhoDegree": 0,
+      "remainingWDegree": 1,
+      "sameLambdaWSolutionVerified": true,
+      "stage": "complete_same_parameter_original_return",
+      "wValueSha256": "6266113f92680b9858f48781b08f5052a0cbe5e352b827bc6ad28e5f42339f00"
+    },
+    {
+      "claimExcluded": true,
+      "elapsedSeconds": 25.192543,
+      "multivariatePseudoDivisionIdentities": 4,
+      "numberFieldPseudoDivisionIdentities": 178,
+      "ordinaryISPClaim": false,
+      "originalSourceDenominatorCount": 35,
+      "peakRssKiB": 125164,
+      "rationalPrimitiveIdentities": 356,
+      "scope": "entire original L0 G curve, combined with independently closed lc_w G=0 fibers",
+      "sourceSha256": "be8068dbf2c3cfd4ff4f1ba1b4f979b0ee5ab8076dda01c542fe600ae28d3884",
+      "stage": "complete_original_G_curve_exclusion"
+    }
+  ],
+  "claimExcluded": true,
+  "ordinaryISPClaim": false
+}

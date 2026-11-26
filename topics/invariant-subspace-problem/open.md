@@ -53,9 +53,9 @@ rankH4所有proper局部单零层（长度2–5）已闭，原双点单零的单
 
 **[单位211非零m的整个u1图已空](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-nonzero-isolated-mean-unit-base-complete-exclusion.md)：** 共同规范p+q2后，原有限覆盖与整半权已付；两QQ高曲线结式1085/1389迫l2，原B/R01/R02/R04在整个Q九次商代数中的共同z因子为1，13次QQ真逆全部回乘。run45804559912/job139856248459、5.703188秒/94636KiB/exit0。结合全部低配对/P0零/半比例/jet边界关闭u1，不重做旧l2多变量GB。只能继续一般u≠1，不能把共同缩放再用一次；U值图和L/S系数退化面接着推进。
 
-**原U值图的L0准确余层：** 原三moment、E0/N0、N(V)及LS线性覆盖已付，完整九式与所有旧参数见[本次完整归档](notes/2026-11-27-open-before-G-leading-and-Cramer-8542.md)。L0的w0/w1、b+c0、W整曲线均闭；[P1双零整支](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-L0-P1-double-zero-complete-exclusion.md)现也闭（旧260.209秒非零首项及新1/7维原rho返回）。[G的全部w首项零纤维](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-L0-G-leading-w-zero-exclusion.md)也完整排空，最后6维/47逆、3.809899秒；余一般G可用w四次商关系。G旧run45833153054/job139954904770实际465.207秒触4GiB无单位，不重跑；只续G及其余交点。全部旧三参数超时、P1双零4GiB与beta零首项exit2保真实身份，不改标成功。
+**原U值图的L0准确余层：** 原三moment、E0/N0、N(V)及LS线性覆盖已付，全部原参数和失败身份保[完整快照](notes/2026-11-27-open-before-complete-G-and-actual-graph-cores-8542.md)。w0/w1、b+c0、W整曲线、P1整个双零均已闭；[整个G曲线](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-L0-G-curve-complete-exclusion.md)现也闭，原914次投影全11域/同根返回通过，25.192543秒/exit0。只续G非零下的原余交点；旧465秒/4GiB及普通域逆超时均不重跑，不改标成功。
 
-**S0已闭范围：** Af0/L非零、h1/k1与整个h=k碰撞均已完整排除；原全部参数/首项零纤维、物理Gram与执行身份保结果索引及本次完整快照。只续Af非零、三值互异的Lt0一般图；g2零面与原θ余式双零已闭，详见下文。一般LS非零及L0非零权重和独立开放，失败照实留档，不重算已闭门。
+**S0已闭范围：** Af0/L非零、h1/k1与整个h=k碰撞均已完整排除；原全部参数/首项零纤维、物理Gram与执行身份保结果索引及本次完整快照。只续Af非零、三值互异的Lt0一般图；g2零面与原θ余式双零已闭，详见下文。一般LS非零及L0的G非零余交点独立开放，失败照实留档，不重算已闭门。
 
 **[rankH3二重加单点的非零Hp整层ess≤5](results/R150-appendix-rank-three-double-plus-single-second-cumulant-nonzero-hp-essential-six-exclusion.md)：** 原节点/J及At/τ/γ全部零面保留，QQ93/126与两个异常谱六真逆已付，0.011089秒/exit0。勿重做，仅续Hp0四源有限层。
 
@@ -159,10 +159,9 @@ S0/Lt0的k=4e、v=t=0、Omega=2e²−ek+2=0整支均已完整原返回排空；�
 
 **[最小原P045的全部v首项零面已关闭](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-original-v-leading-zero-exclusion.md)：** 新Dixon差商是原三mean的显式组合，完整两层投影及e1/2的整二次域返回皆通过，109.809478秒/exit0；B44可逆，下一用首一v六次关系保原组合降次及两参数覆盖，未宣一般Lt0为空。
 
-[原有限头坐标的非Fredholm及实际图余维](results/R12-appendix-finite-head-coordinate-nonfredholm-and-actual-haar-graph-codimension.md)已付：有下界时闭像必无限余维；R231保完整低头重数。未知真底空间的原核像/根限制仍需支付。
 
-[实际头图无尾模补空间](results/R12-appendix-actual-haar-graph-base-has-no-bounded-tail-module-complement.md)已付：可分裂根必q≤k，完整原头q>k排除任何有界交换幂等像；不分裂的未知真底空间继续。
 
-[全部原尾强不可约](results/R12-appendix-all-original-tails-strongly-irreducible-and-ordinary-invariant-complements.md)已付：任何普通真M无闭A不变补空间，全交换子元素谱连通；仍需构造不分裂闭核/闭像或支付真实闭根图域。
 
 [Lt0原u93/77整纤维](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-parameter-leading-77e16-exclusion.md)已闭，可付77e−16。H33直接大投影90秒失败已冻结；继续原同eta的低次乘法约束，一般Lt0未判空。
+
+原普通M新增约束均见结果索引：所有真有限头坐标非Fredholm；有下界时实际闭像无限维/余维且无有界尾模补空间；全部原尾强不可约，普通真M无闭A不变补空间。剩余须处理不分裂真实闭核/像或闭根图域，不能从全尾字符跳到未知限制。

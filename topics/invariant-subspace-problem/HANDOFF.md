@@ -5,9 +5,9 @@
 ## 目标、规则与执行
 
 - **普通复可分无限维 Hilbert ISP 未完成。** 仅全体有界算子的存在定理或完整反例算完成。
-- **最近实际 pull / 已读规则提交：** `b6343b326b0947772fc2635d679097dd718d374b`（2026-11-26 21:45:57 UTC；本地部分克隆）；本次两 README diff 无变化。每次 pull 且至少每小时检查并更新本项。
+- **最近实际 pull / 已读规则提交：** `75eb7ea553e3e005ea55c80d57c44b132410a11c`（2026-11-26 21:52:42 UTC；本地部分克隆）；本次两 README diff 无变化。每次 pull 且至少每小时检查并更新本项。
 - 私库 QUEUE 接手已推 `5746fa79a74af4975476d400dfbe0c4e5cb9ae9d`；私库根规则2026-11-26 21:25 UTC已pull至 `98a93f8a4d1394417e739b7d26713f98038e497b`，diff无变、QUEUE保持本会话。每结论单推，非快进即 pull --rebase 再推；不 force，令牌仅 CLI。
-- 本轮本地终端可用。前会话执行身份及全部原交接保[接手快照](notes/2026-11-27-handoff-at-takeover-8542.md)；本轮快照链见[最新完整归档](notes/2026-11-27-handoff-before-Dixon-runtime-and-original-G-return-8542.md)。失败不改标成功，已登记不重做。
+- 本轮本地终端可用。前会话执行身份及全部原交接保[接手快照](notes/2026-11-27-handoff-at-takeover-8542.md)；本轮快照链见[最新完整归档](notes/2026-11-27-handoff-before-complete-G-and-actual-graph-cores-8542.md)。失败不改标成功，已登记不重做。
 - 仅保源、参数、SHA、小回执；MD<100KB、H<10KB、open尽量<30KB、topic<200MB，不写根LOG。已读本轮 log；notes 按交接路径与结果索引定点续读。
 - 正在推进：R271 同一 w 的真实终端/稳定范围；R150 S0三值互异Lt0原r1非零一般图；文献与 Deddens 同源插值。完整证明登记后即接下一未闭项。
 
@@ -22,7 +22,7 @@
 
 ### unit211当前三图
 
-- L0：w0/w1、b+c0、W曲线及整个P1双零皆闭。G全部w首项零也闭，可用w四次关系；一般G与余交点仍开。旧G run45833153054/job139954904770实际465秒/4GiB失败，不重跑。root已从原G伪余式得到非零lambda投影，正返同根w/rho；高46次域普通Euclid系数膨胀，转低次原组合/无分式返回，未判空。
+- L0：w0/w1、b+c0、W曲线、整个P1双零及整个G曲线现均闭。新G原伪余式给914次投影/306次全覆盖；204域精确一元模证据排，余10域同λ/w/rho返回，末20/46域由Q²、Q·alpha²排尽，25.192543秒/exit0。只续G非零下余原交点，不能宣全L0。旧G465秒/4GiB门不重跑；全部失败身份保完整快照和回执。
 - S0：Af0/L非零、h1/k1与整个h=k均闭。Lt0的g2零、theta余式双零、M的z首项零、u2/ell1/a0、ellhalf、原U导数w0均闭；可付theta=−r0/r1、(4λ−1)A、ell−1、ell−1/2、w。原k=4e、v=t=0、Omega=2e²−ek+2=0整支及最小P045的全部v首项零面也闭；可付4e−k、v、Omega、B44并用原首一v六次关系；u93/77整纤维也由三原投影Bézout关闭，可付77e−16。
 - 正确原三mean/Cramer、同根完整P/N、20小行列式与Dixon D8均有原组合/全部分母回乘；完整证据及执行身份见结果索引。作废的旧scratch双点均值374/580投影/PRS不可再用，已推正确源不受影响。
 - 7变量05e769旧门小modstd smoke先内存/tasks/signal11失败；四变量6cb8新门run45894728421/job140165703666独立std smoke通过，slimgb真实1200秒未决，driver1204.387秒/RSS8216876KiB/exit1，无I*C=1；两源冻结不重跑。
