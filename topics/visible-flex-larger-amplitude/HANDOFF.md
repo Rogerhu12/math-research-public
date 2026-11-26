@@ -4,7 +4,7 @@
 
 ## 规则与完整目标
 
-最近规则核查：2026-11-26，真实pull/rebase至 `f3fa1e2694171d213964f99ceb3a5d23a1719c52`，根及课题README相对f0548477无差异，已完整读授权及规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
+最近规则核查：2026-11-26，真实pull/rebase至 `bb162609fa3e6b1de6fa7ea11f3e38ffb745c8a9`，根及课题README相对f0548477无差异，已完整读授权及规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
 
 科学计算仅本公开仓库Actions；早前本地偏差及13:00 UTC纠正见[执行记录](notes/2026-11-20-public-actions-execution-correction.md)。根README已授权必要修改/发布；根唯一local git writer，代理只work/小源。每条结论普通commit/push；NFF立即pull --rebase循环再推，不强推。至少每小时pull，每次核双README差异/立即遵新规并记commit。raw只scratch/runner，不入Git/Release/artifact；只保完整小源/参数/run/SHA/紧凑结论。题≤200MB，MD<100KB，H<10KB，open<30KB。令牌只瞬时CLI，不写文件/提交/回复。
 
@@ -48,7 +48,7 @@ R686完整K分块及[同场first/K/四标记消费者](notes/2026-11-26-same-fie
 
 R687给中心化正项Phi、趋零finite-max界及显式残差块权比；只代数，不改当前目标或宣称新数值。
 
-R688旧e3d首面PCG/自身first完整保 [实际记录](notes/2026-11-26-actual-first-mean-face-PCG-and-amplitude.md)。stage50重复sign已由独立v2修复；[v2真实两方向及自身first](notes/2026-11-26-actual-amplitude-v2-directions-and-own-first.md) stage51–53已返64362793：2×64各alpha.5/mu.01，Phi .000170419399657/max .014185715326162；192+5行全保，amp真g=-.0479890、K必要乘积.991990943，QP仍未驻点。自身全922 D≤4.118335991/L≥.938813550/embedding已付，未付marker/K/E3；真实父已排 [完整typed向内SOC](notes/2026-11-26-complete-amplitude-rows-inward-SOC-application.md)：1×64、tau0/theta.125，保全部原C+幅度行/新真坏点父导数、独立A*z与原真筛，继读自身first。失败v1新位置已并入，不继承任何旧场证书；固定g精化未付。
+R688/e3d与幅度v2/643的完整真实前史保 [v2两方向](notes/2026-11-26-actual-amplitude-v2-directions-and-own-first.md)。最新 [typedSOC stage55–57](notes/2026-11-26-actual-complete-amplitude-SOC-and-own-first.md)返2d3e053c：原ray.5/mu.01，Phi .000167270661584/max .014179633163807，QP Pg/tol572816仍未驻点。原192+5及追加2行保全；SOC真实固定行max=-9.40596e−7但全筛产品.99201661仍拒，非阈值放松问题；同父多轮完整分离与更充分内层接着做。最终点筛通过，自身全922 D≤4.118425457/L≥.938819942/embedding已付，marker/K/E3/固定g精化未付。失败新位置及各试探永保。
 
 R689固定均值连续Gram入口已刊：两准确场共同分割、公共lift平方恒等抵消、双方余项及全角全胞；只静态检查，接足够小的实际新候选，不给旧失败场虚报精化。
 
