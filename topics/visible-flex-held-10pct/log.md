@@ -420,3 +420,5 @@
 - 2026-11-26 13:17 UTC｜Astra-held10-06bbeb39-20261126：v5真实零锚37项identity全过，run4593371f/raw6fb36ac7/physicalbce9ccd2；保原baseδ/raw p0/chart/完整jets/mean1168，原metric6.4824157829e−7/RMS9.9271503452e−7同一。physical SHA另由真实单字段投影补齐，不冒用原NPZ；solver_invoked=false/raw status与success=null，未将重表达计作新λ接受。
 
 - 2026-11-26 13:19 UTC｜Astra-held10-06bbeb39-20261126：v5首真实λ.004/M24返回status0，634点/RMS9.94361e−7/物理BC1.48982e−14；metric1.71372e−5未门，run557fc49f/raw1ca44d54/physical98c08f7a，仅完整初猜。6个原Newton接受步/minα.5/无域拒/1 merit拒；真实完整lift到M32的phase共同列逐位同一、新列零，仍不称新接受解。
+
+- 2026-11-26 13:26 UTC｜Astra-held10-06bbeb39-20261126：旧warm worker实际13:02:07到5.5h期限，job success仅工作流。v3最后真正返回.00203125为status1/2627点/RMS.0019586562，raw3b9c1c34、rund9cf469b；七次推进均未接受，末attempt007/.002015625终态未知。保全部已返来源，不以中断作数学结论，继续现v4/v5/secant。

@@ -1,0 +1,63 @@
+{
+  "scope": "Last actual returned v3 trial and the subsequent worker deadline. The deadline is not a mathematical failure for the unfinished trial.",
+  "session": "Astra-held10-06bbeb39-20261126",
+  "recorded_at_utc": "2026-11-26T13:26:34.033211+00:00",
+  "source": {
+    "path": "topics/visible-flex-held-10pct/ci/live-warm-result.json",
+    "immutable_commit": "ae9a915e183f548cf5a3f7f93f0dd0358c55c7a9",
+    "sha256": "76855f9e10c2b2072d3f817042aa8544dd70799ce70c9b61a4072eb777f2edba",
+    "git_blob_sha1": "9e5489878548f8f878cc88d2f952c5e800c8c659",
+    "workflow_run_id": 45775899674,
+    "job_id": 139759357062
+  },
+  "worker_started_at_utc": "2026-11-26T07:31:50Z",
+  "worker_completed_at_utc": "2026-11-26T13:02:07Z",
+  "job_completed_at_utc": "2026-11-26T13:02:08Z",
+  "job_conclusion": "success",
+  "worker_status": "worker_deadline",
+  "last_returned_actual_trial": {
+    "accepted": false,
+    "domain_newton_stats": {
+      "accepted_steps": 1,
+      "calls": 3,
+      "minimum_alpha": 7.62939453125e-06,
+      "no_step": 3,
+      "rejected_domain_trials": 9,
+      "rejected_merit_trials": 71
+    },
+    "error": null,
+    "homotopy": 0.00203125,
+    "kind": "actual_warm_bvp",
+    "modes": 24,
+    "name": "attempt-006",
+    "next_action": "bisect_lambda_from_last_accepted_field",
+    "next_lambda": 0.002015625,
+    "physical_bc_max": 3.7189422429849104e-16,
+    "raw": {
+      "file": "inner-00.npz",
+      "nodes": 2627,
+      "rms": 0.0019586562451370383,
+      "sha256": "3b9c1c3444ae0237c1cb4bffbae238ce21b68e74029b53f40c76726ad72d0152",
+      "status": 1,
+      "success": false
+    },
+    "returncode": 2,
+    "run": "/home/runner/work/_temp/held10-warm/warm-v3-design/attempt-006/run.json",
+    "run_sha256": "d9cf469bef4cab573d98df875d1c405aa49017e65aa8a9b557405d0710529c0e",
+    "scaled_bc_max": 1.7358336990014323e-13,
+    "solver_invoked": true,
+    "solver_success": false
+  },
+  "last_accepted_lambda": 0.002,
+  "last_accepted_run": "/home/runner/work/_temp/held10-warm/warm-v3-design/reexpressed-anchor/run.json",
+  "new_lambda_acceptances": 0,
+  "unfinished_stage": "attempt-007",
+  "unfinished_target_from_previous_controller_record": 0.002015625,
+  "unfinished_trial_terminal_result": "unknown",
+  "prior_return_records": [
+    "2026-11-26-warm-v3-intermediate-returns.json",
+    "2026-11-26-warm-v3-next-two-returns.json"
+  ],
+  "next_actual_routes": "Continue the active v4 and actual v5 delta-phase design, and the independent original full-state secant route; do not repeat the old v2/v3 failure chains.",
+  "complete_surface": false
+}
