@@ -5,7 +5,7 @@
 
 ## 1. 授权、规则与全部前史
 
-公开本次实际pull且根/题README已读至 **b662da83f0e65adb9970b47fc4144ec6528a4627**；相对继承0749a4cc规则空差异。私库本次实际pull且根README已读至 **a7891a83567e479db246d47684f7aefedd1bb328**；QUEUE认领推送 **09f8b8b54e7cfaabaa635bae5c438c7f1521289a**，本会话进行中。私库最近实际pull约19:27 UTC，下一不晚于20:27 UTC。
+公开本次实际pull且根/题README已读至 **07cea51f7b3da48c8ef8c6448369cf9ebecd6f13**；相对继承0749a4cc规则空差异。私库本次实际pull且根README已读至 **a7891a83567e479db246d47684f7aefedd1bb328**；QUEUE认领推送 **09f8b8b54e7cfaabaa635bae5c438c7f1521289a**，本会话进行中。私库最近实际pull约19:27 UTC，下一不晚于20:27 UTC。
 
 [本次压缩前全文](notes/HANDOFF-before-physical-epigraph-final-20261127.md)及所链[初交接](notes/HANDOFF-inherited-20261127-1f4a61a4.md)保全部旧结论、量词、失败、真实输入与完整费用；移档不重做已付门。[四来源/文献复核](notes/2026-11-27-current-four-source-topics-and-literature.md)固定已读版本及可用范围。
 
@@ -57,6 +57,6 @@ R598同十八正块/576微包宽母、微半宽1/12000、完整正势1、负侧�
 
 [R611](results/R611-actual-circular-reference-complete-reach-certificate.md)旧圆参考已严格付清：修复积分准确系数后的run45882464935新32.425678908秒/2125叶，接R608无限尾/R599全切圆，reach≥.06072、D≤1.560001714985865。首轮34.7883秒不作严格证据，全部源/hash/费用在原note。新q比较圆面不能继承其紧区间结果。
 
-[R604](results/R604-normal-chord-stability-and-finite-parametric-norm-interface.md)给全法弦扰动及真实C0/C1/协变C2充分证书。[frame接口](notes/2026-11-27-r604-continuous-rotating-frame-norm-interface.md)与[R582同场径向盒](notes/2026-11-27-r582-same-field-radial-interval-interface.md)已发布：精确端jets/Bernstein、原全部97q控制、同圆角core全角界。当前/参考a,z及直接差jets接口已备；新公开范围须重建相同mesh一次计费、覆盖全部材料分片/中心柱/帽/无限尾，才能登记新全域范数与reach。没有把数值零suffix当解析高度尾，也没有宣称有限材料等于无限核。
+[R604](results/R604-normal-chord-stability-and-finite-parametric-norm-interface.md)给全法弦扰动及真实C0/C1/协变C2充分证书。[frame接口](notes/2026-11-27-r604-continuous-rotating-frame-norm-interface.md)与[R582同场径向盒](notes/2026-11-27-r582-same-field-radial-interval-interface.md)已发布：精确端jets/Bernstein、原全部97q控制、同圆角core全角界。[当前/参考a,z](notes/2026-11-27-r582-same-field-mean-interval-interface.md)及直接差jets已备；[R608新q适用性](notes/2026-11-27-r608-tail-transfer-to-retained-circle-agent.md)确认16控制仍在原3/5盒，旧尾引理原样用；新公开范围须重建相同mesh一次计费、覆盖全部材料分片/中心柱/帽/无限尾，才能登记新全域范数与reach。没有把数值零suffix当解析高度尾，也没有宣称有限材料等于无限核。
 
 全体已证索引在[results](results.md)，真实计算及全部费用在notes；任何局部结论后继续下一实际输入，只有本题全部完成标准真正达成才收尾。

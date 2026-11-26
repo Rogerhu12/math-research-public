@@ -113,11 +113,13 @@ R504 supplies the normalization derivatives and the primitive norm.
     return A, B, C
 
 
-def radial_block_bounds(current, reference, u, v):
+def radial_block_bounds(current, reference, u, v, *, difference=None):
     """Bound delta, alpha and reference-covariant beta on one COMPLETE circle band.
 
 current/reference are dictionaries with a, a_s, a_ss, z, z_s, z_ss I-values.
 u/v enclosures must hold for every theta and every s in the SAME interval.
+    Optional difference supplies the exact same-field current-reference jets,
+    algebraically grouped before enclosure; it is never an unrelated field.
     The original closed-circle symmetry must give mean(T)=0 (and its two
     radial derivatives); a generic nonclosed T is not an eligible input.
     Only exact continuous zero-mean primitives are used.  FFT/ODE/Hermite
@@ -137,8 +139,13 @@ approximation errors must already be represented by the chosen input field.
     radial_connection = (a0s*a0ss+z0s*z0ss)/speed0_squared
     angular_connection = a0s/a0
     second_angular_connection = a0*a0s/speed0_squared
-    da, das, dass = a-a0, as_-a0s, ass-a0ss
-    dz, dzs, dzss = z-z0, zs-z0s, zss-z0ss
+    if difference is None:
+        da, das, dass = a-a0, as_-a0s, ass-a0ss
+        dz, dzs, dzss = z-z0, zs-z0s, zss-z0ss
+    else:
+        if any(not isinstance(difference[k], I) for k in names):
+            raise TypeError('same-field exact difference needs all six interval jets')
+        da, das, dass, dz, dzs, dzss = [difference[k] for k in names]
     A, B, C = rotating_difference(u, v)
     m0 = norm(A.value, B.value, C.value)
     m1 = norm(A.s, B.s, C.s)
