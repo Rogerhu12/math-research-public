@@ -227,3 +227,184 @@ host 现在记录真实 Sage/docker 子进程 returncode；旧F的终点仍不�
 | `launch-original-low-f-divisors.py` | `77e810cb5744bbe6975a31b55002ca4dd8f359afe9914d81b30f4b102a490248` |
 | `original-low-f-divisors-request.json` | `799480af924f7e055b957b04d9fe5f68ef8570ba5d4af5b4bb6684eab25df4c6` |
 | `rank2-sha-original-low-f-divisors.yml` | `1149109e1e25409273a003b9139cecdc7a4da81879131ba6c6411a5ba0e42518` |
+
+## 8. 不假设分裂的一般完整三角原像
+
+下列完整原像定理针对旧 Artinian/Tate 的实际多项式核障碍；本节不更改正在运行的单 F 来源 b35d61dd。它只替换完整整模原像计算，尚无原306对象或性能回执。
+
+### 8.1. 原目标格与全部来源
+
+设 R=k[t]，H 为 n×n 的完整上三角行 Hermite 基，
+每个 h_j=H_jj 首一且非零，M 为 r×n 多项式矩阵，r≥1。
+所求为全部来源系数的模
+
+\[
+ \mathcal L(H,M)=\{v\in R^r:vM\in\operatorname{row}_R H\}.
+ \tag{1}
+\]
+
+它总是满秩 r：det(H)R^r 包含于它。
+在本课题的实际应用，k、R、H 和乘法矩阵 M 均来自同一原正规化；
+n=r=306。但证明不依赖 306，也不假 M 可逆。
+
+令 rem_H 为对整个上 HNF 从左到右的准确多项式除法。
+每次只减某条完整 H 行的多项式倍数。
+故 rem_H(V) 与 V 在整个目标商中同类，并且第 j 坐标次数小于 deg h_j。
+余式的唯一性来自 H 上三角及其非零对角，不是一个维数猜测。
+
+### 8.2. 逐列保持的完整来源基
+
+初始 P_0=I_r、W_0=rem_H(M)。
+在第 j 步前，保持 r×r 的完整来源基 P_j 以及 r×n 的完整余式 W_j，
+满足
+
+\[
+ W_j\equiv P_jM\pmod{\operatorname{row}H},\qquad
+ (W_j)_{a,i}=0\quad(i<j).
+ \tag{2}
+\]
+
+P_j 的行模准确等于已经满足前 j 个 Hermite 同余的所有原来源；
+不是其中任一同秩子模。
+令 w 为 W_j 的第 j 列，h=h_j。
+在原来源系数 c∈R^r 中，下一条件恰为
+
+\[
+ cw\in hR
+ \quad\Longleftrightarrow\quad
+ \exists z\in R:\ cw-zh=0.
+ \tag{3}
+\]
+
+把整个 W_j 下面添一条原目标行 −H_j，把整个 P_j 下面添一条零行。
+两块始终同步做相同的完整行运算。
+第 j 列原来是 (w,−h)^t；它不是零列，因为 h 非零。
+
+使用换行、加倍行、非零常数倍，以及 R942 已逐式检查的 Bézout 二行操作。
+存在完整可逆 U∈GL_(r+1)(R)，把这一列化为
+
+\[
+ U\binom w{-h}=(g,0,\ldots,0)^t,\qquad
+ g=\gcd(h,w_1,\ldots,w_r)\ \text{首一}.
+ \tag{4}
+\]
+
+只对这一列选 pivot，所有残余坐标和全部原来源坐标都接受相同操作。
+算法不累计整个 U，但每一个实际操作的可逆性、系数和全块返回均保留。
+
+#### 全部核关系与单射投影
+
+U 的后 r 行准确生成列 (w,−h)^t 的整个 R 核。
+确实，任意关系 a 都唯一写成 bU；
+由 a(w,−h)^t=b_0g=0 及 R 无零因子，必有 b_0=0。
+因此不能漏掉任何饱和关系，也没有分式域清分母步骤。
+
+此核投影到前 r 个来源坐标是单射。
+若来源坐标为零，关系只有 −zh=0，故 z=0。
+其像由 (3) 正好是下一条件的全部来源系数。
+于是后 r 行的完整附加来源块给出下一完整基 P_(j+1)；
+对应的残余块再由整个 H 准确取余，得到 W_(j+1)。
+已清掉的前 j+1 列仍全为零。
+
+这里丢掉的是唯一非零 pivot 行，保留的是全部 r 条核行。
+任何来源行即使原残余为零，也必须留在附加块中。
+若 w 全零，则整个原来源已经满足本列，直接保 P_j、W_j 不变；
+尤其 h=1 的规范余式列自动全零，不另造大矩阵。
+
+由归纳，n 步后 W_n=0，而且
+
+\[
+ \boxed{\operatorname{row}P_n=\mathcal L(H,M).}
+ \tag{5}
+\]
+
+最后仅用 R942 的完整可逆行模算法把 P_n 规范成上 HNF。
+该规范化保全部来源，再把每一行乘回原 M、以原 H 全除，复核 (1)。
+
+### 8.3. 每层准确指数是附加核验
+
+同余映射 R^r→R/(h)、c↦cw 的像为 (g)/(h)，所以每层来源指数为 h/g：
+
+\[
+ \det(P_{j+1})/\det(P_j)\doteq h/g,\qquad
+ \operatorname{length}_k(P_j/P_{j+1})=\deg(h/g).
+ \tag{6}
+\]
+
+等号中的格为相应行模，点等号只差 R 的常数单位。
+所有 h、g 首一，因此最终规范基的首一行列式严格等于
+
+\[
+ \prod_{j=0}^{n-1}h_j/g_j.
+ \tag{7}
+\]
+
+源码把 (7) 与完整最终基的实际行列式相比较。
+完整性先由全部一列核及其单射投影证明；(7) 不是用来猜完整性的条件。
+全返回则检每条最终来源行的 M 像都属于原完整 H，
+不是只检最后长度或约化支撑。
+
+本算法不对 h_j 或 detH 因式分解，不选择新常数域、根或嵌入，
+不删除重复因子，也不把目标商换成半单商。
+一般不可分剩余和重复厚度都留在原多项式同余中。
+
+### 8.4. 回到原完整有效理想商
+
+原 I⊆C 为同一 Dedekind 正规化上的非零整理想。
+保持 R931 的全部生成元约束，候选从 J_0=A 开始。
+对 C 的第 j 条原基 c_j，若 J_j 的完整基为 B_j，
+其下一完整来源系数正是
+
+\[
+ U_j=\mathcal L(H_I,B_jM_{c_j}),\qquad
+ J_{j+1}=\operatorname{row}(U_jB_j).
+ \tag{8}
+\]
+
+(5) 使 (8) 严格等于 J_j∩(I:c_j)，故每个候选包含真正 I:C。
+没有把不同 c_j 的秩相加，也没有改成某个方便的整分子。
+
+原 required=detI/detC、全部候选包含方向、
+候选范数被 required 整除、以及最终完整乘积
+
+\[
+ J\,C=I
+ \tag{9}
+\]
+
+逐字保留。达到原 required 后才可依已证包含方向终止生成元扫描。
+源码重新求整个产品 HNF，要求与原 I 完全相等，并保所有长度。
+在 split_support 中，这替代的只是 Fitting 稳定后的真实补厚理想商；
+Fitting 平方、原 bad/good 互素、完整 CRT 产品和幂零厚度均不删除。
+
+这没有修改其它 fraction_graph、CRT 求系数或全 π 层范数算法。
+那些下一具体操作仍必须各自实际完成，不能借本定理填 PASS。
+
+### 8.5. 独立实现及公开运行门
+
+实现为 scripts/original_triangular_preimage_tools.py：
+
+- complete_triangular_preimage 保一般 r×n 的全部来源，附加完整源块；
+- OriginalTriangularArtinianNormTools 只替换实际有效商中的整个来源原像；
+- triangular_preimage_preflight 在原 k 内用小例，与 Sage 完整多项式核的
+  全投影 HNF 交叉，并验证重复不可约二次因子及零残余来源。
+
+小例仅验证安装 API 与实现语义；不能代替原306对象上的全回执。
+每个原消费者仍须绑定全部源码、原固定请求、完整原 F/P PASS、
+实际正规化、原 k/omega、两张图、所有厚长度及原边界。
+当前尚未接入或启动新的第二份正规化运算，也没有性能 PASS。
+
+每个非零目标列只暂存 r+1 条完整残余行和完整来源行，
+矩形大小为 (r+1)×(n+r)；
+这不保证运行时间，也不把未执行算法登记为已算出原数学对象。
+
+### 8.6. 小型公开 API 请求
+
+新增 `rank2-sha-triangular-preimage-api.yml` 独立入口，在固定 Sage 10.6 镜像和原规定公开 Actions 内执行两个小型完整模算法检查；明确使用 F29²、a²=2。它不重建原曲面，不启动第二份正规化，也不改变单 F 请求。完整矩形来源、重复不可约二次因子、零余来源和全附加块均与官方小型完整核 API 交叉。源码与定理已登记，公开运行结果待收，不预填 PASS。
+
+| 来源 | SHA-256 |
+|---|---|
+| `original_triangular_preimage_tools.py` | `bb8afb949563f6ab4e7d14774e89e859dedd0c28e7b4734ed166a318a789c195` |
+| `check-original-triangular-preimage-api.py` | `34a09ac84aeab9b1c044ed4c6e769b4fdb2ee1d9653cd5c4365d176b1c87ec42` |
+| `original-triangular-preimage-api-request.json` | `ed80b3b87bda93897da4224c7961ae150200e89b3d85762e93b8a6de11d04430` |
+| `rank2-sha-triangular-preimage-api.yml` | `dfb146f9b825fc3a7fcd351819e360eb6a8f6093bc6c127080d59f1743988ed4` |

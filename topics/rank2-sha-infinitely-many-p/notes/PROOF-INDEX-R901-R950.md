@@ -181,3 +181,5 @@
 - [R939](../results/R939-original-three-long-full-square-kernel.md)：完整原D2∩K1的零角迫乘子逐系数含t²；三真长N=s−13与短ell给H_C深N。dD−2κ<N时全平方核进入D3；实际立方restriction像维数≤max(0,dD−3κ−ell+1)。严格dD−3κ<ell自动付前门并给K1∩D2=D4，所有短窗端点保；只此完整子源，不给jG+V2分项入核或全p³排除。
 
 - [R940](../results/R940-original-double-inert-descent-and-bounded-augmentation.md)：原整双新x12的π_m增广正是双D导数的唯一下降；保固定D后在两新惰性位全局部零。原c1≠0时，以最小环双槽的cτ平方选惰性单位检测，固定barp-strict复形H²tors指数b_p给p^(b_p+v_pD)κ12,m=0；深约化归零且唯一来自H1(J⊗T)。只同实际类的增广子格，不冒scalar整除、s0或跨p非零。
+
+- [R942§8](../results/R942-original-split-scalar-preimages-and-whole-module-elimination.md)：完整上Hermite目标的全部矩形来源原像，由每列(w,−h)完整可逆消元并保全部零行的附加源块严格生成；无需分裂、分式清分母或约化厚度。逐层h/gcd指数只作返回，实际有效理想商保全生成元与完整乘积。仅独立小API请求，未重启原F或冒原306除子/PASS。
