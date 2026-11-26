@@ -1,0 +1,63 @@
+{
+  "schema": "r569-fixed-flat-linear-seed-outer-jets-20261126-v1",
+  "repository": "Rogerhu12/math-research-public",
+  "queue_session": "Astra-new-mechanism-0105020f-20261126",
+  "public_rules_read_commit": "57a459871ee6abaa8050dea0ad90853da5fa7589",
+  "private_rules_read_commit": "f269d5ce0269dc4eb2580f48cfcb76932f868452",
+  "expected_readme_blobs": {
+    "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+    "topics/visible-flex-new-mechanism/README.md": "d0432faff569c8e9af7ed4809847e12880976c11"
+  },
+  "expected_private_readme_blobs": {
+    "README.md": "5ba164843b1f5802184178a82d786264404873a3"
+  },
+  "entry_point": "topics/visible-flex-new-mechanism/scripts/r569_flat_seed_outer_jets_20261126.py",
+  "workflow": ".github/workflows/visible-r569-flat-seed-20261126.yml",
+  "runtime": {
+    "python": "3.12.14",
+    "packages": {
+      "numpy": "2.3.5",
+      "scipy": "1.17.0"
+    },
+    "checkout_action": "11d5960a326750d5838078e36cf38b85af677262",
+    "setup_python_action": "a26af69be951a213d495a4c3e4e4022e16d87065"
+  },
+  "common_parameters": {
+    "M": 168,
+    "radial_nodes": 129,
+    "rtol": 2e-11,
+    "atol": 2e-13,
+    "max_step": 0.15,
+    "tolerance_refinement": 8
+  },
+  "lanes": {
+    "r569-linear-seed": {}
+  },
+  "scope": {
+    "proof_commit": "c9804f1e9b93d6cd4ff7a9e6d349c74904ff12ac",
+    "fixed_w_and_same_exact_linear_seed": true,
+    "finite_tail_condition": "rho_(M+1)=0 at alpha_(M+1)",
+    "normalization": "y(alpha_160)=1 before outward extension",
+    "comparisons": [
+      "M at declared tolerance",
+      "same M with tolerances divided by 8",
+      "M+1 at finer tolerance"
+    ],
+    "outer_jet_values_use_one_common_log_scale": true,
+    "exact_DtN_truncation_bound_excludes_numerical_ODE_error": true,
+    "observed_tolerance_difference_is_not_a_certified_ODE_error_bound": true,
+    "actual_nonlinear_equal_metric_family_claim": false,
+    "continuous_reach_claim": false,
+    "scientific_execution": "this public Actions workflow only",
+    "maximum_parallel_jobs": 1,
+    "job_timeout_minutes": 45,
+    "original_stdout_only": true,
+    "artifact_release_git_or_cross_run_cache_writes": false
+  },
+  "source_sha256": {
+    "topics/visible-flex-new-mechanism/scripts/r569_flat_seed_outer_jets_20261126.py": "e3a8f9255a4db33432dbe1692a0a34a03068ab1b396ab7c1e757de4c47a0bec7",
+    "topics/visible-flex-new-mechanism/scripts/run_inverse_rotational_metric_20261126.py": "a97334fb7004ce750c0c949469be2db21ca7a187e53b48032dba2f330cf5e8ae",
+    ".github/workflows/visible-r569-flat-seed-20261126.yml": "96bbc39730fa42d153cc7d15bcc0377990059c2a37bcfe2cc29348dab6aee42e"
+  }
+}
+

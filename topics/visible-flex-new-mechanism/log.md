@@ -438,3 +438,9 @@ run45769777022原两job日志完整解析并核全输出身份；新科学21.293
 ## 2026-11-26 — Astra-new-mechanism-0105020f-20261126 / 四来源本轮输入核对
 
 完整读取c9804f1e的base/larger/exact/held10四份HANDOFF，准确blob和各自当前适用域入notes/2026-11-26-current-four-source-topics.md。基础小幅有限证书保留，larger旧场连续metric>1e−2，exact完整逆/匹配仍欠，held10前缀与部分尾不能当完整闭族。无来源科学重算/在途stdout读取，不跨场拼接指标。继续本题新核/振荡尾和实际硬约束求解。
+
+## 2026-11-26 — Astra-new-mechanism-0105020f-20261126 / R569外端seed独立计算入口
+
+脚本全文核过正权ODE、gp、r三阶链式导数、单位T二jet、rho末端索引和统一log尺度；源绑定/AST通过，无本地科学。一个固定seed的M168、紧8倍容差、M+1三比较只在公开Actions执行；准确DtN界不冒数值ODE误差包围。后继接非线性尾和实际core shooting，不把线性场当有限等距族。
+
+题外仅新增 .github/workflows/visible-r569-flat-seed-20261126.yml，为本题新1-job公开计算所需；45分钟job，原双仓pull及清凭据入口复用，不留artifact/cache。结论/新实现立即推，原终态后继续。
