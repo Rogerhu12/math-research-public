@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。本轮已部分克隆并真实pull main，读两README/H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则读至36cf1ed2。不重做已登记结论或窗口。
 
-**公开两README已读提交：311f91e77e8071abc6f55d889e8880931634600d**（2026-11-27 17:55 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
+**公开两README已读提交：672c19ae756884217d82050cce6761742f91b167**（2026-11-27 18:06 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
 
 已真实部分克隆/pull；17:36再试pull仍报无可用执行环境，shell未运行；按根规矩8用连接器小文本同步、读两README差异、带expected_sha非force提交，恢复后立即pull --rebase。拒绝即同步重基再推至成功。令牌仅CLI；根维护main/H/open/index/log，子研究独立稿，每条结论立即推。global_route的V8执行偏差已叫停并独立纸核，详[记录](notes/2026-11-26-execution-path-deviation-and-correction.md)，其输出不作证明/合规窗口。
 
@@ -28,7 +28,7 @@ R1063：全Hecke族消MW及真辛商，最低两jet行列式仍开。R1058：原
 
 [R1090/93](results.md)：95原log来源/73Hodge及Gaussian首log全28块unit已证，故M=T B_qu4且logM=qLie；run45946046378/45947023569（65.967秒）。后继按原descriptor/hash消费，保KS/Igusa/Bq尺度，不重算高矩。
 
-[R1078/87/88](results.md)：原23角/principal-cusp分裂和完整fixed-cycle；run45941481763付双CM系数整unit。合R1093得Tc d2+Tc d3=M_c全40维；具体cyclic对应和盘内local项仍开。
+[R1078/87/88](results.md)：原23角/principal-cusp分裂和完整fixed-cycle；run45941481763付双CM系数整unit。合R1093得Tc d2+Tc d3=M_c全40维；实际角见R1106，盘内local项仍开。
 
 [R1096](results/R1096-certified-original-CM-moving-units-and-odd-Hecke-height-basis.md) run45948995182：det(T2−1)=3715、detT3=3071，Hodd=T3+T5判别式2650，M=T·u16。实际整基见R1101。
 
@@ -40,9 +40,9 @@ R1063：全Hecke族消MW及真辛商，最低两jet行列式仍开。R1058：原
 
 [R1104](results/R1104-certified-original-level47-graded-RR-ring-and-degree167-pencil.md)：run45964526314/job140389923921，33.300秒，原L²至L⁵维262/429/596/763及全23 cusp核239/406/573/740已认证。前两section无共同零，原degree167可分pencil；836原cusp jets可供colon/Miller，实际α仍待读。
 
-[R1103](results/R1103-original-CM-tangents-finite-field-third-kind-and-QC-first-jets.md)：原八CM切向由真实KS与最多二阶fine jet读取；α=N⁻¹dlog f̄，等价唯一Cartier-fixed规定留数微分。完整QC首项t(B+At)及整尾已付；§6.1已付全部非q消失；实际α/角坐标/行秩继续。
+[R1103](results/R1103-original-CM-tangents-finite-field-third-kind-and-QC-first-jets.md)：原α、整尾t(B+At)及全部非q消失已证；[完整首行消费者](notes/2026-11-27-full-p47-QC-first-rows-method.md)已推，待CM首log与α回执才读实际行秩。
 
-[R1105](results/R1105-certified-original-eight-CM-tangents.md)：run45968484065/job140402824955，11.858秒，八CM×16原一次块切向全部unit；同原tag/Weil2/完整Reynolds及coarse尺度。v2隔离Sage/flint后成功；id196普通trace94仍测25条项链，真tag唯一。全角/α/CM坐标继续。
+[R1105](results/R1105-certified-original-eight-CM-tangents.md)：run45968484065/job140402824955，11.858秒，八CM×16原一次块切向全部unit；同原tag/Weil2/完整Reynolds及coarse尺度。v2隔离Sage/flint后成功；id196普通trace94仍测25条项链，真tag唯一。α/CM坐标继续。
 
 [R1106](results/R1106-certified-original-all73-angle-actions-and-two-generators.md)：run45969880122/job140407429635，66.005秒；CM76全73循环det1693，原23角实际坐标/全组合律/trace齐备。ZA=13R0+4R2、ZB=2R4−7R0在全部28块无共同零，生成整T；不代QC行秩。
 

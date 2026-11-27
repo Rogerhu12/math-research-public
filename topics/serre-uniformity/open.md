@@ -30,7 +30,7 @@
 
 [R1102](results/R1102-certified-original-level47-complete-first-global-height.md)：run45962228077/job140382522990，1838.859秒，全部73个原基高度齐备；28块全unit，Norm(κ/a)=2992，det(q⁻¹h)=3972 mod4513，原16个log系数已读。n1/143直接消费，只新算71值；不推八盘唯一。
 
-[R1103](results/R1103-original-CM-tangents-finite-field-third-kind-and-QC-first-jets.md)：原八CM切向由真实KS与最多二阶fine jet读取；α=N⁻¹dlog f̄，等价唯一Cartier-fixed规定留数微分。完整QC首项t(B+At)及整尾已付；§6.1已付全部非q消失；实际α/角坐标/行秩继续。
+[R1103](results/R1103-original-CM-tangents-finite-field-third-kind-and-QC-first-jets.md)：原α、整尾t(B+At)及全部非q消失已证；[完整首行消费者](notes/2026-11-27-full-p47-QC-first-rows-method.md)已推，待CM首log与α回执才读实际行秩。
 
 [R1104](results/R1104-certified-original-level47-graded-RR-ring-and-degree167-pencil.md)：run45964526314/job140389923921，33.300秒，原L²至L⁵维262/429/596/763及全23 cusp核239/406/573/740已认证。前两section无共同零，原degree167可分pencil；836原cusp jets可供colon/Miller，实际α仍待读。
 

@@ -120,3 +120,8 @@
 ### 2026-11-27 17:56 Asia/Taipei — Astra-serre-24b8836b-20261126
 - 接通四基本原CM的模q²新请求：真实ζ/未分歧Frobenius/47挠提升及95原来源，836jets与全23cusps逐项约化；unit-pivot RR、étale trace及signed终点读取同R1108。
 - 新增课题外workflow serre-full-p47-modq2-CM-log.yml，4核18000/120，Sage10.6与wheel分进程；旧8点/graded/N仅必要输入再生。Miller原4例和一般p障碍继续。
+
+
+### 2026-11-27 18:08 Asia/Taipei — Astra-serre-24b8836b-20261126
+- 写出原全部73维QC首行消费者及方法：原λ(Bqu4)/整格、κ/a、全部角和八切向、四基本CM类及实际α接同一坐标，保所有23/2/3/6尺度。
+- 新请求待原两组长运行的完整回执后填入；公共gcd=t且某B为unit才宣称整盘唯一，t²重根保未决。无新数值/排点声明，一般p原障碍继续。
