@@ -1,16 +1,18 @@
 {
-  "message": "ISP: compress the entire original NV to a monic pure T quintic by an exact ideal identity",
-  "parentCommit": "603552b7fb0919202037b084ce1bbc5ffdf10ef7",
+  "message": "ISP: return four complete original polynomials on the remaining collision Delta nonzero chart",
+  "parentCommit": "a18da5e44c257156799a01f824079cff15dcdd0f",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-W-entire-original-NV-pure-T-quintic-ideal-compression.md",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-W-entire-original-NV-pure-T-quintic-three-column-minors-receipt-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-W-entire-NV-direct-T-quadratic-leading-8542.py",
-    ".github/workflows/invariant-subspace-w-entire-nv-direct-t-quadratic-leading-8542.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-27-handoff-before-W-entire-NV-pure-T5-8542.md",
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-equal-singleton-Delta-nonzero-four-complete-original-polynomials.md",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-equal-singleton-Delta-nonzero-four-original-polynomials-receipt-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-collision-Delta-nonzero-four-original-exact-input-part1-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-collision-Delta-nonzero-four-original-exact-input-part2-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-equal-singleton-Delta-nonzero-two-original-QQ-projections-8542.py",
+    ".github/workflows/invariant-subspace-collision-delta-nonzero-two-original-qq-projections-8542.yml",
+    "topics/invariant-subspace-problem/notes/2026-11-27-handoff-before-collision-Delta-nonzero-four-original-polynomials-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -20,6 +22,6 @@
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
   "dispatchWorkflows": [
-    "invariant-subspace-w-entire-nv-direct-t-quadratic-leading-8542.yml"
+    "invariant-subspace-collision-delta-nonzero-two-original-qq-projections-8542.yml"
   ]
 }
