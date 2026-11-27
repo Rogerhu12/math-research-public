@@ -106,3 +106,7 @@
 ### 2026-11-27 GVC：实际selected完整vector global C²参数响应
 
 已证明，单条新增系数组合首次全过：2^-31218686+2^-55000000<2^-31218685。消费GHV完整二jet和SDIF/SHT真实inward差商，closed matching/flat-end jet空间给global C²响应；输出逐Cartesian derivative的Euclidean3 norm被GHV componentsum控制，固定O norm1，无漏√3。strict H8193 interior C1，operator连续只原H8193 base；relativeA0余项逐base，用fixedγ Taylor与独立partialγ积分，不偷A0 operator连续。完整λ/one true rigid placement/北端sign保；Γ随γ变不是最终fixedmetric flex。无旧science/旧15GHV比较重复。
+
+### 2026-11-27 BNC 首完整归一strictν列 source 实施
+
+5脚本+完整entry note冻结并公开，未造实际manifest/workflow/run；DWTB9 whole成功仍是原真实输入前提。原NP/PO/ASB whole schema与父receipts已接入，160current/51history（具体entry再增当前实际）保whole descriptors；共享native的restore_only:true不降为false，引用完整原manifest descriptor序列并绑定全SHA/计数，非删除closure。原DWTB rows/NP carriers仅必要sameSHA proposal恢复，K(0)用原scalar_taylor点代数。13个新wrapper替换定位成功、扩展37994B，仅词法/定界静态检查；不虚称失联环境执行Python AST，不跑旧science。容量已用Git树metadata刷新，结论成功旧目标0重算。
