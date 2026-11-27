@@ -6,8 +6,8 @@
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。固定有限曲线族联合无穷非零可用无限鸽巢；有限p、随p换曲线、条件桥、接口或单独投影非零不完成。
 
-- 公开根/课题 README 已读至 `ec85ae59d225b01d7057cfaef521b3f0abbd615f`（差异空）；每次pull只读新差异，至少每小时同步并记SHA。
-- 两仓库已部分克隆。私库QUEUE接手提交41fe885610073f478b2f5a752461ca56cfd43f09已推；01:44UTC pull至0ffb6ba2967365884b38f1fd81778a8f2f9f73af，两README差异空、QUEUE仍本会话进行中。令牌只进程认证。
+- 公开根/课题 README 已读至 `e1a874a7dd4578ee6c2f6bfe72229efce3af9dae`（差异空）；每次pull只读新差异，至少每小时同步并记SHA。
+- 两仓库已部分克隆。私库QUEUE接手提交41fe885610073f478b2f5a752461ca56cfd43f09已推；02:41UTC pull至b3d0029ecb318be56170fc764cad50ee2c7d4d42，两README差异空、QUEUE仍本会话进行中。令牌只进程认证。
 - root独占git/H/open/log/index；每条结论即推，非快进立即pull --rebase/读README差异/再推至成功，不强推。数学只用公开Actions；不存可重算输出。H<10KB、每MD<100KB。
 - [此次完整逐字归档](notes/2026-11-27-handoff-before-explicit-thirteen-words.md)及其历史链保全部旧式/回执/未解门；[open](open.md)、[results](results.md)、[R1001–1050索引](notes/PROOF-INDEX-R1001-R1050.md)及前卷为接续入口。
 
@@ -55,7 +55,7 @@ R1009 Y0在7993给Ru=Ga/LieV(2,−1)，任意有限扩域仍排有限1-motive张
 
 R1014付原S全部充分大q的Tate：B_a三次cover/a=w³的实际degree1射影族，三处xy=v³+w³由四个全局Weil中心逐图解消，中央仍原I9/I3。无穷j三阶/conormal–Serre短证及可变j(a)付period非恒，适用已发表HYZ B；固定q0未有效，不冒全q≥5。inert q>q0的NS判别式−q²、MW整格(q/3)A2、Frob−bar/两常数域Br0已付；原54图保全η/Cor/P−转置的整交公式。Guo–Yang预印本仅记小q条件，不作cofinite输入。实际截面/54点评值/普通局部非零仍待。
 
-R1017特征5新截面的完整有限空间搜索源码已接公开small workflow；script 11853B/SHA7abf40a8…40e99，保R991的X=−3v/Y=−27t与全部局部极/高度验收。本地仅AST/hash，实际run及结果待产生，不预记PASS；该小素数不代无穷p。
+R1017特征5截面实际PASS：run45929764445/job140279423830/source72b66100a3bd20ae115ba77a4d0c4b025232d3b9；02:41:06输出2444B/SHA27af604e…7b423d，script7abf40a8…40e99。完整六点空间中唯一±，原P=(3,1)、Q·O1、I9comp0/I3comp1或2、高度10/3；完整证明正在成文。未算54图或普通AJ，不代无穷p。
 
 ## 四、其它原门及执行分工
 
