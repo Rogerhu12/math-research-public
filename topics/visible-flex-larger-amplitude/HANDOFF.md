@@ -4,7 +4,7 @@
 
 ## 规则与完整目标
 
-最近规则核查：2026-11-27 05:02:25 UTC，真实pull/rebase至origin/main `3e139ac206cf0637fab220169f9c2d074a035023`；双README整SHA581402/3c1c无变。恢复后各真实拉取完整commit保entry note§9。私库QUEUE接手已真推e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。
+最近规则核查：2026-11-27 05:11:40 UTC，真实pull/rebase至origin/main `0827289eb329d1810acbad242d85b4937784952e`；双README整SHA581402/3c1c无变。恢复后各真实拉取完整commit保entry note§9。私库QUEUE接手已真推e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。
 
 科学只本公开仓库Actions；root唯一ref写者，结论即普通推，NFF立即rebase循环，不强推。每次pull核双README差异并遵新规，至少每小时，记commit。raw只scratch/runner、不入Git/Release/artifact，不得改名冒输入；全小源/参数/run/SHA保。题≤200MB、文件<5MB、MD<100KB、H<10KB、open<30KB；读前stat、不整读≥100KB。已有执行/大文件/终端偏差全保4815339固定H及其notes；令牌仅瞬时CLI。
 
@@ -38,14 +38,14 @@ R714全C1/m32、R715 raw hΔ六jet及全E/typed保。[08实际6–9](notes/2026-
 
 [06首启失败](notes/2026-11-26-run06-startup-failure-unfetchable-rules-commit.md)45903578703仅规则ref fetch失败，未启科学；原后继责任全保。
 
-[07完整原输入/真carrier](notes/2026-11-26-run07-actual-restored-old-carrier-and-radial-word-identity.md)1–3真返，3df/e640同、整dc5恢复且cells/u/Gauss全字同；[05全部来源](notes/2026-11-26-run05-all-source-material-envelope-closure.md)保1–18及19未知。root独立policy2全E/typed真筛、不冒旧protected顺序；[c79/7299/bd1a消费者](notes/2026-11-27-complete-material-envelope-consumer-and-preserved-prefix-rows.md)与[cc0a/b93a/104e完整入口](notes/2026-11-26-complete-material-envelope-cached-normal-entry.md)原全部变量/Phi/m32/预算保，07仍仅1–3返、新场待返。
+[07完整原输入/真carrier](notes/2026-11-26-run07-actual-restored-old-carrier-and-radial-word-identity.md)1–3真返，3df/e640同、整dc5恢复且cells/u/Gauss全字同；[05全部来源](notes/2026-11-26-run05-all-source-material-envelope-closure.md)保1–18及19未知。root独立policy2全E/typed真筛、不冒旧protected顺序；[c79/7299/bd1a消费者](notes/2026-11-27-complete-material-envelope-consumer-and-preserved-prefix-rows.md)与[cc0a/b93a/104e完整入口](notes/2026-11-26-complete-material-envelope-cached-normal-entry.md)原全部变量/Phi/m32/预算保，[07终态](notes/2026-11-27-run07-terminal-cancellation-and-unreturned-full-normal-field.md)API cancelled，仅1–3真返；step4/新场及后继均未返，未知typed责任保。
 
 [同g精化合同](notes/2026-11-27-same-g-so3-normal-refinement-contract-and-entry-design.md)/[M320全体](notes/2026-11-27-M320-complete-frequency-refinement-cloud-reconstruction-v2.md)已刊13源/3再生器/两ready；6a9008/bc0c保原M160参考、三通道正确嵌入和全E/typed。[07实际排队及2–3全归档](notes/2026-11-27-run07-complete-M320-queue-and-returned2-3-archives.md)保原四pending，M320接cc0a真父/pure后。仅cc0a/91c非新7c；无精化真返，径向/N/连续同支仍欠。
 
 [09完整输入启动](notes/2026-11-27-run09-complete-bootstrap-for-analytic-normal-continuation.md)保原warm+4e全参数；解析J3待全源/真实输入绑定后准入。07/08未知父/typed责任保，不预填新chart或同g，08原95559不改。
 
 <!-- visible-larger-parallel-07:start -->
-并行公开Actions07：[run 45909290354/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45909290354)；[实际记录](notes/2026-11-26-public-actions-45909290354-1.md)。阶段`followup:complete-material-envelope-cached-normal-first-20261126-07`/running；已返3，exit=未返。
+并行公开Actions07：run45909290354/1、job140213487518，API实观05:02:15UTC为completed/cancelled；旧04:44:16索引仅1–3返、step4仍running，无科学terminal，完整终态见上note。
 并行07规则核查：2026-11-27 04:44:16 UTC，真实pull至`3171ea388defba8252c929c2e6a7666caacca93d`，双README无变化。
 <!-- visible-larger-parallel-07:end -->
 

@@ -1,0 +1,108 @@
+{
+  "schema": "actual-public-actions-terminal-metadata-evidence-v1",
+  "observed_at_utc": "2026-11-27 05:02:15 UTC",
+  "run": {
+    "id": 45909290354,
+    "name": "Visible larger amplitude reference-centred normal continuation 20261126 07",
+    "head_branch": "main",
+    "head_sha": "1cb2fcf6e2d890bd1e11f2913fc64dc499743c7f",
+    "path": ".github/workflows/visible-larger-centered-normal-20261126-07.yml",
+    "run_number": 1,
+    "event": "push",
+    "status": "completed",
+    "conclusion": "cancelled",
+    "workflow_id": 432162487,
+    "check_suite_id": 124207061716,
+    "created_at": "2026-11-26T23:10:08Z",
+    "updated_at": "2026-11-27T05:00:28Z",
+    "run_started_at": "2026-11-26T23:10:08Z",
+    "run_attempt": 1,
+    "html_url": "https://github.com/Rogerhu12/math-research-public/actions/runs/45909290354",
+    "jobs_url": "https://api.github.com/repos/Rogerhu12/math-research-public/actions/runs/45909290354/jobs",
+    "check_suite_url": "https://api.github.com/repos/Rogerhu12/math-research-public/check-suites/124207061716"
+  },
+  "latest_attempt_jobs": {
+    "jobs": [
+      {
+        "id": 140213487518,
+        "name": "Rebuild complete warm and scalar reference for full centred normal continuation",
+        "status": "completed",
+        "conclusion": "cancelled",
+        "run_id": 45909290354,
+        "logs_url": null,
+        "steps": [
+          {
+            "name": "Set up job",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 1
+          },
+          {
+            "name": "Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 2
+          },
+          {
+            "name": "Run actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 3
+          },
+          {
+            "name": "Install the recorded numerical and automatic differentiation dependencies",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 4
+          },
+          {
+            "name": "Execute public research and publish independent compact records",
+            "status": "completed",
+            "conclusion": "cancelled",
+            "number": 5
+          },
+          {
+            "name": "Post Run actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
+            "status": "completed",
+            "conclusion": "skipped",
+            "number": 9
+          },
+          {
+            "name": "Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 10
+          },
+          {
+            "name": "Complete job",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 11
+          }
+        ]
+      }
+    ]
+  },
+  "public_index": {
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-26-public-actions-45909290354-1.md",
+    "git_blob_sha": "6a8f104de5701549f9c5c6ac5e69afb0acb75bdf",
+    "sha256": "c60012c79255c3e901a4f6453a86ce78533edef7317468e86e6135dbafda9ff0",
+    "bytes": 3897,
+    "recorded_at_utc": "2026-11-27 04:44:16 UTC",
+    "actual_stage": "followup:complete-material-envelope-cached-normal-first-20261126-07",
+    "stage_status": "running",
+    "returned_stage_numbers": [
+      1,
+      2,
+      3
+    ]
+  },
+  "actual_api_run_response": {
+    "sha256": "a796797f6aaed095681d5dd2ad9f8799340a0f272008f57e6b32e705a379edab",
+    "bytes": 13473,
+    "response_scope": "complete UTF-8 public run metadata; byte count and SHA recorded above, only selected metadata fields reproduced here, no logs"
+  },
+  "original_scientific_child_exit_code_known": false,
+  "terminal_cancellation_cause_known": false,
+  "unreturned_stage_is_not_a_numerical_failure": true
+}

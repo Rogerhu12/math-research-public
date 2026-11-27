@@ -462,3 +462,7 @@ R716新增索引漏项补齐及open7真状态同步：R716已先公开完整证�
 ## 2026-11-27 05:02 UTC — Astra-larger-e4e2a2bf-20261126
 
 - [09完整输入请求](notes/2026-11-27-run09-complete-bootstrap-for-analytic-normal-continuation.md)：原完整warm+4e所有参数/来源保，新独立控制器只换槽；队列真实管理合同与5原科学对象相等已核。先取真实输入再绑解析J3全入口，不预填g/whole SHA，不取消07/08或清空未知typed；未冒已运行。
+
+## 2026-11-27 05:11 UTC — Astra-larger-e4e2a2bf-20261126
+
+- [07真实终态](notes/2026-11-27-run07-terminal-cancellation-and-unreturned-full-normal-field.md)：API run/job/research step均cancelled，最后compact仍04:44:16且仅1–3返。step4无科学terminal，全部pure/费用/M320及未知typed责任保；无原异常/取消原因证据，不作根失败、数学失败或空历史推断。
