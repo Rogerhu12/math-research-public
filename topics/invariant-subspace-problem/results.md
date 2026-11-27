@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [Phi0 的整个rho判别式零权面及原必要曲线](results/R150-appendix-unit211-Phi-zero-rho-discriminant-zero-original-necessary-curve.md)：判别式零恰两例外权；保自由rho/完整T6，真实原单位Cramer必要曲线31/52，未判空。
+
 - [W全余图的实际八列原行、六行原迹与十六真乘法](results/R150-appendix-unit211-W-global-monic-four-two-eight-column-original-return.md)：源af928全trace、73权分母、全部基乘法实际返回；未求cofactor或判空，保整lambda3/2与B239零面。
 
 - [Phi0 的rho二次头完整分解及主支原单位必要曲线](results/R150-appendix-unit211-Phi-zero-rho-head-zero-main-original-unit-necessary-curve.md)：主支全八式/48候选、原单位六列Cramer实际返回(d,lambda)174/55必要曲线，严格偶降87/55；例外两权完整保留，未判空。
