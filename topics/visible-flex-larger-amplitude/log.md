@@ -600,3 +600,8 @@ run06 29–35七个完整返回对象归档，分65112/76659B完整档案；root
 ### 2026-11-27 00:20:23 UTC — Astra-larger-e4e2a2bf-20261126
 
 第二十五次R87原raw完整保留调整实际实施：按完整台账普通移出cell011九段+同次final共1165325B；root完整审metadata builder/note后独立有界首尾核十对象真实config/每段groups/final18段9gate/原限制，完整11小源SHA/AST、24输入固定blob/size和原config SHA、原plan/证明/执行说明核同。全原argv/46模式/两胞18段/资源及未付44全Green责任保，5990361/8ef38046固定原字恢复；无本地science/全大raw读取/新raw重包。open仅§7更新实际06/07及新E准入和费用边界，§1–6逐字SHA保，完整此前§7指向已推f71e。
+
+
+### 2026-11-27 00:30:17 UTC — Astra-larger-e4e2a2bf-20261126
+
+06 actual38真实aebb→d466完整返回，源3043e5ac/d3c3、report3c73 29175711B；root按固定a81afbe小卷56787B/b9e67fd全SHA及完整actualrecord核同，未读原大raw。两完整alpha=.5接受，有限max .01653648→.01426433、Phi .000844646608→.000327355519；各64 iteration_limit/Pg远大于原tol，非驻点。完整2737/2731地址责任、192+5行、各J67/JT68和全部真实argv/output/parent/cleanup保。单summary缺stopped_before_linear_iteration不冒科学失败，后继39–40/四history/PCG继续，不迁旧run字节或连续证书。
