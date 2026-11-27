@@ -1,0 +1,556 @@
+{
+  "schema": "complete-actual18-meridian-method-source-binding-repair-delivery-v1",
+  "status": "complete-source-only-repair-and-fixed-parent-reproduction; repaired scientific result not yet observed",
+  "repository": "Rogerhu12/math-research-public",
+  "scope": "Exact source guard for the already present complete _meridian_data wrapper, and only its necessary lower source pins. Original mathematics, implementation paths, tensor guards, all stages, controls and budgets are unchanged. Root owns coherent upper source and parameter publication; this record creates no additional execution gate.",
+  "fixed_parent_commit": "36fb3539d71ac8826645df636359d34769f786e9",
+  "original_executed_scientific_commit": "7936ae753065d6e47c1c02848551020acf5a7b2a",
+  "publication_policy": {
+    "same_original_basenames": true,
+    "new_complete_sha256": true,
+    "original_failed_sources_parameters_and_return_preserved_at_fixed_parent": true,
+    "scientific_source_registry_count": 137,
+    "original_parent_source_pairs_retained": 120,
+    "no_prerepair_alias_roles_added": true,
+    "root_is_only_ref_and_queue_writer": true
+  },
+  "exact_failure": {
+    "public_part": {
+      "bytes": 42893,
+      "sha256": "ac49f5b0f00b2a7185be88b7a0c0593e74d67978b172e5c2a2e72c062ac463ab",
+      "git_blob_sha": "b4c479790c2d90184be6f42d77322affca66af5b",
+      "body_read_in_full": true
+    },
+    "run_id": "46062343475",
+    "run_attempt": "1",
+    "science_step_id": "complete-fixed-fejer-meridian-batched-first-20261127",
+    "actual_returncode": 1,
+    "actual_seconds": 8.147090872999911,
+    "actual_source_commit": "7936ae753065d6e47c1c02848551020acf5a7b2a",
+    "actual_complete_command": [
+      "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python",
+      "-u",
+      "/home/runner/work/_temp/visible-larger-research-46062343475-1/followup-sources/0003-dc8fac08e2e4-7936ae753065/topics/visible-flex-larger-amplitude/scripts/resume_20261126/launch_fixed_fejer_meridian_batched_actions.py",
+      "--repo",
+      "/home/runner/work/_temp/visible-larger-research-46062343475-1/followup-sources/0003-dc8fac08e2e4-7936ae753065",
+      "--reference-bundle",
+      "/home/runner/work/_temp/visible-larger-research-46062343475-1/research/fixed-fejer-reference/reference.npz",
+      "--preparation-report",
+      "/home/runner/work/_temp/visible-larger-research-46062343475-1/research/fixed-fejer-reference/report.json",
+      "--carrier",
+      "/home/runner/work/_temp/visible-larger-research-46062343475-1/research/fixed-fejer-reference/observations.npz",
+      "--node-report",
+      "/home/runner/work/_temp/visible-larger-research-46062343475-1/research/fixed-fejer-r690-inputs/fixed-affine-nodes.json",
+      "--scalar-input",
+      "/home/runner/work/_temp/visible-larger-research-46062343475-1/research/fixed-fejer-r690-inputs/fixed-scalar-input.json",
+      "--angles",
+      "2048",
+      "--stage-block",
+      "64",
+      "--angle-block",
+      "8",
+      "--integration-order",
+      "8",
+      "--norm-kind",
+      "jet-sum",
+      "--radial-norm-length",
+      ".05",
+      "--angular-transition",
+      "24",
+      "--torch-threads",
+      "4",
+      "--damping",
+      ".01",
+      "--directions",
+      "1",
+      "--maxiter",
+      "16",
+      "--restoration-directions",
+      "4",
+      "--restoration-damping",
+      ".01",
+      "--restoration-maxiter",
+      "64",
+      "--line-trials",
+      "15",
+      "--active-rows",
+      "192",
+      "--qp-atol",
+      "0",
+      "--qp-rtol",
+      "1e-6",
+      "--reach-ratio",
+      ".03",
+      "--reach-safety-factor",
+      ".992",
+      "--active-band",
+      ".025",
+      "--marked-diameter-budget",
+      "4.2",
+      "--witness-lower-budget",
+      ".9",
+      "--amplitude-height-floor",
+      "1.01",
+      "--spectral-p",
+      "4",
+      "--spectral-epsilon",
+      ".001",
+      "--spectral-scale",
+      ".05",
+      "--legacy-fraction",
+      ".5",
+      "--target",
+      "1e-9",
+      "--outdir",
+      "/home/runner/work/_temp/visible-larger-research-46062343475-1/research/fixed-fejer-meridian-batched-first",
+      "--panels",
+      "128",
+      "--endpoint-bubble-1-left",
+      "1/32",
+      "--endpoint-bubble-1-middle",
+      "1/4",
+      "--endpoint-bubble-1-right",
+      "15/32",
+      "--endpoint-bubble-2-left",
+      "17/32",
+      "--endpoint-bubble-2-middle",
+      "3/4",
+      "--endpoint-bubble-2-right",
+      "31/32",
+      "--endpoint-root-tolerance",
+      "2e-12",
+      "--endpoint-root-iterations",
+      "24",
+      "--endpoint-root-backtracks",
+      "18",
+      "--endpoint-root-armijo",
+      "1e-4",
+      "--moment-definition-sha256",
+      "05dc5ed735db9860ae745eeb4caecde142111ff13f40b33bd8e29701039b968e",
+      "--moment-input",
+      "/home/runner/work/_temp/visible-larger-research-46062343475-1/followup-sources/0003-dc8fac08e2e4-7936ae753065/topics/visible-flex-larger-amplitude/computations/frozen-zero-moment-Q-actual16-parameters.json",
+      "--moment-input-sha256",
+      "df11d8a4b36eb9ce113b5961863191c9b58cb2473af9c48e1714026041a42e2c",
+      "--endpoint-control-radius",
+      "2",
+      "--gamma-left",
+      "1/16",
+      "--gamma-middle",
+      "1/8",
+      "--gamma-right",
+      "3/16",
+      "--moment-input-binding",
+      "supported-smooth-triangle-reference",
+      "--normal-stages",
+      "32",
+      "--seed-boundary-total-length",
+      "1/4",
+      "--seed-profile-delta",
+      "1/32",
+      "--seed-radial-quadrature-order",
+      "8",
+      "--seed-profile-quadrature-order",
+      "16",
+      "--seed-mean-maxiter",
+      "128",
+      "--seed-mean-tolerance",
+      "2e-12",
+      "--seed-mean-backtracks",
+      "24",
+      "--seed-mean-armijo",
+      "1e-4",
+      "--seed-scalar-iterations",
+      "64",
+      "--manifest",
+      "/home/runner/work/_temp/visible-larger-research-46062343475-1/research/fixed-fejer-reference/locations.json",
+      "--material-envelope-binding",
+      "/home/runner/work/_temp/visible-larger-research-46062343475-1/research/fixed-fejer-reference/material-envelope-carrier-binding.json",
+      "--envelope-near-active-rows",
+      "32",
+      "--independent-envelope-branch",
+      "--pending-parallel-envelope-run",
+      "45909290354/1",
+      "--pending-parallel-envelope-source",
+      "45909290354/1=cc0a07369a2d9ea5e22d261441420acb4e486a8c0d43f29f57e03378e82627b5",
+      "--pending-parallel-envelope-run",
+      "45929088658/1",
+      "--pending-parallel-envelope-source",
+      "45929088658/1=95559b0cd44e3bf521b01ca8fe35b515bf7aad5dc4dc6b008ab0d015b9211da9",
+      "--pending-parallel-envelope-run",
+      "45943410994/1",
+      "--pending-parallel-envelope-source",
+      "45943410994/1=ff5444af4c31869a1a4d7b87cb4912f2d025b8da5ee90922924c3542ff6f0dd5",
+      "--pending-parallel-envelope-run",
+      "45972294636/1",
+      "--pending-parallel-envelope-source",
+      "45972294636/1=c3dc77f40445eaf30ab743311dd97ea7d62a41be80db504fc778eccffa30e5d1",
+      "--pending-parallel-envelope-run",
+      "46011377225/1",
+      "--pending-parallel-envelope-source",
+      "46011377225/1=477499b17141d8ae22558156e8b85a4c01b7a40ff07b6b46f5827e20d11b9ccd"
+    ],
+    "actual_outputs": [
+      {
+        "path": "/home/runner/work/_temp/visible-larger-research-46062343475-1/research/fixed-fejer-meridian-batched-first-command.json",
+        "sha256": "491c172cebc830da4af9449b669ebd3f6b684dd0887357755c099b71778b07d3",
+        "bytes": 50540
+      }
+    ],
+    "actual_missing_outputs": [
+      "/home/runner/work/_temp/visible-larger-research-46062343475-1/research/fixed-fejer-meridian-batched-first/report.json"
+    ],
+    "actual_summary_errors": [
+      {
+        "report": "fixed-fejer-meridian-batched-first/report.json",
+        "error": "[Errno 2] No such file or directory: '/home/runner/work/_temp/visible-larger-research-46062343475-1/research/fixed-fejer-meridian-batched-first/report.json'"
+      }
+    ],
+    "diagnostic_output_records": [
+      {
+        "path": "/home/runner/work/_temp/visible-larger-research-46062343475-1/research/postprocess/actual18-science-first-and-last-original-tracebacks.json",
+        "sha256": "85cbea9228c60fd15a6c6e7397bd3a3e39e6e33bc349d8305657588abdbe131b",
+        "bytes": 11675
+      }
+    ],
+    "diagnostic_source_commit": "b07c0aebbf6125cfa1a7e1b595b84ab3d67be3ca",
+    "diagnostic_source_sha256": "5d25f3936fee3ae40966718ec39af16ff19ae4513fe36758af907f21baf78360",
+    "diagnostic_complete_command": [
+      "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python",
+      "-u",
+      "/home/runner/work/_temp/visible-larger-research-46062343475-1/followup-sources/0004-1907f8e02291-b07c0aebbf61/topics/visible-flex-larger-amplitude/scripts/resume_20261126/read_actual_followup_failure_chain.py",
+      "--status",
+      "/home/runner/work/_temp/visible-larger-research-46062343475-1/research/status.json",
+      "--step-id",
+      "complete-fixed-fejer-meridian-batched-first-20261127",
+      "--output",
+      "/home/runner/work/_temp/visible-larger-research-46062343475-1/research/postprocess/actual18-science-first-and-last-original-tracebacks.json",
+      "--expected-run-id",
+      "46062343475",
+      "--expected-source-sha256",
+      "b54cd45d9fb71fe082f3f4403a595296203883aedc84fb3ac0d0d4c0625d9d12",
+      "--expected-log-path",
+      "/home/runner/work/_temp/visible-larger-research-46062343475-1/research/followup-logs/0003-dc8fac08e2e4.log",
+      "--maximum-tail-bytes",
+      "64000",
+      "--maximum-excerpt-characters",
+      "7000"
+    ],
+    "actual_log": {
+      "path": "/home/runner/work/_temp/visible-larger-research-46062343475-1/research/followup-logs/0003-dc8fac08e2e4.log",
+      "bytes": 7167,
+      "sha256": "1baa32787375046913bdb762ff4d57db990e0e8567d75cd8b03f13834d5d190d"
+    },
+    "first_complete_traceback": "Traceback (most recent call last):\n  File \"/home/runner/work/_temp/visible-larger-research-46062343475-1/followup-sources/0003-dc8fac08e2e4-7936ae753065/topics/visible-flex-larger-amplitude/scripts/resume_20261126/fullclosed_fixed_fejer_meridian_batched_so3_qp.py\", line 1130, in <module>\n    main()\n  File \"/home/runner/work/_temp/visible-larger-research-46062343475-1/followup-sources/0003-dc8fac08e2e4-7936ae753065/topics/visible-flex-larger-amplitude/scripts/resume_20261126/fullclosed_fixed_fejer_meridian_batched_so3_qp.py\", line 544, in main\n    q = endpoint.ZeroClosureOperator(base, expected_base_source_sha256=SOURCE_PINS['meridian'][1],\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/_temp/visible-larger-research-46062343475-1/followup-sources/0003-dc8fac08e2e4-7936ae753065/topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_detached_meridian_normal_lift.py\", line 489, in __init__\n    self.analytic_normal_frame = analytic_frame_module.AnalyticNormalFrame(self)\n                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/_temp/visible-larger-research-46062343475-1/followup-sources/0003-dc8fac08e2e4-7936ae753065/topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_meridian_analytic_normal_frame.py\", line 372, in __init__\n    raise ValueError('A full original method or the explicit frame wrapper changed: '+name)\nValueError: A full original method or the explicit frame wrapper changed: _meridian_data\n",
+    "first_traceback_excerpt_clipped": false,
+    "last_traceback_excerpt_clipped": false,
+    "scientific_report_returned": false,
+    "field_point_sha256": null,
+    "scientific_result": null
+  },
+  "exact_guard_repair": {
+    "actual_failed_function": "_meridian_data",
+    "actual_complete_method_source": "    def _meridian_data(self, x, query, phi, curvature, query_label):\n        return self.detached_meridian_values.meridian_data(x,query,phi,curvature,query_label)\n",
+    "original_method_AST_anchor_kept": true,
+    "all_original_override_source_strings_unchanged": true,
+    "existing_complete_method_ast_function_unchanged": true,
+    "no_guard_deleted": true,
+    "no_new_source_alias": true,
+    "old_override_count": 3,
+    "new_override_count": 4
+  },
+  "complete_new_artifacts": [
+    {
+      "role": "analytic_frame",
+      "name": "fixed_fejer_meridian_analytic_normal_frame.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_meridian_analytic_normal_frame.py",
+      "bytes": 47431,
+      "sha256": "d3cf01067c0c3cd348560a74d1845b02f859bbd0a41f2938ec544034d2a63bcd",
+      "git_blob_sha": "9c24a81d34171155f6bb4e19592bfe54a2fb7b40"
+    },
+    {
+      "role": "endpoint",
+      "name": "fixed_fejer_detached_meridian_normal_lift.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_detached_meridian_normal_lift.py",
+      "bytes": 96276,
+      "sha256": "33c269f3cd04c9435ccb5144984124c8a0b6ae348f95c8bd71ac92a334c51cf4",
+      "git_blob_sha": "8af8a63ac394bc3f0f4a3fa1b30ff5eb8fd5cdef"
+    },
+    {
+      "role": "root_packets",
+      "name": "fixed_fejer_meridian_root_packets.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_meridian_root_packets.py",
+      "bytes": 73723,
+      "sha256": "45dd618adaa5262002bfb9d1979b6f555fe5233a57ec0f75abcec2ab7633a5be",
+      "git_blob_sha": "8a578530490cfed771974ff0095b82d8814ef8d8"
+    },
+    {
+      "role": "reproducer",
+      "name": "reproduce_fixed_fejer_meridian_method_source_repair.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/reproduce_fixed_fejer_meridian_method_source_repair.py",
+      "bytes": 8543,
+      "sha256": "d2181762f109967f83785e11d64ac9fddb8c4e6bf03257c7dd9b24a8ae7ae45c",
+      "git_blob_sha": "9167ccc662e4b8aec1c2a827799a2e185a51d320"
+    },
+    {
+      "role": "note",
+      "name": "2026-11-27-actual18-meridian-method-source-binding-repair.md",
+      "path": "topics/visible-flex-larger-amplitude/notes/2026-11-27-actual18-meridian-method-source-binding-repair.md",
+      "bytes": 9351,
+      "sha256": "4a4764c715c4549daad92564194ce7997abef176a485cbef77a05a588a2175d1",
+      "git_blob_sha": "ed102658d7ea603994ff3817237f29b924dd22e3"
+    }
+  ],
+  "complete_new_artifacts_count": 5,
+  "total_new_artifact_bytes_excluding_this_manifest": 235324,
+  "complete_current_lower_sources": [
+    {
+      "role": null,
+      "name": "fixed_fejer_meridian_closure_values.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_meridian_closure_values.py",
+      "bytes": 59440,
+      "sha256": "2889fef0d09a32c3f609f9a4e100efb1b136070dad77c8104204b552a867c4e0",
+      "git_blob_sha": "2383f9c4bad43635e43fe409b048d3f74d2b9b8c"
+    },
+    {
+      "role": null,
+      "name": "fixed_fejer_meridian_analytic_stage_jacobian.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_meridian_analytic_stage_jacobian.py",
+      "bytes": 25697,
+      "sha256": "223afb992e0e9904c30ab20387a92569dc2979dbfde84f75f04e3402b9c5e811",
+      "git_blob_sha": "7525e1f076c90b877d7574c8aea85dc12e02d973"
+    },
+    {
+      "role": "analytic_frame",
+      "name": "fixed_fejer_meridian_analytic_normal_frame.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_meridian_analytic_normal_frame.py",
+      "bytes": 47431,
+      "sha256": "d3cf01067c0c3cd348560a74d1845b02f859bbd0a41f2938ec544034d2a63bcd",
+      "git_blob_sha": "9c24a81d34171155f6bb4e19592bfe54a2fb7b40"
+    },
+    {
+      "role": null,
+      "name": "fixed_fejer_meridian_normal_frame_c1.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_meridian_normal_frame_c1.py",
+      "bytes": 37361,
+      "sha256": "c97749c8fae14981a1f86e45845d152134a62039d88b7cfaccfb69fb0665e246",
+      "git_blob_sha": "5daa46fca67d3e90985fed092c37ec4eefd20421"
+    },
+    {
+      "role": null,
+      "name": "fixed_fejer_meridian_stage_matrices.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_meridian_stage_matrices.py",
+      "bytes": 61280,
+      "sha256": "f98bf270265f9d41c9c297dd23c2db7da9ea91a039663c1785966e9135795791",
+      "git_blob_sha": "57e215d6bd28e7df8d7172106df5caa209ebc78c"
+    },
+    {
+      "role": null,
+      "name": "fixed_fejer_meridian_adjacent_matrices.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_meridian_adjacent_matrices.py",
+      "bytes": 36766,
+      "sha256": "bd65734da69f3e5bc560ec81df03f8555593257560455b56adfa353e025c4564",
+      "git_blob_sha": "641da23cdb76029f343ab441d03625e190cc4ae1"
+    },
+    {
+      "role": null,
+      "name": "fixed_fejer_meridian_reference_calibration.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_meridian_reference_calibration.py",
+      "bytes": 11872,
+      "sha256": "aa40b224da667b5e01b207a431f771e2bf11177fabaebb075ca6218bbb130de3",
+      "git_blob_sha": "2f816e1e3e617a1c8bf85bea8067f5aedd8e773e"
+    },
+    {
+      "role": "endpoint",
+      "name": "fixed_fejer_detached_meridian_normal_lift.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_detached_meridian_normal_lift.py",
+      "bytes": 96276,
+      "sha256": "33c269f3cd04c9435ccb5144984124c8a0b6ae348f95c8bd71ac92a334c51cf4",
+      "git_blob_sha": "8af8a63ac394bc3f0f4a3fa1b30ff5eb8fd5cdef"
+    },
+    {
+      "role": "root_packets",
+      "name": "fixed_fejer_meridian_root_packets.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_meridian_root_packets.py",
+      "bytes": 73723,
+      "sha256": "45dd618adaa5262002bfb9d1979b6f555fe5233a57ec0f75abcec2ab7633a5be",
+      "git_blob_sha": "8a578530490cfed771974ff0095b82d8814ef8d8"
+    },
+    {
+      "role": null,
+      "name": "fixed_fejer_detached_meridian_values.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_detached_meridian_values.py",
+      "bytes": 41030,
+      "sha256": "7aa760baa30a46484d90bc5e327849ab5229cca708e6ba4289b12da253a5facd",
+      "git_blob_sha": "6ab29473b0d549539de69a064efb19af4227a867"
+    }
+  ],
+  "changed_runtime_count": 3,
+  "unchanged_runtime_count": 7,
+  "unchanged_runtime_binding_scope": {
+    "closure": "The complete _meridian_data exact override and full method guards already match the actual wrapper. The failure occurred later at analytic frame construction. Its whole source remains unchanged.",
+    "cache": "The meridian helper binds its actual whole normal source, immutable owner, model and method objects dynamically. Whole source remains unchanged.",
+    "other_five": "Analytic J3, C1, detached stage matrices, adjacent matrices and calibration have no omitted _meridian_data override to repair; their original strict checks and whole sources are retained."
+  },
+  "original_complete_source_and_parameter_records": {
+    "lower_manifest": {
+      "name": "fixed-fejer-detached-meridian-value-lower-complete-delivery.json",
+      "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-detached-meridian-value-lower-complete-delivery.json",
+      "bytes": 29152,
+      "sha256": "09ff181a5bafcca7b55285d5a2469aac126d20bbc7d1f58a1cccf8bc8dd1dc20",
+      "git_blob_sha": "d9618f16c55366b53c2e761f8cc562d591d93b3c"
+    },
+    "lower_locks": {
+      "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-detached-meridian-value-lower-source-locks.json",
+      "bytes": 18987,
+      "sha256": "969a1e676eab85c7497072d6a92f34dc037230da7aebf6227b0f343eded6aba3",
+      "git_blob_sha": "4903cf3479cd6be661ec1b2734d8a52be0b4b308"
+    },
+    "scientific_manifest": {
+      "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-meridian-batched-complete-delivery.json",
+      "bytes": 78671,
+      "sha256": "18c451846439d93e5ba69c9773b3d35253765fbd3bae769076e35cde80669e41",
+      "git_blob_sha": "7c64de07241a312dcdc7244345998f5c9a217a00",
+      "published_commit": "6bb07451de8b7476a36c799c4fced3a642aa8bde"
+    },
+    "complete_parameter_files": {
+      "science": {
+        "name": "fixed-fejer-meridian-batched-science-complete-ready.json",
+        "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-meridian-batched-science-complete-ready.json",
+        "bytes": 76339,
+        "sha256": "48be07d523cf6330a23808567a95acd4927aaf1b487cd5c8e5f35176acff1a64",
+        "git_blob_sha": "f98fc5044b5b1a625d38b35d59be8fac1fe6c86d"
+      },
+      "pure": {
+        "name": "fixed-fejer-meridian-batched-pure-complete-ready.json",
+        "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-meridian-batched-pure-complete-ready.json",
+        "bytes": 65979,
+        "sha256": "000d83d7bb4ecf3f0ef97a266846d52e2dfa79e50a2ad725fa361110ead9459f",
+        "git_blob_sha": "79368147386cb31d88ecaf689a970564045eed16"
+      }
+    }
+  },
+  "complete_reproduction": {
+    "schema": "complete-meridian-actual18-method-source-binding-repair-text-reproduction-v1",
+    "fixed_parent_commit": "36fb3539d71ac8826645df636359d34769f786e9",
+    "original_executed_scientific_commit": "7936ae753065d6e47c1c02848551020acf5a7b2a",
+    "sources": [
+      {
+        "parent": {
+          "name": "fixed_fejer_meridian_analytic_normal_frame.py",
+          "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_meridian_analytic_normal_frame.py",
+          "bytes": 47244,
+          "sha256": "ab282ea02ce774b6f2aa044c700389369d05d1ff6105cdc9a0dbdae33a4db544",
+          "git_blob_sha": "abfa338ddea26f149a337a14882121505ba1af96"
+        },
+        "output": {
+          "role": "analytic_frame",
+          "name": "fixed_fejer_meridian_analytic_normal_frame.py",
+          "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_meridian_analytic_normal_frame.py",
+          "bytes": 47431,
+          "sha256": "d3cf01067c0c3cd348560a74d1845b02f859bbd0a41f2938ec544034d2a63bcd",
+          "git_blob_sha": "9c24a81d34171155f6bb4e19592bfe54a2fb7b40"
+        },
+        "patches": [
+          {
+            "label": "Append the complete current meridian-data source to the existing strict override dictionary",
+            "before": "\"}\n\n\ndef complete_method_ast():",
+            "after": "\", \"_meridian_data\": \"    def _meridian_data(self, x, query, phi, curvature, query_label):\\n        return self.detached_meridian_values.meridian_data(x,query,phi,curvature,query_label)\\n\"}\n\n\ndef complete_method_ast():",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "parent": {
+          "name": "fixed_fejer_detached_meridian_normal_lift.py",
+          "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_detached_meridian_normal_lift.py",
+          "bytes": 96276,
+          "sha256": "388c756a81d76c92ef146838a081cfee298e43ba44fee8d936f88341ebdf3ed4",
+          "git_blob_sha": "8a22b31dcc36d3160d4c968f9645600961a22abc"
+        },
+        "output": {
+          "role": "endpoint",
+          "name": "fixed_fejer_detached_meridian_normal_lift.py",
+          "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_detached_meridian_normal_lift.py",
+          "bytes": 96276,
+          "sha256": "33c269f3cd04c9435ccb5144984124c8a0b6ae348f95c8bd71ac92a334c51cf4",
+          "git_blob_sha": "8af8a63ac394bc3f0f4a3fa1b30ff5eb8fd5cdef"
+        },
+        "patches": [
+          {
+            "label": "Pin the complete corrected analytic-frame source",
+            "before": "ab282ea02ce774b6f2aa044c700389369d05d1ff6105cdc9a0dbdae33a4db544",
+            "after": "d3cf01067c0c3cd348560a74d1845b02f859bbd0a41f2938ec544034d2a63bcd",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "parent": {
+          "name": "fixed_fejer_meridian_root_packets.py",
+          "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_meridian_root_packets.py",
+          "bytes": 73723,
+          "sha256": "910f131c9f7024cdd7866f913f3211247327098bdae2735442619f397d3a9e15",
+          "git_blob_sha": "e347b156b0b4bec87871fc07809a40a3bbda4ddd"
+        },
+        "output": {
+          "role": "root_packets",
+          "name": "fixed_fejer_meridian_root_packets.py",
+          "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_meridian_root_packets.py",
+          "bytes": 73723,
+          "sha256": "45dd618adaa5262002bfb9d1979b6f555fe5233a57ec0f75abcec2ab7633a5be",
+          "git_blob_sha": "8a578530490cfed771974ff0095b82d8814ef8d8"
+        },
+        "patches": [
+          {
+            "label": "Register the actual corrected normal whole source",
+            "before": "388c756a81d76c92ef146838a081cfee298e43ba44fee8d936f88341ebdf3ed4",
+            "after": "33c269f3cd04c9435ccb5144984124c8a0b6ae348f95c8bd71ac92a334c51cf4",
+            "count": 1
+          },
+          {
+            "label": "Register its corrected analytic-frame whole source",
+            "before": "ab282ea02ce774b6f2aa044c700389369d05d1ff6105cdc9a0dbdae33a4db544",
+            "after": "d3cf01067c0c3cd348560a74d1845b02f859bbd0a41f2938ec544034d2a63bcd",
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "required_complete_wrapper": {
+      "parent_name": "fixed_fejer_detached_meridian_normal_lift.py",
+      "source": "    def _meridian_data(self, x, query, phi, curvature, query_label):\n        return self.detached_meridian_values.meridian_data(x,query,phi,curvature,query_label)\n"
+    }
+  },
+  "optional_reproducer_argv": [
+    "python3",
+    "topics/visible-flex-larger-amplitude/scripts/resume_20261126/reproduce_fixed_fejer_meridian_method_source_repair.py",
+    "--repo",
+    "{repo}",
+    "--outdir",
+    "{scratch}/actual18-method-source-repair"
+  ],
+  "actual_source_work": {
+    "all_ten_parent_sources_read_as_full_text": true,
+    "parent_whole_size_sha256_checked": true,
+    "three_forward_text_derivations_checked": true,
+    "three_inverse_text_derivations_restore_entire_parent": true,
+    "complete_current_wrapper_matches_override": true,
+    "all_old_override_strings_unchanged": true,
+    "original_complete_method_ast_function_unchanged": true,
+    "python_reproducer_executed": false,
+    "local_AST_compile_import_or_scientific_execution": false,
+    "field_or_J_or_root_evaluations": 0,
+    "extra_test_fixture_or_admission_gate": false,
+    "refs_modified": false,
+    "queue_modified": false,
+    "performance_or_convergence_claimed": false
+  },
+  "remaining_scope": {
+    "root_upper_cascade": "Root has independently prepared exact current-role pin updates and the full unchanged 157 science / 7 pure argv under the method-bound output namespace. This lower manifest does not claim those upper files have been independently reread here.",
+    "accurate_fees": "The root-supplied repaired accurate input and the independent R722 posterior branch are separate full-source successors. No original R709 true claim or historical field is relabelled.",
+    "repaired_run_report": null,
+    "repaired_point": null,
+    "repaired_root_packet": null,
+    "repaired_fee_or_geometric_certificate": null
+  }
+}

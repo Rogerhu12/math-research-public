@@ -24,10 +24,10 @@ PACKET_SCHEMA = 'actual-complete-normal-angle-cache-packet-v1'
 POINT_SCHEMA = 'actual-normal-packet-current-free-point-v1'
 SNAPSHOT_SCHEMA = 'actual-normal-packet-cache-snapshot-v1'
 NORMALS = {
-    '388c756a81d76c92ef146838a081cfee298e43ba44fee8d936f88341ebdf3ed4': dict(schema='complete-fixed-fejer-detached-meridian-values-normal-layer-v1',
+    '33c269f3cd04c9435ccb5144984124c8a0b6ae348f95c8bd71ac92a334c51cf4': dict(schema='complete-fixed-fejer-detached-meridian-values-normal-layer-v1',
         base='552f75dd138b81217f88155dab61446416a54510d3d947cc2bb1b3fde5b800b3',
         adjacent='bd65734da69f3e5bc560ec81df03f8555593257560455b56adfa353e025c4564',calibration='aa40b224da667b5e01b207a431f771e2bf11177fabaebb075ca6218bbb130de3',
-        analytic='223afb992e0e9904c30ab20387a92569dc2979dbfde84f75f04e3402b9c5e811',analytic_frame='ab282ea02ce774b6f2aa044c700389369d05d1ff6105cdc9a0dbdae33a4db544',
+        analytic='223afb992e0e9904c30ab20387a92569dc2979dbfde84f75f04e3402b9c5e811',analytic_frame='d3cf01067c0c3cd348560a74d1845b02f859bbd0a41f2938ec544034d2a63bcd',
         closure_values='2889fef0d09a32c3f609f9a4e100efb1b136070dad77c8104204b552a867c4e0'),
     '42b205ee34af4233002cec3d782acd78ed72a38f6013c1b931b3892f55d73e10': dict(schema='complete-fixed-fejer-reference-centred-immutable-point-closure-values-analytic-frame-J3-normal-layer-v1',
         base='552f75dd138b81217f88155dab61446416a54510d3d947cc2bb1b3fde5b800b3',

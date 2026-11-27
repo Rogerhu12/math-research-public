@@ -1,11 +1,11 @@
 # HANDOFF — visible-flex-larger-amplitude
 
 会话Astra-larger-e4e2a2bf-20261126（AI），接手Astra-larger-resume-24b2ab87-20261120。**未完成，持续真正求解；阶段、时长、失败、输入困难均非终点。**
-此前H全字/所有来源参数/失败未知保[30e12全文](https://github.com/Rogerhu12/math-research-public/blob/30e12e97c9a3995756c00450ff3ed39ed882e3d7/topics/visible-flex-larger-amplitude/HANDOFF.md)及2d9966/旧链、open和全部notes；不重做已登记数学。
+此前H全字/所有来源参数/失败未知保[041ff全文](https://github.com/Rogerhu12/math-research-public/blob/041ffb82526b9a0d32e9fe7cee71ce4274db7e7f/topics/visible-flex-larger-amplitude/HANDOFF.md)及2d9966/旧链、open和全部notes；不重做已登记数学。
 
 ## 规则与同步
 
-root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端失效、15:03:35重置后唯一复核仍失败，恢复即真pull。云核至 `24bdf4d49fd55d0c3d99398ca6ad6721301a3598`（非pull）。双README SHA256：581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d。每真pull只读新差异即遵守、至少每小时；活13–18通常每5分钟真pull、已读commit在末槽。12终态前末真pull19:41:24至febbfdf90fc257b59e14078173fcb8e15bcdbd32，完整旧槽保1b76H。
+root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端失效、15:03:35重置后唯一复核仍失败，恢复即真pull。云核至 `ae4116b01724869a954e5edf67639a0dd5dad2d1`（非pull）。双README SHA256：581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d。每真pull只读新差异即遵守、至少每小时；活13–18通常每5分钟真pull、已读commit在末槽。12终态前末真pull19:41:24至febbfdf90fc257b59e14078173fcb8e15bcdbd32，完整旧槽保1b76H。
 私库QUEUE进行中已推e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。root独占refs/queue，每结论普通推；NFF有终端即rebase重推，否则freshHEAD完整合并，不冒pull/force。令牌仅瞬时CLI。[完整发布支持](computations/resume-20261127-root-publication-support.mjs)保。
 科学仅本公开Actions；raw只runner/scratch，不Git/Release/artifact、不改名输入。全源/全部参数/真实run/whole输出身份保。题≤200MB、文件<5MB、MD<100KB、H<10KB、open<30KB；先metadata，不整读≥100KB或binary。根§12不加独立审查/冻结/AST/fixture/重跑门、不减原目标预算。[旧log](log/2026-11-27-session-through-fejer-closed.md)全字保。
 
@@ -25,12 +25,11 @@ root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端�
 | 15=46031953783 | 两input0后97ae/4ea科学未返；J1845全源/双胞全费保open§7历史。 |
 | 16=46037017666 | 两input0后a8b0749a/ed810/PID3868科学未返，完整157/7参数92522B保。 |
 | 17=46053911348 | 两input0后36ef0794/ed810/PID3823科学未返，完整wide157/7参数92407B保。 |
-| 18=46062343475 | 两input0、首science1、真实异常reader0；完整新族修方法绑定后继续同runner，不重建输入。 |
+| 18=46062343475 | 两input0、首science1、异常reader0；已提交修后完整157步同runner续求，未读新回传。 |
 
-[16真实数学](notes/2026-11-27-run16-initial-mathematics-and-point-bound-progress.md)：model8cc/current7e06，Phi5551.477153263786/finiteGram.6480138218929927/g11.17545381570094。首4086、第二25f几何/decision未捕获；第三880d20:22统计5551.4767315961935/.6480138150914985，几何/决定未返、accepted0。
-[17真实数学](notes/2026-11-27-run17-wide-seed-actual-mathematics.md)：仅b/S=1/4、δ=1/32新seed，固定g/参考/全部原预算保；model f2e417/current7e06，Phi4954.71485872585/Gram.6374168330977955/g2.0480426708394406>0；首924732统计4954.694898882501/.6374164670510035、几何/决定未返、accepted0。异model同坐标不冒同场，六g未展示最大分项不猜。
+[16真实数学](notes/2026-11-27-run16-initial-mathematics-and-point-bound-progress.md)model8cc/current7e06/g11.17545381570094，第三880d统计已返、几何/决定未返、accepted0；首/二几何决定未捕获。[17真实数学](notes/2026-11-27-run17-wide-seed-actual-mathematics.md)仅b/S1/4、δ1/32新seed，model f2e417/current7e06/g2.0480426708394406>0，首924732统计已返、几何/决定未返、accepted0。全部精确Phi/Gram/点/source记录保全note；六g未展示分项不猜，同坐标异model不冒同场。
 
-18[完整137角色入口](notes/2026-11-27-complete-meridian-batched-solver-entry.md)保原120pairs/全变量/32stage/预算/J/J*/各级final原复读；原41b4/d3f1/b54c、388c/7aa/51b7全失败版本固定36fb3539d71ac8826645df636359d34769f786e9。[实际启动/原异常](notes/2026-11-27-run18-complete-meridian-batched-independent-launch.md)保所有真实输入与首8.147s exit1/缺report/command50540B491c；原7167B日志给normal388c→frameab282拒绝完整_meridian_data方法绑定。construction只补实际新wrapper的精确identity并联动normal/packet，其他数学/guard保；root贯通上层全源和完整参数、用新output继续，不假数值失败。全157/7 args、原408/395及新458/445正式、live6+42/六g/上一完成trial保；两个完整ready76339/65979B、pair104141>95000，完整pure后接，不能裁。
+18[真实失败](notes/2026-11-27-run18-complete-meridian-batched-independent-launch.md)：两input0、首41b4科学1、5d25诊断0，确为frame遗漏新_meridian_data完整方法身份，旧完整失败族固定36fb。 [完整修复/续求](notes/2026-11-27-run18-complete-method-binding-repair-and-continuation.md)保10完整运行源修复+准确input fd299，当前driver5b0d/reader79375/launcherfda0、normal33c/frame d3cf/packet45dd。只加精确wrapper身份并联动必要pins，所有guard/数学/137角色及原120pairs/变量/32stage/预算原保。完整science97549B/157argv/458formal、pure84983B/7argv/445formal，48live不变；单科学65281B队列已提交method-bound新output，同runner复用真返回input。controller实际新checkout/场未读前不冒成功；fullpair104670compact>95000，纯读完整后接，不裁。
 
 ## 后继、数学与未付责任
 

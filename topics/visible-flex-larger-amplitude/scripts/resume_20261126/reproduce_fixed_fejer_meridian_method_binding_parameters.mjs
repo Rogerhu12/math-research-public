@@ -1,0 +1,82 @@
+#!/usr/bin/env node
+/* Full parameter reproduction from fixed complete Git parents; no scientific execution.
+   node THIS_FILE --repo EXISTING_GIT_CHECKOUT --outdir OUTSIDE_REPOSITORY */
+import fs from 'node:fs';
+import path from 'node:path';
+import crypto from 'node:crypto';
+import { execFileSync } from 'node:child_process';
+import { pathToFileURL } from 'node:url';
+export const SPEC = {"schema":"complete-actual18-method-binding-repair-parameters-v1","parent_commit":"36fb3539d71ac8826645df636359d34769f786e9","parent_records":{"science":{"name":"fixed-fejer-meridian-batched-science-complete-ready.json","path":"topics/visible-flex-larger-amplitude/computations/fixed-fejer-meridian-batched-science-complete-ready.json","bytes":76339,"sha256":"48be07d523cf6330a23808567a95acd4927aaf1b487cd5c8e5f35176acff1a64","git_blob_sha":"f98fc5044b5b1a625d38b35d59be8fac1fe6c86d"},"pure":{"name":"fixed-fejer-meridian-batched-pure-complete-ready.json","path":"topics/visible-flex-larger-amplitude/computations/fixed-fejer-meridian-batched-pure-complete-ready.json","bytes":65979,"sha256":"000d83d7bb4ecf3f0ef97a266846d52e2dfa79e50a2ad725fa361110ead9459f","git_blob_sha":"79368147386cb31d88ecaf689a970564045eed16"}},"parent_namespace":"fixed-fejer-meridian-batched-first","current_namespace":"fixed-fejer-meridian-batched-method-bound","current_step_ids":{"science":"complete-fixed-fejer-meridian-batched-method-bound-20261127","pure":"actual-fixed-fejer-meridian-batched-method-bound-20261127"},"runtime_records":{"analytic_J3":{"name":"fixed_fejer_meridian_analytic_stage_jacobian.py","path":"topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_meridian_analytic_stage_jacobian.py","bytes":25697,"sha256":"223afb992e0e9904c30ab20387a92569dc2979dbfde84f75f04e3402b9c5e811","git_blob_sha":"7525e1f076c90b877d7574c8aea85dc12e02d973"},"frame_C1":{"name":"fixed_fejer_meridian_normal_frame_c1.py","path":"topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_meridian_normal_frame_c1.py","bytes":37361,"sha256":"c97749c8fae14981a1f86e45845d152134a62039d88b7cfaccfb69fb0665e246","git_blob_sha":"5daa46fca67d3e90985fed092c37ec4eefd20421"},"stage_matrices":{"name":"fixed_fejer_meridian_stage_matrices.py","path":"topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_meridian_stage_matrices.py","bytes":61280,"sha256":"f98bf270265f9d41c9c297dd23c2db7da9ea91a039663c1785966e9135795791","git_blob_sha":"57e215d6bd28e7df8d7172106df5caa209ebc78c"},"adjacent_matrices":{"name":"fixed_fejer_meridian_adjacent_matrices.py","path":"topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_meridian_adjacent_matrices.py","bytes":36766,"sha256":"bd65734da69f3e5bc560ec81df03f8555593257560455b56adfa353e025c4564","git_blob_sha":"641da23cdb76029f343ab441d03625e190cc4ae1"},"reference_calibration":{"name":"fixed_fejer_meridian_reference_calibration.py","path":"topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_meridian_reference_calibration.py","bytes":11872,"sha256":"aa40b224da667b5e01b207a431f771e2bf11177fabaebb075ca6218bbb130de3","git_blob_sha":"2f816e1e3e617a1c8bf85bea8067f5aedd8e773e"},"endpoint":{"name":"fixed_fejer_detached_meridian_normal_lift.py","path":"topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_detached_meridian_normal_lift.py","bytes":96276,"sha256":"33c269f3cd04c9435ccb5144984124c8a0b6ae348f95c8bd71ac92a334c51cf4","git_blob_sha":"8af8a63ac394bc3f0f4a3fa1b30ff5eb8fd5cdef"},"analytic_frame":{"name":"fixed_fejer_meridian_analytic_normal_frame.py","path":"topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_meridian_analytic_normal_frame.py","bytes":47431,"sha256":"d3cf01067c0c3cd348560a74d1845b02f859bbd0a41f2938ec544034d2a63bcd","git_blob_sha":"9c24a81d34171155f6bb4e19592bfe54a2fb7b40"},"closure_values":{"name":"fixed_fejer_meridian_closure_values.py","path":"topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_meridian_closure_values.py","bytes":59440,"sha256":"2889fef0d09a32c3f609f9a4e100efb1b136070dad77c8104204b552a867c4e0","git_blob_sha":"2383f9c4bad43635e43fe409b048d3f74d2b9b8c"},"detached_meridian_values":{"name":"fixed_fejer_detached_meridian_values.py","path":"topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_detached_meridian_values.py","bytes":41030,"sha256":"7aa760baa30a46484d90bc5e327849ab5229cca708e6ba4289b12da253a5facd","git_blob_sha":"6ab29473b0d549539de69a064efb19af4227a867"},"root_packets":{"name":"fixed_fejer_meridian_root_packets.py","path":"topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_meridian_root_packets.py","bytes":73723,"sha256":"45dd618adaa5262002bfb9d1979b6f555fe5233a57ec0f75abcec2ab7633a5be","git_blob_sha":"8a578530490cfed771974ff0095b82d8814ef8d8"},"analytic_J3_binding":{"name":"fixed_fejer_meridian_source_binding.py","path":"topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_meridian_source_binding.py","bytes":41894,"sha256":"de498a0fef7bd9a484bda937dc427224d76018ac49a5dd962afe8cfb8085c056","git_blob_sha":"b8be5338c1169f6c4977648aa130af650ec1b9c0"},"geometry":{"name":"so3_fixed_fejer_batched_missing_angle_geometry.py","path":"topics/visible-flex-larger-amplitude/scripts/resume_20261126/so3_fixed_fejer_batched_missing_angle_geometry.py","bytes":88163,"sha256":"7d253a0e4c25739ee70806352e9b64d4703ea1f46d52755f38cfb949bbcabc2e","git_blob_sha":"932b8ecc379b31415235cf6fcdab82d45a000eb7"},"envelope_transfer":{"name":"fixed_fejer_meridian_memory_transfer.py","path":"topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_meridian_memory_transfer.py","bytes":78920,"sha256":"07026a642f3de79ffd076bad2ba554e482625da0644af0756aed7458e8c89e68","git_blob_sha":"6fa52bf67e126e7e9c615b4210888dfaf03fbd7d"},"scalar_progress":{"name":"fixed_fejer_complete_geometry_trial_progress.py","path":"topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_complete_geometry_trial_progress.py","bytes":39500,"sha256":"321be35ae07519fcd283e09d209b19fedde570a54fdc65be79fc1caf848f3cc5","git_blob_sha":"8173d3576958dc5c476466dd4c5012c5ed81b0c1"},"batched_geometry_binding":{"name":"fixed_fejer_batched_geometry_report_binding.py","path":"topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_batched_geometry_report_binding.py","bytes":12136,"sha256":"3e2ab0bd95b44e8385fabde37d67ef487302fc6c73520175be9b9b0af837321e","git_blob_sha":"088c47aff3a553e5221b279d41ec4e5e119679a7"},"driver":{"name":"fullclosed_fixed_fejer_meridian_batched_so3_qp.py","path":"topics/visible-flex-larger-amplitude/scripts/resume_20261126/fullclosed_fixed_fejer_meridian_batched_so3_qp.py","bytes":99313,"sha256":"5b0dc3573b4baa86728b0c0628a1338d339a6c4cf5cf0afcead1f4e6febcc58f","git_blob_sha":"e4c282a934cb34a9faeb7b844004113aeb169448"},"launcher":{"name":"launch_fixed_fejer_meridian_batched_actions.py","path":"topics/visible-flex-larger-amplitude/scripts/resume_20261126/launch_fixed_fejer_meridian_batched_actions.py","bytes":22136,"sha256":"fda0da129cc1a3eaa36dac6192a1ca5c432eb77daea0312da3de9deafe057f45","git_blob_sha":"69c0389b4e431fbec8a3af743c8cd05a9668de71"},"reader":{"name":"read_fixed_fejer_meridian_batched_so3_report.py","path":"topics/visible-flex-larger-amplitude/scripts/resume_20261126/read_fixed_fejer_meridian_batched_so3_report.py","bytes":99382,"sha256":"79375ead2b0a93a54200d079b691e0fb8e0f74da480e3867ea7c91542f4ab222","git_blob_sha":"4dc8d51b30f84ca34256b963f6d4368082b6c493"}},"current_display":{"name":"fixed-fejer-meridian-method-bound-progress-display-correspondence.json","path":"topics/visible-flex-larger-amplitude/computations/fixed-fejer-meridian-method-bound-progress-display-correspondence.json","bytes":24596,"sha256":"01b8fe4c0bee08c2194042a61869cb6f0f30bad4c66a806282ee42ef831e0ddc","git_blob_sha":"f9dd052a9ff3f06102e323e93d24ac47b1b147c9","sha":"f9dd052a9ff3f06102e323e93d24ac47b1b147c9"},"upper_source_reproducer":{"name":"reproduce_fixed_fejer_meridian_method_binding_upper_sources.mjs","path":"topics/visible-flex-larger-amplitude/scripts/resume_20261126/reproduce_fixed_fejer_meridian_method_binding_upper_sources.mjs","bytes":63320,"sha256":"ce4ce174b7c58d794d165c03d1fe4a8a84764058940216da0d8cface51e02b09","git_blob_sha":"12a1fed0fae6117e1b3aff84704f71e3b9e8244f","sha":"12a1fed0fae6117e1b3aff84704f71e3b9e8244f"},"current_repair_manifest_path":"topics/visible-flex-larger-amplitude/computations/fixed-fejer-meridian-method-binding-repair-complete-delivery.json","current_parameter_reproducer_path":"topics/visible-flex-larger-amplitude/scripts/resume_20261126/reproduce_fixed_fejer_meridian_method_binding_parameters.mjs","current_ready_paths":{"science":"topics/visible-flex-larger-amplitude/computations/fixed-fejer-meridian-method-bound-science-complete-ready.json","pure":"topics/visible-flex-larger-amplitude/computations/fixed-fejer-meridian-method-bound-pure-complete-ready.json"},"actual_prior_failure":{"run_id":"46062343475","attempt":1,"step_id":"complete-fixed-fejer-meridian-batched-first-20261127","source_commit":"7936ae753065d6e47c1c02848551020acf5a7b2a","launcher_sha256":"b54cd45d9fb71fe082f3f4403a595296203883aedc84fb3ac0d0d4c0625d9d12","returncode":1,"report_returned":false,"log_bytes":7167,"log_sha256":"1baa32787375046913bdb762ff4d57db990e0e8567d75cd8b03f13834d5d190d","actual_first_exception":"ValueError: A full original method or the explicit frame wrapper changed: _meridian_data","actual_readback_bytes":11675,"actual_readback_sha256":"85cbea9228c60fd15a6c6e7397bd3a3e39e6e33bc349d8305657588abdbe131b"},"current_input_scope":{"run":"46062343475/1","two_complete_necessary_inputs_already_returned":true,"reference_sha256":"212eb5fde565e76db7255f8c5605764268340b9c1636953ab0a8f8b254bf24cb","preparation_sha256":"38a5932ebe77cb8f1513c369f6f575f112bac73dc815ac1406d30ce0aa2d0be2","existing_inputs_not_rebuilt":true,"new_output_avoids_existing_failed_command":true},"result_records":{"science":{"name":"fixed-fejer-meridian-method-bound-science-complete-ready.json","path":"topics/visible-flex-larger-amplitude/computations/fixed-fejer-meridian-method-bound-science-complete-ready.json","bytes":97549,"sha256":"58e795fdced7e1cb907b7b24b3172336e6810aa1eeabc5d5bd4104ff768dc172","git_blob_sha":"3f4cf5772a9d6a2f0004efc97da5c64c28167067","sha":"3f4cf5772a9d6a2f0004efc97da5c64c28167067"},"pure":{"name":"fixed-fejer-meridian-method-bound-pure-complete-ready.json","path":"topics/visible-flex-larger-amplitude/computations/fixed-fejer-meridian-method-bound-pure-complete-ready.json","bytes":84983,"sha256":"7af2e2465d017378f261b6db7513710e0721fba864f3952133af232711e5bbb2","git_blob_sha":"6db33dd2ee372ce21d8bffa5af6f791a662784d5","sha":"6db33dd2ee372ce21d8bffa5af6f791a662784d5"}}};
+export function derive(parent, spec, mode) {
+ const copy=value=>JSON.parse(JSON.stringify(value));
+ const rewrite=value=>typeof value==='string'?value.split(spec.parent_namespace).join(spec.current_namespace)
+  :Array.isArray(value)?value.map(rewrite)
+  :value&&typeof value==='object'?Object.fromEntries(Object.entries(value).map(([key,v])=>[rewrite(key),rewrite(v)])):value;
+ const result=copy(parent), originalStep=parent.steps[0];
+ if(parent.steps.length!==1)throw Error('Use the complete original one-step parameter document');
+ result.schema='complete-fixed-fejer-meridian-method-bound-'+mode+'-parameters-v1';
+ result.pre_repair_complete_parameter_record={...spec.parent_records[mode],commit:spec.parent_commit};
+ result.pre_repair_complete_source_packages_at_fixed_commit={commit:spec.parent_commit,records:copy(parent.current_complete_source_packages)};
+ result.pre_repair_source_constructors_at_fixed_commit={commit:spec.parent_commit,records:copy(parent.source_constructors)};
+ result.pre_repair_current_runtime_source_records=copy(parent.current_complete_runtime_sources);
+ result.current_complete_runtime_sources=copy(spec.runtime_records);
+ result.current_complete_source_packages=[{path:spec.current_repair_manifest_path,scope:'Complete actual method-binding source repair; current full runtime identities are also embedded in this parameter file.'}];
+ result.source_constructors=[copy(spec.upper_source_reproducer)];
+ result.complete_current_display_correspondence=copy(spec.current_display);
+ result.complete_parameter_constructor_path=spec.current_parameter_reproducer_path;
+ result.complete_sibling_ready_paths=[spec.current_ready_paths.science,spec.current_ready_paths.pure];
+ result.actual_run_id='46062343475';
+ result.actual_run_attempt=1;
+ result.actual_prior_failed_entry=copy(spec.actual_prior_failure);
+ result.actual_existing_input_scope=copy(spec.current_input_scope);
+ result.new_complete_solver_report_or_point_or_fees_assumed=false;
+ result.actual_report_sha256=null; result.actual_point_sha256=null; result.actual_model_identity_sha256=null;
+ result.actual_geometry_or_acceptance_result=null;
+ result.method_repair_changes_original_math_or_scientific_budget=false;
+ result.optional_source_reproduction_or_fixture_or_AST_added_as_admission_step=false;
+ result.original_failed_source_versions_preserved_at_fixed_commit=spec.parent_commit;
+ result.scope=parent.scope+' The actual first entry returned a complete-method source-binding error. This version repairs only the exact current source identities and keeps every scientific formula, original acceptance loop, argument, budget and selector. It reuses the two actually completed inputs in the same public runner and writes a new complete output namespace.';
+ result.steps=[rewrite(originalStep)];
+ result.steps[0].id=spec.current_step_ids[mode];
+ result.steps[0].scope=originalStep.scope+' Actual method-source identity repair only; same complete scientific work and existing original reference, with a fresh output namespace. This step is not a reduced test or gate.';
+ if(result.steps[0].args.length!==originalStep.args.length)throw Error('An original argument disappeared');
+ for(let i=0;i<originalStep.args.length;i++)if(result.steps[0].args[i]!==rewrite(originalStep.args[i]))throw Error('Original argument word changed');
+ if(JSON.stringify(result.steps[0].summary)!==JSON.stringify(rewrite(originalStep.summary)))throw Error('Original complete formal selectors changed');
+ if(originalStep.progress_summary&&JSON.stringify(result.steps[0].progress_summary)!==JSON.stringify(rewrite(originalStep.progress_summary)))throw Error('Original complete live selectors changed');
+ return result;
+}
+const digest=text=>crypto.createHash('sha256').update(text,'utf8').digest('hex');
+function check(text,record) {
+ if(Buffer.byteLength(text,'utf8')!==record.bytes || digest(text)!==record.sha256)
+  throw Error('Whole parameter identity differs: '+record.path);
+}
+function main() {
+ const args=process.argv.slice(2), opts={};
+ for(let i=0;i<args.length;i+=2) {
+  if(!['--repo','--outdir'].includes(args[i])||!args[i+1]||opts[args[i]])throw Error('Use --repo and --outdir once');
+  opts[args[i]]=args[i+1];
+ }
+ if(!opts['--repo']||!opts['--outdir'])throw Error('Use --repo and --outdir');
+ const repo=fs.realpathSync(opts['--repo']), outdir=path.resolve(opts['--outdir']), outputs=[];
+ if(outdir===repo||outdir.startsWith(repo+path.sep))throw Error('Preserve all original input files');
+ for(const mode of ['science','pure']) {
+  const rec=SPEC.parent_records[mode];
+  const parent=execFileSync('git',['-C',repo,'show',SPEC.parent_commit+':'+rec.path],
+   {encoding:'utf8',maxBuffer:1000000,stdio:['ignore','pipe','pipe']});
+  check(parent,rec);
+  const body=JSON.stringify(derive(JSON.parse(parent),SPEC,mode),null,2)+'\n', expected=SPEC.result_records[mode];
+  check(body,expected);
+  const target=path.join(outdir,expected.path);
+  if(fs.existsSync(target)&&fs.readFileSync(target,'utf8')!==body)throw Error('Refuse different existing output '+target);
+  outputs.push({body,target,record:expected});
+ }
+ for(const item of outputs) {
+  fs.mkdirSync(path.dirname(item.target),{recursive:true});
+  if(!fs.existsSync(item.target))fs.writeFileSync(item.target,item.body,{encoding:'utf8',flag:'wx'});
+  check(fs.readFileSync(item.target,'utf8'),item.record);
+ }
+ process.stdout.write(JSON.stringify({complete:true,original157_and7_argv_preserved:true,
+  formal458_and445_preserved:true,live48_preserved:true,source_only:true,
+  scientific_admission_prerequisite:false,outputs:outputs.map(x=>x.record)},null,2)+'\n');
+}
+if(process.argv[1]&&import.meta.url===pathToFileURL(path.resolve(process.argv[1])).href)main();
