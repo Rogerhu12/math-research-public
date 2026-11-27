@@ -119,3 +119,6 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 
 18第一restoration实际接受（22:37:27.185016）：current7d0d/accepted1/完整有限geometry，Phi4954.694898882503/Gram.6374164670510036/g2.0476206814786773。reach降而distplus略升至.11871831669889943，二者仍正；其余四族负，完整原六值与原观察保[18实录](notes/2026-11-27-run18-complete-producer-binding-repair-and-continuation.md)。不从近同17数值推同点/结果，科学/最终13件未返。
+
+
+19真初六族已返：reach+.9684249942095058、distanceplus+.005863061771032241、余四负；相比18初这两项均降但仍不满足有限几何。Phi降而最大Gram误差升；全部六值/完整来源和缺值保[19续求](notes/2026-11-27-run19-complete-bhalf-launch-and-continuation.md)。首trial d761b5在22:45:05开始，统计/几何/接受未返，current仍7e06/accepted0，不能冒连续证书。

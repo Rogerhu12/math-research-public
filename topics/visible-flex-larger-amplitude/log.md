@@ -259,3 +259,8 @@
 ### 2026-11-27 22:52 UTC — 18 第一恢复方向真实接受
 
 17561514固定index22836B真示22:37:27.185016 current-geometry-returned：model9ec211/current7d0d，accepted1、trial true、complete有限geometry，Phi4954.694898882503/Gram.6374164670510036/g2.0476206814786773。current六signed g与last_completed_trial同点/同g/maximum_families reach全部保存到[18完整note](notes/2026-11-27-run18-complete-producer-binding-repair-and-continuation.md)。reach比初下降、distplus略升且仍正，原最大违反接受规则不要求各族逐一下降；完整科学/连续证书/final13未返，未公开alpha/QP不猜，也不借17近同值补结论。
+
+
+### 2026-11-27 22:53 UTC — 19 初始六族完整有限几何真返回
+
+固定17561514的index34784B真示初geometry complete且current7e06/model0abfbf：reach.9684249942095058、distplus.005863061771032241，另四负；完整六值及18原初对应值保[19续求](notes/2026-11-27-run19-complete-bhalf-launch-and-continuation.md)。这是bhalf相较bquarter的实际有限违反下降，尚非有限可行或连续reach成功；初Phi降而最大Gram误差升。首trial d761b5于22:45:05.409023开始，当前accepted0、trial统计/几何决定未知。当前math时间属trial-start，未冒初geometry精确结束时刻；全原有界观察和缺值完整保存。继续原完整科学与独立mu分支。
