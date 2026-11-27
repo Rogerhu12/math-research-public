@@ -605,3 +605,9 @@ AI-assisted GPT-6 Astra Pro：审原Gram重建、weighted N/P→HA/HB原迹、�
 - 同一G=R−C，C=GE:H→全部指数尺度、CPq≤A exp[-28(q+Q)²]，C*有临界28N²矩；Rq双侧孔壳给R*真实有限孔行、R/G可闭及闭G值域闭，与M交0。纸面完整证明直接发布。
 - 同规范h=r−C*w，Sh域 iff Sr域；任意E∞近似f_n→f∈M的RTf_n有界子列即f∈N。非零W原cut修复全序列发散，有限孔测试趋0，同w配对→||w||²；尚未支付实际上界/Gamma/N=M。
 - H/open先完整快照后压缩已付事实，全部未知闭根/范围接口保留；不新增重复审计或计算门。
+
+2026-11-27 19:56 Asia/Taipei｜Astra-ISP-8542378f-20261127
+- 57dd0cb4真run45993230279/job140486080393，3.264718727秒/66324KiB/inner0；F49精确QQ单因子一次幂/完整乘回，原C三列gcd1，不排空。只重建必要3秒前缀，不重跑173秒门。
+- 新1c2bf02e仅必要原t二次，完整多项式Bezout保两头零，180秒4GiB；新4acc7233整J19 F588分low/high、原48×35有限常数Gauss/Nakayama，180秒4GiB，low例外全保。
+- 新60c2a406只固定1009原27/28/28阶rho投影及三项完整xgcd，120秒1GiB；用于选QQ输入，未推特征零排空。三本题workflow及依赖已固定，实际结果待回执。
+- H/open完整快照后压缩已付叙述，普通ISP及全部未闭接口仍在；每个新结论单独真实pull/rebase/push。
