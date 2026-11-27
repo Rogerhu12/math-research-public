@@ -1,0 +1,176 @@
+{
+  "elapsed_seconds": 180.04381022700002,
+  "max_child_rss_kib": 727708,
+  "ordinary_isp_claim": false,
+  "rules_reads": [
+    {
+      "after": "63e35be29be8bad7d8536dfd576bdaef0c6d44bf",
+      "before": "63e35be29be8bad7d8536dfd576bdaef0c6d44bf",
+      "rules_git_blobs": {
+        "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+        "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+      },
+      "rules_unchanged": true,
+      "utc": "2026-11-27T22:42:49.465225+00:00"
+    }
+  ],
+  "run_attempt": "1",
+  "run_id": "46078265369",
+  "schema": "isp-frozen-exact-actions-execution-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "source_commit": "63e35be29be8bad7d8536dfd576bdaef0c6d44bf",
+  "source_exit_code": -14,
+  "source_git_blob": "29ce9cce1a6a1f0e0312a8b9d4c919251093eebb",
+  "source_sha256": "8c12afb96b53b467b97e43be7fbba5e7628fb2f56788d23b7d5eb5d2bd7f0a3f",
+  "stdout_bytes": 9311,
+  "stdout_sha256": "4aed11da79d10d270545da115e08a9b2de719f2256d698f0c6c39e8245ad4159",
+  "stop_reason": null,
+  "job_id": "140771011190",
+  "mathematical_status": "Original leading minors Delta_2 and Delta_3 proved on all five closed chambers; entire gate timed out before Delta_4 returned.",
+  "proved_original_minors": [
+    2,
+    3
+  ],
+  "first_minor_previously_proved_not_retested": true,
+  "unfinished_original_minors": [
+    4,
+    5,
+    6
+  ],
+  "compact_square_for_Delta2_chamber3": "1458*B^26*(6*B^2+81*B*C+323*C^2)*(C-D)^2",
+  "exact_polynomial_summaries": [
+    {
+      "event": "EXACT_ORIGINAL_POLYNOMIAL_SQUARE_RETURN",
+      "full_identity_checked": true,
+      "minor_order": 2,
+      "pair_position": 0,
+      "passed": true,
+      "residual_negative_coefficients": 0,
+      "residual_sha256": "5d691a0136cd7877798082aa3bf8089313133342619f3ec0190e524d1e56ce97",
+      "residual_terms": 40040,
+      "seconds": 17.65305742999999,
+      "squares": 0,
+      "strictly_positive_reserved_constant": "17006112000"
+    },
+    {
+      "event": "EXACT_ORIGINAL_POLYNOMIAL_SQUARE_RETURN",
+      "full_identity_checked": true,
+      "minor_order": 2,
+      "pair_position": 1,
+      "passed": true,
+      "residual_negative_coefficients": 0,
+      "residual_sha256": "17ff0557c47b7a040b012ca587e959e6b050039d51373a149c723169db105938",
+      "residual_terms": 39341,
+      "seconds": 18.11773455400001,
+      "squares": 0,
+      "strictly_positive_reserved_constant": "17006112000"
+    },
+    {
+      "event": "EXACT_ORIGINAL_POLYNOMIAL_SQUARE_RETURN",
+      "full_identity_checked": true,
+      "minor_order": 2,
+      "pair_position": 2,
+      "passed": true,
+      "residual_negative_coefficients": 0,
+      "residual_sha256": "47c302dd886609a8341bda9eade9e3cf93b1e42765291d3d8cd9f7527b1f73e0",
+      "residual_terms": 42537,
+      "seconds": 18.849394383000003,
+      "squares": 0,
+      "strictly_positive_reserved_constant": "17006112000"
+    },
+    {
+      "event": "EXACT_ORIGINAL_POLYNOMIAL_SQUARE_RETURN",
+      "full_identity_checked": true,
+      "minor_order": 2,
+      "pair_position": 3,
+      "passed": true,
+      "residual_negative_coefficients": 0,
+      "residual_sha256": "76b22db0ea48a22944aadaf2fe9b9b6e111172451cff9fbf3c8e7a36e9e2b1f8",
+      "residual_terms": 45418,
+      "seconds": 20.427492688,
+      "squares": 3,
+      "strictly_positive_reserved_constant": "17006112000"
+    },
+    {
+      "event": "EXACT_ORIGINAL_POLYNOMIAL_SQUARE_RETURN",
+      "full_identity_checked": true,
+      "minor_order": 2,
+      "pair_position": 4,
+      "passed": true,
+      "residual_negative_coefficients": 0,
+      "residual_sha256": "4d3efc181020ac4ec385dba921ee936c7b7c163c164a2749fb10e8c9898a4d93",
+      "residual_terms": 51403,
+      "seconds": 22.758168838000017,
+      "squares": 0,
+      "strictly_positive_reserved_constant": "17006112000"
+    },
+    {
+      "event": "EXACT_ORIGINAL_POLYNOMIAL_SQUARE_RETURN",
+      "full_identity_checked": true,
+      "minor_order": 3,
+      "pair_position": 0,
+      "passed": true,
+      "residual_negative_coefficients": 0,
+      "residual_sha256": "0d281a2c4b0a208e2b9fac58f59bbc86b9f93982ae1eb8e2b1f0cb58ff99f73a",
+      "residual_terms": 59755,
+      "seconds": 80.25802927499998,
+      "squares": 0,
+      "strictly_positive_reserved_constant": "102036672000"
+    },
+    {
+      "event": "EXACT_ORIGINAL_POLYNOMIAL_SQUARE_RETURN",
+      "full_identity_checked": true,
+      "minor_order": 3,
+      "pair_position": 1,
+      "passed": true,
+      "residual_negative_coefficients": 0,
+      "residual_sha256": "708d091b966973e673d837da7401dbd490e6dee5fc924123115e64913f27add9",
+      "residual_terms": 58885,
+      "seconds": 81.01765841300002,
+      "squares": 0,
+      "strictly_positive_reserved_constant": "102036672000"
+    },
+    {
+      "event": "EXACT_ORIGINAL_POLYNOMIAL_SQUARE_RETURN",
+      "full_identity_checked": true,
+      "minor_order": 3,
+      "pair_position": 2,
+      "passed": true,
+      "residual_negative_coefficients": 0,
+      "residual_sha256": "46ee1c1e3c90b72b60d656af7812860bc3f1d1d08cb5a7a5d748cbfbd7d4783b",
+      "residual_terms": 63130,
+      "seconds": 82.366869863,
+      "squares": 0,
+      "strictly_positive_reserved_constant": "102036672000"
+    },
+    {
+      "event": "EXACT_ORIGINAL_POLYNOMIAL_SQUARE_RETURN",
+      "full_identity_checked": true,
+      "minor_order": 3,
+      "pair_position": 3,
+      "passed": true,
+      "residual_negative_coefficients": 0,
+      "residual_sha256": "92031120442e5ae09dfe0d3b9a4d80c9d1e5a838dbcc8abf02c7bc84160964a2",
+      "residual_terms": 66499,
+      "seconds": 86.20676659800003,
+      "squares": 0,
+      "strictly_positive_reserved_constant": "102036672000"
+    },
+    {
+      "event": "EXACT_ORIGINAL_POLYNOMIAL_SQUARE_RETURN",
+      "full_identity_checked": true,
+      "minor_order": 3,
+      "pair_position": 4,
+      "passed": true,
+      "residual_negative_coefficients": 0,
+      "residual_sha256": "1444859b1da888d3b909adf0cd410ec854798e24140ed9fabc27aad20eb7bdf7",
+      "residual_terms": 72470,
+      "seconds": 92.746209021,
+      "squares": 0,
+      "strictly_positive_reserved_constant": "102036672000"
+    }
+  ],
+  "whole_S1_proved": false,
+  "S2_tested": false,
+  "ordinary_ISP_claim": false
+}
