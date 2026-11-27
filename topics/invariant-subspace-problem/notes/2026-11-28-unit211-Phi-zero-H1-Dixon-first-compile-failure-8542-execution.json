@@ -1,0 +1,47 @@
+{
+  "date": "2026-11-28",
+  "timezone": "Asia/Taipei",
+  "source": {
+    "path": "notes/2026-11-27-unit211-Phi-zero-whole-H1-original-biquadratic-Dixon-unit-target-input-8542.py",
+    "blob": "bb8d75842d5dded34d772744d72c52d2351c80dd",
+    "sha256": "98868120a2de2a9633855a2757e3f5e3ed6e19184465890e2a16a6308e82d105",
+    "bytes": 19737
+  },
+  "actual": {
+    "run": 46060538070,
+    "job": 140713461189,
+    "commit": "a4bf8bc7e8f1efe6235779090a9afc32e861b9ef",
+    "workflowConclusion": "failure",
+    "phase": "driver compile(source.read_text(), str(source), 'exec')",
+    "processExitCode": 1,
+    "driverElapsedSeconds": null,
+    "innerMathElapsedSeconds": null,
+    "innerPeakRSSKiB": null,
+    "mathSourceStarted": false,
+    "compilerSourceLine": 426,
+    "exception": "SyntaxError: '(' was never closed",
+    "tracebackUTC": "2026-11-27T20:00:19.8086280Z"
+  },
+  "observedLog": {
+    "utf8Bytes": 10911,
+    "sha256": "126281305e634121a0d994bccddd83a67c2a3f7962d4a24b1f8db5d6a9b5975d",
+    "retained": "small identity and decisive traceback only; full log stays at the identified original GitHub Actions job"
+  },
+  "mathematicalStatus": {
+    "newRank": null,
+    "newTargetReturn": false,
+    "newDenominatorCover": false,
+    "oldBZeroCover316Unchanged": true,
+    "wholeH1Excluded": false,
+    "ordinaryISPClaim": false
+  },
+  "nextInput": {
+    "path": "notes/2026-11-28-unit211-Phi-zero-whole-H1-original-biquadratic-Dixon-unit-target-syntax-fix-8542.py",
+    "blob": "5cabfb620fa4095b551145f9c988abf30772e197",
+    "sha256": "ef9e285512e1eddcbac0512f853f0b2ac58b57546f9a4bfa7e5621a9eaf8ddcc",
+    "bytes": 19772,
+    "change": "Add the missing generator and closing parenthesis to the existing complete coordinate multiply-back assertion.",
+    "newMathTargets": false,
+    "executedAtPreparation": false
+  }
+}
