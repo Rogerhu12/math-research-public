@@ -1,0 +1,62 @@
+{
+  "session": "Astra-ISP-8542378f-20261127",
+  "date": "2026-11-27",
+  "input": "Entire H=0 finite original six equations in independent x,y,t over QQ(i,w)",
+  "inputBuilderSourceSha256": "d5442db8ef5488c2c164165fd5a02921ab27abcacd7ef0fd06a6efc4d39f76d4",
+  "inputBuilderActualWallSeconds": 2.162,
+  "inputBuilderAllOriginalE0N0P1And76DenominatorsVerified": true,
+  "actualFailedAlgorithmSourceSha256": "78a8c764fe590bb9ee52bd9e2877620cc368b0e6012be69f5a107edea512b8e4",
+  "frozenWrapperSourceSha256": "68e4264b42901c51b5117ceaefbc82f27a266e1d96c9c839958cfe9518e1e9bb",
+  "frozenWrapperExecuted": false,
+  "actualExecution": "functions.exec V8 cell g3:610",
+  "terminalStatus": "Terminated by controller after continued non-return; no unit obtained or claimed",
+  "cooperativeLimitSeconds": 60,
+  "cooperativeLimitCaveat": "Only checked between polynomial-reduction steps; could not interrupt a pending exact arithmetic operation.",
+  "configuredCoefficientDegreeBound": 160,
+  "configuredBasisCountBound": 20,
+  "configuredPairCountBound": 50,
+  "actualFullWallSeconds": null,
+  "actualFullWallNote": "No final evaluator result was returned; exact full wall time unknown.",
+  "osExitCode": null,
+  "osExitCodeNote": "No OS process was created; V8 expression termination only.",
+  "maxRSSKiB": null,
+  "lastCompletedOriginalTraceRows": [
+    {
+      "name": "EBe",
+      "index": 0,
+      "terms": 9,
+      "totalDegree": 2,
+      "maxWeightDegree": 4,
+      "sourceElapsedSeconds": 0.06
+    },
+    {
+      "name": "EBo",
+      "index": 1,
+      "terms": 8,
+      "totalDegree": 2,
+      "maxWeightDegree": 6,
+      "sourceElapsedSeconds": 0.093
+    },
+    {
+      "name": "E1",
+      "index": 2,
+      "terms": 8,
+      "totalDegree": 2,
+      "maxWeightDegree": 8,
+      "sourceElapsedSeconds": 0.181
+    },
+    {
+      "name": "N1",
+      "index": 3,
+      "terms": 7,
+      "totalDegree": 2,
+      "maxWeightDegree": 7,
+      "sourceElapsedSeconds": 0.387
+    }
+  ],
+  "allFourReturnedOriginalSixGeneratorTracesVerified": true,
+  "fullUnitCertificate": false,
+  "univariateWeightCoverProduced": false,
+  "claimExcluded": false,
+  "noRepeat": "Do not rerun the same rational-function Groebner reduction by changing order or increasing limits. Continue a new polynomial matrix/original structural input."
+}
