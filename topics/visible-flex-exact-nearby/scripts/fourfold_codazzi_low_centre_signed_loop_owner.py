@@ -96,7 +96,7 @@ CERTIFICATE_PARAMETERS = {
     "left_carrier": 97,
     "local_factor_method": "same_point_conjugated_defect_shared_scalar_commutator_whole_boxes",
     "local_shared_scalar_Taylor_order": 16,
-    "maximum_certificate_wall_seconds": 16800,
+    "maximum_certificate_wall_seconds": 19500,
     "maximum_decoded_matrix_entries": 200000,
     "maximum_private_packed_payload_bytes": 8589934592,
     "maximum_refined_cells": 1536,

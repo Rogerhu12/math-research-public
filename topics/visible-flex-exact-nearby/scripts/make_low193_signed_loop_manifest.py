@@ -324,10 +324,7 @@ jobs:
           persist-credentials: false
           sparse-checkout-cone-mode: false
           sparse-checkout: |
-            README.md
-            topics/visible-flex-exact-nearby/README.md
-            __WORKER__
-            __MANIFEST__
+__FROZEN_SPARSE_PATHS__
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12.14'
@@ -346,6 +343,13 @@ jobs:
 """
     workflow = workflow.replace("__DOLLAR__", "$").replace("__WORKER__", WORKER_PATH).replace(
         "__MANIFEST__", MANIFEST_PATH).replace("__MANIFEST_SHA__", digest)
+    # Periodic mandatory pulls must retain every frozen current input.  Files
+    # temporarily hydrated outside a sparse definition may otherwise disappear
+    # on a later checkout/rebase, including during the final readonly check.
+    sparse_paths = sorted({"README.md", TOPIC+"/README.md", MANIFEST_PATH,
+                           *[spec["path"] for spec in manifest["files"]]})
+    workflow = workflow.replace("__FROZEN_SPARSE_PATHS__", "\n".join(
+        "            /"+path for path in sparse_paths))
     manifest_out, workflow_out = Path(args.manifest_out), Path(args.workflow_out)
     require(not manifest_out.exists() and not workflow_out.exists(),
             "metadata creates one new entry and does not overwrite an existing entry")
