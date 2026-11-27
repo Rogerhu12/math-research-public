@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [六位内部half及出生一三条边全闭](results/R271-appendix-six-site-internal-half-complete-ordered-difference-certificate.md)：保存f4/f5完整排序差全系数为正并付重复权严格性，回原同余得内部half，R275低rho=1/2；上六位一般S1/S2仍开。
+
 - [全W共同F恢复后的十二完整原三列行](results/R150-appendix-unit211-W-global-F-recovery-twelve-original-three-column-rows.md)：保qF(Fp)、个别NP与完整NV全原迹；两新参数必要式lambda9/13，所有头零仍开，继续更低原S一次组合。
 
 - [六位一特殊权完整S2与尖锐平方迹预算](results/R271-appendix-six-site-one-special-weight-full-s2-and-sharp-trace-square-budget.md)：全t>0原物理块给K<I/3、S2<I/2且尖锐；b=(6,1⁵)精确否定统一TrK²<1/4，普通六独立权S2仍开。

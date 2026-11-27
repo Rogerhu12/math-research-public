@@ -1,0 +1,139 @@
+{
+  "schema": "isp-six-internal-half-ordered-difference-positive-v1",
+  "status": "BOTH_REMAINING_COEFFICIENTS_STRICTLY_POSITIVE",
+  "original_input_sha256": "694657b7a7c0315d6c4f137122ef84c77f35bae2fe077deee4c31c85ba4cd4be",
+  "original_source_sha256": "95a24e1071332f0e85f6392058e454619083605d3f16f7edf0fac714dea6b01e",
+  "original_matrix": "J=e3^2 det(F1) e4 (C3 F1^{-1} C3-2 C4)",
+  "complete_original_characteristic_return": true,
+  "coefficients": [
+    {
+      "index": 4,
+      "elementary_records": 245,
+      "original_orbits": 388,
+      "original_positive_integer_content": "256",
+      "original_positive_factor_powers": {
+        "W": "6",
+        "U": "3",
+        "delta6": "3"
+      },
+      "reduced_elementary_sha256": "9f70fe09408ec9371e82cef2cc828db287d79a7d53eaf159b0eca7b2ee90532c",
+      "equal_variable_mass": "76800000",
+      "degree": 28,
+      "complete_coefficients": 212487,
+      "negative_coefficients": 0,
+      "min_positive_coefficient": "1",
+      "x6_power_coefficient": "76800000",
+      "all_x_equal_one_mass": "342179892895700451110400",
+      "sha256": "8c2ec8023afc7a1d846d96e3b60dcb54dfa147d14ff21be3f42c394e764f4321",
+      "digest_format": "ascending base-32 monomial key, colon, signed integer coefficient, LF",
+      "encoding": [
+        1,
+        32,
+        1024,
+        32768,
+        1048576,
+        33554432
+      ],
+      "unarchived_table_bytes": 5380598,
+      "stages": [
+        {
+          "stage": "complete_original_monomials",
+          "terms": 109032,
+          "negative": 23301
+        },
+        {
+          "stage": "z1_to_x1_plus_z2",
+          "terms": 126785,
+          "negative": 21393
+        },
+        {
+          "stage": "z2_to_x2_plus_z3",
+          "terms": 147717,
+          "negative": 18481
+        },
+        {
+          "stage": "z3_to_x3_plus_z4",
+          "terms": 169886,
+          "negative": 13228
+        },
+        {
+          "stage": "z4_to_x4_plus_z5",
+          "terms": 191410,
+          "negative": 6798
+        },
+        {
+          "stage": "z5_to_x5_plus_z6",
+          "terms": 212487,
+          "negative": 0
+        }
+      ],
+      "elapsed_ms": 5943
+    },
+    {
+      "index": 5,
+      "elementary_records": 143,
+      "original_orbits": 288,
+      "original_positive_integer_content": "1024",
+      "original_positive_factor_powers": {
+        "S": "1",
+        "W": "8",
+        "U": "4",
+        "delta6": "4"
+      },
+      "reduced_elementary_sha256": "d90e1340d0a49a9e7f01441c580bfd93195315207fb99bbccc92238301486349",
+      "equal_variable_mass": "2560000",
+      "degree": 30,
+      "complete_coefficients": 268093,
+      "negative_coefficients": 0,
+      "min_positive_coefficient": "1",
+      "x6_power_coefficient": "2560000",
+      "all_x_equal_one_mass": "159530745007774323097600",
+      "sha256": "59c3aa278e93ccc668e59b255be5ac7bb2d530c985b5b4950885fb644bba6f6b",
+      "digest_format": "ascending base-32 monomial key, colon, signed integer coefficient, LF",
+      "encoding": [
+        1,
+        32,
+        1024,
+        32768,
+        1048576,
+        33554432
+      ],
+      "unarchived_table_bytes": 6631999,
+      "stages": [
+        {
+          "stage": "complete_original_monomials",
+          "terms": 77593,
+          "negative": 31522
+        },
+        {
+          "stage": "z1_to_x1_plus_z2",
+          "terms": 104593,
+          "negative": 30386
+        },
+        {
+          "stage": "z2_to_x2_plus_z3",
+          "terms": 140442,
+          "negative": 40179
+        },
+        {
+          "stage": "z3_to_x3_plus_z4",
+          "terms": 182770,
+          "negative": 30306
+        },
+        {
+          "stage": "z4_to_x4_plus_z5",
+          "terms": 225336,
+          "negative": 44875
+        },
+        {
+          "stage": "z5_to_x5_plus_z6",
+          "terms": 268093,
+          "negative": 0
+        }
+      ],
+      "elapsed_ms": 7158
+    }
+  ],
+  "elapsed_ms": 13269,
+  "scope": "Only the two saved reduced coefficients f4 and f5 are transformed. Together with the already proved positive f1,f2,f3 and the original complete real characteristic, this proves the same six-site internal j=2 half inequality. No original matrix or inverse is recomputed."
+}

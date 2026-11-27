@@ -1,0 +1,149 @@
+{
+  "schema": "isp-Phi-main-minus-quarter-actual-return-v1",
+  "date": "2026-11-28 Asia/Taipei",
+  "run": 46055411350,
+  "job": 140696587869,
+  "execution": {
+    "elapsed_seconds": 0.09542501600000008,
+    "max_child_rss_kib": 37584,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "83b53b2001cb696c05c4b67525a770431f6045fa",
+        "before": "83b53b2001cb696c05c4b67525a770431f6045fa",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-27T19:15:50.225219+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46055411350",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "83b53b2001cb696c05c4b67525a770431f6045fa",
+    "source_exit_code": 0,
+    "source_git_blob": "26513973caef07f02ca38f7ca30c6af274884953",
+    "source_sha256": "d7514bd9d050465db0b26bf3ce2f12d044686df1261c0fc3fd60e4fd8f48e4db",
+    "stdout_bytes": 6287,
+    "stdout_sha256": "964105ab394fc4f9ca43a6108599c1300c3fc0eee627fb8c23974d4a089b3566",
+    "stop_reason": null
+  },
+  "stages": [
+    {
+      "target": "-1/4",
+      "firstHeadH7Value": "-169/512",
+      "originalUnitValues": [
+        "-1/4",
+        "-5/4",
+        "3/4",
+        "1/2",
+        "1/4",
+        "1/2"
+      ],
+      "originalInputNames": [
+        "C6",
+        "C9",
+        "C71"
+      ],
+      "fullSpecializedDegrees": [
+        6,
+        9,
+        29
+      ],
+      "allOriginalLambdaLeadingZeroTermsRetained": true,
+      "C6C9UsedOnlyAfterActualH7Nonzero": true,
+      "wholeH7StillUnpaid": true,
+      "noOriginalProjectionReplayed": true,
+      "stage": "new_minus_quarter_same_original_full_fiber",
+      "seconds": 0.017068233999999904
+    },
+    {
+      "fullQQGcd": {
+        "degree": 1,
+        "rawBytes": 12,
+        "sha256": "fbf19d30a92e3ae92adb9265389687894ed35b67275932b1e7b3006cbe7d0493"
+      },
+      "fullQQGcdAscending": [
+        "-1/2",
+        "1"
+      ],
+      "steps": [
+        {
+          "input": 0,
+          "gcd": {
+            "degree": 6,
+            "rawBytes": 135,
+            "sha256": "69fda1b062d14e9b860df57adbe547be5690c6c9fe43f6c2b36d696df37a3874"
+          },
+          "firstNonzeroWholeInput": true
+        },
+        {
+          "input": 1,
+          "gcd": {
+            "degree": 1,
+            "rawBytes": 12,
+            "sha256": "fbf19d30a92e3ae92adb9265389687894ed35b67275932b1e7b3006cbe7d0493"
+          },
+          "bezoutDegrees": [
+            7,
+            4
+          ]
+        },
+        {
+          "input": 2,
+          "gcd": {
+            "degree": 1,
+            "rawBytes": 12,
+            "sha256": "fbf19d30a92e3ae92adb9265389687894ed35b67275932b1e7b3006cbe7d0493"
+          },
+          "bezoutDegrees": [
+            0,
+            -1
+          ]
+        }
+      ],
+      "completeThreeInputBezoutReturned": true,
+      "removedOnlyOriginalLambdaUnitPower": 0,
+      "exactRemainingGcd": {
+        "degree": 1,
+        "rawBytes": 12,
+        "sha256": "fbf19d30a92e3ae92adb9265389687894ed35b67275932b1e7b3006cbe7d0493"
+      },
+      "entireMinusQuarterOriginalFiberExcluded": false,
+      "noClaimOnOtherH7Fibers": true,
+      "stage": "complete_new_minus_quarter_original_three_polynomial_return",
+      "seconds": 0.017609383999996453
+    },
+    {
+      "exactCandidateAscending": [
+        "1/4",
+        "1"
+      ],
+      "actualMultiplicity": 1,
+      "remainingDegree": 542,
+      "fullDivisionProductReturned": true,
+      "deflationAuthorizedOnlyIfWholeOriginalFiberExcluded": false,
+      "stage": "new_saved_QQ543_actual_linear_candidate_division",
+      "seconds": 0.02357554499999992
+    },
+    {
+      "strictPreviouslyProvedMainWeightBound": 8,
+      "noTrueQQCoverDeflationUsed": true,
+      "wholeMainBranchExcluded": false,
+      "stage": "accurate_new_minus_quarter_original_fiber_not_closed",
+      "seconds": 0.023619506999999373
+    }
+  ],
+  "conclusion": {
+    "sameOriginalVMinusQuarterImpliesLambdaHalf": true,
+    "vMinusQuarterEntireFiberExcluded": false,
+    "actualQQ543LinearMultiplicity": 1,
+    "deflatedCoverUsed": false,
+    "newModularGaussExecuted": false,
+    "strictMainWeightBoundRemains": 8,
+    "wholeH7Retained": true
+  }
+}
