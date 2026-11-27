@@ -1,16 +1,14 @@
 {
-  "message": "ISP: record exact NSPS determinant boundary and switch to entire-W native original rows",
-  "parentCommit": "d2eb6779a068f9cfd8b571f7d5ec96750f0e61de",
+  "message": "ISP: exclude essentially hyponormal similarities of every ordinary invariant restriction",
+  "parentCommit": "f2eb4e3aaa6d9568418dd0373acb585738984823",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-original-NSPS-cubic-six-coordinate-actual-interface-and-determinant-boundary-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-original-NSPS-cubic-six-coordinate-actual-interface-and-determinant-boundary-8542-receipt.json",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-entire-native-NSPS-y-t-fixed-six-original-determinant-8542.py",
-    ".github/workflows/invariant-subspace-8542-w-entire-native-nsps-y-t-six.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-W-native-whole-chart-input-8542.md",
+    "topics/invariant-subspace-problem/results/R12-appendix-all-invariant-restrictions-essential-hyponormal-obstruction.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-all-restrictions-essential-order-obstruction-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-all-restrictions-essential-order-obstruction-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -19,7 +17,5 @@
     ".github/workflows/invariant-subspace-8542-root-terminal-publication.yml",
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
-  "dispatchWorkflows": [
-    "invariant-subspace-8542-w-entire-native-nsps-y-t-six.yml"
-  ]
+  "dispatchWorkflows": []
 }

@@ -6,7 +6,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-merged-current-finite-geometry-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-all-restrictions-essential-order-obstruction-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -175,15 +175,15 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 [Haar解析理想像](results/R12-appendix-analytic-ideal-rosenblum-images-and-forced-source-divergence.md)只给同g循环闭包，有限Sobolev来源球距g正、逼近源范数发散；[新非对称双幂的精确局部分类](results/R12-appendix-local-asymmetric-polynomial-orbits-and-actual-haar-source-exclusion.md)进一步排除原Haar所有非常数解析单位化及其伴随的非零多项式增长来源。完整同向量恒等式和局部有限阶分布证明已付；这些限制不涵盖紧扰动或负整数边界。Rosenblum实际零点/ideal来源、真实Green范围、非循环g及未知闭根域继续。
 
-**Phi0只在旧D≠0图。** 整zn0及整个rho二次头零均闭；仅该图付Aρ，完整分类2d(1−4d²)(rho+d)=0及主H7/补图/特殊有序权交换保[总证](results/R150-appendix-unit211-Phi-zero-rho-quadratic-head-zero-complete-original-exclusion.md)。旧C87/55与C71/29主图闭，4943不设门；当前一般H1保C256全部整纤维，H0/其它Aρ非零图继续，不传h=k。
+旧D≠0 Phi的整zn0、全部rho头零（含例外有序权）均已闭，旧C87/55/C71/29不重做，4943不设门；这些结论不传h=k。原分类与证明保本次完整快照，当前P201及其它Phi余图见下节。
 
 
 
 
 
-**一般Phi紧凑879失败冻结：** 120.067秒/816684KiB/−14只返P1/NV，无R2/W4或新曲线；[准确源与失败](notes/2026-11-27-unit211-Phi-zero-general-compact-two-means-SIGALRM-8542.md)保留，改自由z原N1首一二次，不加时重跑。
+旧Phi879在120.067秒/816684KiB/−14只返P1/NV，无R2/W4或新曲线；门冻结，原源/准确失败保完整快照。
 
-[W十一原行六列返回](results/R150-appendix-unit211-W-global-D-linear-eleven-original-six-column-return.md)及其个别NP/完整NV、原D范围已付，源/全部乘子和旧失败保正文。后续使用已闭G36的共同Fp和新原均值约束；不重复旧六/八列门。
+旧W十一原行、全部六列乘子、个别NP/完整NV及原D范围保完整快照；当前续已闭G36的共同Fp与新原均值/值行，不重放旧六/八列门。
 
 ## 最新有限几何与原联合来源（8542，2026-11-28）
 
@@ -224,3 +224,5 @@ P201系数未识别，未返原λ/T/z与全部个别NP继续，不以权对数�
 [同一实际右逆的临界伴随域及精确像](results/R271-appendix-same-right-inverse-adjoint-critical-physical-source-and-exact-range.md)：以主指数κ+κ0及(36+κ)√(p+Q)log(p+Q)定义Zκ,Q，已证Zκ,Q⊂D(G*)、G*:Xκ+ρ→Xκ对每个ρ>κ0；同一G不随尺度重选。准确有D(G*)∩N⊥=RanT*及T*E∞=N⊥∩E∞=I∩E∞，这些交的H闭包恰I；W∩D(G*)=0。实际N/Y、同h与全部carry保留；并未证明真实W进入该域，也未返RTcut有界子列，继续能保持N⊥的真正则器或原来源估计。
 
 [整H265头方向](results/R150-appendix-unit211-W-first-head-entire-curve-projective-direction-and-generic-uniqueness.md)有完整4阶头=2/3次齐次结式，重数1给泛型gcd一次；a0/r1r0零/无穷/重根及有限例外全保，不能代有限λ/S。自由系数整数身份真2ms，未排W纤维。
+
+[全部普通限制的本质正序障碍](results/R12-appendix-all-invariant-restrictions-essential-hyponormal-obstruction.md)：每个非零普通M的非恒定解析f(A_M)，任意有界相似及紧扰动后自交换子仍有正、负本质谱；也保非零实际子商和慢平方Y_M−a。由R164忠实角与自含normaloid证明，排除这整类次正规加紧/迹类输入；新2611.28933v1的假设因而不能直接满足。非可逆交织/扩大空间/特殊闭域与同源费用仍须另做，不判M不存在。
