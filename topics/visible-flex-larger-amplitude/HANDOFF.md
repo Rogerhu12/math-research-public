@@ -4,7 +4,7 @@
 
 ## 规则与完整目标
 
-最近规则核查：2026-11-27 06:36:20 UTC，真实pull/rebase至origin/main `5a648184a920b489a626c330493bbd022a01a333`；双README整SHA581402/3c1c无变。恢复后各真实拉取完整commit保entry note§9。私库QUEUE接手已真推e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。
+最近规则核查：2026-11-27 06:49:17 UTC，真实pull/rebase至origin/main `84b4885fd6a73cb5a02a4dce03a40bf6ed748f04`；双README整SHA581402/3c1c无变。恢复后各真实拉取完整commit保entry note§9。私库QUEUE接手已真推e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。
 
 科学只本公开仓库Actions；root唯一ref写者，结论即普通推，NFF立即rebase循环，不强推。每次pull核双README差异并遵新规，至少每小时，记commit。raw只scratch/runner、不入Git/Release/artifact，不得改名冒输入；全小源/参数/run/SHA保。题≤200MB、文件<5MB、MD<100KB、H<10KB、open<30KB；读前stat、不整读≥100KB。已有执行/大文件/终端偏差全保4815339固定H及其notes；令牌仅瞬时CLI。
 
@@ -14,7 +14,7 @@
 
 ## 完整历史与共同模型
 
-完整前交接及全部旧链保[612d82固定H](https://github.com/Rogerhu12/math-research-public/blob/612d82679c59a11778e4218e36c23b348609a52f/topics/visible-flex-larger-amplitude/HANDOFF.md)。全输入/失败/未知/原结论保notes/results/open/log。M160/J923/N2048/P7377、所有自由量/完整场/范数/判据不删；有限筛非连续、iteration_limit非驻点。
+完整前交接及全部旧链保[d4d976固定H](https://github.com/Rogerhu12/math-research-public/blob/d4d976d67b701fdf83cec8f7ad8be2eeb9af54d8/topics/visible-flex-larger-amplitude/HANDOFF.md)。全输入/失败/未知/原结论保notes/results/open/log。M160/J923/N2048/P7377、所有自由量/完整场/范数/判据不删；有限筛非连续、iteration_limit非驻点。
 
 raw保留：[前24次](notes/2026-11-20-resume-raw-retention.md)、[25次R87](notes/2026-11-27-legacy-R87-cell011-and-final-retention.md)、[26次](notes/2026-11-27-legacy-domain-manifests-retention.md)、[27次四输出清单](notes/2026-11-27-legacy-generated-manifests-retention-27.md)、[28次十domain](notes/2026-11-27-legacy-domain-manifests-retention-28.md)、[29次八snapshot](notes/2026-11-27-legacy-current576-snapshot-retention-29.md)；完整源/真参数/父输入/原结论/固定恢复全保，不造新值。Python3.12.14/NumPy2.3.5/SciPy1.17.0/单BLAS；SO3 CPUtorch2.5.1/float64。原共同来源在[独立运行](notes/2026-11-26-independent-public-nonlinear-continuation.md)，[队列完整归档](notes/2026-11-26-complete-followup-parameter-archives.md)保全部旧参数；未返步骤不归档冒完成。
 
@@ -34,7 +34,7 @@ R700限固定M/正ρ、旧QR未跑。[全时合同](notes/2026-11-27-new-envelop
 
 R710/R713及[全批费用](notes/2026-11-27-material-envelope-complete-seed-fee-adapters-and-all-batch-schedule.md)、[节点费](notes/2026-11-27-complete-immutable-reference-node-fee-design.md)全原参数/来源保4815339固定H；仍排07原pure后且未返。全部实际批/角字/准确affine/支持/新四jet保，旧工作字不冒同；normal/全角/rawΔ/六jet费用仍欠，不作求解门。
 
-R714全C1/m32、R715 raw hΔ六jet及全E/typed保。[08实际6–9](notes/2026-11-27-run08-actual6-projection-rejection-and-definition-readback.md)拒旧chart且真返7c≠90，全部对象/失败归档。[新独立固定目标](notes/2026-11-27-independent-run08-fixed-chart-and-complete-old-carrier.md)105289/657c全source/ready已排：完整160词/923准确节点/492模型/eeb参考先冻结；旧90身份及所有地址保，不冒同旧g或继承值。[08实际10](notes/2026-11-27-run08-actual10-complete-old-carrier-and-independent-fixed-chart-input.md)真返0：整dc5命中、新目标d469/绑定7991冻结，F/J/root=0；[新4d92/95559/f382全入口](notes/2026-11-27-complete-independent-chart-material-envelope-entry.md)及全参数已排其后，原科学后缀全保，未知07 typed仍须合入。
+R714全C1/m32、R715 raw hΔ六jet及全E/typed保。[08实际6–9](notes/2026-11-27-run08-actual6-projection-rejection-and-definition-readback.md)拒旧chart，真返7c≠90；[实际10](notes/2026-11-27-run08-actual10-complete-old-carrier-and-independent-fixed-chart-input.md)真返0，整dc5恢复、固定目标d469/绑定7991，F/J/root0，全160词/923节点/492模型/eeb锁定。[4d92/95559/f382全入口](notes/2026-11-27-complete-independent-chart-material-envelope-entry.md)原全参数/科学后缀保，实际科学未返；旧值不继承，未知07 typed责任保。
 
 [06首启失败](notes/2026-11-26-run06-startup-failure-unfetchable-rules-commit.md)45903578703仅规则ref fetch失败，未启科学；原后继责任全保。
 
@@ -46,7 +46,7 @@ R714全C1/m32、R715 raw hΔ六jet及全E/typed保。[08实际6–9](notes/2026-
 
 [N4096解析7c完整入口](notes/2026-11-27-independent-chart-analytic-J3-N4096-complete-entry.md)修后17体/9构造体/三全ready，root真再生及64源核；固定N2048参考、全旧角字/地址/typed及13成员父迁移保。原90包保，均无真返；非径向/M精化，09须按真目标另适配。
 
-[09输入](notes/2026-11-27-run09-actual-public-reference-and-old-carrier-input.md)1–3真返0，整dc5/160词90同、目标7c766/绑定21a44，双5e373保。[完整入口](notes/2026-11-27-run09-actual-public-reference-analytic-frame-complete-entry.md)全七体/58源/145+7参数保；[实际4/5](notes/2026-11-27-run09-actual4-5-before-first-field-report.md)exit1无场report。[6/7真诊断](notes/2026-11-27-run09-actual6-7-adjacent-policy-key-failure.md)返0：geometry旧all_original键与真实all_selected不符；pure缺报告。2–7全对象/返回已归档，完整新入口修复中；07/08未知保。
+[09输入](notes/2026-11-27-run09-actual-public-reference-and-old-carrier-input.md)1–3真返0，整dc5/160词90同、目标7c766/绑定21a44，双5e373保；原4/5失败无场报告。[6/7原诊断](notes/2026-11-27-run09-actual6-7-adjacent-policy-key-failure.md)真返0，查实旧政策键。[完整修复](notes/2026-11-27-run09-selected-stage-guard-repair-and-complete-retry.md)e89d/ff54/c188/aee2四独立体、7857再生器及2ea1全ready已排；root真重建/58源、145+7参数/333+317selectors全等，原数学suffix不变。2–7全对象/返回归档，原输入不重跑；07/08未知保，未冒新场。
 
 <!-- visible-larger-parallel-08:start -->
 并行公开Actions08：[run 45929088658/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45929088658)；[实际记录](notes/2026-11-27-public-actions-45929088658-1.md)。阶段`followup:complete-independent-fixed-chart7c-full-envelope-20261127-08`/running；已返10，exit=未返。
