@@ -1,0 +1,444 @@
+{
+  "allFactorsProved": false,
+  "computedFullQQResultant": false,
+  "elapsedSeconds": 34.274696,
+  "failedPredecessorSourceSha256": "2894780f0fd31f38185be49ead26db23bdc00d0d488002bd2799ffe683fe78da",
+  "matrixSize": 73,
+  "memoryLifecycle": "clear original Gram namespace; collect each factor; isolate J10 child",
+  "ordinaryISPClaim": false,
+  "originalGramNamespaceReleased": true,
+  "originalLambdaDegrees": [
+    39,
+    34
+  ],
+  "originalPolynomialHashes": [
+    "6057a487720992327d9e065ec6b7ef5e54896637f1c756a28391fd734737b50c",
+    "519fe7c69a0cf7c05283aa66833331b64e7654bb6ec0daec606c49b2c2a02f68"
+  ],
+  "originalReconstructionPrefixSha256": "c4d33eb2fe8f741ca9751cbd51bd2aa7e3e3e40784d6f3255c23518d8b6faa58",
+  "originalReconstructionSourceSha256": "d69a91dec3849562e2b7b465878e9e763d2ca680e32303691154d059e95a1199",
+  "peakRssKiB": 176112,
+  "results": [
+    {
+      "actualQuotientInverseMultiplyBackChecks": 5,
+      "completeDualAndPrimalEqualityVerified": true,
+      "completeDualConstraintCount": 5329,
+      "divisionMultiplyBackChecks": 23146,
+      "elapsedSeconds": 1.484384,
+      "factor": "w",
+      "factorCoefficientsAscending": [
+        "0",
+        "1"
+      ],
+      "finiteCenter": [
+        "1/2",
+        "1",
+        "-4",
+        "28",
+        "-248",
+        "60048/25"
+      ],
+      "fullTransformInverseVerified": true,
+      "initialExtraction": 810,
+      "kernelTraceSha256": "b93bdf0bc2bdbb88443264ce10c17d462b957858689b75c6c09f5e0d387cca9a",
+      "method": "fixed full dual plus actual quotient-kernel row extraction",
+      "poleCenter": [
+        "0",
+        "-6",
+        "24"
+      ],
+      "provedQQExponent": 815,
+      "rounds": [
+        {
+          "actualQuotientKernelRows": 5,
+          "allKernelInverseAndDivisionIdentitiesVerified": true,
+          "chosenRows": [
+            0,
+            1,
+            8,
+            25,
+            26
+          ],
+          "extractedTotal": 815,
+          "rationalRank": 68,
+          "rationalRepresentationDimension": 73,
+          "remainingPrecision": 1
+        }
+      ],
+      "target": 815,
+      "transform": "projective",
+      "transformedCoefficientHashes": [
+        "cab23cc2ae6652390fb6124b1c732f19531c6008db3f9d70256effa7c4473764",
+        "9ab591ebb2561dd7130f0820c3d456bcb0b7534c623161723053eb954a0ec4e6"
+      ]
+    },
+    {
+      "completeDualAndPrimalEqualityVerified": true,
+      "completeDualConstraintCount": 5329,
+      "divisionMultiplyBackChecks": 4492,
+      "elapsedSeconds": 0.018555,
+      "factor": "w+1",
+      "factorCoefficientsAscending": [
+        "1",
+        "1"
+      ],
+      "finiteCenter": [],
+      "fullTransformInverseVerified": true,
+      "initialExtraction": 63,
+      "method": "fixed full dual plus actual quotient-kernel row extraction",
+      "poleCenter": [],
+      "provedQQExponent": 63,
+      "rounds": [],
+      "target": 63,
+      "transform": "identity",
+      "transformedCoefficientHashes": [
+        "f7a1960f9793139875ccca59b943d284f4bab4a80d02016c715d7407568a39a2",
+        "4c31a01c97899fbd761cb5b75b2191bd8789144d9e8b499c4b87e2c43888e527"
+      ]
+    },
+    {
+      "actualQuotientInverseMultiplyBackChecks": 35,
+      "completeDualAndPrimalEqualityVerified": true,
+      "completeDualConstraintCount": 5329,
+      "divisionMultiplyBackChecks": 212222,
+      "elapsedSeconds": 5.573846,
+      "factor": "J2a",
+      "factorCoefficientsAscending": [
+        "3/2",
+        "2",
+        "1"
+      ],
+      "finiteCenter": [
+        "1",
+        "2/3"
+      ],
+      "fullTransformInverseVerified": true,
+      "initialExtraction": 72,
+      "kernelTraceSha256": "63ee5da40e1879b939df3d7f55031c819ff214f069db60855191be675f3051a8",
+      "method": "fixed full dual plus actual quotient-kernel row extraction",
+      "poleCenter": [],
+      "provedQQExponent": 107,
+      "rounds": [
+        {
+          "actualQuotientKernelRows": 5,
+          "allKernelInverseAndDivisionIdentitiesVerified": true,
+          "chosenRows": [
+            0,
+            27,
+            28,
+            29,
+            30
+          ],
+          "extractedTotal": 77,
+          "rationalRank": 136,
+          "rationalRepresentationDimension": 146,
+          "remainingPrecision": 31
+        },
+        {
+          "actualQuotientKernelRows": 5,
+          "allKernelInverseAndDivisionIdentitiesVerified": true,
+          "chosenRows": [
+            0,
+            1,
+            28,
+            29,
+            30
+          ],
+          "extractedTotal": 82,
+          "rationalRank": 136,
+          "rationalRepresentationDimension": 146,
+          "remainingPrecision": 26
+        },
+        {
+          "actualQuotientKernelRows": 5,
+          "allKernelInverseAndDivisionIdentitiesVerified": true,
+          "chosenRows": [
+            0,
+            1,
+            2,
+            29,
+            30
+          ],
+          "extractedTotal": 87,
+          "rationalRank": 136,
+          "rationalRepresentationDimension": 146,
+          "remainingPrecision": 21
+        },
+        {
+          "actualQuotientKernelRows": 4,
+          "allKernelInverseAndDivisionIdentitiesVerified": true,
+          "chosenRows": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "extractedTotal": 91,
+          "rationalRank": 138,
+          "rationalRepresentationDimension": 146,
+          "remainingPrecision": 17
+        },
+        {
+          "actualQuotientKernelRows": 4,
+          "allKernelInverseAndDivisionIdentitiesVerified": true,
+          "chosenRows": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "extractedTotal": 95,
+          "rationalRank": 138,
+          "rationalRepresentationDimension": 146,
+          "remainingPrecision": 13
+        },
+        {
+          "actualQuotientKernelRows": 3,
+          "allKernelInverseAndDivisionIdentitiesVerified": true,
+          "chosenRows": [
+            0,
+            1,
+            2
+          ],
+          "extractedTotal": 98,
+          "rationalRank": 140,
+          "rationalRepresentationDimension": 146,
+          "remainingPrecision": 10
+        },
+        {
+          "actualQuotientKernelRows": 3,
+          "allKernelInverseAndDivisionIdentitiesVerified": true,
+          "chosenRows": [
+            0,
+            1,
+            2
+          ],
+          "extractedTotal": 101,
+          "rationalRank": 140,
+          "rationalRepresentationDimension": 146,
+          "remainingPrecision": 7
+        },
+        {
+          "actualQuotientKernelRows": 2,
+          "allKernelInverseAndDivisionIdentitiesVerified": true,
+          "chosenRows": [
+            0,
+            1
+          ],
+          "extractedTotal": 103,
+          "rationalRank": 142,
+          "rationalRepresentationDimension": 146,
+          "remainingPrecision": 5
+        },
+        {
+          "actualQuotientKernelRows": 2,
+          "allKernelInverseAndDivisionIdentitiesVerified": true,
+          "chosenRows": [
+            0,
+            1
+          ],
+          "extractedTotal": 105,
+          "rationalRank": 142,
+          "rationalRepresentationDimension": 146,
+          "remainingPrecision": 3
+        },
+        {
+          "actualQuotientKernelRows": 1,
+          "allKernelInverseAndDivisionIdentitiesVerified": true,
+          "chosenRows": [
+            0
+          ],
+          "extractedTotal": 106,
+          "rationalRank": 144,
+          "rationalRepresentationDimension": 146,
+          "remainingPrecision": 2
+        },
+        {
+          "actualQuotientKernelRows": 1,
+          "allKernelInverseAndDivisionIdentitiesVerified": true,
+          "chosenRows": [
+            0
+          ],
+          "extractedTotal": 107,
+          "rationalRank": 144,
+          "rationalRepresentationDimension": 146,
+          "remainingPrecision": 1
+        }
+      ],
+      "target": 107,
+      "transform": "translation",
+      "transformedCoefficientHashes": [
+        "467306507dce729099c713c8a0e45262a80f31581c1376ca94968dfecdcf2675",
+        "521fe03217154b8578a79dee36448465af4a0627b4a63b4326093ef6ce4cdef2"
+      ]
+    },
+    {
+      "actualQuotientInverseMultiplyBackChecks": 8,
+      "completeDualAndPrimalEqualityVerified": true,
+      "completeDualConstraintCount": 5329,
+      "divisionMultiplyBackChecks": 61522,
+      "elapsedSeconds": 0.51387,
+      "factor": "J2b",
+      "factorCoefficientsAscending": [
+        "1/2",
+        "1",
+        "1"
+      ],
+      "finiteCenter": [
+        "1",
+        "1"
+      ],
+      "fullTransformInverseVerified": true,
+      "initialExtraction": 28,
+      "kernelTraceSha256": "d95edd85c35fc45e743519e478872f1453501657462bddb78c8052c15e2744d6",
+      "method": "fixed full dual plus actual quotient-kernel row extraction",
+      "poleCenter": [],
+      "provedQQExponent": 36,
+      "rounds": [
+        {
+          "actualQuotientKernelRows": 4,
+          "allKernelInverseAndDivisionIdentitiesVerified": true,
+          "chosenRows": [
+            0,
+            31,
+            32,
+            33
+          ],
+          "extractedTotal": 32,
+          "rationalRank": 138,
+          "rationalRepresentationDimension": 146,
+          "remainingPrecision": 5
+        },
+        {
+          "actualQuotientKernelRows": 3,
+          "allKernelInverseAndDivisionIdentitiesVerified": true,
+          "chosenRows": [
+            0,
+            1,
+            32
+          ],
+          "extractedTotal": 35,
+          "rationalRank": 140,
+          "rationalRepresentationDimension": 146,
+          "remainingPrecision": 2
+        },
+        {
+          "actualQuotientKernelRows": 1,
+          "allKernelInverseAndDivisionIdentitiesVerified": true,
+          "chosenRows": [
+            0
+          ],
+          "extractedTotal": 36,
+          "rationalRank": 144,
+          "rationalRepresentationDimension": 146,
+          "remainingPrecision": 1
+        }
+      ],
+      "target": 36,
+      "transform": "translation",
+      "transformedCoefficientHashes": [
+        "4d34c956d91861153386bb4e9d47a55ea6ce325ee5c673a12a15e6e304f56b88",
+        "614a9b22e92a92580282c51deb7631408bd68b612c6e2c5d9eb1e3fb519fb195"
+      ]
+    },
+    {
+      "actualQuotientInverseMultiplyBackChecks": 1,
+      "completeDualAndPrimalEqualityVerified": true,
+      "completeDualConstraintCount": 5329,
+      "divisionMultiplyBackChecks": 29537,
+      "elapsedSeconds": 0.59933,
+      "factor": "J3",
+      "factorCoefficientsAscending": [
+        "-3/4",
+        "-1/4",
+        "1",
+        "1"
+      ],
+      "finiteCenter": [
+        "3/4",
+        "1/3",
+        "-1/3"
+      ],
+      "fullTransformInverseVerified": true,
+      "initialExtraction": 4,
+      "kernelTraceSha256": "9ed673cc98f5b23e2943d5c75b4092c59646bb11024606c13a5c82dffda406fa",
+      "method": "fixed full dual plus actual quotient-kernel row extraction",
+      "poleCenter": [],
+      "provedQQExponent": 5,
+      "rounds": [
+        {
+          "actualQuotientKernelRows": 1,
+          "allKernelInverseAndDivisionIdentitiesVerified": true,
+          "chosenRows": [
+            0
+          ],
+          "extractedTotal": 5,
+          "rationalRank": 216,
+          "rationalRepresentationDimension": 219,
+          "remainingPrecision": 1
+        }
+      ],
+      "target": 5,
+      "transform": "translation",
+      "transformedCoefficientHashes": [
+        "bd3063eca6c391d57978005bb561ee3c92add495cfcbc972640ffe5e7eb5b40c",
+        "d4778b42bc9b8fcfef4a6a85b50969f3c545e2211a766ea6ba52f8ba7b74f401"
+      ]
+    },
+    {
+      "actualQuotientInverseMultiplyBackChecks": 3,
+      "completeDualAndPrimalEqualityVerified": true,
+      "completeDualConstraintCount": 5329,
+      "divisionMultiplyBackChecks": 39634,
+      "elapsedSeconds": 3.352463,
+      "factor": "J6",
+      "factorCoefficientsAscending": [
+        "-1/28",
+        "5/56",
+        "1/14",
+        "4/7",
+        "75/28",
+        "20/7",
+        "1"
+      ],
+      "finiteCenter": [
+        "10079/11502",
+        "-2357/1917",
+        "392/81",
+        "-26759/1917",
+        "-16816/639",
+        "-68180/5751"
+      ],
+      "fullTransformInverseVerified": true,
+      "initialExtraction": 9,
+      "kernelTraceSha256": "fe450a344ffb2a6d82ad1ff9ec51d4e6f1e08a3431871635f24264756f887b95",
+      "method": "fixed full dual plus actual quotient-kernel row extraction",
+      "poleCenter": [],
+      "provedQQExponent": 12,
+      "rounds": [
+        {
+          "actualQuotientKernelRows": 3,
+          "allKernelInverseAndDivisionIdentitiesVerified": true,
+          "chosenRows": [
+            0,
+            32,
+            33
+          ],
+          "extractedTotal": 12,
+          "rationalRank": 420,
+          "rationalRepresentationDimension": 438,
+          "remainingPrecision": 1
+        }
+      ],
+      "target": 12,
+      "transform": "translation",
+      "transformedCoefficientHashes": [
+        "e6d27a5c493ac396003896dad3a64cde48fa37ef515cf819499e2ba60d4b23b0",
+        "00741fa14481b523c6d48239623c523cc25621032ff509db85e64c63ced9eaa4"
+      ]
+    }
+  ],
+  "sourceSha256": "e1e225e6a7a9c1c9d67529b2837424964fb2e5860dde5963a2997c6efe7bfb09",
+  "stage": "factor_completed",
+  "wholeL0Excluded": false
+}
