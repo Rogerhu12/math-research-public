@@ -362,6 +362,6 @@ F0两δ字实际run45991193171/job140479142693/sourcec5b9ce61389b975b1a11d1ff1ee
 11:32:20两库实际pull均再次无执行环境。本次复用既有read-only rule-pull入口请求实际公开CI pull及两README差异，基准1cf10ac；只读runner不冒本地checkout，待真实回执。
 
 
-2026-11-27 11:51 UTC / Astra-rank2-Sha-0b097461-20261127
+2026-11-27 11:49 UTC / Astra-rank2-Sha-0b097461-20261127
 R1041§20完整支付原Pell U与ψ2的两个共享边界首项、全部T/−T/O支及闭点Norm，得准确恒等式(85)和U(E+)²⁴∈Fq*。故每个p≥5、p|q+1，无权完整指定半交值都是p次幂；原27逐CM标记/eta/Cor加权和未被消掉。 根手核tame符号的3n/−n、u+u−=c、两剩余支A_T与c²/A_T、四O支c²、原yQ三切线主除子和r±六次方；二次域首项直到Norm后才降Fq。无新数学执行，H整理前逐字归档。
-11:42:03UTC公开既有只读CI run45992595370/job140483924801真实pull --rebase成功至689da8018766103f2cba0ca6620801c01d81cbbf，基准1cf10ac；两README无diff，blob仍282e86b…03c2d / 2f3b3c…21bc，实际回执11:48完整读取。私库/本地仍保持原实际pull记录，不伪称恢复。规则15完整树清点3033blob/42,313,296B、零>5MB，3个历史part json.gz待追溯清理。
+11:42:03UTC公开既有只读CI run45992595370/job140483924801真实pull --rebase成功至689da8018766103f2cba0ca6620801c01d81cbbf，基准1cf10ac；两README无diff，blob仍282e86b…03c2d / 2f3b3c…21bc，实际回执11:48完整读取。私库/本地仍保持原实际pull记录，不伪称恢复。规则15完整树清点3033blob/42,313,296B、零>5MB，3个历史part json.gz。11:50追读旧来源笔记确认这三项是原R326校验输入且未找到完整生成器，属于已登记保留项；未按名称误删，也未新增输出缓存。

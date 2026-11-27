@@ -199,4 +199,4 @@ F0两δ字实际run45991193171/job140479142693/sourcec5b9ce61389b975b1a11d1ff1ee
 
 R1041§20完整支付原Pell U与ψ2的两个共享边界首项、全部T/−T/O支及闭点Norm，得准确恒等式(85)和U(E+)²⁴∈Fq*。故每个p≥5、p|q+1，无权完整指定半交值都是p次幂；原27逐CM标记/eta/Cor加权和未被消掉。 本子问题完整关闭；继续真实标记交函数及原27系数，不重复q扫描、整体Norm或无权Pell取值。
 
-11:42:03UTC既有read-only CI实际pull --rebase成功至689da8018766103f2cba0ca6620801c01d81cbbf，run45992595370/job140483924801；相对已读1cf10ac两README无差异。CI checkout与仍不可用的本地checkout分别记账。规则15树清点为42,313,296B、无>5MB文件，发现3个历史part*.json.gz，正追原producer/文档后按规则清理，不把这些输出当新证明。
+11:42:03UTC既有read-only CI实际pull --rebase成功至689da8018766103f2cba0ca6620801c01d81cbbf，run45992595370/job140483924801；相对已读1cf10ac两README无差异。CI checkout与仍不可用的本地checkout分别记账。规则15树清点为42,313,296B、无>5MB文件，仅3个历史part*.json.gz；追读2026-11-15-recomputable-output-provenance.md确认它们是无完整生成器的旧校验输入，原记录已明确保留，不仅因文件名将其删掉。无新分块/输出缓存。
