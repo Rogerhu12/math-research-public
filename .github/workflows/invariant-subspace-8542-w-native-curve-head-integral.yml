@@ -1,0 +1,55 @@
+name: ISP 8542 W native curve versus head fixed integral model
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: isp-8542-w-native-head-integral
+  cancel-in-progress: false
+jobs:
+  exact:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    env:
+      ISP_PIN: ${{ github.sha }}
+      ISP_FILE: 2026-11-28-unit211-W-native-P164-vs-H265-fixed-integral-model-8542.py
+      OMP_NUM_THREADS: '1'
+      OPENBLAS_NUM_THREADS: '1'
+      MKL_NUM_THREADS: '1'
+      FLINT_NUM_THREADS: '1'
+    steps:
+      - name: Prepare exact Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12.14'
+      - name: Pinned FLINT arithmetic
+        run: python -m pip install --quiet python-flint==0.9.0
+      - name: New exact original input
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p "$RUNNER_TEMP/isp-equal-six-cofactors"
+          cd "$RUNNER_TEMP/isp-equal-six-cofactors"
+          git init -q
+          git remote add origin https://github.com/Rogerhu12/math-research-public.git
+          git sparse-checkout init --no-cone
+          git sparse-checkout set --no-cone '/README.md' '/topics/invariant-subspace-problem/README.md'
+          timeout 120s git fetch --no-tags --filter=blob:none --depth=1 origin "$ISP_PIN"
+          git checkout -b main FETCH_HEAD
+          ISP_SOURCE_PATH="topics/invariant-subspace-problem/notes/$ISP_FILE"
+          ISP_BLOB="$(git rev-parse "$ISP_PIN:$ISP_SOURCE_PATH")"
+          git show "$ISP_PIN:$ISP_SOURCE_PATH" > "$RUNNER_TEMP/isp-equal-six-source.py"
+          git show "$ISP_PIN:topics/invariant-subspace-problem/notes/2026-11-27-focused-exact-actions-driver-8542.py" > "$RUNNER_TEMP/isp-equal-six-driver.py"
+          git show "$ISP_PIN:topics/invariant-subspace-problem/notes/2026-11-28-load-historical-input-8542.py" > "$RUNNER_TEMP/isp-history-loader.py"
+          python "$RUNNER_TEMP/isp-history-loader.py" --repo "$PWD" --ref "$ISP_PIN" --path "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-entire-native-NSPS-y-t-fixed-six-original-determinant-8542.py" --output "$RUNNER_TEMP/2026-11-28-unit211-W-entire-native-NSPS-y-t-fixed-six-original-determinant-8542.py"
+          python "$RUNNER_TEMP/isp-history-loader.py" --repo "$PWD" --ref "$ISP_PIN" --path "topics/invariant-subspace-problem/notes/2026-11-27-unit211-generic-LS-W-C9-six-generator-original-parameter-cofactors-8542.py" --output "$RUNNER_TEMP/2026-11-27-unit211-generic-LS-W-C9-six-generator-original-parameter-cofactors-8542.py"
+          python "$RUNNER_TEMP/isp-history-loader.py" --repo "$PWD" --ref "$ISP_PIN" --path "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-first-binary-head-open-original-low-value-six-coordinate-return-8542.py" --output "$RUNNER_TEMP/2026-11-28-unit211-W-first-binary-head-open-original-low-value-six-coordinate-return-8542.py"
+          python "$RUNNER_TEMP/isp-history-loader.py" --repo "$PWD" --ref "$ISP_PIN" --path "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-six-original-binary-cubics-and-weight-head-8542.py" --output "$RUNNER_TEMP/2026-11-28-unit211-W-six-original-binary-cubics-and-weight-head-8542.py"
+          python "$RUNNER_TEMP/isp-history-loader.py" --repo "$PWD" --ref "$ISP_PIN" --path "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-canonical-three-original-F-rows-and-S-affine-8542.py" --output "$RUNNER_TEMP/2026-11-28-unit211-W-canonical-three-original-F-rows-and-S-affine-8542.py"
+          python "$RUNNER_TEMP/isp-history-loader.py" --repo "$PWD" --ref "$ISP_PIN" --path "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-G36-nonzero-full-original-three-column-return-8542.py" --output "$RUNNER_TEMP/2026-11-28-unit211-W-G36-nonzero-full-original-three-column-return-8542.py"
+          python "$RUNNER_TEMP/isp-history-loader.py" --repo "$PWD" --ref "$ISP_PIN" --path "topics/invariant-subspace-problem/notes/2026-11-27-unit211-W-coupled-original-Gram-value-four-by-three-minors-8542.py" --output "$RUNNER_TEMP/2026-11-27-unit211-W-coupled-original-Gram-value-four-by-three-minors-8542.py"
+          python "$RUNNER_TEMP/isp-history-loader.py" --repo "$PWD" --ref "$ISP_PIN" --path "topics/invariant-subspace-problem/notes/2026-11-27-unit211-W-global-monic-T3-pure-value-three-column-cofactors-8542.py" --output "$RUNNER_TEMP/2026-11-27-unit211-W-global-monic-T3-pure-value-three-column-cofactors-8542.py"
+          python "$RUNNER_TEMP/isp-history-loader.py" --repo "$PWD" --ref "$ISP_PIN" --path "topics/invariant-subspace-problem/notes/2026-11-27-unit211-W-global-monic-T3-F2-full-original-six-column-return-8542.py" --output "$RUNNER_TEMP/2026-11-27-unit211-W-global-monic-T3-F2-full-original-six-column-return-8542.py"
+          python "$RUNNER_TEMP/isp-history-loader.py" --repo "$PWD" --ref "$ISP_PIN" --path "topics/invariant-subspace-problem/notes/2026-11-27-unit211-W-global-monic-T4-F2-original-eight-column-return-8542.py" --output "$RUNNER_TEMP/2026-11-27-unit211-W-global-monic-T4-F2-original-eight-column-return-8542.py"
+          python "$RUNNER_TEMP/isp-history-loader.py" --repo "$PWD" --ref "$ISP_PIN" --path "topics/invariant-subspace-problem/notes/2026-11-27-unit211-generic-LS-W-four-S-free-original-cubics-and-binary-head-8542.py" --output "$RUNNER_TEMP/2026-11-27-unit211-generic-LS-W-four-S-free-original-cubics-and-binary-head-8542.py"
+          python -u "$RUNNER_TEMP/isp-equal-six-driver.py" --checkout "$PWD" --source "$RUNNER_TEMP/isp-equal-six-source.py" --expected-blob "$ISP_BLOB" --seconds 195

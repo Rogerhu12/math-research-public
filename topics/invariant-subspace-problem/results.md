@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [Phi H1 不倒头的全多项式原值与固定范数接口](results/R150-appendix-unit211-Phi-zero-H1-polynomial-v-source-and-fixed-original-norm-interface.md)：真实15.058230470秒/0，四QQ原cofactor λ度6/6/9/10及三个固定范数的严格QQ上界/真实模度；最高头全消失，804界未缩，全部h0保留。
+
 - [全W原NS/PS固定六行的完整必要权曲线](results/R150-appendix-unit211-W-entire-original-native-NSPS-necessary-weight-curve.md)：全已付native六规则/18乘法，真实95.890604382秒/0返全部55商积及非零P(e,k)，双度97/123、总164，包含整H265零；全部剩余原纤维继续。
 
 - [全部普通不变限制的本质正序障碍](results/R12-appendix-all-invariant-restrictions-essential-hyponormal-obstruction.md)：任意有界相似、紧扰动与非恒定解析函数后，实际自交换子仍有两个符号的本质谱；含非零实际子商与慢平方限制，完整排除次正规+紧输入，普通ISP仍开。
