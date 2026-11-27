@@ -45,7 +45,7 @@ R1039原g二盖严格Prym≅EL:y²=x³−12x+20、r*r_*=1−ι、原边界D∞�
 
 R1041原s0=0四字母盖精确H²=Q6(v)、全incidence及F²=−q；Pell U全Norm=cU²[Y/(Y+1)]^((q+1)/3)，完整ODE/原迹微分齐。原FQ全极及εprod=−δW/t严格分Z+=ΓE+、Z−=ιΓE−，指定AQ∈EL(Fq)。§§10–12真边界r_*ΓΔ∞=[R0]−[−R0]、R0=(4,6)、2R0=P=(1,3)；全部Norm UΓ→M、M(O)=1，再真实平移给m_P,q，div=(q+1)(P−O)、m(R0)=1。反Norm=U⁴/(cU²f^d)，primitive第三类准确送dlogM非零；仍须原最高λ/27完整消费，不能把低维类直接当H³(2)。
 
-q11全Prym Norm run45980566265/job140443090086/source4b315bb783233d98ce623d99fa3dffdca9228683已实付：R零极20、准确−3 twist NQ零极24、两有效类O，完整闭点/厚支/双∞在[全除子](notes/2026-11-27-original-q11-g-cover-prym-divisors.md)§7。新[指定半类](notes/2026-11-27-original-q11-specified-half-norm.md) run45985515813/job140459993008/source239d3f42206392460b4c345ec85fbb547104c739完整成功：13闭点/全Fitting、两半各12、二重零(9,8)为(1,1)，AQ=−G，G=(−2,−6)真阶16；[12]AQ=P≠0，AQ本身不等于原被12杀的shadow。三层实时回执/hash/必要坐标均在笔记§§8–9；首native-coerce失败已仅修兼容，不重算旧数学。一般halving图和最高权继续。
+q11全Prym Norm run45980566265/job140443090086/source4b315bb783233d98ce623d99fa3dffdca9228683已实付：R零极20、准确−3 twist NQ零极24、两有效类O，完整闭点/厚支/双∞在[全除子](notes/2026-11-27-original-q11-g-cover-prym-divisors.md)§7。新[指定半类](notes/2026-11-27-original-q11-specified-half-norm.md) run45985515813/job140459993008/source239d3f42206392460b4c345ec85fbb547104c739完整成功：13闭点/全Fitting、两半各12、二重零(9,8)为(1,1)，AQ=−G，G=(−2,−6)真阶16；[12]AQ=P≠0，AQ本身不等于原被12杀的shadow。三层实时回执/hash/必要坐标均在笔记§§8–9；首native-coerce失败已仅修兼容，不重算旧数学。R1041§§14–16从原νi/δ和原W号逐式构造全部[2]h=Q，E+=(h·−P3)。真实ψ2(h+P3)在全部好厚交、I9/I18/I3/I6与canonical fiber的主除子(66)全付，推原rΓ得[4]AQ=−P；故AQ+G∈EL(Fq)[4]、倒2后AQ=−G。一般低维半类已固定，不能提供原Q未知最高权变化。 后继保原交函数/有标记点，继续最高λ/27，不只取已固定的Picard类。
 
 ## 四、其它未闭门与分工
 
