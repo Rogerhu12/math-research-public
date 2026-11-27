@@ -57,5 +57,6 @@ R709均值J不迁normal Cu；R711/R712中央Fss不冒K/reach；R714全C1/m32及R
 <!-- visible-larger-parallel-09:end -->
 
 <!-- visible-larger-parallel-10:start -->
-公开Actions10完整请求已刊；真实run编号/启动/输入尚未观察，不填写未来身份。原09继续，等待10实际返回后接完整新源。
+并行公开Actions10：[run 45972294636/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45972294636)；[实际记录](notes/2026-11-27-public-actions-45972294636-1.md)。阶段`recipe_start`/running；已返0，exit=未返。
+并行10规则核查：2026-11-27 09:17:00 UTC，真实pull至`7d96daac44afee4c6adac7cddaecd6705fc60cb5`，双README无变化。
 <!-- visible-larger-parallel-10:end -->
