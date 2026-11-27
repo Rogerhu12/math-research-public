@@ -1,0 +1,524 @@
+{
+  "schema": "isp-W-four-cubic-actual-head-supplement-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "proof": {
+    "blob": "b71e09f38cd6406c1abb086ce09ecee98a4658ca",
+    "sha256": "bd8144b54d5ad74bed28c96bb41e6ebcff794619407bac9f2fdd8973e9f37e22",
+    "bytes": 3728
+  },
+  "source": {
+    "blob": "d015fb9c74d80e01ee648edd819b11838659bc12",
+    "sha256": "00c08b48852bc8c38041a617d616922c94b6ab0e6f66c393a7e679949b44568e",
+    "bytes": 18167,
+    "limits": {
+      "seconds": 180,
+      "addressSpaceGiB": 4
+    },
+    "executedAtProofCreation": true
+  },
+  "actual": {
+    "run": 45972117428,
+    "job": 140414825063,
+    "driver": {
+      "elapsed_seconds": 7.548856299000008,
+      "max_child_rss_kib": 90736,
+      "ordinary_isp_claim": false,
+      "rules_reads": [
+        {
+          "after": "8fa535aed5ae04e39b05a705868f761df7935d83",
+          "before": "8fa535aed5ae04e39b05a705868f761df7935d83",
+          "rules_git_blobs": {
+            "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+            "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+          },
+          "rules_unchanged": true,
+          "utc": "2026-11-27T09:15:11.690463+00:00"
+        }
+      ],
+      "run_attempt": "1",
+      "run_id": "45972117428",
+      "schema": "isp-frozen-exact-actions-execution-v1",
+      "session": "Astra-ISP-8542378f-20261127",
+      "source_commit": "8fa535aed5ae04e39b05a705868f761df7935d83",
+      "source_exit_code": 0,
+      "source_git_blob": "d015fb9c74d80e01ee648edd819b11838659bc12",
+      "source_sha256": "00c08b48852bc8c38041a617d616922c94b6ab0e6f66c393a7e679949b44568e",
+      "stdout_bytes": 14443,
+      "stdout_sha256": "497e90c741965ba3f07a183ccc400a335c4d257bc72fb17e8ebc772c352f3874",
+      "stop_reason": null
+    },
+    "mathRecords": [
+      {
+        "stage": "new_W_original_cubic_pair_overlap",
+        "summary": {
+          "numeratorDegrees": [
+            14,
+            16,
+            3,
+            3,
+            0
+          ],
+          "denominatorDegrees": [
+            0,
+            0
+          ],
+          "numeratorTerms": 1383,
+          "support": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              2,
+              0
+            ],
+            [
+              0,
+              3,
+              0
+            ],
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              1,
+              1,
+              0
+            ],
+            [
+              1,
+              2,
+              0
+            ],
+            [
+              2,
+              0,
+              0
+            ],
+            [
+              2,
+              1,
+              0
+            ],
+            [
+              3,
+              0,
+              0
+            ]
+          ],
+          "totalCoordinateDegree": 3,
+          "sha256": "fe28d4e5d85d5068c16d2006e0c430f4df5b20faa4acf0a6289cdda5ae183544"
+        },
+        "paidRemoved": [
+          [
+            "e",
+            1
+          ],
+          [
+            "k",
+            3
+          ],
+          [
+            "u",
+            3
+          ],
+          [
+            "W_paid_leading",
+            2
+          ],
+          [
+            "Phi",
+            1
+          ],
+          [
+            "P02",
+            2
+          ],
+          [
+            "bc",
+            2
+          ],
+          [
+            "previous_general_ell_zero",
+            1
+          ]
+        ],
+        "rawIdentity": "lambda*GF-F*Glambda=F*Blambda-lambda*BF",
+        "allOriginalTraceAndPaidScaleProductsVerified": true,
+        "deltaNeverInverted": true,
+        "claimExcluded": false,
+        "seconds": 5.082799015000006
+      },
+      {
+        "stage": "new_W_original_quartic_to_cubic_identity",
+        "summary": {
+          "numeratorDegrees": [
+            24,
+            29,
+            3,
+            3,
+            0
+          ],
+          "denominatorDegrees": [
+            0,
+            0
+          ],
+          "numeratorTerms": 4598,
+          "support": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              2,
+              0
+            ],
+            [
+              0,
+              3,
+              0
+            ],
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              1,
+              1,
+              0
+            ],
+            [
+              1,
+              2,
+              0
+            ],
+            [
+              2,
+              0,
+              0
+            ],
+            [
+              2,
+              1,
+              0
+            ],
+            [
+              3,
+              0,
+              0
+            ]
+          ],
+          "totalCoordinateDegree": 3,
+          "sha256": "4d0bcfd7fc6603b708d02113cadf97a5f796389d8d38f1c61e1334c144778ac2"
+        },
+        "paidRemoved": [
+          [
+            "e",
+            2
+          ],
+          [
+            "k",
+            6
+          ],
+          [
+            "u",
+            6
+          ],
+          [
+            "W_paid_leading",
+            5
+          ],
+          [
+            "Phi",
+            2
+          ],
+          [
+            "P02",
+            4
+          ],
+          [
+            "bc",
+            4
+          ],
+          [
+            "previous_general_ell_zero",
+            3
+          ]
+        ],
+        "rawIdentity": "Gred=G4-(a*F+b*lambda)*GF-c*lambda*Glambda",
+        "reverseIdentityActuallyVerified": true,
+        "allOriginalTraceAndPaidScaleProductsVerified": true,
+        "noQuadraticCoefficientInverted": true,
+        "deltaNeverInverted": true,
+        "claimExcluded": false,
+        "seconds": 6.931991515000007
+      },
+      {
+        "stage": "new_W_four_original_binary_cubic_head",
+        "columnMonomials": [
+          [
+            3,
+            0,
+            0
+          ],
+          [
+            2,
+            1,
+            0
+          ],
+          [
+            1,
+            2,
+            0
+          ],
+          [
+            0,
+            3,
+            0
+          ]
+        ],
+        "zero": false,
+        "numeratorDegrees": [
+          53,
+          72
+        ],
+        "denominatorDegrees": [
+          0,
+          0
+        ],
+        "paidRemoved": [
+          [
+            "k",
+            2
+          ],
+          [
+            "u",
+            2
+          ],
+          [
+            "W_paid_leading",
+            11
+          ],
+          [
+            "P02",
+            4
+          ],
+          [
+            "bc",
+            3
+          ],
+          [
+            "previous_general_ell_zero",
+            2
+          ],
+          [
+            "previous_general_equal_weights",
+            1
+          ]
+        ],
+        "unpaidFactorization": {
+          "content": "-2097152",
+          "factors": [
+            {
+              "degrees": [
+                15,
+                22
+              ],
+              "totalDegree": 28,
+              "terms": 239,
+              "multiplicity": 1,
+              "sha256": "2e704c7b1bcc53e94bd378b8302351bea6ce67ac6245b4c4a603f7e023cb08b5"
+            },
+            {
+              "degrees": [
+                5,
+                6
+              ],
+              "totalDegree": 9,
+              "terms": 27,
+              "multiplicity": 2,
+              "sha256": "171698e50a84a1bb7bf4c4f6f7d6514f48d10a39b86cc4f85c3c7f6c7b2b2b09",
+              "coefficients_e_k": [
+                [
+                  5,
+                  4,
+                  "16"
+                ],
+                [
+                  4,
+                  5,
+                  "-4"
+                ],
+                [
+                  4,
+                  4,
+                  "32"
+                ],
+                [
+                  3,
+                  6,
+                  "2"
+                ],
+                [
+                  3,
+                  5,
+                  "-12"
+                ],
+                [
+                  3,
+                  4,
+                  "-96"
+                ],
+                [
+                  3,
+                  3,
+                  "-384"
+                ],
+                [
+                  3,
+                  2,
+                  "-384"
+                ],
+                [
+                  2,
+                  6,
+                  "3"
+                ],
+                [
+                  2,
+                  5,
+                  "8"
+                ],
+                [
+                  2,
+                  4,
+                  "60"
+                ],
+                [
+                  2,
+                  3,
+                  "384"
+                ],
+                [
+                  2,
+                  2,
+                  "1088"
+                ],
+                [
+                  2,
+                  1,
+                  "1024"
+                ],
+                [
+                  1,
+                  5,
+                  "-10"
+                ],
+                [
+                  1,
+                  4,
+                  "-28"
+                ],
+                [
+                  1,
+                  3,
+                  "48"
+                ],
+                [
+                  1,
+                  2,
+                  "64"
+                ],
+                [
+                  1,
+                  1,
+                  "-512"
+                ],
+                [
+                  1,
+                  0,
+                  "-768"
+                ],
+                [
+                  0,
+                  6,
+                  "-1"
+                ],
+                [
+                  0,
+                  5,
+                  "-18"
+                ],
+                [
+                  0,
+                  4,
+                  "-120"
+                ],
+                [
+                  0,
+                  3,
+                  "-440"
+                ],
+                [
+                  0,
+                  2,
+                  "-1008"
+                ],
+                [
+                  0,
+                  1,
+                  "-1344"
+                ],
+                [
+                  0,
+                  0,
+                  "-768"
+                ]
+              ]
+            }
+          ],
+          "allFactorProductsMultipliedBack": true
+        },
+        "unitOnCurrentPreviouslyPaidW": false,
+        "allFourFullOriginalTracesVerified": true,
+        "newHeadZeroFiberRetained": true,
+        "headInverted": false,
+        "claimExcluded": false,
+        "seconds": 7.451888963000002
+      },
+      {
+        "stage": "new_W_four_S_free_original_cubics_complete",
+        "sourceSHA256": "00c08b48852bc8c38041a617d616922c94b6ab0e6f66c393a7e679949b44568e",
+        "sameOriginalIdealAsTwoCubicsAndQuartic": true,
+        "allForwardAndReversePolynomialIdentitiesActual": true,
+        "newGeometricOrParameterDivision": false,
+        "onlyPreviouslyPaidRowNormalization": true,
+        "D27WholeZeroFiberRetained": true,
+        "NSPSStillOriginalRequired": true,
+        "NSPSEliminationNotYetBuilt": true,
+        "fullOriginalSystemExclusionClaim": false,
+        "claimExcluded": false,
+        "peakRssKiB": 90736,
+        "seconds": 7.45208966700001
+      }
+    ]
+  },
+  "remainingWholeZeroFibers": [
+    "D27",
+    "B239"
+  ],
+  "noFullOriginalSystemExclusionClaim": true,
+  "historicalUniversalProofUnchanged": true
+}

@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [W四原三次实际头与两未付零面](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-actual-four-cubic-head-two-zero-loci.md)：原正反身份和头因子完整乘回，除已付因子恰D27²B239；239项新因子及两个整零面完整保留。
+
 - [真实Green尾图三正项与物理矩双坐标传递](results/R271-appendix-actual-green-tail-positive-metric-and-two-coordinate-physical-moments.md)：原N/Y完整Cayley与alpha平方费保全，精确稳定分量读数及全域互逆U/V；临界矩排除扩到实际输出，尚不消去整个缺陷。
 
 - [一般J=Q原642次QQ投影与348个复权点覆盖](results/R150-appendix-unit211-general-J-equals-Q-exact-642-projection-and-348-weight-cover.md)：两真实参数cofactor、完整36阶固定结式及六因子乘回；Vandermonde秩亏保全部降首项纤维，两个特殊整线继续。
