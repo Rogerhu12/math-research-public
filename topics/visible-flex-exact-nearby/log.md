@@ -438,3 +438,6 @@ NS五件共129172B，owner71056B SHA18db439d5895e4232882940a57b7bd9457982383e1ac
 
 
 2026-11-27 03:08:50 UTC / visible-exact-astra-fb31ed6-20261127：SLIP完整选解差发布：GF真forcing沿参数段、SREG真正exact-limit priori和S27全余项给common E20差<2^-27222782 rγ^-1||Δγ||H1795；三径jet/mean/seedΓ2/首补偿/全principal反馈保，低吸收<2^-7056957，高窗64..1164完整保低源系数，physical非mean2^-27222778/原B-height H23的2^-27223222。18个新安全整数比较在functions JS首次全过（均<2^53），无旧science；Python reader原式入repo，GF pin已取最终恢复文本22324541319baf7ab565cdbff922e35bf56904ffa8827083c0fcbaf4e54d0f81。未授C1或新值域。GF41d0d708已推，两README无diff；继续GA/差商构造与whole有限逆。
+
+
+2026-11-27 03:13:37 UTC / visible-exact-astra-fb31ed6-20261127：GYN完整trial primitive发布：原IR192×96 exact complex trial/wholeSHA给归一实Fourier384×96，完整两sign与physical4因子；全row∞、col1和Schur为三尚未计算的新目标，whole signed阵与全部标量先save/read，再与OT已成HS整球择小。实际OT JG_HS≈9.797954，故首UDRC21将消费此operator而不重旧HS目标。GYN只缩完整GY乘子，不省全无限IR误差/means/后续fullSchur。GF41d0d708、SLIP70546dcc已推；两README无diff，connector非force继续。

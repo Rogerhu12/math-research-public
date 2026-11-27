@@ -447,3 +447,6 @@
 
 
 - [SLIP：实际selected-tail的定量参数依赖](results/R119-supplement-quantitative-dependence-of-the-selected-exact-tail.md)：18新整数比较成。完整actual mismatch经SREG priori及S27全余项吸收，common E20差<2^-27222782 rγ^-1||Δγ||H1795；物理非mean u为2^-27222778，原归一B-height H23为2^-27223222。输出64..1164保loss1734和全低源项；真seedΓ2/首补偿/firstΓ反馈/mean/三径source/trace全保。不授新H1795或A0值域、粗源onto或selected C1。
+
+
+- [GYN：完整原trial primitive的算子范数](results/R149-supplement-complete-trial-primitive-operator-norm.md)：原IR全192×96 complex dyadic Y对应384×96归一实矩阵，所有sign/physical4保；三新whole row∞/col1/Schur目标先保存读回，再与OT已成完整HS候选择小，授完整Tδα GY的D∞乘子。并入尚未运行的首次UDRC21，不重旧norm，不省无限IR误差或physical fullSchur。
