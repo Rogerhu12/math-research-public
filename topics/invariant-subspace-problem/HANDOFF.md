@@ -5,12 +5,12 @@
 ## 目标与规矩
 
 - **普通复可分无限维 Hilbert ISP 未完成。** 只以全体有界算子定理或完整反例收尾；子题/时间/输入不足均不停止，按open换输入继续。
-- **最近实际 pull / 已读规则提交：** 0db1266cc87c88af943758506a496f7cde658e36（2026-11-27 14:03:50 UTC，Actions run46012479470实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-8542/46012479470-1.json。
-- 私库QUEUE本会话进行中已实际核验；最近真实pull为2026-11-27 14:03:50 UTC/58c07f805ae38edcd81b8d11aac9f3f7b2d46fc5，根README diff无变。公私均部分克隆blob:none。
+- **最近实际 pull / 已读规则提交：** e554d937d859dc76729eda334c9d360ecfa76ff8（2026-11-27 14:10:12 UTC，Actions run46013423644实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-8542/46013423644-1.json。
+- 私库QUEUE本会话进行中已实际核验；最近真实pull为2026-11-27 14:10:12 UTC/9353154f27c32470af9cee9b9526b71e64528fd5，根README diff无变。公私均部分克隆blob:none。
 - **终端再次断开：** 约07:20 UTC起本地执行器不可用。按根规矩8/13小文本准备、公开Actions真实pull/rebase/push，非快进立即循环；旧故障与准确源保[说明](notes/2026-11-27-executor-outage-and-unpublished-small-input-checkpoint-8542.md)，未冒称本地恢复。
-- **终端断开后远端已读：** `0db1266cc87c88af943758506a496f7cde658e36`（2026-11-27 14:03:30 UTC）；只读检查不冒称实际pull。
+- **终端断开后远端已读：** `e554d937d859dc76729eda334c9d360ecfa76ff8`（2026-11-27 14:09:47 UTC）；只读检查不冒称实际pull。
 - H<10KB、MD<100KB、open尽量<30KB、题<200MB；只留源/参数/SHA/小回执，不留可重算大输出，不写根LOG。课题外workflow改动已记本题log。
-- 所有被压缩的精确结论/来源/失败身份保[最新完整H](notes/2026-11-27-handoff-before-W-global-monic-T4-F2-8542.md)、[open](open.md)、[结果索引](results.md)及归档链；省略不算关闭，已登记不重做。
+- 所有被压缩的精确结论/来源/失败身份保[最新完整H](notes/2026-11-27-handoff-before-Phi-rho-head-main-curve-8542.md)、[open](open.md)、[结果索引](results.md)及归档链；省略不算关闭，已登记不重做。
 
 ## R150 总图与当前一般支
 
@@ -33,8 +33,8 @@
 
 - **一般ell=0全闭，全局付ell。** 全三头曲线、1146次QQ覆盖及404余因子/u2/u半均原返回；完整来源保总定理与归档，不加W/Q边界、不重放。
 - **旧D≠0图T0=0全闭，可付T0，不外推h=k。** F4/J4整原返回后QQ4原48×35返1（cd05afd9，0.625秒/exit0），不重放。一般头[0,2,3,4]=2u⁴Q(Q−1)³M²ell·T0(J−Q)。
-- **h=k整个等权与整个T0零面全闭，可付u−ell、T0；Delta0 h1/k1≤6219保留。** 031d真0.222秒/41044KiB/exit0，互补Delta非0未缩放八原式，固定4阶QQ投影71/67去已付因子得28/12、真Bézout1；合402d已闭Delta0，无旧D图借用。根转J=Q原面，Phi=−4(u−1)²、Delta零只余3lambda²−3lambda+1，未宣其闭。
-- **旧D≠0原值图Phi0∩zn0整支全闭，Phi0余图可付zn。** 4e76真4.659秒/83124KiB/exit0；原216维QQ核三轮200/208/208付H8精确4重，真Q908/余1037与原P2005保度模Bézout1，九原零纤维已全闭；h1/k1原交换覆盖，不传h=k图。新8fd首接rho二次头零主支rho=−d、ell=1+2d²完整T6/八原式；新738d首接头零例外(b,c)=(1,1/2)及交换，rho自由；两新源各120秒1GiB，未宣头零面闭。
+- **h=k整个等权与整个T0零面全闭，可付u−ell、T0；Delta0 h1/k1≤6219保留。** 031d真0.222秒/41044KiB/exit0，互补Delta非0未缩放八原式，固定4阶QQ投影71/67去已付因子得28/12、真Bézout1；合402d已闭Delta0，无旧D图借用。根新f7c6首返J=Q/Delta0完整lambda二次域，原NV迫u=(58−70lambda)/19，保自由f/八原式，120秒1GiB；未宣其闭。
+- **旧D≠0值图Phi0∩zn0全闭，可付zn；不传h=k。** 新8fd头零主支rho=−d、ell1+2d²真33.245秒/79060KiB/exit0，原八式/单位D·Sn·Z的真6列Cramer给必要曲线(d,lambda)174/55、偶降v87/55；385次除法/六坐标全返，未排空。738头零例外权与主支后续原乘法目标继续，旧大投影冻结。
 
 ### rankH3原ess6
 

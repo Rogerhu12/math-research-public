@@ -1,15 +1,17 @@
 {
-  "message": "ISP: exclude the entire original T0 zero collision face and return new W algebra",
-  "parentCommit": "0db1266cc87c88af943758506a496f7cde658e36",
+  "message": "ISP: return the complete Phi rho-head main necessary curve and continue J equal Q fibers",
+  "parentCommit": "e554d937d859dc76729eda334c9d360ecfa76ff8",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-equal-singleton-entire-T0-zero-original-exclusion.md",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-equal-singleton-entire-T0-zero-exclusion-receipt-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-W-global-monic-T4-F2-original-eight-column-return-8542.py",
-    ".github/workflows/invariant-subspace-w-global-monic-four-two-eight-column-8542.yml",
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-Phi-zero-rho-head-zero-main-original-unit-necessary-curve.md",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-rho-head-zero-main-original-unit-necessary-curve-receipt-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-equal-singleton-JQ-Delta-zero-complete-quadratic-original-return-8542.py",
+    ".github/workflows/invariant-subspace-equal-singleton-j-equal-q-delta-zero-quadratic-8542.yml",
+    "topics/invariant-subspace-problem/notes/2026-11-27-handoff-before-Phi-rho-head-main-curve-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-27-open-before-Phi-rho-head-main-curve-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -19,6 +21,6 @@
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
   "dispatchWorkflows": [
-    "invariant-subspace-w-global-monic-four-two-eight-column-8542.yml"
+    "invariant-subspace-equal-singleton-j-equal-q-delta-zero-quadratic-8542.yml"
   ]
 }
