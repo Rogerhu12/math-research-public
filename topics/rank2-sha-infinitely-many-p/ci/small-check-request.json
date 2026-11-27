@@ -1,11 +1,10 @@
 {
-  "request_id": "2026-11-27-0918-original-q11-two-cover-lift",
+  "request_id": "2026-11-27-0955-original-e3969-degree126-live-descent",
   "python_flint_version": "0.9.0",
   "checks": [
     {
+      "script": "topics/rank2-sha-infinitely-many-p/scripts/check-original-e3969-degree126-descent.py",
       "engine": "python3",
-      "script": "topics/rank2-sha-infinitely-many-p/scripts/lift-original-q11-section-to-two-cover.py",
-      "args": [],
       "include_stdout": true
     }
   ]

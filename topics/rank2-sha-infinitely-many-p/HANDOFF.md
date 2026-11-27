@@ -11,15 +11,15 @@
 - 07:20UTC本地执行再次失联；09:09两库实际pull重试均明确No usable execution environment。私库API至e0944037db11cf7b9acb79a25f41e13417fde492逐两README核同06:47，QUEUE仍本会话进行中；不冒称实际pull。
 - 断连期间沿最新main API非force快进；每次检查README和本topic差异，遇新父重新比较/建commit。09:09公开API至ccb52315e1485916f867f7574c944b63dc40fac2，两README blob仍同07:12；最新父比较9文件，无本topic外部变化。恢复立刻补两库真实pull及README差异；令牌只命令行/进程，不落文件或API。
 - root独占git/H/open/log/index；每条结论即推，非快进立即pull --rebase、读差异、再推至成功，不强推。数学只用公开Actions。根规则15禁止存可重算输出；H<10KB、每MD<100KB。
-- [此次逐字归档](notes/2026-11-27-handoff-before-original-g-prym.md)及其完整历史链保全部旧式、回执、未付门和失联/同步史；[open](open.md)、[results](results.md)、[R1001–1050索引](notes/PROOF-INDEX-R1001-R1050.md)为实际接续入口，不重做已登记结论。
+- [此次逐字归档](notes/2026-11-27-handoff-before-v10-actual-terminal.md)及其完整历史链保全部旧式、回执、未付门和失联/同步史；[open](open.md)、[results](results.md)、[R1001–1050索引](notes/PROOF-INDEX-R1001-R1050.md)为实际接续入口，不重做已登记结论。
 
-## 一、唯一原几何作业及原生后端
+## 一、原几何真实终态及原生后端
 
 v9 run45920983633/job140251398928/source1eeab95eb057de2b6ea6753ff9e36a18bd20bbd2已实际21000s timeout124，终态无数学JSON；完整34MB日志/hash/七快照与终态只读回执在[终点链](notes/2026-11-27-artinian-v7-final-and-successor.md)，不重跑旧输入。
 
-R1033唯一v10：run45956901945/job140365369016/source43c1a7bfd607ba57dcdb891a1ed5ea83b61b1157。52源、两char0 pins、原r29/q2453/batch64/minimal、全门及21000s/360min、preflight=false保持。08:12仍in_progress；07:28/08:00日志均404，首只读作业未得快照，不作数学结论、不排副本。
+原v10 run45956901945/job140365369016/source43c1a7bfd607ba57dcdb891a1ed5ea83b61b1157已于09:15:03UTC failure，根09:50完整消费。全log4056415B/SHA521e26eb54219ef9197599c787a6f365a1bda6136846d4b4d56622b65270ca48；7283秒时logger的elapsed_seconds重复关键字TypeError，exit1，并非超时或代数反例。此前原图/完整主除子阶段已返，但第一个residue kernel仅计算后未交回，四交/全Norm/shadow无PASS。
 
-R1035完整native行后端/56源生产候选已真编译及准备成功（45962104875/140382113685、45964030236/140388320652），0数学实例；所有源码/原pins/完整hash、19组适配、七处绑定及原门在R1035§§5–7。原v10终态消费前不激活候选、不排副本。已付R982–994各原回执沿索引/逐字归档，不重复数学。
+R1035原生后端/56源生产候选已真编译及准备成功（45962104875/140382113685、45964030236/140388320652），0数学实例。全部pins、19组完整适配/七绑定/原门在§§5–7；现v10真终态已消费，先修两个logger字段并同步sourcepins，再接唯一候选，不排副本。R982–994已付原回执沿索引/归档，不重复旧结论。
 
 ## 二、原中央实际门与最新完整输入
 
@@ -43,7 +43,7 @@ R1032/1034的全部原39/N130/Miller/cocycle/cut/Ξ、坏带与低回填沿原�
 
 R1037实际全谱run45973650826/job140419911466/source22ac87ec033d658aa19b32d417c493f5748aa122已PASS；两完整stream/报告hash逐字返回。全334fibers/原390输入hash/三64列/完整2、δ、7及所有幂等回乘齐，30非零块、90零标签、三输入全回。唯一整质量零线(A5,C4,H2)rank1、δ-new9、dyadic−、7new；X62=1/order6/den91，原A/B/diff系数−185328/35、−160056/835、−29829384/5845。全坐标实时读公开marker，详细hash在§9。E3969真finite/Schwartz/frame识别继续，不凭三好位或B12投影赋零。
 
-R1038固定E3969:Y²=X³+3969手证rank≥2；原三同源/Kummer全部例外点及模3独立性齐，ψ=ψ1(63/·)3^-1，全导子47628。实际R1037块(A5,C4,H2)已非零；§§8–9全54三处单位χ3=εω^(−j−k)、χ3(δ)=i、双7 uniformizer/Gauss−9/root+/Hermitian[1]和α1新wild9向量/范数18f1已付。继续α1/7最小126/378全finite/Gaussian及通常全Sha桥，不混旧wild列或α代表。
+R1038固定E3969:Y²=X³+3969手证rank≥2；原三同源/Kummer全部例外点及模3独立性齐，ψ=ψ1(63/·)3^-1，全导子47628。实际R1037块(A5,C4,H2)已非零；§§8–9全54三处单位χ3=εω^(−j−k)、χ3(δ)=i、双7 uniformizer/Gauss−9/root+/Hermitian[1]和α1新wild9向量/范数18f1已付。继续α1/7最小126/378全finite/Gaussian及通常全Sha桥，不混旧wild列或α代表。新126消费者仅实时读R1037整回执、22列解及64回乘，15分钟公开请求已发；结果待原126笔记。
 
 ## 三、原几何与固定最高循环
 

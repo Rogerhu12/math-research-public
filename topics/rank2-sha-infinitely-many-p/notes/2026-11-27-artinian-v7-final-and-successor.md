@@ -200,3 +200,29 @@ collector仍为11472 B/SHA256 34e10e38ceda6a5ff0c79f491461cbabd5d81bd629cf72b5b3
 完整最后数学阶段已进入原 `A0 y0: complete zero/pole graph: entire denominator operator image`，07:00:11UTC完成Hermite4/306、剩余det次数3670，07:00:15UTC仍有whole row operations；未完成该像。host终点07:00:41.1714982UTC仅 `pipeline incomplete; no mathematical PASS is asserted`，payload140B/SHA1033b4fc3584c17a8e2cda62b62e2010d7700cb51cdbf096aa8ae54f80e6c871。所有最终数学record仍为空，parse_errors空、unfinished0；四交/全厚Norm/18×9无PASS，不由已经前进到的新阶段补写缺失验收。
 
 完整消费之后，于07:12UTC将现有 `.github/workflows/rank2-sha-original-triangular-artinian-shadow.yml` 接到R1033已备新launcher，并加入新helper/outer/request触发路径；旧原49源无修改、加3源，52源全记录，Sage镜像/两char0 PASS/r29/q2453/batch64/minimal/全部原门/21000s与360min保持，人工API preflight仍false。同一concurrency group、cancel-in-progress=false，旧作业已完才激活，不启动重复数学。具体新run/job/source及所有实际结果只按随后真实回执登记。
+
+## 17. v10 真实终态、完整日志及阻断原因
+
+2026-11-27 09:50 UTC 根实际读取 run45956901945/job140365369016：
+source43c1a7bfd607ba57dcdb891a1ed5ea83b61b1157，job于09:15:03 UTC completed/failure。
+原数学步骤07:13:25–09:15:01 UTC；09:14:56.9475250 UTC 外层
+RANK2_COMPLETE_PROJECTOR_FAILED 明确返回 TypeError：
+dict() got multiple values for keyword argument 'elapsed_seconds'。
+elapsed 7283.483549875秒，宿主 returncode1，并明确 pipeline incomplete。
+这是进度输出的参数冲突；没有到21000秒帽，也不是数学断言给出的反例。
+
+完整直接获取的 job log 为4056415 B，SHA256
+521e26eb54219ef9197599c787a6f365a1bda6136846d4b4d56622b65270ca48。
+日志只在公开 Actions，未缓存入库。共有8182条可解析 RANK2 数据标记；
+末个实际数值阶段于09:12:34完成306/306原 specialized Frobenius rows。
+
+栈准确定位 original_projector_hermite.py 的 complete_residue_maximal_ideal：
+它完成 receipt 后调用 engine.progress，并把自己的 elapsed_seconds
+传给已有固定 elapsed_seconds 的外层 progress。另一个 thick projector
+结束处存在同样命名冲突，后继必须一并更正这两个纯日志字段。
+剩余核的 return 位于失败调用之后，所以不能把已计算的局部 receipt
+当作整个 closed-point decomposition 已完整交回。
+
+此次已经经过原图返回和同一主除子的若干完整阶段；完整四交、全厚Norm、
+18×9 shadow终门均没有PASS。R1035原生后端已编译/准备通过；
+消费本终态之后才可更正日志并接入唯一原生后继，仍保所有原输入和全门。
