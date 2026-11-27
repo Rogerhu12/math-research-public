@@ -130,3 +130,6 @@
 
 
 - R1041§§17–19：R1041§§17–19把原rΓ Abel和显式写为第二四度图Φ，特征零微分/基点先相认再约化；真分歧值±3R0。固定J=(H−A3)/(H+A3)的完整除子及Weil reciprocity给U⁴/(cU²f^d)=Φ*M·J^(q+1)，原第三类保dlogJ修正。两holomorphic线的Cartier及Q6四槽完全由a_q(EL)控制，ss时Pell的bq/cq亦定；未代最高λ/27或无穷目标p。 (66a)保全二分点Norm与原Tate判别式绝对常数。
+
+
+- R1040后继[原F0两字](2026-11-27-original-f0-two-delta-word-return.md)：原F0两个非平凡δ字已完整手证下降为σ34xB(±y)：固定三项Kummer代数/全Miller乘再移方向、两字反射和B(±1)=−1/1092均齐；真实Φ126仍保κ^i、σ2²、sigma比和原unit cut。小consumer只求固定B10全部系数及原完整五维dyadic投影/∇S比较，尚无新实际谱输出。
