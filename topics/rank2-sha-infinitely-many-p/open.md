@@ -113,7 +113,7 @@ R1041§§17–20付原第二四度图Φ及Miller修正J，真正第三类是4ηp
 
 唯一native v11 run45978097755/job140434827184/source8a19591199e83549df1709f35dc00976a40e2810仍在原数学步骤；56源/两char0 pins、29/2453/64/minimal、全四交/Norm/18×9 shadow门、21000s、源码只读/禁网/cancel=false均保持。v9 timeout、v10 logger TypeError及两字段修复已完整消费，不重做编译/准备或开副本。完整回执/hash见终点链。
 
-公开既有只读CI于11:42:03UTC实际pull --rebase成功至689da8018766103f2cba0ca6620801c01d81cbbf，run45992595370/job140483924801；相对已读1cf10ac两README无差异，blob仍282e86b…03c2d / 2f3b3c…21bc。本地12:20:36两库实际pull仍无执行环境；私库最后实际pull6139de54/06:47、API12:21至02b2cb0e7e8624f732845b0abab109c1898afeea且两README/QUEUE无变，认领保持。本次再用既有公开只读CI请求实际pull，基准689da801，实际回执待。至少每小时实际同步/失败重试，CI与本地分别记账，API不冒充pull。规则15树42,313,296B、无>5MB；三个历史part是已登记缺完整生成器的旧校验输入，没有按名字误删或新增缓存。
+公开既有只读CI于12:22:31UTC实际pull --rebase成功至dd52096e6f921537c3385636ee5a0d363d48b48a，run45998092826/job140502478622；相对已读689da801两README无差异，blob仍282e86b…03c2d / 2f3b3c…21bc。本地12:20:36两库实际pull仍无执行环境；私库最后实际pull6139de54/06:47、API12:21至02b2cb0e7e8624f732845b0abab109c1898afeea且两README/QUEUE无变，认领保持。本次公开CI实际回执已消费；本地checkout仍单独记账。至少每小时实际同步/失败重试，CI与本地分别记账，API不冒充pull。规则15树42,440,271B、无>5MB；三个历史part是已登记缺完整生成器的旧校验输入，没有按名字误删或新增缓存。
 
 central负责真实小框架交和全canonical forcing；arithmetic负责原有限转置/平均cut/全补域；geometry负责实际二同源/全层/逐CM权与最高λ；root负责接线、真实回执、唯一厚作业、同步及每结论立即推。主目标未完成，继续。
 

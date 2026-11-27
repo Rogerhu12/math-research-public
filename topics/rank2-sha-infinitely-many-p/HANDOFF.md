@@ -6,9 +6,9 @@
 
 固定一条 E/Q，完整证明 rank≥2 且无穷不同 p 的通常全 Sha[p∞] 有限。固定有限曲线族的联合无穷非零可用无限鸽巢；有限 p、随 p 换曲线、接口或孤立投影不完成。
 
-- 两库部分克隆已做。公开既有只读CI于11:42:03UTC真实pull --rebase成功至689da8018766103f2cba0ca6620801c01d81cbbf（run45992595370/job140483924801），相对07:12本地pull的1cf10ac两README无差异；已读blob282e86b03385d3b6245ce7100ae2e2af7b103c2d / 2f3b3c9264fbba8189f85716e68f768830e921bc。CI与本地checkout分开记账。
+- 两库部分克隆已做。公开既有只读CI于12:22:31UTC真实pull --rebase成功至dd52096e6f921537c3385636ee5a0d363d48b48a（run45998092826/job140502478622），相对上次689da801两README无差异；已读blob282e86b03385d3b6245ce7100ae2e2af7b103c2d / 2f3b3c9264fbba8189f85716e68f768830e921bc。本地最后成功pull仍07:12的1cf10ac，CI与本地分别记账。
 - 私库QUEUE认领41fe885610073f478b2f5a752461ca56cfd43f09已推。最近实际pull06:47UTC至6139de54ac72f1c7af0508b88ce03efdbf0a5690，两README无变；blob分别5ba164843b1f5802184178a82d786264404873a3 / 452d0127a4c3879807d70550d3eafd46c8fac642。
-- 07:20本地执行环境失联；12:20:36两库actual pull重试仍不可用。12:21 API私库02b2cb0e7e8624f732845b0abab109c1898afeea两README同原blob，QUEUE844a9bd5…仍本会话进行中。API不冒充pull；本次再请求既有公开CI实际pull，基准11:42的689da801，回执待。
+- 07:20本地执行环境失联；12:20:36两库actual pull重试仍不可用。12:21 API私库02b2cb0e7e8624f732845b0abab109c1898afeea两README同原blob，QUEUE844a9bd5…仍本会话进行中。API不冒充pull；公开CI本次实际pull回执已消费；本地恢复立即补，不把CI冒作本地。
 
 - 至少每小时重试同步，每次pull后只读新README差异并立刻执行，记实际读过SHA；断连沿最新main API非force快进，每次检查README及本topic外部变动。10:48ref失败已立即实际pull重试、重比新父后成功；不强推。
 - root独占git/H/open/log/index；每条结论立即推，拒绝时pull --rebase后重试至成功。令牌只命令行/进程，不进文件/提交/API。数学执行只在公开Actions；根规则15禁止存可重算输出或日志数据。H<10KB，每MD<100KB。
