@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [全余 W 的四个完整原 N/P 固定四乘四余子式](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-full-NP-fixed-four-by-four-original-cofactors.md)：同 Y 四列 cofactor 与原五行全部乘回，四个 w 九次必要约束保所有未付首项；附实际运行和新 monic Y 输入。
+
 - [整个 Q=1−u 边界的原排除](results/R150-appendix-unit211-Q1minusU-complete-original-exclusion.md)：三个新 QQ 局部重数244/3/3、253度可除因子和1129度首一余式，结合全精确权域及严格 Gauss 返回排空整边界；一般 LS 可付 u+Q−1。
 
 - [全一般LS的原单位组合与A[t]三生成元](results/R150-appendix-unit211-general-LS-global-three-generators-over-t-and-original-unit-combination.md)：c_n−g_n精确已付单位，完整原规则真单首一降x/y次数；1,x,y全图生成且t不倒置，保全部原值与有限纤维。
