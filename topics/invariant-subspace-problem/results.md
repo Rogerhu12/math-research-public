@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R150：真实 Q 关系、同 λ 原商与完整 354 点界](results/R150-appendix-unit211-Phi-zero-H1-original-Q-relations-same-lambda-and-354-points.md)：五块原 Q 幂关系全返回；末 5 块的同 λ 原商为 5 维，其余四块完整保留。给 14/59/177/354 界，不将模头零提升为特征零头零。
+
 - [R271：一对加四独立完整九维加强 S1](results/R271-appendix-one-pair-four-independent-full-nine-dimensional-strengthened-s1.md)：原三叶 companion 的三 Schur 谱系数在全部五闭域严格正；实际 57.527394568 秒全返回，碰撞由原连续谱覆盖。仍未支付 S2、七位联合或同 W 无限费用。
 
 - [H1同Q原权商≤14、完整规范点≤504](results/R150-appendix-unit211-Phi-zero-H1-same-Q-fourteen-weight-cover-and-504-points.md)：保全部五块的Q4和三原λ结式元素，真实秩均3d；有限整矩阵给通用维数上界，14/252/504不同点界。五块均未全闭，原同λ继续。
