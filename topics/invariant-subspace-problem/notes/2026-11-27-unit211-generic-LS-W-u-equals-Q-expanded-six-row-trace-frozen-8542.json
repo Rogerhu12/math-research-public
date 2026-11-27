@@ -1,0 +1,68 @@
+{
+  "schema": "isp-frozen-negative-original-trace-probe-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "date": "2026-11-27",
+  "runtime": "functions.exec V8 BigInt exact QQ(Q)",
+  "sourcePath": "notes/2026-11-27-unit211-generic-LS-W-u-equals-Q-expanded-six-row-trace-frozen-8542.js",
+  "sourceSHA256": "22776b2cc0b54bf175eae4f9c910f8a2dfd66ab26d989d2bec9cb79443565e19",
+  "actualFailedStep": "W0_entire_u_equals_Q_necessary_rows_JS",
+  "actualFailedStepSHA256": "676b141c958faa29534279c7666cdc9d53daf31ae90affbc44c45bff0c16d597",
+  "actualModuleRuntimeSHA256": "1c1fa7fec51af091e5945e377a038e377ce1eda27336afc0679808f361f6de3c",
+  "actualRationalRuntimeSHA256": "483af8c432798349825949dbeacb784da7b76c1dad9266141db0657a8178a46e",
+  "sourceComponentHashes": {
+    "W0_primitive_integer_poly_JS": "69ba81a062e2ee73ebcf25ae340343415c75ba831329ae2bff427ff813a3b201",
+    "W0_finite_QQ_algebra_JS": "cf8641e2ea2c3ab6932c2e63cf583b63b594fae97ea7a6233bacf61af5f45cb5",
+    "W0_QQ_rational_integer_poly_JS": "483af8c432798349825949dbeacb784da7b76c1dad9266141db0657a8178a46e",
+    "W0_H_full_affine_M_class": "da245f4efbd6816b75ceccc60736cfc92f12d77cd50fc46a392369cf87c6bd99",
+    "W0_entire_u_equals_Q_weight_build_JS": "ed653ae80b8ab964e6c8a0c7f914b00ac0661c6f18056122b399659f1830ac1b",
+    "W0_entire_u_equals_Q_quad_head_JS": "bbc4855ae69820401f6c4fc08e7cf529604f766f776c2b633077c753763ce8b1",
+    "W0_entire_u_equals_Q_prepare_F9_JS": "4649ec9d291bb3a00cbd87e8b62b6e2be4745e332c80eb28930e389e29b4ba6c",
+    "W0_entire_u_equals_Q_finite_M35_return_JS": "92ceadf1cd3618780f2934d219bc2b8bbea689b8900346b514eacce93f66a987",
+    "W0_entire_u_equals_Q_split_F9_JS": "3bd63b6856df6345beae06fd1c48ca35c1b5653972dcfa73295e109f3f8825bd",
+    "W0_entire_u_equals_Q_choose_F8_JS": "a4e68e34a7552b3af519a807949b97c0acd0a7511a5ad495bef80879c2c8a3cb",
+    "W0_entire_u_equals_Q_quadratic_cubic_rules_JS": "facafb549426a3227537391ff64d7f5a1d5e75c93d2280de9c78a92b14de0153",
+    "W0_entire_u_equals_Q_six_rules_JS": "37e1ecd8cb29adfd73f617b2bb53aec3c78007007ee14b742a5630b8fe4b7919",
+    "W0_entire_u_equals_Q_six_runtime_JS": "1c1fa7fec51af091e5945e377a038e377ce1eda27336afc0679808f361f6de3c",
+    "W0_entire_u_equals_Q_necessary_rows_JS": "676b141c958faa29534279c7666cdc9d53daf31ae90affbc44c45bff0c16d597"
+  },
+  "parameters": {
+    "weightCurve": "u=Q; ell=(-2Q^3+13Q^2-14Q+4)/(Q^2+2Q-2)",
+    "coordinates": "independent finite x,y,t",
+    "originalRows": [
+      "E1",
+      "EBe",
+      "EBo",
+      "N1",
+      "NS",
+      "PS"
+    ],
+    "attemptedRows": [
+      "unused original overlap 1",
+      "unused original overlap 3",
+      "NS",
+      "PS"
+    ],
+    "perRunBudgetSeconds": 60,
+    "checksEvery256RationalConstructors": true
+  },
+  "actualReceipt": {
+    "stage": "u_equals_Q_original_rows_incomplete",
+    "error": "Error: NEW_U_EQ_Q_ORIGINAL_BUILD_60_SECOND_BOUND",
+    "stack": "Error: NEW_U_EQ_Q_ORIGINAL_BUILD_60_SECOND_BOUND\n    at check (eval at <anonymous> (eval at <anonymous> (eval at <anonymous> (exec_main.mjs:1:30))), <anonymous>:3:69)\n    at new R (eval at <anonymous> (eval at <anonymous> (eval at <anonymous> (exec_main.mjs:1:30))), <anonymous>:6:3)\n    at M.add (eval at <anonymous> (eval at <anonymous> (eval at <anonymous> (exec_main.mjs:1:30))), <anonymous>:5:92)\n    at reduce (eval at <anonymous> (eval at <anonymous> (exec_main.mjs:1:30)), <anonymous>:13:257)\n    at eval (eval at <anonymous> (exec_main.mjs:1:30), <anonymous>:3:169)\n    at eval (eval at <anonymous> (exec_main.mjs:1:30), <anonymous>:7:3)\n    at exec_main.mjs:1:30",
+    "wallSeconds": 76.992,
+    "claimExcluded": false
+  },
+  "lastObservedStage": "Inside reduce() in the loop over original unused overlaps [1,3]. No per-row progress marker was emitted; the exact one of these two iterations is unknown. The subsequent NS/PS loop was not reached.",
+  "successfulNecessaryRowOutput": false,
+  "actualProcessExitCode": "not applicable: V8 exception was caught in functions.exec, no OS process",
+  "rss": "not exposed by V8",
+  "fullRegenerationWrapperExecuted": false,
+  "mathematicalEmptinessClaim": false,
+  "priorIndependentSuccessesUnaffected": [
+    "whole F9 zero-fiber original 48x35 unit returns",
+    "six original monic rule identities",
+    "all 18 original multiplication identities"
+  ],
+  "frozen": true,
+  "noRerunWithExtraTimeOrDifferentRationalArithmetic": true
+}
