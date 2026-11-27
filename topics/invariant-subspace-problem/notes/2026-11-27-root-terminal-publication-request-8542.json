@@ -1,13 +1,20 @@
 {
-  "message": "ISP: exclude every F24 norm-zero weight fiber in the original QQ system",
-  "parentCommit": "e9d7e62714a0ba1e7839b2bb02208e3026a15b31",
+  "message": "ISP: exclude the entire original D27 weight curve and continue the collision zero face",
+  "parentCommit": "6a79341b77b1b64b4eb12b641376a2d88cc4b947",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-W-D27-F24-entire-original-QQ-exclusion.md",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-W-D27-F24-entire-original-QQ-exclusion-receipt-8542.json",
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-W-D27-entire-original-exclusion.md",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-W-D27-last-cubic-original-two-quartics-fifty-return-8542.js",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-W-D27-last-cubic-original-two-quartics-final-return-8542.js",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-W-D27-last-cubic-original-two-quartics-return-receipt-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-W-D27-unfinished-isolated-actual-return-receipt-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-equal-singleton-T0-Delta-zero-original-rational-candidate-8542.py",
+    ".github/workflows/invariant-subspace-equal-singleton-t-zero-delta-zero-rational-candidate-8542.yml",
+    "topics/invariant-subspace-problem/notes/2026-11-27-handoff-before-entire-D27-exclusion-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-27-open-before-entire-D27-exclusion-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -16,5 +23,7 @@
     ".github/workflows/invariant-subspace-8542-root-terminal-publication.yml",
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
-  "dispatchWorkflows": []
+  "dispatchWorkflows": [
+    "invariant-subspace-equal-singleton-t-zero-delta-zero-rational-candidate-8542.yml"
+  ]
 }
