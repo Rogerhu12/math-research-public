@@ -1,11 +1,11 @@
 # HANDOFF — visible-flex-larger-amplitude
 
 会话：Astra-larger-e4e2a2bf-20261126（AI），接手Astra-larger-resume-24b2ab87-20261120。**未完成，持续真正求解；阶段、时长、失败和输入困难均不作收尾。**
-完整此前H/来源/参数/失败/未知保 [56c8完整H](https://github.com/Rogerhu12/math-research-public/blob/56c8bd44b4ae95bc2a162709530a0ec756441d3c/topics/visible-flex-larger-amplitude/HANDOFF.md)及f9d79/e207/d2f37/0a5df全部旧链、open和全notes，不重做已登记数学。
+完整此前H/来源/参数/失败/未知保 [020bcc完整H](https://github.com/Rogerhu12/math-research-public/blob/020bcc6e6b20405d8d1aec99d9ef0423e16e8037/topics/visible-flex-larger-amplitude/HANDOFF.md)及f9d79/e207/d2f37/0a5df全部旧链、open和全notes，不重做已登记数学。
 
 ## 规则、同步、环境
 
-root最后真pull/rebase eda95d51e82b126439d51d42185a880e6ddad3e9；07:21终端失效，15:03:35重置后唯一复核仍失败，恢复即真pull。云核至 `6b96e9b8c8cc2ccc89bbc0c854f33788175ddd96`（非pull）。双README SHA256：581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d。无变；每真pull后只读新差异，立刻遵守，至少每小时。活12–15通常每5分钟真pull，实际提交在末块。
+root最后真pull/rebase eda95d51e82b126439d51d42185a880e6ddad3e9；07:21终端失效，15:03:35重置后唯一复核仍失败，恢复即真pull。云核至 `020bcc6e6b20405d8d1aec99d9ef0423e16e8037`（非pull）。双README SHA256：581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d。无变；每真pull后只读新差异，立刻遵守，至少每小时。活12–15通常每5分钟真pull，实际提交在末块。
 
 私库QUEUE进行中已推e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。root独占refs/queue，每结论普通推；NFF有终端即rebase重推，无终端云freshHEAD完整合并不冒pull，不force。令牌仅瞬时CLI。[完整发布支持](computations/resume-20261127-root-publication-support.mjs)已刊防重置。
 
@@ -21,16 +21,15 @@ root最后真pull/rebase eda95d51e82b126439d51d42185a880e6ddad3e9；07:21终端�
 
 **13**：46028002241/1、job140604269042。[全输入/失败](notes/2026-11-27-run13-entry-failure-and-run14-actual-reference.md)与[原异常](notes/2026-11-27-run13-actual-normal-constructor-source-guard.md)完整保：reference0、science3/pure4各1缺report、reader5/6均0。driver c64d传旧schema，严格base3f/normal2db本来同符。[唯一实参修复](notes/2026-11-27-actual13-N4096-base-schema-guard-repair.md)56c8已刊10件649193B、driver2cc/launcher8d76/pure015f，128原源保。仅退两已返reader（全原7128），原runner复用真reference接完整157/7argv、396/380/48、88565Bqueue至fresh base-bound目录，finish=false；尚无新场。旧失败/各完整对象/新三模式全保，准确费后继另完整适配。
 
-**14**：46028184571/1、job140604893652，head05c45d。maker/reference真0，后者519.242307125s/全7输出；数值reference212eb5/carrier8406同12，但report43a727与history身份独立。16:08:47全M科学running/sourcea9ab24/launcher596e/PID4009，点e013仅进度。全159/7argv/397、384、48读数保。只退真返reference（原对象d2f37全保）后接完整normal费40argv/36读数，queue93940B；连续geometry完整8argv/48读数待真返step腾位，未削项。尚无完整场或费。
+**14**：46028184571/1、job140604893652、head05c45d。[两原输入](notes/2026-11-27-run13-entry-failure-and-run14-actual-reference.md)都真0，reference519.242307125s/全7输出；各自report43a727/history保，数值reference212eb5/carrier8406同12。全M science仍running/a9ab24/PID4009、e013仅进度；159/7argv、397/384/48全保。只退已返reference（全原d2f37）后接normal费40argv/36读数，queue93940B；geometry全8argv/48待真返腾位，不削项。完整场/费未返。
 
-**15**：46031953783/1、job140617715235、head882086，16:14:50Z启动。[全启动](notes/2026-11-27-run15-fixed-fejer-J1845-complete-independent-launch.md)、[两真返输入](notes/2026-11-27-public-actions-46031953783-1-part-001.md)：maker0/6.193428461s，reference0/520.117180844s、sourcec03e68，全11输出齐。数值reference212eb5/carrier8406同12，本次report8f4e5153/history各自绑定，2218accuracy=false保。
-只退休两已返活对象（完整原6692B固定882086），已接f9d79原完整J science/pure90478B，159/7argv、407/386正式读数、48progress全保，finish=false。参考J923不变/currentJ1845/2666582变量；J同一constructor三source/schema全符，不改J，尚无新场。
+**15**：46031953783/1、job140617715235、head882086，16:14:50Z启动。[全启动](notes/2026-11-27-run15-fixed-fejer-J1845-complete-independent-launch.md)、[两真返输入](notes/2026-11-27-public-actions-46031953783-1-part-001.md)：maker0/6.193428461s、reference0/520.117180844s、sourcec03e68，全11输出齐；本次report8f4e5153/history独立，2218accuracy=false保。只退这两活对象（全原6692B固定882086），接f9d79原J science/pure90478B、159/7argv、407/386/48。参考J923不变/current1845/2666582变量；J同一schema guard三体全符。仍无新场。
 
 ## 完整来源与分工
 
 全部已刊lower/upper、N/M/J、mean/profile、normal六jet、closed、R716和mesh/t完整源/参数/已付与未知，见[ae8d完整H](https://github.com/Rogerhu12/math-research-public/blob/ae8d223e3ed43c4efb33a07b4619328d1808d734/topics/visible-flex-larger-amplitude/HANDOFF.md)及逐项完整notes，不以短摘要删除证据。
 N/M各128角色/原110保，M五metadata e207只修再生器INPUT；J f9d79全17runtime/131角色/729cf五基础、2666582变量/482通道、7377+14753并集，三全plans/四再生器保。N/M完整费用15件494847B已ae8d刊，严格来源不自动接未来N修复。
-geometry已交并刊N唯一schema修复与三fullplans，续新准确费后继；旧M费用不变。[完整stage入口](notes/2026-11-27-fixed-fejer-complete-stage-point-owner-entry.md)16件1035739B已刊：119角色保原110、原20121B科学正文逐字同；完整不可变点入/出均核，每矩阵只复核owner及原全部guards，避免重复1333370字复制。新增计数实测未知，157/7或144/7argv、398/385读数/原48progress全保。随后独立16接各自point/state真实统计观测，不加F/J。[ret45](notes/2026-11-27-retention45-seven-complete-legacy-results.md)七旧raw已退存：毛2631388B、三完整保全190442B、净2440946B；152源输入/46R82/完整argv/消费者保，固定4bcf0ccd原字恢复，hybrid wholeSHA未知null。construction续ret46保实际返回空间；root接完整N修复与热路径真实运行。
+geometry已交并刊N唯一schema修复与三fullplans，续新准确费后继；旧M费用不变。[完整stage入口](notes/2026-11-27-fixed-fejer-complete-stage-point-owner-entry.md)16件1035739B已刊：119角色保原110、原20121B科学正文逐字同；完整不可变点入/出均核，每矩阵只复核owner及原全部guards，避免重复1333370字复制。新增计数实测未知，157/7或144/7argv、398/385读数/原48progress全保。[数学观测入口](notes/2026-11-27-fixed-fejer-actual-mathematical-progress-entry.md)11件531481B已刊，driver8dc9/reader c9ce/helper bff1/launcher ed810；120角色保原119，既有返回值各自point/state，current与trial分开；live原18+math30合48，原48完整映射/原小文件双读保全。原398/385正式读数全保成408/395、原参数/预算不变、无新增F/J/root；独立16即接真求解。[ret45](notes/2026-11-27-retention45-seven-complete-legacy-results.md)七旧raw已退存：毛2631388B、三完整保全190442B、净2440946B；152源输入/46R82/完整argv/消费者保，固定4bcf0ccd原字恢复，hybrid wholeSHA未知null。construction续ret46保实际返回空间；root接完整N修复与热路径真实运行。
 
 ## 未付责任与旧记录
 
