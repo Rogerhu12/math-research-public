@@ -360,3 +360,6 @@
 
 
 - **R1042完整补域首位与真除p**：[§12](results/R1042-original-three-canonical-common-norm81-carry-and-positive-grid.md)。R1042§12把原未旋转整个至少双unit余域的首位化为同一有限低卷积：先在完整unit域用质量零证明a_i,p−1和c_i,p真实可除p，再以Hasse形式群关系消掉Ω^(p−1)，得到(99)的全补域Schur公式。三canonical坏条件严格要求三个c_i,p/p同为0modp；该共同零尚未排除。
+
+
+- **R1043实际Manin值及完整接触判据**：[§19](results/R1043-original-two-isogeny-level-transport-and-weighted-orbit-reduction.md)。R1043§19支付原S/S′的真实KS及全部好纤维上的单位性、Hasse简单零；将Broumas已发表公式准确写入原W定向，补全部模型变换及Tate边界。原最短Qmin的ν=μλω^(q−2)非零且零度q−2，故超奇异接触n=1恰ν非零，n≥2时ordν=n≤q−2。目标p除点本身不增加接触阶。

@@ -1,10 +1,11 @@
 {
-  "request_id": "2026-11-27-original-e21609-complete-lprime",
+  "request_id": "2026-11-27-1444-original-q11-manin-contacts",
   "python_flint_version": "0.9.0",
   "checks": [
     {
-      "script": "topics/rank2-sha-infinitely-many-p/scripts/check-original-e21609-complete-lprime.py",
+      "script": "topics/rank2-sha-infinitely-many-p/scripts/consume-original-q11-manin-contacts.py",
       "engine": "python3",
+      "args": [],
       "include_stdout": true
     }
   ]

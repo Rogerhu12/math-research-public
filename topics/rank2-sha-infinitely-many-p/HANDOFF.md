@@ -48,10 +48,12 @@ R1039原g二盖严格Prym≅EL:y²=x³−12x+20、r*r_*=1−ι、原边界D∞�
 
 R1041原四谱Q6/Pell/双Norm/指定半类/全部厚点均付，q11实际AQ=−G阶16；一般4AQ=−P、二分Norm=t³(1−27t)。§§17–20第二四度Φ/Miller修正J给4ηprim=Φ*dlogM+dlogJ，Cartier受a_q(EL)控制；全tame reciprocity给U(E+)²⁴∈Fq*，故p≥5,p|q+1的无权半交为p次幂。精确参数和回执见原文/前归档，不重算；原逐CM权、eta/Cor及最高λ仍开。
 
-R1043原2-Vélu/full9、S3左逆/真实S′、canonical E4/I及原η′=ηκ2最高λ运输齐；原最高形式像−3Ω′1在O四阶零，不能换第四Hodge形式。§16完整GL9/determinant与ρ逐图给C_a=[L:K]B_a、J_j=6[L:H]Σζ9^(−l_ja)B_a；最小L0=K(A[306])次数6^5。§17真实3-Vélu与二商反交换，P_Q的F′*特征+δ和canonical Picard作用同号；基值P_Q(O)=3I e_A^- hatφ2,0 Q+(b2,0)，不能套旧6挠零。三IV*只在三重好化的下降值被3杀。§18真实Fr和系数共轭严格分开：全9/有序二核两次倒序相消给Fr(d_t)=d_{h_q/t}。若原三个完整J在同一系数位全零，则三个实际T_a均全p整除；此三零尚不由Sha坏推出。最小Fr−unit核degree q+1只含p个同核除点，全p²需degree(q+1)²，不能偷降。B_a及ordinary非零仍开。原[mixed C4候选](notes/2026-11-27-mixed-c4-albanese-fiber-obstruction.md)已由Albanese排除。
+R1043原2-Vélu/full9、S3左逆/真实S′、canonical E4/I及η′=ηκ2最高λ运输齐；原最高像−3Ω′1在O零4，不能换形式。全GL9/Cor准确给C_a=[L:K]B_a、J_j=6[L:H]Σζ9^(−l_ja)B_a，L0次数6^5。真实3-Vélu与二商反交换，F′*特征+δ和canonical Picard同号；基值3I e_A^-hatφ2,0Q+(b2,0)不可套旧6挠零，IV*下降只被3杀。§18真实Fr(d_t)=d_hq/t；原三个完整J同一位全零时三个实际T_a全p整除，此前提尚不由Sha坏推出。同Fr−unit核degree q+1只p个除点，全p²用degree(q+1)²。
+
+§19已付原两曲面的实际KS、全好点单位/Hasse简单零、Broumas完整μ公式与Tate/极小模型边界。原Qmin的ν=μλω^(q−2)非零，全零度q−2；超奇异真实接触n满足n=1 iff ν(b)≠0，否则ordν=n≤q−2。目标p≠q的除点不自动增接触。新q11 consumer只读取旧唯一原Q回执，算μ与全Hasse厚Fitting、canonical O和两cusp；源码已审，新数学结果待。原mixed C4候选已由Albanese排除。
 
 ## 四、其它未闭门与分工
 
 O4需原O格Q=δ^aεw于无穷ordinary p有a≤1；E17的a偶、E389的lengthShaA=2(a+1)保持。O6需固定两点饱和λ的全核Np有限、真q_p=1于无穷p，原Tor及全p损不删。O7保同解内/闭盘、同Y余数、全Laurent/非恒Y权/全部216真管差，仍未迫原闭边界全零；跨parity R953和R954指定forcing成员性仍开，完整参数在open与逐字归档。旧外部强声称/负例保持，不重做已排方向。
 
-central负责新六sigma/真实17混合及全canonical forcing；arithmetic负责同一三canonical全源作用/补域；geometry负责原halving/Pell/Prym与最高λ/27；root负责数学接线、真实回执、唯一原厚作业、同步和逐条推送。主目标未完成，继续工作，不作阶段收尾。
+central负责同一三低卷积；arithmetic负责真实角源和全补域forcing；geometry负责原Manin/两标记与最高λ；root核接线、原作业、同步及逐条推送。主目标未完成，继续工作，不作阶段收尾。

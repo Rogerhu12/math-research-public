@@ -1765,3 +1765,263 @@ $p$ 为奇数使其正负特征群均为秩一。
 而从两个独立标记取得一个新的 $p^2$ 级交数下界、
 与截面高度比较并迫使某个完整 $J_j$ 非零，
 仍需额外的真实几何关系。
+
+## 19. 原曲面的真实 Kodaira–Spencer、Manin 值及超奇异接触阶
+
+本节中 $q$ 始终是辅助特征，$p\ne q$ 始终是原 $\Sha$ 目标素数。
+只使用已发表的 Broumas [BM] 的显式 $q$-descent 公式及其
+$\ker\mu=qE(k(B))$；下面的实际 KS、全边界和接触计算均重新给出。
+Ulmer–Voloch 的2025预印本可作为寻找这个入口的线索，
+不作为本节的黑盒依据。
+
+### 19.1 两个实际曲面的 KS 在好点均无零
+
+原 Tate 方程的 invariants 是
+$$
+ c_4=1-24t,\qquad c_6=-1+36t-216t^2,\qquad
+ \Delta=t^3(1-27t),\qquad j=c_4^3/\Delta .
+$$
+Broumas 的规范 KS 微分为
+$\lambda=(c_4/c_6)d\log j$。
+通分后分子正是 $3c_6$，故在原函数域中准确有
+$$
+ \boxed{\lambda=\frac{3\,dt}{t(1-27t)}
+        =-\frac{3}{v}\,\omega_B .}
+ \tag{97}
+$$
+这也在 $c_4c_6=0$ 处按该有理恒等式延拓，不能删这些好纤维。
+
+记 $\mathscr L=O^*\Omega^1_{S/B}$，在相对极小模型上
+$\mathscr L\simeq\mathcal O_B(O)$。
+原 raw 微分 $\omega_t$ 作为其有理截面的除子是 $(O)$：
+这由 R1006(15)–(16) 的好模型
+$\omega_t=z\omega_{\min}$ 给出。
+又 $\operatorname{div}(v)=(T)+(-T)-2(O)$，因此
+$$
+ \operatorname{div}\bigl(\lambda\omega_t^{-2}\bigr)
+       =-(T)-(-T).
+ \tag{98}
+$$
+它作为 $\Omega_B^1\otimes\mathscr L^{-2}$ 的截面，
+在两个乘法坏纤维恰有一阶极，在所有好纤维均为单位。
+
+同样对(51)直接求导得
+$$
+ \boxed{\lambda'
+   =\frac{6\,dY'}{Y'(Y'+1)}
+   =\frac{18}{X'}\,\omega_{B'}.}
+ \tag{99}
+$$
+新 raw 微分在 canonical $O$ 及三个 $B'[2]\setminus\{O\}$
+各有一阶零；后三处用局部 $t$ 的单极作
+$x=\pi^{-2}x_{\min},y=\pi^{-3}y_{\min}$，便有
+$\omega_t=\pi\omega_{\min}$。
+所以在新 $\mathscr L'$ 的正确极小模型上
+$$
+ \operatorname{div}\bigl(\lambda'\omega_t^{-2}\bigr)
+ =-(T)-(-T)-2\sum_{b\in B'[2]\setminus\{O\}}(b).
+ \tag{100}
+$$
+这与 $\deg\mathscr L'=4$ 一致；新曲面的全部好点亦无 KS 零。
+特别是三个原17标记好纤维没有一个隐藏的 $q-2$ 阶 KS 零。
+
+Hasse 不变量在这些超奇异好点则都是**简单零**。
+这里可直接支付通用局部事实：在 prime-to-$q$ 的有序二级
+étale 模型上取 Legendre 参数 $r$，令 $m=(q-1)/2$；
+Hasse 多项式为一个非零常数乘
+$H(r)=\sum_{i=0}^m\binom mi^2r^i$。
+它在特征 $q$ 满足
+$$
+ r(1-r)H''+(1-2r)H'-\tfrac14H=0.
+$$
+$H(0)=1$、$H(1)=(-1)^m$。
+若有重根 $r_0\notin\{0,1\}$，重数
+$2\le e\le m<q$，最低阶项的系数
+$r_0(1-r_0)e(e-1)$ 非零，矛盾。
+(98)、(100)说明原基到这个光滑模参数的微分为单位，
+故其拉回仍为简单零。这里使用 stack 的真实局部参数，
+没有因 $j=0,1728$ 的粗模分歧而误计 Hasse 重数。
+
+### 19.2 直接适用原截面的完整 Manin 公式
+
+以下取 $q>5$；主目标只需删除有限多个辅助素数。
+将原点写成
+$$
+ -3W^2=4x^3+(x+t)^2,\qquad
+ x_s=x+\frac1{12},\quad y_s=\frac{\delta W}{2}.
+$$
+短模型是
+$$
+ y_s^2=x_s^3+a_4x_s+a_6,\qquad
+ a_4=\frac t2-\frac1{48},\quad
+ a_6=\frac{t^2}4-\frac t{24}+\frac1{864}.
+$$
+定义 $A_q,M_q$ 为完整多项式分解
+$$
+ (Z^3+a_4Z+a_6)^{(q-1)/2}
+   =Z^qM_q(Z)+A_qZ^{q-1}+L_q(Z),\quad
+ \deg L_q<q-1.
+$$
+令 $D=d/\lambda$；由(97)有
+$$
+ D=\frac{X_B}{9}D_B,\qquad
+ D_BX_B=2Y_B+1,\quad D_BY_B=3X_B^2,\qquad
+ D\log\Delta=1-36t .
+$$
+于是 Broumas 的公式在原反 Frobenius 规范中化为
+$$
+ z_Q=
+ \frac{D x_s-2x_s^2-(1-36t)x_s/6-4a_4/3}{W},
+$$
+$$
+ \boxed{\frac{\mu(Q)}{\delta}
+       =\frac{W\,M_q(x_s)}2+
+           \frac{z_Q^q+A_qz_Q}{3}.}
+ \tag{101}
+$$
+确实原公式是
+$y_sM_q(x_s)+(Z_Q^q-A_qZ_Q)$，其中 $Z_Q=z_Q/\delta$；
+因 $\delta^q=-\delta$、$\delta^2=-3$，得到显示的正号。
+式(101)保原 $W$ 的 Norm 定向。
+在 $W=0$ 或点落到零截面时，先作为函数域恒等式计算并约分，
+再在极小模型延拓；不以分母为由删除这些点。
+
+令
+$$
+ \nu(Q)=\mu(Q)\lambda\,\omega_t^{q-2}.
+ \tag{102}
+$$
+
+具体地，在任意基变函数 $u$ 给出的短模型变换
+$x_{\rm new}=u^2x,\ y_{\rm new}=u^3y$ 下，
+$\lambda_{\rm new}=u^{-2}\lambda$、
+$\omega_{\rm new}=u^{-1}\omega$、
+$A_{\rm new}=u^{q-1}A$、$D_{\rm new}=u^2D$。
+完整分子中的 $D u$ 项与 $D\log\Delta_{\rm new}$ 项准确抵消，
+给 $Z_{\rm new}=uZ$；又
+$M_{\rm new}(u^2x)=u^{q-3}M(x)$，故
+$\mu_{\rm new}=u^q\mu$。
+因此(102)的各倍率之积恰为一，极小模型换元不增加未记载的函数。
+
+这是模型无关的
+$\Omega_B^1\otimes\mathscr L^{q-2}$ 截面。
+它在所有好点正则：短模型中的分母 $y_s$ 若为单位可直接读公式；
+遇到二挠点可先换 $2Q$，而 $\mu(2Q)=2\mu(Q)$；
+在零截面使用下一节的正则 formal 展开。
+
+在两处乘法坏纤维，用 Tate 参数 $T_{\rm Tate}$ 及点参数 $u$，
+则
+$\lambda=dT_{\rm Tate}/T_{\rm Tate}$，
+$\mu(Q)=z^q-z$，
+$z=(du/u)/(dT_{\rm Tate}/T_{\rm Tate})$。
+
+这里的 Tate 公式有准确归一而非只差一个有理函数：
+[BM, §5]给规范 $\lambda=d\log T_{\rm Tate}$，且标准
+Tate 微分是 $du/u$、Hasse 是一。
+候选 $z^q-z$ 在 $u\mapsto uT_{\rm Tate}^r$ 下不变，
+因为 $z\mapsto z+r$。它与显式 $\mu$ 的一次和 $q$ 次
+微分项完全相同；两者之差因而是无导数的形式群同态
+$\widehat{\mathbf G}_m\to\mathbf G_a$。
+以 $w=u-1$ 写成 $h(w)$，同态性及
+$[q]w=w^q$、$\mathbf G_a[q]=0$ 强迫 $h(w^q)=0$，
+所以 $h=0$。
+任一局部点可乘一个与 $q$ 互素的整数进入形式群：
+有限剩余域的乘法群及原 $I_9/I_3$ 分量群均为此种阶数。
+两同态之差遂在整个实际局部点群上为零。
+
+若纤维为 $I_n$，$n=9$ 或 $3$，写
+$T_{\rm Tate}=s^n\times\text{单位}$、
+$u=s^r\times\text{单位}$，
+则 $z=r/n+O(s)$，且 $r/n\in\mathbf F_q$。
+所以 $\mu(Q)$ 至少有一阶零，正好抵消 $\lambda$ 的一阶极。
+故所有实际边界均给
+$$
+ \boxed{\nu(Q)\in
+ H^0(B,\Omega_B^1\otimes\mathscr L^{q-2}),\qquad
+ \deg(\nu(Q))=q-2\quad\text{若 }\mu(Q)\ne0.}
+ \tag{103}
+$$
+规范最短 $Q_{\min}$ 不是 $q$ 倍：
+否则高度被 $q^2$ 除后违反原最短高度。
+[BM, §7.1] 的准确 kernel 定理遂给
+$\mu(Q_{\min})\ne0$，所以(103)确实适用这个原输入，
+不是对一个可能为零的微分计其零除子。
+
+### 19.3 在原超奇异点，Manin 零与真实接触的充要关系
+
+取一个原超奇异好点 $b$，其完成局部环为 $k[[s]]$。
+因 $A_q$ 是简单零、KS 是单位，可写
+$A_q=a s+O(s^2)$、$\lambda=\ell\,ds+O(s\,ds)$，
+$a\ell\ne0$。
+$Q_{\min}(b)$ 是 prime-to-$q$ 挠点；在有限域上这是
+超奇异点群无 $q$ 挠的直接结果。
+其阶记为 $N$，有限 étale 群 $S[N]$ 在严格 Hensel 局部环中
+给唯一的 $N$ 挠局部分支 $\mathscr T$ 通过该点。
+定义真实接触阶
+$$
+ n_b=(Q_{\min},\mathscr T)_b
+     =\operatorname{ord}_s u(Q_{\min}-\mathscr T),
+$$
+其中 $u=-x_s/y_s$ 是零截面 formal 参数。
+因 $N\mu(\mathscr T)=0$、$q\nmid N$，有
+$\mu(Q_{\min})=\mu(Q_{\min}-\mathscr T)$。
+
+下面给本节需要的完整 formal 计算。
+写不变微分为 $b(u)\,du$，$b(0)=1$。
+由 [BM] 公式对 $D u$ 的次数，只可能出现一次项和 $q$ 次项，
+于是
+$$
+ \mu(u)=b(u)^q(Du)^q-A_qb(u)Du+R(u).
+ \tag{104}
+$$
+这里最初 $R(u)$ 是系数在 $k[[s]]$ 的 Laurent 级数。
+把 formal $[q]u=A_qu^q+O(u^{2q})$ 代入，
+利用群同态恒等式 $\mu([q]u)=0$：
+前两项没有负幂，故 $R$ 也没有负幂且 $R(0)=0$；
+比较 $u^q$ 项又给
+$R'(0)A_q-A_qD A_q=0$。
+在函数域中约去非零 $A_q$，得到
+$R(u)=(D A_q)u+O(u^2)$。
+这同时证明了上一节零截面处所需的正则性。
+
+若 $n_b=1$，(104)的 $(Du)^q$ 项为单位，其他项正阶，
+所以 $\operatorname{ord}_b\nu(Q_{\min})=0$。
+若 $n_b=n\ge2$，写 $u=c s^n+\cdots$。
+一次部分的准确最低系数为
+$$
+ (D A_q)u-A_qDu
+   =\frac{a(1-n)c}{\ell}s^n+O(s^{n+1}),
+$$
+而 $q$ 次项的阶至少为 $q(n-1)$，
+其余项的阶至少为 $\min(2n,2n-1+\operatorname{ord}A_q)>n$。
+当 $2\le n\le q-2$ 时，显示的系数非零；
+当 $n\ge q-1$ 时，整个式子的阶至少为 $n\ge q-1$。
+最后一种情形被(103)的非零全零除子次数 $q-2$ 排除。
+因此原最短截面在每个超奇异好点准确满足
+$$
+ \boxed{
+ \begin{aligned}
+ &1\le n_b\le q-2,\\
+ &n_b=1\ \Longleftrightarrow\ \nu(Q_{\min})(b)\ne0,\\
+ &n_b\ge2\ \Longrightarrow\
+       \operatorname{ord}_b\nu(Q_{\min})=n_b .
+ \end{aligned}}
+ \tag{105}
+$$
+特别是超奇异点的 $\nu$ 零不可能是一阶零。
+所以对已付的 $q=11$ 截面消费(101)，确实能判定其完整
+Hasse 除子上的真实接触阶；不会把一个 Hasse 零自行算成高接触。
+
+最后，目标 $p\ne q$ 的局部除点问题与(105)不同。
+在这个好模型上 $[p]$ 是 étale；
+给定剩余域中的一个 $p$ 除点，它唯一提升为
+$Q$ 的一个局部 $p$ 除截面，formal 导数只是乘一个 $p$ 单位。
+这个提升本身不给 $n_b$ 增加一个 $p$ 或 $p^2$ 因子。
+若要由§18的全 $p$ 整除再得到高度矛盾，
+必须另证原两个标记之间的关系迫使(105)中的
+$\nu(Q_{\min})$ 出现相应的高阶零；
+本节给出了可实际计算、带全部边界的确切判据。
+
+[BM] A. Broumas, *Effective p-descent*, Compositio Mathematica
+107 (1997), 125–141，Main Theorem、§§4、7.1。
+[出版原文](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/95814903A024FCB1B2C13CA8778759DA/S0010437X97000365a.pdf/effective-p-descent.pdf)。
