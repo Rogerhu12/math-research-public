@@ -30,3 +30,5 @@
 - [R1012](../results/R1012-original-thirteen-fixed-word-sources-and-full-rational-trace.md)：固定十三Kummer字逐一属于degree10扭线，Miller/平移完整返回十维；隔核权十三字皆有准确1/13首项。两primitive全有限型给真实伴线Lπ与E571220，质量匹配双支差3Δ125/4保原old非零。全degree13有理trace消去Aπ² apparent分母；完整乘积后准确缩成0/平方/非平方三轨道，不提前交换几何投影或赋加权中央零。
 
 - [R1016](../results/R1016-single-characteristic-zero-flat-trace-and-full-tate-depth.md)：单一特征零平坦权保全部N=H(p+1)原jet，完整trace给h_N(πz)−f从N+1阶起；真实target分母M=7N/3+2、P整、维数M+2明确增长。统一Hurwitz与完整尾把原中央导数直接比较到p^(H+1)，保质量logqπ与双支差，不另留低项高精度接口；E2全部极仍<p³，两个exact及原点项保留。old非零在同一个亚纯输入检出，不新增canonical零。
+
+- [R1014](../results/R1014-inert-reduction-new-sections-and-finite-field-shadow.md)：给原I9/I3曲面构造真正光滑射影非恒period族，四个全局Weil中心的全部局部图付同时解消；conormal/Serre、无穷j三阶及内在可变临界值付KS，调用已发表HYZ B得到所有充分大q的Tate。惰性NS判别式−q²、完整MW=(q/3)A2、Frob−共轭及两常数域Brauer零；原54图保η/Cor/P−转置的整交公式准确。Guo–Yang预印本只保小q条件范围，不作无条件输入；实际交值/普通局部非零仍待。
