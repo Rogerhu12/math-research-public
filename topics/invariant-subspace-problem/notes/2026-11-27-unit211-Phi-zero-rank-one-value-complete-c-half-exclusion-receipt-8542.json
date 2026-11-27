@@ -1,0 +1,475 @@
+{
+  "scope": "whole c=1/2 original Phi0/zn0 selected ordered h=1 branch",
+  "result": "complete characteristic-zero exclusion; both exact lambda fields, all rho",
+  "run_id": 45996824454,
+  "job_id": 140498201469,
+  "execution": {
+    "elapsed_seconds": 0.21909540499999736,
+    "max_child_rss_kib": 38440,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "83c73ef8d2d8b080540547a613e3466469467fab",
+        "before": "83c73ef8d2d8b080540547a613e3466469467fab",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-27T12:13:38.766481+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "45996824454",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "83c73ef8d2d8b080540547a613e3466469467fab",
+    "source_exit_code": 0,
+    "source_git_blob": "881cb40b186e4ebc8f453e19150b4d4f4c03063f",
+    "source_sha256": "ecea30520fbf1cdcc2412b4a6e71e14e362efff0f1163e1bee7211878b0ace60",
+    "stdout_bytes": 7131,
+    "stdout_sha256": "69c1f40a3b11c1f86efc65fa2c9375dd23234e1a625c4a8aa9c14b0111e1de45",
+    "stop_reason": null
+  },
+  "records": [
+    {
+      "case": "lambda_half",
+      "lambdaEquation": "2*lambda-1",
+      "ell": "3/2",
+      "weights_b_c": [
+        "1",
+        "1/2"
+      ],
+      "originalPhiZero": true,
+      "originalPfLine": true,
+      "originalNVLine": true,
+      "originalP1": true,
+      "discardedEllOneOnlyByPublishedWholeEqualWeights": true,
+      "noRhoFiberDiscarded": true,
+      "claimExcluded": false,
+      "stage": "whole_c_half_original_constant_field_input",
+      "seconds": 0.013983271000000741
+    },
+    {
+      "case": "lambda_half",
+      "name": "E1",
+      "originalScalePower": 2,
+      "polynomial": {
+        "degree": 3,
+        "sha256": "f9e7783b057b4f5686b17d94987ecaf21cba04bdd44a3fe6691cd89f9793a8f0",
+        "coefficientsAscending": [
+          [
+            "-9",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "15",
+            "0"
+          ],
+          [
+            "-10",
+            "0"
+          ]
+        ]
+      },
+      "paidRhoFactorsRemoved": [
+        [
+          "p",
+          7
+        ]
+      ],
+      "actualBothLambdaEmbeddingsRetained": false,
+      "noSeparateCoefficientVanishingInference": true,
+      "claimExcluded": false,
+      "stage": "new_c_half_same_source_original_row",
+      "seconds": 0.03173231899999962
+    },
+    {
+      "case": "lambda_half",
+      "usedOriginalRows": [
+        "E1"
+      ],
+      "gcd": {
+        "degree": 3,
+        "sha256": "99378518d9f8993888357f95fc2fe1533f6d6fb0b77f5a062bbb473fd533f17f",
+        "coefficientsAscending": [
+          [
+            "9/10",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "-3/2",
+            "0"
+          ],
+          [
+            "1",
+            "0"
+          ]
+        ]
+      },
+      "tagDegrees": [
+        0
+      ],
+      "allOriginalProductsMultipliedBack": true,
+      "tagSha256": "e30343b882840a7c26aa8432469cda9ba1d09599e07440eeeab72f9a7b8599af",
+      "claimExcluded": false,
+      "stage": "whole_c_half_actual_constant_field_Bezout",
+      "seconds": 0.03258742799999936
+    },
+    {
+      "case": "lambda_half",
+      "name": "EB",
+      "originalScalePower": 2,
+      "polynomial": {
+        "degree": 3,
+        "sha256": "cb9418b250d97da537d41c2d30e676433b63f1c5fc01be3f8c79eab24478672b",
+        "coefficientsAscending": [
+          [
+            "-9",
+            "0"
+          ],
+          [
+            "-3",
+            "0"
+          ],
+          [
+            "11",
+            "0"
+          ],
+          [
+            "-3",
+            "0"
+          ]
+        ]
+      },
+      "paidRhoFactorsRemoved": [
+        [
+          "p",
+          7
+        ]
+      ],
+      "actualBothLambdaEmbeddingsRetained": false,
+      "noSeparateCoefficientVanishingInference": true,
+      "claimExcluded": false,
+      "stage": "new_c_half_same_source_original_row",
+      "seconds": 0.04980734800000164
+    },
+    {
+      "case": "lambda_half",
+      "usedOriginalRows": [
+        "E1",
+        "EB"
+      ],
+      "gcd": {
+        "degree": 0,
+        "sha256": "de71d3759a28ffb34177443b429d7f9c4c69fb444ce26ca7cfcc284594515747",
+        "coefficientsAscending": [
+          [
+            "1",
+            "0"
+          ]
+        ]
+      },
+      "tagDegrees": [
+        2,
+        2
+      ],
+      "allOriginalProductsMultipliedBack": true,
+      "tagSha256": "95b8bde6af7a7376ef9d2b815099f48eca4146c7e717e08ac39cb89271b8c695",
+      "claimExcluded": true,
+      "stage": "whole_c_half_actual_constant_field_Bezout",
+      "seconds": 0.054891011999998796
+    },
+    {
+      "case": "lambda_half",
+      "completeOriginalExclusion": true,
+      "usedOriginalRows": [
+        "E1",
+        "EB"
+      ],
+      "remainingGcd": {
+        "degree": 0,
+        "sha256": "de71d3759a28ffb34177443b429d7f9c4c69fb444ce26ca7cfcc284594515747",
+        "coefficientsAscending": [
+          [
+            "1",
+            "0"
+          ]
+        ]
+      },
+      "statistics": {
+        "multiplications": 1311,
+        "reductionIdentities": 2622,
+        "inverseProducts": 40,
+        "polynomialDivisions": 25,
+        "polynomialBezoutProducts": 2
+      },
+      "modularResultUsed": false,
+      "actualRowFields": "QQ or QQ[lambda]/(3lambda^2-2lambda+1)",
+      "stage": "complete_c_half_actual_field_return",
+      "seconds": 0.05493366800000388
+    },
+    {
+      "case": "lambda_quadratic",
+      "lambdaEquation": "3*lambda^2-2*lambda+1",
+      "ell": "3/2",
+      "weights_b_c": [
+        "1",
+        "1/2"
+      ],
+      "originalPhiZero": true,
+      "originalPfLine": true,
+      "originalNVLine": true,
+      "originalP1": true,
+      "discardedEllOneOnlyByPublishedWholeEqualWeights": true,
+      "noRhoFiberDiscarded": true,
+      "claimExcluded": false,
+      "stage": "whole_c_half_original_constant_field_input",
+      "seconds": 0.06950891900000045
+    },
+    {
+      "case": "lambda_quadratic",
+      "name": "E1",
+      "originalScalePower": 2,
+      "polynomial": {
+        "degree": 5,
+        "sha256": "a6e7c6a8dfbd30fdccb17c3afcaf80e1542887e6d3919a9fa0d15be12135be8f",
+        "coefficientsAscending": [
+          [
+            "42285/484",
+            "-1402593/1936"
+          ],
+          [
+            "-152931/968",
+            "4470087/1936"
+          ],
+          [
+            "483/22",
+            "-266679/88"
+          ],
+          [
+            "70817/484",
+            "1983495/968"
+          ],
+          [
+            "-74963/484",
+            "-1369125/1936"
+          ],
+          [
+            "46249/968",
+            "197355/1936"
+          ]
+        ]
+      },
+      "paidRhoFactorsRemoved": [
+        [
+          "p",
+          5
+        ]
+      ],
+      "actualBothLambdaEmbeddingsRetained": true,
+      "noSeparateCoefficientVanishingInference": true,
+      "claimExcluded": false,
+      "stage": "new_c_half_same_source_original_row",
+      "seconds": 0.09420036600000259
+    },
+    {
+      "case": "lambda_quadratic",
+      "usedOriginalRows": [
+        "E1"
+      ],
+      "gcd": {
+        "degree": 5,
+        "sha256": "dc427388748f838bd40ffd18e14f31d34ef9b368da4ad2b2e0ee90f06365d481",
+        "coefficientsAscending": [
+          [
+            "-449344785/278585459",
+            "-1348079934/278585459"
+          ],
+          [
+            "1863890799/278585459",
+            "3916012416/278585459"
+          ],
+          [
+            "-3111014298/278585459",
+            "-4554284364/278585459"
+          ],
+          [
+            "2681320094/278585459",
+            "2570531280/278585459"
+          ],
+          [
+            "-1299629141/278585459",
+            "-557553990/278585459"
+          ],
+          [
+            "1",
+            "0"
+          ]
+        ]
+      },
+      "tagDegrees": [
+        0
+      ],
+      "allOriginalProductsMultipliedBack": true,
+      "tagSha256": "11515c8a91c21a3508f5b021e1740204d9f959f169476b92e5b5ea0e26b1de4e",
+      "claimExcluded": false,
+      "stage": "whole_c_half_actual_constant_field_Bezout",
+      "seconds": 0.09742320400000182
+    },
+    {
+      "case": "lambda_quadratic",
+      "name": "EB",
+      "originalScalePower": 2,
+      "polynomial": {
+        "degree": 4,
+        "sha256": "32c2d4fb0af9dab04c401fe18fce2ac36147683d3ebe4937c44cff1858c8e887",
+        "coefficientsAscending": [
+          [
+            "75069/1936",
+            "5121/484"
+          ],
+          [
+            "-66663/484",
+            "-22071/242"
+          ],
+          [
+            "158779/968",
+            "14127/121"
+          ],
+          [
+            "-54259/484",
+            "-6993/242"
+          ],
+          [
+            "73077/1936",
+            "-3117/484"
+          ]
+        ]
+      },
+      "paidRhoFactorsRemoved": [
+        [
+          "p",
+          6
+        ]
+      ],
+      "actualBothLambdaEmbeddingsRetained": true,
+      "noSeparateCoefficientVanishingInference": true,
+      "claimExcluded": false,
+      "stage": "new_c_half_same_source_original_row",
+      "seconds": 0.12161706399999872
+    },
+    {
+      "case": "lambda_quadratic",
+      "usedOriginalRows": [
+        "E1",
+        "EB"
+      ],
+      "gcd": {
+        "degree": 0,
+        "sha256": "de71d3759a28ffb34177443b429d7f9c4c69fb444ce26ca7cfcc284594515747",
+        "coefficientsAscending": [
+          [
+            "1",
+            "0"
+          ]
+        ]
+      },
+      "tagDegrees": [
+        3,
+        4
+      ],
+      "allOriginalProductsMultipliedBack": true,
+      "tagSha256": "6f061ad061add018c8923d0fd9c3caa3cfd01ceeda00510832cde36b420da5cf",
+      "claimExcluded": true,
+      "stage": "whole_c_half_actual_constant_field_Bezout",
+      "seconds": 0.16511292799999921
+    },
+    {
+      "case": "lambda_quadratic",
+      "completeOriginalExclusion": true,
+      "usedOriginalRows": [
+        "E1",
+        "EB"
+      ],
+      "remainingGcd": {
+        "degree": 0,
+        "sha256": "de71d3759a28ffb34177443b429d7f9c4c69fb444ce26ca7cfcc284594515747",
+        "coefficientsAscending": [
+          [
+            "1",
+            "0"
+          ]
+        ]
+      },
+      "statistics": {
+        "multiplications": 2683,
+        "reductionIdentities": 5366,
+        "inverseProducts": 78,
+        "polynomialDivisions": 48,
+        "polynomialBezoutProducts": 4
+      },
+      "modularResultUsed": false,
+      "actualRowFields": "QQ or QQ[lambda]/(3lambda^2-2lambda+1)",
+      "stage": "complete_c_half_actual_field_return",
+      "seconds": 0.16517718700000472
+    },
+    {
+      "scope": "only Phi=0 and zn=0, ordered h=1, c=1/2; k=1 follows by B/C exchange",
+      "exactMomentFactor": "2*A2^3-B3^2=(2lambda-1)^2*(3lambda^2-2lambda+1)",
+      "exactPhiFactor": "Phi=-(1+rho)^2*(ell-1)*(2ell-3)",
+      "ellOneExcludedByPublishedWholeEqualWeights": true,
+      "originalFieldReturns": [
+        {
+          "case": "lambda_half",
+          "completeOriginalExclusion": true,
+          "usedOriginalRows": [
+            "E1",
+            "EB"
+          ],
+          "remainingGcd": {
+            "degree": 0,
+            "sha256": "de71d3759a28ffb34177443b429d7f9c4c69fb444ce26ca7cfcc284594515747",
+            "coefficientsAscending": [
+              [
+                "1",
+                "0"
+              ]
+            ]
+          }
+        },
+        {
+          "case": "lambda_quadratic",
+          "completeOriginalExclusion": true,
+          "usedOriginalRows": [
+            "E1",
+            "EB"
+          ],
+          "remainingGcd": {
+            "degree": 0,
+            "sha256": "de71d3759a28ffb34177443b429d7f9c4c69fb444ce26ca7cfcc284594515747",
+            "coefficientsAscending": [
+              [
+                "1",
+                "0"
+              ]
+            ]
+          }
+        }
+      ],
+      "claimExcluded": true,
+      "wholePhiFaceClaim": false,
+      "ordinaryISPClaim": false,
+      "stage": "complete_Phi0_rank_one_c_half_original_return",
+      "seconds": 0.1651958600000043
+    }
+  ]
+}

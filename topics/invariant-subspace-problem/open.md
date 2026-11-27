@@ -4,7 +4,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-Delta-6239-cover-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-c-half-and-new-inputs-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -182,10 +182,10 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 **[整个一般ell=0已闭](results/R150-appendix-unit211-general-ell-zero-complete-original-exclusion.md)，全局可付ell。** 完整来源/零域/失败身份保总定理及快照；T0=0和J=Q也已整闭，继续当前原值输入，不重放旧支。
 
-**[Delta0 h1/k1的原完整因式与6229基点覆盖](results/R150-appendix-unit211-Delta-zero-h-one-exact-factorization-and-6229-point-cover.md)已付。** b737实际25.741秒/168348KiB/exit0，G389精确a(2λ−1)²J387全乘回；J双度306/81，与F49互素。平方自由覆盖双度307/81给≤6229基点/18687含ell投影，λ半完整纤维及原t/兼容式/八行继续保留，未宣称原解有限或排空。[一般Delta非0六维](results/R150-appendix-unit211-general-delta-nonzero-monic-six-full-original-value-return.md)仍开；新27211310首次接一般h=k≠1的原Gram/Delta首一b4，全八原值保两singleton同h靶、D=0全保；180秒4GiB待实际，其它E=0及t六次头零继续，旧S0碰撞不外推。
+**[Delta0 h1/k1的原完整因式与6229基点覆盖](results/R150-appendix-unit211-Delta-zero-h-one-exact-factorization-and-6229-point-cover.md)已付。** b737实际25.741秒/168348KiB/exit0，G389精确a(2λ−1)²J387全乘回；J双度306/81，与F49互素。平方自由覆盖双度307/81给≤6229基点/18687含ell投影，λ半完整纤维及原t/兼容式/八行继续保留，未宣称原解有限或排空。[一般Delta非0六维](results/R150-appendix-unit211-general-delta-nonzero-monic-six-full-original-value-return.md)仍开；2721真0.080秒/41048KiB/exit1，b4/N4原线已返，H=bDelta漏清原c使分母审计停止、八行未开始。新fdece只改H=bcDelta保两singleton同h靶、D=0全保；180秒4GiB待实际，其它E=0及t六次头零继续，旧S0碰撞不外推。
 
 [Haar解析理想像](results/R12-appendix-analytic-ideal-rosenblum-images-and-forced-source-divergence.md)只给同g循环闭包，有限Sobolev来源球距g正、逼近源范数发散；[新非对称双幂的精确局部分类](results/R12-appendix-local-asymmetric-polynomial-orbits-and-actual-haar-source-exclusion.md)进一步排除原Haar所有非常数解析单位化及其伴随的非零多项式增长来源。完整同向量恒等式和局部有限阶分布证明已付；这些限制不涵盖紧扰动或负整数边界。Rosenblum实际零点/ideal来源、真实Green范围、非循环g及未知闭根域继续。
 
-**[整Phi0完整值](results/R150-appendix-unit211-general-Phi-zero-monic-six-same-source-original-values.md)及[h1图精确1945次原覆盖](results/R150-appendix-unit211-Phi-zero-rank-one-value-exact-1945-degree-original-cover.md)已付。** c3e7真3.132秒/52636KiB/exit0，20轮真实QQ核行提∞106阶/18953逐项身份，合60c2真实模1945给QQ精确次数与1009首项单位；基点≤1945、含ell≤3890。新ecea首接c1/2两个精确原域；1e83首算个别NB/PB的完整模投影、主R各已知因子的完整重数，均120秒1GiB待实际。所有原候选及k1交换仍保，模gcd不代QQ整除。
+**[Phi0/h1原覆盖精确1945次](results/R150-appendix-unit211-Phi-zero-rank-one-value-exact-1945-degree-original-cover.md)，[整个c=1/2原支已闭](results/R150-appendix-unit211-Phi-zero-rank-one-value-complete-c-half-exclusion.md)。** ecea真0.219秒/38440KiB/exit0，λ半QQ与3λ²−2λ+1完整二次域的原E1/EB皆Bezout1；ell1仅用已付等权，ell3/2全返。1e83真5.506秒/exit0，新NB/PB完整模投影仍gcd908，六phi主R重数111/117/110/24/145/44仅是模数据；[准确筛选记录](notes/2026-11-27-unit211-Phi-zero-rank-one-value-individual-NBPB-modular-observation-8542.md)保留。新11fc首次六phi真实QQ局部核行，120秒1GiB待实际；k1交换及剩余原候选仍开。
 
 **[同一实际右逆的全部指数尺度](results/R271-appendix-single-actual-right-inverse-on-all-physical-exponential-scales.md)与[新平滑修正/实际核截断通量](results/R271-appendix-same-right-inverse-smoothing-correction-and-actual-kernel-cut-flux.md)已付。** 同Gλ:Xκ+λ→Xκ、Gⁿ费exp(Cn³)；G=R−C且C:H→所有Xκ、CPq高斯，C*有e^(28N²)矩。双侧孔壳给R*有限孔、R/G可闭、闭G值域闭。对f_n∈E∞→f∈M，RTf_n有界子列即f∈N；非零w∈W的原cut修复范数全序列→∞，固定有限孔测试趋0而同w配对→||w||²。同规范h=r−C*w，Sh∈H恰Sr∈H。原通量上界、Gamma、G保N及N=M均未付。

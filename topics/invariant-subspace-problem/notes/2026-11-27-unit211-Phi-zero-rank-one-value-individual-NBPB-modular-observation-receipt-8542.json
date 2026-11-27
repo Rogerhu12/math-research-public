@@ -1,0 +1,773 @@
+{
+  "scope": "Phi0/zn0 ordered h=1, new individual NB/PB original projections",
+  "status": "exact modular input; gcd not improved; no QQ division inferred",
+  "execution": {
+    "elapsed_seconds": 5.5064215630000035,
+    "max_child_rss_kib": 57548,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "83c73ef8d2d8b080540547a613e3466469467fab",
+        "before": "83c73ef8d2d8b080540547a613e3466469467fab",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-27T12:13:36.307800+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "45996826906",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "83c73ef8d2d8b080540547a613e3466469467fab",
+    "source_exit_code": 0,
+    "source_git_blob": "0e3ac1d9ebb923b83e7bef47491cfee6e7fb96ee",
+    "source_sha256": "1e837721c676171f911e5e9b55fa6b634be49cd52d164a00dc753ad3e420e2f4",
+    "stdout_bytes": 25043,
+    "stdout_sha256": "753c23b83632211c475c45680e1df9e769d8969f97abd7f553074063e0ce38a2",
+    "stop_reason": null
+  },
+  "run_id": 45996826906,
+  "job_id": 140498207849,
+  "records": [
+    {
+      "label": "NB_principal",
+      "originalRows": [
+        "NB",
+        "ell:NB"
+      ],
+      "target": "H^3",
+      "QQCore": {
+        "degrees": [
+          113,
+          22
+        ],
+        "terms": 2622,
+        "totalDegree": 135,
+        "sha256": "fe633a85668269afdd3fb41fd06f7d7e8f2704288b03d43d9b6c6748d7bc02d2"
+      },
+      "integerCore": {
+        "degrees": [
+          113,
+          22
+        ],
+        "terms": 2622,
+        "totalDegree": 135,
+        "sha256": "5451c71c0cf90a95d6438bf1a7e5996d3750e34313f9375ad9c4ca3853db4e5a"
+      },
+      "rationalScale": "783383931110279705209602048",
+      "wholeOriginalCramerIdentityVerified": true,
+      "noExtraNormUnit": true,
+      "claimExcluded": false,
+      "stage": "individual_original_value_unit_core",
+      "seconds": 3.9821062249999954
+    },
+    {
+      "label": "PB_principal",
+      "originalRows": [
+        "PB",
+        "ell:PB"
+      ],
+      "target": "H^3",
+      "QQCore": {
+        "degrees": [
+          127,
+          24
+        ],
+        "terms": 3200,
+        "totalDegree": 151,
+        "sha256": "cd5930ced12a19f6a87bc328531ccbc9da152e45b71922e959cba3aee9288e84"
+      },
+      "integerCore": {
+        "degrees": [
+          127,
+          24
+        ],
+        "terms": 3200,
+        "totalDegree": 151,
+        "sha256": "5a851303917ade23b05d70e4a0fef6ad4c7aaeba223132288918e1c914e17b5c"
+      },
+      "rationalScale": "1002731431821158022668290621440",
+      "wholeOriginalCramerIdentityVerified": true,
+      "noExtraNormUnit": true,
+      "claimExcluded": false,
+      "stage": "individual_original_value_unit_core",
+      "seconds": 4.6105164599999995
+    },
+    {
+      "label": "R27_original_cover",
+      "prime": 1009,
+      "originalBidegrees": [
+        [
+          77,
+          14
+        ],
+        [
+          75,
+          13
+        ]
+      ],
+      "fixedSylvesterOrder": 27,
+      "QQDegreeUpperBound": 2051,
+      "fullModResultant": {
+        "degree": 1945,
+        "sha256": "e3312d0f8b9a52dd7f59435e7ed2a8d4592fcaa8743e65051dae2ece669c797f"
+      },
+      "QQDegreePreservedByUpperBound": false,
+      "allInputRhoDegreesPreserved": true,
+      "allInputIntegerCoefficients": true,
+      "allLeadingZeroFibersRetained": true,
+      "fullQQResultantComputed": false,
+      "claimExcluded": false,
+      "stage": "complete_fixed_original_rho_resultant_mod1009",
+      "seconds": 4.689042347999994
+    },
+    {
+      "label": "S28_original_mean",
+      "prime": 1009,
+      "originalBidegrees": [
+        [
+          76,
+          15
+        ],
+        [
+          75,
+          13
+        ]
+      ],
+      "fixedSylvesterOrder": 28,
+      "QQDegreeUpperBound": 2113,
+      "fullModResultant": {
+        "degree": 2005,
+        "sha256": "33952aa89ca546c28ac8efaf2c6c4d02cefcd31be02fb34b92ce8fb5e4a93976"
+      },
+      "QQDegreePreservedByUpperBound": false,
+      "allInputRhoDegreesPreserved": true,
+      "allInputIntegerCoefficients": true,
+      "allLeadingZeroFibersRetained": true,
+      "fullQQResultantComputed": false,
+      "claimExcluded": false,
+      "stage": "complete_fixed_original_rho_resultant_mod1009",
+      "seconds": 4.766794855999997
+    },
+    {
+      "label": "T28_original_other_mean",
+      "prime": 1009,
+      "originalBidegrees": [
+        [
+          83,
+          15
+        ],
+        [
+          75,
+          13
+        ]
+      ],
+      "fixedSylvesterOrder": 28,
+      "QQDegreeUpperBound": 2204,
+      "fullModResultant": {
+        "degree": 2096,
+        "sha256": "fc82b4741f79bd31e4332f9194eceb56421d98bd553ce05bb753b8866b206415"
+      },
+      "QQDegreePreservedByUpperBound": false,
+      "allInputRhoDegreesPreserved": true,
+      "allInputIntegerCoefficients": true,
+      "allLeadingZeroFibersRetained": true,
+      "fullQQResultantComputed": false,
+      "claimExcluded": false,
+      "stage": "complete_fixed_original_rho_resultant_mod1009",
+      "seconds": 4.848018373999999
+    },
+    {
+      "label": "new_individual_NB_principal",
+      "prime": 1009,
+      "originalBidegrees": [
+        [
+          77,
+          14
+        ],
+        [
+          113,
+          22
+        ]
+      ],
+      "fixedSylvesterOrder": 36,
+      "QQDegreeUpperBound": 3276,
+      "fullModResultant": {
+        "degree": 3084,
+        "sha256": "93f086b4300aff9a4d81436a72c6f38f1b1ecbb0019667b71e65d33ebbbc3eeb"
+      },
+      "QQDegreePreservedByUpperBound": false,
+      "allInputRhoDegreesPreserved": true,
+      "allInputIntegerCoefficients": true,
+      "allLeadingZeroFibersRetained": true,
+      "fullQQResultantComputed": false,
+      "claimExcluded": false,
+      "stage": "complete_fixed_original_rho_resultant_mod1009",
+      "seconds": 5.076513799999994
+    },
+    {
+      "label": "new_individual_PB_principal",
+      "prime": 1009,
+      "originalBidegrees": [
+        [
+          77,
+          14
+        ],
+        [
+          127,
+          24
+        ]
+      ],
+      "fixedSylvesterOrder": 38,
+      "QQDegreeUpperBound": 3626,
+      "fullModResultant": {
+        "degree": 3414,
+        "sha256": "dd85b3530643c7ff0928cb37422a57995068001d68bab9e766361396b32d1aa5"
+      },
+      "QQDegreePreservedByUpperBound": false,
+      "allInputRhoDegreesPreserved": true,
+      "allInputIntegerCoefficients": true,
+      "allLeadingZeroFibersRetained": true,
+      "fullQQResultantComputed": false,
+      "claimExcluded": false,
+      "stage": "complete_fixed_original_rho_resultant_mod1009",
+      "seconds": 5.368164295
+    },
+    {
+      "added": "S",
+      "gcd": {
+        "degree": 908,
+        "sha256": "7e55ad312705bcf923758ca42fac65a4fe4d46ba3c4fe2cdc7cb82b7c4368d42"
+      },
+      "tagDegrees": [
+        1096,
+        1036
+      ],
+      "tagSha256": "cad435451a29233b2b9dd4bbff5e9269dbaaf1c5e560fd23884f72be93fabb89",
+      "allOriginalProjectionProductsMultipliedBack": true,
+      "claimExcluded": false,
+      "stage": "actual_five_original_projection_chain",
+      "seconds": 5.374571118999995
+    },
+    {
+      "added": "T",
+      "gcd": {
+        "degree": 908,
+        "sha256": "7e55ad312705bcf923758ca42fac65a4fe4d46ba3c4fe2cdc7cb82b7c4368d42"
+      },
+      "tagDegrees": [
+        1096,
+        1036,
+        -1
+      ],
+      "tagSha256": "b73bbb2bfb8de6fc1ad78508adb9e384f624111b8b6b8e8a480d907b90f6f25a",
+      "allOriginalProjectionProductsMultipliedBack": true,
+      "claimExcluded": false,
+      "stage": "actual_five_original_projection_chain",
+      "seconds": 5.378791823
+    },
+    {
+      "added": "NB_principal",
+      "gcd": {
+        "degree": 908,
+        "sha256": "7e55ad312705bcf923758ca42fac65a4fe4d46ba3c4fe2cdc7cb82b7c4368d42"
+      },
+      "tagDegrees": [
+        1096,
+        1036,
+        -1,
+        -1
+      ],
+      "tagSha256": "60e548ad722268835b1ce7729454b158da74a4bedc98ee14b8f2d5b63ad7432e",
+      "allOriginalProjectionProductsMultipliedBack": true,
+      "claimExcluded": false,
+      "stage": "actual_five_original_projection_chain",
+      "seconds": 5.383134768999994
+    },
+    {
+      "added": "PB_principal",
+      "gcd": {
+        "degree": 908,
+        "sha256": "7e55ad312705bcf923758ca42fac65a4fe4d46ba3c4fe2cdc7cb82b7c4368d42"
+      },
+      "tagDegrees": [
+        1096,
+        1036,
+        -1,
+        -1,
+        -1
+      ],
+      "tagSha256": "590506e5d5aadf31e67c0b1cb0babfb5df6ff6e0e02a29b47d1e535aa61eb55d",
+      "allOriginalProjectionProductsMultipliedBack": true,
+      "claimExcluded": false,
+      "stage": "actual_five_original_projection_chain",
+      "seconds": 5.387538714999998
+    },
+    {
+      "name": "A2",
+      "phiQQCoefficientsAscending": [
+        "1/2",
+        "-1",
+        "1"
+      ],
+      "monicModCoefficientsAscending": [
+        505,
+        1008,
+        1
+      ],
+      "completePRIMARY_RModularMultiplicity": 111,
+      "completeFiveProjectionGcdModularMultiplicity": 111,
+      "role": "already paid original collision moment unit",
+      "actualFullDivisionsMultipliedBack": true,
+      "QQDivisibilityProvedByThisSource": false,
+      "claimExcluded": false,
+      "stage": "fixed_QQ_phi_complete_primary_R_modular_target",
+      "seconds": 5.394460723999998
+    },
+    {
+      "name": "B3_linear",
+      "phiQQCoefficientsAscending": [
+        "-1",
+        "1"
+      ],
+      "monicModCoefficientsAscending": [
+        1008,
+        1
+      ],
+      "completePRIMARY_RModularMultiplicity": 117,
+      "completeFiveProjectionGcdModularMultiplicity": 117,
+      "role": "factor of already paid B3",
+      "actualFullDivisionsMultipliedBack": true,
+      "QQDivisibilityProvedByThisSource": false,
+      "claimExcluded": false,
+      "stage": "fixed_QQ_phi_complete_primary_R_modular_target",
+      "seconds": 5.401085111999997
+    },
+    {
+      "name": "B3_quadratic",
+      "phiQQCoefficientsAscending": [
+        "1/4",
+        "-1/2",
+        "1"
+      ],
+      "monicModCoefficientsAscending": [
+        757,
+        504,
+        1
+      ],
+      "completePRIMARY_RModularMultiplicity": 110,
+      "completeFiveProjectionGcdModularMultiplicity": 110,
+      "role": "factor of already paid B3",
+      "actualFullDivisionsMultipliedBack": true,
+      "QQDivisibilityProvedByThisSource": false,
+      "claimExcluded": false,
+      "stage": "fixed_QQ_phi_complete_primary_R_modular_target",
+      "seconds": 5.40682941
+    },
+    {
+      "name": "Snum",
+      "phiQQCoefficientsAscending": [
+        "1/2",
+        "-5/4",
+        "1"
+      ],
+      "monicModCoefficientsAscending": [
+        505,
+        251,
+        1
+      ],
+      "completePRIMARY_RModularMultiplicity": 24,
+      "completeFiveProjectionGcdModularMultiplicity": 24,
+      "role": "already paid whole S=0 exclusion",
+      "actualFullDivisionsMultipliedBack": true,
+      "QQDivisibilityProvedByThisSource": false,
+      "claimExcluded": false,
+      "stage": "fixed_QQ_phi_complete_primary_R_modular_target",
+      "seconds": 5.408261338999999
+    },
+    {
+      "name": "lambda_half",
+      "phiQQCoefficientsAscending": [
+        "-1/2",
+        "1"
+      ],
+      "monicModCoefficientsAscending": [
+        504,
+        1
+      ],
+      "completePRIMARY_RModularMultiplicity": 145,
+      "completeFiveProjectionGcdModularMultiplicity": 145,
+      "role": "next exact c=1/2 original zero-fiber input",
+      "actualFullDivisionsMultipliedBack": true,
+      "QQDivisibilityProvedByThisSource": false,
+      "claimExcluded": false,
+      "stage": "fixed_QQ_phi_complete_primary_R_modular_target",
+      "seconds": 5.414949850999996
+    },
+    {
+      "name": "c_half_quadratic",
+      "phiQQCoefficientsAscending": [
+        "1/3",
+        "-2/3",
+        "1"
+      ],
+      "monicModCoefficientsAscending": [
+        673,
+        672,
+        1
+      ],
+      "completePRIMARY_RModularMultiplicity": 44,
+      "completeFiveProjectionGcdModularMultiplicity": 44,
+      "role": "next exact c=1/2 original zero-fiber input",
+      "actualFullDivisionsMultipliedBack": true,
+      "QQDivisibilityProvedByThisSource": false,
+      "claimExcluded": false,
+      "stage": "fixed_QQ_phi_complete_primary_R_modular_target",
+      "seconds": 5.417317249999996
+    },
+    {
+      "fullFiveProjectionGcd": {
+        "degree": 908,
+        "sha256": "7e55ad312705bcf923758ca42fac65a4fe4d46ba3c4fe2cdc7cb82b7c4368d42"
+      },
+      "modularFactors": [
+        {
+          "degree": 1,
+          "multiplicity": 1,
+          "sha256": "279f643340e473581083238a310e20d438e24bdc5f3280746271af794a732a57",
+          "coefficientsAscending": [
+            344,
+            1
+          ]
+        },
+        {
+          "degree": 1,
+          "multiplicity": 1,
+          "sha256": "2f63ba26e4860e4b0b430eb550cc7b96a8c4dced41528e6dde64c5954b8be081",
+          "coefficientsAscending": [
+            757,
+            1
+          ]
+        },
+        {
+          "degree": 1,
+          "multiplicity": 4,
+          "sha256": "9fefc6e6eeeada9a1e45358440c3c2280ac4b6cb90358ed57bdf68982da412d1",
+          "coefficientsAscending": [
+            623,
+            1
+          ]
+        },
+        {
+          "degree": 1,
+          "multiplicity": 4,
+          "sha256": "de5088b6f1fa0bf089188f47545d24f01a77d09e0995b6dc108e55051f7f7aa6",
+          "coefficientsAscending": [
+            704,
+            1
+          ]
+        },
+        {
+          "degree": 1,
+          "multiplicity": 4,
+          "sha256": "8848f655e16518b027817cb2df6f342a4397692fad37ad3606a1ecfc528b7b1a",
+          "coefficientsAscending": [
+            734,
+            1
+          ]
+        },
+        {
+          "degree": 1,
+          "multiplicity": 24,
+          "sha256": "f61834cdfe026c52423f29a3ae506831d30eef6ed2cfb81ae8699b5ed8d10347",
+          "coefficientsAscending": [
+            115,
+            1
+          ]
+        },
+        {
+          "degree": 1,
+          "multiplicity": 24,
+          "sha256": "b2d592da17836ebbe8a380e3e7d0c2ada065c5f895e568b721abf14fb54600fd",
+          "coefficientsAscending": [
+            136,
+            1
+          ]
+        },
+        {
+          "degree": 1,
+          "multiplicity": 44,
+          "sha256": "fd2209bb82af9a554d12be1c232cb90ec79534c09010a3b352c977efe36b1898",
+          "coefficientsAscending": [
+            18,
+            1
+          ]
+        },
+        {
+          "degree": 1,
+          "multiplicity": 44,
+          "sha256": "bb475354f394fdeafb1ee665f6ea63cddf96927bbc262f13a74fd3eae0ed02e4",
+          "coefficientsAscending": [
+            654,
+            1
+          ]
+        },
+        {
+          "degree": 1,
+          "multiplicity": 110,
+          "sha256": "7f4d5b895da82efc3536940907d4c3c2705ce9cba5887ca6b7817a3a6f6dc258",
+          "coefficientsAscending": [
+            187,
+            1
+          ]
+        },
+        {
+          "degree": 1,
+          "multiplicity": 110,
+          "sha256": "c1e9e32488f4853833f8c4b023d447c02f02198a5e73e04f498a5d9b829a1af4",
+          "coefficientsAscending": [
+            317,
+            1
+          ]
+        },
+        {
+          "degree": 1,
+          "multiplicity": 111,
+          "sha256": "8f7c2cdb162886219506a04ca7a762c4ffd737b063a52488666c1236d94257d8",
+          "coefficientsAscending": [
+            234,
+            1
+          ]
+        },
+        {
+          "degree": 1,
+          "multiplicity": 111,
+          "sha256": "b5f911e7122f0a31ac84772d5942b74d03b3d7b475ba77e567eea9c4f3d5a451",
+          "coefficientsAscending": [
+            774,
+            1
+          ]
+        },
+        {
+          "degree": 1,
+          "multiplicity": 117,
+          "sha256": "993f78590d528d1e445a7177bc3d5fe8d3b86efe05f416ea0a64270cc243dc06",
+          "coefficientsAscending": [
+            1008,
+            1
+          ]
+        },
+        {
+          "degree": 1,
+          "multiplicity": 145,
+          "sha256": "6ba38107e70c8917de8b2bf93b78092d85e54f93c0970cbe64ded17de95d33b0",
+          "coefficientsAscending": [
+            504,
+            1
+          ]
+        },
+        {
+          "degree": 2,
+          "multiplicity": 4,
+          "sha256": "4512a306cc2aea8b0a0248ecaf31743d0c930b1f7afca52653c821df6f22e69a",
+          "coefficientsAscending": [
+            705,
+            1007,
+            1
+          ]
+        },
+        {
+          "degree": 3,
+          "multiplicity": 4,
+          "sha256": "ab35ed3f34a589d61cf8bb397521640299f9d293048372d6b982919d74025a57",
+          "coefficientsAscending": [
+            158,
+            43,
+            778,
+            1
+          ]
+        },
+        {
+          "degree": 4,
+          "multiplicity": 1,
+          "sha256": "1e55e530d7e30e05ecf8b529bdb95b46bf66b8cd7b2a59fcbac8c07f6f48234a",
+          "coefficientsAscending": [
+            869,
+            817,
+            152,
+            448,
+            1
+          ]
+        },
+        {
+          "degree": 4,
+          "multiplicity": 4,
+          "sha256": "e35a529b261fbab607fc6a77e218df411c680c18cf0c19697acbfe30d422b1ff",
+          "coefficientsAscending": [
+            419,
+            54,
+            189,
+            187,
+            1
+          ]
+        },
+        {
+          "degree": 5,
+          "multiplicity": 1,
+          "sha256": "ccf6f2d0fdb9f3fda85c21439c74bd1ee60e806a229f025102a72adf5b93dbeb",
+          "coefficientsAscending": [
+            860,
+            812,
+            727,
+            690,
+            766,
+            1
+          ]
+        },
+        {
+          "degree": 9,
+          "multiplicity": 1,
+          "sha256": "c9a380620e1b74299bea08f2c32c64183a0648309a1f6f94d0bbd6fa26261dc9",
+          "coefficientsAscending": [
+            337,
+            768,
+            493,
+            851,
+            657,
+            239,
+            108,
+            512,
+            368,
+            1
+          ]
+        }
+      ],
+      "fullFactorizationMultipliedBack": true,
+      "afterSixExplicitPhiGcdRemainder": {
+        "degree": 68,
+        "sha256": "51ff3c9fba943f174369ce7beff7b81cd6b6505be5f3180f4de966b1bfe542a6"
+      },
+      "afterSixExplicitPhiPRIMARY_RRemainder": {
+        "degree": 1105,
+        "sha256": "ba46188f7e27d041f57b1b63e8fde3d2b55f773573d44e16298bc9e7a60e78fe"
+      },
+      "sixPhiCompletePrimaryTargets": [
+        {
+          "name": "A2",
+          "phiQQCoefficientsAscending": [
+            "1/2",
+            "-1",
+            "1"
+          ],
+          "monicModCoefficientsAscending": [
+            505,
+            1008,
+            1
+          ],
+          "completePRIMARY_RModularMultiplicity": 111,
+          "completeFiveProjectionGcdModularMultiplicity": 111,
+          "role": "already paid original collision moment unit",
+          "actualFullDivisionsMultipliedBack": true,
+          "QQDivisibilityProvedByThisSource": false
+        },
+        {
+          "name": "B3_linear",
+          "phiQQCoefficientsAscending": [
+            "-1",
+            "1"
+          ],
+          "monicModCoefficientsAscending": [
+            1008,
+            1
+          ],
+          "completePRIMARY_RModularMultiplicity": 117,
+          "completeFiveProjectionGcdModularMultiplicity": 117,
+          "role": "factor of already paid B3",
+          "actualFullDivisionsMultipliedBack": true,
+          "QQDivisibilityProvedByThisSource": false
+        },
+        {
+          "name": "B3_quadratic",
+          "phiQQCoefficientsAscending": [
+            "1/4",
+            "-1/2",
+            "1"
+          ],
+          "monicModCoefficientsAscending": [
+            757,
+            504,
+            1
+          ],
+          "completePRIMARY_RModularMultiplicity": 110,
+          "completeFiveProjectionGcdModularMultiplicity": 110,
+          "role": "factor of already paid B3",
+          "actualFullDivisionsMultipliedBack": true,
+          "QQDivisibilityProvedByThisSource": false
+        },
+        {
+          "name": "Snum",
+          "phiQQCoefficientsAscending": [
+            "1/2",
+            "-5/4",
+            "1"
+          ],
+          "monicModCoefficientsAscending": [
+            505,
+            251,
+            1
+          ],
+          "completePRIMARY_RModularMultiplicity": 24,
+          "completeFiveProjectionGcdModularMultiplicity": 24,
+          "role": "already paid whole S=0 exclusion",
+          "actualFullDivisionsMultipliedBack": true,
+          "QQDivisibilityProvedByThisSource": false
+        },
+        {
+          "name": "lambda_half",
+          "phiQQCoefficientsAscending": [
+            "-1/2",
+            "1"
+          ],
+          "monicModCoefficientsAscending": [
+            504,
+            1
+          ],
+          "completePRIMARY_RModularMultiplicity": 145,
+          "completeFiveProjectionGcdModularMultiplicity": 145,
+          "role": "next exact c=1/2 original zero-fiber input",
+          "actualFullDivisionsMultipliedBack": true,
+          "QQDivisibilityProvedByThisSource": false
+        },
+        {
+          "name": "c_half_quadratic",
+          "phiQQCoefficientsAscending": [
+            "1/3",
+            "-2/3",
+            "1"
+          ],
+          "monicModCoefficientsAscending": [
+            673,
+            672,
+            1
+          ],
+          "completePRIMARY_RModularMultiplicity": 44,
+          "completeFiveProjectionGcdModularMultiplicity": 44,
+          "role": "next exact c=1/2 original zero-fiber input",
+          "actualFullDivisionsMultipliedBack": true,
+          "QQDivisibilityProvedByThisSource": false
+        }
+      ],
+      "supportContainedInSixPhi": false,
+      "noCharacteristicZeroDivisibilityInferred": true,
+      "noCharacteristicZeroZeroFiberClosureInferred": true,
+      "wholePhiFaceClaim": false,
+      "ordinaryISPClaim": false,
+      "claimExcluded": false,
+      "stage": "new_individual_values_modular_support_return",
+      "seconds": 5.421795366999994
+    }
+  ]
+}

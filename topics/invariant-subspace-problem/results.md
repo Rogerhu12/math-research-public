@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R150：Phi0 rank-one碰撞图整个c=1/2原支排除](results/R150-appendix-unit211-Phi-zero-rank-one-value-complete-c-half-exclusion.md)：ecea实际0.219秒/exit0，λ半两三次QQ行、二次λ域5/4次原E1/EB均真Bézout1；两复嵌入及所有rho纤维保全。
+
 - [R150：Delta0碰撞图原消元式完整QQ因式与6229基点覆盖](results/R150-appendix-unit211-Delta-zero-h-one-exact-factorization-and-6229-point-cover.md)：b737实际25.741秒/exit0，G389=a(2λ−1)²J387完整乘回；保λ半纤维与自由t，改进必要投影界，未排空。
 
 - [R150：整个余W的J19原权曲线完整排除](results/R150-appendix-unit211-W-J19-entire-original-weight-curve-exclusion.md)：F568完整32因子原35列满秩经有限自由整模型提升，F20五QQ原域全部直接返1；全部norm零纤维已付，末返回不要求D非零。
