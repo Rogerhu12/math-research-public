@@ -33,7 +33,7 @@ R1049约93KB，原54/full9/η/Cor/degree34、Chern/Miller/PD同伦和FL全保；
 
 [同一signed全精度](notes/2026-11-27-original-type-four-inert-signed-cross-comparison.md)：原34δ/18/30单位在HT(2,−1)的M+，A_j=F_p(c_j/a_j)K_j²。§§7–10已关闭同一K_*单位范围的绝对period：Δ等型pro-p二变量残余2−p/2p−1与valuation twist1−2p给每个整类的整Coleman原像；全KS/isogeny −p、未平均第一层p²−1迹与同ω/Tate格给m=p−1的exp*整界p⁻¹O。原EU由μ/18、m!、1+1/p取到−1，迫F_p为Tate单位。故v_pA_j(0)=2vpK_j(0)，hEU=u_pF_p(0)(c_j/a_j)K_j0²；同几何好范围EU首层非零⇔几何首层非零⇔Kbar非零。仍不冒两类全精度相等，固定c_j/γ好集与q0始终保留。
 
-[p²完整norm](notes/2026-11-27-original-inert-p-square-full-norm-and-endpoint-zero.md)已付incoming depleted和0、raw norm/p²回I，保全部p+1回返。geometry新增fixed-base向外两退化式候选blob dc3babe8f5c856a82777b08819fecef6e2e62f52已root初读，待最终发布；不将两个模问题混同。下一继续真实AJ/Newton正则化，不能将负槽或p^weight形式赋值替代。
+[p²完整norm](notes/2026-11-27-original-inert-p-square-full-norm-and-endpoint-zero.md)已付incoming depleted和0、raw norm/p²回I，保全部p+1回返。[fixed-base向外全式](notes/2026-11-27-original-inert-fixed-base-p-square-depletion-and-fp-parameter.md)已独立付清：Ω^[p]=d0*Ω−p⁻²λ*d2*Ω、全degree34修正图推前为degree34p²；proper AJ自然性与原全范数给Aout=(p²−1)I，原Artin下降=(p²−1)h。Tate上准确f−p²V_p²f，p²−1为真正单位。fixed底曲线只添全部p²级的向外对应与incoming零和同时成立；仍须比较同一原Newton正则化。下一继续真实AJ/Newton正则化，不能将负槽或p^weight形式赋值替代。
 
 固定p29唯一run46043135878/job140655635855/source346dd26f的完整PB4行(20,27,7,20,23,21)与CM13/Frob²循环已付，故三K29单位；纯Newton不替代c_j好集/q0。原whole17提升已付：完整U_e²=−I、反交换、Pω秩17且E17 Heisenberg保持；ℓp=ℓpΠ4使三维PB4行零等价全17零functional。p≡2/5mod9全行非零等价三线全单位，仍未给跨p。central新原四元平均B及全三列矩阵候选blob5d34a835ffc0da9948f425d3f8930e2c35cab67f已root初读；B³不与CM13同谱，不免费产生canonical零。
 

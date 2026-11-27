@@ -44,3 +44,5 @@
 - [原signed绝对整周期](notes/2026-11-27-original-type-four-inert-signed-cross-comparison.md)§§7–10：Δ等型二变量整控制和完整universal Coleman/KS范数给exp*格界p⁻¹O；原m=p−1实际EU取到界。因此在至少一原K为Tate单位、固定常数为单位的既定范围，F_p是Tate单位，K_j(0)非零等价原EU局部非零；完整几何好范围首层亦等价。不据此宣布无穷p或canonical J′。
 
 - [同一固定weight3双变量源](notes/2026-11-27-original-unsquared-toric-theta-source-and-newton-pullback.md)§§10–11：完整Gaussian交叉cZW、两个Hermite coherent参数及a^n Laguerre展开逐项返回原θ(ψ27²)的δ3^n；两个完整finite characters/δ延拓均保。负二端点定位D−2/β0，尚须真实Coleman/fp正则化。
+
+- [原fixed-base向外p²剔除](notes/2026-11-27-original-inert-fixed-base-p-square-depletion-and-fp-parameter.md)：两实际退化映射、全部degree34图修正与全54/η/Cor交换，完整AJ和为(p²−1)I、Artin下降为(p²−1)h；准确保KS的p⁴及f−p²V²f。原incoming depleted和仍0，不混同两个模问题；尚未与Jtor/(pv)全精度相认。

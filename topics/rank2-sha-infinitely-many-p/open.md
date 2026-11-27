@@ -116,3 +116,8 @@ R1049§12（80）–（88）：原Chow层严格图置换将全部η/Cor折为[L:
 ### 固定weight3的同一双变量源已付
 
 未平方note§§10–11保完整交叉cZW，正常排序后两个Hermite槽(n,n+2)与a^n Laguerre/δ3^n逐项一致；固定χ=ν27²的两全finite characters、δ延拓及i^(r−n)相位同时保留。第二因子是实际β_j完整theta截面，非任取非零真空。原n=−2的真实位置为D−2/β0；继续同54图、全p²范数和J/(pv)实际Coleman/fp正则化，不从形式槽直接宣称AJ全精度等式。
+
+
+### fixed-base向外p²全剔除和已回同一整参数
+
+新[p²向外笔记](notes/2026-11-27-original-inert-fixed-base-p-square-depletion-and-fp-parameter.md)保持原底曲线/degree34图，只添加全部cyclic p²级；两实际退化映射给Ω^[p]=d0*Ω−p⁻²λ*d2*Ω，全修正图推前和proper AJ自然性准确得Aout=(p²−1)I，原Artin下降=(p²−1)h。这个因子为整单位；原在高导子底曲线用canonical上行的incoming全和仍0。下一把这份指定向外Coleman primitive与同一Jtor/(pv)正则化比较，保持horizontal规范；不从相同连接或书中1−p⁻²形式直接认定。
