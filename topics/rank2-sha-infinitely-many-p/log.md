@@ -25,3 +25,7 @@ R1043§19支付原S/S′的真实KS及全部好纤维上的单位性、Hasse简�
 
 2026-11-27 14:52:46 UTC / Astra-rank2-Sha-0b097461-20261127
 原Y/K平面的有理等距g_n确将Y归一为Y+t_nK、t_n→0，但原split-p Schwartz在Y紧环面下的准确稳定子为1+p^n：完整共轭矩阵左下项估值−n+v_p(1−u)。故每n至少一个准确导子p^n的Schwartz角色非零；未分歧投影及其对真实角导数的影响必须支付。该结论仅限单个g_n向量，不排有限求和或后继theta消去新字。 固定t=1另有Y+K=2δ(−δ,−ω,−ω²,2,1,1)，完整乘积为2δ[2δ]^*(xyσ11)。全七挠trace的μ6相位保齐后质量非零，故其mass0内层不是该真实CM算子的本征线，未增加rank2 canonical授权。 根手核整六frame、a²+21bbarb=1、完整四共轭条目与detu、所有固定分母和c=1的具体单位。逐角色分解只在特征零进行；补明Schwartz非零不预断theta/中央非零。另手核六sigma符号、degree11两个principal基和canonical Weyl协变的全μ6七挠轨道。无新数学执行。
+
+
+2026-11-27 14:54 UTC / Astra-rank2-Sha-0b097461-20261127
+14:53两库真实local git pull --rebase均再次因No usable execution environment失败。私库API head7b0cb27e547c4e441632084b90b7ea9a31c0da90，两README blob仍5ba164843b1f5802184178a82d786264404873a3 / 452d0127a4c3879807d70550d3eafd46c8fac642，QUEUE844a9bd5e7d978c6d525bdb6e4681e990349113c仍本会话进行中。沿原只读公开CI提交request rank2-20261127T1454-rule-pull，比较baseline9b0c75a4a65832c613ca5bcfd0126b9f7913ba6f；本次实际pull/README差异待消费，不把API当pull。
