@@ -516,3 +516,5 @@ GHR [metric-reference height](results/R144-supplement-actual-seed-metric-referen
 ### HLP：完整physical读出的真正L²参数列（已证明）
 
 [完整解析transfer](results/R144-supplement-complete-physical-readouts-for-L2-parameter-directions.md)。HL真实方向代入原全metric/mean/reference1/physicalscale/coframe公式，partialγ scalar<2^-56M/r、vector formal二jet<2^-55M/r，joint op L²→读出在γA0/wE21连续；独立λ/world ports不删，actual选择还需D_wV与闭匹配。无新数值组合、旧科学0重跑。
+
+WRC公式修正：原658c3109的physical角导数补全q_b,φ·Δx，新增一条精确有理比较；完整f0φ仍<.05282，所有已列常数保持。详见同一WRC proof第6节；原14比较未重，修正前无actual入口执行。

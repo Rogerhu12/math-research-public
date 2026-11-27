@@ -155,15 +155,25 @@ $$
  \|\Delta A_\phi\|_\infty&\le(1152+24b)B_M,\\
  \left\|\partial_\phi(A_{\rm raw}^TA_\delta)\right\|_\infty
                          &\le(1152+36b)B_M,\\
- \|\Delta F_\phi\|_\infty
- &\le(1152+24b)B_M C_0b+B_M C_1b+(1152+12b)B_F .
+ \|\Delta x_\phi\|_\infty
+ &\le(1152+24b)B_M C_0b+B_M C_1b+(1152+12b)B_F,\\
+ |\partial_\phi\Delta f_0|
+ &\le\|\Delta x_\phi\|_\infty+(0.03177+12b)B_F .
 \end{aligned}                                                \tag{WRC.10}
 $$
 
-For the last line expand
+For the relative-position line expand
 $\Delta(Ac)=\Delta A\,c_{\rm raw}+A_\delta\Delta c$
 and differentiate every factor. The $\Delta c$ integral uses
-the genuine nonnegative component bound in WRC1. The piecewise
+the genuine nonnegative component bound in WRC1.
+The final line retains the actual angular outer-frame term:
+$\Delta f_0=q_b\Delta x(0)$, so
+$\partial_\phi\Delta f_0=q_b\Delta x_\phi+q_{b,\phi}\Delta x$.
+Here the raw identity $q_b=(e_z^TQ_{\rm raw}(0))A_{\rm raw}(0)^T$
+gives $|q_{b,\phi}|<0.03177+12b$ independently of the selected
+bound being proved. The extra contribution is less than
+$1.324\,10^{-7}$ and is explicitly included in the new exact
+comparison for (WRC.11). The piecewise
 radial coefficient joins cause no lost angular or endpoint term:
 the passive propagators and positions themselves are continuous,
 and each integral includes every original piece.
@@ -402,10 +412,20 @@ corrects the full signed row.
 
 ## WRC6. Actual scope and new saved comparisons
 
+Correction to the first publication658c31092cb0995bfc4a52ec3eded7244edf9231:
+(WRC.10) now explicitly differentiates the angular fixed reference
+anchor. The previous relative-position derivative did not by itself
+bound the world-height derivative. The retained additional term is
+$q_{b,\phi}\Delta x$. It leaves $|f_{0,\phi}|<0.05282$, all four
+receiver constants and the first-execution target formulas unchanged.
+No scientific entry had been triggered by the first publication.
+
 The companion
 [saved-bound consumer](../scripts/fourfold_codazzi_reference_world_height_saved_bounds.py)
-contains14 new exact rational comparisons. All14 were evaluated
-once with exact integer fractions and passed. No source field,
+contains the original14 exact rational comparisons and one additional
+comparison retaining $q_{b,\phi}\Delta x$, for15 in total. The original14
+were not rerun. The additional complete derivative comparison was
+evaluated once with exact integer fractions and passed. No source field,
 old model norm, old geometry integral, RHI target or TC target
 was evaluated.
 

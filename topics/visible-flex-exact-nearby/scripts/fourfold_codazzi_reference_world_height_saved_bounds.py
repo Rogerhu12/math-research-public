@@ -1,7 +1,8 @@
 """WRC: new exact combinations for complete reference-world mean height.
 
-Only already completed bounds occur.  These14 comparisons were evaluated
-once when WRC was derived; this file records their reproducible formulas.
+Only already completed bounds occur.  The original14 comparisons were
+not rerun.  One additional comparison retains the angular outer-frame
+position term, giving15 complete saved comparisons.
 No old geometry, phase, residual, Fourier or RHI target is called.
 """
 from __future__ import annotations
@@ -19,6 +20,8 @@ def saved_bounds():
     relative_phi = (1152+36*b)*BM
     position_phi = ((1152+24*b)*BM*C0*b + BM*C1*b
                     + (1152+12*b)*BF)
+    raw_qb_phi = F("0.03177")+12*b
+    complete_position_phi = position_phi+raw_qb_phi*BF
     qb_phi = F("0.03181")+12*b
     W0 = F(27,8)
     W1 = F(11,2)/F(16,15)+W0*qb_phi
@@ -35,7 +38,7 @@ def saved_bounds():
         ("raw_vertical_covector_Landau_squared",2*eQ*F("4.646383"),F("0.03177")**2),
         ("raw_vertical_position_Landau_squared",2*eF*F("5.970523"),F("0.05272")**2),
         ("selected_vertical_covector_first_derivative",F("0.03177")+relative_phi,F("0.03181")),
-        ("selected_vertical_position_first_derivative",F("0.05272")+position_phi,F("0.05282")),
+        ("raw_height_plus_relative_position_derivative_intermediate",F("0.05272")+position_phi,F("0.05282")),
         ("whole_weighted_position_test_first_derivative",W1,W1_safe),
         ("whole_weighted_position_H1_dual",C_test,C),
         ("root_length_square_bound",R,F("0.070711")**2),
@@ -45,6 +48,8 @@ def saved_bounds():
         ("complete_reference_height_root_source_receiver",KF,F(6650)),
         ("complete_reference_height_strict_source_receiver",KS,F(3000)),
         ("complete_reference_height_strict_jump_receiver",KJ,F(8850)),
+        ("complete_selected_vertical_position_derivative_with_angular_outer_frame",
+         F("0.05272")+complete_position_phi,F("0.05282")),
     ]
     records = [{"name":name,"left":str(left),"right":str(right),
                 "strict":left<right} for name,left,right in comparisons]
@@ -60,6 +65,10 @@ def saved_bounds():
         "reference_waist_vertical_covector_first_derivative":"3181/100000",
         "reference_waist_vertical_position_first_derivative":"2641/50000",
         "reference_outer_covector_first_derivative":str(qb_phi),
+        "complete_angular_outer_frame_position_term":str(raw_qb_phi*BF),
+        "complete_selected_height_first_derivative":str(F("0.05272")+complete_position_phi),
+        "original14_comparisons_not_rerun":True,
+        "one_added_comparison_retains_qb_phi_times_Delta_x":True,
         "complete_weighted_position_H1_dual_upper":"141",
         "complete_coordinate_endpoint_coefficient":str(ct),
         "complete_original_negative_receiver":{

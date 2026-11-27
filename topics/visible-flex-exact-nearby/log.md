@@ -136,3 +136,7 @@
 ### 2026-11-27 HLP：真正L²参数方向的完整physical读出
 
 已证明纯解析transfer，无新增数值组合/不添重复reader。HL真实endpoint E20及Γ2 P2方向逐项接GHC/GHR/GHV的完整mean、reference1、radialrotation、Xi(δW)、fullprincipal与physical scale，固定w partialγ scalar<2^-56000000/r L²，vector formal2jet<2^-55000000/r L²。joint op L²→完整读出在γA0/wE21连续；generic broken仍formal，actual selected要加D_wV和closed匹配资格。独立λ/world placement/heightspan与ports保，旧比较科学0重跑。
+
+### 2026-11-27 WRC 完整变动锚角导数补项
+
+独立修正文稿与pure：原658c3109的WRC.10把Δxφ传到physical Δf0时漏写q_b,φ·Δx。现明确保该完整项132390386100063/10^21≈1.32390386100063e−7，新增1条exact rational比较首次通过，原14不重；完整f0φ upper10562967001093223291/(2·10^20)<.05282，所有原receiver/第4target常数不变。proof WRC6保原公开历史、真正导数与Δxφ区别。没有任何WMR/WRC入口在修正前启动；ARHI与WMR已冻结五源均不受影响。新版proof SHA56c675f03ee5d67f780bd9c43526ad572770c9b6330e341f043b50ed7edfb074，pure SHAcc1cd029923c87da80038660707818d5bfdb4b09b1911f438f692d2e37538259；后继manifest必须绑定新版。
