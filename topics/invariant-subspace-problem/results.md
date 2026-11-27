@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [等单点值碰撞的整个 T0 零面排除](results/R150-appendix-unit211-equal-singleton-entire-T0-zero-original-exclusion.md)：互补Delta非0的两个固定4阶原QQ结式剥后28/12完整Bézout1，合Delta0已有原排除，现碰撞可付T0。
+
 - [W全图原首一T四次/F二次与固定八维、十六维环境](results/R150-appendix-unit211-W-global-monic-T-four-F-two-and-finite-original-environments.md)：完整原首项均已付、T3恒消；保lambda3/2、D及所有原几何条件，原最终方程商不冒称自由。
 
 - [等值碰撞 T0 与 Delta 同时为零的整个原面排除](results/R150-appendix-unit211-equal-singleton-T0-Delta-zero-complete-original-exclusion.md)：原仿射行迫唯一lambda1/3,u125/123，保自由f的全部原Gram返回及两原mean显式非零常数组合。
