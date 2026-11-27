@@ -1,0 +1,362 @@
+{
+  "execution": {
+    "sourceSHA256": "0f5cc062ef8171871d1b0e6e7170950983f4015baa234a615b4134deb08c926b",
+    "branch": "H2",
+    "startedUTC": "2026-11-27T06:35:57.781041+00:00",
+    "elapsedSeconds": 0.5664023469944368,
+    "exitCode": 0,
+    "maxChildRSSKiB": 29752,
+    "stdoutBytes": 5048,
+    "stdoutSHA256": "a1f47c081df9090b6d0133c22981ea1223899bd0f52af37555708f766a9859c2",
+    "stderr": "",
+    "runtime": "Python3.12.14/python-flint0.9.0",
+    "limits": "alarm120s/1GiB/one thread"
+  },
+  "actualStages": [
+    {
+      "stage": "new_general_ell_zero_same_original_Gram",
+      "originalE0N0P1Verified": true,
+      "weightedOriginalNPThroughHAHBVerified": true,
+      "originalDistinctValueRetained": true,
+      "wholeWeightChartExcluded": false,
+      "seconds": 0.07417388800240587
+    },
+    {
+      "stage": "new_general_ell_zero_original_X_Gram_coordinates",
+      "name": "E1",
+      "degrees": [
+        3,
+        0,
+        2,
+        2,
+        1,
+        0,
+        0,
+        0
+      ],
+      "terms": 16,
+      "paidRemoved": [],
+      "totalDegreeXYt": 2,
+      "originalE0N0P1AndMeanReconstructionVerified": true,
+      "claimExcluded": false,
+      "seconds": 0.074728594001499
+    },
+    {
+      "stage": "new_general_ell_zero_original_X_Gram_coordinates",
+      "name": "EBe",
+      "degrees": [
+        2,
+        0,
+        1,
+        2,
+        1,
+        0,
+        0,
+        0
+      ],
+      "terms": 14,
+      "paidRemoved": [],
+      "totalDegreeXYt": 2,
+      "originalE0N0P1AndMeanReconstructionVerified": true,
+      "claimExcluded": false,
+      "seconds": 0.07488353799999459
+    },
+    {
+      "stage": "new_general_ell_zero_original_X_Gram_coordinates",
+      "name": "EBo",
+      "degrees": [
+        2,
+        0,
+        1,
+        2,
+        2,
+        0,
+        0,
+        0
+      ],
+      "terms": 11,
+      "paidRemoved": [],
+      "totalDegreeXYt": 2,
+      "originalE0N0P1AndMeanReconstructionVerified": true,
+      "claimExcluded": false,
+      "seconds": 0.075029227999039
+    },
+    {
+      "stage": "new_general_ell_zero_original_X_Gram_coordinates",
+      "name": "N1",
+      "degrees": [
+        4,
+        0,
+        2,
+        2,
+        2,
+        0,
+        0,
+        0
+      ],
+      "terms": 34,
+      "paidRemoved": [
+        [
+          "u",
+          1
+        ]
+      ],
+      "totalDegreeXYt": 2,
+      "originalE0N0P1AndMeanReconstructionVerified": true,
+      "claimExcluded": false,
+      "seconds": 0.07546510500105796
+    },
+    {
+      "stage": "new_general_ell_zero_original_X_Gram_coordinates",
+      "name": "weighted_N",
+      "degrees": [
+        6,
+        0,
+        3,
+        3,
+        3,
+        0,
+        0,
+        0
+      ],
+      "terms": 109,
+      "paidRemoved": [
+        [
+          "u",
+          1
+        ]
+      ],
+      "totalDegreeXYt": 3,
+      "originalE0N0P1AndMeanReconstructionVerified": true,
+      "claimExcluded": false,
+      "seconds": 0.07636774700222304
+    },
+    {
+      "stage": "new_general_ell_zero_original_X_Gram_coordinates",
+      "name": "weighted_P",
+      "degrees": [
+        6,
+        0,
+        3,
+        3,
+        3,
+        0,
+        0,
+        0
+      ],
+      "terms": 96,
+      "paidRemoved": [
+        [
+          "u",
+          1
+        ]
+      ],
+      "totalDegreeXYt": 3,
+      "originalE0N0P1AndMeanReconstructionVerified": true,
+      "claimExcluded": false,
+      "seconds": 0.07711035700049251
+    },
+    {
+      "stage": "new_whole_ellZero_head_boundary_original_Macaulay4",
+      "rows": 48,
+      "columns": 35,
+      "originalSixRows": 6,
+      "all48OriginalMonomialProductsMultipliedBack": true,
+      "constantColumn": 34,
+      "inputSHA256": "d8ca9f5a03f69bf6bd4445ab4df2481789fc5db58486c25f97f86202470c45d5",
+      "G2Inverted": false,
+      "cubicMinorInverted": false,
+      "claimExcluded": false,
+      "seconds": 0.0910287220031023
+    },
+    {
+      "stage": "new_whole_ellZero_head_boundary_numeric_row_selector_only",
+      "p": 1009,
+      "h": 7,
+      "selectedOriginalRows": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        19,
+        20,
+        18,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36
+      ],
+      "targetCount": 8,
+      "numericEmptinessNotInferred": true,
+      "seconds": 0.1013344370003324
+    },
+    {
+      "stage": "new_whole_ellZero_head_boundary_original_QQ_Macaulay_determinant",
+      "originalRows": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        19,
+        20,
+        18,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        40
+      ],
+      "lastOriginalRow": 40,
+      "fullDegree": 60,
+      "remainingDegree": 15,
+      "paidRemoved": [
+        [
+          "u",
+          2
+        ],
+        [
+          "u_minus_one",
+          31
+        ],
+        [
+          "parameter_den_u_minus_two",
+          12
+        ]
+      ],
+      "exactBareissDivisionProducts": 13685,
+      "originalFixed35By35Determinant": true,
+      "determinantSHA256": "5a22a84c078eb17241c3a98bf791c2c8dfdefa7935c78d7fc3c6f3d9d3d1b945",
+      "remainingSHA256": "1e2f5d11b74d01ce26054a3bf8960f5f23680a9a462b3c55878e3ea3b5a1c417",
+      "runningQQGCDDegree": 15,
+      "runningQQGCD": "671088640*x^15 + (-25300041728)*x^14 + 430973124608*x^13 + (-4514883043328)*x^12 + 31962408419328*x^11 + (-156577327742976)*x^10 + 527824838459392*x^9 + (-1186711946133504)*x^8 + 1620703493226496*x^7 + (-853824130514944)*x^6 + (-1169765213143040)*x^5 + 2778094704263168*x^4 + (-2541668968431616)*x^3 + 1188659848019968*x^2 + (-231616647528448)*x + 2653887135744",
+      "claimExcluded": false,
+      "seconds": 0.27518578300077934
+    },
+    {
+      "stage": "new_whole_ellZero_head_boundary_original_QQ_Macaulay_determinant",
+      "originalRows": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        19,
+        20,
+        18,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        41
+      ],
+      "lastOriginalRow": 41,
+      "fullDegree": 61,
+      "remainingDegree": 16,
+      "paidRemoved": [
+        [
+          "u",
+          2
+        ],
+        [
+          "u_minus_one",
+          31
+        ],
+        [
+          "parameter_den_u_minus_two",
+          12
+        ]
+      ],
+      "exactBareissDivisionProducts": 13685,
+      "originalFixed35By35Determinant": true,
+      "determinantSHA256": "b52057c162c03e0a5c81d0e83cfc256c2e4de9e23ee60552fc0ba75c6790cd69",
+      "remainingSHA256": "8e5096325af289f707fc83b4b2194665c65503979852268adeef31882187fa8f",
+      "runningQQGCDDegree": 0,
+      "runningQQGCD": "1",
+      "claimExcluded": false,
+      "seconds": 0.4209755909978412
+    },
+    {
+      "stage": "new_whole_ellZero_head_boundary_original_Macaulay_return_complete",
+      "sourceSHA256": "0f5cc062ef8171871d1b0e6e7170950983f4015baa234a615b4134deb08c926b",
+      "inputSHA256": "d8ca9f5a03f69bf6bd4445ab4df2481789fc5db58486c25f97f86202470c45d5",
+      "fullParameterBranchRationalization": "ell=0, H2, Q=2*(u-1)/(u-2)",
+      "allPhysicalUnitsCovered": true,
+      "onlyOriginalPaidFactorsDivided": true,
+      "QQBezoutProductsMultipliedBack": true,
+      "fullellZero_head_boundaryExcluded": true,
+      "determinantCount": 2,
+      "runningQQGCDDegree": 0,
+      "peakRssKiB": 29200,
+      "ordinaryISPClaim": false,
+      "seconds": 0.4212359640005161
+    }
+  ]
+}

@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [一般ell=0整H2二次头曲线排除](results/R150-appendix-unit211-general-ell-zero-entire-H2-exclusion.md)：60/61次原35阶行列式余15/16次QQ Bézout1；与H1合并支付所选四二次头的全部零曲线。
+
 - [一般ell=0整H1二次头曲线排除](results/R150-appendix-unit211-general-ell-zero-entire-H1-exclusion.md)：原六式48×35固定矩阵，72/73次完整行列式剥原单位后9/10次QQ Bézout1，覆盖所有复点。
 
 - [原同源物理正则化与真实缺陷低孔能量](results/R271-appendix-actual-physical-source-regularization-and-defect-low-hole-energy.md)：任意实际最大图来源在临界正阻尼s≥s0具原共同核心，完整N/Y carry均已付；真实E输出低孔质量受e^(−198)/e^(−8)约束，零阻尼仍开。

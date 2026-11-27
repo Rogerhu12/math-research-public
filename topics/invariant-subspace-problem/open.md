@@ -53,7 +53,7 @@ rankH3单三jet的全部ess6已闭，末非零Hp原Gaussian/最高/normal给左�
 
 **[整个一般等权b=c原支已闭](results/R150-appendix-unit211-equal-weights-complete-original-exclusion.md)。** 全部旧边界、全图六生成元、原824次QQ覆盖及F236/F243完整原Gauss返回合最后整m=−1/2的原QQ Bézout1，排全部复参数；负半权源5063af65实跑0.315秒/exit0。一般余图现可付ell−u，在W0中进一步付k+2、Q−2。旧QQ600秒门保持冻结；不重做等权，直接继续一般不等权的原NSPS/Dval与全部未付零面。
 
-**2+1型H、Hp0九次Gram仅余四源全有限的ess6层：** 全部H/V∞支已闭，来源与真逆保结果索引/归档。[完整重建](results/R150-appendix-rank-three-double-plus-single-zero-hp-finite-source-rational-reconstruction.md)保原12式及11/16全系数；[同Π上的低次原理想相等](results/R150-appendix-rank-three-double-plus-single-zero-hp-lowered-original-ideal-equivalence.md)已将d八次喷射换为二次，A/T为原商环强迫单位。mod1031/e700单位基只供方向，三种真Ke各900秒未决，最后八条恒等式及field/smoke通过但无单位身份；[同Π的C/G两条d一次式与原理想相等](results/R150-appendix-rank-three-double-plus-single-zero-hp-two-linear-original-ideal-equivalence.md)现已证明，不除两个新首项，仍保全部零纤维；真实I*C=1继续。[新增原N二阶及孤立点一阶降式](results/R150-appendix-rank-three-double-plus-single-zero-hp-original-N-Hermite-strengthening.md)保持同Π，d次数5/8，实际build核完整身份4.926643秒；新run45886748045数域/smoke已通过，完整1.465MB输入实际900秒未决，驱动905.464秒/RSS714476KiB，无I*C=1；不重跑此输入。三约化H与ess4/5仍开。
+**2+1型H、Hp0只余全有限四源非退化ess6：** 全H/V无穷远已闭；同Π的[完整原理想降次](results/R150-appendix-rank-three-double-plus-single-zero-hp-lowered-original-ideal-equivalence.md)、[C/G两条d一次式](results/R150-appendix-rank-three-double-plus-single-zero-hp-two-linear-original-ideal-equivalence.md)及[原N二阶](results/R150-appendix-rank-three-double-plus-single-zero-hp-original-N-Hermite-strengthening.md)均已付，保全部未付首项零。三个真Ke900秒和新1.465MB Hermite输入900秒均未得单位，准确运行保正文/快照且全部冻结；续新原输入，不能以mod样本或数域smoke代替特征零空性。三约化H与ess4/5仍开。
 
 ## 2. R271：同一来源的完整物理费用
 
@@ -180,4 +180,4 @@ Deddens自伴MASA、全部可分重数有限成本投影、全2-adic平移距离
 
 [H非零原头atlas及低次cubic补图](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-H-nonzero-original-head-atlas.md)已给全部15二次头子式、4真实overlap及6三次子式。等权整支已闭后k+2已付，只在J19*C9非零图得(1,x,y,t,y²,yt)六生成元，不断言自由；C9仅9项degree(e,k)=2/4。k=−2及Q=2权面已由一般等权总定理排除；J19/C9整零面仍待原返回。继续同点原NS/PS与乘法矩阵，保全部主元边界。
 
-**一般ell=0新输入：** [整H1=2u+Q−2曲线](results/R150-appendix-unit211-general-ell-zero-entire-H1-exclusion.md)已由原48×35矩阵两个固定35阶行列式及完整QQ Bézout1排除。原六式从一般Gram直接专化，不假设W=0或Q=1−u。所选二次头余H2=uQ−2u−2Q+2及全部新三次头零纤维继续，未宣称整面为空。
+**一般ell=0：** [整H1](results/R150-appendix-unit211-general-ell-zero-entire-H1-exclusion.md)与[整H2](results/R150-appendix-unit211-general-ell-zero-entire-H2-exclusion.md)均由原48×35固定行列式及完整QQ Bézout1排除，所选四二次头在整余面已付。不假设W或Q边界；续三次头零曲线及原NSPS有限系统。
