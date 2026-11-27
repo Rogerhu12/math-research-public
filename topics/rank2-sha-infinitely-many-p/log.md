@@ -271,3 +271,6 @@ root完整证明S3150点源，geometry独核7处真实坐标/CRT/Gaussian，arit
 
 
 - 2026-11-27 20:46 UTC：root亲读最新实际CI run46065793641/job140730654063/sourcef044013487035c28f2c3e21494edf0494453495d全部14900B日志（SHA256 addd414495afdd0e9653e4b5ad11580cace369fffbd6a0cdfc24e0919697a724）。公开20:45:38实际pull至f0440134，较50eff7e6根/topic README无变；私库20:45:43实际pull至bca09f7f22dd54e77e0a7f1d47f525fbb9b5eec1，较c077273f两README无变。已读四blob完整SHA见H；QUEUE仍a01613b4，本会话进行中不变。规则15 tree7183d16797028cdd673d5cf909f0da65648136bf、3115blob/43,791,938B、无>5MB、三旧gzip必要输入同SHA。此前请求CAS遇GraphQL UNKNOWN并main前进，实际本地pull仍No usable execution environment，立即重比/重推第二轮成功；本CI已完成补拉。只留run/hash与结论，不落日志/输出。下一两库actual pull≤21:45UTC；重型v12在20:46仍in_progress，不重跑，理论继续。
+
+
+- 2026-11-27 20:50 UTC：连接器v12日志只给截至19:05:38的4.2MB前段，20:49原step4仍in_progress。沿已付v11只读collector建立固定v12 run46033409751/job140622660136/source048e20343a5f7ec65db9089d824d0635d6815b2b的同一GET收取，新增实际wrapper的COMPLETE_QUADRATIC_COMPLETE/FAILED终点标签；无数学重算/重启、无文件输出、只内置Actions read token且下载不传Authorization。源码11970B/SHA256 7d8a79bbcaadc0671fcf8632f763fbe63c919ceef9e0617bf9f8780a7fec8e0c，既有small入口请求2026-11-27-2051-original-quadratic-v12-readonly-snapshot，实际回执待返，不预记终门或非零。两库实际pull20:45/下一≤21:45；主理论继续。

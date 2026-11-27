@@ -21,7 +21,7 @@ root独占git/H/open/log/index；每条结论即推。非快进立即实际pull 
 
 v9/v10/v11全部终态及失败链见[终点链](notes/2026-11-27-artinian-v7-final-and-successor.md)。v11 run45978097755/job140434827184/source8a19591199e83549df1709f35dc00976a40e2810在21000s/exit124前返回全部306Frob，但四交/Norm/18×9未返；非反例、非终门PASS，不重跑旧输入。
 
-唯一v12 run46033409751/job140622660136/source048e20343a5f7ec65db9089d824d0635d6815b2b自16:25:38UTC执行。20:26 API仍in_progress；返回4203581B日志前段至19:05:38（非实时末尾），全两端身份/首个612厚分解已过，下一块HNF86/306。四交/Norm/18×9终门仍无回执。只记前段hash，不存日志。保两char0 pins/60源/29/2453/64/minimal、全门、Sage10.6/21000s；不并行重作。全二次域native软件run46032975863已PASS。全pins及进程内完整矩阵规范见[完整返回](notes/2026-11-27-complete-quadratic-polynomial-returns.md)。
+唯一v12 run46033409751/job140622660136/source048e20343a5f7ec65db9089d824d0635d6815b2b自16:25:38UTC执行。20:26 API仍in_progress；返回4203581B日志前段至19:05:38（非实时末尾），全两端身份/首个612厚分解已过，下一块HNF86/306。四交/Norm/18×9终门仍无回执。当前已请求固定同run/job/source的只读全字节collector，以取得连接器4.2MB前段之后的真实进度；不重算数学。只记前段hash，不存日志。保两char0 pins/60源/29/2453/64/minimal、全门、Sage10.6/21000s；不并行重作。全二次域native软件run46032975863已PASS。全pins及进程内完整矩阵规范见[完整返回](notes/2026-11-27-complete-quadratic-polynomial-returns.md)。
 
 ## 原惰性完整几何和 Newton 已付范围
 
