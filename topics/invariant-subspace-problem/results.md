@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R150：W 原 Gram 商中的 Y 真单位与六次首一 w 关系](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-Gram-Y-unit-and-monic-w-degree-six.md)：旧整 y=1 排除确只用原 Gram/weighted 行与权单位，故六生成商中 Y 可逆、w 整；完整 determinant trick，未构造系数、不倒未付头。
+
 - [R150：整 Phi=0 的同源值恢复与八条首一六次商内原式](results/R150-appendix-unit211-general-Phi-zero-monic-six-same-source-original-values.md)：原矩、P1、N(V)同点恢复完整Gram及两谱个别N/P，真实69.227秒/exit0；全部T≤5、分列原几何单位，不宣排空。
 
 - [R150：一般两线行列式非零图的完整原值六维返回](results/R150-appendix-unit211-general-delta-nonzero-monic-six-full-original-value-return.md)：八条原mean/N1及两谱个别N/P全部T≤5，真实72.253秒/exit0；原D/E分列几何幂、不倒Phi或范数，同点双向返回，未宣排空。

@@ -1,14 +1,16 @@
 {
-  "message": "ISP: record complete whole Phi zero original values and submit smaller W cofactors",
-  "parentCommit": "894934c40e58883f51c2d73c8d0b16f18be0b3f3",
+  "message": "ISP: prove Y is an actual Gram unit and w is integral of degree at most six",
+  "parentCommit": "9e88ddb4355191ec4311515c92aab745cfde00b8",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-general-Phi-zero-monic-six-same-source-original-values.md",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-general-Phi-zero-monic-six-full-values-receipt-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-generic-LS-W-five-plus-five-original-value-fixed-cofactors-8542.py",
+    "topics/invariant-subspace-problem/results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-Gram-Y-unit-and-monic-w-degree-six.md",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-W-Gram-Y-unit-monic-w-degree-six-source-scope-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-W-five-plus-five-NameError-receipt-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-W-five-plus-five-NameError-and-Vbar-correction-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-generic-LS-W-five-plus-five-original-value-fixed-cofactors-Vbar-corrected-8542.py",
     ".github/workflows/invariant-subspace-w-five-plus-five-original-cofactors-8542.yml",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",

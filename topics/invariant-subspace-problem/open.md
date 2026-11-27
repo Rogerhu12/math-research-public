@@ -178,7 +178,7 @@ Deddens自伴MASA、全部可分重数有限成本投影、全2-adic平移距离
 
 [最大图低余孔C2费用](results/R271-appendix-maximal-graph-low-excess-hole-square-cost.md)已付同一h的明确扇区，实际y有界物理孔遂入原图核心。新[临界小指数物理孔矩准则](results/R271-appendix-critical-small-physical-exponential-maximal-graph-core.md)进一步给s0=(2+2log(3/2))/14：y∈D(G)且e^(s0N)y∈H，则h∈C2并在原图核心；等号的真实8^j余量完整支付。未知Green缺陷Y并未证明有该矩，物理孔平滑未证保Y，同W的Gamma及F/R/Z继续。
 
-**W整余图[原D清分母的十条两列表示](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-original-D-cleared-two-generator-system.md)已付。** dc365649真43.084秒/609648KiB/exit0；s=C/(2mD)与原矩双向返回，完整十行及六物理单位同Y返回。只用原点D非零、不倒范数；大系数/一次首项零仍保，48MB可再生矩阵只留SHA。新d5eab088用五无s+五含s原行取四固定cofactor，180秒/4GiB待实际，不重放43秒大矩阵。未证图为空，旧头零保留。
+**W整余图[十条原值两列返回](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-original-D-cleared-two-generator-system.md)已付；[Gram商Y真单位及w≤6次首一关系存在](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-Gram-Y-unit-and-monic-w-degree-six.md)新已证。** 只由旧全图六生成及y1的Gram/权单位排除推出，含非约化结构；未算Y逆/首一系数，不付J19。新d5eab在4.400秒因V未定义停，五加五新门未开始；f9141a75只改Vbar、180秒/4GiB待实际。D点单位和全部旧头零保留，未排W。
 
 **[整个一般ell=0已闭](results/R150-appendix-unit211-general-ell-zero-complete-original-exclusion.md)，全局可付ell。** 完整来源/零域/失败身份保总定理及快照；T0=0和J=Q也已整闭，继续当前原值输入，不重放旧支。
 
