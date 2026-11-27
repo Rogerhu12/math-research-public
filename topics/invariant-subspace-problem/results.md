@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **已证明（R150，一般Delta0/W0的整个H=0原支排除）**：[F29两完整商环的原常数行返回](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-H-zero-complete-original-exclusion.md)：精确F29=C3F26，完整QQ商环维3/26中的原18×6矩阵各有原行组合(0,0,0,0,0,1)，12个主元原Bézout真逆、全部六列实际乘回。0.049/0.855秒，无模提升/不可约假设/D饱和；合最高次结果关闭H0，在W0可付H，W0一般图仍开。
+
 - **已证明（R150，等权原N/P同值一次余式及六投影）**：[三原多项式身份与完整共同根条件](results/R150-appendix-unit211-equal-weights-same-value-linear-remainders-and-six-projections.md)：alpha³/⁴乘原行减已付单位乘一次余式等于原均值二次的明确倍式；三子式/三范数对四等式给准确存在性，保全部一次首项零。六双参数余式次数27–46/39–66；只剥已付内容、全回乘，尚未判空或替代原Dval/同点返回。
 
 - **已证明（R150，W0/H0有限原系统的完整29次权覆盖）**：[六生成元、18真乘法身份及原cofactor](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-H-zero-finite-six-generator-weight-cover.md)：二/三次主子式仅含已付单位，原商由1,x,y,t,y²,yt生成而未称自由；九必要行加原NS/PS乘法后六行constant cofactor给78次身份，剥49次已付因子得完整F29。各组件真实完成，源00bbaf0b打包未另全跑；全部新负门准确冻结，F29纤维仍开。

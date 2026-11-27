@@ -1,0 +1,198 @@
+{
+  "session": "Astra-ISP-8542378f-20261127",
+  "sourcePath": "topics/invariant-subspace-problem/notes/2026-11-27-unit211-generic-LS-W-H-zero-complete-original-return-8542.js",
+  "sourceSha256": "b1f2e6d113f6934f3003d51d08bcb36e7a9818fa898386da7f13d867540156ef",
+  "sourceBytes": 64913,
+  "baseSourcePath": "notes/2026-11-27-unit211-generic-LS-W-H-zero-six-generator-cover-8542.js",
+  "baseSourceSha256": "00bbaf0bd88a81da05a3265c866aa7df32008e53b6f331ad4b5cfb34ced6515b",
+  "baseProofCommit": "6e9791e8d54338352bfca2f1227f171f3dbb3536",
+  "newComponents": [
+    {
+      "key": "W0_primitive_integer_poly_JS",
+      "sourceBytes": 4211,
+      "sourceSha256": "69ba81a062e2ee73ebcf25ae340343415c75ba831329ae2bff427ff813a3b201"
+    },
+    {
+      "key": "W0_finite_QQ_algebra_JS",
+      "sourceBytes": 1343,
+      "sourceSha256": "cf8641e2ea2c3ab6932c2e63cf583b63b594fae97ea7a6233bacf61af5f45cb5"
+    },
+    {
+      "key": "W0_H_prepare_finite_cover_JS",
+      "sourceBytes": 599,
+      "sourceSha256": "c58920b2aec3be07542e2daf9d0df9d8a9966e50616fdf5636677e5fcddcac48"
+    },
+    {
+      "key": "W0_H_finite_component_return_JS",
+      "sourceBytes": 2828,
+      "sourceSha256": "c808be8ee82f092fe973467dab2e3c955b592519c33e8bd4ae60fc94b76cec4b"
+    },
+    {
+      "key": "W0_H_select_F26_JS",
+      "sourceBytes": 183,
+      "sourceSha256": "9907b077fd7827a9606ba0158095963c87eb38c983a1f3f10a74a11983637fe2"
+    },
+    {
+      "key": "W0_H_finish_finite_cover_JS",
+      "sourceBytes": 1291,
+      "sourceSha256": "ac2655c304e78a34094bc4a7ee4faa6203b9d63528217e75e85de49c57aefb32"
+    }
+  ],
+  "executionMode": "exact JavaScript BigInt in functions.exec V8",
+  "osExitCode": "not applicable; no OS process",
+  "rss": "not exposed",
+  "singleWrapperExecuted": false,
+  "actualNewComponentResults": {
+    "stage": "COMPLETE_H_ZERO_FINITE_ORIGINAL_EXCLUSION",
+    "wallSeconds": 0.001,
+    "modulusDegrees": [
+      3,
+      26
+    ],
+    "componentResults": [
+      {
+        "stage": "whole_finite_original_component_return",
+        "label": "C3",
+        "wallSeconds": 0.049,
+        "degree": 3,
+        "rank": 6,
+        "pivotcols": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "unitCalls": 6,
+        "actualOriginalRowProductsVerified": true,
+        "excludedByConstantRow": true
+      },
+      {
+        "stage": "whole_finite_original_component_return",
+        "label": "F26",
+        "wallSeconds": 0.855,
+        "degree": 26,
+        "rank": 6,
+        "pivotcols": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "unitCalls": 6,
+        "actualOriginalRowProductsVerified": true,
+        "excludedByConstantRow": true
+      }
+    ],
+    "exactQQAlgebrasNotAssumedFields": true,
+    "originalMatrixColumnConstantOne": true,
+    "wholeF29Covered": true,
+    "allLeadingZeroFibresRetained": true,
+    "modularEmptinessUsed": false,
+    "wholeFiniteHExcluded": true,
+    "wholeWZeroExcluded": false,
+    "ordinaryISPCompleted": false
+  },
+  "actualFactorAndFinalBindingSeconds": [
+    0.001,
+    0.001
+  ],
+  "entireModuli": {
+    "C3": [
+      "64",
+      "96",
+      "44",
+      "7"
+    ],
+    "F26": [
+      "74766790688768",
+      "798795197579264",
+      "3986021708464128",
+      "12336198341099520",
+      "26564848393388032",
+      "42334603846877184",
+      "51804673673265152",
+      "49778520703893504",
+      "38006586467155968",
+      "23104444145074176",
+      "11064021017952256",
+      "4032005754847232",
+      "1008034425995264",
+      "98434312175616",
+      "-48030848303104",
+      "-29006285012992",
+      "-8011612133376",
+      "-1044606193664",
+      "118211339008",
+      "99081456384",
+      "27817199392",
+      "5025814544",
+      "639439784",
+      "57507796",
+      "3502892",
+      "130005",
+      "2220"
+    ],
+    "F29": [
+      "4785074604081152",
+      "58300504551194624",
+      "335079467099619328",
+      "1207845134071234560",
+      "3065401859477864448",
+      "5830334970933018624",
+      "8634827802085949440",
+      "10207750505698951168",
+      "9786907390023565312",
+      "7680204352815890432",
+      "4946863432558182400",
+      "2602836033686994944",
+      "1100134789534449664",
+      "357927501213728768",
+      "78953274705182720",
+      "4919987039764480",
+      "-4721663677890560",
+      "-2448462039891968",
+      "-648271597854720",
+      "-84354455701504",
+      "9181176134656",
+      "8179166726400",
+      "2440929310336",
+      "480922953888",
+      "69060985808",
+      "7351019464",
+      "569304380",
+      "30453584",
+      "1007715",
+      "15540"
+    ]
+  },
+  "regeneratedOriginalConstantRowCertificates": [
+    {
+      "label": "C3",
+      "bytes": 1136,
+      "sha256": "bc00444fdd32383e08b72773d2a1d81c6d3df8497d9c9b2a634b99e90d9f844f",
+      "wallSeconds": 0.049,
+      "rank": 6
+    },
+    {
+      "label": "F26",
+      "bytes": 23988,
+      "sha256": "59805a48c5e3e6589cef501982fbc137e2923cbfc42cc61a63049219cc0abc06",
+      "wallSeconds": 0.855,
+      "rank": 6
+    }
+  ],
+  "primitivePRSActualBezoutTwoProducts": true,
+  "all12FiniteInverseProductsOne": true,
+  "allOriginalSixColumnTraceProductsVerified": true,
+  "noModularInference": true,
+  "noIrreducibleFieldAssumption": true,
+  "noPhysicalDSaturationNeeded": true,
+  "allLeadingZeroFibresRetained": true,
+  "wholeFiniteHExcluded": true,
+  "wholeWZeroExcluded": false,
+  "ordinaryISPCompleted": false
+}

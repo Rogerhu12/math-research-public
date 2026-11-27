@@ -99,3 +99,7 @@ AI-assisted GPT-6 Astra Pro：审原Gram重建、weighted N/P→HA/HB原迹、�
 2026-11-27 12:28 Asia/Taipei｜Astra-ISP-8542378f-20261127
 - 新原Dval分子构建实成0.124/0.145秒；配置新等权(k,w,v)四原式的QQ liftstd，保实际Dval单位，600秒/4GiB，不重启旧门、不预判成功。
 - 新增课题外.github/workflows/invariant-subspace-equal-weight-original-QQ-8542.yml用于这一真实新计算；只保源/参数/run/SHA小回执。执行环境仍不可用，未把API读取冒充pull；CI若真pull则另收其实际回执。
+
+2026-11-27 12:29 Asia/Taipei｜Astra-ISP-8542378f-20261127
+- 完整排除一般Delta0/W0的H零有限整支：F29精确两因子，维3/26整有理代数中原18行组合各返常数列1，12主元真逆与六列全核。
+- 源b1f2e6d新组件实成0.049/0.855秒，打包未全跑准确保留；按根规矩12直接登记，不增复现门。合已闭无穷远后W0可付H，继续H非零原图；两README无变。
