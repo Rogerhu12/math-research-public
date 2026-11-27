@@ -178,7 +178,7 @@ Deddens自伴MASA、全部可分重数有限成本投影、全2-adic平移距离
 
 [最大图低余孔C2费用](results/R271-appendix-maximal-graph-low-excess-hole-square-cost.md)已付同一h的明确扇区，实际y有界物理孔遂入原图核心。新[临界小指数物理孔矩准则](results/R271-appendix-critical-small-physical-exponential-maximal-graph-core.md)进一步给s0=(2+2log(3/2))/14：y∈D(G)且e^(s0N)y∈H，则h∈C2并在原图核心；等号的真实8^j余量完整支付。未知Green缺陷Y并未证明有该矩，物理孔平滑未证保Y，同W的Gamma及F/R/Z继续。
 
-**[整个W有限y=1已完整排除](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-y-one-complete-original-exclusion.md)，余图可付Y=y−1。** 唯一原恢复、固定26/33 QQ覆盖合整QQ4五行原组合g=u²，59真逆及单位剥除全乘回（34d05992，0.913秒/exit0）。新27ad028d以x=x*+Yw和完整mean仅除已付M解t，接三条(2,2)/两条(3,3)原系统及固定二次对；D27/B239整零面和物理D全保，不再重跑y1或两旧结式。
+**整W/y1已闭，Y=y−1可付。** [新全余W原mean二变量系统](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-original-mean-bivariate-system-and-fixed-pair-constraints.md)以x=x*+Yw和原mean解t，全选定原六式等价为三(2,2)/两(3,3)，同点物理D及个别N/P仍保。真实27ad028d，2.495秒/exit0；三原二次cofactor给w六次D(19,26,6)、首项J19未付，三个固定二次对w八次全保首项零。接新a5b1b6bf四组NSPS的4×4原cofactor；D27/B239整面未删，完整W有限系统仍开。
 
 **[整个一般ell=0原支已闭](results/R150-appendix-unit211-general-ell-zero-complete-original-exclusion.md)，一般余图可付ell。** 全三头曲线、1146次QQ覆盖全部未付因子及u2/u半整线已原返回；来源/失败身份保正文/快照，不重跑。继续一般T0=0与其它未付面。
 
