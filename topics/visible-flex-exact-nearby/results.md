@@ -536,3 +536,8 @@ WRC公式修正：原658c3109的physical角导数补全q_b,φ·Δx，新增一�
 原闭高域上L²小差由插值给A0小差；同E3121统一界给selected E2960强连续与compact image，完整源余项除L²距离uniform趋0。直接使用原actual inward differences得到同一V并唯一L²线性扩展，保B0=0且至少strong Z20线性方程；closed-domain uniform relativeL²展开已成。operator H8193→E20..1164对baseL²连续，但不授L²方向operator连续、开放L²非线性值域或rough-source onto。
 
 GHW/GHV+HLP完整scalar/vector链式列及actual matched difference闭二jet空间给真正本片globalC² L²响应2^-31220733/r、2^-31218685/r；physical relative余项逐fixedbase，普通C1及physical operator连续仍限原H8193拓扑。oneλ/placement/mean/span/moving-test DT全保；Γ随γ变，非最终fixedmetric族。无新数字比较、无reader、无旧科学重跑。
+
+
+### R147 WRA：真实anchor C1差对完整弱高度行的作用
+
+[完整证明](results/R147-supplement-actual-anchor-sensitive-weak-height-receiver.md)与[saved有理组合](scripts/fourfold_codazzi_actual_anchor_weak_height_saved_bounds.py)。对同一原b=9/50的真实vertical anchor差a0=||Δq_b||∞、a1=||∂φΔq_b||∞、b1=||∂φΔf_b||∞，给完整same-row difference及原root/strict四类源的三列增量：(86061,6086,2919,8098)、(12531,887,441,1180)、(4590,325,210,432)，逐项加原WRC(94000,6650,3000,8850)。含真实Aφ/Fubini/所有moving-mean、Δq_b,φ·x；常base高度差仅由Πg=0准确消，varyingYb仍付27/8、world axKb付4617/2000。须原circle真正vertical periodic；未配平seam保额外boundary functional。三C1输入不赋假值，TC全weak norms/actualports未完成不提前消费。12新exact rational一次全过，旧科学0。
