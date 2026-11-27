@@ -59,4 +59,4 @@
 
 - [R1023](../results/R1023-original-hesse-delta-cover-and-full-three-lift.md)：原Hesse公共盖准确为[δ]，原deckρ=−T、F′φ=φ(−F)；α把cube类T送至−S3并保显式有限常数，不能提升同一三型。完整[3]补盖的两立方根、ordered deck和原degree9/3推拉已付，继续实际Frobenius图/全54权，不宣称截面或ordinary非零。
 
-- [R1025](../results/R1025-original-delta-flat-weight-full-cartier-and-cm36-hermite.md)：原增长δ根权的全部六型Cartier表与全支撑证明，实际H5的两个old响应在全部目标p为单位；固定属16的CM36盖及全Hermite原函数保真实全纯γ。乘回P10后完整保GP10项，曲率准确落原四系数槽/四维空间；仍须全外权和同primitive forcing，未将裸响应当canonical非零。
+- [R1025](../results/R1025-original-delta-flat-weight-full-cartier-and-cm36-hermite.md)：原增长δ根权的全部六型Cartier表与全支撑证明，实际H5的两个old响应在全部目标p为单位；固定属16的CM36盖及全Hermite原函数保真实全纯γ。乘回P10后完整保GP10项，曲率准确落原四系数槽/四维空间；§6.1精确差原函数只剩固定t幂·x²U_B，但其U_C补线仍保；继续全外权和同primitive forcing，未将裸响应当canonical非零。
