@@ -218,3 +218,132 @@ global_route 给出上述正合列、全尖点平均与角色计算；
 o2_high_coefficient 已亲读 Weibel III Theorem 6.8 / Remark 6.8.1，
 root 亦亲读这两项，并独立纸核 §2–4 的正合性、参数无关性与 $\mu_p$ 扭曲。
 本札记不包含数学程序执行。
+
+## 7. 条件式两角色扩张的正确 Kummer 指标
+
+本节只计算一个**假定已在原整 $J[p]$ 中辨认出的两维层**所必须具有的角色。
+不在这里断言该层存在、重数为一，或其扩张类就是某个原圆单位。
+
+把 $\omega$ 同时视为 $G_{\mathbf Q}$ 的模 $p$ 分圆特征及
+$\Delta$ 的特征。若存在连续表示的正合列
+
+$$
+0\longrightarrow\mathbf F_p(\omega^r)
+ \longrightarrow E
+ \longrightarrow\mathbf F_p(\omega^{1-r})
+ \longrightarrow0,
+\tag{9}
+$$
+
+则它的扩张类属于
+
+$$
+\operatorname{Ext}_{G_{\mathbf Q}}^1
+ \bigl(\mathbf F_p(\omega^{1-r}),\mathbf F_p(\omega^r)\bigr)
+ =
+H^1\bigl(\mathbf Q,\mathbf F_p(\omega^{2r-1})\bigr).
+\tag{10}
+$$
+
+具体地，选与 (9) 相容的基，写
+
+$$
+\rho(g)=
+\begin{pmatrix}
+\omega^r(g)&b(g)\\0&\omega^{1-r}(g)
+\end{pmatrix}.
+$$
+
+令 $c(g)=b(g)/\omega^{1-r}(g)$，矩阵乘法给
+
+$$
+c(gh)=c(g)+\omega^{2r-1}(g)c(h).
+$$
+
+改变提升基向量只改变 coboundary，所以 (10) 的角色已由实际扩张方向固定。
+
+更一般地，令 $a$ 为任一整数。由于 $G_K$ 在
+$\mathbf F_p(\omega^a)$ 上平凡且 $p\nmid|\Delta|$，
+inflation–restriction 给
+
+$$
+H^1\bigl(\mathbf Q,\mathbf F_p(\omega^a)\bigr)
+ \simeq
+\operatorname{Hom}_{\mathrm{cont}}
+ (G_K,\mathbf F_p(\omega^a))^\Delta.
+\tag{11}
+$$
+
+若该类非零，它在 $K$ 上切出的循环 $p$ 扩张 $L/K$
+对 $G_{\mathbf Q}$ 稳定，且 $\Delta$ 对
+$\operatorname{Gal}(L/K)$ 的共轭作用为 $\omega^a$。
+Kummer 理论给其一维 radical
+$W\subset K^\times/K^{\times p}$，以及原配对
+
+$$
+\operatorname{Gal}(L/K)\times W\longrightarrow\mu_p.
+\tag{12}
+$$
+
+(12) 的 Galois 等变性说明，若 $W$ 的角色为 $\chi$，则
+$\omega^a\chi=\omega$。因此
+
+$$
+W\text{ 的角色为 }\omega^{1-a}.
+\tag{13}
+$$
+
+这使用的正是 R1112 中原 Kummer 对偶的
+$\omega\chi^{-1}$，不是去掉 $\mu_p$ 扭曲后的线性对偶。
+将 $a=2r-1$ 代入，(9) 的 radical 角色为
+
+$$
+\boxed{\ \omega^{2-2r}\ }.
+\tag{14}
+$$
+
+当 $r$ 为偶数且 $2\le r<(p-1)/2$ 时，其标准偶指标为
+
+$$
+T(r)=p+1-2r,\qquad 4\le T(r)\le p-3.
+\tag{15}
+$$
+
+这与 R1128 低偶角色出现判据中的指标相同。
+特别 $r=2$ 给 $T(r)=p-3$，不是 $r=2$ 本身。
+
+若实际扩张方向相反，即
+
+$$
+0\longrightarrow\mathbf F_p(\omega^{1-r})
+ \longrightarrow E'
+ \longrightarrow\mathbf F_p(\omega^r)
+ \longrightarrow0,
+\tag{16}
+$$
+
+则相同计算给其系数角色 $\omega^{1-2r}$，
+以及 radical 角色
+
+$$
+\boxed{\ \omega^{2r}\ }.
+\tag{17}
+$$
+
+由于 (11) 为同构，非零的全局扩张类在 $K$ 上仍非零。
+在 (9) 的两维空间内，这时 $E^{G_K}$ 恰为其给定的一维子空间：
+非零的上三角 unipotent cocycle 迫任何不在该线上的向量不被所有
+$G_K$ 固定。这只排除该**特定两维层内部**的另一条 $K$ 有理线，
+不能排除原 $J(K)[p]$ 中其它拷贝、其它层或不同晶格。
+
+所以要用原圆单位证明指定奇扭点消失，仍须同时支付：
+
+- 原 $J[p]$ 上该两维整层的存在、方向、嵌入及全部相关重数；
+- 实际扩张类与 (14) 或 (17) 指标的指定 Kummer 类的相等；
+- 该类在 $K^\times/K^{\times p}$ 中确实非零。
+
+仅有 $r$ 是原 good 角色，不能把 $\beta_r$ 直接代入 (14)。
+本节没有借用剩余特征与层素数不同的 prime-square Eisenstein 定理，
+也没有用有理 Chen 同源代替整 $p$-扭层的比较。
+角色公式及 (11)–(17) 已由 root、global_route 与 o2_high_coefficient 独立纸核；
+本节不含数学程序执行。

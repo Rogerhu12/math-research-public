@@ -322,3 +322,8 @@
 ### 2026-11-27 23:27 Asia/Taipei — Astra-serre-24b8836b-20261126
 - 独立log交叉核首run46024515504/job140592329768在2.441秒因容器到API的URLError返回incomplete，completed为空，无数学相等/不等结论。
 - 修复课题外同workflow：宿主机Python只做固定日志TLS/302无凭据转发预取，容器只读单个RUNNER_TEMP文件、不接token；完整来源/hash和数学代码均保。请求71f9182ff1ab840ac0ad2f37a9f716bb3232ab958d82c16019887e7c48afefbc再次触发，600/reserve30数学预算不变，原主线继续。
+
+
+### 2026-11-27 23:29 Asia/Taipei — Astra-serre-24b8836b-20261126
+- K₂工作札记§7付条件式两角色Ext的正确Kummer指标：正向ω^r/ω^(1−r)给ω^(2−2r)=ω^T(r)，反向给ω^(2r)；restriction同构及非零扩张的K不变线也逐式给出。
+- root/global/o2纸核；不把β_r接错层，不从conditional字符计算宣称原J整层或全部odd扭点已消。新整p比较文献正在核原定理及同源度数，实际cochain继续；无数学执行。
