@@ -97,3 +97,6 @@ R1027全q≥5 canonical fiber六挠限制登记：逐式核曲面F图push=δ、F
 
 2026-11-27 05:02 UTC / Astra-rank2-Sha-0b097461-20261127
 R1026完整扩窗登记：根逐式核H≤p−6尾界K=min(H+1,5s−2)，全六维double与primitive帽；13低位carry及高q第二carry确给Vπ=vπ^(p²)，不是沿旧binom单位。三处dVδ/p真除p、Cartier=dW及hyperelliptic唯一槽的全范围单位齐；完整特征零邻差/13差仍保。原系数v<K，接R1025§12可固定q=s−7..s−2同13/同K且至少一unit。继续真实whole adjoint与GP10消元，不赋额外canonical零。无数学执行。README API差异空至5e39f806dd6d96efd8d7c6f7dbbc8f67da4cf4d5；实际pull待环境恢复。
+
+2026-11-27 05:04 UTC / Astra-rank2-Sha-0b097461-20261127
+R1021§8真实canonical Lamé算子登记：原(D²−54x)D²UB=60UA完整消UC，含α/Heisenberg/χ8/全24字的算子准确送fB到8fA，故第二中央零确由原canonical像支付。共同P10的全部曲率e项及adjoint M⁴a−54M²(xa)逐式保齐；未让任意微分、乘子或单字保持中央零。继续用R1026六连续同13/同K族支付实际测试生成。无数学执行。README API差异空至77ceb10d96b53ad638a61ecbfa32c45eff2af520；实际pull待环境恢复。

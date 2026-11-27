@@ -162,3 +162,7 @@ R1023已逐式识别原Hesse公共盖为[δ]并保deck/Frobenius真实符号；�
 ### R1026 完整扩窗已付后的实际六行
 
 原H扩到p−6并全付精度K=min(H+1,5s−2)、六维double/两exact/原φ边界与唯一primitive。高q实际13权模p为vπ^(p²)，第二Cartier后同一固定vπ；三处原dVδ/p的Cartier=dW与裸holomorphic核全p单位。全部char0相邻权和13差保留，未因modp饱和删p^K费用；原真实系数深度<K。 取q=s−7,…,s−2，则H=p−36,…,p−6，全在饱和区且同K=5s−2；R1025§12已保证其中至少一个真实曲率单位。待真正从同一个坏canonical假设及完整contiguous/adjoint推出六行曲率全零，或给等价完整消元；原P10、GP10、第一primitive、三字/十三字位置与所有double系数不得删除。
+
+### R1021§8 的真实 canonical 算子与下一实际测试
+
+完整χ8四阶Lamé算子𝒪 fB=8fA已付，故两条原坏canonical准确给j(fB)=j(𝒪 fB)=0；并非任意微分传播。共同原P10中的全部缺陷只含e=10Hcal^p Z^(p+9)、G及原位移，右端不含P10。真正剩门是完整adjoint测试M⁴a−54M²(xa)如何由R1026同13/同K的真实flat contiguous返回生成，并保第一primitive、质量/留数与χ8，不能直接把它指定为原测试。

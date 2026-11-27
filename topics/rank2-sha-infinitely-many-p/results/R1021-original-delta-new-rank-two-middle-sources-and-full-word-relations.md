@@ -596,6 +596,173 @@ $\nabla$ 穿过 (13)、十三 Miller 或 $P_{10}$ 时的连接补偿，
 固定来源分母、canonical torsion lift 和原整数格只增加固定有限
 坏集；raw 式 (26)–(27) 的使用不反演 $\gamma_A,\gamma_B$。
 增长平坦权及深度 $H$ 的所有成本由 R1022 的真实全精度证明承担。
+## 8. 两条真 canonical 之间的完整四阶 Lamé 算子
+
+本节保留 (26)–(27) 的 raw 规范及全部24字。
+它给一个明确的整个算子把 $f_B$ 送到 $8f_A$；
+因此在两条原 canonical 坏条件下，确有这两个完整来源的中央零。
+这里不将零分别分配给任何单字，也不宣称微分算子一般保持中央零。
+
+### 8.1 固定源端的完整消项
+
+将不含 $\sigma^{10}$ 的有理部分记为
+$$
+U_B=xy,\qquad U_A=y(X+4),\qquad X=x^3.
+$$
+原 $Dx=2y,Dy=3x^2$ 逐项给
+$$
+DU_B=5X+2,\qquad D^2U_B=30xU_B,
+\qquad D^2(xU_B)=8y(7X+1).
+\tag{40}
+$$
+所以准确有
+$$
+\boxed{
+(D^2-54x)D^2U_B
+=(D^4-1620x^2)U_B=60U_A.
+}
+\tag{41}
+$$
+式 (41) 的算子顺序固定为先 $D^2$，再 $D^2-54x$；
+未把 $x$ 与导数交换。
+以 $\nabla_{10}=D-10\sigma'/\sigma$ 作用于整个来源，
+同式就是
+$$
+(\nabla_{10}^4-1620x^2)u_B=60u_A .
+$$
+所有中间有理部分在 $O$ 的极阶至多九，
+故本次作用仍给实际整个 degree10 来源，没有隐含的极部截断。
+尤其，原 $D^4U_B=600U_A+1080U_C$ 中的 $U_C$ 已被
+$1620x^2U_B$ 准确消掉；
+这里的乘法项本身仍是算子的一部分，未被当作额外中央零。
+
+### 8.2 完整十三 profile、三处分支和绝对系数
+
+置
+$$
+a_{s,i}=iv_{13,30}+su_3,\qquad
+B_{s,i}=\alpha a_{s,i},\qquad
+\mathcal I_{s,i}=T_{a_{s,i}}^{(390)}D_\alpha .
+$$
+在本节实际 word 来源的域上定义
+$$
+\mathscr D_{s,i}=\mathcal I_{s,i}\nabla_{10}\mathcal I_{s,i}^{-1},
+\qquad x_{s,i}(z)=x(\alpha z+B_{s,i}).
+$$
+原 canonical lift 的显式式子是
+$$
+\boxed{
+\mathscr D_{s,i}
+=\alpha^{-1}D_z-10\zeta(\alpha z+B_{s,i})
++\frac{390}{\alpha}\eta(a_{s,i}).
+}
+\tag{42}
+$$
+这由
+$\mathcal I_{s,i}f(z)=
+e^{-390\eta(a_{s,i})(z+a_{s,i}/2)}
+f(\alpha z+B_{s,i})$
+直接微分得到，因而保留了原 $\alpha$ 缩放、指数相位和全部常数。
+(42) 作用于 $\mathcal I_{s,i}(\sigma^{10}R)$ 时，
+其结果准确是 $\mathcal I_{s,i}(\sigma^{10}DR)$；
+代数性由原 canonical lift 与本节显示的有理部分承担，
+没有更换一个自由连接。
+
+令 $\mathcal P_{s,i}$ 为 (29) 的实际 word projector，
+并按原顺序定义
+$$
+\boxed{
+\mathscr O=
+\sum_{\substack{s=\pm1\\1\le i\le12}}
+\chi_8(i)
+ \bigl(\mathscr D_{s,i}^4
+       -54x_{s,i}\mathscr D_{s,i}^{\,2}\bigr)
+ \mathcal P_{s,i}.
+}
+\tag{43}
+$$
+这里先取实际 word，再施其同一个规范算子；
+不把 projector 越过非恒定乘子。
+将 (41) 逐字代入 (27)，并用
+$\chi_8\chi_{10}=\chi_6$，完整得到
+$$
+\boxed{\mathscr O f_B=8f_A.}
+\tag{44}
+$$
+绝对常数为
+$60\cdot(1/60)/(1/8)=8$；
+两个三处符号 $s$ 原样保留，
+没有添加 Weyl-dual、三处或十三处相位。
+该证明不反演 $\gamma_A,\gamma_B$。
+
+同样，对 §5.1 的单正三支、完整十二个十三字，
+相应的算子准确把 $B_+$ 送到 $60A_+$。
+这些始终是十二字的整个和。
+特别，原两条坏条件现在可准确写为
+$$
+j(f_B)=0,\qquad j(\mathscr O f_B)=8j(f_A)=0.
+\tag{45}
+$$
+第二个零来自已证明的整个像 (44)，
+没有使用微分、乘法或单字零的免费传播。
+
+### 8.3 原 P10 中对应的全部曲率
+
+在共同 target 坐标，用 R887/R1024 的原
+$$
+L=D-10G,\qquad
+e=10\mathcal H^p Z^{p+9},\qquad
+LP_{10}=e .
+$$
+对任意完整有理 $f$，Leibniz 逐项给
+$$
+\begin{aligned}
+L^2(P_{10}f)&=P_{10}D^2f+2eDf+(Le)f,\\
+L^4(P_{10}f)&=P_{10}D^4f+4eD^3f
+ +6(Le)D^2f+4(L^2e)Df+(L^3e)f .
+\end{aligned}
+\tag{46}
+$$
+取 $f=U_B$，使用 (40) 后，得到整个曲率身份
+$$
+\boxed{\begin{aligned}
+&(L^4-54xL^2)(P_{10}U_B)-60P_{10}U_A\\
+&\quad=(4L^2e+12xe)\,DU_B
+ +(L^3e+126xLe+240ye)\,U_B .
+\end{aligned}}
+\tag{47}
+$$
+其右端没有 $P_{10}$。
+更准确地，$e=10\mathcal H^pZ^p\cdot Z^9$ 的前因子被 $D$ 杀掉，
+所以右边只涉及 $L^jZ^9$、$0\le j\le3$ 和显示的固定有理来源。
+这并没有删除 $G$、$\mathcal H$ 或原 $Z$。
+
+若先执行实际外部平移以保持同一个原 $P_{10}$，
+则以 $f=U_B(P+R)$、$x=x(P+R)$、$y=y(P+R)$ 解释 (40)–(47)；
+$L$ 中的 $G$ 仍是实际同点原模型。
+例如正三支标准字在同 $O$ 表达中使用
+$x(P+S)=-2x/(y+1)$。
+不能以未平移的 $U_B$ 或 $x$ 替代它们。
+其余 Miller、十三字符与 $Z^{-b-1}$ 都继续留在完整测试中。
+
+对整个实际测试 $a$，令 $M=D+10G$。
+Cartier 杀完整 exact 给准确伴随
+$$
+\mathcal C\!\left(
+a(L^4-54xL^2)h\,\omega_E\right)
+=
+\mathcal C\!\left(
+\{M^4a-54M^2(xa)\}h\,\omega_E\right).
+\tag{48}
+$$
+平移版本同样保其真实 $x(P+R)$。
+(48) 不删曲率 (47)，也不将新测试
+$M^4a-54M^2(xa)$ 直接当成原测试。
+把 (45) 放入 R1020/R1026 的同一读者时，
+真正需要消费的是这些完整测试、(47) 的曲率、
+全部质量／留数以及原 $\chi_8$ profile。
+本节已付两真 canonical 的整个固定算子与完整返回，
+尚未证明其伴随测试由原平坦权的相邻返回生成。
 
 ## 依据
 
