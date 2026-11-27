@@ -1,17 +1,19 @@
 {
-  "message": "ISP: prove the whole remaining W mean bivariate system and fixed original constraints",
-  "parentCommit": "ece153067a8abf4872347c8bf07541d1e41966ff",
+  "message": "ISP: exclude three exact Q weight domains and start their new QQ divisor certificates",
+  "parentCommit": "908af77db0707346b54a943d53063d01e9d96430",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-original-mean-bivariate-system-and-fixed-pair-constraints.md",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-W-original-mean-bivariate-system-execution-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-generic-LS-W-y-not-one-full-NP-fixed-cofactors-8542.py",
-    ".github/workflows/invariant-subspace-w-y-not-one-full-np-fixed-cofactors-8542.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-general-LS-global-paid-head-projective-directions-8542.py",
-    ".github/workflows/invariant-subspace-general-ls-projective-head-directions-8542.yml",
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-Q1minusU-three-exact-weight-domain-exclusions.md",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Q1minusU-three-exact-weight-domain-exclusions-execution-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Q1minusU-new-phi-h-plus-one-native-QQ-divisor-certificate-8542.py",
+    ".github/workflows/invariant-subspace-q-native-qq-phi-h-plus-one-8542.yml",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Q1minusU-new-phi-h-minus-half-native-QQ-divisor-certificate-8542.py",
+    ".github/workflows/invariant-subspace-q-native-qq-phi-h-minus-half-8542.yml",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Q1minusU-new-phi-h-quadratic-native-QQ-divisor-certificate-8542.py",
+    ".github/workflows/invariant-subspace-q-native-qq-phi-h-quadratic-8542.yml",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -21,7 +23,8 @@
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
   "dispatchWorkflows": [
-    "invariant-subspace-w-y-not-one-full-np-fixed-cofactors-8542.yml",
-    "invariant-subspace-general-ls-projective-head-directions-8542.yml"
+    "invariant-subspace-q-native-qq-phi-h-plus-one-8542.yml",
+    "invariant-subspace-q-native-qq-phi-h-minus-half-8542.yml",
+    "invariant-subspace-q-native-qq-phi-h-quadratic-8542.yml"
   ]
 }

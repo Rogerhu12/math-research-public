@@ -1,0 +1,296 @@
+{
+  "schema": "isp-Qboundary-three-exact-phi-original-return-v1",
+  "run_id": 45976130760,
+  "job_id": 140428200541,
+  "source_path": "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Q1minusU-three-exact-phi-domain-original-return-8542.py",
+  "execution": {
+    "elapsed_seconds": 25.507543486,
+    "max_child_rss_kib": 68052,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "d5fd8296c2abec83213675d826462bac17d0b21c",
+        "before": "26c2070ac1d81b5e6d2b49b1e2a7f7a46a02d9dd",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-27T09:44:03.271350+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "45976130760",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "26c2070ac1d81b5e6d2b49b1e2a7f7a46a02d9dd",
+    "source_exit_code": 0,
+    "source_git_blob": "b6510ea4d11dcd8ce6706f273e3149a6d9d245a9",
+    "source_sha256": "86e0c4e3153131c20bb145e6c452a6cbf1805299bc7998b0f3c307aee0568710",
+    "stdout_bytes": 20413,
+    "stdout_sha256": "84a681f8ea8b8c0a68763892609fe9a643354317302ab9e3583ebea423f25e8a",
+    "stop_reason": null
+  },
+  "original_inputs": [
+    {
+      "rows": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6
+      ],
+      "originalParameterDegrees": [
+        51,
+        43
+      ],
+      "originalTotalDegree": 63,
+      "originalTerms": 1120,
+      "originalSHA256": "d9ee664678e97aa5a1ebc17f1ba275456137915bb494e2daf0cd4b280f3eb312",
+      "allSixOriginalColumnProductsMultipliedBack": true,
+      "allPaidFactorsMultipliedBack": true
+    },
+    {
+      "rows": [
+        0,
+        1,
+        2,
+        3,
+        7,
+        9
+      ],
+      "originalParameterDegrees": [
+        48,
+        42
+      ],
+      "originalTotalDegree": 60,
+      "originalTerms": 1049,
+      "originalSHA256": "4e16a4461f64280c962bf870aea6161edb455382074525be75a7fc0b3fbd5b3d",
+      "allSixOriginalColumnProductsMultipliedBack": true,
+      "allPaidFactorsMultipliedBack": true
+    }
+  ],
+  "exact_domain_returns": [
+    {
+      "stage": "new_Qboundary_exact_phi_original_complete_return",
+      "phi": "h_plus_one",
+      "phiCoefficients": [
+        "1",
+        "1"
+      ],
+      "originalInputDegrees": [
+        29,
+        29
+      ],
+      "remainingInputDegrees": [
+        14,
+        14
+      ],
+      "unitStrippingHistory": [
+        [
+          {
+            "unit": "Q",
+            "gcdSteps": 15,
+            "degreeRemoved": 15
+          }
+        ],
+        [
+          {
+            "unit": "Q",
+            "gcdSteps": 15,
+            "degreeRemoved": 15
+          }
+        ]
+      ],
+      "exactQQQuotientGCDDegree": 0,
+      "exactQQQuotientGCDCoefficientsInU": [
+        [
+          "1"
+        ]
+      ],
+      "fullExactBezoutProductMultipliedBack": true,
+      "everyCoefficientInverseHasActualQQhBezoutOne": true,
+      "bothComplexConjugatesRetained": false,
+      "wholeExactPhiDomainExcluded": true,
+      "counts": {
+        "coefficientInverseBezout": 228,
+        "coefficientReductions": 36502,
+        "polynomialDivisionProducts": 173
+      },
+      "seconds": 9.741939204999998
+    },
+    {
+      "stage": "new_Qboundary_exact_phi_original_complete_return",
+      "phi": "h_minus_half",
+      "phiCoefficients": [
+        "-1/2",
+        "1"
+      ],
+      "originalInputDegrees": [
+        29,
+        29
+      ],
+      "remainingInputDegrees": [
+        28,
+        28
+      ],
+      "unitStrippingHistory": [
+        [
+          {
+            "unit": "Q",
+            "gcdSteps": 1,
+            "degreeRemoved": 1
+          }
+        ],
+        [
+          {
+            "unit": "Q",
+            "gcdSteps": 1,
+            "degreeRemoved": 1
+          }
+        ]
+      ],
+      "exactQQQuotientGCDDegree": 0,
+      "exactQQQuotientGCDCoefficientsInU": [
+        [
+          "1"
+        ]
+      ],
+      "fullExactBezoutProductMultipliedBack": true,
+      "everyCoefficientInverseHasActualQQhBezoutOne": true,
+      "bothComplexConjugatesRetained": false,
+      "wholeExactPhiDomainExcluded": true,
+      "counts": {
+        "coefficientInverseBezout": 130,
+        "coefficientReductions": 30678,
+        "polynomialDivisionProducts": 103
+      },
+      "seconds": 10.96588143
+    },
+    {
+      "stage": "new_Qboundary_exact_phi_original_complete_return",
+      "phi": "h_quadratic",
+      "phiCoefficients": [
+        "1",
+        "-3",
+        "1"
+      ],
+      "originalInputDegrees": [
+        29,
+        29
+      ],
+      "remainingInputDegrees": [
+        27,
+        28
+      ],
+      "unitStrippingHistory": [
+        [
+          {
+            "unit": "M",
+            "gcdSteps": 2,
+            "degreeRemoved": 2
+          }
+        ],
+        [
+          {
+            "unit": "M",
+            "gcdSteps": 1,
+            "degreeRemoved": 1
+          }
+        ]
+      ],
+      "exactQQQuotientGCDDegree": 0,
+      "exactQQQuotientGCDCoefficientsInU": [
+        [
+          "1"
+        ]
+      ],
+      "fullExactBezoutProductMultipliedBack": true,
+      "everyCoefficientInverseHasActualQQhBezoutOne": true,
+      "bothComplexConjugatesRetained": true,
+      "wholeExactPhiDomainExcluded": true,
+      "counts": {
+        "coefficientInverseBezout": 140,
+        "coefficientReductions": 31767,
+        "polynomialDivisionProducts": 112
+      },
+      "seconds": 25.150591838
+    }
+  ],
+  "full_original_mod_profile": {
+    "stage": "new_Qboundary_full_original_R_three_phi_multiplicity_input",
+    "actualOriginalFixedUDegrees": [
+      29,
+      29
+    ],
+    "fixedSylvesterOrder": 58,
+    "profiles": [
+      {
+        "phi": "h_plus_one",
+        "fullOriginalRMod1009Multiplicity": 244,
+        "actualModIrreducibleFactors": [
+          {
+            "coefficients": [
+              1,
+              1
+            ],
+            "factorMultiplicityInPhi": 1,
+            "fullOriginalRMultiplicity": 244
+          }
+        ]
+      },
+      {
+        "phi": "h_minus_half",
+        "fullOriginalRMod1009Multiplicity": 3,
+        "actualModIrreducibleFactors": [
+          {
+            "coefficients": [
+              504,
+              1
+            ],
+            "factorMultiplicityInPhi": 1,
+            "fullOriginalRMultiplicity": 3
+          }
+        ]
+      },
+      {
+        "phi": "h_quadratic",
+        "fullOriginalRMod1009Multiplicity": 3,
+        "actualModIrreducibleFactors": [
+          {
+            "coefficients": [
+              381,
+              1
+            ],
+            "factorMultiplicityInPhi": 1,
+            "fullOriginalRMultiplicity": 3
+          },
+          {
+            "coefficients": [
+              625,
+              1
+            ],
+            "factorMultiplicityInPhi": 1,
+            "fullOriginalRMultiplicity": 3
+          }
+        ]
+      }
+    ],
+    "allModDivisionAndFactorProductsMultipliedBack": true,
+    "theseAreFullOriginalRMultiplicitiesNot222GCDMultiplicities": true,
+    "QQDivisibilityByThesePhiPowersNotYetProved": true,
+    "seconds": 25.412920697999997
+  },
+  "scope": {
+    "three_exact_weight_domains_excluded": true,
+    "full_original_mod_phi_orders": [
+      244,
+      3,
+      3
+    ],
+    "QQ_phi_divisibility_not_yet_proved": true,
+    "whole_Q_boundary_excluded": false,
+    "ordinary_ISP_claim": false
+  }
+}
