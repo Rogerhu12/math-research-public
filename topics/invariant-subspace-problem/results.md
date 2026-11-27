@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [H1余P201：整性、完整平方自由约化与十三整块](results/R150-appendix-unit211-Phi-zero-H1-P201-integral-squarefree-complete-modular-reduction.md)：原Dixon模逆的实际极点支持恰201次，付旧首一P201在1009整及完整约化；十三块仅在p进完备化，不识别QQ因子、不排空原点。
+
 - [一对等权加四独立：首原S1子式全正权域](results/R271-appendix-one-pair-four-independent-first-s1-minor-all-positive-weights.md)：余第四域六平方和全乘回、第五域全非负，合前三域覆盖全部有序正权及碰撞边界；仅首子式，后五及S2仍开。
 
 - [整K7原图全闭；固定三均值头在全部余W可逆](results/R150-appendix-unit211-W-entire-K7-complete-original-exclusion-and-global-three-generators.md)：9418真0.299187631秒/0，整QQ三次原48×35 rank33返D，与已付原C3²合成D²∈I6，物理D单位排整K及幂零层；未执行181×84。全余W在权[λ]上由1,x,y生成，固定权/λ原纤维长≤3，不宣D局部化全局有限。

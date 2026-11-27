@@ -1,0 +1,462 @@
+{
+  "schema": "isp-original-P201-primitive-reduction-degree-saturation-v1",
+  "date": "2026-11-28 Asia/Taipei",
+  "run_id": 46077495536,
+  "job_id": 140768548217,
+  "execution": {
+    "elapsed_seconds": 5.457316752999986,
+    "max_child_rss_kib": 55448,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "380550ef781df95574f6bf46ac06ae32cab9888f",
+        "before": "52d2720b040a25c1e4f093c72c1e5a6d660f1721",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-27T22:35:00.381835+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46077495536",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "52d2720b040a25c1e4f093c72c1e5a6d660f1721",
+    "source_exit_code": 0,
+    "source_git_blob": "6226cab21f9a87d3f17930c064249cb91b81b81f",
+    "source_sha256": "6a2dc6a4b2434c60d8d3c6532bda0c4b23524583665ac7b558e00a7db48b42f3",
+    "stdout_bytes": 10955,
+    "stdout_sha256": "ad52a0563bcbbe924ed3895c74143f8db7c52d44b5aef25e6e75ef7758e7a35a",
+    "stop_reason": null
+  },
+  "original_source_full_sha256": "ef9e285512e1eddcbac0512f853f0b2ac58b57546f9a4bfa7e5621a9eaf8ddcc",
+  "necessary_prefix_sha256": "891828ba3b65989ed1f254e864f68b49d48b3c2bef090f343662ba659401b3b8",
+  "actual_math_records": [
+    {
+      "prime": 1009,
+      "oldQQGaussianReplayed": false,
+      "originalFullSourceSHA256": "ef9e285512e1eddcbac0512f853f0b2ac58b57546f9a4bfa7e5621a9eaf8ddcc",
+      "necessaryPrefixSHA256": "891828ba3b65989ed1f254e864f68b49d48b3c2bef090f343662ba659401b3b8",
+      "newTarget": "degree-201 saturation of the primitive P201 reduction",
+      "historicalParameterFilesReadOnlyInsideRunner": true,
+      "coefficientPayloadTransmitted": false,
+      "stage": "new_P201_modular_pole_target_input",
+      "seconds": 0.0001771759999940059
+    },
+    {
+      "sourcePoleDegree": 418,
+      "knownSquarefreeSupportDegree": 55,
+      "knownSupportSHA256": "29e6fcb5e775a86c83594e6886e61fc8640066f3d6f859702cf719f5d2a71ebf",
+      "onlyPreviouslyPaidLinearFactorsRemoved": [
+        "x",
+        "x + (-1)"
+      ],
+      "oldC55FactorizationAndValueFibresReplayed": false,
+      "oldQQGaussianReplayed": false,
+      "stage": "new_P201_known_source_support_reconstructed_as_input",
+      "seconds": 4.083445337000001
+    },
+    {
+      "wholeQAlgebraRank": 4,
+      "originalMatrixShape": [
+        8,
+        8
+      ],
+      "all64EntriesReturnedInGaussIntegerRing": true,
+      "denominatorGaussValuationMinimum": 0,
+      "denominatorGaussValuationMaximum": 0,
+      "knownC55ReductionDegree": 55,
+      "knownC55Reduction": {
+        "degree": 55,
+        "bytes": 222,
+        "sha256": "08672b027fc4fca5908af11de64b0ae08ce3182b9980124b6909347004f43389"
+      },
+      "noParameterSpecialization": true,
+      "stage": "new_P201_fixed_original_matrix_Gauss_integral",
+      "seconds": 4.6785072840000055
+    },
+    {
+      "column": 0,
+      "chosenOriginalCurrentRow": 0,
+      "allFourPivotInverseCoordinatesReturned": true,
+      "exactInvertibleRowOperation": true,
+      "currentMaximumNumeratorDegree": 483,
+      "currentMaximumDenominatorDegree": 522,
+      "stage": "new_P201_modular_Dixon_pivot",
+      "seconds": 4.7326286159999995
+    },
+    {
+      "column": 1,
+      "chosenOriginalCurrentRow": 1,
+      "allFourPivotInverseCoordinatesReturned": true,
+      "exactInvertibleRowOperation": true,
+      "currentMaximumNumeratorDegree": 579,
+      "currentMaximumDenominatorDegree": 618,
+      "stage": "new_P201_modular_Dixon_pivot",
+      "seconds": 4.837607689000009
+    },
+    {
+      "column": 2,
+      "chosenOriginalCurrentRow": 2,
+      "allFourPivotInverseCoordinatesReturned": true,
+      "exactInvertibleRowOperation": true,
+      "currentMaximumNumeratorDegree": 651,
+      "currentMaximumDenominatorDegree": 690,
+      "stage": "new_P201_modular_Dixon_pivot",
+      "seconds": 4.963019081999988
+    },
+    {
+      "column": 3,
+      "chosenOriginalCurrentRow": 3,
+      "allFourPivotInverseCoordinatesReturned": true,
+      "exactInvertibleRowOperation": true,
+      "currentMaximumNumeratorDegree": 638,
+      "currentMaximumDenominatorDegree": 677,
+      "stage": "new_P201_modular_Dixon_pivot",
+      "seconds": 5.078023833000003
+    },
+    {
+      "column": 4,
+      "chosenOriginalCurrentRow": 4,
+      "allFourPivotInverseCoordinatesReturned": true,
+      "exactInvertibleRowOperation": true,
+      "currentMaximumNumeratorDegree": 657,
+      "currentMaximumDenominatorDegree": 696,
+      "stage": "new_P201_modular_Dixon_pivot",
+      "seconds": 5.178982982000008
+    },
+    {
+      "column": 5,
+      "chosenOriginalCurrentRow": 5,
+      "allFourPivotInverseCoordinatesReturned": true,
+      "exactInvertibleRowOperation": true,
+      "currentMaximumNumeratorDegree": 613,
+      "currentMaximumDenominatorDegree": 652,
+      "stage": "new_P201_modular_Dixon_pivot",
+      "seconds": 5.256078164999991
+    },
+    {
+      "column": 6,
+      "chosenOriginalCurrentRow": 6,
+      "allFourPivotInverseCoordinatesReturned": true,
+      "exactInvertibleRowOperation": true,
+      "currentMaximumNumeratorDegree": 553,
+      "currentMaximumDenominatorDegree": 556,
+      "stage": "new_P201_modular_Dixon_pivot",
+      "seconds": 5.3078564859999915
+    },
+    {
+      "column": 7,
+      "chosenOriginalCurrentRow": 7,
+      "allFourPivotInverseCoordinatesReturned": true,
+      "exactInvertibleRowOperation": true,
+      "currentMaximumNumeratorDegree": 437,
+      "currentMaximumDenominatorDegree": 353,
+      "stage": "new_P201_modular_Dixon_pivot",
+      "seconds": 5.334332659000012
+    },
+    {
+      "prime": 1009,
+      "actualMatrixInvertibilityReturned": true,
+      "originalModularSolveAll32CoordinatesReturned": true,
+      "oldExactQQPoleCover": "C256=C55*P201; deg(P201)=201",
+      "commonActualModularDenominator": {
+        "degree": 356,
+        "bytes": 1359,
+        "sha256": "0027d2ba93e83de3146df58968e93900cb4627e0ebd384aae536d429390ce45b"
+      },
+      "squarefreeActualModularPoleSupport": {
+        "degree": 219,
+        "bytes": 855,
+        "sha256": "96835edb1d7c7c73a5c9475f54bd24ffdbd413d5bd80cb0953a5711d6163f071"
+      },
+      "knownClosedSupportIntersection": {
+        "degree": 18,
+        "bytes": 69,
+        "sha256": "b05181f736672d8ded7cae1948f58d1467d220a65f61819bb75aa18da4ee6b1b"
+      },
+      "lowerBoundForPrimitiveP201Reduction": {
+        "degree": 201,
+        "bytes": 789,
+        "sha256": "013656af6b2c65fe4d306c891b50aca9612b13ed9ae46c7e61d2e50b228dd029"
+      },
+      "finalDenominatorFactors": [
+        {
+          "degree": 1,
+          "bytes": 6,
+          "sha256": "a103b9ea1ab500ebd624c6c616659f2d805a764d622ed83bedfdf7d5c7b266dd",
+          "multiplicity": 1
+        },
+        {
+          "degree": 1,
+          "bytes": 7,
+          "sha256": "b3bbce2093c7010b6fbeeb60bd1db1a04093f9bd1ff672121557bfe9521a0c38",
+          "multiplicity": 1
+        },
+        {
+          "degree": 1,
+          "bytes": 7,
+          "sha256": "ab13bf87cfa02eac141ddfb0538e0191d2b968b28242a591c2f47224333fe913",
+          "multiplicity": 4
+        },
+        {
+          "degree": 1,
+          "bytes": 7,
+          "sha256": "e067246f6cd92e3d2ba1beaacd26340ed464c01f7c636a9c83f24920bcc8ec87",
+          "multiplicity": 4
+        },
+        {
+          "degree": 1,
+          "bytes": 8,
+          "sha256": "53d44ff6405c0c5a7ff73dd8cfd432024931a9924f4a3ffad16f6932577c9c80",
+          "multiplicity": 7
+        },
+        {
+          "degree": 1,
+          "bytes": 7,
+          "sha256": "863fb6c02a848b49b19408cb67523bb3dcef9ede84280e9bbf5c7f0e60833617",
+          "multiplicity": 12
+        },
+        {
+          "degree": 1,
+          "bytes": 7,
+          "sha256": "fdaf514f8b482fc9fbb146ed264cc256b1aaa48a26c0025bb1d7d8eddfb10858",
+          "multiplicity": 12
+        },
+        {
+          "degree": 1,
+          "bytes": 5,
+          "sha256": "463f2998327eb3a694145e6014444480b2235be84aa6cfd57871cc64f1cd816c",
+          "multiplicity": 16
+        },
+        {
+          "degree": 1,
+          "bytes": 8,
+          "sha256": "8349f8b768d9c2ccb15f222cb8014be9cd07d3c7135fc2236d1042ca3fb66492",
+          "multiplicity": 16
+        },
+        {
+          "degree": 2,
+          "bytes": 11,
+          "sha256": "d894427e14e06319fe39e3dc2a0b941ea82878349bb947f1373c3c089be2ab25",
+          "multiplicity": 12
+        },
+        {
+          "degree": 2,
+          "bytes": 8,
+          "sha256": "75543111be1444fd0b18a26c2c9d0c44fdcd198a68b73f6ddbac65b951aeaf91",
+          "multiplicity": 16
+        },
+        {
+          "degree": 3,
+          "bytes": 15,
+          "sha256": "9d01d315c97361825a1fc0e0ebd2f61e46b3179a09d306ac56d2cc8302487916",
+          "multiplicity": 1
+        },
+        {
+          "degree": 3,
+          "bytes": 14,
+          "sha256": "6caf8c25678df91310104be06079bdf47d2fd047289f1bd9989b72afd1ee0073",
+          "multiplicity": 1
+        },
+        {
+          "degree": 4,
+          "bytes": 17,
+          "sha256": "3cf15b06b88c8754f57fb0a884326c5e8a97a8d7007a15466d5bf974d23224c5",
+          "multiplicity": 1
+        },
+        {
+          "degree": 4,
+          "bytes": 18,
+          "sha256": "6f55468c3f036835714e23583c2cb967c9365204ec1d94539ebf1ab7011dca32",
+          "multiplicity": 1
+        },
+        {
+          "degree": 4,
+          "bytes": 19,
+          "sha256": "e65a337d8d9d8132a57a3b16e26437e817a903234d9258ec8bf7d67fec2393cc",
+          "multiplicity": 1
+        },
+        {
+          "degree": 5,
+          "bytes": 24,
+          "sha256": "0c780501e3c546150d75e155fd0cfa9fa774a18639ae652f10c3739ac9515d6a",
+          "multiplicity": 1
+        },
+        {
+          "degree": 6,
+          "bytes": 27,
+          "sha256": "3d6960db277dc85d06578815b7ac023c74edf54a0f022f2b4d1c95a47b77e68d",
+          "multiplicity": 1
+        },
+        {
+          "degree": 6,
+          "bytes": 26,
+          "sha256": "9891e2f1f26236baea6c74b3d2938942a42fafa7f8f8369837570b1dfac14f5f",
+          "multiplicity": 1
+        },
+        {
+          "degree": 7,
+          "bytes": 31,
+          "sha256": "f05280d1093ffe9c897835731bfed8b8e922109689657d46909c7ce0856a125d",
+          "multiplicity": 4
+        },
+        {
+          "degree": 29,
+          "bytes": 115,
+          "sha256": "ab019b53aaff73b49f6fb717decf45d58785d251f0f0c7cb9b258c806c6760ef",
+          "multiplicity": 1
+        },
+        {
+          "degree": 63,
+          "bytes": 247,
+          "sha256": "f4361d2b0235518dbd1d8d7dcf23ce5e4c203b99da3017a62ce465f967cc2311",
+          "multiplicity": 1
+        },
+        {
+          "degree": 72,
+          "bytes": 283,
+          "sha256": "191bace3b3a66ce87f53bb2455702b17ea4bfd9d8cd3efdd580b5c33591b7e0f",
+          "multiplicity": 1
+        }
+      ],
+      "exactDegree201Saturation": true,
+      "monicP201InZlocalizedAtPrimeProved": true,
+      "fullP201ReductionIdentified": true,
+      "P201SquarefreeReductionProved": true,
+      "P201ReductionFactors": [
+        {
+          "degree": 1,
+          "bytes": 6,
+          "sha256": "a103b9ea1ab500ebd624c6c616659f2d805a764d622ed83bedfdf7d5c7b266dd",
+          "multiplicity": 1
+        },
+        {
+          "degree": 1,
+          "bytes": 7,
+          "sha256": "b3bbce2093c7010b6fbeeb60bd1db1a04093f9bd1ff672121557bfe9521a0c38",
+          "multiplicity": 1
+        },
+        {
+          "degree": 3,
+          "bytes": 15,
+          "sha256": "9d01d315c97361825a1fc0e0ebd2f61e46b3179a09d306ac56d2cc8302487916",
+          "multiplicity": 1
+        },
+        {
+          "degree": 3,
+          "bytes": 14,
+          "sha256": "6caf8c25678df91310104be06079bdf47d2fd047289f1bd9989b72afd1ee0073",
+          "multiplicity": 1
+        },
+        {
+          "degree": 4,
+          "bytes": 17,
+          "sha256": "3cf15b06b88c8754f57fb0a884326c5e8a97a8d7007a15466d5bf974d23224c5",
+          "multiplicity": 1
+        },
+        {
+          "degree": 4,
+          "bytes": 18,
+          "sha256": "6f55468c3f036835714e23583c2cb967c9365204ec1d94539ebf1ab7011dca32",
+          "multiplicity": 1
+        },
+        {
+          "degree": 4,
+          "bytes": 19,
+          "sha256": "e65a337d8d9d8132a57a3b16e26437e817a903234d9258ec8bf7d67fec2393cc",
+          "multiplicity": 1
+        },
+        {
+          "degree": 5,
+          "bytes": 24,
+          "sha256": "0c780501e3c546150d75e155fd0cfa9fa774a18639ae652f10c3739ac9515d6a",
+          "multiplicity": 1
+        },
+        {
+          "degree": 6,
+          "bytes": 27,
+          "sha256": "3d6960db277dc85d06578815b7ac023c74edf54a0f022f2b4d1c95a47b77e68d",
+          "multiplicity": 1
+        },
+        {
+          "degree": 6,
+          "bytes": 26,
+          "sha256": "9891e2f1f26236baea6c74b3d2938942a42fafa7f8f8369837570b1dfac14f5f",
+          "multiplicity": 1
+        },
+        {
+          "degree": 29,
+          "bytes": 115,
+          "sha256": "ab019b53aaff73b49f6fb717decf45d58785d251f0f0c7cb9b258c806c6760ef",
+          "multiplicity": 1
+        },
+        {
+          "degree": 63,
+          "bytes": 247,
+          "sha256": "f4361d2b0235518dbd1d8d7dcf23ce5e4c203b99da3017a62ce465f967cc2311",
+          "multiplicity": 1
+        },
+        {
+          "degree": 72,
+          "bytes": 283,
+          "sha256": "191bace3b3a66ce87f53bb2455702b17ea4bfd9d8cd3efdd580b5c33591b7e0f",
+          "multiplicity": 1
+        }
+      ],
+      "incompleteWhenDegreeBelow201": false,
+      "noCharacteristicZeroFactorIdentification": true,
+      "noOriginalWeightOrValueExclusionClaim": true,
+      "coefficientPayloadTransmitted": false,
+      "encodedOrSplitPayloadCreated": false,
+      "stage": "new_P201_primitive_reduction_degree_saturation",
+      "seconds": 5.38888387099999
+    },
+    {
+      "sourceSHA256": "6a2dc6a4b2434c60d8d3c6532bda0c4b23524583665ac7b558e00a7db48b42f3",
+      "originalFullSourceSHA256": "ef9e285512e1eddcbac0512f853f0b2ac58b57546f9a4bfa7e5621a9eaf8ddcc",
+      "necessaryPrefixSHA256": "891828ba3b65989ed1f254e864f68b49d48b3c2bef090f343662ba659401b3b8",
+      "degreeSaturationTargetReturned": true,
+      "oldQQGaussianReplayed": false,
+      "oldQConstantTargetRepublished": false,
+      "oldC256OrC55ValueGateReplayed": false,
+      "ordinaryISPClaim": false,
+      "wholeH1Excluded": false,
+      "coefficientPayloadTransmitted": false,
+      "encodedOrSplitPayloadCreated": false,
+      "peakRSSKiB": 54652,
+      "stage": "new_P201_modular_pole_input_finished",
+      "seconds": 5.389144154000007
+    }
+  ],
+  "precise_conclusions": {
+    "old_monic_P201_in_Z_local_1009": true,
+    "full_reduction_degree": 201,
+    "squarefree_reduction": true,
+    "known_support_coprime": true,
+    "modular_factor_degrees": [
+      1,
+      1,
+      3,
+      3,
+      4,
+      4,
+      4,
+      5,
+      6,
+      6,
+      29,
+      63,
+      72
+    ],
+    "all_multiplicities": 1
+  },
+  "no_characteristic_zero_factor_identification": true,
+  "no_new_original_point_exclusion": true,
+  "remaining_known_distinct_weight_bound": 804,
+  "coefficient_payload_transmitted": false,
+  "encoded_or_split_payload_created": false,
+  "old_QQ_gaussian_replayed": false
+}

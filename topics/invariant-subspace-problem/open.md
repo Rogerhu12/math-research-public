@@ -6,7 +6,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-one-pair-first-minor-all-positive-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-integral-p201-complete-reduction-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -200,7 +200,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 原 rho 二次头零（包含例外有序权图）已全闭，仅旧物理D≠0图付 Aρ，不传碰撞D0；旧主 C87/55/C71/29 不再处理。原四头共同十权已闭，使四个非零头图覆盖；第一头零仍是整 H1 曲线，其它头图/H0/个别NP继续。一般首头原P6度39/20/6、P9度73/41/9及λ头H19/11原必要身份保快照，不将必要式互素或有限图当作排空。
 
-[原极点九整域全闭](results/R150-appendix-unit211-Phi-zero-H1-six-nonlinear-poles-complete-exclusion-and-804-cover.md)，当前仍有 $P_{201}(u)=g(u,Q)=0$、不同权对≤804。[原v接口](results/R150-appendix-unit211-Phi-zero-H1-polynomial-v-source-and-fixed-original-norm-interface.md)保全部原尺度及F6/NV同点列；[原三头h零全闭](results/R150-appendix-unit211-Phi-zero-H1-new-three-head-zero-complete-original-exclusion.md)由九次54维原单位与旧十权一次gcd支付，只在剩余原解图倒h。[首范数QQ精确3179](results/R150-appendix-unit211-Phi-zero-H1-original-norm-exact-degree-3179-at-infinity.md)付929+2250、mod首项954；另两QQ上界5764/6092及mod5131/5407、共同2773不缩804。[全局原首一六次与有限规范点](results/R150-appendix-unit211-Phi-zero-H1-global-original-monic-six-and-finite-normalized-points.md)：74b真0.998030146秒/49952KiB/0，六cofactor首项经完整Q4 adj/norm和QQ Bézout给C95，全部QQ因子都已闭。首一λ6与1,T,v三生成付每权长≤18、五坐标不同点≤14472；完整Gram及HA/HB唯一恢复，只有rho二根，完整规范不同点≤28944，不宣全球scheme长。新6226以固定原Dixon8的模像唯一逆列极点给primitive P201约化支持下界：恰201才付首一1009整性/保度/平方自由，低于则未决；首次120秒/1GiB，不重跑旧QQ Gaussian，历史输入只runner暂读。续完整p整模型同点原理想、其它Phi/个别NP及b0的316。
+[原极点九整域全闭](results/R150-appendix-unit211-Phi-zero-H1-six-nonlinear-poles-complete-exclusion-and-804-cover.md)及[原三头h零全闭](results/R150-appendix-unit211-Phi-zero-H1-new-three-head-zero-complete-original-exclusion.md)保原范围，当前 $P_{201}=g_4=0$。原v、F6/NV、首范数QQ3179和另两QQ上界/完整mod范数身份均保快照和正文。[原首一λ6及完整恢复](results/R150-appendix-unit211-Phi-zero-H1-global-original-monic-six-and-finite-normalized-points.md)给逐权长≤18、≤804权对/14472五坐标/28944完整规范不同点，非全球scheme长。[P201完整整约化](results/R150-appendix-unit211-Phi-zero-H1-P201-integral-squarefree-complete-modular-reduction.md)：6226真5.457316753秒/55448KiB/0，实际模极点219−18=201，primitive饱和付首一1009整性/保度/平方自由，十三模因子只在完备化形成真实互补块，不识别QQ因子。新9051首次120秒/1GiB对真P201bar与三条原固定范数作完整复合Bézout，若模gcd次数d则QQ共同度≤d及4d/72d/144d不同点界，d0才排H1；历史输入只runner暂读，旧Gaussian/∞门不重放。续同点原理想、其它Phi/个别NP及b0的316。
 
 ### R271：更多有限联合源已成，同W实际费用未成
 
