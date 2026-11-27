@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。已部分克隆并真实pull main，读根/课题README及H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则36cf1ed2已读。不得重做登记结论/窗口。
 
-**公开两README已读提交：7bf915d8284238c697b0763b631fa8dd5453ff4f**（2026-11-28 04:54 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
+**公开两README已读提交：a153a097ac116b164e5507b395ffcc4f422eac77**（2026-11-28 04:57 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
 
 最近真实pull 2026-11-27 01:48 Asia/Taipei；04:21重试仍无可用执行环境，shell未启动。按根规则8连接器同步、读diff、expected_sha非force提交，拒绝立即同步重基重推至成功；环境恢复立即pull --rebase。下一次真实尝试不晚于2026-11-28 05:21。令牌只CLI。数学程序仅本公开仓库Actions；本地/V8仅metadata/文本，不作数学计算。[此前偏差纠正](notes/2026-11-26-execution-path-deviation-and-correction.md)。
 
@@ -34,7 +34,8 @@ R1131的原forced高偶r，在B_(4j+2)/B_(p−1−4j)单位门内锁真实rank2�
 [R1137](results/R1137-original-Lame-conjugation-with-complete-boundaries.md)原D₀/Λ rank3边界、U/B/C完整共轭及指定2Λ³φ+3ΨΛ²φ+6Φ(V)φ+3δΨ=0已成；Λ非局部D、moving p极不可删。§2整差商/相对Cartier/碰撞值χ(−Q)=−d0/v给实际Padé：
 N=(p−5)/6，Q=H(−v²x)、P=−J(−v²x)/a0，
 QF−P的contact恰2N+1且首余项unit，F=₂F₁(1/3,1/2;4/3)=√(1−x)G_N。
-原e/K4双零 iff Q0=Q1=0，P亦含x²；约后deg≤N−2/contact2N−1。§2.5新付P_N=−2(v²)^(2N+1)(2/3)_N/(7/6)_N unit，degP=N；不单独排二次缺陷。o1继续原相邻Hankel/Pearson/旁列。
+原e/K4双零 iff Q0=Q1=0，P亦含x²；约后deg≤N−2/contact2N−1。§2.5新付P_N=−2(v²)^(2N+1)(2/3)_N/(7/6)_N unit，degP=N；不单独排二次缺陷。o1继续原相邻Hankel/Pearson/旁列。R1137§2.6新付原F²=(1−x)G_N²=D_N−g_N²x^(2N+1)，完整首carry保留，D/G各无重根且互素。实际norm余式Z非零deg≤N−1；e/K4双零则D q²−p²=x^(2N−1)W，W非零deg≤N−3，W0=2εp0不强称unit。实际三分支map指数全tame；余式排除仍开。
+
 
 原Tate normal-FM的普通连接保HD_T及全部高极；固定Prym三同源φ=[−s]ψ、完整trace与Fermat矩已成，Ξ/Υ同一CM线，不能由完美性推e/K4非同时零。genus4 Y非hyperelliptic且e0 iff全βY0，单向引理不反用。R1113完整谱、R1130相邻δ、R1126六CM配对、R1060非CM ordinary及所有旧窗口只消费；R1134四输入十五Euler列fullrank及run/hash已成，不重跑。上述准确公式/links见open和前态。
 

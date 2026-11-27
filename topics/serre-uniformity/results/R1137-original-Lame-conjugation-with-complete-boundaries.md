@@ -597,3 +597,128 @@ $$
 审计：o2_high_coefficient 已独立逐式核准 (T50) 的原留数参数、
 Clausen 的全部参数与单位分母、$\Phi(q_2)$ 的相对尺度，以及
 (T51) 中两个 $(-1)^N$ 的消去。没有数学程序执行。
+
+
+### 2.6. 平方的首共振项、无重根性与原 Pell 余式
+
+所有多项式在原剩余底域 $K$ 上讨论。以下 $G_N$ 始终指 (T47)--(T48) 中的同一个原多项式：
+$$
+G_N(x)=\frac{S(-v^2x)}{a_0}
+=\sum_{j=0}^{N}g_jx^j,\qquad
+g_0=1,\quad g_N\ne0,\qquad
+F(x)=\sqrt{1-x}\,G_N(x).
+$$
+它的最高系数为单位直接来自原 $S$ 的递推，亦可写成
+$g_N=(5/6)_N/(4/3)_N$。这里不要与 (T50) 的 $F_0$ 混用。
+
+将 $3xF'+F=(1-x)^{-1/2}$ 乘以 $2F$，得到整个代数形式级数的
+精确恒等式
+$$
+3x(F^2)'+2F^2=2G_N.
+$$
+但 $F^2=(1-x)G_N^2$ 本身是次数 $2N+1$ 的多项式。
+在 $0\le j\le2N+1$ 中，系数 $3j+2$ 唯一在
+$j=2N+1$ 为零，因为 $3(2N+1)+2=p$。
+定义
+$$
+D_N(x)=\sum_{j=0}^{N}\frac{2g_j}{3j+2}x^j .
+$$
+这些分母均为单位。逐系数读上述恒等式，并直接读取最高项，遂得
+$$
+\boxed{\quad
+F(x)^2=(1-x)G_N(x)^2
+=D_N(x)-g_N^2x^{2N+1},\qquad
+\deg D_N=N,\quad
+[x^N]D_N=\frac{2g_N}{3N+2}\ne0 .
+\quad}
+\tag{T52}
+$$
+因此 $N+1,\ldots,2N$ 次系数确实全零；
+最后的 $-g_N^2x^{2N+1}$ 是完整首共振项，不能删去。
+有限多项式 $D_N$ 也可写成终止和
+$$
+D_N(x)=\sum_{j=0}^{N}
+\frac{(2/3)_j(1)_j(5/6)_j}
+     {(5/3)_j(4/3)_j\,j!}x^j .
+$$
+这正是安全低段的 Clausen 平方和。
+其中下参数 $5/3$ 的首共振出现在 $j=2N+1$；
+终止和只定义 $D_N$，不代表已经约化整个 $F^2$ 并消掉 (T52) 的末项。
+
+这两个实际多项式的公因子及重根可以完全控制。
+首先 $D_N(0)=1$、$D_N(1)=g_N^2\ne0$，且
+$$
+3xD_N'(x)+2D_N(x)=2G_N(x).
+$$
+若 $\xi$ 是 $D_N$ 的根，则 $\xi\ne0$，而 (T52) 给
+$G_N(\xi)\ne0$。于是
+$D_N'(\xi)=2G_N(\xi)/(3\xi)\ne0$。
+故 $D_N$ 无重根，且 $\gcd(D_N,G_N)=1$。
+类似地，
+$6x(1-x)G_N'+(2-5x)G_N=2$、
+$G_N(0)=1$、$G_N(1)=-2/3$
+表明 $G_N$ 也无重根，并且其根不在 $0,1$。
+
+现在保留 (T48) 的原多项式对，记
+$\mathcal E=\mathsf QF-\mathsf P$，并置 $M=2N+1$。
+由 (T52) 有
+$$
+D_N\mathsf Q^2-\mathsf P^2
+=\mathcal E(2\mathsf P+\mathcal E)+g_N^2x^M\mathsf Q^2.
+$$
+(T48) 因而支付一个真正的多项式余式
+$$
+\boxed{\begin{aligned}
+D_N\mathsf Q^2-\mathsf P^2&=x^{2N+1}\mathcal Z_N,\\
+0\ne\mathcal Z_N\in K[x],\qquad
+\deg\mathcal Z_N&\le N-1,\\
+\mathcal Z_N(0)&=2\varepsilon_0\mathsf P(0)
+                   +g_N^2\mathsf Q(0)^2 .
+\end{aligned}}
+\tag{T53}
+$$
+次数界来自 $\deg(D_N\mathsf Q^2)\le3N$ 与 $\deg\mathsf P=N$。
+余式不能恒为零：否则非零 $\mathsf Q$ 将使
+$D_N=(\mathsf P/\mathsf Q)^2$，与 $D_N$ 非常数且无重根矛盾。
+这里的非零是整个多项式余式非零，并非其常数项为单位。
+
+若进一步假设原 $e=K_4=0$，按 (T49) 写
+$\mathsf P=x^2\widetilde{\mathsf P}$、
+$\mathsf Q=x^2\widetilde{\mathsf Q}$。
+(T53) 右侧的常数、一次项都为零，故
+$\mathcal Z_N=x^2\mathcal W_N$。
+将整个恒等式除以 $x^4$，准确得到
+$$
+\boxed{\begin{aligned}
+D_N\widetilde{\mathsf Q}^{\,2}
+       -\widetilde{\mathsf P}^{\,2}
+ &=x^{2N-1}\mathcal W_N,\\
+0\ne\mathcal W_N\in K[x],\qquad
+\deg\mathcal W_N&\le N-3,\\
+\deg\widetilde{\mathsf P}=N-2,\quad
+\deg\widetilde{\mathsf Q}&\le N-2,\\
+\mathcal W_N(0)&=2\varepsilon_0\widetilde{\mathsf P}(0).
+\end{aligned}}
+\tag{T54}
+$$
+最后一式并未假定共同零阶恰为二：若还有更高的共同 $x$ 因子，
+其右边也会为零。尤其不能在 (T54) 中直接声称
+$\mathcal W_N(0)$ 是单位，或将 $\deg\mathcal W_N\le N-3$
+误写成余式消失。
+
+同一 (T52) 还给一个可直接核分歧的有理映射
+$$
+\mathcal B_N(x)=\frac{g_N^2x^{2N+1}}{D_N(x)},\qquad
+\mathcal B_N-1=-\frac{(1-x)G_N^2}{D_N},\qquad
+\mathcal B_N'=-\frac{2g_N^2x^{2N}G_N}{3D_N^2}.
+$$
+它的次数恰为 $2N+1<p$。在 $0,1,\infty$ 三个目标值上的
+分歧指数分别为
+$(2N+1)$、$(2,\ldots,2,1)$ 和 $(N+1,1,\ldots,1)$；
+中间有 $N$ 个二次点，最后有 $N$ 个简单极点。
+上述无重根性与显示导数已逐点支付这些指数，所有分歧均温和。
+这项全局性质属于 (T52) 的实际范数多项式；
+它本身仍没有排除 (T54) 的指定有界 Pell 余式。
+
+本节只使用已付的原 Gauss 方程、准确 contact 与最高系数；
+没有数学程序执行，也没有借用有限域正性或一般 Padé 正常性。

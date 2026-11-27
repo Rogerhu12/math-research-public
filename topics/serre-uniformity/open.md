@@ -55,6 +55,8 @@ R1140§14已付原ε4=βχ2/(1−a⁻⁴)、v4=1/252、v8=1/132，完整带权ta
 
 ## O1：全p同一真实本原标签的临界非零
 
+R1137§2.6新付原F²=(1−x)G_N²=D_N−g_N²x^(2N+1)，完整首carry保留，D/G各无重根且互素。实际norm余式Z非零deg≤N−1；e/K4双零则D q²−p²=x^(2N−1)W，W非零deg≤N−3，W0=2εp0不强称unit。实际三分支map指数全tame；余式排除仍开。
+
 R1137§2.5已付原分子准确最高项：J_N=δ(3N+1)(v²)^N[z^N]F₀²，有限Clausen递推给P_N=−2(v²)^(2N+1)(2/3)_N/(7/6)_N为单位。故degP=N；若双缺陷，则约后分子恰degree N−2，仍须实际缺陷排除，不声称Q顶项或gcd单位。
 
 [R1137](results/R1137-original-Lame-conjugation-with-complete-boundaries.md)§2从原moving p重极给准确Gauss–Padé接口：整差商q_A=(h_A−h_-Q)/a支付碰撞与唯一p极，vφ_-−Ψφ=U^pχ，χ(−Q)=−d0/v为原旁列单位。Q(x)=H(−v²x)、P=−J(−v²x)/a0，N=(p−5)/6，QF−P的contact恰2N+1、首余项−d0(−v²)^(2N+1)/(a0v²)非零；F=√(1−x)·₂F₁(1,5/6;4/3)=₂F₁(1/3,1/2;4/3)于全部安全次数。e=K4=0 iff Q0=Q1=0，实际P/Q同除x²后deg≤N−2/contact2N−1。首余项unit、char0正常性/Jacobi正性均不单独排该有限特征缺陷；此为当前指定目标。
