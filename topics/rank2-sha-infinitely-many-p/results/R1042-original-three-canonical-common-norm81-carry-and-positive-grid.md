@@ -845,25 +845,25 @@ $\pi_0\equiv2\bmod25$。其它模数与此提升相容，
 这与第2节的 whole-space 论证相同，不将一个未识别的子空间代替全25维。
 
 使用完整原联合来源
-$
+$$
 \mathcal R(z_d,z_e)
 =\sigma(-4z_d+3z_e)\sigma(3z_d+4z_e).
 \tag{60}
-$
+$$
 其 Gram 为 $(25,25)$、交叉为零、两半特征如上。
 原 $\mathcal U_n$ 准确等于
 $d\in p^n,\ e$ unit、以及 $\xi_2,\xi_3,\xi_5,\xi_6\in p^n$。
 故其五个深方向可同时返回：
 一个 whole degree25 核与四个原 sigma 核产生 $\beta^{5n}$。
 取回后的输入准确为
-$
+$$
 \boxed{
 \xi(T)=\left(
  \frac{3e-4Td}{25},\,Tu_2,\,Tu_3,\,
  \frac{4e+3Td}{25},\,Tu_5,\,Tu_6\right),\qquad T=\kappa^n,
 }
 \tag{61}
-$
+$$
 其中 e 仍只取 unit；测度是
 $-\nu_{\mathcal R}(d,e)\otimes\nu_\sigma^{\otimes4}/84$。
 这里没有 Haar Jacobian，也没有删除联合来源中的 d/e 耦合。
@@ -874,18 +874,18 @@ $-\nu_{\mathcal R}(d,e)\otimes\nu_\sigma^{\otimes4}/84$。
 $p>1296$。这是固定有限删集。
 
 在 (57) 的原管上，某一旋转能进入 cut 的充分必要条件为
-$
+$$
 (-6+8\delta)\zeta_K+6(1+\omega)\zeta_A
        +4(1-\omega)\zeta_N=6\omega .
 \tag{62}
-$
+$$
 $\zeta_J$ 任意。该式的完整解是
-$
+$$
 \boxed{
 (\zeta_K,\zeta_A,\zeta_N)
 =(1,-1,1),\quad(-\omega^2,-\omega,-\omega^2).}
 \tag{63}
-$
+$$
 简短手证如下。
 对六个 $\zeta_K$，将第一项移到右侧所得的范数依次为
 $84,444,336,192,372,156$，顺序为
@@ -903,19 +903,19 @@ $6(1+\omega)/(4(1-\omega))=\delta/2$。
 所以1296项中恰12项包含整个 $\mathcal U_n$，其余不相交。
 每支仍保整个 (46) 的 unit/depth 域；
 在当前管内它们的 E 自由系数全为
-$
+$$
 e_*=\frac{93\omega}{50},
 \qquad
 a_A'=\frac{21+12\delta}{25},\qquad
 a_S'=a_T'=\frac{15+19\delta}{50}.
 \tag{64}
-$
+$$
 将各原行直接代入 (61)，定义实际线性式
-$
+$$
 D_\zeta(\xi(T))=T L_\zeta,\quad
 E_\zeta(\xi(T))=e_*e+T M_\zeta,\quad
 Y_i(\xi(T))=a_i'e+T Z_i'.
-$
+$$
 这些定义保全部四个其它深输入，唯一的 source 是 (60)；
 不将 (63) 的两个管内源重新识别为别的 arithmetic line。
 
@@ -925,18 +925,18 @@ $
 $\overline h_n$ 取回 (61) 后的质量函数，包含 $1/1296$ 的实际平均，
 但不含外面的 $\beta^{5n}$。
 因此
-$
+$$
 \int_{\mathcal U_n}\overline h_n\,d\rho
 =\beta^{5n}\mathcal M_{\mathcal U}(\kappa^n).
 \tag{65}
-$
+$$
 在 T=0，四个原 sigma 输入各自至少需要一次。
 $k=5$ 已被原 $q_5=0$ 杀掉，只余 k=4、k=6，
 对应 d 的次数0、2。
 原 (60) 的完整二次项是
-$
+$$
 \mathcal R=-12z_d^2-7z_dz_e+12z_e^2+O((z_d,z_e)^8).
-$
+$$
 故两个真实联合矩是
 $m_{0,2}=24\Omega^2$、$m_{2,0}=-24\Omega^2$。
 对 e 的 whole unit 核，
@@ -947,12 +947,12 @@ $m_{0,2}=24\Omega^2$、$m_{2,0}=-24\Omega^2$。
 在 (63) 两支中，d 在 $L_\zeta$ 的系数分别是
 $-\omega^2,\omega$。
 $\zeta_J$ 的六值平均后，四个其它深输入系数的乘积准确为
-$
+$$
 \boxed{
 P_0=-\frac{375+825\omega}{4},\qquad
 P_1=-\frac{252+819\omega}{4}.}
 \tag{66}
-$
+$$
 例如第一支的前两个系数为 $-1+3\omega,-3-\omega$；
 后两项的 J-平均乘积为
 $\{5(\omega-1)/2\}^2$。
@@ -962,7 +962,7 @@ $\{-3(2+3\omega)/2\}^2$。
 这给 (66) 的全部四深混合系数，不是只读一条首坐标。
 
 由原 $q_6/q_4=-3/14$，逐项回乘所得常数为
-$
+$$
 \boxed{
 M_*:=\mathcal M_{\mathcal U}(0)
 =-\frac{2q_4}{63h^6b}
@@ -971,13 +971,13 @@ M_*:=\mathcal M_{\mathcal U}(0)
  +\frac{45}{14}(\omega P_0+\omega^2P_1)
  \right\}\ne0.}
 \tag{67}
-$
+$$
 系数含 $-1/84$ 的原六 sigma 规范。
 确切地，括号等于
-$
+$$
 -\frac{25947}{10000}(339-209\omega)
 +\frac{135}{28}(43+117\omega).
-$
+$$
 其 $\omega$ 系数严格为正，故在 K 中非零。
 所有数都是固定有理代数数；未用数值近似或有限素数扫描。
 若某个目标 p 除该固定分子的范数，只保其真实有限估值，
@@ -989,18 +989,18 @@ $
 $d\log\langle Y_i/a_i\rangle$ 的完整函数。
 在 T=0，各支相同的 $\log\langle e\rangle$ 严格相消。
 于是
-$
+$$
 \boxed{
 (\mathcal A_{A,\mathcal U}
  -\mathcal A_{S,\mathcal U})(0)
 =d\,M_*\log\langle r_*\rangle,\qquad
 r_*=\frac{3(23+27\delta)}{7(15+19\delta)}.}
 \tag{68}
-$
+$$
 其范数为
-$
+$$
 Nr_*=\frac{3\cdot97}{7\cdot109}=\frac{291}{763}\ne1.
-$
+$$
 当前所有地点 $r_*$ 是 unit，且不是根一；
 故 $\log\langle r_*\rangle\ne0$。
 这里使用的是原两个实际观察的自由系数 (64)，
@@ -1013,22 +1013,22 @@ e 保 unit，d 和四个其它变量保全，
 $L_\zeta^k(e_*e+TM_\zeta)^{6-k}$ 和真实原分母，
 对 (63) 及全部 $\zeta_J$ 求原平均。
 因此其正次数系数满足
-$
+$$
 v_p([T^j](\mathcal A_{A,\mathcal U}
           -\mathcal A_{S,\mathcal U}))
 \ge-\lfloor\log_pj\rfloor.
-$
+$$
 设
 $\ell_p=v_p(d M_*\log\langle r_*\rangle)<\infty$。
 对每个 $n>\ell_p$，真实积分准确满足
-$
+$$
 \boxed{
 v_p\left(
  \int_{\mathcal U_n}d[
  \log\langle Y_A/7\rangle-\log\langle Y_S/\gamma\rangle]
  \overline h_n\,d\rho\right)=\ell_p .}
 \tag{69}
-$
+$$
 外面的 $\beta^{5n}$ 是单位，不能将它当成额外 p 深度。
 这支付了一个完整补域管的实际全尾；
 (69) 的深度固定，绝非随 n 自动高于 (52) 的 n。
@@ -1038,7 +1038,7 @@ $
 管的全部新坐标可以不借抽象存在写出。
 置 $x=\xi_1$、$s=\xi_4-4x/3$，其余四深变量仍记
 $u_2,u_3,u_5,u_6$，则
-$
+$$
 \begin{aligned}
 H&=x-u_2-u_3,\\
 K&=(-1+4\delta/3)x+\delta s+\omega u_2+\omega^2u_3,\\
@@ -1049,14 +1049,14 @@ Y_A&=(7+4\delta)x+3\delta s+
         \pi u_2+\bar\pi u_3+2\delta u_5+2\delta u_6 .
 \end{aligned}
 \tag{70}
-$
+$$
 所以 (57) 等价于 H unit，以及
-$
+$$
 J,\quad A-H,\quad N-8H/3,\quad
 K-(-1+4\delta/3)H,\quad
 Y_A-(7+4\delta)H\in p^n .
 \tag{71}
-$
+$$
 前四个条件只读伴随，最后一个是真正的 Y-伴随 mixed cut。
 若使用 R1040 的两态比例，必须保持这个差别。
 (67)–(69) 不把某个局部常数改称整个补域，不给未平均 S/T 行赋零，
@@ -1074,3 +1074,245 @@ $
 
 全文使用显示的固定线性代数、theta 纤维、矩和原有界测度恒等式；
 没有新增数学运行、素数扫描或缓存矩阵输入。
+
+
+## 10. 同一两 unit 管的完整一次项和真实 degree25 型五来源
+
+本节仍使用 §9 的原 $\mathcal R$、12个实际平均支和同一 unit 域。
+没有把管外部分、$D_1\setminus D_n$ 或其它 unit 扇区删除。
+新增的是 (68) 中 S/T 差的完整一次系数。
+
+### 10.1 原双 sigma 的三阶条件矩
+
+置
+$$
+H_m(z)=
+ \left.\partial_w^m\{\sigma(3z-4w)\sigma(4z+3w)\}\right|_{w=0}.
+$$
+这正是 (60) 的 d 条件矩，变量顺序未交换。
+令 $X=x^3$。同一个原 $E_b$ 上有整来源身份
+$$
+\boxed{
+H_3=432b\,\sigma^{25}x
+       (-35X^3+84bX^2+84b^2X+208b^3),
+\qquad H_3=-15120b\,z^5+O(z^{11}).}
+\tag{72}
+$$
+它是 standard odd degree25 空间的实际型五向量。
+(72) 不把它认成 F0 的 $\mathcal C_\pm$ 或原 degree34 型五线。
+
+以下给出不依赖新执行的完整证明。先取 b=1。
+两条整数行 $(3,4),(-4,3)$ 正交，交叉准周期指数准确消失，
+故 $\partial_w^3$ 保整个 degree25 线束。
+反演及 $\mu_6$ 类型使其唯一形状为
+$\sigma^{25}xP_3(X)$，$\deg P_3\le3$。
+原 $\sigma(z)=z+z^7/210+\cdots$ 给
+$[z^5]H_3=-15120$，固定三次项。
+
+令
+$c_P(u)=e^{-\zeta(P)u}\sigma(P+u)/\sigma(P)$。
+在三种真实挠点使用
+$Dx=2y,\ Dy=3x^2$，
+$$
+c_{(e,0)}(u)=1-\tfrac e2u^2+\cdots,\qquad
+c_{(0,1)}(u)=1-\tfrac13u^3+\cdots .
+$$
+三个完整规范值为
+$$
+\boxed{
+P_3(-1)=104976,\qquad P_3(0)=89856,\qquad
+P_3(8)=-5038848.}
+\tag{73}
+$$
+其常数可直接核：
+
+* 在 $T=(e,0)$，$e^3=-1$，
+  $\mathcal R(z,0)/\sigma(z)^{25}$ 在 $T+u$ 首项为 $-2916u$。
+  整个局部双函数为固定常数乘
+  $c_T(3u-4w)\sigma(4u+3w)$；常数除 $\sigma(T)^{25}$ 为−729。
+  在 u=0，三阶 w 导数为 $-144e$，故得第一值。
+* 在 $S=(0,1)$，同一首项为 $768u$，局部常数为256。
+  $[(3u-4w)(-(4u+3w)^3/3)]_{uw^3}=117$，
+  三阶导数为 $702u$；除 $x(S+u)=2u+\cdots$ 得第二值。
+* 在 $P=(2,3)$，$3P=(-1,0)$、$4P=(0,-1)$。
+  原交叉准周期仍消失；
+  $c_{3P}(-4w)c_{4P}(3w)$ 的三阶 w 导数为54。
+  $\sigma(3P)\sigma(4P)/\sigma(P)^{25}
+    =72\cdot(-2592)$；
+  再除 x(P)=2，得到第三值。
+
+四个条件恰确定
+$P_3=-15120X^3+36288X^2+36288X+89856$，
+即 (72) 的 b=1 形式。
+一般 b 由 $t^6=b$、
+$\sigma_b(z)=t^{-1}\sigma_1(tz)$ 返回；
+第三 w 导数的全尺度为 t，
+因此 (72) 外面的 b 因子必须保留。
+
+在同一个原普通周期 $\Omega$ 上，
+条件矩的测度身份是
+$$
+\boxed{
+(\operatorname{forget}d)_*(d^m\nu_{\mathcal R})
+       =\Omega^m\nu_{H_m}.}
+\tag{74}
+$$
+定义真正 e-unit 负一读数
+$\mathcal I_{3,p}=\int_{e\ {\rm unit}}e^{-1}\,d\nu_{H_3}(e)$。
+(74) 中不存在额外 m!；
+它已在 $H_m=\partial_w^m\mathcal R$ 内。
+
+### 10.2 十二支的完整有限系数
+
+保持 (64) 的
+$$
+a'=\frac{15+19\delta}{50},\qquad
+e_*=\frac{93\omega}{50}.
+$$
+两支 (63) 的 d 系数为
+$\ell_0=-\omega^2,\ \ell_1=\omega$。
+记 $l_2,l_3,l_5,l_6$ 为 $L_\zeta$ 中四个其它深变量的系数。
+$Y_T-Y_S$ 的准确深部分为
+$$
+\Delta Z=(3\delta-1)u_5+2u_6 .
+$$
+在每组六个 $\zeta_J$ 上取实际平均，定义
+$$
+R_j=\operatorname{avg}_{\zeta_J}
+        l_2l_3\{(3\delta-1)l_6+2l_5\}.
+$$
+由 (66) 已显示的全部 l 值，准确得到
+$$
+\boxed{
+R_0=-250-95\omega,\qquad R_1=84+273\omega,}
+\qquad
+\boxed{\begin{aligned}
+S_0&=R_0+R_1=-166+178\omega,\\
+S_1&=\ell_0R_0+\ell_1R_1=-428-439\omega,\\
+S_3&=\ell_0^3R_0+\ell_1^3R_1=334+368\omega.
+\end{aligned}}
+\tag{75}
+$$
+例如第一支 $l_2l_3=6-5\omega$，$l_5,l_6$ 的均值都是
+$5(\omega-1)/2$；
+第二支对应 $-1+11\omega$ 和 $-3(2+3\omega)/2$。
+所以 (75) 包括所有 J 支，不是选一条代表。
+
+因为 S/T 在 T=0 的自由系数完全相同，
+原归一 logarithm 差在 T=0 整体为零。
+因此一次项只由
+$d\,\Delta Z/(a'e)$ 产生；
+测试质量的 T 导数乘的是零，没有另一个隐藏项。
+
+四个原 sigma 各自最低矩为一次，下一次为七次。
+总次数 $k+1\le7$ 时，它们只能各取一次。
+这使 k=0,1,2 全零；k=5 仍被原 $q_5=0$ 杀掉。
+剩下的完整混合系数准确为
+$$
+[u_2u_3u_5u_6]L_\zeta^k\Delta Z
+ =\frac{k!}{(k-3)!}\ell_j^{\,k-3}d^{k-3}
+             l_2l_3\{(3\delta-1)l_6+2l_5\},
+\quad k=3,4,6 .
+\tag{76}
+$$
+
+### 10.3 实际一次读者，保每一个 Euler 因子
+
+原联合二次矩和 e 的 whole unit 核给
+$$
+\begin{aligned}
+\int_{e\ {\rm unit}}e^2\,d\nu_{\mathcal R}
+ &=24\Omega^2(1+\lambda\kappa^2),\\
+\int_{e\ {\rm unit}}de\,d\nu_{\mathcal R}
+ &=-7\Omega^2(1+\lambda\kappa),\\
+\int_{e\ {\rm unit}}d^3e^{-1}\,d\nu_{\mathcal R}
+ &=\Omega^3\mathcal I_{3,p}.
+\end{aligned}
+$$
+最后一行使用完整负一泛函，未把一个形式负次数 Euler 因子
+代进去。于是 (22)、(63)、(74)–(76) 给
+$$
+\boxed{\begin{split}
+[T](\mathcal A_{T,\mathcal U}-\mathcal A_{S,\mathcal U})
+=-\frac{d}{18144h^6ba'}\bigg\{&
+144q_3e_*^3S_0\frac{1+\lambda\kappa^2}{1+\lambda\kappa^3}\\
+&-168q_4e_*^2S_1\frac{1+\lambda\kappa}{1+\lambda\kappa^2}\\
+&+\frac{120q_6S_3}{1+\lambda}\,
+                    \Omega\mathcal I_{3,p}\bigg\}.
+\end{split}}
+\tag{77}
+$$
+$18144=84\cdot216$，
+其中216来自原1296平均内每支的六个 J 值。
+四个深 sigma 的 $\Omega^4$、
+联合矩的实际 factorial、原 $-1/84$ 及 $b\Omega^6$
+全部已在 (77) 中返回。
+
+### 10.4 代数部分严格非零；负一项的范围保持
+
+记 (77) 大括号的前两项为 $A_p$，最后一项为
+$B_p\Omega\mathcal I_{3,p}$。
+两者的系数均为代数数，
+$B_p=120q_6S_3/(1+\lambda)\ne0$。
+原 (19) 还给
+$$
+q_3/q_4=-799/567.
+\tag{78}
+$$
+而且对当前 $p>1296$，有严格的新结论
+$$
+\boxed{A_p\ne0.}
+\tag{79}
+$$
+这是完整代数数的非零，不只是一个 mod p 首项。
+若 $A_p=0$，则在原复嵌入中
+$$
+\left|
+\frac{(1+\lambda\kappa^2)^2}
+     {(1+\lambda\kappa^3)(1+\lambda\kappa)}
+\right|
+=\left|\frac{7S_1}{6(q_3/q_4)e_*S_0}\right|<\frac34 .
+$$
+右侧的严格界可只用
+$|S_1|<434,\ |S_0|>297,\ |q_3/q_4|>7/5,\ |e_*|>9/5$。
+左侧则因 $|\kappa|=1,\ |\lambda|=p^{-1/2}<1/36$，
+严格大于 $(35/37)^2>3/4$，矛盾。
+没有把 $\lambda$ 的 p-adic 单位性误当作其复绝对值。
+
+(79) 尚不单独排除
+$A_p+B_p\Omega\mathcal I_{3,p}=0$。
+要使用 R749 的点对数分离，须先为 (72) 的**整个**
+degree25 来源支付实际有限5角色、点域和共同周期，
+不能把它换成先前 degree34 的三条九阶线或 E21609 的负一值。
+本篇到这里不预授该点桥。
+
+### 10.5 原全尾与完整补域
+
+S/T 的本管常数项为零。
+与 §9.4 同一完整有界测度和同一单位条件给
+$$
+v_p([T^j](\mathcal A_{T,\mathcal U}
+                 -\mathcal A_{S,\mathcal U}))
+\ge-\lfloor\log_pj\rfloor\qquad(j\ge1).
+\tag{80}
+$$
+若后续证明 (77) 非零，记其估值为 $\ell_p$；
+则由同一个全尾，对 $n>\ell_p$ 有本管积分的准确深度
+$n+\ell_p$。这是一条管内结论。
+
+全原平均积分仍必须写为
+$$
+\boxed{
+\int (L_T-L_S)\overline h_n\,d\rho
+ =
+\int_{\mathcal U_n}(L_T-L_S)\overline h_n\,d\rho
++\int_{\operatorname{supp}\overline h_n\setminus\mathcal U_n}
+       (L_T-L_S)\overline h_n\,d\rho .}
+\tag{81}
+$$
+右边第二项包含全部其它 unit 扇区和
+$(D_1\setminus D_n)$ 的原中间环；
+它没有因本节取一个有限 Taylor 系数而消失。
+原坏条件也没有给未授权的 S/T 平均零行。
+本节新支付的是 (72) 的真实来源及 (77) 的完整有限首项，
+可以在有限点载体上继续接线，不将其冒作无穷 logarithm 的点投影。

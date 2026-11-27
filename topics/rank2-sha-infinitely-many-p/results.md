@@ -345,3 +345,6 @@
 
 
 - **R1043真实Fricke反交换与canonical基值**：[§17](results/R1043-original-two-isogeny-level-transport-and-weighted-orbit-reduction.md)。R1043§17从真实三Vélu x坐标确定F在完整S3盖的lift A↦−A、h固定；同核degree6图的两个倍率相反，故F′*Tω=−TωF*。原P_Q的F′*特征+δ与E4 canonical上的Picard pull同号，基值准确为3I e_A^- hatφ2,0 Q+(b2,0)，不能移植原S的6挠零。三个B′[2]确为IV*，仅三重好化后的下降点值被3杀。
+
+
+- **R1042完整两unit一次项**：[§10](results/R1042-original-three-canonical-common-norm81-carry-and-positive-grid.md)。R1042§10从同一norm25双sigma严格得到整H3型五来源，给全部12支S/T归一差的一次项(77)，所有阶乘、Ω和原Euler分母齐。其代数部分A_p对原p>1296严格非零；负一部分ΩI3仍须原finite5点桥，未预认其与A_p不可抵消。 全有界尾及全部补域保持；不以局部首项代原中央非零。
