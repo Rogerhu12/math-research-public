@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [全部实际子商的正序交织方向与闭逆同源费](results/R12-appendix-all-subquotients-hyponormal-intertwining-directions-and-closed-inverse-cost.md)：到hyponormal/从cohyponormal的任意有界交织全零；反向移位迹类拟亲和确存在，但每个非零移位不变L像均稠密于同一C_x，闭逆的同一轨道强制原四次费用。未知C_x真性仍开。
+
 - [Phi H1 的新三头整个零支排除](results/R150-appendix-unit211-Phi-zero-H1-new-three-head-zero-complete-original-exclusion.md)：原norm41完整覆盖，九次QQ实际Q一次及54维原单位；十次与已成十权由同一QQ一次gcd准确合成。只付当前原解的h头，804权界保持。
 
 - [物理 lambda 四头与至多52权的整降秩支](results/R150-appendix-unit211-W-physical-lambda-four-heads-global-affine-and-finite-rank-defect.md)：真1.092022892秒完整双向坐标、六原式和全仿射身份；四个三生成开图，整个降秩权长≤52、完整原七坐标≤624。所有未付头零与个别原值保留。

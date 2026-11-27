@@ -6,7 +6,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-H1-entire-new-three-head-zero-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-subquotient-intertwining-directions-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -95,19 +95,9 @@ A单射/稠密像/拟幂零/非紧，普通真M未知；排除此候选也不完
 
 全H稠密不传未知限制或有限旗，UHF不运输未知Haar格，低forcing不等于低输出，正常态不代边界奇异态，固定次数不代全部向量。每个完整结论立即登记/提交推送，然后接下一项；不得以阶段、时限或尚未支付的条件桥收尾。
 
-**[原强尾公共中位尺度](results/R271-appendix-median-strong-tail-scaling-four-power-condition-and-full-odd-height-cost.md)已付：** 真物理相似和同primitive投影均≤4^R，全奇偶MP费含64^R及显式阶乘。更大多项式R仍须原Galerkin统一高阶系数/邻域和母支持；该逆费不代真实κ。完整参数保快照。
+原强尾公共尺度、三位N头最高carry、全部正远孔行、R=d几何cut、慢增MP、相容真空塔及整个M占满前缀的已付完整公式/常数/源见本次完整快照。以下实际缺口均保留：扩大多项式R须原Galerkin统一高阶系数/邻域/母支持；实际s=e⁻¹⁰⁷⁰的Z_R、最高t余项和一般m尚未控制。移动整行的Γ²≤27μ1仅付锚趋零的f−a_full，不能转移给有锚f、a−PkerC f、第二Green或真F0。
 
-**三位N头最高carry的高孔完整极点界已付**（原来源/常数/run见结果索引及本次快照）：保真实全核与完整物理相似，仍须在实际s=e⁻¹⁰⁷⁰控制原Z_R、最高t余项及一般m；固定R渐近或单极点不代全部费用。
-
-**[全部正远孔的移动整行与同源费用已付](results/R271-appendix-all-positive-far-hole-moving-coherent-rows-and-matched-source-cost.md)：** ω²=S(x+p−1)/(pSx)同时控制所有p≠q交叉，几何起点的Bessel常数仍Bλ；J≤2x仅27J平方逆权。原全部cut、Q/R/J门与同w/u保留，最优Γ²是真有限头全幂Gram的MP型。实际f−a_full给Γ²≤27μ1及正物理列合成界，但该源锚趋0；不能将此费移给有锚f、a−PkerC f、第二Green或真F0。继续同一有锚来源的实际最优费用与稳定范围端点。
-
-**[R=d同W全能量及原截断源全矩已付](results/R271-appendix-geometric-cutoffs-same-w-complete-energy-and-d-sized-once-mp.md)：** H_C(8Sx)≤Hω保全高度。任意w∈M的P_xw经原行迭代与e^(−47d⁴)全carry误差有全矩可和；R=d,x=m+d,h=2d,Q=2d³及真帽cut数d³−5d合法。旧K*一次全MP适用，真实残量仍−Cq1；同forcing、有锚第二Green及稳定核返回继续。
-
-同W固定及慢增次数MP已付，k_m≤m/12保全−Cq_r反馈和同一母支持；仍未付k=h_m−1终列费用，不以近核列作kerT或closureBM。完整常数/来源见结果索引和最新快照。
-
-**相容真空塔的固定基数负相关改进已付：** L=o(x^(2/3))保forcing/Gram；x=ceil exp(9d⁴)仍超exp(O(d³))母窗。同w短核δ_L、carry/lift及BM真返回未付，全部常数保快照。
-
-**[整个实际M的占满前缀新指数率](results/R271-appendix-full-tensor-exponential-bound-and-improved-occupied-prefix-decay.md)已证：** 完整张量指数范数配合同一真实D_rg_r余项，r=ceil(log2n)给γ_ex>5/3和明确e^(−47n⁴)carry；优化率Γ_occ约1.723637，所有严格小于它的率对全M及固定最高k类成立。仍远低于真实α_q^-1除法图范数；继续W特殊来源/主理想闭图，未证N=M。
+R=d全矩/carry及固定、k_m≤m/12慢增MP仍保−Cq_r同forcing；k=h_m−1终列、有锚第二Green和BM真返回未付。真空塔L=o(x^(2/3))的x=ceil exp(9d⁴)仍超过exp(O(d³))母窗，同w短核δ_L、carry/lift与BM返回继续。全M占满前缀最优已付率Γ_occ约1.723637仍不足真实α_q逆除法费；只续W特殊来源、两范围核心和主理想闭图，N=M未证。
 
 **[可测平坦同源返回](results/R12-appendix-measurable-flat-common-source-recursion-and-all-negative-graphs.md)已付：** 原递推、普通范数和全部固定负幂返回；仍有累计五次费及未知M保持缺口。继续未知普通M的原算子关系，不重做全空间例子。
 
@@ -228,6 +218,6 @@ $$
 
 [整H265头方向](results/R150-appendix-unit211-W-first-head-entire-curve-projective-direction-and-generic-uniqueness.md)的泛型唯一方向及a0/r1r0零、无穷和重根保留；当前有限原环境见上，不代个别值返回。
 
-[全部普通限制的本质正序障碍](results/R12-appendix-all-invariant-restrictions-essential-hyponormal-obstruction.md)：每个非零普通M的非恒定解析f(A_M)，任意有界相似及紧扰动后自交换子仍有正、负本质谱；也保非零实际子商和慢平方Y_M−a。由R164忠实角与自含normaloid证明，排除这整类次正规加紧/迹类输入；新2611.28933v1的假设因而不能直接满足。非可逆交织/扩大空间/特殊闭域与同源费用仍须另做，不判M不存在。
+[全部普通限制的本质正序障碍](results/R12-appendix-all-invariant-restrictions-essential-hyponormal-obstruction.md)已排实际普通限制/解析函数/非零子商的任意相似加紧成为次正规等正序输入。新[交织方向与实际闭逆费用](results/R12-appendix-all-subquotients-hyponormal-intertwining-directions-and-closed-inverse-cost.md)证明全部实际A子商及非恒定解析芽到hyponormal、从cohyponormal的任意有界交织为零。反向移位到B有明确迹类拟亲和X_x；专对B=A_Q，每个非零移位不变L都满足closure(X_xL)=C_x，不能由此推出更小普通空间。实际闭逆Y_x单域保轨道，但同一来源放大至少exp((100/15)r⁴n⁴−105r³n³−O(n))。C_x真性、非正序紧扰动目标、真正特殊闭域和来源费用继续；不搬这些Haar子商结论到边界。
 
-[六位一对等权加四独立权的原S1首次输入](notes/2026-11-28-one-pair-four-independent-original-s1-8542.md)：完整固定源9=6+3、低源5=4+1，另3维沿旧一般出生一结果；新六维使用完整低5维逆和第四真空塔，原U,V,W≥0/Z>0覆盖全部四单权排序。首次180秒/4GiB，仅给S1及普通边所需的实际领先主子式，不预判正性、不付S2/七位glue或同W费。
+[六位一对等权加四独立权的原S1首次输入](notes/2026-11-28-one-pair-four-independent-original-s1-8542.md)：完整固定源9=6+3、低源5=4+1，另3维沿旧一般出生一结果；新六维使用完整低5维逆和第四真空塔，原U,V,W≥0/Z>0覆盖全部四单权排序。首次run46073432475真8.765704725秒/122064KiB/exit1已返全部原逆、矩阵与对称性，首minor摘要因fmpz不可JSON输出而中断；修类型后只记录首个系数失败，不继续无效的同配方后五子式，不付S1/S2/七位glue。
