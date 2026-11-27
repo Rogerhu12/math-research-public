@@ -7,3 +7,6 @@ AI-assisted GPT-6 Astra Pro：逐式审原Gram、40真单项式乘法行、315�
 
 ## 2026-11-27 02:19:42 UTC — Astra-ISP-8542378f-20261127：原形式除法伴随的实际值域非闭
 AI-assisted GPT-6 Astra Pro：独立两审原Sh域公式、同首位N/Y矩阵和完整Cayley消逆，登记R271-appendix-actual-division-adjoint-nonclosed-range-same-tail.md。同一占满尾z_q有||H*z_q||≥σ_q−8η_q、||K*z_q||≤sqrt2 σ_q²+17η_q，实际y=Sh归一后弱趋零/像趋零；以闭且单射G0*的闭图逆排实际范围闭性，亦排全h或有限坐标一致来源估计。没有把输出RanT*⊂M⊥当成真实W，没有关闭两条范围闭包核心。继续原W特殊source/更宽core。
+
+## 2026-11-27 02:20:29 UTC — Astra-ISP-8542378f-20261127：九因子首次合并验证实际信号终止
+AI-assisted GPT-6 Astra Pro：冻结源2894780f0fd31f38185be49ead26db23bdc00d0d488002bd2799ffe683fe78da及实际执行/部分小回执。原输入重建通过，w815、w+1 63、J2a107、J2b36、J3 5、J6 12已实际返回；进入J10后源signal9，实际墙钟37.123049秒，stdout19352B/cd600b31fae9b5c85b9322dda86ad2b324c0703e27db24314bd0387bfaaf8fcf，RSS未取得、外部原因未知。配置360秒/外375秒/4GiB，不能标九因子整体验证成功；各因子先前独立成功记录不被覆盖。新方案先释放原Gram scope与闭包，再对最大J10独立进程执行，保持原内存上限，未重跑该冻结源。继续原1817余覆盖的完整合成；尚未标整L0关闭。
