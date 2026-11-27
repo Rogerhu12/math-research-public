@@ -8,18 +8,18 @@
 
 - 公开根/课题 README 已读至实际 pull --rebase 的1cf10ac7283dc40958604f5f981f1be0e477af80（07:12UTC），两README差异空；根blob282e86b03385d3b6245ce7100ae2e2af7b103c2d，课题blob2f3b3c9264fbba8189f85716e68f768830e921bc。每次pull立即只读新README差异、至少每小时同步、记SHA。
 - 两库部分克隆已做。私库QUEUE认领41fe885610073f478b2f5a752461ca56cfd43f09已推；最近实际pull06:47UTC至6139de54ac72f1c7af0508b88ce03efdbf0a5690，两README无变、QUEUE本会话进行中。
-- 07:20UTC本地执行再次失联；08:12两库实际pull再次尝试均明确No usable execution environment。私库API至5d54a63ae9dd77a3ae010c470c344b5de21e42e4逐两README核同06:47，QUEUE仍本会话进行中；不冒称实际pull。
+- 07:20UTC本地执行再次失联；08:12两库、08:48公开实际pull重试均明确No usable execution environment。私库API至5d54a63ae9dd77a3ae010c470c344b5de21e42e4逐两README核同06:47，QUEUE仍本会话进行中；不冒称实际pull。
 - 断连期间沿最新main API非force快进；每次检查README和本topic差异，遇新父重新比较/建commit。08:12公开API至d990f197a7d196e1400d7cbf997a4cf2c36b7ee8，两README blob仍同07:12；全部最新父比较无本topic外部变化。恢复立刻补两库真实pull及README差异；令牌只命令行/进程，不落文件或API。
 - root独占git/H/open/log/index；每条结论即推，非快进立即pull --rebase、读差异、再推至成功，不强推。数学只用公开Actions。根规则15禁止存可重算输出；H<10KB、每MD<100KB。
-- [此次逐字归档](notes/2026-11-27-handoff-before-complete-dyadic-return.md)及其完整历史链保全部旧式、回执、未付门和失联/同步史；[open](open.md)、[results](results.md)、[R1001–1050索引](notes/PROOF-INDEX-R1001-R1050.md)为实际接续入口，不重做已登记结论。
+- [此次逐字归档](notes/2026-11-27-handoff-before-complete-polar-divisors.md)及其完整历史链保全部旧式、回执、未付门和失联/同步史；[open](open.md)、[results](results.md)、[R1001–1050索引](notes/PROOF-INDEX-R1001-R1050.md)为实际接续入口，不重做已登记结论。
 
 ## 一、唯一原几何作业及原生后端
 
-v9 run45920983633/job140251398928/source1eeab95eb057de2b6ea6753ff9e36a18bd20bbd2实际21000s timeout124，07:00:43UTC终态failure。完整原log34193573B/SHAfe59eda2…fae56dc、七快照及只读终态45956390908/140363733323在[终点链](notes/2026-11-27-artinian-v7-final-and-successor.md)。最后原A0y0全分母像4/306、det3670，最终数学JSON空，host incomplete；不当PASS或重启同旧输入。
+v9 run45920983633/job140251398928/source1eeab95eb057de2b6ea6753ff9e36a18bd20bbd2已实际21000s timeout124，终态无数学JSON；完整34MB日志/hash/七快照与终态只读回执在[终点链](notes/2026-11-27-artinian-v7-final-and-successor.md)，不重跑旧输入。
 
-R1033全剩余核/厚projector和双向返回已接唯一v10：run45956901945/job140365369016/source43c1a7bfd607ba57dcdb891a1ed5ea83b61b1157，52源、两char0 pins、原r29/q2453/batch64/minimal、全部门及21000s/360min、preflight=false均保持。07:48仍in_progress；07:28、08:00日志GET均BlobNotFound404，首只读45958247749/140369658303未得快照。读取失败不代数学失败/成功，不排第二个原几何作业。
+R1033唯一v10：run45956901945/job140365369016/source43c1a7bfd607ba57dcdb891a1ed5ea83b61b1157。52源、两char0 pins、原r29/q2453/batch64/minimal、全门及21000s/360min、preflight=false保持。08:12仍in_progress；07:28/08:00日志均404，首只读作业未得快照，不作数学结论、不排副本。
 
-R1035完整FLINT多项式行表示手证保R975同pivot/全列/附列/全次数帽/每原生成元双向返回；19组原串适配锁原source，非整个素域下降仍用旧完整后端。原生编译run45962104875/job140382113685/sourcea6a3b7e9453a2f2d0babacb26ec85dd42dc20320已真实成功：Sage10.6、全源pin/19组/整函数hash39fa1f64…8504492匹配，数学实例0，源码/完整stdout/log hashes在R1035§§5–6。§7已准备七处完整行绑定的未激活生产候选/56源host/原参数请求；当前workflow不监听新路径，生产准备45964030236/140388320652/source0026a70fa4c916b34ee40f6be22c84a2176f562b已真成功：全pin匹配、原main未调用/primary未改、0数学实例；首次稀疏读失败及git show修正见§7。v10原矩阵/性能与几何验收均未代付，不排重复作业。
+R1035完整native行表示/19组精确适配保同pivot/全列/附列/次数帽/双向返回；非整个素域下降走原完整后端。只编译45962104875/140382113685/sourcea6a3b7e9453a2f2d0babacb26ec85dd42dc20320、完整生产准备45964030236/140388320652/source0026a70fa4c916b34ee40f6be22c84a2176f562b均实际成功，数学实例0。全pin/hash、稀疏读修正、56源host和七处整行绑定见R1035§§5–7。候选请求未被重型workflow监听；仅在v10真实终态消费后决定后继，编译/准备不代原矩阵和几何PASS。
 
 R982/983/R987/R993/R992原全部门及R994三β27完整复L(1)>0均有真回执；对应全run/source/hash在结果及逐字归档，不重算。
 
@@ -52,9 +52,9 @@ R1027原54正重数配成27、End=O34、全特殊端点与未知D的M/N费用齐
 
 R1029/1031原2挠C的f3/r2/Jac度3、所有惰性q≥5 Sel2=⟨gq⟩及全部局部条件齐；仅Tate大q付最短Q模2和twist Sha[2]=0。两quadric(19)/Norm/全坐标、稳定V/W theta R0/Fq下降、固定h/M与完整Frob乘法齐；Nm(h)=−2^7·3^10(r+a/2)/(r²X²)的两个单零仍不当平方。
 
-R1031§§12–15将同一Cδ双向化为(A³−1)(B³−1)=9，κ下降与Jac度81分解齐；Calt度4分E±，EF→E+真φ、Ψ=−φ−3Q+纤维积和T²=−2(x+−11)/全六branch齐。Elkies1989已发表实嵌入定理加E−真3/9挠给无穷辅助ss q≡−1mod9，使整个J(Cδ) F²=−q；不代ordinary p或q+1素因子无穷。
+R1031§§12–16原Cδ=(A³−1)(B³−1)=9双向及Jac81、E±/κ/真3与9挠已付；Elkies1989实嵌入定理给无穷辅助ss q≡−1mod9及整J(Cδ) F²=−q，不代ordinary p。原g精确常数和h返回、平方根盖下降为U²=4s⁴/3+as²+a²/4，带原点及目标+R0的真2同源/j54000模型与−1/a全保。完整式、Norm两个单零、Frobenius/半线性及原点非截面限制见原证与本页逐字归档；继续实际两quadric共同点及27有权评价。
 
-§16原g=−h²(X(v)+a²/4)/[2916a(A−B)²]精确常数已付；s=54(A−B)√g/h真正下降为U²=4s⁴/3+as²+a²/4。O2/T2原点及目标+R0给实际degree2同源，双向j54000模型/Δ4096/27、−1/a与半线性作用全保，原连通平方根盖是准确纤维积。O2只是常曲线原点，不是原(19)点或非挠截面；继续同一两quadric共同点与原27有权评价。
+R1036手证q11全部最短D的完整两类：单branch含全部重数/剩余域，或一条完整三点Y纤维。全(H,J)、厚J2、m整除、常数式及原三系数/端点齐；三个已付负域只实时读原成功job/hash后复用。新公开请求2026-11-27-0850-original-q11-all-minimal-poles，数学结果尚待。§8任意q给唯一D=D0+Y*G、H0/H1可共享支点，N分母H0H1³、全线性b与精确norm极条件；它是完整模型，不代存在性/27权。旧3P6笔记W次数更正10/9/8，不影响此前全2662对常数式零解回执、不重算。
 
 ## 四、接续分工与其余门
 
