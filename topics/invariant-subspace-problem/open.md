@@ -4,7 +4,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-generic-LS-P1-double-zero-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-L0-both-leading-fibers-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -43,7 +43,7 @@ rank$H=4$ 的非单位局部块长度5、4、3已排；长度2单零的三种单
 
 rankH3单三jet的全部ess6已闭，末非零Hp原Gaussian/最高/normal给左侧5/2与1矛盾；完整Hp0/有限及∞边界见结果索引和[此前完整快照](notes/2026-11-27-open-before-complete-K-8542.md)。只续H2+1、三值H和原ess4/5，不重做已闭层。
 
-**原U值图L0：** w0/w1、b+c0、W、P1双零、整个G/K/V均闭，完整来源保[结果索引](results.md)。余原同rho/t交点及全部P/N。新完整原门fae9a57e/run45909368752实际1200秒仅BEGIN/无单位，源冻结；X/Y大QQ、原cofactor末步、次数降行、H15直接投影亦未决冻结，原身份及准确回执保各正文。转原低次矩阵/关系，不用模5953替QQ保次数。
+**原U值图L0：** w0/w1、b+c0、W、P1双零、整个G/K/V及X的两方向完整首项零面均闭。新[w首项排除](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-L0-X-w-leading-complete-exclusion.md)付λ3/2及整J4，源54f6780f实际21.511314秒/exit0；原lambda首项源579c3c75给w−1/−1/2及整H7，X可合法按λ34次、w52次首一化。四个原8×8子式保所有主元零支、32列身份；其与X的五曲线源f48568e0/run45918826850尚待准确回收。旧fae9完整门、C/X/Y门478dfef5、旧投影/PRS/次数降行/H15输入全部冻结，具体失败/资源/规则SHA保归档及正文。继续同rho/t原交点及全部P/N，不倒置新余式首项或以模次数代特征零。
 
 **S0/Lt0 整支已闭：** [完整原615次覆盖及三个因子的特征零排除](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-complete-original-cubic-cover-exclusion.md)已排除最后三值互异、Af非零的一般图；与此前全部退化面合并，S0/Lt0不再开放。源9d0c7789实际163.600807秒/exit0，原G132/完整QQ覆盖/保次数与首项的一元Bézout全回乘，不依赖独立QQ门。现接原U值atlas的一般LS非零层；新[加权矩四参数图及原P1双零完整排除](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-P1-double-zero-and-weighted-moment-coordinates.md)已付(Pf,Pt)非同时零，保ell/T/等权零面。原两线Cramer Delta零仍开；L0继续，旧模内存/600秒输入冻结。
 

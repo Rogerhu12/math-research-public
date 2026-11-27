@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R150 L0整个X的w首项零面为空（2026-11-27，已证明）：** [lambda=3/2与四次J4的完整原返回](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-L0-X-w-leading-complete-exclusion.md)核原首项−λ5(2λ−3)²J4²/5804752896；52/51次QQ Bézout和208次完整QQ覆盖/保34与4次的模1009一元Bézout均全乘回。源54f6780f实际21.511314秒/96348KiB/exit0，现可按w52次合法首一化，与已付lambda首项合并；未宣一般L0排空。
+
 - **R150 一般LS非零图的原P1双系数零整支为空（2026-11-27，已证明）：** [保等权的四参数矩坐标、559次完整QQ覆盖和原返回](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-P1-double-zero-and-weighted-moment-coordinates.md)不除ell/T/等权分子；双零支逼T=−ell、u=2ell，再由常首项四次H返回全部原Gram。43次因子与原578次投影的模1009一元Bézout及4/4/2/1整个QQ商代数均准确乘回；源70017734实际11.540406秒/47912KiB/exit0。只支付P1至少一个系数非零，Cramer Delta零与一般LS仍开。
 
 - **R12 全部不整除原幂闭根的实际第一阶gauge接口不可能（2026-11-27，已证明）：** [显式四次式与一般q²次有限结式](results/R12-appendix-nondivisible-roots-have-no-actual-first-row-gauge-interface.md)对q∤p的同一稳定闭根，排除GR=RT+Q、Q=FZR+KR这一已付实际接口，允许任意非零UHF交换F、任意有界交换K与复ℓ²第一阶Z。根稳定域支持全部有限消元，R单射仅在真实自然幂域消去；慢行由R171、有界行由所有Puiseux根差排除。无需根的完整C自伴性；未知不变底空间/gauge仍未识别，未宣普通ISP完成。

@@ -1,0 +1,72 @@
+{
+  "session": "Astra-ISP-8542378f-20261127",
+  "source": "2026-11-27-unit211-L0-X-w-leading-complete-original-return-8542.py",
+  "sourceSha256": "54f6780f1f7fcbd4d2b0f2438a90836ff223cfc47e284805476c7fbef4b47d35",
+  "sourceBytes": 19396,
+  "parameters": [],
+  "actualExitCode": 0,
+  "wallSeconds": 21.51131397499921,
+  "peakRssKiB": 96348,
+  "stdoutSha256": "0ac57575ac740fe27f13991dd1775c37cd8c2f40125d4704a28bc14aba09385d",
+  "stdoutBytes": 17424,
+  "limits": {
+    "alarmSeconds": 180,
+    "outerSeconds": 190,
+    "addressSpaceGiB": 4
+  },
+  "verifiedReturns": [
+    {
+      "actualTwoProductsMultipliedBack": true,
+      "allOriginalFibersRetained": true,
+      "coefficientDegrees": [
+        50,
+        51
+      ],
+      "coefficientSha256": "ec89a2d1b010ed9b67e0a533e33fc7ff011da44f405ed575972960d1d88192f2",
+      "elapsedSeconds": 21.336374,
+      "originalSpecializedWDegrees": [
+        52,
+        51
+      ],
+      "stage": "whole_original_lambda_three_halves_QQ_Bezout",
+      "wholeFiberExcluded": true
+    },
+    {
+      "GaussLemmaOnCompleteQQUnivariateCover": true,
+      "actualBezoutCoefficientDegrees": [
+        203,
+        207
+      ],
+      "actualBezoutCoefficientSha256": "95102cbe3a2df79a4a2fef4b72f2819462d77edf011b7ea6329a116804d008f2",
+      "actualTwoProductsMultipliedBack": true,
+      "allComplexEmbeddingsRetained": true,
+      "allMonicCoverCoefficientsPrimeIntegral": true,
+      "elapsedSeconds": 21.355743,
+      "fullOriginalModularSupportDegree": 204,
+      "fullOriginalModularSupportSha256": "c161af07755078cc1ebd2b304304c74889ab1bf92bd9d6772a13b64f7b3967e1",
+      "fullQQCoverDegree": 208,
+      "fullQQCoverLeadingCoefficientPrimeUnit": true,
+      "fullQQCoverSha256": "3084b6cc670e41ed38aed1f1e449c3e17162a8f31e960c99e74d4a25ded1ea6d",
+      "originalAndModularLambdaDegrees": [
+        34,
+        4
+      ],
+      "prime": 1009,
+      "stage": "whole_X_w_head_curve_original_return",
+      "wholeHeadCurveExcluded": true
+    },
+    {
+      "degreeW": 52,
+      "elapsedSeconds": 21.358027,
+      "entireLeadingFactorizationVerified": true,
+      "monicPolynomialHasOnlyPaidDenominators": true,
+      "ordinaryISPClaim": false,
+      "peakRssKiB": 96348,
+      "sourceSha256": "54f6780f1f7fcbd4d2b0f2438a90836ff223cfc47e284805476c7fbef4b47d35",
+      "stage": "complete_original_X_w_head_paid",
+      "wholeDegreeFourFactorExcluded": true,
+      "wholeL0Excluded": false,
+      "wholeLambdaThreeHalvesFiberExcluded": true
+    }
+  ]
+}

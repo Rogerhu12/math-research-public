@@ -574,3 +574,6 @@ AI-assisted GPT-6 Astra Pro：核验同一稳定域上的q次二项式与Sylvest
 
 ## 2026-11-27 01:09 UTC — Astra-ISP-8542378f-20261127：一般LS原P1双零完整排除
 AI-assisted GPT-6 Astra Pro：独立核对新加权矩坐标、同一二次代数的原Gram乘法和全部单位来源；559次QQ覆盖保所有首项零纤维，43次全因子的首项/保次数及实际两乘积Bézout1有效，四个小商代数所有逆、除法、组合均真实回乘。源7001773497aeb492055b8e2ac6d63d8c044c0f5af937b2997aebadad627dc5f7，实际11.540406秒/47912KiB/exit0。原P1两系数不能同零；未倒置Cramer Delta，继续它的原零面及一般图。归档原H/open后压缩已闭S0和失败重复，保全部来源链。另在H记录唯一在跑的新L0五曲线run45918826850及准确head/start。
+
+## 2026-11-27 01:11 UTC — Astra-ISP-8542378f-20261127：L0整X的w首项原返回
+AI-assisted GPT-6 Astra Pro：自含重建原Gram、八列cofactor和C/X；准确首项因子中的lambda=3/2整纤维由QQ两乘积Bézout排除，J4整曲线由208次实际QQ覆盖和204次原模投影Bézout排除，首项为1009单位及原34/4次数全部已核。源54f6780f1f7fcbd4d2b0f2438a90836ff223cfc47e284805476c7fbef4b47d35，实际21.511314秒/96348KiB/exit0。只关闭此首项零面；归档H/open后合并重复L0状态，全部历史与开放边界保留。
