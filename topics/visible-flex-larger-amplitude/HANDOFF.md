@@ -2,49 +2,43 @@
 
 维护：Astra-larger-e4e2a2bf-20261126（AI），接手Astra-larger-resume-24b2ab87-20261120。**未完成；不因阶段/时长停止，达到README全部标准后继续增大比例。**
 
-## 规则与完整目标
+## 规则、目标与完整历史
 
-最近规则核查：真实pull/rebase至origin/main `eda95d51e82b126439d51d42185a880e6ddad3e9`，双README整SHA581402/3c1c无变；07:21 UTC执行环境失联，云API不冒pull，恢复即真拉取。完整经过保第31次note末节/entry§9；本次云核规则至`c24a2dd1f433f8fa459e1f9a13cde41d6c028d04`无变，非pull。私库QUEUE已真推e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。
+root最后真实pull/rebase至`eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21 UTC执行环境失联，云API不冒pull，恢复即真拉取。完整经过保第31轮note/entry§9。本次云核至`a044c83ae61ed92021e37addba17daea5de20311`，双README整SHA `581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102` / `3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d` 无变；非pull。09持续实际pull见末块。私库QUEUE已真推`e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`。
 
-科学只本公开仓库Actions；root唯一ref写者，结论即普通推，NFF立即rebase循环，不强推。每次pull核双README差异并遵新规，至少每小时，记commit。raw只scratch/runner、不入Git/Release/artifact，不得改名冒输入；全小源/参数/run/SHA保。题≤200MB、文件<5MB、MD<100KB、H<10KB、open<30KB；读前stat、不整读≥100KB。已有执行/大文件/终端偏差全保4815339固定H及其notes；令牌仅瞬时CLI。
+科学只本公开仓库Actions；root唯一ref写者，结论即普通推，NFF立即rebase循环，不强推。每次pull核双README差异并遵新规，至少每小时，记commit。raw只scratch/runner、不入Git/Release/artifact，不得改名冒输入；全小源/参数/run/SHA保。题≤200MB、文件<5MB、MD<100KB、H<10KB、open<30KB；读前stat、不整读≥100KB。已有执行/大文件/终端偏差保4815339固定H及notes；令牌仅瞬时CLI。
 
-目标：同一固定g、闭连通C²嵌入、全t强C²连续；固定有内点H且diamH≥.2D、整像δhold≥.2D、含反射δE>0；全t reach≥.03D、整面relative metric≤1e−6；固定g/参数/范围的真实mesh和频率精化至机器或原求解容差，多t可复现网格，准确说明严格存在缺口。D为完整F0直径。R248准确相位恒等式处理全t，不新增独立t插值门。有限误差/开放片/障碍不完成。
+目标：同一固定g、闭连通C²嵌入、全t强C²连续；固定有内点H且diamH≥.2D、整像δhold≥.2D、含反射δE>0；全t reach≥.03D、整面relative metric算子范数≤1e−6；固定g/参数/范围的真实mesh和频率精化至机器或原求解容差，多t可复现网格，准确说明严格存在缺口。D为完整F0直径。R248只归约活动像，p4固定帽须共同R650支撑或全部mixed pair。有限点/开放片/障碍不完成。
 
-## 完整历史与共同模型
+完整前交接、全旧链、原数值/参数/失败/未知责任保[6568e766固定H](https://github.com/Rogerhu12/math-research-public/blob/6568e766e7dde33e2b4a704fe4f8f3afa8965ee9/topics/visible-flex-larger-amplitude/HANDOFF.md)及其958632/4815339历史链；全部结论保notes/results/open/log，不重做。M160/J923/N2048/P7377、所有自由量/原Phi/C/J/J*/范数/阈值不删；有限筛非连续，iteration_limit非驻点。
 
-完整前交接及全部旧链保[958632固定H](https://github.com/Rogerhu12/math-research-public/blob/958632ebb7d24f7c8875ec5a357dbb7f706ad797/topics/visible-flex-larger-amplitude/HANDOFF.md)。全输入/失败/未知/原结论保notes/results/open/log。M160/J923/N2048/P7377、所有自由量/完整场/范数/判据不删；有限筛非连续、iteration_limit非驻点。
+## 保留、旧终态与未知历史
 
-raw保留：前30轮完整链保固定H及[第30轮](notes/2026-11-27-legacy-condensed-generated-manifests-retention-30.md)；[第31轮R90十Green检查点](notes/2026-11-27-legacy-R90-green-checkpoints-retention-31.md)保14全源/43输入公开恢复/20完整轴/真argv与原终态，十件899047B普通移出，无重算或新值。[第32轮其余八件](notes/2026-11-27-legacy-R90-green-checkpoints-retention-32.md)承同14源/43输入/全参数，863077B按原完整manifest身份移出，未读大raw、无重算。Python3.12.14/NumPy2.3.5/SciPy1.17.0/单BLAS；SO3 CPUtorch2.5.1/float64。原共同来源在[独立运行](notes/2026-11-26-independent-public-nonlinear-continuation.md)，[队列完整归档](notes/2026-11-26-complete-followup-parameter-archives.md)保全部旧参数；未返步骤不归档冒完成。
+[第30轮](notes/2026-11-27-legacy-condensed-generated-manifests-retention-30.md)、[第31轮](notes/2026-11-27-legacy-R90-green-checkpoints-retention-31.md)、[第32轮](notes/2026-11-27-legacy-R90-green-checkpoints-retention-32.md)及固定H保前32轮来源。R90十八Green旧输出共1762124B已移出，14全源/43输入公开恢复/20完整轴/全参数/真终态保，无重算；八大件未读。Python3.12.14/NumPy2.3.5/SciPy1.17.0/单BLAS/CPUtorch2.5.1/float64。
 
-## 旧运行边界与06真实父链
+旧03b/03/02/04/05及direct九history全链保固定H；04仅1–49返/50已启取消，05仅1–18返/19未知/20未返，02止49/50未跑、01止77、旧03 stage7未知。R697/R702/R705不重做。未知typed/保护晋升/发现顺序不冒空；未返全对象不归档冒完成。
 
-旧03b/03/02/04/05全输入/失败/μ/来源保b764固定H及其链；R697/R702/R705不重做。04仅1–49返/50已启取消，05仅1–18返/19已启未知/20未返，详各终态notes；02止49/50未跑、01止77、旧03 stage7未知。旧direct九history未准入；未知历史不冒空。
+[06完整43与终态](notes/2026-11-27-run06-actual43-complete-SOC-return-and-terminal-budget-boundary.md)仅1–43返。42沿40且读41地点、末2b37/c5cee、科学0/pure1；43沿41到0298/64d69，Phi=.00658186539、max=.03644443150、g负，未读42新增地点；后继必须合两完整历史。28b原trace诊断/cfd纯修复未准入。原首启45903578703仅规则ref fetch失败，未启科学。
 
-[06全链](notes/2026-11-26-run06-complete-regeneration-and-current-PCG-request.md)/[36–40全归档](notes/2026-11-27-run06-returned-stages36-40-complete-parameter-archives.md)保全参数。[42](notes/2026-11-27-run06-actual42-current-PCG-scientific-return-and-pure-reader-failure.md)/[43终态](notes/2026-11-27-run06-actual43-complete-SOC-return-and-terminal-budget-boundary.md)仅1–43返，父分别40/41、末点2b37/0298，43未读42新点；后继须并两完整历史。原数值/永久行及28b诊断/cfd纯修复未准入责任保固定H与notes，不冒驻点/连续证书。
+[07终态](notes/2026-11-27-run07-terminal-cancellation-and-unreturned-full-normal-field.md)cancelled，仅1–3输入返；原cc0a step4无新场/末点/typed返回，pure/费/M320未返。整dc5及cells/u/Gauss全字同的输入结论保，不替未知历史。08终态与最后真实pull见末块。
 
-## 已刊工具与未付目标
+## 当前09完整入口与真实结果
 
-[R716](results/R716-asymmetric-fixed-caps-and-centred-volume-moment.md)已证完整重心补偿Beff=B2−b1²/V，既定R661 p4的ReBeff≥747π/80000000000>0。同场完整A2≠0即可由π/4或π/2排含反射全等，且可消费R625定量界，不改帽/g或迁旧6077无平面。真实A2及同场闭嵌入/法向管仍欠。
+[09实际输入](notes/2026-11-27-run09-actual-public-reference-and-old-carrier-input.md)1–3均真返0；warm3df/ref2ab/modeld449、整dc5恢复、160词90同、目标7c766/绑定21a44/whole2f8、两5e373全原快照。当前1995尾叶/tolerance=false；旧2397只是恢复载体，不代当前参考。原4/5失败无场，6/7诊断真返0查实旧政策键。
 
-R709/R711/R712完整源/未准入责任保固定H：192正权/全(0,π)/m32/全自由量保；均值J不迁normal Cu，中央Fss不冒K/reach。
+[09完整修复](notes/2026-11-27-run09-selected-stage-guard-repair-and-complete-retry.md)e89d/ff544/c188/aee22四独立体、7857再生器及2ea1全ready已排；root原真重建/58源、145+7参数/333+317selectors全等，原科学suffix不变。2–7完整对象/真实返回已归档，原输入不重跑；修复科学8仍待真返。保32normal/全E/typed/永久地点/13成员全点；near32不截typed。原J3/解析frame证明及未准入旧C1/selected-key问题保固定H和各notes，不冒首场/速度。
 
-R700只限固定M/正ρ，旧QR未跑不作门。[全时合同](notes/2026-11-27-new-envelope-full-phase-continuous-geometry-contract.md)/[β消费者](notes/2026-11-27-complete-same-field-support-parameter-executable-interface.md)保raw hΔ六jet、全cover/八角色及共同D+/K/握持；β只核代数，R248仅归约活动像，p4帽仍欠R650共同支撑或所有mixed pair。准确六jet和全局证明仍欠。
+[09均值/剖面费](notes/2026-11-27-run09-complete-reference-mean-profile-fee-entry.md)7666/1742/0c7三全体及f9d1再生器已刊并排v2pure后；全实际批/角/32参数/48selectors保，尚无真费用返回。旧R710/R713原全批/节点设计与07未返保；不是求解前门。
 
-R710/R713[原全批费](notes/2026-11-27-material-envelope-complete-seed-fee-adapters-and-all-batch-schedule.md)/[节点费](notes/2026-11-27-complete-immutable-reference-node-fee-design.md)全原参数及07未返保。[09全批均值/剖面费](notes/2026-11-27-run09-complete-reference-mean-profile-fee-entry.md)7666/1742/0c7三全体与f9d1再生器已刊，完整32参数/48selector排v2pure后；root全文/原数学类体核，消费真2f8/2ab/d449，不用旧2397载体代当前参考。无费用真返；准确节点/normal/全角/rawΔ/六jet仍欠，不作求解门。
+[09完整normal32与全周角六jet费](notes/2026-11-27-run09-complete-normal-root-and-sixjet-fees.md)四完整运行体29eed/f080/0587/f5ecc、全stager/ready已刊；root全文及3下层/9外源/原58roles逐字身份核。完整38参数/36selectors一步排均值费后；全原缓存角+1024闭角盒、原全部径向片/32段、真Exp/根唯一域/两角导数/raw hΔ与准确a,b,c,bs,cs,rho0。六jet指F,Fs,Fphi,Fss,Fsphi,Fphiphi，最高二阶。无真费用/全场返回；未付working-sixjet字误差、下半/帽C²取向/闭嵌入/全t/reach及外参数费用；partial不冒完整/失败。最终新增体未作失联后AST/科学执行。
 
-R714全C1/m32、R715 raw hΔ六jet及全E/typed保。[08实际6–9](notes/2026-11-27-run08-actual6-projection-rejection-and-definition-readback.md)拒旧chart，真返7c≠90；[实际10](notes/2026-11-27-run08-actual10-complete-old-carrier-and-independent-fixed-chart-input.md)真返0，整dc5恢复、固定目标d469/绑定7991，F/J/root0，全160词/923节点/492模型/eeb锁定。[4d92/95559/f382全入口](notes/2026-11-27-complete-independent-chart-material-envelope-entry.md)原全参数/科学后缀保，实际科学未返；旧值不继承，未知07 typed责任保。
+## 连续几何、非全等与精化
 
-[06首启失败](notes/2026-11-26-run06-startup-failure-unfetchable-rules-commit.md)45903578703仅规则ref fetch失败，未启科学；原后继责任全保。
+R709均值J不迁normal Cu；R711/R712中央Fss不冒K/reach；R714全C1/m32及R715全rawΔ/六jet/E/typed责任保。[全时合同](notes/2026-11-27-new-envelope-full-phase-continuous-geometry-contract.md)/[β消费者](notes/2026-11-27-complete-same-field-support-parameter-executable-interface.md)保完整cover/八角色、同场D+/K/握持与所有mixed pair，β代数不自动闭面认证。
 
-[07完整原输入/真carrier](notes/2026-11-26-run07-actual-restored-old-carrier-and-radial-word-identity.md)1–3真返，3df/e640同、整dc5恢复且cells/u/Gauss全字同；[05全部来源](notes/2026-11-26-run05-all-source-material-envelope-closure.md)保1–18及19未知。root独立policy2全E/typed真筛、不冒旧protected顺序；[c79/7299/bd1a消费者](notes/2026-11-27-complete-material-envelope-consumer-and-preserved-prefix-rows.md)与[cc0a/b93a/104e完整入口](notes/2026-11-26-complete-material-envelope-cached-normal-entry.md)原全部变量/Phi/m32/预算保，[07终态](notes/2026-11-27-run07-terminal-cancellation-and-unreturned-full-normal-field.md)API cancelled，仅1–3真返；step4/新场及后继均未返，未知typed责任保。
+[R716](results/R716-asymmetric-fixed-caps-and-centred-volume-moment.md)保完整Beff=B2−b1²/V及固定R661 p4的ReBeff≥747π/80000000000>0；须同场完整A2≠0和半转假设才用简式/π/4或π/2排含反射全等；一般完整m,Q三相法不预设半转，实际矩/闭嵌入/外管仍欠。不改帽/g，不迁旧6077。
 
-[同g精化合同](notes/2026-11-27-same-g-so3-normal-refinement-contract-and-entry-design.md)/[07旧M320全排队](notes/2026-11-27-run07-complete-M320-queue-and-returned2-3-archives.md)的原全源/未知责任保固定H。[09真目标M320](notes/2026-11-27-actual-public09-M320-full-frame-packet-entry.md)已刊17运行体/4完整构造/3全ready；root25全文/74roles及17体、三ready真文本重放逐字同，原科学suffix不变。参考M160/current320三块正确包含、全E/typed/13成员父与所有自由量保；无M真返、未准入。径向同g精化仍欠。
-
-[原J3全源](notes/2026-11-27-complete-analytic-J3-packet-envelope-entry.md)/[解析frame14全体](notes/2026-11-27-complete-analytic-normal-frame-family-and-source-binding.md)保原方程/全部变量/m32/J/J*、六控制与两角jet证明，已真再生的57源核保原记录；未准入旧体C1及selected-key问题均保，不冒首场/速度。09完整修复见下，07/08未知保。
-
-原90及[N7c全入口](notes/2026-11-27-independent-chart-analytic-J3-N4096-complete-entry.md)全源/失败边界保。[09真目标N4096](notes/2026-11-27-actual-public09-N4096-full-frame-packet-entry.md)已刊18运行体/9构造/三全ready；construction真再生18体，root31全文/75roles/全部参数与原suffix逐等核。固定N2048参考、所有旧角字/地址/typed及13成员父转移保；计划未准入、无N真返，非径向/M精化。
-
-[09输入](notes/2026-11-27-run09-actual-public-reference-and-old-carrier-input.md)1–3真返0，整dc5/160词90同、目标7c766/绑定21a44，双5e373保；原4/5失败无场报告。[6/7原诊断](notes/2026-11-27-run09-actual6-7-adjacent-policy-key-failure.md)真返0，查实旧政策键。[完整修复](notes/2026-11-27-run09-selected-stage-guard-repair-and-complete-retry.md)e89d/ff54/c188/aee2四独立体、7857再生器及2ea1全ready已排；root真重建/58源、145+7参数/333+317selectors全等，原数学suffix不变。2–7全对象/返回归档，原输入不重跑；07/08未知保，未冒新场。
+[09 N4096](notes/2026-11-27-actual-public09-N4096-full-frame-packet-entry.md)18运行体/9完整构造/三ready已刊，root31全文/75roles/原参数suffix核同；固定参考N2048、全部旧角字/地址/历史保。[09 M320](notes/2026-11-27-actual-public09-M320-full-frame-packet-entry.md)17体/4构造/三ready已刊，root25全文/74roles及17体/三ready真文本重放逐字同。两者严格ff544/aee22真实父，原固定g/M160参考/923节点/所有自由量/全E/typed/13成员父保；无N/M真返或准入。旧07M/N90/N7c入口全部未知责任保固定H。径向exact-affine同点、旧quintic限制、全部旧新Gauss并集/新校准仍在做。R700只固定M/正rho，旧QR未跑不作门。
 
 <!-- visible-larger-parallel-08:start -->
 [08终态](notes/2026-11-27-run08-terminal-cancelled-with-unreturned-complete-field.md)：45929088658/1的job140277268174及step5真实completed/cancelled；08:25:18观察、API更新08:24:27。仅1–10返；95559科学11已启而退出/report/final/typed未知，pure12未返；不猜取消因果，原全参数保。

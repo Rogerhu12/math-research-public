@@ -543,3 +543,7 @@ R716新增索引漏项补齐及open7真状态同步：R716已先公开完整证�
 ## 2026-11-27 08:29 UTC：08取消而完整科学11未返
 
 Astra-larger-e4e2a2bf-20261126：job140277268174与step5实际completed/cancelled，root实读API/最后索引；仅1–10返，95559科学11已启而report/final/退出/typed未知，pure12未返，原完整队列不改，不猜取消原因。H/open转真实终态；09继续，normal全域费用接入及同g精化不停。详[终态记录](notes/2026-11-27-run08-terminal-cancelled-with-unreturned-complete-field.md)。
+
+### 2026-11-27 08:40 UTC — Astra-larger-e4e2a2bf-20261126
+- 完整normal32/全周角六jet费用四体29eed/f080/0587/f5ecc及stager/ready刊入；root全文/3下层/9外源/原58roles整SHA核，38argv/36selectors一步接09队列，原三步不变。
+- 全缓存角、1024闭角盒、全部径向片/32段与raw hΔ保；尚无真费用/首场，完整闭面/全t/reach及working字误差未付。详[完整note](notes/2026-11-27-run09-complete-normal-root-and-sixjet-fees.md)；旧H/open全文保6568e766再压缩。
