@@ -476,3 +476,7 @@ GHR [metric-reference height](results/R144-supplement-actual-seed-metric-referen
 ### RRM：relative frame/position的完整物理均值原负窗receiver（已证明）
 
 [证明](results/R149-supplement-relative-frame-position-means-in-original-negative-source-windows.md)与[18条新有理组合](scripts/fourfold_codazzi_relative_mean_negative_receiver_saved_bounds.py)。frame≤9300(D*+Jroot)+658Froot+294Fstrict+871Jstrict；position≤17200(D*+Jroot)+1217Froot+545Fstrict+1617Jstrict。原SP root H−2/3⊕H−1和strict H−1⊕H−1，ordinary dr/L² units、完整角commutator/移动mean/不重置cut的Fubini全保。relative载体不替actual Q_b/F_b/Cθ world端口。
+
+### WMR：原世界锚和完整物理平均高度归约（已证明）
+
+[证明与原锚身份](results/R147-supplement-original-world-anchor-and-physical-mean-height-reduction.md)及[7条新有理组合](scripts/fourfold_codazzi_world_mean_height_saved_bounds.py)。原anchor detQ=−1，完整physicalmean核Aᵀ(Jy+δJx)，generalζ、Cθ、两个mean和actual B_Q/F_b/rigid ports保持。完整原waist alignment与short transfer给κref<.000108627；它只支付原参考q0ref替e1费，实际anchor差仍独立。原whole terminal块可必要同SHA恢复，RHI carrier尚未预宣告成功，后续只算首次kernel配对。

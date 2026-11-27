@@ -78,3 +78,7 @@
 ### 2026-11-27 RRM：完整relative frame/position均值的原负窗接收
 
 已证明完整Lm/Lc angular commutators<8/<10，真实|Mφ|op<12、|cφ|<25/2，完整H¹ dual row frame<14/position<26。原SP/rootcut给frame≤9300(D*+Jroot)+658Froot+294Fstrict+871Jstrict，position≤17200(D*+Jroot)+1217Froot+545Fstrict+1617Jstrict；ordinary dr、root H−2/3⊕H−1、strict H−1⊕H−1，所有Aφ/移动mean保。position的X(r)=∫0^rAc及strict min(b,s)不重置cut。Q_b/F_b/Cθ始终独立，18个新有理组合首次全过，无旧science。
+
+### 2026-11-27 WMR：原世界锚与完整物理平均高度归约
+
+已证明/7新有理组合首次全过：从原Connection.anchor逐列恢复detQ=−1、e_z^TQ=(-aCref,0,-β/γ)，真实tail world锚误差在原验证器明确未含，故B_Q/B_F/rigid ports独立保。原完整terminal block在46f127c7153f5393dcd2a00f42d4c1d3662c294d可whole同SHA恢复；既成alignment加已付short-selected费给κref<.000108627。固定physical ζ=1时body νmean的完整核为Πq0[J Aᵀy+δJ Aᵀx]；general ζ的ψ项、Cθ转换、两mean/ΠδJ=0真消竖直常数均逐项保，ASB真uniformL²付δJ。只参考signed body归约，无actual世界锚成功声明；后继待RHI whole。
