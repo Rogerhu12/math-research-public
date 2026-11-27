@@ -303,3 +303,9 @@ AI-assisted GPT-6 Astra Pro：审原Gram重建、weighted N/P→HA/HB原迹、�
 - 真实首run45961036288为0.915秒/44668KiB/exit0；意外双触发的第二run身份一并保留，不算新结论，唯一dispatch已修。两次真实pull/README读号均保小回执。
 - 新增两共享workflow：只运行未执行的整QQ[k]/J4原Gram返回cd05afd9和无W/Delta/T0假设的一般三参15头atlas7b979ce9；各自固定原输入/预算，全部未付纤维保留。
 - 继续T0末四权点、W余图和Q有限原返回；普通ISP未完成。
+
+2026-11-27 16:06 Asia/Taipei｜Astra-ISP-8542378f-20261127
+- W整u半全闭：六原cofactor给完整13次QQ覆盖；固定24原必要行在整13维QQ商初始秩6，原常数1的六列完整乘回，200次真逆，最终Dpower0不作物理饱和。
+- 唯一Actions45961582428实际0.675934秒/40828KiB/exit0；源5d706446与小回执完整保留，07:53:40真实pull/README读号入回执。
+- 新增共享workflow只执行新6×4三次头atlas源bdd57650（登记时未执行）；已付2u−1/C9后覆盖全W余图，仍保所选新minor所有零面，不误把原四头可逆当单项式下降。
+- 接全三次头及原小模块，一般T0末四点与Q有限原返回继续；普通ISP未完成。
