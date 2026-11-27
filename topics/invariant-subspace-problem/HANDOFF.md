@@ -8,7 +8,7 @@
 - **最近实际 pull / 已读规则提交：** 264f9ee76a51da31de065693881d8bd5a0dedfb7（2026-11-27 12:58:58 UTC，Actions run46003124436实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-8542/46003124436-1.json。
 - 私库QUEUE本会话进行中已实际核验；最近真实pull为2026-11-27 12:58:57 UTC/65ad0aa6e2fc6a575d9845e06a4db3761622cdb0，根README diff无变。公私均部分克隆blob:none。
 - **终端再次断开：** 约07:20 UTC起本地执行器不可用。按根规矩8/13小文本准备、公开Actions真实pull/rebase/push，非快进立即循环；旧故障与准确源保[说明](notes/2026-11-27-executor-outage-and-unpublished-small-input-checkpoint-8542.md)，未冒称本地恢复。
-- **终端断开后远端已读：** `264f9ee76a51da31de065693881d8bd5a0dedfb7`（2026-11-27 12:58:36 UTC）；只读检查不冒称实际pull。
+- **终端断开后远端已读：** `97974e6ed90b9ab0f7f56efb51315be9b9eaea21`（2026-11-27 13:00:20 UTC）；只读检查不冒称实际pull。
 - H<10KB、MD<100KB、open尽量<30KB、题<200MB；只留源/参数/SHA/小回执，不留可重算大输出，不写根LOG。课题外workflow改动已记本题log。
 - 所有被压缩的精确结论/来源/失败身份保[最新完整H](notes/2026-11-27-handoff-before-directional-intertwiners-8542.md)、[open](open.md)、[结果索引](results.md)及归档链；省略不算关闭，已登记不重做。
 
@@ -44,7 +44,7 @@
 ## R271 同W与实际范围核心
 
 原全部公式/常数/负门与适用范围保最新完整H、open及results；压缩不关闭旧接口。
-- M=kerT、N=closureBM、W=M⊖N，N=M未证。同G全尺度/迭代exp(Cn³)、G=R−C全H平滑及G可闭/闭值域已付；原RTcut有界子列⇒N，非零W迫范数发散而配对→||w||²。新同G合Bⁿ四次衰减付XT=BX⇒X0、真迹类TK−KB=f⊗y及TL_y=L_yB，L_y*e0=y；同w有L_w|M=e0⊗w。原全终列q_C窗/lift、规范Sr域费、实际通量/Gamma/G保N仍开。
+- M=kerT、N=closureBM、W=M⊖N，N=M未证。同G迭代exp(Cn³)、平滑修正/可闭/闭值域、RTcut通量及方向交织均已付。新U=closure span Gⁿe0为真闭proper T不变单链，U∩M=Ce0；非零L_y闭包像同U、kerL_y=cyclic_S(y)⊥，L_e0单射稠密迹类，反向XT_U=BX全零。L_w|M=e0⊗w仅给H/N→U稠密商映射。U保B/正角、同w实际费用/G保N/全终列窗仍开。
 - 原G0=TJ_B多值部Ce0；N⊂kerAmin⊂M，I=M⊥⊂J=closureRanG0*⊂N⊥。原RanG0*确非闭、无全h来源范数界；五坐标原反例还排无条件联合图→carry/C2，输出都在M⊥而非W，不重做这些通用升级。
 - 原N/Y平方源C2与临界s0=(2+2log(3/2))/14图核心已付，完整Y逆/等号保留。任意原最大图h_s=e^(−sN)h在[s0,1]有真实核心/加权ℓ¹返回；E给||e^(−N/2)f||²≤e^(−198)||f||²及≤190孔质量≤e^(−8)。未付s→0、E0/Z0/Gamma，完整费保正文/归档。
 - 同w=Ju的Γ有限恰g0=H*(I+H*H)u在实际RanK*，W只付闭包像；原Q_H正则费用双侧比较不付Γ。全整数窗Σ||P≤n w||⁴/E_n≤4Aδ||w||²，非零W迫Σ1/E_n有限；同W的倒数发散/费用上界仍开。

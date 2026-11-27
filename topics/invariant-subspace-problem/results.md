@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [实际proper单链限制、共同迹类像与单向稠密交织](results/R271-appendix-proper-single-chain-restriction-and-common-trace-class-intertwiner-range.md)：规范闭右逆给U∩kerT=Ce0，全部广义核与L_y的核/共同闭包像准确；保同W商映射的未付单射。
+
 - [原W/D27的泛型五次不可约性](results/R150-appendix-unit211-W-D27-generic-quintic-irreducibility.md)：完整27项保次数专门化、模7五步Frobenius及两条完整Bézout；有限k例外全保。
 
 - [Phi0/h1 的 H4/H20 整复纤维排除及精确1069次原覆盖](results/R150-appendix-unit211-Phi-zero-rank-one-value-H4-H20-complete-fibers-and-QQ-divisibility.md)：固定23/25阶原投影的全模Bézout/Gauss；已付QQ系数赋值直接证明H4⁴H20整除，无未付范数逆。
