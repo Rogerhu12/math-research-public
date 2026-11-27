@@ -1476,6 +1476,171 @@ o1_theta 推导；root 独立核整个曲面 divisor、$p/p^2$
 全篇纸面证明，无数学程序执行。
 
 
+
+
+## 18. 原 Cartier–FM 变换的 F/V 互逆与准确平方
+
+继续 §16 的全部原归一。
+令 $F:E\to E^{(p)}$ 为 relative Frobenius，
+$V:E^{(p)}\to E$ 为 dual isogeny，
+$N=\mathcal O_E(O)$、$N_p=\mathcal O_{E^{(p)}}(O)$。
+在本文 $\mathbf F_p$ 模型的识别下
+$V=\iota\circ F$，其中 $\iota=[-1]$。
+以下 $\mathscr T_F$ 指 $k$-linear relative 变换
+$
+\mathscr T_F(f)=s_f/s_1,
+$
+其参数在 $E^{(p)}$，不是先对 relative 参数取根的绝对算子。
+§16 的原 $M_0=1$ 固定此 ratio，特别 $\mathscr T_F(1)=1$。
+对 $V$ 以同样的原点刚化及 ratio 定义 $\mathscr T_V$。
+
+在这些实际标架和 $\mathbf F_p$ 模型识别中，有
+$
+\boxed{\quad
+\mathscr T_V\mathscr T_F=\operatorname{Id},\qquad
+\mathscr T_V=\iota^*\mathscr T_F,\qquad
+\mathscr T_F^2=\iota^*.
+\quad}
+\tag{1061.59}
+$
+所以 $\mathscr T_F^4=\operatorname{Id}$。
+对 $\mathbf F_p$ 定义的输入，§16 的绝对变换 $\Phi$
+也满足 $\Phi^2(f)=\iota^*f$。
+一般 $k$ 系数下，$\Phi$ 是 $p^{-1}$-semilinear，
+准确式为
+$
+\Phi^2(f)=\iota^*(f^{(-p^2)}),
+$
+其中 $f^{(-p^2)}$ 只对本文 $\mathbf F_p$ 有理函数基的系数
+取 $p^2$ 次根；不能改写成一般 $k$-linear identity。
+
+### 18.1 两次实际 Hom 映射及 adjunction
+
+令 $\mathcal S$ 为规范 Poincaré kernel 的 derived FM functor，
+$\mathbb D=R\mathcal Hom(-,\mathcal O)$，并置
+$\mathcal A=\mathbb D\mathcal S$。
+$\mathbb D$ 不含额外的 $[1]$。
+Grothendieck–Serre duality 给
+$
+\mathbb D\mathcal S
+ \simeq\iota^*\mathcal S\mathbb D[1].
+$
+具体地，对 $p_2:E\times E\to E$ 用
+$p_2^!\mathcal O=p_1^*\omega_E[1]$，再用指定不变微分
+和 Poincaré 的 $\mathcal P^\vee=(1\times\iota)^*\mathcal P$，
+即得该式。因此 Mukai Theorem 2.2 给
+$
+\mathcal A^2
+ \simeq\iota^*\mathcal S^2[1]
+ \simeq\operatorname{Id}.
+\tag{1061.60}
+$
+这里 $[1]$ 与 $\mathcal S^2\simeq\iota^*[-1]$ 准确相消。
+
+Mukai (3.4) 的 isogeny exchange 给
+$
+\mathcal A F_*\simeq V^*\mathcal A,\qquad
+\mathcal A V_*\simeq F^*\mathcal A,
+$
+同时 $\mathcal A(N)\simeq N$、
+$\mathcal A(N_p)\simeq N_p$。
+指定 $\omega,\omega'$ 刚化 finite dualizing 线，得到
+$V^!N\simeq V^*N$ 和 $F^!N_p\simeq F^*N_p$。
+所用的是
+$\omega_{\rm source}\otimes f^*\omega_{\rm target}^{-1}$
+的两个指定生成元，不是 inseparable morphism 的零微分。
+
+第一遍全部 Hom 映射为
+$
+\operatorname{Hom}(F_*N,N_p)
+ \xrightarrow{\mathcal A}
+\operatorname{Hom}(N_p,V^*N)
+ \xrightarrow{\operatorname{Adj}_V^{-1}}
+\operatorname{Hom}(V_*N_p,N),
+\tag{1061.61}
+$
+第二遍为
+$
+\operatorname{Hom}(V_*N_p,N)
+ \xrightarrow{\mathcal A}
+\operatorname{Hom}(N,F^*N_p)
+ \xrightarrow{\operatorname{Adj}_F^{-1}}
+\operatorname{Hom}(F_*N,N_p).
+\tag{1061.62}
+$
+$\operatorname{Adj}_V,\operatorname{Adj}_F$
+是标准 finite Grothendieck-duality adjunction，
+不是任意向量空间同构。
+
+将 $V_*\dashv V^!$ 经反等价 $\mathcal A$ 运输，
+得到 $F_*\dashv F^!$：
+反等价反转 adjunction 两边，上述 exchange 将
+$V^!$ 送到 $F_*$，将 $V_*$ 送到 $F^!$。
+这些比较的 kernel 是同一 graph $\Gamma_F$ 或 $\Gamma_V$。
+更换该 kernel isomorphism 只能乘全局常数，因为
+$
+\operatorname{End}(\mathcal O_{\Gamma_F})
+ =H^0(E,\mathcal O_E)=k,\qquad
+\operatorname{End}(\mathcal O_{\Gamma_V})=k.
+$
+等价地，finite pullback tensor functor 的自然 automorphism
+来自 source 上的全局单位；source proper connected，只有 $k^\times$。
+所以 (1061.61)–(1061.62) 的复合由 (1061.60)
+为同一个 scalar 乘 identity，不可能多出依赖 $f$ 的矩阵。
+
+在 §16 的实际 Hom–section 识别中，
+(1061.61) 的 section 与 $s_f$ 只差这个共同 scalar：
+对偶两个 line maps 不改变 $s_f/s_1$，
+finite adjunction 也保同一乘法 section。
+各次以原 $f=1$ 的 $s_1$ 归一后，
+所得正是 $\mathscr T_F,\mathscr T_V$。
+两者都把 $1$ 送到 $1$，复合 scalar 必为一，
+证明 (1061.59) 第一式。
+
+### 18.2 V 等于负 F 的原参数与 trace 号
+
+对一般 $P$，$F$-构造在 Picard 参数 $FP$
+使用的 source section 是 $g_P\ell_P^p s_O$，
+其 divisor 为 $[p]P$。
+$V$-构造在参数 $VP=-FP$ 使用的 source divisor 仍为
+$[p]P$，因为 $\widehat V=F$。
+同一个 $O$ 首项归一因此仍给同一个 $g_P$，
+没有任意 $P$-依赖的乘法常数。
+
+从 $F$ 改为 $V=\iota\circ F$，
+target section 经 $\iota$ 运输，Picard 参数改为 $-FP$。
+在指定微分上 $\iota^*\omega=-\omega$，
+raw Cartier trace 出现整体号；
+该号对任意 $f$ 与 $f=1$ 相同，在 ratio 中相消。
+故
+$
+(\mathscr T_Vf)(-FP)=(\mathscr T_Ff)(FP).
+\tag{1061.63}
+$
+$F$ 满射，遂 $\mathscr T_V=\iota^*\mathscr T_F$，
+与第一式合并证明准确平方。
+
+### 18.3 原函数空间中的后果与未付的指定系数
+
+特别，对已证 $\Phi(U)=\delta\mathcal R(U)$ 再作一次变换，
+有
+$
+\Phi(\mathcal R(U))=\delta^{-1}U,\qquad
+\Phi^2(V)=-V.
+\tag{1061.64}
+$
+这些均为原函数空间内的精确身份。
+它们未证明 $U$-单项式基下矩阵对称，也未证明特定矩阵元非零。
+目标仍为
+$\Phi(U^m)=UH_p(U^3)$ 的指定
+$H_p(0)=-e/(2v)$。
+全局可逆性不替代这个读数的单位性。
+
+来源同 §16 的 Mukai 原文，Theorem 2.2、(3.4)、(3.8)；
+本节将两次 finite adjunction、全部 shifts 和 $f=1$ 归一展开。
+o1_theta 推导，root 独立核准；无数学程序执行。
+
+
 ## 来源与本次核对
 
 - [R1059](R1059-original-fN-actual-X108-Raynaud-pairing-and-inverse-central-sum.md)：原 $X_0(108)$ 函数、good 模型、固定微分尺度和 $S_n$ 配对。
