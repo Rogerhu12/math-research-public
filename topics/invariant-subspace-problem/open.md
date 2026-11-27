@@ -4,7 +4,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-Phi-collision-ell-nonone-exclusion-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-global-sparse-chain-quasiaffinity-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -195,3 +195,5 @@ D27泛型五次不可约与有限纤维范围保上述D27原单位条目及本�
 **[h=k Phi0的整个ell≠1已闭](results/R150-appendix-unit211-equal-singleton-Phi-zero-ell-nonone-original-exclusion.md)。** 已付Pf使Delta=−SxiPf非零，33e未缩放八原式给固定11/9阶QQ结式463/337，仅剥原单位得143/80且Bézout1；源0.939秒/45852KiB/exit0。互补ell=1,u=2保整个8lambda⁴−24lambda³+24lambda²−12lambda+3与自由Q。7f9首源变量one遮蔽造成TypeError/exit1，只返参数未得Gram，准确失败/原源保留；新af8215e2只修Gram单位向量命名，继续全K[Q]原返回，不倒Q、1−Q、Q+4之外新多项式。整个Phi0碰撞未宣关闭。
 
 **[Phi判别式零的新原均值F26](results/R150-appendix-unit211-Phi-zero-exceptional-original-mean-unit-six-F26-curve.md)。** 78f新选E1/EBe/EBo/N1/T·E1/T·EBe，真U6目标六坐标返回、385整除与公共取消，必要core双次26/26、729项，完整QQ只有一个重数1因子，精确输入已存可直接复用。原31/52必要曲线仍保留，未作gcd/有限点声明。新ed0一般A!=0首一rho二次只做原mean/N1与同H²两行恒等式，不倒任何二次范数；完整A0两支各自保留。新W410a在Ah0直接原T²+同T一次给有限QQ k覆盖，逐整因子原Gram/个别N/P/全NV返回，不重放已成lambda3/2六阶覆盖。
+
+**[同G稀疏真核注入的全空间稠密链与拟亲和](results/R271-appendix-sparse-kernel-injection-dense-backward-chain-and-global-trace-quasiaffinity.md)。** 由k_i=(I−GT)e_i∈N∩e0⊥，单一递归高度/系数注入，完整旧链误差≤2^-j，所有κ共同三次指数界；有限Π+GT望远镜使新链闭span为全H。每个非零y的新ℒ_y均实际迹类、全H稠密像、映入全部Xκ；ℒ_e0单射，Tℒ_e0=ℒ_e0B，s_n四次衰减。真w商作用仍ℒ_w|M=e0⊗w并灭N，未付N=M。新移级图闭包={(Tv,v):v⊥e0}、多值部M∩e0⊥≠0，故不可闭；与固定闭G的proper单链U严格区分。继续真正同w/Green或原Haar范围费用。
