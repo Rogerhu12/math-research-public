@@ -5,7 +5,7 @@
 
 ## 1. 授权、规则与继承
 
-公开本次实际pull且根/题README已读至 **63ecd7d4851a2c7728b234d3f11f30b3f97ba58b**；根/题规则相对继承0749a4cc仍为空差异。私库实际pull/根README已读至 **724f5769d39c1f05826ed6c36792a5bb66da6aa0**，2026-11-27 00:01:47 UTC空diff；下次不晚于01:00 UTC。QUEUE唯一仍本会话进行中，原认领09f8b8b54e。
+公开本次实际pull且根/题README已读至 **cee9f6458ff4b235ab19038714014eb9f54c6d7f**；根/题规则相对继承0749a4cc仍为空差异。私库实际pull/根README已读至 **724f5769d39c1f05826ed6c36792a5bb66da6aa0**，2026-11-27 00:01:47 UTC空diff；下次不晚于01:00 UTC。QUEUE唯一仍本会话进行中，原认领09f8b8b54e。
 
 每次pull只读根/题README差异并记SHA，至少每小时；NFF/ref锁立即pull --rebase再推至成功。root独占git和四索引，每条结论即推；科学只公开Actions，本地只纸证/源码及原日志JSON/hash解析。根12不重放已付门；根15不存raw/可重算表，必要新场再生全计费。H<10KB/open<30KB/md<100KB；publisher活跃不改tracked。
 
@@ -15,11 +15,13 @@
 
 同一连通闭材料面、全t∈[0,1]连续C²嵌入、同一个固定g；开握持区diam≥.2D、整像不对齐变化≥.3D、全时reach≥.03D。全点全时metric≤1e−6并同g/参数/时间域精化至机器或求解容差；完整可再生网格及严格存在差距齐付，基础后继续.5D或严格存在强目标。时间、接口、小幅改善或现输入困难都不结束；接open下一项不停。
 
-## 3. 97q当前59a4，实际新f60材料
+## 3. 97q最新3bc1，同新0d实际材料
 
-[298原终态](notes/2026-11-27-r582-physical-pending298-original-terminal.md)run45901312947/job140187488430/source98ded25f6；2370.257524993秒/12metric/13Jac/15fine。真q **59a4ba766a9450509bcbd539639503e8a67d9dc0a98c6c3b63f59879c29a7b45**，p=.181，16149×3072 η3.838285783e−5、物理/working V0。实际field **f60be03b0af36d5d182f21860fe69cef80439c12bb23562d63dc2b57648bf52c**，62878端点/960932RHS；原14d1在此新field的完整baseline已付，reuse=false。
+[normal311原终态](notes/2026-11-27-r582-normal311-original-terminal.md)run45909167191/job140213091600/source181de62c，23:49:59 UTC结束；实际2427.43645062秒不能裁成2400。新field0d222bd1…/960944RHS区别源f60，同对象新付16167baseline再8真接受。真97q **3bc11a9c80696ad3ec54066a9bf0d5cee4436081dee79b9e22b61757fe507aa1**，p=.181，16189×3072 η3.722676721935829e−5、物理V0/working2.309485e−12在原容差内。
 
-末d613虽η3.77629e−5更低，却fine违约2.65026e−5，被拒并采用13点。actual311×1536/trust2、pending空；新required16167未付，保留资格仅16149，无naturalreturn或stall。[原311正常续算](notes/2026-11-27-r582-physical-normal311-resume-implementation.md)run45909167191/job140213091600/source181de62c，23:08:58 UTC启动；永久fine/旧成本保持；一次新field共用于必要新baseline与后端。p阶段2.5e−7未过；目标p=.8/末η≤1e−7，mean g仍在设计。mean坐标64:80与96；q80是首个新增tail-u，已更正分类。
+当前327径向+3pending、拟定330/1536角/trust2，永久与合格fine同16189/SHA d6a0d6e7…。末135e raw违规，16次减半后无strict metric promise而跳fine，未接受。四后端J=2/6/2/4共14份/182块/583.826191433秒，未自然OptimizeResult，已有内部BFGS，不套B030饥饿结论。下一正常pending330保原方法/全部门；6个真正新中点使至少16195需自身新资格，不重复旧16189。p阶段2.5e−7未过，目标p=.8/末η≤1e−7不降。
+
+mean q64:80全变、h96=.6975711972395291；q80仍是首tail-u。旧59a4完整连续几何不移给3bc1。所有298/此前失败/物理拒绝/费用见原收据链；mean g仍在设计，最终同g/参数/时间域精化未付。
 
 ## 4. B030最新d191，接原238剩余峰与native曲率
 
@@ -27,7 +29,7 @@
 
 末298f raw非best：同1580 fullfine/nested已付、1916峰完成1678剩238，已见ball/strip违约2.91e−7/6.82e−7，未接受。按同q/fine/oracle补余238再合并真实证据；旧1678不重跑。22后端/22Jac/21交换，0自然返回、602.598532248秒Jac；均首callback早于BFGS。已知旧链加本次≥17099.551640495秒，未知仍未知。
 
-[原源码时序](notes/2026-11-27-r566-true-secant-restart-source-receipt.md)与[native初H/真secant](notes/2026-11-27-r566-native-initial-curvature-and-true-secant-implementation.md)已双审发布；旧未存H/λ不能恢复，首次I。新同冻结λ/同行函数两J、native MODEM1不二次消费、语义变重置、后续reset仍I。512KiB必要checkpoint不存完整J。[具体d191/238新scope](notes/2026-11-27-r566-d191-native-curvature-partial238-scope.md)已审发布待原push；原callback与6056B旧partial消费块逐字一致。40来源绑定，768665B必要输入保原FINAL/1678峰；2400秒含native构建，全部原物理/峰/nested/双轨不变。
+[原源码时序](notes/2026-11-27-r566-true-secant-restart-source-receipt.md)与[native初H/真secant](notes/2026-11-27-r566-native-initial-curvature-and-true-secant-implementation.md)已双审发布；旧未存H/λ不能恢复，首次I。新同冻结λ/同行函数两J、native MODEM1不二次消费、语义变重置、后续reset仍I。512KiB必要checkpoint不存完整J。[具体d191/238新scope](notes/2026-11-27-r566-d191-native-curvature-partial238-scope.md)run45914886940/job140231615166/source797efdf0，00:07:34 UTC启动；原callback与6056B旧partial消费块逐字一致。40来源绑定，768665B必要输入保原FINAL/1678峰；2400秒含native构建，全部原物理/峰/nested/双轨不变。
 
 ## 5. 正常全S继续，actual397固定E首次硬τ1范围已发布
 
@@ -47,7 +49,7 @@
 
 [此前混合图](notes/2026-11-27-r625-paid-gauge-coordinate-natural-final-agent.md)190.431593844秒/27接受、[首次全反馈](notes/2026-11-27-r620-r625-first-full-feedback-natural-final-agent.md)28.886597651秒/0接受及R616以前完整九项费用/失败链均保最新收据；旧metadata布尔bug不作重跑理由。R619/620/624/625/626/[R627](results/R627-joint-terminal-threshold-on-the-true-tail-box.md)仅按原真M/末返回前提使用，不套当前未返回态。原19/10参数/8末A+双速度/完整正势/ruling、18块/576微包/ε1/12000不变，65→129仍须原配点门，pose/闭材料未付。
 
-## 7. 当前59a4有限场已通过单候选reach比例门
+## 7. 已证59a4有限场通过单候选reach比例门
 
 [当前59a4完整原终态](notes/2026-11-27-r623-current59a4-complete-reach-original-terminal.md)run45909787850/job140215094495/source9523887d，科学300.608286784秒，完整成功。实际field **0d222bd12ce8a61d0c88264c6fb5c82066f0ca058855b5bf7a670a53b483a991**不同优化f60；同q/p=.181上重新支付16167×3072物理资格29.078155955秒，η3.838285783e−5/全部V0，reuse=false。新mean3038叶/非圆18134叶，均0未闭；δ≤.001950462096、α≤.022649638646、K≤17.994055844，完整allθ R623余项保留。mean帽高宽1.81724e−6超过目标仍保真实宽界。
 

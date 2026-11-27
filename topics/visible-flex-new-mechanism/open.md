@@ -16,17 +16,19 @@
 
 ### 当前真实输入
 
-[298原终态](notes/2026-11-27-r582-physical-pending298-original-terminal.md)：run45901312947/job140187488430/source98ded25f6；新2370.257524993秒、12metric/13完整Jac/15fine/14callback。真97q **59a4ba766a9450509bcbd539639503e8a67d9dc0a98c6c3b63f59879c29a7b45**，p=.181，16149×3072 η3.838285782595128e−5、物理/working V0。
+[normal311原终态](notes/2026-11-27-r582-normal311-original-terminal.md)：run45909167191/job140213091600/source181de62c；实际新2427.43645062秒，8metric/14完整Jac/17fine。实际材料回0d222bd12ce8a61d0c88264c6fb5c82066f0ca058855b5bf7a670a53b483a991、62878endpoint/960944RHS，区别其源f60；入口16167与原16149不同，完整新baseline确已支付。整run只有这一真实对象用于原backend与全部物理扫描。
 
-实际材料为 **f60be03b0af36d5d182f21860fe69cef80439c12bb23562d63dc2b57648bf52c**，62878endpoint/RHS960932，区别于旧0d/RHS960944；原14d1在新f60上完整baseline实际支付（reuse=false），随后全部12接受同一对象。有限材料仍不是无限DtN核，口小差不等于全域同场。原所有11100fine与新材料观察精确并集保留，16149资格不自动扩到当前16167。
+真97q **3bc11a9c80696ad3ec54066a9bf0d5cee4436081dee79b9e22b61757fe507aa1**，p=.181，16189×3072 η3.722676721935829e−5、物理V0，working2.309485e−12在原容差内。实际327径向/1536角/trust2，pending3个半径仅拟定330；当前与已合格fine同一d6a0d6e7…16189点。
 
-末d613的fineη3.776290107e−5更低，但workingV2.65025739e−5，实际拒绝后把13个证据点采用到311。当前311×1536/trust2，pending空、proposed=current，fine16167尚欠完整资格；未自然OptimizeResult或stall。原raw/独立fraction与elift/真实best继续分轨，callback4只是η未降也拒绝。
+末135e raw不合格；16次减半的独立副本即使物理已在容差内也无严格metric promise，正确不做fine、不接受。原完整finite失败候选和更低但违约的raw都保留。四后端J=2/6/2/4，总14份/182块/583.826191433秒，前三outer10J与当前4J不漏计；已真实进入内部BFGS，不能套B030首J即交换的瓶颈。没有自然OptimizeResult或数值stall。
 
 ### 阶段门与后继
 
-[原311正常范围](notes/2026-11-27-r582-physical-normal311-resume-implementation.md)已审发布：原全部科学数值函数和门保持；按311真实库接续，永久旧fine不丢，旧Jac/诊断不重做，未存后端数组不伪恢复。p阶段约2.5e−7未过不升级；目标p=.8、末η≤1e−7。同空间真停滞时按实际残差换输入/算法，不能只延已停实例。当前mean g仍是设计变量，最终须同一g/参数/时间域精化。
+下一正常pending330沿原算法，准确采用原327+3及全部16189永久坐标，raw只作未合格warm。原base reuse仅比p/q/fine；本scope原数据确定6个新中点不在旧fine，因此会付至少16195的新完整资格，不声称有不存在的通用material SHA检测。所有新baseline/backend/fine共用同一次实际场，实际mesh如实记。新网入口资格不计metric接受。
 
-最新mean q64:80及h96均变，首个tail-u坐标q80也变；[当前59a4完整几何原终态](notes/2026-11-27-r623-current59a4-complete-reach-original-terminal.md)已成功：实际再生0d而非优化f60，明确新付同q16167×3072物理资格与同mean圆参考/全C0/C1/K；R622完整reach/D≥.0311710349107。该资格仅属此q/p/实际field，运行中normal的新q不能直接继承。旧169/185/189/243/279/298、50Jac无接受、finite表示失败和全部μν/三种子费用见[279前史](notes/2026-11-27-r582-physical-pending279-original-terminal.md)及归档，未撤旧账。
+p阶段约2.5e−7未过不升级；目标p=.8/末η≤1e−7。同空间真停滞时按实际残差换输入/算法，不能只延已停实例。当前mean g仍在设计，最终须同一g/参数/时间域精化。
+
+3bc1的16个mean控制q64:80全变，h96=.6975711972395291；q80是首新增tail-u。[已证59a4完整reach](notes/2026-11-27-r623-current59a4-complete-reach-original-terminal.md)仅对其原q/p/0d成立，不能因材料mesh相同就把旧mean参考与C0/C1/K/reach授给新q。原169/185/189/243/279/298/311及所有50Jac无接受、finite表示失败、μν/三种子费用见原收据链与归档，未撤旧账。
 
 ## O2b-B：全奇位置继续下降，同时落实真正固定g的增长响应
 
