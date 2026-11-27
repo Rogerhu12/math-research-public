@@ -274,3 +274,8 @@ root独立读官方run46037017666/1及job140634874993，均completed/cancelled�
 ### 2026-11-27 22:55 UTC — 完整20分支：同bhalf，恢复阻尼仅 .01→.001
 
 发布并由request路径触发20独立workflow；12新件484749B（含topic外workflow2219B），完整science97019/pure86221/display32429/参数再生器15064/来源分析15526/全参数总表50679，加controller19984/初队列73243/request44226/启动总表42648/启动note5491。全部137角色/18原运行体、157/7argv、458/445formal/48live与旧120pairs及失败未知原保。唯一科学标量argv37 `.01`→`.001`，argv71仅新namespace；metric阻尼、全部变量/32stages/4恢复方向64内迭代/15trial和真g接受不变。精确QP比较仅同完整线性可行集/相同tau0范数及全局最优，不能宣告实际有限迭代改善。root只从19原controller四标签/完整workflow六处命名变换，350min/20000s/finishfalse原保；两个必要全输入在新runner再建后整科学，pure全对象另等真正自然返回，不缩参数挤95k。官方run/model/point/接受/费用/终态先全null；[全部身份及继续义务](notes/2026-11-27-run20-complete-bhalf-mu001-launch-and-continuation.md)。17–19现有队列不改，root云核非真pull，活controller继续真实同步。
+
+
+### 2026-11-27 22:56 UTC — 20 官方运行归因
+
+实际launch85cd235221ace28158625a7ced52a24551b509eb唯一官方run46079535427/1，created/start22:55:41Z，job140775034500。root22:56:26真读job全step：原checkout/Python/依赖均success，研究step5 in_progress；新input/科学/字段尚未自然返回。全部官方实际归因追加[20启动note](notes/2026-11-27-run20-complete-bhalf-mu001-launch-and-continuation.md)，请求文件不改以免重复触发。精确父52ec703c的完整workflows树1266/truncatedfalse确认新增20原路径不存在，contents仅1000列表不冒完整证据。继续读原controller新input与科学真实输出。

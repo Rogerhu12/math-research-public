@@ -40,3 +40,98 @@
 只在授权公开Actions做科学；全部科学raw/逐胞/mesh/checkpoint只runner，Git保全源、全参数、证明与实际小记录。根终端仍不可用，cloud freshHEAD核对并普通非force推送不冒真pull；控制器每次实际pull即比较双README，只读变化并记已读commit。启动前双README已读基准 `1e642976aec7c6e620da2e2bab3112e6ee30ee56`，实际发布时fresh检查；当前hash见request。
 
 新实际run/job/model/point/科学report/accepted/final/所有fee和mesh均未知。该完整分支不是完成结论；继续到README全标准。
+
+
+## 22:56:26 UTC：官方运行已真实启动
+
+上述完整launch提交 `85cd235221ace28158625a7ced52a24551b509eb` 实际触发 **run46079535427/1**，官方created_at/run_started_at均为 **2026-11-27T22:55:41Z**。Job **140775034500** 当前in_progress；checkout、Python和全部原依赖安装已success，完整公开研究步骤5正in_progress。此时未读到任何完整新input或科学自然返回；提交HEAD只标启动，不倒填各step实际source或未来field。
+
+根还在精确发布父 `52ec703c1a995c63c8af83175045c5de0c43e0f6` 读完整workflows Git树 `82a183256a747fc2758adaeb9a7304609f72864b`（1266项，truncated=false），该父无parallel20路径。先前contents接口的1000项不被当作完整缺席证据；完整Git树身份才确定此次新增路径。
+
+```json
+{
+  "observed_utc": "2026-11-27 22:56:26 UTC",
+  "official_discovery_url": "https://api.github.com/repos/Rogerhu12/math-research-public/actions/runs?head_sha=85cd235221ace28158625a7ced52a24551b509eb",
+  "official_discovery_complete_response_bytes": 13375,
+  "official_discovery_complete_response_sha256": "628611b15556cd013bfb8301ed52776b20e47f778ec8e0a8f5aca0d4c615ae38",
+  "selected_official_run_fields": {
+    "id": 46079535427,
+    "name": "Visible larger amplitude complete bhalf restoration damping 20261127 20",
+    "head_branch": "main",
+    "head_sha": "85cd235221ace28158625a7ced52a24551b509eb",
+    "path": ".github/workflows/visible-larger-20261127-parallel20.yml",
+    "run_number": 1,
+    "event": "push",
+    "status": "in_progress",
+    "conclusion": null,
+    "workflow_id": 433228578,
+    "created_at": "2026-11-27T22:55:41Z",
+    "updated_at": "2026-11-27T22:55:44Z",
+    "run_started_at": "2026-11-27T22:55:41Z",
+    "run_attempt": 1,
+    "html_url": "https://github.com/Rogerhu12/math-research-public/actions/runs/46079535427",
+    "jobs_url": "https://api.github.com/repos/Rogerhu12/math-research-public/actions/runs/46079535427/jobs"
+  },
+  "complete_bounded_official_jobs": {
+    "jobs": [
+      {
+        "id": 140775034500,
+        "name": "Construct the same fixed target and solve the complete bhalf smaller damping",
+        "status": "in_progress",
+        "conclusion": null,
+        "run_id": 46079535427,
+        "logs_url": null,
+        "steps": [
+          {
+            "name": "Set up job",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 1
+          },
+          {
+            "name": "Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 2
+          },
+          {
+            "name": "Run actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 3
+          },
+          {
+            "name": "Install the recorded numerical and automatic differentiation dependencies",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 4
+          },
+          {
+            "name": "Execute public research and publish independent compact records",
+            "status": "in_progress",
+            "conclusion": null,
+            "number": 5
+          },
+          {
+            "name": "Post Run actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
+            "status": "pending",
+            "conclusion": null,
+            "number": 9
+          },
+          {
+            "name": "Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+            "status": "pending",
+            "conclusion": null,
+            "number": 10
+          }
+        ]
+      }
+    ]
+  },
+  "initial_commit_is_not_each_future_step_source_commit": true,
+  "new_input_reports_observed": false,
+  "scientific_natural_return_observed": false,
+  "complete_model_or_point_known": false,
+  "goal_completed": false
+}
+```

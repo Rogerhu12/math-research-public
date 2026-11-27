@@ -128,3 +128,5 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 
 [20完整独立启动](notes/2026-11-27-run20-complete-bhalf-mu001-launch-and-continuation.md)及[启动全总表](computations/fixed-fejer-bhalf-mu001-complete-launch-delivery.json)：同g/bhalf/delta1/32，仅恢复阻尼argv37 `.01`→`.001`，metric仍`.01`。全部157/7、458/445formal/48live和全源137/18/原预算保，3whole初step73243B；两science/pure whole队列117276pretty/104048compact超95k，pure真自然返回后整接。精确同线性QP的非负最优tau单调不代64步/非线性改善保证。future actual全未知，19独立不改；后续全费用/矩/mesh待真实材料继续。
+
+20官方已启动46079535427/1，created/start22:55:41Z、job140775034500；原依赖成功、研究step5真实in_progress。此时input/model/point与科学自然返回未取得，不从launch HEAD填各step源；全原官方有界响应保[20续求](notes/2026-11-27-run20-complete-bhalf-mu001-launch-and-continuation.md)。
