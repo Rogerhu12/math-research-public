@@ -59,6 +59,8 @@ R1只把全部异常缩为p>37的完整N_ns；**p≡2,5 mod9只是另加小惯�
 
 [R1085](results/R1085-original-ordinary-CM-Hecke-logarithm-and-Serre-Tate-moment.md)：q4513六ordinary CM点u_y=23y−C∞，q⁻¹log((q+1−Tq)u_y)(ω)≡23[t^(q−2)]fω(eᵗ)。原CM水平/全q+1根、完整Mahler尾项/下降/coarse重数全付；实际块值/单位与二SS来源仍开。
 
+[R1091](results/R1091-original-Gaussian-CM-logarithm-as-one-algebraic-coefficient.md)：原Gaussian q4513首对数=23/k(0)·[z^(q−1)]F k∫k/H²dz，完整Igusa period/KS正号/截断/粗重数已付；用原47挠点Hensel可读，实际值仍开。
+
 ## O1：全p同一真实本原标签的临界非零
 
 [R1079](results/R1079-original-CM-Psi-zeta-short-carry.md)付两种CM的原Ψ=Z_<p^p+δT modT^(p²)，含原微分/CM角色/短ζ分母/负p极代换。原G单位现可作Ψ指定高系数，但不是短η_k/ν_k；真实三平移和Gaussian近p²下位卷积仍开。

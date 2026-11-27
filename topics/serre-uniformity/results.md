@@ -16,7 +16,9 @@
 
 截至R967的前版索引逐字保存在[完整索引归档](results-archive-2026-11-20-before-R968.md)，内接R833前索引及更早全部证明。相对链接保持同目录。归档内保留R808–900真实原高度/函数/Norm/执行入口及完成回执；历史“待计算”以同项较晚的实际certified结果为准，不重做已成结论。固定p41全129盘已由[R707](results/R707-complete-level41-rational-point-classification.md)关闭；一般完整正规化子及全p原高度仍开放。
 
-## 新增结论（2026-11-27）
+## 新增结论
+
+- [R1091](results/R1091-original-Gaussian-CM-logarithm-as-one-algebraic-coefficient.md)：原Gaussian q4513首对数=23/k(0)·[z^(q−1)]F k∫k/H²dz，完整Igusa period/KS正号/截断/粗重数已付；用原47挠点Hensel可读，实际值仍开。（2026-11-27）
 
 - **R1077（已证明原加权单位）**：[同一primitive的Hurwitz读数](results/R1077-original-Hurwitz-unit-as-weighted-primitive-coefficient.md)：原O参数/residue及Euler安全前缀给G_(p−5)=C·[z^(2k)](1−z)^−1/3 T²/(24v²)，C³=4v²取Fp唯一根；该系数=576v⁴/(7Cδ⁵)全p单位。原T固定、所有参数/Cartier相位已付，尚未连接η_k/ν_k的未加权k次读数，无数学执行。
 

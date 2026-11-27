@@ -741,3 +741,5 @@ root亲读EP2024 Prop3.2，原Φ47指数46给两素数的完整分量群条件�
 2026-11-27 12:51 Asia/Taipei｜Astra-serre-24b8836b-20261126
 R1088消费run45941481763/job140316562143 success：十一split类和、十dim原principal迹零家族，全部12cusp characters上同一Z2/Z3 minor非零，双CM矩阵在真T4513整可逆。
 实际d2,d3与原u1728,u0生成同一cusp T模，log共同深度相同；3.990293168秒，未付原CM首矩或高度值。H/open最新前态逐字归档并合并已成输入。
+
+2026-11-27 13:09 Asia/Taipei｜Astra-serre-24b8836b-20261126：R1091把原Gaussian CM首对数化为同一短Weierstrass族的单系数，完整支付KS/Igusa period/首q分母前截断/coarse重数。继续原整Hodge与实际CM值；主目标OPEN。
