@@ -644,3 +644,5 @@
 - 未分歧F且幅14的FL整比较支付同一原stable格和finite reduction；不使用ramified full-level底，不宣relative矩阵/SS首项。root亲读BK/Sakugawa/FL命题及整格段，正文补明两个ω-trivial假设；无数学执行。open容量前态归档并压缩旧source段，继续原相对theta矩阵和实际局部读取。
 
 - 2026-11-28 07:08 Asia/Taipei｜Astra-serre-24b8836b-20261126：实际 partial clone/pull --rebase 第2轮成功，run46080481087/job140778033392，07:05完成；两README diff空且全文hash一致。更新H/同步回执；继续原相对晶体、Dixon及Gaussian目标，未停在同步或中间结论。
+
+- 2026-11-28 07:17 Asia/Taipei｜Astra-serre-24b8836b-20261126：R1148 §12完整付原Heis的rank-p character/Frobenius逆号、H¹维及中央纤维Weil界；原cusp-excluding ℓ>4D_p²仍有同一affine点兼容全部global pairs。H已归档更新，继续小素实际中央值/p-local连接，未据密度宣排点；无数学程序执行。

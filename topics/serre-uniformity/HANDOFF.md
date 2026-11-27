@@ -6,11 +6,11 @@
 
 会话 **Astra-serre-24b8836b-20261126**。已部分克隆并真实pull main，读根/课题README及H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则36cf1ed2已读。不得重做登记结论/窗口。
 
-**公开两README已读提交：f1d930ab1a079562472d26e70b2f37e6b00aa193**（2026-11-28 07:08 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 07:05 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
+**公开两README已读提交：068269d1947b8f7dfd4277de09a24f46ff78974f**（2026-11-28 07:17 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 07:05 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
 
 最近真实pull：2026-11-28 07:05 Asia/Taipei，公开Actions run46080481087/job140778033392，在blob:none浅部分克隆中真实pull --rebase至ffd8a7ed，两README diff空且SHA与已读全文相同；[源/回执入口](notes/2026-11-28-terminal-rule-sync.md)。下次请求≤07:55、真实pull≤08:05。本地07:07仍无环境；恢复即pull。每次提交仍按根规则8 fresh main/diff/expected_sha非force，拒绝立即同步重推。令牌只CLI，当前同步workflow匿名无token。数学程序仅本公开Actions；V8仅metadata/文本。[此前纠正](notes/2026-11-26-execution-path-deviation-and-correction.md)。
 
-root管main/H/open/index/log，子研究仅独立candidate；每条结论即推。H<10KB，open尽量<30KB，每MD<100KB，topic<200MB；不存可重算raw/artifact/Release，不写根LOG。[最新逐字前态](handoff-archive-2026-11-28-before-canonical-cusp-fibres.md)沿链保完整旧公式、source/run/hash；[open](open.md)/[索引](results.md)为完整入口。旧“R1003 norm3准备中”未交，现R1003为范围纠错。
+root管main/H/open/index/log，子研究仅独立candidate；每条结论即推。H<10KB，open尽量<30KB，每MD<100KB，topic<200MB；不存可重算raw/artifact/Release，不写根LOG。[最新逐字前态](handoff-archive-2026-11-28-before-affine-central-count.md)沿链保完整旧公式、source/run/hash；[open](open.md)/[索引](results.md)为完整入口。旧“R1003 norm3准备中”未交，现R1003为范围纠错。
 
 ## O0：完整一般 p、原算术 cochains 与新增尖点中心
 
@@ -30,9 +30,12 @@ root管main/H/open/index/log，子研究仅独立candidate；每条结论即推�
 
 [R1147](results/R1147-original-canonical-moment-Heisenberg-lift.md)无门以全S0有限矩/Z的H¹0/H²单射给唯一p⁴²源及规范proper Heis，det/polar/2/3/cusp/purity全付。§§8–12原primitive p^n norm/Q-cor/phase与非单位轨道给唯一compatible塔，v_d∞=(1−p^d)B_(d+2)/(d+2)、修正21(1+p⁴)/11。§§13–15同一good E fibre全部crys；未分歧F原43维格幅14经FL准确恢复原modp四维Heis quotient。未升I、未给relative矩阵/SS首jet；global继续已刊theta/relative来源。
 
-[R1148](results/R1148-original-canonical-cusp-Heisenberg-and-minus-one-Frobenius.md)在p>691付规范cover的真正cusp算术纤维：原Tate tangential整支撑、低偶权L2..14消失与q_h偶单项式杀余差，得c_h=φ_h(Ξ_5,9;14)，φ_h=(u_hx/2,u_h²y/2+kx,u_h³z/4+ku_hx²/4)。ℓ−1时κ=z−xy/2使self项全消，κcusp=u_h³κ14/4；同cusp条件是准确六次幂判据。γ5γ9非零门内（Bp−5/Bp−9单位足够）付逐global标签准确密度，并由纯weight14 vs全部target weight8给正密度同一ℓ排全部标签/全部cusps。未排affine、无小素界、不宣分母为空；失效门仍开。
+[R1148](results/R1148-original-canonical-cusp-Heisenberg-and-minus-one-Frobenius.md)付p>691同一canonical cusp fibre φ_h(Ξ_5,9;14)：Tate整支撑/低偶权消失/q_h奇项全付。ℓ−1时κ=z−xy/2、κcusp=u_h³κΞ/4；self补项全消，六次幂同cusp判据与逐label密度准确，原abelian−1整支未反改。
 
 [R1148 §10](results/R1148-original-canonical-cusp-Heisenberg-and-minus-one-Frobenius.md)已用Soulé固定权定理消掉充分大p的global门：C_cyc=exp(9^(224·9⁴))，p>C_cyc时原ε4/ε8投影与单位因子精确匹配，γ5/γ9无条件非零并生成各H¹；Kurihara给γ3生成H¹L3。全部global pairs恰(aγ3,bγ5)，由唯一Θ(3,5)的scaling控制；与Ξ(5,9)共享γ5的实际五维群给[M:Q]=(p−1)p⁵。§11共同cusp排除恰κΘ=0、κΞ≠0，密度准确1/p²，无额外门。未宣localization unit，Bp−3/5/9的p-local门仍保；继续affine/有效辅助素和SS值。
+
+
+R1148 §12已付同一规范cover在ℓ−1的实际中央计数：ρψ(a,b,z)f(u)=ψ(z+bu)f(u+a)、R:u↦−u，trace=ψ(z−ab/2)；原几何满H给H¹维2p(g−1)。故 |N_t−#X/p|≤2(p−1)(g−1)√ℓ，D_p=g+p(p−1)(g−1)。全部中央值在ℓ>p⁸的affine上出现；在§11排cusp素 tΘ0/sΞ≠0，ℓ>4D_p²（充分ℓ>p⁸/144）仍有同一个affine点兼容全部global labels并Hensel升Qℓ。大Chebotarev存在不再当affine空；继续小素实际值与p-local连接。
 
 ## O1：原两 jet、Gauss–Padé 与固定 Dixon
 

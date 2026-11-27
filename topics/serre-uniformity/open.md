@@ -46,6 +46,9 @@
 
 [R1125](results/R1125-original-full47-rational-point-classification.md)已付原完整47Q恰八CM、全部4513 whole盘、全维高度/对数及后到q²审计。R1122/24和run46025141482的全部参数、来源及hash在原结果和[本次前态](open-archive-2026-11-28-before-low-weight-source-reduction.md)；不重跑固定47、41或旧窗口。原整K₂全cusp/Chen/Ohta残余仍为μp⊗odd J，R1131/32仅删各自门内块，不代整个K₂/p。
 
+
+[R1148 §12已](results/R1148-original-canonical-cusp-Heisenberg-and-minus-one-Frobenius.md)付同一规范cover在ℓ−1的实际中央计数：ρψ(a,b,z)f(u)=ψ(z+bu)f(u+a)、R:u↦−u，trace=ψ(z−ab/2)；原几何满H给H¹维2p(g−1)。故 |N_t−#X/p|≤2(p−1)(g−1)√ℓ，D_p=g+p(p−1)(g−1)。全部中央值在ℓ>p⁸的affine上出现；在§11排cusp素 tΘ0/sΞ≠0，ℓ>4D_p²（充分ℓ>p⁸/144）仍有同一个affine点兼容全部global labels并Hensel升Qℓ。大Chebotarev存在不再当affine空；继续小素实际值与p-local连接。
+
 ## O1：全p同一真实本原标签的临界非零
 
 [R1145](results/R1145-original-Pade-banded-self-adjoint-exclusion.md)八个原H_N带宽1、2完整系统均只有标量；p=101,107,131,137，run46071081257/job140747905385成功，全部核维1及单位子式已付。只排有限输入的三/五对角自伴随机制，不代e/K4非同时零；不重跑。

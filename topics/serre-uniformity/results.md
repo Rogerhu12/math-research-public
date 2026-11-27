@@ -1,5 +1,7 @@
 # 结论索引
 
+- **原 affine 中央值的准确 character 界（已证明）**：[R1148 §12](results/R1148-original-canonical-cusp-Heisenberg-and-minus-one-Frobenius.md)已付同一规范cover在ℓ−1的实际中央计数：ρψ(a,b,z)f(u)=ψ(z+bu)f(u+a)、R:u↦−u，trace=ψ(z−ab/2)；原几何满H给H¹维2p(g−1)。故 |N_t−#X/p|≤2(p−1)(g−1)√ℓ，D_p=g+p(p−1)(g−1)。全部中央值在ℓ>p⁸的affine上出现；在§11排cusp素 tΘ0/sΞ≠0，ℓ>4D_p²（充分ℓ>p⁸/144）仍有同一个affine点兼容全部global labels并Hensel升Qℓ。大Chebotarev存在不再当affine空；继续小素实际值与p-local连接。
+
 - **原整塔的逐点晶体性与精确有限格比较（已证明）**：[R1147 §§13–15](results/R1147-original-canonical-moment-Heisenberg-lift.md)付同一原tower在good E/F的actual crystalline fibre：V/Z及dual(1) H⁰0、BK/Euler、unipotent Lang/central twisting完整。未分歧F上原43维stable格的幅14经FL及真正(s,v,z)→(s,a,b,h) quotient恢复同一modp Heis；至多二次tensor幅28安全。未升Cartan I、未套ramified full-level F，relative GM/Frobenius及SS粗参数首项仍待付；未刊pointwise criterion不直接消费。
 
 - **固定权原圆单位：充分大p无条件非零（已证明）**：[R1148 §10](results/R1148-original-canonical-cusp-Heisenberg-and-minus-one-Frobenius.md)已用Soulé固定权定理消掉充分大p的global门：C_cyc=exp(9^(224·9⁴))，p>C_cyc时原ε4/ε8投影与单位因子精确匹配，γ5/γ9无条件非零并生成各H¹；Kurihara给γ3生成H¹L3。全部global pairs恰(aγ3,bγ5)，由唯一Θ(3,5)的scaling控制；与Ξ(5,9)共享γ5的实际五维群给[M:Q]=(p−1)p⁵。§11共同cusp排除恰κΘ=0、κΞ≠0，密度准确1/p²，无额外门。未宣localization unit，Bp−3/5/9的p-local门仍保；继续affine/有效辅助素和SS值。

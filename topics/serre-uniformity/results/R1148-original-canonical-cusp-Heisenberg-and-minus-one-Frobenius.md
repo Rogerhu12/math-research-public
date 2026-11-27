@@ -529,3 +529,181 @@ $$
 因此 §8 的正密度在充分大范围内已经确定为 $1/p^2$，且由同一个 degree $(p-1)p^5$ 的真实场检测。不声称每个负一素数都排掉 cusps；事实上 (1148.33) 也明确给出不能这样说的原因。
 
 式 (1148.34) 不给最小这样的 $\ell$，仍不排其余 affine 点。全部论证为原两 Heisenberg lifts 的显示群律、已付 Galois 像和 Chebotarev 计数；无数学程序执行。
+
+
+## 12. 同一规范覆盖的原 affine 中央值与明确大素数界限
+
+本节仍使用 (1147.21) 的同一个 proper cover。计数部分只需 $p>37$；涉及 §11 的全部全局标签时再取 $p>C_{\rm cyc}$。记
+$$
+X=X_{\rm ns}^{+}(p),\quad g=g(X),\quad
+m=(p-1)/2,\quad
+D_p=g+p(p-1)(g-1).
+$$
+固定素数 $\ell\equiv-1\pmod p$。所有以下点数均在同一个好约化 $X_{\mathbb F_\ell}$ 上，不把 cusp 计数替代 affine 计数。
+
+### 12.1 原中央值是一个准确的 p 维 character
+
+固定 $\zeta_p$ frame，$L_8$ 在 $\mathbb F_\ell$ 上平凡；在两个奇权槽上 Frobenius 为 $-1$。对每个
+$x\in X(\mathbb F_\ell)$，记原规范 torsor 的实际读数为
+$$
+c_\ell(x)=\kappa_\ell(Y_{{\rm mom},x})\in\mathbb F_p.
+$$
+它就是 (1148.12)，没有另选 central twist。取一个非平凡 additive character
+$\psi:\mathbb F_p\to\overline{\mathbb Q}_r^\times$，
+其中辅助系数素数 $r\ne p,\ell$。在 $p$ 维函数空间上定义
+$$
+(\rho_\psi(a,b,z)f)(u)=\psi(z+bu)f(u+a),
+\qquad
+(Rf)(u)=f(-u).
+\tag{1148.35}
+$$
+直接复合得到原群律中的 $ab'$，并且
+$$
+R\rho_\psi(a,b,z)R=\rho_\psi(-a,-b,z),\qquad R^2=1.
+$$
+所以它是实际半直积 $H_p\rtimes\langle\tau\rangle$ 的表示，其中
+$\tau(a,b,z)=(-a,-b,z)$。这正是本好素位上原群 sheaf 的 Frobenius 作用。
+
+在标准 delta-function 基中，$\rho_\psi(a,b,z)R$ 只有
+$u=-a/2$ 一个对角贡献。因此
+$$
+\boxed{\operatorname{Tr}(\rho_\psi(a,b,z)R)
+ =\psi(z-ab/2)=\psi(\kappa_\ell).}
+\tag{1148.36}
+$$
+中心作用为非平凡标量 $\psi(z)$。此外，$b$ 的全部对角算子把函数空间分成互异的一维特征线，而 $a$ 的平移传递置换这些线，所以 $\rho_\psi|_{H_p}$ 不可约，且维数确为 $p$。
+
+由原 cover 的 torsor cocycle 得到
+$\pi_1(X_{\mathbb F_\ell})\to H_p\rtimes C_2$。
+使用 $\rho_\psi^\vee$ 的 associated sheaf $\mathcal L_\psi$，以便支付 arithmetic/geometric Frobenius 的逆号：
+geometric Frobenius 是 arithmetic $(a,b,z)\tau$ 的逆，在 dual 表示中的 trace 正好仍为 (1148.36)。故
+$$
+\operatorname{Tr}(\operatorname{Frob}^{\rm geom}_x
+ \mid\mathcal L_{\psi,x})=\psi(c_\ell(x)).
+\tag{1148.37}
+$$
+$\mathcal L_\psi$ 在整个 proper $X_{\mathbb F_\ell}$ 上 lisse，秩为 $p$，有限 monodromy。没有在 cusp 添加 Swan 项或漏掉它们。
+
+### 12.2 完整 H¹ 维数与 Weil 界
+
+R1147 已付原 cover 的全部几何 monodromy 为 $H_p$，并且在这个好素位仍几何连通。因此 $\mathcal L_\psi$ 没有几何不变量；其 dual 亦然，故
+$H^0(X_{\overline{\mathbb F}_\ell},\mathcal L_\psi)
+=H^2(X_{\overline{\mathbb F}_\ell},\mathcal L_\psi)=0$。
+
+这里可直接在原 cover 上付清中间维数。对任意非恒等 deck element $h\in H_p$，finite étale 性使它无 fixed point；Lefschetz 公式给
+$\operatorname{Tr}(h|H^1(Y_{\overline{\mathbb F}_\ell}))=2$。
+恒等元的 trace 为
+$2g_Y=2+2p^3(g-1)$。所以作为 characteristic-zero $H_p$ 表示，
+$$
+H^1(Y_{\overline{\mathbb F}_\ell},\overline{\mathbb Q}_r)
+ \simeq
+ \mathbf1^{\oplus2}\oplus
+ \overline{\mathbb Q}_r[H_p]^{\oplus(2g-2)}.
+$$
+由于 $|H_p|$ 在系数域中可逆，finite-cover descent 是取不变量的 exact 运算。取上节的非平凡 $p$ 维 irreducible multiplicity 后，准确得到
+$$
+\boxed{\dim H^1(X_{\overline{\mathbb F}_\ell},\mathcal L_\psi)
+ =2p(g-1).}
+\tag{1148.38}
+$$
+这没有用 genus $g_Y$ 粗暴地代替目标 character 的维数。
+
+在 $\mathbb F_{\ell^2}$ 上 $H_p$ 已为常值群，
+$\mathcal L_\psi$ 被同一个 $Y$ 平凡化；相应 $H^1$ 是
+$H^1(Y_{\overline{\mathbb F}_\ell})$ 的 isotypic multiplicity。
+曲线的 Weil 定理使 $\operatorname{Frob}_{\ell^2}$ 的每个此类特征根复绝对值为 $\ell$。故 $\operatorname{Frob}_{\ell}$ 的每个特征根绝对值为 $\sqrt\ell$。这个论证只用实际 finite cover 和已知的曲线 Weil 界，不假设另一个未构造的 weight-zero sheaf。
+
+结合 (1148.37)、非恒定系数 Lefschetz 公式和 (1148.38)，得到
+$$
+\boxed{\left|
+ \sum_{x\in X(\mathbb F_\ell)}\psi(c_\ell(x))
+ \right|\le 2p(g-1)\sqrt\ell.}
+\tag{1148.39}
+$$
+对全部非平凡 $\psi$ 同时成立。
+
+### 12.3 每个实际中央纤维的原点数
+
+令
+$$
+N_t=\#\{x\in X(\mathbb F_\ell):c_\ell(x)=t\}.
+$$
+有限 Fourier 正交关系是准确等式
+$$
+N_t=\frac1p\left(
+ \#X(\mathbb F_\ell)
+ +\sum_{a\in\mathbb F_p^\times}
+ \psi(-at)\sum_{x\in X(\mathbb F_\ell)}
+                  \psi(a c_\ell(x))\right).
+$$
+逐项使用 (1148.39)，得
+$$
+\boxed{\left|N_t-\frac{\#X(\mathbb F_\ell)}p\right|
+ \le 2(p-1)(g-1)\sqrt\ell.}
+\tag{1148.40}
+$$
+再用原 $X$ 的 Weil 界，即
+$$
+\boxed{N_t\ge
+ \frac{\ell+1-2D_p\sqrt\ell}{p}.}
+\tag{1148.41}
+$$
+
+$\ell\equiv-1\pmod p$ 在原 cusp field $K^+$ 中完全分裂，所以全部 $m$ 个原 cusps 均在 $\mathbb F_\ell$ 有理且互异。若
+$C_t=\#\{c\text{ 为 cusp}:c_\ell(c)=t\}$，则
+$$
+N_t^{\rm aff}=N_t-C_t,\qquad 0\le C_t\le m.
+\tag{1148.42}
+$$
+对 $p>691$，(1148.14) 还准确算出 $C_t$：
+若 $s_\ell=0$，则 $C_0=m$、其它 $C_t=0$；
+若 $s_\ell\ne0$，则 $C_0=0$，且每个出现的非零 cusp 值恰出现
+$\gcd(6,p-1)/2$ 次。
+最后一个数来自原映射
+$h\in\mathbb F_p^\times/\{\pm1\}\mapsto h^{-6}$，
+并未把正负两 cusp 标签重复计数。
+
+特别地，只要
+$$
+\ell+1-2D_p\sqrt\ell>pm,
+\tag{1148.43}
+$$
+每个中央值都在原 affine locus 上出现。
+这还给一个只依赖 $p$ 的简单充分界 $\ell>p^8$。为支付该界而不借未经核准的精确 genus 表，原 congruence subgroup 的 index 为
+$\mu=p(p-1)/2$，cusp 数为 $m$；Riemann–Hurwitz 的 elliptic-point 两项非负，因此
+$$
+g\le 1+\frac{\mu}{12}-\frac m2
+ =\frac{p^2-7p+30}{24}<\frac{p^2}{24}.
+$$
+于是 $D_p<p^4/24$。若 $\ell>p^8$，则
+$2D_p\sqrt\ell<\ell/12$，故 (1148.43) 由
+$11\ell/12+1>p(p-1)/2$ 立即成立。
+
+### 12.4 第 11 节的尖点排除素数，在大范围内仍有 affine 局部点
+
+现取 $p>C_{\rm cyc}$，并令同一个辅助素满足 §11 的准确条件
+$$
+\ell\equiv-1\pmod p,\qquad
+t_\ell=0,\quad s_\ell\ne0.
+$$
+全部 global lifts 在该位的完整 Heisenberg 类都为零：
+两奇权槽的 finite-field $H^1$ 为零，而 (1148.32) 给全部中心 $ab\,t_\ell=0$。与此同时 $C_0=0$。因此
+$$
+N_0^{\rm aff}=N_0
+ \ge \frac{\ell+1-2D_p\sqrt\ell}{p}.
+$$
+从而
+$$
+\boxed{\ell>4D_p^2
+ \ \Longrightarrow\
+ \text{存在同一个原 affine }\mathbb F_\ell\text{ 点，
+ 与全部 }p^2\text{ 个 global lifts 相容}.}
+\tag{1148.44}
+$$
+由于 $4D_p^2<p^8/144$，$\ell>p^8/144$ 是一个明确的充分界。
+
+这也是真正的 $\mathbb Q_\ell$ 局部非空结论。取 (1148.44) 的点，$c_\ell=0$ 意味原 torsor fibre 平凡，故有 $\mathbb F_\ell$-lift 到 $Y_{\rm mom}$。原 cover smooth proper 且 finite étale，Hensel 提升给对应的 $\mathbb Z_\ell$ 点；因 reduction 非 cusp，其 $j$ 为整。全部 global target 在 $\mathbb Z_\ell$ 的 unramified 类均平凡，故这个局部点满足所有 target 的原 fibre 相容条件。
+
+因此 §11 的密度 $1/p^2$ 不能单凭“任选足够大的该类素数”升级为 affine 排除：超过 (1148.44) 的每个这样的素数，都已有原 affine 局部点。若沿这一个 cover 寻找完全为空的 affine residue 筛，必须在 $\ell\le4D_p^2$ 的范围另付实际点值；该必要范围本身并不保证有这样的素数。继续方向是原小辅助素处的真实中央函数，或原 $p$-local 相对连接，而非重复大素数 Chebotarev 存在性。
+
+本节新增引用：J. S. Milne, *Lectures on Étale Cohomology*, v2.21 (2013)，[作者全文](https://www.jmilne.org/math/CourseNotes/LEC.pdf)，§25 的 fixed-point formula、§26 的曲线 Weil 特征根结论与 Theorem 29.4 的非恒定系数 trace formula。原 $H_p$ 表示、Frobenius 逆号、各 multiplicity、Fourier 常数、cusp 扣除和数值幂界均在本节逐式给出。无数学程序执行，未增加或重跑辅助素扫描。
