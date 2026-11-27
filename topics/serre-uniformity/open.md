@@ -47,7 +47,7 @@ R1018–40原Fm/两节点Dickson/PD/好BT整比较的完整尺度和C_*保原文
 
 [R1094](results/R1094-original-disjoint-CM-heights-and-first-global-intersection-functional.md)：原整Hecke各向同性W、双极核与完整ramified power-sum证明跨−4/−3的h_q(Bqu4,T Bqu3)∈q²，T3和T2−1的Gaussian离盘代表亦适用。首global height准确为原level交数×Fermat商，保完整B²的T_(q²)及坏47垂直修正；实际交数/单位未算。
 
-[R1096](results/R1096-certified-original-CM-moving-units-and-odd-Hecke-height-basis.md)：run45948995182/job140340211167，6.976秒；det(T2−1)=3715、detT3=3071，Hodd=T3+T5判别式2650，故M=T·u16且奇Hecke整基覆盖全部T。D4与全部Hodd^jD16分盘，h_q∈q²；全高度首层由非q原level交数读取，实际值仍开。
+[R1096](results/R1096-certified-original-CM-moving-units-and-odd-Hecke-height-basis.md)：run45948995182/job140340211167，6.976秒；det(T2−1)=3715、detT3=3071，Hodd=T3+T5判别式2650，M=T·u16；§8以Sturm2256证明奇整基可选n≤2255且47∤n，实际指标继续计算。D4与全部Hodd^jD16分盘，h_q∈q²；全高度首层由非q原level交数读取，实际值仍开。
 
 [R1097](results/R1097-original-level47-odd-prime-CM-intersections-and-sparse-norm-sum.md)、[R1098](results/R1098-original-bad47-CM-intersections-and-exact-vertical-correction.md)、[R1099](results/R1099-original-level47-dyadic-CM-intersections.md)已付全部odd-good/坏47/2交数：模2209两进程，坏47 I=529D_qH+23D_qb，2处Q8给S2/8并保half-lattice。以下开始实际数值。
 

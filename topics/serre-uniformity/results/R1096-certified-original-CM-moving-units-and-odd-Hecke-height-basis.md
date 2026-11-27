@@ -313,3 +313,162 @@ $$
 
 本条完成原高度的移动整基和真实非$q$来源，未计算原47标记交数，
 未证明八个CM圆盘内部唯一，也未完成任意充分大$p$的主目标。
+
+
+## 8. 原整基可选在 $n\le2255$ 的奇指标内
+
+本节是纸面后继，不增加数学执行。令
+$$
+\mathcal I=
+ \{n:1\le n\le2255,\ n\ \text{为奇数},\ 47\nmid n\}.
+$$
+则对本条的原整 Hecke 代数有
+$$
+\boxed{\quad
+ \mathcal T=\sum_{n\in\mathcal I}\mathbf Z_qT_n .
+ \quad}
+\tag{1096.18}
+$$
+因此存在73个互异的 $n_1,\ldots,n_{73}\in\mathcal I$，
+使 $T_{n_1},\ldots,T_{n_{73}}$ 成为 $\mathcal T$ 的整基。
+此处证明存在性及明确上界，没有报出尚未计算的73个指标。
+特别 $2255<q$，所选指标同时与 $2\cdot47\cdot q$ 互素。
+
+### 8.1. 以原 normalized newforms 读取整谱坐标
+
+令 $N=47^2$。使用
+[R1080](R1080-certified-full-level47-Jacobian-rank.md)
+已经识别的
+$S_2(\Gamma_0(N))^{\mathrm{new},\,w_N=+1}$；
+其73个复嵌入对应原 $J$ 的73个 Hecke 特征。
+这里仅使用原 Chen 同源的特征零 Hecke 对应，
+不把它宣称为两条曲线在$q$处的整 Hodge 格同构。
+
+取有限未分歧扩张 $O/\mathbf Z_q$ 分裂 $\mathcal T$，
+剩余域为 $k$。对应的73个 normalized newforms 记为
+$f_\sigma=\sum_{r\ge1}a_r(f_\sigma)Q^r$，其中 $Q$ 是 Fourier 变量，
+与固定素数$q$区别开。其 Hecke 系数为代数整数，故在$O$中；
+$a_1(f_\sigma)=1$。相应 Hecke 特征在
+$\mathcal T\otimes O\simeq O^{73}$ 上就是73个坐标投影。
+
+由 (1096.6)，$H_{\rm odd}$ 的73个剩余特征值两两不同。
+因此每个 $\overline f_\sigma$ 非零，且这73个约化线性无关：
+对一个关系逐个作用 $H_{\rm odd}$ 的 Lagrange 插值投影即可；
+分母为互异特征值之差，均为单位。
+这一步在原 congruence modular forms 的整 Fourier 格中进行。
+
+于是对任意
+$$
+\ell:\mathcal T/q\mathcal T\longrightarrow\mathbf F_q
+$$
+扩张到$k$后，都可取 $c_\sigma\in k$，使
+$$
+f=\sum_\sigma c_\sigma\overline f_\sigma,\qquad
+a_r(f)=\ell(T_r)\quad(r\ge1).
+\tag{1096.19}
+$$
+此处对 $47\mid r$ 的 $T_r$，暂指该 congruence newspace 上的算子。
+如§8.3所示，它们恒为零；最终基只使用原 full47 的
+prime-to47对应。将$c_\sigma$提升到$O$便给可用于
+Sturm 同余定理的整 modular form，故没有从一个任意有理基
+未经饱和就模$q$约化的步骤。
+
+### 8.2. 精确的 odd-part 退化算子与 Sturm 界
+
+对 Fourier 级数定义
+$V_d f(Q)=f(Q^d)$，这里没有附加权二的标量。
+由于 $2\nmid N$，权二的准确 Hecke 公式是
+$$
+a_r(T_2f)=a_{2r}(f)+2a_{r/2}(f),
+$$
+其中非整数下标的系数约定为零。故
+$$
+g=f-V_2T_2f+2V_4f
+ \ \in\ S_2(\Gamma_0(4N);k)
+\tag{1096.20}
+$$
+满足
+$$
+a_r(g)=
+ \begin{cases}
+ a_r(f),&r\ \text{为奇数},\\
+ 0,&r\ \text{为偶数}.
+ \end{cases}
+\tag{1096.21}
+$$
+例如 $r=2s$ 时，后两项的系数是
+$-a_{2s}(f)-2a_{s/2}(f)+2a_{s/2}(f)$，
+所以所有偶系数准确相消。式 (1096.20) 由整退化映射定义，
+并可先在$O$上作出；$q\nmid4N$。
+
+本节只用通常的 Sturm 上界，不需要更锐的 cusp-form 版本。
+准确的群指数及权二界为
+$$
+[\mathrm{SL}_2(\mathbf Z):\Gamma_0(4\cdot47^2)]
+ =4\cdot47^2\left(1+\frac12\right)
+                 \left(1+\frac1{47}\right)
+ =13536,
+\qquad
+\frac{2\cdot13536}{12}=2256 .
+\tag{1096.22}
+$$
+因此若 $a_r(f)=0$ 对所有奇数 $r\le2255$ 成立，
+则 (1096.21) 使 $g$ 的全部 $1\le r\le2256$ 系数为零；
+最后的2256是偶数，也已经消失。
+Sturm 定理给 $g=0$，从而 $f$ 的**全部奇系数**为零。
+
+所用同余定理的明确形式及证明可见
+[Stein 作者书稿，Theorem 9.18](https://wstein.org/books/modform/modform/newforms.html#sturm-s-theorem)；
+原定理为 J. Sturm, “On the congruence of modular forms,”
+*Number Theory*, LNM 1240 (1987), pp. 275–280。
+也可参照
+[Agashe–Stein 作者稿§2，Theorem 2.1](https://wstein.org/papers/generating_hecke/generating_hecke/node3.html)。
+这里对层级 $4N$ 的整形式使用该定理，不把原 Cartan 曲线
+一个尖点的有限 jet 直接称作此 Sturm 检验。
+
+### 8.3. 删除47倍指标并得到整张成
+
+原空间中每个 newform 的**准确 conductor**均为 $47^2$，
+且 nebentypus 平凡。新形式的局部 Euler 因子定理给
+$a_{47}=0$，即
+$$
+U_{47}f_\sigma=0,\qquad a_{47r}(f_\sigma)=0
+\quad(r\ge1).
+\tag{1096.23}
+$$
+这正是 $p^2\mid N$ 的 trivial-character newform 情形；
+上述 Agashe–Stein 作者稿§2也明确列出这个标准公式。
+它不是关于 level $47^2$ 全空间中 oldforms 的断言。
+所以假设$\ell$在 (1096.18) 右端的像上为零，
+已足以使 (1096.19) 的所有奇数 $r\le2255$ 系数为零：
+被略去的47倍系数由 (1096.23) 自动为零。
+
+由§8.2，$\ell(T_r)=0$ 对所有奇数$r$成立。
+另一方面，每个 $H_{\rm odd}^j$ 都是奇指标、prime-to47
+Hecke 算子的整数线性组合，见§3。因此
+$$
+\ell(H_{\rm odd}^j)=0\qquad(0\le j\le72).
+\tag{1096.24}
+$$
+而 (1096.8) 模$q$仍为基，故$\ell=0$。
+
+这证明有限集合 $\{T_n:n\in\mathcal I\}$ 的像张成
+$\mathcal T/q\mathcal T$。设$L$为这些算子的
+$\mathbf Z_q$-线性张成；$\mathcal T/L$是有限生成
+$\mathbf Z_q$模，且其模$q$商为零，Nakayama 引理给$L=\mathcal T$。
+从这些原算子中选出73个模$q$线性无关者，所得行列式为$q$单位，
+故它们本身就是整基。这完成 (1096.18)。
+
+### 8.4. 对原高度读取的准确含义
+
+对任何这样选出的73个指标，
+$\Gamma(T_{n_i})$ 都由 (1096.13) 的同一个原 CM 除子对读取。
+它们的全部奇度目标仍由§4保证在4513处分盘。
+与 $H_{\rm odd}^{72}$ 展开的巨大指标相比，
+(1096.18) 允许只计算 $n_i\le2255$ 的实际 Hecke 对应。
+
+这并不允许把 $T_{n_iq^2}$ 替成仅循环$q^2$核：
+在非$q$局部交数中，$B_q^2$仍按完整三项展开，
+一般复合$n_i$的 Hecke 核重数也照原定义保留。
+本节没有执行基搜索、没有读取新的高度值，也没有断言
+(1096.16) 的$\kappa$为单位。
