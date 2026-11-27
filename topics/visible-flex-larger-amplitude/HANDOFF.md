@@ -4,7 +4,7 @@
 
 ## 规则与完整目标
 
-最近规则核查：2026-11-27 01:05:02 UTC，真实pull/rebase至 `d405e84c16100d0495f6264f0496220de4d8374b`，双README相对`6bc00bee3e4a9733fd3b835803495c5ae8703410`无差异，继续遵守全部规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
+最近规则核查：2026-11-27 01:07:49 UTC，真实pull/rebase至 `49b8faf6ee7b762b855a5a6c16e9539ef3b7a0d5`，双README相对`d405e84c16100d0495f6264f0496220de4d8374b`无差异，继续遵守全部规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
 
 科学计算仅本公开仓库Actions；执行偏差见[早前记录](notes/2026-11-20-public-actions-execution-correction.md)及[四次大JSON整读纠正](notes/2026-11-26-large-file-connector-read-correction.md)。root唯一分支写者；结论即普通推，NFF立即rebase循环，不强推。每次pull核双README差异并遵新规，至少每小时，记commit。raw只scratch/runner，不入Git/Release/artifact；保完整小源/参数/run/SHA/紧凑结论。题≤200MB、单文件<5MB、MD<100KB、H<10KB、open<30KB。令牌仅瞬时CLI。终端失联与恢复/云API普通快进记录保7774固定H；旧scratch迁移未确认，不冒恢复。
 
@@ -31,7 +31,7 @@
 
 [R700](results/R700-integral-so3-full-sixjet-control.md)限固定M/正rho，旧QR49a1限234ac/7f未跑。[新场全时连续几何合同](notes/2026-11-27-new-envelope-full-phase-continuous-geometry-contract.md)明确原hΔ全六jet、同D+/K/支撑/握持共读：R248仅活动像归约，固定R661帽需同A的R650或全mixed pair；旧6077无平面证明不能迁。有限E/帽标量不冒完整装配或连续证书，全部真实费用/精化仍欠。
 
-[R710](results/R710-supported-unit-seed-complete-angular-jet-error-bounds.md)/[R713](results/R713-exact-smooth-triangle-moments-and-actual-fees.md)及[完整581fb总均值producer](notes/2026-11-26-accurate-supported-seed-total-mean-fee-producer.md)条件费用链已刊；[centered两完整fee源](notes/2026-11-26-R715-centred-seed-fee-source-adapters.md)ded2/7596未跑，[cached完整fee](notes/2026-11-26-R714-R715-cached-centred-seed-fee-source-adapters.md)a7f1/62cb严格绑定3803。实际全角/积分尾/三角/舍入/节点/normal与六jet费用未付，不把未跑plain当门。
+[R710](results/R710-supported-unit-seed-complete-angular-jet-error-bounds.md)/[R713](results/R713-exact-smooth-triangle-moments-and-actual-fees.md)完整条件费用链及581fb/ded2/7596/a7f1/62cb源保已刊记录。[新E完整费用与全批调度](notes/2026-11-27-material-envelope-complete-seed-fee-adapters-and-all-batch-schedule.md)285994/ce686/3feff/ea455已独立纯再生，按118b完整参数加入07纯读后，覆盖每一实际mean批/全角字；实际失败三字段保真。600/60自然预算非完成；尚无费用真返，节点/连续角/normal/rawΔ/六jet费用仍欠，未跑plain不作门。
 
 [R711](results/R711-smooth-triangle-central-profile-and-geometric-comparison.md)/[R712](results/R712-full-positive-radius-central-second-derivative-comparison.md)给准确十二片profile、全正半径中央Fss低于旧一半；[十源完整入口](notes/2026-11-26-R711-smooth-triangle-full-normal-entry.md)192正权/全(0,π)/全部原normal loop保，十历史ready未准入，须入旧seed及后来所有真实报告，不迁K/reach或旧末场。
 
