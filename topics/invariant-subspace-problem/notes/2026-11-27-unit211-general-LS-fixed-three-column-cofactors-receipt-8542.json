@@ -1,0 +1,641 @@
+{
+  "schema": "isp-general-ls-fixed-three-column-original-cofactors-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "run_id": 45980012322,
+  "job_id": 140441242829,
+  "execution": {
+    "elapsed_seconds": 26.21408948,
+    "max_child_rss_kib": 79276,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "696b5220ab1d3663d45c6b961ec4a97eafa86d55",
+        "before": "696b5220ab1d3663d45c6b961ec4a97eafa86d55",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-27T10:11:51.472678+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "45980012322",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "696b5220ab1d3663d45c6b961ec4a97eafa86d55",
+    "source_exit_code": 0,
+    "source_git_blob": "7bdd12309a5a655301340f1fb52e2141bfc389ac",
+    "source_sha256": "0c80263f4207f021f5e75d0a56704eb1d50d917b711cd96c2ccbfebdde6326e2",
+    "stdout_bytes": 14876,
+    "stdout_sha256": "90ade86da990ff182b9ce931cfd8794edfd74b2c44d460449758068375f94e9e",
+    "stop_reason": null
+  },
+  "records": [
+    {
+      "stage": "new_general_LS_original_three_column_relation",
+      "name": "remaining_qyt",
+      "origin": "qyt+gH*rxy, with its actual full six-original trace",
+      "normalization": {
+        "degrees_u_Q_ell_t": [
+          7,
+          6,
+          5,
+          0
+        ],
+        "terms": 34,
+        "bytes": 593,
+        "sha256": "84ffc0b1e12043c8bc04f9c16c2527daed020019971b69f5ea2522081531f9ea",
+        "exactExpression": "u^7*Q^3*ell - u^7*Q^2*ell - 2*u^6*Q^3*ell^2 - 2*u^6*Q^3*ell + 2*u^6*Q^2*ell^2 + 2*u^6*Q^2*ell + u^5*Q^4*ell^3 + 1/2*u^5*Q^4*ell - u^5*Q^3*ell^3 + 4*u^5*Q^3*ell^2 + 1/2*u^5*Q^3*ell - 4*u^5*Q^2*ell^2 - u^5*Q^2*ell - 2*u^4*Q^4*ell^3 - u^4*Q^4*ell^2 - 1/2*u^4*Q^4*ell + 2*u^4*Q^3*ell^3 - u^4*Q^3*ell^2 + 1/2*u^4*Q^3*ell + 2*u^4*Q^2*ell^2 + 1/4*u^3*Q^5*ell^3 + 1/4*u^3*Q^5*ell^2 + 3/4*u^3*Q^4*ell^3 + 3/4*u^3*Q^4*ell^2 - u^3*Q^3*ell^3 - u^3*Q^3*ell^2 + 1/2*u^2*Q^5*ell^4 - u^2*Q^5*ell^3 - 1/2*u^2*Q^4*ell^4 + u^2*Q^4*ell^3 - 1/4*u*Q^6*ell^5 + 1/4*u*Q^6*ell^4 + 1/4*u*Q^5*ell^5 - 1/4*u*Q^5*ell^4 / 1"
+      },
+      "originalLocalQuotients": [
+        {
+          "degrees_u_Q_ell_t": null,
+          "terms": 0,
+          "bytes": 5,
+          "sha256": "7de6ffb7b460021bdc93b6ecb5379a466aae675e3ef15536f7770343c2c12bd1",
+          "exactExpression": "0 / 1"
+        },
+        {
+          "degrees_u_Q_ell_t": null,
+          "terms": 0,
+          "bytes": 5,
+          "sha256": "7de6ffb7b460021bdc93b6ecb5379a466aae675e3ef15536f7770343c2c12bd1",
+          "exactExpression": "0 / 1"
+        },
+        {
+          "degrees_u_Q_ell_t": null,
+          "terms": 0,
+          "bytes": 5,
+          "sha256": "7de6ffb7b460021bdc93b6ecb5379a466aae675e3ef15536f7770343c2c12bd1",
+          "exactExpression": "0 / 1"
+        }
+      ],
+      "coefficients": [
+        {
+          "degrees_u_Q_ell_t": [
+            9,
+            7,
+            5,
+            2
+          ],
+          "terms": 277,
+          "bytes": 5210,
+          "sha256": "7b33b71f36b731d8babb9630385731c45276ef9f98b11cbed08c4a2a0a0422ef"
+        },
+        {
+          "degrees_u_Q_ell_t": [
+            8,
+            6,
+            5,
+            1
+          ],
+          "terms": 147,
+          "bytes": 2516,
+          "sha256": "058591e16f74aa4b71755ee901e07950f56129991091eae86e9b371ca7651137"
+        },
+        {
+          "degrees_u_Q_ell_t": [
+            8,
+            7,
+            5,
+            1
+          ],
+          "terms": 177,
+          "bytes": 3036,
+          "sha256": "1635dc6b6013c5fbf029fc342799d46ddc327171e7995e7253a5df2d5e7bfa20"
+        }
+      ],
+      "paidRemoved": [],
+      "completeThreeRuleDifferenceIdentityVerified": true,
+      "publishedSixOriginalTraceTheoremUsed": true,
+      "noUnpaidInverse": true,
+      "seconds": 0.9232294919999902
+    },
+    {
+      "stage": "new_general_LS_original_three_column_relation",
+      "name": "x_remaining_qyt",
+      "origin": "x times the preceding complete original row",
+      "normalization": {
+        "degrees_u_Q_ell_t": [
+          7,
+          6,
+          5,
+          0
+        ],
+        "terms": 34,
+        "bytes": 593,
+        "sha256": "84ffc0b1e12043c8bc04f9c16c2527daed020019971b69f5ea2522081531f9ea",
+        "exactExpression": "u^7*Q^3*ell - u^7*Q^2*ell - 2*u^6*Q^3*ell^2 - 2*u^6*Q^3*ell + 2*u^6*Q^2*ell^2 + 2*u^6*Q^2*ell + u^5*Q^4*ell^3 + 1/2*u^5*Q^4*ell - u^5*Q^3*ell^3 + 4*u^5*Q^3*ell^2 + 1/2*u^5*Q^3*ell - 4*u^5*Q^2*ell^2 - u^5*Q^2*ell - 2*u^4*Q^4*ell^3 - u^4*Q^4*ell^2 - 1/2*u^4*Q^4*ell + 2*u^4*Q^3*ell^3 - u^4*Q^3*ell^2 + 1/2*u^4*Q^3*ell + 2*u^4*Q^2*ell^2 + 1/4*u^3*Q^5*ell^3 + 1/4*u^3*Q^5*ell^2 + 3/4*u^3*Q^4*ell^3 + 3/4*u^3*Q^4*ell^2 - u^3*Q^3*ell^3 - u^3*Q^3*ell^2 + 1/2*u^2*Q^5*ell^4 - u^2*Q^5*ell^3 - 1/2*u^2*Q^4*ell^4 + u^2*Q^4*ell^3 - 1/4*u*Q^6*ell^5 + 1/4*u*Q^6*ell^4 + 1/4*u*Q^5*ell^5 - 1/4*u*Q^5*ell^4 / 1"
+      },
+      "originalLocalQuotients": [
+        {
+          "degrees_u_Q_ell_t": [
+            8,
+            6,
+            5,
+            1
+          ],
+          "terms": 147,
+          "bytes": 2516,
+          "sha256": "058591e16f74aa4b71755ee901e07950f56129991091eae86e9b371ca7651137"
+        },
+        {
+          "degrees_u_Q_ell_t": [
+            8,
+            7,
+            5,
+            1
+          ],
+          "terms": 177,
+          "bytes": 3036,
+          "sha256": "1635dc6b6013c5fbf029fc342799d46ddc327171e7995e7253a5df2d5e7bfa20"
+        },
+        {
+          "degrees_u_Q_ell_t": null,
+          "terms": 0,
+          "bytes": 5,
+          "sha256": "7de6ffb7b460021bdc93b6ecb5379a466aae675e3ef15536f7770343c2c12bd1",
+          "exactExpression": "0 / 1"
+        }
+      ],
+      "coefficients": [
+        {
+          "degrees_u_Q_ell_t": [
+            18,
+            14,
+            11,
+            3
+          ],
+          "terms": 2145,
+          "bytes": 50488,
+          "sha256": "ef8e6802236212b9ecb780ff4ba3e26b46ca6f1e99e9919e40f1248c9847500f"
+        },
+        {
+          "degrees_u_Q_ell_t": [
+            17,
+            13,
+            11,
+            2
+          ],
+          "terms": 1423,
+          "bytes": 31574,
+          "sha256": "8f213d5d7a5fa856263a19bf11c217a15d4c0e4203101146a5dfe6d0d65694db"
+        },
+        {
+          "degrees_u_Q_ell_t": [
+            17,
+            14,
+            11,
+            2
+          ],
+          "terms": 1498,
+          "bytes": 33303,
+          "sha256": "dca668097f9a8102098a8b0f5f42d5bafadb6ecb7e71a6a5b4f413fa35042960"
+        }
+      ],
+      "paidRemoved": [],
+      "completeThreeRuleDifferenceIdentityVerified": true,
+      "publishedSixOriginalTraceTheoremUsed": true,
+      "noUnpaidInverse": true,
+      "seconds": 5.198758802
+    },
+    {
+      "stage": "new_general_LS_original_three_column_relation",
+      "name": "y_remaining_qyt",
+      "origin": "y times the preceding complete original row",
+      "normalization": {
+        "degrees_u_Q_ell_t": [
+          6,
+          6,
+          5,
+          0
+        ],
+        "terms": 34,
+        "bytes": 577,
+        "sha256": "47366cd1dd1c4e4068a855b075e68fba65c64c56bd20b9a60144a101e0af0ba4",
+        "exactExpression": "u^6*Q^3*ell - u^6*Q^2*ell - 2*u^5*Q^3*ell^2 - 2*u^5*Q^3*ell + 2*u^5*Q^2*ell^2 + 2*u^5*Q^2*ell + u^4*Q^4*ell^3 + 1/2*u^4*Q^4*ell - u^4*Q^3*ell^3 + 4*u^4*Q^3*ell^2 + 1/2*u^4*Q^3*ell - 4*u^4*Q^2*ell^2 - u^4*Q^2*ell - 2*u^3*Q^4*ell^3 - u^3*Q^4*ell^2 - 1/2*u^3*Q^4*ell + 2*u^3*Q^3*ell^3 - u^3*Q^3*ell^2 + 1/2*u^3*Q^3*ell + 2*u^3*Q^2*ell^2 + 1/4*u^2*Q^5*ell^3 + 1/4*u^2*Q^5*ell^2 + 3/4*u^2*Q^4*ell^3 + 3/4*u^2*Q^4*ell^2 - u^2*Q^3*ell^3 - u^2*Q^3*ell^2 + 1/2*u*Q^5*ell^4 - u*Q^5*ell^3 - 1/2*u*Q^4*ell^4 + u*Q^4*ell^3 - 1/4*Q^6*ell^5 + 1/4*Q^6*ell^4 + 1/4*Q^5*ell^5 - 1/4*Q^5*ell^4 / 1"
+      },
+      "originalLocalQuotients": [
+        {
+          "degrees_u_Q_ell_t": null,
+          "terms": 0,
+          "bytes": 5,
+          "sha256": "7de6ffb7b460021bdc93b6ecb5379a466aae675e3ef15536f7770343c2c12bd1",
+          "exactExpression": "0 / 1"
+        },
+        {
+          "degrees_u_Q_ell_t": [
+            8,
+            6,
+            5,
+            1
+          ],
+          "terms": 147,
+          "bytes": 2516,
+          "sha256": "058591e16f74aa4b71755ee901e07950f56129991091eae86e9b371ca7651137"
+        },
+        {
+          "degrees_u_Q_ell_t": [
+            8,
+            7,
+            5,
+            1
+          ],
+          "terms": 177,
+          "bytes": 3036,
+          "sha256": "1635dc6b6013c5fbf029fc342799d46ddc327171e7995e7253a5df2d5e7bfa20"
+        }
+      ],
+      "coefficients": [
+        {
+          "degrees_u_Q_ell_t": [
+            17,
+            13,
+            10,
+            3
+          ],
+          "terms": 1952,
+          "bytes": 44769,
+          "sha256": "c249a7017554a50edc57ad49a63e8d8a5b711f06ba28ddd84348cfa7337ca5ca"
+        },
+        {
+          "degrees_u_Q_ell_t": [
+            16,
+            12,
+            10,
+            2
+          ],
+          "terms": 1255,
+          "bytes": 27066,
+          "sha256": "4bfe979532eb8061372d726faf10da60ba11dfb773efe8f0db331c1b175ea3ed"
+        },
+        {
+          "degrees_u_Q_ell_t": [
+            16,
+            13,
+            10,
+            2
+          ],
+          "terms": 1442,
+          "bytes": 31419,
+          "sha256": "1cb69efa8f57e0ec433737d6993b9a74c51fc805c310e1ce67f8fe2cf3b758fa"
+        }
+      ],
+      "paidRemoved": [],
+      "completeThreeRuleDifferenceIdentityVerified": true,
+      "publishedSixOriginalTraceTheoremUsed": true,
+      "noUnpaidInverse": true,
+      "seconds": 8.217331442999992
+    },
+    {
+      "stage": "new_general_LS_original_three_column_relation",
+      "name": "ambiguity_x2_y_xy_x",
+      "origin": "y*rxx-x*rxy in the same three original rules",
+      "normalization": {
+        "degrees_u_Q_ell_t": [
+          14,
+          13,
+          10,
+          0
+        ],
+        "terms": 231,
+        "bytes": 4570,
+        "sha256": "869f0fc2cb23483e6766464c83b73ad22d9f8dc325f3bc70638fed5c0fd4282a"
+      },
+      "originalLocalQuotients": [
+        {
+          "degrees_u_Q_ell_t": [
+            3,
+            2,
+            2,
+            1
+          ],
+          "terms": 9,
+          "bytes": 144,
+          "sha256": "07ffaeed5caaa0e807441d8a98d66080984904b0e9612b032518e2db7915efb7",
+          "exactExpression": "-1/2*u^3*t + u^2*Q*ell + u^2*ell*t - 2*u^2*ell + u^2 - 1/2*u*Q*ell^2*t + u*Q*ell^2 - 3/2*u*Q*ell + 1/2*Q^2*ell^2 / u^2*Q - 2*u*Q*ell + Q^2*ell^2"
+        },
+        {
+          "degrees_u_Q_ell_t": [
+            9,
+            7,
+            6,
+            1
+          ],
+          "terms": 141,
+          "bytes": 3111,
+          "sha256": "727b803a92431c9b818eacb06186244de4991aed6d42a855ac08d637ed75e66b"
+        },
+        {
+          "degrees_u_Q_ell_t": [
+            10,
+            8,
+            6,
+            1
+          ],
+          "terms": 165,
+          "bytes": 3575,
+          "sha256": "422cda390f5caeef29602d16c11ca47d0eb4f732a4717927231820ee30776639"
+        }
+      ],
+      "coefficients": [
+        {
+          "degrees_u_Q_ell_t": [
+            19,
+            15,
+            11,
+            3
+          ],
+          "terms": 2359,
+          "bytes": 56834,
+          "sha256": "b2a94951442032d957e665fb9f06a0524d564fe8599f954cd2319d3dbf0cda22"
+        },
+        {
+          "degrees_u_Q_ell_t": [
+            18,
+            14,
+            11,
+            2
+          ],
+          "terms": 1551,
+          "bytes": 35204,
+          "sha256": "2b345fa2e34a1a495638a756750bb565e89d198780a16f0e8e6aff92a3557754"
+        },
+        {
+          "degrees_u_Q_ell_t": [
+            18,
+            15,
+            11,
+            2
+          ],
+          "terms": 1709,
+          "bytes": 38940,
+          "sha256": "917aca3facffd5362a0e8cf9ab08595357f9bee9a0024e0f174763c6beae1664"
+        }
+      ],
+      "paidRemoved": [],
+      "completeThreeRuleDifferenceIdentityVerified": true,
+      "publishedSixOriginalTraceTheoremUsed": true,
+      "noUnpaidInverse": true,
+      "seconds": 14.551721822999994
+    },
+    {
+      "stage": "new_general_LS_original_three_column_relation",
+      "name": "ambiguity_xy_y_y2_x",
+      "origin": "y*rxy-x*ryy in the same three original rules",
+      "normalization": {
+        "degrees_u_Q_ell_t": [
+          13,
+          13,
+          10,
+          0
+        ],
+        "terms": 231,
+        "bytes": 4521,
+        "sha256": "4998682a1dda8ef01f0d72f67c820a9a4c8a443d08c5ce35c52b18dc70621864"
+      },
+      "originalLocalQuotients": [
+        {
+          "degrees_u_Q_ell_t": [
+            8,
+            5,
+            5,
+            1
+          ],
+          "terms": 101,
+          "bytes": 2252,
+          "sha256": "00b1685b1dfb62f169f810c7272ab53a16400c08b53755ba5ddb350129843faa"
+        },
+        {
+          "degrees_u_Q_ell_t": [
+            8,
+            6,
+            5,
+            1
+          ],
+          "terms": 124,
+          "bytes": 2701,
+          "sha256": "3c7fcfd32f8b4f0b2b626c3ed247903c7b4d550cc0175accb558ada08875ecb0"
+        },
+        {
+          "degrees_u_Q_ell_t": [
+            3,
+            2,
+            2,
+            1
+          ],
+          "terms": 11,
+          "bytes": 160,
+          "sha256": "3da014f844f26d9a81a2324811ff55b7e71bf9237edd9b468bf1becf66a8a2e9",
+          "exactExpression": "-u^3*Q - 1/2*u^3*t + 2*u^3 + u^2*ell*t - 2*u^2*ell - u^2 - 1/2*u*Q^2*ell - 1/2*u*Q*ell^2*t + u*Q*ell^2 + 5/2*u*Q*ell - Q^2*ell^2 / u^2*Q - 2*u*Q*ell + Q^2*ell^2"
+        }
+      ],
+      "coefficients": [
+        {
+          "degrees_u_Q_ell_t": [
+            18,
+            14,
+            11,
+            3
+          ],
+          "terms": 2155,
+          "bytes": 51475,
+          "sha256": "735dbe939cd8691a9e670faa1400016e3c1d458a302d0232f62559be26c5927b"
+        },
+        {
+          "degrees_u_Q_ell_t": [
+            17,
+            13,
+            11,
+            2
+          ],
+          "terms": 1420,
+          "bytes": 31875,
+          "sha256": "0904631dcdb5adb4575f1fc8c84bc44669532fe4cae7afd550d8da06616fe187"
+        },
+        {
+          "degrees_u_Q_ell_t": [
+            17,
+            14,
+            11,
+            2
+          ],
+          "terms": 1551,
+          "bytes": 34967,
+          "sha256": "536799990601699c71fdc459b39a8cd90ecafa9a9194b59cac49602bfef2f57f"
+        }
+      ],
+      "paidRemoved": [],
+      "completeThreeRuleDifferenceIdentityVerified": true,
+      "publishedSixOriginalTraceTheoremUsed": true,
+      "noUnpaidInverse": true,
+      "seconds": 23.227851293
+    },
+    {
+      "stage": "new_general_LS_fixed_three_column_original_constant_cofactor",
+      "rows": [
+        "remaining_qyt",
+        "x_remaining_qyt",
+        "y_remaining_qyt"
+      ],
+      "remaining": {
+        "degrees_u_Q_ell_t": [
+          24,
+          19,
+          16,
+          6
+        ],
+        "terms": 12809,
+        "bytes": 347510,
+        "sha256": "ae4307295ff58a2909005edec7732eeb063cd8e10940f74b8ef18e7aaf1603d0"
+      },
+      "tDegree": 6,
+      "paidRemoved": [
+        [
+          "u",
+          4
+        ],
+        [
+          "Q",
+          4
+        ],
+        [
+          "Q_minus_one",
+          2
+        ],
+        [
+          "original_bc_M",
+          2
+        ],
+        [
+          "proved_general_ell_nonzero",
+          2
+        ],
+        [
+          "proved_whole_general_T0",
+          2
+        ],
+        [
+          "proved_whole_general_J_minus_Q",
+          2
+        ]
+      ],
+      "leadingRemaining": {
+        "degrees_u_Q_ell_t": [
+          18,
+          12,
+          10,
+          0
+        ],
+        "terms": 678,
+        "bytes": 14743,
+        "sha256": "3b3f9e597a21bd1a2d3940cb1ee3d0230540e82e938e2534f61eae8edc68d56e"
+      },
+      "leadingPaidRemoved": [
+        [
+          "original_bc_M",
+          3
+        ]
+      ],
+      "leadingWasNotInverted": true,
+      "allThreeConstantCofactorColumnsMultipliedBack": true,
+      "samePointOriginalTraceCompositionVerified": true,
+      "exactZero": false,
+      "constantPaidUnit": false,
+      "seconds": 24.590149660999998
+    },
+    {
+      "stage": "new_general_LS_fixed_three_column_original_constant_cofactor",
+      "rows": [
+        "remaining_qyt",
+        "ambiguity_x2_y_xy_x",
+        "ambiguity_xy_y_y2_x"
+      ],
+      "remaining": {
+        "degrees_u_Q_ell_t": [
+          26,
+          21,
+          17,
+          6
+        ],
+        "terms": 14791,
+        "bytes": 418320,
+        "sha256": "74e657058eaa9e281f6a43d527c63262cd16b304ff99ca034ee63ae435459de7"
+      },
+      "tDegree": 6,
+      "paidRemoved": [
+        [
+          "u",
+          4
+        ],
+        [
+          "Q",
+          4
+        ],
+        [
+          "Q_minus_one",
+          2
+        ],
+        [
+          "original_bc_M",
+          2
+        ],
+        [
+          "proved_general_ell_nonzero",
+          2
+        ],
+        [
+          "proved_whole_general_T0",
+          2
+        ],
+        [
+          "proved_whole_general_J_minus_Q",
+          2
+        ]
+      ],
+      "leadingRemaining": {
+        "degrees_u_Q_ell_t": [
+          20,
+          14,
+          11,
+          0
+        ],
+        "terms": 827,
+        "bytes": 19345,
+        "sha256": "cdbda468275dad3559f73dd9c6ded9426aa8760daa3684c9d8da8646f072909f"
+      },
+      "leadingPaidRemoved": [
+        [
+          "original_bc_M",
+          3
+        ]
+      ],
+      "leadingWasNotInverted": true,
+      "allThreeConstantCofactorColumnsMultipliedBack": true,
+      "samePointOriginalTraceCompositionVerified": true,
+      "exactZero": false,
+      "constantPaidUnit": false,
+      "seconds": 26.138990747999998
+    },
+    {
+      "stage": "new_general_LS_quadratic_module_three_column_cofactors_complete",
+      "sourceSHA256": "0c80263f4207f021f5e75d0a56704eb1d50d917b711cd96c2ccbfebdde6326e2",
+      "numberOfOriginalRelations": 5,
+      "numberOfFixedCofactors": 2,
+      "tNeverInverted": true,
+      "allNewLeadingZeroFacesRetained": true,
+      "fullOriginalNSPSAndDStillRequired": true,
+      "noFullFiniteSystemExclusionClaim": true,
+      "noOldAtlasOrCompletedSixTraceReplay": true,
+      "peakRssKiB": 79276,
+      "ordinaryISPClaim": false,
+      "seconds": 26.13922121799999
+    }
+  ],
+  "scope": {
+    "generic_leading_open_module_generators_at_most": 18,
+    "leading_zero_faces_not_removed": true,
+    "ordinary_ISP_claim": false
+  }
+}
