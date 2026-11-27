@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [Phi主图整个−1/4权纤维排除](results/R150-appendix-unit211-Phi-zero-main-minus-quarter-entire-original-fiber-exclusion.md)：同真实lambda半，三完整原均值的显式一次组合迫D=0，保全部T/z，无额外头逆。
+
 - [六位内部half及出生一三条边全闭](results/R271-appendix-six-site-internal-half-complete-ordered-difference-certificate.md)：保存f4/f5完整排序差全系数为正并付重复权严格性，回原同余得内部half，R275低rho=1/2；上六位一般S1/S2仍开。
 
 - [全W共同F恢复后的十二完整原三列行](results/R150-appendix-unit211-W-global-F-recovery-twelve-original-three-column-rows.md)：保qF(Fp)、个别NP与完整NV全原迹；两新参数必要式lambda9/13，所有头零仍开，继续更低原S一次组合。

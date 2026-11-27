@@ -8,9 +8,9 @@
 - **最近实际 pull / 已读规则提交：** 6af6771e2ae53468bd59fa5f396077b3d4efb675（2026-11-27 19:24:23 UTC，Actions run46056431730实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-8542/46056431730-1.json。
 - 私库QUEUE本会话进行中已实际核验；最近真实pull为2026-11-27 19:24:22 UTC/0121a70f0876039189d259240befd4c4735f5c97，根README diff无变。公私均部分克隆blob:none。
 - **终端再次断开：** 约07:20 UTC起本地执行器不可用。按根规矩8/13小文本准备、公开Actions真实pull/rebase/push，非快进立即循环；旧故障与准确源保[说明](notes/2026-11-27-executor-outage-and-unpublished-small-input-checkpoint-8542.md)，未冒称本地恢复。
-- **终端断开后远端已读：** `964db53c7389bc41dfdfde5bb8a6ccbfedcfa21a`（2026-11-27 19:23:58 UTC）；只读检查不冒称实际pull。
+- **终端断开后远端已读：** `aa2e10f01c92e0df7a9882d3e21dafd5191ea224`（2026-11-27 19:27:22 UTC）；只读检查不冒称实际pull。
 - H<10KB、MD<100KB、open尽量<30KB、题<200MB；只留源/参数/SHA/小回执，不留可重算大输出，不写根LOG。课题外workflow改动已记本题log。
-- 所有被压缩的精确结论/来源/失败身份保[最新完整H](notes/2026-11-28-handoff-before-six-site-internal-half-8542.md)、[open](open.md)、[结果索引](results.md)及归档链；省略不算关闭，已登记不重做。
+- 所有被压缩的精确结论/来源/失败身份保[最新完整H](notes/2026-11-28-handoff-before-Phi-minus-quarter-entire-fiber-8542.md)、[open](open.md)、[结果索引](results.md)及归档链；省略不算关闭，已登记不重做。
 
 ## R150 总图与当前一般支
 
@@ -34,7 +34,7 @@
 - **一般ell=0全闭，全局付ell。** 全三头曲线、1146次QQ覆盖及404余因子/u2/u半均原返回；完整来源保总定理与归档，不加W/Q边界、不重放。
 - **旧D≠0图T0=0全闭，可付T0，不外推h=k。** F4/J4整原返回后QQ4原48×35返1（cd05afd9，0.625秒/exit0），不重放。一般头[0,2,3,4]=2u⁴Q(Q−1)³M²ell·T0(J−Q)。
 - **h=k整个Delta0/J2/P25,3/G2/C4原零图全闭。** P3的66完整QQ返回保正文。新5c771真33.018841050秒/54536KiB/0：已存两E在整G2域u-gcd=1、整C4域=(u−1)^4，全部原Bezout/非约化叶保；后备Q门实际未用。余仅E177/18∩E182/19，基代数dim≤39195；原W的Q6首项全付，六次首一环境再局部化/取商dim≤235170，同Delta非零唯一恢复f,z，故同(λ,u,Q,f,z)≤235170。不是其它未列值坐标界或碰撞排空；全部原Q/个别N/P仍须返回。已成投影/P3/头门冻结，h1/k1及5b2原界/失败保档。
-- **旧D≠0Phi例外有序权图全闭，主rho头≤8权。** 例外仅ell3/2,u=(rho+3)/2,Q=1−rho²及BC交换，de686与59d/ffbdc入口冻结。新c3a074真0.503922414秒/51576KiB/0：主u1+v/Q1−v/ell1+2v，保存P6/P9的原15阶QQ结式685，保整H7零后首一543；新原35阶模1363与其完整Bézout gcd一次，局部整Gauss付H7补图≤1，加H7≤7即≤8不同v/(u,Q,ell)，不数有序BC或lambda/T/z。H7不能借只付补图的P6/P9，全部原值纤维仍开。一般H1的b0真F6逆/SF316给≤1264(u,Q)，其全部特殊纤维/b非零、C87/55/H0/个别NP仍开；7dfa/bb35/a40/ed0/879冻结。
+- **旧D≠0Phi例外有序权图全闭，主rho头≤8权。** 例外仅ell3/2,u=(rho+3)/2,Q=1−rho²及BC交换，de686与59d/ffbdc入口冻结。新c3a074真0.503922414秒/51576KiB/0：主u1+v/Q1−v/ell1+2v，保存P6/P9的原15阶QQ结式685，保整H7零后首一543；新原35阶模1363与其完整Bézout gcd一次，局部整Gauss付H7补图≤1，加H7≤7即≤8不同v/(u,Q,ell)，不数有序BC或lambda/T/z。新b99785真75ms QQ：d751保留的v−1/4/lambda半同点，完整原R/W/O三个线性乘子返8890621787500D，整−1/4权纤维已闭；全H7补图合成另推。H7不能借只付补图的P6/P9，其整原值纤维仍开。一般H1的b0真F6逆/SF316给≤1264(u,Q)，其全部特殊纤维/b非零、C87/55/H0/个别NP仍开；7dfa/bb35/a40/ed0/879冻结。
 
 ### rankH3原ess6
 

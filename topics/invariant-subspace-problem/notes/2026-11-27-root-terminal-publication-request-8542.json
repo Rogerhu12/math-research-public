@@ -1,21 +1,15 @@
 {
-  "message": "ISP: prove the full six-site internal half edge by complete ordered-difference coefficients",
-  "parentCommit": "964db53c7389bc41dfdfde5bb8a6ccbfedcfa21a",
+  "message": "ISP: exclude the entire main Phi minus-quarter weight fiber by an original D identity",
+  "parentCommit": "aa2e10f01c92e0df7a9882d3e21dafd5191ea224",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R271-appendix-six-site-internal-half-complete-ordered-difference-certificate.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-six-bit-internal-half-ordered-difference-positive-8542.mjs",
-    "topics/invariant-subspace-problem/notes/2026-11-28-six-bit-internal-half-ordered-difference-positive-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-main-minus-quarter-lambda-half-return-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-main-minus-quarter-lambda-half-execution-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-main-minus-quarter-lambda-half-exact-input-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-collision-remaining-E-fixed-u-original-QQ-projection-8542.py",
-    ".github/workflows/invariant-subspace-8542-collision-e-fixed-u-qq.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-six-site-internal-half-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-six-site-internal-half-8542.md",
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-Phi-zero-main-minus-quarter-entire-original-fiber-exclusion.md",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-main-minus-quarter-lambda-half-complete-original-identity-8542.js",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-main-minus-quarter-lambda-half-original-D-execution-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-Phi-minus-quarter-entire-fiber-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -24,7 +18,5 @@
     ".github/workflows/invariant-subspace-8542-root-terminal-publication.yml",
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
-  "dispatchWorkflows": [
-    "invariant-subspace-8542-collision-e-fixed-u-qq.yml"
-  ]
+  "dispatchWorkflows": []
 }
