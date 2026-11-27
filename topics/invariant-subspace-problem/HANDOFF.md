@@ -8,9 +8,9 @@
 - **最近实际 pull / 已读规则提交：** 8d591182aabd6c52fc99e0ae0e7308f2b6cfe9ab（2026-11-27 14:38:21 UTC，Actions run46017683352实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-8542/46017683352-1.json。
 - 私库QUEUE本会话进行中已实际核验；最近真实pull为2026-11-27 14:38:20 UTC/921ffcc0a9d4bcbe2bd9e7677668101b9848ea69，根README diff无变。公私均部分克隆blob:none。
 - **终端再次断开：** 约07:20 UTC起本地执行器不可用。按根规矩8/13小文本准备、公开Actions真实pull/rebase/push，非快进立即循环；旧故障与准确源保[说明](notes/2026-11-27-executor-outage-and-unpublished-small-input-checkpoint-8542.md)，未冒称本地恢复。
-- **终端断开后远端已读：** `8d591182aabd6c52fc99e0ae0e7308f2b6cfe9ab`（2026-11-27 14:37:56 UTC）；只读检查不冒称实际pull。
+- **终端断开后远端已读：** `a20c1446867982b8c85c89a4147c712d7160ac15`（2026-11-27 14:40:14 UTC）；只读检查不冒称实际pull。
 - H<10KB、MD<100KB、open尽量<30KB、题<200MB；只留源/参数/SHA/小回执，不留可重算大输出，不写根LOG。课题外workflow改动已记本题log。
-- 所有被压缩的精确结论/来源/失败身份保[最新完整H](notes/2026-11-27-handoff-before-W-five-low-original-combinations-8542.md)、[open](open.md)、[结果索引](results.md)及归档链；省略不算关闭，已登记不重做。
+- 所有被压缩的精确结论/来源/失败身份保[最新完整H](notes/2026-11-27-handoff-before-entire-Phi-zero-collision-8542.md)、[open](open.md)、[结果索引](results.md)及归档链；省略不算关闭，已登记不重做。
 
 ## R150 总图与当前一般支
 
@@ -33,8 +33,8 @@
 
 - **一般ell=0全闭，全局付ell。** 全三头曲线、1146次QQ覆盖及404余因子/u2/u半均原返回；完整来源保总定理与归档，不加W/Q边界、不重放。
 - **旧D≠0图T0=0全闭，可付T0，不外推h=k。** F4/J4整原返回后QQ4原48×35返1（cd05afd9，0.625秒/exit0），不重放。一般头[0,2,3,4]=2u⁴Q(Q−1)³M²ell·T0(J−Q)。
-- **h=k整等权/T0零/J=Q闭，付u−ell/T0/(J−Q)/Pf；Delta0 h1/k1≤6219保留。** 源/两图原返回保总定理。新33e真0.939秒/45852KiB/exit0排整Phi0,ell≠1：八原式固定11/9阶QQ结式463/337剥原单位得143/80、Bézout1。ell1u2全lambda四次另保；7f9首源变量one遮蔽/exit1，已冻失败与原源，改Gram局部名的新af8215e2重新实际返回；未称整个Phi/h=k闭。
-- **旧D≠0值图Phi0∩zn0闭，不传h=k。** rho头零主支必要C(d,lambda)174/55、偶降87/55；判别式零仅(1,1/2)及交换，原31/52曲线后，新78f真8.634秒/53168KiB/exit0用mean的T闭包/U6得完整QQ单因子F26，729项可恢复输入已存，未排空。新ed0一般rho首一二次原mean/N1同H²单位组合120秒1GiB，A0整支保留。旧NB/cofactor不重放。
+- **h=k整等权/T0零/J=Q/Phi0全闭，付u−ell/T0/(J−Q)/Pf/Phi；Delta0 h1/k1≤6219保留。** 新33e整Phi0,ell≠1八式固定QQ投影143/80单位；af821真9.967秒/35672KiB/exit0保ell1u2全lambda四次/自由Q，八原式E1/EBe给K[Q]单位、5263B完整小证书。7f9首源one遮蔽exit1准确冻结；无旧D图借用。整个h=k及其余原第五列继续。
+- **旧D≠0值图Phi0∩zn0闭，不传h=k。** rho头零主支必要C(d,lambda)174/55、偶降87/55；判别式零仅(1,1/2)及交换，原31/52曲线后，新78f真8.634秒/53168KiB/exit0用mean的T闭包/U6得完整QQ单因子F26，729项可恢复输入已存，未排空。ed0一般rho统一清Gram真102.023秒/905380KiB/SIGABRT，FLINT明确101202984分配失败，仅返两原线/公共content，mean/N1未返；原源/小失败冻结，不抬限重跑。642bad换真正PB原输入，A0保留。旧NB/cofactor不重放。
 
 ### rankH3原ess6
 
