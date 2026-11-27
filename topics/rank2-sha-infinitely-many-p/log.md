@@ -313,3 +313,6 @@ root完整证明S3150点源，geometry独核7处真实坐标/CRT/Gaussian，arit
 
 
 - 2026-11-27 21:55 UTC：root与central/geometry独立审计原Kriz接合。逐项确认完整normal-ordered Hermite仍为n!(n+2)!；digit引理以u0+p^m给任意固定底数幂的估值差−2障碍。核书6.21、7.20/21及9.11–16后，明确共同连通延拓、换点定义域和负端点primitive归一尚未取得；旧full54、六线及新psi4连续cross/几何单位全部降为条件，不单保负端点。geometry新稿A2的V_p归一漏p^(k−1)由root发现、按原书Lemma8.12修正后才发布。独立图/正权/Newton/晶体残余保留，未称书定理假。审计13920B/SHA256 2252a27394f2a9a9e83225d6543a6b95a0526b1c3d99ae4a24d05b2e9dff702b；新cross25401B/SHA256 4f0060a86231117be46ed8b78f72e7d64c1ac6f6adde7c8e9faf21a7cc425147。原H9721B逐字归档handoff-before-kriz-continuity-audit.md，当前元数据一并更正。无数学执行；下一固定p227正权全系数证书与真实bad点算子继续。两库actual pull21:22/下一≤22:22，唯一v12未重复启动。
+
+
+- 2026-11-27 21:57 UTC：提交一个固定p227/u1原两槽正权审计，q=z^6同8587次、精度8588、辅助素数65537。root手核wp二阶递推/一阶全窗、log sigma与34/102指数、两个完整Weyl的全部17项及归一301056；所有分母小于辅助素数，native累积64位上界保。脚本7527B/SHA256 95c9e8892f8b6b834cb6ecc1ad64bd38775cfce8eb719c4e0061eb3bed8f30b2，python-flint0.9.0；不在本地执行数学，不保存前缀或输出。仅非零返回才证原特征零正权非零，不称p单位/无穷p/Sha；新note§6记录全部输入和证明。小请求2157触发真实公开Actions，尚无结果。

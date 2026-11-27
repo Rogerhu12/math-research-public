@@ -1,8 +1,9 @@
 {
-  "request_id": "2026-11-27-2051-original-quadratic-v12-readonly-snapshot",
+  "request_id": "2026-11-27-2157-original-psi4-fixed-positive-p227",
+  "python_flint_version": "0.9.0",
   "checks": [
     {
-      "script": "topics/rank2-sha-infinitely-many-p/scripts/fetch-original-quadratic-v12-log-snapshot.py",
+      "script": "topics/rank2-sha-infinitely-many-p/scripts/check-original-psi4-fixed-positive-p227.py",
       "engine": "python3",
       "include_stdout": true
     }
