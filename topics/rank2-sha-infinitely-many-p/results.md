@@ -145,3 +145,6 @@ $$
 O_D=(1-p^{-2})G(E)-\lambda_D^*I_D/p^2.
 $$
 完整incoming范数为零而outward为 $p(p+1)(1-p^{-2})G$，所以对偶/Fricke换点仍留下原 $G(E)$ 边界；不能靠相同Euler因子恢复原图。直接proper图身份保留，未与Newton或flat负端点相认。
+
+
+- [原Y/K完整球面Hecke§16](notes/2026-11-27-original-y-k-rational-unitary-and-precise-p-level-words.md)：全部 $p(p+1)$ 格逐支计数给 $\mathcal H_p(B_0\otimes B_0)=p^2B_1\otimes B_1+(p-1)B_0\otimes B_0+B_{-1}\otimes B_{-1}$。保同一自然/标准交织、正负division/Haar、完整六输出及物理Y-unit后，真实返回为 $\nu_{\mathcal H_p}^{\times}=(p-1)\nu^\times+\beta^{-1}(D_{K,\kappa^{-1}})_*\nu^\times$。因此有限字 $\mathcal Z_p=\mathcal H_p-(p-1+\beta^{-1})$ 的整个不读K边际恒零，而同一 $K/Y$ 读数严格为 $\beta^{-1}(\kappa^{-1}-1)(10\delta/7)\Omega I_{D,p}\ne0$，用原R1046同一固定非挠点。该实际反例排除“完整Y边际加这个球面Hecke就迫K/Y零”的替代；不排另有真实读K的来源关系，也不声称原坏中央实际存在。

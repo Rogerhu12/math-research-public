@@ -1311,3 +1311,203 @@ $$
 它不指定二者分别的值。
 中央和 K/Y 仍须在同一全和上使用(59)，不能从(71)的旧零
 跳过这两个已经具有非零质量的补项。
+
+
+
+## 16. 完整球面 Hecke 的两个实际读者及整边际零的有限字
+
+本节继续使用同一原六 sigma、同一普通射线、
+$\beta=-\lambda=\bar\pi_0^{-1}$、$\kappa=p\beta^2$，并取 $p>1296$。
+记
+$$
+\nu=\mathscr P_3((Y,K,H,J,A,N)_*\rho),\qquad
+\nu^\times=\nu|_{Y\in\mathbf Z_p^\times},\qquad
+\mathcal L(\nu)=\int_{Y\in\mathbf Z_p^\times}\frac KY\,d\nu .
+\tag{75}
+$$
+所有 H/J/N 投影和其余 A 输出均保留。
+本节不重做 S3150 的450维谱或有限点投影。
+新增的是同一原好处球上整个球面双陪集的完整返回，
+及一个真正的有限算子，明确区分原中央边际与其非零角读者。
+
+### 16.1 同一个原好处球的完整格计数
+
+在本篇§2的 split unitary Schrödinger 模型，原自然 Y/K 向量为
+$\phi_0=B_0\otimes B_0$。
+令 $\mathcal K=\operatorname{SL}_2(\mathbf Z_p)$，
+$a=\operatorname{diag}(\kappa,\kappa^{-1})$，
+并令 $\mathcal H_p$ 是
+$\mathcal K a\mathcal K/\mathcal K$
+所有右陪集作用的**未平均和**。
+其它地点的原有限向量、无限 Gaussian 和另四个输出不改。
+determinant 为一，所以按§2的已固定 splitting，
+每项是实际变量变换，没有另一个绝对值或根单位系数。
+使用正变或反变约定只置换下述全部格。
+
+由于 $\kappa/p$ 是单位，$\mathcal K a\mathcal K$ 与
+$\mathcal K\operatorname{diag}(p,p^{-1})\mathcal K$ 相同。
+其格是满足
+$$
+ p\mathbf Z_p^2\subset L\subset p^{-1}\mathbf Z_p^2,\qquad
+ L/p\mathbf Z_p^2\simeq\mathbf Z/p^2\mathbf Z
+\tag{76}
+$$
+的全部 covolume 一格。
+乘 p 后，(76)对应
+$(\mathbf Z/p^2\mathbf Z)^2$ 的全部自由秩一直属项。
+其数为
+$(p^4-p^2)/(p^2-p)=p(p+1)$。
+
+对 $x\in\mathbf Q_p^2$ 令
+$v(x)=\min(v_p(x_1),v_p(x_2))$。
+若 $v(x)\ge1$，全部 $p(p+1)$ 个格都含 x；
+若 $v(x)=0$，$px\bmod p^2$ 是非零 p-挠向量，
+只有模 p 缩到其所指定直线的 p 个自由直线含它；
+若 $v(x)=-1$，$px\bmod p^2$ 本原，只有它自己生成的一个自由直线含它；
+若 $v(x)<-1$，没有格含它。
+$x=0$ 属第一种。
+因此得到整个 Schwartz 函数身份
+$$
+\boxed{\mathcal H_p\phi_0
+ =p^2 B_1\otimes B_1
+ +(p-1)B_0\otimes B_0
+ +B_{-1}\otimes B_{-1}.}
+\tag{77}
+$$
+四个区域上的值分别是 $p(p+1),p,1,0$，支付全部陪集。
+这里没有混入经典 $T_{p^2}$ 的额外中心陪集。
+若另选除以 $p(p+1)$ 的平均，必须将(77)及以下每项同时除去该数。
+
+### 16.2 原全六输出上的正负球返回
+
+原 Y、K 的 theta degree 是126、6，
+半特征均为 standard even。
+R1040(95)–(96)给 Y 的完整 core 是 $\beta$：
+原射线 $\kappa\equiv127\bmod252$，
+原非零锚是 $\Theta(3\gamma_7z)$。
+K 的同一证明使用
+$\kappa\equiv7\bmod12$ 及非零锚 $\Theta(\delta z)$。
+两个锚都保持完整半特征并与原 division 图交换；
+Heisenberg scalar 作用在整个相应 theta 空间上，
+因而其余五个输出的任意系数都保留，而非只对单个边际成立。
+特别
+$$
+\nu|_{Y\in p\mathbf Z_p}
+   =\beta(D_{Y,\kappa})_*\nu .
+\tag{78}
+$$
+
+本篇(35)–(38)已经用同一个 division/Miller 图分别支付
+connected 正深度与 étale 负深度。
+将它们应用于(77)两个正交轴，得到
+$$
+\boxed{
+ \nu_{\mathcal H_p}
+ =p^2\beta^2(D_{Y,\kappa}D_{K,\kappa})_*\nu
+ +(p-1)\nu
+ +\beta^{-2}(D_{Y,\kappa^{-1}}D_{K,\kappa^{-1}})_*\nu .
+}
+\tag{79}
+$$
+负球返回的 $\beta^{-2}$ 含两次原 Haar 费用；
+其支撑允许落在 $p^{-1}\mathbf Z_p$，没有将它改称整测度。
+H/J/N/A 输出和原 $-1/84$ 均在(79)两边不变。
+
+现在才施加同一个物理 Y-unit。
+(79)第一项因 Y 深而为零。
+第三项要求原 Y 的赋值恰一；
+由(78)在这一个完整环带上取限制，
+$$
+\nu|_{Y\in p\mathbf Z_p^\times}
+ =\beta(D_{Y,\kappa})_*\nu^\times .
+$$
+故 Y 的两次缩放消去，而 K 的负缩放仍须保留：
+$$
+\boxed{
+ \nu_{\mathcal H_p}^\times
+  =(p-1)\nu^\times
+    +\beta^{-1}(D_{K,\kappa^{-1}})_*\nu^\times .
+}
+\tag{80}
+$$
+这是真正的全输出测度等式。没有先忘 K，也没有把相反的
+p 角色仅凭对角惯性删掉。
+
+### 16.3 中央读者和有限点读者的不同本征值
+
+忘 K 后，(80)给
+$$
+\boxed{
+ (\operatorname{pr}_{Y,H,J,A,N})_*
+       \nu_{\mathcal H_p}^\times
+ =(p-1+\beta^{-1})
+    (\operatorname{pr}_{Y,H,J,A,N})_*\nu^\times .
+}
+\tag{81}
+$$
+所以同一个 Y-Mellin 函数准确满足
+$$
+ J_{\mathcal H_p}(v)
+ =(p-1+\beta^{-1})J_\nu(v),\qquad
+ J_\nu(v)=39\delta J_{\Phi_{126},p}(v).
+\tag{82}
+$$
+原 E3969 中央坏条件确实使(82)的原首导数为零。
+这里没有将这个零微分到另一个方向。
+
+另一方面，$K/Y$ 在(80)第二项多读到 $\kappa^{-1}$：
+$$
+\boxed{
+ \mathcal L(\nu_{\mathcal H_p})
+ =(p-1+\beta^{-1}\kappa^{-1})\mathcal L(\nu),
+ \qquad
+ \mathcal L(\nu)=\frac{10\delta}{7}\Omega I_{D,p}\ne0 .
+}
+\tag{83}
+$$
+最后一个等号和非零是 R1046(26)、(28)已经支付的同一个
+$E_D:y^2=x^3+21609$ 固定非挠点，
+包括完整 primitive Katz 来源、原微分和周期；
+本节没有再造一个新点或重新执行其解析一阶证书。
+
+更具体地，在同一个有限 Schwartz 空间定义
+$$
+ \mathcal Z_p=\mathcal H_p-(p-1+\beta^{-1})\,1 .
+\tag{84}
+$$
+它只有 $p(p+1)+1$ 个显示有限项，系数 $\beta^{-1}$ 是原 CM
+代数数。由(80)，
+$$
+\boxed{
+ \nu_{\mathcal Z_p}^\times
+   =\beta^{-1}\{(D_{K,\kappa^{-1}})_*-1\}\nu^\times,\qquad
+ (\operatorname{pr}_{Y,H,J,A,N})_*
+       \nu_{\mathcal Z_p}^\times=0 .
+}
+\tag{85}
+$$
+因此对任何仍保全部其它输出、但不读 K 的连续测试，
+其整个积分都为零；所有原 Y-Mellin 系数也都为零。
+这不需要中央坏假设。
+然而同一个原有限角读者准确为
+$$
+\boxed{
+ \mathcal L(\nu_{\mathcal Z_p})
+ =\beta^{-1}(\kappa^{-1}-1)\,
+       \frac{10\delta}{7}\Omega I_{D,p}\ne0 .
+}
+\tag{86}
+$$
+因为 $v_p(\kappa)=1$，$\kappa^{-1}-1\ne0$；
+所有其它因子已在同一原规范中非零。
+
+(85)–(86)是一个实际来源上的反例，说明
+“整个 Y-unit 边际已知”本身不能定义其 $K/Y$ 读者，
+即使先加入整个球面 Hecke 和也不行。
+它不反证某个仍未取得的、同时使用其它真实来源的强迫定理，
+也不假定原中央坏条件实际存在。
+它精确关闭的是：从(82)的坏中央零或更强的整边际零，
+仅凭这一个完整球面 Hecke 身份推出(83)或(86)为零。
+S3150 全点载体的非零与原 canonical 坏条件之间，
+仍须另给同一有序来源上真正读 K 的关系；
+原(59)的5-new和p-new费用不能用(81)代替。

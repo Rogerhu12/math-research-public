@@ -54,6 +54,8 @@ Kriz 6.21连续的是实际 $q_{\rm dR}^{1/p}$ 的flat族。7.20把它认作usua
 
 固定五条rank≥2曲线与通常全Sha桥r+corankSha≤2ordJ已付；真正联合无穷p原J′非零仍开。R1042环境Hurwitz/Smith左逆不代scalar Schur；D²S/heat-flat全连接不允许CM坏条件微分；S3150有限K/Y非零仍缺同一canonical forcing。O4/O6/O7、旧q0/好整格、全部失败和参数在open与逐字归档保，不重做已排的权二B6全toric零候选。
 
+[unitary§16](notes/2026-11-27-original-y-k-rational-unitary-and-precise-p-level-words.md)已付完整球面 $p(p+1)$ 格/原正负球返回。真实有限 $\mathcal Z_p=\mathcal H_p-(p-1+\beta^{-1})$ 的整个Y-unit边际零，但同一K/Y为 $\beta^{-1}(\kappa^{-1}-1)(10\delta/7)\Omega I_D\ne0$。所以该球面Hecke不支付S3150 forcing；继续真正读K的其它原关系，原补项不删。
+
 ## 继续分工
 
 root维护元数据、逐条推、审计比较并消费唯一v12真终态；central核共同factor的实际微分/level及坏点坐标运输；geometry核真实flat/Hecke总迹，随后S3150同一forcing；arithmetic接原厚三块、非边界重复因子和同一R/Xi。主目标未完成，子问题后接open下一项，不因时长或输入不足收尾。

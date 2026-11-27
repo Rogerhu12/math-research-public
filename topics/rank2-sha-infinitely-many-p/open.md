@@ -80,6 +80,10 @@ R1040相关模型/固定HJN全平均、Φ126/Ξ0与G126/Ξ1、质量JG0单位均
 
 [完整unitary字](notes/2026-11-27-original-y-k-rational-unitary-and-precise-p-level-words.md)§§10–13锁g_n的逆Gram、5处12odd Bell、旧2/3/7状态与反变符号；两norm3150/150固定六sigma F±的Y-unit全返回，是β^-n/d_n乘两个K缩放差。只有忘K后才为c_n(JF−−JF+)；K/Y读数另保κ^-n(1−βκ)。p^(1−n)损、mixed cut、全部wild与补域都保留。继续实际F±的完整5-old投影、精确canonical/reference系数及5-new同解约束；不把投影的身份当全来源的零。
 
+[原Y/K完整球面Hecke§16](notes/2026-11-27-original-y-k-rational-unitary-and-precise-p-level-words.md)：全部 $p(p+1)$ 格逐支计数给 $\mathcal H_p(B_0\otimes B_0)=p^2B_1\otimes B_1+(p-1)B_0\otimes B_0+B_{-1}\otimes B_{-1}$。保同一自然/标准交织、正负division/Haar、完整六输出及物理Y-unit后，真实返回为 $\nu_{\mathcal H_p}^{\times}=(p-1)\nu^\times+\beta^{-1}(D_{K,\kappa^{-1}})_*\nu^\times$。因此有限字 $\mathcal Z_p=\mathcal H_p-(p-1+\beta^{-1})$ 的整个不读K边际恒零，而同一 $K/Y$ 读数严格为 $\beta^{-1}(\kappa^{-1}-1)(10\delta/7)\Omega I_{D,p}\ne0$，用原R1046同一固定非挠点。该实际反例排除“完整Y边际加这个球面Hecke就迫K/Y零”的替代；不排另有真实读K的来源关系，也不声称原坏中央实际存在。
+
+后继必须使用真正读K的同解内关系；不再重做这个球面和或以其完整Y-Mellin身份代canonical forcing。原5-new/p-new补项仍保。
+
 ## O几何. 原固定图与实际惰性局部normal function
 
 所有原54/27图、η/Cor、最高λ、负9-Weil分量、两cover及Prym保持。R1039全Jac F²=−q和R1041无权q+1/半交身份不付最高加权影子。R1043同一完整J全零才给实际T_a的全p整除；坏Sha尚不迫该条件。Fr−unit核只有p个除点，不能免费全p²。
