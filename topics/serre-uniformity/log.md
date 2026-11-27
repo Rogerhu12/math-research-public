@@ -412,3 +412,8 @@
 ### 2026-11-28 00:54 Asia/Taipei — Astra-serre-24b8836b-20261126
 - R1133用原Weierstrass坐标差与Ward identity构造实际A+B=1，以dχ(a)=Δ²χ(t²)|a−Δ²χ(t²)|2和完整half/all/leading定标恢复每个原Vχ；实际两个缺席边界及偶多项式根数保证至少一个可逆a，无p幂平滑。
 - 原full-level开曲线三步有限étale代数给真实Heisenberg torsor和全部群作用；范数后的crossed Cor及跨轨道双和完整保留，最终常Lie中心的K₂/p角色ω²明确区别于e₀。root/global/o2精确全文及primary纸审，H/open/index同步，每条新结论立即推送；继续原指定pairs/高层与尖点下降，无数学执行。
+
+
+### 2026-11-28 01:12 Asia/Taipei — Astra-serre-24b8836b-20261126
+- R1133§9将原Heisenberg的同一unit Norm见证延成长4 binomial根塔，整循环补项和大根代数支付σ^p精确为1，得到阶p⁵的实际G₄ torsor及UT5首层(a,a,a,b)，不删除最高中心。四种p mod8的forced双字母常中心指标全给。
+- root/global/o2全文纸审；正常完成的几何cusp惯性精确为四矩M0..M3，消失 iff 原赋值向量在(σ−1)^4群环理想；Norm b仅控制M0。原两角色仍须同一个全局单位见证、完整crossed Cor与算术下降。H前态逐字归档/压缩，继续真实配置关系；无数学执行。

@@ -6,11 +6,11 @@
 
 会话 **Astra-serre-24b8836b-20261126**。已部分克隆并真实pull main，读根/课题README及H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则36cf1ed2已读。不得重做登记结论/窗口。
 
-**公开两README已读提交：9cf77bb2c774ff0a2994370c1a4611915f543829**（2026-11-28 00:54 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
+**公开两README已读提交：c8b46f294324098fb72bf7e139fd62cfdf1b0e1a**（2026-11-28 01:12 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
 
 最近真实pull 2026-11-27 01:48 Asia/Taipei；00:50重试执行器仍报无可用环境，shell未启动。按根规则8连接器同步、读diff、expected_sha非force提交，拒绝立即同步重基重推至成功；环境恢复立即pull --rebase。下一次真实尝试不晚于2026-11-28 01:50。令牌只CLI。数学程序仅本公开仓库Actions；本地/V8仅metadata/文本，不作数学计算。[此前偏差纠正](notes/2026-11-26-execution-path-deviation-and-correction.md)。
 
-root管main/H/open/index/log，子研究仅独立candidate；每条结论即推。H<10KB，open尽量<30KB，每MD<100KB，topic<200MB；不存可重算raw/artifact/Release，不写根LOG。[最新逐字前态](handoff-archive-2026-11-28-before-unconditional-low-Cartan-block.md)沿链保完整旧公式、source/run/hash；[open](open.md)/[索引](results.md)为完整入口。旧“R1003 norm3准备中”未交，现R1003为范围纠错。
+root管main/H/open/index/log，子研究仅独立candidate；每条结论即推。H<10KB，open尽量<30KB，每MD<100KB，topic<200MB；不存可重算raw/artifact/Release，不写根LOG。[最新逐字前态](handoff-archive-2026-11-28-before-original-class-four-unit-tower.md)沿链保完整旧公式、source/run/hash；[open](open.md)/[索引](results.md)为完整入口。旧“R1003 norm3准备中”未交，现R1003为范围纠错。
 
 ## O0：一般 p；整平方层与实际 cochain
 
@@ -30,7 +30,7 @@ R1062–71已付全原cusp、étale/p-only、角色/phase/twists，无regular/Va
 
 [原整单位关系](notes/2026-11-28-original-integral-Manin-relations-and-cusp-constants.md)：angular specialization/全cusp平均用于整个p∞；实cusps使even有限p-primary tame全零。原Tate leading是S-unit，先e₀再平均，经K₂(Z[1/6p]) transfer消常数。因此R1132门内，原actual canonical unit符号格的已知有理平凡角色关系准确整提升。须继续给原整数指数/真实关系/低cochain；不除12p、不代任意K₂/p杯积或四阶cover。
 
-[R1133](results/R1133-original-primitive-unit-equations-and-Heisenberg-source.md)：真实x坐标差给A_a+B_a=1；half Cartan加权范数的B槽准确为dχ(a)[Fχ]/m，dχ=Δ²χ(t²)|a−Δ²χ(t²)|2。实际k=2r mod(p−1)排0/2，偶多项式根数给每个原Vχ都有单位dχ；保全部leading/实下降，不取12p幂。full-level open上写出三步étale Heisenberg方程；原范数须保完整跨轨道Cor双和，proper/cusp/四阶仍开。常Lie中心经K₂/p读取为ω²，不能用e₀整torsion替代。
+[R1133](results/R1133-original-primitive-unit-equations-and-Heisenberg-source.md)：真实x坐标差给A_a+B_a=1；half Cartan加权范数的B槽准确为dχ(a)[Fχ]/m，dχ=Δ²χ(t²)|a−Δ²χ(t²)|2。实际k=2r mod(p−1)排0/2，偶多项式根数给每个原Vχ都有单位dχ；保全部leading/实下降，不取12p幂。full-level open上写出三步étale Heisenberg方程；原范数须保完整跨轨道Cor双和，proper/cusp/四阶仍开。常Lie中心经K₂/p读取为ω²，不能用e₀整torsion替代。 §9将同一实际单位Norm见证延成长4 binomial根塔，阶p⁵的G₄真torsor/σ^p/UT5首层(a,a,a,b)全付。cusp需四矩M_j=Σbinom(i,j)ord(σ^if)全零，即赋值向量∈(σ−1)^4；Norm只付M0。四种p mod8均有原forced双字母常中心指标，但实际见证/下降未付。
 
 ### 固定47与来源审计均已完成
 
@@ -38,11 +38,9 @@ R1062–71已付全原cusp、étale/p-only、角色/phase/twists，无regular/Va
 
 ## O1：原 Picard 两 jet 与真实 Tate 族
 
-[原Tate normal-FM](notes/2026-11-27-original-Tate-three-torsion-normal-FM-variation.md) §§1–13已付实际Verschiebung/Miller、kerV截面、−Q刚化与全自然奇源。6v·dot t̂=ΦN_full f，全H上6v·dot Ĵ_coeff=P_TJ，三平移6v·dot S=[P,S]，N_full+P=D²+U；原Pf=Nf+U^(m+1)。§8保Vε²约化项（旧错误草稿未发布）。
+[原Tate normal-FM](notes/2026-11-27-original-Tate-three-torsion-normal-FM-variation.md) §§1–13保同一实际族的Verschiebung/Miller、kerV、−Q刚化、全自然基及P/N连接：6v·dot t̂=ΦN_fullf，6v·dotĴ_coeff=P_TJ，6v·dotS=[P,S]，N_full+P=D²+U；最高偶补偿/Vε²约化不删。§9排全V₀低阶目标共轭，不排指定读数。§10全dot A及dotA(Ψ,Ψ)=δ/(6v)；Um首normal×Picard一/四阶均零，normal零阶unit。
 
-§9证明全V₀上ΦNΦ⁻¹不能是阶≤p−3目标微分算子，未排指定Um/−Q关系。§10付全dot A和6v·dot A=A(Nf,g)−A(f,Pg)，dot A(Ψ,Ψ)=δ/(6v)。原Um首normal×Picard一/四阶均零，normal零阶unit。
-
-§11从同一3-cover得Prym商Y²=−(3x+ε)(x³+2v)，η|₀=−z/w、u+ν=−3dx/Y和相对F全保；原normal值恰等完整Hasse多项式，全ε^(3j+1)系数unit、首项回N14。固定C的Picard移动不保三挠，**不能当原e/K4共同非零**。§12原exact differential及cup留数1/(9v)付真实rank2 Gauss系统、两规范period与θ的终止Gauss式；一般解只用<p jets，首共振p+1保留。§13真实Ψε保DεΨε=HεU−βε、加律M^p−HεM；6v·dotΨ|U=−δU²/V，扣自然Vε变化后=PΨ。o1继续高normal/Picard。
+§§11–12真实三挠cover给Prym商Y²=−(3x+ε)(x³+2v)、原θ完整Hasse及rank2 Gauss系统，θ=θ′0·ε₂F₁(1/2,5/6;4/3;ε³/(54v))终止到k−1。保η|₀=−z/w、−3dx/Y、cup留数1/(9v)、一般period仅<p jets/首共振p+1。§13真实Ψε满足Dε^p=HεDε、DεΨε=HεU−βε、普通加律M^p−HεM；6v·dotΨ|U=−δU²/V，扣自然Vε变分后=PΨ。**固定C的Picard离开三挠，e/K4仍开**；o1继续Rε完整余项及高normal。
 
 [原Lamé短旗标](notes/2026-11-27-original-lame-tridiagonal-short-flag-continuation.md)保B简单谱/D³单Jordan、Green、normal列、全Cartier Newton矩阵、原R/移位R²及纯极反对角Φ。e₀0迫邻e单位，不代K4。原e/K4 iff短η_k/ν_k，R1077加权2k不代短k。
 

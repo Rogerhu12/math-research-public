@@ -437,6 +437,258 @@ $\Delta$-平凡 integral torsion 结论完成。
 本篇没有新固定素计算，没有重开已闭合的 $p=47$ 链；
 一般 $p$ 的真实同点排除与四阶覆盖仍未完成。
 
+
+## 9. 同一实际单位范数的四阶相容上链
+
+本节把 §6 的三个根延长为同一个有限 étale 代数，而不是为不同
+Steinberg 式各选一份互不相容的抽象零上链。它只完成 full-level
+开曲线上的来源；原范数后的指定角色、cusp 无分歧与 arithmetic/coarse
+下降仍须另付。
+
+### 9.1. 精确的单位范数条件
+
+更一般，设 $S$ 是一个 $p$ 可逆且固定了 $\zeta_p$ 的基概形，
+$a,b\in\mathcal O(S)^\times$，并取实际 cyclic Kummer torsor
+$$
+C=\operatorname{Spec}_S\mathcal O_S[\alpha]/(\alpha^p-a),
+\qquad \sigma_0(\alpha)=\zeta_p\alpha.
+\tag{1133.37}
+$$
+允许 $C$ 不连通。假设给定一个**全局单位**
+$f\in\mathcal O(C)^\times$，且它满足完整范数恒等式
+$$
+\prod_{i=0}^{p-1}\sigma_0^i(f)=b.
+\tag{1133.38}
+$$
+这比在函数域中只知道某个 cup 为零多了具体整输入：
+这里的 $f$ 及其全部 conjugates 在 $C$ 上都是单位。
+不能仅由 field norm witness 推断 (1133.38) 在所需整开曲线上成立。
+
+本篇原 primitive pair 取
+$$
+a=U=A_a(P_z),\qquad b=W=B_a(P_z),\qquad f=1-\alpha.
+\tag{1133.39}
+$$
+由 $U+W=1$，式 (1133.38) 正是 §6 已付的实际单位恒等式。
+本节临时使用 $a,b$ 表示两个单位，与 §2 的整数标号 $a$ 不混用。
+
+### 9.2. 四个 binomial 根及完整循环作用
+
+记 $F_i=\sigma_0^i(f)$，并对 $0\le j\le3$ 定义
+$$
+D_j=\prod_{i=0}^{p-1}F_i^{\binom{i}{j}},\qquad
+\gamma_j^p=D_j.
+\tag{1133.40}
+$$
+其中 $\binom{i}{j}=0$ 当 $i<j$，且 $D_0=b$。在 $C$ 上依次加入
+四个 $\gamma_j$，得到相对 $S$ 秩 $p^5$ 的有限 étale 代数：
+所有 $D_j$ 都是单位，且每一步导数 $p\gamma_j^{p-1}$ 可逆。
+
+令
+$$
+c_j=\binom{p-1}{j}-(-1)^j,\qquad
+d_j=c_j/p\in\mathbf Z,\qquad 0\le j\le3.
+\tag{1133.41}
+$$
+这里 $d_0=0$，其余三个数为
+$$
+d_1=1,\qquad d_2=(p-3)/2,\qquad
+d_3=(p^2-6p+11)/6.
+\tag{1133.42}
+$$
+$p>37$ 保证这些都是整数。移位二项式恒等式
+$$
+\binom{i-1}{j}
+=\sum_{k=0}^j(-1)^{j-k}\binom{i}{k}
+\tag{1133.43}
+$$
+在 $i=0$ 用 $\binom{-1}{j}=(-1)^j$ 理解。循环移位唯一的
+修正是将此值替成 $\binom{p-1}{j}$。因此实际代数上存在
+$$
+\sigma(\alpha)=\zeta_p\alpha,\qquad
+\sigma(\gamma_j)
+=F_0^{d_j}\prod_{k=0}^j\gamma_k^{(-1)^{j-k}}.
+\tag{1133.44}
+$$
+对本篇 $f=1-\alpha$，前三个非平凡式明确为
+$$
+\begin{aligned}
+\sigma(\gamma_1)&=(1-\alpha)\gamma_1/\gamma_0,\\
+\sigma(\gamma_2)&=(1-\alpha)^{(p-3)/2}
+                    \gamma_2\gamma_0/\gamma_1,\\
+\sigma(\gamma_3)&=(1-\alpha)^{(p^2-6p+11)/6}
+                    \gamma_3\gamma_1/(\gamma_0\gamma_2).
+\end{aligned}
+\tag{1133.45}
+$$
+$\gamma_0=\beta,\gamma_1=\gamma$ 时，第一行严格回到 §6 原
+Heisenberg 作用；没有重新选择原来的低上链。
+
+还须证明 $\sigma^p=1$，不能从每个右侧的 $p$ 次幂相同直接推断。
+为此在同一个 $C$ 上暂加入全部
+$$
+\eta_i^p=F_i,\qquad 0\le i<p.
+\tag{1133.46}
+$$
+这个较大代数上，令 $\sigma(\eta_i)=\eta_{i+1}$，指标模 $p$。
+这是实际循环作用，故 $\sigma^p=1$。同时
+$$
+\gamma_j=\prod_i\eta_i^{\binom{i}{j}}.
+\tag{1133.47}
+$$
+在 (1133.47) 上的作用正好给 (1133.44)，包括 $F_0^{d_j}$。
+于是较小代数上的 $\sigma^p=1$ 也被逐式支付，而不是差一个
+未定的 $\mu_p$ 相位。
+
+### 9.3. 真正的 class-four torsor 与指定首层
+
+令 $\tau_j$ 只把 $\gamma_j$ 乘以 $\zeta_p$，保持其他根不变。
+四个 $\tau_j$ 两两交换。设 $L$ 为 $4\times4$ 的下移 nilpotent
+矩阵。式 (1133.44) 对四个 $\gamma$ 的指数矩阵是
+$(I+L)^{-1}$，故在相位群上的共轭准确为
+$$
+\sigma\tau_j\sigma^{-1}=\tau_j\tau_{j+1}\quad(0\le j<3),
+\qquad
+\sigma\tau_3\sigma^{-1}=\tau_3.
+\tag{1133.48}
+$$
+因此作用群为
+$$
+G_4=\mathbf F_p^4\rtimes C_p,\qquad |G_4|=p^5,
+\tag{1133.49}
+$$
+其中 $C_p$ 以一个长度 $4$ 的 unipotent Jordan block 作用。
+采用 $[g,h]=ghg^{-1}h^{-1}$ 时，
+$$
+[\sigma,\tau_j]=\tau_{j+1}\ (j<3),\qquad
+[\sigma,[\sigma,[\sigma,\tau_0]]]=\tau_3\ne1.
+\tag{1133.50}
+$$
+这个抽象有限群的 nilpotency class 恰为 $4$，中心为
+$\langle\tau_3\rangle$。这不宣称 pullback 后的实际 monodromy
+一定是整个 $G_4$。
+
+式 (1133.46) 给一个秩 $p^{p+1}$ 的
+$\mathbf F_p^p\rtimes C_p$ torsor：在每个几何纤维，
+$\alpha$ 的 $p$ 个选择和各 $\eta_i$ 的 $p$ 个选择受群单传递作用。
+四个行向量
+$(\binom{i}{j})_{0\le i<p}$ 在 $\mathbf F_p$ 上独立，因为其前
+四列组成对角为 $1$ 的三角矩阵。它们的 span 在循环移位下稳定，
+由 (1133.43) 可直接核定。因此核的商正是 (1133.40) 的
+秩 $p^5$ 代数，它是真正的 $G_4$ torsor。
+整个论证不要求这些代数连通。
+
+为明确四阶上链的首层，可将 $G_4$ 嵌入标准的 $5\times5$
+上三角 unipotent 群：
+$$
+\sigma\longmapsto
+\operatorname{diag}(I_4+E_{12}+E_{23}+E_{34},1),
+\qquad
+\tau_j\longmapsto I_5+E_{4-j,5}.
+\tag{1133.51}
+$$
+这些矩阵逐式满足 (1133.48)，并保 (1133.50) 的非零最高中心。
+按这个嵌入延拓结构群，得到一个真实的 $\mathbb U_5(\mathbf F_p)$
+torsor；其四个相邻 Kummer 商按原根规范依次为
+$$
+(a,\ a,\ a,\ b).
+\tag{1133.52}
+$$
+它给同一个 defining system 的所有低层及顶层，而非仅给一个
+去中心矩阵商。延拓结构群后的 torsor 仍可不连通。
+此处没有使用任意 fourfold Massey product 的消失猜测。
+
+对于原 $U,W$，删去 $\gamma_2,\gamma_3$ 恰恢复
+(1133.30)–(1133.34)。因此本节是已经固定的 primitive cochain
+的相容延长。与之相应的一般 one-exception word 也见
+Efrat 的已刊 generalized Steinberg theorem；本节的整单位范数、
+显式方程和开曲线无分歧由上述构造自行支付，不从 field-valued
+存在性推断。
+
+### 9.4. 原 forced 权的四阶目标及尚缺接口
+
+这个双字母源允许考虑重复字母的真实四阶 Lie 字
+$\operatorname{ad}(x_j)^3(x_k)$。记 $p=8t+\epsilon$，
+$\epsilon\in\{1,3,5,7\}$。取
+$$
+\begin{array}{c|c}
+\epsilon&(j,k)\\ \hline
+1&(t-1,t+1)\\
+3&(t-1,t+2)\\
+5&(t-1,t+3)\\
+7&(t,t+1)
+\end{array}
+\tag{1133.53}
+$$
+$p>37$ 时，两指标不同，且均在原 forced 范围
+$1\le j,k\le\lfloor p/4\rfloor-1$。对应
+$V_{\chi_j}$ 的原 Kummer 群权是 $\omega^{2j+1}$，所以
+$$
+3(2j+1)+(2k+1)=p-1.
+\tag{1133.54}
+$$
+故若原两角色的上链与该来源相容，最高中心具有常角色。
+式 (1133.50) 保证所选 Lie 字本身确实非零；这里没有以
+纯形式权和断言实际 monodromy 或 arithmetic descent。
+
+当前未付的是：怎样将原两个指定 $[F_{\chi_j}]$、
+$[F_{\chi_k}]$ 接到 (1133.38) 的**同一个实际全局单位范数见证**，
+并在原 coarse 曲线上保 cusp 无分歧及 Galois 相容。
+尤其 (1133.24) 只说同一个 $\chi$ 的两个加权范数类成比例；
+不能因此把原 $A_a,B_a$ 直接当成两个不同 forced 角色。
+§7 的 crossed corestriction 完整双和仍保留。
+本节也不把 §8 所述 $K_2/p$ 的 $\omega^2$ 障碍替换成
+$e_0$ integral torsion。
+
+
+
+### 9.5. 正常完成的精确 cusp moment 判据
+
+设 $S=X\setminus\Sigma$ 是特征零光滑曲线的开子概形，
+$a,b,f$ 是 (1133.37)–(1133.38) 的实际单位数据。
+若某个几何 cusp $x$ 满足
+$\operatorname{ord}_x(a)\in p\mathbf Z$，则 $C$ 的正常完成在
+$x$ 上无惯性。在几何严格局部盘上可选一支 $\widetilde x$，
+并记
+$$
+n_i=\operatorname{ord}_{\widetilde x}(\sigma_0^i f),\qquad
+M_j=\sum_{i=0}^{p-1}\binom{i}{j}n_i\pmod p,\quad0\le j\le3.
+\tag{1133.55}
+$$
+其余 $\gamma_j^p=D_j$ 的惯性由实际赋值直接给出。若选定的
+tame generator 把参数的 $p$ 次根乘以 $\zeta_p$，则总惯性为
+$$
+\tau_0^{M_0}\tau_1^{M_1}\tau_2^{M_2}\tau_3^{M_3}.
+\tag{1133.56}
+$$
+因此本节的 $G_4$ torsor 在该 cusp 的正常完成 étale，当且仅当
+四个 $M_j$ 全为零。更换 $\alpha$ 支只循环平移 $(n_i)$，
+低四个 binomial 行的 span 保持，故判据与该选择无关。
+
+这个判据还可完全写成有限群环条件。令
+$$
+n(X)=\sum_{i=0}^{p-1}(n_i\bmod p)X^i
+\in\mathbf F_p[C_p]=\mathbf F_p[X]/(X^p-1).
+$$
+由 $M_j=[T^j]n(1+T)$，有
+$$
+M_0=M_1=M_2=M_3=0
+\quad\Longleftrightarrow\quad
+n(X)\in(X-1)^4\mathbf F_p[C_p].
+\tag{1133.57}
+$$
+范数恒等式只给 $M_0=\operatorname{ord}_x(b)\bmod p$；
+即使 $a,b$ 的全部 cusp 阶都是 $p$ 倍，也不能删去后三个
+moment。若 $M_0=M_1=M_2=0$ 而 $M_3\ne0$，删去最高中心的
+class-three torsor 已在该点无分歧，但原 class-four torsor 仍有
+纯最高中心惯性。
+
+若每个 cusp 的 $\operatorname{ord}(a)$ 为 $p$ 倍且 (1133.57)
+成立，则原有限 étale torsor 正常延拓为 $X$ 上的有限 étale
+torsor。这是几何无分歧判据；它不要求算术 residue extension
+分裂，也不把这种未分裂误当成分歧。原 forced 角色尚未获得
+(1133.38) 的所需实际见证，故本节没有据此宣称原目标覆盖已完成。
+
 ## 来源及审核
 
 - [R1064](R1064-original-cuspidal-cover-descent-and-auxiliary-character-visibility.md)
@@ -450,6 +702,11 @@ $\Delta$-平凡 integral torsion 结论完成。
   https://msp.org/ant/2011/5-2/ant-v5-n2-p03-p.pdf 。
   本文消费 Eq. (1)、Lemma 3.5 的实际除法/加法式及 §4 的代数同源；
   原模曲线范数、角色多项式和整 Heisenberg 方程均在上文逐式证明。
+- I. Efrat, *Generalized Steinberg relations*, Research in Number Theory
+  **8** (2022), no. 4, article 92, DOI 10.1007/s40993-022-00386-x；
+  作者公开全文 https://arxiv.org/pdf/2109.13519 ，§1 Main Theorem。
+  本节仅用它定位 one-exception word 的已刊范围；
+  (1133.37)–(1133.52) 的实际单位范数及 étale 代数另作完整证明。
 - $K_2$ 的 Steinberg、transfer 及 projection formula 采用原 Milnor/Quillen
   field $K_2$，不以复解析 rational $K$ 群替代。
   (1133.30)–(1133.34) 自行支付所需低 cochain，不另依赖存在性猜测。
@@ -460,3 +717,12 @@ Ward 方向、half/all 的二、$d_\chi(a)$、所有实际角色范围、根数�
 
 
 root 已全文回读 R1070 §§9–10 及 Stange 已刊 Eq. (1)、Lemma 3.5、Lemma 4.2，独立核定原 D 自由轨道、两槽 Ward 方向、half/all 与 leading、根数界及完整 Heisenberg 作用；与 o2 对精确候选的全文纸审一致。
+
+
+§9 为 global_route 的同源四阶延长。o2_high_coefficient 已独立纸核
+二项式循环补项、较大根代数的 $\sigma^p=1$、四行独立、
+$(I+L)^{-1}$ 与相位共轭方向，以及标准 $\mathbb U_5$ 首对角；
+不将其升级成原 forced 角色的已下降覆盖。
+
+
+§9 root 独立全文核准最终候选：循环指数的整补项、较大根代数的实际σ^p、相位共轭的逆矩阵、UT5嵌入及几何cusp的四moment判据均通过。原角色的全局单位范数见证与算术下降仍继续；没有将本节通用判据称为已构造原四阶覆盖。
