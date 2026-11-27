@@ -1,4 +1,4 @@
-name: Rank2 original shadow through complete triangular sources
+name: Rank2 original shadow through complete linear fibers
 on:
   push:
     branches: [main]
@@ -7,6 +7,8 @@ on:
       - 'topics/rank2-sha-infinitely-many-p/ci/original-triangular-artinian-shadow-request.json'
       - 'topics/rank2-sha-infinitely-many-p/scripts/launch-original-triangular-artinian-shadow.py'
       - 'topics/rank2-sha-infinitely-many-p/scripts/produce-original-triangular-artinian-shadow.py'
+      - 'topics/rank2-sha-infinitely-many-p/scripts/produce-original-linear-fiber-artinian-shadow.py'
+      - 'topics/rank2-sha-infinitely-many-p/scripts/original_linear_fiber_frobenius.py'
   workflow_dispatch:
 permissions:
   contents: read

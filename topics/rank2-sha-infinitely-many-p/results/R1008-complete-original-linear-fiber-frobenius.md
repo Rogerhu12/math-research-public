@@ -196,3 +196,10 @@ R986 对原 $k=\mathbf F_{r^2}$ 和实际 $\omega^2+\omega+1=0$ 使用同一 $\p
 
 本后继尚未接入 workflow/request，也未得到新的数学 PASS。后续必须先读 v8 的实际终点，再以同一公开 Actions 认证两份原 PASS、同一 r29/q2453/batch64、全部旧几何门运行。即使新运行全部通过，也只完成该原 shadow 的有限几何消费，不由此声称无穷素数或通常全 Sha 已完成。
 
+
+
+### 6.1 已取得 v8 真终点后接入
+
+01:05:47 UTC的v8真实timeout124已由完整日志确认，job01:05:50 failure；日志15,338,257B/SHA256 0f152e20586ada434972be34134f9632f71ce409dda080948a3ed4f95b479951。原negative第二个base-prime仍在Frobenius169/306，没有全shadow。
+
+因此随后将本文完整wrapper接到既有launcher、v9 request及workflow；全部49份源码/两原PASS、原参数及全部旧验收保持。wrapper SHA256为aec8056ca7cda7a6ab60157aeddd1051dc14b18255e15e0749616db9692ddfdc。新增运行的实际source/run及结果尚待产生，未以静态接线冒充执行成功。详见[真实终点与后继](../notes/2026-11-27-artinian-v7-final-and-successor.md)§4–5。

@@ -81,3 +81,20 @@ shadow 提供对象，只提供一个单独的 API 回执。按根规矩第 12 �
 RESULT 8,315 B / SHA-256
 `99ec7d327ac73cfb354805c3fd6397ef0ccad40192956bc55790d06e8750a27a`。
 详情见 R974 第 7 节。生产原大链未据此宣称成功。
+
+
+## 4. v8 的真实终点：原 Frobenius 仍是未完成阶段
+
+2026-11-27 01:05:50 UTC，run45882239615/job140124138541 已完成且 failure；source 为 3b0fe32226b1f91ec37ef68a8d53ff865e9d9b26。数学步骤19:15:47 UTC开始，01:05:47 UTC在21000秒外层 timeout 下退出；01:05:47.9804494 的真实 runner 行明确为 exit124，host 同时记录 signal15。不把它称为数学反例、OOM或通过。
+
+完整最终日志为15,338,257字节，SHA256为0f152e20586ada434972be34134f9632f71ce409dda080948a3ed4f95b479951。日志只留临时工作区，不入仓库。
+
+本次原 maps、两图运输、全零/极 degree612 已经过；positive 三个base-prime的完整厚分解均完成。negative base-prime0的四个真实厚因子分别长2、16、578、16，最后一个于00:42:58完成。随后 negative base-prime1 的306维残余 Frobenius在01:03:46明确完成169行；最后01:05:46仍在原完整306乘法算子的第1538次认证，elapsed20986.06。没有四交、全厚Norm或18×9 shadow的最终回执。
+
+## 5. v9 只接已证明的同原输入后继
+
+[R1008](../results/R1008-complete-original-linear-fiber-frobenius.md)保留v8入口和全部原验收，改变真正瓶颈处的完整线性纤维实现：实际一次根、原常数生成元/omega、两图权、所有46971乘积双序、全部306单位和半线性Frobenius均返回。另完整接入R975的七个全行模aliases及R986的两个原剩余域constructors，未删厚度或范数目标。
+
+待本提交触发的v9仍为r29/q2453/batch64/minimal、shadow、两份原char0 PASS，Sage10.6固定镜像、离线数学/只读源码及host独占read token。source manifest从45份增为49份，新增完整wrapper与三份实际helper。request schema为rank2-original-triangular-artinian-request/v9；linear_algebra为r1008-whole-linear-fibers-pair-reset-native-norm。保21000秒数学/360分钟job和同一个不取消在运行作业的concurrency group。只有v8真终点已取得后才接入；不与其并发启动。
+
+本地仅作AST/JSON/YAML与所有source pin检查；不把这些静态检查记为新数学PASS。新run/source/日志终值须在真实产生后追加。

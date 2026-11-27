@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Host provenance for the complete original shadow with R942 source solvers.
+"""Host provenance for the complete original shadow with exact R1008 successor bindings.
 
 Only the existing public PASS reader receives the workflow read token.  The
 mathematical process is offline, has a read-only source mount, and writes no
@@ -39,7 +39,7 @@ def request_arguments(root):
     obj = json.loads(raw)
     assert set(obj) == {"schema", "prime", "first", "packet", "phase", "trace_method",
                         "q_precision", "batch_size", "kernel_method", "linear_algebra", "run_api_preflight"}
-    assert obj["schema"] == "rank2-original-triangular-artinian-request/v8"
+    assert obj["schema"] == "rank2-original-triangular-artinian-request/v9"
     assert type(obj["prime"]) is int and obj["prime"] in (29, 41)
     cli = ["--prime", str(obj["prime"])]
     keys = ("job", "run", "run_head", "source", "result_sha256")
@@ -57,7 +57,7 @@ def request_arguments(root):
     add_pinned_arguments(parser)
     checked = pinned_request(parser.parse_args(cli))
     assert obj["phase"] == "shadow"
-    assert obj["linear_algebra"] == "r974-native-residue-full-transport-batch-units"
+    assert obj["linear_algebra"] == "r1008-whole-linear-fibers-pair-reset-native-norm"
     assert type(obj["run_api_preflight"]) is bool
     assert obj["trace_method"] in ("artinian",)
     assert type(obj["q_precision"]) is int and obj["q_precision"] >= 2453
@@ -86,6 +86,9 @@ def main():
     names = (
         "launch-original-triangular-artinian-shadow.py",
         "produce-original-triangular-artinian-shadow.py",
+        "produce-original-linear-fiber-artinian-shadow.py",
+        "original_linear_fiber_frobenius.py",
+        "original_pair_reset_row_reduction.py", "original_quadratic_norm_field.py",
         "original_triangular_artinian_values.py", "original_triangular_preimage_tools.py",
         "original_polynomial_row_reduction.py", "original_degree_bounded_row_reduction.py",
         "original_ys_equation_transport.py", "original_ys_geometry_transport.py",
@@ -109,7 +112,7 @@ def main():
         "check-r873-original-cm-petersson-degree.py", "original_low_weight_cm_tools.py",
         "produce-r917-original-global-rr-q-lattice.py", "original_pari_m2_basis.py",
         "original_shadow_coordinate_tools.py")
-    assert len(names) == len(set(names)) == 45
+    assert len(names) == len(set(names)) == 49
     files = [TOPIC/"scripts"/name for name in names]+[
         REQUEST, WORKFLOW, Path("README.md"), TOPIC/"README.md"]
     assert not git(root, "status", "--porcelain", "--", *map(str, files))
@@ -143,7 +146,7 @@ def main():
         command += ["-e", key+"="+value]
     command += ["-v", str(root)+":/work:ro", "-w", "/work",
                 "--entrypoint", "/usr/bin/sage", IMAGE, "-python",
-                str(TOPIC/"scripts/produce-original-triangular-artinian-shadow.py"), *cli, *extra]
+                str(TOPIC/"scripts/produce-original-linear-fiber-artinian-shadow.py"), *cli, *extra]
     reader, sage, success = None, None, False
     started = time.monotonic()
 
