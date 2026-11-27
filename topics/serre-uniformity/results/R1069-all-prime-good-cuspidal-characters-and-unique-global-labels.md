@@ -427,3 +427,10 @@ root 推导并逐式核原 forced 模块、Kummer 角色、
 奇字符正交及类数上界；o2_high_coefficient 独立核
 两个互逆角色、单位 kernel、常数24和完整整数下界。
 全篇没有假设正则素数具有某个密度，没有用有限数据代替全素数结论。
+
+
+[R1071](R1071-original-p-local-cuspidal-label-polynomials.md)
+现给原每个 $p$-local residue disk 的完整有限多项式坐标；
+在本篇 good 角色上按同一原 circular-unit 基除以非零 $b_\chi$，
+准确产生本篇唯一 global 候选。其余 class-group 角色未因此消失，
+实际辅助共同像排除仍须继续。

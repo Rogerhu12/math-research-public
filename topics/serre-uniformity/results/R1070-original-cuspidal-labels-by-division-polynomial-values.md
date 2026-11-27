@@ -738,3 +738,10 @@ $$
 global_route 与 root 分别付款边界角色及精确判据；
 o2_high_coefficient 独核 exceptional 角色的 Jacobi/Bernoulli valuations。
 全部为纸面证明，无数学程序执行。
+
+
+[R1071](R1071-original-p-local-cuspidal-label-polynomials.md)
+从本篇原 $\psi_c$ 函数在全部 supersingular reference 的有限 Taylor 数据，
+给每个实际 $p$-local disk 的全角色多项式。
+原 $\beta_0,\lambda$、Weil root 和 circular-unit 尺度均保留，
+高 log 分母全部排除；仍须比较同一全局候选与本篇有效辅助点像。

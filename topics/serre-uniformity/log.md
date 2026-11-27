@@ -581,3 +581,8 @@ R1066 给全 $p>37$ 原最小正则模型每个 $\mathbf Q_p$ 模 $p$ 圆盘的�
 
 - R1061§20原Miller规范确定对称kernel J；完整graph、有限极界Cartier A/B及一维radical Ψ经root/o1纸核，给真实自伴与C(UHω)=−ω′。
 - H/open前态逐字归档；原指定H(0)、真实K₄及短primitive仍待证，不以自伴或线性读数单位代端值，无数学执行。
+
+### 2026-11-27 09:24 Asia/Taipei — Astra-serre-24b8836b-20261126
+
+- R1071给完整原所有p盘、所有实际V角色的有限ψ_c dlog多项式，deg<p；高log双分母、R=2边界、pole根和、实际整权unit替换及原β₀/λ/Weilγ已root/o2逐项纸核。
+- 原circle leading bχ读取good角色的唯一global候选，j0/j1728 coarse和两twists齐备；H/open前态逐字归档。仍须真实有限系数、有效aux同点向量及排除，不以接口代Serre完成；无数学执行。

@@ -2,7 +2,7 @@
 
 **主要目标仍OPEN。** 完整证明绝对常数C，或给出p→∞完整无CM反例族；有限素数、条件结论、低权/局部Abel/部分子群均不够。
 
-此前逐字状态在[最新open归档](open-archive-2026-11-27-before-miller-FM.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重算。
+此前逐字状态在[最新open归档](open-archive-2026-11-27-before-p-local-polynomials.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重算。
 
 ## 原最低型：已经付清的输入与准确剩余标量
 
@@ -31,21 +31,23 @@ R1018–40的原完整Fm/两节点Dickson/PD及好BT整比较均已付，详细�
 
 ## O0：全主目标覆盖（R1003恢复原范围）
 
+[R1071](results/R1071-original-p-local-cuspidal-label-polynomials.md)：全V原p盘标签由N=(p+1)R、d_i=N−(p−1)i的实际ψ_c dlog系数给出，deg≤I≤p−2；全部高log/整权替换/pole/relative误差及β₀、λ、同一Weilγ已付。Bernoulli-good除原bχ给唯一global候选；j0/j1728分别为t³/t²且保两twists。原有限Taylor数据、有效aux同点像及全局排除继续。
+
 [R1070](results/R1070-original-cuspidal-labels-by-division-polynomial-values.md)：原ψ_c标签含全部相位/实下降/cusp规范。§§9–10原unit格排两边界角色，同一primitive c对完整V可逆；精确可见 iff ord_pℓ奇且非p3mod4的(p−1)/2。safe prime仅ℓ1modp可见。低次平滑κ零确pth；同y/embedding/全局候选共同像排除仍开。
 
 [R1069](results/R1069-all-prime-good-cuspidal-characters-and-unique-global-labels.md)：全部p>37上，原Bernoulli单位角色χ=ω^r无regular/Vandiver假设地给p-only global→local同构。Herbrand及准确ωχ⁻¹ Kummer方向杀对应real类群；奇字符正交/相对类数给good forced维数≥⌊p/4⌋−1−⌊log_p(2p((p−1)(p−2)/(24p))^((p−1)/4))⌋，故Ω(p/logp)。该真实子覆盖每原p-disk仅一global候选，总数≤p·n_Qp(p)；其余坏角色类群及同标签辅助排除仍开。
 
 [R1068](results/R1068-original-small-auxiliary-prime-necklace-point-inputs.md)：原2/3五/八模型、twisted Burnside与精确点数已付，cusps无点。§7全部非零迹输入准确为五个固定Q-CM点的约化及原标签；保potential-good和twist重合，迹零反射点/同标签排除仍开。
 
-[R1067](results/R1067-original-cuspidal-labels-supported-only-at-p.md)：原规范标签仅p支撑，wild相对商/cusp交数齐备、允许非整j。regular p每个local标签唯一global候选，总数≤p·n_Qp(p)，删2/3自由度。圆单位及所有ℓ≠p的真实辅助式已付，全角色/embedding须同一y；irregular类群与共同像排除仍开。
+[R1067](results/R1067-original-cuspidal-labels-supported-only-at-p.md)：原全标签仅p支撑，允许非整j；wild coarse及全部ℓ≠p好模型已付。regular全V唯一global，后继R1069无条件good角色唯一。
 
-[R1066](results/R1066-original-p-local-disks-and-bounded-CM-representatives.md)：每个原Qp盘有 $D'\le4p^{3/2}/\sqrt3$ 惰性CM代表，实际π格/GM/source/coarse twists齐备；有限CM指定embedding给全部local标签，不推Q-CM或全局评价相等。
+[R1066](results/R1066-original-p-local-disks-and-bounded-CM-representatives.md)：每盘有D′≤4p^1.5/√3的惰性CM代表，实际π格/GM/full source/coarse twists齐备；不推Q-CM或全局标签相等。
 
-[R1065](results/R1065-original-p-local-cusp-label-compression.md)：原Qp每盘标签恒定，实际像≤ $p\,n_{\mathbf Q_p}(p)=O(p^{3/2}\log p)$；后继R1067严格删原2/3的κ因子。
+[R1065](results/R1065-original-p-local-cusp-label-compression.md)：原每p盘标签恒定，实际像≤p·n_Qp(p)=O(p^1.5logp)；精确有限读法见R1071。
 
-[R1064](results/R1064-original-cuspidal-cover-descent-and-auxiliary-character-visibility.md)：真实Q-torsor及cusp平方角色已付；regular p每cusp单一p^r次闭点，无Runge盈余。辅助ℓ只读ℓ^(2j+1)=1角色，可见商/Weil给有限范围；R1067扩至2、3，同标签排除仍开。
+[R1064](results/R1064-original-cuspidal-cover-descent-and-auxiliary-character-visibility.md)：真实Q-cover与cusp平方角色已付；regular cusp单一p^r次闭点，无Runge盈余。原可见商/Weil范围保留，精确visibility见R1070。
 
-[R1062](results/R1062-original-full-nonsplit-cuspidal-kummer-descent.md)：原cusp模块/Galois、class-group及regular圆单位局部非零已付，forced角色≥⌊p/4⌋−1；支撑/实际像现由R1065–67收紧。
+[R1062](results/R1062-original-full-nonsplit-cuspidal-kummer-descent.md)：原完整cusp格/Galois及forced角色≥⌊p/4⌋−1已付，后继R1067–71保原函数和规范。
 
 R1只把全部异常缩为p>37的完整N_ns；**p≡2,5 mod9只是另加小惯性I_p=C³的结论**。R317的应用另外要求整j、K=Q(√−3)、σ=1，以及实际二除法域和三除法S3商域同时一致。完整惯性、非整j、变化K、σ非平凡及异小除法域的大导子支路，均未由当前CM证明链排除。原导子下界不是上界。O1/O2研究指定辅助源，不是完整剩余情形；真正全局高度也仍待证。逐条假设见[R1003](results/R1003-global-scope-and-remaining-branches.md)，后继不得省略此覆盖缺口。
 
