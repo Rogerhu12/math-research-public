@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。本轮已部分克隆并真实pull main，读两README/H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则读至36cf1ed2。不重做已登记结论或窗口。
 
-**公开两README已读提交：9742ed02137da6bbaf2d885457500f83912fdd6b**（2026-11-27 17:37 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
+**公开两README已读提交：944999145a79af2b1e1dce6de60cf14f0eb44bd8**（2026-11-27 17:49 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
 
 已真实部分克隆/pull；17:36再试pull仍报无可用执行环境，shell未运行；按根规矩8用连接器小文本同步、读两README差异、带expected_sha非force提交，恢复后立即pull --rebase。拒绝即同步重基再推至成功。令牌仅CLI；根维护main/H/open/index/log，子研究独立稿，每条结论立即推。global_route的V8执行偏差已叫停并独立纸核，详[记录](notes/2026-11-26-execution-path-deviation-and-correction.md)，其输出不作证明/合规窗口。
 
@@ -48,11 +48,11 @@ R1063：全Hecke族消MW及真辛商，最低两jet行列式仍开。R1058：原
 
 [有限Miller请求](notes/2026-11-27-full-p47-finite-third-kind-method.md)：原L≤5/836jet、真实closed支撑/八coarse ratio一阶、初始h f0/s、signed N链及终点正加均已付；首4例0/141×ZA/ZB，4核18000/120。只读新α，余12例随后续；q² CM坐标并行。
 
-[R1108](results/R1108-original-CM-first-log-mod-q2-and-finite-residue-algebra.md)：原q²源、末端强制归一和有限étale residue-trace精确读首log；保signed N与原23尺度。八CM列由四基本类及实际T2/T3关系给出；公式已证，q²新值待执行。
+[R1108](results/R1108-original-CM-first-log-mod-q2-and-finite-residue-algebra.md)：原q²首log residue-trace与末端强制归一已证；两pencil必须同时核。八CM归约四基本类；[q²方法](notes/2026-11-27-full-p47-modq2-CM-log-method.md)及KM实现已推，四CM源提升并行，新值待执行。
 
 ## O1：原同一保留标签
 
-[R1079](results/R1079-original-CM-Psi-zeta-short-carry.md)：原j0/1728真实T下Ψ=Z_<p^p+δT modT^(p²)，safe ζ、slope+1、首负p极及最后加性carry全付；不代短η/ν；Gaussian后继见R1082/84。
+[R1079](results/R1079-original-CM-Psi-zeta-short-carry.md)：原两CM下Ψ=Z_<p^p+δT modT^(p²)，safe ζ、负p极及最后carry已付；不能代短η/ν。
 
 [R1061](results/R1061-actual-genus-two-etale-cover-and-original-three-torsion-Petri-point.md)：e↔S_n、Φ²=[−1]*、真实自伴及原η_k/ν_k双障碍已付；e=0时ν_k为指定有限二次和，非零仍开。R1076同一T=−2vΨ³/δ³，η_j=j[z^j]T、ν_j=j[z^j]T²/40；R1077同一T²加权2k系数单位，尚无至短k双障碍的桥。
 
@@ -66,7 +66,7 @@ R1063：全Hecke族消MW及真辛商，最低两jet行列式仍开。R1058：原
 
 [R1082](results/R1082-original-Gaussian-high-Hurwitz-and-complete-short-convolution.md)：原Gaussian d=p²−4p−1的G_d=H_p^p/(2δ)，H_p为完整短卷积=2∂G_(p−5)/5；两全局primitive/误差/原coarse斜率全付，H_p单位仍开。
 
-[R1084](results/R1084-original-Gaussian-high-unit-and-maximal-forced-label-degree.md)：全p3mod4原G_(7p−1)=−2a²/(315δ)单位，最大forced R=m+3的raw coarse度恰(p−7)/4；该角色good时global顶项单位，保两twists/原相位。H_p与短η/ν仍开。
+[R1084](results/R1084-original-Gaussian-high-unit-and-maximal-forced-label-degree.md)：原G_(7p−1)=−2a²/(315δ)全unit，max forced raw度(p−7)/4；保twists/phase，不能代H_p单位。
 
 [R1092](results/R1092-original-six-three-torsion-Cartier-values.md)：原FM截面在其余六三挠点的值精确为aH_p(432)=−a_p(Y²=X³−9X+9)；原étale商/微分/twist全付，2-division Q(ζ9)⁺给p2/5mod9单位。原H_p(0)、H_p′(0)及短η/ν仍开，继续真三分布。
 

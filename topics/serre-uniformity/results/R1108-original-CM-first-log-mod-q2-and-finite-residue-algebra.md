@@ -156,6 +156,16 @@ $$
 residual-gcd在special fiber无交，亦保证相对colon没有额外基点。
 所有乘法至多$V_5$，不增长到$N$倍的大除子空间。
 
+特别，在$R$上实现两个无基点pencil条件时，必须直接取
+$
+\{s:s\,s_0\in Z,\ s\,s_1\in Z\}
+$
+的同时核；它由上述相对Riemann–Roch保证平坦。
+单个pencil条件的中间space可能因special-fiber交点跳维，
+不应在尚未支付平坦性时先单独提升再取第二次colon。
+对试选section的residual-gcd也先在模$q$检验最小维数；
+有额外gcd则换section，不能假该跳维空间已经平坦。
+
 ## 4. 末端的必要有效除子归一
 
 在$R$上按实际 signed 链求得
