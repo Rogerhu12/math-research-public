@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [Phi首头P6不可约及保留整首项权曲线](results/R150-appendix-unit211-Phi-zero-first-head-D-core-irreducibility-and-retained-leading-weight-curve.md)：真λ6头为原单位×137项H19/11，H未付；全原头零范围保留。
+
 - [Phi真矩像六次的精确QQ三重数及保留整纤维](results/R150-appendix-unit211-Phi-zero-exceptional-genuine-moment-image-exact-three-and-retained-fiber.md)：原QQ342阶矩阵18核全返，整纤维尚未闭，保146界而非128。
 
 - [W完整NV的直接二次及未付H411全首项](results/R150-appendix-unit211-W-entire-NV-direct-T-quadratic-and-complete-leading.md)：原q5/q4/q3完整恒等，二次头411项；保整零面及全部原个别N/P。

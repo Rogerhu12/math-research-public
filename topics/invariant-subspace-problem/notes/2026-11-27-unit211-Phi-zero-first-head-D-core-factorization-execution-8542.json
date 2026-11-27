@@ -1,0 +1,265 @@
+{
+  "schema": "isp-first-head-saved-D-core-factor-execution-v1",
+  "jobId": 140629804758,
+  "execution": {
+    "elapsed_seconds": 0.17549340900000132,
+    "max_child_rss_kib": 43116,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "ad53b75a50916bd96599d6962bc7e16b166cafbb",
+        "before": "5ef6957e12f9e14f96cf58797eb98ed13ee07169",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-27T16:40:10.991925+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46035511714",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "5ef6957e12f9e14f96cf58797eb98ed13ee07169",
+    "source_exit_code": 0,
+    "source_git_blob": "c243b95a88a5400dea644f755f1429ead6300d82",
+    "source_sha256": "6caada58cce3cd46f81b85c2ec21981635cf2ce70a1904ecc20b2c94768c7960",
+    "stdout_bytes": 63697,
+    "stdout_sha256": "8626f9233561e410f11ba0eb32df67405c2e04b1bd1d4bbce41017da00a992e9",
+    "stop_reason": null
+  },
+  "actualStages": [
+    {
+      "actualOriginalLC": {
+        "profile": {
+          "degrees": [
+            34,
+            19,
+            0
+          ],
+          "terms": 387,
+          "sha256": "2275f8cb62495b1da910bb4b7b8a782669c40165f3b7289c9742789453a9dbe3"
+        },
+        "encoding": "base64+zlib+json",
+        "payloadSha256": "554ea0c78ec5c91a156a081c1dbfbd59c5211c3a6072f041116090391d2f4ed5"
+      },
+      "paidUnitDivisions": [
+        [
+          "u",
+          {
+            "degrees": [
+              1,
+              0,
+              0
+            ],
+            "terms": 1,
+            "sha256": "2c0e1b694a86ff1d0a22cda36a75ad29859583c46aa4462bada4ffc3cfe83f7a"
+          }
+        ],
+        [
+          "u-1",
+          {
+            "degrees": [
+              1,
+              0,
+              0
+            ],
+            "terms": 2,
+            "sha256": "b8eb027e944a9c7b3995dccd7481fc2417485af1200432f036c162964f1c416c"
+          }
+        ],
+        [
+          "u-1",
+          {
+            "degrees": [
+              1,
+              0,
+              0
+            ],
+            "terms": 2,
+            "sha256": "b8eb027e944a9c7b3995dccd7481fc2417485af1200432f036c162964f1c416c"
+          }
+        ],
+        [
+          "Q",
+          {
+            "degrees": [
+              0,
+              1,
+              0
+            ],
+            "terms": 1,
+            "sha256": "951a9014873bfbb92266685db59c271e496f93fea267be9466833765c467e751"
+          }
+        ],
+        [
+          "1-Q",
+          {
+            "degrees": [
+              0,
+              1,
+              0
+            ],
+            "terms": 2,
+            "sha256": "26facf26a2c7e1291f651b9654cca4fc064fa5d17b86dc239ae4483fccab3039"
+          }
+        ],
+        [
+          "ell numerator",
+          {
+            "degrees": [
+              2,
+              1,
+              0
+            ],
+            "terms": 4,
+            "sha256": "75b66454d2fc835581f57b22c7bc6c445acbc6f219fae7fa5bb01b3869862a53"
+          }
+        ],
+        [
+          "ell numerator",
+          {
+            "degrees": [
+              2,
+              1,
+              0
+            ],
+            "terms": 4,
+            "sha256": "75b66454d2fc835581f57b22c7bc6c445acbc6f219fae7fa5bb01b3869862a53"
+          }
+        ],
+        [
+          "ell numerator",
+          {
+            "degrees": [
+              2,
+              1,
+              0
+            ],
+            "terms": 4,
+            "sha256": "75b66454d2fc835581f57b22c7bc6c445acbc6f219fae7fa5bb01b3869862a53"
+          }
+        ],
+        [
+          "ell numerator",
+          {
+            "degrees": [
+              2,
+              1,
+              0
+            ],
+            "terms": 4,
+            "sha256": "75b66454d2fc835581f57b22c7bc6c445acbc6f219fae7fa5bb01b3869862a53"
+          }
+        ],
+        [
+          "ell numerator",
+          {
+            "degrees": [
+              2,
+              1,
+              0
+            ],
+            "terms": 4,
+            "sha256": "75b66454d2fc835581f57b22c7bc6c445acbc6f219fae7fa5bb01b3869862a53"
+          }
+        ],
+        [
+          "ell numerator",
+          {
+            "degrees": [
+              2,
+              1,
+              0
+            ],
+            "terms": 4,
+            "sha256": "75b66454d2fc835581f57b22c7bc6c445acbc6f219fae7fa5bb01b3869862a53"
+          }
+        ]
+      ],
+      "remainingLC": {
+        "profile": {
+          "degrees": [
+            19,
+            11,
+            0
+          ],
+          "terms": 137,
+          "sha256": "34a23fed4f191a95c05b8e2eb0eb33dfef8123e68cddde090db4e4de400c57db"
+        },
+        "encoding": "base64+zlib+json",
+        "payloadSha256": "9d5eec70f4e8ffc36737d0096161fba92f11528ed7af84129b80c76547e3d3b0"
+      },
+      "irreducibleQQWeightFactors": [
+        {
+          "multiplicity": 1,
+          "polynomial": "1024*u^19 - 3072*u^18*Q - 22016*u^18 - 4096*u^17*Q^2 + 70656*u^17*Q + 220672*u^17 + 92544*u^16*Q^2 - 759936*u^16*Q - 1374208*u^16 + 10496*u^15*Q^3 - 963968*u^15*Q^2 + 5040896*u^15*Q + 6006272*u^15 - 256*u^14*Q^4 - 183072*u^14*Q^3 + 6108896*u^14*Q^2 - 22879872*u^14*Q - 19897856*u^14 - 3648*u^13*Q^4 + 1435616*u^13*Q^3 - 26093472*u^13*Q^2 + 74305408*u^13*Q + 53297664*u^13 + 896*u^12*Q^5 + 59544*u^12*Q^4 - 6547128*u^12*Q^3 + 78165920*u^12*Q^2 - 174004736*u^12*Q - 122549248*u^12 - 13360*u^11*Q^5 - 228108*u^11*Q^4 + 18365472*u^11*Q^3 - 163200768*u^11*Q^2 + 281867136*u^11*Q + 252491264*u^11 - 1200*u^10*Q^6 + 120502*u^10*Q^5 - 390360*u^10*Q^4 - 28086096*u^10*Q^3 + 216692160*u^10*Q^2 - 256521472*u^10*Q - 469573632*u^10 + 17556*u^9*Q^6 - 754902*u^9*Q^5 + 6795944*u^9*Q^4 - 1765304*u^9*Q^3 - 94935200*u^9*Q^2 - 83478528*u^9*Q + 768008192*u^9 + 776*u^8*Q^7 - 123485*u^8*Q^6 + 3236192*u^8*Q^5 - 30096488*u^8*Q^4 + 124728288*u^8*Q^3 - 311387392*u^8*Q^2 + 754960384*u^8*Q - 1064079360*u^8 - 8782*u^7*Q^7 + 521461*u^7*Q^6 - 9478916*u^7*Q^5 + 78010160*u^7*Q^4 - 341503616*u^7*Q^3 + 888893184*u^7*Q^2 - 1461353472*u^7*Q + 1208692736*u^7 - 252*u^6*Q^8 + 42946*u^6*Q^7 - 1403483*u^6*Q^6 + 19062284*u^6*Q^5 - 134535840*u^6*Q^4 + 542566272*u^6*Q^3 - 1294958336*u^6*Q^2 + 1768684544*u^6*Q - 1096695808*u^6 + 1786*u^5*Q^8 - 111528*u^5*Q^7 + 2428980*u^5*Q^6 - 26192544*u^5*Q^5 + 159737152*u^5*Q^4 - 580535808*u^5*Q^3 + 1255617536*u^5*Q^2 - 1505492992*u^5*Q + 775962624*u^5 + 28*u^4*Q^9 - 4114*u^4*Q^8 + 155299*u^4*Q^7 - 2618504*u^4*Q^6 + 23959984*u^4*Q^5 - 129823872*u^4*Q^4 + 428982528*u^4*Q^3 - 848271360*u^4*Q^2 + 919212032*u^4*Q - 416251904*u^4 + 13*u^3*Q^9 + 1734*u^3*Q^8 - 91452*u^3*Q^7 + 1563888*u^3*Q^6 - 13632960*u^3*Q^5 + 69317376*u^3*Q^4 - 214078464*u^3*Q^3 + 394285056*u^3*Q^2 - 394936320*u^3*Q + 162725888*u^3 + 5*u^2*Q^10 - 434*u^2*Q^9 + 7000*u^2*Q^8 - 28720*u^2*Q^7 - 280320*u^2*Q^6 + 3993856*u^2*Q^5 - 22011904*u^2*Q^4 + 67399680*u^2*Q^3 - 119275520*u^2*Q^2 + 113049600*u^2*Q - 43515904*u^2 - 31*u*Q^10 + 897*u*Q^9 - 10812*u*Q^8 + 67104*u*Q^7 - 190848*u*Q^6 - 150528*u*Q^5 + 3182592*u*Q^4 - 11476992*u*Q^3 + 20742144*u*Q^2 - 19202048*u*Q + 7077888*u - Q^11 + 35*Q^10 - 538*Q^9 + 4728*Q^8 - 25728*Q^7 + 86016*Q^6 - 150528*Q^5 - 12288*Q^4 + 688128*Q^3 - 1507328*Q^2 + 1441792*Q - 524288",
+          "exact": {
+            "profile": {
+              "degrees": [
+                19,
+                11,
+                0
+              ],
+              "terms": 137,
+              "sha256": "7c05e2ecea3e017666d254936ff56f1a7fd61046c90e20315e8d92bc395a2e6d"
+            },
+            "encoding": "base64+zlib+json",
+            "payloadSha256": "52aa676c40827c798ccae390774a4ee40728208ee090390f2e8b92106e86e638"
+          }
+        }
+      ],
+      "exactWholeFactorProductReturned": true,
+      "onlyOnFirstOriginalQuadraticHeadChart": true,
+      "allNewLambdaLeadingZeroWeightCurvesRetained": true,
+      "wholeLambdaHeadPaidUnit": false,
+      "noOriginalDAGRecomputed": true,
+      "stage": "new_complete_true_lambda_six_leading_coefficient",
+      "seconds": 0.03987166499999972
+    },
+    {
+      "originalCore": {
+        "degrees": [
+          39,
+          20,
+          6
+        ],
+        "terms": 3101,
+        "sha256": "f88b9076da476279adcf78f467002eb2eec65144860d4cfbcc31f4481a17dbfa"
+      },
+      "stage": "new_whole_saved_D_core_factorization_started",
+      "seconds": 0.06259017200000017
+    },
+    {
+      "irreducibleQQFactors": [
+        {
+          "multiplicity": 1,
+          "exact": {
+            "profile": {
+              "degrees": [
+                39,
+                20,
+                6
+              ],
+              "terms": 3101,
+              "sha256": "386f70873127c22b55ae527a5a66144682fbbc676f609cc013a251606fad1fb2"
+            },
+            "encoding": "base64+zlib+json",
+            "payloadSha256": "1cb1a2655b8d60aa8b873b226d96a510e6cb519f88775fcd04b2f9d4f9ae5d3d"
+          }
+        }
+      ],
+      "exactWholeOriginalCoreFactorProductReturned": true,
+      "firstOriginalHeadZeroCurveRetained": true,
+      "newLambdaLeadingZeroWeightCurvesRetained": true,
+      "noNewFactorDeclaredUnit": true,
+      "wholePhiFaceExcluded": false,
+      "ordinaryISPClaim": false,
+      "stage": "complete_new_saved_actual_D_core_QQ_factorization",
+      "seconds": 0.11469938500000154
+    }
+  ],
+  "noNewWeightFactorDeclaredUnit": true,
+  "firstHeadZeroCurveRetained": true
+}
