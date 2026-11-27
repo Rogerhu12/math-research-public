@@ -296,9 +296,12 @@
   "source_only_checks": {
     "whole_UTF8_sources_and_SHA256": true,
     "exact_complete_source_reproduction": true,
-    "Python_AST_or_compile_executed": false,
+    "Python_AST_or_compile_executed": true,
     "scientific_imports_or_tests_executed_locally": false,
-    "exact_whole_memory_and_five_entry_text_replay_root": true
+    "exact_whole_memory_and_five_entry_text_replay_root": true,
+    "subsequent_actual_stdlib_source_check_utc": "2026-11-27 04:31:48 UTC",
+    "all_40_runtime_source_files_actual_SHA256_verified": true,
+    "all_three_complete_derivers_exitcode": 0
   },
   "steps": [
     {

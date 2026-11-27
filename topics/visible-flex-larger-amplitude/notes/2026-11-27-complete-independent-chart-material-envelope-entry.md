@@ -122,3 +122,19 @@ root与代理实际做的是完整UTF-8文本生成、精确替换发生次数�
 独立新target一旦冻结，后续同一family及精化都必须保持它。07上的cc0a→M320仍属于原chart目标，不能搬作这个7c目标的同g精化。当前全部新场、完整normal分支、真实方向和其后径向/N/frequency精化仍按实际来源执行。
 
 有限全E筛仍不是连续域证书。完整准确六jet/raw-h-Delta、闭连通C²装配、全t强C²、固定内点握持/整像变化≥.2D、含反射非全等、全t reach≥.03D和整面relative metric operator norm≤1e-6，以及固定g/参数/范围的真实精化与可复现多t网格仍须继续支付。run预算、输入失败或本次源码完成均不构成本题完成。
+
+## 9. 2026-11-27 04:31:48 UTC：终端恢复后的真实源码再生
+
+此前35e4提交时未运行AST的边界保持。04:27终端显式bash/root工作目录恢复后，发现旧临时检出已不存在；root重新以blob:none、single-branch main、no-checkout克隆，再仅稀疏检出本题，并真实pull/rebase至上述HANDOFF所记提交。根README完整SHA581402与课题3c1c均无变。
+
+root现实际运行三个完整stdlib再生器，均退出0：
+
+- producer657c以完整6cc父重建105289，原2397/7377数学段逐字同，AST/compile实际完成。
+- memory2ea03以完整1e2c父重建4d92/48544B，在scratch写出同一完整源，AST/compile实际完成。
+- entry8d2d以完整五父重建1bcce/182a/95559/104220/f382，逐全文SHA/bytes相等，40-role整文件闭包匹配；所有指定不变函数/声明AST和compile实际通过，旧strict三函数与18958B科学后缀3a34逐字保持。
+
+完整命令分别是各公开再生器的--parent/--out/--verify-existing，或--repo/--outdir参数；输入均为本公开checkout中的完整已刊源，输出只作源码复现。这里未import NumPy/Torch/SciPy或执行F/J/root/数值fixture，不把语法检查当作新场实际成功。原ready的源码检查状态在本次更新为实际通过；实际数值运行仍按公开Actions真实返回记录。
+
+恢复后的真实拉取已读commit依次为 `c45c1bb6dfe27417891c7265eb4e302773a6e12e`、`658c31092cb0995bfc4a52ec3eded7244edf9231`；本次终端推送NFF后立即真实pull/rebase至 `250450ef74f006b09628b2187a16be198e745773`，于2026-11-27 04:36:05 UTC再次核双README完整SHA无变。重推只作普通非强制更新。
+
+真实pull/rebase规则核查：2026-11-27 04:38:09 UTC，origin/main `6bff50b25021f97899b3f3673073b44f0363d8e7`；双README整SHA无变；普通非强制推送重试1。
