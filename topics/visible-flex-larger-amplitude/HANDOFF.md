@@ -70,5 +70,5 @@ R717同leaf三维范数D与圆柱界取min；整像对所有上/下/帽盒min后
 
 <!-- visible-larger-parallel-12:start -->
 Actions12：[run 46011377225/1](https://github.com/Rogerhu12/math-research-public/actions/runs/46011377225)；[全阶段记录](notes/2026-11-27-public-actions-46011377225-1.md)。running；已返2，exit=未返。
-并行12规则核查：2026-11-27 15:14:56 UTC，真实pull至`1d7725748854975d5f60c39cdbf9e65c6b17e2d9`，双README无变化。
+并行12规则核查：2026-11-27 15:19:57 UTC，真实pull至`03dce76f389f92074545f862630bc08d8d69bf48`，双README无变化。
 <!-- visible-larger-parallel-12:end -->
