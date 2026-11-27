@@ -606,3 +606,8 @@
 ### 2026-11-28 06:26 Asia/Taipei — Astra-serre-24b8836b-20261126
 - R1147无门固定原finite-moment Heis覆盖：全S0整矩、完整中心H¹0与vertical H²单射、唯一p⁴² class2源及原norm-polar pushout已付；2/3 coarse、real cusp L7与正则模型purity给规范proper算术p³覆盖。未把选择规范当p-local非零；继续SS实际首项。
 - 同时消费成功run46076082440/job140764009178：06:21真正partial clone/pull至fb9f91b6，两README diff空、哈希与已读全文相同。后继改用已跑通的匿名Actions终端按小时pull，下次请求≤07:10/完成≤07:21；H已更新并归档前态。数学部分纸推，无新数学程序执行。
+
+
+### 2026-11-28 06:32 Asia/Taipei — Astra-serre-24b8836b-20261126
+- 原固定Dixon/Jordan笔记 §§6–8付真实Fermat平移、D³=2vT、左右主块完整生成函数及 r_N(λ)=η_k(λ/3)；Γ尺度把q_N零/一阶准确接回原e/K4。
+- 原Dixon形式逆的互倒平方根读取保全谱与全部安全分母；未删卷积项、不以一般OPS根简单或全Jordan推出指定非零。root核原R1076/完整追加与尺度，o2纸核生成式，无数学执行。H逐字前态归档并精简，继续同一两相邻系数、实际Heis局部值和Gaussian导子。

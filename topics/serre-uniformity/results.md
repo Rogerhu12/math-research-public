@@ -1,5 +1,7 @@
 # 结论索引
 
+- **原Dixon两实际谱块及原双读数（已证明）**：[原Dixon双谱生成式](notes/2026-11-28-original-genus-four-Dixon-Jordan-chain.md) §§6–8进一步付原Fermat平移、D³=2vT、q_N/r_N两个实际主块与完整生成式；r_N(λ)=R1076的η_k(λ/3)。Γ=(2v)^(2k)下q_N(0)=δr_N(0)/(2Γ)，e0时q_N′(0)=δr_N′(0)/(2Γ)，r_N′(0)=ν_k/3。Lagrange反演将完整谱写成原Dixon逆函数σ_D的互倒平方根(σ_D/τ)^(±1/2)相邻系数，全部阶乘/逆级数低于p；指定两系数非同时零仍开，未从大块Jordan或特征零正性偷推。
+
 - **原有限矩的规范 proper Heisenberg 来源（无条件已证明）**：[R1147](results/R1147-original-canonical-moment-Heisenberg-lift.md)已无条件p>37指定原moment的canonical proper Heis来源：Md的完整H¹独立c→逐ℓ同frame共同vertical阶消去；中心Z的H²泛点单射与H¹0给p⁴² universal class2 lift唯一。原q_I^2/q_I^4/q_I^6的det twists及完整polar是真正群同态；2/3稳定子、所有real cusp的L7惯性、正则模型purity给全S0规范p³连通覆盖。未将曲线上其它中心twists设零；实际p-local中心差现在用这个指定来源，仍须读SS首项并付finite-étale/整p-adic接口，不能改用复解析E6/E10代读数。
 
 - **原固定 genus 4 的 Dixon 平方根与两 jet（准确等价已证明）**：[原固定Dixon/Jordan源](notes/2026-11-28-original-genus-four-Dixon-Jordan-chain.md)付 e=K4=0 iff D^(p−5)η=0 iff固定整P_(p−5)全系数被p整除。P递推与三步(1−t)因子、原cD³的2k Laurent块/唯一核、两端单位和最小长度L∈{3k+1,3k+4,…,p−1}全成；e非零/L=p−1，e0K4非零/L=p−4，共同零/L≤p−7。单Jordan全块不代指定中列长度，继续原整content/端部多项式，不重扫素数。

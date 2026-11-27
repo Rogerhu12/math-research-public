@@ -106,6 +106,8 @@ R971证明无限列数不足，**全p full-span已否**；R992只给filtered V�
 
 [原固定Dixon/Jordan源](notes/2026-11-28-original-genus-four-Dixon-Jordan-chain.md)付 e=K4=0 iff D^(p−5)η=0 iff固定整P_(p−5)全系数被p整除。P递推与三步(1−t)因子、原cD³的2k Laurent块/唯一核、两端单位和最小长度L∈{3k+1,3k+4,…,p−1}全成；e非零/L=p−1，e0K4非零/L=p−4，共同零/L≤p−7。单Jordan全块不代指定中列长度，继续原整content/端部多项式，不重扫素数。
 
+[原Dixon双谱生成式](notes/2026-11-28-original-genus-four-Dixon-Jordan-chain.md) §§6–8进一步付原Fermat平移、D³=2vT、q_N/r_N两个实际主块与完整生成式；r_N(λ)=R1076的η_k(λ/3)。Γ=(2v)^(2k)下q_N(0)=δr_N(0)/(2Γ)，e0时q_N′(0)=δr_N′(0)/(2Γ)，r_N′(0)=ν_k/3。Lagrange反演将完整谱写成原Dixon逆函数σ_D的互倒平方根(σ_D/τ)^(±1/2)相邻系数，全部阶乘/逆级数低于p；指定两系数非同时零仍开，未从大块Jordan或特征零正性偷推。
+
 ## O2：完整原超奇异迹、真正CM packet及近顶unit系数
 
 R1135§10已付同coarse component两实际twist的全部运输：α^p=iα，t*′=it*，z′=−z；δ′=ηδ，Kronecker γ′=ηγ、N_R′=η⁻¹N_R，而Weil γ_W/bχ保持。完整核及i0常数给Π′(z′)=Π(−z′)，两线统一为z∈Fp。低行唯一unordered pair/Δ分离范围因此覆盖两线；保S0/P0，不合并其他components，不宣Δunit。

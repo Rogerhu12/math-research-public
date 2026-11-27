@@ -6,11 +6,11 @@
 
 会话 **Astra-serre-24b8836b-20261126**。已部分克隆并真实pull main，读根/课题README及H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则36cf1ed2已读。不得重做登记结论/窗口。
 
-**公开两README已读提交：f16d9c5915e362d828c50d6feb43e49bb24c6b0b**（2026-11-28 06:26 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 06:21 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
+**公开两README已读提交：eadf68efc50553d0c43283b817c3b0f30fb7b309**（2026-11-28 06:32 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 06:21 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
 
 最近真实pull已恢复：2026-11-28 06:21 Asia/Taipei，公开Actions run46076082440/job140764009178，在blob:none浅部分克隆中真实pull --rebase至fb9f91b6，两README diff空且SHA与已读全文相同；[源/回执入口](notes/2026-11-28-terminal-rule-sync.md)。下次请求≤07:10、真实pull≤07:21。本地06:18仍无环境；本地恢复即pull。每次提交仍按根规则8 fresh main/diff/expected_sha非force，拒绝立即同步重推。令牌只CLI，当前同步workflow匿名无token。数学程序仅本公开Actions；V8仅metadata/文本。[此前纠正](notes/2026-11-26-execution-path-deviation-and-correction.md)。
 
-root管main/H/open/index/log，子研究仅独立candidate；每条结论即推。H<10KB，open尽量<30KB，每MD<100KB，topic<200MB；不存可重算raw/artifact/Release，不写根LOG。[最新逐字前态](handoff-archive-2026-11-28-before-canonical-moment-lift.md)沿链保完整旧公式、source/run/hash；[open](open.md)/[索引](results.md)为完整入口。旧“R1003 norm3准备中”未交，现R1003为范围纠错。
+root管main/H/open/index/log，子研究仅独立candidate；每条结论即推。H<10KB，open尽量<30KB，每MD<100KB，topic<200MB；不存可重算raw/artifact/Release，不写根LOG。[最新逐字前态](handoff-archive-2026-11-28-before-Dixon-spectral-functions.md)沿链保完整旧公式、source/run/hash；[open](open.md)/[索引](results.md)为完整入口。旧“R1003 norm3准备中”未交，现R1003为范围纠错。
 
 ## O0：完整一般 p 与原算术 cochain
 
@@ -30,21 +30,17 @@ R1131的原forced高偶r，在B_(4j+2)/B_(p−1−4j)单位门内锁真实rank2�
 
 [R1147](results/R1147-original-canonical-moment-Heisenberg-lift.md)无门给同一cover的指定原来源：全S0有限矩、Sym12(2)⊕Sym8(4)⊕Sym4(6)中心H¹0，原p⁴² universal class2 lift唯一；q_I的全部det twists/polar系数pushout到上述Heis。逐ℓ theta共同vertical阶、2/3 coarse稳定子、real cusp的L7惯性和正则模型purity全部付。没有删曲线其它twists。global继续同一finite moment来源的p-local首项/SS接口；尚未用一维中心或规范来源宣排点，class4和一般pair继续。
 
-## O1：原 U^m 的两 jet 与精确 Padé
+## O1：原两 jet、Gauss–Padé 与固定 Dixon 输入
 
-[R1137](results/R1137-original-Lame-conjugation-with-complete-boundaries.md)原D₀/Λ rank3边界、U/B/C完整共轭及指定2Λ³φ+3ΨΛ²φ+6Φ(V)φ+3δΨ=0已成；Λ非局部D、moving p极不可删。§2整差商/相对Cartier/碰撞值χ(−Q)=−d0/v给实际Padé：
-N=(p−5)/6，Q=H(−v²x)、P=−J(−v²x)/a0，
-QF−P的contact恰2N+1且首余项unit，F=₂F₁(1/3,1/2;4/3)=√(1−x)G_N。
-原e/K4双零 iff Q0=Q1=0，P亦含x²；约后deg≤N−2/contact2N−1。§2.5新付P_N=−2(v²)^(2N+1)(2/3)_N/(7/6)_N unit，degP=N；不单独排二次缺陷。o1继续固定genus4导数的原Jordan长度/整递推；不把有理dlog K平坦性或全Weyl模块代rank2格。R1137§2.6新付原F²=(1−x)G_N²=D_N−g_N²x^(2N+1)，完整首carry保留，D/G各无重根且互素。实际norm余式Z非零deg≤N−1；e/K4双零则D q²−p²=x^(2N−1)W，W非零deg≤N−3，W0=2εp0不强称unit。实际三分支map指数全tame；余式排除仍开。
+[R1137](results/R1137-original-Lame-conjugation-with-complete-boundaries.md)保原D₀/Λ rank3边界、moving p极和完整第三类补偿；Λ非局部D。原Padé N=(p−5)/6，QF−P的contact恰2N+1、首余项unit；F=₂F₁(1/3,1/2;4/3)。e=K4=0 iff P,Q均含x²，约后deg≤N−2/contact2N−1。原P_N=−2(v²)^(2N+1)(2/3)_N/(7/6)_N为unit，故degP=N，未单独排二次缺陷。
 
+同文§2.6保F²=D_N−g_N²x^(2N+1)，D/G无重根互素；实际norm余式Z非零deg≤N−1，双缺陷后Dq²−p²=x^(2N−1)W、W非零deg≤N−3、W0=2εp0不强称unit。实际三分支map全tame；余式排除仍开。
 
-原Tate normal-FM的普通连接保HD_T及全部高极；固定Prym三同源φ=[−s]ψ、完整trace与Fermat矩已成，Ξ/Υ同一CM线，不能由完美性推e/K4非同时零。genus4 Y非hyperelliptic且e0 iff全βY0，单向引理不反用。R1113完整谱、R1130相邻δ、R1126六CM配对、R1060非CM ordinary及所有旧窗口只消费；R1134四输入十五Euler列fullrank及run/hash已成，不重跑。上述准确公式/links见open和前态。
+[原固定Dixon/Jordan源](notes/2026-11-28-original-genus-four-Dixon-Jordan-chain.md)付 e=K4=0 iff D^(p−5)η=0 iff固定整P_(p−5)全系数被p整除。P递推、三步因子、原2k Laurent块/唯一核、两端单位及L∈{3k+1,3k+4,…,p−1}全成；e非零/L=p−1，e0K4非零/L=p−4，共零/L≤p−7。单Jordan不代指定中列长度。
 
-[原固定Dixon/Jordan源](notes/2026-11-28-original-genus-four-Dixon-Jordan-chain.md)付 e=K4=0 iff D^(p−5)η=0 iff固定整P_(p−5)全系数被p整除。P递推与三步(1−t)因子、原cD³的2k Laurent块/唯一核、两端单位和最小长度L∈{3k+1,3k+4,…,p−1}全成；e非零/L=p−1，e0K4非零/L=p−4，共同零/L≤p−7。单Jordan全块不代指定中列长度，继续原整content/端部多项式，不重扫素数。
+[原Dixon双谱生成式](notes/2026-11-28-original-genus-four-Dixon-Jordan-chain.md) §§6–8进一步付原Fermat平移、D³=2vT、q_N/r_N两个实际主块与完整生成式；r_N(λ)=R1076的η_k(λ/3)。Γ=(2v)^(2k)下q_N(0)=δr_N(0)/(2Γ)，e0时q_N′(0)=δr_N′(0)/(2Γ)，r_N′(0)=ν_k/3。Lagrange反演将完整谱写成原Dixon逆函数σ_D的互倒平方根(σ_D/τ)^(±1/2)相邻系数，全部阶乘/逆级数低于p；指定两系数非同时零仍开，未从大块Jordan或特征零正性偷推。
 
-### 新诊断已成
-
-[R1145](results/R1145-original-Pade-banded-self-adjoint-exclusion.md)八个原H_N带宽1、2完整系统均只有标量；p=101,107,131,137，run46071081257/job140747905385成功，全部核维1及单位子式已付。只排有限输入的三/五对角自伴随机制，不代e/K4非同时零；不重跑。
+[R1145](results/R1145-original-Pade-banded-self-adjoint-exclusion.md)八个原H_N带宽1、2系统只含标量；四输入101/107/131/137，run46071081257/job140747905385的全核与单位子式已付，仅排有限机制。旧5372素数扫描、R1134十五Euler列、固定Prym/六CM配对/normal-FM边界和所有既成窗口只消费，不重跑；精确公式与source见open/逐字前态。
 
 ## O2：原 Gaussian 全 good-mask 与共同纤维
 
