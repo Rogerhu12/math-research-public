@@ -48,6 +48,8 @@ q11两原consumer均已完整成功：全Prym run45980566265/job140443090086（R
 
 R1041§§17–19把原rΓ Abel和显式写为第二四度图Φ，特征零微分/基点先相认再约化；真分歧值±3R0。固定J=(H−A3)/(H+A3)的完整除子及Weil reciprocity给U⁴/(cU²f^d)=Φ*M·J^(q+1)，原第三类保dlogJ修正。两holomorphic线的Cartier及Q6四槽完全由a_q(EL)控制，ss时Pell的bq/cq亦定；未代最高λ/27或无穷目标p。 §20把原U与ψ2的两个共享边界首项、全部坏纤维及闭点Norm逐个带入Weil reciprocity，得U(E+)²⁴∈Fq*，因此p≥5、p|q+1时无权半交值是p次幂。原27逐CM有权值不由此消去，转其真函数/eta/Cor与最高λ。
 
+R1043已付原2-Vélu/full9运输、canonical−3a_i倍率与真实τ^iφ0[ω^i]图。原Picard/源对偶ω因子及η2/η17相消，逐γ保全Cor，54项准确=6×9，原1/18平均变1/3。九项各带真实degree34对偶与原最高投影；继续其有权非零和ordinary比较，不以无权Pell或低维类替代。
+
 ## 四、其它未闭门与分工
 
 O4需原O格Q=δ^aεw于无穷ordinary p有a≤1；E17的a偶、E389的lengthShaA=2(a+1)保持。O6需固定两点饱和λ的全核Np有限、真q_p=1于无穷p，原Tor及全p损不删。O7保同解内/闭盘、同Y余数、全Laurent/非恒Y权/全部216真管差，仍未迫原闭边界全零；跨parity R953和R954指定forcing成员性仍开，完整参数在open与逐字归档。旧外部强声称/负例保持，不重做已排方向。

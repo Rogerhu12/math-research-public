@@ -107,7 +107,7 @@ R1039原g二盖Prym严格是EL:y²=x³−12x+20；原非挠边界、双Norm及S4
 
 R1041已付原四谱Q6、全incidence、Pell单位/ODE/精确Norm、两三挠交与指定半类。q11的原截面/两cover/完整Prym/指定半类各consumer都已真实全返：AQ=−G、[12]AQ=P，旧倒6 shadow仍零。一般完整halving/ψ2主除子给4AQ=−P与二分Norm=t³(1−27t)。低维类已固定，不再搜q或以之代最高λ。
 
-R1041§§17–20付原第二四度图Φ及Miller修正J，真正第三类是4ηprim=Φ*dlogM+dlogJ；原Pell U与ψ2在全部共享边界/坏纤维/闭点的Weil reciprocity给U(E+)²⁴∈Fq*，故p≥5,p|q+1的无权半交值为p次幂。该入口已完整关闭，原逐CM标记、η2/η17、Cor与27个权继续保。geometry正在付真实2-Vélu/full9层运输（R1043预留），尚不预记有权非零或最高λ完成。
+R1041§§17–20付原第二四度图Φ及Miller修正J，真正第三类是4ηprim=Φ*dlogM+dlogJ；原Pell U与ψ2在全部共享边界/坏纤维/闭点的Weil reciprocity给U(E+)²⁴∈Fq*，故p≥5,p|q+1的无权半交值为p次幂。该入口已完整关闭，原逐CM标记、η2/η17、Cor与27个权继续保。R1043已付真实2-Vélu/full9层运输、canonical−3a_i倍率与完整τ^iφ0[ω^i]图；原54权和逐γ严格约简为9个固定17类代表的6倍，原η/全Cor/最高投影和对偶保持，1/18成为1/3。继续这9项的真实带权评价及ordinary局部检测，不把约简本身或无权Pell值当非零。
 
 ### 唯一原厚几何作业与同步
 

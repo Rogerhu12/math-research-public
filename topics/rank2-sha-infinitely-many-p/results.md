@@ -285,3 +285,6 @@
 
 
 - **R1040角平均与三canonical的准确交**：[§11](results/R1040-new-e3969-whole-companion-frame-and-sixth-degree-carry.md)。R1040§11完整写出原S34/T72在新小框架的全部五系数；F81旋转与T−S的内积严格为(3+5δ)(3ζJ−4ζA+ζN)/2。复三角等号与第二个4δ(ζK−ζA)条件给充要门：同时保原S/T/Y只允许四轴共同相位。1296角平均仍给YA合法行，但不能逐支赋原三canonical零。
+
+
+- **R1043（真实二同源层运输与九项有权式）**：[R1043-original-two-isogeny-level-transport-and-weighted-orbit-reduction.md](results/R1043-original-two-isogeny-level-transport-and-weighted-orbit-reduction.md)。R1043用原规范2-Vélu与full9分量逐式确定谱盖反演ι的真实二同源含义，canonical倍率为−3a_i。原源列基Mω、Weil指数−2/−4/−68及完整靶deck给φ_i,t=τ^iφ_0,ω⁻ⁱt[ω^i]。Picard拉回与eA−的两个ω因子相消，原η2/η17权再消；接原δ配对后，完整54图准确等于指定9图的6倍，原全Cor和1/18平均变为(32)的1/3，全γ逐项保留。 仅付真实shadow点值身份；九项非零、原ordinary局部检测及无穷目标p仍待。
