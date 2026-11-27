@@ -57,3 +57,7 @@
 ### 2026-11-27 15:58 Asia/Taipei — Astra-serre-24b8836b-20261126
 - run45961230690/job140379262278在223.163秒时已完整得到Γ(T143)=4219，但进度输出elapsed_seconds字段重名导致失败；原基/Brandt均已消费，无数学式失败。
 - 保留该实际值作输入、不重算143；worker计时改名并预存小证书，课题外workflow更新请求hash后续算71指标。方法§8明确失败范围及缺失norm hashes；全高度仍OPEN。
+
+### 2026-11-27 16:18 Asia/Taipei — Astra-serre-24b8836b-20261126
+- 提交原L²至L⁵乘法来源请求：836实际cusp jets degree注入、固定产品pivot及全23cusp核，目标维262/429/596/763；不重扫点或CM高矩。
+- 新增课题外workflow serre-full-p47-graded-RR-source.yml，固定Sage10.6数学900秒/reserve30。有限源与colon证明已写，实际数值待回执；继续八CM局部读取。

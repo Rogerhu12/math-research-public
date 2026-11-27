@@ -1,0 +1,29 @@
+{
+  "execution_id": "full-p47-graded-RR-source-v1",
+  "prime": 47,
+  "coefficient_prime": 4513,
+  "sage_version": "10.6",
+  "jet_length": 836,
+  "degrees": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "total_seconds": 900,
+  "reserve_seconds": 30,
+  "original_Hodge_request_path": "topics/serre-uniformity/notes/full-p47-CM-height-move-request.json",
+  "rules_last_read_commit": "1f38ea3074411b6ca67b21824db7c90754601ad2",
+  "source_sha256": {
+    "README.md": "581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102",
+    "topics/serre-uniformity/README.md": "6ce1403bd2d2587bb9cca70bd0095a1264b1167fe2c4b62f0652ae671e6277a5",
+    "topics/serre-uniformity/results/R1090-original-weight-one-integral-Hodge-source.md": "af2c940ec069b5dbf5ce58fc4288477248195970e6657d33179dd264b04f0e78",
+    "topics/serre-uniformity/scripts/full_p47_weight_one_Hodge_certificate.py": "fe2e4f6b2420389b534fab0b2d1976dc6ac7cb2b1fe8ad98c07112ecd860afac",
+    "topics/serre-uniformity/notes/full-p47-CM-height-move-request.json": "bc89913668d6b3d209719a720c7562a7914459441526b6a565fc69edbfc2b7e6",
+    "topics/serre-uniformity/scripts/full_p47_graded_RR_source.py": "e54339e527a36ba15c4f2c799226a61ca8dcfc413fd0f9513819f44ac426ffa8",
+    "topics/serre-uniformity/notes/2026-11-27-full-p47-graded-RR-source-method.md": "66f7ce055a50c55de24d1b9de4aa03b324f8ec8616bf57672b0edbfafbf8345c"
+  },
+  "scope": "New original L^2 to L^5 product bases, 836 true cusp jets, all23 cusp vanishing kernels; consume R1090 and do not rerun point sieves, CM logarithms or heights.",
+  "storage": "Code, parameters, run/job, small mathematical dimensions and SHA-256 only; no raw arrays, artifacts or Releases."
+}

@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。本轮已部分克隆并真实pull main，读两README/H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则读至36cf1ed2。不重做已登记结论或窗口。
 
-**公开两README已读提交：3a7a2eb1bdbb85ff82cee0f4e2cbab0d77b2092c**（2026-11-27 15:59 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
+**公开两README已读提交：e9d68ec2c50a28a66ddb1b70c87ee0d40a6c74d0**（2026-11-27 16:17 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
 
 已真实部分克隆/pull；15:49再试pull仍报无可用执行环境，shell未运行；按根规矩8用连接器小文本同步、读两README差异、带expected_sha非force提交，恢复后立即pull --rebase。拒绝即同步重基再推至成功。令牌仅CLI；根维护main/H/open/index/log，子研究独立稿，每条结论立即推。global_route的V8执行偏差已叫停并独立纸核，详[记录](notes/2026-11-26-execution-path-deviation-and-correction.md)，其输出不作证明/合规窗口。
 
@@ -40,6 +40,8 @@ R1063：全Hecke族消MW及真辛商，最低两jet行列式仍开。R1058：原
 [R1101](results/R1101-certified-original-level47-smallest-odd-Hecke-basis.md)：run45958934145/job140371881297，18.667秒，实际整基恰全部奇n≤149删47、141，det3946、指标和5437；原newform/CRT/Hodge1/2/3/5桥齐备。后继只按固定73indices重建，不重开搜索；其余72个真实高度继续。
 
 [完整高度请求](notes/2026-11-27-full-p47-complete-global-CM-height-method.md)已提交：固定R1101的73基，4核流式计算其余72个Γ，直接消费n1=818；trace Gram与R/P′恢复κ，核全部28块并读16个原log归一μ。公开Actions18000秒/reserve120，零块合法；run45961230690已得Γ(T143)=4219，随后进度计时重名中断；修复后仅续算其余71指标。完整高度仍OPEN。
+
+[原graded RR请求](notes/2026-11-27-full-p47-graded-RR-source-method.md)：仅836原cusp jets认证L²至L⁵及全部23cusp核，预算900/30；为真实第三类微分的colon/Miller提供乘法来源，尚待回执。
 
 ## O1：原同一保留标签
 
