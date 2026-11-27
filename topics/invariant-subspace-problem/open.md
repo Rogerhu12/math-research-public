@@ -4,7 +4,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-Q1u-complete-lambda-cover-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-W-single-F18-cover-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -71,7 +71,7 @@ rankH3单三jet的全部ess6已闭，末非零Hp原Gaussian/最高/normal给左�
 - 强头canonical高段已付、中段固定多项式塔有指数障碍；只续源特殊能量/依赖lift。
 - 完整负部仍须same-w界≤c_mQ||F_mu||²且Σ1/c_m发散；真z2保Cq2，K⁴=o(logm)不倒用至R>0，Chebyshev母窗桥开。
 
-[真实Green闭坐标](results/R271-appendix-actual-green-defect-closed-coordinates-and-positive-angle.md)给闭X/Y同构、闭F和Z:F→W；核心⇔F0、第一范围⇔Z0、第二需closure ZF=W。[新两型完整正度量与物理矩双坐标传递](results/R271-appendix-actual-green-tail-positive-metric-and-two-coordinate-physical-moments.md)给Schur三个正项（保alpha^-2）、同源P_Mf的P_LD*^-1(a−H*g)准确读数，以及U_D/V_D全域逆/共轭≤2048/alpha0；真实X、Y都与临界s0物理矩域交0。任意最大图的输出矩须合同一第一块Green残量矩才能进核心。未付矩自动存在、原残量投影零、Gamma或s→0，正物理平滑不自动保未知X/Y。 [新尾递推检查及数值尝试](notes/2026-11-27-actual-green-tail-cross-terms-and-creation-probe-8542.md)保原同源交换差：改相对物理次数会留下真实兼容残量，尚未支付交叉项；V8浮点读数无严上下界。
+[真实Green闭坐标](results/R271-appendix-actual-green-defect-closed-coordinates-and-positive-angle.md)及两型完整正度量已付：F闭、Z:F→W，核心⇔F0、首范围⇔Z0、次范围需closureZF=W；三正项保alpha^-2，全域物理双坐标界不付真实矩自动存在、P_Lr_D0或实际RanK*费。完整公式/数值保原稿与快照，同w问题继续。
 
 
 ## 3. Deddens 与非复制来源
@@ -170,13 +170,13 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 [原五坐标联合图反例](results/R271-appendix-five-coordinate-actual-joint-graph-carry-countersequence.md)已对N/Y排除无条件用||T*h||+||Sh||控制carry/C2的估计。分离子列甚至给有限来源联合图逼近但h非C2，D*h/Kh各非H而完整输出在H；其输出明确属于M⊥，不属于非零W。继续同一W正交性、Γ、C2特殊来源或更宽真实核心，不再尝试已被反例排除的一般升级。
 
 
-[同一缺陷来源的指数边界下界与弱核心](results/R271-appendix-same-w-exponential-dyadic-boundary-cost-and-weak-core.md)现已证明：同一原最大图对若两笔真实dyadic边界费用E_r有有界子列，即可用凸组合进图核心；任意P_Wf≠0则liminf logE_r/r≥gamma_ex>5/3。较弱的沿子列E_r=o(e^{gamma r}),gamma<gamma_ex只保证输出f∈I，不偷换来源、不冒称图核心。仍需真实W的Gamma有限性及这些同源费用的实际上界，两道范围核心/N=M均未闭。
+[同w指数边界与弱核心](results/R271-appendix-same-w-exponential-dyadic-boundary-cost-and-weak-core.md)：同源两费有界子列经凸组合付图核心；非零P_Wf迫正指数费，弱子指数仅付f∈I。原前缀最优率与两域相反图界不支付alpha逆费；同w上界仍开。
 
-[两个实际最大除法域的相反前缀正则性](results/R271-appendix-maximal-division-graph-opposite-prefix-regularity.md)已将原核估计扩到整个D(G)与D(Amax)：分别控制零前缀V_n与占满前缀Q_n，所有γ<γ_ex的指数位权受实际图范数控制。第一图核心真实正交缺陷恰由T*y=Sf、By+Tf=0刻画，因而Amax f=−y，不能换成Amin。这两条耦合方程继续作为新输入；未证明缺陷零、Gamma有限或alpha逆权。
+[两最大图相反前缀正则性](results/R271-appendix-maximal-division-graph-opposite-prefix-regularity.md)扩至全域，但第一图核心真实正交缺陷须完整两行Green；不能由前缀界直接付全物理矩。精确率/原费用保快照。
 
 
 
-[最大图低余孔C2费用](results/R271-appendix-maximal-graph-low-excess-hole-square-cost.md)已付同一h的明确扇区，实际y有界物理孔遂入原图核心。新[临界小指数物理孔矩准则](results/R271-appendix-critical-small-physical-exponential-maximal-graph-core.md)进一步给s0=(2+2log(3/2))/14：y∈D(G)且e^(s0N)y∈H，则h∈C2并在原图核心；等号的真实8^j余量完整支付。未知Green缺陷Y并未证明有该矩，物理孔平滑未证保Y，同W的Gamma及F/R/Z继续。
+[低余孔C2](results/R271-appendix-maximal-graph-low-excess-hole-square-cost.md)与[临界小指数矩准则](results/R271-appendix-critical-small-physical-exponential-moment-core.md)仅支付明确物理扇区/矩来源。实际E非零是否自动满足仍开，不从稠密或正则化极限补源费。
 
 **W原图当前接口。** [整D27](results/R150-appendix-unit211-W-D27-entire-original-exclusion.md)已闭；[T4/F2八列原环境](results/R150-appendix-unit211-W-global-monic-four-two-eight-column-original-return.md)已返六行/16乘法。新[同头A143低组合](results/R150-appendix-unit211-W-three-original-quadratic-low-cofactors-and-two-generator-chart.md)补图由1,S生成，A143零面保两降次式及B146E849−2D422C372；不倒B146/D422。原qF、个别N/P仍须返回，环境自由不传原最终商。
 
@@ -211,3 +211,7 @@ D27泛型五次不可约与有限纤维范围保上述D27原单位条目及本�
 **W新866两列原输入。** 只在A143≠0把原仿射F/S及纯S二次首一化，以1,S返回六原Gram行、原qF/qT/R4共九行、四真乘法及三对新常数列cofactor；保A143完整零面/全部lambda首项零，不倒D/范数，不声称个别谱N/P全返。180秒4GiB，仅执行冻结构造前缀。
 
 **[h=k,Q=1−u完整32次lambda覆盖](results/R150-appendix-unit211-equal-singleton-Q1u-complete-lambda-cover.md)。** 7eaa非0图全八式/固定17,17,18,22阶QQ投影给C2⁴C6⁹C24⁴；2298零图三原相容/固定5,5,6阶给C6C24，真实u二次头−4xi²保全部头零且≤60(λ,u)候选。因子全部QQ系数已保存；直接对2/6/24整常数代数返原Gram，不重放大结式，不把lambda覆盖算成全部原点有限或排空。
+
+**[整个lambda3/2已缩紧为单一F18](results/R150-appendix-unit211-W-lambda-three-halves-same-value-single-F18-cover.md)。** a0e7同z原R2/H6固定8列全cofactor返回，det=非零QQ·k⁴d²F18，仅剥两个已付权原子；331项精确同旧F18，Ah/G4不再独立覆盖，但与F18交点仍保。完整e首一18次环境；新全域原均值/N/P继续，不能把曲线说成排空。
+
+**h=k,Q1u非0Delta新fb8有限原返回：** 只执行7eaa原八式构造前缀，直接全C2/C6/C24常数代数K[u]核实际分母和真Bézout，常数非单位拆两整支；不重做旧因式或四大结式。Delta0整C6/C24仍另需自由Gram返回。
