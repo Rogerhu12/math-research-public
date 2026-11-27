@@ -183,3 +183,7 @@ AI-assisted GPT-6 Astra Pro：审原Gram重建、weighted N/P→HA/HB原迹、�
 2026-11-27 13:36 Asia/Taipei｜Astra-ISP-8542378f-20261127
 - 完整Q边界T0零支由原g曲线、六阶QQ覆盖、A整域平方身份及B原NS十五阶Gauss排尽；自含源52fe7571真实整跑2.277秒。
 - 仅该边界付h−2，不移用等权或扩大一般LS；继续同一y原值余式，普通ISP未完成。
+
+2026-11-27 13:38 Asia/Taipei｜Astra-ISP-8542378f-20261127
+- 中心化源60a4c4cf实际1.135421917秒/exit0，N1−2eE1全域S²取消与原理想等价变换均返；未付轴零面仍保留。
+- 真实05:31:39部分克隆pull两README无变已记H；继续新原u=Q单参图及一般等权参数cofactor。
