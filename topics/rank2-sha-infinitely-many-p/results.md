@@ -294,3 +294,6 @@
 
 
 - **R1040真实两态及单位质量参考**：[§12](results/R1040-new-e3969-whole-companion-frame-and-sixth-degree-carry.md)。R1040§12在只投H/J/N的真实原源上，把Y主型的整个K/A四候选通过原带ε joint gluing严格压为两态：39δΦ126⊗Ξ0+G126⊗Ξ1。原KA5矩固定G(0)=−δ/28及全整周期；原ray的全S126核心β=−λ给JG(0)=−δ(1+λ)/28单位。坏Φ中央下，任意完整companion-only测试的中央与质量同一比例，归一Y/7的log7项不能删。 全四输出的2KA5+5K4A2零核、K3A3返回canonical和全部factorial已付；G未被赋新算术零。
+
+
+- **R1042两unit补域的完整常数与全尾**：[§9](results/R1042-original-three-canonical-common-norm81-carry-and-positive-grid.md)。R1042§9沿原ray相容提升π0≡2mod25，以σ(5z)锚支付两norm25 whole β核。真实两unit管在1296平均中恰12支，五深返回保联合d/e来源；质量常数M*明确非零，原Euler分母逐项消掉。归一A−S中央差常数为dM*log〈r*〉、Nr*=291/763≠1，完整尾给每n>ℓp准确估值ℓp，与n无关。该补域必须保留；其新框架表达仍有一个Y混合条件。

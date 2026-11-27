@@ -826,6 +826,243 @@ $\mathcal C_\pm$ 或先宣称其积分更深。
 及全幂核仍须一同使用。
 
 
+## 9. 原两 unit 管的完整 norm25 返回与实际常数项
+
+本节继续 (57)，计算的是同一个平均 $\overline h_n$ 在原
+$\mathcal U_n$ 上的真实积分。它说明该补域并不因四个原输入深而自动
+比 (52) 的五深网格更深；后续必须消费其完整项。
+
+### 9.1 同一 ray 的 norm25 whole 核
+
+在原射线保全部条件，再将原 $\pi_0\equiv2\bmod5$ 提升为
+$\pi_0\equiv2\bmod25$。其它模数与此提升相容，
+固定 ray-class 素理想定理仍给无穷普通素数。
+于是 $g_\pi=\pi_0/\bar\pi_0\equiv1\bmod50$。
+两条 (59) 的半特征都是 standard odd；
+原完整 degree25 Heisenberg 模因此有 scalar 核。
+以非零实际锚 $\sigma(5z)$ 及原 sigma 的 prime-to-p pull
+锁定其绝对 scalar，两个方向的深核均为 $\beta=-\lambda$。
+这与第2节的 whole-space 论证相同，不将一个未识别的子空间代替全25维。
+
+使用完整原联合来源
+$
+\mathcal R(z_d,z_e)
+=\sigma(-4z_d+3z_e)\sigma(3z_d+4z_e).
+\tag{60}
+$
+其 Gram 为 $(25,25)$、交叉为零、两半特征如上。
+原 $\mathcal U_n$ 准确等于
+$d\in p^n,\ e$ unit、以及 $\xi_2,\xi_3,\xi_5,\xi_6\in p^n$。
+故其五个深方向可同时返回：
+一个 whole degree25 核与四个原 sigma 核产生 $\beta^{5n}$。
+取回后的输入准确为
+$
+\boxed{
+\xi(T)=\left(
+ \frac{3e-4Td}{25},\,Tu_2,\,Tu_3,\,
+ \frac{4e+3Td}{25},\,Tu_5,\,Tu_6\right),\qquad T=\kappa^n,
+}
+\tag{61}
+$
+其中 e 仍只取 unit；测度是
+$-\nu_{\mathcal R}(d,e)\otimes\nu_\sigma^{\otimes4}/84$。
+这里没有 Haar Jacobian，也没有删除联合来源中的 d/e 耦合。
+
+### 9.2 这个管上的全部平均支
+
+为给统一且不依赖扫描的有限坏界，以下只将素数下界提高为
+$p>1296$。这是固定有限删集。
+
+在 (57) 的原管上，某一旋转能进入 cut 的充分必要条件为
+$
+(-6+8\delta)\zeta_K+6(1+\omega)\zeta_A
+       +4(1-\omega)\zeta_N=6\omega .
+\tag{62}
+$
+$\zeta_J$ 任意。该式的完整解是
+$
+\boxed{
+(\zeta_K,\zeta_A,\zeta_N)
+=(1,-1,1),\quad(-\omega^2,-\omega,-\omega^2).}
+\tag{63}
+$
+简短手证如下。
+对六个 $\zeta_K$，将第一项移到右侧所得的范数依次为
+$84,444,336,192,372,156$，顺序为
+$1,-1,\omega,-\omega,\omega^2,-\omega^2$。
+左边另两项的和范数至多 $(6+4\sqrt3)^2<168$，
+所以只余第一和最后。
+又
+$6(1+\omega)/(4(1-\omega))=\delta/2$。
+范数84的情况迫 $\zeta_A/\zeta_N=\pm1$，
+范数156的情况迫该比为 $-\omega$ 或 $\omega^2$；
+逐个代入便得 (63)。
+任何非零 (62) 差的绝对值小于36，故范数小于1296，
+当前没有额外模 p 解。
+
+所以1296项中恰12项包含整个 $\mathcal U_n$，其余不相交。
+每支仍保整个 (46) 的 unit/depth 域；
+在当前管内它们的 E 自由系数全为
+$
+e_*=\frac{93\omega}{50},
+\qquad
+a_A'=\frac{21+12\delta}{25},\qquad
+a_S'=a_T'=\frac{15+19\delta}{50}.
+\tag{64}
+$
+将各原行直接代入 (61)，定义实际线性式
+$
+D_\zeta(\xi(T))=T L_\zeta,\quad
+E_\zeta(\xi(T))=e_*e+T M_\zeta,\quad
+Y_i(\xi(T))=a_i'e+T Z_i'.
+$
+这些定义保全部四个其它深输入，唯一的 source 是 (60)；
+不将 (63) 的两个管内源重新识别为别的 arithmetic line。
+
+### 9.3 完整质量首项：Euler 因子准确消掉
+
+令 $\mathcal M_{\mathcal U}(T)$ 为
+$\overline h_n$ 取回 (61) 后的质量函数，包含 $1/1296$ 的实际平均，
+但不含外面的 $\beta^{5n}$。
+因此
+$
+\int_{\mathcal U_n}\overline h_n\,d\rho
+=\beta^{5n}\mathcal M_{\mathcal U}(\kappa^n).
+\tag{65}
+$
+在 T=0，四个原 sigma 输入各自至少需要一次。
+$k=5$ 已被原 $q_5=0$ 杀掉，只余 k=4、k=6，
+对应 d 的次数0、2。
+原 (60) 的完整二次项是
+$
+\mathcal R=-12z_d^2-7z_dz_e+12z_e^2+O((z_d,z_e)^8).
+$
+故两个真实联合矩是
+$m_{0,2}=24\Omega^2$、$m_{2,0}=-24\Omega^2$。
+对 e 的 whole unit 核，
+它们分别乘 $1+\lambda\kappa^2$、$1+\lambda$，
+正好消掉 (22) 的两个原分母。
+这里未将 Taylor 系数当作未乘阶乘的矩。
+
+在 (63) 两支中，d 在 $L_\zeta$ 的系数分别是
+$-\omega^2,\omega$。
+$\zeta_J$ 的六值平均后，四个其它深输入系数的乘积准确为
+$
+\boxed{
+P_0=-\frac{375+825\omega}{4},\qquad
+P_1=-\frac{252+819\omega}{4}.}
+\tag{66}
+$
+例如第一支的前两个系数为 $-1+3\omega,-3-\omega$；
+后两项的 J-平均乘积为
+$\{5(\omega-1)/2\}^2$。
+第二支相应为
+$-2+3\omega,2-\omega$ 和
+$\{-3(2+3\omega)/2\}^2$。
+这给 (66) 的全部四深混合系数，不是只读一条首坐标。
+
+由原 $q_6/q_4=-3/14$，逐项回乘所得常数为
+$
+\boxed{
+M_*:=\mathcal M_{\mathcal U}(0)
+=-\frac{2q_4}{63h^6b}
+ \left\{
+ e_*^2(P_0+P_1)
+ +\frac{45}{14}(\omega P_0+\omega^2P_1)
+ \right\}\ne0.}
+\tag{67}
+$
+系数含 $-1/84$ 的原六 sigma 规范。
+确切地，括号等于
+$
+-\frac{25947}{10000}(339-209\omega)
++\frac{135}{28}(43+117\omega).
+$
+其 $\omega$ 系数严格为正，故在 K 中非零。
+所有数都是固定有理代数数；未用数值近似或有限素数扫描。
+若某个目标 p 除该固定分子的范数，只保其真实有限估值，
+不将 (67) 一概称作 p 单位。
+
+### 9.4 归一中央差的真实常数与全尾
+
+令 $\mathcal A_{i,\mathcal U}(T)$ 为 (65) 同一返回中再乘
+$d\log\langle Y_i/a_i\rangle$ 的完整函数。
+在 T=0，各支相同的 $\log\langle e\rangle$ 严格相消。
+于是
+$
+\boxed{
+(\mathcal A_{A,\mathcal U}
+ -\mathcal A_{S,\mathcal U})(0)
+=d\,M_*\log\langle r_*\rangle,\qquad
+r_*=\frac{3(23+27\delta)}{7(15+19\delta)}.}
+\tag{68}
+$
+其范数为
+$
+Nr_*=\frac{3\cdot97}{7\cdot109}=\frac{291}{763}\ne1.
+$
+当前所有地点 $r_*$ 是 unit，且不是根一；
+故 $\log\langle r_*\rangle\ne0$。
+这里使用的是原两个实际观察的自由系数 (64)，
+不是任选一个用于制造非零的常数。
+S 与 T 的自由系数相同，故其归一差没有这个常数项。
+
+完整函数由 (61) 直接定义：
+e 保 unit，d 和四个其它变量保全，
+使用 (22) 的全部项
+$L_\zeta^k(e_*e+TM_\zeta)^{6-k}$ 和真实原分母，
+对 (63) 及全部 $\zeta_J$ 求原平均。
+因此其正次数系数满足
+$
+v_p([T^j](\mathcal A_{A,\mathcal U}
+          -\mathcal A_{S,\mathcal U}))
+\ge-\lfloor\log_pj\rfloor.
+$
+设
+$\ell_p=v_p(d M_*\log\langle r_*\rangle)<\infty$。
+对每个 $n>\ell_p$，真实积分准确满足
+$
+\boxed{
+v_p\left(
+ \int_{\mathcal U_n}d[
+ \log\langle Y_A/7\rangle-\log\langle Y_S/\gamma\rangle]
+ \overline h_n\,d\rho\right)=\ell_p .}
+\tag{69}
+$
+外面的 $\beta^{5n}$ 是单位，不能将它当成额外 p 深度。
+这支付了一个完整补域管的实际全尾；
+(69) 的深度固定，绝非随 n 自动高于 (52) 的 n。
+
+### 9.5 与新两态比例保持同一实际域
+
+管的全部新坐标可以不借抽象存在写出。
+置 $x=\xi_1$、$s=\xi_4-4x/3$，其余四深变量仍记
+$u_2,u_3,u_5,u_6$，则
+$
+\begin{aligned}
+H&=x-u_2-u_3,\\
+K&=(-1+4\delta/3)x+\delta s+\omega u_2+\omega^2u_3,\\
+J&=u_5-u_6,\\
+A&=x-\omega^2u_2-\omega u_3-\delta u_5-\delta u_6,\\
+N&=8x/3+2s-2u_2+2u_3-u_5-u_6,\\
+Y_A&=(7+4\delta)x+3\delta s+
+        \pi u_2+\bar\pi u_3+2\delta u_5+2\delta u_6 .
+\end{aligned}
+\tag{70}
+$
+所以 (57) 等价于 H unit，以及
+$
+J,\quad A-H,\quad N-8H/3,\quad
+K-(-1+4\delta/3)H,\quad
+Y_A-(7+4\delta)H\in p^n .
+\tag{71}
+$
+前四个条件只读伴随，最后一个是真正的 Y-伴随 mixed cut。
+若使用 R1040 的两态比例，必须保持这个差别。
+(67)–(69) 不把某个局部常数改称整个补域，不给未平均 S/T 行赋零，
+也不把正的局部首项充作主目标的完成。
+现在需要消费的是 (65)–(71) 这些明确的实际补偿项。
+
 ## 依赖与执行边界
 
 - R297、R398：原 S34/T72、完整六 sigma 及同源缩放。
