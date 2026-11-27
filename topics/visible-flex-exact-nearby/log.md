@@ -202,3 +202,8 @@ DWTB9 45935081577/1于04:35:55全9success，actual24958B SHA2658db04a88e92f88b26
 ### 2026-11-27 — SRH实际同一selection的4224阶收敛和4000阶小背景
 
 独立推送SRH proof14533B/0acc4699bddec5041cf45e23df8ba215e828daaddf118e05adff42bd7062d5c4与reader2231B/c3a3b13a492b2f66a032f82435f3330a193b2f01b1d6c46550ab6c1cf553defe。新证明只消费原S.37完整高residual到S.24，保两inverse summands和common factor，产生严格可求和指数；不是重跑/改名原Nash。17项精确integer/rational首次一次全过。完整E4000小背景及E4224真实极限允许exact prioris到输出2204，未知真正parameter source高窗仍单独待付，未越级声称导数/onto。root已接回唯一main writer lease；ACT84ecf913与RA9498a109分别完整推送，义务均保。
+
+
+### 2026-11-27 — 第7批严格无损metadata空白释放入口
+
+完整cb15c05eced353626a453a5127b5428f51388a84 topic tree f28978e283c363a9c8a6c9b4905e5746c00a1dd7计14352 files/199417071B；两README同已读blob无diff。BFP22新source202783B、195000输出+120000reserve与BNC/WMR仍在跑输出须共同保容量。现在唯一新入口选择下一128个完整、当前source/manifest无引用的旧step5 JSON，只删字符串外ASCII空白且保全数值literal/strings/escapes/order；原完整baseline、whole SHA/bytes和完整receipt都保。第1–6批不动，旧科学0。尚不宣称实际节省；完成后立刻继续BFP22唯一push入口，不dispatch旧工作流。
