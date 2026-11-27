@@ -1,0 +1,306 @@
+{
+  "schema": "isp-P201-five-whole-Q-original-ideal-ranks-v1",
+  "date": "2026-11-28 Asia/Taipei",
+  "run_id": 46079547267,
+  "job_id": 140775080946,
+  "execution": {
+    "elapsed_seconds": 17.522670372999997,
+    "max_child_rss_kib": 82976,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "b4db45863b4613d05252d9b767750317020edf39",
+        "before": "b4db45863b4613d05252d9b767750317020edf39",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-27T22:56:04.699721+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46079547267",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "b4db45863b4613d05252d9b767750317020edf39",
+    "source_exit_code": 0,
+    "source_git_blob": "755e132238c87993a7513479cdccc985df69f987",
+    "source_sha256": "8a9a18855a2c3c63c484192c5054f5cee0aed80e547267e5885c9fd389c1e470",
+    "stdout_bytes": 11264,
+    "stdout_sha256": "4dbff8c1a2134ffde2754a4f9552a4676c70c9be26873c5244479717fb6f8ca4",
+    "stop_reason": null
+  },
+  "actual_original_element_records": [
+    {
+      "label": "RWN_O_scaled_T_commutator",
+      "fixedSymbolicLambdaDegrees": [
+        6,
+        6
+      ],
+      "originalSylvesterOrderOverWholeQAlgebra": 12,
+      "originalWholeQCoordinateCount": 4,
+      "originalCoordinates": [
+        {
+          "bytes": 3613,
+          "sha256": "953a5b2d2fb5753b6fc604efb29fe532125cca8558d8b68bcd0576c5bf44bf53",
+          "degree": 929
+        },
+        {
+          "bytes": 3617,
+          "sha256": "0ff1a6072509a7f62e47c2605b953980a1ada1ddc124b4bf4571096406d1dc9d",
+          "degree": 927
+        },
+        {
+          "bytes": 3611,
+          "sha256": "75ce7cc1208ac28e698a747dcbfe2f8bac112ecce95d380e091ae8a83e8802b1",
+          "degree": 925
+        },
+        {
+          "bytes": 3572,
+          "sha256": "72308e3d4a2d98ef9f8832723d4aadf60a5c0b1db41ba52e4e35beec01303366",
+          "degree": 923
+        }
+      ],
+      "finalCommonParameterDenominatorIsOne": true,
+      "allFixedLambdaLeadingDegreesKept": true,
+      "allEuclideanDivisionsMultipliedBack": true,
+      "completeOriginalPolynomialIdentityExtendsAcrossTemporaryPivots": true,
+      "originalParameterLambdaLeadingZeroFibresRetained": true,
+      "newTargetUsesElementBeforeItsNorm": true,
+      "stage": "new_P201_fixed_original_resultant_element",
+      "seconds": 7.037770588999997
+    },
+    {
+      "label": "RWN_O_scaled_T_complete_F6",
+      "fixedSymbolicLambdaDegrees": [
+        6,
+        9
+      ],
+      "originalSylvesterOrderOverWholeQAlgebra": 15,
+      "originalWholeQCoordinateCount": 4,
+      "originalCoordinates": [
+        {
+          "bytes": 5799,
+          "sha256": "d253e8237f428b1cc353b893fe2a8eb98b63ded6d49efc4b1dfa761c5f8aa26f",
+          "degree": 1486
+        },
+        {
+          "bytes": 5785,
+          "sha256": "977596b83adc62eafb6f13bd7221c864aca95c3ab5206b9b3d83212a5fb1b27e",
+          "degree": 1484
+        },
+        {
+          "bytes": 5760,
+          "sha256": "e60cbc5b6c079dd793d9976a7dea528fac5c22f2b72b1f0f89a984ad3a2fef6e",
+          "degree": 1482
+        },
+        {
+          "bytes": 5765,
+          "sha256": "d6a9b83e06926cb592db73837dfa74d1297911d25a7d466da217f0d089789c2e",
+          "degree": 1480
+        }
+      ],
+      "finalCommonParameterDenominatorIsOne": true,
+      "allFixedLambdaLeadingDegreesKept": true,
+      "allEuclideanDivisionsMultipliedBack": true,
+      "completeOriginalPolynomialIdentityExtendsAcrossTemporaryPivots": true,
+      "originalParameterLambdaLeadingZeroFibresRetained": true,
+      "newTargetUsesElementBeforeItsNorm": true,
+      "stage": "new_P201_fixed_original_resultant_element",
+      "seconds": 11.462026562999995
+    },
+    {
+      "label": "RWN_O_scaled_T_complete_NV",
+      "fixedSymbolicLambdaDegrees": [
+        6,
+        10
+      ],
+      "originalSylvesterOrderOverWholeQAlgebra": 16,
+      "originalWholeQCoordinateCount": 4,
+      "originalCoordinates": [
+        {
+          "bytes": 6120,
+          "sha256": "19fbb81396d6b398cd36c0d96b3ae2ce6462e73cf90d9ac8de543e6ef6f1b1b2",
+          "degree": 1567
+        },
+        {
+          "bytes": 6109,
+          "sha256": "4ad7d6560402b5cfc994cdb53283f398985bb49daa6f02f44ec6583a0d7ceea9",
+          "degree": 1565
+        },
+        {
+          "bytes": 6110,
+          "sha256": "921edfd8d973936ff0ac898a4272be1a376e163b160b1cbd4b09aa32b16fba0d",
+          "degree": 1563
+        },
+        {
+          "bytes": 6111,
+          "sha256": "a10dabe2cbf957b872168a09eef0f9989932467963c383c85793ccca6fb44561",
+          "degree": 1561
+        }
+      ],
+      "finalCommonParameterDenominatorIsOne": true,
+      "allFixedLambdaLeadingDegreesKept": true,
+      "allEuclideanDivisionsMultipliedBack": true,
+      "completeOriginalPolynomialIdentityExtendsAcrossTemporaryPivots": true,
+      "originalParameterLambdaLeadingZeroFibresRetained": true,
+      "newTargetUsesElementBeforeItsNorm": true,
+      "stage": "new_P201_fixed_original_resultant_element",
+      "seconds": 17.44979806
+    }
+  ],
+  "actual_five_block_records": [
+    {
+      "actualP201ModularBlock": {
+        "bytes": 6,
+        "sha256": "a103b9ea1ab500ebd624c6c616659f2d805a764d622ed83bedfdf7d5c7b266dd",
+        "degree": 1
+      },
+      "P201BlockMultiplicity": 1,
+      "residueBaseDegree": 1,
+      "completeWeightAlgebraRank": 4,
+      "actualWholeOriginalIdealRank": 3,
+      "actualResidueWeightQuotientDimension": 1,
+      "characteristicZeroWeightQuotientDimensionUpperBound": 1,
+      "wholeOriginalBlockExcluded": false,
+      "fullThreeOriginalElementsAndAllWeightBasisProducts": true,
+      "idealMatrixShape": [
+        4,
+        12
+      ],
+      "noQRootOrNilpotentDiscarded": true,
+      "noHOrLambdaHeadUnitUsed": true,
+      "noDOrValueSaturation": true,
+      "arithmeticCounts": {
+        "uReductionProducts": 233,
+        "QReductionProducts": 15
+      },
+      "stage": "new_P201_same_Q_actual_original_ideal_block",
+      "seconds": 17.451043035999994
+    },
+    {
+      "actualP201ModularBlock": {
+        "bytes": 7,
+        "sha256": "b3bbce2093c7010b6fbeeb60bd1db1a04093f9bd1ff672121557bfe9521a0c38",
+        "degree": 1
+      },
+      "P201BlockMultiplicity": 1,
+      "residueBaseDegree": 1,
+      "completeWeightAlgebraRank": 4,
+      "actualWholeOriginalIdealRank": 3,
+      "actualResidueWeightQuotientDimension": 1,
+      "characteristicZeroWeightQuotientDimensionUpperBound": 1,
+      "wholeOriginalBlockExcluded": false,
+      "fullThreeOriginalElementsAndAllWeightBasisProducts": true,
+      "idealMatrixShape": [
+        4,
+        12
+      ],
+      "noQRootOrNilpotentDiscarded": true,
+      "noHOrLambdaHeadUnitUsed": true,
+      "noDOrValueSaturation": true,
+      "arithmeticCounts": {
+        "uReductionProducts": 233,
+        "QReductionProducts": 15
+      },
+      "stage": "new_P201_same_Q_actual_original_ideal_block",
+      "seconds": 17.451979277
+    },
+    {
+      "actualP201ModularBlock": {
+        "bytes": 15,
+        "sha256": "9d01d315c97361825a1fc0e0ebd2f61e46b3179a09d306ac56d2cc8302487916",
+        "degree": 3
+      },
+      "P201BlockMultiplicity": 1,
+      "residueBaseDegree": 3,
+      "completeWeightAlgebraRank": 12,
+      "actualWholeOriginalIdealRank": 9,
+      "actualResidueWeightQuotientDimension": 3,
+      "characteristicZeroWeightQuotientDimensionUpperBound": 3,
+      "wholeOriginalBlockExcluded": false,
+      "fullThreeOriginalElementsAndAllWeightBasisProducts": true,
+      "idealMatrixShape": [
+        12,
+        36
+      ],
+      "noQRootOrNilpotentDiscarded": true,
+      "noHOrLambdaHeadUnitUsed": true,
+      "noDOrValueSaturation": true,
+      "arithmeticCounts": {
+        "uReductionProducts": 329,
+        "QReductionProducts": 15
+      },
+      "stage": "new_P201_same_Q_actual_original_ideal_block",
+      "seconds": 17.453401742999993
+    },
+    {
+      "actualP201ModularBlock": {
+        "bytes": 19,
+        "sha256": "e65a337d8d9d8132a57a3b16e26437e817a903234d9258ec8bf7d67fec2393cc",
+        "degree": 4
+      },
+      "P201BlockMultiplicity": 1,
+      "residueBaseDegree": 4,
+      "completeWeightAlgebraRank": 16,
+      "actualWholeOriginalIdealRank": 12,
+      "actualResidueWeightQuotientDimension": 4,
+      "characteristicZeroWeightQuotientDimensionUpperBound": 4,
+      "wholeOriginalBlockExcluded": false,
+      "fullThreeOriginalElementsAndAllWeightBasisProducts": true,
+      "idealMatrixShape": [
+        16,
+        48
+      ],
+      "noQRootOrNilpotentDiscarded": true,
+      "noHOrLambdaHeadUnitUsed": true,
+      "noDOrValueSaturation": true,
+      "arithmeticCounts": {
+        "uReductionProducts": 377,
+        "QReductionProducts": 15
+      },
+      "stage": "new_P201_same_Q_actual_original_ideal_block",
+      "seconds": 17.454925583999994
+    },
+    {
+      "actualP201ModularBlock": {
+        "bytes": 24,
+        "sha256": "0c780501e3c546150d75e155fd0cfa9fa774a18639ae652f10c3739ac9515d6a",
+        "degree": 5
+      },
+      "P201BlockMultiplicity": 1,
+      "residueBaseDegree": 5,
+      "completeWeightAlgebraRank": 20,
+      "actualWholeOriginalIdealRank": 15,
+      "actualResidueWeightQuotientDimension": 5,
+      "characteristicZeroWeightQuotientDimensionUpperBound": 5,
+      "wholeOriginalBlockExcluded": false,
+      "fullThreeOriginalElementsAndAllWeightBasisProducts": true,
+      "idealMatrixShape": [
+        20,
+        60
+      ],
+      "noQRootOrNilpotentDiscarded": true,
+      "noHOrLambdaHeadUnitUsed": true,
+      "noDOrValueSaturation": true,
+      "arithmeticCounts": {
+        "uReductionProducts": 425,
+        "QReductionProducts": 15
+      },
+      "stage": "new_P201_same_Q_actual_original_ideal_block",
+      "seconds": 17.45667014
+    }
+  ],
+  "strict_conclusions": {
+    "weight_quotient_generic_dimension_at_most": 14,
+    "distinct_weight_pairs_at_most": 14,
+    "distinct_five_coordinate_points_at_most": 252,
+    "distinct_full_normalized_points_at_most": 504
+  },
+  "no_block_closed": true,
+  "all_five_original_value_blocks_retained": true,
+  "no_QQ_linear_Q_factor_claim": true,
+  "no_coefficient_payload": true,
+  "ordinary_ISP_claim": false
+}
