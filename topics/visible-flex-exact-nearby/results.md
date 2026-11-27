@@ -562,3 +562,8 @@ GHW/GHV+HLP完整scalar/vector链式列及actual matched difference闭二jet空�
 [完整证明](results/R147-supplement-complete-target-normalized-nu-forward-column-by-pullback.md)与[新纯公式](scripts/fourfold_codazzi_full_target_nu_forward_residual_math.py)。同一strictν从NP/PO/ASB/JC/DBRA已成输入选一个新512mode forward trial，形成全部2560 signed输出；用准确pullback积分∫(r(G)G′−f)²/G′认证全圆L² residual，保8192全点、真正G′chain、完整Wiener无限alias。true H/G density同伦费包含Jacobian和lift二导，真w两whole products/PDE费全保；同一WBP onto inverse给全列误差，Q_a只在trueB后投影，不假定trial有真a parity。
 
 原Θ消费保整个新512目标坐标及true Cayley multipliers、完整OT96×2240 carrier，误差用EV·||Gbar Xhat||+EM·||xhat||+(新Θtrial norm+原global error)δX+96joint配对费。未用low96补零或拿12.588坐标逆当全Θ norm。19自然新目标未执行，BGR3可同次必要恢复；在跑BNC7、旧DWTB/IR/ASR/OT/UDRC/CYA全目标均不重。
+
+### R147 ACT：同一 selected core 的完整 C1 锚传递
+
+
+[ACT：selected core 的完整 C1 锚传递](results/R147-supplement-selected-core-C1-anchor-transfer-and-weak-height-ports.md)已成：仅同 Qδ 的[b=.18,L=.9]，实际 L 三端口(A0,A1,B1)给 a0≤A0+3.148e−8、a1≤A1+4.312A0+3.6461e−5、b1≤B1+1.950541A1+12.205365A0+1.41e−4；完整原弱窗四行新表与 YL/KL 准确 dual 同付，det−1 轴向负号保。19新组合全过，旧科学0；R→L cap/实际L端口、真TC全源和periodicity仍独立，C0不当C1。

@@ -54,17 +54,8 @@ WMR/WMRA完整正权mean与原42记录、四端/jump/全部域和未付门保[�
 
 ### 2b. 已付系数、坐标与原强界
 
-[已成主逆/强误差范围](notes/2026-11-16-completed-principal-and-strong-error-scope-index.md)、[已成waist/commutator范围](notes/2026-11-16-completed-waist-and-commutator-norm-index.md)及本节完整检查点保存全部原式/球/SCI/preGit。
-
-PF5856c8cf/CT341a9463保两row、oldI/−SI、完整root有限函数/g1hat、trueX密度/χ差/mean/jump。IC4164e4a7共同degree192 root gauge及完整两rank/finite≤JF+191保；原式$c_i=-\mu/2+v_i,c_o=\mu/2+v_o$不把root字段改名为selected字段。SNA43751213826/1/21四列四导成功锁；仅lost314×4恢复且旧hash未冒已核，H3上界不能倒推低导。AC/CN/EN/LN全mean ODE/Jensen/primitive commutator与signed μ、真H D/ε/√j各一次；EN须直接signed指数reference，禁upper相减。
-
-MI/PG/PIB及PIBA43771317443/1/15保完整adjoint/duality两窗同逆与原巨大log/fallback；log不冒norm。SEIA43773319871/1/20已付ci>0/co<0、fullcircle同逆K0<1.034/K−<7.823。PSB/PTB只fixedcircle fullmean各Hs逆、固定低Wiener/L2K下线性高范数tame；真实背景/坐标高导、all-s实际费用和physical Nash tame未授。
-
-UTA43776528869/1/22、SWA43781399696/1/24旧whole paid约1.63981109e99、4.17526394e90均锁。同完整W/DW/Q/T1F2/两mean/3070jump/cut/waist、CG一次保；旧Q upper非lower。WRA新same-column完整性不改旧fullEi=false。WY/WE的左Js逆→receiver→H逆与右Λ/TF/S只在原列用；PW独立ports不得凭名右乘TF/S，stable trace不是新自由port。
-
-MS44038eae真commonout为$U_RB_-Z^S$、条件return为$U_RB_-Z^SB_+^{-1}$，无限sign保；仅TF与原sign可交换。DZA43773671216/1/24完整D/ToD/comm/two-sign/inputmean rank与全positive项成功锁，DZF第11 LF失败new/old/lost0保。DX4新三四导已由该run付；旧ray/KAM不重。NWA43775614821/1/20与NPKA43778474673/1/18双weightedmean、两窗N逆、四affine依CE和旧log/optionalfalse保；false不否逆，linear μ²/Cayley cubic不能互换。
-
-CYA43757868884/1/18的7416 signed/root及原native无限尾全部成功锁，γ=1/1024、physical loss1逆256；不外推wider finite参数框或把scalar gap称fullreturn。GH旧$128C_s\Lambda_J^{-1/3}<1$门仅在其完整有序return假设/同leading下适用，不替换本节WCS新square的门。J97/C0≤1/32仍旧目标而非已通过。
+完整原逐项说明、球/SHA/SCI/preGit、失败/lost、域/单位/mean及每一未付条件保[2b35完整open](https://github.com/Rogerhu12/math-research-public/blob/2b35e35f22bc511a208a4118d007efde2d812e41/topics/visible-flex-exact-nearby/open.md)本节；本次压缩前全文亦保[f73d7ab9原页](https://github.com/Rogerhu12/math-research-public/blob/f73d7ab9311f92b9da34596e5317a3a66cca730c/topics/visible-flex-exact-nearby/open.md)。这里只索引，不撤旧义务/false flags，全部成功科学禁重。
+PF/CT/IC/SNA/AC/CN/EN/LN：完整两row/mean/root/jump/物理normalizer及signed指数保，不由upper相减，不由高导倒授低导。MI/PG/PIB/SEIA/PTB：同一真实adjoint/duality与fixedcircle逆保，巨大log不当norm，physical tame另付。UTA/SWA/MS/DZA/DZF/WY/WE：完整W/DW/CG/ports/两mean/3070jumps和all-positive项保；PW独立ports不凭名右乘TF/S，只准原完整ordered operator/同sign交换。NWA/NPKA/CYA双mean/全native尾/真实参数域保持；μ²与Cayley cubic不互换，scalar gap不称fullreturn。GH旧门不替WCS新square，J97/C0≤1/32仍未通过。
 
 ### 2c. 根图、有限补及真正参数门
 
@@ -80,11 +71,7 @@ PD58bdf173仍需真正DF/regular逆、trueν Schur非零、原第四Robin/腰/me
 
 ## 3. 已成源链索引
 
-本节上一完整范围表已移至[已成源链完整范围](notes/2026-11-15-completed-source-chain-scope-index.md)，Git blob55e973ed、SHAb2560cdc；原文在6cb41ee10eb925de47fbcf5bf6a70bbd61b36b8f同open第3节。只调整相对链接，完整原球/单位/域/失败lost/恢复身份及每条未付条件继续有效，成功旧数学禁止重算。
-
-N/SP/PW、PC/IN/RR、TN/TC、STA/AW、FAA/WXA/WTA、SJA、KLA/TFA/CGA、WEA/PGA/PIBA及旧Green/F/WA/WL完整run/门表逐字保[当前完整检查点](notes/2026-11-16-actual-tail-and-terminal-before-scaled-jets-checkpoint.md)；已成全部冻结，原scope与未付义务不减。
-
-AJ/RV/DG/M/SV/ER/S1/HP/BG/RJ、正侧两条原run、AD完整Wronskian与SF exact source均保上述范围表。原Js268435456/97/1024不能混；source length与无length jump/完整两mean/全频与true density仍按各proof。两reference/独立PW function ports不因此有限；finite Green和νvolume不代wholecore或全ν，所有新逆与真实有限块义务在第2、4–7节。
+原完整源链表保[完整范围](notes/2026-11-15-completed-source-chain-scope-index.md)及[当前递归检查点](notes/2026-11-16-actual-tail-and-terminal-before-scaled-jets-checkpoint.md)；本次前全文在上方2b35及f73d7ab9不可变open。N/SP/PW、STA/AW、SJA、Green/root/positive全成功锁，原参数/单位/mean/SCI/preGit、失败/lost/恢复和所有待付scope均不减，禁止重算。root97、rootgauge1024、strictJs268435456不混；两reference/PW独立端口、全频/两mean/true density与source长度/无length jumps不删，finite Green和νvolume不代wholecore/全ν；余门仍在第2、4–7节。
 
 ## 4. 实际帽图与完整core接口
 
@@ -159,7 +146,7 @@ G以S/T E1856给physical C²整盘/曲率<2/径长<8e−6及同world position/no
 
 此前全部运行、完整球/SHA、失败/unknown、参数/units与scope保[658c原open第8节](https://github.com/Rogerhu12/math-research-public/blob/658c31092cb0995bfc4a52ec3eded7244edf9231/topics/visible-flex-exact-nearby/open.md)及递归原件；第1–7节义务不撤，成功旧目标禁重。
 
-- SL唯一45917913526/1，04:30仍signed trace；PS完整充分门64.097636/64.855555 false不推奇异，旧积分禁重。
+- SL唯一45917913526/1，05:26仍signed trace；PS完整充分门64.097636/64.855555 false不推奇异，旧积分禁重。
 - TCXV45928452441/1原cell/whole arrays不变，05:11公开union1876/7724、contiguous1320，三片328/292/264、failure null；不重旧992/matrix/waist，negative/positive96待。
 - UDRC21 45933303391/1于04:18:42全21成功，[UACT](results/R149-supplement-actual-original-finite-Theta-coordinate-inverse.md)给原Θ96square逆<12.588、lowerror≈.316981860、ρ≈.799597509<1。TQ实际坐标同构/kerΘ图可用，完整high反馈PKE96T^-1ΘP保，非physical/fullSchur。ASR/IR/OT whole/巨旧误差不删、不重科学。
 - [DBRA](results/R149-supplement-actual-direct-target-w-and-complete-B-inverse-rows.md)：DWTB9 45935081577/1于04:35:55全9成，e_w∞≈.347099250/e_w2≈.064636867，whole row eR≈.857445102，宽误差完整保。BNC原6source98b冻结，179current/51history与四whole父全pin，manifesta6655051…/唯一45941963989/1自04:47:58运行原7目标；全G/a相位及joint/alias/quadrature/composition费不删，PO配对不冒完整Θ列。
@@ -170,3 +157,6 @@ G以S/T E1856给physical C²整盘/曲率<2/径长<8e−6及同world position/no
 真实tail C1和全部高阶范围见第6节/H/results。[HL](results/R144-supplement-complete-L2-parameter-forcing-and-actual-second-seed-response.md)真L² forcing已成（全seed94/principal/三径mean），同source20..2898的2^-48000000/r，joint γA0/wE2960。[HLP](results/R144-supplement-complete-physical-readouts-for-L2-parameter-directions.md)已转完整partialγ scalar/vector真L²列；[SHL](results/R119-supplement-L2-response-of-the-actual-selected-tail-and-physical-readouts.md)现已完成同一实际选解L²→E20/高1164及fBH23响应，闭域uniform relativeL²余项、H8193方向operator的baseL²连续，未授L²operator连续；actual physical scalar/vector globalC²响应亦成，逐base余项/原H8193 C1。SCAP实际M(γ,fBγ)/完整97反馈已成见第4节，H_C0全无限像不截。真low/high/core、NG、所有matching/world与最终fixedmetric几何仍按第1–7节完整推进。
 
 环境失联后按根规8仅小文本GitHub集成，每次最新main核两README，非force拒旧父即重base；私库进行中/readSHA见H。第6批metadata45940225760/c92c87d9仅新128无引用旧JSON空白，真实net736134B，科学0。
+
+
+[ACT：selected core 的完整 C1 锚传递](results/R147-supplement-selected-core-C1-anchor-transfer-and-weak-height-ports.md)已成：仅同 Qδ 的[b=.18,L=.9]，实际 L 三端口(A0,A1,B1)给 a0≤A0+3.148e−8、a1≤A1+4.312A0+3.6461e−5、b1≤B1+1.950541A1+12.205365A0+1.41e−4；完整原弱窗四行新表与 YL/KL 准确 dual 同付，det−1 轴向负号保。19新组合全过，旧科学0；R→L cap/实际L端口、真TC全源和periodicity仍独立，C0不当C1。
