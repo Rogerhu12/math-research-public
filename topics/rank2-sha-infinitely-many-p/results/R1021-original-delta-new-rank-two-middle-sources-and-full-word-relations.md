@@ -764,6 +764,371 @@ $M^4a-54M^2(xa)$ 直接当成原测试。
 本节已付两真 canonical 的整个固定算子与完整返回，
 尚未证明其伴随测试由原平坦权的相邻返回生成。
 
+
+## 9. 原三字返回的共同权、degree130 Miller 与全部十三 profile
+
+本节承接 R1028 §5–6 的共同 $W_\infty$ reader。
+凡写到这个权，均保留该文已经支付的特征 $p$ 第一 primitive
+低窗范围；原特征零 $V_\delta$ 与 $W_\infty^p$ 的全函数差
+没有被改成零。这里的新内容是将两条实际正三处分支、
+旧行和原十三字放在同一坐标中，付清 Miller、平移、
+$\delta/\pi$ 缩放及完整四阶算子的归一。
+
+### 9.1 固定三次根与实际平移
+
+在第一步 $\delta$ 的 target 上记
+$$
+S=(0,1),\quad h=1-y,\quad \kappa^3=h,\qquad
+\Phi_-=\kappa,\quad \Phi_+=x/\kappa,\quad
+r_S=\Phi_+/\Phi_-=x/\kappa^2 .
+\tag{49}
+$$
+$\kappa$ 始终取 R1022 的原
+$-(y_{\rm up}+\delta)/(\delta x_{\rm up})$；
+不另选一个三次根。
+$\Phi_\pm$ 在原点都以 $z^{-1}$ 为首项，且
+$$
+\Phi_-^3=1-y,\qquad
+\Phi_+^3=-(1+y),\qquad
+\Phi_+\Phi_-=x .
+$$
+原 $S$ 的 $\zeta(S)=\eta(S)$ 和 addition identity 给
+$$
+D\log\Phi_+=\frac{y-1}{x}=:j_S,\quad
+D\log\Phi_-=\frac{y+1}{x},\quad
+\boxed{D\log r_S=-\frac2x.}
+\tag{50}
+$$
+
+保留原正分支 $u_3\in E[3]$、$[\pi]u_3=v_3$。
+由于 $[\delta]v_3=(0,-1)=-S$ 且 $\pi$ 在
+$\ker\delta$ 上作用为 $-1$，所以
+$$
+[\delta]u_3=S,\qquad [\pi]S=-S.
+\tag{51}
+$$
+在相位式中可直接取实际 lift $S=\delta u_3$；
+其在 $E$ 上的点仍是 $(0,1)$。
+定义固定常数
+$$
+C_S=e^{-\eta(S)S/2}\sigma(S).
+$$
+比较 logarithmic derivative 和原点首项，得到整个恒等式
+$$
+\boxed{
+T_S^{(N)}(\sigma^N R)
+=C_S^N\sigma^N\Phi_+^N R(P+S).
+}
+\tag{52}
+$$
+$C_S^3$ 的代数性由 degree3 canonical lift 给出，
+故本式只需原固定有限扩域及有限坏分母；
+$C_S$ 是上述复规范选定的准确根。
+$T_S^{(130)}$ 本身在原 $E$ 上具有三次 monodromy，
+这里在 (49) 的固定 cover 上使用它，不将它误称为
+$S_{130}$ 的 theta-group 自同构。
+
+### 9.2 两条正分支的真实 degree130 标准来源
+
+置
+$$
+G_A=\mathcal L_{10,0}(u_A),\qquad
+G_B=\mathcal L_{10,4}(u_B).
+$$
+R1021(23) 和互素3、13 cross fee $10$ 给
+$$
+\boxed{
+A_+=T_{u_3}^{(390)}D_\delta G_A
+     =D_\delta T_S^{(130)}G_A,\qquad
+B_+=T_{u_3}^{(390)}D_\delta G_B
+     =D_\delta T_S^{(130)}G_B.
+}
+\tag{53}
+$$
+这些都是完整十二字之和，没有重新标记某个好位本征线，
+也没有给 $G_A,G_B$ 单独赋中央零。
+
+以下暂写 $N=130$、$G=\sigma^N R_G$。
+用 $\sigma(\delta z)=\delta\sigma^3x$，式 (52) 给
+$$
+\frac{R_{D_\delta T_SG}}{x^N}
+=\delta^N C_S^N\Phi_+^N R_G(P+S).
+$$
+因为 $N\equiv1\pmod3$，
+$\Phi_+^N=x^N\kappa^{-N}
+=x^N h^{-44}\kappa^2$，所以这是原 mode2。
+R1022 的 degree130 Miller 函数必须为
+$$
+h_{2,N}=\frac{x^2}{(1+y)^{44}},
+\qquad x^Nh^{-44}h_{2,N}=1.
+$$
+于是实际标准化
+$f_2(P)=Q_2(P+S)/h_{2,N}(P)$ 中，整个来源准确为
+$$
+\boxed{Q_2=\delta^{130}C_S^{130}G.}
+\tag{54}
+$$
+这同时锁定了两条正分支全部十二字的同一个常数。
+不能把此处的指数44换成最终 degree10 的指数4。
+
+### 9.3 共同 $F_p$ 项及旧行多出的准确项
+
+以下 $F_p=Z+\rho_p(x^2/y)^p$ 仅引用 R887 §7 的原函数。
+R1028 的全三字式给
+$$
+B_0=-\frac{c_px}{3y},\qquad
+B_1=\frac{c_px^2}{3y(1-y)},\qquad
+g_{0,\infty}=\frac23+B_0^pF_p,\qquad
+g_{2,\infty}=h^{2s-1}B_1^pF_p .
+$$
+正分支的整个第一返回是
+$3\delta^{-N}g_{2,\infty}^p h^{4s}f_2$。
+由于 $p=6s-1$，
+$$
+p(2s-1)+4s=\frac{p^2+2}{3}.
+$$
+将真正的 $h_{2,N}$ 代入，完整消去显示幂后得到
+$$
+\boxed{
+\frac{h^{(p^2+2)/3}B_1^{p^2}}{h_{2,N}}
+=\frac{c_p}{3}\,
+ y^{-p^2}(1+y)^{(2p^2+N)/3}.
+}
+\tag{55}
+$$
+此式只用 $x^3=-(1-y)(1+y)$；
+其出现的整数幂 $(2p^2-2)/3$ 为偶数，故没有待定符号。
+
+定义同一个实际权
+$$
+\boxed{\mathcal K_p=-c_p(x/y)^{p^2}F_p^p.}
+\tag{56}
+$$
+它是函数域中的 $p$ 次幂，因而 $D\mathcal K_p=0$。
+将 (54)–(55) 代回，旧、新的完整共同模型返回分别是
+$$
+\boxed{\begin{aligned}
+\bar A_{130,\delta}^{\,\infty}(D_\delta g)
+ &=2R_g+\mathcal K_pR_g,\\
+\bar A_{130,\delta}^{\,\infty}(A_+)
+ &=-\mathcal K_p r_S^{p^2}
+      R_{T_S^{(130)}G_A},\\
+\bar A_{130,\delta}^{\,\infty}(B_+)
+ &=-\mathcal K_p r_S^{p^2}
+      R_{T_S^{(130)}G_B}.
+\end{aligned}}
+\tag{57}
+$$
+这里新行的负号来自
+$3B_0^{p^2}=-c_p(x/y)^{p^2}$，
+以及 $(2p^2+N)/3$ 为偶数。
+式 (57) 的每个完整乘积都下降到实际 $\delta$ target；
+固定 cover 上的单个 $r_S$ 或 $T_SG$ 不必分别下降。
+特别不能把旧行的 $2R_g$ 删除。
+
+$\mathcal K_p$ 与 $r_S^{p^2}$ 被 $D$ 杀掉，
+因此它们在本节同点的有限微分算子中确可保留为水平因子。
+但这不是说它们可以移出中央函数、特征零 Newton 读者
+或未经支付的第一 primitive。
+Cartier 的准确规则仅是
+$C^2(r_S^{p^2}\xi)=r_SC^2(\xi)$；
+$F_p^p$、$\Phi_+^{130}$、全部测试和来源仍按原顺序处理。
+
+### 9.4 最终 degree10 平移与四阶算子的准确缩放
+
+令 $v=v_{13,10}$，
+$$
+a_i=iv,\quad B_i=\pi a_i,\quad
+\mathcal I_i=T_{a_i}^{(130)}D_\pi,\qquad 1\le i\le12.
+$$
+用固定完整 Miller 因子 $M_i$ 记其有理部分：
+$$
+R_{\mathcal I_i(\sigma^{10}U)}(P)
+=M_i(P)\,U(\pi P+B_i).
+$$
+$M_i$ 是该原 canonical lift 与原 sigma 比值所指定的函数；
+不允许逐字重新归一。
+式 (52) 因而给实际同点字
+$$
+R_{T_S\mathcal I_i(\sigma^{10}U)}(P)
+=C_S^{130}\Phi_+^{130}(P)\,
+ M_i(P+S)\,U(\pi P+B_i-S).
+\tag{58}
+$$
+最后的负号是 (51) 的 $\pi S=-S$。
+因此反次序 $N=130$ 标准化中的外部 $+S$，
+到最终 degree10 来源准确成为 $-S$；
+不能沿用另一顺序的未转换 $U(P+S)$。
+
+在这个实际字的有理部分上，准确的源端导数是
+$$
+\boxed{
+\mathscr D_i^{S}
+=\pi^{-1}
+\left(D-130j_S-D\log M_i(P+S)\right).
+}
+\tag{59}
+$$
+它作用于 (58) 时，结果恰为同一整前因子乘
+$(DU)(\pi P+B_i-S)$。
+由于 (56) 的两个水平因子被 $D$ 杀掉，
+(59) 对 (57) 的共同权后之字仍有同样作用。
+其四次幂没有新增 $\delta^{-4}$：
+经原 $D_\delta$ 拉回时
+$\pi^{-1}D_{\delta\text{-target}}$ 正好变成
+$\alpha^{-1}D_{\rm source}$，与 (42) 完全一致。
+
+令 $\mathcal P_i^S$ 为
+$T_S\mathcal P_iT_S^{-1}$ 的实际 transported word projector，
+并在 (57) 上按同一共同乘子再共轭；
+这只定义原完整十二字的有序分解，
+不将其投影越过任意别的乘子。
+对应算子
+$$
+\mathscr O_{\rm mid}
+=\sum_{i=1}^{12}\chi_8(i)
+ \left((\mathscr D_i^S)^4
+       -54x(\pi P+B_i-S)(\mathscr D_i^S)^2\right)
+ \mathcal P_i^S
+$$
+于是严格给
+$$
+\boxed{
+\mathscr O_{\rm mid}
+\bar A_{130,\delta}^{\,\infty}(B_+)
+=60\,\bar A_{130,\delta}^{\,\infty}(A_+).
+}
+\tag{60}
+$$
+这是 (41) 与 $\chi_8\chi_{10}=\chi_6$ 的完整同点身份；
+没有新三处相位，也没有改变任何十三 profile。
+第一 Cartier 对这三个角色同时取 $p$ 次根，
+$\chi_8,\chi_{10},\chi_6$ 分别变成
+$\chi_4,\chi_2,\chi_6$，其乘法关系保持；
+第二 Cartier 恢复原角色。
+
+后续整个 $\pi$ trace 仍必须使用
+$\pi^{-10}\operatorname{Tr}_{[\pi]}
+(V_\pi\,\bar A_{130,\delta}/R_\pi^{10})$。
+在饱和范围 $V_\pi\bmod p=v_\pi^{p^2}$，
+它也是显示的水平因子，但不允许移到 trace 外。
+原 $P_{10},Z^{-b-1}$ 及其全部曲率 (47) 继续位于完整乘积中。
+因此 (60) 付清了实际 $O^\dagger$ 应从哪一组字、
+哪一个缩放和哪一个真实平移生成；
+它没有提前断言伴随测试已由 canonical 必要行消去。
+
+
+### 9.5 原点全窗与真正的固定同 charge 来源
+
+先只在式 (57) 的实际 $\delta$ target 原点工作。
+R1028 的完整式和 R887 的 $F_p$ 给
+$$
+W_\infty=c_pu^pF_p,\qquad
+\mathcal K_p=-W_\infty^p,\qquad u=x/y.
+$$
+因为
+$W_\infty=1-y^{-2p}+c_pu^pZ=1+O(z^{p+1})$
+且 $r_S^3=(y+1)/(y-1)=1+O(z^3)$，
+原首项为一的固定根给
+$$
+\boxed{
+\mathcal K_p+1=O(z^{p^2+p}),\qquad
+r_S^{p^2}-1=O(z^{3p^2}).
+}
+\tag{61}
+$$
+乘上式 (57) 的完整 $\sigma^{130}$ 来源后，其原点均正则。
+所以在真正 native degree130 的全部系数
+$n\le H(p+1)<p^2$ 中，整个旧返回恢复 $g$，
+整个新返回分别恢复 $T_SG_A,T_SG_B$，均为模 $p$ 的准确身份。
+这里没有在其余十三个核点删去 (61) 的误差，
+也没有将此模 $p$ 观察升格为模 $p^K$ 的全 trace 身份。
+
+事实上，存在更强且不用 (61) 的特征零比较。
+由 (53)，固定来源
+$$
+\widehat A=T_S^{(130)}G_A,\qquad
+\widehat B=T_S^{(130)}G_B
+$$
+严格满足 $A_+(z)=\widehat A(\delta z)$、
+$B_+(z)=\widehat B(\delta z)$。
+置 $d=p+1$、
+$q_\delta=\delta^d/3\in1+p\mathcal O$。
+沿 R978/R1022 的原 Tate 归一，
+先在正整数权核系数，再由原解析唯一性得到
+$$
+\boxed{
+J_{390,A_+}(v)=q_\delta^vJ_{130,\widehat A}(v),\qquad
+J_{390,B_+}(v)=q_\delta^vJ_{130,\widehat B}(v).
+}
+\tag{62}
+$$
+两条来源的实际质量为零，故
+$j_{390,A_+}=j_{130,\widehat A}$、
+$j_{390,B_+}=j_{130,\widehat B}$。
+于是原两条 canonical 坏条件确实给这两个完整固定三次 cover
+来源的 charge65 中央零；并非只利用
+$\delta^{p+1}\equiv3\pmod p$。
+
+整性和原收敛窗无需猜测一个新的 translated-theta 定理。
+记原 regularized Gaussian 为
+$G_{D,f}(z)=e^{-Dc z^d}f(z)$。
+完整恒等式
+$$
+\boxed{
+G_{130,\widehat A}(z)
+=\exp\!\left(130c(q_\delta^{-1}-1)z^d\right)
+ G_{390,A_+}(z/\delta)
+}
+\tag{63}
+$$
+对 $\widehat B$ 也成立。
+原 $v_p(c)=-1$，而 $q_\delta-1\in p\mathcal O$，
+故额外指数参数整；$\delta$ 是单位。
+其整 Hurwitz 系数、完整原点窗口及严格内盘收敛
+均从已付的原390来源与整指数乘法继承。
+原 $d\ell$ 读者只取整个来源的 principal 部分；
+投影不能移到某个单字或某个外权之前。
+
+若希望与 R989 的首项规范完全一致，可直接用 R981 的
+$\Psi_{35}=z^6+O(z^{12})$、
+$\Psi_{53}=z^6+O(z^{12})$ 定义两个固定来源
+$$
+\widetilde\Psi_{35}(z)=\delta^6\Psi_{35}(z/\delta),\qquad
+\widetilde\Psi_{53}(z)=\delta^6\Psi_{53}(z/\delta).
+\tag{64}
+$$
+它们仍以 $z^6$ 为首项，质量为零；原坏条件给
+$j_{130,\widetilde\Psi}=0$。
+因此四条真实算术必要行可统一为
+$$
+\Phi_*,\quad\Phi_{260},\quad
+\widetilde\Psi_{35},\quad\widetilde\Psi_{53},
+\qquad n=65,\quad q=n/17=65/17.
+\tag{65}
+$$
+后两条是固定三次 cover 上的实际来源，
+不能认作原完整22维 $S_{130}$ 的两条新向量。
+
+更精确地，令 $w=z^6$，则 R989 的 inner 满足
+$$
+\boxed{
+B_{\widetilde\Psi,65}(w)
+=B_{\Psi,195}(w/\delta^6)
+ \exp\!\left(130c(q_\delta^{-1}-1)w^s\right).
+}
+\tag{66}
+$$
+R989 的按 $w$ 次数 Hurwitz 代数对单位缩放及此整指数封闭；
+其全部 $h\ge9$ 尾界因此原样成立。
+第七、第八完整整端点也保持：至 $8s-1$，
+额外指数至多用七次项，所有相应阶乘是单位。
+在同一个五高轴 family 中，(65) 因而都使用相同的
+$e^{(65/17)\eta_x}$ 和同一完整六位必要式。
+这给两条可直接代入的实际同 charge 行，
+并没有改变原旧六行、删除较低卷积，
+或声称两个不同高轴 family 在 $x\ne0$ 时相同。
+
 ## 依据
 
 - R978、R1015、R1018：原 $S_{10}$ 两条 old、$q$、完整十三
@@ -775,3 +1140,5 @@ $M^4a-54M^2(xa)$ 直接当成原测试。
 - R985：原 canonical Heisenberg lift、相位与 Miller 代数性。
 - R1020、R1022：同一个 whole target 的唯一 primitive 类与
   原39纤维全精度 trace；本篇未以字零替换其完整读者。
+
+- R1028、R989：末六原权的完整共同低窗，以及原五高轴/六位必要式与全部 Hurwitz 尾。第9节保固定三次 cover 和真实 Gaussian，未将其冒认原22维来源。
