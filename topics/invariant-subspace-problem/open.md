@@ -197,7 +197,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 [同S一次与权F恢复](results/R150-appendix-unit211-W-two-value-quadratics-affine-and-weight-six-F-recovery.md)保L1度18/22/8未付；原三Bi的det=已付单位×G36(e,k)，仅G36非零图F可唯一恢复。H411、L1和所有λ头零面仍保原式，不倒A143/Bi/D范数。
 
-[13低范数/B80](results/R150-appendix-unit211-W-G36-monic-weight-algebra-and-complete-low-norm-cover.md)仅盖所列物理/原头异常。已刊[完整1198覆盖](results/R150-appendix-unit211-W-G36-original-unit-and-complete-1198-weight-cover.md)由整Q6原九行/36分量真实返1取得；六片参数全保，固定合法k必要商≤36，≤43128不同点，非scheme长度/cover一次幂。新[有限首次SIGSEGV与部分原返回](notes/2026-11-27-unit211-W-G36-finite-1198-first-native-SIGSEGV-8542.md)准确记录adfc64.096秒/217604KiB/−11：QQ完整分low61/high1134及全部模因子已返，12以后无返回，不能由部分成功宣称QQ空。唯一旧坏模点已由新两原四次108×56实际77ms满56；旧满35块解析升至56，无须重算。首次派发全部low61 QQ原Gram（只目标1）和剩余index12–42新108×56；保整个Q6/非单位两因子与k重数。全部high只有真实整有限自由满射才可提升，low独立返回；G36非零及所有原未付头仍开。
+[13低范数/B80](results/R150-appendix-unit211-W-G36-monic-weight-algebra-and-complete-low-norm-cover.md)仅盖所列原物理/头异常；[完整1198](results/R150-appendix-unit211-W-G36-original-unit-and-complete-1198-weight-cover.md)的准确参数保持。新[整个高1134原有限覆盖排除](results/R150-appendix-unit211-W-G36-entire-high1134-original-finite-free-exclusion.md)由7a602真85.534334059秒/124504KiB/0完成：只余31域各原108×56全列满射，合旧成功35列乘变量解析升阶及唯一坏模点77ms新两四次；完整43模因子/重复(k+587)^2/整个Q6均保，Z_(1009)上有限自由6804维与两次Nakayama合法提升整个QQ高覆盖。adfc原SIGSEGV不改成功，不以一般模p判空替代提升。low61全部原QQ纤维独立续，G36非零与所有未付H411/L1/lambda首项仍开。
 
 ## Phi：四头覆盖、首头原 D 与例外原纤维（8542，2026-11-28）
 
