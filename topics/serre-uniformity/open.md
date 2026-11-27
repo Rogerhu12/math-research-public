@@ -44,6 +44,8 @@
 
 [R1118](results/R1118-original-short-Cartier-reading-for-CM-third-kind-values.md)：原α改由短Cartier读法：s≤159/151、f的确定性线性避让、U_f=fH0Ω(S)的完整V≤5 colon；73个同一Gaussian free点的一次4513来源给C和Cη−η，(1−C)解唯一原W形式。保全部coarse/closed/cusp47/除6；算法尚无实际回执，未报QC行秩。
 
+[R1119](results/R1119-original-signed-CM-coordinates-and-Jacobi-reading.md)：原四基本CM的反向项链迹为q†u_D=23w_D y_(DN,r_D)，w=3/2/1/1，r=N/0；真带符号ρ_D=(w_D/2)c(DN,r_D)/c(−4N,0)，QC坐标ρ_D/Bq。原Q同源证明与4513整性分开；新Jacobi请求核QQ路径、整投影、共同73参考和原H全矩阵桥，数值待实际回执。
+
 ## O1：全p同一真实本原标签的临界非零
 
 R1113 §§8–9新增原B=D³−3UD−3V的完整联合简单谱、真实三Darboux因子与全部三阶jet carry；C=UD+V仅在明确W_C上半单，原U^m为唯一零列。每个实际列的relative Cartier读数e_ℓ给精确p−1系数；仍未付指定e/K4非同时零。

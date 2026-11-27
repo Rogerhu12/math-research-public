@@ -1,0 +1,58 @@
+name: Serre full p47 actual signed Jacobi CM coordinates
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - topics/serre-uniformity/notes/full-p47-signed-Jacobi-CM-coordinates-request.json
+
+permissions:
+  contents: read
+
+concurrency:
+  group: serre-full-p47-signed-Jacobi-CM-coordinates-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  signed_CM_coordinates:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/serre-uniformity/README.md
+            /topics/serre-uniformity/scripts/full_p47_weight_one_Hodge_certificate.py
+            /topics/serre-uniformity/notes/full-p47-CM-height-move-request.json
+            /topics/serre-uniformity/scripts/full_p47_signed_Jacobi_CM_coordinates.py
+            /topics/serre-uniformity/scripts/full_p47_signed_Jacobi_CM_coordinates.gp
+            /topics/serre-uniformity/results/R89-signed-CM-coordinates-and-actual-T2-translation.md
+            /topics/serre-uniformity/results/R71-necklace-isogeny-polarization-and-level41-spectrum.md
+            /topics/serre-uniformity/results/R1089-certified-full-level47-auxiliary-Bq-and-component-groups.md
+            /topics/serre-uniformity/results/R1093-certified-original-Gaussian-CM-generator-and-full-MW-lattice.md
+            /topics/serre-uniformity/results/R1119-original-signed-CM-coordinates-and-Jacobi-reading.md
+            /topics/serre-uniformity/notes/full-p47-signed-Jacobi-CM-coordinates-request.json
+      - name: Pull pinned official SageMath 10.6 image
+        run: docker pull sagemath/sagemath@sha256:60dfb09e8d1399e127a0d7b62b45eef1044574bae397df51bb6ba38df5498879
+      - name: Read original signed CM coordinates
+        env:
+          SERRE_EXPECTED_REQUEST_SHA256: '843c1650845f95027c49b7a352a1a6a332b07f662427eef4f8cc5f5f17afd39c'
+        run: |
+          timeout --signal=TERM --kill-after=30s 2100s docker run --rm --cpus=4 --memory=14g \
+            --mount "type=bind,source=${GITHUB_WORKSPACE},target=/work,readonly" \
+            --workdir /work \
+            -e GITHUB_ACTIONS -e GITHUB_REPOSITORY -e GITHUB_SHA \
+            -e GITHUB_RUN_ID -e GITHUB_RUN_ATTEMPT \
+            -e SERRE_EXPECTED_REQUEST_SHA256 \
+            -e PYTHONUNBUFFERED=1 -e PYTHONDONTWRITEBYTECODE=1 \
+            -e OMP_NUM_THREADS=1 -e OPENBLAS_NUM_THREADS=1 \
+            sagemath/sagemath@sha256:60dfb09e8d1399e127a0d7b62b45eef1044574bae397df51bb6ba38df5498879 \
+            /bin/bash -lc '
+              set -e
+              exec sage -python topics/serre-uniformity/scripts/full_p47_signed_Jacobi_CM_coordinates.py
+            '

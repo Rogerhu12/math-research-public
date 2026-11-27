@@ -1,0 +1,134 @@
+{
+  "execution_id": "full-p47-signed-Jacobi-CM-v1",
+  "prime": 47,
+  "coefficient_prime": 4513,
+  "sage_version": "10.6",
+  "total_seconds": 1800,
+  "reserve_seconds": 60,
+  "random_seed": 0,
+  "CM_discriminants": [
+    -4,
+    -3,
+    -7,
+    -8
+  ],
+  "candidate_ids": [
+    141,
+    0,
+    76,
+    108
+  ],
+  "first_auxiliary": [
+    -11,
+    2027
+  ],
+  "auxiliary_prime_bound": 199,
+  "auxiliary_rule": "After -11, all negative primes -ell with ell<=199, ell=3 mod4, ell!=47 and (-ell/47)=1; smallest root mod4418.",
+  "separating_Hecke_coefficients": [
+    [
+      0,
+      1,
+      1
+    ],
+    [
+      1,
+      2,
+      4
+    ],
+    [
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      3,
+      9
+    ],
+    [
+      1,
+      4,
+      16
+    ],
+    [
+      1,
+      5,
+      25
+    ],
+    [
+      1,
+      6,
+      36
+    ],
+    [
+      1,
+      7,
+      49
+    ],
+    [
+      1,
+      8,
+      64
+    ],
+    [
+      1,
+      9,
+      81
+    ],
+    [
+      1,
+      10,
+      100
+    ],
+    [
+      1,
+      11,
+      121
+    ],
+    [
+      1,
+      12,
+      144
+    ],
+    [
+      1,
+      13,
+      169
+    ],
+    [
+      1,
+      14,
+      196
+    ],
+    [
+      1,
+      15,
+      225
+    ],
+    [
+      1,
+      16,
+      256
+    ]
+  ],
+  "Hodd_matrix_sha256": "e0105e4915c8685dcac366c72bdad0d0c7ff2e5b0b72768d06fd5573fc31cfbf",
+  "Hodd_characteristic_polynomial_sha256": "990a3205813f9785f40b97a754092530d9797edaee616b2814f2382530d06b37",
+  "consumed_Tq_integer_charpoly_sha256": "ca554eaecfa7f5ac349fdf9db69f32e584eb45c0787714e97e6ef3c44e1cba62",
+  "consumed_Bq_determinant_mod_q": 551,
+  "rules_last_read_commit": "847f050db0bb1fa1e24dcafd77c86b117b1c2cc5",
+  "source_sha256": {
+    "README.md": "581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102",
+    "topics/serre-uniformity/README.md": "6ce1403bd2d2587bb9cca70bd0095a1264b1167fe2c4b62f0652ae671e6277a5",
+    "topics/serre-uniformity/scripts/full_p47_weight_one_Hodge_certificate.py": "fe2e4f6b2420389b534fab0b2d1976dc6ac7cb2b1fe8ad98c07112ecd860afac",
+    "topics/serre-uniformity/notes/full-p47-CM-height-move-request.json": "bc89913668d6b3d209719a720c7562a7914459441526b6a565fc69edbfc2b7e6",
+    "topics/serre-uniformity/scripts/full_p47_signed_Jacobi_CM_coordinates.py": "a2e68973344d8e2a4dea9e403cf84c27e6076f55f629276d68264a27ec58adde",
+    "topics/serre-uniformity/scripts/full_p47_signed_Jacobi_CM_coordinates.gp": "79288572c0d4ca20ca806fb41eefb0b27df98876a827da631af53143df98a574",
+    "topics/serre-uniformity/results/R89-signed-CM-coordinates-and-actual-T2-translation.md": "8c9e22101f1e54534b58fe7b742422ed852abf3ff0f08a8052ec165f2c98cb8a",
+    "topics/serre-uniformity/results/R71-necklace-isogeny-polarization-and-level41-spectrum.md": "96a82636c5ee443ff5cd640a48d50f0e5335b27fc5d57fd8218e7a85f07df819",
+    "topics/serre-uniformity/results/R1089-certified-full-level47-auxiliary-Bq-and-component-groups.md": "c7f75157902089c09d3e929f61b8f2109837fa44f52d2e11e8987fbd72f3c243",
+    "topics/serre-uniformity/results/R1093-certified-original-Gaussian-CM-generator-and-full-MW-lattice.md": "2c58955e6bdf390eefa55129db583ae8368fb988211e5e8f62f9e93151e2cf3c",
+    "topics/serre-uniformity/results/R1119-original-signed-CM-coordinates-and-Jacobi-reading.md": "00ab2d79e6d87e9ea184bf087563f52c424c14573f9b7c0686b7f51dda950b44"
+  },
+  "scope": "Only new full47 weighted CM ratios and their actual H=T3+T5 coordinate bridge; consume old full T4513 and original Hodge source. No level41 rerun, no old CM log or height recalculation.",
+  "storage": "Commit only source, finite request, method, small conclusions and run/hashes. No raw matrices, datasets, artifacts, Releases or cache upload."
+}

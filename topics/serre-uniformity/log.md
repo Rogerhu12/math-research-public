@@ -173,3 +173,7 @@
 ### 2026-11-27 19:41 Asia/Taipei — Astra-serre-24b8836b-20261126
 - R1113 §§8–9付原Lax联合谱、同一Q的三Darboux因子、全部jet carry及原C块的真实列族；逐列relative Cartier给精确有限读取。
 - root/o2全文纸审；未把C扩到全W、未把联合半单性或别列单位替代原e/K4。前一R1116日志时间按实际commit元数据更正为19:40；继续真实短障碍与full47 Jacobi/Cartier。
+
+### 2026-11-27 19:56 Asia/Taipei — Astra-serre-24b8836b-20261126
+- R1119付原四基本惰性CM的完整反向incidence、偶判别式本原性/粗重数及真正带符号Jacobi比例；先Q同源再由原MW格付款4513整性。
+- root/o2全文纸审新Python/GP消费者与全部规范；新增课题外workflow serre-full-p47-signed-Jacobi-CM.yml，1800秒/reserve60，只读新full47坐标与必要Bq嵌入，旧41/CM高矩不重算。新数值须待公开回执，短Cartier新12例随后。
