@@ -1,0 +1,36 @@
+name: Rank2 complete degree378 spectrum
+"on":
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/rank2-sha-degree378-complete-spectrum.yml"
+      - "topics/rank2-sha-infinitely-many-p/ci/original-degree378-complete-spectrum-request.json"
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: rank2-sha-degree378-complete-spectrum
+  cancel-in-progress: false
+jobs:
+  spectrum:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - name: Execute the complete pinned spectrum and retain authenticated records
+        env:
+          OPENBLAS_NUM_THREADS: "1"
+          OMP_NUM_THREADS: "1"
+        shell: bash
+        run: |
+          set -euo pipefail
+          RANK2_SPECTRUM_DIR="$RUNNER_TEMP/rank2-degree378-source"
+          RANK2_SPECTRUM_PYTHON="$RUNNER_TEMP/rank2-spectrum-python"
+          export RANK2_SPECTRUM_DIR
+          git -c maintenance.auto=false clone --filter=blob:none --sparse --depth=1 --no-checkout --branch main https://github.com/Rogerhu12/math-research-public.git "$RANK2_SPECTRUM_DIR"
+          git -C "$RANK2_SPECTRUM_DIR" sparse-checkout set topics/rank2-sha-infinitely-many-p
+          git -C "$RANK2_SPECTRUM_DIR" fetch --filter=blob:none --depth=1 --quiet origin "$GITHUB_SHA"
+          git -C "$RANK2_SPECTRUM_DIR" checkout --detach --quiet "$GITHUB_SHA"
+          python3 -m pip install --disable-pip-version-check --target "$RANK2_SPECTRUM_PYTHON" python-flint==0.9.0
+          export PYTHONPATH="$RANK2_SPECTRUM_PYTHON"
+          cd "$RANK2_SPECTRUM_DIR"
+          python3 topics/rank2-sha-infinitely-many-p/scripts/launch-original-degree378-complete-spectrum.py --request topics/rank2-sha-infinitely-many-p/ci/original-degree378-complete-spectrum-request.json

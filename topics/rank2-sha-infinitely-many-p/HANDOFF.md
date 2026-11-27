@@ -11,7 +11,7 @@
 - 07:20UTC本地执行再次失联；09:09两库实际pull重试均明确No usable execution environment。私库API至e0944037db11cf7b9acb79a25f41e13417fde492逐两README核同06:47，QUEUE仍本会话进行中；不冒称实际pull。
 - 断连期间沿最新main API非force快进；每次检查README和本topic差异，遇新父重新比较/建commit。09:09公开API至ccb52315e1485916f867f7574c944b63dc40fac2，两README blob仍同07:12；最新父比较9文件，无本topic外部变化。恢复立刻补两库真实pull及README差异；令牌只命令行/进程，不落文件或API。
 - root独占git/H/open/log/index；每条结论即推，非快进立即pull --rebase、读差异、再推至成功，不强推。数学只用公开Actions。根规则15禁止存可重算输出；H<10KB、每MD<100KB。
-- [此次逐字归档](notes/2026-11-27-handoff-before-dyadic-vector-frame.md)及其完整历史链保全部旧式、回执、未付门和失联/同步史；[open](open.md)、[results](results.md)、[R1001–1050索引](notes/PROOF-INDEX-R1001-R1050.md)为实际接续入口，不重做已登记结论。
+- [此次逐字归档](notes/2026-11-27-handoff-before-degree378-spectrum.md)及其完整历史链保全部旧式、回执、未付门和失联/同步史；[open](open.md)、[results](results.md)、[R1001–1050索引](notes/PROOF-INDEX-R1001-R1050.md)为实际接续入口，不重做已登记结论。
 
 ## 一、唯一原几何作业及原生后端
 
@@ -19,9 +19,7 @@ v9 run45920983633/job140251398928/source1eeab95eb057de2b6ea6753ff9e36a18bd20bbd2
 
 R1033唯一v10：run45956901945/job140365369016/source43c1a7bfd607ba57dcdb891a1ed5ea83b61b1157。52源、两char0 pins、原r29/q2453/batch64/minimal、全门及21000s/360min、preflight=false保持。08:12仍in_progress；07:28/08:00日志均404，首只读作业未得快照，不作数学结论、不排副本。
 
-R1035完整native行表示/19组精确适配保同pivot/全列/附列/次数帽/双向返回；非整个素域下降走原完整后端。只编译45962104875/140382113685/sourcea6a3b7e9453a2f2d0babacb26ec85dd42dc20320、完整生产准备45964030236/140388320652/source0026a70fa4c916b34ee40f6be22c84a2176f562b均实际成功，数学实例0。全pin/hash、稀疏读修正、56源host和七处整行绑定见R1035§§5–7。候选请求未被重型workflow监听；仅在v10真实终态消费后决定后继，编译/准备不代原矩阵和几何PASS。
-
-R982/983/R987/R993/R992原全部门及R994三β27完整复L(1)>0均有真回执；对应全run/source/hash在结果及逐字归档，不重算。
+R1035完整native行后端/56源生产候选已真编译及准备成功（45962104875/140382113685、45964030236/140388320652），0数学实例；所有源码/原pins/完整hash、19组适配、七处绑定及原门在R1035§§5–7。原v10终态消费前不激活候选、不排副本。已付R982–994各原回执沿索引/逐字归档，不重复数学。
 
 ## 二、原中央实际门与最新完整输入
 
@@ -33,11 +31,13 @@ R1021§§8–15：原Q1=2yD−9x²、完整24字/χ8、真transpose/唯一曲率
 
 R1021§16把同一hχ接完整两分量P⃗=2^-n(−y)^-n Pn(2P)v2^-p²(x^p,1)，n=(p+5)/2；native Ẑ=Z2/2。完整E2运输为εq^(10−4p²)M^(p)，实际α半点负相位/source C²顺序保齐。整三角B与M̂B=M精确回同一物理M/全部坏带、高位、Ξ；新首槽−80κ5不混原−5κ5。E2极消、12 E4余点未伴随/一次Q†三C至多double，两μ6轨道≤4坐标仅授整体。真同点Q̂†=−2y(D+5G2)，移位Ri仍有15yi(r0−r0i)、完整Miller/cut/曲率；第二frame依赖第一，b3的csharp只读同一第一primitive p−2,p−8,…,3槽。继续真实39字gauge及全M forcing，无新canonical零。
 
-R1025原λ1−10λ2/81=−305ρ⁸B0(s−3)/7128为全p单位，完整Hermite/primitive/GP10/曲率齐，forcing未付。R1026低H同K和全13权/dVδ齐；R1028固定末六水平式、target全39首primitive、四阶G/cut的36阶帽与P10曲率全保，Jordan单位不代forcing。R1030原charge65三次角域/195余权整基及导子齐，两约分degree50真canonical恰为trace-zero基；三物理像保同H/E六位与共同核，不能相加rank。
+R1025–1030的原λ全p单位、同窗primitive/末六水平式、P10曲率及charge65三角域/degree50真实两canonical均保持，完整式见原证和本页逐字归档；单位不代forcing，三个物理像的rank不能相加。
 
 R1032/1034旧β/γ的全39、N130、even/odd、六Weyl极/cocycle/原cut/Ξ及两坏带全保。R1034§11的新χα=y/(α³yα)在O为1、38核点各三阶零、114simple极只映E2，原char0 Vχ全39平坦；H=2p−11/2p−5的完整无限尾真正给K=H。原r=p未施伴随时只留b5：ν2=Q/(X+1)^(3s)ω，csharp=Qtop；C³读(cp/3)Q(−1)^(1/p)φ，两泛函严格不同。原M首槽M_(p+4,p²+5)=−5κ5单位；G顶部四项及真实E2 selected coefficient锁定Q(−1)但未证明非零，R616/619低回填和全部更高位保持。
 
 真正逐word的Q†使用y(P−Ri)和原G(P)，前者在原E2为单位；在全偶投影前各字只取p²帽，安全极帽p³+p²+(7−b)p，Ri处另费≤4、其它既有非E2极≤1，Miller/cut导数/曲率/留数/两exact/φ*全留。因此施伴随后其它b5页重新出现。真实E2译源虽获原零授权，仍需完整翻权(69)–(70)接两个端点；原物理单位、单页唯一性或裸p曲率均不自动强迫零。
+
+R1037原两B12商全64列与二处D2、δ-old22/8/3、7-old20完整模型已付；最高42维含真九次角色，不当E/Q来源。13/19两算子只生成index3，31补全162参数；R302 Θ三绝对锚及真实norm189拉回固定A³=−I、H⁹=I。独立公开谱请求2026-11-27-original-degree378-complete-spectrum保334完整fibers、原K后端cross和所有源/投影回乘，4workers/3300s、60min workflow；结果待，不干预v10。旧原390回执没有完整向量，仅重建新商必需N7/N19并核原e80…hash，不调用旧全套。新host流式保全报告并核源/请求/两stream/hash，不缓存输出。
 
 ## 三、原几何与固定最高循环
 

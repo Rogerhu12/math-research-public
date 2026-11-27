@@ -1,0 +1,32 @@
+{
+  "schema": "rank2-original-degree378-complete-spectrum-v1",
+  "workers": 4,
+  "python_flint_version": "0.9.0",
+  "expected_source_pins": {
+    "check-original-degree378-complete-spectrum.py": "e5dc7114c455695349bc263061e3b8e6247a258c5c82469402b0934c64f0f2f2",
+    "check-r480-actual-input-cm19.py": "3d4d9a05872cdde0f24ff756ec79407417afa943eabf6f71f4e48d32f91f9c45",
+    "check-r466-fixed-two-division-source.py": "effd6f1526421cfcb9da3bd7769eed258374fa0addf337313d0315cb3ef08245",
+    "check-r464-degree102-cm7-exact.py": "b3e11a9da1b28a7623d86acf944262ab23c2d1969b1f0183030a4d1c96b5f1ff",
+    "launch-original-degree378-complete-spectrum.py": "1a6b2f908affe6989ae302622ac11ef4741487d66bc308791a63c17f03793898"
+  },
+  "original390_necessary_CM_norms": [
+    7,
+    19
+  ],
+  "new378_complete_CM_norms": [
+    13,
+    19,
+    31
+  ],
+  "complete_exact_report_marker": "R1037_COMPLETE_SPECTRUM_REPORT",
+  "complete_source_coordinates_marker": "R1037_COMPLETE_SOURCE_COORDINATES",
+  "complete_mass_zero_canonical_marker": "R1037_COMPLETE_MASS_ZERO_CANONICAL",
+  "require_all_original_columns_and_extra_fibers": true,
+  "require_complete_delta_old_and_seven_old": true,
+  "require_original_absolute_phase_anchors": true,
+  "no_generated_coefficient_inputs": true,
+  "no_generated_output_files": true,
+  "request_id": "2026-11-27-original-degree378-complete-spectrum",
+  "time_limit_seconds": 3300,
+  "workflow_sha256": "70e970500ad9bff262b874e1fc664d08b192f70d8ce310314b6f36ac2feb4867"
+}
