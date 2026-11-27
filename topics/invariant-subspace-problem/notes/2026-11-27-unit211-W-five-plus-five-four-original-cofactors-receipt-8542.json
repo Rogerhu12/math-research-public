@@ -1,0 +1,440 @@
+{
+  "schema": "isp-W-five-plus-five-original-value-cofactors-complete-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "sourcePath": "notes/2026-11-27-unit211-generic-LS-W-five-plus-five-original-value-fixed-cofactors-Vbar-corrected-8542.py",
+  "driver": {
+    "elapsed_seconds": 24.779341386999988,
+    "max_child_rss_kib": 421204,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "b47df53119ec9912fc9c9eb04c85094dce448bb4",
+        "before": "b7dd37b31d3794f0d976c7fb889fe18f045129bc",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-27T11:08:44.276028+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "45987986656",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "b7dd37b31d3794f0d976c7fb889fe18f045129bc",
+    "source_exit_code": 0,
+    "source_git_blob": "b1b72fdab28b2e8c6867206b2df769d249fe8a3d",
+    "source_sha256": "f9141a7560c7b26ace78f0ccc55f540591ba2494241472f557eaae378213c42c",
+    "stdout_bytes": 31564,
+    "stdout_sha256": "5cac095b2a3a9c1a0523a8b0dd5db37c0da3aea32331564106b6fd4679faaa45",
+    "stop_reason": null
+  },
+  "jobId": 140468378419,
+  "mathematicalRecords": [
+    {
+      "stage": "new_W_five_scalar_five_s_linear_complete_original_rows",
+      "scalarLabels": [
+        "E1",
+        "EBe",
+        "N1",
+        "NS",
+        "PS"
+      ],
+      "sLinearLabels": [
+        "third_moment",
+        "Delta",
+        "compatibility",
+        "N_odd",
+        "P_odd"
+      ],
+      "weightedNFullIdentityActuallyVerified": true,
+      "weightedPAndThirdMomentFullIdentityActuallyVerified": true,
+      "allOriginalRowsBidirectionallyRetainedUsingPaidEllOnly": true,
+      "scalarRows": [
+        {
+          "name": "E1",
+          "summary": {
+            "numeratorDegreeBounds_e_k_w": [
+              19,
+              24,
+              6
+            ],
+            "numeratorTermCounts": [
+              1826,
+              998
+            ],
+            "denominatorDegreeBounds_e_k_w": [
+              16,
+              24,
+              0
+            ],
+            "bytes": 66468,
+            "sha256": "4dc60ee68acde155f0719286d013a204d0422f97d7c4e39cc7ccf0fa204af237"
+          }
+        },
+        {
+          "name": "EBe",
+          "summary": {
+            "numeratorDegreeBounds_e_k_w": [
+              16,
+              20,
+              6
+            ],
+            "numeratorTermCounts": [
+              1245,
+              587
+            ],
+            "denominatorDegreeBounds_e_k_w": [
+              14,
+              20,
+              0
+            ],
+            "bytes": 40803,
+            "sha256": "e9ab65539d47421fc27183b7a52f417695006996535afccd493a31125b8ede93"
+          }
+        },
+        {
+          "name": "N1",
+          "summary": {
+            "numeratorDegreeBounds_e_k_w": [
+              23,
+              29,
+              6
+            ],
+            "numeratorTermCounts": [
+              2550,
+              1568
+            ],
+            "denominatorDegreeBounds_e_k_w": [
+              19,
+              28,
+              0
+            ],
+            "bytes": 105998,
+            "sha256": "fd339ac4312ba0da810a9b40dff1c0fb2be02b40bb7bbf540cbfb5059d73ea47"
+          }
+        },
+        {
+          "name": "NS",
+          "summary": {
+            "numeratorDegreeBounds_e_k_w": [
+              36,
+              48,
+              11
+            ],
+            "numeratorTermCounts": [
+              11056,
+              8223
+            ],
+            "denominatorDegreeBounds_e_k_w": [
+              31,
+              46,
+              0
+            ],
+            "bytes": 628065,
+            "sha256": "46c06346b4b9d04c47457ffa47de6199dd146804185f78688e6e49da030aee93"
+          }
+        },
+        {
+          "name": "PS",
+          "summary": {
+            "numeratorDegreeBounds_e_k_w": [
+              37,
+              48,
+              11
+            ],
+            "numeratorTermCounts": [
+              11562,
+              8657
+            ],
+            "denominatorDegreeBounds_e_k_w": [
+              32,
+              46,
+              0
+            ],
+            "bytes": 658517,
+            "sha256": "4ab736b05b283bfc526c006c1815f326baed3a0220c06b4f9247516c10f33b67"
+          }
+        }
+      ],
+      "sCoefficientIdentities": {
+        "third_moment": "-Dline",
+        "Delta": "Ralpha*T/V+ell*(3-2lambda)",
+        "N_odd": "lambda*(ell+T)",
+        "P_odd": "3(ell+T)^2+(4m^2+M)*Dline/M"
+      },
+      "allFourCompactSCoefficientsActuallyVerified": true,
+      "allSCoefficientZeroFibersRetained": true,
+      "noGeometricLeadingOrNormInverse": true,
+      "largeDclearedMatrixNotRebuilt": true,
+      "claimExcluded": false,
+      "seconds": 6.581931120999997
+    },
+    {
+      "stage": "new_W_true_s_linear_pair_original_return",
+      "labels": [
+        "Delta",
+        "N_odd"
+      ],
+      "originalCombination": "B_a*R_b-B_b*R_a",
+      "allOriginalScalarProductsActuallyVerified": true,
+      "sCoefficientCancelsExactly": true,
+      "summary": {
+        "numeratorDegreeBounds_e_k_w": [
+          53,
+          72,
+          16
+        ],
+        "numeratorTermCounts": [
+          35206,
+          29014
+        ],
+        "denominatorDegreeBounds_e_k_w": [
+          50,
+          72,
+          0
+        ],
+        "bytes": 2700530,
+        "sha256": "6c578f444f7c8ab72039f6b9719c051d468a715322b692a2ff1a3c8882332e6e"
+      },
+      "noPairLeadingDivided": true,
+      "claimExcluded": false,
+      "seconds": 8.033868058999985
+    },
+    {
+      "stage": "new_W_fixed_original_value_two_column_constant_cofactor",
+      "scalar": "EBe",
+      "valuePair": [
+        "Delta",
+        "N_odd"
+      ],
+      "summary": {
+        "degrees_e_k_w": [
+          58,
+          77,
+          18
+        ],
+        "terms": 46886,
+        "bytes": 2017899,
+        "sha256": "8dab2e03cabb09a23bb026a4bd92cbb4b05439a9f0e169cb417e2ebf652623cb"
+      },
+      "paidRemoved": [],
+      "leadingW": {
+        "degrees_e_k_w": [
+          45,
+          61,
+          0
+        ],
+        "terms": 1606,
+        "bytes": 52200,
+        "sha256": "98981052aa4e30dfce678559052f21f62e61d909f467438c3a52bbe25aae8e6c"
+      },
+      "fullTwoColumnConstantCofactorActuallyVerified": true,
+      "fullSLinearOriginalCombinationActuallyVerified": true,
+      "allPaidStrippingProductsActuallyVerified": true,
+      "allUnpaidLeadingZeroFibersRetained": true,
+      "certificateBytes": 8155090,
+      "certificateSHA256": "e320d7782a9871846c3cde30fb8bd13e2a4f7837aa5bcc13042d46c4b21bd450",
+      "secondsForCofactor": 3.154224087999978,
+      "claimExcluded": false,
+      "seconds": 9.736252403999998
+    },
+    {
+      "stage": "new_W_true_s_linear_pair_original_return",
+      "labels": [
+        "Delta",
+        "P_odd"
+      ],
+      "originalCombination": "B_a*R_b-B_b*R_a",
+      "allOriginalScalarProductsActuallyVerified": true,
+      "sCoefficientCancelsExactly": true,
+      "summary": {
+        "numeratorDegreeBounds_e_k_w": [
+          57,
+          77,
+          16
+        ],
+        "numeratorTermCounts": [
+          40210,
+          33552
+        ],
+        "denominatorDegreeBounds_e_k_w": [
+          53,
+          77,
+          0
+        ],
+        "bytes": 3216969,
+        "sha256": "545cd7cddd56857a01a8925491aed5bb9577e44871c5226eb98589ccf0045b05"
+      },
+      "noPairLeadingDivided": true,
+      "claimExcluded": false,
+      "seconds": 11.679165256999994
+    },
+    {
+      "stage": "new_W_fixed_original_value_two_column_constant_cofactor",
+      "scalar": "EBe",
+      "valuePair": [
+        "Delta",
+        "P_odd"
+      ],
+      "summary": {
+        "degrees_e_k_w": [
+          62,
+          82,
+          18
+        ],
+        "terms": 52974,
+        "bytes": 2362782,
+        "sha256": "ad880428bc94154b9b350ef83b6631d67b89fe90739beaa8c36bab91f7c7174e"
+      },
+      "paidRemoved": [],
+      "leadingW": {
+        "degrees_e_k_w": [
+          48,
+          66,
+          0
+        ],
+        "terms": 1867,
+        "bytes": 63802,
+        "sha256": "8d79d629416c61f5f2c9396bb25e19803ef7cac724c7e0ae20873f8d55c5e0b4"
+      },
+      "fullTwoColumnConstantCofactorActuallyVerified": true,
+      "fullSLinearOriginalCombinationActuallyVerified": true,
+      "allPaidStrippingProductsActuallyVerified": true,
+      "allUnpaidLeadingZeroFibersRetained": true,
+      "certificateBytes": 9681976,
+      "certificateSHA256": "ba665ac918a74f9a2525980f3bf6febad8f1045b38df689dce145d48126aecd1",
+      "secondsForCofactor": 4.1551386630000025,
+      "claimExcluded": false,
+      "seconds": 13.891483284999993
+    },
+    {
+      "stage": "new_W_fixed_original_value_two_column_constant_cofactor",
+      "scalar": "E1",
+      "valuePair": [
+        "Delta",
+        "N_odd"
+      ],
+      "summary": {
+        "degrees_e_k_w": [
+          61,
+          81,
+          18
+        ],
+        "terms": 52310,
+        "bytes": 2318907,
+        "sha256": "9d4de6fb3d69ddcf25d3aeea90e131df04402576f4345e49835f7b810fe32701"
+      },
+      "paidRemoved": [],
+      "leadingW": {
+        "degrees_e_k_w": [
+          48,
+          65,
+          0
+        ],
+        "terms": 1862,
+        "bytes": 62858,
+        "sha256": "741acaca247cef3d6c77fb9142fd1efb9d8a3975ee9c09a5464354c05193ec60"
+      },
+      "fullTwoColumnConstantCofactorActuallyVerified": true,
+      "fullSLinearOriginalCombinationActuallyVerified": true,
+      "allPaidStrippingProductsActuallyVerified": true,
+      "allUnpaidLeadingZeroFibersRetained": true,
+      "certificateBytes": 8801792,
+      "certificateSHA256": "4785733afd9feaea8552b8bfec8903ff78f8c125bde0b31cba1b57c952442a2e",
+      "secondsForCofactor": 2.1036470039999813,
+      "claimExcluded": false,
+      "seconds": 15.995216216999978
+    },
+    {
+      "stage": "new_W_true_s_linear_pair_original_return",
+      "labels": [
+        "third_moment",
+        "N_odd"
+      ],
+      "originalCombination": "B_a*R_b-B_b*R_a",
+      "allOriginalScalarProductsActuallyVerified": true,
+      "sCoefficientCancelsExactly": true,
+      "summary": {
+        "numeratorDegreeBounds_e_k_w": [
+          67,
+          91,
+          21
+        ],
+        "numeratorTermCounts": [
+          70315,
+          60244
+        ],
+        "denominatorDegreeBounds_e_k_w": [
+          62,
+          91,
+          0
+        ],
+        "bytes": 6299698,
+        "sha256": "35d1f17f5295198b3180ce18c7ce51732e3042788266a92929227bcbe6e62c75"
+      },
+      "noPairLeadingDivided": true,
+      "claimExcluded": false,
+      "seconds": 20.47956340899998
+    },
+    {
+      "stage": "new_W_fixed_original_value_two_column_constant_cofactor",
+      "scalar": "EBe",
+      "valuePair": [
+        "third_moment",
+        "N_odd"
+      ],
+      "summary": {
+        "degrees_e_k_w": [
+          72,
+          96,
+          23
+        ],
+        "terms": 88522,
+        "bytes": 4386354,
+        "sha256": "77ee10a8cfcc2241976426b8afba3197e4c2315defb4ad1b897732a6fad8e522"
+      },
+      "paidRemoved": [],
+      "leadingW": {
+        "degrees_e_k_w": [
+          54,
+          75,
+          0
+        ],
+        "terms": 2337,
+        "bytes": 85280,
+        "sha256": "6889d5b5e03a941816d9477a7b5c77cbbbd83f22585c47828dfeecf293b6fc7b"
+      },
+      "fullTwoColumnConstantCofactorActuallyVerified": true,
+      "fullSLinearOriginalCombinationActuallyVerified": true,
+      "allPaidStrippingProductsActuallyVerified": true,
+      "allUnpaidLeadingZeroFibersRetained": true,
+      "certificateBytes": 18312191,
+      "certificateSHA256": "9b31c5b9c8b85341b486510ff69f3f7b861985919f5c3d42da6e9b81a6bad766",
+      "secondsForCofactor": 8.670054319000002,
+      "claimExcluded": false,
+      "seconds": 24.66535631299999
+    },
+    {
+      "stage": "new_W_five_plus_five_original_value_fixed_cofactor_complete",
+      "sourceSHA256": "f9141a7560c7b26ace78f0ccc55f540591ba2494241472f557eaae378213c42c",
+      "fiveScalarAndFiveSLinearOriginalRowsCompletelyRetained": true,
+      "cofactorsReturned": 4,
+      "allOriginalSameYAndSProductsActuallyVerified": true,
+      "allPreviouslyUnpaidHeadsStillRetained": true,
+      "allPhysicalPointUnitsStillRequired": true,
+      "noNormInverse": true,
+      "largeDclearedMatrixNotRebuilt": true,
+      "noParameterUnitClaim": true,
+      "claimExcluded": false,
+      "peakRssKiB": 421204,
+      "seconds": 24.665596350999976
+    }
+  ],
+  "oldNameErrorReceiptBlob": "9e45703847986ef58636767b622b45ff326f34a5",
+  "allUnpaidLeadingZeroFibersRetained": true,
+  "geometricNormsNotInverted": true,
+  "noLargeDclearedMatrixReplay": true,
+  "claimExcluded": false
+}

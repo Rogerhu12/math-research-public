@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R150：W 整余图五条无 s 原行、五条 s 一次原行与四个参数 cofactor](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-five-plus-five-original-values-and-four-cofactors.md)：保完整两谱，真原组合消 s 后取常数列，实际24.779秒/exit0；w度18/18/18/23与全部未付首项零面保留，未宣空。
+
 - [R150：一般 h=1/k=1 的同一清分母 Gram 八原式与首一三次行列式头](results/R150-appendix-unit211-general-h-one-cleared-eight-values-and-monic-cubic-determinant.md)：真实10.632秒/exit0完整两谱；Delta*的ell³头−2Sxi p⁵/rho已付，提供整个零图三维输入，未排空。
 
 - [R150：W 原 Gram 商中的 Y 真单位与六次首一 w 关系](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-Gram-Y-unit-and-monic-w-degree-six.md)：旧整 y=1 排除确只用原 Gram/weighted 行与权单位，故六生成商中 Y 可逆、w 整；完整 determinant trick，未构造系数、不倒未付头。

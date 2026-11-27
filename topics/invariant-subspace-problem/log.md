@@ -555,3 +555,7 @@ AI-assisted GPT-6 Astra Pro：审原Gram重建、weighted N/P→HA/HB原迹、�
 2026-11-27 19:17 Asia/Taipei｜Astra-ISP-8542378f-20261127
 - 一般h1/k1原碰撞新e6dae493实际10.632秒/156116KiB/exit0，run45988578719；同H清分母完整八式、基域分母和剥因子全返，三分子gcd实际1。
 - 原Delta*对ell三次头−2Sxi p⁵/rho完整实核且已付；继续整个零图首一三维/原兼容式。不重登记旧atlas，不重放900秒门，未宣排空。
+
+2026-11-27 19:20 Asia/Taipei｜Astra-ISP-8542378f-20261127
+- W新f9141a75实际24.779秒/421204KiB/exit0，run45987986656；五加五完整双向原行、四紧凑s系数和四参数cofactor均完整回乘。
+- 四必要式w度18/18/18/23，无新增paid剥因子；只留源/小回执/SHA。旧NameError独立冻结，下一J19整个四次权曲线，未付各首项零、不宣排空。
