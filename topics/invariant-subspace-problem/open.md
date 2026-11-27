@@ -4,7 +4,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-global-sparse-chain-quasiaffinity-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-W-five-low-original-combinations-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -178,7 +178,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 [最大图低余孔C2费用](results/R271-appendix-maximal-graph-low-excess-hole-square-cost.md)已付同一h的明确扇区，实际y有界物理孔遂入原图核心。新[临界小指数物理孔矩准则](results/R271-appendix-critical-small-physical-exponential-maximal-graph-core.md)进一步给s0=(2+2log(3/2))/14：y∈D(G)且e^(s0N)y∈H，则h∈C2并在原图核心；等号的真实8^j余量完整支付。未知Green缺陷Y并未证明有该矩，物理孔平滑未证保Y，同W的Gamma及F/R/Z继续。
 
-**[W全图八列原行与十六乘法](results/R150-appendix-unit211-W-global-monic-four-two-eight-column-original-return.md)、[首一四二次环境](results/R150-appendix-unit211-W-global-monic-T-four-F-two-and-finite-original-environments.md)与[整D27排除](results/R150-appendix-unit211-W-D27-entire-original-exclusion.md)已付。** 六原行/全部乘法原trace与73不同分母保正文；环境自由8维（加同s²16维），原最终商只生成。新[lambda3/2整支同值比率](results/R150-appendix-unit211-W-lambda-three-halves-same-value-ratio-e-quadratic.md)令z=s/v0，完整原Delta/二三矩给e首一二次及G0+eG1，精确6步伪除/同e norm(22,24)，G1零支全保留，Az/P3由原式支付后唯一恢复同v0,s,T。原Gram/个别N/P未排空。新[整lambda3/2三曲线覆盖](results/R150-appendix-unit211-W-lambda-three-halves-entire-original-three-curve-cover.md)：eb1真3.591秒/57544KiB/exit0，全6列原cofactor与QQ因子乘回，权点必在Ah=4e(k+1)+3(k+2)、G4或F18；三e首项全由k,k+1,k+2支付，分别首一1/4/18维，F18完整331项小输入已存。三曲线均保留，先从Ah0回完整原Gram。新649d只取构造前缀返回三原二次的两个标量cofactor与三个同F组合；D/范数/B239均未倒。
+**[W全图八列原行与十六乘法](results/R150-appendix-unit211-W-global-monic-four-two-eight-column-original-return.md)、[首一四二次环境](results/R150-appendix-unit211-W-global-monic-T-four-F-two-and-finite-original-environments.md)与[整D27排除](results/R150-appendix-unit211-W-D27-entire-original-exclusion.md)已付。** 六原行/全部乘法原trace与73不同分母保正文；环境自由8维（加同s²16维），原最终商只生成。新[lambda3/2整支同值比率](results/R150-appendix-unit211-W-lambda-three-halves-same-value-ratio-e-quadratic.md)令z=s/v0，完整原Delta/二三矩给e首一二次及G0+eG1，精确6步伪除/同e norm(22,24)，G1零支全保留，Az/P3由原式支付后唯一恢复同v0,s,T。原Gram/个别N/P未排空。新[整lambda3/2三曲线覆盖](results/R150-appendix-unit211-W-lambda-three-halves-entire-original-three-curve-cover.md)：eb1真3.591秒/57544KiB/exit0，全6列原cofactor与QQ因子乘回，权点必在Ah=4e(k+1)+3(k+2)、G4或F18；三e首项全由k,k+1,k+2支付，分别首一1/4/18维，F18完整331项小输入已存。三曲线均保留，先从Ah0回完整原Gram。新[649d五个原组合](results/R150-appendix-unit211-W-three-original-quadratic-low-cofactors-and-two-generator-chart.md)真1.974秒/44228KiB/exit0，三原二次的两个标量cofactor给仿射F/S与纯S二次，实际首项相同且只含新143项lambda一次因子A143；补图为首一S二次的1,S环境，原最终商只生成，原qF及所有N/P继续保留。A143=0保两降次式及B146E849−2D422C372，不倒B146/D422。另三对同F完整立方组合已返；D/范数/B239均未倒。
 
 **[整个一般ell=0已闭](results/R150-appendix-unit211-general-ell-zero-complete-original-exclusion.md)，全局可付ell。** 完整来源/零域/失败身份保总定理及快照；T0=0和J=Q也已整闭，继续当前原值输入，不重放旧支。
 
@@ -197,3 +197,5 @@ D27泛型五次不可约与有限纤维范围保上述D27原单位条目及本�
 **[Phi判别式零的新原均值F26](results/R150-appendix-unit211-Phi-zero-exceptional-original-mean-unit-six-F26-curve.md)。** 78f新选E1/EBe/EBo/N1/T·E1/T·EBe，真U6目标六坐标返回、385整除与公共取消，必要core双次26/26、729项，完整QQ只有一个重数1因子，精确输入已存可直接复用。原31/52必要曲线仍保留，未作gcd/有限点声明。新ed0一般A!=0首一rho二次只做原mean/N1与同H²两行恒等式，不倒任何二次范数；完整A0两支各自保留。新W410a在Ah0直接原T²+同T一次给有限QQ k覆盖，逐整因子原Gram/个别N/P/全NV返回，不重放已成lambda3/2六阶覆盖。
 
 **[同G稀疏真核注入的全空间稠密链与拟亲和](results/R271-appendix-sparse-kernel-injection-dense-backward-chain-and-global-trace-quasiaffinity.md)。** 由k_i=(I−GT)e_i∈N∩e0⊥，单一递归高度/系数注入，完整旧链误差≤2^-j，所有κ共同三次指数界；有限Π+GT望远镜使新链闭span为全H。每个非零y的新ℒ_y均实际迹类、全H稠密像、映入全部Xκ；ℒ_e0单射，Tℒ_e0=ℒ_e0B，s_n四次衰减。真w商作用仍ℒ_w|M=e0⊗w并灭N，未付N=M。新移级图闭包={(Tv,v):v⊥e0}、多值部M∩e0⊥≠0，故不可闭；与固定闭G的proper单链U严格区分。继续真正同w/Green或原Haar范围费用。
+
+**Phi例外F26新PB补图输入：** 642bad只从精确已存F26输入开始，使用含原PB_even/PB_odd的新六行与U6目标，首次返回新QQ核心、与F26的真实QQ gcd；若无公共曲线才给有限权点覆盖。新固定rho模结式及匹配对偶只支付实际达到的最高度；不以模无根冒称QQ排空。120秒1GiB，不重放78旧七det。
