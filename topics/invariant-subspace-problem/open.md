@@ -47,7 +47,7 @@ rankH3单三jet的全部ess6已闭，末非零Hp原Gaussian/最高/normal给左�
 
 **S0/Lt0整支已闭，一般LS继续：** 615次原QQ覆盖合全部退化面，旧门冻结。原P1双零、Delta0/W对ell首项零及W0整k=−1均已闭；只分别付(Pf,Pt)非同时零、Delta0的Phi、W0的u(Q+2)−2及k+1。全域四值式等价首一二次/三一次；六参数式只是完整投影，四Gram子式只是必要。[W0整个H=4ek−k²−4k−8零支](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-H-zero-complete-original-exclusion.md)已由原六生成元、F29=C3F26和完整两QQ商环的原18行单位返回排尽，可付H。
 
-[H非零最高次全分类及整个二次权纤维返回](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-H-nonzero-highest-weight-cover-and-quadratic-fiber-exclusion.md)现排所有对角/零坐标方向；其余只可能u=Q、ell=2−Q、Q²−12Q+8=0，再以独立有限原Gram的48×35原单位行排该整个纤维。因此仍可能含有限原解的其余W权参数，其四二次头无非零公共向量；不能将三个权条件任意一个单独付为单位。全部旧四生成元/Cramer大门冻结，续小原模块和全部未付头零面。
+[H非零最高次全分类及整个二次权纤维返回](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-H-nonzero-highest-weight-cover-and-quadratic-fiber-exclusion.md)已排全部共同无穷远方向；现[整个u=Q权线](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-u-equals-Q-complete-original-exclusion.md)也全闭：F9两完整QQ代数返1，同点Cramer图原五式QQ Bézout1，F3原D单位返回、F95固定十四原行一元保度Gauss覆盖。W0余图可付u−Q；其余J19/C9零面和有限原解仍开。旧180秒参数cofactor、76.992秒展开trace、F3 M35与F95五列三个后续未决门全部冻结，精确失败不冒成功；继续整C9二次扩张原小行。
 
 **Q=1−u边界：** y1、H_Q0、u半、ell0、两条原y二次首项零及[整个T0=0/h=2](results/R150-appendix-unit211-Q1minusU-T0zero-complete-exclusion.md)均全闭，来源/实跑保结果索引与归档；h−2及原y二次首项已付，不扩大到一般LS。[原四二次全头覆盖/每商≤6](results/R150-appendix-unit211-Q1minusU-original-four-quadratic-full-head-six-generators.md)给三原4阶minor全覆盖、Ry头Myz全部方向排除和apolar满三次证明，源08477fa3实跑2.770秒。续三图同一原关系/NSPS/Dval；六元非独立基，未构造的18乘法不冒成功。 [整个Kz=0](results/R150-appendix-unit211-Q1minusU-complete-Kz-zero-exclusion.md)现由47/50次QQ覆盖及完整二次域原Dphys行空间返回排尽，源30c3c66b/ff12a088实跑18.399/0.495秒；本边界可付Kz，保其余G2头零。
 

@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [一般W0整条u=Q权线排除](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-u-equals-Q-complete-original-exclusion.md)：原F9全部头零、同点Cramer完整QQ Bézout1、F3原Dphys及F95固定十四原行Gauss全覆盖；W0可付u−Q。
+
 - **已证明：** [Q=1−u的整个Kz=0权曲线排除](results/R150-appendix-unit211-Q1minusU-complete-Kz-zero-exclusion.md)：整曲线有理参数化，原48×35的完整QQ行列式余二次平方覆盖；完整QQ[v]/(v²+7)中原Dphys分子以29行来源乘回，两个复嵌入全排。源30c3c66b/ff12a088实际18.399/0.495秒；仅本Q边界支付Kz。
 
 - **已证明：** [整个一般等权b=c原unit211分支为空](results/R150-appendix-unit211-equal-weights-complete-original-exclusion.md)。完整824次QQ覆盖的F236/F243已全返，最后整m=−1/2五cofactor以QQ Bézout1排尽，源5063af65实际0.315秒/exit0。一般剩余图可付ell−u，W0可付k+2与Q−2；不等权及普通ISP仍开。
