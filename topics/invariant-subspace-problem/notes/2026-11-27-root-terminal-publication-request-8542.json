@@ -1,15 +1,15 @@
 {
-  "message": "ISP: exclude JQ nonlinear weights by strict Gauss and retain two rational lines",
-  "parentCommit": "16635663e6bc174c0a95fd81bf481987fd7ab88b",
+  "message": "ISP: exclude the entire W y equals one branch by original QQ4 unit return",
+  "parentCommit": "1989297e5bb4149047b0284de33dca22bd2ba705",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-general-J-equals-Q-strict-Gauss-two-rational-lines-and-19-weight-bound.md",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-JQ-strict-Gauss-two-lines-execution-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-general-J-equals-Q-two-rational-u-lines-original-D-return-8542.py",
-    ".github/workflows/invariant-subspace-jq-two-rational-u-lines-original-d-8542.yml",
+    "topics/invariant-subspace-problem/results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-y-one-complete-original-exclusion.md",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-W-y-one-complete-original-exclusion-execution-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-generic-LS-W-y-not-one-original-mean-bivariate-system-8542.py",
+    ".github/workflows/invariant-subspace-w-y-not-one-original-mean-bivariate-8542.yml",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -19,6 +19,6 @@
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
   "dispatchWorkflows": [
-    "invariant-subspace-jq-two-rational-u-lines-original-d-8542.yml"
+    "invariant-subspace-w-y-not-one-original-mean-bivariate-8542.yml"
   ]
 }

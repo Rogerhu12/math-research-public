@@ -1,0 +1,301 @@
+{
+  "schema": "isp-W-entire-y-one-original-exclusion-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "proof": {
+    "blob": "cbc9f0d0683fe9b5f608cb3bb149fd91f102745f",
+    "bytes": 4569,
+    "sha256": "3b8272eb0294b241f101575f59ed5559986396754fdf5fa0b4216d79cc63723a"
+  },
+  "source": {
+    "blob": "af8b28e110ada92ce9f05e6904c9025653de25d9",
+    "sha256": "34d0599256230a8cfb2b1a93d39c41878e86b6f6f9f55724afb808b136e429bd",
+    "bytes": 19925
+  },
+  "actual": {
+    "run": 45974287564,
+    "job": 140422062001,
+    "driver": {
+      "elapsed_seconds": 0.9133780860000016,
+      "max_child_rss_kib": 46512,
+      "ordinary_isp_claim": false,
+      "rules_reads": [
+        {
+          "after": "32551d1f317af6f0f5f9f191518f8d6509d93130",
+          "before": "32551d1f317af6f0f5f9f191518f8d6509d93130",
+          "rules_git_blobs": {
+            "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+            "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+          },
+          "rules_unchanged": true,
+          "utc": "2026-11-27T09:30:46.016825+00:00"
+        }
+      ],
+      "run_attempt": "1",
+      "run_id": "45974287564",
+      "schema": "isp-frozen-exact-actions-execution-v1",
+      "session": "Astra-ISP-8542378f-20261127",
+      "source_commit": "32551d1f317af6f0f5f9f191518f8d6509d93130",
+      "source_exit_code": 0,
+      "source_git_blob": "af8b28e110ada92ce9f05e6904c9025653de25d9",
+      "source_sha256": "34d0599256230a8cfb2b1a93d39c41878e86b6f6f9f55724afb808b136e429bd",
+      "stdout_bytes": 7394,
+      "stdout_sha256": "b84ae6ffc00fe3b2c20ae3c765fd2793d17c42f687e355e1c174e9665af227da",
+      "stop_reason": null
+    },
+    "mathRecords": [
+      {
+        "stage": "new_W_y_one_F4_entire_original_input",
+        "baseCover": [
+          "32",
+          "64",
+          "48",
+          "12",
+          "1"
+        ],
+        "baseDegree": 4,
+        "coverSourceSHA256": "d15791c981788f6ef2aa1ebc9d9a770f2b4c97b6b1beb4fbe35883478a3e0e48",
+        "coverRun": 45973280857,
+        "coverIsEntireAndSquareFreeVerified": true,
+        "originalRows": [
+          "EBe",
+          "EBo",
+          "N1",
+          "NS",
+          "PS"
+        ],
+        "allSameOriginalRecoveryAndPaidScaleProductsVerified": true,
+        "originalDUnitIdentity": "Dphysical+ell*HA/u^2=bc*(hU-kU)^2",
+        "twoOldQQResultantsRerun": false,
+        "claimExcluded": false,
+        "seconds": 0.6539984049999994
+      },
+      {
+        "stage": "new_W_y_one_F4_same_e_original_QQ_gcd",
+        "path": "F4",
+        "name": "EBe",
+        "specializedEDegree": 12,
+        "commonEDegree": 12,
+        "sameOriginalCombinationProductsVerified": true,
+        "claimExcluded": false,
+        "seconds": 0.6887890510000005
+      },
+      {
+        "stage": "new_W_y_one_F4_same_e_original_QQ_gcd",
+        "path": "F4",
+        "name": "EBo",
+        "specializedEDegree": 12,
+        "commonEDegree": 12,
+        "sameOriginalCombinationProductsVerified": true,
+        "claimExcluded": false,
+        "seconds": 0.6908208569999985
+      },
+      {
+        "stage": "new_W_y_one_F4_same_e_original_QQ_gcd",
+        "path": "F4",
+        "name": "N1",
+        "specializedEDegree": 14,
+        "commonEDegree": 2,
+        "sameOriginalCombinationProductsVerified": true,
+        "claimExcluded": false,
+        "seconds": 0.7421309049999998
+      },
+      {
+        "stage": "new_W_y_one_F4_same_e_original_QQ_gcd",
+        "path": "F4",
+        "name": "NS",
+        "specializedEDegree": 21,
+        "commonEDegree": 2,
+        "sameOriginalCombinationProductsVerified": true,
+        "claimExcluded": false,
+        "seconds": 0.7615807060000002
+      },
+      {
+        "stage": "new_W_y_one_F4_same_e_original_QQ_gcd",
+        "path": "F4",
+        "name": "PS",
+        "specializedEDegree": 26,
+        "commonEDegree": 2,
+        "sameOriginalCombinationProductsVerified": true,
+        "claimExcluded": false,
+        "seconds": 0.7876187739999985
+      },
+      {
+        "stage": "new_W_y_one_F4_original_unit_saturation",
+        "path": "F4",
+        "name": "u",
+        "count": 2,
+        "remainingEDegree": 0,
+        "eachRemovedFactorDividesActualPaidUnitVerified": true,
+        "claimExcluded": false,
+        "seconds": 0.8181131849999979
+      },
+      {
+        "stage": "new_W_y_one_entire_F4_original_same_point_return",
+        "path": "F4",
+        "baseCover": [
+          "32",
+          "64",
+          "48",
+          "12",
+          "1"
+        ],
+        "baseQQDegree": 4,
+        "originalRowProfile": [
+          {
+            "name": "EBe",
+            "specializedEDegree": 12,
+            "commonEDegree": 12,
+            "sameOriginalCombinationProductsVerified": true
+          },
+          {
+            "name": "EBo",
+            "specializedEDegree": 12,
+            "commonEDegree": 12,
+            "sameOriginalCombinationProductsVerified": true
+          },
+          {
+            "name": "N1",
+            "specializedEDegree": 14,
+            "commonEDegree": 2,
+            "sameOriginalCombinationProductsVerified": true
+          },
+          {
+            "name": "NS",
+            "specializedEDegree": 21,
+            "commonEDegree": 2,
+            "sameOriginalCombinationProductsVerified": true
+          },
+          {
+            "name": "PS",
+            "specializedEDegree": 26,
+            "commonEDegree": 2,
+            "sameOriginalCombinationProductsVerified": true
+          }
+        ],
+        "originalCommonEDegree": 2,
+        "unitRemovalProfile": [
+          {
+            "name": "u",
+            "count": 2,
+            "remainingEDegree": 0,
+            "eachRemovedFactorDividesActualPaidUnitVerified": true
+          }
+        ],
+        "remainingEDegree": 0,
+        "remainingSameECoefficients": [
+          [
+            "1"
+          ]
+        ],
+        "identicallyZeroOriginalUnit": null,
+        "allOriginalCombinationAndUnitDivisionProductsActual": true,
+        "allOriginalRowsSameKAndSameE": true,
+        "actualBaseInverseProducts": 59,
+        "physicalDOriginalUnitRetained": true,
+        "certificateBytes": 18749,
+        "certificateSHA256": "8ca31b9e65760b08c5afddbfdc1dc06ccb3af93bdb55068049b2758161a159d4",
+        "excluded": true,
+        "claimExcluded": true,
+        "seconds": 0.8212656289999991
+      },
+      {
+        "stage": "new_W_y_one_complete_original_F4_return_gate_complete",
+        "sourceSHA256": "34d0599256230a8cfb2b1a93d39c41878e86b6f6f9f55724afb808b136e429bd",
+        "completePublishedQQCover": [
+          "32",
+          "64",
+          "48",
+          "12",
+          "1"
+        ],
+        "originalQQCoverAllBranchesReturned": true,
+        "allOriginalSamePointAndPaidInverseProductsVerified": true,
+        "returns": [
+          {
+            "path": "F4",
+            "baseCover": [
+              "32",
+              "64",
+              "48",
+              "12",
+              "1"
+            ],
+            "baseQQDegree": 4,
+            "originalRowProfile": [
+              {
+                "name": "EBe",
+                "specializedEDegree": 12,
+                "commonEDegree": 12,
+                "sameOriginalCombinationProductsVerified": true
+              },
+              {
+                "name": "EBo",
+                "specializedEDegree": 12,
+                "commonEDegree": 12,
+                "sameOriginalCombinationProductsVerified": true
+              },
+              {
+                "name": "N1",
+                "specializedEDegree": 14,
+                "commonEDegree": 2,
+                "sameOriginalCombinationProductsVerified": true
+              },
+              {
+                "name": "NS",
+                "specializedEDegree": 21,
+                "commonEDegree": 2,
+                "sameOriginalCombinationProductsVerified": true
+              },
+              {
+                "name": "PS",
+                "specializedEDegree": 26,
+                "commonEDegree": 2,
+                "sameOriginalCombinationProductsVerified": true
+              }
+            ],
+            "originalCommonEDegree": 2,
+            "unitRemovalProfile": [
+              {
+                "name": "u",
+                "count": 2,
+                "remainingEDegree": 0,
+                "eachRemovedFactorDividesActualPaidUnitVerified": true
+              }
+            ],
+            "remainingEDegree": 0,
+            "remainingSameECoefficients": [
+              [
+                "1"
+              ]
+            ],
+            "identicallyZeroOriginalUnit": null,
+            "allOriginalCombinationAndUnitDivisionProductsActual": true,
+            "allOriginalRowsSameKAndSameE": true,
+            "actualBaseInverseProducts": 59,
+            "physicalDOriginalUnitRetained": true,
+            "certificateBytes": 18749,
+            "certificateSHA256": "8ca31b9e65760b08c5afddbfdc1dc06ccb3af93bdb55068049b2758161a159d4",
+            "excluded": true
+          }
+        ],
+        "wholeW_y_oneExcluded": true,
+        "wholeWExcluded": false,
+        "oldQQResultantsRerun": false,
+        "claimExcluded": true,
+        "peakRssKiB": 46512,
+        "seconds": 0.8216654639999987
+      }
+    ]
+  },
+  "mathematicalScope": {
+    "wholeFiniteW_y_oneExcluded": true,
+    "remainingWMayUseYMinusOne": true,
+    "entireWExcluded": false,
+    "ordinaryISPComplete": false
+  },
+  "nextUnexecutedSource": {
+    "blob": "58c1a8fea5fd6c09e1b4614a1fe4b91b9f8fb742",
+    "sha256": "27ad028d628b57855fe3b4587ead848f171e035a6128142745ecafc2d0fc3303",
+    "executed": false
+  }
+}
