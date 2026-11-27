@@ -1,5 +1,7 @@
 # 结论索引
 
+- **原固定 genus 4 的 Dixon 平方根与两 jet（准确等价已证明）**：[原固定Dixon/Jordan源](notes/2026-11-28-original-genus-four-Dixon-Jordan-chain.md)付 e=K4=0 iff D^(p−5)η=0 iff固定整P_(p−5)全系数被p整除。P递推与三步(1−t)因子、原cD³的2k Laurent块/唯一核、两端单位和最小长度L∈{3k+1,3k+4,…,p−1}全成；e非零/L=p−1，e0K4非零/L=p−4，共同零/L≤p−7。单Jordan全块不代指定中列长度，继续原整content/端部多项式，不重扫素数。
+
 - **原 proper 算术 Heisenberg 覆盖及中心（已证明，纸面）**：[R1146](results/R1146-original-proper-arithmetic-Heisenberg-cover.md)无条件构造原修正pair的proper算术Heis p³：准确L3/L5/L8下降、连续dz=−a∪b、π1→étale H²单射、原几何独立→满Heis连通全部付；全cusps/ℓ≠p含2、3均étale。B8单位给H¹/H²(S0,L8)=0，每个全局abelian pair的提升唯一；local p中心恰一维，原点须满足实际覆盖纤维与唯一global提升的中心差为零。曲线上twists准确为J(K)[p]_(ω⁻⁷)，B16/Bp−15门内R1132 r8删全I8后cover也唯一；无门保此歧义。尚未算p-local实际函数/非零，class4和一般p同点排除继续。
 
 - **原有限矩与准确 proper 算术杯积（无条件已证明，纸面）**：[R1144](results/R1144-original-finite-moments-and-exact-proper-cup.md)无条件p>37付原proper算术等式 A1∪A2=−8δ² A1∪ε4/11，故 A1∪(A2+8δ²ε4/11)=0。原有限矩的完整Tate transfer/arith项、ram–ram cyclic cup、低权全H²检测、polar三项、两次factor2及open→proper→S回填均已付；不反除p、不需Bp−5/F33。该pair实际β8=0且 Ψ_E(Pχ1)={F1,ε4}/(132δ²)，消去旧未知标量/Pic lift障碍。R1142的未修正proper类非零与field像MW d=0/1二分仍保；一般pairs及四阶未完成。root继续修正pair的proper Heis p³、真实Q下降与连通；global继续p-local额外标量。

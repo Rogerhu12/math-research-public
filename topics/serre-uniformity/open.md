@@ -102,6 +102,8 @@ R971证明无限列数不足，**全p full-span已否**；R992只给filtered V�
 
 [R1137](results/R1137-original-Lame-conjugation-with-complete-boundaries.md)：D₀=D−Ψℓ_(p−1)与Λ=ΦD₀Φ⁻¹的rank3边界全付；D⁴φ=ΦΛ⁴(U^m)+δ⁴c_N，c_N读取安全F⁴而非已付F⁷。原Lamé/B核分部积分给完整U/B/C共轭，真实φ满足2Λ³φ+3ΨΛ²φ+6Φ(V)φ+3δΨ=0。末项由最高极强迫；Λ仍为纯极投影，非目标局部D。G=U^mK的div=A+mQ+m(−Q)−pP_R，隐藏moving p极不由三可见log极删除；指定e/K4继续。
 
+[原固定Dixon/Jordan源](notes/2026-11-28-original-genus-four-Dixon-Jordan-chain.md)付 e=K4=0 iff D^(p−5)η=0 iff固定整P_(p−5)全系数被p整除。P递推与三步(1−t)因子、原cD³的2k Laurent块/唯一核、两端单位和最小长度L∈{3k+1,3k+4,…,p−1}全成；e非零/L=p−1，e0K4非零/L=p−4，共同零/L≤p−7。单Jordan全块不代指定中列长度，继续原整content/端部多项式，不重扫素数。
+
 ## O2：完整原超奇异迹、真正CM packet及近顶unit系数
 
 R1135§10已付同coarse component两实际twist的全部运输：α^p=iα，t*′=it*，z′=−z；δ′=ηδ，Kronecker γ′=ηγ、N_R′=η⁻¹N_R，而Weil γ_W/bχ保持。完整核及i0常数给Π′(z′)=Π(−z′)，两线统一为z∈Fp。低行唯一unordered pair/Δ分离范围因此覆盖两线；保S0/P0，不合并其他components，不宣Δunit。

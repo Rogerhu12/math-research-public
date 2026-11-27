@@ -586,3 +586,8 @@
 ### 2026-11-28 06:06 Asia/Taipei — Astra-serre-24b8836b-20261126
 - R1146从指定proper算术零杯积构造真实Heis p³覆盖：L3/L5/L8、连续cochain、全cusps/好素位、几何满群与连通一并支付；B8给base中心H¹/H²全零，local p中心一维，实际rational点的中心差必要零条件定义准确。
 - 原曲线centraltwists=J(K)[p]_(ω⁻⁷)，低mixed门通过R1132 r8另给cover唯一；不把无门cup零推为所有twists零、不以dimension宣排点。root/global全文独审，primary Cartan–Leray/local duality实读，无数学执行。H/open逐字归档并压缩已被新结论替代的旧入口；继续原p-local首项、指定四阶及另两条主线。
+
+
+### 2026-11-28 06:11 Asia/Taipei — Astra-serre-24b8836b-20261126
+- 原固定genus4/Dixon双覆盖给 e=K4=0 iff D^(p−5)η=0；原relative Cartier系数、全部低0..3插入、第四阶−K4/(6δ²)与反射完整保留。
+- 固定整P_j递推、三步因子、两端double-factorial、真实2k Laurent块及全部允许终止位置已由root/o1/o2全文纸核。未从full Jordan推指定中列长度、未宣整content单位；无数学执行，继续该具体端部多项式和实际p-local Heis读数。
