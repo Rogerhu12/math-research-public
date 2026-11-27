@@ -31,3 +31,27 @@ raw数组、日志和网格只runner，不新增Git/Release/artifact。12/13/14/
 2026-11-27 16:52:10 UTC查询官方GitHub Actions：run **46037017666/1**，job **140634874993**；创建时间 **2026-11-27T16:50:50Z**，workflow head **897194e1b46073466989e9d8dfb52bcc4e1b8e3a**，`.github/workflows/visible-larger-20261127-parallel16.yml`。run与job为`in_progress`、conclusion为null。setup、checkout、Python设置与已记录依赖安装均success；原研究step5为`in_progress`。此状态只证研究阶段启动，不证明任一必要输入或科学子进程已自然返回。
 
 [官方run](https://github.com/Rogerhu12/math-research-public/actions/runs/46037017666)。实际输入、报告和数学值须从对应真实返回分卷分别读取，旧run输出不补本次缺值。
+
+## 8. 两必要输入真实返回；接入完整科学对
+
+2026-11-27 17:05:11 UTC：已size-first完整读取[原阶段1–2返回分卷](2026-11-27-public-actions-46037017666-1-part-001.md)，16596B、whole SHA256 a17878d025623ae6280d6b1afa42d9be36288f72c93b3802659453d205ed5b17、Git blob8d49505495b777f7cc84c73c15fee4247ff76ff9，固定main0089b00e4e587b0716a2e94de35d06fe7bf901eb下的真实内容。该卷保原完整命令、源码、输入身份、全部输出和资源，科学raw不在Git。
+
+maker真返0/6.174044017s，sourcecommit5aacee6d6e4aea51c1496926422dc8440a36fb4b，source89cc；实际程序秒1.039996959、F/J/normal roots均0。reference真返0/520.474922594s，sourcecommit518f48de9f3bef63e2dc7d059dca5af0330f3344，sourcee717；实际程序秒515.307988628。两步summary_errors与missing_outputs全空，十一件输出齐。
+
+| 实际相对输出 | 字节 | whole SHA256 |
+|---|---:|---|
+| fixed-fejer-r690-inputs/report.json | 65340 | edbf5d6b2a33bd094fed680020e43370e8f7f6af83233cb4078b0154c248a7b4 |
+| fixed-fejer-r690-inputs/fixed-reference-input.npz | 4334 | b9e12a03ba2b06c634478288853f0711f3349f8589654d14e11c44cd7577dc98 |
+| fixed-fejer-r690-inputs/fixed-affine-nodes.json | 144306 | 1e71a3851ccfc1449a4f20a90dcfb120600594360051bcd810fdf73b1efb73c5 |
+| fixed-fejer-r690-inputs/fixed-scalar-input.json | 40488 | 2eb44f9977373b2d4fc36009e884b71d7834f85c1cd996c03b91b7586ea56189 |
+| fixed-fejer-reference/report.json | 84966 | ff41237c4b6caf4eac6fd82f90212ff44c54930ba00c24a923a1ddc8b9cbc373 |
+| fixed-fejer-reference/reference.npz | 894879 | 212eb5fde565e76db7255f8c5605764268340b9c1636953ab0a8f8b254bf24cb |
+| fixed-fejer-reference/observations.npz | 205842 | 84060403d6ad8a4fdd17532028bda7b4a15a6671cd6bc5950ae4f0c828cd118e |
+| fixed-fejer-reference/locations.json | 106771 | d1d7eee827a1da2901adbcacf6d277ae89b69c176140e1a1fc311591423000fd |
+| fixed-fejer-reference/supplied-location-provenance.json | 223955 | b753b3d416e4f842d2311cb3e296233a8ce77ab5207145a1757eb781fb03a0c6 |
+| fixed-fejer-reference/fixed-target-definition.json | 30919 | 777a69e77b34a8fda152442ca7e326a48c91050edaae69ade0355f5c8b8628df |
+| fixed-fejer-reference/material-envelope-carrier-binding.json | 35712 | 9edf8a4dd6edec259f615362f1155a811dff79e257de8d1a7579be924fe6a0eb |
+
+实际math957cf0fc1ee59835f499b21a2300094ecb8c8a39fe14a1ebd987cef11305faa9、model ea64e2fe5e272648195128d53521705cc266d82f7d2636bd7201b90fcf172fac、fulltarget50df37b6b832dcdd53d05c54138e62e43df6b14df68d946a7b8a7b8227f58319与原固定定义一致。原数值reference212eb5/carrier8406相同；本run report ff41237c、locations d1d7eee8、history b753b3d4、binding9edf8a4d各自真实，不用别run结果补身份。2218完整尾/未丢未解析振荡且时钟不选叶，accuracy_reached=false照保。
+
+现在只退休这两已真正完成的活队列对象；原完整6692B/fc33b20f4a33edf2ee642f49ec05b47efaa5360bce5c70fef9607e10446f36f5固定[启动897194](https://github.com/Rogerhu12/math-research-public/blob/897194e1b46073466989e9d8dfb52bcc4e1b8e3a/topics/visible-flex-larger-amplitude/computations/resume-20261127-followups-16.json)。追加原86d39c独立ready两个完整step，science157/pure7 argv，408/395正式selector、18+30 live，全outputs/cleanup/历史/参数/预算逐值原样；新活队列92522B，finish=false。实际科学返回、数学值、accepted或完整场仍未知，本次发布只接入真实求解。

@@ -5,7 +5,7 @@
 
 ## 规则、同步、环境
 
-root最后真pull/rebase eda95d51e82b126439d51d42185a880e6ddad3e9；07:21终端失效，15:03:35重置后唯一复核仍失败，恢复即真pull。云核至 `df89d956b568f1d296771ac984b866ebb5431732`（非pull）。双README SHA256：581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d。无变；每真pull后只读新差异，立刻遵守，至少每小时。活12–16通常每5分钟真pull，实际提交在末块。
+root最后真pull/rebase eda95d51e82b126439d51d42185a880e6ddad3e9；07:21终端失效，15:03:35重置后唯一复核仍失败，恢复即真pull。云核至 `07c82e3248c6f0e5d2426dbcbb5d207112496394`（非pull）。双README SHA256：581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d。无变；每真pull后只读新差异，立刻遵守，至少每小时。活12–16通常每5分钟真pull，实际提交在末块。
 
 私库QUEUE进行中已推e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。root独占refs/queue，每结论普通推；NFF有终端即rebase重推，无终端云freshHEAD完整合并不冒pull，不force。令牌仅瞬时CLI。[完整发布支持](computations/resume-20261127-root-publication-support.mjs)已刊防重置。
 
@@ -25,7 +25,7 @@ root最后真pull/rebase eda95d51e82b126439d51d42185a880e6ddad3e9；07:21终端�
 
 **15**：46031953783/1、job140617715235、head882086，16:14:50Z启动。[全启动](notes/2026-11-27-run15-fixed-fejer-J1845-complete-independent-launch.md)、[两真返输入](notes/2026-11-27-public-actions-46031953783-1-part-001.md)：两输入真0、reference520.117180844s/全11输出；report8f4e5153/history独立、2218accuracy=false保。只退这两活对象（全原6692B固定882086），接f9d79原J science/pure90478B、159/7argv、407/386/48。参考J923不变/current1845/2666582变量；J同一schema guard三体全符。仍无新场。
 
-**16**：[全启动](notes/2026-11-27-run16-complete-own-point-mathematical-research-launch.md)46037017666/1、job140634874993、head897194、16:50:50Z，官方研究step在行。先原6/26argv两输入，均真返后保全原对象再接全157/7 science/pure92522B，408/395正式读数、live18+30；四步99121B、退maker仍97599B，不削项。同g/M160/J923/N2048/1333370量/32stage/全预算，尚无场。
+**16**：[全启动/两真输入](notes/2026-11-27-run16-complete-own-point-mathematical-research-launch.md)46037017666/1、job140634874993、head897194。maker0/6.174044017s、reference0/520.474922594s、source518f48；11输出齐，本次report ff41237c/history独立、2218accuracy=false保。只退两真返对象（完整6692B固定897194），已接原全157/7 science/pure92522B、408/395正式、live18+30且原48正式全保。同g/M160/J923/N2048/1333370量/32stage/原预算，尚无科学场。
 
 ## 完整来源与分工
 
