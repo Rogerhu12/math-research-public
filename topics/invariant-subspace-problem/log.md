@@ -466,3 +466,8 @@ AI-assisted GPT-6 Astra Pro：审原Gram重建、weighted N/P→HA/HB原迹、�
 - 整个Q=1−u闭合：58阶原结式三新QQ局部重数244/3/3，原1382余式剥253度后1129，与原g222及全部精确零域作严格Gauss矛盾；未宣称全LS或普通ISP完成。
 - 原新源7f4f00a1/b5e0a9a7/f635013e的run45977218604/45977221507/45977224556，内部exit0，10.330/7.880/7.722秒；完整QQ核、det1行变换和99588次乘回已保小回执，无旧源复现门。
 - 一般三生成元正文明确保留第四条qyt及全部原关系，三规则为原可逆四行变换的一部分；下一新Phi0整面与一般原值模块并行。
+
+2026-11-27 18:06 Asia/Taipei｜Astra-ISP-8542378f-20261127
+- 全余W新a5b1b6bf四组(q0,q1,Yq0或Yq1,NS或PS)固定4×4 cofactor完整回原五行，w九次；run45976920580/job140430864466，7.434秒/114832KiB/exit0，四大迹仅存字节数/SHA。
+- 保全部未付首项及D27/B239/J19零面，未以投影代完整物理D或原值系统。新0e3be45e尝试原头全图monic Y²与完整Y线性原返回，180秒/4GiB。
+- 课题外新增专用workflow invariant-subspace-w-global-monic-y-original-linear-system-8542.yml；仅执行已列新数学输入，逐pull检查两README，后续同点L_Delta/L_C另作新输入。
