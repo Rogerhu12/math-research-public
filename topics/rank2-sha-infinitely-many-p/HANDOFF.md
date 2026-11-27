@@ -50,7 +50,7 @@ R959/R970–983固定E65/E65³/E260/E54925/E8125，rank≥2、完整finite/perio
 
 R1042§§13–15完整Hurwitz前缀、q13真实回执、全部奇r、13³ray全Euler与Smith成本，以及17/36双源整blow-up/2D环境检测已付；指定scalar Schur、低卷积和完整补域仍开。R1040/46/47全角来源、R1044全carry、R1045三实际负一点值/完整五sigma奇部非零均不替代canonical行。所有run/hash/来源与范围在归档和原文，不重跑。
 
-unitary§§10–15的完整5-old正支−G126/(90b)、负支K反演−1/5及原非零K/Y已付；全5/p-new必须补偿旧质量差c_nJG0/(90b)≠0，不能删补项或把另一角非零换作同一坏零。R774/R749只给有限全点和，不给中央log无限尾免费点投影。
+unitary§§10–15的完整5-old正支−G126/(90b)、负支K反演−1/5及原非零K/Y已付；全5/p-new必须补偿旧质量差c_nJG0/(90b)≠0，不能删补项或把另一角非零换作同一坏零。[全p字返回](notes/2026-11-27-original-connected-words-and-full-p-character-return.md)已付逐Weyl相位、无平移与共同Tate单位；所有θ在Yunit准确回θ(ε/2)θ(Y/K)门，全和还原原g_n^-ε推前。继续完整S3150的实际Katz/root/点特征，再找真正canonical forcing。R774/R749只给有限全点和，不给中央log无限尾免费点投影。
 
 R1043§§19–22原Manin/KS/Hasse/对偶运输/三权下降、全部CM289级别和1/2接触已付；R1039全Jac F²=−q、R1041原Pell/厚点保持。三个实际T_a全p整除须先有同一位三完整J全零；原Sha坏尚不迫之，Fr−unit核只p个点。原q5/q11全shadow倒6零、q11 NS/Br/MW与唯一Manin回执不重跑。
 

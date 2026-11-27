@@ -331,3 +331,8 @@ R1049§12（80）–（88）：原Chow层严格图置换将全部η/Cor折为[L:
 ### 原type4 signed与Newton的全精度交叉恒等式
 
 [完整证明](2026-11-27-original-type-four-inert-signed-cross-comparison.md)。原34δ/18/30单位的实际 mixed Tsuji 互反给 c_j 属原η_j Artin线，完整格核常数为μ(m!)²/18。三个本地η严格平凡，用同一个本原signed基及真实T(v)=Q^v−1，在合法k=p^n正权消去共同Gamma/Euler/period后，解析唯一性给 A_j(T(v))(c_l/a_l)K_l²=A_l(T(v))(c_j/a_j)K_j²。保exp*可能零的分支，不延拓p^weight。若一K为Tate单位，则所有A_j=F_p(c_j/a_j)K_j²，F_p为非零解析函数；F_p(0)仍可能零。原EU基层h=u_pF_p(0)(c_j/a_j)K_j(0)²，几何首层只给带同一未知F_p(0)的相对平方，未冒类相等或通常Sha非零。
+
+
+### 原connected全有限字与实际p-new物理门
+
+[完整证明](2026-11-27-original-connected-words-and-full-p-character-return.md)。原35a逐Weyl半相位给严格加法；全部非零deep core排唯一平移character，有限Fourier准确返回φ(uY Y)ν。原六输入共同Tate基与inverse-Gram对消锁uY=uK。对全部θ（含1），Yunit返回β^−n/d_n·θ(ε/2)·D_Kκ^−n,*[1_Y×,K×θ(Y/K)μ_−ε]；θ(λ²n)与原q°相消。全字符门准确K−εY/2∈p^n，固定g0^-ε回原K深，两个β因子相消，完整返回就是(g_n^-ε)_*ν|Yunit。全部5/p新字、负深度及原K/Y分母保留；不由此赋新canonical零或对无限log尾作点投影。
