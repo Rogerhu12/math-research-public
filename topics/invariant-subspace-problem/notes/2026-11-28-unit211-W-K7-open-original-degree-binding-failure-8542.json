@@ -1,0 +1,46 @@
+{
+  "schema": "isp-K7-open-original-degree-binding-implementation-boundary-v1",
+  "dateAsiaTaipei": "2026-11-28",
+  "run": 46076193076,
+  "job": 140764370907,
+  "source": "ebed0bca39cb693cbc146b76cad5fec3e90797e6",
+  "receipt": {
+    "elapsed_seconds": 0.9910515130000022,
+    "max_child_rss_kib": 45428,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "b61729d38ab9143fcf8d4854da8c837a186ab7e6",
+        "before": "c970b90708711279bbd089f614b1db033dabcbff",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-27T22:22:13.031947+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46076193076",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "c970b90708711279bbd089f614b1db033dabcbff",
+    "source_exit_code": 1,
+    "source_git_blob": "ebed0bca39cb693cbc146b76cad5fec3e90797e6",
+    "source_sha256": "ac5d007f6c5acef29d46a8c020f57d8499f892983a03eeafc2e3b0290403255d",
+    "stdout_bytes": 257,
+    "stdout_sha256": "fd87593f28927b3ae6d90e1cd75e47d4fa30adc836cb2db1779cf71c2cf80d41",
+    "stop_reason": null
+  },
+  "failure": {
+    "type": "AssertionError",
+    "line": 73,
+    "statement": "assert all(int(mm[4])+sum(mon)<=2 for mm in cf.n.to_dict())",
+    "cause": "for cf in cc.values() uses stale mon=(0,2) left by the preceding head loop; each actual coefficient needs its own XY monomial",
+    "mathematicalStagesReturned": 0,
+    "conclusion": "No new three-rule or resultant conclusion; implementation binding error only",
+    "correction": "for mon,cf in cc.items(); retain the same weighted-degree assertion and report each true degree",
+    "resourceLimitChanged": false,
+    "oldSourceRetained": true
+  }
+}

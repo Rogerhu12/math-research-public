@@ -6,7 +6,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-entire-k7-cubic-square-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-s1-three-closed-chambers-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -218,6 +218,6 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 [全部普通限制的本质正序障碍](results/R12-appendix-all-invariant-restrictions-essential-hyponormal-obstruction.md)已排实际普通限制/解析函数/非零子商的任意相似加紧成为次正规等正序输入。新[交织方向与实际闭逆费用](results/R12-appendix-all-subquotients-hyponormal-intertwining-directions-and-closed-inverse-cost.md)证明全部实际A子商及非恒定解析芽到hyponormal、从cohyponormal的任意有界交织为零。反向移位到B有明确迹类拟亲和X_x；专对B=A_Q，每个非零移位不变L都满足closure(X_xL)=C_x，不能由此推出更小普通空间。实际闭逆Y_x单域保轨道，但同一来源放大至少exp((100/15)r⁴n⁴−105r³n³−O(n))。C_x真性、非正序紧扰动目标、真正特殊闭域和来源费用继续；不搬这些Haar子商结论到边界。
 
-[一对加四独立S1旧配方边界](notes/2026-11-28-one-pair-four-independent-original-s1-coefficient-source-inconclusive-8542.md)：13c594真6.550871417秒/121804KiB/0，首minor分子度28/24921项/944负系数；只否定系数配方，非S1反例，后五/S2未算。原源9=6+3及完整下源5=4+1不变。[新首minor五组权序](notes/2026-11-28-one-pair-four-independent-s1-first-minor-five-chambers-8542.md)逐项付共同缩放度0、五个闭域和齐次身份；a316首次180秒/4GiB保全部逆/交叉项，只验首minor。全S1/S2、七位glue和同W费继续。
+[一对加四独立旧配方](notes/2026-11-28-one-pair-four-independent-original-s1-coefficient-source-inconclusive-8542.md)的944负系数仅配方失败。[首minor三个闭权序域](results/R271-appendix-one-pair-four-independent-first-s1-minor-three-closed-chambers.md)：a316真2.441294980秒/59820KiB/0，k0/1/2全系数非负且常数2519424000，准确付有序$x_2\ge1$时原$\mathcal E_{00}>0$，全部碰撞边界保留。k3有6负项，k4未算，均非反例。新c051仅复合余k3/k4，以固定半径2/至多32个有理平方扣除并全多项式乘回；首次180秒/4GiB，不重做前三域。完整S1/S2、后五主子式及同W费继续。
 
-[整K7双向参数](results/R150-appendix-unit211-W-entire-K7-rational-parameter-and-original-rho-cover.md)含判别式零、两rho支及全部原单位。[整K7原三次平方与有限环境](results/R150-appendix-unit211-W-entire-K7-original-cubic-square-cover-and-finite-environment.md)：85bc真148.81632278秒/242692KiB/0，16原行、QQ(m)仅选索引，最终两个QQ[m]常数余子式和Bézout完整返回 $C_3(m)^2$，$C_3=m^3-4m^2-6m+18$。所有临时主元零保留；权/均值/完整规范scheme长≤6/36/72，不同点≤3/18/36。未排三整共轭纤维，续整个QQ三次域的原D、Gram及个别值，不重算242det或107Bézout。新ebed只K7≠0补图，以原λ三规则/两comm/NSPS真实三列构造新固定结式，首次180秒/4GiB；未付内容与头零全部保留。
+[整K7双向参数](results/R150-appendix-unit211-W-entire-K7-rational-parameter-and-original-rho-cover.md)含判别式零、两rho支及全部原单位。[整K7原三次平方与有限环境](results/R150-appendix-unit211-W-entire-K7-original-cubic-square-cover-and-finite-environment.md)：85bc真148.81632278秒/242692KiB/0，16原行、QQ(m)仅选索引，最终两个QQ[m]常数余子式和Bézout完整返回 $C_3(m)^2$，$C_3=m^3-4m^2-6m+18$。所有临时主元零保留；权/均值/完整规范scheme长≤6/36/72，不同点≤3/18/36。未排三整共轭纤维；新9418首次180秒/4GiB用整QQ三次原48×35返1/D/D²，必要时加入完整HAHB的F6，保两整非单位分量，不重算旧det/Bézout。K补图ebed真0.991051513秒/1停在旧循环mon绑定错，未返三规则；5dafa只修绑定、保同次数断言，继续原三列/结式，所有未付内容/头零仍保。

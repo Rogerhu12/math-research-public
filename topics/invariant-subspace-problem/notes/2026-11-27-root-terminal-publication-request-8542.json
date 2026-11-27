@@ -1,17 +1,23 @@
 {
-  "message": "ISP: return entire K7 cubic square to the original ideal and finite normalized environment",
-  "parentCommit": "fb9f91b6c52c0dbf56d6bf2d37fb88303b6f1b60",
+  "message": "ISP: prove three complete S1 first-minor chambers and continue original remaining inputs",
+  "parentCommit": "eac36712712c21a260834e279e03e0cf1365d9f4",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-W-entire-K7-original-cubic-square-cover-and-finite-environment.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-entire-K7-rational-original-six-column-cofactor-return-receipt-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-K7-open-physical-lambda-original-three-column-projection-8542.py",
+    "topics/invariant-subspace-problem/results/R271-appendix-one-pair-four-independent-first-s1-minor-three-closed-chambers.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-one-pair-four-independent-s1-first-minor-three-chambers-receipt-8542.json",
+    "topics/invariant-subspace-problem/2026-11-28-one-pair-four-independent-s1-first-minor-remaining-chambers-squares-8542.py",
+    "topics/invariant-subspace-problem/notes/2026-11-28-one-pair-four-independent-s1-first-minor-remaining-chambers-squares-8542.md",
+    "topics/invariant-subspace-problem/2026-11-28-unit211-W-entire-K7-last-cubic-original-QQ-return-8542.py",
+    "topics/invariant-subspace-problem/2026-11-28-unit211-W-K7-open-physical-lambda-original-three-column-projection-binding-corrected-8542.py",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-K7-open-original-degree-binding-failure-8542.json",
     ".github/workflows/invariant-subspace-8542-w-k7-open-original-three-projection.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-entire-k7-cubic-square-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-entire-k7-cubic-square-8542.md",
+    ".github/workflows/invariant-subspace-8542-w-k7-entire-cubic-original-return.yml",
+    ".github/workflows/invariant-subspace-8542-one-pair-first-minor-remaining-squares.yml",
+    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-s1-three-closed-chambers-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-s1-three-closed-chambers-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -21,6 +27,8 @@
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
   "dispatchWorkflows": [
+    "invariant-subspace-8542-one-pair-first-minor-remaining-squares.yml",
+    "invariant-subspace-8542-w-k7-entire-cubic-original-return.yml",
     "invariant-subspace-8542-w-k7-open-original-three-projection.yml"
   ]
 }
