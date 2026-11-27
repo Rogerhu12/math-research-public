@@ -56,3 +56,8 @@ R714全C1/m32、R715 raw hΔ完整六jet责任保。[旧八源/严格terminal继
 并行公开Actions07：[run 45909290354/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45909290354)；[实际记录](notes/2026-11-26-public-actions-45909290354-1.md)。阶段`followup:complete-material-envelope-cached-normal-first-20261126-07`/running；已返3，exit=未返。
 并行07规则核查：2026-11-27 02:23:12 UTC，真实pull至`dacc4322cac3e704a3f9dcb59f8735a04e1f5e1b`，双README无变化。
 <!-- visible-larger-parallel-07:end -->
+
+<!-- visible-larger-parallel-08:start -->
+并行公开Actions08：[run 45929088658/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45929088658)；[实际记录](notes/2026-11-27-public-actions-45929088658-1.md)。阶段`recipe_start`/running；已返0，exit=未返。
+并行08规则核查：2026-11-27 02:35:07 UTC，真实pull至`6fd9ed36306b0e1557f6110e039e0701a6bd8d2d`，双README无变化。
+<!-- visible-larger-parallel-08:end -->
