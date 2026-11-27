@@ -1,0 +1,270 @@
+{
+  "schema": "isp-six-site-full-half-positive-characteristic-certificate-v1",
+  "status": "CERTIFIED",
+  "original_input_sha256": "3528a1b7b56167987e4c1c7c35048330a76cd2179ea263f49bf6cb29c4022bdf",
+  "original_source_sha256": "bc8fd33a164d957fd07cfd02200985aa25dd511d902623ed5ed3591d1706a886",
+  "complete_characteristic_coefficients": 5,
+  "cayley_hamilton_return": true,
+  "certificates": [
+    {
+      "index": 1,
+      "reduced_weighted_degree": 9,
+      "elementary_records": 7,
+      "positive_integer_content": "1",
+      "elementary_monomial_factor": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "original_variable_orbits": 18,
+      "original_negative_orbits": 0,
+      "positive_mean_differences": 0,
+      "positive_remainder_orbits": 18,
+      "minimum_remainder_mean_weight": "120",
+      "equal_variable_mass": "90000",
+      "original_mean_orbit_sha256": "ba8498355229e9a11c22a08963d0c4700d656d30e2ed036d2e93556a863f4e9c"
+    },
+    {
+      "index": 2,
+      "reduced_weighted_degree": 11,
+      "elementary_records": 20,
+      "positive_integer_content": "2",
+      "elementary_monomial_factor": [
+        0,
+        2,
+        1,
+        0,
+        0,
+        0
+      ],
+      "original_variable_orbits": 35,
+      "original_negative_orbits": 0,
+      "positive_mean_differences": 0,
+      "positive_remainder_orbits": 35,
+      "minimum_remainder_mean_weight": "360",
+      "equal_variable_mass": "360000",
+      "original_mean_orbit_sha256": "ac9d4d779c2f8f20e652653ff20f70aef0b787c1122e7544f785c71e124f6ee4"
+    },
+    {
+      "index": 3,
+      "reduced_weighted_degree": 13,
+      "elementary_records": 41,
+      "positive_integer_content": "2",
+      "elementary_monomial_factor": [
+        0,
+        4,
+        2,
+        0,
+        0,
+        0
+      ],
+      "original_variable_orbits": 61,
+      "original_negative_orbits": 0,
+      "positive_mean_differences": 0,
+      "positive_remainder_orbits": 61,
+      "minimum_remainder_mean_weight": "120",
+      "equal_variable_mass": "1440000",
+      "original_mean_orbit_sha256": "f2a9c4c7ef8b7e73cf757d070406bad318261bb53f98d8681cc3ff83a20c68de"
+    },
+    {
+      "index": 4,
+      "reduced_weighted_degree": 15,
+      "elementary_records": 65,
+      "positive_integer_content": "1",
+      "elementary_monomial_factor": [
+        0,
+        6,
+        3,
+        0,
+        0,
+        0
+      ],
+      "original_variable_orbits": 96,
+      "original_negative_orbits": 3,
+      "positive_mean_differences": 3,
+      "positive_remainder_orbits": 93,
+      "minimum_remainder_mean_weight": "120",
+      "equal_variable_mass": "5760000",
+      "original_mean_orbit_sha256": "23c1f2ba0c5ce6960b5804b5135141cfe03704c52628ad1b430a0873c7187e22"
+    },
+    {
+      "index": 5,
+      "reduced_weighted_degree": 16,
+      "elementary_records": 54,
+      "positive_integer_content": "1",
+      "elementary_monomial_factor": [
+        1,
+        8,
+        4,
+        0,
+        0,
+        0
+      ],
+      "original_variable_orbits": 96,
+      "original_negative_orbits": 20,
+      "positive_mean_differences": 30,
+      "positive_remainder_orbits": 65,
+      "minimum_remainder_mean_weight": "120",
+      "equal_variable_mass": "768000",
+      "original_mean_orbit_sha256": "ad8c2ae457bffd96a1371b11c0dc25986b14b124be8c9f43ad3f70d194e427fd"
+    }
+  ],
+  "statement": "All five full physical nonzero characteristic coefficients are strictly positive for every six positive weights. Hence C2^2-2C3 is positive on the entire physical primitive K1 and the first adjacent Gram constant is strictly 1/2.",
+  "scope": "Full six-site source, not a separate support block. Reciprocal-weight duality gives the same last edge. No general birth, infinite joint source, or ordinary ISP conclusion.",
+  "elapsed_ms": 56,
+  "execution": "Actual pure V8 BigInt execution of the identical certificate core embedded in the distributed mjs",
+  "certificate_source_sha256": "ab23dfc5d97a7a3390ed763990e2f70462f64e9ebe5cc0a9a6ebba086df5c9cc",
+  "flow_sha256": "d06590721f38a9e1ad1388a76f99a77cb2e9537590ff5ae65b6a139284b128bd",
+  "date_taipei": "2026-11-28",
+  "original_execution": {
+    "elapsed_seconds": 0.2554752500000035,
+    "max_child_rss_kib": 35240,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "6286b753e75b74935bf6467f5c46303b947e01fe",
+        "before": "6286b753e75b74935bf6467f5c46303b947e01fe",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-27T18:22:51.633873+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46048997934",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "6286b753e75b74935bf6467f5c46303b947e01fe",
+    "source_exit_code": 0,
+    "source_git_blob": "fa1329251c6ba56b80295271a286a85848311942",
+    "source_sha256": "bc8fd33a164d957fd07cfd02200985aa25dd511d902623ed5ed3591d1706a886",
+    "stdout_bytes": 9899,
+    "stdout_sha256": "71ab6fe9443ceaf4ca48f31cca0baab49681a4e443eb957a5cb857a9043ea6b4",
+    "stop_reason": null
+  },
+  "original_stages": [
+    {
+      "stage": "full_precision_and_actual_zero_line",
+      "seconds": 0.0040108259999982465,
+      "full_dimension": "6",
+      "primitive_dimension": "5",
+      "full_matrix_max_terms": "34",
+      "quotient_max_terms": "32"
+    },
+    {
+      "stage": "complete_characteristic_coefficient",
+      "seconds": 0.024747267000002182,
+      "index": "1",
+      "original_weighted_degree": "9",
+      "positive_integer_content": "1",
+      "elementary_monomial_factor": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "reduced_weighted_degree": "9",
+      "original_terms": "7",
+      "negative_terms": "3",
+      "original_sha256": "c56744e1c43c9c37787a1cc54ac261dc91c7496af27732e6456f635a326d6a7b",
+      "reduced_sha256": "c56744e1c43c9c37787a1cc54ac261dc91c7496af27732e6456f635a326d6a7b",
+      "equal_weight_value": "90000",
+      "checkpoint_bytes": "1418"
+    },
+    {
+      "stage": "complete_characteristic_coefficient",
+      "seconds": 0.05747605500000219,
+      "index": "2",
+      "original_weighted_degree": "18",
+      "positive_integer_content": "2",
+      "elementary_monomial_factor": [
+        "0",
+        "2",
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "reduced_weighted_degree": "11",
+      "original_terms": "20",
+      "negative_terms": "9",
+      "original_sha256": "6ad1b1e9925d105e3f847648ca3f4808e01fe2de9e30c40916f94d032422c579",
+      "reduced_sha256": "1be8397890172376b2c127e0cb557e86a669306dc90165630ee21f430aab06f4",
+      "equal_weight_value": "3240000000",
+      "checkpoint_bytes": "2705"
+    },
+    {
+      "stage": "complete_characteristic_coefficient",
+      "seconds": 0.1108661909999995,
+      "index": "3",
+      "original_weighted_degree": "27",
+      "positive_integer_content": "2",
+      "elementary_monomial_factor": [
+        "0",
+        "4",
+        "2",
+        "0",
+        "0",
+        "0"
+      ],
+      "reduced_weighted_degree": "13",
+      "original_terms": "41",
+      "negative_terms": "19",
+      "original_sha256": "bcd6addbd4111f23bcc81d5be771c0149a66d23a80d4ae5810457e55a75111fa",
+      "reduced_sha256": "896fbaaeab689a901210aabaacf0054ac33c3c501ff680588aea8f89234d1bc6",
+      "equal_weight_value": "58320000000000",
+      "checkpoint_bytes": "4413"
+    },
+    {
+      "stage": "complete_characteristic_coefficient",
+      "seconds": 0.13711946800000163,
+      "index": "4",
+      "original_weighted_degree": "36",
+      "positive_integer_content": "1",
+      "elementary_monomial_factor": [
+        "0",
+        "6",
+        "3",
+        "0",
+        "0",
+        "0"
+      ],
+      "reduced_weighted_degree": "15",
+      "original_terms": "65",
+      "negative_terms": "33",
+      "original_sha256": "46c4c34d0a371788d291bc687372df7c99e97895eff7e755f0eb7a5b48701bdd",
+      "reduced_sha256": "07be36c6b467be094c2278865c579473c37e6b7e30d48f9902dbeef40670daad",
+      "equal_weight_value": "524880000000000000",
+      "checkpoint_bytes": "6622"
+    },
+    {
+      "stage": "complete_characteristic_coefficient",
+      "seconds": 0.18505685600000277,
+      "index": "5",
+      "original_weighted_degree": "45",
+      "positive_integer_content": "1",
+      "elementary_monomial_factor": [
+        "1",
+        "8",
+        "4",
+        "0",
+        "0",
+        "0"
+      ],
+      "reduced_weighted_degree": "16",
+      "original_terms": "54",
+      "negative_terms": "27",
+      "original_sha256": "b988d4d7cbcb9d7b3453cf388235b9945e1f527259e30132ec687c74f484fae0",
+      "reduced_sha256": "c67d320faf4673d09d0e0b640d14320b50d185f77903dc841718ae0c02401bcc",
+      "equal_weight_value": "1889568000000000000000",
+      "checkpoint_bytes": "8597"
+    }
+  ]
+}
