@@ -402,3 +402,5 @@
 - R1049§8（33）–（42）：原惰性p整实现扭曲后在FL[0,3]；保两个标记嵌入/原积分测试/Artin基，全部整晶体扩张唯一参数h=x+puy，模p^n分裂恰h≡0。直接解Frobenius/Hodge splitting给logBK=p h/(p+1)、整log格=pO，同原54/η/Cor读取准确h=a_j,p⁻¹I_j,p。未给h非零；继续全Čech/Frobenius的图限制。无新增数学执行。
 
 - 原unitary§14（43）–（59）：完整625项5-old迹在同一even theta基上，25列与旧列恰交5，给绝对1/5。全2/3/7 CRT及dyadic singlet真实负号使负支whole返回E5old P3 μ−=−R_K*ν/5，保K/A全类型；忘K为−39δΦ126/5。原Yunit双K缩放式及K/Y真实非零点对数系数齐，旧canonical坏确令相应首导数零；5-new全24wild与p-new paired字仍保，未给whole角来源中央零。[完整证明](notes/2026-11-27-original-y-k-rational-unitary-and-precise-p-level-words.md)。
+
+- R1049§9（43）–（52）：完整PD/Čech Chern c与Frob同伦b、原p+1 Miller平凡化t和degree0ℓ逐式满足dc=0、(F−p²)c=db、dt=Ic、(F−p²)t=Ib+dℓ。保Hodge限制IΩ=dζ后，n=[t−Ia−upζ]=up pξ/(p+1)，同原54/η/Cor给AJ=up⁻¹N、h=(p+1)a_j⁻¹N/(p up)。全局a及原ζ仍待实际求解；没有自由水平常数，未判h非零。

@@ -8,7 +8,7 @@
 
 - 两库只读CI实际部分clone/pull --rebase已于16:03成功（run46030351581/job140612272176）。公开16:03:53UTC至0b7cc6c7adc861a523ae294a27aa6baa8f042a13，较8f70b47dd340068496385625f0cc1beb5df500e4两README无差异；已读blob282e86b03385d3b6245ce7100ae2e2af7b103c2d / 2f3b3c9264fbba8189f85716e68f768830e921bc。
 - 私库16:03:58UTC至1a736908abae2f32b917c67e432338790a1fe93d，较上次实际6139de54ac72f1c7af0508b88ce03efdbf0a5690两README无变；已读blob5ba164843b1f5802184178a82d786264404873a3 / 452d0127a4c3879807d70550d3eafd46c8fac642。既有MR_TOKEN secret按根§13使用，正文/凭证不输出公开log。QUEUE844a9bd5e7d978c6d525bdb6e4681e990349113c仍本会话进行中，认领提交41fe885610073f478b2f5a752461ca56cfd43f09。
-- 本地07:20失联，最近重试两库仍无执行环境；本地末次公开pull07:12的1cf10ac。CI是真实pull，与本地/API分别记账，不混称。下一轮实际pull不迟于17:03UTC，两README变更须立即读差异。
+- 本地07:20失联，最近重试两库仍无执行环境；本地末次公开pull07:12的1cf10ac。CI是真实pull，与本地/API分别记账，不混称。16:45再试本地两pull均无执行环境；已请求下一轮两库CI实际pull（基线0b7cc6c7/1a736908），待回执；最迟17:03UTC，两README变更立即读差异。
 
 - 至少每小时重试同步，每次pull后只读新README差异并立刻执行，记实际读过SHA；断连沿最新main API非force快进，每次检查README及本topic外部变动。10:48ref失败已立即实际pull重试、重比新父后成功；不强推。
 - root独占git/H/open/log/index；每条结论立即推，拒绝时pull --rebase后重试至成功。令牌只命令行/进程，不进文件/提交/API。数学执行只在公开Actions；根规则15禁止存可重算输出或日志数据。H<10KB，每MD<100KB。
@@ -42,10 +42,12 @@ R1043原2/3同源/full9/所有二核/η′/最高−3Ω′1及精确三权下降
 
 §21完整对偶运输μ₁(φ̂P)=cφ^qμ₂与Φq严格交换原图pull，外系数线性给Φq(PQ)=3cQΩ′1、μ(cEPQ)=0。§22全三项消分母给μPQ=cQ X′Nq(V′²)/V′^(2r−1)，有限递推唯一、所有分母q单位。N0≠0/N1=3，IV*好化μ阶2、两cusp阶1；O值为−3cQ2^(2r−1)Pq(−1/4)，若零恰六阶。原CM289图已付full9负分量/二核循环及f′=ω/f³=id，实际R_a接触仅1/2；这些系数/指定延拓值均不替代实际T_a/p影子。
 
-R1049新转向目标p惰性：同一固定54图均以原full9/完整GΓ在Kp下降，η((p))=1；原最高H³(2)有φ²=−p^-1，BK exp目标一维。proper finite-polynomial全Čech/Frobenius同伦给AJ(Yj0)=p/(p+1)·原54/η/Cor杯积和，非单位p因子保。原全NS判别式及Hodge/CM分解给新增晶体指数1,p，c1D+=upΩ、c1D−=−p/(3up)Ω−且up单位；实际W₂提升障碍MW/p→H²(O)是Fp同构。§8整FL原格逐式分类给唯一h=x+puy，logBK=p h/(p+1)、整log格=pO，原局部扩张mod p^n分裂当且仅当h≡0；同原测试/Artin基准确h=a_j,p^-1 I_j,p。原54权Ξrestriction和通常全Sha全球桥仍待实际支付；不以global障碍非零当AJ非零。
+R1049原惰性p固定54图/full9/η均在Kp下降；φ²=−p^-1。proper FP给AJ=p/(p+1)I_j,p；新增NS晶体指数1,p，c1D+=upΩ、c1D−=−pΩ−/(3up)，up单位，W₂障碍MW/p→H²(O)为Fp同构。§8原FL[0,3]给整h=x+puy、logBK=p h/(p+1)、modp^n split iff h≡0，严格h=a_j^-1I。§9全Chern b/Miller t/degree0ℓ与真实限制ζ给n_b=[t−Ia−upζ]=up·p/(p+1)ξ；AJ=up^-1全54权N，h=(p+1)/(p up) a_j^-1N，整除p由§8。继续全局c−upΩ=da的实际a/ζ及原全球桥，不以global障碍或单点挠日志赋加权非零。
 
 ## 四、其它未闭门与分工
 
 O4需原O格Q=δ^aεw于无穷ordinary p有a≤1；E17的a偶、E389的lengthShaA=2(a+1)保持。O6需固定两点饱和λ的全核Np有限、真q_p=1于无穷p，原Tor及全p损不删。O7保同解内/闭盘、同Y余数、全Laurent/非恒Y权/全部216真管差，仍未迫原闭边界全零；跨parity R953和R954指定forcing成员性仍开，完整参数在open与逐字归档。旧外部强声称/负例保持，不重做已排方向。
 
 central继续同一完整前缀/三低卷积；arithmetic继续角源全补域；geometry继续原inert-p Ξ真实限制；root处理完整作业/同步/逐条推。unitary §§10–13已付原g_n逆Gram/12odd Bell/固定坏处/F±六sigma及全部connected/étale球。§14新付完整625项5-old迹、25列交5给绝对1/5；2singlet/3 gluing/7实偶给 E5old P3 μ−=−R_K*ν/5，保K/A全部类型。忘K才是−39δΦ126/5，实际Yunit两个K缩放差全保；其K/Y非零为β^-nκ^-n(1−βκ)/(5d_n)·10δΩID/7。完整5-new 24wild与p-new反字符补项仍待，不以原canonical中央坏给它们零。主目标未完成，持续工作。
+
+F+旧系数已化为唯一degree4有理迹T17，c+=2T17/3；625→25及原−δ/7/5-kernel lift已手付，小public-check唯一请求已提交，待实际回执；未预记数值或非零。

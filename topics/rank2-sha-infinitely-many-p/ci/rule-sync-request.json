@@ -1,7 +1,7 @@
 {
-  "request_id": "rank2-20261127T1603-both-rule-pulls",
-  "utc": "2026-11-27 16:03 UTC",
-  "last_rules_read": "8f70b47dd340068496385625f0cc1beb5df500e4",
-  "private_last_rules_read": "6139de54ac72f1c7af0508b88ce03efdbf0a5690",
-  "reason": "Read-only actual partial clone and pull for both repositories. Root README rule 13 permits the existing MR_TOKEN Actions secret for reading the private repository. Only private object identities and whether README contents changed are printed; private content stays unprinted."
+  "request_id": "rank2-20261127T1648-both-rule-pulls",
+  "utc": "2026-11-27 16:49:39 UTC",
+  "last_rules_read": "0b7cc6c7adc861a523ae294a27aa6baa8f042a13",
+  "private_last_rules_read": "1a736908abae2f32b917c67e432338790a1fe93d",
+  "reason": "Next read-only actual partial clone and pull for both repositories, after the local runtime was again unavailable. Compare only root and topic README changes; keep private contents and credentials out of public logs."
 }

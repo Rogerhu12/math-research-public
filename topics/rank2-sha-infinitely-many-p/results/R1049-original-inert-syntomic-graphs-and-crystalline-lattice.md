@@ -643,3 +643,240 @@ Gee–Herzig–Liu–Savitt,
 Documenta Math.22(2017),397–422，§2.3，p.414：
 <https://www.emis.de/ft/10184>。
 所引定理仅支付整实现、精确性及全忠实性；(34)–(42)的扩张分类和全部比例已在本文直接计算。
+
+## 9. 完整 Čech–Miller 公式：把原读数写成唯一的 normal function
+
+本节在同一个曲面、同一特殊纤维新增类及同一54个图上，
+把§8的 $h_{j,p}$ 改写成可由 transition functions 计算的式子。
+不引入新的图或新的普通投影。新增内容是：给出特殊纤维
+Miller 函数的完整 Frobenius null-homotopy，保留 degree0
+同伦项，并逐式锁住 normal function 的常数。
+
+### 9.1 一个同时保所有图的 crystalline 复形
+
+可把固定光滑模型 $\mathcal S,\mathcal A$ 分别嵌入射影空间，
+用标准仿射覆盖与其交叠上的完备 PD envelope 计算晶体上同调。
+对每一个原图，在两射影空间的乘积中使用其实际图嵌入；
+到两因子的映射都是投影。坐标的 $p^2$ 次幂定义环境空间的
+Frobenius lift。由于§2.1已经证明所有特殊图在
+$\mathbf F_{p^2}$ 上，这个 lift 保持其特殊纤维理想，
+因而作用在相应 PD envelope 上，且与环境投影严格交换。
+
+这是环境空间的 Frobenius，**不是**声称原特征零曲面或图有
+全局 Frobenius lift。由 PD 复形到实际模型 de Rham 复形的
+比较同伦仍须保留。以下用 $C_S,C_b$ 表示这一 Čech–de Rham
+总复形，$I_b:C_S\to C_b$ 为纤维限制；实际图拉回亦在这个
+同一系统中进行。换用其它 embedding system 时，所有公式
+沿其 functorial 比较和同伦运输。
+
+总微分约定为
+$d_{\rm tot}=\check\delta+(-1)^{\text{Čech degree}}d_{\rm dR}$。
+在 PD 理想 $J$ 上使用
+$$
+\log(1+z)=\sum_{m\ge1}(-1)^{m+1}(m-1)!\,\gamma_m(z),
+\qquad z\in J.
+$$
+这在完备 PD 环中收敛；其微分是 $d\log(1+z)$。
+因此下列对数只对模 $J$ 等于1的单位取值，
+不对任意有零极的 Miller 函数直接写一个全局对数。
+
+先对一个实际整线丛写公式，再对原 Shioda 校正及
+$D_p^+=(1+\omega^2\tau^*+\omega\tau^{2*})D(Q_p)/3$
+线性组合。所有分母是 $p$ 单位，$F=\varphi^2$ 固定这些系数。
+
+### 9.2 Chern cocycle 与真实 Frobenius 同伦
+
+设原特殊纤维线丛在所选覆盖上有 transition functions
+$g_{ab}^{(0)}$，并选 PD 环中的单位提升 $g_{ab}$。
+用 $g_{ba}=g_{ab}^{-1}$，记
+$q_{abc}=g_{ab}g_{bc}g_{ca}$。它模 $J$ 为1。
+取完整 degree2 cocycle
+$$
+c=\bigl(0,\ d\log g_{ab},\ -\log q_{abc}\bigr)
+\in C_S^2.
+\tag{43}
+$$
+按上述总微分，$\check\delta(d\log g)=d\log q$，
+与第三项的微分抵消，所以 $dc=0$。这就是同一
+$c_1^{\rm cris}$ 的 Čech 代表，不删三重交叠函数。
+
+因为模 $J$ 的 $F$ 是 $p^2$ 次幂，定义
+$$
+b_{ab}=-\log\!\left(\frac{F g_{ab}}{g_{ab}^{p^2}}\right),
+\qquad b\in C_S^1.
+$$
+两项逐个计算给
+$$
+\boxed{(F-p^2)c=db.}
+\tag{44}
+$$
+在(43)的 Čech1微分项，右侧为
+$d\log(Fg/g^{p^2})$；在 Čech2函数项，右侧为
+$-\check\delta\log(Fg/g^{p^2})$，恰等于左侧。
+若用局部 Frobenius 而非上述同一 PD 系统，
+$b$ 必须同时包含比较同伦；式(44)仍在总复形中成立。
+
+对 $D_p^+$ 用同一记号 $c,b$。由(31)，存在 degree1 cochain
+$a$ 使
+$$
+c=u_p\Omega_S+da.
+\tag{45}
+$$
+这里 $\Omega_S$ 指其在该复形中的原 Hodge lift，
+不是任意替换过的二形式。于是一个准确的(12)代表为
+$$
+\boxed{
+\Xi_p=u_p^{-1}
+ \left(\frac{Fa-b}{p^2}-a\right).
+}
+\tag{46}
+$$
+直接对(46)取微分并代入(44)–(45)，得到
+$d\Xi_p=(1-F/p^2)\Omega_S$。这同时固定了所有 $p^2$ 分母和符号。
+
+### 9.3 原特殊纤维 Miller 函数给完整 null-homotopy
+
+每一个原 $S_b$ 都与 $A$ 经次数34的实际同源相连，
+且同源定义于 $\mathbf F_{p^2}$。由源上
+$\operatorname{Frob}_{p^2}=[-p]$ 及同源自然性，
+靶上亦有此端同态等式。因此
+$S_b(\mathbf F_{p^2})$ 被 $N=p+1$ 杀。
+
+原 Shioda 线丛限制在这些好纤维上就是一个 degree0 类；
+旧垂直及基类的限制是平凡类。先对每个实际整限制
+$\mathcal L_b$ 取一个 $\mathbf F_{p^2}$-有理 Miller 函数，
+平凡化 $\mathcal L_b^{\,N}$。它存在于原剩余域上：
+对应主除子的函数空间为一维，Galois 下降只用 Hilbert90。
+可用原 $O_b$ 的局部首项把比例固定为1；若该类已为零，
+直接取平凡化。最后再作同一个 $D_p^+$ 的线性组合。
+
+具体地，这个平凡化给每个覆盖块上的单位 $k_a^{(0)}$，满足
+$$
+(g_{ab}^{(0)})^N=k_b^{(0)}/k_a^{(0)}.
+$$
+选择任意单位提升 $k_a$，定义
+$$
+H_{ab}=\frac1N\log\!\left(g_{ab}^{\,N}\frac{k_a}{k_b}\right),
+\qquad
+t_b=\left(\frac1N\,d\log k_a,\ -H_{ab}\right)\in C_b^1.
+\tag{47}
+$$
+这里的 $g_{ab}$ 已沿同一 $I_b$ 限制。括号内模 $J$ 为1，
+所以全部 PD logarithm 合法。由
+$$
+dH_{ab}=d\log g_{ab}
+       +N^{-1}(d\log k_a-d\log k_b),\qquad
+\check\delta H=\log q
+$$
+逐项得到 $dt_b=I_b c$，包括全部三重交叠项。
+
+再定义实际 degree0 cochain
+$$
+\ell_a=\frac1N\log\!\left(\frac{Fk_a}{k_a^{p^2}}\right).
+$$
+代入(47)，在 Čech0的一形式分量得到 $d\ell_a$；
+在 Čech1的函数分量得到
+$\ell_b-\ell_a$。所以完整等式为
+$$
+\boxed{
+dt_b=I_b c,\qquad
+(F-p^2)t_b=I_b b+d\ell.
+}
+\tag{48}
+$$
+尤其不能在计算时把 $d\ell$ 无说明删掉，
+也不能以某个 Teichmüller 挠提升的点日志0代替整个(47)。
+
+### 9.4 原 Hodge 限制的同伦必须一并入式
+
+在实际 de Rham 模型上，二维全纯形式限制到曲线为零。
+在一个任意 PD/Čech 代表中，其对应说法是指定比较同伦
+$\zeta_b\in C_b^1$，使
+$$
+I_b\Omega_S=d\zeta_b.
+$$
+它来自实际零限制，而非任意选一个原函数。
+若复形把这个限制严格化为零，则可取 $\zeta_b=0$。
+一般情形必须使用
+$$
+\begin{split}
+\xi_{b,p}
+ &=\left[I_b\Xi_p-(1-F/p^2)\zeta_b\right],\\
+\mathfrak n_{b,p}
+ &=\left[t_b-I_ba-u_p\zeta_b\right]\in H^1_{\rm dR}(S_b).
+\end{split}
+\tag{49}
+$$
+第二行由(45)、(48)确实闭合。将(46)、(48)代入，得到
+$$
+(F-p^2)\mathfrak n_{b,p}
+ =-u_p p^2\,\xi_{b,p}.
+$$
+而原纤维 $H^1$ 上 $F=-p$，故
+$$
+\boxed{
+\mathfrak n_{b,p}
+ =u_p\frac p{p+1}\xi_{b,p}.
+}
+\tag{50}
+$$
+这才是同一个 normal function；它是
+Miller–Frobenius 平凡化与全局 holomorphic 比较的差，
+不是其任一部分的日志。
+
+所有选择变化都可核回(48)–(50)。例如改变 $k_a$ 的提升或
+Miller 函数的常数时，$t_b$ 的改变为闭 cochain，
+且由(48)其类被 $F-p^2$ 杀；这个算子在 $H^1(S_b)$ 上为
+$-p(p+1)$，可逆，故类不变。改变 $a$ 的闭部分来自
+$H^1(S)$，其限制由(14)为零。改变 transition 提升或
+embedding system 时，$c$ 改为 $c+dr$，
+$b$ 同时改为 $b+(F-p^2)r$ 加 exact cochain；
+$a$ 与 $t_b$ 中对应的 $r$ 正好抵消，余项仍由上述两种
+唯一性消去。改变 $\zeta_b$ 时，必须同时改变该复形的
+restriction comparison；(49)整体沿相同比较运输。
+因此并不存在另一个可以自由调整原54个值的水平常数。
+
+### 9.5 同一个全权读数与积分费用
+
+保持(20)中的所有标号及系数，定义
+$$
+\mathcal N_{j,p}
+=\frac1{18}\sum_\sigma\eta_j(\sigma)^{-1}
+ \sum_\gamma\sum_{i=1}^{54}c_i
+ \left\langle
+   (\sigma\gamma\varphi_i)^*\mathfrak n_{\sigma\gamma b_i,p},
+   \omega_A
+ \right\rangle_A .
+\tag{51}
+$$
+每一项的 $c,b,a$ 来自同一个固定 $D_p^+$，
+而 $t_b$ 是该类在该实际图靶上的(47)。
+这里不把系数 Galois 共轭同几何作用混同，也不重新选择
+不同图所用的 $u_p$。degree34 留在真正 pullback 内。
+
+由(20)、(42)、(50)，得到
+$$
+\boxed{
+\operatorname{AJ}_p(Y_{j,0})(\Omega_S\omega_A)
+ =u_p^{-1}\mathcal N_{j,p},\qquad
+h_{j,p}=\frac{p+1}{p\,u_p}\,
+        a_{j,p}^{-1}\mathcal N_{j,p}.
+}
+\tag{52}
+$$
+特别
+$a_{j,p}^{-1}\mathcal N_{j,p}\in p\mathcal O$
+来自§8的原 Fontaine–Laffaille 整格。
+它不是由单项特殊点的阶 $p+1$ 推出的整除性，
+更不能在未计算(51)前把除 $p$ 后的数预记为单位。
+
+(43)、(44)、(47)、(48)已给可直接计算的 Chern 与 Miller
+共链。仍需实际求出的全局部分是(45)中的 $a$，
+以及原实际 Hodge 比较的 $\zeta_b$；
+必须连同它们计算(51)，才能证明某个 $h_{j,p}$ 非零。
+本节既不把空间微分 $\mu(Q_p)$ 当作 $h_{j,p}$，
+也不以全局新增格的本原性替代该有限加权和。
+
+本节的等式是上述 PD/Čech 复形中的直接计算；
+proper AJ、投影及 trace 所需的来源范围仍严格是§7所列。
+没有使用尚未取得全文的 normal-function 文献，也没有新增数学执行。

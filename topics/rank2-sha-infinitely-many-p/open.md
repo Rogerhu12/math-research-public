@@ -44,3 +44,7 @@ root持续处理完整作业、同步、接线与逐条推送；central继续同
 ### 负支已付的原完整5-old返回
 
 unitary§14严格 E5old P3 μ−=−R_K*ν/5，保K/A全部类型。忘K才是−39δΦ126/5；同Yunit的两次带负K缩放和真实K/Y非零载体系数全齐。下一步F+的精确reference系数，以及完整（59）中的5-new全24wild与p-new反字符项的同解约束。两个新补项均未被canonical坏条件消去；对角p惯性可相消，不凭旧点域未分歧删除。
+
+### 原惰性normal function已付的完整代表
+
+R1049§9已给全部Chern/Frob及p+1 Miller共链，保degree0 ℓ与原Hodge限制ζ。唯一n_b=[t_b−I_ba−upζ_b]=up pξ_b/(p+1)，原AJ=up⁻¹全权N，h=(p+1)a_j⁻¹N/(p up)。剩下的实际计算是全局c−upΩ=da的a及ζ，并以原54权求值；不存在可自由调的水平常数。F+的旧系数c+=2T17/3已化为一次完整四次有理迹，唯一小public消费者等待回执，不重谱。

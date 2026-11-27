@@ -269,3 +269,7 @@
 ### 原unitary§14 — 完整5-old负支反演
 
 [原文](2026-11-27-original-y-k-rational-unitary-and-precise-p-level-words.md)（43）–（59）。D=diag126,6，Qε DQεᵗ=25D；同even characteristic的625项Weyl平均在完整theta列交5/25，old返回严格1/5·Pε。原Y+K/δ even锁3处v=−u，Y−K/2 odd锁真实2处singlet；原N完整收缩的7处f7实偶。P−逐处给2交换−1、3全K反演、7反演+1，所以保K/A整函数O−C=−C(z,−k,a)/5。真Yunit返回两次带负K缩放，忘K才是−39δ c_nJ126/5；K/Y系数β^-nκ^-n(1−βκ)/(5d_n)·10δΩID/7非零。全和三项分解含oldE0、5-new E0、p-new，后两项未授权为零。
+
+### R1049§9 — 全Chern/Miller与唯一normal function
+
+同原PD embedding system且图投影严格保环境F；未造曲面全局Frob lift。c=(0,dlogg,−logδg)、b=−log(Fg/g^{p²})；c=upΩ+da给Ξ=up⁻¹((Fa−b)/p²−a)。N=p+1原Miller平凡化g^N=k_b/k_a modPD，H=N⁻¹log(g^Nk_a/k_b)、t=(N⁻¹dlogk,−H)、ℓ=N⁻¹log(Fk/k^{p²})逐式给dt=Ic、(F−p²)t=Ib+dℓ。真实IΩ=dζ必须同保，n=[t−Ia−upζ]=up p/(p+1)ξ；原全权N给h=(p+1)a_j⁻¹N/(p up)。所有choice用F−p²在原fiberH¹的−p(p+1)可逆及H¹S限制0消去。仍需全局a/ζ的实际值，不以special torsionlog0或Manin值替代。

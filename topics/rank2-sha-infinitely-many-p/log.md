@@ -129,3 +129,9 @@ run46032975863/job140621181486/source5df58ad8真PASS，完整原对照、基修�
 ## 2026-11-27 16:39:54 UTC — 完整5-old负支反演与真实读者
 
 消费arith未引用blob31c7d9561c58b904ea61d8c67316a0a2dbb1da61；root逐式读同theta框架/625项迹/25交5及2/3/7 CRT，central同期手核相位。追加unitary§14（43）–（59）：E5old P3 μ−=−R_K*ν/5，canonical系数−39δ/5，实际K/Y非零的全部p损和K反演准确。全5-new/p-new补项继续保留，未赋whole中央零。H接近10KB，逐字归档再压缩末分工段；所有旧结论/条件/回执保于归档链。无数学执行或扫描。
+
+## 2026-11-27 16:49:39 UTC — 全Chern–Miller、唯一正支有理迹及两库实际pull请求
+
+R1049§9追加（43）–（52），root逐式核全部Cech符号、p²与p/(p+1)、Miller degree0同伦及真实IΩ=dζ；全局a/ζ值和h非零仍待。arith已把正支完整625项迹降25并锁原lift，唯一degree4有理迹消费者只做Q上全Bezout回乘、完整4维乘法trace及Lagrange独立身份，原b17/homogeneity全保；未执行本地数学，也未预记结果。复用现有small-public-check，无workflow改动。
+
+16:45:49UTC两库本地pull --rebase仍因无执行环境被拒。已触发现有只读CI的两库实际partial clone/pull，baseline公开0b7cc6c7、私库1a736908，下一截止17:03UTC；实际回执未返前不更新已读head。新请求不触发原重作业。
