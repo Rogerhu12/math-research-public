@@ -5,7 +5,7 @@
 
 ## 规则与同步
 
-root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端失效、15:03:35重置后唯一复核仍失败，恢复即真pull。云核至 `981afdce5c7c7c7c1d3999eedcd62f24ca91abe3`（非pull）。
+root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端失效、15:03:35重置后唯一复核仍失败，恢复即真pull。云核至 `e7fac338830cdd9b2ce212b6063ebf5438f6d43e`（非pull）。
 双README SHA256：581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d。每真pull只读新差异立刻遵守，至少每小时；活13–17通常每5分钟真pull，已读commit在末槽。
 私库QUEUE进行中已推e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。root独占refs/queue，每结论普通推；NFF有终端立刻rebase重推，不可用则freshHEAD完整合并、不冒pull/force。令牌仅瞬时CLI。[完整发布支持](computations/resume-20261127-root-publication-support.mjs)保。
 科学仅本公开Actions；raw只runner/scratch，不Git/Release/artifact、不改名输入。完整源/所有参数/真实run/whole输出身份保。题≤200MB、文件<5MB、MD<100KB、H<10KB、open<30KB；先metadata，不整读≥100KB或binary。根§12不新增独立审查/冻结/AST/fixture/重跑门、不减原目标/预算。[旧log全字](log/2026-11-27-session-through-fejer-closed.md)保。
@@ -28,7 +28,7 @@ root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端�
 | 17 | 46053911348；两输入0，36ef0794/ed810/PID3823科学未返，全157/7对92407B。[全输入/新seed](notes/2026-11-27-run17-same-target-broader-supported-seed-launch.md)，[全9后步骤](notes/2026-11-27-fixed-fejer-wide-seed-complete-post-parameters.md)。 |
 
 16[实际数学全字](notes/2026-11-27-run16-initial-mathematics-and-point-bound-progress.md)：current7e06，Phi5551.477153263786/finiteGram.6480138218929927/g11.17545381570094；首trial4086统计已返、几何/decision未捕获；第二25f402统计5551.476309922079/.6480138082898852，几何/decision未返、accepted0。六g定义/完整point/model/原观察均保note，非连续界，不猜主坏项。
-17只改b/S1/16→1/4、δ1/128→1/32，固定g/参考/全变量/32stage/原预算不变；seed/base/Q/normal与物理场新身份必须实际读。[17实际数学](notes/2026-11-27-run17-wide-seed-actual-mathematics.md)：model f2e417、同坐标7e06的新场Phi4954.71485872585/finiteGram.6374168330977955，几何未返/accepted0。原五peer CLI保，四新peer完整身份仍外部未知未迁typed。R709余量未付，Dhat不代真根。
+17只改b/S1/16→1/4、δ1/128→1/32，固定g/参考/全变量/32stage/原预算不变；seed/base/Q/normal与物理场新身份必须实际读。[17实际数学](notes/2026-11-27-run17-wide-seed-actual-mathematics.md)：model f2e417、同坐标7e06的新场Phi4954.71485872585/finiteGram.6374168330977955，有限几何g2.0480426708394406已返/仍不通过/accepted0，首trial924732刚入；六分项尚未展示。原五peer CLI保，四新peer完整身份仍外部未知未迁typed。R709余量未付，Dhat不代真根。
 
 ## 全后继与未付责任
 

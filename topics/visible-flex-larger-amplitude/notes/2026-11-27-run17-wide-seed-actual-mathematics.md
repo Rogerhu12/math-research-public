@@ -182,3 +182,117 @@ root完整读取19:20:05 UTC公开index：20103B/SHA256 5bb9c1de88a78b61e27adf91
 ```
 
 所有原raw field、report、根/网格/大数组只留runner；本文只保已有操作实际返回的有界标量与完整身份。README全部完成标准仍未达到，继续真正求解。
+
+## 5. 初始完整有限几何已返回，首试步实际开始
+
+root在2026-11-27 19:54 UTC完整读取19:45:18 UTC公开索引，18924B/SHA256 204d22d939e8306bb8c8297718bddbb96b6df9676fbeabcd3da85e7374657f73/Gitblob9edf920ca0b9fef2ff94ffd2d2fdf1737e180cdc。这次保留的actual数学事件已为19:43:44.731193+00:00的trial-start，不能把该时间冒作此前initial geometry的返回时间。
+
+**同一f2e417模型、初始7e06坐标的完整有限几何读数已实际返回：positive physical g = 2.0480426708394406，complete=True。** 它仍严格为正，原几何可行性未通过，accepted directions仍0，complete report仍false。相同固定target及原几何预算下，它小于16旧初场的11.17545381570094，但这既不是通过、连续上界、reach或幅度证书，也没有给出六个分项中的最大项身份。原observer/live selector未显示各分项，不能从总最大值猜坏项或用R721条件式替实测。
+
+当前initial/current Phi4954.71485872585、finite Gram0.6374168330977955保持原值。首个被捕获的实际试步坐标为9247328741fa943b6e4dc696b8a8b99317c2da569654f71f411bc011d61a3ba2；在本索引，trial统计、trial几何与接受决定仍未返回。normal自己的80已缓存角、局部计数/计时不冒完成试步。完整有界观察及每份小文件whole身份如下：
+
+```json
+{
+  "step_id": "complete-fixed-fejer-wide-seed-first-20261127",
+  "scientific_source_commit": "36ef07940921ccfa5eced7124dad275ddd91264d",
+  "scientific_source_sha256": "ed81031fe1eb33684d35585e44022314c8a631821859376a200c874a2aa0e5fa",
+  "pid": 3823,
+  "observations": {
+    "fixed-fejer-wide-seed-first/actual-normal-evaluation-progress.json": {
+      "phase": "normal_chain_enter",
+      "at": "2026-11-27 19:45:16 UTC",
+      "point": "9247328741fa943b6e4dc696b8a8b99317c2da569654f71f411bc011d61a3ba2",
+      "stage": null,
+      "cached_angle_roots": 80,
+      "closure_logical_requests": 210721,
+      "closure_logical_returns": 210721,
+      "closure_logical_failures": 0,
+      "closure_original_returns": 48051,
+      "closure_cache_hits": 162670,
+      "closure_forced_stage_rereads": 34400,
+      "closure_forced_endpoint_rereads": 1075,
+      "closure_scopes_started": 1076,
+      "closure_scopes_closed": 1075,
+      "closure_immutable_point_key_checks": 166715,
+      "closure_point_word_checks": 2151,
+      "closure_original_closure_seconds": 464.9048956779841,
+      "closure_binding_and_key_seconds": 48.98239691205356
+    },
+    "fixed-fejer-wide-seed-first/actual-mathematical-progress.json": {
+      "math_at": "2026-11-27T19:43:44.731193+00:00",
+      "math_event": "trial-start",
+      "math_driver": "8dc9d876f28ef78cc5c80279136af6f1391d3591598cdfecbcecc91aa3582a6d",
+      "math_model": "f2e417e9f6835bbc73fce71e18da20e132ca84246641da6572e8fa6ba66a8372",
+      "math_source": "bff1e03ae12a08444cb9d9d572e439a9b40cf59e80a201cd500f95539ce9e391",
+      "math_target": "957cf0fc1ee59835f499b21a2300094ecb8c8a39fe14a1ebd987cef11305faa9",
+      "initial_point": "7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47",
+      "initial_Phi": 4954.71485872585,
+      "initial_Gram": 0.6374168330977955,
+      "initial_geometry_point": "7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47",
+      "initial_violation": 2.0480426708394406,
+      "initial_geometry_complete": true,
+      "current_point": "7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47",
+      "current_Phi": 4954.71485872585,
+      "current_Gram": 0.6374168330977955,
+      "current_geometry_point": "7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47",
+      "current_violation": 2.0480426708394406,
+      "current_geometry_complete": true,
+      "current_state": "initial statistics returned; no accepted direction",
+      "trial_point": "9247328741fa943b6e4dc696b8a8b99317c2da569654f71f411bc011d61a3ba2",
+      "trial_accepted": null,
+      "accepted_directions": 0,
+      "complete_report": false,
+      "stop_reason": null,
+      "observer_failures": 0
+    }
+  },
+  "complete_small_progress_file_identities": [
+    {
+      "path": "fixed-fejer-wide-seed-first/actual-normal-evaluation-progress.json",
+      "bytes": 3357,
+      "sha256": "2ccb6b98884ae16379c9894ab7d090f1a6e9d21cf829bcb42ddbc45ef6ea1390",
+      "two_complete_bounded_reads_agreed": true
+    },
+    {
+      "path": "fixed-fejer-wide-seed-first/actual-mathematical-progress.json",
+      "bytes": 5555,
+      "sha256": "98352908d9f935c0888ca66002209d987a07fd59a7100d08efa5414016a15344",
+      "two_complete_bounded_reads_agreed": true
+    }
+  ],
+  "observation_errors": [
+    {
+      "report": "fixed-fejer-wide-seed-first/actual-mathematical-progress.json",
+      "field": "latest_trial_statistics.Phi",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-wide-seed-first/actual-mathematical-progress.json",
+      "field": "latest_trial_statistics.max_relative_gram",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-wide-seed-first/actual-mathematical-progress.json",
+      "field": "latest_trial_geometry.point_sha256",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-wide-seed-first/actual-mathematical-progress.json",
+      "field": "latest_trial_geometry.positive_physical_g",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-wide-seed-first/actual-mathematical-progress.json",
+      "field": "latest_trial_geometry.complete",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    }
+  ],
+  "child_exit_code": null,
+  "child_natural_return_not_observed": true,
+  "observations_are_not_a_completed_step_or_a_scientific_certificate": true,
+  "observation_identity_sha256": "f431b2099cecbfac3b15903a66c9e9d92ae0e59b2c29b334ac0baf636d61234b",
+  "observed_utc": "2026-11-27T19:45:16Z"
+}
+```
+
+这一新实际结果支持在正在完成的完整新cache/batch入口继续使用已明示的b/S=1/4、delta=1/32作为独立求解初猜，原全部变量、全32stage、全域和所有科学预算不变。它不把17当前物理场或未返回trial迁成新源下已验证场，不假定跨源工作浮点字相等；新入口仍需全部实际初场、试步、完整报告及全后费用。活17原科学/pure对象原字保，未因这一标量返回退休或重跑。
