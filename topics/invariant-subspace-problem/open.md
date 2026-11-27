@@ -4,7 +4,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-five-coordinate-joint-graph-countersequence-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-five-L0-w-curves-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -43,7 +43,7 @@ rank$H=4$ 的非单位局部块长度5、4、3已排；长度2单零的三种单
 
 rankH3单三jet的全部ess6已闭，末非零Hp原Gaussian/最高/normal给左侧5/2与1矛盾；完整Hp0/有限及∞边界见结果索引和[此前完整快照](notes/2026-11-27-open-before-complete-K-8542.md)。只续H2+1、三值H和原ess4/5，不重做已闭层。
 
-**原U值图L0：** w0/w1、b+c0、W、P1双零、整个G/K/V及X的两方向完整首项零面均闭。新[w首项排除](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-L0-X-w-leading-complete-exclusion.md)付λ3/2及整J4，源54f6780f实际21.511314秒/exit0；原lambda首项源579c3c75给w−1/−1/2及整H7，X可合法按λ34次、w52次首一化。四个原8×8子式保所有主元零支、32列身份；其与X的五曲线源f48568e0/run45918826850已1200秒超时/exit1，仅BEGIN，冻结。新[完整消lambda结式3352次证书](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-L0-CX-exact-degree-3352-cover.md)由QQ行变换上界与完整模下界相合支付真正有限覆盖及1009首项单位；源d69a91de实际31.958961秒/exit0，覆盖全部候选的原返回仍开。旧fae9完整门、C/X/Y门478dfef5、旧投影/PRS/次数降行/H15输入全部冻结，具体失败/资源/规则SHA保归档及正文。继续同rho/t原交点及全部P/N，不倒置新余式首项或以模次数代特征零。
+**原U值图L0：** w0/w1、b+c0、W、P1双零、整个G/K/V及X两方向完整首项零面均闭；X可合法按λ34次或w52次首一化，四原8×8子式保全部主元零支。全部旧QQ门/大投影/PRS失败冻结，准确来源保完整快照及正文。[3352次完整QQ覆盖](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-L0-CX-exact-degree-3352-cover.md)已有1009首项单位；[五固定低次w曲线](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-L0-five-fixed-w-curves-complete-exclusion.md)由原单位剥除/一元Gauss全闭，源05b0b9ca实际43.945477秒/exit0。尚未证明它们穷尽，继续原Sylvester特征零重数和同rho/t全部P/N，不以模支持代覆盖。
 
 **S0/Lt0 整支已闭：** 完整原615次QQ覆盖及三个整因子返回已合并全部退化面；源9d0c7789实际163.600807秒/exit0，见结果索引，不重跑旧门。现在一般LS非零层的[加权矩图及P1双零完整排除](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-P1-double-zero-and-weighted-moment-coordinates.md)已付(Pf,Pt)非同时零并保ell/T/等权零面，原两线Cramer Delta零和一般图仍开；旧模内存/600秒输入冻结。
 

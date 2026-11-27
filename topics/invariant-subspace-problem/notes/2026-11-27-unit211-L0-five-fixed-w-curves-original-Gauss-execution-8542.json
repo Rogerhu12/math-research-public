@@ -1,0 +1,311 @@
+{
+  "session": "Astra-ISP-8542378f-20261127",
+  "source": "2026-11-27-unit211-L0-five-fixed-w-curves-original-Gauss-return-8542.py",
+  "sourceSha256": "05b0b9cae7555800da2e653ff0d2db46a8fdeec02fef054abf20efc986818e2e",
+  "sourceBytes": 23842,
+  "actualSourceExitCode": 0,
+  "outerTimeout": false,
+  "wallSeconds": 43.94547726000019,
+  "peakRssKiB": 104356,
+  "stdoutSha256": "b742c069c514280582265d67e79dbad370eb17c572de1770ae0417bee46ce83f",
+  "stdoutBytes": 26149,
+  "limits": {
+    "sourceAlarmSeconds": 300,
+    "outerSeconds": 310,
+    "addressSpaceGiB": 4
+  },
+  "verifiedReturns": [
+    {
+      "actualBezoutCoefficientDegrees": [
+        63,
+        1
+      ],
+      "actualBezoutCoefficientSha256": "29b45a4e71b67c68c126288797668f7ad0cc4fca560cf5ca0a019d3390449b4f",
+      "actualFieldBezoutMultipliedBack": 22,
+      "actualFieldDivisionsMultipliedBack": 74,
+      "actualFieldInversesMultipliedBack": 96,
+      "actualTwoProductsMultipliedBack": true,
+      "allComplexEmbeddingsRetained": true,
+      "allOriginalQQCoefficientsPrimeIntegral": true,
+      "degree": 2,
+      "elapsedSeconds": 22.249006,
+      "fullOriginalModularResultantDegree": 64,
+      "fullOriginalModularResultantSha256": "8c1b810c5670474e03a53d072b3960ff296f668025209f11e691295cfa41b2bf",
+      "monicQQCoverPrimeIntegral": true,
+      "name": "J2a",
+      "onlyPaidOriginalLambdaFactorsRemoved": [
+        [
+          "physical_5",
+          1
+        ],
+        [
+          "physical_5",
+          1
+        ],
+        [
+          "physical_5",
+          1
+        ],
+        [
+          "physical_5",
+          1
+        ],
+        [
+          "physical_5",
+          1
+        ],
+        [
+          "physical_5",
+          1
+        ],
+        [
+          "physical_5",
+          1
+        ],
+        [
+          "physical_5",
+          1
+        ],
+        [
+          "physical_5",
+          1
+        ]
+      ],
+      "originalAndModularLambdaDegrees": [
+        30,
+        34
+      ],
+      "phi": [
+        "3/2",
+        "2",
+        "1"
+      ],
+      "phiSha256": "7a008f0d09b915a3951a132b8fb8dad2ac4f093530cd20b721e79f64d550d75a",
+      "prime": 1009,
+      "remainingCLambdaDegree": 30,
+      "stage": "whole_fixed_w_curve_original_Gauss_return",
+      "wholeCurveExcluded": true
+    },
+    {
+      "actualBezoutCoefficientDegrees": [
+        66,
+        1
+      ],
+      "actualBezoutCoefficientSha256": "a74bb77bb352dd07b60678c5ff51fcef894995098bcb27b573140400dce11b82",
+      "actualFieldBezoutMultipliedBack": 19,
+      "actualFieldDivisionsMultipliedBack": 50,
+      "actualFieldInversesMultipliedBack": 69,
+      "actualTwoProductsMultipliedBack": true,
+      "allComplexEmbeddingsRetained": true,
+      "allOriginalQQCoefficientsPrimeIntegral": true,
+      "degree": 2,
+      "elapsedSeconds": 22.426084,
+      "fullOriginalModularResultantDegree": 67,
+      "fullOriginalModularResultantSha256": "42c7ee92b0425b3c3d358e1095ca59bd26d0c38bad9a67b1e56730016c2e342b",
+      "monicQQCoverPrimeIntegral": true,
+      "name": "J2b",
+      "onlyPaidOriginalLambdaFactorsRemoved": [
+        [
+          "physical_4",
+          1
+        ],
+        [
+          "physical_4",
+          1
+        ],
+        [
+          "physical_4",
+          1
+        ],
+        [
+          "physical_4",
+          1
+        ],
+        [
+          "physical_4",
+          1
+        ],
+        [
+          "physical_4",
+          1
+        ]
+      ],
+      "originalAndModularLambdaDegrees": [
+        33,
+        34
+      ],
+      "phi": [
+        "1/2",
+        "1",
+        "1"
+      ],
+      "phiSha256": "12a6e0e684e7e2a52a4c6985388fd17f075dbc57b76d81474a139d6eed68ba53",
+      "prime": 1009,
+      "remainingCLambdaDegree": 33,
+      "stage": "whole_fixed_w_curve_original_Gauss_return",
+      "wholeCurveExcluded": true
+    },
+    {
+      "actualBezoutCoefficientDegrees": [
+        141,
+        2
+      ],
+      "actualBezoutCoefficientSha256": "9667bb16feacb6451fc68aff0c7818d55be0031c88ed064b20d2577d9efd33d3",
+      "actualFieldBezoutMultipliedBack": 15,
+      "actualFieldDivisionsMultipliedBack": 42,
+      "actualFieldInversesMultipliedBack": 57,
+      "actualTwoProductsMultipliedBack": true,
+      "allComplexEmbeddingsRetained": true,
+      "allOriginalQQCoefficientsPrimeIntegral": true,
+      "degree": 3,
+      "elapsedSeconds": 23.073307,
+      "fullOriginalModularResultantDegree": 142,
+      "fullOriginalModularResultantSha256": "d6b7e4e31822a7293460dccf291f583d3e776dfbea1e8ea967ac472cab04e7b9",
+      "monicQQCoverPrimeIntegral": true,
+      "name": "J3",
+      "onlyPaidOriginalLambdaFactorsRemoved": [
+        [
+          "physical_8",
+          1
+        ],
+        [
+          "physical_8",
+          1
+        ]
+      ],
+      "originalAndModularLambdaDegrees": [
+        37,
+        34
+      ],
+      "phi": [
+        "-3/4",
+        "-1/4",
+        "1",
+        "1"
+      ],
+      "phiSha256": "b54458e164dd95396734edb2d74d5f496fc9a502f61c83c61020f71e1c32a848",
+      "prime": 1009,
+      "remainingCLambdaDegree": 37,
+      "stage": "whole_fixed_w_curve_original_Gauss_return",
+      "wholeCurveExcluded": true
+    },
+    {
+      "actualBezoutCoefficientDegrees": [
+        349,
+        5
+      ],
+      "actualBezoutCoefficientSha256": "09987f8f2835f3bb90ddfc77f7da9e40f022d2607a201c677662c1be90fac993",
+      "actualFieldBezoutMultipliedBack": 16,
+      "actualFieldDivisionsMultipliedBack": 50,
+      "actualFieldInversesMultipliedBack": 66,
+      "actualTwoProductsMultipliedBack": true,
+      "allComplexEmbeddingsRetained": true,
+      "allOriginalQQCoefficientsPrimeIntegral": true,
+      "degree": 6,
+      "elapsedSeconds": 26.270548,
+      "fullOriginalModularResultantDegree": 350,
+      "fullOriginalModularResultantSha256": "caa57d91836a08b979e34ca084bc3a8f43ae1e62966f34f104f053e523fd5589",
+      "monicQQCoverPrimeIntegral": true,
+      "name": "J6",
+      "onlyPaidOriginalLambdaFactorsRemoved": [
+        [
+          "physical_5",
+          1
+        ],
+        [
+          "physical_5",
+          1
+        ],
+        [
+          "physical_5",
+          1
+        ]
+      ],
+      "originalAndModularLambdaDegrees": [
+        36,
+        34
+      ],
+      "phi": [
+        "-1/28",
+        "5/56",
+        "1/14",
+        "4/7",
+        "75/28",
+        "20/7",
+        "1"
+      ],
+      "phiSha256": "9dd4f83323321b76aa227e073766dea2832844ca72e4048c5e4e80683211fd2d",
+      "prime": 1009,
+      "remainingCLambdaDegree": 36,
+      "stage": "whole_fixed_w_curve_original_Gauss_return",
+      "wholeCurveExcluded": true
+    },
+    {
+      "actualBezoutCoefficientDegrees": [
+        638,
+        9
+      ],
+      "actualBezoutCoefficientSha256": "86bffcd27352ed9296fd7d63f27ec599087cafdaea6b617da6c7ff0f352f8d3d",
+      "actualFieldBezoutMultipliedBack": 15,
+      "actualFieldDivisionsMultipliedBack": 46,
+      "actualFieldInversesMultipliedBack": 61,
+      "actualTwoProductsMultipliedBack": true,
+      "allComplexEmbeddingsRetained": true,
+      "allOriginalQQCoefficientsPrimeIntegral": true,
+      "degree": 10,
+      "elapsedSeconds": 43.789604,
+      "fullOriginalModularResultantDegree": 639,
+      "fullOriginalModularResultantSha256": "65b9ece907641b7ef95f4254eb69a55e10e4d4c9f7dee1db75e9ee820ca6b550",
+      "monicQQCoverPrimeIntegral": true,
+      "name": "J10",
+      "onlyPaidOriginalLambdaFactorsRemoved": [
+        [
+          "physical_5",
+          1
+        ],
+        [
+          "physical_5",
+          1
+        ]
+      ],
+      "originalAndModularLambdaDegrees": [
+        37,
+        34
+      ],
+      "phi": [
+        "3/32",
+        "-23/32",
+        "-1/4",
+        "-255/32",
+        "-281/8",
+        "-1773/32",
+        "-69/16",
+        "115/4",
+        "4",
+        "-6",
+        "1"
+      ],
+      "phiSha256": "3679e605a43f28315638f8520d331fd72101887f7213d805fb0d2aa7c2d417cc",
+      "prime": 1009,
+      "remainingCLambdaDegree": 37,
+      "stage": "whole_fixed_w_curve_original_Gauss_return",
+      "wholeCurveExcluded": true
+    },
+    {
+      "degrees": [
+        2,
+        2,
+        3,
+        6,
+        10
+      ],
+      "elapsedSeconds": 43.790356,
+      "fullQQCoverExhaustivenessClaim": false,
+      "ordinaryISPClaim": false,
+      "peakRssKiB": 102740,
+      "sourceSha256": "05b0b9cae7555800da2e653ff0d2db46a8fdeec02fef054abf20efc986818e2e",
+      "stage": "complete_five_fixed_original_w_curve_exclusions",
+      "wholeL0Excluded": false
+    }
+  ]
+}

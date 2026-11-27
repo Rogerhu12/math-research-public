@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R150 L0五条完整低次w曲线排空（2026-11-27，已证明）：** [J2a/J2b/J3/J6/J10的整个QQ商代数与原Gauss返回](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-L0-five-fixed-w-curves-complete-exclusion.md)仅剥原Cmom/RR/P0单位根，完整原/模lambda次数、五条Bézout1和每个逆/除法/组合均乘回，保全部嵌入。源05b0b9ca实际43.945477秒/104356KiB/exit0。五因子现可付，但在3352次结果式中的特征零重数及完整穷尽仍待证明。
+
 - **R271 原两模型均无无条件联合图carry估计（2026-11-27，已证明）：** [五个真实坐标、完整Cayley主项与实际图拼接](results/R271-appendix-five-coordinate-actual-joint-graph-carry-countersequence.md)以两单缺位及三双缺位精确取消原主输出，实际KN/KY范数除b_q分别趋1、sqrt2，而T*h、Sh除b_q均趋0、C2除b_q趋1。分离子列给已在有限来源联合图闭包的h，仍非C2且纯项/carry各非H。输出严格在M⊥，因此只封闭无条件升级，保真实W专属来源问题。
 
 - **R12 同一实际第一阶正则器的平坦/可逆二分（2026-11-27，已证明）：** [真实尾预解式、全部字符矩阵及复四正分量](results/R12-appendix-actual-first-regularizers-flat-or-invertible.md)给ell1行的R(t)为C∩UHF可逆元，非ell1行为非零全喷射平坦元。每个有限头的真实尾空谱使其预解式拟幂零，完整有限头字符矩阵因此全零；复行共同乘积也准确二分。没有把R(t)混作未知L上的D=−2Z，后者稠密像与实际伴随域仍开。

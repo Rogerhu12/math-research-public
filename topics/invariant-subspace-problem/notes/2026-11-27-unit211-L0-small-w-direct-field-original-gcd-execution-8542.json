@@ -1,0 +1,154 @@
+{
+  "sourceSha256": "78bab72c4b7de23f1c03a6436f6fb76d9ca16bcef4de9820985e6ae6e09f40ee",
+  "wallSeconds": 180.08210595199853,
+  "actualSourceExitCode": 124,
+  "outerTimeout": false,
+  "peakRssKiB": 70736,
+  "stdoutSha256": "0b79baf2ecb2421b29cec32efbf5de21829cefe210e4f33362b98854ddb5c7c2",
+  "stdoutBytes": 5463,
+  "source": "2026-11-27-unit211-L0-small-w-direct-field-original-gcd-probe-8542.py",
+  "limits": {
+    "sourceAlarmSeconds": 180,
+    "outerSeconds": 190,
+    "addressSpaceGiB": 4
+  },
+  "completeBeforeTimeout": [
+    {
+      "group": "92",
+      "phi": [
+        "3/2",
+        "2",
+        "1"
+      ],
+      "degree": 2,
+      "excluded": true,
+      "paidRootRemovals": [
+        [
+          4,
+          1
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          4,
+          1
+        ]
+      ],
+      "remainingLambdaDegree": 0,
+      "inverses": 129,
+      "divisions": 106,
+      "bezout": 23,
+      "remainingLambdaPolynomial": [
+        [
+          "1"
+        ]
+      ],
+      "allEmbeddingsRetained": true
+    },
+    {
+      "group": "36",
+      "phi": [
+        "1/2",
+        "1",
+        "1"
+      ],
+      "degree": 2,
+      "excluded": true,
+      "paidRootRemovals": [
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "remainingLambdaDegree": 0,
+      "inverses": 105,
+      "divisions": 85,
+      "bezout": 20,
+      "remainingLambdaPolynomial": [
+        [
+          "1"
+        ]
+      ],
+      "allEmbeddingsRetained": true
+    },
+    {
+      "group": "2",
+      "phi": [
+        "-3/4",
+        "-1/4",
+        "1",
+        "1"
+      ],
+      "degree": 3,
+      "excluded": true,
+      "paidRootRemovals": [
+        [
+          5,
+          1
+        ],
+        [
+          5,
+          1
+        ]
+      ],
+      "remainingLambdaDegree": 0,
+      "inverses": 93,
+      "divisions": 77,
+      "bezout": 16,
+      "remainingLambdaPolynomial": [
+        [
+          "1"
+        ]
+      ],
+      "allEmbeddingsRetained": true
+    }
+  ],
+  "inputFrozenDoNotRerun": true,
+  "wholeL0Excluded": false
+}
