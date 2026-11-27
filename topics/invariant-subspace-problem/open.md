@@ -280,3 +280,5 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 [任意原三次的纯二元三次等理想替换](results/R150-appendix-unit211-W-original-cubic-pure-binary-ideal-compression.md)：P=纯式+(c3F+a1−c3d)QF+UλR1+USR2+u00R0完整无除法、总几何次数仍≤3，适用于完整NS/PS；首派7168的新固定六阶必要权det，只有实际非零才计覆盖，H265全零曲线保。
 
 [H1六个非线性极点首次整模型](notes/2026-11-28-unit211-Phi-zero-H1-six-nonlinear-source-poles-integral-original-fibers-8542.md)：1254首次120秒/1GiB，全QQ已付权零切除、首个素数仅按整系数/全权/全头单位选，原λ6有限自由环境内完整乘法理想方阵乘逆回I才可付整φ。当前C253/1012界不预减，P201未识别。
+
+[两对等权+两独立权完整联合与七位五值族](results/R271-appendix-two-pairs-two-independent-full-joint-source-and-seven-site-edges.md)：31fc真20.882163528秒/174260KiB/0，四维S1四项和三维S2三项原主子式全正系数及W轴严格项，原全8/4层逆、两cross/深塔、全部9/5直和保。七位(a,√x,√x,√y,√z,1,1)整个14维首末<1，固定比率x/y/z有对新增a统一c<1，非全权统一；旧R292六位首边不重计。下一仍一般六独立权/更高出生/真实同W可和费用。

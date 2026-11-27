@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R271两对等权加两独立权全联合及七位五值首末边](results/R271-appendix-two-pairs-two-independent-full-joint-source-and-seven-site-edges.md)：20.882163528秒/0，全部七个原主子式正系数/W轴严格项，支付全9/5维S1/S2，进而七位完整14维首末；常数对新增权统一，未称全比率统一。
+
 - [R150任意原三次的无除法纯二元三次替换](results/R150-appendix-unit211-W-original-cubic-pure-binary-ideal-compression.md)：完整原QF、R0/R1/R2组合给等理想、保持总次数≤3；NS/PS新固定六阶参数必要式首次实算，未预报结果。
 
 - [R150碰撞整个u=2的原四Q纤维排除](results/R150-appendix-unit211-collision-u2-entire-original-fibre-exclusion.md)：原六Q结式必要覆盖F23，整QQλ域原Q二次gcd中物理乘积平方为零；全部λ/Q原纤维空，付u−2。一般碰撞仍开放。
