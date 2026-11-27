@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [h=k、Delta零的整个lambda=1/3原纤维排除](results/R150-appendix-unit211-equal-singleton-Delta-zero-entire-lambda-one-third-exclusion.md)：完整原相容式只留一个有理权点，八原Gram行与QQ[f]单位身份排空；余C4/C2六lambda。
+
 - [Phi例外权六个真原单位边界的完整QQ像](results/R150-appendix-unit211-Phi-zero-exceptional-exact-original-unit-boundary-images.md)：只留λ1/2与H6，原投影一次QQ整除已付；模余146不作新点数界。
 
 - [Phi零十二列完整原四行及四个二次首项图](results/R150-appendix-unit211-Phi-zero-monic-twelve-original-four-rows-and-quadratic-head-charts.md)：真0.302秒返回；四个小权头非零图各≤3生成元，共同头零须独立返回。

@@ -1,0 +1,302 @@
+{
+  "format": "isp-entire-collision-third-Delta-zero-original-exclusion-8542",
+  "execution": {
+    "elapsed_seconds": 0.10373084999999804,
+    "max_child_rss_kib": 34128,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "bc8bbd0e280183b25f698b83f820c7d4f69ea4d5",
+        "before": "bc8bbd0e280183b25f698b83f820c7d4f69ea4d5",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-27T15:56:00.010854+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46029194247",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "bc8bbd0e280183b25f698b83f820c7d4f69ea4d5",
+    "source_exit_code": 0,
+    "source_git_blob": "415f7eb06f1b5dfa5e2953bbd3b2e4627dee4300",
+    "source_sha256": "e355e8b8e8ffcba91e1ae98627b618993c453c9df37abb027365d4e00129fb23",
+    "stdout_bytes": 4127,
+    "stdout_sha256": "6ae240cf001a6d12e6276f359f056db57c325350b6e97930c0c4fd5612896cfc",
+    "stop_reason": null
+  },
+  "math": [
+    {
+      "case": "complete_lambda_one_third_original_Delta_zero_fiber",
+      "lambdaDegree": 1,
+      "recoveredU": [
+        "50/277"
+      ],
+      "originalQ": [
+        "489412/76729"
+      ],
+      "QequalsOneMinusSameU": false,
+      "originalDeltaAndBothCompatibilityRowsReturned": true,
+      "noDeltaOrNFInverse": true,
+      "freeOriginalParameter": "f",
+      "claimExcluded": false,
+      "stage": "new_third_Delta_zero_same_original_u_recovered",
+      "seconds": 0.0009969799999964835
+    },
+    {
+      "case": "complete_lambda_one_third_original_Delta_zero_fiber",
+      "lambdaDegree": 1,
+      "freeOriginalParameter": "f",
+      "allEightOriginalRows": [
+        {
+          "name": "E1",
+          "fDegree": 2
+        },
+        {
+          "name": "EBe",
+          "fDegree": 2
+        },
+        {
+          "name": "EBo",
+          "fDegree": 2
+        },
+        {
+          "name": "N1",
+          "fDegree": 2
+        },
+        {
+          "name": "NBe",
+          "fDegree": 3
+        },
+        {
+          "name": "NBo",
+          "fDegree": 3
+        },
+        {
+          "name": "PBe",
+          "fDegree": 3
+        },
+        {
+          "name": "PBo",
+          "fDegree": 3
+        }
+      ],
+      "allMomentE0N0P1NVAndBothSingletonTargetsReturned": true,
+      "coefficientPairsUseBothActualRowsAndRhoNonzero": true,
+      "claimExcluded": false,
+      "stage": "new_third_Delta_zero_finite_same_original_Gram_complete",
+      "seconds": 0.039964894999997114
+    },
+    {
+      "newOriginalRow": "E1",
+      "fDegree": 2,
+      "allOriginalCoefficientProductsReturned": true,
+      "stage": "new_third_Delta_zero_finite_free_f_original_Bezout",
+      "seconds": 0.040153067999995073
+    },
+    {
+      "newOriginalRow": "EBe",
+      "fDegree": 0,
+      "allOriginalCoefficientProductsReturned": true,
+      "stage": "new_third_Delta_zero_finite_free_f_original_Bezout",
+      "seconds": 0.04114928599999956
+    },
+    {
+      "excluded": true,
+      "allEightOriginalRowsActuallyReturned": true,
+      "originalRowsUsed": [
+        "E1",
+        "EBe"
+      ],
+      "finalFPolynomial": [
+        [
+          "1"
+        ]
+      ],
+      "allFreeFValuesRetained": true,
+      "fullBezoutProductsReturned": true,
+      "certificateBytes": 1927,
+      "certificateSHA256": "5a7c1639ad4817324fa1706f7d778653bad36e0083787feb1f228ceb8d2e3fb0",
+      "fullCertificate": {
+        "lambdaFactor": [
+          "-1/3",
+          "1"
+        ],
+        "originalU": [
+          "50/277"
+        ],
+        "originalQ": [
+          "489412/76729"
+        ],
+        "originalRows": [
+          {
+            "name": "E1",
+            "coefficients": [
+              [
+                "-30194721693375/34980188522972"
+              ],
+              [
+                "69743031675/63141134518"
+              ],
+              [
+                "807227436/113973167"
+              ]
+            ]
+          },
+          {
+            "name": "EBe",
+            "coefficients": [
+              [
+                "-266564700553964457/336212081988545378"
+              ],
+              [
+                "3498537346060032/606881014419757"
+              ],
+              [
+                "293321879951718/10954530946205"
+              ]
+            ]
+          },
+          {
+            "name": "EBo",
+            "coefficients": [
+              [
+                "-512621577714115/1213762028839514"
+              ],
+              [
+                "-7723685662190/2190906189241"
+              ],
+              [
+                "-307318314007226/54772654731025"
+              ]
+            ]
+          },
+          {
+            "name": "N1",
+            "coefficients": [
+              [
+                "-4602051786184425/2422378055215811"
+              ],
+              [
+                "-89296079117625/8745047130743"
+              ],
+              [
+                "-367461028350/31570567259"
+              ]
+            ]
+          },
+          {
+            "name": "NBe",
+            "coefficients": [
+              [
+                "721385797100208019382/512219106909548883383"
+              ],
+              [
+                "83387764855080753621/1849166450936999579"
+              ],
+              [
+                "21349795081407372/120499840408255"
+              ],
+              [
+                "18092981992593356/86071314577325"
+              ]
+            ]
+          },
+          {
+            "name": "NBo",
+            "coefficients": [
+              [
+                "-7669329605312116600/1849166450936999579"
+              ],
+              [
+                "-250971822496084611/6675691158617327"
+              ],
+              [
+                "-55421334385039572/602499202041275"
+              ],
+              [
+                "-2827487812170404/86071314577325"
+              ]
+            ]
+          },
+          {
+            "name": "PBe",
+            "coefficients": [
+              [
+                "104042847504759298124568443/49231939460611290926357045"
+              ],
+              [
+                "389857180530332572725870/5078075240908848986731"
+              ],
+              [
+                "210068094762185246701314/641634055710504384605"
+              ],
+              [
+                "25543365802560434951216/57909210804197146625"
+              ]
+            ]
+          },
+          {
+            "name": "PBo",
+            "coefficients": [
+              [
+                "-193635671944971717993102/35546526686361942907117"
+              ],
+              [
+                "-765566497768396796334/18332401591728696703"
+              ],
+              [
+                "-243487950763905948834/2316368432167885865"
+              ],
+              [
+                "-16901581219453135848432/289546054020985733125"
+              ]
+            ]
+          }
+        ],
+        "usedOriginalRows": [
+          "E1",
+          "EBe"
+        ],
+        "tags": [
+          [
+            [
+              "-71938452201110089146186886474233371274758/46341924808042424831304136731901071097815"
+            ],
+            [
+              "53703614939965604681968177586737749365188/46341924808042424831304136731901071097815"
+            ]
+          ],
+          [
+            [
+              "3974281395107339727269580500178965061473/9268384961608484966260827346380214219563"
+            ],
+            [
+              "-2841032099562581769603356037565149849848/9268384961608484966260827346380214219563"
+            ]
+          ]
+        ],
+        "finalFPolynomial": [
+          [
+            "1"
+          ]
+        ]
+      },
+      "noDeltaOrNFInverse": true,
+      "ordinaryISPClaim": false,
+      "stage": "new_third_Delta_zero_full_original_return",
+      "seconds": 0.04141621299999798
+    },
+    {
+      "sourceSHA256": "e355e8b8e8ffcba91e1ae98627b618993c453c9df37abb027365d4e00129fb23",
+      "actualConstantInverseCount": 32,
+      "actualPolynomialDivisionCount": 4,
+      "peakRssKiB": 33556,
+      "stage": "new_third_Delta_zero_original_return_complete",
+      "seconds": 0.04165027199999827
+    }
+  ]
+}
