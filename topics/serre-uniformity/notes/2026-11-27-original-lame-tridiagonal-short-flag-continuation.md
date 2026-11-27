@@ -260,3 +260,151 @@ $$
 $$
 括号中的最高两项准确相消，属于原 $V_0$ 的相应角色，但其在 $\mathscr C$ 对偶基中的一般项不能删除。
 (T14) 并未把 (T16) 的完整强迫向量替换成一个端点向量，也未把 (T9) 的短像问题改成可逆矩阵求解。
+
+
+## 7. 原全部法向强迫列的闭式单位
+
+以下使用相对 Cartier；底域常数不取 $p$ 次根。设
+$$
+\varepsilon_r=A(g_r,J_1)
+ =D_R(\Phi g_r)(-Q),\qquad
+d_r=A(g_r,UJ_0),\qquad -N\le r\le N,
+$$
+其中 $J_0=J(-Q,\cdot)=(V+v)^{2k}$，$J_1=D_PJ(P,\cdot)|_{P=-Q}$。
+特别 $\varepsilon_0=e$ 是原指定第一读数，未改变源 $g_0=U^m$。
+置 $\ell=k-r$，则 $1\le\ell\le2k-1$，且 R1113 的原 Miller 规范给
+$$
+g_r g_Q=F_\ell,\qquad
+g_Q=\frac{U}{(V-v)^{2k}},\qquad
+F_\ell=\left(\frac{V+v}{V-v}\right)^\ell.
+$$
+准确地，
+$$
+\boxed{\quad
+d_r=\frac{C_{\rm rel}(UF_\ell\omega)}{\omega'}
+ =\gamma\binom{3k-1+r}{2k},
+\qquad \gamma=(2v)^{2k}.
+\quad}
+\tag{T17}
+$$
+这些 $2N+1$ 个数全部是单位。
+
+先核 $A$ 与相对 Cartier 的同一读数。由
+$J_0=U^p g_Q$，
+$$
+C_{\rm rel}(g_r UJ_0\omega)
+ =U'\,C_{\rm rel}(Ug_r g_Q\omega).
+$$
+$Ug_r\in H=L((p+1)O)$；它的 $\mu_3$ 角色平凡，故其 $\ell_p$ 系数为零。
+R1095 的完整 $H$ 公式中，另一第三类系数含 $\Psi(-Q)=0$，也为零。
+因此右边的后一 Cartier 值为常数乘 $\omega'$。
+前式的 $U'$ 系数正是原 $A(g_r,UJ_0)$，给 (T17) 的第一个等号。
+这里没有把超出 $V_0$ 的 $Ug_r$ 默认为旧 $\Phi$ 输入。
+
+这个读数也有完全多项式的独立付款。因 $dV=3U^2\omega$，
+$$
+UF_\ell\omega
+ =\left(\frac1{3U^2}\right)^p
+ (V-v)^{4k-1-\ell}(V+v)^{4k-1+\ell}\,dV.
+\tag{T18}
+$$
+分子次数为 $8k-2<2p-1$，只有 $V^{p-1}$ 项被相对 Cartier 读到。
+又 $dV'=3U'^2\omega'$，故全部 $3$ 和 $U'$ 标架正好相消。
+令 $n=2k-1$、$a=4k-1-\ell=3k-1+r$。于是
+$$
+d_r
+ =v^{2k}[x^{2k}](1-x)^a(1+x)^{p+n-a}
+ =v^{2k}[x^{n+1}](1-x)^a(1+x)^{n-a}.
+$$
+第二等号只消费次数 $n+1<p$，由 $(1+x)^p=1+x^p$ 得到；没有丢掉进入指定系数的项。
+
+对任意整数 $n\ge0$，以 $a$ 为变量，
+$[x^{n+1}](1-x)^a(1+x)^{n-a}$ 是次数至多 $n+1$ 的有理多项式。
+当 $a=0,\ldots,n$ 时，它为零，因为被读的表达式是次数 $n$ 的多项式。
+其最高系数为 $(-2)^{n+1}/(n+1)!$，由
+$\log((1-x)/(1+x))=-2x+O(x^3)$ 直接读出。因此
+$$
+[x^{n+1}](1-x)^a(1+x)^{n-a}
+ =(-2)^{n+1}\binom a{n+1}.
+\tag{T19}
+$$
+本题 $n$ 为奇数，且 $n+1<p$，所以这个有理恒等式可以约化，符号为正。
+这给 (T17)。最后 $2k\le a\le4k-2<p$，二项式的分子、分母阶乘均小于 $p$，
+所以每个 $d_r$ 都是单位。
+
+(T13) 与 (T17) 有特别简单的精确关系：
+$$
+\boxed{\quad d_r\,y^-_r=\gamma.\quad}
+\tag{T20}
+$$
+确实，写 $r=-N+j$ 后，二项式为
+$\binom{2k+j}{2k}=(2k+1)_j/j!$。
+
+## 8. 完整 Green 强迫递推及原中列零时的两邻列
+
+原第三阶核恒等式在 $P=-Q$ 的一次 jet 是
+$$
+\mathscr B J_1=vJ_1+3\delta UJ_0.
+$$
+$A$ 的分部积分给 $\mathscr B^*=-\mathscr B$，所以在 (T1) 的实际对称矩阵中，
+$$
+\boxed{\quad
+(\mathscr B+v)(\varepsilon_r)_{r=-N}^N
+ =-3\delta(d_r)_{r=-N}^N.
+\quad}
+\tag{T21}
+$$
+这个分部积分即使 $UJ_0$ 的极阶超过 $H$ 也成立：把 $A$ 写成局部
+$\operatorname{Res}_O(u^p fg\omega)$，$D(u^p)=0$，每个全导数留数为零。
+所用右端正是 (T18) 的完整实际读数，未删任何最高偶项。
+矩阵方向由 $b_+(r)=b_-(r+1)$ 固定，不额外转置未知系数。
+
+置
+$$
+z_r=\frac{\varepsilon_r}{y^-_r},\qquad
+w_r=b_+(r)y^-_r y^-_{r+1}\quad(-N\le r<N).
+$$
+全部 $w_r$ 均为单位。由 (T14)、(T20)--(T21) 得
+$$
+\boxed{\quad
+w_r(z_{r+1}-z_r)=3\delta\gamma(N-r)
+\quad(-N\le r<N),\qquad
+z_{-N}=-\frac{\delta\gamma}{2v}.
+\quad}
+\tag{T22}
+$$
+证明保留有限矩阵两个端点。在内部，把 (T21) 的第 $r$ 行乘 $y^-_r$，
+得到
+$$
+w_r(z_{r+1}-z_r)-w_{r-1}(z_r-z_{r-1})=-3\delta\gamma.
+$$
+右端 $r=N$ 没有 $w_N$ 项，故
+$w_{N-1}(z_N-z_{N-1})=3\delta\gamma$。
+向左逐行相加给 (T22) 的差分式。左端则必须保留
+$(\mathscr B+v)y^-=-4v e_{-N}$，准确给
+$$
+3\delta\gamma(2N)-4v z_{-N}=-3\delta\gamma.
+$$
+所以 $z_{-N}=3\delta\gamma(2N+1)/(4v)$。
+由 $p=6k-1$、$2N+1=2k-1=-2/3$ 在底域中的等式，得到 (T22)。
+这也直接证明原端列 $\varepsilon_{-N}$ 为单位。
+
+特别，若原中列 $e=\varepsilon_0$ 为零，则
+$$
+\boxed{\quad
+\varepsilon_{-1}
+ =\frac{4\delta\gamma k}{5v\,y^-_0}\ne0,\qquad
+\varepsilon_1
+ =\frac{4\delta\gamma N}{5v\,y^-_0}
+ =-5\varepsilon_{-1}\ne0.
+\quad}
+\tag{T23}
+$$
+这里用 $b_+(-1)=-15v/4$、$b_+(0)=15v/4$，并分别在 (T22) 取 $r=-1,0$。
+本题 $p\ge41$，$k,N$ 及所有显式分母都是单位。
+
+(T23) 是两个相邻的原源 $g_{-1},g_1$ 的实际 Picard 一阶读数。
+它不把这两个源认成原 $g_0=U^m$ 的四阶读数，也不把它们认成 primitive/Legendre mask 已保留的标签。
+原共同零条件仍为 (T7)--(T9)；下一步需要支付 (T22) 与原 $J_4$ 或同一短子空间的准确接口。
+
+root/o1_theta/o2_high_coefficient 独立纸核 §§7–8：同一相对 Cartier/全H边界、唯一指数、系数多项式恒等式、所有单位与Green两端残项均保留；旧 §§1–6 逐字保留。无数学程序执行。

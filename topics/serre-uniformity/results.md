@@ -1,5 +1,7 @@
 # 结论索引
 
+- **原Lamé完整法向列（已证明，续稿§§7–8）**：[原Lamé三对角续稿](notes/2026-11-27-original-lame-tridiagonal-short-flag-continuation.md)付同一W_C的B简单谱、D³单Jordan、e=K4=0的严格短像iff及真实三平移；§6两端Green列全unit并保−4v/+4v残项。§§7–8给完整实际强迫d_r=γ binom(3k−1+r,2k)、d_r y⁻_r=γ，以及w_rΔz_r=3δγ(N−r)与左端值；原e₀=0迫两相邻原e_±1单位且e₁=−5e_−1。尚未接成原K4/primitive mask，短包含仍开，不占R1117。
+
 - **R1128（已证明）**：[原全素数线性good秩](results/R1128-all-prime-linear-good-cuspidal-rank.md)：完整原V的低偶角色ω^r出现 iff p|B_(p+1−2r)；与forced高角色作不交配对，两bad消耗两个irregular指标。全部p>37实际good维数≥floor(p/16)+3，更精确渐近p/16+(log24/8)p/logp−O(1)，原étale覆盖degree相应≥p^(floor(p/16)+3)。保原p-only同构，无regular/Vandiver；尚不付有效辅助素或同点像排除。
 
 - **R1127（已证明）**：[R1127](results/R1127-original-Gaussian-irregular-complement-and-affine-cuspidal-label.md)关闭一个真实Gaussian标签分支：p4k+3且p|B_(p−3)时，原V中χ=ω²准确出现且B₂恒good；原完整coarse标签是斜率−aβ₀⁴λ²/(20bχ)单位的一次式，故每个固定候选在该coarse线上至多一盘。只付跨盘注入，不付盘内唯一；剩余Gaussian标签问题限p∤B_(p−3)，其H_p与其它good mask仍保。

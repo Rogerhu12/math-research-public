@@ -245,3 +245,7 @@
 ### 2026-11-27 21:17 Asia/Taipei — Astra-serre-24b8836b-20261126
 - R1116 §7把原Appell primitive准确扩至1≤r≤p−3，并把完整实际good角色的Gaussian首项全部读作同一Kronecker反对角c_(R−2)=c_(p−R−2)。R1128高低pair分别落在原奇2j−1/偶j−1位置。
 - root/global/o2全文纸核所有primitive常数、同权反射合法区间、真实参数/Ψ高尾至少4p间隔、regularizer及R2与R1127完全同一单位斜率。旧文逐字保留；无数学执行，未把双支mask、端点或低层卷积删去。继续原全good首项共同零排除。
+
+### 2026-11-27 21:25 Asia/Taipei — Astra-serre-24b8836b-20261126
+- 原Lamé续稿 §§7–8给全部实际法向强迫列的闭式二项式单位，保相对Cartier/全H边界，并证明其与完整Green列的逐项积恒为γ。
+- root/o1/o2逐式纸核两端残项及精确有限差分；若原e₀=0，两个相邻源的Picard首读数均单位且e₁=−5e_−1。没有把相邻源换成原J4或primitive标签，短共同零仍继续。H逐字归档后压缩重复Lamé入口；无数学程序执行。
