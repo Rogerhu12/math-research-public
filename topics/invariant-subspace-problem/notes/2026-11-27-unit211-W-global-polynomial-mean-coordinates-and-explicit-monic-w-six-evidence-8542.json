@@ -1,0 +1,435 @@
+{
+  "schema": "isp-analytic-original-identity-consequence-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "dateUTC": "2026-11-27",
+  "proofBlob": "7690652b42633e4b43db1733610c3034da342322",
+  "newExecutionPerformed": false,
+  "newExecutionRequiredForThisProof": false,
+  "scope": "Precisely the already published W weight localization, with J19 now excluded; no extension to general hU=kU collision.",
+  "newStatements": [
+    "A[x,y,t]/L is polynomially isomorphic to A[w,Y] without inverting y-1",
+    "raw D6 leading coefficient equals -beta^3 det(H) and is now a paid weight unit",
+    "q_w=D6/(-beta^3 det(H)) is an explicit original monic sextic",
+    "together with the previously published original monic Y quadratic, the iterated ambient algebra is finite free of rank 12 over A; the original necessary quotient remains a quotient, not asserted free"
+  ],
+  "meanAndD6Evidence": {
+    "source": {
+      "blob": "58c1a8fea5fd6c09e1b4614a1fe4b91b9f8fb742",
+      "sha256": "27ad028d628b57855fe3b4587ead848f171e035a6128142745ecafc2d0fc3303",
+      "bytes": 17394
+    },
+    "driver": {
+      "elapsed_seconds": 2.4951369650000004,
+      "max_child_rss_kib": 65100,
+      "ordinary_isp_claim": false,
+      "rules_reads": [
+        {
+          "after": "2429300e41a01286268c4eac04ac9fd061e2ae2f",
+          "before": "2429300e41a01286268c4eac04ac9fd061e2ae2f",
+          "rules_git_blobs": {
+            "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+            "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+          },
+          "rules_unchanged": true,
+          "utc": "2026-11-27T09:38:48.582334+00:00"
+        }
+      ],
+      "run_attempt": "1",
+      "run_id": "45975400648",
+      "schema": "isp-frozen-exact-actions-execution-v1",
+      "session": "Astra-ISP-8542378f-20261127",
+      "source_commit": "2429300e41a01286268c4eac04ac9fd061e2ae2f",
+      "source_exit_code": 0,
+      "source_git_blob": "58c1a8fea5fd6c09e1b4614a1fe4b91b9f8fb742",
+      "source_sha256": "27ad028d628b57855fe3b4587ead848f171e035a6128142745ecafc2d0fc3303",
+      "stdout_bytes": 16271,
+      "stdout_sha256": "71837c224bcdaca571d320273c663d5f3d3994f9e84fea0d6796c5d718ebb354",
+      "stop_reason": null
+    },
+    "mathRecords": [
+      {
+        "stage": "new_W_y_not_one_complete_original_mean_reconstruction",
+        "coordinateDefinitions": {
+          "Y": "y-1",
+          "w": "(x-xstar)/(y-1)",
+          "x": "xstar+Y*w",
+          "y": "1+Y",
+          "t": "-meancombo(xstar+Y*w,1+Y,0)/(M*Y)"
+        },
+        "originalMeanTcoefficient": "M*(y-1)",
+        "exactYFactorCanceledBeforeAnyGeometricInverse": true,
+        "remainingDenominatorsAllPreviouslyPaid": true,
+        "newT_Bidegree_w_Y": [
+          1,
+          1
+        ],
+        "newTCoefficients": [
+          {
+            "w": 0,
+            "Y": 0,
+            "value": {
+              "numeratorDegrees": [
+                5,
+                7,
+                0,
+                0,
+                0
+              ],
+              "denominatorDegrees": [
+                5,
+                6,
+                0,
+                0,
+                0
+              ],
+              "numeratorTerms": 31,
+              "bytes": 675,
+              "sha256": "33a83e3348b4bb2eb27acfcf318ce8164bf30b995846461f4dd5c46de6cf952f",
+              "exactExpression": "2*e^5*k^4 + 4*e^5*k^3 - 2*e^4*k^5 - 11*e^4*k^4 - 26*e^4*k^3 - 24*e^4*k^2 + 3/4*e^3*k^6 + 27/4*e^3*k^5 + 28*e^3*k^4 + 63*e^3*k^3 + 80*e^3*k^2 + 48*e^3*k - 1/8*e^2*k^7 - 3/2*e^2*k^6 - 17/2*e^2*k^5 - 57/2*e^2*k^4 - 61*e^2*k^3 - 84*e^2*k^2 - 72*e^2*k - 32*e^2 + 1/8*e*k^6 + e*k^5 + 5/2*e*k^4 + e*k^3 - 4*e*k^2 - 4*e*k + 1/2*k^4 + 5*k^3 + 18*k^2 + 28*k + 16 / e^5*k^3 - 5/4*e^4*k^4 - 4*e^4*k^3 - 6*e^4*k^2 + 5/8*e^3*k^5 + 15/4*e^3*k^4 + 21/2*e^3*k^3 + 16*e^3*k^2 + 12*e^3*k - 1/8*e^2*k^6 - 7/8*e^2*k^5 - 11/4*e^2*k^4 - 13/2*e^2*k^3 - 13*e^2*k^2 - 16*e^2*k - 8*e^2 - 1/8*e*k^6 - 11/8*e*k^5 - 25/4*e*k^4 - 15*e*k^3 - 19*e*k^2 - 10*e*k + 1/8*k^5 + 3/2*k^4 + 7*k^3 + 16*k^2 + 18*k + 8"
+            }
+          },
+          {
+            "w": 0,
+            "Y": 1,
+            "value": {
+              "numeratorDegrees": [
+                1,
+                1,
+                0,
+                0,
+                0
+              ],
+              "denominatorDegrees": [
+                1,
+                0,
+                0,
+                0,
+                0
+              ],
+              "numeratorTerms": 2,
+              "bytes": 17,
+              "sha256": "fbb3d548ddb3ce53abfb60cdc01ce95b52fc1e50cebea683bbca6fce6604f6b9",
+              "exactExpression": "2*e*k - 2 / e + 1"
+            }
+          },
+          {
+            "w": 1,
+            "Y": 0,
+            "value": {
+              "numeratorDegrees": [
+                4,
+                4,
+                0,
+                0,
+                0
+              ],
+              "denominatorDegrees": [
+                4,
+                4,
+                0,
+                0,
+                0
+              ],
+              "numeratorTerms": 9,
+              "bytes": 277,
+              "sha256": "465add3099f7cae1018fd0bd3a53841ef181e866f67d89fe6627e4b602500a54",
+              "exactExpression": "-2*e^4*k^2 + 3/2*e^3*k^3 + 6*e^3*k^2 + 8*e^3*k - 1/4*e^2*k^4 - 2*e^2*k^3 - 7*e^2*k^2 - 12*e^2*k - 8*e^2 / e^4*k^2 - 3/4*e^3*k^3 - 2*e^3*k^2 - 4*e^3*k + 1/4*e^2*k^4 + 5/4*e^2*k^3 + 3*e^2*k^2 + 4*e^2*k + 4*e^2 + 1/4*e*k^4 + 7/4*e*k^3 + 4*e*k^2 + 3*e*k - 1/4*k^3 - 2*k^2 - 5*k - 4"
+            }
+          },
+          {
+            "w": 1,
+            "Y": 1,
+            "value": {
+              "numeratorDegrees": [
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "denominatorDegrees": [
+                1,
+                0,
+                0,
+                0,
+                0
+              ],
+              "numeratorTerms": 1,
+              "bytes": 9,
+              "sha256": "a5f1156f9902e53f7e3b285e3b41e9ed33639a3691e0ecabd710396f97588159",
+              "exactExpression": "2 / e + 1"
+            }
+          }
+        ],
+        "compactWorkingFormulaVerified": true,
+        "chartAssumption": "y!=1; separate entire y=1 finite theorem is required for global use",
+        "D27AndB239NeverInverted": true,
+        "claimExcluded": false,
+        "seconds": 0.5517898669999965
+      },
+      {
+        "stage": "new_W_y_not_one_original_parameter_w_constraint",
+        "name": "three_original_quadratic_coefficient_determinant",
+        "degrees_e_k_w": [
+          19,
+          26,
+          6
+        ],
+        "terms": 2043,
+        "sha256": "03ead359b4ef10233f22120e5b0e742e5375a25a70fd730b80b1e5ef3e7afdff",
+        "paidRemoved": [
+          [
+            "e",
+            1
+          ],
+          [
+            "distinct_p_q",
+            1
+          ],
+          [
+            "bc",
+            1
+          ],
+          [
+            "previous_complete_H_zero",
+            1
+          ],
+          [
+            "previous_general_ell_zero",
+            3
+          ]
+        ],
+        "rawLeadingDegrees": [
+          16,
+          23
+        ],
+        "leadingPaidRemoved": [
+          [
+            "e",
+            3
+          ],
+          [
+            "W_paid_leading",
+            1
+          ],
+          [
+            "previous_complete_H_zero",
+            2
+          ],
+          [
+            "previous_general_ell_zero",
+            6
+          ],
+          [
+            "previous_general_equal_weights",
+            1
+          ]
+        ],
+        "remainingLeadingFactorization": {
+          "content": "16",
+          "factors": [
+            {
+              "degrees": [
+                4,
+                5
+              ],
+              "totalDegree": 7,
+              "terms": 19,
+              "multiplicity": 1,
+              "sha256": "0bbf49a5c500eb77710463e721cb1b1aad3dba14926d6868a898d586c3311f22",
+              "coefficients_e_k": [
+                [
+                  4,
+                  3,
+                  "16"
+                ],
+                [
+                  3,
+                  4,
+                  "-8"
+                ],
+                [
+                  3,
+                  3,
+                  "-16"
+                ],
+                [
+                  3,
+                  2,
+                  "-96"
+                ],
+                [
+                  2,
+                  5,
+                  "-1"
+                ],
+                [
+                  2,
+                  4,
+                  "-8"
+                ],
+                [
+                  2,
+                  3,
+                  "24"
+                ],
+                [
+                  2,
+                  2,
+                  "64"
+                ],
+                [
+                  2,
+                  1,
+                  "192"
+                ],
+                [
+                  1,
+                  5,
+                  "-2"
+                ],
+                [
+                  1,
+                  4,
+                  "-14"
+                ],
+                [
+                  1,
+                  3,
+                  "-12"
+                ],
+                [
+                  1,
+                  0,
+                  "-128"
+                ],
+                [
+                  0,
+                  5,
+                  "-1"
+                ],
+                [
+                  0,
+                  4,
+                  "-10"
+                ],
+                [
+                  0,
+                  3,
+                  "-40"
+                ],
+                [
+                  0,
+                  2,
+                  "-104"
+                ],
+                [
+                  0,
+                  1,
+                  "-160"
+                ],
+                [
+                  0,
+                  0,
+                  "-128"
+                ]
+              ],
+              "coefficientBytes": 225,
+              "coefficientSHA256": "9735261f8518c4d6bb72cf76244f1496db0c25a5db64ac10d4b7cedcbb15b350"
+            }
+          ],
+          "allFactorProductsMultipliedBack": true
+        },
+        "originalIdentity": "sum_i cofactor(i,constant)*normalized_original_row_i = determinant",
+        "allOriginalProductsMultipliedBack": true,
+        "allNewLeadingZeroFibersRetained": true,
+        "claimExcluded": false,
+        "seconds": 1.1001717070000012
+      }
+    ]
+  },
+  "monicYEvidence": {
+    "sourceBlob": "86bd0e68eed8cbbf2053603b136decbc406067b9",
+    "sourceSHA256": "0e3be45e5daccec0e03c8caef3d868557f7d2da5eb2e3abede3ee71a82c5aad4",
+    "run": 45979307745,
+    "job": 140438859151,
+    "driverElapsedSeconds": 9.457148185,
+    "maxRssKiB": 145092,
+    "innerExit": 0,
+    "mathRecord": {
+      "stage": "new_W_entire_remaining_original_monic_Y_quadratic",
+      "summary": {
+        "numeratorDegrees": [
+          14,
+          20,
+          4,
+          2,
+          0
+        ],
+        "denominatorDegrees": [
+          13,
+          20,
+          0,
+          0,
+          0
+        ],
+        "numeratorTerms": 1720,
+        "bytes": 38712,
+        "sha256": "00ebebbd7e0b470781046040f458e3cd73adfe984f038171c5f125cd9ee3a238"
+      },
+      "A": {
+        "numeratorDegrees": [
+          10,
+          14,
+          4,
+          0,
+          0
+        ],
+        "denominatorDegrees": [
+          9,
+          14,
+          0,
+          0,
+          0
+        ],
+        "numeratorTerms": 361,
+        "bytes": 7336,
+        "sha256": "0d426dbbf5e11382c0cd73c17594c87efd0042e3a427b45524798e5cba60fbc0"
+      },
+      "C": {
+        "numeratorDegrees": [
+          14,
+          20,
+          4,
+          0,
+          0
+        ],
+        "denominatorDegrees": [
+          13,
+          20,
+          0,
+          0,
+          0
+        ],
+        "numeratorTerms": 783,
+        "bytes": 18459,
+        "sha256": "589b00646c398fbd168b212a26362829032ea23807477e232875374c6945facf"
+      },
+      "allFiveOriginalTraceProductsActuallyVerified": true,
+      "leadingY2ExactlyOne": true,
+      "allDenominatorsPreviouslyPaid": true,
+      "wholeD27B239AndJ19ZeroFibersIncluded": true,
+      "certificateBytes": 46881,
+      "certificateSHA256": "078013c6106077b0e12f68a645b1165a81978d0128593bea4eb6db840d84d9eb",
+      "claimExcluded": false,
+      "seconds": 0.7756762039999998
+    }
+  },
+  "pendingAySourceNotRepresentedAsSuccess": {
+    "blob": "3fbc5c913a2f0c2d9592460108bc072e691dde89",
+    "sha256": "2698af5ab3d98e52291d68b9f707edf5f0bf82eaf7f13712d3e1a94b70f7cb3d",
+    "status": "unexecuted when this receipt was written"
+  },
+  "fullWExclusion": false,
+  "ordinaryISPComplete": false
+}
