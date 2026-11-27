@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [全W原NS/PS固定六行的完整必要权曲线](results/R150-appendix-unit211-W-entire-original-native-NSPS-necessary-weight-curve.md)：全已付native六规则/18乘法，真实95.890604382秒/0返全部55商积及非零P(e,k)，双度97/123、总164，包含整H265零；全部剩余原纤维继续。
+
 - [全部普通不变限制的本质正序障碍](results/R12-appendix-all-invariant-restrictions-essential-hyponormal-obstruction.md)：任意有界相似、紧扰动与非恒定解析函数后，实际自交换子仍有两个符号的本质谱；含非零实际子商与慢平方限制，完整排除次正规+紧输入，普通ISP仍开。
 
 - [W 原NS/PS纯三次、H开图六列与固定行列式实际边界](notes/2026-11-28-unit211-W-original-NSPS-cubic-six-coordinate-actual-interface-and-determinant-boundary-8542.md)：原身份与六列已返，180.635542056秒/−14只成两步41商积，没有det或新权曲线；该门冻结，整H0保留。

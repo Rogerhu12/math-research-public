@@ -6,7 +6,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-all-restrictions-essential-order-obstruction-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-W-whole-native-weight-curve-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -77,16 +77,15 @@ rankH3单三jet的全部ess6已闭，末非零Hp原Gaussian/最高/normal给左�
 
 ## 3. Deddens 与非复制来源
 
-原候选在 $L^2(\mathbb Z_2)$ 上为 $Af(y)=w(y)f(y-1)$，
+原候选为 $Af(y)=w(y)f(y-1)$，$w(0)=0$、$w(y)=\alpha_{v_2(y)}$，
 $$
-w(0)=0,\qquad w(y)=\alpha_{v_2(y)},\qquad
 \alpha_j=\exp\left(-\frac{280}{3}16^j+90\,8^j-300\,2^j+\frac{850}{3}\right).
 $$
-A单射、稠密像、拟幂零且非紧；普通非零真闭不变M未知，排除此候选也不完成普通ISP。全部原结论/来源/失败范围保本次完整快照，不重算。
+A单射/稠密像/拟幂零/非紧，普通真M未知；排除此候选也不完成全ISP。
 
-完整D localizing但范数不闭、统一成本球非localizing、范数闭包无非零紧均已付，勿套缺前提的判据。正/负向平移、有限头下三角分类及2N端点已付。[负幂域与等距共轭](results/R12-appendix-deddens-negative-domains-and-isometric-conjugation.md)保全部RanA^k，真实递推原像满足u_n=Phi^(-n)(R_n)u_(n−1)；交A^kM稠密但无费用率。[同成本有限头逼近](results/R12-appendix-full-deddens-algebra-optimal-cost-finite-head-approximation.md)给弱紧及有限最优值达到，任意变化目标有限成本未付。交换子收缩多项式密度/特选同头平均已付，一般平均统一成本球强不连续，不能假保持同输入的插值。
+完整D localizing但非闭，固定成本球非localizing，范数闭包无非零紧；正负平移、有限头下三角/2N端点、全负幂域/等距共轭、同成本有限头最优值达到与交换子收缩密度均已付，完整证明保快照。原递推u_n=Phi^(-n)(R_n)u_(n−1)及交A^kM稠密没有费用率；变化目标有限费、未知M的D保持、一般平均同输入插值仍开。
 
-硬复制及全部复软复制（自适应、统一有界放大、固定非零球）同源双费累计log为Theta(n^5)，原幂仅四次；W_n²/(W_n²+lambda)、dyadic边界与全前缀普通范数无界均已付。改变cut或实现不降此障碍。继续真实不同目标、全部前缀/逆像双费、一般有限头重排与非复制来源、未知普通M的D保持；不重试已冻结复制门。
+全部硬/复软复制的同源双费累计log为Θ(n⁵)，原幂仅四次；dyadic边界、全前缀范数及W_n²/(W_n²+lambda)障碍已付，改变cut不解除。继续不同真实目标、完整前缀/逆像双费、一般有限头重排与非复制来源，不重放已冻结复制门。
 
 ## 4. 其余开放路线和范围
 
@@ -201,7 +200,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 [新规范头整体覆盖](results/R150-appendix-unit211-W-canonical-binary-head-full-cover-and-six-mean-generators.md)给六行四列 G 在全部已付权点 rank4，15最大子式生成单位理想；具体 $1,\lambda,S,\lambda^2,\lambda S,S^2$ 全局生成均值代数，不重计旧六维界。固定 H265 是单 QQ 不可约(e,k)16/23曲线；首一 k23 环境保整 H0，e 方向的 k+3 不得倒置，几何局部化不自动保持对权环有限。
 
-[H265 非零四值接口](results/R150-appendix-unit211-W-first-binary-head-open-original-value-six-coordinate-return.md)的180秒常数门仅完整rank4，无1/新覆盖，冻结。7168[实际NS/PS接口与失败](notes/2026-11-28-unit211-W-original-NSPS-cubic-six-coordinate-actual-interface-and-determinant-boundary-8542.md)真180.635542056秒/−14：全域纯三次、H开图六原列及清分母已返，Bareiss仅两步41商积，无det/新曲线，整H0保留。新0d890改原native(1,x,y,t,y²,yt)及NS,PS,yNS,tNS,yPS,tPS六行，全部分母逐项按已付(k+2)J19C9返回，包含整H0；首次门只认实际返回，不重放旧lambda/S门。
+[全W原native必要权曲线](results/R150-appendix-unit211-W-entire-original-native-NSPS-necessary-weight-curve.md)：eca4真95.890604382秒/0，以已全付(k+2)J19C9的六原规则/18乘法，固定NS,PS,yNS,tNS,yPS,tPS原矩阵返回55商积；所得非零P双度97/123、总164、8472项，包含整H265零。仅必要曲线，未称不可约、平方自由、有限权或排空；原全部值纤维继续。8222常数门仅rank4、7168仅六列/两步41商积且无det的两个180秒门冻结，精确源与失败保完整快照，不重复已成95秒det。
 
 ### Phi：一般 H1 余 P201，其它原权与值层仍开
 
