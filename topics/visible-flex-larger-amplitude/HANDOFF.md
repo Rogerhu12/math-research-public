@@ -49,7 +49,7 @@ root独占refs/queue及真实调度；solver监控12/15/16实际数学/自然返
 
 <!-- visible-larger-parallel-12:start -->
 Actions12：[run 46011377225/1](https://github.com/Rogerhu12/math-research-public/actions/runs/46011377225)；[全阶段记录](notes/2026-11-27-public-actions-46011377225-1.md)。running；已返2，exit=未返。
-并行12规则核查：2026-11-27 18:15:58 UTC，真实pull至`89774e2ede316fb7c6a3a72993d751fc1e38daed`，双README无变化。
+并行12规则核查：2026-11-27 18:20:59 UTC，真实pull至`c9fb3d2d1e3f9d7af84d287132ca0dc5f047d331`，双README无变化。
 <!-- visible-larger-parallel-12:end -->
 
 <!-- visible-larger-parallel-13:start -->
