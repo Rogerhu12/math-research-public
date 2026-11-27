@@ -93,9 +93,9 @@ R1049§12（80）–（88）：原Chow层严格图置换将全部η/Cor折为[L:
 原PB4整行零已严格等价同一H₂=ω的全部17维零functional：三原半period全34列满足U_e²=−I、两两反交换，故(S₂−I)/2有两17维，原μ6与全17挠Heisenberg相位保持。ℓ_p=ℓ_pΠ4把原三维条件准确提升；原type4单二挠读数为δ/3，不能误称单U_e保持17块。p≡2/5mod9同Frob²循环将全行非零等价三原线全单位；仍未证跨p非零，7p−1下一共振保原j_(p−7)未控项。 后继使用这个真正稳定的全Heisenberg分量研究原半period及相邻同型行，不把单行零升级成全Cartier可积性。
 
 
-### 同一signed参数的相对全精度已付，实际共同端点继续
+### 同一signed参数的相对全精度与后续绝对端点
 
-原34δ/18/30单位的实际 mixed Tsuji 互反给 c_j 属原η_j Artin线，完整格核常数为μ(m!)²/18。三个本地η严格平凡，用同一个本原signed基及真实T(v)=Q^v−1，在合法k=p^n正权消去共同Gamma/Euler/period后，解析唯一性给 A_j(T(v))(c_l/a_l)K_l²=A_l(T(v))(c_j/a_j)K_j²。保exp*可能零的分支，不延拓p^weight。若一K为Tate单位，则所有A_j=F_p(c_j/a_j)K_j²，F_p为非零解析函数；F_p(0)仍可能零。原EU基层h=u_pF_p(0)(c_j/a_j)K_j(0)²，几何首层只给带同一未知F_p(0)的相对平方，未冒类相等或通常Sha非零。 后继计算同一本原M+基的mixed period，确定F_p在augmentation的真实阶；同时继续原54图的同源Coleman/fp比较。不能凭局部同型、三个K单位或交叉式消去F_p(0)。
+原34δ/18/30单位的实际 mixed Tsuji 互反给 c_j 属原η_j Artin线，完整格核常数为μ(m!)²/18。三个本地η严格平凡，用同一个本原signed基及真实T(v)=Q^v−1，在合法k=p^n正权消去共同Gamma/Euler/period后，解析唯一性给 A_j(T(v))(c_l/a_l)K_l²=A_l(T(v))(c_j/a_j)K_j²。保exp*可能零的分支，不延拓p^weight。若一K为Tate单位，则所有A_j=F_p(c_j/a_j)K_j²，相对步骤只给F_p非零解析；下方绝对整周期节已在同一K_*单位范围证明F_p为Tate单位。原EU基层h=u_pF_p(0)(c_j/a_j)K_j(0)²，几何首层只给带同一未知F_p(0)的相对平方，未冒类相等或通常Sha非零。 共同因子的真实阶已由下方独立整格论证付清；继续原54图的同源Coleman/fp比较及原canonical forcing。
 
 
 ### 全部p-new字已回到同一物理有限门
@@ -105,4 +105,9 @@ R1049§12（80）–（88）：原Chow层严格图置换将全部η/Cor折为[L:
 
 ### 原toric权族已锁同一个未平方源
 
-原双torus未平方seesaw保全characters、γ=diag34与两极化的真实坐标图、3处δ norm lift及原chirped Gaussian。六步相位准确为负，故ε_k=−(−1)^((k−5)/6)；全toric生成函数G_j=B_jt⁴D_j(δZ/t)/(408δ)，为原degree3同源拉回的degree102截面。原残余向量a_j hbar_j=−[L:H]B_jKbar_j(0)绝对负号已定。使用真正Ctor=34cσ(δ/t)^(p+1)，全Newton逐项给Jtor=−B_jJ/(306δ)、Ktor同；与102cσ,A之差的完整指数修正仍保。没有从该theta源恒等式直接宣布原AJ、EU或rank2 canonical类相等。 下一沿同一个原54图、θ^−2 weight3 Coleman primitive和完整p²范数比较真实负二端点；J(0)=0，需付J/(pv)的实际除零规范，不套ordinary权连续性。全p经典Taylor相位不再是未知费用，跨p首行非零、共同F_p(0)及真正canonical forcing仍继续。
+原双torus未平方seesaw保全characters、γ=diag34与两极化的真实坐标图、3处δ norm lift及原chirped Gaussian。六步相位准确为负，故ε_k=−(−1)^((k−5)/6)；全toric生成函数G_j=B_jt⁴D_j(δZ/t)/(408δ)，为原degree3同源拉回的degree102截面。原残余向量a_j hbar_j=−[L:H]B_jKbar_j(0)绝对负号已定。使用真正Ctor=34cσ(δ/t)^(p+1)，全Newton逐项给Jtor=−B_jJ/(306δ)、Ktor同；与102cσ,A之差的完整指数修正仍保。没有从该theta源恒等式直接宣布原AJ、EU或rank2 canonical类相等。 下一沿同一个原54图、θ^−2 weight3 Coleman primitive和完整p²范数比较真实负二端点；J(0)=0，需付J/(pv)的实际除零规范，不套ordinary权连续性。全p经典Taylor相位不再是未知费用，跨p首行非零及真正canonical forcing仍继续；同一K_*单位范围的F_p(0)已由下节整界支付。
+
+
+### 同一signed共同因子的绝对整周期已闭
+
+[原signed比较§§7–10](notes/2026-11-27-original-type-four-inert-signed-cross-comparison.md)先取Δ等型pro-p二变量，残余2−p及2p−1付整perfect base change，valuation twist1−2p付整norm-compatible Coleman原像。Tsuji原整PD、完整KS/isogeny及第一层未平均corestr给m=p−1的exp*整界p⁻¹O·ω0^(2p−1)；全部p²−1点及−p、原Tate基单位、μ/18、m!、1+1/p均保留。原EU正权值在K_*为Tate单位且固定常数单位时恰取赋值−1，迫A_*(T(1))单位；T(1)∈pO再迫F_p∈O⟨v⟩×。故同定义范围v_pA_j(0)=2v_pK_j(0)，全精度K_j(0)非零⇔真实loc_p z_j非零；同几何好范围首层EU非零⇔几何首层非零⇔Kbar非零。未声称无K单位时也成立，未把29纯Newton回执当c_j/q0合格证明。共同F_p(0)不再是此范围的开放项；继续原完整有限读者对canonical坏的真实forcing、跨p首行非零及同54图的Coleman/AJ类比较。

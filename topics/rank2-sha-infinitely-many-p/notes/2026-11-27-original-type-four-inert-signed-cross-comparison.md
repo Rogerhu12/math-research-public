@@ -1,10 +1,10 @@
-# 原 type4 惰性 signed 坐标的全精度交叉比较
+# 原 type4 惰性 signed 坐标的全精度交叉比较与绝对整周期
 
 2026-11-27 UTC。
 
 本注继续[原负二 Newton / signed 笔记](2026-11-27-original-type-four-inert-negative-two-newton-and-signed-line.md)和[固定 weight5 toric Artin 基](2026-11-27-original-weight-five-toric-artin-basis-and-common-phase.md)。新增的是同一原椭圆单位来源的**完整解析交叉恒等式**：三条 signed 坐标与三条 Newton 平方，只差一个共同解析因子。证明先在合法正整数权使用同一 mixed 显式互反律，逐项保留原有限投影、Artin 基、Gamma、Tate 和惰性 Euler；随后才用解析唯一性。不对任何 $p^{\mathrm{weight}}$ 作解析延拓。
 
-共同因子可能在 augmentation 为零。本注不以交叉比较或三个 Newton 单位代替其非零证明，也不将原固定54图类直接认作椭圆单位类。
+§§1–6 先不预设共同因子的 augmentation 非零。§§7–9 随后用原整 universal Coleman 提升及一个合法正权点，证明在至少一条原 Newton K 为 Tate 单位的范围内，该共同因子本身是 Tate 单位；全 norm 与 CM/Tate 格均显示保留。本注仍不将原固定54图类在全精度下直接认作椭圆单位类。
 
 ## 1. 原来源及同一个局部整模块
 
@@ -324,7 +324,7 @@ $$
 $$
 零函数按无穷阶解释。若三条 $K_j$ 都是 Tate 单位，
 三条原 signed 坐标有同一个 augmentation 消失阶。
-其共同阶仍可能为正；(18)未证明 $F_p(0)\ne0$。
+到此的相对比较本身尚不排除共同正阶；§§7–9 将在(18)的范围内补上 $F_p(0)$ 为单位的独立整格证明。
 已验证的 $p=29$ 可用于纯 Newton 和相对式(17)；
 若要同时宣称(18)中的固定系数为整单位，仍须核其固定常数格，
 不能凭 $d_{j,28}$ 的单位性删掉这项。
@@ -390,11 +390,399 @@ $$
 }
 \tag{23}
 $$
-共同的未知量只有 $u_pF_p(0)$；
-(23)没有证明它非零，也没有把模 $p$ 的几何平方提升为全精度的
-cycle equality。若要证明 $F_p(0)$ 非零或为单位，
-仍须原 mixed signed period 的实际归一或一条真正的全局 cycle 比较。
-这项费用不能由三条线分别为单位、共同号、或同一个局部表示来代替。
+到此保留的共同量是 $u_pF_p(0)$；(23)本身没有证明其非零，也没有把模 $p$ 的几何平方提升为全精度 cycle equality。下面通过原 mixed 整格及完整 norm trace 支付 $F_p(0)$ 的单位性，不用共同号或同一个局部表示代替该步骤。
+
+
+## 7. 固定有限分支上的整 Coleman 提升
+
+本节开始补上(18)中共同因子的绝对端点。仍在本注固定好范围内，
+特别删除固定 $c_j$ 的非单位支撑。新增论证只使用一个合法正权
+$$
+m=p-1=d-2,\qquad v=1,\qquad T(1)=Q-1\in p\mathcal O .
+\tag{24}
+$$
+不在 $m$ 上延拓任何 $p$ 的幂，也不调用另一 tame 分支的参考类。
+
+记 $L=K_p$，$L_\infty=L(E_0[p^\infty])$，
+$$
+\Delta=\operatorname{Gal}(L(E_0[p])/L)
+ \simeq\mathbf F_{p^2}^{\times},\qquad
+\operatorname{Gal}(L_\infty/L)=\Delta\times\Gamma_2,\quad
+\Gamma_2\simeq\mathbf Z_p^2 .
+$$
+以下“二变量”始终是**取定原 $\Delta$-等型分支后的 pro-$p$ 塔**。
+未经该投影，完整 $L_\infty$ 上的 Tate 表示已经平凡，
+不能由此声称其未投影 $H^2_{\rm Iw}$ 消失。
+
+令
+$$
+T_m=\mathcal O(\widehat\psi_0^{-m}
+                    \widehat{\bar\psi}_0^{m+1}) .
+$$
+以 $\bar\psi_0$ 在剩余域上为 $\widehat\psi_0^p$ 的原惯性规范，
+(24)给出
+$$
+\bar T_m|_\Delta:\;2-p,\qquad
+\overline{T_m^*(1)}|_\Delta:\;2p-1
+       \pmod{p^2-1}.
+\tag{25}
+$$
+二者均非零。因此选定分支上
+$H^0(L,\bar T_m)=H^0(L,\overline{T_m^*(1)})=0$。
+同一结论对基层 $T_{\rm CM}$ 成立；
+(12)的全部反圆分变权保持这个剩余分支。
+
+取 $R=\mathcal O[[\Gamma_2]]$ 及实际 tautological 逆作用构成的
+二变量表示。局部 Galois 上同调的整 perfect complex 在剩余域上
+由(25)、Tate 对偶和 Euler 特征仅有 $H^1$，维数为2。
+Derived Nakayama 因而将这个 complex 整地化为
+$R^2[-1]$。特别对反圆分 quotient 和(24)的权特殊化均有
+$$
+H^1_{\rm Iw,\,\Delta}(L_\infty/L,T_m)
+          \otimes_R R/I
+ \;\xrightarrow{\ \sim\ }\;
+H^1(L,\mathbb T_m\otimes_RR/I).
+\tag{26}
+$$
+这里可用 BKNKO Proposition2.12 的同一个 perfect-complex 证明；
+在 $G_L$ 上只用刚显示的两个不变向量空间消失，
+并未给任意二变量变形额外加 symplectic 条件。
+等价地，可先诱导到 $G_{\mathbf Q_p}$ 再用相同控制论证。
+
+还须核(26)中的整原像真正来自单位。Kummer 扭曲的附加因子为
+$$
+T_m(-1)=
+ \mathcal O(\widehat\psi_0^{-m-1}\widehat{\bar\psi}_0^m),
+\qquad
+T_m(-1)|_\Delta:\;1-2p .
+\tag{27}
+$$
+局部乘法群的 valuation 商在 $\Delta$ 上平凡，
+而 $1-2p\not\equiv0\bmod p^2-1$。
+所以在当前实际分支，valuation 商严格为零。
+$|\Delta|=p^2-1$ 是单位，整个等型投影没有 $p$ 分母。
+因此(26)给每个整局部类，尤其
+$e_p^+|_{T(1)}$，一个**整 norm-compatible 单位系统**的原像。
+这是 Kummer、原 tensor twist 和原 finite idempotent 的复合；
+不以某个已知非零 exponential 的有理逆像代替整原像。
+
+Coleman Theorem2.1 及 Tsuji Proposition2.2 将它表示为
+$$
+f\in\Gamma(\widehat E_0^{\,\rm univ},\mathcal O^\times),
+\qquad \operatorname{Norm}_{\Phi}f=f,
+\qquad \left.\Phi\right|_{\rm CM}=[-p]
+\tag{28}
+$$
+的整 universal Coleman 单位。
+有限系数扩张仅作外部 $\mathcal O$-线性张量；
+若先在有限不分歧系数域写 Coleman 函数，须保其完整 Frobenius，
+再沿同一个 $\Delta$ 分支下降。这里可在 $L$ 上作(28)，
+故下面没有被省略的未分歧系数角色。
+
+## 8. 原混合微分的整界及完整一层范数
+
+### 8.1 整 PD 格
+
+在 CM 点的整 PD 包络上，Tsuji §1 给
+$$
+H^1_{\rm dR}(\widehat E_0^{\,\rm univ})
+ \simeq \mathcal O_{M^{\rm PD}}\otimes_{\mathcal O_L}
+                  H^1_{\rm dR}(E_0/\mathcal O_L).
+$$
+因 $L/\mathbf Q_p$ 不分歧，两个 CM 幂等元及水平 splitting 都整。
+Gauss–Manin connection、Kodaira–Spencer 同构及该 splitting
+组成的 $\mathfrak D_p$ 因而保持整 PD 截面。
+对(28)，无需先把 $\log f$ 当成整函数：
+$$
+\partial\log f=f^{-1}\partial f
+$$
+已经整。定义
+$$
+R_m(f)=
+ \left.\mathfrak D_p^m\partial\log f\right|_O
+ \in\mathcal O\,\omega_0^{\,2m+1},
+\qquad \omega_0=\frac{dx}{2y}.
+\tag{29}
+$$
+在(24)上 $m!=(p-1)!$ 是单位，所以 $R_m(f)/m!$ 仍整。
+这里使用的目标格是 Tsuji Theorem4.1 原本的
+$\operatorname{coLie}(E_0)^{\otimes(2p-1)}$，
+不是另选一个未定 CM period 的格。
+
+### 8.2 全混合 isogeny 因子
+
+设 $\phi$ 为 degree $q$ 的 CM isogeny，实际微分拉回标量为 $c$。
+杯积自然性给
+$$
+\operatorname{KS}_{\rm src}(\phi^*\omega^2)
+   =q\,\phi^*\operatorname{KS}_{\rm tgt}(\omega^2).
+$$
+水平 CM 投影与 $\phi^*$ 交换，故逐次有
+$$
+\mathfrak D_{p,\rm src}^{\,m}(\phi^*s)
+     =q^{-m}\phi^*(\mathfrak D_{p,\rm tgt}^{\,m}s).
+\tag{30}
+$$
+其中 $\phi^*$ 是**完整张量拉回**，不是只把函数自变量复合。
+在当前权 $2m+1$，实际系数是
+$$
+\frac{c^{\,2m+1}}{q^m}
+   =\frac{c^{\,m+1}}{\bar c^{\,m}} .
+$$
+对于(28)的 $\Phi=[-p]$，$c=-p,\ q=p^2$，所以
+$$
+\frac{c^{\,2m+1}}{q^m}=-p
+\quad\text{对所有 }m.
+\tag{31}
+$$
+这里 $\Phi$ 是 Tsuji Proposition2.2 的实际 universal 延伸；只在 CM 纤维读取 $c=-p$。式(30)保留其 base map、Gauss–Manin 和全部张量，不把 universal Frobenius 的 base map 先当成恒等，也不需要任意延伸一个非有理 CM 自同源。
+
+现在对(28)的全 norm 恒等式
+$$
+\prod_{\xi\in\ker\Phi} f(P+\xi)=\Phi^*f(P)
+$$
+先施 $\partial\log$，再施完整 $\mathfrak D_p^m$。
+在特征零有限 étale $p$-torsion cover 上微分与全 trace 交换；
+(30)保持 moving torsion 的所有项。因此在同一个 CM 点
+$$
+\sum_{\xi\in E_0[p]}
+ \left.\mathfrak D_p^m\partial\log f\right|_\xi
+   =-p\,R_m(f).
+\tag{32}
+$$
+去掉 $\xi=O$ 后，完整非零 $p$-torsion 和为
+$(-p-1)R_m(f)$。这一步保留了全部 $p^2-1$ 个点，
+没有用单个 primitive 点的整性代替迹的整性。
+
+
+为核定 tame 度数，设
+$$
+x_{f,1}=\operatorname{pr}_{L_1}
+  \operatorname{tw}_{m+1,m}(f),\qquad
+x_f:=\operatorname{cor}_{L_1/L}(x_{f,1}),
+\quad L_1=L(E_0[p]).
+\tag{32a}
+$$
+这是 Tsuji Theorem4.1 在 inverse-limit 类上的实际第一层特殊化，
+其后接**未归一化 corestriction**；norm compatibility 使它也等于
+从任一更高层 corestrict 回 $L$ 的类。
+所以 $\exp^*(x_f)=\operatorname{Tr}_{L_1/L}\exp^*(x_{f,1})$，
+而 $\operatorname{Gal}(L_1/L)=\Delta$ 把所选原始点遍历非零
+$p$-torsion，恰好一次。迹中共有 $p^2-1$ 项，没有再除该数。
+
+(26)在 pro-$p$ 分支与 full LT 写法之间的整同构采用这同一个
+corestriction。若反方向用 restriction 来选 full LT 原像，
+须先乘 $(p^2-1)^{-1}$，因为
+$\operatorname{cor}\circ\operatorname{res}=p^2-1$。
+这枚整单位已经包含在该原像 Coleman 函数的选择中，
+不能在下面(33)外再乘或再除一次。
+原 R804 的 $\operatorname{pr}_K$ 本来就是实际
+Iwasawa corestriction；它的指定椭圆单位因此使用原函数和原全迹，
+没有在此被改成一个 normalized tame average。
+
+Tsuji Theorem4.1 在第1层的系数准确是
+$$
+\frac{(-1)^m}{m!}
+ \pi^{-(m+1)}\bar\pi^m
+ =\frac{(-1)^m}{m!(-p)} .
+$$
+corestriction 与 dual exponential 交换。
+把(32)的非零点迹代入，得到底层的**完整**公式
+$$
+\boxed{
+\exp^*_{T_m}(x_f)
+ =\frac{(-1)^m}{m!}
+      \left(1+\frac1p\right)R_m(f).
+}
+\tag{33}
+$$
+若先在不分歧 $H/L$ 写原函数，则中间式是
+$R_m(f)-\pi^{-1}\sigma^{-1}R_m(f)$；
+下降到本节的实际 $L$-单位后正是(33)。
+不把 $1+p^{-1}$ 改成单位或删去其 $-1$ 赋值。
+
+由(26)–(29)，(33)不仅适用于一个特殊椭圆单位：
+它给原整局部格的上界
+$$
+\boxed{
+\exp^*_{T_m}\bigl(H^1(L,T_m)\bigr)
+ \subseteq p^{-1}\mathcal O\,\omega_0^{\,2p-1},
+ \qquad m=p-1 .
+}
+\tag{34}
+$$
+若某个类在 exponential 的核中，其值为0，仍包括在(34)内。
+本结论没有先假设 signed 生成元的 exponential 是单位。
+
+### 8.3 原 Tate 基不带隐藏的非单位 period
+
+保持 R804 的 $\xi_{\rm LT},\xi_{\rm cyc}$。
+以原整 Weil/CM tensor 同构定义
+$$
+\mathrm W(\xi_{\rm LT}\otimes\bar\xi_{\rm LT})
+       =\epsilon_{{\rm T},p}\xi_{\rm cyc},
+       \qquad \epsilon_{{\rm T},p}\in\mathcal O^\times .
+\tag{35}
+$$
+整性和单位性来自原 Tate 格上的完美 Weil pairing；
+$2\delta$ 的 trace-dual 基变换在当前位为单位。
+这里 $\epsilon_{{\rm T},p}$ 是这两个**已经选定的整基**的比，
+不是 $\mathbf C_p$ 中可任意选取的 CM period。
+
+Tsuji 的扭曲向量
+$\xi_{\rm LT}^{-m-1}\bar\xi_{\rm LT}^{m}$
+与 R804/R303 的
+$\xi_{\rm LT}^{-(2m+1)}\xi_{\rm cyc}^{m}$
+准确相差 $\epsilon_{{\rm T},p}^{m}$。
+所以按原基读取(33)时，同乘
+$\epsilon_{{\rm T},p}^{-m}$。
+它使(34)保持不变，并且须在下面实际值中同留。
+原 Artin 方向仍是(4)的 $a_{j,p}^{-1}$。
+因而整界与实际椭圆单位值是在**同一**
+$\omega_0^{2p-1}$ 格里比较，没有把一个非单位周期藏进
+$\Xi_{p,m}$ 后再宣称它是单位。
+
+## 9. 实际椭圆单位取到整界，故共同因子为单位
+
+对原(2)的 norm-compatible 单位，(6)就是(29)在同一全 ray norm、
+同一 $e_{\eta_j}$ 和 $1/30$ 后的系数。
+$\eta_j((p))=1$ 使该不分歧有限来源在所选惰性位的 norm
+回到(33)中的同一支；没有另取一个共轭类。
+
+因此在固定嵌入、完整原平均的写法下，(9)、(33)、(35)给
+$$
+\begin{split}
+\ell_{p,m}\bigl(\iota_{j,p}^a
+              \boldsymbol z_{j,p}|_{T(1)}\bigr)
+ &=
+ \epsilon_{{\rm T},p}^{-m}
+ \frac{(-1)^m}{m!}\left(1+\frac1p\right)
+       \frac{\mathcal R_{j,m}}{a_{j,p}}\\
+ &=
+ \epsilon_{{\rm T},p}^{-m}(-1)^m
+ \frac{\mu}{18}\,m!
+ \left(1+\frac1p\right)
+       \frac{\mathscr E_{j,m}}{a_{j,p}},
+ \qquad m=p-1 .
+\end{split}
+\tag{36}
+$$
+本式的18仍是(6)中原 $e_\eta$ 的18。
+若沿 R804 用 induced 特殊化写法，则按
+$\nu(e_\eta)=1$ 同步表示同一 finite trace；
+不得在(36)之外再乘或再除18。
+无论使用哪一同构写法，(34)与(36)采用完全相同的坐标。
+本处所需赋值由显示的原常数决定：
+$\mu,18,(p-1)!,a_{j,p},\epsilon_{{\rm T},p}$ 全为单位，
+而唯一显示的 $p$ Euler 赋值是 $-1$。
+
+假定存在原 $j=*$ 使 $K_{*,p}$ 为 Tate 单位。
+由原 Newton 首层等价及(15)，
+$$
+d_{*,p-1}\in\mathcal O^\times,\qquad
+\mathscr E_{*,p-1}
+ =c_*34^{-(p-1)}d_{*,p-1}^{\,2}\in\mathcal O^\times .
+$$
+所以实际原类满足
+$$
+v_p\,\ell_{p,p-1}\bigl(
+ \iota_{*,p}^a\boldsymbol z_{*,p}|_{T(1)}\bigr)=-1.
+\tag{37}
+$$
+令 $e=e_p^+|_{T(1)}$。它是整局部类，故(34)给
+$v_p\ell_{p,p-1}(e)\ge-1$。
+再用真正的 signed 等式
+$$
+\iota_{*,p}^a\boldsymbol z_{*,p}|_{T(1)}
+             =A_{*,p}^a(T(1))\,e
+$$
+及 $A_{*,p}^a(T(1))\in\mathcal O$，(37)迫
+$$
+\boxed{
+A_{*,p}^a(T(1))\in\mathcal O^\times,
+\qquad v_p\ell_{p,p-1}(e)=-1.
+}
+\tag{38}
+$$
+这里没有先知道 $e$ 的具体 exponential，也没有用其“非零”
+代替赋值；其准确赋值是由整界与实际原类一起迫出的。
+
+因 $T(1)\in p\mathcal O$，真正的 Iwasawa 整性立即给
+$$
+A_{*,p}^a(0)\equiv A_{*,p}^a(T(1))\not\equiv0\pmod p .
+$$
+于是 $A_{*,p}^a(T(v))$ 是闭单位圆盘上的 Tate 单位。
+代入(18)，得到本注的绝对强化：
+$$
+\boxed{
+F_p(v)\in\mathcal O\langle v\rangle^\times .
+}
+\tag{39}
+$$
+它的前提恰是(18)定义该共同因子时的原范围：
+至少一条 $K_*$ 为 Tate 单位，且固定非零 $c_*$ 在当前位为单位。
+不是在没有这些前提时单凭交叉式宣称所有共同因子单位。
+
+现在(19)在该范围内有完整赋值和端点结论：
+$$
+\boxed{
+v_p A_{j,p}^a(0)=2v_p K_{j,p}(0),\qquad
+h_{j,p}^{\rm EU}
+ =u_pF_p(0)\frac{c_j}{a_{j,p}}K_{j,p}(0)^2 .
+}
+\tag{40}
+$$
+零值允许无穷赋值。特别
+$$
+K_{j,p}(0)\ne0
+ \quad\Longleftrightarrow\quad
+\operatorname{loc}_p z_j\ne0 ,
+\tag{41}
+$$
+因为原 augmentation 位于整 $H_f^1$，其实际
+Bloch–Kato 对数是 $p h/(p+1)$，由 R1049§8 已付为同构。
+这是真实 R804 全局类的指定局部化，非另造一个对数逆像。
+
+若 $K_j$ 在 $v=0$ 的首非零项为 $k_{j,e}v^e$，则还准确有
+$$
+\operatorname{ord}_{T=0}A_j^a=2e,\qquad
+v_p([T^{2e}]A_j^a)=2v_p(k_{j,e})-2e .
+\tag{42}
+$$
+这只用 $\log Q$ 赋值1和(39)。
+它不是将 $p^{\mathrm{weight}}$ 或逐权 period 解析延拓后的结论。
+
+## 10. 对原几何首层的准确消费范围
+
+完整未平方 toric 源已经把 §6 的共同剩余号锁定，
+但本节只需要其平方恒等式。结合(23)、(39)，得到
+$$
+\boxed{
+\overline{h^{\rm EU}_{j,p}}\ne0
+ \quad\Longleftrightarrow\quad
+\overline{h^{\rm geom}_{j,p}}\ne0
+ \quad\Longleftrightarrow\quad
+\overline{K_{j,p}(0)}\ne0
+}
+\tag{43}
+$$
+于原几何好模型、$p>q_0$、全部固定常数为单位且至少一条
+$K_*$ 为 Tate 单位的范围。
+最后一个“至少一条”在欲使用某个非零几何首层时由该首层自己支付；
+并非增加一个独立的非零假设。
+
+(43)仍保持原 $B_j/a_{j,p}$、$[L:H]$ 和
+$C=-972\omega34^4\epsilon_{\rm per}^{-3}$ 的尺度。
+它并未把两类在全 $p$ 精度下直接认作同一个 cycle，
+也未证明有无穷多个 $p$ 使这些首层非零。
+原固定 $p=29$ 的三个 $K_j$ 单位属于纯 Newton 已验结论；
+若要在29直接使用(39)–(43)，仍须另外保留这里列出的
+固定 $c_j$、几何常数和整模型好范围，不能以纯 Newton 检查替代。
+
+本强化没有新增数学执行。所需原文位置是
+Tsuji §1 的整 PD splitting、Proposition2.2 的整 universal
+Coleman lift、Theorem4.1 的原 mixed reciprocity，
+以及 BKNKO Proposition2.12 的整上同调 base change 证明。
 
 ## 来源与验证范围
 
