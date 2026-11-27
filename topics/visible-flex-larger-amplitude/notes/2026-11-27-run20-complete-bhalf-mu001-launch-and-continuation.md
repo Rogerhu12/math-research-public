@@ -625,3 +625,77 @@
 ```
 
 继续同一完整157词科学；自然返回后接原pure及完整normal/geometry/closed/R716/mesh，完整final和所有同源输入实际存在才可restart。当前仍不具备本课题README完成证据。
+
+## 2026-11-27 23:39:50 UTC — 第一个真实trial统计返回，几何仍未返
+
+独立20的首trial在23:20:09.363322开始，完整点 `3459061e0d7631ad5f69d6d2b7e02801c576d3941ee13963f379a3896927f28b`。原trial-statistics-returned准确时刻 **23:28:21.769877+00:00**，Phi=3824.783531693056、Gram=.6460723929865344。相比本轮初值，Phi下降而最大Gram误差上升；这仍只是统计。trial geometry、alpha、接受决定未知，current仍初始7e06/accepted0，不能将初g=.9684249942095058写成这个trial的g，也不能以Phi下降推恢复接受或metric改善。
+
+该原观察在固定提交的完整小索引中，含所有source/PID、全部原正常/数学scalar、缺值错误与完整请求，以下精确whole文件记录可逐字恢复；本节只另列整个数学子对象和两份完整小文件身份，不声称它代替整个索引。未取任何runner raw，也未改science。
+
+```json
+{
+  "complete_original_index": {
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-27-public-actions-46079535427-1.md",
+    "fixed_commit": "d749ebc2fadc65a72523efb8397cab253f4d1cca",
+    "bytes": 51612,
+    "sha256": "6c01c341c27e05bcc3786b2e3e6edd0547054677984571ba3fb497abbcce4894",
+    "git_blob_sha": "bc0980094b08eabbe56ae9ab82dc50e80983ca38"
+  },
+  "complete_mathematical_observation": {
+    "math_at": "2026-11-27T23:28:21.769877+00:00",
+    "math_event": "trial-statistics-returned",
+    "math_driver": "10fa4e4e679cbe02b56456f05479c8136bd0481fd16384992a557cefc9a4bf3f",
+    "math_model": "0abfbfe4cc5878ca6bfbbbf37c6dbb82610d7c49ce3ece40a8a609406db53add",
+    "math_source": "321be35ae07519fcd283e09d209b19fedde570a54fdc65be79fc1caf848f3cc5",
+    "math_target": "957cf0fc1ee59835f499b21a2300094ecb8c8a39fe14a1ebd987cef11305faa9",
+    "initial_point": "7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47",
+    "initial_Phi": 3825.0583894874153,
+    "initial_Gram": 0.6460503011117507,
+    "initial_geometry_point": "7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47",
+    "initial_violation": 0.9684249942095058,
+    "initial_geometry_complete": true,
+    "current_point": "7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47",
+    "current_Phi": 3825.0583894874153,
+    "current_Gram": 0.6460503011117507,
+    "current_geometry_point": "7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47",
+    "current_violation": 0.9684249942095058,
+    "current_geometry_complete": true,
+    "current_state": "initial statistics returned; no accepted direction",
+    "trial_point": "3459061e0d7631ad5f69d6d2b7e02801c576d3941ee13963f379a3896927f28b",
+    "trial_Phi": 3824.783531693056,
+    "trial_Gram": 0.6460723929865344,
+    "trial_accepted": null,
+    "accepted_directions": 0,
+    "complete_report": false,
+    "stop_reason": null,
+    "observer_failures": 0,
+    "current_g_reach": 0.9684249942095058,
+    "current_g_body_diameter": -0.038135527545650194,
+    "current_g_distance_plus": 0.005863061771032241,
+    "current_g_distance_minus": -3.0936337267043594,
+    "current_g_cap_diameter": -0.06715131487906445,
+    "current_g_height_floor": -1.0411715967426867
+  },
+  "original_small_file_identities": [
+    {
+      "path": "fixed-fejer-meridian-batched-bhalf-mu001-first/actual-normal-evaluation-progress.json",
+      "bytes": 3367,
+      "sha256": "444eccaf863a9f87f3db8c8082bf96e8ad46863baf0694ceca18f30ba4a8973d",
+      "two_complete_bounded_reads_agreed": true
+    },
+    {
+      "path": "fixed-fejer-meridian-batched-bhalf-mu001-first/actual-mathematical-progress.json",
+      "bytes": 7278,
+      "sha256": "f77d9757b01a0f696a6647e242ac1a055ef2bcc23746e4a7174e5d2a9f714445",
+      "two_complete_bounded_reads_agreed": true
+    }
+  ],
+  "source_commit": "c592e434ac19b1659c179ab6929ed592f104f362",
+  "source_sha256": "f600bc6e8c94428025bc517d7ad00e561a6cde1cb8a96fd709fdf7c8dfc8b506",
+  "pid": 3277,
+  "complete_original_observation_identity_sha256": "99668f3d44faa13ce332ad72d8b21b1d66db5736fe81b971dbcf7fb50626de94",
+  "observed_utc": "2026-11-27T23:34:43Z"
+}
+```
+
+科学report仍false、未自然返回；完整normal/geometry/R723/R716/mesh等待其真实材料，继续原完整预算。

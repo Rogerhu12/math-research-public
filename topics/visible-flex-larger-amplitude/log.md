@@ -68,3 +68,7 @@
 ## 2026-11-27 23:38:21 UTC — 全normal续费与下游source路径合同
 
 刊32,822B完整15源接口分析，全部source/bytes/SHA/blob和真正字段/900/900/600顺序保。normal原whole request含137源绝对path，同outdir续允许新step_id而须同首次normal的--repo/源/科学report/snapshot/全输入；不是solver路径的推测。geometry第一次可freshrepo，续目录需原whole normal与自己3源路径；normal SHA更新不能重绑。R723每次fresh；45ca矩可复用同execution完整block但最终R716同normal whole版本；meshfresh且原137完整源copy映射。当前19/20原32词mesh没有optional closed参数，本来无缺件门；未来有附证时2ef3只支持002eb，不能塞1782。全部源守卫保，无新增science/AST/前门。双README云核至`eccff6a0f85e9a27b6152f54c1cd30686a67a034`无变（非pull）。
+
+## 2026-11-27 23:39:50 UTC — 20首个trial统计真实返回
+
+首trial345906于23:28:21.769877真统计Phi3824.783531693056/Gram.6460723929865344；Phi降、最大Gram上升，几何/alpha/决定仍未知，current初点7e06/accepted0/reportfalse。整数学子对象、完整原小索引fixed commit/blob/bytes/SHA及两进度文件whole身份保[20全note](notes/2026-11-27-run20-complete-bhalf-mu001-launch-and-continuation.md)，其余原字段和错误仍在完整索引，未截原记录。初g不可冒trial违反，继续原完整科学。双README云核至`faf7bb1248b9fe133132376d7c2690a4e3f63c31`无变（非pull）。

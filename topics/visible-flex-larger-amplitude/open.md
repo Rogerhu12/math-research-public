@@ -109,7 +109,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 [19完整续求](notes/2026-11-27-run19-complete-bhalf-launch-and-continuation.md)为b/S1/2、δ1/32；真两input0，model0abfbf，初Phi3825.0583894874153/Gram.6460503011117507，reach+.9684249942095058/distplus+.005863061771032241、余四负。首restoration d761b5真实接受，current该点/accepted1，Phi3825.0583176123996/Gram.6460503022350718；真reach+.9679630392005261/distplus+.005863064535577611、余四负，六值与原观察保全note，reportfalse。
 
-[20完整续求](notes/2026-11-27-run20-complete-bhalf-mu001-launch-and-continuation.md)仅恢复阻尼.01→.001，metric.01和全部137角色/18源、157/7argv、458/445formal/48live与原预算保。官方46079535427/1，两input真0；actual科学c592e434/f600/PID3277/model0abfbf/current7e06。23:13:27.016759初完整有限几何返，Phi/Gram/六g逐项等于19初；accepted0/reportfalse，未知trial不补。两轮全science+pure超过95k，原pure仅科学自然返回后整接，不能裁参数挤入。
+[20完整续求](notes/2026-11-27-run20-complete-bhalf-mu001-launch-and-continuation.md)仅恢复阻尼.01→.001，metric.01和全部137角色/18源、157/7argv、458/445formal/48live与原预算保。官方46079535427/1，两input真0；actual科学c592e434/f600/PID3277/model0abfbf/current7e06。23:13:27.016759初完整有限几何返，Phi/Gram/六g逐项等于19初；首trial345906在23:28:21.769877统计返Phi3824.783531693056/Gram.6460723929865344；几何接受未知，current仍初点/accepted0/reportfalse，初g不填trial。两轮全science+pure超过95k，原pure仅科学自然返回后整接，不能裁参数挤入。
 
 18/19同源R722完整mean/normal六jet/geometry/closed/R718/R716/mesh源与全参数已刊；19/20全部normal/geometry/closed/R716/mesh及R723独立后参、[同源restart全参](computations/current-bhalf-complete-same-source-restart-delivery.json)已刊。全部原字段/来源/参数与准确费用合同见[19前三后参](computations/fixed-fejer-bhalf-R722-complete-post-parameter-delivery.json)、[19矩/mesh](computations/fixed-fejer-bhalf-complete-moment-mesh-parameter-delivery.json)、归档完整链。normal.complete不代连续branch，mean J不代Cu；全32stage/整圆1024胞/922径向+cuts/六jet/全尾/working、两帽/mixed/allphase、唯一主副件与晚失败不可省。旧R709 bool保真，准确根需R722全域三残差。
 
