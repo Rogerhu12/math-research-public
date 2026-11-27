@@ -4,7 +4,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-W-lower-D-ideal-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-Phi-list-snapshot-fixes-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -18,9 +18,9 @@ rank$H=4$ 的非单位局部块长度5、4、3已排；长度2单零的三种单
 
 当前依次处理：
 
-1. 孤立零单点的单位长度4补空间只余 $2+1+1$ 与 $1+1+1+1$。单位单四重点、两个双点、[整个3+1](results/R150-appendix-essential-four-unit-three-plus-one-isolated-zero-rank-four-branch-is-empty.md)均已完全排除。单位211的零配对、零基点mean、相等/相反非零配对与整个P0零支亦已关闭；准确剩余可规范p=1、q≠0,±1、b+cq≠0,1、P0≠0，零孤立点mean现已全部排除，仅续非零mean，当前子图见下文。全部旧除法边界、原QQ来源及执行身份保[本次完整压缩前open](notes/2026-11-26-open-before-rank-three-double-single-degenerate-347c.md)与结果索引，不重算已闭门。
-2. 全部 rank$H=5$，即 $L$ 为单位的七种长度五除子分拆。
-3. 内均值 $y\in W$ 与 ess$T_3=5,6$。V的低秩支撑不能自动代y/H/V共同支撑，完整梯度保留。V0的外像、ess4全部约化/重节点层及相关二次例外已先后关闭；[整个V0临界层的三个matched Bell均零](results/R150-appendix-zero-third-cumulant-all-matched-bell-values-vanish-and-exact-index-three.md)覆盖ess5/6及Cat退化，完整I0准确幂指数3（平方非成员、七次来源均已付）。详细旧分支保[压缩前open](notes/2026-11-26-open-before-actual-variance-grid-347c.md)和结果索引，不重跑degree9。继续V≠0的内均值ess4、ess5/6及全Jacobian真正幂来源；V0证书不作全局同幂。
+1. rankH4孤立零单点的单位长度4补空间只余2+1+1与1+1+1+1；其余型已闭。unit211只续非零mean，原零/相等相反配对、P0零及零mean已闭；剩余规范p=1、q≠0,±1、b+cq≠0,1、P0≠0，完整原边界/来源保快照。
+2. rankH5全部七种单位长度五分拆仍开。
+3. V≠0内均值ess4/5/6及原Jacobian真正幂来源仍开，低秩V不能代y/H/V共同支撑。整个V0的matched Bell零及I0准确幂指数3已付，完整退化层/平方非成员/七次来源保结果与快照；不外推全Jacobian同幂，不重跑degree9。
 
 全部 ess$T_3\le3$ 已给 matched Bell 零；原 $W_\pm$ 上确有 Cat3 真临界点，不能把 Cat3 整层判空。Bell 非零只可能在 V≠0 且 ess4/5/6。原两原子开集的例外和有限32全参数模型仍按原范围，不能先删 $D=0$ 或合流。
 
@@ -206,7 +206,7 @@ D27泛型五次不可约与有限纤维范围保上述D27原单位条目及本�
 
 **[h=k的整个Q=1−u原面已闭](results/R150-appendix-unit211-equal-singleton-Q1u-Delta-zero-and-entire-face-exclusion.md)。** 两个Delta图全部原返回，C6相容及C24同u自由f真1；剩余h=k可付u+Q−1，不重放已闭大投影。
 
-**[原Haar全目标迹类交织](results/R271-appendix-actual-haar-global-trace-intertwiners-and-cyclic-quotient-quasiaffinities.md)的[全部非零像对完整T循环](results/R271-appendix-actual-haar-trace-ranges-consist-of-boundary-cyclic-vectors.md)。** 原dyadic弱单位给closure(A*)^k C=C于每个闭不变C；稀疏链符号Φ_v=(A*)^k V的V及V⁻¹都在原范数闭多项式代数，故[K_y* v]_(A*)=C_y。于是RanK_y与任意proper闭T不变L零交，K_y⁻¹L=C_y⊥；旧U/M/N交点对整个此族已关闭为零。K_1 1是实际E∞循环向量。不判断C_y⊥非零，不外推其他交织，转同w Green/primitive来源。
+**[整个Haar迹类像均为完整T循环向量](results/R271-appendix-actual-haar-trace-ranges-consist-of-boundary-cyclic-vectors.md)。** 对每个非零y与proper闭T不变L，RanK_y∩L=0且K_y⁻¹L=C_y⊥，含旧U/M/N；同dyadic弱单位/范数解析单位及K1·1的实际E∞循环性已付。此族零交接口已闭，不判断C_y⊥非零，不外推其他交织；续同w Green/primitive。
 
 **[原Haar/边界实际像零交与Abel同源费用](results/R271-appendix-haar-boundary-disjoint-actual-ranges-and-abel-source-cost.md)。** 同一链J=ℒ_e0的唯一原像系数是〈A^n x,y〉/βn；原高位弱单位迫每个非零K_yx不在RanJ。全部固定奇块给E_N/logN→∞；实际HS R_y,t满足BR=tRA、JR=K_y,t，K_y,t迹范数趋K_y且同源平方费/log(1/(1−t))→∞。未声称任意逼近同费率，不外推W规范源。
 
@@ -227,3 +227,5 @@ D27泛型五次不可约与有限纤维范围保上述D27原单位条目及本�
 **h=k、Delta零只余六lambda。** [七lambda完整QQ覆盖](results/R150-appendix-unit211-equal-singleton-Delta-zero-seven-lambda-complete-QQ-cover.md)后，[整个λ1/3已排](results/R150-appendix-unit211-equal-singleton-Delta-zero-entire-lambda-one-third-exclusion.md)：原两相容式仅余u50/277,Q489412/76729，新八原行保自由f，E1/EBe全QQ[f]Bézout返1（0.104秒/34128KiB/0）。继续C4=[3/8,−3/2,3,−3,1]与C2=[1/3,−1,1]两个完整常数代数及所有Q/u头零，不重跑原578投影。
 
 **W十三原行由[低D次十一行原理想](results/R150-appendix-unit211-W-original-odd-NP-full-NV-lower-D-ideal-compression.md)继续。** 原D非0域内保NS/PS/R6，两个个别N/P奇部及完整NV可各降为一次D清除，13→11理想精确等价；三个完整BigInt身份真实3ms返回。391首次新11×6构建不重跑394的40MB原行；T3/F2自由只指首一环境，r2头与未付参数零面保留，不倒D范数。
+
+**两个小输入的列表快照错误。** [真实失败记录](notes/2026-11-27-unit211-Phi-zero-two-small-input-list-snapshot-failures-8542.md)：4e84已付四头共同零的QQ覆盖u3/2或F10后，K[Q]乘回比较对象被原地修改；4d64已付λ半三曲线各剥(rho+1)^3后同错，均exit1且无资源失败。旧源/部分数学保留；新8890/69ab各只改list(a)，唯一首派，不提前标整纤维排除。
