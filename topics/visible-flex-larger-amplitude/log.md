@@ -640,3 +640,8 @@ detached矩阵revision2八全源375059/d5e74/803ff/d461/bdf212/1d153/062573/9547
 ### 2026-11-27 01:25:05 UTC — Astra-larger-e4e2a2bf-20261126
 
 新增一次无大小界的rg搜索偏差如实登记：查既有精化论证时未限.md/未先逐文件stat/未设max-filesize，单行raw JSON进入输出；工具约165661 tokens/53行被截断，截断不等于未读。未科学import/求值或基于数组新增结论，未修改inputs/outputs。后续先文件名+stat选<100000B指定类型，再rg --max-filesize99999并限显示行宽；大对象仅有界元数据，原四次connector记录保。读错不作停止理由，原Actions与费用/几何/精化工作继续。
+
+
+### 2026-11-27 01:30:18 UTC — Astra-larger-e4e2a2bf-20261126
+
+相邻frame完整J6/J9设计7c9已完整证明并源码核对：独立jet偏导给Aj=Dphi^j fu，Mi按全Leibniz，J9下三角含2M1，不删六/九维未知；既存Bi+1给Ai，末Am须真实另读。root完整四方法及geometry定点独立核，原previous=controls.detach字链与同分支upgrade保；旧record无previous摘要须在新源实际补。requested order1可消费已升级order2根，禁止误拒或重选。全根/Newton/J3/变量/active上游链不改；工作乘加矩阵另声明新数值来源，不冒旧AD逐字等；186/279仅条件reverse调用差非实测速度。新producer/准入/实际效果仍未做。完整设计及边界即推；H旧06startup细节完整保既定notes/50d固定H。

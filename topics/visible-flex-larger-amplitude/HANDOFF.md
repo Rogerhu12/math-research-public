@@ -4,7 +4,7 @@
 
 ## 规则与完整目标
 
-最近规则核查：2026-11-27 01:27:55 UTC，真实pull/rebase至 `9d492438641fb3e0b9d77104c10ccad60f39c18e`，双README相对`25397431a3521318eeb858db0f262f92de7cf5b6`无差异，继续遵守全部规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
+最近规则核查：2026-11-27 01:30:18 UTC，真实pull/rebase至 `2df687b45c139d13f90bb70007cf9080aca97509`，双README相对`9d492438641fb3e0b9d77104c10ccad60f39c18e`无差异，继续遵守全部规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
 
 科学计算仅本公开仓库Actions；执行偏差见[早前记录](notes/2026-11-20-public-actions-execution-correction.md)及[四次大JSON整读纠正](notes/2026-11-26-large-file-connector-read-correction.md)、[本次大文件搜索纠正](notes/2026-11-27-bounded-text-search-correction.md)。root唯一分支写者；结论即普通推，NFF立即rebase循环，不强推。每次pull核双README差异并遵新规，至少每小时，记commit。raw只scratch/runner，不入Git/Release/artifact；保完整小源/参数/run/SHA/紧凑结论。题≤200MB、单文件<5MB、MD<100KB、H<10KB、open<30KB。令牌仅瞬时CLI。终端失联与恢复/云API普通快进记录保7774固定H；旧scratch迁移未确认，不冒恢复。
 
@@ -35,11 +35,11 @@
 
 [R711](results/R711-smooth-triangle-central-profile-and-geometric-comparison.md)/[R712](results/R712-full-positive-radius-central-second-derivative-comparison.md)准确十二片profile与全正半径中央Fss比较已证；完整十源/旧十history ready保50d固定H，未准入不迁旧值；当前192正权/全(0,π)/m32保，不冒K/reach。
 
-[R714](results/R714-normal-frame-exact-zero-and-C1-reuse.md)/[原cached](notes/2026-11-26-R714-cached-reference-centred-complete-entry.md)保ba3d全C1/a62c/3e47及m32，working零/速度未证。[detached矩阵证明](notes/2026-11-26-R714-detached-stage-matrix-reuse-design.md)及[完整八源/严格继承](notes/2026-11-27-complete-detached-stage-matrix-and-history-transfer-entry.md)375059/d461/1d153/954721已刊，194966独立纯再生/37源全SHA/原科学后缀保；修复两计数键。7d950完整plan未准入，须07真实终态，保全部地址/typed，优先完整实际final变量，原reference不重选，严核后本源初F重读；未返不预填。
+[R714](results/R714-normal-frame-exact-zero-and-C1-reuse.md)全C1与m32责任保；[完整八源/严格继承](notes/2026-11-27-complete-detached-stage-matrix-and-history-transfer-entry.md)375059/d461/1d153/954721已刊，194966独立纯再生/37源全SHA/原科学后缀保，两计数键实修。7d950 plan未准入，须07真terminal、保全地址/typed，优先真final全变量、原reference不重选、本源初F重读。[相邻frame完整J6/J9设计](notes/2026-11-27-adjacent-normal-frame-complete-angular-matrix-design.md)已证并核真实字链，末frame另读、全active链保；新producer未实现，不冒逐字同AD或提速。
 
 [R715](results/R715-reference-centred-normal-sixjets-and-error-ledger.md)完整hΔ六jet/AD、真Gram/K与working Fs非单位责任保；原八源/参数见50d/681ff固定H和已刊notes，plain未跑不作门。
 
-[06完整重建入口](notes/2026-11-26-run06-complete-parent-reconstruction-and-current-PCG-entry.md)全部原28+十二父、三SOC/第四方向责任保，finish=false。首启动45903578703在fetch未公开规则ref时退出，科学未开始；[完整原因/实际修复](notes/2026-11-26-run06-startup-failure-unfetchable-rules-commit.md)已换实读公开HEAD，科学源/queue不改。新父/地点/μ只读新run真实返回，再接当前八列PCG。
+[06首启动失败与修复](notes/2026-11-26-run06-startup-failure-unfetchable-rules-commit.md)保45903578703规则ref fetch失败、科学未开始的实录；全部原28+十二父/三SOC及后继责任已在上方06链、50d固定H和完整notes保留，绝不借旧run填新值。
 
 [07完整原输入](notes/2026-11-26-run07-complete-warm-reference-bootstrap.md)1–2已返，3df/e640同而carrier异；[第3旧载体真返](notes/2026-11-26-run07-actual-restored-old-carrier-and-radial-word-identity.md)整dc5/227202、cells/u/Gauss全字同，report926db/bindingaaa65。[全05来源/φ字及旧numeric-tuple去重](notes/2026-11-26-run05-all-source-material-envelope-closure.md)保完整1–18/全E角色；19未知。root选独立policy2：已知e783前缀保、全E真筛/typed分离、不冒旧protected顺序。[新完整消费者](notes/2026-11-27-complete-material-envelope-consumer-and-preserved-prefix-rows.md) c79c/7299/bd1a 和[完整入口](notes/2026-11-26-complete-material-envelope-cached-normal-entry.md)cc0a/b93a/104e/a948已加入07两个步骤，全部变量/真Phi/m32/原预算保；尚待真实新场返回，不冒连续证书。
 
