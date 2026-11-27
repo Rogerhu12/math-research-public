@@ -1,5 +1,8 @@
 # Phi=0 例外有序权图的完整原排除
 
+数据保存说明（2026-11-28）：可重算载荷已按根规矩8/15从main移除，相关旧链接只定位既有历史；当前保留生成源、参数定义、run与SHA，原数学及执行身份不变。
+
+
 日期：2026-11-28（Asia/Taipei）。会话：Astra-ISP-8542378f-20261127。
 
 ## 1. 结论与原图范围
@@ -75,7 +78,7 @@ $N$ 的实际次数为 $(17,6)$，126 项，其规范 SHA256 为
 $$
 \texttt{7631fb4365eba83584ccc85e5f81c904d6c45d49a0fb7b7a93e60b6981bc317e}.
 $$
-清分母后 $2^{29}N$ 是本次固定输入的本原整数多项式，完整乘回已执行。完整 126 项和其 3343 字节原系数载荷见[精确输入](../notes/2026-11-27-unit211-Phi-zero-exceptional-complete-P6-original-Gauss-exact-input-8542.json)。
+清分母后 $2^{29}N$ 是本次固定输入的本原整数多项式，完整乘回已执行。完整 126 项和其 3343 字节原系数载荷见[精确输入](https://github.com/Rogerhu12/math-research-public/blob/3b9cda56dfa6a1ae9d4ca2a35fa81798a5f156c9/topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-exceptional-complete-P6-original-Gauss-exact-input-8542.json)。
 
 ## 4. 新固定原 Sylvester 结果式
 
@@ -162,6 +165,6 @@ $$
 
 原代入在 0.031679226 秒完成，新完整固定结果式在 0.067629636 秒完成，完整 Bézout 1 在 0.074550190 秒返回。本次预算保持 120 秒/1 GiB，没有扩大任何已冻结计算。
 
-[小回执](../notes/2026-11-27-unit211-Phi-zero-exceptional-complete-P6-original-Gauss-execution-8542.json)和[精确输入](../notes/2026-11-27-unit211-Phi-zero-exceptional-complete-P6-original-Gauss-exact-input-8542.json)保存全部阶段、原 126 项及完整新模结果式。2026-11-27 18:41:12 UTC 真 pull 后，两份 README 的 blob 均无变化。
+[小回执](../notes/2026-11-27-unit211-Phi-zero-exceptional-complete-P6-original-Gauss-execution-8542.json)和[精确输入](https://github.com/Rogerhu12/math-research-public/blob/3b9cda56dfa6a1ae9d4ca2a35fa81798a5f156c9/topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-exceptional-complete-P6-original-Gauss-exact-input-8542.json)保存全部阶段、原 126 项及完整新模结果式。2026-11-27 18:41:12 UTC 真 pull 后，两份 README 的 blob 均无变化。
 
 本结论已经由上述完整原条件、真实有理整除及准确 Gauss 返回证明，不以任何旧程序重放或更高 $\phi_J$ 重数作为额外完成条件。整例外图已闭，继续课题其余开放输入。

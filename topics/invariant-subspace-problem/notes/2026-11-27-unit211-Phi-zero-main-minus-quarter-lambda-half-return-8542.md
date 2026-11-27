@@ -1,5 +1,8 @@
 # Phi=0 主图 v=-1/4：真实原三多项式将值参数缩为 lambda=1/2，未排空
 
+数据保存说明（2026-11-28）：可重算载荷已按根规矩8/15从main移除，相关旧链接只定位既有历史；当前保留生成源、参数定义、run与SHA，原数学及执行身份不变。
+
+
 日期：2026-11-28（Asia/Taipei）  
 会话：Astra-ISP-8542378f-20261127
 
@@ -50,6 +53,6 @@ SHA256：d7514bd9d050465db0b26bf3ce2f12d044686df1261c0fc3fd60e4fd8f48e4db。
 - stdout：6287 字节；SHA256 964105ab394fc4f9ca43a6108599c1300c3fc0eee627fb8c23974d4a089b3566。
 - 2026-11-27 19:15:50 UTC 实际规则读取的两份 README blob 均未变。
 
-完整三多项式、Bézout 系数和 gcd 保存为 [原 lambda 纤维精确参数](2026-11-27-unit211-Phi-zero-main-minus-quarter-lambda-half-exact-input-8542.json)，解压原文 7134 字节，SHA256 3a7a082fdb8e569dfc4c1e5501c54f7ffd3558ef4b85746f1a4e90714fad0f2f。
+完整三多项式、Bézout 系数和 gcd 保存为 [原 lambda 纤维精确参数](https://github.com/Rogerhu12/math-research-public/blob/3b9cda56dfa6a1ae9d4ca2a35fa81798a5f156c9/topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-main-minus-quarter-lambda-half-exact-input-8542.json)，解压原文 7134 字节，SHA256 3a7a082fdb8e569dfc4c1e5501c54f7ffd3558ef4b85746f1a4e90714fad0f2f。
 
 [小执行回执](2026-11-27-unit211-Phi-zero-main-minus-quarter-lambda-half-execution-8542.json) 明确区分已完成的 QQ 约束、仅检测而未获准使用的线性除法，以及没有执行的后续模返回。本次没有重算任何原结果式，也没有关闭整主图或普通不变子空间问题。

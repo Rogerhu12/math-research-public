@@ -1,5 +1,8 @@
 # Phi=0 首个原二次头开图：同一原理想 D 返回及六次必要方程
 
+数据保存说明（2026-11-28）：可重算载荷已按根规矩8/15从main移除，相关旧链接只定位既有历史；当前保留生成源、参数定义、run与SHA，原数学及执行身份不变。
+
+
 日期：2026-11-28（Asia/Taipei）。会话：Astra-ISP-8542378f-20261127。
 
 ## 1. 结论与范围
@@ -117,7 +120,7 @@ $$
 
 完整 3101 项多项式保存在：
 
-[2026-11-27-unit211-Phi-zero-first-quadratic-head-actual-D-core-exact-input-8542.json](../notes/2026-11-27-unit211-Phi-zero-first-quadratic-head-actual-D-core-exact-input-8542.json)。
+[2026-11-27-unit211-Phi-zero-first-quadratic-head-actual-D-core-exact-input-8542.json](https://github.com/Rogerhu12/math-research-public/blob/3b9cda56dfa6a1ae9d4ca2a35fa81798a5f156c9/topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-first-quadratic-head-actual-D-core-exact-input-8542.json)。
 
 其规范 profile SHA256 为
 d12d36de38995832f521156d012ce93b6160dc7b1d870903923051ac5da0bf15。

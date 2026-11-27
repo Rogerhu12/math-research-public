@@ -20,7 +20,7 @@ R128 已证这是单射收缩交换子，$R_b(t)\to I$ 强收敛，且它的像�
 $$
 \boxed{
 \begin{array}{ll}
-b\in\ell^1:&R_b(t)\in(\mathscr C_m\cap\mathfrak U_m)^\times;\\[2mm]
+b\in\ell^1:&R_b(t)\in(\mathscr C_m\cap\mathfrak U_m)^\times;\$$2mm]
 b\notin\ell^1:&R_b(t)\in\mathfrak I_{\infty,m}\setminus\{0\}.
 \end{array}}
 \tag{1.2}
@@ -101,7 +101,7 @@ $$
 $$
 \boxed{
 \begin{array}{ll}
-a\in\ell^1:&R_a(t)\in(\mathscr C_m\cap\mathfrak U_m)^\times;\\[2mm]
+a\in\ell^1:&R_a(t)\in(\mathscr C_m\cap\mathfrak U_m)^\times;\$$2mm]
 a\notin\ell^1:&R_a(t)\in\mathfrak I_{\infty,m}\setminus\{0\}.
 \end{array}}
 \tag{2.2}

@@ -8,48 +8,48 @@
 
 沿用 [Lt0 的原参数定义](R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-theta-leading-zero-exclusion.md)，
 
-\[
+$$
 s=2\lambda-3,\quad A=2\lambda^2-2\lambda+1,\quad
 C=-4\lambda^2+5\lambda-2,
 \quad D=sC-Az,
-\]
-\[
+$$
+$$
 \Delta=s^2-4z,\quad B=2Cz-Ds,\quad
 \ell=D/z^2,\quad u=(D+\theta B)/z^2,
 \quad Q=1-\theta^2\Delta.
-\]
+$$
 
 原 Lt0 恒等式为
 
-\[
+$$
 (1-\ell)Q=2(u-1)(u-2).                            \tag{1}
-\]
+$$
 
 原 P0 非零支付 Q、u−1 与 ell 非零。因此在本图内，u=2 当且仅当 ell=1，也当且仅当 a=0。由 u=2 得
 
-\[
+$$
 H_z:=z^2-D=0,\qquad \theta B=z^2,
 \qquad \theta=z^2/B.                              \tag{2}
-\]
+$$
 
 z 已由 h1/k1 边界排除，故 B 在 (2) 上必非零。这里 theta 的恢复直接来自原 u、ell 定义，不使用一般位置假设，也不使用本轮曾作废的均值试探投影。
 
 令 U=D+theta B、V=U−z²、Q=1−theta²Delta、E=D+Cz、Tn=−4V−z²Q、W=(lambda−1)z−C，Y=2(Ds−Cz)+theta(Bs−DDelta)。与前述附录相同的原必要式是
 
-\[
+$$
 G=z^2(z^2-D)Q-2V(V-z^2),
-\]
-\[
+$$
+$$
 K=z^3(3-4\lambda-z)(-T_n^2+2DEQ^2-2\lambda DQT_n)
  +8DEQV^2-2VT_nWY.
-\]
+$$
 
 自含源逐项验证完整恒等式
 
-\[
+$$
 \operatorname{Res}_{\theta}(G,K)=256z^{14}J^2M(\lambda,z),\qquad
 B^2-\Delta(D-z^2)^2=z^2J.                         \tag{3}
-\]
+$$
 
 在 (2) 上 J=B²/z² 非零；g2=−2B² 也非零。因此原解必须同时满足 M=0、Hz=0。没有删去 (3) 的未付因子。
 
@@ -57,13 +57,13 @@ B^2-\Delta(D-z^2)^2=z^2J.                         \tag{3}
 
 源直接计算 Res_z(M,Hz)，lambda 次数 52。实际平方自由化并完整因式分解得到
 
-\[
+$$
 (\lambda-3/2)
 (\lambda^2-15\lambda/8+3/4)
 (\lambda^2-5\lambda/4+1/2)
 (\lambda^3+\lambda^2/2-15\lambda/8+7/16)
 \Phi_{18}(\lambda).                              \tag{4}
-\]
+$$
 
 全部因子及其重数实际乘回平方自由多项式。该 monic 多项式 SHA256 为
 
@@ -107,32 +107,32 @@ Phi18 的低到高系数为
 
 随后在
 
-\[
+$$
 \mathcal B=B_0[d]/(d^2-\Delta)
-\]
+$$
 
 中同时保留全部 lambda 根与 d 两根；不假设该二次塔不可约。置
 
-\[
+$$
 T=C/z,\quad w=\lambda-1-T,\quad B_v=2T-\ell s,
-\]
-\[
+$$
+$$
 b=\ell/2+B_vd/(2\Delta),\quad c=\ell-b,
 \quad p=1+\theta d,\quad q=1-\theta d,
-\]
-\[
+$$
+$$
 h=1+(s+d)/2,\qquad k=1+(s-d)/2.
-\]
+$$
 
 源验证 ell=1、u=2、三条原 U 矩和全部物理分母单位，并取
 
-\[
+$$
 V_2=2u-\ell Q,\quad T_0=V_2-2u^2,\quad P_{02}=2\ell Q(u-1),
-\]
-\[
+$$
+$$
 f=\frac{-T_0^2+2\ell Q^2(\ell+T)-2\lambda\ell QT_0}
 {4(u-1)T_0}.
-\]
+$$
 
 直接按原 W1、W2 重建 Gram，而非用任何新生成的大参数投影。原 P(V)、N(V) 均实际为零，全部九式
 
@@ -144,9 +144,9 @@ E1, EB, EC, P1, PB, PC, N1, NB, NC
 
 最后在整个 B 中计算原 R=Res_t(E1,EB)=r0+r1d，并为 r0²−Delta r1² 取得实际 B0 逆。逐项验证
 
-\[
+$$
 R\,(r_0-r_1d)(r_0^2-\Delta r_1^2)^{-1}=1.
-\]
+$$
 
 故原 E1、EB 不可能在同一 t 上同为零。共检查 52 次基代数真逆；末逆 SHA256 为
 

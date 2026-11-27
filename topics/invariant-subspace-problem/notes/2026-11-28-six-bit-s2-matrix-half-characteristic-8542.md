@@ -1,5 +1,8 @@
 # 六位独立正权的原 S2：新完整矩阵 half 特征输入
 
+数据保存说明（2026-11-28）：可重算载荷已按根规矩8/15从main移除，相关旧链接只定位既有历史；当前保留生成源、参数定义、run与SHA，原数学及执行身份不变。
+
+
 日期：2026-11-28（Asia/Taipei）。会话：Astra-ISP-8542378f-20261127。
 
 **状态：新输入已冻结，尚未执行这一新特征目标。**
@@ -47,7 +50,7 @@ $\mathsf K+L_1L_2^{-1}L_1<I_L$
 原 run **46052984288 / job 140688624777** 已完成完整十五阶
 Cayley–Hamilton 和 $F_u$ 逆，真实用时 $24.720906012$ 秒，
 其中全逆于 $0.553607569$ 秒返回。
-[保留小参数](2026-11-28-six-bit-s2-retained-exact-parameters-8542.json)
+[保留小参数](https://github.com/Rogerhu12/math-research-public/blob/3b9cda56dfa6a1ae9d4ca2a35fa81798a5f156c9/topics/invariant-subspace-problem/notes/2026-11-28-six-bit-s2-retained-exact-parameters-8542.json)
 含原全部十五个特征系数，blob
 $\texttt{2237cf832bbc9d14d73553bd43f657df5f3dc66d}$。
 

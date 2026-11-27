@@ -1,5 +1,8 @@
 # Phi=0 例外图：原矩像六次纤维完整排除与严格 128 个不同基点覆盖
 
+数据保存说明（2026-11-28）：可重算载荷已按根规矩8/15从main移除，相关旧链接只定位既有历史；当前保留生成源、参数定义、run与SHA，原数学及执行身份不变。
+
+
 日期：2026-11-28（Asia/Taipei）。会话：Astra-ISP-8542378f-20261127。
 
 ## 1. 完成的范围
@@ -189,7 +192,7 @@ $$
 \mathrm{core}=\frac{F}{8417660712863662080}.
 $$
 准确 F 就是
-[2026-11-27-unit211-Phi-zero-exceptional-F26-exact-input-8542.json](../notes/2026-11-27-unit211-Phi-zero-exceptional-F26-exact-input-8542.json)
+[2026-11-27-unit211-Phi-zero-exceptional-F26-exact-input-8542.json](https://github.com/Rogerhu12/math-research-public/blob/3b9cda56dfa6a1ae9d4ca2a35fa81798a5f156c9/topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-exceptional-F26-exact-input-8542.json)
 中保存的原多项式，profile SHA-256 为 9057238c5d37c8cd9f62f3f512dcff1f6d2e385cd6c0e39250a571713f0aaac7。原源 SHA-256 为 78f03ecc7a35c11d5c429d443acd394c043e48a4199d584701c574ace58c26de；其 8.547890058 秒的因子记录以及 8.559575778 秒的完整因式乘回记录同时保留 factorCount=1 和 multiplicity=1。这是已完成的原 QQ 因式证明，本稿没有重新执行它。
 
 因此 F 作为 $\mathbb Q[\lambda][\rho]$ 的多项式，其全部 $\rho$ 系数没有非恒定公因子。否则这个纯 $\lambda$ 公因子会给 F 一个真因子，与 F 不可约且 $\rho$ 次数为 26 矛盾。若某个复数 $\lambda_0$ 使 $F(\rho,\lambda_0)$ 恒为零，至少一个非零有理系数多项式使 $\lambda_0$ 为代数数，它的最小多项式就会整除 F 的全部 $\rho$ 系数，仍然矛盾。故每一个复 $\lambda_0$ 的原 F 纤维都是非零的一元多项式，根数至多 26；不可能遗漏一整条共同竖线。
@@ -210,7 +213,7 @@ SHA-256：
 
 新小精确输入：
 
-[2026-11-27-unit211-Phi-zero-exceptional-psiD-cubic-and-original-four-by-two-exact-input-8542.json](../notes/2026-11-27-unit211-Phi-zero-exceptional-psiD-cubic-and-original-four-by-two-exact-input-8542.json)
+[2026-11-27-unit211-Phi-zero-exceptional-psiD-cubic-and-original-four-by-two-exact-input-8542.json](https://github.com/Rogerhu12/math-research-public/blob/3b9cda56dfa6a1ae9d4ca2a35fa81798a5f156c9/topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-exceptional-psiD-cubic-and-original-four-by-two-exact-input-8542.json)
 
 其中保全部三次系数和 39688 字节原有限代数规则载荷；该载荷 SHA-256 为
 2153fe7c99fc22cf125dc64a7df5233f2966dc44e59ede92cfa6058a79edb4a7。

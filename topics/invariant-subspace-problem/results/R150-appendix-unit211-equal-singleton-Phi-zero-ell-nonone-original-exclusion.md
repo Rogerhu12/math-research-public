@@ -8,9 +8,9 @@
 
 Phi=0 中的 ell=1 特例仍完整保留。其原式强迫 u=2，再由原碰撞矩得到
 
-\[
+$$
  8\lambda^4-24\lambda^3+24\lambda^2-12\lambda+3=0.
-\]
+$$
 
 本篇不使用该四次的某个根，也不声称这个互补纤维已排空。它须独立返回原 Q 与 Gram；完整 h=k 和普通 ISP 均尚未因此完成。
 
@@ -18,53 +18,53 @@ Phi=0 中的 ell=1 特例仍完整保留。其原式强迫 u=2，再由原碰撞
 
 沿用[整个 J=Q 原碰撞排除](R150-appendix-unit211-equal-singleton-entire-JQ-zero-original-exclusion.md)的完整定义：
 
-\[
+$$
  A=2\lambda^2-2\lambda+1,\quad
  B=4\lambda^3-6\lambda^2+3\lambda-1,\quad
  \xi=B/A,\quad \ell=A^3/B^2,\quad T=A^2/B,
-\]
-\[
+$$
+$$
  S=2\xi+3-2\lambda,\quad \eta=\xi+3-2\lambda,\quad
  w=\lambda-1-T,\quad d=1-Q,
-\]
-\[
+$$
+$$
  b=\ell/2+(u-\ell)\rho/(2d),\quad c=\ell/2-(u-\ell)\rho/(2d),
  \quad \rho^2=d,\quad p=1+\rho,\ q=1-\rho.
-\]
+$$
 
 此前独立的整个 T0=0 与整个 J=Q 碰撞排除，现支付 Pf=T0(J−Q)≠0。原 S=0 全图排除以及 A、B 非零也均已付。
 
 Phi=0 的准确原式为
 
-\[
+$$
  (1-\ell)Q=2(u-1)(u-2).
-\]
+$$
 
 在本篇明确保留的 ell≠1 图上，
 
-\[
+$$
  Q=\frac{2(u-1)(u-2)}{1-\ell},\qquad T_0=4-4u-Q. \tag{1}
-\]
+$$
 
 仍采用原 P02、G、Pc、NF、NC。两个原仿射式为
 
-\[
+$$
  P_c+P_ff+bcQ\Phi t=0,\qquad
  N_C+N_Ff+bcQS\xi t=0.
-\]
+$$
 
 因为 Phi=0，
 
-\[
+$$
  \Delta=\Phi N_F-S\xi P_f=-S\xi P_f\ne0.
-\]
+$$
 
 所以整个本面都合法、唯一恢复
 
-\[
+$$
  f=-P_c/P_f,\qquad
  t=-(N_C+N_Ff)/(bcQS\xi). \tag{2}
-\]
+$$
 
 (2) 不倒 NF；NF=0 的所有参数纤维仍被保留。源把 (1)、Delta 身份及两条 (2) 原式完整乘回。
 
@@ -108,9 +108,9 @@ R143 的单位 gcd 循环标签为 A2:77、ell−1:25、S:15；R80 为 A2:62、e
 
 完整 QQ 扩展 Euclid 实际返回
 
-\[
+$$
  \gcd_{\mathbb Q[\lambda]}(R_{143},R_{80})=1.
-\]
+$$
 
 每步 Bézout 及累计两个原输入的组合都实际乘回；最终覆盖为常数1。故两条必要多项式不存在公共复根，排空整个本面。这里没有有限域抽样，也没有以多变量 gcd=1 代替单位理想。
 

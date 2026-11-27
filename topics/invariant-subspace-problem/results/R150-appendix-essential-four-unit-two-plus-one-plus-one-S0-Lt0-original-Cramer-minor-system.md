@@ -8,30 +8,30 @@
 
 原 Frobenius 乘法、Gram、E0/N0 与四原低次式均从头生成，保前稿的所有乘回检查。令 r²=1−Q、eta=theta·Delta；S0 给出
 
-\[
+$$
 H=\lambda-\tfrac12,\qquad
 h=H+\frac{\eta}{2(1-Q)}r,\qquad k=\bar h,
 \quad\Delta=(2\lambda-3)^2-4z.
-\]
+$$
 
 这里共轭只交换同一 r 的两根，eta 同时保留在原配对和范数条件中。令 Jeta=eta²−(1−Q)Delta，源先核
 
-\[
+$$
 h^2-\left(H^2+\Delta/4+\frac{H\eta}{1-Q}r\right)
 =\frac{J_\eta}{4(1-Q)},
-\]
-\[
+$$
+$$
 h^3-\left(H^3+3H\Delta/4
 +\frac{\eta(3H^2+\Delta/4)}{2(1-Q)}r\right)
 =\frac{3HJ_\eta}{4(1-Q)}
 +\frac{\eta J_\eta}{8(1-Q)^2}r.
-\]
+$$
 
 这是原**同一根**范数关系下的显式原倍数，不是独立取范数后混合嵌入。源生成
 
-\[
+$$
 P(K_B)-P_{02}h^3,\qquad N(K_B)-2\lambda P_{02}h^2
-\]
+$$
 
 在此同根约化后的偶部、奇部；C 点实际为相同共轭，完整保留。没有除 h，h=0 仍在输入中。两个偶部不再含 eta，两个奇部只一次含 eta。
 
@@ -43,44 +43,44 @@ P(K_B)-P_{02}h^3,\qquad N(K_B)-2\lambda P_{02}h^2
 
 在原可逆坐标 e=u−1、k=Q/e、v=4kbc·t 中，前三个原 mean 对 (lambda²,lambda f,f²) 的系数矩阵 C 满足已逐项核对的
 
-\[
+$$
 \det C=-512e(e+1)(4e-k-4)k^2(-j)^3D_3^3.
-\]
+$$
 
 全部因子是物理单位或已完整关闭的半 base 权边界。源码核对九条 C·adj(C)=det(C)I，因此可以用 Cramer 规则把纯 lambda/f 次数至少二的单项式改写为 lambda/f 总次数至多一。
 
 本次不只报告约化结果：每个单项式递归改写同时追踪三个原 mean 的系数。对每个输入 p，源实际回乘
 
-\[
+$$
 p-\operatorname{NF}(p)=q_1E_1+q_2E_{B,+}+q_3E_{B,-}.
-\]
+$$
 
 每个有理系数的分母都按 det(C) 的因子实际剥除至常数，共检查 114 个分母；没有加入未知参数曲线的逆。
 
 得到六条对 lambda、f 一次的必要式：原 N1elim、原 NB 偶部、原 PB 偶部、原 U 矩，以及两个原 mean 改写临界对。后两个同样有实际原组合核对，分别来自
 
-\[
+$$
 fR_{\lambda^2}-\lambda R_{\lambda f},\qquad
 fR_{\lambda f}-\lambda R_{f^2}.
-\]
+$$
 
 它们不是额外假设。六条必要式可写为
 
-\[
+$$
 L_i=a_i(e,k,v)\lambda+b_i(e,k,v)f+c_i(e,k,v)=0,
 \qquad i=1,\ldots,6.
-\]
+$$
 
 ## 3. 二十个三参数小行列式逐个乘回原行
 
 取六行 (ai,bi,ci) 的全部二十个 3×3 行列式。因为第三个坐标恒为 1，每个行列式有直接的多项式原行组合：若选三行 A、B、C，则
 
-\[
+$$
 \det(A,B,C)
 =(b_\lambda c_f-b_fc_\lambda)L_A
 -(a_\lambda c_f-a_fc_\lambda)L_B
 +(a_\lambda b_f-a_fb_\lambda)L_C.
-\]
+$$
 
 源码对全部二十条身份逐项核验。因此这些行列式只含 (e,k,v)，且属于原必要理想在已付单位上的局部化。不是仅凭秩的一般位置论证，也没有漏掉某个小行列式首项零面。
 

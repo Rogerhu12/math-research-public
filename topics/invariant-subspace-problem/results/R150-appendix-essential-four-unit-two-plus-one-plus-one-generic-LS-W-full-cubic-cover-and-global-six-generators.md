@@ -74,7 +74,7 @@ $$
 \rho=
 \begin{pmatrix}
 yL_0+btL_3\\xL_2+ftL_1\\yL_1+dtL_3\\xL_3+htL_1\\
-(x+dt)L_1-tL_0\\(y+ht)L_3-tL_2
+(x+dt)L_1-tL_0\$y+ht)L_3-tL_2
 \end{pmatrix}. \tag{5}
 $$
 $\rho$ 的总次数不超过 2。源码既比较 (3) 全多项式，也独立提取每个三次系数与 (4) 核对；六条对原六式的迹分别乘回。这些是原理想内的身份。

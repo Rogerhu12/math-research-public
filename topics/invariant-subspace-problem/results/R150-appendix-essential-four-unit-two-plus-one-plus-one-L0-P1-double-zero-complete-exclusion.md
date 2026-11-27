@@ -8,43 +8,43 @@
 
 使用 [L0 的原对称参数及 W 整曲线证明](R150-appendix-essential-four-unit-two-plus-one-plus-one-L0-linear-lambda-curve-exclusion.md) 的共同规范 p+q=2。以原参数 rho、lambda、w，记
 
-\[
+$$
 A=2\lambda^2-2\lambda+1,\quad
 B=4\lambda^3-6\lambda^2+3\lambda-1,\quad R=\lambda-1-w,
-\]
-\[
+$$
+$$
 u=R/\rho,\quad V_2=A/\rho^2,\quad
 Q=(2A\rho-B)/(\rho^2R),\quad \Delta=1-Q,
-\]
-\[
+$$
+$$
 \ell=(2u-V_2)/Q,\quad
 bc=\{\ell^2\Delta-(u-\ell)^2\}/(4\Delta).
-\]
+$$
 
 在整个二次代数 kappa²=Delta 中取 p=1+kappa、q=1−kappa，b、c 为对应相关权，h=1+rho·p、k=1+rho·q。既有源重建同一原 Gram、原 U 三矩、原 N(V)、E0/N0 和全部九式；双点乘法始终为
 
-\[
+$$
 (vz)_1=v_0z_1+v_1z_0.
-\]
+$$
 
 没有取某个有利的 kappa 嵌入。A 可为零，从未将其作为分母。
 
 用原 N(V) 得到的 f 后，清除原已付物理分母，原 P1 为
 
-\[
+$$
 \alpha(\rho,\lambda,w)t+\beta(\rho,\lambda,w)=0.
-\]
+$$
 
 分别剥除各系数中已付单位，可得等价双零条件 alpha0=beta0=0，其中
 
-\[
+$$
 \deg_\rho\alpha_0=2,\qquad
 \beta_0=b_1(\lambda,w)\rho+b_0(\lambda,w).
-\]
+$$
 
 这两个系数及 b0/b1 在 [原冻结自含源](../notes/2026-11-26-unit211-L0-P1-double-zero-linear-rho-return-347c.py) 中由原 Gram 直接生成，不依赖数值采样。二次式的准确形式为
 
-\[
+$$
 \begin{aligned}
 4\alpha_0={}&4\rho^2(\lambda-w-1)\\
 &+\rho(-8\lambda^2+8\lambda w+12\lambda-4w^2-8w-6)\\
@@ -52,7 +52,7 @@ bc=\{\ell^2\Delta-(u-\ell)^2\}/(4\Delta).
 +6\lambda w^2+10\lambda w+6\lambda\\
 &-2w^3-6w^2-5w-2.
 \end{aligned}
-\]
+$$
 
 原 rho、lambda、w、w−1、R、bc、Q、Delta、P0、u−1、ell 均按已登记整支支付；独立已闭曲线 W=4lambda·w+2lambda−2w²−4w−1 也可以剥除。beta 的 rho 首项 b1 则必须保留零支，不能直接除去。
 
@@ -100,18 +100,18 @@ bc=\{\ell^2\Delta-(u-\ell)^2\}/(4\Delta).
 
 这里
 
-\[
+$$
 \Phi_7=128\lambda^7+32\lambda^6-336\lambda^5+324\lambda^4
 +108\lambda^3-331\lambda^2+214\lambda-45,
-\]
-\[
+$$
+$$
 \begin{aligned}
 w_7={}&\frac{12288}{2459}\lambda^6+\frac{3680}{2459}\lambda^5
 -\frac{34328}{2459}\lambda^4+\frac{22592}{2459}\lambda^3\\
 &+\frac{13535}{2459}\lambda^2-\frac{43245}{4918}\lambda
 +\frac{11419}{4918}.
 \end{aligned}
-\]
+$$
 
 42 次原覆盖的 SHA256 为
 
@@ -125,9 +125,9 @@ w_7={}&\frac{12288}{2459}\lambda^6+\frac{3680}{2459}\lambda^5
 
 本次 [新增自含源](../notes/2026-11-27-unit211-L0-P1-double-zero-boundary-original-return-8542.py) 重建原 Gram 系数，然后直接接上已执行的两类候选，不重跑上述 42 次或 400 次投影。分别在 QQ 与整个 QQ[lambda]/(Phi7) 内先核对
 
-\[
+$$
 b_0(\lambda,w)=b_1(\lambda,w)=0.
-\]
+$$
 
 对同一 lambda、同一 w，把原 alpha0、全部物理单位以及原 Res_t(E1,N1) 返回成 rho 的一元多项式。在两个完整代数中，原 alpha0 都是二次；它与原结果式的 gcd 都为 1：
 

@@ -8,9 +8,9 @@
 
 三个新的必要参数多项式在 (lambda,u,Q) 中的次数分别为
 
-\[
+$$
  (62,17,9),\qquad(80,20,11),\qquad(61,16,9).
-\]
+$$
 
 它们不是已排空证明，不把多变量 gcd=1 当作无公共零点，也不反称三个 cofactor 已替代五条原行。下一输入在完整 Delta=0 面先作原相容的固定 Q 投影，仍保所有 Q 首项零点。
 
@@ -18,39 +18,39 @@
 
 沿用[整个Q=1−u的独立碰撞排除](R150-appendix-unit211-equal-singleton-Q1u-Delta-zero-and-entire-face-exclusion.md)及其中各先前原结论。在剩余 h=k 图中，T0 与 J−Q 已分别整面排除，故
 
-\[
+$$
  P_f=T_0(J-Q)
-\]
+$$
 
 是真实原单位。原参数仍为
 
-\[
+$$
  A=2\lambda^2-2\lambda+1,\quad B=4\lambda^3-6\lambda^2+3\lambda-1,
 \quad \xi=B/A,\quad \ell=A^3/B^2,
-\]
-\[
+$$
+$$
  T=A^2/B,\quad h=k=1+\xi,\quad
  \rho^2=1-Q,\quad \rho(b-c)=u-\ell.
-\]
+$$
 
 保留自由 z=Qt，只从原 P1 解
 
-\[
+$$
  f=-\frac{P_c+bc\Phi z}{P_f}. \tag{1}
-\]
+$$
 
 原 NV 行为
 
-\[
+$$
  E_{NV}=N_Ff+bcS\xi z+N_C.
-\]
+$$
 
 程序对全部系数准确返回
 
-\[
+$$
  P_f E_{NV}=T_n-bc\Delta z,\qquad
  T_n=P_fN_C-P_cN_F. \tag{2}
-\]
+$$
 
 所以 (2) 在 Delta零面仍是原相容条件 Tn=0，而非一个被除法删除的分支。Delta非零时可再恢复原 z，但本篇没有做这个局部化。
 
@@ -58,17 +58,17 @@
 
 直接调用[已证明的自由原 Gram 标量恒等式](R150-appendix-unit211-compact-original-scalar-means-and-N1-identities.md)，取
 
-\[
+$$
  R=R_2/(2\rho),\quad W=W_4/(4\rho^2),
  \quad O=O_8/\rho,\quad N=N_1^*.
-\]
+$$
 
 这些乘除只涉及原非零 rho。再使用同一个原 E0/N0 恢复
 
-\[
+$$
  V_n=Jf-G+bc z,\quad W_*=T_0+4uf,\quad
  Y_*=QW_*-2V_n.
-\]
+$$
 
 这里 Y_* 对应通用恒等式正文中的辅助量 N；本页原 N1 行始终记 N，不把它与极化项 Nv 混同。原恒等式正文中的实际 P1 来源 Pj=3wP02 仍用于 N1。
 
@@ -82,11 +82,11 @@
 
 将每一条原有理多项式 p 写作
 
-\[
+$$
  p=\frac{g_p}{d_p}
       (\widehat p_0+\widehat p_1z+\widehat p_2z^2),
  \qquad g_p/d_p\ \hbox{为原单位}. \tag{3}
-\]
+$$
 
 共同分母 d_p 是实际系数分母的 lcm。分子公共内容只剥与此前已付原单位相交的因子；未付内容保留。程序实际检查14种不同系数分母，并把 (3) 全部系数乘回。没有以一般秩或随机点核验代替恒等式。
 
@@ -98,18 +98,18 @@
 
 对三行 a,b,c，定义多项式行
 
-\[
+$$
  \gamma=(b_1c_2-b_2c_1,\ 
          c_1a_2-c_2a_1,\ 
          a_1b_2-a_2b_1).
-\]
+$$
 
 新源对三列逐一准确核回
 
-\[
+$$
  \gamma\begin{pmatrix}a\\b\\c\end{pmatrix}
        =(\det(a,b,c),0,0). \tag{4}
-\]
+$$
 
 实际三组为 (R,W,O)、(R,W,N1)、(NV,R,W)。由于每个原点有首项为1的非零评价列 (1,z,z²)^t，(4) 迫相应行列式为零。无需把这三列视为原最终商的自由基底。
 

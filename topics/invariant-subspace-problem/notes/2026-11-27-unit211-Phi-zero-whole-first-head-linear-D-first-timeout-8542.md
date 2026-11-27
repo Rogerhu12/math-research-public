@@ -1,5 +1,8 @@
 # Phi=0 整首个二次头零曲线：原线性关系已返，D 公共取消首次超时
 
+数据保存说明（2026-11-28）：可重算载荷已按根规矩8/15从main移除，相关旧链接只定位既有历史；当前保留生成源、参数定义、run与SHA，原数学及执行身份不变。
+
+
 日期：2026-11-28（Asia/Taipei）。会话：Astra-ISP-8542378f-20261127。
 
 **准确状态：本次返回完整原线性关系及三条多项式消元恒等式；后续 D 目标的第一个公共因子计算达到原定 120 秒限额。** 没有最终约消后的 D 必要多项式、没有有限权重覆盖、没有整个首项零曲线的排除。原源码与失败身份冻结，不抬限重跑。
@@ -42,7 +45,7 @@ L=a(\lambda)T+b(\lambda)z+c(\lambda),
 (\deg_\lambda a,\deg_\lambda b,\deg_\lambda c)=(1,1,2).
 $$
 此阶段在 0.082881465 秒完成。全部精确系数保存于
-[原线性参数](2026-11-27-unit211-Phi-zero-whole-first-head-original-linear-relation-exact-input-8542.json)，包括每个 $\lambda$ 系数的四个 $Q$ 分量及共同 $\mathbb Q[u]$ 分母。未把 $a,b,c$ 的任何 $\lambda$ 因子当作新单位；如需跨过其权参数分母零纤维，须先清回多项式身份。
+[原线性参数](https://github.com/Rogerhu12/math-research-public/blob/3b9cda56dfa6a1ae9d4ca2a35fa81798a5f156c9/topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-whole-first-head-original-linear-relation-exact-input-8542.json)，包括每个 $\lambda$ 系数的四个 $Q$ 分量及共同 $\mathbb Q[u]$ 分母。未把 $a,b,c$ 的任何 $\lambda$ 因子当作新单位；如需跨过其权参数分母零纤维，须先清回多项式身份。
 
 对任一原二次式
 $$

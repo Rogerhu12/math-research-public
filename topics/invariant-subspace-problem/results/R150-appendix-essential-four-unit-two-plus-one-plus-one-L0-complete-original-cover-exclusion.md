@@ -36,7 +36,7 @@ $$R=\operatorname{Res}_{\lambda}(C,X),\quad S_8=\operatorname{Res}_{\lambda}(X,C
 
 [完整原 C/X 次数证书](R150-appendix-essential-four-unit-two-plus-one-plus-one-L0-CX-exact-degree-3352-cover.md)在原73阶 Sylvester 矩阵上作2233次 QQ[w] 行操作，逐项回乘163009条身份，证明 deg R≤3352。同一完整行列式的模1009次数为3352，故
 $$\deg R=3352.\tag{2}$$
-原 C/X 系数都属于局部整环 \(D=\mathbb Z_{(1009)}\)，原 lambda 次数约化保持。因此完整模结式等于 \(\bar R\)，而(2)说明 \(c=\operatorname{lc}(R)\) 是 D 中单位，得到
+原 C/X 系数都属于局部整环 $D=\mathbb Z_{(1009)}$，原 lambda 次数约化保持。因此完整模结式等于 $\bar R$，而(2)说明 $c=\operatorname{lc}(R)$ 是 D 中单位，得到
 $$R/c\in D[w]\quad\text{且首一。}\tag{3}$$
 首项保持来自特征零上界和模下界相合，不是仅凭模次数推断；旧超时的大 QQ 结式、Groebner 门及 PRS 均没有被视作成功。
 
@@ -79,9 +79,9 @@ $$Q_*(w)\ne0.\tag{5}$$
 始终把 C/X 作为次数39/34的二元齐次形式。五个 J 使用固定多项式平移并逐项逆平移。w 因子使用固定 SL2 变换
 $$\lambda=r(w)+\frac{z}{1+s(w)z},$$
 $$r(w)=\tfrac12+w-4w^2+28w^3-248w^4+\tfrac{60048}{25}w^5,\qquad s(w)=-6w+24w^2.$$
-它由平移、反转、平移、反转组成，矩阵为 \(\left(\begin{smallmatrix}1+rs&r\\s&1\end{smallmatrix}\right)\)，行列式1，所以保持完整二元结式。源码保留40/35个系数位置并逐系数反变换回原式；没有倒置 1+sz 或删去无穷远纤维。w+1 直接使用原矩阵。
+它由平移、反转、平移、反转组成，矩阵为 $\left(\begin{smallmatrix}1+rs&r\\s&1\end{smallmatrix}\right)$，行列式1，所以保持完整二元结式。源码保留40/35个系数位置并逐系数反变换回原式；没有倒置 1+sz 或删去无穷远纤维。w+1 直接使用原矩阵。
 
-对所得73阶矩阵 M，固定整数权 u_i、v_j，并逐项准确验证 \(v_\phi(M_{ij})\ge u_i+v_j\)，同时在完整匹配上核验等号。写
+对所得73阶矩阵 M，固定整数权 u_i、v_j，并逐项准确验证 $v_\phi(M_{ij})\ge u_i+v_j$，同时在完整匹配上核验等号。写
 $$M_{ij}=\phi^{u_i+v_j}M'_{ij},\qquad
 \det M=\phi^E\det M',\quad E=\sum_i u_i+\sum_jv_j.\tag{6}$$
 每个 M'ij 都是实际多项式。负权只作有理函数域中的行列记账；每项实际乘法或整除均回乘。初始 E 对 w、w+1、J2a、J2b、J3、J6、J10 分别是810、63、72、28、4、9、2。
@@ -92,7 +92,7 @@ $$M_{ij}=\phi^{u_i+v_j}M'_{ij},\qquad
 $$R\equiv\phi^E\det M\pmod{\phi^T}.\tag{7}$$
 每项模 phi^(T−E) 取余的商、余式及原项都回乘。对 K=QQ[w]/(phi)，正规表示把模 phi 行乘法变为73deg(phi)阶 QQ 矩阵。实际 QQ 核向量回乘为零，返回 K 后再次核验全部73列。每个规范化逆均由整个商代数中的 QQ 扩展 Euclid 支付；不需要 phi 不可约。
 
-选中 k 条核行，在其所选列上恰是单位阵。把标准多项式代表同时替换到对应行，P=I+N 满足 N²=0；按选中/其余行列分块为 \(\left(\begin{smallmatrix}I&A\\0&I\end{smallmatrix}\right)\)。故 det P=1、P^(-1)=I−N 都是 QQ[w] 真身份。源码还逐项执行逆行恢复，并非只在商代数中断言可逆。
+选中 k 条核行，在其所选列上恰是单位阵。把标准多项式代表同时替换到对应行，P=I+N 满足 N²=0；按选中/其余行列分块为 $\left(\begin{smallmatrix}I&A\\0&I\end{smallmatrix}\right)$。故 det P=1、P^(-1)=I−N 都是 QQ[w] 真身份。源码还逐项执行逆行恢复，并非只在商代数中断言可逆。
 
 新 k 行每项都准确含 phi，逐项相除后 E增加k。以新精度 T−E 再截断，(7)保持；达到 E=t 即证 phi^t整除R。没有倒置未知参数函数主元。
 

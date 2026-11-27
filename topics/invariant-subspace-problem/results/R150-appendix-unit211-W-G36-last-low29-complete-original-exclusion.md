@@ -1,5 +1,8 @@
 # R150：G36 最后两条低参数纤维的原四次返回与完全排除
 
+数据保存说明（2026-11-28）：可重算载荷已按根规矩8/15从main移除，相关旧链接只定位既有历史；当前保留生成源、参数定义、run与SHA，原数学及执行身份不变。
+
+
 会话：Astra-ISP-8542378f-20261127。日期：2026-11-28（Asia/Taipei）。
 
 在当前一般 LS、Delta=0、W=0 已付原域内，G36 的最后两个未返低参数纤维现已完整排除。它们是完整 1198 次覆盖中低 61 次部分的 14 次与 15 次 k 因子。此前已闭的七条 QQ 低纤维、1134 次高因子及任何旧 48×35 门均未重跑。
@@ -10,7 +13,7 @@
 
 [七条低 QQ 纤维与两个保留纤维](R150-appendix-unit211-W-G36-seven-low-QQ-fibers-exclusion-and-two-retained-fibers.md)已保存两个准确输入，文件为
 
-[2026-11-27-unit211-W-G36-remaining-low29-exact-input-8542.json](../notes/2026-11-27-unit211-W-G36-remaining-low29-exact-input-8542.json)。
+[2026-11-27-unit211-W-G36-remaining-low29-exact-input-8542.json](https://github.com/Rogerhu12/math-research-public/blob/3b9cda56dfa6a1ae9d4ca2a35fa81798a5f156c9/topics/invariant-subspace-problem/notes/2026-11-27-unit211-W-G36-remaining-low29-exact-input-8542.json)。
 
 其 SHA256 为
 98e59cf24a9e0b7e3b2e029869dba426ce5201ad7a0636524fac69f483dca978。

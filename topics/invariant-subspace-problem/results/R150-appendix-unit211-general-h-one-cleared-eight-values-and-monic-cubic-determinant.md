@@ -10,37 +10,37 @@ Astra-ISP-8542378f-20261127；AI-assisted GPT-6 Astra Pro。
 
 [原 U-value atlas](R150-appendix-essential-four-unit-two-plus-one-plus-one-original-U-value-atlas.md)第2.2节已给 h=1/k=1 的完整 moment 参数化。交换两个 singleton 后取 h=1。记
 
-\[
+$$
 A=2\lambda^2-2\lambda+1,\quad
 B=4\lambda^3-6\lambda^2+3\lambda-1,\quad
 \xi=B/A,\quad c=A^3/B^2,\quad b=\ell-c.
-\]
+$$
 
 于是
 
-\[
+$$
 h=1,\ k=1+\xi,\quad T=A^2/B,\quad w=\lambda-1-T.
-\]
+$$
 
 这里 A、B、xi 非零由原两矩、bc≠0、h≠k 支付。旧 S0-h1-k1 排除只覆盖 S=0；本文当前图为 S≠0，没有把旧排除误推到整个碰撞图。
 
 用原有序 rho=(p−q)/2，规范 p+q=2：
 
-\[
+$$
 p=1+\rho,\quad q=1-\rho,\quad Q=1-\rho^2,\quad
 u=bp+cq=p\ell-2c\rho.
-\]
-\[
+$$
+$$
 v_0=\xi/2,\quad v_1=-\xi/(2\rho),\quad
 \zeta=\xi p/(2\rho),\quad S=\xi+3-2\lambda.
-\]
+$$
 
 原 p、q、rho 和当前 S 均非零，故 zeta 自动非零。本次直接核对
 
-\[
+$$
 c\xi^2=A,\quad c\xi^3=B,\quad c\xi=T,\quad
 D=\ell A-T^2=bA,\quad M=4bc\rho^2.
-\]
+$$
 
 lambda、u、u−1、ell、u−ell、M、P02、T0、J−Q、u+Q−1 等此前已付权条件均保留在其原适用范围。没有额外倒置 ell−2c，也没有除去 A 或 B 的原未覆盖零支：它们的非零性专属于本碰撞图。
 
@@ -48,54 +48,54 @@ lambda、u、u−1、ell、u−ell、M、P02、T0、J−Q、u+Q−1 等此前已
 
 设
 
-\[
+$$
 V_2=2u-\ell Q,\quad T_0=V_2-2u^2,\quad
 J=2u(1-u)+\ell Q,\quad\Phi=T_0+4u-4+Q,
-\]
-\[
+$$
+$$
 P_{02}=(2-3u)V_2-Qu+2u^3,\quad
 P_f=T_0(J-Q),\quad G=\lambda P_{02}-(1-u)T_0,
-\]
-\[
+$$
+$$
 P_c=QP_{02}(\ell+T)-GT_0.
-\]
+$$
 
 在 z=(h−1)(k−1)=0 上，准确的原 N(V) 系数为
 
-\[
+$$
 N_F=(3-4\lambda)Q+S(2uQv_1+\zeta J),\qquad
 N_T=bcQS\zeta,
-\]
-\[
+$$
+$$
 N_C=-GS\zeta+\frac12SQ T_0v_1+
 Qw\{u(3-2\lambda+v_0+v_1)-\ell Qv_1\}.
-\]
+$$
 
 原两线是
 
-\[
+$$
 P_ff+bcQ\Phi t+P_c=0,\qquad N_Ff+N_Tt+N_C=0.
-\]
+$$
 
 令
 
-\[
+$$
 \Delta_*=\Phi N_F-S\zeta P_f.
-\]
+$$
 
 两线真实行列式为 −bcQ Delta*。在 Delta*≠0 图，定义
 
-\[
+$$
 H_0=\Delta_*,\quad f_0=S\zeta P_c-\Phi N_C,\quad
 t_0=(P_fN_C-P_cN_F)/(cQ).
-\]
+$$
 
 直接完整乘回得到
 
-\[
+$$
 P_ff_0+cQ\Phi t_0+P_cH_0=0,\quad
 N_Ff_0+cQS\zeta t_0+N_CH_0=0.
-\]
+$$
 
 因此 f=f0/H0、t=t0/(bH0)，不除以 Phi。本次尝试三分子的共同因子取消，实际 gcd 为1；没有声称此步获得不存在的缩小。
 
@@ -105,31 +105,31 @@ N_Ff_0+cQS\zeta t_0+N_CH_0=0.
 
 定义
 
-\[
+$$
 W_{1P}=T_0H_0/2+2uf_0,\quad
 W_{2P}=(uT_0+\lambda P_{02})H_0+(V_2+2u^2)f_0-cQt_0,
-\]
-\[
+$$
+$$
 X_0=(qW_{1P}-W_{2P})/[p(q-p)],\quad
 Y_0=(W_{2P}-pW_{1P})/[cq(q-p)].
-\]
+$$
 
 这些分母全部位于 (lambda,rho) 基参数环，且已由本图支付。进一步置
 
-\[
+$$
 r_0=X_0-apH-ct_0,\quad
 s_0=Y_0-aqH_0-t_0,\quad
 A_0=2f_0-2X_0-2cY_0+2ct_0,\quad a=1-\ell.
-\]
+$$
 
 四条真实的 H·Gram 行恰为
 
-\[
+$$
 (0,0,pH,qH),\quad
 (0,bA_0,r_0,bs_0),\quad
 (pH,r_0,0,t_0),\quad
 (qH,bs_0,t_0,0).
-\]
+$$
 
 这是将原 E0/N0 的同一 X/Y 恢复逐项乘 H 后所得。特别真实 tau(dN)=2bf0。原 P1 的完整极化剩余也实际为零。
 
@@ -162,19 +162,19 @@ A_0=2f_0-2X_0-2cY_0+2ct_0,\quad a=1-\ell.
 
 这是从同一紧凑原线得到的新增结构。u=p ell−2c rho 对 ell 一次，T、c、S、zeta、v1 都只依赖 lambda/rho。由
 
-\[
+$$
 \Delta_*=
 S\zeta\{J(4u-4+Q)+T_0Q\}
 +\Phi\{(3-4\lambda)Q+2uQSv_1\}
-\]
+$$
 
 可见最高次数至多三。T0、J、Phi 的 ell² 系数都为 −2p²，故 ell³ 系数为
 
-\[
+$$
 -8S\zeta p^3-4QSv_1p^3
 =-4Sp^3(2\zeta+Qv_1)
 =-\frac{2S\xi p^5}{\rho}.
-\]
+$$
 
 最后一步使用 2p−Q=p²。该系数在本原碰撞图非零，因此 Delta* 对 ell **恰为三次**，且可以用已付基域单位首一化。这里没有遗漏新的最高系数零分支。
 

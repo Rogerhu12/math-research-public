@@ -4,8 +4,10 @@
 
 ## 目标与规矩
 
+- **数据规矩8/15已纠正：** 本会话可重算编码/分片载荷从main普通删除；只保源/定义/run/SHA及[历史定位](notes/2026-11-28-historical-input-provenance-8542.json)，以后不经工具搬数据。冻结源若需旧输入，用终端按该定位临时取回；不重写历史。
+
 - **普通复可分无限维 Hilbert ISP 未完成。** 只以全体有界算子定理或完整反例收尾；子题/时间/输入不足均不停止，按open换输入继续。
-- **最近实际 pull / 已读规则提交：** 74e01d27cb8d2d28b68dc50220d224d57cd6c7b4（2026-11-27 20:10:14 UTC，Actions run46061725357实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-8542/46061725357-1.json。
+- **最近实际 pull / 已读规则提交：** 5904e36a751ed9a1eb0e605b49c8e868e0ff8536（2026-11-27 20:19:46 UTC，数据规矩修正run46061776197真实pull --rebase，两README无差异）。记录：notes/root-terminal-pulls-8542/46061776197-policy.json。
 - 私库QUEUE本会话进行中已实际核验；最近真实pull为2026-11-27 20:10:14 UTC/9083890be5adb5b816869a719abd84fea7bc7f28，根README diff无变。公私均部分克隆blob:none。
 - **终端再次断开：** 约07:20 UTC起本地执行器不可用；20:08 UTC再次探测仍不可用。按根规矩8/13小文本准备、公开Actions真实pull/rebase/push，非快进立即循环；旧故障与准确源保[说明](notes/2026-11-27-executor-outage-and-unpublished-small-input-checkpoint-8542.md)，未冒称本地恢复。
 - **终端断开后远端已读：** `ed7c0f58a9dfd50e91e7143e9f6671e2416351e1`（2026-11-27 20:09:51 UTC）；只读检查不冒称实际pull。

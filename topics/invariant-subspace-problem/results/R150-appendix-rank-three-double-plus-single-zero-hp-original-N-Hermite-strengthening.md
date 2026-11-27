@@ -7,86 +7,86 @@
 ## 1. 原对象与确切求导
 
 仍在已证九次域
-\[
+$$
 K_e=\mathbb Q[e]/(16e^9-108e^8+36e^7-15e^6+18e^4-1)
-\]
+$$
 中工作。令
-\[
+$$
 R_e=2e^3+1,\quad Q=4e^3-1,\quad D_e=2e^3+1-12e^4,
 \quad b=-R_e/6.
-\]
+$$
 这些所需常数均是既有已付单位。物理参数为二重点 s、孤立点 w=s+d，以及两个 V 源的对称参数 x,z。沿用原核 k(s,w)、原范数
-\[
+$$
 n=N_s=k(s,\alpha)k(s,\beta),\quad
 \Delta=x^2-4z,\quad q_p=x^3-5x^2+x^2z-6xz+32z-5z^2,
-\]
-\[
+$$
+$$
 \beta=b_s=-2s^2(s-2)(s+6),\quad E=s^2-sx+z.
-\]
+$$
 本稿简写 k=k(s,w)，k'=\partial_s k，n'=\partial_s n，beta'=\partial_s beta；所有这些 s 导数均保持 **w,x,z 固定**。以 d 替代 w 后，准确导数为
-\[
+$$
 \partial_s\big|_{w,x,z}=\partial_s\big|_{d,x,z}-\partial_d.
 \tag{1.1}
-\]
+$$
 令
-\[
+$$
 H=k n'-2nk',\qquad
 \Lambda=\frac{\Delta q_p}{4e^2n},\qquad
 q=\frac{2R_e nk}{3H}.
 \tag{1.2}
-\]
+$$
 这里 q 是原 jet 比例；不要与 q_p 混同。原 jet 范数等价于
-\[
+$$
 P_J=3e^2H^2+2R_e\Delta q_p\beta n k^2=0.
 \tag{1.3}
-\]
+$$
 原定位已经支付 e,beta,n,k,Delta,q_p；(1.3) 又使 H 为单位。因此本稿全部有理分母均在原商环中合法。n=E²Q_n、k=−d²Q_w、H=dE W_d 与前稿完全一致。
 
 ## 2. 从原完整 N 读取二阶系数
 
 令 r=s+t，并记
-\[
+$$
 f(r)=k(s,r),\quad j(r)=\partial_s k(s,r),\quad g(r)=k(w,r).
-\]
+$$
 在原完整 N 中，P_* 与 S_* 在 s 都有至少二重零，所以它们的平方不贡献 t² 系数。剩余部分准确为
-\[
+$$
 \frac{N_r}{\Lambda n}-2\mathcal H(r)+4\mathcal J(r),
-\]
-\[
+$$
+$$
 \mathcal H=2\Lambda f\{q(j-k'f/k)-f/4\}+\frac{g^2}{2\Lambda k^2},
 \qquad
 \mathcal J=b\Lambda f^2+\{q(j-k'f/k)-f/2\}\frac gk.
 \tag{2.1}
-\]
+$$
 这些是原重建的完整极线，未删 V 项。
 
 原核给出字面多项式身份
-\[
+$$
 f(s+t)=-\frac\beta2t^2+O(t^3),\quad
 j(s+t)=\beta t+\frac{\beta'}4t^2+O(t^3),
-\]
-\[
+$$
+$$
 g(s+t)=k+k't+\frac{k''}2t^2+O(t^3),\quad
 N_{s+t}=n+n' t+\frac{n''}2t^2+O(t^3).
-\]
+$$
 代入 (2.1)，原 N 的真实二阶系数为
-\[
+$$
 c_2=\frac{n''}{2\Lambda n}
 -\frac{(k')^2+kk''}{\Lambda k^2}
 +q\beta'+6q\beta\frac{k'}k+\beta.
 \tag{2.2}
-\]
+$$
 每个完整原解都必须满足 c2=0。
 
 定义新的原多项式
-\[
+$$
 \boxed{P_2=
 3e^2\{2\beta n H'-2\beta n'H-n\beta'H\}
 -(8e^3+1)\Delta q_p\beta^2nk.}
 \tag{2.3}
-\]
+$$
 它不是对 (1.3) 的求导。准确恒等式是
-\[
+$$
 \boxed{
 \Lambda c_2=
 \frac{P_2}{12e^2\beta n^2k}
@@ -94,75 +94,75 @@ c_2=\frac{n''}{2\Lambda n}
 \frac{\beta'+6\beta k'/k}{12e^2H\beta nk}
 +\frac1{6e^2n^2k^2}\right\}.}
 \tag{2.4}
-\]
+$$
 验证 (2.4) 只需使用 H=kn'−2nk' 与 H'=kn''−n'k'−2nk''，展开有理函数；不使用 G9 或任何临界点关系。源另以独立符号 n,n',n'',k,k',k'',beta,beta',Delta*q_p 检查两边差严格为零。
 
 由原单位与 (1.3)，c2=0 当且仅当 P2=0。P2 还字面被 E² 整除；源验证准确商乘回。因此可把
-\[
+$$
 P_2/E^2=0
 \tag{2.5}
-\]
+$$
 加入前稿原七式，无新增定位因子。这个新生成元在 d 中次数5，完整整数展开有5694项；这里只保存生成源与哈希，不存展开数组。
 
 ## 3. 孤立点原 N 一阶系数的低次返回
 
 原重建第6节已经证明
-\[
+$$
 QW(r_w-d_w)-2R_e\,\partial_s\partial_w\log k=0,
-\]
+$$
 其中 W=H/(2nk)、r_w=(partial_w N_w)/(2N_w)、d_w=(partial_w k)/k。此处沿用该结论，新增的是保全部原零纤维的降式。
 
 令
-\[
+$$
 L_2=2A_sA_w+(A_sB_w+B_sA_w)x+2zB_sB_w,
 \quad S_w=A_sB_w-B_sA_w,
-\]
-\[
+$$
+$$
 k_w=\partial_wk,\quad
 C_k=k\partial_s\partial_wk-k'k_w,
 \quad H_w=k\partial_wN_w-2N_w k_w.
-\]
+$$
 清除原单位后，既有条件为
-\[
+$$
 F_w=QHH_w-8R_e nN_wC_k=0.
 \tag{3.1}
-\]
+$$
 两个真正的**普遍恒等式**为
-\[
+$$
 L_2^2-4nN_w=\Delta S_w^2,
 \quad
 2L_2\partial_wL_2-4n\partial_wN_w=2\Delta S_w\partial_wS_w.
 \tag{3.2}
-\]
+$$
 第二式是对第一式这一普遍多项式身份求导，不是对解集上的约束求导。
 
 原 J、C 使 S_w=0。原未平方单点比例式是
-\[
+$$
 K=2e^2QL_2-D_e\Delta q_p k=0.
 \tag{3.3}
-\]
+$$
 因此 L2 是强迫单位，Nw=L2²/(4n) 亦是单位，不需另选子图。
 
 置
-\[
+$$
 M_w=QH(k\partial_wL_2-L_2k_w)-4R_e nL_2C_k,
-\]
-\[
+$$
+$$
 \boxed{\widetilde F_w=
 QH(2e^2Q\partial_wL_2-D_e\Delta q_p k_w)
 -4R_eD_e n\Delta q_p C_k.}
 \tag{3.4}
-\]
+$$
 完整的两条降式身份为
-\[
+$$
 4nF_w=2L_2M_w+\Delta S_w\{-2QHk\partial_wS_w
 +2QHS_wk_w+8R_enS_wC_k\},
 \tag{3.5}
-\]
-\[
+$$
+$$
 2e^2QM_w=k\widetilde F_w-K(QHk_w+4R_enC_k).
 \tag{3.6}
-\]
+$$
 源将 (3.2)、(3.3)、(3.5)、(3.6) 全部作为整数多变量恒等式实际乘回。故在原七式与同一物理定位上，Fw=0 当且仅当 tildeFw=0。最后仅约掉字面公因子 E*d；商在 d 中次数8，保所有原物理纤维。没有除任何新的首项。
 
 ## 4. 实际检查与后续单位门

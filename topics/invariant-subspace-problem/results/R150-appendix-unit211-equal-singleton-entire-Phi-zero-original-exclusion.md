@@ -14,37 +14,37 @@
 
 沿用[整个 J=Q 碰撞证明](R150-appendix-unit211-equal-singleton-entire-JQ-zero-original-exclusion.md)中的
 
-\[
+$$
  A=2\lambda^2-2\lambda+1,\quad
  B=4\lambda^3-6\lambda^2+3\lambda-1,\quad
  \ell=A^3/B^2,\quad T=A^2/B,\quad \xi=B/A,
-\]
-\[
+$$
+$$
  S=2\xi+3-2\lambda,\quad \eta=\xi+3-2\lambda,\quad w=\lambda-1-T.
-\]
+$$
 
 原 Phi 条件是
 
-\[
+$$
  (1-\ell)Q=2(u-1)(u-2). \tag{1}
-\]
+$$
 
 ell≠1 图已经由完整八原式、固定11阶与9阶 QQ 结式得到 R143/R80 的 Bézout 单位。原首项为零的所有 lambda 纤维均保留。这里只补其真正的互补 ell=1。
 
 由 (1) 及原 u≠1，ell=1 时必须 u=2。原二、三矩给
 
-\[
+$$
  B^2-A^3=\lambda^2\phi_4(\lambda),\qquad
  \phi_4=8\lambda^4-24\lambda^3+24\lambda^2-12\lambda+3.
-\]
+$$
 
 原 lambda≠0 已付，故保留 phi4 的全部复根。实际用的是首一常数代数
 
-\[
+$$
  K=\mathbb Q[\lambda]/
  \bigl(\lambda^4-3\lambda^3+3\lambda^2-\tfrac32\lambda+\tfrac38\bigr).
  \tag{2}
-\]
+$$
 
 源准确核验 phi4 与其导数互素。计算不选择某一根或某一复嵌入，也不以数值近似替代 K。每一次常数逆都由 QQ 扩展 Euclid 给出真实乘积1；若某常数不是整个 K 的单位，代码按 gcd 将全部常数因子分成两支继续。本次实际无任何这种分拆。
 
@@ -52,33 +52,33 @@ ell≠1 图已经由完整八原式、固定11阶与9阶 QQ 结式得到 R143/R8
 
 在整个 (2) 上仍保留原 Q 为自由变量。令 rho²=d=1−Q，p=1+rho、q=1−rho，原权按
 
-\[
+$$
  b=\frac12+\frac{\rho}{2d},\qquad
  c=\frac12-\frac{\rho}{2d}.
-\]
+$$
 
 它们准确满足 b+c=1、bp+cq=2，且
 
-\[
+$$
  bc=-\frac{Q}{4(1-Q)},\qquad
  T_0=-Q-4,\qquad J-Q=-4,\qquad
  P_{02}=2Q,\qquad P_f=4(Q+4),\qquad \Phi=0. \tag{3}
-\]
+$$
 
 原 Q≠0、rho≠0 已付；此前整个 T0=0 碰撞排除支付 Q+4≠0。因而本篇所有 Q 分母只从
 
-\[
+$$
  Q,\quad 1-Q,\quad Q+4
-\]
+$$
 
 产生，并在构造后逐个 gcd 剥除确认。K 中的 A、B、S、xi 等常数逆均真实乘回；没有把一般函数域非零冒充整个常数代数单位。
 
 以原 Pc、NF、NC 的同一公式，两个仿射条件给
 
-\[
+$$
  f=-P_c/P_f,\qquad
  t=-\frac{N_C+N_Ff}{bcQS\xi}. \tag{4}
-\]
+$$
 
 因为 Delta=−SxiPf≠0，(4) 在整个本面有效；不倒 NF。源把 (3)、(4) 的全部原身份准确乘回，然后重建 H=1 的未缩放原 Gram。
 
@@ -101,13 +101,13 @@ ell≠1 图已经由完整八原式、固定11阶与9阶 QQ 结式得到 R143/R8
 
 仅 E1 与 EBe 两个完整分子已足够。K[Q] 的真实扩展 Euclid 给次数分别至多5、3的 a(Q)、b(Q)，完整乘回
 
-\[
+$$
  a(Q)E_1(Q)+b(Q)E_{Be}(Q)=1. \tag{5}
-\]
+$$
 
 例如 E1 的 Q 升幂系数为
 
-\[
+$$
 \begin{aligned}
 &15456-39424\lambda+65984\lambda^2-28928\lambda^3,\\
 &5880-14912\lambda+25472\lambda^2-11136\lambda^3,\\
@@ -115,7 +115,7 @@ ell≠1 图已经由完整八原式、固定11阶与9阶 QQ 结式得到 R143/R8
 &1023/2-1296\lambda+2248\lambda^2-976\lambda^3,\\
 &957/8-(1173/4)\lambda+(2007/4)\lambda^2-222\lambda^3 .
 \end{aligned}
-\]
+$$
 
 完整两行、a,b 的所有有理数系数及常数多项式共5263字节，SHA256 为
 

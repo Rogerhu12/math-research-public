@@ -1,0 +1,303 @@
+{
+  "schema": "isp-historical-input-provenance-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "sourceCommit": "3b9cda56dfa6a1ae9d4ca2a35fa81798a5f156c9",
+  "policy": "Root rules 8 and 15: no encoded/split cache in main. Existing historical inputs may be read by terminal git only; new work keeps source, definitions, run IDs and hashes.",
+  "files": {
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-H1-b-zero-T-D-F6-exact-part-01-8542.json": {
+      "gitBlob": "e0db4bd13d1389d6ae53164088d30228bb6620b0",
+      "bytes": 75126,
+      "sha256": "daefe590d63cd6ce7257def84dfca4b6cae8431d2c7c760e8694aa5cdf49f457"
+    },
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-H1-b-zero-T-D-F6-exact-part-02-8542.json": {
+      "gitBlob": "a910ab91442538ac1f91e117c2059bfc09cd7c0f",
+      "bytes": 58958,
+      "sha256": "85b050d8311fd728ccd987a584606a5987e0478e6aa78215cd2d5d4ab213dbd6"
+    },
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-H1-b-zero-lambda-linear-exact-part-01-8542.json": {
+      "gitBlob": "dfb74c75915702d665b25149e532a91646fd3880",
+      "bytes": 11849,
+      "sha256": "1bc01ff121193bf3e50edd7545e0d95ef5a6f6ed1ded3e2b5973d4e6d4276393"
+    },
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-H1-b-zero-u-cover-exact-part-01-8542.json": {
+      "gitBlob": "7b79f7af8323c8b79f8800f241c99f510dbf3a5b",
+      "bytes": 47431,
+      "sha256": "73e1dacb455ecabb933dbdbfe3c967ff03191554dce2ee82c54d7c0ac8172b75"
+    },
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-exceptional-F26-exact-input-8542.json": {
+      "gitBlob": "5d1e06c462b9f82a4538da2486b14fd9a994f4cb",
+      "bytes": 18308,
+      "sha256": "67c73f8f5fef33d509ffebd8165487e5b6abcc59fe391acc4075da1f22287d61"
+    },
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-exceptional-PB-core-and-mod-resultant-exact-input-8542.json": {
+      "gitBlob": "893cf0f235e5e53e7f0f5f8c8e57a79f0721589b",
+      "bytes": 60213,
+      "sha256": "74891d2b2f8bd21f74ff063cef7aeed85532a2378e71dac07ad5cfc4d240c8c9"
+    },
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-exceptional-complete-P6-original-Gauss-exact-input-8542.json": {
+      "gitBlob": "663e969cacf241a2e5a749ae567bf903dfdf6578",
+      "bytes": 4478,
+      "sha256": "6268bfef43194bf43646b1f1018f1f2a6cac4a69db3eb29f5717e88ed7a8e50f"
+    },
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-exceptional-mixed-core-and-mod-return-exact-input-8542.json": {
+      "gitBlob": "eaaa1f5dea9aab2a907a1074b38bebd21e38e556",
+      "bytes": 71062,
+      "sha256": "a9ab01ff03d894ed1fe6033b68268ecbf7b9d36dc2cd4ff3d7bf69b771387073"
+    },
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-exceptional-psiD-cubic-and-original-four-by-two-exact-input-8542.json": {
+      "gitBlob": "c8b21ac9929143dbf2a1781254d821f2bc0edc51",
+      "bytes": 19684,
+      "sha256": "9591a0141f2ee24167026d187308d15540f0ee45b776c12b927f85a832be9ce9"
+    },
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-exceptional-whole-S-quartic-gcd-and-original-values-exact-input-8542.json": {
+      "gitBlob": "13b56045458a37c0a79379772fac1f7ece81ff19",
+      "bytes": 23486,
+      "sha256": "a4647a123f3ba072003a658217b0704cd2858ee8e4ae1b5060a9cdd44e5fad8d"
+    },
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-first-head-D-lambda-six-leading-weight-curve-exact-input-8542.json": {
+      "gitBlob": "d61e3f45e360f5ddecebe2dfa86f5ea246c65a3b",
+      "bytes": 13551,
+      "sha256": "3cf9faf8b04dde2bf1774f3a95c108683a8de0eac1db657906b65079bdf81514"
+    },
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-first-head-F6-row-exact-part-01-8542.json": {
+      "gitBlob": "f195009fa7750f6949b016f835b0dda28bb94f06",
+      "bytes": 80099,
+      "sha256": "36e215c9b073ebf790a5973d89984ff0727337af91141358259acd5b0280a57d"
+    },
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-first-head-F6-row-exact-part-02-8542.json": {
+      "gitBlob": "e3455043f43807ffe531ef81ce15b111982a0ecb",
+      "bytes": 80099,
+      "sha256": "e9555e12aabd905e6ec975156f0267281fc2b7665bef1c0a8038051b2bd3e8dc"
+    },
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-first-head-F6-row-exact-part-03-8542.json": {
+      "gitBlob": "5c68b6db206863b2993a12acaee44c76f9099213",
+      "bytes": 80099,
+      "sha256": "b46edd1f0901636121956f0344665553e44f999253b9d3f35f97c88b2f12ac13"
+    },
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-first-head-F6-row-exact-part-04-8542.json": {
+      "gitBlob": "49bb10cd9b9d5b0c6e1dab8417e43142acde4654",
+      "bytes": 80099,
+      "sha256": "39abd83e9e4026cf95b8c9e9ad440eab06e186dc10db7f0c900e2a833fb25617"
+    },
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-first-head-F6-row-exact-part-05-8542.json": {
+      "gitBlob": "496ff4e9e42c5fc5b9f8288b84c859b3b779e105",
+      "bytes": 80099,
+      "sha256": "e5ac24d655f218e6faf285f16726c50a31d10ce0b859c51be038256e362d032e"
+    },
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-first-head-F6-row-exact-part-06-8542.json": {
+      "gitBlob": "d6254693047bca3f9de4cecac358cebe6baff104",
+      "bytes": 28363,
+      "sha256": "e8076975273a784d08e3b6d62431c6398d2a97d85da5a06694d8137add23c069"
+    },
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-first-head-P9-exact-part-01-8542.json": {
+      "gitBlob": "443eb1ba9df144d0b079c1c434b5bfa99ae70913",
+      "bytes": 80096,
+      "sha256": "410902649bfc2e8c7d511077ebc7ccf15ca0e8ebed5f0b63790fd5fbe4737aca"
+    },
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-first-head-P9-exact-part-02-8542.json": {
+      "gitBlob": "980908000ea51ebd36e67b83a0db2c8e0b8de7f4",
+      "bytes": 80096,
+      "sha256": "7276b1796de4dd1a457649dadc32c5fbc5f7e7873906dfd19a93fc17102ceaad"
+    },
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-first-head-P9-exact-part-03-8542.json": {
+      "gitBlob": "d5d0dafe0423235fde7bcf63cacac17e8f1d3968",
+      "bytes": 80096,
+      "sha256": "5bab9aa0a1d92a4fa5be256ef32406c238370260682beed396e2c73cdbb42434"
+    },
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-first-head-P9-exact-part-04-8542.json": {
+      "gitBlob": "60f00f6e1eb8455794295136ae8342bb48ce9974",
+      "bytes": 80096,
+      "sha256": "6438bd79f272e1c16b3d42a9a027ce615161c24ad6436d2277a6edc2cf53a312"
+    },
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-first-head-P9-exact-part-05-8542.json": {
+      "gitBlob": "c06ac1405029762fc660cfd67dafed2eaa1de528",
+      "bytes": 74756,
+      "sha256": "46b620f70a6281d5db0d002d80ed6d9eb0fadf1127f65d218d122c637eaf8528"
+    },
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-first-quadratic-head-actual-D-core-exact-input-8542.json": {
+      "gitBlob": "6378b8599ef3c87febeacdfb29d7378ba1a0dbcc",
+      "bytes": 44941,
+      "sha256": "7cc9dcf4c8f716055518324966cf8c156c961c5204dfb156ede054f63568765b"
+    },
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-main-entire-H7-original-exclusion-exact-input-8542.json": {
+      "gitBlob": "4d8c7eae19dca9c23f34038a18295d241f1e5d78",
+      "bytes": 1189,
+      "sha256": "266843ff265bbf4cef28ab50a9dcf97324fdbe92e53acb298533dd483795d17c"
+    },
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-main-head-zero-C71-29-exact-input-8542.json": {
+      "gitBlob": "62441f75a85e1f16878dce4cfb1921728933b1d8",
+      "bytes": 48412,
+      "sha256": "9aba3e9a6bb845d4067b530d724d3f407a4687538dbe569066b7adfdb7e993d7"
+    },
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-main-minus-quarter-lambda-half-exact-input-8542.json": {
+      "gitBlob": "d56af2e9b4c911799c2ca2c04519c2d49c00a7f8",
+      "bytes": 4644,
+      "sha256": "1d6fb2cdacf809ceaaffbfc3d8cc4ed43ca165f5fc09986f61c1e909aba4c69a"
+    },
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-main-rho-head-C6-C71-modular-projection-exact-input-8542.json": {
+      "gitBlob": "eb41b9a640c8990c4395bbcd3bec3c14ec066afa",
+      "bytes": 4166,
+      "sha256": "e55a5c4fc29442a47b26a378c02a1c2b12d9e571c37f7f646d5b067433e94eb4"
+    },
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-main-rho-head-P6-P9-specialized-exact-input-8542.json": {
+      "gitBlob": "3a42965195070ccaeb3487c115c93f55c1a060df",
+      "bytes": 14987,
+      "sha256": "83365529c18018b101f2c3fc2ad08fa921bc2155746062a68b5135c9d2315501"
+    },
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-main-rho-head-monic-543-weight-cover-exact-input-8542.json": {
+      "gitBlob": "9ec97304e6bb5473aceb2c7a7e47bd7492fdd236",
+      "bytes": 63140,
+      "sha256": "0907f3ed6794ea36570f7c3c27b7822fdf6097e1fd4572bc7452e7422793d391"
+    },
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-monic-twelve-original-four-rows-and-heads-exact-input-8542.json": {
+      "gitBlob": "4ab17dd74012c1a023ffc59a7ff2c02b6e2f3feb",
+      "bytes": 49946,
+      "sha256": "e1263fa8c00162a0e9144163c7417d7f603206c235079cda7df92919264b7404"
+    },
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-whole-first-head-original-linear-relation-exact-input-8542.json": {
+      "gitBlob": "b7a5126896ddc03884a148113dfda59504e1fd54",
+      "bytes": 59640,
+      "sha256": "c6c0b8973ea18a3fd320921238a7e331e460ca26ed1d96ec5f4e6276fd45ff44"
+    },
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-W-G36-exact-1198-cover-8542.part-01.json": {
+      "gitBlob": "12bd0d86c55ac95295e622b6ef04d5c28ded19ec",
+      "bytes": 75077,
+      "sha256": "e9af8cfe630dbeab3265c1323d57715f8ad06be8883133f0e3148d3064e4c731"
+    },
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-W-G36-exact-1198-cover-8542.part-02.json": {
+      "gitBlob": "74daf9a5fb07f6f6a193d032e1bc1bc7e42ec8af",
+      "bytes": 75077,
+      "sha256": "2eab7aa3bc6cfc2ffcdc5896b83d844e99ec3ef4567beb237cddcc0dd946915f"
+    },
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-W-G36-exact-1198-cover-8542.part-03.json": {
+      "gitBlob": "b67b8c00d658ea0679ecf7a4332be47dcac4ab84",
+      "bytes": 75077,
+      "sha256": "14fa12261e576eb240411e3cff07da3c9ae57b49131da865040395961fd822c2"
+    },
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-W-G36-exact-1198-cover-8542.part-04.json": {
+      "gitBlob": "11fc3931ef4977ce4cdd0c8664c05ff658b66129",
+      "bytes": 75077,
+      "sha256": "1ef743c02c00ec74a8a0c8227920425bb9c5ad0b425f0b9e4f395c60040e24d5"
+    },
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-W-G36-exact-1198-cover-8542.part-05.json": {
+      "gitBlob": "ff920caa74ee8bd2a57a4e88ae84724ddda8435a",
+      "bytes": 75077,
+      "sha256": "3b15e0552d806284a3e1f13bebad300859b903e68f4c478d07015d1181c7668b"
+    },
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-W-G36-exact-1198-cover-8542.part-06.json": {
+      "gitBlob": "1cb77e12802705c27c74c68e26b19f873862cadb",
+      "bytes": 69673,
+      "sha256": "a393110b0626199490f16b817f0743cae631c659482105fbe4eec497e929f728"
+    },
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-W-G36-remaining-low29-exact-input-8542.json": {
+      "gitBlob": "1e479743680caf586de8867a3885fe2574979d92",
+      "bytes": 7888,
+      "sha256": "98e59cf24a9e0b7e3b2e029869dba426ce5201ad7a0636524fac69f483dca978"
+    },
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-collision-Delta-nonzero-four-original-exact-input-part1-8542.json": {
+      "gitBlob": "01515e86186a968a45baa3eb38c17c856b58afa4",
+      "bytes": 65791,
+      "sha256": "c4723da150647c453cd53151b4e9f84e5d6ed1c45dffcf4c39299b9ef968c3e6"
+    },
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-collision-Delta-nonzero-four-original-exact-input-part2-8542.json": {
+      "gitBlob": "d367ee408736eb79136e500d4ee27b83ebba724e",
+      "bytes": 65715,
+      "sha256": "8f8a547ba11ffc2baafd0229f9ffce5a16576206d06460d627927b80d4671682"
+    },
+    "topics/invariant-subspace-problem/notes/2026-11-28-five-bit-s2-companion-exact-scalar-input-8542.json": {
+      "gitBlob": "7afe25f998020a077792207cb5858a9efdfd593e",
+      "bytes": 75666,
+      "sha256": "0852b24dfe8db612b5407e54b583caf91fc13ca315f8b84069c9c83bbd91a0ba"
+    },
+    "topics/invariant-subspace-problem/notes/2026-11-28-six-bit-full-half-characteristic-exact-input-8542.json": {
+      "gitBlob": "7ab127eb4304566eb12979cdf0db2ac0d1e42403",
+      "bytes": 9168,
+      "sha256": "3528a1b7b56167987e4c1c7c35048330a76cd2179ea263f49bf6cb29c4022bdf"
+    },
+    "topics/invariant-subspace-problem/notes/2026-11-28-six-bit-internal-half-characteristic-exact-input-8542.json": {
+      "gitBlob": "609a2ea8248b6bb7ecee6cad120dda41221509d0",
+      "bytes": 37383,
+      "sha256": "694657b7a7c0315d6c4f137122ef84c77f35bae2fe077deee4c31c85ba4cd4be"
+    },
+    "topics/invariant-subspace-problem/notes/2026-11-28-six-bit-s2-retained-exact-parameters-8542.json": {
+      "gitBlob": "2237cf832bbc9d14d73553bd43f657df5f3dc66d",
+      "bytes": 14276,
+      "sha256": "d76f01cbe5e7f6ce4e090abbfb89824fd9f30ef32568bdcc7efeba3ac17c7f1c"
+    },
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-J2-original-pairs-and-three-u-factors-exact-input-8542.json": {
+      "gitBlob": "a6d20bb00d90a93247dc378e76c4158235e64ec9",
+      "bytes": 15402,
+      "sha256": "e1b9c53c299df8c6725067444c7c6838c1b1573157bc8271c7037234bd112e0f"
+    },
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-original-mean-S-affine-exact-input-8542.part-01.json": {
+      "gitBlob": "af775f991a695e88d628045173e9aaa5802fb9cd",
+      "bytes": 75169,
+      "sha256": "b4d578fce1dbe509d78b5d840e5e95b53b6fa15c871286062dd00e2f6183cc42"
+    },
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-original-mean-S-affine-exact-input-8542.part-02.json": {
+      "gitBlob": "eec1fd98c19bae6ca63ec6544eb0569df684a2c7",
+      "bytes": 71145,
+      "sha256": "93650f854f3c69afaeb2e692a1bfb0a61605c5ce3b8a1a2fee19afb9d98d1a50"
+    },
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-collision-P3-exact-1474-cover-8542.part-01.json": {
+      "gitBlob": "63662474c12b7bb732606febd3cd1bf02d0a39f4",
+      "bytes": 75077,
+      "sha256": "5bab2a7f018b83caabcaba54499f3b163ce7ad703b8a2c4ad7615b4b898b783b"
+    },
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-collision-P3-exact-1474-cover-8542.part-02.json": {
+      "gitBlob": "b976b5b64b99836bd3d56dbfe27d471ee171bfd5",
+      "bytes": 75077,
+      "sha256": "ec5cf9212d8817b60b0ceb76a641351130dda9c7c3198a4f15c3e9e709bab336"
+    },
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-collision-P3-exact-1474-cover-8542.part-03.json": {
+      "gitBlob": "05b716cfff98647487f2f791d04d0f1b7507c261",
+      "bytes": 75077,
+      "sha256": "8defad7bf2abf2ec1cbb9d61f301a8dcd1d2bf589eb32299f0d652c1738c1bc3"
+    },
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-collision-P3-exact-1474-cover-8542.part-04.json": {
+      "gitBlob": "24111ffd3b879bb3aeb580039830372893c6d70c",
+      "bytes": 75077,
+      "sha256": "75809389b2404437617f1c7857aa9b6b57aecaed674e23dd670093cc49d959a8"
+    },
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-collision-P3-exact-1474-cover-8542.part-05.json": {
+      "gitBlob": "c160a612be78688b3aa515c00bd1f09b3d667756",
+      "bytes": 75077,
+      "sha256": "c81289428ce90e54ebf6d393feba7bac32f99b050c518d7eeff5110125ded417"
+    },
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-collision-P3-exact-1474-cover-8542.part-06.json": {
+      "gitBlob": "b634f6fd31ed20039b4839a22d686a7bda836097",
+      "bytes": 75077,
+      "sha256": "aeb7e7497c6421e11c7e73d775a45325bd816398af0817b468fc4b3c9a941eb7"
+    },
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-collision-P3-exact-1474-cover-8542.part-07.json": {
+      "gitBlob": "e445658c89a985af3246a7c6b68c4f641fe16a25",
+      "bytes": 32105,
+      "sha256": "07a9b84c728a7e040a917acec6a729bd0a7842935113e3e7989a5cdb19030826"
+    },
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-collision-two-QQ-projections-E177-18-part1-8542.json": {
+      "gitBlob": "178e3ac4fae5f9cfaac6fb04755b89dcf48290a7",
+      "bytes": 80181,
+      "sha256": "fd1fefcc73fc69f38e612a66ed9514892a028b778e7123610850a35053adc7e1"
+    },
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-collision-two-QQ-projections-E177-18-part2-8542.json": {
+      "gitBlob": "51d10a709369f520cab98da56788962c764b3fe3",
+      "bytes": 57925,
+      "sha256": "3be7b73849ac579e21c26be029e562f9b9ac9bc5a11b77b700f2786f4986709b"
+    },
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-collision-two-QQ-projections-E182-19-part1-8542.json": {
+      "gitBlob": "e91ad1b1c0e7fcf1e04cc954844cb8e1bf66f3dc",
+      "bytes": 80181,
+      "sha256": "3787ac0e003bbc6f7a3d66a55659eb0cd61c23c6c3918b44eaef08b8ca29f5a4"
+    },
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-collision-two-QQ-projections-E182-19-part2-8542.json": {
+      "gitBlob": "890b8196fc61e1a750853de2f8a01cf53ed806b6",
+      "bytes": 71917,
+      "sha256": "ce238cdb5b32298e15d27001790e6ffac8fe36825f637f3a68f2e34576a42049"
+    },
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-collision-two-QQ-projections-exact-factor-manifest-8542.json": {
+      "gitBlob": "ab9ef5408894e14f69876b01e4861af315673fca",
+      "bytes": 4667,
+      "sha256": "4a2206f910408ec2ef7bc0a7cc49b24cefe556a226d5bfe66f4c0059d45abb54"
+    }
+  }
+}

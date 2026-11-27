@@ -10,33 +10,33 @@
 
 沿用 [Lt0 原参数](R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-theta-leading-zero-exclusion.md)，记
 
-\[
+$$
 s=2\lambda-3,\quad A=2\lambda^2-2\lambda+1,\quad C=-4\lambda^2+5\lambda-2,
-\]
-\[
+$$
+$$
 D=sC-Az,\quad\Delta=s^2-4z,\quad B=2Cz-Ds,
 \quad T=C/z,\quad w=\lambda-1-T.
-\]
+$$
 
 z 非零，因此 w=0 等价于
 
-\[
+$$
 H_z=(\lambda-1)z-C=0.                            \tag{1}
-\]
+$$
 
 原 Lt0、P1/N(V) 兼容的多项式 G、K 仍按原定义生成。自含源实际逐项验证完整结果式覆盖
 
-\[
+$$
 \operatorname{Res}_{\theta}(G,K)=256z^{14}J^2M(\lambda,z).
-\]
+$$
 
 z、J 的零面已付，故剩余原解必须 M=Hz=0。没有丢掉其他结果式因子。特别地，(1) 的 z 首项 lambda−1 没有被默认非零：lambda=1 时原 Hz=1，根本没有 z 解。
 
 源直接计算 Res_z(M,Hz)，lambda 次数 30，其 monic 平方自由部分的完整因式分解为
 
-\[
+$$
 (\lambda-1/2)(\lambda^2-5\lambda/4+1/2)\Phi_{14}(\lambda). \tag{2}
-\]
+$$
 
 实际所有因子乘回核对，平方自由多项式 SHA256 为
 
@@ -68,20 +68,20 @@ Phi14 的低到高系数为
 
 仍取完整
 
-\[
+$$
 \mathcal B=B_0[d]/(d^2-\Delta),
-\]
+$$
 
 保留 14 个 lambda 根、每个同一 z 和 theta、d 的两根。无需假设二次塔不可约。按原公式
 
-\[
+$$
 \ell=D/z^2,\quad B_v=2T-\ell s,
 \quad b=\ell/2+B_vd/(2\Delta),\quad c=\ell-b,
-\]
-\[
+$$
+$$
 p=1+\theta d,\quad q=1-\theta d,
 \quad h=1+(s+d)/2,\quad k=1+(s-d)/2
-\]
+$$
 
 以及原 P1 的 f 公式、原 W1/W2 重建 Gram。源实际断言 w=0，并检查原 U 三矩、全部物理分母单位、原 P(V)=N(V)=0。
 
@@ -99,9 +99,9 @@ E1, EB, EC, P1, PB, PC, N1, NB, NC
 
 在整个 28 维代数中，原 R=Res_t(E1,EB)=r0+r1d 有实际逆
 
-\[
+$$
 R^{-1}=(r_0-r_1d)(r_0^2-\Delta r_1^2)^{-1}.
-\]
+$$
 
 源用扩展 Euclid 验证基代数逆，并逐项回乘 R·R^{-1}=1。原同一 t 上 E1=EB=0 将强迫 R=0，与此矛盾。末分支共 51 次基代数真逆；末逆 SHA256 为
 

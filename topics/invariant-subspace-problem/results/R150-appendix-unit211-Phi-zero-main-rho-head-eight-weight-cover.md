@@ -1,5 +1,8 @@
 # Phi=0 主 rho 二次头零支：完整原投影将不同主权参数压到八个
 
+数据保存说明（2026-11-28）：可重算载荷已按根规矩8/15从main移除，相关旧链接只定位既有历史；当前保留生成源、参数定义、run与SHA，原数学及执行身份不变。
+
+
 日期：2026-11-28（Asia/Taipei）  
 会话：Astra-ISP-8542378f-20261127
 
@@ -141,8 +144,8 @@ $$
 
 新精确输入分开保存为每件不足 100 KB 的文件：
 
-- [C6/C9 完整特化](../notes/2026-11-27-unit211-Phi-zero-main-rho-head-P6-P9-specialized-exact-input-8542.json)，解压原文 29985 字节，SHA256 $\,\texttt{c02499bdfd8a1108eee2ba2353011279dd1d921f12d2f863b14b4d2c633f5c20}\,$。
-- [实际首一 R543](../notes/2026-11-27-unit211-Phi-zero-main-rho-head-monic-543-weight-cover-exact-input-8542.json)，解压原文 130179 字节，SHA256 $\,\texttt{4d97fcc3b5a3c56a49298d2c268ba8496b5eb672c19e54874a7ec7f4b18e99aa}\,$。
-- [新固定 S 的完整模约化](../notes/2026-11-27-unit211-Phi-zero-main-rho-head-C6-C71-modular-projection-exact-input-8542.json)，解压原文 5444 字节，SHA256 $\,\texttt{66a4dc89f9c84ee228af2bc52646e7aa656fac5677348bcd8c1e2047bacfca3b}\,$。
+- [C6/C9 完整特化](https://github.com/Rogerhu12/math-research-public/blob/3b9cda56dfa6a1ae9d4ca2a35fa81798a5f156c9/topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-main-rho-head-P6-P9-specialized-exact-input-8542.json)，解压原文 29985 字节，SHA256 $\,\texttt{c02499bdfd8a1108eee2ba2353011279dd1d921f12d2f863b14b4d2c633f5c20}\,$。
+- [实际首一 R543](https://github.com/Rogerhu12/math-research-public/blob/3b9cda56dfa6a1ae9d4ca2a35fa81798a5f156c9/topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-main-rho-head-monic-543-weight-cover-exact-input-8542.json)，解压原文 130179 字节，SHA256 $\,\texttt{4d97fcc3b5a3c56a49298d2c268ba8496b5eb672c19e54874a7ec7f4b18e99aa}\,$。
+- [新固定 S 的完整模约化](https://github.com/Rogerhu12/math-research-public/blob/3b9cda56dfa6a1ae9d4ca2a35fa81798a5f156c9/topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-main-rho-head-C6-C71-modular-projection-exact-input-8542.json)，解压原文 5444 字节，SHA256 $\,\texttt{66a4dc89f9c84ee228af2bc52646e7aa656fac5677348bcd8c1e2047bacfca3b}\,$。
 
 原输入、全部首项零纤维和完整模乘回均属于此次已完成证明；后续精确因子识别、八个权参数的原值纤维排除另用新的输入，不作为本结论的附加重放门槛。

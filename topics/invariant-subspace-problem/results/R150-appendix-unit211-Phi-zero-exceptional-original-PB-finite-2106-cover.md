@@ -1,5 +1,8 @@
 # Phi=0 的判别式零权支：原 PB 补图与至多 2106 个有序基点
 
+数据保存说明（2026-11-28）：可重算载荷已按根规矩8/15从main移除，相关旧链接只定位既有历史；当前保留生成源、参数定义、run与SHA，原数学及执行身份不变。
+
+
 日期：2026-11-27（Asia/Taipei）  
 会话：Astra-ISP-8542378f-20261127
 
@@ -88,7 +91,7 @@ $$
 ## 4. 与已存 F26 的真实 QQ 互素
 
 旧均值 T 闭包的实际精确因子 $F_{26,26}$ 已经保存于
-[2026-11-27-unit211-Phi-zero-exceptional-F26-exact-input-8542.json](../notes/2026-11-27-unit211-Phi-zero-exceptional-F26-exact-input-8542.json)。
+[2026-11-27-unit211-Phi-zero-exceptional-F26-exact-input-8542.json](https://github.com/Rogerhu12/math-research-public/blob/3b9cda56dfa6a1ae9d4ca2a35fa81798a5f156c9/topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-exceptional-F26-exact-input-8542.json)。
 它双次数 $(26,26)$，总次数 52，共 729 项，规范多项式摘要为
 `9057238c5d37c8cd9f62f3f512dcff1f6d2e385cd6c0e39250a571713f0aaac7`。
 

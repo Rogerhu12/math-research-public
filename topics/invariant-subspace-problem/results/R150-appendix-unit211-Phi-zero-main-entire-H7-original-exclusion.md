@@ -1,5 +1,8 @@
 # Phi=0 主 rho 头零图：整个 H7 原权纤维排除
 
+数据保存说明（2026-11-28）：可重算载荷已按根规矩8/15从main移除，相关旧链接只定位既有历史；当前保留生成源、参数定义、run与SHA，原数学及执行身份不变。
+
+
 日期：2026-11-28（Asia/Taipei）  
 会话：Astra-ISP-8542378f-20261127
 
@@ -148,6 +151,6 @@ $$
 
 [小执行回执](../notes/2026-11-27-unit211-Phi-zero-main-entire-H7-original-exclusion-execution-8542.json) 保全部阶段、真实退出和执行身份。
 
-[整七维原线性关系及最终约束的小精确参数](../notes/2026-11-27-unit211-Phi-zero-main-entire-H7-original-exclusion-exact-input-8542.json) 解压后为 1013 字节，SHA256 ee007d42bae0c2d240929b81972714ecc61e7cc7cb3d174aee71256408bcf9a6。原完整 L 与 316 覆盖直接引用既有固定载荷，没有重放它们的旧推导。
+[整七维原线性关系及最终约束的小精确参数](https://github.com/Rogerhu12/math-research-public/blob/3b9cda56dfa6a1ae9d4ca2a35fa81798a5f156c9/topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-main-entire-H7-original-exclusion-exact-input-8542.json) 解压后为 1013 字节，SHA256 ee007d42bae0c2d240929b81972714ecc61e7cc7cb3d174aee71256408bcf9a6。原完整 L 与 316 覆盖直接引用既有固定载荷，没有重放它们的旧推导。
 
 本定理只关闭主 rho 头零图中的整个 $H_7$ 纤维。它与已闭补图合并后关闭该主图；一般第一二次头 $H_1=0$ 的其余权点、rho 二次头非零的 $\Phi=0$ 图以及原 $D=0$ 碰撞范围均不能由本定理直接外推。

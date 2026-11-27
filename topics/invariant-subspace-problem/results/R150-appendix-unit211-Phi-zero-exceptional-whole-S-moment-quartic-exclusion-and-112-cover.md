@@ -1,5 +1,8 @@
 # Phi=0 例外图：整个 S 矩像四次纤维的原排除与严格 112 点覆盖
 
+数据保存说明（2026-11-28）：可重算载荷已按根规矩8/15从main移除，相关旧链接只定位既有历史；当前保留生成源、参数定义、run与SHA，原数学及执行身份不变。
+
+
 日期：2026-11-28（Asia/Taipei）。会话：Astra-ISP-8542378f-20261127。
 
 ## 1. 完成范围
@@ -224,7 +227,7 @@ b7116bbaeba341aa5356aae2a4ad2a3516f29e896b62f14d49384210272b7d82。
 
 精确新输入：
 
-[2026-11-27-unit211-Phi-zero-exceptional-whole-S-quartic-gcd-and-original-values-exact-input-8542.json](../notes/2026-11-27-unit211-Phi-zero-exceptional-whole-S-quartic-gcd-and-original-values-exact-input-8542.json)
+[2026-11-27-unit211-Phi-zero-exceptional-whole-S-quartic-gcd-and-original-values-exact-input-8542.json](https://github.com/Rogerhu12/math-research-public/blob/3b9cda56dfa6a1ae9d4ca2a35fa81798a5f156c9/topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-exceptional-whole-S-quartic-gcd-and-original-values-exact-input-8542.json)
 
 其中保完整 g 四次、T 五次、原 N1 与 160 维原行载荷。41353 字节载荷的 SHA-256 为
 34b737b8d2bbdecbbdd14307862c3de0de30f6054aa00b12aade4a4ea6749892。

@@ -1,5 +1,8 @@
 # Phi=0 第一二次头开图：原 D 六次必要式不可约与整首项零权曲线
 
+数据保存说明（2026-11-28）：可重算载荷已按根规矩8/15从main移除，相关旧链接只定位既有历史；当前保留生成源、参数定义、run与SHA，原数学及执行身份不变。
+
+
 日期：2026-11-28（Asia/Taipei）。会话：Astra-ISP-8542378f-20261127。
 
 ## 1. 精确结论
@@ -59,7 +62,7 @@ $$
 
 P 的唯一输入文件是：
 
-[2026-11-27-unit211-Phi-zero-first-quadratic-head-actual-D-core-exact-input-8542.json](../notes/2026-11-27-unit211-Phi-zero-first-quadratic-head-actual-D-core-exact-input-8542.json)
+[2026-11-27-unit211-Phi-zero-first-quadratic-head-actual-D-core-exact-input-8542.json](https://github.com/Rogerhu12/math-research-public/blob/3b9cda56dfa6a1ae9d4ca2a35fa81798a5f156c9/topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-first-quadratic-head-actual-D-core-exact-input-8542.json)
 
 其文件 SHA-256 为：
 
@@ -69,7 +72,7 @@ P 的唯一输入文件是：
 
 新增 H 和原首项精确文件：
 
-[2026-11-27-unit211-Phi-zero-first-head-D-lambda-six-leading-weight-curve-exact-input-8542.json](../notes/2026-11-27-unit211-Phi-zero-first-head-D-lambda-six-leading-weight-curve-exact-input-8542.json)
+[2026-11-27-unit211-Phi-zero-first-head-D-lambda-six-leading-weight-curve-exact-input-8542.json](https://github.com/Rogerhu12/math-research-public/blob/3b9cda56dfa6a1ae9d4ca2a35fa81798a5f156c9/topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-first-head-D-lambda-six-leading-weight-curve-exact-input-8542.json)
 
 H 的规范整数系数版本以 $\lambda$ 指数全零保存在三变量上下文中，其系数指纹为：
 

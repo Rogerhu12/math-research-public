@@ -10,11 +10,11 @@
 
 本次源从原 Gram 重建 P1、E1、EB、N1、PB、NB 的全部相关分量及必要结果式，保持原 kappa²=1−Q 的两根。准确首项为
 
-\[
+$$
 \operatorname{lc}_w G
 =-8\lambda(\lambda-1)(4\lambda^2-5\lambda+2)(4\lambda^2-2\lambda+1).
 \tag{1}
-\]
+$$
 
 原 lambda 非零已经支付；剩下三个完整因子分别处理。
 
@@ -22,15 +22,15 @@
 
 字面代入给
 
-\[
+$$
 G(1,w)=-4w(w-1).
-\]
+$$
 
 在整个 QQ[lambda]/(4lambda²−2lambda+1) 中，准确余式为
 
-\[
+$$
 G(\lambda,w)=-\tfrac14w(2\lambda-1)(w-1).
-\]
+$$
 
 2lambda−1 在该整个二次代数中的逆已由 QQ extended gcd 实际乘回。因此两类原解都迫 w=0 或 w=1，与已完整关闭的 L0 两条原分支矛盾。这些不是一般位置的代入；两个二次根均覆盖。
 
@@ -38,29 +38,29 @@ G(\lambda,w)=-\tfrac14w(2\lambda-1)(w-1).
 
 现在 4lambda²−5lambda+2=0。原 G 的准确余式是
 
-\[
+$$
 32G=a(w)\lambda+b(w),
-\]
-\[
+$$
+$$
 a=5w^3+89w^2+133w+13,\qquad
 b=-18w^3-90w^2-82w-2.
-\]
+$$
 
 将 lambda=−b/a 代回只在证明 a 可逆之后进行。完整消元为
 
-\[
+$$
 4b^2+5ba+2a^2=32\Phi_6(w),
-\]
-\[
+$$
+$$
 \Phi_6=28w^6+140w^5+270w^4+293w^3+221w^2+49w+7.
 \tag{2}
-\]
+$$
 
 源直接验证 cover 与 a 的 QQ extended gcd 是常数，并将 a 的逆在 cover 商环中乘回为 1。因此 a=0 没有漏掉的原纤维；任何满足二次参数式和 G 的解都在完整代数
 
-\[
+$$
 \mathcal B=\mathbb Q[w]/(\Phi_6),\qquad \lambda=-b(w)a(w)^{-1}
-\]
+$$
 
 中。源另外逐项核对 4lambda²−5lambda+2=0 与 G=0；lambda 和 w 没有独立换嵌入。
 
@@ -68,10 +68,10 @@ b=-18w^3-90w^2-82w-2.
 
 令原 P1 为 alpha·t+beta。由已闭整个 P1 双零图，任何剩余原解上 alpha 不为零。对原必要式 E1、N1，使用原系数返回多项式
 
-\[
+$$
 F_E=\alpha^{\deg_t E_1}E_1(-\beta/\alpha),\qquad
 F_N=\alpha^{\deg_t N_1}N_1(-\beta/\alpha),
-\]
+$$
 
 并只剥除已付物理单位。所有这些多项式已经由原 Gram 生成，保原 f 与全部相关参数。
 

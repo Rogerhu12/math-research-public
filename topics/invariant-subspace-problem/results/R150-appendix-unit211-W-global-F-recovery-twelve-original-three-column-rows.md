@@ -138,10 +138,10 @@ $$
 取按上一节合法清理后的三系数行，分别组成
 $$
 \mathcal M_{NS}=
-\begin{pmatrix}[E_1]\\[E_{Be}]\\[N_S]\end{pmatrix},
+\begin{pmatrix}[E_1]\$$E_{Be}]\$$N_S]\end{pmatrix},
 \qquad
 \mathcal M_{NV}=
-\begin{pmatrix}[E_1]\\[E_{Be}]\\[V_{\rm low}]\end{pmatrix}.
+\begin{pmatrix}[E_1]\$$E_{Be}]\$$V_{\rm low}]\end{pmatrix}.
 $$
 对任一矩阵的三行 a,b,c，以最后两列的叉积 gamma 实际核回
 $$

@@ -4,15 +4,15 @@
 
 **状态：已证明，原源已实际通过。** 在现余 S0/Lt0 原图中，整条曲线
 
-\[
+$$
 Q=2\bigl((u-1)^2+1\bigr)
-\]
+$$
 
 不存在原临界点。等价地，在 e=u−1、k=Q/e 坐标中
 
-\[
+$$
 \Omega=2e^2-ek+2
-\]
+$$
 
 可以在后续一般图中作为单位。本证明只依赖已经完成的 k=4e 与 v=0 整支排空及原 Cramer 子式；不依赖尚在运行的四变量 QQ 门，也不依赖其他未完成的二参数投影返回。
 
@@ -20,28 +20,28 @@ Q=2\bigl((u-1)^2+1\bigr)
 
 使用[原低次不变量系统](R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-low-invariant-original-system.md)和[原 Cramer 子式](R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-original-Cramer-minor-system.md)。仍记
 
-\[
+$$
 e=u-1,\quad k=Q/e,\quad j=k+2-2e,
 \quad v=4kbc\,t.
-\]
+$$
 
 e、k、u=e+1、j、bc、T0 和 ek−1 都是原已付单位；e−1=0 与 4e−k−4=0 分别属于已闭 a=0 与 ell=1/2 整支。另由[乘法一致性退化线](R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-mean-consistency-line-exclusion.md)和[零孤立点配对](R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-zero-singleton-pairing-exclusion.md)支付 4e−k 和 v。后两份证明均不使用本稿，因此没有循环支付。
 
 在 Omega=0 上，因为 e≠0，原 k 完全由
 
-\[
+$$
 k=\frac{2e^2+2}{e}
-\]
+$$
 
 恢复。这里没有再添一般位置假设。原单位在该曲线上的关键身份为
 
-\[
+$$
 ek=2(e^2+1),\qquad ej=2(e+1),
-\]
-\[
+$$
+$$
 e(4e-k-4)=2(e^2-2e-1),\qquad
  e(4e-k)=2(e-1)(e+1).
-\]
+$$
 
 自含源逐项检查这些身份；后面的一元矛盾恰使用这些已付因子。
 
@@ -53,10 +53,10 @@ e(4e-k-4)=2(e^2-2e-1),\qquad
 
 对每个本次使用的原子式 D(e,k,v)，设它对 k 的次数为 m，令 Dcur 为代入 k=(2e²+2)/e 后乘 e^m 的多项式。源码实际给出并检查多项式除法身份
 
-\[
+$$
 e^mD(e,k,v)-D_{\rm cur}(e,v)
 =(ek-2e^2-2)H(e,k,v).
-\]
+$$
 
 因此清除的分母只有已付 e。这一身份在原多项式环中成立，没有把数值替换或形式分式当作原返回。
 
@@ -73,9 +73,9 @@ e^mD(e,k,v)-D_{\rm cur}(e,v)
 
 对 F045 与其余三式分别取完整 Res_v。实际 e 次数依次为
 
-\[
+$$
 224,\qquad 266,\qquad 254.
-\]
+$$
 
 三个投影均保完整首项；未按任何 v 首项除法。故只要原曲线中存在有限原 v 公共零点，无论何处次数下降或某返回式恒零，三条一元结式都必须同时为零。
 
@@ -83,10 +83,10 @@ e^mD(e,k,v)-D_{\rm cur}(e,v)
 
 在 QQ[e] 实际逐次扩展 Euclid，产生三个一元系数 A224、A266、A254，次数分别为 203、161、78，并核对累计乘回
 
-\[
+$$
 A_{224}R_{224}+A_{266}R_{266}+A_{254}R_{254}
 =e^{32}(e+1)^{40}(e-1)^2(e^2+1)^{18}(e^2-2e-1)^4.
-\]
+$$
 
 右边次数 118，恰是三条完整结式的首一 gcd。这里是一元精确 Bézout 身份，没有把多变量 gcd 或数值采样作为排空证据。
 

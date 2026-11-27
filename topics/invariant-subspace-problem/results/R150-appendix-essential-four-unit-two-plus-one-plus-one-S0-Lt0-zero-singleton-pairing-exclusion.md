@@ -8,13 +8,13 @@
 
 使用[原低次不变量系统](R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-low-invariant-original-system.md)及[原 Cramer 降维](R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-original-Cramer-minor-system.md)。仍记
 
-\[
+$$
 e=u-1,\quad k=Q/e,\quad j=k+2-2e,\quad x=k+4,
-\]
-\[
+$$
+$$
 D_3=4e^3-3e^2k-4e^2+ek^2+4ek+4e-k-4,
 \quad v=4kbc\,t,\quad bc=\frac{D_3}{4k(ek-1)}.
-\]
+$$
 
 k、bc 都是已付原单位，因此 t=0 当且仅当 v=0。另已由[整条乘法一致性退化线排空](R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-mean-consistency-line-exclusion.md)支付 4e−k；该结果独立于本证明，故没有循环使用 v≠0。
 
@@ -22,17 +22,17 @@ k、bc 都是已付原单位，因此 t=0 当且仅当 v=0。另已由[整条乘
 
 原三 mean 矩阵行列式是
 
-\[
+$$
 -512e(e+1)(4e-k-4)k^2(-j)^3D_3^3.
-\]
+$$
 
 全部因子已付；源码核九条伴随矩阵身份，追踪并乘回每条归约的原 mean 组合。六行按零起始索引为：0=N1elim，1=NB 偶部，2=PB 偶部，3=U 矩，4/5=两个原 mean 改写临界对。每个 3×3 子式的原行组合也实际核对。
 
 本证明直接令 v=0。每个专门化子式只剥除原物理单位及已闭 a=0、ell=1/2、k=4e 的已付因子。对每一式均核
 
-\[
+$$
 D_{ijk}(e,k,0)=U_{ijk}(e,k)F_{ijk}(e,k),
-\]
+$$
 
 并实际将 Uijk 按已付因子剥至非零常数。未先假定 t≠0，也未作未付参数的一般位置除法。
 
@@ -53,22 +53,22 @@ D_{ijk}(e,k,0)=U_{ijk}(e,k)F_{ijk}(e,k),
 
 在 QQ[e] 逐次扩展 Euclid，并把每一步及累计四式组合实际乘回，得到首一 gcd
 
-\[
+$$
 G(e)=\frac1{242}e(2e-1)\Phi_4(e)(e^2-2e-1)^3
 (e^2+1)^4(e-1)^5(e+1)^{40},
-\]
+$$
 
 其中
 
-\[
+$$
 \Phi_4(e)=121e^4-128e^3-216e^2-86e-11.
-\]
+$$
 
 G 次数 65，其平方自由覆盖次数 12。源码完整分解并乘回该覆盖，全部因子就是
 
-\[
+$$
 e,\ e-1,\ e+1,\ e-\tfrac12,\ e^2+1,\ e^2-2e-1,\ \Phi_4.
-\]
+$$
 
 e=0 与 e+1=0 是已付 u−1、u 单位；e−1=0 等价已闭 a=0。其余四个原域必须分别返回，不能凭投影 gcd 或数值候选宣布排空。
 

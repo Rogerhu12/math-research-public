@@ -253,23 +253,23 @@ $$
 各延拓在稠密的有限次数直和上相同，因此作为 $H$ 值算子也相同。特别，$E(H)\subset\mathscr E_\infty$。
 
 全 Hilbert 范数的小量直接由新估计 (4.5) 支付，不另借旧尺度上的小量。由 Q≥(4lambda+1)/8 得 lambda<2Q；又 kappa0<3、delta<2Q、Q≥64，故
-\[
+$$
 3+\kappa_0+\delta/4<6+Q/2\le Q,\qquad
 c_\lambda\le Q^2/32+1/48\le Q^2/16.
-\]
+$$
 在 (4.5) 取 kappa=0，使用 H 范数不超过 X0 范数，以及
-\[
+$$
 \sum_{q\ge0}e^{-56(q+Q)^2}
 \le\frac{e^{-56Q^2}}{1-e^{-112Q}}\le2e^{-56Q^2},
-\]
+$$
 即得
-\[
+$$
 \boxed{
 \|E\|_{H\to H}
 \le2\sqrt2\,\exp[-(28-1/16)Q^2]<\frac14.
 }
 \tag{4.6}
-\]
+$$
 这里是先对正交输入层使用平方和而得到的全 H 小量；没有把 Xlambda 上的算子范数直接改名为 Hilbert 范数。
 
 ## 5. 一个 Hilbert 逆同时保全部尺度

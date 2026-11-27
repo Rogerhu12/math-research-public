@@ -12,124 +12,124 @@
 
 沿用已支付的非零原权、u≠0,1、Q≠0、rho≠0、p=1+rho、q=1−rho、bc≠0，以及整个 S=0 的原排除。令
 
-\[
+$$
  A=2\lambda^2-2\lambda+1,\quad B=4\lambda^3-6\lambda^2+3\lambda-1,
  \quad \xi=B/A,\quad \ell=A^3/B^2,\quad T=A^2/B.
-\]
+$$
 
 原 h=k 的二、三矩给 h=k=1+xi；h=k=1 不可能，故 A、B 非零。再令
 
-\[
+$$
  d=\rho^2=1-Q,\quad u=bp+cq,\quad
  b=\ell/2+(u-\ell)\rho/(2d),\quad c=\ell/2-(u-\ell)\rho/(2d),
-\]
-\[
+$$
+$$
  S=2\xi+3-2\lambda,\quad \eta=\xi+3-2\lambda,\quad w=\lambda-1-T,
-\]
-\[
+$$
+$$
  V_2=2u-\ell Q,\quad T_0=V_2-2u^2,\quad
  J=2u(1-u)+\ell Q,\quad
  \Phi=T_0+4u-4+Q,
-\]
-\[
+$$
+$$
  P_{02}=(2-3u)V_2-Qu+2u^3,\quad
  G_0=\lambda P_{02}-(1-u)T_0,
-\]
-\[
+$$
+$$
  P_f=T_0(J-Q),\quad P_c=QP_{02}(\ell+T)-G_0T_0,
-\]
-\[
+$$
+$$
  N_F=(3-4\lambda)Q+J\xi\eta,\quad
  N_C=\eta(-G_0\xi+Qwu),\quad
  \Delta=\Phi N_F-S\xi P_f.
-\]
+$$
 
 保留的两个原仿射式恰为
 
-\[
+$$
  P_c+P_f f+bcQ\Phi t=0,\qquad
  N_C+N_F f+bcQS\xi t=0. \tag{1}
-\]
+$$
 
 令 J=Q。若 ell=1，则 2u(1−u)=0，与原域矛盾，故 ell−1 在本面非零。直接原式化简得
 
-\[
+$$
  Q=\frac{2u(u-1)}{\ell-1},\quad
  T_0=Q(1-2\ell),\quad P_{02}=2(1-u)T_0,\quad
  \Phi=-4(u-1)^2\ne0,\quad P_f=0,
-\]
-\[
+$$
+$$
  N_F=\frac{Q(1-2\lambda)(3\lambda^2-3\lambda+1)}{A^2},
  \qquad \Delta=\Phi N_F. \tag{2}
-\]
+$$
 
 这些是同一原参数恒等式，不是追加必要条件。第一原式给
 
-\[
+$$
  t=-P_c/(bcQ\Phi). \tag{3}
-\]
+$$
 
 ## 2. Delta=0：整个二次常数域、自由 f 的原返回
 
 由 (2)，Delta=0 强迫 lambda=1/2 或 3lambda²−3lambda+1=0。lambda=1/2 已落入原 S=0 的完整排除；余者在
 
-\[
+$$
  K=\mathbb Q[\lambda]/(\lambda^2-\lambda+1/3)
-\]
+$$
 
 整体处理。这个多项式不可约，两个复嵌入全部保留，没有选取数值根。其上原参数为
 
-\[
+$$
  \ell=(11-9\lambda)/49,\quad T=(\lambda-2)/7,\quad
  \xi=-1-\lambda,\quad S=1-4\lambda,\quad \eta=2-3\lambda,\quad
  w=(6\lambda-5)/7.
-\]
+$$
 
 把 (3) 代回第二原式并除原单位 Q，所得恰为
 
-\[
+$$
  \left(\frac{183}{259}-\frac{729}{518}\lambda\right)u
  -\frac37+\frac{12}{7}\lambda=0. \tag{4}
-\]
+$$
 
 系数等于 3(122−243lambda)/518，范数中
 Nm(122−243lambda)=4921=7·19·37，故在整个 K 中为单位。由原式 (4) 唯一恢复
 
-\[
+$$
  u=(58-70\lambda)/19,\quad
  Q=-3872/1083+(4188/361)\lambda,\quad
  \Phi=1348/1083+(2240/361)\lambda. \tag{5}
-\]
+$$
 
 全部实际使用的原系数分母逐个以 K 中扩展 Euclid 反演并乘回；没有倒 Delta 或 NF。保留自由原参数 f，以 (3) 的同一个 t 重建 E0、N0、P1、NV、所有原矩和两个孤立值的原目标，得到八行
 
-\[
+$$
  E_1,E_{Be},E_{Bo},N_1,N_{Be},N_{Bo},P_{Be},P_{Bo}\in K[f]
-\]
+$$
 
 的 f 次数为 2,2,2,1,3,3,3,3。偶、奇系数的同时消失来自两条实际 B/C 原行及 rho≠0；没有从单条含 rho 方程擅自逐项置零。
 
 仅前两行即给 K[f] 单位。为使小证书可独立定位，E1 的 f 升幂系数为
 
-\[
+$$
  \frac{2151968-1878324\lambda}{206131},\quad
  \frac{250016-778878\lambda}{75943},\quad
  \frac{-1866+1566\lambda}{571}.
-\]
+$$
 
 EBe 的升幂系数为
 
-\[
+$$
  \frac{14417246773}{2118614418}-\frac{1648953955}{353102403}\lambda,\quad
  \frac{239183}{2934369}-\frac{5894275}{978123}\lambda,\quad
  \frac{-2051687+2938554\lambda}{978123}.
-\]
+$$
 
 实际扩展 Euclid 返回一次多项式 a(f),b(f)∈K[f]，完整乘回
 
-\[
+$$
  a(f)E_1(f)+b(f)E_{Be}(f)=1.
-\]
+$$
 
 两条 a,b 的所有有理数系数、原两行和常数域多项式保存在随文 receipt 的 fullCertificate 中，820 bytes，SHA256
 b3a7c1690c80c19d9c4826b2f65138670e6c8ad6f1403e0d27ad761e8b95a827。
@@ -139,10 +139,10 @@ b3a7c1690c80c19d9c4826b2f65138670e6c8ad6f1403e0d27ad761e8b95a827。
 
 此时 NF≠0，(1) 在同一原参数上给
 
-\[
+$$
  f=\frac{S\xi P_c-\Phi N_C}{\Delta},\qquad
  t=-\frac{P_c}{bcQ\Phi}.
-\]
+$$
 
 直接以 H=1 的未缩放原矩重建八行；不是先除一条旧 D≠0 的 Gram 定理。源实际乘回两条 (1)、E0/N0/P1/NV 与两条孤立目标。仅除去已经支付的原单位后，QQ[lambda,u] 八个完整分子的次数如下。
 
@@ -170,9 +170,9 @@ R60 的移除标签依次为 A2:3、B3:4、ell−1:2、bc:2、NF:4；R33 为 A2:
 
 完整 QQ 扩展 Euclid 得
 
-\[
+$$
  \gcd_{\mathbb Q[\lambda]}(R_{60},R_{33})=1.
-\]
+$$
 
 源返回每步 Bézout 乘积与累计两输入组合，最终常数 1。两个精确升幂系数数组均保存在小 receipt，源可直接重算单位证书。因任一原复解必须同时使 R60、R33 消失，矛盾。没有有限域抽样、单根代入或泛型头非零假设。得到单位后立即停止，未额外重放后续投影。
 

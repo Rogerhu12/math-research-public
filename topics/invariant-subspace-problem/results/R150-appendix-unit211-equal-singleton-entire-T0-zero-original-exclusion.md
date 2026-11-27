@@ -5,9 +5,9 @@
 ## 1. 完整结论
 
 在原 unit211 非零孤立 mean 的 $h=k$ 碰撞图中，
-\[
+$$
 \boxed{T_0\ne0.}
-\]
+$$
 此前 [整个 $T_0=\Delta=0$ 原面](R150-appendix-unit211-equal-singleton-T0-Delta-zero-complete-original-exclusion.md)已用唯一有理基参数和原 mean 常数身份排除。本稿处理互补 $\Delta\ne0$ 面：在两个真实参数 $(\lambda,u)$ 上重建未缩放的完整原 Gram；两个固定四阶原结式的真实 QQ 余式分别为 28 次、12 次，实际扩展 gcd 返回常数 1。
 
 本结论是物理 $D=0$ 碰撞自己的证明，未移用旧 $D\ne0$ 值图的 $T_0$ 定理。现在可在整个原 $h=k$ 图支付 $T_0$，但其他权边界、原第五列和普通 ISP 均未自动关闭。
@@ -15,66 +15,66 @@
 ## 2. 同一点两参数与未缩放原 Gram
 
 仍置
-\[
+$$
 A=2\lambda^2-2\lambda+1,\quad B=4\lambda^3-6\lambda^2+3\lambda-1,
 \quad \xi=B/A,
-\]
-\[
+$$
+$$
 \ell=A^3/B^2,\quad T=A^2/B,\quad
 w=\lambda-1-T,\quad h=k=1+\xi,
-\]
-\[
+$$
+$$
 S=2\xi+3-2\lambda,\quad\eta=\xi+3-2\lambda.
-\]
+$$
 在 $T_0=0$ 面，$Q=2u(1-u)/\ell,\ d=1-Q$。直接原式给
-\[
+$$
 bc=\frac{u^2(2\ell-1)}{4d},\quad
 P_{02}=uQ(2\ell-1),\quad
 \Phi=\frac{2(u-1)(2\ell-u)}{\ell}.
 \tag{2.1}
-\]
+$$
 设
-\[
+$$
 Z_\lambda=\frac{(3\lambda-1)(2\lambda-1)}{B},\quad
 E=\ell+T,\quad
 W_\lambda=w-\lambda\xi(2\ell-1).
-\]
+$$
 原两仿射行在本面有
-\[
+$$
 P_f=0,\qquad N_f=QZ_\lambda,\qquad
 \Delta=\Phi QZ_\lambda.
 \tag{2.2}
-\]
+$$
 此前已由原第一行证明 $\Phi\ne0$。本稿只在原 $\Delta\ne0$ 补图上，故 $Z_\lambda\ne0$；$u-2\ell$ 由 (2.1) 同时是合法单位。
 
 原解的两个 Gram 参数可准确写成
-\[
+$$
 f=
 \frac{u\{uS\xi(2\ell-1)E-(u-2\ell)\eta W_\lambda\}}
 {(u-2\ell)Z_\lambda},\qquad
 t=-\frac{4dE}{u-2\ell}.
 \tag{2.3}
-\]
+$$
 源将 (2.3) 代回原两条仿射行，并验证 $f\Delta=F$。所有分母都属于本原补图的已付单位；没有新加一般权条件。
 
 以原 $p=1+\rho,q=1-\rho,\rho^2=d$、
-\[
+$$
 b=\ell/2+(u-\ell)/(2\rho),\quad
 c=\ell/2-(u-\ell)/(2\rho),\quad a=1-\ell
-\]
+$$
 重建原双点 Gram。具体仍从
-\[
+$$
 W_1=T_0/2+2uf,\quad
 W_2=uT_0+\lambda P_{02}+(V_2+2u^2)f-bcQt,
-\]
-\[
+$$
+$$
 X=\frac{cq(qW_1-W_2)}{bcQ(q-p)},\quad
 Y=\frac{bp(W_2-pW_1)}{bcQ(q-p)}
-\]
+$$
 得到 $r=X-ap-ct,s=Y-aq-bt,A_1=2f-2bX-2cY+2bct$，四行是
-\[
+$$
 (0,0,p,q),\quad(0,A_1,r,s),\quad(p,r,0,t),\quad(q,s,t,0).
-\]
+$$
 这是未缩放的 $H=1$ 原 Gram。完整 moment、$E_0,N_0,P_1,N_4(V)$ 均实际逐式返回。两个 singleton 的 N 目标仍为 $2\lambda P_{02}(1+\xi)^2$，P 目标仍为 $P_{02}(1+\xi)^3$。
 
 因为两条实际 B/C 原式同时存在、互为共轭且 $\rho\ne0$，其偶、奇两系数为必要式。这不把单独一条扩张方程任意拆成两条零式。
@@ -117,10 +117,10 @@ Y=\frac{bp(W_2-pW_1)}{bcQ(q-p)}
 原 71 次行列式只剥 $A$ 因子 12 轮、原 $bc$ 因子 5 轮、本补图 $N_f$ 因子 2 轮、$\lambda$ 因子 3 轮；原 67 次分别为 16、5、4、4 轮。这里“轮”是对指定已付多项式做真实 gcd 后的完整回乘，不将这些数字混称为每个不可约因子的重数。
 
 实际 QQ 扩展 gcd 和累计标签乘回给
-\[
+$$
 \boxed{a(\lambda)R_{28}(\lambda)+b(\lambda)R_{12}(\lambda)=1.}
 \tag{4.1}
-\]
+$$
 故不存在两个投影的公共复根，更不存在原点。这个排除直接在 QQ 中成立，不需要好素数提升或进一步有限纤维筛选。
 
 连同已排的 $\Delta=0$ 面，整个 $T_0=0$ 碰撞面排除。除了这两个互补原面，没有丢掉任何 $T_0=0$ 参数。
