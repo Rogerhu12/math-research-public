@@ -360,3 +360,6 @@ R1049§12（80）–（88）：原Chow层严格图置换将全部η/Cor折为[L:
 
 
 - [原B全paired基本解](2026-11-27-original-type4-inert29-coefficient.md)§8：低9的det(T³I−1024C)在char0可分非零，首一deg8的Qλ不在任何二挠e处零；真实U_e给deg17第二解与全部18维半单。W_x=9(δe)^−17Qλ(e)(X+1)^8；固定s⁴=x³+1 genus3 cover给完整n=17/2 Lamé基础矩阵，原sigma-frame W=2cσ68y17。所有相位、坏集及共同σ(2z)^(17/2)保，不给原PB4/p−1或canonical赋新零。
+
+
+- [canonical二阶§9](2026-11-27-original-canonical-second-derivative-newton-and-full-connection.md)：原完整ζ费用=68L2原lift+σ34Pζ，合原F得D²S=68dotS+Q_S全六列。dotS首−67z10/5；L2C|CM特征零等于0，双数负二族与全部尾严格由实际D²S差取得。68K_dot+K_QS=d(dv−1)J_S/p，保Q_S两dyadic及真实一阶必要条件，不新增横向canonical零。

@@ -65,3 +65,8 @@
 ### 原 dyadic 平均的完整 paired Lamé 基本解
 
 [原type4笔记§8](notes/2026-11-27-original-type4-inert29-coefficient.md)支付原B整个偶18维：低9的九个不同非零特征值，每个由原半周期给deg8/17两个独立多项式解；全部Qλ(e)非零由局部指标0、9证明。全18解给真实半单与固定genus3 cover上的n=17/2 Lamé基本矩阵、常数Wronskian。原sigma68y17共同因子和全部δ/e相位保留，有限好集另删实际固定判别式/分母；没有把此代数connection的零p曲率当原p−1行单位。
+
+
+### 完整 ζ 补偿已返回指定横向热 jet
+
+[canonical二阶笔记§9](notes/2026-11-27-original-canonical-second-derivative-newton-and-full-connection.md)用R855原双变量lift精确给D²S=68 dotS+Q_S，dotS=L2原齐次S、Q_S为完整固定六列(-1024,-117760,-46848,-26992,-1900,210)/7。dotS首−67z10/5；权4a+6b=p+1迫3|a，故L2C在CM真为零。原负二Newton双数一阶及全尾由实际D²/有界Q_S相减支付，68K_dot+K_QS=d(dv−1)J_S/p。下一需同finite来源识别此指定热jet，未将CM的canonical零横向微分。

@@ -146,3 +146,8 @@ p29/type4 note§7新增B=4(X+1)∂x²−96x²∂x+544x及全18列；它是原四
 ### 原B的整个代数paired connection已闭
 
 [type4笔记§8](notes/2026-11-27-original-type4-inert29-coefficient.md)已给全部九个λ、18维完整多项式谱与同一genus3覆盖上的Lamé两解/常数Wronskian；不再只缺一个第二解或Jordan范围。真正原p−1读者仍含共同σ(2z)^(17/2)。后继须保这个因子的完整Gaussian/Hurwitz，计算指定functional或其真实theta-group返回；不能只用代数Lamé零p曲率或irreducibility宣称全17原行非零。
+
+
+### 全 ζ 补源已集中为一个指定热 jet
+
+[canonical二阶§9](notes/2026-11-27-original-canonical-second-derivative-newton-and-full-connection.md)已将所有非有界ζ项返回dotS=(L2原齐次lift)|CM及一个完整有界Q_S；L2C|CM=0、双数定义与实际全尾已付。继续识别这个**指定**lift在原fulltoric/有限theta连接中的真实横向读数，或完整支付不同水平lift的H34差。不能对只在CM点成立的canonical坏零作参数微分；Q_S的两dyadic与一阶K′费用都保留。

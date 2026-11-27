@@ -404,3 +404,128 @@ $K'_-(0)+K'_{\mathcal R}(0)$，或证明其与相同 $K'_j(0)$ 的
 - [R321 原完整 Euler／移位 Newton 身份](../results/R321-jzero-fixed-six-torsion-primitives-and-complete-u-frame-transpose.md)，§8。本注的具体二阶三项卷积与端点阶数由式(7)–(16)直接证明。
 
 本文无数学数值执行、无素数扫描、无新增工作流。
+
+## 9. 完整 $\zeta$ 补项的指定热导数返回
+
+本节只用 R855 的同一个双变量 sigma、微分及原齐次提升，进一步把式(21)中的非有界部分集中到一个准确的横向 jet。它不对 CM 点的 canonical 零值作参数微分。
+
+在 R855 的参数环中写 $b=-g_3/4$，取
+$$
+\widetilde R_S=x^{14}-\frac{53}7 b x^{11}
+-\frac{12}7 b^2x^8-\frac{80}7 b^3x^5-\frac{128}7 b^4x^2,
+\qquad \widetilde S=\sigma^{34}\widetilde R_S.
+$$
+这是 R856(29) 已指定的原提升；沿整个参数环从 $z^6$ 起、首系数一。固定
+$$
+L_2=6g_3\partial_{g_2}+\frac{g_2^2}{3}\partial_{g_3},\qquad
+\dot S=(L_2\widetilde S)|_{g_2=0,g_3=-4}.
+\tag{32}
+$$
+$\dot S$ 是一个真实函数的指定参数导数，不是另选同一 CM 值的延拓。
+
+R855(8)–(11)逐项给
+$$
+L_2\sigma=\frac12(\zeta^2-x)\sigma,\quad
+L_2\widetilde R_S=2x^2R_{S,x}+\zeta DR_S
+\quad\text{在原 CM 点}.
+$$
+这里 $L_2b=-g_2^2/12=0$ 在该点，全部 $b$ 系数导数已经计入。
+将这些式子直接代入原 $\mathcal R_S$，得到
+$$
+\boxed{
+\mathcal R_S=68\dot S+\sigma^{34}P_\zeta(X),\qquad
+P_\zeta=
+\frac{-108800X-35360X^2-408X^3+19822X^4-5474X^5}{7}.
+}
+\tag{33}
+$$
+特别 $P_\zeta$ 是完整固定多项式，并非一个未指定的边界误差。
+可不展开地核它为
+$$
+P_\zeta(x^3)=1122xR_S-136x^2R_{S,x}.
+$$
+式(20)与(33)合并给
+$$
+\boxed{
+D^2S=68\dot S+Q_S,\qquad
+Q_S=\frac{\sigma^{34}}7
+(-1024-117760X-46848X^2-26992X^3-1900X^4+210X^5).
+}
+\tag{34}
+$$
+$Q_S$ 是原完整六维 $V_4$ 中的固定截面，首项 $30z^4$。
+它也正是 R855(13) 的
+$-68\sigma^{34}\mathcal H_{34}\widetilde R_S|_{\rm CM}$，
+因而保留了同一有限热连接的所有系数。
+
+### 9.1 原 Gaussian 在这一横向 jet 没有新增项
+
+在通用模型中，
+$c_\sigma(g_2,g_3)=[z^d]\log(\sigma/z)$
+是权 $d$ 的有理多项式。由于 $d=6s$，其中可能的单项
+$g_2^a g_3^b$ 满足 $4a+6b=d$，故 $3\mid a$。
+因此精确地
+$$
+\boxed{L_2(34c_\sigma)|_{\rm CM}=0.}
+\tag{35}
+$$
+这是特征零等式，不是仅模 $p$ 删一个可能带 $p$ 分母的项。
+
+等价地，可在双数环上取
+$g_2=-24\epsilon,\ g_3=-4,\ \epsilon^2=0$。
+原来源和原 Gaussian 的一阶资料准确为
+$$
+\widetilde S_\epsilon=S+\epsilon\dot S,\qquad
+C_\epsilon=C .
+$$
+因 $dh-2\equiv4\bmod6$，$S$ 的对应系数全部为零，故同一
+负二系数构造的一阶项就是
+$$
+J_{\widetilde S_\epsilon}^{[-2]}(v)
+=\epsilon J_{\dot S}^{[-2]}(v).
+\tag{36}
+$$
+此处解析性不用未经证明的整个模量盘：式(34)已把这个实际一阶函数
+写成 $D^2S$ 与有界 $Q_S$ 的线性组合，所以其全部 Newton 尾由
+式(9)–(11)和原 type‑4 尾直接支付。
+
+原低阶规范还给
+$$
+\widetilde S=z^6+\frac{67}{120}g_2z^{10}+O(z^{12}),
+\qquad \dot S=-\frac{67}{5}z^{10}+O(z^{16}).
+$$
+第一式只用 $x=z^{-2}+g_2z^2/20+\cdots$ 与
+$\sigma=z\exp(-g_2z^4/240+\cdots)$ 的完整最低项；
+第二式再使用 $L_2g_2=-24$ 及 CM 型。没有因首阶较高就将
+$\dot S$ 当作一个原有界 type‑4 截面。
+
+### 9.2 原坏条件现在集中到同一热 jet 的一阶
+
+按上述实际系数定义 $K_{\dot S}$。式(34)给完整解析身份
+$$
+\boxed{
+68K_{\dot S}(v)+K_{Q_S}(v)
+=d(dv-1)J_S(v)/p.
+}
+\tag{37}
+$$
+因此
+$$
+68K_{\dot S}(0)+K_{Q_S}(0)=0,\qquad
+68K'_{\dot S}(0)+K'_{Q_S}(0)=-dJ'_S(0)/p.
+$$
+$Q_S$ 的两个 dyadic 分量均须保留；它们可以用原完整矩阵直接分解。
+式(30)还给
+$$
+K_{\dot S}(v)\equiv
+-\frac{K_{Q_S}(0)}{68}+
+\frac{\alpha_{S,p}}{68}v(v-1)\pmod p.
+$$
+这使待消费项成为一个指定的同源横向热 jet，而非任意扩展连接。
+但是 $J'_S(0)=0$ 只在原 CM 纤维授权，不给
+$L_2J'_S$、$K_{\dot S}(0)$ 或 $\dot S$ 的中央另加零。
+
+若用 full toric 双核或 Gauss–Manin 来返回式(37)，必须识别
+式(32)的实际提升，或同时支付它与另一水平有限来源之间的
+$\mathcal H_{34}$ 差。式(35)已支付这一层的 Gaussian，
+却没有支付任何尚未证明的横向 canonical 消失。

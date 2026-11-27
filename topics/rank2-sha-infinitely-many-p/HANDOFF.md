@@ -12,16 +12,16 @@ root独占git/H/open/log/index；每条结论即推。非快进立即实际pull 
 
 ## 实际同步与规则
 
-- 最新两库实际部分clone/pull --rebase：只读CI run46056864071/job140701375150，request/source8c0a6116c5d383a4e7a96bbef879741dade23712。公开19:27:55UTC至420002f268f6978049cb9575a456630e6c363c5c，较7ed56a67bd6f914757323c81c83989f356967af2两README无差异；已读blob282e86b03385d3b6245ce7100ae2e2af7b103c2d / 2f3b3c9264fbba8189f85716e68f768830e921bc。
-- 私库19:28:00UTC至e5971fbad30f1a658de11feffd69e0fd7ab9fcd5，较a1ebea946d9dd3538cea32ad18d12597c4dbb75f两README无变；已读blob5ba164843b1f5802184178a82d786264404873a3 / 452d0127a4c3879807d70550d3eafd46c8fac642。QUEUE仍a01613b400f6cce6d89d2df6e34c836d9758386f，本行保持本会话进行中；认领提交41fe885610073f478b2f5a752461ca56cfd43f09。MR_TOKEN仅进程私库只读，私文不入公开log。
-- 本地07:20失联，20:00实际pull重试仍无环境；末次本地公开07:12的1cf10ac。CI实际pull、本地及API分记。**下一轮两库实际pull不迟于20:27UTC**；每次读两README新差异并即执行、记SHA。API最新main规则/topic比较不冒作pull。
-- 20:00两次ref暂时错误且main前进；本地实际pull无环境，重比后第三次成功推7a3dd34。本轮CI正补做两库实际拉取。末次rule15仍3100blob/43,544,330B、无>5MB；三旧gzip输入证书不变，不存可重算日志。
+- 最新两库实际部分clone/pull --rebase：只读CI run46060706157/job140713972083，source50eff7e6aef263a9c7478b55a8cde0d224d04d9f。公开20:01:18UTC至50eff7e6aef263a9c7478b55a8cde0d224d04d9f，较420002f268f6978049cb9575a456630e6c363c5c两README无差异；已读blob282e86b03385d3b6245ce7100ae2e2af7b103c2d / 2f3b3c9264fbba8189f85716e68f768830e921bc。
+- 私库20:01:24UTC至c077273f1b19137c631bc2ad7fa0f6f9279d97f7，较e5971fbad30f1a658de11feffd69e0fd7ab9fcd5两README无变；已读blob5ba164843b1f5802184178a82d786264404873a3 / 452d0127a4c3879807d70550d3eafd46c8fac642。QUEUE仍a01613b400f6cce6d89d2df6e34c836d9758386f，本行保持本会话进行中；认领41fe885610073f478b2f5a752461ca56cfd43f09。MR_TOKEN只进程私库只读，私文不入公开log。
+- 本地07:20失联，20:00实际pull仍无环境；末次本地公开07:12的1cf10ac。CI、本地及API分记。**下一两库实际pull不迟于21:01UTC**；每次读两README新差异并即执行、记SHA。API比较不冒作pull。
+- 20:00两次ref暂时错误/main前进，实际本地pull失败后第三轮推7a3dd34；本轮CI已补拉成功。最新rule15为3106blob/43,651,017B、无>5MB；三旧gzip输入证书不变，完整回执hash在log，不存可重算日志。
 
 ## 唯一原完整厚几何执行
 
 v9/v10/v11全部终态及失败链见[终点链](notes/2026-11-27-artinian-v7-final-and-successor.md)。v11 run45978097755/job140434827184/source8a19591199e83549df1709f35dc00976a40e2810在21000s/exit124前返回全部306Frob，但四交/Norm/18×9未返；非反例、非终门PASS，不重跑旧输入。
 
-唯一v12 run46033409751/job140622660136/source048e20343a5f7ec65db9089d824d0635d6815b2b自16:25:38UTC执行；19:28job仍in_progress，18:07:58实际joblog仍404BlobNotFound，未得数学终门。完整二次域native软件run46032975863已PASS；保原两char0 pins/60源/29/2453/64/minimal、全部四交/Norm/18×9门、Sage10.6与21000s。矩阵只在进程内保完整忠实表示，不落盘；不并行启动重作业。全部pins见[完整返回](notes/2026-11-27-complete-quadratic-polynomial-returns.md)。
+唯一v12 run46033409751/job140622660136/source048e20343a5f7ec65db9089d824d0635d6815b2b自16:25:38UTC执行；20:01job仍in_progress，18:07:58实际joblog仍404BlobNotFound，未得数学终门。完整二次域native软件run46032975863已PASS；保原两char0 pins/60源/29/2453/64/minimal、全部四交/Norm/18×9门、Sage10.6与21000s。矩阵只在进程内保完整忠实表示，不落盘；不并行启动重作业。全部pins见[完整返回](notes/2026-11-27-complete-quadratic-polynomial-returns.md)。
 
 ## 当前原惰性最高类、同源源与实际signed端点
 
@@ -39,7 +39,7 @@ R1049约93KB，原54/full9/η/Cor/degree34、Chern/Miller/PD同伦和FL全保；
 
 固定p29唯一run46043135878/job140655635855/source346dd26f的完整PB4行(20,27,7,20,23,21)已付三K29单位，不代c_j/q0好范围。whole17 Heisenberg提升及p≡2/5mod9的三线循环全保；原四元平均B完整六列、三列及模11非同谱已付，不能以B³或单U_e免费传播canonical。
 
-**[原canonical二阶完整Newton](notes/2026-11-27-original-canonical-second-derivative-newton-and-full-connection.md)**：Q=D²S真三项卷积给J_Q^[-2]=dv(dv−1)J_S，尾B_(h−2)独立支付；K_Q0恒0，坏条件准确是K′_Q0=−dJ′_S/p=0。F=∇34²S完整六列、两dyadic和R=68ζ∇S+(1156ζ²−34x)S全保；三U_e交换子保真实费用。模p K_Q=α_Sv(v−1)须合h2/h3，K_j0单位不代此一阶必要关系。
+**[原canonical二阶完整Newton](notes/2026-11-27-original-canonical-second-derivative-newton-and-full-connection.md)**：Q=D²S真三项卷积给J_Q^[-2]=dv(dv−1)J_S，尾B_(h−2)独立支付；K_Q0恒0，坏条件准确是K′_Q0=−dJ′_S/p=0。F=∇34²S完整六列、两dyadic和R=68ζ∇S+(1156ζ²−34x)S全保；三U_e交换子保真实费用。模p K_Q=α_Sv(v−1)须合h2/h3，K_j0单位不代此一阶必要关系。 §9进一步精确D²S=68 dotS+Q_S，dotS=L2原指定齐次lift首−67z10/5，Q_S全六列/两dyadic保；权同余给L2C|CM真0，所以完整未知只一个双数热jet。68K_dot+K_QS=d(dv−1)J_S/p，未对CM中央零作横向微分。
 
 **[原B完整paired基本解](notes/2026-11-27-original-type4-inert29-coefficient.md)§8**：低9真实char=det(T³I−1024C)在char0九根互异非零；每首一deg8 Qλ在全部e³=−1非零，由原U_e给deg17第二解。18解付全B半单，W_x=9(δe)^−17Qλ(e)(X+1)^8。固定genus3覆盖s⁴=X+1上Q/s17及U_eQ/s17给整个n=17/2 Lamé基本矩阵，D_z-W恒非零。原entire W=2cσ68y17、σ2z半幂和CM13不交换均保；只代数Lamé部分在固定好集外p曲率0，不替原p−1读者。
 
@@ -49,7 +49,7 @@ R959/R970–983固定E65/E65³/E260/E54925/E8125，rank≥2、完整finite/perio
 
 R1042原完整Hurwitz前缀/q13回执/13³ray/Smith及17/36双源整blow-up已付；指定scalar Schur、低卷积和完整补域仍开。R1040/46/47角来源、R1044carry、R1045完整负一点值不替代canonical。全部原参数与run/hash沿归档，不重跑。
 
-unitary§§10–15两支5-old与[全p字](notes/2026-11-27-original-connected-words-and-full-p-character-return.md)已付；完整θ门还原原g_n^-ε推前。[新S3150点载体](notes/2026-11-27-original-s3150-full-point-carrier-and-finite-projection.md)已root手证并两agent独核：α=1/1575、全2·9·25·7模块与原N后450维，7处真实倍率保f7；全部finiteη/δ/Haar/primitive平方及各χ根−已付。K正一jet/Ω是代数，故实际有限K/Y为完整点和；point-only的5/p惯性平均准确返回5-old,E0，保固定系数中的反角色。投影L_n+=β^-nκ^-n(1−βκ)/(5d_n)·10δ/7·ΩI_D≠0，L_n−投影0，故L_n+及两支差非零。5是惰性，old primitive只一个5/6；7 split统一化元的反unramtwist在paired epsilon抵消。仍须真正canonical坏⇒同一有限读者零；不可把整个中央log无限尾作点投影。
+unitary两支5-old及[全p字](notes/2026-11-27-original-connected-words-and-full-p-character-return.md)保持所有新补项。[完整S3150点载体](notes/2026-11-27-original-s3150-full-point-carrier-and-finite-projection.md)已付全3150/N后450、7 gluing、primitive平方/χ根−、K正一代数jet与finite点投影；L_n+投影为原E21609非零log倍数，负支投影0，故原有限K/Y两支差非零。全部实际系数/5 inert old Euler/point-only惯性沿原证明；canonical坏尚不迫同一L零，不对无限中央log尾作点投影。
 
 R1043§§19–22原Manin/KS/Hasse/CM289全级与接触已付；三T_a全p整除仍须同位三J全零，坏Sha尚不迫之，Fr−unit核只p点。R1039/41全Jac/Pell/厚点及q5/q11/NS/Br/MW唯一回执保留，不重跑。
 
