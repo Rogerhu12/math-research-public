@@ -18,3 +18,5 @@
 唯一原完整厚几何v12 run46033409751仍执行；既有软件PASS不替代四交/Norm/18×9终门。固定有限rank2曲线族的联合无穷canonical首导数非零仍为主门。
 
 - [R1049§12](results/R1049-original-inert-syntomic-graphs-and-crystalline-lattice.md)：R1049§12（80）–（88）：原Chow层严格图置换将全部η/Cor折为[L:H]乘原54和；三列与全部ω/δ相位给原DFT重数6。raw m_p=XPp(X³)准确等于3δ·g_p，g_p=θ(ψ27^(p−1))(τ/3)为原Γ的整weight p CM cusp form；T/U3及Fricke证明级别，full9 determinant下降保持，惰性逐系数给θg_p=hΓ/3且所有p倍指数齐。原Tate/KS定标及weight1 cusp核零排全部q^p附项，故原hbar=−3δα a_j⁻¹[L:H]乘同一原有限toric值。后继仍须付全type4/period/阶乘比较、完整和非零及通常全Sha全球桥。
+
+- [原type4固定29系数入口](notes/2026-11-27-original-type4-inert29-coefficient.md)：完整六列、原PB4三维像及17⁴·28!倍率均保；这是待执行的有限消费者，未登记非零或Sha结论。

@@ -1,12 +1,12 @@
 {
-  "request_id": "rank2-original-positive-five-old-quartic-trace-v1",
+  "request_id": "rank2-original-type4-fixed-inert29-coefficient-v1",
+  "python_flint_version": "0.9.0",
   "checks": [
     {
-      "script": "topics/rank2-sha-infinitely-many-p/scripts/check-original-positive-five-old-quartic-trace.py",
+      "script": "topics/rank2-sha-infinitely-many-p/scripts/check-fixed-p29-original-type-four-pb4-row.py",
       "engine": "python3",
       "args": [],
       "include_stdout": true
     }
-  ],
-  "reason": "Compute only the exact original positive five-old quartic trace, with complete Bezout returns and full four-dimensional trace; no spectrum or prime scan."
+  ]
 }

@@ -64,3 +64,5 @@ R1049§10已付up modp=−cQ：真正mShioda线丛的全局连接、proper gener
 ### 原惰性残余读数已接到完整CM toric值
 
 R1049§12（80）–（88）：原Chow层严格图置换将全部η/Cor折为[L:H]乘原54和；三列与全部ω/δ相位给原DFT重数6。raw m_p=XPp(X³)准确等于3δ·g_p，g_p=θ(ψ27^(p−1))(τ/3)为原Γ的整weight p CM cusp form；T/U3及Fricke证明级别，full9 determinant下降保持，惰性逐系数给θg_p=hΓ/3且所有p倍指数齐。原Tate/KS定标及weight1 cusp核零排全部q^p附项，故原hbar=−3δα a_j⁻¹[L:H]乘同一原有限toric值。后继仍须付全type4/period/阶乘比较、完整和非零及通常全Sha全球桥。 这里只把真实固定有限和化为原CM模形式；正权经典临界值非零不付其模p单位，q0仍只用于原h识别。下一同R806保全PB4三维来源比较 d_{j,p−1}，所有p因子逐一保留。
+
+固定p29原type4完整系数消费者已接既有small workflow（[公式与范围](notes/2026-11-27-original-type4-inert29-coefficient.md)）；实际回执待消费，未以小p替代q0或全toric比较。
