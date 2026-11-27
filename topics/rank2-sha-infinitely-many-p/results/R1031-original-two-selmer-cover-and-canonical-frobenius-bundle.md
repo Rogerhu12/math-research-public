@@ -559,3 +559,243 @@ $$
 其对应截面在 R1027(38)全部27对中的带权评价。
 原54图、$\eta_j$、$P_-$ 与完整 $\operatorname{Cor}_{L/H}$
 没有被二 Selmer 群、一个 Frobenius 矩阵或一个存在定理替代。
+
+## 9. 原 maximal Frobenius 线性系确实落在同一个三盖拉回
+
+仍取 $P_0=(a,0)$。原映射(2)给
+$$
+ f^*(O)=P_0+P_1+P_2.
+$$
+每个 $P_i$ 都是 Weierstrass 点，故 $2P_i\sim K_C$，
+从而
+$$
+ \mathcal O_C(f^*O-3P_0)=L.
+ \tag{44}
+$$
+惰性 $q$ 的 $d_q=(q+1)/3$ 为偶数，(44)中的二挠误差准确消掉：
+$$
+ f^*\mathcal O_B(d_qO)=\mathcal O_C((q+1)P_0).
+ \tag{45}
+$$
+R1029 已证明同一 $J(C)$ 上的实际
+$\operatorname{Frob}_q^2=[-q]$。$P_0$ 在 $\mathbf F_q$ 上有理，
+所以对每个几何点 $P$，
+$$
+ qP+\operatorname{Frob}_q^2(P)\sim(q+1)P_0\sim f^*(d_qO).
+ \tag{46}
+$$
+这给原 $f$ 上的真正 Frobenius 线性系；它仍不把该线性系中的
+一个函数自动改成(19)的有理点。
+
+## 10. 同构的显式迹核与原谱基中的固定矩阵
+
+为避免把(34)仅留成一个除子存在结论，现把相应截面写成原
+函数域中的公式。以下的 $\xi$ 是三同源的 Kummer 坐标，
+不与(4)的二挠参数 $u$ 混用。
+
+在(29)的 $b$ 椭圆曲线坐标 $(r_b,s_b)$ 上定义
+$$
+ \xi=-\frac{\delta(2s_b+1+\delta)}{6r_b},
+ \qquad
+ \xi'=-\frac{\delta(2s_b+1-\delta)}{6r_b}.
+$$
+原三同源公式直接给
+$$
+ \xi^3=Y,\qquad \xi'^3=Y+1,\qquad
+ \xi\xi'=X,\qquad r_b=\frac1{\xi-\xi'}.
+ \tag{47}
+$$
+例如把 $(2s_b+1)^2=4r_b^3+1$ 展开三次，便得这些等式。
+这也是(29)的实际 $\mathbf F_q$ 下降模型；
+在 $\delta$ 共轭及定义域 $[-1]$ 同时作用下，$\xi,\xi'$ 不变。
+
+置 $k_z=z^3$，并保持 $g=z^2+az+a^2$。定义
+$$
+ \begin{aligned}
+ H_1&=\frac g z\bigl(w+k_z+8-3a^2z\bigr),\\
+ H_2&=\frac{k_z-4}{z^2}
+       \left((2z^2-az-a^2)(w+k_z+8)-36z^2\right),\\
+ h&=-18a^2g+3a\,\xi H_1+\xi^2H_2.
+ \end{aligned}
+ \tag{48}
+$$
+它是(34)所需截面的准确有理函数系数。为证明这个陈述，选
+$\omega_C=dz/w$，其除子是 $\infty_++\infty_-$。
+采用(41)中的 $L=\mathcal O_C(D_g)$，则需要证明
+$$
+ \operatorname{div}(h)+
+ g_C^*(2\infty_++2\infty_- -P_1-P_2)-b^*O
+       \ \text{有效}.
+ \tag{49}
+$$
+这里 $g_C:C_\delta\to C$ 是(29)的盖映射，避免与函数 $g$ 混淆。
+
+先核全部可能极点。(47)使 $\xi$ 在每个 $P_i$ 上方有一阶极，
+在 $\infty_+$ 上方有二阶零，在 $z=0,w=8$ 上方有一阶零，
+余处无零极。(48)三项在两无穷点上方的极阶均至多二。
+在 $z=0$ 两支，$w+z^3+8$ 分别有常数项16及三阶零；
+因此 $\xi H_1$、$\xi^2H_2$ 的表观 $z,z^2$ 分母全部消掉。
+在 $P_i$ 处，$z^3-4$ 有二阶零而 $w$ 有一阶零，
+所以这些项均正则。没有删除任何分母支。
+
+再核要求的零。取局部参数 $s=w$。在 $P_i$ 附近有
+$$
+ z=a_i-\frac{s^2}{36a_i^2}+O(s^4),\qquad
+ Y=\frac{432}{s^3}-\frac12+O(s).
+$$
+三条盖支为
+$$
+ \xi=\frac{3a_i^2\omega^j}{s}+O(s^2),\qquad j=0,1,2;
+ \tag{50}
+$$
+其中 $j=0$ 正是 $b=O$ 支，因为
+$\xi'=X/\xi$ 且 $\xi-\xi'$ 仅在该支消掉其极，
+于是 $r_b=1/(\xi-\xi')$ 有极。
+
+在 $i=1,2$，(48)三项都至少消一次，且
+$$
+ (\xi H_1)'=\frac{3a^2a_i}{4}\omega^j,\qquad
+ (\xi^2H_2)'=-9a_i\omega^{2j}.
+ \tag{51}
+$$
+因此 $h'=9a_i(\omega^j-\omega^{2j})$，
+在 $j=0$ 进一步消一次。这正是
+$g_C^*(P_1+P_2)+b^*O$ 在这些点要求的全部重数。
+在 $P_0$ 的 $j=0$ 支，
+$g=3a^2+O(s^2)$，
+$\xi H_1=36+O(s^2)$，
+$\xi^2H_2=108a+O(s^2)$；
+(48)的常数和一次项同时为零。它在另外两支的值为
+$-324a\ne0$，故 $h$ 不是零函数。
+
+于是(49)成立；§6 已证明这个 Hom 空间一维，
+所以其有效除子准确等于 $v^*O$，即
+$$
+ \operatorname{div}(h)=
+ v^*O+b^*O+g_C^*(P_1+P_2-2\infty_+-2\infty_-).
+ \tag{52}
+$$
+这也独立固定了(36)中的另外两个零，未对任何 $q$ 扫点。
+
+有限映射的微分迹伴随现在把同构写成
+$$
+ \boxed{\quad
+ \phi_0(s)=\operatorname{Tr}_{C_\delta/B_b}(h\,s).
+ \quad}
+ \tag{53}
+$$
+(53)与按 $\omega_C/\omega_B$ 写出的伴随仅差一个非零固定
+标量：$f^*\omega_B=6\,dz/w$，$\delta^*\omega_B=\delta\omega_B$，
+所以原比为 $\delta/6$；再乘 $\delta$ 下降后为 $-1/2$。
+(53)因此确实定义在 $\mathbf F_q$ 上。这里仅去掉一个
+$\mathbf F_q^\times$ 的固定标量，它在 Frobenius 运输中的
+$b/b^q$ 为一；没有重定义原(41)的 $j$。
+
+更具体地，在 $V$ 的原有理基 $1,z,z^2$ 与 $W$ 的
+$1,\xi,\xi^2$ 基中，(53)的固定矩阵是
+$$
+ M_{0j}=-18a^2\operatorname{Tr}(g z^j),\quad
+ M_{1j}=3a\operatorname{Tr}(H_1 z^j),\quad
+ M_{2j}=\operatorname{Tr}(H_2 z^j),\quad 0\le j\le2.
+ \tag{54}
+$$
+所有迹都在原(3)的三次谱代数中；$w$ 由(2)返回。
+(52)--(53)已证明 $\det M\ne0$，不是数值猜测。
+若 $N_q$ 是(42)的实际矩阵，则真实运输严格是
+$$
+ j_W=M\,N_q\,\bigl(M^{(q)}\bigr)^{-1},
+ \tag{55}
+$$
+其中 $M^{(q)}$ 对基域函数及系数取 $q$ 次幂。
+(54)--(55)连同(18)--(24)提供完整固定有限源接线；
+仍需由它产生(19)的实际点，不能把矩阵可写当成点已经取得。
+
+## 11. 原迹核的准确 Norm 与常数
+
+保持(47)--(48)，令 $r=X_b$，而 $X=X(\delta b)$ 仍是原基坐标。
+则有完整函数恒等式
+$$
+ \boxed{\quad
+ \operatorname{Nm}_{C_\delta/B_b}(h)
+       =-2^7\,3^{10}\,
+          \frac{r+a/2}{r^2X^2}.
+ \quad}
+ \tag{56}
+$$
+先不猜常数而比较完整除子。由(36)--(37)，
+$$
+ b_*(v^*O)=O+B_++B_-,
+ \qquad B_\pm:\ r=-a/2,\ 2s_b+1=\pm\sqrt{-1}.
+$$
+此外
+$b_*(b^*O)=3O$，
+$b_*g_C^*(P_1+P_2)=2\ker\delta$，
+$b_*g_C^*(\infty_++\infty_-)=\delta^{-1}(T+(-T))$。
+所以(52)的 Norm 除子为
+$$
+ 6O+2T+2(-T)+B_++B_-
+                  -2\delta^{-1}(T+(-T)).
+ \tag{57}
+$$
+另一方面
+$\operatorname{div}r=T+(-T)-2O$，
+$\operatorname{div}(r+a/2)=B_++B_--2O$，
+$\operatorname{div}X=\delta^{-1}(T+(-T))-2\ker\delta$，
+逐项给出同一个(57)。故(56)尚只差一个非零常数 $C_0$。
+
+在 $b$ 上取 $\xi\to0$ 的支，并令
+$\xi'\to\varepsilon$、$\varepsilon^3=1$。这是
+$\delta b=T$ 的三个真实支之一，且
+$$
+ r\longrightarrow-\varepsilon^2,\qquad
+ X\sim\varepsilon\xi,\qquad
+ \frac{r+a/2}{r^2X^2}
+       \sim\frac{a-2\varepsilon^2}{2\xi^2}.
+ \tag{58}
+$$
+$f^{-1}(T)$ 有一个不分歧点 $(z,w)=(0,8)$，另一个点
+$\infty_+$ 的分歧阶为二；这三条局部分支全部进入 Norm。
+
+在不分歧支，
+$z\sim4\varepsilon\xi/3$，由(48)得
+$$
+ h\longrightarrow
+ U_0=-72a+\frac{144}{\varepsilon}
+                     +\frac{36a^2}{\varepsilon^2}.
+ \tag{59}
+$$
+在另两支，$w\sim z^3$、
+$z^2\sim-3/(\varepsilon\xi)$，且
+$$
+ \frac h{z^2}\longrightarrow
+ L_0=-18a^2-\frac{18a}{\varepsilon}
+                       +\frac{36}{\varepsilon^2}.
+ \tag{60}
+$$
+因此三支乘积的首项为
+$$
+ \operatorname{Nm}(h)
+       \sim\frac{9L_0^2U_0}{\varepsilon^2\xi^2}.
+ \tag{61}
+$$
+置 $b_0=a\varepsilon$，则 $b_0^3=4$，并有
+$$
+ U_0=36\varepsilon^{-1}(b_0^2-2b_0+4),\qquad
+ L_0=-18\varepsilon^{-2}(b_0^2+b_0-2).
+$$
+把(58)--(61)相除，
+$$
+ C_0=2^5\,3^8\,
+ \frac{(b_0-1)^2(b_0+2)^2(b_0^2-2b_0+4)}{b_0-2}.
+$$
+最后准确使用
+$$
+ b_0^2-2b_0+4=\frac{12}{b_0+2},\qquad
+ (b_0-1)^2(b_0+2)=-3(b_0-2),
+$$
+得到 $C_0=-2^7\,3^{10}$。这些分母在 $q\ne2,3$ 时均非零。
+常数既未以数值拟合，也未只保其平方类。
+
+(56)为原矩阵运输付清了真实 Norm 因子。
+其线性因子 $r+a/2$ 有两个单零点，不能未经处理把它当平方，
+更不能从(56)直接宣称(19)已经有一个明确返回点。
