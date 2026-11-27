@@ -6,7 +6,7 @@
 
 ## 规则和全部历史
 
-root最后真实pull/rebase：`eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21 UTC执行环境失联，恢复即真拉取。云核至`a3467c4b0ebb02a053e95fbcd05d4975986a8c85`（非pull），双README SHA `581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102` / `3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d`无变。每次真实pull后核差异、至少每小时一次；活10每次pull记末块。私库QUEUE进行中已推`e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`。
+root最后真实pull/rebase：`eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21 UTC执行环境失联，恢复即真拉取。云核至`a20c1446867982b8c85c89a4147c712d7160ac15`（非pull），双README SHA `581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102` / `3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d`无变。每次真实pull后核差异、至少每小时一次；活10每次pull记末块。私库QUEUE进行中已推`e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`。
 
 科学只本公开仓库Actions；root唯一ref写者，完整结论即普通推；不强推，NFF真终端立即rebase循环。无终端时云普通HEAD保全合并，不冒pull。raw仅runner/scratch，不入Git/Release/artifact、不改名输入；保存完整源、全参数、run/hash。题≤200MB、文件<5MB、MD<100KB、H<10KB、open<30KB；先metadata，不整读≥100KB。令牌仅瞬时CLI。根12禁止独立审核/冻结/AST/fixture/重跑等新门，实际全数学与原完成条件不减。
 
@@ -49,7 +49,7 @@ R717给整像目标全盒min（含z及两帽）和同完整leaf位置盒的D≤2
 [08终态](notes/2026-11-27-run08-terminal-cancelled-with-unreturned-complete-field.md)：45929088658/1 cancelled，只1–10返，95559/typed/pure未知。最后真pull08:08:18→`812ff88bd83b5669770c0224269ee9dccfab7c9e`。
 [09终态](notes/2026-11-27-run09-terminal-cancelled-with-unreturned-complete-field.md)：45943410994/1 cancelled，只1–7返，ff544/aee/费未知；最后真pull10:36:31→`90a9e16ac40877b0b8674a1b8750b60e1cdeae95`。双README均无变，不猜取消因果。
 
-[42保全](notes/2026-11-27-three-coordinate-design-histories-retention-42.md)仅退3旧coordinate-design trace；全原参数/源/manifest/最终config/结论保，固定8b6c340原字恢复，Nelder另支未删。此前[41](notes/2026-11-27-thirteen-condensed-gzip-intents-retention-41.md)及33–40全ledger/正确warm-status/旧reader责任保固定前H；未读大体，未知SHA为null。
+[43保全](notes/2026-11-27-four-legacy-generated-records-retention-43.md)退4旧派生记录，原源/全参数/消费者/恢复链保，净约2MB。此前[42](notes/2026-11-27-three-coordinate-design-histories-retention-42.md)退3坐标轨迹、Nelder未删；41及33–40全ledger/正确warm-status/旧reader责任保固定前H。所有原字由已登记历史blob恢复，未读大体、未知SHA为null。
 
 <!-- visible-larger-parallel-10:start -->
 并行公开Actions10：[run 45972294636/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45972294636)；[实际记录](notes/2026-11-27-public-actions-45972294636-1.md)。阶段`followup:complete-run10-detached-closure-values-first-20261127`/running；已返4，exit=未返。
