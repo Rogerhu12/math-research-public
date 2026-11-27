@@ -5,12 +5,12 @@
 ## 目标与规矩
 
 - **普通复可分无限维 Hilbert ISP 未完成。** 只以全体有界算子定理或完整反例收尾；子题/时间/输入不足均不停止，按open换输入继续。
-- **最近实际 pull / 已读规则提交：** 8a15c7fb3e2bc6c4df46b5e7682b05af0954a25a（2026-11-27 15:28:20 UTC，Actions run46025163613实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-8542/46025163613-1.json。
-- 私库QUEUE本会话进行中已实际核验；最近真实pull为2026-11-27 15:28:20 UTC/4691b80dfb20c38c2302c919947e97fce28539aa，根README diff无变。公私均部分克隆blob:none。
+- **最近实际 pull / 已读规则提交：** befea747e6f9afc88232d1450bbd12b025e70b4d（2026-11-27 15:29:24 UTC，Actions run46025316408实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-8542/46025316408-1.json。
+- 私库QUEUE本会话进行中已实际核验；最近真实pull为2026-11-27 15:29:23 UTC/b766e14106f635d51d431d7b80bfe107c8de2b1d，根README diff无变。公私均部分克隆blob:none。
 - **终端再次断开：** 约07:20 UTC起本地执行器不可用。按根规矩8/13小文本准备、公开Actions真实pull/rebase/push，非快进立即循环；旧故障与准确源保[说明](notes/2026-11-27-executor-outage-and-unpublished-small-input-checkpoint-8542.md)，未冒称本地恢复。
-- **终端断开后远端已读：** `8a15c7fb3e2bc6c4df46b5e7682b05af0954a25a`（2026-11-27 15:27:58 UTC）；只读检查不冒称实际pull。
+- **终端断开后远端已读：** `b5dff94eb65682d70db4e6593c523f9ad85c5247`（2026-11-27 15:29:02 UTC）；只读检查不冒称实际pull。
 - H<10KB、MD<100KB、open尽量<30KB、题<200MB；只留源/参数/SHA/小回执，不留可重算大输出，不写根LOG。课题外workflow改动已记本题log。
-- 所有被压缩的精确结论/来源/失败身份保[最新完整H](notes/2026-11-27-handoff-before-W-lambda-three-halves-two-QQ-covers-8542.md)、[open](open.md)、[结果索引](results.md)及归档链；省略不算关闭，已登记不重做。
+- 所有被压缩的精确结论/来源/失败身份保[最新完整H](notes/2026-11-27-handoff-before-W-entire-lambda-three-halves-exclusion-8542.md)、[open](open.md)、[结果索引](results.md)及归档链；省略不算关闭，已登记不重做。
 
 ## R150 总图与当前一般支
 
@@ -27,7 +27,7 @@
 - **整个原S0/Lt0已闭。** 615次QQ覆盖全退化面；9d0c7789真163.601秒/exit0。完整源/回执/旧失败保总定理及完整H，冻结不重放。
 - 一般LS只续未付T/权面；旧依赖D≠0的权排除不传h=k(D0)。原P1双零整支已闭，只付(Pf,Pt)非同时零。Delta0合法付Phi；四原值式准确等价首一二次/三一次，六参数式仅完整投影四值等式，四Gram子式仅必要。源70017734/ea0ffae2的完整来源及实际回执见results。
 - Delta0/W对ell首项零整支(u=1/2,Q=2)已闭，W0可付u(Q+2)−2；W0整k=−1线已闭，末非约化域原D=0，可付k+1。原完整98/12次覆盖、整域返回及实测源3769e6d6/43393adf均在正文。
-- **W整D27/J19闭；T4/F2原环境已成。** 866已返A143≠0九原行/四乘法/三cofactor，λ度6/8/8；A143零面/新λ头零/个别N/P仍保。整lambda3/2除单F18外，d8dae四固定10列全回乘给权曲线(e,k)26/33、28/34、28/33、30/38；53.807秒/72976KiB/exit0。a267已返QQ1057/1099→首一372/403，两覆盖逐系数1009整；后xgcd于181.004秒SIGALRM未返、PS未启，失败门冻；Ah0另已闭，但新计算未倒A143/Ah/D/范数。
+- **W整D27/J19及整lambda3/2已闭，全当前W付3−2lambda。** 372/403完整QQ首一覆盖逐系数1009整，新V8 151ms/372步全Bézout返1，Gauss保全部复根/A143/Ah及e头零。a267后QQ xgcd SIGALRM冻，不需PS/重放。续全图真正T3/F2六列；既有A143≠0九行/四乘法/λ度6/8/8必要式，A143零面/新λ头零/个别N/P仍保，不倒D/范数。
 - **整个Q=1−u已原排空，全局付u+Q−1。** 三native QQ核给原R重数244/3/3，两模分裂根各3；旧g222与1382余式的253度因子及全部三原整域合闭。源/回执/QQ乘回保总定理及归档，66和旧大门冻结。
 - **旧D≠0值图等权b=c全闭，仅该图付ell−u；W另付k+2/Q−2。** 824次覆盖及末m半QQ单位保总定理/归档，旧600秒门不重放。
 
