@@ -179,3 +179,5 @@ Deddens自伴MASA、全部可分重数有限成本投影、全2-adic平移距离
 [最大实际图的低余孔平方来源费用](results/R271-appendix-maximal-graph-low-excess-hole-square-cost.md)现给同一规范来源 h 的新 C2 可支付扇区：任意 c<2^(1/3)−1，大首缺位 q 上只要来源总孔数≤q+floor(cq)−2，其费用由实际 (y,Gy) 图范数控制。由原 creation 交换子取得 η_(q−1) 级前缀界；因此物理孔数有界的实际 y 已在原图核心。剩余高余孔来源、同 W 的 Gamma 仍开；不假设任意物理孔截断保最大图域。
 
 [H非零原头atlas及低次cubic补图](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-H-nonzero-original-head-atlas.md)已给全部15二次头子式、4真实overlap及6三次子式。只在(k+2)J19*C9非零图得(1,x,y,t,y²,yt)六生成元，不断言自由；C9仅9项degree(e,k)=2/4。k=−2属等权分支，J19/C9整零面仍待原返回。继续同点原NS/PS与乘法矩阵，保全部主元边界。
+
+[整个剩余等权图的原六生成元](results/R150-appendix-unit211-equal-weights-global-original-six-generator-module.md)现已完成：四二次 cofactor 合四原 cubic overlap，[0,2]头为8(m−1)Q(Q−1)²/J，全由已付单位组成。六条原首一规则无新增零支，继续同点乘法/原NSPS及其重叠差；不假商自由或唯一余式，整个等权仍开。

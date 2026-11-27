@@ -1,0 +1,54 @@
+{
+  "session": "Astra-ISP-8542378f-20261127",
+  "date": "2026-11-27",
+  "arithmetic": "exact rational BigInt in functions.exec V8; no OS child",
+  "sources": [
+    {
+      "path": "2026-11-27-unit211-equal-weight-paid-quadratic-and-cubic-rules-8542.js",
+      "sha256": "6be9a19267932784cb5a675079cea59f2175ed5a13d911101e1e445be9963b24",
+      "stages": [
+        "quadratic",
+        "overlap"
+      ]
+    },
+    {
+      "path": "2026-11-27-unit211-equal-weight-global-six-generator-rules-8542.js",
+      "sha256": "93ecc617f3dba9a7e37da86d3169a90ce9c910a3e613e64a5cc271d80f7711b6",
+      "stages": [
+        "six"
+      ]
+    }
+  ],
+  "inputs": {
+    "affine_source": "2026-11-27-unit211-equal-weight-original-affine-quadratics-8542.js",
+    "sha256": "88914af76ec66403312723ef45d12c2a503553007353e33d9e4774e90b7ccff1",
+    "original_affine_output_sha256": "a843acd0c45e20ffbfc39f437f58f44815ea8c601c6a9bac41389c45e8c1f650"
+  },
+  "actual": [
+    {
+      "stage": "original_equal_weight_paid_quadratic_rules",
+      "seconds": 0.333,
+      "products": 16,
+      "output_json_sha256": "b0c6e016020cf7340bc791dc305e6f447bc2d9e23006589af2579faa4e6f26b0"
+    },
+    {
+      "stage": "original_equal_weight_four_cubic_overlap_heads",
+      "seconds": 6.503,
+      "overlaps": 4,
+      "minors": 6,
+      "output_json_sha256": "2b376413c7eb317df93266d7cf617e18e18aa6b28fb582527862d26643e4bb29"
+    },
+    {
+      "stage": "global_original_equal_weight_six_generators",
+      "seconds": 2.165,
+      "original_rules": 6,
+      "output_json_sha256": "b6fae74dfd4a8df10be43961bc31042b13b60e221c42e92473271e3ee49cda69"
+    }
+  ],
+  "all_stages_actually_returned": true,
+  "os_exit_code": null,
+  "rss": null,
+  "free_module_claim": false,
+  "whole_equal_weight_excluded": false,
+  "reproducible_outputs_not_committed": true
+}

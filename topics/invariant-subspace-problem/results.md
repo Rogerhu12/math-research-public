@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **已证明：** [整个剩余等权图的原六生成元模块](results/R150-appendix-unit211-equal-weights-global-original-six-generator-module.md)：原四二次 cofactor 和真正三次组合的选定头全为已付单位，六条首一规则完整乘回；无需新的零面，不假自由。
+
 - **已证明：** [一般 W/H 非零的原二次头 atlas 与低次 cubic 补图](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-H-nonzero-original-head-atlas.md)：全15+6子式和原组合返回，明确非零图给六生成元；新9项C9取代实跑原选128项头的补图推论，所有首项零面继续。
 
 - **已证明：** [一般 W/H 非零的完整最高次分类与二次权纤维排除](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-H-nonzero-highest-weight-cover-and-quadratic-fiber-exclusion.md)：全部原四二次方向只余三条件共同二次权纤维；整个QQ二次代数的独立有限原48×35单位行排尽该纤维，其他有限W点继续。
