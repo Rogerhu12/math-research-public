@@ -40,3 +40,5 @@
 - [R1017](../results/R1017-explicit-characteristic-five-section-and-original-shadow-vanishing.md)：原q5截面给完整有理函数坐标，原恒等式/全部极/两坏分量付高度10/3；deck共轭独立直接证明该小素数Tate，整判别式排指数5，得到全部MW=(5/3)A2及F5高10固定生成元。实际公开run45929764445 PASS。原全部54图及所有Artin分支在5处落四个F25 j0纤维，评值6挠使倒6后shadow全零；继续一般q，未以新NS方向代原AJ非零。
 
 - [R1018](../results/R1018-original-fourth-word-adjoint-and-single-frobenius-weight.md)：在同一特征零权内选H≈p/6≥L_p，模p准确退成单W^p；一般余band另付B/DB闭式。全13第四阶保持Miller/角色及所有归一，实际旧分量Ψ27462500系数61ω/18480。完整Cartier伴随保四项曲率，diagonal六块移位与末四b第五块补项齐；换profile真实转到其余12纤维。双支target差准确为−(61/18480)(p+1)log非零，不把新测试赋canonical零，继续实际exact消元。
+
+- [R1019](../results/R1019-original-full-trace-and-inert-kernel-divisor.md)：原η在所有好惰性q主理想上等于1，完整Cor后shadow必被q+1杀掉，ordinary p检测需q≡−1 mod6p。反Frob三共线给两个准确原Kummer类；真实α_q²=−(q+1)/3及其核给H_q=(Y^d−1)/(Y+1)全部点。固定D_q的完整二/三阶Hensel消极点和无穷次数界给2d/3d维有限截面方程；q5准确回原极点，一般解及原54非零仍待。
