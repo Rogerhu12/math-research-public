@@ -1,0 +1,232 @@
+{
+  "schema": "isp-W-five-plus-five-original-value-name-error-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "sourcePath": "notes/2026-11-27-unit211-generic-LS-W-five-plus-five-original-value-fixed-cofactors-8542.py",
+  "driver": {
+    "elapsed_seconds": 4.400422847000016,
+    "max_child_rss_kib": 123124,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "6279899a12dd6492b063c11fc4e9b1c86b92873a",
+        "before": "6279899a12dd6492b063c11fc4e9b1c86b92873a",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-27T11:04:01.162201+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "45987313941",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "6279899a12dd6492b063c11fc4e9b1c86b92873a",
+    "source_exit_code": 1,
+    "source_git_blob": "0aae2685b1c3fba6b114e259721b2dd9a0d3bd1f",
+    "source_sha256": "d5eab08800d0ae5617be02f4f13b89861895e1f3adb144f352d956daa900205e",
+    "stdout_bytes": 24197,
+    "stdout_sha256": "fb8e26311998ab4da42e2c832da0ff3d4182f7914dac737ff63073a3a03a1d36",
+    "stop_reason": null
+  },
+  "jobId": 140466144960,
+  "exactError": {
+    "type": "NameError",
+    "line": 611,
+    "statement": "P023=scalar3(P02);Phi3=scalar3(Phi);Q3=scalar3(Q);V3=scalar3(V)",
+    "message": "name 'V' is not defined",
+    "canonicalExistingWeightVariable": "Vbar"
+  },
+  "lastCompletedOriginalStage": {
+    "stage": "new_W_native_coefficient_full_value_four_generator_complete",
+    "sourceSHA256": "d5eab08800d0ae5617be02f4f13b89861895e1f3adb144f352d956daa900205e",
+    "wholeRemainingDeltaZeroWZeroChart": true,
+    "coefficientVariables": [
+      "e",
+      "k",
+      "w"
+    ],
+    "basis": [
+      "1",
+      "Y",
+      "s",
+      "Ys"
+    ],
+    "allTenOriginalValueRowsReturned": true,
+    "allOriginalCoefficientwiseTraceProductsVerified": true,
+    "allEightTrueMultiplicationColumnsVerified": true,
+    "allListedOriginalPhysicalUnitsReturned": [
+      {
+        "name": "Y",
+        "summary": {
+          "numeratorDegreeBounds_e_k_w": [
+            0,
+            0,
+            0
+          ],
+          "numeratorTermCounts": [
+            0,
+            1,
+            0,
+            0
+          ],
+          "denominatorDegreeBounds_e_k_w": [
+            0,
+            0,
+            0
+          ],
+          "bytes": 41,
+          "sha256": "86f473de02420a61f1c43e87e759b0df612c04c62d375ee4c71d714d5e40a46b"
+        },
+        "exactOriginalUnitReturned": true,
+        "normNotAssumedUnit": true
+      },
+      {
+        "name": "lambda",
+        "summary": {
+          "numeratorDegreeBounds_e_k_w": [
+            4,
+            6,
+            1
+          ],
+          "numeratorTermCounts": [
+            40,
+            20,
+            0,
+            0
+          ],
+          "denominatorDegreeBounds_e_k_w": [
+            4,
+            6,
+            0
+          ],
+          "bytes": 1085,
+          "sha256": "61f648c232dd4890e37b7e4edd3403f7ce2bc3e7e37678b34eb96ed69a2af29e"
+        },
+        "exactOriginalUnitReturned": true,
+        "normNotAssumedUnit": true
+      },
+      {
+        "name": "D",
+        "summary": {
+          "numeratorDegreeBounds_e_k_w": [
+            22,
+            31,
+            6
+          ],
+          "numeratorTermCounts": [
+            2719,
+            1709,
+            0,
+            0
+          ],
+          "denominatorDegreeBounds_e_k_w": [
+            20,
+            31,
+            0
+          ],
+          "bytes": 119588,
+          "sha256": "cdaada786623a47438c7dbace83363c7674abe5a79bb4d3ae2240dc14ee2687b"
+        },
+        "exactOriginalUnitReturned": true,
+        "normNotAssumedUnit": true
+      },
+      {
+        "name": "s",
+        "summary": {
+          "numeratorDegreeBounds_e_k_w": [
+            0,
+            0,
+            0
+          ],
+          "numeratorTermCounts": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "denominatorDegreeBounds_e_k_w": [
+            0,
+            0,
+            0
+          ],
+          "bytes": 41,
+          "sha256": "82a1e1ef4ce11ebb754c507921c68f487f77a2be1d35fc765b993d3450cf68fc"
+        },
+        "exactOriginalUnitReturned": true,
+        "normNotAssumedUnit": true
+      },
+      {
+        "name": "zeta",
+        "summary": {
+          "numeratorDegreeBounds_e_k_w": [
+            5,
+            7,
+            1
+          ],
+          "numeratorTermCounts": [
+            50,
+            29,
+            3,
+            0
+          ],
+          "denominatorDegreeBounds_e_k_w": [
+            5,
+            7,
+            0
+          ],
+          "bytes": 1645,
+          "sha256": "c2d99cd4f0470708d2760abbc2ebf9d4e57c7a5e9c9d5ba4b4090a06f71579c6"
+        },
+        "exactOriginalUnitReturned": true,
+        "normNotAssumedUnit": true
+      },
+      {
+        "name": "S",
+        "summary": {
+          "numeratorDegreeBounds_e_k_w": [
+            6,
+            8,
+            1
+          ],
+          "numeratorTermCounts": [
+            77,
+            51,
+            4,
+            0
+          ],
+          "denominatorDegreeBounds_e_k_w": [
+            6,
+            8,
+            0
+          ],
+          "bytes": 2537,
+          "sha256": "6b4d5fd9e23489cb4d005635c098f44b7398a5135b0cce7473652e3ff9689fdf"
+        },
+        "exactOriginalUnitReturned": true,
+        "normNotAssumedUnit": true
+      }
+    ],
+    "otherOriginalNonzeroConditionsStillRequired": true,
+    "allCheckedScalarDenominatorCount": 52,
+    "monomialIdentityCount": 10,
+    "matrixCertificateBytes": 7062089,
+    "matrixCertificateSHA256": "0c6ece9db8184cb65ea4c4da39353a4feab0bc3dbaf88b1e1a4ec1c3934e21c5",
+    "bigCacheWritten": false,
+    "oldAmbientReductionGateRerun": false,
+    "fullOriginalSystemExclusionClaim": false,
+    "claimExcluded": false,
+    "peakRssKiB": 123124,
+    "seconds": 4.320979792999992
+  },
+  "newFivePlusFiveIdentityStarted": false,
+  "newPairOrCofactorReturned": false,
+  "oldSuccessfulNativePrefixPassed": true,
+  "resourceLimitReached": false,
+  "mathematicalExclusionClaim": false,
+  "sourceAndActualFailureFrozen": true,
+  "proposedCorrectionOnly": "V3=scalar3(Vbar), plus explanatory docstring; all mathematics/resource bounds unchanged",
+  "correctedSourceSHA256": "f9141a7560c7b26ace78f0ccc55f540591ba2494241472f557eaae378213c42c",
+  "correctedSourceExecuted": false
+}

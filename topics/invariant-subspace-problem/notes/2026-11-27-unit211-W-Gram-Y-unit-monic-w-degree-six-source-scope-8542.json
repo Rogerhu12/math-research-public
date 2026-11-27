@@ -1,0 +1,122 @@
+{
+  "schema": "isp-W-Gram-Y-unit-monic-w-degree-six-source-audit-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "newComputationPerformed": false,
+  "proofType": "exact consequence of published finite-module theorem and source-audited entire y=1 Gram-only exclusion",
+  "sixGeneratorProofBlob": "1629f1c7fbddb04ae62eea557645bfaa1052652a",
+  "yOneCompleteProofBlob": "cbc9f0d0683fe9b5f608cb3bb149fd91f102745f",
+  "projectionSource": {
+    "blob": "a1ab4def6fa0906d26f492bb3dc94313ec312229",
+    "sha256": "d15791c981788f6ef2aa1ebc9d9a770f2b4c97b6b1beb4fbe35883478a3e0e48",
+    "actualInputRows": [
+      "EBe",
+      "N1",
+      "NS"
+    ],
+    "leadingEZeroFibersFullyCovered": true,
+    "geometricDOrLambdaUsed": false
+  },
+  "finiteReturnSource": {
+    "blob": "af8b28e110ada92ce9f05e6904c9025653de25d9",
+    "sha256": "34d0599256230a8cfb2b1a93d39c41878e86b6f6f9f55724afb808b136e429bd",
+    "rows": [
+      "EBe",
+      "EBo",
+      "N1",
+      "NS",
+      "PS"
+    ],
+    "physicalDAppendedInGenericUnitLoop": true,
+    "actualContradictionBeforeAnyPhysicalDUse": "sum ai*pi=u^2; u stripped twice; remaining1",
+    "actualRelevantRecords": [
+      {
+        "stage": "new_W_y_one_F4_original_unit_saturation",
+        "path": "F4",
+        "name": "u",
+        "count": 2,
+        "remainingEDegree": 0,
+        "eachRemovedFactorDividesActualPaidUnitVerified": true,
+        "claimExcluded": false,
+        "seconds": 0.8181131849999979
+      },
+      {
+        "stage": "new_W_y_one_entire_F4_original_same_point_return",
+        "path": "F4",
+        "baseCover": [
+          "32",
+          "64",
+          "48",
+          "12",
+          "1"
+        ],
+        "baseQQDegree": 4,
+        "originalRowProfile": [
+          {
+            "name": "EBe",
+            "specializedEDegree": 12,
+            "commonEDegree": 12,
+            "sameOriginalCombinationProductsVerified": true
+          },
+          {
+            "name": "EBo",
+            "specializedEDegree": 12,
+            "commonEDegree": 12,
+            "sameOriginalCombinationProductsVerified": true
+          },
+          {
+            "name": "N1",
+            "specializedEDegree": 14,
+            "commonEDegree": 2,
+            "sameOriginalCombinationProductsVerified": true
+          },
+          {
+            "name": "NS",
+            "specializedEDegree": 21,
+            "commonEDegree": 2,
+            "sameOriginalCombinationProductsVerified": true
+          },
+          {
+            "name": "PS",
+            "specializedEDegree": 26,
+            "commonEDegree": 2,
+            "sameOriginalCombinationProductsVerified": true
+          }
+        ],
+        "originalCommonEDegree": 2,
+        "unitRemovalProfile": [
+          {
+            "name": "u",
+            "count": 2,
+            "remainingEDegree": 0,
+            "eachRemovedFactorDividesActualPaidUnitVerified": true
+          }
+        ],
+        "remainingEDegree": 0,
+        "remainingSameECoefficients": [
+          [
+            "1"
+          ]
+        ],
+        "identicallyZeroOriginalUnit": null,
+        "allOriginalCombinationAndUnitDivisionProductsActual": true,
+        "allOriginalRowsSameKAndSameE": true,
+        "actualBaseInverseProducts": 59,
+        "physicalDOriginalUnitRetained": true,
+        "certificateBytes": 18749,
+        "certificateSHA256": "8ca31b9e65760b08c5afddbfdc1dc06ccb3af93bdb55068049b2758161a159d4",
+        "excluded": true,
+        "claimExcluded": true,
+        "seconds": 0.8212656289999991
+      }
+    ]
+  },
+  "conclusions": {
+    "YUnitInFullGramWeightedAlgebra": true,
+    "remainingSixGeneratorsRetained": true,
+    "wMonicRelationExistsDegreeAtMost": 6
+  },
+  "explicitYInverseComputed": false,
+  "explicitMonicWComputed": false,
+  "unpaidLeadingFactorsInverted": false,
+  "claimExcluded": false
+}
