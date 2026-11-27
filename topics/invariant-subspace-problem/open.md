@@ -6,7 +6,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-integral-p201-complete-reduction-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-w-eleven-original-rows-two-sextics-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -220,4 +220,4 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 [一对加四独立首原minor全正域](results/R271-appendix-one-pair-four-independent-first-s1-minor-all-positive-weights.md)：a316前三闭域加c051真3.057384314秒/68092KiB/0；第四域全乘回平方项 $324(A+2)B^{23}(6B^2+69BC+175C^2)(C-D)^2$，余29604项非负，第五域35253项非负，常数均2519424000。故有序全部正权的首原子式严格正，含重权边界。旧944负系数只配方失败。新29ce9首次180秒/4GiB只测后五Δ2–6：完整6×6、全物理逆及交叉项，按需原Schur，五闭域/固定平方证书；首minor仅已付枢轴不重测。完整S1/S2、六独立及同W费仍开。
 
-[整K7完整排除与全W原λ三生成](results/R150-appendix-unit211-W-entire-K7-complete-original-exclusion-and-global-three-generators.md)：85bc原理想返$C_3^2$，9418真0.299187631秒/37528KiB/0在整个QQ三次48×35、rank33直接返$D$，提回原环给$D^2\in I_6$，物理D单位闭整K7及幂零层，181×84未执行。当前全部W可付K，原E1/EBe/EBo使1,x,y在权[λ]上三生成，每固定权/λ纤维长≤3；不称任意D局部化全局有限。5dafa真180.964816531秒/280932KiB/−14已返11原行和两λ6原cofactor；12×12结式只两步221整除，未返det，门冻结。未付内容/λ头、个别NP/NV及新同点输入继续；ebed循环绑定故障和0900路径故障分别保准确记录。
+[整K7全闭/原λ三生成](results/R150-appendix-unit211-W-entire-K7-complete-original-exclusion-and-global-three-generators.md)：85bc返$C_3^2$，9418整QQ三次48×35、rank33返$D$，得$D^2\in I_6$，物理D单位闭整K7含幂零层；181×84未跑。当前权[λ]上1,x,y三生成、固定权/λ长≤3，不称任意D局部化全局有限。[十一原行/两个λ6及准确边界](results/R150-appendix-unit211-W-physical-lambda-eleven-original-rows-two-sextics-and-projection-boundary.md)：5dafa真180.964816531秒/280932KiB/−14，原规则/六乘法/十一六项迹和两cofactor均已返；未付h0/h1整零面保留。12×12结式仅两步221整除，无det，整门冻结。继续原六元乘法的首一λ关系及降次输入、个别NP/NV；绑定与路径故障分别保原记录。

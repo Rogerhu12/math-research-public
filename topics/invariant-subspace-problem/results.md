@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [全余W十一条原物理λ关系、两个六次必要式与计算边界](results/R150-appendix-unit211-W-physical-lambda-eleven-original-rows-two-sextics-and-projection-boundary.md)：完整原六项迹、全部同点乘法和两cofactor已返；未付两权内容及所有首项零面保留。固定12阶结果式真180秒仅两步，无完整det，冻结换输入。
+
 - [H1余P201：整性、完整平方自由约化与十三整块](results/R150-appendix-unit211-Phi-zero-H1-P201-integral-squarefree-complete-modular-reduction.md)：原Dixon模逆的实际极点支持恰201次，付旧首一P201在1009整及完整约化；十三块仅在p进完备化，不识别QQ因子、不排空原点。
 
 - [一对等权加四独立：首原S1子式全正权域](results/R271-appendix-one-pair-four-independent-first-s1-minor-all-positive-weights.md)：余第四域六平方和全乘回、第五域全非负，合前三域覆盖全部有序正权及碰撞边界；仅首子式，后五及S2仍开。
