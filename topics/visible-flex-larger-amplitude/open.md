@@ -112,3 +112,6 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 独立producer_R722准确后验核及全部normal/连续几何/closed/R718/R716/mesh必须显式接本族；旧R709粗bool不伪造true。全部三残差、1024整圆、922径向及cuts、32stage/六jet/全tail与working费用、原周期胶合、帽/mixed/allphase/R650、八beta+径向、唯一主件/sidecar、无标记外管/正V/非零中心矩仍待实际支付。normal.complete不代连续branch，mean Jacobian不代Cu，有限complete不代连续认证。
 
 同一固定g/参数的全5t与空间/频率/时间实际精化和完整网格必须继续；M320零包含不代新解。只真实complete/final13可作严格同源restart，partial/accepted13不够。[ret50保全](notes/2026-11-27-legacy-core-screen-flat-retention-50.md)及旧台账只退旧派生结果，全source/全部参数/失败未知/恢复身份保。README真正完成标准未达到，时长、阶段和输入困难均不是停止条件。
+
+
+当前[producer_R722完整核](computations/fixed-fejer-producer-bound-R722-mean-source-delivery.json)4fc252/7c66已刊。18实际e3d2eb/f600、model9ec211首统计Phi4954.71485872585、Gram.6374168330977955，accepted0、初几何未返；独立完整来源，不能因同17初数值代付新场费用。

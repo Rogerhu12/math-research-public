@@ -1,0 +1,498 @@
+{
+  "schema": "complete-fixed-fejer-producer-bound-R722-mean-source-delivery-v1",
+  "date": "2026-11-27",
+  "repository": "Rogerhu12/math-research-public",
+  "topic": "visible-flex-larger-amplitude",
+  "status": "complete-source-only-independent-producer-successor; no actual field or fee result claimed",
+  "artifacts": [
+    {
+      "name": "fixed_fejer_meridian_batched_producer_R722_posterior_mean_jets.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_meridian_batched_producer_R722_posterior_mean_jets.py",
+      "bytes": 45225,
+      "sha256": "4fc252f8977f4f4246d2cc13583efc0bccd4b28742df3a797d1c266cdd1eac7d",
+      "git_blob_sha": "e3fa2b73f5ae0dddaa049133bd9a8d61c89d8908"
+    },
+    {
+      "name": "fixed_fejer_meridian_batched_producer_R722_accurate_reference_control_radial_boxes.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_meridian_batched_producer_R722_accurate_reference_control_radial_boxes.py",
+      "bytes": 46495,
+      "sha256": "7c66ed0f31323451156c1cd76ae7401eb497f37377393bb66503523ad2aaac54",
+      "git_blob_sha": "091a84d4222e36b0ee690e0c4f742c726dc80b17"
+    },
+    {
+      "name": "reproduce_fixed_fejer_producer_R722_mean_bindings.mjs",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/reproduce_fixed_fejer_producer_R722_mean_bindings.mjs",
+      "bytes": 12754,
+      "sha256": "9fcb95483b4c9697ceac3e07df3ad0ff6f5afe650cfcf19824178ad27f8c880d",
+      "git_blob_sha": "01d22f7805f5f1c9c4dad33f162f67ac7c9a0ae5"
+    },
+    {
+      "name": "2026-11-27-producer-bound-R722-mean-source-adapter.md",
+      "path": "topics/visible-flex-larger-amplitude/notes/2026-11-27-producer-bound-R722-mean-source-adapter.md",
+      "bytes": 8656,
+      "sha256": "6772cbeb346704fe54c6a66bd483e1704d539dde101e2c1950c2ce974d744fac",
+      "git_blob_sha": "e918efa3a52d6c478570f3c0e0c8f4590911dda1"
+    }
+  ],
+  "runtime_sources": {
+    "kernel": {
+      "name": "fixed_fejer_meridian_batched_producer_R722_posterior_mean_jets.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_meridian_batched_producer_R722_posterior_mean_jets.py",
+      "bytes": 45225,
+      "sha256": "4fc252f8977f4f4246d2cc13583efc0bccd4b28742df3a797d1c266cdd1eac7d",
+      "git_blob_sha": "e3fa2b73f5ae0dddaa049133bd9a8d61c89d8908"
+    },
+    "radial": {
+      "name": "fixed_fejer_meridian_batched_producer_R722_accurate_reference_control_radial_boxes.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_meridian_batched_producer_R722_accurate_reference_control_radial_boxes.py",
+      "bytes": 46495,
+      "sha256": "7c66ed0f31323451156c1cd76ae7401eb497f37377393bb66503523ad2aaac54",
+      "git_blob_sha": "091a84d4222e36b0ee690e0c4f742c726dc80b17"
+    }
+  },
+  "complete_source_reproducer": {
+    "name": "reproduce_fixed_fejer_producer_R722_mean_bindings.mjs",
+    "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/reproduce_fixed_fejer_producer_R722_mean_bindings.mjs",
+    "bytes": 12754,
+    "sha256": "9fcb95483b4c9697ceac3e07df3ad0ff6f5afe650cfcf19824178ad27f8c880d",
+    "git_blob_sha": "01d22f7805f5f1c9c4dad33f162f67ac7c9a0ae5"
+  },
+  "complete_interface_note": {
+    "name": "2026-11-27-producer-bound-R722-mean-source-adapter.md",
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-27-producer-bound-R722-mean-source-adapter.md",
+    "bytes": 8656,
+    "sha256": "6772cbeb346704fe54c6a66bd483e1704d539dde101e2c1950c2ce974d744fac",
+    "git_blob_sha": "e918efa3a52d6c478570f3c0e0c8f4590911dda1"
+  },
+  "complete_direct_parent_package": {
+    "name": "fixed-fejer-repaired-meridian-batched-R722-mean-source-delivery.json",
+    "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-repaired-meridian-batched-R722-mean-source-delivery.json",
+    "bytes": 29412,
+    "sha256": "8003f75c3163a8702a73f7b94d5d2b8147bb5a5ac7b1bb347f1344419cd57c95",
+    "git_blob_sha": "3a5c1b70573761c8a33d35788919199bf74d13ed"
+  },
+  "complete_direct_parent_sources": {
+    "kernel": {
+      "name": "fixed_fejer_meridian_batched_R722_posterior_mean_jets.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_meridian_batched_R722_posterior_mean_jets.py",
+      "bytes": 45225,
+      "sha256": "e10a0bb386d4c44d9d8dc5ed16c75a37de1ff830754e04d57967780241feacf9",
+      "git_blob_sha": "64df5fd379ae83ee5282728fc8cd3d72b3ee9c10"
+    },
+    "radial": {
+      "name": "fixed_fejer_meridian_batched_R722_accurate_reference_control_radial_boxes.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_meridian_batched_R722_accurate_reference_control_radial_boxes.py",
+      "bytes": 46486,
+      "sha256": "9da25953aeb95b88d5a878935832dac05546b778818e00e588c79581ae664953",
+      "git_blob_sha": "43408b0f0bc15ad3e2f25805f315023701c354fe"
+    }
+  },
+  "complete_retained_parent_interface_note": {
+    "name": "2026-11-27-R722-posterior-mean-complete-source-interface.md",
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-27-R722-posterior-mean-complete-source-interface.md",
+    "bytes": 19602,
+    "sha256": "d498c890f1074cbed2d705d155a30a7738966af3048ec4f047f0dce98d27333e",
+    "git_blob_sha": "0c16017b0041586eec858cad7f8c421cef0f0022"
+  },
+  "strict_current_source_family": {
+    "complete_published_commit": "8c1251a01aa2a1893386b69d13ab1e0a5ae4aa38",
+    "complete_package": {
+      "name": "fixed-fejer-meridian-producer-binding-repair-complete-delivery.json",
+      "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-meridian-producer-binding-repair-complete-delivery.json",
+      "bytes": 52830,
+      "sha256": "970b8f8bbb141fc7f1c4e5e42d6048497f0de58731e65918f3c4e4cf6aff008a",
+      "git_blob_sha": "45f14a52f824ca947a59bacf73ad123f17fddab9"
+    },
+    "whole_scientific_roles": 137,
+    "original120_complete_source_pairs_retained": true,
+    "input": {
+      "name": "fixed_fejer_meridian_batched_normal_packet_accurate_field_input.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_meridian_batched_normal_packet_accurate_field_input.py",
+      "bytes": 32969,
+      "sha256": "d892bedeadca4fe0689069ac7489a41c1d348311c2b84dad292bf48133e71cc7",
+      "git_blob_sha": "6a724fcd48a0d1da27b4762c9ac4ef6ac734cae4"
+    },
+    "driver": {
+      "name": "fullclosed_fixed_fejer_meridian_batched_so3_qp.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fullclosed_fixed_fejer_meridian_batched_so3_qp.py",
+      "bytes": 99313,
+      "sha256": "10fa4e4e679cbe02b56456f05479c8136bd0481fd16384992a557cefc9a4bf3f",
+      "git_blob_sha": "8bba3e30bb8e843fd725a2d19f8966b984acc4ae"
+    },
+    "reader": {
+      "name": "read_fixed_fejer_meridian_batched_so3_report.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/read_fixed_fejer_meridian_batched_so3_report.py",
+      "bytes": 99382,
+      "sha256": "8027ec35ea8ee74ab38468678683d798530e8c7a229ec3f9e8d5c631c75dde49",
+      "git_blob_sha": "9cd36fd99113d285fc47f17bad929647c8fc6de3"
+    },
+    "normal": {
+      "name": "fixed_fejer_detached_meridian_normal_lift.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_detached_meridian_normal_lift.py",
+      "bytes": 96276,
+      "sha256": "76185c2184bd9b29eaec1177b540d1d549ea8b6b6e57befe3c2840618051407d",
+      "git_blob_sha": "fc51c16b6dbd53abf04fe9175e5421f77e25c49c"
+    },
+    "packet": {
+      "name": "fixed_fejer_meridian_root_packets.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_meridian_root_packets.py",
+      "bytes": 73723,
+      "sha256": "c750d234fc370d3c74da4577bc99f7fca417dbed169bc3a9d1e7222ea99c84b4",
+      "git_blob_sha": "2b294ce46cf51c24c90b6e71c26d0d9c4269d28f"
+    },
+    "detached_meridian_values": {
+      "name": "fixed_fejer_detached_meridian_values.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_detached_meridian_values.py",
+      "bytes": 41126,
+      "sha256": "eaeaf274bf0e74e63afbaa92588ea48d8ea75316f602882f49e71fa7453cb1de",
+      "git_blob_sha": "2b547c08dcaeb55701f5c68ba56d405f595f5b9e"
+    },
+    "launch_namespace": "fixed-fejer-meridian-batched-producer-bound"
+  },
+  "published_posterior_theorem": {
+    "path": "topics/visible-flex-larger-amplitude/results/R722-posterior-convex-mean-root-existence.md",
+    "bytes": 25682,
+    "sha256": "b74d5caf7a0e8185e4f82b76e9db6bfc9f736262c16ed62c1d688ef8e7f78721",
+    "git_blob_sha": "e43c7082ff04ec2088ae5f22dc40819fba68440f",
+    "published_commit": "1a236bf682bd5a7ba5f8b55a8331993e6bd750b0"
+  },
+  "complete_shared_mathematics": {
+    "continuous": {
+      "name": "so3_axisymmetric_continuous_integrand.py",
+      "sha256": "a846d373421df655da3bbba2491847b0cd016ae6db09b5d4176be227b2bc9ce6",
+      "bytes": 29047,
+      "git_blob_sha": "76d475cc54814b19e1d3aaaab8200a9ba7d7d151",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/so3_axisymmetric_continuous_integrand.py"
+    },
+    "rotation": {
+      "name": "accurate_normal_rotation_and_stage_boxes.py",
+      "sha256": "29eed317796b18c5f7430535ee2f45ee7ce9cb6546bbbd44d0bc97b9839e3f6b",
+      "bytes": 27453,
+      "git_blob_sha": "6e007ee79ccd53e3e7e58469164d6c7e34bff40e",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/accurate_normal_rotation_and_stage_boxes.py"
+    },
+    "mean": {
+      "role": "mean",
+      "name": "fixed_fejer_reference_accurate_mean_residuals.py",
+      "bytes": 41476,
+      "sha256": "ae67ecac9f205cdb2378a7f981d5d60fc723e1caadd5281dff54395d358564a0",
+      "git_blob_sha": "fdddb363e724ab45204854a2b3084fcb95cae4bc",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_reference_accurate_mean_residuals.py"
+    },
+    "seed_math": {
+      "role": "seed_math",
+      "name": "fixed_fejer_reference_seed_angular_profile_error_bounds.py",
+      "bytes": 72182,
+      "sha256": "0471c626b7850fecf19513d68209e090f88830b89ff8ad7cc62c2d1709a75e5b",
+      "git_blob_sha": "c0d09245e9e156cb93516945b3eec84e93807bf7",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_reference_seed_angular_profile_error_bounds.py"
+    },
+    "positive_support_beta": {
+      "name": "same_field_positive_support_parameter.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/same_field_positive_support_parameter.py",
+      "sha256": "e0b44e22fa9e41109ccdeb1c3908aeca60c5c4a18f90dca088f8c9e0243b5991",
+      "scope": "unchanged complete conditional R650 beta consumer; only used with the original complete eight-role evidence package"
+    }
+  },
+  "retained_complete_R710_R711_suffix": {
+    "bytes": 7133,
+    "sha256": "4fc958af144bbd27f5c1745fe7d9bd2db86b2ff9aad4ef245b462847aac38db2",
+    "starts": "    profile_delta = length[\"profile_delta\"]",
+    "ends": "the entire original return and trailing newlines",
+    "byte_identical": true
+  },
+  "output_interfaces": {
+    "kernel_schema": "actual-fixed-fejer-meridian-batched-R722-posterior-mean-jets-v1",
+    "domain_schema": "complete-R722-posterior-convex-mean-root-domain-v1",
+    "attribution_schema": "actual-whole-angle-R722-mean-root-domain-attribution-v1",
+    "radial_schema": "actual-fixed-fejer-meridian-batched-R722-complete-accurate-reference-control-radial-boxes-v1",
+    "mean_evidence_schema": "same-actual-reference-whole-angle-R722-posterior-mean-enclosure-v1",
+    "oracle_schema": "actual-fixed-fejer-accurate-R722-complete-normal-angle-oracle-v1",
+    "complete_mean_result_new_keys": [
+      "root_domain_attribution",
+      "root_domain_source",
+      "root_domain_source_sha256",
+      "original_R709_coarse_inequalities_proved",
+      "original_R709_coarse_inequalities_assumed_for_existence"
+    ],
+    "complete_mean_evidence_new_keys": [
+      "posterior_R722_existence_verified_on_this_whole_interval",
+      "complete_posterior_mean_root_domain",
+      "complete_shared_R710_R711_math_source_sha256",
+      "complete_R722_theorem_sha256"
+    ],
+    "geometry_identity_added_keys": [
+      "posterior_mean_source_sha256",
+      "posterior_mean_theorem_sha256",
+      "posterior_mean_definition_identity_sha256"
+    ],
+    "geometry_metadata_key": "posterior_mean",
+    "exact_validation_api": "validate_root_domain_attribution(value, *, parent_math, actual_binding, geometry_identity, phi_interval, total_equation, exact_partition, active_leaves, structural_reference, files, bits)",
+    "original_R709_boolean_preserved": "mean.sufficient_R709_inequalities_verified_on_this_whole_interval and the original row flag both retain the exact computed true-or-false R709 result"
+  },
+  "exact_source_patches": {
+    "kernel": [
+      {
+        "label": "ACTUAL_INPUT_SHA256",
+        "before": "ACTUAL_INPUT_SHA256 = \"fd299d23fcf754021dd1a3048b5f6b4008bf8542ba8e04ec2298830348ef417f\"",
+        "after": "ACTUAL_INPUT_SHA256 = \"d892bedeadca4fe0689069ac7489a41c1d348311c2b84dad292bf48133e71cc7\"",
+        "occurrences": 1
+      },
+      {
+        "label": "ACTUAL_DRIVER_SHA256",
+        "before": "ACTUAL_DRIVER_SHA256 = \"5b0dc3573b4baa86728b0c0628a1338d339a6c4cf5cf0afcead1f4e6febcc58f\"",
+        "after": "ACTUAL_DRIVER_SHA256 = \"10fa4e4e679cbe02b56456f05479c8136bd0481fd16384992a557cefc9a4bf3f\"",
+        "occurrences": 1
+      },
+      {
+        "label": "ACTUAL_READER_SHA256",
+        "before": "ACTUAL_READER_SHA256 = \"79375ead2b0a93a54200d079b691e0fb8e0f74da480e3867ea7c91542f4ab222\"",
+        "after": "ACTUAL_READER_SHA256 = \"8027ec35ea8ee74ab38468678683d798530e8c7a229ec3f9e8d5c631c75dde49\"",
+        "occurrences": 1
+      },
+      {
+        "label": "ACTUAL_NORMAL_SHA256",
+        "before": "ACTUAL_NORMAL_SHA256 = \"33c269f3cd04c9435ccb5144984124c8a0b6ae348f95c8bd71ac92a334c51cf4\"",
+        "after": "ACTUAL_NORMAL_SHA256 = \"76185c2184bd9b29eaec1177b540d1d549ea8b6b6e57befe3c2840618051407d\"",
+        "occurrences": 1
+      },
+      {
+        "label": "ACTUAL_PACKET_SHA256",
+        "before": "ACTUAL_PACKET_SHA256 = \"45dd618adaa5262002bfb9d1979b6f555fe5233a57ec0f75abcec2ab7633a5be\"",
+        "after": "ACTUAL_PACKET_SHA256 = \"c750d234fc370d3c74da4577bc99f7fca417dbed169bc3a9d1e7222ea99c84b4\"",
+        "occurrences": 1
+      }
+    ],
+    "radial": [
+      {
+        "label": "INPUT_SHA",
+        "before": "INPUT_SHA = \"fd299d23fcf754021dd1a3048b5f6b4008bf8542ba8e04ec2298830348ef417f\"",
+        "after": "INPUT_SHA = \"d892bedeadca4fe0689069ac7489a41c1d348311c2b84dad292bf48133e71cc7\"",
+        "occurrences": 1
+      },
+      {
+        "label": "POSTERIOR_MEAN_NAME",
+        "before": "POSTERIOR_MEAN_NAME = \"fixed_fejer_meridian_batched_R722_posterior_mean_jets.py\"",
+        "after": "POSTERIOR_MEAN_NAME = \"fixed_fejer_meridian_batched_producer_R722_posterior_mean_jets.py\"",
+        "occurrences": 1
+      },
+      {
+        "label": "POSTERIOR_MEAN_SHA",
+        "before": "POSTERIOR_MEAN_SHA = \"e10a0bb386d4c44d9d8dc5ed16c75a37de1ff830754e04d57967780241feacf9\"",
+        "after": "POSTERIOR_MEAN_SHA = \"4fc252f8977f4f4246d2cc13583efc0bccd4b28742df3a797d1c266cdd1eac7d\"",
+        "occurrences": 1
+      }
+    ]
+  },
+  "original_mathematical_function_bodies_changed": false,
+  "original_schemas_and_complete_validation_API_changed": false,
+  "original_R709_result_never_forged_true": true,
+  "actual_field_scope": {
+    "intended_public_run_id": "46062343475",
+    "run_attempt": 1,
+    "complete_current_source_commit": "8c1251a01aa2a1893386b69d13ab1e0a5ae4aa38",
+    "actual_repaired_scientific_report_sha256": null,
+    "actual_current_point_sha256": null,
+    "actual_complete_model_identity_sha256": null,
+    "actual_immutable_snapshot_identity_sha256": null,
+    "actual_accurate_mean_or_geometry_fee_sha256": null,
+    "prepared_reference_or_mutable_progress_used_as_field": false,
+    "failed_sources_relabelled_as_current": false,
+    "old_unregistered_peer_and_typed_history_responsibility_removed": false
+  },
+  "required_complete_downstream_source_adaptation": {
+    "owner": "construction",
+    "new_fee_role": "posterior_mean",
+    "scientific_runtime_roles_unchanged": 137,
+    "leaf_load_job_bind_reference": "Replace only the old R709-true acceptance with explicit new evidence/schema/pin checks and the complete posterior validation API; re-read original batch and helper/theorem records, preserve original paths and actual point/whole source equivalence.",
+    "normal_and_leaf_periodic_key": "full_R722_unique_reference_mean_and_projected_frame_are_two_pi_periodic",
+    "geometry_identity": "Add exactly the three complete posterior source/theorem/definition identity fields; preserve every original field.",
+    "full_normal_and_leaf_branch_glue_retained": true,
+    "closed_R716_beta_whole_image_scope_not_automatically_paid": true,
+    "no_extra_scientific_fixture_or_review_gate": true
+  },
+  "complete_original_parameter_plan": {
+    "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-meridian-batched-complete-normal32-full-circle-sixjet-fees-ready.json",
+    "record": {
+      "role": "normal_ready",
+      "name": "fixed-fejer-meridian-batched-complete-normal32-full-circle-sixjet-fees-ready.json",
+      "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-meridian-batched-complete-normal32-full-circle-sixjet-fees-ready.json",
+      "bytes": 16723,
+      "sha256": "029a12e9a1c0ba2c0bac068caf94743e8cb3521cfb3f31ba21db7ad4c3d7400a",
+      "git_blob_sha": "ff6ebfbcb68d5140e44bd54ad163d5b17ab22fe9"
+    },
+    "parent_complete_delivery": {
+      "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-meridian-batched-complete-accurate-fees-delivery.json",
+      "bytes": 60812,
+      "sha256": "25d8288c8a812a8b87dec89df9e59ef120982ccc7e6a166c04712311c6630fdd",
+      "git_blob_sha": "8129866071548651514aa5a09461ec8314a89725"
+    },
+    "full_parent_normal_step": {
+      "id": "actual-fixed-fejer-meridian-batched-complete-normal32-full-circle-sixjet-fees-first-20261127",
+      "script": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_meridian_batched_complete_normal_root_and_sixjet_fees.py",
+      "parent_bundle": "fixed-fejer-reference/reference.npz",
+      "scope": "Complete accurate fee execution for the genuine meridian-cache/batched-missing-angle fixed Fejer field report, with the exact 41b4d09d/d3f1b33c source family and all 137 source roles. Re-read the whole actual fixed-input binding, every six-file input, complete point/model/target, all immutable cached-angle packets and all 32 recorded normal stages. The actual seed definition is consumed in full; the intended science uses boundary total length 1/4 and profile delta 1/32, with no inherited mean/root/field certificate. Additionally enclose all 1024 closed full-circle cells phi/pi in [0,2], every exact affine radial piece, the complete infinite scalar tail and the full original reference/profile/Exp/control/frame formulas. Existing stage_XXX_J words are only arbitrary rational preconditioner proposals. Pay complete local root and first/second angular enclosures with every upstream dependency and every physical sixjet including h/hp/hpp raw-defect terms. Directed adjacent, periodic and literal root-branch association is independently retained. No working F/J/root or new normal constructor is called. Cache hits, batch completion, timings, live scalar observations and last-trial files are not accuracy evidence. Natural partial budget returns retain their actual complete prefixes and are neither nonexistence nor a whole-domain certificate. Full closed C2/orientation/physical phases/mixed-pair reach, working-word and external-parameter fees remain separate. No future report/point/snapshot/fee identity or numerical success is prefilled.",
+      "args": [
+        "--repo",
+        "{repo}",
+        "--report",
+        "{work}/fixed-fejer-meridian-batched-first/report.json",
+        "--outdir",
+        "{work}/fixed-fejer-meridian-batched-normal-root-and-sixjet-fees-v1",
+        "--seconds",
+        "900",
+        "--maximum-leaf-evaluations",
+        "1000000",
+        "--precision-bits",
+        "192",
+        "--panels",
+        "128",
+        "--rho-leaf-budget",
+        "8192",
+        "--inverse-steps",
+        "64",
+        "--inverse-width",
+        "1/1000000000000000000000000",
+        "--full-angle-cells",
+        "1024",
+        "--radial-depth",
+        "0",
+        "--mean-maximum-splits",
+        "8192",
+        "--mean-width-goal",
+        "1/1000000000",
+        "--first-exp-degree",
+        "24",
+        "--maximum-exp-degree",
+        "128",
+        "--root-radius",
+        "1/100000000",
+        "--root-radius",
+        "1/1000000",
+        "--root-radius",
+        "1/10000"
+      ],
+      "outputs": [
+        "fixed-fejer-meridian-batched-normal-root-and-sixjet-fees-v1/report.json"
+      ],
+      "summary": {
+        "fixed-fejer-meridian-batched-normal-root-and-sixjet-fees-v1/report.json": {
+          "schema": "schema",
+          "source": "source_sha256",
+          "source_commit": "source_commit",
+          "run": "github_run_id",
+          "run_attempt": "github_run_attempt",
+          "actual_report": "actual_report.sha256",
+          "actual_full_point": "actual_current_full_point_sha256",
+          "actual_snapshot": "actual_snapshot_identity_sha256",
+          "actual_driver": "actual_scientific_driver_sha256",
+          "actual_reader": "actual_pure_reader_sha256",
+          "input_request": "complete_input_and_request_identity_sha256",
+          "complete_execution_binding": "complete_binding_identity_sha256",
+          "geometry_setup": "accurate_geometry_setup_complete",
+          "complete_all_requested": "complete",
+          "all_stages_and_streams": "all_planned_original_stages_and_sixjet_streams_complete",
+          "final_byte_recheck": "all_bound_input_and_output_bytes_rechecked_at_final_report",
+          "all_recorded_angles": "all_original_recorded_angle_count",
+          "all_required_angles": "all_original_required_angle_count",
+          "requested_full_circle_cells": "requested_full_circle_cell_count",
+          "planned_jobs": "planned_job_count",
+          "completed_jobs": "completed_job_count",
+          "whole_continuous_branch": "full_same_field_angle_branch.complete_continuous_angle_branch_certified",
+          "actual_leaf_evaluations": "actual_work_budget.actual_leaf_evaluations",
+          "maximum_leaf_evaluations": "actual_work_budget.maximum_leaf_evaluations",
+          "actual_budget_exhausted": "actual_work_budget.exhausted",
+          "elapsed_hex": "elapsed_seconds_binary64_hex",
+          "working_root_field_calls": "existing_working_root_and_field_calls",
+          "working_J_JT_calls": "existing_working_J_or_Jtranspose_calls",
+          "actual_words_not_fabricated": "comparison_candidates_were_existing_complete_actual_packet_words",
+          "actual_second_order_not_invented": "working_second_order_words_not_invented",
+          "working_physical_word_errors_paid": "complete_original_working_physical_sixjet_word_errors_paid",
+          "sixjet_scope": "physical_sixjet_output_scope",
+          "closed_geometry_certified": "complete_reflected_closed_surface_C2_or_reach_certificate",
+          "external_parameter_fees_paid": "external_parameter_J_and_transpose_error_certificate",
+          "historical_obligations_removed": "unknown_historical_material_role_obligations_removed",
+          "problem_completed": "mathematical_problem_completion_claimed"
+        }
+      }
+    },
+    "parent_step_is_preserved_provenance_not_a_current_R722_queue_entry": true,
+    "new_kernel_or_radial_CLI_parameters": [],
+    "complete_normal_argv_count": 38,
+    "complete_normal_selector_count": 36,
+    "complete_geometry_argv_count": 8,
+    "complete_geometry_selector_count": 48,
+    "full_angle_cells": 1024,
+    "normal_stages": 32,
+    "whole_phi_over_pi": [
+      "0",
+      "2"
+    ],
+    "whole_radial_domain": "all original exact affine pieces and the full scalar tail",
+    "current_width_and_profile_read_from_whole_actual_seed": true,
+    "new_complete_ready_owner": "construction after normal/leaf/geometry/bridge complete source closure",
+    "future_R722_normal_step": null,
+    "future_R722_geometry_step": null,
+    "sources_or_parameters_executed": false,
+    "source_reproducer_inserted_as_gate": false,
+    "full_parent_geometry_ready": {
+      "role": "geometry_ready",
+      "name": "fixed-fejer-meridian-batched-complete-continuous-gram-curvature-support-ready.json",
+      "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-meridian-batched-complete-continuous-gram-curvature-support-ready.json",
+      "bytes": 17060,
+      "sha256": "949acd57b29bf81944df85c8af5deacdd8ac0dd21774494b62b6f47a680975e5",
+      "git_blob_sha": "65c7cbdcc93cc97d9f342828da592dae963d1b4c"
+    },
+    "full_parent_normal_step_is_unmodified": true,
+    "current_run_directory": "fixed-fejer-meridian-batched-producer-bound",
+    "original_900_seconds_1024_angle_cells_922_radial_cells_32_normal_stages_retained": true,
+    "original_all_domains_and_actual_input_validation_retained": true,
+    "independent_producer_R722_descendants_required": true
+  },
+  "source_only_preparation": {
+    "V8_text_derivation_and_whole_inverse_restore": true,
+    "full_remote_source_blobs_protected": true,
+    "local_Python_import": false,
+    "local_AST_compile": false,
+    "local_scientific_execution": false,
+    "added_scientific_fixture": false,
+    "added_admission_or_review_gate": false,
+    "source_reproducer_executed": false,
+    "refs_modified": false,
+    "queue_modified": false
+  },
+  "new_file_count_excluding_manifest": 4,
+  "new_bytes_excluding_manifest": 113130,
+  "unpublished_intermediate_candidate_preserved": {
+    "complete_package": {
+      "name": "fixed-fejer-callable-bound-R722-mean-source-delivery.json",
+      "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-callable-bound-R722-mean-source-delivery.json",
+      "bytes": 25940,
+      "sha256": "16a7d3bb88d644582868cd47dd405b3ae026bbcb0ba1e02c300d148ed9a55a0b",
+      "git_blob_sha": "31a0da8611603aa20988567b50f9351a948ca40a"
+    },
+    "kernel": {
+      "name": "fixed_fejer_meridian_batched_callable_R722_posterior_mean_jets.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_meridian_batched_callable_R722_posterior_mean_jets.py",
+      "bytes": 45225,
+      "sha256": "3094b6fc763e288ffd3ec7c60cce37c2a4f8a8ddbcbfb1f2059f0a3b2b83e0bc",
+      "git_blob_sha": "5d1524917944f949f80fc8520abb8e3c233a6766"
+    },
+    "radial": {
+      "name": "fixed_fejer_meridian_batched_callable_R722_accurate_reference_control_radial_boxes.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_meridian_batched_callable_R722_accurate_reference_control_radial_boxes.py",
+      "bytes": 46495,
+      "sha256": "27f56deeb65dad84b96edcf39215d116cb5fc0500aa564bbfa3b73c8bb0b12d4",
+      "git_blob_sha": "9429cd42641f0a46e52e825cf3499f86fe98e5f3"
+    },
+    "current_source_or_field_claimed": false,
+    "not_required_as_parent_for_new_two_sources": true
+  },
+  "actual_geometry_source_constant_repair": {
+    "name": "fixed-fejer-geometry-meridian-source-constant-repair-delivery.json",
+    "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-geometry-meridian-source-constant-repair-delivery.json",
+    "bytes": 3614,
+    "sha256": "69ecaacbd1f89a77f1db3ff103a26b678d7421c323f7f20cfbc4006511cf925a",
+    "git_blob_sha": "217baedf85f3c36a0ef3faad7a06c3be8b2e2a6c"
+  }
+}

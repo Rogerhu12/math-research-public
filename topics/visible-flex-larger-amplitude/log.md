@@ -159,3 +159,12 @@
 ## 2026-11-27：第三原栈实际读取完成，完整producer来源修复继续科学
 
 第8原5d25诊断实际0，完整6727B log从byte0读取：第三科学错误是geometry c1dad的独立helper常量仍7aa，而真实normal已加载eaea。根上一轮传播漏项如实登记；仅此一常量改，原guard及全数学原字保。完整geometry5730→batch9104→driver10fa→reader8027/launcherf600→input d892已精确传播，当前137/18源和原120pairs全保，5运行源+1准确input改变。完整science97806B/157argv/458formal、pure85234B/7argv/445formal、48live/全部budget保持，producer-bound完整科学已排原18 runner，两原input不重建，纯读全对象后接。旧三个失败/source/全参数历史均保，未从修复推科学成功。[完整说明](notes/2026-11-27-run18-complete-producer-binding-repair-and-continuation.md)。open原29726B逐字归档、§1–6原23359B不变，当前§7更新保持<30KB；不删未付或未知责任。
+
+
+## 2026-11-27：producer_R722完整核发布及18首个实际数学统计
+
+当前R722完整五件140943B已刊，kernel4fc252/radial7c66精确钉8c1251完整源族10fa/8027/d892、normal76185/packet c750。原e10/9da整父仅5+3来源项改变，R710/R711后缀7133B与全部数学/API/schema/validator原字；旧R709 bool不伪造，后验根域/三残差/覆盖/fee仍待完整真场付。[完整接口](notes/2026-11-27-producer-bound-R722-mean-source-adapter.md)。
+
+18实际e3d2ebacae1ddce7990d72d778c96e851810ffe8/f600/PID7515，在21:31:20.498871初统计返回Phi4954.71485872585、有限Gram算子.6374168330977955，独立model9ec211ddc5c14e0d4f0e47045ed84abc3ec4bc97fcf0e893959d6ba0cf8609bd，current7e06，accepted0/reportfalse。21:34:20公开观察初完整几何尚未返回；25项摘要None选择错误不是新增科学退出。全部原观察和身份续[完整说明](notes/2026-11-27-run18-complete-producer-binding-repair-and-continuation.md)，不从同17数值推完整同场/旧fee可用。
+
+21:33临时工具运行时重置，全部内存store丢失；正式已刊8c1251及此前完整源/参数/实际记录安全。中断的R722待推并未落地（完整H/log/open和note身份核至9fbde3），本次从已保护完整blobs恢复发布，不重做数学。新环境唯一pwd只读探测仍No usable execution environment；根未真pull，恢复纯文本发布器与双README元数据，控制器真实pull记录原保。
