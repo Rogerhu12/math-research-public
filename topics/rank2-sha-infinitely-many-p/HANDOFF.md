@@ -42,7 +42,7 @@ R1043原2/3同源/full9/所有二核/η′/最高−3Ω′1及精确三权下降
 
 §21完整对偶运输μ₁(φ̂P)=cφ^qμ₂与Φq严格交换原图pull，外系数线性给Φq(PQ)=3cQΩ′1、μ(cEPQ)=0。§22全三项消分母给μPQ=cQ X′Nq(V′²)/V′^(2r−1)，有限递推唯一、所有分母q单位。N0≠0/N1=3，IV*好化μ阶2、两cusp阶1；O值为−3cQ2^(2r−1)Pq(−1/4)，若零恰六阶。原CM289图已付full9负分量/二核循环及f′=ω/f³=id，实际R_a接触仅1/2；这些系数/指定延拓值均不替代实际T_a/p影子。
 
-R1049新转向目标p惰性：同一固定54图均以原full9/完整GΓ在Kp下降，η((p))=1；原最高H³(2)有φ²=−p^-1，BK exp目标一维。proper finite-polynomial全Čech/Frobenius同伦给AJ(Yj0)=p/(p+1)·原54/η/Cor杯积和，非单位p因子保。原全NS判别式及Hodge/CM分解给新增晶体指数1,p，c1D+=upΩ、c1D−=−p/(3up)Ω−且up单位；实际W₂提升障碍MW/p→H²(O)是Fp同构。Ξp的原图restriction、与Manin常数/全权值的积分桥及通常全Sha全球桥仍待实际支付；继续这一步，不以global障碍非零当AJ非零。
+R1049新转向目标p惰性：同一固定54图均以原full9/完整GΓ在Kp下降，η((p))=1；原最高H³(2)有φ²=−p^-1，BK exp目标一维。proper finite-polynomial全Čech/Frobenius同伦给AJ(Yj0)=p/(p+1)·原54/η/Cor杯积和，非单位p因子保。原全NS判别式及Hodge/CM分解给新增晶体指数1,p，c1D+=upΩ、c1D−=−p/(3up)Ω−且up单位；实际W₂提升障碍MW/p→H²(O)是Fp同构。§8整FL原格逐式分类给唯一h=x+puy，logBK=p h/(p+1)、整log格=pO，原局部扩张mod p^n分裂当且仅当h≡0；同原测试/Artin基准确h=a_j,p^-1 I_j,p。原54权Ξrestriction和通常全Sha全球桥仍待实际支付；不以global障碍非零当AJ非零。
 
 ## 四、其它未闭门与分工
 

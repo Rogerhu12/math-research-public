@@ -261,3 +261,7 @@
 ## R1049：原惰性图的proper AJ与新增晶体整格
 
 [原文](../results/R1049-original-inert-syntomic-graphs-and-crystalline-lattice.md)。R1049在目标p惰性时保同一未depletion固定54图、全部η/Cor/full9。原图的Kp下降与η((p))=1先付，原H³(2)的φ²=−p^-1给BK exp一维。proper全Čech原函数的真实限制给AJ=p/(p+1)·原54项杯积和，p非单位不省。全NS判别式−p²、旧幺模格与Hodge分解给新增CM晶体指数恰1,p，c1D+=upΩ、c1D−=−p/(3up)Ω−且up单位；实际W₂线丛障碍给MW/p→H²(O)的Fp同构。仍须计算原Ξp的全标记限制并消费全球来源；未把μ、up或global障碍非零当加权AJ非零。
+
+### R1049§8 — 原惰性局部整扩张参数
+
+原T(-2)的两标记filtration3/0，φe1=p³u e2、φe2=−u⁻¹e1；商filtration2，Hodge lifts的全参数(x,y)仅有gauge(x−puz,y+z)。h=x+puy给全Hf¹≅O，FL精确/全忠实/essential image及所有除φi给模p^n split iff h≡0。Frob lift反坐标−p h/(p+1)，标准BK Hodge−Frob给log=+p h/(p+1)。与R1049（20）–（21）同测试比较严格h=a_j,p⁻¹I_j,p，没有可变周期或省非单位p。原几何全54加权h的残余非零仍未付。

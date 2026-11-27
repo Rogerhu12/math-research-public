@@ -453,3 +453,193 @@ $$
 6. 仓库的 R991、R995、R997、R1006、R1009、R1011、R1014、R1027、R1043：分别支付原纯角色、严格对应、原图来源、最高转置/Artin下降、固定非零锚、未depletion固定循环、充分大完整NS格、真实最短截面规范及实际Manin函数。
 
 本文没有新增数学执行或素数扫描。
+
+## 8. 原局部扩张的积分正规形及唯一残余参数
+
+以下仍取(1)–(8)的同一个惰性目标素数，另取 $p\ge5$ 并排除固定图、有限系数与投影分母。令 $\mathcal O$ 为原系数域 $E$ 在所选素位的整数环。因 $p\ne3$，$\mathcal O/\mathbf Z_p$ 未分歧，且含有原 $W=\mathbf Z_p[\omega]$。在包含原 Artin 下降基的一个固定有限系数扩张内工作也不改变下述证明；只需继续排除其固定分歧及基变换分母。
+
+本节给出比(21)更精确的整格结论：
+**同一个加权读数在原整 BK 格中的唯一参数，以及它模 $p$ 检测的确切扩张。**
+没有声称该参数已非零。
+
+### 8.1 原整实现及两个标记嵌入
+
+取原固定几何的 $p$-adic 整上同调、原最高 projector 及 Artin projector 所给的格 $T_{j,p}\subset V_{j,p}$。所有 projector 的固定分母在当前 $p$ 均为单位。原模型的整比较、Hodge 分次自由及完美杯积沿§1的有限删集使用。
+
+为使全部 filtration 次数在 Fontaine–Laffaille 范围内，取
+$$
+M=D_{\mathrm{FL}}\bigl(T_{j,p}(-2)\bigr).
+\tag{33}
+$$
+这里使用与 $D_{\mathrm{cris}}$ 同向的约定：有理化的 $M$ 是原最高 $H^3$，商 $\mathcal O(-2)$ 的过滤次数为2；不是把(7)的算术角色改成其对偶。若从 Fontaine–Laffaille 原文的反变实现出发，先对实现作对偶就得到这一同向约定。
+
+分裂
+$$
+W\otimes_{\mathbf Z_p}\mathcal O=\mathcal O\oplus\mathcal O.
+$$
+以 $1,2$ 标记两个嵌入，使 $M_1$ 的 filtration 次数为3，$M_2$ 的为0。**标记2是(7)的 $D_{\rm dR}/\operatorname{Fil}^0$ 所在的嵌入**；最高测试 $\Omega_S\omega_A$ 在原对偶线上，不能把它当作 $M_1$ 在同一个嵌入中的向量。
+
+晶体 $\varphi$ 在两标记之间交换，且对系数环 $\mathcal O$ 线性。选各自的本原基 $e_1,e_2$。强可除性与(6)给
+$$
+\begin{split}
+M_1&=\mathcal O e_1,\quad \operatorname{Fil}^3M_1=M_1,
+   \quad\operatorname{Fil}^4M_1=0,\\
+M_2&=\mathcal O e_2,\quad \operatorname{Fil}^0M_2=M_2,
+   \quad\operatorname{Fil}^1M_2=0,\\
+\varphi e_1&=p^3u e_2,\qquad
+\varphi e_2=-u^{-1}e_1,\qquad u\in\mathcal O^\times .
+\end{split}
+\tag{34}
+$$
+最后两式相乘恰为 $\varphi^2=-p^3$。若不先分裂两个嵌入，$\varphi$ 对 $W$ 半线性；(34)绝不把它当作在单个 $W$ 分量上随意线性化。式中 $u$ 也不是§5的 $u_p$，两者的定义和所在格不同。
+
+在标记2选择 $e_2$，使其与原积分测试基的配对为1；杯积次序沿(16)。在模型测试 $\Omega_S\omega_A$ 与下降后的测试之间，保留(21)后已固定的 $a_{j,p}^{-1}$。该 Artin 基在删去固定有限素数后为本原整基；没有为不同 $p$ 另选任意本原周期。
+
+Fontaine–Laffaille 适用的范围在这里是 $[0,3]\subset[0,p-2]$。原文§7.14、Proposition7.15及Theorem8.4给精确、全忠实的实现和晶体比较；带系数的表述也可见 Gee–Herzig–Liu–Savitt 2017§2.3，印刷第414页。其 essential image 包含该范围内的每个晶体稳定格，且与模 $p$、子商相容。因此下文是原 Galois 整扩张的分类，不仅是某个有理过滤模的形式计算。
+
+### 8.2 逐式分类原 $H_f^1$ 的整扩张
+
+设 $\mathcal E$ 表示一个属于 $H_f^1(K_p,T_{j,p})$ 的整扩张
+$$
+0\longrightarrow T_{j,p}\longrightarrow\mathcal E
+ \longrightarrow\mathcal O\longrightarrow0.
+$$
+先扭曲 $(-2)$，再用上述同向 Fontaine–Laffaille 实现。其商有两个标准基 $\bar f_1,\bar f_2$，均在 $\operatorname{Fil}^2$，且
+$\varphi\bar f_1=p^2\bar f_2$、
+$\varphi\bar f_2=p^2\bar f_1$。过滤严格性使我们可以选取
+$\operatorname{Fil}^2$ 中的提升 $f_1,f_2$。
+
+相对于(34)，强可除性准确地给
+$$
+\varphi f_1=p^2f_2-p^2x e_2,\qquad
+\varphi f_2=p^2f_1-p^2y e_1,\qquad x,y\in\mathcal O.
+\tag{35}
+$$
+这里故意按 $1-\varphi/p^2$ 写**负号**，以和下文的 Bloch–Kato 连接映射对齐。不能只用未除 $p^2$ 的 Frobenius 矩阵判定残余扩张。
+
+保持子对象与商标准基的全部 Hodge gauge 只有
+$f_1\mapsto f_1+z e_1$，$z\in\mathcal O$；
+$f_2$ 不能加 $e_2$，因为 $e_2\notin\operatorname{Fil}^2$。
+把这个替换代入(35)得
+$$
+(x,y)\longmapsto(x-puz,\ y+z).
+\tag{36}
+$$
+于是
+$$
+\boxed{h(\mathcal E)=x+puy}
+\tag{37}
+$$
+是完整 gauge 不变量。取 $z=-y$ 后，正规形为 $y=0,x=h$。
+
+反过来，对任意 $h\in\mathcal O$，(34)及(35)中 $x=h,y=0$
+定义一个强可除模。确实，标记1的目标由
+$\varphi_0e_2=-u^{-1}e_1$ 与 $\varphi_2f_2=f_1$ 生成，
+标记2由 $\varphi_3e_1=u e_2$ 与
+$\varphi_2f_1=f_2-h e_2$ 生成；所以强可除性没有额外限制。
+Baer 加法直接相加 $x,y$。因此
+$$
+H_f^1(K_p,T_{j,p})\ \simeq\ \mathcal O,\qquad
+[\mathcal E]\longmapsto h(\mathcal E).
+\tag{38}
+$$
+这里 $H_f^1$ 指整上同调中晶体有理子空间的原像。任一这样的整扩张，其有理化为晶体表示，Hodge 权就是上述子商的并集，所以正好在已经核准的 Fontaine–Laffaille essential image 内。
+
+同一计算可模 $p^n$ 进行，使用全部除 Frobenius $\varphi_i$。全忠实性于是给
+$$
+\mathcal E/p^n\text{ 分裂}
+\quad\Longleftrightarrow\quad
+h(\mathcal E)\equiv0\pmod {p^n}.
+\tag{39}
+$$
+特别模 $p$ 的唯一参数是 $x\bmod p$。这是原**局部 Galois 扩张**
+的参数，不是将特殊纤维上一点的阶或无权 Picard 类取模 $p$。
+
+### 8.3 Bloch–Kato 对数的准确整格与符号
+
+在有理化后，唯一 Frobenius splitting 写作
+$f_i+a_i e_i$。它应满足
+$\varphi(f_1+a_1e_1)=p^2(f_2+a_2e_2)$ 及反向等式。
+由(34)–(35)逐式得到
+$$
+a_2=-x+pu a_1,\qquad
+a_1=-y-p^{-2}u^{-1}a_2.
+$$
+消去 $a_1$，即
+$$
+a_2=-\frac p{p+1}(x+puy)=-\frac p{p+1}h.
+\tag{40}
+$$
+
+采用标准 Galois cocycle $g\mapsto g\tilde1-\tilde1$，
+Bloch–Kato 对数是 Hodge splitting 减去 Frobenius splitting。
+这个符号可以直接从
+$0\to V\to B_{\rm cris}^{\varphi=1}\otimes V
+ \to(B_{\rm dR}/B_{\rm dR}^+)\otimes V\to0$
+的连接映射核出：若 $b$ 提升 de Rham 类 $v$，连接 cocycle 是
+$gb-b$；扩张中的 Frobenius 不变提升为 $\tilde1-b$，Hodge 提升与它之差正是 $v$。因此在(40)的标记2中对数坐标是 $-a_2$，不是 $a_2$。由原测试基的配对规范，
+$$
+\boxed{
+\log_{\rm BK}[\mathcal E]
+ =\frac p{p+1}h(\mathcal E)e_2
+ \quad\bmod\operatorname{Fil}^0,
+\qquad
+\log_{\rm BK}H_f^1(K_p,T_{j,p})
+ =p\mathcal O e_2 .
+}
+\tag{41}
+$$
+最后等式用 $p+1\in\mathcal O^\times$。它给真实整格上的一个 $p$，
+而非在有理一维空间中任意重标度造成的 $p$。
+
+现在把 $\mathcal E$ 取为同一个 $Y_{j,0}$ 的原局部整 AJ 扩张，记
+$h_{j,p}=h(\mathcal E_{Y_{j,0}})$。与(20)–(21)逐项比较得到
+$$
+\boxed{
+h_{j,p}=a_{j,p}^{-1}\mathcal I_{j,p}\in\mathcal O,\qquad
+\operatorname{AJ}_p(Y_{j,0})(\text{原下降测试})
+ =\frac p{p+1}h_{j,p}.
+}
+\tag{42}
+$$
+因两个等式均用同一原周期、同一杯积次序和同一 Artin 基，
+(42)没有未定的依赖 $p$ 的非零比例。若坚持在 $H$ 上的模型测试基书写，
+则等价地 $a_{j,p}h_{j,p}=\mathcal I_{j,p}$。
+
+由(39)及(42)，$a_{j,p}^{-1}\mathcal I_{j,p}\not\equiv0\bmod p$
+是一个足以证明原局部 AJ 非零的具体有限精度条件。
+反向只能说
+$\mathcal I_{j,p}=0$ 等价于整个局部扩张分裂；
+模 $p$ 为零本身仍允许更深的非零扩张。
+
+### 8.4 下一原输入确实是一阶 normal function
+
+对原任一图，把特殊纤维的 $D_p^+$ 限制并拉回 $A$，
+其无权 degree0 类来自 $A(\mathbf F_{p^2})$。
+因 $F_{p^2}=[-p]$，该点群被 $p+1$ 杀。
+对每个实际整点，$p+1$ 与 $p$ 互素，故它有唯一同阶的未分歧挠提升；
+该提升的 $p$-adic logarithm 为零。
+原固定系数线性组合和所有 $\eta_j$/Cor 操作也不改变这个事实。
+
+因此(42)所需的 $h_{j,p}$ 不能由这些单独挠提升的日志取得。
+它记录的是(12)的**全局** Čech/Frobenius 数据在原图上的限制，
+亦即与实际全局除子不提升相联系的 secondary 项。
+(31b)证明全局障碍非零，(39)准确指出残余读数必须检测哪个局部扩张；
+但它们没有把全局障碍到原54项加权和的映射宣布为非零。
+
+后继可在同一覆盖中选择 $D_p^+$ 的 transition functions，
+用 Frobenius 的线丛同构及对数 cochain 构造(12)，再加入
+$c_1(D_p^+)=u_p\Omega_S$ 的 exact 比较项。
+由于(14)，只要保完整比较同伦与原图，此计算代表给出的(42)唯一。
+目前仍需真正计算该限制；不把特征 $p$ 的空间 Manin 函数
+$\mu(Q_p)$ 自动当成这一算术一阶项。
+
+本节来源补充：
+Fontaine–Laffaille, *Construction de représentations p-adiques*,
+Ann. Sci. ENS15(1982),547–608，§7.14、Proposition7.15、Theorem8.4：
+<https://www.numdam.org/item/10.24033/asens.1437.pdf>。
+Gee–Herzig–Liu–Savitt,
+*Potentially crystalline lifts of certain prescribed types*,
+Documenta Math.22(2017),397–422，§2.3，p.414：
+<https://www.emis.de/ft/10184>。
+所引定理仅支付整实现、精确性及全忠实性；(34)–(42)的扩张分类和全部比例已在本文直接计算。
