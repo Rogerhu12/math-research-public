@@ -1,0 +1,216 @@
+{
+  "session": "Astra-ISP-8542378f-20261127",
+  "source": "2026-11-27-unit211-S0-Lt0-complete-original-cubic-cover-return-8542.py",
+  "sourceSha256": "9d0c77892ae07bb04ee6c3e596b48e543310004c65962000a93204db10d226ea",
+  "sourceBytes": 33625,
+  "parameters": [],
+  "actualExitCode": 0,
+  "wallSeconds": 163.60080658099832,
+  "stdoutSha256": "48c45766eee40365bc9ec3c935d666ee27041472a19e26a15912f655175f908a",
+  "stdoutBytes": 22893,
+  "peakRssKiB": 124232,
+  "limits": {
+    "constructionAlarmSeconds": 360,
+    "addressSpaceGiB": 4
+  },
+  "wholeRemainingS0Lt0Excluded": true,
+  "completeCoverAndOriginalReturn": [
+    {
+      "stage": "complete_original_QQ_parameter_cover",
+      "fullDegree": 1502,
+      "paidDivisions": [
+        [
+          "original_e",
+          98
+        ],
+        [
+          "closed_zero_base_weight",
+          44
+        ],
+        [
+          "original_u",
+          555
+        ],
+        [
+          "closed_entire_ehalf",
+          190
+        ]
+      ],
+      "remainingQQDegree": 615,
+      "fullSha256": "d379086ccd80f7a1e41d390b5745ea0249ee0df7af8dce28e8107e417fe9bd6b",
+      "remainingSha256": "4a3942a867bc1745d8e3094bce8fe5acf696b6eb94338f80eca26d7ca66adef7",
+      "allQQDivisionsMultipliedBack": true,
+      "allOriginalKLeadingZeroFibersRetained": true,
+      "claimExcluded": false,
+      "seconds": 161.64656694199948
+    },
+    {
+      "stage": "entire_QQ_parameter_cover_factorization",
+      "factorDegrees": [
+        2,
+        296,
+        317
+      ],
+      "multiplicities": [
+        1,
+        1,
+        1
+      ],
+      "factorSha256": [
+        "ba96a490d05076d882fafacd51dbf0cfdf8468fe9886273e2ff353bd0331658d",
+        "199b93f663d60c8990cf1cbc4477bf397b4716f38c01001f7da4cca4416cf91f",
+        "f08a5fba7e9204886fb70147d627287673020a4683fa016a13c4d1099bb30dfc"
+      ],
+      "allFactorsAndQQScalarMultipliedBack": true,
+      "noIrreducibilityAssumptionNeededForNextBezout": true,
+      "claimExcluded": false,
+      "seconds": 161.95113060699805
+    },
+    {
+      "stage": "full_original_univariate_Sylvester_modular_return",
+      "name": "Res_k(F41,N42)",
+      "prime": 1009,
+      "originalFullKDegrees": [
+        33,
+        34
+      ],
+      "modularFullKDegrees": [
+        33,
+        34
+      ],
+      "fullResultantModDegree": 1691,
+      "resultantModSha256": "6a3eb8ff5df05ffe5ea939271b1c207a24ce1fa7ad2c5bba84a1f76a31d77cac",
+      "actualQQResultantDefinedByTheseFullInputs": true,
+      "claimExcluded": false,
+      "seconds": 162.34552693300066
+    },
+    {
+      "stage": "full_original_univariate_Sylvester_modular_return",
+      "name": "Res_k(F41,G132)",
+      "prime": 1009,
+      "originalFullKDegrees": [
+        33,
+        109
+      ],
+      "modularFullKDegrees": [
+        33,
+        109
+      ],
+      "fullResultantModDegree": 5294,
+      "resultantModSha256": "51667346f8198d4e7d3c6f39d1f44657a0c4c56f8e0aca3670307bd3db1c78b0",
+      "actualQQResultantDefinedByTheseFullInputs": true,
+      "claimExcluded": false,
+      "seconds": 163.44731429899912
+    },
+    {
+      "stage": "entire_original_QQ_factor_modular_Bezout",
+      "case": "quadratic_with_original_N_even",
+      "prime": 1009,
+      "actualQQCandidateDegree": 2,
+      "modularCandidateDegree": 2,
+      "QQMonicNormalizationIsPrimeIntegral": true,
+      "actualQQLeadingCoefficientIsPrimeUnit": true,
+      "fullResultantModDegree": 1691,
+      "coefficientDegrees": [
+        1690,
+        1
+      ],
+      "coefficientSha256": "9eaaa63dd4a7a8f969566125d472f98e8fa14a49429e4d2cf81ab55091e7d652",
+      "candidateSha256": "ba96a490d05076d882fafacd51dbf0cfdf8468fe9886273e2ff353bd0331658d",
+      "actualBezoutMultipliedBack": true,
+      "GaussLemmaAppliesToActualQQUnivariateCover": true,
+      "arbitraryMultivariateModularUnitUsed": false,
+      "allComplexEmbeddingsRetained": true,
+      "wholeCandidateExcluded": true,
+      "claimExcluded": true,
+      "seconds": 163.44994792099897
+    },
+    {
+      "stage": "entire_original_QQ_factor_modular_Bezout",
+      "case": "degree296_with_original_G132",
+      "prime": 1009,
+      "actualQQCandidateDegree": 296,
+      "modularCandidateDegree": 296,
+      "QQMonicNormalizationIsPrimeIntegral": true,
+      "actualQQLeadingCoefficientIsPrimeUnit": true,
+      "fullResultantModDegree": 5294,
+      "coefficientDegrees": [
+        5293,
+        295
+      ],
+      "coefficientSha256": "1cc0c615e36e1bf1155e5bddace9d4e74eab512dfbbf769c3455ab5c30d94721",
+      "candidateSha256": "199b93f663d60c8990cf1cbc4477bf397b4716f38c01001f7da4cca4416cf91f",
+      "actualBezoutMultipliedBack": true,
+      "GaussLemmaAppliesToActualQQUnivariateCover": true,
+      "arbitraryMultivariateModularUnitUsed": false,
+      "allComplexEmbeddingsRetained": true,
+      "wholeCandidateExcluded": true,
+      "claimExcluded": true,
+      "seconds": 163.4606881030013
+    },
+    {
+      "stage": "entire_original_QQ_factor_modular_Bezout",
+      "case": "degree317_with_original_N_even",
+      "prime": 1009,
+      "actualQQCandidateDegree": 317,
+      "modularCandidateDegree": 317,
+      "QQMonicNormalizationIsPrimeIntegral": true,
+      "actualQQLeadingCoefficientIsPrimeUnit": true,
+      "fullResultantModDegree": 1691,
+      "coefficientDegrees": [
+        1690,
+        316
+      ],
+      "coefficientSha256": "0d7f4c6c4a521878adddb813525a67bccfa5e91aa78ffdb8007be22d1b2ca437",
+      "candidateSha256": "f08a5fba7e9204886fb70147d627287673020a4683fa016a13c4d1099bb30dfc",
+      "actualBezoutMultipliedBack": true,
+      "GaussLemmaAppliesToActualQQUnivariateCover": true,
+      "arbitraryMultivariateModularUnitUsed": false,
+      "allComplexEmbeddingsRetained": true,
+      "wholeCandidateExcluded": true,
+      "claimExcluded": true,
+      "seconds": 163.46620742899904
+    },
+    {
+      "stage": "complete",
+      "scope": "every remaining original S0 Lt0 point after the previously paid physical and boundary factors",
+      "completeQQCoverDegree": 615,
+      "entireCandidateDegreesExcluded": [
+        2,
+        296,
+        317
+      ],
+      "allOriginalSamePointInputTracesVerified": true,
+      "allLeadingZeroFibersRetained": true,
+      "sourceSha256": "9d0c77892ae07bb04ee6c3e596b48e543310004c65962000a93204db10d226ea",
+      "peakRssKiB": 124232,
+      "wholeRemainingS0Lt0Excluded": true,
+      "ordinaryISPClaim": false,
+      "claimExcluded": true,
+      "seconds": 163.4672046529995
+    }
+  ],
+  "primeLeadingUnits": [
+    {
+      "degree": 2,
+      "factorSha256": "ba96a490d05076d882fafacd51dbf0cfdf8468fe9886273e2ff353bd0331658d",
+      "prime": 1009,
+      "leadingCoefficientModPrime": 1,
+      "allMonicCoefficientDenominatorsPrimeUnits": true
+    },
+    {
+      "degree": 296,
+      "factorSha256": "199b93f663d60c8990cf1cbc4477bf397b4716f38c01001f7da4cca4416cf91f",
+      "prime": 1009,
+      "leadingCoefficientModPrime": 594,
+      "allMonicCoefficientDenominatorsPrimeUnits": true
+    },
+    {
+      "degree": 317,
+      "factorSha256": "f08a5fba7e9204886fb70147d627287673020a4683fa016a13c4d1099bb30dfc",
+      "prime": 1009,
+      "leadingCoefficientModPrime": 33,
+      "allMonicCoefficientDenominatorsPrimeUnits": true
+    }
+  ]
+}

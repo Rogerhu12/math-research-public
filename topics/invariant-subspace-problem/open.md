@@ -4,7 +4,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-two-parameter-original-QQ-gates-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-complete-S0-Lt0-exclusion-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -45,7 +45,7 @@ rankH3单三jet的全部ess6已闭，末非零Hp原Gaussian/最高/normal给左�
 
 **原U值图L0：** w0/w1、b+c0、W、P1双零、整个G/K/V均闭，完整来源保[结果索引](results.md)。余原同rho/t交点及全部P/N。新完整原门fae9a57e/run45909368752实际1200秒仅BEGIN/无单位，源冻结；X/Y大QQ、原cofactor末步、次数降行、H15直接投影亦未决冻结，原身份及准确回执保各正文。转原低次矩阵/关系，不用模5953替QQ保次数。
 
-**S0：** 全部已闭边界/原物理Gram/执行身份保结果索引和快照；只续Af非零、三值互异的Lt0一般图。一般LS非零与L0独立开放，不重算已闭门。
+**S0/Lt0 整支已闭：** [完整原615次覆盖及三个因子的特征零排除](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-complete-original-cubic-cover-exclusion.md)已排除最后三值互异、Af非零的一般图；与此前全部退化面合并，S0/Lt0不再开放。源9d0c7789实际163.600807秒/exit0，原G132/完整QQ覆盖/保次数与首项的一元Bézout全回乘，不依赖仍运行的QQ门。现接[原U值atlas](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-original-U-value-atlas.md)中独立的一般LS非零四参数层，原Delta零纤维全保；L0继续，旧模内存/600秒输入冻结。
 
 **2+1型H、Hp0九次Gram仅余四源全有限的ess6层：** 全部H/V∞支已闭，来源与真逆保结果索引/归档。[完整重建](results/R150-appendix-rank-three-double-plus-single-zero-hp-finite-source-rational-reconstruction.md)保原12式及11/16全系数；[同Π上的低次原理想相等](results/R150-appendix-rank-three-double-plus-single-zero-hp-lowered-original-ideal-equivalence.md)已将d八次喷射换为二次，A/T为原商环强迫单位。mod1031/e700单位基只供方向，三种真Ke各900秒未决，最后八条恒等式及field/smoke通过但无单位身份；[同Π的C/G两条d一次式与原理想相等](results/R150-appendix-rank-three-double-plus-single-zero-hp-two-linear-original-ideal-equivalence.md)现已证明，不除两个新首项，仍保全部零纤维；真实I*C=1继续。[新增原N二阶及孤立点一阶降式](results/R150-appendix-rank-three-double-plus-single-zero-hp-original-N-Hermite-strengthening.md)保持同Π，d次数5/8，实际build核完整身份4.926643秒；新run45886748045数域/smoke已通过，完整1.465MB输入实际900秒未决，驱动905.464秒/RSS714476KiB，无I*C=1；不重跑此输入。三约化H与ess4/5仍开。
 
@@ -99,9 +99,6 @@ A单射、稠密像、拟幂零且非紧；普通非零真闭不变子空间仍�
 [全交换子的收缩多项式密度](results/R12-appendix-contractive-polynomial-density-of-full-haar-commutant.md)及特选同头/平均双逼近成本最优1已经闭合；不再重做。一般平均却[在统一成本球仍强不连续](results/R12-appendix-finite-conjugation-average-discontinuity-at-uniform-cost.md)：真实有限头 $B_m\to0$ 于op范数、$c(B_m)\le2$，但 $\Pi B_m\to-I/4$ 于SOT。因此全D强逼近不能直接平均成保持同输入的交换子插值。
 
 
-
-
-
 同一实际源的运输插值、双预算/最小普通范数和固定球真实递推已付；指定硬目标的全D最优累计log费用Θ(n⁵)，仅换实现不能降四次。原球软逆像唯一最优W_n²/(W_n²+λ)，含dyadic半径边界的四次准确常数；所有实际递推∏c≥m_n。全D连续整数前缀约束进一步迫独立软最优目标的连接普通范数dyadic无界，必须改变真实目标并付完整前缀/逆像双费。完整原身份与全部源保[压缩前页](notes/2026-11-27-open-before-tail-roots-and-closed-graph-8542.md)和[结果索引](results.md)。
 
 硬复制和任意复软复制（自适应、统一有界放大、固定非零球）已有五次累计成本障碍，原幂衰减只有四次；软化cut不能修复。一般有限头重排与非复制来源仍开。未知A不变空间未证被D核心保持。
@@ -122,13 +119,9 @@ A单射、稠密像、拟幂零且非紧；普通非零真闭不变子空间仍�
 
 **[R=d同W全能量及原截断源全矩已付](results/R271-appendix-geometric-cutoffs-same-w-complete-energy-and-d-sized-once-mp.md)：** H_C(8Sx)≤Hω保全高度。任意w∈M的P_xw经原行迭代与e^(−47d⁴)全carry误差有全矩可和；R=d,x=m+d,h=2d,Q=2d³及真帽cut数d³−5d合法。旧K*一次全MP适用，真实残量仍−Cq1；同forcing、有锚第二Green及稳定核返回继续。
 
-**S0/Lt0原一般图：** g2零面、theta余式双零、M首项零、u2/ell1/a0、ellhalf、原U导数w0均已闭，准确全谱/单位回乘见结果索引和[压缩前快照](notes/2026-11-27-open-before-occupied-prefix-and-flat-source-8542.md)。可用theta=−r0/r1、(4λ−1)A、ell−1/2与w；只续三值互异、Af非零的原一般图，全部未付约束保留。
-
 同W固定及慢增次数MP已付，k_m≤m/12保全−Cq_r反馈和同一母支持；仍未付k=h_m−1终列费用，不以近核列作kerT或closureBM。完整常数/来源见结果索引和最新快照。
 
 **[同一相容真空塔的固定基数负相关改进](results/R271-appendix-fixed-cardinality-negative-correlation-near-optimal-compatible-vacuum-towers.md)已证：** 完整物理范数J_r近最优范围由L=o(√x)扩至L=o(x^(2/3))，原相容性、同一forcing与完整Gram不变。平方损失O(L(L+logx)²/x²)；固定头误差O_m((logx)^(3/2)/x)，已付Chebyshev短核源界给x=ceil exp(9d⁴)模型窗。仍超原全局exp(O(d³))母窗；同w到真实短核的δ_L、carry/lift与稳定BM端点继续，不能以小C^(L+1)残量替真实核距离。
-
-S0旧7变量modstd smoke和两个4变量QQ门失败，准确源/退出/回执保[最新完整快照](notes/2026-11-27-open-before-five-quadrics-parameter-curve-8542.md)及H。原Cramer20子式不是一般图排空；各旧门冻结，当前同eta完整原门独立运行。
 
 **[整个实际M的占满前缀新指数率](results/R271-appendix-full-tensor-exponential-bound-and-improved-occupied-prefix-decay.md)已证：** 完整张量指数范数配合同一真实D_rg_r余项，r=ceil(log2n)给γ_ex>5/3和明确e^(−47n⁴)carry；优化率Γ_occ约1.723637，所有严格小于它的率对全M及固定最高k类成立。仍远低于真实α_q^-1除法图范数；继续W特殊来源/主理想闭图，未证N=M。
 
@@ -139,20 +132,11 @@ S0旧7变量modstd smoke和两个4变量QQ门失败，准确源/退出/回执保
 **[原形式除法的实际闭关系](results/R271-appendix-actual-formal-division-closed-relation-and-two-range-cores.md)已付：** 原TJ_B有限支撑图闭包的多值部恰Ce0；投去它后有N⊂ker A_min⊂M及I⊂J⊂N⊥。最大伴随域是实际T*像可除域，其闭包为e0⊥。继续分别证明J=I和J=N⊥，不能用一维多值部或单一图核心代稳定缺陷结论。
 
 
-S0/Lt0的k=4e、v=t=0、Omega=2e²−ek+2=0整支均已完整原返回排空；可付4e−k、v、Omega。准确全谱、Bézout和源回执保[压缩前页](notes/2026-11-27-open-before-v-leading-exclusion-8542.md)及结果索引，所有未闭原约束保持。
-
-
-
-
-[Lt0原u93/77整纤维](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-parameter-leading-77e16-exclusion.md)已闭，可付77e−16。H33直接大投影90秒失败已冻结；继续原同eta的低次乘法约束，一般Lt0未判空。
-
 普通M的有限头坐标非Fredholm，有下界真像无限维/余维且无尾模补空间。新[所有幂补空间排除](results/R12-appendix-no-power-invariant-closed-complement-for-any-ordinary-invariant-subspace.md)把普通真M无补空间提高到每个A^p；完整J交换、Jordan块数及迹谱连通均已付。仍须处理不分裂真实核/像或闭根域，不能把全尾字符施于未知限制。
 
 [总孔核心](results/R271-appendix-canonical-source-carry-norm-total-hole-core.md)现有[精确15/16来源端点](results/R271-appendix-critical-fifteen-sixteenths-carry-domain.md)：N/Y完整carry在X_(15/16)有界，总孔cut由q≤p有限块直接支付；σ>15/16无条件延拓不成立。真实y=Sh的剩余费准确为Σalpha_q^(−1/8)||P_q^+y||²，仍须由同W规范源给出，甚至一般W的y∈H尚未付。两范围核心仍开。
 
 Deddens自伴MASA、全部可分重数有限成本投影、全2-adic平移距离、具体B内核心、odometer非平凡谱投影距离≥1/π及全非奇异加权复合距离均已闭，完整链接/原边界保[快照](notes/2026-11-27-open-before-same-eta-and-output-core-8542.md)。R38真实Y∈D\B；全R自伴核、连续Fourier乘子及未知普通M的D保持仍开，不能无损拼合一般细块。
-
-[同eta四单项式原生成归约](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-same-eta-four-monomial-original-system.md)已付，六指定原式双向改写与全部重叠保留；新Qa小原必要行继续。dc2d完整门1200秒真实未决，smoke单独通过，源冻结不重跑。
 
 [同源dyadic两边界](results/R271-appendix-exact-dyadic-division-graph-boundaries-and-cayley-cost.md)已付，含Y全逆和可能增长的h^(<r)成本；指定prefix-cut当且仅当λ_r||y_r||及真实头顶行趋零。一般W的最大图域/这两费仍需原来源证明。
 
@@ -162,16 +146,7 @@ Deddens自伴MASA、全部可分重数有限成本投影、全2-adic平移距离
 [整幂根与闭域](results/R12-appendix-all-integer-power-root-multiplicity-and-closed-root-domains.md)给q|pk的有界分类；新[伴随域包含引理](results/R12-appendix-stable-root-adjoint-domain-inclusion-and-actual-parts.md)证明闭稳定域+DomT⊂DomT*+有限幂有界即T全域有界，不需有界自交换子。不整除根必无该包含；C自伴时D/CD不可比较。R161/R212/R236的真实闭部分可继承包含，未知头像根须先证明是该闭部分；全幂像/平坦性仍不付PH入域。
 
 
-同eta原Q4整首项B_(11,8)、ehalf、整A24与N1/Qa全部J1零面已闭，原四矩阵身份给同点λ/f，余Qa投影C83；C83/H33完整QQ120秒失败冻结。全部原证明、799次覆盖及保次数证据保[压缩前open](notes/2026-11-27-open-before-full-commutant-denominator-obstruction-8542.md)。继续完整原mean/P/N，不以两线性行替全系统。
-
-
-同eta全U/B与五几何原系统均已付来源，原7161bc65完整QQ门run45908775594已1200秒超时冻结；现在改用下述已完成四生成原行。全部既有来源与失败身份保[压缩前open](notes/2026-11-27-open-before-actual-first-block-schur-source-8542.md)。
-
-
 [全交换子兼容喷射](results/R12-appendix-full-commutant-compatible-formal-jets-and-flat-root-denominators.md)只给不整除闭根的实际分母必平坦。新[完整C无任何非零分母定理](results/R12-appendix-full-commutant-no-bounded-regularizer-and-nonclosability.md)已对显式正连续循环f证明PX_f全柱无界、无PH入域、C1∩Cf=0；两轨道均稠密，完整C无可闭性/任何RSC向量。原完整高块误差、固定外锚与全列范数都已付，不能再从I∞/R267的强*密度推出一般分母。继续利用实际闭根或湮灭见证的额外方程构造特殊来源，不把该坏源移给它们。
-
-
-五原二次式F41/H64/H16与[四生成原行](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-four-generator-two-parameter-original-system.md)已付。新[三原三次行低参数曲线](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-original-cubic-lower-parameter-curves.md)给U38,31/N42,34/P47,37，60条完整cofactor身份保主元零支，51.526931秒/exit0；继续同参数完整QQ覆盖，模支持不直接提升。旧全伴随/展开trace均冻结。
 
 
 [N型最大carry域](results/R271-appendix-maximal-n-carry-domain-triangular-reconstruction.md)已由有限行严格三角重构识别为ρ权平方和域；各Pq h在H且Kh在H即进总孔核心。若同W来源已付Sh∈H，非零W只可能来自D*h与Kh各非H的真实抵消；此来源与抵消排除均未付，Y不套此正交重构。
@@ -184,9 +159,6 @@ L0原C39,53已付；新[九行的三个原8×8子式](results/R150-appendix-esse
 
 
 L0新[三原参数曲线系统](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-L0-three-original-parameter-curves-system.md)只含λ/w与一个饱和变量，C/X/Y均完整QQ原来源，10个单位全已付。源478dfef5 build68.485504秒/exit0；新专用QQ门须实际I*cert=1后才判空。C/X直接QQ投影250秒exit−9无返回也已冻结，不重跑。
-
-
-S0新[原参数子式及首一e系统](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-parameter-minors-and-monic-e-system.md)已付整H9支和11原四列身份，δ=0全留；F41常数首项2^52使12必要式合法降次。源d8dbf16c build79.611829秒/exit0；唯一新3变量QQ门待实际证书，不把同参数矩阵当自由模。两个新门仍待真实返回。
 
 
 [原图核心与R143实际反根](results/R12-appendix-core-power-bound-and-actual-r143-inverse-root.md)已付S=T⁻¹闭稳定、S²=α0⁻¹B1|K及原D图核心；余RanT⊂RanT*或等价实际伴随域包含，未知K不套全尾根整除。另D=−2Z的D²L核心只在旧有限放大稠密条件下成立，一般慢行不能借B1强单位。
