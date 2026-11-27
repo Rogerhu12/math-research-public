@@ -40,6 +40,8 @@ $
 
 下一须在这个真实outward source上证明完整flat/微分比较；好点incoming连续性单独不读该边界。
 
+[连续性审计§7](notes/2026-11-27-original-psi4-common-factor-digit-and-continuity-audit.md)现锁定同一已完成的未除幂 raised 张量 $\omega^3\otimes(\Omega^1)^n$：固定CM基/KS/level比较只有 $q_{p,n}=q_{p,4}Q_p^{n-4}$，完整两Hermite仍为 $c_n=n!(n+2)!\xi^{n-4}/(4!6!)$。真实Hecke等变KS保 $\det H_{\rm dR}^{-n}$，7.19的实际基乘 $p^{3+n}$；书7.22的 $p^{3+2n}$ 尚缺同一线性化比较，但任何这种固定幂都不修digit障碍。由实际 $R_{{\rm can},227}(226)\ne0$，当前明定的 full18图/通常depletion/未除幂正整数序列**不存在连续延拓到 $\mathbf Z_{227}$**。这是本题literal数列的严格结论，不把它与真实flat族无条件相认，也不据此称书定理假。后继须真正给不同算子或权归一并重证proper端点，参考非零或period单位不能补此门。
+
 ## O原矩阵. 正特征完整重数界及第二、第三区块
 
 [三变量 $V$](notes/2026-11-27-original-three-variable-vector-field-prime-d-property.md)已付全次数稳定素簇分类、原奇点 D-property 常数1、真实截断评价及 minimal primary 长度小于 $p$ 的根稳定性。固定低次数通用 Noetherian 链给固定退出指标 $M$，仅为存在性常数。

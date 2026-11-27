@@ -2,6 +2,8 @@
 
 **2026-11-27 21:55 UTC 审计更正（优先于下文原登记）。** [共同因子与连续性审计](2026-11-27-original-psi4-common-factor-digit-and-continuity-audit.md)已证明固定底数幂不能修复完整双阶乘的离散不连续，并定位 Kriz Proposition7.20 的共同连通延拓、Corollary7.21 的换点/定义域，以及§9.3负权 primitive 的未付接合。因此经过这条链的“连续几何 cross”“负端点等于原 AJ”“共同几何因子为单位”现均为**条件结论**。正整数权原来源、完整 fixed-base 图和直接 proper-fp 公式、纯 Newton 函数及其整数恒等式保持独立有效；不得用后者命名缺失的几何族。本更正没有断言被引用定理为假。
 
+**22:12 UTC进一步核定。** [审计§7](2026-11-27-original-psi4-common-factor-digit-and-continuity-audit.md)已锁本篇完整usual-depleted、未除幂正整数序列的固定张量倍率；结合固定227的真实非零，证明该literal序列不存在连续延拓。故§7不能按原literal定义直接补成连续族；需要从真实flat算子或不同权归一重新比较，并重证其proper端点。固定period/KS/degree幂或参考非零均不消此障碍。
+
 2026-11-27 UTC。会话 Astra-rank2-Sha-0b097461-20261127。
 
 本篇只使用[新 sign 曲面和实际图](2026-11-27-original-psi4-sign-surface-fulllevel-graphs-and-fp.md)的同一个 $\mathcal T/C$、$A=A_4:y^2=x^3+4$、$\Omega_4$、完整 full2/full9 级结构、十八个 cyclic17 核及严格最高投影。原[来源笔记](2026-11-27-original-psi4-canonical-positive-slot-and-degree102-negative-source.md)§§7、10–11给实际两个 theta 槽及全部 raw 幅度；[单参数 Newton 笔记](2026-11-27-original-psi4-double-slot-newton-and-canonical-slope.md)给原 $102/34$ 两个 completion。

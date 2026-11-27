@@ -27,13 +27,13 @@ v9/v10/v11全部终态及失败链见[终点链](notes/2026-11-27-artinian-v7-fi
 
 [完整审计](notes/2026-11-27-original-psi4-common-factor-digit-and-continuity-audit.md)现优先于此前登记。原 normal-ordered Hermite 确给 $n!(n+2)!$，不能偷改除幂。设 $A=p^2-1,B=p-1$，固定非零 $K,\zeta$，
 $g(u)=K\zeta^u((Au)!/(Bu)!)^2/(Au-1)$。
-若连续 $L,R$ 满足所有正整数 $L=gR$，则 $L=R=0$：取 $u_m=u_0+p^m$，精确估值差 $(v_p(\zeta)+2p)p^m-2$ 不可能最终为0。实际纯固定幂 toric 比较仍须核，未声称书定理假。
+若连续 $L,R$ 满足所有正整数 $L=gR$，则 $L=R=0$：取 $u_m=u_0+p^m$，精确估值差 $(v_p(\zeta)+2p)p^m-2$ 不可能最终为0。§7现由同一完整张量锁定本题literal通常剔除序列的纯固定幂；未声称书定理假。
 
 Kriz 6.21连续的是实际 $q_{\rm dR}^{1/p}$ 的flat族。7.20把它认作usual depletion时，仅分别下降至 $U\subset Y^{ss}$ 与ordinary，不交并集的rigidity不提供共同连通延拓。7.21的 $g_1=\operatorname{diag}(p,1),g_2=\operatorname{diag}(1,p)$ 还把评价点移到 $y\cdot pI$，不是原good $y'$。§9.3(9.11–16)的负端点primitive亦需同一共同域及微分/Frobenius归一。
 
 因此旧full54§§7–8、六线§§8–9、新psi4§§7–9的连续几何cross、H−2/AJ及F几何单位**全部改为有条件**。各文件已置页首更正，历史归档保留。不能只降正权而保负端点。直接proper-fp、完整图/Artin/p²全和、R1049晶体/Manin/残余和独立signed范围不自动撤回；纯Newton尾界及完整整数身份继续有效。
 
-下一实际审计：固定 $p=227,u=1$ 的原两槽系数，$n=51526,n+2=51528$，同读 $q=z^6$ 的8587次。辅助模65537只作特征零非零证书，非p单位、非无穷p。公开run46073583710/job140756005342/source38d4107ce0fa11b0fdf5c99a6df6596d6c3c32f5已SUCCESS；两整槽均非零、三个全窗身份PASS，故原Rcan,227(226)≠0。stdout1239B/hash b74f221e90348e596670facaa5d0f0e868ee0e7c4351565d8ed477725ee8019f；不存前缀/结果。与此同时按原bad点的真实更深根/全p²对应重证最窄算子，若不接则转同一S3150 forcing，不能用抽象flat代图。
+固定正权审计已付：固定 $p=227,u=1$ 的原两槽系数，$n=51526,n+2=51528$，同读 $q=z^6$ 的8587次。辅助模65537只作特征零非零证书，非p单位、非无穷p。公开run46073583710/job140756005342/source38d4107ce0fa11b0fdf5c99a6df6596d6c3c32f5已SUCCESS；两整槽均非零、三个全窗身份PASS，故原Rcan,227(226)≠0。stdout1239B/hash b74f221e90348e596670facaa5d0f0e868ee0e7c4351565d8ed477725ee8019f；不存前缀/结果。结合§7严格得当前literal序列无连续延拓。原张量KS须保det^-n，7.19的p^(3+n)与7.22的p^(3+2n)不能无解释混用，但任何固定幂都不救此结论。后继须真实flat/新规范并重证proper端点，不能用抽象flat代图；同一S3150/增长深度方向继续。
 
 [正确b2及边界](notes/2026-11-27-original-bad-cm-b2-source-and-p-square-boundary.md)已付真实坐标/微分/level运输，good源拉回是 $g_1^*F$ 而非原F。原同一D有 $O_D=(1-p^{-2})G-\lambda_D^*I_D/p^2$；全incoming范数零仍留下outward的原G边界。下一须真正证明该source的flat/primitive，不能由Fricke或全Hecke标量省略。
 

@@ -332,3 +332,118 @@ $$
 按规则15只登记脚本、输入、run和hash，不在仓库保存可重算前缀或结果文件。stdout为1239B，SHA256为b74f221e90348e596670facaa5d0f0e868ee0e7c4351565d8ed477725ee8019f；两个完整前缀hash由同一run现场报告。
 
 实际job日志读取为10040B，SHA256 4cdeb95d353a5131ad33e76ea7f5fe624d6c44c42cd41cd1495b54e5f4b7ef5d，未落库。
+
+## 7. 原通常剔除正整数序列的固定张量倍率与非连续性
+
+本节的对象是原实际 fixed-base、完整十八图/finite word、通常 $p$-depletion、未除幂 raising 所定义的正整数序列。它不先把该序列称为已经连续的 $\flat$ 读者。所有 fixed CM 微分与 level 比较保留；尤其不令 $\Omega_\Gamma=1$ 或宣称它为单位。
+
+### 7.1. 同一完整 raised 张量的固定基比较
+
+在固定 CM 点取代数微分 $\omega_0$ 和代数余切基 $e_0$。用实际 CM splitting 作完第 $n$ 次普通 Gauss--Manin/Maass--Shimura raising 后，得到的同一张量属于
+$$
+\mathscr W_n=\omega^{\otimes3}\otimes(\Omega^1)^{\otimes n}.
+\tag{Q1}
+$$
+这里没有除以 $n!$。设另一套实际基为
+$\omega_* =a_p\omega_0$、$e_*=b_p e_0$，其中
+$a_p,b_p\in\mathbf C_p^\times$ 固定。若
+$v_n=t_n\omega_0^3e_0^n=t_n^*\omega_*^3e_*^n$，则准确有
+$$
+t_n^*=a_p^{-3}b_p^{-n}t_n.
+\tag{Q2}
+$$
+这是对已经完成的同一张量换基，不是先把一个非恒定函数移过连接、再迭代新算子；因此没有遗漏换基函数的导数项。
+
+实际 KS、两个固定 level 的余切比较以及同一个 CM period 的比较，都是固定点上的线丛同构。逐次张量后各自只添一个固定非零标量的 $n$ 次幂。无穷嵌入和 $p$ 进嵌入均先比较同一代数 raised 张量，不能把复数 $\Omega_0/\pi$ 直接嵌入 $\mathbf C_p$。当前来源的 finite Haar、完整 projector 和 raw 幅度均已固定；没有另按权除 raised-vector 范数或 Whittaker Gamma。
+
+因此，针对当前明定的未除幂正整数序列，任何仅由这些真实固定张量基构成的比较必为
+$$
+q_{p,n}=q_{p,4}\,Q_p^{\,n-4},
+\qquad q_{p,4},Q_p\ne0,
+\quad n\equiv4\pmod6.
+\tag{Q3}
+$$
+$Q_p$ 保留全部实际 KS 与 level 比较值，不对其估值作断言。
+
+原 full $p^2$ orbit 的这一归约不增加隐含随权和：新 cross §7.2 已逐项保留代表 $\alpha_D$ 的微分运输，原 $\alpha_D^{-(3+2n)}$ 与其 weight-$3+2n$ transport 准确相消；§6 的完整 usual-depleted Euler 和是
+$$
+E_p=p(p+1)(1-p^{-2}),
+\tag{Q4}
+$$
+与 $n$ 无关且非零。degree17 的 $17^n$ 已在实际 $\mathcal T_k(n)$ 中支付。故 (Q3) 适用于这个完整 usual-depleted 正整数对象；它尚未把任何 $\flat$ 投影认作该对象。
+
+### 7.2. 7.19 与 7.22 的 determinant 费用
+
+对 $g_2=\operatorname{diag}(1,p)$，Kriz (7.13) 给
+$g_2^*\omega_{\rm can}=p\omega_{\rm can}$ 及
+$g_2^*dz_{\rm dR}=p\,dz_{\rm dR}$。因此 (Q1) 的实际张量基倍率是
+$$
+g_2^*(\omega_{\rm can}^3(dz_{\rm dR})^n)
+=p^{3+n}\omega_{\rm can}^3(dz_{\rm dR})^n.
+\tag{Q5}
+$$
+这就是 Definition7.19 使用的基与倍率。
+
+可用 determinant 线精确记账。令
+$\mathscr D=\det H^1_{\rm dR}$；保持同源等变性的 KS 写为
+$\Omega^1\simeq\omega^2\otimes\mathscr D^{-1}$。于是
+$$
+\mathscr W_n
+ \simeq\omega^{3+2n}\otimes\mathscr D^{-n}.
+\tag{Q6}
+$$
+degree-$p$ pullback 在 $\mathscr D$ 上的倍率为 $p$，所以右边的倍率仍为
+$p^{3+2n}p^{-n}=p^{3+n}$。中心 $pI$ 的微分倍率为 $p$、determinant 倍率为 $p^2$，而 $dz_{\rm dR}$ 不变，也给相同核对。书中紧接 (7.14) 的脚注明确要求这个 $\det^{-1}$ 扭曲。
+
+Proposition7.22 显示 $p^{3+2n}$，其证明使用未显示 determinant 因子的 $\omega_{\rm can}^{3+2n}$ 基。若把它作为一个另行 re-trivialized、untwisted weight-line 数列的定义，则与 (Q5) 相差的正是 $p^n$ 型固定幂费用。当前审计未取得把这两套 Hecke 线性化认作同一个 $F_n'$ 的额外 KS 识别，因此不把 $p^{3+2n}$ 当作已经独立审定的原 (Q1) 倍率，也不以任意“隐藏 determinant”替作者补证。
+
+这个区别不影响 (Q3)：保 determinant 的实际比较和字面使用 (7.22) 定义的另一正整数序列，都只把 $Q_p$ 换成另一个固定底数。它不能改变任何阶乘。这里不宣称该书的完整定理为假。
+
+### 7.3. 原 Hermite 两阶乘在代数规范下仍全部存在
+
+原完整正常排序核确给 $n!(n+2)!$，不是单一阶乘。用同一代数 CM 张量实现其 archimedean 比较后，存在固定非零底数 $\xi$，使
+$$
+c_n=\frac{n!(n+2)!}{4!\,6!}\,\xi^{\,n-4}.
+\tag{Q7}
+$$
+理由是原审计(1)已经给出 archimedean 的固定幂比，而从该实现到 (Q1) 的代数实现正是 (Q2) 的同一次张量比较。后者只改变底数，不添加或删除 Gamma 因子。
+
+(Q7)不要求为一个复周期任意选择 $p$ 进像。也可完全从实际代数值锁住所需底数：$\mathcal T_k(n)$、$B_k$ 与原 Taylor 系数均按原定义代数；$n=4$ 及本次 $n_*=51526$ 的 canonical 值都非零。因此 (Q7)在复实现中的 $\xi^{51522}$ 是一个非零代数数，故 $\xi$ 本身代数；沿原固定嵌入取其像即可。更换允许的有限根只改固定底数，不改下述结论。这个论证用的是已付同一张量比较，不能用于一个另按 $n$ 任意重归一的来源。
+
+### 7.4. 固定 $p=227$ 已排除这个 literal 序列的连续延拓
+
+令
+$$
+n=(p^2-1)u-2,\qquad r=(p-1)u.
+$$
+保原 common $B_k$、Gaussian 和 degree102/34 的整数 Newton 回卷，将
+(Q3)、(Q7)代回原正权值，得到
+$$
+L^{\rm lit}_{k,p}(u)
+=K_{k,p}\mathfrak q_p^u
+ \frac{\left(((p^2-1)u)!/((p-1)u)!\right)^2}
+      {(p^2-1)u-1}\;
+ R_{k,p}((p-1)u),
+\quad u\in\mathbf Z_{>0},
+\tag{Q8}
+$$
+其中 $K_{k,p},\mathfrak q_p\ne0$ 固定；$R_{k,p}$ 是原已证明连续的完整 Newton 函数。全部 period、KS、determinant、$E_p$ 和其它固定尺度都在这两个常数内，没有删除一项低卷积。
+
+原公开 run46073583710/job140756005342 已精确证明
+$$
+[z^{51526}]D_-\ne0,\qquad [z^{51528}]S\ne0,
+\qquad R_{{\rm can},227}(226)\ne0.
+\tag{Q9}
+$$
+固定辅助模数65537的真实回执只证明两系数在特征零非零，不宣称227单位；不在此复制可重算结果表。源提交38d4107ce0fa11b0fdf5c99a6df6596d6c3c32f5，全部 source、完整两指数及椭圆整窗身份保留。详细回执见原审计§6。
+
+对 $p=227$，若 (Q8)的 literal 数列有连续延拓到 $\mathbf Z_p$，则原审计§2的数字分块引理应用于
+$R(u)=R_{{\rm can},227}(226u)$，将迫 $R=0$，与 (Q9)矛盾。因此：
+
+**由当前完整正整数来源、通常 depletion、未除幂 raising 及固定张量规范组成的 literal 数列，不存在连续延拓。**
+
+这已经不是“参考端点或许为零”的条件问题。它要求实际 $\flat$ 族与该 literal 数列之间另有尚未支付的算子/定义域/规范变化；不能再将二者无条件认同。若以后引入非固定幂的权归一，必须从原算子证明它并重新核对其实际 proper-fp 端点，不能为消数字障碍而补入一个无来源的 Gamma 因子。
+
+本节保留原全部 positive-weight、proper 图与纯 Newton 结论。它不由一个已显示的接合不相容断言 Kriz 定理本身为假，也不据此生成原 canonical 新零行。
+
+**依据。** 原审计§§1–6；原 psi4 full-graphs cross §§3、6、7.2（这里只用独立正整数身份）；Kriz专著 (7.13)、Definition7.19及其脚注、Proposition7.22。书页转录：https://dokumen.pub/supersingular-p-adic-l-functions-maass-shimura-operators-and-waldspurger-formulas-ams-212-9780691225739.html

@@ -459,3 +459,8 @@ $$
 ### 完整球面Hecke的整边际零与非零K/Y（2026-11-27）
 
 [原Y/K完整球面Hecke§16](2026-11-27-original-y-k-rational-unitary-and-precise-p-level-words.md)：全部 $p(p+1)$ 格逐支计数给 $\mathcal H_p(B_0\otimes B_0)=p^2B_1\otimes B_1+(p-1)B_0\otimes B_0+B_{-1}\otimes B_{-1}$。保同一自然/标准交织、正负division/Haar、完整六输出及物理Y-unit后，真实返回为 $\nu_{\mathcal H_p}^{\times}=(p-1)\nu^\times+\beta^{-1}(D_{K,\kappa^{-1}})_*\nu^\times$。因此有限字 $\mathcal Z_p=\mathcal H_p-(p-1+\beta^{-1})$ 的整个不读K边际恒零，而同一 $K/Y$ 读数严格为 $\beta^{-1}(\kappa^{-1}-1)(10\delta/7)\Omega I_{D,p}\ne0$，用原R1046同一固定非挠点。该实际反例排除“完整Y边际加这个球面Hecke就迫K/Y零”的替代；不排另有真实读K的来源关系，也不声称原坏中央实际存在。
+
+
+### 当前usual正整数序列的非连续性已落实（2026-11-27）
+
+[连续性审计§7](2026-11-27-original-psi4-common-factor-digit-and-continuity-audit.md)现锁定同一已完成的未除幂 raised 张量 $\omega^3\otimes(\Omega^1)^n$：固定CM基/KS/level比较只有 $q_{p,n}=q_{p,4}Q_p^{n-4}$，完整两Hermite仍为 $c_n=n!(n+2)!\xi^{n-4}/(4!6!)$。真实Hecke等变KS保 $\det H_{\rm dR}^{-n}$，7.19的实际基乘 $p^{3+n}$；书7.22的 $p^{3+2n}$ 尚缺同一线性化比较，但任何这种固定幂都不修digit障碍。由实际 $R_{{\rm can},227}(226)\ne0$，当前明定的 full18图/通常depletion/未除幂正整数序列**不存在连续延拓到 $\mathbf Z_{227}$**。这是本题literal数列的严格结论，不把它与真实flat族无条件相认，也不据此称书定理假。后继须真正给不同算子或权归一并重证proper端点，参考非零或period单位不能补此门。
