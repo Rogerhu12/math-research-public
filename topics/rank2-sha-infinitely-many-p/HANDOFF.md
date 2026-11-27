@@ -6,13 +6,13 @@
 
 固定一条 E/Q，完整证明 rank≥2 且无穷不同 p 的通常全 Sha[p∞] 有限。固定有限曲线族的联合无穷非零可用无限鸽巢；有限 p、随 p 换曲线、接口或孤立投影不完成。
 
-- 两库部分克隆已做。公开根/课题README实际pull --rebase已读至1cf10ac7283dc40958604f5f981f1be0e477af80（07:12UTC），两README无差异；blob分别282e86b03385d3b6245ce7100ae2e2af7b103c2d / 2f3b3c9264fbba8189f85716e68f768830e921bc。
+- 两库部分克隆已做。公开既有只读CI于11:42:03UTC真实pull --rebase成功至689da8018766103f2cba0ca6620801c01d81cbbf（run45992595370/job140483924801），相对07:12本地pull的1cf10ac两README无差异；已读blob282e86b03385d3b6245ce7100ae2e2af7b103c2d / 2f3b3c9264fbba8189f85716e68f768830e921bc。CI与本地checkout分开记账。
 - 私库QUEUE认领41fe885610073f478b2f5a752461ca56cfd43f09已推。最近实际pull06:47UTC至6139de54ac72f1c7af0508b88ce03efdbf0a5690，两README无变；blob分别5ba164843b1f5802184178a82d786264404873a3 / 452d0127a4c3879807d70550d3eafd46c8fac642。
-- 07:20执行环境失联；11:32:20两库actual pull仍各为No usable execution environment。10:58:59 API公开f6438625c06dda786cb9117b9004d84cf3184f25/私库a6ed8db38d42aee73a8847fb1ff48e53cb015e76四README同上述blob，QUEUE仍本会话进行中。本次触发仓库既有只读CI actual pull入口，实际回执待；其runner与本地checkout分别记账。API不冒充pull，本地恢复立即补。
+- 07:20本地执行环境失联；11:32:20两库actual pull重试仍不可用。10:58:59 API私库a6ed8db38d42aee73a8847fb1ff48e53cb015e76两README无变，QUEUE仍本会话进行中。API不冒充pull，本地恢复立即补；公开现复用既有CI实际pull。
 
 - 至少每小时重试同步，每次pull后只读新README差异并立刻执行，记实际读过SHA；断连沿最新main API非force快进，每次检查README及本topic外部变动。10:48ref失败已立即实际pull重试、重比新父后成功；不强推。
 - root独占git/H/open/log/index；每条结论立即推，拒绝时pull --rebase后重试至成功。令牌只命令行/进程，不进文件/提交/API。数学执行只在公开Actions；根规则15禁止存可重算输出或日志数据。H<10KB，每MD<100KB。
-- 本次整理前的[完整交接](notes/2026-11-27-handoff-before-dual-four-cover.md)逐字保原历史，向前链接所有旧归档；[open归档](notes/2026-11-27-open-before-prym-inert-infinitude.md)、[results](results.md)、[R1001–1050索引](notes/PROOF-INDEX-R1001-R1050.md)保完整参数/门/失败/回执，不重做已登记结论。
+- 本次整理前的[完整交接](notes/2026-11-27-handoff-before-five-companion-factorization.md)逐字保原历史，向前链接所有旧归档；[open归档](notes/2026-11-27-open-before-prym-inert-infinitude.md)、[results](results.md)、[R1001–1050索引](notes/PROOF-INDEX-R1001-R1050.md)保完整参数/门/失败/回执，不重做已登记结论。
 
 ## 一、唯一原厚几何作业
 
@@ -26,11 +26,7 @@ R959/R970–983固定E65/E65³/E260/E54925/E8125的rank≥2、全有限角色/�
 
 R1016–1034原平坦迹、whole39/13字/Miller/CM36 Hermite/第一primitive与曲率全保；−61(p+1)log(π/barπ)/18480及R1025组合为单位，仍须同一canonical坏条件迫同原读者深零。R1021§§16–18的w=χα(2P)、两frame/M̂B=M、全4+5 Cartier槽/同一c/两invariant标量及R1034真实Q†费用已付；精确全部公式在前交接/原文。原三物理像rank不能相加；source C²顺序和所有高低费用不删。
 
-R1037完整378谱run45973650826/job140419911466/source22ac87ec033d658aa19b32d417c493f5748aa122已实付：334全fibers、390原输入hash、三64列和2/δ/7幂等回乘齐，30非零块/90零标签。唯一质量零线(A5,C4,H2)rank1、δ-new9/dyadic−/7new；全向量/A/B/diff/hash见§9。29其它块及B12费用保，不重算旧谱。
-
-R1038的E3969:Y²=X³+3969，完整α1/7有限Schwartz/Haar/Gaussian、63三次逆扭/全导子47628、primitive/ray972、原126/378全finite匹配及普通/惰性通常全Sha桥已付。§14真圆盘/全尾给J′126,5≡5/3 mod25，通常Selmer上界2；故E3969精确rank2、Sha[5∞]有限，不说群零或无穷p。
-
-原126实时run45977711940/job140433521280/source311f91e77e8071abc6f55d889e8880931634600d已完整返回：22列/64回乘、P126 degree20/monic/den91、全部因子/角阶/cubic degree61。真实六sigma为σ7·σπ13·σbarπ13·σ3δ·σ2δ²/(−3276δ)，不得只按20/63改善旧62/195。必要全式见[原126](notes/2026-11-27-e3969-original-degree126-live-return.md)。
+R1037完整378谱run45973650826/job140419911466已全返，30非零块/90零标签、334fibers/390coords和全回乘齐；唯一质量零线rank1为δ-new9/dyadic−/7new。R1038将此线完整识别固定E3969（导子47628）的α1/7 finite/Schwartz/Haar/Gaussian，普通与惰性通常全Sha桥皆付；§14的真实圆盘/全尾给J′126,5≡5/3 mod25，故精确rank2且Sha[5∞]有限，不说群零/无穷p。原126全run45977711940/job140433521280的22列/64回乘、degree20/全部因子角阶/cubic61齐。完整run/source/hash/必要坐标在R1037–38及[原126笔记](notes/2026-11-27-e3969-original-degree126-live-return.md)，不重跑。
 
 R1040原六轴Gram=(126,3,6,51,2,2142)、det−12852δ，C=H与F=J全纤维B3⊗Θ给DE5单项返回；D5、3E30各保χ65/χ10 whole核。三支carry保Y/K/L/M并回39δuD^nJ126,17；§8准确分离K主型σ6(X−2b)，真实(Y,L,M)三变量源(45)保所有mixed。合法顺序先carry忘C/F，再K因子；H/J平均不提前穿cut。norm17矩阵是真混合，未按51/2142范数贴canonical。§9整个Y/K/L/M δ-old为零（L目标17的原ε权必保）；只余联合字(Y,L,M)=(λ,λ,λ⁻¹)，λ=ω/ω²。M两个63全迹、S34六坐标/E17投影恒零；F0及两个δ-pull因子的完整module证明另核回。拟consumer未启动；转两个非平凡字与真mixed转置。
 
@@ -50,7 +46,7 @@ R1041原s0=0四字母盖精确H²=Q6(v)、全incidence及F²=−q；Pell U全Nor
 
 q11两原consumer均已完整成功：全Prym run45980566265/job140443090086（R零极20、N零极24、两有效类O）；指定半run45985515813/job140459993008/source239d3f42206392460b4c345ec85fbb547104c739（13厚闭点、两半12、AQ=−G阶16、[12]AQ=P≠0）。完整必要坐标/hash/原W号在两笔记§7/§9，不重算。R1041§§14–16由全halving与ψ2主除子得[4]AQ=−P，AQ+G∈EL(Fq)[4]；一般低维类已固定。新(66a)付全二分点Norm=t³(1−27t)。
 
-R1041§§17–19把原rΓ Abel和显式写为第二四度图Φ，特征零微分/基点先相认再约化；真分歧值±3R0。固定J=(H−A3)/(H+A3)的完整除子及Weil reciprocity给U⁴/(cU²f^d)=Φ*M·J^(q+1)，原第三类保dlogJ修正。两holomorphic线的Cartier及Q6四槽完全由a_q(EL)控制，ss时Pell的bq/cq亦定；未代最高λ/27或无穷目标p。 后继保原标记交函数、eta/Cor全权和最高λ，不能以固定低维P或辅助q无穷替最终p量词。
+R1041§§17–19把原rΓ Abel和显式写为第二四度图Φ，特征零微分/基点先相认再约化；真分歧值±3R0。固定J=(H−A3)/(H+A3)的完整除子及Weil reciprocity给U⁴/(cU²f^d)=Φ*M·J^(q+1)，原第三类保dlogJ修正。两holomorphic线的Cartier及Q6四槽完全由a_q(EL)控制，ss时Pell的bq/cq亦定；未代最高λ/27或无穷目标p。 §20把原U与ψ2的两个共享边界首项、全部坏纤维及闭点Norm逐个带入Weil reciprocity，得U(E+)²⁴∈Fq*，因此p≥5、p|q+1时无权半交值是p次幂。原27逐CM有权值不由此消去，转其真函数/eta/Cor与最高λ。
 
 ## 四、其它未闭门与分工
 

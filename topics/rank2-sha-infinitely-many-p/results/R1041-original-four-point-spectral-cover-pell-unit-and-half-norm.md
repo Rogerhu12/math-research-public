@@ -1311,3 +1311,166 @@ $$
 (78)–(79)所含的固定修正与原有限 eta/Cor 权
 仍须在原标记交函数上一起消费。
 
+
+## 20. 原 Pell 与真实二倍点函数的完整 tame reciprocity
+
+取 §§4、6 的同一个 q、U、Q、$E_+$，仍写
+$n=q+1$、$d=n/3$、$c=c_U$，
+并令
+$$
+ S=\psi_2(Z)\in\mathbf F_{q^2}(\mathcal C_4)^\times
+$$
+为(62)–(66)的原函数。
+对定义于 $\mathbf F_{q^2}$、避开函数零极的有效除子，
+以下的函数评价都取完整的闭点域 Norm 和原重数。
+
+在 $I_\pm$ 都选原局部参数 $\rho=1/v$，定义实际首项
+$$
+ \begin{array}{ll}
+ U=u_+\rho^n(1+O(\rho)),&
+ S=s_+\rho^3(1+O(\rho))\quad\text{于 }I_+,\\
+ U=u_-\rho^{-n}(1+O(\rho)),&
+ S=s_-\rho(1+O(\rho))\quad\text{于 }I_- .
+ \end{array}
+\tag{83}
+$$
+这里 $u_\pm\in\mathbf F_q^\times$、
+$s_\pm\in\mathbf F_{q^2}^\times$，且
+$u_+u_-=c$。
+S 的阶3、1正是(65)逐个 Tate 支支付的值。
+它们不能在 Weil reciprocity 中当成普通非零点值。
+
+令
+$$
+ A_T=U(-1,9)\,U(1,-1)\in\mathbf F_q^\times.
+\tag{84}
+$$
+这是 T 上除去二重分歧点 $I_+$ 后的两个实际支。
+超椭圆反演及 $U\jmath_4U=c$
+使 $-T$ 上另外两个支的 U 值乘积为 $c^2/A_T$。
+在 $O_B$ 的完整四支上，
+U 的乘积则由(21)为 $c^2$。
+
+采用 tame symbol
+$$
+ (U,S)_P=(-1)^{\operatorname{ord}_P U\,\operatorname{ord}_P S}
+       \left(\frac{U^{\operatorname{ord}_P S}}
+                   {S^{\operatorname{ord}_P U}}\right)(P).
+$$
+两个共享边界的符号分别为 $(-1)^{3n}$ 和 $(-1)^{-n}$，
+总符号为1。它们的完整首项贡献为
+$$
+ \frac{u_+^3}{s_+^n}\,u_-s_-^n
+       =c\,u_+^2\left(\frac{s_-}{s_+}\right)^n.
+$$
+其余点上 U 的阶为0。
+将(66)中所有好交、T 的两个剩余支、$-T$ 的两个剩余支、
+以及 $O_B$ 的四支都保留，Weil reciprocity 正好给
+$$
+ \frac{\operatorname{Nm}_{\mathcal C_4/B}(U)(D_+)}
+           {U(E_+)^4}
+       A_T^2c^{-4}
+  =\frac1{c\,u_+^2}\left(\frac{s_+}{s_-}\right)^n.
+$$
+亦即准确的函数值恒等式
+$$
+ \boxed{
+ U(E_+)^4
+ =\operatorname{Nm}_{\mathcal C_4/B}(U)(D_+)
+     \frac{A_T^2u_+^2}{c^3}
+     \left(\frac{s_-}{s_+}\right)^{q+1}.
+ }
+\tag{85}
+$$
+没有删除共享边界，也没有把二次常数域中的首项当作
+$\mathbf F_q$ 值。
+最后一项是实际 $\mathbf F_{q^2}/\mathbf F_q$ Norm，
+所以属于 $\mathbf F_q^\times$。
+由(21)，(85)立刻给
+$$
+ \boxed{
+ U(E_+)^4\equiv f(D_+)^d
+ \pmod{\mathbf F_q^\times},\qquad f=Y/(Y+1).
+ }
+\tag{86}
+$$
+这个同余在乘法群
+$\mathbf F_{q^2}^\times/\mathbf F_q^\times$ 中解释。
+它保留的是原指定半交的函数评价，非此前完整 Norm 的 Picard 类。
+
+还可不增加任何未知输入地确定(86)右边的有限阶。
+原 Weierstrass 方程是
+$$
+ y_Q(y_Q+x_Q+t)=x_Q^3.
+$$
+在每个有限好纤维，$y=0$ 是原 $P_3$ 的三重切线，
+而原 $D_+$ 是 Q 与 $P_3$ 的交。
+R1027§8 的端点给
+$$
+ y_Q(T)=\frac{3+\alpha\delta}{18},\qquad
+ y_Q(-T)=\frac1{27},\qquad \alpha\in\{1,-1\}.
+$$
+二者都非零。
+在 canonical fiber，Q 不等于原三挠点，
+因此原 $y_Q$ 坐标有恰三阶极。
+在其余极点 D 上也按交重数恰有三倍极阶。
+于是得到完整除子等式
+$$
+ \boxed{\operatorname{div}_B(y_Q)=3D_+-3D-3O_B.}
+\tag{87}
+$$
+没有额外坏纤维零极。
+
+将(87)与
+$\operatorname{div}(f)=3[T]-3[-T]$ 作 Weil reciprocity，
+在 $O_B$ 处使用 $f(O_B)=1$，得
+$$
+ \boxed{
+ \left(\frac{f(D_+)}{f(D)}\right)^3
+ =\left(\frac32(3+\alpha\delta)\right)^3 .
+ }
+\tag{88}
+$$
+这里 $D$ 定义于 $\mathbf F_q$，故 $f(D)\in\mathbf F_q^\times$；
+$D_+$ 定义于 $\mathbf F_{q^2}$，故 $f(D_+)$ 在该二次域中。
+允许的三次单位并未在(88)中被任意选定。
+若记 $r_\alpha=\frac32(3+\alpha\delta)$，则
+$$
+ r_+=-3\delta\omega,\qquad r_-=3\delta\omega^2,\qquad
+ r_\alpha^6=-3^9.
+$$
+因此(88)严格推出
+$$
+ f(D_+)^6=-3^9 f(D)^6\in\mathbf F_q^\times.
+\tag{89}
+$$
+结合(86)，最终有
+$$
+ \boxed{
+ U(E_+)^{24}\in\mathbf F_q^\times .
+ }
+\tag{90}
+$$
+这是原无权 Pell–二倍点 reciprocity 的完整剩余量，
+并非从(69)的 Picard 等式猜出来。
+
+特别，设 $p\ge5$ 且 $p\mid q+1$。
+此时 $(p,q-1)=1$，故 $\mathbf F_q^\times$
+中的每个元素都是 $\mathbf F_{q^2}^\times$ 中的 p 次幂；
+又 $(p,24)=1$。由(90)，准确得到
+$$
+ \boxed{
+ U(E_+)\in(\mathbf F_{q^2}^\times)^p .
+ }
+\tag{91}
+$$
+所以这一**无权、完整半交**的 Pell 乘法 pairing
+不能给目标 p 的非零检测。
+边界的2、3部分没有在(85)中提前丢掉；
+它们直到(90)后才被有条件地消去。
+
+(85)–(91)没有断言原27对的逐 CM 标记值为 p 次幂，
+也没有将 $\eta_j$ 或 $\operatorname{Cor}_{L/H}$ 改成无权积。
+一般的有权交不是这里整个 $E_+$ 的评价。
+后继必须在各个真实 CM 标记处保函数、对应及其系数，
+不能将这个已经关闭的无权 pairing 当成原最高 $\lambda$ 的值。
