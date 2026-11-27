@@ -6,7 +6,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-entire-K7-rational-parameter-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-h1-global-monic-six-finite-points-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -200,11 +200,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 原 rho 二次头零（包含例外有序权图）已全闭，仅旧物理D≠0图付 Aρ，不传碰撞D0；旧主 C87/55/C71/29 不再处理。原四头共同十权已闭，使四个非零头图覆盖；第一头零仍是整 H1 曲线，其它头图/H0/个别NP继续。一般首头原P6度39/20/6、P9度73/41/9及λ头H19/11原必要身份保快照，不将必要式互素或有限图当作排空。
 
-[原极点九整域现全闭、余804权对](results/R150-appendix-unit211-Phi-zero-H1-six-nonlinear-poles-complete-exclusion-and-804-cover.md)：三个一次整线后，877e首次7.029657647秒/0在六个完整有限自由模型返回原H乘法单位，所有C55零纤维均排空。当前必要条件为
-$$
-P_{201}(u)=0,\qquad g(u,Q)=0,\qquad \#(u,Q)\le804 .
-$$
-[新v原多项式与固定范数接口](results/R150-appendix-unit211-Phi-zero-H1-polynomial-v-source-and-fixed-original-norm-interface.md)的四原尺度、六无h逆乘法及F6/NV同点列已返。[新三头整个零支](results/R150-appendix-unit211-Phi-zero-H1-new-three-head-zero-complete-original-exclusion.md)由e3cf真0.487842716秒及已刊十权定理合成关闭：残norm41的五条旧线、九次实际Q一次/54维原单位和十次完整QQ一次gcd全部覆盖。只允许原解图使用h逆，F9的其它Q根及整u纤维未被误删，804不变。[原首范数精确3179](results/R150-appendix-unit211-Phi-zero-H1-original-norm-exact-degree-3179-at-infinity.md)由e18d真3.420099509秒的∞完整rank1+3付929+2250，两首项259/814乘积954是mod单位；旧417差额由赋权411与真实小块消阶6完全支付。另两范数QQ上界5764/6092、mod5131/5407，保度仍开，mod共同2773不直接缩QQ覆盖。新74b首次120秒/1GiB由四原齐次式直接取六个λ6头，再以完整Q4 adj/norm和QQ Bézout给真实共同头C，全部C零支保留；P201系数、原λ/T/z/个别NP、其它Phi和b0的316继续；旧门冻结。
+[原极点九整域全闭](results/R150-appendix-unit211-Phi-zero-H1-six-nonlinear-poles-complete-exclusion-and-804-cover.md)，当前仍有 $P_{201}(u)=g(u,Q)=0$、不同权对≤804。[原v接口](results/R150-appendix-unit211-Phi-zero-H1-polynomial-v-source-and-fixed-original-norm-interface.md)保全部原尺度及F6/NV同点列；[原三头h零全闭](results/R150-appendix-unit211-Phi-zero-H1-new-three-head-zero-complete-original-exclusion.md)由九次54维原单位与旧十权一次gcd支付，只在剩余原解图倒h。[首范数QQ精确3179](results/R150-appendix-unit211-Phi-zero-H1-original-norm-exact-degree-3179-at-infinity.md)付929+2250、mod首项954；另两QQ上界5764/6092及mod5131/5407、共同2773不缩804。[全局原首一六次与有限规范点](results/R150-appendix-unit211-Phi-zero-H1-global-original-monic-six-and-finite-normalized-points.md)：74b真0.998030146秒/49952KiB/0，六cofactor首项经完整Q4 adj/norm和QQ Bézout给C95，全部QQ因子都已闭。首一λ6与1,T,v三生成付每权长≤18、五坐标不同点≤14472；完整Gram及HA/HB唯一恢复，只有rho二根，完整规范不同点≤28944，不宣全球scheme长。续完整p整模型中的同点原理想、P201系数、其它Phi/个别NP及b0的316，旧门冻结。
 
 ### R271：更多有限联合源已成，同W实际费用未成
 
@@ -224,4 +220,4 @@ $$
 
 [六位一对等权加四独立权原S1](notes/2026-11-28-one-pair-four-independent-original-s1-8542.md)的完整源9=6+3、低源5=4+1与三塔恒等式保留。修复13c594真run46073861936为6.550871417秒/121804KiB/0：首minor分子度28、24921项、944负系数；分母度26、17290项，纯Z正项23。准确INCONCLUSIVE，后五不算，不是S1反例。该系数非负配方冻结，换平方分组/同源结构；S1/S2、七位glue和同W费用仍开。首77aae仅JSON类型故障保准确回执。
 
-[整K7双向原参数及rho恢复](results/R150-appendix-unit211-W-entire-K7-rational-parameter-and-original-rho-cover.md)：V8 BigInt17ms完整40身份，把K7等价为theta²=(k+12)²−96，m=(theta+k+12)/4、m^-1=(k+12−theta)/24，逆向仅原k/k4分母，判别式零与两分支俱保。k=2A/m、e=C/(6A)，全部原单位准确拉回；sigma=rho/(m−3)、m=4/(1+3sigma²)还覆盖整rho二次扩张。m0/∞无当前有限原点，A/B零只是原k/k4零。未排K空，下一新QQ(m)原六列及多项式cofactor gcd仍须保所有临时主元零和个别原值。
+[整K7双向原参数及rho恢复](results/R150-appendix-unit211-W-entire-K7-rational-parameter-and-original-rho-cover.md)：V8 BigInt17ms完整40身份，把K7等价为theta²=(k+12)²−96，m=(theta+k+12)/4、m^-1=(k+12−theta)/24，逆向仅原k/k4分母，判别式零与两分支俱保。k=2A/m、e=C/(6A)，全部原单位准确拉回；sigma=rho/(m−3)、m=4/(1+3sigma²)还覆盖整rho二次扩张。m0/∞无当前有限原点，A/B零只是原k/k4零。未排K空。新85bc源首次180秒/4GiB在代入整m参数后重建原六规则/18乘法；QQ(m)只选行，最终QQ[m]余子式及Bézout真返六原式，保所有临时主元零；同源个别原值继续。
