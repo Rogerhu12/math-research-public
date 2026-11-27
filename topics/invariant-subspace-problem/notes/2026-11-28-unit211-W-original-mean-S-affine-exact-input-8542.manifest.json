@@ -1,0 +1,45 @@
+{
+  "schema": "isp-exact-parameter-chunks-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "label": "new_original_mean_S_affine",
+  "encoding": "zlib+base64",
+  "rawEncoding": "UTF-8 JSON",
+  "rawBytes": 302638,
+  "rawSHA256": "30e1b058a80832f0bb5ba38f6710ebbd3912b70f30e6ca5fc34714954ed4b994",
+  "base64Characters": 145976,
+  "base64SHA256": "2543eab61f3d03314f2df0aceb6d895b8067ca5d270e582db6c610010aa91f7f",
+  "sourceGitBlob": "99fc964b480d0c7b027332aaafa42b53dba8fa3d",
+  "sourceSHA256": "ca409fe4764f651948d24a5584abe6c032913c2923e8fe3e35972b3261a0ca5b",
+  "actualRun": 46055997559,
+  "actualJob": 140698513383,
+  "variables": [
+    "e",
+    "k",
+    "lambda"
+  ],
+  "components": [
+    "L0",
+    "L1"
+  ],
+  "scope": "whole current W; retain L1=0 together with L0=0 and every original row",
+  "allUnpaidParameterAndGeometryLeadingZeroFibersRetained": true,
+  "maximumDataChunkCharacters": 75000,
+  "chunks": [
+    {
+      "path": "notes/2026-11-28-unit211-W-original-mean-S-affine-exact-input-8542.part-01.json",
+      "sha256": "b4d578fce1dbe509d78b5d840e5e95b53b6fa15c871286062dd00e2f6183cc42",
+      "bytes": 75169,
+      "index": 0,
+      "dataCharacters": 75000
+    },
+    {
+      "path": "notes/2026-11-28-unit211-W-original-mean-S-affine-exact-input-8542.part-02.json",
+      "sha256": "93650f854f3c69afaeb2e692a1bfb0a61605c5ce3b8a1a2fee19afb9d98d1a50",
+      "bytes": 71145,
+      "index": 1,
+      "dataCharacters": 70976
+    }
+  ],
+  "actualDecodeRawLengthSHA256AndJSONVerified": true,
+  "largeResultantExpansionsNotPartOfThisSmallInput": true
+}
