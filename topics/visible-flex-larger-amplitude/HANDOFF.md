@@ -4,7 +4,7 @@
 
 ## 规则和全部历史
 
-root最后真实pull/rebase：`eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21 UTC执行环境失联，恢复即真拉取。云核至`ce4b30ff054ce0346c48bc99d9745e4ad76387c2`（非pull），双README SHA `581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102` / `3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d`无变。每次真实pull后核差异、至少每小时一次；活10每次pull记末块。私库QUEUE进行中已推`e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`。
+root最后真实pull/rebase：`eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21 UTC执行环境失联，恢复即真拉取。云核至`70d40e52d1b73dfbd0457d3428a5a8cd4227250f`（非pull），双README SHA `581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102` / `3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d`无变。每次真实pull后核差异、至少每小时一次；活10每次pull记末块。私库QUEUE进行中已推`e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`。
 
 科学只本公开仓库Actions；root唯一ref写者，完整结论即普通推；不强推，NFF真终端立即rebase循环。无终端时云普通HEAD保全合并，不冒pull。raw仅runner/scratch，不入Git/Release/artifact、不改名输入；保存完整源、全参数、run/hash。题≤200MB、文件<5MB、MD<100KB、H<10KB、open<30KB；先metadata，不整读≥100KB。令牌仅瞬时CLI。根12禁止独立审核/冻结/AST/fixture/重跑等新门，实际全数学与原完成条件不减。
 
@@ -28,11 +28,11 @@ root最后真实pull/rebase：`eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21
 
 [原完整输入](notes/2026-11-27-same-run10-fixed-reference-cross-runner-reconstruction.md)及[prepared七upper/完整构造/两全参数](notes/2026-11-27-same-run10-complete-solver-prepared-and-run11-input-failure.md)全存：99角色保原90、原20121B科学后缀；实际没有同g重建、新场/费或完整父。守卫不松、不把160个旧数值输出改名参数，不默认重试旧90。原11尝试queue保，不当活任务。
 
-## 新固定主线：R717唯一Fejér输入，12已提交待实际返回
+## 新固定主线：12完整输入已返，Fejér科学实际运行
 
 [R717完整证明](results/R717-fixed-fejer-seven-mode-chart-and-whole-image-bounds.md)：B=1/4、n=7预定有理Fejér曲率；七系数逐项RN-even64后作为**准确dyadic目标**，8…160为+0。理想有理图另付舍入差，ρ≥1/4−553·2^-53、完整Θ0严格单调/闭合/两反射及半转。初始X*=82967/60060、Y*=26399/60060只给设计尺度；当前157自由core改变后须重算，不能继承初始界。圈图和单cos不另开支线。
 
-[12完整启动](notes/2026-11-27-run12-predetermined-fejer-complete-input-launch.md)：run46011377225/1、job140547455454；maker89cc已真返0/5.893721086s，全四输出及来源齐；新math957cf0fc、NPZb9e12/node1e71/scalar2eb4。reference e717固定2218/7377观测/Gauss8/全height仍待返回。[九下层](notes/2026-11-27-fixed-fejer-immutable-normal-lower-family.md)与[完整八upper](notes/2026-11-27-fixed-fejer-complete-immutable-point-entry.md)全刊：110源、原20121B科学后缀、153/7argv、383/370摘要与48progress齐，原全部变量/32stage保。四step全字紧凑queue93745B，科学477499/pure274d已追加；finish=false保同runner续全费用。没有实际新场或费，控制器短H行保完整stage于索引/卷。
+[12完整启动](notes/2026-11-27-run12-predetermined-fejer-complete-input-launch.md)：run46011377225/1、job140547455454；maker89cc已真返0/5.893721086s，全四输出及来源齐；新math957cf0fc、NPZb9e12/node1e71/scalar2eb4。[两步真实返回](notes/2026-11-27-run12-actual-fixed-fejer-input-and-reference.md)：reference e717返0/430.2165345s；2218全尾accuracy=false，完整7377观测及H1.947054437068418，model ea64/fulltarget50df/chartaf8ab/ref212e/carrier8406/prepa35e。[九下层](notes/2026-11-27-fixed-fejer-immutable-normal-lower-family.md)与[完整八upper](notes/2026-11-27-fixed-fejer-complete-immutable-point-entry.md)全刊：110源、原20121B科学后缀、153/7argv、383/370摘要与48progress齐，原全部变量/32stage保。四step全字紧凑queue93745B，科学477499/pure274d已追加；finish=false保同runner续全费用。科学3已真启动，14:09:27点7e06/cached578、29640请求/返、failure0，不等于完整首场/接受步；纯读和费用待返。
 
 旧known P0/G/typed及原affine/发现序全部保provenance；新g/new mesh中literal参数若重新解释必须明列reinterpreted、不得称同s/physicalpoint或迁旧值。J同不能冒网格同。原未知末点不造空，也不为跨新g另设前置门。完整新证书从新g支付全域义务。
 
