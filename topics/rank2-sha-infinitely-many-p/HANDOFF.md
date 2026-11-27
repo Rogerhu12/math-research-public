@@ -6,7 +6,7 @@
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。固定有限曲线族联合无穷非零可用无限鸽巢；有限p、随p换曲线、条件桥、接口或单独投影非零不完成。
 
-- 公开根/课题 README 已读至 `04e4ec65d6b05748f9e5243dc253248fc324212a`（差异空）；每次pull只读新差异，至少每小时同步并记SHA。
+- 公开根/课题 README 已读至 `414b7662f8cddf8a06fb9aa5595cadd69e05ca3c`（差异空）；每次pull只读新差异，至少每小时同步并记SHA。
 - 两仓库已部分克隆。私库QUEUE接手提交41fe885610073f478b2f5a752461ca56cfd43f09已推；23:35UTC pull至632448c6964eb2ca42eaa0b8a74f55efe0c7404f，两README差异空、QUEUE仍本会话进行中。令牌只进程认证。
 - root独占git/H/open/log/index；每条结论即推，非快进立即pull --rebase/读README差异/再推至成功，不强推。数学只用公开Actions；不存可重算输出。H<10KB、每MD<100KB。
 - [此次完整逐字归档](notes/2026-11-27-handoff-before-two-exact-layers.md)及其历史链保全部旧式/回执/未解门；[open](open.md)、[results](results.md)、[R1001–1050索引](notes/PROOF-INDEX-R1001-R1050.md)及前卷为接续入口。
@@ -48,10 +48,10 @@ R988严格level12 K3双逆保持，但R990已证明其新CM17全图族在2处Cho
 - R991/R994：实际E27 level9/I9–I3（pg=q=1、T=Indψ27²），全3型/2和17 toric向量与54图已付；最高λ仍原角色。三个β27=ψ27η的level31212/root+1及L(1)>0真认证，新Rankin解析阶1。
 - R995：实际三同源F²=[−3]、F*Ω=−δΩ；generic CH0/KMP给[n]=n于t2，f†=−f。P_high=(1+f⊗[δ]*/3)/2严格自伴且降Q；全fiber-product/内外P/η保持。P+转置P−。
 - R998：Kato14.2(2)/CM§15.23及全部Shapiro使β(1)/βc(1)的full BK Hf为0；离散Sel每p有限、几乎全p零。原e_E+另一线正是βc(1)，故原f类全AJ=最高AJ，不创造全类非零。
-- R997：先π1(E)使原图严格同调零；唯一Coleman解Db″+D′b′−6b=−3/v²给AJ=−degφ·b/cφ。BDP3.14全部条件/full9下降/54图全trace/η和对偶均付；fΩ=−δf27(τ/3)、θ^-2含9，depletion循环系数1,−A_p/p²,1/p²。cyclic27条件失败，未套全球5.13。geometry续R1002 Hsieh一般toric定理/原局部常数及ν×新β Katz比较，仍须指定最高值跨p非零。
+- R997：先π1(E)使原图严格同调零；唯一Coleman解Db″+D′b′−6b=−3/v²给AJ=−degφ·b/cφ。BDP3.14全部条件/full9下降/54图全trace/η和对偶均付；fΩ=−δf27(τ/3)、θ^-2含9，depletion循环系数1,−A_p/p²,1/p²。cyclic27条件失败，未套全球5.13。R1002已由严格复值及原始CM周期给全部分裂p/全部系数素位的β27 Katz值非零；原ν和新β的全部有限型/经典权分支及p处四Euler因子核合。geometry继续Hsieh一般toric定理与实际full9分量、54图trace的全球接线，原ν跨p非零仍未付。
 
 ## 五、其它原门及执行分工
 
 O4最早a≤1/δ²、O6全Np有限/原q_p=1、O7同解共振/全Laurent/非恒定Y权仍开。原P134/十九角/charge40/10980/WD/TM/TJ及R953跨parity、R954实际forcing成员性保持；全部精确条件见open和逐字归档。不再只提高rank常数而当闭合。
 
-central：R1004原H_p/E_p实际必要余式；arithmetic：R1005两exact真实消费；geometry：R1002原3型全球桥并跟唯一v8；root：独立读证、原输入研究、消费真回执、逐条推送。主目标未完成就继续下个实质门，不以来源变换或中间结果收尾。
+central：R1004原H_p/E_p实际必要余式；arithmetic：R1005两exact真实消费；geometry：原3型/full9全球桥并跟唯一v8；root：独立读证、原输入研究、消费真回执、逐条推送。主目标未完成就继续下个实质门，不以来源变换或中间结果收尾。
