@@ -1068,3 +1068,106 @@ $$
 因此这个规范转换本身保普通子空间、局部有限条件和相应的非零
 等价；它不证明(59)的指定评价非零，也不把该评价与普通 AJ 的
 尚未支付部分视为已经完成。
+
+## 15. 原最高曲面微分在新曲面上的准确像
+
+本节计算第10–13节实际对应对二形式的作用；仍保
+$\Omega_S=-\omega_B\wedge\omega_t$，
+$\omega_B=dX/(2Y+1)$。在 $C$ 上由(7)、(9)、(10)直接得
+$$
+ 6u-1=-\frac{w}{z^3-4},\qquad
+ f^*\omega_B=\frac{6\,dz}{w},\qquad
+ (f\iota)^*\omega_B=-\frac{3z\,dz}{w}.
+$$
+故给出 $R_0$ 的同一图（源在 $f$ 上、靶在 $f\iota$ 上）对形式的
+拉回准确为
+$$
+ \Phi_2^*\Omega_S
+ =-\frac{3z\,dz}{z^3-4}\wedge\omega_t
+ =\frac{A^4-1}{2Ah^2}\,dA\wedge\omega_t .
+ \tag{68}
+$$
+最后一步只用 $z=(A^2-1)/h$、$4h^3=A^6-1$：
+$z^3-4=-3A^2(A^2-1)/h^3$，
+$dh=A^5dA/(2h^2)$。这里图的点群作用是对偶同源，而其
+上同调作用是显示的微分拉回，两者来自同一个图，并未互换源靶。
+
+在 $D$ 上 $\sigma(A,h)=(\omega A,\omega h)$，且原 $t$、
+$\omega_t$ 不变。因此按(45)的同一个系数序作和，
+$$
+ \begin{aligned}
+ \sum_{i=0}^2\omega^i\sigma^{i*}\Phi_2^*\Omega_S
+ &=\frac{3A^3}{2h^2}\,dA\wedge\omega_t,\\
+ \sum_{i=0}^2\omega^{2i}\sigma^{i*}\Phi_2^*\Omega_S
+ &=-\frac{3}{2Ah^2}\,dA\wedge\omega_t .
+ \end{aligned}
+ \tag{69}
+$$
+例如第一式中 $A^4$ 项的三个系数均为1，而常数项系数和为零。
+这保留了 $R_\omega$ 的原顺序，不把它换成共轭和。
+
+对 $q_-$ 的实际坐标(50)，有
+$$
+ 2Y'+1=A^{-3},\qquad
+ q_-^*\omega_{B'}=-\frac{dA}{2h^2},\qquad
+ \omega_{B'}=\frac{dX'}{2Y'+1}.
+$$
+于是置
+$$
+ \boxed{\;
+ \Omega'_1=\frac{\omega_{B'}\wedge\omega_t}{2Y'+1},
+ \qquad
+ \mathcal T_\omega(\Omega_S)=-3\Omega'_1 .
+ \;}
+ \tag{70}
+$$
+$\mathcal T_\omega$ 是上面原图之和在 $q_-$ 下降后的对应。
+式(70)在函数域中逐式成立；两边均为光滑射影曲面的正规二形式，
+故通过所有坏纤维的相同极小解消延拓。下降没有另乘一个3：
+(69)本身就是 $q_-^*(-3\Omega'_1)$；
+若用 trace 实现下降，须取 $\operatorname{Tr}_{q_-}/3$。
+
+还可由原极小模型检查整个空间及 canonical 点的准确零阶。
+令 $D_2$ 是 $B'$ 上 $2Y'+1=0$ 的三个点之和。
+在三个 $\mathrm{IV}^*$ 点，原 $\omega_t$ 等于一个局部参数乘
+极小不变微分；在 $O_{B'}$ 由第14节也有
+$\omega_t=\zeta\omega_{\min}$。
+故原 Hodge 线丛是
+$\mathcal O_{B'}(D_2+O)$，且
+$\operatorname{div}(2Y'+1)=D_2-3O$。
+全空间的四个正规形式为
+$$
+ \boxed{
+ \Omega'_1,\quad X'\Omega'_1,\quad
+ Y'\Omega'_1,\quad X'^2\Omega'_1 .
+ }
+ \tag{71}
+$$
+确实 $L(4O)$ 的基是 $1,X',Y',X'^2$；
+式(71)在全部极小模型上正则，并且维数为
+$h^0(\mathcal O_{B'}(4O))=4=p_g(\mathscr S')$。
+
+在 $O$ 用第14节的 $\zeta=X'/Y'$。
+$X'=\zeta^{-2}+\cdots$、$Y'=\zeta^{-3}+\cdots$、
+$\omega_{B'}=-d\zeta+\cdots$，所以
+$$
+ \Omega'_1
+ =-\frac12\zeta^4(1+O(\zeta))
+       d\zeta\wedge\omega_{\min}.
+ \tag{72}
+$$
+式(71)的零阶依次为 $4,2,1,0$。
+更全局地，$\Omega'_1$ 的零除子正是好纤维 $4F_O$：
+三个 $\mathrm{IV}^*$ 处的分母各恰消原微分的一个零，
+其余没有新增零或极。极小 Weierstrass 模型的有理双点解消
+保正规二形式，故此陈述也包含全部纤维组件。
+
+原 $\tau':(X',Y',x,y)\mapsto(\omega X',Y',x,y)$
+对四式的特征依次是
+$\omega,\omega^2,\omega,1$。
+特别第14节 canonical 纤维上的非零形式
+$X'^2\Omega'_1$ 不是(70)的原对应像。
+仅因该纤维已经写成 $E_4$，不能把该形式代替
+$\Omega'_1$ 来评价原最高 Abel–Jacobi 类。
+式(70)和(72)同时给出了后继真实负二阶/标记评价应使用的
+形式与其延拓；它们不把(59)三个完整列的非零作为已知。

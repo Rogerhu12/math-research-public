@@ -327,3 +327,6 @@
 
 
 - **R1045实际三点桥与五sigma负一非零**：[§§9–11](results/R1045-original-three-primitive-nine-complete-analytic-certificate.md)。R1045§§9–11将三个实际L′非零经BDP2一般Theorem2/3.32、同good-pair及完整local-Q返回E0(H)的三个非零η点张量；H为原cyclic9，系数域Qζ9另保。R749指定ordinary对数单射及R761全θ/Ω/c_j周期给三个原负一值非零且代数线性独立，继而原F0五sigma奇部及平凡Fourier系数非零的有限门也非零。 原x+y单位域和degree51因子仍保留，未对无限log极限施点投影。
+
+
+- **R1043原最高形式的准确新曲面像**：[§15](results/R1043-original-two-isogeny-level-transport-and-weighted-orbit-reduction.md)。R1043§15从原二同源图逐式计算两S3权和，原最高曲面形式准确送到−3Ω′1，Ω′1=(2Y′+1)^−1ωB′∧ωt。全Hodge线L(D2+O)与四个pg4形式(1,X′,Y′,X′²)Ω′1齐，canonical O零阶依次4/2/1/0、τ′特征ω/ω²/ω/1。原对应像是四阶零的第一项，不能用canonical非零第四项替代它。

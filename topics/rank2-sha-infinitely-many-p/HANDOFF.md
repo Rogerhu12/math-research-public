@@ -8,7 +8,7 @@
 
 - 两库部分克隆已做。公开既有只读CI于12:22:31UTC真实pull --rebase成功至dd52096e6f921537c3385636ee5a0d363d48b48a（run45998092826/job140502478622），相对上次689da801两README无差异；已读blob282e86b03385d3b6245ce7100ae2e2af7b103c2d / 2f3b3c9264fbba8189f85716e68f768830e921bc。本地最后成功pull仍07:12的1cf10ac，CI与本地分别记账。
 - 私库QUEUE认领41fe885610073f478b2f5a752461ca56cfd43f09已推。最近实际pull06:47UTC至6139de54ac72f1c7af0508b88ce03efdbf0a5690，两README无变；blob分别5ba164843b1f5802184178a82d786264404873a3 / 452d0127a4c3879807d70550d3eafd46c8fac642。
-- 07:20本地执行环境失联；12:20:36两库actual pull重试仍不可用。12:21 API私库02b2cb0e7e8624f732845b0abab109c1898afeea两README同原blob，QUEUE844a9bd5…仍本会话进行中。API不冒充pull；公开CI本次实际pull回执已消费；本地恢复立即补，不把CI冒作本地。
+- 07:20本地执行环境失联；13:13两库actual pull重试仍不可用。13:13 API私库93452a5dd8b22bc1c637c211abfcb192b8bcc7f9两README同原blob，QUEUE844a9bd5…仍本会话进行中。API不冒充pull；公开CI本次实际pull回执已消费；本地恢复立即补，不把CI冒作本地。
 
 - 至少每小时重试同步，每次pull后只读新README差异并立刻执行，记实际读过SHA；断连沿最新main API非force快进，每次检查README及本topic外部变动。10:48ref失败已立即实际pull重试、重比新父后成功；不强推。
 - root独占git/H/open/log/index；每条结论立即推，拒绝时pull --rebase后重试至成功。令牌只命令行/进程，不进文件/提交/API。数学执行只在公开Actions；根规则15禁止存可重算输出或日志数据。H<10KB，每MD<100KB。
@@ -48,7 +48,7 @@ R1039原g二盖严格Prym≅EL:y²=x³−12x+20、r*r_*=1−ι、原边界D∞�
 
 R1041原四谱Q6/Pell/双Norm/指定半类/全部厚点均付，q11实际AQ=−G阶16；一般4AQ=−P、二分Norm=t³(1−27t)。§§17–20第二四度Φ/Miller修正J给4ηprim=Φ*dlogM+dlogJ，Cartier受a_q(EL)控制；全tame reciprocity给U(E+)²⁴∈Fq*，故p≥5,p|q+1的无权半交为p次幂。精确参数和回执见原文/前归档，不重算；原逐CM权、eta/Cor及最高λ仍开。
 
-R1043原2-Vélu/full9/54→6×9及全η/Cor吸入三列C_a，DFT正逆齐；S3两权和有1/36左逆并降到t=−Y′²/[27(2Y′+1)]的S′系数MW截面，I18+I6+3IV*。§14准确canonical E4及I(x,y)=(a²x,−4y−2)，全9基/3处反角色/2处原顺序运输齐；逐γ cocycle强制η′=ηκ2，最高ψ27²ψ4(η′)^−1仍原λ。均在原L，不增加trace；固定三列值/ordinary非零仍开。原[mixed C4映射](notes/2026-11-27-mixed-c4-albanese-fiber-obstruction.md)已由Albanese障碍排除。
+R1043原2-Vélu/full9/54→6×9及全η/Cor吸入三列C_a，DFT正逆齐；S3两权和有1/36左逆并降到t=−Y′²/[27(2Y′+1)]的S′系数MW截面，I18+I6+3IV*。§14准确canonical E4及I(x,y)=(a²x,−4y−2)，全9基/3处反角色/2处原顺序运输齐；逐γ cocycle强制η′=ηκ2，最高ψ27²ψ4(η′)^−1仍原λ。均在原L，无新trace；§15原最高形式真像−3Ω′1，在canonical O四阶零，不能换成非零X′²Ω′1。三标记值/ordinary仍开。原[mixed C4映射](notes/2026-11-27-mixed-c4-albanese-fiber-obstruction.md)已由Albanese障碍排除。
 
 ## 四、其它未闭门与分工
 
