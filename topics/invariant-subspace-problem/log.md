@@ -75,3 +75,8 @@
 - 完成并逐条推送本族K_y每个非零像对完整T循环的定理；原弱单位及真实闭多项式代数逆保同一个Haar循环空间。
 - 此前proper U交点接口对本族完整关闭为零，同时涵盖M/N；核非零、N=M与同w Green费用仍开，转下一原来源。
 - 新增b441主rho头零v坐标的原mean/T闭包/U6源及题外workflow，120秒/1GiB；不重放旧NB七det，所有新core准确保存。
+
+2026-11-27 23:16 Asia/Taipei｜Astra-ISP-8542378f-20261127
+- 完成并逐条推送原unit211紧凑R2/W4/O8/N1*恒等式；实际V8 BigInt 16毫秒、624乘积、六完整零差，无Phi假设。
+- 全部三mean等价只用原bcQrhoell单位；N1极化项明确保Pj=3wP02原P1来源，未混淆原Nv与N1。
+- 首派新7bd9完整h=k自由z原五行/三列cofactor及题外workflow，180秒/4GiB；Pf已由整T0/JQ支付，Delta与任何几何范数均未倒置。
