@@ -5,7 +5,7 @@
 
 ## 1. 授权、规则与继承
 
-公开本次实际pull且根/题README已读至 **f1e2be00799b99af6162b655781e2a0f91544ffc**；根/题规则相对继承0749a4cc仍为空差异。私库实际pull/根README已读至 **724f5769d39c1f05826ed6c36792a5bb66da6aa0**，2026-11-27 00:01:47 UTC空diff；下次不晚于01:00 UTC。QUEUE唯一仍本会话进行中，原认领09f8b8b54e。
+公开本次实际pull且根/题README已读至 **61749795855caa87626e683a63edb9f1fd673994**；根/题规则相对继承0749a4cc仍为空差异。私库实际pull/根README已读至 **724f5769d39c1f05826ed6c36792a5bb66da6aa0**，2026-11-27 00:01:47 UTC空diff；下次不晚于01:00 UTC。QUEUE唯一仍本会话进行中，原认领09f8b8b54e。
 
 每次pull只读根/题README差异并记SHA，至少每小时；NFF/ref锁立即pull --rebase再推至成功。root独占git和四索引，每条结论即推；科学只公开Actions，本地只纸证/源码及原日志JSON/hash解析。根12不重放已付门；根15不存raw/可重算表，必要新场再生全计费。H<10KB/open<30KB/md<100KB；publisher活跃不改tracked。
 
@@ -19,7 +19,7 @@
 
 [normal311原终态](notes/2026-11-27-r582-normal311-original-terminal.md)run45909167191/job140213091600/source181de62c；实际2427.43645062秒，新field0d/960944RHS区别f60，同场新付16167后8真接受。真97q **3bc11a9c80696ad3ec54066a9bf0d5cee4436081dee79b9e22b61757fe507aa1**，p=.181，16189×3072 η3.722676721935829e−5、物理V0/working2.309485e−12在原容差内。
 
-当前327径向+3pending、拟定330/1536角/trust2，永久与合格fine同16189/SHA d6a0d6e7…。末135e raw违规，16次减半后无strict metric promise而跳fine，未接受。四后端J=2/6/2/4共14份/182块/583.826191433秒，未自然OptimizeResult，已有内部BFGS，不套B030饥饿结论。[已审pending330范围](notes/2026-11-27-r582-physical-pending330-resume-implementation.md)保原方法/全门；6新中点使至少16195需自身资格，材料hash含全部knots+六jets。p阶段2.5e−7未过，目标p=.8/末η≤1e−7不降。
+当前327径向+3pending、拟定330/1536角/trust2，永久与合格fine同16189/SHA d6a0d6e7…。末135e raw违规，16次减半后无strict metric promise而跳fine，未接受。四后端J=2/6/2/4共14份/182块/583.826191433秒，未自然OptimizeResult，已有内部BFGS，不套B030饥饿结论。[已审pending330范围](notes/2026-11-27-r582-physical-pending330-resume-implementation.md)run45916249440/job140236066717/sourceb86ec600，00:21:35 UTC启动；原门不变，6新中点需新fine，材料hash含六jets。p阶段2.5e−7未过，目标p=.8/末η≤1e−7不降。
 
 mean q64:80全变/h96=.6975711972395291，旧59a4完整几何不转移。所有旧失败/费用链保留；mean g仍在设计，同g/参数/时间域精化未付。
 
@@ -29,13 +29,13 @@ mean q64:80全变/h96=.6975711972395291，旧59a4完整几何不转移。所有�
 
 末298f raw非best：同1580 fullfine/nested已付、1916峰完成1678剩238，已见ball/strip违约2.91e−7/6.82e−7，未接受。按同q/fine/oracle补余238再合并真实证据；旧1678不重跑。22后端/22Jac/21交换，0自然返回、602.598532248秒Jac；均首callback早于BFGS。已知旧链加本次≥17099.551640495秒，未知仍未知。
 
-[原源码时序](notes/2026-11-27-r566-true-secant-restart-source-receipt.md)与[native初H/真secant](notes/2026-11-27-r566-native-initial-curvature-and-true-secant-implementation.md)已双审发布；旧未存H/λ不能恢复，首次I。新同冻结λ/同行函数两J、native MODEM1不二次消费、语义变重置、后续reset仍I。512KiB必要checkpoint不存完整J。[具体d191/238新scope](notes/2026-11-27-r566-d191-native-curvature-partial238-scope.md)run45914886940/job140231615166/source797efdf0，00:07:34 UTC启动；原callback与6056B旧partial消费块逐字一致。40来源绑定，768665B必要输入保原FINAL/1678峰；2400秒含native构建，全部原物理/峰/nested/双轨不变。
+[原源码时序](notes/2026-11-27-r566-true-secant-restart-source-receipt.md)与[native初H/真secant](notes/2026-11-27-r566-native-initial-curvature-and-true-secant-implementation.md)已双审发布；旧未存H/λ不能恢复，首次I。新同冻结λ/同行函数两J、native MODEM1不二次消费、语义变重置、后续reset仍I。512KiB必要checkpoint不存完整J。[具体d191/238新scope](notes/2026-11-27-r566-d191-native-curvature-partial238-scope.md)run45914886940/job140231615166/source797efdf0，00:07:34 UTC启动；原callback/旧partial消费逐字不变，40源/768665B输入保原FINAL/1678峰；2400秒含构建，原全门/双轨不变。
 
 ## 5. 正常全S继续，固定E硬τ1已见真实均值根失败
 
 [全S真实397](notes/2026-11-27-r613-normal337-sixty-step-terminal.md)run45899589237/job140181814100/source59ef89bf6；4520.668522229001秒/60接受/60Jac/205trials。1130q SHA d76a590766b2323698053321ad84608f17f110c1711c105470d2b876b4920875，H.5188903877153482/amp1e−5；fineη2.216608039e−7，双direct2.216686200e−7/2.216825169e−7，2e−9未过且非stall。[正常397](notes/2026-11-27-r613-actual397-normal-continuation-scope.md)run45909455678/job140214007842/source12e47b06，23:11:43 UTC启动待自然终态；原950×256/1728×512/完整S/QR保持。
 
-[首固定E硬τ1范围](notes/2026-11-27-r618-actual397-first-fixed-E-response-scope.md)的[真实失败终态](notes/2026-11-27-r618-actual397-hard-tau1-first-terminal.md)：run45914497186/job140230360702/source414b7662，00:04:53 UTC自然结束，新41.515274441秒。第103半径r=.22277851819887512的λ根80步耗尽；102trial均值完成/119盒/17拒。0完整目标/J/QR/接受/fine/direct，不能称τ1无根。last_halfwidth是失败后减半值，不补造内部轨迹；旧Newton仅越界才二分，无统一收缩保证，[已审同τ1/E二分范围](notes/2026-11-27-r618-actual397-bracket-progress-scope.md)统一reference/trial原root的进度，core根不变；不是声称旧reference103点失败。
+[首固定E硬τ1范围](notes/2026-11-27-r618-actual397-first-fixed-E-response-scope.md)的[真实失败终态](notes/2026-11-27-r618-actual397-hard-tau1-first-terminal.md)：run45914497186/job140230360702/source414b7662，00:04:53 UTC自然结束，新41.515274441秒。第103半径r=.22277851819887512的λ根80步耗尽；102trial均值完成/119盒/17拒。0完整目标/J/QR/接受/fine/direct，不能称τ1无根。last_halfwidth是失败后减半值，不补造内部轨迹；旧Newton仅越界才二分，无统一收缩保证，[已审同τ1/E二分范围](notes/2026-11-27-r618-actual397-bracket-progress-scope.md)run45916740129/job140237670198/source1aac95c4，00:26:42 UTC启动；reference/trial统一进度，core根不变，旧reference未失败。
 
 固定target **86da8c603f3d7ed9eb928481f0afe492f10bb209c94bf0ccaf8070c1aa1cd6c5**，未来normal q/H不替它。响应1473硬τ1，其余1472列/全部121600行；J48/2J96、原1129非mean/全部原口/a1真全平尾/coreP0保持，首次尚未完整评价。[完整模型](notes/2026-11-27-r618-complete-growing-post-fixed-metric-model.md)、全尾producer/双direct及[稳定坐标](notes/2026-11-27-r618-stable-coordinate-bound-scope-path.md)已审。E∈[.99,1.01]仅整个真帽→口；七类源误差未知不置零，条件界不作证书。新根政策须先绑定身份，原源冻结；全部重建/失败费用保留。旧R615改E闭合不套fixedE；S→η的同根/primitive/alias/M/ODE/舍入、全时族/宏观/严格存在均未付。
 

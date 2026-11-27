@@ -24,7 +24,7 @@
 
 ### 阶段门与后继
 
-[已审具体pending330范围](notes/2026-11-27-r582-physical-pending330-resume-implementation.md)沿原算法，准确采用原327+3及全部16189永久坐标，raw只作未合格warm。原base reuse仅比p/q/fine；本scope原数据确定6个新中点不在旧fine，因此会付至少16195的新完整资格，不声称有不存在的通用material SHA检测。所有新baseline/backend/fine共用同一次实际场；现有材料hash已含knots及全部六jets，无须重复接口。39来源绑定/510950B原字节输入已核，按push继续；新网资格不计metric接受。
+[已审具体pending330范围](notes/2026-11-27-r582-physical-pending330-resume-implementation.md)沿原算法，准确采用原327+3及全部16189永久坐标，raw只作未合格warm。原base reuse仅比p/q/fine；本scope原数据确定6个新中点不在旧fine，因此会付至少16195的新完整资格，不声称有不存在的通用material SHA检测。所有新baseline/backend/fine共用同一次实际场；现有材料hash已含knots及全部六jets，无须重复接口。39来源/510950B输入已核；原push run45916249440/job140236066717/sourceb86ec600，00:21:35 UTC启动；新网资格不计metric接受。
 
 p阶段约2.5e−7未过不升级；目标p=.8/末η≤1e−7。同空间真停滞时按实际残差换输入/算法，不能只延已停实例。当前mean g仍在设计，最终须同一g/参数/时间域精化。
 
@@ -44,13 +44,13 @@ fine1728×512 η2.216608039e−7，原两直接位置读数2.216686200e−7/2.21
 
 [R617](results/R617-finite-pre-tanh-poles-and-open-cap-rigidity.md)排固定有限pre-tanh加有限post的准确clamped非轴对称根；R610排纯有限高度角带。它们不提供当前有限误差的正下界，也不排增长/无限响应极限。只加远离rc=.22的compact新列会让内尾仍保旧固定有限类，须明确支付真正全平新响应。
 
-[R618](results/R618-fixed-metric-core-and-growing-post-response.md)及[真零入口](notes/2026-11-27-r618-fixed-target-evaluation-and-zero-entry.md)已给同一个完整E函数、同根p0及全隐式导数、核心ζ/ζ′、完整2J从属项、全部旧六jets准确mean分拆和τ0旧场/τ1真实核心。[完整模型/Jac/真实height链](notes/2026-11-27-r618-complete-growing-post-fixed-metric-model.md)已审发布，尚未科学执行：保1129旧非mean参数/原所有口，增加独立compact、core P0和定义到rc的解析全平角列；其真实L_jf源不能冒齐次解，原2J/mean/connection/position链和真实尾账齐全。新J不以有限谱输出或删核心行冒完整根。
+[R618](results/R618-fixed-metric-core-and-growing-post-response.md)及[真零入口](notes/2026-11-27-r618-fixed-target-evaluation-and-zero-entry.md)已给同一个完整E函数、同根p0及全隐式导数、核心ζ/ζ′、完整2J从属项、全部旧六jets准确mean分拆和τ0旧场/τ1真实核心。[完整模型/Jac/真实height链](notes/2026-11-27-r618-complete-growing-post-fixed-metric-model.md)已审发布并由上述硬τ1范围实际消费：保1129旧非mean参数/原所有口，增加独立compact、core P0和定义到rc的解析全平角列；其真实L_jf源不能冒齐次解，原2J/mean/connection/position链和真实尾账齐全。新J不以有限谱输出或删核心行冒完整根。
 
 [真全尾均值与帽口积分界](notes/2026-11-27-r618-true-tail-mean-anchor-bounds.md)已付条件纸证/纯区间helper：完整原j≤32 germs、canonical512与forced、全部Gaussian和参数方向进入同盒；a≤20的强尾余量不替真实全系数检查，原M/Cauchy/ODE/归一误差不得置零。[实际全系数producer](notes/2026-11-27-r618-current-model-tail-anchor-producer.md)已审发布，先绑定source/response/model再算全部旧germ/pre-tanh/forced/新tail及所选方向；严格/条件源误差不混用。[同固定E双直接位置](notes/2026-11-27-r618-same-fixed-metric-direct-position.md)已审发布，复用完整新fine并合并双h的相同额外查询，真实Xjets算metric/曲率，S仅差异观察。[新稳定坐标与受控消费](notes/2026-11-27-r618-stable-coordinate-bound-scope-path.md)已审发布：所有W≤1用原准确有理化λ，W>1用ζ；参考/trial嵌套同支浮点盒，数值导数界不冒全角/向外区间证明。完整新政策与源SHA先进入真实原模型身份，旧height/chain/producer/direct源冻结，薄入口显式消费。首actual397非零scope固定τ=1/a=1、其余1472列/全部S行，固定g不变；旧R615改E闭合observer不套本范围，参考E/均值根/两primitive与源/求积/差分误差仍未证。
 
 [首actual397硬τ1实际范围](notes/2026-11-27-r618-actual397-first-fixed-E-response-scope.md)已执行，其定义为：精确固定target86da8c60…，新1473输入只τ1非零；1472完整列/121600原行QR-SVD，20步/5400秒，1800秒声明留给完整同场fine/双direct/帽锚body积分。新算子LM1e−8与原末1e−14分明，未先运行旧τ0资格；所有失败/未完成trial/实际接受态俱保。
 
-[首硬τ1真实终态](notes/2026-11-27-r618-actual397-hard-tau1-first-terminal.md)run45914497186/job140230360702/source414b7662，00:04:53 UTC自然结束；新41.515274441秒，第103半径.22277851819887512的λ求根80步耗尽。102trial均值/103参考目标已付但完整数组未存；0完整目标/J/QR/接受/fine/direct。last_halfwidth是失败后的半宽，未存内部轨迹不补造浮点循环；不能推τ1无根。原Newton仅越界二分缺统一收缩保证，[已审同E/τ1二分范围](notes/2026-11-27-r618-actual397-bracket-progress-scope.md)统一reference与trial同一旧root的数值进度；参考连续E方程/height/全列不变，core独立根不变。46来源绑定、224106B stdin及前失败FINAL逐字继承；原参考/trial两函数AST除root/命名空间同式，双消费者执行AST相同。必要未存场重建计费，不另重旧门。合同E∈[.99,1.01]只真帽至口；七类源误差未知，条件余项不作严格证书。
+[首硬τ1真实终态](notes/2026-11-27-r618-actual397-hard-tau1-first-terminal.md)run45914497186/job140230360702/source414b7662，00:04:53 UTC自然结束；新41.515274441秒，第103半径.22277851819887512的λ求根80步耗尽。102trial均值/103参考目标已付但完整数组未存；0完整目标/J/QR/接受/fine/direct。last_halfwidth是失败后的半宽，未存内部轨迹不补造浮点循环；不能推τ1无根。原Newton仅越界二分缺统一收缩保证，[已审同E/τ1二分范围](notes/2026-11-27-r618-actual397-bracket-progress-scope.md)统一reference与trial同一旧root的数值进度；参考连续E方程/height/全列不变，core独立根不变。原push run45916740129/job140237670198/source1aac95c4，00:26:42 UTC启动。46来源/224106B stdin及前失败FINAL逐字继承；原参考/trial两函数AST除root/命名空间同式，双消费者执行AST相同。必要未存场重建计费，不另重旧门。合同E∈[.99,1.01]只真帽至口；七类源误差未知，条件余项不作严格证书。
 
 每次求积只改善同一个连续E的评价，不换g；完整冻结高度/amp/口/参数身份须绑定真终态。求根支用真实均值c0，不假定逐角C同号；同根失败和全部求积成本保留。真正接受后继续角带/径向/尾的同g收敛，最后推宏观幅度；amp1e−5不授握持变化门。R574/R576/R594/R600/R606/R613/R615均按原量词消费，a失号时不得点除。
 
@@ -80,7 +80,7 @@ fine1728×512 η2.216608039e−7，原两直接位置读数2.216686200e−7/2.21
 
 [可行L原自然终态](notes/2026-11-27-r625-feasible-length-natural-final-agent.md)实际新增342.874342827秒+预载.317874901秒，40接受/45固定ΔL选择/0实际释放；41Jac、93LSMR全部1600上限。末原微分max4.6125883651714664e13，stored末十全0但fixed-fine真末.257725752159/真ruling3.29461205220e13，联合/真门未过。末原19×65 state26459B SHA66cdaad57e0f03454743356b686d6471cee8cb3a0f32862f04fd15606d8cc3cd，LD锚/原unit/已付coarse-fine均留唯一FINAL。
 
-L仍精确2.1000000000449615，实际h(L)=2.9999999999920437在节点64达原上盒；中心图内点/155调用0失败，其余存储物理量内点。不补造102早期path盒拒绝全属此端点。末trust3.72529029846e−9/damp1.52415790276e−8是自然stall，不能只重启原同算法。[已审新完整行范围](notes/2026-11-27-r625-paid-dense-feasible-continuation-agent.md)与[同惩罚QR/SVD恒等](notes/2026-11-27-r625-complete-euclidean-row-factor-interface.md)针对未收敛LSMR；h末与L的准确同值活跃需真实方向截步证据，仍每新态允许向内释放。54来源绑定、原26459B state/锚/coarse/fine直接消费；新trust.25、damp继承实际末值，所有lambda复用同Jac/模式因子，失败因子也不重付。原全物理盒/未缩放接受/true-C²门不变。
+L仍精确2.1000000000449615，实际h(L)=2.9999999999920437在节点64达原上盒；中心图内点/155调用0失败，其余存储物理量内点。不补造102早期path盒拒绝全属此端点。末trust3.72529029846e−9/damp1.52415790276e−8是自然stall，不能只重启原同算法。[已审新完整行范围](notes/2026-11-27-r625-paid-dense-feasible-continuation-agent.md)与[同惩罚QR/SVD恒等](notes/2026-11-27-r625-complete-euclidean-row-factor-interface.md)针对未收敛LSMR；h末与L的准确同值活跃需真实方向截步证据，仍每新态允许向内释放。原push run45916412405/job140236602211/source5033f516，00:23:18 UTC启动；54来源/26459B state/锚/coarse/fine直接消费；新trust.25、damp继承实际末值，所有lambda复用同Jac/模式因子，失败因子也不重付。原全物理盒/未缩放接受/true-C²门不变。
 
 
 [R619](results/R619-free-center-leading-energy-and-true-memory-local-flow.md)给非prepared自由奇中心真M首层局部流；C1/C2全程常数，局部正则不授返回。[R624](results/R624-free-center-terminal-constants-and-compatible-analytic-input.md)已证具体全盒/动能余量/唯一首层端常数支。[R625](results/R625-true-terminal-acceleration-and-tail-flat-compatible-input.md)原尾M完整因式给两条准确平方二阶末门及必要负符号；增量乘cos²u保中心j、准确消尾增量二阶，最高43/速度245/54。该新D/q已按新函数实际支付并保原收据，不能借旧R624 q，也不再重跑作新入口。整个参数区间尾模板T<−2131/4800，仍不解两条平方等式、真A末、沿途首层或finiteε ruling。新helper只复用准确矩与成本壳，旧D/q不执行；已接正式原十九态BVP。

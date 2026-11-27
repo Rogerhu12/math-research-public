@@ -638,3 +638,8 @@ open原28316B全文按链接层级移入open-before-fixed-E-and-K-only归档，�
 ## 2026-11-27｜同actual397硬τ1的括区二分进度实际范围
 
 根全文审12866B薄driver、20129B模型、7371Bconsumer、8537B说明与6840B workflow；finite独立全审通过。46绑定/sparse/AST核合，224106B stdin保持原source/数学field逐字与旧policy各项，只添预绑定进度descriptor；35131B前失败FINAL逐字继承。参考E/trial均值原函数AST只换root与chain命名空间，两消费者执行AST完全相同；旧完整solve/fine/接受直接调用。明示参考数值路径也改变且旧103参考点并未失败，连续E方程/原τ1/core根不改；42次midpoint精确进度仅坐标宽，不作浮点或源误差证书。规则metadata更新至root实际已读5033f5164ae46452a990ef0d9c68b249b6cb358c与private724f5769；未本地科学。同步R625新run45916412405/job140236602211于00:23:18 UTC启动。
+
+
+## 2026-11-27｜三份原push自然运行身份
+
+97 pending330 run45916249440/job140236066717/sourceb86ec600于00:21:35 UTC、R625完整行run45916412405/job140236602211/source5033f516于00:23:18 UTC、同fixedE二分run45916740129/job140237670198/source1aac95c4于00:26:42 UTC启动。均由各自原push单次触发，仅查元数据，未额外dispatch或读取活动stdout；B030 native及normal397也继续其原自然段。同步H/open真实状态，纠正旧模型说明的“尚未执行”过时字样。
