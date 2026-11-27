@@ -284,3 +284,8 @@ root独立读官方run46037017666/1及job140634874993，均completed/cancelled�
 ### 2026-11-27 23:00 UTC — 19 首 trial 统计实际返回
 
 固定3b34f6064ca3030c4521f779844b64d05690c937的index34423B显示d761b5于22:50:51.653725真实trial-statistics-returned，Phi3825.0583176123996/Gram.6460503022350718。原初Phi3825.0583894874153/Gram.6460503011117507保；Phi略降而Gram略升，恢复阶段不能据此判接受/优化效率。trial几何/决定仍null，current初7e06/accepted0/g.9684249942095058未变，原g不填到trial。全部原有界观察及缺值保[19续求](notes/2026-11-27-run19-complete-bhalf-launch-and-continuation.md)，完整科学继续。
+
+
+### 2026-11-27 23:01 UTC — 20 第一完整必要输入真实0
+
+原22:56:53第1卷5756B实际归因ebdf38b0f0754f3a4760d1c52f638457b7b15bbd/89cc，maker真返0，用时5.931292771999992s。完整report65332/24fd2970、fixedinput4334/b9e12a、nodes144306/1e71a、scalar40488/2eb44全输出身份及原6参数/命令/input/cleanup/缺值完整保[20续求](notes/2026-11-27-run20-complete-bhalf-mu001-launch-and-continuation.md)。后三项实际字节同19来自独立重建，不是旧场/费用继承；参考及完整科学尚未自然返回。未读任何大raw或二进制，继续同runner原步骤。
