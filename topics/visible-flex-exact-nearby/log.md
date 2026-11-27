@@ -92,3 +92,7 @@
 已证明，5条新增exact integer组合首次全过，不重旧science。完整链AγVγ+Cγ包含非mean/holonomymean/首principal/seed第二参数/reference1/全有限连接段与固定物理尺度，bound2^2048·2^-31222782+2^-56000000<2^-31220733。逐base两阶段Taylor保GHC的A0/E21连续和GHW原H8193 operator拓扑，不偷A0 operator连续；actual matched inward差商进入closed global二jet子空间，得到strict H8193 interior C1与原闭域逐base相对A0余项。实际λ另加Dλ，一个mean row仿射消去只该row，moving endpoint/test另付其真导数，core/world/两端span全保。GHR/GHC/GHW三proof仅按根规4转换为$/$$，数学和17/9/10既成比较不变不重算。
 
 04:03:28 UTC私库API刷新8e02ac56234cae106cb36c515af382fbf8633033，README原blob无diff，QUEUE仍本session进行中；当前环境仍无成功terminal恢复，不虚称git pull。
+
+### 2026-11-27 WMR 首完整physical mean-height消费者源码
+
+五件frozen source共55733B与完整SHA note已公开，无manifest/workflow/dispatch，无新science。必要relative恢复仅原coeff/proposal，完整18final+ordered chain和NP4 whole SHA不变，禁止RHI旧step/finish/norm重算。8192点完整Aᵀ(Jy+δJx)核保degree2144、两mean/actualworld ports，三自然目标为true joint三signed均值、全L1和原reference body。RHI尚in_progress，只有whole成功终态后才生成实际输入；不把本源码当actual。公共root/topic README随最新main无diff。

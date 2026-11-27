@@ -1,11 +1,11 @@
 # 交接：可见振幅的精确闭等距族
 
-维护会话：visible-exact-astra-fb31ed6-20261127；更新：2026-11-27 04:08:25 UTC。
+维护会话：visible-exact-astra-fb31ed6-20261127；更新：2026-11-27 04:10:19 UTC。
 **总任务未完成，持续研究，不等用户回复。**
 
 ## 规则与授权
 
-已partial+sparse clone两仓库并pull main，读根全部规矩、topic README/H/open/log及接续notes。公开根/topic规则核至ea1e99a413aad93165c82ec9e1063809f97671da（相对12385db351ab03292b18db4cfc40e86754aadc89无diff）；私库2026-11-27 04:03:28 UTC环境失联后API刷新main至8e02ac56234cae106cb36c515af382fbf8633033（上次实际pull3673eb091d9fa2f558e9bdfdfc443e478832367c），根README无diff，QUEUE仍“进行中（visible-exact-astra-fb31ed6-20261127 / 2026-11-27）”，初次claim594e561b05a758bd8c02840ca4fbf574cd707436。
+已partial+sparse clone两仓库并pull main，读根全部规矩、topic README/H/open/log及接续notes。公开根/topic规则核至06c1c25072b456f9ce2a2796153bb12ec0dcd342（相对12385db351ab03292b18db4cfc40e86754aadc89无diff）；私库2026-11-27 04:03:28 UTC环境失联后API刷新main至8e02ac56234cae106cb36c515af382fbf8633033（上次实际pull3673eb091d9fa2f558e9bdfdfc443e478832367c），根README无diff，QUEUE仍“进行中（visible-exact-astra-fb31ed6-20261127 / 2026-11-27）”，初次claim594e561b05a758bd8c02840ca4fbf574cd707436。
 每pull核两README、至少每小时；非FF立即rebase再推。令牌只CLI，无AGENTS。本地环境03:00前磁盘满后失联，按根规8用GitHub集成仅传<100KB文本；root独占main更新，每次最新head/两README，force=false+expected_sha拒旧父即重base。GF改由connector发布；原source35ff439e后的6件旧排版本地未commit，恢复时不得重复。缓存迁移命令无成功回执。
 科学仅Actions，本地证明/静态/metadata/新saved有理组合。容量本轮原pool512..639共128legacy JSON仅删字符串外空白，当前所有manifest/workflow引用冲突0、原bytes/SHA/blob全核，净省828816B；两完整receipt保notes，原历史不动。第5批45934384748/1已成功，public c264c5e6，128文件gross806606B−receipt69422B=net737184B，原baseline c509ce70；与前一批828816B分开计。规12不增复核审批，结论成即推；规15 topic≤200MB、H<10KB、禁可重建大数组。成功旧科学禁重。
 
@@ -29,7 +29,7 @@ RHI完整7件唯一push run45933988440/1（2e59ff1c，03:24:31）已in_progress�
 
 RRM完整relative frame/position均值的原负窗receiver已证：frame≤9300(D*+Jroot)+658Froot+294Fstrict+871Jstrict；position≤17200(D*+Jroot)+1217Froot+545Fstrict+1617Jstrict。原SP root/strict单位、移动mean和Fubini全保，不当world行。
 
-WMR已证原absolute anchor detQ=−1；完整physicalmean kernel Aᵀ(Jy+δJx)、Cθ及两个mean/真实rigid ports保，原q0ref−e1<.000108627只参考列，不偷actual anchor。首次consumer待RHI真whole。
+WMR已证原absolute anchor detQ=−1；完整physicalmean kernel Aᵀ(Jy+δJx)、Cθ及两个mean/真实rigid ports保，原q0ref−e1<.000108627只参考列，不偷actual anchor。首次consumer五source已冻结公开，无actual manifest/run；待RHI真whole。
 
 BNC完整B-normalized strictν96列合同/pure已成：全G=K48∘H24保a相位，eR BH N0+√96 BH D/√2与完整quadrature/alias/composition费全付，5fee+joint+96column七新目标。待DWTB真whole才造actual入口，PO配对不替完整列。
 
