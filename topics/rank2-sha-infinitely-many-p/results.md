@@ -94,3 +94,6 @@
 
 
 - [原ψ4双槽的完整Newton与canonical斜率](notes/2026-11-27-original-psi4-double-slot-newton-and-canonical-slope.md)：同一个degree102负槽与原S的两completion准确为102cσ/34cσ；全R301尾和R614整窗/两坏带保留，正权两个实际系数给−3qδ^-k C+^(2k)/(k!)² J−JS。只消合法整数共同因子后，完整Rcan=−3qδ^-v K−JS，其斜率严格−3K−0 JS′0；原坏条件无条件迫这个同源解析斜率零。二阶仍含log qδ，一阶除p完整首层是−d−,p−1s_p+1/γ+²。新几何L族cross/参考端点/共同因子非退化明示为后继条件，不将复n4锚当augmentation单位。
+
+
+- [新ψ4来源的绝对幅度](notes/2026-11-27-original-psi4-canonical-positive-slot-and-degree102-negative-source.md)§10：同一R290十七向量9√17Π12e0下，原半周期真Weyl与代数Pauli严格U−1=iT，故s_old=−sS/[21(1+√3)]；完整两个三挠Gaussian词及147/∛2首给s_new=−7sS/[∛2(1+√3)]。完整Yang有限范数、S1={2,17}、c(0)=17/27和体积6均保，Cnew snew²/(CS sS²)=49/(4·2^(2/3))。δ^-n仍另留在实际Hermite变量，不以此固定幅度代几何augmentation或原J′非零。

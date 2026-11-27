@@ -597,3 +597,163 @@ $-3(p-1)K_-(0)J_S'(0)$。
 - 已发布未平方 theta 来源与完整 geometric cross 笔记中的
   Borade/Chan 坐标、原 Gaussian、Kriz/BDP 局部端点规范。
   本文只支付新有限来源，不把旧 degree34 图或旧端点直接移名。
+
+
+## 10. 同一十七向量下，原正负来源的绝对 raw 比例
+
+以下只补原来源的绝对归一；不从端点根号或常项零推出新中央零。固定
+$E_0:y^2=x^3+1$、$x=\wp(z)$、$y=\wp'(z)/2$、$X=x^3$、
+$\delta=i\sqrt3$，及 R735/R806 的真实正实周期 $\Omega _0$。
+全程使用 R290 的同一个十七向量
+$f_{17}=9\sqrt{17}\Pi_{12}e_0$。原正来源为
+$$
+S(z)=\frac17\sigma(z)^{34}x^2(X+1)(X-8)(7X^2-4X+16),
+\qquad [z^6]S=1.
+$$
+以实际 Fourier 系数定义
+$$
+S_{\rm raw}(Z)=s_S S(\Omega _0Z),\qquad
+S_{\rm raw}(Z)=e^{aZ^2}\sum_{n\in\mathbf Z}
+ v_+(n)f_{17}(3n)q^{n^2}e^{2\pi inZ},
+\quad a=34\sqrt3\pi .
+$$
+这里 $v_\pm=(1,t_\pm,-1,t_\pm)$，
+$t_\pm=(1\pm\sqrt3)/\sqrt2$，$q$ 为 R290(32) 的同一参数。
+令 $F_{\rm old,raw}$ 只把 $v_+$ 换成 $v_-$，其余有限向量和
+Gaussian 均不变。
+
+### A. 二挠 Weyl 相位与 type2 来源
+
+取 $T=\Omega _0/2$，对应 $(-1,0)$。令
+$c_T=e^{-\zeta(T)T/2}\sigma(T)>0$。
+原规范的二次 theta 平移满足
+$$
+\mathcal T_T^{\,2}\sigma^2
+=c_T^2\sigma^2(x+1).
+$$
+这里左上的 $2$ 表示线丛次数；连续施加两个该算子为恒等。
+由 $x(P+T)+1=3/(x+1)$ 得 $3c_T^4=1$，所以
+$c_T^2=1/\sqrt3$。因而原代数 Pauli lift
+$$
+U_{-1}(\sigma^{34}Q)=
+(-\delta)^{-17}\sigma^{34}(x+1)^{17}
+ Q\!\left(\frac{2-x}{x+1}\right)
+$$
+与实际 Weyl 平移满足精确相位
+$$
+U_{-1}=i\,\mathcal T_T^{\,34}.
+$$
+此处 $U_{-1}^2=-1$，而实际 $\mathcal T_T^{\,34}$ 的平方为 $1$；
+两者不能在不留 $i$ 的情况下混用。
+
+把 $\mathcal T_T^{\,34}$ 作用于上面的完整 Gaussian Fourier 源，
+Gaussian 与 Weyl 指数准确抵消，剩下 $(-1)^n$。
+在 $(f_A,f_B)$ 两列上它是 $\operatorname{diag}(1,-1)$。直接解两列得到
+$$
+\operatorname{diag}(1,-1)v_+
+=-\frac1{\sqrt3}v_+
+ +\left(1+\frac1{\sqrt3}\right)v_-.
+$$
+十七向量保持不变，第二项正是所需的完整 type2 投影。
+采用已付的整六列
+$$
+D_{\rm old}=21\delta\,\Pi_2U_{-1}S
+=\sigma^{34}x(X+1)(X-8)(X^3-30X^2-144X-32)
+$$
+（$\sigma^{34}x(1,X,\ldots,X^5)$ 坐标为
+$(256,1376,1216,58,-37,1)$，首 $z^2$ 系数为 $1$），遂得
+$$
+F_{\rm old,raw}(Z)=s_{\rm old}D_{\rm old}(\Omega _0Z),
+\qquad
+\boxed{s_{\rm old}=-\frac{s_S}{21(1+\sqrt3)}}.
+$$
+这是同一个十七向量的 raw 比例，不是只由两来源的 Hecke 标签推定。
+
+### B. 三挠 lift 的实际常数和 degree102 首项
+
+令 $S_3=(0,1)=-\Omega _0/3$，
+$c_3=e^{-\zeta(S_3)S_3/2}\sigma(S_3)$。
+由 $x(S_3)=0$ 的 zeta duplication 及 $2S_3=-S_3-\Omega _0$，
+$3\zeta(S_3)=-\eta_{\Omega _0}$。
+再对
+$$
+A_+(z)=e^{-\zeta(S_3)z}
+       \frac{\sigma(z+S_3)}{\sigma(S_3)},\qquad
+A_+(z)^3=-\sigma(z)^3(y+1)
+$$
+在 $z=S_3$ 取值，并使用原 sigma 准周期式，得到
+$c_3^3=-1/2$。实嵌入下 $\sigma(S_3)<0$，故
+$c_3=-2^{-1/3}$，没有任意立方根相位。
+
+令 $A_-$ 为负支的相同规范。原 division 恒等式给
+$$
+A_\pm(\delta z)=-\sigma(z)^3(y\mp\delta).
+$$
+对任一
+$D=\sigma^{34}x(p_0+p_1X+\cdots)$，两支完整 Weyl 和的首四阶为
+$$
+[z^4]\left\{
+(\mathcal T_{S_3}^{\,34}D)(\delta z)
++(\mathcal T_{-S_3}^{\,34}D)(\delta z)\right\}
+=12c_3^{34}(24p_1-31p_0).
+$$
+确切地，
+$x(\delta z\pm S_3)=\pm2\delta z+18z^4+O(z^7)$，
+$A_\pm(\delta z)^{34}=1\pm34\delta z^3+O(z^6)$；
+两支三次以下奇项相消，四阶即上式。
+代入 $p_0=256,p_1=1376$ 得
+$$
+[z^4]\mathcal D_{\rm sum}
+=301056c_3^{34}=\frac{147}{2^{1/3}},
+\qquad
+\mathcal D_{\rm sum}(z)=
+\sum_\pm(\mathcal T_{\pm S_3}^{\,34}D_{\rm old})(\delta z).
+$$
+以此真实非零数归一 $D_-$，使 $[z^4]D_-=1$。
+
+新三处函数
+$3\mathbf1_{\mathbf Z_3}-\mathbf1_{\frac13\mathbf Z_3}$
+在实际 $n/102$ 格上的乘子为 $2$（$3\mid n$）和 $-1$（其余）。
+所以其 raw 源准确为
+$$
+F_{\rm new,raw}(Z)
+=\sum_{\epsilon=\pm1}
+ e^{-a(2\epsilon Z/3+1/9)}
+ F_{\rm old,raw}(Z+\epsilon/3).
+$$
+必须保这两个 Gaussian 指数，不能写成没有指数的字面平移。
+因此
+$$
+F_{\rm new,raw}(Z)
+=s_{\rm new}D_-(\Omega _0Z/\delta),
+\qquad
+\boxed{s_{\rm new}
+=-\frac{7s_S}{2^{1/3}(1+\sqrt3)}}.
+$$
+$1/\delta$ 是原 coherent 变量的实际缩放；其 $n$ 阶费用
+$\delta^{-n}$ 在全权公式中另行保留。
+
+### C. 完整 Yang 范数中的对应比例
+
+沿 R290(25)–(38) 的自对偶测度，若 $n_{17}=\|f_{17}\|^2$，
+原正向量与新负向量的有限范数分别是
+$$
+3(3+\sqrt3)n_{17},\qquad
+6(3-\sqrt3)n_{17}.
+$$
+两者的 Hermitian 参数 $\alpha=17$、无穷 Hermite 规范和好处球相同。
+Yang 的 $S_1$ 仍是非分歧而角色分歧的 $\{2,17\}$；
+三处为 $K/\mathbf Q$ 的分歧处，不能因为新三处向量改变而加进 $S_1$。
+故 $c(0)=17/27$ 和体积比 $6$ 保持原值。
+把范数归一还原到 raw theta，得
+$$
+\frac{C_{\rm new}}{C_S}=\frac{2+\sqrt3}{2},\qquad
+\boxed{\frac{C_{\rm new}s_{\rm new}^{\,2}}{C_Ss_S^{\,2}}
+=\frac{49}{4\,2^{2/3}}}.
+$$
+此式比较相同的原 Hermite 变量；上一节的 $\delta^{-n}$ 不包含在这个
+常数里。若某处改用 $\Pi_{12}e_0$，而另一处仍用
+$9\sqrt{17}\Pi_{12}e_0$，raw 比例须相应乘除 $9\sqrt{17}$；
+平方范数恰有其平方费用，故 $Cs^2$ 比例不变。
+这给正负全源的可检验绝对常数，并未把正权平方公式外推为
+$n=-2$ 端点的非零真空。

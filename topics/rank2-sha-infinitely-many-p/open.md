@@ -181,3 +181,6 @@ p29/type4 note§7新增B=4(X+1)∂x²−96x²∂x+544x及全18列；它是原四
 ### 新 canonical 解析斜率已由真双槽支付
 
 [双槽Newton](notes/2026-11-27-original-psi4-double-slot-newton-and-canonical-slope.md)已闭同degree102/34来源的全部Gaussian和δ权费用：Rcan=−3qδ^-v K−JS，Rcan′0=−3K−0JS′0。原坏条件迫这一指定解析斜率零，不再缺“是不是同一个S”的必要关系。真正待付是新fulllevel图的实际cross与参考非零，使该斜率等于指定几何读数；再给该同一读数无穷p非零。不得只用参考H3/H5真空、n4复锚或旧54图非零填此费用。
+
+
+新[ψ4来源§10](notes/2026-11-27-original-psi4-canonical-positive-slot-and-degree102-negative-source.md)已把同f17的正负raw绝对幅度与Yang范数比锁死，完整δ^-n仍保；不再把这些固定常数留作自由规范。新几何的真实full9基/共轭分量、完整full2取向差及fp/cross仍在逐项核对，随后才接原canonical一阶非零。

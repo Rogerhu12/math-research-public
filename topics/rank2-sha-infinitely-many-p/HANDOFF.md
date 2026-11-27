@@ -44,7 +44,7 @@ Q=D²S，J_Q^[-2]=dv(dv−1)J_S，K_Q=d(dv−1)J_S/p，K_Q0恒0，坏条件准�
 
 **[原ψ4权二具体方案已排](notes/2026-11-27-original-weight-two-psi4-local-obstruction-and-zero-toric-point.md)**：π=AIν4、χ=ν17/ν4在2/3的GL2 Hom均0；正确不定B判别式6。全Rankin=L(ψ4²/ψ17)L(ψ17)，新type1 twist E:y²=x³+22717712 root−，原ψ17中央至少二阶零，故Rankin至少三阶零。CST实际GZ+正定高度迫所有该χ toric点=0、所有其p-log=0。不能靠该weight2端点补非零，不说Ept全有理点挠。
 
-**[新ψ4/ψ17完整来源](notes/2026-11-27-original-psi4-canonical-positive-slot-and-degree102-negative-source.md)已付**：π4=AIψ4²、ηcan=ψ17/ψ4，正槽确为原S/H3/H5；λcan=ψ4⁴/ψ17不是旧η18。2/fullsign、3/fullJ向量、17全18项和正负权∞墙全核。wild3向量为3·1_Z3−1_(Z3/3)，两个完整三挠Gaussian Weyl词及δ拉回给degree102 D−，全R102式首301056、幅度147/∛2、coherent负变量Ω0h∞T/δ。正权n4的(4,6)真锚非零；负二Rankin root−与S0=0相容。δ^-n和qδ=δ^(p+1)/3须完整保。新full2/full9/degree17图的fp/cross尚待逐项付，不移旧54图；复锚不付augmentation或canonical非零。
+**[新ψ4/ψ17完整来源](notes/2026-11-27-original-psi4-canonical-positive-slot-and-degree102-negative-source.md)已付**：π4=AIψ4²、ηcan=ψ17/ψ4，正槽确为原S/H3/H5；λcan=ψ4⁴/ψ17不是旧η18。2/fullsign、3/fullJ向量、17全18项和正负权∞墙全核。wild3向量为3·1_Z3−1_(Z3/3)，两个完整三挠Gaussian Weyl词及δ拉回给degree102 D−，全R102式首301056、幅度147/∛2、coherent负变量Ω0h∞T/δ。正权n4的(4,6)真锚非零；负二Rankin root−与S0=0相容。δ^-n和qδ=δ^(p+1)/3须完整保。来源§10又锁同f17的绝对raw：snew=−7sS/[∛2(1+√3)]、Cnew snew²/(CS sS²)=49/(4·2^(2/3))，δ^-n另保。新full2/full9/degree17图fp/cross仍须逐项付，不移旧54图；复锚不付augmentation。
 
 **[新双槽完整Newton](notes/2026-11-27-original-psi4-double-slot-newton-and-canonical-slope.md)**：两个completion严格C−=102cσ=3C+，全尾/两坏带已付；正权两槽精确−3qδ^-k C+^(2k)/(k!)² J−(k)JS(k)。共同整数因子只在合法权消去后，Rcan=−3qδ^-v K−JS，Rcan′0=−3K−0 JS′0。坏canonical真迫这一同源解析斜率零；除p首层是−d−,p−1 s_p+1/(pC+)²。接回实际Lcan仍待新图cross与非零参考，复n4锚不付Fnew0/K−0。
 
