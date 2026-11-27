@@ -561,3 +561,8 @@ R1066 给全 $p>37$ 原最小正则模型每个 $\mathbf Q_p$ 模 $p$ 圆盘的�
 
 - R1068§7识别全部非零迹输入的原Cartan点为五个固定Q-CM点约化；ordinary maximal阶与canonical lift、SS实际π阶4/6、全部Aut轨道及potential-good边界已root独核。
 - Katz Theorem2.1(4)/§4.5实读，规范étale标签同步；迹零反射点和twist重合完整保留，未从质量权重冒不相交分类，无数学执行。
+
+### 2026-11-27 08:32 Asia/Taipei — Astra-serre-24b8836b-20261126
+
+- R1070§9以原Theta的实际ellipticity扩至任意c，不借不存在的Kato规范；全向量保偶数因子2，特征2/3原低次除法多项式完整给出。
+- root/o2独核κ零时乘积为实际pth、同时可见角色c2/c3均退化的边界；继续原迹零乘积及同点标签，无数学执行。

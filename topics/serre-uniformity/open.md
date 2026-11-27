@@ -31,7 +31,7 @@ R1018–40的原完整Fm/两节点Dickson/PD及好BT整比较均已付，详细�
 
 ## O0：全主目标覆盖（R1003恢复原范围）
 
-[R1070](results/R1070-original-cuspidal-labels-by-division-polynomial-values.md)：原forced角色标签准确为m/κχ·[∏ψ_c(P_z)^(−n_[Nz])]，κχ=c²−χ(c²)单位。Kato–Siegel平滑、原指数提升、二次范数、实下降及全部cusp leading已付，保same y/Weil pairing/ζ embedding，适用于2、3。R1069 good∩forced无regular条件仍有Ω(p/logp)角色；其它字符κ可能恒零，不扩范围。真实辅助共同像排除仍开。
+[R1070](results/R1070-original-cuspidal-labels-by-division-polynomial-values.md)：原forced标签=m/κ·[∏ψ_c(P_z)^(−n)]，相位/实下降/cusp规范齐备，含2/3及全p good∩forced。§9任意c的全向量式=m/(2κ)[M_all]，低次x⁴+x、x³±x已付；κ=0时M_all确pth，同时可见角色不能用退化c2/c3读取。原同y/embedding/全局候选共同像排除仍开。
 
 [R1069](results/R1069-all-prime-good-cuspidal-characters-and-unique-global-labels.md)：全部p>37上，原Bernoulli单位角色χ=ω^r无regular/Vandiver假设地给p-only global→local同构。Herbrand及准确ωχ⁻¹ Kummer方向杀对应real类群；奇字符正交/相对类数给good forced维数≥⌊p/4⌋−1−⌊log_p(2p((p−1)(p−2)/(24p))^((p−1)/4))⌋，故Ω(p/logp)。该真实子覆盖每原p-disk仅一global候选，总数≤p·n_Qp(p)；其余坏角色类群及同标签辅助排除仍开。
 

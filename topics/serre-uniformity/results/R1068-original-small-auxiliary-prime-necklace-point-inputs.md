@@ -388,7 +388,7 @@ root 独立纸核 fixed-necklace 两种 involution 数、twisted Burnside 与
 ## 后继：原有限点的实际函数评价
 
 [R1070](R1070-original-cuspidal-labels-by-division-polynomial-values.md)
-现以同一原 $p$-torsion 上的奇数除法多项式乘积，
+现以同一原 $p$-torsion 上的除法多项式乘积，
 给 forced 角色的准确 Kummer 标签；包括全部相位、实下降、
 cusp 规范及 $2,3$ 特征。它保本篇的实际点与 Weil pairing 数据，
 不再需要一个未知 cusp 常数。

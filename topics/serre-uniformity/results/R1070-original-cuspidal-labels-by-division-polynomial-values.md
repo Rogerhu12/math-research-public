@@ -451,3 +451,136 @@ $W=W_{\rm good}\cap W_{\rm for}$，
   不采用 PDF OCR 中损坏的 Kato (1.3)(3) 指数。
 
 root 已亲读 Scholl Theorem 1.2.1 及证明、Kato §§1.3–1.10 的相应原文，独核实际除法多项式、全部相位、实下降及 cusp 规范；没有消费损坏的 OCR 指数。
+
+
+## 9. 任意整数平滑与2、3处的低次数原评价
+
+### 9.1 全部向量乘积支付偶数平滑
+
+取任意整数 $c>1$、$(c,p)=1$；
+在辅助特征 $\ell$ 还要求 $(c,\ell)=1$。
+不再要求 $(c,6)=1$，但改用全部非零 level 向量：
+$$
+M_c^{\mathrm{all}}=
+\prod_{z\in\mathbf F_{p^2}^{\times}}
+\psi_c(P_z)^{-n_{[Nz]}}.
+\tag{1070.34}
+$$
+偶数 $c$ 时 $\psi_c(-P)=-\psi_c(P)$；
+全部向量乘积使 $\pm$ 代表无歧义。
+模型的共同常数仍因 $\sum_z n_{[Nz]}=0$ 严格消去。
+原 normalizer 及 $\sigma_{-1}$ 只置换全部向量，故
+$M_c^{\mathrm{all}}\in F(X)^\times$。
+
+本扩展不引用任意 $c$ 的 canonical Kato normalization。
+直接使用 (1070.19) 的 $\Theta$，置
+$$
+R_c(u)=\Theta(u)^{c^2}/\Theta(cu).
+$$
+(1070.22) 表明它对 $u\mapsto u+1,u+\tau$ 均不变：
+quasiperiod 的二次及线性指数全相消，
+剩余符号为 $(-1)^{c^2-c}=1$。
+它的 divisor 是 $c^2[O]-E[c]$，因此
+$R_c=\lambda(E)/\psi_c$。
+全部指数之和为零消去 $\lambda(E)$。
+(1070.21) 的二次相位消去、指标取代表的根单位、
+以及实际 $K_0/F$ 范数步骤照用。
+
+全部 $z$ 的 raw Siegel product 是 $f_\chi^2$ 乘根单位，
+所以准确得到
+$$
+(M_c^{\mathrm{all}})^2=
+\left(w_\chi^{c^2}/w_\chi^{[c]}\right)^2.
+\tag{1070.35}
+$$
+这里仍是实际函数等式，未先有理化单位群。
+沿用同一个整数换标 $n'_h=n_{hc^{-2}}$，
+以及全部 cusp leading 计算，得到
+$$
+[M_c^{\mathrm{all}}]_V=2\kappa_\chi(c)u_\chi,\qquad
+[A(M_c^{\mathrm{all}})]=0,\qquad
+\kappa_\chi(c)=c^2-\chi(c^2).
+\tag{1070.36}
+$$
+因此，只在 $\kappa_\chi(c)\ne0$ 时，
+$$
+\boxed{\Phi_y(u_\chi)=
+\frac{m}{2\kappa_\chi(c)}[M_c^{\mathrm{all}}(y)].}
+\tag{1070.37}
+$$
+奇数 $c$ 时 $M_c^{\mathrm{all}}=M_{c,\chi}^2$，
+恰恢复 (1070.31)。
+
+若 $\kappa_\chi(c)=0$，实际 $M_c^{\mathrm{all}}$
+本身是 $F(X)$ 中的 $p$ 次幂：
+其 $V$ 类为零给 $M_c^{\mathrm{all}}=a v^p$，
+其中 $a\in F^\times$、$v$ 为实际 modular unit；
+而 $[A(M_c^{\mathrm{all}})]=m[a]=0$，
+$m$ 是模 $p$ 单位，迫 $a\in F^{\times p}$。
+故该退化平滑不给原标签，
+不能除以零后从特殊函数的值推出原标签为零。
+
+### 9.2 特征2的实际三除法多项式
+
+在 $\ell=2$ 取 $c=3$。标准广义 Weierstrass 式
+$$
+\psi_3=3x^4+b_2x^3+3b_4x^2+3b_6x+b_8
+$$
+在 R1068 的全部原模型上直接成为：
+
+| 原模型 | $\psi_3$ |
+| --- | --- |
+| $y^2+xy=x^3+A x^2+1$ | $x^4+x^3+1$ |
+| $y^2+y=x^3+A x+B$ | $x^4+x+A$ |
+
+这些式由原 $b_i$ 逐项代入，不使用一个猜测的 Siegel 常数。
+特别唯一 trace-zero 模型 $E_0:y^2+y=x^3$ 的原读数为
+$$
+\boxed{\Phi_y(u_\chi)=\frac m{9-\chi(9)}
+\left[\prod_{z/\pm}
+(x(P_z)^4+x(P_z))^{-n_{[Nz]}}\right],}
+\tag{1070.38}
+$$
+只在 $9-\chi(9)\ne0$ 时使用。
+该多项式的零点为非零三挠点的 $x$ 坐标；
+原非零 $p$-torsion 不碰零，没有遗漏需要剔除的因子。
+
+### 9.3 特征3的实际二除法多项式
+
+在 $\ell=3$ 取 $c=2$。
+R1068 的全部模型都已写成 $y^2=f_E(x)$，且 $\psi_2=2y$。
+成对相乘给
+$$
+\psi_2(P)\psi_2(-P)=-4f_E(x(P)).
+$$
+共同常数 $-4$ 由原 augmentation-zero 指数严格消去。
+故
+$$
+\boxed{\Phi_y(u_\chi)=\frac m{2(4-\chi(4))}
+\left[\prod_{z/\pm}f_E(x(P_z))^{-n_{[Nz]}}\right],}
+\tag{1070.39}
+$$
+只在 $4-\chi(4)\ne0$ 时成立。
+两种 trace-zero 模型的 $f_E$ 分别是 $x^3+x$ 和 $x^3-x$；
+其余模型仍保各自完整 cubic。
+这些二挠零点同样不遇原非零 $p$-torsion。
+这里的因子二来自全部向量乘积，不能沿用奇数平滑的尺度而删去。
+
+上述式保 R1068 全部 stable necklaces、几何同构商、
+同一 Weil pairing 和 cyclotomic embedding。
+trace-zero 输入因而成为原 $p$-torsion 上
+$x^4+x$ 或 $x^3\pm x$ 的实际乘积；
+尚未证明这些乘积的共同像排除。
+
+还有一个必须保留的边界：
+若同一 $\chi$ 在2与3都可见，
+原可见性条件给 $\chi(2)=2,\chi(3)=3$，
+于是两个低次平滑的 $\kappa$ 都恰好为零。
+此时必须回到 §2 的可逆 $c$，
+不能声称 (1070.38) 与 (1070.39) 同时读取这个角色。
+
+本节消费原 §§1–8 的完整函数和相位，
+任意 $c$ 的 ellipticity 及低次除法多项式在本节自证。
+global_route 推导，root 与 o2_high_coefficient 独立核准
+偶数平滑的因子二、全部 $b_i$、退化时的实际 $p$ 次幂
+及可见性边界。无数学程序执行。
