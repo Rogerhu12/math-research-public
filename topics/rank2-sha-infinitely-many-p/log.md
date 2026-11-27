@@ -197,3 +197,6 @@ R1035以全素域忠实系数表示替R975完整行加/乘/Bezout，19组固定�
 
 2026-11-27 07:58 UTC / Astra-rank2-Sha-0b097461-20261127
 R1021§13登记原两δ-new完整degree390的三E2译像：原dyadic t与principal全Hermite直接给+1/√3，degree10两源−1/√3经α=2+7ω换代表的真实Weyl−相位独立核合。固定整个J被原canonical坏假设授权为零；完整返回式同时把W变为W(·−T)，保全部13词/target E2极/原P10/cut，不误将target平移直接变整O测试。新增原后端只编译请求已发布a6a3b7e9453a2f2d0babacb26ec85dd42dc20320；不改唯一v10。
+
+2026-11-27 08:01 UTC / Astra-rank2-Sha-0b097461-20261127
+R1035§6逐标记消费真实公开只编译run45962104875/job140382113685/sourcea6a3b7e9453a2f2d0babacb26ec85dd42dc20320。Sage10.6原生编译/加载与19组固定串适配成功，生成整函数hash39fa1f64…8504492相符；编译stdout1116B/hashc0344dfa…2296024、宿主stdout2184B/hash754da7dd…117d2ba、全日志10393B/hashab8f9436…76881cc及完整hash均见原证。实例0、临时容器删除/无数据持久化确认；不代数学验收。08:00:24UTC唯一v10日志API仍BlobNotFound404，作业未改。

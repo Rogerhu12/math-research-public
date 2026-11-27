@@ -218,4 +218,4 @@
 
 - [R1034](results/R1034-double-height-central-reader-and-saturated-beta-pair.md)：R1034将同一char0全39比较扩至H=2p−11/2p−5，真正K>p；两β权饱和β^(p²)/β^(2p²)，γ=3β²−2β消六三挠simple。原native P/Z整提升、整个物理M及R614/616/619两坏带与r=p第二C scalar全保；该页CM另排S极，C³原φ与顶系数是不同泛函。全Weyl cocycle给六极准确old双主部，只有canonical偶读者消odd，原cut/Ξ/高p位仍在。一般四阶后S第二C帽3/primitive3p−2，特殊r=p帽2按整体型用。实际Q†测试生成及确定λ unit迫零仍开。
 
-- [R1035](results/R1035-native-complete-polynomial-row-representation.md)：R1035以全素域忠实系数表示替R975完整行加/乘/Bezout，19组固定串适配保同pivot、全列/附列/次数帽及每原生成元双向返回。原源hash锁定，非全下降仍走原后端；新增公开只编译检查不造矩阵，不代几何PASS。唯一v10保持，未激活后继。
+- [R1035](results/R1035-native-complete-polynomial-row-representation.md)：R1035以全素域忠实系数表示替R975完整行加/乘/Bezout，19组固定串适配保同pivot、全列/附列/次数帽及每原生成元双向返回。原源hash锁定，非全下降仍走原后端；新增公开只编译检查不造矩阵，不代几何PASS。唯一v10保持，未激活后继。 §6公开只编译run45962104875/job140382113685/sourcea6a3b7e9453a2f2d0babacb26ec85dd42dc20320已实际成功；Sage10.6、19组适配/全函数hash均匹配，数学实例0。全必要stdout/log hash见§6，原几何PASS仍待唯一v10。

@@ -19,7 +19,7 @@ v9 run45920983633/job140251398928/source1eeab95eb057de2b6ea6753ff9e36a18bd20bbd2
 
 R1033全剩余核/厚projector及双向返回证明见原文；52源/两char0 pins/原r29/q2453/batch64/minimal/全部门/21000s/360min与preflight=false保持。唯一v10 run45956901945/job140365369016/source43c1a7bfd607ba57dcdb891a1ed5ea83b61b1157已实际进入数学，07:48仍in_progress。首只读45958247749/140369658303仅下载HTTP失败；07:28直接GET确认BlobNotFound404，未得快照或数学结论。不排重复作业，源码不代PASS。
 
-R1035以全素域忠实系数表示替R975完整行加/乘/Bezout，19组固定串适配保同pivot、全列/附列/次数帽及每原生成元双向返回。原源hash锁定，非全下降仍走原后端；新增公开只编译检查不造矩阵，不代几何PASS。唯一v10保持，未激活后继。
+R1035以全素域忠实系数表示替R975完整行加/乘/Bezout，19组固定串适配保同pivot、全列/附列/次数帽及每原生成元双向返回。原源hash锁定，非全下降仍走原后端；公开只编译run45962104875/job140382113685/sourcea6a3b7e9453a2f2d0babacb26ec85dd42dc20320已实际成功；Sage10.6、19组适配/全函数hash均匹配，数学实例0。全必要stdout/log hash见§6，原几何PASS仍待唯一v10。 唯一v10保持，未激活后继。
 
 R982/983/R987/R993/R992全部原门真PASS；R992全13残差与R994三β27复L(1)>0/尾<2^-180的完整run/source/hash在结果及逐字归档，不重算。
 
@@ -35,7 +35,7 @@ R1025固定Hermite/primitive/全部GP10曲率齐，实际全p单位λ1−10λ2/8
 
 R1028原末六全水平式/固定Hermite及target全39首primitive低窗付齐；四阶G/cut的36阶帽、b5/O/aZ和全部P10曲率保留，Jordan单位仍不代forcing，精确公式在原证。
 
-R1032新β=X/(X+4)保原39支同K，末两窗β^(p²)；δ-old/new返g与rS^(p²)T_S^130G，原整H_G even/odd齐且odd单射。±S/两exact/留数/aZ/九维C³、四阶G费和O末四b全保。1+Kp仅native O平坦，不能删其它13纤维或赋新零。
+R1032旧新β及δ-old/new、原N130全源/Miller与even/odd单射齐；±S/两exact/留数/aZ/C³和全部G费用见原证，native O平坦不代其它十三纤维或canonical新零。
 
 R1034将同一char0全39比较扩至H=2p−11/2p−5，真正K>p；两β权饱和β^(p²)/β^(2p²)，γ=3β²−2β消六三挠simple。原native P/Z整提升、整个物理M及R614/616/619两坏带与r=p第二C scalar全保；该页CM另排S极，C³原φ与顶系数是不同泛函。全Weyl cocycle给六极准确old双主部，只有canonical偶读者消odd，原cut/Ξ/高p位仍在。一般四阶后S第二C帽3/primitive3p−2，特殊r=p帽2按整体型用。实际Q†测试生成及确定λ unit迫零仍开。
 
