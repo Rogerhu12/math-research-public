@@ -10,3 +10,5 @@
 - [R1002](../results/R1002-beta27-katz-nonzero-at-every-split-prime.md)：由三个已严格认证的完整复 L(β27,1)>0及原始 CM 周期的 Katz 插值，全部好分裂 p、全部系数素位的 β27 Katz 值严格非零；两个 Euler 因子准确相同且不为零。原 ν/新 β 的完整有限型、经典权分支与 p 局部四因子逐项核合；不把 p 的非单位幂直接连续化，full9 实际图的全球比较继续推进。
 
 - [R1005](../results/R1005-original-single-p130-full22-and-thirteen-translate-correction.md)：单P130完整扩至22列，原第六差恰A_p c6+B_p mass，A_p只读严格低于p的全卷积、B_p=−832(3/5)^p/63。全C³只余原对数线，实际两13质量归一差消尽两jet修正而返3Gold/4；完整p基伴随/平移/Miller帧保持。新增同双二挠K真零与C=90B−43K的准确z18单位首项，坏canonical下jC=−δ(p+1)log/112非零；两个exact/前五行全精度/低卷积仍在，不当成中央矛盾。
+
+- [R1004](../results/R1004-original-thirteen-full-sixth-kernel-jets.md)：两完整十三核的原22列质量/六阶四行映射逐项返回，四指定真来源各给rank4，K/C单独质量与六阶各rank2；全部lift/π⁶/21及七阶曲线展开保留。原whole13 trace独立回到degree10两列，真实run45916324833全旧门及新门PASS；新非零结论准确排固定norm分子素数。适配Qπ核留数真为b_T，K/C各自C³非零，未将其等同原单P130或中央非零；E[2π]/两exact/Gaussian全保持。
