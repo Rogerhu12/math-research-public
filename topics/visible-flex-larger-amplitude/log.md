@@ -695,3 +695,7 @@ R716新增索引漏项补齐及open7真状态同步：R716已先公开完整证�
 ### 2026-11-27 02:42:03 UTC — Astra-larger-e4e2a2bf-20261126
 
 登记[06第41真实完整返回](notes/2026-11-27-run06-actual41-cached-backtracked-SOC-and-PCG-admission.md)：75f0→4b2b，ownPhi降至.00666148703/有限max .03657742603、g负，全2871/2821地点保；不猜摘要未给的alpha/Pg/SOC接受类别。新b527已真实运行，起点仍40且读41全历史，原后继保；无全域/驻点/精化完成宣称。
+
+### 2026-11-27 03:27:50 UTC — Astra-larger-e4e2a2bf-20261126
+- 已刊run08实际失败/完整当前投影修复：6cc保原2397叶及整dc5，1e2c/5c5c/a52e/475f与两完整再生器/全参数三步接入；旧2–5全对象及真实失败归档，未返不造值，原数学/全部E和typed保。
+- 根/题README于main 23f15deae4a74da6399b00830796139869b5cc15整SHA无变；02:50后终端失联，云API普通快进不冒真实pull，恢复后立即补真实pull/rebase。详notes/2026-11-27-run08-current-warm-projection-and-complete-old-carrier-repair.md；未完成继续。

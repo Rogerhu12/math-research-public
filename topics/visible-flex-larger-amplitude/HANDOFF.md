@@ -8,8 +8,9 @@
 
 科学计算仅本公开仓库Actions；执行偏差见[早前记录](notes/2026-11-20-public-actions-execution-correction.md)及[四次大JSON整读纠正](notes/2026-11-26-large-file-connector-read-correction.md)、[本次大文件搜索纠正](notes/2026-11-27-bounded-text-search-correction.md)。root唯一分支写者；结论即普通推，NFF立即rebase循环，不强推。每次pull核双README差异并遵新规，至少每小时，记commit。raw只scratch/runner，不入Git/Release/artifact；保完整小源/参数/run/SHA/紧凑结论。题≤200MB、单文件<5MB、MD<100KB、H<10KB、open<30KB。令牌仅瞬时CLI。终端失联与恢复/云API普通快进记录保7774固定H；旧scratch迁移未确认，不冒恢复。
 
-
 目标：同一固定g、闭连通C²嵌入、全t强C²连续；固定有内点H且diamH≥.2D、整像δhold≥.2D、含反射δE>0；全t reach≥.03D、整面relative metric≤1e−6；固定g/参数/范围的真实mesh和频率精化至机器或原求解容差，多t可复现网格，准确说明严格存在缺口。D为完整F0直径。R248准确相位恒等式处理全t，不新增独立t插值门。有限误差/开放片/障碍不完成。
+
+本次终端约02:50 UTC失联；2026-11-27 03:27:50 UTC 通过云API读 main `23f15deae4a74da6399b00830796139869b5cc15`，双README整SHA与上次同，未冒真实pull。以最新父普通快进/保CI槽继续，恢复后立即真实pull/rebase；完整来源/边界见08修复note。
 
 ## 完整历史与共同模型
 
@@ -21,33 +22,25 @@ raw保留：[前24次](notes/2026-11-20-resume-raw-retention.md)、[25次R87](no
 
 旧03b/03/02/04/05全输入/失败/μ/来源保b764固定H及其链；R697/R702/R705不重做。04仅1–49返/50已启取消，05仅1–18返/19已启未知/20未返，详各终态notes；02止49/50未跑、01止77、旧03 stage7未知。旧direct九history未准入；未知历史不冒空。
 
-[06全PCG源/参数](notes/2026-11-26-run06-complete-regeneration-and-current-PCG-request.md)保父链/四history/8A+8A*/PhaseI/SOC；[36–40全归档](notes/2026-11-27-run06-returned-stages36-40-complete-parameter-archives.md)仅移五真返、六后继全保。38两接受未驻、39四restore后g正；[40真返](notes/2026-11-27-run06-actual40-interior-restoration-and-accepted-metric-direction.md)df925→75f0/e62，一restore及一metric接受，g=−5.35015743e−9/Kprod=.99199999465，Phi=.00683704255/max=.03685242646；2813/2780全known/双号及μ=.01保，无连续/驻点证书。[独立PCG](notes/2026-11-27-run06-actual40-independent-complete-current-PCG-branch.md)b527以全75f0/e62起点、μ取40全report、必读41全地点，插41后/42前，原四history及原PCG全保。 [41真返](notes/2026-11-27-run06-actual41-cached-backtracked-SOC-and-PCG-admission.md)75f0→4b2b/8a8b，ownPhi=.00666148703/max=.03657742603、g=−2.88968305e−9；1metric/0restore、2871/2821全地点保。新b527已实际running，仍从40起且必读41全地点；未返PCG结果不填。
+[06全PCG源/参数](notes/2026-11-26-run06-complete-regeneration-and-current-PCG-request.md)保父链/四history/8A+8A*/PhaseI/SOC；[36–40全归档](notes/2026-11-27-run06-returned-stages36-40-complete-parameter-archives.md)仅移五真返、六后继全保。38两接受未驻、39四restore后g正；[40真返](notes/2026-11-27-run06-actual40-interior-restoration-and-accepted-metric-direction.md)df925→75f0/e62，一restore及一metric接受，g=−5.35015743e−9/Kprod=.99199999465，Phi=.00683704255/max=.03685242646；2813/2780全known/双号及μ=.01保，无连续/驻点证书。[独立PCG](notes/2026-11-27-run06-actual40-independent-complete-current-PCG-branch.md)b527以全75f0/e62起点、μ取40全report、必读41全地点，插41后/42前，原四history及原PCG全保。 [41真返](notes/2026-11-27-run06-actual41-cached-backtracked-SOC-and-PCG-admission.md)75f0→4b2b/8a8b，ownPhi=.00666148703/max=.03657742603、g=−2.88968305e−9；1metric/0restore、2871/2821全地点保。新b527仍从40起且必读41全地点；最新实际状态见下方CI槽，科学child与纯读回须分别据完整返回归因。
 
 ## 已刊工具与未付目标
 
 [R716](results/R716-asymmetric-fixed-caps-and-centred-volume-moment.md)已证完整重心补偿Beff=B2−b1²/V，既定R661 p4的ReBeff≥747π/80000000000>0。同场完整A2≠0即可由π/4或π/2排含反射全等，且可消费R625定量界，不改帽/g或迁旧6077无平面。真实A2及同场闭嵌入/法向管仍欠。
 
-R709完整凸均值正根及两角jet已证；R711/R712十二片profile及中央Fss比较已证。全旧输入、九/十源和未准入history责任保固定H与完整notes；192正权、全(0,π)、m32及全部自由量不删，均值J不迁normal Cu，不冒K/reach。
+R709完整凸均值正根/两角jet、R711/R712十二片profile/中央Fss保；全来源与未准入责任见固定H/notes。192正权、全(0,π)、m32/全部自由量不删；均值J不迁normal Cu，不冒K/reach。
 
 R700限固定M/正ρ，旧QR未跑。[全时连续合同](notes/2026-11-27-new-envelope-full-phase-continuous-geometry-contract.md)保完整hΔ六jet、同D+/K/支撑/握持：R248只归约活动像，固定p4帽仍需同A的R650或全mixed pair，旧6077无平面不迁。[β论文](notes/2026-11-27-same-field-positive-support-parameter-consumer.md)/[完整consumer](notes/2026-11-27-complete-same-field-support-parameter-executable-interface.md)e0b44已刊全胞整角sweep及全局β/帽/K预算，减域不覆盖八必需角色、同路径绑定不改；只核代数，准确六jet/全局证明/真实输入仍欠，不作求解门。
 
 R710/R713条件链保固定H。[全实际mean批费用](notes/2026-11-27-material-envelope-complete-seed-fee-adapters-and-all-batch-schedule.md)285994/ce686/3feff已加入07纯读后，所有实际批/角字/失败三字段保；600/60预算非完成。[完整节点费](notes/2026-11-27-complete-immutable-reference-node-fee-design.md)80744/81ce排其后，含全E/积分查询、真新四jet、准确affine/全支持支/向上费用；不冒旧cache字同。尚无费用真返，normal/连续角/rawΔ/F六jet仍欠，不作求解门。
 
+R714全C1/m32、R715 raw hΔ完整六jet责任及[旧八源/严格terminal继承](notes/2026-11-27-complete-detached-stage-matrix-and-history-transfer-entry.md)保。[原08九源](notes/2026-11-27-adjacent-frame-complete-entry-and-independent-envelope-run08.md)及fd6原科学体不改；[实际失败与完整修复](notes/2026-11-27-run08-current-warm-projection-and-complete-old-carrier-repair.md)保原2–5完整参数/返回，3–5失败不抹。新6cc核当前全消费投影并按原2397叶重建整dc5；1e2c/5c5c/a52e/475f全源码链三步接入、未冒返回。原变量/32阶段/全部E/typed和科学后缀保；未知07终态/typed仍欠合入，不冒AD字等/提速/证书。
 
-
-R714全C1/m32、R715 raw hΔ完整六jet责任保。[旧八源/严格terminal继承](notes/2026-11-27-complete-detached-stage-matrix-and-history-transfer-entry.md)完整保；7d950未准入。[相邻frame完整入口08](notes/2026-11-27-adjacent-frame-complete-entry-and-independent-envelope-run08.md)955d/d5da/91c8/c0cc及fd6全九源已刊，root完整纯再生同SHA，原全科学后缀保；8c1e只绑定本run实际输入，5f22全E不减。独立08从完整原reference启动，未知07终态/typed不冒继承，适用新历史后续仍须合入；无AD字等/提速/准确证书。
-
-
-
-[06首启失败](notes/2026-11-26-run06-startup-failure-unfetchable-rules-commit.md)45903578703仅规则ref fetch失败、科学未启；完整原输入/后继责任保06链/固定H，不借旧run填值。
+[06首启失败](notes/2026-11-26-run06-startup-failure-unfetchable-rules-commit.md)45903578703仅规则ref fetch失败，未启科学；原后继责任全保。
 
 [07完整原输入/真carrier](notes/2026-11-26-run07-actual-restored-old-carrier-and-radial-word-identity.md)1–3真返，3df/e640同、整dc5恢复且cells/u/Gauss全字同；[05全部来源](notes/2026-11-26-run05-all-source-material-envelope-closure.md)保1–18及19未知。root独立policy2全E/typed真筛、不冒旧protected顺序；[c79/7299/bd1a消费者](notes/2026-11-27-complete-material-envelope-consumer-and-preserved-prefix-rows.md)与[cc0a/b93a/104e完整入口](notes/2026-11-26-complete-material-envelope-cached-normal-entry.md)原全部变量/Phi/m32/预算保，07仍仅1–3返、新场待返。
 
 [新SO3同g精化合同](notes/2026-11-27-same-g-so3-normal-refinement-contract-and-entry-design.md)已证三旋转通道正确零嵌入、固定参考分离及全normal同支条件包含；原M160参考不随currentM320改，全部历史/原观察权保。完整新入口正在实现，未冒精化读数；径向准确affine/积分/rawΔ/新E及N后继仍欠。
-
-
-
-
 
 <!-- visible-larger-parallel-06:start -->
 并行公开Actions06：[run 45904402595/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45904402595)；[实际记录](notes/2026-11-26-public-actions-45904402595-1.md)。阶段`followup:complete-current-PCG-from-actual40-after41-independent-pair-20261127-run06`/failed；已返42，exit=1。
