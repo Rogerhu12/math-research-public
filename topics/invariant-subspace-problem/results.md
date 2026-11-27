@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R271：一对加四独立原 S2 严格总迹缺陷](results/R271-appendix-one-pair-four-independent-s2-strict-trace-deficit.md)：真实全源第一谱系数在五个闭域严格正，给对称四维 Tr 费用 <4、完整五维 <14/3。实际 180 秒仅 c1 完成，完整 S2 与七位联合仍未付。
+
 - [R150：真实 Q 关系、同 λ 原商与完整 354 点界](results/R150-appendix-unit211-Phi-zero-H1-original-Q-relations-same-lambda-and-354-points.md)：五块原 Q 幂关系全返回；末 5 块的同 λ 原商为 5 维，其余四块完整保留。给 14/59/177/354 界，不将模头零提升为特征零头零。
 
 - [R271：一对加四独立完整九维加强 S1](results/R271-appendix-one-pair-four-independent-full-nine-dimensional-strengthened-s1.md)：原三叶 companion 的三 Schur 谱系数在全部五闭域严格正；实际 57.527394568 秒全返回，碰撞由原连续谱覆盖。仍未支付 S2、七位联合或同 W 无限费用。
