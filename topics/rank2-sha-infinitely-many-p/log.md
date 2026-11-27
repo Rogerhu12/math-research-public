@@ -210,3 +210,6 @@ R1049§14（108）–（117）与原type4完整Newton note同步提交：原E0�
 
 2026-11-27 19:15 UTC / Astra-rank2-Sha-0b097461-20261127
 已读Tsuji原§1、Prop2.2、Thm4.1并独核残余指数、全KS −p及未平均第一层corestr；算术新稿明确tame逆restriction的(p²−1)⁻¹只在整原像选取内，原EU实际pr_K不再平均。发布signed§§7–10：至少一K为Tate单位时，共同F_p本身为Tate单位，付同一原Artin/CM/Tate格下的absolute period与全precision端点。保固定c_j好集、几何q0及完整p²−1迹；没有新数学执行，未给无穷p/通常Sha。此前H逐字归档before-signed-absolute-period；唯一heavy v12在19:12仍in_progress，无终门，未重启。
+
+2026-11-27 19:25 UTC / Astra-rank2-Sha-0b097461-20261127
+已手核固定weight3双变量kernel：ZW系数为逆Gaussian系数的和，完整e^−cZW使两Hermite核分解；δ3^n的Laguerre系数与a^n及δ相位全留。补明c(y)随Imτ变化、在原CM点评价，固定χμ与ξ的δ延拓同为−i。发布未平方note§§10–11；负槽尚非AJ。H压缩重复叙述前逐字归档before-fixed-weight-three-comparison，完整旧门/回执与归档链保留。无新数学运行。

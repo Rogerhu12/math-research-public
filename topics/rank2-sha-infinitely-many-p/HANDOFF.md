@@ -8,7 +8,7 @@
 
 root独占git/H/open/log/index；每条结论即推。非快进立即实际pull --rebase、检查README差异、重比新父后再推到成功，不force。令牌只命令行/进程，不写文件/提交/API。数学执行只在公开Actions，4CPU/16GB/6h；根规则15禁止存可重算结果/日志/矩阵缓存，必要输入证书和脚本/参数/run/hash照原规。H<10KB、每MD<100KB、topic<200MB。
 
-本次整理前[完整交接](notes/2026-11-27-handoff-before-signed-absolute-period.md)逐字保所有旧参数、门、失败及更早归档链；[open](open.md)、[results](results.md)、[R1001–1050索引](notes/PROOF-INDEX-R1001-R1050.md)给实际状态。不重做已登记结论，不将旧反例或未付条件删为已付。
+本次整理前[完整交接](notes/2026-11-27-handoff-before-fixed-weight-three-comparison.md)逐字保所有旧参数、门、失败及更早归档链；[open](open.md)、[results](results.md)、[R1001–1050索引](notes/PROOF-INDEX-R1001-R1050.md)给实际状态。不重做已登记结论，不将旧反例或未付条件删为已付。
 
 ## 实际同步与规则
 
@@ -23,17 +23,19 @@ v9/v10/v11全部终态及失败链见[终点链](notes/2026-11-27-artinian-v7-fi
 
 唯一v12 run46033409751/job140622660136/source048e20343a5f7ec65db9089d824d0635d6815b2b自16:25:38UTC执行；19:12job仍in_progress，18:07:58实际joblog仍404BlobNotFound，未得数学终门。完整二次域native软件run46032975863已PASS；保原两char0 pins/60源/29/2453/64/minimal、全部四交/Norm/18×9门、Sage10.6与21000s。矩阵只在进程内保完整忠实表示，不落盘；不并行启动重作业。全部pins见[完整返回](notes/2026-11-27-complete-quadratic-polynomial-returns.md)。
 
-## 当前原惰性最高类与同源负二链
+## 当前原惰性最高类、同源源与实际signed端点
 
-R1049（约93KB）保原54图/full9/η/Cor/degree34，几何使用仍须p>q0（R1014界未知）。原新增NS指数1,p、全部Chern/Miller/PD同伦和FL已付：proper AJ=pI/(p+1)，h=x+puy=a_j⁻¹I，logBK=p h/(p+1)，upbar=−cQ。§12全图置换/η/Cor/三DFT给hbar=−3δαa_j⁻¹[L:H]Tg，原g=θ(ψ27^(p−1))(τ/3)完整width3/所有p倍系数已付。§13全部3相位、2/17权倍率、p球Euler、无穷平移及阶乘给Tg²=U_jp((p−1)!d_j,p−1)²，固定坏集外U单位；不从复非零猜模p单位。
+R1049约93KB，原54/full9/η/Cor/degree34、Chern/Miller/PD同伦和FL全保；几何使用仍须p>q0（R1014界未知）。真实proper AJ=pI/(p+1)，h=a_j⁻¹I、logBK=p h/(p+1)，原全NS指数1,p。§§11–14把完整几何首层接到原type4整行，全部变p因子已消；原α0bar=(pcσ)⁻¹、αAbar=2^((p+1)/3)/(pcσ)。全旧细节与回执在上方归档及原文，禁止重做。
 
-§14原两仿射Cech/R887全二挠主部给α0bar=(pcσ)⁻¹；I27两微分与半线性给αAbar=2^((p+1)/3)/(pcσ)。[同D1负二Newton](notes/2026-11-27-original-type-four-inert-negative-two-newton-and-signed-line.md)保完整尾ceil((h(p−1)+6)/(2p))、K=J/(pv)、Kmodp=d_j,p−1/(34pcσ)及全整数权m!/(k−1)!。D17严格K17=K1/17。原残余平方hbar²=C_j a_j⁻²[L:H]²Kbar(0)²，C_j=−972ω34⁴εperiod⁻³c_jγ_j；全部变p常数已消。细节和所有坏集完整留原文/归档。
+[原负二Newton](notes/2026-11-27-original-type-four-inert-negative-two-newton-and-signed-line.md)：同D1、C=34cσ，a_h完整尾≥ceil((h(p−1)+6)/(2p))，J∈pvO〈v〉、K=J/(pv)，Kmodp=d_j,p−1/(34pcσ)常数；首行单位等价K Tate单位，全部d_dk−2赋值1−k−vp((k−1)!)。D17严格K17=K1/17。
 
-[固定weight5共同基](notes/2026-11-27-original-weight-five-toric-artin-basis-and-common-phase.md)给B_j=(17δ/9)T_j,5、B_j²=C_j，严格Artin线/H∩E=K及三标签共轭均付。[未平方全源](notes/2026-11-27-original-unsquared-toric-theta-source-and-newton-pullback.md)进一步保两torus完整角色、γ=diag34真实坐标/两极化、3处δ lift和chirped Gaussian，锁ε_k=−(−1)^((k−5)/6)。整个生成函数为G_j(Z)=B_j t⁴D_j(δZ/t)/(408δ)，t=2^(1/3)，是原A→E0 degree3同源的degree102截面；原残余向量遂准确a_j hbar_j=−[L:H]B_jKbar_j(0)，不逐j选根。实际completion Ctor=34cσ(δ/t)^(p+1)，逐系数全精度Jtor=−B_jJ/(306δ)、Ktor同；不能用102cσ,A免费替换Ctor，必须保全指数修正。此为同源theta源等式，原AJ/椭圆单位/真正rank2 canonical全精度接合仍须付。
+[固定weight5基](notes/2026-11-27-original-weight-five-toric-artin-basis-and-common-phase.md)与[未平方全源](notes/2026-11-27-original-unsquared-toric-theta-source-and-newton-pullback.md)：B_j=(17δ/9)T_j,5，B²=−972ω34⁴εperiod⁻³c_jγ_j，原Artin线及三标签共轭已付。完整seesaw/γdiag34两极化/3处δ lift/chirped Gaussian锁六步负号；G_j=B_jt⁴D_j(δZ/t)/(408δ)，t=2^(1/3)，是原degree3同源degree102截面。残余a_j hbar=−[L:H]B_j Kbar绝对负号已定。Ctor=34cσ(δ/t)^(p+1)保全指数修正，Jtor=−B_jJ/(306δ)、Ktor同，不免费替换102cσ,A。新增§§10–11：同一固定weight3 χ=ν27²双变量kernel保交叉cZW；正常排序后两个完整Hermite槽(n,n+2)与a^n Laguerre/δ3^n逐项一致，全部finite characters和δ相位i^(r−n)保留。n=−2只定位原D−2/β0，尚非Coleman/fp值。
 
-原34δ/18/30椭圆单位在真实HT(2,−1)的M+；augmentation为整Hf。[同一signed全精度](notes/2026-11-27-original-type-four-inert-signed-cross-comparison.md)已付c_j的原Artin方向及A_j=F_p(c_j/a_j)K_j²。新增§§7–10关闭该定义范围的绝对period：先取Δ等型的pro-p二变量，残余2−p/2p−1给整perfect base change；valuation twist1−2p杀非单位商，所以每个原整类有整universal Coleman原像。完整KS/isogeny因子为−p，未平均第一层corestr保全部p²−1点；同一ω/Tate格exp*在m=p−1落p⁻¹O，实际EU由原μ/18、m!和1+1/p取到赋值−1。因此若一K为Tate单位、固定c_j为单位，则F_p本身为Tate单位，v_pA_j(0)=2v_pK_j(0)，hEU=u_pF_p(0)(c_j/a_j)K_j(0)²；同几何好范围原hEUbar非零⇔hgeombar非零⇔Kbar非零。仍不冒两类全精度相等，也未给无穷p或canonical J′。原[p²全norm](notes/2026-11-27-original-inert-p-square-full-norm-and-endpoint-zero.md)保depleted端点0、raw norm/p²回I，不能删p+1回返。
+[同一signed全精度](notes/2026-11-27-original-type-four-inert-signed-cross-comparison.md)：原34δ/18/30单位在HT(2,−1)的M+，A_j=F_p(c_j/a_j)K_j²。§§7–10已关闭同一K_*单位范围的绝对period：Δ等型pro-p二变量残余2−p/2p−1与valuation twist1−2p给每个整类的整Coleman原像；全KS/isogeny −p、未平均第一层p²−1迹与同ω/Tate格给m=p−1的exp*整界p⁻¹O。原EU由μ/18、m!、1+1/p取到−1，迫F_p为Tate单位。故v_pA_j(0)=2vpK_j(0)，hEU=u_pF_p(0)(c_j/a_j)K_j0²；同几何好范围EU首层非零⇔几何首层非零⇔Kbar非零。仍不冒两类全精度相等，固定c_j/γ好集与q0始终保留。
 
-固定p29唯一run46043135878/job140655635855/source346dd26f已付原完整PB4行(20,27,7,20,23,21)及全部回乘；CM13整谱与Frob²三循环进一步给三个D_j的z28单位。故三K_j,29为Tate单位、全部d_j,30k−2赋值1−k−v29((k−1)!)；这是纯theta结论，不要求29通过c_j/γ坏集或q0，也非无穷p。消费者§6再付原PB4整行零已严格等价同一H₂=ω的全部17维零functional：三原半period全34列满足U_e²=−I、两两反交换，故(S₂−I)/2有两17维，原μ6与全17挠Heisenberg相位保持。ℓ_p=ℓ_pΠ4把原三维条件准确提升；原type4单二挠读数为δ/3，不能误称单U_e保持17块。p≡2/5mod9同Frob²循环将全行非零等价三原线全单位；仍未证跨p非零，7p−1下一共振保原j_(p−7)未控项。 原R855/R856全热递推与固定水平cover已读并复用，不重做；p−1行比Bol共振少一阶，不能由p-curvature零反推单位。
+[p²完整norm](notes/2026-11-27-original-inert-p-square-full-norm-and-endpoint-zero.md)已付incoming depleted和0、raw norm/p²回I，保全部p+1回返。geometry新增fixed-base向外两退化式候选blob dc3babe8f5c856a82777b08819fecef6e2e62f52已root初读，待最终发布；不将两个模问题混同。下一继续真实AJ/Newton正则化，不能将负槽或p^weight形式赋值替代。
+
+固定p29唯一run46043135878/job140655635855/source346dd26f的完整PB4行(20,27,7,20,23,21)与CM13/Frob²循环已付，故三K29单位；纯Newton不替代c_j好集/q0。原whole17提升已付：完整U_e²=−I、反交换、Pω秩17且E17 Heisenberg保持；ℓp=ℓpΠ4使三维PB4行零等价全17零functional。p≡2/5mod9全行非零等价三线全单位，仍未给跨p。central新原四元平均B及全三列矩阵候选blob5d34a835ffc0da9948f425d3f8930e2c35cab67f已root初读；B³不与CM13同谱，不免费产生canonical零。
 
 ## 主目标及其余原门
 
@@ -41,7 +43,7 @@ R959/R970–983固定E65/E65³/E260/E54925/E8125，rank≥2、完整finite/perio
 
 R1042§§13–15完整Hurwitz前缀、q13真实回执、全部奇r、13³ray全Euler与Smith成本，以及17/36双源整blow-up/2D环境检测已付；指定scalar Schur、低卷积和完整补域仍开。R1040/46/47全角来源、R1044全carry、R1045三实际负一点值/完整五sigma奇部非零均不替代canonical行。所有run/hash/来源与范围在归档和原文，不重跑。
 
-unitary§§10–15的完整5-old正支−G126/(90b)、负支K反演−1/5及原非零K/Y已付；全5/p-new必须补偿旧质量差c_nJG0/(90b)≠0，不能删补项或把另一角非零换作同一坏零。[全p字返回](notes/2026-11-27-original-connected-words-and-full-p-character-return.md)已付逐Weyl相位、无平移与共同Tate单位；所有θ在Yunit准确回θ(ε/2)θ(Y/K)门，全和还原原g_n^-ε推前。继续完整S3150的实际Katz/root/点特征，再找真正canonical forcing。R774/R749只给有限全点和，不给中央log无限尾免费点投影。
+unitary§§10–15的完整5-old正支−G126/(90b)、负支K反演−1/5及原非零K/Y已付；全5/p-new必须补偿旧质量差c_nJG0/(90b)≠0，不能删补项或把另一角非零换作同一坏零。[全p字返回](notes/2026-11-27-original-connected-words-and-full-p-character-return.md)已付逐Weyl相位、无平移与共同Tate单位；所有θ在Yunit准确回θ(ε/2)θ(Y/K)门，全和还原原g_n^-ε推前。root已写完整S3150/450的实际Katz/root/点特征候选blob242627dc74f89e65aba1aeb9ce29c6b030bf27a9，geometry已独核7处/CRT，arithmetic审全split/root与point-only投影；尚未发布作结论。继续真正canonical forcing。R774/R749只给有限全点和，不给中央log无限尾免费点投影。
 
 R1043§§19–22原Manin/KS/Hasse/对偶运输/三权下降、全部CM289级别和1/2接触已付；R1039全Jac F²=−q、R1041原Pell/厚点保持。三个实际T_a全p整除须先有同一位三完整J全零；原Sha坏尚不迫之，Fr−unit核只p个点。原q5/q11全shadow倒6零、q11 NS/Br/MW与唯一Manin回执不重跑。
 

@@ -559,3 +559,146 @@ R1049目前已付的首层式(5)不替代该额外等式。
   §§1–5、[R1006](../results/R1006-actual-full-nine-trace-and-original-katz-square.md)
   §§2–5、[R1049](../results/R1049-original-inert-syntomic-graphs-and-crystalline-lattice.md)
   §§12–14及原共同相位、negative-two Newton两篇笔记。
+
+## 10. 同一个固定 weight3 来源的双变量核
+
+前八节的 $\mathscr G_j$逐权改变 binary theta 的 source character。
+为了把它接回原固定 $f=\theta(\psi_{27}^2)$，必须同时保留另一
+rank-one theta 因子；不能只把 $k=-1$代入(3)。
+
+仍用§5的 $a,G,A_R,A_I,S$。令
+$$
+I(Z,W;r,s)=\int_{\mathbf R^2}
+e^{-\pi a(\sqrt3+i)(x^2+y^2)}
+e^{Z(x-iy)+W(x+iy)}e^{-2\pi iaS}\,dx\,dy.
+\tag{32}
+$$
+这是同一原 kernel 的两个 coherent 参数，未换 Gaussian、
+极化或有限 Schwartz。两次完成平方准确给
+$$
+\begin{aligned}
+I(Z,W;r,s)
+={}&C_a e^{-\pi G(r^2+s^2)}
+\exp\bigl(2(\omega-1)(rZ-sW)
++\kappa(Z^2+W^2)+cZW\bigr),\\
+b={}&\frac{2(\omega-1)}{\sqrt G},\qquad
+\kappa=-\frac{b^2}{8\pi},\\
+c={}&\frac{A_R^{-1}+A_I^{-1}}{2\pi a}
+=\frac1{2\pi a\sqrt3}
+=\frac1{4\pi a\,\operatorname{Im}\omega}.
+\end{aligned}
+\tag{33}
+$$
+例如 $W$的一次项由 $y$积分与 $Z$情形反向，给
+$-2(\omega-1)sW$；混合项取两逆矩阵的**和**，不是(20)的差。
+于是正常排序后的核严格分解为
+$$
+\begin{aligned}
+e^{-cZW}I(Z,W;r,s)
+={}&C_a e^{-\pi G(r^2+s^2)}
+\exp\left(\sqrt G\,r\,bZ-\frac{(bZ)^2}{8\pi}\right)\\
+&\hspace{18mm}\cdot
+\exp\left(\sqrt G\,s\,(-bW)-\frac{(-bW)^2}{8\pi}\right).
+\end{aligned}
+\tag{34}
+$$
+这是两个完整 Hermite coherent kernels 的乘积，非忽略交叉项
+后的近似。
+
+在 binary 变量中，相应的完整多项式为
+$$
+\mathcal L_{n,r}(z,\bar z)
+=\sum_{\ell=0}^{\min(n,r)}
+\frac{n!r!(-c)^\ell}
+{\ell!(n-\ell)!(r-\ell)!}\,
+\bar z^{\,n-\ell}z^{\,r-\ell}.
+\tag{35}
+$$
+对原固定 weight3 来源取 $r=n+2$。令 $c(y)=1/(4\pi ay)$、$y=\operatorname{Im}\tau$；以下多项式先使用这个随 $y$ 的系数，最后在 $\tau=\omega$ 评价。在同一 quadratic form $a|z|^2$上有
+$$
+a^n\mathcal L_{n,n+2}
+=z^2\sum_{j=0}^n
+\binom nj\frac{(n+2)!}{(j+2)!}
+\left(-\frac1{4\pi y}\right)^{n-j}(a|z|^2)^j.
+\tag{36}
+$$
+右边正是 $\delta_3^n$逐项作用于
+$z^2e^{2\pi i a|z|^2\tau}$时的多项式，采用
+$\delta_k=(2\pi i)^{-1}(\partial_\tau+k/(\tau-\bar\tau))$。
+证明可对 $n$归纳：对 $y^{-h}$求导给
+$h/(4\pi)y^{-h-1}$，与随权 $3+2n$ 的第二项合并，
+即得(36)的二项式递推。因此这一步确实返回同一个
+$\theta(\psi_{27}^2)$的 raised vectors，而非另一个仅有相同
+无穷型的形式。$a^n$是已指定坐标的 quadratic-form 尺度；
+在 adelic 与几何微分值比较中必须保留，不能据(34)删去。
+
+## 11. 固定来源上的完整有限角色及两个 Hermite 槽
+
+本节只说明实际 finite source 和两个槽的身份，不预记一个
+负整数的解析延拓。置
+$$
+\chi=\nu_{27}^{\,2},\qquad
+\xi_{j,n}=\eta_j^{-1}\nu_{27}^{-(3+2n)},\qquad n\equiv4\pmod6.
+$$
+取与§2完全相同的 splitting $\mu=\nu_0$。
+两个 rank-one Hilbert90 pullback 现在为
+$$
+\widetilde\alpha_1=\eta_j^{-1}\nu_{27}^{-(2n+1)}\nu_0,\qquad
+\widetilde\alpha_2=\eta_j\nu_{27}^{\,2n+5}\nu_0.
+\tag{37}
+$$
+逐项相乘、相除给
+$$
+\widetilde\alpha_1\widetilde\alpha_2
+=\chi^2\mu^2,\qquad
+\widetilde\alpha_1/\widetilde\alpha_2
+=\widetilde{\xi_{j,n}|_{K^1}}.
+\tag{38}
+$$
+完整中心延拓也保留：原 $\eta_j(\delta)=-1$，故
+$$
+(\chi\mu)(\delta)=-i,\qquad
+\xi_{j,n}(\delta)=-i^{-(3+2n)}=-i
+\quad(n\equiv4\bmod6).
+$$
+其与旧逐权 source 的不同 uniformizer 值由下方(39)的真实 similitude 同步处理；不能只比较 norm-one 单位。
+
+除去共同 $\mu$后，第一因子是
+$\eta_j^{-1}\nu_0^{-(2n+1)}$，因为 $3\mid2n+1$；
+第二因子是 $\eta_j\kappa\nu_0^{2n+5}$。
+所以第一条始终是原 R806 的 type4 finite source，
+第二条始终是固定 $\beta_j=\eta_j\psi_{27}$的 type0 finite
+source。其 Hermite 次数分别为 $n$和$n+2$。
+有限单位、different、2/17全部邻点以及3处243项投影，
+均为§3的同一组算子；没有换成两个任意存在的 theta vectors。
+
+还须保留非单位 $\delta$的 similitude。
+在 $\bar z^n z^r$上，这个真正的 lift 给
+$i^{r-n}$，即在 coherent 参数中同时作
+$$
+Z\longmapsto-iZ,\qquad W\longmapsto iW.
+\tag{39}
+$$
+故原固定 source 的 $r=n+2$槽给恒定相位 $-1$。
+(34)的两条 Hermite 参数则同时变为 $-ibZ$与$-ibW$：
+第二因子原有的负号不能遗漏。
+(39)保持 $ZW$，所以完整收缩 $e^{-cZW}$也不变。
+这直接解释为何单变量的六步号不能不经双变量核就套到固定
+weight3 的 raised family。
+
+这里所谓“固定 beta theta source”有具体含义：先对§3的同一个
+有限 Schwartz 作用(37)的两个 torus projectors，然后按同一
+全局变极化分解；第二因子就是所得 positive rank-one Schwartz。
+它的 Hermite 真空非零，由已付的 $T_{j,5}\ne0$及§3的未平方
+积分交换推出。以后若需它的 Taylor 系数，必须用这个向量，
+不以任意另一个中心 $L$值非零的向量替换。
+
+在纯形式的槽标号上，$n=-2$是
+$$
+(\hbox{原 type4 的 }-2\hbox{ 槽},
+ \ \hbox{原 beta 的 }0\hbox{ 槽}).
+\tag{40}
+$$
+(40)只确定必须作正则化的两条实际来源。一个幂级数没有
+$Z^{-2}$系数；因此(34)本身尚未给 Coleman/fp 值，
+也不允许把其负槽定义成零。

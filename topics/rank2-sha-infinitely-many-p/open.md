@@ -111,3 +111,8 @@ R1049§12（80）–（88）：原Chow层严格图置换将全部η/Cor折为[L:
 ### 同一signed共同因子的绝对整周期已闭
 
 [原signed比较§§7–10](notes/2026-11-27-original-type-four-inert-signed-cross-comparison.md)先取Δ等型pro-p二变量，残余2−p及2p−1付整perfect base change，valuation twist1−2p付整norm-compatible Coleman原像。Tsuji原整PD、完整KS/isogeny及第一层未平均corestr给m=p−1的exp*整界p⁻¹O·ω0^(2p−1)；全部p²−1点及−p、原Tate基单位、μ/18、m!、1+1/p均保留。原EU正权值在K_*为Tate单位且固定常数单位时恰取赋值−1，迫A_*(T(1))单位；T(1)∈pO再迫F_p∈O⟨v⟩×。故同定义范围v_pA_j(0)=2v_pK_j(0)，全精度K_j(0)非零⇔真实loc_p z_j非零；同几何好范围首层EU非零⇔几何首层非零⇔Kbar非零。未声称无K单位时也成立，未把29纯Newton回执当c_j/q0合格证明。共同F_p(0)不再是此范围的开放项；继续原完整有限读者对canonical坏的真实forcing、跨p首行非零及同54图的Coleman/AJ类比较。
+
+
+### 固定weight3的同一双变量源已付
+
+未平方note§§10–11保完整交叉cZW，正常排序后两个Hermite槽(n,n+2)与a^n Laguerre/δ3^n逐项一致；固定χ=ν27²的两全finite characters、δ延拓及i^(r−n)相位同时保留。第二因子是实际β_j完整theta截面，非任取非零真空。原n=−2的真实位置为D−2/β0；继续同54图、全p²范数和J/(pv)实际Coleman/fp正则化，不从形式槽直接宣称AJ全精度等式。

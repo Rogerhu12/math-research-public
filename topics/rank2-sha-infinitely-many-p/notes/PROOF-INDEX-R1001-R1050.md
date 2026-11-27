@@ -343,3 +343,5 @@ R1049§12（80）–（88）：原Chow层严格图置换将全部η/Cor折为[L:
 [完整证明](2026-11-27-original-unsquared-toric-theta-source-and-newton-pullback.md)。原双torus未平方seesaw保全characters、γ=diag34与两极化的真实坐标图、3处δ norm lift及原chirped Gaussian。六步相位准确为负，故ε_k=−(−1)^((k−5)/6)；全toric生成函数G_j=B_jt⁴D_j(δZ/t)/(408δ)，为原degree3同源拉回的degree102截面。原残余向量a_j hbar_j=−[L:H]B_jKbar_j(0)绝对负号已定。使用真正Ctor=34cσ(δ/t)^(p+1)，全Newton逐项给Jtor=−B_jJ/(306δ)、Ktor同；与102cσ,A之差的完整指数修正仍保。没有从该theta源恒等式直接宣布原AJ、EU或rank2 canonical类相等。
 
 - [原type4 signed绝对period](2026-11-27-original-type-four-inert-signed-cross-comparison.md)§§7–10：在原Δ等型/pro-p二变量先用残余2−p和2p−1消H0/H2，再以valuation twist1−2p将整原像置于单位；Tsuji整PD lift与全KS因子−p保第一层未平均p²−1迹，exp*整界p⁻¹O与原EU的μ/18、(p−1)!、1+1/p及同Tate格比较。K_*单位迫F_p∈O⟨v⟩×，原signed与K²给完整augmentation赋值；几何首层与EU首层等价保全部固定坏集/q0。未免费提升cycle equality或cross-p非零。
+
+- [固定weight3全双变量seesaw](2026-11-27-original-unsquared-toric-theta-source-and-newton-pullback.md)§§10–11：同一变极化的完整Gaussian给cZW及e^−cZW正常排序，两Hermite槽为(n,n+2)，a^n·Laguerre逐项是原δ3^n。χ=ν27²及两rank-one全finite characters、δ(χμ)=ξδ=−i保留；n=−2只定位真实D−2/β0，未把负幂槽当Coleman值。
