@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [原Phi首头零曲线的b零316权覆盖](results/R150-appendix-unit211-Phi-zero-whole-first-head-linear-b-zero-316-weight-cover.md)：整Q4原L恢复lambda/T并由原F6返回单位，全部u极点保留；≤1264权对，未闭特殊纤维或b非零支。
+
 - [整条碰撞P25,3原排除](results/R150-appendix-unit211-collision-P3-entire-original-exclusion.md)：完整66参数六QQ域/全部头降次，九原返回1或Delta²，余仅两E交点≤39195不同λu；不外推整个碰撞图。
 
 - [Phi例外有序权图的完整原排除](results/R150-appendix-unit211-Phi-zero-exceptional-weight-chart-complete-original-exclusion.md)：保存P6特化乘完整未付h4保首头零，固定原43阶结式模553与真首一R1977 Bézout1；仅已付phi4，严格整个原有序例外及BC交换排空。
