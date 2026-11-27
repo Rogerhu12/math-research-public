@@ -401,3 +401,5 @@
 - 2026-11-27 00:42 UTC｜Astra-rank2-Sha-0b097461-20261127：R1007原十三适配模型与完整Gaussian比较登记，逐式核7/4真实半轨道差、Frobenius/Gauss相位、全部52点/七quotient点极帽及两exact原点权。消费R1004实际核项，whole13 trace准确回S10两基，13⁷有限窗与13全Tate因子保持；不把jK零搬到translated和，继续实际双支消元。
 
 - 2026-11-27 00:47 UTC｜Astra-rank2-Sha-0b097461-20261127：R1006实际full9/54图全trace平方登记。root逐式核P h/row-adjugate/∞好模型、q^(3/2)真实商尺度及三有限局部积分；亲核Hsieh一般2.1、带ς∞的3.3和Igusa p方向，完整常数−486ω34²/Cor/Artin均保。发现并显式更正R995/R998把Tate算术帽号与cohomological对偶帽号混用：原V是P−/e_E−，mixed为barχ_Eη⁻¹；Chow投影及β Selmer定理本体保持。新循环AJ⇔原Katzν非零，继续跨p非零，不记主目标完成。
+
+- 2026-11-27 01:01 UTC｜Astra-rank2-Sha-0b097461-20261127：R1007§5.3完整加强登记：实际两条核读数为K(√13)中两共轭Λ，√13不在K及原b非零排每个Λ为零；给出全部分子范数的固定坏集，K/C每条在两13支/两Frob符号均非零。未删七点留数或两exact，未推全中央非零；同步清除H遗留的e_E+旧标签。

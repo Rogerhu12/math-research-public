@@ -6,7 +6,7 @@
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。固定有限曲线族联合无穷非零可用无限鸽巢；有限p、随p换曲线、条件桥、接口或单独投影非零不完成。
 
-- 公开根/课题 README 已读至 `95b2228d7d1ae776c7d3363cf2384dd8d5b6edf1`（差异空）；每次pull只读新差异，至少每小时同步并记SHA。
+- 公开根/课题 README 已读至 `11020ef0b05b52d3c7b75b45e9e8dbb3ace1d06f`（差异空）；每次pull只读新差异，至少每小时同步并记SHA。
 - 两仓库已部分克隆。私库QUEUE接手提交41fe885610073f478b2f5a752461ca56cfd43f09已推；00:18UTC pull至d068b7528401ee4bdb36807538380cfe9c84aa08，两README差异空、QUEUE仍本会话进行中。令牌只进程认证。
 - root独占git/H/open/log/index；每条结论即推，非快进立即pull --rebase/读README差异/再推至成功，不强推。数学只用公开Actions；不存可重算输出。H<10KB、每MD<100KB。
 - [此次完整逐字归档](notes/2026-11-27-handoff-before-two-exact-layers.md)及其历史链保全部旧式/回执/未解门；[open](open.md)、[results](results.md)、[R1001–1050索引](notes/PROOF-INDEX-R1001-R1050.md)及前卷为接续入口。
@@ -37,7 +37,7 @@ R985/R987全Heisenberg/Miller及真实22伴随保持：CF仅全四输出push后/
 - R1001：全22列第六Cartier=β6^(1/p)ω/Z，原p曲率矩阵不除H。C³返留数+32个同W6短窗；第一读取还保两exact导数及−4c6/7、7κ5a+，不能丢。
 - R1003：在真V130^{≥12}20维（含B）第六读取可用单P130替P2^65，差阶6p+12越过6p+6。所有移动Z零点仍消，E2帽p³−p²+122p−3<p³使整个C³真零；第六=−6(H̃0′^p+H̃1′^(p²))。精确回p6最后项系数720/840，前五项全精度与低卷积保持。R1005已扩全22：差A_p c6+B_p mass、B_p=−832(3/5)^p/63；两13归一差准确消修正返3Gold/4。完整伴随和Miller运输保持；同双二挠K真零、C=90B−43K从−3151872z18起，坏canonical下jC=−δ(p+1)log/112≠0。仍须两个真实exact层的中央强迫。
 
-- R1004/R1007：两完整13核全22 mass/c6已真PASS，四真来源rank4、K/C各两项rank2，固定norm坏集保留。适配Qπ=P10(πz)/(π10Rπ10)、Zπ=Z(πz)/π与全Miller严格等变；Jπ=qπ^−vJ，质量零导数不变，M/U各自适配差为7dlog/4。原核第六项=−6Tr(X^p b)，其余七个E[2π]点全部留数和两exact带真实原点权。全trace将K/C送到S10两基，有限窗13⁷/全Tate13；未由canonical坏给translated中央零。
+- R1004/R1007：两完整13核全22 mass/c6已真PASS，四真来源rank4、K/C各两项rank2，固定norm坏集保留。适配Qπ=P10(πz)/(π10Rπ10)、Zπ=Z(πz)/π与全Miller严格等变；Jπ=qπ^−vJ，质量零导数不变，M/U各自适配差为7dlog/4。原核第六项=−6Tr(X^p b)；§5.3用K(√13)全范数固定删集给K/C每条、两核/两符号分别非零。其余七个E[2π]点全部留数和两exact带真实原点权。全trace将K/C送到S10两基，有限窗13⁷/全Tate13；未由canonical坏给translated中央零。
 
 ## 四、几何与全局非零
 
@@ -49,8 +49,8 @@ R988严格level12 K3双逆保持，但R990已证明其新CM17全图族在2处Cho
 
 - R991/R994：实际E27 level9/I9–I3（pg=q=1、T=Indψ27²），全3型/2和17 toric向量与54图已付；最高λ仍原角色。三个β27=ψ27η的level31212/root+1及L(1)>0真认证，新Rankin解析阶1。
 - R995：实际三同源F²=[−3]、F*Ω=−δΩ；generic CH0/KMP给[n]=n于t2，f†=−f。P_high=(1+f⊗[δ]*/3)/2严格自伴且降Q；全fiber-product/内外P/η保持。P+转置P−。
-- R998：Kato14.2(2)/CM§15.23及全部Shapiro使β(1)/βc(1)的full BK Hf为0；离散Sel每p有限、几乎全p零。原e_E+另一线正是βc(1)，故原f类全AJ=最高AJ，不创造全类非零。
-- R997：先π1(E)使原图严格同调零；唯一Coleman解Db″+D′b′−6b=−3/v²给AJ=−degφ·b/cφ。BDP3.14全部条件/full9下降/54图全trace/η和对偶均付；fΩ=−δf27(τ/3)、θ^-2含9，depletion循环系数1,−A_p/p²,1/p²。cyclic27条件失败，未套全球5.13。R1002已由严格复值及原始CM周期给全部分裂p/全部系数素位的β27 Katz值非零；原ν和新β的全部有限型/经典权分支及p处四Euler因子核合。geometry继续Hsieh一般toric定理与实际full9分量、54图trace的全球接线，原ν跨p非零仍未付。
+- R998：Kato14.2(2)/CM§15.23及全部Shapiro使β(1)/βc(1)的full BK Hf为0；离散Sel每p有限、几乎全p零。按R1006统一Tate/上同调dual，原e_E−的mixed=barχ_Eη⁻¹=cohomological β(1)，故原f类全AJ=最高AJ；e_E+不由本复值覆盖。
+- R997：先π1(E)使原图严格同调零；唯一Coleman解Db″+D′b′−6b=−3/v²给AJ=−degφ·b/cφ。BDP3.14全部条件/full9下降/54图全trace/η和对偶均付；fΩ=−δf27(τ/3)、θ^-2含9，depletion循环系数1,−A_p/p²,1/p²。cyclic27条件失败，未套全球5.13。R1002已由严格复值及原始CM周期给全部分裂p/全部系数素位的β27 Katz值非零；原ν和新β的全部有限型/经典权分支及p处四Euler因子核合。R1006已付实际full9/54图全球接线；原ν跨p非零仍未付。
 
 - R1006：实际g=P h、det−2原K分量、row/adjugate全9基与光滑∞源已付；完整54商向量P2/P17=−q⁴、P3=−6√3ω。Hsieh一般2.1及Igusa上先消Euler后延拓给raw AJ²=−486ω34²[L:H]²Ωp²KνKβ；原eη的1/18全trace恰消，corestriction倍数不删。原ray Artin对偶再乘1/17。Kβ全部分裂p非零，故新最高图AJ⇔原Kν非零；跨p非零仍须证明。
 

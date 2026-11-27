@@ -332,6 +332,59 @@ $$
 
 特别，即使坏 canonical 假设使 $j_{\mathcal K}=0$，(23)仍给适配三次 Cartier 的非零十三留数（另排其固定范数坏集）。因此原单 $P_{130}$ 对 $\mathcal K$ 的三次零不能无修正地迁到本篇模型。
 
+### 5.3 每一条实际 K/C 核项分别非零
+
+还可用原 Gauss 根把上述“至少一条”准确加强。置
+$L=K(g)$、$g^2=13$，对 $f=\mathcal K,\mathcal C_{130}$ 定义两个固定代数数
+
+$$
+\Lambda_f^\pm
+=6(1-3\delta)t_f\mp1296B_f/g.
+\tag{24a}
+$$
+
+这里的 $t_f,B_f$ 是(22)–(23)的完整有理坐标，不随 $p$ 重新选择。
+因为 $g\notin K$，若 $\Lambda_f^+=0$，则在 $K$ 的基 $1,g$ 中两个系数均为零，迫
+$t_f=B_f=0$；再由
+$t_f=2A_f+\operatorname{Tr}_{R_\pi}(X)B_f$ 迫 $b_\pi(f)=0$。
+(22)排除这件事，故 $\Lambda_f^+\ne0$；另一符号是 $g\mapsto-g$ 的同一扩张共轭，亦非零。
+
+具体固定删集可以不选任何随 $p$ 的符号，直接取
+
+$$
+\begin{aligned}
+n_f&=\operatorname{num}\left(
+ N_{K/\mathbf Q}\left[
+ 36(1-3\delta)^2t_f^2-\frac{1296^2}{13}B_f^2
+ \right]\right)\in\mathbf Z_{>0},\\
+\mathcal S_{\rm individual}
+&=\{p:p\le211\}\ \cup\
+ \{p:p\mid n_{\mathcal K}n_{\mathcal C_{130}}\}.
+\end{aligned}
+\tag{24b}
+$$
+
+$\operatorname{num}$ 指最简正有理数的分子；括号内的 $K$ 范数正是
+$N_{L/\mathbf Q}(\Lambda_f^+)$，所以两个显示整数非零且完全由(22)–(23)确定。
+其所有分母只含 $2,3,5,7,13$，已经包含在第一项中。
+若同时使用(24)的基结论，再并入该式原有的
+$\operatorname{num}N_{K/\mathbf Q}(d_6)$ 素因子即可；它不是本小节单独非零所需的额外输入。
+
+对每个 $p=6s-1\notin\mathcal S_{\rm individual}$，任何原选根和实际
+$\epsilon_p=\pm1$ 对应的 $\Lambda_f^{\epsilon_p}$ 都在每一个约化位为单位。
+由(21)准确得到
+
+$$
+\boxed{\mathcal N_{\pi,p}(\mathcal K)\ne0,\qquad
+       \mathcal N_{\pi,p}(\mathcal C_{130})\ne0.}
+\tag{24c}
+$$
+
+共轭 $\bar\pi$ 支同样成立，因为(24b)已取整个 $L/\mathbf Q$ 范数。
+这是**每一条实际十三核在第一 Cartier 原点读数中的贡献**非零；
+不删除(28)的七点留数、两 exact，亦不把它扩成
+$\mathcal T_{6,\pi}(f)\ne0$ 或 $j_f\ne0$。
+
 ## 6. 剩余 E[2π] 两层 exact 的完整原点读回
 
 以下仍取 $f=\mathcal K$ 或 $\mathcal C_{130}$。令 $\mathcal S_{2,\pi}$ 为 $t=1$ 及六个 $B_\pi$ 根对应的七个 quotient 点；对 $a\in\mathcal S_{2,\pi}$ 记 $x_a=-1/a$ 为对应的 $X$ 值。
