@@ -262,3 +262,5 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 [新三对权完整三塔输入](notes/2026-11-28-three-pairs-original-joint-three-tower-8542.md)：同完整九/五维源中仅剩三/二维非平凡块；用R288真三塔构造S1并保深源，S2含同U0/完整上精度与双cross。x=1+U+V,y=1+V，全5前导主子式皆严格正才算闭合。7d4原首派180秒/4GiB，零外部数据依赖；尚未返回前不作正性结论。
 
 [三加三原联合预算及七位统一首末边](results/R271-appendix-three-plus-three-original-joint-budgets-and-seven-site-uniform-edges.md)：六位(√t³,1³)整个九/五维源F>(2/3)C1²、创新费<F/3（尖锐）、S<I/2；五原完整Gram全部真实逆后压，三全域正多项式保全部cross。真定量Schur给七位(a,√t³,1³)整14维首末边同c*=1−(1−1/√3)(1−1/√2)/3<24/25。R239旧定性不重计；该均匀数值界仍不外推一般独立权。
+
+[一特殊权全部高度的尖锐相对创新费](results/R271-appendix-one-special-weight-all-heights-sharp-relative-innovation-cost.md)：原R293完整同源直接得每合法n的Qn<n/[2(n+1)]Fn，固定n尖锐、全高度上确界1/2，En>(2n+2)^−1 CnG(n−1)Cn；包含硬顶、全部池串重数及s0真空约定。新增n≥2统一数值预算，n1/旧定性不重计。原无限carry不是此单异常串且尚欠ΣFn能量，逐层half不提升整体可和；一般高出生S2/真实同W域继续。

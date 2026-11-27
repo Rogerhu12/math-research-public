@@ -1,16 +1,13 @@
 {
-  "message": "ISP: factor the H1 original source pole support and retain the degree201 complement",
-  "parentCommit": "77fbd76235c779415e7884e22b7539d19f62fa82",
+  "message": "ISP: prove sharp relative innovation budgets at every one-special-weight height",
+  "parentCommit": "30e12e97c9a3995756c00450ff3ed39ed882e3d7",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-Phi-zero-H1-original-Dixon-55-source-pole-support.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-H1-original-Dixon-source-pole-support-execution-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-H1-three-linear-source-pole-original-fibers-8542.py",
-    ".github/workflows/invariant-subspace-8542-h-one-three-linear-original-fibres.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-H1-source55-8542.md",
+    "topics/invariant-subspace-problem/results/R271-appendix-one-special-weight-all-heights-sharp-relative-innovation-cost.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-all-height-innovation-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -19,7 +16,5 @@
     ".github/workflows/invariant-subspace-8542-root-terminal-publication.yml",
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
-  "dispatchWorkflows": [
-    "invariant-subspace-8542-h-one-three-linear-original-fibres.yml"
-  ]
+  "dispatchWorkflows": []
 }
