@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R271：同一右逆的平滑修正、有限孔行与实际核截断通量](results/R271-appendix-same-right-inverse-smoothing-correction-and-actual-kernel-cut-flux.md)：G=R−C、C*高斯矩、R/G可闭及闭值域；同核近似RTf_n有界子列即f∈N，未付原通量上界。
+
 - [R150：Phi0有序碰撞图精确互素原曲线与2051基点覆盖](results/R150-appendix-unit211-Phi-zero-rank-one-value-exact-core-2051-point-cover.md)：c36f实际2.735秒/exit0；双次数77/14、75/13，固定27阶Sylvester核重数保全部首项零；含ell≤4102，未算大结式、未排空。
 
 - [R150：整个J19权曲线的原六列返1和588次完整QQ覆盖](results/R150-appendix-unit211-W-J19-six-generator-original-unit-and-degree-588-cover.md)：f436真11.197秒/exit0，4+10规则、18乘法及21真点行全返；全部范数零保留，≤2352权候选仍待原返回。

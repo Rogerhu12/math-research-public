@@ -4,7 +4,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-J19-finite-588-cover-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-same-kernel-cut-flux-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -140,7 +140,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 [整幂根与闭域](results/R12-appendix-all-integer-power-root-multiplicity-and-closed-root-domains.md)给q|pk的有界分类；新[伴随域包含引理](results/R12-appendix-stable-root-adjoint-domain-inclusion-and-actual-parts.md)证明闭稳定域+DomT⊂DomT*+有限幂有界即T全域有界，不需有界自交换子。不整除根必无该包含；C自伴时D/CD不可比较。R161/R212/R236的真实闭部分可继承包含，未知头像根须先证明是该闭部分；全幂像/平坦性仍不付PH入域。
 
 
-[全交换子兼容喷射](results/R12-appendix-full-commutant-compatible-formal-jets-and-flat-root-denominators.md)只给不整除闭根的实际分母必平坦。新[完整C无任何非零分母定理](results/R12-appendix-full-commutant-no-bounded-regularizer-and-nonclosability.md)已对显式正连续循环f证明PX_f全柱无界、无PH入域、C1∩Cf=0；两轨道均稠密，完整C无可闭性/任何RSC向量。原完整高块误差、固定外锚与全列范数都已付，不能再从I∞/R267的强*密度推出一般分母。继续利用实际闭根或湮灭见证的额外方程构造特殊来源，不把该坏源移给它们。
+[全交换子喷射](results/R12-appendix-full-commutant-compatible-formal-jets-and-flat-root-denominators.md)及[完整C无分母定理](results/R12-appendix-full-commutant-no-bounded-regularizer-and-nonclosability.md)已付：指定正连续循环f的全部非零P皆无PH入域，C1∩Cf0、无可闭性。此全空间坏源不代实际未知闭根；继续利用其额外方程构造特殊来源，不从强*密度推一般分母。
 
 
 [N型最大carry域](results/R271-appendix-maximal-n-carry-domain-triangular-reconstruction.md)已由有限行严格三角重构识别为ρ权平方和域；各Pq h在H且Kh在H即进总孔核心。若同W来源已付Sh∈H，非零W只可能来自D*h与Kh各非H的真实抵消；此来源与抵消排除均未付，Y不套此正交重构。
@@ -149,7 +149,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 [同W首位域与正定来源能量](results/R271-appendix-same-w-first-block-domain-and-positive-schur-source-energy.md)已给Sh∈H iff整个偶块在H，准确费用Γ(u)=sup|〈Ju,JHz〉|²/||Kz||²；原N/Y正则化列的全物理范数不能隐藏该费。W仅付g0∈closure RanK*，续同u的Γ有限性及原1/16输出逆权，不换任意闭包来源。
 
 
-[原图核心与R143实际反根](results/R12-appendix-core-power-bound-and-actual-r143-inverse-root.md)已付S=T⁻¹闭稳定、S²=α0⁻¹B1|K及原D图核心；余RanT⊂RanT*或等价实际伴随域包含，未知K不套全尾根整除。另D=−2Z的D²L核心只在旧有限放大稠密条件下成立，一般慢行不能借B1强单位。
+[R143实际反根](results/R12-appendix-core-power-bound-and-actual-r143-inverse-root.md)已付S=T⁻¹闭稳定、S²=α0⁻¹B1|K及原图核心。RanT⊂RanT*仍开；未知K不套全尾整除。慢D=−2Z的D²L核心仍须原有限放大稠密条件。
 
 
 [闭平方根的实际gauge分母](results/R12-appendix-regularized-gauge-square-root-actual-flat-denominator.md)已给明确P=RQ与Y，完整C自伴性把PT有界返回PH入原域；奇幂根的R/Q本身也须平坦。继续支付同一未知根的实际GR=RT+Q接口及全C自伴域。R143只有原二阶乘子的该接口，不能把头像反根直接识别为它，也不能把一般平坦源变成分母。
@@ -158,7 +158,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 [同一规范来源的全整数窗口倒数预算](results/R271-appendix-canonical-carry-window-reciprocal-energy.md)已付Σ||P≤n w||⁴/E_n≤4Aδ||w||²；非零W必有尾Σ1/E_n有限。可用实际不规则窗口或平方根乘有限层迭代log检验，但已有指数来源界仍不付倒数发散；继续同u的Γ与输出逆权。
 
 
-[所有不整除闭根的实际第一阶接口排除](results/R12-appendix-nondivisible-roots-have-no-actual-first-row-gauge-interface.md)已覆盖Q=FZR+KR、非零UHF交换F与任意有界交换K；有限q²次结式保全部真实域，R171与Puiseux分别排慢/有界行，不需根C自伴。仍须识别未知底空间上的真实gauge比较；原全尾结论不自动作用于R143未知K反根。
+[全部不整除闭根的第一阶接口排除](results/R12-appendix-nondivisible-roots-have-no-actual-first-row-gauge-interface.md)已付Q=FZR+KR整类，完整域/结式/Puiseux保正文。继续识别未知底空间的真实gauge比较，不能把全尾排除直接施于R143未知K。
 
 
 [两模型共同的原平方源图核心](results/R271-appendix-y-carry-first-gap-row-domain-and-common-square-source-core.md)已保Y完整Cayley、R_b:C2→H界12和D*−V_b同阶抵消；同一h∈C2、T*h∈H即原总孔cut同返T*h/Sh。真实W的C2或更宽图核心仍开。
@@ -188,4 +188,4 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 **[整Phi0完整值](results/R150-appendix-unit211-general-Phi-zero-monic-six-same-source-original-values.md)和[有序h1图2051基点覆盖](results/R150-appendix-unit211-Phi-zero-rank-one-value-exact-core-2051-point-cover.md)已付。** c36f真2.735秒/52388KiB/exit0，原(E1,EC)/N1单位目标core的双次数77/14、75/13且QQ gcd1；固定27阶Sylvester保全部首项退化，计不同基点≤2051、含ell≤4102，无大结式展开。四core无低次分解；ca53原ell³取消保留。k1交换不把两图并集偷计同界；所有原有限候选仍待返回。
 
-**[同一个实际右逆作用于全部物理孔指数尺度](results/R271-appendix-single-actual-right-inverse-on-all-physical-exponential-scales.md)已完整证明。** 固定λ>2+2log(3/2)，同Gλ:Xκ+λ→Xκ且范数≤exp[Cλ(1+κ)²]；同误差E:H→全部Xκ、H范数<1/4，同一Hilbert修正保每尺度。Gⁿ在Xnλ真返Tⁿ、费exp(Cn³)，对N⊥保同规范h的Xλ对偶表示。未证平滑核在M稠密、G保N、Gamma或N=M；继续同W实际配对/来源。
+**[同一实际右逆的全部指数尺度](results/R271-appendix-single-actual-right-inverse-on-all-physical-exponential-scales.md)与[新平滑修正/实际核截断通量](results/R271-appendix-same-right-inverse-smoothing-correction-and-actual-kernel-cut-flux.md)已付。** 同Gλ:Xκ+λ→Xκ、Gⁿ费exp(Cn³)；G=R−C且C:H→所有Xκ、CPq高斯，C*有e^(28N²)矩。双侧孔壳给R*有限孔、R/G可闭、闭G值域闭。对f_n∈E∞→f∈M，RTf_n有界子列即f∈N；非零w∈W的原cut修复范数全序列→∞，固定有限孔测试趋0而同w配对→||w||²。同规范h=r−C*w，Sh∈H恰Sr∈H。原通量上界、Gamma、G保N及N=M均未付。
