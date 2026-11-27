@@ -383,3 +383,6 @@
 
 
 - [R618同固定E/硬τ1的二分进度范围](notes/2026-11-27-r618-actual397-bracket-progress-scope.md)：**精确同支括号有明确收缩，实际新求解待原运行**；reference/trial换同一显式seed后midpoint算法，原参考连续方程、所有height/Jac/primitive/core公式保持。四浮点终态分记，原失败费用继承；坐标宽进度不冒根/ODE/角求积误差证书，不软化τ或宏观门。
+
+
+- [后继97q固定几何参考与固定g接口](notes/2026-11-27-r623-fixed-reference-and-fixed-metric-reuse.md)：**已证公式的实际复用条件**；锁定完整59a4圆参考后可复用自身ρ/D，新非圆范数仍须支付；宏观p=.8不能借旧圆余量。相位直接继承全t，固定g还必须冻结完整连续E*/a*并评价全部归一误差矩阵，17mean或另一R618目标不充同g证据。

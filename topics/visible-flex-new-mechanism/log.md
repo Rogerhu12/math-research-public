@@ -643,3 +643,8 @@ open原28316B全文按链接层级移入open-before-fixed-E-and-K-only归档，�
 ## 2026-11-27｜三份原push自然运行身份
 
 97 pending330 run45916249440/job140236066717/sourceb86ec600于00:21:35 UTC、R625完整行run45916412405/job140236602211/source5033f516于00:23:18 UTC、同fixedE二分run45916740129/job140237670198/source1aac95c4于00:26:42 UTC启动。均由各自原push单次触发，仅查元数据，未额外dispatch或读取活动stdout；B030 native及normal397也继续其原自然段。同步H/open真实状态，纠正旧模型说明的“尚未执行”过时字样。
+
+
+## 2026-11-27｜固定59a4圆参考的合法复用与同g边界
+
+根全文审13678B说明，逐源码核SameFieldMeanGeometry参考q/高度尾/圆.38/背景依赖及design参考alpha独立。固定原圆G*不依赖当前p与材料，但新候选δ/α/K必须新付，新p core界不借旧；宏观p=.8已有δ≥.62，旧圆只供近邻。相位/全t结论复用R33，不新做时间门；同g误差矩阵保E*/a*而不能只冻17mean或改用新ebar。R618目标和core奇异坐标边界明列，未重复旧证书或新开科学。
