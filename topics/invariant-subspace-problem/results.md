@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R150：一般h=k非1碰撞的完整原Gram与Delta首一四次](results/R150-appendix-unit211-equal-singleton-values-full-original-Gram-and-Delta-quartic.md)：fdece实际4.240秒/exit0，正确H=bcDelta、两singleton同h²/h³原靶、全八行；b4首项−64xi²rho⁴，D0全部保留，未排空。
+
 - [R150：Delta0碰撞图整个lambda=1/2原纤维排除与6219基点覆盖](results/R150-appendix-unit211-Delta-zero-h-one-lambda-half-exclusion-and-6219-cover.md)：原Delta=−p³(ell−1)T0/rho，完整回到已闭等权/T0，明确本图D=bA非零；删去已付整纤维，保原自由t。
 
 - [R150：Phi0 rank-one碰撞图整个c=1/2原支排除](results/R150-appendix-unit211-Phi-zero-rank-one-value-complete-c-half-exclusion.md)：ecea实际0.219秒/exit0，λ半两三次QQ行、二次λ域5/4次原E1/EB均真Bézout1；两复嵌入及所有rho纤维保全。
