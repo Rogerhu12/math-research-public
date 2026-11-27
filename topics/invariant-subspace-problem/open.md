@@ -4,7 +4,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-Haar-boundary-disjoint-ranges-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-Haar-full-boundary-cyclic-images-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -206,7 +206,7 @@ D27泛型五次不可约与有限纤维范围保上述D27原单位条目及本�
 
 **[h=k的整个Q=1−u原面已闭](results/R150-appendix-unit211-equal-singleton-Q1u-Delta-zero-and-entire-face-exclusion.md)。** 非0Delta完整2/6/24次常数返回与新54f9零图合闭：C6三相容原组合返1，C24恢复同一u后保自由f返回全八式，原E1/EBe返1。真0.895秒/42304KiB/exit0，528常数逆/325除法全乘回；未倒Delta或NF，保所有复根。剩余h=k可付u+Q−1；不重做旧完整lambda覆盖和原返回，继续一般碰撞参数。
 
-**[原Haar全目标迹类交织及循环商](results/R271-appendix-actual-haar-global-trace-intertwiners-and-cyclic-quotient-quasiaffinities.md)。** 全整数||A^n||=βn，K_y对每非零y全目标稠密、核恰cyclic(A*,y)⊥，真实循环商到T拟亲和，反向交织零。真循环时K_y⁻¹kerT=0；proper U的同源实际非零交点仍须支付，不以稠密像倒置。
+**[原Haar全目标迹类交织](results/R271-appendix-actual-haar-global-trace-intertwiners-and-cyclic-quotient-quasiaffinities.md)的[全部非零像对完整T循环](results/R271-appendix-actual-haar-trace-ranges-consist-of-boundary-cyclic-vectors.md)。** 原dyadic弱单位给closure(A*)^k C=C于每个闭不变C；稀疏链符号Φ_v=(A*)^k V的V及V⁻¹都在原范数闭多项式代数，故[K_y* v]_(A*)=C_y。于是RanK_y与任意proper闭T不变L零交，K_y⁻¹L=C_y⊥；旧U/M/N交点对整个此族已关闭为零。K_1 1是实际E∞循环向量。不判断C_y⊥非零，不外推其他交织，转同w Green/primitive来源。
 
 **[原Haar/边界实际像零交与Abel同源费用](results/R271-appendix-haar-boundary-disjoint-actual-ranges-and-abel-source-cost.md)。** 同一链J=ℒ_e0的唯一原像系数是〈A^n x,y〉/βn；原高位弱单位迫每个非零K_yx不在RanJ。全部固定奇块给E_N/logN→∞；实际HS R_y,t满足BR=tRA、JR=K_y,t，K_y,t迹范数趋K_y且同源平方费/log(1/(1−t))→∞。未声称任意逼近同费率，不外推W规范源。
 
