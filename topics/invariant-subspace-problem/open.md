@@ -239,7 +239,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 
 
-[两E的完整u首项与有限u无穷远边界](results/R150-appendix-unit211-collision-E-u-heads-and-finite-u-infinity-boundary.md)：3c698仅返B⁵F162/B⁵F167和λ∞有限u公共首系数gcd u10(u−2)⁵；完整QQ因式/小显式Bezout见正文，两个原头零仍保。首个整F162 QQ u-gcd120.061897953秒/151072KiB/−14未返，F167未做；旧37阶180秒门同冻结，不以超时作空。新[整数有限自由模型](notes/2026-11-28-unit211-collision-E-u-head-integral-finite-free-model-8542.md)首派，只按积分/另一原u头整模单位选固定p；全部λ因子原u返1后才跨幂零及有限自由提升。没有物理u局部化，未运行前不付头；既成五坐标≤235170和全部原Q/个别NP保留。
+[两E全部原u首项零纤维已闭](results/R150-appendix-unit211-collision-E-entire-u-heads-finite-free-exclusion.md)：7e836真0.551286687秒/44812KiB/0，F162/F167均在首个p1009积分，另一原u头整个模代数返逆；完整模因子次数1/38/52/71及1/2/2/5/7/16/17/117，12原u Bezout均1，保真降次17/19与18/18。秩3078/3006有限自由提升给全部复纤维V(E1,E2,F)=空，无u/u1或其它几何局部化。原u两头现在全付；旧E37/QQu门冻结，原五坐标≤235170保持，剩余一般交点仍须同Q及个别NP返回。[有限u无穷远](results/R150-appendix-unit211-collision-E-u-heads-and-finite-u-infinity-boundary.md)支撑0/2不作有限点排除。
 
 [六位一特殊权全S1](results/R271-appendix-six-site-one-special-weight-full-s1-and-relative-source-margin.md)保原最高C2及完整九维源，F>(2/3)C1²、创新费用<F/9；合S2仅付此家庭联合来源。R239两异权全出生既有更强相邻界不重计。一般六权/高出生、真实无限carry/W/N=M仍开。
 
