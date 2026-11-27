@@ -60,7 +60,7 @@ R966/967的原12个2/3译像真中央零只覆盖δ-new指定线，真实cross �
 
 ## 第一实际门：原映射、全部厚除子与 shadow
 
-**唯一v9实际运行，尚无完整生产回执。** run45920983633/job140251398928/source1eeab95eb057de2b6ea6753ff9e36a18bd20bbd2，数学step4自01:10:41UTC运行；全49源/两char0/两图七式四交18×9及Sage10.6/r29/q2453/batch64/minimal保持。04:57只读collector run45942929589实际取得原log18909009B/SHAb0478205…1aa76ea7，尾04:44:40到negative/base-prime1/actual maximal ideal2的Hermite44/306及下一全gcd/Popov reset；仍非四交/全Norm/shadow PASS。原首段和全部source/失败/新回执见终点链，不重算v9。
+**唯一v9实际运行，尚无完整生产回执。** run45920983633/job140251398928/source1eeab95eb057de2b6ea6753ff9e36a18bd20bbd2，数学step4自01:10:41UTC运行；全49源/两char0/两图七式四交18×9及Sage10.6/r29/q2453/batch64/minimal保持。05:27只读collector run45945876436实际取得原log23110630B/SHA748bdb5e…171fbba0，尾05:17:48到negative/base-prime0/whole local primary factor1的Hermite188/306及下一全gcd/Popov reset；仍非四交/全Norm/shadow PASS。原首段和全部source/失败/新回执见终点链，不重算v9。
 
 R909原F/R906§8原P、R924 TUV/DS204/36cusp/Y666/ys360、R925两正规化图306自由环及46971全产品、R926原cube/低权/maps、R927 e0/z96/dF1296均已有真实回执，不重算成新结论。原u/λ/vnew/微分/∞→O/返回17、三退化、omega/Artin(2,0,1)、Z02=Z/Z20=−Z全部保持。四交00/01/11/12、全厚闭点度数/长度/无穷边界/原Tate迹和18×9shadow待实际输出；每E真度39840，成本2256+r·dF或2256(r+1)不能模ell先缩。7993及固定ell有限shadow不代无穷p。
 
@@ -147,8 +147,6 @@ R1016已用单一特征零平坦V_N把原全部长jet送入h_N=σ10x²P/(X+1)^M�
 
 R1014已从真实光滑射影变形族与已发表HYZ B付原S全部充分大q的Tate，未借Guo–Yang预印本。inert q>q0新增整MW=(q/3)A2、Frob−共轭、NS判别式−q²与Br0；所有原54图/η/完整Cor/最高转置交式已付且保持整系数。继续构造实际截面并消费原54点评值，继而付与原普通局部J0,p的比较；除子Tate不代混合AJ保真，小q全范围仍条件。
 
-2026-11-27原q11第二固定输入3P6也已真实无解：run45936278912/job140300111547/source89a464233e4d50471eb795622a80ea05af09a43e，完整2662对。两次负例只排各自极除子，不重跑、不扩大任意点扫描；转原Hesse公共覆盖与完整三型/Frobenius图的实际构造。
-
 R1023已逐式识别原Hesse公共盖为[δ]并保deck/Frobenius真实符号；α实际改变原cube类，两个q11候选除子无结构上的存在保障。全[3]盖已用两显式立方根及有序字符补齐；继续从同盖Frobenius图构造真实Q并保全9/3迹和原54权，不将盖身份或单分量当ordinary非零。
 
 ### 原全三覆盖的指定 δ 像核输入
@@ -178,3 +176,7 @@ R1023已逐式识别原Hesse公共盖为[δ]并保deck/Frobenius真实符号；�
 ### R1028 的共同固定权与实际双测试
 
 R1028已付末六原三权W_t=W∞+cp·u^pT_t，固定Hermite有理函数/全部水平项/坏素数齐；真Vδ=W_t^p余项只在同target φ_(p−6)经α拉回的全39第一primitive低窗可删。四阶adjoint cut全核p+4→2→37→primitive36，乘A^p后p−36>K；b5/O/aZ仍保。共同W∞的真三字只含原Fp和常数2/3，正支仍mode2；原Lamé p曲率为−10Hcal^p I+(5cp/6)E12，完整P10交换子保全部e项。须实际全Miller/τ/χ8测试生成，不由Jordan单位或裸log非零赋canonical零。 全函数W_t^p中的T_t^p项以及特征零原权差仍在；已付替换仅指同一个全39第一primitive的0<r≤K特征p读数。接续原N130 Miller相位、全部十三字/外部τ后，实际生成R1021§8的完整adjoint，最终需迫R1025§12.4的同一个确定单位组合零。
+
+### R1027§8 的整个未知极除子与真实端点
+
+§8已付真实ε=a（I3分量）、trace0与I9环面值ω^−a；canonical值为aS3+eP2。仅对充分大惰性q的最短反Frob生成元，高度2q/3迫a=±1，整个未知极除子D度(q−2)/3、避开T/−T/O且在有限好纤维，div∞x=2D+2O、div∞W=3D+3O。原共线M/N四端点及唯一m(−1)符号已付，未构造一般Q或给27对评价。 后继须从这些对所有最短Q成立的条件构造实际截面或消费真实27对；未定二挠位e仍保，所有小q条件不得越过R1014未知q0。

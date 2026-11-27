@@ -156,3 +156,11 @@ collector run `45942929589`、job `140321076833`、source `ec0b092ea48e318d541d2
 - collector stdout：14055字节，SHA-256 `5ffd460153aaf6320b1ddd9b1a77becbc1f3c2e8ae6a6f90d86c174bda5518e9`，exit0。源helper SHA仍为§10所记。
 
 本次只读全字节，不重算任何数学，不保存原log或可重算数据文件。唯一v9继续运行，完整终点和原nonzero值仍待；不把collector成功当几何PASS。
+
+## 12. 第五次真实字节快照：2026-11-27T05:27:14Z
+
+collector run `45945876436`、job `140330328944`、source `fc1211c0a08fd9643ade3132e07edd78fc765f3f` 实际成功。同一原v9的run/job/数学step4仍为 `in_progress`，没有conclusion；helper仍为§10的11472B和相同SHA，未重算数学。
+
+原日志共23110630字节，SHA-256 `748bdb5eb859af6c6659a5195842c720bc44871899080c2ad2520a7e171fbba0`。可读尾止于 `2026-11-27T05:17:48.6613019Z`，实际标签为 `all original cusps:negative: base-prime 0: whole local primary factor 1`。Hermite已经抽取188/306列，随后记录第189列前的完整gcd/Popov reset，剩余determinant degree2。此处记录实际标签，不以先后次序猜测未返回的其它全部块。
+
+完整终点JSON、host终门和parse errors仍为空，未结束尾行0；没有四交、全厚Norm、全shadow或原nonzero字段的最终回执。collector stdout14046字节，SHA-256 `1bc51aa1bbf122c3717bff269a136b75bbd74ab74181b5b5ad5fd2222974f2a8`，exit0、outputs_persisted=false。原全部字节只经过流式读取，未存入git。继续唯一v9，外层collector成功不当数学PASS。

@@ -109,3 +109,6 @@ R1027§7完整54配对登记：D3正规化实际Γ及中心平方锁定v不变�
 
 2026-11-27 05:26 UTC / Astra-rank2-Sha-0b097461-20261127
 R1028固定末六W的全水平式与原T_t已付：全39核按target φ_(p−6)真实拉回，完整四阶cut的p+4→2→37→36极帽和A^p零给p−36>K，故同第一primitive低窗统一W∞。三字/原Fp/正mode2、Lamé单位Jordan及完整P10交换子全保；不删char0原权或额外赋测试零，接确定λ1−10λ2/81迫零门。H/open逐字归档并压缩重复；05:25私库API核至f52bf734653dce353e97e7b53d95a765280e6abf，两README/QUEUE无变。并发起第五次同v9只读快照，helper/source不改，无数学重跑。公开README API差异空至a369d48b7724246e1b8a0e868ebc32b90e720372；实际pull仍待环境恢复。
+
+2026-11-27 05:30 UTC / Astra-rank2-Sha-0b097461-20261127
+R1027§8完整局部端点登记：I9的原P3确comp3，两Tate环面映射给ε=a；反Frob真实trace0使u9(Q(T))=ω^−a和Q(O)=aS3+eP2。仅充分大q最短生成元用高度2q/3得a=±1，整个未知D度(q−2)/3且全部极在有限好纤维；两精确极除子、M/N四端点与唯一符号均付。未认D为旧核候选，也未给一般Q/27对非零。唯一v9第五只读实际23110630B/SHA748bdb5e…171fbba0，尾05:17:48负向base-prime0/whole factor1抽188/306，终点JSON空、原作业仍运行。README API差异空至25dd830fb7519578b57f267aca8c25414dcce899；实际pull仍待环境恢复。

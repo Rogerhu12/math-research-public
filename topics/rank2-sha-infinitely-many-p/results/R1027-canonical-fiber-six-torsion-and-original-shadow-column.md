@@ -555,3 +555,299 @@ $B[2]\setminus\{O_B\}$。这里没有进行素数扫描，也不需要将可重�
 所以(24)、(40)不能代替剩余一般有限 CM 纤维的评价。
 (38)保留的27对仍是真实需要计算的对象；跨普通 $p$ 的局部非零
 门槛未因这些对称关系而删除。
+
+
+## 8. 真实三挠修正、反 Frobenius 截面的端点及整个最短极除子
+
+本节首先对任意惰性 $q\ge5$ 的实际反 Frobenius 截面给公式，
+不假设 Tate。随后仅在 R1014 已证明的**充分大** $q$ 范围内
+选用最短生成元。小素数不能因这些必要条件自动获得新截面；
+$q=5$ 已由 R1017 的实际点另行支付，三个 $q=11$ 固定极除子
+的负回执亦不改变。
+
+### 8.1. 两个分量群的定向，及原 $P_3$ 的位置
+
+继续用 $T,-T$ 标记 $I_9,I_3$。在 $I_9$ 的原节点曲线上取
+$$
+ u_9=\frac{y}{y+x},\qquad
+ x=\frac{u_9}{(1-u_9)^2},\qquad
+ y=\frac{u_9^2}{(1-u_9)^3}.
+ \tag{43}
+$$
+由直接微分，$\omega_9=du_9/u_9$。
+以趋向 $u_9=0$ 的分支定正的 Tate 分量编号。
+
+为确定原 $P_3=(0,0)$ 到底是分量3还是6，不能只用其 order3。
+置 $w=y+(x+t)/2$，则
+$$
+ w^2=x^3+x^2/4+tx/2+t^2/4.
+$$
+令 $\beta(t)$ 为右端在 $t=0$ 时等于 $-1/4$ 的单根。隐函数
+定理及逐项代入给
+$$
+ \beta=-1/4+2t+12t^2+O(t^3),\qquad A=\beta+1/4.
+$$
+右端分解为 $(x-\beta)(x^2+Ax+B)$，其中
+$B=-t^2/(4\beta)$。在节点附近选
+$\sqrt{x-\beta}$ 的常数项为 $1/2$，并取
+$$
+ U=\frac{w}{\sqrt{x-\beta}}+x+A/2,\qquad
+ V=\frac{w}{\sqrt{x-\beta}}-x-A/2.
+$$
+则 $UV=B-A^2/4$，其 $t$ 阶为3。
+在(43)的 $u_9=0$ 分支上，$U$ 的首项为 $2u_9$，所以它给
+上述正编号。在 $P_3$ 上，
+$$
+ U(P_3)=2t+O(t^2),\qquad V(P_3)=-2t^2+O(t^3).
+$$
+原基变换使 $\operatorname{ord}_v(t)=3$，于是
+$$
+ \operatorname{comp}_{I_9}(P_3)=3,\qquad
+ \operatorname{comp}_{I_9}(-P_3)=6.
+ \tag{44}
+$$
+这些首项在全部 $q\ge5$ 非零，标签不会在小好特征翻转。
+
+在 $I_3$ 置
+$$
+ s=x+1/9,\qquad w=y+(x+t)/2,\qquad a_0=\delta/6.
+$$
+其节点方程为 $w^2=s^2(s-1/12)$，取
+$$
+ u_3=\frac{w-a_0s}{w+a_0s}.
+ \tag{45}
+$$
+若 $m=w/s$，则 $s=m^2-a_0^2$，从而直接得到
+$$
+ \omega_3=\frac{ds}{2w}
+          =-\delta\,\frac{du_3}{u_3}.
+$$
+用 $u_3=0$ 分支定 $I_3$ 的正 Tate 编号。原三挠点此时在
+恒等分量，且
+$$
+ u_3(P_3)=\frac{1-\delta}{1+\delta}=\omega^2.
+ \tag{46}
+$$
+
+原 $F$ 从 $I_9$ 到 $I_3$ 的核落在非恒等分量，故恒等环面
+上的次数为1；反向的核是(46)的 $\mu_3$，故环面次数为3。
+结合 $F^*\omega=\delta\omega$，或先在同一特征零 Tate 模型中
+计算再约化，实际映射准确为
+$$
+ \begin{array}{c|c|c}
+ \text{方向}&\text{恒等环面}&\text{分量群}\\ \hline
+ I_9\longrightarrow I_3&u_3=u_9^{-1}&n\mapsto-n\pmod3\\
+ I_3\longrightarrow I_9&u_9=u_3^3&a\mapsto3a\pmod9 .
+ \end{array}
+ \tag{47}
+$$
+例如第二行对应 Tate 参数 $q_9=q_3^3$，原基参数 $v$ 保持，
+所以分量的正号与(44)、(45)一致。这里不只凭正特征微分相等
+猜一个可能多出 $q$ 倍的环面同态。
+
+### 8.2. 原三挠修正恰等于 $I_3$ 分量
+
+令 $\sigma$ 为常数域 $q$-Frobenius，取实际截面满足
+$$
+ \sigma Q=-Q,\qquad
+ a=\operatorname{comp}_{I_3}(Q)\in\mathbf Z/3.
+ \tag{48}
+$$
+$I_9$ 是 $\mathbf F_q$ 分裂纤维，故其分量 $n$ 满足
+$n=-n$ 于 $\mathbf Z/9$，只能是0。
+$\mathcal T$ 只把基参数乘 $\omega$，保持分量编号。
+把(15)在 $T$ 处取分量，并用(44)、(47)，得
+$$
+ 3a=0+0+3\epsilon(Q)\pmod9,
+ \qquad
+ \boxed{\epsilon(Q)=a\quad\text{于 }\mathbf Z/3.}
+ \tag{49}
+$$
+这是原实际 torsion correction 的确定值，不是用有理实现把它删掉。
+
+还需要原三个共轭的准确和。$\mathcal T$ 的固定域是
+$\overline{\mathbf F}_q(t)$；原有理 Tate 曲面在这里的纤维是
+$I_3,I_1,IV^*$。它是有理曲面，平凡格秩10且判别式绝对值9，
+所以 Shioda–Tate 及有理曲面的 unimodular NS 给几何 MW 恰为
+$\langle P_3\rangle$。此结论对全部 $q\ge5$ 保留，不用本曲面的
+条件 Tate。因而
+$Q+\mathcal TQ+\mathcal T^2Q$ 属于该三挠群。
+另一方面 $\sigma\mathcal T\sigma^{-1}=\mathcal T^{-1}$，(48)使
+这个和反 Frobenius，而 $P_3$ 是 $\mathbf F_q$ 有理的。
+故
+$$
+ \boxed{Q+\mathcal TQ+\mathcal T^2Q=0.}
+ \tag{50}
+$$
+
+在 $I_3$ 用(45)的 Tate 参数表示 $Q$。若分量用 $a=0,1,2$
+代表，则参数有形状 $c\,v^a(1+O(v))$，$c\ne0$。
+Tate 模型的系数是 $t$ 的函数，故将 $v$ 换成 $\omega v$
+准确描述 $\mathcal T$。因此
+$\mathcal TQ-\mathcal T^2Q$ 在恒等环面上的值为 $\omega^{-a}$。
+由(50)，
+$Q+2\mathcal TQ=\mathcal TQ-\mathcal T^2Q$。
+把(15)、(46)、(47)、(49)在 $-T$ 处求值，得到
+$$
+ u_9(Q(T))^{-1}=\omega^{-a}(\omega^2)^a=\omega^a,
+ \qquad
+ \boxed{u_9(Q(T))=\omega^{-a}.}
+ \tag{51}
+$$
+当 $a=0$ 时，这是恒等点；当 $a\ne0$ 时，它是明确的非平凡
+三挠环面点，不是零截面。
+
+### 8.3. canonical fiber 的四个可能值
+
+将(49)代入第5节已经证明的实际等式，得
+$$
+ [-2\delta]Q(O_B)=aT
+ \quad\text{在 }C_\infty\simeq B.
+ \tag{52}
+$$
+这里沿用(17)–(18)的同一个有理同构，右侧的
+$T=(0,0)$，不是另选一个三挠生成元。
+R1023 的实际点
+$$
+ S_3=(-1,\omega^2),\qquad [\delta]S_3=T,\qquad
+ \sigma S_3=-S_3
+$$
+满足 $[-2\delta](aS_3)=aT$。
+令
+$$
+ P_2=(c,-1/2),\qquad c^3=-1/4,\quad c\in\mathbf F_q.
+$$
+$q\equiv2\pmod3$ 使立方映射在 $\mathbf F_q$ 上为双射，所以
+$P_2$ 是唯一非零的 $\mathbf F_q$ 有理二挠点。
+因为 $\ker\delta=\langle T\rangle$ 是 Frobenius 固定的，
+它与反固定点的交为零。将 $\ker(2\delta)$ 分为互素的
+2与3部分，遂得
+$$
+ \boxed{Q(O_B)=aS_3+eP_2,\qquad e\in\{0,1\}.}
+ \tag{53}
+$$
+特别当 $a=\pm1$ 时，该点永不为零。没有决定未知的 $e$，
+也没有由(53)声称其它有限 CM fiber 的值已知。
+
+### 8.4. 充分大惰性 $q$ 的整个最短极除子
+
+现在才使用 R1014 的已付 Tate 范围：取充分大惰性 $q$，令
+$Q_q$ 为反 Frobenius 自由直线的最短生成元。
+该文给
+$$
+ \langle Q_q,Q_q\rangle=2q/3.
+ \tag{54}
+$$
+可以并且唯一地调整三挠平移，使
+$\sigma Q_q=-Q_q$：若一个自由生成元的
+$\sigma Q+Q=\epsilon P_3$，加一个适当的 $kP_3$ 即可，因为2在
+$\mathbf Z/3$ 中可逆。高度不变。
+
+由(48)，$I_9$ 分量是0。高度公式于是为
+$$
+ \frac{2q}{3}
+  =2+2(Q_q\cdot\mathcal O)-\frac{a(3-a)}3,
+ \qquad a=0,1,2.
+$$
+左侧非整数，因此 $a\ne0$，并且
+$$
+ a=\pm1,\qquad
+ \boxed{\deg D_q=(q-2)/3,\quad D_q=(Q_q\cdot\mathcal O).}
+ \tag{55}
+$$
+此处 $D_q$ 是**未知的实际交除子**，不是 R1019 中已被
+$q=11$ 回执否定的某个同名候选；本节绝不将二者相认。
+
+(51)在 $I_9$ 是非恒等环面点；$I_3$ 分量非零；
+(53)在 canonical fiber 非零。因此
+$$
+ \boxed{\operatorname{Supp}(D_q)\cap\{T,-T,O_B\}=\varnothing.}
+ \tag{56}
+$$
+整个极除子均在有限好纤维，不能再为取得方程解而任添无穷极点。
+由 $\sigma Q_q=-Q_q$ 及反演保持零截面，$D_q$ 是
+$\mathbf F_q$ 有理的有效除子。
+
+令
+$$
+ W_q=\frac{2y_q+x_q+t}{\delta},\qquad
+ -3W_q^2=4x_q^3+(x_q+t)^2.
+ \tag{57}
+$$
+则 $x_q,W_q\in\mathbf F_q(B)$。在 $D_q$ 的每个点，纤维光滑，
+标准零点局部参数使 $x_q,W_q$ 的极阶分别是交重数的2、3倍。
+在 $T,-T$ 两处坐标有限，由(56)没有极点。
+在 $O_B$，(53)的非零3部分保证 canonical fiber 的 $X$ 坐标
+非零，也不是二挠点：若 $X=0$，点在 $\ker\delta$；
+若 $2Y+1=0$，点是二挠，均与(52)的非零右侧矛盾。
+式(16)遂给恰为2、3的原坐标极阶。故是准确等式
+$$
+ \boxed{
+ \operatorname{div}_\infty(x_q)=2D_q+2O_B,\qquad
+ \operatorname{div}_\infty(W_q)=3D_q+3O_B.
+ }
+ \tag{58}
+$$
+相应的全 Riemann–Roch 空间维数为
+$2\deg D_q+2$ 与 $3\deg D_q+3$。
+(55)–(58)约束整个未知极除子；没有将它缩到某个核、某个平移
+或某个集中重极点上。
+
+### 8.5. 原共线方程的四个准确端点
+
+对非零的 $Q_q$，(50)使其三个共轭在同一原纤维上共线。
+泛型 x 坐标互异：若 $\mathcal TQ=\pm Q$，由
+$\mathcal T^3=1$ 及原 torsion 群，只会得到已排的 torsion。
+故可写唯一的原共线式
+$$
+ W_q=M(Y)x_q+N(Y),\qquad M,N\in\mathbf F_q(Y),\qquad Y=-27t.
+ \tag{59}
+$$
+$\mathcal T$ 固定整条线，$\sigma$ 只排列三个共轭，故系数确在
+显示的基域；不是任意另选一条 Cardano 线。
+
+把 $a$ 写成 $+1$ 或 $-1$。由(43)、(51)直接计算，
+在 $T$ 的实际仿射值是
+$$
+ x_q(T)=-1/3,\qquad
+ W_q(T)=a/9,\qquad
+ y_q(T)=\frac{3+a\delta}{18}.
+$$
+该点是节点三次曲线的光滑 flex，三个共轭的弦线趋于它的切线。
+在(57)中固定 $t=0$ 求导，
+$-6WM=12x^2+2x$，遂得
+$$
+ \boxed{M(0)=-a,\qquad N(0)=-2a/9.}
+ \tag{60}
+$$
+
+在 $-T$，非恒等分量经 Weierstrass 收缩都落在实际节点
+$(x,y)=(-1/9,1/27)$，故 $W=0$。
+(45)定向的分量 $a=1$ 趋于 $w=(\delta/6)s$ 分支；
+分量 $a=-1$ 趋于另一个分支。可直接由 Tate 参数的阶1与2
+核定：主项分别来自 $u_3$ 与 $q_3/u_3$，两者的 w 符号相反。
+三个共轭处于同一分支，弦线趋于其切线；
+由 $W=2w/\delta$，斜率分别为 $+1/3,-1/3$。
+因此
+$$
+ \boxed{M(-1)=a/3,\qquad N(-1)=a/27.}
+ \tag{61}
+$$
+这不是只对端点清分母后的平方方程选任意一个符号。
+
+例如，若沿此前的原规范写 $M=m/H$，$H(0)=-1$，
+$m(0)=1$，且两个端点都非极，则(60)固定 $a=1$。
+于是实际要求是
+$$
+ \boxed{m(-1)=H(-1)/3,}
+ \tag{62}
+$$
+不是独立的正负选择。旧三个 $q=11$ 作业完整枚举了两个符号，
+所以其无解结论当然保留；本篇不重跑它们，也不据此排除
+满足(55)–(62)的真正未知极除子。
+
+这些边界条件是从同一个实际 $F$、原 Tate 编号及完整共线式
+推出的。它们为一般构造提供了整个极除子的有限好支撑、准确
+次数与端点，但尚未构造一般 $Q_q$，也尚未计算(38)中其余
+有限 CM fibers 的原带权值。后继仍须支付该实际求和及其所需
+普通局部比较。
