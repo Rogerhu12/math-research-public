@@ -1,17 +1,25 @@
 {
-  "message": "ISP: retain every W quadratic head and prove exact weight Cramer recovery",
-  "parentCommit": "c8b46f294324098fb72bf7e139fd62cfdf1b0e1a",
+  "message": "ISP: prove the collision two-QQ-projection cover and retain every original fiber",
+  "parentCommit": "db3484aca7df8eac36bb371cbd41c98031cc5486",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-W-two-value-quadratics-affine-and-weight-six-F-recovery.md",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-W-two-original-value-quadratics-affine-and-F-weight-Cramer-receipt-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-exceptional-psiD-true-rho-gcd-original-four-by-two-input-8542.py",
-    ".github/workflows/invariant-subspace-phi-psid-rho-gcd-original-four-by-two-8542.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-W-affine-S-and-F-weight-six-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-W-affine-S-and-F-weight-six-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-collision-two-QQ-projections-E177-18-part1-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-collision-two-QQ-projections-E177-18-part2-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-collision-two-QQ-projections-E182-19-part1-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-collision-two-QQ-projections-E182-19-part2-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-collision-two-QQ-projections-exact-factor-manifest-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-collision-two-QQ-projections-receipt-8542.json",
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-equal-singleton-two-original-QQ-projections-common-curves-and-finite-base-remainder.md",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-equal-singleton-J2-entire-original-norm-cross-return-8542.py",
+    ".github/workflows/invariant-subspace-collision-j-two-entire-original-norm-cross-8542.yml",
+    "topics/invariant-subspace-problem/notes/2026-11-28-five-bit-birth-two-s2-full-source-exact-8542.py",
+    "topics/invariant-subspace-problem/notes/2026-11-28-focused-exact-actions-source-args-driver-8542.py",
+    ".github/workflows/invariant-subspace-five-bit-birth-two-s-two-full-source-8542.yml",
+    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-collision-two-QQ-projection-cover-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-collision-two-QQ-projection-cover-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -21,6 +29,7 @@
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
   "dispatchWorkflows": [
-    "invariant-subspace-phi-psid-rho-gcd-original-four-by-two-8542.yml"
+    "invariant-subspace-collision-j-two-entire-original-norm-cross-8542.yml",
+    "invariant-subspace-five-bit-birth-two-s-two-full-source-8542.yml"
   ]
 }

@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [h=k两QQ投影的完整共同曲线与剩余基点](results/R150-appendix-unit211-equal-singleton-two-original-QQ-projections-common-curves-and-finite-base-remainder.md)：J2/P25,3整曲线或两不可约剩余曲线交点，末类不同基点≤39195，全部Q纤维保留。
+
 - [W同S一次关系与权六次例外外F恢复](results/R150-appendix-unit211-W-two-value-quadratics-affine-and-weight-six-F-recovery.md)：47f实际全身份；L1、H411、G36整零面保留，G36外原F唯一恢复。
 
 - [Phi首头P6不可约及保留整首项权曲线](results/R150-appendix-unit211-Phi-zero-first-head-D-core-irreducibility-and-retained-leading-weight-curve.md)：真λ6头为原单位×137项H19/11，H未付；全原头零范围保留。
