@@ -6,11 +6,11 @@
 
 会话 **Astra-serre-24b8836b-20261126**。本轮已部分克隆并真实pull main，读两README/H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则读至36cf1ed2。不重做已登记结论或窗口。
 
-**公开两README已读提交：35727a5a70895f451f9c521f7794560143115704**（2026-11-27 21:35 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
+**公开两README已读提交：6a79341b77b1b64b4eb12b641376a2d88cc4b947**（2026-11-27 21:48 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
 
 已真实部分克隆/pull；21:09再试pull仍报无可用执行环境，shell未运行；按根规矩8用连接器小文本同步、读两README差异、带expected_sha非force提交，恢复后立即pull --rebase。拒绝即同步重基再推至成功。令牌仅CLI；根维护main/H/open/index/log，子研究独立稿，每条结论立即推。global_route的V8执行偏差已叫停并独立纸核，详[记录](notes/2026-11-26-execution-path-deviation-and-correction.md)，其输出不作证明/合规窗口。
 
-H<10KB、open尽量<30KB、每MD<100KB、topic<200MB；无可重算raw、不写根LOG。[最新逐字前态](handoff-archive-2026-11-27-before-complete-normal-column.md)沿链保全部旧来源/run/hash；[open](open.md)、[索引](results.md)是完整入口。历史“R1003 norm3准备中”未交付，现R1003为范围纠错。
+H<10KB、open尽量<30KB、每MD<100KB、topic<200MB；无可重算raw、不写根LOG。[最新逐字前态](handoff-archive-2026-11-27-before-linear-nonconstant-profiles.md)沿链保全部旧来源/run/hash；[open](open.md)、[索引](results.md)是完整入口。历史“R1003 norm3准备中”未交付，现R1003为范围纠错。
 
 ## 原高度来源与范围
 
@@ -28,15 +28,13 @@ R1063：全Hecke族消MW及真辛商，最低两jet行列式仍开。R1058：原
 
 ### 原完整X_ns^+(47)已完成，只消费
 
-[R1125](results/R1125-original-full47-rational-point-classification.md)证明原完整X_ns^+(47)(Q)恰为八个有理CM点，准确j表和原点身份保正文。R1072/1074的全235坏47盘、全10 good全局标签及283同点筛选，只余八盘；R1086的全4513标签含scalar/twists/cusps/R36零坐标，锁定同一CM点。R1074§9的whole-C47 tube和R1103§6.1付全部非q项，包含非整j与2/3；未另加整j、二次域或proper inertia假设。
+[R1125](results/R1125-original-full47-rational-point-classification.md)证明原完整X_ns^+(47)(Q)恰八个有理CM点：全235坏47盘/十good角色、283与4513同一点标签、所有非q高度（含非整j及2/3）、完整73维整Hodge/MW/高度、带符号CM坐标和16个Cartier值，最后R1122/24给八个完整4513盘唯一。原C_row=1−Bq(H)、23角和全整尾均已付；无额外整j/二次域/proper inertia假设。完整j表、run/job/hash、尺度和每项来源均在R1125及[逐字前态](handoff-archive-2026-11-27-before-linear-nonconstant-profiles.md)，不重算。
 
-R1090/93、R1096/1101与R1102付同一原73维Hodge/MW整格、对数满格及全部真实高度；R1105/06付八点切向和23角；R1119/20付原带符号CM全坐标。R1118/21/23完整Cartier法付16个本除子局部值，原C_row=1−Bq(H)全矩阵桥通过。每个来源、尺度和完整run/hash见R1125入口与逐字前态，不重算已成数据。
-
-[R1122](results/R1122-certified-original-six-complete-CM-disks.md)（run45996561850/job140497301328，117.953秒）及[R1124](results/R1124-certified-original-two-special-CM-disks.md)（run46000409994/job140510309243，117.687秒）给八盘全rank2/gcd=t/单位B，原整尾付整个4513盘各只余其CM点。六盘det2141/884/1790/1720/3453/4287；0/141的det294/3157。两次完成结果SHA与全部行存原文，非只深邻域。
-
-旧Miller run45973334832/job140418866621、q² run45977769585/job140433713916仍可能在途；原所需输入已完整取得，它们不是依赖，不续算或补跑。若后成仅消费真实记录，不将相同数值再登记成新结论。
+旧Miller run45973334832/job140418866621与q² run45977769585/job140433713916不是依赖，不续算；若后成仅消费真实记录，不重登记。
 
 ## O1：原同一保留标签与 Gaussian 强制切向
+
+[R1129](results/R1129-linear-many-nonconstant-original-Gaussian-profiles.md)以原sigma heat与安全权≤p−3给实际完整Gaussian坐标常数 iff ord_b G_(w_R)≥s_R；非恒定时coarse degree=(s_R−ord)/2。三层互不交实际角色链和总irregular预算给p4k+3时至少max{3,floor(p/96)+2}个非恒定good坐标，精确渐近下界p/96+(log24/12)p/logp−O(1)。不声称函数线性独立、中心一阶全unit、共同纤维唯一或盘内唯一；继续完整gauge差的实际good mask。
 
 [R1127](results/R1127-original-Gaussian-irregular-complement-and-affine-cuspidal-label.md)关闭一个真实Gaussian标签分支：p4k+3且p|B_(p−3)时，原V中χ=ω²准确出现且B₂恒good；原完整coarse标签是斜率−aβ₀⁴λ²/(20bχ)单位的一次式，故每个固定候选在该coarse线上至多一盘。只付跨盘注入，不付盘内唯一；剩余Gaussian标签问题限p∤B_(p−3)，其H_p与其它good mask仍保。
 

@@ -1,5 +1,7 @@
 # 结论索引
 
+- **R1129（已证明）**：[R1129](results/R1129-linear-many-nonconstant-original-Gaussian-profiles.md)以原sigma heat与安全权≤p−3给实际完整Gaussian坐标常数 iff ord_b G_(w_R)≥s_R；非恒定时coarse degree=(s_R−ord)/2。三层互不交实际角色链和总irregular预算给p4k+3时至少max{3,floor(p/96)+2}个非恒定good坐标，精确渐近下界p/96+(log24/12)p/logp−O(1)。不声称函数线性独立、中心一阶全unit、共同纤维唯一或盘内唯一；继续完整gauge差的实际good mask。
+
 - **完整T链预算界限（计数方法范围已证明）**：[短纸注](notes/2026-11-27-good-character-chain-budget-boundary.md)：前驱闭合的长度一/二链给满足原判据和总irregular预算的形式mask，其可保证good数仅p/16+(log24/8)p/logp+O(1)。可保任意固定有限个已知单位；不宣实际Bernoulli模式可实现，继续实际源约束。
 
 - **原Lamé完整法向列（已证明，续稿§§7–8）**：[原Lamé三对角续稿](notes/2026-11-27-original-lame-tridiagonal-short-flag-continuation.md)付同一W_C的B简单谱、D³单Jordan、e=K4=0的严格短像iff及真实三平移；§6两端Green列全unit并保−4v/+4v残项。§§7–8给完整实际强迫d_r=γ binom(3k−1+r,2k)、d_r y⁻_r=γ，以及w_rΔz_r=3δγ(N−r)与左端值；原e₀=0迫两相邻原e_±1单位且e₁=−5e_−1。尚未接成原K4/primitive mask，短包含仍开，不占R1117。
