@@ -219,3 +219,8 @@ R1049§14（108）–（117）与原type4完整Newton note同步提交：原E0�
 
 2026-11-27 19:27 UTC / Astra-rank2-Sha-0b097461-20261127
 root独立纸笔核四元共轭潜在极抵消、B三次全部列回乘、特征多项式和mod11反证；将“B与PB4交换”纠正为“B³与PB4交换”，保B转型事实。发布type4 note§7，无新数学执行。同时在fixed-base首次ref GraphQL UNKNOWN/并发main移动后（本地实际pull重试无环境、第二轮推成功92711daa），发原只读两库actual pull请求rank2-20261127T1927-after-ref-retry-both-rule-pulls，baseline public7ed56a67bd6f914757323c81c83989f356967af2/privatea1ebea946d9dd3538cea32ad18d12597c4dbb75f；待CI回执，不冒API为pull。
+
+2026-11-27 19:29 UTC / Astra-rank2-Sha-0b097461-20261127
+root完整证明S3150点源，geometry独核7处真实坐标/CRT/Gaussian，arithmetic重读Yang/R745/R774/R778独核全δ与根数、Haar及有限point-only。修正草稿五old“两个Euler”的措辞：5惰性，minimal primitive仅一个5/6；目标p才有两个ordinary Euler。发布原450维实际全source与所有χ点域，完整K/Y及两支差非零；canonical forcing仍继续。H此前全文9779B归档before-s3150-point-carrier。
+
+本轮实际同步run46056864071/job140701375150/source8c0a6116c5d383a4e7a96bbef879741dade23712：public19:27:55UTC pull至420002f268f6978049cb9575a456630e6c363c5c，baseline7ed56a67bd6f914757323c81c83989f356967af2；private19:28:00UTC至e5971fbad30f1a658de11feffd69e0fd7ab9fcd5，baselinea1ebea946d9dd3538cea32ad18d12597c4dbb75f。两库根/topic README blobs同前且无差异；QUEUE同a01613b400f6cce6d89d2df6e34c836d9758386f，本会话进行中。inventory3100/43544330B、无>5MB、三旧gzip证书原SHA。完整joblog 14886B/SHA256 801b4dfeaa91d579eea256324cf5a3e64838d030d362bee5bd16d734567a27de，仅记回执不落日志。下一actual double pull≤20:27UTC。heavy v12在19:28仍in_progress，无终门、不重作。

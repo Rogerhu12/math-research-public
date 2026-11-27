@@ -48,3 +48,5 @@
 - [原fixed-base向外p²剔除](notes/2026-11-27-original-inert-fixed-base-p-square-depletion-and-fp-parameter.md)：两实际退化映射、全部degree34图修正与全54/η/Cor交换，完整AJ和为(p²−1)I、Artin下降为(p²−1)h；准确保KS的p⁴及f−p²V²f。原incoming depleted和仍0，不混同两个模问题；尚未与Jtor/(pv)全精度相认。
 
 - [原四元平均微分算子](notes/2026-11-27-original-type4-inert29-coefficient.md)§7：在完整偶S34上保真实半周期lift，得B=4(X+1)∂x²−96x²∂x+544x及全部18列；B³在原PB4的完整3×3回乘已手证，模11排与CM13同时谱。原σ-frame首部∂²−17z⁻¹∂和canonical全ζ低卷积保留，不从此赋p−1行非零或坏canonical强迫。
+
+- [原完整S3150点载体与有限投影](notes/2026-11-27-original-s3150-full-point-carrier-and-finite-projection.md)：实际2·9·25·7模型、N后450维、所有finite η/δ/Haar/positive平方、physical χ负根与点域全付；五old只一个5/6，七split的非紧反twist成对抵消。实际K/Y全有限点和的point-only 5/p投影准确回已付old非零，故L_n+及两支差均非零。未给canonical坏⇒同一读者零，未对中央log无限尾投影。
