@@ -12,7 +12,7 @@
 
 - 至少每小时重试同步，每次pull后只读新README差异并立刻执行，记实际读过SHA；断连沿最新main API非force快进，每次检查README及本topic外部变动。10:48ref失败已立即实际pull重试、重比新父后成功；不强推。
 - root独占git/H/open/log/index；每条结论立即推，拒绝时pull --rebase后重试至成功。令牌只命令行/进程，不进文件/提交/API。数学执行只在公开Actions；根规则15禁止存可重算输出或日志数据。H<10KB，每MD<100KB。
-- 本次整理前的[完整交接](notes/2026-11-27-handoff-before-five-companion-factorization.md)逐字保原历史，向前链接所有旧归档；[open归档](notes/2026-11-27-open-before-prym-inert-infinitude.md)、[results](results.md)、[R1001–1050索引](notes/PROOF-INDEX-R1001-R1050.md)保完整参数/门/失败/回执，不重做已登记结论。
+- 本次整理前的[完整交接](notes/2026-11-27-handoff-before-weighted-level-transport.md)逐字保原历史，向前链接所有旧归档；[open归档](notes/2026-11-27-open-before-weighted-level-transport.md)、[results](results.md)、[R1001–1050索引](notes/PROOF-INDEX-R1001-R1050.md)保完整参数/门/失败/回执，不重做已登记结论。
 
 ## 一、唯一原厚几何作业
 
@@ -28,7 +28,7 @@ R1016–1034原平坦迹、whole39/13字/Miller/CM36 Hermite/第一primitive与�
 
 R1037完整378谱run45973650826/job140419911466已全返，30非零块/90零标签、334fibers/390coords和全回乘齐；唯一质量零线rank1为δ-new9/dyadic−/7new。R1038将此线完整识别固定E3969（导子47628）的α1/7 finite/Schwartz/Haar/Gaussian，普通与惰性通常全Sha桥皆付；§14的真实圆盘/全尾给J′126,5≡5/3 mod25，故精确rank2且Sha[5∞]有限，不说群零/无穷p。原126全run45977711940/job140433521280的22列/64回乘、degree20/全部因子角阶/cubic61齐。完整run/source/hash/必要坐标在R1037–38及[原126笔记](notes/2026-11-27-e3969-original-degree126-live-return.md)，不重跑。
 
-R1040原六轴Gram=(126,3,6,51,2,2142)、det−12852δ，C=H与F=J全纤维B3⊗Θ给DE5单项返回；D5、3E30各保χ65/χ10 whole核。三支carry保Y/K/L/M并回39δuD^nJ126,17；§8准确分离K主型σ6(X−2b)，真实(Y,L,M)三变量源(45)保所有mixed。合法顺序先carry忘C/F，再K因子；H/J平均不提前穿cut。norm17矩阵是真混合，未按51/2142范数贴canonical。§9整个Y/K/L/M δ-old为零（L目标17的原ε权必保）；只余联合字(Y,L,M)=(λ,λ,λ⁻¹)，λ=ω/ω²。M两个63全迹、S34六坐标/E17投影恒零；F0及两个δ-pull因子的完整module证明另核回。拟consumer未启动。§10改用原A9/N14整行，Gram=(126,3,6,2,9,14)、det756；全δ相位和二挠3×3作用给Θ9=−yσ9(X+4b)、Θ14=xσ14(X−2b)(X−8b)。五伴随主型完整乘积=39δΦ126⊗B3⊗F6−⊗Θ⊗Θ9⊗Θ14；Y未额外投影。真实6⁵平均付全部companion-only mixed h，含Y网格/YS/YT对数仍待。
+R1040原六轴/单项DE5 carry及χ65/χ10 whole核已付，合法顺序先忘H/J再K，全部mixed单位补域保持。§9整个Y/K/L/M δ-old均零（L保目标17的ε），仅联合字(λ,λ,λ⁻¹)；M两个63全迹与S34六坐标全零，拟consumer未启动。§10用原A9/N14给Gram=(126,3,6,2,9,14)、det756；真实δ/二挠全作用得到Θ9=−yσ9(X+4b)、Θ14=xσ14(X−2b)(X−8b)，五伴随完整乘积=39δΦ126⊗B3⊗F6−⊗Θ⊗Θ9⊗Θ14，Y未另投影。原6⁵平均付全部companion-only h；§11证明同时保S/T/Y的F81角旋转仅四轴共同相位，1296分支不可逐一赋三canonical零。含Y网格/YS/YT对数和原补域仍待。
 
 F0两δ字run45991193171/job140479142693/sourcec5b9ce61389b975b1a11d1ff1ee71912a8749751实际全返：B10、反射/回乘/二处齐；两旧rank1投影全零，primitive三维非零且非∇S比例。真短式B±=(X+4)D_-/(279552y)±σ4σ3σδ³/(1118208δ)，全T_i/Miller/σ2²/单位cut保。必要坐标/hash及未闭转置见[两字笔记§6](notes/2026-11-27-original-f0-two-delta-word-return.md)，不重跑。§7进一步付两odd25 C±及C2=−C1(−z)、实际三挠U±和完整Φ=W51(U+C1−U−C2)/36；真转置是1/18的x+y单位卷积，degree51 Gaussian/三个E2第三类边界保齐。
 

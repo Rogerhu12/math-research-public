@@ -1210,3 +1210,105 @@ R1042 的 $Y_S,Y_T$ 也读这些伴随，不能将它们的 logarithm
 替换为 $\log Y$ 后应用 (77)。
 后继可用的是 (74)、(76)–(78) 的完整测试转换与明确的五个实际因子，
 不是任意 mixed 中央零。
+
+## 11. 五角平均与原三观察共同正交的准确交
+
+本节确定哪些 §10 的真实伴随旋转仍能作为 R1042 的同一个三观察 carry。
+它只用原行的完整系数，不将一个方向的合法中央行扩成另外两个方向的中央零。
+
+### 11.1 两个原观察在小框架中的全部系数
+
+按 $(Y,K,J,A_9,N_{14})$ 的次序，两个原观察准确为
+
+| 原观察 | $Y$ | $K$ | $J$ | $A_9$ | $N_{14}$ |
+|---|---|---|---|---|---|
+| $Y_S$ | $(21-\delta)/63$ | $-\delta/3$ | $-1/2$ | $(3+5\delta)/18$ | $(-8+7\delta)/14$ |
+| $Y_T$ | $(30-2\delta)/63$ | $-\delta/3$ | $(3\delta-4)/2$ | $(-15+7\delta)/18$ | $(-9+4\delta)/14$ |
+
+两者的 H 系数都是零。这张表由每个原内积除以
+(64) 的对应范数逐项得到，保原六输入。
+例如
+$\langle Y_S,Y\rangle=42-2\delta$、
+$\langle Y_S,K\rangle=-2\delta$、
+$\langle Y_S,A_9\rangle=(3+5\delta)/2$、
+$\langle Y_S,N_{14}\rangle=-8+7\delta$。
+按 (64) 回算，两行范数分别严格为34、72。
+其差的伴随系数为
+$$
+\boxed{
+(\Delta_K,\Delta_J,\Delta_A,\Delta_N)
+=\left(0,\frac{3\delta-3}{2},
+              \frac{-9+\delta}{9},\frac{-1-3\delta}{14}\right),
+\quad \Delta=Y_T-Y_S.}
+\tag{79}
+$$
+
+### 11.2 同时保三观察的旋转只有共同相位
+
+在 (78) 中令四个真实相位独立变化：
+$$
+F_{\boldsymbol\zeta}
+=2\zeta_K K-\frac{5+\omega}{2}\zeta_JJ
+ +2(1+\omega)\zeta_AA_9
+ +\frac{1-\omega}{2}\zeta_NN_{14},
+\qquad \zeta_R\in\mu_6.
+\tag{80}
+$$
+所有这些行都与 Y、H 正交，范数仍为81。
+但是与两个旧观察正交是另一个必须实际满足的条件。
+由 (79) 的全部项，准确有
+$$
+\boxed{
+\langle F_{\boldsymbol\zeta},Y_T-Y_S\rangle
+=\frac{3+5\delta}{2}
+       (3\zeta_J-4\zeta_A+\zeta_N).}
+\tag{81}
+$$
+系数 $3+5\delta$ 非零。若 (81) 为零，
+则复嵌入下
+$$
+4=|4\zeta_A|=|3\zeta_J+\zeta_N|\le3+1=4.
+$$
+三角不等式的等号迫两个非零复数同向，故
+$$
+\zeta_J=\zeta_N=\zeta_A=:\zeta.
+$$
+此时 (80) 等于
+$\zeta F+2(\zeta_K-\zeta)K$。
+原 $F\perp Y_S$，而
+$\langle K,Y_S\rangle=2\delta$，所以
+$$
+\boxed{
+\langle F_{\boldsymbol\zeta},Y_S\rangle
+=4\delta(\zeta_K-\zeta).}
+\tag{82}
+$$
+因此有准确的充要条件
+$$
+\boxed{
+F_{\boldsymbol\zeta}\perp Y_S,Y_T,Y
+\quad\Longleftrightarrow\quad
+\zeta_K=\zeta_J=\zeta_A=\zeta_N.}
+\tag{83}
+$$
+充分性由原 $F\perp Y_S,Y_T,Y$ 直接给出。
+这是固定 CM 系数上的完整结论，未用有限素数扫描；
+当前好位均可使用其特征零整关系。
+
+若再让 H 旋转，它只是给原 $C=2\omega H$ 加一个独立相位；
+同时保三观察的平面仍然是原 $C,F$ 平面。
+除去共同相位后，只有原相对六次相位的分支，
+没有产生1296个新的共同三观察 carry。
+
+### 11.3 对全部测试的实际限制
+
+§10(77) 对第一轴 Y 及任意完整伴随测试的有限平均仍完全成立。
+(83) 不削弱该身份。
+它排除的是另一种未经证明的使用方式：
+将 (76) 的1296个相对旋转分支逐一当成保
+$Y_S,Y_T,Y$ 的 R1042 原 carry，并分别赋三个 canonical 中央零。
+
+非共同相位的分支必须携带真实改变后的
+$Y_S,Y_T$、原 unit cut、logarithm 和余权。
+只有原来源上的完整转置，或对这些实际新观察另付完整算术来源，
+才能消费它们；范数仍为81本身不完成这一步。

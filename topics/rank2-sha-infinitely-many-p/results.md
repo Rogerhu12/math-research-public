@@ -282,3 +282,6 @@
 
 
 - **原两字的奇25下降与完整卷积**：[§7](notes/2026-11-27-original-f0-two-delta-word-return.md)。原F0笔记§7把三sigma G75的带ε δ-new字完整下降为两odd25来源C±；C2=−C1(−z)及原Miller乘再移号皆保持。真实三挠lift U±给Φ126=W51(U+C1−U−C2)/36，奇反演使原Mellin准确为1/18的卷积，单位条件始终是x+y为单位；原degree51 Gaussian与三个E2第三类边界不删。 这支付同一canonical在实际单字上的完整转置核，不给裸负一矩或两个summand各自新增中央零。
+
+
+- **R1040角平均与三canonical的准确交**：[§11](results/R1040-new-e3969-whole-companion-frame-and-sixth-degree-carry.md)。R1040§11完整写出原S34/T72在新小框架的全部五系数；F81旋转与T−S的内积严格为(3+5δ)(3ζJ−4ζA+ζN)/2。复三角等号与第二个4δ(ζK−ζA)条件给充要门：同时保原S/T/Y只允许四轴共同相位。1296角平均仍给YA合法行，但不能逐支赋原三canonical零。
