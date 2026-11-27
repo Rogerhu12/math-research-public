@@ -1656,3 +1656,214 @@ o1_theta给实际覆盖、三挠线和配对下降；o2_high_coefficient独立�
 补充§§11–12：o1_theta给实际三平移、有界第一原函数和h的阶乘证明；root独核原参数、完整相对Cartier和分部积分，提出并证明实际空间上的单位Cartier读数与核维数，o1逐式独核。由此支付二次有界primitive的必要充分性；没有从极阶小于p直接假设原函数也有界。无数学程序执行。
 
 补充§§13–14：o1_theta推原全参数Miller对数导数和Lamé源；root实读本篇原S递推并独核第一矩形Cartier、两处留数及Ψ²恒等式。root推完整M/N伴随递推、原Q处A/B变分和e=δA_N，o1独核全部pole范围、初值及半截身份。双方独立确认完整奇Dixon和的反对称性不支付半和单位。无数学程序执行。
+
+
+## 19. 原 kernel 微分、第三类项与实际四阶 Picard 系数
+
+本节 $T$ 是原 source 点，$R$ 是 §17 的实际 relative Picard 参数，
+$Z=F(T)$ 是 Cartier 的 target 点。各轴保持原不变微分，
+$D_T=d/\omega_T$、$D_R=d/\omega_R$，置
+$
+h_A(B)=\frac{V(B)+V(A)}{U(B)-U(A)}.
+$
+下列等式先在稠密开集成立，故是完整函数域恒等式。
+
+### 19.1 同一个核的两个实际微分
+
+直接消费 (1061.29) 的原常数及 §17 的严格互易式，
+以 $R=FP$ 改写，得到
+$
+\boxed{
+D_T\log K(T,R)=h_{-FR}(T)+\Psi(R),\qquad
+D_R\log K(T,R)=\Psi(T)-h_{FT}(R).
+}
+\tag{1061.65}
+$
+第二式由 $K(T,R)K(R,-T)=-1$ 在 $R$ 方向求导：
+第二个 kernel 的第一轴给 $h_{FT}(R)+\Psi(-T)$，
+再移至另一边。这里没有另选 period，
+也没有把辅助超几何变量冒充原 Picard 参数。
+
+### 19.2 保留全部第三类项的 Cartier 算子
+
+令 $f\in L((p-1)O)$，$t_f=\mathscr T_F(f)$，写
+$
+\mathcal C_T(a)=
+\frac{C_{T,\mathrm{rel}}(a(T,R)\omega_T)}{\omega_Z},
+\qquad h=h_Z(R).
+$
+relative Cartier 对 base $k(R)$ 线性，并与 $D_R$ 交换；
+$h_{FT}(R)$ 正是 $h_Z(R)$ 的 source Frobenius pullback。
+原实际帧给 $\mathcal C_T(fK)=t_f(R)$，所以
+$
+\boxed{\mathcal C_T(\Psi fK)=(D_R+h)t_f.}
+\tag{1061.66}
+$
+右边的 $ht_f$ 必须保留，它记录输出的两个第三类极点。
+迭代准确给
+$
+\mathcal C_T(\Psi^r fK)=(D_R+h)^r t_f
+\qquad(r\ge0),
+\tag{1061.67}
+$
+其中右边是算子复合，$D_R$ 也作用于 $h$。
+
+由 $DU=2V,DV=3U^2$ 直接通分，
+$
+D_Rh+h^2=2U(R)+U(Z).
+$
+分子为
+$3U(R)^2(U(R)-U(Z))-2V(R)(V(R)+V(Z))+(V(R)+V(Z))^2$；
+用曲线方程后等于
+$(2U(R)+U(Z))(U(R)-U(Z))^2$。
+再消费原 $\Psi^2=U^p+2\delta\mathcal R$，
+source 的 $U(T)^p$ 恰给 $U(Z)t_f$，
+与 Riccati 式中的同项抵消，得到
+$
+\boxed{
+\mathcal C_T(\mathcal R fK)=
+\frac{(D_R^2+2U(R))t_f+2hD_Rt_f}{2\delta}.
+}
+\tag{1061.68}
+$
+这是完整 source 身份，包含全部第三类项。
+
+取原 $z_Z=-U(Z)/V(Z)$，在 $Z=O$ 有
+$
+h_Z(R)=z_Z^{-1}+U(R)z_Z-V(R)z_Z^2+O(z_Z^3).
+$
+特别常数项为零。令 $\operatorname{Reg}_{Z=O}$ 表示
+scalar quotient by $\omega_Z$ 的 Laurent 常数项，则
+$
+\boxed{
+\operatorname{Reg}_{Z=O}\mathcal C_T(\Psi fK)=D_Rt_f,\qquad
+\operatorname{Reg}_{Z=O}\mathcal C_T(\mathcal R fK)
+=\frac{D_R^2+2U(R)}{2\delta}t_f.
+}
+\tag{1061.69}
+$
+这不是未经说明的 $\Phi$ 乘法公式：
+一般 $\Psi f$、$\mathcal R f$ 超过原 $L((p-1)O)$ 的极界。
+例如 $f=1$ 时 $\mathcal R$ 确在原极界内，
+(1061.68) 复得 $\Phi(\mathcal R)=\delta^{-1}U$；
+而 $\mathcal C_T(\Psi K)=h$ 是第三类核，不能改写成全纯 scalar。
+
+### 19.3 原端值为零时的真正第四阶源
+
+取 $f=U^m$，则 $t_f(R)=U(R)H_p(U(R)^3)$。
+原 $P=Q$ 对应 $R=FQ=-Q$，且 $K(T,-Q)=g_Q(T)$。
+若 $e=0$，则 $H_p(0)=0$，$t_f$ 在 $-Q$ 的零至三阶导数全零。
+由于 $DU(-Q)=-2v$，有
+$
+D_R^4t_f(-Q)=4!(-2v)^4H_p'(0)=384v^4H_p'(0).
+$
+(1061.67) 的所有低阶第三类项在该点消失，因此
+$
+\boxed{
+e=0\Longrightarrow
+C_{\mathrm{rel}}(F_Q\Psi^4\omega)
+=384v^4H_p'(0)\omega'.
+}
+\tag{1061.70}
+$
+原 $C(F_Q\omega)=0$；此假设下 (1061.68)
+也给 $C(\mathcal R F_Q\omega)=0$。
+完整展开 $\Psi^4=(U^p+2\delta\mathcal R)^2$ 后，
+两个 Frobenius pullback 项确实为零，故等价地
+$
+\boxed{
+e=0\Longrightarrow
+C_{\mathrm{rel}}(F_Q\mathcal R^2\omega)
+=96v^4\delta^{-2}H_p'(0)\omega'.
+}
+\tag{1061.71}
+$
+这些固定标量对 $p\ge41$ 都是单位。
+这里没有将辅助参数的 $D_N'(1)$ 或 period 平方的相邻系数
+替换为 $H_p'(0)$。
+
+### 19.4 无条件的实际系数提取及完整四阶公式
+
+写
+$
+\mathcal R(U)=U^2R(U^3),\qquad
+R(X)=\sum_{j=0}^N\frac{a_j}{2(3j+2)}X^j.
+$
+定义同一原源的系数
+$
+\boxed{
+K_4=[V^{p-1}]
+(V-v)^{3N+3}(V+v)^{5N+5}R(V^2-v^2)^2.
+}
+\tag{1061.72}
+$
+确有
+$
+C_{\mathrm{rel}}(F_Q\mathcal R^2\omega)=K_4\omega'.
+\tag{1061.73}
+$
+证明不用数值取样。保持 $\omega=dV/(3U^2)$、
+$F_Q=((V+v)/(V-v))^{N+1}$ 及 $U^3=V^2-v^2$，直接得
+$
+F_Q\mathcal R^2\omega
+=\left(\frac1{3U^2}\right)^p
+(V-v)^{3N+3}(V+v)^{5N+5}R(V^2-v^2)^2\,dV.
+$
+右侧多项式的总次数为 $12N+8=2p-2$，
+所以 Cartier 只读一个指数 $p-1$；
+Frobenius pullback 因子准确还原为 $\omega'$，
+没有丢失常数或第一处进位。
+
+现在不假设 $e=0$。令 $t=t_f$，在 $R=-Q$ 有
+$
+t=0,\qquad Dt=e,\qquad D^2t=D^3t=0.
+$
+完整四次复合为
+$
+\begin{aligned}
+(D+h)^4t={}&D^4t+4hD^3t+6(Dh+h^2)D^2t\\
+&+4(D^2h+3hDh+h^3)Dt\\
+&+(D^3h+4hD^2h+3(Dh)^2+6h^2Dh+h^4)t.
+\end{aligned}
+$
+在该点，Riccati 式和其导数给
+$Dh+h^2=U(Z)$、$D^2h+2hDh=-4v$；
+又 $h_Z(-Q)=(v-V(Z))/U(Z)$，故
+$
+D^2h+3hDh+h^3=-3v-V(Z).
+$
+于是
+$
+\mathcal C_T(\Psi^4U^mK)\big|_{R=-Q}
+=D_R^4t(-Q)-12ve-4V(Z)e.
+$
+另一方面 (1061.68) 给
+$\mathcal C_T(\mathcal R U^mK)|_{-Q}=he/\delta$。
+完整运输 $\Psi^4$ 的三项，
+分别给 $0$、$4(v-V(Z))e$、$4\delta^2K_4$。
+比较得 $D_R^4t(-Q)=16ve+4\delta^2K_4$。
+最后 $D^4U=48v^2+120U^3$，所以
+$
+D_R^4t(-Q)
+=48v^2H_p(0)+384v^4H_p'(0)
+=-24ve+384v^4H_p'(0).
+$
+最终准确式是
+$
+\boxed{96v^4H_p'(0)=10ve+\delta^2K_4.}
+\tag{1061.74}
+$
+$e$ 始终为原 relative $C(F_Q\Psi\omega)/\omega'$；
+不能再多乘一个 $\delta$。
+
+若原端值失败，真正的下一允许 Picard 系数
+$H_p'(0)$ 非零与 (1061.72) 的 $K_4$ 非零等价。
+本节没有证明该非零，也没有证明它与
+$[r^{d-1}]j(r)^2$ 或 §15 的加权半 Dixon 矩成单位倍数。
+后继须继续这个实际 source。
+
+本节只消费 §§6–7、13、16–18 的原来源；
+o1_theta 推导完整 kernel 微分，o2_high_coefficient 提供
+(1061.72) 的原多项式源并独核四阶式；
+root 独核全部 Cartier/pullback、极界、degree 与四阶常数。
+全为纸面证明，无数学程序执行。
