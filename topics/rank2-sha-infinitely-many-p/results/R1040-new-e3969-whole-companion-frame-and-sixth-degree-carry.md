@@ -492,7 +492,7 @@ $\left(\begin{smallmatrix}3&4\\-2&3\end{smallmatrix}\right)$，
 ### 8.2 两个小 theta 恒等式决定全部 K 主型
 
 写 $X(z)=x(z)^3$，并置
-$
+$$
 T(z)=\sigma(z)^3,\qquad A(z)=x(z)\sigma(z)^3,\qquad
 B(z)=B_3(z),\qquad
 F_6^-(z)=\sigma(z)^6\bigl(X(z)-2b\bigr).
@@ -641,6 +641,260 @@ $\varphi$ 可以包含 $K$ 的真实单位或深条件；它没有被换成任�
 特别不能从17矩阵 (39) 或新条件矩 (47)
 给 $L$、$M$、$\log\langle aY+bL+cM\rangle$ 赋中央零。
 后继剩余现在由这个固定三变量式及原单位补域明确控制。
+
+
+## 9. 剩余 L/M 的完整三处 gluing 与 M→S34 提取恒零
+
+本节支付原绝对三挠字符，证明结论在整个三变量来源上成立。
+它不是只检查 M 的第一边际或质量。
+因此此前拟作的 M2142→S34 数值提取已由整函数证明解决，无需执行。
+
+### 9.1 odd 目标必须保留的原字符
+
+取原 CM 周期 $\lambda_0$，使 $\chi_\sigma(\lambda_0)=-1$，
+令 $u_0=\lambda_0/\delta$。
+$\ker\delta$ 使用代表 $0,u_0,-u_0$，置
+$$
+\epsilon(u)=\chi_\sigma(\delta u),\qquad
+\epsilon(0)=1,\quad\epsilon(\pm u_0)=-1.
+\tag{49}
+$$
+所有 $\mathsf T_{R,u}$ 都是原 canonical Weyl lift；
+对一个 norm $3m$ 的标准 sigma theta 方向，
+真正 $[\delta]^*\mathcal S_m$ 的 kernel 特征是 $\epsilon(u)^m$。
+这是将原准周期式直接代入 $g(\delta(z+u))$ 后得到的；
+不把 odd 目标的 kernel lift 冒认成无相位。
+
+因此其准确 old projector 为
+$$
+\boxed{
+P_{\delta,R}=\frac13\sum_{u\in\ker\delta}
+       \epsilon(u)^{-m}\mathsf T_{R,u},\qquad m=NR/3.}
+\tag{50}
+$$
+重相位后的三个 kernel 算子组成真正的有限群作用，
+所以 (50) 是 projector，像恰为原 $[\delta]^*\mathcal S_m$。
+
+对 $H$，$m=1$，其 old 像为
+$[\delta]^*\mathcal S_1=\mathbb C\,\sigma(\delta h)$，是奇线。
+$P_{\delta,H}$ 与 $h\mapsto-h$ 交换，因 (49) 对 $u,-u$ 对称。
+于是
+$$
+\boxed{P_{\delta,H}\Pi_{C,+}\mathcal B=0,}
+\tag{51}
+$$
+也可由 (9) 的唯一偶线 $B_3$ 直接看出。
+注意这里是 $I-\mathsf T_{H,u_0}-\mathsf T_{H,-u_0}$ 杀掉 $B_3$，
+不是未加权的三项和。
+
+### 9.2 原六 sigma 的实际周期关系
+
+以下均是原六输入整行，末尾未写的零坐标也保留：
+$$
+\begin{array}{c|c|c|c}
+R&R+sH=\delta G_R&G_R&NG_R\\ \hline
+Y&Y-H&
+(-2\delta,-1-3\omega,-2-3\omega,3,2,2)&43\\
+K&K+H&(0,-\omega^2,\omega,1,0,0)&3\\
+L&L-H&(0,\bar\gamma,-\gamma,-2,0,0)&18\\
+M&M+H&(-5\delta,1-2\delta,-1-2\delta,6,-17,-17)&715
+\end{array}
+\tag{52}
+$$
+这里 $\gamma=(5+\delta)/2=3+\omega$。
+每一式由 (5)、(38) 逐坐标得到。
+因为 $R\perp H$、$NH=3$，
+$NG_R=NR/3+1=m+1$。
+
+对 $u\in\ker\delta$，$(R_i+sH_i)u=G_{R,i}\delta u$ 是每个原 sigma 的整周期。
+两个正交 Weyl 指数与这些原准周期指数准确抵消：
+线性项只为 $NR\,z_R+NH\,z_H$，
+二次项只为 $(NR+NH)u/2$，其余全部生成变量的交叉为零。
+剩下的真实符号为
+$\prod_i\chi_\sigma(G_{R,i}\delta u)$。
+在 $\mathcal O_K/2=\mathbb F_4$ 中，每个非零系数都保原奇符号，
+而非零系数数目的奇偶性正是 $NG_R=m+1$ 的奇偶性。
+所以在原整个来源上有
+$$
+\boxed{
+\mathsf T_{R,u}\mathsf T_{H,su}\mathcal B
+=\epsilon(u)^{m+1}\mathcal B.}
+\tag{53}
+$$
+这支付了所有 six-sigma phase，而不是仅由同一个抽象 Heisenberg 交换子猜符号。
+
+将 (53) 乘 (50) 的权并对三个 $u$ 求和，得到
+$$
+P_{\delta,R}\mathcal B
+=\frac13\sum_u\epsilon(u)\mathsf T_{H,-su}\mathcal B
+=P_{\delta,H}\mathcal B.
+$$
+$P_{\delta,R}$ 与 $H$ 偶投影交换，右侧完整加权和也与该投影交换。
+由 (51)，准确推出
+$$
+\boxed{
+P_{\delta,R}\Pi_{C,+}\mathcal B=0
+\qquad(R=Y,K,L,M).}
+\tag{54}
+$$
+这里从未将单个 $\mathsf T_{H,u}$ 穿过 $H$ 偶投影。
+只有完整加权和可交换；各个单独 translate 不能因此被赋予一个标量。
+
+### 9.3 整个三变量来源的准确三挠关系
+
+$K,J$ 的投影与 $Y,L,M$ 的实际 kernel 算子交换，
+因为各方向在 (6) 中正交。
+因此 (54) 对 (45) 的整个 $\mathcal B_3(y,l,m)$ 仍成立：
+$$
+\boxed{
+\begin{aligned}
+(I+\mathsf T_{Y,u_0}+\mathsf T_{Y,-u_0})\mathcal B_3&=0,\\
+(I-\mathsf T_{L,u_0}-\mathsf T_{L,-u_0})\mathcal B_3&=0,\\
+(I+\mathsf T_{M,u_0}+\mathsf T_{M,-u_0})\mathcal B_3&=0.
+\end{aligned}}
+\tag{55}
+$$
+$Y/3$、$M/3$ 的 theta degree 分别为42、714，均 even；
+$L/3$ 的目标 degree 为17，odd，故中间一式必须带负号。
+等价地，未加权的 L 三项和为 $2\mathcal B_3$，不能误写为零。
+这些式保全部 Y/L/M 系数，不只在原点成立。
+
+令 $\alpha_+=3\gamma$、$\alpha_-=3\bar\gamma$，均 norm63。
+它们都被 $\delta$ 整除。
+M 方向的实际 old 子空间
+$[\alpha_\pm]^*\mathcal S_{34}$ 包含于
+$[\delta]^*\mathcal S_{714}$，因为
+$\alpha_\pm/\delta=-\delta\gamma_\pm$。
+(55) 的最后一式因此立即给出
+$$
+\boxed{
+\mathcal T_{\alpha_+}^{(M)}\mathcal B_3
+=\mathcal T_{\alpha_-}^{(M)}\mathcal B_3=0.}
+\tag{56}
+$$
+$\mathcal T$ 是未平均的完整 CM trace，保其他两个实际输出；
+$34$ 和 $714$ 都是 even，所以这里没有隐藏的 odd-target rephase。
+
+特别，M 第一边际的两个完整63纤维返回均为零，
+原 $\mathcal S_{34}$ 的全部六坐标都为零，
+随后 R297 的 E17 projector 也必为零。
+这不是只知道其质量列为零，也没有留下待数值决定的投影系数。
+$NM=63\cdot34$ 虽与旧 E17 pull 的 degree 相同，
+真实来源却已被 (56) 完整排除在该 old 像外。
+
+### 9.4 同一结论的完整 module-linearity 返回
+
+另可直接沿 R1038 的实际原边际核查 (56)。
+令
+$$
+F_0=\sigma(7z)\sigma(\pi z)\sigma(\bar\pi z)\sigma(3\delta z),
+\qquad \deg F_0=102\quad\hbox{standard even}.
+$$
+原算术来源是
+$$
+\Phi_{126}
+=\frac{F_0\,[\delta]^*(\sigma(2z)^2)}{-3276\delta}.
+\tag{57}
+$$
+R1037 §4(18)–(22) 的完整 trace/pull
+$T_M E_M=3I$、§9 实际层 $[0,1,0,0]$，
+与 R1038 §11(53)
+$\Phi_{378}=-E_{126}\Phi_{126}/27$，
+已经严格给出完整 $T_{42}\Phi_{126}=0$。
+
+kernel trace 对真正 pullback 因子满足原 module-linearity；
+它由 $\mathsf T^{N_1+N_2}(fg)
+=(\mathsf T^{N_1}f)(\mathsf T^{N_2}g)$ 逐项证明。
+在 (57) 中，目标 degrees34、8、42 全是 even，
+所以原未加权的 trace 正确。
+可提出 $[\delta]^*(\sigma(2z)^2)$；
+它不是零函数，于是完整 $\delta$ trace 的 $F_0$ 因子必为零。
+
+而 M 的原六 sigma 正是
+$$
+\boxed{
+\prod_i\sigma(M_i z)
+=F_0(2z)\,[\delta]^*(\sigma(17z)^2).}
+\tag{58}
+$$
+$[2]$ 与 $\delta$ 互素，它们的完整 Weyl pull/trace 交换，
+故 $F_0(2z)$ 仍为 $\delta$-new。
+(58) 的目标 degrees136、578、714 仍全是 even。
+再次用完整 module-linearity，M 的整个 $\delta$ trace 为零；
+随后沿 $\alpha_\pm/\delta$ 的完整 trace 给 (56) 的第一边际版本。
+
+这里用的是 kernel trace 对已指明 pullback 因子的线性性质，
+没有传播中央泛函的乘积零。
+整个三变量版本则由 (52)–(55) 已另外支付。
+L/M 的其他真正 $\delta$-new 分量、三变量 mixed 单位域及 (37) 的补域继续保留；
+(55) 的有限 theta 翻译也不等于将物理 logarithm 的输入简单相加一个 torsion 常数。
+
+
+### 9.5 三个方向的原字必须联动
+
+(53) 的 Y/M 两式还给更强的整个来源作用：
+$$
+\boxed{
+\mathsf T_{Y,u}\mathsf T_{M,u}\mathcal B_3=\mathcal B_3,\qquad
+\mathsf T_{Y,u}\mathsf T_{L,-u}\mathcal B_3
+=\epsilon(u)\mathcal B_3.}
+\tag{59}
+$$
+证明可在原 $\mathcal B$ 上先用
+$\mathsf T_{Y,u}\mathsf T_{H,-u}=\epsilon(u)$、
+$\mathsf T_{M,u}\mathsf T_{H,u}=\epsilon(u)$、
+$\mathsf T_{L,u}\mathsf T_{H,-u}=1$；
+各正交方向的实际 Weyl 算子交换，
+$\mathsf T_{H,-u}\mathsf T_{H,u}=I$，
+故不留下未定中心相位。
+所得联合算子与 H/K/J 投影交换，遂给 (59)。
+也可直接核
+$Y+M=3(7,\pi,\bar\pi,3\delta,-5\delta,-5\delta)$，
+其除 $\delta$ 后范数756为偶；
+$Y-L$ 除 $\delta$ 后范数59为奇，分别给 (59) 的两个符号。
+
+令
+$$
+\tau_Y(u)=\mathsf T_{Y,u},\qquad
+\tau_M(u)=\mathsf T_{M,u},\qquad
+\tau_L(u)=\epsilon(u)^{-1}\mathsf T_{L,u}.
+$$
+这三套都是保原目标半特征后真正的 $\ker\delta$ 群作用。
+(55)、(59) 准确说明：整个 $\mathcal B_3$ 只有两个非平凡联合字。
+对 $\lambda\in\{\omega,\omega^2\}$，设
+$$
+\mathcal B_{3,\lambda}
+=\frac13\sum_{j=0}^2\lambda^{-j}
+       \tau_Y(ju_0)\mathcal B_3.
+$$
+这里 $\tau$ 使用重相位后的真实群作用，不把 $2u_0$ 与 $-u_0$ 的
+原 odd lift 无证认同。
+完整分解及三个同时特征为
+$$
+\boxed{
+\mathcal B_3=\mathcal B_{3,\omega}+\mathcal B_{3,\omega^2},
+\qquad
+(\tau_Y(u_0),\tau_L(u_0),\tau_M(u_0))
+ \mathcal B_{3,\lambda}
+=(\lambda,\lambda,\lambda^{-1})\mathcal B_{3,\lambda}.}
+\tag{60}
+$$
+所以后继必须保这两个相关字，不能把三轴各自的两个非平凡字
+视作八个独立组合，或把 δ-old 零当成某个单字零。
+
+对任何原连续 mixed 测试 $f$，(59) 对应的严格读者身份是
+$$
+\boxed{
+\langle\eta_3,f\rangle
+=\langle\eta_3,(\tau_Y(u)\tau_M(u))^\dagger f\rangle,\qquad
+\eta_3=(Y,L,M)_*\rho.}
+\tag{61}
+$$
+转置按 R985 的整个有限 theta 测度公式执行，保原单位域、
+质量和全部 logarithm；它不是物理变量替换 $Y\mapsto Y+u$、
+$M\mapsto M+u$。
+(60) 的两个实际字给出同一个完整来源的精确联动，
+没有额外赋予其中任何一个 mixed 中央零。
 
 
 ## 依赖
