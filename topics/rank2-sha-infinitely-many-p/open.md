@@ -157,3 +157,8 @@ R1041将原s0=0四点谱盖双向写成固定亏格二Q6，真实S4 incidence恒
 
 
 指定半类首run45985234568/job140459035605/sourcea4e66e2d32dba6d46a74c1f7ce6c220e5d3ac762真实failure：flint0.9把现成fq_default再次传GF触发TypeError，未到新Fitting。仅对同一原field值作恒等coerce，δ/六minor/全厚层/Norm/Cantor不变；消费原10835B日志后请求唯一修复后继，尚无半类结果。 新请求2026-11-27-1050-original-q11-specified-half-norm-native-coercion；具体栈/hash见指定半类笔记§8。
+
+
+### 指定半类实际非零及明确限制
+
+原q11指定半Norm真实run45985515813/job140459993008/source239d3f42206392460b4c345ec85fbb547104c739成功；全13个闭点/厚零和两个degree12分割齐，二重零(9,8)准确(1,1)。原第一半AQ=(9,6)=−G，G=(−2,−6)真阶16，反半G；[12]AQ=P=(1,3)非零，故AQ本身不等于原被12杀的旧shadow。 首次结果只含二主信息；后继沿原四谱halving图求一般与固定P的关系并付最高权，不再重复q11原搜索、完整Norm或本次Fitting计算。

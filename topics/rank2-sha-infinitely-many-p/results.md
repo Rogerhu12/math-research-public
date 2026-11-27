@@ -249,3 +249,6 @@
 
 
 - 原q11指定半类入口兼容修复：指定半类首run45985234568/job140459035605/sourcea4e66e2d32dba6d46a74c1f7ce6c220e5d3ac762真实failure：flint0.9把现成fq_default再次传GF触发TypeError，未到新Fitting。仅对同一原field值作恒等coerce，δ/六minor/全厚层/Norm/Cantor不变；消费原10835B日志后请求唯一修复后继，尚无半类结果。
+
+
+- **原q11指定半类实际完成**：[完整半Norm](notes/2026-11-27-original-q11-specified-half-norm.md)。原q11指定半Norm真实run45985515813/job140459993008/source239d3f42206392460b4c345ec85fbb547104c739成功；全13个闭点/厚零和两个degree12分割齐，二重零(9,8)准确(1,1)。原第一半AQ=(9,6)=−G，G=(−2,−6)真阶16，反半G；[12]AQ=P=(1,3)非零，故AQ本身不等于原被12杀的旧shadow。

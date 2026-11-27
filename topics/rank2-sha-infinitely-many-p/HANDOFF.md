@@ -47,7 +47,7 @@ R1039原g二盖严格Prym≅EL:y²=x³−12x+20，r*r_*=1−ι；边界D∞−D0
 
 R1041原s0=0四字母盖精确为H²=Q6(v)，X=−3a(v²−1)/(v²+2v−2)²；完整ΓᵗΓ=2+f4*f4*使该同一Jac有F²=−q。真实Pell U=A+BH满足divU=(q+1)(I+−I−)，NmU=cU²[Y/(Y+1)]^((q+1)/3)，全部常数/双∞保；dlogU=(−v²+bqv+cq)dv/H且迹=dX/[X(2Y+1)]非零。原FQ全极=π*f3*(D+O)，原εprod=−δW/t确定Z+=ΓE+、Z−=ιΓE−与Frob交换，准确半类AQ∈EL(Fq)在新ss q被q+1杀；AQ非零、s0=1返回和原27最高权仍待。
 
-新增原q11指定半Norm实时consumer：绑定原Norm→lift→唯一Q三层真实run/job/source/hash，保δW∓t方向，以两2×4乘法呈示全部六minor的完整DVR/Fitting长度分开每个厚零；尤其保T9,Y8二重零。两半各degree12、各自Cantor和准确−3 twist返回原EL，输出AQ=kG的实际k而不预设非零。 首run45985234568因native field重包装TypeError失败；只修同field恒等coerce，唯一后继请求2026-11-27-1050-original-q11-specified-half-norm-native-coercion，实际回执待；源码/完整证明见[指定半类](notes/2026-11-27-original-q11-specified-half-norm.md)。
+原q11指定半Norm真实run45985515813/job140459993008/source239d3f42206392460b4c345ec85fbb547104c739成功；全13个闭点/厚零和两个degree12分割齐，二重零(9,8)准确(1,1)。原第一半AQ=(9,6)=−G，G=(−2,−6)真阶16，反半G；[12]AQ=P=(1,3)非零，故AQ本身不等于原被12杀的旧shadow。 全Norm→lift→Q三层实时绑定、完整Fitting/Cantor及所有hash/必要坐标见[指定半类](notes/2026-11-27-original-q11-specified-half-norm.md)§§8–9；首field包装TypeError已仅修兼容，不重算原搜索。一般半类/最高λ仍待。
 
 ## 四、新六轴的真实必要行
 
