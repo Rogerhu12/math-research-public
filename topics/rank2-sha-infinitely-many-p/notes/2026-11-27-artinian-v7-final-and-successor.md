@@ -145,3 +145,14 @@ RESULT 8,315 B / SHA-256
 除原全字节计数/hash与最后12000字节外，下载时逐行读取原代码实际发出的 geometry/intersections/shadow/base/triangular/linear-fiber 终点JSON。每条完整payload保准确字节数和SHA、原始status/布尔门、真实nonzero字段、必要长度账与原emit SHA的匹配情况；未结束行不冒作完整JSON。失败标记和host退出也分别保留。全部原JSON只流经内存，不写输出文件，不打印授权或签名下载URL。
 
 这里已对照唯一v9固定源码：`every_original_geometric_gate_completed_with_exact_successor_bindings` 仅说明外层完整，真正非零须读取原SHADOW/base中的 `original_rational_AJ_detected_nonzero`。collector只投影原字段，不自行推断数学结论。本次真实回执待取得，不能用新reader的存在预记原几何通过。
+
+## 11. 第四次真实字节快照：2026-11-27T04:57:47.0676014Z
+
+collector run `45942929589`、job `140321076833`、source `ec0b092ea48e318d541d26036dddf6d6d6d9b8c4` 实际成功。原v9仍是固定run/job/source，run与数学step4均 `in_progress`，没有终结conclusion。
+
+- 原完整log：18909009字节，SHA-256 `b047820576e07c796e4190dc2e45cc4b2e2c200dca647db7f1f4a0201aa76ea7`。
+- 实际可读尾止于 `2026-11-27T04:44:40.1180880Z`，`all original cusps:negative: base-prime 1: actual maximal ideal 2`，Hermite已抽44/306，下一完整gcd/Popov reset已过，剩余determinant degree 8。日志可用尾与读取时刻不同，不据此预测未读阶段。
+- 本次完整终点JSON投影为空，parse errors为空、没有未完成尾行；没有四交/全厚Norm/完整shadow终门，更没有原nonzero字段的真实返回。
+- collector stdout：14055字节，SHA-256 `5ffd460153aaf6320b1ddd9b1a77becbc1f3c2e8ae6a6f90d86c174bda5518e9`，exit0。源helper SHA仍为§10所记。
+
+本次只读全字节，不重算任何数学，不保存原log或可重算数据文件。唯一v9继续运行，完整终点和原nonzero值仍待；不把collector成功当几何PASS。
