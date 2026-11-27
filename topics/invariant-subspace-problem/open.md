@@ -6,7 +6,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-smooth-core-all-power-dense-range-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-entire-K7-rational-parameter-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -188,13 +188,13 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 整个 D27/J19/λ3/2/G36 已闭，同一 F=Fp(S)全域唯一。原 qF(Fp)、六 Gram、q3/r2/R6、全部个别 N/P/NV 必须同点保留；Bi/H411/L1/A143/几何D/旧C13及新一次头零没有成为单位。首一S³三列环境不是仅权参数三点数界，旧十二原行/NS-NV的λ9/13、权头51/69与50/64等全部必要条件保快照；9105未执行不重派。
 
-[新规范头整体覆盖](results/R150-appendix-unit211-W-canonical-binary-head-full-cover-and-six-mean-generators.md)给六行四列 G 在全部已付权点 rank4，15最大子式生成单位理想；具体 $1,\lambda,S,\lambda^2,\lambda S,S^2$ 全局生成均值代数，不重计旧六维界。固定 H265 是单 QQ 不可约(e,k)16/23曲线；首一 k23 环境保整 H0，e 方向的 k+3 不得倒置，几何局部化不自动保持对权环有限。
+[规范头整体覆盖](results/R150-appendix-unit211-W-canonical-binary-head-full-cover-and-six-mean-generators.md)已付全权rank4及15最大子式单位理想，具体1,λ,S,λ²,λS,S²全局生成。H265是QQ不可约总30次，k23首一的权局部化已付；e方向k+3未付，保所有原零支，不假任意几何局部化保持对权环有限。
 
-[全W原native必要权曲线](results/R150-appendix-unit211-W-entire-original-native-NSPS-necessary-weight-curve.md)：eca4真95.890604382秒/0，以已全付(k+2)J19C9的六原规则/18乘法，固定NS,PS,yNS,tNS,yPS,tPS原矩阵返回55商积；所得非零P双度97/123、总164、8472项，包含整H265零。仅必要曲线，未称不可约、平方自由、有限权或排空；原全部值纤维继续。8222常数门仅rank4、7168仅六列/两步41商积且无det的两个180秒门冻结，精确源与失败保完整快照，不重复已成95秒det。
+[全W原native必要权曲线](results/R150-appendix-unit211-W-entire-original-native-NSPS-necessary-weight-curve.md)：全付六原规则/18乘法与55商积给P双度97/123、总164，包含整H265零；仅必要条件，未称不可约或排空。8222只rank4、7168只两步41商积且无det，两180秒门冻结；成功源和准确失败保正文/快照。
 
-[整H265有限交点与原七坐标环境](results/R150-appendix-unit211-W-entire-H265-finite-weight-intersection-and-original-environment.md)已由e747首次15.331051968秒/0付清：固定p1009,k3检查全41018个QQ系数整性，原D195除H16完整余15次非零。由Gauss本原性和H的QQ不可约性，H与P无公共曲线；整H0仿射权长度≤4920，原均值六生成环境≤29520。加rho、HA首一二次得118080；保完整HB且当前物理D≠0及ell−u单位时ζ线性唯一，完整规范七坐标商≤59040。全部重数保留，有限Artin环后局部化只删分量，未排H空或把必要环境当原解。全部原值继续。
+[整H265有限原环境](results/R150-appendix-unit211-W-entire-H265-finite-weight-intersection-and-original-environment.md)：e747固定p1009,k3的真实非零余式经Gauss及H不可约性付H∤P；整H0权长≤4920、均值≤29520。双二次七坐标≤118080，完整HA/HB与当前D≠0、ell−u单位使ζ唯一，原商≤59040。保全部重数与原值，Artin局部化只删分量，未判H空。
 
-[物理lambda四头、全域仿射与有限降秩支](results/R150-appendix-unit211-W-physical-lambda-four-heads-global-affine-and-finite-rank-defect.md)：0b261真1.092022892秒/0返两向坐标及六完整原式，四个余子式QQ只余不可约F56/F86/F80/K7（总度13/16/15/4），共同乘子完整同除后仍全域原仿射关系。K7开图及另三头图分别在其权[lambda]上由1,x,y生成；整个共同降秩权理想含互素K7/F56，长度≤52，均值≤312、双二次环境≤1248、完整HA/HB原七坐标≤624。未排这些点或整K7曲线，续原个别NP/NV；不把各图三生成当权环上有限。
+[物理lambda四头与有限降秩支](results/R150-appendix-unit211-W-physical-lambda-four-heads-global-affine-and-finite-rank-defect.md)：双向坐标、六原式和全仿射身份已返；未付不可约头F56/F86/F80/K7总度13/16/15/4。各头非零图仅在其权[lambda]上三生成；整个共同降秩理想含互素K7/F56，权长≤52、均值≤312、双二次环境≤1248，完整原七坐标≤624。所有原值及K7整曲线仍须返回，不把图上三生成称权环上有限。
 
 ### Phi：一般 H1 余 P201，其它原权与值层仍开
 
@@ -223,3 +223,5 @@ $$
 [全部普通限制的本质正序障碍](results/R12-appendix-all-invariant-restrictions-essential-hyponormal-obstruction.md)已排实际普通限制/解析函数/非零子商的任意相似加紧成为次正规等正序输入。新[交织方向与实际闭逆费用](results/R12-appendix-all-subquotients-hyponormal-intertwining-directions-and-closed-inverse-cost.md)证明全部实际A子商及非恒定解析芽到hyponormal、从cohyponormal的任意有界交织为零。反向移位到B有明确迹类拟亲和X_x；专对B=A_Q，每个非零移位不变L都满足closure(X_xL)=C_x，不能由此推出更小普通空间。实际闭逆Y_x单域保轨道，但同一来源放大至少exp((100/15)r⁴n⁴−105r³n³−O(n))。C_x真性、非正序紧扰动目标、真正特殊闭域和来源费用继续；不搬这些Haar子商结论到边界。
 
 [六位一对等权加四独立权原S1](notes/2026-11-28-one-pair-four-independent-original-s1-8542.md)的完整源9=6+3、低源5=4+1与三塔恒等式保留。修复13c594真run46073861936为6.550871417秒/121804KiB/0：首minor分子度28、24921项、944负系数；分母度26、17290项，纯Z正项23。准确INCONCLUSIVE，后五不算，不是S1反例。该系数非负配方冻结，换平方分组/同源结构；S1/S2、七位glue和同W费用仍开。首77aae仅JSON类型故障保准确回执。
+
+[整K7双向原参数及rho恢复](results/R150-appendix-unit211-W-entire-K7-rational-parameter-and-original-rho-cover.md)：V8 BigInt17ms完整40身份，把K7等价为theta²=(k+12)²−96，m=(theta+k+12)/4、m^-1=(k+12−theta)/24，逆向仅原k/k4分母，判别式零与两分支俱保。k=2A/m、e=C/(6A)，全部原单位准确拉回；sigma=rho/(m−3)、m=4/(1+3sigma²)还覆盖整rho二次扩张。m0/∞无当前有限原点，A/B零只是原k/k4零。未排K空，下一新QQ(m)原六列及多项式cofactor gcd仍须保所有临时主元零和个别原值。

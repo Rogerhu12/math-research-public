@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [整K7权曲线与原rho的双向有理参数](results/R150-appendix-unit211-W-entire-K7-rational-parameter-and-original-rho-cover.md)：实际V8 BigInt17ms/40完整身份，m及sigma覆盖两值分支、判别式零及所有当前有限原点；每个新分母对应原已付单位。只换同一原输入，未排空K7。
+
 - [原光滑核内部的全部幂稠密值域](results/R271-appendix-smooth-kernel-core-all-powers-dense-range.md)：同一真实创建修复给closure(B^rK∞)=K∞，原像仍在光滑核；非恒定解析芽在该限制上稠值且核恰Ce0，同u输出误差平方可和。K∞=N/M和实际来源费仍未证。
 
 - [Phi H1 原固定范数的精确QQ次数3179](results/R150-appendix-unit211-Phi-zero-H1-original-norm-exact-degree-3179-at-infinity.md)：真3.420099509秒完整∞ rank1+3 Hensel/CRT，12阶小块三轮核提取给929，36阶大块2250；首项mod1009乘积954，保度已付。只首个固定norm，804不缩。
