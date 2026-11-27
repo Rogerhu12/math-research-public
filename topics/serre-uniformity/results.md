@@ -18,6 +18,8 @@
 
 ## 新增结论
 
+- **R1098（已证明）**：[原坏47完整交数](results/R1098-original-bad47-CM-intersections-and-exact-vertical-correction.md)：原坏47全部CM目标未分歧且避cusp；真实coarse长度2(L−1)，完整admissible Hecke移槽给 I47=529D_qH+23D_qb，H只需47³倍数、b用五维Brandt。实际全局高度和2处继续。
+
 - **R1097（已证明）**：[R1097](results/R1097-original-level47-odd-prime-CM-intersections-and-sparse-norm-sum.md)：原47奇好素交数化为两条模2209进程的正范数和，含ℓ|n及全二核/粗重数；n≤275奇部零。2与坏47继续。
 
 - **R1096（已证明，精确计算）**：[R1096](results/R1096-certified-original-CM-moving-units-and-odd-Hecke-height-basis.md)：run45948995182/job140340211167，6.976秒；det(T2−1)=3715、detT3=3071，Hodd=T3+T5判别式2650，故M=T·u16且奇Hecke整基覆盖全部T。D4与全部Hodd^jD16分盘，h_q∈q²；全高度首层由非q原level交数读取，实际值仍开。

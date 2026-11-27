@@ -6,11 +6,11 @@
 
 会话 **Astra-serre-24b8836b-20261126**。本轮已部分克隆并真实pull main，读两README/H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则读至36cf1ed2。不重做已登记结论或窗口。
 
-**公开两README已读提交：719da0254be6391aa62566a76baddd61de5976ce**（2026-11-27 14:35 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
+**公开两README已读提交：a8d7b4851c24b2a37e7599de4ab078fd9ae70c93**（2026-11-27 14:50 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
 
 已真实部分克隆/pull；13:59再试pull仍报无可用执行环境，shell未运行；按根规矩8用连接器小文本同步、读两README差异、带expected_sha非force提交，恢复后立即pull --rebase。拒绝即同步重基再推至成功。令牌仅CLI；根维护main/H/open/index/log，子研究独立稿，每条结论立即推。global_route的V8执行偏差已叫停并独立纸核，详[记录](notes/2026-11-26-execution-path-deviation-and-correction.md)，其输出不作证明/合规窗口。
 
-H<10KB、open尽量<30KB、每MD<100KB、topic<200MB；无可重算raw、不写根LOG。[本次逐字前态](handoff-archive-2026-11-27-before-full-MW-height.md)沿链保全部旧来源/run/hash；[open](open.md)、[索引](results.md)是完整入口。历史“R1003 norm3准备中”未交付，现R1003为范围纠错。
+H<10KB、open尽量<30KB、每MD<100KB、topic<200MB；无可重算raw、不写根LOG。[最新逐字前态](handoff-archive-2026-11-27-before-local-heights.md)沿链保全部旧来源/run/hash；[open](open.md)、[索引](results.md)是完整入口。历史“R1003 norm3准备中”未交付，现R1003为范围纠错。
 
 ## 原高度来源与范围
 
@@ -38,6 +38,8 @@ R1063：全Hecke族消MW及真辛商，最低两jet行列式仍开。R1058：原
 
 [R1097](results/R1097-original-level47-odd-prime-CM-intersections-and-sparse-norm-sum.md)：原47奇好素交数化为两条模2209进程的正范数和，含ℓ|n及全二核/粗重数；n≤275奇部零。2与坏47继续。
 
+[R1098](results/R1098-original-bad47-CM-intersections-and-exact-vertical-correction.md)：原坏47全部CM目标未分歧且避cusp；真实coarse长度2(L−1)，完整admissible Hecke移槽给 I47=529D_qH+23D_qb，H只需47³倍数、b用五维Brandt。实际全局高度和2处继续。
+
 ## O1：原同一保留标签
 
 [R1079](results/R1079-original-CM-Psi-zeta-short-carry.md)：原j0/1728真实T下Ψ=Z_<p^p+δT modT^(p²)，safe ζ、slope+1、首负p极及最后加性carry全付；不代短η/ν；Gaussian后继见R1082/84。
@@ -52,7 +54,7 @@ R1063：全Hecke族消MW及真辛商，最低两jet行列式仍开。R1058：原
 
 [R1031](results/R1031-original-fN-and-actual-Faber-truncation-central-derivative.md)：f_N=0 iff原有限Legendre平方截断R′(1/2)=0；forcing单位不代中心导数。
 
-R1012/16/17/20/25/27 的未经筛选完整 theta 分布、常平方一及全方向单位已成，全部相位与实际来源保原文/归档；不能代同 $h$ 两 mask 或 bare。
+完整theta分布、范数与全部旧角色/相位见归档；不能代同h两mask或bare。
 
 原h=6i+7须同一本原h使P_(h−1)(1/s)fi gj非零，i+j=N−1；原Norm/双CM权/相位和两个mask不删。R971 full-span、R1006全p G稳定已否；特定A/E4仍开，粗CM阶≤4不代零阶。R995–1002等已成输入只消费；R706旧5992 f_N/5991 g_N单位至200000（g零137147）不重算。全部原角色/例外/run保open和归档。
 
@@ -74,6 +76,4 @@ R1007/08原高度格三挠Picard/ℓ²及野3障碍仍保；R696/832只为指定
 
 原λ始终为−6(b+1)/r（R1045.5）。当前并行：两行实际MW后M1与原盘点数界已成，继续最低w单位/正赋值深盘零点。原最高K_Q、R1041核范数、R1043端点及同h筛选各有独立读数，不能混同；O0完整全局覆盖仍未关。子问题完成即接open其余项，真正达README完成标准才收尾。
 
-[R1053](results/R1053-original-scalar-disjoint-window-through-500000.md)：原f/g新增7878素数窗口200000<p≤500000完整无零；两真实runs及全部hash保结果，已成不重开。
-
-R1054的p47 K15=23反例与R1057原X₁指定深盘C=15均已成，原run/hash保open及逐字前态；不能推full47或其它盘。
+R1053新增7878素数窗口至500000、R1054的p47反例和R1057指定深盘C=15均已成，完整run/hash保open及归档，不重跑；不推full47或全p。
