@@ -1,22 +1,17 @@
 {
-  "message": "ISP: repair Dixon compilation and enforce repository data handling rules",
-  "parentCommit": "ed7c0f58a9dfd50e91e7143e9f6671e2416351e1",
+  "message": "ISP: return the original W mean ideal as three plane cubics",
+  "parentCommit": "41303cae2d0f1a934de02d969c2979622dbd399c",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/notes/2026-11-28-restore-data-and-formula-policy-8542.py",
-    "topics/invariant-subspace-problem/notes/2026-11-28-load-historical-input-8542.py",
-    ".github/workflows/invariant-subspace-8542-restore-data-policy.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-H1-Dixon-first-compile-failure-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-H1-Dixon-first-compile-failure-8542-execution.json",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-whole-H1-original-biquadratic-Dixon-unit-target-syntax-fix-8542.py",
-    ".github/workflows/invariant-subspace-8542-whole-h-one-original-dixon-syntax-fix.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-28-six-matrix-small-report-first-http-redirect-failure-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-six-matrix-first-run-small-report-redirect-fix-8542.py",
-    ".github/workflows/invariant-subspace-8542-six-matrix-small-report-redirect-fix.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-data-rule-repair-8542.md",
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-W-original-mean-ideal-three-plane-cubics-and-six-overlaps.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-six-original-binary-cubics-and-weight-head-receipt-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-smallest-binary-head-whole-QQ-factor-geometry-8542.py",
+    ".github/workflows/invariant-subspace-8542-w-smallest-binary-head-factors.yml",
+    "topics/invariant-subspace-problem/notes/2026-11-28-compliant-focused-workflow-maker-8542.js",
+    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-W-plane-cubics-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -26,8 +21,6 @@
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
   "dispatchWorkflows": [
-    "invariant-subspace-8542-whole-h-one-original-dixon-syntax-fix.yml",
-    "invariant-subspace-8542-six-matrix-small-report-redirect-fix.yml",
-    "invariant-subspace-8542-restore-data-policy.yml"
+    "invariant-subspace-8542-w-smallest-binary-head-factors.yml"
   ]
 }

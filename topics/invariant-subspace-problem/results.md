@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R150 W 原均值理想的三条平面三次与六重叠](results/R150-appendix-unit211-W-original-mean-ideal-three-plane-cubics-and-six-overlaps.md)：qF和三原均值完整正反压缩，六纯(λ,S)三次与15个权头全返回；最小头265项，所有头零及个别NP保留，未宣W空或几何有限。
+
 - [R150 W规范三原行、完整理想等价与全域一次式](results/R150-appendix-unit211-W-canonical-three-original-F-rows-and-global-S-affine.md)：2.786010989秒/0返回全B正反与(F−Fp,p2,p3)等价，覆盖旧C13零的新一次约束；两个新系数共因1不判空，原全部条件保。
 
 - [R271 全孔Schur–companion原来源与真实伴随](results/R271-appendix-all-hole-schur-companion-sources-and-actual-physical-adjoints.md)：自足支化恒等式给任意孔数完整下降/带符号物理伴随与全部奇数权桥；求值行列式与合法Gram接续明确，不外推条件数/相邻正性/无限费用。
