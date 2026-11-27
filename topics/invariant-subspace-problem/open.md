@@ -4,7 +4,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-collision-P3-66-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-six-site-sharp-half-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -211,7 +211,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 ## R271：五位完整S2已闭，继续更高原来源（8542，2026-11-28）
 
-[全位数尖锐2/3](results/R271-appendix-sharp-two-thirds-universal-birth-one-first-and-last-edges.md)保全有限/无限正ell²出生一来源；[四、五位严格half](results/R271-appendix-four-five-sites-birth-one-half-first-last-edges.md)给同低源budget>I/2，未付六位出生一half。
+[全位数尖锐2/3](results/R271-appendix-sharp-two-thirds-universal-birth-one-first-and-last-edges.md)保持；[四、五位half](results/R271-appendix-four-five-sites-birth-one-half-first-last-edges.md)之后，新[整个六位出生一尖锐half](results/R271-appendix-six-independent-positive-weights-birth-one-sharp-half-first-last-edges.md)已闭首末边。全六维精度先形成后商真零线，5个完整特征系数首次真0.255475250秒/35240KiB/0；9,168B准确参数保五阶及Cayley–Hamilton，33正均值差BigInt56ms完整付原正权严格正性。同源倒数权给末边，真实2×2完整逆给half尖锐。七位(6,1^6)已有实际比121/240>half，不能外推；六位内部j2及高出生全来源仍开。
 
 新[五位全部独立正权完整S2及六位出生二首边](results/R271-appendix-five-independent-positive-weights-full-s2-and-six-site-birth-two-first-edge.md)已证明。同一全上MP/四共同块/两cross的cost平方迹N/D为加权98；566b首实0.233秒/46236KiB/0保存完整2841参数。BigInt3942ms将D−4N原z展开为6936正轨道、658965正单项式，min系数1，故Tr(K²)<1/4、K<I/2，与同L half合成真正S2。旧R298完整硬端S1、旧低源末边及R275全同余进一步给六独立位出生2九维首边严格成立。
 
@@ -221,6 +221,6 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 **碰撞P3下一输入：** 直接读已保存F66，作完整QQ因子与同一lambda/u/Q原返回，保每个首项零及异常权分量；不再运行已完成1474长欧氏或新低Gamma范数。
 
-新[五位完整S2统一余量](results/R271-appendix-five-site-full-s2-uniform-three-sixteenths-square-budget.md)以同一已存3D−16N参数给472条正均值差及6478个严格正轨道，完整BigInt证书3655ms；Tr(K²)<3/16，故同源S2总费<(2+√3)/4、余量>(2−√3)/4，不主张最优。接六位出生一half的全新完整精度源：先形成六维J=e2²e3(C₂²−2C₃)，实际核真空列0后取商，逐阶原特征系数保存、末完整Cayley–Hamilton；180秒/4GiB首次派发。六位half及更高joint未证明，不重跑旧M6流或五位矩阵。
+[五位完整S2统一余量](results/R271-appendix-five-site-full-s2-uniform-three-sixteenths-square-budget.md)的472正均值差/6478正轨道已实际付Tr(K²)<3/16及S2余量>(2−√3)/4。新六位half另以原完整精度和全部特征系数独立闭合；旧六位支持流失败按原范围保留，无重跑或改记。下一需支付六位低源内部L2 L3^-1 L2以及旧六位上birth2完整S1/S2，才能作更高位数真实一位递推；当前epsilon≥1/320不代这些缺项。
 
 [原一位来源的定量Schur返回](results/R271-appendix-quantitative-one-bit-source-transfer-and-six-site-319-over-320.md)已把五位同源余量返回原H0：在四项已付费用epsilon/kappa/rho/sigma下，新原首边余量≥alpha·epsilon/2，其中alpha=min{1−sqrt(sigma),(1−sqrt(kappa))(1−sqrt(rho))}。对六位出生2实际取epsilon=1、kappa=743/782、rho=1/2、sigma=(2+sqrt3)/4，alpha>1/160，故整个九维原首边≤319/320 I。保原Qy/WW*、真实Schur变分和同源可逆同余，不把辅助块常数直接移到H0；一般高出生所需四费用仍开。

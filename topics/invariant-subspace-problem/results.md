@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [六独立正权整个出生一尖锐half首末边](results/R271-appendix-six-independent-positive-weights-birth-one-sharp-half-first-last-edges.md)：完整六维精度的五阶特征系数与33正均值差支付整个五维源；真实2×2逆证half尖锐，七位明确121/240说明常数范围。
+
 - [碰撞P3原Gamma剥除与完整66参数覆盖](results/R150-appendix-unit211-collision-P3-original-Gamma-deflation-and-complete-66-cover.md)：同点真实单位Gamma²降四原式，固定Sylvester身份跨临时主元零、完整三维范数与chart保全域；P支≤198、当前总计≤39393不同λu，原Q纤维仍开。
 
 - [原一位定量来源转移及六位出生二319/320首边](results/R271-appendix-quantitative-one-bit-source-transfer-and-six-site-319-over-320.md)：四项实际费用给一般alpha·epsilon/2余量，完整Schur变分及原H0比较返回六独立正权九维primitive上的统一319/320；不假交换。
