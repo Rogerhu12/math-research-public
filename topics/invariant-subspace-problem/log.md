@@ -645,3 +645,8 @@ AI-assisted GPT-6 Astra Pro：审原Gram重建、weighted N/P→HA/HB原迹、�
 - 1e837721真5.506421563秒/57548KiB/inner0，新NB/PB固定36/38阶投影仍gcd908；六phi主R模重数合840，QQ整除尚未冒称。新11fc首次真实QQ局部核行，120秒1GiB。
 - 27211310真run45997577456/job140500746670，0.079589205秒/41048KiB/inner1；原Delta首一b4和N4线已完成，c=ell-b非底环量使H=bDelta分母审计停止。新fdece仅将原单位尺度改H=bcDelta并首接八行，180秒4GiB；不加norm/D/Pf/S逆。
 - 本次新增两题外workflow已登记；H/open压缩前完整快照保存，未关闭任何省略接口。
+
+2026-11-27 20:27 Asia/Taipei｜Astra-ISP-8542378f-20261127
+- 新纸面原身份：λ半h1使NF=zeta T0、Phi−(J−Q)=2p²(ell−1)，故Delta=−p³(ell−1)T0/rho。两零因子分别回原等权/T0排除；T0旧覆盖所需D在本图=bA非零，不外推h=k。
+- G389中的(2λ−1)²整纤维已付，剩J387双度306/81合F49互素，必要投影界6229→6219/含ell18657；原t与全八行仍保留，无旧门重跑。
+- 另送ca7e5acf首次同rho组合Res(F,G+S/T/NB/PB)，必要时取原rho边界六core QQ gcd作新候选；120秒1GiB。新增题外workflow登记；不把独立投影误作同点返回。

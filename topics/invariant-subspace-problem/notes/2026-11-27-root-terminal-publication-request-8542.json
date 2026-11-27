@@ -1,22 +1,14 @@
 {
-  "message": "ISP: exclude whole Phi collision c-half fiber and advance exact local returns",
-  "parentCommit": "57f5207f1154dcbb242bf9b9f362a7768f32fd9e",
+  "message": "ISP: exclude entire Delta collision lambda-half fiber and sharpen to 6219",
+  "parentCommit": "97b2a143c1fc34ddefd151e314eb208905710435",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-Phi-zero-rank-one-value-complete-c-half-exclusion.md",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-rank-one-value-complete-c-half-exclusion-receipt-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-rank-one-value-individual-NBPB-modular-observation-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-rank-one-value-individual-NBPB-modular-observation-receipt-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-rank-one-value-six-original-QQ-local-factors-8542.py",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-equal-singleton-values-original-Gram-c-denominator-failure-receipt-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-equal-singleton-values-original-c-cleared-Gram-and-Delta-quartic-8542.py",
-    ".github/workflows/invariant-subspace-phi-h-one-six-qq-local-factors-8542.yml",
-    ".github/workflows/invariant-subspace-equal-singleton-c-cleared-quartic-8542.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-27-handoff-before-c-half-and-new-inputs-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-27-open-before-c-half-and-new-inputs-8542.md",
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-Delta-zero-h-one-lambda-half-exclusion-and-6219-cover.md",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-rank-one-value-same-rho-combinations-boundary-input-8542.py",
+    ".github/workflows/invariant-subspace-phi-h-one-same-rho-combinations-8542.yml",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -26,7 +18,6 @@
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
   "dispatchWorkflows": [
-    "invariant-subspace-phi-h-one-six-qq-local-factors-8542.yml",
-    "invariant-subspace-equal-singleton-c-cleared-quartic-8542.yml"
+    "invariant-subspace-phi-h-one-same-rho-combinations-8542.yml"
   ]
 }

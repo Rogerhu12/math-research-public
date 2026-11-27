@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R150：Delta0碰撞图整个lambda=1/2原纤维排除与6219基点覆盖](results/R150-appendix-unit211-Delta-zero-h-one-lambda-half-exclusion-and-6219-cover.md)：原Delta=−p³(ell−1)T0/rho，完整回到已闭等权/T0，明确本图D=bA非零；删去已付整纤维，保原自由t。
+
 - [R150：Phi0 rank-one碰撞图整个c=1/2原支排除](results/R150-appendix-unit211-Phi-zero-rank-one-value-complete-c-half-exclusion.md)：ecea实际0.219秒/exit0，λ半两三次QQ行、二次λ域5/4次原E1/EB均真Bézout1；两复嵌入及所有rho纤维保全。
 
 - [R150：Delta0碰撞图原消元式完整QQ因式与6229基点覆盖](results/R150-appendix-unit211-Delta-zero-h-one-exact-factorization-and-6229-point-cover.md)：b737实际25.741秒/exit0，G389=a(2λ−1)²J387完整乘回；保λ半纤维与自由t，改进必要投影界，未排空。
