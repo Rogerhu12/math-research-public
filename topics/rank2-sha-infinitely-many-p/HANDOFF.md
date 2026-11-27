@@ -12,7 +12,7 @@
 
 - 至少每小时重试同步，每次pull后只读新README差异并立刻执行，记实际读过SHA；断连沿最新main API非force快进，每次检查README及本topic外部变动。10:48ref失败已立即实际pull重试、重比新父后成功；不强推。
 - root独占git/H/open/log/index；每条结论立即推，拒绝时pull --rebase后重试至成功。令牌只命令行/进程，不进文件/提交/API。数学执行只在公开Actions；根规则15禁止存可重算输出或日志数据。H<10KB，每MD<100KB。
-- 本次整理前的[完整交接](notes/2026-11-27-handoff-before-primitive-lprime.md)逐字保原历史，向前链接所有旧归档；[open归档](notes/2026-11-27-open-before-weighted-level-transport.md)、[results](results.md)、[R1001–1050索引](notes/PROOF-INDEX-R1001-R1050.md)保完整参数/门/失败/回执，不重做已登记结论。
+- 本次整理前的[完整交接](notes/2026-11-27-handoff-before-direct126-mixed-input.md)逐字保原历史，向前链接所有旧归档；[open归档](notes/2026-11-27-open-before-weighted-level-transport.md)、[results](results.md)、[R1001–1050索引](notes/PROOF-INDEX-R1001-R1050.md)保完整参数/门/失败/回执，不重做已登记结论。
 
 ## 一、唯一原厚几何作业
 
@@ -28,7 +28,9 @@ R1016–1034原平坦迹、whole39/13字/Miller/CM36 Hermite/第一primitive与�
 
 R1037完整378谱与原126两次实际回执均全消费，30非零/90零、334fibers/390coords、22列/64回乘齐。唯一质量零线在R1038完整识别固定E3969（导子47628）的2/3/7 finite、Schwartz/Haar/Gaussian和通常全Sha桥；真实p5圆盘/全尾给J′126,5≡5/3mod25，故精确rank2且Sha[5∞]有限，仅此一个p。全部run/source/hash、degree20因素和规范在R1037–38、[原126笔记](notes/2026-11-27-e3969-original-degree126-live-return.md)及前交接，不重跑。
 
-R1040原六轴/whole核、§9全部Y/K/L/M δ-old零与两个联动字已付，不再运行已零的M旧投影。§10新A9/N14给Gram(126,3,6,2,9,14)、det756及五伴随完整乘积；原6⁵平均只给完整comp-only h，所有Y混合条件保。§11同时保S/T/Y的F81角旋转仅四轴共同相位。§12只投H/J/N后，Y主型的整个K/A来源为39δΦ⊗Ξ0+G126⊗Ξ1；G(0)=−δ/28、wholeβ=−λ给JG(0)=−δ(1+λ)/28单位。坏Φ时完整comp-only中央/质量同一比例，归一Y/7保log7质量。全四输出2KA5+5K4A2零核及K3A3 canonical返回齐，不保忘掉的K/A cut。§13真D5/E90完整管的DE5与D²E4给单位2×2返回，hΦ/hG逐测度分离两态；所有n仅u5^n，不冒作额外强迫。§14完整坏处/七挠gluing识别G为E15876质量一参考，实平方给rank0；整周期保留，JG′无新零。精确来源见原文。
+R1040 §§1–13原六轴、Gram(126,3,6,2,9,14)/det756和所有δ-old零已付。原6⁵平均只给完整comp-only许可；H/J/N投影后Y主型整源=39δΦΞ0+GΞ1，G0=−δ/28、JG0单位。坏Φ时中央/质量同一比例，Y/7保log7费用。DE5与D²E4的真5/90完整管给hΦ/hG两态分离、保全部四输出，n仅u5^n。§14全bad/七挠gluing/Haar/平方识别G为E15876 rank0参考；JG′无新零。全矩、相位和原cut见原文/逐字归档。
+
+§15原K一阶矩U_K=(10δ/7)D126，D首z5；全odd9的JMJ、真实CRT负号、2/3/双7与正权平方识别E21609:y²=x³+147²，f=(126)、level47628/root−。实际∫K/Y P3ρ=(10δ/7)ΩI_D=j′_{Y+tK}(0)/d；现有坏条件仅给j(0)，不迫角导数零。wild3导子4的正确rank1桥/解析输入继续，未套R761恰δ一次定理。
 
 F0两δ字run45991193171/job140479142693/sourcec5b9ce61389b975b1a11d1ff1ee71912a8749751实际全返：B10、反射/回乘/二处齐；两旧rank1投影全零，primitive三维非零且非∇S比例。真短式B±=(X+4)D_-/(279552y)±σ4σ3σδ³/(1118208δ)，全T_i/Miller/σ2²/单位cut保。必要坐标/hash及未闭转置见[两字笔记§6](notes/2026-11-27-original-f0-two-delta-word-return.md)，不重跑。§7进一步付两odd25 C±及C2=−C1(−z)、实际三挠U±和完整Φ=W51(U+C1−U−C2)/36；真转置是1/18的x+y单位卷积，degree51 Gaussian/三个E2第三类边界保齐。
 

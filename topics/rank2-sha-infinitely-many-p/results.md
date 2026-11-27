@@ -330,3 +330,6 @@
 
 
 - **R1043原最高形式的准确新曲面像**：[§15](results/R1043-original-two-isogeny-level-transport-and-weighted-orbit-reduction.md)。R1043§15从原二同源图逐式计算两S3权和，原最高曲面形式准确送到−3Ω′1，Ω′1=(2Y′+1)^−1ωB′∧ωt。全Hodge线L(D2+O)与四个pg4形式(1,X′,Y′,X′²)Ω′1齐，canonical O零阶依次4/2/1/0、τ′特征ω/ω²/ω/1。原对应像是四阶零的第一项，不能用canonical非零第四项替代它。
+
+
+- **R1040直接degree126 mixed负一来源**：[§15](results/R1040-new-e3969-whole-companion-frame-and-sixth-degree-carry.md)。R1040§15从原完整Wronskian得到K一阶条件源D126，首z5；全odd9矩阵JMJ与绝对splitting、s3读取负号及全部2/3/双7数据，将它准确识别为E21609:y²=x³+147²的type5正权来源。原完整Hermite/Katz平方与周期齐，∫K/Y P3ρ=(10δ/7)ΩI_D是原角函数j(Y+tK)在0的导数除d；坏jY=0尚不迫这个角导数零。 f=(126)/wild3指数4、level47628/root−；负一非零和合法forcing仍另付。

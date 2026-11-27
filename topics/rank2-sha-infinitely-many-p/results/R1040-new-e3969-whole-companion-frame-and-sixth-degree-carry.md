@@ -2162,3 +2162,234 @@ $$
 均无需修改。特别这条 rank0 参考不会给出新的中央导数零。
 后续若比较别的来源，必须先证明其完整同源缩放或实际 finite 线相同，
 再比较相应 logarithm；不能仅从 reference 的质量都是单位推出同型。
+
+## 15. 同一原来源的 type5 一阶条件矩及反向 cubic 曲线
+
+本节保完整 H/J/N 主型及原 K/Y 单位读者，识别一个直接位于
+degree126 的新 type5 来源。它不经过 F0 的 degree51 卷积。
+尚未从中央坏条件得到此负一矩为零，也不调用要求三处导子恰一次的
+BDP 定理处理这里的 wild 三处。
+
+### 15.1 原 Wronskian 给出的整个来源
+
+令
+$$
+U_K(z)=\left.\frac{\partial}{\partial k}
+                     \mathcal C(z,k,a)\right|_{k=a=0}.
+$$
+在 (85) 中写 $T=\sigma^3,\ B=-y\sigma^3$、
+$A=\sigma(\delta z)=\delta x\sigma^3$。
+原 $Dx=2y,Dy=3x^2$ 准确给
+$$
+A'T-AT'=2\delta y\sigma^6,\qquad
+A'B-AB'=\delta(X-2b)\sigma^6.
+$$
+因此对完整函数而非有限 jet，有
+$$
+\boxed{
+U_K(z)=-\frac{\delta}{84}\sigma(2\delta z)^2
+ \left\{2y(3z)\sigma(3z)^6 B_3(4z)
+             +F_6^-(3z)\sigma(4z)^3\right\}.}
+\tag{122}
+$$
+这是原 (85) 的真实 K 条件矩，所有常数、外部因子都保留。
+由 $-54+64=10$ 和 $(2\delta)^2=-12$，
+$$
+\boxed{U_K(z)=\frac{10\delta}{7}z^5+O(z^{11}),\qquad
+D_{126,b}:=\frac7{10\delta}U_K=z^5+O(z^{11}).}
+\tag{123}
+$$
+整个来源属于 standard even $\mathcal S_{126}$；
+其解析奇性与 standard even 半特征不是同一概念。
+原 simultaneous $\mu_6$ 类型和一次 K 矩给其准确类型5。
+(54) 继续给完整 Y 的 $\delta$-new 条件，(112)–(113) 给相同七处线。
+
+A 取质量时只保其类型0，K 一次矩只保其一维类型1
+$xy\sigma^6$。由 (114)，Y 的 dyadic 号准确为负。
+所以这里没有对一个未分解的21维 odd 来源任意选择一条线。
+
+### 15.2 原九维奇矩阵、全三处相位及唯一线
+
+设 $J=\operatorname{diag}(1,-1,1)$，本段 J 只表示三乘三矩阵，
+不与原 norm2 物理行混用。
+R391(8) 的全九维核只在 $a\equiv c\bmod3$ 非零；
+在有序奇基
+$(e_1-e_{-1},e_2-e_{-2},e_4-e_{-4})$ 中，
+四个混合格 $(1,2),(2,1),(2,3),(3,2)$ 改负号，
+故其完整矩阵准确为 $J M J$。
+
+本节正权角色的三处单位是
+$\varepsilon(q)\omega^{-j-k}$，uniformizer 为 $-i$。
+将其逐项代入 R391(3)，得到
+$$
+\boxed{
+\mu(\omega)=-i\omega,\qquad
+\mu(-\omega)=+i\omega,\qquad
+\mu(g_*)=\omega.}
+\tag{124}
+$$
+所以 $-1$ 为负反射，真正 $\omega$ 矩阵为 $\omega JMJ$。
+用 R1038(33) 的原 $f=(f_1,f_2,f_4)^{\mathsf t}$，
+完整固定向量正是
+$$
+\boxed{
+\phi_{D,3}
+=f_1(e_1-e_{-1})-f_2(e_2-e_{-2})+f_4(e_4-e_{-4}),
+\qquad \|\phi_{D,3}\|^2=18f_1.}
+\tag{125}
+$$
+$g_*$ 的九列仍为 $\omega^{1-a^2}e_a$，所以全部非单位陪集被排除，
+没有漏掉一个 old 方向。
+三处缩放仍取 $s_3^2=1/7,\ s_3\equiv7\bmod9$。
+在 $n/18$ 上，原读取是 $-n\bmod9$；由于 (125) 为奇，
+这一次 CRT 中必须保整体负号，不能照搬偶向量的读取。
+
+二处为 (115) 的 $v_{G,2}$，七处为原 $f_7$。
+原物理 $\omega$ 的有限标签是 $g=\omega^2$（沿 R735(23) 的规范）。
+相对 R1038 的 principal 来源，二处 geometric $\omega$ 特征乘
+$\omega$，三处的 $\omega$ 特征不变、但反射改奇，七处不变。
+故物理 $\omega$ 特征为 $\omega^2$、反射为负，
+准确是类型5。这也独立核对 (123)。
+
+同 §14 的有限配对及原 W9 old/new 分解，
+type5、负 dyadic、此七处线和 $\delta$-new 已固定三个一维局部线。
+因此 (122) 与 (125) 给的是同一整来源，而非只符合部分必要标签。
+
+### 15.3 固定曲线的全部字符及正权来源
+
+置
+$$
+\boxed{
+E_D:\ y^2=x^3+21609=x^3+147^2,\qquad
+\psi_D=\psi_0^2/\psi_{E3969}.}
+\tag{126}
+$$
+这里 $\psi_0$ 为原 $E_1$ 角色。
+因为 $21609\cdot3969=21^6$，
+(126) 正是两条实际 cubic twists 的反向关系，
+不是利用本征值猜曲线。
+其完整坏点数据由 R1038(26)–(27) 逐项给出：
+$$
+\boxed{
+\begin{array}{c|c}
+\text{处}&\chi_D=\psi_D|\cdot|^{-1/2}\\ \hline
+2&\chi_D(u)=\operatorname{Teich}(u),\quad\chi_D(2)=-1\\
+3&\chi_D(q\omega^jg^k)=\varepsilon(q)\omega^{j+k},
+       \quad\chi_D(\delta)=i\\
+\gamma_7&\chi_D(u)=u^4,\quad
+                 \chi_D(\gamma_7)=\gamma_7/\sqrt7\\
+\bar\gamma_7&\chi_D(u)=u^4,\quad
+                 \chi_D(\bar\gamma_7)=\bar\gamma_7/\sqrt7 .
+\end{array}}
+\tag{127}
+$$
+其导子为 $(126)$，三处指数准确为4，
+椭圆曲线 conductor 为47628。
+三处原54项 Gauss 和为 $+9$：
+k 求和留下 $q=1,4,7$，j=0 贡献9，j=1、2 各为零。
+于是三处 epsilon 为 $+i$，全根数为负。
+
+对 $m\equiv5\bmod6$，$2m+1\equiv11\bmod12$。
+(127) 的正权单位及 uniformizer 因而准确变成：
+二处 Teich 平方与−1，三处
+$\varepsilon(q)\omega^{-j-k}$ 与−i，七处单位平方。
+这正是 (115)、(124)–(125) 和原 $f_7$ 的全 Schwartz 数据。
+正权的三处 Gauss 和为−9，乘原−i后，其 Hermitian dichotomy 回到正；
+其余处亦与 §14 的同一个 $\alpha=1/7$ 相容。
+
+记 (125) 的奇九项向量为 $v_{D,3}$，则完整有理支撑、CRT 和 Gaussian 为
+$$
+\boxed{
+\begin{aligned}
+a_{D,n}&=-v_{G,2}(n\bmod4)\,v_{D,3}(n\bmod9)\,f_7(2n\bmod7),\\
+S_{D,\rm raw}(Z)&=e^{126\sqrt3\pi Z^2}
+ \sum_{n\in\mathbf Z}a_{D,n}
+      e^{\pi i(\delta/3)n^2/252+2\pi inZ}.
+\end{aligned}}
+\tag{128}
+$$
+系数实奇，保持原周期252及标准 degree126 的半周期；
+负号是前述 $s_3$ 读取的真实返回。
+同一整有限线及 (123) 的首项固定它与 $D_{126,1}$ 的非零比例，
+没有更换原普通 period。
+
+### 15.4 正权全平方与原负一 Katz 身份
+
+R1038(51) 的全范数计算应用于 (128)，保范数
+$(3+\sqrt3)\cdot18f_1\cdot n_7$、原7处 $7/6$ 费用及同一 Gaussian。
+其 Hermite 系数只在 $m\equiv5\bmod6$ 存活。
+令 $d_m=[z^m]D_{126,1}$、$\varpi_0=s_0\Omega_1$。
+按 R735(26)–(30) 的同一奇权 period 计算，得到固定非零代数数
+$$
+c_D=126^5\,
+ \frac{(2\pi/\sqrt3)^5L(\psi_D^{11},6)}
+      {5!\,\varpi_0^{11}}
+$$
+及全部合法正权的完整式
+$$
+\boxed{
+\frac{(2\pi/\sqrt3)^mL(\psi_D^{2m+1},m+1)}
+     {m!\,\varpi_0^{2m+1}}
+       =c_D\,126^{-m}d_m^2,\qquad m\equiv5\bmod6.}
+\tag{129}
+$$
+$c_D\ne0$ 来自 (123) 的 $d_5=1$、同一真实正权平方，
+不依赖尚未计算的中央导数。
+
+在原普通 ray 上，令
+$I_{D,p}=\int_{\mathcal O^\times}x^{-1}\,d\nu_{D_{126,17}}(x)$、
+$\theta^6=17$。原缩放为
+$D_{126,17}(z)=\theta^{-5}D_{126,1}(\theta z)$，
+$\Omega_{p,0}=\theta\Omega$。
+保 primitive conductor $(126)$、两个相同的普通 Euler 因子，
+沿 $m_r=-1+(p-1)p^r$ 取原单位矩极限，
+(129) 因而准确给
+$$
+\boxed{
+\mathcal K_{(126)}(\widehat{\bar\psi}_D)
+       =126c_D\theta^{11}\Omega\, I_{D,p}^{\,2}.}
+\tag{130}
+$$
+此时仅得原完整来源的平方身份，不声称其值非零。
+尤其本曲线在3处的导子指数为4；
+R761 所用 BDP2 Theorem2/3.32 的「恰一次判别式」假设不适用于此。
+若要由复 $L'(E_D,1)$ 返回这里的实际点 logarithm，
+须另付适用的一般定理及全部 wild 局部比较。
+
+### 15.5 与中央坏条件的准确关系及尚缺的接线
+
+原 moment/period 规范给完整测度身份
+$$
+Y_*(K\mathscr P_3\rho)=\Omega\,\nu_{U_K}
+       =\frac{10\delta}{7}\Omega\,\nu_{D_{126,17}} .
+$$
+所以它直接支付同一个原六输入上的负一读者
+$$
+\boxed{
+\int_{Y\ {\rm unit}}\frac K Y\,\mathscr P_3\,d\rho
+       =\frac{10\delta}{7}\Omega\,I_{D,p}.}
+\tag{131}
+$$
+这里的写法表示先对来源作 $\mathscr P_3$；
+因 H/J/N 都正交于 Y/K，也可把它们的实际平均移到测试端。
+
+更确切地，对 $t\in p\mathcal O$ 定义原同域中央函数
+$$
+\mathfrak j(t)=
+ \int_{Y+tK\ {\rm unit}}d\log\langle Y+tK\rangle\,\mathscr P_3\,d\rho .
+$$
+此范围 $Y+tK$ 为单位当且仅当 Y 为单位。
+原对数级数一致收敛，故
+$$
+\boxed{\mathfrak j'(0)
+       =d\,\frac{10\delta}{7}\Omega\,I_{D,p}.}
+\tag{132}
+$$
+原 E3969 坏中央条件只给
+$\mathfrak j(0)=39\delta J'_{126,17}(0)=0$。
+它尚未给 $\mathfrak j'(0)=0$；
+$Y+tK$ 也未被识别成一族新的 rank2 canonical 来源。
+因此 (131) 已把后继需要控制的实际 mixed 负一值放到一个完整固定曲线
+与同一 unit 域上，但不能仅由裸负一非零就宣布矛盾。
+真正剩余是把原 S/T 或同 H 合法族的完整转置接到 (132)，
+并为 (130) 支付正确的 wild3 非零桥。
