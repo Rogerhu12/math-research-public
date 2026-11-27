@@ -1,17 +1,14 @@
 {
-  "message": "ISP: prove original Delta-zero equal-weight twenty-degree compatibility cover",
-  "parentCommit": "60a44f52494882b380b909f294835d409c7efc1c",
+  "message": "ISP: classify all single-chain intertwiners and return bounded commutant representation",
+  "parentCommit": "b816535cedce7a640d2a3c1b3582b81f2af076f5",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-equal-singleton-equal-weight-Delta-zero-original-compatibility-20-cover.md",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-equal-singleton-equal-weight-Delta-zero-20-cover-receipt-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-equal-singleton-equal-weight-Delta-zero-full-original-QQ-return-8542.py",
-    ".github/workflows/invariant-subspace-equal-singleton-equal-weight-delta-zero-full-original-qq-8542.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-27-handoff-before-equal-value-Delta-zero-twenty-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-27-open-before-equal-value-Delta-zero-twenty-8542.md",
+    "topics/invariant-subspace-problem/results/R271-appendix-single-chain-complete-intertwiners-and-bounded-commutant-representation.md",
+    "topics/invariant-subspace-problem/notes/2026-11-27-handoff-before-single-chain-complete-intertwiners-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-27-open-before-single-chain-complete-intertwiners-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -20,7 +17,5 @@
     ".github/workflows/invariant-subspace-8542-root-terminal-publication.yml",
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
-  "dispatchWorkflows": [
-    "invariant-subspace-equal-singleton-equal-weight-delta-zero-full-original-qq-8542.yml"
-  ]
+  "dispatchWorkflows": []
 }

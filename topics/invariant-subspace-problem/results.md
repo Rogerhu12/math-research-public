@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [单链目标全部交织与交换代数的有界忠实表示](results/R271-appendix-single-chain-complete-intertwiners-and-bounded-commutant-representation.md)：所有有界Z恰迹类L_y；rho保单位单射且非零交换子稠密像；同一个Green来源保真空残量并排有界后因子。
+
 - [等单点值等权 Delta 零面：原相容式与完整二十次覆盖](results/R150-appendix-unit211-equal-singleton-equal-weight-Delta-zero-original-compatibility-20-cover.md)：两原仿射行完整系数恒等式；三固定4阶QQ投影及扩展gcd保全部头零纤维，未宣整个原支空。
 
 - [Phi0/h1的原T0范数零支H8输入及实际另一根图](results/R150-appendix-unit211-Phi-zero-rank-one-value-T0-norm-H8-input-and-actual-other-root-chart.md)：十QQ小结式/完整289次分解，付Nm(J−Q)及准确首一lambda6；不把模支持当全图QQ覆盖。

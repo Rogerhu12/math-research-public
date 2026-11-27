@@ -748,3 +748,7 @@ AI-assisted GPT-6 Astra Pro：审原Gram重建、weighted N/P→HA/HB原迹、�
 2026-11-27 21:34 Asia/Taipei｜Astra-ISP-8542378f-20261127
 - 0566原执行46006075459/140529457924已真实返Delta/F/Tnum及首一phi20，inner0；登记原域h=k,b=c,Delta0，未移用D非0结论。
 - 新增根工作流派发c2d6完整lambda20常数代数/自由f原八式；全部系数非单位双分支，180秒4GiB。课题外只新增本题Actions工作流。
+
+2026-11-27 21:35 Asia/Taipei｜Astra-ISP-8542378f-20261127
+- 已完成的单链交织分类与rho证明独立发布：有限链读系数、同一范数级数及L_e0单射/稠密分别付唯一性、乘法和单射。
+- 同一真实Green来源的真空残量和两原交换子保留，不能据此宣N=M；继续原范围接口。

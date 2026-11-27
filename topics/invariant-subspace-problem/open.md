@@ -4,7 +4,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-equal-value-Delta-zero-twenty-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-single-chain-complete-intertwiners-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -188,6 +188,6 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 **[Phi0/h1真首一1069余式给≤32基点/64三元组及四norm单位](results/R150-appendix-unit211-Phi-zero-rank-one-value-32-point-cover-and-four-norm-units.md)新已付。** f66真5.043秒/71108KiB/exit0，真实R1069/P/PB完整xgcd返32，保逐纤维Vandermonde重数；[H4/H20全复纤维及QQ36次因子](results/R150-appendix-unit211-Phi-zero-rank-one-value-H4-H20-complete-fibers-and-QQ-divisibility.md)仍保。四原norm零面无除法QQ覆盖配新g32/Z32完整Bézout1，现合法付Nm(ell),Nm(u),Nm(u−ell),Nm(b)，不泛化任意范数。[新971完整T0范数三次像/H8与另一根图](results/R150-appendix-unit211-Phi-zero-rank-one-value-T0-norm-H8-input-and-actual-other-root-chart.md)已付：3.353秒/66308KiB/exit0，十小QQ结式gcd289含H8²及旧单位因子，故仅Nm(T0)=0原支必H8=0；Nm(J−Q)现为单位。原另一ell根与单参数首一lambda6图已纸证，全图不自动H8覆盖。新845c补此前未使用的NC/PC原值对，各同ell闭对返原H³必要core，并只消已付四norm；新固定rho投影与g32真实QQ共同覆盖作全Bézout，120秒1GiB。k1只交换，全Phi0未闭。
 
-**[同一全尺度右逆](results/R271-appendix-single-actual-right-inverse-on-all-physical-exponential-scales.md)、[平滑修正/实际cut通量](results/R271-appendix-same-right-inverse-smoothing-correction-and-actual-kernel-cut-flux.md)及[方向交织/迹类解](results/R271-appendix-actual-directional-intertwiner-exclusion-and-trace-class-rosenblum-solutions.md)保留；[真闭proper单链U与共同迹类像](results/R271-appendix-proper-single-chain-restriction-and-common-trace-class-intertwiner-range.md)新已付。** e0在实际Gλ*域使规范G只减有界秩一，闭包真闭值域交M为0；故U=closure span Gⁿe0有U∩M=Ce0、kerT_U^r恰前r链且并稠密。任意非零y的closure RanL_y=U、kerL_y=cyclic_S(y)⊥；L_e0:H→U单射稠密迹类，反向XT_U=BX只能0。实际w∈W仅给H/N→U稠密迹类商映射及L_w|M=e0⊗w，未付其单射、BU⊂U/正角、G保N、Gamma/Sr或W0。旧RTcut范数发散/有锚实际通量与两范围核心继续。
+**[真闭proper单链U](results/R271-appendix-proper-single-chain-restriction-and-common-trace-class-intertwiner-range.md)与[目标U全部交织/交换代数表示](results/R271-appendix-single-chain-complete-intertwiners-and-bounded-commutant-representation.md)已付。** 目标U的全部有界Z满足T_UZ=ZB恰Z=L_y，自动迹类；rho(D)=Σ〈Du_n,e0〉Bⁿ有界单射保单位、rho(T_U)=B且DL_y=L_y rho(D)，非零交换子像稠密。实际T*y=Sf给L_yT=T_UL_f、L_f kerL_y⊂Ce0；残量零恰f∈cyclic_S(y)，非零y无有界后因子。第二Green仍只消真空行，全交换子两项保留。旧同G全尺度/平滑/闭值域、cut通量、U∩M=Ce0、全部非零L_y共同闭包像与反向交织零保本次完整快照。U保B/正角、同w费用/G保N/范围核心和N=M继续。
 
-[原D27泛型五次不可约](results/R150-appendix-unit211-W-D27-generic-quintic-irreducibility.md)已由k=1保次数与模7完整Frobenius/Bézout证明；只付QQ(k)中五维代数为域，不删除任何有限k专门化、权norm零纤维或原方程。
+D27泛型五次不可约与有限纤维范围保上述D27原单位条目及本次完整快照；不把泛型域结论外推有限权norm零点。
