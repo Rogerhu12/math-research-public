@@ -14,7 +14,7 @@
 
 ## 完整历史与共同模型
 
-完整前交接及全部旧链保[052368固定H](https://github.com/Rogerhu12/math-research-public/blob/052368115dc00b57a76b0454d6417da02c594dda/topics/visible-flex-larger-amplitude/HANDOFF.md)。全输入/失败/未知/原结论保notes/results/open/log。M160/J923/N2048/P7377、所有自由量/完整场/范数/判据不删；有限筛非连续、iteration_limit非驻点。
+完整前交接及全部旧链保[f59ea5固定H](https://github.com/Rogerhu12/math-research-public/blob/f59ea5b83562d92df10b2ac4d0a50a2a271a5c32/topics/visible-flex-larger-amplitude/HANDOFF.md)。全输入/失败/未知/原结论保notes/results/open/log。M160/J923/N2048/P7377、所有自由量/完整场/范数/判据不删；有限筛非连续、iteration_limit非驻点。
 
 raw保留：[前24次](notes/2026-11-20-resume-raw-retention.md)、[25次R87](notes/2026-11-27-legacy-R87-cell011-and-final-retention.md)、[26次](notes/2026-11-27-legacy-domain-manifests-retention.md)、[27次四输出清单](notes/2026-11-27-legacy-generated-manifests-retention-27.md)、[28次十domain](notes/2026-11-27-legacy-domain-manifests-retention-28.md)、[29次八snapshot](notes/2026-11-27-legacy-current576-snapshot-retention-29.md)、[30次23份condensed清单](notes/2026-11-27-legacy-condensed-generated-manifests-retention-30.md)；完整源/真参数/父输入/原结论/固定恢复全保，不造新值。Python3.12.14/NumPy2.3.5/SciPy1.17.0/单BLAS；SO3 CPUtorch2.5.1/float64。原共同来源在[独立运行](notes/2026-11-26-independent-public-nonlinear-continuation.md)，[队列完整归档](notes/2026-11-26-complete-followup-parameter-archives.md)保全部旧参数；未返步骤不归档冒完成。
 
@@ -22,7 +22,7 @@ raw保留：[前24次](notes/2026-11-20-resume-raw-retention.md)、[25次R87](no
 
 旧03b/03/02/04/05全输入/失败/μ/来源保b764固定H及其链；R697/R702/R705不重做。04仅1–49返/50已启取消，05仅1–18返/19已启未知/20未返，详各终态notes；02止49/50未跑、01止77、旧03 stage7未知。旧direct九history未准入；未知历史不冒空。
 
-[06全链](notes/2026-11-26-run06-complete-regeneration-and-current-PCG-request.md)/[36–40全归档](notes/2026-11-27-run06-returned-stages36-40-complete-parameter-archives.md)保全部原参数。[42](notes/2026-11-27-run06-actual42-current-PCG-scientific-return-and-pure-reader-failure.md)沿40/读41地点，科学0/pure1，2b37/c5cee；[43终态](notes/2026-11-27-run06-actual43-complete-SOC-return-and-terminal-budget-boundary.md)沿41→0298/64d69，Phi=.00658186539/max=.03644443150、g<0、永久2922/2876，未读42新点。06只返1–43，后继须完整合并42/43；28b原log诊断/cfd纯修复未准入，未返参数/未知责任全保，不冒驻点/连续证书。
+[06全链](notes/2026-11-26-run06-complete-regeneration-and-current-PCG-request.md)/[36–40全归档](notes/2026-11-27-run06-returned-stages36-40-complete-parameter-archives.md)保全参数。[42](notes/2026-11-27-run06-actual42-current-PCG-scientific-return-and-pure-reader-failure.md)/[43终态](notes/2026-11-27-run06-actual43-complete-SOC-return-and-terminal-budget-boundary.md)仅1–43返，父分别40/41、末点2b37/0298，43未读42新点；后继须并两完整历史。原数值/永久行及28b诊断/cfd纯修复未准入责任保固定H与notes，不冒驻点/连续证书。
 
 ## 已刊工具与未付目标
 
@@ -30,9 +30,9 @@ raw保留：[前24次](notes/2026-11-20-resume-raw-retention.md)、[25次R87](no
 
 R709/R711/R712完整源/未准入责任保固定H：192正权/全(0,π)/m32/全自由量保；均值J不迁normal Cu，中央Fss不冒K/reach。
 
-R700限固定M/正ρ、旧QR未跑。[全时合同](notes/2026-11-27-new-envelope-full-phase-continuous-geometry-contract.md)保raw hΔ六jet/同D+/K/握持；R248只归约活动像，p4帽仍欠共同R650支撑或全mixed pair。[完整β consumer](notes/2026-11-27-complete-same-field-support-parameter-executable-interface.md)e0b44只核代数，全cover/同路径/八角色不减；准确六jet及全局证明仍欠，不作求解门。
+R700只限固定M/正ρ，旧QR未跑不作门。[全时合同](notes/2026-11-27-new-envelope-full-phase-continuous-geometry-contract.md)/[β消费者](notes/2026-11-27-complete-same-field-support-parameter-executable-interface.md)保raw hΔ六jet、全cover/八角色及共同D+/K/握持；β只核代数，R248仅归约活动像，p4帽仍欠R650共同支撑或所有mixed pair。准确六jet和全局证明仍欠。
 
-R710/R713及[全批费用](notes/2026-11-27-material-envelope-complete-seed-fee-adapters-and-all-batch-schedule.md)、[节点费](notes/2026-11-27-complete-immutable-reference-node-fee-design.md)全原参数/来源保4815339固定H；仍排07原pure后且未返。全部实际批/角字/准确affine/支持/新四jet保，旧工作字不冒同；normal/全角/rawΔ/六jet费用仍欠，不作求解门。
+R710/R713[原全批费](notes/2026-11-27-material-envelope-complete-seed-fee-adapters-and-all-batch-schedule.md)/[节点费](notes/2026-11-27-complete-immutable-reference-node-fee-design.md)全原参数及07未返保。[09全批均值/剖面费](notes/2026-11-27-run09-complete-reference-mean-profile-fee-entry.md)7666/1742/0c7三全体与f9d1再生器已刊，完整32参数/48selector排v2pure后；root全文/原数学类体核，消费真2f8/2ab/d449，不用旧2397载体代当前参考。无费用真返；准确节点/normal/全角/rawΔ/六jet仍欠，不作求解门。
 
 R714全C1/m32、R715 raw hΔ六jet及全E/typed保。[08实际6–9](notes/2026-11-27-run08-actual6-projection-rejection-and-definition-readback.md)拒旧chart，真返7c≠90；[实际10](notes/2026-11-27-run08-actual10-complete-old-carrier-and-independent-fixed-chart-input.md)真返0，整dc5恢复、固定目标d469/绑定7991，F/J/root0，全160词/923节点/492模型/eeb锁定。[4d92/95559/f382全入口](notes/2026-11-27-complete-independent-chart-material-envelope-entry.md)原全参数/科学后缀保，实际科学未返；旧值不继承，未知07 typed责任保。
 

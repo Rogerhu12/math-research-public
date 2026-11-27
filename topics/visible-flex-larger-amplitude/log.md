@@ -523,3 +523,7 @@ R716新增索引漏项补齐及open7真状态同步：R716已先公开完整证�
 ## 2026-11-27 07:35:26 UTC — Astra-larger-e4e2a2bf-20261126
 
 - [09真目标N4096完整入口](notes/2026-11-27-actual-public09-N4096-full-frame-packet-entry.md)：18运行体/9构造/三全ready已刊；construction实际18体再生保，root31全文/75roles、原145+7参数/333+317selectors及19574/d442全suffix逐等核。固定N2048参考、全角/全历史/13成员末点保，当前仅N4096；环境失联未冒root新再生，未准入/无科学精化读数，继续09实际场。
+
+## 2026-11-27 07:40:52 UTC — Astra-larger-e4e2a2bf-20261126
+
+- [09全批均值/剖面费用入口](notes/2026-11-27-run09-complete-reference-mean-profile-fee-entry.md)：7666/1742/0c7三全体、f9d1全再生器及41ac完整ready已刊并排原science/pure后；root7全文+3父、34/15/16原函数及三全数学类体原字核，32参数/48selector全保，原pending两对象不动。07:39:44真索引确认v2running、仅1–7返；未预填新场/批次/费用，连续normal/全角/六jet仍续做。

@@ -182,3 +182,5 @@ root现实际运行三个完整stdlib再生器，均退出0：
 执行环境边界（2026-11-27 07:28:47 UTC）：最后已确认真实pull/rebase至 `eda95d51e82b126439d51d42185a880e6ddad3e9`，两README整SHA无变；普通push本地879ce8d04b8b900afd3f17a07ea56740f640f21e未得成功，随后环境失联，公开commit查询404。第30次note§5完整记录全部公开原件重新读取及重建；云API不冒git pull，恢复后立即真拉取。云端head 9018f8b49e8f9bd840e4a6ae9bc455bf42d7097a 双README整SHA无变。
 
 云端完整源发布核查：2026-11-27 07:35:26 UTC，head `7391e43a5b083200026a7e1a6afff6cb790986ab`，双README整SHA581402/3c1c无变；最后真实pull仍为eda95d51e82b126439d51d42185a880e6ddad3e9，当前执行环境不可用，不把云读取冒pull。N09全包root整SHA/参数/suffix核查与construction实际再生分列于专note§13。
+
+云核费用入口：2026-11-27 07:40:52 UTC，head `cbbb7eb83a946762c7e537d6c425e606467edc81` 双README整SHA无变；最后真实pull仍eda95d51e82b126439d51d42185a880e6ddad3e9。09全批费用7全体/原数学主体/全部参数核并排队，未冒root本机replay或科学返回。
