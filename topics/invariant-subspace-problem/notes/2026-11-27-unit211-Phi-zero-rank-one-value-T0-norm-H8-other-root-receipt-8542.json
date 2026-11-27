@@ -1,0 +1,349 @@
+{
+  "schema": "isp-T0-norm-cubic-exact-H8-input-v1",
+  "run_id": 46005053142,
+  "job_id": 140526027416,
+  "execution": {
+    "elapsed_seconds": 3.3527594290000025,
+    "max_child_rss_kib": 66308,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "21cf1ef8450becd1e40784ff896f45d2989ec7bd",
+        "before": "21cf1ef8450becd1e40784ff896f45d2989ec7bd",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-27T13:12:21.558015+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46005053142",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "21cf1ef8450becd1e40784ff896f45d2989ec7bd",
+    "source_exit_code": 0,
+    "source_git_blob": "91a214bda706981854f0392d9e57b54c6d378609",
+    "source_sha256": "971b0dbf41917c5fb10bad254ec701e287a070e453a8ad99daacad2bb439dc84",
+    "stdout_bytes": 18845,
+    "stdout_sha256": "e103acd04c5ee8af1f4b9b261db6847c0993fd86534595af986047f292cd73d4",
+    "stop_reason": null
+  },
+  "records": [
+    {
+      "T0Norm": "q*(q*(rho^2+3)+16*gamma*rho)",
+      "JminusQNorm": "4*rho^2*q^2*(2*gamma-1)^2",
+      "allTwoCoefficientOriginalProductsMultipliedBack": true,
+      "previousC_halfExclusionPaysJQNorm": true,
+      "noNewNormHasBeenAssumedAUnit": true,
+      "stage": "new_exact_Phi0_original_T0_JQ_norm_identities",
+      "seconds": 2.5445929119999846
+    },
+    {
+      "actualUnit": "T0",
+      "exactRhoDegree": 3,
+      "profile": {
+        "degrees": [
+          6,
+          3
+        ],
+        "terms": 28,
+        "totalDegree": 9,
+        "sha256": "810434fe6e1d3a29d0c5e635a0b1c53f5fe1b925bc6053f18e195d39144c0115"
+      },
+      "fullClearingProductMultipliedBack": true,
+      "onlyPaidBaseFactorsRemoved": [],
+      "noLeadingCoefficientOrNormInverted": true,
+      "claimWholeFiberExcluded": false,
+      "stage": "new_low_degree_original_norm_image",
+      "seconds": 2.5457860160000223
+    },
+    {
+      "actualUnit": "T0",
+      "originalCurve": "F",
+      "rhoDegree": 2,
+      "headPower": 12,
+      "coefficientProfiles": [
+        {
+          "degree": 149,
+          "sha256": "0e5dae64a1ee5c4c8d3f3c06237907ff58f679effe0a5001c84f68e7f67f3d9f"
+        },
+        {
+          "degree": 149,
+          "sha256": "c8902f7726cc5a8cf9a16bff73a2778021c0abe7fc2e8ee5d0c0f833fcc5119e"
+        },
+        {
+          "degree": 149,
+          "sha256": "a81c0f667c1a572ddd9aada1a2bc5b1d06235ebbe42953fee80e3e21e0aaf427"
+        }
+      ],
+      "fullQQCoefficientReturns": 180,
+      "allHeadZeroFibersRetained": true,
+      "stage": "new_original_cubic_or_quartic_image_remainder",
+      "seconds": 2.562394614000027
+    },
+    {
+      "actualUnit": "T0",
+      "originalCurve": "G",
+      "rhoDegree": 2,
+      "headPower": 11,
+      "coefficientProfiles": [
+        {
+          "degree": 141,
+          "sha256": "30d9d559c887bd1315fdf52e94dda705828c3b6690f5ff33025ac30263f653c9"
+        },
+        {
+          "degree": 141,
+          "sha256": "2b56edeba3d280e910f943447a215ca72948821aa3384e396132eb89e37a9d53"
+        },
+        {
+          "degree": 141,
+          "sha256": "7d1482c3b632b2606d6edae3f43e280e87cbb56ead54ec682970f5f1da64e05a"
+        }
+      ],
+      "fullQQCoefficientReturns": 154,
+      "allHeadZeroFibersRetained": true,
+      "stage": "new_original_cubic_or_quartic_image_remainder",
+      "seconds": 2.5759557100000166
+    },
+    {
+      "actualUnit": "T0",
+      "originalCurve": "S",
+      "rhoDegree": 2,
+      "headPower": 13,
+      "coefficientProfiles": [
+        {
+          "degree": 154,
+          "sha256": "4b6963a1ab5da1f4f492efbed79d7688aeb21760d112bd051ae690c023fcd8fa"
+        },
+        {
+          "degree": 154,
+          "sha256": "948593efb15d35330a246b318279cc970c9153ff2ebd58c2e9455a685f77eea1"
+        },
+        {
+          "degree": 154,
+          "sha256": "8aecb16753918cb669eaa0e26d94d19911a780db6afe3a2991eaed7743cdf3af"
+        }
+      ],
+      "fullQQCoefficientReturns": 208,
+      "allHeadZeroFibersRetained": true,
+      "stage": "new_original_cubic_or_quartic_image_remainder",
+      "seconds": 2.5955834170000003
+    },
+    {
+      "actualUnit": "T0",
+      "originalCurve": "T",
+      "rhoDegree": 2,
+      "headPower": 13,
+      "coefficientProfiles": [
+        {
+          "degree": 161,
+          "sha256": "67f66906898528afc40cb4ede9d634050b5663d4255bc5351d28baba7de51ad2"
+        },
+        {
+          "degree": 161,
+          "sha256": "4617a59f6e58616a6f97b3a3eff2b0e1720673375028c8f4691d3522fa1b0e31"
+        },
+        {
+          "degree": 161,
+          "sha256": "f3a8f152cb33051e00b17c7a69794df2a266e366685835c195583007f61d2db5"
+        }
+      ],
+      "fullQQCoefficientReturns": 208,
+      "allHeadZeroFibersRetained": true,
+      "stage": "new_original_cubic_or_quartic_image_remainder",
+      "seconds": 2.6168346040000188
+    },
+    {
+      "actualUnit": "T0",
+      "name": "F",
+      "exactFixedDegrees": [
+        3,
+        2
+      ],
+      "fixedSylvesterOrder": 5,
+      "profile": {
+        "degree": 439,
+        "sha256": "9c5b62e520d578d151bf2527a04222785f162d532d5f7ac022d8a5df94eeb86f"
+      },
+      "temporaryBareissPivotsNotAssumedUnits": true,
+      "everyDivisionMultipliedBack": true,
+      "stage": "new_small_fixed_QQ_image_resultant",
+      "seconds": 2.6248817009999925
+    },
+    {
+      "actualUnit": "T0",
+      "name": "G",
+      "exactFixedDegrees": [
+        3,
+        2
+      ],
+      "fixedSylvesterOrder": 5,
+      "profile": {
+        "degree": 415,
+        "sha256": "9d1cd15939660cc306efa4900ec3891c2bb40269e3830f26981d8422e7ec82dd"
+      },
+      "temporaryBareissPivotsNotAssumedUnits": true,
+      "everyDivisionMultipliedBack": true,
+      "stage": "new_small_fixed_QQ_image_resultant",
+      "seconds": 2.6321323409999877
+    },
+    {
+      "actualUnit": "T0",
+      "name": "S",
+      "exactFixedDegrees": [
+        3,
+        2
+      ],
+      "fixedSylvesterOrder": 5,
+      "profile": {
+        "degree": 452,
+        "sha256": "2127cc036f8a13f98deaaa72be6020acfa16a2ba47dbe7ed90e411d054c0cbbe"
+      },
+      "temporaryBareissPivotsNotAssumedUnits": true,
+      "everyDivisionMultipliedBack": true,
+      "stage": "new_small_fixed_QQ_image_resultant",
+      "seconds": 2.640821793999976
+    },
+    {
+      "actualUnit": "T0",
+      "name": "T",
+      "exactFixedDegrees": [
+        3,
+        2
+      ],
+      "fixedSylvesterOrder": 5,
+      "profile": {
+        "degree": 473,
+        "sha256": "00418f22293e82ac367d78c3ccc0bd24a8979bebc28a66e9a3680dd5fea4f02f"
+      },
+      "temporaryBareissPivotsNotAssumedUnits": true,
+      "everyDivisionMultipliedBack": true,
+      "stage": "new_small_fixed_QQ_image_resultant",
+      "seconds": 2.6502566080000065
+    },
+    {
+      "actualUnit": "T0",
+      "exactQQImageGcdDegree": 289,
+      "factorContent": "1/5027351621810548399844557422566589276861273690323306938368",
+      "exactQQFactors": [
+        {
+          "coefficientsAscending": [
+            "1",
+            "-2",
+            "-4",
+            "25",
+            "-44",
+            "32",
+            "16",
+            "-48",
+            "32"
+          ],
+          "degree": 8,
+          "power": 2,
+          "sha256": "5a36d2b46b238e9395e44964c3264316335734d4dbe34bfcad0f35686622efa8",
+          "newSelectedModSupportDegree": 32
+        },
+        {
+          "coefficientsAscending": [
+            "1",
+            "-2",
+            "3"
+          ],
+          "degree": 2,
+          "power": 8,
+          "sha256": "0eb2a8614e37a767181ea028d8dab9144cac464a4ed05bbba3bd1c5cca3eb915",
+          "newSelectedModSupportDegree": 0
+        },
+        {
+          "coefficientsAscending": [
+            "-1",
+            "2"
+          ],
+          "degree": 1,
+          "power": 26,
+          "sha256": "b1cd874d703f4a48b6443248029a6b4a8aa56afcf1d8bf5ffab50d79790307c4",
+          "newSelectedModSupportDegree": 0
+        },
+        {
+          "coefficientsAscending": [
+            "1",
+            "-2",
+            "2"
+          ],
+          "degree": 2,
+          "power": 29,
+          "sha256": "e00be964113201eebe0a127b0e7356ad16ce03e28c15b490ad65d68587bec5c6",
+          "newSelectedModSupportDegree": 0
+        },
+        {
+          "coefficientsAscending": [
+            "1",
+            "-2",
+            "4"
+          ],
+          "degree": 2,
+          "power": 57,
+          "sha256": "891b1d5bd21d5559de13d15a9af76dfbf40af029f2fbcea93194cdabe056fbeb",
+          "newSelectedModSupportDegree": 0
+        },
+        {
+          "coefficientsAscending": [
+            "-1",
+            "1"
+          ],
+          "degree": 1,
+          "power": 59,
+          "sha256": "79d5cff11205f117be585c6d12d682b632868096503e7fb4b798ee52249c60a8",
+          "newSelectedModSupportDegree": 0
+        }
+      ],
+      "actualUnivariateInputNames": [
+        "image_norm_F",
+        "image_norm_G",
+        "image_norm_S",
+        "image_norm_T",
+        "same_rho_F_G",
+        "same_rho_F_S",
+        "same_rho_F_T",
+        "same_rho_G_S",
+        "same_rho_G_T",
+        "same_rho_S_T"
+      ],
+      "actualUnivariateInputDegrees": [
+        439,
+        415,
+        452,
+        473,
+        560,
+        586,
+        600,
+        570,
+        584,
+        608
+      ],
+      "fullQQBezoutTagDegrees": [
+        285,
+        309,
+        1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "fullQQBezoutTagSha256": "fa0cdb27a524b9cad6ee42eebe346b492deed877889b2da1e38348b646a5b341",
+      "allQQBezoutAndFactorProductsMultipliedBack": true,
+      "remainingModSupportDegree": 0,
+      "bareissDivisionReturns": 86,
+      "noExactImageFactorIsAutomaticallyAnOriginalUnit": true,
+      "wholeLambdaFibersStillNeedOriginalReturn": true,
+      "stage": "new_T0_or_Qboundary_image_exact_factor_input",
+      "seconds": 3.2862520460000155
+    }
+  ],
+  "paperOnlyContinuation": "Exact other ell root and lambda-monic-six chart are derived on paper; no additional whole source execution asserted."
+}
