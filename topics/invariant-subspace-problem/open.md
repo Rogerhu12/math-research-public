@@ -4,7 +4,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-W-affine-S-and-F-weight-six-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-collision-two-QQ-projection-cover-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -27,7 +27,6 @@ rank$H=4$ 的非单位局部块长度5、4、3已排；长度2单零的三种单
 **低秩V已闭范围：** rankV1全临界、rankV2内均值及rankH≤1低支撑结论已付；完整适用范围、结果链接和不得扩展的边界保本次完整快照。一般支撑仍须span(y,RanH,RanV)，inner ess5/6需rankH≥3；rankH5与V非零inner ess4/5/6仍开。
 
 [原第三矩的本质支撑等式](results/R150-appendix-rank-two-third-cumulant-outside-range-mean-essential-support-equality.md)已经独立证明：一般r=dim essV、y∉RanV且dim essT3>r+1时，y∈essT3并且essT3=span(y,RanH,RanV)。所以剩余rankV2、ess≥4分支处于第三矩内均值层，不能把y∉essT3的长度五外均值消元当作该层论证；仍须原完整梯度。
-
 
 [rankH=rankV=2整层已付essT3≤4](results/R150-appendix-rank-two-second-and-third-cumulants-have-essential-dimension-at-most-four.md)，全部约化/jet/∞与原Gaussian末例外保完整快照。故潜在rankV2、ess5/6必须rankH≥3；继续rankH3ess6及独立ess4，不重做旧物理曲面门。
 
@@ -174,8 +173,6 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 [两最大图相反前缀正则性](results/R271-appendix-maximal-division-graph-opposite-prefix-regularity.md)扩至全域，但第一图核心真实正交缺陷须完整两行Green；不能由前缀界直接付全物理矩。精确率/原费用保快照。
 
-
-
 [低余孔C2](results/R271-appendix-maximal-graph-low-excess-hole-square-cost.md)与[临界小指数矩准则](results/R271-appendix-critical-small-physical-exponential-maximal-graph-core.md)仅支付明确物理扇区/矩来源。实际E非零是否自动满足仍开，不从稠密或正则化极限补源费。
 
 **W旧补图保留。** A143非零图由1,S生成；其零面保两原降次式及B146E849−2D422C372，不倒B146/D422。八列旧环境由后列全六列原返回继续，全部旧源/边界保本次快照。
@@ -188,57 +185,19 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 **Phi0旧D≠0图。** [整个zn0](results/R150-appendix-unit211-Phi-zero-complete-centered-value-collision-exclusion.md)已闭；rho头零主支旧C(v,λ)87/55保留，新[mean/T闭包原U6返回](results/R150-appendix-unit211-Phi-zero-main-head-zero-mean-T-unit-six-C71-29.md)给完整C71,29/2111项，43.208秒/89032KiB/exit0，385除法/全六坐标已核。新core精确保存，不猜新旧因子关系，不重算旧NB/cofactor。自由rho例外权另由168基点输入续；h=k有独立排除。
 
-
-
-
-
-
-
-
-
-
-
-
-
-**Phi一般rho清Gram失败冻结。** ed0真102.023秒/905380KiB/SIGABRT，FLINT明确分配101202984字节失败；只返原两线及H0content，mean/N1未返。[准确失败](notes/2026-11-27-unit211-Phi-zero-general-rho-two-cleared-Gram-memory-failure-8542.md)及原源保留，不抬限重跑，换小原标量/显名分母输入。
+**Phi旧失败冻结：** ed0内存SIGABRT、879为SIGALRM；准确源/已返范围保完整快照及失败正文，不提高限额重跑。
 
 **[整个W的lambda=3/2原分支已闭](results/R150-appendix-unit211-W-lambda-three-halves-complete-original-exclusion.md)。** F18与原C_N1/C_NS两QQ投影给首一372/403全覆盖，已逐系数1009整；新完整模Bézout sA+tB=1（度402/371、372步、151ms）与一元Gauss排空全部复根。现可全当前W付3−2lambda，含A143/Ah零面及所有原e头零；新T3/F2六列继续。旧a267后段xgcd SIGALRM准确保原正文，不复跑，不要求PS。
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 **一般Phi紧凑879首次失败冻结。** 实际run46022929932为120.067秒/816684KiB/内层−14 SIGALRM；最后只返回原P1/NV两线，无R2/W4或新必要曲线。准确源及[失败身份](notes/2026-11-27-unit211-Phi-zero-general-compact-two-means-SIGALRM-8542.md)保存；不加时重跑，改保自由z先用原N1首一二次。
-
-
-
-
 
 **[W低D次十一原行完整六列返回](results/R150-appendix-unit211-W-global-D-linear-eleven-original-six-column-return.md)。** 391真3.624秒/71332KiB/exit0，23原归约身份/73付分母；个别Nlow/Plow和完整NVlow实际返回，整个原D非零等价范围保留。总系数编码4.25MB只留哈希，不重跑旧40MB。新f5c取原E1/EBe/N1的Hij=BjRi−BiRj并接r2，四固定3×3常数余子式保全部F/r2头零，不逆A143或D范数。
 
+## h=k：两共有曲线与有限剩余基点（8542，2026-11-28）
 
+[整个Delta0已闭](results/R150-appendix-unit211-equal-singleton-entire-Delta-zero-exclusion.md)：原QQ578只余C1/C2/C4，末12维全八Gram中同f的E1/EBe完整Bézout1。本图等权/T0/JQ/Phi0/Q1−u独立闭，不借旧D非零图。
 
-
-
-
-
-## h=k：余 Delta 非零原图（8542，2026-11-28）
-
-[整个Delta0已闭](results/R150-appendix-unit211-equal-singleton-entire-Delta-zero-exclusion.md)：原QQ578覆盖只余C1/C2/C4，末C4×u三次12维常数代数的全八原Gram中，同自由f的E1/EBe完整Bézout1。3b4真1.906秒/37028KiB/0，无常数分量丢弃。本图等权/T0零/JQ/Phi0/Q1−u已独立闭，旧D非零权排除不借用。
-
-[Delta非零完整四原式](results/R150-appendix-unit211-equal-singleton-Delta-nonzero-four-complete-original-polynomials.md)：6b21真3.239秒/57596KiB/0，同P1/NV恢复f=Fnum/Delta、z=Tnum/(bcDelta)，四核心(R,W,O,N1)度49/12/5、48/12/6、54/13/6、51/13/6且QQ不可约。精确输入分两片存；4500只读它们取(R,W)/(R,N1)两固定QQ投影，所有Q/λ头零完整保留，多变量gcd1不判空。h1/k1≤6219及ell首一三次后的≤18657权三元组仍开，自由t未闭；5b2旧有理cofactor超时冻。
+[四同点原式](results/R150-appendix-unit211-equal-singleton-Delta-nonzero-four-complete-original-polynomials.md)保同P1/NV恢复f,z，所有Q/λ头零。[新两QQ投影](results/R150-appendix-unit211-equal-singleton-two-original-QQ-projections-common-curves-and-finite-base-remainder.md)：4500真76.517秒/231160KiB/0，J2²P25/3⁴分别乘E177/18、E182/19，故J2=0或P25/3=0或末两式同时零；末类不同(λ,u)≤39195，完整Q纤维仍开。P25/3与旧Delta相容三次全系数一致，但不同Q可能投到同基点，不能删曲线。新ef759只在整J2常数域取四原式的同λ norm/cross，保全权头零。h1/k1≤6219、ell三次后≤18657权三元组及自由t仍开；5b2旧有理cofactor超时冻。
 
 ## W：同一 S 的原二次系统及权六次例外（8542，2026-11-28）
 
