@@ -1,0 +1,295 @@
+{
+  "schema": "isp-main-rho-head-eight-weights-original-return-v1",
+  "date": "2026-11-28 Asia/Taipei",
+  "run": 46053694010,
+  "job": 140690963850,
+  "execution": {
+    "elapsed_seconds": 0.5039224139999874,
+    "max_child_rss_kib": 51576,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "fb29c7c8bfc813d583a4b6e4c0225a8fafc9fc83",
+        "before": "0298b35143bc5e99acf40ef1bb452d7002df7d77",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-27T19:01:39.716662+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46053694010",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "0298b35143bc5e99acf40ef1bb452d7002df7d77",
+    "source_exit_code": 0,
+    "source_git_blob": "64abfa2f9aa556e85521a8f4b0e461662cc2c1cb",
+    "source_sha256": "c3a07401f79ee4c6ff91a423509cea2dfd317d37afdbe1a04fc0625f4e519899",
+    "stdout_bytes": 98173,
+    "stdout_sha256": "dcd2886706f6d82c21a3555d2354426348c4acd0ebcc0c6bf66a7537e58765fc",
+    "stop_reason": null
+  },
+  "exactRemovedFactorMultiplicities": {
+    "1-Q or u-1 or u-ell: v": {
+      "multiplicity": 12,
+      "factorDegree": 1,
+      "profileSHA256": "53d7f4a048bd0daee134c84d46a9de1de3d4c71942f740eb4f964d3fccbeecf3"
+    },
+    "Q: v-1": {
+      "multiplicity": 40,
+      "factorDegree": 1,
+      "profileSHA256": "285ffd711e3bc19d9be05a39c0e995ffb0c438891b622c32a07cc780a7668b59"
+    },
+    "ell: 2v+1": {
+      "multiplicity": 40,
+      "factorDegree": 1,
+      "profileSHA256": "1ba268768cce04445599effb9cf6063deb9c2ae970c1ab2853b413c836b7a562"
+    },
+    "M/(1-Q): 4v^2+3v+1": {
+      "multiplicity": 4,
+      "factorDegree": 2,
+      "profileSHA256": "295d4f4b58cfd9cb43eef036525f0624c256da5135819ddd03f5c1833fad42ba"
+    },
+    "UNPAID H7 retained as a separate complete branch": {
+      "multiplicity": 6,
+      "factorDegree": 7,
+      "profileSHA256": "fef8147e435d5da64ecf5787c762b1b99a7880098860bd9b515f7e0928fde3c6"
+    }
+  },
+  "stages": [
+    {
+      "label": "P6",
+      "fullSpecialization": {
+        "degrees": [
+          40,
+          6
+        ],
+        "terms": 247,
+        "sha256": "413bdee4374c5c2b34a36c0c48de4f6c033d3cde46492aca1a824f828569463a"
+      },
+      "remainingCore": {
+        "degrees": [
+          33,
+          6
+        ],
+        "terms": 212,
+        "sha256": "052124a8d88e7be4eb833b08760af33950623b731606fe436dc0030d6dbb0d34"
+      },
+      "strippedOnlyOriginalUnits": [
+        [
+          "1-Q or u-1 or u-ell: v",
+          2
+        ],
+        [
+          "Q: v-1",
+          5
+        ]
+      ],
+      "allPureVFactorDivisionsMultipliedBack": true,
+      "oldOriginalDTargetAndF6RecurrenceNotRecomputed": true,
+      "stage": "new_main_rho_head_saved_D_polynomial_specialized",
+      "seconds": 0.03793725699999584
+    },
+    {
+      "label": "P9",
+      "fullSpecialization": {
+        "degrees": [
+          78,
+          9
+        ],
+        "terms": 745,
+        "sha256": "4192e1b7c8ebb6482c15a662ca51b20b5302f3180253834385a641dac9a827ed"
+      },
+      "remainingCore": {
+        "degrees": [
+          68,
+          9
+        ],
+        "terms": 665,
+        "sha256": "d7dd5a08bbcb62adf5e4df5142ff538e44fda6514a7b6a42101a0a5f80669970"
+      },
+      "strippedOnlyOriginalUnits": [
+        [
+          "1-Q or u-1 or u-ell: v",
+          2
+        ],
+        [
+          "Q: v-1",
+          8
+        ]
+      ],
+      "allPureVFactorDivisionsMultipliedBack": true,
+      "oldOriginalDTargetAndF6RecurrenceNotRecomputed": true,
+      "stage": "new_main_rho_head_saved_D_polynomial_specialized",
+      "seconds": 0.16229265200000498
+    },
+    {
+      "originalIdentity": "4*(-12 H1)(1+v,1-v)=h7(v)",
+      "unpaidWholeH7Ascending": [
+        "1",
+        "2",
+        "-4",
+        "42",
+        "15",
+        "-12",
+        "36",
+        "48"
+      ],
+      "allH7RootsRetainedSeparately": true,
+      "wholeMainRhoHeadBranchExcluded": false,
+      "stage": "new_main_rho_head_complete_original_first_head_zero_fiber",
+      "seconds": 0.16375731300000496
+    },
+    {
+      "originalLambdaDegrees": [
+        6,
+        9
+      ],
+      "fixedSylvesterOrder": 15,
+      "actualIntegerInputProfiles": [
+        {
+          "degrees": [
+            33,
+            6
+          ],
+          "terms": 212,
+          "sha256": "0d24261f8dbe14003928a1a2835e02b359963dccabad2f62e95797522341d0c7"
+        },
+        {
+          "degrees": [
+            68,
+            9
+          ],
+          "terms": 665,
+          "sha256": "bcf7361edcaa625df719eccf6722410016dcf1c7495ac52f0e4b50814e20aec3"
+        }
+      ],
+      "integerInputScales": [
+        {
+          "integerMultiplier": 268435456,
+          "integerContent": 1
+        },
+        {
+          "integerMultiplier": 729583139634020400,
+          "integerContent": 1
+        }
+      ],
+      "firstHeadZeroEntireH7Retained": true,
+      "resourceBudgetSeconds": 120,
+      "stage": "new_fixed_small_original_main_QQ_resultant_started",
+      "seconds": 0.1766899919999929
+    },
+    {
+      "actualLambdaDegrees": [
+        6,
+        9
+      ],
+      "fixedSylvesterOrder": 15,
+      "exactQQResultant": {
+        "degree": 685,
+        "rawBytes": 139574,
+        "sha256": "300605db9e92fbcb4d75d22472fcf9d0f0fd7dea10ab026cb028cf6c7cb5ad1d"
+      },
+      "allLambdaLeadingZeroVFibersPreservedByFixedOriginalSylvester": true,
+      "stage": "complete_new_fixed_small_main_original_QQ_resultant",
+      "seconds": 0.34126794499999846
+    },
+    {
+      "prime": 1009,
+      "rejectedPrimes": [],
+      "trueMonicQQWeightCoverDegree": 543,
+      "bothOriginalLambdaDegrees": [
+        6,
+        29
+      ],
+      "fixedOriginalOrder": 35,
+      "noCompleteQQC71ResultantExpanded": true,
+      "stage": "new_main_fixed_original_C6_C71_modular_projection_started",
+      "seconds": 0.40038685899999393
+    },
+    {
+      "prime": 1009,
+      "locallyMonicQQWeightCoverDegree": 543,
+      "newFixedOriginalLambdaDegrees": [
+        6,
+        29
+      ],
+      "fixedOriginalOrder": 35,
+      "newFullModResultantDegree": 1363,
+      "actualFullCommonDegree": 1,
+      "actualFullCommonCoefficientsAscending": [
+        757,
+        1
+      ],
+      "completeNewBezoutProductReturned": true,
+      "bezoutDegrees": [
+        1361,
+        541
+      ],
+      "differentWeightParametersOffH7UpperBound": 1,
+      "retainedWholeH7DifferentRootUpperBound": 7,
+      "strictDifferentMainWeightParameterUpperBound": 8,
+      "countsWeightsNotAllPossibleLambdaTzValues": true,
+      "everyUnpaidH7AndLambdaLeadingZeroFiberRetained": true,
+      "wholeMainRhoHeadBranchExcluded": false,
+      "wholePhiFaceExcluded": false,
+      "ordinaryISPClaim": false,
+      "stage": "complete_new_main_saved_original_D_and_C71_Gauss_return",
+      "seconds": 0.4337880359999957
+    },
+    {
+      "factors": [
+        {
+          "degree": 1,
+          "multiplicity": 1,
+          "coefficientsAscending": [
+            757,
+            1
+          ]
+        }
+      ],
+      "completeProductReturned": true,
+      "noIndividualQQFactorLiftClaim": true,
+      "stage": "new_main_saved_D_actual_remaining_modular_factors_only",
+      "seconds": 0.4344277419999969
+    },
+    {
+      "sourceSHA256": "c3a07401f79ee4c6ff91a423509cea2dfd317d37afdbe1a04fc0625f4e519899",
+      "peakRSSKiB": 51576,
+      "noOldP6P9OrC71MathGateReplayed": true,
+      "ordinaryISPClaim": false,
+      "stage": "new_main_rho_head_saved_D_input_finished",
+      "seconds": 0.4346385310000045
+    }
+  ],
+  "exactInputs": [
+    {
+      "name": "2026-11-27-unit211-Phi-zero-main-rho-head-P6-P9-specialized-exact-input-8542.json",
+      "sha256": "83365529c18018b101f2c3fc2ad08fa921bc2155746062a68b5135c9d2315501",
+      "bytes": 14987,
+      "label": "new_saved_P6_P9_main_actual_specializations"
+    },
+    {
+      "name": "2026-11-27-unit211-Phi-zero-main-rho-head-monic-543-weight-cover-exact-input-8542.json",
+      "sha256": "0907f3ed6794ea36570f7c3c27b7822fdf6097e1fd4572bc7452e7422793d391",
+      "bytes": 63140,
+      "label": "new_true_QQ_monic_main_weight_cover"
+    },
+    {
+      "name": "2026-11-27-unit211-Phi-zero-main-rho-head-C6-C71-modular-projection-exact-input-8542.json",
+      "sha256": "e55a5c4fc29442a47b26a378c02a1c2b12d9e571c37f7f646d5b067433e94eb4",
+      "bytes": 4166,
+      "label": "new_fixed_original_C6_C71_full_mod_resultant"
+    }
+  ],
+  "conclusion": {
+    "differentMainVWeightsAtMost": 8,
+    "fullH7ZeroRetained": true,
+    "allLambdaLeadingZeroFibersRetained": true,
+    "individualQQLinearFactorRecovered": false,
+    "wholeBranchExcluded": false,
+    "ordinaryISPClaim": false
+  }
+}

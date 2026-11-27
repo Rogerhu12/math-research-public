@@ -4,7 +4,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-collision-finite-five-coordinates-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-Phi-main-eight-weights-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -232,3 +232,5 @@ G36完整[高1134](results/R150-appendix-unit211-W-G36-entire-high1134-original-
 
 
 例外Phi旧ffbdc准确g4=c²、无jet或QQ幂改进保[失败note](notes/2026-11-28-unit211-Phi-zero-exceptional-partial-phi-repeated-factor-8542.md)；例外整图已由独立P6闭，不再续局部入口。
+
+[主rho头的完整八权覆盖](results/R150-appendix-unit211-Phi-zero-main-rho-head-eight-weight-cover.md)：c3a074真0.503922414秒/51576KiB/0，P6/P9真实特化后的固定15阶QQ结式685，只剥原单位/保整H7零得首一543；新固定35阶C6/C71模1363与543完整gcd一次，局部整Gauss保全部首项退化，付H7补图≤1、整H7≤7。八仅计v及(u,Q,ell)，不并有序BC和lambda/T/z；整H7不能用只付补图的C6/C9，下一先真实QQ识别余一次并返回其整原纤维，H7另接完整原条件。三个准确小输入已存，所有已成结式不重算。
