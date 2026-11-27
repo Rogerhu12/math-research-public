@@ -55,3 +55,33 @@ maker真返0/6.174044017s，sourcecommit5aacee6d6e4aea51c1496926422dc8440a36fb4b
 实际math957cf0fc1ee59835f499b21a2300094ecb8c8a39fe14a1ebd987cef11305faa9、model ea64e2fe5e272648195128d53521705cc266d82f7d2636bd7201b90fcf172fac、fulltarget50df37b6b832dcdd53d05c54138e62e43df6b14df68d946a7b8a7b8227f58319与原固定定义一致。原数值reference212eb5/carrier8406相同；本run report ff41237c、locations d1d7eee8、history b753b3d4、binding9edf8a4d各自真实，不用别run结果补身份。2218完整尾/未丢未解析振荡且时钟不选叶，accuracy_reached=false照保。
 
 现在只退休这两已真正完成的活队列对象；原完整6692B/fc33b20f4a33edf2ee642f49ec05b47efaa5360bce5c70fef9607e10446f36f5固定[启动897194](https://github.com/Rogerhu12/math-research-public/blob/897194e1b46073466989e9d8dfb52bcc4e1b8e3a/topics/visible-flex-larger-amplitude/computations/resume-20261127-followups-16.json)。追加原86d39c独立ready两个完整step，science157/pure7 argv，408/395正式selector、18+30 live，全outputs/cleanup/历史/参数/预算逐值原样；新活队列92522B，finish=false。实际科学返回、数学值、accepted或完整场仍未知，本次发布只接入真实求解。
+
+## 9. 完整科学已经实际启动
+
+2026-11-27 17:11:26 UTC完整读取17:05:46索引11136B，SHA256 b495327b8af0813814cf9d757518959e8b4797899cd066b5c02adf6a120fac90、Git blob3c3475d3e4a2c725436eeeb8c92b0090782b9de4。完整science step已running，实际sourcecommit a8b0749a3907ef7241745d07c5c24a7670aa842d、launcher ed810/PID3868。以下原17:05:45采样完整对象只说明该时刻两个小文件尚无、child未自然返回；不能据此推失败、未来数学值或accepted状态。
+
+```json
+{
+  "step_id": "complete-fixed-fejer-stage-point-observed-independent-20261127",
+  "scientific_source_commit": "a8b0749a3907ef7241745d07c5c24a7670aa842d",
+  "scientific_source_sha256": "ed81031fe1eb33684d35585e44022314c8a631821859376a200c874a2aa0e5fa",
+  "pid": 3868,
+  "observations": {},
+  "complete_small_progress_file_identities": [],
+  "observation_errors": [
+    {
+      "report": "fixed-fejer-stage-point-observed-independent/actual-normal-evaluation-progress.json",
+      "error": "FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/_temp/visible-larger-research-46037017666-1/research/fixed-fejer-stage-point-observed-independent/actual-normal-evaluation-progress.json'"
+    },
+    {
+      "report": "fixed-fejer-stage-point-observed-independent/actual-mathematical-progress.json",
+      "error": "FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/_temp/visible-larger-research-46037017666-1/research/fixed-fejer-stage-point-observed-independent/actual-mathematical-progress.json'"
+    }
+  ],
+  "child_exit_code": null,
+  "child_natural_return_not_observed": true,
+  "observations_are_not_a_completed_step_or_a_scientific_certificate": true,
+  "observation_identity_sha256": "0bbf1089c99957d266d974c2233e69139b16756f5d2168c56dd8fcb11f437f0b",
+  "observed_utc": "2026-11-27T17:05:45Z"
+}
+```
