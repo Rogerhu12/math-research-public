@@ -178,7 +178,7 @@ Deddens自伴MASA、全部可分重数有限成本投影、全2-adic平移距离
 
 [最大图低余孔C2费用](results/R271-appendix-maximal-graph-low-excess-hole-square-cost.md)已付同一h的明确扇区，实际y有界物理孔遂入原图核心。新[临界小指数物理孔矩准则](results/R271-appendix-critical-small-physical-exponential-maximal-graph-core.md)进一步给s0=(2+2log(3/2))/14：y∈D(G)且e^(s0N)y∈H，则h∈C2并在原图核心；等号的真实8^j余量完整支付。未知Green缺陷Y并未证明有该矩，物理孔平滑未证保Y，同W的Gamma及F/R/Z继续。
 
-**整W/y1、monic Y²与[原值四生成塔](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-original-value-identities-and-monic-four-generator-tower.md)已付。** 7681原值身份2.477秒通过，前三Gram行后180.075秒/SIGALRM未齐十行/八列，准确冻结。新f9409e5f在QQ(e,k,w)逐单项式原迹返回十行及八基底列；二十行作用由线性推出，180秒/4GiB首次待实际。全D27/B239/J19零面、原D及全部物理条件保留，不用范数逆。
+**W整余图[完整十原值四生成表示](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-native-full-value-four-generator-system.md)已付。** f9409e5f真4.955秒/exit0完成十行、八基底乘法、交换及52分母；旧7681/180秒后置展开门冻结。新dc365649以RC=Cline−2(u−ell)Dline·s及原D点单位作2mD Ri+Bi RC，保原两矩余式后十行回(1,Y)，180秒/4GiB待实际。全D27/B239/J19零面、物理D及其它原非零条件保留，无范数逆。
 
 **[整个一般ell=0已闭](results/R150-appendix-unit211-general-ell-zero-complete-original-exclusion.md)，全局可付ell。** 完整来源/零域/失败身份保总定理及快照；T0=0和J=Q也已整闭，继续当前原值输入，不重放旧支。
 

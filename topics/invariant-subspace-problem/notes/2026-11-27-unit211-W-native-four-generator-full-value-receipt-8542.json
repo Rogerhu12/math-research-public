@@ -1,0 +1,604 @@
+{
+  "schema": "isp-W-native-coefficient-full-original-values-success-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "scope": "original Delta=0 W=0 remaining paid chart",
+  "sourcePath": "notes/2026-11-27-unit211-generic-LS-W-native-coefficient-full-values-four-generators-8542.py",
+  "driver": {
+    "elapsed_seconds": 4.954936786999994,
+    "max_child_rss_kib": 122460,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "8e3f1c066253f0a6b913b36095dcb786d936fad9",
+        "before": "8e3f1c066253f0a6b913b36095dcb786d936fad9",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-27T10:39:20.729596+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "45983891305",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "8e3f1c066253f0a6b913b36095dcb786d936fad9",
+    "source_exit_code": 0,
+    "source_git_blob": "a4a911d3f76f36398319bb7fc9eb729288a9aa74",
+    "source_sha256": "f9409e5f1675e94af9ed1b7d7d09fef6abb9897dc484c9758af97c847e581bfb",
+    "stdout_bytes": 23893,
+    "stdout_sha256": "252d2a2143a3b2b96058eb622ec8262e245d76c9bb1ddfe9c19630299711d9f2",
+    "stop_reason": null
+  },
+  "jobId": 140454454441,
+  "mathematicalRecords": [
+    {
+      "stage": "new_W_centered_value_true_monic_tower",
+      "s": "(ell*zeta-T)/u=-v1",
+      "v0": "(T+(u-ell)*s)/ell",
+      "zeta": "(T+u*s)/ell",
+      "originalFirstSecondThirdMomentsActuallyRebuilt": true,
+      "secondMomentIdentity": "ell*E2=M*s^2-D",
+      "thirdMomentIdentity": "ell^2*B-3ell*T*A+2T^3-2(u-ell)*D*s=ell*(2(u-ell)*s+3ell+3T)*E2-ell^2*E3",
+      "newMonicRelation": "s^2=Dlinear/M",
+      "originalMonicTraceActuallyVerified": true,
+      "noDOrDNormInverted": true,
+      "originalDUnitStillRequired": true,
+      "claimExcluded": false,
+      "seconds": 1.0659326640000018
+    },
+    {
+      "stage": "new_W_full_original_value_and_individual_NP_identities",
+      "branchAssumption": "original Delta=0 and W=0 only",
+      "originalEDeltaAndECompatibilityRebuilt": true,
+      "originalN4VCorrectionMinusQfHAOveru2ActuallyVerified": true,
+      "originalP1AndCompatibilityProductsVerified": true,
+      "individualNAndPBothSpectralConjugatesVerified": true,
+      "weightedNSPSDerivedFromIndividualRowsAndOriginalMoments": true,
+      "originalLambdaDValueZetaAndSUnitsRetained": true,
+      "noDOrValueLeadingDivided": true,
+      "claimExcluded": false,
+      "seconds": 1.8546012269999963
+    },
+    {
+      "stage": "new_W_native_coefficient_four_generator_input",
+      "coefficientVariables": [
+        "e",
+        "k",
+        "w"
+      ],
+      "monicVariables": [
+        "Y",
+        "s"
+      ],
+      "basis": [
+        "1",
+        "Y",
+        "s",
+        "Ys"
+      ],
+      "allRawOriginalValueIdentitiesPreserved": true,
+      "method": "exact coefficientwise monic identities and four-dimensional row arithmetic; no ambient Y/s numerator reduction",
+      "noNewLeadingInverse": true,
+      "claimExcluded": false,
+      "seconds": 1.9426351420000003
+    },
+    {
+      "stage": "new_W_native_coefficient_complete_original_value_row",
+      "name": "Gram_E1",
+      "summary": {
+        "numeratorDegreeBounds_e_k_w": [
+          19,
+          24,
+          6
+        ],
+        "numeratorTermCounts": [
+          1826,
+          998,
+          0,
+          0
+        ],
+        "denominatorDegreeBounds_e_k_w": [
+          16,
+          24,
+          0
+        ],
+        "bytes": 66488,
+        "sha256": "597f309704089ee9aa621a98f13cab3a483b2322efcfedc6c0efad1e1dd052be"
+      },
+      "allOriginalCoefficientwiseReductionProductsVerified": true,
+      "allFinalScalarDenominatorsActuallyPaid": true,
+      "noOptionalPrimitiveContentExpansion": true,
+      "certificateBytes": 67269,
+      "certificateSHA256": "fe0aa00f48bd652c181d87ef97cd481f7d905fac3fc2dbf296964c457782f543",
+      "rowSeconds": 0.011921775000004686,
+      "claimExcluded": false,
+      "seconds": 1.954633481000002
+    },
+    {
+      "stage": "new_W_native_coefficient_complete_original_value_row",
+      "name": "Gram_EBe",
+      "summary": {
+        "numeratorDegreeBounds_e_k_w": [
+          16,
+          20,
+          6
+        ],
+        "numeratorTermCounts": [
+          1245,
+          587,
+          0,
+          0
+        ],
+        "denominatorDegreeBounds_e_k_w": [
+          14,
+          20,
+          0
+        ],
+        "bytes": 40823,
+        "sha256": "00696dccac1ce2f4f3f2cbb4b2615d5408ccc2a71e2ecc6d1f27e5d7ef491ecf"
+      },
+      "allOriginalCoefficientwiseReductionProductsVerified": true,
+      "allFinalScalarDenominatorsActuallyPaid": true,
+      "noOptionalPrimitiveContentExpansion": true,
+      "certificateBytes": 41144,
+      "certificateSHA256": "feba35d5cbbcb2e40417877f0717aabb2156cf98a16837679a250f4435e67cf9",
+      "rowSeconds": 0.011877199999993593,
+      "claimExcluded": false,
+      "seconds": 1.9665555030000021
+    },
+    {
+      "stage": "new_W_native_coefficient_complete_original_value_row",
+      "name": "Gram_N1",
+      "summary": {
+        "numeratorDegreeBounds_e_k_w": [
+          23,
+          29,
+          6
+        ],
+        "numeratorTermCounts": [
+          2550,
+          1568,
+          0,
+          0
+        ],
+        "denominatorDegreeBounds_e_k_w": [
+          19,
+          28,
+          0
+        ],
+        "bytes": 106018,
+        "sha256": "e2d60532c38ae3f309916ed64e050da4b470cbacfa8cebb15cd21515b40dc66b"
+      },
+      "allOriginalCoefficientwiseReductionProductsVerified": true,
+      "allFinalScalarDenominatorsActuallyPaid": true,
+      "noOptionalPrimitiveContentExpansion": true,
+      "certificateBytes": 108721,
+      "certificateSHA256": "434d4def6d358a48bda846b470efe8efe16ea6923b14f1be904d4eaf03422335",
+      "rowSeconds": 0.023838560999998037,
+      "claimExcluded": false,
+      "seconds": 1.9904326890000021
+    },
+    {
+      "stage": "new_W_native_coefficient_complete_original_value_row",
+      "name": "original_third_moment",
+      "summary": {
+        "numeratorDegreeBounds_e_k_w": [
+          37,
+          51,
+          11
+        ],
+        "numeratorTermCounts": [
+          12350,
+          9366,
+          3286,
+          2159
+        ],
+        "denominatorDegreeBounds_e_k_w": [
+          33,
+          51,
+          0
+        ],
+        "bytes": 881539,
+        "sha256": "c6258bd31c7c184fcb25138efc0a132552702902d0b17cc29f1eab4b00a53926"
+      },
+      "allOriginalCoefficientwiseReductionProductsVerified": true,
+      "allFinalScalarDenominatorsActuallyPaid": true,
+      "noOptionalPrimitiveContentExpansion": true,
+      "certificateBytes": 987133,
+      "certificateSHA256": "04f399041ba53666949617219c50534c33b9a5b549553fa319b453acbf48cb4f",
+      "rowSeconds": 0.18030086600000317,
+      "claimExcluded": false,
+      "seconds": 2.1707800960000014
+    },
+    {
+      "stage": "new_W_native_coefficient_complete_original_value_row",
+      "name": "original_Delta_zero",
+      "summary": {
+        "numeratorDegreeBounds_e_k_w": [
+          29,
+          38,
+          6
+        ],
+        "numeratorTermCounts": [
+          4152,
+          2878,
+          128,
+          92
+        ],
+        "denominatorDegreeBounds_e_k_w": [
+          26,
+          37,
+          0
+        ],
+        "bytes": 220311,
+        "sha256": "b18ade4e14e5ac4a9cfc24f396c67ea37e90907461548ca0c63df8db965e81a8"
+      },
+      "allOriginalCoefficientwiseReductionProductsVerified": true,
+      "allFinalScalarDenominatorsActuallyPaid": true,
+      "noOptionalPrimitiveContentExpansion": true,
+      "certificateBytes": 226108,
+      "certificateSHA256": "90ee852bd1f473943180a08b6069e670ed32f02cf8fc3adbc495321432de1861",
+      "rowSeconds": 0.05191028499999817,
+      "claimExcluded": false,
+      "seconds": 2.222764566000002
+    },
+    {
+      "stage": "new_W_native_coefficient_complete_original_value_row",
+      "name": "original_compatibility",
+      "summary": {
+        "numeratorDegreeBounds_e_k_w": [
+          42,
+          55,
+          11
+        ],
+        "numeratorTermCounts": [
+          14307,
+          11077,
+          3138,
+          2041
+        ],
+        "denominatorDegreeBounds_e_k_w": [
+          37,
+          53,
+          0
+        ],
+        "bytes": 1048659,
+        "sha256": "443d4e9876145022e881fc589574cea8d63345a7291dd815120e1b6efaae3223"
+      },
+      "allOriginalCoefficientwiseReductionProductsVerified": true,
+      "allFinalScalarDenominatorsActuallyPaid": true,
+      "noOptionalPrimitiveContentExpansion": true,
+      "certificateBytes": 1190939,
+      "certificateSHA256": "935378be89322b42eef311ed92e95a79e7198d1d8d7d05204da0473cb0cb9fab",
+      "rowSeconds": 0.34174901099999744,
+      "claimExcluded": false,
+      "seconds": 2.5645825969999976
+    },
+    {
+      "stage": "new_W_native_coefficient_complete_original_value_row",
+      "name": "individual_N_even",
+      "summary": {
+        "numeratorDegreeBounds_e_k_w": [
+          40,
+          55,
+          11
+        ],
+        "numeratorTermCounts": [
+          14154,
+          10937,
+          2659,
+          1657
+        ],
+        "denominatorDegreeBounds_e_k_w": [
+          36,
+          53,
+          0
+        ],
+        "bytes": 1004358,
+        "sha256": "e90f877c528f2fb4345f285ebe4c3a35e9453c644e72e3613ae35800398bb5c3"
+      },
+      "allOriginalCoefficientwiseReductionProductsVerified": true,
+      "allFinalScalarDenominatorsActuallyPaid": true,
+      "noOptionalPrimitiveContentExpansion": true,
+      "certificateBytes": 1138667,
+      "certificateSHA256": "cb437189758c9a487841a6a7c2137009b92a4f6ab8ee7a7a2b6b5c14ef5722bd",
+      "rowSeconds": 0.35156774300000393,
+      "claimExcluded": false,
+      "seconds": 2.9162284189999994
+    },
+    {
+      "stage": "new_W_native_coefficient_complete_original_value_row",
+      "name": "individual_N_odd",
+      "summary": {
+        "numeratorDegreeBounds_e_k_w": [
+          38,
+          52,
+          11
+        ],
+        "numeratorTermCounts": [
+          12942,
+          9871,
+          2342,
+          1416
+        ],
+        "denominatorDegreeBounds_e_k_w": [
+          35,
+          51,
+          0
+        ],
+        "bytes": 881564,
+        "sha256": "74bb57c55ade98f9d4ddd1229644627eabaf6859e60e1149e7bcd4584c11bf5e"
+      },
+      "allOriginalCoefficientwiseReductionProductsVerified": true,
+      "allFinalScalarDenominatorsActuallyPaid": true,
+      "noOptionalPrimitiveContentExpansion": true,
+      "certificateBytes": 984240,
+      "certificateSHA256": "b5a57fc380cf38797e822f9c419cc067a55e51455bd3d6d1c21cbbe28360e447",
+      "rowSeconds": 0.2434958780000045,
+      "claimExcluded": false,
+      "seconds": 3.1598035669999973
+    },
+    {
+      "stage": "new_W_native_coefficient_complete_original_value_row",
+      "name": "individual_P_even",
+      "summary": {
+        "numeratorDegreeBounds_e_k_w": [
+          40,
+          56,
+          11
+        ],
+        "numeratorTermCounts": [
+          14619,
+          11354,
+          3957,
+          2710
+        ],
+        "denominatorDegreeBounds_e_k_w": [
+          37,
+          54,
+          0
+        ],
+        "bytes": 1148117,
+        "sha256": "6a6e5b22c02c1ce6200c31fcd5e53e186ac117fbbcfadd0b346c943804777fbe"
+      },
+      "allOriginalCoefficientwiseReductionProductsVerified": true,
+      "allFinalScalarDenominatorsActuallyPaid": true,
+      "noOptionalPrimitiveContentExpansion": true,
+      "certificateBytes": 1296934,
+      "certificateSHA256": "5c7bed467378ed395f686f2cf1040d748d71d80f76a9ba4c315143d67a499c45",
+      "rowSeconds": 0.5118119850000014,
+      "claimExcluded": false,
+      "seconds": 3.6717036989999983
+    },
+    {
+      "stage": "new_W_native_coefficient_complete_original_value_row",
+      "name": "individual_P_odd",
+      "summary": {
+        "numeratorDegreeBounds_e_k_w": [
+          39,
+          53,
+          11
+        ],
+        "numeratorTermCounts": [
+          13392,
+          10270,
+          3567,
+          2394
+        ],
+        "denominatorDegreeBounds_e_k_w": [
+          36,
+          52,
+          0
+        ],
+        "bytes": 1012732,
+        "sha256": "967eee253a7a11e8ae67faf6f0f6b4db636586cc214dd158832f43c4c0400a40"
+      },
+      "allOriginalCoefficientwiseReductionProductsVerified": true,
+      "allFinalScalarDenominatorsActuallyPaid": true,
+      "noOptionalPrimitiveContentExpansion": true,
+      "certificateBytes": 1126203,
+      "certificateSHA256": "4c913148a6c2832a003a5dc183a8feb1f722a186e03ca648f74d5a83d88865bd",
+      "rowSeconds": 0.31669906400000514,
+      "claimExcluded": false,
+      "seconds": 3.9884926550000017
+    },
+    {
+      "stage": "new_W_native_coefficient_true_four_generator_multiplication",
+      "allEightBasisColumnProductsActuallyVerified": true,
+      "ambientCommutingMultiplicationsActuallyVerified": true,
+      "allRowActionsFollowByExactScalarLinearity": true,
+      "noTwentyRepeatedAmbientExpansions": true,
+      "finalOriginalQuotientNotClaimedFree": true,
+      "claimExcluded": false,
+      "seconds": 4.745290136999998
+    },
+    {
+      "stage": "new_W_native_coefficient_full_value_four_generator_complete",
+      "sourceSHA256": "f9409e5f1675e94af9ed1b7d7d09fef6abb9897dc484c9758af97c847e581bfb",
+      "wholeRemainingDeltaZeroWZeroChart": true,
+      "coefficientVariables": [
+        "e",
+        "k",
+        "w"
+      ],
+      "basis": [
+        "1",
+        "Y",
+        "s",
+        "Ys"
+      ],
+      "allTenOriginalValueRowsReturned": true,
+      "allOriginalCoefficientwiseTraceProductsVerified": true,
+      "allEightTrueMultiplicationColumnsVerified": true,
+      "allListedOriginalPhysicalUnitsReturned": [
+        {
+          "name": "Y",
+          "summary": {
+            "numeratorDegreeBounds_e_k_w": [
+              0,
+              0,
+              0
+            ],
+            "numeratorTermCounts": [
+              0,
+              1,
+              0,
+              0
+            ],
+            "denominatorDegreeBounds_e_k_w": [
+              0,
+              0,
+              0
+            ],
+            "bytes": 41,
+            "sha256": "86f473de02420a61f1c43e87e759b0df612c04c62d375ee4c71d714d5e40a46b"
+          },
+          "exactOriginalUnitReturned": true,
+          "normNotAssumedUnit": true
+        },
+        {
+          "name": "lambda",
+          "summary": {
+            "numeratorDegreeBounds_e_k_w": [
+              4,
+              6,
+              1
+            ],
+            "numeratorTermCounts": [
+              40,
+              20,
+              0,
+              0
+            ],
+            "denominatorDegreeBounds_e_k_w": [
+              4,
+              6,
+              0
+            ],
+            "bytes": 1085,
+            "sha256": "61f648c232dd4890e37b7e4edd3403f7ce2bc3e7e37678b34eb96ed69a2af29e"
+          },
+          "exactOriginalUnitReturned": true,
+          "normNotAssumedUnit": true
+        },
+        {
+          "name": "D",
+          "summary": {
+            "numeratorDegreeBounds_e_k_w": [
+              22,
+              31,
+              6
+            ],
+            "numeratorTermCounts": [
+              2719,
+              1709,
+              0,
+              0
+            ],
+            "denominatorDegreeBounds_e_k_w": [
+              20,
+              31,
+              0
+            ],
+            "bytes": 119588,
+            "sha256": "cdaada786623a47438c7dbace83363c7674abe5a79bb4d3ae2240dc14ee2687b"
+          },
+          "exactOriginalUnitReturned": true,
+          "normNotAssumedUnit": true
+        },
+        {
+          "name": "s",
+          "summary": {
+            "numeratorDegreeBounds_e_k_w": [
+              0,
+              0,
+              0
+            ],
+            "numeratorTermCounts": [
+              0,
+              0,
+              1,
+              0
+            ],
+            "denominatorDegreeBounds_e_k_w": [
+              0,
+              0,
+              0
+            ],
+            "bytes": 41,
+            "sha256": "82a1e1ef4ce11ebb754c507921c68f487f77a2be1d35fc765b993d3450cf68fc"
+          },
+          "exactOriginalUnitReturned": true,
+          "normNotAssumedUnit": true
+        },
+        {
+          "name": "zeta",
+          "summary": {
+            "numeratorDegreeBounds_e_k_w": [
+              5,
+              7,
+              1
+            ],
+            "numeratorTermCounts": [
+              50,
+              29,
+              3,
+              0
+            ],
+            "denominatorDegreeBounds_e_k_w": [
+              5,
+              7,
+              0
+            ],
+            "bytes": 1645,
+            "sha256": "c2d99cd4f0470708d2760abbc2ebf9d4e57c7a5e9c9d5ba4b4090a06f71579c6"
+          },
+          "exactOriginalUnitReturned": true,
+          "normNotAssumedUnit": true
+        },
+        {
+          "name": "S",
+          "summary": {
+            "numeratorDegreeBounds_e_k_w": [
+              6,
+              8,
+              1
+            ],
+            "numeratorTermCounts": [
+              77,
+              51,
+              4,
+              0
+            ],
+            "denominatorDegreeBounds_e_k_w": [
+              6,
+              8,
+              0
+            ],
+            "bytes": 2537,
+            "sha256": "6b4d5fd9e23489cb4d005635c098f44b7398a5135b0cce7473652e3ff9689fdf"
+          },
+          "exactOriginalUnitReturned": true,
+          "normNotAssumedUnit": true
+        }
+      ],
+      "otherOriginalNonzeroConditionsStillRequired": true,
+      "allCheckedScalarDenominatorCount": 52,
+      "monomialIdentityCount": 10,
+      "matrixCertificateBytes": 7062089,
+      "matrixCertificateSHA256": "0c6ece9db8184cb65ea4c4da39353a4feab0bc3dbaf88b1e1a4ec1c3934e21c5",
+      "bigCacheWritten": false,
+      "oldAmbientReductionGateRerun": false,
+      "fullOriginalSystemExclusionClaim": false,
+      "claimExcluded": false,
+      "peakRssKiB": 122460,
+      "seconds": 4.880988445
+    }
+  ],
+  "oldFailureNotRerun": true,
+  "originalNonzeroConditionsRetained": true,
+  "claimExcluded": false,
+  "ordinaryIspClaim": false
+}

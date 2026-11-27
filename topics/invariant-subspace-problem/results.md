@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [全余 W 十原值的完整四生成表示](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-native-full-value-four-generator-system.md)：原mean、第三矩、Delta/compat和个别NP两谱十行、八真乘法全实际返回；4.955秒/exit0，旧失败门冻结；续原D清分母的两列系统。
+
 - [全余 W 原值身份与单首一四生成塔](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-original-value-identities-and-monic-four-generator-tower.md)：原两矩、N4纠正和个别NP两谱已真返，第二首一式给1,Y,s,Ys；180秒后置展开未齐的准确边界另存，转逐乘法约化。
 
 - [一般行列式非零图的共同分母与首一T六次原恢复](results/R150-appendix-unit211-general-delta-nonzero-common-denominator-and-monic-T-six-original-reconstruction.md)：原两矩给已付首项，显式E仅T5/484项，f/t同分母精确回两原线；无Phi或范数逆，续完整个别值。
