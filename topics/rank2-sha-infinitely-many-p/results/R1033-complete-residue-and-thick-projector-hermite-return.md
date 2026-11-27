@@ -211,7 +211,7 @@ $(C_0\mid H')$，有完整哈希回执。
 上述源码只作文本、AST和哈希检查；没有在本地执行数学。
 准备的 v10 请求为
 `ci/original-projector-artinian-shadow-request.json`，
-尚未接入触发路径，不能记为已经启动、通过或完成。
+在初次登记时尚未接入触发路径；后续实际激活见§6.1，仍不能记为通过或完成。
 
 ## 6. 当前实际回执与继续门
 
@@ -228,3 +228,9 @@ actual maximal ideal1，Hermite138/306，剩余行列式次数1。
 若需要启用本篇算法，再运行完整原对象并消费全验收，
 不能把算法正确性或静态检查写成原 shadow 非零。
 主目标的固定曲线、通常全群及无限多个不同素数条件仍未完成。
+
+### 6.1 已消费 v9 全终态后的准确激活
+
+v9 run45920983633/job140251398928/source1eeab95eb057de2b6ea6753ff9e36a18bd20bbd2于07:00:41UTC数学21000s超时124，job07:00:43failure。完整终态只读run45956390908/job140363733323/source01b5ee9e561e65955ce89ec10ae01ee58990d8b6：原log34193573B/SHAfe59eda23798547af817f17f7a106af57e397f86e5fee34afde77d429fae56dc。最后数学07:00:15在原A0 y0全零极图的分母算子像，Hermite4/306、剩余det3670；最终数学JSON空、host明确incomplete。所有旧快照/首轮JSON转义问题在终点链。
+
+完整collector回执与不推断的数学范围见[终点链§16](../notes/2026-11-27-artinian-v7-final-and-successor.md)。07:12UTC才将同一个workflow接入本篇v10新launcher/请求，保全部原参数、两char0 pins、52源和所有数学验收；未将人工API preflight开启，也未改变21000s/360min。旧v9已completed，故未重复排重作业。新run/job与真实结论待实际回执，本节仅登记已完成终态消费和明确接线。

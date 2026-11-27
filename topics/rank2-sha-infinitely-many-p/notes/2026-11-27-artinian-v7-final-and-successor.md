@@ -190,3 +190,13 @@ collector仍为11472 B/SHA256 34e10e38ceda6a5ff0c79f491461cbabd5d81bd629cf72b5b3
 本轮原只读collector run45956066676/job140362703513/source940e96154003a4e31a1c9fded4ac6453de62cc39于07:05:36UTC成功，script SHA34e10e38ceda6a5ff0c79f491461cbabd5d81bd629cf72b5b373279b11050a5d，stdout14635B/SHA7034ac7b27583354d9dcc5109bc82c167b0da9ee008a2efba0477c1c05a5b250，exit0、outputs_persisted=false。可是源日志的runner控制标记被小检查workflow重新解释，实际展示行的JSON前段被吞；所以不能由此补写尚未取得的原log字节数或hash。
 
 小检查workflow现仅把序列化JSON内 `##[`、`::` 分别转义为等价Unicode JSON字符，解析后内容完全相同；原输出hash仍按原stdout全部字节计算。原collector源码和数学均不变，再触发一次只读完整终态收取。v10尚未激活，不把失败/局部进度当四交、全厚Norm或shadow PASS。
+
+## 16. v9 完整终态已消费；激活唯一 R1033 后继
+
+2026-11-27 07:08:25.1074291UTC，修正JSON转义后的只读collector实际run45956390908/job140363733323/source01b5ee9e561e65955ce89ec10ae01ee58990d8b6，source脚本仍SHA34e10e38ceda6a5ff0c79f491461cbabd5d81bd629cf72b5b373279b11050a5d。stdout14635B/SHA7034ac7b27583354d9dcc5109bc82c167b0da9ee008a2efba0477c1c05a5b250与第一轮完全相同，exit0、outputs_persisted=false、mathematics_recomputed=false。
+
+原log完整34193573B，SHA256 **fe59eda23798547af817f17f7a106af57e397f86e5fee34afde77d429fae56dc**，identity编码，末时间07:00:41.6689069UTC。原run/job均completed/failure，job终止07:00:43UTC。数学步骤01:10:41–07:00:41UTC实际21000s timeout，退出124；不是代数断言给出反例。
+
+完整最后数学阶段已进入原 `A0 y0: complete zero/pole graph: entire denominator operator image`，07:00:11UTC完成Hermite4/306、剩余det次数3670，07:00:15UTC仍有whole row operations；未完成该像。host终点07:00:41.1714982UTC仅 `pipeline incomplete; no mathematical PASS is asserted`，payload140B/SHA1033b4fc3584c17a8e2cda62b62e2010d7700cb51cdbf096aa8ae54f80e6c871。所有最终数学record仍为空，parse_errors空、unfinished0；四交/全厚Norm/18×9无PASS，不由已经前进到的新阶段补写缺失验收。
+
+完整消费之后，于07:12UTC将现有 `.github/workflows/rank2-sha-original-triangular-artinian-shadow.yml` 接到R1033已备新launcher，并加入新helper/outer/request触发路径；旧原49源无修改、加3源，52源全记录，Sage镜像/两char0 PASS/r29/q2453/batch64/minimal/全部原门/21000s与360min保持，人工API preflight仍false。同一concurrency group、cancel-in-progress=false，旧作业已完才激活，不启动重复数学。具体新run/job/source及所有实际结果只按随后真实回执登记。

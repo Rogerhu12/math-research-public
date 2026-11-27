@@ -1,4 +1,4 @@
-name: Rank2 original shadow through complete linear fibers
+name: Rank2 original shadow through complete projector Hermite
 on:
   push:
     branches: [main]
@@ -9,6 +9,10 @@ on:
       - 'topics/rank2-sha-infinitely-many-p/scripts/produce-original-triangular-artinian-shadow.py'
       - 'topics/rank2-sha-infinitely-many-p/scripts/produce-original-linear-fiber-artinian-shadow.py'
       - 'topics/rank2-sha-infinitely-many-p/scripts/original_linear_fiber_frobenius.py'
+      - 'topics/rank2-sha-infinitely-many-p/ci/original-projector-artinian-shadow-request.json'
+      - 'topics/rank2-sha-infinitely-many-p/scripts/launch-original-projector-artinian-shadow.py'
+      - 'topics/rank2-sha-infinitely-many-p/scripts/produce-original-projector-artinian-shadow.py'
+      - 'topics/rank2-sha-infinitely-many-p/scripts/original_projector_hermite.py'
   workflow_dispatch:
 permissions:
   contents: read
@@ -42,4 +46,4 @@ jobs:
           PYTHONDONTWRITEBYTECODE: '1'
         run: |
           set -euo pipefail
-          timeout --kill-after=45s 21000s python3 topics/rank2-sha-infinitely-many-p/scripts/launch-original-triangular-artinian-shadow.py
+          timeout --kill-after=45s 21000s python3 topics/rank2-sha-infinitely-many-p/scripts/launch-original-projector-artinian-shadow.py

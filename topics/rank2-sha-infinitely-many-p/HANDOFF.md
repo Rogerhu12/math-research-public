@@ -6,7 +6,7 @@
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。固定有限曲线族联合无穷非零可用无限鸽巢；有限p、随p换曲线、条件桥、接口或单独投影非零不完成。
 
-- 公开根/课题 README 已读至 `07b6970d875376c8a3853b6df30531133bf9e154`（2026-11-27 07:05UTC实际pull --rebase；两README差异空）；每次pull只读新差异，至少每小时同步并记SHA。
+- 公开根/课题 README 已读至 `1cf10ac7283dc40958604f5f981f1be0e477af80`（2026-11-27 07:12UTC实际pull --rebase；两README差异空）；每次pull只读新差异，至少每小时同步并记SHA。
 - 两仓库已部分克隆。私库QUEUE接手提交41fe885610073f478b2f5a752461ca56cfd43f09已推；06:47UTC实际pull至6139de54ac72f1c7af0508b88ce03efdbf0a5690，两README差异空、QUEUE仍本会话进行中。令牌只命令行/进程认证，不落文件。
 - root独占git/H/open/log/index；每条结论即推，非快进立即pull --rebase/读README差异/再推至成功，不强推。数学只用公开Actions；不存可重算输出。H<10KB、每MD<100KB。
 - [此次完整逐字归档](notes/2026-11-27-handoff-before-double-height.md)及其历史链保全部旧式/回执/未解门；[open](open.md)、[results](results.md)、[R1001–1050索引](notes/PROOF-INDEX-R1001-R1050.md)及前卷为接续入口。
@@ -15,9 +15,9 @@
 
 v8 run45882239615/job140124138541于01:05:47UTC数学21000s timeout124，01:05:50 failure；全失败范围/source/hash在[终点链](notes/2026-11-27-artinian-v7-final-and-successor.md)，非四交/全Norm/shadow PASS。
 
-唯一v9 run45920983633/job140251398928/source1eeab95eb057de2b6ea6753ff9e36a18bd20bbd2，数学01:10:41–07:00:41UTC实际21000s超时124；07:04实际API completed/failure，host明确pipeline incomplete、无数学PASS。07:05原collector run45956066676/job140362703513成功，但终态日志含runner控制标记使封装JSON首段被吞；保stdout14635B/SHA7034ac7b…a5b250，修正小检查workflow JSON转义后再次只读收取完整字节/hash。原49源/两char0 pins/Sage10.6/r29/q2453/batch64/minimal/两图七式四交18×9与21000s/360min全部保持；七快照在终点链。
+v9 run45920983633/job140251398928/source1eeab95eb057de2b6ea6753ff9e36a18bd20bbd2于07:00:41UTC数学21000s超时124，job07:00:43failure。完整终态只读run45956390908/job140363733323/source01b5ee9e561e65955ce89ec10ae01ee58990d8b6：原log34193573B/SHAfe59eda23798547af817f17f7a106af57e397f86e5fee34afde77d429fae56dc。最后数学07:00:15在原A0 y0全零极图的分母算子像，Hermite4/306、剩余det3670；最终数学JSON空、host明确incomplete。所有旧快照/首轮JSON转义问题在终点链。
 
-R1033已付原剩余映射的完整核及整个厚商的后缀Krylov Hermite；全部306坐标/nilpotent和H=CI+H(1−e)双包含保齐。新helper/outer/host及未激活v10请求已备，旧49源全保并加3源；只静态AST/哈希，未运行数学、未动v9触发。07:04UTC实际API已见v9 completed/failure，正在用原只读collector收完整终态；收完才接v10。不得由源码正确性记实际shadow PASS。
+R1033已付原剩余核/整个厚商后缀Krylov Hermite，全306坐标/nilpotent与H=CI+H(1−e)双包含保齐。07:12UTC在完整消费v9终态后将现有workflow接到已备v10新launcher/请求；旧49源加3源、两char0 pins/Sage10.6/r29/q2453/batch64/minimal及全部原门/21000s/360min不变，人工preflight=false；唯一同concurrency/cancel=false，不排重复作业。实际run/job与数学结论待新回执，源码证明不代PASS。
 
 R982/983/R987/R993/R992全部原门真PASS；R992 run45907263972全13核残差、R994 run45907264125三β27复L(1)>0及完整尾<2^-180的source/job/hash见结果及归档。
 

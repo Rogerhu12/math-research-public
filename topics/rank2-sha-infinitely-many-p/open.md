@@ -40,7 +40,7 @@ R966/967的原12个2/3译像真中央零只覆盖δ-new指定线，真实cross �
 
 ## 第一实际门：原映射、全部厚除子与 shadow
 
-**唯一v9已实际超时失败，尚无完整生产回执。** 唯一v9 run45920983633/job140251398928/source1eeab95eb057de2b6ea6753ff9e36a18bd20bbd2，数学01:10:41–07:00:41UTC实际21000s超时124；07:04实际API completed/failure，host明确pipeline incomplete、无数学PASS。07:05原collector run45956066676/job140362703513成功，但终态日志含runner控制标记使封装JSON首段被吞；保stdout14635B/SHA7034ac7b…a5b250，修正小检查workflow JSON转义后再次只读收取完整字节/hash。原49源/两char0 pins/Sage10.6/r29/q2453/batch64/minimal/两图七式四交18×9与21000s/360min全部保持；七快照在终点链。 R1033新后继尚未激活，先收完整终态。
+**v9完整终态已消费；v10以实质算法替换接入同一唯一工作流。** v9 run45920983633/job140251398928/source1eeab95eb057de2b6ea6753ff9e36a18bd20bbd2于07:00:41UTC数学21000s超时124，job07:00:43failure。完整终态只读run45956390908/job140363733323/source01b5ee9e561e65955ce89ec10ae01ee58990d8b6：原log34193573B/SHAfe59eda23798547af817f17f7a106af57e397f86e5fee34afde77d429fae56dc。最后数学07:00:15在原A0 y0全零极图的分母算子像，Hermite4/306、剩余det3670；最终数学JSON空、host明确incomplete。所有旧快照/首轮JSON转义问题在终点链。 新run/job待实际回执，不记数学PASS。
 
 R909原F/R906§8原P、R924 TUV/DS204/36cusp/Y666/ys360、R925两正规化图306自由环及46971全产品、R926原cube/低权/maps、R927 e0/z96/dF1296均已有真实回执，不重算成新结论。原u/λ/vnew/微分/∞→O/返回17、三退化、omega/Artin(2,0,1)、Z02=Z/Z20=−Z全部保持。四交00/01/11/12、全厚闭点度数/长度/无穷边界/原Tate迹和18×9shadow待实际输出；每E真度39840，成本2256+r·dF或2256(r+1)不能模ell先缩。7993及固定ell有限shadow不代无穷p。
 
@@ -114,7 +114,7 @@ R1029原2挠谱盖C的f3/r2/Jac度3及完整S3盖D/Frob²=−q保持。R1031付�
 
 ### 原完整几何算法与真实验收
 
-R1033只改善相同原理想的返回：剩余核保所有C行及固定常数嵌入；厚投影在整个A/I中逐后缀Krylov，双向核H=CI+H(1−e)，保全nilpotent与实际长度。原primary decomposition全部后续门和v9所有原验收不变。源码只文本/AST/哈希；新v10请求未接触发路径。待唯一v9结束后，必须先读其真实终态，才能启用新后继并消费全四交/Norm/18×9；不能以算法证明或局部进度代最终回执。
+R1033只改善相同原理想的返回：剩余核保所有C行及固定常数嵌入；厚投影在整个A/I中逐后缀Krylov，双向核H=CI+H(1−e)，保全nilpotent与实际长度。原primary decomposition全部后续门和v9所有原验收不变。源码只文本/AST/哈希；现已先完整消费v9终态并接入新v10。整个原四交/Norm/18×9仍须实际输出；不能以算法证明、启动或局部进度代最终回执。
 
 root独占git/H/open/log/index；每条结论即推，非快进立刻pull --rebase、读两README差异、再推至成功，不强推。至少每小时实际pull且记读SHA。数学只公开Actions，不存可重算输出，H<10KB/每MD<100KB。私库QUEUE仍本会话进行中。主目标未完成，继续下一实际门，不在中间总结收尾。
 
