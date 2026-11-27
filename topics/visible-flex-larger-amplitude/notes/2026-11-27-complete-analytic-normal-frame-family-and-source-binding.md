@@ -61,7 +61,7 @@ Pure 原来接近 100 KB。为继续保留所有校验，完整 `independent_cha
 
 数学/shape/source 错误诚实失败。通过完整输入守卫之后，解析数值不可用时可对同一完整角批、同一完整阶数执行原完整 AD frame。一次失败里先前已经发生的解析列/积分费用和实际 fallback 费用都保留。完整 caller 的真实 root/几何/Φ 筛继续决定结果，helper 成功不等于求解成功。
 
-新的纯读根键为 `analytic_normal_frame`；其下 `actual_counts`、`frame_call_seconds`、`last_call` 为实际值。公共 summary 应只选来源 SHA、计数、秒数、布尔、own-point/word SHA 和已有标量错误，不把完整控制字、矩阵或逐角数组转成字符串公刊。原 `analytic_stage_jacobian` readout 保留，内部同时保 frame 的实际归因。
+新的纯读根键为 `analytic_normal_frame`；实际值在其 `latest_actual_diagnostics.actual_counts`、`latest_actual_diagnostics.frame_call_seconds` 和 `latest_actual_diagnostics.last_call`，其中 `latest_actual_diagnostics` 在没有实际完整 metadata 时可为 None。原 driver 报告对应的是 `latest_operator_metadata.analytic_normal_frame.actual_counts` 等，不把两种层级混用。公共 summary 应只选来源 SHA、计数、秒数、布尔、own-point/word SHA 和已有标量错误，不把完整控制字、矩阵或逐角数组转成字符串公刊。原 `analytic_stage_jacobian` readout 保留，内部同时保 frame 的实际归因。
 
 ## 6. 真实修复记录：revision1 未准入
 

@@ -4,7 +4,7 @@
 
 ## 规则与完整目标
 
-最近规则核查：2026-11-27 05:57:41 UTC，真实pull/rebase至origin/main `dafe2c5d206206c1b85bce3552fcb942a8cb515e`；双README整SHA581402/3c1c无变。恢复后各真实拉取完整commit保entry note§9。私库QUEUE接手已真推e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。
+最近规则核查：2026-11-27 06:00:25 UTC，真实pull/rebase至origin/main `1be04000608bfb3c4121466dab0acc08271d64dc`；双README整SHA581402/3c1c无变。恢复后各真实拉取完整commit保entry note§9。私库QUEUE接手已真推e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。
 
 科学只本公开仓库Actions；root唯一ref写者，结论即普通推，NFF立即rebase循环，不强推。每次pull核双README差异并遵新规，至少每小时，记commit。raw只scratch/runner、不入Git/Release/artifact，不得改名冒输入；全小源/参数/run/SHA保。题≤200MB、文件<5MB、MD<100KB、H<10KB、open<30KB；读前stat、不整读≥100KB。已有执行/大文件/终端偏差全保4815339固定H及其notes；令牌仅瞬时CLI。
 
@@ -44,7 +44,7 @@ R714全C1/m32、R715 raw hΔ六jet及全E/typed保。[08实际6–9](notes/2026-
 
 [原J3全源](notes/2026-11-27-complete-analytic-J3-packet-envelope-entry.md)及两ready保留，未准入的7817继承旧C1 literal遗漏已查明；[完整解析frame修后14体](notes/2026-11-27-complete-analytic-normal-frame-family-and-source-binding.md)755f/55af/a9f4保全部方程/变量/m32/J/J*，六控制/两角jet完整求导，root真再生及57源核。新完整C1守卫不删；09上层正在接实际目标，未冒首场/速度，07/08未知保。
 
-[N2048→4096完整观察入口](notes/2026-11-27-complete-N4096-fixed-reference-observation-entry.md)12运行体/6构造体/全ready，root真再生及34源核过；只原cc0a/M160/90、非径向/7c。完整旧点13成员/typed历史迁移、全old/current G和真新field保；未准入/无真返，新族适配继续。
+[N4096解析7c完整入口](notes/2026-11-27-independent-chart-analytic-J3-N4096-complete-entry.md)修后17体/9构造体/三全ready，root真再生及64源核；固定N2048参考、全旧角字/地址/typed及13成员父迁移保。原90包保，均无真返；非径向/M精化，09须按真目标另适配。
 
 [09真实输入与生产入口](notes/2026-11-27-run09-actual-public-reference-and-old-carrier-input.md)：warm/ref1–2真返0，3df/2ab/d449；306b/9e3d/cc46全源及单步参数已排，保5e373整公开证据快照/六文件/160词/923节点/原2397与整dc5。实际3真返0：整dc5/完整90词同，目标7c766/绑定21a44、F/J/root0；数学g未主张。完整frame/J3后继继续，07/08未知typed保。
 
