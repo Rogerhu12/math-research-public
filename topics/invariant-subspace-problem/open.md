@@ -4,7 +4,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-Phi-first-head-D-and-collision-nonzero-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-Phi-ten-weight-entire-exclusion-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -188,15 +188,15 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 **Phi0旧D≠0图。** [整个zn0](results/R150-appendix-unit211-Phi-zero-complete-centered-value-collision-exclusion.md)已闭；rho头零主支旧C(v,λ)87/55保留，新[mean/T闭包原U6返回](results/R150-appendix-unit211-Phi-zero-main-head-zero-mean-T-unit-six-C71-29.md)给完整C71,29/2111项，43.208秒/89032KiB/exit0，385除法/全六坐标已核。新core精确保存，不猜新旧因子关系，不重算旧NB/cofactor。自由rho例外权另由168基点输入续；h=k有独立排除。
 
-**[固定闭G的proper单链U及全部交织](results/R271-appendix-single-chain-complete-intertwiners-and-bounded-commutant-representation.md)。** 目标U交织恰L_y、自动迹类，交换代数有rho单射表示。实际Green首式给原交织/真空残量，无非零y的有界后因子；第二式保两交换子。B、每dyadic幂/单个位不保持U已证；同w费用、G保N、正角、范围核心仍开。
-
-D27泛型五次不可约与有限纤维范围保上述D27原单位条目及本次完整快照；不把泛型域结论外推有限权norm零点。
 
 
 
 
 
-**[同G稀疏核注入的全H链](results/R271-appendix-sparse-kernel-injection-dense-backward-chain-and-global-trace-quasiaffinity.md)。** 一次高度选择保全κ三次增长，完整旧链误差及Π+GT望远镜支付全H稠密；ℒ_e0是B→T迹类拟亲和。真w仍秩一限制并灭N；新移级图闭包多值、不可闭，不能替代原闭G或付实际源费/N=M。
+
+
+
+
 
 
 
@@ -206,11 +206,11 @@ D27泛型五次不可约与有限纤维范围保上述D27原单位条目及本�
 
 
 
-**[整个Haar迹类像均为完整T循环向量](results/R271-appendix-actual-haar-trace-ranges-consist-of-boundary-cyclic-vectors.md)。** 对每个非零y与proper闭T不变L，RanK_y∩L=0且K_y⁻¹L=C_y⊥，含旧U/M/N；同dyadic弱单位/范数解析单位及K1·1的实际E∞循环性已付。此族零交接口已闭，不判断C_y⊥非零，不外推其他交织；续同w Green/primitive。
 
-**[原Haar/边界实际像零交与Abel同源费用](results/R271-appendix-haar-boundary-disjoint-actual-ranges-and-abel-source-cost.md)。** 同一链J=ℒ_e0的唯一原像系数是〈A^n x,y〉/βn；原高位弱单位迫每个非零K_yx不在RanJ。全部固定奇块给E_N/logN→∞；实际HS R_y,t满足BR=tRA、JR=K_y,t，K_y,t迹范数趋K_y且同源平方费/log(1/(1−t))→∞。未声称任意逼近同费率，不外推W规范源。
 
-**[W的A143非零补图已返九原行、四乘法及三参数cofactor](results/R150-appendix-unit211-W-A143-nonzero-original-two-columns-and-three-parameter-cofactors.md)。** 866已返含qF/qT/R4九行、四乘法、λ度6/8/8必要式。A143零面/全部λ头零与个别N/P仍保；三cofactor零不替九原行。
+
+
+
 
 
 
@@ -222,7 +222,7 @@ D27泛型五次不可约与有限纤维范围保上述D27原单位条目及本�
 
 **一般Phi紧凑879首次失败冻结。** 实际run46022929932为120.067秒/816684KiB/内层−14 SIGALRM；最后只返回原P1/NV两线，无R2/W4或新必要曲线。准确源及[失败身份](notes/2026-11-27-unit211-Phi-zero-general-compact-two-means-SIGALRM-8542.md)保存；不加时重跑，改保自由z先用原N1首一二次。
 
-**[Phi四原二次头共同零的完整十权集合](results/R150-appendix-unit211-Phi-zero-four-original-quadratic-heads-complete-ten-weight-locus.md)。** 8890真0.085秒/39056KiB/0，固定QQ投影及所有u整纤维返回：u3/2仅Q1原单位排除；仅余不可约F10(u)和唯一Q=−a9(u)，十点的已付权单位均非零。精确输入保存，完整原值仍未解。其余至少一个头非零，每相应图≤3生成元；新100ce仅首头非零图由原mean/N1和真乘法歧义返回实际D，首头零整曲线保留，不全局倒头。
+
 
 
 
@@ -253,3 +253,9 @@ D27泛型五次不可约与有限纤维范围保上述D27原单位条目及本�
 ## W 三个原Θ与五个必要式完成（8542，2026-11-28）
 
 [70603实际完整返回](results/R150-appendix-unit211-W-monic-F-norm-five-original-three-column-cofactors.md)：9.183515221秒/117764KiB/0，原Θ在未约化多项式恒等、q3真迹及五cofactor三列均全乘回；余λ度13/13/13/10/10。五λ头仍非恒定，完整原个别N/P/NV约束继续，不作空性/有限性推断。新da64只核整原N4的C5+Phi·f·C4=m·Phi·Q·M·ell²·Vlow，再取真纯T五次/已付头及三个新余子式，180秒/4GiB首次执行。
+
+## Phi 四头共同零的十权原值全部排空（8542，2026-11-28）
+
+[完整十权原排除](results/R150-appendix-unit211-Phi-zero-ten-common-head-weights-complete-original-value-exclusion.md)：883c真实0.694719790秒/41660KiB/0，十次常数域的原四二次头rank2；同两原线det零完整兼容gcd只余λ单位，开图同一T,z使原mean_R/W六次式的60维真实乘法矩阵可逆，全部嵌入排空。故全原Phi解集四个头非零图完整覆盖，第一头零仍整曲线；继续原F6/NV及个别N/P。新6cf只以真矩ψD=3B3²−2A2³整QQ因子检验全部原曲线纤维，并核原57阶QQ核的真实重数；未排纤维不用于删点。
+
+此前Haar/稀疏链全部已证交织接口保本次完整快照及H：固定G的proper U交织、全H稠密ℒ_e0、所有非零Ky像T循环、Ky像与RanJ零交、同源Abel平方费/log发散均已付。它们不付Cy⊥非零、G保N、W源费或N=M；这些真实接口继续，不重做已闭全族。
