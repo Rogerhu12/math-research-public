@@ -403,3 +403,5 @@
 - [APHI：实际非零strict参数phase列](results/R147-supplement-actual-nonzero-phase-border-of-the-strict-parameter-particular.md)：45915169627全6/6 rc0，131germs/1572wholepoly/NP4数组全核，2545新交片/fulltail/mean/directν保。5新有理组合给(.038736784,.038768096)、逆<25.82、ASB物理幅度比(−.161991,−.161576)可行消元；仍非fullνphase Schur。public6599383d3c。
 
 - [WT：完整同world高度所有角阶tame图](results/R144-supplement-all-angular-passive-world-height-tame-map.md)：20新有理比较全过。同锚SE3 propagator<2^32；完整有序jets/真实inverseΘ全项/两mean/wholemodes保。H^n height值/一二阶/余项，方向至H^{n+3}、背景A^{n+2}/terminalH^{n+3}各一次，Cn=2^{200(n+12)}((n+12)!)^8。独立ports/waisttrace/off-shell Fφ保；未授signed高度carrier/cap图导数/full inverse/最终嵌入。
+
+- [RH：原selected短区间相对世界height完整误差](results/R147-supplement-relative-height-carriers-and-short-full-frequency-errors.md)：26新有理比较已成。真实moving mean rank给全L²rL² state→relative position<1.44、axialframe<17/16，真实outer Q_b/F_b独立。NP全尾误差付position<9.742568e−6/frame<7.188527e−6；physicalheight body+angle全费1.792904e−5||ζ||2+1.415847e−6||Cθ||2，Cθ含实际off-shell Fφ须另界。真ν direct terms保；相对I/0不冒绝对世界锚或已算signed height。

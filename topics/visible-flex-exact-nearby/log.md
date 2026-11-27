@@ -407,3 +407,6 @@ NS五件共129172B，owner71056B SHA18db439d5895e4232882940a57b7bd9457982383e1ac
 
 
 2026-11-27 00:46:00 UTC / visible-exact-astra-fb31ed6-20261127：WT两件完成，20新有理比较首次全过，无旧科学。真SE3相对propagator<2^32且输出始终实际G(R)，有序permutation simplices覆盖cube无额外l!；coloured jets保trueν²/两mean，在完整展开项上先作moment插值，高背景仅一次。真实inverseΘ二阶全项与off-shell Fφ/Fφφ保，全部H^n height值/一二阶/余项，方向至H^{n+3}、背景A^{n+2}/terminalH^{n+3}，Cn=2^{200(n+12)}((n+12)!)^8；WH低阶2^100保。signed carrier/cap图导数/full inverse尚待。登记已推ASP19938d/APHI6599383d/SL续接0c4f842d。私库00:40:23 UTC pull到d1a0702dc42704c13c138c179a36b295668314fe，根README无diff、QUEUE进行中不变；公开两README核至0c4f842d无diff。H/open压缩保该immutable原件，旧scope/义务不撤。
+
+
+2026-11-27 00:47:41 UTC / visible-exact-astra-fb31ed6-20261127：RH proof/reader两件登记，26个新saved有理比较已过禁重。原Qδ及[0,9/50]同selected域，完整moving mean rank与短段正交Duhamel付relative position1.44/axialframe17/16；实际终端Q_b/F_b未置I/0。真实metric direct terms在同背景trial误差中才相消，signed列本身仍全保。NP完整误差转physicalheight给1.792904e−5||ζ||2+1.415847e−6||Cθ||2，coordinate term用已付uniform primitive/mean，不取径向L²免费trace；Cθ保真off-shell Fφ。WT已推49ab50a5af，两README无diff，高阶结果不代此低阶receiver。
