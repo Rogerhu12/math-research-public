@@ -1,0 +1,1010 @@
+{
+  "scope": "Phi0/zn0 selected ordered h=1 chart",
+  "status": "actual complete modular projection input only; no QQ exclusion",
+  "run_id": 45994627867,
+  "job_id": 140490824492,
+  "execution": {
+    "elapsed_seconds": 2.243488578999994,
+    "max_child_rss_kib": 52472,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "c908a23aa20487693cffe202745871dd9f0b740f",
+        "before": "c908a23aa20487693cffe202745871dd9f0b740f",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-27T11:57:26.871502+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "45994627867",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "c908a23aa20487693cffe202745871dd9f0b740f",
+    "source_exit_code": 0,
+    "source_git_blob": "b6f9e9b430ac84131af7953c625bfdc6d2d9dbc4",
+    "source_sha256": "60c2a406c48174d8a537ccf363369fc4abe7a0f39b8c00af85a071806200fafc",
+    "stdout_bytes": 17766,
+    "stdout_sha256": "5518833a63e96cf2a0550d771cc1a4e374bae388c6bfe75e6cd75524aa3852f6",
+    "stop_reason": null
+  },
+  "records": [
+    {
+      "name": "F_cross_E1_EC",
+      "QQCore": {
+        "degrees": [
+          77,
+          14
+        ],
+        "terms": 1170,
+        "totalDegree": 91,
+        "sha256": "10868a19c5de665f9c4dc56a2f6e2c7196081de1e2a0fd9f74b3c1dbbc18ac23"
+      },
+      "integerCore": {
+        "degrees": [
+          77,
+          14
+        ],
+        "terms": 1170,
+        "totalDegree": 91,
+        "sha256": "81798a00dd2c4be037737c974dea3b77563363789701dbfc5a0ad0b13769362c"
+      },
+      "rationalScale": "49611653495113383936",
+      "scalarIdentityMultipliedBack": true,
+      "maximumIntegerCoefficientBits": 115,
+      "leadingLambdaPolynomialTerms": [
+        [
+          [
+            0,
+            0
+          ],
+          "-2918332558536081408"
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          "-163426623278020558848"
+        ],
+        [
+          [
+            0,
+            2
+          ],
+          "-1146904695504679993344"
+        ],
+        [
+          [
+            0,
+            3
+          ],
+          "-3361919107433565782016"
+        ],
+        [
+          [
+            0,
+            4
+          ],
+          "-4357070509894369542144"
+        ],
+        [
+          [
+            0,
+            5
+          ],
+          "23346660468288651264"
+        ],
+        [
+          [
+            0,
+            6
+          ],
+          "7713152952210863161344"
+        ],
+        [
+          [
+            0,
+            7
+          ],
+          "9525437471061769715712"
+        ],
+        [
+          [
+            0,
+            8
+          ],
+          "2512684332899566092288"
+        ],
+        [
+          [
+            0,
+            9
+          ],
+          "-4599292112252864299008"
+        ],
+        [
+          [
+            0,
+            10
+          ],
+          "-4934900356484513660928"
+        ],
+        [
+          [
+            0,
+            11
+          ],
+          "-1680959553716782891008"
+        ],
+        [
+          [
+            0,
+            12
+          ],
+          "166344955836556640256"
+        ],
+        [
+          [
+            0,
+            13
+          ],
+          "256813265151175163904"
+        ],
+        [
+          [
+            0,
+            14
+          ],
+          "49611653495113383936"
+        ]
+      ],
+      "claimExcluded": false,
+      "stage": "fixed_original_integer_core",
+      "seconds": 1.3788939049999982
+    },
+    {
+      "name": "G_principal_N1_ell",
+      "QQCore": {
+        "degrees": [
+          75,
+          13
+        ],
+        "terms": 1064,
+        "totalDegree": 88,
+        "sha256": "d23259f5b889511937e4b6d034a0eebccdae9e4f4f5f007e8d4dac89500ba879"
+      },
+      "integerCore": {
+        "degrees": [
+          75,
+          13
+        ],
+        "terms": 1064,
+        "totalDegree": 88,
+        "sha256": "20ae05561daf12c30208e46313cfa2d015d3792a97ce2040193ffdbb06872e64"
+      },
+      "rationalScale": "162129586585337856",
+      "scalarIdentityMultipliedBack": true,
+      "maximumIntegerCoefficientBits": 109,
+      "leadingLambdaPolynomialTerms": [
+        [
+          [
+            0,
+            0
+          ],
+          "486388759756013568"
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          "4053239664633446400"
+        ],
+        [
+          [
+            0,
+            2
+          ],
+          "13943144446339055616"
+        ],
+        [
+          [
+            0,
+            3
+          ],
+          "23670919641459326976"
+        ],
+        [
+          [
+            0,
+            4
+          ],
+          "13781014859753717760"
+        ],
+        [
+          [
+            0,
+            5
+          ],
+          "-20914716669508583424"
+        ],
+        [
+          [
+            0,
+            6
+          ],
+          "-48638875975601356800"
+        ],
+        [
+          [
+            0,
+            7
+          ],
+          "-36965545741457031168"
+        ],
+        [
+          [
+            0,
+            8
+          ],
+          "-486388759756013568"
+        ],
+        [
+          [
+            0,
+            9
+          ],
+          "21887494189020610560"
+        ],
+        [
+          [
+            0,
+            10
+          ],
+          "19131291217069867008"
+        ],
+        [
+          [
+            0,
+            11
+          ],
+          "8106479329266892800"
+        ],
+        [
+          [
+            0,
+            12
+          ],
+          "1783425452438716416"
+        ],
+        [
+          [
+            0,
+            13
+          ],
+          "162129586585337856"
+        ]
+      ],
+      "claimExcluded": false,
+      "stage": "fixed_original_integer_core",
+      "seconds": 1.7388602130000024
+    },
+    {
+      "name": "S_principal_E1",
+      "QQCore": {
+        "degrees": [
+          76,
+          15
+        ],
+        "terms": 1232,
+        "totalDegree": 91,
+        "sha256": "e101f6ac2515d05096d8a0e23c14e427685d507d8a33b8ad59480f1482a088a9"
+      },
+      "integerCore": {
+        "degrees": [
+          76,
+          15
+        ],
+        "terms": 1232,
+        "totalDegree": 91,
+        "sha256": "0472fa1b169933d4cd1c2e22fe0bc2080d65dbec60aaca5f44389a71140141f4"
+      },
+      "rationalScale": "81713311639010279424",
+      "scalarIdentityMultipliedBack": true,
+      "maximumIntegerCoefficientBits": 115,
+      "leadingLambdaPolynomialTerms": [
+        [
+          [
+            0,
+            0
+          ],
+          "-23346660468288651264"
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          "-175099953512164884480"
+        ],
+        [
+          [
+            0,
+            2
+          ],
+          "-677053153580370886656"
+        ],
+        [
+          [
+            0,
+            3
+          ],
+          "-1856059507228947775488"
+        ],
+        [
+          [
+            0,
+            4
+          ],
+          "-3478652409775009038336"
+        ],
+        [
+          [
+            0,
+            5
+          ],
+          "-3116779172516534943744"
+        ],
+        [
+          [
+            0,
+            6
+          ],
+          "2217932744487421870080"
+        ],
+        [
+          [
+            0,
+            7
+          ],
+          "9210257554739872923648"
+        ],
+        [
+          [
+            0,
+            8
+          ],
+          "8895077638417976131584"
+        ],
+        [
+          [
+            0,
+            9
+          ],
+          "221793274448742187008"
+        ],
+        [
+          [
+            0,
+            10
+          ],
+          "-6513718270652533702656"
+        ],
+        [
+          [
+            0,
+            11
+          ],
+          "-5194631954194224906240"
+        ],
+        [
+          [
+            0,
+            12
+          ],
+          "-910519758263257399296"
+        ],
+        [
+          [
+            0,
+            13
+          ],
+          "828806446624247119872"
+        ],
+        [
+          [
+            0,
+            14
+          ],
+          "490279869834061676544"
+        ],
+        [
+          [
+            0,
+            15
+          ],
+          "81713311639010279424"
+        ]
+      ],
+      "claimExcluded": false,
+      "stage": "fixed_original_integer_core",
+      "seconds": 1.8956426029999989
+    },
+    {
+      "name": "T_cross_E1_EB",
+      "QQCore": {
+        "degrees": [
+          83,
+          15
+        ],
+        "terms": 1344,
+        "totalDegree": 98,
+        "sha256": "1b9f8c1bb31a9c87d538b40e82134b7834d03aad87774ee07463e7936dec5c48"
+      },
+      "integerCore": {
+        "degrees": [
+          83,
+          15
+        ],
+        "terms": 1344,
+        "totalDegree": 98,
+        "sha256": "5da1ac9c04c13cc0d83dad0f464367b0cce33f28025f927b8cf7c513cb19b265"
+      },
+      "rationalScale": "887173097794968748032",
+      "scalarIdentityMultipliedBack": true,
+      "maximumIntegerCoefficientBits": 123,
+      "leadingLambdaPolynomialTerms": [
+        [
+          [
+            0,
+            0
+          ],
+          "-326853246556041117696"
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          "-887173097794968748032"
+        ],
+        [
+          [
+            0,
+            2
+          ],
+          "3782158995862761504768"
+        ],
+        [
+          [
+            0,
+            3
+          ],
+          "20404981249284281204736"
+        ],
+        [
+          [
+            0,
+            4
+          ],
+          "31237831706570215391232"
+        ],
+        [
+          [
+            0,
+            5
+          ],
+          "3035065860877524664320"
+        ],
+        [
+          [
+            0,
+            6
+          ],
+          "-43097935224460850233344"
+        ],
+        [
+          [
+            0,
+            7
+          ],
+          "-42164068805729304182784"
+        ],
+        [
+          [
+            0,
+            8
+          ],
+          "-980559739668123353088"
+        ],
+        [
+          [
+            0,
+            9
+          ],
+          "12280343406319830564864"
+        ],
+        [
+          [
+            0,
+            10
+          ],
+          "-5089571982086925975552"
+        ],
+        [
+          [
+            0,
+            11
+          ],
+          "-6023438400818472026112"
+        ],
+        [
+          [
+            0,
+            12
+          ],
+          "8918424298886264782848"
+        ],
+        [
+          [
+            0,
+            13
+          ],
+          "12467116690066139774976"
+        ],
+        [
+          [
+            0,
+            14
+          ],
+          "5556505191452699000832"
+        ],
+        [
+          [
+            0,
+            15
+          ],
+          "887173097794968748032"
+        ]
+      ],
+      "claimExcluded": false,
+      "stage": "fixed_original_integer_core",
+      "seconds": 2.029194058999998
+    },
+    {
+      "label": "R_27_F_G",
+      "prime": 1009,
+      "originalBidegrees": [
+        [
+          77,
+          14
+        ],
+        [
+          75,
+          13
+        ]
+      ],
+      "fixedSylvesterOrder": 27,
+      "QQDegreeUpperBound": 2051,
+      "fullModResultant": {
+        "degree": 1945,
+        "sha256": "e3312d0f8b9a52dd7f59435e7ed2a8d4592fcaa8743e65051dae2ece669c797f"
+      },
+      "QQDegreePreservedByUpperBound": false,
+      "allInputRhoDegreesPreserved": true,
+      "allInputIntegerCoefficients": true,
+      "allLeadingZeroFibersRetained": true,
+      "fullQQResultantComputed": false,
+      "claimExcluded": false,
+      "stage": "complete_fixed_original_rho_resultant_mod1009",
+      "seconds": 2.073650620000002
+    },
+    {
+      "label": "S_28_E1_G",
+      "prime": 1009,
+      "originalBidegrees": [
+        [
+          76,
+          15
+        ],
+        [
+          75,
+          13
+        ]
+      ],
+      "fixedSylvesterOrder": 28,
+      "QQDegreeUpperBound": 2113,
+      "fullModResultant": {
+        "degree": 2005,
+        "sha256": "33952aa89ca546c28ac8efaf2c6c4d02cefcd31be02fb34b92ce8fb5e4a93976"
+      },
+      "QQDegreePreservedByUpperBound": false,
+      "allInputRhoDegreesPreserved": true,
+      "allInputIntegerCoefficients": true,
+      "allLeadingZeroFibersRetained": true,
+      "fullQQResultantComputed": false,
+      "claimExcluded": false,
+      "stage": "complete_fixed_original_rho_resultant_mod1009",
+      "seconds": 2.118559566000002
+    },
+    {
+      "label": "T_28_crossEB_G",
+      "prime": 1009,
+      "originalBidegrees": [
+        [
+          83,
+          15
+        ],
+        [
+          75,
+          13
+        ]
+      ],
+      "fixedSylvesterOrder": 28,
+      "QQDegreeUpperBound": 2204,
+      "fullModResultant": {
+        "degree": 2096,
+        "sha256": "fc82b4741f79bd31e4332f9194eceb56421d98bd553ce05bb753b8866b206415"
+      },
+      "QQDegreePreservedByUpperBound": false,
+      "allInputRhoDegreesPreserved": true,
+      "allInputIntegerCoefficients": true,
+      "allLeadingZeroFibersRetained": true,
+      "fullQQResultantComputed": false,
+      "claimExcluded": false,
+      "stage": "complete_fixed_original_rho_resultant_mod1009",
+      "seconds": 2.1650680939999987
+    },
+    {
+      "inputDegrees": [
+        1945,
+        2005,
+        2096
+      ],
+      "intermediateGcdDegree": 908,
+      "finalGcd": {
+        "degree": 908,
+        "sha256": "7e55ad312705bcf923758ca42fac65a4fe4d46ba3c4fe2cdc7cb82b7c4368d42"
+      },
+      "coefficientDegrees": [
+        1096,
+        1036,
+        -1
+      ],
+      "coefficientSha256": "b73bbb2bfb8de6fc1ad78508adb9e384f624111b8b6b8e8a480d907b90f6f25a",
+      "allThreeProductsMultipliedBack": true,
+      "conditionalGaussSourceReady": false,
+      "claimExcluded": false,
+      "stage": "full_modular_three_original_projection_Bezout",
+      "seconds": 2.1686362889999984
+    },
+    {
+      "rationalFactorization": false,
+      "fullProductMultipliedBack": true,
+      "content": 1,
+      "factors": [
+        {
+          "profile": {
+            "degree": 1,
+            "sha256": "279f643340e473581083238a310e20d438e24bdc5f3280746271af794a732a57"
+          },
+          "multiplicity": 1,
+          "coefficientsAscending": [
+            344,
+            1
+          ]
+        },
+        {
+          "profile": {
+            "degree": 1,
+            "sha256": "2f63ba26e4860e4b0b430eb550cc7b96a8c4dced41528e6dde64c5954b8be081"
+          },
+          "multiplicity": 1,
+          "coefficientsAscending": [
+            757,
+            1
+          ]
+        },
+        {
+          "profile": {
+            "degree": 1,
+            "sha256": "9fefc6e6eeeada9a1e45358440c3c2280ac4b6cb90358ed57bdf68982da412d1"
+          },
+          "multiplicity": 4,
+          "coefficientsAscending": [
+            623,
+            1
+          ]
+        },
+        {
+          "profile": {
+            "degree": 1,
+            "sha256": "de5088b6f1fa0bf089188f47545d24f01a77d09e0995b6dc108e55051f7f7aa6"
+          },
+          "multiplicity": 4,
+          "coefficientsAscending": [
+            704,
+            1
+          ]
+        },
+        {
+          "profile": {
+            "degree": 1,
+            "sha256": "8848f655e16518b027817cb2df6f342a4397692fad37ad3606a1ecfc528b7b1a"
+          },
+          "multiplicity": 4,
+          "coefficientsAscending": [
+            734,
+            1
+          ]
+        },
+        {
+          "profile": {
+            "degree": 1,
+            "sha256": "f61834cdfe026c52423f29a3ae506831d30eef6ed2cfb81ae8699b5ed8d10347"
+          },
+          "multiplicity": 24,
+          "coefficientsAscending": [
+            115,
+            1
+          ]
+        },
+        {
+          "profile": {
+            "degree": 1,
+            "sha256": "b2d592da17836ebbe8a380e3e7d0c2ada065c5f895e568b721abf14fb54600fd"
+          },
+          "multiplicity": 24,
+          "coefficientsAscending": [
+            136,
+            1
+          ]
+        },
+        {
+          "profile": {
+            "degree": 1,
+            "sha256": "fd2209bb82af9a554d12be1c232cb90ec79534c09010a3b352c977efe36b1898"
+          },
+          "multiplicity": 44,
+          "coefficientsAscending": [
+            18,
+            1
+          ]
+        },
+        {
+          "profile": {
+            "degree": 1,
+            "sha256": "bb475354f394fdeafb1ee665f6ea63cddf96927bbc262f13a74fd3eae0ed02e4"
+          },
+          "multiplicity": 44,
+          "coefficientsAscending": [
+            654,
+            1
+          ]
+        },
+        {
+          "profile": {
+            "degree": 1,
+            "sha256": "7f4d5b895da82efc3536940907d4c3c2705ce9cba5887ca6b7817a3a6f6dc258"
+          },
+          "multiplicity": 110,
+          "coefficientsAscending": [
+            187,
+            1
+          ]
+        },
+        {
+          "profile": {
+            "degree": 1,
+            "sha256": "c1e9e32488f4853833f8c4b023d447c02f02198a5e73e04f498a5d9b829a1af4"
+          },
+          "multiplicity": 110,
+          "coefficientsAscending": [
+            317,
+            1
+          ]
+        },
+        {
+          "profile": {
+            "degree": 1,
+            "sha256": "8f7c2cdb162886219506a04ca7a762c4ffd737b063a52488666c1236d94257d8"
+          },
+          "multiplicity": 111,
+          "coefficientsAscending": [
+            234,
+            1
+          ]
+        },
+        {
+          "profile": {
+            "degree": 1,
+            "sha256": "b5f911e7122f0a31ac84772d5942b74d03b3d7b475ba77e567eea9c4f3d5a451"
+          },
+          "multiplicity": 111,
+          "coefficientsAscending": [
+            774,
+            1
+          ]
+        },
+        {
+          "profile": {
+            "degree": 1,
+            "sha256": "993f78590d528d1e445a7177bc3d5fe8d3b86efe05f416ea0a64270cc243dc06"
+          },
+          "multiplicity": 117,
+          "coefficientsAscending": [
+            1008,
+            1
+          ]
+        },
+        {
+          "profile": {
+            "degree": 1,
+            "sha256": "6ba38107e70c8917de8b2bf93b78092d85e54f93c0970cbe64ded17de95d33b0"
+          },
+          "multiplicity": 145,
+          "coefficientsAscending": [
+            504,
+            1
+          ]
+        },
+        {
+          "profile": {
+            "degree": 2,
+            "sha256": "4512a306cc2aea8b0a0248ecaf31743d0c930b1f7afca52653c821df6f22e69a"
+          },
+          "multiplicity": 4,
+          "coefficientsAscending": [
+            705,
+            1007,
+            1
+          ]
+        },
+        {
+          "profile": {
+            "degree": 3,
+            "sha256": "ab35ed3f34a589d61cf8bb397521640299f9d293048372d6b982919d74025a57"
+          },
+          "multiplicity": 4,
+          "coefficientsAscending": [
+            158,
+            43,
+            778,
+            1
+          ]
+        },
+        {
+          "profile": {
+            "degree": 4,
+            "sha256": "1e55e530d7e30e05ecf8b529bdb95b46bf66b8cd7b2a59fcbac8c07f6f48234a"
+          },
+          "multiplicity": 1,
+          "coefficientsAscending": [
+            869,
+            817,
+            152,
+            448,
+            1
+          ]
+        },
+        {
+          "profile": {
+            "degree": 4,
+            "sha256": "e35a529b261fbab607fc6a77e218df411c680c18cf0c19697acbfe30d422b1ff"
+          },
+          "multiplicity": 4,
+          "coefficientsAscending": [
+            419,
+            54,
+            189,
+            187,
+            1
+          ]
+        },
+        {
+          "profile": {
+            "degree": 5,
+            "sha256": "ccf6f2d0fdb9f3fda85c21439c74bd1ee60e806a229f025102a72adf5b93dbeb"
+          },
+          "multiplicity": 1,
+          "coefficientsAscending": [
+            860,
+            812,
+            727,
+            690,
+            766,
+            1
+          ]
+        },
+        {
+          "profile": {
+            "degree": 9,
+            "sha256": "c9a380620e1b74299bea08f2c32c64183a0648309a1f6f94d0bbd6fa26261dc9"
+          },
+          "multiplicity": 1,
+          "coefficientsAscending": [
+            337,
+            768,
+            493,
+            851,
+            657,
+            239,
+            108,
+            512,
+            368,
+            1
+          ]
+        }
+      ],
+      "wholePaidLambdaAtoms": [
+        {
+          "name": "lambda",
+          "baseAtomMod": {
+            "degree": 1,
+            "sha256": "2d711642b726b04401627ca9fbac32f5c8530fb1903cc4db02258717921a4881"
+          },
+          "modularWholeAtomMultiplicity": 0
+        },
+        {
+          "name": "A2",
+          "baseAtomMod": {
+            "degree": 2,
+            "sha256": "b5af2ed7520e1f85fc9eddb331dc8c2cd56e348b25120f0009e4911abe3c1cef"
+          },
+          "modularWholeAtomMultiplicity": 111
+        },
+        {
+          "name": "B3",
+          "baseAtomMod": {
+            "degree": 3,
+            "sha256": "bf5359017bcfa2bf2a212e8ee20300dd5294a3d0c22c1a815b56e7cb2849ed4e"
+          },
+          "modularWholeAtomMultiplicity": 110
+        },
+        {
+          "name": "Snum",
+          "baseAtomMod": {
+            "degree": 2,
+            "sha256": "90cfd510d158d3ba4c10d7e9a761b8bda0df5853fac9fb6660681f7d722c8a38"
+          },
+          "modularWholeAtomMultiplicity": 24
+        }
+      ],
+      "remainingAfterMODULARPaidAtomDivision": {
+        "degree": 308,
+        "sha256": "113bfc1916de4ce884501ff06c6fd4e580add2556b7d66c17cc79a01ddb8dc8b"
+      },
+      "QQDivisibilityNotInferred": true,
+      "claimExcluded": false,
+      "stage": "modular_intersection_factor_selection_only",
+      "seconds": 2.1718009029999976
+    },
+    {
+      "originalCoreHashes": [
+        "81798a00dd2c4be037737c974dea3b77563363789701dbfc5a0ad0b13769362c",
+        "20ae05561daf12c30208e46313cfa2d015d3792a97ce2040193ffdbb06872e64",
+        "0472fa1b169933d4cd1c2e22fe0bc2080d65dbec60aaca5f44389a71140141f4",
+        "5da1ac9c04c13cc0d83dad0f464367b0cce33f28025f927b8cf7c513cb19b265"
+      ],
+      "fixedSylvesterOrders": [
+        27,
+        28,
+        28
+      ],
+      "noQQProjectionComputed": true,
+      "noOriginalUnitOrZeroFiberDiscarded": true,
+      "primaryQQDegreeBound": 2051,
+      "primaryActualModDegree": 1945,
+      "actualFinalModularGcdDegree": 908,
+      "mathematicalConclusion": "exact original modular identities only; QQ closure requires the separately stated degree and exact-divisibility hypotheses",
+      "ordinaryISPClaim": false,
+      "claimExcluded": false,
+      "stage": "complete_new_fixed_modular_projection_input",
+      "seconds": 2.189126610999999
+    }
+  ]
+}
