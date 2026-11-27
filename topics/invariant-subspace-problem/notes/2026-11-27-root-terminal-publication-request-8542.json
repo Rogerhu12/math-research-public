@@ -1,15 +1,20 @@
 {
-  "message": "ISP: exclude the entire equal-singleton Delta-zero lambda one-third fiber",
-  "parentCommit": "af908a30493ba0d4f0b9061113e00bccc922f5ab",
+  "message": "ISP: compress the original W thirteen-row ideal to eleven lower D-degree rows",
+  "parentCommit": "5ba019be60efecc5c9103022ecd78fe77cfef66d",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-equal-singleton-Delta-zero-entire-lambda-one-third-exclusion.md",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-equal-singleton-lambda-one-third-Delta-zero-exclusion-execution-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-27-handoff-before-collision-entire-lambda-third-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-27-open-before-collision-entire-lambda-third-8542.md",
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-W-original-odd-NP-full-NV-lower-D-ideal-compression.md",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-W-original-odd-NP-full-NV-D-power-lowering-identities-8542.js",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-W-original-odd-NP-full-NV-D-power-lowering-identities-8542-receipt.json",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-W-global-monic-T3-D-linear-eleven-by-six-original-return-8542.py",
+    ".github/workflows/invariant-subspace-w-lower-d-eleven-original-six-columns-8542.yml",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-equal-singleton-complete-C2-Delta-zero-original-return-8542.py",
+    ".github/workflows/invariant-subspace-collision-quadratic-lambda-delta-zero-8542.yml",
+    "topics/invariant-subspace-problem/notes/2026-11-27-handoff-before-W-lower-D-ideal-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-27-open-before-W-lower-D-ideal-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -18,5 +23,8 @@
     ".github/workflows/invariant-subspace-8542-root-terminal-publication.yml",
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
-  "dispatchWorkflows": []
+  "dispatchWorkflows": [
+    "invariant-subspace-w-lower-d-eleven-original-six-columns-8542.yml",
+    "invariant-subspace-collision-quadratic-lambda-delta-zero-8542.yml"
+  ]
 }

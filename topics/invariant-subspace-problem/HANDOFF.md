@@ -8,9 +8,9 @@
 - **最近实际 pull / 已读规则提交：** f515d65bcfcf76aa07d1001f3f81605192ab424d（2026-11-27 15:58:35 UTC，Actions run46029552254实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-8542/46029552254-1.json。
 - 私库QUEUE本会话进行中已实际核验；最近真实pull为2026-11-27 15:58:34 UTC/1f81efa935f6cabdd473a75e81408402c2f42496，根README diff无变。公私均部分克隆blob:none。
 - **终端再次断开：** 约07:20 UTC起本地执行器不可用。按根规矩8/13小文本准备、公开Actions真实pull/rebase/push，非快进立即循环；旧故障与准确源保[说明](notes/2026-11-27-executor-outage-and-unpublished-small-input-checkpoint-8542.md)，未冒称本地恢复。
-- **终端断开后远端已读：** `af908a30493ba0d4f0b9061113e00bccc922f5ab`（2026-11-27 15:58:15 UTC）；只读检查不冒称实际pull。
+- **终端断开后远端已读：** `5ba019be60efecc5c9103022ecd78fe77cfef66d`（2026-11-27 16:02:18 UTC）；只读检查不冒称实际pull。
 - H<10KB、MD<100KB、open尽量<30KB、题<200MB；只留源/参数/SHA/小回执，不留可重算大输出，不写根LOG。课题外workflow改动已记本题log。
-- 所有被压缩的精确结论/来源/失败身份保[最新完整H](notes/2026-11-27-handoff-before-collision-entire-lambda-third-8542.md)、[open](open.md)、[结果索引](results.md)及归档链；省略不算关闭，已登记不重做。
+- 所有被压缩的精确结论/来源/失败身份保[最新完整H](notes/2026-11-27-handoff-before-W-lower-D-ideal-8542.md)、[open](open.md)、[结果索引](results.md)及归档链；省略不算关闭，已登记不重做。
 
 ## R150 总图与当前一般支
 
@@ -27,7 +27,7 @@
 - **整个原S0/Lt0已闭。** 615次QQ覆盖全退化面；9d0c7789真163.601秒/exit0。完整源/回执/旧失败保总定理及完整H，冻结不重放。
 - 一般LS只续未付T/权面；旧依赖D≠0的权排除不传h=k(D0)。原P1双零整支已闭，只付(Pf,Pt)非同时零。Delta0合法付Phi；四原值式准确等价首一二次/三一次，六参数式仅完整投影四值等式，四Gram子式仅必要。源70017734/ea0ffae2的完整来源及实际回执见results。
 - Delta0/W对ell首项零整支(u=1/2,Q=2)已闭，W0可付u(Q+2)−2；W0整k=−1线已闭，末非约化域原D=0，可付k+1。原完整98/12次覆盖、整域返回及实测源3769e6d6/43393adf均在正文。
-- **W整D27/J19及整lambda3/2已闭，全当前W付3−2lambda。** 372/403整QQ覆盖/模Gauss已闭，a267后QQ xgcd SIGALRM冻。原(q4,R4)=(q3,r2)、T3/F2真自由六列；394实际76.921秒/410224KiB/0返13完整原行、12真乘法、116身份/102付分母，含个别D²N/D³P和完整N4(DV)。不倒D/范数；新505只从纯T原r2/R6作三列cofactor，r2头/A143零面/新参数头仍保。
+- **W整D27/J19及整lambda3/2已闭，全当前W付3−2lambda。** 原(q4,R4)=(q3,r2)、T3/F2自由六列；394完整13原行/12乘法已返。新f083原D非0理想13→11准确等价，Nlow/Plow/NVlow只一次D清除且保NS/PS/R6，3ms全身份；391首做新11×6。505纯T三原cofactor已实际返，未付λ头零全保；不倒D范数，旧a267超时冻。
 - **整个Q=1−u已原排空，全局付u+Q−1。** 三native QQ核给原R重数244/3/3，两模分裂根各3；旧g222与1382余式的253度因子及全部三原整域合闭。源/回执/QQ乘回保总定理及归档，66和旧大门冻结。
 - **旧D≠0值图等权b=c全闭，仅该图付ell−u；W另付k+2/Q−2。** 824次覆盖及末m半QQ单位保总定理/归档，旧600秒门不重放。
 
