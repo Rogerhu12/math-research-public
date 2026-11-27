@@ -332,3 +332,6 @@
 
 
 - **R1087（已证明）**：[原principal角理想与cusp消去对应](results/R1087-original-principal-Cartan-ideal-and-cusp-annihilating-correspondence.md)：原K23×K48×K16，Zps=K5−K25非零、整、自伴、degree/trace0；283/4513主块单位/cusp严格零，十六一次块θ(Zps)=0。完整fixed类留下原两CM输入，不推高度单位。
+
+
+- **R1089（已证明，精确计算）**：[原full47辅助(B)及分量群](results/R1089-certified-full-level47-auxiliary-Bq-and-component-groups.md)：#J mod283/4513=70/551，全73维新Tq认证；Bq保持实际整格且不改对数深度，已刊Φ47=Z/2⊕(Z/46)^3。run45941243499/job140315814260，21.249秒；具体CM/MW/高度单位仍开。

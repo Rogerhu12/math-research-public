@@ -33,7 +33,7 @@ R1018–40原Fm/两节点Dickson/PD/好BT整比较的完整尺度和C_*保原文
 
 [R1078](results/R1078-original-level47-Cartan-correspondences-and-fixed-cycles.md)：原23个角对应全部fixed-cycle、degree/trace、composition与Rosati迹配对已纸证。[R1081](results/R1081-certified-original-level47-Cartan-trace-and-integral-Hecke-algebra.md)已证实际角代数rank23、Z=13R0+4R2非零且TrZ²=336288；283无一维块，4513有16个真正Zℓ块，原Hodge/Lie自由rank1。run45936209617/job140299891342；仍须指定θ(Z)、新4513同点标签及MW/高度首层，不重算此证书。
 
-[R1080](results/R1080-certified-full-level47-Jacobian-rank.md)：run45934421302/job140294236296证原完整73维三因子16/24/33全部L′>0，已刊定理给rankJ=dimJ=ρ_Q=73。全部pins/hash保原文，整MW/高度及盘内唯一仍开，不重算。
+[R1080](results/R1080-certified-full-level47-Jacobian-rank.md)：原full47 rank=dim=ρ_Q=73；原三因子/全L′回执只消费。[R1089](results/R1089-certified-full-level47-auxiliary-Bq-and-component-groups.md)run45941243499/job140315814260证#J mod283/4513=70/551，Bq整可逆且Φ47指数46两素均prime-to；具体CM首矩/MW/高度仍开。
 
 [R1074](results/R1074-certified-original-p47-eight-CM-disks.md)：235原盘仅8Q-CM盘存活，run45928658257/job140275928914；全部279原aux点标签注入，同一CM在47/283约化，特殊47阶4/3保留。§9完整Cp tube的scaled-j同构、原Cartan支撑/raw坏47高度零，R43同盘QC项相同已付；八盘内部/aux整高度/全p仍开，全部pins/hash保原文。
 
