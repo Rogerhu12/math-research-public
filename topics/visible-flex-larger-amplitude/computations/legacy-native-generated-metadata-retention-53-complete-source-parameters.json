@@ -1,0 +1,1592 @@
+{
+  "schema": "legacy-native-generated-bindings-retention-53-complete-source-and-parameter-registry-v1",
+  "date_utc": "2026-11-27",
+  "repository": "Rogerhu12/math-research-public",
+  "topic": "topics/visible-flex-larger-amplitude",
+  "fixed_restore_commit": "6fc35cce76db25916e359b8a0345620cb527857e",
+  "scope": "Complete original source, request, parameter, resource and conclusion records for exactly the 28 proposed retired generated metadata files. This is an additive registry; all cited original source/config/spec/result/proof files remain unchanged. No scientific computation, old workflow replay, numerical array read, artifact download or binary decompression was performed.",
+  "original_source_catalogs": {
+    "retention29": {
+      "record": {
+        "path": "topics/visible-flex-larger-amplitude/computations/legacy-current576-snapshot-retention-29-provenance.json",
+        "git_blob_sha": "6b2b5593030151c184d692047f9837fd2e716601",
+        "bytes": 55022,
+        "sha256": "3c30ec4e8d3ad145c04767c7f1d42c11aea25fa25dcf45a9351702d3d1b2181f"
+      },
+      "complete_json_pointers": [
+        "/entries",
+        "/current_complete_sources",
+        "/source_drifts",
+        "/verified_original_source_versions"
+      ],
+      "reuse_scope": "All three complete current576 requests, all original source pins, input records and full saved specs; both original publisher versions and their different current versions stay distinct."
+    },
+    "retention40": {
+      "record": {
+        "path": "topics/visible-flex-larger-amplitude/computations/legacy-actual28-receipts-and-system-metadata-retention-40-provenance.json",
+        "git_blob_sha": "c834b974b297ed60177b70b97560ea84f9f76996",
+        "bytes": 98273,
+        "sha256": "ed169ae6521d4beeb297f6e7bcb147cb7fcfd28e5e352de396e33c6e6a1bf855"
+      },
+      "complete_json_pointers": [
+        "/runs",
+        "/source_objects",
+        "/actual28_receipt",
+        "/generated_system_metadata",
+        "/original_scientific_inputs_and_parameters",
+        "/current_warm_consumer_scope",
+        "/recovery_and_nonclaims"
+      ],
+      "reuse_scope": "The complete old run/workflow/request and original28/41/54/57 input chains. Reused as previously recorded, not upgraded to a new numerical verification."
+    }
+  },
+  "complete_actual_sources_read_for_write_and_read_boundaries": [
+    {
+      "path": "topics/visible-flex-larger-amplitude/computations/exact_20261114_native_damped_chain_qr.py",
+      "bytes": 42340,
+      "sha256": "9b951f9525966d243c602b304dc77d48c554afa2cc003eb65665f46f8db0ad33",
+      "git_blob_sha": "bc0c1a5604b160b3391e10e6caf87d98da28c755",
+      "restore_commit": "6fc35cce76db25916e359b8a0345620cb527857e",
+      "metadata_only_source_operations": true
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/computations/exact_20261114_original576_damped_chain_qr.py",
+      "bytes": 27828,
+      "sha256": "e1a35bd82433cfe6525047cb3ceb3d0c434c1ebaa62680cb0f1fdab0e76cfaec",
+      "git_blob_sha": "59ad9dc5a355902ab0d18c519d92025976f4f312",
+      "restore_commit": "6fc35cce76db25916e359b8a0345620cb527857e",
+      "metadata_only_source_operations": true
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/computations/exact_20261114_original576_damped_system.py",
+      "bytes": 10616,
+      "sha256": "c78dfc6a5ef64a9de8bbbc857a927c6cd1078bbfb2281be62be4eb942014b207",
+      "git_blob_sha": "7e1a90bce61f0c34a6255b2d44bd8bee07032d6a",
+      "restore_commit": "6fc35cce76db25916e359b8a0345620cb527857e",
+      "metadata_only_source_operations": true
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/computations/exact_20261114_current576_damped_chain_qr.py",
+      "bytes": 21013,
+      "sha256": "ac04842bb9c42b9f29c8209d0d5f523c83744aa548e5615267521d8bf2c3141f",
+      "git_blob_sha": "85976907f21dcf6d3b8543b61339fbf6de21e696",
+      "restore_commit": "6fc35cce76db25916e359b8a0345620cb527857e",
+      "metadata_only_source_operations": true
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/computations/exact_20261114_current576_damped_system.py",
+      "bytes": 22749,
+      "sha256": "695c2a564ada2bfc3cac251dfb5bd46bf99f6d16b696c64b75d9f90703a6ed90",
+      "git_blob_sha": "ab09f5545d39e93876b8e590594872e3a1214515",
+      "restore_commit": "6fc35cce76db25916e359b8a0345620cb527857e",
+      "metadata_only_source_operations": true
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/computations/exact_20261114_noj_primal_current576_damped_chain_qr.py",
+      "bytes": 27750,
+      "sha256": "70bc10dfb31717b662265485d10a15028365dbba5db85ccf9c8f592226e33955",
+      "git_blob_sha": "ef725b7af239060ecd29ffe7251139178cfa2c4e",
+      "restore_commit": "6fc35cce76db25916e359b8a0345620cb527857e",
+      "metadata_only_source_operations": true
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/computations/exact_20261114_noj_primal_current576_damped_system.py",
+      "bytes": 27150,
+      "sha256": "48297483617c56179fdd4d6b80e9aeeb1151bf89c90fd816ca41d2e3ccc0bcb3",
+      "git_blob_sha": "53de2588bd7adc35af53e9ef4704dd67d0d47cee",
+      "restore_commit": "6fc35cce76db25916e359b8a0345620cb527857e",
+      "metadata_only_source_operations": true
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/computations/exact_20261115_native_word_first_candidate.py",
+      "bytes": 9240,
+      "sha256": "d9692107d197dcb4478fc2027beec21e3e611e67109af9d4b13ae09fb506e226",
+      "git_blob_sha": "7da59443c0974df9463cea49dedb70a435e7529a",
+      "restore_commit": "6fc35cce76db25916e359b8a0345620cb527857e",
+      "metadata_only_source_operations": true
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/computations/exact_20261115_native_word_first_parent.py",
+      "bytes": 16327,
+      "sha256": "8cd7027df2f7039302dbdc1ed15068c6cf48d6645bc236d74e6e5b1e7dd387e8",
+      "git_blob_sha": "11b762fb69fbc7b713a17b350f267b161e2ca83f",
+      "restore_commit": "6fc35cce76db25916e359b8a0345620cb527857e",
+      "metadata_only_source_operations": true
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/computations/geometry_20261114_native_captured_band_correction.py",
+      "bytes": 36867,
+      "sha256": "b39e9dd9068970436467ce026d38b8e12e65722376a75a49cad4bb1ab1ec8390",
+      "git_blob_sha": "be5433942409739326e5d2acd8039ca1bc19ef4c",
+      "restore_commit": "6fc35cce76db25916e359b8a0345620cb527857e",
+      "metadata_only_source_operations": true
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/computations/geometry_20261114_native_current576_damped_solve_hook.mjs",
+      "bytes": 44103,
+      "sha256": "0933ee819ce56be648f17e2e876372e943059f19c79fed701bda60ec11cf66dc",
+      "git_blob_sha": "73dcda06520c8c12ea3b1e64808b9c51754ee09f",
+      "restore_commit": "6fc35cce76db25916e359b8a0345620cb527857e",
+      "metadata_only_source_operations": true
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/computations/geometry_20261114_noj_primal_current576_damped_solve_hook.mjs",
+      "bytes": 53665,
+      "sha256": "099798e9c57f09b82f7532ea184d124446aeeb2cdbafe452390cb794b8db405d",
+      "git_blob_sha": "7bc4381b94ff7b0f33dd8f06c434458a66b59485",
+      "restore_commit": "6fc35cce76db25916e359b8a0345620cb527857e",
+      "metadata_only_source_operations": true
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/computations/geometry_20261115_native_word_first_current576_solve_hook.mjs",
+      "bytes": 61870,
+      "sha256": "932961ef9f267f95f5de6bb28791ed43ef2c66d15b18b55823bc3f2384545bc3",
+      "git_blob_sha": "3d59b0ae0335c6ed8ff6642c4eb5e963b2e713d1",
+      "restore_commit": "6fc35cce76db25916e359b8a0345620cb527857e",
+      "metadata_only_source_operations": true
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/computations/geometry_20261114_native_original576_damped_trial_replay.py",
+      "bytes": 28401,
+      "sha256": "c337d880c29aaa865b6516fd679ffffe9410d30c893ff2f8e0cc4092f6adbec7",
+      "git_blob_sha": "85912737cb299f577858be6be2a89fc90ffde90c",
+      "restore_commit": "6fc35cce76db25916e359b8a0345620cb527857e",
+      "metadata_only_source_operations": true
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/computations/geometry_20261114_native_damped_chain_trial_replay.py",
+      "bytes": 32623,
+      "sha256": "ebd3110e7ba9b2edeca155370d2c7fd6f02d3757ae285379d54a2b4a39793ccd",
+      "git_blob_sha": "160a257ca4185a33e2e31d8532ee16da68c1a7fd",
+      "restore_commit": "6fc35cce76db25916e359b8a0345620cb527857e",
+      "metadata_only_source_operations": true
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/computations/geometry_20261114_native_split_captured_system.py",
+      "bytes": 25866,
+      "sha256": "e88e69da3bf5dfea792515f544bfb03ca9e00f907bf5904c2f856e203d4ea451",
+      "git_blob_sha": "5696be07376e9f710a9a1434b35b1940dcf8c7af",
+      "restore_commit": "6fc35cce76db25916e359b8a0345620cb527857e",
+      "metadata_only_source_operations": true
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/computations/geometry_20261114_native_split_equilibrated_correction.py",
+      "bytes": 15858,
+      "sha256": "d56da0ed2cb210bbc7921f9cb79df5923e9b93b441e7a9a0aa2681e373ec66de",
+      "git_blob_sha": "65c963e098dd20c4d0c5f758f3364d03b6174bed",
+      "restore_commit": "6fc35cce76db25916e359b8a0345620cb527857e",
+      "metadata_only_source_operations": true
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/computations/geometry_20261114_native_equilibrated_band_correction.py",
+      "bytes": 32938,
+      "sha256": "8f5cb5da0826e3deedf935eca2e62b91c6628861804b2e66c6f853e9459e1dd3",
+      "git_blob_sha": "90d3fce250cef18f40ade8064799aefa0efc20b9",
+      "restore_commit": "6fc35cce76db25916e359b8a0345620cb527857e",
+      "metadata_only_source_operations": true
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/computations/geometry_20261114_native_same_schedule_split_probe_hook.mjs",
+      "bytes": 35258,
+      "sha256": "34d1bb4f31514425e123e978ccffbc5e2d36bf314a98f53505353743a01c8898",
+      "git_blob_sha": "459a7ff8408239480ed8e4cdd813c9fc5dabf008",
+      "restore_commit": "6fc35cce76db25916e359b8a0345620cb527857e",
+      "metadata_only_source_operations": true
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/computations/geometry_20261114_native_rawcell0_step_capture_hook.mjs",
+      "bytes": 43277,
+      "sha256": "2695cd2dc0abc66fe3f8ae8987b6ae3b50b884f692a418198347a61dddf24435",
+      "git_blob_sha": "75d983df6c94d6fbda39beb0a6c6023b07dc785d",
+      "restore_commit": "6fc35cce76db25916e359b8a0345620cb527857e",
+      "metadata_only_source_operations": true
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/computations/geometry_20261114_native_stage43_local_j_probe_hook.mjs",
+      "bytes": 38399,
+      "sha256": "8992f3920729b0f6eabf7a1e15520290fc47942c72c0c4d6433d8ac6cb291059",
+      "git_blob_sha": "859cee4670526ad54fa79832e1c248a3b6da321f",
+      "restore_commit": "6fc35cce76db25916e359b8a0345620cb527857e",
+      "metadata_only_source_operations": true
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/computations/geometry_20261114_native_rawcell0_direct_ld_capture_hook.mjs",
+      "bytes": 50976,
+      "sha256": "3499f7abb96a4f25c4c3a986d97dc8aea3b21742770aabe7abe2822ad8b3caf4",
+      "git_blob_sha": "1ab78006af9ca49808b102444b2194f5561706ee",
+      "restore_commit": "6fc35cce76db25916e359b8a0345620cb527857e",
+      "metadata_only_source_operations": true
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/computations/geometry_20261114_native_direct_ld_trial_replay_hook.mjs",
+      "bytes": 59128,
+      "sha256": "373c82c75152a800246e84618fb2ba72fc0b3960e3b3e4eff9b7590724bad4ce",
+      "git_blob_sha": "3fb5030bb95ae55537790070d3b81397b9ae8d53",
+      "restore_commit": "6fc35cce76db25916e359b8a0345620cb527857e",
+      "metadata_only_source_operations": true
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/computations/geometry_20261114_native_damped_chain_trial_replay_hook.mjs",
+      "bytes": 60281,
+      "sha256": "884d2d44439151d0dbc5d474e20ebe5c024e577396088f01717d33a522b50323",
+      "git_blob_sha": "977798546dd2a90fbef3f4ca7218c7d7389bfa9f",
+      "restore_commit": "6fc35cce76db25916e359b8a0345620cb527857e",
+      "metadata_only_source_operations": true
+    }
+  ],
+  "actual_source_identity_correspondence": [
+    {
+      "path": "topics/visible-flex-larger-amplitude/computations/exact_20261114_native_damped_chain_qr.py",
+      "sha256": "9b951f9525966d243c602b304dc77d48c554afa2cc003eb65665f46f8db0ad33",
+      "ret40_matches": [
+        {
+          "actual_source_run": "43637356027",
+          "sha256": "9b951f9525966d243c602b304dc77d48c554afa2cc003eb65665f46f8db0ad33",
+          "blob": "bc0c1a5604b160b3391e10e6caf87d98da28c755"
+        }
+      ],
+      "ret29_whole_match": true
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/computations/exact_20261114_original576_damped_chain_qr.py",
+      "sha256": "e1a35bd82433cfe6525047cb3ceb3d0c434c1ebaa62680cb0f1fdab0e76cfaec",
+      "ret40_matches": [
+        {
+          "actual_source_run": "43640772654",
+          "sha256": "e1a35bd82433cfe6525047cb3ceb3d0c434c1ebaa62680cb0f1fdab0e76cfaec",
+          "blob": "59ad9dc5a355902ab0d18c519d92025976f4f312"
+        }
+      ],
+      "ret29_whole_match": false
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/computations/exact_20261114_original576_damped_system.py",
+      "sha256": "c78dfc6a5ef64a9de8bbbc857a927c6cd1078bbfb2281be62be4eb942014b207",
+      "ret40_matches": [
+        {
+          "actual_source_run": "43640772654",
+          "sha256": "c78dfc6a5ef64a9de8bbbc857a927c6cd1078bbfb2281be62be4eb942014b207",
+          "blob": "7e1a90bce61f0c34a6255b2d44bd8bee07032d6a"
+        }
+      ],
+      "ret29_whole_match": false
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/computations/exact_20261114_current576_damped_chain_qr.py",
+      "sha256": "ac04842bb9c42b9f29c8209d0d5f523c83744aa548e5615267521d8bf2c3141f",
+      "ret40_matches": [],
+      "ret29_whole_match": true
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/computations/exact_20261114_current576_damped_system.py",
+      "sha256": "695c2a564ada2bfc3cac251dfb5bd46bf99f6d16b696c64b75d9f90703a6ed90",
+      "ret40_matches": [],
+      "ret29_whole_match": true
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/computations/exact_20261114_noj_primal_current576_damped_chain_qr.py",
+      "sha256": "70bc10dfb31717b662265485d10a15028365dbba5db85ccf9c8f592226e33955",
+      "ret40_matches": [],
+      "ret29_whole_match": true
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/computations/exact_20261114_noj_primal_current576_damped_system.py",
+      "sha256": "48297483617c56179fdd4d6b80e9aeeb1151bf89c90fd816ca41d2e3ccc0bcb3",
+      "ret40_matches": [],
+      "ret29_whole_match": true
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/computations/exact_20261115_native_word_first_candidate.py",
+      "sha256": "d9692107d197dcb4478fc2027beec21e3e611e67109af9d4b13ae09fb506e226",
+      "ret40_matches": [],
+      "ret29_whole_match": true
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/computations/exact_20261115_native_word_first_parent.py",
+      "sha256": "8cd7027df2f7039302dbdc1ed15068c6cf48d6645bc236d74e6e5b1e7dd387e8",
+      "ret40_matches": [],
+      "ret29_whole_match": true
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/computations/geometry_20261114_native_captured_band_correction.py",
+      "sha256": "b39e9dd9068970436467ce026d38b8e12e65722376a75a49cad4bb1ab1ec8390",
+      "ret40_matches": [
+        {
+          "actual_source_run": "43615494107",
+          "sha256": "b39e9dd9068970436467ce026d38b8e12e65722376a75a49cad4bb1ab1ec8390",
+          "blob": "be5433942409739326e5d2acd8039ca1bc19ef4c"
+        }
+      ],
+      "ret29_whole_match": true
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/computations/geometry_20261114_native_current576_damped_solve_hook.mjs",
+      "sha256": "0933ee819ce56be648f17e2e876372e943059f19c79fed701bda60ec11cf66dc",
+      "ret40_matches": [],
+      "ret29_whole_match": true
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/computations/geometry_20261114_noj_primal_current576_damped_solve_hook.mjs",
+      "sha256": "099798e9c57f09b82f7532ea184d124446aeeb2cdbafe452390cb794b8db405d",
+      "ret40_matches": [],
+      "ret29_whole_match": true
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/computations/geometry_20261115_native_word_first_current576_solve_hook.mjs",
+      "sha256": "932961ef9f267f95f5de6bb28791ed43ef2c66d15b18b55823bc3f2384545bc3",
+      "ret40_matches": [],
+      "ret29_whole_match": true
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/computations/geometry_20261114_native_original576_damped_trial_replay.py",
+      "sha256": "c337d880c29aaa865b6516fd679ffffe9410d30c893ff2f8e0cc4092f6adbec7",
+      "ret40_matches": [
+        {
+          "actual_source_run": "43640772654",
+          "sha256": "c337d880c29aaa865b6516fd679ffffe9410d30c893ff2f8e0cc4092f6adbec7",
+          "blob": "85912737cb299f577858be6be2a89fc90ffde90c"
+        }
+      ],
+      "ret29_whole_match": false
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/computations/geometry_20261114_native_damped_chain_trial_replay.py",
+      "sha256": "ebd3110e7ba9b2edeca155370d2c7fd6f02d3757ae285379d54a2b4a39793ccd",
+      "ret40_matches": [
+        {
+          "actual_source_run": "43637356027",
+          "sha256": "ebd3110e7ba9b2edeca155370d2c7fd6f02d3757ae285379d54a2b4a39793ccd",
+          "blob": "160a257ca4185a33e2e31d8532ee16da68c1a7fd"
+        }
+      ],
+      "ret29_whole_match": false
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/computations/geometry_20261114_native_split_captured_system.py",
+      "sha256": "e88e69da3bf5dfea792515f544bfb03ca9e00f907bf5904c2f856e203d4ea451",
+      "ret40_matches": [
+        {
+          "actual_source_run": "43620111146",
+          "sha256": "e88e69da3bf5dfea792515f544bfb03ca9e00f907bf5904c2f856e203d4ea451",
+          "blob": "5696be07376e9f710a9a1434b35b1940dcf8c7af"
+        }
+      ],
+      "ret29_whole_match": false
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/computations/geometry_20261114_native_split_equilibrated_correction.py",
+      "sha256": "d56da0ed2cb210bbc7921f9cb79df5923e9b93b441e7a9a0aa2681e373ec66de",
+      "ret40_matches": [
+        {
+          "actual_source_run": "43620111146",
+          "sha256": "d56da0ed2cb210bbc7921f9cb79df5923e9b93b441e7a9a0aa2681e373ec66de",
+          "blob": "65c963e098dd20c4d0c5f758f3364d03b6174bed"
+        }
+      ],
+      "ret29_whole_match": false
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/computations/geometry_20261114_native_equilibrated_band_correction.py",
+      "sha256": "8f5cb5da0826e3deedf935eca2e62b91c6628861804b2e66c6f853e9459e1dd3",
+      "ret40_matches": [
+        {
+          "actual_source_run": "43617334081",
+          "sha256": "8f5cb5da0826e3deedf935eca2e62b91c6628861804b2e66c6f853e9459e1dd3",
+          "blob": "90d3fce250cef18f40ade8064799aefa0efc20b9"
+        }
+      ],
+      "ret29_whole_match": false
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/computations/geometry_20261114_native_same_schedule_split_probe_hook.mjs",
+      "sha256": "34d1bb4f31514425e123e978ccffbc5e2d36bf314a98f53505353743a01c8898",
+      "ret40_matches": [
+        {
+          "actual_source_run": "43619564953",
+          "sha256": "34d1bb4f31514425e123e978ccffbc5e2d36bf314a98f53505353743a01c8898",
+          "blob": "459a7ff8408239480ed8e4cdd813c9fc5dabf008"
+        }
+      ],
+      "ret29_whole_match": false
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/computations/geometry_20261114_native_rawcell0_step_capture_hook.mjs",
+      "sha256": "2695cd2dc0abc66fe3f8ae8987b6ae3b50b884f692a418198347a61dddf24435",
+      "ret40_matches": [
+        {
+          "actual_source_run": "43622149326",
+          "sha256": "2695cd2dc0abc66fe3f8ae8987b6ae3b50b884f692a418198347a61dddf24435",
+          "blob": "75d983df6c94d6fbda39beb0a6c6023b07dc785d"
+        }
+      ],
+      "ret29_whole_match": false
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/computations/geometry_20261114_native_stage43_local_j_probe_hook.mjs",
+      "sha256": "8992f3920729b0f6eabf7a1e15520290fc47942c72c0c4d6433d8ac6cb291059",
+      "ret40_matches": [
+        {
+          "actual_source_run": "43630351235",
+          "sha256": "8992f3920729b0f6eabf7a1e15520290fc47942c72c0c4d6433d8ac6cb291059",
+          "blob": "859cee4670526ad54fa79832e1c248a3b6da321f"
+        }
+      ],
+      "ret29_whole_match": false
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/computations/geometry_20261114_native_rawcell0_direct_ld_capture_hook.mjs",
+      "sha256": "3499f7abb96a4f25c4c3a986d97dc8aea3b21742770aabe7abe2822ad8b3caf4",
+      "ret40_matches": [
+        {
+          "actual_source_run": "43634889730",
+          "sha256": "3499f7abb96a4f25c4c3a986d97dc8aea3b21742770aabe7abe2822ad8b3caf4",
+          "blob": "1ab78006af9ca49808b102444b2194f5561706ee"
+        }
+      ],
+      "ret29_whole_match": false
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/computations/geometry_20261114_native_direct_ld_trial_replay_hook.mjs",
+      "sha256": "373c82c75152a800246e84618fb2ba72fc0b3960e3b3e4eff9b7590724bad4ce",
+      "ret40_matches": [
+        {
+          "actual_source_run": "43634889730",
+          "sha256": "373c82c75152a800246e84618fb2ba72fc0b3960e3b3e4eff9b7590724bad4ce",
+          "blob": "3fb5030bb95ae55537790070d3b81397b9ae8d53"
+        }
+      ],
+      "ret29_whole_match": false
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/computations/geometry_20261114_native_damped_chain_trial_replay_hook.mjs",
+      "sha256": "884d2d44439151d0dbc5d474e20ebe5c024e577396088f01717d33a522b50323",
+      "ret40_matches": [
+        {
+          "actual_source_run": "43637356027",
+          "sha256": "884d2d44439151d0dbc5d474e20ebe5c024e577396088f01717d33a522b50323",
+          "blob": "977798546dd2a90fbef3f4ca7218c7d7389bfa9f"
+        }
+      ],
+      "ret29_whole_match": false
+    }
+  ],
+  "older_actual_runs_with_complete_request_parameters": [
+    {
+      "run_id": "43619564953",
+      "attempt": 1,
+      "source_commit": "ceb4cd61e1a2211901dfd4c287ec28fe92309e4b",
+      "observed_status": "completed",
+      "observed_conclusion": "success",
+      "conclusion_is_not_scientific_acceptance": true,
+      "full_original_run_parameters_and_sources": {
+        "record": {
+          "path": "topics/visible-flex-larger-amplitude/computations/legacy-actual28-receipts-and-system-metadata-retention-40-provenance.json",
+          "git_blob_sha": "c834b974b297ed60177b70b97560ea84f9f76996",
+          "bytes": 98273,
+          "sha256": "ed169ae6521d4beeb297f6e7bcb147cb7fcfd28e5e352de396e33c6e6a1bf855"
+        },
+        "json_pointer": "/runs/2",
+        "every_field_preserved_in_record": true
+      },
+      "workflow": {
+        "path": ".github/workflows/visible-larger-public-mainline.yml",
+        "source_commit": "ceb4cd61e1a2211901dfd4c287ec28fe92309e4b",
+        "git_blob_sha": "82de2bfb71d3d9460852572828cf1c98a950f6ba",
+        "sha256": "b24b2430e53c8d4fa6115707b7be9f59b0044b964d41b332b11d59faa5d2fc55",
+        "bytes": 85092
+      },
+      "original_request": {
+        "original_raw_file": {
+          "path": "topics/visible-flex-larger-amplitude/computations/public-mainline-request.json",
+          "source_commit": "ceb4cd61e1a2211901dfd4c287ec28fe92309e4b",
+          "git_blob_sha": "e1c871f3ae010b0a331bcfb8d101a16591a281a7",
+          "bytes": 1624,
+          "sha256": "f7e0265f425c00c82a7e8c175e44088d4e5c113bb5a235902e8eb6608ebdfe6b"
+        },
+        "complete_original_value": {
+          "request": "20261114-public-large-core-mainline-38",
+          "repository": "Rogerhu12/math-research-public",
+          "lanes": [
+            "nativesplitprobe"
+          ],
+          "scope": "Consume byte-pinned actual28 and unchanged complete actual23 seed/history/source/config. Split only original no-cusp stages43 and58 twelve RK steps into two six-step windows while retaining original profile, h, per-path x arithmetic and every RK abscissa. Execute four short with-J windows and four separate no-J windows; retain full226 intermediate state including means, four complete224-by224 shape Jacobians, mean tangents, raw input/output bytes, original minA/minD and schedule ledgers. Apply original port scaling once and compare original exit coordinates and means against saved actual28 bytes. Do not recompute old long Jacobians or the other574 blocks. Save explicit prospective578-stage/579-node mapping, preserving old-node sigma and declaring parent sigma for each new node. Planned diagnostic STOP before Newton, correction, trial, endpoint Jacobian or audit; no native/BVP acceptance or new scientific gate.",
+          "source_sha256": {
+            "geometry_20261114_native_same_schedule_split_probe.py": "911b8d8a872ec5ba2d1ae45cb83011e4d7b2d1302c1693bded34fc0a8f6c09ae",
+            "geometry_20261114_native_same_schedule_split_probe_hook.mjs": "34d1bb4f31514425e123e978ccffbc5e2d36bf314a98f53505353743a01c8898",
+            "geometry_20261114_native_same_schedule_windows.mjs": "2973c14460de920ba2cc873ef9bcc137bdd264b70799ba9734122f3c610b946f",
+            "exact_20261114_fetch_pinned_public_artifact.py": "51224788078acff0a522b4850c8d971a29cbc6d3cecd1c7cd1a724aaa24aa859"
+          }
+        }
+      },
+      "actual_conclusion": {
+        "summary": "Four short Jacobians and four independent no-J half windows completed with the recorded old exit/mean words preserved. The planned probe stop was not native acceptance.",
+        "complete_note": {
+          "path": "topics/visible-flex-larger-amplitude/notes/2026-11-14-actual-request38-native-short-blocks.md",
+          "bytes": 6517,
+          "sha256": "c619d700388d6def26b952ca29bd8e2a3209be03adbc642c2256f9f025848318",
+          "git_blob_sha": "5d14470a6400aa55a8cc963a275a34a86ff19fc3"
+        }
+      }
+    },
+    {
+      "run_id": "43620111146",
+      "attempt": 1,
+      "source_commit": "56e8912844b6d7fafa268a9da8f184d6d055756f",
+      "observed_status": "completed",
+      "observed_conclusion": "success",
+      "conclusion_is_not_scientific_acceptance": true,
+      "full_original_run_parameters_and_sources": {
+        "record": {
+          "path": "topics/visible-flex-larger-amplitude/computations/legacy-actual28-receipts-and-system-metadata-retention-40-provenance.json",
+          "git_blob_sha": "c834b974b297ed60177b70b97560ea84f9f76996",
+          "bytes": 98273,
+          "sha256": "ed169ae6521d4beeb297f6e7bcb147cb7fcfd28e5e352de396e33c6e6a1bf855"
+        },
+        "json_pointer": "/runs/3",
+        "every_field_preserved_in_record": true
+      },
+      "workflow": {
+        "path": ".github/workflows/visible-larger-public-mainline.yml",
+        "source_commit": "56e8912844b6d7fafa268a9da8f184d6d055756f",
+        "git_blob_sha": "9f3eae1c8baec7d3b7c61cba282dc808858134e8",
+        "sha256": "1c8432fce30921065616296c6d81da0ad5619f9150ab6788565bb9795b2d07d3",
+        "bytes": 89583
+      },
+      "original_request": {
+        "original_raw_file": {
+          "path": "topics/visible-flex-larger-amplitude/computations/public-mainline-request.json",
+          "source_commit": "56e8912844b6d7fafa268a9da8f184d6d055756f",
+          "git_blob_sha": "eec606966a55380ff49c7a18ba04697eb7a071a8",
+          "bytes": 2394,
+          "sha256": "376c6dd18d9abe385372d30993a4e4ab7216b8b9335d292636d67a5689ed7e78"
+        },
+        "complete_original_value": {
+          "request": "20261114-public-large-core-mainline-39",
+          "repository": "Rogerhu12/math-research-public",
+          "lanes": [
+            "twelvequery",
+            "nativesplitband"
+          ],
+          "scope": "Two independent continuations. Prefix: consume actual37 full warm/status with exact paired SHAs, preserve all eleven grids and add actual left-RMS470. Complete B has24576 rows on236036 coordinates including node470; restrict only the C-projection correction to prior nodes471..482 plus original p, retaining complete B_out*z0_out affine offsets even when negative. Preserve original whole-vector radial/ray backup/same-f selection, lambda270/LSMR200/200sweeps/17actual trials, every original nonlinear domain gate and fresh complete Rphi FD. Native: consume actual28 plus actual38 completed four short Jacobians, whose actual exit and mean bytes match28, to construct explicit578-stage/579-node virtual system with574 original plus4 short blocks, original cut/far/H/old-node sigmas and declared inserted parent sigma. Perform bounded dyadic equilibration and exact residual refinement on this new representation; retain full579 direction and separately identified577 restriction. Old long-J residual is diagnostic only, never a veto. No original native solve/trial/new J here, no new BVP/closed-surface acceptance. Block-QR component is published as unexecuted supporting implementation, not run by these two lanes.",
+          "source_sha256": {
+            "geometry_20261114_twelve_query_domain_operator.py": "6a428d2f8412659cbd318321aa992c3b4565ff41177131a9cc9d268c6fbb7b1f",
+            "geometry_20261114_fixed_support_halfspaces.py": "0c5573ea26d2c69c1a22595e00de9e41b38981793b88f4f52086d7713d111f68",
+            "geometry_20261114_twelve_query_projection_warm.py": "10ed25405930f3775d8fb88f007aa50be4a53f4b3421904be959f1890ed67477",
+            "geometry_20261114_twelve_query_projection_response.py": "1989a8a9925c6e606d39451b1625b49de7b33d048061e69668162895642d4783",
+            "geometry_20261114_native_split_captured_system.py": "e88e69da3bf5dfea792515f544bfb03ca9e00f907bf5904c2f856e203d4ea451",
+            "geometry_20261114_native_split_equilibrated_correction.py": "d56da0ed2cb210bbc7921f9cb79df5923e9b93b441e7a9a0aa2681e373ec66de",
+            "exact_20261114_regularized_block_qr.py": "596356c06f710869b3bc26931ddaa87d66fe892bcf7920a25b42453b66bfa722"
+          },
+          "actual_split_result_sha256": "80a2c7ec5ad45679869b94e3b6a55e9b4504b822f6c2f972269b1b9b25f644d9"
+        }
+      },
+      "actual_conclusion": {
+        "summary": "The new 578-stage system completed factorization and full exact defect readbacks; its original-scale defect remained huge and refinement worsened it. No nonlinear trial followed.",
+        "complete_note": {
+          "path": "topics/visible-flex-larger-amplitude/notes/2026-11-14-actual-request39-native-split-direction-failed.md",
+          "bytes": 6826,
+          "sha256": "c33efb1469bed05766376e14aa0ab49f679068cc2c89053c3ba1f910e69a7763",
+          "git_blob_sha": "f4be027fcabc47487b5dc297f0d2e5397e5d7a4a"
+        }
+      }
+    },
+    {
+      "run_id": "43622149326",
+      "attempt": 1,
+      "source_commit": "0beffe5a963015a4063a8c53d4a92fec32205005",
+      "observed_status": "completed",
+      "observed_conclusion": "success",
+      "conclusion_is_not_scientific_acceptance": true,
+      "full_original_run_parameters_and_sources": {
+        "record": {
+          "path": "topics/visible-flex-larger-amplitude/computations/legacy-actual28-receipts-and-system-metadata-retention-40-provenance.json",
+          "git_blob_sha": "c834b974b297ed60177b70b97560ea84f9f76996",
+          "bytes": 98273,
+          "sha256": "ed169ae6521d4beeb297f6e7bcb147cb7fcfd28e5e352de396e33c6e6a1bf855"
+        },
+        "json_pointer": "/runs/4",
+        "every_field_preserved_in_record": true
+      },
+      "workflow": {
+        "path": ".github/workflows/visible-larger-public-mainline.yml",
+        "source_commit": "0beffe5a963015a4063a8c53d4a92fec32205005",
+        "git_blob_sha": "9bdb343541d4f9a364ef542b9d5b2dcc93ce003b",
+        "sha256": "68b0647abdf2e15284c529fdd47fb50c8ee8b8b96df7d4e1b1b8d9352f7d9484",
+        "bytes": 94496
+      },
+      "original_request": {
+        "original_raw_file": {
+          "path": "topics/visible-flex-larger-amplitude/computations/public-mainline-request.json",
+          "source_commit": "0beffe5a963015a4063a8c53d4a92fec32205005",
+          "git_blob_sha": "c336a62f15305b82c83981dea40a79140c9c890e",
+          "bytes": 1943,
+          "sha256": "3191dab2653ae2b9ebe8621db4459c6e5c01bb80ed349644c467d7c6dbc134a7"
+        },
+        "complete_original_value": {
+          "request": "20261114-public-large-core-mainline-41",
+          "repository": "Rogerhu12/math-research-public",
+          "lanes": [
+            "rawcell0steps"
+          ],
+          "scope": "Capture every actual original RK step within all72 actual28 rawCell0 stages, using the unchanged original226-state RHS/path, original ordinary x=n*h and original cusp integrationGrid, complete mean state and one original exit port. Restart only the local tangent at each existing step and synchronously stream each complete224x224 J plus full states/outputs/mean tangent and already returned root.g observations. Derive actual total step count and dynamic shooting layout from all72 completed schedules; keep original504 other stages for the later separate consumer. Bind the exact actual23 seed, full nonzero112 H, all original graph/gain/far/scales/source/config bytes and pinned public actual28 artifact. Compare every original exit/guard/mean against saved actual28 without a new numerical gate. Preserve every completed chunk and true failing field if interrupted. No new ODE steps, old long-J recomputation, no-J pass, native solve/trial, endpoint J or audit. All large arrays artifact-only. No numerical improvement or task completion asserted.",
+          "source_sha256": {
+            "geometry_20261114_native_rawcell0_step_capture.py": "c2341018c6293e15ee8e5ba9109b331b29bee2e3e944514e1a0308afe8e6ffd5",
+            "geometry_20261114_native_rawcell0_step_capture_hook.mjs": "2695cd2dc0abc66fe3f8ae8987b6ae3b50b884f692a418198347a61dddf24435",
+            "geometry_20261114_native_rawcell0_step_windows.mjs": "07dd6101569097a9524c35457c1467002a250911dd049bcb720b3b8c700efd2b",
+            "exact_20261114_fetch_pinned_public_artifact.py": "51224788078acff0a522b4850c8d971a29cbc6d3cecd1c7cd1a724aaa24aa859"
+          },
+          "actual28_capture_result_sha256": "ff53d954de378571eac8d4b22e55c1b0a4595c0a0ab567d0760e1f3d427fded7",
+          "actual28_artifact_sha256": "0ff8e6f597af60f19243b5457c28e8638096c775551b6f3d044dc2d2f1fabeee"
+        }
+      },
+      "actual_conclusion": {
+        "summary": "All 868 original-step local Jacobians over 72 rawCell0 stages were captured; the published audit records old exits and means word-preserved. This did not solve the new global system.",
+        "complete_note": {
+          "path": "topics/visible-flex-larger-amplitude/notes/2026-11-14-actual-request41-rawcell0-step-capture.md",
+          "bytes": 6528,
+          "sha256": "fdcbaf40bd4d232e4801191774238d8ade55fb5b74595f88fdc70515a98f4e77",
+          "git_blob_sha": "b9e069d25fcf1f9d6e2bfbccb9692439fbba5d6d"
+        }
+      }
+    },
+    {
+      "run_id": "43630351235",
+      "attempt": 1,
+      "source_commit": "c9c466f468d49e3f4699d0e0247109e83047bdb5",
+      "observed_status": "completed",
+      "observed_conclusion": "success",
+      "conclusion_is_not_scientific_acceptance": true,
+      "full_original_run_parameters_and_sources": {
+        "record": {
+          "path": "topics/visible-flex-larger-amplitude/computations/legacy-actual28-receipts-and-system-metadata-retention-40-provenance.json",
+          "git_blob_sha": "c834b974b297ed60177b70b97560ea84f9f76996",
+          "bytes": 98273,
+          "sha256": "ed169ae6521d4beeb297f6e7bcb147cb7fcfd28e5e352de396e33c6e6a1bf855"
+        },
+        "json_pointer": "/runs/7",
+        "every_field_preserved_in_record": true
+      },
+      "workflow": {
+        "path": ".github/workflows/visible-larger-public-stage-probe.yml",
+        "source_commit": "c9c466f468d49e3f4699d0e0247109e83047bdb5",
+        "git_blob_sha": "d8bdca474dcf92e7702cb0de05a3740811e9b296",
+        "sha256": "49ed712632ab65210c0c33c3aa336a1d77ae5d83d9732421e14705e36228295d",
+        "bytes": 17061
+      },
+      "original_request": {
+        "saved_complete_request_identity": {
+          "path": "topics/visible-flex-larger-amplitude/notes/public-actions-43630351235-1-stage43probe/stage-probe-request-identity.json",
+          "git_blob_sha": "bf2b25fdae1ee5c7ddd47940471fa4e0dd1c6fa9",
+          "sha256": "f41c97dc817a783eb148b4fd7ef01b3cda913bc9874478c618c3e574a754b17f",
+          "bytes": 4749
+        },
+        "original_raw_request_sha256": "1a4f637705aaa70f61e07e3c83220ce0bc7d861a3057b6b4ee4c8bfdb5755b0b",
+        "request_number": 47,
+        "complete_value_json_pointer": "/request",
+        "all_original_source_pins_json_pointer": "/request/source_sha256",
+        "original_raw_request_path": "topics/visible-flex-larger-amplitude/computations/public-native-stage-probe-request.json",
+        "original_raw_bytes_not_reencoded_as_saved_identity": true
+      },
+      "actual_conclusion": {
+        "summary": "The specified saved stage43/step11 four-stage local matrices and same-run short Jacobian were captured. The retained note separates this byte audit from the independent subsequent exact-action calculations.",
+        "complete_note": {
+          "path": "topics/visible-flex-larger-amplitude/notes/2026-11-14-actual-request47-original-step-capture.md",
+          "git_blob_sha": "21aa45dd345cbc39375a20612890d0b73623efcf",
+          "sha256": "d0dd80da5415eb6febc4372fd866c6da522600f04c5aef19434065455193c856",
+          "bytes": 6913
+        }
+      }
+    },
+    {
+      "run_id": "43634889730",
+      "attempt": 1,
+      "source_commit": "7eb383af1ca2bb04c7eaef9c65578dbc124269d8",
+      "observed_status": "completed",
+      "observed_conclusion": "failure",
+      "conclusion_is_not_scientific_acceptance": true,
+      "full_original_run_parameters_and_sources": {
+        "record": {
+          "path": "topics/visible-flex-larger-amplitude/computations/legacy-actual28-receipts-and-system-metadata-retention-40-provenance.json",
+          "git_blob_sha": "c834b974b297ed60177b70b97560ea84f9f76996",
+          "bytes": 98273,
+          "sha256": "ed169ae6521d4beeb297f6e7bcb147cb7fcfd28e5e352de396e33c6e6a1bf855"
+        },
+        "json_pointer": "/runs/9",
+        "every_field_preserved_in_record": true
+      },
+      "workflow": {
+        "path": ".github/workflows/visible-larger-public-direct-ld.yml",
+        "source_commit": "7eb383af1ca2bb04c7eaef9c65578dbc124269d8",
+        "git_blob_sha": "0bf48ee205f208a3872f31aebc45733d4acb3bce",
+        "sha256": "9c63072fd0be022fd13fd408af48f8dddc9efd10db0ab668d277605e37d7ec6f",
+        "bytes": 18765
+      },
+      "original_request": {
+        "saved_complete_request_identity": {
+          "path": "topics/visible-flex-larger-amplitude/notes/public-actions-43634889730-1-directld/direct-ld-request-identity.json",
+          "git_blob_sha": "80b8200b7850d158ab6e8759de5c16d9659c5628",
+          "sha256": "d8d5a0ed6ce97ab1f06547ebea892def70fd9d54ba91aa40bcea98b36b769d2b",
+          "bytes": 7809
+        },
+        "original_raw_request_sha256": "1970636d2f8fdd443f0153edc7334274c9f65252811b673c500600a423761031",
+        "request_number": 54,
+        "complete_value_json_pointer": "/request",
+        "all_original_source_pins_json_pointer": "/request/source_sha256",
+        "original_raw_request_path": "topics/visible-flex-larger-amplitude/computations/public-native-direct-ld-request.json",
+        "original_raw_bytes_not_reencoded_as_saved_identity": true
+      },
+      "actual_conclusion": {
+        "summary": "All 868 direct-LD maps and the complete new 1372-stage direction/readbacks completed; the linear defect remained huge. The subsequent trial launcher used the wrong original28 result pathname and failed before all nonlinear trial calls.",
+        "complete_note": {
+          "path": "topics/visible-flex-larger-amplitude/notes/2026-11-14-actual54-direct-LD1372-solver-and-exact-readback.md",
+          "bytes": 13585,
+          "sha256": "d31872bc890d4de0a39439f4b686aebef6c7c3208965fe0b26eb6b5bfbb9872d",
+          "git_blob_sha": "2c2c7d31d1398412ced7fad7fd8887b6820a64ec"
+        }
+      }
+    },
+    {
+      "run_id": "43636504089",
+      "attempt": 1,
+      "source_commit": "6b7e9846ab9062614618856d4d6772c847a303c2",
+      "observed_status": "completed",
+      "observed_conclusion": "failure",
+      "conclusion_is_not_scientific_acceptance": true,
+      "full_original_run_parameters_and_sources": {
+        "record": {
+          "path": "topics/visible-flex-larger-amplitude/computations/legacy-actual28-receipts-and-system-metadata-retention-40-provenance.json",
+          "git_blob_sha": "c834b974b297ed60177b70b97560ea84f9f76996",
+          "bytes": 98273,
+          "sha256": "ed169ae6521d4beeb297f6e7bcb147cb7fcfd28e5e352de396e33c6e6a1bf855"
+        },
+        "json_pointer": "/runs/10",
+        "every_field_preserved_in_record": true
+      },
+      "workflow": {
+        "path": ".github/workflows/visible-larger-public-direct-ld-trial.yml",
+        "source_commit": "6b7e9846ab9062614618856d4d6772c847a303c2",
+        "git_blob_sha": "21ab4a26930d005559a2467576263cd1ed5b9c3e",
+        "sha256": "929bd093c1a3ba1043b6a8b1d0cf13c2b7a2e0d3caac9b27ef389a59015af2b6",
+        "bytes": 17146
+      },
+      "original_request": {
+        "saved_complete_request_identity": {
+          "path": "topics/visible-flex-larger-amplitude/notes/public-actions-43636504089-1-directldtrial/direct-ld-request-identity.json",
+          "git_blob_sha": "8d7d72d81433cd4dc7cebfd6b61fecd53b5e7ace",
+          "sha256": "471efd50db8fe0c941364ceee74d566a35ee35894764192f12507b130093aeb8",
+          "bytes": 8938
+        },
+        "original_raw_request_sha256": "52e88bc76f11ed206e7409d44fa0db0dc45f1c6933448a3873814759d0fc79c4",
+        "request_number": 55,
+        "complete_value_json_pointer": "/request",
+        "all_original_source_pins_json_pointer": "/request/source_sha256",
+        "original_raw_request_path": "topics/visible-flex-larger-amplitude/computations/public-native-direct-ld-trial-request.json",
+        "original_raw_bytes_not_reencoded_as_saved_identity": true
+      },
+      "actual_conclusion": {
+        "summary": "All ten original nonlinear attempts were rejected inside the original evaluation: nine momentum-branch rejections and one momentum-Newton line-search failure. No complete trial norm was returned, no selected state was accepted.",
+        "complete_note": {
+          "path": "topics/visible-flex-larger-amplitude/notes/2026-11-14-actual55-original-ten-trial-rejection.md",
+          "git_blob_sha": "70af9ceb3aa1ca52a7815d5787b2dbcbfd272a6c",
+          "sha256": "d9e4b38baa17d227f93f04fb6aab852e785b88a431d32e84bc72065a1955dee4",
+          "bytes": 12491
+        }
+      }
+    },
+    {
+      "run_id": "43637356027",
+      "attempt": 1,
+      "source_commit": "adbdf144b14ae7adc71df09948a5c05f8a30e8b8",
+      "observed_status": "completed",
+      "observed_conclusion": "failure",
+      "conclusion_is_not_scientific_acceptance": true,
+      "full_original_run_parameters_and_sources": {
+        "record": {
+          "path": "topics/visible-flex-larger-amplitude/computations/legacy-actual28-receipts-and-system-metadata-retention-40-provenance.json",
+          "git_blob_sha": "c834b974b297ed60177b70b97560ea84f9f76996",
+          "bytes": 98273,
+          "sha256": "ed169ae6521d4beeb297f6e7bcb147cb7fcfd28e5e352de396e33c6e6a1bf855"
+        },
+        "json_pointer": "/runs/11",
+        "every_field_preserved_in_record": true
+      },
+      "workflow": {
+        "path": ".github/workflows/visible-larger-public-damped-chain.yml",
+        "source_commit": "adbdf144b14ae7adc71df09948a5c05f8a30e8b8",
+        "git_blob_sha": "08d7e57aae5115ebd2f99d4476d4818436fb02fe",
+        "sha256": "38735293705b4ea156116732fad924d7a4c1c94cb9750e34bf393e2258c13f9b",
+        "bytes": 19136
+      },
+      "original_request": {
+        "saved_complete_request_identity": {
+          "path": "topics/visible-flex-larger-amplitude/notes/public-actions-43637356027-1-dampedchain/direct-ld-request-identity.json",
+          "git_blob_sha": "1c57f55c8200be2c2e348910a840070effe051c5",
+          "sha256": "bce6b517c77b58b01e97b14629ade11630f697355810fd9c7969db4a83c04af0",
+          "bytes": 9879
+        },
+        "original_raw_request_sha256": "30708e170f40a51b3796c20fe9923e5ce6589f758d388797aeaf21ee5684d48f",
+        "request_number": 57,
+        "complete_value_json_pointer": "/request",
+        "all_original_source_pins_json_pointer": "/request/source_sha256",
+        "original_raw_request_path": "topics/visible-flex-larger-amplitude/computations/public-native-damped-chain-request.json",
+        "original_raw_bytes_not_reencoded_as_saved_identity": true
+      },
+      "actual_conclusion": {
+        "summary": "The complete eta=1 damped chain direction was followed by ten finite original no-J evaluations. Each norm equalled the recorded base norm and was rejected for no decrease; no accepted state resulted.",
+        "complete_note": {
+          "path": "topics/visible-flex-larger-amplitude/notes/2026-11-14-actual57-original-ten-trial-no-decrease.md",
+          "bytes": 8712,
+          "sha256": "4dd303f8912989e9edbfaef2cbe8bf304c9e8debe138bf1654e26bb477fe1aed",
+          "git_blob_sha": "4ab9609af9f33af139429eb36d554762ac53ee07"
+        }
+      }
+    },
+    {
+      "run_id": "43640772654",
+      "attempt": 1,
+      "source_commit": "c61725631d20191bd5e02054cefa41cc1af5f245",
+      "observed_status": "completed",
+      "observed_conclusion": "success",
+      "conclusion_is_not_scientific_acceptance": true,
+      "full_original_run_parameters_and_sources": {
+        "record": {
+          "path": "topics/visible-flex-larger-amplitude/computations/legacy-actual28-receipts-and-system-metadata-retention-40-provenance.json",
+          "git_blob_sha": "c834b974b297ed60177b70b97560ea84f9f76996",
+          "bytes": 98273,
+          "sha256": "ed169ae6521d4beeb297f6e7bcb147cb7fcfd28e5e352de396e33c6e6a1bf855"
+        },
+        "json_pointer": "/runs/12",
+        "every_field_preserved_in_record": true
+      },
+      "workflow": {
+        "path": ".github/workflows/visible-larger-public-original576-damped-chain.yml",
+        "source_commit": "c61725631d20191bd5e02054cefa41cc1af5f245",
+        "git_blob_sha": "3607f0d95b1e5af94d056a88a676aa44146a0540",
+        "sha256": "23af1538f290a1e7343d94bc81f891a2db68dc30966bff9219c7132f048c4c1e",
+        "bytes": 16133
+      },
+      "original_request": {
+        "saved_complete_request_identity": {
+          "path": "topics/visible-flex-larger-amplitude/notes/public-actions-43640772654-1-original576damped/original576-damped-request-identity.json",
+          "git_blob_sha": "0fd34f3ae1787fcc50380b6d99f34c7d76c1d70f",
+          "sha256": "63e44f8c6df269d0a33bb6b283cf296952d36f62495f8a710ef3cf4618820567",
+          "bytes": 9289
+        },
+        "original_raw_request_sha256": "393fffb7d45a4ccb69297e8e589e3d6e9b17bf636144800120be5e0d52f36767",
+        "request_number": 59,
+        "complete_value_json_pointer": "/request",
+        "all_original_source_pins_json_pointer": "/request/source_sha256",
+        "original_raw_request_path": "topics/visible-flex-larger-amplitude/computations/public-native-original576-damped-chain-request.json",
+        "original_raw_bytes_not_reencoded_as_saved_identity": true
+      },
+      "actual_conclusion": {
+        "summary": "The complete original 576-stage matrix direction and both exact readbacks were recorded; the first original nonlinear step at alpha=1 was accepted. This was one decrease, not completion of the full native solve, final height Jacobian or fresh audit.",
+        "complete_note": {
+          "path": "topics/visible-flex-larger-amplitude/notes/2026-11-14-actual59-original576-QR-and-two-exact-readbacks.md",
+          "bytes": 14819,
+          "sha256": "d32119d7a37fa39d00efbe05492baa55f91397befa1d5ddb7aa0e3485a875753",
+          "git_blob_sha": "6a7d577925661cfd515c3a6a5def6fb74b6c048f"
+        }
+      }
+    }
+  ],
+  "current576_actual_runs_with_complete_original_requests": [
+    {
+      "run_id": "43675377211",
+      "attempt": 1,
+      "source_commit": "90da0e1195100053583134f2714aa3b43ff6282d",
+      "workflow": {
+        "path": ".github/workflows/visible-larger-public-native-word-first.yml",
+        "source_commit": "90da0e1195100053583134f2714aa3b43ff6282d",
+        "bytes": 11775,
+        "sha256": "360fd15f92606483d73fb1f26c3716a7e039df99ba9c3767121f55fef7c6a8a6",
+        "git_blob_sha": "dcd74f1900ff89ffa53c82432a9ae3d916f72051",
+        "identity_origin": "complete text fetched from exact original source commit; SHA256 and Git blob hash computed from these bytes"
+      },
+      "observed_status": "completed",
+      "observed_conclusion": "failure",
+      "conclusion_is_not_scientific_acceptance": true,
+      "request_file": {
+        "path": "topics/visible-flex-larger-amplitude/notes/public-actions-43675377211-1-current576native/word-first-current576-request-identity.json",
+        "bytes": 11813,
+        "sha256": "3cc610873b37cb2dd6ff78346a1605cdaf9fff0a139b403f0b027212005b2cf4",
+        "git_blob_sha": "2145bb3c1ae85f60197ba99507624313b429b4c1"
+      },
+      "original_raw_request_sha256": "75cfab6fe986e0bc36c9b30a8f8984f439a8474525d7432f429712b6db32e89f",
+      "request_file_sha_is_not_original_raw_request_sha": true,
+      "complete_original_request": {
+        "schema": "public-native-word-first-current576-request-v1",
+        "repository": "Rogerhu12/math-research-public",
+        "request_number": 95,
+        "lanes": [
+          "current576native"
+        ],
+        "operation": "one-adjacent-input-word-first-correction-inside-original32-native-loop-then-complete-R273",
+        "source_sha256": {
+          "exact_20261114_fetch_pinned_public_artifact.py": "51224788078acff0a522b4850c8d971a29cbc6d3cecd1c7cd1a724aaa24aa859",
+          "exact_20261114_native_allrows_dyadic_residual.py": "0bc8f9782077bbae2fd4f10c4f085c00356caf5005d331b18fc4f4d949da378f",
+          "exact_20261114_native_damped_chain_qr.py": "9b951f9525966d243c602b304dc77d48c554afa2cc003eb65665f46f8db0ad33",
+          "exact_20261114_noj_primal_current576_damped_chain_qr.py": "70bc10dfb31717b662265485d10a15028365dbba5db85ccf9c8f592226e33955",
+          "exact_20261114_noj_primal_current576_damped_system.py": "48297483617c56179fdd4d6b80e9aeeb1151bf89c90fd816ca41d2e3ccc0bcb3",
+          "exact_20261114_public_resume.py": "11399783f01b145ee3f23d88213af368daee9c16dfb858b40dd7316870b300a5",
+          "exact_20261114_seeded_zero_tail_client.py": "a8de071c0667b342dfc7a2731c9a47ce3d071e03496875637f80424864114776",
+          "exact_20261114_true_tail_client.py": "1cdf0e14ae3f71dd57a8c0ab3036f11943929860296153ca7886e20e7b445a09",
+          "exact_20261115_actual83_four_row_state_formation.py": "17659d25b5f24d21843c188f845247ce3a132a7462e28d7b4fbcdf59db17bc8c",
+          "exact_20261115_native_word_first_candidate.py": "d9692107d197dcb4478fc2027beec21e3e611e67109af9d4b13ae09fb506e226",
+          "exact_20261115_native_word_first_current576_chain_qr.py": "4c887fbb4a16e0d2219969043e708c2d49c446f0ac75ba1dc3e6e17f7d2ee314",
+          "exact_20261115_native_word_first_current576_system.py": "2c6c012d9f2306f2ac13d240510eb8086b74d2b60ff318aa9e359dd72c05a3a8",
+          "exact_20261115_native_word_first_parent.py": "8cd7027df2f7039302dbdc1ed15068c6cf48d6645bc236d74e6e5b1e7dd387e8",
+          "geometry_20261114_native_captured_band_correction.py": "b39e9dd9068970436467ce026d38b8e12e65722376a75a49cad4bb1ab1ec8390",
+          "geometry_20261114_noj_matched_variational_engine.mjs": "f9b292c4c3f80d1d7b3030ea0350416746795377833661af8d3095e349a73ad9",
+          "geometry_20261114_noj_primal_current576_damped_solve.py": "938fbec22f0733fff6ceb22e6e9b7a9e12942c12d1eae31c608d8f517702df8c",
+          "geometry_20261114_noj_primal_current576_damped_solve_hook.mjs": "099798e9c57f09b82f7532ea184d124446aeeb2cdbafe452390cb794b8db405d",
+          "geometry_20261115_native_word_first_current576_solve.py": "69c9a8d5cccfcfdcdda35c475b089609c789747803a7b363a17fb67c5bae28d0",
+          "geometry_20261115_native_word_first_current576_solve_hook.mjs": "932961ef9f267f95f5de6bb28791ed43ef2c66d15b18b55823bc3f2384545bc3",
+          "root_20261114_current576_rules_runner.py": "3b8b6dd5eb5df373ffa14525f02e1a0376bafc2da91ce564631f771752e2afde",
+          "root_20261114_publish_actions.py": "22e640bb764936215e0bf0d2a4cefcb69808e27b2c81cf0c6b94a751a1e5b9ca",
+          "root_20261115_fetch_native_word_parent91.py": "98e9044fa23d76484fa864b5b769fc0a38a2f18ef95ca91bf97d88bff3940fb8",
+          "tail_frozen_worker.mjs": "3788050920ea7a585b03d1f86b33efef262b3169b9d8907e07abff5e3d382054",
+          "tail_resumable_engine.mjs": "1a39c6a074a957b4044c78befcaaf97fa4c4fabb351c59e7db1b602f0d683de8"
+        },
+        "inputs": {
+          "run_id": 43672150224,
+          "artifact_id": 14145200674,
+          "artifact_name": "visible-mainline-modelresponse-43672150224-1",
+          "expected_size": 10267458,
+          "expected_sha256": "78b8ae3da20890c5726f7f53228ffeeb8a7fae41eb2c12477139089860aea2b6",
+          "source_commit": "b78f0dd1471a118d2ed21467602509d188c2ab67",
+          "complete_original_artifact_required": true,
+          "original_result_sha256": "0b7200064336361ecb36b0627495fca298b7af758ed37d34d6ae6b1a1898db04",
+          "original_binding_sha256": "0119e12bfc7f98732189b76b3fdfa23ae05229937a8ea998c9aa38890ff11d0a",
+          "selected_state_sha256": "f6abeb044a692342f2e3184776bacb34ddb2cf499517fecbc41fb36e7e279ad6"
+        },
+        "minimum_free_bytes": 34359738368,
+        "node_heap_mib": 6144,
+        "eta": "1",
+        "exact_workers": 2,
+        "max_factor_bytes": 2147483648,
+        "original_max_iterations": 32,
+        "original_trial_count": 10,
+        "original_solve_tolerance": 2e-9,
+        "initial_state": {
+          "original_public_run": 43657001633,
+          "original_source_commit": "9515d5aaf7c68f8efd366438d6bd81ce73c3486f",
+          "native_call": 1,
+          "nonlinear_iteration": 2,
+          "snapshot_sequence": 2,
+          "state_kind": "failed BASE, not rejected83 trial",
+          "native_accepted": false
+        },
+        "first_proposal": {
+          "node": 11,
+          "column_zero_based": 75,
+          "component": "Q",
+          "mode_one_based": 76,
+          "base_float64le_hex": "6e1cafdb47e9c93c",
+          "adjacent_positive_word_operation": "uint64 minus one",
+          "complete_original_affine_row_count": 129248,
+          "old_full_row_model_is_candidate_selection_only": true,
+          "fresh_full_row_model_required_before_return": true,
+          "model_selection_does_not_accept_a_native_step": true,
+          "only_original_iteration": 0,
+          "maximum_original_total_iterations_stays32": true,
+          "original_ten_trial_body_unchanged": true,
+          "nonselected_proposal_fallback": "complete-R273 on the same fresh snapshot; no second withJ call",
+          "selected_proposal_rejected_by_all_original_trials": "original failure; no extra trial or iteration",
+          "subsequent_corrections": "complete frozen R273 current576 QR"
+        },
+        "scope": {
+          "single_original_protocol_call": true,
+          "parent_native_accepted": false,
+          "parent_used_only_as_raw_initial_guess": true,
+          "parent_completed_anchor_required": false,
+          "original_noJ_primal_and_frozen_f9b_variational_flow_retained": true,
+          "original_input_state_H_target_scales_far_and_all_cells_retained": true,
+          "complete91_archive_and_all_original15_raw_inputs_preserved": true,
+          "parent_model_uses_eight_complete_arrays_and_original_stage8_to11_J_chunk": true,
+          "old_base_stage_out_not_present_and_not_fabricated": true,
+          "first_fresh_snapshot_retains_all_ten_arrays": true,
+          "old_ready_capacity_payload_not_available_and_old_byte_comparison_not_claimed": true,
+          "current_original_constructor_and_current_methods_config_graphs_cells_verified": true,
+          "full_original_withJ_at_every_original_iteration": true,
+          "all_full_QR_factors_constants_and_exact_rows_saved": true,
+          "first_candidate_sparse_zero_coordinates_not_misreported_as_projected_QR": true,
+          "original_cut_far_sigma_and_tolerance_unchanged": true,
+          "original_final_sensitivity_and_audit_retained": true,
+          "no_new_scientific_acceptance_gate": true,
+          "no_future_result_claimed": true
+        }
+      },
+      "full_saved_request_identity": {
+        "record": {
+          "path": "topics/visible-flex-larger-amplitude/computations/legacy-current576-snapshot-retention-29-provenance.json",
+          "git_blob_sha": "6b2b5593030151c184d692047f9837fd2e716601",
+          "bytes": 55022,
+          "sha256": "3c30ec4e8d3ad145c04767c7f1d42c11aea25fa25dcf45a9351702d3d1b2181f"
+        },
+        "json_pointer": "/entries/0/complete_request_identity",
+        "all_original_fields_preserved": true
+      },
+      "complete_original_spec_file": {
+        "path": "topics/visible-flex-larger-amplitude/notes/public-actions-43675377211-1-current576native/native-word-first-current576/current-solve-spec.json.gz",
+        "bytes": 11562,
+        "sha256": "31d68c88acca1f1c7d4a189d5d6ae8ef3dafd50226fc369eff644be3919c1635",
+        "git_blob_sha": "c4f90e3b856a807e9a7896dd9b2a4bded539dae6"
+      },
+      "complete_verified_source_and_input_records": {
+        "record": {
+          "path": "topics/visible-flex-larger-amplitude/computations/legacy-current576-snapshot-retention-29-provenance.json",
+          "git_blob_sha": "6b2b5593030151c184d692047f9837fd2e716601",
+          "bytes": 55022,
+          "sha256": "3c30ec4e8d3ad145c04767c7f1d42c11aea25fa25dcf45a9351702d3d1b2181f"
+        },
+        "json_pointer": "/entries/0",
+        "canonical_original_publisher_versions_pointer": "/verified_original_source_versions",
+        "source_drift_pointer": "/source_drifts"
+      },
+      "parent_state_is_not_claimed_converged": true
+    },
+    {
+      "run_id": "43657001633",
+      "attempt": 1,
+      "source_commit": "9515d5aaf7c68f8efd366438d6bd81ce73c3486f",
+      "workflow": {
+        "path": ".github/workflows/visible-larger-public-noj-primal-current576-native.yml",
+        "source_commit": "9515d5aaf7c68f8efd366438d6bd81ce73c3486f",
+        "bytes": 11445,
+        "sha256": "445473cbc8a9a702ceea02fae17a4db7e5994a084702b94a44e71ebb4a78c0a5",
+        "git_blob_sha": "f95763dc2852998ca516b651d3e56834ba59d9a7",
+        "identity_origin": "complete text fetched from exact original source commit; SHA256 and Git blob hash computed from these bytes"
+      },
+      "observed_status": "completed",
+      "observed_conclusion": "failure",
+      "conclusion_is_not_scientific_acceptance": true,
+      "request_file": {
+        "path": "topics/visible-flex-larger-amplitude/notes/public-actions-43657001633-1-current576native/noj-primal-current576-request-identity.json",
+        "bytes": 8653,
+        "sha256": "e7a93c179ab394b251fe6b214cea9350d48c6064e1ec827e40cd07e866c6be27",
+        "git_blob_sha": "17349ddace97a23d7a05cffc967657f8a0e63d07"
+      },
+      "original_raw_request_sha256": "1823b6908d875f7e30975704f2182d9f2b0a34af83c6026b0e813ffaca199acc",
+      "request_file_sha_is_not_original_raw_request_sha": true,
+      "complete_original_request": {
+        "schema": "public-noj-primal-current576-native-request-v1",
+        "repository": "Rogerhu12/math-research-public",
+        "request_number": 73,
+        "lanes": [
+          "current576native"
+        ],
+        "operation": "complete-native-continuation-from-actual61-failed-raw-state-with-new-noJ-primal-variational-flow",
+        "source_sha256": {
+          "exact_20261114_fetch_pinned_public_artifact.py": "51224788078acff0a522b4850c8d971a29cbc6d3cecd1c7cd1a724aaa24aa859",
+          "exact_20261114_native_allrows_dyadic_residual.py": "0bc8f9782077bbae2fd4f10c4f085c00356caf5005d331b18fc4f4d949da378f",
+          "exact_20261114_native_damped_chain_qr.py": "9b951f9525966d243c602b304dc77d48c554afa2cc003eb65665f46f8db0ad33",
+          "exact_20261114_noj_primal_current576_damped_chain_qr.py": "70bc10dfb31717b662265485d10a15028365dbba5db85ccf9c8f592226e33955",
+          "exact_20261114_noj_primal_current576_damped_system.py": "48297483617c56179fdd4d6b80e9aeeb1151bf89c90fd816ca41d2e3ccc0bcb3",
+          "exact_20261114_public_resume.py": "11399783f01b145ee3f23d88213af368daee9c16dfb858b40dd7316870b300a5",
+          "exact_20261114_seeded_zero_tail_client.py": "a8de071c0667b342dfc7a2731c9a47ce3d071e03496875637f80424864114776",
+          "exact_20261114_true_tail_client.py": "1cdf0e14ae3f71dd57a8c0ab3036f11943929860296153ca7886e20e7b445a09",
+          "geometry_20261114_current576_same_state_noj_probe.py": "fc2c61d35e6eb3b1e8d836f46b75c7dc5ec2f2f69bcd483410a289434637099b",
+          "geometry_20261114_fetch_actual61_noj_selected.py": "4853becf379f5db5594b62b2ec6b4266fd6853694fb19b19f56f11330db9f208",
+          "geometry_20261114_native_captured_band_correction.py": "b39e9dd9068970436467ce026d38b8e12e65722376a75a49cad4bb1ab1ec8390",
+          "geometry_20261114_noj_matched_variational_engine.mjs": "f9b292c4c3f80d1d7b3030ea0350416746795377833661af8d3095e349a73ad9",
+          "geometry_20261114_noj_primal_current576_damped_solve.py": "938fbec22f0733fff6ceb22e6e9b7a9e12942c12d1eae31c608d8f517702df8c",
+          "geometry_20261114_noj_primal_current576_damped_solve_hook.mjs": "099798e9c57f09b82f7532ea184d124446aeeb2cdbafe452390cb794b8db405d",
+          "root_20261114_current576_rules_runner.py": "3b8b6dd5eb5df373ffa14525f02e1a0376bafc2da91ce564631f771752e2afde",
+          "root_20261114_publish_actions.py": "627393d1ba77b5e13dcf34da64204d0554a7c009770a2d80a1353c3f16b007fe",
+          "tail_frozen_worker.mjs": "3788050920ea7a585b03d1f86b33efef262b3169b9d8907e07abff5e3d382054",
+          "tail_resumable_engine.mjs": "1a39c6a074a957b4044c78befcaaf97fa4c4fabb351c59e7db1b602f0d683de8"
+        },
+        "inputs": {
+          "run_id": 43645948199,
+          "artifact_id": 14136633570,
+          "artifact_name": "visible-mainline-current576native-43645948199-1",
+          "expected_size": 2335870174,
+          "expected_sha256": "7b17d1b0c11bfe14329a1d8715c8451498d0dedb6821859deb8485e5b1c1b469",
+          "source_commit": "cf6b51193255dfc713610d2919598451ccdd49e2",
+          "native_directory": "native-current576-damped",
+          "snapshot_directory": "native-current576-damped/iteration-003/snapshot",
+          "native_result_sha256": "b8754cc3c6f9635bd2f37da56d39811c2c8ef5442aa7947df89078cb416715ef",
+          "snapshot_result_sha256": "5e801fe00f206b4dec50c64ac0fcfb8e1fe9225a7d37280e4da9bd4875709286",
+          "current_state_sha256": "b34daaf8ad1841b452707c669236ba38731d1f97506af4bbfe1a22e39d814013"
+        },
+        "minimum_free_bytes": 34359738368,
+        "node_heap_mib": 6144,
+        "eta": "1",
+        "exact_workers": 2,
+        "max_factor_bytes": 2147483648,
+        "original_max_iterations": 32,
+        "original_trial_count": 10,
+        "original_solve_tolerance": 2e-9,
+        "prior_actual71_source_evidence": {
+          "public_run": "43656397000",
+          "source_commit": "3df227cb306922ee7eed7bf61764c6dc7c5a3eb9",
+          "job_id": "132635751719",
+          "scope": "Actual selected cusp11/ordinary12 same-primal evidence; no result is an input or a new acceptance gate"
+        },
+        "scope": {
+          "single_original_protocol_call": true,
+          "parent_native_accepted": false,
+          "parent_used_only_as_raw_initial_guess": true,
+          "parent_completed_anchor_required": false,
+          "old_saved_J_and_factor_payloads_needed": false,
+          "new_variational_implementation": true,
+          "noJ_root_rhs_rk4_and_all_original_nonlinear_acceptance_rules_retained": true,
+          "complete577_node_penalties_and_constants_saved": true,
+          "complete129248_finite_matrix_exact_rows_diagnostic_only": true,
+          "original_final_sensitivity_uses_the_new_flow": true,
+          "original_final_audit_retained": true,
+          "no_numerical_result_or_accepted_native_claimed": true,
+          "source_execution_decision_owned_by_root_after_actual71": true,
+          "no_new_gate_created_by_source_or_byte_checks": true
+        }
+      },
+      "full_saved_request_identity": {
+        "record": {
+          "path": "topics/visible-flex-larger-amplitude/computations/legacy-current576-snapshot-retention-29-provenance.json",
+          "git_blob_sha": "6b2b5593030151c184d692047f9837fd2e716601",
+          "bytes": 55022,
+          "sha256": "3c30ec4e8d3ad145c04767c7f1d42c11aea25fa25dcf45a9351702d3d1b2181f"
+        },
+        "json_pointer": "/entries/1/complete_request_identity",
+        "all_original_fields_preserved": true
+      },
+      "complete_original_spec_file": {
+        "path": "topics/visible-flex-larger-amplitude/notes/public-actions-43657001633-1-current576native/native-noj-primal-current576-damped/current-solve-spec.json.gz",
+        "bytes": 50477,
+        "sha256": "59536f64dc44c912dadef955fe9028136b875b776b1fd45d0eda4e66a6155c55",
+        "git_blob_sha": "3e62d06d2f118d42842da4743b8bb6cdc88eddae"
+      },
+      "complete_verified_source_and_input_records": {
+        "record": {
+          "path": "topics/visible-flex-larger-amplitude/computations/legacy-current576-snapshot-retention-29-provenance.json",
+          "git_blob_sha": "6b2b5593030151c184d692047f9837fd2e716601",
+          "bytes": 55022,
+          "sha256": "3c30ec4e8d3ad145c04767c7f1d42c11aea25fa25dcf45a9351702d3d1b2181f"
+        },
+        "json_pointer": "/entries/1",
+        "canonical_original_publisher_versions_pointer": "/verified_original_source_versions",
+        "source_drift_pointer": "/source_drifts"
+      },
+      "parent_state_is_not_claimed_converged": true
+    },
+    {
+      "run_id": "43645948199",
+      "attempt": 1,
+      "source_commit": "cf6b51193255dfc713610d2919598451ccdd49e2",
+      "workflow": {
+        "path": ".github/workflows/visible-larger-public-current576-native.yml",
+        "source_commit": "cf6b51193255dfc713610d2919598451ccdd49e2",
+        "bytes": 11273,
+        "sha256": "e60db28e000a031df9f394db2e81168fbbcacfd8607a592b642605bd8da2ba2d",
+        "git_blob_sha": "02cf9b77654e7ac962c4a28968b906250adb541b",
+        "identity_origin": "complete text fetched from exact original source commit; SHA256 and Git blob hash computed from these bytes"
+      },
+      "observed_status": "completed",
+      "observed_conclusion": "failure",
+      "conclusion_is_not_scientific_acceptance": true,
+      "request_file": {
+        "path": "topics/visible-flex-larger-amplitude/notes/public-actions-43645948199-1-current576native/current576-native-request-identity.json",
+        "bytes": 13197,
+        "sha256": "cf18c8b366e0a234a4a722eed6cc8e8309628b24fae54f80ab7285e245e244bf",
+        "git_blob_sha": "ae45aaa22b99da7de3d0838287e1a9e06e5b5d54"
+      },
+      "original_raw_request_sha256": "3eb4816fea8a429134bfecc07f6e7aec6c048e3613116fcf919ee564ef66ab88",
+      "request_file_sha_is_not_original_raw_request_sha": true,
+      "complete_original_request": {
+        "schema": "visible-larger-public-independent-request-v1",
+        "repository": "Rogerhu12/math-research-public",
+        "request_number": 61,
+        "lanes": [
+          "current576native"
+        ],
+        "purpose": "Continue the exact actual59 selected state through every original native nonlinear iteration using a fresh complete current576 R273 eta1 correction; preserve the original ten trials, guards, tolerance, final endpoint Jacobian and fresh audit.",
+        "source_sha256": {
+          "exact_20261114_current576_damped_system.py": "695c2a564ada2bfc3cac251dfb5bd46bf99f6d16b696c64b75d9f90703a6ed90",
+          "exact_20261114_current576_damped_chain_qr.py": "ac04842bb9c42b9f29c8209d0d5f523c83744aa548e5615267521d8bf2c3141f",
+          "exact_20261114_native_damped_chain_qr.py": "9b951f9525966d243c602b304dc77d48c554afa2cc003eb65665f46f8db0ad33",
+          "exact_20261114_native_allrows_dyadic_residual.py": "0bc8f9782077bbae2fd4f10c4f085c00356caf5005d331b18fc4f4d949da378f",
+          "geometry_20261114_native_captured_band_correction.py": "b39e9dd9068970436467ce026d38b8e12e65722376a75a49cad4bb1ab1ec8390",
+          "geometry_20261114_native_current576_damped_solve.py": "06b8c44c115fcf754e963aeeb3adc04a26500cade3817018bae50e2e50aebc3b",
+          "geometry_20261114_native_current576_damped_solve_hook.mjs": "0933ee819ce56be648f17e2e876372e943059f19c79fed701bda60ec11cf66dc",
+          "exact_20261114_true_tail_client.py": "1cdf0e14ae3f71dd57a8c0ab3036f11943929860296153ca7886e20e7b445a09",
+          "exact_20261114_seeded_zero_tail_client.py": "a8de071c0667b342dfc7a2731c9a47ce3d071e03496875637f80424864114776",
+          "tail_frozen_worker.mjs": "3788050920ea7a585b03d1f86b33efef262b3169b9d8907e07abff5e3d382054",
+          "tail_resumable_engine.mjs": "1a39c6a074a957b4044c78befcaaf97fa4c4fabb351c59e7db1b602f0d683de8",
+          "exact_20261114_public_resume.py": "11399783f01b145ee3f23d88213af368daee9c16dfb858b40dd7316870b300a5",
+          "root_20261114_publish_actions.py": "dff4c62358d6680134d2d94a0bd2eb6e332011ec67ee1ca0c390aee2cfb65aa4",
+          "root_20261114_current576_rules_runner.py": "3b8b6dd5eb5df373ffa14525f02e1a0376bafc2da91ce564631f771752e2afde"
+        },
+        "inputs": {
+          "public_run": 43640772654,
+          "source_commit": "c61725631d20191bd5e02054cefa41cc1af5f245",
+          "directory": "topics/visible-flex-larger-amplitude/notes/public-actions-43640772654-1-original576damped/native-original576-damped-chain-original-trial",
+          "files": [
+            {
+              "file": "result.json",
+              "bytes": 10047,
+              "sha256": "c0a9b191e843e9036e84707ffa1855d5881dce13e4b71bf94812e9526b59d00e"
+            },
+            {
+              "bytes": 5762,
+              "file": "trial-replay-summary.json",
+              "sha256": "770b97e62eda7cbcc10b045c42298b95ef2c55a0f2dd5ac1930690175a156709"
+            },
+            {
+              "bytes": 14990,
+              "file": "trial-replay-spec.json.gz",
+              "sha256": "5478acee110099d5ec6f9bdc842aa59da875ecede9ddeba9243bd35a59dd2add"
+            },
+            {
+              "bytes": 1255992,
+              "file": "selected-state-checkpoint.json.gz",
+              "sha256": "7659016c0218b8c2e9ba220ca81a0b410b7e38005ea609e417b9b534d76c3556"
+            },
+            {
+              "bytes": 954571,
+              "file": "selected-state.f64le.gz",
+              "sha256": "8ade070f746caed9a45c582c7485a060e55ee589858f5f88255d8ffd0d9112cb"
+            },
+            {
+              "bytes": 2161,
+              "file": "trial-input-config.json",
+              "sha256": "01930f3bcb365d77f7e7959b021b95e7c38a3f5c8d05671747ec6359349454c5"
+            },
+            {
+              "bytes": 25288,
+              "file": "native_intent.json",
+              "sha256": "cea442249db00f99cda98c3f867a247c351a80358e8191536204ffceaebd2945"
+            },
+            {
+              "bytes": 6873,
+              "file": "native_ready.json.gz",
+              "sha256": "3cd3ad485db1d18b62c11b1a2fc5ea3fb9cee7b57c8ef270f0661fa76ee86a64"
+            },
+            {
+              "bytes": 2525,
+              "file": "native_capacity.json",
+              "sha256": "4f0f7aaab43f8ed90c478c2983026671f4c17ddcbe25d494746a4dafc96210dc"
+            },
+            {
+              "bytes": 52899,
+              "file": "restored-original-mathematical-identity-before-seed.json",
+              "sha256": "de9bbf01981f1605c0342817ea520005bf2d0a05f5a755986d50b718b16089a7"
+            },
+            {
+              "bytes": 13955,
+              "file": "core-instrumentation.json",
+              "sha256": "e3377db82d3581a6473ce92f75c79b321fdc48c6a520dcd80819eb0325d9d242"
+            },
+            {
+              "bytes": 14339,
+              "file": "actual-replay-method-identities.json",
+              "sha256": "5bffd2ef6040126e8e5784c3f591b49f0c0fa28d7dbe52272ebd5d4e2d3958d3"
+            },
+            {
+              "bytes": 161,
+              "file": "native_trials.jsonl",
+              "sha256": "37fa79667ac0bb852f81d985d3f7278fdbe0d6000167a02bf23df8cba9df45bd"
+            }
+          ],
+          "full_selected_state_raw_sha256": "384de298d6274ef7a6f5bdbc4e6cf6ef9dee5fb9bffd020b7b60001463940e03",
+          "full_selected_state_shape": [
+            577,
+            224
+          ],
+          "negative_zero_count": 8,
+          "physical_height_raw_sha256": "c35972d038321acf6db273248189b1e1d2527aa6eb2b323d37fcde4da448682f",
+          "old28_or57_factor_or_direction_arrays_consumed": false
+        },
+        "complete_system": {
+          "stage_count": 576,
+          "node_count": 577,
+          "shape_dimension": 224,
+          "original_equation_rows": 129248,
+          "physical_raw_node": [
+            0,
+            72,
+            144,
+            216,
+            288,
+            360,
+            432,
+            504,
+            576
+          ],
+          "matrix_scope": "fresh-current-native576-finite-binary64-complete-J-r-sigma-chain",
+          "fresh_original_withJ_at_each_correction": true,
+          "current_cut_and_far_residuals_retained": true
+        },
+        "solver_budget": {
+          "algorithm": "R273 complete original-sigma damped square-root chain",
+          "eta_cli_text": "1",
+          "eta_binary64_hex": "000000000000f03f",
+          "all577_nodes_penalized_once": true,
+          "complete_constant_rows_retained": true,
+          "max_factor_bytes": 2147483648,
+          "exact_workers": 2,
+          "original_max_iterations": 32,
+          "original_solve_tolerance": 2e-9,
+          "original_trial_count": 10,
+          "all_scientific_payloads_retained": true,
+          "runner_minimum_free_bytes": 34359738368,
+          "fixed_binary_payload_bytes_per_round": 704385296,
+          "exact_ledger_and_JSON_sizes_are_data_dependent": true,
+          "no_extra_linear_L2_gradient_or_exact_acceptance_gate": true
+        },
+        "original_path": {
+          "only_unique_nonlinear_correction_call_replaced": true,
+          "original_evaluate_body_unchanged": true,
+          "original_ten_trial_body_unchanged": true,
+          "first_initial_assignment_only": true,
+          "predicted_true_only_for_exact_saved_seed": true,
+          "worker_last_and_tangentPredictor_not_fabricated": true,
+          "no_cut_projection": true,
+          "no_cached_baseline": true,
+          "no_assumed_equal_withJ_and_prior_noJ_norm": true,
+          "minA_minD_actual_bits_without_extra_finite_gate": true,
+          "original_final_endpoint_sensitivity_and_J_retained": true,
+          "original_fresh_audit_requested": true,
+          "no_planned_one_step_stop": true,
+          "no_claim_full_noJ_trial_arrays_exported": true,
+          "final_break_evaluate_not_copied_by_correction_bridge": true
+        },
+        "previous_actual_run": 43640772654,
+        "previous_result": "The first complete original alpha1 trial was accepted at norm 0.0001289424025918576, above the unchanged 2e-9 tolerance. It was an explicitly planned one-step stop, not native completion.",
+        "fallback": {
+          "reason": "Shared terminal environment became unavailable after source freezing and real AST/Node checks.",
+          "repository_rule": 8,
+          "only_text_under_100KB_transferred_through_connector": true,
+          "scientific_computation_only_in_this_public_repository_Actions": true,
+          "original_PAT_not_used_in_connector": true,
+          "real_pull_and_README_checks_run_in_Actions": true
+        },
+        "task_completed": false,
+        "created_at": "2026-11-14T21:58:05Z"
+      },
+      "full_saved_request_identity": {
+        "record": {
+          "path": "topics/visible-flex-larger-amplitude/computations/legacy-current576-snapshot-retention-29-provenance.json",
+          "git_blob_sha": "6b2b5593030151c184d692047f9837fd2e716601",
+          "bytes": 55022,
+          "sha256": "3c30ec4e8d3ad145c04767c7f1d42c11aea25fa25dcf45a9351702d3d1b2181f"
+        },
+        "json_pointer": "/entries/2/complete_request_identity",
+        "all_original_fields_preserved": true
+      },
+      "complete_original_spec_file": {
+        "path": "topics/visible-flex-larger-amplitude/notes/public-actions-43645948199-1-current576native/native-current576-damped/current-solve-spec.json.gz",
+        "bytes": 12754,
+        "sha256": "545d30efe63526f8a88c9a50ebe601aa8e5183abccebde7037a47983b3b8ae3d",
+        "git_blob_sha": "6a62ab7c37adc60a9fda8b4c4a6634e72fb528e0"
+      },
+      "complete_verified_source_and_input_records": {
+        "record": {
+          "path": "topics/visible-flex-larger-amplitude/computations/legacy-current576-snapshot-retention-29-provenance.json",
+          "git_blob_sha": "6b2b5593030151c184d692047f9837fd2e716601",
+          "bytes": 55022,
+          "sha256": "3c30ec4e8d3ad145c04767c7f1d42c11aea25fa25dcf45a9351702d3d1b2181f"
+        },
+        "json_pointer": "/entries/2",
+        "canonical_original_publisher_versions_pointer": "/verified_original_source_versions",
+        "source_drift_pointer": "/source_drifts"
+      },
+      "parent_state_is_not_claimed_converged": true
+    }
+  ],
+  "complete_workflow_commands_for_newly_retired_generated_bindings": {
+    "43620111146": [
+      {
+        "purpose": "complete explicit 578-stage solve",
+        "shell_text": "          python -u \"$VISIBLE_COMPUTATIONS/geometry_20261114_native_split_equilibrated_correction.py\" \\\n            --capture-directory \"$RUNNER_TEMP/actual28-pinned-input-${{ github.run_id }}-${{ github.run_attempt }}/native-correction-capture\" \\\n            --split-directory \"$GITHUB_WORKSPACE/topics/visible-flex-larger-amplitude/notes/public-actions-43619564953-1-nativesplitprobe/native-same-schedule-split-probe\" \\\n            --split-result-sha256 80a2c7ec5ad45679869b94e3b6a55e9b4504b822f6c2f972269b1b9b25f644d9 \\\n            --equilibration-passes 3 --refinement-steps 3 --exact-workers 2 \\\n            --out \"$VISIBLE_OUT/native-split-equilibrated-correction\""
+      }
+    ],
+    "43637356027": [
+      {
+        "purpose": "exact_20261114_native_damped_chain_qr.py",
+        "shell_text": "          python -u \"$VISIBLE_COMPUTATIONS/exact_20261114_native_damped_chain_qr.py\" \\\n            --capture-directory \"$VISIBLE_CAPTURE28/native-correction-capture\" \\\n            --step-directory \"$VISIBLE_CAPTURE41/native-rawcell0-step-capture\" \\\n            --step-result-sha256 6e9485dcc8bc512481d714d794f87e76f785b577fd6f714ae12fd9d8e9468adf \\\n            --direct-directory \"$VISIBLE_CAPTURE54/native-rawcell0-direct-ld\" \\\n            --direct-result-sha256 e60da64312819a87388cfa96c209fc9188dca02c0ab055cbcc934f3507888ac6 \\\n            --eta 1 --max-factor-bytes 2147483648 --exact-workers 2 \\\n            --out \"$VISIBLE_OUT/native-damped-chain-qr\" \\\n            2>&1 | tee \"$VISIBLE_OUT/native-damped-chain-qr.log\""
+      },
+      {
+        "purpose": "geometry_20261114_native_damped_chain_trial_replay.py",
+        "shell_text": "          python -u \"$VISIBLE_COMPUTATIONS/geometry_20261114_native_damped_chain_trial_replay.py\" \\\n            --failed-directory \"$VISIBLE_TOPIC/notes/public-actions-43598917532-1-coupling112trust/full-DN112\" \\\n            --cold-probe-summary \"$VISIBLE_TOPIC/notes/public-actions-43602823170-1-coldtailprobe/cold-tail-residual/summary.json\" \\\n            --first-candidate-summary \"$VISIBLE_TOPIC/notes/public-actions-43603818345-1-zerorkprobe/same-RK-candidate-native-probe/summary.json\" \\\n            --v2-candidate-summary \"$VISIBLE_TOPIC/notes/public-actions-43604874829-1-zerorkprobev2/same-RK-candidate-native-probe-v2/summary.json\" \\\n            --candidate-directory \"$VISIBLE_TOPIC/notes/public-actions-43605912092-1-zerorkprobev3/same-RK-candidate-native-probe-v3\" \\\n            --capture-directory \"$VISIBLE_CAPTURE28/native-correction-capture\" \\\n            --step-directory \"$VISIBLE_CAPTURE41/native-rawcell0-step-capture\" \\\n            --step-result-sha256 6e9485dcc8bc512481d714d794f87e76f785b577fd6f714ae12fd9d8e9468adf \\\n            --direct-directory \"$VISIBLE_CAPTURE54/native-rawcell0-direct-ld\" \\\n            --direct-result-sha256 e60da64312819a87388cfa96c209fc9188dca02c0ab055cbcc934f3507888ac6 \\\n            --direction-directory \"$VISIBLE_OUT/native-damped-chain-qr\" \\\n            --direction-result-sha256 \"${{ steps.damped_identity.outputs.result_sha256 }}\" \\\n            --source-topic \"$VISIBLE_SOURCE_TOPIC\" \\\n            --node-heap 6144 --out \"$VISIBLE_OUT/native-damped-chain-original-trial\" \\\n            2>&1 | tee \"$VISIBLE_OUT/native-damped-chain-original-trial.log\""
+      }
+    ],
+    "43640772654": [
+      {
+        "purpose": "exact_20261114_original576_damped_chain_qr.py",
+        "shell_text": "          python -u \"$VISIBLE_COMPUTATIONS/exact_20261114_original576_damped_chain_qr.py\" \\\n            --capture-directory \"$VISIBLE_CAPTURE28/native-correction-capture\" \\\n            --reference57-directory \"$VISIBLE_CAPTURE57/native-damped-chain-qr\" \\\n            --reference57-result-sha256 c6feb54847e96778b076076ba17b4ccd666c2548c72f8c36414b2897d176cdc1 \\\n            --eta 1 --max-factor-bytes 2147483648 --exact-workers 2 \\\n            --out \"$VISIBLE_OUT/native-original576-damped-chain-qr\" \\\n            2>&1 | tee \"$VISIBLE_OUT/native-original576-damped-chain-qr.log\""
+      },
+      {
+        "purpose": "geometry_20261114_native_original576_damped_trial_replay.py",
+        "shell_text": "          python -u \"$VISIBLE_COMPUTATIONS/geometry_20261114_native_original576_damped_trial_replay.py\" \\\n            --failed-directory \"$VISIBLE_TOPIC/notes/public-actions-43598917532-1-coupling112trust/full-DN112\" \\\n            --cold-probe-summary \"$VISIBLE_TOPIC/notes/public-actions-43602823170-1-coldtailprobe/cold-tail-residual/summary.json\" \\\n            --first-candidate-summary \"$VISIBLE_TOPIC/notes/public-actions-43603818345-1-zerorkprobe/same-RK-candidate-native-probe/summary.json\" \\\n            --v2-candidate-summary \"$VISIBLE_TOPIC/notes/public-actions-43604874829-1-zerorkprobev2/same-RK-candidate-native-probe-v2/summary.json\" \\\n            --candidate-directory \"$VISIBLE_TOPIC/notes/public-actions-43605912092-1-zerorkprobev3/same-RK-candidate-native-probe-v3\" \\\n            --capture-directory \"$VISIBLE_CAPTURE28/native-correction-capture\" \\\n            --direction-directory \"$VISIBLE_OUT/native-original576-damped-chain-qr\" \\\n            --direction-result-sha256 \"${{ steps.damped_identity.outputs.result_sha256 }}\" \\\n            --source-topic \"$VISIBLE_SOURCE_TOPIC\" \\\n            --node-heap 6144 --out \"$VISIBLE_OUT/native-original576-damped-chain-original-trial\" \\\n            2>&1 | tee \"$VISIBLE_OUT/native-original576-damped-chain-original-trial.log\""
+      }
+    ],
+    "43645948199": [
+      {
+        "purpose": "unchanged complete native call under original rule runner",
+        "shell_text": "          python -u \"$VISIBLE_COMPUTATIONS/root_20261114_current576_rules_runner.py\" \\\n            --out \"$VISIBLE_OUT/rule-sync\" --command \\\n            python -u \"$VISIBLE_COMPUTATIONS/geometry_20261114_native_current576_damped_solve.py\" \\\n            --selected-directory \"$VISIBLE_SELECTED59\" \\\n            --source-topic \"$VISIBLE_SOURCE_TOPIC\" \\\n            --eta 1 --node-heap 6144 --exact-workers 2 \\\n            --max-factor-bytes 2147483648 \\\n            --out \"$VISIBLE_OUT/native-current576-damped\" \\\n            2>&1 | tee \"$VISIBLE_OUT/native-current576-damped.log\""
+      }
+    ],
+    "43657001633": [
+      {
+        "purpose": "unchanged complete native call under original rule runner",
+        "shell_text": "        python -u \"$VISIBLE_COMPUTATIONS/root_20261114_current576_rules_runner.py\" \\\n          --out \"$VISIBLE_OUT/rule-sync\" --command \\\n          python -u \"$VISIBLE_COMPUTATIONS/geometry_20261114_noj_primal_current576_damped_solve.py\" \\\n          --native-directory \"$VISIBLE_SELECTED61/native-current576-damped\" \\\n          --native-result-sha256 b8754cc3c6f9635bd2f37da56d39811c2c8ef5442aa7947df89078cb416715ef \\\n          --snapshot-directory \"$VISIBLE_SELECTED61/native-current576-damped/iteration-003/snapshot\" \\\n          --snapshot-result-sha256 5e801fe00f206b4dec50c64ac0fcfb8e1fe9225a7d37280e4da9bd4875709286 \\\n          --source-topic \"$VISIBLE_SOURCE_TOPIC\" \\\n          --eta 1 --node-heap 6144 --exact-workers 2 \\\n          --max-factor-bytes 2147483648 \\\n          --out \"$VISIBLE_OUT/native-noj-primal-current576-damped\" \\\n          2>&1 | tee \"$VISIBLE_OUT/native-noj-primal-current576-damped.log\""
+      }
+    ],
+    "43675377211": [
+      {
+        "purpose": "unchanged complete native call under original rule runner",
+        "shell_text": "        python -u \"$VISIBLE_COMPUTATIONS/root_20261114_current576_rules_runner.py\" \\\n          --out \"$VISIBLE_OUT/rule-sync\" --command \\\n          python -u \"$VISIBLE_COMPUTATIONS/geometry_20261115_native_word_first_current576_solve.py\" \\\n          --original91-directory \"$VISIBLE_PARENT91\" \\\n          --source-topic \"$VISIBLE_SOURCE_TOPIC\" \\\n          --eta 1 --node-heap 6144 --exact-workers 2 \\\n          --max-factor-bytes 2147483648 \\\n          --out \"$VISIBLE_OUT/native-word-first-current576\" \\\n          2>&1 | tee \"$VISIBLE_OUT/native-word-first-current576.log\""
+      }
+    ]
+  },
+  "resource_scope": {
+    "whole_workflows_preserved": true,
+    "exact_libraries_and_environments_are_in_whole_original_workflows": true,
+    "current576": {
+      "job_timeout_minutes": 350,
+      "scientific_step_timeout_minutes": 320,
+      "node_heap_mib": 6144,
+      "eta_cli_text": "1",
+      "max_factor_bytes": 2147483648,
+      "exact_workers": 2,
+      "original_max_iterations": 32,
+      "original_trial_count": 10,
+      "original_solve_tolerance": 2e-9,
+      "minimum_free_bytes": 34359738368,
+      "OPENBLAS_NUM_THREADS": "1",
+      "OMP_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "python_version": "3.12.14",
+      "node_version": "24.22.1",
+      "numpy": "2.3.5",
+      "scipy": "1.17.0",
+      "all_full_QR_factors_and_constant_rows_retained": true,
+      "all_original_raw_parameters_remain_in_the_requests_and_specs": true
+    },
+    "original57_and59": {
+      "job_timeout_minutes": 120,
+      "eta_cli_text": "1",
+      "max_factor_bytes": 2147483648,
+      "exact_workers": 2,
+      "node_heap_mib": 6144,
+      "original_ten_trial_body_preserved": true,
+      "QR_step_timeout_minutes": 60,
+      "original_trial_step_timeout_minutes": 30
+    },
+    "split39": {
+      "scientific_step_timeout_minutes": 45,
+      "equilibration_passes": 3,
+      "refinement_steps": 3,
+      "exact_workers": 2,
+      "declared_new_depth": 578,
+      "declared_new_node_count": 579,
+      "actual_new_J_calls": 0,
+      "no_original_nonlinear_trial_claimed": true
+    },
+    "these_are_original_parameters_not_new_execution_orders": true
+  },
+  "retained_actual_result_notes": [
+    {
+      "path": "topics/visible-flex-larger-amplitude/notes/2026-11-14-actual57-original-ten-trial-no-decrease.md",
+      "bytes": 8712,
+      "sha256": "4dd303f8912989e9edbfaef2cbe8bf304c9e8debe138bf1654e26bb477fe1aed",
+      "git_blob_sha": "4ab9609af9f33af139429eb36d554762ac53ee07",
+      "restore_commit": "6fc35cce76db25916e359b8a0345620cb527857e"
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/notes/2026-11-14-actual59-original576-QR-and-two-exact-readbacks.md",
+      "bytes": 14819,
+      "sha256": "d32119d7a37fa39d00efbe05492baa55f91397befa1d5ddb7aa0e3485a875753",
+      "git_blob_sha": "6a7d577925661cfd515c3a6a5def6fb74b6c048f",
+      "restore_commit": "6fc35cce76db25916e359b8a0345620cb527857e"
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/notes/2026-11-14-actual61-current-native-loop-and-trial-failure.md",
+      "bytes": 9111,
+      "sha256": "244c2a106fbf83a1c227d83abee63b475594ef9ee6cac44b35ca90e24a52bf05",
+      "git_blob_sha": "6680cc3e9bf0a0565035295fb8712f17fe65dae2",
+      "restore_commit": "6fc35cce76db25916e359b8a0345620cb527857e"
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/notes/2026-11-14-actual61-four-current576-QR-models-and-exact-readback.md",
+      "bytes": 10878,
+      "sha256": "f00838987281e4f76b1e5cf78b4fe4c18e4316a803d1d5430c3b3fae904227cf",
+      "git_blob_sha": "797f927070e65b5fdd4670ab8437639a0a464819",
+      "restore_commit": "6fc35cce76db25916e359b8a0345620cb527857e"
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/notes/2026-11-15-actual73-noJ-primal-native-line-search-failure.md",
+      "bytes": 16936,
+      "sha256": "4aeba61aaa5d760f5fb581b61e2ff5acb4390c7e9069b33fc71fc5fe184265ad",
+      "git_blob_sha": "b708a693378211455a88c339a6eb03e59e3db751",
+      "restore_commit": "6fc35cce76db25916e359b8a0345620cb527857e"
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/notes/2026-11-15-actual73-complete-QR-exact-affine-infinity-and-byte-readback.md",
+      "bytes": 24072,
+      "sha256": "241d6cdfa93e2a4a001e06b86785ec1a84a655d6adbe39c6e324e0e972bcb06f",
+      "git_blob_sha": "49a6c48775c42c4c125188a8dd7afba817459633",
+      "restore_commit": "6fc35cce76db25916e359b8a0345620cb527857e"
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/notes/2026-11-15-actual95-single-word-prediction-and-native-rejection.md",
+      "bytes": 6645,
+      "sha256": "1b7ac36f33923a911205c3092eb2bc1804ae6d3661bb2285659f228a2034cb52",
+      "git_blob_sha": "ad67ec70b987c88bbbdcaf4ffaf66b20ea39f868",
+      "restore_commit": "6fc35cce76db25916e359b8a0345620cb527857e"
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/notes/2026-11-14-actual-request39-native-split-direction-failed.md",
+      "git_blob_sha": "f4be027fcabc47487b5dc297f0d2e5397e5d7a4a",
+      "bytes": 6826,
+      "sha256": "c33efb1469bed05766376e14aa0ab49f679068cc2c89053c3ba1f910e69a7763",
+      "restore_commit": "6fc35cce76db25916e359b8a0345620cb527857e"
+    }
+  ],
+  "original_input_recovery": {
+    "actual28_complete_pin": {
+      "run_id": 43611175099,
+      "artifact_id": 14120548264,
+      "artifact_name": "visible-mainline-nativecorrection-43611175099-1",
+      "expected_size": 235561097,
+      "expected_sha256": "0ff8e6f597af60f19243b5457c28e8638096c775551b6f3d044dc2d2f1fabeee"
+    },
+    "actual28_complete_original_identity": {
+      "source_commit": "6bd52b446241be53e8842d4db5a24f9c2069e6e5",
+      "result_file": "native-correction-capture/result.json",
+      "result_sha256": "ff53d954de378571eac8d4b22e55c1b0a4595c0a0ab567d0760e1f3d427fded7",
+      "complete_J_raw_sha256": "394ca2cc7c28ead3ffb963502ad24df86126c32f6e4eef10079495a753320a19"
+    },
+    "actual28_original_fetch_source": {
+      "path": "topics/visible-flex-larger-amplitude/computations/exact_20261114_fetch_pinned_public_artifact.py",
+      "bytes": 28006,
+      "sha256": "51224788078acff0a522b4850c8d971a29cbc6d3cecd1c7cd1a724aaa24aa859",
+      "git_blob_sha": "8ee390d0c1449a6a532d72158172af278f1c7cf3"
+    },
+    "actual28_fetch_all_arguments": [
+      {
+        "id": 0,
+        "complete_command": "          python -u \"$VISIBLE_COMPUTATIONS/exact_20261114_fetch_pinned_public_artifact.py\" \\\n            --run-id 43611175099 --artifact-id 14120548264 \\\n            --artifact-name visible-mainline-nativecorrection-43611175099-1 \\\n            --expected-size 235561097 \\\n            --expected-sha256 0ff8e6f597af60f19243b5457c28e8638096c775551b6f3d044dc2d2f1fabeee \\\n            --out \"$RUNNER_TEMP/actual28-pinned-input-${{ github.run_id }}-${{ github.run_attempt }}\"",
+        "copy_statement": "          cp \"$RUNNER_TEMP/actual28-pinned-input-${{ github.run_id }}-${{ github.run_attempt }}/_pinned_public_artifact_receipt.json\" \"$VISIBLE_OUT/actual28-artifact-fetch-receipt.json\""
+      },
+      {
+        "id": 1,
+        "complete_command": "          python -u \"$VISIBLE_COMPUTATIONS/exact_20261114_fetch_pinned_public_artifact.py\" \\\n            --run-id 43611175099 --artifact-id 14120548264 \\\n            --artifact-name visible-mainline-nativecorrection-43611175099-1 \\\n            --expected-size 235561097 \\\n            --expected-sha256 0ff8e6f597af60f19243b5457c28e8638096c775551b6f3d044dc2d2f1fabeee \\\n            --out \"$VISIBLE_CAPTURE28\" \\\n            2>&1 | tee \"$VISIBLE_OUT/actual28-fetch.log\"",
+        "copy_statement": "          cp \"$VISIBLE_CAPTURE28/_pinned_public_artifact_receipt.json\" \"$VISIBLE_OUT/actual28-artifact-fetch-receipt.json\""
+      }
+    ],
+    "source_request_and_archive_scope": "The complete artifact IDs, names, byte counts, ZIP SHA256 values, original source commits and original result/input identities remain in the exact request and source catalogs above. A metadata archive is not a replacement for original J/state/direction payloads. None of those payloads is a deletion target here.",
+    "actual61_parent_13_files": "The complete current576 original request above preserves every original59 selected input file, including the full canonical 52,899-byte before-seed identity that remains in the current tree.",
+    "actual73_parent_scope": "The full failed61 raw initial state and snapshot were original inputs. Failed61 J/factors were not silently relabelled as current73 values.",
+    "actual95_parent_scope": "The complete original91 archive and fifteen original inputs remain as specified; old base_stage_out and old ready-capacity payload unavailability remains explicit. parent91/input-binding.json.gz is deliberately not retired.",
+    "recovery_availability_boundary": "No new archive was downloaded and no expired external artifact availability is claimed. Exact restoration of the 28 retired Git files uses their fixed Git commit/blob independently of an artifact service. Original input restoration contracts and any known unavailable payload are preserved, not silently replaced with empty arrays."
+  },
+  "scientific_status": {
+    "new_scientific_execution": false,
+    "new_acceptance": false,
+    "continuous_derivative_bound_produced": false,
+    "task_completed": false,
+    "original_native_failure_and_incomplete_scope_preserved": true
+  }
+}

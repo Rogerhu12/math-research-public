@@ -119,3 +119,6 @@ README未完成；时长、阶段、失败和输入困难均非终点；按open�
 
 
 下一独立width-only输入选b/S=5/8、δ1/32、恢复mu.01，与19隔离比较宽度；完整准备中，未启动。[全源码分析](notes/2026-11-27-supported-seed-five-eighths-three-quarters-and-existing-geometry-observations.md)保三b的准确支持/中央长度、mean域与未知λ排序：端层显式系数4/5、中央(3/2)λ比，不保证K改善。3/4合法但中央压缩更强；不凭粗R709失效拒输入。原小文件已存K/D/alpha，尚未live公开不得补值；完整空间witness与report保存时机、same-source restart不自动继承末阻尼的源码边界均保全文。
+
+
+[ret53全台账](computations/legacy-native-generated-metadata-retention-53-complete-delivery.json)实施28个旧生成对象精确退存，主体净1822833B。原24源/全部参数/11run/6组workflow、所有数值payload/checkpoint/失败/未知保；两whole canonical及parent91绑定仍当前树。原reader需其旧路径则先完整Git恢复，不能用台账代原文件；容量整理不付科学结论。
