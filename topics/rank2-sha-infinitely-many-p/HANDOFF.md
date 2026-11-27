@@ -6,7 +6,7 @@
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。固定有限曲线族联合无穷非零可用无限鸽巢；有限p、随p换曲线、条件桥、接口或单独投影非零不完成。
 
-- 公开根/课题 README 已读至 `357cde79c9bc87b831432c1b89ddcd53610df18d`（差异空）；每次pull只读新差异，至少每小时同步并记SHA。
+- 公开根/课题 README 已读至 `ec85ae59d225b01d7057cfaef521b3f0abbd615f`（差异空）；每次pull只读新差异，至少每小时同步并记SHA。
 - 两仓库已部分克隆。私库QUEUE接手提交41fe885610073f478b2f5a752461ca56cfd43f09已推；01:44UTC pull至0ffb6ba2967365884b38f1fd81778a8f2f9f73af，两README差异空、QUEUE仍本会话进行中。令牌只进程认证。
 - root独占git/H/open/log/index；每条结论即推，非快进立即pull --rebase/读README差异/再推至成功，不强推。数学只用公开Actions；不存可重算输出。H<10KB、每MD<100KB。
 - [此次完整逐字归档](notes/2026-11-27-handoff-before-explicit-thirteen-words.md)及其历史链保全部旧式/回执/未解门；[open](open.md)、[results](results.md)、[R1001–1050索引](notes/PROOF-INDEX-R1001-R1050.md)及前卷为接续入口。
@@ -54,6 +54,8 @@ R1009 Y0在7993给Ru=Ga/LieV(2,−1)，任意有限扩域仍排有限1-motive张
 新输入范围保存在[polylog指标](notes/2026-11-27-fixed-highest-cycle-and-polylogarithm-index.md)（m=−1为Tate不变量）和[互素BF](notes/2026-11-27-fixed-highest-line-and-coprime-beilinson-flach-input.md)（任何两不可约GQ因子承载λ均CM于K、导子同含3，不能套互素level新定理）；更广混合构造未排。
 
 R1014付原S全部充分大q的Tate：B_a三次cover/a=w³的实际degree1射影族，三处xy=v³+w³由四个全局Weil中心逐图解消，中央仍原I9/I3。无穷j三阶/conormal–Serre短证及可变j(a)付period非恒，适用已发表HYZ B；固定q0未有效，不冒全q≥5。inert q>q0的NS判别式−q²、MW整格(q/3)A2、Frob−bar/两常数域Br0已付；原54图保全η/Cor/P−转置的整交公式。Guo–Yang预印本仅记小q条件，不作cofinite输入。实际截面/54点评值/普通局部非零仍待。
+
+R1017特征5新截面的完整有限空间搜索源码已接公开small workflow；script 11853B/SHA7abf40a8…40e99，保R991的X=−3v/Y=−27t与全部局部极/高度验收。本地仅AST/hash，实际run及结果待产生，不预记PASS；该小素数不代无穷p。
 
 ## 四、其它原门及执行分工
 
