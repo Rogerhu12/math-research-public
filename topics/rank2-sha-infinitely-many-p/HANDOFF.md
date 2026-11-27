@@ -18,7 +18,7 @@
 
 v9的21000s timeout与v10的7283秒logger TypeError都已完整消费。原run/job/source/hash、未到终门及两字段兼容修复在[终点链](notes/2026-11-27-artinian-v7-final-and-successor.md)。不是代数反例，也不是四交/Norm/shadow PASS。
 
-唯一native v11 run45978097755/job140434827184/source8a19591199e83549df1709f35dc00976a40e2810在原数学步骤；56源/两char0 pins、29/2453/64/minimal、全门、同pivot/全列/附列/生成元双向返回、源码只读/禁网/21000s/360min/cancel=false均保持。14:18复读原log仍4203673B/f9ecdfbb…d193：12:38首positive/base0全厚612已返，尾12:39:11到base1 Hermite85/306；14:09API数学步骤仍在运行，无四交/Norm/shadow终门。不重编译/开副本。
+唯一native v11 run45978097755/job140434827184/source8a19591199e83549df1709f35dc00976a40e2810在原数学步骤；56源/两char0 pins、29/2453/64/minimal、全门、同pivot/全列/附列/生成元双向返回、源码只读/禁网/21000s/360min/cancel=false均保持。14:45复读原log仍4203673B/f9ecdfbb…d193：12:38首positive/base0全厚612已返，尾12:39:11到base1 Hermite85/306；14:43API数学步骤仍在运行，无四交/Norm/shadow终门。不重编译/开副本。
 
 ## 二、原算术输入与实际全域缺口
 
@@ -50,7 +50,7 @@ R1041原四谱Q6/Pell/双Norm/指定半类/全部厚点均付，q11实际AQ=−G
 
 R1043原2-Vélu/full9、S3左逆/真实S′、canonical E4/I及η′=ηκ2最高λ运输齐；原最高像−3Ω′1在O零4，不能换形式。全GL9/Cor准确给C_a=[L:K]B_a、J_j=6[L:H]Σζ9^(−l_ja)B_a，L0次数6^5。真实3-Vélu与二商反交换，F′*特征+δ和canonical Picard同号；基值3I e_A^-hatφ2,0Q+(b2,0)不可套旧6挠零，IV*下降只被3杀。§18真实Fr(d_t)=d_hq/t；原三个完整J同一位全零时三个实际T_a全p整除，此前提尚不由Sha坏推出。同Fr−unit核degree q+1只p个除点，全p²用degree(q+1)²。
 
-§19已付原两曲面的实际KS、全好点单位/Hasse简单零、Broumas完整μ公式与Tate/极小模型边界。原Qmin的ν=μλω^(q−2)非零，全零度q−2；超奇异真实接触n满足n=1 iff ν(b)≠0，否则ordν=n≤q−2。目标p≠q的除点不自动增接触。新q11 consumer只读取旧唯一原Q回执，算μ与全Hasse厚Fitting、canonical O和两cusp；源码已审，新数学结果待。原mixed C4候选已由Albanese排除。
+§19已付原两曲面的实际KS、全好点单位/Hasse简单零、Broumas完整μ公式与Tate/极小模型边界。原Qmin的ν=μλω^(q−2)非零，全零度q−2；超奇异真实接触n满足n=1 iff ν(b)≠0，否则ordν=n≤q−2。目标p≠q的除点不自动增接触。新q11唯一run46018592834/job140572039981已成功：μ/δ=10X+3X⁴、Hasse=V(1−X³)，九有限ss接触1、O接触3、两cusp ν阶0，余ordinary零度6。全pins/hash/函数在原消费笔记，不重跑。原mixed C4候选已由Albanese排除。
 
 ## 四、其它未闭门与分工
 

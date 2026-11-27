@@ -229,3 +229,6 @@
 
 
 - R1043§19：R1043§19支付原S/S′的真实KS及全部好纤维上的单位性、Hasse简单零；将Broumas已发表公式准确写入原W定向，补全部模型变换及Tate边界。原最短Qmin的ν=μλω^(q−2)非零且零度q−2，故超奇异接触n=1恰ν非零，n≥2时ordν=n≤q−2。目标p除点本身不增加接触阶。 仅用已发表Broumas，原q与目标p分开，不用未发表预印本作黑盒。
+
+
+- R1043§19实际q11消费：原q11 Manin唯一consumer已完整返回：μ/δ=10X+3X⁴，短模型Hasse=V(1−X³)；全部有限9个Hasse点的十级完整Fitting均为单位，所以接触全为1。canonical O的ν阶为3/接触3，两cusp的μ阶1、ν阶0；其余ordinary零度6。总接触分布为九个1和一个3，所有点及重数都已消费。 唯一run46018592834，来源/哈希/必要函数见[消费笔记](2026-11-27-original-q11-manin-and-supersingular-contacts.md)，无重搜原Q或两cover。
