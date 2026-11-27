@@ -4,7 +4,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-Phi-exact-boundary-images-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-collision-entire-lambda-third-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -224,6 +224,6 @@ D27泛型五次不可约与有限纤维范围保上述D27原单位条目及本�
 
 **[Phi零的十二列完整原四行与四个二次头图](results/R150-appendix-unit211-Phi-zero-monic-twelve-original-four-rows-and-quadratic-head-charts.md)。** 原N1首一z2/T6给真自由12环境；928真0.302秒/42188KiB/exit0返三均值和NV全部坐标，不逆D/SnZ。四原二次头只依赖u,Q，残度6/4、11/6、13/7、9/5，精确输入已保存；每个非零图的原商至多由1,T,z生成，共同头零仍保。新4e84只读小头作固定QQ消Q和完整u常数域返回，不重放旧原行/大cofactor。
 
-**[h=k、Delta零的完整七lambda覆盖](results/R150-appendix-unit211-equal-singleton-Delta-zero-seven-lambda-complete-QQ-cover.md)。** cf0真QQ578覆盖与独立原N1固定投影给全模Bézout/g80，首一Gauss及同点核列界≤80不同(λ,u)。真QQ分解完整乘回；153、345两整因子排除，只余C4四次、C2二次及λ1/3，共七lambda，Q/Gram未排。2.522秒/85076KiB/exit0；所有u/Q头零保留，续三个完整常数代数的原返回。
+**h=k、Delta零只余六lambda。** [七lambda完整QQ覆盖](results/R150-appendix-unit211-equal-singleton-Delta-zero-seven-lambda-complete-QQ-cover.md)后，[整个λ1/3已排](results/R150-appendix-unit211-equal-singleton-Delta-zero-entire-lambda-one-third-exclusion.md)：原两相容式仅余u50/277,Q489412/76729，新八原行保自由f，E1/EBe全QQ[f]Bézout返1（0.104秒/34128KiB/0）。继续C4=[3/8,−3/2,3,−3,1]与C2=[1/3,−1,1]两个完整常数代数及所有Q/u头零，不重跑原578投影。
 
 **[全余W的十三条完整原行与真六列乘法](results/R150-appendix-unit211-W-global-monic-three-two-thirteen-original-rows-six-columns.md)。** 394真实76.921秒/410224KiB/exit0，12真乘法、116逐式身份、13原行完整返回；个别两谱D²N/D³P与完整N4(DV)均保，102种最终分母全付。T3/F2首一环境自由不传最终物理商或D局部化；r2二次头未付。新505仅构造纯T原r2/R6及其真乘法的三个固定3×3常数列cofactor，不重放40MB大原行证书，不逆D/范数。
