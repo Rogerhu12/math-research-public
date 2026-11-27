@@ -1,12 +1,12 @@
 # 交接：可见振幅的精确闭等距族
 
-维护会话：visible-exact-astra-fb31ed6-20261127；更新：2026-11-27 02:39 UTC。
+维护会话：visible-exact-astra-fb31ed6-20261127；更新：2026-11-27 03:07:31 UTC。
 **总任务未完成，持续研究，不等用户回复。**
 
 ## 规则与授权
 
-已partial+sparse clone两仓库并pull main，读根全部规矩、topic README/H/open/log及接续notes。公开根/topic规则核至3e87f49b0ebf75f305ad1e3bf262e3b80fcbb332（相对12385db351ab03292b18db4cfc40e86754aadc89无diff）；私库2026-11-27 02:20:12 UTC pull至3673eb091d9fa2f558e9bdfdfc443e478832367c，根README无diff，QUEUE仍“进行中（visible-exact-astra-fb31ed6-20261127 / 2026-11-27）”，初次claim594e561b05a758bd8c02840ca4fbf574cd707436。
-每pull核两README、至少每小时；非FF立即rebase再推。令牌只CLI，无AGENTS。source只commit；publication-worktree由publish_visible.sh <明确sourceSHA> pull/rebase/push，勿source pull。共享index/helper仅一人独占。
+已partial+sparse clone两仓库并pull main，读根全部规矩、topic README/H/open/log及接续notes。公开根/topic规则核至c8c119799d596df28aacdd519d191522c8edef9b（相对12385db351ab03292b18db4cfc40e86754aadc89无diff）；私库2026-11-27 02:20:12 UTC pull至3673eb091d9fa2f558e9bdfdfc443e478832367c，根README无diff，QUEUE仍“进行中（visible-exact-astra-fb31ed6-20261127 / 2026-11-27）”，初次claim594e561b05a758bd8c02840ca4fbf574cd707436。
+每pull核两README、至少每小时；非FF立即rebase再推。令牌只CLI，无AGENTS。本地环境03:00前磁盘满后失联，按根规8用GitHub集成仅传<100KB文本；root独占main更新，每次最新head/两README，force=false+expected_sha拒旧父即重base。GF改由connector发布；原source35ff439e后的6件旧排版本地未commit，恢复时不得重复。缓存迁移命令无成功回执。
 科学仅Actions，本地证明/静态/metadata/新saved有理组合。容量本轮原pool512..639共128legacy JSON仅删字符串外空白，当前所有manifest/workflow引用冲突0、原bytes/SHA/blob全核，净省828816B；两完整receipt保notes，原历史不动。规12不增复核审批，结论成即推；规15 topic≤200MB、H<10KB、禁可重建大数组。成功旧科学禁重。
 
 ## 同一对象和验收
@@ -18,12 +18,11 @@ geometry43584188751/26仅同η0全core含帽物理C0≤1e−4、|δν|≤1e−5�
 
 ## 当前完整接续
 
-全部原账、球/pins、失败/unknown、原域/units与义务保[c721原H](https://github.com/Rogerhu12/math-research-public/blob/c721d9bf28daa6e584e1a6dde06f4eadce2c189c/topics/visible-flex-exact-nearby/HANDOFF.md)、递归原页及各proof。以下只更新新实际，不撤范围。
+全部原账、球/pins、失败/unknown、原域/units与义务保[658e原H](https://github.com/Rogerhu12/math-research-public/blob/658e9d344860e399260ffbdc500b7d5cbf8d5249/topics/visible-flex-exact-nearby/HANDOFF.md)、递归原页及各proof。以下只更新新实际，不撤范围。
 
 1. **PS→SL。** PS45880363964/1全155母格/1424cells/193atoms/6球完成，body ε≈64.097636、含点whole≈64.855555，充分门false；job只是球后containment失败。禁止DP/重积分，不推奇异。旧prefix76+新79及cancel自动拒绝保原H。SL首45916550302/1 UTF8 str/bytes错误，新science0；明确同对象后继45917913526/1（event0c4f842d）在算，99pins、19500s。positive只读监测，旧入口禁重。
-2. **TC真96。** 原45889161044/1真实budget终态992/7724，whole signed matrix/waist首目标成，negative/positive96待；完整execution ba6ce21d…/原4数组/5×96窗口全保c721原H。TCX45920124552旧cubic全SHA恢复失败，新science0。AMD诊断45923136710无AVX512/0child；ubuntu24 45924740082实际SkylakeX，原cubic3484712c…及全14片/两index全SHA成功，TCscience0。后45926154640于02:13:28在首次save_prefix因0-d array失败：输入与4trial全SHA已过，原992未增、fork children0。明确TCXV后继45928452441/1（publicc721d9bf28daa6e584e1a6dde06f4eadce2c189c）已启；仅全零向量shape恢复，原数学核/96hex/wholematrix不动，177current/32history、manifest98405B SHA3a63ca7f311d1416d2f231502204693fae14cba9f03c0e0658f598e87d338126。proposal父Haswell/必要Z恢复SkylakeX诚实记账，≤3互斥slice只续缺域，不重992或matrix。
-3. **原alpha与Θ。** AS首45906100247全SN后raw192误限128失败；ASR45914639857/1已于01:26:55全2048/2目标成功，actual14305B/7ae6a9ad…、execution17495B/e65e2161…完整SHA保c721原H。**实际eα∞≈7.953521811e220、eα2≈3.468463186e220，不授精度。** 巨费来自8192复矩形powers递推2048次包裹，原tail仅.0001024925/2.77108e−6。旧2目标禁止重跑。OT首次唯一45924861985/1（public7fbec8a67c0e8614577c7265d50a8634fc670161）已启动；其原signed96×2240 coefficients只用exact αhat/IR/truephase，不消费巨费，10scalar仍诚实保巨界。UDR新unit-disk/全无限IR联合误差proof+pure已推dacc4322，保全部whole候选再择小，不重ASR两目标；actual owner在写。OT当前仍必要AS载体恢复/0新targets。
-TQ/TQL/TQC全4carrier→11球严格Θ square入口已齐但未actual；whole OT之后才manifest。BW原target w=v_i−α五件已推，但实际先解决新误差输入，免无信息重复。BR真正B^-1有限行whole residual证明与实现5件a530d273均已推，whole BW前无actualmanifest。SC仍须whole58/224/32+TC3+RW96+JC7，仅physical/incoming配对，非Θ/B^-1全列。
+2. **TC真96。** 原45889161044/1完整992/7724、matrix/waist成，negative/positive96待。后继cubic SHA失败/AMD无AVX512/ubuntu24 SkylakeX全恢复/0-d首次prefix失败均保原H；全部失败0新science。TCXV45928452441/1（publicc721）只修zero-vector shape、全核/96hex不变；manifest98405B/3a63ca7f311d1416d2f231502204693fae14cba9f03c0e0658f598e87d338126，177current/32history。三互斥slice真实运行，最新whole1040/7724（新增48），prefix9550B/5118d71ecd032fbcacdbe9b9c13ca2ec13401638f9c51a43ac3078bf4a64d3ad，failure null；不重992/matrix，不把started计完成。
+3. **原alpha与Θ。** ASR45914639857/1全2048/2成功但eα∞≈7.9535e220/eα2≈3.4685e220，源于复矩形powers包裹；原tail仅.0001024925/2.77108e−6，旧2scalar禁重。原AS raw192误限失败、全SHA保原H。OT45924861985/1于02:50:18全10目标/96×2240 signed carrier成功，actual24891B/c6fd3416718fc5861907da9b941a7809845d5c7dad83540cc444cc4b1060a146；trial1720320B/3b5bff1ccffa74600cc6cb56b8521fb32830ae0697733617eb0042bb1a8f9143。JG_HS≈9.797954、BG≈68.352743、alphaW≈.4903964、rounding≈.00145681，旧VQ/Θ巨费如实保，signed carrier本身不消费巨费。UDR新unit-disk全无限IR joint proof/pure已成；UDRC18完整源码public952c4538但未跑，首actual现拟加GYN三whole新norm成21，非重复旧目标。TQC只原Θ坐标square，fullSchur独立；BW/BR原实现保，新w精度另付。SC仍须whole58/224/32+TC3+RW96+JC7，仅physical/incoming配对。
 4. **完整positive有限。** 58→224→32→PN56/CXN6须真低逆；原14ports/单位/同因三角/aux Ec*e/BH KW/Ni/root96/两mean/ν全保。square过才消head，actual6/56、negative incoming、全physical finite/high反馈与fullSchur仍待。
 5. **strictν/phase。** NP/NH/PO/APA/ASB全部已锁。ASB真实物理幅度(−.006275,−.006264)、α归一(−.008203,−.008188)、high97<5.330e−5、L²rL²误差<6.765672e−6。PHI45915169627全6/6 rc0，whole actual0bedee9032270a0b0a24ed5af57bc7773a8a6f0b8d913e19cdc7593f877a163e；131germs/1572polys/2545交片和4wholeNP数组全保。APHI完整三球重组phase(.038736784,.038768096)、逆<25.82、幅度比(−.161991,−.161576)，只strict particular。
 PP完整rank-one消元保regular候选残差/非meanphase/E′a；CP明示Qtilde/ν/g邻域给1/60<S<3/50，仅PD.7候选非fullSchur。P96原TC trial96 signed phase行首run45926971089/1（public358eb35a722ecab882d1dbc339ffc2074723c7fa）已启动：全4数组、169germs/3095steps/8径向矩及真root sliver，仍候选行，TC PDE修正资格false。PRN已推cd09c097，完整negative source窗phase receiver：2600(Droot+Jroot)+184Froot+69Fst+245Jst，全H−2/3/H−1单位/mean，不冒L²。
@@ -44,5 +43,5 @@ PP完整rank-one消元保regular候选残差/非meanphase/E′a；CP明示Qtilde
 完整义务保open第1–7节和全部原proof，至少包括：
 - 真physical signed有限列/cross/full square逆、Θ96、两physicalmean、完整ν/phase Schur/negative incoming；R149完整HS/trace/θ/γ/5目标及原covariance不删。
 - 同一态两侧H1/fullmean/true residual0/wholeC0；NG门385cL+min(145ZS+748ZL,489ZS+10ZL)≤9.5e−12未actual，qν−Z负窗误差≤.005、第四Robin/腰/truephase未闭。
-- 完整cap图导数、全部D² tame/smoothing与可求和增广迭代；S/T连续选解只有γ A0/H8193、loss1734/bg1796/E1856、94seed后Γ2、原极小seed域。SREG已推3e87f49b：同选择连续至E3121，E2960<2^-49999998；actual零residual DF给E20←Z1794 priori常数2^16777216及64..1164窗，固定gamma/q的E1856半径2^-49000000局部唯一。不是γ C1；geo正付完整Dγforcing（far端图+seedΓ2/首补偿/真实metric源）。
+- 完整cap图导数、全部D² tame/smoothing与可求和增广迭代；S/T连续选解只有γ A0/H8193、loss1734/bg1796/E1856、94seed后Γ2、原极小seed域。SREG已推3e87f49b：同选择连续至E3121，E2960<2^-49999998；actual零residual DF给E20←Z1794 priori常数2^16777216及64..1164窗，固定gamma/q的E1856半径2^-49000000局部唯一。不是γ C1；GF已付完整DγF：Z1794<2^-44000000 rγ^-1||Δγ||H1795，source20..2898同阶+1；true far图/seedΓ2/首补偿/整个principal反馈/common源/三径jet/mean保。SLIP选解差已写，GA补A0 mixed分离。
 - 全B/C/Cmean、height、holonomy、位置周期、单一worldframe、腰镜像/regularcaps全部闭后，才用上述几何比例与一次冻结metric。组件、路线排除和计算成功均非最终验收。

@@ -441,3 +441,6 @@
 
 
 - [GGB：真实principal gauge的明确低预算与完整phase constant](results/R144-supplement-actual-principal-gauge-budget-with-full-phase-constant.md)：10新有理比较成。消费原true H三导完整界，g0逆二导<9/2、三导<1280、u0′H2<1281，非constant u0 A2预算<6406；独立H3-radius1后<6410，故可用L8192。PCT/PSC全阶证明可按非constant displacement norm细化，实际g/完整E mean/constant ξ及g′α方向/E′a都不投影，原pin文件不改；与CP真实邻域交集非空，仍须iteration保H3门。
+
+
+- [GF：实际selected-tail家族的完整参数强迫](results/R144-supplement-complete-parameter-forcing-for-the-selected-exact-tail-family.md)：23新整数比较已成；固定物理w，完整Dγ/差的Z1794<2^-44000000 rγ^-1||Δγ||H1795，source20..2898同阶+1，W_s≤1同界、通式只一次高W_s。完整端图/seedΓ2/径向首补偿/整个第一principal反馈、common ordinary源/三径jet/mean/Hmet保，B-collar对全部negative输入准确零；不借fixedmetric列，不自动授selected C1或A0-only。
