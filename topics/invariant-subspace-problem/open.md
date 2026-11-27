@@ -49,7 +49,7 @@ rankH3单三jet的全部ess6已闭，末非零Hp原Gaussian/最高/normal给左�
 
 [H非零最高次全分类](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-H-nonzero-highest-weight-cover-and-quadratic-fiber-exclusion.md)与[整个u=Q原返回](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-u-equals-Q-complete-original-exclusion.md)已支付H、u−Q；C9、u半与整图三次覆盖现见下方更新。旧180秒参数cofactor、76.992秒展开trace及F3/F95未决门全部冻结，精确失败保归档，不重跑。
 
-**Q=1−u边界：** 原y1/H_Q0/u半/ell0/两y首项、T0/h2、Kz0、ell半和G2均闭。[严格CRT次数/重数](results/R150-appendix-unit211-Q1minusU-exact-2265-projection-and-three-multiplicities.md)与[27原投影的222权点界](results/R150-appendix-unit211-Q1minusU-original-cofactors-222-degree-h-cover.md)已付：QQ结式2265次，剥h0/1/2后1382次局部整首一；实际模gcd222，经Gauss与固定Sylvester秩亏将全部不同复权点总数压至≤222。原商≤6、非自由；没有断言QQgcd恰222或原纤维为空。真实源30e48b9c/dd113962各106.568/85.369秒、exit0，旧85/58 QQ超时及未知b830全冻结。继续同一原D模块aa7fafff最终分母与完整有限返回。
+**Q=1−u边界：** 原小面T0/h2、Kz0、ell半、G2及此前零面均闭。[严格CRT](results/R150-appendix-unit211-Q1minusU-exact-2265-projection-and-three-multiplicities.md)与[原222权点界](results/R150-appendix-unit211-Q1minusU-original-cofactors-222-degree-h-cover.md)付全部不同复权点≤222、每原商≤6非自由；不宣QQgcd恰222或纤维排空。[原D关系门aa7f冻结](notes/2026-11-27-unit211-Q1minusU-original-D-relation-closure-timeout-8542.md)：120.083406秒/127220KiB/−14，最后仅六主元、无闭包/最终D。旧85/58 QQ门和未知b830均不重跑。新已付M线性单位的原模核/DAG输入82e8aa97保全图清分母与原六式来源，接完整D目标。
 
 **[整个一般等权b=c原支已闭](results/R150-appendix-unit211-equal-weights-complete-original-exclusion.md)。** 全部旧边界、全图六生成元、原824次QQ覆盖及F236/F243完整原Gauss返回合最后整m=−1/2的原QQ Bézout1，排全部复参数；负半权源5063af65实跑0.315秒/exit0。一般余图现可付ell−u，在W0中进一步付k+2、Q−2。旧QQ600秒门保持冻结；不重做等权，直接继续一般不等权的原NSPS/Dval与全部未付零面。
 

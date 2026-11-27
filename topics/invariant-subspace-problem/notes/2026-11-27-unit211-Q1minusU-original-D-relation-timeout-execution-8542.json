@@ -1,0 +1,96 @@
+{
+  "schema": "isp-Qboundary-original-D-module-frozen-timeout-v1",
+  "run_id": 45967266484,
+  "job_id": 140398850551,
+  "execution": {
+    "elapsed_seconds": 120.083405965,
+    "max_child_rss_kib": 127220,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "7fa9ee46b275f29803d8e1cbd4c7774d93b5880f",
+        "before": "7fa9ee46b275f29803d8e1cbd4c7774d93b5880f",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-27T08:38:59.287050+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "45967266484",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "7fa9ee46b275f29803d8e1cbd4c7774d93b5880f",
+    "source_exit_code": -14,
+    "source_git_blob": "0980700ecb7cf2e6acc4037d06a2a9153f15267f",
+    "source_sha256": "aa7fafff4aee30ee364bd7bb3d29d0a0a6a20c20ec5957d6a11f60ddf0433b7b",
+    "stdout_bytes": 9966,
+    "stdout_sha256": "3822260fc6dfbbe50ca940f1c85c4a8a55c0efb33f57bf2152603efe95b5f80f",
+    "stop_reason": null
+  },
+  "last_mathematical_records": [
+    {
+      "stage": "new_Qboundary_G2_chart_original_relation_rank",
+      "rank": 1,
+      "pivot": 0,
+      "label": "remaining_cubic_1",
+      "allOriginalTraceProductsVerified": true,
+      "pivotZeroFibresNotYetDiscarded": true,
+      "seconds": 1.9511550920000218
+    },
+    {
+      "stage": "new_Qboundary_G2_chart_original_relation_rank",
+      "rank": 2,
+      "pivot": 1,
+      "label": "remaining_cubic_3",
+      "allOriginalTraceProductsVerified": true,
+      "pivotZeroFibresNotYetDiscarded": true,
+      "seconds": 2.0183306880000202
+    },
+    {
+      "stage": "new_Qboundary_G2_chart_original_relation_rank",
+      "rank": 3,
+      "pivot": 2,
+      "label": "NS",
+      "allOriginalTraceProductsVerified": true,
+      "pivotZeroFibresNotYetDiscarded": true,
+      "seconds": 2.2948807550000083
+    },
+    {
+      "stage": "new_Qboundary_G2_chart_original_relation_rank",
+      "rank": 4,
+      "pivot": 3,
+      "label": "PS",
+      "allOriginalTraceProductsVerified": true,
+      "pivotZeroFibresNotYetDiscarded": true,
+      "seconds": 3.082040223000007
+    },
+    {
+      "stage": "new_Qboundary_G2_chart_original_relation_rank",
+      "rank": 5,
+      "pivot": 4,
+      "label": "remaining_cubic_1*x",
+      "allOriginalTraceProductsVerified": true,
+      "pivotZeroFibresNotYetDiscarded": true,
+      "seconds": 6.151809946000014
+    },
+    {
+      "stage": "new_Qboundary_G2_chart_original_relation_rank",
+      "rank": 6,
+      "pivot": 5,
+      "label": "remaining_cubic_1*y",
+      "allOriginalTraceProductsVerified": true,
+      "pivotZeroFibresNotYetDiscarded": true,
+      "seconds": 11.827908037000014
+    }
+  ],
+  "frozen": true,
+  "do_not_rerun_same_source": true,
+  "full_relation_closure_proved": false,
+  "Dphysical_identity_obtained": false,
+  "final_denominator_obtained": false,
+  "no_whole_Q_exclusion": true,
+  "stop_reason_interpretation": "Source received SIGALRM (return code -14) at its existing 120-second budget; the driver itself reported stop_reason null."
+}
