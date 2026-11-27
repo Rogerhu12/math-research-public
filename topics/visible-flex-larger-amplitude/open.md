@@ -111,7 +111,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 [20完整续求](notes/2026-11-27-run20-complete-bhalf-mu001-launch-and-continuation.md)仅恢复阻尼.01→.001，metric.01和全部137角色/18源、157/7argv、458/445formal/48live与原预算保。官方46079535427/1，两input真0；actual科学c592e434/f600/PID3277/model0abfbf/current7e06。23:13:27.016759初完整有限几何返，Phi/Gram/六g逐项等于19初；accepted0/reportfalse，未知trial不补。两轮全science+pure超过95k，原pure仅科学自然返回后整接，不能裁参数挤入。
 
-18/19同源R722完整mean/normal六jet/geometry/closed/R718/R716/mesh源与全参数已刊；19/20全部normal/geometry/closed/R716/mesh后参已刊；R723独立源及19全参已刊，20与restart继续接入。全部原字段/来源/参数与准确费用合同见[19前三后参](computations/fixed-fejer-bhalf-R722-complete-post-parameter-delivery.json)、[19矩/mesh](computations/fixed-fejer-bhalf-complete-moment-mesh-parameter-delivery.json)、归档完整链。normal.complete不代连续branch，mean J不代Cu；全32stage/整圆1024胞/922径向+cuts/六jet/全尾/working、两帽/mixed/allphase、唯一主副件与晚失败不可省。旧R709 bool保真，准确根需R722全域三残差。
+18/19同源R722完整mean/normal六jet/geometry/closed/R718/R716/mesh源与全参数已刊；19/20全部normal/geometry/closed/R716/mesh及R723独立后参已刊；same-source restart全参继续接入。全部原字段/来源/参数与准确费用合同见[19前三后参](computations/fixed-fejer-bhalf-R722-complete-post-parameter-delivery.json)、[19矩/mesh](computations/fixed-fejer-bhalf-complete-moment-mesh-parameter-delivery.json)、归档完整链。normal.complete不代连续branch，mean J不代Cu；全32stage/整圆1024胞/922径向+cuts/六jet/全尾/working、两帽/mixed/allphase、唯一主副件与晚失败不可省。旧R709 bool保真，准确根需R722全域三残差。
 
 [R723](results/R723-directional-normal-flow-support-reach.md)方向支撑与全平行面排序已证，当前真实支撑/曲率仍未付；不能冒旧八角色通过。R718用标记面真实σ，R716独立无标记管、正V与非零中心不变量才给含反射δE。全部五t/三级空间时间频率与完整mesh仍须同g同参数实际运行。全13final才作same-source restart；immutable required-angle packet可为trial，不能冒accepted/final。raw仅runner/scratch，保完整源码/配方和真实身份。
 

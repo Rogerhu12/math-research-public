@@ -33,3 +33,9 @@
 刊[全10件总表](computations/R723-directional-closed-grip-R716-complete-delivery.json)及[完整说明](notes/2026-11-27-R723-directional-closed-grip-and-R716-complete-entry.md)。独立运行源1782(87670B)依全部002eb父/6c57真实geometry、c6b0完整桥，逐原叶有符号C0/C1同一β、全叶两遍及精确顺序/hash、所有32stage/1024整圆/922径向+cuts/六jet/源变量重读；R650旧界只比较不作新路线前提，旧8角色仍false、新5角色分开。R718实际markedσ，R716独立unmarked平帽管与严格.001标记管分开；主副件唯一record、最终complete/status与晚失败全失效，full validator重消费原输入/输出/叶/ports。3c0d(61706B)原d0fe旧validator分支完整保，按真实源/schema区分新路径，仍需同点/model/target/normal/snapshot与独立无标记管、正V/非零中心矩。原45ca/f79所有十二矩/三相数学未改。19 closed8词77选择、R716生产10/34/600整步不改、消费8/65整步；原父metadata/全域/预算保。当前只是可执行源码/全参，无当前连续证书或δE。
 
 完整10件共632270B；双README云核至`81f9bb6faf09ecbe9e1b7a1177b4fad48eb74a3d`无变（非pull），实际controller真pull见H各槽。
+
+## 2026-11-27 23:22:40 UTC — 20同源R723完整参数与原矩生产对象落地
+
+刊[20完整六件](computations/fixed-fejer-bhalf-mu001-R723-complete-post-parameter-delivery.json)及[全说明](notes/2026-11-27-bhalf-mu001-R723-complete-post-parameters.md)，两原runtime1782/3c0d逐字不改。完整19父86836/97718B全部metadata通过精确whole文件共享；新binding保20完整157科学词、mu.001/metric.01、全137/原120与所有未知peer。closed全8/77；矩producer直接取20原89824B文件整个step，10/34/600/max0不改，无19producer混用；consumer8/65全原选择。若同20矩生产已排/已返则只接新consumer，不能重复。全部物理身份future null为准备时未知，官方启动仅已有归因；无新scientific/AST或真证书宣称。
+
+完整6件共135452B；双README云核至`52decf9d255faf5d569a3dac00a93d55d2c5f9dd`无变（非pull），实际controller真pull见H各槽。
