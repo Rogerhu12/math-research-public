@@ -45,6 +45,8 @@ R1039原g étale二盖严格Prym≅EL:y²=x³−12x+20，r*r_*=1−ι；D∞−D
 
 R1039§§7–8对固定EL:y²=x³−12x+20给无穷q≡−1mod3且a_q=0：真实实三同源商j域的完整核轨道、Elkies负整数Norm、两辅助Frobenius和奇数估值排除q≡1，全分母/坏素数/ramified分支均付。原g二盖整个Jac遂有F²=−q，任意几何Z满足qZ+F²Z∼(q+1)P∞，原非挠边界模q被q+1杀。尚不代q+1无穷素因子、ordinary p或原最高27权非零。
 
+原q11新[Prym Norm全除子](notes/2026-11-27-original-q11-g-cover-prym-divisors.md)实时消费已付R及全2484B原stdout，准确下降到E_L^(−3):Y²=X³−108X−540；完整不可约因子/分歧与双∞/O/Cantor Picard类及双Norm身份全部保留。未重算旧截面/平方根，公开新实际结果待。
+
 下一步消费实际q11 R的完整零极/NQ的−3 twist Picard类，再将新全Jac Frobenius关系用于原两quadric和27有权对应。函数域和纯Jac等式不自动等于原最高AJ。
 
 ## 四、继续工作

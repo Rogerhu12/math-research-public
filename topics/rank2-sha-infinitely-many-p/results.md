@@ -231,3 +231,6 @@
 
 
 - 原E3969新增[degree126实时返回](notes/2026-11-27-e3969-original-degree126-live-return.md)：从既有完整R1037公开回执绑定唯一64向量，原22列δpull唯一解/64回乘及全部角端点/因子保齐；未重算原谱，实际新回执待。 原126实时返回run45977711940/job140433521280/source311f91e77e8071abc6f55d889e8880931634600d已完整PASS：22列rank与64回乘齐，P126 degree20/monic/den91，X0/−1/−4 simple与X8 double，norm7 factor simple；原f degree20，全部端点及cubic拉回degree61/四阶1/1/2/3齐。必要全因子见原126笔记，不能预设angle21或删h7。
+
+
+- 原q11新[Prym Norm全除子](notes/2026-11-27-original-q11-g-cover-prym-divisors.md)实时消费已付R及全2484B原stdout，准确下降到E_L^(−3):Y²=X³−108X−540；完整不可约因子/分歧与双∞/O/Cantor Picard类及双Norm身份全部保留。未重算旧截面/平方根，公开新实际结果待。
