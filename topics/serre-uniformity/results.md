@@ -18,6 +18,8 @@
 
 ## 新增结论（2026-11-27）
 
+- **R1077（已证明原加权单位）**：[同一primitive的Hurwitz读数](results/R1077-original-Hurwitz-unit-as-weighted-primitive-coefficient.md)：原O参数/residue及Euler安全前缀给G_(p−5)=C·[z^(2k)](1−z)^−1/3 T²/(24v²)，C³=4v²取Fp唯一根；该系数=576v⁴/(7Cδ⁵)全p单位。原T固定、所有参数/Cartier相位已付，尚未连接η_k/ν_k的未加权k次读数，无数学执行。
+
 - **R1076（已证明来源身份）**：[原primitive双系数](results/R1076-original-primitive-cubic-and-sixth-power-obstructions.md)：实际H有限超几何严格解一阶式；T=z(1−z)H³=−2vΨ³/δ³保原z^p盲项，LT=2、L(T²)=40T。原η_j=j[z^j]T、ν_j=j[z^j]T²/40，故e/K₄共零准确等价两指定系数共零；全短谱参数和截断误差已付，非同时零仍开，无数学执行。
 
 - **R1074（已证明固定p47全范围盘筛选）**：[原八CM圆盘及完整aux注入](results/R1074-certified-original-p47-eight-CM-disks.md)：公开run45928658257/job140275928914、源e5d0d9d、3.123秒完整同点比较，235互异原global候选只余8个实际Q-CM盘，排除其余227盘，无整j/小惯性假设。真实coarse Burnside付#X(F283)=279，279完整tag给aux全图单射，故同一CM点在47及283约化；一般j模47²，特殊j0/1728为4/3阶，283整且同余。全部角色/twists/cusps/CM定位和hash齐备，不推盘内唯一或全p。
