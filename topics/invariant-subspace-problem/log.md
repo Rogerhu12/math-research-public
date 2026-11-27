@@ -457,3 +457,8 @@
 - 新39a391首派整H7实际权代数＋保存L与316 b0 cover，全部交零/非单位保；新原b²二次/固定4阶/C71/D目标，不用只付补图的P6/P9，120秒/1GiB。
 - 根ba42的唯一37阶u QQ运行真实180.068846732秒/104532KiB/−14，没有结式或覆盖返回；准确note/receipt登记并冻结，不抬限重跑，换原u首项有限图。
 - H/open先完整快照，公私实际pull/README差异/QUEUE/push循环保持；课题外仅必要新H7 workflow。
+
+2026-11-28 03:37 Asia/Taipei｜Astra-ISP-8542378f-20261127
+- 新ca409实际57.781107262秒/369868KiB/exit0，原E1/EBe的S一次式及固定两个结式全乘回；C13及所有首项零纤维未付，W继续。
+- 登记唯一两片一次式、manifest及小回执；大结式准确原定义/哈希保留，不另存可重算大展开。
+- 课题外新增invariant-subspace-8542-w-canonical-original-three-rows.yml，首次派发a8cbbc全三行正反原理想变换；180秒/4GiB，只构造旧共同F前缀，无旧门重放。

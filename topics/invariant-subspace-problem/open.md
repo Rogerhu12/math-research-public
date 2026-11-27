@@ -227,7 +227,7 @@ G36完整[高1134](results/R150-appendix-unit211-W-G36-entire-high1134-original-
 
 
 
-[全W恢复后的十二完整原三列行](results/R150-appendix-unit211-W-global-F-recovery-twelve-original-three-column-rows.md)：8430b真24.650824419秒/218236KiB/0，保qF(Fp)、六Gram、r2/R6、原个别NP/完整NV的全乘子，三乘法列/31约化均实际返。新NS/NV必要式lambda9/13、权头51/69与50/64仍未付；两大参数1.67/2.66MB只源/原定义/准确SHA，未归档全系数，9105未执行不重派。新ca409首派同两原二次的S一次行及两个无头逆固定结式，180秒/4GiB，保全部首项/共同因子零纤维；不能只凭必要式称W空。
+[全W恢复后的十二完整原三列行](results/R150-appendix-unit211-W-global-F-recovery-twelve-original-three-column-rows.md)：8430b真24.650824419秒/218236KiB/0，保qF(Fp)、六Gram、r2/R6、原个别NP/完整NV的全乘子，三乘法列/31约化均实际返。新NS/NV必要式lambda9/13、权头51/69与50/64仍未付；两大参数1.67/2.66MB只源/原定义/准确SHA，未归档全系数，9105未执行不重派。[两个原均值的新一次式与固定结式](results/R150-appendix-unit211-W-two-original-mean-S-affine-and-fixed-resultants.md)ca409真57.781107262秒/369868KiB/0：同S原一次L1/L0的lambda4/5，固定2/2及一次/首一三次原身份给lambda10/16必要式，所有原乘积返回。完整13项C13(e,k)未付，整零纤维保；两片302638B一次式准确输入已存，大结式只留原定义/SHA不缓存展开。新a8cbbc只用全已付三行B逆，首次正反返回(F−Fp,p2,p3)并约原首一S³；全C13/新头零与qF(Fp)/个别NP/NV保留，不能把必要参数式当全W空。
 
 
 
