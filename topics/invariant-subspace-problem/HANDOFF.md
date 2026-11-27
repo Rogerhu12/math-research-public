@@ -5,8 +5,8 @@
 ## 目标与规矩
 
 - **普通复可分无限维 Hilbert ISP 未完成。** 只以全体有界算子定理或完整反例收尾；子题/时间/输入不足均不停止，按open换输入继续。
-- **最近实际 pull / 已读规则提交：** `a27604db587849fbc95e668fbc863970e58f13a3`（2026-11-27T06:44:56.656846+00:00；本地部分克隆，blob:none）；本次两README diff无变。每次pull且至少每小时检查。
-- 私库QUEUE本会话进行中已实际核验；恢复后真实pull为2026-11-27 05:57:33.564921 UTC/f4e00584744a8fc257174747143c45173ea0c8dc，根README diff无变。公私均部分克隆blob:none。
+- **最近实际 pull / 已读规则提交：** `b1571979a590717c11b793cd8a5129dae02d90ac`（2026-11-27T06:46:19.705175+00:00；本地部分克隆，blob:none）；本次两README diff无变。每次pull且至少每小时检查。
+- 私库QUEUE本会话进行中已实际核验；最近真实pull为2026-11-27T06:44:50.735259+00:00/e7276f299009cda775c627579009381ef15e432e，根README diff无变。公私均部分克隆blob:none。
 - **终端已恢复：** 2026-11-27 05:57公私真实pull完成，规则差异均空；断开期间按根规矩8的小文本接口和真实新数学Actions记录完整保[故障说明](notes/2026-11-27-executor-outage-and-unpublished-small-input-checkpoint-8542.md)与各回执。恢复CLI提交；非快进立即pull --rebase再推，不force，令牌仅CLI。
 - H<10KB、MD<100KB、open尽量<30KB、题<200MB；只留源/参数/SHA/小回执，不留可重算大输出，不写根LOG。课题外workflow改动已记本题log。
 - 所有被压缩的精确结论/来源/失败身份保[最新完整H](notes/2026-11-27-handoff-before-complete-W-uQ-exclusion-8542.md)、[open](open.md)、[结果索引](results.md)及归档链；省略不算关闭，已登记不重做。
@@ -42,7 +42,7 @@
 原全部公式/常数/负门与适用范围保最新完整H、open及results；压缩不关闭旧接口。
 - M=kerT、N=closureBM、W=M⊖N，N=M未证。保同w/u、全部partial/intersection、MP自然域/帽外投影及forcing。仍须64^R、γ<1/16绝对Z、32^N孔权、e^(κy)清除；F0/首阶核不删，k=h−1费、L=o(x^(2/3))至母窗桥开。无锚Γ²≤27μ1不传有锚/第二Green。
 - 原G0=TJ_B多值部Ce0；N⊂kerAmin⊂M，I=M⊥⊂J=closureRanG0*⊂N⊥。原RanG0*确非闭、无全h来源范数界；五坐标原反例还排无条件联合图→carry/C2，输出都在M⊥而非W，不重做这些通用升级。
-- 原平方源C2给两型总孔核心，Y完整D*−V_b同阶抵消及R_b界12保留。低余孔自动付C2；进一步原有限压平＋最大图边界行给s0=(2+2log(3/2))/14：实际y∈D(G)且e^(s0N)y∈H则同一h∈C2、入原图核心，临界等号由48·8^j−280·2^j+850/3严格余量支付。E真实y有该矩/平滑保Y仍未付，余同源逆费继续。
+- 原N/Y平方源C2给共同总孔核心，完整Y逆/抵消保留。低余孔自动付C2；临界原y矩s0=(2+2log(3/2))/14足够原图核心。更强：任意原(y,Gy)的同源h_s=e^(−sN)h在s∈[s0,1]自动具加权ℓ¹ carry费用，真实T*h_s∈H且(Sh_s,T*h_s)入原核心。真实E正配对及10/α0双向坐标界给||e^(−N/2)f||²≤e^(−198)||f||²、≤190孔质量≤e^(−8)；完整Y列费13及临界1/15等号已付。未付s→0图控制/平滑保Y，不能推出E0、Z0或Gamma有限。
 - 同w=Ju的Γ有限恰g0=H*(I+H*H)u在实际RanK*，W只付闭包像；原Q_H正则费用双侧比较不付Γ。全整数窗Σ||P≤n w||⁴/E_n≤4Aδ||w||²，非零W迫Σ1/E_n有限；同W的倒数发散/费用上界仍开。
 - 同源dyadic两边费E_r有界子列经凸组合付图核心；P_Wf≠0迫liminf logE_r/r≥γ_ex>5/3，较弱子指数费只付f∈I。全M前缀最优率约1.723637及整个D(G)/D(Amax)的相反前缀指数图界仍不足alpha逆费。
 - **新真实Green缺陷E恰T*y=Sf、By+Tf=0。** 两坐标范数等价给闭X/Y、G|Y有界同构，B|Y/S|X/T|X/T*|Y有正下界。F=P_I X闭，X={v+Zv:v∈F}、Z:F→W有界，J=I⊕closure ZF。图核心⇔F0，第一范围⇔Z0，第二范围⇔closure ZF=W；X/Y/F未证不变，ZF未证闭，Γ/N=M仍开。

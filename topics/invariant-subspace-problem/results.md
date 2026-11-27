@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [原同源物理正则化与真实缺陷低孔能量](results/R271-appendix-actual-physical-source-regularization-and-defect-low-hole-energy.md)：任意实际最大图来源在临界正阻尼s≥s0具原共同核心，完整N/Y carry均已付；真实E输出低孔质量受e^(−198)/e^(−8)约束，零阻尼仍开。
+
 - [Q=1−u整ell=1/2权线排除](results/R150-appendix-unit211-Q1minusU-complete-ellHalf-exclusion.md)：原Dphys完整理想身份，唯一16次分母在整个QQ商代数中全96列乘回；本边界可付2ell−1。
 
 - [一般W0整条u=Q权线排除](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-u-equals-Q-complete-original-exclusion.md)：原F9全部头零、同点Cramer完整QQ Bézout1、F3原Dphys及F95固定十四原行Gauss全覆盖；W0可付u−Q。
