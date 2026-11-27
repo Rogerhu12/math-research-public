@@ -12,7 +12,7 @@
 
 - 至少每小时重试同步，每次pull后只读新README差异并立刻执行，记实际读过SHA；断连沿最新main API非force快进，每次检查README及本topic外部变动。10:48ref失败已立即实际pull重试、重比新父后成功；不强推。
 - root独占git/H/open/log/index；每条结论立即推，拒绝时pull --rebase后重试至成功。令牌只命令行/进程，不进文件/提交/API。数学执行只在公开Actions；根规则15禁止存可重算输出或日志数据。H<10KB，每MD<100KB。
-- 本次整理前的[完整交接](notes/2026-11-27-handoff-before-common-norm3913-plane.md)逐字保原历史，向前链接所有旧归档；[open归档](notes/2026-11-27-open-before-weighted-level-transport.md)、[results](results.md)、[R1001–1050索引](notes/PROOF-INDEX-R1001-R1050.md)保完整参数/门/失败/回执，不重做已登记结论。
+- 本次整理前的[完整交接](notes/2026-11-27-handoff-before-g15876-reference.md)逐字保原历史，向前链接所有旧归档；[open归档](notes/2026-11-27-open-before-weighted-level-transport.md)、[results](results.md)、[R1001–1050索引](notes/PROOF-INDEX-R1001-R1050.md)保完整参数/门/失败/回执，不重做已登记结论。
 
 ## 一、唯一原厚几何作业
 
@@ -32,7 +32,7 @@ R1040原六轴/whole核、§9全部Y/K/L/M δ-old零与两个联动字已付，�
 
 F0两δ字run45991193171/job140479142693/sourcec5b9ce61389b975b1a11d1ff1ee71912a8749751实际全返：B10、反射/回乘/二处齐；两旧rank1投影全零，primitive三维非零且非∇S比例。真短式B±=(X+4)D_-/(279552y)±σ4σ3σδ³/(1118208δ)，全T_i/Miller/σ2²/单位cut保。必要坐标/hash及未闭转置见[两字笔记§6](notes/2026-11-27-original-f0-two-delta-word-return.md)，不重跑。§7进一步付两odd25 C±及C2=−C1(−z)、实际三挠U±和完整Φ=W51(U+C1−U−C2)/36；真转置是1/18的x+y单位卷积，degree51 Gaussian/三个E2第三类边界保齐。
 
-R1042三原S34/T72/Φ126共用H3/F81平面，保四输出。93/2511 odd全核β与90/810 even全核χ10λ齐；ray只作相容3/31细化。固定六次Q全部q0..6（q5=0）、真五深一单位网格、三normalized-log差各v=n、全质量多项式与补域齐。两carry whole零核(41)不消掉(43)。§8全角平均保1296真实cut/72网格支，Ravg全五矩及YA网格赋值n齐；余部保D1\Dn全72支递归和至少两unit。§9真实两unit管已付norm25 whole核及全部12支；其质量M*非零，归一A−S差首项dM*log〈r*〉（Nr*=291/763），全尾估值固定ℓp而非n。补域不能丢；新框架仍保Y−(7+4δ)H的混合条件。其余完整管及中间环继续，不给任意Π乘子中央零。
+R1042原H3/F81三canonical四输出、93/2511 odd与90/810 even全核、完整Q及原五深网格三对log差v=n已付。§8平均保1296真cut/72网格支，D1\Dn全递归和至少两unit部分均保。§9norm25 whole返回的12支质量M*非零，归一A−S首项dM*log〈r*〉、Nr*=291/763；全尾估值固定ℓp而非n。真实Y−(7+4δ)H混合条件不能删；其余完整补域继续，不给任意Π乘子中央零。
 
 R1044真R=K+ωA推前消整个Ξ1；共同F3913/C1596给两odd whole β核，完整四输出carry保三原未平均行。H/J/N三角平均另给纯Φ126行；全cut(32)和补域(41)保齐，不混两种许可。
 
@@ -46,7 +46,7 @@ R1039原g二盖严格Prym≅EL:y²=x³−12x+20、r*r_*=1−ι、原边界D∞�
 
 R1041原四谱Q6/fullincidence/Pell/双Norm/ODE已付，原FQ全极及εprod严格分两三挠交。原rΓ边界为P=(1,3)，完整Norm给M(O)=1及指定P的Miller函数。q11全Prym/指定半类实际全返，AQ=−G阶16；一般halving/ψ2主除子给4AQ=−P、全二分Norm=t³(1−27t)。所有坏纤维/厚闭点及run/source/hash在原文和两笔记，不重算。§§17–20付第二四度图Φ、Miller修正J和4ηprim=Φ*dlogM+dlogJ；Cartier由a_q(EL)控制；完整tame reciprocity给U(E+)²⁴∈Fq*，故p≥5,p|q+1的无权半交为p次幂。无权入口关闭，原逐CM权/eta/Cor/最高λ不因此消去。
 
-R1043原2-Vélu/full9、canonical−3a_i、真实τ^iφ0[ω^i]与54→6×9已付。§§9–13再将全η/Cor按真实17平移吸入三列，给三完整shadow同零的准确DFT等价；S3加权来源有1/36左逆，并真下降到B′椭圆基、t=−Y′²/[27(2Y′+1)]的S′系数MW截面。全部标记/对偶在(59)齐，global本原性仍不判固定三列评价或ordinary非零。
+R1043原2-Vélu/full9、canonical−3a_i、真实τ^iφ0[ω^i]与54→6×9已付。§§9–13再将全η/Cor按真实17平移吸入三列，给三完整shadow同零的准确DFT等价；S3加权来源有1/36左逆，并真下降到B′椭圆基、t=−Y′²/[27(2Y′+1)]的S′系数MW截面。全部标记/对偶在(59)齐，global本原性仍不判固定三列评价或ordinary非零。另[mixed C4候选](notes/2026-11-27-mixed-c4-albanese-fiber-obstruction.md)由Albanese三坏点障碍排除，不再追该映射。
 
 ## 四、其它未闭门与分工
 

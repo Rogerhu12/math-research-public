@@ -151,3 +151,8 @@ R1043§§9–13将全部原η/Cor吸入三列C_a，η_j=η10^lj及逐γ真实17�
 ### 真实5/90完整管已分离两态
 
 R1040§13用原D5=(K+A)/δ、E90=3K−2A的真实χ65λ/χ10λ全核，在完整D深/E单位域逐四输出返回DE5与D²E4两整测试。全部七个六阶矩/阶乘、Euler分母和单位行列式齐；真实组合hΦ完全消G，hG完全消Φ，保(Y,H,J,N)及任意其上mixed测试。所有n仅共同u5^n，未被当作新的forcing。 继续原S/T的实际mixed logarithm和F0完整卷积；第二参考仍无新增中央零，Y/7必须保log7质量费用。
+
+
+### 已关闭的mixed C4映射候选
+
+原C×C的mixed order4商X到原S的dominant映射已排除：实际双商r:C→E+分歧±P0、P0非挠；X的genus2 Albanese族只可能在0、±2P0坏。若映到原I9/I3曲面，Albanese同源的两坏纤维原像必须在这三点内，degree≥2由点数矛盾，degree1由差为三挠与P0非挠矛盾。 完整r的U/V、分歧/真实−2扭曲点及好Jacobian椭圆商论证见[笔记](notes/2026-11-27-mixed-c4-albanese-fiber-obstruction.md)；继续R1043实际S′，不再给该旧候选genus2纤维虚设degree3商。

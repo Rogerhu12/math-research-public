@@ -171,3 +171,6 @@
 
 
 - R1040§13：R1040§13用原D5=(K+A)/δ、E90=3K−2A的真实χ65λ/χ10λ全核，在完整D深/E单位域逐四输出返回DE5与D²E4两整测试。全部七个六阶矩/阶乘、Euler分母和单位行列式齐；真实组合hΦ完全消G，hG完全消Φ，保(Y,H,J,N)及任意其上mixed测试。所有n仅共同u5^n，未被当作新的forcing。 (109)是整个四输出身份，消费后的D/E cut不免费留到右侧。
+
+
+- 原[mixed C4方向核清](2026-11-27-mixed-c4-albanese-fiber-obstruction.md)：原C×C的mixed order4商X到原S的dominant映射已排除：实际双商r:C→E+分歧±P0、P0非挠；X的genus2 Albanese族只可能在0、±2P0坏。若映到原I9/I3曲面，Albanese同源的两坏纤维原像必须在这三点内，degree≥2由点数矛盾，degree1由差为三挠与P0非挠矛盾。 仅关闭此明确候选，不排其它真实对应。
