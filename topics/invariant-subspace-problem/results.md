@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [Phi真矩像六次的精确QQ三重数及保留整纤维](results/R150-appendix-unit211-Phi-zero-exceptional-genuine-moment-image-exact-three-and-retained-fiber.md)：原QQ342阶矩阵18核全返，整纤维尚未闭，保146界而非128。
+
 - [W完整NV的直接二次及未付H411全首项](results/R150-appendix-unit211-W-entire-NV-direct-T-quadratic-and-complete-leading.md)：原q5/q4/q3完整恒等，二次头411项；保整零面及全部原个别N/P。
 
 - [全部正权出生一首末边的尖锐2/3](results/R271-appendix-sharp-two-thirds-universal-birth-one-first-and-last-edges.md)：完整物理逆、全部位数及无限正ell²行，次数10完整整数证书与尖锐极限；高出生/同W来源仍开。
