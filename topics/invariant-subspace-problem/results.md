@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R150 S0/Lt0 原参数子式、整H9与全局首一e输入（2026-11-27，已证明输入）：** [386次原覆盖、完整二次域及不除δ的四列身份](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-parameter-minors-and-monic-e-system.md)支付H9整支，Q(i)原gcd=k及C174的一元Bézout全回乘；11原子式保δ0，F41的e首项2^52给无新增参数分母的理想等价余式。源d8dbf16c实际build79.611829秒/155168KiB/exit0，3变量/12必要式，输入2896594B/SHA cbc47d3c；唯一新QQ门尚无单位，不宣一般Lt0为空。
+
 - **R150 L0 三条原参数曲线的三变量有理数门（2026-11-27，已证明输入）：** [同原C/X/Y与十个已付纯参数单位](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-L0-three-original-parameter-curves-system.md)只保λ/w几何变量及单饱和变量，全部原余子式/完整rho投影重新返回，未倒置未知首项。源478dfef5实际build68.485504秒/133448KiB/exit0，完整输入595979字节/SHA c0918f77；新专用1200秒QQ门只在实际lift乘回为1后判空。C/X直接投影250秒exit−9失败源/回执冻结。
 
 - **R12 闭稳定根的通常伴随域包含迫有界（2026-11-27，已证明）：** [闭图范数、全有限幂递推及实际闭部分](results/R12-appendix-stable-root-adjoint-domain-inclusion-and-actual-parts.md)在DomT对T稳定、DomT⊂DomT*、T^q有界时给明确||T||界及DomT=H；不需有界自交换子，a=0/零中间范数均处理。原尾q∤pk根不能有该包含，C自伴时D/CD不可比较；真正闭部分继承环境伴随域。已付R161/R212/R236实现可用，未知诱导根的闭部分识别仍须证明，不把全尾整除传未知子商。

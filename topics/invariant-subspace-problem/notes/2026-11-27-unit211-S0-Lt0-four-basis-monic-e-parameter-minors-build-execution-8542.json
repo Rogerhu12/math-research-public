@@ -1,0 +1,374 @@
+{
+  "session": "Astra-ISP-8542378f-20261127",
+  "source": "2026-11-27-unit211-S0-Lt0-four-basis-monic-e-parameter-minors-safe-slimgb-QQ-8542.py",
+  "sourceSha256": "d8dbf16c15ede8f33205b848889ce15a41f00a5aa57519292a31023b2c461907",
+  "sourceBytes": 56315,
+  "parameters": [
+    "--build-only"
+  ],
+  "actualExitCode": 0,
+  "wallSeconds": 79.61182912200093,
+  "stdoutSha256": "2be542bda6694cf68425bd96605007e06cf915f734a8cdd998237041c951a1e8",
+  "stdoutBytes": 39340,
+  "peakRssKiB": 155168,
+  "limits": {
+    "constructionAlarmSeconds": 300,
+    "addressSpaceGiB": 8,
+    "plannedIndependentSmokeSeconds": 45,
+    "plannedQQGateSeconds": 1200
+  },
+  "fullQQGateRun": false,
+  "wholeS0Lt0Excluded": false,
+  "exactInputBuild": {
+    "stage": "two_parameter_original_QQ_input_built",
+    "geometricVariables": [
+      "e",
+      "k"
+    ],
+    "auxiliaryVariables": [
+      "invUnit"
+    ],
+    "variables": 3,
+    "nonSaturationGenerators": 12,
+    "generatorNames": [
+      "five_original_quadratics_F41",
+      "full_original_P045_P035_projection",
+      "cubic_overlap_0_1",
+      "cubic_overlap_0_3",
+      "cubic_overlap_1_3",
+      "cubic_overlap_2_4",
+      "U_moment",
+      "Nvalue",
+      "NB_even",
+      "NB_odd",
+      "PB_even",
+      "PB_odd"
+    ],
+    "originalNonzeroFourColumnMinors": 11,
+    "wholeCommonH9BoundaryPaid": true,
+    "fullOriginalGInputRetained": true,
+    "deltaZeroFibersRetained": true,
+    "exactMonicEQuotientDegree": 41,
+    "remainingGeneratorEDegreeBound": 40,
+    "originalParameterIdealEqualAfterMonicEAndConstantNormalization": true,
+    "sourceSha256": "d8dbf16c15ede8f33205b848889ce15a41f00a5aa57519292a31023b2c461907",
+    "scriptBytes": 2896594,
+    "scriptSha256": "cbc47d3ceabd1e650531f396797549f97addecf8a46830219c3165775fae43d7",
+    "smokeScriptSha256": "edb0e1e98357894095e25e58744aa20ebb0d2d5e8852fd9b5653e7151702101c",
+    "saturationAtoms": [
+      "e",
+      "k",
+      "ell*k",
+      "T0",
+      "distinct_p_q",
+      "bc",
+      "u",
+      "closed_zero_base",
+      "closed_half_weight",
+      "closed_consistency_line",
+      "closed_ehalf",
+      "closed_equal_singleton_weights",
+      "closed_77e16",
+      "closed_Omega",
+      "closed_H64",
+      "closed_H16",
+      "closed_H9",
+      "closed_original_v_leading_B44"
+    ],
+    "independentSmokeAlgorithm": "std",
+    "fullAlgorithm": "slimgb",
+    "claimExcluded": false,
+    "seconds": 79.38745945700066
+  },
+  "wholeH9Proof": [
+    {
+      "stage": "whole_common_cofactor_QQ_cover_and_modular_return",
+      "leadingFactorDegrees": [
+        9,
+        7
+      ],
+      "leadingFactorTerms": 54,
+      "leadingFactorSha256": "6fe1d2d2f22082738cada074f04da6afbf0f578a4a254948064103bf1a0092d1",
+      "fullQQCoverDegree": 386,
+      "paidDivisions": [
+        [
+          "original_e",
+          24
+        ],
+        [
+          "zero_base_weight",
+          10
+        ],
+        [
+          "original_u",
+          123
+        ],
+        [
+          "entire_ehalf",
+          53
+        ]
+      ],
+      "remainingQQDegreeBeforeQuadratic": 176,
+      "exactQuadraticFactor": "e^2+1",
+      "otherQQDegree": 174,
+      "fullQQSha256": "0e374f394e2e55daa774d62af341b666f706bdacccd90e55b1555d08399bc635",
+      "otherQQSha256": "67946c6ac8de028f04d6951e5e786a38ba2b19276c507412dfbeb189cb944135",
+      "prime": 1031,
+      "preservedFullKDegrees": [
+        7,
+        109
+      ],
+      "fullResultantModDegree": 1263,
+      "modCandidateDegree": 174,
+      "actualBezoutMultipliedBack": true,
+      "coefficientDegrees": [
+        1262,
+        173
+      ],
+      "coefficientSha256": "0f3a82477f48dc8510c6c628c6ab6b455b2d94a50a4ca6ba98c7e4e93ff49ea7",
+      "allKLeadingZeroFibersRetained": true,
+      "claimExcluded": false,
+      "seconds": 55.81254957800047
+    },
+    {
+      "stage": "complete_common_cofactor_quadratic_field_return",
+      "fieldPolynomial": "e^2+1",
+      "fieldDimension": 2,
+      "originalInputs": [
+        "H9",
+        "F41"
+      ],
+      "gcdInK": "k",
+      "inversesMultipliedBack": 9,
+      "divisionsMultipliedBack": 8,
+      "bezoutMultipliedBack": 1,
+      "paidContradiction": "original k=Q/e is nonzero",
+      "bothEmbeddingsRetained": true,
+      "wholeH9BoundaryExcluded": true,
+      "claimExcluded": true,
+      "seconds": 55.869840403000126
+    }
+  ],
+  "cofactorReturn": {
+    "stage": "original_three_row_cofactor_matrix_return",
+    "rowIndices": [
+      2,
+      6,
+      8
+    ],
+    "rowNames": [
+      "cubic_overlap_1_2",
+      "cubic_overlap_3_4",
+      "cubic_overlap_4_5"
+    ],
+    "actualCramerCoefficientIdentities": 12,
+    "paidCommonFactors": [
+      [
+        "k",
+        2
+      ],
+      [
+        "closed_half_weight",
+        1
+      ],
+      [
+        "closed_H16",
+        2
+      ],
+      [
+        "closed_H9",
+        1
+      ]
+    ],
+    "normalizedCofactorDegrees": [
+      [
+        70,
+        60
+      ],
+      [
+        71,
+        61
+      ],
+      [
+        71,
+        62
+      ],
+      [
+        69,
+        60
+      ]
+    ],
+    "normalizedCofactorTerms": [
+      2572,
+      2636,
+      2708,
+      2567
+    ],
+    "noUnpaidCommonFactorRemains": true,
+    "deltaNotInverted": true,
+    "allDeltaZeroFibersRetained": true,
+    "claimExcluded": false,
+    "seconds": 57.021479111997905
+  },
+  "generatorProfiles": [
+    {
+      "stage": "two_parameter_original_generator",
+      "name": "five_original_quadratics_F41",
+      "degrees": [
+        41,
+        33
+      ],
+      "terms": 846,
+      "sha256": "ca1b9ef43348fdfa70bf1303051d4a5d9315a64a18c7b9b0f98c4ed1e2482144",
+      "primitiveIntegerNormalizationMultipliedBack": true,
+      "claimExcluded": false,
+      "seconds": 57.02855717999773
+    },
+    {
+      "stage": "two_parameter_original_generator",
+      "name": "full_original_P045_P035_projection",
+      "degrees": [
+        40,
+        126
+      ],
+      "terms": 4658,
+      "sha256": "ed7cd9d09dc8f36e4553c8694bfd1ca5153a21f2a06c37c3e1cd17bd42755103",
+      "primitiveIntegerNormalizationMultipliedBack": true,
+      "claimExcluded": false,
+      "seconds": 57.38764137199905
+    },
+    {
+      "stage": "two_parameter_original_generator",
+      "name": "cubic_overlap_0_1",
+      "degrees": [
+        40,
+        61
+      ],
+      "terms": 1993,
+      "sha256": "47039056234e8af849b25d33407c71fb61e88dccc38095613a6171bbe40af274",
+      "primitiveIntegerNormalizationMultipliedBack": true,
+      "claimExcluded": false,
+      "seconds": 58.44911680599762
+    },
+    {
+      "stage": "two_parameter_original_generator",
+      "name": "cubic_overlap_0_3",
+      "degrees": [
+        40,
+        65
+      ],
+      "terms": 2157,
+      "sha256": "9cdf37a462b74430bb97b28feb83c71e5148d5681a8e392f216f1573439b19ab",
+      "primitiveIntegerNormalizationMultipliedBack": true,
+      "claimExcluded": false,
+      "seconds": 59.54899460199886
+    },
+    {
+      "stage": "two_parameter_original_generator",
+      "name": "cubic_overlap_1_3",
+      "degrees": [
+        40,
+        65
+      ],
+      "terms": 2157,
+      "sha256": "6cc8166140b70444f633c24dd4e13c59672ba394fbf3bf97982ecf406469c0c0",
+      "primitiveIntegerNormalizationMultipliedBack": true,
+      "claimExcluded": false,
+      "seconds": 62.075974928000505
+    },
+    {
+      "stage": "two_parameter_original_generator",
+      "name": "cubic_overlap_2_4",
+      "degrees": [
+        40,
+        65
+      ],
+      "terms": 2157,
+      "sha256": "cc4ceaf2521f4964f921613a9a65e415d6cd27d491d39b3703710143f9856a20",
+      "primitiveIntegerNormalizationMultipliedBack": true,
+      "claimExcluded": false,
+      "seconds": 65.22675359999994
+    },
+    {
+      "stage": "two_parameter_original_generator",
+      "name": "U_moment",
+      "degrees": [
+        40,
+        66
+      ],
+      "terms": 2198,
+      "sha256": "2708a3016ef0444ef38209490e3b1954cce9ab74ef0d905304399b4f3caa1db3",
+      "primitiveIntegerNormalizationMultipliedBack": true,
+      "claimExcluded": false,
+      "seconds": 69.87463753299744
+    },
+    {
+      "stage": "two_parameter_original_generator",
+      "name": "Nvalue",
+      "degrees": [
+        40,
+        86
+      ],
+      "terms": 3018,
+      "sha256": "28d54926e3b9e67029c452f532fa1bbcb606298a1a0621a1d3a2b3bc2345285c",
+      "primitiveIntegerNormalizationMultipliedBack": true,
+      "claimExcluded": false,
+      "seconds": 71.82029438400059
+    },
+    {
+      "stage": "two_parameter_original_generator",
+      "name": "NB_even",
+      "degrees": [
+        40,
+        71
+      ],
+      "terms": 2403,
+      "sha256": "bc04a4844814532241bdd107f56015fa9a713492f1b6d4be656b1c2348c6dd9d",
+      "primitiveIntegerNormalizationMultipliedBack": true,
+      "claimExcluded": false,
+      "seconds": 73.2565021349983
+    },
+    {
+      "stage": "two_parameter_original_generator",
+      "name": "NB_odd",
+      "degrees": [
+        40,
+        95
+      ],
+      "terms": 3387,
+      "sha256": "31dbae58b53708afe551535e1e25bcc22bbc672493acf21ec99e7e5075945e60",
+      "primitiveIntegerNormalizationMultipliedBack": true,
+      "claimExcluded": false,
+      "seconds": 75.35356639999736
+    },
+    {
+      "stage": "two_parameter_original_generator",
+      "name": "PB_even",
+      "degrees": [
+        40,
+        74
+      ],
+      "terms": 2526,
+      "sha256": "4a8135a9b75de00f797a8faa1eb1e0270d257beb0aebbbf6b83f6a4dfcda1302",
+      "primitiveIntegerNormalizationMultipliedBack": true,
+      "claimExcluded": false,
+      "seconds": 77.07991032000064
+    },
+    {
+      "stage": "two_parameter_original_generator",
+      "name": "PB_odd",
+      "degrees": [
+        40,
+        99
+      ],
+      "terms": 3551,
+      "sha256": "9af0ea32197b4a7b65806fbb1f8f6e60a06d5125e24a952e904311e290f03a20",
+      "primitiveIntegerNormalizationMultipliedBack": true,
+      "claimExcluded": false,
+      "seconds": 79.36149334500078
+    }
+  ],
+  "supersededBuildOnlySource": "2026-11-27-unit211-S0-Lt0-four-basis-two-parameter-minors-safe-slimgb-QQ-8542.py",
+  "supersededBuildOnlySourceSha256": "fc124775143c30f883d039f0d2c6f0d5a0f0c8907b293066a0ae0af7fe082028",
+  "supersededFullQQGateRun": false
+}

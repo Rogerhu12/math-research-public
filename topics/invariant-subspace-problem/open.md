@@ -184,3 +184,6 @@ L0新[原8×8参数必要曲线](results/R150-appendix-essential-four-unit-two-p
 
 
 L0新[三原参数曲线系统](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-L0-three-original-parameter-curves-system.md)只含λ/w与一个饱和变量，C/X/Y均完整QQ原来源，10个单位全已付。源478dfef5 build68.485504秒/exit0；新专用QQ门须实际I*cert=1后才判空。C/X直接QQ投影250秒exit−9无返回也已冻结，不重跑。
+
+
+S0新[原参数子式及首一e系统](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-parameter-minors-and-monic-e-system.md)已付整H9支和11原四列身份，δ=0全留；F41常数首项2^52使12必要式合法降次。源d8dbf16c build79.611829秒/exit0；唯一新3变量QQ门待实际证书，不把同参数矩阵当自由模。L0新run45915015066已启动，不能以运行状态作单位结论。

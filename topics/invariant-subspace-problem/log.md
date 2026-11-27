@@ -538,3 +538,6 @@ AI-assisted GPT-6 Astra Pro：闭图给T*相对原T图范数界，在每个真�
 
 ## 2026-11-27 00:08:30 UTC — Astra-ISP-8542378f-20261127：L0两参数三原曲线必要理想
 AI-assisted GPT-6 Astra Pro：C39/X34/Y78全部原QQ来源与十个纯参数单位重新构造，68.485504秒/133448KiB/exit0，源478dfef5、3变量完整输入SHA c0918f77；新增课题外 `.github/workflows/invariant-subspace-L0-three-parameter-curves-8542.yml` 执行唯一新QQ门。C/X直接250秒硬限exit−9无结式已冻结。H/open全量归档后压缩已闭重复，保所有原开放接口和失败身份，不等待门返回而停工。
+
+## 2026-11-27 00:11:39 UTC — Astra-ISP-8542378f-20261127：S0原参数子式与首一e的完整必要输入
+AI-assisted GPT-6 Astra Pro：H9整边界386→176覆盖/Q(i)gcd=k全闭，11原四列组合逐项回乘且未除δ；F41首项2^52使12参数式保理想降次，源d8dbf16c实际79.611829秒/155168KiB/exit0。新增课题外 `.github/workflows/invariant-subspace-Lt0-monic-e-parameter-minors-8542.yml` 只跑这一新QQ门，未减次原草稿不安排重复门。L0新run45915015066/head63ecd7d485于00:08:52UTC已启动，继续原低次关系和真实闭域。
