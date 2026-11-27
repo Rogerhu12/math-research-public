@@ -115,6 +115,4 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
    [新场全时相几何合同](notes/2026-11-27-new-envelope-full-phase-continuous-geometry-contract.md)与[共同β参数](notes/2026-11-27-same-field-positive-support-parameter-consumer.md)给完整同场D+/K/支撑/握持路径；R248只归约活动像，固定p4帽仍须同一R650正定支撑或全部mixed pairs。[R716](results/R716-asymmetric-fixed-caps-and-centred-volume-moment.md)修正完整重心后，既定p4的Beff实部严格正；须新场完整A2非零及真实装配/外管身份才付非全等，不搬旧6077无平面证明。当前准确六jet全cover/A2/几何数据仍未返。
 
-6. **真正精化与完整交付。** R676/R678/R679已给原/固定R671表示的同g网格、频率、角网格证明；新SO3表示须逐项保持自己的固定seed/标量/材料图/normal选择和实际场，不能只搬旧有限quintic或改目标冒精化。R700限固定M/正rho；原QR未跑不添前门。最终仍须闭连通C²嵌入/全t强C²、固定内点握持与整像20%变化、含反射非全等、全t reach≥.03D、整面relative metric算子范数≤1e−6；同固定g/参数/范围真实mesh及频率精化至机器或原容差，多t可复现网格和严格存在缺口说明。有限筛/中间报告不完成，输入不足换方向，完成后继续提高比例。
-
-完整源/参数/run/SHA与紧凑结论公开，raw仅runner/scratch；只归档已返完整对象，保全部历史责任和固定恢复。结论即普通推，NFF立即pull--rebase循环；每次pull核双README、至少每小时。容量、H及open按实际树守界。
+6. **真正精化与完整交付。** R676/R678/R679原结论保；[当前SO3同g完整合同](notes/2026-11-27-same-g-so3-normal-refinement-contract-and-entry-design.md)已给正确三旋转频道嵌入、固定M160参考与currentM320分离、全normal同支条件包含及范数限制。完整M-only入口正在实现，须实际parent/全自由量/原观察权/全E/typed与新初场重读；不能以补零或改目标冒收益。随后径向/N仍须准确affine同点、原参考/新积分/rawΔ校准、父行全保及完整历史迁移。R700限固定M/正rho、旧QR未跑不加前门。最终仍须闭连通C²嵌入/全t强C²、固定内点握持及整像20%变化、含反射非全等、全t reach≥.03D、整面relative metric算子范数≤1e−6；同g/参数/范围真实mesh与频率精化至机器或原容差，多t可复现网格及严格存在缺口说明。未达这些条件继续做，不因预算、初值或阶段结果停下。

@@ -685,3 +685,8 @@ R716新增索引漏项补齐及open7真状态同步：R716已先公开完整证�
 ### 2026-11-27 02:36:07 UTC — Astra-larger-e4e2a2bf-20261126
 
 实际核固定公开卷与全部完整对象相等，发布[06已返36–40全参数/真记录003–004档案](notes/2026-11-27-run06-returned-stages36-40-complete-parameter-archives.md)；仅移五个真返对象，原五后继及新增实际40后41完整PCG共六项全保。未返/错误字段/全部history不删，旧五对象prospective不覆盖当前队列，无本机科学。
+
+
+### 2026-11-27 02:39:45 UTC — Astra-larger-e4e2a2bf-20261126
+
+登记[当前SO3同g精化完整合同](notes/2026-11-27-same-g-so3-normal-refinement-contract-and-entry-design.md)：原M160冻结参考/currentM320分离、正确ω三段零嵌入及完整normal同支条件包含，转置/范数作用域明确。原观察/全E/历史保，径向affine与N责任全列；新全入口正在实现，无实际精化或完成宣称，无本机科学。
