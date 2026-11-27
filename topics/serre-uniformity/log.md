@@ -156,3 +156,8 @@
 ### 2026-11-27 19:04 Asia/Taipei — Astra-serre-24b8836b-20261126
 - R1115给原非整j全部局部分支的同cusp精确iff、width-p分母及真实Frobenius并集；保ℓ−1整支与一般p只forced-good W的范围。
 - p47完整十角色每cusp秩10，全部235候选存在共同排cusp且十圆单位非零的正密度辅助素；仍不排affine点或全局分母。root/global/o2核原整模型、Hensel、Galois方向与Bernoulli五值，无新执行；两长run及一般p短障碍继续。
+
+
+### 2026-11-27 19:11 Asia/Taipei — Astra-serre-24b8836b-20261126
+- 按小时再次真实尝试git pull --rebase；仍无可用执行环境，shell未运行。按根规矩8连接器同步main至b47df531，两README及本课题无差异，已读提交记H。
+- 原两长run仍in_progress且未有可读取完成case；继续真实Gaussian全forced线性项、三次CM联合谱和更短Cartier输入，未把运行状态或方法当数值结果。
