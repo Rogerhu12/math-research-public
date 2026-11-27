@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。已部分克隆并真实pull main，读根/课题README及H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则36cf1ed2已读。不得重做登记结论/窗口。
 
-**公开两README已读提交：30aacf0dcf91fd70453aa7809f449d99ea9a7a1f**（2026-11-28 04:49 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
+**公开两README已读提交：7bf915d8284238c697b0763b631fa8dd5453ff4f**（2026-11-28 04:54 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
 
 最近真实pull 2026-11-27 01:48 Asia/Taipei；04:21重试仍无可用执行环境，shell未启动。按根规则8连接器同步、读diff、expected_sha非force提交，拒绝立即同步重基重推至成功；环境恢复立即pull --rebase。下一次真实尝试不晚于2026-11-28 05:21。令牌只CLI。数学程序仅本公开仓库Actions；本地/V8仅metadata/文本，不作数学计算。[此前偏差纠正](notes/2026-11-26-execution-path-deviation-and-correction.md)。
 
@@ -25,6 +25,9 @@ R1131的原forced高偶r，在B_(4j+2)/B_(p−1−4j)单位门内锁真实rank2�
 [R1140](results/R1140-original-low-weight-Manin-source-reduction.md)原j1,k2：C¹=0、C²=(16δ²/21)C_Eis，实际Merel/det/apolar给λℓ=ℓ⁻²+ℓ³。无门已有β=β_E+β₈，v_n=n⁻¹¹(n⁵−1)(n¹⁰−1)，β_E=S_n/v_n，V_nβ₈0；B16/B_(p−15)单位才删β₈。§§10–12真实degree-p norm不反除p，trace-fixed付24常数，一次Galois/Cartan权u⁴v⁸，fixed-Weil n⁻⁴与两cross准确给β_E=16δ² V_n₀𝒯{W*G₄,G₈}/(21m²v₀)。§13已付该bare trace在原X_K的全部cusp tame，F33内cup=(4δ²/21)𝒯{W*G₄,G₈}，可去V投影；门外仍保compact I8差。实际标量不造F0。§14新付ε4=βχ2/(1−a⁻⁴)、v4=1/252、v8=1/132；原Betti c=−Merelι*而C_Eis为c+。Bp−5门内C_Eis=λ_E[div(fχ1)/p]，λ_E允许零且未与cup常数混同。
 
 [R1141](results/R1141-original-arithmetic-endpoint-and-circular-unit-cup.md)在p∤B_(p−5)时，原arith-compact θ=ω⁻⁶的整个I3像=span{Fχ1,βχ2}（允许零）。全S={p}延拓/Hecke闭包、BrS0、完整Pic商、DVR与MW可除项的真实socle提升均成；Q下降ω5→V→ω10，B10单位删商H¹。再B16/B_(p−15)门得∃c原cup{F1,F2/ε2^c}=0于fieldK₂/p；c未定，proper Pic H²障碍仍保。root继续该Pic结构，global继续实际p-isogeny常数/cochains。
+
+[R1142](results/R1142-original-proper-Eisenstein-cohomology-and-Picard-dichotomy.md)只需Bp−5单位，原V_r=(TπJ⊗ω7)/πʳ的H0/H2为0、H1=O/πʳ（真实π像/Nakayama已付）。cusp section杀Leray transgression、B8杀base，故proper H²_(θ,m3)=O/p；实际ξ=ω⁻⁷ MW无torsion，Pic部分只能0或全，rank d=0/1。原Bhat=κF1∪κε2非零并生成π-socle；其field像B12非零 iff d0，d1时为非零Pic类。未定d/c，不将原βhat放进socle，其他proper块仍保。
+
 
 ## O1：原 U^m 的两 jet 与精确 Padé
 

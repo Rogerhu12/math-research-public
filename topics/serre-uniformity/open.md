@@ -47,6 +47,8 @@ R1140§14已付原ε4=βχ2/(1−a⁻⁴)、v4=1/252、v8=1/132，完整带权ta
 
 [R1141](results/R1141-original-arithmetic-endpoint-and-circular-unit-cup.md)在p∤B_(p−5)时付原arith-compact θ=ω⁻⁶的整个I3像=span{Fχ1,βχ2}，允许零。原torsor延拓全S={p}，Hecke闭包保支撑；BrS0/完整Pic商、MW可除项及DVR π支付真实socle提升。Q下降为ω5→V→ω10，B10单位删商H¹。再B16/B_(p−15)门得∃c原cup{F1,F2/ε2^c}=0于fieldK₂/p；c未定，proper Pic H²障碍与高cover不删。继续原p-isogeny端点标量/cochains。
 
+[R1142](results/R1142-original-proper-Eisenstein-cohomology-and-Picard-dichotomy.md)只需Bp−5单位，原V_r=(TπJ⊗ω7)/πʳ的H0/H2为0、H1=O/πʳ（真实π像/Nakayama已付）。cusp section杀Leray transgression、B8杀base，故proper H²_(θ,m3)=O/p；实际ξ=ω⁻⁷ MW无torsion，Pic部分只能0或全，rank d=0/1。原Bhat=κF1∪κε2非零并生成π-socle；其field像B12非零 iff d0，d1时为非零Pic类。未定d/c，不将原βhat放进socle，其他proper块仍保。
+
 ### 原完整X_ns^+(47)与旧整K₂输入：已完成，只消费
 
 [R1125](results/R1125-original-full47-rational-point-classification.md)已付原完整47Q恰八CM、全部4513 whole盘、全维高度/对数及后到q²审计。R1122/24和run46025141482的全部参数、来源及hash在原结果和[本次前态](open-archive-2026-11-28-before-low-weight-source-reduction.md)；不重跑固定47、41或旧窗口。原整K₂全cusp/Chen/Ohta残余仍为μp⊗odd J，R1131/32仅删各自门内块，不代整个K₂/p。

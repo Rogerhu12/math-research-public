@@ -1,5 +1,8 @@
 # 结论索引
 
+- **R1142（已证明，纸面，Bp−5单位）**：[R1142](results/R1142-original-proper-Eisenstein-cohomology-and-Picard-dichotomy.md)只需Bp−5单位，原V_r=(TπJ⊗ω7)/πʳ的H0/H2为0、H1=O/πʳ（真实π像/Nakayama已付）。cusp section杀Leray transgression、B8杀base，故proper H²_(θ,m3)=O/p；实际ξ=ω⁻⁷ MW无torsion，Pic部分只能0或全，rank d=0/1。原Bhat=κF1∪κε2非零并生成π-socle；其field像B12非零 iff d0，d1时为非零Pic类。未定d/c，不将原βhat放进socle，其他proper块仍保。
+
+
 - **R1140 §14（已证明，纸面，socle须Bp−5单位）**：原圆单位ε4=βχ2/(1−a⁻⁴)，精确Tate阶v4=1/252、v8=1/132；真Betti复共轭与Merelι*异号，原N/J下降使C_Eis在c+。该门内实际I3 socle给C_Eis=λ_E Pχ1，保原函数规范，λ_E尚未求值/未宣非零。[证明](results/R1140-original-low-weight-Manin-source-reduction.md)。
 
 - **R1139（已证明，纸面，准确条件）**：[R1139](results/R1139-original-compact-target-unsmoothing-and-bare-cup.md)：F33低mixed门下，原p倍divisor给compact cup lift；HS保Jacobian/base两层，geom H²(2)=μp的ω角色消。F=E+(1−E)V/v满足(F−1)²0，故全部smoothing在整个compact H²θ及Pic/Br商生成单位理想。由R1138严格得(4/m²)原cup=Ψ(完整两秩cycle)，公共核无歧义；该指定像仍待算，门外四阶不外推。
