@@ -1,0 +1,85 @@
+{
+  "schema": "isp-original-s1-json-typing-execution-boundary-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "run_id": 46073432475,
+  "job_id": 140755517927,
+  "actual_execution": {
+    "elapsed_seconds": 8.765704724999999,
+    "max_child_rss_kib": 122064,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "6b47479124cca8bb0327287a9958e3b063152cfc",
+        "before": "6b47479124cca8bb0327287a9958e3b063152cfc",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-27T21:56:07.228528+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46073432475",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "6b47479124cca8bb0327287a9958e3b063152cfc",
+    "source_exit_code": 1,
+    "source_git_blob": "77aae1bbc810c0bd8876840c451f131410deedf5",
+    "source_sha256": "b5866f576b74c4fa787366468d5143a32a4852787bb40dfd0d953c55e9aa5740",
+    "stdout_bytes": 2343,
+    "stdout_sha256": "6ce84b7bac692facf95bcaf8a37ba25ddc77e4235b8f9e02105f37c8fe7eb16e",
+    "stop_reason": null
+  },
+  "actual_original_stages": [
+    {
+      "complete_layer_dimensions": [
+        11,
+        5
+      ],
+      "event": "actual_sources_and_two_cubic_bridges",
+      "lower_dimension": 4,
+      "seconds": 0.0074355579999974,
+      "upper_dimension": 6
+    },
+    {
+      "dimension": 6,
+      "event": "complete_inverse",
+      "label": "actual-upper-source-metric",
+      "seconds": 0.15426292000000075
+    },
+    {
+      "dimension": 5,
+      "event": "complete_inverse",
+      "label": "full-lower-height-2",
+      "seconds": 0.412110693999999
+    },
+    {
+      "dimension": 5,
+      "event": "complete_inverse",
+      "label": "full-lower-height-3",
+      "seconds": 0.8849470020000041
+    },
+    {
+      "dimension": 4,
+      "event": "complete_inverse",
+      "label": "lower-Gamma3",
+      "seconds": 1.1497302080000011
+    },
+    {
+      "dimension": 6,
+      "event": "S1_actual_matrix_ready",
+      "seconds": 8.411592071999998
+    },
+    {
+      "dimension": 6,
+      "event": "same_source_symmetric",
+      "label": "S1-original-three-tower",
+      "seconds": 8.546270471
+    }
+  ],
+  "exception": "TypeError: Object of type fmpz is not JSON serializable",
+  "location": "coefficients: negative_examples used list(exponents)",
+  "mathematical_status": "The full original S1 matrix and symmetry returned. No leading-minor certificate was emitted. No S1 positivity conclusion.",
+  "next_change": "Only convert exponent metadata to Python int; stop on the first nonpositive coefficient certificate. Resource limit unchanged."
+}
