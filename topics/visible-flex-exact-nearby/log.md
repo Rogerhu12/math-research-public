@@ -148,3 +148,9 @@
 ### 2026-11-27 GHX：同一实际selected外盘嵌入与本片reach
 
 已证明/4新exact组合首次全过。whole tail+finite+filleddisk相对同γ实际radial reference（同λ/oneplacement）physicalC²差<2^-46M；水平投影全局co-Lipschitz给actual片嵌入。完整凸材料域最近点lemma含boundary，用global c≥7/8和D²F≤17/8得reach≥49/136>1/3 physicalunits，未以曲率上界单独冒reach；normal差16ε/II差64ε也付。仅同一实际片，不把旧analytic label当finiteSobolev对象，不授core union、另一片cross距或最终closed reach/D。
+
+### 2026-11-27 BNC 首次实际入口与完整DWTB9前驱
+
+DWTB9 45935081577/1于04:35:55全9success，actual24958B SHA2658db04a88e92f88b26aed145db41401311dce3e63a8ba05d32d69dd915e158，exec27035B SHA94f1a5a87ff3215443c9fa8950ad037f10e225752d3fec9bd6e00f9fa75d01d7。e_w∞≈.347099250283449/e_w2≈.0646368666448015，全finite B†residual≈.0145911772738716、fullrowerror≈.857445102118870、J≈9.7971921608898；全误差如实保。原2048 w与96×192 signedB rows完整SHA已锁，actual proof另登记。
+
+据真whole生成BNC首manifest76380B SHAa6655051c571970a407fad139fa9485251f4091835db7b6e5e2468ea181ef42b，179current/51原native，DW9/NP2/PO12/SB11四父whole全部成，原6源码不改；metadata按同generator build生成，无本地Python/science。改.github/workflows/fourfold-codazzi-target-normalized-strict-nu-public.yml作唯一push首7目标入口，恢复只原SN/NP/row whole SHA，不重旧目标/不dispatch。
