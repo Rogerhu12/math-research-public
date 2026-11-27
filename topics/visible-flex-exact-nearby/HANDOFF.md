@@ -1,11 +1,11 @@
 # 交接：可见振幅的精确闭等距族
 
-维护会话：visible-exact-astra-fb31ed6-20261127；更新：2026-11-27 00:49:56 UTC。
+维护会话：visible-exact-astra-fb31ed6-20261127；更新：2026-11-27 00:55:15 UTC。
 **总任务未完成，持续研究，不等用户回复。**
 
 ## 已读规则、授权与接续
 
-2026-11-27（台北）已 partial+sparse clone 两仓库并 pull main，读根全部规矩、课题README、H/open、当前log及接续notes。公开根/topic规则已读至95b2228d7d1ae776c7d3363cf2384dd8d5b6edf1（相对12385db35无diff）；私库00:40:23 UTC pull根规则核至d1a0702dc42704c13c138c179a36b295668314fe，QUEUE接手已推594e561b05a758bd8c02840ca4fbf574cd707436。每次pull核两README差异、至少每小时一次，非FF立即rebase再推。令牌只CLI。无AGENTS。
+2026-11-27（台北）已 partial+sparse clone 两仓库并 pull main，读根全部规矩、课题README、H/open、当前log及接续notes。公开根/topic规则已读至c5cbf6cd63acdc12c99d9daa3ed765655fbbaf50（相对12385db35无diff）；私库00:40:23 UTC pull根规则核至d1a0702dc42704c13c138c179a36b295668314fe，QUEUE接手已推594e561b05a758bd8c02840ca4fbf574cd707436。每次pull核两README差异、至少每小时一次，非FF立即rebase再推。令牌只CLI。无AGENTS。
 Actions计算；本地只证明/静态/metadata。规12不增审批复核、每结论推送；规15 topic≤200MB、H<10KB、禁可重建大数组。前H/open递归历史保全部记录，成功禁重。
 
 ## 同一对象与最终标准
@@ -22,7 +22,7 @@ geometry43584188751/26仅在同η0全core含帽物理C0≤1e−4、|δν|≤1e�
 1. **PS→SL。** [ASP](results/R142-supplement-actual-complete-streamed-defect-and-signed-loop-continuation.md)：45880363964/1全155母格/1424cells/193atoms及6球，body门ε≈64.097636、含点whole≈64.855555；job只球后containment失败。完整SHA/旧76+新79/取消被自动审批拒绝保旧H/proof。禁止DP/重积分，不推算子奇异。SL首45916550302/1是UTF8 str交bytes digest失败，0child/0targets/no marker；[明确续接](notes/2026-11-27-low193-signed-loop-utf8-zero-science-continuation.md)只whole UTF8 encode/前驱准入，99pins其余95不变，19500s。唯一45917913526/1（event0c4f842d）在算。
 2. **完整positive58→224→32→PN56/CXN6。** 原入口/proof保旧H，须真低逆；前驱未齐无manifest。14ports/单位/同因三角/aux Ec*e/BH KW/Ni/root96/两mean/ν全保，square过才消原L²r head。实际6/56、physical/negative真列与fullSchur仍待。
 3. **TC真96。** 45889161044/1仍运行；whole signed矩阵/waist首目标已存，00:30公开prefix848/7724，三目标584球未齐。原8source/4whole数组/runtime/cubic/14Z/同float proposal修复与exact cuts保[恢复记录](notes/2026-11-27-true-root-trial-input-restoration.md)。[TCX](results/R149-supplement-disjoint-same-trial-cell-continuation.md)只真终态后一次恢复/≤3互斥fork续缺域，5×96原子ledger/continuous prefix/union分明。SC须whole58/224/32+TC3+RW96+JC7，只physical/incoming配对，不冒Θ/B^-1全列。
-4. **原alpha/Θ。** AS首45906100247全SN SHA恢复后raw192被错限128而失败；[ASR](results/R149-supplement-original-alpha-full-source192-and-ended-first-attempt.md)同修radius/strip/head/alias/tail，原SN128不变。唯一45914639857/1在恢复，00:36原SN1130/3146intervals/4520subcells，新alpha目标0；未冒whole SHA已齐。OT未运行两源已同步ASR，whole ASR成即生成原OT首次manifest（10新scalar+96×2240）。TQ/TQL原low96精确等距/whole joint误差保；[TQC](notes/2026-11-27-original-Theta-low-square-first-target.md)四whole载体→11新球/严格square入口已齐，B=0必false，门过才授原Θ逆；真实finite high反馈/fullSchur另付。
+4. **原alpha/Θ。** AS首45906100247全SN SHA恢复后raw192被错限128而失败；[ASR](results/R149-supplement-original-alpha-full-source192-and-ended-first-attempt.md)同修radius/strip/head/alias/tail，原SN128不变。唯一45914639857/1在恢复，00:36原SN1130/3146intervals/4520subcells，新alpha目标0；未冒whole SHA已齐。OT未运行两源已同步ASR，whole ASR成即生成原OT首次manifest（10新scalar+96×2240）。TQ/TQL原low96精确等距/whole joint误差保；[TQC](notes/2026-11-27-original-Theta-low-square-first-target.md)四whole载体→11新球/严格square入口已齐，B=0必false，门过才授原Θ逆；真实finite high反馈/fullSchur另付。[BW](results/R149-supplement-first-signed-target-w-carrier-from-complete-alpha.md)原target w=v_i−α的5件首次载体/4误差入口已齐，whole ASR之后才manifest；同次必要restore原样记录2048球、先核原全SHA，旧coho/α目标0，OT优先。
 5. **strictν/phase实际非零。** NP45893562391全2、NH45897599620全12、PO45903437912全12、APA/ASB45908403884全11均锁。ASB Dν<6.289073e−7、interior L²rL²<6.765672e−6、物理幅度(−.006275,−.006264)、α归一(−.008203,−.008188)、high97<5.330e−5、cos96error<6e−7。[APHI](results/R147-supplement-actual-nonzero-phase-border-of-the-strict-parameter-particular.md)45915169627/1全6/6 rc0；131两腿germs/1572wholepoly/2545新交片/NP4数组全SHA，旧目标0。全三球有理重组相位(.038736784,.038768096)、逆<25.82、物理幅度比(−.161991,−.161576)可行消元；actual SHA0bedee9032270a0b0a24ed5af57bc7773a8a6f0b8d913e19cdc7593f877a163e。原零目标失败/等义整数幂修复保。仅strict particular，非fullregular或完整νphase Schur。
 
 [RH](results/R147-supplement-relative-height-carriers-and-short-full-frequency-errors.md)另付原selected[0,.18]全L²状态到相对position<1.44/axialframe<17/16；实际Q_b/F_b独立，physical body<2.65及coordinate项保真实Fφ。完整NP误差为1.792904e−5||ζ||2+1.415847e−6||Cθ||2，后者须实际界；未造绝对signed height。

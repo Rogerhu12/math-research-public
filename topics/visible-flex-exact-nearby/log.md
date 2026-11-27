@@ -413,3 +413,6 @@ NS五件共129172B，owner71056B SHA18db439d5895e4232882940a57b7bd9457982383e1ac
 
 
 2026-11-27 00:49:56 UTC / visible-exact-astra-fb31ed6-20261127：登记FX两件，27新有理组合已全过不重。真正fixedφ long PDE完整拉回，保j−1函数参数/physicalmean primitive/两endpoint lifts/curvature逆/holonomy/两mean/height/Robin。实际Jacobi loop<.015991211、curvature差门<.212688447、even chart<.029727123、归一四参数<.247725209与二阶moment<100；无unknown L²复角composition。全signed Fourier Taylor核及原N±1/6/W权给allorder commutator，单raw端点A^{n+2}，最高边界反馈仍原QN .0025；physical source单位另付两height导/整数buffer。正侧whole closure继续。RH已推95b2228d7d，两README无diff。
+
+
+2026-11-27 00:55:15 UTC / visible-exact-astra-fb31ed6-20261127：BW五件完整首次target w入口登记，source AST/生成publication AST与definitions已过，无本地numeric。原同phase w=v_i−α，原OT.restore_AS必要一次恢复里只读包装WholeQuadrature.next、返回同一球，原raw/grid/alpha全SHA核后才新v_i/w四误差。完整source H³/两符号/analytic/alias/mean与truephase保，精确Fraction相减，不重复旧NWA/ASR科学。whole ASR尚未齐，不造manifest；一齐先OT，BW后。FX已推c5cbf6cd63，两README无diff。
