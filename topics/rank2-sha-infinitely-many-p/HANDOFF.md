@@ -25,11 +25,9 @@ R959/R970–983固定E65/E65³/E260/E54925/E8125的rank≥2、全有限角色/�
 
 R1016–1034原平坦迹、全39/13字/Miller/CM36 Hermite/第一primitive与曲率全部保持。原old差−61(p+1)log(π/barπ)/18480及R1025组合λ1−10λ2/81为单位，仍须同一真实canonical坏条件迫同原读者深零。a_P、裸连接单位、单词或边界满秩不能给新canonical零；原三物理像rank不能相加。
 
-R1021§§16–18同一hχ整两frame/M̂B=M/source C²顺序及所有高低费用齐。w=χα(2P)对E2严格不变，全456简单极映十二E4余点，whole S10 h=−√3h，39尾K=H；第一分量全部Cartier的[2]迹零。r=p,b5的C³η0=xP3/B2²ω，B2=X²+20X−8，严格关系11p0+4p1+8p2−128p3=0；另外三槽和第二holomorphic项保留。ν=C²η的同一c在三T_r给ν0/ω=−c/3、ν1/ω=rc/3，Qw(−1)=Rw(−1)=−243Qw,top；全4+5槽/两个invariant标量齐。R=x(X+4)/y³有DR=−v2和[Q̂†,R]=16y2，仍须全source/全M消元，不能把v2移过C²。
+R1021§§16–18的w=χα(2P)、whole39/13/36、两frame、原M̂B=M及4+5 Cartier槽/同一c/两invariant标量已经付；R1034保持实际Q†、全部高低费用和source C²次序。具体公式逐字保在[本次前交接](notes/2026-11-27-handoff-before-common-six-axis-carry.md)及原证明，仍须同一canonical forcing。
 
-R1034§11原χα与新w不是同一Q；旧Qtop和第三C的Q(−1)不同。逐word Q†真正用y(P−Ri)、原G(P)，偶投影前p²帽及安全极帽p³+p²+(7−b)p、Ri额外≤4/其余≤1、两exact/φ*/cut/曲率/留数保持；施伴随后其它b5页重现。E2译源须完整翻权，原单位不代forcing。
-
-R1037完整378谱已实付：run45973650826/job140419911466/source22ac87ec033d658aa19b32d417c493f5748aa122，334全fibers/原390输入hash/三64列/2、δ、7和所有幂等回乘全齐；30非零块、90零标签。唯一整质量零线(A5,C4,H2)rank1、δ-new9/dyadic−/7new；X62=1/order6/den91，A/B/diff系数−185328/35、−160056/835、−29829384/5845。whole向量hash5d578c544bb1e01467c49837f1c579c172a014376e969fcc868ea458409c2b7b；完整报告/两stream回执见§9，生成数据不入库。29其它块和B12费用未删。
+R1037 run45973650826/job140419911466/source22ac87ec033d658aa19b32d417c493f5748aa122完整334 fibers/390原输入/三64列及2、δ、7幂等回乘均实付，30非零块/90零标签；唯一整质量零线(A5,C4,H2)rank1、δ-new9/dyadic−/7new，全部向量及A/B/diff/hash见§9和前交接。29其它块、B12费用不删，不重算谱。
 
 R1038新E3969:Y²=X³+3969由两个Kummer手证rank≥2；ψ1的63三次逆扭/全导子47628齐。§§8–9付2/7/δ全部局部角色/54Gauss−9/root+/Hermitian[1]及α1真wild9向量，不混旧列。α1/7的全finite/Gaussian、原126/378来源与通常全Sha桥现已由§§10–13完整支付；普通及惰性各有r+corank通常Sha≤2ord原中央。
 
@@ -51,9 +49,13 @@ R1039§§7–8对固定EL:y²=x³−12x+20给无穷q≡−1mod3且a_q=0：真实
 
 R1039§9用真实实cyclic24商j域强化原无穷输入为q≡−1mod24且EL超奇异。奇数Norm与A²=−q使某自由cyclic24核固定，λ²=−q而所有24单位平方1；aux1/c两分支及全部坏集完整支付。原sqrt3边界两个点本身Fq有理，d=(q+1)/3被8整除，全Jac F²=−q保持；仍不代q+1素因子无穷或最高27权。
 
-下一步消费实际q11 R的完整零极/NQ的−3 twist Picard类，再将新全Jac Frobenius关系用于原两quadric和27有权对应。函数域和纯Jac等式不自动等于原最高AJ。
+实际q11完整除子已消费；继续原四点谱盖/Pell/真实半Norm，将新全Jac Frobenius关系用于原两quadric和27有权对应。函数域和纯Jac等式不自动等于原最高AJ。
 
-## 四、继续工作
+## 四、新六轴的真实必要行
+
+R1040完整原框架Gram=(126,3,6,51,2,2142)、det=−12852δ，小方向C=H/J=F给整B3⊗Θ纤维，A*(DE5ρ)=−1120bΩ6η/9，D5与3E30分别保真实χ65/χ10 whole核。三支carry保全部Y/K/L/M且准确回39δuD^nJ126,17；旧五深单单位域不适用，全部补域保。§8再由完整Hesse/两个S6恒等式分离K主型F6−=σ6(X−2b)，实际(Y,L,M)三变量来源见(45)；任意principal K连续权可合法附加(48)，L/M mixed不能赋零。norm17矩阵(3,4;−2,3)是实际混合，未把51/2142只按范数贴成canonical线。
+
+## 五、继续工作
 
 O4最早a≤1/δ²、O6全Np/原q_p=1、O7同解共振/全Laurent/非恒Y权、R953跨parity与R954真正forcing成员性均仍开。完整参数/旧门在open与归档中，未以压缩删去。
 

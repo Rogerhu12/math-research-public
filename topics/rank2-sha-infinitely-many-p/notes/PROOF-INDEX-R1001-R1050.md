@@ -100,3 +100,6 @@
 
 
 - 原q11 Prym Norm全除子run45980566265/job140443090086/source4b315bb783233d98ce623d99fa3dffdca9228683实际成功；R零极各20，原负∞simple零/三分歧极阶3,4,4；NQ在准确−3 twist零极各24，全部闭点/厚支/∞齐，两个有效类确为O。完整双Norm和Cantor均返；各指定高次支不单独置零，后继保原27权。 证明与必要完整坐标见[原Prym除子](2026-11-27-original-q11-g-cover-prym-divisors.md)。
+
+
+- [R1040](../results/R1040-new-e3969-whole-companion-frame-and-sixth-degree-carry.md)：R1040从原E3969六sigma给完整Gram=(126,3,6,51,2,2142)/det−12852δ；H/J全纤维B3⊗Θ和精确DE5条件矩形成四输出carry，whole χ65/χ10绝对号分别保留。§8用全Hesse及两个S6身份精确分离K主型σ6(X−2b)，给实际norm17混合和(Y,L,M)三变量全源；坏中央可附任何principal K连续权，原单位cut/补域及L/M mixed均保持，尚无联合无穷非零。
