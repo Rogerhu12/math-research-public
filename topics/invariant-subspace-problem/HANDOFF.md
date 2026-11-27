@@ -5,12 +5,12 @@
 ## 目标与规矩
 
 - **普通复可分无限维 Hilbert ISP 未完成。** 只以全体有界算子定理或完整反例收尾；子题/时间/输入不足均不停止，按open换输入继续。
-- **最近实际 pull / 已读规则提交：** d36722603878cb4671b5b9c96f350ef808780bad（2026-11-27 13:48:11 UTC，Actions run46010204453实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-8542/46010204453-1.json。
-- 私库QUEUE本会话进行中已实际核验；最近真实pull为2026-11-27 13:48:09 UTC/30912f18cd48164856594c52a8d462b85b7cfa2b，根README diff无变。公私均部分克隆blob:none。
+- **最近实际 pull / 已读规则提交：** 04575baa9f6841e1eb9e805098f117a579396d61（2026-11-27 13:50:51 UTC，Actions run46010598731实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-8542/46010598731-1.json。
+- 私库QUEUE本会话进行中已实际核验；最近真实pull为2026-11-27 13:50:51 UTC/fd6a7035ab6bccf972e15929912354bab20b94bd，根README diff无变。公私均部分克隆blob:none。
 - **终端再次断开：** 约07:20 UTC起本地执行器不可用。按根规矩8/13小文本准备、公开Actions真实pull/rebase/push，非快进立即循环；旧故障与准确源保[说明](notes/2026-11-27-executor-outage-and-unpublished-small-input-checkpoint-8542.md)，未冒称本地恢复。
-- **终端断开后远端已读：** `6a79341b77b1b64b4eb12b641376a2d88cc4b947`（2026-11-27 13:47:47 UTC）；只读检查不冒称实际pull。
+- **终端断开后远端已读：** `04575baa9f6841e1eb9e805098f117a579396d61`（2026-11-27 13:50:30 UTC）；只读检查不冒称实际pull。
 - H<10KB、MD<100KB、open尽量<30KB、题<200MB；只留源/参数/SHA/小回执，不留可重算大输出，不写根LOG。课题外workflow改动已记本题log。
-- 所有被压缩的精确结论/来源/失败身份保[最新完整H](notes/2026-11-27-handoff-before-entire-D27-exclusion-8542.md)、[open](open.md)、[结果索引](results.md)及归档链；省略不算关闭，已登记不重做。
+- 所有被压缩的精确结论/来源/失败身份保[最新完整H](notes/2026-11-27-handoff-before-collision-rational-original-return-8542.md)、[open](open.md)、[结果索引](results.md)及归档链；省略不算关闭，已登记不重做。
 
 ## R150 总图与当前一般支
 
@@ -33,7 +33,7 @@
 
 - **一般ell=0全闭，全局付ell。** 全三头曲线、1146次QQ覆盖及404余因子/u2/u半均原返回；完整来源保总定理与归档，不加W/Q边界、不重放。
 - **旧D≠0图T0=0全闭，可付T0，不外推h=k。** F4/J4整原返回后QQ4原48×35返1（cd05afd9，0.625秒/exit0），不重放。一般头[0,2,3,4]=2u⁴Q(Q−1)³M²ell·T0(J−Q)。
-- **h=k,b=c整个原碰撞支新全闭；Delta0 h1/k1≤6219保留。** c2d6在完整QQ(lambda20)恢复原Q一次，保自由f重建全部八式，E1/EBe真Bézout1；46逆/9除法全返，真0.289秒/41412KiB/exit0。合f5e已闭Delta非0，现整个碰撞可付u−ell，不借旧D单位。根新46c5首返h=k,T0=Delta0的唯一原有理基点lambda1/3,u125/123，保自由f/八原式，120秒1GiB；其余不等权图开。
+- **h=k,b=c整个原碰撞支新全闭；Delta0 h1/k1≤6219保留。** c2d6在完整QQ(lambda20)恢复原Q一次，保自由f重建全部八式，E1/EBe真Bézout1；46逆/9除法全返，真0.289秒/41412KiB/exit0。合f5e已闭Delta非0，现整个碰撞可付u−ell，不借旧D单位。46c5仅全lambda身份已返，参数段漏装致NameError/exit1，Gram未起；新402d补原段首返lambda1/3,u125/123自由f全八式，120秒1GiB。其余不等权图开。
 - **Phi0/h1≤32基点/四norm单位及整H8原纤维新闭。** 883真7.019秒/62952KiB/exit0，完整QQ(lambda)/H8上rho2/ell2代数维4，32个原生成元rank2；真同点单位U²全标签返原理想，未把秩2说成4。新4e76原27阶H8局部赋值/真实余式Gauss，120秒1GiB，尚不宣h1或全Phi0闭。845无增益冻结。
 
 ### rankH3原ess6
@@ -59,5 +59,5 @@
 - 全C强*密度/喷射/UHF零交已付，不付PH入域。指定正连续循环f的PX_f全柱无界、C1∩Cf0/无可闭性已闭，普通分母路线冻结；只续实际闭根/湮灭的特殊来源。
 - 闭稳定根+DomT⊂DomT*+有限幂有界已足够。R143实际S=T⁻¹闭稳定，S²=alpha0⁻¹B1|K且原D为图核心；余RanT⊂RanT*。慢D=−2Z在未知L的稠密像、伴随域和有限放大稠密条件仍未付，不能套全尾整除。
 - 同一GR=RT+Q及完整C自伴性可给P=RQ真正入域；原喷射迫R/Q平坦。q∤p根的Q=FZR+KR第一阶接口整类已排，完整q²结式/R171/Puiseux保真域；未知底空间的实际gauge识别仍开。原第一阶正则器ell1时C∩UHF单位，非ell1时全喷射平坦，不付另一分母的未知限制。
-- **原Haar解析来源的两项精确限制已付：** 非零Mz不变解析流形的同g输出闭包为C_A(g)；真闭理想的Sobolev映射紧单射，有限来源球距g正、逼近源范数趋∞。新同向量非对称双幂分类：sigma(T)={1}、d=floor r时，增长O(n^r)恰lambda=(-1)^d对应(T−I)^(d+2)x=0，否则幂d+1；有完整局部分布证明。原Haar非常数解析F(A)、F(0)≠0及伴随均无非零这种来源；负整数边界/紧扰动/真实Green不在该排除内。仍未付非循环g、N=M或未知域。
+- 原Haar解析来源的循环闭包/真闭理想源费用，以及同向量非对称双幂的完整分类与Haar解析单位多项式增长排除均已付，精确边界/源/证明保最新完整H及results，不重做。非循环g、真实Green/紧扰动/负整数边界、N=M及未知域仍开。
 - 原G_reg同forcing/carry、循环性、交织/子商损失及全部归档未闭接口继续。全H稠密不传未知限制；正常态不代边界奇异态。

@@ -1,0 +1,60 @@
+{
+  "schema": "isp-T0-Delta0-first-rational-source-assembly-failure-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "execution": {
+    "elapsed_seconds": 0.07432700699999373,
+    "max_child_rss_kib": 36768,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "3c14fd74ab58e34a6a1f07bad3aa7e907df8d33f",
+        "before": "3c14fd74ab58e34a6a1f07bad3aa7e907df8d33f",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-27T13:48:34.855825+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46010258579",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "3c14fd74ab58e34a6a1f07bad3aa7e907df8d33f",
+    "source_exit_code": 1,
+    "source_git_blob": "da8025f1d37144b5d4a6169ddc305d6eb7e105a3",
+    "source_sha256": "46c5885df0e53189ac394951472b87579754fbe2263a6c207fe3cf11d0a5b0ae",
+    "stdout_bytes": 485,
+    "stdout_sha256": "c167e12f76f89fe6cf36d1bd76a36f6c26ed290c4a5a04e7798fb6faba007785",
+    "stop_reason": null
+  },
+  "jobId": 140543668855,
+  "actualCompletedMath": [
+    {
+      "ellPlusT": "A^2*lambda*(2lambda-1)^2/B^2",
+      "NFOnT0Zero": "Q*(3lambda-1)*(2lambda-1)/B",
+      "bothIdentitiesActuallyReturned": true,
+      "noOldDNonzeroWeightTheorem": true,
+      "stage": "new_original_collision_T0_affine_global_lambda_identities",
+      "seconds": 0.0009023319999812429
+    }
+  ],
+  "error": {
+    "type": "NameError",
+    "message": "name 'T0' is not defined",
+    "sourceLine": 102
+  },
+  "cause": "Source assembly used indexOf('H=bc*Delta'), which selected the introductory docstring before the actual A/B parameter block. The resulting parameter slice was empty.",
+  "scope": {
+    "globalLambdaIdentitiesActuallyReturned": true,
+    "originalGramConstructionStarted": false,
+    "freeFOriginalGcdStarted": false,
+    "noMathematicalExclusionClaim": true
+  },
+  "continuation": {
+    "sourceName": "2026-11-27-unit211-equal-singleton-T0-Delta-zero-complete-original-rational-return-8542.py",
+    "sha256": "402d5ce112bbd862d8eaedc5a2447f058bb097d229c6621d5daf04203108dd97",
+    "fix": "Restore the untouched original parameter definitions through exact newline-delimited code markers; specialize Q=2u(1-u)/ell before the original weight construction. Do not rerun the already returned global lambda identities."
+  }
+}
