@@ -9,3 +9,7 @@
 ### 2026-11-27 14:56 Asia/Taipei — Astra-serre-24b8836b-20261126
 - R1099原2处Q8实际标记稳定子、wild finite-flat coarse商及Gross ramified quasi尺度给G2(n)=S2(n)/8，完整r2稀疏式保全部Gaussian/anti和half-lattice。
 - root/global亲读Gross并核原47区别；14:53真实pull仍无可用环境，shell未运行，按规则8同步两README后继续。2/odd-good/47公式均已付，下一步原首global高度实际值。
+
+### 2026-11-27 15:03 Asia/Taipei — Astra-serre-24b8836b-20261126
+- 提交原Γ(1)首全局高度新请求：全奇好/2/坏47实际交数及正号Fermat商，五维Brandt标定E4/E16并独核q范数，不扫q²全部核。
+- 课题外新增.github/workflows/serre-full-p47-first-global-CM-height.yml，仅本课题；固定Sage10.6数学900秒/reserve30，零值合法。只存代码/参数/hash，真实回执待读，继续其它原障碍。
