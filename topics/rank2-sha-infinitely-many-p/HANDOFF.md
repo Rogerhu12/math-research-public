@@ -14,8 +14,8 @@ root独占git/H/open/log/index；每条结论即推。非快进立即实际pull 
 
 - 最新两库实际部分clone/pull --rebase：只读CI run46056864071/job140701375150，request/source8c0a6116c5d383a4e7a96bbef879741dade23712。公开19:27:55UTC至420002f268f6978049cb9575a456630e6c363c5c，较7ed56a67bd6f914757323c81c83989f356967af2两README无差异；已读blob282e86b03385d3b6245ce7100ae2e2af7b103c2d / 2f3b3c9264fbba8189f85716e68f768830e921bc。
 - 私库19:28:00UTC至e5971fbad30f1a658de11feffd69e0fd7ab9fcd5，较a1ebea946d9dd3538cea32ad18d12597c4dbb75f两README无变；已读blob5ba164843b1f5802184178a82d786264404873a3 / 452d0127a4c3879807d70550d3eafd46c8fac642。QUEUE仍a01613b400f6cce6d89d2df6e34c836d9758386f，本行保持本会话进行中；认领提交41fe885610073f478b2f5a752461ca56cfd43f09。MR_TOKEN仅进程私库只读，私文不入公开log。
-- 本地07:20失联，19:26实际pull重试仍无环境；末次本地公开07:12的1cf10ac。CI实际pull、本地及API分记。**下一轮两库实际pull不迟于20:27UTC**；每次读两README新差异并即执行、记SHA。API最新main规则/topic比较不冒作pull。
-- 19:26首轮ref GraphQL UNKNOWN且main移动；本地pull失败后重比新父第二轮推92711daa，本轮CI实际补拉成功。最新rule15为3100blob/43,544,330B、无>5MB，三旧gzip输入证书不变；完整回执hash留log，不存可重算日志。
+- 本地07:20失联，20:00实际pull重试仍无环境；末次本地公开07:12的1cf10ac。CI实际pull、本地及API分记。**下一轮两库实际pull不迟于20:27UTC**；每次读两README新差异并即执行、记SHA。API最新main规则/topic比较不冒作pull。
+- 20:00两次ref暂时错误且main前进；本地实际pull无环境，重比后第三次成功推7a3dd34。本轮CI正补做两库实际拉取。末次rule15仍3100blob/43,544,330B、无>5MB；三旧gzip输入证书不变，不存可重算日志。
 
 ## 唯一原完整厚几何执行
 

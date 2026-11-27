@@ -1,7 +1,7 @@
 {
-  "request_id": "rank2-20261127T1927-after-ref-retry-both-rule-pulls",
-  "utc": "2026-11-27 19:27:39 UTC",
-  "last_rules_read": "7ed56a67bd6f914757323c81c83989f356967af2",
-  "private_last_rules_read": "a1ebea946d9dd3538cea32ad18d12597c4dbb75f",
-  "reason": "Actual read-only partial clones and git pull --rebase for both repositories after a publication GraphQL error and concurrent head change; compare root and topic README against the already read baselines. Keep private contents and credentials out of public logs."
+  "request_id": "rank2-20261127T2001-after-paired-ref-retries-both-rule-pulls",
+  "utc": "2026-11-27 20:01:03 UTC",
+  "last_rules_read": "420002f268f6978049cb9575a456630e6c363c5c",
+  "private_last_rules_read": "e5971fbad30f1a658de11feffd69e0fd7ab9fcd5",
+  "reason": "Actual read-only partial clones and git pull --rebase for both repositories after concurrent main changes and transient ref update errors; compare both README files against the already read baselines. Never print private file contents or credentials."
 }
