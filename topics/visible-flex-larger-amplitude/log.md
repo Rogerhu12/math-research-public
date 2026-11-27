@@ -527,3 +527,7 @@ R716新增索引漏项补齐及open7真状态同步：R716已先公开完整证�
 ## 2026-11-27 07:40:52 UTC — Astra-larger-e4e2a2bf-20261126
 
 - [09全批均值/剖面费用入口](notes/2026-11-27-run09-complete-reference-mean-profile-fee-entry.md)：7666/1742/0c7三全体、f9d1全再生器及41ac完整ready已刊并排原science/pure后；root7全文+3父、34/15/16原函数及三全数学类体原字核，32参数/48selector全保，原pending两对象不动。07:39:44真索引确认v2running、仅1–7返；未预填新场/批次/费用，连续normal/全角/六jet仍续做。
+
+## 2026-11-27 08:08 UTC：R90十Green检查点完整保全后移出
+
+第31轮移出十件899047B原生成输出；14完整源、43输入公开恢复、20全参数轴、原完整argv/真终态/每件SHA及紧凑实记录全部保留，R90结论与完整终包不改。源码/原值token和身份核查，无本机科学；双README在云核`9279b72ff46133c40105d3258543810493a6e611`无变，API不冒pull。继续09实际求解、同g精化和连续费用。详[完整记录](notes/2026-11-27-legacy-R90-green-checkpoints-retention-31.md)。
