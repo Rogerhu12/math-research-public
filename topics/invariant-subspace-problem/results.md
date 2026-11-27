@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [整个J2的四同λ原式及三u因子完整覆盖](results/R150-appendix-unit211-entire-J2-original-norm-cross-three-u-factor-cover.md)：新固定13阶QQ结式给57个u候选，原O全Q4头已付，至多456规范三元组；整纤维返回继续。
+
 - [四位五位全独立正权出生一严格1/2](results/R271-appendix-four-five-sites-birth-one-half-first-last-edges.md)：全部支持与真正特征系数整数944ms返回，首末边同常数；S2和六位不外推。
 
 - [Phi首头完整原F6三系数与D九次必要式](results/R150-appendix-unit211-Phi-zero-first-head-complete-original-F6-row-and-D-nine-necessary-equation.md)：a215真实10.754秒全MT递推/新三行BD，P9度73/41/9；保全部首头零及P6/P9共同纤维。

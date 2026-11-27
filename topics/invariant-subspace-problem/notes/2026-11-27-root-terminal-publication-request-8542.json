@@ -1,21 +1,17 @@
 {
-  "message": "ISP: prove strict half bounds for four and five physical sites and retain the failed S2 input",
-  "parentCommit": "127df511e8b47d7e263eae5cc31397e8c28209a1",
+  "message": "ISP: cover the entire J two collision fiber by three exact u factors and return original Q values",
+  "parentCommit": "8ec0d4e6efce0e731f3a30db67bb26694b531ba2",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R271-appendix-four-five-sites-birth-one-half-first-last-edges.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-birth-one-half-four-five-certificate-8542.mjs",
-    "topics/invariant-subspace-problem/notes/2026-11-28-birth-one-half-four-five-certificate-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-28-five-bit-birth-two-S2-full-source-SIGALRM-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-five-bit-birth-two-S2-full-source-SIGALRM-receipt-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-28-primitive-joint-source-numeric-screen-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-primitive-joint-source-numeric-screen-8542.mjs",
-    "topics/invariant-subspace-problem/notes/2026-11-28-primitive-joint-source-numeric-screen-8542-primitive.json",
-    "topics/invariant-subspace-problem/notes/2026-11-28-primitive-joint-source-numeric-screen-8542-birth-one.json",
-    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-four-five-site-half-bound-8542.md",
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-entire-J2-original-norm-cross-three-u-factor-cover.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-J2-original-norm-cross-three-factor-cover-receipt-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-J2-original-pairs-and-three-u-factors-exact-input-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-J2-three-entire-u-factors-original-Q-four-return-8542.py",
+    ".github/workflows/invariant-subspace-collision-j-two-finite-original-q-four-8542.yml",
+    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-J2-three-original-u-factor-cover-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -24,5 +20,7 @@
     ".github/workflows/invariant-subspace-8542-root-terminal-publication.yml",
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
-  "dispatchWorkflows": []
+  "dispatchWorkflows": [
+    "invariant-subspace-collision-j-two-finite-original-q-four-8542.yml"
+  ]
 }
