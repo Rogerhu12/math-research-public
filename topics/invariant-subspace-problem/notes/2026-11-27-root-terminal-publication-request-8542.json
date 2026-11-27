@@ -1,12 +1,15 @@
 {
-  "message": "ISP: prove proper actual single chain and common trace class intertwiner range",
-  "parentCommit": "97974e6ed90b9ab0f7f56efb51315be9b9eaea21",
+  "message": "ISP: return full equal value invariant weights and enter their actual equal weight face",
+  "parentCommit": "577832c359486d536aa59f544eecaee9803803c0",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R271-appendix-proper-single-chain-restriction-and-common-trace-class-intertwiner-range.md",
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-equal-singleton-invariant-weight-full-original-system.md",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-equal-singleton-invariant-weight-original-system-receipt-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-equal-singleton-equal-weight-original-Delta-nonzero-face-8542.py",
+    ".github/workflows/invariant-subspace-equal-singleton-equal-weight-original-face-8542.yml",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -15,5 +18,7 @@
     ".github/workflows/invariant-subspace-8542-root-terminal-publication.yml",
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
-  "dispatchWorkflows": []
+  "dispatchWorkflows": [
+    "invariant-subspace-equal-singleton-equal-weight-original-face-8542.yml"
+  ]
 }

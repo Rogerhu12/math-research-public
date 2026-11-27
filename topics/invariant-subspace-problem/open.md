@@ -182,7 +182,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 **[整个一般ell=0已闭](results/R150-appendix-unit211-general-ell-zero-complete-original-exclusion.md)，全局可付ell。** 完整来源/零域/失败身份保总定理及快照；T0=0和J=Q也已整闭，继续当前原值输入，不重放旧支。
 
-**[Delta0 h1/k1整λ半排除/6219基点](results/R150-appendix-unit211-Delta-zero-h-one-lambda-half-exclusion-and-6219-cover.md)已付，原ell/t/八行继续保留。** [一般h=k(D0)全原值/首一b4](results/R150-appendix-unit211-equal-singleton-values-full-original-Gram-and-Delta-quartic.md)的H=bcDelta正确；[新完整QQ因式](results/R150-appendix-unit211-equal-singleton-Delta-and-three-original-mean-factors.md)83ea真2.327秒/exit0，Delta4/24/4保持整四次，三均值剥原b/c与旧已闭λ半后为12/78/12，gcd1不宣空或有限。旧λ半依赖第五列物理秩排除，不能冒充裸理想单位。新d718首接lambda,u,Q权坐标的八原配对，180秒4GiB；h=k所有未付权面/Delta两图、其它一般Delta非0/E0/t头零仍开，不沿用旧D单位。
+**[Delta0 h1/k1整λ半排除/6219基点](results/R150-appendix-unit211-Delta-zero-h-one-lambda-half-exclusion-and-6219-cover.md)保留；[h=k(D0)全原值/首一b4](results/R150-appendix-unit211-equal-singleton-values-full-original-Gram-and-Delta-quartic.md)、[QQ三均值因式](results/R150-appendix-unit211-equal-singleton-Delta-and-three-original-mean-factors.md)与[新完整权不变量八原式](results/R150-appendix-unit211-equal-singleton-invariant-weight-full-original-system.md)已付。** d718真5.007秒/67312KiB/exit0；lambda/u/Q加rho²=1−Q，通过同一原B/C两行拆偶奇，八原梯度/最高目标均保持，E1/Lmean度50/12/6、N1 53/13/6；系数分母只A/B/Q/(1−Q)，不倒D/T0/Pf/S。新ba8a2306仅在此h=k图首作b=c即u=ell的Delta非0原全八式及QQ参数投影，保全部新头零，不移用旧D非0等权结论。Delta0首一b4、一般不等权与其它原权面/物理第五列仍开；旧λ半已闭不重放。
 
 [Haar解析理想像](results/R12-appendix-analytic-ideal-rosenblum-images-and-forced-source-divergence.md)只给同g循环闭包，有限Sobolev来源球距g正、逼近源范数发散；[新非对称双幂的精确局部分类](results/R12-appendix-local-asymmetric-polynomial-orbits-and-actual-haar-source-exclusion.md)进一步排除原Haar所有非常数解析单位化及其伴随的非零多项式增长来源。完整同向量恒等式和局部有限阶分布证明已付；这些限制不涵盖紧扰动或负整数边界。Rosenblum实际零点/ideal来源、真实Green范围、非循环g及未知闭根域继续。
 

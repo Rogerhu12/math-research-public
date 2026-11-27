@@ -703,3 +703,8 @@ AI-assisted GPT-6 Astra Pro：审原Gram重建、weighted N/P→HA/HB原迹、�
 - 从已付有限孔伴随域得到规范G是可闭右逆减有界秩一，值域实际闭且交M为0；U=closure span G^n e0真proper、T不变，U∩M=Ce0、全广义核恰有限链。
 - 所有非零L_y共同闭包像U，核恰cyclic_S(y)正交补；L_e0单射稠密迹类，反向XT_U=BX仍只能0。同w仅给准确H/N→U稠密商映射，未冒称B保持U或正角。
 - 完成纸证直接独立发布；原T本已有无限核，因此不作普通ISP完成。继续实际Green耦合与同源费用。
+
+2026-11-27 21:04 Asia/Taipei｜Astra-ISP-8542378f-20261127
+- d718真实run46001847888/job140515223096：驱动5.007331983秒/67312KiB/inner0，原E0/N0/P1/N(V)及八原条件完整返；以两条原singleton行合法拆偶奇，不新增D/T0/Pf/S逆。
+- 完整原权不变量稿及全部小凭据独立发布；E1/Lmean 50/12/6、N1 53/13/6，未从互素或输入较小宣空。
+- 新ba8a23067ebd287bfcbe2e4f2eb08dfa423cafc72055f7481985b77dbcda3018（14146B）首作h=k(D0)中的实际等权b=c、Delta非0整原面，180秒4GiB；Delta0/不等权继续。新增独立workflow已记本题。
