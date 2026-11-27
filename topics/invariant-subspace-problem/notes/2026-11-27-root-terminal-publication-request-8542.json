@@ -1,14 +1,14 @@
 {
-  "message": "ISP: submit full original W value and individual NP returns in four true generators",
-  "parentCommit": "eff9c32fb257a2151949b889f53987ad39c411d0",
+  "message": "ISP: record exact whole Phi zero specialization and same-physical-D sextic necessity",
+  "parentCommit": "1ec31af9e47a44bfdc9decd779280b2a786d5777",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-W-full-original-values-new-input-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-generic-LS-W-full-original-values-four-generators-8542.py",
-    ".github/workflows/invariant-subspace-w-full-original-values-four-generators-8542.yml",
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-general-Phi-zero-original-D-sixth-degree-necessary-relation.md",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-general-Phi-zero-original-D-sixth-receipt-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-27-open-before-Phi-zero-original-values-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -17,7 +17,5 @@
     ".github/workflows/invariant-subspace-8542-root-terminal-publication.yml",
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
-  "dispatchWorkflows": [
-    "invariant-subspace-w-full-original-values-four-generators-8542.yml"
-  ]
+  "dispatchWorkflows": []
 }
