@@ -11,7 +11,7 @@
 - 07:20UTC本地执行再次失联；09:09两库实际pull重试均明确No usable execution environment。私库API至e0944037db11cf7b9acb79a25f41e13417fde492逐两README核同06:47，QUEUE仍本会话进行中；不冒称实际pull。
 - 断连期间沿最新main API非force快进；每次检查README和本topic差异，遇新父重新比较/建commit。09:09公开API至ccb52315e1485916f867f7574c944b63dc40fac2，两README blob仍同07:12；最新父比较9文件，无本topic外部变化。恢复立刻补两库真实pull及README差异；令牌只命令行/进程，不落文件或API。
 - root独占git/H/open/log/index；每条结论即推，非快进立即pull --rebase、读差异、再推至成功，不强推。数学只用公开Actions。根规则15禁止存可重算输出；H<10KB、每MD<100KB。
-- [此次逐字归档](notes/2026-11-27-handoff-before-degree378-spectrum.md)及其完整历史链保全部旧式、回执、未付门和失联/同步史；[open](open.md)、[results](results.md)、[R1001–1050索引](notes/PROOF-INDEX-R1001-R1050.md)为实际接续入口，不重做已登记结论。
+- [此次逐字归档](notes/2026-11-27-handoff-before-e3969-independent-points.md)及其完整历史链保全部旧式、回执、未付门和失联/同步史；[open](open.md)、[results](results.md)、[R1001–1050索引](notes/PROOF-INDEX-R1001-R1050.md)为实际接续入口，不重做已登记结论。
 
 ## 一、唯一原几何作业及原生后端
 
@@ -39,17 +39,11 @@ R1032/1034旧β/γ的全39、N130、even/odd、六Weyl极/cocycle/原cut/Ξ及�
 
 R1037原两B12商全64列与二处D2、δ-old22/8/3、7-old20完整模型已付；最高42维含真九次角色，不当E/Q来源。13/19两算子只生成index3，31补全162参数；R302 Θ三绝对锚及真实norm189拉回固定A³=−I、H⁹=I。独立公开谱请求2026-11-27-original-degree378-complete-spectrum保334完整fibers、原K后端cross和所有源/投影回乘，4workers/3300s、60min workflow；结果待，不干预v10。旧原390回执没有完整向量，仅重建新商必需N7/N19并核原e80…hash，不调用旧全套。新host流式保全报告并核源/请求/两stream/hash，不缓存输出。
 
+R1038新增固定E3969:Y²=X³+3969，以P=(18,99)、S=(−5,62)和T=(0,63)的完整模3独立性手证rank≥2；φ/hatφ/两个Kummer/所有例外点齐。ψ=ψ1(63/·)3^-1、全导子2·7·δ4及Q导子47628，原N13/N19/N31=(-1,ω,ω²)，候选(A5,C4,H2)。未认R1037实际非零块、未给新J/中央零；继续全有限型/输入系数和通常全群桥。
+
 ## 三、原几何与固定最高循环
 
-R909/R906/R924–927原两图/微分/λ/vnew/∞/17均真回执，四交/全厚Norm/18×9仍待。原full54/η/Cor/−486接AJ²=KνKβ，R1002只付Kβ，ν未付；R885/897 corec1门、CM17K3全trace零、7993有限输入、mixed与1-motive旧排除均在归档保持原范围，不重做。
-
-R1014已发表HYZ B给充分大惰性q的Tate、MW=(q/3)A2、NS−q²和两Br0，未知q0保留。q5与q11三个固定D的负回执不重做。全η/Cor shadow被q+1杀，ordinary检测q≡−1mod6p；R1023原Hesse/有序cube和αT=S3不代同三型自提升，全部条件见原证。
-
-R1027原54正重数配成27、End=O34、全特殊端点与未知D的M/N费用齐；仅Tate大q最短anti Q高2q/3迫I3分量±1，D度(q−2)/3避T/−T/O。存在性不代实际Q/27权。
-
-R1029/1031原2挠C的f3/r2/Jac度3、所有惰性q≥5 Sel2=⟨gq⟩及全部局部条件齐；仅Tate大q付最短Q模2和twist Sha[2]=0。两quadric(19)/Norm/全坐标、稳定V/W theta R0/Fq下降、固定h/M与完整Frob乘法齐；Nm(h)=−2^7·3^10(r+a/2)/(r²X²)的两个单零仍不当平方。
-
-R1031§§12–16原Cδ=(A³−1)(B³−1)=9双向及Jac81、E±/κ/真3与9挠已付；Elkies1989实嵌入定理给无穷辅助ss q≡−1mod9及整J(Cδ) F²=−q，不代ordinary p。原g精确常数和h返回、平方根盖下降为U²=4s⁴/3+as²+a²/4，带原点及目标+R0的真2同源/j54000模型与−1/a全保。完整式与全部未付限制见原证/逐字归档；继续27有权评价。
+原full54/27、η/Cor及AJ²=KνKβ保持：R1002只付Kβ，ν未付，原四交/全Norm/18×9待v10。R1014 cofinite Tate的未知q0不能外推；R1027全特殊端点/最短anti截面的D度(q−2)/3/原27正权保持。R1029/1031的全Sel2=⟨g⟩对惰性q≥5，原两个quadric、Nm(h)两个单零、固定Frob矩阵与所有符号/下降齐。§§12–16原Cδ/Jac81/E±、Elkies无穷辅助ss q和整F²=−q、g盖真j54000二同源均已付；这不代ordinary p或q+1素因子无穷，也不把常曲线原点当原截面。完整旧式/回执和已排入口沿本页逐字归档/原证接续，不重做。
 
 R1036手证q11全部最短D的完整两类：单branch含全部重数/剩余域，或一条完整三点Y纤维。全(H,J)、厚J2、m整除、常数式及原三系数/端点齐；三个已付负域只实时读原成功job/hash后复用。实际run45968889219/job140404155125/source3d702b7bc21923e82270953022b09b0950bb4adf完整成功、唯一Q高22/3；全身份/hash在§9。D类Z4=(1,7)恰4挠、2Z4=P2，旧三个类仅P2。整MW=(11/3)A2、NS−121及两Br0已付，原shadow倒6仍零。§8任意q给唯一D=D0+Y*G、H0/H1可共享支点，N分母H0H1³、全线性b与精确norm极条件；它是完整模型，不代一般存在性/27权。实际lift45972624090/140416498782/sourcec5020fcd7f026ef21d4b69735b3a47b56148d258已返原两quadric/g平方根/x/Norm W，一次整体负号匹配原W；必要坐标/hash在两cover笔记§7，不重算全D；一般q的jW稳定k线已排，保谱二次关系。旧3P6笔记W次数更正10/9/8，不影响此前全2662对常数式零解回执、不重算。
 
