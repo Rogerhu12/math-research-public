@@ -1372,32 +1372,32 @@
   "parameter_reproducer": {
     "name": "make_fixed_fejer_frequency_ready.mjs",
     "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/make_fixed_fejer_frequency_ready.mjs",
-    "bytes": 17977,
-    "sha256": "02771941588369e3fe6435bcc51fdcb88ab8fd1d436bf9b309af87ed4e1f6496",
-    "git_blob_sha": "55149847e10bae4c77d3eb69685d2c7569d460ad"
+    "bytes": 18088,
+    "sha256": "813f51b37824c8790dc0e03e00d039ff272115c81eb994500eb0831a3e13500b",
+    "git_blob_sha": "a338a5a205a827dff81b2a7ddc86f5e3723ec3aa"
   },
   "complete_ready_files": {
     "independent": {
       "name": "fixed-fejer-frequency-M320-independent-complete-ready.json",
       "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-frequency-M320-independent-complete-ready.json",
-      "bytes": 98814,
-      "sha256": "1941939829a67aedf328277af9fe3446d711e2d9f502eae2cb5ca8a84d0ef149",
-      "git_blob_sha": "3111a25616f1e28b1f1e0d521c1dae036acdc68d"
+      "bytes": 99028,
+      "sha256": "1dfa646e1adec414acd8d5ea86f05ec28187831e684ccfb30460a590a2b7fc7b",
+      "git_blob_sha": "4d01ce7f102c66b5e8f5284bd633865ad557a31d"
     },
     "complete-parent": {
       "name": "fixed-fejer-frequency-M320-complete-parent-complete-ready.json",
       "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-frequency-M320-complete-parent-complete-ready.json",
-      "bytes": 98966,
-      "sha256": "900d195f35884aada85925e51df6372f8651f123be7cb37f66ae645140c98b83",
-      "git_blob_sha": "e10fce334aea173097ee2d79726f49dd2c7d3109"
+      "bytes": 99180,
+      "sha256": "6ae70d6f1236255fda6028e1b7edb8db5e900258b5248890fc07970d47707f35",
+      "git_blob_sha": "cf27437b77e32fac3c3ed1b7bdc736cff8ffb261"
     }
   },
   "complete_note": {
     "name": "2026-11-27-fixed-fejer-M320-complete-frequency-entry.md",
     "path": "topics/visible-flex-larger-amplitude/notes/2026-11-27-fixed-fejer-M320-complete-frequency-entry.md",
-    "bytes": 17618,
-    "sha256": "c213852d9ac93a2ff43e432a7235e5d3b6f9c4a7396fbcf16c8f4249264b5d83",
-    "git_blob_sha": "7cd0f6968e11aa268144d5581d3e387487618786"
+    "bytes": 18328,
+    "sha256": "b31f53f07b2bb3f38b84ca902c82fcf7fc9a99f5b4eebaaf27f09c3be79282a5",
+    "git_blob_sha": "095153ddd4a2275da421089240f227aa70851b73"
   },
   "actual_source_text_work": {
     "complete": true,
@@ -1529,10 +1529,11 @@
     }
   ],
   "complete_parameter_origin": {
-    "path": "topics/visible-flex-larger-amplitude/computations/undefined",
     "bytes": 92380,
     "sha256": "ab5c00086e21faaa5017ea469c4a63e7d389ecc3019b03a28e46b9daaa129578",
-    "git_blob_sha": "13eea0c110a7d98bef3736d1585aa57584402ac3"
+    "git_blob_sha": "13eea0c110a7d98bef3736d1585aa57584402ac3",
+    "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-immutable-point-complete-run12-ready.json",
+    "name": "fixed-fejer-immutable-point-complete-run12-ready.json"
   },
   "ready_execution_details": {
     "independent": {
@@ -1693,33 +1694,41 @@
     {
       "name": "make_fixed_fejer_frequency_ready.mjs",
       "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/make_fixed_fejer_frequency_ready.mjs",
-      "bytes": 17977,
-      "sha256": "02771941588369e3fe6435bcc51fdcb88ab8fd1d436bf9b309af87ed4e1f6496",
-      "git_blob_sha": "55149847e10bae4c77d3eb69685d2c7569d460ad"
+      "bytes": 18088,
+      "sha256": "813f51b37824c8790dc0e03e00d039ff272115c81eb994500eb0831a3e13500b",
+      "git_blob_sha": "a338a5a205a827dff81b2a7ddc86f5e3723ec3aa"
     },
     {
       "name": "fixed-fejer-frequency-M320-independent-complete-ready.json",
       "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-frequency-M320-independent-complete-ready.json",
-      "bytes": 98814,
-      "sha256": "1941939829a67aedf328277af9fe3446d711e2d9f502eae2cb5ca8a84d0ef149",
-      "git_blob_sha": "3111a25616f1e28b1f1e0d521c1dae036acdc68d"
+      "bytes": 99028,
+      "sha256": "1dfa646e1adec414acd8d5ea86f05ec28187831e684ccfb30460a590a2b7fc7b",
+      "git_blob_sha": "4d01ce7f102c66b5e8f5284bd633865ad557a31d"
     },
     {
       "name": "fixed-fejer-frequency-M320-complete-parent-complete-ready.json",
       "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-frequency-M320-complete-parent-complete-ready.json",
-      "bytes": 98966,
-      "sha256": "900d195f35884aada85925e51df6372f8651f123be7cb37f66ae645140c98b83",
-      "git_blob_sha": "e10fce334aea173097ee2d79726f49dd2c7d3109"
+      "bytes": 99180,
+      "sha256": "6ae70d6f1236255fda6028e1b7edb8db5e900258b5248890fc07970d47707f35",
+      "git_blob_sha": "cf27437b77e32fac3c3ed1b7bdc736cff8ffb261"
     },
     {
       "name": "2026-11-27-fixed-fejer-M320-complete-frequency-entry.md",
       "path": "topics/visible-flex-larger-amplitude/notes/2026-11-27-fixed-fejer-M320-complete-frequency-entry.md",
-      "bytes": 17618,
-      "sha256": "c213852d9ac93a2ff43e432a7235e5d3b6f9c4a7396fbcf16c8f4249264b5d83",
-      "git_blob_sha": "7cd0f6968e11aa268144d5581d3e387487618786"
+      "bytes": 18328,
+      "sha256": "b31f53f07b2bb3f38b84ca902c82fcf7fc9a99f5b4eebaaf27f09c3be79282a5",
+      "git_blob_sha": "095153ddd4a2275da421089240f227aa70851b73"
     }
   ],
   "new_file_count_excluding_this_manifest": 23,
-  "new_bytes_excluding_this_manifest": 1231934,
-  "source_retention_scope": "Every published source and full parameter remains available; draft checkpoints are archival authoring scratch and are not runtime inputs or scientific gates"
+  "new_bytes_excluding_this_manifest": 1233183,
+  "source_retention_scope": "Every published source and full parameter remains available; draft checkpoints are archival authoring scratch and are not runtime inputs or scientific gates",
+  "parameter_metadata_correction": {
+    "scope": "INPUT name and exact whole parent ready path; all science/pure step objects unchanged",
+    "original_reproducer_sha256": "02771941588369e3fe6435bcc51fdcb88ab8fd1d436bf9b309af87ed4e1f6496",
+    "all18_runtime_sources_unchanged": true,
+    "whole_source_reproducer_unchanged": true,
+    "both_complete_step_objects_unchanged": true,
+    "source_only_no_science": true
+  }
 }

@@ -11,7 +11,8 @@ const INPUT={
   "bytes": 92380,
   "sha256": "ab5c00086e21faaa5017ea469c4a63e7d389ecc3019b03a28e46b9daaa129578",
   "git_blob_sha": "13eea0c110a7d98bef3736d1585aa57584402ac3",
-  "path": "topics/visible-flex-larger-amplitude/computations/undefined"
+  "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-immutable-point-complete-run12-ready.json",
+  "name": "fixed-fejer-immutable-point-complete-run12-ready.json"
 };
 const RUNTIME={
   "frequency_layout": {
@@ -133,16 +134,16 @@ const SOURCE_REPRODUCER={
 const OUTPUTS={
   "independent": {
     "name": "fixed-fejer-frequency-M320-independent-complete-ready.json",
-    "bytes": 98814,
-    "sha256": "1941939829a67aedf328277af9fe3446d711e2d9f502eae2cb5ca8a84d0ef149",
-    "git_blob_sha": "3111a25616f1e28b1f1e0d521c1dae036acdc68d",
+    "bytes": 99028,
+    "sha256": "1dfa646e1adec414acd8d5ea86f05ec28187831e684ccfb30460a590a2b7fc7b",
+    "git_blob_sha": "4d01ce7f102c66b5e8f5284bd633865ad557a31d",
     "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-frequency-M320-independent-complete-ready.json"
   },
   "complete-parent": {
     "name": "fixed-fejer-frequency-M320-complete-parent-complete-ready.json",
-    "bytes": 98966,
-    "sha256": "900d195f35884aada85925e51df6372f8651f123be7cb37f66ae645140c98b83",
-    "git_blob_sha": "e10fce334aea173097ee2d79726f49dd2c7d3109",
+    "bytes": 99180,
+    "sha256": "6ae70d6f1236255fda6028e1b7edb8db5e900258b5248890fc07970d47707f35",
+    "git_blob_sha": "cf27437b77e32fac3c3ed1b7bdc736cff8ffb261",
     "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-frequency-M320-complete-parent-complete-ready.json"
   }
 };

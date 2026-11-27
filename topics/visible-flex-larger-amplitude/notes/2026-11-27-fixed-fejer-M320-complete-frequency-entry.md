@@ -110,9 +110,9 @@ memory `complete_fixed_fejer_material_envelope_memory.py` 原字共享。真实�
 - binding `fixed_fejer_frequency_source_binding.py`：35685 B，`caf16fbc87ef618ddae5ba42616d9bbe136beac6d32487224073ac6958c4d3c0`，blob `8a25d59f8a2fa2c818af8d3d17875d1ca5ae8a33`。
 - transfer `transfer_fixed_fejer_frequency_memory.py`：84194 B，`1d35b2e7231ed5609e066e602f0f4722bb931b89bb9b3acea132cb45cc510bb8`，blob `66571893cb9f27a6b830b831e83052d5950059c0`。
 - 完整 source reproducer `reproduce_fixed_fejer_frequency_sources.mjs`：64491 B，`4ad186519e8f70303ad1d4d9800edaadf1335f4f420da8605cb3023a3a9f00c8`，blob `752f0f98f2394c47373dd89bd842ae6722f3faac`。
-- 完整 parameter reproducer `make_fixed_fejer_frequency_ready.mjs`：17977 B，`02771941588369e3fe6435bcc51fdcb88ab8fd1d436bf9b309af87ed4e1f6496`，blob `55149847e10bae4c77d3eb69685d2c7569d460ad`。
-- independent ready：98814 B，`1941939829a67aedf328277af9fe3446d711e2d9f502eae2cb5ca8a84d0ef149`，blob `3111a25616f1e28b1f1e0d521c1dae036acdc68d`。
-- complete-parent ready：98966 B，`900d195f35884aada85925e51df6372f8651f123be7cb37f66ae645140c98b83`，blob `e10fce334aea173097ee2d79726f49dd2c7d3109`。
+- 完整 parameter reproducer `make_fixed_fejer_frequency_ready.mjs`：18088 B，`813f51b37824c8790dc0e03e00d039ff272115c81eb994500eb0831a3e13500b`，blob `a338a5a205a827dff81b2a7ddc86f5e3723ec3aa`。
+- independent ready：99028 B，`1dfa646e1adec414acd8d5ea86f05ec28187831e684ccfb30460a590a2b7fc7b`，blob `4d01ce7f102c66b5e8f5284bd633865ad557a31d`。
+- complete-parent ready：99180 B，`6ae70d6f1236255fda6028e1b7edb8db5e900258b5248890fc07970d47707f35`，blob `cf27437b77e32fac3c3ed1b7bdc736cff8ffb261`。
 
 源再生器使用 `--source-directory` 指向本题 `scripts/resume_20261126` 的完整已刊父源目录，`--generated-directory` 指向另一不存在的新目录。参数再生器对应使用 `--parameter-directory` 指向完整 computations 目录。这两个工具不执行任何生成的 Python；root 是否为发布复原它们不构成实际求解前提。
 
@@ -121,3 +121,7 @@ memory `complete_fixed_fejer_material_envelope_memory.py` 原字共享。真实�
 M320 当前没有科学返回。没有新的 metric/Gram 残差、reach、幅度、δhold、δE、root-error 或连续全域费用数值。旧 run10 已取消且科学5没有自然返回，不能提供本目标父；当前 run12 仍待真实自然返回。独立 M320 与 M160 的一次有限空间包含说明不能替代准确 normal 支、完整误差费用、连续全域/全 t 几何、握持和最终任务完成标准。
 
 本包让合法同目标精化可以实际执行，并保留完整证据归属。求解后的数值差异及误差解释须由各自真实完整场、同一固定目标和明确 norm/观测规则给出；本说明不预报速度、收敛或成功。
+
+## 参数来源文件名的独立修正
+
+完整参数再生器的原 INPUT 记录缺少 name，并把说明 path 写成 computations/undefined；readFull 使用 INPUT.name，因此该纯文本重放入口会失败。现明确绑定已刊完整 fixed-fejer-immutable-point-complete-run12-ready.json（92,380 B，SHA256 ab5c00086e21faaa5017ea469c4a63e7d389ecc3019b03a28e46b9daaa129578）。两份计划只修完整参数来源 name/path 记录及其身份；每个完整 step 对象、全部 argv、数值预算、summary 和 48 项 progress 均与此前逐值相等。18 个运行体与完整源构造器原字不变。此次是元数据和参数重放入口修复，没有科学执行或新增求解前门。
