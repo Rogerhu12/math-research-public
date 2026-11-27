@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [Phi四头共同零十权的完整原值排空](results/R150-appendix-unit211-Phi-zero-ten-common-head-weights-complete-original-value-exclusion.md)：同两线det零支精确排除、开图60维原mean_W乘法矩阵单位；四头开图成全覆盖。
+
 - [W三原首一F范数与五新常数列余子式](results/R150-appendix-unit211-W-monic-F-norm-five-original-three-column-cofactors.md)：70603完整原恒等及三列身份返，必要式λ度13/13/13/10/10，五头零面全保。
 
 - [Phi首头开图的真实D完整原理想返回](results/R150-appendix-unit211-Phi-zero-first-quadratic-head-actual-D-sixth-degree-necessary-equation.md)：BD∈原四式理想，必要P6度39/20/6；保存精确core，整个头零曲线与λ首项零均保留。

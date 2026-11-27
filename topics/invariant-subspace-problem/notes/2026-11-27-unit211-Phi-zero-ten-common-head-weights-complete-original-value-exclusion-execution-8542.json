@@ -1,0 +1,602 @@
+{
+  "schema": "isp-Phi-ten-head-zero-weight-fibers-complete-original-value-exclusion-v1",
+  "date": "2026-11-28 Asia/Taipei",
+  "records": [
+    {
+      "after": "13b0bbd9f7020f05807d23ad1f4c012e7fe1f85b",
+      "before": "50145fc4b1ddc6a7976c701ffd8a33ae7b09e508",
+      "rules_git_blobs": {
+        "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+        "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+      },
+      "rules_unchanged": true,
+      "utc": "2026-11-27T16:37:22.493482+00:00"
+    },
+    {
+      "trueQQConstantDegree": 10,
+      "actualHeadRank": 2,
+      "pivotColumns": [
+        0,
+        1
+      ],
+      "allOriginalRowTransformationProductsReturned": true,
+      "transformedOriginalProfiles": [
+        {
+          "degrees": [
+            2,
+            2,
+            2
+          ],
+          "terms": 9,
+          "sha256": "008818105e97182ffa5c697d56371face643a0a386f07fc3dae04edcec36bf8b"
+        },
+        {
+          "degrees": [
+            2,
+            1,
+            2
+          ],
+          "terms": 9,
+          "sha256": "b1218af27c8faf053669d6aa4db1872f8c6f575df7be6689498ab694c00c828c"
+        },
+        {
+          "degrees": [
+            2,
+            1,
+            1
+          ],
+          "terms": 7,
+          "sha256": "1b156e1bd9898927e31d2b66db2959e3dd98c6ff3ffc807939bb4ead4024c943"
+        },
+        {
+          "degrees": [
+            2,
+            1,
+            1
+          ],
+          "terms": 7,
+          "sha256": "a491b6c7c5ab8cab7011953711cca314f6bd6fbe4bc234186064a5347ad84a31"
+        }
+      ],
+      "stage": "new_exact_ten_weight_original_quadratic_head_rank",
+      "seconds": 0.014883140999998545
+    },
+    {
+      "determinant": {
+        "degrees": [
+          2,
+          0,
+          0
+        ],
+        "terms": 3,
+        "sha256": "667e710c33a5b4289e0f604409377131be3e680ad6470cf1e9862f537c43e5b2"
+      },
+      "Tnumerator": {
+        "degrees": [
+          3,
+          0,
+          0
+        ],
+        "terms": 4,
+        "sha256": "154cc4cbd8fd81e56552a23f7c966eabe8e54cf33987c981232acf5ebcdcd9b1"
+      },
+      "znumerator": {
+        "degrees": [
+          3,
+          0,
+          0
+        ],
+        "terms": 4,
+        "sha256": "285f799322a0fa187ada5b4ba49b00e6e618118edf986041bab53914bb396a16"
+      },
+      "originalLineProfiles": [
+        [
+          {
+            "degrees": [
+              2,
+              0,
+              0
+            ],
+            "terms": 3,
+            "sha256": "d6d8869c2d3174ddaf9c3cc3b6e97c6ac65e44d50326f9832f6606beb5a4d7a2"
+          },
+          {
+            "degrees": [
+              1,
+              0,
+              0
+            ],
+            "terms": 2,
+            "sha256": "e71e0ea1575f1e6851fee1b1d7bb408da619f7948de732ba7dbd33d8ec032b98"
+          },
+          {
+            "degrees": [
+              1,
+              0,
+              0
+            ],
+            "terms": 2,
+            "sha256": "3db76f8d068c4d8510a994713ebda19600c163790f013a55247acfdc9d047a4a"
+          }
+        ],
+        [
+          {
+            "degrees": [
+              2,
+              0,
+              0
+            ],
+            "terms": 3,
+            "sha256": "781c3e4520bce1d16df242b03bc11fa0a130935028fed91ae93276d2f6373a84"
+          },
+          {
+            "degrees": [
+              1,
+              0,
+              0
+            ],
+            "terms": 2,
+            "sha256": "3659d3c403af350c340808ea1a5f3061121835fbe2665f28662b8cbab3024738"
+          },
+          {
+            "degrees": [
+              1,
+              0,
+              0
+            ],
+            "terms": 2,
+            "sha256": "913b07bb983072e2864bbbfb9cfe8a177aba35102b99789914e2ae715c3b0be2"
+          }
+        ]
+      ],
+      "completeTwoCramerCoefficientIdentitiesReturned": true,
+      "stage": "new_same_two_original_linear_equations",
+      "seconds": 0.01778923599999871
+    },
+    {
+      "encoding": "base64+zlib+json",
+      "payloadSha256": "057814a50e2603bdc89c66427a0b7f05389814b9f5034f758aae66c595f0b977",
+      "uncompressedBytes": 11200,
+      "allDecodedOriginalCoefficientProductsReturned": true,
+      "residualLambdaDegree": 0,
+      "determinantZeroBranchExcluded": true,
+      "removedOnlyOriginalLambdaUnit": true,
+      "stage": "new_exact_linear_determinant_zero_compatibility",
+      "seconds": 0.023808725000002084,
+      "compressedBase64Characters": 6608,
+      "payloadOmittedFromReceipt": true
+    },
+    {
+      "degrees": {
+        "mean_R": 6,
+        "mean_W": 6,
+        "mean_O": 6,
+        "original_N1": 6,
+        "original_F6": 18,
+        "original_NV": 19
+      },
+      "exactOriginalUnitAndDeterminantFactorDivisions": [
+        {
+          "original": "mean_R",
+          "removed": [],
+          "clearingPower": 2
+        },
+        {
+          "original": "mean_W",
+          "removed": [],
+          "clearingPower": 2
+        },
+        {
+          "original": "mean_O",
+          "removed": [],
+          "clearingPower": 2
+        },
+        {
+          "original": "original_N1",
+          "removed": [],
+          "clearingPower": 2
+        },
+        {
+          "original": "original_F6",
+          "removed": [],
+          "clearingPower": 6
+        },
+        {
+          "original": "original_NV",
+          "removed": [],
+          "clearingPower": 6
+        }
+      ],
+      "noIndividualNBPBCompletenessClaim": true,
+      "stage": "new_original_value_polynomials_on_same_linear_open_chart",
+      "seconds": 0.5096948280000007
+    },
+    {
+      "encoding": "base64+zlib+json",
+      "payloadSha256": "93b68a215bc897bc92dc3e9ae2e6a86a1248da3a8ff561579691555472d04f3b",
+      "uncompressedBytes": 390803,
+      "allDecodedOriginalCoefficientProductsReturned": true,
+      "originalLabels": [
+        "mean_R",
+        "mean_W",
+        "mean_O",
+        "original_N1",
+        "original_F6",
+        "original_NV"
+      ],
+      "stage": "new_exact_recoverable_ten_weight_original_lambda_polynomials",
+      "seconds": 0.5478371080000031,
+      "compressedBase64Characters": 208836,
+      "payloadOmittedFromReceipt": true
+    },
+    {
+      "trueQQWeightDegree": 10,
+      "prime": 1009,
+      "monicOriginalLambdaPolynomial": "mean_R",
+      "monicOriginalLambdaDegree": 6,
+      "finiteAlgebraDimension": 60,
+      "genuineOriginalIdealRows": 300,
+      "actualModRank": 60,
+      "integralFixedQQMatrixGaussCertificate": {
+        "selectedOriginalRowTags": [
+          [
+            "mean_W",
+            0,
+            0
+          ],
+          [
+            "mean_W",
+            0,
+            1
+          ],
+          [
+            "mean_W",
+            0,
+            2
+          ],
+          [
+            "mean_W",
+            0,
+            3
+          ],
+          [
+            "mean_W",
+            0,
+            4
+          ],
+          [
+            "mean_W",
+            0,
+            5
+          ],
+          [
+            "mean_W",
+            0,
+            6
+          ],
+          [
+            "mean_W",
+            0,
+            7
+          ],
+          [
+            "mean_W",
+            0,
+            8
+          ],
+          [
+            "mean_W",
+            0,
+            9
+          ],
+          [
+            "mean_W",
+            1,
+            0
+          ],
+          [
+            "mean_W",
+            1,
+            1
+          ],
+          [
+            "mean_W",
+            1,
+            2
+          ],
+          [
+            "mean_W",
+            1,
+            3
+          ],
+          [
+            "mean_W",
+            1,
+            4
+          ],
+          [
+            "mean_W",
+            1,
+            5
+          ],
+          [
+            "mean_W",
+            1,
+            6
+          ],
+          [
+            "mean_W",
+            1,
+            7
+          ],
+          [
+            "mean_W",
+            1,
+            8
+          ],
+          [
+            "mean_W",
+            1,
+            9
+          ],
+          [
+            "mean_W",
+            2,
+            0
+          ],
+          [
+            "mean_W",
+            2,
+            1
+          ],
+          [
+            "mean_W",
+            2,
+            2
+          ],
+          [
+            "mean_W",
+            2,
+            3
+          ],
+          [
+            "mean_W",
+            2,
+            4
+          ],
+          [
+            "mean_W",
+            2,
+            5
+          ],
+          [
+            "mean_W",
+            2,
+            6
+          ],
+          [
+            "mean_W",
+            2,
+            7
+          ],
+          [
+            "mean_W",
+            2,
+            8
+          ],
+          [
+            "mean_W",
+            2,
+            9
+          ],
+          [
+            "mean_W",
+            3,
+            0
+          ],
+          [
+            "mean_W",
+            3,
+            1
+          ],
+          [
+            "mean_W",
+            3,
+            2
+          ],
+          [
+            "mean_W",
+            3,
+            3
+          ],
+          [
+            "mean_W",
+            3,
+            4
+          ],
+          [
+            "mean_W",
+            3,
+            5
+          ],
+          [
+            "mean_W",
+            3,
+            6
+          ],
+          [
+            "mean_W",
+            3,
+            7
+          ],
+          [
+            "mean_W",
+            3,
+            8
+          ],
+          [
+            "mean_W",
+            3,
+            9
+          ],
+          [
+            "mean_W",
+            4,
+            0
+          ],
+          [
+            "mean_W",
+            4,
+            1
+          ],
+          [
+            "mean_W",
+            4,
+            2
+          ],
+          [
+            "mean_W",
+            4,
+            3
+          ],
+          [
+            "mean_W",
+            4,
+            4
+          ],
+          [
+            "mean_W",
+            4,
+            5
+          ],
+          [
+            "mean_W",
+            4,
+            6
+          ],
+          [
+            "mean_W",
+            4,
+            7
+          ],
+          [
+            "mean_W",
+            4,
+            8
+          ],
+          [
+            "mean_W",
+            4,
+            9
+          ],
+          [
+            "mean_W",
+            5,
+            0
+          ],
+          [
+            "mean_W",
+            5,
+            1
+          ],
+          [
+            "mean_W",
+            5,
+            2
+          ],
+          [
+            "mean_W",
+            5,
+            3
+          ],
+          [
+            "mean_W",
+            5,
+            4
+          ],
+          [
+            "mean_W",
+            5,
+            5
+          ],
+          [
+            "mean_W",
+            5,
+            6
+          ],
+          [
+            "mean_W",
+            5,
+            7
+          ],
+          [
+            "mean_W",
+            5,
+            8
+          ],
+          [
+            "mean_W",
+            5,
+            9
+          ]
+        ],
+        "matrixSha256": "fe0b423291f4f2d9e2324c764283ac0eb2a8c8b53f12a6fb1d8b9a2631bca49b",
+        "inverseSha256": "54a87dce33e51a3db05d7213f8f147988a20f6037c3530f582969a9b7e1a92b0",
+        "completeSelectedSquareTimesInverseReturned": true
+      },
+      "openLinearChartExcluded": true,
+      "determinantZeroBranchExcluded": true,
+      "wholeTenWeightBranchExcluded": true,
+      "originalLambdaOpenChartCandidateBound": 0,
+      "fullQQDegenerateCompatibilitySaved": true,
+      "noBareModularSaturationInference": true,
+      "noUnpaidGeometricNormInverse": true,
+      "checks": {
+        "constantQQInverseProducts": 42,
+        "KlambdaDivisionProducts": 36,
+        "KlambdaGcdBezoutProducts": 14,
+        "originalLinearCoefficientProducts": 2,
+        "modMonicDivisionProducts": 35,
+        "completeSelectedSquareInverseProducts": 1
+      },
+      "ordinaryISPClaim": false,
+      "stage": "complete_new_ten_weight_original_value_return",
+      "seconds": 0.6289699849999977
+    },
+    {
+      "elapsed_seconds": 0.6947197900000006,
+      "max_child_rss_kib": 41660,
+      "ordinary_isp_claim": false,
+      "rules_reads": [
+        {
+          "after": "13b0bbd9f7020f05807d23ad1f4c012e7fe1f85b",
+          "before": "50145fc4b1ddc6a7976c701ffd8a33ae7b09e508",
+          "rules_git_blobs": {
+            "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+            "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+          },
+          "rules_unchanged": true,
+          "utc": "2026-11-27T16:37:22.493482+00:00"
+        }
+      ],
+      "run_attempt": "1",
+      "run_id": "46035126777",
+      "schema": "isp-frozen-exact-actions-execution-v1",
+      "session": "Astra-ISP-8542378f-20261127",
+      "source_commit": "50145fc4b1ddc6a7976c701ffd8a33ae7b09e508",
+      "source_exit_code": 0,
+      "source_git_blob": "0eeafb8c93e8da7e687a6ed38116362ef6102ab3",
+      "source_sha256": "883c60019e692aa3fbfdf19d9ed9ab8ff1b4f214ff6cdc298a70b253bd8e1964",
+      "stdout_bytes": 221084,
+      "stdout_sha256": "bd17a912d0bf7baa3e566cfba9495de68227e7af85cb21d21422154cb7a32359",
+      "stop_reason": null
+    }
+  ],
+  "selectedSquareUsesOnlyActualMeanWMultiples": true,
+  "bothOriginalLinearBranchesCompletelyExcluded": true,
+  "allTenQQWeightEmbeddingsCovered": true,
+  "largeCoefficientPayloadNotCopied": true,
+  "firstHeadZeroWholeCurveStillRetained": true,
+  "allFourHeadsGiveCompleteCoverOfFullOriginalSolutions": true,
+  "ordinary_isp_claim": false
+}
