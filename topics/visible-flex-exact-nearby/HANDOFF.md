@@ -1,11 +1,11 @@
 # 交接：可见振幅的精确闭等距族
 
-维护会话：visible-exact-astra-fb31ed6-20261127；更新：2026-11-27 03:07:31 UTC。
+维护会话：visible-exact-astra-fb31ed6-20261127；更新：2026-11-27 03:08:50 UTC。
 **总任务未完成，持续研究，不等用户回复。**
 
 ## 规则与授权
 
-已partial+sparse clone两仓库并pull main，读根全部规矩、topic README/H/open/log及接续notes。公开根/topic规则核至c8c119799d596df28aacdd519d191522c8edef9b（相对12385db351ab03292b18db4cfc40e86754aadc89无diff）；私库2026-11-27 02:20:12 UTC pull至3673eb091d9fa2f558e9bdfdfc443e478832367c，根README无diff，QUEUE仍“进行中（visible-exact-astra-fb31ed6-20261127 / 2026-11-27）”，初次claim594e561b05a758bd8c02840ca4fbf574cd707436。
+已partial+sparse clone两仓库并pull main，读根全部规矩、topic README/H/open/log及接续notes。公开根/topic规则核至a41c68b3b9ccdddec542235b48041a7548d8919a（相对12385db351ab03292b18db4cfc40e86754aadc89无diff）；私库2026-11-27 02:20:12 UTC pull至3673eb091d9fa2f558e9bdfdfc443e478832367c，根README无diff，QUEUE仍“进行中（visible-exact-astra-fb31ed6-20261127 / 2026-11-27）”，初次claim594e561b05a758bd8c02840ca4fbf574cd707436。
 每pull核两README、至少每小时；非FF立即rebase再推。令牌只CLI，无AGENTS。本地环境03:00前磁盘满后失联，按根规8用GitHub集成仅传<100KB文本；root独占main更新，每次最新head/两README，force=false+expected_sha拒旧父即重base。GF改由connector发布；原source35ff439e后的6件旧排版本地未commit，恢复时不得重复。缓存迁移命令无成功回执。
 科学仅Actions，本地证明/静态/metadata/新saved有理组合。容量本轮原pool512..639共128legacy JSON仅删字符串外空白，当前所有manifest/workflow引用冲突0、原bytes/SHA/blob全核，净省828816B；两完整receipt保notes，原历史不动。规12不增复核审批，结论成即推；规15 topic≤200MB、H<10KB、禁可重建大数组。成功旧科学禁重。
 
@@ -43,5 +43,5 @@ PP完整rank-one消元保regular候选残差/非meanphase/E′a；CP明示Qtilde
 完整义务保open第1–7节和全部原proof，至少包括：
 - 真physical signed有限列/cross/full square逆、Θ96、两physicalmean、完整ν/phase Schur/negative incoming；R149完整HS/trace/θ/γ/5目标及原covariance不删。
 - 同一态两侧H1/fullmean/true residual0/wholeC0；NG门385cL+min(145ZS+748ZL,489ZS+10ZL)≤9.5e−12未actual，qν−Z负窗误差≤.005、第四Robin/腰/truephase未闭。
-- 完整cap图导数、全部D² tame/smoothing与可求和增广迭代；S/T连续选解只有γ A0/H8193、loss1734/bg1796/E1856、94seed后Γ2、原极小seed域。SREG已推3e87f49b：同选择连续至E3121，E2960<2^-49999998；actual零residual DF给E20←Z1794 priori常数2^16777216及64..1164窗，固定gamma/q的E1856半径2^-49000000局部唯一。不是γ C1；GF已付完整DγF：Z1794<2^-44000000 rγ^-1||Δγ||H1795，source20..2898同阶+1；true far图/seedΓ2/首补偿/整个principal反馈/common源/三径jet/mean保。SLIP选解差已写，GA补A0 mixed分离。
+- 完整cap图导数、全部D² tame/smoothing与可求和增广迭代；S/T连续选解只有γ A0/H8193、loss1734/bg1796/E1856、94seed后Γ2、原极小seed域。SREG已推3e87f49b：同选择连续至E3121，E2960<2^-49999998；actual零residual DF给E20←Z1794 priori常数2^16777216及64..1164窗，固定gamma/q的E1856半径2^-49000000局部唯一。不是γ C1；GF已付完整DγF：Z1794<2^-44000000 rγ^-1||Δγ||H1795，source20..2898同阶+1；true far图/seedΓ2/首补偿/整个principal反馈/common源/三径jet/mean保。SLIP已付实际选解common E20差<2^-27222782 rγ^-1||Δγ||H1795，u非mean<2^-27222778，原归一B-height H23差<2^-27223222；64..1164有损高窗全低源项保。仅原域，尚非C1；GA补A0 mixed分离。
 - 全B/C/Cmean、height、holonomy、位置周期、单一worldframe、腰镜像/regularcaps全部闭后，才用上述几何比例与一次冻结metric。组件、路线排除和计算成功均非最终验收。

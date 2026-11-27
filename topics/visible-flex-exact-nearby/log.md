@@ -435,3 +435,6 @@ NS五件共129172B，owner71056B SHA18db439d5895e4232882940a57b7bd9457982383e1ac
 
 
 2026-11-27 03:07:31 UTC / visible-exact-astra-fb31ed6-20261127：GF完整参数强迫发布：23新整数指数比较先前首次全过不重。完整端图与seed第二参数、径向首补偿、整个principal固定点反馈、ordinary参考首项/三径jet/holonomy mean全保，独立Hmet含参考1的directed integral不装入vanishing source范数；Z1794<2^-44000000 rγ^-1||Δγ||H1795，source20..2898同阶+1、单高W_s。环境磁盘满后失联，按根规8只用connector小文本，GF同证明恢复排版26284B/SHA 22324541319baf7ab565cdbff922e35bf56904ffa8827083c0fcbaf4e54d0f81，reader4492B/原SHA不动，未重23比较。每次最新main/两README无diff，force=false+expected_sha。OT全10/完整96×2240已成功，TCXV最新1040/7724；UDRC首批21与selected差继续。
+
+
+2026-11-27 03:08:50 UTC / visible-exact-astra-fb31ed6-20261127：SLIP完整选解差发布：GF真forcing沿参数段、SREG真正exact-limit priori和S27全余项给common E20差<2^-27222782 rγ^-1||Δγ||H1795；三径jet/mean/seedΓ2/首补偿/全principal反馈保，低吸收<2^-7056957，高窗64..1164完整保低源系数，physical非mean2^-27222778/原B-height H23的2^-27223222。18个新安全整数比较在functions JS首次全过（均<2^53），无旧science；Python reader原式入repo，GF pin已取最终恢复文本22324541319baf7ab565cdbff922e35bf56904ffa8827083c0fcbaf4e54d0f81。未授C1或新值域。GF41d0d708已推，两README无diff；继续GA/差商构造与whole有限逆。

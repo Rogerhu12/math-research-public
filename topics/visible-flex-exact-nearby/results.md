@@ -444,3 +444,6 @@
 
 
 - [GF：实际selected-tail家族的完整参数强迫](results/R144-supplement-complete-parameter-forcing-for-the-selected-exact-tail-family.md)：23新整数比较已成；固定物理w，完整Dγ/差的Z1794<2^-44000000 rγ^-1||Δγ||H1795，source20..2898同阶+1，W_s≤1同界、通式只一次高W_s。完整端图/seedΓ2/径向首补偿/整个第一principal反馈、common ordinary源/三径jet/mean/Hmet保，B-collar对全部negative输入准确零；不借fixedmetric列，不自动授selected C1或A0-only。
+
+
+- [SLIP：实际selected-tail的定量参数依赖](results/R119-supplement-quantitative-dependence-of-the-selected-exact-tail.md)：18新整数比较成。完整actual mismatch经SREG priori及S27全余项吸收，common E20差<2^-27222782 rγ^-1||Δγ||H1795；物理非mean u为2^-27222778，原归一B-height H23为2^-27223222。输出64..1164保loss1734和全低源项；真seedΓ2/首补偿/firstΓ反馈/mean/三径source/trace全保。不授新H1795或A0值域、粗源onto或selected C1。
