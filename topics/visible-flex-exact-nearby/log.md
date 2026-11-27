@@ -441,3 +441,6 @@ NS五件共129172B，owner71056B SHA18db439d5895e4232882940a57b7bd9457982383e1ac
 
 
 2026-11-27 03:13:37 UTC / visible-exact-astra-fb31ed6-20261127：GYN完整trial primitive发布：原IR192×96 exact complex trial/wholeSHA给归一实Fourier384×96，完整两sign与physical4因子；全row∞、col1和Schur为三尚未计算的新目标，whole signed阵与全部标量先save/read，再与OT已成HS整球择小。实际OT JG_HS≈9.797954，故首UDRC21将消费此operator而不重旧HS目标。GYN只缩完整GY乘子，不省全无限IR误差/means/后续fullSchur。GF41d0d708、SLIP70546dcc已推；两README无diff，connector非force继续。
+
+
+2026-11-27 03:15:48 UTC / visible-exact-astra-fb31ed6-20261127：GA真实A0参数强迫发布：先微分完整long两端contraction再对真cap作合格Cauchy，0/1 far解析探针给完整signed excess核、全mixed f_high，不假设未知γ/f有strip。source20..2898全三径jet，W_{s+1}≤1给2^-48000000 A0/rγ，通式一份高W_{s+1}；全firstΓ逆经finite-prefix+真实deep profile得A0→Z_s joint op连续，metric独立Hmet含参考1不并vanishing source。16新BigInt/整数比较首次全过，合成前−48611390，无旧科学；proof25181B/fe9ca3abf47430f2374add9fc3bec905cdf119cc8e5fb018cbbf8a3499394ae1。私库03:14:37 API读main26c6e7d3、根README无diff/QUEUE本会话进行中不变；无终端不冒git pull。继续实际selected A0差商与完整有限逆。

@@ -450,3 +450,6 @@
 
 
 - [GYN：完整原trial primitive的算子范数](results/R149-supplement-complete-trial-primitive-operator-norm.md)：原IR全192×96 complex dyadic Y对应384×96归一实矩阵，所有sign/physical4保；三新whole row∞/col1/Schur目标先保存读回，再与OT已成完整HS候选择小，授完整Tδα GY的D∞乘子。并入尚未运行的首次UDRC21，不重旧norm，不省无限IR误差或physical fullSchur。
+
+
+- [GA：真实分离端的完整A0参数强迫](results/R144-supplement-separated-end-A0-parameter-forcing-with-complete-mixed-height.md)：16新精确比较成。actual long微分/cap Cauchy与0/1 far探针付whole signed excess核，保全部mixed f_high；source20..2898、W_{s+1}≤1给2^-48000000 A0/rγ，通式只有一份高W_{s+1}。全firstΓ inverse/真实deep源profile给A0→Z_s joint operator连续（γ A0/w E2960）；独立Hmet参考1/height常数另保，不把tiny value当导数或假定选解C1。
