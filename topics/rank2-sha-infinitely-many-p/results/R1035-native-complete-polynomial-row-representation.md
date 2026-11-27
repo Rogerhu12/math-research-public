@@ -234,3 +234,37 @@ exit code为0。完整 job 日志12577字节，SHA256
 当前 v10 仍是唯一原几何作业；完整原对象的数学验收及原生运算
 是否实际被应用，继续由未来真实生产回执判断。
 本节未将准备成功写成原四交、全厚 Norm 或 shadow 的完成。
+
+## 8. v10 真实阻断、两处日志更正与唯一原生生产启动
+
+原v10已真正结束：run45956901945/job140365369016/source43c1a7bfd607ba57dcdb891a1ed5ea83b61b1157，
+09:15:03 UTC failure。完整4056415字节日志的SHA256为
+521e26eb54219ef9197599c787a6f365a1bda6136846d4b4d56622b65270ca48；
+根已完整消费，终态详见[原终点链§17](../notes/2026-11-27-artinian-v7-final-and-successor.md)。
+
+直接阻断是 original_projector_hermite.py 在两个完整理想构造器末尾
+将自己的 elapsed_seconds 传给已有同名固定字段的 engine.progress。
+失败首次发生在剩余核返回前；没有发生数学断言失败，也没有数学全PASS。
+现在仅将两个调用的关键字更名为 construction_elapsed_seconds。
+两个数学receipt内部的 elapsed_seconds、所有生成元、矩阵、完整回乘、
+返回值和断言均不变；并准确更新两个外层的源码pin。
+
+| 当前源 | 字节 | SHA256 |
+|---|---:|---|
+| original_projector_hermite.py | 19172 | 545b330c4b7fb0c876e15f0ea6b94c9e35d29fdaf94b87707b3853dd33c32545 |
+| produce-original-projector-artinian-shadow.py | 6992 | cf58493f4619140d02d28e8a830a0b25376846d14bc3eb2323d52fce66123087 |
+| produce-original-native-row-artinian-shadow.py | 9280 | 63ff0e1dbec3797b1276e7892e2177aac3c0bdd674ba5f5415d434fb0f5590d8 |
+| 当前原几何workflow | 2689 | 4f84b3ade4a6662672b79e94a47d9943e192c3e8fbe1e2a4d056c8f7b1928f8d |
+
+同一原几何workflow现在接到 §7 已付 host 和原生 producer；
+没有另起一个并行重型workflow。concurrency group保持
+rank2-original-artinian-shadow，cancel-in-progress=false。
+56源、两张原char0 PASS、r=29/q=2453/batch64/minimal、
+API preflight=false、禁网数学容器、只读源码、21000s/360min帽全保。
+请求仍为 §7 的864字节/SHA25c209ac…e140，host仍为11214字节/
+SHA74016951…913c2；真正原生行实现及原R975完整fallback均不变。
+
+此前真编译和准备已成功，以上变更没有改变Cython或行算法。
+因此不重跑旧“未激活”准备检查；该检查继续由 §7.2 的精确源提交解释。
+新的生产作业仍必须实际通过全部原数学门，其run/job/终态随后按真实回执登记。
+本节不将源修复、已付准备或v10的局部阶段冒作四交、全厚Norm或shadow完成。
