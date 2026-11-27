@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [G36首一六维权代数及13完整低范数/B80](results/R150-appendix-unit211-W-G36-monic-weight-algebra-and-complete-low-norm-cover.md)：两次真V8小整式35/2ms；739精确对除，保全部范数零纤维；必要商固定k至多36生成，未称全曲线无解。
+
 - [Phi例外整ψD原纤维排除及128有序基点覆盖](results/R150-appendix-unit211-Phi-zero-exceptional-whole-moment-image-fiber-exclusion-and-128-cover.md)：原rho3完整覆盖、T4/z2原144维meanR可逆，真ψ³剥后1993/2050完整Gauss；首头及余128仍开。
 
 - [整个J2碰撞原纤维完整排除](results/R150-appendix-unit211-entire-J2-complete-original-fiber-exclusion.md)：两完整有限代数原R可逆，末48维真实QQ Delta²组合，合57个u全覆盖；原Q纤维无遗漏。
