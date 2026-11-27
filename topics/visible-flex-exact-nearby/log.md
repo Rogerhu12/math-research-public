@@ -118,3 +118,9 @@
 ### 2026-11-27 WRC：完整参考世界高度列与原负窗接收
 
 已证明/14个新exact rational组合首次全过，不重旧science。原fixed raw b-anchor完整physical mean-height保whole g f0：首新T=Πe1ᵀAhatᵀ(J0yhat)，全error ET+κQ UW+κF Gstar，κF=.000232743。旧whole C²+周期Banach Landau+真实selected短flow差给q0φ<.03181、f0φ<.05282；因此完整原弱窗口receiver严格为94000(D+Jroot)+6650Froot+3000Fstrict+8850Jstrict。没有以C0 anchor误差乘H−1，也未免费取L² trace。actual anchor差/rigid ports独立；WMR原3targets冻结，计划同次necessary RHI恢复/8192grid增加第4首target。RHI04:30只读job success，正在接完整receipts；未先宣称世界锚或full Schur。
+
+### 2026-11-27 UACT：原Θ完整有限坐标逆实际严格通过
+
+已证明/实际Actions认证：45933303391/1于04:18:42全21/21成功，actual42477B SHA17c721993bb6488ec48918c50caf70c84785ca54cb004fbc51d11de1c6eb14bc，execution52265B SHAde2b9e0f2a1f424cd4c644ab23839bf715590e4153058517e66706a3d79b768c。全21球/whole候选/原signed载体身份在proof，lowΘerror≈.31698185997258，preconditionedρ≈.799597508717728<1，已存inverse upper12.587338365426…<12.588。GYN候选2.677547564878…消费旧HS不重算。TQ实际J(c,p)/kerΘ图成立，PKE96T^-1ΘP/physical低列/finitehigh/全mean/νSchur不删；该run不再轮询或重算。
+
+第6批45940225760/1成功publication c92c87d99129c402b8e18e22a831f8d3a1c09b8a，128whole metadata，gross805556B−receipt69422B=net736134B，receipt SHA c796f5562473709a77dfb0717ceec39bb74d383bb29ef4629a61b8fc4acb474a。H/open§8基于658c完整不可变历史压缩更新，原义务不撤；04:30 probe仍无terminal环境。

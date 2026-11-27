@@ -500,3 +500,7 @@ GHR [metric-reference height](results/R144-supplement-actual-seed-metric-referen
 ### WRC：完整reference物理mean-height行与原负窗receiver（已证明）
 
 [完整证明](results/R147-supplement-complete-reference-world-height-and-original-negative-receiver.md)与[14个新有理组合](scripts/fourfold_codazzi_reference_world_height_saved_bounds.py)。完整reference行保J Aᵀy与δJ f0，κF=.000232743；whole raw C²/Landau/selected差支付真实q0φ/f0φ，得到94000(D+Jroot)+6650Froot+3000Fstrict+8850Jstrict的原root/strict弱源接收。actual world-anchor差与rigid ports保持独立；此行由唯一首WMR同次载体增加第四新target，不重旧3targets或原ODE。
+
+### UACT：原Theta完整96×96坐标逆实际成立（已证明/数值认证）
+
+[全21正式球与完整身份](results/R149-supplement-actual-original-finite-Theta-coordinate-inverse.md)。UDRC21 45933303391/1全21成功，lowjointerror≈.316981860、ρ≈.799597509<1，||(ΘE96a)^−1||<12.588。whole候选先保再选，IR/ASR/OT全载体/source相位/物理4/两sign不改，旧targets0重算。TQ真实J(c,p)/kerΘ图现在可用；完整PKE96T^-1ΘP、physical列、两mean/ν/phase/fullSchur仍保。
