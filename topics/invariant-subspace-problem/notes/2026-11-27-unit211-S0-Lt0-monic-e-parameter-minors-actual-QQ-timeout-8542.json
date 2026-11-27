@@ -1,0 +1,124 @@
+{
+  "runId": "45915323942",
+  "jobId": 140233018194,
+  "status": "completed",
+  "conclusion": "failure",
+  "actionUrl": "https://github.com/Rogerhu12/math-research-public/actions/runs/45915323942/job/140233018194",
+  "driver": {
+    "elapsed_seconds": 1250.0989527440001,
+    "max_child_rss_kib": 6473964,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "69b397e3cdba0f828f02d4faeecb37667567e216",
+        "before": "69b397e3cdba0f828f02d4faeecb37667567e216",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-27T00:12:19.881252+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "45915323942",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "69b397e3cdba0f828f02d4faeecb37667567e216",
+    "source_exit_code": 1,
+    "source_git_blob": "7225f4ec2ee05653f58d3d9b11776febf51a2ec1",
+    "source_sha256": "d8dbf16c15ede8f33205b848889ce15a41f00a5aa57519292a31023b2c461907",
+    "stdout_bytes": 41428,
+    "stdout_sha256": "6610e51cd60e8d71b7fc93e3a0865dd1df9f7011c9ed85ef753ac032a6ac47cd",
+    "stop_reason": null
+  },
+  "input": {
+    "stage": "two_parameter_original_QQ_input_built",
+    "geometricVariables": [
+      "e",
+      "k"
+    ],
+    "auxiliaryVariables": [
+      "invUnit"
+    ],
+    "variables": 3,
+    "nonSaturationGenerators": 12,
+    "generatorNames": [
+      "five_original_quadratics_F41",
+      "full_original_P045_P035_projection",
+      "cubic_overlap_0_1",
+      "cubic_overlap_0_3",
+      "cubic_overlap_1_3",
+      "cubic_overlap_2_4",
+      "U_moment",
+      "Nvalue",
+      "NB_even",
+      "NB_odd",
+      "PB_even",
+      "PB_odd"
+    ],
+    "originalNonzeroFourColumnMinors": 11,
+    "wholeCommonH9BoundaryPaid": true,
+    "fullOriginalGInputRetained": true,
+    "deltaZeroFibersRetained": true,
+    "exactMonicEQuotientDegree": 41,
+    "remainingGeneratorEDegreeBound": 40,
+    "originalParameterIdealEqualAfterMonicEAndConstantNormalization": true,
+    "sourceSha256": "d8dbf16c15ede8f33205b848889ce15a41f00a5aa57519292a31023b2c461907",
+    "scriptBytes": 2896594,
+    "scriptSha256": "cbc47d3ceabd1e650531f396797549f97addecf8a46830219c3165775fae43d7",
+    "smokeScriptSha256": "edb0e1e98357894095e25e58744aa20ebb0d2d5e8852fd9b5653e7151702101c",
+    "saturationAtoms": [
+      "e",
+      "k",
+      "ell*k",
+      "T0",
+      "distinct_p_q",
+      "bc",
+      "u",
+      "closed_zero_base",
+      "closed_half_weight",
+      "closed_consistency_line",
+      "closed_ehalf",
+      "closed_equal_singleton_weights",
+      "closed_77e16",
+      "closed_Omega",
+      "closed_H64",
+      "closed_H16",
+      "closed_H9",
+      "closed_original_v_leading_B44"
+    ],
+    "independentSmokeAlgorithm": "std",
+    "fullAlgorithm": "slimgb",
+    "claimExcluded": false,
+    "seconds": 49.383040265999995
+  },
+  "independentStd": {
+    "stage": "independent_std_smoke_return",
+    "returncode": 0,
+    "smokeVerified": true,
+    "singularDiagnosticLines": 0,
+    "stdoutSha256": "be54c0fb9d23252cbd63ae11bca95e003b773d320bf36764c4290677ec5cda00",
+    "stdoutBytes": 41,
+    "text": "ISP_LT0_TWO_PARAMETER_STD_SMOKE_VERIFIED\n",
+    "fullInputWritten": false,
+    "fullAlgorithmStarted": false,
+    "claimExcluded": false,
+    "seconds": 49.402402533
+  },
+  "fullQQReturn": {
+    "stage": "actual_two_parameter_original_QQ_timeout",
+    "timeoutSeconds": 1200,
+    "stdoutSha256": "bf274992853cf0216e9c8209983f6bf7f774313c9ff07a03477c57823631734b",
+    "stdoutBytes": 45,
+    "text": "ISP_LT0_BEGIN_TWO_PARAMETER_ORIGINAL_QQ_LIFT\n",
+    "claimExcluded": false,
+    "seconds": 1249.969906372
+  },
+  "jobLogBytes": 62692,
+  "jobLogSha256": "b4f732aaebdfa0f39eeb6cdf13e10b02b1900680f624d6ee5a1ed17321a504e8",
+  "certifiedUnit": false,
+  "frozenDoNotRerun": true,
+  "wholeS0Lt0IndependentlyExcluded": true,
+  "ordinaryISPClaim": false
+}

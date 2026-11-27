@@ -56,3 +56,8 @@ $$I=(C,X,Y,zS-1)\subset\mathbf Q[z,w,\lambda].$$
 它仅返回两曲线的原身份及投影 BEGIN，没有结式。240 秒源 alarm 未在本地原生计算内处理，外部 250 秒硬限终止，实际 250.007374 秒、RSS 118,808 KiB、exit −9。其 [精确失败源](../notes/2026-11-27-unit211-L0-C39-X34-direct-QQ-projection-failed-source-8542.py) 与 [小回执](../notes/2026-11-27-unit211-L0-C39-X34-direct-QQ-projection-failure-8542.json) 已冻结。
 
 本次改用三条原必要曲线的完整两参数理想；不重跑旧 X/Y、C/X 大投影，也不从它们的有限域次数推 QQ 证书。
+
+
+## 实际完整 QQ 门返回（2026-11-27）
+
+run `45915015066` 的独立 std 检查通过；完整 slimgb 实际1200秒超时，仅有 BEGIN 标记，无返回基或单位乘回。driver墙钟 `1249.315264` 秒、峰值RSS `4456132` KiB、源exit1。原输入冻结，不提高时限重跑。完整源/输入/实际pull规则身份与小回执见[运行回执](../notes/2026-11-27-unit211-L0-three-parameter-curves-actual-QQ-timeout-8542.json)。

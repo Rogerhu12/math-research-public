@@ -45,7 +45,7 @@ rankH3单三jet的全部ess6已闭，末非零Hp原Gaussian/最高/normal给左�
 
 **原U值图L0：** w0/w1、b+c0、W、P1双零、整个G/K/V均闭，完整来源保[结果索引](results.md)。余原同rho/t交点及全部P/N。新完整原门fae9a57e/run45909368752实际1200秒仅BEGIN/无单位，源冻结；X/Y大QQ、原cofactor末步、次数降行、H15直接投影亦未决冻结，原身份及准确回执保各正文。转原低次矩阵/关系，不用模5953替QQ保次数。
 
-**S0/Lt0 整支已闭：** [完整原615次覆盖及三个因子的特征零排除](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-complete-original-cubic-cover-exclusion.md)已排除最后三值互异、Af非零的一般图；与此前全部退化面合并，S0/Lt0不再开放。源9d0c7789实际163.600807秒/exit0，原G132/完整QQ覆盖/保次数与首项的一元Bézout全回乘，不依赖仍运行的QQ门。现接[原U值atlas](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-original-U-value-atlas.md)中独立的一般LS非零四参数层，原Delta零纤维全保；L0继续，旧模内存/600秒输入冻结。
+**S0/Lt0 整支已闭：** [完整原615次覆盖及三个因子的特征零排除](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-complete-original-cubic-cover-exclusion.md)已排除最后三值互异、Af非零的一般图；与此前全部退化面合并，S0/Lt0不再开放。源9d0c7789实际163.600807秒/exit0，原G132/完整QQ覆盖/保次数与首项的一元Bézout全回乘，不依赖独立QQ门。现接[原U值atlas](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-original-U-value-atlas.md)中独立的一般LS非零四参数层，原Delta零纤维全保；L0继续，旧模内存/600秒输入冻结。
 
 **2+1型H、Hp0九次Gram仅余四源全有限的ess6层：** 全部H/V∞支已闭，来源与真逆保结果索引/归档。[完整重建](results/R150-appendix-rank-three-double-plus-single-zero-hp-finite-source-rational-reconstruction.md)保原12式及11/16全系数；[同Π上的低次原理想相等](results/R150-appendix-rank-three-double-plus-single-zero-hp-lowered-original-ideal-equivalence.md)已将d八次喷射换为二次，A/T为原商环强迫单位。mod1031/e700单位基只供方向，三种真Ke各900秒未决，最后八条恒等式及field/smoke通过但无单位身份；[同Π的C/G两条d一次式与原理想相等](results/R150-appendix-rank-three-double-plus-single-zero-hp-two-linear-original-ideal-equivalence.md)现已证明，不除两个新首项，仍保全部零纤维；真实I*C=1继续。[新增原N二阶及孤立点一阶降式](results/R150-appendix-rank-three-double-plus-single-zero-hp-original-N-Hermite-strengthening.md)保持同Π，d次数5/8，实际build核完整身份4.926643秒；新run45886748045数域/smoke已通过，完整1.465MB输入实际900秒未决，驱动905.464秒/RSS714476KiB，无I*C=1；不重跑此输入。三约化H与ess4/5仍开。
 
@@ -158,7 +158,7 @@ L0原C39,53已付；新[九行的三个原8×8子式](results/R150-appendix-esse
 [同W首位域与正定来源能量](results/R271-appendix-same-w-first-block-domain-and-positive-schur-source-energy.md)已给Sh∈H iff整个偶块在H，准确费用Γ(u)=sup|〈Ju,JHz〉|²/||Kz||²；原N/Y正则化列的全物理范数不能隐藏该费。W仅付g0∈closure RanK*，续同u的Γ有限性及原1/16输出逆权，不换任意闭包来源。
 
 
-L0新[三原参数曲线系统](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-L0-three-original-parameter-curves-system.md)只含λ/w与一个饱和变量，C/X/Y均完整QQ原来源，10个单位全已付。源478dfef5 build68.485504秒/exit0；新专用QQ门须实际I*cert=1后才判空。C/X直接QQ投影250秒exit−9无返回也已冻结，不重跑。
+L0的[三原参数曲线系统](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-L0-three-original-parameter-curves-system.md)已保C/X/Y完整来源及10单位；源478dfef5/run45915015066实际1200秒仅BEGIN、无单位，driver1249.315264秒/4456132KiB/exit1，冻结。另C/X直接QQ投影250秒exit−9同样不重跑；转新已付首项后的原参数关系。
 
 
 [原图核心与R143实际反根](results/R12-appendix-core-power-bound-and-actual-r143-inverse-root.md)已付S=T⁻¹闭稳定、S²=α0⁻¹B1|K及原D图核心；余RanT⊂RanT*或等价实际伴随域包含，未知K不套全尾根整除。另D=−2Z的D²L核心只在旧有限放大稠密条件下成立，一般慢行不能借B1强单位。

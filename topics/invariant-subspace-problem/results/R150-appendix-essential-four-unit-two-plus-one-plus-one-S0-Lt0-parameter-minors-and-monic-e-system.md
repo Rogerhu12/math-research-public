@@ -157,3 +157,10 @@ U,77e-16,\Omega,H_{6,4},H_{16,13},H_{9,7},B_{4,4}.
 ## 6. 结论边界
 
 已完成的是整个 $H_{9,7}=0$ 排除、原四列子式的逐系数组合身份、完整 $\delta=0$ 覆盖，以及保理想的全局首一压缩。一般 Lt0 的新三变量单位门尚待实际返回；普通 ISP 和 R150 总目标均未在此完成。
+
+
+## 实际完整 QQ 门返回（2026-11-27）
+
+run `45915323942` 的独立 std 检查通过；完整 slimgb 实际1200秒超时，仅有 BEGIN 标记，无返回基或单位乘回。driver墙钟 `1250.098953` 秒、峰值RSS `6473964` KiB、源exit1。原输入冻结，不提高时限重跑。完整源/输入/实际pull规则身份与小回执见[运行回执](../notes/2026-11-27-unit211-S0-Lt0-monic-e-parameter-minors-actual-QQ-timeout-8542.json)。
+
+S0/Lt0随后由[独立完整原QQ覆盖证明](R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-complete-original-cubic-cover-exclusion.md)关闭；该证明不依赖本次QQ门。取消请求曾被自动审批拒绝，故本次运行保留至上述自然超时，并未被手动取消。
