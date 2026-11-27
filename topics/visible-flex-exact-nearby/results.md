@@ -512,3 +512,7 @@ GHR [metric-reference height](results/R144-supplement-actual-seed-metric-referen
 ### HL：完整真实L²参数forcing与第二seed响应（已证明）
 
 [完整证明](results/R144-supplement-complete-L2-parameter-forcing-and-actual-second-seed-response.md)与[15新组合](scripts/fourfold_codazzi_l2_gamma_forcing_saved_bounds.py)。全lag Young、真实Hilbert long模块、incoming固定点及94逐步真导数，付Γ2导数<2^-110M；完整mixed far128^d/一高因子/fullprincipal/mean/三径source保。Z20..2898真方向L²界与GA相同：W_{s+1}≤1时2^-48M/r；joint op L²→Z_s在γA0/wE2960连续。不是开放L²值域或rough-source onto，所需实际选择由后继消费。
+
+### HLP：完整physical读出的真正L²参数列（已证明）
+
+[完整解析transfer](results/R144-supplement-complete-physical-readouts-for-L2-parameter-directions.md)。HL真实方向代入原全metric/mean/reference1/physicalscale/coframe公式，partialγ scalar<2^-56M/r、vector formal二jet<2^-55M/r，joint op L²→读出在γA0/wE21连续；独立λ/world ports不删，actual选择还需D_wV与闭匹配。无新数值组合、旧科学0重跑。

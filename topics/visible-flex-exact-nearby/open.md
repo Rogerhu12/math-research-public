@@ -166,6 +166,6 @@ G以S/T E1856给physical C²整盘/曲率<2/径长<8e−6及同world position/no
 - NP/NH/PO/APA/ASB/PHI whole锁；APHI只strict particular，PP/CP保regular补偿/mean/E′a。P96全6成，AP96 joint96radius<.000227442、首signed(.0028306,.0029694)，true_PDE_corrected_columns=false，非真96solution phase。
 - RHI45933988440/1于04:21:04全4成，[ARHI](results/R147-supplement-actual-complete-relative-parameter-frame-and-position.md)的whole18carrier/2847cells与true error齐；position均值第一负/第三正，u2真符号未成，relative I/0不当world锚。RRM完整原弱窗两mean、WMR全J y+δJx/原detQ=−1、WRC全reference高度及94000/6650/3000/8850 receiver已成。下一WMR4唯一首入口，真whole RHI同次恢复/8192grid，actual Q_b/F_b/rigid ports独立，旧目标不重。
 
-真实tail C1和全部高阶范围见第6节/H/results。[HL](results/R144-supplement-complete-L2-parameter-forcing-and-actual-second-seed-response.md)真L² forcing已成（全seed94/principal/三径mean），同source20..2898的2^-48000000/r，joint γA0/wE2960。下一SHL实际选择及M(γ,fBγ)复合，保原97 H_C0全无限像。真low/high/core、NG、所有matching/world与最终fixedmetric几何仍按第1–7节完整推进。
+真实tail C1和全部高阶范围见第6节/H/results。[HL](results/R144-supplement-complete-L2-parameter-forcing-and-actual-second-seed-response.md)真L² forcing已成（全seed94/principal/三径mean），同source20..2898的2^-48000000/r，joint γA0/wE2960。[HLP](results/R144-supplement-complete-physical-readouts-for-L2-parameter-directions.md)已转完整partialγ scalar/vector真L²列；下一SHL实际选择及M(γ,fBγ)复合，保原97 H_C0全无限像。真low/high/core、NG、所有matching/world与最终fixedmetric几何仍按第1–7节完整推进。
 
 环境失联后按根规8仅小文本GitHub集成，每次最新main核两README，非force拒旧父即重base；私库进行中/readSHA见H。第6批metadata45940225760/c92c87d9仅新128无引用旧JSON空白，真实net736134B，科学0。

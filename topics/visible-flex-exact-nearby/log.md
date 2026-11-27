@@ -132,3 +132,7 @@
 ### 2026-11-27 HL：真正L²方向的完整forcing与94seed第二参数响应
 
 已证明，15个新exact组合首次全过。M.16逐项lag majorant付整个K_h ℓ¹<2^17、两sign和Hilbert方向；真实long square-zero模块、incoming fixedpoint全逆及94逐步DaF−D0/直接screened源，得到实际Γ2导数指数−110397714<−110M。far probe收至1/32并付128^d，完整高f只有一份，整方向先ℓ²再Minkowski，source20≤s≤2898保持GA完整式且W_{s+1}≤1时<2^-48000000||η/r||L²。joint op L²→Z_s^[3]在γ relativeA0/wE2960连续，fullprincipal/三径source/mean/off-shellcharge/Hmet独立保。没有从A0界外推H0，没有旧seed/science重算，也未造新L²非线性值域/rough onto。
+
+### 2026-11-27 HLP：真正L²参数方向的完整physical读出
+
+已证明纯解析transfer，无新增数值组合/不添重复reader。HL真实endpoint E20及Γ2 P2方向逐项接GHC/GHR/GHV的完整mean、reference1、radialrotation、Xi(δW)、fullprincipal与physical scale，固定w partialγ scalar<2^-56000000/r L²，vector formal2jet<2^-55000000/r L²。joint op L²→完整读出在γA0/wE21连续；generic broken仍formal，actual selected要加D_wV和closed匹配资格。独立λ/world placement/heightspan与ports保，旧比较科学0重跑。
