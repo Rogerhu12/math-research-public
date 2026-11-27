@@ -42,7 +42,7 @@ a_j hbar_j=s_p[L:H]B_j Kbar_j(0)，s_p=−ε_p(3/p)。
 
 原全局34δ/18/30椭圆单位沿新BKNKO G.25/G.29在真实HT(2,−1)给整signed直和；augmentation Hf是M+，完整偶导子root−/Kato付原单位在M+。其真实signed坐标A(0)与K(0)²的全部精度/period仍待，不得套椭圆T_E。原[p²全norm](notes/2026-11-27-original-inert-p-square-full-norm-and-endpoint-zero.md)已付depleted端点0、raw AJ norm/p²回原I及h，不能省回返p+1路径或套primitive角色端点。
 
-固定p29唯一run46043135878/job140655635855/source346dd26f已付原完整PB4行(20,27,7,20,23,21)及全部回乘；CM13整谱与Frob²三循环进一步给三个D_j的z28单位。故三K_j,29为Tate单位、全部d_j,30k−2赋值1−k−v29((k−1)!)；这是纯theta结论，不要求29通过c_j/γ坏集或q0，也非无穷p。原R855/R856全热递推与固定水平cover已读并复用，不重做；p−1行比Bol共振少一阶，不能由p-curvature零反推单位。
+固定p29唯一run46043135878/job140655635855/source346dd26f已付原完整PB4行(20,27,7,20,23,21)及全部回乘；CM13整谱与Frob²三循环进一步给三个D_j的z28单位。故三K_j,29为Tate单位、全部d_j,30k−2赋值1−k−v29((k−1)!)；这是纯theta结论，不要求29通过c_j/γ坏集或q0，也非无穷p。消费者§6再付原PB4整行零已严格等价同一H₂=ω的全部17维零functional：三原半period全34列满足U_e²=−I、两两反交换，故(S₂−I)/2有两17维，原μ6与全17挠Heisenberg相位保持。ℓ_p=ℓ_pΠ4把原三维条件准确提升；原type4单二挠读数为δ/3，不能误称单U_e保持17块。p≡2/5mod9同Frob²循环将全行非零等价三原线全单位；仍未证跨p非零，7p−1下一共振保原j_(p−7)未控项。 原R855/R856全热递推与固定水平cover已读并复用，不重做；p−1行比Bol共振少一阶，不能由p-curvature零反推单位。
 
 ## 主目标及其余原门
 

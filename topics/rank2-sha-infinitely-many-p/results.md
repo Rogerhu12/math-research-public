@@ -32,3 +32,5 @@
 - [原type4惰性负二Newton与signed支](notes/2026-11-27-original-type-four-inert-negative-two-newton-and-signed-line.md)：完整负二Newton保高尾，a_h赋值≥ceil((h(p−1)+6)/(2p))，K modp为常数d_p−1/(34pcσ)，d首行单位等价整个K为整Tate单位并给全部d_(p+1)k−2的精确赋值1−k−vp((k−1)!)。R806全权平方保m!、(k−1)!及原惰性Euler，D17准确K17=K1/17；新BKNKO G.25/G.29在HT(2,−1)给完整整signed直和、augmentation的Hf是正线，原单位由完整偶导子root−/Kato互反归入M+。全精度signed标量与K²、原canonical坏forcing及通常Sha桥仍待。固定29三条K的单位与全部30k−2赋值已由同一旧回执直接消费，不预付q0。
 
 - [固定weight5 Artin基与共同相位](notes/2026-11-27-original-weight-five-toric-artin-basis-and-common-phase.md)：固定weight5原54值B_j=(17δ/9)T_j,5给实际Artin基且B_j²=C_j。原严格图置换/全GL9下降保全部微分，把T_j,k/B_j送入E；H/K在3不分歧而E/K全分歧，故H⊗E是域，两份ζ9分清。char0三标签Gal(E/K)循环迫共同ε_k，给T_j,k=ε_k A_k B_j d_j,k−1，A_k=δ3^((k−5)/2)2^(-(k+1)/3)(k−1)!/34；ε5=−1。故全部好惰性p的原三向量满足a_j hbar_j=s_p[L:H]B_j Kbar_j(0)，共同s_p=−ε_p(3/p)，不需p mod9限制。任意原线性组合保B_j/a_j，未重选Artin基或逐j取根；未付全精度、权连续或无穷非零。
+
+- 原惰性29消费者[§6完整17维提升](notes/2026-11-27-original-type4-inert29-coefficient.md)：原PB4整行零已严格等价同一H₂=ω的全部17维零functional：三原半period全34列满足U_e²=−I、两两反交换，故(S₂−I)/2有两17维，原μ6与全17挠Heisenberg相位保持。ℓ_p=ℓ_pΠ4把原三维条件准确提升；原type4单二挠读数为δ/3，不能误称单U_e保持17块。p≡2/5mod9同Frob²循环将全行非零等价三原线全单位；仍未证跨p非零，7p−1下一共振保原j_(p−7)未控项。

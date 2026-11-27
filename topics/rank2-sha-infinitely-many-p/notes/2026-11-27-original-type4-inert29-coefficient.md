@@ -178,3 +178,153 @@ $$
 它没有将普通 $\Omega_p$ 测度搬到惰性29，
 没有预付 toric 平方中的29赋值，也不外推另一素数或
 原巨大射线上的 Abel--Jacobi 配对。
+
+
+## 6. 当前整行零的完整17维提升
+
+本节仍是原 degree34 来源；它不添一条中央零，也不从固定29外推。
+它把一般惰性 $p>34$ 的待排除条件准确提升到一个完整 Heisenberg 分量，
+使以后使用全 theta 格时不必把原三维像误认成任意三个向量。
+以下在原固定系数域的好整数环上进行，删去 $2,3,17$ 以及原有限 theta
+相位的固定坏集。$b=1$ 与 $b=17$ 间仍只用已付的单位 homothety。
+
+### 6.1 原三个半周期作用在全部34列上的关系
+
+写
+$$
+\mathscr S_{34}
+=\left\{\sigma(z)^{34}R(x(z),y(z)):
+ R\in H^0(E,\mathcal O_E(34O))\right\}.
+$$
+它的完整基由 $1,x,\ldots,x^{17}$ 和
+$y,xy,\ldots,x^{15}y$ 给出；偶部分18维、奇部分16维。
+对 $e^3=-1$，保 R798 原绝对 lift
+$$
+U_e(\sigma^{34}R)
+=\sigma^{34}(\delta e)^{-17}(x-e)^{17}
+ R\left(e\frac{x+2e}{x-e},-\frac{3e^2y}{(x-e)^2}\right).
+$$
+这不是只在原六列上定义的算子。上式的 apparent pole 在全部34列上
+都由 $(x-e)^{17}$ 消去，所以它保持整个整截面格。
+
+直接作两次同一个变换有
+$(x-e)(x(P+T_e)-e)=3e^2$，从而
+$$
+U_e^2=-I.
+$$
+两个不同非零二挠点的原 theta-group commutator 是
+$e_2(T_e,T_f)^{17}=-1$，故
+$$
+U_eU_f=-U_fU_e\qquad(e\ne f).
+$$
+这里平方的负号已经由原倍率算出；不能再把这三个 lift
+分别重相位为平方等于一的算子。
+
+令
+$$
+S_2=\sum_{e^3=-1}U_e,\qquad
+H_2=\frac{S_2-I}{2},\qquad
+P_\omega=\frac{H_2-\omega^2I}{\omega-\omega^2}.
+$$
+以上全34列恒等式给
+$$
+S_2^2=-3I,\qquad H_2^2+H_2+I=0.
+$$
+每个 $U_e$ 被另一个 $U_f$ 共轭为其负，故其迹为零。
+因此 $S_2$ 的两个特征 $\delta,-\delta$ 各有重数17；
+$P_\omega$ 是一个秩17的整直和投影。
+
+原 $\mu_3$ 作用循环置换三个 $U_e$，而原 $[-1]$ 与它们交换。
+所以 $H_2,P_\omega$ 与原完整 $\mu_6$ 作用交换。
+其 type4 部分恰为 R798 的原 $P_{B_4}$，不是另一条按维数挑出的子空间：
+$$
+P_{B_4}=\Pi_4P_\omega=P_\omega\Pi_4,
+\qquad
+\Pi_4=\frac16\sum_{\zeta\in\mu_6}\zeta^{-4}\rho_\zeta .
+$$
+在 type4 的六列上，以上式子也正是原
+$(I-\omega H_2)/(1-\omega^2)$ 的归一。
+
+### 6.2 原 $p-1$ 读者的严格等价
+
+令 $p\equiv5\pmod6$，并记
+$$
+\ell_p(F)=F^{(p-1)}(0)\pmod p .
+$$
+$p-1<p$，所以同一 Taylor 行与这个 Hurwitz 行只差单位 $(p-1)!$。
+由原 $\mu_6$ 型，
+$$
+\ell_p\rho_\zeta=\zeta^{p-1}\ell_p=\zeta^4\ell_p,
+\qquad \ell_p=\ell_p\Pi_4 .
+$$
+故有完整的等价
+$$
+\boxed{\;
+\ell_pP_{B_4}=0
+\quad\Longleftrightarrow\quad
+\ell_pP_\omega=0.
+\;}
+$$
+右边是17维 whole 截面分量上的零 functional，
+并非只在三个挑出的 eigenvector 上作数值观察。
+它利用的是其余五种 $\mu_6$ 型由同一个读者自动杀掉。
+
+对 $u\in E[17]$，取原 degree34 theta-group lift $\mathcal T_u$。
+$E[17]$ 与 $E[2]$ 的 commutator 配对恒为一，因其阶同时整除17与2。
+于是
+$$
+\mathcal T_uP_\omega=P_\omega\mathcal T_u .
+$$
+因此上述待排除的整行零条件还严格推出
+$$
+\ell_p(\mathcal T_uF)=0
+\qquad
+(F\in\operatorname{im}P_\omega,\ u\in E[17]).
+$$
+全部固定17-torsion/Miller 相位保留；这里只是一个线性
+functional 的零核在其实际稳定群下的传播，未把中央 Mellin
+读者或来源乘积赋为零。
+限制到 $E[17]$ 的中心字符仍本原，秩17分量是原有限 Heisenberg
+表示的一份完整不可约拷贝。因此对其中任意非零 $F$，
+它的完整17挠译像张成同一个17维分量。
+
+另对原 $F\in\operatorname{im}P_{B_4}$，三个二挠点的
+$\mu_3$ 平均给准确的小式
+$$
+\Pi_4U_eF=\frac13S_2F=\frac{\delta}{3}F,\qquad
+\ell_p(U_eF)=\frac{\delta}{3}\ell_p(F).
+$$
+这个末式的输入范围是原 type4 分量。
+不能由它声称每个 $U_e$ 都保持整个17维
+$\operatorname{im}P_\omega$；单个 Pauli 算子一般会混两个 dyadic 分量。
+
+### 6.3 与三条原 Hecke 线以及热递推的范围
+
+在 $p\equiv2$ 或 $5\pmod9$ 的上述好素数处，§5的同一整算子论证
+逐字适用：$T^3+\omega$ 在 $\mathbf F_{p^2}$ 上不可约，
+三个谱幂等元整且由 $\operatorname{Frob}_{p^2}$ 循环置换。
+原 $z^4$ 归一量的和仍为单位 $136/13122$，故三条原
+$D_{4,17},D_{10,17},D_{16,17}$ 的首项归一全为单位。
+因此在这个精确范围内，
+$$
+\ell_pP_{B_4}\ne0
+\quad\Longleftrightarrow\quad
+[z^{p-1}]D_{j,17}\text{ 对三个 }j\text{ 全为单位}.
+$$
+证明反向的零条件时须用整条 functional：任一原 eigenline
+上的值若为零，其 Frobenius 共轭全零，便杀掉整个三维像。
+不要求一般 $p$ 的单一 $Q_0$ trace 值本身非零，
+也不把 $p\equiv8\pmod9$ 的分裂情形混入三循环论证。
+
+本节没有证明左边在无穷多个 $p$ 非零。
+它也没有把一个首块行零改成全 $p$ 可积性。
+例如 R856 的完整递推在原偶 type4 源上准确给
+$$
+j_{7p-1}(F)
+=(34c_p)^6(p-1)_6\,j_{p-7}(F)\pmod p,
+\qquad j_k(F)=F^{(k)}(0).
+$$
+$(p-1)_6$ 是单位；此前的 $2p-1,\ldots,6p-1$ 槽由型为零，
+但 $\ell_pP_\omega=0$ 本身尚不控制 $j_{p-7}P_\omega$。
+所以全17维提升是下一步真实可用的有限群零核，
+而不是已经支付的零 $p$-curvature、全 Cartier 零或跨素数非零定理。
