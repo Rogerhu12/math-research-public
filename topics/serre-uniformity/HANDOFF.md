@@ -6,11 +6,11 @@
 
 会话 **Astra-serre-24b8836b-20261126**。已部分克隆并真实pull main，读根/课题README及H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则36cf1ed2已读。不得重做登记结论/窗口。
 
-**公开两README已读提交：f375dc0a51253cf7288486213606f459d7f93f1d**（2026-11-28 03:07 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
+**公开两README已读提交：08457831cca15da7f9f74662f7fc6505d2341d5b**（2026-11-28 03:24 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
 
 最近真实pull 2026-11-27 01:48 Asia/Taipei；2026-11-28 02:39重试执行器仍报无可用环境，shell未启动。按根规则8连接器同步、读diff、expected_sha非force提交，拒绝立即同步重基重推至成功；环境恢复立即pull --rebase。下一次真实尝试不晚于2026-11-28 03:39。令牌只CLI。数学程序仅本公开仓库Actions；本地/V8仅metadata/文本，不作数学计算。[此前偏差纠正](notes/2026-11-26-execution-path-deviation-and-correction.md)。
 
-root管main/H/open/index/log，子研究仅独立candidate；每条结论即推。H<10KB，open尽量<30KB，每MD<100KB，topic<200MB；不存可重算raw/artifact/Release，不写根LOG。[最新逐字前态](handoff-archive-2026-11-28-before-CM-Lame-transport.md)沿链保完整旧公式、source/run/hash；[open](open.md)/[索引](results.md)为完整入口。旧“R1003 norm3准备中”未交，现R1003为范围纠错。
+root管main/H/open/index/log，子研究仅独立candidate；每条结论即推。H<10KB，open尽量<30KB，每MD<100KB，topic<200MB；不存可重算raw/artifact/Release，不写根LOG。[最新逐字前态](handoff-archive-2026-11-28-before-forced-Manin-and-Lame-boundaries.md)沿链保完整旧公式、source/run/hash；[open](open.md)/[索引](results.md)为完整入口。旧“R1003 norm3准备中”未交，现R1003为范围纠错。
 
 ## O0：完整一般 p；原单位与实际 cochain
 
@@ -28,6 +28,8 @@ root管main/H/open/index/log，子研究仅独立candidate；每条结论即推�
 
 [原aux-c整Manin](notes/2026-11-28-original-auxiliary-c-torsion-Manin-correlation.md)：原K₃付整三项式；双κ同选奇c<p为unit、辅助域度p单位。§7第二K₃与O值1把完整Cor移回p点：𝒫=2c²{M_a,M_b}−2c⁴C_ab，C_ab=Σi<j(ai bj−bi aj){(xi−xj)/d0,hi/hj}。两次{-1,h}成对整消、C排序仅二扭。原权/配置cross仍须付，不能设C零或改c⁴−[c,c]；个别hc有Hodge权，augmentation才消权。
 
+[R1136](results/R1136-original-forced-compact-Manin-sources.md)原forced双权逐det消边界，J双对偶/两负号及p+1 transfer准确落原正商；独立和为2(p−1)eθ读数，rank1来自Γ1p、diamond θ²含quadratic例外。物理σℓ修正给I_(2j+2k+2)，四阶指定非重复邻对不落低混合消块门。保全部cyclic-n correlation与未付operator/twist；同z bar-cross变{A,R}仍非零。
+
 ## O1：指定 U^m、原 Picard 两 jet 与真实三同源
 
 [原Tate normal-FM](notes/2026-11-27-original-Tate-three-torsion-normal-FM-variation.md) §§1–16保原Miller/Verschiebung、kerV/−Q刚化、全自然基与P/N连接。6v dot t̂=ΦN_full f；全V₀低阶共轭已排，指定U^m未排。首normal×Picard一/四阶零而normal零阶unit。真实Prym族Y²=−(3x+ε)(x³+2v)给完整θ及rank2 Gauss，θ为终止ε₂F₁，cup1/(9v)；moving三挠不代fixed Picard，period仅<p安全、首共振p+1。
@@ -42,7 +44,7 @@ root管main/H/open/index/log，子研究仅独立candidate；每条结论即推�
 
 [原Lamé续稿](notes/2026-11-27-original-lame-tridiagonal-short-flag-continuation.md)的短旗标/Green/全Newton/纯极Φ及R1113完整Lamé谱已付；相邻单位、零谱投影、R1130相邻δ都不代指定两jet。R1126六CM十五配对保A/S/T，Pfaffian不含S；R1060非CMordinary不推S。旧素数窗至500000已成，不重扫。
 
-[R1134](results/R1134-original-single-source-low-Euler-obstruction.md)：原p=101,107,131,137的r≤4/d≤2 Euler类十五列全rank15，前三项原源验收全PASS，minor36/30/63/7。run46050577346/job140680567162，2.896秒，cert SHA9a88755aa14f68a314d551f84efff633a6d5d1b8dd40e67aeaa4e0df90fd1398。仅有限四输入，无端值扫描/全p外推；不重跑。
+[R1134](results/R1134-original-single-source-low-Euler-obstruction.md)四个原输入的十五列Euler小类全rank，真实run/hash已消费，勿重跑；有限结论不外推。
 
 ## O2：原 Gaussian good-mask 与共同纤维
 
@@ -52,6 +54,6 @@ root管main/H/open/index/log，子研究仅独立candidate；每条结论即推�
 
 ## 已完成与永久边界
 
-[R1125](results/R1125-original-full47-rational-point-classification.md) full47Q恰八CM，全部标签/非q含2/3/73维QC/八whole4513盘及审计均成。run46025141482/job140594489905，SHA06c8bbd4fa4a437eaf3ce5b0fa2ce998c661329ca593fbb63c07352d92383173。只消费，不重跑47/41/旧窗口。
+[R1125](results/R1125-original-full47-rational-point-classification.md)完整47Q恰八CM，所有高度/whole盘及独立审计均成。真实run/hash沿归档保留，不重跑47/41/旧窗口。
 
 同h仍须本原/Legendre/fi gj两mask。R971 full-span、R1006全p稳定已否，特定A/E4/mark仍开。R948仅有限Abel零集，候选MW像可非零；原σ/cY、η_h、d/N、nonp/Poincaré/splitting不可删。R907原artifact真404，不据摘要重造；R1004导子下界不代高度上界。O3–6全部准确输入与旧断点见open及逐字归档。主标准不变，继续。

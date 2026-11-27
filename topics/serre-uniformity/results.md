@@ -1,5 +1,7 @@
 # 结论索引
 
+- **R1136（已证明，纸面）**：[R1136](results/R1136-original-forced-compact-Manin-sources.md)：原forced双权在每个det片分别消边界；analytic γ⁻ᵀ=JγJ⁻¹的两负号准确相消，p+1 transfer落真正X_ns^+。独立部分为2(p−1)eθ紧致读数；rank1部分来自Γ1p并保diamond θ²，含θ quadratic例外。完整B_n保全部cyclic-n Cor；物理σℓ给I_(2j+2k+2)，R1132只在额外低混合Bernoulli门消整块，原四阶非重复邻对不满足该范围。同z bar-cross准确变{A,R}，不同z项仍保；actual operator、rank1 twist与四阶见证继续。
+
 - **R1135（已证明，纸面）**：§§7–9已付原R² Newton商与固定非观测D(4)单位；[R1135](results/R1135-original-Gaussian-low-row-fiber-constraint.md)在Bp−7/Bp−11双坏分支给同一frame至多一个非对角无序pair。Bp−7坏/Bp−5好给准确Δ_low/48；单位性、跨frame与残余pair排除仍开。
 
 - **原Gaussian有限矩阵重建（已证明，纸面）**：[原Gaussian有限本征重建](notes/2026-11-28-original-Gaussian-finite-contiguity-and-spectral-reconstruction.md)：完整固定权contiguity保Δ₀/全部长尾；L=1+X(1+X)/(1−X)∂X在E_r=X^r(1+X)^(p−2r)上本征r+1，h≥1的L−2h有单位逆。原principal B_(k+1)=E_(2k+1)作为唯一共振边界，向下唯一恢复全部centered矩阵。ξ=X/(1+X)²后Hℓ′=−ΣG4j Cj Hℓ−j，积分仅除≤2ℓ<p；完整binomial矩阵保原N_R/γ/good mask。h0不外推、G_(p+1)不约化、缺中项不观测、P=0不删除；指定minor/Hankel共同纤维仍待付。

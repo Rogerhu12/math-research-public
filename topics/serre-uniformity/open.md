@@ -30,6 +30,8 @@
 
 [原跨line弦单位](notes/2026-11-28-original-cross-line-chord-unit-equations.md)：i仅原E[p]索引，(P,aP,iP)给真实U+V=1。一次实际bar范数保全部θ相位/leading，两槽类为uχ(a)Fχ/m、vχ(a)Fχ/m；uχ=2[g(a+1)−g(a−1)]、g(t)=(t²−δ)^r−t^(2r)。低/高r根数付每actualχ都有2≤a≤m使uχunit；第二槽全ψ₂²保留、不除κ₂。不保证两χ共a或V槽unit。原Norm crossed Cor/四阶下降继续；泛配置双tame非零只作边界，不能传到实际椭圆。
 
+[R1136](results/R1136-original-forced-compact-Manin-sources.md)：原forced双权在每个det片分别消边界；analytic γ⁻ᵀ=JγJ⁻¹的两负号准确相消，p+1 transfer落真正X_ns^+。独立部分为2(p−1)eθ紧致读数；rank1部分来自Γ1p并保diamond θ²，含θ quadratic例外。完整B_n保全部cyclic-n Cor；物理σℓ给I_(2j+2k+2)，R1132只在额外低混合Bernoulli门消整块，原四阶非重复邻对不满足该范围。同z bar-cross准确变{A,R}，不同z项仍保；actual operator、rank1 twist与四阶见证继续。
+
 ### 原完整X_ns^+(47)已完成，只消费
 
 [R1125](results/R1125-original-full47-rational-point-classification.md)证明原完整X_ns^+(47)(Q)恰为八个有理CM点，准确j表和原点身份保正文。R1072/1074的全235坏47盘、全10 good全局标签及283同点筛选，只余八盘；R1086的全4513标签含scalar/twists/cusps/R36零坐标，锁定同一CM点。R1074§9的whole-C47 tube和R1103§6.1付全部非q项，包含非整j与2/3；未另加整j、二次域或proper inertia假设。
