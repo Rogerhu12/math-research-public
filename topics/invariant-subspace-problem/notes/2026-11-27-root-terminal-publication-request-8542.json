@@ -1,19 +1,13 @@
 {
-  "message": "ISP: return two original W mean equations and fixed parameter identities",
-  "parentCommit": "a9bd8edd459cfa217fc66a0a951abd24d24a8f3d",
+  "message": "ISP: prove the full one-special six-site S1 and same-source precision margins",
+  "parentCommit": "26e15682cce2291ca7cb1667d81231a5aef11178",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-W-two-original-mean-S-affine-and-fixed-resultants.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-original-two-mean-S-affine-and-fixed-resultants-receipt-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-original-mean-S-affine-exact-input-8542.manifest.json",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-original-mean-S-affine-exact-input-8542.part-01.json",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-original-mean-S-affine-exact-input-8542.part-02.json",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-canonical-three-original-F-rows-and-S-affine-8542.py",
-    ".github/workflows/invariant-subspace-8542-w-canonical-original-three-rows.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-W-original-affine-8542.md",
+    "topics/invariant-subspace-problem/results/R271-appendix-six-site-one-special-weight-full-s1-and-relative-source-margin.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-six-one-special-S1-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -22,7 +16,5 @@
     ".github/workflows/invariant-subspace-8542-root-terminal-publication.yml",
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
-  "dispatchWorkflows": [
-    "invariant-subspace-8542-w-canonical-original-three-rows.yml"
-  ]
+  "dispatchWorkflows": []
 }
