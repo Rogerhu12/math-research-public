@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [原真实全终列预算与同forcing固定方差窗真核费用](results/R271-appendix-actual-terminal-compatible-tower-and-fixed-variance-window-energy.md)：逐高度Bernoulli插入界626支付到L=h−1，完整Gram给原误差≤q_C(S)−q_C(S/2^22)；moving-head窗口及原lift继续。
+
 - [Q=1−u三个完整精确权域的原QQ返回](results/R150-appendix-unit211-Q1minusU-three-exact-weight-domain-exclusions.md)：原C/D保全u纤维，三域剥原Q/M后真Bézout1，二次共轭全含；新完整R模重数244/3/3仍待QQ支付。
 
 - [全余W的原mean可逆二变量系统与固定原约束](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-original-mean-bivariate-system-and-fixed-pair-constraints.md)：原六必要式等价为三双二次/两双三次；w六次常数cofactor和三对w八次真实原迹，保所有首项零/物理D。
