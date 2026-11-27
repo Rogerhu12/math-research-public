@@ -58,5 +58,5 @@ R248只活动像；固定非对称p4两帽需共同R650或全mixed pairs。全�
 
 <!-- visible-larger-parallel-12:start -->
 Actions12：[run 46011377225/1](https://github.com/Rogerhu12/math-research-public/actions/runs/46011377225)；[全阶段记录](notes/2026-11-27-public-actions-46011377225-1.md)。running；已返2，exit=未返。
-并行12规则核查：2026-11-27 15:35:03 UTC，真实pull至`729cf7b0e1fdef4b3d6ca8e4bff1ca7764124d5b`，双README无变化。
+并行12规则核查：2026-11-27 15:40:05 UTC，真实pull至`8e7f7de4f1c235230832bbe3c4797e30dacf9a64`，双README无变化。
 <!-- visible-larger-parallel-12:end -->
