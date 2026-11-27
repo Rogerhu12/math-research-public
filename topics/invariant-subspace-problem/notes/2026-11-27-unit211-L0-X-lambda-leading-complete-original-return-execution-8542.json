@@ -1,0 +1,101 @@
+{
+  "sourceSha256": "579c3c755b7356598085dd1577a9951736c85f6ada1e8e6e4346e1f02f0d5029",
+  "sourceBytes": 19666,
+  "actualExitCode": 0,
+  "wallSeconds": 21.538033089000237,
+  "peakRssKiB": 95836,
+  "stdoutBytes": 18493,
+  "stdoutSha256": "41594763babc0cbc80c20b5e04cdc6b4c0f795e106c0d1e73f863816f59b0fdc",
+  "scope": "whole X lambda-leading boundary; not whole L0 exclusion",
+  "source": "2026-11-27-unit211-L0-X-lambda-leading-complete-original-return-8542.py",
+  "limits": {
+    "sourceAlarmSeconds": 180,
+    "outerHardSeconds": 190,
+    "addressSpaceGiB": 4
+  },
+  "exactReturns": [
+    {
+      "actualTwoProductsMultipliedBack": true,
+      "allOriginalFibersRetained": true,
+      "claimExcluded": true,
+      "coefficientDegrees": [
+        23,
+        31
+      ],
+      "coefficientSha256": "1c8dc3119ce4c16316b1a0654a4d5334fd72b47b21716a65d43b9dd3280597a2",
+      "elapsedSeconds": 21.249127,
+      "originalCurveSha256": [
+        "6057a487720992327d9e065ec6b7ef5e54896637f1c756a28391fd734737b50c",
+        "519fe7c69a0cf7c05283aa66833331b64e7654bb6ec0daec606c49b2c2a02f68"
+      ],
+      "originalSpecializedLambdaDegrees": [
+        32,
+        24
+      ],
+      "stage": "whole_original_w_fiber_QQ_Bezout",
+      "w": "-1",
+      "wholeFiberExcluded": true
+    },
+    {
+      "actualTwoProductsMultipliedBack": true,
+      "allOriginalFibersRetained": true,
+      "claimExcluded": true,
+      "coefficientDegrees": [
+        28,
+        32
+      ],
+      "coefficientSha256": "3fe89094458a82546070c8c023609ae6550e35d3c374252b655add2dbc65b74d",
+      "elapsedSeconds": 21.263452,
+      "originalCurveSha256": [
+        "6057a487720992327d9e065ec6b7ef5e54896637f1c756a28391fd734737b50c",
+        "519fe7c69a0cf7c05283aa66833331b64e7654bb6ec0daec606c49b2c2a02f68"
+      ],
+      "originalSpecializedLambdaDegrees": [
+        33,
+        29
+      ],
+      "stage": "whole_original_w_fiber_QQ_Bezout",
+      "w": "-1/2",
+      "wholeFiberExcluded": true
+    },
+    {
+      "GaussLemmaOnCompleteQQUnivariateCover": true,
+      "actualBezoutCoefficientDegrees": [
+        230,
+        272
+      ],
+      "actualBezoutCoefficientSha256": "f00f2bc4afa3b1cba5954d973da72fe54d9781542b2f94e3190ded8d9cf4139c",
+      "actualTwoProductsMultipliedBack": true,
+      "allComplexEmbeddingsRetained": true,
+      "allMonicCoverCoefficientsPrimeIntegral": true,
+      "claimExcluded": true,
+      "elapsedSeconds": 21.443921,
+      "fullOriginalModularSupportDegree": 231,
+      "fullOriginalModularSupportSha256": "c720b2d7910e2b588e429226857bfdf443fe51e8b021f5ce681586ded581b9ae",
+      "fullQQCoverDegree": 273,
+      "fullQQCoverSha256": "ca33bb5db44724d0958a119048ff549c0052cbddb2176a6f170fda88d6f424ad",
+      "fullQQResultantLeadingCoefficientPrimeUnit": true,
+      "originalAndModularWDegrees": [
+        52,
+        7
+      ],
+      "prime": 1009,
+      "stage": "whole_X_lambda_head_curve_original_return",
+      "wholeHeadCurveExcluded": true
+    },
+    {
+      "allOriginalWMinusOneAndWMinusHalfFibersExcluded": true,
+      "claimExcluded": false,
+      "degreeLambda": 34,
+      "elapsedSeconds": 21.446707,
+      "entireLeadingFactorizationVerified": true,
+      "monicPolynomialHasOnlyPaidDenominators": true,
+      "ordinaryISPClaim": false,
+      "peakRssKiB": 95836,
+      "sourceSha256": "579c3c755b7356598085dd1577a9951736c85f6ada1e8e6e4346e1f02f0d5029",
+      "stage": "complete_original_X_lambda_head_paid",
+      "wholeDegreeSevenFactorExcluded": true,
+      "wholeL0Excluded": false
+    }
+  ]
+}

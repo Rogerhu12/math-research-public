@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R150 L0整个X的lambda首项零面为空（2026-11-27，已证明）：** [两整纤维、273次QQ覆盖与原一元Bézout](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-L0-X-lambda-leading-complete-exclusion.md)完整支付w+1、2w+1及H7；首项准确为w11(w+1)9(2w+1)5H7/288。原C/X来源再生，273次覆盖首项在1009为单位，完整52/7次投影约化与覆盖Bézout1全乘回。源579c3c75实际21.538033秒/95836KiB/exit0；X现可合法34次首一化，不宣一般L0排空。
+
 - **R150 原S0/Lt0整支完成排除（2026-11-27，已证明）：** [完整1502→615次QQ覆盖及三个全因子返回](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-complete-original-cubic-cover-exclusion.md)由原F41/U38/N42/G132支付最后一般图；只剥已付e/e±1/ehalf，三个2/296/317次QQ因子在1009首项为单位，原N/G投影保33/34和33/109的k次数，三条实际Bézout全乘回为1。自含源9d0c7789实际163.600807秒/124232KiB/exit0，无外部系数缓存；与已闭退化面合并整支关闭。一般LS、L0、其他R150图、真幂来源及普通ISP仍开放。
 
 - **R150 L0三个新增原八行参数子式（2026-11-27，已证明）：** [九原行删8/5/2的完整cofactor证书](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-L0-three-additional-original-parameter-curves.md)给C39,54/C40,53/C40,54，24列身份及原多项式组合全回乘，全部主元零纤维保留，只剥已付单位。源6a2e3763实际51.704210秒/103552KiB/exit0；不重算旧删7的C39,53，不宣一般L0排空。

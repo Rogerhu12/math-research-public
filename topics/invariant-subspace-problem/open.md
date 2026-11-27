@@ -162,3 +162,6 @@ L0新[三原参数曲线系统](results/R150-appendix-essential-four-unit-two-pl
 
 
 [原图核心与R143实际反根](results/R12-appendix-core-power-bound-and-actual-r143-inverse-root.md)已付S=T⁻¹闭稳定、S²=α0⁻¹B1|K及原D图核心；余RanT⊂RanT*或等价实际伴随域包含，未知K不套全尾根整除。另D=−2Z的D²L核心只在旧有限放大稠密条件下成立，一般慢行不能借B1强单位。
+
+
+L0新[整X的lambda首项排除](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-L0-X-lambda-leading-complete-exclusion.md)已付w=−1/−1/2及整个H7：两个原QQ Bézout和273次完整QQ覆盖/保52与7次的一元1009 Bézout全回乘。X可在已付环首一化为34次；续其他原曲线的同点除法/返回，不倒置未知余式首项。源579c3c75实际21.538033秒/exit0。
