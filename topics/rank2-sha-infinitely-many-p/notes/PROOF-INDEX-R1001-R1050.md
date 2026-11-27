@@ -58,3 +58,5 @@
 - [R1022](../results/R1022-original-thirtynine-flat-trace-and-common-degree10-reader.md)：完整两顺序39支原trace付17p²/18极成本、整Hurwitz/质量logqα和全p^(H+1)比较；真实δ-old在完整N前缀与同primitive低窗准确回旧13读者。显式3字/39字Kummer及全部Miller常数保齐；同+3的新两行共享g2，旧行g0，第一步degree130的−43/−44不可删，继续实际全权消元。
 
 - [R1023](../results/R1023-original-hesse-delta-cover-and-full-three-lift.md)：原Hesse公共盖准确为[δ]，原deckρ=−T、F′φ=φ(−F)；α把cube类T送至−S3并保显式有限常数，不能提升同一三型。完整[3]补盖的两立方根、ordered deck和原degree9/3推拉已付，继续实际Frobenius图/全54权，不宣称截面或ordinary非零。
+
+- [R1025](../results/R1025-original-delta-flat-weight-full-cartier-and-cm36-hermite.md)：原增长δ根权的全部六型Cartier表与全支撑证明，实际H5的两个old响应在全部目标p为单位；固定属16的CM36盖及全Hermite原函数保真实全纯γ。乘回P10后完整保GP10项，曲率准确落原四系数槽/四维空间；仍须全外权和同primitive forcing，未将裸响应当canonical非零。

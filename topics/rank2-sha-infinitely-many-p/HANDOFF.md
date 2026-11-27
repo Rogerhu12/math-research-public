@@ -6,7 +6,7 @@
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。固定有限曲线族联合无穷非零可用无限鸽巢；有限p、随p换曲线、条件桥、接口或单独投影非零不完成。
 
-- 公开根/课题 README 已读至 `b5df17843379ab8718b5e9807140f94e54770e48`（API差异空；最近确认实际pull为02:45UTC）；每次pull只读新差异，至少每小时同步并记SHA。
+- 公开根/课题 README 已读至 `6321852a5a9166d9f05863ca87a0c1047332e665`（API差异空；最近确认实际pull为02:45UTC）；每次pull只读新差异，至少每小时同步并记SHA。
 - 两仓库已部分克隆。私库QUEUE接手提交41fe885610073f478b2f5a752461ca56cfd43f09已推；02:41UTC实际pull至b3d0029ecb318be56170fc764cad50ee2c7d4d42；03:45UTC API核至65009af53f743c057d0f9a6b5385192165c426aa，两README逐文件差异空、QUEUE仍本会话进行中。令牌只进程认证。
 - root独占git/H/open/log/index；每条结论即推，非快进立即pull --rebase/读README差异/再推至成功，不强推。数学只用公开Actions；不存可重算输出。H<10KB、每MD<100KB。
 - [此次完整逐字归档](notes/2026-11-27-handoff-before-hesse-full-three-cover.md)及其历史链保全部旧式/回执/未解门；[open](open.md)、[results](results.md)、[R1001–1050索引](notes/PROOF-INDEX-R1001-R1050.md)及前卷为接续入口。
@@ -27,12 +27,16 @@ R957–1013全部旧门、精确式及source/run在逐字归档中保留：严�
 
 R1016–1018完整原13字/全precision/单Frobenius权及第四阶真伴随保持：H*=6floor((s−5)/6)+5≥L_p，N=H(p+1)，增长M=7N/3+2、整trace/全Hurwitz尾/E2帽<p³和低项p^(H+1)均已付。Oπ=(24ρ/rB)[65Φ*+(61ω/18480)Ψ27462500]；全部Miller、曲率/末四非diagonal二阶极与第五块、其余12核非零χ-twist仍保。双支真实old差−61(p+1)log(π/barπ)/18480非零；未向译像赋canonical零。精确式见归档及各完整结果。
 
-R1020同一全22 target的第二Cartier准确返回：先只去原O留数ρ_b，ν1=Cη0、ν2=C²η0均O正则。全局S0(uω)=u^pφ、φ=−3xω/[c_p(X+1)]，第二层整个Z<p窗只见(f2(O))^pφ，且仅b≡5mod6可有该scalar；原aZ只在b≡1。真实K0∈F/F^p帽≤p²+1。取J_H=Σ_{n<H}a_nZ^(n+1)/(n+1)、φ_H=φ−dJ_H从H+5起，全部b及非diagonal读者t_rp+b=(−ρ_b^(1/p)[Z^(r−1)]r0+r[Z^r]K_H)^p。K_H−K0=[f2^pJ_H]，帽p(d2+H−1)−1，全部旧β/α边界按(31)保留；EH=1−S_H C后再D⁻¹吃完整first-C等式，不交换C/连接或偷删第一primitive。
+R1020原全22第二Cartier统一到唯一K_H∈F/F^p：真实O留数ρ、全局S0及第二层b5 scalar、aZ只b1；φ_H从H+5起，K_H−K0=[f2^pJ_H]及帽p(d2+H−1)−1已付。所有b及非diagonal读数均为(−ρ^(1/p)[Z^(r−1)]r0+r[Z^r]K_H)^p；旧β/α完整返回，EH后D⁻¹只吃完整first-C，不交换连接或删除第一primitive。
 
-R1021两条原E54925/E8125 rank2来源已完整还原：uA=σ10y(X+4)、uB=σ10xy；原odd3算子Do给FA、(15/2)QB，完整degree30多项式及C3相位已付。全24字保sχ6/sχ10，真实whole比为(2/15)χ4·x/(X+4)。Π2,0∇³q=120uA、Π2,1∇uB=10q/3、∇uA=4Ψ+5Ψ00，与四阶65/61的det−81。QB完整四阶六项保三条非零质量补线；old部分准确(8/c*)Dδ[11888Φ*+(11860ω/18480)Ψ27462500]，可接R1022全precision同窗。§5.1完整parity给同一+3的十二字和A+/B+中央分别为−4C3^10/−30C3^10倍的原两raw canonical；odd余项在全部真正读取严格零，可合法固定同一三处分支，仍不得逐十三字赋零。
+
+R1021原两δ-new rank2来自uA=σ10y(X+4)、uB=σ10xy；原odd3相位/degree30/全部24字及(2/15)χ4·x/(X+4)比值齐。2投影给120uA和10q/3，∇uA=4Ψ+5Ψ00；QB全四阶六项及11888/11860旧项、三条非零质量补线保留。parity只允许同+3全12字中央为−4C3^10/−30C3^10原canonical倍数，不得逐十三字赋零。
 
 
 R1022完整39支特征零trace已付：Rα=xAπRπ、两顺序原权、增长M=17N/6+3、整Hurwitz尾/质量logqα和全部低项p^(H+1)保持；E2 leading17p²/18使第三Cartier帽仍<p³。真正δ-old target在整N前缀和K_H低窗准确回旧13读者。全39 Kummer/Miller规范及质量常数齐；同+3两新行用真实三字g2、旧行g0，π作用于δ deck为−1。第一δ返回target130须保Miller−43/−44，最终同P10/Z/φH；parity只分3支不分13字，续g0/g2全连接forcing。
+
+
+R1025原u^H全六型Cartier已显式支付；实际H5时q/uA/uB裸返回0、两old的4/5与65/61权均返回全p单位倍ω/y。固定C36:t6=x/y属16，γ=ω/(ty)真全纯、divγ=22O+4T+4(−T)；全部六个r的Hermite原函数已显式。乘回P10后保完整GP10F；曲率精确成原A_m^9多项式的4个系数槽，不是自由常数。裸非零未外推canonical，续实际G水平/三十三字外权/原O与末四b。
 
 ## 三、几何与固定最高循环
 
