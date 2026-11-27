@@ -1,0 +1,721 @@
+{
+  "schema": "isp-equal-singleton-Phi-zero-ell-nonone-original-exclusion-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "execution": {
+    "elapsed_seconds": 0.9393182210000042,
+    "max_child_rss_kib": 45852,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "9b749875f8896e53d3c101ecd39fc1365bbfc864",
+        "before": "9b749875f8896e53d3c101ecd39fc1365bbfc864",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-27T14:27:51.501601+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46016119553",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "9b749875f8896e53d3c101ecd39fc1365bbfc864",
+    "source_exit_code": 0,
+    "source_git_blob": "1ddb0d712e96dad64efaaf4295bb804d03723403",
+    "source_sha256": "33e266f56cf57959d538216dc347a38f871435d4fdb8633f134f559cf1ed8996",
+    "stdout_bytes": 24573,
+    "stdout_sha256": "29e7a4dee0ef9c317ac546848d1390f40966a2a6f0c8d97a7f66c7a560a653a7",
+    "stop_reason": null
+  },
+  "job": 140563577560,
+  "mathematics": [
+    {
+      "actualOriginalDomain": "h=k!=1,Phi=0,ell!=1",
+      "parameters": [
+        "lambda",
+        "u"
+      ],
+      "originalScale": "unscaled H=1",
+      "originalSimplifications": [
+        "Q=2(u-1)(u-2)/(1-ell)",
+        "T0=4-4u-Q",
+        "Delta=-S*xi*Pf",
+        "f=-Pc/Pf"
+      ],
+      "originalPfPaidOnlyByPreviouslyExcludedWholeT0AndJQCollisionFaces": true,
+      "noNFInverse": true,
+      "exceptionalEllOneU2WholeQuarticFiberRetained": true,
+      "fAndTBothOriginalAffineRowsReturned": true,
+      "E0N0P1NVAndAllOriginalMomentsActuallyReturned": true,
+      "allEightOriginalRowsAndBothSingletonTargetsRetained": true,
+      "noOldDNonzeroWeightTheorem": true,
+      "claimExcluded": false,
+      "stage": "new_Phi_zero_collision_original_system",
+      "seconds": 0.6206649720000001
+    },
+    {
+      "name": "E1",
+      "raw": {
+        "degrees_lambda_u": [
+          42,
+          6
+        ],
+        "totalDegree": 48,
+        "terms": 301,
+        "bytes": 8570,
+        "sha256": "7be31dcfc1a5c1ad6d7fe937711c58da304ea4c248c019c600bfaee3a4dfdab1"
+      },
+      "primitive": {
+        "degrees_lambda_u": [
+          41,
+          5
+        ],
+        "totalDegree": 46,
+        "terms": 252,
+        "bytes": 7242,
+        "sha256": "d825690b13f524aa522b59ca26ef189f4cb9fc0b02836668bd6325abd5d26692"
+      },
+      "factorization": {
+        "content": "1/738197504",
+        "factors": [
+          {
+            "power": 1,
+            "profile": {
+              "degrees_lambda_u": [
+                41,
+                5
+              ],
+              "totalDegree": 46,
+              "terms": 252,
+              "bytes": 6582,
+              "sha256": "e43184a6c6a3099962883994f6ded17bbe37f1047ab110da9874c426dbd2b064"
+            },
+            "polynomial": "738197504*lam^41*u^5 - 5435817984*lam^41*u^4 + 15703474176*lam^41*u^3 - 22280142848*lam^41*u^2 + 15569256448*lam^41*u - 4294967296*lam^41 - 14294188032*lam^40*u^5 + 105629351936*lam^40*u^4 - 305949310976*lam^40*u^3 + 434865438720*lam^40*u^2 - 304271589376*lam^40*u + 84020297728*lam^40 + 135962558464*lam^39*u^5 - 1009887739904*lam^39*u^4 + 2937942179840*lam^39*u^3 - 4191451873280*lam^39*u^2 + 2942186815488*lam^39*u - 814701608960*lam^39 - 847039692800*lam^38*u^5 + 6332056862720*lam^38*u^4 - 18529495547904*lam^38*u^3 + 26577408622592*lam^38*u^2 - 18747515469824*lam^38*u + 5213721198592*lam^38 + 3887826206720*lam^37*u^5 - 29279798689792*lam^37*u^4 + 86290594791424*lam^37*u^3 - 124607570903040*lam^37*u^2 + 88455757430784*lam^37*u - 24739665936384*lam^37 - 14019528228864*lam^36*u^5 + 106448264626176*lam^36*u^4 - 316255567347712*lam^36*u^3 + 460321084932096*lam^36*u^2 - 329254776602624*lam^36*u + 92722723553280*lam^36 + 41355314200576*lam^35*u^5 - 316747797233664*lam^35*u^4 + 949423814213632*lam^35*u^3 - 1394288283877376*lam^35*u^2 + 1005954833317888*lam^35*u - 285554902040576*lam^35 - 102590900600832*lam^34*u^5 + 792919700144128*lam^34*u^4 - 2399355453046784*lam^34*u^3 + 3558066538676224*lam^34*u^2 - 2591769084559360*lam^34*u + 742322845253632*lam^34 + 218355654459392*lam^33*u^5 - 1703446240034816*lam^33*u^4 + 5206260210728960*lam^33*u^3 - 7801312926236672*lam^33*u^2 + 5741857601486848*lam^33*u - 1660837133549568*lam^33 - 404828101017600*lam^32*u^5 + 3188175553429504*lam^32*u^4 - 9845446322421760*lam^32*u^3 + 14915558447775744*lam^32*u^2 - 11099996124872704*lam^32*u + 3245162143678464*lam^32 + 661561462685696*lam^31*u^5 - 5259955957530624*lam^31*u^4 + 16416902387073024*lam^31*u^3 - 25156244888092672*lam^31*u^2 + 18939840569540608*lam^31*u - 5600904482914304*lam^31 - 962105602965504*lam^30*u^5 + 7722941858840576*lam^30*u^4 - 24366136951373824*lam^30*u^3 + 37777089822982144*lam^30*u^2 - 28787647208488960*lam^30*u + 8616886136209408*lam^30 + 1255210662445056*lam^29*u^5 - 10172064284475392*lam^29*u^4 + 32444649723527168*lam^29*u^3 - 50904160869679104*lam^29*u^2 + 39275670846439424*lam^29*u - 11906381589774336*lam^29 - 1479468223807488*lam^28*u^5 + 12102846841864192*lam^28*u^4 - 39024340442185728*lam^28*u^3 + 61962671901835264*lam^28*u^2 - 48414136988860416*lam^28*u + 14870634790912000*lam^28 + 1585634995531776*lam^27*u^5 - 13091636060807168*lam^27*u^4 + 42665290734092288*lam^27*u^3 - 68546979013885952*lam^27*u^2 + 54236958304567296*lam^27*u - 16883299911204864*lam^27 - 1555062024693760*lam^26*u^5 + 12954248343339008*lam^26*u^4 - 42653909216468992*lam^26*u^3 + 69314118026100736*lam^26*u^2 - 55523044502470656*lam^26*u + 17515508645625856*lam^26 + 1404544832477184*lam^25*u^5 - 11799463679074304*lam^25*u^4 + 39228090005389312*lam^25*u^3 - 64432742332317696*lam^25*u^2 + 52219645355884544*lam^25*u - 16687370626269184*lam^25 - 1176248195656704*lam^24*u^5 + 9958097228830720*lam^24*u^4 - 33395460019183616*lam^24*u^3 + 55383483277164544*lam^24*u^2 - 45365905972232192*lam^24*u + 14672006795034624*lam^24 + 919778378093568*lam^23*u^5 - 7839453722580992*lam^23*u^4 + 26485931546624000*lam^23*u^3 - 44284635418279936*lam^23*u^2 + 36606660208590848*lam^23*u - 11963793840668672*lam^23 - 676198490368512*lam^22*u^5 + 5795240095591936*lam^22*u^4 - 19693998047360000*lam^22*u^3 + 33137490716696576*lam^22*u^2 - 27587604920008704*lam^22*u + 9091612933980160*lam^22 + 470171512682496*lam^21*u^5 - 4046297541709568*lam^21*u^4 + 13807072226752512*lam^21*u^3 - 23331567945195520*lam^21*u^2 + 19516637878329344*lam^21*u - 6468201576103936*lam^21 - 310432411791488*lam^20*u^5 + 2679188165154816*lam^20*u^4 - 9164574009911808*lam^20*u^3 + 15521687915892736*lam^20*u^2 - 13014008331239424*lam^20*u + 4324615761543168*lam^20 + 194856571868224*lam^19*u^5 - 1684724897806592*lam^19*u^4 + 5769480368273920*lam^19*u^3 - 9777525006626816*lam^19*u^2 + 8199278348136448*lam^19*u - 2724077343899648*lam^19 - 116050914883968*lam^18*u^5 + 1004527560422784*lam^18*u^4 - 3441370721683712*lam^18*u^3 + 5829483062263808*lam^18*u^2 - 4881764751331328*lam^18*u + 1617737189007360*lam^18 + 65274891148432*lam^17*u^5 - 565551243642336*lam^17*u^4 + 1937813280699904*lam^17*u^3 - 3279841962842112*lam^17*u^2 + 2740721525149696*lam^17*u - 904553242877952*lam^17 - 34452854675512*lam^16*u^5 + 298835295501680*lam^16*u^4 - 1024351405357440*lam^16*u^3 + 1732699805323264*lam^16*u^2 - 1444754133645312*lam^16*u + 474645567500288*lam^16 + 16942368978768*lam^15*u^5 - 147171731031744*lam^15*u^4 + 504946295988096*lam^15*u^3 - 854106479370240*lam^15*u^2 + 711021335678976*lam^15*u - 232594932129792*lam^15 - 7706526398324*lam^14*u^5 + 67073461497480*lam^14*u^4 - 230486418038080*lam^14*u^3 + 390156181393408*lam^14*u^2 - 324557201123328*lam^14*u + 105814429509632*lam^14 + 3220003193514*lam^13*u^5 - 28091908803704*lam^13*u^4 + 96740421768576*lam^13*u^3 - 164007206521344*lam^13*u^2 + 136465889718784*lam^13*u - 44395882162176*lam^13 - 1227573473926*lam^12*u^5 + 10739030693196*lam^12*u^4 - 37079954511328*lam^12*u^3 + 63001108345088*lam^12*u^2 - 52483180987392*lam^12*u + 17059424199680*lam^12 + 424144896401*lam^11*u^5 - 3721710178048*lam^11*u^4 + 12889135843488*lam^11*u^3 - 21959129581696*lam^11*u^2 + 18328965832448*lam^11*u - 5959773898752*lam^11 - 131881660005*lam^10*u^5 + 1160908354994*lam^10*u^4 - 4033567821840*lam^10*u^3 + 6893225079168*lam^10*u^2 - 5768437570816*lam^10*u + 1878196839936*lam^10 + 36613205198*lam^9*u^5 - 323347513852*lam^9*u^4 + 1127253472416*lam^9*u^3 - 1932816228160*lam^9*u^2 + 1622262457856*lam^9*u - 529350127104*lam^9 - 8992234964*lam^8*u^5 + 79673224652*lam^8*u^4 - 278694652520*lam^8*u^3 + 479478288832*lam^8*u^2 - 403739251840*lam^8*u + 132102492928*lam^8 + 1931834870*lam^7*u^5 - 17170657600*lam^7*u^4 + 60260004456*lam^7*u^3 - 104021811904*lam^7*u^2 + 87881287040*lam^7*u - 28843556352*lam^7 - 357850058*lam^6*u^5 + 3190181968*lam^6*u^4 - 11230713624*lam^6*u^3 + 19448888992*lam^6*u^2 - 16484805632*lam^6*u + 5428054656*lam^6 + 56077718*lam^5*u^5 - 501295152*lam^5*u^4 + 1769792368*lam^5*u^3 - 3073945888*lam^5*u^2 + 2613502560*lam^5*u - 863325056*lam^5 - 7240522*lam^4*u^5 + 64881040*lam^4*u^4 - 229632856*lam^4*u^3 + 399895664*lam^4*u^2 - 340939904*lam^4*u + 112960064*lam^4 + 740905*lam^3*u^5 - 6652312*lam^3*u^4 + 23593240*lam^3*u^3 - 41176352*lam^3*u^2 + 35188112*lam^3*u - 11688704*lam^3 - 56453*lam^2*u^5 + 507614*lam^2*u^4 - 1803080*lam^2*u^3 + 3151984*lam^2*u^2 - 2698384*lam^2*u + 898144*lam^2 + 2854*lam*u^5 - 25684*lam*u^4 + 91312*lam*u^3 - 159776*lam*u^2 + 136928*lam*u - 45632*lam - 72*u^5 + 648*u^4 - 2304*u^3 + 4032*u^2 - 3456*u + 1152"
+          }
+        ],
+        "fullQQProductVerified": true
+      },
+      "onlyPaidOriginalRemoval": [
+        {
+          "originalUnit": "Q",
+          "gcdLoops": 1
+        },
+        {
+          "originalUnit": "previous_whole_S_zero_excluded",
+          "gcdLoops": 1
+        }
+      ],
+      "claimExcluded": false,
+      "stage": "new_Phi_zero_collision_complete_original_core",
+      "seconds": 0.6240166409999972
+    },
+    {
+      "name": "EBe",
+      "raw": {
+        "degrees_lambda_u": [
+          52,
+          8
+        ],
+        "totalDegree": 60,
+        "terms": 477,
+        "bytes": 15792,
+        "sha256": "bc802f8008afc3fa756b152b8a8187cdc051f10fb00a5ecb4491d828fe4bc962"
+      },
+      "primitive": {
+        "degrees_lambda_u": [
+          51,
+          7
+        ],
+        "totalDegree": 58,
+        "terms": 416,
+        "bytes": 13733,
+        "sha256": "85445e26bf872fce3389433e46806cc7b7085d958f9976a1f902122d786406be"
+      },
+      "factorization": {
+        "content": "1/17179869184",
+        "factors": [
+          {
+            "power": 1,
+            "profile": {
+              "degrees_lambda_u": [
+                51,
+                7
+              ],
+              "totalDegree": 58,
+              "terms": 416,
+              "bytes": 12298,
+              "sha256": "63355cb313e175afabec0421eb4721f55ca9e01478b61a07b30d4273def7b19a"
+            }
+          }
+        ],
+        "fullQQProductVerified": true
+      },
+      "onlyPaidOriginalRemoval": [
+        {
+          "originalUnit": "Q",
+          "gcdLoops": 1
+        },
+        {
+          "originalUnit": "previous_whole_S_zero_excluded",
+          "gcdLoops": 1
+        }
+      ],
+      "claimExcluded": false,
+      "stage": "new_Phi_zero_collision_complete_original_core",
+      "seconds": 0.6283017120000025
+    },
+    {
+      "name": "EBo",
+      "raw": {
+        "degrees_lambda_u": [
+          46,
+          7
+        ],
+        "totalDegree": 53,
+        "terms": 375,
+        "bytes": 11341,
+        "sha256": "42334a04721da4785206e48439f3f8bbc85e1260500e2fb40cc69868b166998f"
+      },
+      "primitive": {
+        "degrees_lambda_u": [
+          45,
+          6
+        ],
+        "totalDegree": 51,
+        "terms": 321,
+        "bytes": 9522,
+        "sha256": "581cee981cb53af1de64f2e24fd1d6e8df4208bd0bb243be0d105a5dccd24c65"
+      },
+      "factorization": {
+        "content": "1/536870912",
+        "factors": [
+          {
+            "power": 1,
+            "profile": {
+              "degrees_lambda_u": [
+                45,
+                6
+              ],
+              "totalDegree": 51,
+              "terms": 321,
+              "bytes": 8744,
+              "sha256": "7258c368dbf7ddcc078f5b54a51b8a4a9143e730115c724bca9132aee4ff66c7"
+            }
+          }
+        ],
+        "fullQQProductVerified": true
+      },
+      "onlyPaidOriginalRemoval": [
+        {
+          "originalUnit": "Q",
+          "gcdLoops": 1
+        },
+        {
+          "originalUnit": "previous_whole_S_zero_excluded",
+          "gcdLoops": 1
+        }
+      ],
+      "claimExcluded": false,
+      "stage": "new_Phi_zero_collision_complete_original_core",
+      "seconds": 0.6315642500000038
+    },
+    {
+      "name": "N1",
+      "raw": {
+        "degrees_lambda_u": [
+          43,
+          7
+        ],
+        "totalDegree": 50,
+        "terms": 351,
+        "bytes": 9832,
+        "sha256": "c89efb78c0a4d2fb1f9221f4b659c2f204d197b910b3180fa420aba4bd4fbea6"
+      },
+      "primitive": {
+        "degrees_lambda_u": [
+          35,
+          4
+        ],
+        "totalDegree": 39,
+        "terms": 179,
+        "bytes": 4447,
+        "sha256": "25460998d9581419b1707009f32ae857ced7f0f655787d4e0becf6765c1c0586"
+      },
+      "factorization": {
+        "content": "1/20971520",
+        "factors": [
+          {
+            "power": 1,
+            "profile": {
+              "degrees_lambda_u": [
+                35,
+                4
+              ],
+              "totalDegree": 39,
+              "terms": 179,
+              "bytes": 4117,
+              "sha256": "bbc374bc70500dab51539866d066a7a77258aa081c677382398e82cc82d507b3"
+            },
+            "polynomial": "20971520*lam^35*u^4 - 83886080*lam^35*u^3 + 109051904*lam^35*u^2 - 50331648*lam^35*u - 316669952*lam^34*u^4 + 1275068416*lam^34*u^3 - 1656750080*lam^34*u^2 + 754974720*lam^34*u + 8388608*lam^34 + 2320498688*lam^33*u^4 - 9464446976*lam^33*u^3 + 12396265472*lam^33*u^2 - 5643436032*lam^33*u - 96468992*lam^33 - 11046748160*lam^32*u^4 + 45909803008*lam^32*u^3 - 61171826688*lam^32*u^2 + 28253880320*lam^32*u + 411041792*lam^32 + 38610141184*lam^31*u^4 - 164409376768*lam^31*u^3 + 225056129024*lam^31*u^2 - 107487952896*lam^31*u - 14680064*lam^31 - 106235953152*lam^30*u^4 + 465912725504*lam^30*u^3 - 662031695872*lam^30*u^2 + 333989806080*lam^30*u - 9355919360*lam^30 + 241110876160*lam^29*u^4 - 1094447136768*lam^29*u^3 + 1630948491264*lam^29*u^2 - 887024123904*lam^29*u + 61035773952*lam^29 - 467214336000*lam^28*u^4 + 2205014556672*lam^28*u^3 - 3477385773056*lam^28*u^2 + 2070443982848*lam^28*u - 244135493632*lam^28 + 794024624128*lam^27*u^4 - 3910867779584*lam^27*u^3 + 6567858667520*lam^27*u^2 - 4311607476224*lam^27*u + 729927974912*lam^27 - 1208537964544*lam^26*u^4 + 6226259001344*lam^26*u^3 - 11158620962816*lam^26*u^2 + 8061922115584*lam^26*u - 1753985318912*lam^26 + 1672821231616*lam^25*u^4 - 9015727120384*lam^25*u^3 + 17202173435904*lam^25*u^2 - 13558051553280*lam^25*u + 3517886758912*lam^25 - 2126212952064*lam^24*u^4 + 11961275076608*lam^24*u^3 - 24150890979328*lam^24*u^2 + 20505642074112*lam^24*u - 6027481907200*lam^24 + 2492676819968*lam^23*u^4 - 14576489744384*lam^23*u^3 + 30893968220160*lam^23*u^2 - 27882994696192*lam^23*u + 8961267302400*lam^23 - 2696382077440*lam^22*u^4 + 16305008084992*lam^22*u^3 - 35970208204800*lam^22*u^2 + 34090307534848*lam^22*u - 11688954593280*lam^22 + 2685340736768*lam^21*u^4 - 16701858849280*lam^21*u^3 + 38060342837248*lam^21*u^2 - 37493227696128*lam^21*u + 13484319358976*lam^21 - 2454013812224*lam^20*u^4 + 15622876696576*lam^20*u^3 - 36544275615744*lam^20*u^2 + 37118797619200*lam^20*u - 13837568000000*lam^20 + 2050669759232*lam^19*u^4 - 13308961781504*lam^19*u^3 + 31799843182592*lam^19*u^2 - 33099874467840*lam^19*u + 12684623966208*lam^19 - 1561894207488*lam^18*u^4 + 10301061641728*lam^18*u^3 - 25048731288064*lam^18*u^2 + 26596174176256*lam^18*u - 10416202727424*lam^18 + 1081144162848*lam^17*u^4 - 7228369838144*lam^17*u^3 + 17839496206336*lam^17*u^2 - 19256148797440*lam^17*u + 7675093704704*lam^17 - 678286593504*lam^16*u^4 + 4588814275072*lam^16*u^3 - 11471034978816*lam^16*u^2 + 12555867500544*lam^16*u - 5077829586944*lam^16 + 384633624640*lam^15*u^4 - 2629430263808*lam^15*u^3 + 6647545573888*lam^15*u^2 - 7364504119296*lam^15*u + 3015362686976*lam^15 - 196548333888*lam^14*u^4 + 1356260784704*lam^14*u^3 - 3463588102272*lam^14*u^2 + 3878144249856*lam^14*u - 1605015648256*lam^14 + 90183840636*lam^13*u^4 - 627603369792*lam^13*u^3 + 1617469861120*lam^13*u^2 - 1828367650816*lam^13*u + 763912625152*lam^13 - 36993163716*lam^12*u^4 + 259442750624*lam^12*u^3 - 674229885312*lam^12*u^2 + 768724021248*lam^12*u - 323933873152*lam^12 + 13491319751*lam^11*u^4 - 95290895440*lam^11*u^3 + 249527147520*lam^11*u^2 - 286732689664*lam^11*u + 121764968192*lam^11 - 4343825680*lam^10*u^4 + 30879658640*lam^10*u^3 - 81421417440*lam^10*u^2 + 94228808960*lam^10*u - 40297513984*lam^10 + 1223542122*lam^9*u^4 - 8748690580*lam^9*u^3 + 23211518112*lam^9*u^2 - 27034679232*lam^9*u + 11634747392*lam^9 - 297905359*lam^8*u^4 + 2141018360*lam^8*u^3 - 5711348544*lam^8*u^2 + 6689292032*lam^8*u - 2894730496*lam^8 + 61687464*lam^7*u^4 - 445235688*lam^7*u^3 + 1193046912*lam^7*u^2 - 1403739264*lam^7*u + 610171776*lam^7 - 10618548*lam^6*u^4 + 76880448*lam^6*u^3 - 206668080*lam^6*u^2 + 243931584*lam^6*u - 106337664*lam^6 + 1468646*lam^5*u^4 - 10647704*lam^5*u^3 + 28655712*lam^5*u^2 - 33848368*lam^5*u + 14757184*lam^5 - 154354*lam^4*u^4 + 1116800*lam^4*u^3 - 2996952*lam^4*u^2 + 3525536*lam^4*u - 1528000*lam^4 + 11049*lam^3*u^4 - 79080*lam^3*u^3 + 209304*lam^3*u^2 - 241824*lam^3*u + 102288*lam^3 - 388*lam^2*u^4 + 2624*lam^2*u^3 - 6432*lam^2*u^2 + 6656*lam^2*u - 2368*lam^2 - 8*lam*u^4 + 76*lam*u^3 - 264*lam*u^2 + 400*lam*u - 224*lam + u^4 - 8*u^3 + 24*u^2 - 32*u + 16"
+          }
+        ],
+        "fullQQProductVerified": true
+      },
+      "onlyPaidOriginalRemoval": [
+        {
+          "originalUnit": "A2",
+          "gcdLoops": 3
+        },
+        {
+          "originalUnit": "Q",
+          "gcdLoops": 2
+        },
+        {
+          "originalUnit": "previous_whole_S_zero_excluded",
+          "gcdLoops": 2
+        }
+      ],
+      "claimExcluded": false,
+      "stage": "new_Phi_zero_collision_complete_original_core",
+      "seconds": 0.6343151299999974
+    },
+    {
+      "name": "NBe",
+      "raw": {
+        "degrees_lambda_u": [
+          67,
+          10
+        ],
+        "totalDegree": 77,
+        "terms": 748,
+        "bytes": 28869,
+        "sha256": "90eb10ff5919ae66ec9b95d16f975a59736f4fcbeaa065b835d150f8befd7fa0"
+      },
+      "primitive": {
+        "degrees_lambda_u": [
+          65,
+          10
+        ],
+        "totalDegree": 75,
+        "terms": 726,
+        "bytes": 28576,
+        "sha256": "f93b26c987f09665e41922c198bf7e90ce4a2f79f3159212d57dfc56d19ceb60"
+      },
+      "factorization": {
+        "content": "1/26388279066624",
+        "factors": [
+          {
+            "power": 1,
+            "profile": {
+              "degrees_lambda_u": [
+                65,
+                10
+              ],
+              "totalDegree": 75,
+              "terms": 726,
+              "bytes": 25205,
+              "sha256": "2556628e6bd11ec459d084c268778aafa2596b13d59ca96c181da232c137747e"
+            }
+          }
+        ],
+        "fullQQProductVerified": true
+      },
+      "onlyPaidOriginalRemoval": [
+        {
+          "originalUnit": "previous_whole_S_zero_excluded",
+          "gcdLoops": 2
+        }
+      ],
+      "claimExcluded": false,
+      "stage": "new_Phi_zero_collision_complete_original_core",
+      "seconds": 0.6432262559999984
+    },
+    {
+      "name": "NBo",
+      "raw": {
+        "degrees_lambda_u": [
+          63,
+          9
+        ],
+        "totalDegree": 72,
+        "terms": 638,
+        "bytes": 22774,
+        "sha256": "dd51b06ab1537a264fe2a801eb4840645eebcfc2a579b82e0460b5ba84210b56"
+      },
+      "primitive": {
+        "degrees_lambda_u": [
+          61,
+          9
+        ],
+        "totalDegree": 70,
+        "terms": 618,
+        "bytes": 22171,
+        "sha256": "c8af4f83d5326bf969b708a3a129fdfeb8fb288ebacb158c03e494addb328a3a"
+      },
+      "factorization": {
+        "content": "1/824633720832",
+        "factors": [
+          {
+            "power": 1,
+            "profile": {
+              "degrees_lambda_u": [
+                61,
+                9
+              ],
+              "totalDegree": 70,
+              "terms": 618,
+              "bytes": 19780,
+              "sha256": "aa5ce509e6d1da5dbc51d35c018d915f31af76991f944f1a9b760f7e674f5b9b"
+            }
+          }
+        ],
+        "fullQQProductVerified": true
+      },
+      "onlyPaidOriginalRemoval": [
+        {
+          "originalUnit": "previous_whole_S_zero_excluded",
+          "gcdLoops": 2
+        }
+      ],
+      "claimExcluded": false,
+      "stage": "new_Phi_zero_collision_complete_original_core",
+      "seconds": 0.649657701999999
+    },
+    {
+      "name": "PBe",
+      "raw": {
+        "degrees_lambda_u": [
+          79,
+          12
+        ],
+        "totalDegree": 91,
+        "terms": 1040,
+        "bytes": 46054,
+        "sha256": "31089d8a4958df30abd26bba8cbcd19866752cff0ae794d1fc27239e7e239572"
+      },
+      "primitive": {
+        "degrees_lambda_u": [
+          77,
+          12
+        ],
+        "totalDegree": 89,
+        "terms": 1014,
+        "bytes": 45748,
+        "sha256": "7b0d5a8059b639909ea1bf899172a026c41ed1397c340d26e802bcd833d15e7b"
+      },
+      "factorization": {
+        "content": "1/9570149208162304",
+        "factors": [
+          {
+            "power": 1,
+            "profile": {
+              "degrees_lambda_u": [
+                77,
+                12
+              ],
+              "totalDegree": 89,
+              "terms": 1014,
+              "bytes": 40153,
+              "sha256": "d3e09aff15197c9e21fa568feb6e563f1bb90794f431eab25302c127b38a31f7"
+            }
+          }
+        ],
+        "fullQQProductVerified": true
+      },
+      "onlyPaidOriginalRemoval": [
+        {
+          "originalUnit": "previous_whole_S_zero_excluded",
+          "gcdLoops": 2
+        }
+      ],
+      "claimExcluded": false,
+      "stage": "new_Phi_zero_collision_complete_original_core",
+      "seconds": 0.6610591729999982
+    },
+    {
+      "name": "PBo",
+      "raw": {
+        "degrees_lambda_u": [
+          75,
+          11
+        ],
+        "totalDegree": 86,
+        "terms": 911,
+        "bytes": 37832,
+        "sha256": "84ea0faac75b7b3f062ee5113fd189be1d76ade52cf286660dc1962d9ad5a3ca"
+      },
+      "primitive": {
+        "degrees_lambda_u": [
+          73,
+          11
+        ],
+        "totalDegree": 84,
+        "terms": 887,
+        "bytes": 37208,
+        "sha256": "7566dce1c5867e18d27d0fa3340c81c8e24233e79b87565c6dc82c709bbd36d8"
+      },
+      "factorization": {
+        "content": "1/457396837154816",
+        "factors": [
+          {
+            "power": 1,
+            "profile": {
+              "degrees_lambda_u": [
+                73,
+                11
+              ],
+              "totalDegree": 84,
+              "terms": 887,
+              "bytes": 32830,
+              "sha256": "3e3923d0fe778e45a7f511e6118bea96dfe9bb62fa2058af1e0aaceabae0f60a"
+            }
+          }
+        ],
+        "fullQQProductVerified": true
+      },
+      "onlyPaidOriginalRemoval": [
+        {
+          "originalUnit": "previous_whole_S_zero_excluded",
+          "gcdLoops": 2
+        }
+      ],
+      "claimExcluded": false,
+      "stage": "new_Phi_zero_collision_complete_original_core",
+      "seconds": 0.6707176549999971
+    },
+    {
+      "pair": [
+        "E1",
+        "EBo"
+      ],
+      "fixedOrder": 11,
+      "allOriginalRowsReconstructed": true,
+      "allHeadZeroFibersRetained": true,
+      "claimExcluded": false,
+      "stage": "new_Phi_zero_collision_original_fixed_projection_begin",
+      "seconds": 0.6768166689999973
+    },
+    {
+      "pair": [
+        "E1",
+        "EBo"
+      ],
+      "fixedOrder": 11,
+      "rawProjection": {
+        "degree": 463,
+        "bytes": 68561,
+        "sha256": "f47c48ca8f224e2f4e3247a6bcac0142d37c91537166425bbaf00371dea681ef"
+      },
+      "claimExcluded": false,
+      "stage": "new_Phi_zero_collision_original_fixed_projection_complete",
+      "seconds": 0.7463003040000018
+    },
+    {
+      "inputName": "Res_u_E1_EBo",
+      "input": {
+        "degree": 143,
+        "bytes": 9123,
+        "sha256": "0d3f44bf266b013e6a9ee3a0de4cc3618ce56109551c4f71d320b272ac8d7580"
+      },
+      "currentCover": {
+        "degree": 143,
+        "bytes": 9123,
+        "sha256": "0d3f44bf266b013e6a9ee3a0de4cc3618ce56109551c4f71d320b272ac8d7580"
+      },
+      "onlyPaidOriginalRemoval": [
+        {
+          "originalUnit": "A2",
+          "gcdLoops": 77
+        },
+        {
+          "originalUnit": "ell_minus_one_only_on_this_chart",
+          "gcdLoops": 25
+        },
+        {
+          "originalUnit": "previous_whole_S_zero_excluded",
+          "gcdLoops": 15
+        }
+      ],
+      "fullBezoutProductsReturned": true,
+      "allLeadingZeroFibersRetained": true,
+      "claimExcluded": false,
+      "stage": "new_Phi_zero_collision_actual_QQ_lambda_cover",
+      "seconds": 0.7691482310000026
+    },
+    {
+      "pair": [
+        "E1",
+        "N1"
+      ],
+      "fixedOrder": 9,
+      "allOriginalRowsReconstructed": true,
+      "allHeadZeroFibersRetained": true,
+      "claimExcluded": false,
+      "stage": "new_Phi_zero_collision_original_fixed_projection_begin",
+      "seconds": 0.7732592139999994
+    },
+    {
+      "pair": [
+        "E1",
+        "N1"
+      ],
+      "fixedOrder": 9,
+      "rawProjection": {
+        "degree": 337,
+        "bytes": 34990,
+        "sha256": "2d51a5370b92243be501a827a8bc1bcab06bf1ffc2ec6fbe4b1282f19ec422f1"
+      },
+      "claimExcluded": false,
+      "stage": "new_Phi_zero_collision_original_fixed_projection_complete",
+      "seconds": 0.8010542820000026
+    },
+    {
+      "inputName": "Res_u_E1_N1",
+      "input": {
+        "degree": 80,
+        "bytes": 3007,
+        "sha256": "aee17e029431ed6860e0b339a91bdefa8610ba31c1e0cc5eccff907790106e45",
+        "coefficientsAscending": [
+          "-81/130604389193744384",
+          "16359/522417556774977536",
+          "-2266145/3134505340649865216",
+          "19406329/2089670227099910144",
+          "-203471443/4179340454199820288",
+          "-12347936965/18807032043899191296",
+          "255503001365/12538021362599460864",
+          "-11395735447805/37614064087798382592",
+          "123520094326433/37614064087798382592",
+          "-1081063235923139/37614064087798382592",
+          "2664010691020291/12538021362599460864",
+          "-51189085731169711/37614064087798382592",
+          "288717780239535023/37614064087798382592",
+          "-483393109119096865/12538021362599460864",
+          "6539454163113511879/37614064087798382592",
+          "-26634441039570366653/37614064087798382592",
+          "98425562227904548375/37614064087798382592",
+          "-331203253831814445989/37614064087798382592",
+          "339341692304350800397/12538021362599460864",
+          "-955923629149709552357/12538021362599460864",
+          "929794263169799536721/4701758010974797824",
+          "-17906269825882143001663/37614064087798382592",
+          "6763785795556686602497/6269010681299730432",
+          "-44356822252929773886965/18807032043899191296",
+          "48387377352836156287051/9403516021949595648",
+          "-108961664972647181569489/9403516021949595648",
+          "21377073897932633577323/783626335162466304",
+          "-8620480910891213731407/130604389193744384",
+          "373414988273142031971047/2350879005487398912",
+          "-48234318254155761269481/130604389193744384",
+          "479136789205522129342489/587719751371849728",
+          "-1994327165053425372189829/1175439502743699456",
+          "978771042450448026637451/293859875685924864",
+          "-911565165158000455022407/146929937842962432",
+          "203398686389387239814539/18366242230370304",
+          "-704702018996252681958101/36732484460740608",
+          "24994228557664527692245/765260092932096",
+          "-1012439349172815401463193/18366242230370304",
+          "848185948587543687171671/9183121115185152",
+          "-58385630345343227450609/382630046466048",
+          "1126919300969358474930781/4591560557592576",
+          "-1738229476979182322914763/4591560557592576",
+          "1265679534725306084677103/2295780278796288",
+          "-427977613788602160640055/573945069699072",
+          "21952967491051649775151/23914377904128",
+          "-15881034715686992524399/15942918602752",
+          "31891459835094163227863/35871566856192",
+          "-73493842789324024177157/143486267424768",
+          "-215546872550164313633/1236950581248",
+          "4491707307686350484993/3985729650688",
+          "-13152808615507850175617/5978594476032",
+          "978007481909948560285/309237645312",
+          "-2106574045362823229173/560493232128",
+          "4247801507924983094363/1120986464256",
+          "-447255653440281202705/140123308032",
+          "579951606193691699471/280246616064",
+          "-30980051413352409197/46707769344",
+          "-36602233128553369/50331648",
+          "5371209037800401575/2919235584",
+          "-44157013060267804601/17515413504",
+          "1336597501108990235/486539264",
+          "-22770025872953603767/8757706752",
+          "3232827197238083173/1459617792",
+          "-1893011140598627443/1094713344",
+          "227988970189897843/182452224",
+          "-12767244179801937/15204352",
+          "35936293511425355/68419584",
+          "-41756737208923705/136839168",
+          "2803788617617241/17104896",
+          "-1383396501825419/17104896",
+          "155462399684029/4276224",
+          "-31526253280345/2138112",
+          "1267472125921/237568",
+          "-1816626707749/1069056",
+          "15656471747/33408",
+          "-14643790783/133632",
+          "1410961949/66816",
+          "-107549701/33408",
+          "6080087/16704",
+          "-4721/174",
+          "1"
+        ]
+      },
+      "currentCover": {
+        "degree": 0,
+        "bytes": 5,
+        "sha256": "43de3a417d75f4818c5a553268b80ce3a5805109a3bbc6b605e9fb0b8f50b485",
+        "coefficientsAscending": [
+          "1"
+        ]
+      },
+      "onlyPaidOriginalRemoval": [
+        {
+          "originalUnit": "A2",
+          "gcdLoops": 62
+        },
+        {
+          "originalUnit": "ell_minus_one_only_on_this_chart",
+          "gcdLoops": 20
+        },
+        {
+          "originalUnit": "previous_whole_S_zero_excluded",
+          "gcdLoops": 8
+        }
+      ],
+      "fullBezoutProductsReturned": true,
+      "allLeadingZeroFibersRetained": true,
+      "claimExcluded": false,
+      "stage": "new_Phi_zero_collision_actual_QQ_lambda_cover",
+      "seconds": 0.8766741259999975
+    },
+    {
+      "sourceSHA256": "33e266f56cf57959d538216dc347a38f871435d4fdb8633f134f559cf1ed8996",
+      "originalDomain": "h=k!=1,Phi=0,ell!=1",
+      "lambdaCover": {
+        "degree": 0,
+        "bytes": 5,
+        "sha256": "43de3a417d75f4818c5a553268b80ce3a5805109a3bbc6b605e9fb0b8f50b485",
+        "coefficientsAscending": [
+          "1"
+        ]
+      },
+      "completeQQFactorization": [],
+      "originalProjectionInputs": [
+        "Res_u_E1_EBo",
+        "Res_u_E1_N1"
+      ],
+      "allOriginalHeadZeroFibersRetained": true,
+      "entireOriginalFaceExcluded": true,
+      "nonconstantCoverRequiresFullOriginalFiniteReturn": true,
+      "exceptionalEllOneU2WholeQuarticFiberStillOpen": true,
+      "noClaimAboutOtherOriginalEqualValueFaces": true,
+      "ordinaryISPClaim": false,
+      "peakRssKiB": 45172,
+      "stage": "new_Phi_zero_collision_original_input_and_QQ_cover_complete",
+      "seconds": 0.8769279220000001
+    }
+  ],
+  "claim": "h=k,Phi=0,ell!=1 entire original face excluded",
+  "remaining": "ell=1,u=2 whole lambda quartic is independently open; whole h=k and ordinary ISP not solved"
+}

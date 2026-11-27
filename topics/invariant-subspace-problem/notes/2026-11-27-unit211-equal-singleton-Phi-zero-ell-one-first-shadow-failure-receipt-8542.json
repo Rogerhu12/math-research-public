@@ -1,0 +1,62 @@
+{
+  "schema": "isp-original-Phi-ell-one-first-shadow-failure-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "execution": {
+    "elapsed_seconds": 0.13866633700000008,
+    "max_child_rss_kib": 34720,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "8df8765e6c16ac642c1d2e15d0cea4f5ce0850c7",
+        "before": "8df8765e6c16ac642c1d2e15d0cea4f5ce0850c7",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-27T14:31:53.686257+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46016731411",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "8df8765e6c16ac642c1d2e15d0cea4f5ce0850c7",
+    "source_exit_code": 1,
+    "source_git_blob": "59eb1813f4db0676063f2b29089a75c876cc970a",
+    "source_sha256": "7f9ed5995b85467df1c69ba7eeca6fae4569ccfbfdd88cca71829151c7b5509c",
+    "stdout_bytes": 2721,
+    "stdout_sha256": "36fb8586b32141eb4fa66ed801cd166426f2f2f15f34bff532fda24d46f9479c",
+    "stop_reason": null
+  },
+  "job": 140565660211,
+  "completedMathematics": [
+    {
+      "lambdaPolynomial": [
+        3,
+        -12,
+        24,
+        -24,
+        8
+      ],
+      "allLambdaEmbeddingsRetained": true,
+      "originalU": 2,
+      "freeOriginalParameter": "Q",
+      "originalQUnits": [
+        "Q",
+        "1-Q",
+        "Q+4"
+      ],
+      "PhiZeroAndWholeEllOneOriginalRelationsActuallyReturned": true,
+      "noOldDNonzeroTheorem": true,
+      "claimExcluded": false,
+      "stage": "new_Phi_zero_ell_one_entire_quartic_original_base",
+      "seconds": 0.03217595000000273
+    }
+  ],
+  "error": "TypeError in coefficient xgcd after original Gram unit vector shadowed coefficient constant one",
+  "sourceUnchanged": true,
+  "claimExcluded": false,
+  "correction": "Rename only the original Gram unit vector and all its references gram_one in a new immutable source",
+  "newSourceSHA256": "af8215e2cc4e17797e507cc32d1217e202fbe59cb76f4a762ae3ed7056b701bc"
+}
