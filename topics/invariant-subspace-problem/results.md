@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [一般J=Q的整H0原权线完全排除](results/R150-appendix-unit211-general-J-equals-Q-H-zero-complete-original-exclusion.md)：全部原QQ覆盖合末完整QQ2的48×35常数1证书，40真逆/35列乘回，故本面可付H，保一般LS其它面。
+
 - [W三条原S一次式与二变量原消元](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-centered-three-S-linear-original-elimination.md)：已付S²头、完整δ=D27×单位覆盖、18双侧adj积及两三次/一四次全部原迹；非零图同S双向返回，零曲线和NSPS未闭。
 
 - [一般J=Q、H=0整线的原二次权覆盖](results/R150-appendix-unit211-general-J-equals-Q-H-zero-original-two-point-cover.md)：八个固定原35×35 QQ行列式/Bézout仅余(u²−2u+4/5)³，保整线全部原退化面；u=2/3头秩降点已排，最后两个共轭权值待原返回。
