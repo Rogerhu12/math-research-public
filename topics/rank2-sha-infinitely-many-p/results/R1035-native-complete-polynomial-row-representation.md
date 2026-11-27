@@ -142,3 +142,59 @@ ab8f9436f080310ad77dc5fceb26020a1f68ff302d79a4c2f3b06b7f276881cc。
 本节仍不声称原矩阵运行、性能改善或任何几何/主目标 PASS。
 唯一 v10 run45956901945 保持运行；08:00 UTC 原 job 日志读取仍为
 BlobNotFound404，因此没有把不可读的进行中日志解释为失败或成功。
+
+## 7. 未激活的原生产接线及全部原门
+
+在 §6 的真实编译回执后，准备完整原生产接线。当前重型工作流和
+v10 请求都不改动；新增请求路径不在当前工作流的 push 路径中。
+这里只触发独立的小型代码准备检查，仍不运行几何矩阵。
+
+新外层完整加载 SHA 固定的 v10 producer，将其 implementation
+标识传入下一层。在原 v10 已加载 v9、发出
+RANK2_COMPLETE_PROJECTOR_BINDINGS、但尚未调用 v9.main 的那个固定位置，
+仅把 v9 的全局 complete_pair_reset_row_hermite 绑定为 §2–4 的完整接口。
+原 v9.main 随后仍执行它原有的七处整行绑定和全部身份检查：
+
+- 原主 producer 的完整次数有界求解器；
+- 原 row module 的两个完整入口；
+- 原 preimage 和 value module 的两个完整入口；
+- 原 W 运输 module 的两个完整入口。
+
+每次新接口返回时，继续核原回执中的双子模包含、每原行准确除法、
+全程子模保留、不使用分式域核，以及有附列时的同一完整行操作。
+输出只记录该完整调用的输入/输出/附列/操作流 hash 和原次数界。
+没有选择其中几行，也没有另增一个几何替代输入。
+
+原 R1033 的两个 projector 构造器、完整残差域、所有厚长度、
+Norm 和18×9 shadow 的任何代码与验收条件都未改变。
+外层只在原全部验收确已完成后打印自己的完成标记；
+原 v9/v10 的完成标记和回执仍照常打印。
+若某次整个输入未降素域，保留原完整后端，并如实计数；不把
+fallback 当作原生运算已经发生。
+
+原 source-dependency hook 也保留：新 hook 先附加新表示与外层的
+准确源码依赖，再调用原 R1033 hook，后者继续附加原 projector
+依赖并执行原 emit。它在原主 producer.main 之前运行，
+所以原完整来源清单实际包含新代码，不是事后补一个无来源的标签。
+
+新 host 的来源清单为原52项加4项，共56项；原两张特征零 PASS、
+r=29、q-precision=2453、batch64、minimal、shadow/artinian、
+preflight=false、禁网数学容器、只读源码和21000秒时间帽全部保持。
+只有请求 schema/implementation 和实际 producer 路径指向新外层。
+当前工作流仍指向旧 v10 host，未把此候选排入重型队列。
+
+| 新文件 | 字节数 | SHA256 |
+|---|---:|---|
+| produce-original-native-row-artinian-shadow.py | 9280 | 4568461d1d77e5f72aeb26528193a48f4442aa575cb52086c21313c69ae8ba10 |
+| launch-original-native-row-artinian-shadow.py | 11214 | 740169518ace27fa8b567752584930752521f2780ed78a7471951d89338913c2 |
+| check-original-native-production-preparation.py | 7145 | ad6065121c7e13cae67d9dd38003e8a2460c89e546b2b77d91f8748044582374 |
+| ci/original-native-row-artinian-shadow-request.json | 864 | 25c209ac9daf5a11f1b1cec7b87b86f9d1116d3a0923bebf174f14905471e140 |
+
+准备检查还固定当前未修改的工作流 SHA256
+24be40c3fc98babefcbaa53b03b16d7904e93da5500b8018c14d2e0645677a06。
+它逐源核 hash、Python AST、两个请求仅有 schema/implementation 差异，
+随后在同一镜像中实际编译并加载新外层及固定 v10 代码、
+定义全部延后 hook。检查明确要求原 v10.main 未调用、
+v9 ENTRY 仍为 None、完整矩阵调用记录为空、原 primary 构造器未改变。
+这些条件区分代码准备与实际数学验收；没有据此宣称
+四交、全厚 Norm、shadow 或无穷 p 已完成。
