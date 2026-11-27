@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R271 一特殊权全部出生的尖锐统一联合来源预算](results/R271-appendix-one-special-weight-all-births-uniform-joint-source-budgets.md)：完整池串与真实最高逆给F>C1²/3、创新费<F/4及S<2I/3；三统一常数均尖锐，保全部原上下源，不外推一般权或无限费用。
+
 - [R150 一般整H1的原Dixon常数返回及256权覆盖](results/R150-appendix-unit211-Phi-zero-whole-first-head-Dixon-256-weight-cover.md)：无μ逆图覆盖b零/非零，完整QQ四维代数八列乘回1；所有原与最终极点给≤1024权对，256整纤维保留。
 
 - [R150 W 原均值理想的三条平面三次与六重叠](results/R150-appendix-unit211-W-original-mean-ideal-three-plane-cubics-and-six-overlaps.md)：qF和三原均值完整正反压缩，六纯(λ,S)三次与15个权头全返回；最小头265项，所有头零及个别NP保留，未宣W空或几何有限。

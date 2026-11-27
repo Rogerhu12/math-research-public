@@ -245,7 +245,7 @@ G36全部高1134和低61已闭；完整有限自由提升、重复幂零、原�
 
 
 
-[一般六独立权的新完整S2矩阵half输入](notes/2026-11-28-six-bit-s2-matrix-half-characteristic-8542.md)：原同五维L上以I−2K全部特征为新目标，保完整十五维上逆后压缩、两个cross、真实真空商和全部正分母。旧15特征已与刊本逐项匹配；不重跑已假的quarter平方迹。首次180秒/4GiB，lossless保原新矩阵/每阶系数/连续checkpoint；部分输出不付S2。小405点记录仅准确选源历史，不是谱界或新增门。
+[一般六独立权原矩阵首门真实资源边界](notes/2026-11-28-six-bit-s2-matrix-half-first-run-resource-boundary-8542.md)：82d43真180.052867441秒/1335536KiB/−14，原15完整逆后只返真五维I−2K矩阵和c1–c3；c4/c5/CH未返，不付S2。原有符号参数负系数不是反例，旧quarter迹门已假冻结。原全矩阵门也冻结；后续必要目标只能Actions内部接已成第三阶状态，不抬限整门重放。
 
 [全孔层Schur–companion显式来源与真实伴随](results/R271-appendix-all-hole-schur-companion-sources-and-actual-physical-adjoints.md)：任意n/k完整Rk的支化几何和、物理Rk*的带符号左楔、全部奇数权桥均给有限整多项式公式；求值det=Vandermonde^C(n−2,k−1)，只在互异权作为可逆坐标。完整Gram/已知MP规则接续须先全逆后压缩；重复权经原算子身份连续处理，不支付条件数、联合正性或无限源费。
 
@@ -255,4 +255,8 @@ G36全部高1134和低61已闭；完整有限自由提升、重复幂零、原�
 
 首次988编译失败、数学未开始的准确历史保[原note](notes/2026-11-28-unit211-Phi-zero-H1-Dixon-first-compile-failure-8542.md)；最小ef9语法修复后的唯一数学执行已独立成功，冻结旧源，不再派相同门。
 
-[六位矩阵小状态读取失败](notes/2026-11-28-six-matrix-small-report-first-http-redirect-failure-8542.md)仅HTTP重定向读取实现问题，不代表数学状态；修复移除跨主机Authorization后重读原run小摘要，原数学不重跑。根8/15清理用终端普通提交，旧输入只留历史定位，原源哈希不改写。
+旧小摘要首次跨主机HTTP401实现故障保[note](notes/2026-11-28-six-matrix-small-report-first-http-redirect-failure-8542.md)；修复读取器已成功读唯一原run的小阶段/身份，未重跑数学或搬大checkpoint。
+
+[一特殊权全出生统一联合来源](results/R271-appendix-one-special-weight-all-births-uniform-joint-source-budgets.md)：全n≥2s+1、s≥1、t>0的原正交全部块，完整F>C1²/3、创新费<F/4、S<2I/3，三个常数均尖锐；最高C2硬端、真实伴随和全部原逆保留。六位特例较强旧界仍有效，不重计旧R239定性相邻性。一般独立权/无限carry/同W费用仍须另付。
+
+[新三对权完整三塔输入](notes/2026-11-28-three-pairs-original-joint-three-tower-8542.md)：同完整九/五维源中仅剩三/二维非平凡块；用R288真三塔构造S1并保深源，S2含同U0/完整上精度与双cross。x=1+U+V,y=1+V，全5前导主子式皆严格正才算闭合。7d4原首派180秒/4GiB，零外部数据依赖；尚未返回前不作正性结论。

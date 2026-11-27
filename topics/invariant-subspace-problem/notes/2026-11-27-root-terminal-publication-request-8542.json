@@ -1,17 +1,18 @@
 {
-  "message": "ISP: prove the whole H1 original Dixon 256-degree weight cover",
-  "parentCommit": "05299d99207a24aebf68c85dd7267061ad92eb84",
+  "message": "ISP: prove uniform joint source budgets for every one-special-weight birth",
+  "parentCommit": "16873667e40d15409b7215886f68f30ed8c8abd2",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-Phi-zero-whole-first-head-Dixon-256-weight-cover.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-whole-H1-Dixon-256-weight-cover-execution-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-H1-original-Dixon-source-pole-support-factors-8542.py",
-    ".github/workflows/invariant-subspace-8542-h-one-source-pole-factors.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-H1-256-cover-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-H1-256-cover-8542.md",
+    "topics/invariant-subspace-problem/results/R271-appendix-one-special-weight-all-births-uniform-joint-source-budgets.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-one-special-all-birth-joint-source-uniform-algebra-8542.mjs",
+    "topics/invariant-subspace-problem/notes/2026-11-28-three-pairs-original-joint-three-tower-8542.py",
+    "topics/invariant-subspace-problem/notes/2026-11-28-three-pairs-original-joint-three-tower-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-six-bit-s2-matrix-half-first-run-resource-boundary-8542.md",
+    ".github/workflows/invariant-subspace-8542-three-pairs-original-joint.yml",
+    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-all-birth-joint-budgets-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -21,6 +22,6 @@
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
   "dispatchWorkflows": [
-    "invariant-subspace-8542-h-one-source-pole-factors.yml"
+    "invariant-subspace-8542-three-pairs-original-joint.yml"
   ]
 }
