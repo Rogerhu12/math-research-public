@@ -1,0 +1,180 @@
+{
+  "run": 45940118594,
+  "job": 140312260885,
+  "url": "https://github.com/Rogerhu12/math-research-public/actions/runs/45940118594",
+  "rules": {
+    "after": "5760376c2710a5bacd86a8393ba11978e1ce2619",
+    "before": "5760376c2710a5bacd86a8393ba11978e1ce2619",
+    "rules_git_blobs": {
+      "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+      "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+    },
+    "rules_unchanged": true,
+    "utc": "2026-11-27T04:28:34.861613+00:00"
+  },
+  "runtime": {
+    "node": "v24.22.3",
+    "singular": "Singular for x86_64-Linux version 4.4.1 (44105, 64 bit) Dec  6 2025 11:10:58",
+    "source_pin": "5760376c2710a5bacd86a8393ba11978e1ce2619"
+  },
+  "originalInput": {
+    "variables": [
+      "k",
+      "w",
+      "v"
+    ],
+    "rows": {
+      "E1": {
+        "degrees": [
+          4,
+          5,
+          2
+        ],
+        "terms": 26,
+        "paid": [
+          [
+            "v",
+            4
+          ]
+        ],
+        "clearing": {
+          "mDenPower": 2,
+          "vPower": 6
+        }
+      },
+      "N1": {
+        "degrees": [
+          5,
+          6,
+          6
+        ],
+        "terms": 62,
+        "paid": [
+          [
+            "v",
+            2
+          ]
+        ],
+        "clearing": {
+          "mDenPower": 2,
+          "vPower": 8
+        }
+      },
+      "Ns": {
+        "degrees": [
+          10,
+          12,
+          9
+        ],
+        "terms": 446,
+        "paid": [
+          [
+            "v",
+            4
+          ]
+        ],
+        "clearing": {
+          "mDenPower": 5,
+          "vPower": 13
+        }
+      },
+      "Ps": {
+        "degrees": [
+          11,
+          14,
+          9
+        ],
+        "terms": 595,
+        "paid": [
+          [
+            "v",
+            4
+          ]
+        ],
+        "clearing": {
+          "mDenPower": 6,
+          "vPower": 13
+        }
+      },
+      "Dval": {
+        "degrees": [
+          5,
+          8,
+          6
+        ],
+        "terms": 103,
+        "paid": [],
+        "clearing": {
+          "mDenPower": 3,
+          "vPower": 6
+        }
+      }
+    },
+    "sourceSeconds": {
+      "regular": 0.446,
+      "chart": 0.055,
+      "np": 2.123,
+      "dregular": 0.054,
+      "dchart": 0.062
+    }
+  },
+  "inputIdentity": {
+    "algorithm": "one original liftstd with full transformation return",
+    "build_seconds": 2.872474218999997,
+    "dependency_sha256": {
+      "2026-11-27-unit211-equal-weight-original-distinct-value-8542.js": "e23c1669cf2e717fc47e80f94e7d9e3517887d6500da2bfa7dea7f6691b03437",
+      "2026-11-27-unit211-equal-weight-regular-original-chart-8542.js": "cfaa65b201c64aa7e7f019d955212b038260eb626a0b12a96856d9fd90e73e78",
+      "2026-11-27-unit211-equal-weight-three-parameter-distinct-value-8542.js": "53d01debe7f7cb18deb1cf1247c0f8e49ad1f0c05ecac28a8a958340474a0576",
+      "2026-11-27-unit211-equal-weight-three-parameter-original-NP-8542.js": "4bb99f9050bae866c30a5081579d0360e1bae1421d012304f111e0491f9c62fc",
+      "2026-11-27-unit211-equal-weight-three-parameter-original-chart-8542.js": "183a3e4fd4f65d1a9e550fae35b606fb5b24384c7be495fa522e551e24aef9f3"
+    },
+    "field": "QQ",
+    "order": "dp on v,k,w,s",
+    "original_input_sha256": "0c1682449d321b327855a1eb561bdad47a2a46764e0c5c0cf73875d1a8189d67",
+    "physical_units": "v*k*w*(w-1)*(w-k)*(k-1)*A*(v-1)*(v^2-k)*POTHER*DVAL",
+    "singular_memory_bytes": 4294967296,
+    "singular_seconds": 600,
+    "singular_source_sha256": "a9aba75dadc44296e4e2a84dbdd30e3bc281faee9ae20718a9c164de3b3784ff"
+  },
+  "singular": {
+    "artifacts": {},
+    "elapsed_seconds": 600.057983929,
+    "original_lift_returned": false,
+    "run_id": "45940118594",
+    "source_exit_code": null,
+    "source_pin": "5760376c2710a5bacd86a8393ba11978e1ce2619",
+    "stdout_bytes": 28,
+    "stdout_sha256": "a72d55ea8c54981d778a653f0fa5e96abc1f8d3324f0fe2f4d78b5a3a46ef73f",
+    "timed_out": true,
+    "unit_identity_returned": false
+  },
+  "driver": {
+    "elapsed_seconds": 604.2492133549999,
+    "max_child_rss_kib": 372796,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "5760376c2710a5bacd86a8393ba11978e1ce2619",
+        "before": "5760376c2710a5bacd86a8393ba11978e1ce2619",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-27T04:28:34.861613+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "45940118594",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "5760376c2710a5bacd86a8393ba11978e1ce2619",
+    "source_exit_code": 1,
+    "source_git_blob": "d1683ab126708428189f350a5bf506205b188541",
+    "source_sha256": "ea7d95cf0a9d183799e127b3263cfaf5d3f64745ac397206d42c8b562bd5c5d6",
+    "stdout_bytes": 2397,
+    "stdout_sha256": "7c631e5ef49a91b72ad2fa368bd58e052edfb9e695e2f5251e4e284d73fa79fd",
+    "stop_reason": null
+  },
+  "status": "failed/time limit; no original lift or unit identity returned; frozen, do not rerun this source with another order or larger limit"
+}

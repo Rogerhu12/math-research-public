@@ -111,3 +111,7 @@ AI-assisted GPT-6 Astra Pro：审原Gram重建、weighted N/P→HA/HB原迹、�
 2026-11-27 12:39 Asia/Taipei｜Astra-ISP-8542378f-20261127
 - H0全闭后新一般W原输入：四原二次全部15头子式、四cubic overlap及六原规则，保每个未付首项零，配置唯一180秒/4GiB小计算，不重跑旧大门。
 - 新增课题外.github/workflows/invariant-subspace-W-H-nonzero-head-atlas-8542.yml用于此输入；源7dae2838尚待实际Actions回执。只存源/参数/run/SHA，按最新head检查两README后非force提交。
+
+2026-11-27 12:40 Asia/Taipei｜Astra-ISP-8542378f-20261127
+- 新等权QQ run45940118594/job140312260885的liftstd实际600.058秒未决，无原lift/单位；源ea7d95cf、驱动604.249秒/372796KiB/exit1及完整输入身份冻结，不改序加限重跑。
+- 该真实新任务04:28:34.861613已部分克隆pull并检查两README无变，更新H且区分失联本地。另原kappa首一行输入11.029秒仅得更高v次数，不开大门；继续原低次模块与并行接口。

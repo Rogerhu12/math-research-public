@@ -1,0 +1,71 @@
+{
+  "status": "completed exact input only; no exclusion and no follow-on large elimination",
+  "seconds": 11.029,
+  "sourceSHA256": "2d9fee6fc5ae8e00122fc8d5f214a8fd77f6318191dee1df13c7e1dc60a14e95",
+  "canonicalOutputSHA256": "b91c5878fe6102aec41429f4a6e5501eb2f4b5de4e9190915f5d47ca8f946b63",
+  "E": {
+    "degrees": [
+      4,
+      5,
+      2
+    ],
+    "terms": 26
+  },
+  "rows": {
+    "N1": {
+      "degrees": [
+        3,
+        7,
+        6
+      ],
+      "terms": 113,
+      "paid": [],
+      "scale": "1"
+    },
+    "Ns": {
+      "degrees": [
+        3,
+        15,
+        16
+      ],
+      "terms": 685,
+      "paid": [
+        [
+          "w_minus_one",
+          2
+        ]
+      ],
+      "scale": "2"
+    },
+    "Ps": {
+      "degrees": [
+        3,
+        17,
+        18
+      ],
+      "terms": 866,
+      "paid": [
+        [
+          "w_minus_one",
+          3
+        ]
+      ],
+      "scale": "2"
+    },
+    "Dval": {
+      "degrees": [
+        3,
+        8,
+        8
+      ],
+      "terms": 158,
+      "paid": [
+        [
+          "w_minus_one",
+          1
+        ]
+      ],
+      "scale": "4"
+    }
+  }
+}

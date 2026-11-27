@@ -5,9 +5,9 @@
 ## 目标与规矩
 
 - **普通复可分无限维 Hilbert ISP 未完成。** 只以全体有界算子定理或完整反例收尾；子题/时间/输入不足均不停止，按open换输入继续。
-- **最近实际 pull / 已读规则提交：** `48bf564ae3c7d45b48f3a05998ac0039b460b141`（2026-11-27 02:43:20 UTC；本地部分克隆）；本次两 README diff 无变化。每次 pull 且至少每小时检查并更新本项。
+- **最近实际 pull / 已读规则提交：** `5760376c2710a5bacd86a8393ba11978e1ce2619`（2026-11-27 04:28:34.861613 UTC；真实新计算run45940118594的部分克隆）；两README diff无变。本地上次仍02:43:20/48bf564a，终端未恢复。每次pull且至少每小时检查。
 - 私库QUEUE仍本会话进行中；真实pull仍02:25:26 UTC/717fcc27ff28cb287f6011395b70136a58e3b4a8。04:16:38接口读92fbad0586f1abd8fac2171cd070585abc14c315，根README无变、QUEUE正确，不冒充pull。公私均部分克隆。
-- **终端断开后远端已读：** `249d50a7659d3e60836e4c4530a9d0258367a9ca`（2026-11-27 04:39:04 UTC），两README blob无变；按根规矩8用小文本接口，未冒充pull，恢复即pull --rebase。02:51清理未启动；[新输入/准确故障状态](notes/2026-11-27-executor-outage-and-unpublished-small-input-checkpoint-8542.md)。非快进立即重基重推，无force，令牌仅CLI。
+- **终端断开后远端已读：** `b3a262e981db692a8e332d36d2da2b591fbaae31`（2026-11-27 04:40:24 UTC），两README blob无变；按根规矩8用小文本接口，未冒充pull，恢复即pull --rebase。02:51清理未启动；[新输入/准确故障状态](notes/2026-11-27-executor-outage-and-unpublished-small-input-checkpoint-8542.md)。非快进立即重基重推，无force，令牌仅CLI。
 - H<10KB、MD<100KB、open尽量<30KB、题<200MB；只留源/参数/SHA/小回执，不留可重算大输出，不写根LOG。课题外workflow改动已记本题log。
 - 所有被压缩的精确结论/来源/失败身份保[最新完整H](notes/2026-11-27-handoff-before-original-Q-boundary-lines-8542.md)、[open](open.md)、[结果索引](results.md)及归档链；省略不算关闭，已登记不重做。
 
@@ -30,7 +30,7 @@
 - Delta0/W对ell首项零整支(u=1/2,Q=2)已闭，W0可付u(Q+2)−2；W0整k=−1线已闭，末非约化域原D=0，可付k+1。原完整98/12次覆盖、整域返回及实测源3769e6d6/43393adf均在正文。
 - **一般Delta0/W0的整个H_W=4ek−k²−4k−8零支已闭。** 最高次原系统已排空；有限六生成元/18真乘法/cofactor给F29=C3F26，在完整QQ[w]/C3、/F26中原18行各返常数列1，12主元真逆全乘回(0.049/0.855秒)。源b1f2e6d组件均实成、打包未整跑；保全部首项零，不假不可约/互素，无D饱和。可在W0付H，只续H非零；所有旧GB/Cramer/闭包/gcd负门冻结。 新一般W原四二次头/overlap小任务已配置180秒/4GiB，run待收。
 - **Q=1−u边界已闭y=1、H_Q=(2u−1)ell+u=0、u=1/2及ell=0四整支。** 原QQ覆盖/同根返回完整；H_Q0源50a9b96b实测1.430秒，u半158/170次严格CRT、104次保度Gauss和末原值排尽。ell0由原均值唯一x和Rt因式，完整v²+1纤维与20/40次QQ Bézout排尽，源7c231709实测2.322秒。原子/整合执行区别及全部来源保results；只续H_Q*ell*(y−1)*(2u−1)≠0。
-- **一般等权b=c已闭y1、y半、y0及A_m零。** v=2y−1,z=(x−m)/(y−1)非零，kappa=dv²,omega=zv图恢复m。原mean二次alpha*v²+beta的首项有原单位身份。三原N/P现有完整原迹降为同v一次式；三子式/三范数准确投影四等式，保全部一次首项零；y0完整QQ结式/组合1现付v+1及alpha+beta。六双参数式未判空，物理Dval/同点返回仍须保留，新原Dval输入的QQ liftstd任务已配置(600秒/4GiB)，run45940118594运行中；源/闭支见results/notes。
+- **一般等权b=c已闭y1、y半、y0及A_m零。** v=2y−1,z=(x−m)/(y−1)非零，kappa=dv²,omega=zv图恢复m。原mean二次alpha*v²+beta的首项有原单位身份。三原N/P现有完整原迹降为同v一次式；三子式/三范数准确投影四等式，保全部一次首项零；y0完整QQ结式/组合1现付v+1及alpha+beta。六双参数式未判空，物理Dval/同点返回仍须保留，新原Dval的QQ任务45940118594实际600秒未决、驱动604.249秒/372796KiB/exit1，无原lift；冻结。原kappa首一新输入已成11.029秒但次数增大，转原低度模块；源/闭支见results/notes。
 
 ### rankH3原ess6
 
