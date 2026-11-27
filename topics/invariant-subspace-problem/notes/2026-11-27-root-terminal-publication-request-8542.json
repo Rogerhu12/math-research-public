@@ -1,17 +1,19 @@
 {
-  "message": "ISP: return four entire W lambda three halves original ten-column weight curves",
-  "parentCommit": "155846f67d9fff97adba79dfb57ddb1cf16ade78",
+  "message": "ISP: reduce the exceptional Phi original ordered base point cover to 168 by a true Gauss return",
+  "parentCommit": "3b5df6d617173daed1b09baad5cd33690d372adc",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-W-lambda-three-halves-global-original-ten-column-weight-curves.md",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-W-lambda-three-halves-global-original-ten-column-weight-cofactors-8542-receipt.json",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-W-lambda-three-halves-F18-original-weight-QQ-projection-8542.py",
-    ".github/workflows/invariant-subspace-w-lambda-three-halves-f-eighteen-weight-qq-projection-8542.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-27-handoff-before-W-lambda-three-halves-four-global-curves-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-27-open-before-W-lambda-three-halves-four-global-curves-8542.md",
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-Phi-zero-exceptional-mixed-original-168-cover.md",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-exceptional-mixed-original-168-cover-receipt-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-exceptional-mixed-core-and-mod-return-exact-input-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-general-compact-two-means-SIGALRM-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-general-compact-two-means-SIGALRM-8542-execution.json",
+    "topics/invariant-subspace-problem/notes/2026-11-27-results-before-Phi-exceptional-mixed-168-cover-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-27-handoff-before-Phi-exceptional-mixed-168-cover-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-27-open-before-Phi-exceptional-mixed-168-cover-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -20,7 +22,5 @@
     ".github/workflows/invariant-subspace-8542-root-terminal-publication.yml",
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
-  "dispatchWorkflows": [
-    "invariant-subspace-w-lambda-three-halves-f-eighteen-weight-qq-projection-8542.yml"
-  ]
+  "dispatchWorkflows": []
 }

@@ -1,0 +1,72 @@
+{
+  "schema": "isp-frozen-Phi-general-compact-R2-W4-SIGALRM-v1",
+  "date": "2026-11-27 Asia/Taipei",
+  "run_id": 46022929932,
+  "job_id": 140586912947,
+  "execution": {
+    "elapsed_seconds": 120.06718154599992,
+    "max_child_rss_kib": 816684,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "968dae1ec89a5d5526a3ed6ebfac88bf18e09b00",
+        "before": "968dae1ec89a5d5526a3ed6ebfac88bf18e09b00",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-27T15:13:30.061081+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46022929932",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "968dae1ec89a5d5526a3ed6ebfac88bf18e09b00",
+    "source_exit_code": -14,
+    "source_git_blob": "da72af76c34d79121c5e03ad12a0f3bbb6bf1796",
+    "source_sha256": "879168b21528a5adebebac3b16f75d2096236f4f54032ea45e5d7b397cbe00b1",
+    "stdout_bytes": 524,
+    "stdout_sha256": "2c29e7a0f7f05d1545dc45bd19bb0f6f01e1f8e369894d76e9eca3ef216145f2",
+    "stop_reason": null
+  },
+  "last_complete_original_stage": {
+    "rhoDimension": 2,
+    "baseVariables": [
+      "lambda",
+      "x",
+      "y"
+    ],
+    "namedAtoms": {
+      "Pf1": "Original Pf=(u-1)*Pf1; original Pf and u-1 are paid units",
+      "Lnum": "Lnum=2*rho*zeta; original rho and zeta are paid units"
+    },
+    "fPoleOrders": [
+      1,
+      0
+    ],
+    "QtPoleOrders": [
+      1,
+      1
+    ],
+    "sameActualOriginalP1AndNVLines": true,
+    "noUniformGramScale": true,
+    "noGeometricNormInverse": true,
+    "statistics": {
+      "multiplications": 78,
+      "original_difference_coefficients": 234
+    },
+    "stage": "new_compact_general_Phi0_actual_original_lines",
+    "seconds": 4.491162642000063
+  },
+  "mathematical_returns": {
+    "original_P1_and_NV_lines": true,
+    "R2_row": false,
+    "W4_row": false,
+    "two_column_determinant": false,
+    "any_general_Phi_exclusion": false
+  },
+  "classification": "SIGALRM source deadline; no FLINT allocation exception or Python traceback appeared in this execution",
+  "no_same_input_rerun": true
+}
