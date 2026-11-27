@@ -211,7 +211,7 @@ G36完整[高1134](results/R150-appendix-unit211-W-G36-entire-high1134-original-
 
 ## R271：完整五/六位来源已付，继续内部边与高出生联合费用（8542，2026-11-28）
 
-[全位数尖锐2/3](results/R271-appendix-sharp-two-thirds-universal-birth-one-first-and-last-edges.md)、[四/五位half](results/R271-appendix-four-five-sites-birth-one-half-first-last-edges.md)及新[整个六位尖锐half首末边](results/R271-appendix-six-independent-positive-weights-birth-one-sharp-half-first-last-edges.md)均闭。六位使用完整六维原精度后才商零线，五个完整特征系数/33正均值差给全五维源正性。七位(6,1^6)实际比121/240>half，禁止外推此常数。六位高度4的内部j2仍须另付，首末j1/j3不代它。
+[全位数尖锐2/3](results/R271-appendix-sharp-two-thirds-universal-birth-one-first-and-last-edges.md)、[四/五位half](results/R271-appendix-four-five-sites-birth-one-half-first-last-edges.md)及新[整个六位尖锐half首末边](results/R271-appendix-six-independent-positive-weights-birth-one-sharp-half-first-last-edges.md)均闭。六位使用完整六维原精度后才商零线，五个完整特征系数/33正均值差给全五维源正性。七位(6,1^6)实际比121/240>half，禁止外推此常数。六位高度4的内部j2现也已由下列完整排序差证书支付，三条原边均half；首末边旧证与内部新证保持各自完整来源。
 
 [五位完整S2](results/R271-appendix-five-independent-positive-weights-full-s2-and-six-site-birth-two-first-edge.md)保四共同块、两个cross与全上MP；同一平方迹的[3/16统一预算](results/R271-appendix-five-site-full-s2-uniform-three-sixteenths-square-budget.md)以472正均值差/6478正轨道给S2余量>(2−sqrt3)/4。[原定量Schur返回](results/R271-appendix-quantitative-one-bit-source-transfer-and-six-site-319-over-320.md)再保同Qy/WW*和原H0，六位出生2九维首边≤319/320；一般四项真实费用仅条件地给alpha·epsilon/2，不支付尚未取得的来源。
 
@@ -221,7 +221,7 @@ G36完整[高1134](results/R150-appendix-unit211-W-G36-entire-high1134-original-
 
 此前Haar/稀疏链全交织、所有非零Ky像T循环、与RanJ零交及同源Abel费/log发散等已证接口仍在快照链；Cy⊥非零、G保N、W源费及普通ISP继续。
 
-[六位一特殊权的完整S2及精确trace反例](results/R271-appendix-six-site-one-special-weight-full-s2-and-sharp-trace-square-budget.md)：整个b=(√t,1⁵)保真实diag(t,3)伴随、完整上逆后压缩及双cross，K=0⊕κI4且κ<1/3、完整S2<I/2，两常数尖锐。t36同原119401行BigInt给TrK²=15659068550440000/53420910024270321>1/4，故一般六位统一quarter平方迹门准确冻结，不能改称原S2反例。原pair实际24.720906012秒/378284KiB/0仅EXACT_SCALAR_READY；一般六独立权S2改真正矩阵/谱预算，内部c4/c5与上S1仍开。原15特征/正分母小参数保存，13.5MB表不入库。
+[六位一特殊权的完整S2及精确trace反例](results/R271-appendix-six-site-one-special-weight-full-s2-and-sharp-trace-square-budget.md)：整个b=(√t,1⁵)保真实diag(t,3)伴随、完整上逆后压缩及双cross，K=0⊕κI4且κ<1/3、完整S2<I/2，两常数尖锐。t36同原119401行BigInt给TrK²=15659068550440000/53420910024270321>1/4，故一般六位统一quarter平方迹门准确冻结，不能改称原S2反例。原pair实际24.720906012秒/378284KiB/0仅EXACT_SCALAR_READY；一般六独立权S2改真正矩阵/谱预算，内部c4/c5已由完整排序差另付；一般上S1/S2仍开。原15特征/正分母小参数保存，13.5MB表不入库。
 
 
 
@@ -238,3 +238,5 @@ G36完整[高1134](results/R150-appendix-unit211-W-G36-entire-high1134-original-
 [Phi主图整个−1/4原权纤维已闭](results/R150-appendix-unit211-Phi-zero-main-minus-quarter-entire-original-fiber-exclusion.md)：d751准确QQ gcd先付lambda半，新b99785实际75ms BigInt在同(u,Q,ell,lambda)=(3/4,5/4,1/2,1/2)构造全部原二次；60×28秩27，三个显式一次原R/W/O乘子直接返8890621787500(1/4−T²)，违反原D非零。N1最终乘子0，目标是D而非原1，全部T/z保留；不借另一例外图同lambda半。此前未剥543/未做余Gauss的note保准确历史。H7补图合成随后另登记，整H7仍只用完整原条件。
 
 [碰撞E固定37阶u QQ首次超时](notes/2026-11-28-unit211-collision-E-fixed-u-first-timeout-8542.md)：ba42真180.068846732秒/104532KiB/−14，只加载两E并完整primitive输入乘回，0.048565597秒进入结式后无返回。没有R、因子剥除或新lambda覆盖，不把超时当数学零；冻结此门不抬限/换算法重跑。既成有限五坐标dim≤235170保持；改两E原u首项/无穷远主部和完整有限头纤维，仍须全部原条件。
+
+[六位一特殊权的完整S1与原同源裕量](results/R271-appendix-six-site-one-special-weight-full-s1-and-relative-source-margin.md)：对整个b=(√t,1⁵)、t>0，真实两端度量给完整最高F2逆后才压九维原K；四维标准和五维纯尾共同有F>(2/3)C1²、0≤ΔL3^-1Δ*<F/9。保原C2非零、同B/双来源相减与全部cross，不用五位硬端约定；合既付S2已付此家庭两条原充分式。R239已有更强两异权全出生相邻性，不重新算七位推论。一般六独立权完整S1/S2、实际无限carry/同W/N=M仍开。
