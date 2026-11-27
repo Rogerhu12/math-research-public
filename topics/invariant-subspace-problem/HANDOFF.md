@@ -7,9 +7,9 @@
 - **普通复可分无限维 Hilbert ISP 未完成。** 只以全体有界算子定理或完整反例收尾；子题/时间/输入不足均不停止，按open换输入继续。
 - **最近实际 pull / 已读规则提交：** `41f79352b3f3fd31530a1df3516f00bd2587c81b`（2026-11-27 04:39:20.790792 UTC；真实新计算run45941191773的部分克隆）；两README diff无变。本地上次仍02:43:20/48bf564a，终端未恢复。每次pull且至少每小时检查。
 - 私库QUEUE仍本会话进行中；真实pull仍02:25:26 UTC/717fcc27ff28cb287f6011395b70136a58e3b4a8。04:16:38接口读92fbad0586f1abd8fac2171cd070585abc14c315，根README无变、QUEUE正确，不冒充pull。公私均部分克隆。
-- **终端断开后远端已读：** `f418998f91bd1b6c554b7ce0ba37823787fdcf40`（2026-11-27 04:55:39 UTC），两README blob无变；按根规矩8用小文本接口，未冒充pull，恢复即pull --rebase。02:51清理未启动；[新输入/准确故障状态](notes/2026-11-27-executor-outage-and-unpublished-small-input-checkpoint-8542.md)。非快进立即重基重推，无force，令牌仅CLI。
+- **终端断开后远端已读：** `2d03c9f5d480405e15b9b1d0467198ff69cfe403`（2026-11-27 05:01:44 UTC），两README blob无变；按根规矩8用小文本接口，未冒充pull，恢复即pull --rebase。02:51清理未启动；[新输入/准确故障状态](notes/2026-11-27-executor-outage-and-unpublished-small-input-checkpoint-8542.md)。非快进立即重基重推，无force，令牌仅CLI。
 - H<10KB、MD<100KB、open尽量<30KB、题<200MB；只留源/参数/SHA/小回执，不留可重算大输出，不写根LOG。课题外workflow改动已记本题log。
-- 所有被压缩的精确结论/来源/失败身份保[最新完整H](notes/2026-11-27-handoff-before-closed-green-coordinate-graph-8542.md)、[open](open.md)、[结果索引](results.md)及归档链；省略不算关闭，已登记不重做。
+- 所有被压缩的精确结论/来源/失败身份保[最新完整H](notes/2026-11-27-handoff-before-low-excess-actual-source-cost-8542.md)、[open](open.md)、[结果索引](results.md)及归档链；省略不算关闭，已登记不重做。
 
 ## R150 总图与当前一般支
 
@@ -42,7 +42,7 @@
 原全部公式/常数/负门与适用范围保最新完整H、open及results；压缩不关闭旧接口。
 - M=kerT、N=closureBM、W=M⊖N，N=M未证。保同w/u、全部partial/intersection、MP自然域/帽外投影及forcing。仍须64^R、γ<1/16绝对Z、32^N孔权、e^(κy)清除；F0/首阶核不删，k=h−1费、L=o(x^(2/3))至母窗桥开。无锚Γ²≤27μ1不传有锚/第二Green。
 - 原G0=TJ_B多值部Ce0；N⊂kerAmin⊂M，I=M⊥⊂J=closureRanG0*⊂N⊥。原RanG0*确非闭、无全h来源范数界；五坐标原反例还排无条件联合图→carry/C2，输出都在M⊥而非W，不重做这些通用升级。
-- 原平方源C2/b_q=q⁻²alpha_q/alpha_(q−1)给两型总孔核心，全Y K=−V_b+R_b且R_b界12，D*−V_b同阶抵消保留。15/16端点已付、更大指数失败；N最大carry有限行域已刻画。真实y=Sh的alpha_q^(−1/8)逆费仍开，不先拆各非H项。
+- 原平方源C2/b_q=q⁻²alpha_q/alpha_(q−1)给两型总孔核心，Y完整D*−V_b同阶抵消保留，R_b界12。新最大图y=Sh的低余孔扇区s(n)≤q+floor(cq)−2(c<2^(1/3)−1)自动付C2费，整个物理孔数有界的实际y遂在原图核心；未假截断y仍在域。15/16端点已付、更大指数失败；真实余扇区alpha逆费仍开。
 - 同w=Ju的Γ有限恰g0=H*(I+H*H)u在实际RanK*，W只付闭包像；原Q_H正则费用双侧比较不付Γ。全整数窗Σ||P≤n w||⁴/E_n≤4Aδ||w||²，非零W迫Σ1/E_n有限；同W的倒数发散/费用上界仍开。
 - 同源dyadic两边费E_r有界子列经凸组合付图核心；P_Wf≠0迫liminf logE_r/r≥γ_ex>5/3，较弱子指数费只付f∈I。全M前缀最优率约1.723637及整个D(G)/D(Amax)的相反前缀指数图界仍不足alpha逆费。
 - **新真实Green缺陷E恰T*y=Sf、By+Tf=0。** 两坐标范数等价给闭X/Y、G|Y有界同构，B|Y/S|X/T|X/T*|Y有正下界。F=P_I X闭，X={v+Zv:v∈F}、Z:F→W有界，J=I⊕closure ZF。图核心⇔F0，第一范围⇔Z0，第二范围⇔closure ZF=W；X/Y/F未证不变，ZF未证闭，Γ/N=M仍开。

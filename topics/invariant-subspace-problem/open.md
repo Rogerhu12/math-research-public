@@ -171,3 +171,5 @@ Deddens自伴MASA、全部可分重数有限成本投影、全2-adic平移距离
 [两个实际最大除法域的相反前缀正则性](results/R271-appendix-maximal-division-graph-opposite-prefix-regularity.md)已将原核估计扩到整个D(G)与D(Amax)：分别控制零前缀V_n与占满前缀Q_n，所有γ<γ_ex的指数位权受实际图范数控制。第一图核心真实正交缺陷恰由T*y=Sf、By+Tf=0刻画，因而Amax f=−y，不能换成Amin。这两条耦合方程继续作为新输入；未证明缺陷零、Gamma有限或alpha逆权。
 
 [一般等权整个T0=0原支](results/R150-appendix-unit211-equal-weights-T0-zero-complete-original-exclusion.md)现已关闭：原N1两线性因子合原mean给三支，分别原Dval0、非零常数和唯一末点N_S=−125/16排尽。新四原二次在x²/xy/xt/t²列的子式−16m²(m−1)²(2m+Q−2)²从此为单位。继续这个低度原模块的cubic overlap及同点N/P；旧一般QQ 600秒门保持冻结，未判整个等权为空。
+
+[最大实际图的低余孔平方来源费用](results/R271-appendix-maximal-graph-low-excess-hole-square-cost.md)现给同一规范来源 h 的新 C2 可支付扇区：任意 c<2^(1/3)−1，大首缺位 q 上只要来源总孔数≤q+floor(cq)−2，其费用由实际 (y,Gy) 图范数控制。由原 creation 交换子取得 η_(q−1) 级前缀界；因此物理孔数有界的实际 y 已在原图核心。剩余高余孔来源、同 W 的 Gamma 仍开；不假设任意物理孔截断保最大图域。

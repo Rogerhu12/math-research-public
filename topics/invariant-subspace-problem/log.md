@@ -127,3 +127,7 @@ AI-assisted GPT-6 Astra Pro：审原Gram重建、weighted N/P→HA/HB原迹、�
 2026-11-27 12:55 Asia/Taipei｜Astra-ISP-8542378f-20261127
 - 完整排除一般等权T0零整支：原有限Gram/N1线性分裂及均值三支，Dval0/原非零常数/唯一末点原N_S=−125/16排尽。
 - 新增原affine/全部头/整线/原组合/末点六段精确源与实际回执；可付J及二次主子式，继续cubic overlap。末点编译变量重名错误如实记录，600秒旧门仍冻结；两README无变，非force推送。
+
+2026-11-27 13:01 Asia/Taipei｜Astra-ISP-8542378f-20261127
+- 新原 creation 交换子＋规范首缺位换算，完整证明低余孔 C2 费用及有界物理孔实际输入的原图核心；正文直接登记，无另设回放门。
+- 同一 F/R/Z 和余扇区逆费继续；普通 ISP 未完成。
