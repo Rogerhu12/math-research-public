@@ -8,7 +8,7 @@
 - **最近实际 pull / 已读规则提交：** db67ee41e49fb4ad66cbf91a34b370ac8ace86f4（2026-11-27 12:32:42 UTC，Actions run45999490777实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-8542/45999490777-1.json。
 - 私库QUEUE本会话进行中已实际核验；最近真实pull为2026-11-27 12:32:41 UTC/91b18c437330bd321db25a6e17dbdcb62eb85a95，根README diff无变。公私均部分克隆blob:none。
 - **终端再次断开：** 约07:20 UTC起本地执行器不可用。按根规矩8/13小文本准备、公开Actions真实pull/rebase/push，非快进立即循环；旧故障与准确源保[说明](notes/2026-11-27-executor-outage-and-unpublished-small-input-checkpoint-8542.md)，未冒称本地恢复。
-- **终端断开后远端已读：** `db67ee41e49fb4ad66cbf91a34b370ac8ace86f4`（2026-11-27 12:32:18 UTC）；只读检查不冒称实际pull。
+- **终端断开后远端已读：** `564d3259c1d090673697234ac808098f3e6cdab7`（2026-11-27 12:34:22 UTC）；只读检查不冒称实际pull。
 - H<10KB、MD<100KB、open尽量<30KB、题<200MB；只留源/参数/SHA/小回执，不留可重算大输出，不写根LOG。课题外workflow改动已记本题log。
 - 所有被压缩的精确结论/来源/失败身份保[最新完整H](notes/2026-11-27-handoff-before-c-half-and-new-inputs-8542.md)、[open](open.md)、[结果索引](results.md)及归档链；省略不算关闭，已登记不重做。
 
@@ -34,7 +34,7 @@
 - **一般ell=0全闭，全局付ell。** 全三头曲线、1146次QQ覆盖及404余因子/u2/u半均原返回；完整来源保总定理与归档，不加W/Q边界、不重放。
 - **一般T0=0全闭，可付T0。** F4/J4整原返回后QQ4原48×35返1（cd05afd9，0.625秒/exit0），不重放。一般头[0,2,3,4]=2u⁴Q(Q−1)³M²ell·T0(J−Q)。
 - **Delta0 h1/k1≤6219基点已付。** λ半Delta=−p³(ell−1)T0/rho合原等权/T0闭，h1的D=bA非0。一般h=k(D0)fdece真4.240秒/96500KiB/exit0，原全八值/H=bcDelta及完整首一b4已付，首项−64xi²rho⁴；其全部权面仍开，不套旧D单位。其它Delta非0/E0/t头零保留，旧大门冻结。
-- **Phi0/h1精确1945覆盖及c1/2整支已付。** ecea两QQ原域E1/EB返1；11fc真9.181秒/63340KiB/exit0，六phi真QQ局部总840次，余覆盖1105保度。新ca7同rho组合已送；415b首接真1105余式的模Bezout，120秒1GiB待实际；旧gcd908不直接除840冒称68。k1交换及原候选仍开。
+- **Phi0/h1首一1105原覆盖/≤1105基点已付。** 11fc真9.181秒/63340KiB/exit0，六phi QQ精确重数111/117/110/24/145/44合840；原units+c半整支支付全部零纤维，余1105保1009次数/含ell≤2210。ca7同rho组合、415b真余式模Bezout首次实际待收；旧908不能直接除840。k1交换及所有原候选仍保。
 
 ### rankH3原ess6
 

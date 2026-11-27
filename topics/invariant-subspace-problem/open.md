@@ -186,6 +186,6 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 [Haar解析理想像](results/R12-appendix-analytic-ideal-rosenblum-images-and-forced-source-divergence.md)只给同g循环闭包，有限Sobolev来源球距g正、逼近源范数发散；[新非对称双幂的精确局部分类](results/R12-appendix-local-asymmetric-polynomial-orbits-and-actual-haar-source-exclusion.md)进一步排除原Haar所有非常数解析单位化及其伴随的非零多项式增长来源。完整同向量恒等式和局部有限阶分布证明已付；这些限制不涵盖紧扰动或负整数边界。Rosenblum实际零点/ideal来源、真实Green范围、非循环g及未知闭根域继续。
 
-**[Phi0/h1原覆盖精确1945次](results/R150-appendix-unit211-Phi-zero-rank-one-value-exact-1945-degree-original-cover.md)，[整个c=1/2原支已闭](results/R150-appendix-unit211-Phi-zero-rank-one-value-complete-c-half-exclusion.md)。** 11fc真9.181秒/63340KiB/exit0，六phi全QQ局部核行付总840次整除，真实余覆盖1105且1009保度。旧1e83独立NB/PB模gcd908未改进；新ca7首接同rho组合已送，415b首对真1105余式作完整模Bezout，均120秒1GiB。模phi分裂时不能把旧gcd908直接除840冒称68；原候选及k1交换继续。
+**[Phi0/h1六QQ因子与首一1105原覆盖](results/R150-appendix-unit211-Phi-zero-rank-one-value-six-QQ-factors-and-1105-original-cover.md)已付。** 11fc真9.181秒/63340KiB/exit0，六原phi精确QQ重数111/117/110/24/145/44、总840；原矩units/S非0及已闭c1/2支付六零纤维。余覆1105首一且1009保度，同原核重数付≤1105基点/2210含ell三元组。ca7同rho组合、415b真1105余式完整模Bezout已首次送出；模phi分裂时不能把旧gcd908直接除840冒称68。k1交换及剩余全部原候选继续。
 
 **[同一实际右逆的全部指数尺度](results/R271-appendix-single-actual-right-inverse-on-all-physical-exponential-scales.md)与[新平滑修正/实际核截断通量](results/R271-appendix-same-right-inverse-smoothing-correction-and-actual-kernel-cut-flux.md)已付。** 同Gλ:Xκ+λ→Xκ、Gⁿ费exp(Cn³)；G=R−C且C:H→所有Xκ、CPq高斯，C*有e^(28N²)矩。双侧孔壳给R*有限孔、R/G可闭、闭G值域闭。对f_n∈E∞→f∈M，RTf_n有界子列即f∈N；非零w∈W的原cut修复范数全序列→∞，固定有限孔测试趋0而同w配对→||w||²。同规范h=r−C*w，Sh∈H恰Sr∈H。原通量上界、Gamma、G保N及N=M均未付。
