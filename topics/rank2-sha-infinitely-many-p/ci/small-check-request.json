@@ -1,9 +1,8 @@
 {
-  "request_id": "2026-11-27-1444-original-q11-manin-contacts",
-  "python_flint_version": "0.9.0",
+  "request_id": "2026-11-27-1524-original-native-v11-readonly-snapshot",
   "checks": [
     {
-      "script": "topics/rank2-sha-infinitely-many-p/scripts/consume-original-q11-manin-contacts.py",
+      "script": "topics/rank2-sha-infinitely-many-p/scripts/fetch-original-native-v11-log-snapshot.py",
       "engine": "python3",
       "args": [],
       "include_stdout": true
