@@ -4,7 +4,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-Phi-H7-complement-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-Phi-rho-head-complete-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -173,7 +173,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 [Haar解析理想像](results/R12-appendix-analytic-ideal-rosenblum-images-and-forced-source-divergence.md)只给同g循环闭包，有限Sobolev来源球距g正、逼近源范数发散；[新非对称双幂的精确局部分类](results/R12-appendix-local-asymmetric-polynomial-orbits-and-actual-haar-source-exclusion.md)进一步排除原Haar所有非常数解析单位化及其伴随的非零多项式增长来源。完整同向量恒等式和局部有限阶分布证明已付；这些限制不涵盖紧扰动或负整数边界。Rosenblum实际零点/ideal来源、真实Green范围、非循环g及未知闭根域继续。
 
-**Phi0旧D≠0图。** [整个zn0](results/R150-appendix-unit211-Phi-zero-complete-centered-value-collision-exclusion.md)已闭；rho头零主支旧C(v,λ)87/55保留，新[mean/T闭包原U6返回](results/R150-appendix-unit211-Phi-zero-main-head-zero-mean-T-unit-six-C71-29.md)给完整C71,29/2111项，43.208秒/89032KiB/exit0，385除法/全六坐标已核。新core精确保存，不猜新旧因子关系，不重算旧NB/cofactor。自由rho例外权另由168基点输入续；h=k有独立排除。
+**Phi0旧D≠0图。** [整个zn0](results/R150-appendix-unit211-Phi-zero-complete-centered-value-collision-exclusion.md)和[整个rho二次头零支](results/R150-appendix-unit211-Phi-zero-rho-quadratic-head-zero-complete-original-exclusion.md)均闭。后者完整分类2d(1−4d²)(rho+d)=0，合主图H7/补图和特殊有序权/BC交换，仅支付Aρ=ell−1−2d²。旧C87/55与C71/29主图已闭，准确源/失败保原正文不重放；不外推一般H1或h=k。当前继续Aρ非零图及一般H1的316 b0特殊纤维、b非零原条件。
 
 **Phi旧失败冻结：** ed0内存SIGABRT、879为SIGALRM；准确源/已返范围保完整快照及失败正文，不提高限额重跑。
 
@@ -240,3 +240,7 @@ G36完整[高1134](results/R150-appendix-unit211-W-G36-entire-high1134-original-
 [碰撞E固定37阶u QQ首次超时](notes/2026-11-28-unit211-collision-E-fixed-u-first-timeout-8542.md)：ba42真180.068846732秒/104532KiB/−14，只加载两E并完整primitive输入乘回，0.048565597秒进入结式后无返回。没有R、因子剥除或新lambda覆盖，不把超时当数学零；冻结此门不抬限/换算法重跑。既成有限五坐标dim≤235170保持；新3c698首次处理两E原u首项QQ全因式及整未付λ纤维，真原u gcd仅剥已付u/u−1，保全部头降次和非单位。λ∞仅固定最高λ系数的有限u边界，双∞角未覆盖，不用边界排有限点。120秒/1GiB；仍须全部原Q及个别N/P条件。
 
 [六位一特殊权的完整S1与原同源裕量](results/R271-appendix-six-site-one-special-weight-full-s1-and-relative-source-margin.md)：对整个b=(√t,1⁵)、t>0，真实两端度量给完整最高F2逆后才压九维原K；四维标准和五维纯尾共同有F>(2/3)C1²、0≤ΔL3^-1Δ*<F/9。保原C2非零、同B/双来源相减与全部cross，不用五位硬端约定；合既付S2已付此家庭两条原充分式。R239已有更强两异权全出生相邻性，不重新算七位推论。一般六独立权完整S1/S2、实际无限carry/同W/N=M仍开。
+
+[Phi整个rho二次头零原排除](results/R150-appendix-unit211-Phi-zero-rho-quadratic-head-zero-complete-original-exclusion.md)是已成原分支的完整合成，没有新增执行门；只在旧D≠0 distinct-singleton Phi图付Aρ，不把H7交纤维排除写成一般H1非零。一般Phi面仍未完成。
+
+[一般六独立权的新完整S2矩阵half输入](notes/2026-11-28-six-bit-s2-matrix-half-characteristic-8542.md)：原同五维L上以I−2K全部特征为新目标，保完整十五维上逆后压缩、两个cross、真实真空商和全部正分母。旧15特征已与刊本逐项匹配；不重跑已假的quarter平方迹。首次180秒/4GiB，lossless保原新矩阵/每阶系数/连续checkpoint；部分输出不付S2。小405点记录仅准确选源历史，不是谱界或新增门。

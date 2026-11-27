@@ -1,17 +1,19 @@
 {
-  "message": "ISP: exclude the entire main Phi H7 fibre by original seven-dimensional identities",
-  "parentCommit": "a61f482cd1da6b2f8c2f974e45c5b2b5bce30dc4",
+  "message": "ISP: close the entire original Phi rho quadratic head zero branch",
+  "parentCommit": "b50ffbdb68903828101319b809b1ac034323c6d4",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-Phi-zero-main-entire-H7-original-exclusion.md",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-main-entire-H7-original-exclusion-execution-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-main-entire-H7-original-exclusion-exact-input-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-collision-E-original-u-heads-and-finite-fibers-8542.py",
-    ".github/workflows/invariant-subspace-8542-collision-original-u-heads.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-entire-Phi-H7-8542.md",
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-Phi-zero-rho-quadratic-head-zero-complete-original-exclusion.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-six-bit-s2-matrix-half-characteristic-8542.py",
+    "topics/invariant-subspace-problem/notes/2026-11-28-six-bit-s2-matrix-half-characteristic-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-six-bit-s2-shifted-cubic-budget-numeric-screen-8542.mjs",
+    "topics/invariant-subspace-problem/notes/2026-11-28-six-bit-s2-shifted-cubic-budget-numeric-screen-8542.json",
+    ".github/workflows/invariant-subspace-8542-six-full-s2-matrix-half.yml",
+    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-Phi-rho-head-complete-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-Phi-rho-head-complete-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -21,6 +23,6 @@
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
   "dispatchWorkflows": [
-    "invariant-subspace-8542-collision-original-u-heads.yml"
+    "invariant-subspace-8542-six-full-s2-matrix-half.yml"
   ]
 }
