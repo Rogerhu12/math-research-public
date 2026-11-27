@@ -1,0 +1,31 @@
+{
+  "execution_id": "full-p47-small-odd-Hecke-basis-v1",
+  "prime": 47,
+  "coefficient_prime": 4513,
+  "sage_version": "10.6",
+  "total_seconds": 900,
+  "reserve_seconds": 30,
+  "precision_prefixes": [
+    256,
+    512,
+    1024,
+    2256
+  ],
+  "random_seed": 0,
+  "height_move_request_path": "topics/serre-uniformity/notes/full-p47-CM-height-move-request.json",
+  "height_move_request_sha256": "bc89913668d6b3d209719a720c7562a7914459441526b6a565fc69edbfc2b7e6",
+  "Hodd_matrix_sha256": "e0105e4915c8685dcac366c72bdad0d0c7ff2e5b0b72768d06fd5573fc31cfbf",
+  "Hodd_characteristic_polynomial_sha256": "990a3205813f9785f40b97a754092530d9797edaee616b2814f2382530d06b37",
+  "rules_last_read_commit": "2f48662dd9bb90725daa0292b4742d45b6eaa7b3",
+  "source_sha256": {
+    "README.md": "581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102",
+    "topics/serre-uniformity/README.md": "6ce1403bd2d2587bb9cca70bd0095a1264b1167fe2c4b62f0652ae671e6277a5",
+    "topics/serre-uniformity/results/R1096-certified-original-CM-moving-units-and-odd-Hecke-height-basis.md": "33348ba99588b997f437641e135cd4ea984b71c56971183cc583bc639b0badaa",
+    "topics/serre-uniformity/scripts/full_p47_weight_one_Hodge_certificate.py": "fe2e4f6b2420389b534fab0b2d1976dc6ac7cb2b1fe8ad98c07112ecd860afac",
+    "topics/serre-uniformity/notes/full-p47-CM-height-move-request.json": "bc89913668d6b3d209719a720c7562a7914459441526b6a565fc69edbfc2b7e6",
+    "topics/serre-uniformity/scripts/full_p47_small_odd_Hecke_basis.py": "5d91fd093580464c2fcecdd1b2e9abe751c4400eaa92374ec5e88931d6374dad",
+    "topics/serre-uniformity/notes/2026-11-27-full-p47-small-odd-Hecke-basis-method.md": "6fe837a5f5ad7e0897ec153c738976ec7cd5e821abc11b593cfd7bbde42d338f"
+  },
+  "scope": "First actual smallest odd Hecke integral basis and canonical coordinate bridge; no height recomputation.",
+  "storage": "Scripts, parameters, indices as next input, run/job and output hashes only."
+}

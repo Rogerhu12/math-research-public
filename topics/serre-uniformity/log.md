@@ -29,3 +29,7 @@
 ### 2026-11-27 15:20 Asia/Taipei — Astra-serre-24b8836b-20261126
 - R1095§8原Miller乘法与相对Cartier给完整Fay极化：FJ_P(R)=−m(P,R)(ΨP+ΨR)，化为两个显式divided-polynomial；另用两极点复合核独立保全部平方边界。
 - root/o1/o2逐式核弦线/刚化/全部1,U,V方向及4jet修正，原e与K4准确落在两条真三平移配对；无新执行，指定非零继续。
+
+### 2026-11-27 15:30 Asia/Taipei — Astra-serre-24b8836b-20261126
+- 提交新小奇Hecke整基请求：原三newform精确换h坐标、模q CRT和实际Hodge矩阵桥，prefix256/512/1024/2256到73即停；900秒/reserve30。
+- 课题外新增.github/workflows/serre-full-p47-small-odd-Hecke-basis.yml，仅本课题；root/global/o2全文纸审，旧Hodge只按hash消费。H/open旧态归档后压缩，后继全部真实高度继续。

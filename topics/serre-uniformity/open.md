@@ -2,7 +2,7 @@
 
 **主要目标仍OPEN。** 完整证明绝对常数C，或给出p→∞完整无CM反例族；有限素数、条件结论、低权/局部Abel/部分子群均不够。
 
-此前逐字状态在[最新open归档](open-archive-2026-11-27-before-full-MW-height.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重算。
+此前逐字状态在[最新open归档](open-archive-2026-11-27-before-complete-height.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重算。
 
 ## 原最低型：已经付清的输入与准确剩余标量
 
@@ -31,27 +31,26 @@ R1018–40原Fm/两节点Dickson/PD/好BT整比较的完整尺度和C_*保原文
 
 ## O0：全局范围与原 full47 的实际高度
 
-[R1003](results/R1003-global-scope-and-remaining-branches.md)：主目标仍是所有充分大p的完整N_ns。p2/5mod9还需小惯性C³；R317另需整j、K=Q(√−3)、σ1及二/三小域同时一致。完整惯性、非整j、变化K、σ非平凡与异小域支路都未关闭，导子下界非上界；O1/O2及任何固定47结果不等于Serre完成。
+[R1003](results/R1003-global-scope-and-remaining-branches.md)：主目标为所有充分大p的完整N_ns。p2/5mod9仍需小惯性C³；R317另需整j、K=Q(√−3)、σ1及二/三小域同时一致。完整惯性、非整j、变化K、非平凡σ与异小域均未关；固定47或O1/O2不等于Serre完成。
 
-[R1062–71](results.md)：原全cusp/étale/p-only覆盖与全部角色/phase/两twists已付；每盘global标签恒定，实际good提升唯一、forced-good维数Ω(p/logp)，无regular/Vandiver。有限像O(p^1.5logp)、D′≤4p^1.5/√3惰性CM代表不推Q-CM；小aux非零迹只回五CM，迹零支路仍开。非整j/wild/coarse和regular单cusp无Runge均保原文/归档。
+[R1062–71](results.md)：原全cusp/étale/p-only来源、所有角色/phase/twists和Ω(p/logp) good提升已付，无regular/Vandiver。有限像O(p^1.5logp)、有界惰性CM代表不推Q-CM；small-aux迹零与全局共同像仍开，单cusp无Runge。
 
-[R1074](results/R1074-certified-original-p47-eight-CM-disks.md)以原235盘/283全279标签注入只余八Q-CM盘，并付whole Cp tube原Cartan支撑避让/raw坏47同盘项零。[R1086](results/R1086-certified-original-p47-ell4513-same-CM-transfer.md) run45938730258给4513全5453点=5453完整tags，八CM同点转移；全scalar553粗点、twists/cusps/R36零项均保。八盘内部唯一仍开。
+[R1074](results/R1074-certified-original-p47-eight-CM-disks.md)/[R1086](results/R1086-certified-original-p47-ell4513-same-CM-transfer.md)：原235盘只余八Q-CM标签，283全279和4513全5453标签均注入；4513 run45938730258付同CM转移。全scalar/twists/cusps/R36零项和坏47 whole-Cp tube支撑已付；八盘内部唯一仍开。
 
-[R1080](results/R1080-certified-full-level47-Jacobian-rank.md)：原J无条件rank=dim=ρQ=73，16/24/33全部因子L′已认证；[R1081](results/R1081-certified-original-level47-Cartan-trace-and-integral-Hecke-algebra.md)给原4513最大未分歧整T。R1089给#J mod283/4513=70/551、Bq整可逆、logJ(Qq)⊂qLie及原Φ47指数46。旧运行只消费。
+[R1080/81/89](results.md)：原J无条件rank=dim=ρQ=73，4513最大未分歧整T；#J余数283/4513=70/551，Bq整unit，logJ(Qq)⊂qLie，原Φ47指数46。全部旧计算只消费。
 
-[R1090](results/R1090-original-weight-one-integral-Hodge-source.md) run45946046378给原95维整log格、23留数rank22、Hodge核73；后继只消费descriptor/hash。R1085/1091已付实际ST全部q+1根、Mahler尾、Gaussian单系数及KS/Igusa/coarse尺度。
+[R1090](results/R1090-original-weight-one-integral-Hodge-source.md) run45946046378给95维原整log格、全23留数rank22、真Hodge核73；后继只用descriptor/hash重建。[R1093](results/R1093-certified-original-Gaussian-CM-generator-and-full-MW-lattice.md) run45947023569，65.967秒，Gaussian首log全28块unit，故M=T·u4、logM=qLie。实际Bq、全2208点、KS/Igusa尺度保R1085/1091，旧series不重算。
 
-[R1093](results/R1093-certified-original-Gaussian-CM-generator-and-full-MW-lattice.md) run45947023569/job140333947037，65.967秒：原基Hecke桥与完整2208点给Gaussian q⁻¹log(Bqu4)全28块非零，故**M=T4513·u4、logM=4513Lie**，完整73维MW整格已付。H2根434读3527；所有数值保Bq，未计算高度。
+[R1078/87/88](results.md)：原23角/principal-cusp分裂和完整fixed-cycle；run45941481763付双CM系数整unit。合R1093得Tc d2+Tc d3=M_c全40维；具体cyclic对应和盘内local项仍开。
 
-[R1078/87/88](results.md)给原23角、K23×K48×K16、Zps及完整fixed-cycle，run45941481763付两原principal对应Z2/Z3的双CM系数矩阵在所有cusp块整可逆。合R1093得Tc d2+Tc d3=M_c全40维；27个t0..26中至少一个d2+t d3生成M_c，具体t与高度仍待读。
+[R1096](results/R1096-certified-original-CM-moving-units-and-odd-Hecke-height-basis.md) run45948995182：det(T2−1)=3715、detT3=3071，Hodd=T3+T5判别式2650，M=T·u16。§8的Sturm2256证明73奇Hecke整基可选n≤2255且47∤n；实际小指标正在读。
 
-[R1094](results/R1094-original-disjoint-CM-heights-and-first-global-intersection-functional.md)：原整Hecke各向同性W、双极核与完整ramified power-sum证明跨−4/−3的h_q(Bqu4,T Bqu3)∈q²，T3和T2−1的Gaussian离盘代表亦适用。首global height准确为原level交数×Fermat商，保完整B²的T_(q²)及坏47垂直修正；实际交数/单位未算。
+[R1094](results/R1094-original-disjoint-CM-heights-and-first-global-intersection-functional.md)付原整W、双极核、完整ramified power-sum及全部odd-Hecke CM分盘的h_q∈q²；首global为全部非q原交数×正Fermat商。
+[R1097](results/R1097-original-level47-odd-prime-CM-intersections-and-sparse-norm-sum.md)/[R1098](results/R1098-original-bad47-CM-intersections-and-exact-vertical-correction.md)/[R1099](results/R1099-original-level47-dyadic-CM-intersections.md)付所有odd-good/47/2交数：两2209进程、坏47的529D_qH+23D_qb、2处Q8的S2/8含半格，保全Tq²。
 
-[R1096](results/R1096-certified-original-CM-moving-units-and-odd-Hecke-height-basis.md)：run45948995182/job140340211167，6.976秒；det(T2−1)=3715、detT3=3071，Hodd=T3+T5判别式2650，M=T·u16；§8以Sturm2256证明奇整基可选n≤2255且47∤n，实际指标继续计算。D4与全部Hodd^jD16分盘，h_q∈q²；全高度首层由非q原level交数读取，实际值仍开。
+[R1100](results/R1100-certified-original-level47-first-global-CM-height.md) run45955885738/job140362136569，4.332秒：Γ(1)=818 mod4513，2/47/奇好贡献4256/1323/4265，5134个全部局部项。h(Bqu4,Bqu16)赋值1；不推全部73块unit，后继不重算n1。
 
-[R1097](results/R1097-original-level47-odd-prime-CM-intersections-and-sparse-norm-sum.md)、[R1098](results/R1098-original-bad47-CM-intersections-and-exact-vertical-correction.md)、[R1099](results/R1099-original-level47-dyadic-CM-intersections.md)已付全部odd-good/坏47/2交数：模2209两进程，坏47 I=529D_qH+23D_qb，2处Q8给S2/8并保half-lattice。以下开始实际数值。
-
-[R1100](results/R1100-certified-original-level47-first-global-CM-height.md)：run45955885738/job140362136569，4.332秒，原Γ(1)=818 mod4513；2/47/奇好贡献4256/1323/4265，含5134个真实局部项。故h(Bqu4,Bqu16)赋值1；完整73块单位仍待小奇Hecke基与后续高度。
+[新小奇基请求](notes/2026-11-27-full-p47-small-odd-Hecke-basis-method.md)：原三newform精确换到h=a3+a5后CRT，核原Hodge1/2/3/5矩阵，固定prefix256/512/1024/2256到rank73即停。公开Actions900秒/reserve30；尚无新回执。下一步只在实际基上读其余高度，恢复κ并核全部28块。
 
 ## O1：全p同一真实本原标签的临界非零
 

@@ -1,0 +1,51 @@
+name: Serre full p47 small odd Hecke basis
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - topics/serre-uniformity/notes/full-p47-small-odd-Hecke-basis-request.json
+
+permissions:
+  contents: read
+
+concurrency:
+  group: serre-full-p47-small-odd-Hecke-basis-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  small_odd_Hecke_basis:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/serre-uniformity/README.md
+            /topics/serre-uniformity/results/R1096-certified-original-CM-moving-units-and-odd-Hecke-height-basis.md
+            /topics/serre-uniformity/scripts/full_p47_weight_one_Hodge_certificate.py
+            /topics/serre-uniformity/notes/full-p47-CM-height-move-request.json
+            /topics/serre-uniformity/scripts/full_p47_small_odd_Hecke_basis.py
+            /topics/serre-uniformity/notes/2026-11-27-full-p47-small-odd-Hecke-basis-method.md
+            /topics/serre-uniformity/notes/full-p47-small-odd-Hecke-basis-request.json
+      - name: Pull pinned official SageMath 10.6 image
+        run: docker pull sagemath/sagemath@sha256:60dfb09e8d1399e127a0d7b62b45eef1044574bae397df51bb6ba38df5498879
+      - name: Compute actual small odd Hecke integral basis
+        env:
+          SERRE_EXPECTED_REQUEST_SHA256: '0a513255a671853cc552603d2c6f8aebc5f5112743d9bc3503fe93166fba44e2'
+        run: |
+          timeout --signal=TERM --kill-after=30s 900s docker run --rm \
+            --mount "type=bind,source=${GITHUB_WORKSPACE},target=/work,readonly" \
+            --workdir /work \
+            -e GITHUB_ACTIONS -e GITHUB_REPOSITORY -e GITHUB_SHA \
+            -e GITHUB_RUN_ID -e GITHUB_RUN_ATTEMPT \
+            -e SERRE_EXPECTED_REQUEST_SHA256 \
+            -e PYTHONUNBUFFERED=1 -e PYTHONDONTWRITEBYTECODE=1 \
+            -e OMP_NUM_THREADS=1 -e OPENBLAS_NUM_THREADS=1 \
+            sagemath/sagemath@sha256:60dfb09e8d1399e127a0d7b62b45eef1044574bae397df51bb6ba38df5498879 \
+            sage -python topics/serre-uniformity/scripts/full_p47_small_odd_Hecke_basis.py
