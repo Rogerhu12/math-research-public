@@ -114,3 +114,7 @@
 ### 2026-11-27 第六批完整旧metadata空白整理入口
 
 公开92f1d660完整Git tree metadata为14292文件/199179631B（820369B余量），此后GHV/GVC/BNC源码和实时receipts继续占用。新增独立第6批脚本、note及.github/workflows/visible-exact-sixth-metadata-whitespace.yml，原因是根规15的200MB上限；改动自己的workflow已在此登记。只选仍未整理的128旧manifest，逐全bytes/Gitblob/SHA和词法token/解析值核同，排除当前所有source/manifest引用，每pull读两README差异并再次核引用，非FF立即rebase再推。单一完整receipt后才计释放，不重科学/旧五批，不改number/string/escape/order；原完整对象保immutable baseline。唯一push入口，未预报成功或释放量。
+
+### 2026-11-27 WRC：完整参考世界高度列与原负窗接收
+
+已证明/14个新exact rational组合首次全过，不重旧science。原fixed raw b-anchor完整physical mean-height保whole g f0：首新T=Πe1ᵀAhatᵀ(J0yhat)，全error ET+κQ UW+κF Gstar，κF=.000232743。旧whole C²+周期Banach Landau+真实selected短flow差给q0φ<.03181、f0φ<.05282；因此完整原弱窗口receiver严格为94000(D+Jroot)+6650Froot+3000Fstrict+8850Jstrict。没有以C0 anchor误差乘H−1，也未免费取L² trace。actual anchor差/rigid ports独立；WMR原3targets冻结，计划同次necessary RHI恢复/8192grid增加第4首target。RHI04:30只读job success，正在接完整receipts；未先宣称世界锚或full Schur。

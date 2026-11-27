@@ -496,3 +496,7 @@ GHR [metric-reference height](results/R144-supplement-actual-seed-metric-referen
 ### GVC：实际selected tail的完整global C²向量响应（已证明）
 
 [完整证明](results/R119-supplement-C1-global-vector-response-of-the-actual-selected-tail.md)及[首次新系数组合](scripts/fourfold_codazzi_selected_vector_response_saved_bounds.py)。完整vector A0 Lipschitz/response≤2^-31218685/rγ，strict H8193 interior→global C²的C1，原闭域逐base相对A0一阶余项；actual matched inward差商付所有接缝/flat-end资格。Euclidean3的完整二jet、独立λ和一个world placement保，不授A0 operator连续。metric Γ变化保留，未冒最终fixedmetric闭面族。
+
+### WRC：完整reference物理mean-height行与原负窗receiver（已证明）
+
+[完整证明](results/R147-supplement-complete-reference-world-height-and-original-negative-receiver.md)与[14个新有理组合](scripts/fourfold_codazzi_reference_world_height_saved_bounds.py)。完整reference行保J Aᵀy与δJ f0，κF=.000232743；whole raw C²/Landau/selected差支付真实q0φ/f0φ，得到94000(D+Jroot)+6650Froot+3000Fstrict+8850Jstrict的原root/strict弱源接收。actual world-anchor差与rigid ports保持独立；此行由唯一首WMR同次载体增加第四新target，不重旧3targets或原ODE。
