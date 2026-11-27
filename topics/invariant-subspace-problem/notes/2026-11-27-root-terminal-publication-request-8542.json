@@ -1,15 +1,18 @@
 {
-  "message": "ISP: exclude both collision Q-head fibers and bound the original five-coordinate algebra",
-  "parentCommit": "9d99d8d286581fc8039043b7fdc06ee542db8114",
+  "message": "ISP: restrict the whole main Phi rho-head branch to at most eight weight parameters",
+  "parentCommit": "ab3ae4d072e487941a18a97c5a9576af18797f32",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-collision-complete-Q-head-exclusion-and-finite-original-five-coordinates.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-collision-E-Q-head-complete-original-return-receipt-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-collision-finite-five-coordinates-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-collision-finite-five-coordinates-8542.md",
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-Phi-zero-main-rho-head-eight-weight-cover.md",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-main-rho-head-eight-weight-cover-execution-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-main-rho-head-P6-P9-specialized-exact-input-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-main-rho-head-monic-543-weight-cover-exact-input-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-main-rho-head-C6-C71-modular-projection-exact-input-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-Phi-main-eight-weights-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-Phi-main-eight-weights-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",

@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [Phi主rho头至多八个主权参数](results/R150-appendix-unit211-Phi-zero-main-rho-head-eight-weight-cover.md)：固定原15阶QQ/35阶模及局部整Gauss给H7补图≤1，完整H7≤7；只计v及(u,Q,ell)，原值纤维仍开。
+
 - [碰撞全部Q首项退化排除与有限五坐标](results/R150-appendix-unit211-collision-complete-Q-head-exclusion-and-finite-original-five-coordinates.md)：整G2/C4上两E真u组合返1/(u−1)^4；原Q6首一化，完整同(λ,u,Q,f,z)环境维数≤235170，原剩余方程继续。
 
 - [整个G36排除与共同F恢复全域化](results/R150-appendix-unit211-W-G36-entire-original-exclusion-and-global-F-recovery.md)：完整1198参数所有原纤维合闭；同F=Fp(S)处处唯一，须保qF(Fp)与全部原条件，不删H411/L1或单独Bi零图。
