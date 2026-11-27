@@ -35,6 +35,8 @@
 [R1138](results/R1138-original-integral-bare-cup-smoothing-comparison.md)已付真实模p裸比较：辅助c除子及augmentation精确消全部base factor，Lχθ′=nq*Gχ−χ(n²)π*Gχ、T̃_nGχ=(n+χ(n²))Gχ；两个crossed norm由projection formula完整计算。全部n>3,n≠p均有S_n=(4/m²)(n⁴−n^(a+2)T_n+n^(2a+1)){Fχ,Fψ}，左侧为R1136的独立+rank1真实紧致来源。未除κχ(n)、level p或splitting degree；不使用有理Siegel的1/p。source单位理想仍须与target公共核区分，未宣cup零/四阶cover成。
 
 
+[R1139](results/R1139-original-compact-target-unsmoothing-and-bare-cup.md)在明确F33低mixed Bernoulli门下消R1136 F53的实际target公共核：原p倍divisor给完整H¹ Kummer类与H² cup lift，所有cusp tame为pth；HS几何H²(2)是ω而非ω²，actual θ偶故只剩Jacobian与base两层。source单位E补为F=E+(1−E)V/v，v=n(n^a−n)(n^a−n²)可选unit，(F−1)²0⇒(2−F)F=1。恒等式保Pic/Br稳定商及整个紧致像，严格得到(4/m²){Fχ,Fψ}=Ψ(cχψ)。指定紧致源值尚未为零；原四阶非重复邻对不满足该门，不能扩大。
+
 ### 原完整X_ns^+(47)已完成，只消费
 
 [R1125](results/R1125-original-full47-rational-point-classification.md)证明原完整X_ns^+(47)(Q)恰为八个有理CM点，准确j表和原点身份保正文。R1072/1074的全235坏47盘、全10 good全局标签及283同点筛选，只余八盘；R1086的全4513标签含scalar/twists/cusps/R36零坐标，锁定同一CM点。R1074§9的whole-C47 tube和R1103§6.1付全部非q项，包含非整j与2/3；未另加整j、二次域或proper inertia假设。
@@ -128,6 +130,7 @@ R964逆character控制h_(i+2)而非fi；R966原K0源及Π4∇²只消费，源�
 
 
 R1135 §§5–7已用同一norm2平移付完整C₂/C₃/C₄乘积及原1/2、1/6、1/24尺度；安全F^(6−p)残数准确消去V₂，得到c₃=−40G_(p−3)+25H_p+8a³V₃/81−4a⁴V₄/243。H_p=0仍保V₃/V₄，不能宣c₃或Δ_low单位；原good门和两frame继续保留。
+
 ## O3：固定低权 cohomology 与原 Igusa 投影
 
 完整旧输入、角色、trace、mask及运行 pins 见[本次逐字前态](open-archive-2026-11-28-before-exact-Lame-conjugation.md)。R1076–79 的同一原 primitive / 短障碍优先；低权来源不代近 p 指定系数，跨来源比较必须保 phase/carry/本原标签。已成窗口不重开。

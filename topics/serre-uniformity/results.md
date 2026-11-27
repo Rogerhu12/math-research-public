@@ -1,5 +1,7 @@
 # 结论索引
 
+- **R1139（已证明，纸面，准确条件）**：[R1139](results/R1139-original-compact-target-unsmoothing-and-bare-cup.md)：F33低mixed门下，原p倍divisor给compact cup lift；HS保Jacobian/base两层，geom H²(2)=μp的ω角色消。F=E+(1−E)V/v满足(F−1)²0，故全部smoothing在整个compact H²θ及Pic/Br商生成单位理想。由R1138严格得(4/m²)原cup=Ψ(完整两秩cycle)，公共核无歧义；该指定像仍待算，门外四阶不外推。
+
 - **R1138（已证明，纸面）**：[R1138](results/R1138-original-integral-bare-cup-smoothing-comparison.md)：原辅助c除子比较与augmentation付实际K₁/p的Lχθ′=nq*Gχ−χ(n²)π*Gχ及T̃_nGχ=(n+χ(n²))Gχ；全部crossed norm按projection formula合并，S_n=(4/m²)(n⁴−n^(a+2)T_n+n^(2a+1)){Fχ,Fψ}。所有辅助素数n>3、n≠p成立，不除κχ(n)/level p/分裂度；保R1136两秩真实源，target公共核及四阶见证继续。
 
 - **R1137（已证明，纸面）**：[R1137](results/R1137-original-Lame-conjugation-with-complete-boundaries.md)：D₀=D−Ψℓ_(p−1)与Λ=ΦD₀Φ⁻¹的rank3边界全付；D⁴φ=ΦΛ⁴(U^m)+δ⁴c_N，c_N读取安全F⁴而非已付F⁷。原Lamé/B核分部积分给完整U/B/C共轭，真实φ满足2Λ³φ+3ΨΛ²φ+6Φ(V)φ+3δΨ=0。末项由最高极强迫；Λ仍为纯极投影，非目标局部D。G=U^mK的div=A+mQ+m(−Q)−pP_R，隐藏moving p极不由三可见log极删除；指定e/K4继续。
