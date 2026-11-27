@@ -1,0 +1,2238 @@
+{
+  "schema": "isp-Qboundary-original-extra-cofactor-actual-receipt-v1",
+  "actions_run_id": 45964242648,
+  "actions_job_id": 140389015306,
+  "execution": {
+    "elapsed_seconds": 85.368915768,
+    "max_child_rss_kib": 76448,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "e9d68ec2c50a28a66ddb1b70c87ee0d40a6c74d0",
+        "before": "e9d68ec2c50a28a66ddb1b70c87ee0d40a6c74d0",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-27T08:15:28.316607+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "45964242648",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "e9d68ec2c50a28a66ddb1b70c87ee0d40a6c74d0",
+    "source_exit_code": 0,
+    "source_git_blob": "79a2cc07d79903fe952150eb283730e4bb48519e",
+    "source_sha256": "dd113962957df19f1200aab632c8f7d21461cb23ecc180e698c596f83fb15ce0",
+    "stdout_bytes": 54104,
+    "stdout_sha256": "fa6866eedbe30b6ed5c2abd06f19fcbf8ed7e2ecf22504cf0dee76a424e04fd8",
+    "stop_reason": null
+  },
+  "original_baseline": {
+    "stage": "new_Qboundary_original_modular_remainder_input",
+    "label": "same_original_C_D",
+    "fixedQQUdegrees": [
+      29,
+      29
+    ],
+    "fixedSylvesterOrder": 58,
+    "bothQQUDegreesPreservedModuloPrime": true,
+    "allQQCoefficientDenominatorsPrimeUnits": true,
+    "moduloPrime": 1009,
+    "modResultantDegree": 2265,
+    "modResultantSHA256": "2ed30f6ca75f568ea8ffc155156401f2680d0f21bd72fa71e23c2e317afdddbd",
+    "exactModMultiplicities": [
+      304,
+      47,
+      532
+    ],
+    "modRemainderDegree": 1382,
+    "monicRemainder": true,
+    "allActualModDivisionProductsMultipliedBack": true,
+    "exactQQDegreeAndDivisibilityStillRequiresIndependentCRTCertificate": true,
+    "wholeQBoundaryExcluded": false,
+    "seconds": 6.033756958999998
+  },
+  "returns": [
+    {
+      "stage": "new_Qboundary_original_same_point_Gauss_return",
+      "label": "previously_unused_six_row_group_[0, 1, 2, 3, 4, 7]",
+      "fixedQQUdegrees": [
+        29,
+        27
+      ],
+      "fixedSylvesterOrder": 56,
+      "bothQQUDegreesPreservedModuloPrime": true,
+      "allQQCoefficientDenominatorsPrimeUnits": true,
+      "moduloPrime": 1009,
+      "modResultantDegree": 2138,
+      "modResultantSHA256": "38774841649efc65f553d6a826b7d3004187ffb2631c87071adb15ac41cf691b",
+      "rows": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        7
+      ],
+      "labels": [
+        "remaining_cubic_1",
+        "remaining_cubic_3",
+        "NS",
+        "PS",
+        "remaining_cubic_1*x",
+        "remaining_cubic_3*x"
+      ],
+      "exactQQCofactorTotalDegree": 57,
+      "exactQQCofactorUDeg": 27,
+      "exactQQCofactorHDeg": 40,
+      "originalPaidFactors": [
+        [
+          "u",
+          9
+        ],
+        [
+          "Q",
+          9
+        ],
+        [
+          "M",
+          7
+        ],
+        [
+          "P02",
+          2
+        ],
+        [
+          "paid_T0_ell_minus_2u",
+          7
+        ],
+        [
+          "paid_Kz_zero_complete",
+          6
+        ],
+        [
+          "complete_Q_ell_half",
+          2
+        ],
+        [
+          "selected_quadratic_G2_chart",
+          9
+        ]
+      ],
+      "uPowerDivided": 30,
+      "QQCofactorSHA256": "de5338c250dbea1f0bd8ba6c89761cf6ce0bbb6df146d556e3b30b01a4b358f7",
+      "fixedQQInputSHA256": "81208c5de7207da8a50d63544ba6539b1d99dcc007ee5db45e2b48c318e293a1",
+      "actualOriginalCofactorAndAllSixColumnsMultipliedBack": true,
+      "exactHSubstitutionAndUDivisionMultipliedBack": true,
+      "actualOneVariableBezoutMultipliedBack": true,
+      "previousModGCDDegree": 1382,
+      "newModGCDDegree": 648,
+      "newModGCDSHA256": "78a17e12ce548909c7ee89ce812ba1d8feb95f36ca9848b30191621d4b27dc18",
+      "bezoutPairSHA256": "0facf4cfb82c0fa83405fd12cce4d94d57460495346cce646780db854875c607",
+      "conditionalOnIndependentExactQQCRTCertificate": true,
+      "wholeQBoundaryExcluded": false,
+      "seconds": 8.637092154000001
+    },
+    {
+      "stage": "new_Qboundary_original_same_point_Gauss_return",
+      "label": "previously_unused_six_row_group_[0, 1, 2, 3, 5, 7]",
+      "fixedQQUdegrees": [
+        29,
+        29
+      ],
+      "fixedSylvesterOrder": 58,
+      "bothQQUDegreesPreservedModuloPrime": true,
+      "allQQCoefficientDenominatorsPrimeUnits": true,
+      "moduloPrime": 1009,
+      "modResultantDegree": 2291,
+      "modResultantSHA256": "8c171524a342153174accffd97c6822193cd9bcdc5ade8861acc14ba2f86b4b4",
+      "rows": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        7
+      ],
+      "labels": [
+        "remaining_cubic_1",
+        "remaining_cubic_3",
+        "NS",
+        "PS",
+        "remaining_cubic_1*y",
+        "remaining_cubic_3*x"
+      ],
+      "exactQQCofactorTotalDegree": 62,
+      "exactQQCofactorUDeg": 29,
+      "exactQQCofactorHDeg": 43,
+      "originalPaidFactors": [
+        [
+          "u",
+          9
+        ],
+        [
+          "Q",
+          8
+        ],
+        [
+          "M",
+          7
+        ],
+        [
+          "P02",
+          2
+        ],
+        [
+          "paid_T0_ell_minus_2u",
+          6
+        ],
+        [
+          "paid_Kz_zero_complete",
+          5
+        ],
+        [
+          "complete_Q_ell_half",
+          2
+        ],
+        [
+          "selected_quadratic_G2_chart",
+          8
+        ]
+      ],
+      "uPowerDivided": 33,
+      "QQCofactorSHA256": "0fe148b97562eed99dc9aa6596398b1bc748a7f707e7b7ff2e8995195489a621",
+      "fixedQQInputSHA256": "71e0d747d97a39fb745a9fb6a59a3da92bc40d0bd3c2881f260c6e01e71698c5",
+      "actualOriginalCofactorAndAllSixColumnsMultipliedBack": true,
+      "exactHSubstitutionAndUDivisionMultipliedBack": true,
+      "actualOneVariableBezoutMultipliedBack": true,
+      "previousModGCDDegree": 648,
+      "newModGCDDegree": 648,
+      "newModGCDSHA256": "78a17e12ce548909c7ee89ce812ba1d8feb95f36ca9848b30191621d4b27dc18",
+      "bezoutPairSHA256": "c992a9ba7861b96e418a7db8aaafefd1504fc782b50169879f066cb14622a2c5",
+      "conditionalOnIndependentExactQQCRTCertificate": true,
+      "wholeQBoundaryExcluded": false,
+      "seconds": 11.133769151000003
+    },
+    {
+      "stage": "new_Qboundary_original_same_point_Gauss_return",
+      "label": "previously_unused_six_row_group_[0, 1, 2, 3, 6, 9]",
+      "fixedQQUdegrees": [
+        29,
+        26
+      ],
+      "fixedSylvesterOrder": 55,
+      "bothQQUDegreesPreservedModuloPrime": true,
+      "allQQCoefficientDenominatorsPrimeUnits": true,
+      "moduloPrime": 1009,
+      "modResultantDegree": 2030,
+      "modResultantSHA256": "769a86f50a7d0ba8ba6743e65fb30fc520f98be1bc8f58dd4410fafb9153005c",
+      "rows": [
+        0,
+        1,
+        2,
+        3,
+        6,
+        9
+      ],
+      "labels": [
+        "remaining_cubic_1",
+        "remaining_cubic_3",
+        "NS",
+        "PS",
+        "remaining_cubic_1*t",
+        "remaining_cubic_3*t"
+      ],
+      "exactQQCofactorTotalDegree": 54,
+      "exactQQCofactorUDeg": 26,
+      "exactQQCofactorHDeg": 38,
+      "originalPaidFactors": [
+        [
+          "u",
+          10
+        ],
+        [
+          "Q",
+          9
+        ],
+        [
+          "M",
+          7
+        ],
+        [
+          "P02",
+          2
+        ],
+        [
+          "paid_T0_ell_minus_2u",
+          8
+        ],
+        [
+          "paid_Kz_zero_complete",
+          6
+        ],
+        [
+          "complete_Q_ell_half",
+          2
+        ],
+        [
+          "selected_quadratic_G2_chart",
+          9
+        ]
+      ],
+      "uPowerDivided": 28,
+      "QQCofactorSHA256": "c1a6a64818969c53113194c65b9569e4bed4ef68f1303e1ea497bccd8faa9de2",
+      "fixedQQInputSHA256": "b1d7c00866832e1d4a05ea8a18d69e6858d1e001c94ac6083a72e6f7359a6761",
+      "actualOriginalCofactorAndAllSixColumnsMultipliedBack": true,
+      "exactHSubstitutionAndUDivisionMultipliedBack": true,
+      "actualOneVariableBezoutMultipliedBack": true,
+      "previousModGCDDegree": 648,
+      "newModGCDDegree": 646,
+      "newModGCDSHA256": "1b75a512973c9b9f02d8048a1a17bec7ca8aca593d256373c78ca70379d07ea0",
+      "bezoutPairSHA256": "496c5197b79cc7e4c8641bef5cabbf7c6e3a6a61ec05335731d21a69872770d7",
+      "conditionalOnIndependentExactQQCRTCertificate": true,
+      "wholeQBoundaryExcluded": false,
+      "seconds": 13.691567509999999
+    },
+    {
+      "stage": "new_Qboundary_original_same_point_Gauss_return",
+      "label": "NS*x_with_original_row_4",
+      "fixedQQUdegrees": [
+        29,
+        32
+      ],
+      "fixedSylvesterOrder": 61,
+      "bothQQUDegreesPreservedModuloPrime": true,
+      "allQQCoefficientDenominatorsPrimeUnits": true,
+      "moduloPrime": 1009,
+      "modResultantDegree": 2488,
+      "modResultantSHA256": "62467521a7bdca9be658e1ec76a7eebeffcf650b3475f7640de78b335c28be1e",
+      "rows": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        10
+      ],
+      "labels": [
+        "remaining_cubic_1",
+        "remaining_cubic_3",
+        "NS",
+        "PS",
+        "remaining_cubic_1*x",
+        "NS*x"
+      ],
+      "exactQQCofactorTotalDegree": 68,
+      "exactQQCofactorUDeg": 32,
+      "exactQQCofactorHDeg": 46,
+      "originalPaidFactors": [
+        [
+          "u",
+          10
+        ],
+        [
+          "Q",
+          8
+        ],
+        [
+          "M",
+          6
+        ],
+        [
+          "P02",
+          2
+        ],
+        [
+          "paid_T0_ell_minus_2u",
+          6
+        ],
+        [
+          "paid_Kz_zero_complete",
+          6
+        ],
+        [
+          "complete_Q_ell_half",
+          2
+        ],
+        [
+          "selected_quadratic_G2_chart",
+          9
+        ]
+      ],
+      "uPowerDivided": 36,
+      "QQCofactorSHA256": "d8457f689c3fd1b654be2113aedef500b0070538f305cd8ad5a8a15757dd5941",
+      "fixedQQInputSHA256": "649c92e4d9d88db65a436f92695f4240fda5d0b4caa560c8914bf1999fb0cbce",
+      "actualOriginalCofactorAndAllSixColumnsMultipliedBack": true,
+      "exactHSubstitutionAndUDivisionMultipliedBack": true,
+      "actualOneVariableBezoutMultipliedBack": true,
+      "previousModGCDDegree": 646,
+      "newModGCDDegree": 224,
+      "newModGCDSHA256": "99b8a2815f85d86fbd2f8f57815cc02f74a72718bf009d4be25094f050b9ab74",
+      "bezoutPairSHA256": "ed05d61ef3999dc08a12e65d3a46ffdd73613f9a203267787a3383ce30936b69",
+      "conditionalOnIndependentExactQQCRTCertificate": true,
+      "wholeQBoundaryExcluded": false,
+      "seconds": 16.686844907
+    },
+    {
+      "stage": "new_Qboundary_original_same_point_Gauss_return",
+      "label": "NS*x_with_original_row_7",
+      "fixedQQUdegrees": [
+        29,
+        32
+      ],
+      "fixedSylvesterOrder": 61,
+      "bothQQUDegreesPreservedModuloPrime": true,
+      "allQQCoefficientDenominatorsPrimeUnits": true,
+      "moduloPrime": 1009,
+      "modResultantDegree": 2479,
+      "modResultantSHA256": "e73d07470ba95db35f3f22353f9711499c1ff9b7940b2150e6104424d6709baf",
+      "rows": [
+        0,
+        1,
+        2,
+        3,
+        7,
+        10
+      ],
+      "labels": [
+        "remaining_cubic_1",
+        "remaining_cubic_3",
+        "NS",
+        "PS",
+        "remaining_cubic_3*x",
+        "NS*x"
+      ],
+      "exactQQCofactorTotalDegree": 67,
+      "exactQQCofactorUDeg": 32,
+      "exactQQCofactorHDeg": 46,
+      "originalPaidFactors": [
+        [
+          "u",
+          9
+        ],
+        [
+          "Q",
+          8
+        ],
+        [
+          "M",
+          6
+        ],
+        [
+          "P02",
+          2
+        ],
+        [
+          "paid_T0_ell_minus_2u",
+          6
+        ],
+        [
+          "paid_Kz_zero_complete",
+          6
+        ],
+        [
+          "complete_Q_ell_half",
+          2
+        ],
+        [
+          "selected_quadratic_G2_chart",
+          9
+        ]
+      ],
+      "uPowerDivided": 35,
+      "QQCofactorSHA256": "1ddf36b390cac84ac877b3844c3958ec5091ebb187a323f79326a9ea0e947ec5",
+      "fixedQQInputSHA256": "b1e93aa1e1424f9784ac1e3e71c291e86f37b1b0964287e981a1ed6b42174d1e",
+      "actualOriginalCofactorAndAllSixColumnsMultipliedBack": true,
+      "exactHSubstitutionAndUDivisionMultipliedBack": true,
+      "actualOneVariableBezoutMultipliedBack": true,
+      "previousModGCDDegree": 224,
+      "newModGCDDegree": 224,
+      "newModGCDSHA256": "99b8a2815f85d86fbd2f8f57815cc02f74a72718bf009d4be25094f050b9ab74",
+      "bezoutPairSHA256": "c992a9ba7861b96e418a7db8aaafefd1504fc782b50169879f066cb14622a2c5",
+      "conditionalOnIndependentExactQQCRTCertificate": true,
+      "wholeQBoundaryExcluded": false,
+      "seconds": 19.71983033
+    },
+    {
+      "stage": "new_Qboundary_original_same_point_Gauss_return",
+      "label": "NS*x_with_original_row_6",
+      "fixedQQUdegrees": [
+        29,
+        33
+      ],
+      "fixedSylvesterOrder": 62,
+      "bothQQUDegreesPreservedModuloPrime": true,
+      "allQQCoefficientDenominatorsPrimeUnits": true,
+      "moduloPrime": 1009,
+      "modResultantDegree": 2570,
+      "modResultantSHA256": "af2de13a859959e51f1847169612c823775b6c99bb4db92ee9ba6215ff53ce42",
+      "rows": [
+        0,
+        1,
+        2,
+        3,
+        6,
+        10
+      ],
+      "labels": [
+        "remaining_cubic_1",
+        "remaining_cubic_3",
+        "NS",
+        "PS",
+        "remaining_cubic_1*t",
+        "NS*x"
+      ],
+      "exactQQCofactorTotalDegree": 71,
+      "exactQQCofactorUDeg": 33,
+      "exactQQCofactorHDeg": 48,
+      "originalPaidFactors": [
+        [
+          "u",
+          10
+        ],
+        [
+          "Q",
+          8
+        ],
+        [
+          "M",
+          6
+        ],
+        [
+          "P02",
+          2
+        ],
+        [
+          "paid_T0_ell_minus_2u",
+          6
+        ],
+        [
+          "paid_Kz_zero_complete",
+          5
+        ],
+        [
+          "complete_Q_ell_half",
+          2
+        ],
+        [
+          "selected_quadratic_G2_chart",
+          9
+        ]
+      ],
+      "uPowerDivided": 38,
+      "QQCofactorSHA256": "7c1e27b818dec20f442113f199ea0536d4918bac3db1392177b4964200c850c9",
+      "fixedQQInputSHA256": "94f1ac84961e3cb04ba4a5f38326a5719be20d90b9956160bb04689b5c61d6a4",
+      "actualOriginalCofactorAndAllSixColumnsMultipliedBack": true,
+      "exactHSubstitutionAndUDivisionMultipliedBack": true,
+      "actualOneVariableBezoutMultipliedBack": true,
+      "previousModGCDDegree": 224,
+      "newModGCDDegree": 224,
+      "newModGCDSHA256": "99b8a2815f85d86fbd2f8f57815cc02f74a72718bf009d4be25094f050b9ab74",
+      "bezoutPairSHA256": "c992a9ba7861b96e418a7db8aaafefd1504fc782b50169879f066cb14622a2c5",
+      "conditionalOnIndependentExactQQCRTCertificate": true,
+      "wholeQBoundaryExcluded": false,
+      "seconds": 22.777169037999997
+    },
+    {
+      "stage": "new_Qboundary_original_same_point_Gauss_return",
+      "label": "NS*x_with_original_row_9",
+      "fixedQQUdegrees": [
+        29,
+        33
+      ],
+      "fixedSylvesterOrder": 62,
+      "bothQQUDegreesPreservedModuloPrime": true,
+      "allQQCoefficientDenominatorsPrimeUnits": true,
+      "moduloPrime": 1009,
+      "modResultantDegree": 2553,
+      "modResultantSHA256": "1d031712c094fe8854346a21410b8101e2f672f6dfd374e4a503e3f1bbaae080",
+      "rows": [
+        0,
+        1,
+        2,
+        3,
+        9,
+        10
+      ],
+      "labels": [
+        "remaining_cubic_1",
+        "remaining_cubic_3",
+        "NS",
+        "PS",
+        "remaining_cubic_3*t",
+        "NS*x"
+      ],
+      "exactQQCofactorTotalDegree": 69,
+      "exactQQCofactorUDeg": 33,
+      "exactQQCofactorHDeg": 47,
+      "originalPaidFactors": [
+        [
+          "u",
+          10
+        ],
+        [
+          "Q",
+          8
+        ],
+        [
+          "M",
+          6
+        ],
+        [
+          "P02",
+          2
+        ],
+        [
+          "paid_T0_ell_minus_2u",
+          6
+        ],
+        [
+          "paid_Kz_zero_complete",
+          5
+        ],
+        [
+          "complete_Q_ell_half",
+          2
+        ],
+        [
+          "selected_quadratic_G2_chart",
+          9
+        ]
+      ],
+      "uPowerDivided": 36,
+      "QQCofactorSHA256": "08c843c2ecb030faf4def9f006cd44ca912670a7bfc3dbddf2033419f11a419d",
+      "fixedQQInputSHA256": "9d0cf19544d7d24bfa124a920f21813e35c609d277d34db2c43e7165e105f270",
+      "actualOriginalCofactorAndAllSixColumnsMultipliedBack": true,
+      "exactHSubstitutionAndUDivisionMultipliedBack": true,
+      "actualOneVariableBezoutMultipliedBack": true,
+      "previousModGCDDegree": 224,
+      "newModGCDDegree": 224,
+      "newModGCDSHA256": "99b8a2815f85d86fbd2f8f57815cc02f74a72718bf009d4be25094f050b9ab74",
+      "bezoutPairSHA256": "c992a9ba7861b96e418a7db8aaafefd1504fc782b50169879f066cb14622a2c5",
+      "conditionalOnIndependentExactQQCRTCertificate": true,
+      "wholeQBoundaryExcluded": false,
+      "seconds": 25.712360773
+    },
+    {
+      "stage": "new_Qboundary_original_same_point_Gauss_return",
+      "label": "NS*y_with_original_row_4",
+      "fixedQQUdegrees": [
+        29,
+        33
+      ],
+      "fixedSylvesterOrder": 62,
+      "bothQQUDegreesPreservedModuloPrime": true,
+      "allQQCoefficientDenominatorsPrimeUnits": true,
+      "moduloPrime": 1009,
+      "modResultantDegree": 2570,
+      "modResultantSHA256": "635b0bc958c7d5d7517f73251d8b99dd74efa0a6fb7699ba066958eb0a817604",
+      "rows": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        11
+      ],
+      "labels": [
+        "remaining_cubic_1",
+        "remaining_cubic_3",
+        "NS",
+        "PS",
+        "remaining_cubic_1*x",
+        "NS*y"
+      ],
+      "exactQQCofactorTotalDegree": 70,
+      "exactQQCofactorUDeg": 33,
+      "exactQQCofactorHDeg": 48,
+      "originalPaidFactors": [
+        [
+          "u",
+          11
+        ],
+        [
+          "Q",
+          8
+        ],
+        [
+          "M",
+          6
+        ],
+        [
+          "P02",
+          2
+        ],
+        [
+          "paid_T0_ell_minus_2u",
+          6
+        ],
+        [
+          "paid_Kz_zero_complete",
+          5
+        ],
+        [
+          "complete_Q_ell_half",
+          2
+        ],
+        [
+          "selected_quadratic_G2_chart",
+          8
+        ]
+      ],
+      "uPowerDivided": 37,
+      "QQCofactorSHA256": "3f21e117f1101baace47c22fe51bdb70cf1b2149b64b08f08bf42a822e12f954",
+      "fixedQQInputSHA256": "c5b119f9c0a125cc3dac0c4def37aa26729dd5e3152602959075b49eb6facf06",
+      "actualOriginalCofactorAndAllSixColumnsMultipliedBack": true,
+      "exactHSubstitutionAndUDivisionMultipliedBack": true,
+      "actualOneVariableBezoutMultipliedBack": true,
+      "previousModGCDDegree": 224,
+      "newModGCDDegree": 224,
+      "newModGCDSHA256": "99b8a2815f85d86fbd2f8f57815cc02f74a72718bf009d4be25094f050b9ab74",
+      "bezoutPairSHA256": "c992a9ba7861b96e418a7db8aaafefd1504fc782b50169879f066cb14622a2c5",
+      "conditionalOnIndependentExactQQCRTCertificate": true,
+      "wholeQBoundaryExcluded": false,
+      "seconds": 28.587269866
+    },
+    {
+      "stage": "new_Qboundary_original_same_point_Gauss_return",
+      "label": "NS*y_with_original_row_7",
+      "fixedQQUdegrees": [
+        29,
+        33
+      ],
+      "fixedSylvesterOrder": 62,
+      "bothQQUDegreesPreservedModuloPrime": true,
+      "allQQCoefficientDenominatorsPrimeUnits": true,
+      "moduloPrime": 1009,
+      "modResultantDegree": 2570,
+      "modResultantSHA256": "747caf9f1ce4a391f5f3d609783dc735fdacc4998ca4336cf6ed15c0dec3ebf7",
+      "rows": [
+        0,
+        1,
+        2,
+        3,
+        7,
+        11
+      ],
+      "labels": [
+        "remaining_cubic_1",
+        "remaining_cubic_3",
+        "NS",
+        "PS",
+        "remaining_cubic_3*x",
+        "NS*y"
+      ],
+      "exactQQCofactorTotalDegree": 70,
+      "exactQQCofactorUDeg": 33,
+      "exactQQCofactorHDeg": 48,
+      "originalPaidFactors": [
+        [
+          "u",
+          9
+        ],
+        [
+          "Q",
+          8
+        ],
+        [
+          "M",
+          6
+        ],
+        [
+          "P02",
+          2
+        ],
+        [
+          "paid_T0_ell_minus_2u",
+          6
+        ],
+        [
+          "paid_Kz_zero_complete",
+          5
+        ],
+        [
+          "complete_Q_ell_half",
+          2
+        ],
+        [
+          "selected_quadratic_G2_chart",
+          8
+        ]
+      ],
+      "uPowerDivided": 37,
+      "QQCofactorSHA256": "cc079aded3ffd8afb80bfdc5055c2f41285911c01fa254c6590bc4707cd33d9d",
+      "fixedQQInputSHA256": "3e37ee12cdd2fd39bdfc38f98d42a922f1911395aca842dc62168b37ab3fdc07",
+      "actualOriginalCofactorAndAllSixColumnsMultipliedBack": true,
+      "exactHSubstitutionAndUDivisionMultipliedBack": true,
+      "actualOneVariableBezoutMultipliedBack": true,
+      "previousModGCDDegree": 224,
+      "newModGCDDegree": 224,
+      "newModGCDSHA256": "99b8a2815f85d86fbd2f8f57815cc02f74a72718bf009d4be25094f050b9ab74",
+      "bezoutPairSHA256": "c992a9ba7861b96e418a7db8aaafefd1504fc782b50169879f066cb14622a2c5",
+      "conditionalOnIndependentExactQQCRTCertificate": true,
+      "wholeQBoundaryExcluded": false,
+      "seconds": 31.5172197
+    },
+    {
+      "stage": "new_Qboundary_original_same_point_Gauss_return",
+      "label": "NS*y_with_original_row_6",
+      "fixedQQUdegrees": [
+        29,
+        32
+      ],
+      "fixedSylvesterOrder": 61,
+      "bothQQUDegreesPreservedModuloPrime": true,
+      "allQQCoefficientDenominatorsPrimeUnits": true,
+      "moduloPrime": 1009,
+      "modResultantDegree": 2518,
+      "modResultantSHA256": "722fff1d36adfec2c50dba2a395d92611eb9b0c620b0a78b0a64d2e690bcad9e",
+      "rows": [
+        0,
+        1,
+        2,
+        3,
+        6,
+        11
+      ],
+      "labels": [
+        "remaining_cubic_1",
+        "remaining_cubic_3",
+        "NS",
+        "PS",
+        "remaining_cubic_1*t",
+        "NS*y"
+      ],
+      "exactQQCofactorTotalDegree": 70,
+      "exactQQCofactorUDeg": 32,
+      "exactQQCofactorHDeg": 48,
+      "originalPaidFactors": [
+        [
+          "u",
+          10
+        ],
+        [
+          "Q",
+          8
+        ],
+        [
+          "M",
+          6
+        ],
+        [
+          "P02",
+          2
+        ],
+        [
+          "paid_T0_ell_minus_2u",
+          6
+        ],
+        [
+          "paid_Kz_zero_complete",
+          5
+        ],
+        [
+          "complete_Q_ell_half",
+          2
+        ],
+        [
+          "selected_quadratic_G2_chart",
+          8
+        ]
+      ],
+      "uPowerDivided": 38,
+      "QQCofactorSHA256": "eb0b7e8aa69cf82c6a5b78b4d48514d7e2d8aff959433a66444b21894068464e",
+      "fixedQQInputSHA256": "e6b1a97264e73286a7a630bb5b5371584a342ef752d1d1acf9aa26c669c6bdcc",
+      "actualOriginalCofactorAndAllSixColumnsMultipliedBack": true,
+      "exactHSubstitutionAndUDivisionMultipliedBack": true,
+      "actualOneVariableBezoutMultipliedBack": true,
+      "previousModGCDDegree": 224,
+      "newModGCDDegree": 224,
+      "newModGCDSHA256": "99b8a2815f85d86fbd2f8f57815cc02f74a72718bf009d4be25094f050b9ab74",
+      "bezoutPairSHA256": "c992a9ba7861b96e418a7db8aaafefd1504fc782b50169879f066cb14622a2c5",
+      "conditionalOnIndependentExactQQCRTCertificate": true,
+      "wholeQBoundaryExcluded": false,
+      "seconds": 34.375705824
+    },
+    {
+      "stage": "new_Qboundary_original_same_point_Gauss_return",
+      "label": "NS*y_with_original_row_9",
+      "fixedQQUdegrees": [
+        29,
+        32
+      ],
+      "fixedSylvesterOrder": 61,
+      "bothQQUDegreesPreservedModuloPrime": true,
+      "allQQCoefficientDenominatorsPrimeUnits": true,
+      "moduloPrime": 1009,
+      "modResultantDegree": 2501,
+      "modResultantSHA256": "08446688412e3b64d56a8fce528acb6d2218e4c70d4356a461ab165e54f1aceb",
+      "rows": [
+        0,
+        1,
+        2,
+        3,
+        9,
+        11
+      ],
+      "labels": [
+        "remaining_cubic_1",
+        "remaining_cubic_3",
+        "NS",
+        "PS",
+        "remaining_cubic_3*t",
+        "NS*y"
+      ],
+      "exactQQCofactorTotalDegree": 68,
+      "exactQQCofactorUDeg": 32,
+      "exactQQCofactorHDeg": 47,
+      "originalPaidFactors": [
+        [
+          "u",
+          10
+        ],
+        [
+          "Q",
+          8
+        ],
+        [
+          "M",
+          6
+        ],
+        [
+          "P02",
+          2
+        ],
+        [
+          "paid_T0_ell_minus_2u",
+          6
+        ],
+        [
+          "paid_Kz_zero_complete",
+          5
+        ],
+        [
+          "complete_Q_ell_half",
+          2
+        ],
+        [
+          "selected_quadratic_G2_chart",
+          8
+        ]
+      ],
+      "uPowerDivided": 36,
+      "QQCofactorSHA256": "9b134c7e3cd58f198b58f6c8ba2b16fd061a7068dd546770af9b231ad7625be6",
+      "fixedQQInputSHA256": "33fc84a8d99cb49f2cd1a2ac5bbd1eae5b10ca464fa7acef04f255bf807fd934",
+      "actualOriginalCofactorAndAllSixColumnsMultipliedBack": true,
+      "exactHSubstitutionAndUDivisionMultipliedBack": true,
+      "actualOneVariableBezoutMultipliedBack": true,
+      "previousModGCDDegree": 224,
+      "newModGCDDegree": 224,
+      "newModGCDSHA256": "99b8a2815f85d86fbd2f8f57815cc02f74a72718bf009d4be25094f050b9ab74",
+      "bezoutPairSHA256": "c992a9ba7861b96e418a7db8aaafefd1504fc782b50169879f066cb14622a2c5",
+      "conditionalOnIndependentExactQQCRTCertificate": true,
+      "wholeQBoundaryExcluded": false,
+      "seconds": 37.189061985
+    },
+    {
+      "stage": "new_Qboundary_original_same_point_Gauss_return",
+      "label": "NS*t_with_original_row_4",
+      "fixedQQUdegrees": [
+        29,
+        33
+      ],
+      "fixedSylvesterOrder": 62,
+      "bothQQUDegreesPreservedModuloPrime": true,
+      "allQQCoefficientDenominatorsPrimeUnits": true,
+      "moduloPrime": 1009,
+      "modResultantDegree": 2569,
+      "modResultantSHA256": "66f170ed938c5b4e0e417bd126431d5d29c9b1b088ef188f5dcfc48ea743863a",
+      "rows": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        12
+      ],
+      "labels": [
+        "remaining_cubic_1",
+        "remaining_cubic_3",
+        "NS",
+        "PS",
+        "remaining_cubic_1*x",
+        "NS*t"
+      ],
+      "exactQQCofactorTotalDegree": 71,
+      "exactQQCofactorUDeg": 33,
+      "exactQQCofactorHDeg": 48,
+      "originalPaidFactors": [
+        [
+          "u",
+          10
+        ],
+        [
+          "Q",
+          8
+        ],
+        [
+          "M",
+          6
+        ],
+        [
+          "P02",
+          2
+        ],
+        [
+          "paid_T0_ell_minus_2u",
+          6
+        ],
+        [
+          "paid_Kz_zero_complete",
+          5
+        ],
+        [
+          "complete_Q_ell_half",
+          2
+        ],
+        [
+          "selected_quadratic_G2_chart",
+          9
+        ]
+      ],
+      "uPowerDivided": 38,
+      "QQCofactorSHA256": "b04c5422df62502af86041112897ca36248333915030e229e77a7428e7a87e49",
+      "fixedQQInputSHA256": "28943a0e1764bf9a1bcc5a7b730c948504d444cc626f063b9b6edaecb4315de9",
+      "actualOriginalCofactorAndAllSixColumnsMultipliedBack": true,
+      "exactHSubstitutionAndUDivisionMultipliedBack": true,
+      "actualOneVariableBezoutMultipliedBack": true,
+      "previousModGCDDegree": 224,
+      "newModGCDDegree": 224,
+      "newModGCDSHA256": "99b8a2815f85d86fbd2f8f57815cc02f74a72718bf009d4be25094f050b9ab74",
+      "bezoutPairSHA256": "c992a9ba7861b96e418a7db8aaafefd1504fc782b50169879f066cb14622a2c5",
+      "conditionalOnIndependentExactQQCRTCertificate": true,
+      "wholeQBoundaryExcluded": false,
+      "seconds": 40.187126072
+    },
+    {
+      "stage": "new_Qboundary_original_same_point_Gauss_return",
+      "label": "NS*t_with_original_row_7",
+      "fixedQQUdegrees": [
+        29,
+        33
+      ],
+      "fixedSylvesterOrder": 62,
+      "bothQQUDegreesPreservedModuloPrime": true,
+      "allQQCoefficientDenominatorsPrimeUnits": true,
+      "moduloPrime": 1009,
+      "modResultantDegree": 2570,
+      "modResultantSHA256": "88b438a52bf0fd9f11ba5c2af93ada7d338426ed16de5feec05c64d9b8f77fa5",
+      "rows": [
+        0,
+        1,
+        2,
+        3,
+        7,
+        12
+      ],
+      "labels": [
+        "remaining_cubic_1",
+        "remaining_cubic_3",
+        "NS",
+        "PS",
+        "remaining_cubic_3*x",
+        "NS*t"
+      ],
+      "exactQQCofactorTotalDegree": 70,
+      "exactQQCofactorUDeg": 33,
+      "exactQQCofactorHDeg": 48,
+      "originalPaidFactors": [
+        [
+          "u",
+          9
+        ],
+        [
+          "Q",
+          8
+        ],
+        [
+          "M",
+          6
+        ],
+        [
+          "P02",
+          2
+        ],
+        [
+          "paid_T0_ell_minus_2u",
+          6
+        ],
+        [
+          "paid_Kz_zero_complete",
+          5
+        ],
+        [
+          "complete_Q_ell_half",
+          2
+        ],
+        [
+          "selected_quadratic_G2_chart",
+          9
+        ]
+      ],
+      "uPowerDivided": 37,
+      "QQCofactorSHA256": "d84ae8f7bfa091edcef906d155bca6c3495d81dd3dfd8b7cbfc8bbe027fe6a5c",
+      "fixedQQInputSHA256": "9844f4d9577a8b18d14d9ea074c9dd54e4dc66c8ded492ebcdb9d08fef1ebcf9",
+      "actualOriginalCofactorAndAllSixColumnsMultipliedBack": true,
+      "exactHSubstitutionAndUDivisionMultipliedBack": true,
+      "actualOneVariableBezoutMultipliedBack": true,
+      "previousModGCDDegree": 224,
+      "newModGCDDegree": 224,
+      "newModGCDSHA256": "99b8a2815f85d86fbd2f8f57815cc02f74a72718bf009d4be25094f050b9ab74",
+      "bezoutPairSHA256": "c992a9ba7861b96e418a7db8aaafefd1504fc782b50169879f066cb14622a2c5",
+      "conditionalOnIndependentExactQQCRTCertificate": true,
+      "wholeQBoundaryExcluded": false,
+      "seconds": 43.163830253
+    },
+    {
+      "stage": "new_Qboundary_original_same_point_Gauss_return",
+      "label": "NS*t_with_original_row_6",
+      "fixedQQUdegrees": [
+        29,
+        31
+      ],
+      "fixedSylvesterOrder": 60,
+      "bothQQUDegreesPreservedModuloPrime": true,
+      "allQQCoefficientDenominatorsPrimeUnits": true,
+      "moduloPrime": 1009,
+      "modResultantDegree": 2397,
+      "modResultantSHA256": "84d7d895d3f95c679a8e28ecf7d79e93c5bdfec007a2b3642157447df51de5dc",
+      "rows": [
+        0,
+        1,
+        2,
+        3,
+        6,
+        12
+      ],
+      "labels": [
+        "remaining_cubic_1",
+        "remaining_cubic_3",
+        "NS",
+        "PS",
+        "remaining_cubic_1*t",
+        "NS*t"
+      ],
+      "exactQQCofactorTotalDegree": 65,
+      "exactQQCofactorUDeg": 31,
+      "exactQQCofactorHDeg": 45,
+      "originalPaidFactors": [
+        [
+          "u",
+          11
+        ],
+        [
+          "Q",
+          8
+        ],
+        [
+          "M",
+          6
+        ],
+        [
+          "P02",
+          2
+        ],
+        [
+          "paid_T0_ell_minus_2u",
+          7
+        ],
+        [
+          "paid_Kz_zero_complete",
+          6
+        ],
+        [
+          "complete_Q_ell_half",
+          2
+        ],
+        [
+          "selected_quadratic_G2_chart",
+          9
+        ]
+      ],
+      "uPowerDivided": 34,
+      "QQCofactorSHA256": "18df16c09ce4a624abf6a94e66b6b7bfe43a557380541899bb36b2610a1a396b",
+      "fixedQQInputSHA256": "7d8a4b31a7e24d790dfe63d68882973db81abc68480a69cb0054d13ceac95368",
+      "actualOriginalCofactorAndAllSixColumnsMultipliedBack": true,
+      "exactHSubstitutionAndUDivisionMultipliedBack": true,
+      "actualOneVariableBezoutMultipliedBack": true,
+      "previousModGCDDegree": 224,
+      "newModGCDDegree": 224,
+      "newModGCDSHA256": "99b8a2815f85d86fbd2f8f57815cc02f74a72718bf009d4be25094f050b9ab74",
+      "bezoutPairSHA256": "c992a9ba7861b96e418a7db8aaafefd1504fc782b50169879f066cb14622a2c5",
+      "conditionalOnIndependentExactQQCRTCertificate": true,
+      "wholeQBoundaryExcluded": false,
+      "seconds": 46.128409059000006
+    },
+    {
+      "stage": "new_Qboundary_original_same_point_Gauss_return",
+      "label": "NS*t_with_original_row_9",
+      "fixedQQUdegrees": [
+        29,
+        31
+      ],
+      "fixedSylvesterOrder": 60,
+      "bothQQUDegreesPreservedModuloPrime": true,
+      "allQQCoefficientDenominatorsPrimeUnits": true,
+      "moduloPrime": 1009,
+      "modResultantDegree": 2369,
+      "modResultantSHA256": "b5053a0cff2a0fae1ceac986acdc51dfcce38cbeec8a7278ff1c55e5896ff4aa",
+      "rows": [
+        0,
+        1,
+        2,
+        3,
+        9,
+        12
+      ],
+      "labels": [
+        "remaining_cubic_1",
+        "remaining_cubic_3",
+        "NS",
+        "PS",
+        "remaining_cubic_3*t",
+        "NS*t"
+      ],
+      "exactQQCofactorTotalDegree": 64,
+      "exactQQCofactorUDeg": 31,
+      "exactQQCofactorHDeg": 44,
+      "originalPaidFactors": [
+        [
+          "u",
+          10
+        ],
+        [
+          "Q",
+          8
+        ],
+        [
+          "M",
+          6
+        ],
+        [
+          "P02",
+          2
+        ],
+        [
+          "paid_T0_ell_minus_2u",
+          7
+        ],
+        [
+          "paid_Kz_zero_complete",
+          6
+        ],
+        [
+          "complete_Q_ell_half",
+          2
+        ],
+        [
+          "selected_quadratic_G2_chart",
+          9
+        ]
+      ],
+      "uPowerDivided": 33,
+      "QQCofactorSHA256": "837b27c9d34bbc613c371afef29a05f7cb40e0fdcae13d1e602df7f60cae5140",
+      "fixedQQInputSHA256": "a68bce8b0845f8b24070f1f9b9f3f07f0e68a9e58f13a438f302c424f6e68469",
+      "actualOriginalCofactorAndAllSixColumnsMultipliedBack": true,
+      "exactHSubstitutionAndUDivisionMultipliedBack": true,
+      "actualOneVariableBezoutMultipliedBack": true,
+      "previousModGCDDegree": 224,
+      "newModGCDDegree": 224,
+      "newModGCDSHA256": "99b8a2815f85d86fbd2f8f57815cc02f74a72718bf009d4be25094f050b9ab74",
+      "bezoutPairSHA256": "c992a9ba7861b96e418a7db8aaafefd1504fc782b50169879f066cb14622a2c5",
+      "conditionalOnIndependentExactQQCRTCertificate": true,
+      "wholeQBoundaryExcluded": false,
+      "seconds": 49.126329822
+    },
+    {
+      "stage": "new_Qboundary_original_same_point_Gauss_return",
+      "label": "PS*x_with_original_row_4",
+      "fixedQQUdegrees": [
+        29,
+        32
+      ],
+      "fixedSylvesterOrder": 61,
+      "bothQQUDegreesPreservedModuloPrime": true,
+      "allQQCoefficientDenominatorsPrimeUnits": true,
+      "moduloPrime": 1009,
+      "modResultantDegree": 2488,
+      "modResultantSHA256": "5274fc03626f2bfdfb492327859f2241f011f6aab6b2a52afba35da2242afa7c",
+      "rows": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        13
+      ],
+      "labels": [
+        "remaining_cubic_1",
+        "remaining_cubic_3",
+        "NS",
+        "PS",
+        "remaining_cubic_1*x",
+        "PS*x"
+      ],
+      "exactQQCofactorTotalDegree": 68,
+      "exactQQCofactorUDeg": 32,
+      "exactQQCofactorHDeg": 46,
+      "originalPaidFactors": [
+        [
+          "u",
+          10
+        ],
+        [
+          "Q",
+          8
+        ],
+        [
+          "M",
+          6
+        ],
+        [
+          "P02",
+          2
+        ],
+        [
+          "paid_T0_ell_minus_2u",
+          6
+        ],
+        [
+          "paid_Kz_zero_complete",
+          6
+        ],
+        [
+          "complete_Q_ell_half",
+          2
+        ],
+        [
+          "selected_quadratic_G2_chart",
+          9
+        ]
+      ],
+      "uPowerDivided": 36,
+      "QQCofactorSHA256": "e68fa1c08e680a3be38f9be358bcdd1e083f98306829e2bc0789427b6a212510",
+      "fixedQQInputSHA256": "121551b276e4c8a683ec29c2372756a561ab4a35c3cb60bd0fbd10ccc7270f56",
+      "actualOriginalCofactorAndAllSixColumnsMultipliedBack": true,
+      "exactHSubstitutionAndUDivisionMultipliedBack": true,
+      "actualOneVariableBezoutMultipliedBack": true,
+      "previousModGCDDegree": 224,
+      "newModGCDDegree": 222,
+      "newModGCDSHA256": "6765bcda43089672a28b6a25fd3e88de52235088e237f00d6eb6ddb5a9022cd4",
+      "bezoutPairSHA256": "3cd72b7a85490c919a7e8aed81ada887c209d657ef35369ebb820225050f9561",
+      "conditionalOnIndependentExactQQCRTCertificate": true,
+      "wholeQBoundaryExcluded": false,
+      "seconds": 52.260408129
+    },
+    {
+      "stage": "new_Qboundary_original_same_point_Gauss_return",
+      "label": "PS*x_with_original_row_7",
+      "fixedQQUdegrees": [
+        29,
+        32
+      ],
+      "fixedSylvesterOrder": 61,
+      "bothQQUDegreesPreservedModuloPrime": true,
+      "allQQCoefficientDenominatorsPrimeUnits": true,
+      "moduloPrime": 1009,
+      "modResultantDegree": 2479,
+      "modResultantSHA256": "c667392e24b0abe0014d3ffa2590b3fd77b7cd0fea2be1723e89a7201a6f2074",
+      "rows": [
+        0,
+        1,
+        2,
+        3,
+        7,
+        13
+      ],
+      "labels": [
+        "remaining_cubic_1",
+        "remaining_cubic_3",
+        "NS",
+        "PS",
+        "remaining_cubic_3*x",
+        "PS*x"
+      ],
+      "exactQQCofactorTotalDegree": 67,
+      "exactQQCofactorUDeg": 32,
+      "exactQQCofactorHDeg": 46,
+      "originalPaidFactors": [
+        [
+          "u",
+          9
+        ],
+        [
+          "Q",
+          8
+        ],
+        [
+          "M",
+          6
+        ],
+        [
+          "P02",
+          2
+        ],
+        [
+          "paid_T0_ell_minus_2u",
+          6
+        ],
+        [
+          "paid_Kz_zero_complete",
+          6
+        ],
+        [
+          "complete_Q_ell_half",
+          2
+        ],
+        [
+          "selected_quadratic_G2_chart",
+          9
+        ]
+      ],
+      "uPowerDivided": 35,
+      "QQCofactorSHA256": "92446c078fde13f88cf6fe1b3b8eabe1e5b2da765e3ac471b40571b9618f1766",
+      "fixedQQInputSHA256": "84337effd2abe3e81616868efb1dcee1ea6e5ff2e1d6554c2d2c33d606e72a36",
+      "actualOriginalCofactorAndAllSixColumnsMultipliedBack": true,
+      "exactHSubstitutionAndUDivisionMultipliedBack": true,
+      "actualOneVariableBezoutMultipliedBack": true,
+      "previousModGCDDegree": 222,
+      "newModGCDDegree": 222,
+      "newModGCDSHA256": "6765bcda43089672a28b6a25fd3e88de52235088e237f00d6eb6ddb5a9022cd4",
+      "bezoutPairSHA256": "c992a9ba7861b96e418a7db8aaafefd1504fc782b50169879f066cb14622a2c5",
+      "conditionalOnIndependentExactQQCRTCertificate": true,
+      "wholeQBoundaryExcluded": false,
+      "seconds": 55.30327511
+    },
+    {
+      "stage": "new_Qboundary_original_same_point_Gauss_return",
+      "label": "PS*x_with_original_row_6",
+      "fixedQQUdegrees": [
+        29,
+        33
+      ],
+      "fixedSylvesterOrder": 62,
+      "bothQQUDegreesPreservedModuloPrime": true,
+      "allQQCoefficientDenominatorsPrimeUnits": true,
+      "moduloPrime": 1009,
+      "modResultantDegree": 2570,
+      "modResultantSHA256": "bed5d63a633a0b1faede026dfbba16ca49eb82ef7dd99e4d5ff85c5b47333d5e",
+      "rows": [
+        0,
+        1,
+        2,
+        3,
+        6,
+        13
+      ],
+      "labels": [
+        "remaining_cubic_1",
+        "remaining_cubic_3",
+        "NS",
+        "PS",
+        "remaining_cubic_1*t",
+        "PS*x"
+      ],
+      "exactQQCofactorTotalDegree": 71,
+      "exactQQCofactorUDeg": 33,
+      "exactQQCofactorHDeg": 48,
+      "originalPaidFactors": [
+        [
+          "u",
+          10
+        ],
+        [
+          "Q",
+          8
+        ],
+        [
+          "M",
+          6
+        ],
+        [
+          "P02",
+          2
+        ],
+        [
+          "paid_T0_ell_minus_2u",
+          6
+        ],
+        [
+          "paid_Kz_zero_complete",
+          5
+        ],
+        [
+          "complete_Q_ell_half",
+          2
+        ],
+        [
+          "selected_quadratic_G2_chart",
+          9
+        ]
+      ],
+      "uPowerDivided": 38,
+      "QQCofactorSHA256": "e306ff69a5b6e774271a9507e1b55980f5792811b4b42fffe6bbb8914efbe11c",
+      "fixedQQInputSHA256": "071966eb99b7b5e85163af1e95a6163eb4ab6d67e7f69000af43cf754a15e1c3",
+      "actualOriginalCofactorAndAllSixColumnsMultipliedBack": true,
+      "exactHSubstitutionAndUDivisionMultipliedBack": true,
+      "actualOneVariableBezoutMultipliedBack": true,
+      "previousModGCDDegree": 222,
+      "newModGCDDegree": 222,
+      "newModGCDSHA256": "6765bcda43089672a28b6a25fd3e88de52235088e237f00d6eb6ddb5a9022cd4",
+      "bezoutPairSHA256": "c992a9ba7861b96e418a7db8aaafefd1504fc782b50169879f066cb14622a2c5",
+      "conditionalOnIndependentExactQQCRTCertificate": true,
+      "wholeQBoundaryExcluded": false,
+      "seconds": 58.393054839
+    },
+    {
+      "stage": "new_Qboundary_original_same_point_Gauss_return",
+      "label": "PS*x_with_original_row_9",
+      "fixedQQUdegrees": [
+        29,
+        33
+      ],
+      "fixedSylvesterOrder": 62,
+      "bothQQUDegreesPreservedModuloPrime": true,
+      "allQQCoefficientDenominatorsPrimeUnits": true,
+      "moduloPrime": 1009,
+      "modResultantDegree": 2552,
+      "modResultantSHA256": "e951df908f76be54bd66eeb8a80f91a8e5a2aecce2df1e7b8dadfd939e1b0b81",
+      "rows": [
+        0,
+        1,
+        2,
+        3,
+        9,
+        13
+      ],
+      "labels": [
+        "remaining_cubic_1",
+        "remaining_cubic_3",
+        "NS",
+        "PS",
+        "remaining_cubic_3*t",
+        "PS*x"
+      ],
+      "exactQQCofactorTotalDegree": 69,
+      "exactQQCofactorUDeg": 33,
+      "exactQQCofactorHDeg": 47,
+      "originalPaidFactors": [
+        [
+          "u",
+          10
+        ],
+        [
+          "Q",
+          8
+        ],
+        [
+          "M",
+          6
+        ],
+        [
+          "P02",
+          2
+        ],
+        [
+          "paid_T0_ell_minus_2u",
+          6
+        ],
+        [
+          "paid_Kz_zero_complete",
+          5
+        ],
+        [
+          "complete_Q_ell_half",
+          2
+        ],
+        [
+          "selected_quadratic_G2_chart",
+          9
+        ]
+      ],
+      "uPowerDivided": 36,
+      "QQCofactorSHA256": "0e29f8e74e9bf2b9bc3fb72c1726ace0334d720765b05065a823a6ed982f6f6a",
+      "fixedQQInputSHA256": "c22b81882e25fa7e28dac4047682294f8e8a098947511e00424c3bc1b4b60fab",
+      "actualOriginalCofactorAndAllSixColumnsMultipliedBack": true,
+      "exactHSubstitutionAndUDivisionMultipliedBack": true,
+      "actualOneVariableBezoutMultipliedBack": true,
+      "previousModGCDDegree": 222,
+      "newModGCDDegree": 222,
+      "newModGCDSHA256": "6765bcda43089672a28b6a25fd3e88de52235088e237f00d6eb6ddb5a9022cd4",
+      "bezoutPairSHA256": "c992a9ba7861b96e418a7db8aaafefd1504fc782b50169879f066cb14622a2c5",
+      "conditionalOnIndependentExactQQCRTCertificate": true,
+      "wholeQBoundaryExcluded": false,
+      "seconds": 61.470165427
+    },
+    {
+      "stage": "new_Qboundary_original_same_point_Gauss_return",
+      "label": "PS*y_with_original_row_4",
+      "fixedQQUdegrees": [
+        29,
+        33
+      ],
+      "fixedSylvesterOrder": 62,
+      "bothQQUDegreesPreservedModuloPrime": true,
+      "allQQCoefficientDenominatorsPrimeUnits": true,
+      "moduloPrime": 1009,
+      "modResultantDegree": 2570,
+      "modResultantSHA256": "083d55db83821c7e6dd386ea1211675559e3cc3520f01238d1904911cfe4a813",
+      "rows": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        14
+      ],
+      "labels": [
+        "remaining_cubic_1",
+        "remaining_cubic_3",
+        "NS",
+        "PS",
+        "remaining_cubic_1*x",
+        "PS*y"
+      ],
+      "exactQQCofactorTotalDegree": 70,
+      "exactQQCofactorUDeg": 33,
+      "exactQQCofactorHDeg": 48,
+      "originalPaidFactors": [
+        [
+          "u",
+          11
+        ],
+        [
+          "Q",
+          8
+        ],
+        [
+          "M",
+          6
+        ],
+        [
+          "P02",
+          2
+        ],
+        [
+          "paid_T0_ell_minus_2u",
+          6
+        ],
+        [
+          "paid_Kz_zero_complete",
+          5
+        ],
+        [
+          "complete_Q_ell_half",
+          2
+        ],
+        [
+          "selected_quadratic_G2_chart",
+          8
+        ]
+      ],
+      "uPowerDivided": 37,
+      "QQCofactorSHA256": "99cb6d974ef9d8b380f6e9ce55dd757692eb3d7b40260704dcfaaebd37cd84de",
+      "fixedQQInputSHA256": "f044fe913d19604a37b2498713175fc4132df997d54d569ecb11be2321c45ac9",
+      "actualOriginalCofactorAndAllSixColumnsMultipliedBack": true,
+      "exactHSubstitutionAndUDivisionMultipliedBack": true,
+      "actualOneVariableBezoutMultipliedBack": true,
+      "previousModGCDDegree": 222,
+      "newModGCDDegree": 222,
+      "newModGCDSHA256": "6765bcda43089672a28b6a25fd3e88de52235088e237f00d6eb6ddb5a9022cd4",
+      "bezoutPairSHA256": "c992a9ba7861b96e418a7db8aaafefd1504fc782b50169879f066cb14622a2c5",
+      "conditionalOnIndependentExactQQCRTCertificate": true,
+      "wholeQBoundaryExcluded": false,
+      "seconds": 64.350851362
+    },
+    {
+      "stage": "new_Qboundary_original_same_point_Gauss_return",
+      "label": "PS*y_with_original_row_7",
+      "fixedQQUdegrees": [
+        29,
+        33
+      ],
+      "fixedSylvesterOrder": 62,
+      "bothQQUDegreesPreservedModuloPrime": true,
+      "allQQCoefficientDenominatorsPrimeUnits": true,
+      "moduloPrime": 1009,
+      "modResultantDegree": 2570,
+      "modResultantSHA256": "a9a195e91446c96164af87606032a4f26b005774adfe17a0b04a83dee1669d65",
+      "rows": [
+        0,
+        1,
+        2,
+        3,
+        7,
+        14
+      ],
+      "labels": [
+        "remaining_cubic_1",
+        "remaining_cubic_3",
+        "NS",
+        "PS",
+        "remaining_cubic_3*x",
+        "PS*y"
+      ],
+      "exactQQCofactorTotalDegree": 70,
+      "exactQQCofactorUDeg": 33,
+      "exactQQCofactorHDeg": 48,
+      "originalPaidFactors": [
+        [
+          "u",
+          9
+        ],
+        [
+          "Q",
+          8
+        ],
+        [
+          "M",
+          6
+        ],
+        [
+          "P02",
+          2
+        ],
+        [
+          "paid_T0_ell_minus_2u",
+          6
+        ],
+        [
+          "paid_Kz_zero_complete",
+          5
+        ],
+        [
+          "complete_Q_ell_half",
+          2
+        ],
+        [
+          "selected_quadratic_G2_chart",
+          8
+        ]
+      ],
+      "uPowerDivided": 37,
+      "QQCofactorSHA256": "9ff9d7a97954ec97ccc9602cfd03c7991af602679fd9b81a5f110e8d89deb650",
+      "fixedQQInputSHA256": "bbe9b23cab7e3c47f3a92c78a68224be3264c8a797201e8b31d0dab3451b788f",
+      "actualOriginalCofactorAndAllSixColumnsMultipliedBack": true,
+      "exactHSubstitutionAndUDivisionMultipliedBack": true,
+      "actualOneVariableBezoutMultipliedBack": true,
+      "previousModGCDDegree": 222,
+      "newModGCDDegree": 222,
+      "newModGCDSHA256": "6765bcda43089672a28b6a25fd3e88de52235088e237f00d6eb6ddb5a9022cd4",
+      "bezoutPairSHA256": "c992a9ba7861b96e418a7db8aaafefd1504fc782b50169879f066cb14622a2c5",
+      "conditionalOnIndependentExactQQCRTCertificate": true,
+      "wholeQBoundaryExcluded": false,
+      "seconds": 67.156203575
+    },
+    {
+      "stage": "new_Qboundary_original_same_point_Gauss_return",
+      "label": "PS*y_with_original_row_6",
+      "fixedQQUdegrees": [
+        29,
+        32
+      ],
+      "fixedSylvesterOrder": 61,
+      "bothQQUDegreesPreservedModuloPrime": true,
+      "allQQCoefficientDenominatorsPrimeUnits": true,
+      "moduloPrime": 1009,
+      "modResultantDegree": 2518,
+      "modResultantSHA256": "7a8cf3f03d9ec169c9d48924ce862c4644f348b2cd0f881956efd8c6a4ee6a21",
+      "rows": [
+        0,
+        1,
+        2,
+        3,
+        6,
+        14
+      ],
+      "labels": [
+        "remaining_cubic_1",
+        "remaining_cubic_3",
+        "NS",
+        "PS",
+        "remaining_cubic_1*t",
+        "PS*y"
+      ],
+      "exactQQCofactorTotalDegree": 70,
+      "exactQQCofactorUDeg": 32,
+      "exactQQCofactorHDeg": 48,
+      "originalPaidFactors": [
+        [
+          "u",
+          10
+        ],
+        [
+          "Q",
+          8
+        ],
+        [
+          "M",
+          6
+        ],
+        [
+          "P02",
+          2
+        ],
+        [
+          "paid_T0_ell_minus_2u",
+          6
+        ],
+        [
+          "paid_Kz_zero_complete",
+          5
+        ],
+        [
+          "complete_Q_ell_half",
+          2
+        ],
+        [
+          "selected_quadratic_G2_chart",
+          8
+        ]
+      ],
+      "uPowerDivided": 38,
+      "QQCofactorSHA256": "ad5b4226cbdec979b825d2b5703c674564b31378aea124138497ce080c069af5",
+      "fixedQQInputSHA256": "8ba5b049710d9842bca49083a311d33b2835b52958935b8f974bd252cc02eff4",
+      "actualOriginalCofactorAndAllSixColumnsMultipliedBack": true,
+      "exactHSubstitutionAndUDivisionMultipliedBack": true,
+      "actualOneVariableBezoutMultipliedBack": true,
+      "previousModGCDDegree": 222,
+      "newModGCDDegree": 222,
+      "newModGCDSHA256": "6765bcda43089672a28b6a25fd3e88de52235088e237f00d6eb6ddb5a9022cd4",
+      "bezoutPairSHA256": "c992a9ba7861b96e418a7db8aaafefd1504fc782b50169879f066cb14622a2c5",
+      "conditionalOnIndependentExactQQCRTCertificate": true,
+      "wholeQBoundaryExcluded": false,
+      "seconds": 70.08849677
+    },
+    {
+      "stage": "new_Qboundary_original_same_point_Gauss_return",
+      "label": "PS*y_with_original_row_9",
+      "fixedQQUdegrees": [
+        29,
+        32
+      ],
+      "fixedSylvesterOrder": 61,
+      "bothQQUDegreesPreservedModuloPrime": true,
+      "allQQCoefficientDenominatorsPrimeUnits": true,
+      "moduloPrime": 1009,
+      "modResultantDegree": 2500,
+      "modResultantSHA256": "db97ada2b908f0d09bf0bf840eff7c5b764127b063de602c1d45e44724eec822",
+      "rows": [
+        0,
+        1,
+        2,
+        3,
+        9,
+        14
+      ],
+      "labels": [
+        "remaining_cubic_1",
+        "remaining_cubic_3",
+        "NS",
+        "PS",
+        "remaining_cubic_3*t",
+        "PS*y"
+      ],
+      "exactQQCofactorTotalDegree": 68,
+      "exactQQCofactorUDeg": 32,
+      "exactQQCofactorHDeg": 47,
+      "originalPaidFactors": [
+        [
+          "u",
+          10
+        ],
+        [
+          "Q",
+          8
+        ],
+        [
+          "M",
+          6
+        ],
+        [
+          "P02",
+          2
+        ],
+        [
+          "paid_T0_ell_minus_2u",
+          6
+        ],
+        [
+          "paid_Kz_zero_complete",
+          5
+        ],
+        [
+          "complete_Q_ell_half",
+          2
+        ],
+        [
+          "selected_quadratic_G2_chart",
+          8
+        ]
+      ],
+      "uPowerDivided": 36,
+      "QQCofactorSHA256": "948a0f2a1e66ccb2f37b96a2e88f6f7fb65465ea36e1551daf9a3bd677afb634",
+      "fixedQQInputSHA256": "9f858371b60687670374ebd8721f0609d644a4c3ed58ca6853c44606480fc964",
+      "actualOriginalCofactorAndAllSixColumnsMultipliedBack": true,
+      "exactHSubstitutionAndUDivisionMultipliedBack": true,
+      "actualOneVariableBezoutMultipliedBack": true,
+      "previousModGCDDegree": 222,
+      "newModGCDDegree": 222,
+      "newModGCDSHA256": "6765bcda43089672a28b6a25fd3e88de52235088e237f00d6eb6ddb5a9022cd4",
+      "bezoutPairSHA256": "c992a9ba7861b96e418a7db8aaafefd1504fc782b50169879f066cb14622a2c5",
+      "conditionalOnIndependentExactQQCRTCertificate": true,
+      "wholeQBoundaryExcluded": false,
+      "seconds": 72.950246658
+    },
+    {
+      "stage": "new_Qboundary_original_same_point_Gauss_return",
+      "label": "PS*t_with_original_row_4",
+      "fixedQQUdegrees": [
+        29,
+        33
+      ],
+      "fixedSylvesterOrder": 62,
+      "bothQQUDegreesPreservedModuloPrime": true,
+      "allQQCoefficientDenominatorsPrimeUnits": true,
+      "moduloPrime": 1009,
+      "modResultantDegree": 2569,
+      "modResultantSHA256": "9d9893ae5ee81485c608ca483dd26f48107757df99122ccfca2b76e0e3df29d7",
+      "rows": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        15
+      ],
+      "labels": [
+        "remaining_cubic_1",
+        "remaining_cubic_3",
+        "NS",
+        "PS",
+        "remaining_cubic_1*x",
+        "PS*t"
+      ],
+      "exactQQCofactorTotalDegree": 71,
+      "exactQQCofactorUDeg": 33,
+      "exactQQCofactorHDeg": 48,
+      "originalPaidFactors": [
+        [
+          "u",
+          10
+        ],
+        [
+          "Q",
+          8
+        ],
+        [
+          "M",
+          6
+        ],
+        [
+          "P02",
+          2
+        ],
+        [
+          "paid_T0_ell_minus_2u",
+          6
+        ],
+        [
+          "paid_Kz_zero_complete",
+          5
+        ],
+        [
+          "complete_Q_ell_half",
+          2
+        ],
+        [
+          "selected_quadratic_G2_chart",
+          9
+        ]
+      ],
+      "uPowerDivided": 38,
+      "QQCofactorSHA256": "42b549d6fa3690f561042aca9d921005b291154248423ca5099d9d529d693a00",
+      "fixedQQInputSHA256": "ab4e6def7ee475f2fb4a53e86620fb269644ac08112addaada42edc2b96eccb9",
+      "actualOriginalCofactorAndAllSixColumnsMultipliedBack": true,
+      "exactHSubstitutionAndUDivisionMultipliedBack": true,
+      "actualOneVariableBezoutMultipliedBack": true,
+      "previousModGCDDegree": 222,
+      "newModGCDDegree": 222,
+      "newModGCDSHA256": "6765bcda43089672a28b6a25fd3e88de52235088e237f00d6eb6ddb5a9022cd4",
+      "bezoutPairSHA256": "c992a9ba7861b96e418a7db8aaafefd1504fc782b50169879f066cb14622a2c5",
+      "conditionalOnIndependentExactQQCRTCertificate": true,
+      "wholeQBoundaryExcluded": false,
+      "seconds": 76.082753236
+    },
+    {
+      "stage": "new_Qboundary_original_same_point_Gauss_return",
+      "label": "PS*t_with_original_row_7",
+      "fixedQQUdegrees": [
+        29,
+        33
+      ],
+      "fixedSylvesterOrder": 62,
+      "bothQQUDegreesPreservedModuloPrime": true,
+      "allQQCoefficientDenominatorsPrimeUnits": true,
+      "moduloPrime": 1009,
+      "modResultantDegree": 2570,
+      "modResultantSHA256": "03d2c1d6ecba47cf3b359f199471287028526c87a8ec91025a70c54553a52228",
+      "rows": [
+        0,
+        1,
+        2,
+        3,
+        7,
+        15
+      ],
+      "labels": [
+        "remaining_cubic_1",
+        "remaining_cubic_3",
+        "NS",
+        "PS",
+        "remaining_cubic_3*x",
+        "PS*t"
+      ],
+      "exactQQCofactorTotalDegree": 70,
+      "exactQQCofactorUDeg": 33,
+      "exactQQCofactorHDeg": 48,
+      "originalPaidFactors": [
+        [
+          "u",
+          9
+        ],
+        [
+          "Q",
+          8
+        ],
+        [
+          "M",
+          6
+        ],
+        [
+          "P02",
+          2
+        ],
+        [
+          "paid_T0_ell_minus_2u",
+          6
+        ],
+        [
+          "paid_Kz_zero_complete",
+          5
+        ],
+        [
+          "complete_Q_ell_half",
+          2
+        ],
+        [
+          "selected_quadratic_G2_chart",
+          9
+        ]
+      ],
+      "uPowerDivided": 37,
+      "QQCofactorSHA256": "f3d02113a0093068d4b2e46af4719021632fadaf2509a2bbefac3d244a4ee8d1",
+      "fixedQQInputSHA256": "8ef2fbb00fdb6a07a82de47d1fbabf740b2396e6e9e8870b0ffacf5226b89a38",
+      "actualOriginalCofactorAndAllSixColumnsMultipliedBack": true,
+      "exactHSubstitutionAndUDivisionMultipliedBack": true,
+      "actualOneVariableBezoutMultipliedBack": true,
+      "previousModGCDDegree": 222,
+      "newModGCDDegree": 222,
+      "newModGCDSHA256": "6765bcda43089672a28b6a25fd3e88de52235088e237f00d6eb6ddb5a9022cd4",
+      "bezoutPairSHA256": "c992a9ba7861b96e418a7db8aaafefd1504fc782b50169879f066cb14622a2c5",
+      "conditionalOnIndependentExactQQCRTCertificate": true,
+      "wholeQBoundaryExcluded": false,
+      "seconds": 79.195958167
+    },
+    {
+      "stage": "new_Qboundary_original_same_point_Gauss_return",
+      "label": "PS*t_with_original_row_6",
+      "fixedQQUdegrees": [
+        29,
+        31
+      ],
+      "fixedSylvesterOrder": 60,
+      "bothQQUDegreesPreservedModuloPrime": true,
+      "allQQCoefficientDenominatorsPrimeUnits": true,
+      "moduloPrime": 1009,
+      "modResultantDegree": 2397,
+      "modResultantSHA256": "4b10adb656e83060e32d3b142f8d11fb98eb668dd3d7e0a876f6a90b66b8ad67",
+      "rows": [
+        0,
+        1,
+        2,
+        3,
+        6,
+        15
+      ],
+      "labels": [
+        "remaining_cubic_1",
+        "remaining_cubic_3",
+        "NS",
+        "PS",
+        "remaining_cubic_1*t",
+        "PS*t"
+      ],
+      "exactQQCofactorTotalDegree": 65,
+      "exactQQCofactorUDeg": 31,
+      "exactQQCofactorHDeg": 45,
+      "originalPaidFactors": [
+        [
+          "u",
+          11
+        ],
+        [
+          "Q",
+          8
+        ],
+        [
+          "M",
+          6
+        ],
+        [
+          "P02",
+          2
+        ],
+        [
+          "paid_T0_ell_minus_2u",
+          7
+        ],
+        [
+          "paid_Kz_zero_complete",
+          6
+        ],
+        [
+          "complete_Q_ell_half",
+          2
+        ],
+        [
+          "selected_quadratic_G2_chart",
+          9
+        ]
+      ],
+      "uPowerDivided": 34,
+      "QQCofactorSHA256": "e92b29d2849573f4031ac8d18c4d8d654e91eff000a7c563160e44daf43120ec",
+      "fixedQQInputSHA256": "22d2f9485a5057deb380b2c7a890529699340aaa3a1d3be0898f34b0abd4249f",
+      "actualOriginalCofactorAndAllSixColumnsMultipliedBack": true,
+      "exactHSubstitutionAndUDivisionMultipliedBack": true,
+      "actualOneVariableBezoutMultipliedBack": true,
+      "previousModGCDDegree": 222,
+      "newModGCDDegree": 222,
+      "newModGCDSHA256": "6765bcda43089672a28b6a25fd3e88de52235088e237f00d6eb6ddb5a9022cd4",
+      "bezoutPairSHA256": "c992a9ba7861b96e418a7db8aaafefd1504fc782b50169879f066cb14622a2c5",
+      "conditionalOnIndependentExactQQCRTCertificate": true,
+      "wholeQBoundaryExcluded": false,
+      "seconds": 82.276510764
+    },
+    {
+      "stage": "new_Qboundary_original_same_point_Gauss_return",
+      "label": "PS*t_with_original_row_9",
+      "fixedQQUdegrees": [
+        29,
+        31
+      ],
+      "fixedSylvesterOrder": 60,
+      "bothQQUDegreesPreservedModuloPrime": true,
+      "allQQCoefficientDenominatorsPrimeUnits": true,
+      "moduloPrime": 1009,
+      "modResultantDegree": 2369,
+      "modResultantSHA256": "d1f87d87afbdcaaa86fc3b72d0a6a28659195cd73dd3f2c087996bb95767371d",
+      "rows": [
+        0,
+        1,
+        2,
+        3,
+        9,
+        15
+      ],
+      "labels": [
+        "remaining_cubic_1",
+        "remaining_cubic_3",
+        "NS",
+        "PS",
+        "remaining_cubic_3*t",
+        "PS*t"
+      ],
+      "exactQQCofactorTotalDegree": 64,
+      "exactQQCofactorUDeg": 31,
+      "exactQQCofactorHDeg": 44,
+      "originalPaidFactors": [
+        [
+          "u",
+          10
+        ],
+        [
+          "Q",
+          8
+        ],
+        [
+          "M",
+          6
+        ],
+        [
+          "P02",
+          2
+        ],
+        [
+          "paid_T0_ell_minus_2u",
+          7
+        ],
+        [
+          "paid_Kz_zero_complete",
+          6
+        ],
+        [
+          "complete_Q_ell_half",
+          2
+        ],
+        [
+          "selected_quadratic_G2_chart",
+          9
+        ]
+      ],
+      "uPowerDivided": 33,
+      "QQCofactorSHA256": "374f1eba1157cba5d2b0ce32076cb3b403efa68b08543b67b8b8175c256f0f90",
+      "fixedQQInputSHA256": "42d189944f1c7d15c1801f4fe40ac5e486cb24b181c8c36033783a8d416184dd",
+      "actualOriginalCofactorAndAllSixColumnsMultipliedBack": true,
+      "exactHSubstitutionAndUDivisionMultipliedBack": true,
+      "actualOneVariableBezoutMultipliedBack": true,
+      "previousModGCDDegree": 222,
+      "newModGCDDegree": 222,
+      "newModGCDSHA256": "6765bcda43089672a28b6a25fd3e88de52235088e237f00d6eb6ddb5a9022cd4",
+      "bezoutPairSHA256": "c992a9ba7861b96e418a7db8aaafefd1504fc782b50169879f066cb14622a2c5",
+      "conditionalOnIndependentExactQQCRTCertificate": true,
+      "wholeQBoundaryExcluded": false,
+      "seconds": 85.299762088
+    }
+  ],
+  "final": {
+    "stage": "new_Qboundary_original_modular_Gauss_input_complete",
+    "sourceSHA256": "dd113962957df19f1200aab632c8f7d21461cb23ecc180e698c596f83fb15ce0",
+    "actualNewOriginalCofactorCount": 27,
+    "finalModGCDDegree": 222,
+    "actualModularBezoutOne": false,
+    "originalInputsReconstructed": true,
+    "QQCoefficientPrimeIntegralityChecked": true,
+    "everyProjectionUsesItsActualFixedQQUdegrees": true,
+    "completeQQResultantComputed": false,
+    "exactQQRemainderDegreeAndPrimeUnitLeadingCoefficientRequiresIndependentCRTCertificate": true,
+    "conditionalQQNoCommonHRoot": false,
+    "wholeQBoundaryExcluded": false,
+    "peakRssKiB": 76448,
+    "ordinaryISPClaim": false,
+    "seconds": 85.301217188
+  },
+  "whole_Q_boundary_excluded": false
+}
