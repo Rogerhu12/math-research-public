@@ -890,3 +890,158 @@ compact common-kernel 仍是保留的准确范围。
 本节的 Tate leading、$\mu_p$ 相位、两类核直线、
 全部 cusp 的多项式求和与 purity 范围均经 o2_high_coefficient
 独立纸核；没有数学程序执行。
+
+
+## 14. 原局部常数及端点的实际复共轭位置
+
+### 14.1 ε₄ 与原圆单位基、v₄ 与 v₈ 的准确关系
+
+沿 R1069 (1069.14)，取同一个奇整数 $a$、原圆单位
+$\eta_a=\zeta^{(1-a)/2}(1-\zeta^a)/(1-\zeta)$，以及
+$\beta_{\chi_2}=e_{\omega^{-4}}[\eta_a]$。
+直接在原 $K^\times/K^{\times p}$ 中有
+$$
+\epsilon_4=(p-1)e_{\omega^{-4}}[1-\zeta],\qquad
+\beta_{\chi_2}=(a^{-4}-1)e_{\omega^{-4}}[1-\zeta].
+$$
+$\mu_p$ 的 $\omega$ 角色不进入这个偶投影，且
+$a^{-4}\ne1$。因此
+$$
+\boxed{\quad
+\epsilon_4=\frac{\beta_{\chi_2}}{1-a^{-4}}.
+\quad}
+\tag{1140.69}
+$$
+这里沿用原圆单位及原角色方向，没有另选一个一维空间的基。
+
+为精确读 Tate 阶，可以在 $\mathbb Z_p$ 完成中取
+$\omega(t)^r$ 权；其模 $p$ 类仍由 (1140.51) 的实际整数提升定义。
+对 $r=4,8$，这些权的和严格为零。
+theta product 的 $\tau$-阶为
+$$
+\frac p2
+ \left(c^2B_2(t/p)-B_2(\{ct/p\})\right).
+$$
+重指标并除以 $\kappa_r(c)$ 的 Teichmüller 提升
+$c^2-\omega(c)^{-r}$ 后，
+$$
+v_r=\frac p2\sum_{t=1}^{p-1}\omega(t)^rB_2(t/p)
+    =\frac{B_{2,\omega^r}}2
+       \quad\text{in }\mathbb Z_p .
+\tag{1140.70}
+$$
+广义 Kummer 同余给
+$B_{2,\omega^r}/2\equiv B_{r+2}/(r+2)\pmod p$。
+这也可只用普通 Kummer 核准：偶非平凡 Teich 权使
+$\sum\omega(t)^rt=\sum\omega(t)^r=0$，
+且 $\omega(t)^r\equiv t^{pr}\pmod{p^2}$。
+Faulhaber 给
+$p^{-1}\sum_{t=1}^{p-1}t^{pr+2}\equiv B_{pr+2}\pmod p$；
+因 $pr+2\equiv2\pmod p$、$pr+2\equiv r+2\pmod{p-1}$，
+再用普通 Kummer 即得所写同余。
+这两个指数不在分母异常范围，因此
+$$
+\boxed{\quad
+v_4\equiv\frac1{252},\qquad
+v_8\equiv\frac1{132}\pmod p .
+\quad}
+\tag{1140.71}
+$$
+特别，(1140.64) 每条 $L_b$ 的原读数准确为
+$$
+\partial_{L_b}D
+ =\frac{\beta_{\chi_2}}{132(1-a^{-4})}.
+\tag{1140.72}
+$$
+$p>37$ 使显示分母全部可逆。这个局部 leading/tame 标量
+不是 R1141 中剩余全局 cup 的未知倍数；(1140.65)
+依旧消去它的完整带权和。
+
+在 (1140.36) 的双 Bernoulli 门内还有一个可直接消费的支撑后果：
+R1141 §2 已付原裸 cup 的 $S=\{p\}$ 算术延拓，
+(1140.68) 的系数为 $p$-unit，故同一个 $\mathfrak b$
+也有 $\mathcal O_K[1/p]$ 上的算术 lift。
+这是同一类的等式给出的结论；门外本节不扩大该支撑范围。
+
+### 14.2 真 Betti 复共轭与 Merel 的 ι* 不同号
+
+在原 analytic moduli 中，实际复共轭是
+$$
+E_\tau\longrightarrow E_{-\bar\tau},\qquad z\longmapsto\bar z.
+$$
+它将 $(\tau/p,1/p)$ 送到 $(-e'_1,e'_2)$，即原 level 坐标上的
+$$
+\varepsilon=\begin{pmatrix}-1&0\\0&1\end{pmatrix}.
+$$
+$\varepsilon$ 保持 $N(x,y)=x^2-\delta y^2$ 并正规化实际
+non-split Cartan normalizer，故这给原 $\mathbb Q$-下降的实结构。
+在 symplectic-dual source 中，
+$J^{-1}\varepsilon J=-\varepsilon$；
+整体 $-1$ 不改原商，且 $q=N\circ J$ 同样满足 $q\circ\varepsilon=q$。
+这同时支付了 source 群与原 norm 的相容性。
+
+原路径 $e_g=g\{0\to\infty\}$ 的真实作用是
+$$
+c_*e_g=e_{\varepsilon g\varepsilon^{-1}}.
+\tag{1140.73}
+$$
+例如 $0\to\infty$ 的垂直路径在
+$\tau\mapsto-\bar\tau$ 下点态固定，没有另一个反向号。
+重指标后第二列为 $\varepsilon w$，所以 (1140.4) 给
+$$
+c_*C_{\rm Eis}=C_{\rm Eis},\qquad
+c_*c_{\rm Eis}=c_{\rm Eis}.
+\tag{1140.74}
+$$
+第二式与原 degree-$p+1$ transfer 相容。
+
+已亲读 Merel §1.6 Proposition 7：
+其 $\iota(f)(z)=f(-\bar z)$ 的定义没有并入微分的负号，
+相应 modular-symbol involution 为
+$-[P\mid\operatorname{adj}\varepsilon,\varepsilon g\varepsilon^{-1}]$。
+故在此 weight-two 的真实 Betti 路径上
+$c_*=-\iota^*$。本节不把文献中 $\iota^*$ 的正负标签
+直接称为原复共轭的正负标签。
+
+### 14.3 在实际 I₃ 格中锁定原 cuspidal 直线，仍不宣非零
+
+现在另加 $p\nmid B_{p-5}$。
+R1131 对 $j=1$ 的两个 gate 是 $B_6$ 与 $B_{p-5}$；
+前者对 $p>37$ 恒为单位。
+该文因此给原 $I_3$ 的实际 away-$p$ Hecke DVR、
+自由秩二 Tate 格及准确非分裂方向
+$$
+0\longrightarrow\mathbb F_p(\omega^{-2})
+ \longrightarrow J[\mathfrak m_3]
+ \longrightarrow\mathbb F_p(\omega^3)
+ \longrightarrow0.
+$$
+左侧就是原非零 cuspidal 直线。
+(1140.29) 的全部实际 Hecke 特征
+$\ell^{-2}+\ell^3$ 使 $c_{\rm Eis}$ 的像落在这个真正
+$\mathfrak m_3$-socle 中；这里的 order 只用已付 away-$p$ 生成元。
+
+用原 Jacobian 的规范 Betti 比较
+$H_1(X(\mathbb C),\mathbb F_p)\simeq J[p](\mathbb C)$；
+它把整 cycle 模 $p$ 送到对应周期的 $1/p$ 类，
+与实际 Hecke 及复共轭相容。
+因 $2$ 可逆，$J[\mathfrak m_3]$ 的 $c=+1$ 空间一维，
+且恰是上述偶子线。由 (1140.74)，得到
+$$
+\boxed{\quad
+c_{\rm Eis}=\lambda_E P_{\chi_1}
+ \quad\text{for some }\lambda_E\in\mathbb F_p,
+\qquad
+P_{\chi_1}=
+ \left[\frac1p\operatorname{div}(f_{\chi_1})\right].
+\quad}
+\tag{1140.75}
+$$
+$f_{\chi_1}$ 是原 $F_{\chi_1}$ 的实际代表，
+故此处保留其全部规范因子；没有将该点默认为未经 $m$ 运输的另一生成元。
+$\lambda_E$ 可以为零。本节既没有计算 $\lambda_E$，
+也没有把它与 (1140.72) 的局部标量或 R1141 的算术 cup 倍数混同。
+
+(1140.69)–(1140.75) 的角色、数值分母、真实复共轭符号及
+actual socle 范围均经 o2_high_coefficient 独立纸核；
+所有引用的 cusp/Hecke 格均为已发表的原来源，没有数学程序执行。

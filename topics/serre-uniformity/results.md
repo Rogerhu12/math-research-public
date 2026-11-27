@@ -1,5 +1,7 @@
 # 结论索引
 
+- **R1140 §14（已证明，纸面，socle须Bp−5单位）**：原圆单位ε4=βχ2/(1−a⁻⁴)，精确Tate阶v4=1/252、v8=1/132；真Betti复共轭与Merelι*异号，原N/J下降使C_Eis在c+。该门内实际I3 socle给C_Eis=λ_E Pχ1，保原函数规范，λ_E尚未求值/未宣非零。[证明](results/R1140-original-low-weight-Manin-source-reduction.md)。
+
 - **R1139（已证明，纸面，准确条件）**：[R1139](results/R1139-original-compact-target-unsmoothing-and-bare-cup.md)：F33低mixed门下，原p倍divisor给compact cup lift；HS保Jacobian/base两层，geom H²(2)=μp的ω角色消。F=E+(1−E)V/v满足(F−1)²0，故全部smoothing在整个compact H²θ及Pic/Br商生成单位理想。由R1138严格得(4/m²)原cup=Ψ(完整两秩cycle)，公共核无歧义；该指定像仍待算，门外四阶不外推。
 
 - **R1138（已证明，纸面）**：[R1138](results/R1138-original-integral-bare-cup-smoothing-comparison.md)：原辅助c除子比较与augmentation付实际K₁/p的Lχθ′=nq*Gχ−χ(n²)π*Gχ及T̃_nGχ=(n+χ(n²))Gχ；全部crossed norm按projection formula合并，S_n=(4/m²)(n⁴−n^(a+2)T_n+n^(2a+1)){Fχ,Fψ}。所有辅助素数n>3、n≠p成立，不除κχ(n)/level p/分裂度；保R1136两秩真实源，target公共核及四阶见证继续。

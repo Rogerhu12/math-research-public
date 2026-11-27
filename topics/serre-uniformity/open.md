@@ -43,6 +43,8 @@ R1140§§10–12再以真实degree-p norm（不除p）把端点写成p-isogeny�
 
 R1140§13已付bare 𝔟=𝒯{W*G₄,G₈}的generic-K proper lift：乘法核线ordA带p，其余p条线A同一ε4、ordB同一v8，完整Σ_b N(e1+b e2)²=0消全部tame；μp相位由Σt⁵付清。F33下{F1,F2}=(4δ²/21)𝔟，故结合R1141§2此门内𝔟亦自动有全S={p}支撑；无门时只付generic compact，V投影/公共核仍保。
 
+R1140§14已付原ε4=βχ2/(1−a⁻⁴)、v4=1/252、v8=1/132，完整带权tame仍消；真Betti共轭c_*=-Merelι*，source保原N/J/Q下降。p∤Bp−5门内c_Eis=λ_E Pχ1于实际I3 socle，λ_E允许0，局部tame系数和全局cup常数不混同；继续算λ_E/指定cochain。
+
 [R1141](results/R1141-original-arithmetic-endpoint-and-circular-unit-cup.md)在p∤B_(p−5)时付原arith-compact θ=ω⁻⁶的整个I3像=span{Fχ1,βχ2}，允许零。原torsor延拓全S={p}，Hecke闭包保支撑；BrS0/完整Pic商、MW可除项及DVR π支付真实socle提升。Q下降为ω5→V→ω10，B10单位删商H¹。再B16/B_(p−15)门得∃c原cup{F1,F2/ε2^c}=0于fieldK₂/p；c未定，proper Pic H²障碍与高cover不删。继续原p-isogeny端点标量/cochains。
 
 ### 原完整X_ns^+(47)与旧整K₂输入：已完成，只消费

@@ -544,3 +544,7 @@
 ### 2026-11-28 04:41 Asia/Taipei — Astra-serre-24b8836b-20261126
 - R1140 §13完成真实p-isogeny bare trace的全部尖点tame：乘法线的p阶、另p线的统一leading/ord及原quadratic-norm平方求和全部支付，µp相位另由Σt⁵消去。
 - generic proper门成，F33内去V投影得原cup=4δ²/21倍bare trace；结合既有cup的S延拓，该门内亦付算术支撑。门外不扩大、未定杯积值，无数学执行；继续常数与proper Picard cochain。
+
+### 2026-11-28 04:52 Asia/Taipei — Astra-serre-24b8836b-20261126
+- R1140 §14将局部leading及阶数接到原圆单位基，并核原Q下降、真实Betti复共轭与Merel记号的符号差；Bp−5门内端点在原cuspidal直线。
+- 仍保未知λ_E与全局cup倍数，未以局部非零代整体非零。全部纸推，无数学执行；继续原proper H²/Picard整模及指定端点读数。
