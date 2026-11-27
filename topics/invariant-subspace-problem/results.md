@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [Q边界整G2零曲线排除](results/R150-appendix-unit211-Q1minusU-complete-G2-zero-exclusion.md)：完整有理化以两个小Bézout保原u首项零，原350/351次固定行列式余68/75次QQ Bézout1；全余边界现落有限3780权点。
+
 - [Q边界G2非零图的原63/60有限权覆盖](results/R150-appendix-unit211-Q1minusU-original-G2-chart-finite-parameter-cover.md)：两个原六列cofactor全乘回且QQ互素，最多3780权点、每原Gram纤维至多6；不冒称空集。
 
 - [一般ell=0整H2二次头曲线排除](results/R150-appendix-unit211-general-ell-zero-entire-H2-exclusion.md)：60/61次原35阶行列式余15/16次QQ Bézout1；与H1合并支付所选四二次头的全部零曲线。
