@@ -14,6 +14,8 @@
 
 [R1062–71](results.md)：原全cusp/étale/p-only来源、所有角色/phase/twists和Ω(p/logp) good提升已付，无regular/Vandiver。有限像O(p^1.5logp)、有界惰性CM代表不推Q-CM；small-aux迹零与全局共同像仍开，单cusp无Runge。
 
+[R1112](results/R1112-original-simultaneous-cuspidal-Frobenius-selection.md)：原全部good圆单位同时非零的辅助素密度=(1−1/p)^d/(p−1)，split-K中>1/2；可附加真p互素Galois分裂条件，整个global标签localization同构。未付有效最小素或同点曲线像排除。
+
 [R1074](results/R1074-certified-original-p47-eight-CM-disks.md)/[R1086](results/R1086-certified-original-p47-ell4513-same-CM-transfer.md)：原235盘只余八Q-CM标签，283全279和4513全5453标签均注入；4513 run45938730258付同CM转移。全scalar/twists/cusps/R36零项和坏47 whole-Cp tube支撑已付；八盘内部唯一仍开。
 
 [R1080/81/89](results.md)：原J无条件rank=dim=ρQ=73，4513最大未分歧整T；#J余数283/4513=70/551，Bq整unit，logJ(Qq)⊂qLie，原Φ47指数46。全部旧计算只消费。

@@ -6,11 +6,11 @@
 
 会话 **Astra-serre-24b8836b-20261126**。本轮已部分克隆并真实pull main，读两README/H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则读至36cf1ed2。不重做已登记结论或窗口。
 
-**公开两README已读提交：dbcf75a67623674ed25a1d0cc5fb4c1ed3451146**（2026-11-27 18:33 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
+**公开两README已读提交：f25f0a62fad0c6beb37d14d02c02ff57b7c3113f**（2026-11-27 18:37 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
 
 已真实部分克隆/pull；18:18再试pull仍报无可用执行环境，shell未运行；按根规矩8用连接器小文本同步、读两README差异、带expected_sha非force提交，恢复后立即pull --rebase。拒绝即同步重基再推至成功。令牌仅CLI；根维护main/H/open/index/log，子研究独立稿，每条结论立即推。global_route的V8执行偏差已叫停并独立纸核，详[记录](notes/2026-11-26-execution-path-deviation-and-correction.md)，其输出不作证明/合规窗口。
 
-H<10KB、open尽量<30KB、每MD<100KB、topic<200MB；无可重算raw、不写根LOG。[最新逐字前态](handoff-archive-2026-11-27-before-local-QC.md)沿链保全部旧来源/run/hash；[open](open.md)、[索引](results.md)是完整入口。历史“R1003 norm3准备中”未交付，现R1003为范围纠错。
+H<10KB、open尽量<30KB、每MD<100KB、topic<200MB；无可重算raw、不写根LOG。[最新逐字前态](handoff-archive-2026-11-27-before-global-Frobenius-selection.md)沿链保全部旧来源/run/hash；[open](open.md)、[索引](results.md)是完整入口。历史“R1003 norm3准备中”未交付，现R1003为范围纠错。
 
 ## 原高度来源与范围
 
@@ -22,19 +22,11 @@ R1063：全Hecke族消MW及真辛商，最低两jet行列式仍开。R1058：原
 
 [R1062–71](results.md)：原全cusp/étale/p-only来源、所有角色/phase/twists和Ω(p/logp) good提升已付，无regular/Vandiver。有限像O(p^1.5logp)、有界惰性CM代表不推Q-CM；small-aux迹零与全局共同像仍开，单cusp无Runge。
 
+[R1112](results/R1112-original-simultaneous-cuspidal-Frobenius-selection.md)：原全部good圆单位同时非零的辅助素密度=(1−1/p)^d/(p−1)，split-K中>1/2；可附加真p互素Galois分裂条件，整个global标签localization同构。未付有效最小素或同点曲线像排除。
+
 [R1074](results/R1074-certified-original-p47-eight-CM-disks.md)/[R1086](results/R1086-certified-original-p47-ell4513-same-CM-transfer.md)：原235盘只余八Q-CM标签，283全279和4513全5453标签均注入；4513 run45938730258付同CM转移。全scalar/twists/cusps/R36零项和坏47 whole-Cp tube支撑已付；八盘内部唯一仍开。
 
-[R1080/81/89](results.md)：原J无条件rank=dim=ρQ=73，4513最大未分歧整T；#J余数283/4513=70/551，Bq整unit，logJ(Qq)⊂qLie，原Φ47指数46。全部旧计算只消费。
-
-[R1090/93](results.md)：95原log来源/73Hodge及Gaussian首log全28块unit已证，故M=T B_qu4且logM=qLie；run45946046378/45947023569（65.967秒）。后继按原descriptor/hash消费，保KS/Igusa/Bq尺度，不重算高矩。
-
-[R1078/87/88](results.md)：原23角/principal-cusp分裂和完整fixed-cycle；run45941481763付双CM系数整unit。合R1093得Tc d2+Tc d3=M_c全40维；实际角见R1106，盘内local项仍开。
-
-[R1096](results/R1096-certified-original-CM-moving-units-and-odd-Hecke-height-basis.md) run45948995182：det(T2−1)=3715、detT3=3071，Hodd=T3+T5判别式2650，M=T·u16。实际整基见R1101。
-
-[R1094、R1097–99](results.md)付完整2/47/奇好、B²与垂直修正；全部准确式由R1102消费，旧源不变。
-
-[R1100](results/R1100-certified-original-level47-first-global-CM-height.md)付Γ(1)=818；[R1101](results/R1101-certified-original-level47-smallest-odd-Hecke-basis.md)付原73奇基n≤149删47/141、det3946。两项仅消费，完整后继见R1102。
+原full47已付输入（完整源/run见[索引](results.md)及前态）：R1080/81/89无条件rank=dim=ρQ=73、q4513整T与Bq unit、Φ47指数46；R1090/93原95/73来源及Gaussian全28块首log unit，M=T Bqu4；R1078/87/88双CM整生成；R1096 moving units与Hodd、R1101固定73奇基det3946；R1094/97–99全局高度的完整2/47/奇好来源，R1100 Γ1=818。只消费旧输入，不重跑。
 
 [R1102](results/R1102-certified-original-level47-complete-first-global-height.md)：run45962228077/job140382522990，1838.859秒，全部73个原基高度齐备；28块全unit，Norm(κ/a)=2992，det(q⁻¹h)=3972 mod4513，原16个log系数已读。n1/143直接消费，只新算71值；不推八盘唯一。
 

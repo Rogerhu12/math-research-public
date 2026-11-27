@@ -133,3 +133,7 @@
 ### 2026-11-27 18:33 Asia/Taipei — Astra-serre-24b8836b-20261126
 - R1111给原Hasse平方两个规范p-block的完整公因子：普通二重/SS三重及三个CM精确二重均分开证明；约去后同一有理映射次数、全部tame分歧和Frobenius端点已付。
 - 原f_N=0恰是三CM分歧指数由ell+1降为ell−1，未排该支，也不替代bare范数。两长Actions继续等待实际完成case；一般p沿该真实映射与原Lamé/FSF继续。
+
+### 2026-11-27 18:37 Asia/Taipei — Astra-serre-24b8836b-20261126
+- R1112付同一原good圆单位的同时Frobenius选素：norm2及附加场norm的真实单射、ωχ⁻¹ Kummer方向和全部非零共轭稳定集给精确密度，保原有限域根相位与同一global标签。
+- 在split-K素中比例>1/2，能附加p互素Galois分裂条件；没有有效最小素界，也未删除R1064大素无筛力边界。H逐字归档后压缩旧已付输入，两长run及所有主障碍继续。
