@@ -12,7 +12,7 @@
 
 - 至少每小时重试同步，每次pull后只读新README差异并立刻执行，记实际读过SHA；断连沿最新main API非force快进，每次检查README及本topic外部变动。10:48ref失败已立即实际pull重试、重比新父后成功；不强推。
 - root独占git/H/open/log/index；每条结论立即推，拒绝时pull --rebase后重试至成功。令牌只命令行/进程，不进文件/提交/API。数学执行只在公开Actions；根规则15禁止存可重算输出或日志数据。H<10KB，每MD<100KB。
-- 本次整理前的[完整交接](notes/2026-11-27-handoff-before-finite-five-point-carrier.md)逐字保原历史，向前链接所有旧归档；[open归档](notes/2026-11-27-open-before-norm25-complete-annuli.md)、[results](results.md)、[R1001–1050索引](notes/PROOF-INDEX-R1001-R1050.md)保完整参数/门/失败/回执，不重做已登记结论。
+- 本次整理前的[完整交接](notes/2026-11-27-handoff-before-full-complement-first-schur.md)逐字保原历史，向前链接所有旧归档；[open归档](notes/2026-11-27-open-before-norm25-complete-annuli.md)、[results](results.md)、[R1001–1050索引](notes/PROOF-INDEX-R1001-R1050.md)保完整参数/门/失败/回执，不重做已登记结论。
 
 ## 一、唯一原厚几何作业
 
@@ -30,9 +30,9 @@ R1040六轴Gram(126,3,6,2,9,14)/det756及真实6⁵平均保持。只投H/J/N的
 
 §15原K条件矩U_K=(10δ/7)D126，完整odd9/JMJ/2/3/双7及正权平方识别E21609:y²=x³+147²，f126、level47628/root−。R1046唯一run46008071578/job140536202708/source60a44f52的完整L′严格正，原CM/Q Rubin定理和固定点(-12,141)付ΩI_D非零，双7分歧使它与三九阶点值代数线性独立。原角函数j(Y+tK)的j′(0)≠0；坏j(0)=0时全bounded尾给v(j(ξκⁿ))=n+ℓp，n>ℓp−bp。原坏条件仍不迫j(t)或角导数零，继续实际forcing；不重跑。
 
-R1042共同H3/F81、93/2511 odd与90/810 even全核、四输出六次Q及单unit网格三对差v=n均付。§8–11完整1296平均中72支的372深核βB(B²1)、24整/48半整及所有中间环准确返回；D_m贡献β^(n+4m)A_{ζ,n−m mod2}(κ^m)。网格n项被精确补回；原未旋转整D1三对差均v=1，n>1中间环也v=1。平均S/T没有被新增授权；真正剩余是至少双unit整补域。
+R1042共同H3/F81、93/2511与90/810全核、四输出六次Q及网格三对差v=n均付。§11的72支/24整48半整、degree372深核βB(B²1)及全部中间环准确返回；原未旋转D1三对差v=1，平均S/T未授权。§12给整个至少双unit余域的首Schur：先以完整unit质量零证明a_i,p−1∈pO，再用Hasse付Ω^(p−1)=H_b^-1，真实六sigma低卷积c_i,p∈pO。其首位为b^-1{−h_p^-1(c_i−c_j)/p+h_p^-6(α_i−α_j)}；三canonical坏要求三个c_i/p同为0modp，尚未排除。
 
-norm25管的12支M*≠0、A−S常数dM*log〈r*〉（Nr*=291/763）及全尾已付；S/T一次项A_p+B_pΩI3中A_p严格非零。新R1047完整付H3的α2/25、2/δ/5、25维Weil、四角色r2/8/14/26、f25δ/root−、Haar/h/平方和actual C15点域。BDP2将ΩI3送到有限E0点对数；Fuchs–Pham含常数1的分离给整个原一次项非零，管内v=n+ℓp。无需四L′非零或Euler单位；不把有限point投影延至无限log。Y_A−(7+4δ)H混合cut及所有其余unit扇区保持，完整补域尚待。
+原norm25管12支M*≠0及A−S的dM*log〈r*〉全尾已付。R1047完整付H3的α2/25、全部2/δ/5、25维Weil、四角色r2/8/14/26、f25δ/root−、Haar/h/平方及actual C15点域。BDP2和Fuchs–Pham含常数1分离给整个S/T一次项非零，管内v=n+ℓp；不需四L′非零或Euler单位。Y_A−(7+4δ)H混合cut及所有其余unit扇区保持，继续全低卷积和完整补域forcing。
 
 R1044真R=K+ωA整推前消Ξ1，Ξ0回δ*(-xyσ5)；共同F3913/C1596的全四输出carry保三原未平均行，H/J/N平均另给纯Φ行。两个授权不能混，原全cut与补域(41)继续。
 

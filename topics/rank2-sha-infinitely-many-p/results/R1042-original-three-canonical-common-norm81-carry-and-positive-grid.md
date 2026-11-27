@@ -1532,3 +1532,200 @@ $\Gamma_n\setminus\mathcal D_1$ 的相应差也具有准确赋值一，
 本节没有由 (91) 给它赋零。
 第9–10节的两 unit 厚管只占其中一个部分，仍须与它们之外的
 完整余域联立。
+
+
+## 12. 整个至少双 unit 余域的首位：原真除 p 与无周期有限公式
+
+本节只处理原未旋转 $h_n={\bf1}_{\Gamma_n}\widehat Q_{n,p}$，
+保三条原观察及各自 unit cut。
+它给 $\Gamma_n\setminus\mathcal D_1$ 的完整首位，
+不是把第9–10节指定的 $\mathcal U_n$ 当作这个余域。
+平均后的 $\overline h_n$ 仍按 (89) 保全部72个来源状态。
+
+置 $d=p-1$。令 $\mathcal F_i$ 是原整个边际 $(Y_i)_*\rho$ 的生成函数：
+$$
+\begin{aligned}
+\mathcal F_S&=S_{34},&
+\mathcal F_T&=6\delta T_{72},&
+\mathcal F_A&=39\delta\Phi_{126,b},\\
+a_{i,d}&=[z^d]\mathcal F_i(z).&&&
+\end{aligned}
+\tag{92}
+$$
+这里 $S_{34},T_{72},\Phi_{126,b}$ 均取首项 $z^6$ 的旧准确规范。
+特别 T 和 A 的两个原常数没有消掉。
+
+### 12.1 在原完整单位域上先付除 p
+
+原 $\Omega$ 是 E17 普通形式群与乘法形式群之间的单位周期，
+所以 $v_p(\Omega)=0$。$\nu_\sigma$ 为原整 Amice 测度；
+$p>1296$ 时 $\rho$ 的 $84$ 及本篇 frame/carry 固定分母均为单位。
+于是各 $(Y_i)_*\rho$ 是整测度。原三 canonical 的完整 unit 质量
+在第4节已付为零：
+$$
+\int_{Y_i\ {\rm unit}}d\rho=0.
+$$
+此式只在所写的完整 unit 域上使用。
+
+对任意 $y\in\mathbf Z_p^\times$，
+$d\log\langle y\rangle=\log(y^d)$，且 $y^d-1\in p\mathbf Z_p$，
+故
+$$
+d\log\langle y\rangle\equiv y^d-1\pmod{p^2}.
+$$
+非 unit 部分的 $y^d$ 积分则属于 $p^d\mathcal O\subset p^2\mathcal O$。
+用上一条完整质量零，及原 Amice 矩的准确阶乘归一，得到
+$$
+\boxed{
+J_{\mathcal F_i}'(0)
+ \equiv \int y^d\,d\nu_{\mathcal F_i}
+ =\Omega^d d!\,a_{i,d}\pmod{p^2},\qquad
+a_{i,d}\in p\mathcal O .}
+\tag{93}
+$$
+右端的可除 p 是证明所得，不是把模 p 系数形式除 p。
+由于 $d!$ 与 $\Omega$ 都是单位，它也给 $a_{i,d}/p$ 的真实整性。
+
+全域上用 $Y_i/a_i$ 代替 $Y_i$ 只增加
+$-d\log\langle a_i\rangle$ 乘完整 unit 质量，所以在 (93) 中准确消去。
+在 $\mathcal D_1$、$\mathcal U_n$ 或其它局部扇区中，
+不能据此删掉对应质量项；本节下式使用的是 (28) 已保质量的原归一函数。
+
+### 12.2 保全部余域的第一 Schur 读数
+
+由 (25)、(90) 的完整来源身份，
+$$
+\begin{split}
+\beta^{-n}\int_{\Gamma_n\setminus\mathcal D_1}
+ (L_i-L_j)h_n\,d\rho
+={}&J_{\mathcal F_i}'(0)-J_{\mathcal F_j}'(0)\\
+&-\beta^4\{\mathcal A_i(\kappa)-\mathcal A_j(\kappa)\}.
+\end{split}
+$$
+原 (36) 及其全尾保证
+$\mathcal A_i(\kappa)-\mathcal A_j(\kappa)
+\equiv\kappa(d/b)(\alpha_i-\alpha_j)\bmod p^2$。
+因此对每个 $n\ge1$，整个至少双 unit 余域的准确首位为
+$$
+\boxed{
+\frac{\beta^{-n}}p
+ \int_{\Gamma_n\setminus\mathcal D_1}(L_i-L_j)h_n\,d\rho
+\equiv
+\Omega^d d!\,\frac{a_{i,d}-a_{j,d}}p
+-\lambda^6\frac d b(\alpha_i-\alpha_j)\pmod p .}
+\tag{94}
+$$
+左端为整：每个原 $L_i$ 在其 unit 域上都属于 $p\mathcal O$，
+而 $h_n$ 有界整。全部不同的 $Y_i$-unit 条件仍留在实际积分中；
+(94) 并未用“各输入为 unit”替代“原和变量为 unit”。
+
+### 12.3 用原形式群精确消掉周期
+
+写 $p=6s+1$，并置
+$$
+\mathfrak h_p=\binom{3s}{2s}\pmod p,\qquad
+\mathcal H_{b,p}=b^s\mathfrak h_p .
+$$
+$\mathcal H_{b,p}$ 是 $y^2=x^3+b$、微分 $dx/(2y)$ 的 Hasse invariant：
+它就是 $(x^3+b)^{(p-1)/2}$ 中 $x^{p-1}$ 的系数。
+其全部阶乘都小于 p，故当前普通处为单位。
+
+为核绝对周期规范，取原整参数 $u=-x/y=z+\cdots$。
+原 height-one 形式群的 $[p]$ 在特征 p 中首项为
+$\mathcal H_{b,p}u^p$。
+原同构 $u(\Omega\log(1+T))$ 的首系数是 $\Omega$；
+与乘法形式群 $[p](T)\equiv T^p$ 比较首项，准确得到
+$$
+\Omega^{p-1}\equiv\mathcal H_{b,p}^{-1}\pmod p.
+$$
+同时 $\pi_0$ 与 E0 的真正 Frobenius 至多差 $\mu_6$，
+$\bar\pi_0^6\equiv\mathfrak h_p^6\bmod p$。
+由 $\lambda=-\bar\pi_0^{-1}$、$b^{p-1}\equiv1$ 和 Wilson 得
+$$
+\boxed{
+\Omega^d d!\equiv-\mathcal H_{b,p}^{-1},\qquad
+\lambda^6\equiv\mathfrak h_p^{-6}
+                  =\mathcal H_{b,p}^{-6}\pmod p .}
+\tag{95}
+$$
+这里只取六次幂，故没有在实际 CM unit phase 上擅选 Frobenius 号。
+
+### 12.4 三条原六 sigma 的有限低卷积
+
+下面的公式给 (94) 的全部剩余算术输入，
+只需固定三个六元组和低于第一个普通共振的有限系数。
+在 $b=1$ 取
+$$
+W(w)=z^2x_1(z)=\sum_{r\ge0}w_rw^r,\qquad
+f(w)=\sigma_1(z)/z,\qquad w=z^6.
+$$
+由 $x''=6x^2$、$(x')^2=4(x^3+1)$ 及
+$(\log\sigma)''=-x$，准确递推为
+$$
+\begin{split}
+&w_0=1,\qquad w_1=-1/7,\\
+&w_r=\frac{\sum_{j=1}^{r-1}w_jw_{r-j}}
+              {(r-1)(6r+1)}\quad(r\ge2),\\
+&\log f(w)=-\sum_{r\ge1}
+          \frac{w_r}{6r(6r-1)}w^r .
+\end{split}
+\tag{96}
+$$
+保原固定 CM 行
+$$
+\begin{split}
+\boldsymbol a_S&=(\gamma,\bar\gamma,\delta,2\delta,1,2),\\
+\boldsymbol a_T&=(\gamma,\bar\gamma,\delta,2\delta,3\delta,4),\\
+\boldsymbol a_A&=(7,\pi_{13},\bar\pi_{13},3\delta,2\delta,2\delta),
+\end{split}
+$$
+其中 $\gamma=3+\omega$、$\pi_{13}=4+\omega$。
+令 $\gamma_S=1,\gamma_T=6\delta,\gamma_A=39\delta$，定义
+$$
+\boxed{
+c_{i,p}=\gamma_i[w^{s-1}]
+ \exp\left\{-\sum_{r=1}^{s-1}
+ \frac{w_r}{6r(6r-1)}
+       \left(\sum_{\ell=1}^6 a_{i,\ell}^{6r}\right)w^r\right\}.}
+\tag{97}
+$$
+三个 $\gamma_i$ 正是 $-\prod_\ell a_{i,\ell}/84$。
+故 (97) 是六个原 sigma **完整乘回后的系数**，
+没有将六个因子分别赋中央零。
+
+在 $r\le s-1$，(96) 的 $(r-1)$、$6r+1$、
+$6r$、$6r-1$ 及指数展开需要的阶乘都为 p 单位。
+所以 (97) 可在 $\mathcal O_K/p^2$ 中用固定递推直接读取，
+没有隐藏的先除 p 步骤，也不需上一个已失真的 Gaussian 高项。
+最后由 (93) 付真正一次除 p。
+
+真实六 sigma homothety
+$\sigma_b(z)=t^{-1}\sigma_1(tz)$、$t^6=b$ 给
+$$
+\boxed{a_{i,d}=b^{s-1}c_{i,p},\qquad c_{i,p}\in p\mathcal O.}
+\tag{98}
+$$
+把 (95)、(98) 代回 (94)，得到完全无 period 的有限函数
+$$
+\boxed{
+\frac{\beta^{-n}}p
+ \int_{\Gamma_n\setminus\mathcal D_1}(L_i-L_j)h_n\,d\rho
+\equiv
+\frac1b\left\{
+-\mathfrak h_p^{-1}\frac{c_{i,p}-c_{j,p}}p
++\mathfrak h_p^{-6}(\alpha_i-\alpha_j)
+\right\}\pmod p .}
+\tag{99}
+$$
+所有符号在原普通嵌入约化；$1/b$、$\mathfrak h_p$ 均是单位。
+这给整个余域而不只是某一 unit pattern 的跨 p 算术公式。
+
+坏三 canonical 条件在此首位严格要求
+$$
+\boxed{c_{S,p}/p=c_{T,p}/p=c_{A,p}/p=0\pmod p .}
+\tag{100}
+$$
+于是 (99) 回到 (91) 的相反固定单位项。
+目前 (96)–(100) 并未证明三项不可同时为零：
+后续需要在这个**同一个有限低卷积**上取得真正非零或全精度消元，
+不能把 (99) 所计算的实际补偿再宣布为零。

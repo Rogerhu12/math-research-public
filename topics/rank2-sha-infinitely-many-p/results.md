@@ -357,3 +357,6 @@
 
 
 - **R1047原finite5点载体与管内一次非零**：[完整证明](results/R1047-original-degree25-finite-five-point-carrier-and-tube-first-term.md)。R1047完整识别原H3的α2/25、二/三/五处来源、25维Weil全trace与四条r=2,8,14,26角色，精确付Haar/Hermite/25^-m及负一Katz平方。四个type(1,0)角色的导子25δ、根数−1、实际点域C15；一般BDP2允许零点，故无须新L′非零输入。Fuchs–Pham含常数1的分离使R1042原12支S/T一次项严格非零。 原管全尾给v=n+ℓp；未旋转D1与平均行区分，全部补域和Y混合cut仍保，不冒作主目标完成。
+
+
+- **R1042完整补域首位与真除p**：[§12](results/R1042-original-three-canonical-common-norm81-carry-and-positive-grid.md)。R1042§12把原未旋转整个至少双unit余域的首位化为同一有限低卷积：先在完整unit域用质量零证明a_i,p−1和c_i,p真实可除p，再以Hasse形式群关系消掉Ω^(p−1)，得到(99)的全补域Schur公式。三canonical坏条件严格要求三个c_i,p/p同为0modp；该共同零尚未排除。
