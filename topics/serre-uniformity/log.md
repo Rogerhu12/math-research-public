@@ -624,6 +624,11 @@
 - 未将无分歧说成split，未把一般Frobenius当复共轭；未排affine或证明分母为空。root纸推、global提供原Tate整延拓与同时Frobenius路径，NIST/primary purity已亲读，无数学执行。H前态归档；继续失效圆单位门、有效小辅助素与实际p-local读数。
 
 
-### 2026-11-28 06:50 Asia/Taipei — Astra-serre-24b8836b-20261126
+### 2026-11-28 06:49 Asia/Taipei — Astra-serre-24b8836b-20261126
 - R1147 §§8–12付原primitive p^n theta moments的完整norm兼容、精确v∞与非单位轨道phase/arith transfer；Q-cor圆单位约化不误作全轨field norm。
 - 全R_n几何H¹自由/HS、C_N cup、含p度restriction的Teich单射给真实21(1+p⁴)/11修正与唯一compatible整G_n塔。modp精确回原cover；未把Cartan I升T_pE，也未宣SS比较或局部非零。root亲读Kings Th3.3.1并核有限整推导，无数学执行；继续该塔的实际SS接口和固定低权圆单位的新来源。
+
+
+### 2026-11-28 06:53 Asia/Taipei — Astra-serre-24b8836b-20261126
+- R1148 §10换用已发表固定权Soulé/Kurihara输入：明确C_cyc=exp(9^(224·9⁴))后，原γ5/γ9必非零，完整global H¹由原γ3/γ5/γ9生成。原圆单位投影(1−a⁻ᵈ)因子与p−n角色逐式接入，无Vandiver假设。
+- R1148的原cusp公式、负一精确密度和全部p² global lifts的同素同时排除由此在充分大p范围无条件。未以global generator推p-local单位，仍保Bp−3/5/9局部门；primary作者/期刊全文及精确章节亲读，无数学执行，继续实际SS值与affine排除。

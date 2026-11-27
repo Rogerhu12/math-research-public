@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。已部分克隆并真实pull main，读根/课题README及H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则36cf1ed2已读。不得重做登记结论/窗口。
 
-**公开两README已读提交：4868a6e20cf8944ebd3224b00f80d727f2bb34c7**（2026-11-28 06:49 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 06:21 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
+**公开两README已读提交：1e642976aec7c6e620da2e2bab3112e6ee30ee56**（2026-11-28 06:53 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 06:21 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
 
 最近真实pull已恢复：2026-11-28 06:21 Asia/Taipei，公开Actions run46076082440/job140764009178，在blob:none浅部分克隆中真实pull --rebase至fb9f91b6，两README diff空且SHA与已读全文相同；[源/回执入口](notes/2026-11-28-terminal-rule-sync.md)。下次请求≤07:10、真实pull≤07:21。本地06:18仍无环境；本地恢复即pull。每次提交仍按根规则8 fresh main/diff/expected_sha非force，拒绝立即同步重推。令牌只CLI，当前同步workflow匿名无token。数学程序仅本公开Actions；V8仅metadata/文本。[此前纠正](notes/2026-11-26-execution-path-deviation-and-correction.md)。
 
@@ -34,17 +34,15 @@ root管main/H/open/index/log，子研究仅独立candidate；每条结论即推�
 
 [R1147 §§8–12](results/R1147-original-canonical-moment-Heisenberg-lift.md)现付同一theta的唯一兼容整G_n/pro-p塔：primitive p^n点exact norm及正确Q-cor圆单位箭头；所有非单位a的φ(g)/g、相位+arith transfer全保。实际v_d∞=(1−p^d)B_(d+2)/(d+2)，第三槽修正21(1+p⁴)/11。全R_n HS/cyclic cup、Teich下降和全S0延拓均付，modp正好原P。Cartan仍先modp再pushout，不给I一个虚构T_pE提升；SS/crystalline与中心首项仍开。
 
-## O1：原两 jet、Gauss–Padé 与固定 Dixon 输入
+[R1148 §10](results/R1148-original-canonical-cusp-Heisenberg-and-minus-one-Frobenius.md)已用Soulé固定权定理消掉充分大p的global门：C_cyc=exp(9^(224·9⁴))，p>C_cyc时原ε4/ε8投影与单位因子精确匹配，γ5/γ9无条件非零并生成各H¹；Kurihara给γ3生成H¹L3。全部global pairs恰(aγ3,bγ5)，共p²个；R1148密度/同时cusp排除在此绝对范围无条件。未宣localization unit，Bp−3/5/9的p-local门仍保；继续affine/有效辅助素和SS值。
 
-[R1137](results/R1137-original-Lame-conjugation-with-complete-boundaries.md)保原D₀/Λ rank3边界、moving p极和完整第三类补偿；Λ非局部D。原Padé N=(p−5)/6，QF−P的contact恰2N+1、首余项unit；F=₂F₁(1/3,1/2;4/3)。e=K4=0 iff P,Q均含x²，约后deg≤N−2/contact2N−1。原P_N=−2(v²)^(2N+1)(2/3)_N/(7/6)_N为unit，故degP=N，未单独排二次缺陷。
+## O1：原两 jet、Gauss–Padé 与固定 Dixon
 
-同文§2.6保F²=D_N−g_N²x^(2N+1)，D/G无重根互素；实际norm余式Z非零deg≤N−1，双缺陷后Dq²−p²=x^(2N−1)W、W非零deg≤N−3、W0=2εp0不强称unit。实际三分支map全tame；余式排除仍开。
+[R1137](results/R1137-original-Lame-conjugation-with-complete-boundaries.md)保原Λ/rank3/第三类/moving p极。实际Padé N=(p−5)/6，QF−P contact恰2N+1首余项unit，F=₂F₁(1/3,1/2;4/3)；e=K4=0 iff P,Q含x²，约后deg≤N−2/contact2N−1。P_N unit/degP=N；F²=D_N−g_N²x^(2N+1)，D/G无重根互素。双缺陷后Dq²−p²=x^(2N−1)W、W≠0、degW≤N−3，W0不强称unit；缺陷仍未排。
 
-[原固定Dixon/Jordan源](notes/2026-11-28-original-genus-four-Dixon-Jordan-chain.md)付 e=K4=0 iff D^(p−5)η=0 iff固定整P_(p−5)全系数被p整除。P递推、三步因子、原2k Laurent块/唯一核、两端单位及L∈{3k+1,3k+4,…,p−1}全成；e非零/L=p−1，e0K4非零/L=p−4，共零/L≤p−7。单Jordan不代指定中列长度。
+[原固定Dixon源](notes/2026-11-28-original-genus-four-Dixon-Jordan-chain.md)付 e=K4=0 iff D^(p−5)η=0 iff整P_(p−5)全系数被p整除。原2k Laurent块唯一核、两端单位及L∈{3k+1,3k+4,…,p−1}已付；单Jordan不代中列长度。§§6–8真实Fermat平移、D³=2vT与两生成式给r_N(λ)=R1076 η_k(λ/3)。Γ=(2v)^(2k)，q_N(0)=δr_N(0)/(2Γ)，e0时导数同比；r_N′(0)=ν_k/3。原Dixon逆σ_D的互倒平方根精确读全谱/相邻系数，分母<p，未删卷积或宣非同时零。
 
-[原Dixon双谱生成式](notes/2026-11-28-original-genus-four-Dixon-Jordan-chain.md) §§6–8进一步付原Fermat平移、D³=2vT、q_N/r_N两个实际主块与完整生成式；r_N(λ)=R1076的η_k(λ/3)。Γ=(2v)^(2k)下q_N(0)=δr_N(0)/(2Γ)，e0时q_N′(0)=δr_N′(0)/(2Γ)，r_N′(0)=ν_k/3。Lagrange反演将完整谱写成原Dixon逆函数σ_D的互倒平方根(σ_D/τ)^(±1/2)相邻系数，全部阶乘/逆级数低于p；指定两系数非同时零仍开，未从大块Jordan或特征零正性偷推。
-
-[R1145](results/R1145-original-Pade-banded-self-adjoint-exclusion.md)八个原H_N带宽1、2系统只含标量；四输入101/107/131/137，run46071081257/job140747905385的全核与单位子式已付，仅排有限机制。旧5372素数扫描、R1134十五Euler列、固定Prym/六CM配对/normal-FM边界和所有既成窗口只消费，不重跑；精确公式与source见open/逐字前态。
+[R1145](results/R1145-original-Pade-banded-self-adjoint-exclusion.md)八个带宽1/2系统只有标量；四输入及run46071081257/job140747905385只排有限机制。旧5372素数扫描/R1134十五Euler列/Prym/六CM/normal-FM全部只消费，source和全常数保open/前态。o1继续真实Hesse变分时须保αD²/α²D及原主块边界。
 
 ## O2：原 Gaussian 全 good-mask 与共同纤维
 

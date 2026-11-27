@@ -340,3 +340,117 @@ $$
 - 原圆单位的非零充分门由 R1069/R1112 已证局部式给出；(1148.17) 未被隐去。
 
 全文无数学程序执行。仍需处理 (1148.17) 失效的分支、有效足够小辅助素、affine 同点像、原 $p$-local 读数及完整一般素数目标；本文不把其中任一个列为已完成。
+
+
+## 10. 固定权 Soulé 输入：充分大 p 时去掉两个非零门
+
+本节改用已发表的固定权定理，去掉 §7–8 在充分大 $p$ 时的附加条件。它不以数值窗口或 Vandiver 猜想代替证明。
+
+### 10.1 一个明确绝对常数与准确角色
+
+Soulé 的 *Perfect forms and the Vandiver conjecture*（1999），§§3.2–3.3 证明：对固定奇数 $n\ge5$，存在 $v(n)$，满足
+$$
+\log v(n)\le n^{224n^4},
+$$
+使得所有 $p>v(n)$ 都有
+$$
+\operatorname{Cl}(\mathbb Q(\zeta_p))[p^\infty]_{\omega^{p-n}}=0;
+$$
+该角色的单位模 $p$ 由相应圆单位生成。原文同时明确给出
+$H^2(\mathbb Z[1/p],\mathbb Z_p(n))=0$ 及原 cyclotomic element 对 $H^1$ 的生成性。这里只使用这一固定权范围，不声称所有 even class-group 角色都零。
+
+取明确的绝对实常数
+$$
+\boxed{C_{\rm cyc}=\exp\!\left(9^{224\cdot9^4}\right).}
+\tag{1148.21}
+$$
+它大于 $691,v(5),v(9)$。对 $p>C_{\rm cyc}$，$n=5,9$ 的准确角色分别是
+$$
+\omega^{p-5}=\omega^{-4},\qquad
+\omega^{p-9}=\omega^{-8}.
+\tag{1148.22}
+$$
+这正是 (1148.1) 的两个原单位角色，不是把 $B_5,B_9$ 或某个相反角色替换进来。这个界极大，但本节目标是一个明确的绝对“充分大”范围，不把它当有效小辅助素界。
+
+### 10.2 原 ε₄、ε₈ 本身是生成元
+
+为排除定标漏洞，在完整 $E=\mathcal O_K^\times$ 中写
+$\chi=\omega^{-d}$，$d=4$ 或 $8$。取原来生成
+$\mathbb F_p^\times/\{\pm1\}$ 的奇整数 $a$，并使用原圆单位
+$$
+\eta_a=\zeta_p^{(1-a)/2}\frac{1-\zeta_p^a}{1-\zeta_p}.
+$$
+$\chi$ 非平凡且为偶，故 root-of-unity 项投影为零。由同一个 group-ring projector，
+$$
+e_\chi\kappa(\eta_a)
+ =(a^{-d}-1)e_\chi\kappa(1-\zeta_p)
+ =\frac{a^{-d}-1}{p-1}\epsilon_d.
+$$
+在 $\mathbb F_p$ 中 $p-1=-1$，所以准确为
+$$
+\boxed{e_\chi\kappa(\eta_a)
+       =(1-a^{-d})\epsilon_d.}
+\tag{1148.23}
+$$
+这个因子为单位，且正是 R1144 已用的原 factor，不新增一个未知比例。
+
+所有圆单位的 $\chi$ 分量都由同一个
+$e_\chi(1-\zeta_p)$ 方向生成；(1148.23) 中的 $\eta_a$ 已给单位系数。Soulé §3.3(ii) 因而明确迫
+$$
+\epsilon_4\ne0,\qquad\epsilon_8\ne0.
+\tag{1148.24}
+$$
+它们在 $S$-unit 群与普通 unit 群的非平凡角色相同，因为唯一 $p$ 位的 valuation 是平凡角色。Kummer 注入与 degree $p-1$ 的 restriction 单射遂给
+$$
+\boxed{\gamma_5\ne0,\quad\gamma_9\ne0
+ \quad\text{对每个 }p>C_{\rm cyc}.}
+\tag{1148.25}
+$$
+因此 §7–8 的准确密度、纯中心权 $14$ 与全部 cusp 同时排除，在这个明确绝对范围内均为无条件结论。并不要求
+$p\nmid B_{p-5}B_{p-9}$；两个大指标 Bernoulli 的局部条件不再是这些全局结论的前提。
+
+### 10.3 原全局标签的维数，以及仍不能取消的局部门
+
+Soulé 的 class-group 消失结合 Kummer sequence，还给
+$$
+H^1(S_0,L_5)=\mathbb F_p\gamma_5,\qquad
+H^1(S_0,L_9)=\mathbb F_p\gamma_9
+ \quad(p>C_{\rm cyc}).
+\tag{1148.26}
+$$
+单位的相应非平凡 even 角色秩为一，roots of unity 不在该角色；class-group 项由 (1148.22) 全部消失。因此不是只找到一个非零向量，而是付清整个 global H¹。
+
+对权三，Kurihara 的 *Some remarks on conjectures about cyclotomic fields and K-groups of Z*（1992），Corollary 3.8 给
+$A^{[p-3]}=0$；Remark 4.3 明确给标准 cyclotomic element 生成
+$H^1(\mathbb Z[1/p],\mathbb Z_p(3))$。用同一有限 corestriction/系数约化及 (1148.23)（改取 $d=2$），记
+$$
+\gamma_3|_S=
+\left(\sum_{b\ne0}b^2\kappa(1-\zeta_p^b)\right)
+ \otimes\zeta_p^{\otimes2},
+$$
+则对当前 $p>C_{\rm cyc}$，
+$$
+\boxed{H^1(S_0,L_3)=\mathbb F_p\gamma_3.}
+\tag{1148.27}
+$$
+此处也可以由 Kurihara 的 $A^{[p-3]}=0$ 和 Soulé §3.3 证明中所写的 Mazur–Wiles 角色单位指数等式得出：同一 $\chi=\omega^{-2}$ 圆单位分量已是全 unit lattice，(1148.23) 保原非零因子。
+
+所以 R1146/R1148 中的全部 global abelian pairs 在充分大范围内恰为
+$$
+(\alpha,\beta)=(a\gamma_3,b\gamma_5),
+ \qquad(a,b)\in\mathbb F_p^2.
+\tag{1148.28}
+$$
+这里的 $a,b$ 是两槽标量，不是每个高角色或全部原候选的坐标数。式 (1148.18) 用于 $ab\ne0$，式 (1148.19) 用于 $ab=0$；§8 同时排除的对象准确包括这全部 $p^2$ 个 global lifts。
+
+**全局生成性不等于局部生成性。** 以上论证没有证明
+$\operatorname{loc}_p(\gamma_3)$、$\operatorname{loc}_p(\gamma_5)$
+或 $\operatorname{loc}_p(\gamma_9)$ 为单位，甚至没有据此断言它们模 $p$ 非零。R1069 中由 $B_{p-3},B_{p-5},B_{p-9}$ 控制的实际 localization 门仍必须照原条件使用。这里消掉的是 (1148.17) 的全局非零门，不是原 $p$-local 盘内论证的门。
+
+新增 primary 来源与精确使用位置：
+
+- C. Soulé, *Perfect forms and the Vandiver conjecture*, **Journal für die reine und angewandte Mathematik 517 (1999), 209–221**；[作者全文](https://arxiv.org/pdf/math/9812171)。亲读 §§3.2–3.3：固定权 class-group 消失、显示界及单位生成性。arXiv 版在 §3.3 重复印为“Theorem 4”；这里用节号和 (ii)/(iv) 定位，避免把两个不同陈述混为同一编号。该文引用的 Mazur–Wiles 角色指数在 §3.3 的证明中明确写出。
+- M. Kurihara, *Some remarks on conjectures about cyclotomic fields and K-groups of Z*, **Compositio Mathematica 81 (1992), 223–236**；[期刊全文](https://numdam.org/item/CM_1992__81_2_223_0.pdf)，Corollary 3.8（印刷230页）、Remark 4.3（231页）及 §5 的标准 cyclotomic element。
+- 本节的 (1148.22)–(1148.28) 是对原角色、原 $\eta_a$、Kummer/corestriction 和有限系数的明确接入；未执行任何数学程序，也未重跑已有 Vandiver 或 Bernoulli 数值窗口。
+
+主目标仍未完成：现在充分大的负一分支已具有无条件的真实中心限制，仍需付所有 affine 点或足够强的全局高度/局部排除。
