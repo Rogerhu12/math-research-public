@@ -178,7 +178,7 @@ Deddens自伴MASA、全部可分重数有限成本投影、全2-adic平移距离
 
 [最大图低余孔C2费用](results/R271-appendix-maximal-graph-low-excess-hole-square-cost.md)已付同一h的明确扇区，实际y有界物理孔遂入原图核心。新[临界小指数物理孔矩准则](results/R271-appendix-critical-small-physical-exponential-maximal-graph-core.md)进一步给s0=(2+2log(3/2))/14：y∈D(G)且e^(s0N)y∈H，则h∈C2并在原图核心；等号的真实8^j余量完整支付。未知Green缺陷Y并未证明有该矩，物理孔平滑未证保Y，同W的Gamma及F/R/Z继续。
 
-**W整C9/u半已闭，可付C9、2u−1；[全三次覆盖与六生成](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-full-cubic-cover-and-global-six-generators.md)已付。** [新三条S一次原消元](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-centered-three-S-linear-original-elimination.md)用已付E1的S²系数和18真adj积，将四原二次在D27≠0图等价返回两三次/一四次及同S恢复；D27零整支和原NSPS仍保留，不宣判空。源4da946c4实际4.370秒/exit0；单个J19/F98未付、六列非自由。整y1首次源9b5295日志TypeError，N/P参数返回未执行，6d871e02仅修日志后接续。旧二维180秒门冻结。
+**W整C9/u半及全图六生成已付，原有限纤维仍开。** [新四条S-free原三次理想等价与通用头](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-four-S-free-cubics-and-binary-head-resultant.md)用完整正反身份把两三次/一四次降为四三次，全无新除法；通用4×4头=固定二次/三次齐次结式，九自由系数26项BigInt身份已付。W实例新头源00c08b48尚未执行；D27零支、任何新头零支和同S的原NSPS仍须返回。整y1修正版6d已成功，整有限面原交点/新固定QQ投影另条继续；旧错误与大门不重跑。
 
 **[整个一般ell=0原支已闭](results/R150-appendix-unit211-general-ell-zero-complete-original-exclusion.md)，一般余图可付ell。** 全三头曲线、1146次QQ覆盖全部未付因子及u2/u半整线已原返回；来源/失败身份保正文/快照，不重跑。继续一般T0=0与其它未付面。
 
