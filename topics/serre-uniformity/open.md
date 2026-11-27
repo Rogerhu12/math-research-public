@@ -42,6 +42,8 @@
 
 [R1108](results/R1108-original-CM-first-log-mod-q2-and-finite-residue-algebra.md)：原q²首log residue-trace与末端强制归一已证；两pencil必须同时核。八CM归约四基本类；[q²方法](notes/2026-11-27-full-p47-modq2-CM-log-method.md)及四CM原源/KM/trace新请求已推，4核18000/120；新值待回执。
 
+[R1118](results/R1118-original-short-Cartier-reading-for-CM-third-kind-values.md)：原α改由短Cartier读法：s≤159/151、f的确定性线性避让、U_f=fH0Ω(S)的完整V≤5 colon；73个同一Gaussian free点的一次4513来源给C和Cη−η，(1−C)解唯一原W形式。保全部coarse/closed/cusp47/除6；算法尚无实际回执，未报QC行秩。
+
 ## O1：全p同一真实本原标签的临界非零
 
 [R1116](results/R1116-original-Gaussian-forced-tangents-and-Kronecker-band.md)：原全部forced Gaussian coarse首项准确读同一Kronecker核反对角c_(2j−1)，含primitive常数、regularizer、Bernoulli-good mask和完整Fay乘积；全forced同时零会给具体奇偶半段缺失，尚未排该条件。R1114的混合K_p未被偷换为其中一项。

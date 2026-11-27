@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。本轮已部分克隆并真实pull main，读两README/H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则读至36cf1ed2。不重做已登记结论或窗口。
 
-**公开两README已读提交：0f4bc9b08e7d2444e67192d54a2172b3c5faaf5c**（2026-11-27 19:40 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
+**公开两README已读提交：c82e4335a062640c1d440505da5e0748a1050e75**（2026-11-27 19:40 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
 
 已真实部分克隆/pull；19:11再试pull仍报无可用执行环境，shell未运行；按根规矩8用连接器小文本同步、读两README差异、带expected_sha非force提交，恢复后立即pull --rebase。拒绝即同步重基再推至成功。令牌仅CLI；根维护main/H/open/index/log，子研究独立稿，每条结论立即推。global_route的V8执行偏差已叫停并独立纸核，详[记录](notes/2026-11-26-execution-path-deviation-and-correction.md)，其输出不作证明/合规窗口。
 
@@ -39,6 +39,8 @@ R1063：全Hecke族消MW及真辛商，最低两jet行列式仍开。R1058：原
 [有限Miller](notes/2026-11-27-full-p47-finite-third-kind-method.md) run45973334832/job140418866621：0/141×ZA/ZB首4例仍运行，18000/120；原closed支撑/ratio/signed N和终点已付，只读完整新α。余12例随后续。
 
 [R1108](results/R1108-original-CM-first-log-mod-q2-and-finite-residue-algebra.md)：原q² residue-trace/强制归一及两pencil同时核已证。四基本CM run45977769585/job140433713916仍运行，18000/120；新首log未出。
+
+[R1118](results/R1118-original-short-Cartier-reading-for-CM-third-kind-values.md)：原α改由短Cartier读法：s≤159/151、f的确定性线性避让、U_f=fH0Ω(S)的完整V≤5 colon；73个同一Gaussian free点的一次4513来源给C和Cη−η，(1−C)解唯一原W形式。保全部coarse/closed/cusp47/除6；算法尚无实际回执，未报QC行秩。
 
 ## O1：原同一保留标签与 Gaussian 强制切向
 
