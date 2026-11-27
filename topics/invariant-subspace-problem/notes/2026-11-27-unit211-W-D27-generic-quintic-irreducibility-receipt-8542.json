@@ -1,0 +1,120 @@
+{
+  "schema": "isp-exact-original-quintic-irreducibility-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "runtime": "V8 JavaScript via functions.exec",
+  "actualExecutionCompleted": true,
+  "measuredElapsedSeconds": null,
+  "sourceSHA256": "01295be532b692eae24674788db0660edd0df3a25de46704fb4703ffa3163191",
+  "sourceBytes": 4199,
+  "mathematicalResult": {
+    "prime": 7,
+    "specializationK": 1,
+    "integerCoefficients": [
+      -3699,
+      -1206,
+      2567,
+      -874,
+      28,
+      16
+    ],
+    "degree": 5,
+    "leadingCoefficient": 16,
+    "monicReduction": [
+      2,
+      6,
+      6,
+      4,
+      0,
+      1
+    ],
+    "frobeniusRemainders": [
+      [
+        1,
+        3,
+        1,
+        3,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        5,
+        2
+      ],
+      [
+        5,
+        2,
+        4,
+        2,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        4,
+        3
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "rabinPower5ExactlyX": true,
+    "rabinOnlyPrimeDegreeDivisor": 5,
+    "gcdWithXPowerPMinusXExactlyOne": true,
+    "reducedXPowerPMinusX": [
+      1,
+      2,
+      1,
+      3,
+      1
+    ],
+    "bezoutReducedF": [
+      0,
+      4,
+      1,
+      4
+    ],
+    "bezoutReducedSecond": [
+      1,
+      4,
+      0,
+      4,
+      3
+    ],
+    "unreducedDivisionQuotient": [
+      3,
+      0,
+      1
+    ],
+    "bezoutUnreducedF": [
+      4,
+      6,
+      0,
+      2,
+      5,
+      3,
+      4
+    ],
+    "bezoutUnreducedSecond": [
+      1,
+      4,
+      0,
+      4,
+      3
+    ],
+    "reducedAndUnreducedBezoutProductsActuallyOne": true,
+    "fullBezoutProductActuallyOne": true,
+    "allSpecializationDegreePreserved": true,
+    "fullTwentySevenTermD27SpecializationActuallyVerified": true,
+    "originalEContentOneByLeading16k4AndNonzeroConstantAtK0": true,
+    "conclusion": "D27 is irreducible over QQ(k)[e] by primitive monic-degree-preserving k=1 specialization and this exact mod-p Rabin certificate.",
+    "finitePointExclusionClaim": false
+  },
+  "bothReducedAndUnreducedFullBezoutProductsActuallyVerified": true,
+  "finiteFiberExclusionClaim": false,
+  "paidNormClaim": false,
+  "unpublishedCorrection": "The earlier abbreviated s applied to the reduced X^7-X remainder. This final source and proof explicitly multiply back both correct versions."
+}
