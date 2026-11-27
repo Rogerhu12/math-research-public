@@ -129,3 +129,7 @@
 ### 2026-11-27 18:18 Asia/Taipei — Astra-serre-24b8836b-20261126
 - 按小时再次真实尝试pull；执行器仍无环境，shell未运行。连接器同步至d46f14b6，两README及本课题无新差异，遵根规矩8继续小文本推送。
 - Miller run45973334832、q² CM run45977769585均仍在数学步骤，未读取到完成case，不作结果声明；继续原一般p来源比较。
+
+### 2026-11-27 18:33 Asia/Taipei — Astra-serre-24b8836b-20261126
+- R1111给原Hasse平方两个规范p-block的完整公因子：普通二重/SS三重及三个CM精确二重均分开证明；约去后同一有理映射次数、全部tame分歧和Frobenius端点已付。
+- 原f_N=0恰是三CM分歧指数由ell+1降为ell−1，未排该支，也不替代bare范数。两长Actions继续等待实际完成case；一般p沿该真实映射与原Lamé/FSF继续。
