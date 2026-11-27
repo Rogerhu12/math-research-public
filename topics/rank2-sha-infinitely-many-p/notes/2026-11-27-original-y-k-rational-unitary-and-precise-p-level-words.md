@@ -630,8 +630,27 @@ $$
        \sum_{a\bmod p^r}\psi_p(ax/p^r).
  \tag{35}
 $$
-原 theta 的对偶 connected 直线将这些调制逐项对应
-$E[\pi_0^r]$ 的完整 Weyl lift。
+这条直线可以在(19)中直接核定，不能只命名为“对偶”。
+写 $M_sf(y)=\psi_p(sy)f(y)$、$X_tf(y)=f(y+t)$，
+并在本轴令 $c=c_L$。完成平方及换元逐项给
+$$
+ \begin{aligned}
+ \mathcal U M_s\mathcal U^{-1}F(x)
+ &=\psi_p(-sx-s^2/(2c))F(x+s/c),\\
+ \mathcal U X_t\mathcal U^{-1}F(x)
+ &=\psi_p(-ctx/2+ct^2/8)F(x-t/2).
+ \end{aligned}
+ \tag{35a}
+$$
+按 $T_{h,k}F(x)=\psi_p(k(x+h/2))F(x+h)$，
+两条完整 Weyl 直线分别为
+$(h,k)=(s/c,-s)$ 和 $(-t/2,-ct/2)$。
+自然 dilation $f(y)\mapsto f(\kappa y)$ 的共轭
+在调制线上给 $\kappa$，在位置线上给 $\kappa^{-1}$。
+与 R300(16)的真实 CM 交织相对照，第一条正是原正式
+$E[\pi_0^r]$ connected 线，第二条是 étale
+$E[\bar\pi_0^r]$ 线。特别负线绝不是无相位的位置平移。
+这锁定原 theta 的对偶 connected 直线及其全部 Weyl lift。
 逆 Gram 及 theta degree 只在 a 上给单位换元；
 $p\nmid3150\cdot150$，所以没有删支。
 此处使用原正式同构送入的 connected 核，不能将未规范的
