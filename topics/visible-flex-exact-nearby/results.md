@@ -504,3 +504,7 @@ GHR [metric-reference height](results/R144-supplement-actual-seed-metric-referen
 ### UACT：原Theta完整96×96坐标逆实际成立（已证明/数值认证）
 
 [全21正式球与完整身份](results/R149-supplement-actual-original-finite-Theta-coordinate-inverse.md)。UDRC21 45933303391/1全21成功，lowjointerror≈.316981860、ρ≈.799597509<1，||(ΘE96a)^−1||<12.588。whole候选先保再选，IR/ASR/OT全载体/source相位/物理4/两sign不改，旧targets0重算。TQ真实J(c,p)/kerΘ图现在可用；完整PKE96T^-1ΘP、physical列、两mean/ν/phase/fullSchur仍保。
+
+### ARHI：实际完整relative参数frame/position载体（已证明/数值认证）
+
+[完整4目标/载体/真均值](results/R147-supplement-actual-complete-relative-parameter-frame-and-position.md)，45933988440/1全4成功，2847cells/18whole曲线；position均值第一[-.0249±4.50e−5]、第三[.0036±4.22e−5]，frame第二[±8.65e−6]无真符号。全Eu≈7.210855e−6/Ey≈9.750080e−6，whole数组/orderedchain和原source完整身份保，reflection三个零mean真实成立。actual Q_b/F_b/Cθ仍独立，下一首WMR4消费而不重跑。

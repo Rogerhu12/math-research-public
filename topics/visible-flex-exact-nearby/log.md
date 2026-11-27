@@ -124,3 +124,7 @@
 已证明/实际Actions认证：45933303391/1于04:18:42全21/21成功，actual42477B SHA17c721993bb6488ec48918c50caf70c84785ca54cb004fbc51d11de1c6eb14bc，execution52265B SHAde2b9e0f2a1f424cd4c644ab23839bf715590e4153058517e66706a3d79b768c。全21球/whole候选/原signed载体身份在proof，lowΘerror≈.31698185997258，preconditionedρ≈.799597508717728<1，已存inverse upper12.587338365426…<12.588。GYN候选2.677547564878…消费旧HS不重算。TQ实际J(c,p)/kerΘ图成立，PKE96T^-1ΘP/physical低列/finitehigh/全mean/νSchur不删；该run不再轮询或重算。
 
 第6批45940225760/1成功publication c92c87d99129c402b8e18e22a831f8d3a1c09b8a，128whole metadata，gross805556B−receipt69422B=net736134B，receipt SHA c796f5562473709a77dfb0717ceec39bb74d383bb29ef4629a61b8fc4acb474a。H/open§8基于658c完整不可变历史压缩更新，原义务不撤；04:30 probe仍无terminal环境。
+
+### 2026-11-27 ARHI：完整relative参数标架/位置实际完成
+
+已证明/数值认证：RHI45933988440/1科学03:25:17–04:21:04、3343.164s，4/4成功，actual15267B SHA1f9de92403edcacc610e3fb02b40867ea00932845a1b49d647fc40f21722a576，execution29191B SHAdf9b0cc0c45da4290a003cfc8c91d5503ca5b317504aac443817b05f6505056b。完整2847cells、18carrier[2048,18] SHA077023dbb90fc3cf751a73634bb63445e139def8a26b0830a0aa3eabe5e5f4f8/orderedchain全保。真means=(0,[±8.65e−6],0,[-.0249±4.50e−5],0,[.0036±4.22e−5])，u2符号未成，Eu≈7.210855e−6/Ey≈9.750080e−6。actual Q_b/F_b/Cθ独立，不冒world锚；下一真whole生成唯一首WMR4，不重旧target/RHI dispatch。

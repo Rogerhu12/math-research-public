@@ -1,11 +1,11 @@
 # 交接：可见振幅的精确闭等距族
 
-维护会话：visible-exact-astra-fb31ed6-20261127；更新：2026-11-27 04:36:51 UTC。
+维护会话：visible-exact-astra-fb31ed6-20261127；更新：2026-11-27 04:36:59 UTC。
 **总任务未完成，持续研究，不等用户回复。**
 
 ## 规则与实际环境
 
-本会话已partial+sparse clone两仓并pull main，读根全部规矩、topic README/H/open/log及接续notes。公开根/topic规则核至04b521c87840d4dd35f584157333a5a9aed23fcc（相对12385db351ab03292b18db4cfc40e86754aadc89无diff）；每次刷新核两README，至少每小时。私库04:03:28 UTC API刷新8e02ac56234cae106cb36c515af382fbf8633033，根README无diff，QUEUE仍“进行中（visible-exact-astra-fb31ed6-20261127 / 2026-11-27）”；初claim594e561b05a758bd8c02840ca4fbf574cd707436，最后实际pull3673eb091d9fa2f558e9bdfdfc443e478832367c。下次私库刷新不晚于05:03 UTC。
+本会话已partial+sparse clone两仓并pull main，读根全部规矩、topic README/H/open/log及接续notes。公开根/topic规则核至66de8242cec51abe444d7a80013cad8a5894eddf（相对12385db351ab03292b18db4cfc40e86754aadc89无diff）；每次刷新核两README，至少每小时。私库04:03:28 UTC API刷新8e02ac56234cae106cb36c515af382fbf8633033，根README无diff，QUEUE仍“进行中（visible-exact-astra-fb31ed6-20261127 / 2026-11-27）”；初claim594e561b05a758bd8c02840ca4fbf574cd707436，最后实际pull3673eb091d9fa2f558e9bdfdfc443e478832367c。下次私库刷新不晚于05:03 UTC。
 03:00前磁盘满后terminal失联，04:30 probe仍无环境；按根规8仅GitHub集成<100KB文本。root独占main updater，最新父/force=false/expected_sha；拒旧父即读最新head重base再推至成功。原source35ff439e后GF六件旧排版未commit，恢复时不得重复；缓存迁移无成功回执。令牌只CLI，不写文件或提交；无AGENTS。
 科学仅Actions，旧成功禁重；本地仅证明/静态/metadata/新saved有理组合。规12不加审批复核门，结论成即推，root LOG不动。topic≤200MB、H<10KB、open<30KB、单文本<100KB，禁可重建大数组。第5批45934384748/c264c5e6净省737184B；第6批45940225760/c92c87d9净省736134B（gross805556−receipt69422），128新旧JSON只删字符串外空白，11537当前source/manifest全引用排除。第6receipt SHA c796f5562473709a77dfb0717ceec39bb74d383bb29ef4629a61b8fc4acb474a；原完整baseline/五旧批不动，科学0。
 
@@ -27,7 +27,7 @@ geometry43584188751/26只在同η0全core+caps物理C0≤1e−4、|δν|≤1e−
 3. **Θ坐标逆已实际通过。** UDRC21 45933303391/1（6ecc2213）04:18:42全21/21 success，actual42477B/17c721993bb6488ec48918c50caf70c84785ca54cb004fbc51d11de1c6eb14bc，execution52265B/de2b9e0f2a1f424cd4c644ab23839bf715590e4153058517e66706a3d79b768c。lowΘ error≈.316981860，完整ρ≈.799597509<1，||(ΘE96a)^−1||<12.588；GYN whole norm≈2.677547565。UACT全21球登记，停止旧run监控/重算。TQ J(c,p)/kerΘ图可用，PKE96T^-1ΘP/physical列/两mean/ν全保，非fullSchur。ASR全2048/2、OT全10/96×2240锁，旧巨大alpha费与全SHA保原账；新21不重ASR/IR/OT。
 4. **DWTB/BNC。** DWTB9 45935081577/1（282e03e4）04:29首whole16975B/0ee1df2a93ea014ddad0e105933290b501960f14fed2ef299e4e5200de7c2ccf，0/9，必要SN恢复1610/3146和6440subcells，无failure。65current，manifest8fb9adfbb646241d5377aaa5511013b6a3cb9180bb0c64cdd1d9bce649ed00a0；grid恢复止旧quadrature前，不冒BW。BNC完整G/a相位及全joint费用a6f34c14，5脚本+entry98b7823a冻结，160current/51history与更强restore_only保；DWTB全9成功后才制首次7targets入口，PO配对不当全列。
 5. **ν/phase。** NP/NH/PO/APA/ASB/PHI whole锁；ASB幅度(−.006275,−.006264)/high97<5.330e−5，APHI phase(.038736784,.038768096)/逆25.82只strict particular。PP/CP保regular defect/mean/nonmeanphase/E′a；CP 1/60<S<3/50仅PD.7候选。P96全6成，scientific33896B/31a0d69b3fa53ada9ed73284c24fd49266fe9a4ad855ce1bc73548c478009a53，joint96radius<.000227442，首signed(.0028306,.0029694)，exact center208967022709991/72057594037927936；true_PDE_corrected_columns=false。AP96 f7805546不冒真实解phase。
-6. **RHI/height。** RHI45933988440/1（2e59ff1c）04:21:04全4成，science3343.164s；actual15267B/1f9de92403edcacc610e3fb02b40867ea00932845a1b49d647fc40f21722a576，execution29191B/df9b0cc0c45da4290a003cfc8c91d5503ca5b317504aac443817b05f6505056b。2847cells，18carrier[2048,18]SHA077023dbb90fc3cf751a73634bb63445e139def8a26b0830a0aa3eabe5e5f4f8。true means=(0,±8.65e−6,0,−.0249±4.50e−5,0,.0036±4.22e−5)，u2符号未成，Eu≈7.210855e−6/Ey≈9.750080e−6；relative I/0不当world锚。
+6. **RHI/height。** RHI45933988440/1（2e59ff1c）04:21:04全4成，science3343.164s；actual15267B/1f9de92403edcacc610e3fb02b40867ea00932845a1b49d647fc40f21722a576，execution29191B/df9b0cc0c45da4290a003cfc8c91d5503ca5b317504aac443817b05f6505056b。2847cells，18carrier[2048,18]SHA077023dbb90fc3cf751a73634bb63445e139def8a26b0830a0aa3eabe5e5f4f8。true means=(0,±8.65e−6,0,−.0249±4.50e−5,0,.0036±4.22e−5)，u2符号未成，Eu≈7.210855e−6/Ey≈9.750080e−6；ARHI完整proof已登记，relative I/0不当world锚。
 RRM原负窗两mean receiver846be8c；WMR真detQ=−1/完整Aᵀ(Jy+δJx)/两mean/rigid ports保，五source92f1d660冻结；WRC658c3109完整reference高度与κF=.000232743/原弱窗94000/6650/3000/8850 receiver已成。actualQ_b/F_b差独立。下一唯一WMR4入口消费真RHI whole，同次恢复/8192grid，原3加新第4target均只首次一次。
 
 ## 实际尾端参数响应
