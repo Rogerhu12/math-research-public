@@ -1,15 +1,17 @@
 {
-  "message": "ISP: return exact T0 norm H8 image and continue isolated D27 fibers",
-  "parentCommit": "8b6c340e6640bb240dedf708f8b9ad52649eadbd",
+  "message": "ISP: prove original Delta-zero equal-weight twenty-degree compatibility cover",
+  "parentCommit": "60a44f52494882b380b909f294835d409c7efc1c",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-Phi-zero-rank-one-value-T0-norm-H8-input-and-actual-other-root-chart.md",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-rank-one-value-T0-norm-H8-other-root-receipt-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-generic-LS-W-D27-unfinished-isolated-original-return-8542.py",
-    ".github/workflows/invariant-subspace-w-d-twenty-seven-unfinished-isolated-8542.yml",
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-equal-singleton-equal-weight-Delta-zero-original-compatibility-20-cover.md",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-equal-singleton-equal-weight-Delta-zero-20-cover-receipt-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-equal-singleton-equal-weight-Delta-zero-full-original-QQ-return-8542.py",
+    ".github/workflows/invariant-subspace-equal-singleton-equal-weight-delta-zero-full-original-qq-8542.yml",
+    "topics/invariant-subspace-problem/notes/2026-11-27-handoff-before-equal-value-Delta-zero-twenty-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-27-open-before-equal-value-Delta-zero-twenty-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -19,6 +21,6 @@
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
   "dispatchWorkflows": [
-    "invariant-subspace-w-d-twenty-seven-unfinished-isolated-8542.yml"
+    "invariant-subspace-equal-singleton-equal-weight-delta-zero-full-original-qq-8542.yml"
   ]
 }
