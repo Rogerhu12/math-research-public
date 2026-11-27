@@ -1,0 +1,666 @@
+{
+  "schema": "isp-W-global-explicit-monic-Y-original-linear-system-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "proof": {
+    "blob": "25d00408428591f6216e715c42d85e60f22b1528",
+    "bytes": 6348,
+    "sha256": "b05ff3527b18bfd5170e0058314f247433f18fd3181fc4d235abc884b274130b"
+  },
+  "source": {
+    "blob": "86bd0e68eed8cbbf2053603b136decbc406067b9",
+    "sha256": "0e3be45e5daccec0e03c8caef3d868557f7d2da5eb2e3abede3ee71a82c5aad4",
+    "bytes": 21215
+  },
+  "actual": {
+    "run": 45979307745,
+    "job": 140438859151,
+    "driver": {
+      "elapsed_seconds": 9.457148185000001,
+      "max_child_rss_kib": 145092,
+      "ordinary_isp_claim": false,
+      "rules_reads": [
+        {
+          "after": "91cbf10805241f38b443b2e9761aa3e6fa25ebc6",
+          "before": "672c19ae756884217d82050cce6761742f91b167",
+          "rules_git_blobs": {
+            "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+            "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+          },
+          "rules_unchanged": true,
+          "utc": "2026-11-27T10:07:03.561676+00:00"
+        }
+      ],
+      "run_attempt": "1",
+      "run_id": "45979307745",
+      "schema": "isp-frozen-exact-actions-execution-v1",
+      "session": "Astra-ISP-8542378f-20261127",
+      "source_commit": "672c19ae756884217d82050cce6761742f91b167",
+      "source_exit_code": 0,
+      "source_git_blob": "86bd0e68eed8cbbf2053603b136decbc406067b9",
+      "source_sha256": "0e3be45e5daccec0e03c8caef3d868557f7d2da5eb2e3abede3ee71a82c5aad4",
+      "stdout_bytes": 18670,
+      "stdout_sha256": "fdbf404760de6054e82b20b85be830c97a580459748413b79348f159b9e459bf",
+      "stop_reason": null
+    },
+    "mathRecords": [
+      {
+        "stage": "new_W_global_Y_quadratic_head_original_identities",
+        "B": "w^2-2(1-Q)w+(1-Q)(k+1)",
+        "L": "2u*w-k(u-ell)",
+        "w0": "k(u-ell)/(2u)=(k+2)(Q-2)/(2V)",
+        "originalMeanHeadProductsActuallyVerified": true,
+        "N1HeadIdentity": "N1_head/Nunit = (w-1)+aexact*B+bexact*(w-w0)",
+        "Nunit": "4*M^2*Q^3/((1-Q)*k*u^2*P02)",
+        "aExact": {
+          "numeratorDegrees": [
+            6,
+            9,
+            0,
+            0,
+            0
+          ],
+          "denominatorDegrees": [
+            7,
+            10,
+            0,
+            0,
+            0
+          ],
+          "numeratorTerms": 40,
+          "bytes": 1139,
+          "sha256": "8536a2c569087528e6507fdfea0d6dfd255540e11e0c65f05ce3a4dcc2f3ed79",
+          "exactExpression": "e^6*k^5 - 5/4*e^5*k^6 - 7/2*e^5*k^5 - 4*e^5*k^4 - 1/8*e^4*k^8 - 9/8*e^4*k^7 - 6*e^4*k^6 - 65/4*e^4*k^5 - 22*e^4*k^4 - 12*e^4*k^3 + 1/32*e^3*k^9 + 7/16*e^3*k^8 + 125/32*e^3*k^7 + 351/16*e^3*k^6 + 303/4*e^3*k^5 + 155*e^3*k^4 + 172*e^3*k^3 + 80*e^3*k^2 - 3/16*e^2*k^8 - 5/2*e^2*k^7 - 131/8*e^2*k^6 - 273/4*e^2*k^5 - 375/2*e^2*k^4 - 323*e^2*k^3 - 312*e^2*k^2 - 128*e^2*k + 9/32*e*k^7 + 57/16*e*k^6 + 157/8*e*k^5 + 255/4*e*k^4 + 137*e*k^3 + 196*e*k^2 + 168*e*k + 64*e - 1/8*k^6 - 3/2*k^5 - 7*k^4 - 16*k^3 - 18*k^2 - 8*k / e^7*k^6 - 3/2*e^6*k^7 - 6*e^6*k^6 - 9*e^6*k^5 + 17/16*e^5*k^8 + 17/2*e^5*k^7 + 57/2*e^5*k^6 + 46*e^5*k^5 + 32*e^5*k^4 - 3/8*e^4*k^9 - 9/2*e^4*k^8 - 393/16*e^4*k^7 - 153/2*e^4*k^6 - 139*e^4*k^5 - 136*e^4*k^4 - 56*e^4*k^3 + 1/16*e^3*k^10 + e^3*k^9 + 31/4*e^3*k^8 + 37*e^3*k^7 + 115*e^3*k^6 + 232*e^3*k^5 + 288*e^3*k^4 + 192*e^3*k^3 + 48*e^3*k^2 - 3/16*e^2*k^9 - 3*e^2*k^8 - 167/8*e^2*k^7 - 165/2*e^2*k^6 - 403/2*e^2*k^5 - 308*e^2*k^4 - 280*e^2*k^3 - 128*e^2*k^2 - 16*e^2*k + 3/16*e*k^8 + 3*e*k^7 + 20*e*k^6 + 72*e*k^5 + 151*e*k^4 + 184*e*k^3 + 120*e*k^2 + 32*e*k - 1/16*k^7 - k^6 - 13/2*k^5 - 22*k^4 - 41*k^3 - 40*k^2 - 16*k"
+        },
+        "bExact": {
+          "numeratorDegrees": [
+            6,
+            8,
+            1,
+            0,
+            0
+          ],
+          "denominatorDegrees": [
+            6,
+            8,
+            0,
+            0,
+            0
+          ],
+          "numeratorTerms": 67,
+          "bytes": 1303,
+          "sha256": "fc73b51c3b259b51455fdef6d68356def2ee1fb90c85ef68754be08198cb8cab",
+          "exactExpression": "-2*e^6*k^4 + 11/4*e^5*k^5 + 1/2*e^5*k^4*x + 15/2*e^5*k^4 + 8*e^5*k^3 + 1/4*e^4*k^7 + 25/16*e^4*k^6 - 3/8*e^4*k^5*x + 45/8*e^4*k^5 - 1/2*e^4*k^4*x + 17/2*e^4*k^4 + 4*e^4*k^3 - 1/16*e^3*k^8 - 7/16*e^3*k^7 + 1/8*e^3*k^6*x - 7/4*e^3*k^6 + 1/4*e^3*k^5*x - 27/4*e^3*k^5 - e^3*k^4*x - 25*e^3*k^4 - 4*e^3*k^3*x - 58*e^3*k^3 - 4*e^3*k^2*x - 68*e^3*k^2 - 32*e^3*k - 1/16*e^2*k^8 - 11/16*e^2*k^7 + 1/4*e^2*k^6*x - 4*e^2*k^6 + 2*e^2*k^5*x - 63/4*e^2*k^5 + 6*e^2*k^4*x - 39*e^2*k^4 + 8*e^2*k^3*x - 48*e^2*k^3 + 4*e^2*k^2*x - 4*e^2*k^2 + 48*e^2*k + 32*e^2 + 1/8*e*k^7 + 1/8*e*k^6*x + 11/8*e*k^6 + 5/4*e*k^5*x + 13/2*e*k^5 + 5*e*k^4*x + 19*e*k^4 + 11*e*k^3*x + 41*e*k^3 + 16*e*k^2*x + 64*e*k^2 + 16*e*k*x + 60*e*k + 8*e*x + 24*e - 1/16*k^6 - 1/8*k^5*x - 5/8*k^5 - 3/2*k^4*x - 2*k^4 - 7*k^3*x - k^3 - 16*k^2*x + 7*k^2 - 18*k*x + 14*k - 8*x + 8 / e^6*k^4 - 3/2*e^5*k^5 - 6*e^5*k^4 - 8*e^5*k^3 + 17/16*e^4*k^6 + 17/2*e^4*k^5 + 27*e^4*k^4 + 40*e^4*k^3 + 24*e^4*k^2 - 3/8*e^3*k^7 - 9/2*e^3*k^6 - 47/2*e^3*k^5 - 68*e^3*k^4 - 112*e^3*k^3 - 96*e^3*k^2 - 32*e^3*k + 1/16*e^2*k^8 + e^2*k^7 + 59/8*e^2*k^6 + 65/2*e^2*k^5 + 183/2*e^2*k^4 + 164*e^2*k^3 + 176*e^2*k^2 + 96*e^2*k + 16*e^2 - 1/8*e*k^7 - 2*e*k^6 - 27/2*e*k^5 - 50*e*k^4 - 110*e*k^3 - 144*e*k^2 - 104*e*k - 32*e + 1/16*k^6 + k^5 + 13/2*k^4 + 22*k^3 + 41*k^2 + 40*k + 16"
+        },
+        "allOriginalHeadProductsActuallyVerified": true,
+        "nominalNewDivisorsCanceledBeforeUse": true,
+        "allQuotientDenominatorsActuallyPaid": true,
+        "BofOnePaid": "k*(u-Q)",
+        "noUnpaidHeadInverse": true,
+        "claimExcluded": false,
+        "seconds": 0.7148724450000046
+      },
+      {
+        "stage": "new_W_entire_remaining_original_monic_Y_quadratic",
+        "summary": {
+          "numeratorDegrees": [
+            14,
+            20,
+            4,
+            2,
+            0
+          ],
+          "denominatorDegrees": [
+            13,
+            20,
+            0,
+            0,
+            0
+          ],
+          "numeratorTerms": 1720,
+          "bytes": 38712,
+          "sha256": "00ebebbd7e0b470781046040f458e3cd73adfe984f038171c5f125cd9ee3a238"
+        },
+        "A": {
+          "numeratorDegrees": [
+            10,
+            14,
+            4,
+            0,
+            0
+          ],
+          "denominatorDegrees": [
+            9,
+            14,
+            0,
+            0,
+            0
+          ],
+          "numeratorTerms": 361,
+          "bytes": 7336,
+          "sha256": "0d426dbbf5e11382c0cd73c17594c87efd0042e3a427b45524798e5cba60fbc0"
+        },
+        "C": {
+          "numeratorDegrees": [
+            14,
+            20,
+            4,
+            0,
+            0
+          ],
+          "denominatorDegrees": [
+            13,
+            20,
+            0,
+            0,
+            0
+          ],
+          "numeratorTerms": 783,
+          "bytes": 18459,
+          "sha256": "589b00646c398fbd168b212a26362829032ea23807477e232875374c6945facf"
+        },
+        "allFiveOriginalTraceProductsActuallyVerified": true,
+        "leadingY2ExactlyOne": true,
+        "allDenominatorsPreviouslyPaid": true,
+        "wholeD27B239AndJ19ZeroFibersIncluded": true,
+        "certificateBytes": 46881,
+        "certificateSHA256": "078013c6106077b0e12f68a645b1165a81978d0128593bea4eb6db840d84d9eb",
+        "claimExcluded": false,
+        "seconds": 0.7756762039999998
+      },
+      {
+        "stage": "new_W_global_monic_Y_original_linear_remainder",
+        "name": "E1",
+        "summary": {
+          "numeratorDegrees": [
+            18,
+            24,
+            6,
+            1,
+            0
+          ],
+          "denominatorDegrees": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "numeratorTerms": 3584,
+          "bytes": 81851,
+          "sha256": "3cd225ad38c663569a434212bfceaa025debdb74ae2c7d2c861bbaf76f481d79"
+        },
+        "paidRemoved": [
+          [
+            "e",
+            1
+          ]
+        ],
+        "completeOriginalForwardAndReverseIdentity": true,
+        "allFullOriginalTracesMultipliedBack": true,
+        "noNewLeadingInverse": true,
+        "claimExcluded": false,
+        "seconds": 0.8538874730000003
+      },
+      {
+        "stage": "new_W_global_monic_Y_original_linear_remainder",
+        "name": "EBe",
+        "summary": {
+          "numeratorDegrees": [
+            15,
+            20,
+            6,
+            1,
+            0
+          ],
+          "denominatorDegrees": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "numeratorTerms": 2444,
+          "bytes": 52223,
+          "sha256": "ac11a3e563bdf4dc63ba5eabba1d01b8566c751d5d8b513ec076b4b5a130a3bd"
+        },
+        "paidRemoved": [
+          [
+            "e",
+            1
+          ]
+        ],
+        "completeOriginalForwardAndReverseIdentity": true,
+        "allFullOriginalTracesMultipliedBack": true,
+        "noNewLeadingInverse": true,
+        "claimExcluded": false,
+        "seconds": 0.9066127920000042
+      },
+      {
+        "stage": "new_W_global_monic_Y_original_linear_remainder",
+        "name": "N1",
+        "summary": {
+          "numeratorDegrees": [
+            20,
+            29,
+            6,
+            1,
+            0
+          ],
+          "denominatorDegrees": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "numeratorTerms": 4645,
+          "bytes": 115276,
+          "sha256": "74cad46a1de0086fcaf34fc1467a32797d3847f3951a971cc8de6875b0e2225b"
+        },
+        "paidRemoved": [
+          [
+            "e",
+            2
+          ],
+          [
+            "u",
+            1
+          ]
+        ],
+        "completeOriginalForwardAndReverseIdentity": true,
+        "allFullOriginalTracesMultipliedBack": true,
+        "noNewLeadingInverse": true,
+        "claimExcluded": false,
+        "seconds": 1.0253711110000054
+      },
+      {
+        "stage": "new_W_global_monic_Y_original_linear_remainder",
+        "name": "NS",
+        "summary": {
+          "numeratorDegrees": [
+            36,
+            48,
+            11,
+            1,
+            0
+          ],
+          "denominatorDegrees": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "numeratorTerms": 21915,
+          "bytes": 715656,
+          "sha256": "fd1e97d595e8a56b958b7c1e858e6d49d2005e0c1f70d47c579371108b9d8524"
+        },
+        "paidRemoved": [],
+        "completeOriginalForwardAndReverseIdentity": true,
+        "allFullOriginalTracesMultipliedBack": true,
+        "noNewLeadingInverse": true,
+        "claimExcluded": false,
+        "seconds": 1.8940016120000038
+      },
+      {
+        "stage": "new_W_global_monic_Y_original_linear_remainder",
+        "name": "PS",
+        "summary": {
+          "numeratorDegrees": [
+            37,
+            48,
+            11,
+            1,
+            0
+          ],
+          "denominatorDegrees": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "numeratorTerms": 22930,
+          "bytes": 747911,
+          "sha256": "6dfcd698f8c635871780830ac4abdd57a34f44843699ffa042620cc2ba30edc2"
+        },
+        "paidRemoved": [],
+        "completeOriginalForwardAndReverseIdentity": true,
+        "allFullOriginalTracesMultipliedBack": true,
+        "noNewLeadingInverse": true,
+        "claimExcluded": false,
+        "seconds": 2.8075435970000058
+      },
+      {
+        "stage": "new_W_global_monic_Y_physical_D_linear_return",
+        "summary": {
+          "numeratorDegrees": [
+            22,
+            31,
+            6,
+            1,
+            0
+          ],
+          "denominatorDegrees": [
+            20,
+            31,
+            0,
+            0,
+            0
+          ],
+          "numeratorTerms": 5383,
+          "bytes": 148326,
+          "sha256": "13aaa1d84b9fb7b8718a0ea363480f4e2df5353938c81076de56f3da664f622f"
+        },
+        "originalPhysicalDUnitRetained": true,
+        "exactDminusOriginalMonicMultipleVerified": true,
+        "noNormUnitAssumed": true,
+        "claimExcluded": false,
+        "seconds": 2.8785291599999994
+      },
+      {
+        "stage": "new_W_global_true_two_generator_Y_multiplication",
+        "basis": [
+          "1",
+          "Y"
+        ],
+        "multiplicationRows": [
+          [
+            "0",
+            "1"
+          ],
+          [
+            "-C",
+            "-A"
+          ]
+        ],
+        "allTenNecessaryOriginalRowsActuallyVerified": true,
+        "rowLabels": [
+          "E1",
+          "EBe",
+          "N1",
+          "NS",
+          "PS",
+          "Y*E1",
+          "Y*EBe",
+          "Y*N1",
+          "Y*NS",
+          "Y*PS"
+        ],
+        "numberOfNonzeroRows": 10,
+        "moduleFreenessNotAssumed": true,
+        "claimExcluded": false,
+        "seconds": 6.027585709
+      },
+      {
+        "stage": "new_W_two_generator_original_parameter_w_cofactor",
+        "rows": [
+          "EBe",
+          "E1"
+        ],
+        "degrees_e_k_w": [
+          20,
+          27,
+          7
+        ],
+        "terms": 2501,
+        "sha256": "6d00e4a7cd1084ca3ccb23e03848d8449ee929e899b826bee37078ddf14f7794",
+        "paidRemoved": [
+          [
+            "e",
+            2
+          ],
+          [
+            "k",
+            2
+          ],
+          [
+            "distinct_p_q",
+            2
+          ],
+          [
+            "bc",
+            2
+          ],
+          [
+            "previous_complete_H_zero",
+            1
+          ],
+          [
+            "previous_general_ell_zero",
+            1
+          ],
+          [
+            "previous_W_u_equals_Q",
+            1
+          ]
+        ],
+        "allFullOriginalConstantCofactorProductsVerified": true,
+        "claimExcluded": false,
+        "seconds": 6.1901883650000045
+      },
+      {
+        "stage": "new_W_two_generator_original_parameter_w_cofactor",
+        "rows": [
+          "EBe",
+          "NS"
+        ],
+        "degrees_e_k_w": [
+          41,
+          53,
+          13
+        ],
+        "terms": 16653,
+        "sha256": "cce8170c36228d89d1a62f769bda7b50bdb327cf0fe45afeadf0ffce2c0d70bc",
+        "paidRemoved": [
+          [
+            "k",
+            2
+          ],
+          [
+            "distinct_p_q",
+            2
+          ],
+          [
+            "bc",
+            2
+          ],
+          [
+            "previous_general_ell_zero",
+            1
+          ],
+          [
+            "previous_W_u_equals_Q",
+            1
+          ]
+        ],
+        "allFullOriginalConstantCofactorProductsVerified": true,
+        "claimExcluded": false,
+        "seconds": 7.768616750000007
+      },
+      {
+        "stage": "new_W_two_generator_original_parameter_w_cofactor",
+        "rows": [
+          "EBe",
+          "PS"
+        ],
+        "degrees_e_k_w": [
+          42,
+          53,
+          13
+        ],
+        "terms": 17319,
+        "sha256": "bdadbb727b95ea83ed4b7d19348bb5a1d783318e9500c65a26910116986d6c46",
+        "paidRemoved": [
+          [
+            "k",
+            2
+          ],
+          [
+            "distinct_p_q",
+            2
+          ],
+          [
+            "bc",
+            2
+          ],
+          [
+            "previous_general_ell_zero",
+            1
+          ],
+          [
+            "previous_W_u_equals_Q",
+            1
+          ]
+        ],
+        "allFullOriginalConstantCofactorProductsVerified": true,
+        "claimExcluded": false,
+        "seconds": 9.374878480999996
+      },
+      {
+        "stage": "new_W_global_monic_Y_quadratic_and_original_linear_system_complete",
+        "sourceSHA256": "0e3be45e5daccec0e03c8caef3d868557f7d2da5eb2e3abede3ee71a82c5aad4",
+        "wholeRemainingWChart": true,
+        "allOriginalHeadsAndFiniteRowsReturned": true,
+        "explicitGlobalMonicQuadraticActuallyFormed": true,
+        "selectedOriginalSystemBidirectionallyEquivalent": true,
+        "basis": [
+          "1",
+          "Y"
+        ],
+        "basisNotClaimedFree": true,
+        "allOriginalNSPSLinearRemaindersVerified": true,
+        "allOriginalPhysicalDReturnVerified": true,
+        "newParameterOrGeometricLeadingInverted": false,
+        "D27B239J19ZeroFacesRetained": true,
+        "constantCofactorProfiles": [
+          {
+            "rows": [
+              "EBe",
+              "E1"
+            ],
+            "degrees_e_k_w": [
+              20,
+              27,
+              7
+            ],
+            "terms": 2501,
+            "sha256": "6d00e4a7cd1084ca3ccb23e03848d8449ee929e899b826bee37078ddf14f7794",
+            "paidRemoved": [
+              [
+                "e",
+                2
+              ],
+              [
+                "k",
+                2
+              ],
+              [
+                "distinct_p_q",
+                2
+              ],
+              [
+                "bc",
+                2
+              ],
+              [
+                "previous_complete_H_zero",
+                1
+              ],
+              [
+                "previous_general_ell_zero",
+                1
+              ],
+              [
+                "previous_W_u_equals_Q",
+                1
+              ]
+            ],
+            "allFullOriginalConstantCofactorProductsVerified": true
+          },
+          {
+            "rows": [
+              "EBe",
+              "NS"
+            ],
+            "degrees_e_k_w": [
+              41,
+              53,
+              13
+            ],
+            "terms": 16653,
+            "sha256": "cce8170c36228d89d1a62f769bda7b50bdb327cf0fe45afeadf0ffce2c0d70bc",
+            "paidRemoved": [
+              [
+                "k",
+                2
+              ],
+              [
+                "distinct_p_q",
+                2
+              ],
+              [
+                "bc",
+                2
+              ],
+              [
+                "previous_general_ell_zero",
+                1
+              ],
+              [
+                "previous_W_u_equals_Q",
+                1
+              ]
+            ],
+            "allFullOriginalConstantCofactorProductsVerified": true
+          },
+          {
+            "rows": [
+              "EBe",
+              "PS"
+            ],
+            "degrees_e_k_w": [
+              42,
+              53,
+              13
+            ],
+            "terms": 17319,
+            "sha256": "bdadbb727b95ea83ed4b7d19348bb5a1d783318e9500c65a26910116986d6c46",
+            "paidRemoved": [
+              [
+                "k",
+                2
+              ],
+              [
+                "distinct_p_q",
+                2
+              ],
+              [
+                "bc",
+                2
+              ],
+              [
+                "previous_general_ell_zero",
+                1
+              ],
+              [
+                "previous_W_u_equals_Q",
+                1
+              ]
+            ],
+            "allFullOriginalConstantCofactorProductsVerified": true
+          }
+        ],
+        "fullOriginalSystemExclusionClaim": false,
+        "claimExcluded": false,
+        "peakRssKiB": 145092,
+        "seconds": 9.37508604
+      }
+    ]
+  },
+  "wholeRemainingWChart": true,
+  "nominalUnpaidDivisionsActuallyCanceled": true,
+  "allNewLeadingZeroFacesRetained": true,
+  "fullOriginalValueSystemStillRequired": true,
+  "fullOriginalExclusion": false
+}
