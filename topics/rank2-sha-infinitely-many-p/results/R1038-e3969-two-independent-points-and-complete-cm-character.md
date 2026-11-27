@@ -273,8 +273,9 @@ $$
 $$
 这个候选在 H 的线性部分；它的三处导子指数四与 R1037 的较低
 27-Weil/δ-old 范围相容。**相容不是实际投影已非零。**
-完整 degree378 谱仍须实际返回该块的秩、全质量行、全部有限型、
-规范向量与原两输入的真实投影系数。
+完整 degree378 谱现已在 R1037 §9 实际返回：该块秩一、整质量行零、
+规范向量首阶六，两个原输入及其差的全投影均非零。全部有限 Schwartz
+向量和同一 Gaussian/frame 的识别仍须完整支付，不能只由该候选标签跳步。
 
 只有完成该来源识别，才可按已登记的原全权平方与 ordinary/signed
 插值、通常全 Selmer 比较，建立它自己的 $J_E$；
@@ -304,3 +305,195 @@ $$
 [R1037](R1037-original-degree378-full-finite-spectrum.md)。
 
 2026-11-27 09:29 UTC 根审：已独立读取上述两个原始 blob 的47628c行，模型与P、R、T坐标相符；秩、三同源/Kummer、三处局部导子及(22)的原三次符号均由本文手证，没有执行数学程序或引用数据库rank作为证明。
+
+
+## 8. 全部坏位单位、uniformizer 与原 Hermitian 类
+
+以下使用 R389 的算术 Frobenius reciprocity 和 R302 的
+$\chi_1=\psi_1|\cdot|^{-1/2}$ 规范。
+令 $\vartheta_a(t)=\operatorname{rec}(t)(a^{1/3})/a^{1/3}$。
+在三处，(20) 给 $\vartheta_{63}=\vartheta_{7\delta}$。
+记
+$$
+ g=1-3\delta,\qquad
+ u=q\omega^j g^k\bmod9,\quad
+ q\in\{1,2,4,5,7,8\},\quad0\le j,k\le2.
+ \tag{24}
+$$
+R389 已逐项证明这给全部54个单位，且
+$\vartheta_\delta(u)=\omega^k$、$\vartheta_\delta(\delta)=1$。
+
+### 8.1 新因子 $\vartheta_7$ 的完整方向
+
+$\vartheta_7$ 在有理三进单位上平凡。确切理由是复共轭固定
+$7^{1/3}$ 并反转 $\mu_3$，局部 reciprocity 相容性给
+$\vartheta_7(\bar t)=\vartheta_7(t)^{-1}$；对有理 t，
+其值同时有阶除二与除三，故为一。
+
+在两个7素理想，7的赋值都是一。算术 reciprocity 的 tame 公式是
+$$
+ \vartheta_{a,\mathfrak q}(t)=
+ \left((-1)^{v(a)v(t)}
+       \frac{a^{v(t)}}{t^{v(a)}}\bmod\mathfrak q\right)^{2},
+ \qquad \mathrm N\mathfrak q=7.
+ \tag{25}
+$$
+特别对单位 $\omega$，两处各给 $\omega^{-2}=\omega$。
+二处7为局部立方，其他有限点无贡献，主 idèle 积因而准确给
+$\vartheta_{7,3}(\omega)=\omega$。
+
+对 g，写 $g=-2h$、$h=1+3\omega$、$h\bar h=7$。
+在 $(h)$ 处 $\omega=2$，(25) 的值为
+$(\bar h/2)^2=3^2=2=\omega$；
+在 $(\bar h)$ 处 $\omega=4$，g为单位且值为
+$g^{-2}=2=\omega^2$。两者乘积为一，故
+$\vartheta_{7,3}(g)=1$。
+同样，$\bar\delta=-\delta$ 且 $-1$ 为立方，前面的共轭关系迫
+$\vartheta_{7,3}(\delta)=1$。
+于是全三处角色是
+$$
+ \boxed{\begin{aligned}
+ \vartheta_{7\delta}(q\omega^j g^k)&=\omega^{j+k},&
+ \vartheta_{7\delta}(\delta)&=1,\\
+ \chi_{E,3}(q\omega^j g^k)&=
+        \varepsilon(q)\omega^{-j-k},&
+ \chi_{E,3}(\delta)&=i,
+ \end{aligned}}
+ \quad
+ \varepsilon(q)=q\bmod3\in\{\pm1\}.
+ \tag{26}
+$$
+(26) 包含全部54个单位及统一化元，不由三个好位读取反猜。
+
+### 8.2 二、七处的原完整数据
+
+二处 twist 是局部立方，故
+$\chi_{E,2}(u)=\operatorname{Teich}_{\mu_3}(u\bmod2)$、
+$\chi_{E,2}(2)=-1$。
+
+令 $\gamma_7=(5+\delta)/2=3+\omega$，
+$\mathfrak q=(\gamma_7)$、$\bar{\mathfrak q}=(\bar\gamma_7)$。
+在两 residue embedding 中，$\delta$ 分别为2、5，$\omega$ 分别为4、2。
+由 (25) 取逆，七处单位角色在各自嵌入中都是 $u^2$。
+主 idèle 公式另外准确给
+$$
+ \boxed{\chi_{E,\mathfrak q}(\gamma_7)
+       =\omega^2\gamma_7/\sqrt7,\qquad
+ \chi_{E,\bar{\mathfrak q}}(\bar\gamma_7)
+       =\omega\bar\gamma_7/\sqrt7.}
+ \tag{27}
+$$
+例如 $\gamma_7\bmod9=4\omega g^2$，所以 (26) 给三处单位值1；
+二处值为 $\omega^2$，另一7处的单位值也是 $\omega^2$。
+其乘积为 $\omega$，再保无穷分量 $(\gamma_7/|\gamma_7|)^{-1}$，
+正好得到 (27) 第一式。第二式共轭。
+全局 $\delta$ 的两个7单位值为 $\omega,\omega^2$，乘积一，
+与 (26) 的 $\chi_3(\delta)=i$ 相容。
+
+### 8.3 原 Gauss 和及全局类
+
+保持 $\psi_{\mathrm{add},3}(t)=e^{-2\pi i\{t\}_3}$、
+$\psi_K=\psi_{\mathrm{add}}\circ\operatorname{Tr}$。
+三处 Tate 参数为 $c=\delta^5=9\delta$。
+对 $u=A+B\delta$ 有
+$\operatorname{Tr}(u/(2c))=B/9$。
+取 $\zeta=\zeta_9$，由 (24)–(26) 得
+$$
+ G_3=\sum_{q,j,k}\varepsilon(q)\omega^{j+k}\zeta^{-B(q,j,k)}
+     =-9.
+ \tag{28}
+$$
+这里无需数值求和：三类 j 的 B 分别是
+$-3qk,\ q(5-3k),\ q(4-3k)\bmod9$。
+k求和只留下 $q=2,5,8$，每个系数为 $-3$。
+j=0 的总和是−9；j=1、2 各是三个相隔三次幂的
+$\zeta$ 项之和，故为零。$\chi_3(c)=i$，归一因子9，所以
+$\epsilon_3(\chi_E,\psi_K/2)=-i$，再乘 $\chi_3(\delta)=i$ 得 +1。
+
+二处是 R302 的原 +1；split 七处两个 epsilon 的积是
+$\chi_{\mathfrak q}(-1)=1$，其 Hermitian 二次条件本来平凡。
+其他好位也为正；无穷处仍为解析 CM type，其 epsilon 为 i。
+因此全根数为 +1，而全部局部 dichotomy 对应
+$$
+ \boxed{\alpha_{\mathrm{Hermitian}}\in[1].}
+ \tag{29}
+$$
+这里 [1] 是 $K/\mathbf Q$ 范数商中的类；
+选 $\alpha=1$ 具体支付下节向量，不把它与最小 degree126/378 frame
+的尚待完整识别混为一谈。
+
+## 9. 原 conductor-four 三处 Schwartz 的完整新向量
+
+本节在 (29) 的实际代表 $\alpha=1$ 上，复用 R391 的原九维
+Schrödinger 模型和真实 Gaussian：
+$$
+ e_a=\mathbf1_{a/9+\mathbf Z_3},\qquad
+ V=\mathcal S(3^{-2}\mathbf Z_3/\mathbf Z_3),\qquad
+ \operatorname{vol}(\mathbf Z_3)=1 .
+ \tag{30}
+$$
+仍取整个 torus 的拓扑生成元
+$-1,\omega,g_*=(1+3\delta)/(1-3\delta)$。
+R391 的 Rao 核不变；把 (26) 代入其完整 splitting，得到
+$$
+ \mu_E(\omega)=\mu_E(-\omega)=-i\omega,\qquad
+ \mu_E(g_*)=\omega.
+ \tag{31}
+$$
+例如 $\delta(\omega-1)=3\omega^2$ 的角色值为 $\omega$；
+$\delta(-\omega-1)=\delta\omega^2$ 的值为 $i\omega$，
+分别连原 Weil/Hilbert 因子便得 (31)。
+$g_*$ 对应的 $\delta(g_*-1)=-9(1+3\delta)/14$ 与旧
+R391 相同，因为新 $\vartheta_7$ 在此单位为一。
+
+故 $g_*$ 的全部九列仍是
+$\omega^{1-a^2}e_a$，负号仍是反射 $a\mapsto-a$。
+整个不变向量只能在
+$\langle e_1+e_{-1},e_2+e_{-2},e_4+e_{-4}\rangle$。
+在此有序基，R391 的完整旧矩阵为
+$$
+ M=\frac1\delta
+ \begin{pmatrix}
+ \zeta^8&\zeta^5&\zeta^8\\
+ \zeta^5&\zeta^5&\zeta^2\\
+ \zeta^8&\zeta^2&\zeta^2
+ \end{pmatrix},\qquad M^3=I,\quad M^* =M^2,\quad\operatorname{Tr}M=0 .
+ \tag{32}
+$$
+新 $\omega$ 矩阵准确是 $\omega M$，不是任换旧不变线。
+于是新向量为
+$$
+ \boxed{\begin{aligned}
+ f_1&=3-\delta(\zeta^2-\zeta^7),\\
+ f_2&=\delta(\zeta-\zeta^8),\\
+ f_4&=-\delta(\zeta^2-\zeta^7),\\
+ \phi_{E,3}&=f_1(e_1+e_{-1})+
+             f_2(e_2+e_{-2})+f_4(e_4+e_{-4}).
+ \end{aligned}}
+ \tag{33}
+$$
+确切地，$f=3(I+\omega M+\omega^2M^2)(1,0,0)^{\mathsf t}$。
+(32) 给 $\omega Mf=f$，再用 (31) 的另两生成元，证明它被
+整个原 torus 固定。
+
+所有坐标实，因为 $\bar\delta=-\delta$、
+$\bar\zeta=\zeta^{-1}$。
+在整数基 $1,\zeta,\ldots,\zeta^5$ 中，首坐标是
+$3+\zeta-\zeta^2-\zeta^4-2\zeta^5$，非零；
+这是 degree6 最小多项式 $\zeta^6+\zeta^3+1=0$ 下的准确余式。
+正交投影 $\Pi=(I+\omega M+\omega^2M^2)/3$ 给 $f=9\Pi e_1$，故
+$$
+ \boxed{f_1^2+f_2^2+f_4^2=9f_1,\qquad
+        \|\phi_{E,3}\|^2=18f_1>0.}
+ \tag{34}
+$$
+这已经支付真实 wild 原向量、相位、支撑和范数。
+R1037 §9 已独立返回真正的 degree378 完整谱和原两输入系数；
+本节没有用局部向量存在预填该计算。全局 Gaussian/frame 及其余局部
+向量仍须与这个实际完整块对齐。
+
+本节直接使用 R391 已完整给出的核和矩阵，未重做已登记的旧结论。
+新步骤是 (26)、(31) 的角色差以及 (33) 的真正新不变线。
+原 splitting 的发表来源仍为 Yang 1999 Appendix (A1)–(A3)；
+[作者全文](https://people.math.wisc.edu/~tonghaiyang/rank.pdf)，
+本次已重新读取原局部角色与 lattice-to-Schrödinger 条件。
