@@ -178,7 +178,7 @@ Deddens自伴MASA、全部可分重数有限成本投影、全2-adic平移距离
 
 [最大图低余孔C2费用](results/R271-appendix-maximal-graph-low-excess-hole-square-cost.md)已付同一h的明确扇区，实际y有界物理孔遂入原图核心。新[临界小指数物理孔矩准则](results/R271-appendix-critical-small-physical-exponential-maximal-graph-core.md)进一步给s0=(2+2log(3/2))/14：y∈D(G)且e^(s0N)y∈H，则h∈C2并在原图核心；等号的真实8^j余量完整支付。未知Green缺陷Y并未证明有该矩，物理孔平滑未证保Y，同W的Gamma及F/R/Z继续。
 
-**整W/y1与全图monic Y²已付；[原值身份和s的四生成塔](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-original-value-identities-and-monic-four-generator-tower.md)新完成。** qs=s²−Dlinear/M完整回原第二矩；原N4(V)纠正、Delta/compat与个别NP两谱2.477秒全返，形式四生成矩阵已明确。7681be8c只完成前三Gram余行，第三矩后置展开区间180.075秒/SIGALRM，十行/八列/二十乘法未齐，冻结不加时。下一每次标量乘法先四维约化；全D27/B239/J19零域、原D和其它物理条件保留。
+**整W/y1、monic Y²与[原值四生成塔](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-original-value-identities-and-monic-four-generator-tower.md)已付。** 7681原值身份2.477秒通过，前三Gram行后180.075秒/SIGALRM未齐十行/八列，准确冻结。新f9409e5f在QQ(e,k,w)逐单项式原迹返回十行及八基底列；二十行作用由线性推出，180秒/4GiB首次待实际。全D27/B239/J19零面、原D及全部物理条件保留，不用范数逆。
 
 **[整个一般ell=0已闭](results/R150-appendix-unit211-general-ell-zero-complete-original-exclusion.md)，全局可付ell。** 完整来源/零域/失败身份保总定理及快照；T0=0和J=Q也已整闭，继续当前原值输入，不重放旧支。
 

@@ -514,3 +514,7 @@ AI-assisted GPT-6 Astra Pro：审原Gram重建、weighted N/P→HA/HB原迹、�
 - 7681be8c新原两矩/monic s塔1.442秒、原N4(V)纠正和个别NP两谱2.477秒完成；数学上两单首一式给四生成及明确符号乘法矩阵，已成部分直接登记。
 - 同一run45981471920/job140446181313在前三Gram余行后、下一第三矩的约化/归一化/编码区间180.075秒/SIGALRM，RSS96736KiB；日志不足细分瓶颈，无十行/八列/二十乘法证书，冻结不加时。
 - 转四维逐乘法的新原输入。一般Phi0必须保N4(V)本身，不能以其Phi倍数相容式替代；当前Delta0/W0的Phi已付，不影响已证身份。
+
+2026-11-27 18:38 Asia/Taipei｜Astra-ISP-8542378f-20261127
+- 新f9409e5f把W原值系数置QQ(e,k,w)，形式Y/s单项式先回原两首一关系；十原值行与八基底乘法列为新输入，所有标量分母仍有已付依据。
+- 180秒/4GiB首次待实际；新workflow invariant-subspace-w-native-coefficient-full-values-four-generators-8542.yml，不加时重跑旧7681环境展开门，二十行乘法由严格线性推出。
