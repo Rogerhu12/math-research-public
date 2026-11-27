@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [W三原首一F范数与五新常数列余子式](results/R150-appendix-unit211-W-monic-F-norm-five-original-three-column-cofactors.md)：70603完整原恒等及三列身份返，必要式λ度13/13/13/10/10，五头零面全保。
+
 - [Phi首头开图的真实D完整原理想返回](results/R150-appendix-unit211-Phi-zero-first-quadratic-head-actual-D-sixth-degree-necessary-equation.md)：BD∈原四式理想，必要P6度39/20/6；保存精确core，整个头零曲线与λ首项零均保留。
 
 - [Phi例外图精确QQ重数与严格146基点](results/R150-appendix-unit211-Phi-zero-exceptional-exact-QQ-local-multiplicities-and-146-cover.md)：原R的φ1/H6重数10/2，首一2011余投影与S全模Bézout、完整Vandermonde重数计点。
