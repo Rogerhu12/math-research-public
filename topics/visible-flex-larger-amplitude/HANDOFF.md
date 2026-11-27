@@ -5,7 +5,7 @@
 
 ## 规则与同步
 
-root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`。07:21终端失效；15:03及21:33重置后唯一探测均失败，恢复即真pull。云核至`0eaa860726ab795d8522b051b5547d94c5b7aa19`（非pull）。双README SHA256 581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d。每真pull只读新diff立刻遵守、至少每小时；活17–20通常5分钟真pull，已读commit末槽全保；终态12–16末槽保各完整终态note/旧H。
+root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`。07:21终端失效；15:03及21:33重置后唯一探测均失败，恢复即真pull。云核至`8acb49b4f191d66fc36c4b1d641cc9d7c498e975`（非pull）。双README SHA256 581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d。每真pull只读新diff立刻遵守、至少每小时；活17–20通常5分钟真pull，已读commit末槽全保；终态12–16末槽保各完整终态note/旧H。
 私库QUEUE进行中已推e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。root独占refs/queue，每结论普通推；NFF有终端即rebase重推，否则freshHEAD完整合并循环、不冒pull/force。令牌仅瞬时CLI；[完整发布支持](computations/resume-20261127-root-publication-support.mjs)保。
 科学仅本公开Actions；raw只runner/scratch，不Git/Release/artifact、不改名输入。全源/全部参数/真实run/whole输出/typed和未知保。题≤200MB、文件<5MB、MD<100KB、H<10KB、open<30KB；先metadata，不整读≥100KB或binary。根§12不加独立AST/fixture/重跑/审查门，不减科学目标/原预算。
 
@@ -21,7 +21,7 @@ root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`。07:21终端�
 |---|---|
 | 12–16 | 官方cancelled；各已返输入/诊断、末真pull和未返科学责任保[16全终态](notes/2026-11-27-run16-official-terminal-and-unreturned-observed-solve.md)及旧H全链；不支付N4096/M320/J1845精化。 |
 | 17=46053911348 | 两input0；36ef0794/ed810/PID3823/model f2e417。current b0468/accepted2/g2.0460148700803895；第三e2c1ad7统计返，几何决定未知。 |
-| 18=46062343475 | 两input0、前三science1及三原reader0；e3d2eb/10fa/f600/PID7515/model9ec211。current7d0d/accepted1/g2.0476206814786773；第二4a822统计返，几何决定未知。 |
+| 18=46062343475 | 两input0、前三science1及三原reader0；e3d2eb/10fa/f600/PID7515/model9ec211。current4a822/accepted2/g2.0460148700322605；第二真接受23:54:15.965520，仍不可行。 |
 | 19=46076669320 | 两input0；36304a0d/f600/PID3240/model0abfbf。首d761b5真接受，current该点/accepted1/g.9679630392005261。第二b622在23:38:29.041545统计返，几何/接受未知。 |
 | 20=46079535427 | 两input0；c592e434/f600/PID3277/model0abfbf。current初7e06/accepted0/g.9684249942095058；首345906统计返，几何/接受未知。 |
 | 21=46084442413 | 95ae5c2真启动23:47:39Z/job140790598810；同g b5/8、δ1/32、两μ.01。首官方依赖安装中，科学input/point未知；[全启动记录](notes/2026-11-27-run21-complete-five-eighths-launch-and-continuation.md)。 |

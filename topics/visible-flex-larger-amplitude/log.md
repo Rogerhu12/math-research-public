@@ -100,3 +100,7 @@
 刊8件280504B（最大71214B），当前157/137/18/全部peer继承完整033bc绑定，四whole原父全部metadata/失败/未知保精确whole身份。legacy45ca10+8词/34+60项、R72345ca+3c0d10+8/34+65、两mesh32+6/110+58/48live全保；两个矩producer是同一whole step，只执行一次，8出现位置7唯一step。root21 c11b完整R7238/77已独立刊，不重复生产。两原mesh本来无optional闭面参数，未删对也未塞1782；15全mesh/5完整预览、三级空间/五t/4,8,16时间全保。normal/geometry/closed/独立unmarked管/正V/非零中心不变量责任均须真实同场完整输入。full snapshot和final13两模式分明，未来字段null是准备时历史状态，不否定后来真实21启动；原全source逐字不变，无科学/AST/fixture/新门，未排post队列。全部已刊后参可依实际返回整步承接。
 
 完整8件共280504B；双README云核至`0eaa860726ab795d8522b051b5547d94c5b7aa19`无变（非pull），实际controller真pull见H各槽。
+
+## 2026-11-27 23:58:02 UTC — 18第二restoration真实接受
+
+18第二4a822于23:54:15.965520真accepted-checkpoint返回，accepted2；Phi4954.618769177863/Gram.6374150628738562，reach+2.0460148700322605下降而distance_plus+.11873579237704324上升，全部六g和point/source/model保。reportfalse，不冒全域证明或final，继续第三方向。与17近同标量不构成同场。 完整原对象及小文件全身份保[本轮note](notes/2026-11-27-run18-complete-producer-binding-repair-and-continuation.md)。双README云核至`8acb49b4f191d66fc36c4b1d641cc9d7c498e975`无变（非pull）。
