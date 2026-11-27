@@ -4,7 +4,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-complete-L0-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-small-mean-branches-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -45,9 +45,9 @@ rankH3单三jet的全部ess6已闭，末非零Hp原Gaussian/最高/normal给左�
 
 **原U值图L0 整支已闭：** [完整3352次覆盖、九因子1535次QQ整除及1817余项原Gauss排除](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-L0-complete-original-cover-exclusion.md)已合全部退化面。九因子QQ整除、完整S8/S5模Bézout及所有准确源/成功回执见正文；两整合signal9仍记失败，不作为排空门槛。旧投影/门/PRS全部冻结，不再重做L0，继续一般LS及其它open接口。
 
-**S0/Lt0 整支已闭：** 完整原615次QQ覆盖及三个整因子返回已合并全部退化面；源9d0c7789实际163.600807秒/exit0，见结果索引，不重跑旧门。现在一般LS非零层的[加权矩图及P1双零完整排除](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-P1-double-zero-and-weighted-moment-coordinates.md)已付(Pf,Pt)非同时零并保ell/T/等权零面，[Delta零全域值降维](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-Delta-zero-global-monic-value-quadratic.md)已将四原值式双向化为首一二次式/三一次式；六条参数条件保全部首项零纤维并完整投影这四等式，四Gram子式仅必要。Phi在Delta0合法非零，保所有原非零和同f返回；[W对ell首项零整支](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-Delta-zero-W-leading-zero-exclusion.md)现全闭，W0图可付u(Q+2)−2；[W0整k=−1权线](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-Delta-zero-W-kminus1-exclusion.md)亦闭，原12维QQ覆盖全部返回，末二次域迫原D=0；可付k+1。[W0补图四生成元原代数](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-Delta-zero-W-four-generator-algebra-and-original-minors.md)现已完整付清：两mean商自由秩4，原余式返四列，五常数cofactor给必要六次x式，未付H及全部首项零保留。只续同点覆盖/原值返回；W0/Delta0/一般图仍开，旧门冻结。
+**S0/Lt0整支已闭，一般LS继续：** 完整615次QQ覆盖已合全部退化面，不重跑旧门。一般LS的原P1双零整支、Delta0/W对ell首项零整支及W0整k=−1权线均已闭；原完整来源和全部运行见结果索引/快照。只分别付(Pf,Pt)非同时零、Delta0的Phi、W0的u(Q+2)−2及k+1，不付W本身。全域四值式等价首一二次/三一次；六参数式仅准确投影四值等式，四Gram子式仅必要。W0补图两mean商自由秩4，原余式返四列，五常数cofactor给必要x六次式，保未付H=4ek−k²−4k−8及全部首项零。继续原同点覆盖/值返回，W0/Delta0/一般图及算子桥仍开。
 
-**[一般Q=1−u边界的y=1整支](results/R150-appendix-unit211-Q1minusU-singleton-mean-y1-exclusion.md)已闭：** 原69/102与18/41次QQ覆盖及所有原小域返回，无Delta/W假设；末u1/3用完整N_H/P_S原常数矛盾。只付该边界的y−1，一般Q=1−u仍须继续。
+**两个一般均值子支已全闭：** [Q=1−u边界的y=1](results/R150-appendix-unit211-Q1minusU-singleton-mean-y1-exclusion.md)由69/102及18/41次原QQ覆盖/全部小域返回结束；[一般b=c且y=1](results/R150-appendix-unit211-equal-weights-singleton-mean-y1-exclusion.md)由完整26/37/41次结式、14次QQ权覆盖和末半权原Bézout排尽。二者不互借Delta/W或额外单位，各只付自己的y−1。继续Q=1−u,y≠1以及一般等权y≠1，不能合称全LS已闭。
 
 **2+1型H、Hp0九次Gram仅余四源全有限的ess6层：** 全部H/V∞支已闭，来源与真逆保结果索引/归档。[完整重建](results/R150-appendix-rank-three-double-plus-single-zero-hp-finite-source-rational-reconstruction.md)保原12式及11/16全系数；[同Π上的低次原理想相等](results/R150-appendix-rank-three-double-plus-single-zero-hp-lowered-original-ideal-equivalence.md)已将d八次喷射换为二次，A/T为原商环强迫单位。mod1031/e700单位基只供方向，三种真Ke各900秒未决，最后八条恒等式及field/smoke通过但无单位身份；[同Π的C/G两条d一次式与原理想相等](results/R150-appendix-rank-three-double-plus-single-zero-hp-two-linear-original-ideal-equivalence.md)现已证明，不除两个新首项，仍保全部零纤维；真实I*C=1继续。[新增原N二阶及孤立点一阶降式](results/R150-appendix-rank-three-double-plus-single-zero-hp-original-N-Hermite-strengthening.md)保持同Π，d次数5/8，实际build核完整身份4.926643秒；新run45886748045数域/smoke已通过，完整1.465MB输入实际900秒未决，驱动905.464秒/RSS714476KiB，无I*C=1；不重跑此输入。三约化H与ess4/5仍开。
 

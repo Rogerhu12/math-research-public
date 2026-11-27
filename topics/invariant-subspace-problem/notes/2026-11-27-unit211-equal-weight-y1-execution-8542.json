@@ -1,0 +1,35 @@
+{
+  "session": "Astra-ISP-8542378f-20261127",
+  "date": "2026-11-27",
+  "runtime": "functions.exec pure V8, exact BigInt rational arithmetic; no external CAS",
+  "baseSourceSHA256": "0fdc1f60daf94f572a6dbe3d623b183bde3684da1c18425161a47c9074dd2157",
+  "certificateSourceSHA256": "c9cc105deb5ce3f0583563aa32d3cd214acf9897dcd5cee3b276197c14ae51cd",
+  "baseOriginalBuildSeconds": 0.029,
+  "resultantStageSeconds": 29.274,
+  "certificateStageSeconds": 39.034,
+  "baseToolWallSeconds": 29.3,
+  "sourceBodyExecutedVia": "new Function(sourceBody)(); certificate via new Function(certificateBody)(base.report)",
+  "processExitCode": "not exposed: V8 calls completed normally",
+  "peakRssKiB": null,
+  "polynomialDegrees": {
+    "N1": 26,
+    "Ns": 37,
+    "Ps": 41
+  },
+  "completeCover": "m^4*(m-1)^7*(m-1/2)^3",
+  "actualResultantBezoutCoefficientDegrees": [
+    22,
+    11,
+    -1
+  ],
+  "halfFiberIdentity": "((-1225-2682Q)/757)G_1/2+((52+550Q+298Q^2)/757)N_1/2=Q-1",
+  "originalRowsAndCompleteFixedDegreeSylvester": true,
+  "allExactDivisionsMultipliedBack": true,
+  "wholeEqualWeightYOneExcluded": true,
+  "wholeEqualWeightExcluded": false,
+  "ordinaryISPClaim": false,
+  "canonicalBaseResultJSONSHA256": "daefff2335d36f35918f44958306be4853b46620f249febf3386a36fc01b675b",
+  "canonicalCertificateResultJSONSHA256": "198d0366aebaa53b9ec389c50f8df00b1843ea19ea9d19ecdfa7b7035bed0826",
+  "actualThreeTermCoefficientJSONSHA256": "b039bffd47548b8eff652a91967c040c0c43081335e82c9b341be7a2f5b882b0",
+  "note": "Outputs and Bézout coefficient arrays are reproducible and are not committed. No end-to-end re-execution is imposed after these successful stages."
+}

@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **已证明（R150，一般等权y=1整支排除）**：[同一原四次/三次QQ覆盖](results/R150-appendix-unit211-equal-weights-singleton-mean-y1-exclusion.md)：EBo迫x=m、E1唯一t；完整Res_Q次数26/37/41、实际组合给m⁴(m−1)^7(m−1/2)^3；末半权原两式Bézout迫Q1。纯V8原函数体0fdc1f60/c9cc105d实际29.274/39.034秒，不依赖Q=1−u或Delta/W，只续等权y≠1。
+
 - **已证明（R150，一般Q=1−u/y=1整支排除）**：[完整原QQ覆盖与末纤维](results/R150-appendix-unit211-Q1minusU-singleton-mean-y1-exclusion.md)：H≠0原69/102次覆盖及四个整域、H0原18/41次覆盖全部返回，唯一u1/3由N_H=−4/27及P_S=8/27矛盾；不依赖Delta/W。原子成功记录与自含重建源分开，整合源未执行不冒成功。
 
 - **已证明（R150，一般LS/W0原四生成元）**：[两原mean自由秩4与五常数cofactor](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-Delta-zero-W-four-generator-algebra-and-original-minors.md)：全局k=-1排除后δ=e(k+1)/(ek-1)已付；通用两二次商双向矩阵/原迹，四条余式及五个x六次必要式保全部首项零和未付H因子，未排W0。ec17/f302实际0.747/2.085秒成功，后继探针执行状态未知。
