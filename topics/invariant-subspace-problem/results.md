@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [Phi0/h1的严格32点覆盖与四个原二次范数单位](results/R150-appendix-unit211-Phi-zero-rank-one-value-32-point-cover-and-four-norm-units.md)：真正1069余式全Bézout/逐纤维重数；四norm零面QQ覆盖配g32/Z32真单位，授权准确adj/norm。
+
 - [整个D27曲线的原六列单位与完整806次有限覆盖](results/R150-appendix-unit211-W-D27-original-six-column-unit-and-806-finite-cover.md)：全五维e代数、21原行六列返1，全部真逆范数/分母零纤维收QQ首一平方自由806。
 
 - [h=k 值碰撞的权不变量与完整八条原条件](results/R150-appendix-unit211-equal-singleton-invariant-weight-full-original-system.md)：同一点B/C双行付合法偶奇系数，H=bcDelta；lambda/u/Q全原均值和梯度输入，所有未付权面保留。

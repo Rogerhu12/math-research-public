@@ -1,0 +1,253 @@
+{
+  "schema": "isp-actual-four-norm-zero-cover-modular-Bezout-v1",
+  "prime": 1009,
+  "priorQQImageSourceSha256": "f66e913c9508536a4213b6164bd133a0404f048ad9fbb9b72114f686542c84a3",
+  "priorActualRun": 46003172567,
+  "priorActualJob": 140519731590,
+  "inputNames": [
+    "true_residual_g32",
+    "all_QQ_norm_image_factor_support_Z32"
+  ],
+  "inputDegrees": [
+    32,
+    32
+  ],
+  "factorCoefficientsAscending": [
+    [
+      "c_half_quadratic",
+      [
+        1,
+        -2,
+        3
+      ]
+    ],
+    [
+      "ell_image_head12",
+      [
+        9,
+        -108,
+        654,
+        -2580,
+        7329,
+        -15720,
+        26056,
+        -33600,
+        33456,
+        -25088,
+        13440,
+        -4608,
+        768
+      ]
+    ],
+    [
+      "lambda_half",
+      [
+        -1,
+        2
+      ]
+    ],
+    [
+      "B3_quadratic",
+      [
+        1,
+        -2,
+        4
+      ]
+    ],
+    [
+      "B3_linear",
+      [
+        -1,
+        1
+      ]
+    ],
+    [
+      "A2",
+      [
+        1,
+        -2,
+        2
+      ]
+    ],
+    [
+      "b_image_head12",
+      [
+        2,
+        -24,
+        147,
+        -590,
+        1719,
+        -3816,
+        6612,
+        -9000,
+        9528,
+        -7616,
+        4320,
+        -1536,
+        256
+      ]
+    ]
+  ],
+  "gCoefficientsAscending": [
+    722,
+    278,
+    731,
+    355,
+    485,
+    40,
+    431,
+    879,
+    886,
+    775,
+    986,
+    900,
+    350,
+    67,
+    972,
+    697,
+    900,
+    306,
+    248,
+    789,
+    718,
+    976,
+    181,
+    674,
+    177,
+    210,
+    486,
+    428,
+    438,
+    486,
+    520,
+    1003,
+    1
+  ],
+  "zCoefficientsAscending": [
+    18,
+    415,
+    768,
+    69,
+    56,
+    46,
+    982,
+    712,
+    605,
+    684,
+    125,
+    291,
+    689,
+    857,
+    376,
+    744,
+    151,
+    70,
+    262,
+    562,
+    83,
+    623,
+    339,
+    862,
+    339,
+    993,
+    476,
+    779,
+    428,
+    274,
+    887,
+    563,
+    7
+  ],
+  "BezoutTagCoefficientsAscending": [
+    [
+      817,
+      374,
+      743,
+      127,
+      289,
+      108,
+      3,
+      598,
+      254,
+      635,
+      808,
+      974,
+      741,
+      638,
+      637,
+      57,
+      762,
+      725,
+      202,
+      423,
+      9,
+      912,
+      181,
+      317,
+      964,
+      302,
+      823,
+      29,
+      939,
+      606,
+      958,
+      445
+    ],
+    [
+      246,
+      342,
+      700,
+      1007,
+      146,
+      500,
+      145,
+      836,
+      967,
+      466,
+      513,
+      393,
+      328,
+      84,
+      930,
+      711,
+      728,
+      101,
+      744,
+      622,
+      43,
+      333,
+      515,
+      491,
+      265,
+      945,
+      342,
+      179,
+      19,
+      514,
+      642,
+      513
+    ]
+  ],
+  "BezoutTagDegrees": [
+    31,
+    31
+  ],
+  "gcd": [
+    1
+  ],
+  "allScalarInversesMultipliedBack": true,
+  "allPolynomialDivisionsMultipliedBack": true,
+  "allBezoutStagesMultipliedBack": true,
+  "completeFinalProductEqualsOne": true,
+  "euclidSteps": 33,
+  "actualElapsedMilliseconds": 7,
+  "newPaidOriginalNorms": [
+    "Norm(ell)",
+    "Norm(u)",
+    "Norm(u-ell)",
+    "Norm(b)"
+  ],
+  "QQInferenceRequiresPriorMonic1069AndOriginalImageIdentities": true,
+  "claimEntirePhiFaceExcluded": false,
+  "ordinaryISPClaim": false
+}
