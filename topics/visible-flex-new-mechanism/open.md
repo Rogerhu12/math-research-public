@@ -48,7 +48,9 @@ fine1728×512 η2.216608039e−7，原两直接位置读数2.216686200e−7/2.21
 
 [真全尾均值与帽口积分界](notes/2026-11-27-r618-true-tail-mean-anchor-bounds.md)已付条件纸证/纯区间helper：完整原j≤32 germs、canonical512与forced、全部Gaussian和参数方向进入同盒；a≤20的强尾余量不替真实全系数检查，原M/Cauchy/ODE/归一误差不得置零。[实际全系数producer](notes/2026-11-27-r618-current-model-tail-anchor-producer.md)已审发布，先绑定source/response/model再算全部旧germ/pre-tanh/forced/新tail及所选方向；严格/条件源误差不混用。[同固定E双直接位置](notes/2026-11-27-r618-same-fixed-metric-direct-position.md)已审发布，复用完整新fine并合并双h的相同额外查询，真实Xjets算metric/曲率，S仅差异观察。[新稳定坐标与受控消费](notes/2026-11-27-r618-stable-coordinate-bound-scope-path.md)已审发布：所有W≤1用原准确有理化λ，W>1用ζ；参考/trial嵌套同支浮点盒，数值导数界不冒全角/向外区间证明。完整新政策与源SHA先进入真实原模型身份，旧height/chain/producer/direct源冻结，薄入口显式消费。首actual397非零scope固定τ=1/a=1、其余1472列/全部S行，固定g不变；旧R615改E闭合observer不套本范围，参考E/均值根/两primitive与源/求积/差分误差仍未证。
 
-[首actual397硬τ1实际范围](notes/2026-11-27-r618-actual397-first-fixed-E-response-scope.md)已完成源码/请求/工作流审阅：精确固定target86da8c60…，新1473输入只τ1非零；1472完整列/121600原行QR-SVD，20步/5400秒，1800秒声明留给完整同场fine/双direct/帽锚body积分。新算子LM1e−8与原末1e−14分明，未先运行旧τ0资格；所有失败/未完成trial/实际接受态俱保。
+[首actual397硬τ1实际范围](notes/2026-11-27-r618-actual397-first-fixed-E-response-scope.md)已执行，其定义为：精确固定target86da8c60…，新1473输入只τ1非零；1472完整列/121600原行QR-SVD，20步/5400秒，1800秒声明留给完整同场fine/双direct/帽锚body积分。新算子LM1e−8与原末1e−14分明，未先运行旧τ0资格；所有失败/未完成trial/实际接受态俱保。
+
+[首硬τ1真实终态](notes/2026-11-27-r618-actual397-hard-tau1-first-terminal.md)run45914497186/job140230360702/source414b7662，00:04:53 UTC自然结束；新41.515274441秒，第103半径.22277851819887512的λ求根80步耗尽。102trial均值/103参考目标已付但完整数组未存；0完整目标/J/QR/接受/fine/direct。last_halfwidth是失败后的半宽，未存内部轨迹不补造浮点循环；不能推τ1无根。原Newton仅越界二分缺统一收缩保证，接同E/τ1纯二分新scope，参考/height/全列定义保持。必要未存场重建计费，不另重旧门。合同E∈[.99,1.01]只真帽至口；七类源误差未知，条件余项不作严格证书。
 
 每次求积只改善同一个连续E的评价，不换g；完整冻结高度/amp/口/参数身份须绑定真终态。求根支用真实均值c0，不假定逐角C同号；同根失败和全部求积成本保留。真正接受后继续角带/径向/尾的同g收敛，最后推宏观幅度；amp1e−5不授握持变化门。R574/R576/R594/R600/R606/R613/R615均按原量词消费，a失号时不得点除。
 

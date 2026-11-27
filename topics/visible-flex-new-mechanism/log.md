@@ -628,3 +628,8 @@ open原28316B全文按链接层级移入open-before-fixed-E-and-K-only归档，�
 ## 2026-11-27｜R625原全行QR/SVD与真实L/h边界范围
 
 根全文审43897B新driver、13024B独立完整Euclidean helper、两份说明和7529B workflow；另组独立源码审通过。54来源hash/17CLI/全部sparse吻合，旧solve AST仅inflight标签变，原26459B state与2103100B raw身份准确。保原1216行/同W/全sigma，端十准确消元；实际方向边界阻塞才固定原L/h增量、每态重试自由，原值不吸附。新trust.25明示、继承实际末damp；因子按同态/活跃模式复用含失败，不重旧LU/LSMR/fine。仅request规则metadata更新到root实际已读public 1156103ea1dc9db4cd186a6ef54093fc6c2bbf42/private 724f5769d39c1f05826ed6c36792a5bb66da6aa0，科学输入不改。
+
+
+## 2026-11-27｜actual397硬τ1首输入的真实第103均值根失败
+
+根全文审7701B终态收据，独立核384718B原stdout/35131B唯一FINAL及其原IDENTITY、1473response仅τ1、全部102/103均值计数/零J与未付读出。新41.515274441秒及dense/盒失败/尾界全部费用保留；原源码_root与半宽更新逐字核过，Newton内部无统一收缩保证只作源码事实，不补造未存迭代轨迹。E合同区间只属真帽→口；不称τ1无根，继续同E/τ1新括区进度算法。

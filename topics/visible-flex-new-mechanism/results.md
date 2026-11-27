@@ -377,3 +377,6 @@
 
 
 - [R625同完整行Euclidean QR/SVD恒等](notes/2026-11-27-r625-complete-euclidean-row-factor-interface.md)及[实际L/h边界续算范围](notes/2026-11-27-r625-paid-dense-feasible-continuation-agent.md)：**纸面线性目标严格相同，实际效果待新原运行**；全行QR与R完整SVD给正lambda唯一Euclidean阻尼解，无列缩放/截秩/正规方程。只在原实际边界截步阻塞时固定原L或末h的增量，原全路径和true-C²门保留；直接消费已付40接受态，不重旧LSMR或fine。
+
+
+- [R618 actual397硬τ1首固定E真实终态](notes/2026-11-27-r618-actual397-hard-tau1-first-terminal.md)：**数值均值根未完成，不能推出分支不存在**；新41.515274441秒，在第103半径.22277851819887512同支λ根80步耗尽。102均值完成但0完整目标/J/QR/接受/fine/direct；同target86da8c60与硬τ1不变，下一纯二分修复显式进度，七类源误差与全部失败成本保留。
