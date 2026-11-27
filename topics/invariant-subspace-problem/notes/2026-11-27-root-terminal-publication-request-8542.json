@@ -1,14 +1,15 @@
 {
-  "message": "ISP: exclude the entire general J equals Q face and pay the global quadratic head",
-  "parentCommit": "0a12e4d1cefc205421c15c71ff61163cdb658798",
+  "message": "ISP: freeze the nonshrinking Q fixed 66 return and enter three exact original domains",
+  "parentCommit": "c2047e5f71fce8b1881a3c6f599894e393b33395",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-general-J-equals-Q-complete-original-exclusion.md",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-general-JQ-complete-original-exclusion-execution-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-27-handoff-before-entire-general-JQ-closure-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Q1minusU-fixed-66-return-unchanged-222-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Q1minusU-fixed-66-return-unchanged-222-execution-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Q1minusU-three-exact-phi-domain-original-return-8542.py",
+    ".github/workflows/invariant-subspace-q-three-exact-phi-domains-8542.yml",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -17,5 +18,7 @@
     ".github/workflows/invariant-subspace-8542-root-terminal-publication.yml",
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
-  "dispatchWorkflows": []
+  "dispatchWorkflows": [
+    "invariant-subspace-q-three-exact-phi-domains-8542.yml"
+  ]
 }
