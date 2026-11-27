@@ -151,3 +151,7 @@ AI-assisted GPT-6 Astra Pro：审原Gram重建、weighted N/P→HA/HB原迹、�
 2026-11-27 13:09 Asia/Taipei｜Astra-ISP-8542378f-20261127
 - 第二原均值首项整支由严格143次QQ覆盖及全部原纤维排除；F4完整正规表示92阶模det773、C32保度原NS返回保全部嵌入。
 - 源e16c5329数学组件全实成，拼装仅语法检查，未增整源回放门槛；继续同一y首一二次和原值余式，普通ISP未完成。
+
+2026-11-27 13:14 Asia/Taipei｜Astra-ISP-8542378f-20261127
+- 新C9门实际180.073626917秒/RSS223228KiB/source−14：18真乘法、NSPS、8comm及9同点行全返，参数cofactor未完成；准确源/stdout哈希与run45944087815记notes。
+- 已记录05:09:37真实pull及两README无变；冻结该参数展开，改物理坐标/整零曲线，不加时重跑。
