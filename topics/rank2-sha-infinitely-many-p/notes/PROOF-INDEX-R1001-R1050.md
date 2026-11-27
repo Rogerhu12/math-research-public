@@ -97,3 +97,6 @@
 
 
 - 原q11新[Prym Norm全除子](2026-11-27-original-q11-g-cover-prym-divisors.md)实时消费已付R及全2484B原stdout，准确下降到E_L^(−3):Y²=X³−108X−540；完整不可约因子/分歧与双∞/O/Cantor Picard类及双Norm身份全部保留。未重算旧截面/平方根，公开新实际结果待。
+
+
+- 原q11 Prym Norm全除子run45980566265/job140443090086/source4b315bb783233d98ce623d99fa3dffdca9228683实际成功；R零极各20，原负∞simple零/三分歧极阶3,4,4；NQ在准确−3 twist零极各24，全部闭点/厚支/∞齐，两个有效类确为O。完整双Norm和Cantor均返；各指定高次支不单独置零，后继保原27权。 证明与必要完整坐标见[原Prym除子](2026-11-27-original-q11-g-cover-prym-divisors.md)。
