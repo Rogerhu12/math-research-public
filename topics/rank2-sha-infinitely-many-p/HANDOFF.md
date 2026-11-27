@@ -6,7 +6,7 @@
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。固定有限曲线族联合无穷非零可用无限鸽巢；有限p、随p换曲线、条件桥、接口或单独投影非零不完成。
 
-- 公开根/课题 README 已读至 `ab0937bc19df944ee5f9d52b5a8d24cc705cfdbf`（API差异空；最近确认实际pull为02:45UTC）；每次pull只读新差异，至少每小时同步并记SHA。
+- 公开根/课题 README 已读至 `e0fe49fedd1882ba31b6a203a0715e31bd1b5396`（API差异空；最近确认实际pull为02:45UTC）；每次pull只读新差异，至少每小时同步并记SHA。
 - 两仓库已部分克隆。私库QUEUE接手提交41fe885610073f478b2f5a752461ca56cfd43f09已推；02:41UTC实际pull至b3d0029ecb318be56170fc764cad50ee2c7d4d42；04:26UTC API逐文件核至a4f3ff79494e88cc61bd186622d6dd00813b0937，两README逐文件差异空、QUEUE仍本会话进行中。令牌只进程认证。
 - root独占git/H/open/log/index；每条结论即推，非快进立即pull --rebase/读README差异/再推至成功，不强推。数学只用公开Actions；不存可重算输出。H<10KB、每MD<100KB。
 - [此次完整逐字归档](notes/2026-11-27-handoff-before-contiguous-curvature.md)及其历史链保全部旧式/回执/未解门；[open](open.md)、[results](results.md)、[R1001–1050索引](notes/PROOF-INDEX-R1001-R1050.md)及前卷为接续入口。
@@ -15,7 +15,7 @@
 
 v8 run45882239615/job140124138541在01:05:47UTC数学21000s timeout124、01:05:50 job failure；正三块及负首块全厚已过，停负第二块Frob169/306。完整终log/SHA和全部原门见归档及终点链；非四交/全Norm/shadow PASS。
 
-R1008/R975/R986全后继保原49源/两char0 pins/Sage10.6/r29/q2453/batch64/minimal/两图七式四交18×9、21000s/360min、人工API false。唯一v9 run45920983633/job140251398928/source1eeab95eb057de2b6ea6753ff9e36a18bd20bbd2，数学自01:10:41UTC运行。两char0真认证、306Frob约1.78秒；04:27只读collector实际取得原log16808131B/SHA0ef65d77…858561f4，尾04:26:47到negative/base-prime0/whole local primary factor3的Hermite78/306及下一全gcd/Popov reset，原job仍运行。collector run45940009036/job140311911688只读、不重算；不是四交/全Norm/shadow PASS。全部旧快照/403读取故障及新source/hash见[终点链](notes/2026-11-27-artinian-v7-final-and-successor.md)。
+R1008/R975/R986全后继保原49源/两char0 pins/Sage10.6/r29/q2453/batch64/minimal/两图七式四交18×9、21000s/360min、人工API false。唯一v9 run45920983633/job140251398928/source1eeab95eb057de2b6ea6753ff9e36a18bd20bbd2，数学自01:10:41UTC运行。两char0真认证、306Frob约1.78秒；04:27只读collector实际取得原log16808131B/SHA0ef65d77…858561f4，尾04:26:47到negative/base-prime0/whole local primary factor3的Hermite78/306及下一全gcd/Popov reset，原job仍运行。collector run45940009036/job140311911688只读、不重算；不是四交/全Norm/shadow PASS。04:57第四只读请求已交，增强完整终点JSON/hash和原nonzero字段读取，待真实回执；不重算数学。全部旧快照/403读取故障及新source/hash见[终点链](notes/2026-11-27-artinian-v7-final-and-successor.md)。
 
 R982/983/R987/R993/R992全部原门真PASS；R992 run45907263972全13核残差、R994 run45907264125三β27复L(1)>0及完整尾<2^-180的全部source/job/hash见结果和归档。
 

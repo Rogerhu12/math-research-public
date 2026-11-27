@@ -85,3 +85,6 @@ D⁺唯一公开run45941789126/job140317511374/source5bcbf6061bc111254d1f75c732a
 
 2026-11-27 04:56 UTC / Astra-rank2-Sha-0b097461-20261127
 R1025§12根手证原曲率族真正单位：对U积分完整边界得S_(q+1)=a_qS_q+c_qB0，B0为全p单位，c的固定整数分子deg≤4且P(1)=−40·881。故6个连续合法q全零会使非零四次多项式有5根，矛盾；返回同一个char0原Z⁹F_H系数与三E2恰九阶极，未删GP10/全词或新增canonical零。H逐字归档，扩窗/真实全词消元继续。无数学执行。README API差异空至ab0937bc19df944ee5f9d52b5a8d24cc705cfdbf；实际pull仍待环境恢复。
+
+2026-11-27 04:57 UTC / Astra-rank2-Sha-0b097461-20261127
+按约半小时节奏第四次只读续取唯一v9；原run/job/source和全部数学输入不动。新helper11472B/SHA34e10e38…1050a5d对照实际固定入口保所有完整终点JSON的payload hash、布尔门、nonzero字段及host退出，外层completed不冒数学非零；原全字节hash/短尾/无输出文件继续。待实际回执。README API差异空至e0fe49fedd1882ba31b6a203a0715e31bd1b5396；执行环境仍不可用，实际pull待恢复。

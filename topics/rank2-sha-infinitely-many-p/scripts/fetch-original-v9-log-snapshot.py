@@ -2,7 +2,8 @@
 """Read-only, fixed-binding log snapshot of the single original v9 job.
 
 No mathematics is recomputed, no workflow is started or retried, and no
-files are written. All API calls are GET. Anonymous public access is tried
+files are written. Exact terminal JSON records are hashed and projected
+without deriving a mathematical verdict. All API calls are GET. Anonymous public access is tried
 first; only an explicitly supplied built-in Actions token can be used as
 fallback. Signed download URLs and credentials are never printed.
 """
@@ -73,6 +74,139 @@ def api_get(path, want_redirect=False):
     raise SnapshotError("Anonymous API access required authentication; no built-in token was supplied")
 
 
+
+# Only exact terminal records from the pinned producer are retained.
+# Full JSON bodies are hashed before projecting their scalar fields; the
+# collector never substitutes completion of an outer wrapper for nonzero AJ.
+RESULT_TAGS = {
+    "RANK2_ARTINIAN_CONSUMER_GEOMETRY",
+    "RANK2_ARTINIAN_CONSUMER_INTERSECTIONS",
+    "RANK2_ARTINIAN_CONSUMER_SHADOW",
+    "RANK2_ARTINIAN_CONSUMER",
+    "RANK2_TRIANGULAR_ARTINIAN_CONSUMER",
+    "RANK2_LINEAR_FIBER_COMPLETE",
+}
+FAILURE_TAGS = {
+    "RANK2_LINEAR_FIBER_FAILED",
+    "RANK2_TRIANGULAR_ARTINIAN_FAILED",
+}
+HOST_STAGES = {
+    "offline complete original source solver exited",
+    "both original authentication and requested original integral consumer gates succeeded",
+    "pipeline incomplete; no mathematical PASS is asserted",
+}
+SCALAR_KEYS = {
+    "kind", "status", "source", "run_id", "run_attempt", "prime", "ell",
+    "completed_phase", "requested_trace_method", "completed_trace_method",
+    "trace_method", "linear_algebra", "stage", "returncode", "elapsed_seconds",
+    "q_precision", "batch_size", "kernel_method", "level",
+    "failed_original_stage", "failed_stage", "exception_type", "message",
+    "source_genus", "relative_six_genus", "normalization_module_rank_over_ys",
+    "original_source_level", "relative_six_level", "RR_base_level", "factor_six",
+}
+NESTED_KEYS = {
+    "complete_phase_receipt_sha256", "readme_blobs",
+    "complete_pair_length_accounts", "two_exact_point_detector",
+}
+LINE_PATTERN = re.compile(
+    rb"^(\d{4}-\d\d-\d\dT\d\d:\d\d:\d\d(?:\.\d+)?Z) "
+    rb"(RANK2_[A-Z0-9_]+) (.*)$")
+
+
+class TerminalRecords:
+    def __init__(self):
+        self.pending = b""
+        self.records = {}
+        self.counts = {}
+        self.hashes = {}
+        self.host = {}
+        self.errors = []
+        self.unstructured = []
+
+    def feed(self, chunk):
+        lines = (self.pending + chunk).split(b"\n")
+        self.pending = lines.pop()
+        for line in lines:
+            self.line(line.rstrip(b"\r"))
+
+    def line(self, line):
+        match = LINE_PATTERN.match(line)
+        if match is None:
+            if any(token in line for token in (
+                    b"TimeoutExpired", b"Process completed with exit code",
+                    b"##[error]", b"Traceback (most recent call last)")):
+                self.unstructured = (self.unstructured + [
+                    line.decode("utf-8", errors="replace")[:600]])[-8:]
+            return
+        timestamp, raw_tag, payload = match.groups()
+        tag = raw_tag.decode("ascii")
+        if tag.endswith("_SHA256") and tag[:-7] in RESULT_TAGS:
+            self.hashes[tag[:-7]] = payload.decode("ascii", errors="replace")
+            return
+        base = tag[:-7] if tag.endswith("_RESULT") else tag
+        is_result = tag.endswith("_RESULT") and base in RESULT_TAGS
+        is_failure = tag in FAILURE_TAGS
+        is_host = tag == "RANK2_TRIANGULAR_ARTINIAN_HOST"
+        if not (is_result or is_failure or is_host):
+            return
+        try:
+            record = json.loads(payload)
+            if not isinstance(record, dict):
+                raise ValueError("not a JSON object")
+        except Exception as exc:
+            self.errors = (self.errors + [{
+                "tag": tag, "error": type(exc).__name__,
+                "payload_bytes": len(payload),
+                "payload_sha256": hashlib.sha256(payload).hexdigest(),
+            }])[-8:]
+            return
+        if is_host and record.get("stage") not in HOST_STAGES:
+            return
+        fields = {}
+        nested = {}
+        for key, value in record.items():
+            if isinstance(value, bool) or value is None or key in SCALAR_KEYS or key.endswith("_sha256"):
+                if isinstance(value, (str, int, float, bool)) or value is None:
+                    fields[key] = value if not isinstance(value, str) else value[:2048]
+            if key in NESTED_KEYS:
+                raw = json.dumps(value, sort_keys=True, separators=(",", ":")).encode()
+                if len(raw) <= 6000:
+                    nested[key] = value
+                else:
+                    nested[key] = {"projection_omitted_bytes": len(raw),
+                                   "projection_omitted_sha256": hashlib.sha256(raw).hexdigest()}
+        summary = {
+            "timestamp": timestamp.decode("ascii"),
+            "payload_json_bytes": len(payload),
+            "payload_json_sha256": hashlib.sha256(payload).hexdigest(),
+            "fields": fields, "selected_nested_fields": nested,
+            "other_nested_keys": sorted(k for k, v in record.items()
+                                        if isinstance(v, (dict, list)) and k not in nested),
+        }
+        if is_host:
+            self.host[record["stage"]] = summary
+        else:
+            self.counts[base] = self.counts.get(base, 0) + 1
+            self.records[base] = summary
+
+    def summary(self):
+        out = {}
+        for tag, record in self.records.items():
+            item = dict(record)
+            item["observed_count"] = self.counts[tag]
+            item["emitted_payload_sha256"] = self.hashes.get(tag)
+            item["emitted_hash_matches"] = (
+                self.hashes[tag] == item["payload_json_sha256"]
+                if tag in self.hashes else None)
+            out[tag] = item
+        return {
+            "records": out, "host_terminal_stages": self.host,
+            "parse_errors": self.errors, "unstructured_terminal_lines": self.unstructured,
+            "unfinished_last_line_bytes": len(self.pending),
+            "original_mathematical_conclusion_inferred_by_collector": False,
+        }
+
+
 def main():
     run = api_get("/actions/runs/" + str(RUN))
     job = api_get("/actions/jobs/" + str(JOB))
@@ -91,6 +225,7 @@ def main():
     digest = hashlib.sha256()
     size = 0
     tail = b""
+    terminal = TerminalRecords()
     with urllib.request.urlopen(request, timeout=30) as response:
         encoding = response.headers.get("Content-Encoding", "identity")
         while True:
@@ -98,6 +233,7 @@ def main():
             if not chunk:
                 break
             digest.update(chunk)
+            terminal.feed(chunk)
             size += len(chunk)
             tail = (tail + chunk)[-12000:]
     decoded = tail.decode("utf-8", errors="replace")
@@ -118,6 +254,7 @@ def main():
         "response_content_encoding": encoding,
         "tail_last_timestamp": timestamps[-1] if timestamps else None,
         "tail_utf8": decoded,
+        "terminal_record_projection": terminal.summary(),
         "built_in_token_fallback_used": used_auth,
     }
     print(json.dumps(result, sort_keys=True, separators=(",", ":")))

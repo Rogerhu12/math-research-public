@@ -137,3 +137,11 @@ RESULT 8,315 B / SHA-256
 原v9完整字节快照16,808,131B，SHA256 0ef65d77c81711e193b7bd91edf7bdfffb0610dc71e9e82a86184640258561f4。真实尾为04:26:47.7119125UTC，标签`all original cusps:negative: base-prime 0: whole local primary factor 3`；已提取Hermite78/306列，随后是下一列前的全gcd pivot/whole Popov tail reset，remaining determinant degree16。不能把该reset说成已经提取79列。
 
 原数学step4及run/job仍in_progress。此尾证明已到上述负向真实厚因子；它没有包含四交、全厚Norm或18×9 shadow的最终回执，也不以程序顺序猜未读取的最终验收。继续唯一v9，无数学重跑。
+
+## 10. 第四次只读快照准备：保完整终点标记与非零字段
+
+继续同一个run45920983633/job140251398928/source1eeab95eb057de2b6ea6753ff9e36a18bd20bbd2，未重启或重算原数学。只读helper增强为11472字节，SHA-256 `34e10e38ceda6a5ff0c79f491461cbabd5d81bd629cf72b5b373279b11050a5d`。
+
+除原全字节计数/hash与最后12000字节外，下载时逐行读取原代码实际发出的 geometry/intersections/shadow/base/triangular/linear-fiber 终点JSON。每条完整payload保准确字节数和SHA、原始status/布尔门、真实nonzero字段、必要长度账与原emit SHA的匹配情况；未结束行不冒作完整JSON。失败标记和host退出也分别保留。全部原JSON只流经内存，不写输出文件，不打印授权或签名下载URL。
+
+这里已对照唯一v9固定源码：`every_original_geometric_gate_completed_with_exact_successor_bindings` 仅说明外层完整，真正非零须读取原SHADOW/base中的 `original_rational_AJ_detected_nonzero`。collector只投影原字段，不自行推断数学结论。本次真实回执待取得，不能用新reader的存在预记原几何通过。

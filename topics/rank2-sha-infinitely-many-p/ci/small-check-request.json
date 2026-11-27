@@ -1,9 +1,9 @@
 {
-  "request_id": "2026-11-27-original-q11-delta-image-polar-divisor",
+  "request_id": "2026-11-27-0457-original-v9-readonly-terminal-snapshot",
   "checks": [
     {
       "engine": "python3",
-      "script": "topics/rank2-sha-infinitely-many-p/scripts/check-original-q11-delta-image-pole.py",
+      "script": "topics/rank2-sha-infinitely-many-p/scripts/fetch-original-v9-log-snapshot.py",
       "args": [],
       "include_stdout": true
     }
