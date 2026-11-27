@@ -315,3 +315,6 @@
 
 
 - **R1040真实E15876参考**：[§14](results/R1040-new-e3969-whole-companion-frame-and-sixth-degree-carry.md)。R1040§14从原两个七挠graph在N投影前锁定整七处配对线，再由dyadic两号及完整δ-new三维矩阵识别G。全部2/3/双7坏角色、Haar、split7环带、CRT与Hermite平方给固定E15876:y²=x³+126²，归一ΨG=−28G/δ质量一且L(E15876,1)≠0、rank0。G无t^-6的真实homothety和单位域保留，不产生JG′的新零条件。
+
+
+- **R1045新三角色完整解析consumer**：[原文](results/R1045-original-three-primitive-nine-complete-analytic-certificate.md)。R1045给原R761三primitive九阶角色的准确主理想公式、全部有限单位与三共轭重建、全Euler递推和完成函数E1导数式。固定512/144、向外有理π/log/γ/cos区间及全无穷尾，脚本只运行新三线、不执行旧两曲线；没有预认三个L′非零。

@@ -12,7 +12,7 @@
 
 - 至少每小时重试同步，每次pull后只读新README差异并立刻执行，记实际读过SHA；断连沿最新main API非force快进，每次检查README及本topic外部变动。10:48ref失败已立即实际pull重试、重比新父后成功；不强推。
 - root独占git/H/open/log/index；每条结论立即推，拒绝时pull --rebase后重试至成功。令牌只命令行/进程，不进文件/提交/API。数学执行只在公开Actions；根规则15禁止存可重算输出或日志数据。H<10KB，每MD<100KB。
-- 本次整理前的[完整交接](notes/2026-11-27-handoff-before-g15876-reference.md)逐字保原历史，向前链接所有旧归档；[open归档](notes/2026-11-27-open-before-weighted-level-transport.md)、[results](results.md)、[R1001–1050索引](notes/PROOF-INDEX-R1001-R1050.md)保完整参数/门/失败/回执，不重做已登记结论。
+- 本次整理前的[完整交接](notes/2026-11-27-handoff-before-primitive-lprime.md)逐字保原历史，向前链接所有旧归档；[open归档](notes/2026-11-27-open-before-weighted-level-transport.md)、[results](results.md)、[R1001–1050索引](notes/PROOF-INDEX-R1001-R1050.md)保完整参数/门/失败/回执，不重做已登记结论。
 
 ## 一、唯一原厚几何作业
 
@@ -26,7 +26,7 @@ R959/R970–983固定E65/E65³/E260/E54925/E8125的rank≥2、全有限角色/�
 
 R1016–1034原平坦迹、whole39/13字/Miller/CM36 Hermite/第一primitive与曲率全保；−61(p+1)log(π/barπ)/18480及R1025组合为单位，仍须同一canonical坏条件迫同原读者深零。R1021§§16–18的w=χα(2P)、两frame/M̂B=M、全4+5 Cartier槽/同一c/两invariant标量及R1034真实Q†费用已付；精确全部公式在前交接/原文。原三物理像rank不能相加；source C²顺序和所有高低费用不删。
 
-R1037完整378谱run45973650826/job140419911466已全返，30非零块/90零标签、334fibers/390coords和全回乘齐；唯一质量零线rank1为δ-new9/dyadic−/7new。R1038将此线完整识别固定E3969（导子47628）的α1/7 finite/Schwartz/Haar/Gaussian，普通与惰性通常全Sha桥皆付；§14的真实圆盘/全尾给J′126,5≡5/3 mod25，故精确rank2且Sha[5∞]有限，不说群零/无穷p。原126全run45977711940/job140433521280的22列/64回乘、degree20/全部因子角阶/cubic61齐。完整run/source/hash/必要坐标在R1037–38及[原126笔记](notes/2026-11-27-e3969-original-degree126-live-return.md)，不重跑。
+R1037完整378谱与原126两次实际回执均全消费，30非零/90零、334fibers/390coords、22列/64回乘齐。唯一质量零线在R1038完整识别固定E3969（导子47628）的2/3/7 finite、Schwartz/Haar/Gaussian和通常全Sha桥；真实p5圆盘/全尾给J′126,5≡5/3mod25，故精确rank2且Sha[5∞]有限，仅此一个p。全部run/source/hash、degree20因素和规范在R1037–38、[原126笔记](notes/2026-11-27-e3969-original-degree126-live-return.md)及前交接，不重跑。
 
 R1040原六轴/whole核、§9全部Y/K/L/M δ-old零与两个联动字已付，不再运行已零的M旧投影。§10新A9/N14给Gram(126,3,6,2,9,14)、det756及五伴随完整乘积；原6⁵平均只给完整comp-only h，所有Y混合条件保。§11同时保S/T/Y的F81角旋转仅四轴共同相位。§12只投H/J/N后，Y主型的整个K/A来源为39δΦ⊗Ξ0+G126⊗Ξ1；G(0)=−δ/28、wholeβ=−λ给JG(0)=−δ(1+λ)/28单位。坏Φ时完整comp-only中央/质量同一比例，归一Y/7保log7质量。全四输出2KA5+5K4A2零核及K3A3 canonical返回齐，不保忘掉的K/A cut。§13真D5/E90完整管的DE5与D²E4给单位2×2返回，hΦ/hG逐测度分离两态；所有n仅u5^n，不冒作额外强迫。§14完整坏处/七挠gluing识别G为E15876质量一参考，实平方给rank0；整周期保留，JG′无新零。精确来源见原文。
 
@@ -36,6 +36,8 @@ R1042原H3/F81三canonical四输出、93/2511 odd与90/810 even全核、完整Q�
 
 R1044真R=K+ωA推前消整个Ξ1；共同F3913/C1596给两odd whole β核，完整四输出carry保三原未平均行。H/J/N三角平均另给纯Φ126行；全cut(32)和补域(41)保齐，不混两种许可。
 
+R1045新三条primitive九阶角色的全288单位、全部六associates/三共轭/512系数与严格E1无穷尾算法已审；脚本14113B/8abde697…c6fe，N512/J144、flint0.9.0，唯一small请求已推，待真实区间。不是旧R735重跑；即使解析非零，仍需同good-pair点桥及完整F0 sum-unit读者。
+
 ## 三、原谱盖、Prym、半类与最高权
 
 R1002只付Kβ，原AJ²=KνKβ的ν未付；全54/27图、eta/Cor和全部权保。R1014 cofinite Tate的未知q0不能外推；R1027最短anti截面高2q/3、D度(q−2)/3、原27正权保持。R1029/1031原Sel2=⟨g⟩、两quadric、全部Norm/W返回、Frob束/下降、Cδ/Jac81/E±及j54000真纤维积均付，不能以这些存在/接口代原点或最高AJ。
@@ -44,7 +46,7 @@ q5旧shadow倒6全零。q11全D run45968889219/job140404155125/source3d702b7bc21
 
 R1039原g二盖严格Prym≅EL:y²=x³−12x+20、r*r_*=1−ι、原边界D∞−D0=r*(1,−3)非挠、FQ双Norm/S4 sign局部系全部付。§§7–9用真实实cyclic24商j域/完整核轨道/Elkies负整数Norm手证无穷q≡−1mod24且EL超奇异，原全Jac F²=−q，sqrt3边界本身Fq有理。阶24用本原实周期。§10任意cyclicM给−q模M平方及形式奇次Q≡−1modp；但全NS扩域后原η/Cor shadow仍被旧q+1杀，不能由p|Q+1制造p部或替代原素位。
 
-R1041原四谱Q6/fullincidence/Pell/双Norm/ODE已付，原FQ全极及εprod严格分两三挠交。原rΓ边界为P=(1,3)，完整Norm给M(O)=1及指定P的Miller函数。q11全Prym/指定半类实际全返，AQ=−G阶16；一般halving/ψ2主除子给4AQ=−P、全二分Norm=t³(1−27t)。所有坏纤维/厚闭点及run/source/hash在原文和两笔记，不重算。§§17–20付第二四度图Φ、Miller修正J和4ηprim=Φ*dlogM+dlogJ；Cartier由a_q(EL)控制；完整tame reciprocity给U(E+)²⁴∈Fq*，故p≥5,p|q+1的无权半交为p次幂。无权入口关闭，原逐CM权/eta/Cor/最高λ不因此消去。
+R1041原四谱Q6/Pell/双Norm/指定半类/全部厚点均付，q11实际AQ=−G阶16；一般4AQ=−P、二分Norm=t³(1−27t)。§§17–20第二四度Φ/Miller修正J给4ηprim=Φ*dlogM+dlogJ，Cartier受a_q(EL)控制；全tame reciprocity给U(E+)²⁴∈Fq*，故p≥5,p|q+1的无权半交为p次幂。精确参数和回执见原文/前归档，不重算；原逐CM权、eta/Cor及最高λ仍开。
 
 R1043原2-Vélu/full9、canonical−3a_i、真实τ^iφ0[ω^i]与54→6×9已付。§§9–13再将全η/Cor按真实17平移吸入三列，给三完整shadow同零的准确DFT等价；S3加权来源有1/36左逆，并真下降到B′椭圆基、t=−Y′²/[27(2Y′+1)]的S′系数MW截面。全部标记/对偶在(59)齐，global本原性仍不判固定三列评价或ordinary非零。另[mixed C4候选](notes/2026-11-27-mixed-c4-albanese-fiber-obstruction.md)由Albanese三坏点障碍排除，不再追该映射。
 
