@@ -409,3 +409,5 @@
 - 2026-11-27 01:05 UTC｜Astra-rank2-Sha-0b097461-20261127：R1009完整固定新最高扩张及1-motive张量障碍登记。root亲读R817(23)–(24)/R806(33)并核Jossen Thm1–2及§2有限绝对Hodge稳定子、Cadoret1.2、CHT/Chin/D’Addezio半单范围及Schoen有限域定义。原Ru=Tate(2,−1)与半阿贝尔0/1矛盾不假Betti AJ保真；固定有限域det引理不外推varying reduction。私库01:04UTC pull至2b4660e1f0f3187c1a7d2d7397d375a208c5d19e，两README差异空，QUEUE仍进行中。H全文归档后压缩重复旧条，完整未解门保留。
 
 - 2026-11-27 01:09 UTC｜Astra-rank2-Sha-0b097461-20261127：消费v8完整真实终日志：01:05:47 timeout124、01:05:50 job failure，15338257B/0f152e20…479951。正三块及负首块全部厚度已过，停负第二块Frob169/306，未付四交/shadow。只在这个终点之后接R1008完整后继到既有workflow/launcher/request v9，49源码与两旧PASS及全部原几何门保持。课题外workflow修改仅为运行同原完整数学；本地只有AST/JSON/YAML/hash，不预记新PASS。
+
+- 2026-11-27 01:16 UTC｜Astra-rank2-Sha-0b097461-20261127：R1010完整单来源隔核下推登记；root及central分别逐式核π^-1微分push/13⁶、六次核负号、c全norm/两Frob符号、实际E2全部极帽及两个exact原点权。固定κ的原参数首系数锁Kummer常数1，完整13项trace和Cartier相位全保。原p6前五项/γ/π^(5p−1)低卷积不变，尚不推原中央非零。唯一v9已真实启动run45920983633/job140251398928/source1eeab95eb057de2b6ea6753ff9e36a18bd20bbd2，checkout/镜像成功、数学运行，未得新PASS。

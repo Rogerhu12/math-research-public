@@ -98,3 +98,5 @@ RESULT 8,315 B / SHA-256
 待本提交触发的v9仍为r29/q2453/batch64/minimal、shadow、两份原char0 PASS，Sage10.6固定镜像、离线数学/只读源码及host独占read token。source manifest从45份增为49份，新增完整wrapper与三份实际helper。request schema为rank2-original-triangular-artinian-request/v9；linear_algebra为r1008-whole-linear-fibers-pair-reset-native-norm。保21000秒数学/360分钟job和同一个不取消在运行作业的concurrency group。只有v8真终点已取得后才接入；不与其并发启动。
 
 本地仅作AST/JSON/YAML与所有source pin检查；不把这些静态检查记为新数学PASS。新run/source/日志终值须在真实产生后追加。
+
+实际v9已由push触发：run45920983633/job140251398928/source1eeab95eb057de2b6ea6753ff9e36a18bd20bbd2，01:09:56UTC创建；截至01:12UTC checkout及固定镜像成功，原数学step4 in_progress。第一次日志请求返回BlobNotFound，未据此猜数学阶段或PASS。

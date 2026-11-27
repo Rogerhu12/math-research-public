@@ -6,16 +6,16 @@
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。固定有限曲线族联合无穷非零可用无限鸽巢；有限p、随p换曲线、条件桥、接口或单独投影非零不完成。
 
-- 公开根/课题 README 已读至 `0f9575213f6e6f2715e75402051f3e8779f3e74e`（差异空）；每次pull只读新差异，至少每小时同步并记SHA。
+- 公开根/课题 README 已读至 `c1724b90b80d8c3196c32a04ab69b5099717f6b3`（差异空）；每次pull只读新差异，至少每小时同步并记SHA。
 - 两仓库已部分克隆。私库QUEUE接手提交41fe885610073f478b2f5a752461ca56cfd43f09已推；01:04UTC pull至2b4660e1f0f3187c1a7d2d7397d375a208c5d19e，两README差异空、QUEUE仍本会话进行中。令牌只进程认证。
 - root独占git/H/open/log/index；每条结论即推，非快进立即pull --rebase/读README差异/再推至成功，不强推。数学只用公开Actions；不存可重算输出。H<10KB、每MD<100KB。
 - [此次完整逐字归档](notes/2026-11-27-handoff-before-fixed-highest-extension.md)及其历史链保全部旧式/回执/未解门；[open](open.md)、[results](results.md)、[R1001–1050索引](notes/PROOF-INDEX-R1001-R1050.md)及前卷为接续入口。
 
 ## 一、唯一原几何作业与真实公开回执
 
-**v8已真实失败124，后继v9接入待push触发**：旧run45882239615/job140124138541/source3b0fe32226b1f91ec37ef68a8d53ff865e9d9b26，19:15:47–01:05:47UTC数学21000s超时，job01:05:50 failure。全maps/两图/正部三base-prime及负部首块四厚2/16/578/16已过；停negative base-prime1 Frobenius169/306（01:03:46），尾01:05:46原operator1538，非四交/全厚Norm/shadow PASS。完整终log15338257B/SHA0f152e20586ada434972be34134f9632f71ce409dda080948a3ed4f95b479951。
+**唯一v9已实际启动，v8终点124已登记**：旧run45882239615/job140124138541/source3b0fe32226b1f91ec37ef68a8d53ff865e9d9b26，19:15:47–01:05:47UTC数学21000s超时，job01:05:50 failure。全maps/两图/正部三base-prime及负部首块四厚2/16/578/16已过；停negative base-prime1 Frobenius169/306（01:03:46），尾01:05:46原operator1538，非四交/全厚Norm/shadow PASS。完整终log15338257B/SHA0f152e20586ada434972be34134f9632f71ce409dda080948a3ed4f95b479951。
 
-R1008已证明/静态核完整原线性纤维46971双序/实际根/两图权/全部单位/Frob真投影；新wrapper保v8全部门并接R975七aliases/R986两constructors。v9：Sage10.6/r29/q2453/batch64/minimal/49源/两char0 pins/两图七式四交18×9全保；21000s/360min，人工API仍false。仅真终点后修改既有workflow/request/launcher，未预记新run或PASS。helper70e94b3c…8b6d1c5、wrapper aec8056c…9692ddfdc；[完整终点链](notes/2026-11-27-artinian-v7-final-and-successor.md)。
+R1008已证明/静态核完整原线性纤维46971双序/实际根/两图权/全部单位/Frob真投影；新wrapper保v8全部门并接R975七aliases/R986两constructors。v9：Sage10.6/r29/q2453/batch64/minimal/49源/两char0 pins/两图七式四交18×9全保；21000s/360min，人工API仍false。v9 run45920983633/job140251398928/source1eeab95eb057de2b6ea6753ff9e36a18bd20bbd2，01:09:56UTC created；checkout/镜像成功、数学step4运行，日志blob尚未就绪，不预记PASS。helper70e94b3c…8b6d1c5、wrapper aec8056c…9692ddfdc；[完整终点链](notes/2026-11-27-artinian-v7-final-and-successor.md)。
 
 R982/983/R987/R993/R992全部旧门及新结论均真PASS。source5ce57788fdf943376c908f815e42756f859dc0c7的R992 run45907263972给全13核残差；R994 run45907264125给三β27复L(1)>0，完整尾<2^-180。全部job/source/hash见结果和归档，不存生成数据。
 
@@ -31,7 +31,7 @@ R957同整数像格/实商范数/全位严格门a+2b<3未付；ordinary先卷积
 - R999/1001/1003/1005：B=120Φ260−11Φ*−108X−F10，首24768z12；K首51840z12，C=90B−43K首−3151872z18，坏canonical时jC=−δ(p+1)log/112≠0。单P130第六=原P2^65−A_pc6−B_pmass，B_p=−832(3/5)^p/63；全22 C³=−c6root·rω。K/C的全Z移动零点与O均消，仅E2、两个exact；完整有限部−4c6/7、7κ5a+及全部高阶/译像Miller保持。回p6最后项720/840，前五行全精度/低卷积不动。
 - R1004/1007：真实run45916324833/job140236318135/source56f5c405d给两完整13核全22 mass/c6、四源rank4及K/C两项rank2。适配Qπ=P10(πz)/(π10Rπ10)、Zπ=Z(πz)/π全等变，Jπ=qπ^−vJ，mass零导数同，半轨道适配差7dlog/4。核项−6Tr(X^p b)；§5.3固定K(√13)全范数删集外，K/C每条在两核/两Frob符号均非零。七个E[2π]点留数及两exact原点权均保。whole13迹下推S10两基：有限13⁷/全Tate13，未赋translated中央零。
 
-central/arithmetic正做R1010单原输入的隔核权/完整S10下推及两exact压缩；新结果未登记前不当已付。此前每条完整式、固定坏集、source/run/hash都由逐字归档与open指向，不重做。
+R1010已付单原K/C隔核权g_l=(Rπ/(X+1)²)^l：T6π=13⁶T6,10(A7,p)，六次权另减Bπ=6Tr(c^p b)，c=6⁶X⁴R′⁶/(X+1)^9且Norm=−2^52·3³ω²/π。原O/全E[2π]真下推到E2，C³真零，两exact首帽+60降+12/+14、第二(p−1)/2。原p6前五项/γ/7κ5π^(5p−1)a+不删。π-cover的固定13项Kummer/第一Cartier返还全部tame字线，未给这些亚纯字线canonical零。central/arithmetic续真实字线/同点必要关系。此前每条完整式、固定坏集、source/run/hash都由逐字归档与open指向，不重做。
 
 ## 四、几何与全局非零
 

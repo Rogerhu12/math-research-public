@@ -20,3 +20,5 @@
 - [R1008](../results/R1008-complete-original-linear-fiber-frobenius.md)：同原46971乘积在任一实际一次基根/两图完整求值，Fp²双坐标保全乘法、半线性Frob和真正约化投影；单张量缓存保厚理想/全长度/Norm目标。明确接R975七行模aliases及R986两constructor，原v8所有门继续执行；仅静态证明/源码，未运行或声称shadow PASS。
 
 - [R1009](../results/R1009-fixed-highest-extension-and-one-motive-obstruction.md)：先固定7993-depleted实际54图，经R817原Katz→R806→R1002/1006检测原P−非零；扩张Lie Ru=原V(2,−1)。Jossen半阿贝尔Lie仅0/1排整个有限1-motive张量/对偶/子商范畴，任意有限扩域后亦然；不排纯V。兼容Frob不见扩张，固定一次有限域约化仅有限ℓ挠检测，继续真正level3跨ℓ输入。
+
+- [R1010](../results/R1010-original-thirteen-weighted-trace-and-two-exact-compression.md)：单原K/C的g6/g7 Frobenius隔核权保第六读数，完整push给13⁶，下推至原E2并付唯一六次核补项6Tr(c^p b)及全norm。下层C³全零，两exact帽+60降+12/+14；原六位前五项、γ和840低卷积全保。固定Kummer13项及第一Cartier把p增长权返有限tame字线，不赋新中央零。
