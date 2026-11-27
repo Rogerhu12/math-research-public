@@ -5,7 +5,7 @@
 
 ## 规则与同步
 
-root最后真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端失效、15:03:35重置后唯一复核仍失败，恢复即真pull。云核至 `346dd26f5c8969b0b84664e568ce42b03b1e5dfa`（非pull）。
+root最后真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端失效、15:03:35重置后唯一复核仍失败，恢复即真pull。云核至 `acceb72f8fb174ef1616a293b298e6907aee730e`（非pull）。
 双README SHA256：581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d。无变；每真pull只读新差异并立刻遵守，至少每小时。活12–16通常每5分钟真pull，实际已读commit在末块。
 私库QUEUE进行中已推e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。root独占refs/queue；每结论普通推，NFF有终端立即rebase重推；无终端freshHEAD完整合并不冒pull，不force。令牌仅瞬时CLI。[完整发布支持](computations/resume-20261127-root-publication-support.mjs)已刊。
 科学只本公开Actions；raw只runner/scratch、不Git/Release/artifact、不改名输入。保全源/全部参数/真实run与输出hash。题≤200MB、文件<5MB、MD<100KB、H<10KB、open<30KB；先metadata，不整读≥100KB或binary。根§12不另设独立审查/冻结/AST/fixture/重跑门，不减目标或原预算。[旧log全文](log/2026-11-27-session-through-fejer-closed.md)96562B保。
@@ -28,7 +28,7 @@ root最后真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终�
 
 固定参考M160/J923/N2048/P7377、math957cf/fulltarget50df/reference model ea64，各run全11输入/独立report与history保；e640参数≠d492 scalar、2218全尾accuracy=false不改。N4096/M320/J1845 current精化不换g；所有free坐标和32normal保。
 13[真实修后进入normal](notes/2026-11-27-N13-repair-actual-normal-entry-and-M14-progress.md)保旧完整失败、sourcee8cd/1321角缓存；不能当新场。
-16[真实初值](notes/2026-11-27-run16-initial-mathematics-and-point-bound-progress.md)17:07:51、point7e06：Phi5551.477153263786/有限Gram.6480138218929927、accepted0/helper失败0。完整normal model8cc039与reference ea64分开，初始geometry/trial当时未返；继续原科学，不把数值初值当完整可行场。
+16[实际数学](notes/2026-11-27-run16-initial-mathematics-and-point-bound-progress.md)：current7e06，Phi5551.477153263786/有限Gram.6480138218929927；17:28几何complete=true但g=11.17545381570094>0，不可行。17:35仅trial-start4086c1，trial统计/几何未返、accepted0/helper失败0。normal model8cc039≠reference ea64；六g定义/单位/有限筛范围与两完整原观测保note，继续原科学。
 
 ## 完整来源与未付数学
 
