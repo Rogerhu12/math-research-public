@@ -114,3 +114,8 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 5. **数学与真实精化。** [R721](results/R721-supported-seed-width-and-profile-sensitivity.md)给参数曲率竞争/完整移动B_b，不给Gram或主曲率排序。[R722](results/R722-posterior-convex-mean-root-existence.md)从完整准确候选残差ε及明确正余量证明唯一真根/r±/非对称J逆/全角拼接；完整归一化/边层补集/尾/working差与整角胞ε尚未实际付，旧R709粗bool不改，[完整独立R722核](notes/2026-11-27-R722-posterior-mean-complete-source-interface.md)5件196903B/e10a+9da，准确输入fd299/5b0d族、全叶/批次/有理归属实读；原7133B角jet/profile后缀保，实际费未付、下游接续，Dhat不代根。[完整mesh/t](notes/2026-11-27-stage-observed-complete-same-field-phase-meshes.md)32+6参数、32normal/922径向/两帽/五t/三级空间时间及15科学mesh+5预览各<5MB只runner保；M320零包含不代新解。固定g/参数/t精化至机器/原容差并满足README全部标准后才能收尾，再加强比例。原同源restart只真complete/final，partial/accepted13不充父，pending与窗口未知全保。
 
 只退真实自然返回对象；完整active/history固定Git保。03–11全部known/unknown/typed/发现序/失败保旧链，iteration_limit非驻点、时限非终点。ret49/48及旧台账保全部旧源参数/失败未知/消费者/原字恢复，仅退旧raw，ports/Nelder保。每结论普通推；每真pull只读双README新差异并记H已读commit。
+
+
+### 真实18 static/bound callable 修复后的完整续求
+
+[完整callable交付](computations/fixed-fejer-meridian-callable-binding-repair-complete-delivery.json)及[实际说明](notes/2026-11-27-run18-complete-callable-binding-repair-and-continuation.md)：两次原异常读后，仅修实际两处解包并全量传播来源。当前d5db/0d6d/d683、input38ae；137角色与全部157/7参数/458/445formal/48live保留。新完整科学已排原runner，原input不重建，实际完整返回与场仍未知；pure全对象后接。所有R722/closed/R716/mesh须新来源显式绑定，费用与README义务继续，不能用旧族或修复成功替付。

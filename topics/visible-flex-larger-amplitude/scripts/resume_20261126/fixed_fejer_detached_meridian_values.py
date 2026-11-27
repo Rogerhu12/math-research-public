@@ -201,7 +201,8 @@ class DetachedMeridianValues:
         self.methods={}
         for name in ('_unpack_torch','_angular_nodes','_radial','_meridians','_parent',
                      '_parent_tensor','_integrate','make_query'):
-            function=getattr(q.base,name).__func__
+            bound=getattr(q.base,name)
+            function=getattr(bound,'__func__',bound)
             if sha(function.__code__.co_filename)!=BASE_SOURCE_SHA256:
                 raise ValueError('The complete original meridian base method differs: '+name)
             self.methods[name]=function
@@ -234,7 +235,8 @@ class DetachedMeridianValues:
                 or self.provider.model_identity!=self.provider_identity
                 or canonical(self.provider.model)!=self.provider_identity
                 or q.reference_calibration is not self.calibration
-                or any(getattr(q.base,name).__func__ is not fn for name,fn in self.methods.items())
+                or any(getattr(getattr(q.base,name),'__func__',getattr(q.base,name)) is not fn
+                       for name,fn in self.methods.items())
                 or any(getattr(getattr(q,name),'__func__',getattr(q,name)) is not fn
                        for name,fn in self.normal_methods.items())):
             raise ValueError('Never cross complete source methods, current model, base, provider or calibration')

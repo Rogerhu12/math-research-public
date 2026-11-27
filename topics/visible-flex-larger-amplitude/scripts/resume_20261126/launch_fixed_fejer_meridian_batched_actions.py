@@ -17,7 +17,7 @@ import shlex
 import subprocess
 import sys
 
-DRIVER_SHA = "5b0dc3573b4baa86728b0c0628a1338d339a6c4cf5cf0afcead1f4e6febcc58f"
+DRIVER_SHA = "d5db14d2806a99cc60a9f131d678978c9ac5eb4cef5d216869baedcca3411a47"
 TORCH_INSTALL = ['-m', 'pip', 'install', '--disable-pip-version-check', '--no-input',
     'torch==2.5.1', '--index-url', 'https://download.pytorch.org/whl/cpu']
 

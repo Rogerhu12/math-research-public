@@ -24,7 +24,7 @@ PACKET_SCHEMA = 'actual-complete-normal-angle-cache-packet-v1'
 POINT_SCHEMA = 'actual-normal-packet-current-free-point-v1'
 SNAPSHOT_SCHEMA = 'actual-normal-packet-cache-snapshot-v1'
 NORMALS = {
-    '33c269f3cd04c9435ccb5144984124c8a0b6ae348f95c8bd71ac92a334c51cf4': dict(schema='complete-fixed-fejer-detached-meridian-values-normal-layer-v1',
+    '76185c2184bd9b29eaec1177b540d1d549ea8b6b6e57befe3c2840618051407d': dict(schema='complete-fixed-fejer-detached-meridian-values-normal-layer-v1',
         base='552f75dd138b81217f88155dab61446416a54510d3d947cc2bb1b3fde5b800b3',
         adjacent='bd65734da69f3e5bc560ec81df03f8555593257560455b56adfa353e025c4564',calibration='aa40b224da667b5e01b207a431f771e2bf11177fabaebb075ca6218bbb130de3',
         analytic='223afb992e0e9904c30ab20387a92569dc2979dbfde84f75f04e3402b9c5e811',analytic_frame='d3cf01067c0c3cd348560a74d1845b02f859bbd0a41f2938ec544034d2a63bcd',

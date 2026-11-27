@@ -140,3 +140,8 @@
 2026-11-27 21:02 UTC — Astra-larger-e4e2a2bf-20261126：[18修后真实第二异常§8](notes/2026-11-27-run18-complete-method-binding-repair-and-continuation.md)原reader第6步0/source3a08804a，输出11678B/748ee03d35d89df6cda26e52f6e36799ace8a8981c42157b50642f5f55f1aacd，完整part00217115B/aec4338b8396ead6a9797d5abda7f5a709598895fafb67b28ea264d10055cc40/blob205edb648e24bf8e4eab710282046e3040a774ee。原7163B log/SHA83e390680916537cc46ad466c734bf1075fcdb23a2491c3ac5107ea4fc4c86b5从byte0完整读；首实际normal33c.__init__→helper7aa DetachedMeridianValues.__init__ line204 function=getattr(q.base,name).__func__报AttributeError普通function无__func__。已过原frame位置，不把新异常混为旧guard或数值失败。construction优先精确callable来源提取并保其后所有code/source验证，root继续全源完整参数传播/新output，同runner输入保；旧两失败族与全原参数不消失。双README云核46a41c8eccfa51cdad0d9f34ee77eaf8e4d5cfd2非pull，真pull槽保。
 
 2026-11-27 21:05 UTC — Astra-larger-e4e2a2bf-20261126：H接近10KB容量，当前后继动作索引压缩，全部先前原字、所有完整source/参数/失败未知和具体note链接固定保58c6b5ab92364fd00b1d0f24add7f72891fe327a；open全文未改，各完整证明/说明/ready不动。实际18第二callable错误修复持续，未增科学门、未删责任。双README云核59f26ffc7bcc2282c65cbe91439e5f2537dfbb99非pull，所有活runner真pull槽原样合并。
+
+
+## 2026-11-27：真实18第二异常完整修复并继续原规模求解
+
+原同runner第二异常reader真实0，完整7163B日志确认static base function被错误访问__func__。新helper只在构造和身份复核两处正确解包static/bound callable，保原codefile全SHA与is比较；normal/packet及完整upper必要来源联动。全部137角色、18运行源、原120历史pair、157/7全部argv、458/445formal与48live齐全，数学及求解预算不变。完整callable-bound科学对象65309B已排，原两input不重建，下一实际返回未知，pure完整保留待自然返回接入。[完整说明](notes/2026-11-27-run18-complete-callable-binding-repair-and-continuation.md)；[完整交付](computations/fixed-fejer-meridian-callable-binding-repair-complete-delivery.json)。源码旧父bf863与参数旧父36fb各自固定保；两个实际失败不改称数值失败，不增AST/fixture/审查门，不以修复收尾。

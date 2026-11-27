@@ -26,17 +26,17 @@ SCHEMA = "actual-fixed-fejer-meridian-batched-complete-normal-packet-accurate-fi
 TOPIC = "topics/visible-flex-larger-amplitude"
 SCRIPT_DIRECTORY = "scripts/resume_20261126"
 PINS = {
-    "reader": ("read_fixed_fejer_meridian_batched_so3_report.py", "79375ead2b0a93a54200d079b691e0fb8e0f74da480e3867ea7c91542f4ab222"),
-    "driver": ("fullclosed_fixed_fejer_meridian_batched_so3_qp.py", "5b0dc3573b4baa86728b0c0628a1338d339a6c4cf5cf0afcead1f4e6febcc58f"),
-    "packets": ("fixed_fejer_meridian_root_packets.py", "45dd618adaa5262002bfb9d1979b6f555fe5233a57ec0f75abcec2ab7633a5be"),
-    "normal": ("fixed_fejer_detached_meridian_normal_lift.py", "33c269f3cd04c9435ccb5144984124c8a0b6ae348f95c8bd71ac92a334c51cf4"),
+    "reader": ("read_fixed_fejer_meridian_batched_so3_report.py", "0d6d70b5bb0b1901216d0fb90117c36bded5e2c70d13cd6a8982d8f0a0cbf323"),
+    "driver": ("fullclosed_fixed_fejer_meridian_batched_so3_qp.py", "d5db14d2806a99cc60a9f131d678978c9ac5eb4cef5d216869baedcca3411a47"),
+    "packets": ("fixed_fejer_meridian_root_packets.py", "c750d234fc370d3c74da4577bc99f7fca417dbed169bc3a9d1e7222ea99c84b4"),
+    "normal": ("fixed_fejer_detached_meridian_normal_lift.py", "76185c2184bd9b29eaec1177b540d1d549ea8b6b6e57befe3c2840618051407d"),
     "base": ("fixed_fejer_supported_so3_meridian_operator.py", "552f75dd138b81217f88155dab61446416a54510d3d947cc2bb1b3fde5b800b3"),
     "reference": ("fixed_fejer_axisymmetric_reference.py", "e7175f591a14844331b55c9c09cc6d0ff25f1e2f390706c951f9b6a6008322cb"),
     "continuous": ("so3_axisymmetric_continuous_integrand.py", "a846d373421df655da3bbba2491847b0cd016ae6db09b5d4176be227b2bc9ce6"),
     "reference_fees": ("fixed_fejer_reference_seed_angular_profile_error_bounds.py", "0471c626b7850fecf19513d68209e090f88830b89ff8ad7cc62c2d1709a75e5b"),
     "mean_integrals": ("fixed_fejer_reference_accurate_mean_residuals.py", "ae67ecac9f205cdb2378a7f981d5d60fc723e1caadd5281dff54395d358564a0"),
     "fixed_input_binding": ("fixed_fejer_reference_input_binding.py", "3da43e82722dfb4548ff4e8b454d47ec2626ece76084c7801c0be5b8c989670f"),
-    "field_binding": ("fixed_fejer_meridian_source_binding.py", "de498a0fef7bd9a484bda937dc427224d76018ac49a5dd962afe8cfb8085c056"),
+    "field_binding": ("fixed_fejer_meridian_source_binding.py", "3ee65e2c45d6e9cb81fac1ad0a4c439a291aa2cc3fc73d68f896107c24e2ee68"),
 }
 NORMAL_SCHEMA = "complete-fixed-fejer-detached-meridian-values-normal-layer-v1"
 BASE_SCHEMA = "complete-fixed-fejer-supported-smooth-triangle-so3-meridian-with-core-lift-v1"
