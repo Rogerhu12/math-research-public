@@ -9,7 +9,7 @@
 - 公开根/课题 README 已读至 `1cf10ac7283dc40958604f5f981f1be0e477af80`（2026-11-27 07:12UTC实际pull --rebase；两README差异空）；每次pull只读新差异，至少每小时同步并记SHA。
 - 两仓库已部分克隆。私库QUEUE接手提交41fe885610073f478b2f5a752461ca56cfd43f09已推；06:47UTC实际pull至6139de54ac72f1c7af0508b88ce03efdbf0a5690，两README差异空、QUEUE仍本会话进行中。令牌只命令行/进程认证，不落文件。
 - root独占git/H/open/log/index；每条结论即推，非快进立即pull --rebase/读README差异/再推至成功，不强推。数学只用公开Actions；不存可重算输出。H<10KB、每MD<100KB。
-- [此次完整逐字归档](notes/2026-11-27-handoff-before-double-height.md)及其历史链保全部旧式/回执/未解门；[open](open.md)、[results](results.md)、[R1001–1050索引](notes/PROOF-INDEX-R1001-R1050.md)及前卷为接续入口。
+- [此次完整逐字归档](notes/2026-11-27-handoff-before-genus-four-quotients.md)及其历史链保全部旧式/回执/未解门；[open](open.md)、[results](results.md)、[R1001–1050索引](notes/PROOF-INDEX-R1001-R1050.md)及前卷为接续入口。
 
 ## 一、唯一原几何作业与真实公开回执
 
@@ -17,7 +17,7 @@ v8 run45882239615/job140124138541于01:05:47UTC数学21000s timeout124，01:05:5
 
 v9 run45920983633/job140251398928/source1eeab95eb057de2b6ea6753ff9e36a18bd20bbd2于07:00:41UTC数学21000s超时124，job07:00:43failure。完整终态只读run45956390908/job140363733323/source01b5ee9e561e65955ce89ec10ae01ee58990d8b6：原log34193573B/SHAfe59eda23798547af817f17f7a106af57e397f86e5fee34afde77d429fae56dc。最后数学07:00:15在原A0 y0全零极图的分母算子像，Hermite4/306、剩余det3670；最终数学JSON空、host明确incomplete。所有旧快照/首轮JSON转义问题在终点链。
 
-R1033已付原剩余核/整个厚商后缀Krylov Hermite，全306坐标/nilpotent与H=CI+H(1−e)双包含保齐。07:12UTC在完整消费v9终态后将现有workflow接到已备v10新launcher/请求；旧49源加3源、两char0 pins/Sage10.6/r29/q2453/batch64/minimal及全部原门/21000s/360min不变，人工preflight=false；唯一同concurrency/cancel=false，不排重复作业。实际run/job与数学结论待新回执，源码证明不代PASS。
+R1033已付原剩余核/整个厚商后缀Krylov Hermite，全306坐标/nilpotent与H=CI+H(1−e)双包含保齐。07:12UTC在完整消费v9终态后将现有workflow接到已备v10新launcher/请求；旧49源加3源、两char0 pins/Sage10.6/r29/q2453/batch64/minimal及全部原门/21000s/360min不变，人工preflight=false；唯一同concurrency/cancel=false，不排重复作业。唯一v10 run45956901945/job140365369016/source43c1a7bfd607ba57dcdb891a1ed5ea83b61b1157已实际进入数学步骤；结论待，源码证明不代PASS。
 
 R982/983/R987/R993/R992全部原门真PASS；R992 run45907263972全13核残差、R994 run45907264125三β27复L(1)>0及完整尾<2^-180的source/job/hash见结果及归档。
 
@@ -33,11 +33,11 @@ R1025全Cartier/CM36/Hermite、UC补线/FH primitive/四曲率槽、GP10保持�
 
 R1028末六W_t=W∞+cp·u^pT_t全水平式/固定Hermite齐；真Vδ余项只在target φ_(p−6)拉回的全39第一primitive低窗可删。G简单极，四阶cut p+4→2→37→primitive36，A^p给p−36>K；b5/O/aZ全保。W∞真三字只含原Fp和2/3、正mode2；Lamé p曲率−10Hcal^pI+(5cp/6)E12与P10交换子保全部e项。Jordan单位/裸log不代真正forcing。
 
-R1032新char0 β=X/(X+4)保原完整39支/同K=5s−2，末两窗真Vβ=β^(p²)。实际δ-old返g、δ-new返rS^(p²)T_S^130G，无共同Fp；固定H_G=rS T_SG是原degree130整源，even/odd都在，odd图单射。新增±S主部原P10≥p消cut，全两exact/留数/aZ与九维C³边界齐；四阶E2费用及O最后四b补项不删。与旧模型差含1+Kp，仅native O平坦；不能以低窗重写赋新零。继续全部13/χ8真实测试及高一块原精度。
+R1032新β=X/(X+4)保原39支同K，末两窗β^(p²)；δ-old/new返g与rS^(p²)T_S^130G，原整H_G even/odd齐且odd单射。±S/两exact/留数/aZ/九维C³、四阶G费和O末四b全保。1+Kp仅native O平坦，不能删其它13纤维或赋新零。
 
 R1034将同一char0全39比较扩至H=2p−11/2p−5，真正K>p；两β权饱和β^(p²)/β^(2p²)，γ=3β²−2β消六三挠simple。原native P/Z整提升、整个物理M及R614/616/619两坏带与r=p第二C scalar全保；该页CM另排S极，C³原φ与顶系数是不同泛函。全Weyl cocycle给六极准确old双主部，只有canonical偶读者消odd，原cut/Ξ/高p位仍在。一般四阶后S第二C帽3/primitive3p−2，特殊r=p帽2按整体型用。实际Q†测试生成及确定λ unit迫零仍开。
 
-R1030真实三次角域/五点Dhat degree62/65、195余权36270整基与c8Δ导子70005齐，全好p仍三次/全环p饱和。两64次角gcd14给约分比例degree50，两个actual canonical恰trace-zero平面基；三列Gram另付导子69875、fixed resultant剩余坏集。完整三物理像/范数/同H/E六位仍保共同核和跨界，不相加rank；指定forcing及a+2b<3仍待。
+R1030真三次角域五点Dhat degree62/65、195余权36270整基与c8Δ导子70005齐，全好p保持三次/全环饱和；两64角gcd14使比例degree50，恰actual trace-zero基，Gram导子69875及fixed resultant例外齐。三个物理像保同H/E全六位/共同核，不能相加rank；forcing与a+2b<3仍开。
 
 ## 三、几何与固定最高循环
 
@@ -51,7 +51,9 @@ R1019全η/Cor的shadow被q+1杀，ordinary检测必q≡−1mod6p；原trace0/Mx
 
 R1027全q≥5 canonical fiber六挠；原图pushδ/∞同源−δ/τ pull及三挠修正全保。full9图交换使54成27对正重数2、全η/Cor不消；实际目标End=O34，特殊O/B[2]仅固定有限坏集。仅充分大q最短anti Q高2q/3迫I3分量a=±1；canonical值aS3+eP2。未知D度(q−2)/3，避T/−T/O且在有限好纤维；x/W全极与M/N四端点和m(−1)唯一符号齐，未构造Q或给27对评价。
 
-R1029原2挠C的f3/r2/Jac度3、完整Norm核及S3盖D/Frob²=−q齐。R1031全惰性q≥5原E/−3twist Sel2=⟨gq⟩一维；仅Tate大q定位最短Q模2并得twist Sha[2]=0。原两quadric(19)/Norm/全坐标返回、V=f_*L≅δ_*O(−O)固定theta R0/三零点/Fq下降齐。§9–11进一步付原maximal Frob线性系、显式迹核h/全部极零和固定三乘三M，真jW=M Nq(M^q)^−1保gq^((q−1)/2)。Nm(h)=−2^7·3^10(r+a/2)/(r²X²)常数由全部三支手证；线性因子单零不能当平方。继续由实际乘法求(19)点或完整27对评价，不把矩阵化当Q。
+R1029原2挠C的f3/r2/Jac度3、Norm核与S3闭包F²=−q齐。R1031全惰性q≥5 Sel2=⟨gq⟩；仅Tate大q定位最短Q模2及twist Sha[2]=0。两quadric(19)/Norm/全坐标、稳定V/W theta R0/Fq下降全付；固定h/M与jW保gq^((q−1)/2)，Nm(h)=−2^7·3^10(r+a/2)/(r²X²)的两单零不当平方。仍须真实求覆盖点或27对。
+
+R1031§12–13将同一原Cδ双向化为(A³−1)(B³−1)=9，κ=[−1]下降无漏twist；两free三商给原C与Calt:c²=r⁶+34r³+1，Jac同源度81。Calt两个真Q椭圆商E+:y²=x³−219x+1654、E−:y²=x³+189x+702、同源度4，准确3/−1 twists和Vélu齐。E−有有理三挠(3,36)，每个ss q必inert且整个J(Cδ) F²=−q。已逐条消费Elkies1989已发表定理(Q有实嵌入)得无穷此类辅助q，可避任意固定有限集/Tate小q；不代ordinary p、q+1素因子无穷或原27非零。
 
 02:51–05:55执行环境失联及API快进全记录在逐字归档；05:57已补两仓实际pull，逐字重复未推提交保分支后skip。现用实际git，数学只公开Actions。
 

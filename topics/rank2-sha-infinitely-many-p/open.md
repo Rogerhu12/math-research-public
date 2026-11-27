@@ -40,7 +40,7 @@ R966/967的原12个2/3译像真中央零只覆盖δ-new指定线，真实cross �
 
 ## 第一实际门：原映射、全部厚除子与 shadow
 
-**v9完整终态已消费；v10以实质算法替换接入同一唯一工作流。** v9 run45920983633/job140251398928/source1eeab95eb057de2b6ea6753ff9e36a18bd20bbd2于07:00:41UTC数学21000s超时124，job07:00:43failure。完整终态只读run45956390908/job140363733323/source01b5ee9e561e65955ce89ec10ae01ee58990d8b6：原log34193573B/SHAfe59eda23798547af817f17f7a106af57e397f86e5fee34afde77d429fae56dc。最后数学07:00:15在原A0 y0全零极图的分母算子像，Hermite4/306、剩余det3670；最终数学JSON空、host明确incomplete。所有旧快照/首轮JSON转义问题在终点链。 新run/job待实际回执，不记数学PASS。
+**v9完整终态已消费；v10以实质算法替换接入同一唯一工作流。** v9 run45920983633/job140251398928/source1eeab95eb057de2b6ea6753ff9e36a18bd20bbd2于07:00:41UTC数学21000s超时124，job07:00:43failure。完整终态只读run45956390908/job140363733323/source01b5ee9e561e65955ce89ec10ae01ee58990d8b6：原log34193573B/SHAfe59eda23798547af817f17f7a106af57e397f86e5fee34afde77d429fae56dc。最后数学07:00:15在原A0 y0全零极图的分母算子像，Hermite4/306、剩余det3670；最终数学JSON空、host明确incomplete。所有旧快照/首轮JSON转义问题在终点链。 唯一v10 run45956901945/job140365369016/source43c1a7bfd607ba57dcdb891a1ed5ea83b61b1157已进入数学步骤，未有数学PASS。
 
 R909原F/R906§8原P、R924 TUV/DS204/36cusp/Y666/ys360、R925两正规化图306自由环及46971全产品、R926原cube/低权/maps、R927 e0/z96/dF1296均已有真实回执，不重算成新结论。原u/λ/vnew/微分/∞→O/返回17、三退化、omega/Artin(2,0,1)、Z02=Z/Z20=−Z全部保持。四交00/01/11/12、全厚闭点度数/长度/无穷边界/原Tate迹和18×9shadow待实际输出；每E真度39840，成本2256+r·dF或2256(r+1)不能模ell先缩。7993及固定ell有限shadow不代无穷p。
 
@@ -129,3 +129,7 @@ root独占git/H/open/log/index；每条结论即推，非快进立刻pull --reba
 ### R1034 的同一高窗与不可删第二 Cartier
 
 R1034将同一char0全39比较扩至H=2p−11/2p−5，真正K>p；两β权饱和β^(p²)/β^(2p²)，γ=3β²−2β消六三挠simple。原native P/Z整提升、整个物理M及R614/616/619两坏带与r=p第二C scalar全保；该页CM另排S极，C³原φ与顶系数是不同泛函。全Weyl cocycle给六极准确old双主部，只有canonical偶读者消odd，原cut/Ξ/高p位仍在。一般四阶后S第二C帽3/primitive3p−2，特殊r=p帽2按整体型用。实际Q†测试生成及确定λ unit迫零仍开。 两合法权必须在同一完整M/全部低位精度中联立；不能把native顶系数、φ边界或canonical translated奇主部中的任一裸数直接当原中央零。下一步将R1021一阶Q†逐点保χ8/Miller/13权后实际生成，继续全27有权几何门。
+
+### 同一个原谱盖的新无穷 Frobenius 输入
+
+R1031§12–13将同一原Cδ双向化为(A³−1)(B³−1)=9，κ=[−1]下降无漏twist；两free三商给原C与Calt:c²=r⁶+34r³+1，Jac同源度81。Calt两个真Q椭圆商E+:y²=x³−219x+1654、E−:y²=x³+189x+702、同源度4，准确3/−1 twists和Vélu齐。E−有有理三挠(3,36)，每个ss q必inert且整个J(Cδ) F²=−q。已逐条消费Elkies1989已发表定理(Q有实嵌入)得无穷此类辅助q，可避任意固定有限集/Tate小q；不代ordinary p、q+1素因子无穷或原27非零。 下一项是该同一固定曲线Frobenius图经谱乘法回两quadric(19)或全27项；不再泛化为未证明的mixed跨素数faithfulness。Norm(h)所留线性因子仍有两个单零，不能从上述ss输入将其平方化。
