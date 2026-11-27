@@ -153,6 +153,6 @@ p29/type4 note§7新增B=4(X+1)∂x²−96x²∂x+544x及全18列；它是原四
 [canonical二阶§9](notes/2026-11-27-original-canonical-second-derivative-newton-and-full-connection.md)已将所有非有界ζ项返回dotS=(L2原齐次lift)|CM及一个完整有界Q_S；L2C|CM=0、双数定义与实际全尾已付。继续识别这个**指定**lift在原fulltoric/有限theta连接中的真实横向读数，或完整支付不同水平lift的H34差。不能对只在CM点成立的canonical坏零作参数微分；Q_S的两dyadic与一阶K′费用都保留。
 
 
-### 互补 dyadic 的真空核验正在执行
+### 互补 dyadic 三个真实真空已非零
 
-原F_-的实际三线为(v_+,j′=2,8,14)，有限η′=η_j^-1；固定weight3双核的positive槽准确β′=ψ27η_j^-1。逐处idèle单位/主理想互逆、2/17 Gauss、3处wild δ²与uniformizer、完整导子31212/root+及Mellin无限尾均已核清。它们不等于R994旧β或E17六次扭曲族；新脚本只算此三个固定输入，未扫描p。M4096/Arb256/python-flint0.9.0公开CI待回，尚不声称中央值非零。 若新区间排零，继续该三源的完整finite/几何读者；不把正真空非零当原canonical坏条件的必要零关系。半周期投影随参数的导数也须留在同一heat-flat一阶式中。
+原F_-的实际三线为(v_+,j′=2,8,14)，有限η′=η_j^-1；固定weight3双核的positive槽准确β′=ψ27η_j^-1。逐处idèle单位/主理想互逆、2/17 Gauss、3处wild δ²与uniformizer、完整导子31212/root+及Mellin无限尾均已核清。它们不等于R994旧β或E17六次扭曲族；新脚本只算此三个固定输入，未扫描p。M4096/Arb256/python-flint0.9.0实际run46061560954/job140716799525已COMPLETE，三个全值区间均正，严格无限尾及全部系数检查通过。 新区间已排零，继续该三源的完整finite/几何读者；不把正真空非零当原canonical坏条件的必要零关系。半周期投影随参数的导数也须留在同一heat-flat一阶式中。

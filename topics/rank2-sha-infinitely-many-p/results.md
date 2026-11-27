@@ -74,4 +74,4 @@
 
 ### 另一 dyadic 三线的实际固定输入
 
-[完整输入和尾界](notes/2026-11-27-original-complementary-type4-inverse-beta27-input.md)：原F_-的实际三线为(v_+,j′=2,8,14)，有限η′=η_j^-1；固定weight3双核的positive槽准确β′=ψ27η_j^-1。逐处idèle单位/主理想互逆、2/17 Gauss、3处wild δ²与uniformizer、完整导子31212/root+及Mellin无限尾均已核清。它们不等于R994旧β或E17六次扭曲族；新脚本只算此三个固定输入，未扫描p。M4096/Arb256/python-flint0.9.0公开CI待回，尚不声称中央值非零。
+[完整输入和尾界](notes/2026-11-27-original-complementary-type4-inverse-beta27-input.md)：原F_-的实际三线为(v_+,j′=2,8,14)，有限η′=η_j^-1；固定weight3双核的positive槽准确β′=ψ27η_j^-1。逐处idèle单位/主理想互逆、2/17 Gauss、3处wild δ²与uniformizer、完整导子31212/root+及Mellin无限尾均已核清。它们不等于R994旧β或E17六次扭曲族；新脚本只算此三个固定输入，未扫描p。M4096/Arb256/python-flint0.9.0实际run46061560954/job140716799525已COMPLETE，三个全值区间均正，严格无限尾及全部系数检查通过。

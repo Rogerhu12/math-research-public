@@ -43,7 +43,7 @@ R1049约93KB，原54/full9/η/Cor/degree34、Chern/Miller/PD同伦和FL全保；
 
 **[原B完整paired基本解](notes/2026-11-27-original-type4-inert29-coefficient.md)§8**：九个λ各由deg8 Qλ与原U_eQλ给18维半单；固定genus3 cover上Lamé基本矩阵及常数Wronskian全付。原共同σ(2z)^(17/2)、CM13不交换和p−1读者低卷积仍保，不以代数Lamé零p曲率替首行。
 
-**[另一dyadic实际三源](notes/2026-11-27-original-complementary-type4-inverse-beta27-input.md)**：标签(v_+,2/8/14)、有限角色η_j^-1、positive槽β_j^+=ψ27η_j^-1，完整导子31212、root+和严格Mellin尾已手付；不是R994旧三值或E17 sextic族。新独立脚本只算此三源，M4096/Arb256/python-flint0.9.0，由small-check请求2026-11-27-2013-original-inverse-beta27-central-values触发公开CI。数值回执待返，不预付真空非零；原heat一阶费用仍保。
+**[另一dyadic实际三源](notes/2026-11-27-original-complementary-type4-inverse-beta27-input.md)**：标签(v_+,2/8/14)、有限角色η_j^-1、positive槽β_j^+=ψ27η_j^-1，完整导子31212、root+和严格Mellin尾已手付；不是R994旧三值或E17 sextic族。公开run46061560954/job140716799525/source5dc5780c于20:08:41UTC全值COMPLETE，三个区间均为正；全理想/实性/Galois/坏Euler/无限尾均PASS，真空已非零。脚本/参数/哈希见原文，不存输出。继续全六维几何cross及heat必要关系。
 
 ## 主目标及其余原门
 

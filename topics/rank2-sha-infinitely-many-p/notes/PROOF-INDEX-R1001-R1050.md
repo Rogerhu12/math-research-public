@@ -365,4 +365,4 @@ R1049§12（80）–（88）：原Chow层严格图置换将全部η/Cor折为[L:
 - [canonical二阶§9](2026-11-27-original-canonical-second-derivative-newton-and-full-connection.md)：原完整ζ费用=68L2原lift+σ34Pζ，合原F得D²S=68dotS+Q_S全六列。dotS首−67z10/5；L2C|CM特征零等于0，双数负二族与全部尾严格由实际D²S差取得。68K_dot+K_QS=d(dv−1)J_S/p，保Q_S两dyadic及真实一阶必要条件，不新增横向canonical零。
 
 
-- [互补type4的inverse-beta27输入](2026-11-27-original-complementary-type4-inverse-beta27-input.md)：原F_-的实际三线为(v_+,j′=2,8,14)，有限η′=η_j^-1；固定weight3双核的positive槽准确β′=ψ27η_j^-1。逐处idèle单位/主理想互逆、2/17 Gauss、3处wild δ²与uniformizer、完整导子31212/root+及Mellin无限尾均已核清。它们不等于R994旧β或E17六次扭曲族；新脚本只算此三个固定输入，未扫描p。M4096/Arb256/python-flint0.9.0公开CI待回，尚不声称中央值非零。
+- [互补type4的inverse-beta27输入](2026-11-27-original-complementary-type4-inverse-beta27-input.md)：原F_-的实际三线为(v_+,j′=2,8,14)，有限η′=η_j^-1；固定weight3双核的positive槽准确β′=ψ27η_j^-1。逐处idèle单位/主理想互逆、2/17 Gauss、3处wild δ²与uniformizer、完整导子31212/root+及Mellin无限尾均已核清。它们不等于R994旧β或E17六次扭曲族；新脚本只算此三个固定输入，未扫描p。M4096/Arb256/python-flint0.9.0实际run46061560954/job140716799525已COMPLETE，三个全值区间均正，严格无限尾及全部系数检查通过。
