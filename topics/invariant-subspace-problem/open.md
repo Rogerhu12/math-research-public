@@ -4,7 +4,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-Phi-ten-weight-head-locus-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-Phi-two-entire-QQ-fibers-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -198,7 +198,7 @@ D27泛型五次不可约与有限纤维范围保上述D27原单位条目及本�
 
 **[同G稀疏核注入的全H链](results/R271-appendix-sparse-kernel-injection-dense-backward-chain-and-global-trace-quasiaffinity.md)。** 一次高度选择保全κ三次增长，完整旧链误差及Π+GT望远镜支付全H稠密；ℒ_e0是B→T迹类拟亲和。真w仍秩一限制并灭N；新移级图闭包多值、不可闭，不能替代原闭G或付实际源费/N=M。
 
-**Phi例外权仍≤168有序基点。** 原首一2033覆盖/独立混合投影的Gauss已付，每点≤6T。新[六真权边界QQ像](results/R150-appendix-unit211-Phi-zero-exceptional-exact-original-unit-boundary-images.md)仅留λ1/2及完整H6；真实固定投影的一次QQ整除已付，模支持22及余146不作更小点数界。4f9真0.146秒/39728KiB/0；新4d64在两个整常数代数上剥原rho单位，再付首一原rho有限理想，未先判整纤维空。
+**[Phi例外权的λ半与H6两整个QQ纤维已排](results/R150-appendix-unit211-Phi-zero-exceptional-two-genuine-boundary-image-complete-QQ-fiber-exclusions.md)。** 69ab真1.196秒/41896KiB/exit0；原曲线剥真rho单位、QQ首项逆及实际p整固定理想矩阵全23/150维满秩，所选方阵逆完整乘回，H6所有嵌入均保。仅b1,c半有序图及交换付(2λ−1)H6，不外推一般Phi。原168基点界的进一步下降接68dbc真实QQ重数与新完整模商，非裸模支持删减。
 
 **Phi一般rho清Gram失败冻结。** ed0真102.023秒/905380KiB/SIGABRT，FLINT明确分配101202984字节失败；只返原两线及H0content，mean/N1未返。[准确失败](notes/2026-11-27-unit211-Phi-zero-general-rho-two-cleared-Gram-memory-failure-8542.md)及原源保留，不抬限重跑，换小原标量/显名分母输入。
 
