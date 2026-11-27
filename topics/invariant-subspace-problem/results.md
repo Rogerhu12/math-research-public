@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [W原Gram和值的四行三列全部参数余子式](results/R150-appendix-unit211-W-coupled-original-Gram-value-four-by-three-complete-minors.md)：实际λ度12/12/9/11，所有F首项零和四个λ头零保留。
+
 - [碰撞C4整Q图与三次u原覆盖；后cofactor超时冻结](results/R150-appendix-unit211-equal-singleton-C4-Delta-zero-complete-Q-graph-and-cubic-u-cover.md)：完整Q头已付，≤12基点和原四二次行均实际返回；转完整常数代数原Gram。
 
 - [Phi例外权两个真边界像的整QQ纤维排除](results/R150-appendix-unit211-Phi-zero-exceptional-two-genuine-boundary-image-complete-QQ-fiber-exclusions.md)：原23/150维固定理想矩阵满秩，全逆乘回；仅该有序图支付(2λ−1)H6。
