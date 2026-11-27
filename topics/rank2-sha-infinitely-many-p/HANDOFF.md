@@ -8,8 +8,8 @@
 
 - 公开根/课题 README 已读至实际 pull --rebase 的1cf10ac7283dc40958604f5f981f1be0e477af80（07:12UTC），两README差异空；根blob282e86b03385d3b6245ce7100ae2e2af7b103c2d，课题blob2f3b3c9264fbba8189f85716e68f768830e921bc。每次pull立即只读新README差异、至少每小时同步、记SHA。
 - 两库部分克隆已做。私库QUEUE认领41fe885610073f478b2f5a752461ca56cfd43f09已推；最近实际pull06:47UTC至6139de54ac72f1c7af0508b88ce03efdbf0a5690，两README无变、QUEUE本会话进行中。
-- 07:20UTC本地执行再次失联；08:12两库、08:48公开实际pull重试均明确No usable execution environment。私库API至5d54a63ae9dd77a3ae010c470c344b5de21e42e4逐两README核同06:47，QUEUE仍本会话进行中；不冒称实际pull。
-- 断连期间沿最新main API非force快进；每次检查README和本topic差异，遇新父重新比较/建commit。08:12公开API至d990f197a7d196e1400d7cbf997a4cf2c36b7ee8，两README blob仍同07:12；全部最新父比较无本topic外部变化。恢复立刻补两库真实pull及README差异；令牌只命令行/进程，不落文件或API。
+- 07:20UTC本地执行再次失联；09:09两库实际pull重试均明确No usable execution environment。私库API至e0944037db11cf7b9acb79a25f41e13417fde492逐两README核同06:47，QUEUE仍本会话进行中；不冒称实际pull。
+- 断连期间沿最新main API非force快进；每次检查README和本topic差异，遇新父重新比较/建commit。09:09公开API至ccb52315e1485916f867f7574c944b63dc40fac2，两README blob仍同07:12；最新父比较9文件，无本topic外部变化。恢复立刻补两库真实pull及README差异；令牌只命令行/进程，不落文件或API。
 - root独占git/H/open/log/index；每条结论即推，非快进立即pull --rebase、读差异、再推至成功，不强推。数学只用公开Actions。根规则15禁止存可重算输出；H<10KB、每MD<100KB。
 - [此次逐字归档](notes/2026-11-27-handoff-before-dyadic-vector-frame.md)及其完整历史链保全部旧式、回执、未付门和失联/同步史；[open](open.md)、[results](results.md)、[R1001–1050索引](notes/PROOF-INDEX-R1001-R1050.md)为实际接续入口，不重做已登记结论。
 
