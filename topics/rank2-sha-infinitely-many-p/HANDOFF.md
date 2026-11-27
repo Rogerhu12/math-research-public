@@ -6,7 +6,7 @@
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。固定有限曲线族联合无穷非零可用无限鸽巢；有限p、随p换曲线、条件桥、接口或单独投影非零不完成。
 
-- 公开根/课题 README 已读至 `6599383d3cda99d00cc631a6af8d357606f543f8`（差异空）；每次pull只读新差异，至少每小时同步并记SHA。
+- 公开根/课题 README 已读至 `47bd0961872ed181a3a154b389e8201f2975e9f4`（差异空）；每次pull只读新差异，至少每小时同步并记SHA。
 - 两仓库已部分克隆。私库QUEUE接手提交41fe885610073f478b2f5a752461ca56cfd43f09已推；00:18UTC pull至d068b7528401ee4bdb36807538380cfe9c84aa08，两README差异空、QUEUE仍本会话进行中。令牌只进程认证。
 - root独占git/H/open/log/index；每条结论即推，非快进立即pull --rebase/读README差异/再推至成功，不强推。数学只用公开Actions；不存可重算输出。H<10KB、每MD<100KB。
 - [此次完整逐字归档](notes/2026-11-27-handoff-before-two-exact-layers.md)及其历史链保全部旧式/回执/未解门；[open](open.md)、[results](results.md)、[R1001–1050索引](notes/PROOF-INDEX-R1001-R1050.md)及前卷为接续入口。
@@ -37,6 +37,8 @@ R985/R987全Heisenberg/Miller及真实22伴随保持：CF仅全四输出push后/
 - R1001：全22列第六Cartier=β6^(1/p)ω/Z，原p曲率矩阵不除H。C³返留数+32个同W6短窗；第一读取还保两exact导数及−4c6/7、7κ5a+，不能丢。
 - R1003：在真V130^{≥12}20维（含B）第六读取可用单P130替P2^65，差阶6p+12越过6p+6。所有移动Z零点仍消，E2帽p³−p²+122p−3<p³使整个C³真零；第六=−6(H̃0′^p+H̃1′^(p²))。精确回p6最后项系数720/840，前五项全精度与低卷积保持。R1005已扩全22：差A_p c6+B_p mass、B_p=−832(3/5)^p/63；两13归一差准确消修正返3Gold/4。完整伴随和Miller运输保持；同双二挠K真零、C=90B−43K从−3151872z18起，坏canonical下jC=−δ(p+1)log/112≠0。仍须两个真实exact层的中央强迫。
 
+- R1004/R1007：两完整13核全22 mass/c6已真PASS，四真来源rank4、K/C各两项rank2，固定norm坏集保留。适配Qπ=P10(πz)/(π10Rπ10)、Zπ=Z(πz)/π与全Miller严格等变；Jπ=qπ^−vJ，质量零导数不变，M/U各自适配差为7dlog/4。原核第六项=−6Tr(X^p b)，其余七个E[2π]点全部留数和两exact带真实原点权。全trace将K/C送到S10两基，有限窗13⁷/全Tate13；未由canonical坏给translated中央零。
+
 ## 四、几何与全局非零
 
 原R909 F/R906 P及R924–927两图306/46971乘积/maps/dF1296已付；四交/厚Norm/边界/Tate迹及18×9shadow待唯一v8。所有u/λ/vnew/微分/∞O/返回17、三退化、omega/Artin(2,0,1)、Z02=Z/Z20=−Z保持。固定7993与固定ell有限shadow均不代无穷p。
@@ -54,4 +56,4 @@ R988严格level12 K3双逆保持，但R990已证明其新CM17全图族在2处Cho
 
 O4最早a≤1/δ²、O6全Np有限/原q_p=1、O7同解共振/全Laurent/非恒定Y权仍开。原P134/十九角/charge40/10980/WD/TM/TJ及R953跨parity、R954实际forcing成员性保持；全部精确条件见open和逐字归档。不再只提高rank常数而当闭合。
 
-central：R1004两完整13核全22 mass/c6已真PASS：run45916324833/job140236318135/source56f5c405d；每支四源全map秩4、K/C两项各满秩，完整证明已登记并准确排固定norm坏集；arithmetic：单P130/13有限指数129的全权运输及两exact真实消费；geometry：原3型/full9全球桥并跟唯一v8；root：独立读证、原输入研究、消费真回执、逐条推送。主目标未完成就继续下个实质门，不以来源变换或中间结果收尾。
+central：R1004两完整13核全22 mass/c6已真PASS：run45916324833/job140236318135/source56f5c405d；每支四源全map秩4、K/C两项各满秩，完整证明已登记并准确排固定norm坏集；arithmetic：R1007已付全十三适配/两exact下推，续双支下层两列中央约束；geometry：原3型/full9全球桥并跟唯一v8；root：独立读证、原输入研究、消费真回执、逐条推送。主目标未完成就继续下个实质门，不以来源变换或中间结果收尾。

@@ -12,3 +12,5 @@
 - [R1005](../results/R1005-original-single-p130-full22-and-thirteen-translate-correction.md)：单P130完整扩至22列，原第六差恰A_p c6+B_p mass，A_p只读严格低于p的全卷积、B_p=−832(3/5)^p/63。全C³只余原对数线，实际两13质量归一差消尽两jet修正而返3Gold/4；完整p基伴随/平移/Miller帧保持。新增同双二挠K真零与C=90B−43K的准确z18单位首项，坏canonical下jC=−δ(p+1)log/112非零；两个exact/前五行全精度/低卷积仍在，不当成中央矛盾。
 
 - [R1004](../results/R1004-original-thirteen-full-sixth-kernel-jets.md)：两完整十三核的原22列质量/六阶四行映射逐项返回，四指定真来源各给rank4，K/C单独质量与六阶各rank2；全部lift/π⁶/21及七阶曲线展开保留。原whole13 trace独立回到degree10两列，真实run45916324833全旧门及新门PASS；新非零结论准确排固定norm分子素数。适配Qπ核留数真为b_T，K/C各自C³非零，未将其等同原单P130或中央非零；E[2π]/两exact/Gaussian全保持。
+
+- [R1007](../results/R1007-original-thirteen-equivariant-cartier-model-and-kernel-readout.md)：两原十三核的适配P10/Rπ¹⁰及Z(πz)/π给全Miller严格等变；完整Tate比较Jπ=qπ^(−v)J保γπ与质量对数，两半轨道差真实变为7/4·dlog。R1004实际六jet给核第六项−6Tr(X^p b)，全部七个E[2π]点的留数/两exact和原点权均付。K/C的whole13迹准确下推到完整S10两基，有限第六窗因子13⁷、全Tate因子13；不向translated和赋canonical零，继续真实中央强迫。
