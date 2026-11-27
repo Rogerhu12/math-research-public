@@ -1,0 +1,117 @@
+{
+  "schema": "isp-global-W-monic-T-three-original-environment-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "date": "2026-11-27",
+  "sourcePath": "notes/2026-11-27-unit211-W-global-monic-T3-F2-exact-leading-identities-8542.js",
+  "sourceSHA256": "c3df64ed14ed5bca2434547789e35dd47b03fbecc59fe6fc1bfc76a10fa016c1",
+  "executionEnvironment": "functions.exec V8",
+  "processExitCode": null,
+  "peakRssKiB": null,
+  "actual": {
+    "schema": "isp-whole-W-original-monic-T-three-exact-leading-v1",
+    "variables": [
+      "ell",
+      "u",
+      "m",
+      "Q",
+      "J",
+      "d",
+      "lambda",
+      "T"
+    ],
+    "onlyWeightRelationSubstituted": "M=ell^2*d-m^2",
+    "allIntegerCoefficientIdentitiesActuallyVerified": true,
+    "C4T4Leading": "8*m*u*Q*ell^2*d",
+    "C4T3Coefficient": 0,
+    "R3Definition": "R4-[T^4]R4*C4/(8*m*u*Q*ell^2*d)",
+    "R3T3Leading": "8*M^2*u*Q*(3-2*lambda)*ell^3*d*(2*u*Q-J)",
+    "originalCombinationNumeratorProfile": {
+      "terms": 343,
+      "degrees": [
+        12,
+        3,
+        7,
+        3,
+        3,
+        4,
+        4,
+        3
+      ],
+      "bytes": 9163,
+      "sha256": "d8abf0a5e604f1d980b62af1f71c17bdcb2c9ae0ced83add74af6d940c5eb14e"
+    },
+    "numeratorTCoefficientProfiles": [
+      {
+        "terms": 195,
+        "degrees": [
+          12,
+          3,
+          7,
+          3,
+          3,
+          4,
+          4,
+          0
+        ],
+        "bytes": 5222,
+        "sha256": "37b3d4e9bc71317bf0d1fea92803f47f919e9a7d88513cc6f643b366dc063c4c"
+      },
+      {
+        "terms": 76,
+        "degrees": [
+          11,
+          3,
+          7,
+          3,
+          3,
+          4,
+          3,
+          0
+        ],
+        "bytes": 2036,
+        "sha256": "3761d6d4b5c26dd21c6bd64d07939e5c5342d0ac16f00356874139edce8020fe"
+      },
+      {
+        "terms": 60,
+        "degrees": [
+          10,
+          3,
+          7,
+          3,
+          2,
+          4,
+          2,
+          0
+        ],
+        "bytes": 1589,
+        "sha256": "b65f3ab76e7d5169d46827da01b89518cdeea7103b997631361b73dce9b19f9f"
+      },
+      {
+        "terms": 12,
+        "degrees": [
+          9,
+          3,
+          5,
+          3,
+          1,
+          4,
+          1,
+          0
+        ],
+        "bytes": 319,
+        "sha256": "796a131512b836f085b493580eabc97a8603996ff49d23220a1f815244add7e0"
+      }
+    ],
+    "sameLambdaAndTInBothOriginalQuartics": true,
+    "noDOrNormInverse": true,
+    "newGeometryHeadOnly": "3-2*lambda; paid by complete previous whole-fiber theorem",
+    "certificate": {
+      "bytes": 16509,
+      "sha256": "2887c7613b19b307f7816b07adfaaa16284dfa9f1e9073f32b39e8246d1176c4"
+    },
+    "elapsedMilliseconds": 53,
+    "wholeWExcluded": false
+  },
+  "scope": "Global monic T3/F2 polynomial environment after whole lambda=3/2 exclusion; keep original r2 and all full original equations.",
+  "fullIndividualOriginalSixColumnMatrixAlreadyExecuted": false
+}
