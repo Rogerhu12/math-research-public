@@ -19,7 +19,7 @@ v9 run45920983633/job140251398928/source1eeab95eb057de2b6ea6753ff9e36a18bd20bbd2
 
 R1033全剩余核/厚projector和双向返回已接唯一v10：run45956901945/job140365369016/source43c1a7bfd607ba57dcdb891a1ed5ea83b61b1157，52源、两char0 pins、原r29/q2453/batch64/minimal、全部门及21000s/360min、preflight=false均保持。07:48仍in_progress；07:28、08:00日志GET均BlobNotFound404，首只读45958247749/140369658303未得快照。读取失败不代数学失败/成功，不排第二个原几何作业。
 
-R1035完整FLINT多项式行表示手证保R975同pivot/全列/附列/全次数帽/每原生成元双向返回；19组原串适配锁原source，非整个素域下降仍用旧完整后端。原生编译run45962104875/job140382113685/sourcea6a3b7e9453a2f2d0babacb26ec85dd42dc20320已真实成功：Sage10.6、全源pin/19组/整函数hash39fa1f64…8504492匹配，数学实例0，源码/完整stdout/log hashes在R1035§§5–6。§7已准备七处完整行绑定的未激活生产候选/56源host/原参数请求；当前workflow不监听新路径，首准备45963764579仅因小型稀疏树无workflow文件失败（数学未启动），已改同HEAD git show且保原hash，小型重试另消费。v10原矩阵/性能与几何验收均未代付，不排重复作业。
+R1035完整FLINT多项式行表示手证保R975同pivot/全列/附列/全次数帽/每原生成元双向返回；19组原串适配锁原source，非整个素域下降仍用旧完整后端。原生编译run45962104875/job140382113685/sourcea6a3b7e9453a2f2d0babacb26ec85dd42dc20320已真实成功：Sage10.6、全源pin/19组/整函数hash39fa1f64…8504492匹配，数学实例0，源码/完整stdout/log hashes在R1035§§5–6。§7已准备七处完整行绑定的未激活生产候选/56源host/原参数请求；当前workflow不监听新路径，生产准备45964030236/140388320652/source0026a70fa4c916b34ee40f6be22c84a2176f562b已真成功：全pin匹配、原main未调用/primary未改、0数学实例；首次稀疏读失败及git show修正见§7。v10原矩阵/性能与几何验收均未代付，不排重复作业。
 
 R982/983/R987/R993/R992原全部门及R994三β27完整复L(1)>0均有真回执；对应全run/source/hash在结果及逐字归档，不重算。
 

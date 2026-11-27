@@ -204,3 +204,33 @@ v9 ENTRY 仍为 None、完整矩阵调用记录为空、原 primary 构造器未
 首准备run45963764579/job140387453584/source d990f197a7d196e1400d7cbf997a4cf2c36b7ee8在08:11:35 UTC停止于工作流文件的FileNotFoundError。小型检查只检出本topic，工作流不在工作树；失败发生在Docker/Sage启动前，没有运行数学矩阵。完整日志9156字节，SHA256为9cf5f6269e0132481605fbbb0a03da0f499b2dff403a3f09f308fb5834481781。
 
 修正为对同一个checkout执行git show HEAD:.github/workflows/rank2-sha-original-triangular-artinian-shadow.yml，直接读取该提交中的原文件，随后仍核完全相同的工作流SHA256。没有扩大稀疏检出、改动原workflow、放松pin或删除未激活检查。其余源码、两个原请求及数学代码不改；本节表格给修正后检查器身份。独立小型请求2026-11-27-0813-native-production-preparation-sparse继续公开验收。
+
+### 7.2 已消费的完整生产准备回执
+
+修正后的实际 run 为
+[45964030236](https://github.com/Rogerhu12/math-research-public/actions/runs/45964030236)，
+job 为140388320652，source为
+0026a70fa4c916b34ee40f6be22c84a2176f562b。
+job在08:13:37 UTC开始、08:14:34 UTC成功结束；
+实际输出标记为08:14:32.8290160 UTC。
+
+公开 Sage 10.6 中的原生编译、固定 v10 代码加载和延后接线准备
+全部成功。原全部 source pins、请求参数及两张 char0 PASS 均匹配；
+生成整函数 hash 仍是 §5 的39fa1f64…8504492。
+实际检查确认 v10.main 未调用、v9 ENTRY 尚为空、
+完整行调用记录为空、原 primary 构造器未改。
+因此这里仍是0个数学实例的准备结果。
+
+内部编译 stdout 为2732字节，SHA256
+73c9e58b730e72b0eeeae2fb38b39eba98048d7819863787d8e698942d1ed3b4，
+stderr为0。宿主检查 stdout 为4281字节，SHA256
+096fb5f598c1aa1ee10ab38306ad386adc10d3e2999c8439418345986e571119，
+exit code为0。完整 job 日志12577字节，SHA256
+3c37a5eabd3edc84c8f32398abcf7bb645502a64bc19dec5ca269dbe6d0e34b9。
+实际 checker SHA256 为
+8595fec07f44dda656edb40db41809999ccc85d61b32a4990eff43f74459be7b。
+
+同 source 的 Actions 列表也仅有这个小型检查，没有新重型 run。
+当前 v10 仍是唯一原几何作业；完整原对象的数学验收及原生运算
+是否实际被应用，继续由未来真实生产回执判断。
+本节未将准备成功写成原四交、全厚 Norm 或 shadow 的完成。
