@@ -1,0 +1,1244 @@
+{
+  "runId": 45947894307,
+  "jobId": 140336703083,
+  "driver": {
+    "elapsed_seconds": 3.0459054360000053,
+    "max_child_rss_kib": 51304,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "8b2e4b0d33a0ab21d7d5f52fcb67d428c42bba6e",
+        "before": "8b2e4b0d33a0ab21d7d5f52fcb67d428c42bba6e",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-27T05:47:44.350936+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "45947894307",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "8b2e4b0d33a0ab21d7d5f52fcb67d428c42bba6e",
+    "source_exit_code": 0,
+    "source_git_blob": "1e088cdcda344fde534b66f1c5946e8aec6e5883",
+    "source_sha256": "1541f738a902d0f9354137994a90b3dcd8850fa4671fba5b30e2af21ef3c84cf",
+    "stdout_bytes": 16405,
+    "stdout_sha256": "6c37be2368ef3ea2475b8835dc09835202d43a2478954e459f3c3e48351911fc",
+    "stop_reason": null
+  },
+  "stages": [
+    {
+      "stage": "new_equal_weight_same_original_Gram",
+      "originalE0N0P1Verified": true,
+      "weightedOriginalNPThroughHAHBVerified": true,
+      "originalDistinctValueRetained": true,
+      "wholeWeightChartExcluded": false,
+      "seconds": 0.050713508000001184
+    },
+    {
+      "stage": "new_equal_weight_original_X_Gram_coordinates",
+      "name": "E1",
+      "degrees": [
+        3,
+        2,
+        2,
+        2,
+        1,
+        0,
+        0,
+        0
+      ],
+      "terms": 27,
+      "paidRemoved": [],
+      "totalDegreeXYt": 2,
+      "originalE0N0P1AndMeanReconstructionVerified": true,
+      "claimExcluded": false,
+      "seconds": 0.05118544800000535
+    },
+    {
+      "stage": "new_equal_weight_original_X_Gram_coordinates",
+      "name": "EBe",
+      "degrees": [
+        2,
+        1,
+        1,
+        2,
+        2,
+        0,
+        0,
+        0
+      ],
+      "terms": 14,
+      "paidRemoved": [],
+      "totalDegreeXYt": 2,
+      "originalE0N0P1AndMeanReconstructionVerified": true,
+      "claimExcluded": false,
+      "seconds": 0.051464913000003776
+    },
+    {
+      "stage": "new_equal_weight_original_X_Gram_coordinates",
+      "name": "EBo",
+      "degrees": [
+        2,
+        1,
+        1,
+        2,
+        1,
+        0,
+        0,
+        0
+      ],
+      "terms": 11,
+      "paidRemoved": [],
+      "totalDegreeXYt": 2,
+      "originalE0N0P1AndMeanReconstructionVerified": true,
+      "claimExcluded": false,
+      "seconds": 0.051682676000005756
+    },
+    {
+      "stage": "new_equal_weight_original_X_Gram_coordinates",
+      "name": "N1",
+      "degrees": [
+        5,
+        4,
+        2,
+        2,
+        2,
+        0,
+        0,
+        0
+      ],
+      "terms": 107,
+      "paidRemoved": [
+        [
+          "m",
+          1
+        ]
+      ],
+      "totalDegreeXYt": 2,
+      "originalE0N0P1AndMeanReconstructionVerified": true,
+      "claimExcluded": false,
+      "seconds": 0.05282341900000631
+    },
+    {
+      "stage": "new_equal_weight_original_X_Gram_coordinates",
+      "name": "weighted_N",
+      "degrees": [
+        7,
+        6,
+        3,
+        3,
+        3,
+        0,
+        0,
+        0
+      ],
+      "terms": 391,
+      "paidRemoved": [
+        [
+          "m",
+          1
+        ]
+      ],
+      "totalDegreeXYt": 3,
+      "originalE0N0P1AndMeanReconstructionVerified": true,
+      "claimExcluded": false,
+      "seconds": 0.0565358790000019
+    },
+    {
+      "stage": "new_equal_weight_original_X_Gram_coordinates",
+      "name": "weighted_P",
+      "degrees": [
+        7,
+        6,
+        3,
+        3,
+        3,
+        0,
+        0,
+        0
+      ],
+      "terms": 327,
+      "paidRemoved": [
+        [
+          "m",
+          1
+        ]
+      ],
+      "totalDegreeXYt": 3,
+      "originalE0N0P1AndMeanReconstructionVerified": true,
+      "claimExcluded": false,
+      "seconds": 0.05937076700000432
+    },
+    {
+      "stage": "new_equal_weight_paid_or_explicit_chart_four_original_rules",
+      "selectedColumns": [
+        0,
+        1,
+        2,
+        5
+      ],
+      "quadraticHeadUnpaidFactorization": {
+        "content": "-4",
+        "factors": [],
+        "entireProductMultipliedBack": true
+      },
+      "chartGlobalAfterPreviouslyPaidUnits": true,
+      "all16InverseProductsOne": true,
+      "allFourOriginalTraceProductsVerified": true,
+      "claimExcluded": false,
+      "seconds": 0.06984663500000465
+    },
+    {
+      "stage": "new_equal_weight_original_cubic_overlap",
+      "index": 0,
+      "remainingMonomials": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          2,
+          1
+        ],
+        [
+          0,
+          3,
+          0
+        ]
+      ],
+      "maxWeightNumeratorDegrees": [
+        7,
+        4
+      ],
+      "allOriginalSixTraceProductsVerified": true,
+      "allDenominatorsSupportedByExplicitChart": true,
+      "claimExcluded": false,
+      "seconds": 0.09166901300000063
+    },
+    {
+      "stage": "new_equal_weight_original_cubic_overlap",
+      "index": 1,
+      "remainingMonomials": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          2,
+          1
+        ],
+        [
+          0,
+          3,
+          0
+        ]
+      ],
+      "maxWeightNumeratorDegrees": [
+        10,
+        7
+      ],
+      "allOriginalSixTraceProductsVerified": true,
+      "allDenominatorsSupportedByExplicitChart": true,
+      "claimExcluded": false,
+      "seconds": 0.13864040700000402
+    },
+    {
+      "stage": "new_equal_weight_original_cubic_overlap",
+      "index": 2,
+      "remainingMonomials": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          2,
+          1
+        ],
+        [
+          0,
+          3,
+          0
+        ]
+      ],
+      "maxWeightNumeratorDegrees": [
+        7,
+        4
+      ],
+      "allOriginalSixTraceProductsVerified": true,
+      "allDenominatorsSupportedByExplicitChart": true,
+      "claimExcluded": false,
+      "seconds": 0.1534773270000045
+    },
+    {
+      "stage": "new_equal_weight_original_cubic_overlap",
+      "index": 3,
+      "remainingMonomials": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          2,
+          1
+        ],
+        [
+          0,
+          3,
+          0
+        ]
+      ],
+      "maxWeightNumeratorDegrees": [
+        10,
+        7
+      ],
+      "allOriginalSixTraceProductsVerified": true,
+      "allDenominatorsSupportedByExplicitChart": true,
+      "claimExcluded": false,
+      "seconds": 0.1988106090000059
+    },
+    {
+      "stage": "new_equal_weight_six_original_monic_rules",
+      "selectedCubicRows": [
+        0,
+        2
+      ],
+      "explicitUnpaidChart": "none beyond already excluded whole branches and original units",
+      "allOriginalTraceAndLeadingProductsVerified": true,
+      "allLeadingZeroFibresRetained": true,
+      "freeModuleClaimed": false,
+      "claimExcluded": false,
+      "seconds": 0.2116254790000056
+    },
+    {
+      "stage": "new_equal_weight_original_six_monomial_multiplication",
+      "axis": 0,
+      "originalMonomialIdentities": 6,
+      "allOriginalTraceProductsVerified": true,
+      "allDenominatorsPaidOnExplicitChart": true,
+      "maxCoefficientNumeratorDegrees": [
+        8,
+        7
+      ],
+      "claimExcluded": false,
+      "seconds": 0.2547487610000019
+    },
+    {
+      "stage": "new_equal_weight_original_six_monomial_multiplication",
+      "axis": 1,
+      "originalMonomialIdentities": 6,
+      "allOriginalTraceProductsVerified": true,
+      "allDenominatorsPaidOnExplicitChart": true,
+      "maxCoefficientNumeratorDegrees": [
+        8,
+        7
+      ],
+      "claimExcluded": false,
+      "seconds": 0.2727719310000012
+    },
+    {
+      "stage": "new_equal_weight_original_six_monomial_multiplication",
+      "axis": 2,
+      "originalMonomialIdentities": 6,
+      "allOriginalTraceProductsVerified": true,
+      "allDenominatorsPaidOnExplicitChart": true,
+      "maxCoefficientNumeratorDegrees": [
+        8,
+        7
+      ],
+      "claimExcluded": false,
+      "seconds": 0.30829414200000116
+    },
+    {
+      "stage": "new_equal_weight_remaining_original_cubic_row",
+      "index": 1,
+      "allOriginalSixTraceProductsVerified": true,
+      "freeModuleNotAssumed": true,
+      "claimExcluded": false,
+      "seconds": 0.33385374700000625
+    },
+    {
+      "stage": "new_equal_weight_remaining_original_cubic_row",
+      "index": 3,
+      "allOriginalSixTraceProductsVerified": true,
+      "freeModuleNotAssumed": true,
+      "claimExcluded": false,
+      "seconds": 0.36078801200000044
+    },
+    {
+      "stage": "new_equal_weight_same_original_cubic_return",
+      "name": "NS",
+      "maxCoefficientNumeratorDegrees": [
+        15,
+        13
+      ],
+      "allOriginalTraceProductsVerified": true,
+      "claimExcluded": false,
+      "seconds": 0.5000136960000034
+    },
+    {
+      "stage": "new_equal_weight_same_original_cubic_return",
+      "name": "PS",
+      "maxCoefficientNumeratorDegrees": [
+        14,
+        13
+      ],
+      "allOriginalTraceProductsVerified": true,
+      "claimExcluded": false,
+      "seconds": 0.6380862300000061
+    },
+    {
+      "stage": "new_equal_weight_cleared_original_six_column_row",
+      "label": "remaining_cubic_1",
+      "degrees": [
+        10,
+        10
+      ],
+      "terms": 406,
+      "paidRemoved": [],
+      "allOriginalProductsVerified": true,
+      "claimExcluded": false,
+      "seconds": 0.641196936
+    },
+    {
+      "stage": "new_equal_weight_cleared_original_six_column_row",
+      "label": "remaining_cubic_3",
+      "degrees": [
+        10,
+        10
+      ],
+      "terms": 439,
+      "paidRemoved": [],
+      "allOriginalProductsVerified": true,
+      "claimExcluded": false,
+      "seconds": 0.6440908610000022
+    },
+    {
+      "stage": "new_equal_weight_cleared_original_six_column_row",
+      "label": "NS",
+      "degrees": [
+        15,
+        13
+      ],
+      "terms": 801,
+      "paidRemoved": [],
+      "allOriginalProductsVerified": true,
+      "claimExcluded": false,
+      "seconds": 0.650218957000007
+    },
+    {
+      "stage": "new_equal_weight_cleared_original_six_column_row",
+      "label": "PS",
+      "degrees": [
+        14,
+        13
+      ],
+      "terms": 781,
+      "paidRemoved": [],
+      "allOriginalProductsVerified": true,
+      "claimExcluded": false,
+      "seconds": 0.656512357000004
+    },
+    {
+      "stage": "new_equal_weight_additional_original_same_point_product",
+      "sourceRow": 0,
+      "axis": 0,
+      "degrees": [
+        16,
+        16
+      ],
+      "terms": 1014,
+      "allOriginalTraceAndPaidProductsVerified": true,
+      "claimExcluded": false,
+      "seconds": 0.6716610400000036
+    },
+    {
+      "stage": "new_equal_weight_additional_original_same_point_product",
+      "sourceRow": 0,
+      "axis": 1,
+      "degrees": [
+        12,
+        13
+      ],
+      "terms": 637,
+      "allOriginalTraceAndPaidProductsVerified": true,
+      "claimExcluded": false,
+      "seconds": 0.6826355690000057
+    },
+    {
+      "stage": "new_equal_weight_additional_original_same_point_product",
+      "sourceRow": 0,
+      "axis": 2,
+      "degrees": [
+        16,
+        16
+      ],
+      "terms": 1024,
+      "allOriginalTraceAndPaidProductsVerified": true,
+      "claimExcluded": false,
+      "seconds": 0.6977066870000002
+    },
+    {
+      "stage": "new_equal_weight_additional_original_same_point_product",
+      "sourceRow": 1,
+      "axis": 0,
+      "degrees": [
+        16,
+        16
+      ],
+      "terms": 1075,
+      "allOriginalTraceAndPaidProductsVerified": true,
+      "claimExcluded": false,
+      "seconds": 0.7144976470000017
+    },
+    {
+      "stage": "new_equal_weight_additional_original_same_point_product",
+      "sourceRow": 1,
+      "axis": 1,
+      "degrees": [
+        13,
+        13
+      ],
+      "terms": 684,
+      "allOriginalTraceAndPaidProductsVerified": true,
+      "claimExcluded": false,
+      "seconds": 0.7255687090000009
+    },
+    {
+      "stage": "new_equal_weight_additional_original_same_point_product",
+      "sourceRow": 1,
+      "axis": 2,
+      "degrees": [
+        16,
+        16
+      ],
+      "terms": 1087,
+      "allOriginalTraceAndPaidProductsVerified": true,
+      "claimExcluded": false,
+      "seconds": 0.7407555280000011
+    },
+    {
+      "stage": "new_equal_weight_exact_parameter_fraction_free_pivot",
+      "position": 0,
+      "column": 0,
+      "selectedOriginalRow": 0,
+      "degrees": [
+        9,
+        9
+      ],
+      "terms": 66,
+      "allExactDivisionsMultipliedBack": true,
+      "claimExcluded": false,
+      "seconds": 0.7511395100000016
+    },
+    {
+      "stage": "new_equal_weight_exact_parameter_fraction_free_pivot",
+      "position": 1,
+      "column": 1,
+      "selectedOriginalRow": 1,
+      "degrees": [
+        18,
+        18
+      ],
+      "terms": 231,
+      "allExactDivisionsMultipliedBack": true,
+      "claimExcluded": false,
+      "seconds": 0.8027614160000027
+    },
+    {
+      "stage": "new_equal_weight_exact_parameter_fraction_free_pivot",
+      "position": 2,
+      "column": 2,
+      "selectedOriginalRow": 5,
+      "degrees": [
+        28,
+        28
+      ],
+      "terms": 517,
+      "allExactDivisionsMultipliedBack": true,
+      "claimExcluded": false,
+      "seconds": 0.9635289420000035
+    },
+    {
+      "stage": "new_equal_weight_exact_parameter_fraction_free_pivot",
+      "position": 3,
+      "column": 3,
+      "selectedOriginalRow": 8,
+      "degrees": [
+        39,
+        38
+      ],
+      "terms": 913,
+      "allExactDivisionsMultipliedBack": true,
+      "claimExcluded": false,
+      "seconds": 1.1750187700000012
+    },
+    {
+      "stage": "new_equal_weight_exact_parameter_fraction_free_pivot",
+      "position": 4,
+      "column": 4,
+      "selectedOriginalRow": 2,
+      "degrees": [
+        51,
+        47
+      ],
+      "terms": 1453,
+      "allExactDivisionsMultipliedBack": true,
+      "claimExcluded": false,
+      "seconds": 1.3654784540000051
+    },
+    {
+      "stage": "new_equal_weight_complete_original_parameter_cofactor",
+      "openChartExcluded": false,
+      "wholeEqualWeightExcluded": false,
+      "rows": [
+        0,
+        1,
+        5,
+        8,
+        2,
+        3
+      ],
+      "labels": [
+        "remaining_cubic_1",
+        "remaining_cubic_3",
+        "remaining_cubic_1*y",
+        "remaining_cubic_3*y",
+        "NS",
+        "PS"
+      ],
+      "fullDegrees": [
+        64,
+        57
+      ],
+      "fullTerms": 2237,
+      "paidRemoved": [
+        [
+          "m",
+          3
+        ],
+        [
+          "m_minus_one",
+          10
+        ],
+        [
+          "Q",
+          6
+        ],
+        [
+          "Q_minus_one",
+          2
+        ],
+        [
+          "P02_linear",
+          2
+        ],
+        [
+          "paid_T0_J",
+          23
+        ],
+        [
+          "previous_complete_half_weight",
+          2
+        ]
+      ],
+      "reducedDegrees": [
+        24,
+        24
+      ],
+      "reducedTerms": 413,
+      "reducedSHA256": "940f15f76663021106eb1ee940eab588fd9a5cfe9865f7555187dbe28c97a6b5",
+      "cofactorSHA256": "f1f6873a6fe0262a847dbcc3fba3d0b241d36d354cc26ec8e72c739142daf791",
+      "allSixOriginalColumnProductsMultipliedBack": true,
+      "allPaidFactorsActuallyMultipliedBack": true,
+      "seconds": 1.878815344000003
+    },
+    {
+      "stage": "new_equal_weight_complete_original_parameter_cofactor",
+      "openChartExcluded": false,
+      "wholeEqualWeightExcluded": false,
+      "rows": [
+        0,
+        1,
+        5,
+        8,
+        2,
+        6
+      ],
+      "labels": [
+        "remaining_cubic_1",
+        "remaining_cubic_3",
+        "remaining_cubic_1*y",
+        "remaining_cubic_3*y",
+        "NS",
+        "remaining_cubic_1*t"
+      ],
+      "fullDegrees": [
+        64,
+        59
+      ],
+      "fullTerms": 2296,
+      "paidRemoved": [
+        [
+          "m",
+          3
+        ],
+        [
+          "m_minus_one",
+          9
+        ],
+        [
+          "Q",
+          7
+        ],
+        [
+          "Q_minus_one",
+          2
+        ],
+        [
+          "paid_T0_J",
+          25
+        ],
+        [
+          "previous_complete_half_weight",
+          2
+        ]
+      ],
+      "reducedDegrees": [
+        25,
+        25
+      ],
+      "reducedTerms": 461,
+      "reducedSHA256": "97a989760ea5e6ab70775bf35c1bb2beba695f5bf78c77482d2971a0a01300dd",
+      "cofactorSHA256": "e9f6eacdd20caf005d901b1be2d3588ad4376af61d46271ca84313705dd7beb2",
+      "allSixOriginalColumnProductsMultipliedBack": true,
+      "allPaidFactorsActuallyMultipliedBack": true,
+      "seconds": 2.4139053190000013
+    },
+    {
+      "stage": "new_equal_weight_complete_original_parameter_cofactor",
+      "openChartExcluded": false,
+      "wholeEqualWeightExcluded": false,
+      "rows": [
+        0,
+        1,
+        5,
+        8,
+        2,
+        7
+      ],
+      "labels": [
+        "remaining_cubic_1",
+        "remaining_cubic_3",
+        "remaining_cubic_1*y",
+        "remaining_cubic_3*y",
+        "NS",
+        "remaining_cubic_3*x"
+      ],
+      "fullDegrees": [
+        64,
+        59
+      ],
+      "fullTerms": 2296,
+      "paidRemoved": [
+        [
+          "m",
+          3
+        ],
+        [
+          "m_minus_one",
+          9
+        ],
+        [
+          "Q",
+          7
+        ],
+        [
+          "Q_minus_one",
+          2
+        ],
+        [
+          "paid_T0_J",
+          25
+        ],
+        [
+          "previous_complete_half_weight",
+          2
+        ]
+      ],
+      "reducedDegrees": [
+        25,
+        25
+      ],
+      "reducedTerms": 461,
+      "reducedSHA256": "d9fcd9c9402119b15f8a591b56e4c14df30e5a1457ea74807b9d9b1479b14447",
+      "cofactorSHA256": "916d4225541988ef4e999d126b5c20d0c156f89e5f49369bec88d989c968c619",
+      "allSixOriginalColumnProductsMultipliedBack": true,
+      "allPaidFactorsActuallyMultipliedBack": true,
+      "seconds": 2.956281789000002
+    },
+    {
+      "stage": "new_equal_weight_parameter_curve_factorization",
+      "index": 0,
+      "rows": [
+        0,
+        1,
+        5,
+        8,
+        2,
+        3
+      ],
+      "fullFactorization": {
+        "content": "-1/512",
+        "factors": [
+          {
+            "degrees": [
+              24,
+              24
+            ],
+            "totalDegree": 30,
+            "terms": 413,
+            "multiplicity": 1,
+            "sha256": "c93e062245d85408323d3453c070e376a8d857f20ab92224c8941abe9a316ff6"
+          }
+        ],
+        "entireProductMultipliedBack": true
+      },
+      "allFactorProductsMultipliedBack": true,
+      "commonZerosNotClaimedEmpty": true,
+      "seconds": 2.9586108160000038
+    },
+    {
+      "stage": "new_equal_weight_parameter_curve_factorization",
+      "index": 1,
+      "rows": [
+        0,
+        1,
+        5,
+        8,
+        2,
+        6
+      ],
+      "fullFactorization": {
+        "content": "1/512",
+        "factors": [
+          {
+            "degrees": [
+              25,
+              25
+            ],
+            "totalDegree": 32,
+            "terms": 461,
+            "multiplicity": 1,
+            "sha256": "ffc358da6243c530aabbbb15ca11acb6deabe74df126364b006aa7480be49561"
+          }
+        ],
+        "entireProductMultipliedBack": true
+      },
+      "allFactorProductsMultipliedBack": true,
+      "commonZerosNotClaimedEmpty": true,
+      "seconds": 2.9639250930000003
+    },
+    {
+      "stage": "new_equal_weight_parameter_curve_factorization",
+      "index": 2,
+      "rows": [
+        0,
+        1,
+        5,
+        8,
+        2,
+        7
+      ],
+      "fullFactorization": {
+        "content": "-1/512",
+        "factors": [
+          {
+            "degrees": [
+              25,
+              25
+            ],
+            "totalDegree": 32,
+            "terms": 461,
+            "multiplicity": 1,
+            "sha256": "ffc358da6243c530aabbbb15ca11acb6deabe74df126364b006aa7480be49561"
+          }
+        ],
+        "entireProductMultipliedBack": true
+      },
+      "allFactorProductsMultipliedBack": true,
+      "commonZerosNotClaimedEmpty": true,
+      "seconds": 2.9690570290000053
+    },
+    {
+      "stage": "new_equal_weight_all_selected_pivot_common_factor",
+      "curves": 3,
+      "commonFactorization": {
+        "content": "1",
+        "factors": [],
+        "entireProductMultipliedBack": true
+      },
+      "quotientDegrees": [
+        [
+          24,
+          24
+        ],
+        [
+          25,
+          25
+        ],
+        [
+          25,
+          25
+        ]
+      ],
+      "allCommonDivisionsMultipliedBack": true,
+      "quotientsHaveNoCommonPolynomialDivisor": true,
+      "commonZerosNotClaimedEmpty": true,
+      "entireCommonFactorZeroBranchRetained": true,
+      "allOriginalPivotZeroFibresRetained": true,
+      "ordinaryISPClaim": false,
+      "seconds": 2.9693466790000045
+    },
+    {
+      "stage": "new_equal_weight_original_six_generator_parameter_input_complete",
+      "explicitUnpaidChart": "none beyond already excluded whole branches and original units",
+      "basis": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ]
+      ],
+      "originalMultiplicationIdentities": 18,
+      "initialOriginalNecessaryRows": 4,
+      "totalOriginalNecessaryRows": 10,
+      "nonconstantRank": 5,
+      "completeParameterCofactors": [
+        {
+          "rows": [
+            0,
+            1,
+            5,
+            8,
+            2,
+            3
+          ],
+          "labels": [
+            "remaining_cubic_1",
+            "remaining_cubic_3",
+            "remaining_cubic_1*y",
+            "remaining_cubic_3*y",
+            "NS",
+            "PS"
+          ],
+          "fullDegrees": [
+            64,
+            57
+          ],
+          "fullTerms": 2237,
+          "paidRemoved": [
+            [
+              "m",
+              3
+            ],
+            [
+              "m_minus_one",
+              10
+            ],
+            [
+              "Q",
+              6
+            ],
+            [
+              "Q_minus_one",
+              2
+            ],
+            [
+              "P02_linear",
+              2
+            ],
+            [
+              "paid_T0_J",
+              23
+            ],
+            [
+              "previous_complete_half_weight",
+              2
+            ]
+          ],
+          "reducedDegrees": [
+            24,
+            24
+          ],
+          "reducedTerms": 413,
+          "reducedSHA256": "940f15f76663021106eb1ee940eab588fd9a5cfe9865f7555187dbe28c97a6b5",
+          "cofactorSHA256": "f1f6873a6fe0262a847dbcc3fba3d0b241d36d354cc26ec8e72c739142daf791",
+          "allSixOriginalColumnProductsMultipliedBack": true,
+          "allPaidFactorsActuallyMultipliedBack": true
+        },
+        {
+          "rows": [
+            0,
+            1,
+            5,
+            8,
+            2,
+            6
+          ],
+          "labels": [
+            "remaining_cubic_1",
+            "remaining_cubic_3",
+            "remaining_cubic_1*y",
+            "remaining_cubic_3*y",
+            "NS",
+            "remaining_cubic_1*t"
+          ],
+          "fullDegrees": [
+            64,
+            59
+          ],
+          "fullTerms": 2296,
+          "paidRemoved": [
+            [
+              "m",
+              3
+            ],
+            [
+              "m_minus_one",
+              9
+            ],
+            [
+              "Q",
+              7
+            ],
+            [
+              "Q_minus_one",
+              2
+            ],
+            [
+              "paid_T0_J",
+              25
+            ],
+            [
+              "previous_complete_half_weight",
+              2
+            ]
+          ],
+          "reducedDegrees": [
+            25,
+            25
+          ],
+          "reducedTerms": 461,
+          "reducedSHA256": "97a989760ea5e6ab70775bf35c1bb2beba695f5bf78c77482d2971a0a01300dd",
+          "cofactorSHA256": "e9f6eacdd20caf005d901b1be2d3588ad4376af61d46271ca84313705dd7beb2",
+          "allSixOriginalColumnProductsMultipliedBack": true,
+          "allPaidFactorsActuallyMultipliedBack": true
+        },
+        {
+          "rows": [
+            0,
+            1,
+            5,
+            8,
+            2,
+            7
+          ],
+          "labels": [
+            "remaining_cubic_1",
+            "remaining_cubic_3",
+            "remaining_cubic_1*y",
+            "remaining_cubic_3*y",
+            "NS",
+            "remaining_cubic_3*x"
+          ],
+          "fullDegrees": [
+            64,
+            59
+          ],
+          "fullTerms": 2296,
+          "paidRemoved": [
+            [
+              "m",
+              3
+            ],
+            [
+              "m_minus_one",
+              9
+            ],
+            [
+              "Q",
+              7
+            ],
+            [
+              "Q_minus_one",
+              2
+            ],
+            [
+              "paid_T0_J",
+              25
+            ],
+            [
+              "previous_complete_half_weight",
+              2
+            ]
+          ],
+          "reducedDegrees": [
+            25,
+            25
+          ],
+          "reducedTerms": 461,
+          "reducedSHA256": "d9fcd9c9402119b15f8a591b56e4c14df30e5a1457ea74807b9d9b1479b14447",
+          "cofactorSHA256": "916d4225541988ef4e999d126b5c20d0c156f89e5f49369bec88d989c968c619",
+          "allSixOriginalColumnProductsMultipliedBack": true,
+          "allPaidFactorsActuallyMultipliedBack": true
+        }
+      ],
+      "openChartExcluded": false,
+      "allUnpaidZeroFibresRetained": true,
+      "noMultivariateGcdEmptinessInference": true,
+      "freeModuleClaimed": false,
+      "sourceSHA256": "1541f738a902d0f9354137994a90b3dcd8850fa4671fba5b30e2af21ef3c84cf",
+      "peakRssKiB": 51304,
+      "wholeEqualWeightExcluded": false,
+      "ordinaryISPClaim": false,
+      "seconds": 2.9695465660000053
+    }
+  ]
+}
