@@ -10,7 +10,7 @@
 
 目标：同一固定g、闭连通C²嵌入、全t强C²连续；固定有内点H且diamH≥.2D、整像δhold≥.2D、含反射δE>0；全t reach≥.03D、整面relative metric≤1e−6；固定g/参数/范围的真实mesh和频率精化至机器或原求解容差，多t可复现网格，准确说明严格存在缺口。D为完整F0直径。R248准确相位恒等式处理全t，不新增独立t插值门。有限误差/开放片/障碍不完成。
 
-本次终端约02:50 UTC失联；2026-11-27 04:18:54 UTC 云API读main `77f0c12b569065641e6bbcc6249c82d137e585bc`，双README整SHA无变；未冒真实pull，恢复后立即真实pull/rebase。新父普通快进/保CI槽继续，完整边界见08修复note。
+本次终端约02:50 UTC失联；2026-11-27 04:26:27 UTC 云API读main `f5988052db8691e4233d8f0659a023272ab66edb`，双README整SHA无变；未冒真实pull，恢复后立即真实pull/rebase。新父普通快进/保CI槽继续，完整边界见08修复note。
 
 ## 完整历史与共同模型
 
@@ -34,7 +34,7 @@ R700限固定M/正ρ，旧QR未跑。[全时连续合同](notes/2026-11-27-new-e
 
 R710/R713条件链保固定H。[全实际mean批费用](notes/2026-11-27-material-envelope-complete-seed-fee-adapters-and-all-batch-schedule.md)285994/ce686/3feff已加入07纯读后，所有实际批/角字/失败三字段保；600/60预算非完成。[完整节点费](notes/2026-11-27-complete-immutable-reference-node-fee-design.md)80744/81ce排其后，含全E/积分查询、真新四jet、准确affine/全支持支/向上费用；不冒旧cache字同。尚无费用真返，normal/连续角/rawΔ/F六jet仍欠，不作求解门。
 
-R714全C1/m32、R715 raw hΔ六jet及全E/typed保。[08实际6–9](notes/2026-11-27-run08-actual6-projection-rejection-and-definition-readback.md)拒旧chart且真返7c≠90，全部对象/失败归档。[新独立固定目标](notes/2026-11-27-independent-run08-fixed-chart-and-complete-old-carrier.md)105289/657c全source/ready已排：完整160词/923准确节点/492模型/eeb参考先冻结；旧90身份及所有地址保，不冒同旧g或继承值。原2397及整dc5硬核不减，08新producer待返；新4d92 memory/完整下游接入中，未知07 typed仍须合入。
+R714全C1/m32、R715 raw hΔ六jet及全E/typed保。[08实际6–9](notes/2026-11-27-run08-actual6-projection-rejection-and-definition-readback.md)拒旧chart且真返7c≠90，全部对象/失败归档。[新独立固定目标](notes/2026-11-27-independent-run08-fixed-chart-and-complete-old-carrier.md)105289/657c全source/ready已排：完整160词/923准确节点/492模型/eeb参考先冻结；旧90身份及所有地址保，不冒同旧g或继承值。原2397及整dc5硬核不减，08 producer待返；[新4d92/95559/f382全入口](notes/2026-11-27-complete-independent-chart-material-envelope-entry.md)及全参数已排其后，原科学后缀全保，未知07 typed仍须合入。
 
 [06首启失败](notes/2026-11-26-run06-startup-failure-unfetchable-rules-commit.md)45903578703仅规则ref fetch失败，未启科学；原后继责任全保。
 
