@@ -203,16 +203,15 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 [H265 非零原值接口](results/R150-appendix-unit211-W-first-binary-head-open-original-value-six-coordinate-return.md)已返四规则/十二真乘法/h4,h5,完整R3,q4四余式；180秒常数门最后完整打印秩4，没有返1或新覆盖，冻结。[纯二元三次等理想替换](results/R150-appendix-unit211-W-original-cubic-pure-binary-ideal-compression.md)保任意原三次次数≤3且无新分母；7168的新完整 NS/PS 固定六阶参数 det 首次运行，只有完整非零返回才可记新必要权覆盖，整H265零及所有未付头/原值始终保留。
 
-### Phi：一般 H1 余 C253，其它原权与值层仍开
+### Phi：一般 H1 余 P201，其它原权与值层仍开
 
 原 rho 二次头零（包含例外有序权图）已全闭，仅旧物理D≠0图付 Aρ，不传碰撞D0；旧主 C87/55/C71/29 不再处理。原四头共同十权已闭，使四个非零头图覆盖；第一头零仍是整 H1 曲线，其它头图/H0/个别NP继续。一般首头原P6度39/20/6、P9度73/41/9及λ头H19/11原必要身份保快照，不将必要式互素或有限图当作排空。
 
-[三个一次极点全闭与1012权对覆盖](results/R150-appendix-unit211-Phi-zero-H1-three-linear-poles-complete-exclusion-and-1012-cover.md)已在整个QQ三次Q代数用原四式/两λ6 cofactor Bezout1，得到
+[原极点九整域现全闭、余804权对](results/R150-appendix-unit211-Phi-zero-H1-six-nonlinear-poles-complete-exclusion-and-804-cover.md)：三个一次整线后，877e首次7.029657647秒/0在六个完整有限自由模型返回原H乘法单位，所有C55零纤维均排空。当前必要条件为
 $$
-C_{253}=H_3H_4H_5H_7H_8H_{25}P_{201},\qquad
-\#(u,Q)\le1012 .
+P_{201}(u)=0,\qquad g(u,Q)=0,\qquad \#(u,Q)\le804 .
 $$
-这不是完整λ/T/z点数。P201系数尚未识别；1254首次处理前六因子的整有限自由原λ6模型，整权/三头/λ头单位未全付或完整乘法理想未返时保整个φ，不从模gcd升QQ。旧b0的316仍是额外必要覆盖，全部剩余纤维保。旧a40/ed0/879/bb35/7dfa与Dixon编译/资源失败准确身份保档，已成功Gaussian门不重放。
+P201系数未识别，未返原λ/T/z与全部个别NP继续，不以权对数当完整原点数。素数1009只按整权/原三头/真λ6头单位预选；秩54/72/90/168/192/600完整逆回I才升QQ，无模空偷换。旧b0的316额外必要；a40/ed0/879/bb35/7dfa/Dixon旧失败及已成Gaussian门冻结。
 
 ### R271：更多有限联合源已成，同W实际费用未成
 

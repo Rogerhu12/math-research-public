@@ -1,0 +1,485 @@
+{
+  "schema": "isp-H1-six-nonlinear-original-integral-complete-v1",
+  "scope": "original unit211 Phi=0, D!=0, whole H1 weight curve; all complex embeddings retained",
+  "sourcePath": "notes/2026-11-28-unit211-Phi-zero-H1-six-nonlinear-source-poles-integral-original-fibers-8542.py",
+  "sourceGitBlob": "1254188e0d43d27c68b1557defbe3a2feb4a9ae4",
+  "sourceSHA256": "877e4a078ded683c7db5488b101a09e0582a5831b0ffe7c05a69d6a89abdd4bf",
+  "runId": 46067201879,
+  "jobId": 140735309768,
+  "execution": {
+    "elapsed_seconds": 7.029657646999993,
+    "max_child_rss_kib": 95904,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "cc1846fc749262b990a611dac6949bb089b76630",
+        "before": "cc1846fc749262b990a611dac6949bb089b76630",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-27T20:58:50.716665+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46067201879",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "cc1846fc749262b990a611dac6949bb089b76630",
+    "source_exit_code": 0,
+    "source_git_blob": "1254188e0d43d27c68b1557defbe3a2feb4a9ae4",
+    "source_sha256": "877e4a078ded683c7db5488b101a09e0582a5831b0ffe7c05a69d6a89abdd4bf",
+    "stdout_bytes": 27504,
+    "stdout_sha256": "b38cb87b15fe27dc6a0873b730ff8ff0d34e6f72b968a2b3ddb2a0686a97cc41",
+    "stop_reason": null
+  },
+  "wholeQQModels": [
+    {
+      "degree": 3,
+      "goodQDegree": 3,
+      "exactPaidUnitCuts": [
+        {
+          "originalPaidUnit": "original rho squared",
+          "removedQDegree": 1,
+          "beforeQDegree": 4,
+          "afterQDegree": 3
+        }
+      ],
+      "goodQIdentity": {
+        "bytes": 70,
+        "sha256": "59ae53859a57148c2f7ab4b5ac82ab61e8b44c14385ff780b0a8b77d2efcee7f"
+      }
+    },
+    {
+      "degree": 4,
+      "goodQDegree": 3,
+      "exactPaidUnitCuts": [
+        {
+          "originalPaidUnit": "original Q",
+          "removedQDegree": 1,
+          "beforeQDegree": 4,
+          "afterQDegree": 3
+        }
+      ],
+      "goodQIdentity": {
+        "bytes": 70,
+        "sha256": "6329491e3d0eb56248599cdcce245341c539fd6daf63b6d584c54884a5c2d979"
+      }
+    },
+    {
+      "degree": 5,
+      "goodQDegree": 3,
+      "exactPaidUnitCuts": [
+        {
+          "originalPaidUnit": "original bc",
+          "removedQDegree": 1,
+          "beforeQDegree": 4,
+          "afterQDegree": 3
+        }
+      ],
+      "goodQIdentity": {
+        "bytes": 176,
+        "sha256": "b3584fc4f2f423f6fccd29e49b32f9129dfbae1b9ac0d7dc72b3cf587e6b281c"
+      }
+    },
+    {
+      "degree": 7,
+      "goodQDegree": 4,
+      "exactPaidUnitCuts": [],
+      "goodQIdentity": {
+        "bytes": 149,
+        "sha256": "23c43c9b74631b1b40bcd11e89933459803100808e3df10850cfe46c698b299e"
+      }
+    },
+    {
+      "degree": 8,
+      "goodQDegree": 4,
+      "exactPaidUnitCuts": [],
+      "goodQIdentity": {
+        "bytes": 149,
+        "sha256": "23c43c9b74631b1b40bcd11e89933459803100808e3df10850cfe46c698b299e"
+      }
+    },
+    {
+      "degree": 25,
+      "goodQDegree": 4,
+      "exactPaidUnitCuts": [],
+      "goodQIdentity": {
+        "bytes": 149,
+        "sha256": "23c43c9b74631b1b40bcd11e89933459803100808e3df10850cfe46c698b299e"
+      }
+    }
+  ],
+  "completeReturns": [
+    {
+      "degree": 3,
+      "phiIdentity": {
+        "degree": 3,
+        "bytes": 22,
+        "sha256": "48be3d224101eee659039fd18fef4ba3ef9398951eafb1b27512798b5b673648"
+      },
+      "excluded": true,
+      "prime": 1009,
+      "finiteFreeRank": 54,
+      "originalIdealRankHistory": [
+        {
+          "originalColumns": [
+            "remaining_O",
+            "T_times_remaining",
+            "actual_commutator_T"
+          ],
+          "rank": 54,
+          "ambientRank": 54,
+          "lambdaCoefficientDegree": 6
+        }
+      ]
+    },
+    {
+      "degree": 4,
+      "phiIdentity": {
+        "degree": 4,
+        "bytes": 24,
+        "sha256": "4d0f00b8e84a03e967ca97e548c9aa554fb91608d4be9d41671f7050bbad8971"
+      },
+      "excluded": true,
+      "prime": 1009,
+      "finiteFreeRank": 72,
+      "originalIdealRankHistory": [
+        {
+          "originalColumns": [
+            "remaining_O",
+            "T_times_remaining",
+            "actual_commutator_T"
+          ],
+          "rank": 72,
+          "ambientRank": 72,
+          "lambdaCoefficientDegree": 6
+        }
+      ]
+    },
+    {
+      "degree": 5,
+      "phiIdentity": {
+        "degree": 5,
+        "bytes": 46,
+        "sha256": "5014dd28e57ecbdb07b887120ecffdba955db61581b8eed648e1335990217240"
+      },
+      "excluded": true,
+      "prime": 1009,
+      "finiteFreeRank": 90,
+      "originalIdealRankHistory": [
+        {
+          "originalColumns": [
+            "remaining_O",
+            "T_times_remaining",
+            "actual_commutator_T"
+          ],
+          "rank": 90,
+          "ambientRank": 90,
+          "lambdaCoefficientDegree": 6
+        }
+      ]
+    },
+    {
+      "degree": 7,
+      "phiIdentity": {
+        "degree": 7,
+        "bytes": 62,
+        "sha256": "1e3fbb766520f820c618026efd51360eca7a1bde0f13500b7d9fe77bcc57496c"
+      },
+      "excluded": true,
+      "prime": 1009,
+      "finiteFreeRank": 168,
+      "originalIdealRankHistory": [
+        {
+          "originalColumns": [
+            "remaining_O",
+            "T_times_remaining",
+            "actual_commutator_T"
+          ],
+          "rank": 168,
+          "ambientRank": 168,
+          "lambdaCoefficientDegree": 6
+        }
+      ]
+    },
+    {
+      "degree": 8,
+      "phiIdentity": {
+        "degree": 8,
+        "bytes": 84,
+        "sha256": "9d2c4ff181a9334228193bd55a2ba596d9aa84d3f05568ce67eaa72cd0966a1c"
+      },
+      "excluded": true,
+      "prime": 1009,
+      "finiteFreeRank": 192,
+      "originalIdealRankHistory": [
+        {
+          "originalColumns": [
+            "remaining_O",
+            "T_times_remaining",
+            "actual_commutator_T"
+          ],
+          "rank": 192,
+          "ambientRank": 192,
+          "lambdaCoefficientDegree": 6
+        }
+      ]
+    },
+    {
+      "degree": 25,
+      "phiIdentity": {
+        "degree": 25,
+        "bytes": 713,
+        "sha256": "98fe71762eb2c2d0fd5a4e5ed09066704be36b65ee2e81ae88aa8a9f7a56b4cc"
+      },
+      "excluded": true,
+      "prime": 1009,
+      "finiteFreeRank": 600,
+      "originalIdealRankHistory": [
+        {
+          "originalColumns": [
+            "remaining_O",
+            "T_times_remaining",
+            "actual_commutator_T"
+          ],
+          "rank": 600,
+          "ambientRank": 600,
+          "lambdaCoefficientDegree": 6
+        }
+      ]
+    }
+  ],
+  "wholeOriginalMultiplicationMatrices": [
+    {
+      "degree": 3,
+      "rank": 54,
+      "matrixIdentity": {
+        "bytes": 11448,
+        "sha256": "ee42ee4305530754dbc9d6851153ee2cdbb93835ee40e463af5f91c4154bc1ca"
+      },
+      "inverseProductReturned": true
+    },
+    {
+      "degree": 4,
+      "rank": 72,
+      "matrixIdentity": {
+        "bytes": 20323,
+        "sha256": "3e779ad8fca8fd0551b8df3aa757b61d09b382fe8ff9ccca0cb6a997a7ccfe29"
+      },
+      "inverseProductReturned": true
+    },
+    {
+      "degree": 5,
+      "rank": 90,
+      "matrixIdentity": {
+        "bytes": 31723,
+        "sha256": "4835cc7fca5fa8d29549b48fb39c07736183c3beeb783fb1a77fd71b73e9dcc5"
+      },
+      "inverseProductReturned": true
+    },
+    {
+      "degree": 7,
+      "rank": 168,
+      "matrixIdentity": {
+        "bytes": 110456,
+        "sha256": "75e03bafd14e356873bc7042914f99209546ce3e4a1d7f625864bcbe8f19597e"
+      },
+      "inverseProductReturned": true
+    },
+    {
+      "degree": 8,
+      "rank": 192,
+      "matrixIdentity": {
+        "bytes": 144123,
+        "sha256": "9c6d68314e466de7d2612dd941facfbfadd5392d6afa50b3dad2fe6ae141ab9d"
+      },
+      "inverseProductReturned": true
+    },
+    {
+      "degree": 25,
+      "rank": 600,
+      "matrixIdentity": {
+        "bytes": 1405015,
+        "sha256": "22a5f4d26e37872003b9fc9f468fd9ea780ae67bb43d614852da938cac0e05ec"
+      },
+      "inverseProductReturned": true
+    }
+  ],
+  "summary": {
+    "sourceSHA256": "877e4a078ded683c7db5488b101a09e0582a5831b0ffe7c05a69d6a89abdd4bf",
+    "factors": [
+      {
+        "phi": {
+          "degree": 3,
+          "bytes": 22,
+          "sha256": "48be3d224101eee659039fd18fef4ba3ef9398951eafb1b27512798b5b673648"
+        },
+        "excluded": true,
+        "prime": 1009,
+        "wholeIntegralFiniteFreeRank": 54,
+        "originalIdealRankHistory": [
+          {
+            "originalColumns": [
+              "remaining_O",
+              "T_times_remaining",
+              "actual_commutator_T"
+            ],
+            "rank": 54,
+            "ambientRank": 54,
+            "lambdaCoefficientDegree": 6
+          }
+        ],
+        "characteristicZeroWholeFactorLiftApplicable": true,
+        "allUnreturnedQQWeightComponentsRetained": false,
+        "noPrimeChangedAfterCommonRootTesting": true
+      },
+      {
+        "phi": {
+          "degree": 4,
+          "bytes": 24,
+          "sha256": "4d0f00b8e84a03e967ca97e548c9aa554fb91608d4be9d41671f7050bbad8971"
+        },
+        "excluded": true,
+        "prime": 1009,
+        "wholeIntegralFiniteFreeRank": 72,
+        "originalIdealRankHistory": [
+          {
+            "originalColumns": [
+              "remaining_O",
+              "T_times_remaining",
+              "actual_commutator_T"
+            ],
+            "rank": 72,
+            "ambientRank": 72,
+            "lambdaCoefficientDegree": 6
+          }
+        ],
+        "characteristicZeroWholeFactorLiftApplicable": true,
+        "allUnreturnedQQWeightComponentsRetained": false,
+        "noPrimeChangedAfterCommonRootTesting": true
+      },
+      {
+        "phi": {
+          "degree": 5,
+          "bytes": 46,
+          "sha256": "5014dd28e57ecbdb07b887120ecffdba955db61581b8eed648e1335990217240"
+        },
+        "excluded": true,
+        "prime": 1009,
+        "wholeIntegralFiniteFreeRank": 90,
+        "originalIdealRankHistory": [
+          {
+            "originalColumns": [
+              "remaining_O",
+              "T_times_remaining",
+              "actual_commutator_T"
+            ],
+            "rank": 90,
+            "ambientRank": 90,
+            "lambdaCoefficientDegree": 6
+          }
+        ],
+        "characteristicZeroWholeFactorLiftApplicable": true,
+        "allUnreturnedQQWeightComponentsRetained": false,
+        "noPrimeChangedAfterCommonRootTesting": true
+      },
+      {
+        "phi": {
+          "degree": 7,
+          "bytes": 62,
+          "sha256": "1e3fbb766520f820c618026efd51360eca7a1bde0f13500b7d9fe77bcc57496c"
+        },
+        "excluded": true,
+        "prime": 1009,
+        "wholeIntegralFiniteFreeRank": 168,
+        "originalIdealRankHistory": [
+          {
+            "originalColumns": [
+              "remaining_O",
+              "T_times_remaining",
+              "actual_commutator_T"
+            ],
+            "rank": 168,
+            "ambientRank": 168,
+            "lambdaCoefficientDegree": 6
+          }
+        ],
+        "characteristicZeroWholeFactorLiftApplicable": true,
+        "allUnreturnedQQWeightComponentsRetained": false,
+        "noPrimeChangedAfterCommonRootTesting": true
+      },
+      {
+        "phi": {
+          "degree": 8,
+          "bytes": 84,
+          "sha256": "9d2c4ff181a9334228193bd55a2ba596d9aa84d3f05568ce67eaa72cd0966a1c"
+        },
+        "excluded": true,
+        "prime": 1009,
+        "wholeIntegralFiniteFreeRank": 192,
+        "originalIdealRankHistory": [
+          {
+            "originalColumns": [
+              "remaining_O",
+              "T_times_remaining",
+              "actual_commutator_T"
+            ],
+            "rank": 192,
+            "ambientRank": 192,
+            "lambdaCoefficientDegree": 6
+          }
+        ],
+        "characteristicZeroWholeFactorLiftApplicable": true,
+        "allUnreturnedQQWeightComponentsRetained": false,
+        "noPrimeChangedAfterCommonRootTesting": true
+      },
+      {
+        "phi": {
+          "degree": 25,
+          "bytes": 713,
+          "sha256": "98fe71762eb2c2d0fd5a4e5ed09066704be36b65ee2e81ae88aa8a9f7a56b4cc"
+        },
+        "excluded": true,
+        "prime": 1009,
+        "wholeIntegralFiniteFreeRank": 600,
+        "originalIdealRankHistory": [
+          {
+            "originalColumns": [
+              "remaining_O",
+              "T_times_remaining",
+              "actual_commutator_T"
+            ],
+            "rank": 600,
+            "ambientRank": 600,
+            "lambdaCoefficientDegree": 6
+          }
+        ],
+        "characteristicZeroWholeFactorLiftApplicable": true,
+        "allUnreturnedQQWeightComponentsRetained": false,
+        "noPrimeChangedAfterCommonRootTesting": true
+      }
+    ],
+    "newPaidWholeUFactorDegree": 52,
+    "remainingUCoverDegree": 201,
+    "differentWeightPairUpperBound": 804,
+    "allSixOriginalSourcePoleFactorsExcluded": true,
+    "remainingP201CoefficientsNotComputedOrClaimedKnown": true,
+    "actualQQWeightReductionProducts": 37277,
+    "actualQQAndMonicLambdaDivisionProducts": 283,
+    "peakRSSKiB": 95904,
+    "polynomialPayloadTransmitted": false,
+    "encodedOrSplitPayloadCreated": false,
+    "wholeH1Excluded": false,
+    "wholePhiFaceExcluded": false,
+    "ordinaryISPClaim": false,
+    "stage": "new_nonlinear_H1_integral_original_input_finished",
+    "seconds": 6.962186989999992
+  },
+  "newConclusion": "all six nonlinear source-pole factors closed; necessary P201, at most 804 distinct original weight pairs",
+  "P201CoefficientsKnown": false,
+  "encodedOrSplitPayloadSaved": false,
+  "oldGaussianReplayed": false,
+  "ordinaryISPClaim": false
+}
