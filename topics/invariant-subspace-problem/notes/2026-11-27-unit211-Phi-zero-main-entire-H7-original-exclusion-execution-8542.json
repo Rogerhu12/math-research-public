@@ -1,0 +1,322 @@
+{
+  "schema": "isp-Phi-main-H7-entire-original-exclusion-execution-v1",
+  "date": "2026-11-28 Asia/Taipei",
+  "run": 46057406228,
+  "job": 140703149299,
+  "execution": {
+    "elapsed_seconds": 0.38549254400000166,
+    "max_child_rss_kib": 38508,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "749287604b499044d844f73dc80208fe4f119581",
+        "before": "749287604b499044d844f73dc80208fe4f119581",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-27T19:32:39.172929+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46057406228",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "749287604b499044d844f73dc80208fe4f119581",
+    "source_exit_code": 0,
+    "source_git_blob": "19cb09b0beb197eaa27c7e7b2913e890f44b5da5",
+    "source_sha256": "39a391bc8c2d2b28e31c78bcda62ed12f16048c407b222a15a62407a9adcbf5b",
+    "stdout_bytes": 7366,
+    "stdout_sha256": "ae5a143fceab2726923fb09df0c0842900236127a632f464583b34b062b97f36",
+    "stop_reason": null
+  },
+  "stages": [
+    {
+      "entireH7Ascending": [
+        "1/48",
+        "1/24",
+        "-1/12",
+        "7/8",
+        "5/16",
+        "-1/4",
+        "3/4",
+        "1"
+      ],
+      "savedOriginalBZeroCoverDegree": 316,
+      "completeOriginalUEqualsOnePlusVSubstitutionReturned": true,
+      "retainedBZeroWeightFactorAscending": [
+        "1"
+      ],
+      "workingComplementFactorAscending": [
+        "1/48",
+        "1/24",
+        "-1/12",
+        "7/8",
+        "5/16",
+        "-1/4",
+        "3/4",
+        "1"
+      ],
+      "everyRetainedCommonFactorStillUnpaid": true,
+      "originalBCoefficientNonzeroOnWorkingActualPoints": true,
+      "noP6P9EquationUsedOnH7": true,
+      "stage": "new_H7_complete_paid_b_zero_cover_intersection",
+      "seconds": 0.009328400000001125
+    },
+    {
+      "workingWeightDegree": 7,
+      "lambdaDegrees": [
+        1,
+        1,
+        2
+      ],
+      "originalAdjugateRowsMatchingSavedL": [
+        0
+      ],
+      "completeOriginalRWOIdentityReturned": true,
+      "bZeroExcludedOnlyByPaidCoverOnWorkingComplement": true,
+      "retainedWeightFactorDegree": 0,
+      "stage": "new_H7_same_saved_original_linear_relation_returned",
+      "seconds": 0.048053760000001944
+    },
+    {
+      "original": "R",
+      "lambdaDegrees": [
+        4,
+        3,
+        2
+      ],
+      "allOriginalPolynomialCoefficientsReturned": true,
+      "noFormalLambdaPolynomialInverseUsed": true,
+      "stage": "new_H7_original_homogenized_quadratic",
+      "seconds": 0.05259603800000434
+    },
+    {
+      "original": "W",
+      "lambdaDegrees": [
+        4,
+        3,
+        2
+      ],
+      "allOriginalPolynomialCoefficientsReturned": true,
+      "noFormalLambdaPolynomialInverseUsed": true,
+      "stage": "new_H7_original_homogenized_quadratic",
+      "seconds": 0.056994477000003485
+    },
+    {
+      "original": "N1",
+      "lambdaDegrees": [
+        4,
+        3,
+        2
+      ],
+      "allOriginalPolynomialCoefficientsReturned": true,
+      "noFormalLambdaPolynomialInverseUsed": true,
+      "stage": "new_H7_original_homogenized_quadratic",
+      "seconds": 0.0613977960000085
+    },
+    {
+      "label": "0_1",
+      "fixedOriginalTDegrees": [
+        2,
+        2
+      ],
+      "fixedSylvesterOrder": 4,
+      "lambdaDegree": 12,
+      "completeUniversalPolynomialDeterminantReturned": true,
+      "allTLeadingZeroLambdaFibersRetained": true,
+      "stage": "new_H7_fixed_original_T_quadratic_resultant",
+      "seconds": 0.08503671300000804
+    },
+    {
+      "label": "original pair 0_1",
+      "lambdaPower": 0,
+      "originalBPower": 4,
+      "remainingDegree": 8,
+      "wholeBZeroWeightsRemainInExplicitRetainedFactor": true,
+      "stage": "new_H7_only_actual_original_value_units_removed",
+      "seconds": 0.09344073900000183
+    },
+    {
+      "label": "original pair 0_1 common constraint",
+      "lambdaPower": 0,
+      "originalBPower": 0,
+      "remainingDegree": 8,
+      "wholeBZeroWeightsRemainInExplicitRetainedFactor": true,
+      "stage": "new_H7_only_actual_original_value_units_removed",
+      "seconds": 0.09571852500000944
+    },
+    {
+      "label": "original pair 0_1",
+      "lambdaDegree": 8,
+      "weightDegree": 7,
+      "workingWeightComplementExcluded": false,
+      "stage": "new_H7_complete_original_common_lambda_constraint",
+      "seconds": 0.09600607100000502
+    },
+    {
+      "label": "0_2",
+      "fixedOriginalTDegrees": [
+        2,
+        2
+      ],
+      "fixedSylvesterOrder": 4,
+      "lambdaDegree": 12,
+      "completeUniversalPolynomialDeterminantReturned": true,
+      "allTLeadingZeroLambdaFibersRetained": true,
+      "stage": "new_H7_fixed_original_T_quadratic_resultant",
+      "seconds": 0.11927510900000016
+    },
+    {
+      "label": "original pair 0_2",
+      "lambdaPower": 0,
+      "originalBPower": 4,
+      "remainingDegree": 8,
+      "wholeBZeroWeightsRemainInExplicitRetainedFactor": true,
+      "stage": "new_H7_only_actual_original_value_units_removed",
+      "seconds": 0.12771279800000457
+    },
+    {
+      "label": "original pair 0_2",
+      "step": 1,
+      "divisorDegree": 8,
+      "remainderDegree": 7,
+      "coefficientDigitBound": 163,
+      "allFiniteWeightComponentsReturned": true,
+      "stage": "new_H7_original_lambda_division_returned",
+      "seconds": 0.1300050110000086
+    },
+    {
+      "label": "original pair 0_2",
+      "step": 2,
+      "divisorDegree": 7,
+      "remainderDegree": 6,
+      "coefficientDigitBound": 310,
+      "allFiniteWeightComponentsReturned": true,
+      "stage": "new_H7_original_lambda_division_returned",
+      "seconds": 0.13278891000000215
+    },
+    {
+      "label": "original pair 0_2",
+      "step": 3,
+      "divisorDegree": 6,
+      "remainderDegree": 5,
+      "coefficientDigitBound": 500,
+      "allFiniteWeightComponentsReturned": true,
+      "stage": "new_H7_original_lambda_division_returned",
+      "seconds": 0.13775352500000793
+    },
+    {
+      "label": "original pair 0_2",
+      "step": 4,
+      "divisorDegree": 5,
+      "remainderDegree": 4,
+      "coefficientDigitBound": 964,
+      "allFiniteWeightComponentsReturned": true,
+      "stage": "new_H7_original_lambda_division_returned",
+      "seconds": 0.14448041500000386
+    },
+    {
+      "label": "original pair 0_2",
+      "step": 5,
+      "divisorDegree": 4,
+      "remainderDegree": 3,
+      "coefficientDigitBound": 1454,
+      "allFiniteWeightComponentsReturned": true,
+      "stage": "new_H7_original_lambda_division_returned",
+      "seconds": 0.15679146500001195
+    },
+    {
+      "label": "original pair 0_2",
+      "step": 6,
+      "divisorDegree": 3,
+      "remainderDegree": 2,
+      "coefficientDigitBound": 2218,
+      "allFiniteWeightComponentsReturned": true,
+      "stage": "new_H7_original_lambda_division_returned",
+      "seconds": 0.17497111500000528
+    },
+    {
+      "label": "original pair 0_2",
+      "step": 7,
+      "divisorDegree": 2,
+      "remainderDegree": 1,
+      "coefficientDigitBound": 3056,
+      "allFiniteWeightComponentsReturned": true,
+      "stage": "new_H7_original_lambda_division_returned",
+      "seconds": 0.20396758900000123
+    },
+    {
+      "label": "original pair 0_2",
+      "step": 8,
+      "divisorDegree": 1,
+      "remainderDegree": 0,
+      "coefficientDigitBound": 4142,
+      "allFiniteWeightComponentsReturned": true,
+      "stage": "new_H7_original_lambda_division_returned",
+      "seconds": 0.2482270160000013
+    },
+    {
+      "label": "original pair 0_2",
+      "step": 9,
+      "divisorDegree": 0,
+      "remainderDegree": -1,
+      "coefficientDigitBound": 4142,
+      "allFiniteWeightComponentsReturned": true,
+      "stage": "new_H7_original_lambda_division_returned",
+      "seconds": 0.3059774620000013
+    },
+    {
+      "label": "original pair 0_2 common constraint",
+      "lambdaPower": 0,
+      "originalBPower": 0,
+      "remainingDegree": 0,
+      "wholeBZeroWeightsRemainInExplicitRetainedFactor": true,
+      "stage": "new_H7_only_actual_original_value_units_removed",
+      "seconds": 0.30737556800001187
+    },
+    {
+      "label": "original pair 0_2",
+      "lambdaDegree": 0,
+      "weightDegree": 7,
+      "workingWeightComplementExcluded": true,
+      "stage": "new_H7_complete_original_common_lambda_constraint",
+      "seconds": 0.3074568000000113
+    },
+    {
+      "workingWeightDegree": 7,
+      "retainedBZeroWeightDegree": 0,
+      "originalWorkingWeightComplementExcluded": true,
+      "remainingOriginalLambdaDegree": 0,
+      "wholeH7Excluded": true,
+      "strictH7DifferentWeightBound": 0,
+      "noP6P9UsedOnH7": true,
+      "noOldParameterEuclidOrResultantReplayed": true,
+      "allConstantWeightAlgebraEmbeddingsRetained": true,
+      "ordinaryISPClaim": false,
+      "stage": "complete_new_H7_original_finite_weight_attempt",
+      "seconds": 0.3075030060000046
+    },
+    {
+      "sourceSHA256": "39a391bc8c2d2b28e31c78bcda62ed12f16048c407b222a15a62407a9adcbf5b",
+      "wholeFiniteAlgebraInverseProducts": 21,
+      "wholeWeightReductionProducts": 20094,
+      "originalLambdaDivisionProducts": 20,
+      "originalDivisionTraceSHA256": "8d82967b342a7f76df2182cc24f9127cf9113b30a09d4dd11640b17ad5f78fd4",
+      "peakRSSKiB": 37716,
+      "ordinaryISPClaim": false,
+      "stage": "new_H7_original_finite_weight_source_finished",
+      "seconds": 0.30804966499999864
+    }
+  ],
+  "mathematicalConclusion": {
+    "wholeH7OriginalFiberExcluded": true,
+    "allSevenComplexWeightEmbeddingsCovered": true,
+    "noP6P9OnH7": true,
+    "followingC71F6DStagesNotExecuted": true,
+    "generalFirstQuadraticHeadH1NotExcluded": true,
+    "collisionDZeroNotInScope": true,
+    "ordinaryISPClaim": false
+  }
+}

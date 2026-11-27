@@ -1,13 +1,17 @@
 {
-  "message": "ISP: prove the full one-special six-site S1 and same-source precision margins",
-  "parentCommit": "26e15682cce2291ca7cb1667d81231a5aef11178",
+  "message": "ISP: exclude the entire main Phi H7 fibre by original seven-dimensional identities",
+  "parentCommit": "a61f482cd1da6b2f8c2f974e45c5b2b5bce30dc4",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R271-appendix-six-site-one-special-weight-full-s1-and-relative-source-margin.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-six-one-special-S1-8542.md",
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-Phi-zero-main-entire-H7-original-exclusion.md",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-main-entire-H7-original-exclusion-execution-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-main-entire-H7-original-exclusion-exact-input-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-collision-E-original-u-heads-and-finite-fibers-8542.py",
+    ".github/workflows/invariant-subspace-8542-collision-original-u-heads.yml",
+    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-entire-Phi-H7-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -16,5 +20,7 @@
     ".github/workflows/invariant-subspace-8542-root-terminal-publication.yml",
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
-  "dispatchWorkflows": []
+  "dispatchWorkflows": [
+    "invariant-subspace-8542-collision-original-u-heads.yml"
+  ]
 }

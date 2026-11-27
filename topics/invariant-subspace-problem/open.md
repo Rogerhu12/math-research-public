@@ -233,10 +233,10 @@ G36完整[高1134](results/R150-appendix-unit211-W-G36-entire-high1134-original-
 
 例外Phi旧ffbdc准确g4=c²、无jet或QQ幂改进保[失败note](notes/2026-11-28-unit211-Phi-zero-exceptional-partial-phi-repeated-factor-8542.md)；例外整图已由独立P6闭，不再续局部入口。
 
-**[Phi主rho头H7补图全部闭合](results/R150-appendix-unit211-Phi-zero-main-rho-head-H7-complement-complete-exclusion.md)。** 已付真QQ gcd(R543,S)度≤1；d751三原lambda gcd=λ−1/2给S(−1/4)=0，R543真含v+1/4，故真gcd恰它；新D原身份闭整−1/4，直接关H7补图。主权只余完整H7七根，不计所有原值；4943仅未执行便利稿，不设冗余门。新39a391首次在QQ[v]/H7保316 b0-cover交因子，互补b非零图用保存L及全部原R/W/O/N1、新固定4阶T结式/全图C71/真实D目标。所有权非单位/头零保留，120秒/1GiB；严禁P6/P9进入H7零图。
+**[Phi主rho头H7补图全部闭合](results/R150-appendix-unit211-Phi-zero-main-rho-head-H7-complement-complete-exclusion.md)。** 已付真QQ gcd(R543,S)度≤1；d751三原lambda gcd=λ−1/2给S(−1/4)=0，R543真含v+1/4，故真gcd恰它；新D原身份闭整−1/4，直接关H7补图。4943仅未执行便利稿，不设冗余门。[整个H7原纤维](results/R150-appendix-unit211-Phi-zero-main-entire-H7-original-exclusion.md)已由39a391真0.385492544秒/38508KiB/0排空：316(1+v)与H7的QQ gcd1，保存L同原adj0，两个fixed T2/T2结果lambda12仅剥已付b⁴到8，全部A7九步gcd1。完整21逆/20094权乘回/20lambda除法涵盖所有七个复权嵌入和全部原值，不假H7不可约，不用P6/P9，未执行C71/F6/D后门。主rho头图现全闭，一般H1和D0不外推。
 
-[Phi主图整个−1/4原权纤维已闭](results/R150-appendix-unit211-Phi-zero-main-minus-quarter-entire-original-fiber-exclusion.md)：d751准确QQ gcd先付lambda半，新b99785实际75ms BigInt在同(u,Q,ell,lambda)=(3/4,5/4,1/2,1/2)构造全部原二次；60×28秩27，三个显式一次原R/W/O乘子直接返8890621787500(1/4−T²)，违反原D非零。N1最终乘子0，目标是D而非原1，全部T/z保留；不借另一例外图同lambda半。此前未剥543/未做余Gauss的note保准确历史。H7补图合成随后另登记，整H7仍只用完整原条件。
+[Phi主图整个−1/4原权纤维已闭](results/R150-appendix-unit211-Phi-zero-main-minus-quarter-entire-original-fiber-exclusion.md)：d751准确QQ gcd先付lambda半，新b99785实际75ms BigInt在同(u,Q,ell,lambda)=(3/4,5/4,1/2,1/2)构造全部原二次；60×28秩27，三个显式一次原R/W/O乘子直接返8890621787500(1/4−T²)，违反原D非零。N1最终乘子0，目标是D而非原1，全部T/z保留；不借另一例外图同lambda半。此前未剥543/未做余Gauss的note保准确历史。H7补图与整H7已分别原闭合；该主图全空，完整rho头零覆盖合成另据原分支恒等式登记。
 
-[碰撞E固定37阶u QQ首次超时](notes/2026-11-28-unit211-collision-E-fixed-u-first-timeout-8542.md)：ba42真180.068846732秒/104532KiB/−14，只加载两E并完整primitive输入乘回，0.048565597秒进入结式后无返回。没有R、因子剥除或新lambda覆盖，不把超时当数学零；冻结此门不抬限/换算法重跑。既成有限五坐标dim≤235170保持；改两E原u首项/无穷远主部和完整有限头纤维，仍须全部原条件。
+[碰撞E固定37阶u QQ首次超时](notes/2026-11-28-unit211-collision-E-fixed-u-first-timeout-8542.md)：ba42真180.068846732秒/104532KiB/−14，只加载两E并完整primitive输入乘回，0.048565597秒进入结式后无返回。没有R、因子剥除或新lambda覆盖，不把超时当数学零；冻结此门不抬限/换算法重跑。既成有限五坐标dim≤235170保持；新3c698首次处理两E原u首项QQ全因式及整未付λ纤维，真原u gcd仅剥已付u/u−1，保全部头降次和非单位。λ∞仅固定最高λ系数的有限u边界，双∞角未覆盖，不用边界排有限点。120秒/1GiB；仍须全部原Q及个别N/P条件。
 
 [六位一特殊权的完整S1与原同源裕量](results/R271-appendix-six-site-one-special-weight-full-s1-and-relative-source-margin.md)：对整个b=(√t,1⁵)、t>0，真实两端度量给完整最高F2逆后才压九维原K；四维标准和五维纯尾共同有F>(2/3)C1²、0≤ΔL3^-1Δ*<F/9。保原C2非零、同B/双来源相减与全部cross，不用五位硬端约定；合既付S2已付此家庭两条原充分式。R239已有更强两异权全出生相邻性，不重新算七位推论。一般六独立权完整S1/S2、实际无限carry/同W/N=M仍开。
