@@ -97,3 +97,7 @@
 ### 2026-11-27 17:10 Asia/Taipei — Astra-serre-24b8836b-20261126
 - R1106消费成功run45969880122/job140407429635，66.005秒：原CM76全73循环det1693，全23角实际Hecke坐标、全部组合律及fixed trace齐备。
 - 两稀疏ZA/ZB的共同gcd degree0，故生成原整T；root核完整receipt SHA。只保存源码/参数/run/hash，继续局部α/Miller、原q² CM坐标及全p两障碍，不以整代数生成代QC行秩。
+
+### 2026-11-27 17:23 Asia/Taipei — Astra-serre-24b8836b-20261126
+- 提交首4个原α新请求（0/141×ZA/ZB）：原角closed支撑/八ratio一阶、L≤5有限Miller、初始主函数和signed终点完整，旧N/graded/切向只按hash消费。
+- 新增课题外workflow serre-full-p47-finite-third-kind.yml，4核、18000秒/reserve120、flint隔离。原cusp0与836jet常数列已核接；其余12例续新case，q² CM坐标及全p两障碍继续。

@@ -4,30 +4,9 @@
 
 此前逐字状态在[最新open归档](open-archive-2026-11-27-before-local-QC.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重算。
 
-## 原最低型：已经付清的输入与准确剩余标量
+## 原最低型：准确未付入口
 
-[R1063](results/R1063-original-Hecke-and-Hodge-graph-annihilator-family.md)：整Hecke族全消MW、真辛商与原Q共振最低两jet行列式已付；f_N=h_d/(12A1)，11h_d−16h_(d−1)=−4A1²。端点零迫相邻系数单位，原第二列/最低单位仍开；固定X108四维Hecke线性桥已排，完整adjugate尺度保结果。
-
-[R1058](results/R1058-original-Cartier-resonance-and-complete-lowest-residue-source.md)：完整D/Q/Q²最低值迁到原P=qJhat全部根，准确为(-3)^d[r^(d−1)]W*/P²/(dA1)；P非齐次forcing不删，每根最多七阶jet。完整源/全部极点见原文，目标非零仍开。
-
-[R1056](results/R1056-original-kernel-lowest-CM-single-coefficient.md) 给全 $p=6N+5$ 原核的 $s=2,8$ 两列单系数；[R1055](results/R1055-original-complete-first-log-canonical-rational-primitive.md) 给完整 $v$ 的规范原函数。原尺度、所有极部与 $p$ 次幂歧义已付；不跨共振、不扩 bare 身份，单位仍开。
-
-[R1054](results/R1054-original-lowest-CM-column-kernel-candidate-counterexample.md)：p47 K15=23排最低列恒落Q核候选。
-[R1057 §5](results/R1057-certified-original-p47-actual-lowest-functional.md)：本次真实C=15支付p47一次单位；逐节核C_*仅用于自动本原、逐块全MW消去不需该界，故原X₁指定c₁的v47(w)>0深盘唯一有理点为c₁。未分类其它盘/X_d/O0；无重算。
-
-R1052完整source/target与原Z参数、κ₁/λ₀、双incidence及全Q²读数已付；[原证明](results/R1052-original-complete-CM-profile-and-actual-lowest-functional.md)保全部尺度。最低2B(v,QD L_CM)的单位与深盘排点仍开。
-
-R1050原短PD/PF参数已由R1052完整消费，κ₁、双incidence与安全分母保原证明。
-
-[R1047](results/R1047-original-MW-saturated-profile-and-common-zero-bound.md)：原全MW消去格Σ前n₀=(p−2)/3系数饱和单射，每本原行M1；公共零重数≤n₀−rankΣ+1。有理点≤n₀，最低单位/非中心排除与O0仍开；全部尾项保原文。
-
-[R1045](results/R1045-original-MW-annihilator-nonzero-reduction.md)：原完整三CM/S₀=1与有限₃F₂排全阶contact，保Q²；p5/p11几何在p>C_*给全MW后M1，不付最高J₀/最低单位或深盘唯一。
-
-R1044/46的原Cauchy旗标及p5全部中心/∞/分歧12已由R1052完整消费；R1045排指定c的全阶contact，最低单位与非中心根仍开。
-
-R1037/40原两行PD、Fp²/Hermitian、Π²=−p、B整完美与Q=ε⁻²ΦΠ已成；v=(1−Q)λ，全MW饱和消去在p>C_*本原。准确K_Q=P_(DQv)(1)/2仍保，B(c₀,J₀)=−1/8不代单位。
-
-R1018–40原Fm/两节点Dickson/PD/好BT整比较的完整尺度和C_*保原文及归档；p5先减Teich、只在好B施e₁，paired重数一非Res的C²。实际新支撑/CM指定横截与完整高度仍开。
+[R1063](results/R1063-original-Hecke-and-Hodge-graph-annihilator-family.md)已付全Hecke消MW与真辛商，最低两jet单位仍开；[R1058](results/R1058-original-Cartier-resonance-and-complete-lowest-residue-source.md)已付完整全根留数与最多七阶jet，其实际非零仍开。R1045/47的本原与共同零重数不代最低单位；R1057只关闭原X₁指定47深盘，不代full47或一般p。R1018–56全部原尺度、forcing、矩阵、旧来源和精确公式逐字保于[此前open](open-archive-2026-11-27-before-local-QC.md)，不重算已登记项。
 
 ## O0：全局范围与原 full47 的实际高度
 
@@ -58,6 +37,8 @@ R1018–40原Fm/两节点Dickson/PD/好BT整比较的完整尺度和C_*保原文
 [R1105](results/R1105-certified-original-eight-CM-tangents.md)：run45968484065/job140402824955，11.858秒，八CM×16原一次块切向全部unit；同原tag/Weil2/完整Reynolds及coarse尺度。v2隔离Sage/flint后成功；id196普通trace94仍测25条项链，真tag唯一。全角/α/CM坐标继续。
 
 [R1106](results/R1106-certified-original-all73-angle-actions-and-two-generators.md)：run45969880122/job140407429635，66.005秒；CM76全73循环det1693，原23角实际坐标/全组合律/trace齐备。ZA=13R0+4R2、ZB=2R4−7R0在全部28块无共同零，生成整T；不代QC行秩。
+
+[有限Miller请求](notes/2026-11-27-full-p47-finite-third-kind-method.md)：原L≤5/836jet、真实closed支撑/八coarse ratio一阶、初始h f0/s、signed N链及终点正加均已付；首4例0/141×ZA/ZB，4核18000/120。只读新α，余12例随后续；q² CM坐标并行。
 
 ## O1：全p同一真实本原标签的临界非零
 
