@@ -53,7 +53,7 @@ R1只把全部异常缩为p>37的完整N_ns；**p≡2,5 mod9只是另加小惯�
 
 ## O1：全p同一真实本原标签的临界非零
 
-[R1061](results/R1061-actual-genus-two-etale-cover-and-original-three-torsion-Petri-point.md)：原e≠0 iff S_n≠0，φ=U H(U³)、H(0)=−e/(2v)。§§16–19原帧/互易/平方、真实K₄及完整第三类四阶式齐备。§20原对称J与有限极界A/B给真实自伴、radA=kΨ和C(UHω)=−ω′；非零线性组合不代H(0)，加权半Dixon/相邻period不冒实际jet。原端值及K₄非零仍开。
+[R1061](results/R1061-actual-genus-two-etale-cover-and-original-three-torsion-Petri-point.md)：原e/S_n、φ=U H(U³)、FM平方及对称J自伴均保原规范。§21短D⁶完整左核h/η/ν，e=−δ²η_k/(4v)，K₄=−δ³ν_k/(4v²)−2ve/δ²，96v⁴H′(0)=8ve−δ⁵ν_k/(4v²)。e=K₄=0等价原forcing的deg≤k−2六次primitive；e0的ν_k=−h_k/2·Ση_j²/j，范数非零仍开，不以加权Dixon矩或大空间可逆代替。
 
 [R1060](results/R1060-actual-X108-nonCM-Cartier-and-nine-torsion-ordinary-input.md)：原X108非CM四Cartier矩阵精确由B_n=P_n(3)=−a_p(E54)控制。明确九挠点/实际三次同源给原p2/5mod9时B_n≠0、非CM ordinary且核恰六CM。A_p=−S_n/3，但尚未证S_n=0⇒B_n=0，不能代原f_N单位。
 

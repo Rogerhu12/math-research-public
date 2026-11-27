@@ -2062,3 +2062,344 @@ o1_theta 推导原对称核与完整 $A/B$ 收缩；
 root 独立推导 (1061.81) 的有限极界公式及 radical，
 并核准完整 graph、原常数、自伴方向和 (1061.86)。
 全部为纸面证明，无数学程序执行。
+
+
+## 21. 原短六阶方程的完整双障碍与真实四阶读数
+
+本节保持同一个原模型、Miller 函数和 relative Cartier，设
+$$
+p=6k-1\ge41,\qquad k=N+1,\qquad v=-6s,\qquad v^2=-108,
+$$
+$$
+E:V^2=U^3+v^2,\quad \omega=dU/(2V),\quad D=d/\omega,
+\quad z=\frac{1-V/v}{2}.
+$$
+所有 $C$ 均指对标量域线性的 relative Cartier，目标坐标记为
+$U',V'$。特别 $v$ 在这一线性算子中保持不变，
+source Frobenius pullback 则把 $v^p=-v$ 一并运输。
+继续用原 $\Psi,\delta,\mathcal R,F_Q,e,K_4,H_p$，不重新定标。
+
+本节证明两个完整障碍及其原几何尺度；**没有证明这两个障碍不能同时为零**。
+证明均在纸面完成，没有数学程序执行。
+
+### 21.1 同一个 $D^3$ 的短三对角式
+
+由 $DU=2V,DV=3U^2$ 直接求导：
+$$
+D^3=27(V^2-v^2)^2\partial_V^3
+ +108V(V^2-v^2)\partial_V^2+(60V^2-36v^2)\partial_V.
+$$
+置 $D^3=-6v\mathscr L$，则
+$$
+\mathscr L=9z^2(1-z)^2\partial_z^3
+ +18z(1-z)(1-2z)\partial_z^2
+ +2(1-10z+10z^2)\partial_z.
+$$
+准确的单项式作用为
+$$
+\boxed{
+\mathscr Lz^j=
+ j(3j-1)(3j-2)z^{j-1}
+ -2j(9j^2+1)z^j
+ +j(3j+1)(3j+2)z^{j+1}.
+}
+\tag{1061.87}
+$$
+其中 $\mathscr L1=0$。对 $1\le j\le k-1$，最高系数
+$j(3j+1)(3j+2)$ 是单位；因此
+$\mathscr L(\overline{\mathbf F}_p[z]_{\le k-1})$ 的维数为 $k-1$，
+其在 $\overline{\mathbf F}_p[z]_{\le k}$ 内的余维恰为二。
+同理，对 $1\le j\le k-2$，
+$\mathscr L^2z^j$ 的次数准确为 $j+2$，最高系数为
+$j(3j+1)(3j+2)(j+1)(3j+4)(3j+5)$，也是单位。
+故
+$$
+\dim\mathscr L^2(\overline{\mathbf F}_p[z]_{\le k-2})=k-2,
+\qquad \operatorname{codim}_{\overline{\mathbf F}_p[z]_{\le k}}
+       \mathscr L^2(\overline{\mathbf F}_p[z]_{\le k-2})=3.
+\tag{1061.88}
+$$
+这里只用短空间的真实最高系数，未由一个不可约三对角矩阵
+猜测它的模 $p$ 特征根简单。
+
+### 21.2 三个完整左核泛函
+
+以下用同一字母表示泛函及其在 $z^j$ 上的值。定义
+$$
+h_j=\frac{(1/3)_j}{(2/3)_j},\qquad
+w_i=\left(\frac{(2/3)_i}{(4/3)_i}\right)^2,
+\qquad S_j=\sum_{i=0}^{j-1}w_i,\quad S_0=0.
+$$
+只取 $0\le j\le k$、$0\le i\le k-1$；这些分母全部是单位。
+直接代 (1061.87) 得 $h\mathscr L=0$。
+另取
+$$
+\eta_0=0,\quad\eta_1=1,\quad \eta\mathscr L=0.
+$$
+其唯一解是
+$$
+\boxed{\eta_j=2h_jS_j.}
+\tag{1061.89}
+$$
+确实，写 $\eta_j=h_js_j$ 后，递推变为
+$$
+(3j+1)^2(s_{j+1}-s_j)
+ =(3j-1)^2(s_j-s_{j-1}),\qquad s_0=0,\ s_1=2,
+$$
+逐项正给 (1061.89)。由 $h_0=1,\eta_0=0,\eta_1=1$，
+这两条泛函线性独立，故由 (1061.88) 的前一秩计算，
+它们是 $\mathscr L(\overline{\mathbf F}_p[z]_{\le k-1})$ 的全部左核。
+
+现在唯一取定
+$$
+\nu_0=\nu_1=0,\qquad \nu\mathscr L=\eta.
+$$
+即对 $1\le j\le k-1$，
+$$
+j\{(3j+1)(3j+2)\nu_{j+1}
+ -2(9j^2+1)\nu_j
+ +(3j-1)(3j-2)\nu_{j-1}\}=\eta_j.
+\tag{1061.90}
+$$
+最高递推系数都是单位，且 $\nu_2=1/20$。
+于是 $h,\eta,\nu$ 线性独立，三者都杀
+$\mathscr L^2(\overline{\mathbf F}_p[z]_{\le k-2})$；由 (1061.88)，它们就是全部左核。
+特别对任意 $F\in \overline{\mathbf F}_p[z]_{\le k}$，
+$$
+F\in\mathscr L^2(\overline{\mathbf F}_p[z]_{\le k-2})
+\quad\Longleftrightarrow\quad h(F)=\eta(F)=\nu(F)=0.
+\tag{1061.91}
+$$
+这里并未把一个系数消失升级为全部留数或全部方程消失。
+
+### 21.3 原 $C(U\omega)$ 与 $\delta$ 的准确关系
+
+直接在同一个 Weierstrass 模型读取，令
+$$
+C(U\omega)=\beta\omega',\qquad
+\beta=\binom{3N+2}{2N+1}(v^2)^{N+1}\in\mathbf F_p^\times.
+$$
+这一次二项式读取的所有指标均小于 $p$。
+准确地有
+$$
+\boxed{\beta=-\delta.}
+\tag{1061.92}
+$$
+为保留原 frame，取局部 $u=U^{-1/2}\sim z_O$，则
+$$
+V=-u^{-3}(1+v^2u^6)^{1/2},\qquad
+\omega=(1+v^2u^6)^{-1/2}du.
+$$
+由原 $\operatorname{PP}_O\Psi=z_O^{-p}$ 及 $d\Psi=\delta\omega$，
+有 $\Psi=u^{-p}+\delta u+O(u^2)$；参数的 $p$ 次幂修正
+不添任何负幂。微分 $\Psi U\omega$ 只有 $O$ 一处极，故留数为零。
+它的留数准确为
+$$
+\delta+[u^{p+1}](1+v^2u^6)^{-1/2}
+=\delta+\binom{-1/2}{k}(v^2)^k
+=\delta+\beta.
+$$
+最后用 $-1/2\equiv( p-1)/2\pmod p$ 及
+$\binom{3N+2}{N+1}=\binom{3N+2}{2N+1}$。
+所以 (1061.92) 不是两个未固定 period 间的单位比较。
+
+### 21.4 五个原 Cartier 泛函的完整确定
+
+对 $f\in \overline{\mathbf F}_p[z]_{\le k}$ 定义
+$$
+\Phi_a(f)=C(f\Psi^a\omega)/\omega'\in \overline{\mathbf F}_p(E^{(p)}),
+\qquad 0\le a\le4.
+$$
+三次分部积分及 $D\Psi=\delta$ 给
+$$
+\Phi_a(\mathscr L f)
+=\frac{a(a-1)(a-2)\delta^3}{6v}\Phi_{a-3}(f)
+\quad(\deg f\le k-1),
+\tag{1061.93}
+$$
+当 $a<3$ 右边为零。这是对完整原有理微分应用 Cartier 杀 exact，
+没有省去极点或 $p$ 次项。
+
+全部五个泛函准确为
+$$
+\boxed{
+\begin{aligned}
+\Phi_0&=0,\\
+\Phi_1&=\frac{\delta\beta}{4v}\eta
+       =-\frac{\delta^2}{4v}\eta,\\
+\Phi_2&=0,\\
+\Phi_3&=-3U'\Phi_1,\\
+\Phi_4&=\frac{\delta^4\beta}{v^2}\nu
+             -\frac{2\delta^2}{v}V'\eta
+       =-\frac{\delta^5}{v^2}\nu+8V'\Phi_1.
+\end{aligned}}
+\tag{1061.94}
+$$
+以下逐项支付整体确定性，而不只核某个单项式。
+
+首先，(1061.93) 及 §21.2 说明任何杀 $\mathscr L$ 的泛函
+都由它在 $1,z$ 上的两值唯一确定，系数域可扩为 $\overline{\mathbf F}_p(E^{(p)})$。
+$C(\omega)=0$，且 $V\omega=dU/2$ exact，故 $\Phi_0(1)=\Phi_0(z)=0$。
+对 $a=1,2,3,4$，
+$\Psi^a\omega=d(\Psi^{a+1})/((a+1)\delta)$，所以 $\Phi_a(1)=0$。
+这里明确使用 $p>5$；不将此步外推到 $p=5$。
+
+由 $D(U\Psi)=2V\Psi+\delta U$，
+$\Phi_1(z)=\delta\beta/(4v)$。
+由 $D(U\Psi^2)=2V\Psi^2+2\delta U\Psi$，
+且
+$$
+U\Psi\omega=\tfrac12 U^2S(U^3)dU
+$$
+的次数 $3N+2<p-1$，得 $\Phi_2(z)=0$。
+这证明前面三行完整成立。
+
+令 $\mathcal R=U^2R(U^3)$ 如 §19.4，$\deg R=N$，最高系数为一。
+同一 Cartier 读取准确给
+$$
+C(U\mathcal R\omega)=U'\omega'.
+$$
+确实，把 $1/V$ 改为 $(U^3+v^2)^m/V^p$ 后，分子
+$U^3R(U^3)(U^3+v^2)^m$ 最高次数为 $2p-1$、最高系数为一；
+它只含三倍数指数，故 $p-1$ 项不存在，唯一可读项为 $2p-1$。
+由 $\Psi^2=U^p+2\delta\mathcal R$ 及 (1061.92)，
+$$
+C(U\Psi^2\omega)=(\beta+2\delta)U'\omega'
+=\delta U'\omega'.
+$$
+再用 $D(U\Psi^3)=2V\Psi^3+3\delta U\Psi^2$，
+得到 $\Phi_3(z)=3\delta^2U'/(4v)=-3U'\Phi_1(z)$。
+由于 (1061.93) 和 $\Phi_0=0$ 使 $\Phi_3$ 杀 $\mathscr L$，
+它在 $1,z$ 的两值支付了整个第四行。
+
+最后，
+$$
+U\mathcal R\Psi\omega
+=\tfrac12U^4R(U^3)S(U^3)dU
+$$
+的最高次数恰为 $p-1$，最高系数为 $-1/2$，故
+$C(U\mathcal R\Psi\omega)=-V'\omega'$。
+因为 $C(U\Psi\omega)=0$，有
+$C(U\Psi^3\omega)=-2\delta V'\omega'$。
+从 $D(U\Psi^4)=2V\Psi^4+4\delta U\Psi^3$ 得
+$\Phi_4(z)=-2\delta^2V'/v$。
+而 (1061.93) 给
+$\Phi_4\mathscr L=(\delta^4\beta/v^2)\eta$。
+减去 $(\delta^4\beta/v^2)\nu$ 后即杀 $\mathscr L$，
+再由在 $1,z$ 的两值唯一固定最后一行。
+所以 $\Phi_3,\Phi_4$ 没有残留未经确定的 $h$ 或 $\eta$ 分量。
+
+### 21.5 回到原 $Q$，完整运输 Frobenius 平移
+
+原 addition law 直接给
+$$
+\tau_Q^*F_Q=z^k,\qquad
+\tau_Q^*\Psi=\Psi+\left(\frac{V-v}{U}\right)^p.
+$$
+relative Cartier 将 $\tau_Q$ 运输为 $\tau_{FQ}=\tau_{-Q}$。
+因此 source 的 slope $p$ 次幂被提出后，目标上准确是
+$$
+s'=\frac{V'+v}{U'},
+$$
+而不是 $(V'-v)/U'$。由 $\Phi_0=0$ 先得到
+$$
+\boxed{e=\Phi_1(z^k)=-\frac{\delta^2}{4v}\eta_k.}
+\tag{1061.95}
+$$
+
+用 §19.4 已付的完整式
+$C(F_Q\Psi^4\omega)/\omega'=4(v-V')e+4\delta^2K_4$，
+同一次平移给
+$$
+\Phi_4(z^k)+4s'\Phi_3(z^k)+4s'^3\Phi_1(z^k)
+=\tau_{-Q}^*\{4(v-V')e+4\delta^2K_4\}.
+$$
+$\Phi_0,\Phi_2$ 的两项按 (1061.94) 准确为零。
+原曲线加法律给
+$$
+s'^3-V'-3v=\frac{4v^2}{V'-v},\qquad
+V'(T-Q)=-v\frac{V'+3v}{V'-v}.
+$$
+所以两边分别是
+$$
+-\frac{\delta^5}{v^2}\nu_k+\frac{16v^2e}{V'-v},
+\qquad
+8ve+\frac{16v^2e}{V'-v}+4\delta^2K_4.
+$$
+极项准确抵消，留下
+$$
+\boxed{
+K_4=-\frac{\delta^3}{4v^2}\nu_k-\frac{2ve}{\delta^2},
+\qquad
+96v^4H_p'(0)=8ve-\frac{\delta^5}{4v^2}\nu_k.
+}
+\tag{1061.96}
+$$
+第二式还使用 (1061.74)。全部式子保持原 $e$、原 $K_4$ 和原 Picard
+参数；尤其没有把 $e$ 再乘一个 $\delta$。
+
+### 21.6 精确短 $D^6$ 可解条件
+
+把 §21.2 的 $h_k$ 记为本节的 $h$；它就是 §12 已付 $h^3=2$ 的
+原常数。因为
+$h(z^k-h)=0$、$\eta(1)=\nu(1)=0$，
+(1061.91)、$D^6=36v^2\mathscr L^2$ 及 (1061.95)–(1061.96) 给
+$$
+\boxed{
+\begin{aligned}
+e=K_4=0
+&\Longleftrightarrow\eta_k=\nu_k=0\\
+&\Longleftrightarrow
+\exists G\in \overline{\mathbf F}_p[V],\quad\deg G\le k-2,\quad
+D^6G=\left(\frac{1-V/v}{2}\right)^k-h.
+\end{aligned}}
+\tag{1061.97}
+$$
+$z$ 与 $V$ 是线性换元，故次数界未改变；
+$36v^2$ 是单位，可吸收到 $G$ 中。
+这是该原指定 forcing 的完整两障碍判据，而不是全大空间
+$D^3$ 单 Jordan 的满射性猜测。
+
+### 21.7 第二障碍的完整有限范数式
+
+递推 (1061.90) 还有准确有限求和形式
+$$
+\boxed{
+\frac{\nu_k}{h_k}
+=2\sum_{j=1}^{k-1}\frac{h_j^2 S_j(S_k-S_j)}j.
+}
+\tag{1061.98}
+$$
+证明写 $\nu_j=h_jt_j$，用 (1061.90) 得
+$$
+(3j+1)^2(t_{j+1}-t_j)-(3j-1)^2(t_j-t_{j-1})
+=\frac{2S_j}{j}.
+$$
+再用
+$(3j+1)^2w_j=h_j^{-2}$、$t_0=t_1=0$，
+先对相邻差求和，再交换有限求和次序，即得 (1061.98)。
+所有指标均在已说明的非共振短范围内。
+
+特别当真实原端值 $e=0$ 时，(1061.89)、(1061.95) 给 $S_k=0$，
+于是
+$$
+\boxed{
+\nu_k=-\frac{h_k}{2}\sum_{j=1}^{k-1}\frac{\eta_j^2}{j},
+\qquad
+K_4=\frac{\delta^3h_k}{8v^2}
+                  \sum_{j=1}^{k-1}\frac{\eta_j^2}{j}.
+}
+\tag{1061.99}
+$$
+这个有限二次型就是原端值失败时的实际下一 Picard 读数，
+其中所有外因子都是单位。本文尚未证明该二次型非零。
+有限域上“平方和”不能用实数正定性处理；
+三对角递推的非零相邻系数也不排除模 $p$ 的重特征根。
+§15 已付的加权半 Dixon 线性矩目前没有与 (1061.99) 的同源单位桥，
+不能将它直接替换为这里的范数。
+
+本节 o2_high_coefficient 给出短秩、完整左核、五个实际 Cartier 泛函及
+所有尺度推导；o1_theta 独立核 (1061.92) 的原局部留数，以及给定
+(1061.94) 后 (1061.95)–(1061.96) 的全部相对 Frobenius、平移与常数。
+主目标的指定单位性和共同深盘排除没有在本节关闭。
+

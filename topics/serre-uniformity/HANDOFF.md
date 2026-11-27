@@ -6,11 +6,11 @@
 
 会话 **Astra-serre-24b8836b-20261126**。本轮已部分克隆并真实pull main，读两README/H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则读至36cf1ed2。不重做已登记结论或窗口。
 
-**公开两README已读提交：21d0f1ef8c84c5ec28560356af23ae56369f5218**（2026-11-27 09:24 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
+**公开两README已读提交：cbe78160ad9a65743ff6bfa49cc4b8623c90ed46**（2026-11-27 09:47 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
 
-已真实部分克隆/pull；08:44再试pull仍报无可用执行环境，shell未运行；按根规矩8用连接器小文本同步、读两README差异、带expected_sha非force提交，恢复后立即pull --rebase。拒绝即同步重基再推至成功。令牌仅CLI；根维护main/H/open/index/log，子研究独立稿，每条结论立即推。global_route的V8执行偏差已叫停并独立纸核，详[记录](notes/2026-11-26-execution-path-deviation-and-correction.md)，其输出不作证明/合规窗口。
+已真实部分克隆/pull；09:37再试pull仍报无可用执行环境，shell未运行；按根规矩8用连接器小文本同步、读两README差异、带expected_sha非force提交，恢复后立即pull --rebase。拒绝即同步重基再推至成功。令牌仅CLI；根维护main/H/open/index/log，子研究独立稿，每条结论立即推。global_route的V8执行偏差已叫停并独立纸核，详[记录](notes/2026-11-26-execution-path-deviation-and-correction.md)，其输出不作证明/合规窗口。
 
-H<10KB、open尽量<30KB、每MD<100KB、topic<200MB；无可重算raw、不写根LOG。[本次逐字前态](handoff-archive-2026-11-27-before-p-local-polynomials.md)沿链保全部旧来源/run/hash；[open](open.md)、[索引](results.md)是完整入口。历史“R1003 norm3准备中”未交付，现R1003为范围纠错。
+H<10KB、open尽量<30KB、每MD<100KB、topic<200MB；无可重算raw、不写根LOG。[本次逐字前态](handoff-archive-2026-11-27-before-short-sixth-obstruction.md)沿链保全部旧来源/run/hash；[open](open.md)、[索引](results.md)是完整入口。历史“R1003 norm3准备中”未交付，现R1003为范围纠错。
 
 ## 最新全局实际来源
 
@@ -52,7 +52,7 @@ R1018–30原Fm/节点log/非约化运输已成，尺度保原文；H_A/H_Z新�
 
 ## O1：原同一保留标签
 
-[R1061](results/R1061-actual-genus-two-etale-cover-and-original-three-torsion-Petri-point.md)：原e≠0 iff S_n≠0，φ=U H(U³)、H(0)=−e/(2v)；原核互易−1、Φ²=[−1]*齐备。§19真实K₄给96v⁴H′(0)=10ve+δ²K₄；§20对称J及原A自伴给C(UHω)=−ω′。加权矩/全局可逆不代指定端值；端值与下一jet仍开。
+[R1061](results/R1061-actual-genus-two-etale-cover-and-original-three-torsion-Petri-point.md)：原e≠0 iff S_n≠0、Φ²=[−1]*、对称J自伴已付。§21给e=−δ²η_k/(4v)、K₄=−δ³ν_k/(4v²)−2ve/δ²及原短D⁶完整双障碍；e=0时ν_k是指定有限二次和，非零仍开。
 
 [R1060](results/R1060-actual-X108-nonCM-Cartier-and-nine-torsion-ordinary-input.md)：原非CM四Cartier由九挠/三同源给 $B_n=P_n(3)=-a_p(E54)\ne0$（$p\equiv2,5\bmod9$）；六CM核准确。尚无 $S_n=0\Rightarrow B_n=0$，不能代 $f_N$ 单位。
 
