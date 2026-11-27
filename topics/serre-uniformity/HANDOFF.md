@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。本轮已部分克隆并真实pull main，读两README/H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则读至36cf1ed2。不重做已登记结论或窗口。
 
-**公开两README已读提交：09969a4e937a364d26816de1f972d295b444c2ab**（2026-11-27 15:11 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
+**公开两README已读提交：eda95d51e82b126439d51d42185a880e6ddad3e9**（2026-11-27 15:20 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
 
 已真实部分克隆/pull；14:53再试pull仍报无可用执行环境，shell未运行；按根规矩8用连接器小文本同步、读两README差异、带expected_sha非force提交，恢复后立即pull --rebase。拒绝即同步重基再推至成功。令牌仅CLI；根维护main/H/open/index/log，子研究独立稿，每条结论立即推。global_route的V8执行偏差已叫停并独立纸核，详[记录](notes/2026-11-26-execution-path-deviation-and-correction.md)，其输出不作证明/合规窗口。
 
@@ -66,7 +66,7 @@ R1063：全Hecke族消MW及真辛商，最低两jet行列式仍开。R1058：原
 
 ## O2：原高近p值
 
-[R1095](results/R1095-original-theta-kernel-dual-Psi-normalization.md)：原完整J#可逆，B_J(Ψ,g)=ℓ_p(g)、B_J(Ψ,Ψ)=1；真三平移Gram=(1−δ/γ)²(1+2δ/γ)，最高偶边界c=δ。两个因子与原短η/ν仍开，未替换bare范数。
+[R1095](results/R1095-original-theta-kernel-dual-Psi-normalization.md)：原完整J#可逆，B_J(Ψ,g)=ℓ_p(g)、B_J(Ψ,Ψ)=1；真三平移Gram=(1−δ/γ)²(1+2δ/γ)，最高偶边界c=δ。§8给原Fay/chord全Cartier核、两个divided-polynomial及e/K4真实三平移两列；指定非正交仍开。两个因子与原短η/ν仍开，未替换bare范数。
 
 R1041/48原r2 bare为核范数，实际AS原函数和p-block给端点平方；二者不互代，原尺度/完整留数保结果及逐字前态。R1034两行bare完整有限系数，r8须留多项式部分。R988给原trace与高balanced值准确等价，全部相位、carry、K共振及primitive范围保open；低单位不代高值。旧R963/991/994差集4008点至200000已成不重跑，bare及高近p单位仍开。
 
@@ -76,4 +76,3 @@ R1007/08原高度格三挠Picard/ℓ²及野3障碍仍保；R696/832只为指定
 
 原λ始终为−6(b+1)/r（R1045.5）。当前并行：两行实际MW后M1与原盘点数界已成，继续最低w单位/正赋值深盘零点。原最高K_Q、R1041核范数、R1043端点及同h筛选各有独立读数，不能混同；O0完整全局覆盖仍未关。子问题完成即接open其余项，真正达README完成标准才收尾。
 
-R1053新增7878素数窗口至500000、R1054的p47反例和R1057指定深盘C=15均已成，完整run/hash保open及归档，不重跑；不推full47或全p。

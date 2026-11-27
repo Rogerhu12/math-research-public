@@ -393,6 +393,262 @@ $U\mathcal R$ 定标；o1_theta 独立纸审全部极界、regular constant
 的两个因子或原 $\eta_k,\nu_k$ 的指定读数为单位。
 
 
+
+## 8. 原 Miller 乘法、完整 Cartier 极化与显式核
+
+本节仍在同一个特征 $p$ 的原模型上工作。记
+$J_P(T)=J(T,P)$。点 $P,R$ 起初取 generic，避开弦线、竖线
+及标记点碰撞；最后所有等式按有理函数恒等式延拓。
+不在推导中把一个趋零因子与另一极因子分别取值。
+
+### 8.1 刚化弦线与原 Miller 的确切乘法
+
+对一般点 $A,B$，令
+$$
+m_{A,B}=\frac{V(B)-V(A)}{U(B)-U(A)},\qquad
+b_{A,B}=V(A)-m_{A,B}U(A),
+$$
+$$
+L_{A,B}(T)=
+-\frac{V(T)-m_{A,B}U(T)-b_{A,B}}{U(T)-U(A+B)}.
+\tag{1095.24}
+$$
+这是原 normalized chord：
+$$
+\operatorname{div}L_{A,B}=(A)+(B)-(A+B)-(O),\qquad
+L_{A,B}=u_T^{-1}(1+O(u_T)).
+$$
+负号由原 $V(T)=-u_T^{-3}+O(u_T^3)$ 固定，不能省去。
+
+原 Miller 函数 $g_A$ 的除子为
+$([p]A)-p(A)+(p-1)(O)$，$O$ 首项为 $u_T^{p-1}$、系数一。
+逐项比较除子与这个首项，直接得到
+$$
+\frac{g_A(T)g_B(T)}{g_{A+B}(T)}
+=
+\frac{L_{[p]A,[p]B}(T)}{L_{A,B}(T)^p}.
+\tag{1095.25}
+$$
+这是有理函数的确切等式。其 divisor/刚化证明本身也适用于
+特征零的 Miller 函数；本节只把它直接用于已经定义的原特征
+$p$ 函数，并没有从特征零 sigma 展开删掉 first-$p$ 项。
+
+取 $A=F^{-1}P,B=F^{-1}R$，只在证明弦线身份时可作相应的
+纯不可分基域扩张。$[p]=-F^2$ 给
+$$
+\frac{K(T,P)K(T,R)}{K(T,P+R)}
+=
+\frac{L_{-FP,-FR}(T)}
+     {L_{F^{-1}P,F^{-1}R}(T)^p}.
+\tag{1095.26}
+$$
+右边分母的 $p$ 次幂已在原 base 上定义。相对 Cartier 运输它时，
+准确得到 $L_{P,R}(Z)$，其中 $Z=FT$；不是对 base 常数再取
+$p$ 次根。
+
+### 8.2 全部乘积的相对 Cartier
+
+在本小节写
+$$
+m=m_{P,R},\qquad b=b_{P,R},\qquad S=P+R.
+$$
+弦线第三交点为 $-S$，所以
+$V(S)+mU(S)+b=0$。由 (1095.24) 严格有
+$$
+L_{-FP,-FR}(T)=-h_{-FS}(T)-m^p.
+\tag{1095.27}
+$$
+原 R1061 (1061.65) 给
+$D_T\log K(T,S)=h_{-FS}(T)+\Psi(S)$。
+因此 $C_{\rm rel}(dK)=0$ 与原
+$C_{{\rm rel},T}(K(T,S)\omega_T)=\omega_Z$ 给
+$$
+C_{{\rm rel},T}\!\left(
+ K(T,S)\{-h_{-FS}(T)-m^p\}\omega_T\right)
+=\{\Psi(S)-m^p\}\omega_Z.
+$$
+这里 $m^p$ 是 base 函数，Cartier 对它线性。
+再用原完全归一的加法律
+$\Psi(P+R)=\Psi(P)+\Psi(R)+m^p$，(1095.26) 成为
+$$
+\boxed{
+C_{{\rm rel},T}\bigl(K(T,P)K(T,R)\omega_T\bigr)
+=\frac{\Psi(P)+\Psi(R)}{L_{P,R}(Z)}\,\omega_Z.
+}
+\tag{1095.28}
+$$
+
+把 $J(T,P)=(U(T)^p-U(P))K(T,P)$ 的两个 $p$ 次因子
+完整提出 Cartier。弦线的确切范数是
+$$
+\{V(Z)-mU(Z)-b\}\{V(Z)+mU(Z)+b\}
+=(U(Z)-U(P))(U(Z)-U(R))(U(Z)-U(S)).
+$$
+所以得到整个乘积，而不只是其中一个系数：
+$$
+\boxed{
+C_{{\rm rel},T}(J_P(T)J_R(T)\omega_T)
+=-(\Psi(P)+\Psi(R))
+ \{V(Z)+mU(Z)+b\}\omega_Z.
+}
+\tag{1095.29}
+$$
+$J_PJ_R\omega$ 的极界为 $2p+2$；输出允许 $1,U(Z),V(Z)$
+三个方向。本式保留了全部三个方向，没有套用只适用于
+$V_0\times H$ 的二项输出。
+
+### 8.3 原完整变换的显式极化核
+
+读取 (1095.29) 的 $U(Z)$ 系数，得到
+$$
+\boxed{
+(\mathscr FJ_P)(R)
+=A(J_P,J_R)
+=-\frac{V(R)-V(P)}{U(R)-U(P)}
+       \{\Psi(P)+\Psi(R)\}.
+}
+\tag{1095.30}
+$$
+这就是原完整变换的实际极化核；不是另选同角色的 theta 核。
+
+它还可完全写成两个 divided polynomials。用原
+$$
+\Psi=V\,r(U),\qquad r(U)=U S(U^3),\qquad
+q(U)=(U^3+v^2)r(U),
+$$
+则 (1095.30) 等于
+$$
+\boxed{
+-\frac{q(U(P))-q(U(R))}{U(P)-U(R)}
++V(P)V(R)
+ \frac{r(U(P))-r(U(R))}{U(P)-U(R)}.
+}
+\tag{1095.31}
+$$
+两分子都被分母整除。因而 (1095.31) 也明确支付了竖线与
+对角处的延拓；没有保留人为的 $0/0$ 例外。
+这里 $\deg r=m-1,\deg q=m+2$，第一项在每个变量中的
+最高 $U$ 次数为 $m+1$，第二项的最高 $V U$ 次数不超过
+$V U^{m-2}$，与整个 $H$ 的极界一致。
+
+### 8.4 两处第三类项给独立的完整平方核
+
+以下计算作为 (1095.22) 的独立来源核对，同时保留后继三分布
+所需的极点。固定一般 $P$，令
+$$
+\mathcal T_P(Z,R)=
+\frac{C_{{\rm rel},T}(h_{-P}(T)K(T,R)\omega_T)}{\omega_Z}.
+$$
+源在 $T=-P$ 有简单极，在 $T=F^{-1}R$ 至多有 $p$ 阶极；
+在 $O$ 的阶为 $p-2$，所以输出在 $O$ 正则。
+相对 Cartier 后两处留数分别为 $K(-P,R)$ 及其相反数。
+因此减去
+$K(-P,R)\{h_{-FP}(Z)-h_R(Z)\}$
+后全纯。
+
+其常数由原 $O$ frame 固定：
+$h_{-P}(T)=-u_T^{-1}+O(u_T)$，
+而 (1095.9) 的下一项为 $\Psi(R)u_T$。
+源 $u_T^{p-1}du_T$ 的系数准确为 $-\Psi(R)$；
+两条 $h$ 的差在 $Z=O$ 常数为零。故
+$$
+\boxed{
+\mathcal T_P(Z,R)
+=-\Psi(R)+K(-P,R)\{h_{-FP}(Z)-h_R(Z)\}.
+}
+\tag{1095.32}
+$$
+这些留数的 base 常数仍保持不变，未换成绝对 Cartier。
+
+置
+$G_P(T)=(\mathscr FJ_P)(T)
+       =-h_{-P}(T)(\Psi(T)+\Psi(P))$。
+它确在 $H$ 中，最高两项为
+$\ell_{p+1}(G_P)=1,\ell_p(G_P)=0$。
+原 R1061 (1061.66) 对这个完整有理源给
+$$
+\frac{C_{{\rm rel},T}(G_P(T)K(T,R)\omega_T)}{\omega_Z}
+=-(D_R+h_Z(R)+\Psi(P))\mathcal T_P(Z,R).
+\tag{1095.33}
+$$
+这里使用的是未丢第三类项的 kernel 微分式。
+
+写
+$a_Z=h_{-FP}(Z),\ h=h_R(Z),\ b_R=h_{-FP}(R)$。
+原对称变量微分给
+$$
+D_R\log K(-P,R)=-\Psi(P)-b_R,\qquad h_Z(R)=-h.
+$$
+把 (1095.32) 代入 (1095.33)，右边准确化为
+$$
+\delta-h\Psi(R)+\Psi(P)\Psi(R)
++K(-P,R)\{(b_R+h)(a_Z-h)+D_Rh\}.
+$$
+在 $Z=O$，
+$$
+\begin{aligned}
+h&=-u_Z^{-1}-U(R)u_Z+O(u_Z^2),\\
+a_Z-h&=(U(R)-U(P)^p)u_Z+O(u_Z^2),\\
+D_Rh&=O(u_Z).
+\end{aligned}
+$$
+故正规常数为
+$$
+\delta+\Psi(P)\Psi(R)
+ +K(-P,R)(U(P)^p-U(R)).
+$$
+依 (1095.19)，这正是 $\mathscr F G_P(R)$。于是
+$$
+\boxed{
+(\mathscr F^2J_P)(R)=J(-P,R)+\Psi(P)\Psi(R)+\delta.
+}
+\tag{1095.34}
+$$
+由于 $J^\#$ 完美，这些 $J_P$ 张成 $H$；
+(1095.34) 因而再次给出 (1095.22)，包括精确的最高偶常数
+$\delta$，并展示了该常数来自哪里。
+
+### 8.5 原两条短障碍的三平移读数
+
+令 $f=U^m$，仍用原 $Q=(0,v)$ 和 (1095.16) 的 $S$。
+在 $-Q$，原 Picard 一阶参数满足
+$D_R\mathscr T_F(f)(-Q)=e$。
+最高两项对偶、或直接对原 $J$ 微分，给
+$$
+D_RJ(T,-Q)=S\Psi(T).
+$$
+四阶不能省去 theta multiplier 的修正。用与原不变微分相容、
+且 $u=t+O(t^7)$ 的局部参数，有
+$$
+t^{p+1}(V(t)+v)^{2k}=1-\frac v3t^3+O(t^6).
+$$
+在这里另记 $\ell_{p-3}(g)=[u^{-p+3}]g$。
+又 $J^\#\ell_{p-3}=\mathscr T_F(U^2)$，因为
+$A(U^2,g)=\ell_{p-3}(g)$。从同一四阶读数准确得到
+$$
+D_R^4J(T,-Q)
+=24S\mathscr T_F(U^2)(T)-8vS\Psi(T).
+$$
+因此 (1061.74) 的完整四阶式给
+$$
+\boxed{
+e=A(f,S\Psi),\qquad
+A\!\left(f,S\mathscr T_F(U^2)\right)
+=ve+\frac{\delta^2}{6}K_4.
+}
+\tag{1095.35}
+$$
+这两条等式定位了真正的三平移配对，未把曲线族的 normal
+导数、另外六个三挠点值或一般 evaluation 代入。
+(1095.28)–(1095.35) 尚未证明这两个指定配对不能同时为零；
+原 $\eta_k,\nu_k$、$e,K_4$ 及同标签筛选仍须继续。
+
+本节 o1_theta 直接从原 Miller divisor/首项推导完整乘法、
+相对 Cartier 极化及两处第三类复合；o2_high_coefficient
+独立逐式核准弦线符号、相对 base 规则、$V(Z)$ 项以及原四阶
+平移修正。全文没有数学执行或新扫描。
+
+
 ## 原来源与核对
 
 - R1061 (1061.57)–(1061.59)：原全部 graph、Miller 首项与实际相对变换的可逆性。

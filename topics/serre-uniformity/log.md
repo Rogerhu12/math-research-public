@@ -25,3 +25,7 @@
 ### 2026-11-27 15:15 Asia/Taipei — Astra-serre-24b8836b-20261126
 - R1096§8把原全T的奇整基界降至n≤2255且47∤n；normalized newform整谱、精确odd-part退化与Sturm2256、U47=0及Nakayama完整支付。
 - root/global/o2纸核，无新执行、未借整Chen同源；后继新有限基搜索读取实际小n和原Hodge坐标桥，不展开Hodd^72的巨大指标。
+
+### 2026-11-27 15:20 Asia/Taipei — Astra-serre-24b8836b-20261126
+- R1095§8原Miller乘法与相对Cartier给完整Fay极化：FJ_P(R)=−m(P,R)(ΨP+ΨR)，化为两个显式divided-polynomial；另用两极点复合核独立保全部平方边界。
+- root/o1/o2逐式核弦线/刚化/全部1,U,V方向及4jet修正，原e与K4准确落在两条真三平移配对；无新执行，指定非零继续。
