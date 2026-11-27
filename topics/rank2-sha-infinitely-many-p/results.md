@@ -225,3 +225,6 @@
 - [R1037](results/R1037-original-degree378-full-finite-spectrum.md)：R1037原两实际B12商的全64维谱模型、D2及完整质量、δ-old22/8/3与42/14/5/3层、7-old20均已手证。最高42维真九次角色不能套E/Q桥；13/19漏index3，31补全162参数，R302原Θ及norm189整拉回固定所有绝对相位/A³−I/H⁹I。新公开334完整fibers保原必要390输入hash/三新全算子/全部幂等与两输入返回，4workers独立60min入口，完整实际回执尚待；没有预认新曲线或中央零。 §9 R1037实际全谱run45973650826/job140419911466/source22ac87ec033d658aa19b32d417c493f5748aa122已PASS；两完整stream/报告hash逐字返回。全334fibers/原390输入hash/三64列/完整2、δ、7及所有幂等回乘齐，30非零块、90零标签、三输入全回。唯一整质量零线(A5,C4,H2)rank1、δ-new9、dyadic−、7new；X62=1/order6/den91，原A/B/diff系数−185328/35、−160056/835、−29829384/5845。全坐标实时读公开marker，详细hash在§9。E3969真finite/Schwartz/frame识别继续，不凭三好位或B12投影赋零。
 
 - [R1038](results/R1038-e3969-two-independent-points-and-complete-cm-character.md)：R1038固定E3969:Y²=X³+3969的P=(18,99)、S=(−5,62)、T=(0,63)在E/3E独立，E[3](Q)=⟨T⟩，故rank≥2；完整三同源/微分复合/有理核/两个Kummer及例外点全付。ψ1的63三次逆扭与2/7/δ各局部导子给全导子47628，原三好生成元规范候选(A5,C4,H2)。不靠数据库rank，尚待R1037真实块及完整来源/通常全Sha桥，不赋新canonical零。
+
+
+- [R1039](results/R1039-original-g-cover-prym-boundary-and-frobenius.md)：R1039原g的étale二盖有严格Prym≅固定EL:y²=x³−12x+20；实际图给r^*r_*=1−ι，原∞边界减真二挠D0准确=r*(1,−3)，该有理点由完整2进倍点证明非挠。任意原两cover点给FQ=sR/(z−2X)+δu，两个真实Norm为3x及EL上的显式NQ；S4/genus13正规盖的sign局部系H1准确是H1(EL)。尚无原最高λ/27权的混合对应，不用JC的CM F²替代EL，也不把新非挠边界当原AJ。

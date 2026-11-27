@@ -11,7 +11,7 @@
 - 07:20UTC本地执行再次失联；09:09两库实际pull重试均明确No usable execution environment。私库API至e0944037db11cf7b9acb79a25f41e13417fde492逐两README核同06:47，QUEUE仍本会话进行中；不冒称实际pull。
 - 断连期间沿最新main API非force快进；每次检查README和本topic差异，遇新父重新比较/建commit。09:09公开API至ccb52315e1485916f867f7574c944b63dc40fac2，两README blob仍同07:12；最新父比较9文件，无本topic外部变化。恢复立刻补两库真实pull及README差异；令牌只命令行/进程，不落文件或API。
 - root独占git/H/open/log/index；每条结论即推，非快进立即pull --rebase、读差异、再推至成功，不强推。数学只用公开Actions。根规则15禁止存可重算输出；H<10KB、每MD<100KB。
-- [此次逐字归档](notes/2026-11-27-handoff-before-actual-degree378-spectrum.md)及其完整历史链保全部旧式、回执、未付门和失联/同步史；[open](open.md)、[results](results.md)、[R1001–1050索引](notes/PROOF-INDEX-R1001-R1050.md)为实际接续入口，不重做已登记结论。
+- [此次逐字归档](notes/2026-11-27-handoff-before-original-g-prym.md)及其完整历史链保全部旧式、回执、未付门和失联/同步史；[open](open.md)、[results](results.md)、[R1001–1050索引](notes/PROOF-INDEX-R1001-R1050.md)为实际接续入口，不重做已登记结论。
 
 ## 一、唯一原几何作业及原生后端
 
@@ -49,7 +49,9 @@ R1038新增固定E3969:Y²=X³+3969，以P=(18,99)、S=(−5,62)和T=(0,63)的�
 
 原full54/27、η/Cor及AJ²=KνKβ保持：R1002只付Kβ，ν未付，原四交/全Norm/18×9待v10。R1014 cofinite Tate的未知q0不能外推；R1027全特殊端点/最短anti截面的D度(q−2)/3/原27正权保持。R1029/1031的全Sel2=⟨g⟩对惰性q≥5，原两个quadric、Nm(h)两个单零、固定Frob矩阵与所有符号/下降齐。§§12–16原Cδ/Jac81/E±、Elkies无穷辅助ss q和整F²=−q、g盖真j54000二同源均已付；这不代ordinary p或q+1素因子无穷，也不把常曲线原点当原截面。完整旧式/回执和已排入口沿本页逐字归档/原证接续，不重做。
 
-R1036手证q11全部最短D的完整两类：单branch含全部重数/剩余域，或一条完整三点Y纤维。全(H,J)、厚J2、m整除、常数式及原三系数/端点齐；三个已付负域只实时读原成功job/hash后复用。实际run45968889219/job140404155125/source3d702b7bc21923e82270953022b09b0950bb4adf完整成功、唯一Q高22/3；全身份/hash在§9。D类Z4=(1,7)恰4挠、2Z4=P2，旧三个类仅P2。整MW=(11/3)A2、NS−121及两Br0已付，原shadow倒6仍零。§8任意q给唯一D=D0+Y*G、H0/H1可共享支点，N分母H0H1³、全线性b与精确norm极条件；它是完整模型，不代一般存在性/27权。实际lift45972624090/140416498782/sourcec5020fcd7f026ef21d4b69735b3a47b56148d258已返原两quadric/g平方根/x/Norm W，一次整体负号匹配原W；必要坐标/hash在两cover笔记§7，不重算全D；一般q的jW稳定k线已排，保谱二次关系。旧3P6笔记W次数更正10/9/8，不影响此前全2662对常数式零解回执、不重算。
+R1036全q极除子模型D=D0+Y*G、H0/H1可共享及全部norm极/两分母条件已付。q11原完整allD run45968889219/job140404155125/source3d702b7…实际唯一Q高22/3；D类Z4=(1,7)、2Z4=P2，整MW=(11/3)A2、NS−121和两Br0。原lift45972624090/140416498782/sourcec5020fcd…已完整回两quadric/g平方根/x/Norm W，一次符号对齐W；全部必要坐标/hash在R1036及两cover笔记§7，不重复枚举。一般q的jW稳定k线已排，保非线性谱关系；旧三个负域/3P6 W界更正和完整回执沿逐字归档，原shadow倒6仍零。
+
+R1039原g的étale二盖有严格Prym≅固定EL:y²=x³−12x+20；实际图给r^*r_*=1−ι，原∞边界减真二挠D0准确=r*(1,−3)，该有理点由完整2进倍点证明非挠。任意原两cover点给FQ=sR/(z−2X)+δu，两个真实Norm为3x及EL上的显式NQ；S4/genus13正规盖的sign局部系H1准确是H1(EL)。尚无原最高λ/27权的混合对应，不用JC的CM F²替代EL，也不把新非挠边界当原AJ。
 
 ## 四、接续分工与其余门
 
