@@ -1,0 +1,121 @@
+{
+  "schema": "isp-paper-theorem-supported-by-frozen-original-input-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "dateAsiaTaipei": "2026-11-28",
+  "newExecutionClaim": false,
+  "newResult": "Complete principal-open cover for the canonical binary cubic head and six-generator original mean polynomial quotient",
+  "weightRing": "QQ[e,k,1/Pi], Pi only previously paid weight factors; no new head, lambda, 3-2lambda or geometric D inverse",
+  "sourceRun": 46060535741,
+  "sourceJob": 140713451922,
+  "sourceSHA256": "edbba216705016a86f222a9b165bf9dd11320a5953438ddf21ea4a26c581b7b2",
+  "exactNewPaperIdentity": {
+    "quadraticHeads": [
+      "A2",
+      "lambda*F+B2",
+      "S*F+C2",
+      "F^2+E2"
+    ],
+    "unitPivotRows": [
+      "lambda*b",
+      "S*b",
+      "S*c",
+      "lambda*q",
+      "S*q",
+      "F*q"
+    ],
+    "pivotMonomials": [
+      "F*lambda^2",
+      "F*lambda*S",
+      "F*S^2",
+      "F^2*lambda",
+      "F^2*S",
+      "F^3"
+    ],
+    "remainingRows": [
+      "lambda*a",
+      "S*a",
+      "lambda*c",
+      "F*a",
+      "F*b",
+      "F*c"
+    ],
+    "remainingSigns": [
+      -1,
+      -1,
+      1,
+      -1,
+      -1,
+      -1
+    ],
+    "rankIdentity": "rank(original 12x10)=6+rank(new 6x4)"
+  },
+  "supportingOriginalRowNormalizationDegrees": {
+    "variables": [
+      "e",
+      "k",
+      "lambda"
+    ],
+    "E1": {
+      "denominator": [
+        4,
+        9,
+        0
+      ],
+      "paidContent": [
+        1,
+        0,
+        0
+      ]
+    },
+    "EBe": {
+      "denominator": [
+        8,
+        13,
+        0
+      ],
+      "paidContent": [
+        2,
+        2,
+        0
+      ]
+    },
+    "N1": {
+      "denominator": [
+        8,
+        13,
+        0
+      ],
+      "paidContent": [
+        3,
+        0,
+        0
+      ]
+    },
+    "previousRun": 46031519936,
+    "previousJob": 140616263057
+  },
+  "conclusions": {
+    "everyAllowedComplexWeightRank": 4,
+    "maximalMinorsGenerateUnitIdeal": true,
+    "globalLeftInverseExistenceOnly": true,
+    "actualGlobalBezoutExpansionComputed": false,
+    "meanQuotientGenerators": [
+      "1",
+      "lambda",
+      "S",
+      "lambda^2",
+      "lambda*S",
+      "S^2"
+    ],
+    "fixedWeightMeanFibreLengthBound": 6,
+    "freeModuleClaim": false,
+    "furtherGlobalGeometricLocalizationsClaimedFinite": false,
+    "headZeroFibresExcluded": false,
+    "wholeWExcluded": false
+  },
+  "retention": {
+    "onlyProofSourceReferencesAndSmallReceipt": true,
+    "noEncodedOrSplitData": true,
+    "noRecomputedOldGate": true
+  }
+}

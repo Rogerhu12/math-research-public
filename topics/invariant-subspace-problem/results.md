@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R150规范二元三次头整体覆盖与具体六生成元](results/R150-appendix-unit211-W-canonical-binary-head-full-cover-and-six-mean-generators.md)：以旧四二次无无穷点为输入，实际原消元给12×10≈I6⊕G，故15规范主开覆盖全部已付权图；具体六个二元单项式全局生成。旧全局6维界不重计，H265零与个别值条件仍开。
+
 - [R271 三对正权完整S1/S2及七位出生二首末边](results/R271-appendix-three-pairs-full-joint-source-and-seven-site-birth-two-edges.md)：全部原九/五维来源严格正，五个完整正系数证书保重复权、深源和双cross；新七位2+2+2+1族整14维两边严格<1，固定比率余量与追加位无关。
 
 - [R271 一特殊权全部高度的尖锐相对创新费用](results/R271-appendix-one-special-weight-all-heights-sharp-relative-innovation-cost.md)：同原完整R293源给Qn/Fn<n/[2(n+1)]，固定n及跨n的1/2均尖锐；显式整数展开、硬顶和s0全保，不代原无限费用。
