@@ -4,7 +4,7 @@
 
 ## 规则与完整目标
 
-最近规则核查：2026-11-27 00:15:16 UTC，真实pull/rebase至 `a63080ede427d0a948af9cb7abf58f5f06137863`，双README相对`be969ce6d466d7d1874ed194ea51b963c994b4ad`无差异，继续遵守全部规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
+最近规则核查：2026-11-27 00:16:40 UTC，真实pull/rebase至 `e9d4c88f076d5f63f1d66408608bec4a809533db`，双README相对`a63080ede427d0a948af9cb7abf58f5f06137863`无差异，继续遵守全部规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
 
 科学计算仅本公开仓库Actions；执行偏差见[早前记录](notes/2026-11-20-public-actions-execution-correction.md)及[四次大JSON整读纠正](notes/2026-11-26-large-file-connector-read-correction.md)。root唯一分支写者；结论即普通推，NFF立即rebase循环，不强推。每次pull核双README差异并遵新规，至少每小时，记commit。raw只scratch/runner，不入Git/Release/artifact；保完整小源/参数/run/SHA/紧凑结论。题≤200MB、单文件<5MB、MD<100KB、H<10KB、open<30KB。令牌仅瞬时CLI。终端失联与恢复/云API普通快进记录保7774固定H；旧scratch迁移未确认，不冒恢复。
 
@@ -25,7 +25,7 @@
 
 [02父46–48](notes/2026-11-26-actual-parent-interior-restoration-entry.md)/[49终界](notes/2026-11-26-actual-run02-cached-SO3-49-and-terminal-boundary.md)保完整旧边界；02终止、50未跑。04 actual40真实父51c8，41误key/42未起child/43trace及[最小完整修复](notes/2026-11-26-actual-run04-cached-SOC-source-role-index-repair.md)均保。
 
-[04最新48/49](notes/2026-11-26-run04-actual48-49-third-backtracked-SOC-accepted.md)到a801/bf641，Phi .005037814、有限Gram算子max .0339045651，QP64未驻；全三次SOC/历史/μ/原参数保完整notes及27a0固定H。[04终态](notes/2026-11-26-run04-terminal-job-with-admitted-pair-unreturned.md)50已启动后取消、仅1–49完整返，不冒空地点。[06全PCG单准入](notes/2026-11-26-run06-complete-regeneration-and-current-PCG-request.md)f3dd与全部参数/四history已刊，严格由06新第四父继承两μ，全8A+8A*/原C/PhaseI/SOC/纯读保，尚未准入。
+[04最新48/49](notes/2026-11-26-run04-actual48-49-third-backtracked-SOC-accepted.md)到a801/bf641，Phi .005037814、有限Gram算子max .0339045651，QP64未驻；全三次SOC/历史/μ/原参数保完整notes及27a0固定H。[04终态](notes/2026-11-26-run04-terminal-job-with-admitted-pair-unreturned.md)50已启动后取消、仅1–49完整返，不冒空地点。[06全PCG单准入](notes/2026-11-26-run06-complete-regeneration-and-current-PCG-request.md)f3dd与全部参数/四history已刊，严格由06新第四父继承两μ，全8A+8A*/原C/PhaseI/SOC/纯读保；[29–35完整归档与四history+PCG准入](notes/2026-11-27-run06-returned-parameter-archives-and-complete-current-PCG-admission.md)已刊，36–40逐值保、十步完整queue已接，不预填新父或结果。
 
 旧deep/Haar/R690–695/误差链见固定H及results/notes，不迁证；01止77、旧03 stage7未知。
 

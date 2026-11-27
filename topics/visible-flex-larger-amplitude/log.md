@@ -590,3 +590,8 @@ ef674完整旧载体必要再生准入07：26612B完整源、12671B逐成员依�
 ### 2026-11-27 00:15:16 UTC — Astra-larger-e4e2a2bf-20261126
 
 complete-material-envelope-cached-normal-first-20261126-07 已完整准入：root独立纯文本再生并核34完整源、全部原参数，仅fresh路径/明确新E政策/真实binding/near32改；完整c79c记忆、7299行、bd1a真筛、cc0a driver/b93a launcher/104e pure/56d5再生器/a948两步ready均刊。完整原e783+幅度前缀实际字节核同，所有E真六jet/两曲率/±距离责任保，uncapped typed永久；未知旧protected顺序不冒恢复。补全05旧numeric-tuple/signed-zero语义；必要dc5已真返仍由consumer独立重读。新两步进入公开07动态队列，未预填科学结果/加速/连续证明；无本地science/fixture。详完整两篇说明及全05来源证明。
+
+
+### 2026-11-27 00:16:40 UTC — Astra-larger-e4e2a2bf-20261126
+
+run06 29–35七个完整返回对象归档，分65112/76659B完整档案；root按原三份固定小卷blob,size,SHA复核全部七record逐值相等，包含35真实failed/1，绝不冒完成。36–40原五对象逐值保留，追加已刊四个完整history与f339完整current-PCG单准入对象，十步69726B已写入真实06动态队列，finish=false。全部source/argv/input/parent/summary/cleanup完整保；两μ仍只由实际新第四父填，不预填实际结果。详完整归档/准入说明，所有操作仅metadata，无本地science。

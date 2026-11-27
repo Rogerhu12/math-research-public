@@ -1,0 +1,64 @@
+{
+  "source_queue": {
+    "path": "computations/resume-20261126-followups-06.json",
+    "fetched_ref": "main",
+    "path_commit": "7a771e602bbdb8ee25a845d8d690b27e2e4896bd",
+    "git_blob": "6f7e74a38ed821a59949da6882a72a98be23536e",
+    "sha256": "88681682ff4865d4f15d6585f312314a4d48acf044b970b9c6d768c258e9a8c9",
+    "bytes": 76950
+  },
+  "removed_ids": [
+    "resume-20261126-reconstructed-complete-manifest-compaction-02-rebuild06",
+    "resume-20261126-reconstructed-R671-full-phi-actual-mu-02-rebuild06",
+    "resume-20261126-actual-R671-v3-full-phi-continuation-02-rebuild06",
+    "R684-actual-new-physical-mean-metric-p4-first-20261126-rebuild06",
+    "R688-actual-physical-mean-face-PCG-first-20261126-rebuild06",
+    "R688-actual-face-PCG-first-closed-amplitude-observation-20261126-rebuild06",
+    "held-amplitude-protected-complete-mean-design-first-20261126-rebuild06"
+  ],
+  "kept_ids": [
+    "held-amplitude-protected-complete-mean-design-first-v2-20261126-rebuild06",
+    "complete-actual-parent-to-fixed-deep-scalar-preparation-20261126-rebuild06",
+    "complete-fixed-deep-scalar-amplitude-first-20261126-rebuild06",
+    "complete-new-SO3-actual-parent-profile-first-20261126-rebuild06",
+    "complete-actual-parent-SO3-interior-restore-first-20261126-rebuild06"
+  ],
+  "appended_history_ready": {
+    "path": "computations/resume-20261126-run06-complete-normalized-history-ready.json",
+    "sha256": "323be223ed09c95d6e0f52ab1fb9b2b6a839f67efb4a55116c47cca5a3f57278",
+    "bytes": 32872
+  },
+  "appended_current_PCG_ready": {
+    "path": "computations/resume-20261126-run06-current-PCG-complete-pair-ready.json",
+    "sha256": "f33901a2617c9db26157cf02061efd5c4d70effcd52bea6125b035f173fb5aa1",
+    "bytes": 12940
+  },
+  "appended_ids": [
+    "complete-normalized-parent-cached-backtracked-SOC-v2-20261126-rebuild06",
+    "complete-normalized-parent-cached-backtracked-SOC-v2-next64-20261126-rebuild06",
+    "complete-normalized-parent-cached-backtracked-SOC-v2-after46-next64-20261126-rebuild06",
+    "complete-normalized-parent-cached-backtracked-SOC-v2-after48-next64-20261126-rebuild06",
+    "complete-normalized-current-PCG-full-history-science-and-pure-single-admission-20261126-run06"
+  ],
+  "files": [
+    {
+      "name": "resume-20261126-run06-returned-steps-archive-001.json",
+      "bytes": 65112,
+      "sha256": "fa2190781ad9f8fe4461237f65949c26528ff85be40671701d8ae9f8fc403047"
+    },
+    {
+      "name": "resume-20261126-run06-returned-steps-archive-002.json",
+      "bytes": 76659,
+      "sha256": "89a986d83fa4dafb1bd3f96bc969406e6d889cd982588890e7d77edf517d8153"
+    },
+    {
+      "name": "resume-20261126-run06-after-archive001-002-plus-history-and-current-PCG.json",
+      "bytes": 69726,
+      "sha256": "bd9f89b6fb6476cc0c373ca6313f28df5cd3696486dccbf39c1cecd701d1b3c4"
+    }
+  ],
+  "all_full_objects_exact_comparison_passed": true,
+  "pending_objects_unchanged": true,
+  "controller_attempted_state_unchanged": true,
+  "scientific_commands_executed_here": false
+}
