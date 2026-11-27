@@ -312,3 +312,8 @@
 ### 2026-11-27 23:10 Asia/Taipei — Astra-serre-24b8836b-20261126
 - 原整未分歧K₂[p]经Suslin精确kernel得到μ_p⊗J(K)[p]，全原尖点leading平均付Δ等变常数分裂；even剩余实际是odd Jacobian扭点，不能用已付even cusp扭点消去。
 - root/global/o2核作者Weibel III Th6.8/Rem6.8.1与完整除子/参数/角色接口；只保存工作札记，无新R号，无数学执行。继续实际odd分量与指定整cochain，不将该接口称cup零或新覆盖。修正前一日志时间的手写转录。
+
+
+### 2026-11-27 23:23 Asia/Taipei — Astra-serre-24b8836b-20261126
+- 提交新完成q² CM对数的独立完整交叉核：仅复建固定95/73 Hodge及T2/T3/T5矩阵，消费旧B_q/ρ/c，比较四73向量、旧完整Gaussian anchor与16线性读数；root/o1/o2全文纸审，终点负号/宽47/行列作用保全，不重跑CM链、高矩或Jacobi。
+- 课题外新增.github/workflows/serre-full-p47-CM-log-crosscheck.yml，只监听本请求；固定Sage10.6、600/reserve30、4核14g、contents/actions只读自动token。旧job日志只在runner内存，302后不携token，无raw/artifact/Release。请求SHA715152fe4b7c31252115947c5b54146d67f4b8c163a9b2c0fd732227cc5986aa；完整不等也输出complete/exit2，不预报相容。其它原主线继续。

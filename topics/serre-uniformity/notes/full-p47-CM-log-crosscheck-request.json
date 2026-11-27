@@ -1,0 +1,27 @@
+{
+  "execution_id": "full-p47-CM-log-crosscheck-v1",
+  "prime": 47,
+  "coefficient_prime": 4513,
+  "sage_version": "10.6",
+  "total_seconds": 600,
+  "reserve_seconds": 30,
+  "rules_last_read_commit": "ef491ae7b6b4bf13e0268abac190f35ff3af9792",
+  "consumed_modq2_source": {
+    "source": "ccad9f4ad40466d9a3387e70b42a77c75a2d75b9",
+    "run": 45977769585,
+    "job": 140433713916,
+    "request_sha256": "5bf66b6ddb303f71e2c255badc61942d0faf6694612a9ebdf74adde9b5dc49dc",
+    "result_sha256": "5a084d55b4df85ab0a4eb38e8e5032292960ff83a81b6babfd3c54235d5ea734"
+  },
+  "source_sha256": {
+    "topics/serre-uniformity/scripts/full_p47_CM_log_crosscheck.py": "bf3b55ebe874e5709166867dd1643c32602c34fa75f4a4ae9c8ccd78879417e7",
+    "topics/serre-uniformity/notes/2026-11-27-full-p47-CM-log-crosscheck-method.md": "e1507d20f3ff4b68e950fc9176cdc91e15980aaa9efdc5adfc44996c9abdc630",
+    "topics/serre-uniformity/scripts/full_p47_weight_one_Hodge_certificate.py": "fe2e4f6b2420389b534fab0b2d1976dc6ac7cb2b1fe8ad98c07112ecd860afac",
+    "topics/serre-uniformity/notes/full-p47-CM-height-move-request.json": "bc89913668d6b3d209719a720c7562a7914459441526b6a565fc69edbfc2b7e6",
+    "topics/serre-uniformity/notes/full-p47-QC-first-rows-request.json": "95e8ccb0bd7906f1c0c47fbebc794c77994b3fd5cba58766d31fbc53ac3dbc0b",
+    "README.md": "581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102",
+    "topics/serre-uniformity/README.md": "6ce1403bd2d2587bb9cca70bd0095a1264b1167fe2c4b62f0652ae671e6277a5"
+  },
+  "scope": "Compare only newly completed original q^-1 CM logs with the previously certified Gaussian Bq anchor and all four signed Jacobi ratios in the same actual73 Hodge basis; no CM chain, high moment, Jacobi path, height or QC rerun. Mismatch is a complete outcome, not an implementation failure.",
+  "storage": "Only source, finite parameters, source/run/job identifiers, hashes and small conclusions. The old fixed job log and raw vectors remain in runner memory only; no artifacts, Releases, caches or raw committed arrays."
+}
