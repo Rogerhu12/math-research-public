@@ -313,3 +313,5 @@
 - **R1079（已证明）**：[原CM Ψ–ζ完整短carry](results/R1079-original-CM-Psi-zeta-short-carry.md)：两种原CM模型在实际整T下Ψ=Z_<p^p+δT modT^(p²)；Gaussian Ψ递推、原slope+1、完整短分母和首负p极精度齐备。原e及Gaussian高G单位仍开。
 
 - **R1080（已证明，严格计算）**：[原full47 Jacobian秩](results/R1080-certified-full-level47-Jacobian-rank.md)：精确new Fricke+因子16/24/33，全部73嵌入Arb L′>0，已刊Kolyvagin–Logachev型定理给rankJ=dimJ=ρ_Q=73。run45934421302/job140294236296，20.6657秒；无MW饱和/盘内唯一声明。
+
+- **R1081（已证明，精确计算）**：[原47角代数与整Hecke块](results/R1081-certified-original-level47-Cartan-trace-and-integral-Hecke-algebra.md)：actual trace rank23、Tr(13R0+4R2)²=336288>0；283完整整Hecke无一维块，4513有16个，原Hodge/Lie自由rank1。run45936209617/job140299891342，8.5768秒；MW/高度首项仍开。

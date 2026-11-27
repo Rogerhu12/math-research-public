@@ -6,11 +6,11 @@
 
 会话 **Astra-serre-24b8836b-20261126**。本轮已部分克隆并真实pull main，读两README/H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则读至36cf1ed2。不重做已登记结论或窗口。
 
-**公开两README已读提交：5f3015de0d9588bf97aded99f98dbac78d4a739f**（2026-11-27 11:47 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
+**公开两README已读提交：d0739f98acbbbb14c9ee9d91a022b83bac8ed056**（2026-11-27 11:54 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
 
 已真实部分克隆/pull；11:24再试pull仍报无可用执行环境，shell未运行；按根规矩8用连接器小文本同步、读两README差异、带expected_sha非force提交，恢复后立即pull --rebase。拒绝即同步重基再推至成功。令牌仅CLI；根维护main/H/open/index/log，子研究独立稿，每条结论立即推。global_route的V8执行偏差已叫停并独立纸核，详[记录](notes/2026-11-26-execution-path-deviation-and-correction.md)，其输出不作证明/合规窗口。
 
-H<10KB、open尽量<30KB、每MD<100KB、topic<200MB；无可重算raw、不写根LOG。[本次逐字前态](handoff-archive-2026-11-27-before-full47-rank.md)沿链保全部旧来源/run/hash；[open](open.md)、[索引](results.md)是完整入口。历史“R1003 norm3准备中”未交付，现R1003为范围纠错。
+H<10KB、open尽量<30KB、每MD<100KB、topic<200MB；无可重算raw、不写根LOG。[本次逐字前态](handoff-archive-2026-11-27-before-integral-Hecke-blocks.md)沿链保全部旧来源/run/hash；[open](open.md)、[索引](results.md)是完整入口。历史“R1003 norm3准备中”未交付，现R1003为范围纠错。
 
 ## 原高度来源与范围
 
@@ -18,7 +18,7 @@ R1063：全Hecke族消MW及真辛商，最低两jet行列式仍开。R1058：原
 
 ## O0：不能省略的全局覆盖
 
-[R1078](results/R1078-original-level47-Cartan-correspondences-and-fixed-cycles.md)：原47全部23个R_C，CM/23cusps完整fixed-cycle与迹、association composition已付；13R0+4R2迹零，实际非零待新full-p47-Cartan-Hecke请求消费；并核283/4513完整整Hecke分块，不重跑L′。
+[R1078](results/R1078-original-level47-Cartan-correspondences-and-fixed-cycles.md)：原47全部23个R_C，CM/23cusps完整fixed-cycle与迹、association composition已付；13R0+4R2迹零，[R1081](results/R1081-certified-original-level47-Cartan-trace-and-integral-Hecke-algebra.md)认证角代数rank23、TrZ²=336288；283无一维块，4513有16个真实Zℓ块及原Hodge/Lie自由rank1。run45936209617/job140299891342源48868923，仍缺MW/高度首项。
 
 [R1080](results/R1080-certified-full-level47-Jacobian-rank.md)：run45934421302/job140294236296源702f543e，精确Fricke+三因子16/24/33、全部73实嵌入L′严格正；无条件rankJ=dimJ=ρ_Q=73。原整MW/aux高度及盘内唯一仍开；20.6657秒、全部pins/hash保结果。
 
@@ -58,15 +58,9 @@ R1012/16/17/20/25/27 的未经筛选完整 theta 分布、常平方一及全方�
 
 R1041/48原r2 bare为核范数，实际AS原函数和p-block给端点平方；二者不互代，原尺度/完整留数保结果及逐字前态。R1034两行bare完整有限系数，r8须留多项式部分。R988给原trace与高balanced值准确等价，全部相位、carry、K共振及primitive范围保open；低单位不代高值。旧R963/991/994差集4008点至200000已成不重跑，bare及高近p单位仍开。
 
-## O4：高度边界保留
+## O4–O6：旧全局边界
 
-R1007/08 已证同一整自伴高度格的三挠 Picard 类与 $\ell^2$ 障碍，并由野三惯性关闭全部有理 nondeck 对应入口；未解除底 $\eta_h$、其它完整高度及全部 $\sigma/c_Y,e_\eta,d/N,$ non-$p$、Poincaré/splitting 输入。
-
-R696早已证明同一全局Φ候选Ω_actual={0}，R832已消费；不重做、不当一般Q₃值域。R948仅关闭两个有限例Abel零集，rational候选仍可有非零MW像。Jaswal2026稿仅核方法假设，不接受其121主定理作输入。
-
-## O5/O6 与继续路线
-
-固定Y的R805–930及全部runs/高维格/预算边界见open与逐字归档，只消费已成输入。R907四artifact真404仍producer_inputs_pending，不重造；预算失败不作数学负结论。固定41全129盘/8CM已由R707完成，不重开。R575旧正CM角色根号−与逆twist秩零撤回有效。R1004仅导子下界而非a/c上界，停止重复优化。
+R1007/08的原高度格三挠Picard类/ℓ²障碍及野3关闭nondeck入口仍有效，不能以其它对应跳过；R696/832只为指定Ω，R948只为两有限Abel零集。R805–930的固定Y完整来源/预算/断点及R907四artifact真404沿逐字前态保留；未付real Rcal、MW/完整高度仍开，不重造数组。R707是主水平41而非47，不重开；R1004只有导子下界。Jaswal121未公认主结论不作输入。
 
 原λ始终为−6(b+1)/r（R1045.5）。当前并行：两行实际MW后M1与原盘点数界已成，继续最低w单位/正赋值深盘零点。原最高K_Q、R1041核范数、R1043端点及同h筛选各有独立读数，不能混同；O0完整全局覆盖仍未关。子问题完成即接open其余项，真正达README完成标准才收尾。
 

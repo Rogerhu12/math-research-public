@@ -2,7 +2,7 @@
 
 **主要目标仍OPEN。** 完整证明绝对常数C，或给出p→∞完整无CM反例族；有限素数、条件结论、低权/局部Abel/部分子群均不够。
 
-此前逐字状态在[最新open归档](open-archive-2026-11-27-before-full47-rank.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重算。
+此前逐字状态在[最新open归档](open-archive-2026-11-27-before-integral-Hecke-blocks.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重算。
 
 ## 原最低型：已经付清的输入与准确剩余标量
 
@@ -31,7 +31,7 @@ R1018–40的原完整Fm/两节点Dickson/PD及好BT整比较均已付，详细�
 
 ## O0：全主目标覆盖（R1003恢复原范围）
 
-[R1078](results/R1078-original-level47-Cartan-correspondences-and-fixed-cycles.md)：原23个角对应全部fixed-cycle、degree/trace、composition与Rosati迹配对已纸证。Z=13R0+4R2是迹零actual cycle；未先验宣称endomorphism非零或指定残余θ(Z)=0。新full-p47-Cartan-Hecke请求核完整TrZ²/Gram及283/4513整Hecke分块；不重算L′。
+[R1078](results/R1078-original-level47-Cartan-correspondences-and-fixed-cycles.md)：原23个角对应全部fixed-cycle、degree/trace、composition与Rosati迹配对已纸证。[R1081](results/R1081-certified-original-level47-Cartan-trace-and-integral-Hecke-algebra.md)已证实际角代数rank23、Z=13R0+4R2非零且TrZ²=336288；283无一维块，4513有16个真正Zℓ块，原Hodge/Lie自由rank1。run45936209617/job140299891342；仍须指定θ(Z)、新4513同点标签及MW/高度首层，不重算此证书。
 
 [R1080](results/R1080-certified-full-level47-Jacobian-rank.md)：run45934421302/job140294236296源702f543e，完整Fricke+三因子16/24/33、73实嵌入严格L′>0，DLF Appendix Prop8给原全J rank=dim=ρ_Q=73。M256/512bits/严格尾、20.6657秒及全部hash保原文；不重跑，整MW/局部块/aux高度及盘内唯一仍开。
 
@@ -167,12 +167,8 @@ R907原j1的四原artifact真实404，schema修复已成、producer_inputs_pendi
 
 未付：real Rcal I_Z³、YP/FM128/634、508主部rank507、P1 c/a、原σ/cY、活跃eη、d/N、完整nonp/Poincaré/splitting。R870的16ni/1959位d*须合法好约化非零才判活跃；YL1=0非rank0，UE=dY+2period，End⁰G=F且torus≥g+1，μ3qφ*=0不删Y。全部准确常数、断点和在途叶见逐字前态。
 
-## O6：保留的其他全局路线与永久边界
+## O6：其他全局路线与永久边界
 
-[R1004](results/R1004-exact-even-valuation-at-CM-cross-primes.md)继续R320：指定CM交叉迹差在p≡5mod12的赋值总为偶数。实际立方条件还给3|v，pⁿ同构给q≥p^(4⌈n/2⌉)+56p^(2⌈n/2⌉)+676，q7mod12给4p^(2n)+27；这些迹差的奇/偶相邻检测阈值等价，不给全局p²提升，也不限制a/c。继续真正全局参数控制。
+完整旧分支及准确常数保于[本次逐字前态](open-archive-2026-11-27-before-integral-Hecke-blocks.md)。R1004的CM交叉迹赋值/立方条件与q下界不付a/c上界；R236/238/249仍依M*=D(bc)²，不能把导子下界反用。原Frobenius目标仍是异常族中统一找到q<p²/4、ε(q)=−1且a_q≠0；固定有限窗口/依导子的密度不付该界。
 
-固定41全部129盘已由R707完整关闭，八CM/无有理尖点；不重开、不外推一般p。R101/R109等有限层尖点与整j结果保原scope，有gap的BBM全p≤97分类不能作输入。R4已排通常Runge捷径：实际提升域尖点轨道数等于无穷位数。
-
-实际Frobenius缺口仍是异常族中统一找到q<p²/4、ε(q)=−1且a_q(E)≠0。固定有限窗口可由满像曲线实现；依导子的正密度不能代首素数统一界。商二次域/真实三次导子M=Dc²和共同bc不能自由替换，Frey–Mazur不是已证输入。R236/238/249的有效整j条件依M*=D(bc)²，现有导子/支撑下界不能反用成上界。
-
-固定CM参考三族的高阶/共同支持边界沿旧open；变化CM不能套固定A，Norm自动不添类群矛盾。原ordinary43和776bit Gaussian5例已排，非Serre反例。R706 h1真sigma零、R779 Shapiro同Σ/C4已闭。原RF e2b87b99/SP a06a80ea/ZA268fa3fb/41S133d64af/41C569aa684及b/s/λζ²一次、CRT6逆、246/82^10、theta二挠/fullCorr/原nonp尺度全保。
+R707完整关闭主水平41的129盘/8CM，只消费，不外推一般p；R101/R109有限层和有gap的BBM范围不作全p输入。R4的通常Runge路线无尖点盈余。变化CM不能套固定A，自动Norm不添类群矛盾；普通43/Gaussian5旧例不是Serre反例。全部RF/SP/ZA/41S/41C、b/s/λζ²、CRT6、theta二挠/fullCorr/nonp原尺度及Shapiro边界沿前态不变。

@@ -683,3 +683,7 @@ R1080登记full47严格rank=73：run45934421302/job140294236296源702f543e，精
 2026-11-27 11:46 Asia/Taipei｜Astra-serre-24b8836b-20261126
 提交full47原23角Gram/TrZ²及283/4513完整整Hecke分解新请求；原1081 necklace验证composition，H=T2+tT3+t²T5的73次模ℓsquarefree支付最大整order。
 课题外新增.github/workflows/serre-full-p47-Cartan-Hecke.yml，仅执行本课题；数学600秒，原矩阵/数组不留存，不重跑L′或旧aux筛选。
+
+2026-11-27 11:52 Asia/Taipei｜Astra-serre-24b8836b-20261126
+R1081真实run45936209617/job140299891342认证角代数rank23、TrZ²=336288及283/4513最大整Hecke序；4513恰16个一维块，实际Hodge/Lie自由rank1。
+完整23角/1081necklace消费，8.5768秒；原数组不留存。继续新4513同点来源、指定θ及CM对数/高度，H/open逐字归档保旧边界。
