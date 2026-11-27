@@ -1,0 +1,372 @@
+{
+  "scope": "Phi=0; zn=0; selected ordered h=1 chart",
+  "math_status": "exact original cores and QQ gcd prove at most2051 distinct lambda,rho points, not empty",
+  "run_id": 45993367371,
+  "job_id": 140486548450,
+  "execution": {
+    "elapsed_seconds": 2.7349210320000026,
+    "max_child_rss_kib": 52388,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "eba5378edc2634aec5d7091669da52d5b6389606",
+        "before": "eba5378edc2634aec5d7091669da52d5b6389606",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-27T11:47:58.203203+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "45993367371",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "eba5378edc2634aec5d7091669da52d5b6389606",
+    "source_exit_code": 0,
+    "source_git_blob": "3ebc53021692bc358cef21a55509788198e6a146",
+    "source_sha256": "c36f8f1ef5829b11432e8dfcf76a5dbcc0bf3d6139e69b86fc66c16accc9b472",
+    "stdout_bytes": 10973,
+    "stdout_sha256": "3fc89253abc8ee92db255b010390503b4a9a35c203afee5c2f856d6135ec4326",
+    "stop_reason": null
+  },
+  "original_rows_completed": {
+    "rows": [
+      "E1",
+      "EB",
+      "EC",
+      "N1",
+      "NB",
+      "PB",
+      "NC",
+      "PC"
+    ],
+    "statistics": {
+      "multiplications": 588,
+      "original_difference_coefficients": 1764
+    },
+    "claimExcluded": false,
+    "stage": "all_eight_original_rows_complete",
+    "seconds": 1.5150362770000072
+  },
+  "exact_factor_records": [
+    {
+      "name": "cross_E1_EB",
+      "originalRows": [
+        "E1",
+        "EB"
+      ],
+      "core": {
+        "degrees": [
+          83,
+          15
+        ],
+        "terms": 1344,
+        "totalDegree": 98,
+        "sha256": "1b9f8c1bb31a9c87d538b40e82134b7834d03aad87774ee07463e7936dec5c48"
+      },
+      "target": "H^3",
+      "rationalContent": "1/887173097794968748032",
+      "factors": [
+        {
+          "degrees": [
+            83,
+            15
+          ],
+          "terms": 1344,
+          "totalDegree": 98,
+          "sha256": "5da1ac9c04c13cc0d83dad0f464367b0cce33f28025f927b8cf7c513cb19b265",
+          "multiplicity": 1
+        }
+      ],
+      "fullProductMultipliedBack": true,
+      "noFactorDeclaredAUnit": true,
+      "claimExcluded": false,
+      "stage": "complete_QQ_original_core_factorization",
+      "seconds": 1.7128049920000024
+    },
+    {
+      "name": "cross_E1_EC",
+      "originalRows": [
+        "E1",
+        "EC"
+      ],
+      "core": {
+        "degrees": [
+          77,
+          14
+        ],
+        "terms": 1170,
+        "totalDegree": 91,
+        "sha256": "10868a19c5de665f9c4dc56a2f6e2c7196081de1e2a0fd9f74b3c1dbbc18ac23"
+      },
+      "target": "H^3",
+      "rationalContent": "1/49611653495113383936",
+      "factors": [
+        {
+          "degrees": [
+            77,
+            14
+          ],
+          "terms": 1170,
+          "totalDegree": 91,
+          "sha256": "81798a00dd2c4be037737c974dea3b77563363789701dbfc5a0ad0b13769362c",
+          "multiplicity": 1
+        }
+      ],
+      "fullProductMultipliedBack": true,
+      "noFactorDeclaredAUnit": true,
+      "claimExcluded": false,
+      "stage": "complete_QQ_original_core_factorization",
+      "seconds": 1.8765091680000126
+    },
+    {
+      "name": "principal_E1",
+      "originalRows": [
+        "E1",
+        "ell:E1"
+      ],
+      "core": {
+        "degrees": [
+          76,
+          15
+        ],
+        "terms": 1232,
+        "totalDegree": 91,
+        "sha256": "e101f6ac2515d05096d8a0e23c14e427685d507d8a33b8ad59480f1482a088a9"
+      },
+      "target": "H^3",
+      "rationalContent": "1/81713311639010279424",
+      "factors": [
+        {
+          "degrees": [
+            76,
+            15
+          ],
+          "terms": 1232,
+          "totalDegree": 91,
+          "sha256": "0472fa1b169933d4cd1c2e22fe0bc2080d65dbec60aaca5f44389a71140141f4",
+          "multiplicity": 1
+        }
+      ],
+      "fullProductMultipliedBack": true,
+      "noFactorDeclaredAUnit": true,
+      "claimExcluded": false,
+      "stage": "complete_QQ_original_core_factorization",
+      "seconds": 2.1253165040000113
+    },
+    {
+      "name": "principal_N1_with_ell",
+      "originalRows": [
+        "N1",
+        "ell:N1"
+      ],
+      "core": {
+        "degrees": [
+          75,
+          13
+        ],
+        "terms": 1064,
+        "totalDegree": 88,
+        "sha256": "d23259f5b889511937e4b6d034a0eebccdae9e4f4f5f007e8d4dac89500ba879"
+      },
+      "target": "H^3*ell^3",
+      "rationalContent": "1/162129586585337856",
+      "factors": [
+        {
+          "degrees": [
+            75,
+            13
+          ],
+          "terms": 1064,
+          "totalDegree": 88,
+          "sha256": "20ae05561daf12c30208e46313cfa2d015d3792a97ce2040193ffdbb06872e64",
+          "multiplicity": 1
+        }
+      ],
+      "fullProductMultipliedBack": true,
+      "noFactorDeclaredAUnit": true,
+      "claimExcluded": false,
+      "stage": "complete_QQ_original_core_factorization",
+      "seconds": 2.636944219
+    }
+  ],
+  "factor_pair_records": [
+    {
+      "left": "cross_E1_EB",
+      "right": "cross_E1_EC",
+      "exactQQGcd": {
+        "degrees": [
+          0,
+          0
+        ],
+        "terms": 1,
+        "totalDegree": 0,
+        "sha256": "f07bf0c685b4b7368f9fbdefe4b787ed2f2ac8f1d5651def29be0ebbc32b1ad3"
+      },
+      "branches": [
+        {
+          "left": {
+            "degrees": [
+              83,
+              15
+            ],
+            "terms": 1344,
+            "totalDegree": 98,
+            "sha256": "5da1ac9c04c13cc0d83dad0f464367b0cce33f28025f927b8cf7c513cb19b265"
+          },
+          "right": {
+            "degrees": [
+              77,
+              14
+            ],
+            "terms": 1170,
+            "totalDegree": 91,
+            "sha256": "81798a00dd2c4be037737c974dea3b77563363789701dbfc5a0ad0b13769362c"
+          },
+          "fixedRhoSylvesterOrder": 29,
+          "safeLambdaDeterminantDegreeBound": 2317,
+          "sameQQFactor": false,
+          "originalMultiplicities": [
+            1,
+            1
+          ]
+        }
+      ],
+      "distinctBasePointBound": 8918,
+      "allFactorZeroBranchesRetained": true,
+      "largeResultantsExecuted": false,
+      "stage": "complete_factor_pair_cover",
+      "seconds": 2.6496768800000012
+    },
+    {
+      "left": "principal_E1",
+      "right": "principal_N1_with_ell",
+      "exactQQGcd": {
+        "degrees": [
+          0,
+          0
+        ],
+        "terms": 1,
+        "totalDegree": 0,
+        "sha256": "f07bf0c685b4b7368f9fbdefe4b787ed2f2ac8f1d5651def29be0ebbc32b1ad3"
+      },
+      "branches": [
+        {
+          "left": {
+            "degrees": [
+              76,
+              15
+            ],
+            "terms": 1232,
+            "totalDegree": 91,
+            "sha256": "0472fa1b169933d4cd1c2e22fe0bc2080d65dbec60aaca5f44389a71140141f4"
+          },
+          "right": {
+            "degrees": [
+              75,
+              13
+            ],
+            "terms": 1064,
+            "totalDegree": 88,
+            "sha256": "20ae05561daf12c30208e46313cfa2d015d3792a97ce2040193ffdbb06872e64"
+          },
+          "fixedRhoSylvesterOrder": 28,
+          "safeLambdaDeterminantDegreeBound": 2113,
+          "sameQQFactor": false,
+          "originalMultiplicities": [
+            1,
+            1
+          ]
+        }
+      ],
+      "distinctBasePointBound": 8008,
+      "allFactorZeroBranchesRetained": true,
+      "largeResultantsExecuted": false,
+      "stage": "complete_factor_pair_cover",
+      "seconds": 2.661191027000001
+    },
+    {
+      "left": "cross_E1_EC",
+      "right": "principal_N1_with_ell",
+      "exactQQGcd": {
+        "degrees": [
+          0,
+          0
+        ],
+        "terms": 1,
+        "totalDegree": 0,
+        "sha256": "f07bf0c685b4b7368f9fbdefe4b787ed2f2ac8f1d5651def29be0ebbc32b1ad3"
+      },
+      "branches": [
+        {
+          "left": {
+            "degrees": [
+              77,
+              14
+            ],
+            "terms": 1170,
+            "totalDegree": 91,
+            "sha256": "81798a00dd2c4be037737c974dea3b77563363789701dbfc5a0ad0b13769362c"
+          },
+          "right": {
+            "degrees": [
+              75,
+              13
+            ],
+            "terms": 1064,
+            "totalDegree": 88,
+            "sha256": "20ae05561daf12c30208e46313cfa2d015d3792a97ce2040193ffdbb06872e64"
+          },
+          "fixedRhoSylvesterOrder": 27,
+          "safeLambdaDeterminantDegreeBound": 2051,
+          "sameQQFactor": false,
+          "originalMultiplicities": [
+            1,
+            1
+          ]
+        }
+      ],
+      "distinctBasePointBound": 8008,
+      "allFactorZeroBranchesRetained": true,
+      "largeResultantsExecuted": false,
+      "stage": "complete_factor_pair_cover",
+      "seconds": 2.671972986
+    }
+  ],
+  "final_stage": {
+    "originalCoreNames": [
+      "cross_E1_EB",
+      "cross_E1_EC",
+      "principal_E1",
+      "principal_N1_with_ell"
+    ],
+    "everyFactorizationMultipliedBack": true,
+    "noProjectionExecuted": true,
+    "noUnprovedUnitDeletion": true,
+    "claimExcluded": false,
+    "ordinaryISPClaim": false,
+    "stage": "complete_new_exact_factor_input",
+    "seconds": 2.672012563999999
+  },
+  "proof_refinement": {
+    "pair": [
+      "cross_E1_EC",
+      "principal_N1_with_ell"
+    ],
+    "fixed_rho_degrees": [
+      14,
+      13
+    ],
+    "lambda_degrees": [
+      77,
+      75
+    ],
+    "sylvester_order": 27,
+    "degree_upper_bound": 2051,
+    "determinant_executed": false,
+    "multiplicity_proof": "r distinct rho roots give r independent length27 Vandermonde kernel columns, so local determinant order>=r even if leading terms vanish",
+    "parameter_pair_bound": 2051
+  }
+}

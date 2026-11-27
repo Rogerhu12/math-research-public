@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R150：Phi0有序碰撞图精确互素原曲线与2051基点覆盖](results/R150-appendix-unit211-Phi-zero-rank-one-value-exact-core-2051-point-cover.md)：c36f实际2.735秒/exit0；双次数77/14、75/13，固定27阶Sylvester核重数保全部首项零；含ell≤4102，未算大结式、未排空。
+
 - [R150：整个J19权曲线的原六列返1和588次完整QQ覆盖](results/R150-appendix-unit211-W-J19-six-generator-original-unit-and-degree-588-cover.md)：f436真11.197秒/exit0，4+10规则、18乘法及21真点行全返；全部范数零保留，≤2352权候选仍待原返回。
 
 - [R150：整个Delta0碰撞图首一ell三次、八原值/八原单位目标及F49必要曲线](results/R150-appendix-unit211-Delta-zero-h-one-monic-cubic-original-unit-and-degree-49-curve.md)：c427实际173.569秒/exit0，648次乘法3240个原差系数；F49独立t，其它七式保原t，全临时零纤维保留。
