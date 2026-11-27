@@ -419,3 +419,8 @@
 ### R625：a=.9原18接受、完整fixed-curve fine及节点间边界证据
 
 [唯一原终态](notes/2026-11-27-r625-homothetic-a09-original-terminal.md)新236.64369406秒，18接受/135trial，19J/38完整QR-SVD；26方向全length，实际state12de7ed…完整。20history含1153点fine，其原ruling3.503435673454944e13/真末.306851864371693，stored十末0不授原根。577点真实hmax2.999999999989928高于全部65节点最大2.9999894354061833，原端点h控制不足以捕获节点间边界；未推114 generic拒绝全属h。无clock，所有来源成本保持，当前仍未达README。
+
+
+### R625：真实节点间h的完整L可行方向与全行仿射求解
+
+[新范围](notes/2026-11-27-r625-actual-interior-height-active-scope.md)和[正交仿射接口](notes/2026-11-27-r625-affine-active-row-euclidean-interface-agent.md)准确保原quintic h的全L三次链；固定L时新实际高度行线性，已知末十增量进g。C.T完整QR给d0与正交N，原Euclidean阻尼化为全目标行AN、b−Ad0且常数λ||d0||²保留。浮点依赖使整个活动factor失败，不删行/截谱；原全部物理/真history门仍须实际支付，有限点h不授连续根或README。
