@@ -43,8 +43,8 @@ R714全C1/m32、R715 raw hΔ六jet及原全E/typed责任保。[原08完整九源
 [新SO3同g精化合同](notes/2026-11-27-same-g-so3-normal-refinement-contract-and-entry-design.md)已证三旋转通道正确零嵌入、固定参考分离及全normal同支条件包含；原M160参考不随currentM320改，全部历史/原观察权保。完整新入口正在实现，未冒精化读数；径向准确affine/积分/rawΔ/新E及N后继仍欠。
 
 <!-- visible-larger-parallel-06:start -->
-并行公开Actions06：[run 45904402595/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45904402595)；[实际记录](notes/2026-11-26-public-actions-45904402595-1.md)。阶段`followup:complete-current-PCG-from-actual40-after41-independent-pair-20261127-run06`/failed；已返42，exit=1。
-并行06规则核查：2026-11-27 03:16:04 UTC，真实pull至`d7663b9ef3ccfad4e2dfb818d8f46585c044b49d`，双README无变化。
+并行公开Actions06：[run 45904402595/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45904402595)；[实际记录](notes/2026-11-26-public-actions-45904402595-1.md)。阶段`followup:complete-normalized-parent-cached-backtracked-SOC-v2-next64-20261126-rebuild06`/running；已返42，exit=未返。
+并行06规则核查：2026-11-27 03:42:37 UTC，真实pull至`6452508d6135797cf27f15af6df7cc6f0bb17013`，双README无变化。
 <!-- visible-larger-parallel-06:end -->
 
 <!-- visible-larger-parallel-07:start -->
