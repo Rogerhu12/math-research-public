@@ -6,11 +6,11 @@
 
 会话 **Astra-serre-24b8836b-20261126**。已部分克隆并真实pull main，读根/课题README及H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则36cf1ed2已读。不得重做登记结论/窗口。
 
-**公开两README已读提交：4c70a606828b03a44106d3c9827f701192b515cd**（2026-11-28 03:58 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
+**公开两README已读提交：4a39069c1c71c2ab618522b4f6e879820441093d**（2026-11-28 04:14 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
 
 最近真实pull 2026-11-27 01:48 Asia/Taipei；03:27重试仍无可用执行环境，shell未启动。按根规则8连接器同步、读diff、expected_sha非force提交，拒绝立即同步重基重推至成功；环境恢复立即pull --rebase。下一次真实尝试不晚于2026-11-28 04:27。令牌只CLI。数学程序仅本公开仓库Actions；本地/V8仅metadata/文本，不作数学计算。[此前偏差纠正](notes/2026-11-26-execution-path-deviation-and-correction.md)。
 
-root管main/H/open/index/log，子研究仅独立candidate；每条结论即推。H<10KB，open尽量<30KB，每MD<100KB，topic<200MB；不存可重算raw/artifact/Release，不写根LOG。[最新逐字前态](handoff-archive-2026-11-28-before-integral-bare-cup-comparison.md)沿链保完整旧公式、source/run/hash；[open](open.md)/[索引](results.md)为完整入口。旧“R1003 norm3准备中”未交，现R1003为范围纠错。
+root管main/H/open/index/log，子研究仅独立candidate；每条结论即推。H<10KB，open尽量<30KB，每MD<100KB，topic<200MB；不存可重算raw/artifact/Release，不写根LOG。[最新逐字前态](handoff-archive-2026-11-28-before-low-weight-source-reduction.md)沿链保完整旧公式、source/run/hash；[open](open.md)/[索引](results.md)为完整入口。旧“R1003 norm3准备中”未交，现R1003为范围纠错。
 
 ## O0：完整一般 p；原单位与实际 cochain
 
@@ -31,21 +31,17 @@ root管main/H/open/index/log，子研究仅独立candidate；每条结论即推�
 
 [R1139](results/R1139-original-compact-target-unsmoothing-and-bare-cup.md)在R1136 F33门下付整个compact H²θ的单位理想：geom H²(2)=μp奇角色消，HS保Jacobian/base两层；F=E+(1−E)V/v给(F−1)²0，故(2−F)F=1。Pic/Br商及全部cusp均保，(4/m²)原cup=Ψ(c)准确无公共核歧义；指定Ψ(c)值与门外四阶仍开。
 
-## O1：指定 U^m、原 Picard 两 jet 与真实三同源
+[R1140](results/R1140-original-low-weight-Manin-source-reduction.md)对原j1,k2直接模p证明C¹=0、C²=(16δ²/21)C_Eis；实际J/apolar/三低权商及Merel完整Hecke给端点λℓ=ℓ⁻²+ℓ³。无Bernoulli门已有β=β_E+β₈，v_n=n⁻¹¹(n⁵−1)(n¹⁰−1)选unit，β_E=S_n/v_n而V_nβ₈0；两者均为真实compact像。p∤B16 B_(p−15)才删β₈；原端点值未零，不造F0。继续actual arithmetic endpoint/高cochains。
 
-[原Tate normal-FM](notes/2026-11-27-original-Tate-three-torsion-normal-FM-variation.md) §§1–16保原Miller/Verschiebung、kerV/−Q刚化、全自然基与P/N连接。6v dot t̂=ΦN_full f；全V₀低阶共轭已排，指定U^m未排。首normal×Picard一/四阶零而normal零阶unit。真实Prym族Y²=−(3x+ε)(x³+2v)给完整θ及rank2 Gauss，θ为终止ε₂F₁，cup1/(9v)；moving三挠不代fixed Picard，period仅<p安全、首共振p+1。
+## O1：指定 U^m 的原两 jet
 
-全族Dε^p=HεDε、DεΨε=HεU−βε；加律保−HM，dotR保全S_(p−3)/常数。Ψε(Q)=(εH−ε^p)/6，二阶公式已付。§16完整普通Picard连接为(D_R+h_Z)T̂[f]=T̂[(Ψε+H D_T)f]，实际M div=V*O−pO、Hc=−DlogM、c(FQ)=−ε/6；保moving-zero的HD_T与全部高极输出。p-curvature只核尺度。[R1137](results/R1137-original-Lame-conjugation-with-complete-boundaries.md)付D₀/Λ全部rank3端点、D⁴的δ⁴c_N及原U/B/C完整变换，指定φ满足2Λ³φ+3ΨΛ²φ+6Φ(V)φ+3δΨ=0。Λ非局部D，moving p极仍保；继续真正两jet消元。
+[原Tate normal-FM](notes/2026-11-27-original-Tate-three-torsion-normal-FM-variation.md)保原Miller/Verschiebung、kerV/−Q刚化、全自然基及P/N连接。§16真正普通Picard连接为(D_R+h_Z)T̂[f]=T̂[(Ψε+H D_T)f]，保moving-zero的HD_T与全部高极；首normal旁列unit不代指定e/K4，p-curvature仅核尺度。
 
-§15固定E_P上Ξ=d(xR/r)+3v(R/r²)ωP、Υ=−3R²ωP读3e、−3K4；proper高极p次自由项按CM权排。两类在同一CM线，不能用全rank2完美性。完整Fermat矩给e=vΣr_iL_i、K4=Σr_ir_jL_(i+j+1)，前k矩unit、后k零；**两原和非同时零仍开**。
+[R1137](results/R1137-original-Lame-conjugation-with-complete-boundaries.md)付D₀/Λ全部rank3端点、D⁴的δ⁴c_N及原U/B/C变换，指定φ满足2Λ³φ+3ΨΛ²φ+6Φ(V)φ+3δΨ=0；Λ非局部D，moving p极仍保，真实两jet消元继续。
 
-[原Prym三同源/trace](notes/2026-11-28-original-fixed-Prym-three-isogeny-and-trace.md)：τ(A,B)=(ζA,ζ²B)，φ=(q/ρ²,w/2)，φ*ωE=−3ρ⁻²ωP。A*=Tr(R/r²)/3、B*=TrR²/3准确读e/v、K4，顶项3ρ⁻²U^(m−1)、U^(p−1)。§6真实ψ=(2v/(ρ²x),−svr/x)给φ=[−s]ψ；A³=2(V−v),B³=2(V+v)，LA=LB=0且W=−2ρ²v，原trace已写成同一E的CM[-s] trace。§7原genus4二次源W²=x²+4r²的branch不被τ保持，不能提升；完整Norm=U³+125v²/4非平方，三条平移cover必须保留。
+[固定Prym三同源](notes/2026-11-28-original-fixed-Prym-three-isogeny-and-trace.md)付真实φ=[−s]ψ到同一E及全部trace尺度；Ξ、Υ读3e、−3K4而同在一个CM线，不由完美性推双非零。原genus4双cover的branch不被τ保持，Norm=U³+125v²/4非平方。[genus4全局Raynaud](notes/2026-11-28-original-genus-four-global-Raynaud-vanishing.md)付e0 iff原非hyperelliptic Y全β0，不反用单向引理。
 
-[原genus4全局Raynaud](notes/2026-11-28-original-genus-four-global-Raynaud-vanishing.md)：实际degree3商y³=(2/κ)(1−η⁶)，四基全Cartier-zero；μ6×μ3排第四基的三对。原ω↦h及absolute负号给e=3ρsδA，再消费e0 iffS0，得到e0 iff全局β恒零。Y非hyperelliptic，不反用单向引理，也不把四维isotropic当矛盾。
-
-[原Lamé续稿](notes/2026-11-27-original-lame-tridiagonal-short-flag-continuation.md)的短旗标/Green/全Newton/纯极Φ及R1113完整Lamé谱已付；相邻单位、零谱投影、R1130相邻δ都不代指定两jet。R1126六CM十五配对保A/S/T，Pfaffian不含S；R1060非CMordinary不推S；旧至500000窗口不重扫。
-
-[R1134](results/R1134-original-single-source-low-Euler-obstruction.md)四个原输入的十五列Euler小类全rank，真实run/hash已消费，勿重跑；有限结论不外推。
+R1113完整Lamé谱/三Darboux、R1130邻项δ、R1126六CM十五配对、原Fermat全矩与短旗标均已成，**两原和e/K4非同时零仍开**；全span/零谱投影/相邻unit/非CM ordinary均不替代指定原输入。旧至500000窗口不重扫。[R1134](results/R1134-original-single-source-low-Euler-obstruction.md)原四输入十五Euler列fullrank，run/hash已消费，有限结论不外推。完整旧公式与其它输入沿上列前态/open续接。
 
 ## O2：原 Gaussian good-mask 与共同纤维
 

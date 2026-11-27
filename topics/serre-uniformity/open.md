@@ -2,7 +2,7 @@
 
 **主要目标仍OPEN。** 完整证明绝对常数C，或给出p→∞完整无CM反例族；有限素数、条件结论、低权/局部Abel/部分子群均不够。
 
-此前逐字状态在[最新open归档](open-archive-2026-11-28-before-exact-Lame-conjugation.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重算。
+此前逐字状态在[最新open归档](open-archive-2026-11-28-before-low-weight-source-reduction.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重算。
 
 ## 原最低型：准确未付入口
 
@@ -37,19 +37,11 @@
 
 [R1139](results/R1139-original-compact-target-unsmoothing-and-bare-cup.md)在明确F33低mixed Bernoulli门下消R1136 F53的实际target公共核：原p倍divisor给完整H¹ Kummer类与H² cup lift，所有cusp tame为pth；HS几何H²(2)是ω而非ω²，actual θ偶故只剩Jacobian与base两层。source单位E补为F=E+(1−E)V/v，v=n(n^a−n)(n^a−n²)可选unit，(F−1)²0⇒(2−F)F=1。恒等式保Pic/Br稳定商及整个紧致像，严格得到(4/m²){Fχ,Fψ}=Ψ(cχψ)。指定紧致源值尚未为零；原四阶非重复邻对不满足该门，不能扩大。
 
-### 原完整X_ns^+(47)已完成，只消费
+[R1140](results/R1140-original-low-weight-Manin-source-reduction.md)对原j1,k2直接模p证明C¹=0、C²=(16δ²/21)C_Eis；实际J/apolar/三低权商及Merel完整Hecke给端点λℓ=ℓ⁻²+ℓ³。无Bernoulli门已有β=β_E+β₈，v_n=n⁻¹¹(n⁵−1)(n¹⁰−1)选unit，β_E=S_n/v_n而V_nβ₈0；两者均为真实compact像。p∤B16 B_(p−15)才删β₈；原端点值未零，不造F0。继续actual arithmetic endpoint/高cochains。
 
-[R1125](results/R1125-original-full47-rational-point-classification.md)证明原完整X_ns^+(47)(Q)恰为八个有理CM点，准确j表和原点身份保正文。R1072/1074的全235坏47盘、全10 good全局标签及283同点筛选，只余八盘；R1086的全4513标签含scalar/twists/cusps/R36零坐标，锁定同一CM点。R1074§9的whole-C47 tube和R1103§6.1付全部非q项，包含非整j与2/3；未另加整j、二次域或proper inertia假设。
+### 原完整X_ns^+(47)与旧整K₂输入：已完成，只消费
 
-R1090/93、R1096/1101与R1102付同一原73维Hodge/MW整格、对数满格及全部真实高度；R1105/06付八点切向和23角；R1119/20付原带符号CM全坐标。R1118/21/23完整Cartier法付16个本除子局部值，原C_row=1−Bq(H)全矩阵桥通过。每个来源、尺度和完整run/hash见R1125入口与逐字前态，不重算已成数据。
-
-[R1122](results/R1122-certified-original-six-complete-CM-disks.md)（run45996561850/job140497301328，117.953秒）及[R1124](results/R1124-certified-original-two-special-CM-disks.md)（run46000409994/job140510309243，117.687秒）给八盘全rank2/gcd=t/单位B，原整尾付整个4513盘各只余其CM点。六盘det2141/884/1790/1720/3453/4287；0/141的det294/3157。两次完成结果SHA与全部行存原文，非只深邻域。
-
-旧Miller run45973334832/job140418866621以预算中断结束；q² run45977769585/job140433713916成功，后到四首log已完成下述独立全维核对。两条长链均不续算或补跑。
-
-[原K₂全尖点规范](notes/2026-11-27-original-cuspidal-K2-torsion-and-odd-Jacobian-obstruction.md)给整未分歧K₂[p]/常数=μp⊗J(K)[p]，全cusp平均Δ分裂；even剩余是odd J。实际扩张radical为ω^(2−2r)，非βr。[整p Chen/Ohta](notes/2026-11-27-original-prime-p-Chen-isogeny-and-odd-torsion-reduction.md)付同素数p单位同源及N=1消旧odd，全部剩余在Fricke+平方层；Σ(p²)[p∞]=0不消非Shimura odd。上列R1131/32给指定块的后继，未付其余实际cup/高层，完整旧公式沿本次逐字归档。
-
-R1125 §10后到q²四首log已全维交叉核相容：run46025141482/job140594489905，原B_q/ρ/c及16本征读数全同。该来源审计关闭；不重跑长链，不增加固定47依赖。
+[R1125](results/R1125-original-full47-rational-point-classification.md)已付原完整47Q恰八CM、全部4513 whole盘、全维高度/对数及后到q²审计。R1122/24和run46025141482的全部参数、来源及hash在原结果和[本次前态](open-archive-2026-11-28-before-low-weight-source-reduction.md)；不重跑固定47、41或旧窗口。原整K₂全cusp/Chen/Ohta残余仍为μp⊗odd J，R1131/32仅删各自门内块，不代整个K₂/p。
 
 ## O1：全p同一真实本原标签的临界非零
 

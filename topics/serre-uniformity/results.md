@@ -118,3 +118,5 @@
 
 
 - **R1094（已证明）**：[原离盘CM高度与首global交数](results/R1094-original-disjoint-CM-heights-and-first-global-intersection-functional.md)：整T稳定各向同性补线、双极核和完整分歧共轭和给原跨CM局部h_q∈q²；首全局高度精确为原level Néron交数的Fermat商和，保B²全T_(q²)/坏47垂直项。交数值与单位未算。
+
+- [R1140：原双角色的低权 Manin 来源归约](results/R1140-original-low-weight-Manin-source-reduction.md)：已证明j1,k2的rank1零及rank2的16δ²/21端点归约、原Hecke λ=ℓ⁻²+ℓ³；无条件β_E+β₈分解与明确混合门内裸cup的单一端点读数，未宣该值零。
