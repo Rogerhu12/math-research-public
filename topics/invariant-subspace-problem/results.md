@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R150：Delta0 h1/k1原t二次全Bezout与6239基点覆盖](results/R150-appendix-unit211-Delta-zero-h-one-original-t-quadratics-and-6239-point-cover.md)：1c2b真13.770秒/exit0；G389双度308/81与F49互素，保全部首项零，原t/ell/八值仍待逐纤维返回。
+
 - [R150：Delta0碰撞图F49精确单因子与原兼容式三列gcd1](results/R150-appendix-unit211-Delta-zero-h-one-original-degree-49-primitive-curve.md)：57dd实际3.265秒/exit0；无更小QQ因式、无公共参数因子，整图仍保留，转原t二次组合。
 
 - [R271：同一右逆的平滑修正、有限孔行与实际核截断通量](results/R271-appendix-same-right-inverse-smoothing-correction-and-actual-kernel-cut-flux.md)：G=R−C、C*高斯矩、R/G可闭及闭值域；同核近似RTf_n有界子列即f∈N，未付原通量上界。

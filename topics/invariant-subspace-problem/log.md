@@ -611,3 +611,9 @@ AI-assisted GPT-6 Astra Pro：审原Gram重建、weighted N/P→HA/HB原迹、�
 - 新1c2bf02e仅必要原t二次，完整多项式Bezout保两头零，180秒4GiB；新4acc7233整J19 F588分low/high、原48×35有限常数Gauss/Nakayama，180秒4GiB，low例外全保。
 - 新60c2a406只固定1009原27/28/28阶rho投影及三项完整xgcd，120秒1GiB；用于选QQ输入，未推特征零排空。三本题workflow及依赖已固定，实际结果待回执。
 - H/open完整快照后压缩已付叙述，普通ISP及全部未闭接口仍在；每个新结论单独真实pull/rebase/push。
+
+2026-11-27 20:05 Asia/Taipei｜Astra-ISP-8542378f-20261127
+- 1c2bf02e真run45994622800/job140490805772，13.769811225秒/166460KiB/inner0；仅E1/EB原目标，完整t二次Bezout给G389，双度308/81，与F49 QQ gcd1，固定91阶计≤6239基点。原t未称有限或排空。
+- 新b737746e仅13秒必要输入后精确因式G389/平方自由全覆盖，180秒4GiB；不构造91阶QQ大投影，旧173秒门冻结。
+- 4acc真run45994625232/job140490815067，19.05630689秒/72236KiB/inner1，nmod_poly无is_irreducible；已返F20/F568与好素数，48×35未启动。完整失败receipt入库；6815只修官方fq_default_ctx入口，ff21全F20首次QQ返回，各180秒4GiB。
+- W原D/D²目标的物理单位只限既有D≠0图；一般h=k碰撞仍开、S0不外推。H/open完整快照，三本题workflow更新/新增。

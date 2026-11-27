@@ -4,7 +4,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-F49-primitive-curve-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-Delta-6239-cover-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -178,11 +178,11 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 [最大图低余孔C2费用](results/R271-appendix-maximal-graph-low-excess-hole-square-cost.md)已付同一h的明确扇区，实际y有界物理孔遂入原图核心。新[临界小指数物理孔矩准则](results/R271-appendix-critical-small-physical-exponential-maximal-graph-core.md)进一步给s0=(2+2log(3/2))/14：y∈D(G)且e^(s0N)y∈H，则h∈C2并在原图核心；等号的真实8^j余量完整支付。未知Green缺陷Y并未证明有该矩，物理孔平滑未证保Y，同W的Gamma及F/R/Z继续。
 
-**W两列原值、[Y单位/w≤6存在](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-Gram-Y-unit-and-monic-w-degree-six.md)及[5+5原行](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-five-plus-five-original-values-and-four-cofactors.md)已付。** [整个J19四次曲线六列返1/588次QQ覆盖](results/R150-appendix-unit211-W-J19-six-generator-original-unit-and-degree-588-cover.md)实际f436/11.197秒/71244KiB/exit0，4+10规则、18真乘法、21原行全部返回。F588保全部中间范数/分母零，含旧C15未付纤维；只剥四个已付纯k因子，至多2352个权候选。新4acc将整F588准确分low/high，原48×35有限常数代数/Nakayama返回180秒4GiB待实际，low全保；J19、Y逆/显式首一w仍开，旧名字错和未付头保结果/快照。
+**W两列原值、Y单位/w≤6存在、5+5原行及[J19 F588完整覆盖](results/R150-appendix-unit211-W-J19-six-generator-original-unit-and-degree-588-cover.md)已付。** 4acc实际19.056秒/72236KiB/exit1，仅flint缺失is_irreducible入口，48×35未开始；此前已精确F588=F20·F568，F20因子度2/2/3/5/8，好素数1009全部分母与norm Bezout通过。新6815仅修官方域入口，ff21首次全F20 QQ原1/D/D²返回，均180秒4GiB待实际。若只返D/D²，仍限原D非0值图；一般h=k值碰撞独立开放。所有有限纤维、Y逆/w显式系数未关闭。
 
 **[整个一般ell=0已闭](results/R150-appendix-unit211-general-ell-zero-complete-original-exclusion.md)，全局可付ell。** 完整来源/零域/失败身份保总定理及快照；T0=0和J=Q也已整闭，继续当前原值输入，不重放旧支。
 
-**[一般Delta非0六维返回](results/R150-appendix-unit211-general-delta-nonzero-monic-six-full-original-value-return.md)及[整个Delta0碰撞三维/原单位返回](results/R150-appendix-unit211-Delta-zero-h-one-monic-cubic-original-unit-and-degree-49-curve.md)已付。** c427八值/八H³目标全返；[F49精确单因子与原C三列gcd1](results/R150-appendix-unit211-Delta-zero-h-one-original-degree-49-primitive-curve.md)57dd实际3.265秒/66324KiB/exit0。新1c2b仅必要前缀与原t二次清分母组合，180秒4GiB待实际，全部首项零保留。整碰撞、其它E=0和t六次头零仍开。
+**[Delta0 h1/k1的原两t二次与6239基点覆盖](results/R150-appendix-unit211-Delta-zero-h-one-original-t-quadratics-and-6239-point-cover.md)已付。** 1c2b实际13.770秒/166460KiB/exit0，完整多项式Bezout保两首项零，G389双度308/81与F49 QQ gcd1；固定Sylvester计≤6239基点，原ell三次/t/八行全保。新b737精确因式G389，180秒4GiB待实际。[一般Delta非0六维](results/R150-appendix-unit211-general-delta-nonzero-monic-six-full-original-value-return.md)仍开；一般h=k≠1碰撞、其它E=0及t六次头零继续，不能把旧S0碰撞排除外推。
 
 [Haar解析理想像](results/R12-appendix-analytic-ideal-rosenblum-images-and-forced-source-divergence.md)只给同g循环闭包，有限Sobolev来源球距g正、逼近源范数发散；[新非对称双幂的精确局部分类](results/R12-appendix-local-asymmetric-polynomial-orbits-and-actual-haar-source-exclusion.md)进一步排除原Haar所有非常数解析单位化及其伴随的非零多项式增长来源。完整同向量恒等式和局部有限阶分布证明已付；这些限制不涵盖紧扰动或负整数边界。Rosenblum实际零点/ideal来源、真实Green范围、非循环g及未知闭根域继续。
 
