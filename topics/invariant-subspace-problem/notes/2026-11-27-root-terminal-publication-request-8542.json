@@ -1,19 +1,14 @@
 {
-  "message": "ISP: exclude the original equal-singleton Phi zero ell nonone face and preserve corrected quartic input",
-  "parentCommit": "3e17fc19ce405009cbe0c19f3459932c6a203a47",
+  "message": "ISP: construct a dense original backward chain and a global trace class quasiaffinity",
+  "parentCommit": "a3467c4b0ebb02a053e95fbcd05d4975986a8c85",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-equal-singleton-Phi-zero-ell-nonone-original-exclusion.md",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-equal-singleton-Phi-zero-ell-nonone-original-exclusion-receipt-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-equal-singleton-Phi-zero-ell-one-first-shadow-failure-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-equal-singleton-Phi-zero-ell-one-first-shadow-failure-receipt-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-equal-singleton-Phi-zero-ell-one-complete-quartic-original-return-8542.py",
-    ".github/workflows/invariant-subspace-equal-singleton-phi-zero-ell-one-quartic-original-8542.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-27-handoff-before-Phi-collision-ell-nonone-exclusion-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-27-open-before-Phi-collision-ell-nonone-exclusion-8542.md",
+    "topics/invariant-subspace-problem/results/R271-appendix-sparse-kernel-injection-dense-backward-chain-and-global-trace-quasiaffinity.md",
+    "topics/invariant-subspace-problem/notes/2026-11-27-handoff-before-global-sparse-chain-quasiaffinity-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-27-open-before-global-sparse-chain-quasiaffinity-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -22,7 +17,5 @@
     ".github/workflows/invariant-subspace-8542-root-terminal-publication.yml",
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
-  "dispatchWorkflows": [
-    "invariant-subspace-equal-singleton-phi-zero-ell-one-quartic-original-8542.yml"
-  ]
+  "dispatchWorkflows": []
 }

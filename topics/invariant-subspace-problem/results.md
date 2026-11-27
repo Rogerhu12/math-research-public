@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [同G稀疏注入的全H稠密链与全空间迹类拟亲和](results/R271-appendix-sparse-kernel-injection-dense-backward-chain-and-global-trace-quasiaffinity.md)：单一链全物理尺度三次增长，B到完整T有单射稠密像迹类交织；新链移级不可闭，N=M仍开。
+
 - [h=k,Phi=0的整个ell≠1原面排除](results/R150-appendix-unit211-equal-singleton-Phi-zero-ell-nonone-original-exclusion.md)：八未缩放原式固定11/9阶QQ投影143/80互素；完整ell1u2四次纤维保留。
 
 - [Phi判别式零原均值乘法理想的完整F26必要曲线](results/R150-appendix-unit211-Phi-zero-exceptional-original-mean-unit-six-F26-curve.md)：新T闭包与真U6目标得到729项单QQ因子，精确可恢复输入；未排空曲线。

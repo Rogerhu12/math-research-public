@@ -8,9 +8,9 @@
 - **最近实际 pull / 已读规则提交：** 72dfb349c68b3efbaf30ed9774f8c9afb1ff7704（2026-11-27 14:34:45 UTC，Actions run46017144929实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-8542/46017144929-1.json。
 - 私库QUEUE本会话进行中已实际核验；最近真实pull为2026-11-27 14:34:41 UTC/278f91316721e0296d59ca244372344f1a330e1a，根README diff无变。公私均部分克隆blob:none。
 - **终端再次断开：** 约07:20 UTC起本地执行器不可用。按根规矩8/13小文本准备、公开Actions真实pull/rebase/push，非快进立即循环；旧故障与准确源保[说明](notes/2026-11-27-executor-outage-and-unpublished-small-input-checkpoint-8542.md)，未冒称本地恢复。
-- **终端断开后远端已读：** `3e17fc19ce405009cbe0c19f3459932c6a203a47`（2026-11-27 14:34:21 UTC）；只读检查不冒称实际pull。
+- **终端断开后远端已读：** `a3467c4b0ebb02a053e95fbcd05d4975986a8c85`（2026-11-27 14:36:50 UTC）；只读检查不冒称实际pull。
 - H<10KB、MD<100KB、open尽量<30KB、题<200MB；只留源/参数/SHA/小回执，不留可重算大输出，不写根LOG。课题外workflow改动已记本题log。
-- 所有被压缩的精确结论/来源/失败身份保[最新完整H](notes/2026-11-27-handoff-before-Phi-collision-ell-nonone-exclusion-8542.md)、[open](open.md)、[结果索引](results.md)及归档链；省略不算关闭，已登记不重做。
+- 所有被压缩的精确结论/来源/失败身份保[最新完整H](notes/2026-11-27-handoff-before-global-sparse-chain-quasiaffinity-8542.md)、[open](open.md)、[结果索引](results.md)及归档链；省略不算关闭，已登记不重做。
 
 ## R150 总图与当前一般支
 
@@ -44,7 +44,7 @@
 ## R271 同W与实际范围核心
 
 原全部公式/常数/负门与适用范围保最新完整H、open及results；压缩不关闭旧接口。
-- M=kerT、N=closureBM、W=M⊖N，N=M未证。真闭proper单链U及同G/平滑/RTcut/方向迹类均已付。新目标U全部有界交织恰L_y、自动迹类；交换代数有有界单射保单位rho，DL_y=L_y rho(D)、rho(T_U)=B，非零D像稠密。原T*y=Sf给L_yT=T_UL_f及真空残量，非零y无有界后因子L_f=DL_y。第二Green仅真空行与两原交换子，未付残量0/范围核心。新由rho三次系数界与完整N/Y四次主项证明B及每dyadic幂、每单个位均不保持U；有限头解析逆保全Y。正角、G保N、Gamma/Sr仍开。
+- M=kerT、N=closureBM、W=M⊖N，N=M未证。固定闭G的proper U、全部目标U交织/rho、Green两原交换子及B/dyadic幂不保持U均保完整原稿，不重放。**新稀疏真核注入链在全H稠密**，同一G/全κ保持exp(Cκn³)，有限Π+GT望远镜与完整旧链误差已付；新迹类ℒ_y每个非零y均全H稠密像，ℒ_e0单射且Tℒ=ℒB，奇异值四次衰减。对真w∈W仍ℒ_w|M=e0⊗w、ℒ_wN0；新链移级J_ch不可闭，不能替换闭G或付实际除法源/正角/G保N/Gamma。
 - 原G0=TJ_B多值部Ce0；N⊂kerAmin⊂M，I=M⊥⊂J=closureRanG0*⊂N⊥。原RanG0*确非闭、无全h来源范数界；五坐标原反例还排无条件联合图→carry/C2，输出都在M⊥而非W，不重做这些通用升级。
 - 原N/Y平方源C2与临界s0=(2+2log(3/2))/14图核心已付，完整Y逆/等号保留。任意原最大图h_s=e^(−sN)h在[s0,1]有真实核心/加权ℓ¹返回；E给||e^(−N/2)f||²≤e^(−198)||f||²及≤190孔质量≤e^(−8)。未付s→0、E0/Z0/Gamma，完整费保正文/归档。
 - 同w=Ju的Γ有限恰g0=H*(I+H*H)u在实际RanK*，W只付闭包像；原Q_H正则费用双侧比较不付Γ。全整数窗Σ||P≤n w||⁴/E_n≤4Aδ||w||²，非零W迫Σ1/E_n有限；同W的倒数发散/费用上界仍开。
