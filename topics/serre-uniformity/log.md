@@ -33,3 +33,7 @@
 ### 2026-11-27 15:30 Asia/Taipei — Astra-serre-24b8836b-20261126
 - 提交新小奇Hecke整基请求：原三newform精确换h坐标、模q CRT和实际Hodge矩阵桥，prefix256/512/1024/2256到73即停；900秒/reserve30。
 - 课题外新增.github/workflows/serre-full-p47-small-odd-Hecke-basis.yml，仅本课题；root/global/o2全文纸审，旧Hodge只按hash消费。H/open旧态归档后压缩，后继全部真实高度继续。
+
+### 2026-11-27 15:34 Asia/Taipei — Astra-serre-24b8836b-20261126
+- 完整高度后继方法与消费者已写，4核流式范数/Fermat和、共享精确小因子表及有限缓存，不保存大数组；原n1=818直接消费。
+- 原小基C^-1读Γ(H^j)，trace Gram与R/P′恢复同一κ，完整28块与实际16个log系数μ=κ/(aλ²)；尚未触发数值请求，等待小基实读，继续理论线。

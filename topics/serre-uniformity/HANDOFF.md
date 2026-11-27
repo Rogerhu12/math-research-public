@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。本轮已部分克隆并真实pull main，读两README/H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则读至36cf1ed2。不重做已登记结论或窗口。
 
-**公开两README已读提交：97f952389fd6d647056fb242ac0eef68007ffa10**（2026-11-27 15:30 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
+**公开两README已读提交：052368115dc00b57a76b0454d6417da02c594dda**（2026-11-27 15:34 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
 
 已真实部分克隆/pull；14:53再试pull仍报无可用执行环境，shell未运行；按根规矩8用连接器小文本同步、读两README差异、带expected_sha非force提交，恢复后立即pull --rebase。拒绝即同步重基再推至成功。令牌仅CLI；根维护main/H/open/index/log，子研究独立稿，每条结论立即推。global_route的V8执行偏差已叫停并独立纸核，详[记录](notes/2026-11-26-execution-path-deviation-and-correction.md)，其输出不作证明/合规窗口。
 
@@ -38,6 +38,8 @@ R1063：全Hecke族消MW及真辛商，最低两jet行列式仍开。R1058：原
 [R1100](results/R1100-certified-original-level47-first-global-CM-height.md) run45955885738/job140362136569，4.332秒：Γ(1)=818 mod4513，2/47/奇好贡献4256/1323/4265，5134个全部局部项。h(Bqu4,Bqu16)赋值1；不推全部73块unit，后继不重算n1。
 
 [新小奇基请求](notes/2026-11-27-full-p47-small-odd-Hecke-basis-method.md)：原三newform精确换到h=a3+a5后CRT，核原Hodge1/2/3/5矩阵，固定prefix256/512/1024/2256到rank73即停。公开Actions900秒/reserve30；尚无新回执。下一步只在实际基上读其余高度，恢复κ并核全部28块。
+
+[完整高度方法/消费者](notes/2026-11-27-full-p47-complete-global-CM-height-method.md)已写：固定实际基后4核流式计算其余72个Γ，直接消费n1=818；trace Gram与R/P′两法恢复κ，核全部28块并读16个原log归一μ。尚未提交数值请求，待小基实际回执；完整高度仍OPEN。
 
 ## O1：原同一保留标签
 

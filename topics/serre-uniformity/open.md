@@ -52,6 +52,8 @@ R1018–40原Fm/两节点Dickson/PD/好BT整比较的完整尺度和C_*保原文
 
 [新小奇基请求](notes/2026-11-27-full-p47-small-odd-Hecke-basis-method.md)：原三newform精确换到h=a3+a5后CRT，核原Hodge1/2/3/5矩阵，固定prefix256/512/1024/2256到rank73即停。公开Actions900秒/reserve30；尚无新回执。下一步只在实际基上读其余高度，恢复κ并核全部28块。
 
+[完整高度方法/消费者](notes/2026-11-27-full-p47-complete-global-CM-height-method.md)已写：固定实际基后4核流式计算其余72个Γ，直接消费n1=818；trace Gram与R/P′两法恢复κ，核全部28块并读16个原log归一μ。尚未提交数值请求，待小基实际回执；完整高度仍OPEN。
+
 ## O1：全p同一真实本原标签的临界非零
 
 [R1079](results/R1079-original-CM-Psi-zeta-short-carry.md)付两种CM的原Ψ=Z_<p^p+δT modT^(p²)，含原微分/CM角色/短ζ分母/负p极代换。原G单位现可作Ψ指定高系数，但不是短η_k/ν_k；真实三平移和Gaussian近p²下位卷积仍开。
