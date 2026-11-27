@@ -181,3 +181,7 @@
 ### 2026-11-27 19:57 Asia/Taipei — Astra-serre-24b8836b-20261126
 - R1118短Cartier两个实际消费者/method/request已完成root/o1全文纸审，closed jets、确定f、V5完整colon、全部留数及73 Gaussian帧与除6接口一致。
 - 新增课题外workflow serre-full-p47-short-Cartier-third-kind.yml，只算余12例，4核18000/reserve120、field1800；首4Miller此刻仍in_progress。Jacobi run45994488204已在数学步骤，待完整记录后接QC，不将算法当数值。
+
+### 2026-11-27 20:02 Asia/Taipei — Astra-serre-24b8836b-20261126
+- R1120消费成功Jacobi run45994488204/job140490328323，21.546秒、PARI2.17.1；aux−11首项rank73/det4364，四原CM全73坐标与真实Bq/Hodge桥完整。
+- root核所有记录/证书canonical SHA与source/request；原q²不再是必要输入。同步推QC v2已审Jacobi/Cartier消费分支，仍待真实α不填占位值。短Cartier新12例run45994669183已在数学步骤；主目标与实际QC行秩继续。

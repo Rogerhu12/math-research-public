@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。本轮已部分克隆并真实pull main，读两README/H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则读至36cf1ed2。不重做已登记结论或窗口。
 
-**公开两README已读提交：c908a23aa20487693cffe202745871dd9f0b740f**（2026-11-27 19:57 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
+**公开两README已读提交：25a197480a83f4dd4523ed3a0f46f296ffdfa5f1**（2026-11-27 20:02 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
 
 已真实部分克隆/pull；19:11再试pull仍报无可用执行环境，shell未运行；按根规矩8用连接器小文本同步、读两README差异、带expected_sha非force提交，恢复后立即pull --rebase。拒绝即同步重基再推至成功。令牌仅CLI；根维护main/H/open/index/log，子研究独立稿，每条结论立即推。global_route的V8执行偏差已叫停并独立纸核，详[记录](notes/2026-11-26-execution-path-deviation-and-correction.md)，其输出不作证明/合规窗口。
 
@@ -34,18 +34,18 @@ R1063：全Hecke族消MW及真辛商，最低两jet行列式仍开。R1058：原
 
 [R1104–06](results.md)已认证原L≤5/836jets与degree167可分pencil、八CM×16切向全unit及全部23角的真实73维作用；ZA/ZB生成整T。run45964526314/45968484065/45969880122，原source/hash、coarse/tag、FLINT隔离和id196普通25项链更正保索引及前态。只消费，整代数生成不代QC行秩。
 
-[R1103](results/R1103-original-CM-tangents-finite-field-third-kind-and-QC-first-jets.md)：原α、整尾t(B+At)及全部非q消失已证；[完整首行消费者](notes/2026-11-27-full-p47-QC-first-rows-method.md)已推，待CM首log与α回执才读实际行秩。
+[R1103](results/R1103-original-CM-tangents-finite-field-third-kind-and-QC-first-jets.md)：原α、整尾t(B+At)及全部非q消失已证；[完整首行消费者](notes/2026-11-27-full-p47-QC-first-rows-method.md)已推，CM坐标已由R1120取得，待实际α回执读行秩。
 
 [有限Miller](notes/2026-11-27-full-p47-finite-third-kind-method.md) run45973334832/job140418866621：0/141×ZA/ZB首4例仍运行，18000/120；原closed支撑/ratio/signed N和终点已付，只读完整新α。余12例随后续。
 
-[R1108](results/R1108-original-CM-first-log-mod-q2-and-finite-residue-algebra.md)：原q² residue-trace/强制归一及两pencil同时核已证。四基本CM run45977769585/job140433713916仍运行，18000/120；新首log未出。
+[R1108](results/R1108-original-CM-first-log-mod-q2-and-finite-residue-algebra.md)：原q² residue-trace/强制归一及两pencil同时核已证。四基本CM q² run45977769585/job140433713916仍在途；必要坐标已由R1120取得，不再依赖或补跑该链。
 
 [R1118](results/R1118-original-short-Cartier-reading-for-CM-third-kind-values.md)：原α改由短Cartier读法：s≤159/151、f的确定性线性避让、U_f=fH0Ω(S)的完整V≤5 colon；73个同一Gaussian free点的一次4513来源给C和Cη−η，(1−C)解唯一原W形式。保全部coarse/closed/cusp47/除6；算法尚无实际回执，未报QC行秩。
 
-[R1119](results/R1119-original-signed-CM-coordinates-and-Jacobi-reading.md)：原四基本CM的反向项链迹为q†u_D=23w_D y_(DN,r_D)，w=3/2/1/1，r=N/0；真带符号ρ_D=(w_D/2)c(DN,r_D)/c(−4N,0)，QC坐标ρ_D/Bq。原Q同源证明与4513整性分开；新Jacobi请求核QQ路径、整投影、共同73参考和原H全矩阵桥，数值待实际回执。
+[R1120](results/R1120-certified-original-full47-signed-CM-coordinates.md)：run45994488204/job140490328323已成功，21.546秒；aux−11首项完整rank73、det4364，四基本CM的ρ_D与原QC坐标ρ_D/Bq全73系数齐备，原Hodge/Bq全矩阵桥通过。几何/整性见R1119；全部receipt/source/hash已核，仅消费，不再等待或补跑q²链。第三类值与真正QC行秩继续。
 
 
-[短Cartier新请求](notes/2026-11-27-full-p47-short-Cartier-third-kind-method.md)已提交：只列余12例，首4例仍由Miller在途；原closed/frame/colon及一次4513 grid，4核18000/reserve120。Jacobi新run45994488204/job140490328323正在实际读取四基本类，source a0eec1a3566503cfec9b5cf7e50601fd3ac0e530。完整新读数出后立即接QC；未报任何数值或排盘。
+[短Cartier新请求](notes/2026-11-27-full-p47-short-Cartier-third-kind-method.md)已提交：只列余12例，首4例仍由Miller在途；原closed/frame/colon及一次4513 grid，4核18000/reserve120。Cartier run45994669183/job140490956495正在数学步骤。Jacobi已成功见R1120；待α读实际QC行秩。
 
 ## O1：原同一保留标签与 Gaussian 强制切向
 

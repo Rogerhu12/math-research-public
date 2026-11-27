@@ -34,7 +34,7 @@
 
 [R1102](results/R1102-certified-original-level47-complete-first-global-height.md)：run45962228077/job140382522990，1838.859秒，全部73个原基高度齐备；28块全unit，Norm(κ/a)=2992，det(q⁻¹h)=3972 mod4513，原16个log系数已读。n1/143直接消费，只新算71值；不推八盘唯一。
 
-[R1103](results/R1103-original-CM-tangents-finite-field-third-kind-and-QC-first-jets.md)：原α、整尾t(B+At)及全部非q消失已证；[完整首行消费者](notes/2026-11-27-full-p47-QC-first-rows-method.md)已推，待CM首log与α回执才读实际行秩。
+[R1103](results/R1103-original-CM-tangents-finite-field-third-kind-and-QC-first-jets.md)：原α、整尾t(B+At)及全部非q消失已证；[完整首行消费者](notes/2026-11-27-full-p47-QC-first-rows-method.md)已推，CM坐标已由R1120取得，待实际α回执读行秩。
 
 [R1104–06](results.md)已认证原L≤5/836jets与degree167可分pencil、八CM×16切向全unit及全部23角的真实73维作用；ZA/ZB生成整T。run45964526314/45968484065/45969880122，原source/hash、coarse/tag、FLINT隔离和id196普通25项链更正保索引及前态。只消费，整代数生成不代QC行秩。
 
@@ -44,10 +44,10 @@
 
 [R1118](results/R1118-original-short-Cartier-reading-for-CM-third-kind-values.md)：原α改由短Cartier读法：s≤159/151、f的确定性线性避让、U_f=fH0Ω(S)的完整V≤5 colon；73个同一Gaussian free点的一次4513来源给C和Cη−η，(1−C)解唯一原W形式。保全部coarse/closed/cusp47/除6；算法尚无实际回执，未报QC行秩。
 
-[R1119](results/R1119-original-signed-CM-coordinates-and-Jacobi-reading.md)：原四基本CM的反向项链迹为q†u_D=23w_D y_(DN,r_D)，w=3/2/1/1，r=N/0；真带符号ρ_D=(w_D/2)c(DN,r_D)/c(−4N,0)，QC坐标ρ_D/Bq。原Q同源证明与4513整性分开；新Jacobi请求核QQ路径、整投影、共同73参考和原H全矩阵桥，数值待实际回执。
+[R1120](results/R1120-certified-original-full47-signed-CM-coordinates.md)：run45994488204/job140490328323已成功，21.546秒；aux−11首项完整rank73、det4364，四基本CM的ρ_D与原QC坐标ρ_D/Bq全73系数齐备，原Hodge/Bq全矩阵桥通过。几何/整性见R1119；全部receipt/source/hash已核，仅消费，不再等待或补跑q²链。第三类值与真正QC行秩继续。
 
 
-[短Cartier新请求](notes/2026-11-27-full-p47-short-Cartier-third-kind-method.md)已提交：只列余12例，首4例仍由Miller在途；原closed/frame/colon及一次4513 grid，4核18000/reserve120。Jacobi新run45994488204/job140490328323正在实际读取四基本类，source a0eec1a3566503cfec9b5cf7e50601fd3ac0e530。完整新读数出后立即接QC；未报任何数值或排盘。
+[短Cartier新请求](notes/2026-11-27-full-p47-short-Cartier-third-kind-method.md)已提交：只列余12例，首4例仍由Miller在途；原closed/frame/colon及一次4513 grid，4核18000/reserve120。Cartier run45994669183/job140490956495在数学步骤；Jacobi已成功见R1120，待α读取实际QC行秩。
 
 ## O1：全p同一真实本原标签的临界非零
 

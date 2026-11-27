@@ -76,7 +76,7 @@ def read_request():
     if REQUEST_HASH!=os.environ.get("SERRE_EXPECTED_REQUEST_SHA256"):
         raise RuntimeError("The original QC request hash changed.")
     req=json.loads(raw)
-    if (req["execution_id"]!="full-p47-QC-first-rows-v1" or req["prime"]!=P or
+    if (req["execution_id"]!="full-p47-QC-first-rows-v2" or req["prime"]!=P or
             req["coefficient_prime"]!=Q or req["sage_version"]!="10.6" or
             req["python_flint_version"]!="0.9.0" or req["total_seconds"]!=2400 or
             req["reserve_seconds"]!=60 or req["correspondences"]!=["ZA","ZB"]):
@@ -290,7 +290,7 @@ def consume_gaussian_generator(source,req):
 
 def read_actual_QC_rows(source,basis,w,traces,lambda0,angles,geometric,req):
     """The full 73-dimensional trace, with every original scale retained."""
-    from sage.all import matrix,vector,PolynomialRing
+    from sage.all import matrix,vector,PolynomialRing,identity_matrix
     K=source["K"]
     PR=basis["polynomial"].parent()
     P=basis["polynomial"]
@@ -312,24 +312,76 @@ def read_actual_QC_rows(source,basis,w,traces,lambda0,angles,geometric,req):
         "ZB":((-7*ops[20])%P,(2*ops[12]-7*ops[4])%P,ZB),
     }
     logs={}
-    certificates=req["consumed_CM_logs"]
-    if digest(certificates)!=req["consumed_CM_logs_sha256"]:
-        raise ArithmeticError("The completed original CM log records changed their pinned hash.")
-    if {int(r["candidate_id"]) for r in certificates}!=set(BASIC) or len(certificates)!=4:
-        raise ArithmeticError("All four actual original basic CM log columns are required.")
-    original_vectors={}
-    for row in certificates:
-        identifier=int(row["candidate_id"])
-        values=row["lambda73"]
-        if (row["exact_divisor"]!="23*y-C_infty" or row["coefficient_prime"]!=Q or
-                row["modulus"]!=Q*Q or row["N_mod_q"]!=551 or
-                row["N_sha256"]!=req["consumed_group_order_json_sha256"] or
-                row["terminal"]["terminal_reduction_is_actual_D0"] is not True or
-                len(values)!=73 or any(type(x) is not int or not 0<=x<Q for x in values)
-                or digest(values)!=row["lambda73_sha256"]):
-            raise ArithmeticError("A consumed original CM first-log column is invalid.")
-        original_vectors[identifier]=vector(K,values)
-        logs[identifier]=PR(list(inverse*original_vectors[identifier]))
+    coordinate_method=req["CM_coordinate_method"]
+    if coordinate_method=="q2-residue-trace-R1108":
+        certificates=req["consumed_CM_logs"]
+        if digest(certificates)!=req["consumed_CM_logs_sha256"]:
+            raise ArithmeticError("The completed original CM log records changed their pinned hash.")
+        if {int(r["candidate_id"]) for r in certificates}!=set(BASIC) or len(certificates)!=4:
+            raise ArithmeticError("All four actual original basic CM log columns are required.")
+        for row in certificates:
+            identifier=int(row["candidate_id"])
+            values=row["lambda73"]
+            if (row["exact_divisor"]!="23*y-C_infty" or row["coefficient_prime"]!=Q or
+                    row["modulus"]!=Q*Q or row["N_mod_q"]!=551 or
+                    row["N_sha256"]!=req["consumed_group_order_json_sha256"] or
+                    row["terminal"]["terminal_reduction_is_actual_D0"] is not True or
+                    len(values)!=73 or any(type(x) is not int or not 0<=x<Q for x in values)
+                    or digest(values)!=row["lambda73_sha256"]):
+                raise ArithmeticError("A consumed original CM first-log column is invalid.")
+            logs[identifier]=PR(list(inverse*vector(K,values)))
+    elif coordinate_method=="signed-Jacobi-R1119":
+        records=req["consumed_CM_Hecke_coordinates"]
+        cert=req["consumed_CM_Hecke_certificate"]
+        if (digest(records)!=req["consumed_CM_Hecke_coordinates_sha256"] or
+                digest(cert)!=req["consumed_CM_Hecke_certificate_sha256"] or
+                len(records)!=4 or {int(r["candidate_id"]) for r in records}!=set(BASIC)):
+            raise ArithmeticError("The four complete signed Jacobi coordinate inputs changed.")
+        bcert=basis["certificate"]
+        if (cert["prime"]!=47 or cert["coefficient_prime"]!=Q or cert["dimension"]!=73 or
+                cert["common_reference_rank"]!=73 or cert["reference_discriminant"]!=-4 or
+                cert["reference_pair"]!=[-8836,0] or cert["actual_Hodge_row_checks"]!=[2,3,5] or
+                cert["Hodd_characteristic_polynomial_sha256"]!=bcert[
+                    "Hodd_characteristic_polynomial_sha256"] or
+                cert["Hodd_matrix_sha256"]!=bcert["Hodd_matrix_sha256"] or
+                cert["exact_rational_path_relations"] is not True or
+                cert["all_needed_denominators_q_units"] is not True or
+                cert["consumed_Tq_integer_charpoly_sha256"]!=
+                    "ca554eaecfa7f5ac349fdf9db69f32e584eb45c0787714e97e6ef3c44e1cba62" or
+                cert["Bq_determinant_mod_q"]!=551):
+            raise ArithmeticError("The actual full73 Jacobi projection or Bq source is incomplete.")
+        def original_coefficients(values,wanted):
+            if (len(values)!=73 or any(type(x) is not int or not 0<=x<Q for x in values)
+                    or digest(values)!=wanted):
+                raise ArithmeticError("An actual original Hecke coordinate vector is malformed.")
+            return PR(values)
+        bp=original_coefficients(cert["Bq_coefficients"],cert["Bq_coefficients_sha256"])
+        if bp.gcd(P)!=PR.one() or int(P.resultant(bp))!=551:
+            raise ArithmeticError("The signed coordinate input lost the original Bq unit.")
+        discs={141:(-4,2),0:(-3,3),76:(-7,1),108:(-8,1)}
+        for row in records:
+            identifier=int(row["candidate_id"])
+            D,units=discs[identifier]
+            if (row["method"]!="R1119" or row["coefficient_prime"]!=Q or row["dimension"]!=73 or
+                    row["fundamental_discriminant"]!=D or
+                    row["exact_divisor"]!="23*y_%d-C_infty"%identifier or
+                    row["weighted_Jacobi_pair"]!=[2209*D,0 if D%2==0 else 2209] or
+                    row["source_coarse_weight"]!=1 or row["reverse_incidence_multiplicity"]!=units or
+                    row["Hodd_characteristic_polynomial_sha256"]!=cert[
+                        "Hodd_characteristic_polynomial_sha256"] or
+                    row["Bq_coefficients_sha256"]!=cert["Bq_coefficients_sha256"]):
+                raise ArithmeticError("An actual CM point, signed pair or coarse weight changed.")
+            ratio=original_coefficients(row["ratio_to_u4_coefficients"],row["ratio_to_u4_sha256"])
+            coordinate=original_coefficients(row["coordinate_relative_Bq_u4_coefficients"],
+                                            row["coordinate_relative_Bq_u4_sha256"])
+            if (coordinate*bp-ratio)%P or (identifier==141 and ratio!=PR.one()):
+                raise ArithmeticError("An actual CM class has the wrong Bq normalization.")
+            logs[identifier]=coordinate
+        COMPLETED["CM_coordinate_input"]={"method":coordinate_method,
+            "certificate_sha256":req["consumed_CM_Hecke_certificate_sha256"],
+            "records_sha256":req["consumed_CM_Hecke_coordinates_sha256"]}
+    else:
+        raise RuntimeError("No recognized complete original CM coordinate source.")
     p2=basis["hecke_polynomials"][2]
     p3=basis["hecke_polynomials"][3]
     logs[196]=((p2-1)*logs[141]/K(2))%P
@@ -355,7 +407,39 @@ def read_actual_QC_rows(source,basis,w,traces,lambda0,angles,geometric,req):
                 row["clearing_denominator"]!=6 or row["order_mod_q"]!=551 or
                 type(row["alpha"]) is not int or not 0<=row["alpha"]<Q):
             raise ArithmeticError("A consumed original third-kind value has wrong normalization.")
+        method=row.get("method","R1107-finite-Miller")
+        if method=="R1118-short-Cartier":
+            cc=req["consumed_Cartier_matrix_certificate"]
+            if (digest(cc)!=req["consumed_Cartier_matrix_certificate_sha256"] or
+                    row["Cartier_matrix_certificate_sha256"]!=digest(cc) or
+                    cc["dimension"]!=73 or cc["one_minus_C_determinant"]!=551 or
+                    cc["convention"]!="columns; original Hecke row is transpose"):
+                raise ArithmeticError("A complete original Cartier source is missing.")
+            rr=row["meromorphic_RR_certificate"]
+            degree=int(rr["reduced_support_degree"])
+            if (rr["id"]!=row["id"] or rr["all_original_cusps_included"] is not True or
+                    rr["support_ideal_dimension"]!=262-degree or
+                    rr["numerator_dimension"]!=72+degree or rr["residue_rank"]!=degree-1 or
+                    rr["original_cleared_divisor_sha256"]!=row["exact_initial_divisor_sha256"] or
+                    not 0<degree<=(159 if key[1]=="ZA" else 151) or
+                    len(row["all_eight_log_derivatives"])!=8 or
+                    any(type(x) is not int or not 0<=x<Q for x in row["all_eight_log_derivatives"]) or
+                    row["all_eight_log_derivatives"][IDS.index(key[0])]!=row["alpha"]):
+                raise ArithmeticError("A normalized Cartier value lost its full original residue source.")
+        elif method!="R1107-finite-Miller":
+            raise ArithmeticError("An unrecognized third-kind source was supplied.")
         third[key]=K(row["alpha"])
+    if any(r.get("method")=="R1118-short-Cartier" for r in req["consumed_third_kind_values"]):
+        cc=req["consumed_Cartier_matrix_certificate"]
+        if coordinate_method=="signed-Jacobi-R1119":
+            one=identity_matrix(K,73)
+            Bmatrix=0*one
+            for a in reversed(bp.list()):
+                Bmatrix=Bmatrix*H+a*one
+            # Same original Hodge frame, not merely matching spectra or det(1-C).
+            if digest(matrix_rows(one-Bmatrix))!=cc["Cartier_row_matrix_sha256"]:
+                raise ArithmeticError("The actual Cartier matrix differs from the signed Jacobi Tq coordinate.")
+        COMPLETED["Cartier_input_certificate_sha256"]=digest(cc)
     wanted={(int(i),z) for i in req["CM_candidate_ids"] for z in ("ZA","ZB")}
     if set(third)!=wanted:
         raise ArithmeticError("The new QC request must supply exactly its completed local values.")
