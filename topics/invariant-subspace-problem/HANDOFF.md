@@ -5,10 +5,10 @@
 ## 目标与规矩
 
 - **普通复可分无限维 Hilbert ISP 未完成。** 只以全体有界算子定理或完整反例收尾；子题/时间/输入不足均不停止，按open换输入继续。
-- **最近实际 pull / 已读规则提交：** 38a775911837f5d05997c352941771996ebf67d4（2026-11-27 12:37:31 UTC，Actions run46000164355实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-8542/46000164355-1.json。
-- 私库QUEUE本会话进行中已实际核验；最近真实pull为2026-11-27 12:37:31 UTC/8c0688a2957d6c0267e6593786221a83477bd74c，根README diff无变。公私均部分克隆blob:none。
+- **最近实际 pull / 已读规则提交：** c61258a2ceb155b30b89ac032bc02a3d202f3040（2026-11-27 12:42:44 UTC，Actions run46000890998实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-8542/46000890998-1.json。
+- 私库QUEUE本会话进行中已实际核验；最近真实pull为2026-11-27 12:42:43 UTC/19f03de2cf823c0d3ec0f2e14c9a3b3676ca8b31，根README diff无变。公私均部分克隆blob:none。
 - **终端再次断开：** 约07:20 UTC起本地执行器不可用。按根规矩8/13小文本准备、公开Actions真实pull/rebase/push，非快进立即循环；旧故障与准确源保[说明](notes/2026-11-27-executor-outage-and-unpublished-small-input-checkpoint-8542.md)，未冒称本地恢复。
-- **终端断开后远端已读：** `38a775911837f5d05997c352941771996ebf67d4`（2026-11-27 12:37:11 UTC）；只读检查不冒称实际pull。
+- **终端断开后远端已读：** `c61258a2ceb155b30b89ac032bc02a3d202f3040`（2026-11-27 12:42:22 UTC）；只读检查不冒称实际pull。
 - H<10KB、MD<100KB、open尽量<30KB、题<200MB；只留源/参数/SHA/小回执，不留可重算大输出，不写根LOG。课题外workflow改动已记本题log。
 - 所有被压缩的精确结论/来源/失败身份保[最新完整H](notes/2026-11-27-handoff-before-directional-intertwiners-8542.md)、[open](open.md)、[结果索引](results.md)及归档链；省略不算关闭，已登记不重做。
 
@@ -34,7 +34,7 @@
 - **一般ell=0全闭，全局付ell。** 全三头曲线、1146次QQ覆盖及404余因子/u2/u半均原返回；完整来源保总定理与归档，不加W/Q边界、不重放。
 - **一般T0=0全闭，可付T0。** F4/J4整原返回后QQ4原48×35返1（cd05afd9，0.625秒/exit0），不重放。一般头[0,2,3,4]=2u⁴Q(Q−1)³M²ell·T0(J−Q)。
 - **Delta0 h1/k1≤6219基点已付。** λ半Delta=−p³(ell−1)T0/rho合原等权/T0闭，h1的D=bA非0。一般h=k(D0)fdece真4.240秒/96500KiB/exit0，原全八值/H=bcDelta及完整首一b4已付，首项−64xi²rho⁴；其全部权面仍开，不套旧D单位。新83ea首接h=k原Delta/三均值完整QQ因式，180秒4GiB待实际；其它Delta/E0/t头零保留。
-- **Phi0/h1首一1105原覆盖/≤1105基点已付。** 11fc真9.181秒/63340KiB/exit0，六phi QQ精确重数111/117/110/24/145/44合840；原units+c半整支支付全部零纤维，余1105保1009次数/含ell≤2210。ca7同rho组合、415b真余式模Bezout首次实际待收；旧908不能直接除840。k1交换及所有原候选仍保。
+- **Phi0/h1≤68原基点/136含ell点已付。** 11fc六QQ因子合840付首一1105余覆；415b真3.690秒/52380KiB/exit0，真R*与Q840模gcd1、原S/T全Bezoutgcd68，Gauss及逐纤维核重数严付。ca7同rho仍68，QQ边界H4/H20只候选，待原域返回；k1交换及全部原点未排空。
 
 ### rankH3原ess6
 

@@ -1,0 +1,90 @@
+{
+  "scope": "true original Phi0/zn0 h1 monic1105 residual",
+  "result": "at most68 distinct actual lambda,rho basepoints and136 triples; not excluded",
+  "execution": {
+    "elapsed_seconds": 3.6901683070000217,
+    "max_child_rss_kib": 52380,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "a66e9299ad72ebe87aef17b3683a619518618f52",
+        "before": "a66e9299ad72ebe87aef17b3683a619518618f52",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-27T12:33:03.929555+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "45999545362",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "a66e9299ad72ebe87aef17b3683a619518618f52",
+    "source_exit_code": 0,
+    "source_git_blob": "2711018345a6ece1954b44d3c84b41eea904f82e",
+    "source_sha256": "415b702b78c8eab35217529f5d8f8185a715e1d4afa2057cb9e09dbb0f469588",
+    "stdout_bytes": 13561,
+    "stdout_sha256": "f232f146f472b74bb7cdd2e15dce8de8ae9243e9d27a602fd9185712cc3d2e5f",
+    "stop_reason": null
+  },
+  "run_id": 45999545362,
+  "job_id": 140507384078,
+  "records": [
+    {
+      "degree": 1105,
+      "priorQQDegreeSourceSha256": "c3e74aad554242a0a4dbe386f3a1808c4529033613e0061cbc482ee1345691dc",
+      "priorQQDivisibilitySourceSha256": "11fc87218e30e3a50ae2e2dfedb3860c3faa7607f851e7df1de98d9a03f2de5d",
+      "priorActualQQDivisibilityRun": 45998117351,
+      "residual": {
+        "degree": 1105,
+        "sha256": "ba46188f7e27d041f57b1b63e8fde3d2b55f773573d44e16298bc9e7a60e78fe"
+      },
+      "actualResidualGcdRemovedProduct": {
+        "degree": 0,
+        "sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b"
+      },
+      "fullProductMultipliedBack": true,
+      "noInferenceFromWholePhiMultiplicity": true,
+      "claimExcluded": false,
+      "stage": "actual_true_residual_modular_input",
+      "seconds": 3.5961935220000214
+    },
+    {
+      "inputDegrees": [
+        1105,
+        2005,
+        2096
+      ],
+      "firstGcd": {
+        "degree": 68,
+        "sha256": "51ff3c9fba943f174369ce7beff7b81cd6b6505be5f3180f4de966b1bfe542a6"
+      },
+      "finalGcd": {
+        "degree": 68,
+        "sha256": "51ff3c9fba943f174369ce7beff7b81cd6b6505be5f3180f4de966b1bfe542a6"
+      },
+      "firstTagDegrees": [
+        1936,
+        1036
+      ],
+      "finalTagDegrees": [
+        1936,
+        1036,
+        -1
+      ],
+      "fullThreeProductsMultipliedBack": true,
+      "firstTagSha256": "7de006e3d8da0dc62de7712ef6342c957d440dce77d428877e81d3431cde2c28",
+      "finalTagSha256": "de055bb9e276399c28d7abadf203b4f361d2b7f1e2cde349bfb607d9bc328d10",
+      "trueQQCommonDivisorDegreeUpperBound": 68,
+      "distinctOriginalLambdaRhoPointBound": 68,
+      "boundUsesPriorQQMonicDegree1105AndOriginalSylvesterKernelMultiplicity": true,
+      "everyOriginalFiniteRhoAndLeadingZeroFiberRetained": true,
+      "claimExcluded": false,
+      "ordinaryISPClaim": false,
+      "stage": "actual_true_residual_full_modular_Bezout",
+      "seconds": 3.6060610140000335
+    }
+  ]
+}
