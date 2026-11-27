@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **已证明（R150，等权两参数首一值二次式）**：[原首项完整单位身份](results/R150-appendix-unit211-equal-weights-two-parameter-monic-value-quadratic.md)：kappa=dv²,omega=zv准确恢复m；两原mean同返alpha*v²+beta，2alpha=(omega−1)AR。完整原组合等于4omega⁵(omega−1)⁴，故R首项零支全闭并给真实商中逆；原N/P须保同v。新实际V8源0.110/0.005秒，未判一般图空。
+
 - **已证明（R150，一般等权y=1/2整支排除）**：[原N1与物理D的同源恒等式](results/R150-appendix-unit211-equal-weights-half-singleton-mean-exclusion.md)：已付A_m/z后v0迫m半，同Gram原N_H=−dz²/12=−3dDval，与两物理单位矛盾，保全部Q。实际新V8返回0.032秒；一般等权可付v非零，整图未闭。
 
 - **已证明（R271，同W原边界指数下界/弱核心）**：[同一图对的真实费用](results/R271-appendix-same-w-exponential-dyadic-boundary-cost-and-weak-core.md)：两原dyadic边界有界子列经凸组合付图核心；原M占满前缀指数衰减和全Y末列支配迫每个非零P_Wf的同源费liminf logE_r/r≥gamma_ex>5/3。较弱子指数扇区仅付输出f∈I；Gamma/上界/两范围核心仍开。

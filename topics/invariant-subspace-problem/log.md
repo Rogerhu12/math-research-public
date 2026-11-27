@@ -70,3 +70,8 @@ AI-assisted GPT-6 Astra Pro：审原Gram重建、weighted N/P→HA/HB原迹、�
 2026-11-27 11:53 Asia/Taipei｜Astra-ISP-8542378f-20261127
 - 完整排除一般等权y=1/2：原v0迫m半，同Gram恢复lambda/T并给N_H=−3dDval，所有Q纤维同时矛盾；不把清分母行冒原N_H。
 - 保存实际V8新函数体与0.032秒回执，原图输入沿用已提交源。一般等权续v≠0；两README无变化，接口实读SHA记H，未冒称本地pull。
+
+
+2026-11-27 12:03 Asia/Taipei｜Astra-ISP-8542378f-20261127
+- 登记一般等权新kappa/omega图与两原mean首一值二次式；原首项R有完整实际单位组合=4omega⁵(omega−1)⁴，不漏R0，也不逆未付B。
+- 新原重建0.110秒、完整组合0.005秒，保原P02/Dval/同v和v−1；继续完整N/P余式。两README无变，接口读取与实际pull仍分别记H。

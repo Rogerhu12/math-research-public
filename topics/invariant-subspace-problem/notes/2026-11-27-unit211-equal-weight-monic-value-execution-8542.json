@@ -1,0 +1,31 @@
+{
+  "session": "Astra-ISP-8542378f-20261127",
+  "runtime": "functions.exec pure V8 exact BigInt rational arithmetic",
+  "sources": [
+    {
+      "name": "2026-11-27-unit211-equal-weight-three-parameter-original-chart-8542.js",
+      "sha256": "183a3e4fd4f65d1a9e550fae35b606fb5b24384c7be495fa522e551e24aef9f3"
+    },
+    {
+      "name": "2026-11-27-unit211-equal-weight-monic-value-original-unit-8542.js",
+      "sha256": "338c51aee6eb49c64905b833f6a141e4ec06f2ba3856748b01513083c0dd0ee6"
+    }
+  ],
+  "actualStageSeconds": [
+    0.11,
+    0.005
+  ],
+  "completedNormally": true,
+  "osExitCode": null,
+  "peakRssKiB": null,
+  "originalTwoMeanReturn": "Abar^2*v^2*E1=Abar^2*v^2*(mEBe)=alpha*v^2+beta",
+  "leadingFactor": "2alpha=(w-1)*Abar*[k^2+(w-1)^2*k-w^2]",
+  "actualOriginalUnitIdentity": "[quot*J-4wB^2+J(w-1)Abar*v^2]*R-2J*Ebar=4*w^5*(w-1)^4",
+  "allProductsMultipliedBack": true,
+  "wholeLeadingZeroBranchExcluded": true,
+  "wholeEqualWeightExcluded": false,
+  "canonicalOutputHashes": [
+    "33e16948fa5283de48850b967fab9dc656451ffd10895d90c23095f8722f942a",
+    "96d661b775d763cd0c6fa6599af7c31b53c1311d81c402f3413939236b3a42c9"
+  ]
+}
