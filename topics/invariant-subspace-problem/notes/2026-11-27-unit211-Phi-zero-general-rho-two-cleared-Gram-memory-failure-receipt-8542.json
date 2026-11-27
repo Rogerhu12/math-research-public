@@ -1,0 +1,95 @@
+{
+  "schema": "isp-Phi-general-rho-two-frozen-memory-failure-v1",
+  "date_timezone": "2026-11-27 Asia/Taipei",
+  "run_id": 46016728393,
+  "job_id": 140565651692,
+  "source_sha256": "ed0b43861ec12003dd9de6cc67b7651f49b468cc39f3e6bb488d9e09218ca05f",
+  "source_blob": "68206e8b95d735dce2c4c343c9f5880bf3c53b77",
+  "rawError": "FLINT exception (General error): Unable to allocate memory (101202984).",
+  "completedMeanRows": 0,
+  "completedN1Rows": 0,
+  "completedUnitReturns": 0,
+  "records": [
+    {
+      "after": "8df8765e6c16ac642c1d2e15d0cea4f5ce0850c7",
+      "before": "8df8765e6c16ac642c1d2e15d0cea4f5ce0850c7",
+      "rules_git_blobs": {
+        "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+        "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+      },
+      "rules_unchanged": true,
+      "utc": "2026-11-27T14:31:56.479787+00:00"
+    },
+    {
+      "variables": [
+        "lambda",
+        "x",
+        "y"
+      ],
+      "rhoAlgebraDimension": 2,
+      "headCondition": "A=ell-1-2*(b-c)^2 != 0",
+      "headZeroBranchesRetainedSeparately": true,
+      "originalMomentsAndBothClearedLines": true,
+      "clearedSecondLineFactor": "2*rho",
+      "initialGramDenominator": "Pf1*NT2r",
+      "parameterizedWeightsPreviouslyKnown": true,
+      "newInputIsPhiMonicRhoQuadratic": true,
+      "noA2OrB3Inversion": true,
+      "noNormInverse": true,
+      "statistics": {
+        "multiplications": 76,
+        "original_difference_coefficients": 228
+      },
+      "stage": "new_general_Phi0_rho_two_original_line_input",
+      "seconds": 19.05760059100001
+    },
+    {
+      "content": {
+        "degrees": [
+          6,
+          4,
+          4
+        ],
+        "terms": 55,
+        "totalDegree": 6,
+        "sha256": "078a2fc428bd28c31602bac3d28e8baadc23b9be6e45f088610ee046a5588906"
+      },
+      "contentUnitPaidByOriginalH0": true,
+      "statistics": {
+        "multiplications": 79,
+        "original_difference_coefficients": 237
+      },
+      "stage": "new_same_H0_actual_content_return",
+      "seconds": 20.00424095599999
+    },
+    {
+      "elapsed_seconds": 102.02349240499998,
+      "max_child_rss_kib": 905380,
+      "ordinary_isp_claim": false,
+      "rules_reads": [
+        {
+          "after": "8df8765e6c16ac642c1d2e15d0cea4f5ce0850c7",
+          "before": "8df8765e6c16ac642c1d2e15d0cea4f5ce0850c7",
+          "rules_git_blobs": {
+            "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+            "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+          },
+          "rules_unchanged": true,
+          "utc": "2026-11-27T14:31:56.479787+00:00"
+        }
+      ],
+      "run_attempt": "1",
+      "run_id": "46016728393",
+      "schema": "isp-frozen-exact-actions-execution-v1",
+      "session": "Astra-ISP-8542378f-20261127",
+      "source_commit": "8df8765e6c16ac642c1d2e15d0cea4f5ce0850c7",
+      "source_exit_code": -6,
+      "source_git_blob": "68206e8b95d735dce2c4c343c9f5880bf3c53b77",
+      "source_sha256": "ed0b43861ec12003dd9de6cc67b7651f49b468cc39f3e6bb488d9e09218ca05f",
+      "stdout_bytes": 983,
+      "stdout_sha256": "5515892d3dbe48d23f0ed0f8580b81aead754ee6c585df38469c0a5bb5136b22",
+      "stop_reason": null
+    }
+  ],
+  "noRerunOrResourceIncreaseAuthorizedByThisReceipt": true
+}

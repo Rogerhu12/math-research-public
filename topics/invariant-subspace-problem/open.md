@@ -4,7 +4,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-W-five-low-original-combinations-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-entire-Phi-zero-collision-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -192,10 +192,12 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 D27泛型五次不可约与有限纤维范围保上述D27原单位条目及本次完整快照；不把泛型域结论外推有限权norm零点。
 
-**[h=k Phi0的整个ell≠1已闭](results/R150-appendix-unit211-equal-singleton-Phi-zero-ell-nonone-original-exclusion.md)。** 已付Pf使Delta=−SxiPf非零，33e未缩放八原式给固定11/9阶QQ结式463/337，仅剥原单位得143/80且Bézout1；源0.939秒/45852KiB/exit0。互补ell=1,u=2保整个8lambda⁴−24lambda³+24lambda²−12lambda+3与自由Q。7f9首源变量one遮蔽造成TypeError/exit1，只返参数未得Gram，准确失败/原源保留；新af8215e2只修Gram单位向量命名，继续全K[Q]原返回，不倒Q、1−Q、Q+4之外新多项式。整个Phi0碰撞未宣关闭。
+**[h=k整个Phi0原面已闭](results/R150-appendix-unit211-equal-singleton-entire-Phi-zero-original-exclusion.md)，本碰撞现付Phi。** 33e完整ell≠1八式固定11/9阶QQ投影143/80真单位；af821互补ell1u2保整个8lambda⁴−24lambda³+24lambda²−12lambda+3与自由Q，分母只Q、1−Q、Q+4和真实常数单位，全八式E1/EBe给K[Q]单位，9.967秒/35672KiB/exit0，5263B完整证书。7f9首源one遮蔽/exit1及原参数返回准确保留，不重写失败。合原整个等权/T0/JQ，本碰撞付u−ell、T0、J−Q、Pf、Phi；整个h=k继续，不能复用旧D≠0上尚未独立支付的权面。
 
 **[Phi判别式零的新原均值F26](results/R150-appendix-unit211-Phi-zero-exceptional-original-mean-unit-six-F26-curve.md)。** 78f新选E1/EBe/EBo/N1/T·E1/T·EBe，真U6目标六坐标返回、385整除与公共取消，必要core双次26/26、729项，完整QQ只有一个重数1因子，精确输入已存可直接复用。原31/52必要曲线仍保留，未作gcd/有限点声明。新ed0一般A!=0首一rho二次只做原mean/N1与同H²两行恒等式，不倒任何二次范数；完整A0两支各自保留。新W410a在Ah0直接原T²+同T一次给有限QQ k覆盖，逐整因子原Gram/个别N/P/全NV返回，不重放已成lambda3/2六阶覆盖。
 
 **[同G稀疏真核注入的全空间稠密链与拟亲和](results/R271-appendix-sparse-kernel-injection-dense-backward-chain-and-global-trace-quasiaffinity.md)。** 由k_i=(I−GT)e_i∈N∩e0⊥，单一递归高度/系数注入，完整旧链误差≤2^-j，所有κ共同三次指数界；有限Π+GT望远镜使新链闭span为全H。每个非零y的新ℒ_y均实际迹类、全H稠密像、映入全部Xκ；ℒ_e0单射，Tℒ_e0=ℒ_e0B，s_n四次衰减。真w商作用仍ℒ_w|M=e0⊗w并灭N，未付N=M。新移级图闭包={(Tv,v):v⊥e0}、多值部M∩e0⊥≠0，故不可闭；与固定闭G的proper单链U严格区分。继续真正同w/Green或原Haar范围费用。
 
 **Phi例外F26新PB补图输入：** 642bad只从精确已存F26输入开始，使用含原PB_even/PB_odd的新六行与U6目标，首次返回新QQ核心、与F26的真实QQ gcd；若无公共曲线才给有限权点覆盖。新固定rho模结式及匹配对偶只支付实际达到的最高度；不以模无根冒称QQ排空。120秒1GiB，不重放78旧七det。
+
+**Phi一般rho二次 ed0统一清Gram资源失败冻结。** run46016728393/job140565651692，102.023秒/905380KiB/inner−6 SIGABRT；FLINT明确无法分配101202984字节，非timeout。只返回原矩/两条2rho清分母线与20.004秒同H0公共content（55项），没有mean/N1或二行单位返回。原源与[准确失败](notes/2026-11-27-unit211-Phi-zero-general-rho-two-cleared-Gram-memory-failure-8542.md)保留，换小原标量/逐运算分母输入，不抬内存重放。
