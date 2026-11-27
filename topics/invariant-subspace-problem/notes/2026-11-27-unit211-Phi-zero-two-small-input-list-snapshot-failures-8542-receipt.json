@@ -1,0 +1,337 @@
+{
+  "schema": "isp-two-new-small-input-list-snapshot-implementation-failures-v1",
+  "date": "2026-11-27 Asia/Taipei",
+  "four_heads": {
+    "records": [
+      {
+        "after": "bc8bbd0e280183b25f698b83f820c7d4f69ea4d5",
+        "before": "bc8bbd0e280183b25f698b83f820c7d4f69ea4d5",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-27T15:56:01.122960+00:00"
+      },
+      {
+        "sourceJSON": "2026-11-27-unit211-Phi-zero-monic-twelve-original-four-rows-and-heads-exact-input-8542.json",
+        "sourceJSONSha256": "e1263fa8c00162a0e9144163c7417d7f603206c235079cda7df92919264b7404",
+        "originalHeadHashes": [
+          "fd3c82df65ec85ccdd5d40ef1f93a115b5f34a0637073a1fbf3c83a0b6e0aa0d",
+          "4406b4db3ef1c44adf686960f9caafddf42a64afc6fe27fe73cd47ebc9c02e0e",
+          "db5b53eaf874f9d3b6924edafe79aa6e19080855dfd34a49da9cb8ee0cba9aa6",
+          "e69b7a64074b7596e43ca5a97060c5032ef63b4ca9870cc63900444d0d50309d"
+        ],
+        "degrees": [
+          [
+            6,
+            4
+          ],
+          [
+            11,
+            6
+          ],
+          [
+            13,
+            7
+          ],
+          [
+            9,
+            5
+          ]
+        ],
+        "noOriginalRowsOrCofactorsRecomputed": true,
+        "stage": "new_exact_four_original_weight_heads_loaded",
+        "seconds": 0.004428071999996064
+      },
+      {
+        "rows": [
+          0,
+          1
+        ],
+        "fixedQDegrees": [
+          4,
+          6
+        ],
+        "matrixSize": 10,
+        "projection": {
+          "degree": 47,
+          "sha256": "a1c33f5d55c109624461686b32cbe4001241403e50d569a58c0bb703cb321224"
+        },
+        "everyExactDivisionMultipliedBack": true,
+        "allQLeadingZeroFibersRetained": true,
+        "stage": "new_fixed_original_head_Sylvester_Q_projection",
+        "seconds": 0.009521067999997967
+      },
+      {
+        "rows": [
+          0,
+          2
+        ],
+        "fixedQDegrees": [
+          4,
+          7
+        ],
+        "matrixSize": 11,
+        "projection": {
+          "degree": 58,
+          "sha256": "8a8f022fe1fa7b5f9a02fc9a9fb65d884924088984c28f731e6e8942d1e68def"
+        },
+        "everyExactDivisionMultipliedBack": true,
+        "allQLeadingZeroFibersRetained": true,
+        "stage": "new_fixed_original_head_Sylvester_Q_projection",
+        "seconds": 0.015865673999996943
+      },
+      {
+        "rows": [
+          0,
+          3
+        ],
+        "fixedQDegrees": [
+          4,
+          5
+        ],
+        "matrixSize": 9,
+        "projection": {
+          "degree": 41,
+          "sha256": "a57fab9f58f4f37611ecf9ab1bb44de22e7f8afb157dd2b77d3bad2abf9b9a34"
+        },
+        "everyExactDivisionMultipliedBack": true,
+        "allQLeadingZeroFibersRetained": true,
+        "stage": "new_fixed_original_head_Sylvester_Q_projection",
+        "seconds": 0.018206230999993522
+      },
+      {
+        "cover": {
+          "degree": 38,
+          "sha256": "2a938ab00a1874470397980e011987f8ac864e17c7257f6b05c90d8c819f375b",
+          "coefficientsAscending": [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "-34992/1447",
+            "709560/1447",
+            "-6899796/1447",
+            "42764301/1447",
+            "-3031095123/23152",
+            "20406663557/46304",
+            "-216746348763/185216",
+            "465269804149/185216",
+            "-821019319521/185216",
+            "1204734943427/185216",
+            "-740695152889/92608",
+            "766865639187/92608",
+            "-669991581929/92608",
+            "493912224957/92608",
+            "-612968148847/185216",
+            "318577234161/185216",
+            "-137575520749/185216",
+            "48783543711/185216",
+            "-3490595453/46304",
+            "786403001/46304",
+            "-67126095/23152",
+            "2040269/5788",
+            "-157377/5788",
+            "1"
+          ]
+        },
+        "irreducibleFactors": [
+          {
+            "polynomial": "x",
+            "multiplicity": 15,
+            "coefficientsAscending": [
+              "0",
+              "1"
+            ]
+          },
+          {
+            "polynomial": "23152*x^10 + (-293804)*x^9 + 1660962*x^8 + (-5509191)*x^7 + 11867209*x^6 + (-17333916)*x^5 + 17377608*x^4 + (-11812736)*x^3 + 5228032*x^2 + (-1373184)*x + 165888",
+            "multiplicity": 1,
+            "coefficientsAscending": [
+              "165888",
+              "-1373184",
+              "5228032",
+              "-11812736",
+              "17377608",
+              "-17333916",
+              "11867209",
+              "-5509191",
+              "1660962",
+              "-293804",
+              "23152"
+            ]
+          },
+          {
+            "polynomial": "2*x + (-3)",
+            "multiplicity": 3,
+            "coefficientsAscending": [
+              "-3",
+              "2"
+            ]
+          },
+          {
+            "polynomial": "x + (-1)",
+            "multiplicity": 10,
+            "coefficientsAscending": [
+              "-1",
+              "1"
+            ]
+          }
+        ],
+        "completeQQFactorProductReturned": true,
+        "stage": "new_exact_common_u_cover",
+        "seconds": 0.018756940999992366
+      },
+      {
+        "phi": "x",
+        "excluded": true,
+        "reason": "actual original u*(u-1) unit is identically zero",
+        "stage": "exact_u_fiber_is_original_unit_zero",
+        "seconds": 0.01890268399999684
+      },
+      {
+        "elapsed_seconds": 0.09310811899999294,
+        "max_child_rss_kib": 39144,
+        "ordinary_isp_claim": false,
+        "rules_reads": [
+          {
+            "after": "bc8bbd0e280183b25f698b83f820c7d4f69ea4d5",
+            "before": "bc8bbd0e280183b25f698b83f820c7d4f69ea4d5",
+            "rules_git_blobs": {
+              "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+              "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+            },
+            "rules_unchanged": true,
+            "utc": "2026-11-27T15:56:01.122960+00:00"
+          }
+        ],
+        "run_attempt": "1",
+        "run_id": "46029191589",
+        "schema": "isp-frozen-exact-actions-execution-v1",
+        "session": "Astra-ISP-8542378f-20261127",
+        "source_commit": "bc8bbd0e280183b25f698b83f820c7d4f69ea4d5",
+        "source_exit_code": 1,
+        "source_git_blob": "5524e28cbe4ac56b0f98fede16ea961d3ee52471",
+        "source_sha256": "4e84ea1645d37599f5304c2ef0da67342f7f8f8a6fd4583b999bae97af23e73a",
+        "stdout_bytes": 3769,
+        "stdout_sha256": "a6258e8cb448db309c460b39405b00b98d9075d58eb2602f871fbcf18a84e266",
+        "stop_reason": null
+      }
+    ],
+    "traceback": [
+      "2026-11-27T15:56:01.2075869Z Traceback (most recent call last):",
+      "2026-11-27T15:56:01.2083997Z   File \"/home/runner/work/_temp/isp-equal-six-source.py\", line 224, in <module>",
+      "2026-11-27T15:56:01.2086699Z   File \"/home/runner/work/_temp/isp-equal-six-source.py\", line 214, in xgcd",
+      "2026-11-27T15:56:01.2088005Z   File \"/home/runner/work/_temp/isp-equal-six-source.py\", line 207, in divrem",
+      "2026-11-27T15:56:01.2088422Z     assert add(mul(q,b),a)==original",
+      "2026-11-27T15:56:01.2088943Z AssertionError"
+    ],
+    "implementation_failure": true,
+    "full_common_u_projection_already_returned": true,
+    "complete_head_zero_exclusion_not_returned": true
+  },
+  "two_boundary_fibers": {
+    "records": [
+      {
+        "after": "af908a30493ba0d4f0b9061113e00bccc922f5ab",
+        "before": "af908a30493ba0d4f0b9061113e00bccc922f5ab",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-27T15:57:37.364998+00:00"
+      },
+      {
+        "fiber": "lambda_half",
+        "phiCoefficients": [
+          "-1/2",
+          "1"
+        ],
+        "originalRhoDegrees": [
+          26,
+          31,
+          34
+        ],
+        "residualRhoDegrees": [
+          23,
+          28,
+          31
+        ],
+        "removedOnlyActualOriginalRhoUnitFactors": [
+          [
+            "Q_rho_minus1",
+            "Q_rho_minus1",
+            "Q_rho_minus1"
+          ],
+          [
+            "Q_rho_minus1",
+            "Q_rho_minus1",
+            "Q_rho_minus1"
+          ],
+          [
+            "Q_rho_minus1",
+            "Q_rho_minus1",
+            "Q_rho_minus1"
+          ]
+        ],
+        "allExactDivisionsMultipliedBack": true,
+        "stage": "new_entire_QQ_parameter_fiber_original_unit_divisions",
+        "seconds": 0.04435356799999113
+      },
+      {
+        "elapsed_seconds": 0.09460623199998963,
+        "max_child_rss_kib": 38740,
+        "ordinary_isp_claim": false,
+        "rules_reads": [
+          {
+            "after": "af908a30493ba0d4f0b9061113e00bccc922f5ab",
+            "before": "af908a30493ba0d4f0b9061113e00bccc922f5ab",
+            "rules_git_blobs": {
+              "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+              "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+            },
+            "rules_unchanged": true,
+            "utc": "2026-11-27T15:57:37.364998+00:00"
+          }
+        ],
+        "run_attempt": "1",
+        "run_id": "46029422334",
+        "schema": "isp-frozen-exact-actions-execution-v1",
+        "session": "Astra-ISP-8542378f-20261127",
+        "source_commit": "af908a30493ba0d4f0b9061113e00bccc922f5ab",
+        "source_exit_code": 1,
+        "source_git_blob": "95ddc52206b638ca58af96e00903ab75021b66ef",
+        "source_sha256": "4d64bef7444665fede3f45925c30c6aca3fba5fafd314f3d4bc7a3d22d84bed7",
+        "stdout_bytes": 800,
+        "stdout_sha256": "cd3db159c693622120349505d28084668e9b4c34c600b170f8580007f3c8b062",
+        "stop_reason": null
+      }
+    ],
+    "traceback": [
+      "2026-11-27T15:57:37.4513362Z Traceback (most recent call last):",
+      "2026-11-27T15:57:37.4519527Z   File \"/home/runner/work/_temp/isp-equal-six-source.py\", line 182, in <module>",
+      "2026-11-27T15:57:37.4520591Z   File \"/home/runner/work/_temp/isp-equal-six-source.py\", line 176, in red",
+      "2026-11-27T15:57:37.4520978Z     assert ma(mm(q,mf),a)==olda",
+      "2026-11-27T15:57:37.4521386Z AssertionError"
+    ],
+    "implementation_failure": true,
+    "lambda_half_original_rho_unit_divisions_returned": true,
+    "complete_fiber_exclusion_not_returned": true
+  },
+  "source_mutation_policy": "both original sources and actual failures frozen; only list snapshot copies changed in new immutable sources",
+  "resource_increase": false,
+  "ordinary_isp_claim": false
+}
