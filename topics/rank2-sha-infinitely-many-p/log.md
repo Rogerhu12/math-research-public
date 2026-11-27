@@ -435,5 +435,8 @@ R1016单一特征零全precision trace登记：完整13项/Miller尺度、增长
 2026-11-27 02:25 UTC / Astra-rank2-Sha-0b097461-20261127
 R1014完整cofinite Tate与新MW格登记。先核作者主页更正Guo–Yang仍为预印本，未把它当已发表输入；另自给原族的conormal/Serre周期证明和四次全局Weil吹起图，真正支付HYZ已发表TheoremB全部假设。全NS/Artin–Tate/两Frob方向及原54图整交保持；小q仍条件，截面实际值/普通局部非零继续。H逐字归档，主目标未完成。
 
-2026-11-27 02:39 UTC / Astra-rank2-Sha-0b097461-20261127
+2026-11-27 02:38 UTC / Astra-rank2-Sha-0b097461-20261127
 R1016 §9完整两gauge/短余band登记：从原V_N逐式证明E的全部系数、Lucas跨p退化、实际p-basis与全权Cartier。核点在全部n≤H(p+1)前缀逐点相消，仍不向译像赋canonical零。另读取唯一v9真实首段：306行Frobenius已在约1.78秒完成，末尾为正首块Hermite272/306；未记四交/全Norm/shadow PASS。H完整归档后压缩重复旧式，原未解门持续。
+
+2026-11-27 02:39 UTC / Astra-rank2-Sha-0b097461-20261127
+R1015完整十三字的两个显式来源登记：固定核多项式、二倍点映射及规范质量迫q0=σ¹⁰(X+1)，全部12条Miller常数和共轭支Weyl负号保留；实际r=1/(4xx₂)的值及全字比值已证。仅修正(4)乘法排版逗号，未改数学定义。继续实际两source/两gauge强迫，不以又一个来源改写收尾。
