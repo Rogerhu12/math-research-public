@@ -15,3 +15,9 @@
 ## 2026-11-27 23:21 UTC — 第53批完整旧生成元数据退存
 
 按[全总表](computations/legacy-native-generated-metadata-retention-53-complete-delivery.json)逐项fresh blob/size核28旧对象，毛2064122B；4完整新件241289B，主体净1822833B。固定原字恢复6fc35cce76db25916e359b8a0345620cb527857e，24源/11run全请求参数资源/6workflow/原失败与未知保，17未知whole SHA不补造；两52,899B canonical全身份及parent91完整旧模型绑定留树。所有raw数组/checkpoint/源/config/proof/活资料不动，旧consumer全守卫不缩、重用前精确恢复旧文件。未科学/AST/解压/重跑。H此前完整固定a02b后整理，非丢历史；上一条宽度分析分钟按实际提交23:18订正。双README云核至`61b88fc8044edf2ab4c0f491d763217c0112587e`无变，非pull。
+
+## 2026-11-27 23:21:43 UTC — 20完整normal/geometry/closed后参数落地
+
+刊[完整六件总表](computations/fixed-fejer-bhalf-mu001-R722-complete-post-parameter-delivery.json)与[全说明](notes/2026-11-27-bhalf-mu001-R722-complete-post-parameters.md)。原c6f6/7892/6c57/c6b0/002eb完整源不变，仅20真实namespace与完整科学mu.001投影；38/8/8全argv、36/48/66原selectors及全部预算、normal32/1024整圆/922径向+cuts/六jet/尾/同点/唯一最终主副件与晚失败保。全部19原参数/来源metadata保whole父。没有实际费用/closed证书或新science/AST；未改运行中step。
+
+完整6件共269115B；双README云核至`622ea888f33e11232b0d2fc526ccaea5f2ba72e1`无变（非pull），实际controller真pull见H各槽。
