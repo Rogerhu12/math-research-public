@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R271：一对加四独立完整九维加强 S1](results/R271-appendix-one-pair-four-independent-full-nine-dimensional-strengthened-s1.md)：原三叶 companion 的三 Schur 谱系数在全部五闭域严格正；实际 57.527394568 秒全返回，碰撞由原连续谱覆盖。仍未支付 S2、七位联合或同 W 无限费用。
+
 - [H1同Q原权商≤14、完整规范点≤504](results/R150-appendix-unit211-Phi-zero-H1-same-Q-fourteen-weight-cover-and-504-points.md)：保全部五块的Q4和三原λ结式元素，真实秩均3d；有限整矩阵给通用维数上界，14/252/504不同点界。五块均未全闭，原同λ继续。
 
 - [全余W三生成元：十五行精确原关系表示](results/R150-appendix-unit211-W-global-three-generators-exact-fifteen-original-relations.md)：四个二次矩阵缺陷字面落两comm行，一次15行闭包严格稳定；双向循环模同构精确等于同一六式商，不仅必要环境。同时记录首一λ6实际六系数成功。
