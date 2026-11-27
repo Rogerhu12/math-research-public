@@ -100,3 +100,12 @@ RESULT 8,315 B / SHA-256
 本地仅作AST/JSON/YAML与所有source pin检查；不把这些静态检查记为新数学PASS。新run/source/日志终值须在真实产生后追加。
 
 实际v9已由push触发：run45920983633/job140251398928/source1eeab95eb057de2b6ea6753ff9e36a18bd20bbd2，01:09:56UTC创建；截至01:12UTC checkout及固定镜像成功，原数学step4 in_progress。第一次日志请求返回BlobNotFound，未据此猜数学阶段或PASS。
+
+
+## 6. v9 已取得的真实首段：仍在运行
+
+2026-11-27 02:36 UTC已读取本次真实日志快照，共4,203,353字节，SHA256为32c6c5f3e7526b4f18883a4563b41f7de53159e55bbbb3e5988e2e9a075c1dc3。日志仅在临时工作区；以下均为已输出的实际阶段，不是workflow回显或预测。
+
+01:10:50两份原characteristic-zero PASS完成认证；本次source仍为1eeab95eb057de2b6ea6753ff9e36a18bd20bbd2，wrapper仍为aec8056ca7cda7a6ab60157aeddd1051dc14b18255e15e0749616db9692ddfdc。原完整乘积块于02:23:46.974完成；实际specialised prime Frobenius从02:23:47.001的第1行到02:23:48.778的第306行，elapsed从4376.793到4378.570，native_constant_degree=2。
+
+快照末尾为02:25:13.119，positive/base-prime0/actual maximal ideal0的完整Hermite已到272/306列，remaining_determinant_degree=0。作业仍在运行；这不是四交、全部厚Norm或18×9 shadow最终PASS。继续消费同一个run45920983633/job140251398928，不启动重复重作。

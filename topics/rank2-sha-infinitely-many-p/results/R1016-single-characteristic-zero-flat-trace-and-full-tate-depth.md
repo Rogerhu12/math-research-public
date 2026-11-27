@@ -510,3 +510,221 @@ Hurwitz 代数与原 Newton 尾证明，无数学执行或素数扫描。
 依赖：R602/R614（统一 Hurwitz 与原整窗）；
 R1000（$L_p$）；R1005（原 $\mathcal K,\mathcal C_{130}$）；
 R1012（全字及完整有理 trace）；R1013（全22、全部小边界与两 exact）。
+
+
+## 9. 原权的两个 Frobenius gauge 与显示的窄余带
+
+本节只约化上文同一个(4)的 $V_{N,\pi}$。
+没有将它换成另一个极帽更小的 Padé 权。
+记
+
+$$
+\xi=v_\pi-1,\qquad
+k=Hs=qp+t,\quad0\le t<p,\qquad
+q=\lfloor H/6\rfloor.
+\tag{33}
+$$
+
+最后一个等式由 $H<p$ 及 $s=(p+1)/6$ 得到。
+若 $H=6q+r$、$0\le r<6$，则 $t=q+rs$。
+以下多项式都在 $\mathbf F_p[\xi]$ 内，所有整数二项式按原值约化。
+令
+
+$$
+\begin{aligned}
+Q_k(\xi)&=B_{Hp+H+1,k}(1+\xi),\\
+S_q(\xi)&=\sum_{j=0}^{q}(-1)^j
+             \binom{H+j-1}{j}\xi^j,\\
+C_{H,q}&=\binom{H+q}{q}\in\mathbf F_p^\times.
+\end{aligned}
+\tag{34}
+$$
+
+$H+q<p$，所以最后一个量确为单位；并且
+$S_q(-1)=C_{H,q}$。
+
+### 9.1 唯一的实际余带及其完整系数
+
+原 $a=Hp+H+1$ 给
+
+$$
+(1+\xi)^{H+1}Q_k(\xi)
+\equiv (1+\xi)^{-Hp}
+=S_\infty(\xi)^p\pmod{\xi^{k+1}},
+$$
+
+其中 $S_\infty=(1+\xi)^{-H}$。
+右边到次数 $k$ 的完整截断恰是 $S_q(\xi)^p$。
+所以
+
+$$
+\boxed{
+E_{H,k}(\xi)=
+\frac{(1+\xi)^{H+1}Q_k(\xi)-S_q(\xi)^p}
+     {\xi^{k+1}}
+\in\mathbf F_p[\xi],\qquad \deg E_{H,k}\le H.
+}
+\tag{35}
+$$
+
+这里除以 $\xi^{k+1}$ 已由整条恒等式支付，不是除以 $p$，
+也没有增加未定的余系数。
+它还有完全显示的闭式
+
+$$
+\boxed{
+E_{H,k}(\xi)=(-1)^k C_{H,q}
+ \sum_{\ell=0}^{H}\binom{k+\ell}{\ell}(1+\xi)^\ell.
+}
+\tag{36}
+$$
+
+证明：在 $\xi=-1$ 的参数 $r=1+\xi$ 中，
+$S_q(\xi)^p=C_{H,q}+O(r^p)$；而 $H<p$。
+由(35)模 $r^{H+1}$ 得
+$E_{H,k}\equiv-C_{H,q}\xi^{-k-1}$。
+把 $\xi=-1+r$ 代入并截到次数 $H$，就得到(36)；
+两边次数至多 $H$，所以是整个多项式身份。
+特别
+
+$$
+\boxed{E_{H,k}(-1)=(-1)^k C_{H,q}\ne0.}
+\tag{37}
+$$
+
+因此这个余带不是可以从核处删掉的误差。
+
+### 9.2 原 V_N 的完整两项返回
+
+定义两个低次数的实际有理函数
+
+$$
+G_0=(1+\xi)^H S_q(\xi),\qquad
+G_1=(1+\xi)^H\xi^q,\qquad
+B_{H,k}=\xi^{t+1}E_{H,k}(\xi).
+\tag{38}
+$$
+
+将(35)乘 $(1+\xi)^{Hp}$，得到同一个原权的完整约化
+
+$$
+\boxed{\overline{V}_{N,\pi}=G_0^p+G_1^p B_{H,k}.}
+\tag{39}
+$$
+
+$G_0,G_1$ 的 $\xi$ 次数至多 $H+q$；
+增长的 $N$ 没有留成一个任意高次数权。
+但(39)的第二项仍是完整的原有理函数，不能只保留 $G_0^p$。
+
+更具体地有两种准确情形。
+
+- 若 $t+H+1<p$，则
+  $\deg E_{H,k}=H$、
+  $\deg B_{H,k}=t+H+1<p$。
+  $B_{H,k}$ 仅有从 $\xi^{t+1}$ 到 $\xi^{t+H+1}$ 的至多 $H+1$ 个槽，
+  全部系数已由(36)指定。
+- 若 $t+H+1\ge p$，置 $d=p-t-1\le H$。
+  Lucas 二项式恒等式逐项给
+  $E_{H,k}=(-1)^{k+d}C_{H,q}\xi^d$，所以
+  $B_{H,k}=(-1)^qC_{H,q}\xi^p$。
+  两项可完全合成
+
+$$
+\boxed{
+\overline V_{N,\pi}
+=\left((1+\xi)^{H+1}
+       B_{H+1,q}(1+\xi)\right)^p
+\quad(t+H+1\ge p).
+}
+\tag{40}
+$$
+
+这恰是 R1013 的 $W_{H,+}^p$。
+证明最后一步用
+$(1+\xi)B_{H+1,q}(1+\xi)
+=S_q(\xi)+(-1)^qC_{H,q}\xi^{q+1}$；
+没有更换原权在特征零中的定义。
+
+在第一种情形，$\xi$ 作为原曲线上的函数 degree 为12：
+它的三个二挠极各为四阶，且没有约分。
+因为 $p>12$，$\xi$ 不是函数域的 $p$ 次幂，
+所以 $1,\xi,\ldots,\xi^{p-1}$ 是一个真实 $p$ 基。
+上述窄带确在这一完整 $p$ 基内。
+若使用该基，仍须保
+$\omega_E=(D\xi)^{-1}d\xi$ 和原 $Z,P_{10}$；
+不能把这个基的坐标直接认成原 $Z$ 的 Taylor 系数。
+
+### 9.3 全 trace 和第一 Cartier，保原两个 frame
+
+令 $\mathfrak f=R_f/R_\pi^{10}$。
+对上文实际 $A_{N,\pi}$ 的约化，(39)直接给
+
+$$
+\boxed{
+\overline A_{N,\pi}
+=\pi^{-10}\operatorname{Tr}_{[\pi]}(G_0^p\mathfrak f)
++\pi^{-10}\operatorname{Tr}_{[\pi]}(G_1^pB_{H,k}\mathfrak f).
+}
+\tag{41}
+$$
+
+所有13项、$\pi^{-10}$、原 Miller 和全部非 principal 字仍在里面。
+例如对原
+
+$$
+\eta_{\pi,b}=Z_\pi^{-b-1}\mathscr P_\pi R_f\omega_E
+$$
+
+及(25)的 $\eta_{N,b}$，整条第一 Cartier 身份为
+
+$$
+\boxed{
+\pi^{b/p}\mathcal C\eta_{N,b}
+=[\pi]_*\left(
+G_0\mathcal C\eta_{\pi,b}
++G_1\mathcal C(B_{H,k}\eta_{\pi,b})
+\right).
+}
+\tag{42}
+$$
+
+这是先用完整
+$[\pi]_*(\overline V_{N,\pi}\eta_{\pi,b})=\pi^b\eta_{N,b}$，
+再用 Cartier 的 $p$ 次幂线性；因此保全部微分 pushforward 的尺度。
+它没有将 $B_{H,k}$ 越过 Cartier，也没有删除第二项的 exact 或局部留数。
+
+### 9.4 最后一块的原核补偿准确相消
+
+(39)的第二项在 $O$ 从 $\xi^{k+1}$ 起，
+即从 $z^{N+6}$ 起；这不表示它在十三核处为零。
+在每个非零 $\pi$ 核点，$1+\xi=v_\pi$ 是一个一阶零。
+$G_0,G_1$ 各恰有 $H$ 阶零。
+由(35)模 $(1+\xi)^{H+1}$，
+
+$$
+\boxed{
+B_{H,k}\equiv-(-1)^qC_{H,q}
+\pmod{(1+\xi)^{H+1}}.
+}
+\tag{43}
+$$
+
+这里用了 $H<p$，因而 $\xi^{-qp}$ 在这个核 jet 中只有常数
+$(-1)^q$。
+
+对整个目标前缀 $n=rp+b\le H(p+1)$，
+若 $r<H$，(42)两项的核零阶已经使它们不贡献所读 $Z^{r-1}$。
+若 $r=H$，则必有 $0\le b\le H$。
+在这些实际低 jet 中，(43)给
+$c_b(B_{H,k}T_Tf)=-(-1)^qC_{H,q}\,c_b(T_Tf)$。
+同时 $G_0,G_1$ 的核首系数分别是
+$C_{H,q}(Dv_\pi(T))^H$ 和
+$(-1)^q(Dv_\pi(T))^H$。
+因此(42)中两个完整核贡献逐个 $T$、逐个 $b\le H$ 相消。
+
+这证明了(39)如何精确补回 R1013 的 $H$ 阶隔核权的最后一块：
+原 kernel 的 $c_b(T_Tf)$ 全部保留，并因实际系数而相消，
+不是因为预先给这些平移赋了 canonical 零。
+它同时给后续使用 R1015 固定字来源时的两个真实 gauge
+和一个确定的窄带输入。
+两 exact、原 $P_{10}$、两个 Gaussian 及(24)的完整精度不由此消失。

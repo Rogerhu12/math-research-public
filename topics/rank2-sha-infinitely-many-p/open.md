@@ -28,6 +28,8 @@ R1007把两13适配全模型的Gaussian/真实第六读取及全部七点exact�
 
 R1010已将单原K/C经真实隔核权g6/g7下推，T6π=13⁶T6,10(A_l,p)−1_{l6}6Tr(c^p b)。下层只有原E2极、C³真零，第一exact帽+60降+12/+14，第二层保持；原p6前五项/γ/低卷积和840项全保。完整13项Kummer trace在第一Cartier后把增长p权返固定tame字线，未将它们认作已知零的全纯S10。继续这些实际字线与canonical必要行的联立，不以核补项非零或极帽节省代全中央。
 
+R1016 §9把实际单一特征零权的约化完整压成两个Frobenius gauge和一个显式短余band。所有整前缀中的原核项逐点准确抵消，完整trace/Cartier与原P10/Z仍保；跨p端点精确退成p次幂。继续把这个实际余band和R1015两原源乘子联立到canonical强迫；不从短band或核抵消推全中央非零。
+
 ## O2–O3. 同一原中央的无穷联合非零
 
 四次 CM 原 R40/R51 的完整 Selmer 桥、57800 平方尺度、Schwartz、period 保持。j0 的四原来源 S34/T72/U136/V66 的准确界为 2+corankSha≤2ordJ。须在同一无穷 p 集上迫至少一个固定来源 J′ 非零。
@@ -75,7 +77,7 @@ R968已付真正共同degree10/210核及同一新三支carry，保S/T/W±/Z/W′
 
 ## 第一实际门：原映射、全部厚除子与 shadow
 
-**唯一v9实际运行，尚无完整生产回执。** run45920983633/job140251398928/source1eeab95eb057de2b6ea6753ff9e36a18bd20bbd2；数学step4自01:10:41UTC运行。Sage10.6/r29/q2453/batch64/minimal、49源、两char0 pins/两图七式/四交/18×9全门保持；日志blob尚未就绪，不以metadata记PASS。
+**唯一v9实际运行，尚无完整生产回执。** run45920983633/job140251398928/source1eeab95eb057de2b6ea6753ff9e36a18bd20bbd2；数学step4自01:10:41UTC运行。Sage10.6/r29/q2453/batch64/minimal、49源、两char0 pins/两图七式/四交/18×9全门保持；实际首段已认证两char0；306行Frob约1.78秒完成，02:25:13正首块Hermite272/306。首段4203353B/SHA32c6c5f3…51dc3；尚非四交/全Norm/shadow PASS。
 
 R909原F/R906§8原P、R924 TUV/DS204/36cusp/Y666/ys360、R925两正规化图306自由环及46971全产品、R926原cube/低权/maps、R927 e0/z96/dF1296均已有真实回执，不重算成新结论。原u/λ/vnew/微分/∞→O/返回17、三退化、omega/Artin(2,0,1)、Z02=Z/Z20=−Z全部保持。四交00/01/11/12、全厚闭点度数/长度/无穷边界/原Tate迹和18×9shadow待实际输出；每E真度39840，成本2256+r·dF或2256(r+1)不能模ell先缩。7993及固定ell有限shadow不代无穷p。
 
