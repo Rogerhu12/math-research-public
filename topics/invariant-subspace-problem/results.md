@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [Q=1−u 已付M原理想DAG与完整物理D分母](results/R150-appendix-unit211-Q1minusU-paid-M-unit-original-DAG-physical-D-denominator.md)：八条清核分母的真实原行、完整Bareiss/Cramer和自由列内取消给p(h)F(u,h)必要覆盖；全部一元/二元零支保留，未判空。
+
 - [一般J=Q完整原D/1身份与F302必要曲线](results/R150-appendix-unit211-general-J-equals-Q-original-D-and-one-F302-cover.md)：全图六规则/18真乘法及8原候选直接目标返回，最终仅余302项曲线；保全部临时主元零面，不宣全闭包或曲线排空。
 
 - [一般J=Q明确三次Bézout与全图六生成](results/R150-appendix-unit211-general-J-equals-Q-global-cubic-cover-and-six-generators.md)：两个实际原子式间写出已付单位恒等式，给全图左逆及六元原规则；完整保留uQ/F11零面，不假设自由或纤维为空。

@@ -49,7 +49,7 @@ rankH3单三jet的全部ess6已闭，末非零Hp原Gaussian/最高/normal给左�
 
 [H非零最高次全分类](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-H-nonzero-highest-weight-cover-and-quadratic-fiber-exclusion.md)与[整个u=Q原返回](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-u-equals-Q-complete-original-exclusion.md)已支付H、u−Q；C9、u半与整图三次覆盖现见下方更新。旧180秒参数cofactor、76.992秒展开trace及F3/F95未决门全部冻结，精确失败保归档，不重跑。
 
-**Q=1−u边界：** 原小面T0/h2、Kz0、ell半、G2及此前零面均闭。[严格CRT](results/R150-appendix-unit211-Q1minusU-exact-2265-projection-and-three-multiplicities.md)与[原222权点界](results/R150-appendix-unit211-Q1minusU-original-cofactors-222-degree-h-cover.md)付全部不同复权点≤222、每原商≤6非自由；不宣QQgcd恰222或纤维排空。[原D关系门aa7f冻结](notes/2026-11-27-unit211-Q1minusU-original-D-relation-closure-timeout-8542.md)：120.083406秒/127220KiB/−14，最后仅六主元、无闭包/最终D。旧85/58 QQ门和未知b830均不重跑。新已付M线性单位的原模核/DAG输入82e8aa97保全图清分母与原六式来源，接完整D目标。
+**Q=1−u仍余至多222个不同复权点，原商≤6非自由。** [新已付M原行DAG/D返回](results/R150-appendix-unit211-Q1minusU-paid-M-unit-original-DAG-physical-D-denominator.md)实际给必要p(h)F(u,h)=0，其中p=(2h−1)(h²−3h+1)J7、F双度37/76共2487项；八条新原行、七个完整Bareiss行列式、取消后六列及实际D来源均乘回（82e8aa97，26.002秒/exit0）。全部p零支和F曲线保留，接固定p·Res_u(Ch,F)与已付局部整首一R0/222的Gauss返回。旧85/58/aa7f失败及未知b830均冻结，来源与未闭零面保正文/归档。
 
 **[整个一般等权b=c原支已闭](results/R150-appendix-unit211-equal-weights-complete-original-exclusion.md)。** 全部旧边界、全图六生成元、原824次QQ覆盖及F236/F243完整原Gauss返回合最后整m=−1/2的原QQ Bézout1，排全部复参数；负半权源5063af65实跑0.315秒/exit0。一般余图现可付ell−u，在W0中进一步付k+2、Q−2。旧QQ600秒门保持冻结；不重做等权，直接继续一般不等权的原NSPS/Dval与全部未付零面。
 

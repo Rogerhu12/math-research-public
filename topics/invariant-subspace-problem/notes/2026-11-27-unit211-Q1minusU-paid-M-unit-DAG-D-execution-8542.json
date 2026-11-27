@@ -1,0 +1,829 @@
+{
+  "schema": "isp-Qboundary-M-unit-original-DAG-D-return-v1",
+  "run_id": 45970063583,
+  "job_id": 140408064799,
+  "execution": {
+    "elapsed_seconds": 26.001595103,
+    "max_child_rss_kib": 73200,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "e682bc638d1b50e010de0f0e71eb2b7ada0597ab",
+        "before": "e682bc638d1b50e010de0f0e71eb2b7ada0597ab",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-27T09:00:27.243291+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "45970063583",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "e682bc638d1b50e010de0f0e71eb2b7ada0597ab",
+    "source_exit_code": 0,
+    "source_git_blob": "9061e8b44f92c2fa18ce5b0f016498e9c9eb2507",
+    "source_sha256": "82e8aa973c34c228e16fb4ec0e1cdda882f17c01fddc9909b8283600dea90b45",
+    "stdout_bytes": 20310,
+    "stdout_sha256": "b0b6b46add67a1fed3acf243e16e55f969749b71f9bad552441cd2135c3c16c6",
+    "stop_reason": null
+  },
+  "dag_roots": {
+    "stage": "new_Qboundary_unit_source_DAG_roots",
+    "roots": [
+      {
+        "originalRow": 0,
+        "label": "remaining_cubic_1",
+        "uPowerDivided": 13,
+        "scalar": "512"
+      },
+      {
+        "originalRow": 1,
+        "label": "remaining_cubic_3",
+        "uPowerDivided": 11,
+        "scalar": "256"
+      },
+      {
+        "originalRow": 2,
+        "label": "NS",
+        "uPowerDivided": 15,
+        "scalar": "8192"
+      },
+      {
+        "originalRow": 3,
+        "label": "PS",
+        "uPowerDivided": 15,
+        "scalar": "8192"
+      },
+      {
+        "originalRow": 4,
+        "label": "remaining_cubic_1*x",
+        "uPowerDivided": 20,
+        "scalar": "32768"
+      },
+      {
+        "originalRow": 5,
+        "label": "remaining_cubic_1*y",
+        "uPowerDivided": 18,
+        "scalar": "8192"
+      },
+      {
+        "originalRow": 6,
+        "label": "remaining_cubic_1*t",
+        "uPowerDivided": 20,
+        "scalar": "16384"
+      },
+      {
+        "originalRow": 7,
+        "label": "remaining_cubic_3*x",
+        "uPowerDivided": 18,
+        "scalar": "16384"
+      },
+      {
+        "originalRow": 8,
+        "label": "remaining_cubic_3*y",
+        "uPowerDivided": 16,
+        "scalar": "4096"
+      },
+      {
+        "originalRow": 9,
+        "label": "remaining_cubic_3*t",
+        "uPowerDivided": 18,
+        "scalar": "8192"
+      }
+    ],
+    "allOriginalSixEquationTagsAlreadyMultipliedBackInThisBuild": true,
+    "allSixColumnHMapsAndOnlyPaidUDivisionsMultipliedBack": true,
+    "seconds": 2.2227307580000115
+  },
+  "target": {
+    "stage": "new_Qboundary_unit_source_actual_D_target",
+    "originalSixEquationIdentityMultipliedBack": true,
+    "originalWeightDenominatorPaid": true,
+    "uPowerDivided": 6,
+    "nonzeroConstantScale": "256",
+    "actualTargetAtOriginalPointIsPaidNonzeroMultipleOfDphysical": true,
+    "seconds": 2.262329034000004
+  },
+  "unit": {
+    "stage": "new_Qboundary_paid_linear_unit_input",
+    "unit": "M",
+    "unitCoefficients": [
+      "x^2",
+      "(-1)*x^2 + 2*x + (-1)"
+    ],
+    "allPrimitiveUnitAndOriginalMapProductsVerified": true,
+    "wholeChartKeptWhenAnyUnivariateKernelPivotVanishes": true,
+    "seconds": 2.2627268670000262
+  },
+  "kernel": {
+    "stage": "new_Qboundary_exact_QQh_unit_kernel",
+    "unit": "M",
+    "rank": 2,
+    "kernelRows": 8,
+    "allSixActualQuotientFieldColumnProductsMultipliedBack": true,
+    "allKernelCoefficientsClearedToQQhPolynomials": true,
+    "seconds": 2.3048697660000244
+  },
+  "new_rows": [
+    {
+      "stage": "new_Qboundary_actual_paid_unit_quotient_row",
+      "unit": "M",
+      "kernelOrigin": 5,
+      "clearedCoefficientDegree": 9,
+      "onlyPaidRowDivisorFactorization": {
+        "content": "1",
+        "factors": [
+          {
+            "degrees": [
+              1,
+              2
+            ],
+            "totalDegree": 3,
+            "terms": 4,
+            "multiplicity": 1,
+            "sha256": "cebbad9a040e3b36cfa82af401d6a24fb588e4f90ca9ab63c3f21c2319939582",
+            "coefficients_u_h": [
+              [
+                1,
+                2,
+                "1"
+              ],
+              [
+                0,
+                2,
+                "-1"
+              ],
+              [
+                0,
+                1,
+                "2"
+              ],
+              [
+                0,
+                0,
+                "-1"
+              ]
+            ]
+          }
+        ],
+        "entireFactorProductMultipliedBack": true
+      },
+      "removedPaidRowFactors": [],
+      "constantScale": "1",
+      "sixColumnIdentitySHA256": "a91ba7b4792c034fc35d6059fda8a4d8dbaf82282ef360ad3704e401714d44b7",
+      "rowDegrees": [
+        13,
+        21
+      ],
+      "rowTerms": 1458,
+      "allSixPolynomialDAGEdgeIdentitiesMultipliedBack": true,
+      "noUnpaidKernelPivotDividedOnOriginalChart": true,
+      "seconds": 2.322282056000006
+    },
+    {
+      "stage": "new_Qboundary_actual_paid_unit_quotient_row",
+      "unit": "M",
+      "kernelOrigin": 8,
+      "clearedCoefficientDegree": 10,
+      "onlyPaidRowDivisorFactorization": {
+        "content": "1",
+        "factors": [
+          {
+            "degrees": [
+              1,
+              2
+            ],
+            "totalDegree": 3,
+            "terms": 4,
+            "multiplicity": 1,
+            "sha256": "cebbad9a040e3b36cfa82af401d6a24fb588e4f90ca9ab63c3f21c2319939582",
+            "coefficients_u_h": [
+              [
+                1,
+                2,
+                "1"
+              ],
+              [
+                0,
+                2,
+                "-1"
+              ],
+              [
+                0,
+                1,
+                "2"
+              ],
+              [
+                0,
+                0,
+                "-1"
+              ]
+            ]
+          }
+        ],
+        "entireFactorProductMultipliedBack": true
+      },
+      "removedPaidRowFactors": [],
+      "constantScale": "1",
+      "sixColumnIdentitySHA256": "f906979e989e7be599a656b25facccd949f94b9a92c5042a9483e97c50f0e92d",
+      "rowDegrees": [
+        13,
+        22
+      ],
+      "rowTerms": 1539,
+      "allSixPolynomialDAGEdgeIdentitiesMultipliedBack": true,
+      "noUnpaidKernelPivotDividedOnOriginalChart": true,
+      "seconds": 2.340499259000012
+    },
+    {
+      "stage": "new_Qboundary_actual_paid_unit_quotient_row",
+      "unit": "M",
+      "kernelOrigin": 6,
+      "clearedCoefficientDegree": 14,
+      "onlyPaidRowDivisorFactorization": {
+        "content": "1",
+        "factors": [
+          {
+            "degrees": [
+              1,
+              2
+            ],
+            "totalDegree": 3,
+            "terms": 4,
+            "multiplicity": 1,
+            "sha256": "cebbad9a040e3b36cfa82af401d6a24fb588e4f90ca9ab63c3f21c2319939582",
+            "coefficients_u_h": [
+              [
+                1,
+                2,
+                "1"
+              ],
+              [
+                0,
+                2,
+                "-1"
+              ],
+              [
+                0,
+                1,
+                "2"
+              ],
+              [
+                0,
+                0,
+                "-1"
+              ]
+            ]
+          }
+        ],
+        "entireFactorProductMultipliedBack": true
+      },
+      "removedPaidRowFactors": [],
+      "constantScale": "1",
+      "sixColumnIdentitySHA256": "2f64c5b3bd2fe81f27cea40ba52b74056c3da305e23a98dba8add36455372ea8",
+      "rowDegrees": [
+        15,
+        27
+      ],
+      "rowTerms": 2077,
+      "allSixPolynomialDAGEdgeIdentitiesMultipliedBack": true,
+      "noUnpaidKernelPivotDividedOnOriginalChart": true,
+      "seconds": 2.365198518999989
+    },
+    {
+      "stage": "new_Qboundary_actual_paid_unit_quotient_row",
+      "unit": "M",
+      "kernelOrigin": 2,
+      "clearedCoefficientDegree": 15,
+      "onlyPaidRowDivisorFactorization": {
+        "content": "1",
+        "factors": [
+          {
+            "degrees": [
+              1,
+              2
+            ],
+            "totalDegree": 3,
+            "terms": 4,
+            "multiplicity": 1,
+            "sha256": "cebbad9a040e3b36cfa82af401d6a24fb588e4f90ca9ab63c3f21c2319939582",
+            "coefficients_u_h": [
+              [
+                1,
+                2,
+                "1"
+              ],
+              [
+                0,
+                2,
+                "-1"
+              ],
+              [
+                0,
+                1,
+                "2"
+              ],
+              [
+                0,
+                0,
+                "-1"
+              ]
+            ]
+          }
+        ],
+        "entireFactorProductMultipliedBack": true
+      },
+      "removedPaidRowFactors": [],
+      "constantScale": "18",
+      "sixColumnIdentitySHA256": "07ac06ecfa59be7a4b653205f7f01736734c27c9f4f337753b2a8bed80ee0918",
+      "rowDegrees": [
+        13,
+        29
+      ],
+      "rowTerms": 2081,
+      "allSixPolynomialDAGEdgeIdentitiesMultipliedBack": true,
+      "noUnpaidKernelPivotDividedOnOriginalChart": true,
+      "seconds": 2.393612908000023
+    },
+    {
+      "stage": "new_Qboundary_actual_paid_unit_quotient_row",
+      "unit": "M",
+      "kernelOrigin": 3,
+      "clearedCoefficientDegree": 15,
+      "onlyPaidRowDivisorFactorization": {
+        "content": "1",
+        "factors": [
+          {
+            "degrees": [
+              1,
+              2
+            ],
+            "totalDegree": 3,
+            "terms": 4,
+            "multiplicity": 1,
+            "sha256": "cebbad9a040e3b36cfa82af401d6a24fb588e4f90ca9ab63c3f21c2319939582",
+            "coefficients_u_h": [
+              [
+                1,
+                2,
+                "1"
+              ],
+              [
+                0,
+                2,
+                "-1"
+              ],
+              [
+                0,
+                1,
+                "2"
+              ],
+              [
+                0,
+                0,
+                "-1"
+              ]
+            ]
+          }
+        ],
+        "entireFactorProductMultipliedBack": true
+      },
+      "removedPaidRowFactors": [],
+      "constantScale": "18",
+      "sixColumnIdentitySHA256": "8014aba9415208c09a2003d987039c06ebc9b6b775a3ac5ce218bdbe1755c6c6",
+      "rowDegrees": [
+        13,
+        29
+      ],
+      "rowTerms": 2093,
+      "allSixPolynomialDAGEdgeIdentitiesMultipliedBack": true,
+      "noUnpaidKernelPivotDividedOnOriginalChart": true,
+      "seconds": 2.421974017000025
+    },
+    {
+      "stage": "new_Qboundary_actual_paid_unit_quotient_row",
+      "unit": "M",
+      "kernelOrigin": 9,
+      "clearedCoefficientDegree": 15,
+      "onlyPaidRowDivisorFactorization": {
+        "content": "1",
+        "factors": [
+          {
+            "degrees": [
+              1,
+              2
+            ],
+            "totalDegree": 3,
+            "terms": 4,
+            "multiplicity": 1,
+            "sha256": "cebbad9a040e3b36cfa82af401d6a24fb588e4f90ca9ab63c3f21c2319939582",
+            "coefficients_u_h": [
+              [
+                1,
+                2,
+                "1"
+              ],
+              [
+                0,
+                2,
+                "-1"
+              ],
+              [
+                0,
+                1,
+                "2"
+              ],
+              [
+                0,
+                0,
+                "-1"
+              ]
+            ]
+          }
+        ],
+        "entireFactorProductMultipliedBack": true
+      },
+      "removedPaidRowFactors": [],
+      "constantScale": "1",
+      "sixColumnIdentitySHA256": "e06ad2fe4cd42dccee39e49e21705210f139e530da1b9d4aa6fa7d7f5448d1bc",
+      "rowDegrees": [
+        15,
+        28
+      ],
+      "rowTerms": 2165,
+      "allSixPolynomialDAGEdgeIdentitiesMultipliedBack": true,
+      "noUnpaidKernelPivotDividedOnOriginalChart": true,
+      "seconds": 2.4477025690000005
+    },
+    {
+      "stage": "new_Qboundary_actual_paid_unit_quotient_row",
+      "unit": "M",
+      "kernelOrigin": 4,
+      "clearedCoefficientDegree": 16,
+      "onlyPaidRowDivisorFactorization": {
+        "content": "1",
+        "factors": [
+          {
+            "degrees": [
+              1,
+              2
+            ],
+            "totalDegree": 3,
+            "terms": 4,
+            "multiplicity": 1,
+            "sha256": "cebbad9a040e3b36cfa82af401d6a24fb588e4f90ca9ab63c3f21c2319939582",
+            "coefficients_u_h": [
+              [
+                1,
+                2,
+                "1"
+              ],
+              [
+                0,
+                2,
+                "-1"
+              ],
+              [
+                0,
+                1,
+                "2"
+              ],
+              [
+                0,
+                0,
+                "-1"
+              ]
+            ]
+          }
+        ],
+        "entireFactorProductMultipliedBack": true
+      },
+      "removedPaidRowFactors": [],
+      "constantScale": "1",
+      "sixColumnIdentitySHA256": "0e4785a6ec69eca84b93520f8e3e64e1b6a925916a057aa5bdbd5b3c1914e2b4",
+      "rowDegrees": [
+        16,
+        29
+      ],
+      "rowTerms": 2299,
+      "allSixPolynomialDAGEdgeIdentitiesMultipliedBack": true,
+      "noUnpaidKernelPivotDividedOnOriginalChart": true,
+      "seconds": 2.4746336570000267
+    },
+    {
+      "stage": "new_Qboundary_actual_paid_unit_quotient_row",
+      "unit": "M",
+      "kernelOrigin": 7,
+      "clearedCoefficientDegree": 17,
+      "onlyPaidRowDivisorFactorization": {
+        "content": "1",
+        "factors": [
+          {
+            "degrees": [
+              1,
+              2
+            ],
+            "totalDegree": 3,
+            "terms": 4,
+            "multiplicity": 1,
+            "sha256": "cebbad9a040e3b36cfa82af401d6a24fb588e4f90ca9ab63c3f21c2319939582",
+            "coefficients_u_h": [
+              [
+                1,
+                2,
+                "1"
+              ],
+              [
+                0,
+                2,
+                "-1"
+              ],
+              [
+                0,
+                1,
+                "2"
+              ],
+              [
+                0,
+                0,
+                "-1"
+              ]
+            ]
+          }
+        ],
+        "entireFactorProductMultipliedBack": true
+      },
+      "removedPaidRowFactors": [],
+      "constantScale": "1",
+      "sixColumnIdentitySHA256": "b04c784a68e768cb32f054598e735a041641ed893afdd5c34f4ceda950d87eb0",
+      "rowDegrees": [
+        16,
+        30
+      ],
+      "rowTerms": 2391,
+      "allSixPolynomialDAGEdgeIdentitiesMultipliedBack": true,
+      "noUnpaidKernelPivotDividedOnOriginalChart": true,
+      "seconds": 2.5028386939999905
+    }
+  ],
+  "selected": {
+    "stage": "new_Qboundary_unit_saturated_actual_basis_selected",
+    "selectedRows": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "derivedRowIndices": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "selectionSampleModulo1009": [
+      2,
+      506
+    ],
+    "sampleUsedOnlyForChoosingIndicesNotForQQExclusion": true,
+    "seconds": 2.5480418180000015
+  },
+  "cramer": [
+    {
+      "stage": "new_Qboundary_fraction_free_actual_D_adjugate_row",
+      "row": 0,
+      "numeratorDegrees": [
+        65,
+        141
+      ],
+      "seconds": 8.984456769000019
+    },
+    {
+      "stage": "new_Qboundary_fraction_free_actual_D_adjugate_row",
+      "row": 1,
+      "numeratorDegrees": [
+        65,
+        140
+      ],
+      "seconds": 11.435046496999973
+    },
+    {
+      "stage": "new_Qboundary_fraction_free_actual_D_adjugate_row",
+      "row": 2,
+      "numeratorDegrees": [
+        63,
+        135
+      ],
+      "seconds": 13.801146146000008
+    },
+    {
+      "stage": "new_Qboundary_fraction_free_actual_D_adjugate_row",
+      "row": 3,
+      "numeratorDegrees": [
+        65,
+        135
+      ],
+      "seconds": 17.021433521000006
+    },
+    {
+      "stage": "new_Qboundary_fraction_free_actual_D_adjugate_row",
+      "row": 4,
+      "numeratorDegrees": [
+        65,
+        135
+      ],
+      "seconds": 20.738280314000008
+    },
+    {
+      "stage": "new_Qboundary_fraction_free_actual_D_adjugate_row",
+      "row": 5,
+      "numeratorDegrees": [
+        63,
+        135
+      ],
+      "seconds": 24.452718396000023
+    }
+  ],
+  "final": {
+    "stage": "new_Qboundary_complete_unit_DAG_fraction_free_physical_D_identity",
+    "unit": "M",
+    "initialOriginalSourceRows": 10,
+    "newActualUnitQuotientRows": 8,
+    "allInitialOriginalSixEquationTracesVerified": true,
+    "allDAGEdgesFullSixColumnPolynomialIdentities": true,
+    "wholeOriginalChartIdealMembershipFollowsByExactDAGComposition": true,
+    "onlyDAGDivisorsAreExplicitPreviouslyPaidUnits": true,
+    "allBareissAndAllSixCramerProductsMultipliedBack": true,
+    "commonCancellationMultipliedBackAfterDivisionAtAllParameterPoints": true,
+    "DtargetDiffersFromPaidNonzeroMultipleOfDphysicalByOriginalSixIdeal": true,
+    "denominatorDegrees": [
+      43,
+      101
+    ],
+    "denominatorTotalDegree": 144,
+    "paidRemoved": [
+      [
+        "Q",
+        2
+      ],
+      [
+        "ell",
+        6
+      ],
+      [
+        "M",
+        1
+      ],
+      [
+        "paid_T0_ell_minus_2u",
+        2
+      ],
+      [
+        "paid_Kz_zero_complete",
+        1
+      ],
+      [
+        "selected_quadratic_G2_chart",
+        1
+      ]
+    ],
+    "unpaidNecessaryWeightPolynomial": {
+      "content": "1719926784",
+      "factors": [
+        {
+          "degrees": [
+            0,
+            1
+          ],
+          "totalDegree": 1,
+          "terms": 2,
+          "multiplicity": 1,
+          "sha256": "3ed806e94a0c5af289ad3c6f4e80052bf44e6fe516a16ffe8501753d11d65799",
+          "coefficients_u_h": [
+            [
+              0,
+              1,
+              "2"
+            ],
+            [
+              0,
+              0,
+              "-1"
+            ]
+          ]
+        },
+        {
+          "degrees": [
+            0,
+            2
+          ],
+          "totalDegree": 2,
+          "terms": 3,
+          "multiplicity": 1,
+          "sha256": "b8eae7aed979a3e1fa0096b254cb0b969714e0ba53a9b1480c39780b60a5cd88",
+          "coefficients_u_h": [
+            [
+              0,
+              2,
+              "1"
+            ],
+            [
+              0,
+              1,
+              "-3"
+            ],
+            [
+              0,
+              0,
+              "1"
+            ]
+          ]
+        },
+        {
+          "degrees": [
+            0,
+            7
+          ],
+          "totalDegree": 7,
+          "terms": 8,
+          "multiplicity": 1,
+          "sha256": "1ee875926e23d9b5f07cda09bc1b7236d3be40fa9e930b2a3e137e1f876a1840",
+          "coefficients_u_h": [
+            [
+              0,
+              7,
+              "9"
+            ],
+            [
+              0,
+              6,
+              "-50"
+            ],
+            [
+              0,
+              5,
+              "96"
+            ],
+            [
+              0,
+              4,
+              "-90"
+            ],
+            [
+              0,
+              3,
+              "68"
+            ],
+            [
+              0,
+              2,
+              "-32"
+            ],
+            [
+              0,
+              1,
+              "9"
+            ],
+            [
+              0,
+              0,
+              "-2"
+            ]
+          ]
+        },
+        {
+          "degrees": [
+            37,
+            76
+          ],
+          "totalDegree": 113,
+          "terms": 2487,
+          "multiplicity": 1,
+          "sha256": "26012667236b0929b289f3ee81a501401d4e5bbde39628fe446c3d38ef5b0da3"
+        }
+      ],
+      "entireFactorProductMultipliedBack": true
+    },
+    "necessaryWeightPolynomialSHA256": "ba205542d52a238db364373d91b256264917c39e976cda360609c5605c759716",
+    "denominatorZeroFibresRetained": true,
+    "wholeCurrentQChartExcluded": false,
+    "noFrozenQQProjectionOrFrozenRationalClosureRerun": true,
+    "ordinaryISPClaim": false,
+    "seconds": 25.906816185000025
+  },
+  "end": {
+    "stage": "new_Qboundary_paid_linear_unit_original_D_return_end",
+    "sourceSHA256": "82e8aa973c34c228e16fb4ec0e1cdda882f17c01fddc9909b8283600dea90b45",
+    "peakRssKiB": 73200,
+    "ordinaryISPClaim": false,
+    "seconds": 25.90706603000001
+  }
+}
