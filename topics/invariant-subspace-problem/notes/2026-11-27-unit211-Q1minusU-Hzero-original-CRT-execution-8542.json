@@ -1,0 +1,30 @@
+{
+  "receipt": {
+    "stage": "complete",
+    "scope": "Q=1-u, (2u-1)ell+u=0, y!=1 excluded",
+    "combineWithPaidY1ToExcludeWholeHLine": true,
+    "wholeQBoundaryExcluded": false,
+    "ordinaryISPClaim": false,
+    "wholeCubicQuotient": true,
+    "yGcd": "(y-(4u^2-u+1))^2",
+    "originalXGcd": 1,
+    "coefficientInverseReturns": 55,
+    "polynomialDivisionReturns": 12,
+    "BezoutReturns": 4,
+    "elapsedMs": 1430
+  },
+  "stdoutSha256": "f3a6eec3da47df9547ecea738fb609fa597860c7a63ffc8a4d8cfed8c5e99797",
+  "stdoutBytes": 1812,
+  "sourceSha256": "50a9b96bc3437aeaf9b768dfabcaee0098bfc539e009cd70b3b32df00fdef8a4",
+  "sourceBytes": 21780,
+  "engine": "pure V8 through functions.exec",
+  "sourceActuallyExecuted": true,
+  "sourceBlob": "7948e08773da11d9e04e0074b04499d5d27dc6ce",
+  "parameters": {
+    "Q": "1-u",
+    "ell": "-u/(2u-1)",
+    "y": "not 1",
+    "t": "(2*x+u-1)/u-2*y"
+  },
+  "claim": "This whole H=0 line is excluded after combining the paid y=1 theorem; ordinary ISP remains open."
+}
