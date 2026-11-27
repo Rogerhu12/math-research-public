@@ -6,7 +6,7 @@
 
 ## 规则和全部历史
 
-root最后真实pull/rebase：`eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21 UTC执行环境失联，恢复即真拉取。云核至`8df8765e6c16ac642c1d2e15d0cea4f5ce0850c7`（非pull），双README SHA `581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102` / `3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d`无变。每次真实pull后核差异、至少每小时一次；活10每次pull记末块。私库QUEUE进行中已推`e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`。
+root最后真实pull/rebase：`eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21 UTC执行环境失联，恢复即真拉取。云核至`a3467c4b0ebb02a053e95fbcd05d4975986a8c85`（非pull），双README SHA `581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102` / `3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d`无变。每次真实pull后核差异、至少每小时一次；活10每次pull记末块。私库QUEUE进行中已推`e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`。
 
 科学只本公开仓库Actions；root唯一ref写者，完整结论即普通推；不强推，NFF真终端立即rebase循环。无终端时云普通HEAD保全合并，不冒pull。raw仅runner/scratch，不入Git/Release/artifact、不改名输入；保存完整源、全参数、run/hash。题≤200MB、文件<5MB、MD<100KB、H<10KB、open<30KB；先metadata，不整读≥100KB。令牌仅瞬时CLI。根12禁止独立审核/冻结/AST/fixture/重跑等新门，实际全数学与原完成条件不减。
 
@@ -26,13 +26,13 @@ root最后真实pull/rebase：`eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21
 
 [完整终态](notes/2026-11-27-run11-fixed-reference-word-mismatch-and-publication-failure.md)：46000835895/1、job140511753433在12:53:58 UTC failure。原561 warm返0；5989固定输入6.170325s返1，完整mesh/chart守卫拒/FJroots0、report5149B/3a5506df。随后H≥10KB导致第二步没发布到Git；59783B实际日志区分两因，不能细指某chart词。最后真实pull：12:53:54→`53bd2b68206c65db2449d57b7f8df5c941a3094e`，双README无变。
 
-[原完整输入](notes/2026-11-27-same-run10-fixed-reference-cross-runner-reconstruction.md)及[prepared七upper/完整构造/两全参数](notes/2026-11-27-same-run10-complete-solver-prepared-and-run11-input-failure.md)全存：99角色保原90、原20121B科学后缀；实际没有同g重建、新场/费或完整父。守卫不松、不把160个旧数值输出改名参数，不默认重试旧90。原11尝试queue保，不当活任务。
+[11完整输入/七upper及全参数](notes/2026-11-27-same-run10-complete-solver-prepared-and-run11-input-failure.md)仍存，99角色保原90/原科学后缀；未同g重建、无新场/费/父。守卫不松，旧raw不改名参数、不默认重试。原11尝试queue保，不当活任务。
 
 ## 新固定主线：12完整输入已返，Fejér科学实际运行
 
 [R717完整证明](results/R717-fixed-fejer-seven-mode-chart-and-whole-image-bounds.md)：唯一B=1/4,n=7有理Fejér配方，经逐项RN-even64作准确dyadic图，8…160为+0；完整舍入/ρ正性/Θ闭合/对称和初始X/Y已证。当前157自由core改变后须全重读，初始界不冒当前界，不另开圈图/单cos支线。
 
-[12完整启动](notes/2026-11-27-run12-predetermined-fejer-complete-input-launch.md)：run46011377225/1、job140547455454；maker89cc已真返0/5.893721086s，全四输出及来源齐；新math957cf0fc、NPZb9e12/node1e71/scalar2eb4。[两步真实返回](notes/2026-11-27-run12-actual-fixed-fejer-input-and-reference.md)：reference e717返0/430.2165345s；2218全尾accuracy=false，完整7377观测及H1.947054437068418，model ea64/fulltarget50df/chartaf8ab/ref212e/carrier8406/prepa35e。[九下层](notes/2026-11-27-fixed-fejer-immutable-normal-lower-family.md)与[完整八upper](notes/2026-11-27-fixed-fejer-complete-immutable-point-entry.md)全刊：110源、原20121B科学后缀、153/7argv、383/370摘要与48progress齐，原全部变量/32stage保。原四step全字保d8ff；两输入真返后移出active，现科学477499/pure274d/[全mean-profile](notes/2026-11-27-fixed-fejer-complete-reference-mean-profile-fees.md)三步94986B，全部原参数/32stage保，finish=false。科学3已真启动，14:09:27点7e06/cached578、29640请求/返、failure0，不等于完整首场/接受步；纯读和费用待返。
+[12完整启动](notes/2026-11-27-run12-predetermined-fejer-complete-input-launch.md)：run46011377225/1、job140547455454；maker89cc已真返0/5.893721086s，全四输出及来源齐；新math957cf0fc、NPZb9e12/node1e71/scalar2eb4。[两步真实返回](notes/2026-11-27-run12-actual-fixed-fejer-input-and-reference.md)：reference e717返0/430.2165345s；2218全尾accuracy=false，完整7377观测及H1.947054437068418，model ea64/fulltarget50df/chartaf8ab/ref212e/carrier8406/prepa35e。[九下层](notes/2026-11-27-fixed-fejer-immutable-normal-lower-family.md)与[完整八upper](notes/2026-11-27-fixed-fejer-complete-immutable-point-entry.md)全刊：110源、原20121B科学后缀、153/7argv、383/370摘要与48progress齐，原全部变量/32stage保。原四step全字保d8ff；两输入真返后移出active，现科学477499/pure274d/[全mean-profile](notes/2026-11-27-fixed-fejer-complete-reference-mean-profile-fees.md)三步94986B，全部原参数/32stage保，finish=false。科学3仍未自然返；14:22:49同点7e06记录initial-complete-geometry-returned/cached1448，仅进度，不等于可行/接受或证书；纯读和费用待返。
 
 旧known P0/G/typed及原affine/发现序全部保provenance；新g/new mesh中literal参数若重新解释必须明列reinterpreted、不得称同s/physicalpoint或迁旧值。J同不能冒网格同。原未知末点不造空，也不为跨新g另设前置门。完整新证书从新g支付全域义务。
 
@@ -40,7 +40,7 @@ root最后真实pull/rebase：`eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21
 
 R248只活动像；固定p4需共同R650或全部mixed pairs。均值J≠normal Cu，中央Fss≠K。完整source/参数/全raw端口/signed-u/Cartesian帽/Θ0共轭保固定前H/open及[R716](results/R716-asymmetric-fixed-caps-and-centred-volume-moment.md)。共同正A不是变更g的仿射操作；全upper/lower/缝/两帽和各phase、全变量与准确六jet不可省。
 
-[新Fejér六准确源/两全参数](notes/2026-11-27-fixed-fejer-complete-normal-sixjet-and-continuous-geometry-fees.md)已刊未跑：normal1a915/geometryfcae/bridgeff77，全部1024角胞/32stage/径向/六jet，原38/8argv和36/44selectors全保，仅加4范数读数。10原f7a closed、0aa/920全矩、mesh/t及N4096/J1845/M320完整族仍保固定前H/open，不能冒新目标结果。原e711精化计划不能自动冒新Fejér同g精化。全13成员真final.npz/完整report、独立未标记外管、R716全V/m/Q/正V和非零BeffA2、共同全域β/support/K、整像Hausdorff和working字费用仍欠。
+[新Fejér六准确源/两全参数](notes/2026-11-27-fixed-fejer-complete-normal-sixjet-and-continuous-geometry-fees.md)已刊未跑：normal1a915/geometryfcae/bridgeff77，全部1024角胞/32stage/径向/六jet，原38/8argv和36/44selectors全保，仅加4范数读数。[新完整closed d606](notes/2026-11-27-fixed-fejer-closed-phase-grip-source-adapter.md)及8argv/57读数已刊未跑：全端口/反射/两帽/全phase/整像min/固定grip/共同R650与独立未标记外管保；新全矩与mesh/精化续接。10原全族仍保固定前H/open。原e711精化计划不能自动冒新Fejér同g精化。全13成员真final.npz/完整report、独立未标记外管、R716全V/m/Q/正V和非零BeffA2、共同全域β/support/K、整像Hausdorff和working字费用仍欠。
 
 R717给整像目标全盒min（含z及两帽）和同完整leaf位置盒的D≤2max|F|；后者不把最宽core与最高帽虚拼。都是条件界/实现接口，未有数值。固定握持盘内点/diam.9条件已保，仍需真实D来付.2D；整像.2、含反射δE、全t reach、metric及真实精化未付。继续实际完整求解，不停在这些条件结果上。
 
