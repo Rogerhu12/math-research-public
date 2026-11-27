@@ -6,7 +6,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-s1-three-closed-chambers-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-smooth-core-essential-intertwiners-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -210,9 +210,9 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 全孔 Schur/companion 与原物理伴随已付，仍须先全物理逆后压缩；逐层创新预算不付真实无限carry的 $\sum\langle F_n\xi_n,\xi_n\rangle$ 可和性，同一R来源并非单异常权塔。一般六权/实际RanK*/同W Green与carry费/N=M继续。Haar、稀疏交织、Ky非零像循环与RanJ零交的已成范围保前节；Cy⊥非零、G保N仍开。
 
-[同G临界伴随域](results/R271-appendix-same-right-inverse-adjoint-critical-physical-source-and-exact-range.md)的准确费用保正文。新[原光滑核闭包及边界角](results/R271-appendix-boundary-smooth-kernel-creation-repair-and-faithful-calkin-corners.md)令K∞=closure(M∩E∞)⊂N⊂M：同G修复高位创建的全部carry误差可和，P_K∞与原边界弱零翻转强*渐近交换，C*(UHF,P_K∞)及全部角忠实Calkin。D(G*)∩K∞⊥=RanT*，T*E∞=K∞⊥∩E∞=I∩E∞且闭包恰I；W∩D(G*)=0。P_K∞保E∞、K∞=N/M、真实W源费与RTcut有界子列未付；强*交换不授权无限高位乘积或孔阻尼。
+[同G伴随域](results/R271-appendix-same-right-inverse-adjoint-critical-physical-source-and-exact-range.md)及[光滑核创建/Calkin角](results/R271-appendix-boundary-smooth-kernel-creation-repair-and-faithful-calkin-corners.md)保完整原费用：$K_\infty=\overline{M\cap E_\infty}\subset N\subset M$，$D(G^*)\cap K_\infty^\perp=\operatorname{Ran}T^*$，$T^*E_\infty=K_\infty^\perp\cap E_\infty=I\cap E_\infty$且闭包为$I$，$W\cap D(G^*)=0$。全部原Calkin角忠实；[全幂稠值](results/R271-appendix-smooth-kernel-core-all-powers-dense-range.md)及正半径非恒定解析芽的核$\mathbb Ce_0$保留。[新实际伴随近右逆与交织本质范数](results/R271-appendix-smooth-kernel-all-power-adjoint-return-and-essential-intertwiners.md)：固定$r$同G多位修复付归一化$S_j\to0$强、$S_jS_j^*\to I$强，全部$K_\infty$实际伴随原像弱零且范数≤输入；H/K∞任意$B^r$不变商继承。由这些空间到任意实际边界$B^r$子商的有界交织norm=essnorm，有限矩形放大同；未知M的紧交换子只被迫杀K∞。投影保$E_\infty$、K∞=N/M、同W源费、RTcut有界子列及未归一原像费仍开，不泛化任意解析芽的近右逆。
 
-[光滑核内部全部幂稠值](results/R271-appendix-smooth-kernel-core-all-powers-dense-range.md)：同G真核修复k_j(u)满足N_j k_j=P_j0u−N_j G[T,E_j*]u→u，且每个固定r的原像d_j^-1B^(2^j−r)k_j仍在同一光滑核。于是closure(B^rK∞)=K∞，同u输出误差平方可和但原像费未付；所有非恒定正半径解析芽在K∞上的值域稠密、核恰Ce0。慢T符号不在该解析类；不外推K∞=N/M或每个未知不变限制。
+
 
 [整H265头方向](results/R150-appendix-unit211-W-first-head-entire-curve-projective-direction-and-generic-uniqueness.md)的泛型唯一方向及a0/r1r0零、无穷和重根保留；当前有限原环境见上，不代个别值返回。
 
