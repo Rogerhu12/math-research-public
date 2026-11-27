@@ -147,3 +147,7 @@ AI-assisted GPT-6 Astra Pro：审原Gram重建、weighted N/P→HA/HB原迹、�
 2026-11-27 13:09 Asia/Taipei｜Astra-ISP-8542378f-20261127
 - 新增本题外 .github/workflows/invariant-subspace-W-C9-six-generator-cofactors-8542.yml，运行新的C9图18真乘法/NSPS/comm/参数cofactor，180秒/4GiB；未改变旧成功源，保全部未付零面。
 - 只启动首次新数学输入，状态待实跑；根并行继续整个等权原六列返回。
+
+2026-11-27 13:09 Asia/Taipei｜Astra-ISP-8542378f-20261127
+- 第二原均值首项整支由严格143次QQ覆盖及全部原纤维排除；F4完整正规表示92阶模det773、C32保度原NS返回保全部嵌入。
+- 源e16c5329数学组件全实成，拼装仅语法检查，未增整源回放门槛；继续同一y首一二次和原值余式，普通ISP未完成。

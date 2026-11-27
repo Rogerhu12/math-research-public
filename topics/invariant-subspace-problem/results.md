@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **已证明：** [Q=1−u 的第二原均值首项整支排除](results/R150-appendix-unit211-Q1minusU-second-mean-leading-branch-exclusion.md)：完整143次QQ覆盖、全部首项零域与有限代数正规表示、C32原NS Gauss返回；两条首项整支都闭，剩余原y二次可全域首一化。
+
 - **已证明：** [整个剩余等权图的原六生成元模块](results/R150-appendix-unit211-equal-weights-global-original-six-generator-module.md)：原四二次 cofactor 和真正三次组合的选定头全为已付单位，六条首一规则完整乘回；无需新的零面，不假自由。
 
 - **已证明：** [一般 W/H 非零的原二次头 atlas 与低次 cubic 补图](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-H-nonzero-original-head-atlas.md)：全15+6子式和原组合返回，明确非零图给六生成元；新9项C9取代实跑原选128项头的补图推论，所有首项零面继续。

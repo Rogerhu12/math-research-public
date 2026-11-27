@@ -1,0 +1,135 @@
+{
+  "date": "2026-11-27 Asia/Taipei",
+  "status": "All mathematical component calculations completed; assembled self-contained source syntax-checked, not replayed end-to-end.",
+  "sourceSHA256": "e16c5329e6ff64ce80c2e7ad553b6e5cca15948a822e17a99043673def966764",
+  "originalParameterRowsSHA256": "bbb2cc96b340a4c792ea346f96810b98295a48b650b76f7f716b0013301a8e15",
+  "zeroLeadingCRT": {
+    "degree": 11,
+    "bound": 19,
+    "primes": 9,
+    "sha256": "e530e65f976907d4ffc9fec5e739f1d284fe7ee6c572d06eb3581eec9b336da3",
+    "strict": true
+  },
+  "zeroLeadingQuarticHReturn": {
+    "g": [
+      [
+        "-9/5",
+        "-56/5",
+        "-64",
+        "512/5"
+      ],
+      [
+        "1"
+      ]
+    ],
+    "counts": {
+      "kinverses": 15,
+      "kdivisions": 4,
+      "kbezouts": 1
+    }
+  },
+  "zeroLeadingQuarticOriginalYReturn": {
+    "g": [
+      [
+        "1"
+      ]
+    ],
+    "counts": {
+      "kinverses": 40,
+      "kdivisions": 3,
+      "kbezouts": 1
+    }
+  },
+  "fullQQCRT": {
+    "degree": 143,
+    "bound": 229,
+    "primes": 72,
+    "coefficientBoundBits": 624,
+    "sha256": "e2fde9e92d5f152606f2132a272fc8bc8384574fb7a9dfd2cb04d5e0a8531d14",
+    "strict": true
+  },
+  "completeQQFactorization": {
+    "factors": [
+      [
+        "u",
+        29
+      ],
+      [
+        "u-1",
+        4
+      ],
+      [
+        "4u-1",
+        62
+      ],
+      [
+        "leadingQuartic",
+        4
+      ]
+    ],
+    "remainingDegree": 32,
+    "sha256": "c675f49b7db2a4f986a780749d6634ec606ca31efd11ba583bfe697ddb0dd3ce"
+  },
+  "quarterParameterReturn": {
+    "g": [
+      "-512",
+      "2304",
+      "-4608",
+      "5376",
+      "-4032",
+      "2016",
+      "-672",
+      "144",
+      "-18",
+      "1"
+    ],
+    "factors": [
+      [
+        "h-2",
+        9
+      ]
+    ],
+    "remaining": [
+      "1"
+    ]
+  },
+  "wholeQuarticExactFactorRowsSHA256": "b9882c7b3d7def8cef18547b2887e9502ab4fe948e1440cb93f06735d9faf61a",
+  "wholeQuarticNorm": {
+    "prime": 1009,
+    "algebraDimension": 4,
+    "originalSylvesterDegrees": [
+      11,
+      12
+    ],
+    "matrixDimension": 92,
+    "determinant": 773
+  },
+  "originalNSParameterSHA256": "4486f315c04c8cc27983aa76998c5894b2cde39a5d0c0df47dd6b89b3fc63d0d",
+  "originalGauss": {
+    "prime": 1009,
+    "fixedMatrix": 38,
+    "priorDegree": 434,
+    "actualDegree": 276,
+    "coverDegree": 32,
+    "coverLeading": 886,
+    "bezoutDegrees": [
+      275,
+      31
+    ],
+    "return": [
+      1
+    ],
+    "sha256": "3e30558c47343c22e165dba721c38c7358e157c095dd7ba745ec361244661034"
+  },
+  "abandonedAttempt": {
+    "cell": "g4:396",
+    "operation": "Generic F1009(u)[h] Euclid on original degree 13/14 parameter rows",
+    "status": "Terminated with no returned gcd; never used to infer emptiness. Exact input stage output was observed, then rebuilt by polynomial pseudo-division after the terminated cell did not commit its store transaction.",
+    "recordedSourceSHAAtExecution": null,
+    "elapsedMilliseconds": null
+  },
+  "claimWholeQBoundary": false,
+  "ordinaryISPClaim": false,
+  "sourceGitBlob": "079fa59b6f2daafe2a1ca0b55637aac9fc031eb7",
+  "proofGitBlob": "d8452d9ad97f59127ffac3f28709ffeb6d26fd6a"
+}

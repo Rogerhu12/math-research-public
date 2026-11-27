@@ -49,7 +49,7 @@ rankH3单三jet的全部ess6已闭，末非零Hp原Gaussian/最高/normal给左�
 
 [H非零最高次全分类及整个二次权纤维返回](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-H-nonzero-highest-weight-cover-and-quadratic-fiber-exclusion.md)现排所有对角/零坐标方向；其余只可能u=Q、ell=2−Q、Q²−12Q+8=0，再以独立有限原Gram的48×35原单位行排该整个纤维。因此仍可能含有限原解的其余W权参数，其四二次头无非零公共向量；不能将三个权条件任意一个单独付为单位。全部旧四生成元/Cramer大门冻结，续小原模块和全部未付头零面。
 
-**Q=1−u边界：** y1、H_Q=(2u−1)ell+u零、u半、ell0整线及[原均值首项s0整支](results/R150-appendix-unit211-Q1minusU-mean-leading-sZero-exclusion.md)均已完整排除；原QQ覆盖、全部小域/原值返回与实跑身份保结果索引及快照。只续H_Q*ell*(y−1)*(2u−1)*s≠0，h=ell/u、mu=uh²−(h−1)²、s=h(1−omega)−1；另一首项(h−2)s+2mu零支及一般图继续。
+**Q=1−u边界：** y1、H_Q=(2u−1)ell+u零、u半、ell0整线及[s0](results/R150-appendix-unit211-Q1minusU-mean-leading-sZero-exclusion.md)、[第二原均值首项整支](results/R150-appendix-unit211-Q1minusU-second-mean-leading-branch-exclusion.md)均已完整排除。后者原143次QQ覆盖返回u四分之一、整个F4有限代数和C32；92阶正规表示模det773保全部F4嵌入，C32用保度Gauss原NS返回。h=ell/u、mu=uh²−(h−1)²、s=h(1−omega)−1，剩余原y二次首项2s[(h−2)s+2mu]已成单位。继续同一个y的首一二次和原R/N1/NS/PS余式，必要余式不当充分原解；完整来源/实际分段执行见正文。
 
 **一般等权b=c：** y1/y半/[y0](results/R150-appendix-unit211-equal-weights-zero-singleton-mean-exclusion.md)、A_m零及[整个T0零支](results/R150-appendix-unit211-equal-weights-T0-zero-complete-original-exclusion.md)已闭。现在可付J=2m+Q−2，独立x/y/t原四二次的x²/xy/xt/t²子式为−16m²(m−1)²J²；继续原cubic overlap及同点N/P。旧[首一值二次](results/R150-appendix-unit211-equal-weights-two-parameter-monic-value-quadratic.md)及[同v三一次余式/六投影](results/R150-appendix-unit211-equal-weights-same-value-linear-remainders-and-six-projections.md)范围不变，必须保全部一次首项零并返回Dval；v+1、alpha+beta已付。旧QQ 600秒未决门冻结，整个等权仍开。
 
