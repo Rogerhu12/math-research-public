@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R271：同一个实际右逆在全部物理孔指数尺度上的作用](results/R271-appendix-single-actual-right-inverse-on-all-physical-exponential-scales.md)：固定构造只损失同一λ；完整carry误差从H映入全部尺度，全H小量与同一Neumann逆直接证明；真幂来源费exp(Cn³)，同规范对偶保留，未推N=M。
+
 - [R150：Phi=0 原值碰撞的首一 ell 二次与8918基参数点覆盖](results/R150-appendix-unit211-Phi-zero-rank-one-value-monic-ell-8918-point-cover.md)：h=1有序图的两必要式总次98/91、QQ互素，11个H³真原返回保全部临时零面；真实4.796秒/exit0，k=1由交换覆盖，未排空。
 
 - [R150：W 整余图五条无 s 原行、五条 s 一次原行与四个参数 cofactor](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-five-plus-five-original-values-and-four-cofactors.md)：保完整两谱，真原组合消 s 后取常数列，实际24.779秒/exit0；w度18/18/18/23与全部未付首项零面保留，未宣空。

@@ -564,3 +564,8 @@ AI-assisted GPT-6 Astra Pro：审原Gram重建、weighted N/P→HA/HB原迹、�
 - Phi0/h1新1ec9实际4.796秒/57628KiB/exit0；首一ell2、八原行及11个H³目标全返，两QQ互素必要式给所选h1有序图≤8918基点，尚未排空。
 - 新ca53仅对(r,ell r)用真实原单位乘目标；norm只筛相交，接受步骤均完整原身份且新core整除旧core。首次120秒/1GiB，所有余零支保留。
 - 课题外仅新增invariant-subspace-phi-h-one-actual-unit-target-8542.yml；实际pull/两README/私库QUEUE继续。
+
+2026-11-27 19:27 Asia/Taipei｜Astra-ISP-8542378f-20261127
+- 新R271完整纸证：同一个Gλ作用全部物理指数尺度，E从全H平滑且H范数<1/4、同一U保每尺度；自然域真幂与同规范h对偶返回完整，未付核稠密/G保N/N=M。不设新执行门。
+- 新W/J19源267e17cb为整个首一e四次权代数的原六行/48×35输入，首次180秒4GiB；正规表示逆逐项回1，完整一元k异常集保留，不把范数当原单位。
+- 课题外仅新增invariant-subspace-w-j-nineteen-whole-quartic-8542.yml；H/open先完整归档后压缩已闭段，未闭接口保留。
