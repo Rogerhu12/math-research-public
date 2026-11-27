@@ -1,0 +1,25 @@
+{
+  "schema": "visible-larger-public-research-request-v1",
+  "request_id": "visible-larger-resume-20261127-08",
+  "rules_read_commit": "3bafe90c747b4b52bad0586b60cef6555189c67d",
+  "rules_sha256": {
+    "README.md": "581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102",
+    "topics/visible-flex-larger-amplitude/README.md": "3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d"
+  },
+  "recipe": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/rebuild_axisymmetric_so3_warm.py",
+  "stop_after": "warm",
+  "followup_file": "topics/visible-flex-larger-amplitude/computations/resume-20261127-followups-08.json",
+  "controller_budget_seconds": 20000,
+  "continuation_purpose": "Run the full independent adjacent-frame normal solver with every original variable, all32 stages, whole material envelope, unchanged objective and full true physical screening. First reconstruct the complete actual original warm/reference and old carrier inputs. No unreturned run07 field/typed history or current carrier bytes are fabricated.",
+  "actual_input_reconstruction_only_until_new_source_appended": false,
+  "new_numerical_dependency": {
+    "torch": "2.5.1",
+    "device": "CPU",
+    "dtype_for_new_solver": "float64",
+    "official_install_source": "https://pytorch.org/get-started/previous-versions/"
+  },
+  "bootstrap_scope": "Complete original warm recipe and whole4e655 reference producer, followed by the complete new8c1e current-run-bound original-carrier restorer. All original M160/J923/N2048/P7377, eleven original history payloads, whole scalar tail and numerical parameters remain. This is necessary input construction, not a new claim of the earlier conclusions. The full independent adjacent-frame scientific and pure successor is appended with its complete source/arguments.",
+  "source_and_history_policy": "Known original P0 and both complete old/current G are always retained. Run07 is explicitly pending; its unknown final/typed history is not fabricated or asserted inherited. Future actual applicable history remains a mandatory subsequent merge responsibility. Every current input and whole old carrier is read and bound in this run; only the exact recorded old dc5 whole file is reused as a historical identity, never run07 current identities.",
+  "complete_scientific_successor_and_reader_admitted": true,
+  "complete_independent_entry_ready_sha256": "58076d3e9e5554ce327084852ef32678fff67cd71d49e7baf8fad455c343ed43"
+}

@@ -675,3 +675,8 @@ R716新增索引漏项补齐及open7真状态同步：R716已先公开完整证�
 ### 2026-11-27 02:21:14 UTC — Astra-larger-e4e2a2bf-20261126
 
 完整80744 inputs/81ce fees/ef3a全参数实际排07全批mean费用后，保原五步骤。root全读两体/14KB说明并核八源；全E/所有角与积分节点、准确affine/全支持支/向上binary64范数费无子采样。新工作字不冒旧cache相同；原真实计划缺失诚实失败，未返费用/全连续及当前F仍欠，无本机科学。
+
+
+### 2026-11-27 02:33:39 UTC — Astra-larger-e4e2a2bf-20261126
+
+完成并准入[08全九源/相邻frame与独立实际输入](notes/2026-11-27-adjacent-frame-complete-entry-and-independent-envelope-run08.md)：root纯再生同SHA，原32段/全部自由量/科学后缀及完整E保；新8c1e只绑定本run真输入，07未知历史仍欠。完整参数/源/后继保，依根README第2条新增公开Actions workflow和独立controller槽；未执行本机科学、不预填任何结果，继续完整目标。
