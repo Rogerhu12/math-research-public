@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R150 unit211：h=k、Q=1−u 的 Delta零整分支与整个碰撞面排除](results/R150-appendix-unit211-equal-singleton-Q1u-Delta-zero-and-entire-face-exclusion.md)：C6三原相容返1；C24同u自由Gram原E1/EBe返1，两Delta图合闭。
+
 - [R150 unit211：Phi例外权原PB无穷远精确73阶与首一2033覆盖](results/R150-appendix-unit211-Phi-zero-exceptional-PB-exact-infinity-2033-monic-cover.md)：固定原R真QQ度2033、LC1009单位；保所有rho头零与每有序图≤2033基点。
 
 - [R150 unit211：W 的 A143 非零补图九条原行、两列乘法与三参数 cofactor](results/R150-appendix-unit211-W-A143-nonzero-original-two-columns-and-three-parameter-cofactors.md)：全原返回及λ次数6/8/8必要式；保A143零面与所有新首项零。
