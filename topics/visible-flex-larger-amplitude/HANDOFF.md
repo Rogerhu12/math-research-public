@@ -6,7 +6,7 @@
 
 ## 规则、同步与环境
 
-root最后真pull/rebase eda95d51e82b126439d51d42185a880e6ddad3e9。07:21起终端不可用，15:03:35工具内存重置后一次复核仍不可用；恢复即真pull。云核至 `acec144067d3fe3dfb571fa6258618e41116ae77`，不称pull。双README SHA256：581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d，均无变。每真pull后只读新差异并立即遵守，至少每小时；活12每5分钟真pull，末块记提交。
+root最后真pull/rebase eda95d51e82b126439d51d42185a880e6ddad3e9。07:21起终端不可用，15:03:35工具内存重置后一次复核仍不可用；恢复即真pull。云核至 `1a31a742589ed4b2a357eb75f7da734323daee5d`，不称pull。双README SHA256：581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d，均无变。每真pull后只读新差异并立即遵守，至少每小时；活12每5分钟真pull，末块记提交。
 
 私库QUEUE进行中已推e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。root唯一refs/queue写者；每结论普通推，不force，NFF立即真rebase循环；终端缺失时云fresh-HEAD完整合并不冒真pull。[完整发布支持](computations/resume-20261127-root-publication-support.mjs)已存，防内存重置丢文本工具。
 
@@ -37,7 +37,7 @@ run46011377225/1，job140547455454，workflow初始ed9fbfec354330d11b0e46ef61a4d
 - [mesh/t](notes/2026-11-27-fixed-fejer-complete-same-field-phase-meshes.md)：ad809/80116/2acc9/fde5、117角色/原8924B构造，32/6argv、110/58正式读数。三全空间级/5t/4,8,16时间划分；真13final或完整packet同点，缺角走原算法；d606可选不挡mesh。15科学mesh与5完整<5MB预览runner-only；拓扑不冒嵌入，M320零包含只输入。
 - [J1845五完整基础](notes/2026-11-27-fixed-fejer-J1845-complete-base-inputs.md)：a31d/622e/a89c/78de/2e0c，参考J923/currentJ1845准确地址、全482通道、旧7377+原生14753并集。obs工厂逐字e717，全部scalar metadata除elapsed相等/accuracy保；Q从当前ca4保Fejér recipe及fixed_input全部守卫，再加完整双网格关系。
 
-N4096、M320全源/完整模式plans已远端保护，root准备普通刊和独立新runner；不是已执行。construction接J完整lower/upper/三plans，geometry做ret44，solver查实际重复耗时并核12。每族保current immutable完整normal链，不退旧昂贵每key拷贝；不削变量/预算/尾/J/双mean/六jet。
+N4096、M320全源/完整模式plans已远端保护，root准备普通刊和独立新runner；不是已执行。construction接J完整lower/upper/三plans，geometry接N/M完整连续费用，solver查实际重复耗时并核12。每族保current immutable完整normal链，不退旧昂贵每key拷贝；不削变量/预算/尾/J/双mean/六jet。
 
 独立模式用同固定reference完整初点与全known/unknown历史，不等虚构父。terminal需真全报告/history；final另需真477499/274d全13成员/word/point/model；同源restart全模型严格相等。参考M160/J923/N2048及准确g/参数/t不变，current离散不定义新g。真实求解与mesh/M/t下降尚未付。
 
@@ -49,7 +49,7 @@ R248只活动像；固定非对称p4两帽需共同R650或全mixed pairs。全�
 
 [11真失败](notes/2026-11-27-run11-fixed-reference-word-mismatch-and-publication-failure.md)：46000835895/1，warm0；5989输入6.170325s返1/全mesh-chart词守卫/FJroots0，继而H超10KB未刊第二步。原59783B全log/七upper/99源/全参数保，无同g重建或新父，不松guard。
 
-03–06九history/两分支、07–09未返/typed/发现序全保旧H/open；06未可行、07仅输入、08仅1–10、09仅1–7且后两cancelled。unknown不补空，iteration_limit不称驻点。[ret43](notes/2026-11-27-four-legacy-generated-records-retention-43.md)毛2158488B/净2003922B，原source/argv/消费者恢复及603链保；42的Nelder未删，41及33–40全ledger/warm责任保原文，未知SHA=null。
+03–06九history/两分支、07–09未返/typed/发现序全保旧H/open；06未可行、07仅输入、08仅1–10、09仅1–7且后两cancelled。unknown不补空，iteration_limit不称驻点。[ret43](notes/2026-11-27-four-legacy-generated-records-retention-43.md)毛2158488B/净2003922B，原source/argv/消费者恢复及603链保；[ret44](notes/2026-11-27-retention44-legacy-exact-raw-retention.md)退16旧raw毛4359602B/完整三记录195533B/主体净4164069B；265源输入/14原argv/六全plan/全部真消费者恢复保。原字在155846f67d9fff97adba79dfb57ddb1cf16ade78，remaining-bounds wholeSHA未知仍null。42的Nelder未删，41及33–40全ledger/warm责任保原文。
 
 <!-- visible-larger-parallel-10:start -->
 并行公开Actions10：[run 45972294636/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45972294636)；[实际记录](notes/2026-11-27-public-actions-45972294636-1.md)。API已completed/cancelled（15:06:33 UTC）；科学5未自然返，已返仅1–4，后继未知。
