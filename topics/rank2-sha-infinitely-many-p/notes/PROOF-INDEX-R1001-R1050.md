@@ -326,3 +326,8 @@ R1049§12（80）–（88）：原Chow层严格图置换将全部η/Cor折为[L:
 [完整证明](2026-11-27-original-weight-five-toric-artin-basis-and-common-phase.md)。固定weight5原54值B_j=(17δ/9)T_j,5给实际Artin基且B_j²=C_j。原严格图置换/全GL9下降保全部微分，把T_j,k/B_j送入E；H/K在3不分歧而E/K全分歧，故H⊗E是域，两份ζ9分清。char0三标签Gal(E/K)循环迫共同ε_k，给T_j,k=ε_k A_k B_j d_j,k−1，A_k=δ3^((k−5)/2)2^(-(k+1)/3)(k−1)!/34；ε5=−1。故全部好惰性p的原三向量满足a_j hbar_j=s_p[L:H]B_j Kbar_j(0)，共同s_p=−ε_p(3/p)，不需p mod9限制。任意原线性组合保B_j/a_j，未重选Artin基或逐j取根；未付全精度、权连续或无穷非零。
 
 - 原PB4[完整17维零核](2026-11-27-original-type4-inert29-coefficient.md)：原PB4整行零已严格等价同一H₂=ω的全部17维零functional：三原半period全34列满足U_e²=−I、两两反交换，故(S₂−I)/2有两17维，原μ6与全17挠Heisenberg相位保持。ℓ_p=ℓ_pΠ4把原三维条件准确提升；原type4单二挠读数为δ/3，不能误称单U_e保持17块。p≡2/5mod9同Frob²循环将全行非零等价三原线全单位；仍未证跨p非零，7p−1下一共振保原j_(p−7)未控项。
+
+
+### 原type4 signed与Newton的全精度交叉恒等式
+
+[完整证明](2026-11-27-original-type-four-inert-signed-cross-comparison.md)。原34δ/18/30单位的实际 mixed Tsuji 互反给 c_j 属原η_j Artin线，完整格核常数为μ(m!)²/18。三个本地η严格平凡，用同一个本原signed基及真实T(v)=Q^v−1，在合法k=p^n正权消去共同Gamma/Euler/period后，解析唯一性给 A_j(T(v))(c_l/a_l)K_l²=A_l(T(v))(c_j/a_j)K_j²。保exp*可能零的分支，不延拓p^weight。若一K为Tate单位，则所有A_j=F_p(c_j/a_j)K_j²，F_p为非零解析函数；F_p(0)仍可能零。原EU基层h=u_pF_p(0)(c_j/a_j)K_j(0)²，几何首层只给带同一未知F_p(0)的相对平方，未冒类相等或通常Sha非零。

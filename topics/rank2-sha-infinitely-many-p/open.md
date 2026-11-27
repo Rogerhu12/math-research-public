@@ -91,3 +91,8 @@ R1049§12（80）–（88）：原Chow层严格图置换将全部η/Cor折为[L:
 ### 原PB4首行的全17维零核
 
 原PB4整行零已严格等价同一H₂=ω的全部17维零functional：三原半period全34列满足U_e²=−I、两两反交换，故(S₂−I)/2有两17维，原μ6与全17挠Heisenberg相位保持。ℓ_p=ℓ_pΠ4把原三维条件准确提升；原type4单二挠读数为δ/3，不能误称单U_e保持17块。p≡2/5mod9同Frob²循环将全行非零等价三原线全单位；仍未证跨p非零，7p−1下一共振保原j_(p−7)未控项。 后继使用这个真正稳定的全Heisenberg分量研究原半period及相邻同型行，不把单行零升级成全Cartier可积性。
+
+
+### 同一signed参数的相对全精度已付，实际共同端点继续
+
+原34δ/18/30单位的实际 mixed Tsuji 互反给 c_j 属原η_j Artin线，完整格核常数为μ(m!)²/18。三个本地η严格平凡，用同一个本原signed基及真实T(v)=Q^v−1，在合法k=p^n正权消去共同Gamma/Euler/period后，解析唯一性给 A_j(T(v))(c_l/a_l)K_l²=A_l(T(v))(c_j/a_j)K_j²。保exp*可能零的分支，不延拓p^weight。若一K为Tate单位，则所有A_j=F_p(c_j/a_j)K_j²，F_p为非零解析函数；F_p(0)仍可能零。原EU基层h=u_pF_p(0)(c_j/a_j)K_j(0)²，几何首层只给带同一未知F_p(0)的相对平方，未冒类相等或通常Sha非零。 后继计算同一本原M+基的mixed period，确定F_p在augmentation的真实阶；同时继续原54图的同源Coleman/fp比较。不能凭局部同型、三个K单位或交叉式消去F_p(0)。

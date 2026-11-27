@@ -40,7 +40,7 @@ C_j=−972ω34⁴εperiod⁻³c_jγ_j固定非零。
 a_j hbar_j=s_p[L:H]B_j Kbar_j(0)，s_p=−ε_p(3/p)。
 原Artin基不改；任意三项线性组合保B_j/a_j。尚未证明ε_k沿p进权连续、全精度类相等、跨p非零或canonical坏迫该行零。
 
-原全局34δ/18/30椭圆单位沿新BKNKO G.25/G.29在真实HT(2,−1)给整signed直和；augmentation Hf是M+，完整偶导子root−/Kato付原单位在M+。其真实signed坐标A(0)与K(0)²的全部精度/period仍待，不得套椭圆T_E。原[p²全norm](notes/2026-11-27-original-inert-p-square-full-norm-and-endpoint-zero.md)已付depleted端点0、raw AJ norm/p²回原I及h，不能省回返p+1路径或套primitive角色端点。
+原全局34δ/18/30椭圆单位沿新BKNKO G.25/G.29在真实HT(2,−1)给整signed直和；augmentation Hf是M+，完整偶导子root−/Kato付原单位在M+。[全精度交叉式](notes/2026-11-27-original-type-four-inert-signed-cross-comparison.md)已由同一Tsuji mixed互反及T(v)=Q^v−1付：c_j属原η_j线，A_j(c_l/a_l)K_l²=A_l(c_j/a_j)K_j²。若一K为单位，A_j=F_p(c_j/a_j)K_j²；F_p非零解析但F_p(0)仍可能零，真实hEU=u_pF_p(0)(c_j/a_j)K_j(0)²。共同mixed period/augmentation阶继续，不得套椭圆T_E或冒原图类相等。原[p²全norm](notes/2026-11-27-original-inert-p-square-full-norm-and-endpoint-zero.md)已付depleted端点0、raw AJ norm/p²回原I及h，不能省回返p+1路径或套primitive角色端点。
 
 固定p29唯一run46043135878/job140655635855/source346dd26f已付原完整PB4行(20,27,7,20,23,21)及全部回乘；CM13整谱与Frob²三循环进一步给三个D_j的z28单位。故三K_j,29为Tate单位、全部d_j,30k−2赋值1−k−v29((k−1)!)；这是纯theta结论，不要求29通过c_j/γ坏集或q0，也非无穷p。消费者§6再付原PB4整行零已严格等价同一H₂=ω的全部17维零functional：三原半period全34列满足U_e²=−I、两两反交换，故(S₂−I)/2有两17维，原μ6与全17挠Heisenberg相位保持。ℓ_p=ℓ_pΠ4把原三维条件准确提升；原type4单二挠读数为δ/3，不能误称单U_e保持17块。p≡2/5mod9同Frob²循环将全行非零等价三原线全单位；仍未证跨p非零，7p−1下一共振保原j_(p−7)未控项。 原R855/R856全热递推与固定水平cover已读并复用，不重做；p−1行比Bol共振少一阶，不能由p-curvature零反推单位。
 
