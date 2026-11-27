@@ -1,0 +1,33 @@
+{
+  "execution_id": "full-p47-original-angle-Hodge-v1",
+  "prime": 47,
+  "coefficient_prime": 4513,
+  "base_CM_candidate_id": 76,
+  "sage_version": "10.6",
+  "python_flint_version": "0.9.0",
+  "total_seconds": 1200,
+  "reserve_seconds": 30,
+  "rules_last_read_commit": "5d93a3d2bab38c1ff5705f8519da85eebf5c814e",
+  "consumed_CM_tangent_run": 45968484065,
+  "consumed_CM_tangent_job": 140402824955,
+  "consumed_CM76_coarse_tangent95_sha256": "25f16f989716b2d7b3d80bd217bda8de3c0738dbfea0a65fb9eee2608c21233e",
+  "Hodd_matrix_sha256": "e0105e4915c8685dcac366c72bdad0d0c7ff2e5b0b72768d06fd5573fc31cfbf",
+  "Hodd_characteristic_polynomial_sha256": "990a3205813f9785f40b97a754092530d9797edaee616b2814f2382530d06b37",
+  "source_sha256": {
+    "README.md": "581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102",
+    "topics/serre-uniformity/README.md": "6ce1403bd2d2587bb9cca70bd0095a1264b1167fe2c4b62f0652ae671e6277a5",
+    "topics/serre-uniformity/scripts/full_p47_weight_one_Hodge_certificate.py": "fe2e4f6b2420389b534fab0b2d1976dc6ac7cb2b1fe8ad98c07112ecd860afac",
+    "topics/serre-uniformity/scripts/full_p47_eight_CM_tangents.py": "c0932538657b87e6f2c31c0d32189383fd72e65267cf20986630d73dece1f1a5",
+    "topics/serre-uniformity/scripts/original_p47_ell4513_cuspidal_transfer.py": "758df1a12306555605dde7db91ef2ab6d2aa62d9853dd134a875046e88ebaa7f",
+    "topics/serre-uniformity/scripts/original_p47_cuspidal_disks.py": "35a0035d4f238670309d19c9acec35b5f9610cf13f5676f96503c59048148f98",
+    "topics/serre-uniformity/notes/full-p47-CM-height-move-request.json": "bc89913668d6b3d209719a720c7562a7914459441526b6a565fc69edbfc2b7e6",
+    "topics/serre-uniformity/notes/original-p47-ell4513-cuspidal-transfer-request.json": "655d3f21b34d6c87f3e7eac95e3b9621c7989e4afc21c625a6b8416fa0dd6493",
+    "topics/serre-uniformity/results/R1078-original-level47-Cartan-correspondences-and-fixed-cycles.md": "d75cca1b546326338099abe2cef94bd37da48897ae7dd7f0740dc34d19d8e867",
+    "topics/serre-uniformity/results/R1087-original-principal-Cartan-ideal-and-cusp-annihilating-correspondence.md": "228188a8016088377020bb11e900e1a48ccd011baba7e2618863a112fd4a193d",
+    "topics/serre-uniformity/results/R1105-certified-original-eight-CM-tangents.md": "12530da739b3cb2d1f23820e209d592d679405394c80973462535a53530da12e",
+    "topics/serre-uniformity/scripts/full_p47_original_angle_Hodge_action.py": "e3a8ea3ab9ecf57d2f9282afc6512b738790972f774848c922a979efa16ef4e6",
+    "topics/serre-uniformity/notes/2026-11-27-full-p47-original-angle-Hodge-method.md": "833fa0859247471585e13dbb067a0b45bceb997f5300e7cae988892371c3e170"
+  },
+  "scope": "Actual23 angle polynomials in all73 original Hodge directions from one certified cyclic CM76 point and its complete1081 geometric targets. No global point sieve or height recomputation.",
+  "storage": "Code, fixed inputs, run/job, output hashes and small conclusions only."
+}

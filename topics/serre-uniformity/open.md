@@ -45,8 +45,7 @@ R1018–40原Fm/两节点Dickson/PD/好BT整比较的完整尺度和C_*保原文
 
 [R1096](results/R1096-certified-original-CM-moving-units-and-odd-Hecke-height-basis.md) run45948995182：det(T2−1)=3715、detT3=3071，Hodd=T3+T5判别式2650，M=T·u16。§8的Sturm2256证明73奇Hecke整基可选n≤2255且47∤n；实际整基见R1101。
 
-[R1094](results/R1094-original-disjoint-CM-heights-and-first-global-intersection-functional.md)付原整W、双极核、完整ramified power-sum及全部odd-Hecke CM分盘的h_q∈q²；首global为全部非q原交数×正Fermat商。
-[R1097](results/R1097-original-level47-odd-prime-CM-intersections-and-sparse-norm-sum.md)/[R1098](results/R1098-original-bad47-CM-intersections-and-exact-vertical-correction.md)/[R1099](results/R1099-original-level47-dyadic-CM-intersections.md)付所有odd-good/47/2交数：两2209进程、坏47的529D_qH+23D_qb、2处Q8的S2/8含半格，保全Tq²。
+[R1094、R1097–99](results.md)付原所有局部项：完整2/47/奇好、B²与垂直修正；全部准确式由R1102消费，旧公式及源不变。
 
 [R1100](results/R1100-certified-original-level47-first-global-CM-height.md)付Γ(1)=818；[R1101](results/R1101-certified-original-level47-smallest-odd-Hecke-basis.md)付原73奇基n≤149删47/141、det3946。两项仅消费，完整后继见R1102。
 
@@ -57,6 +56,8 @@ R1018–40原Fm/两节点Dickson/PD/好BT整比较的完整尺度和C_*保原文
 [R1104](results/R1104-certified-original-level47-graded-RR-ring-and-degree167-pencil.md)：run45964526314/job140389923921，33.300秒，原L²至L⁵维262/429/596/763及全23 cusp核239/406/573/740已认证。前两section无共同零，原degree167可分pencil；836原cusp jets可供colon/Miller，实际α仍待读。
 
 [R1105](results/R1105-certified-original-eight-CM-tangents.md)：run45968484065/job140402824955，11.858秒，八CM×16原一次块切向全部unit；同原tag/Weil2/完整Reynolds及coarse尺度。v2隔离Sage/flint后成功；id196普通trace94仍测25条项链，真tag唯一。全角/α/CM坐标继续。
+
+[完整角作用请求](notes/2026-11-27-full-p47-original-angle-Hodge-method.md)：固定CM76原95切向，先核[e,He,…,H⁷²e]循环，再共享2208挠点值遍历1081真实目标，按23角全求和后降域；全部组合律与trace核原73维坐标。1200/30，待回执，α/Miller并行。
 
 ## O1：全p同一真实本原标签的临界非零
 

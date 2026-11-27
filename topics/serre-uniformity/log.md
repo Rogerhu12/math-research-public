@@ -89,3 +89,7 @@
 ### 2026-11-27 16:52 Asia/Taipei — Astra-serre-24b8836b-20261126
 - R1105消费成功run45968484065/job140402824955，11.858秒，八个原CM点×16真实一次块的e及e/λ全部非零；完整源/tag/Weil/heat/coarse与128行哈希齐备。
 - root核成功八记录canonical SHA；说明id196普通trace94仍有25项链，实际代码完整匹配无漏支。v2隔离修复已成，无旧高log或全scan重算；继续全73角作用、α/Miller及一般p障碍。
+
+### 2026-11-27 16:58 Asia/Taipei — Astra-serre-24b8836b-20261126
+- 提交原全部23角的真实73维坐标新请求：原CM76循环评价、det1/Weil2全1081目标、保扩域全角求和，核全部组合律、fixed trace与两个稀疏Z。
+- 新增课题外workflow serre-full-p47-original-angle-Hodge.yml，固定Sage10.6及flint隔离、数学1200/reserve30。原95点值/Hecke仅hash消费；新角值待回执，继续α/Miller与全p原两障碍。

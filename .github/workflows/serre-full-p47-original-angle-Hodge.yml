@@ -1,0 +1,63 @@
+name: Serre full p47 original all73 angle action
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - topics/serre-uniformity/notes/full-p47-original-angle-Hodge-request.json
+
+permissions:
+  contents: read
+
+concurrency:
+  group: serre-full-p47-original-angle-Hodge-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  original_angle_Hodge_action:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/serre-uniformity/README.md
+            /topics/serre-uniformity/notes/full-p47-CM-height-move-request.json
+            /topics/serre-uniformity/notes/original-p47-ell4513-cuspidal-transfer-request.json
+            /topics/serre-uniformity/scripts/full_p47_weight_one_Hodge_certificate.py
+            /topics/serre-uniformity/scripts/original_p47_ell4513_cuspidal_transfer.py
+            /topics/serre-uniformity/scripts/original_p47_cuspidal_disks.py
+            /topics/serre-uniformity/scripts/full_p47_eight_CM_tangents.py
+            /topics/serre-uniformity/notes/2026-11-27-full-p47-eight-CM-tangents-method.md
+            /topics/serre-uniformity/results/R1103-original-CM-tangents-finite-field-third-kind-and-QC-first-jets.md
+            /topics/serre-uniformity/notes/full-p47-original-angle-Hodge-request.json
+            /topics/serre-uniformity/scripts/full_p47_original_angle_Hodge_action.py
+            /topics/serre-uniformity/notes/2026-11-27-full-p47-original-angle-Hodge-method.md
+            /topics/serre-uniformity/results/R1078-original-level47-Cartan-correspondences-and-fixed-cycles.md
+            /topics/serre-uniformity/results/R1087-original-principal-Cartan-ideal-and-cusp-annihilating-correspondence.md
+            /topics/serre-uniformity/results/R1105-certified-original-eight-CM-tangents.md
+      - name: Pull pinned official SageMath 10.6 image
+        run: docker pull sagemath/sagemath@sha256:60dfb09e8d1399e127a0d7b62b45eef1044574bae397df51bb6ba38df5498879
+      - name: Read complete original geometric angle action
+        env:
+          SERRE_EXPECTED_REQUEST_SHA256: 'efb681a857ccf9bf62087562431e25f7d0d160470cc0fdab545c362b339003fb'
+        run: |
+          timeout --signal=TERM --kill-after=30s 1320s docker run --rm --cpus=4 \
+            --mount "type=bind,source=${GITHUB_WORKSPACE},target=/work,readonly" \
+            --workdir /work \
+            -e GITHUB_ACTIONS -e GITHUB_REPOSITORY -e GITHUB_SHA \
+            -e GITHUB_RUN_ID -e GITHUB_RUN_ATTEMPT \
+            -e SERRE_EXPECTED_REQUEST_SHA256 \
+            -e PYTHONUNBUFFERED=1 -e PYTHONDONTWRITEBYTECODE=1 \
+            -e OMP_NUM_THREADS=1 -e OPENBLAS_NUM_THREADS=1 \
+            sagemath/sagemath@sha256:60dfb09e8d1399e127a0d7b62b45eef1044574bae397df51bb6ba38df5498879 \
+            /bin/bash -lc '
+              set -e
+              sage -pip install --user --no-cache-dir python-flint==0.9.0
+              exec sage -python topics/serre-uniformity/scripts/full_p47_original_angle_Hodge_action.py
+            '
