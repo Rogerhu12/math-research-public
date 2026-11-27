@@ -143,3 +143,7 @@ AI-assisted GPT-6 Astra Pro：审原Gram重建、weighted N/P→HA/HB原迹、�
 2026-11-27 13:08 Asia/Taipei｜Astra-ISP-8542378f-20261127
 - 等权新原 cofactor/overlap/六规则三段实际0.333/6.503/2.165秒，全原组合返回；三次主子式恰8(m−1)Q(Q−1)²/J，得到剩余全图六生成元。
 - 直接登记完整证明，继续同点原乘法/NSPS及重叠差；原600秒未决门冻结，普通ISP未完成。
+
+2026-11-27 13:09 Asia/Taipei｜Astra-ISP-8542378f-20261127
+- 新增本题外 .github/workflows/invariant-subspace-W-C9-six-generator-cofactors-8542.yml，运行新的C9图18真乘法/NSPS/comm/参数cofactor，180秒/4GiB；未改变旧成功源，保全部未付零面。
+- 只启动首次新数学输入，状态待实跑；根并行继续整个等权原六列返回。
