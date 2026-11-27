@@ -1,0 +1,85 @@
+{
+  "schema": "isp-W-lambda-three-halves-same-value-ratio-quadratic-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "date": "2026-11-27",
+  "arithmetic": "exact BigInt multivariate polynomial over ZZ; no point or prime specialization",
+  "lambda": "3/2",
+  "sameZDefinition": "z=s/v0; both s and v0 are physical units on the stated original W chart",
+  "exactWholeRatioAndAllECoefficients": true,
+  "eQuadraticLeading": "-8*k^2*z^2",
+  "fullOriginalHigherMomentPseudodivisionIdentity": true,
+  "pseudodivisionSteps": 6,
+  "removedOnlyNonzeroRationalAndPaidKZMonomial": {
+    "integerContent": "1728",
+    "kPower": 10,
+    "zPower": 6
+  },
+  "lowerMomentRatio": {
+    "terms": 16,
+    "degrees": [
+      2,
+      3,
+      2
+    ],
+    "bytes": 246,
+    "sha256": "855718d100f29e7c3ef590dbc91f5c1e9858cf8a30912ed43694dcab55019264"
+  },
+  "sameValueThirdMoment": {
+    "terms": 192,
+    "degrees": [
+      7,
+      8,
+      6
+    ],
+    "bytes": 3420,
+    "sha256": "7965990ed9cd425dd75ed2bdc4ce7c53d2d37fd1f3176bbfbf26e55f8b583e0e"
+  },
+  "eLinearG0": {
+    "terms": 138,
+    "degrees": [
+      0,
+      12,
+      12
+    ],
+    "bytes": 3245,
+    "sha256": "858f980e8bda996bcc3b2332b4600cdff059712c6403ae2ad4023717d9c7bc6b"
+  },
+  "eLinearG1": {
+    "terms": 127,
+    "degrees": [
+      0,
+      13,
+      12
+    ],
+    "bytes": 2942,
+    "sha256": "821b9342fd8fa386246681371dc229b95cb03a97a1412fbfaad6913b025d6972"
+  },
+  "necessaryParameterNorm": {
+    "terms": 349,
+    "degrees": [
+      0,
+      22,
+      24
+    ],
+    "bytes": 11417,
+    "sha256": "df9e3b87c502db4d0dbabffc4b03b1898f3e576220a930df5218191f89941199"
+  },
+  "fullSameELinearNormCombinationActuallyReturned": true,
+  "G1ZeroFiberRetained": true,
+  "AzP3BothZeroFiberPhysicallyExcludedOnlyByOriginalDeltaAndThirdMoment": true,
+  "noCompleteGramOrIndividualNPExclusion": true,
+  "wholeLambdaFiberExcluded": false,
+  "exactCertificate": {
+    "bytes": 26987,
+    "sha256": "cc1c1cfa071d08f02dc0e683da55a6de60b0bc212c57f97b7b420486e1ee9179"
+  },
+  "elapsedMilliseconds": 233,
+  "externalProcessExitCode": null,
+  "maxRssKiB": null,
+  "source": {
+    "path": "notes/2026-11-27-unit211-W-lambda-three-halves-same-value-ratio-e-quadratic-8542.js",
+    "bytes": 7682,
+    "sha256": "11e9cdc8af1ae94d3189e56b4b9981ed7e3c5ae76196bf02cfc8e015e100974d"
+  },
+  "largeCoefficientCachesSaved": false
+}

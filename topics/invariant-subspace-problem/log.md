@@ -819,3 +819,7 @@ AI-assisted GPT-6 Astra Pro：审原Gram重建、weighted N/P→HA/HB原迹、�
 - 完成整个h=k,J=Q原面排除：f7c6全二次常数域保两个复根/自由f给原E1/EBe单位；57a互补Delta非0八原式固定4/3阶QQ投影真Bézout1。两次实际源exit0，证书/分母/头零与作用域随文。
 - 合独立整个T0排除，余h=k可付Pf；整个碰撞和普通ISP仍开放。每结论独立实际pull/rebase/push。
 - 新W649d三原二次仅取已冻结构造前缀，首接两标量余子式与三个同F组合，不重放旧六行/16乘法门。课题外新workflow180秒4GiB。
+
+2026-11-27 22:27 Asia/Taipei｜Astra-ISP-8542378f-20261127
+- 11e9 V8精确整多项式233ms：lambda3/2整支新z=s/v0、e首一二次、同e一次和norm完整身份；只剥非零整数/k,z幂，原v0唯一恢复，G1零支保留。源/小receipt随结论立即推。
+- 根新h=k Phi0在已付Pf下自动Delta非0，ell≠1两参数八式/QQ投影180秒4GiB；ell1u2整个quartic留作另一原输入。课题外新workflow已记本题。
