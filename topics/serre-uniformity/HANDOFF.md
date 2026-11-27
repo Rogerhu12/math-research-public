@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。本轮已部分克隆并真实pull main，读两README/H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则读至36cf1ed2。不重做已登记结论或窗口。
 
-**公开两README已读提交：56274aaf9a60e9ddd9fc989edf077995d15d9ec8**（2026-11-27 14:13 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
+**公开两README已读提交：385494c9a229836d2eaebbdf66dda9155002d382**（2026-11-27 14:16 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
 
 已真实部分克隆/pull；13:59再试pull仍报无可用执行环境，shell未运行；按根规矩8用连接器小文本同步、读两README差异、带expected_sha非force提交，恢复后立即pull --rebase。拒绝即同步重基再推至成功。令牌仅CLI；根维护main/H/open/index/log，子研究独立稿，每条结论立即推。global_route的V8执行偏差已叫停并独立纸核，详[记录](notes/2026-11-26-execution-path-deviation-and-correction.md)，其输出不作证明/合规窗口。
 
@@ -34,7 +34,9 @@ R1063：全Hecke族消MW及真辛商，最低两jet行列式仍开。R1058：原
 
 [R1094](results/R1094-original-disjoint-CM-heights-and-first-global-intersection-functional.md)：原整Hecke各向同性W、双极核与完整ramified power-sum证明跨−4/−3的h_q(Bqu4,T Bqu3)∈q²，T3和T2−1的Gaussian离盘代表亦适用。首global height准确为原level交数×Fermat商，保完整B²的T_(q²)及坏47垂直修正；实际交数/单位未算。
 
-[原高度移动请求](notes/2026-11-27-full-p47-CM-height-move-method.md)消费三矩阵hash，读T2−1/T3单位、u16首log与奇Hecke整基；真实run45948995182已结束，逐项回执正在登记。下一输入是原47标记的有限CM交数，不能用j-line或旧41数据代替。主目标与八盘内部仍OPEN。
+[R1096](results/R1096-certified-original-CM-moving-units-and-odd-Hecke-height-basis.md)：run45948995182/job140340211167，6.976秒；det(T2−1)=3715、detT3=3071，Hodd=T3+T5判别式2650，故M=T·u16且奇Hecke整基覆盖全部T。D4与全部Hodd^jD16分盘，h_q∈q²；全高度首层由非q原level交数读取，实际值仍开。
+
+下一输入为原47标记的有限CM交数，保2/3/47及完整B²，不以旧41或j-line代替。主目标与八盘内部仍OPEN。
 
 ## O1：原同一保留标签
 

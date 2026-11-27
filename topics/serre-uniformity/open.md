@@ -49,6 +49,8 @@ R1018–40原Fm/两节点Dickson/PD/好BT整比较的完整尺度和C_*保原文
 
 [原高度移动请求](notes/2026-11-27-full-p47-CM-height-move-method.md)消费三矩阵hash，读T2−1/T3单位、u16首log与奇Hecke整基；真实run45948995182已结束，逐项回执正在登记。下一输入是原47标记的有限CM交数，不能用j-line或旧41数据代替。主目标与八盘内部仍OPEN。
 
+[R1096](results/R1096-certified-original-CM-moving-units-and-odd-Hecke-height-basis.md)：run45948995182/job140340211167，6.976秒；det(T2−1)=3715、detT3=3071，Hodd=T3+T5判别式2650，故M=T·u16且奇Hecke整基覆盖全部T。D4与全部Hodd^jD16分盘，h_q∈q²；全高度首层由非q原level交数读取，实际值仍开。
+
 ## O1：全p同一真实本原标签的临界非零
 
 [R1079](results/R1079-original-CM-Psi-zeta-short-carry.md)付两种CM的原Ψ=Z_<p^p+δT modT^(p²)，含原微分/CM角色/短ζ分母/负p极代换。原G单位现可作Ψ指定高系数，但不是短η_k/ν_k；真实三平移和Gaussian近p²下位卷积仍开。
