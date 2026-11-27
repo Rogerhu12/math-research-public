@@ -12,7 +12,7 @@
 
 - 至少每小时重试同步，每次pull后只读新README差异并立刻执行，记实际读过SHA；断连沿最新main API非force快进，每次检查README及本topic外部变动。10:48ref失败已立即实际pull重试、重比新父后成功；不强推。
 - root独占git/H/open/log/index；每条结论立即推，拒绝时pull --rebase后重试至成功。令牌只命令行/进程，不进文件/提交/API。数学执行只在公开Actions；根规则15禁止存可重算输出或日志数据。H<10KB，每MD<100KB。
-- 本次整理前的[完整交接](notes/2026-11-27-handoff-before-direct126-mixed-input.md)逐字保原历史，向前链接所有旧归档；[open归档](notes/2026-11-27-open-before-weighted-level-transport.md)、[results](results.md)、[R1001–1050索引](notes/PROOF-INDEX-R1001-R1050.md)保完整参数/门/失败/回执，不重做已登记结论。
+- 本次整理前的[完整交接](notes/2026-11-27-handoff-before-e21609-certificate.md)逐字保原历史，向前链接所有旧归档；[open归档](notes/2026-11-27-open-before-weighted-level-transport.md)、[results](results.md)、[R1001–1050索引](notes/PROOF-INDEX-R1001-R1050.md)保完整参数/门/失败/回执，不重做已登记结论。
 
 ## 一、唯一原厚几何作业
 
@@ -30,9 +30,9 @@ R1037完整378谱与原126两次实际回执均全消费，30非零/90零、334f
 
 R1040 §§1–13原六轴、Gram(126,3,6,2,9,14)/det756和所有δ-old零已付。原6⁵平均只给完整comp-only许可；H/J/N投影后Y主型整源=39δΦΞ0+GΞ1，G0=−δ/28、JG0单位。坏Φ时中央/质量同一比例，Y/7保log7费用。DE5与D²E4的真5/90完整管给hΦ/hG两态分离、保全部四输出，n仅u5^n。§14全bad/七挠gluing/Haar/平方识别G为E15876 rank0参考；JG′无新零。全矩、相位和原cut见原文/逐字归档。
 
-§15原K一阶矩U_K=(10δ/7)D126，D首z5；全odd9的JMJ、真实CRT负号、2/3/双7与正权平方识别E21609:y²=x³+147²，f=(126)、level47628/root−。实际∫K/Y P3ρ=(10δ/7)ΩI_D=j′_{Y+tK}(0)/d；现有坏条件仅给j(0)，不迫角导数零。wild3导子4的正确rank1桥/解析输入继续，未套R761恰δ一次定理。
+§15原K一阶矩U_K=(10δ/7)D126，D首z5；全odd9的JMJ、真实CRT负号、2/3/双7与正权平方识别E21609:y²=x³+147²，f=(126)、level47628/root−。实际∫K/Y P3ρ=(10δ/7)ΩI_D=j′_{Y+tK}(0)/d；现有坏条件仅给j(0)，不迫角导数零。R1046现已给同一全角色、1024系数构造/有理E1全尾及唯一新公开消费者，待真实L′回执；未预认非零。wildδ4须走原有理CM Rubin定理，不能套R761恰δ一次版本。
 
-F0两δ字run45991193171/job140479142693/sourcec5b9ce61389b975b1a11d1ff1ee71912a8749751实际全返：B10、反射/回乘/二处齐；两旧rank1投影全零，primitive三维非零且非∇S比例。真短式B±=(X+4)D_-/(279552y)±σ4σ3σδ³/(1118208δ)，全T_i/Miller/σ2²/单位cut保。必要坐标/hash及未闭转置见[两字笔记§6](notes/2026-11-27-original-f0-two-delta-word-return.md)，不重跑。§7进一步付两odd25 C±及C2=−C1(−z)、实际三挠U±和完整Φ=W51(U+C1−U−C2)/36；真转置是1/18的x+y单位卷积，degree51 Gaussian/三个E2第三类边界保齐。
+F0两δ字run45991193171/job140479142693已全返，两个旧rank1投影零、primitive三维非零；完整C±/U±、三挠Miller/degree51 Gaussian与第三类边界在[两字笔记§§6–7](notes/2026-11-27-original-f0-two-delta-word-return.md)。真Φ=W51(U+C1−U−C2)/36，转置仍保x+y单位域，不能把裸负一非零代中央卷积。不重跑。
 
 R1042原H3/F81三canonical四输出、93/2511 odd与90/810 even全核、完整Q及原五深网格三对log差v=n已付。§8平均保1296真cut/72网格支，D1\Dn全递归和至少两unit部分均保。§9norm25 whole返回的12支质量M*非零，归一A−S首项dM*log〈r*〉、Nr*=291/763；全尾估值固定ℓp而非n。真实Y−(7+4δ)H混合条件不能删；其余完整补域继续，不给任意Π乘子中央零。
 
