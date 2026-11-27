@@ -1,0 +1,55 @@
+{
+  "schema": "isp-pure-V8-actual-source-execution-v1",
+  "date": "2026-11-27 Asia/Taipei",
+  "source_sha256": "9ab0270fe53a0a6f169755f92f731e6cf636f1d9b7a9e12364ef487a01cdea6e",
+  "source_bytes": 5812,
+  "execution": "Function(source)() in the exposed V8 exec runtime",
+  "actual": {
+    "schema": "isp-new-compact-all-original-means-and-N1-integer-return-v1",
+    "variables": [
+      "b",
+      "c",
+      "rho",
+      "f",
+      "X",
+      "Y",
+      "t"
+    ],
+    "elapsed_milliseconds": 16,
+    "integerPolynomialProducts": 624,
+    "checks": [
+      {
+        "name": "raw_original_F2",
+        "fullIntegerPolynomialDifferenceZero": true
+      },
+      {
+        "name": "raw_original_E0",
+        "fullIntegerPolynomialDifferenceZero": true
+      },
+      {
+        "name": "new_compact_R2_original_mean_identity",
+        "fullIntegerPolynomialDifferenceZero": true
+      },
+      {
+        "name": "new_compact_W4_original_mean_identity",
+        "fullIntegerPolynomialDifferenceZero": true
+      },
+      {
+        "name": "new_compact_original_N1_polarized_Nv_identity",
+        "fullIntegerPolynomialDifferenceZero": true
+      },
+      {
+        "name": "new_compact_original_EB_minus_EC_identity",
+        "fullIntegerPolynomialDifferenceZero": true
+      }
+    ],
+    "compactR2ExpandedTerms": 229,
+    "compactW4ExpandedTerms": 486,
+    "compactNvExpandedTerms": 286,
+    "compactEBminusECExpandedTerms": 120,
+    "actualExecution": "pure V8 BigInt exact integer polynomial arithmetic",
+    "NvNormalization": "polarization of original N4",
+    "noPhiOrUnpaidNormAssumption": true,
+    "noNewExclusionClaim": true
+  }
+}
