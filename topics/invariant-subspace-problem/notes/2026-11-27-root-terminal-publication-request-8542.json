@@ -1,18 +1,19 @@
 {
-  "message": "ISP: restrict the whole main Phi rho-head branch to at most eight weight parameters",
-  "parentCommit": "ab3ae4d072e487941a18a97c5a9576af18797f32",
+  "message": "ISP: prove full six-site S2 for one special weight and reject the uniform quarter trace gate",
+  "parentCommit": "2bb1cbd05997dd09f9dd5183f30579f6850e1b68",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-Phi-zero-main-rho-head-eight-weight-cover.md",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-main-rho-head-eight-weight-cover-execution-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-main-rho-head-P6-P9-specialized-exact-input-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-main-rho-head-monic-543-weight-cover-exact-input-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-main-rho-head-C6-C71-modular-projection-exact-input-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-Phi-main-eight-weights-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-Phi-main-eight-weights-8542.md",
+    "topics/invariant-subspace-problem/results/R271-appendix-six-site-one-special-weight-full-s2-and-sharp-trace-square-budget.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-six-bit-s2-one-parameter-exact-8542.mjs",
+    "topics/invariant-subspace-problem/notes/2026-11-28-six-bit-s2-one-parameter-exact-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-28-six-bit-s2-retained-exact-parameters-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-main-rho-head-minus-quarter-original-fiber-and-remaining-Gauss-input-8542.py",
+    ".github/workflows/invariant-subspace-8542-phi-main-minus-quarter-fiber.yml",
+    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-six-bit-special-full-S2-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-six-bit-special-full-S2-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -21,5 +22,7 @@
     ".github/workflows/invariant-subspace-8542-root-terminal-publication.yml",
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
-  "dispatchWorkflows": []
+  "dispatchWorkflows": [
+    "invariant-subspace-8542-phi-main-minus-quarter-fiber.yml"
+  ]
 }

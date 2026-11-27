@@ -1,0 +1,147 @@
+{
+  "schema": "isp-six-site-s2-one-parameter-exact-v1",
+  "elapsed_ms": 239,
+  "physical_blocks": {
+    "FU_inverse": true,
+    "physical_metric": true,
+    "actual_compressed_inverse": true,
+    "same_source_both_cross_terms": true
+  },
+  "kappa": {
+    "numerator": [
+      "0",
+      "25",
+      "-20",
+      "-26",
+      "12",
+      "9"
+    ],
+    "denominator": [
+      "243",
+      "891",
+      "1242",
+      "810",
+      "243",
+      "27"
+    ],
+    "multiplicity": 4,
+    "remaining_eigenvalue": "0"
+  },
+  "one_third_gap": [
+    "243",
+    "816",
+    "1302",
+    "888",
+    "207"
+  ],
+  "full_S2_half_gap": [
+    "81",
+    "193",
+    "310",
+    "214",
+    "57",
+    "9"
+  ],
+  "counterexample": {
+    "t": "36",
+    "b": [
+      "6",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1"
+    ],
+    "kappa": [
+      "62568100",
+      "231129639"
+    ],
+    "trace_square": [
+      "15659068550440000",
+      "53420910024270321"
+    ],
+    "strictly_greater_than_one_quarter": true
+  },
+  "saved_scalar": {
+    "records": 119401,
+    "numerator_terms": 119367,
+    "numerical_content": "11555266180939776",
+    "at_t": "36",
+    "reduced_scalar": [
+      "15659068550440000",
+      "53420910024270321"
+    ],
+    "gap_sign": -1,
+    "exact_family_match": true
+  },
+  "scope": "All t>0: the same complete S2 operator is strictly below I/2; the full cost K is strictly below I/3. Both constants are sharp on this family. The uniform six-site trace-square <1/4 gate is false; this is not a counterexample to general S2.",
+  "actual_original_run": {
+    "run_id": 46052984288,
+    "job_id": 140688624777,
+    "head_sha": "940862f5d297dea60c4beefc3fc8e229c6aedaa5",
+    "inner_elapsed_seconds": 24.720906012,
+    "peak_rss_KiB": 378284,
+    "exit_code": 0,
+    "status": "EXACT_SCALAR_READY",
+    "source_sha256": "0ceac477553b71d58b63d57fb3c291ed2d2544459a2107524b8dbe88b6661d3f",
+    "raw_capture": {
+      "schema": "isp-six-pair-exact-output-chunks-v1",
+      "status": "EXACT_SCALAR_READY",
+      "bytes": 13500093,
+      "sha256": "423b912b07b261926425ae25ef7cf581fa24acd2e3755e558081b70404f3dab4",
+      "encoding": "base64+zlib+json",
+      "chunks": 83,
+      "base64Characters": 6175528
+    }
+  },
+  "primitive_division": {
+    "elapsed_ms": 106,
+    "content": "11555266180939776",
+    "record": [
+      {
+        "name": "delta",
+        "power": 1,
+        "exact": false,
+        "steps": 1363,
+        "obstruction": [
+          2,
+          8,
+          10,
+          8,
+          8,
+          4
+        ]
+      },
+      {
+        "name": "epsilon",
+        "power": 1,
+        "exact": false,
+        "steps": 177,
+        "obstruction": [
+          21,
+          1,
+          12,
+          9,
+          5,
+          4
+        ]
+      },
+      {
+        "name": "Delta",
+        "power": 1,
+        "exact": false,
+        "steps": 3739,
+        "obstruction": [
+          1,
+          8,
+          9,
+          8,
+          10,
+          3
+        ]
+      }
+    ],
+    "terms": 119367
+  },
+  "scope_of_division": "The complete delta/epsilon/Delta factors do not divide the original numerator. No complete coprimality assertion is made for their possible proper factors."
+}
