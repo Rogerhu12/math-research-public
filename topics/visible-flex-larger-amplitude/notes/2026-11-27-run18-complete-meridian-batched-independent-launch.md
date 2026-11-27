@@ -375,3 +375,85 @@ controller20000秒是新阶段admission checkpoint，活child不因它被声明�
 本提交时actual_run_id、input whole identities、model/point、report、接受/几何、准确费用和真实mesh精化均尚待返回。后续只在本note和H/log/open记录真实官方事件，request/controller已执行对象保持其原身份。
 
 课题仍未完成。完整有限场回传后继续全准确normal/六jet/全phase帽mixed/R650/hold/reach/R716 δE及固定参数真实mesh/frequency/t精化，直到README全部标准达到。
+
+## 7. 官方真实启动与research已进入
+
+在2026-11-27 20:16:30 UTC官方只读复核中，真实run **46062343475/1** 已存在，created_at及run_started_at均为**2026-11-27T20:15:09Z**，head为本次成功启动提交**1b76cb746b3b6cd5d9b9c5b9d20fc83a0e3e838c**。真实job **140719355272**，依赖安装已成功，research step已in_progress。此观察尚未读取原input/科学的自然返回小卷，故不提前给实际输入hash、初场或解。
+
+首次普通update返回UNKNOWN并伴并发HEAD前移，root立即freshHEAD完整合并重推；第二次普通update成功，未force、不冒终端pull。官方实际head为1b76，不将未挂ref候选a8c925当本次实际执行源。request及初始63936B三步对象此后保持不变，实际controller逐次记录detached scientific source与各步骤whole输出。
+
+完整本次官方投影及jobs包装如下：
+
+```json
+{
+  "observed_at_utc": "2026-11-27 20:16:30 UTC",
+  "run_id": 46062343475,
+  "run_attempt": 1,
+  "head_sha": "1b76cb746b3b6cd5d9b9c5b9d20fc83a0e3e838c",
+  "status": "in_progress",
+  "conclusion": null,
+  "created_at": "2026-11-27T20:15:09Z",
+  "run_started_at": "2026-11-27T20:15:09Z",
+  "html_url": "https://github.com/Rogerhu12/math-research-public/actions/runs/46062343475",
+  "official_jobs_wrapper": {
+    "jobs": [
+      {
+        "id": 140719355272,
+        "name": "Construct the fixed target and run the full meridian-batched solver",
+        "status": "in_progress",
+        "conclusion": null,
+        "run_id": 46062343475,
+        "logs_url": null,
+        "steps": [
+          {
+            "name": "Set up job",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 1
+          },
+          {
+            "name": "Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 2
+          },
+          {
+            "name": "Run actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 3
+          },
+          {
+            "name": "Install the recorded numerical and automatic differentiation dependencies",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 4
+          },
+          {
+            "name": "Execute public research and publish independent compact records",
+            "status": "in_progress",
+            "conclusion": null,
+            "number": 5
+          },
+          {
+            "name": "Post Run actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
+            "status": "pending",
+            "conclusion": null,
+            "number": 9
+          },
+          {
+            "name": "Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+            "status": "pending",
+            "conclusion": null,
+            "number": 10
+          }
+        ]
+      }
+    ]
+  },
+  "scientific_step_natural_return": false,
+  "actual_input_or_field_result_not_yet_observed": true
+}
+```
+
+原完整pure7词/445formal已完整预声明，只有真实科学返回才接入其文件；潜在input成功不等于全场完成，任何partial/progress/final待实际读取。README全部指标仍未完成，继续实际求解和完整后继。
