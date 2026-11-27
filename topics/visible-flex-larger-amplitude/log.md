@@ -154,3 +154,8 @@
 18 callable科学实际source512fcefd67eb0adba7b27e654cb51bacf82c2439、launcher d683，8.196651488s自然exit1，仅50558B command、report缺失。原完整science固定f2eb4，现仅退真返对象并排原5d25读取器读0007-8be405c2d4f2.log；16argv/45selector全保（精确对象计数更正旧scope44）。未猜内部异常，未重建输入或缩科学预算。[完整第三返回与读参](computations/resume-20261127-run18-callable-bound-actual-tracebacks-ready.json)；[持续完整说明](notes/2026-11-27-run18-complete-callable-binding-repair-and-continuation.md)。
 
 第50轮19份旧derived JSON1246989B按固定60321451完整原字节恢复合同退下，新增7件193202B，净1053787B。完整11源/12输入/19argv/16份小报告全部非rows字段/3大体精确Git身份、实际失败及未知全保；三个旧producer/helper整SHA匹配原记录，原R12/当前科学/ports/Nelder不动。[完整保全说明](notes/2026-11-27-legacy-core-screen-flat-retention-50.md)。当前树逐对象再核，未整读大体/binary、未本地科学；研究继续。
+
+
+## 2026-11-27：第三原栈实际读取完成，完整producer来源修复继续科学
+
+第8原5d25诊断实际0，完整6727B log从byte0读取：第三科学错误是geometry c1dad的独立helper常量仍7aa，而真实normal已加载eaea。根上一轮传播漏项如实登记；仅此一常量改，原guard及全数学原字保。完整geometry5730→batch9104→driver10fa→reader8027/launcherf600→input d892已精确传播，当前137/18源和原120pairs全保，5运行源+1准确input改变。完整science97806B/157argv/458formal、pure85234B/7argv/445formal、48live/全部budget保持，producer-bound完整科学已排原18 runner，两原input不重建，纯读全对象后接。旧三个失败/source/全参数历史均保，未从修复推科学成功。[完整说明](notes/2026-11-27-run18-complete-producer-binding-repair-and-continuation.md)。open原29726B逐字归档、§1–6原23359B不变，当前§7更新保持<30KB；不删未付或未知责任。

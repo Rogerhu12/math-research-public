@@ -101,24 +101,14 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 ## 7. 当前完整闭面主线与实际续作
 
-本节此前完整字、每个来源/参数/预算/失败未知与所有旧note链接保[30e12全文](https://github.com/Rogerhu12/math-research-public/blob/30e12e97c9a3995756c00450ff3ed39ed882e3d7/topics/visible-flex-larger-amplitude/open.md)及其完整固定旧链；§1–6原23359B不变。以下动作索引不取代完整说明/manifest/ready。
+此前本节与全部open原字29726B、SHA256 `45693fd5bd013a12e6da8027aedb2b3f002bd601525ed2dc019d5a218ee56f15`，完整保[原文归档](notes/2026-11-27-open-through-callable-third-failure.md)。§1–6的23359B前缀原字保持；此前各完整参数、原来源、失败、历史及未知责任不是删去，按归档及其原链接继续。
 
-1. **固定g与13/14/15。** R717七RN-even64、R690、923节点、11actual输入、math957cf/fulltarget50df/refea64及2218全尾accuracy=false保持。12官方cancelled，仅两input0，无完整科学/纯读返回或可验证complete/final13；潜在typed/末场未知保。13/14/15分别46028002241/46028184571/46031953783、attempt1；全部128/131来源、全域/cuts/参数与费用/closed计划保前全文。13原1–6含两失败，仅base-schema修后科学未返；14/15两input0后科学未返，N/M normal在排。完整未返对象不裁，不把网格包含当同根或精化。
+当前固定g Fejer原全输入主线：M160/J923/N2048/32stage；13做N4096、14做M320、15做J1845、16原seed、17较宽seed、18完整meridian值复用/批角。它们是独立真实来源/模型/场，不能凭相同坐标hash移植结论。12已经官方cancelled、只两input0，无完整科学自然返回；潜在末场/history仍未知。
 
-2. **16/17真实数学。** [16实测](notes/2026-11-27-run16-initial-mathematics-and-point-bound-progress.md)46037017666/1，model8cc/current7e06，Phi5551.477153263786/finiteGram.6480138218929927/g11.17545381570094；首4086、第二25f几何/decision未捕获，第三880d20:22统计5551.4767315961935/.6480138150914985、几何/决定未返，accepted0。[17实测](notes/2026-11-27-run17-wide-seed-actual-mathematics.md)46053911348/1，仅b/S1/4和δ1/32新seed，model f2e417/current7e06，Phi4954.71485872585/Gram.6374168330977955/g2.0480426708394406>0；首924732统计4954.694898882501/.6374164670510035、几何/决定未返、accepted0。六g定义保16note，最大分项未显示不猜；同坐标异model不冒同场。
+17在真实21:01:36 current-geometry事件首接受恢复方向，924732、Phi4954.694898882501、Gram0.6374164670510035、正几何违反2.04762068147831>0；report/完整final/packet仍未返。16第三880d只统计返、几何/决定未返、accepted0；各实际时刻与全source见[16数学](notes/2026-11-27-run16-initial-mathematics-and-point-bound-progress.md)、[17事实](computations/run17-first-accepted-restoration-observation.json)。未公开分项不猜，进度不冒费输入。
 
-3. **18实际修复并续求。** [137角色完整入口](notes/2026-11-27-complete-meridian-batched-solver-entry.md)保原120pairs/全部变量/32stage/预算/active J/J*及每stage/final原复读，原41b4/d3f1/b54c、388c/7aa/51b7失败族固定36fb3539d71ac8826645df636359d34769f786e9。[真实启动与异常](notes/2026-11-27-run18-complete-meridian-batched-independent-launch.md)46062343475/1：两input0，科学1/8.147s/缺report，原5d25诊断0；normal构造时frame拒绝新_meridian_data完整绑定。[完整修后续求](notes/2026-11-27-run18-complete-method-binding-repair-and-continuation.md)已提交5b0d/79375/fda0与33c/d3cf/45dd/fd299全链，137不增；只补精确新wrapper身份，所有guard/数学预算原保。新method-bound实际5a8d/fda0又exit1/8.185s/缺report，第二原诊断0实证helper7aa对普通function取__func__失败；精确修静态/绑定方法来源提取并保全部验证，原input保，不推数值失败。完整157/7 args、原408/395与新458/445正式、live6+42全保；修后两ready97549/84983B、单科学queue65281B；fullpair104670compact>95000，科学真返后接全pure，不裁。上一完成trial与六g观察不代accepted或执行断点。
+18前三科学均实际exit1，原三完整诊断均0；依次为frame完整wrapper身份遗漏、static function错误解包、geometry旧helper来源常量漏传。第三是根上层传播遗漏。现[完整producer修复/续求](notes/2026-11-27-run18-complete-producer-binding-repair-and-continuation.md)及[完整交付](computations/fixed-fejer-meridian-producer-binding-repair-complete-delivery.json)保新10fa/8027/f600、准确input d892、geometry5730与全部137角色/18运行源。helper eaea/normal76185/packet c750/binder3ee原保；仅来源常量及必要pins，不改guard或数学。完整157/7 argv、458/445formal、48live和全部预算保，producer-bound新output完整科学已排原runner复用两真返input；pure全对象后接。新实际source commit/完整场/结果仍未知。
 
-4. **准确费与闭几何。** 原16/17所有完整后继见前全文；[18六源准确费](notes/2026-11-27-meridian-batched-fixed-fejer-complete-accurate-fees.md)11件435970B、[closed/R718](notes/2026-11-27-meridian-batched-closed-phase-grip-r718-source-adapter.md)5件230004B/cbd012、[R716十二矩](notes/2026-11-27-meridian-batched-complete-R716-moment-source-adapter.md)6件323585B/c1ae+daff，均为原18失败族完整候选、未执行。完整38+8、8、10+8argv和全部selectors/900s/600s/1Mleaf/192bits保。修后科学族需准确新pin全链，不把旧hash贴新体。必须付整圆1024胞/922径向+cuts/全部32normal/六jet/全积分尾/working、上下/p4帽/mixed/allphase/R650、八beta+径向、主副件唯一record/晚失败。normal.complete不代连续branch；真实closed/独立无标记外管/正V/非零中心矩才付含反射δE。R718共同marked σ与R719/R720全ρ>0不可漏。
+独立producer_R722准确后验核及全部normal/连续几何/closed/R718/R716/mesh必须显式接本族；旧R709粗bool不伪造true。全部三残差、1024整圆、922径向及cuts、32stage/六jet/全tail与working费用、原周期胶合、帽/mixed/allphase/R650、八beta+径向、唯一主件/sidecar、无标记外管/正V/非零中心矩仍待实际支付。normal.complete不代连续branch，mean Jacobian不代Cu，有限complete不代连续认证。
 
-5. **数学与真实精化。** [R721](results/R721-supported-seed-width-and-profile-sensitivity.md)给参数曲率竞争/完整移动B_b，不给Gram或主曲率排序。[R722](results/R722-posterior-convex-mean-root-existence.md)从完整准确候选残差ε及明确正余量证明唯一真根/r±/非对称J逆/全角拼接；完整归一化/边层补集/尾/working差与整角胞ε尚未实际付，旧R709粗bool不改，[完整独立R722核](notes/2026-11-27-R722-posterior-mean-complete-source-interface.md)5件196903B/e10a+9da，准确输入fd299/5b0d族、全叶/批次/有理归属实读；原7133B角jet/profile后缀保，实际费未付、下游接续，Dhat不代根。[完整mesh/t](notes/2026-11-27-stage-observed-complete-same-field-phase-meshes.md)32+6参数、32normal/922径向/两帽/五t/三级空间时间及15科学mesh+5预览各<5MB只runner保；M320零包含不代新解。固定g/参数/t精化至机器/原容差并满足README全部标准后才能收尾，再加强比例。原同源restart只真complete/final，partial/accepted13不充父，pending与窗口未知全保。
-
-只退真实自然返回对象；完整active/history固定Git保。03–11全部known/unknown/typed/发现序/失败保旧链，iteration_limit非驻点、时限非终点。ret49/48及旧台账保全部旧源参数/失败未知/消费者/原字恢复，仅退旧raw，ports/Nelder保。每结论普通推；每真pull只读双README新差异并记H已读commit。
-
-
-### 真实18 static/bound callable 修复后的完整续求
-
-[完整callable交付](computations/fixed-fejer-meridian-callable-binding-repair-complete-delivery.json)及[实际说明](notes/2026-11-27-run18-complete-callable-binding-repair-and-continuation.md)：两次原异常读后，仅修实际两处解包并全量传播来源。当前d5db/0d6d/d683、input38ae；137角色与全部157/7参数/458/445formal/48live保留。新科学实际512f/d683又exit1、缺report；原5d25第三异常读取已排，内部原因未知，原input不重建；pure全对象保。所有R722/closed/R716/mesh须新来源显式绑定，费用与README义务继续，不能用旧族或修复成功替付。
-
-
-17首恢复方向已真实接受，g仍2.04762068147831>0、report未返；全时刻/来源/未知见[事实](computations/run17-first-accepted-restoration-observation.json)。[ret50完整保全](notes/2026-11-27-legacy-core-screen-flat-retention-50.md)净退1053787B，仅19旧派生结果，全原源/参数/失败恢复保。
+同一固定g/参数的全5t与空间/频率/时间实际精化和完整网格必须继续；M320零包含不代新解。只真实complete/final13可作严格同源restart，partial/accepted13不够。[ret50保全](notes/2026-11-27-legacy-core-screen-flat-retention-50.md)及旧台账只退旧派生结果，全source/全部参数/失败未知/恢复身份保。README真正完成标准未达到，时长、阶段和输入困难均不是停止条件。

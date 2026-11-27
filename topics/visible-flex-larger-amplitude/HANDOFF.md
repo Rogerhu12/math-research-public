@@ -5,7 +5,7 @@
 
 ## 规则与同步
 
-root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端失效、15:03:35重置后唯一复核仍失败，恢复即真pull。云核至 `a5336137da1e250de09a75d4f6bb9e96defe7389`（非pull）。双README SHA256：581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d。每真pull只读新差异即遵守、至少每小时；活13–18通常每5分钟真pull、已读commit在末槽。12终态前末真pull19:41:24至febbfdf90fc257b59e14078173fcb8e15bcdbd32，完整旧槽保1b76H。
+root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端失效、15:03:35重置后唯一复核仍失败，恢复即真pull。云核至 `8011bcf5c2eb589fe2a0345db98434494dec2c71`（非pull）。双README SHA256：581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d。每真pull只读新差异即遵守、至少每小时；活13–18通常每5分钟真pull、已读commit在末槽。12终态前末真pull19:41:24至febbfdf90fc257b59e14078173fcb8e15bcdbd32，完整旧槽保1b76H。
 私库QUEUE进行中已推e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。root独占refs/queue，每结论普通推；NFF有终端即rebase重推，否则freshHEAD完整合并，不冒pull/force。令牌仅瞬时CLI。[完整发布支持](computations/resume-20261127-root-publication-support.mjs)保。
 科学仅本公开Actions；raw只runner/scratch，不Git/Release/artifact、不改名输入。全源/全部参数/真实run/whole输出身份保。题≤200MB、文件<5MB、MD<100KB、H<10KB、open<30KB；先metadata，不整读≥100KB或binary。根§12不加独立审查/冻结/AST/fixture/重跑门、不减原目标预算。[旧log](log/2026-11-27-session-through-fejer-closed.md)全字保。
 
@@ -25,11 +25,11 @@ root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端�
 | 15=46031953783 | 两input0后97ae/4ea科学未返；J1845全源/双胞全费保open§7历史。 |
 | 16=46037017666 | 两input0后a8b0749a/ed810/PID3868科学未返，完整157/7参数92522B保。 |
 | 17=46053911348 | 两input0后36ef0794/ed810/PID3823科学未返，完整wide157/7参数92407B保。 |
-| 18=46062343475 | 两input0、三次science1、前两原异常reader0；第三实栈原完整reader已排，同runner输入保。 |
+| 18=46062343475 | 两input0、前三science1、三原异常reader0；producer修后完整157已排，同runner原输入保。 |
 
 [16真实数学](notes/2026-11-27-run16-initial-mathematics-and-point-bound-progress.md)model8cc/current7e06/g11.17545381570094，第三880d统计已返、几何/决定未返、accepted0；首/二几何决定未捕获。[17真实数学](notes/2026-11-27-run17-wide-seed-actual-mathematics.md)仅b/S1/4、δ1/32新seed，model f2e417/current924732；21:01:36真实current-geometry，accepted1、g2.04762068147831>0，完整report仍未返。全部精确Phi/Gram/点/source记录保全note；六g未展示分项不猜，同坐标异model不冒同场。
 
-18两次实际失败及完整原栈保[首/次修复记录](notes/2026-11-27-run18-complete-method-binding-repair-and-continuation.md)。第二5a8d/fda0确为helper7aa对static function取__func__失败。[完整callable修复/续求](notes/2026-11-27-run18-complete-callable-binding-repair-and-continuation.md)已全保137角色、18运行源、11新完整来源（含准确input38ae）：helper eaea/normal76185/packet c750；driver d5db/reader0d6d/launcher d683。仅两处实际callable提取兼容与必要pins，保所有hash/身份/数学/原120pairs/32stage/预算。完整science97836B/157argv/458formal、pure85264B/7argv/445formal、48live原保；callable-bound新output单完整科学队列65309B复用真返回原input。实际512f/d683又8.19665s exit1且缺report，第三原栈读取已排、内部原因未定；只退已真返回对象，pure全对象后接，合并>95000不裁。源码父bf863、全参数父36fb与两旧失败族完整保。
+18三真实失败/完整原栈保[callable记录](notes/2026-11-27-run18-complete-callable-binding-repair-and-continuation.md)与[producer修复续求](notes/2026-11-27-run18-complete-producer-binding-repair-and-continuation.md)。第三512f/d683/8.19665s exit1缺report，原诊断044730/5d25返回0，6727B全log确认geometry漏传helper7aa→eaea，责任为根上层传播，不是数学失败。现完整geometry5730/batch9104/driver10fa/reader8027/launcherf600/准确input d892已保；其余13运行源原字不变。全137角色及原120pairs、全部数学/guard/变量/32stage/预算保。完整science97806B/157argv/458formal、pure85234B/7argv/445formal、48live原保；producer-bound新output单科学65310B已排，同runner复用真返input。新实际完整结果未定，pure全对象待自然返回后接；完整源码父f2eb、全参数父36fb和三旧失败族原保。
 
 ## 后继与未付责任
 

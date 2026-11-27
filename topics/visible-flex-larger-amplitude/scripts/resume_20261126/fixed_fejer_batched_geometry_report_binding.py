@@ -16,7 +16,7 @@ from pathlib import Path
 SCHEMA = 'actual-fixed-fejer-batched-geometry-report-binding-v1'
 ROLE = 'batched_geometry_binding'
 GEOMETRY_NAME = 'so3_fixed_fejer_batched_missing_angle_geometry.py'
-GEOMETRY_SHA256 = 'c1dad273c31eacfd25e245927e35b07f0010441f95bc71a3dd56082c665c0e98'
+GEOMETRY_SHA256 = '5730b1792d58c1c695592aaea8a229d76b68f8bd1fefe8ded6016afba9566135'
 GEOMETRY_BYTES = 88163
 GEOMETRY_SCHEMA = 'complete-fixed-fejer-batched-missing-angle-envelope-world-geometry-v1'
 CONSTANT_NAMES = (

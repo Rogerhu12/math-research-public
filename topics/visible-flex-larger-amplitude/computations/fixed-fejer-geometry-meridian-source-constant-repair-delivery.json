@@ -1,0 +1,67 @@
+{
+  "schema": "complete-fixed-fejer-geometry-meridian-source-constant-repair-v1",
+  "date": "2026-11-27",
+  "complete_parent_commit": "f2eb4e3aaa6d9568418dd0373acb585738984823",
+  "whole_parent": {
+    "name": "so3_fixed_fejer_batched_missing_angle_geometry.py",
+    "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/so3_fixed_fejer_batched_missing_angle_geometry.py",
+    "bytes": 88163,
+    "sha256": "c1dad273c31eacfd25e245927e35b07f0010441f95bc71a3dd56082c665c0e98",
+    "git_blob_sha": "372e9da72b43c41b8c004d6e514ee8e83723415a"
+  },
+  "complete_runtime_source": {
+    "name": "so3_fixed_fejer_batched_missing_angle_geometry.py",
+    "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/so3_fixed_fejer_batched_missing_angle_geometry.py",
+    "bytes": 88163,
+    "sha256": "5730b1792d58c1c695592aaea8a229d76b68f8bd1fefe8ded6016afba9566135",
+    "git_blob_sha": "c5325d3da8329547ad81e74a5da479323bfccd21"
+  },
+  "unchanged_helper": {
+    "name": "fixed_fejer_detached_meridian_values.py",
+    "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_detached_meridian_values.py",
+    "bytes": 41126,
+    "sha256": "eaeaf274bf0e74e63afbaa92588ea48d8ea75316f602882f49e71fa7453cb1de",
+    "git_blob_sha": "2b547c08dcaeb55701f5c68ba56d405f595f5b9e"
+  },
+  "unchanged_normal": {
+    "name": "fixed_fejer_detached_meridian_normal_lift.py",
+    "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_detached_meridian_normal_lift.py",
+    "bytes": 96276,
+    "sha256": "76185c2184bd9b29eaec1177b540d1d549ea8b6b6e57befe3c2840618051407d",
+    "git_blob_sha": "fc51c16b6dbd53abf04fe9175e5421f77e25c49c"
+  },
+  "exact_patch": {
+    "before": "DETACHED_MERIDIAN_VALUES_SOURCE_SHA256 = '7aa760baa30a46484d90bc5e327849ab5229cca708e6ba4289b12da253a5facd'",
+    "after": "DETACHED_MERIDIAN_VALUES_SOURCE_SHA256 = 'eaeaf274bf0e74e63afbaa92588ea48d8ea75316f602882f49e71fa7453cb1de'",
+    "occurrences": 1
+  },
+  "source_reproducer": {
+    "name": "reproduce_fixed_fejer_geometry_meridian_source_constant.mjs",
+    "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/reproduce_fixed_fejer_geometry_meridian_source_constant.mjs",
+    "bytes": 4134,
+    "sha256": "e71abd38b4ef356a8b999d7a8ac035e92d273e4ce687c463f4b0520b7d88e179",
+    "git_blob_sha": "94dcee9a80558bf90d19b7fe8e2c3f198eeb0b90"
+  },
+  "note": {
+    "name": "2026-11-27-actual18-geometry-meridian-source-constant-repair.md",
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-27-actual18-geometry-meridian-source-constant-repair.md",
+    "bytes": 5241,
+    "sha256": "2706afbb45b776573c03f7747662fe1b9686502e72ebb1925e98a6e4b748ebc9",
+    "git_blob_sha": "09c00263f4ed1ce26369f92bc6cc05a6d850e1f0"
+  },
+  "actual_exception": {
+    "log_bytes": 6727,
+    "log_sha256": "bf27eb1ef9a48f892e131a6a7acdfdf49be12e63627ddbec5b72c32504159048",
+    "diagnostic_source_commit": "0447302e7554a6139b8b4a12dc2e139681aaf1c0",
+    "original_scientific_source_commit": null,
+    "original_full_report_returned": false,
+    "geometry_line": 363,
+    "exception": "ValueError('Use the complete actual query-independent meridian data producer')",
+    "cause": "Second repair propagation changed the normal pin but retained the old detached-meridian helper pin in geometry."
+  },
+  "all_original_functions_and_guard_bytes_unchanged": true,
+  "source_only_inverse_restores_whole_parent": true,
+  "scientific_calls_or_AST_or_fixture_execution": false,
+  "future_driver_reader_launcher_input_source_pins": null,
+  "future_complete_field_point_snapshot_or_fee": null
+}

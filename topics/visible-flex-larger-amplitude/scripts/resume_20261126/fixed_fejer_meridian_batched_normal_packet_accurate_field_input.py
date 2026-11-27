@@ -26,8 +26,8 @@ SCHEMA = "actual-fixed-fejer-meridian-batched-complete-normal-packet-accurate-fi
 TOPIC = "topics/visible-flex-larger-amplitude"
 SCRIPT_DIRECTORY = "scripts/resume_20261126"
 PINS = {
-    "reader": ("read_fixed_fejer_meridian_batched_so3_report.py", "0d6d70b5bb0b1901216d0fb90117c36bded5e2c70d13cd6a8982d8f0a0cbf323"),
-    "driver": ("fullclosed_fixed_fejer_meridian_batched_so3_qp.py", "d5db14d2806a99cc60a9f131d678978c9ac5eb4cef5d216869baedcca3411a47"),
+    "reader": ("read_fixed_fejer_meridian_batched_so3_report.py", "8027ec35ea8ee74ab38468678683d798530e8c7a229ec3f9e8d5c631c75dde49"),
+    "driver": ("fullclosed_fixed_fejer_meridian_batched_so3_qp.py", "10fa4e4e679cbe02b56456f05479c8136bd0481fd16384992a557cefc9a4bf3f"),
     "packets": ("fixed_fejer_meridian_root_packets.py", "c750d234fc370d3c74da4577bc99f7fca417dbed169bc3a9d1e7222ea99c84b4"),
     "normal": ("fixed_fejer_detached_meridian_normal_lift.py", "76185c2184bd9b29eaec1177b540d1d549ea8b6b6e57befe3c2840618051407d"),
     "base": ("fixed_fejer_supported_so3_meridian_operator.py", "552f75dd138b81217f88155dab61446416a54510d3d947cc2bb1b3fde5b800b3"),
