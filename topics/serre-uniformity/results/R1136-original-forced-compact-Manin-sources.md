@@ -411,3 +411,264 @@ $$
 
 
 root 已逐原文核 SV 的 E′ 是 degree n+1 的 base change、完整 norm、§4.3 的 bottom-row 路径方向，以及 §§6.3–6.4 的 integral 范围；并独立支付 (F8)–(F10) 的 analytic dual convention。候选 4caa7fd50d18d28a71e13714c9fa44ce1bb7dc92 已保 θ²=1 的 quadratic 例外。上述未付 operator / rank-one twist / 四阶门仍按 §8.4 保留。
+
+
+## 11. 完整 smoothed 来源的原 Hecke 相容性
+
+本节补齐 §8.4 的第一项中 **smoothed** 来源的 Hecke 门。所有 $\ell$ 均为不同于 $p$ 的素数；辅助 $n$ 仍按 §2 取值。系数先在 $\mathbb Z[1/30]$ 上处理，再约模 $p$。没有引用 SV Proposition 7.2.6。
+
+### 11.1 在所有真实 ordered bases 上保持 regularity
+
+在 universal $E^2$ 上，把 SV §7.1 的 regular 子群改为沿所有原 ordered $p$-bases 的 sections 同时 regular 的子群，记为 $K_2^{\rm bas}(p)$。若需包含所有 Weil 分量，就在相应有限不交并上作同一构造。这是沿该有限 section 集的开邻域之 motivic cohomology 的直接极限。
+
+determinant prime to $p$ 的整矩阵排列这些 sections。prime-to-$p$ isogeny 的源、靶基也仍是 ordered bases，所以物理 pullback–corestriction 保持这个 regular 子群。对 ${}_n\Theta$ 出现的每个 primitive row，其在任何 ordered basis 上都是非零 $p$-torsion 点；$n\ne p$ 保证它不碰 $E[n]$。因此整个 smoothed cocycle、各 source Hecke 作用及各 physical target Hecke 作用均取值于 $K_2^{\rm bas}(p)$。
+
+SV Lemma 7.1.1 的 injectivity 证明对此有限 section 集原样成立。具体地，Gysin sequence 将不 regular 的差项放入经过这些 sections 的水平不可约 divisor 所给的有限支撑直和。在 generic non-CM elliptic fiber 上，
+$$
+\operatorname{NS}(E^2)\otimes\mathbb Q
+$$
+是 binary quadratic forms 的三维表示；非零有效 divisor 的 NS 类非零，且在 $\mathrm{SL}_2(\mathbb Z)$ 下轨道无限。在任意 finite-index subgroup 下轨道仍无限。因此上述有限支撑直和没有不变元，给出
+$$
+H^1(\Gamma,K_2^{\rm bas}(p))
+ \longrightarrow H^1(\Gamma,K_2)
+\quad\text{单射}
+\tag{F38}
+$$
+对本文所用每个 finite-index $\Gamma$ 成立。沿 section 集移去的 divisor 都支配 base；垂直 divisor 不是这个相对 regularity 比较中的新增项。
+
+所以 SV Theorem 6.5.4 在 big $K_2$ 中的相容等式已经在 (F38) 的 regular 子群中成立，可以实际 pullback 到原 full-level curve。这一步不需要先在 $p$ 处约化曲线，更不需要除以 $p$。
+
+### 11.2 限制到原 Cartan 群的 CRT 陪集
+
+令 $\Gamma_{H'}\subset\mathrm{SL}_2(\mathbb Z)$ 为 $H'=J^{-1}HJ$ 的 inverse image。取 $b_\ell$ 为原 Cartan 中 norm 为 $\ell\bmod p$ 的元素，置
+$$
+\bar g=J^{-1}b_\ell J.
+$$
+存在整矩阵 $g$ 满足
+$$
+\det g=\ell,\qquad g\bmod p=\bar g:
+\tag{F39}
+$$
+从 $\operatorname{diag}(\ell,1)$ 出发，左乘一个 lifting
+$\bar g\operatorname{diag}(\ell^{-1},1)\in\mathrm{SL}_2(\mathbb F_p)$
+的 $\mathrm{SL}_2(\mathbb Z)$ 元即可。因 $b_\ell$ 正规化 $H$，$g\bmod p$ 正规化 $H'$。
+
+在 $\ell$ 处，$g$ 的 Smith form 为 $\operatorname{diag}(\ell,1)$。条件
+$g^{-1}\gamma g\in M_2(\mathbb Z)$ 恰为 $\gamma\bmod\ell$ 保持一条 line；在 $p$ 处不添加条件，因为 $\bar g$ 正规化 $H'$。CRT 给
+$\Gamma(p)\twoheadrightarrow\mathrm{SL}_2(\mathbb F_\ell)$，所以
+$$
+[\Gamma_{H'}:\Gamma_{H'}\cap g\Gamma_{H'}g^{-1}]=\ell+1.
+\tag{F40}
+$$
+可取 $\gamma_i\in\Gamma(p)$ lifting 各个
+$\mathbb P^1(\mathbb F_\ell)$ coset，令 $g_i=\gamma_i g$。
+于是 $g_i$ 同时是一组 full-$\mathrm{SL}_2$ Hecke right-coset representatives 和一组 $\Gamma_{H'}$ representatives，且全满足 $g_i\bmod p=\bar g$。
+
+若 $\gamma\in\Gamma_{H'}$ 且
+$\gamma g_i=g_{\sigma(i)}\gamma_i'$，则
+$\gamma_i'\bmod p=\bar g^{-1}\bar\gamma\bar g\in H'$。
+因此 big cocycle 的 Hecke 公式限制后逐项就是原 $\Gamma_{H'}$ 公式，没有暗中换 level，也没有以较大群的一个 double coset 代替原群的多个未知 double cosets。由 $2$ 可逆，从 SV 的 $\mathrm{GL}_2$ convention 限制到 determinant-positive 部分不添加整 $p$ 分母。
+
+### 11.3 determinant-$\ell$ 的 dual convention 与同一 $\sigma_\ell$
+
+对 $g=\left(\begin{smallmatrix}a&b\\c&d\end{smallmatrix}\right)$、$\det g=\ell$，实际 degree-$\ell$ analytic isogeny 是
+$$
+E_\tau\longrightarrow E_{g\tau},
+\qquad z\longmapsto\frac{\ell z}{c\tau+d}.
+$$
+在 $(\tau/p,1/p)$ 的 level columns 上，其矩阵为
+$$
+\ell g^{-T}=JgJ^{-1}.
+\tag{F41}
+$$
+所以不能在 determinant $\ell$ 时只搬用 $g^{-T}$，但实际 isogeny 的这个 $\ell$ 恰好补足该因子。按 (F39)，所有 Hecke summands 的 physical marking change 都是同一个 $b_\ell$。
+
+经 $H$-trace 后，该 coefficient action 正是原 $\sigma_\ell$。由 (F38)–(F40) 限制 big comparison，并用有限商 transfer 与 isogeny pull–push 的相容性，得到
+$$
+\sigma_\ell\,
+ \mathfrak z_{n,X}(T_\ell c)
+  =\widetilde T_\ell\,\mathfrak z_{n,X}(c)
+  =\sigma_\ell T_\ell\,\mathfrak z_{n,X}(c).
+$$
+这里所有 $T_\ell$ 均用 SV (6.14)–(6.15) 的同一 source–target convention；在 coarse quotient 的 elliptic stabilizers 处保留原 pull–push multiplicities。约去两侧同一个可逆 $\sigma_\ell$，即
+$$
+\boxed{\;
+\mathfrak z_{n,X}(T_\ell c)
+ =T_\ell\,\mathfrak z_{n,X}(c).
+\;}
+\tag{F42}
+$$
+$\Delta$ 与 $T_\ell$ 交换，故 (F42) 也保持 $e_\theta$ 部分。它只陈述完整 $B_n$ 读数的相容性，未将 $B_n$ 的 cyclic correlation 删掉。
+
+## 12. rank-one source 的 exact twist 与 away-from-$p$ 整 Hecke 商
+
+本节补齐 (F26) 的实际谱及整算子来源。将 $\theta$ 作 Teichmüller 提升 $\widehat\theta:\mathbb F_p^\times\to\mathbb Z_p^\times$。它非平凡且偶。下列特征零论证用一个兼容的复嵌入；最后的整 Hecke 商及其模 $p$ 约化独立于此选择。
+
+### 12.1 exact conductor 为 $p^2$
+
+对 $S_2(\Gamma_0(p),\widehat\theta^2)$ 中任一 normalized eigenform $f$，令
+$$
+g=f\otimes\widehat\theta^{-1},
+\qquad
+a_\ell(g)=\widehat\theta(\ell)^{-1}a_\ell(f)
+\quad(\ell\ne p).
+\tag{F43}
+$$
+该 level-$p$ source 全部 new：若 $\widehat\theta^2\ne1$，nebentype 已有 conductor $p$；若 $\widehat\theta^2=1$，level-one 的 weight-two cuspidal space 为零。
+
+若 $\widehat\theta^2\ne1$，$f$ 在 $p$ 的 local type 是一条 unramified character 与一条 conductor-one character 的 principal series。twist 后两条 inertia characters 为 $\widehat\theta^{-1}$ 与 $\widehat\theta$，均非平凡，各有 conductor exponent one，所以 exact conductor exponent 为 two。若 $\widehat\theta^2=1$，$f$ 的 local type 是 Steinberg 的 unramified twist；再扭以非平凡 ramified quadratic $\widehat\theta$，conductor exponent 亦为 two。
+
+这也直接满足 Shemanske–Walling Theorem 7.1(2)：原 level exponent 为 one、twisting conductor exponent 为 one，而 $\operatorname{cond}(\widehat\theta^2\widehat\theta^{-1})=p$。因此 $g$ 是 exact level $p^2$、trivial nebentype 的 normalized newform；(F43) 是实际 Fourier coefficient 等式。
+
+### 12.2 真实正规化子正号
+
+上述 principal-series finite type 为
+$\operatorname{Ind}_B^{\mathrm{GL}_2(\mathbb F_p)}
+(\widehat\theta^{-1},\widehat\theta)$。
+其 non-split Cartan fixed space 是一维。对反射 coset 作 character average：split 半部贡献 $2\widehat\theta(-1)$，non-split 半部贡献零，故 normalizer involution 在固定线上作用为
+$\widehat\theta(-1)=1$。
+
+quadratic 例外的 finite type 为
+$\operatorname{St}\otimes(\widehat\theta\circ\det)$。
+其 Cartan fixed space 也为一维；反射 coset 上每个 character value 都是
+$\widehat\theta(-1)$，故仍取正号。这项保留了 §7 的真实例外，没有把它误并入 irreducible principal series。
+
+这些是原 full-level 的有限表示，因而 $g$ 出现在原 $X_{\rm ns}^+(p)$ 的 Hecke 谱中。经原 Chen 比较，它属于 $p^2$ 的 Fricke 正 new 部分。等价的 local epsilon 检查是
+$\tau(\widehat\theta)\tau(\widehat\theta^{-1})
+=\widehat\theta(-1)p$；两条 unramified factors 抵消，quadratic Steinberg twist 给相同正号。此 Gauss 恒等式只核符号，下一步并不以 Gauss sum 除整格。
+
+### 12.3 不需 integral twisting matrix 的整 Hecke 商
+
+令 $\mathbb T_X^{(p)}$ 是原 compact $X$ 的 $\mathbb Z_p$-Hecke order，由 $T_\ell$、$\ell\ne p$ 生成。令
+$\mathbb T_{1,\widehat\theta^2}^{(p)}$
+是 compact level-$p$ source 的对应 away-from-$p$ Hecke order，diamond 已固定为 $\widehat\theta^2$。则有实际满射
+$$
+\boxed{\quad
+\mathbb T_X^{(p)}
+ \twoheadrightarrow\mathbb T_{1,\widehat\theta^2}^{(p)},
+\qquad
+T_\ell\longmapsto
+ \widehat\theta(\ell)^{-1}T_\ell^{(1)}.
+\quad}
+\tag{F44}
+$$
+
+证明不需要在 $p$ 整同调上制造除以 Gauss sum 的 twisting operator。若 $P(T_{\ell_1},\dots,T_{\ell_s})=0$ 是原 compact Hecke order 的关系，则它在每个实际 $g$ 上为零；(F43) 使
+$P(\widehat\theta(\ell_i)^{-1}T_{\ell_i}^{(1)})$
+在 source 的全部特征零 eigenforms 上为零。Eichler–Shimura 与特征零 Hecke semisimplicity 使其在 compact source 的 rational homology 上为零。该 homology 的 $\mathbb Z_p$ 格无挠，所以它在整格上也为零。所有 $\widehat\theta(\ell_i)$ 为 $\mathbb Z_p$ 单位，故所得 image 包含全部 source generators，证明满射。
+
+此证明只用 same-spectrum 的实际 Fourier coefficient 关系，既不声称两个 compact homology 格同构，也不声称 normalized analytic twist 本身是 $p$-integral。**(F44) 不包含 level-$p$ 的 $U_p$**：exact level-$p^2$ new source 的 $T_p=0$ 不能自动运输为 $U_p$；本文不需要这个未经证明的扩大。
+
+## 13. 原 line 加权 pull–push 与 twisted source 的相容
+
+本节全在模 $p$ 中；(F44) 给所需的整来源，约模后使用。设 $c$ 属于 compact level-$p$ source 的 diamond-$\theta^2$ 部分，定义
+$$
+\Phi_n(c)=\frac1{p+1}
+ \operatorname{Cor}_{K(Z)/K(X)}
+ \sum_{L\in\mathbb P(V)}
+ m^{-2}\theta(Nv_L)^{-1}
+ \,\pi_L^*\mathfrak z_{n,1}(c).
+\tag{F45}
+$$
+其 source conventions 与 (F23)–(F26) 完全相同。更换 $v_L\mapsto tv_L$，权乘 $\theta(t^2)^{-1}$，被 pullback 的实际 diamond eigenclass 乘 $\theta(t^2)$，所以每项不变。norm-one 和反射的变换同 §5，故可作原 $H$-trace。Cartan determinant $d$ 的重指标给
+$$
+\sigma_d\Phi_n(c)=\theta(d)\Phi_n(c).
+\tag{F46}
+$$
+没有第二次 Galois projection 或额外 bar norm。
+
+固定 $\ell\ne p$。从 full level 忘到 $(E,P_L)$，再加一个 cyclic order-$\ell$ kernel，与先加该 kernel 再忘标记，是同一个 Cartesian moduli square。quotient 把 $P_L$ 送到 $P_L+C$；所有原 norm 权保留不变。有限 $H$-corestriction 与这个 pullback–pushforward 交换。因此直接由 SV Proposition 7.1.3 的 **smoothed** Hecke 等式得到
+$$
+\Phi_n(T_\ell^{(1)}c)
+  =\widetilde T_\ell\Phi_n(c)
+  =\theta(\ell)\,T_\ell\Phi_n(c).
+\tag{F47}
+$$
+这里 $\widetilde T_\ell=\phi_*\psi^*$，
+$\phi(E,P,C)=(E,P)$、
+$\psi(E,P,C)=(E/C,P+C)$，与原 (F30) 同方向。没有额外 adjoint 或 diamond factor；若换成 dual Hecke convention，必须同时改两端。
+
+所以 (F45) 对 (F44) 的 quotient action 真正 Hecke-equivariant：
+$$
+\Phi_n\bigl(\theta(\ell)^{-1}T_\ell^{(1)}c\bigr)
+ =T_\ell\Phi_n(c).
+\tag{F48}
+$$
+这支付的是实际 weighted line pull–push；没有把 full-level 至 $X_1(p)$ 的 degree-$p$ pullback 反除，也没有假定一个整 $p$ twisting matrix。
+
+对 §7 的指定 $C_{\chi,\psi}^{(1)}$，(F26) 在原 $X$ 上的读数为 $2\Phi_n(C_{\chi,\psi}^{(1)})$。将 (F44) 作用于 (F31) 得
+$$
+\widetilde V_\ell^{(a)}
+ \longmapsto
+ \ell^4-\ell^2T_\ell^{(1)}
+       +\ell\,\theta(\ell^2).
+\tag{F49}
+$$
+因此在明确混合门 (F33) 成立时，原 compact $X$ 上的 smoothing unit-ideal 也满射到这个真实 rank-one compact source；quadratic 例外仍照 (F43)–(F49) 处理。这不需要 SV Proposition 7.2.6 的 $p\nmid N$ 假设。
+
+### 13.1 单位理想上的真实 unsmoothing，以及它没有消掉的部分
+
+设 (F33) 成立，记
+$$
+L=H_1(X,\mathbb F_p)\ \oplus\
+  H_1(X_1(p),\mathbb F_p)_{\theta^2},
+\quad
+\Psi_n(x,y)=2(p-1)e_\theta\mathfrak z_{n,X}(x)+2\Phi_n(y).
+\tag{F50}
+$$
+第二个 summand 的 $\mathbb T_X^{(p)}$-action 是 (F44) 的约化，仍用同一 SV compact-source convention。以
+$V_n=n^4-n^{a+2}T_n+n^{2a+1}$
+表示该代数在 $L$ 上的作用。
+
+SV Lemma 7.2.1 的证明只使用 big integral comparison 及 (F38) 的 injectivity；加上 (F40) 的限制后，完整 smoothed family 满足
+$$
+\Psi_n\circ V_\ell=\Psi_\ell\circ V_n,
+\qquad
+\widetilde V_\ell\,\Psi_n=\Psi_n\circ V_\ell.
+\tag{F51}
+$$
+$\widetilde V_\ell$ 在这里是 target 上的真实 physical correspondence polynomial；虽然在 $\theta$ 部分公式与 source 的 $V_\ell$ 相同，暂不将 source Hecke order 的全部关系强加给整个 target。
+
+(F33) 与 (F44) 给有限多个 $n_i>3$、$n_i\ne p$，及 source Hecke operators $A_i$，使
+$\sum_iA_iV_{n_i}=1_L$。
+这里只用 $n_i>3$ 仍足够：若有 maximal ideal 同时包含这些 $V_n$，则其实际 residual Galois traces 在所有 $n>3$、$n\ne p$ 上为 $n^r+n^{1-r}$。Chebotarev 迫同一 residual pseudorepresentation，故也满足被排除的 $I_r$；删去 $2,3$ 不产生新 block。
+
+现在定义一个实际 source map
+$$
+\Psi=\sum_i\Psi_{n_i}\circ A_i.
+\tag{F52}
+$$
+由 (F51) 直接得
+$\Psi\circ V_\ell=\Psi_\ell$，且 $\Psi$ 为 Hecke-equivariant。
+若另一个 map 有同样性质，其差 precompose 每个 $V_{n_i}$ 都为零，再 precompose $\sum_i A_iV_{n_i}=1$ 即知差为零。因此 (F52) 不依赖所选 unit-ideal expression。这是 source 上的真实 unsmoothing，未引用需要 $p\nmid N$ 的 SV Proposition 7.2.6。
+
+为了明确其与裸 cup 的范围，[R1138](R1138-original-integral-bare-cup-smoothing-comparison.md) 已从实际单位除子与完整 cyclic norms 给出整模 $p$ 比较
+$$
+\Psi_n(c_{\chi,\psi}^{(2)},C_{\chi,\psi}^{(1)})
+ =\frac4{m^2}\widetilde V_n\{F_\chi,F_\psi\}.
+$$
+则能严格推出的是
+$$
+\frac4{m^2}\{F_\chi,F_\psi\}
+-\Psi(c_{\chi,\psi}^{(2)},C_{\chi,\psi}^{(1)})
+\ \in\
+\bigcap_{n>3,\ n\ne p}\ker\widetilde V_n
+\quad\text{在原 target 的 }\theta\text{ 部分}.
+\tag{F53}
+$$
+不能把 source 中的 $\sum_iA_iV_{n_i}=1$ 直接视为整个 $K_2/p$ target 的恒等式；也不能把 (F52) 中非零 compact cycle 的像说成零。
+
+至此，§8.4 保留的两个 **smoothed source/operator** 门都已支付。在明确的 (F33) 范围内，(F52) 又支付了 source 上的唯一 unsmoothing。裸比较的实际单位常数现由 R1138 支付；target common kernel、指定 compact cycle 的值及真正四阶 cochains 仍分别处理。本节没有宣告指定不同角色的 cup 为零。
+
+### 本次后继使用的原文与复核
+
+- SV 作者全文 §§6.5、7.1，尤其 Theorem 6.5.4、Lemma 7.1.1、Proposition 7.1.3；(F38) 与 (F40) 给 full-level/Cartan 限制所需的两个额外论证。
+- Thomas R. Shemanske、Lynne H. Walling，*Twists of Hilbert modular forms*，Trans. Amer. Math. Soc. 338 (1993), 375–403；作者全文
+  <https://people.maths.bris.ac.uk/~malhw/twists.pdf>，Propositions 5.1–5.2、Theorem 7.1(2)（作者 PDF 第 14、25 页）。
+- Luis Dieulefait、Ariel Pacetti、Panagiotis Tsaknias，*On the number of Galois orbits of newforms*，作者全文
+  <https://sweet.ua.pt/apacetti/papers/OrbitsInvariants.pdf>，Theorem 4、Theorem 20 的 local-type/root-number 证明。这里的具体 normalizer 正号另由 §12.2 的 character average 自证。
+- 原 full-level 表示及 same-spectrum 接口见 R1083 §1 的 Mercuri–Schoof 原来源；这里只消费其中对任意奇 $p$ 的有限表示证明，不搬用固定 $47$ 的数值或整格证书。
+
+o2_high_coefficient 已独立核准 exact twist / away-from-$p$ order，以及 (F45)–(F48) 的真实 $\phi_*\psi^*$ 方向。以上无数学程序执行。
+
+root 另亲读 SV Lemma 7.1.1、7.2.1 及 Shemanske–Walling Theorem 7.1(2)，并纸核两个 finite-type 的 Cartan fixed line 与反射平均；(F53) 现直接消费已发表 R1138，不再是假设裸比较。§8.4 的旧待付项目以本 §§11–13 的后继为准。

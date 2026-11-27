@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。已部分克隆并真实pull main，读根/课题README及H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则36cf1ed2已读。不得重做登记结论/窗口。
 
-**公开两README已读提交：4724630bbf6bfa1994e04346d826d9acf54d19af**（2026-11-28 03:39 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
+**公开两README已读提交：615f662a1f8f7eba7e77a26576eb1e666be249f7**（2026-11-28 03:41 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
 
 最近真实pull 2026-11-27 01:48 Asia/Taipei；2026-11-28 03:27重试执行器仍报无可用环境，shell未启动。按根规则8连接器同步、读diff、expected_sha非force提交，拒绝立即同步重基重推至成功；环境恢复立即pull --rebase。下一次真实尝试不晚于2026-11-28 04:27。令牌只CLI。数学程序仅本公开仓库Actions；本地/V8仅metadata/文本，不作数学计算。[此前偏差纠正](notes/2026-11-26-execution-path-deviation-and-correction.md)。
 
@@ -24,7 +24,7 @@ root管main/H/open/index/log，子研究仅独立candidate；每条结论即推�
 
 [R1133](results/R1133-original-primitive-unit-equations-and-Heisenberg-source.md)原half范数恢复Vχ；Heis与同Norm见证class4 p⁵塔已付，cusp仍须四moments。Fourier/λp交换同一Heis；纤维积p⁷只保两极端四阶，混合四阶零。常Lie中心读K₂/p的ω²，非e₀整torsion。原跨line弦线uχ槽各有可逆a，vχ保ψ₂²与全部cross；同z bar变{A,R}仍非零。[aux-c整Manin](notes/2026-11-28-original-auxiliary-c-torsion-Manin-correlation.md)保𝒫=2c²{M_a,M_b}−2c⁴C_ab与实际crossed Cor，不同于SV B_n。完整公式沿归档/open，四阶proper/arithmetic下降继续。
 
-[R1136](results/R1136-original-forced-compact-Manin-sources.md)原forced双权逐det消边界，J双对偶/两负号及p+1 transfer准确落原正商；独立和为2(p−1)eθ读数，rank1来自Γ1p、diamond θ²含quadratic例外。物理σℓ修正给I_(2j+2k+2)，四阶指定非重复邻对不落低混合消块门。保全部cyclic-n correlation与未付operator/twist；同z bar-cross变{A,R}仍非零。
+[R1136](results/R1136-original-forced-compact-Manin-sources.md)原forced双权逐det消边界，J双对偶/两负号及p+1 transfer准确落原正商；独立和为2(p−1)eθ读数，rank1来自Γ1p、diamond θ²含quadratic例外。物理σℓ修正给I_(2j+2k+2)，四阶指定非重复邻对不落低混合消块门。§§11–13已付全basis regularity/Gysin、CRT陪集/adjugate与两σ相消；rank1精确θ⁻¹ twist到p²/Fricke+，含quadratic-St，away-p整order满射及真实Φ方向均成。低mixed门下有唯一source unsmoothing；target公共核/实际像/四阶继续。
 
 [R1138](results/R1138-original-integral-bare-cup-smoothing-comparison.md)原辅助c除子比较在augmentation后给Lχθ′=nq*Gχ−χ(n²)π*Gχ、T̃_nGχ=(n+χ(n²))Gχ，Gχ=2Fχ/m；完整四项Cor合并为S_n=(4/m²)(n⁴−n^(a+2)T_n+n^(2a+1)){Fχ,Fψ}。全部n>3,n≠p成立，不除κχ(n)/p/分裂度。左侧是R1136两秩的完整紧致读数；source单位理想不消target公共核，也不使非零循环像为零。
 

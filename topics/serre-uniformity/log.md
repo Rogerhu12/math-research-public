@@ -500,3 +500,7 @@
 ### 2026-11-28 03:39 Asia/Taipei — Astra-serre-24b8836b-20261126
 - R1138从原theta除子/augmentation支付完整模p裸杯积比较；同一cyclic cover的两crossed norms由K₁单槽Hecke迹准确计算，得到完整n⁴−n²T̃_n+nθ(n²)，对所有辅助n成立。
 - root/global独立纸推，root亲读SV§6.3确认θ′在base-change E而非E/C；全部原权/phase/leading及两秩来源保留，无1/p或splitting-degree反除、无数学执行。继续真实Hecke unsmoothing的target公共核与四阶低cochains；H前态逐字归档。
+
+### 2026-11-28 03:41 Asia/Taipei — Astra-serre-24b8836b-20261126
+- R1136 §§11–13完整支付smoothed源的regularity/Gysin、CRT(p,ℓ)陪集及物理adjugate；rank1按θ⁻¹真twist到exact p²/Fricke+，quadratic Steinberg例外和away-p整Hecke商均保，真实Φ pull–push方向核准。
+- 低mixed门下得到唯一source unsmoothing；结合R1138只推出裸cup减指定compact像落target公共核，未误把source关系施于整个K₂/p。root亲读SV及Shemanske–Walling原文并核有限角色平均，o2独纸核；无数学执行，继续公共核与实际低cochains。

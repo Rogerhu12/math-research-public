@@ -30,7 +30,7 @@
 
 [原跨line弦单位](notes/2026-11-28-original-cross-line-chord-unit-equations.md)：i仅原E[p]索引，(P,aP,iP)给真实U+V=1。一次实际bar范数保全部θ相位/leading，两槽类为uχ(a)Fχ/m、vχ(a)Fχ/m；uχ=2[g(a+1)−g(a−1)]、g(t)=(t²−δ)^r−t^(2r)。低/高r根数付每actualχ都有2≤a≤m使uχunit；第二槽全ψ₂²保留、不除κ₂。不保证两χ共a或V槽unit。原Norm crossed Cor/四阶下降继续；泛配置双tame非零只作边界，不能传到实际椭圆。
 
-[R1136](results/R1136-original-forced-compact-Manin-sources.md)：原forced双权在每个det片分别消边界；analytic γ⁻ᵀ=JγJ⁻¹的两负号准确相消，p+1 transfer落真正X_ns^+。独立部分为2(p−1)eθ紧致读数；rank1部分来自Γ1p并保diamond θ²，含θ quadratic例外。完整B_n保全部cyclic-n Cor；物理σℓ给I_(2j+2k+2)，R1132只在额外低混合Bernoulli门消整块，原四阶非重复邻对不满足该范围。同z bar-cross准确变{A,R}，不同z项仍保；actual operator、rank1 twist与四阶见证继续。
+[R1136](results/R1136-original-forced-compact-Manin-sources.md)：原forced双权在每个det片分别消边界；analytic γ⁻ᵀ=JγJ⁻¹的两负号准确相消，p+1 transfer落真正X_ns^+。独立部分为2(p−1)eθ紧致读数；rank1部分来自Γ1p并保diamond θ²，含θ quadratic例外。完整B_n保全部cyclic-n Cor；物理σℓ给I_(2j+2k+2)，R1132只在额外低混合Bernoulli门消整块，原四阶非重复邻对不满足该范围。同z bar-cross准确变{A,R}，不同z项仍保；§§11–13现付全basis regularity、CRT/adjugate及两σ相消；rank1 θ⁻¹ twist exact p²/Fricke+（含quadratic-St）、away-p整Hecke商及Φ方向全成。低mixed门下唯一source unsmoothing满足F53：裸cup减指定紧致源像落target公共核。还须该公共核与实际像，四阶见证继续。
 
 [R1138](results/R1138-original-integral-bare-cup-smoothing-comparison.md)已付真实模p裸比较：辅助c除子及augmentation精确消全部base factor，Lχθ′=nq*Gχ−χ(n²)π*Gχ、T̃_nGχ=(n+χ(n²))Gχ；两个crossed norm由projection formula完整计算。全部n>3,n≠p均有S_n=(4/m²)(n⁴−n^(a+2)T_n+n^(2a+1)){Fχ,Fψ}，左侧为R1136的独立+rank1真实紧致来源。未除κχ(n)、level p或splitting degree；不使用有理Siegel的1/p。source单位理想仍须与target公共核区分，未宣cup零/四阶cover成。
 
