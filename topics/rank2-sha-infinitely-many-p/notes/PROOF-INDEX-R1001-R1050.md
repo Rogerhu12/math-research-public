@@ -22,3 +22,5 @@
 - [R1009](../results/R1009-fixed-highest-extension-and-one-motive-obstruction.md)：先固定7993-depleted实际54图，经R817原Katz→R806→R1002/1006检测原P−非零；扩张Lie Ru=原V(2,−1)。Jossen半阿贝尔Lie仅0/1排整个有限1-motive张量/对偶/子商范畴，任意有限扩域后亦然；不排纯V。兼容Frob不见扩张，固定一次有限域约化仅有限ℓ挠检测，继续真正level3跨ℓ输入。
 
 - [R1010](../results/R1010-original-thirteen-weighted-trace-and-two-exact-compression.md)：单原K/C的g6/g7 Frobenius隔核权保第六读数，完整push给13⁶，下推至原E2并付唯一六次核补项6Tr(c^p b)及全norm。下层C³全零，两exact帽+60降+12/+14；原六位前五项、γ和840低卷积全保。固定Kummer13项及第一Cartier把p增长权返有限tame字线，不赋新中央零。
+
+- [R1011](../results/R1011-fixed-undepleted-highest-cycle-and-chow-euler-factors.md)：全54图在原full9上由σ_ar=[π]的完整商同构，给一次/二次图pullback和全部degree修正；P−/η/Cor后严格Chow等式Y_j,p^depletion=d_j(p)Y_j,0。两个明确Euler因子均非零；消β Euler后固定未depletion类AJ²精确接原Kν，7993真检测同一固定Y0，跨p非零仍待。

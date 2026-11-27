@@ -6,7 +6,7 @@
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。固定有限曲线族联合无穷非零可用无限鸽巢；有限p、随p换曲线、条件桥、接口或单独投影非零不完成。
 
-- 公开根/课题 README 已读至 `c1724b90b80d8c3196c32a04ab69b5099717f6b3`（差异空）；每次pull只读新差异，至少每小时同步并记SHA。
+- 公开根/课题 README 已读至 `1b9fa1ebc031000629531189b262551a5928dbce`（差异空）；每次pull只读新差异，至少每小时同步并记SHA。
 - 两仓库已部分克隆。私库QUEUE接手提交41fe885610073f478b2f5a752461ca56cfd43f09已推；01:04UTC pull至2b4660e1f0f3187c1a7d2d7397d375a208c5d19e，两README差异空、QUEUE仍本会话进行中。令牌只进程认证。
 - root独占git/H/open/log/index；每条结论即推，非快进立即pull --rebase/读README差异/再推至成功，不强推。数学只用公开Actions；不存可重算输出。H<10KB、每MD<100KB。
 - [此次完整逐字归档](notes/2026-11-27-handoff-before-fixed-highest-extension.md)及其历史链保全部旧式/回执/未解门；[open](open.md)、[results](results.md)、[R1001–1050索引](notes/PROOF-INDEX-R1001-R1050.md)及前卷为接续入口。
@@ -47,6 +47,8 @@ R988严格level12 K3双逆保持，但R990已证明其新CM17全图族在2处Cho
 - R997：先π1(E)使原图严格同调零；唯一Coleman解Db″+D′b′−6b=−3/v²给AJ=−degφ·b/cφ。BDP3.14全部条件/full9下降/54图全trace/η和对偶均付；fΩ=−δf27(τ/3)、θ^-2含9，depletion循环系数1,−A_p/p²,1/p²。cyclic27条件失败，未套全球5.13。R1002已由严格复值及原始CM周期给全部分裂p/全部系数素位的β27 Katz值非零；原ν和新β的全部有限型/经典权分支及p处四Euler因子核合。R1006已付实际full9/54图全球接线；原ν跨p非零仍未付。
 
 - R1006：实际g=P h、det−2原K分量、row/adjugate全9基与光滑∞源已付；完整54商向量P2/P17=−q⁴、P3=−6√3ω。Hsieh一般2.1及Igusa上先消Euler后延拓给raw AJ²=−486ω34²[L:H]²Ωp²KνKβ；原eη的1/18全trace恰消，corestriction倍数不删。原ray Artin对偶再乘1/17。Kβ全部分裂p非零，故新最高图AJ⇔原Kν非零；跨p非零仍须证明。
+
+R1011：同一个未depletion最高Y_j,0在严格Chow层满足Y_j,p^depletion=d_j(p)Y_j,0；d=(1−η(p)/barπ)(1−η(p)barπ/π²)，两因子复模项p^-1/2故全非零。原full9/54图/σ_ar与π两次pullback、degree34p^k/修正项和全Cor均付，A_p=π²+barπ²。固定Y0 AJ²=−486ω34²γ_j[L:H]²Ωp³Kν/(1−ν(p)/p)²（原Artin另1/17）；7993真检测这个同一固定类，跨p非零仍开。
 
 R1009：固定7993-depleted新54图Y_j后，R817原Katz矩→R806→R1002/1006给其原P− AJ非零。真实扩张Ru=Ga、Lie=原V，Tate指数2/−1；Jossen半阿贝尔Lie只有0/1，故任意有限扩域后也非有限1-motive张量/对偶/子商。纯V本身仍属CM张量，不能混淆。Serre兼容Frob只见半单化；固定一次有限域约化的挠AJ仅有限ℓ。继续更广level3混合输入/原ν跨p非零。
 
