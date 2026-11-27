@@ -1,0 +1,199 @@
+{
+  "schema": "isp-W-full-values-ambient-reduction-first-negative-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "source": {
+    "blob": "54b9b0c7d04982e78829da8b1886ec5b92b49a04",
+    "sha256": "7681be8c837ed4f45929815627f5d1d1421fdf955f94213277333bf430d07e4b",
+    "bytes": 26170,
+    "limits": {
+      "seconds": 180,
+      "addressSpaceGiB": 4
+    }
+  },
+  "actual": {
+    "run": 45981471920,
+    "job": 140446181313,
+    "driver": {
+      "elapsed_seconds": 180.075155169,
+      "max_child_rss_kib": 96736,
+      "ordinary_isp_claim": false,
+      "rules_reads": [
+        {
+          "after": "209b0c5a874c6a4e8c6483fd0b5d83de845fe224",
+          "before": "209b0c5a874c6a4e8c6483fd0b5d83de845fe224",
+          "rules_git_blobs": {
+            "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+            "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+          },
+          "rules_unchanged": true,
+          "utc": "2026-11-27T10:22:08.946270+00:00"
+        }
+      ],
+      "run_attempt": "1",
+      "run_id": "45981471920",
+      "schema": "isp-frozen-exact-actions-execution-v1",
+      "session": "Astra-ISP-8542378f-20261127",
+      "source_commit": "209b0c5a874c6a4e8c6483fd0b5d83de845fe224",
+      "source_exit_code": -14,
+      "source_git_blob": "54b9b0c7d04982e78829da8b1886ec5b92b49a04",
+      "source_sha256": "7681be8c837ed4f45929815627f5d1d1421fdf955f94213277333bf430d07e4b",
+      "stdout_bytes": 15122,
+      "stdout_sha256": "33b1958fd4476903af4733eb712f3e50a6678c0e5c77a888c75cde73fd4d0ce2",
+      "stop_reason": null
+    }
+  },
+  "completedNewStages": [
+    {
+      "stage": "new_W_centered_value_true_monic_tower",
+      "s": "(ell*zeta-T)/u=-v1",
+      "v0": "(T+(u-ell)*s)/ell",
+      "zeta": "(T+u*s)/ell",
+      "originalFirstSecondThirdMomentsActuallyRebuilt": true,
+      "secondMomentIdentity": "ell*E2=M*s^2-D",
+      "thirdMomentIdentity": "ell^2*B-3ell*T*A+2T^3-2(u-ell)*D*s=ell*(2(u-ell)*s+3ell+3T)*E2-ell^2*E3",
+      "newMonicRelation": "s^2=Dlinear/M",
+      "originalMonicTraceActuallyVerified": true,
+      "noDOrDNormInverted": true,
+      "originalDUnitStillRequired": true,
+      "claimExcluded": false,
+      "seconds": 1.442233796
+    },
+    {
+      "stage": "new_W_full_original_value_and_individual_NP_identities",
+      "branchAssumption": "original Delta=0 and W=0 only",
+      "originalEDeltaAndECompatibilityRebuilt": true,
+      "originalN4VCorrectionMinusQfHAOveru2ActuallyVerified": true,
+      "originalP1AndCompatibilityProductsVerified": true,
+      "individualNAndPBothSpectralConjugatesVerified": true,
+      "weightedNSPSDerivedFromIndividualRowsAndOriginalMoments": true,
+      "originalLambdaDValueZetaAndSUnitsRetained": true,
+      "noDOrValueLeadingDivided": true,
+      "claimExcluded": false,
+      "seconds": 2.477233700000003
+    }
+  ],
+  "completedExpandedRowRecords": [
+    {
+      "stage": "new_W_four_generator_full_original_value_row",
+      "name": "Gram_E1",
+      "summary": {
+        "numeratorDegrees_e_k_w_Y_s": [
+          18,
+          24,
+          6,
+          1,
+          0
+        ],
+        "denominatorDegrees_e_k_w_Y_s": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "terms": 3584,
+        "bytes": 81851,
+        "sha256": "3cd225ad38c663569a434212bfceaa025debdb74ae2c7d2c861bbaf76f481d79"
+      },
+      "paidRemoved": [
+        [
+          "e",
+          1
+        ]
+      ],
+      "completeOriginalMonicReductionProductsActuallyVerified": true,
+      "originalFiniteValueInputPreserved": true,
+      "certificateBytes": 86848,
+      "certificateSHA256": "f151ddafa861b0053524c2f6b47a3835e49130a2e7a135ea0bf62ba57e688bad",
+      "claimExcluded": false,
+      "seconds": 4.5248156710000025
+    },
+    {
+      "stage": "new_W_four_generator_full_original_value_row",
+      "name": "Gram_EBe",
+      "summary": {
+        "numeratorDegrees_e_k_w_Y_s": [
+          15,
+          20,
+          6,
+          1,
+          0
+        ],
+        "denominatorDegrees_e_k_w_Y_s": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "terms": 2444,
+        "bytes": 52223,
+        "sha256": "ac11a3e563bdf4dc63ba5eabba1d01b8566c751d5d8b513ec076b4b5a130a3bd"
+      },
+      "paidRemoved": [
+        [
+          "e",
+          1
+        ]
+      ],
+      "completeOriginalMonicReductionProductsActuallyVerified": true,
+      "originalFiniteValueInputPreserved": true,
+      "certificateBytes": 55585,
+      "certificateSHA256": "ae9285cb5d42a93b97cba3a486d1481baff7a029edebdcf4a172c64763a8b8ac",
+      "claimExcluded": false,
+      "seconds": 5.745901293000003
+    },
+    {
+      "stage": "new_W_four_generator_full_original_value_row",
+      "name": "Gram_N1",
+      "summary": {
+        "numeratorDegrees_e_k_w_Y_s": [
+          20,
+          29,
+          6,
+          1,
+          0
+        ],
+        "denominatorDegrees_e_k_w_Y_s": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "terms": 4645,
+        "bytes": 115276,
+        "sha256": "74cad46a1de0086fcaf34fc1467a32797d3847f3951a971cc8de6875b0e2225b"
+      },
+      "paidRemoved": [
+        [
+          "e",
+          2
+        ],
+        [
+          "u",
+          1
+        ]
+      ],
+      "completeOriginalMonicReductionProductsActuallyVerified": true,
+      "originalFiniteValueInputPreserved": true,
+      "certificateBytes": 124339,
+      "certificateSHA256": "bc92c1354cd5fb5a113719798b8fec584fea59d847f319a794aaa1dd8b589c1f",
+      "claimExcluded": false,
+      "seconds": 9.794682600000002
+    }
+  ],
+  "lastCompletedStage": "Gram_N1",
+  "nextPendingRow": "original_third_moment",
+  "exactPendingInnerSubstep": "not exposed: no marker between reduction, normalization and serialization",
+  "notCompleted": [
+    "ten original reduced rows",
+    "eight multiplication columns",
+    "twenty row multiplications",
+    "final matrix certificate"
+  ],
+  "memoryLimitEvidence": false,
+  "mathematicalExclusionClaim": false,
+  "frozen": true,
+  "noRerunWithoutNewMathematicalInput": true
+}
