@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [全部正权出生一首末边的尖锐2/3](results/R271-appendix-sharp-two-thirds-universal-birth-one-first-and-last-edges.md)：完整物理逆、全部位数及无限正ell²行，次数10完整整数证书与尖锐极限；高出生/同W来源仍开。
+
 - [碰撞Delta非零同点原四参数式](results/R150-appendix-unit211-equal-singleton-Delta-nonzero-four-complete-original-polynomials.md)：原NV/P1精确恢复，四完整原核心及QQ不可约返回，保全部Q/λ首项零；个别N/P续。
 
 - [W完整原NV的纯T五次理想替换](results/R150-appendix-unit211-W-entire-original-NV-pure-T-quintic-ideal-compression.md)：无D逆的未约化恒等，T5头已付，三新参数式λ14/12/11；保全部新头零面。

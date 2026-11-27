@@ -267,3 +267,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 ## h=k 余Delta非零的四个完整同点原式（8542，2026-11-28）
 
 [新原四式](results/R150-appendix-unit211-equal-singleton-Delta-nonzero-four-complete-original-polynomials.md)：6b21真3.239153137秒/57596KiB/0，整Delta0闭后同P1/NV恢复f=Fnum/Delta、z=Tnum/(bcDelta)，四原均值/N1核心度49/12/5、48/12/6、54/13/6、51/13/6且完整QQ不可约。W的Q头只依λ，但未付为单位；所有λ/权头零保留。新4500直接读两个约66KB精确系数参数片段，先原Q头全分解，再(R,W)/(R,N1)两固定11阶QQ结式；多变量gcd1不作空性，个别N/P仍保。
+
+## R271 全正权出生一首末边的尖锐2/3（8542，2026-11-28）
+
+[完整尖锐定理](results/R271-appendix-sharp-two-thirds-universal-birth-one-first-and-last-edges.md)：全部N≥4独立正物理权及无限正ell²行的真实完整逆满足Γ1Γ2⁻¹Γ1<2Γ0/3；有限倒数权对偶给同常数末边，一强L弱的完整对称2×2逆比趋2/3，统一常数不可降低。次数10支持穷尽/4–6支持完整主子式/7位坏单项的同支持对分组已准确支付，新BigInt V8 9167ms全返，首次过严严格负断言失败保回执。高出生、内部高度、五位S2、同W源费和N=M仍开，继续完整joint primitive源。
