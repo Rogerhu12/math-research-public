@@ -17,7 +17,7 @@ v8实际21000s timeout124，原source/run/job与全部未过门在[终点链](no
 
 v9 run45920983633/job140251398928/source1eeab95eb057de2b6ea6753ff9e36a18bd20bbd2于07:00:41UTC数学timeout124、07:00:43job failure；完整只读45956390908/140363733323给原log34193573B/SHAfe59eda2…fae56dc。最后原A0y0全分母像4/306、det3670；终点数学JSON空、host incomplete，完整hash/终态/七快照见终点链。
 
-R1033已付原剩余核/整个厚商后缀Krylov Hermite，全306坐标/nilpotent与H=CI+H(1−e)双包含保齐。07:12UTC在完整消费v9终态后将现有workflow接到已备v10新launcher/请求；旧49源加3源、两char0 pins/Sage10.6/r29/q2453/batch64/minimal及全部原门/21000s/360min不变，人工preflight=false；唯一同concurrency/cancel=false，不排重复作业。唯一v10 run45956901945/job140365369016/source43c1a7bfd607ba57dcdb891a1ed5ea83b61b1157已实际进入数学步骤；结论待，源码证明不代PASS。
+R1033全剩余核/厚projector及双向返回证明见原文；52源/两char0 pins/原r29/q2453/batch64/minimal/全部门/21000s/360min与preflight=false保持。唯一v10 run45956901945/job140365369016/source43c1a7bfd607ba57dcdb891a1ed5ea83b61b1157已实际进入数学，07:28仍in_progress。首只读45958247749/140369658303仅下载HTTP失败；07:28直接GET确认BlobNotFound404，未得快照或数学结论。不排重复作业，源码不代PASS。
 
 R982/983/R987/R993/R992全部原门真PASS；R992全13残差与R994三β27复L(1)>0/尾<2^-180的完整run/source/hash在结果及逐字归档，不重算。
 
