@@ -10,3 +10,8 @@
 ## 已证R1050的软件接续
 
 [完整范围与来源](2026-11-27-original-scalar-support-software-and-production.md)：原scalar全厚支撑仅替换原geometry唯一support call，保完整非约化Frobenius/残域/maximal/registry与全部厚度、原边界和全HNF等式；根已全读helper及9维变形代数checker，与原generic比较全部坐标和局部长，第三固定入口已请求公开软件核验。实际PASS待消费，生产未启动；旧projector使用计数须按本次真实filtration回执改写，不能伪造旧运行记录。
+
+
+## R1043同一读数的完整二挠边界
+
+[原Manin二挠特殊值的完整Legendre返回](2026-11-27-original-manin-two-torsion-legendre-boundary.md)已证明：同一原 $B$ 上 $U=-1/4$ 恰为三个非零二挠点，原Hasse严格等于 $\mathcal L_{2n+1}(V)$。次数 $<q$ 的原函数固定全部积分常数；Rodrigues完整边界给 $P_q(-1/4)=(-1)^n C_n/[3\cdot2^{2n+1}(2n+1)!]$，并准确返回原规范 $\mu_{\min}(P_Q)(O)=(-1)^{n+1}c_QC_n/(2n+1)!$。这里 $q=6n+5$ 是辅助特征；整数和 $C_n$ 的无穷模q非零仍开，所有17/η/Cor后继仍保，未以实正性或半单角色取消充作非零。

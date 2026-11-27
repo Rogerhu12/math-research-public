@@ -12,6 +12,7 @@ if (os.environ.get("GITHUB_ACTIONS") != "true" or
     raise SystemExit("Use only the named public research Actions.")
 
 import ast
+from copy import copy
 import hashlib
 import inspect
 import textwrap
@@ -114,7 +115,7 @@ class ScalarBaseSupportSession:
         frobenius = fiber.certify_frobenius()
         idempotents, splitting = fiber.primitive_idempotents()
         assert splitting["all_idempotents_orthogonal_and_sum_to_one"]
-        snapshot = idempotents.copy()
+        snapshot = copy(idempotents)
         snapshot.set_immutable()
         components = tuple(
             fiber.residue_component(e, j) for j, e in enumerate(idempotents.rows()))

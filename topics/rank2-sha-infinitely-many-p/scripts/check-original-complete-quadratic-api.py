@@ -39,8 +39,8 @@ def _dispatch_fixed_request():
     elif kind == "original-scalar-base-support-software-check":
         check_name = "check-original-scalar-base-divisor-support.py"
         binding_name = "original_scalar_base_divisor_support.py"
-        check_sha = "d66165c8fd28a991c47efd2e8a7eb3531f766872bebb16245862d93391dedfe1"
-        binding_sha = "b392e98806654be0f977e519733f4b97e45a1d2cdcbc8eb52a8ef59a727558a2"
+        check_sha = "3dd124a953a0a5dc160dd35a3a6ef6a04af11cf0231a947b32053cec40af297c"
+        binding_sha = "c84656c73bb062958c233de20fbed4fb889779985d154058548305e02d73e39a"
     else:
         raise RuntimeError("Unknown fixed complete-quadratic API request kind.")
     if (request.get("check_script") != "scripts/"+check_name or

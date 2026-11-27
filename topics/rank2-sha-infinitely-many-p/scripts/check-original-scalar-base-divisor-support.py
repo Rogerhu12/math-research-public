@@ -11,6 +11,7 @@ if (os.environ.get("GITHUB_ACTIONS") != "true" or
     raise SystemExit("Use only the named public research Actions.")
 
 import hashlib
+from copy import copy
 import json
 import time
 from pathlib import Path
@@ -243,7 +244,7 @@ def main():
 
     # Same determinant and total degree as t^2 I, but an unequal complete
     # HNF.  This must be refused before a residual algebra is consulted.
-    H = (t**2*engine.identity).copy()
+    H = copy(t**2*engine.identity)
     H[0, 0], H[1, 1] = t**3, t
     fake = OriginalAffineIdeal(engine, H, t**(2*engine.dimension),
                                {"software_deliberate_non_scalar_input": True})

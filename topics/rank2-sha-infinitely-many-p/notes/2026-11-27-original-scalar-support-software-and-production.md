@@ -28,10 +28,10 @@ $$
 
 | 文件 | SHA256 |
 | --- | --- |
-| helper | b392e98806654be0f977e519733f4b97e45a1d2cdcbc8eb52a8ef59a727558a2 |
-| checker | d66165c8fd28a991c47efd2e8a7eb3531f766872bebb16245862d93391dedfe1 |
-| selector | 351299eac54d14f35b2672c05631876b471c8a82759902e0a140cd5cee6d4e10 |
-| request | f334a962643e99b80fcf59a03a6751e6572ac1c42d8bb4243a0138dac8d319bf |
+| helper | c84656c73bb062958c233de20fbed4fb889779985d154058548305e02d73e39a |
+| checker | 3dd124a953a0a5dc160dd35a3a6ef6a04af11cf0231a947b32053cec40af297c |
+| selector | d585a2c584166fe71079ef6f808ef74f4331f0cacfe98e384279cc97a37fdb35 |
+| request | e975abf27099a035553cf5b881e8b4d4c20ef2735eb6620ec219a302b6a7df8c |
 
 本次只触发既有公开软件workflow，Sage10.6固定镜像、只读source挂载、network none、420秒内门和10分钟job门。AST及实际数学软件核验都只在公开Actions。脚本不生成持久结果、日志缓存或artifact。
 
@@ -42,3 +42,12 @@ v12先前真实终态见[完整记录](2026-11-27-v12-terminal-and-captured-retu
 旧 projector producer 末尾有“确实使用过完整projector”的实现性断言；原geometry曾调用它24次。专用支撑将省掉这里未被调用者消费的局部projector，不能用测试夹具填生产records，更不能把未执行的旧projector标成PASS。新生产副本必须核本次实际完整scalar-filtration回执，保所有原数学终点并如实区分所用方法。原一般分解接口及其原完整返回门不动。
 
 旧24个maximal返回至厚局部分量返回的区间合计10082.829秒。这只定位旧运行的主要成本，不保证新运行总时长。所有四次完整交、一般Artinian Norm、原完整 $18\times9$、两char0输入pins与29/2453/64/minimal均保；有限影子即使通过，也不支付真正无穷$p$的通常全$\Sha$主门。
+
+
+## 4. 第一次软件执行的真实失败与唯一修正
+
+run46079094064/job140773624197/source0002ceca5ad8fa084d450fcaf7064def524d9d6b在2026-11-27 22:51:57UTC失败，exit1。固定selector的AST及源hash通过；第一夹具的原通用分解已返回，新helper在完整small fiber的Frobenius/primitive-idempotents之后，执行 snapshot=idempotents.copy() 时出现 AttributeError：Sage的 Matrix_generic_dense 没有该方法。此运行没有PASS回执，未执行原几何。
+
+job日志19829B，SHA256 838d805d45cde103ba176f178728d461777c5d937e8ee8ce1f5474a9ef51a4ec；不保存日志。失败源helper/check为 b392e988… / d66165c8…，原完整hash在前次提交可追溯。
+
+修正只在helper和checker各导入标准 copy.copy，将快照及故意非scalar夹具的同类复制改用此接口；不删任何门、行、比较或数学步骤。上表更新为实际第二次请求的四份源码。固定selector/request同时换成新hash并再次触发公开核验，后续实际回执仍待消费。

@@ -1,11 +1,11 @@
 {
-  "request_id": "2026-11-27-original-scalar-base-support-v1",
+  "request_id": "2026-11-27-original-scalar-base-support-v2-matrix-copy",
   "kind": "original-scalar-base-support-software-check",
-  "reason": "Compare the exact scalar-base filtration support reader with the unchanged generic thick decomposition on complete rank-nine nonreduced finite-free software algebras. Check thicknesses one, two and three, all native residue coordinates and constant embeddings, two base primes, the full infinity boundary, point reuse, and refusal of a non-scalar HNF with the same determinant. The original curve and production request are not run or modified.",
+  "reason": "Compare the exact scalar-base filtration support reader with the unchanged generic thick decomposition on complete rank-nine nonreduced finite-free software algebras. Check thicknesses one, two and three, all native residue coordinates and constant embeddings, two base primes, the full infinity boundary, point reuse, and refusal of a non-scalar HNF with the same determinant. The original curve and production request are not run or modified. The first public check reached the actual nonreduced fiber and then found the generic Sage matrix lacks a .copy() method; use the standard copy.copy interface in the snapshot and deliberate non-scalar fixture without changing any mathematics or gate.",
   "check_script": "scripts/check-original-scalar-base-divisor-support.py",
-  "check_sha256": "d66165c8fd28a991c47efd2e8a7eb3531f766872bebb16245862d93391dedfe1",
+  "check_sha256": "3dd124a953a0a5dc160dd35a3a6ef6a04af11cf0231a947b32053cec40af297c",
   "binding_script": "scripts/original_scalar_base_divisor_support.py",
-  "binding_sha256": "b392e98806654be0f977e519733f4b97e45a1d2cdcbc8eb52a8ef59a727558a2",
+  "binding_sha256": "c84656c73bb062958c233de20fbed4fb889779985d154058548305e02d73e39a",
   "source_files": [
     "check-original-complete-quadratic-api.py",
     "check-original-scalar-base-divisor-support.py",

@@ -134,3 +134,10 @@ root 继续审证、实际两库 pull 和逐条推送；geometry 处理原 $P_q(
 
 
 原完整几何当前软件接续见[scalar全厚支撑核验](notes/2026-11-27-original-scalar-support-software-and-production.md)。这项检查待真实回执；不以静态审阅、夹具结果或方法计数替原所有终门。
+
+
+## 原Manin二挠特殊值的具体整数条件
+
+[原Manin二挠特殊值的完整Legendre返回](notes/2026-11-27-original-manin-two-torsion-legendre-boundary.md)已证明：同一原 $B$ 上 $U=-1/4$ 恰为三个非零二挠点，原Hasse严格等于 $\mathcal L_{2n+1}(V)$。次数 $<q$ 的原函数固定全部积分常数；Rodrigues完整边界给 $P_q(-1/4)=(-1)^n C_n/[3\cdot2^{2n+1}(2n+1)!]$，并准确返回原规范 $\mu_{\min}(P_Q)(O)=(-1)^{n+1}c_QC_n/(2n+1)!$。这里 $q=6n+5$ 是辅助特征；整数和 $C_n$ 的无穷模q非零仍开，所有17/η/Cor后继仍保，未以实正性或半单角色取消充作非零。
+
+下一步仅能消费这个同源整数条件或换入真正新几何输入；不能从全局Manin多项式非零直接推指定纤维非零。第一scalar软件检查真实失败于矩阵复制接口，最小修正已重提；未出现原几何反例或软件PASS。
