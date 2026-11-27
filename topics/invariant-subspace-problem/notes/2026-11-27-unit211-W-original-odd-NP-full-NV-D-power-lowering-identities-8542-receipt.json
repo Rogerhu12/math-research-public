@@ -1,0 +1,46 @@
+{
+  "schema": "isp-whole-W-original-13-to-11-ideal-compression-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "date": "2026-11-27",
+  "sourcePath": "notes/2026-11-27-unit211-W-original-odd-NP-full-NV-D-power-lowering-identities-8542.js",
+  "sourceSHA256": "f083869fe46a453e014dabd0a8b3079ed0a5fa80d956d1694e9d2813075064df",
+  "executionEnvironment": "functions.exec V8 BigInt",
+  "processExitCode": null,
+  "peakRssKiB": null,
+  "actual": {
+    "schema": "isp-W-original-odd-N-P-and-entire-NV-D-power-lowering-v1",
+    "variables": [
+      "ell",
+      "m",
+      "M",
+      "d",
+      "D",
+      "K",
+      "lambda",
+      "P02",
+      "A0",
+      "nb",
+      "pb",
+      "Z0",
+      "Z1",
+      "Z2"
+    ],
+    "A0Meaning": "(ell+T)/ell",
+    "fullAllThreeClearedOriginalPolynomialIdentitiesActuallyVerified": true,
+    "noDOrNormInverse": true,
+    "noNumericalSpecialization": true,
+    "coefficientDenominatorsOnlyPaidEllMAndLittleM": true,
+    "exactNRelation": "DNodd = D*Nlow + lambda*P02*R6/(m*ell*M)",
+    "exactPRelation": "DPodd = D^2*Plow + P02*R6/M*(3*D*A0/(2*m*ell)+(3*m^2+d*ell^2)*K/(8*m^3*ell^2))",
+    "exactNVRelation": "N4(D*Vval)=D*Vlow+Z2*R6/(4*m^2*M)",
+    "certificate": {
+      "bytes": 936,
+      "sha256": "449378fcc9294c062314bc1b020a88f5fe58db5bbae5c3627664942c44495057"
+    },
+    "elapsedMilliseconds": 3,
+    "noNewOriginalParameterFiberExcluded": true
+  },
+  "idealEquivalenceRequiresExistingOriginalDNonzeroDomain": true,
+  "newElevenRowNativeBuildExecuted": false,
+  "wholeWExcluded": false
+}
