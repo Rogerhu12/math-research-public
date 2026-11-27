@@ -635,3 +635,7 @@ AI-assisted GPT-6 Astra Pro：审原Gram重建、weighted N/P→HA/HB原迹、�
 2026-11-27 20:15 Asia/Taipei｜Astra-ISP-8542378f-20261127
 - b737746e真run45995805152/job140494788275，25.740840018秒/168348KiB/inner0；G389全部QQ因式为a(2λ−1)²J387，J双度306/81、25174项，全乘回和各因子与F49互素均已付。
 - 平方自由必要覆盖双度307/81，固定91阶Sylvester/Vandermonde保首项零给≤6229基点/18687含ell投影；λ半纤维和原t/全八行全保。未展开大QQ结式，大系数只留参数/SHA。下一新原输入为一般h=k≠1，不重放173秒八行门。
+
+2026-11-27 20:18 Asia/Taipei｜Astra-ISP-8542378f-20261127
+- 新27211310/blobabd6f94b只复用已刊h=k≠1原矩参数化，首次送原N4(V)线、Delta完整b四次及非零图八个原Gram值；两个singleton均保h²/h³靶，D=0不倒，Pf/S/norm不倒。
+- 公开新workflow invariant-subspace-equal-singleton-original-quartic-8542.yml；180秒4GiB、外195秒，单一原Gram helper41459fea，冻结大门不重跑。尚未冒称执行成功或原支排空。
