@@ -290,3 +290,118 @@ $j=1728$ 的两个 quartic twists 均 trace zero，各给 $25$ 个 fixed-necklac
 global_route 逐项推导；root 对 norm 纤维方案、native basis、角色尺度与固定输入 coverage 作独立纸面核查。完整方法未经数学程序执行。
 
 root 已逐式独核 (A1)–(A23)，包括原负指数、全部 m/2 因子、Norm/± 的严格 base-field 下降、换 Weil root 的 a^(R−1) 运输、zero-circle mask、全部 cusp 同一 h，以及指定 283 的实际 twist/Frobenius 覆盖。o2 独立纸核主要角色尺度与 cusp 式。后继数值 sieve 尚未执行。
+
+
+## 9. 完整 Frobenius 半轨道乘积与固定-root 的规范标签
+
+本节给原算法的精确压缩；只改变有限乘积的顺序和读数坐标，不删除任何点、角色或相位。
+
+### 9.1 必须使用 half-orbit 的长度
+
+令
+$$
+\mathcal T=(\mathbf F_p^2\setminus\{0\})/\{\pm1\}
+$$
+为 native 半点集合，$A$ 在其上作用。对每条完整轨道 $O$，取代表 $v_O$，令 $r_O=|O|$。实际点满足
+$$
+\pi^{r_O}P_{v_O}=\epsilon_O P_{v_O},
+\qquad \epsilon_O\in\{1,-1\}.
+$$
+因为奇 $c$ 的 $\psi_c$ 是偶函数，
+$$
+\theta_O:=\psi_c(P_{v_O}),\qquad
+\theta_O^{\ell^{r_O}}=\theta_O.
+$$
+因此准确的 orbit product 是
+$$
+W_O=\prod_{i=0}^{r_O-1}\theta_O^{\ell^i}
+    =\prod_{v\in O}\psi_c(P_v)
+    \in\mathbf F_\ell^\times.
+\tag{A24}
+$$
+改变轨道起点只对右侧作循环重排。即使 $\theta_O$ 定义在一个更小的子域，仍必须用 $r_O$ 个因子；轨道中可能相等的数值有其真实重数。
+
+若计算采用 $K=\mathbf F_{\ell^f}$，不能把 (A24) 直接换成 $N_{K/\mathbf F_\ell}(\theta_O)$。当 $r_O\mid f$ 时，后者是
+$$
+N_{K/\mathbf F_\ell}(\theta_O)=W_O^{\,f/r_O}.
+\tag{A25}
+$$
+特别本题 trace-zero native Frobenius 满足 $A^2=-I$，full torsion field 的阶为 $f=4$，但所有非零 half-orbits 的长度是 $2$。此时错误使用 ambient norm 会把原 $W_O$ 平方。
+
+对一般 irreducible semisimple $A$，所有非零 half-orbit 的长度都等于
+$$
+\min\{r\ge1:A^r=\pm I\}.
+\tag{A26}
+$$
+事实上，若 $A^rv=\pm v$ 对某个非零 $v\in\mathbf F_p^2$ 成立，则在 $A$ 的 nonsplit Cartan 中相应乘子为 $\pm1$，故 $A^r=\pm I$。不要求先选一个特殊 torsion 点。
+
+### 9.2 每个 stable necklace 的分组完全在 base field 完成
+
+对一个满足 (A7) 的 $J$，§3 已证明 Norm/± 标签在完整 Frobenius half-orbit 上不变。记该标签为 $h_J(O)$。于是原乘积准确为
+$$
+S_h(J)=\prod_{\substack{O\subset\mathcal T\\h_J(O)=h}}W_O.
+\tag{A27}
+$$
+因此每个 orbit 只须一次真正的 $\psi_c$ 求值；随后按真实 Frobenius 幂形成 (A24)。全部 $J$ 的后续分组都只需在 $\mathbf F_\ell^\times$ 内乘法。
+
+必须同时核完整覆盖计数
+$$
+\sum_O r_O=(p^2-1)/2,\qquad
+\sum_{O:h_J(O)=h}r_O=p+1
+\quad\text{对每个 }J,h.
+\tag{A28}
+$$
+$p=47$ 时两式右侧分别为 $1104$ 和 $48$。此外逐个核 $W_O^\ell=W_O$。这些检查与 (A27) 的证明共同保证没有只取一个 orbit 代表便漏掉它的重数，也没有把一个非闭合列表冒充 Norm。
+
+所有这些式子是有限域中的严格身份，无近似截断或误差项；唯一潜在的次数混淆已在 (A25) 明确支付。
+
+### 9.3 固定 primitive root 下的完整原标签
+
+固定 $\zeta_0\in\mu_p(\mathbf F_\ell)$ primitive。实现时可以取 prime-field 标准整数表示中最小的 primitive $p$-th root，这只是可复核的确定性选择。
+
+每个 $J$ 的原真实 root 已由 (A9) 计算。唯一地写
+$$
+\zeta_J=\zeta_0^{\,a_J},\qquad a_J\in\mathbf F_p^\times.
+\tag{A29}
+$$
+先完整计算 (A14)–(A15) 的实际读数，再定义
+$$
+D_\chi^0(J)=a_J^{\,1-R}D_\chi(J),\qquad
+B_\chi^0=a_J^{\,1-R}B_\chi(\zeta_J).
+\tag{A30}
+$$
+由 (A18)，第二式严格等于
+$$
+B_\chi^0=B_\chi(\zeta_0)
+\tag{A31}
+$$
+并且与模型、native basis 和 $J$ 无关。这可以逐行核查。
+
+第一式也确是原标签在固定 embedding/root 下的读数，而不只是任意坐标缩放：Norm 映射
+$\mathbf F_{p^2}^\times\to\mathbf F_p^\times$ 满射，故可把 Cartan basis 乘一个 Norm 为 $a_J^{-1}$ 的元素，使其 Weil root 准确成为 $\zeta_0$。按 (A18)，真实标签的变化正为 $a_J^{1-R}$。实际计算不必构造这个换基元素；(A30) 已支付其全部作用。
+
+所以同一个原候选的完整固定辅助向量可以只构造一次：
+$$
+\mathcal C_\ell(C)=
+  \bigl(C_\chi B_\chi(\zeta_0)\bigr)_{\chi\subset W}.
+\tag{A32}
+$$
+对每个原 affine 点，只需比较
+$$
+\mathcal C_\ell(C)
+ =\bigl(D_\chi^0(J)\bigr)_{\chi\subset W}.
+\tag{A33}
+$$
+$B_\chi(\zeta_0)=0$ 的坐标依然保留为零，并要求右侧相应坐标为零；没有除零。
+
+cusp 行直接在 $\zeta_0$ 下使用 (A20)。若先在 $\zeta_J=\zeta_0^a$ 下计算，则乘 $a^{1-R}$ 后得到固定-root 下索引 $ah$ 的 cusp 行；因为平方角色的 $a^{2R-1}$ 和外侧 $\chi(h)$ 正好给这个同步重标。因此仍是同一套完整 $m$ 个 cusp 行。
+
+### 9.4 可复核的输出与范围
+
+在声明的模型、全部 fixed $J$ 和全部 cusps 上，收集固定-root 向量并去重，可以给出排序后的真实辅助标签像及其 hash。不同 finite-field 模型、native torsion basis 或 orbit 代表只会重排原点表示，不改变这个固定 $\zeta_0$、固定角色顺序的标签集合。
+
+不同原点可能有相同标签；去重所得数目是标签像大小，不是原曲线点数。重复 twists 给同一 coarse 点，也不会改变这个像。全部候选必须用 (A32) 的同一组 global coordinates 比较该像。若两个候选在某个辅助素因 $B_\chi=0$ 等原因合并，也不能错误地把它们当成同一个 $p$-local 圆盘。
+
+本节只证明 exact finite-field 操作及来源，无数学程序执行。后继真正排除仍须由已授权公开 CI 的实际完整输出或独立纸面证明给出。
+
+root 独核 §9：half-orbit 的真实重数、ambient norm 的 f/r 因子、整 Norm/± 纤维的 1104/48 覆盖，以及固定 root 的 a^(1−R) 与 cusp 同步重标均一致；仍未执行辅助数学。

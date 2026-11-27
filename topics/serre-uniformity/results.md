@@ -298,4 +298,4 @@
 - **R1072（已认证有限结果）**：[R1072](results/R1072-certified-original-p47-cuspidal-disk-labels.md)：run45925829303/job140266778118、源91de38ca，原p47全部235盘给235个互异完整global向量，10个实际角色全good。原相位/两twists已核；不推盘内唯一，继续ℓ283同点筛选。
 
 
-- **R1073（已证明方法）**：[R1073](results/R1073-original-split-auxiliary-cuspidal-sieve.md)：原split aux的全部J/±、Norm/±纤维S_h严格下降、真实Weil相位及cusp同h行已付；按CχBχ=Dχ保零mask。p47/ℓ283完整twists/反射25条已付，数值筛选继续。
+- **R1073（已证明方法）**：[R1073](results/R1073-original-split-auxiliary-cuspidal-sieve.md)：原split aux的全部J/±、Norm/±纤维S_h严格下降、真实Weil相位及cusp同h行已付；按CχBχ=Dχ保零mask。p47/ℓ283完整twists/反射25条已付，数值筛选继续。 §9完整half-orbit product保实际重数，固定ζ₀按a^(1−R)运输为可比较的共同标签；ambient norm不能代half norm。

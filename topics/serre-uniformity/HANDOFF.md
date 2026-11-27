@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。本轮已部分克隆并真实pull main，读两README/H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则读至36cf1ed2。不重做已登记结论或窗口。
 
-**公开两README已读提交：411a793d4d64065d3b75ba2ef69b760664007c53**（2026-11-27 10:24 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
+**公开两README已读提交：414f0e02d9327076578552d34e01856b5fd52948**（2026-11-27 10:24 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
 
 已真实部分克隆/pull；09:37再试pull仍报无可用执行环境，shell未运行；按根规矩8用连接器小文本同步、读两README差异、带expected_sha非force提交，恢复后立即pull --rebase。拒绝即同步重基再推至成功。令牌仅CLI；根维护main/H/open/index/log，子研究独立稿，每条结论立即推。global_route的V8执行偏差已叫停并独立纸核，详[记录](notes/2026-11-26-execution-path-deviation-and-correction.md)，其输出不作证明/合规窗口。
 
@@ -30,7 +30,7 @@ R1018–30原Fm/节点log/非约化运输已成，尺度保原文；H_A/H_Z新�
 
 ## O0：不能省略的全局覆盖
 
-[R1073](results/R1073-original-split-auxiliary-cuspidal-sieve.md)：原split aux的全部J/±、Norm/±纤维S_h严格下降、真实Weil相位及cusp同h行已付；按CχBχ=Dχ保零mask。p47/ℓ283完整twists/反射25条已付，数值筛选继续。
+[R1073](results/R1073-original-split-auxiliary-cuspidal-sieve.md)：原split aux全J/±、Norm纤维/Weil/cusps同点已付；§9 half-orbit乘积严格下降、fixed-root CχBχ=Dχ保零mask。p47/283全twists/25反射覆盖已付，数值筛选继续。
 
 [R1072](results/R1072-certified-original-p47-cuspidal-disk-labels.md)：run45925829303/job140266778118、源91de38ca，原p47全部235盘给235个互异完整global向量，10个实际角色全good。原相位/两twists已核；不推盘内唯一，继续ℓ283同点筛选。
 
