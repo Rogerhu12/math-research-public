@@ -16,19 +16,19 @@
 
 ### 当前真实输入
 
-[normal311原终态](notes/2026-11-27-r582-normal311-original-terminal.md)：run45909167191/job140213091600/source181de62c；实际新2427.43645062秒，8metric/14完整Jac/17fine。实际材料回0d222bd12ce8a61d0c88264c6fb5c82066f0ca058855b5bf7a670a53b483a991、62878endpoint/960944RHS，区别其源f60；入口16167与原16149不同，完整新baseline确已支付。整run只有这一真实对象用于原backend与全部物理扫描。
+[pending330原终态](notes/2026-11-27-r582-pending330-original-terminal.md)：run45916249440/job140236066717/sourceb86ec600；01:02:17 UTC自然结束，新2408.826496151秒，8metric+1geometry restore。实际材料仍0d222bd12ce8a61d0c88264c6fb5c82066f0ca058855b5bf7a670a53b483a991、62878endpoint/960944RHS，与来源normal311相同；6新midpoint令首fine16195，完整新资格确实支付，所有新backend/fine共用这一对象。
 
-真97q **3bc11a9c80696ad3ec54066a9bf0d5cee4436081dee79b9e22b61757fe507aa1**，p=.181，16189×3072 η3.722676721935829e−5、物理V0，working2.309485e−12在原容差内。实际327径向/1536角/trust2，pending3个半径仅拟定330；当前与已合格fine同一d6a0d6e7…16189点。
+末97q **4bd9258b175c5d8e67140c0a7b6eeb68ee98cfe12479673c756a88e6ee8fea48**，p=.181，16203×3072 η3.616136752215837e−5/物理V0/working1.4877377021299543e−10在原容差内。当前334径向/1536角/trust2/phase metric，当前与合格fine同SHA f4770c7aab814ba2e9e47421f28c287e82e5c72e3c1eb9808cb2644576f3d129。
 
-末135e raw不合格；16次减半的独立副本即使物理已在容差内也无严格metric promise，正确不做fine、不接受。原完整finite失败候选和更低但违约的raw都保留。四后端J=2/6/2/4，总14份/182块/583.826191433秒，前三outer10J与当前4J不漏计；已真实进入内部BFGS，不能套B030首J即交换的瓶颈。没有自然OptimizeResult或数值stall。
+最后raw c4b9完整行违约3.412826e−6，没有fine/直接接受；独立fraction.5/1次减半的4bd9完成fine后接受，epigraph提升不改物理q。五后端3/1/1/1/8份J共14/182块/约616.789047298001秒，当前8J/104块/36value未折入outer成本不可漏。17fine是4新入口+13callback，另1同p/q/fine入口复用；0自然OptimizeResult、0stall，本线已有真实内部BFGS，不套B030首callback即交换瓶颈。
 
 ### 阶段门与后继
 
-[已审具体pending330范围](notes/2026-11-27-r582-physical-pending330-resume-implementation.md)沿原算法，准确采用原327+3及全部16189永久坐标，raw只作未合格warm。原base reuse仅比p/q/fine；本scope原数据确定6个新中点不在旧fine，因此会付至少16195的新完整资格，不声称有不存在的通用material SHA检测。所有新baseline/backend/fine共用同一次实际场；现有材料hash已含knots及全部六jets，无须重复接口。39来源/510950B输入已核；原push run45916249440/job140236066717/sourceb86ec600，00:21:35 UTC启动；新网资格不计metric接受。
+当前334上5个原pending：.1529296875、.153369140625、.30366210937500004、.638671875、.8695631219545128；仅拟定339，1536角/trust2保持，0angular升级。后继从真实4bd9、全部16203永久fine和这5个已付径向证据继续；新增fine位置仍支付同实际场的完整资格。原base reuse只比较p/q/fine，不声称不存在的独立material SHA通用门；现有材料hash本就含knots与全部六jets。
 
 p阶段约2.5e−7未过不升级；目标p=.8/末η≤1e−7。同空间真停滞时按实际残差换输入/算法，不能只延已停实例。当前mean g仍在设计，最终须同一g/参数/时间域精化。
 
-3bc1的16个mean控制q64:80全变，h96=.6975711972395291；q80是首新增tail-u。[已证59a4完整reach](notes/2026-11-27-r623-current59a4-complete-reach-original-terminal.md)仅对其原q/p/0d成立，不能因材料mesh相同就把旧mean参考与C0/C1/K/reach授给新q。原169/185/189/243/279/298/311及所有50Jac无接受、finite表示失败、μν/三种子费用见原收据链与归档，未撤旧账。
+4bd9的16个mean控制q64:80及h96=.6986806496374112全变，q80是首新增tail-u。[旧59a4完整reach](notes/2026-11-27-r623-current59a4-complete-reach-original-terminal.md)仅属其q/p/0d；[固定参考接口](notes/2026-11-27-r623-fixed-reference-and-fixed-metric-reuse.md)允许锁原G*，但新δ/α/K仍须支付。当前fine的C0/C1观察是另一未认证当前mean参考，不能替严格范数或旧证书。原normal311新2427.43645062秒及169/185/189/243/279/298/311、50Jac无接受、finite失败、μν/三种子成本链完整保留。
 
 ## O2b-B：全奇位置继续下降，同时落实真正固定g的增长响应
 

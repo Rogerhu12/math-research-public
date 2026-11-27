@@ -5,7 +5,7 @@
 
 ## 1. 授权、规则与继承
 
-公开本次实际pull且根/题README已读至 **e32eb30254a1d89bd5becb2393f60f0a69675b89**；根/题规则相对继承0749a4cc仍为空差异。私库实际pull/根README已读至 **50c1c0039e5e9ff8c6979369a8059aad7efc3ddf**，2026-11-27 00:50:21 UTC空diff；下次不晚于01:45 UTC。QUEUE唯一仍本会话进行中，原认领09f8b8b54e。
+公开本次实际pull且根/题README已读至 **2a067f0ae3f0e61b2df470f010839084dac6df1b**；根/题规则相对继承0749a4cc仍为空差异。私库实际pull/根README已读至 **50c1c0039e5e9ff8c6979369a8059aad7efc3ddf**，2026-11-27 00:50:21 UTC空diff；下次不晚于01:45 UTC。QUEUE唯一仍本会话进行中，原认领09f8b8b54e。
 
 每次pull只读根/题README差异并记SHA，至少每小时；NFF/ref锁立即pull --rebase再推至成功。root独占git和四索引，每条结论即推；科学只公开Actions，本地只纸证/源码及原日志JSON/hash解析。根12不重放已付门；根15不存raw/可重算表，必要新场再生全计费。H<10KB/open<30KB/md<100KB；publisher活跃不改tracked。
 
@@ -15,13 +15,13 @@
 
 同一连通闭材料面、全t∈[0,1]连续C²嵌入、同一个固定g；开握持区diam≥.2D、整像不对齐变化≥.3D、全时reach≥.03D。全点全时metric≤1e−6并同g/参数/时间域精化至机器或求解容差；完整可再生网格及严格存在差距齐付，基础后继续.5D或严格存在强目标。时间、接口、小幅改善或现输入困难都不结束；接open下一项不停。
 
-## 3. 97q最新3bc1，同新0d实际材料
+## 3. 97q最新4bd9，同一0d材料，接实际339库
 
-[normal311原终态](notes/2026-11-27-r582-normal311-original-terminal.md)run45909167191/job140213091600/source181de62c；实际2427.43645062秒，新field0d/960944RHS区别f60，同场新付16167后8真接受。真97q **3bc11a9c80696ad3ec54066a9bf0d5cee4436081dee79b9e22b61757fe507aa1**，p=.181，16189×3072 η3.722676721935829e−5、物理V0/working2.309485e−12在原容差内。
+[pending330原终态](notes/2026-11-27-r582-pending330-original-terminal.md)run45916249440/job140236066717/sourceb86ec600，01:02:17 UTC自然结束；新2408.826496151秒，8metric+1geometry restore。实际field0d/62878端点/960944RHS与来源normal311相同；首6新中点→16195资格确已付。末97q **4bd9258b175c5d8e67140c0a7b6eeb68ee98cfe12479673c756a88e6ee8fea48**，p=.181，16203×3072 η3.616136752215837e−5/物理V0/working1.4877377021299543e−10在原容差内。
 
-当前327径向+3pending、拟定330/1536角/trust2，永久与合格fine同16189/SHA d6a0d6e7…。末135e raw违规，16次减半后无strict metric promise而跳fine，未接受。四后端J=2/6/2/4共14份/182块/583.826191433秒，未自然OptimizeResult，已有内部BFGS，不套B030饥饿结论。[已审pending330范围](notes/2026-11-27-r582-physical-pending330-resume-implementation.md)run45916249440/job140236066717/sourceb86ec600，00:21:35 UTC启动；原门不变，6新中点需新fine，材料hash含六jets。p阶段2.5e−7未过，目标p=.8/末η≤1e−7不降。
+当前334圈/1536角/trust2/metric，原5pending拟定339；当前与合格fine同SHA f4770c7a…16203。末raw c4b9原行违约3.412826e−6未合格，独立.5副本4bd9完整fine后接受，不能混两轨。五后端J=3/1/1/1/8共14/182块，当前8J/104块/36value不可漏；17fine=4新baseline+13callback，1同网入口复用。0自然OptimizeResult/0stall，不套B030首步重置瓶颈。
 
-mean q64:80全变/h96=.6975711972395291，旧59a4完整几何不转移。所有旧失败/费用链保留；mean g仍在设计，同g/参数/时间域精化未付。
+后继原334+5/339及全部16203永久fine，新增位置付原完整资格；p阶段2.5e−7未过，目标p=.8/末η≤1e−7不降。16mean q64:80及h96=.6986806496374112全变，旧59a4完整几何不转移。原normal311/较早全部失败与费用保收据链；mean g仍在设计，同g/参数/时间域精化未付。
 
 ## 4. B030最新d191，接原238剩余峰与native曲率
 
