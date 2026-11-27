@@ -103,7 +103,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 此前本节与全部open原字29726B、SHA256 `45693fd5bd013a12e6da8027aedb2b3f002bd601525ed2dc019d5a218ee56f15`，完整保[原文归档](notes/2026-11-27-open-through-callable-third-failure.md)。§1–6的23359B前缀原字保持；此前各完整参数、原来源、失败、历史及未知责任不是删去，按归档及其原链接继续。
 
-当前固定g Fejer原全输入主线：M160/J923/N2048/32stage；13曾做N4096、14曾做M320、15做J1845、16原seed、17较宽seed、18完整meridian值复用/批角。它们是独立真实来源/模型/场，不能凭相同坐标hash移植结论。12已经官方cancelled、只两input0，无完整科学自然返回；潜在末场/history仍未知。13/14也已官方cancelled；13仅原六阶段返、14仅两input0，修后完整科学都未自然返回，所有未知及末真pull保[完整终态](notes/2026-11-27-runs13-14-actual-cancelled-without-complete-science.md)。
+当前固定g Fejer原全输入主线：M160/J923/N2048/32stage；13曾做N4096、14曾做M320、15曾做J1845、16原seed、17较宽seed、18完整meridian值复用/批角。它们是独立真实来源/模型/场，不能凭相同坐标hash移植结论。12已经官方cancelled、只两input0，无完整科学自然返回；潜在末场/history仍未知。13/14也已官方cancelled；13仅原六阶段返、14仅两input0，修后完整科学都未自然返回，所有未知及末真pull保[完整终态](notes/2026-11-27-runs13-14-actual-cancelled-without-complete-science.md)。
 
 17在真实21:01:36 current-geometry事件首接受恢复方向，924732、Phi4954.694898882501、Gram0.6374164670510035、正几何违反2.04762068147831>0；report/完整final/packet仍未返。16第四2fa731统计Phi5551.476942430809/Gram.6480138184922606，几何/决定未返、accepted0；第三880d几何/决定未捕获；各实际时刻与全source见[16数学](notes/2026-11-27-run16-initial-mathematics-and-point-bound-progress.md)、[17事实](computations/run17-first-accepted-restoration-observation.json)。17第二已观察trial b0468统计Phi4954.618769180181/Gram.6374150628738999，几何/接受未知。未公开分项不猜，进度不冒费输入。
 
@@ -125,3 +125,5 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 [producer_R722完整R716](computations/fixed-fejer-meridian-producer-R722-complete-R716-moment-delivery.json)六件386778B，十二通道/原一般三相位中心张量/全部帽反射/32stage与根域保；10/8argv、34/60selectors、600s/不限角胞原参数保。旧R709 bool真实，新完整posterior validator不能由布尔替代；actual全矩/正V/闭面管与含反射分离仍待支付。
 
 [当前producer完整同场mesh](computations/fixed-fejer-meridian-producer-bound-complete-same-field-phase-mesh-delivery.json)八件496394B已刊，144源/9077B实际constructor、全原执行后缀、32/6argv/110/58formal/48live保。final须真完整13件；packet须真实完整required-angle快照，可是trial但不冒accepted。全5t/三级空间/4,8,16时间、15全科学网格与5个<5MB预览原保；不以预览截科学网格、不以M320零包含代新求解。
+
+15也已官方completed/cancelled，API更新22:05:13不冒job完成时刻或取消原因；仅两input0，J1845科学/纯读未自然返、final/typed/accept未知。[完整终态与最后真实pull槽](notes/2026-11-27-run15-official-terminal-and-unreturned-radial-solve.md)保原159/7参数/最后完整索引和两输入整卷；取消不支付J精化。

@@ -207,3 +207,8 @@
 ## 2026-11-27：当前producer完整同场mesh与时间精化源
 
 [八件完整交付](computations/fixed-fejer-meridian-producer-bound-complete-same-field-phase-mesh-delivery.json)496394B。input2ef316/entryb3991d/reader8197f7，当前144来源=137科学+7，9077B实际constructor含meridian模块，24545B原完整执行后缀原字。两模式完整32/6argv、110/58formal与48live，原50映射完整保存；全5t、三级空间512/1024/2048角与原922胞的1/2/4细分、4/8/16时间、15个binary64完整科学网格和5个<5MB展示预览均保。final须真实完整13件，packet须真实完整required-angle不可变快照；缺final不取初点或mutable进度，trial packet不冒accepted。可选closed002eb按完整最终主件/同点源绑定，缺它不额外阻止mesh；M320零包含仍只是输入。全部raw只runner，没有实际mesh/精化差或README完成结论。
+
+
+## 2026-11-27：15官方取消，原全径向精化责任未付
+
+[完整终态](notes/2026-11-27-run15-official-terminal-and-unreturned-radial-solve.md)45817B保官方run与job/step实证、最后11945B index全文、两input整卷、原全部159/7argv与90478B queue身份及H15末真pull原槽。run46031953783/1/job140617715235官方completed/cancelled；22:05:13仅API updated_at，原因未证。最后22:00:31真pull至1e70144771dcd13688311fc2e877cb8082c3523b，双README无变化。完整科学/纯读无自然return，mutable4ccb点不冒accepted/final，typed/history与restart资格未知。仅移除已终态H15活槽，原J1845的全部费用/精化责任继续。

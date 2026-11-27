@@ -5,7 +5,7 @@
 
 ## 规则与同步
 
-root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端失效；15:03及21:33重置后各唯一探测仍失败，恢复即真pull。云核至 `6bebeddd82504832e1b96d60b28c8a867004561a`（非pull）。双README SHA256：581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d。每真pull只读新差异即遵守、至少每小时；活15–18通常每5分钟真pull、已读commit在末槽。12终态前末真pull19:41:24至febbfdf90fc257b59e14078173fcb8e15bcdbd32，完整旧槽保1b76H。
+root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端失效；15:03及21:33重置后各唯一探测仍失败，恢复即真pull。云核至 `4ef0bf82fce130595af98e7ae403c6e9164cb45c`（非pull）。双README SHA256：581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d。每真pull只读新差异即遵守、至少每小时；活16–18通常每5分钟真pull、已读commit在末槽。12终态前末真pull19:41:24至febbfdf90fc257b59e14078173fcb8e15bcdbd32，完整旧槽保1b76H。
 私库QUEUE进行中已推e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。root独占refs/queue，每结论普通推；NFF有终端即rebase重推，否则freshHEAD完整合并，不冒pull/force。令牌仅瞬时CLI。[完整发布支持](computations/resume-20261127-root-publication-support.mjs)保。
 科学仅本公开Actions；raw只runner/scratch，不Git/Release/artifact、不改名输入。全源/全部参数/真实run/whole输出身份保。题≤200MB、文件<5MB、MD<100KB、H<10KB、open<30KB；先metadata，不整读≥100KB或binary。根§12不加独立审查/冻结/AST/fixture/重跑门、不减原目标预算。[旧log](log/2026-11-27-session-through-fejer-closed.md)全字保。
 
@@ -22,7 +22,7 @@ root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端�
 | 12=46011377225 | cancelled；只两input0，科学/纯读无自然回传。[完整终态](notes/2026-11-27-run12-actual-cancelled-without-scientific-return.md)保潜在末场未知，无可验证complete/final13。 |
 | 13=46028002241 | 官方cancelled；仅原1–6返，修后N4096无完整科学返回。[13/14完整终态](notes/2026-11-27-runs13-14-actual-cancelled-without-complete-science.md)，末场/history/restart未知。 |
 | 14=46028184571 | 官方cancelled；仅两input0，M320科学无自然返；全源/全参数/未付责任及末真pull保同终态note。 |
-| 15=46031953783 | 两input0后97ae/4ea科学未返；J1845全源/双胞全费保open§7历史。 |
+| 15=46031953783 | 官方cancelled，仅两input0、J1845科学/纯读无自然返。[全终态及末真pull](notes/2026-11-27-run15-official-terminal-and-unreturned-radial-solve.md)保最终场/typed/accept未知。 |
 | 16=46037017666 | 两input0后a8b0749a/ed810/PID3868科学未返，完整157/7参数92522B保。 |
 | 17=46053911348 | 两input0后36ef0794/ed810/PID3823科学未返，完整wide157/7参数92407B保。 |
 | 18=46062343475 | 两input0、前三science1、三原异常reader0；producer修后完整157真实运行，同runner原输入保。 |
@@ -45,11 +45,6 @@ root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端�
 
 [ret51](notes/2026-11-27-finite-geometry-minimax-retention-51.md)退17旧derived净1555055B，54源/187输入/18全resource/5全plan/失败未知保；ret50退19净1053787B和三完整旧源保；ret49/ret48及旧台账完整保旧源/参数/失败未知/消费者/原Git恢复，只退旧raw；ports/Nelder/已退对象不动，每fresh树核200MB。
 root独占refs/queue、完整上层与实际续求；construction据18实际六g推下一输入；solver监15/16并保全旧派生容量；geometry推进全闭reach界。一直做到README标准。
-
-<!-- visible-larger-parallel-15:start -->
-Actions15：[run 46031953783/1](https://github.com/Rogerhu12/math-research-public/actions/runs/46031953783)；[全阶段记录](notes/2026-11-27-public-actions-46031953783-1.md)。running；已返2，exit=未返。
-并行15规则核查：2026-11-27 22:00:31 UTC，真实pull至`1e70144771dcd13688311fc2e877cb8082c3523b`，双README无变化。
-<!-- visible-larger-parallel-15:end -->
 
 <!-- visible-larger-parallel-16:start -->
 Actions16：[run 46037017666/1](https://github.com/Rogerhu12/math-research-public/actions/runs/46037017666)；[全阶段记录](notes/2026-11-27-public-actions-46037017666-1.md)。running；已返2，exit=未返。
