@@ -222,3 +222,5 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 **碰撞P3下一原输入：** 0c518251仅复用已冻结输入构造前缀；新算原Delta与Tnum的低Q共同因子Gamma，并实际乘回。Delta非零只允许除去这个真实共同因子；原四式降次后作固定Q结式与整三维权范数，保实际输入/结果分母，利用固定结式多项式恒等延拓不额外保已消去瞬时主元。新覆盖与已存1474作真QQ gcd/Bézout。首次派发，未冒称结果；所有剩余λ/u/Q异常全保。
 
 新[五位完整S2统一余量](results/R271-appendix-five-site-full-s2-uniform-three-sixteenths-square-budget.md)以同一已存3D−16N参数给472条正均值差及6478个严格正轨道，完整BigInt证书3655ms；Tr(K²)<3/16，故同源S2总费<(2+√3)/4、余量>(2−√3)/4，不主张最优。接六位出生一half的全新完整精度源：先形成六维J=e2²e3(C₂²−2C₃)，实际核真空列0后取商，逐阶原特征系数保存、末完整Cayley–Hamilton；180秒/4GiB首次派发。六位half及更高joint未证明，不重跑旧M6流或五位矩阵。
+
+[原一位来源的定量Schur返回](results/R271-appendix-quantitative-one-bit-source-transfer-and-six-site-319-over-320.md)已把五位同源余量返回原H0：在四项已付费用epsilon/kappa/rho/sigma下，新原首边余量≥alpha·epsilon/2，其中alpha=min{1−sqrt(sigma),(1−sqrt(kappa))(1−sqrt(rho))}。对六位出生2实际取epsilon=1、kappa=743/782、rho=1/2、sigma=(2+sqrt3)/4，alpha>1/160，故整个九维原首边≤319/320 I。保原Qy/WW*、真实Schur变分和同源可逆同余，不把辅助块常数直接移到H0；一般高出生所需四费用仍开。
