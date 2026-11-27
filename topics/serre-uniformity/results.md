@@ -1,5 +1,7 @@
 # 结论索引
 
+- **R1130（已证明，完整WZ与旁单位）**：[R1130](results/R1130-original-inverse-center-recurrence-and-adjacent-unit.md)：正奇n的原I_n满足(n+2)²I_(n+2)+16(n+1)²I_n=4(3n+4)(−1)^((n−1)/2)binom(n,(n−1)/2)。原p=3n+2时I_(n+2)+I_n为明确单位；不将邻项替换为原K4/标签。run46015627853/job140561880424，2.838秒，完整WZ证书及纸面因式均付；原e/K4共同非零继续。
+
 - **R1129（已证明）**：[R1129](results/R1129-linear-many-nonconstant-original-Gaussian-profiles.md)以原sigma heat与安全权≤p−3给实际完整Gaussian坐标常数 iff ord_b G_(w_R)≥s_R；非恒定时coarse degree=(s_R−ord)/2。三层互不交实际角色链和总irregular预算给p4k+3时至少max{3,floor(p/96)+2}个非恒定good坐标，精确渐近下界p/96+(log24/12)p/logp−O(1)。不声称函数线性独立、中心一阶全unit、共同纤维唯一或盘内唯一；继续完整gauge差的实际good mask。
 
 - **完整T链预算界限（计数方法范围已证明）**：[短纸注](notes/2026-11-27-good-character-chain-budget-boundary.md)：前驱闭合的长度一/二链给满足原判据和总irregular预算的形式mask，其可保证good数仅p/16+(log24/8)p/logp+O(1)。可保任意固定有限个已知单位；不宣实际Bernoulli模式可实现，继续实际源约束。

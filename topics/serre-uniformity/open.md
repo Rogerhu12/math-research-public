@@ -30,7 +30,7 @@ R1090/93、R1096/1101与R1102付同一原73维Hodge/MW整格、对数满格及�
 
 ## O1：全p同一真实本原标签的临界非零
 
-[原逆中心整指标WZ请求](notes/2026-11-27-original-inverse-center-wz-method.md)：对正奇n的I_n=Σ(−1)^j binom(n,j)²/(2j−n)，在QQ(n)[k]精确解阶数1..3的有限多项式恒等式并输出完整WZ证书；原S_n=(2/3)I_n仅在其实际p=3n+2源下消费。3600秒/reserve90，source/request和两README pins均锁定；当前待Actions真实回执，不以有限初值猜递推或宣非零。
+[R1130](results/R1130-original-inverse-center-recurrence-and-adjacent-unit.md)：正奇n的原I_n满足(n+2)²I_(n+2)+16(n+1)²I_n=4(3n+4)(−1)^((n−1)/2)binom(n,(n−1)/2)。原p=3n+2时I_(n+2)+I_n为明确单位；不将邻项替换为原K4/标签。run46015627853/job140561880424，2.838秒，完整WZ证书及纸面因式均付；原e/K4共同非零继续。
 
 [R1129](results/R1129-linear-many-nonconstant-original-Gaussian-profiles.md)以原sigma heat与安全权≤p−3给实际完整Gaussian坐标常数 iff ord_b G_(w_R)≥s_R；非恒定时coarse degree=(s_R−ord)/2。三层互不交实际角色链和总irregular预算给p4k+3时至少max{3,floor(p/96)+2}个非恒定good坐标，精确渐近下界p/96+(log24/12)p/logp−O(1)。不声称函数线性独立、中心一阶全unit、共同纤维唯一或盘内唯一；继续完整gauge差的实际good mask。
 

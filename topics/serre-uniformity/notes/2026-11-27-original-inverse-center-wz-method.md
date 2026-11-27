@@ -2,7 +2,7 @@
 
 日期：2026-11-27（Asia/Taipei）。会话：Astra-serre-24b8836b-20261126。
 
-状态：纸面证书框架已核；有限符号请求尚待公开 Actions 的真实回执。
+状态：公开 Actions run46015627853/job140561880424 已成功，完整证书及其一阶因式/原相邻单位见 [R1130](../results/R1130-original-inverse-center-recurrence-and-adjacent-unit.md)。
 本输入不重做原 prime 窗口，也不以有限初值猜测递推。
 原指定非零性与 Serre 主目标仍未由此证明。
 
@@ -81,7 +81,7 @@ $-4\,\operatorname{lc}(P)k^{\deg P+3}$，所以所给次数范围是自然的有
   这不是 prime 扫描，也不作为统一证明的替代。
 - 输出 source/request/README SHA、真实 run/source commit、有限矩阵大小、
   完整小证书与 canonical SHA、耗时和成功/失败状态；无 raw artifact。
-- W1--W3 已由 root 与 o1_theta 独立纸核；运行所得具体系数仍待回执逐式核验。
+- W1--W3 已由 root 与 o1_theta 独立纸核；运行所得具体系数已由 root/o1 亲读并与 canonical SHA 核验；后继纸面因式另获 o2 独核。
 
 代码为 [original_inverse_center_wz.py](../scripts/original_inverse_center_wz.py)，
 请求为 [original-inverse-center-wz-request.json](original-inverse-center-wz-request.json)。
