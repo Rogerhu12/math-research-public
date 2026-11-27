@@ -1,13 +1,17 @@
 {
-  "message": "ISP: continue true quartic multiplicity through the new original quotient G image",
-  "parentCommit": "752a2dc560aa8d6cdda52d8c44f566d913334282",
+  "message": "ISP: prove full five-weight S2 and the six-weight birth-two first edge",
+  "parentCommit": "e9d537c295e35c298bdd34b106d790028c66deeb",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-exceptional-S-quartic-original-quotient-G-only-multiplicity-input-8542.py",
-    ".github/workflows/invariant-subspace-phi-s-quartic-original-quotient-g-only-multiplicity-8542.yml",
+    "topics/invariant-subspace-problem/results/R271-appendix-five-independent-positive-weights-full-s2-and-six-site-birth-two-first-edge.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-five-bit-s2-quarter-positive-certificate-8542.mjs",
+    "topics/invariant-subspace-problem/notes/2026-11-28-five-bit-s2-quarter-positive-certificate-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-28-five-bit-s2-companion-exact-scalar-input-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-complete-five-weight-S2-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-complete-five-weight-S2-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -16,7 +20,5 @@
     ".github/workflows/invariant-subspace-8542-root-terminal-publication.yml",
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
-  "dispatchWorkflows": [
-    "invariant-subspace-phi-s-quartic-original-quotient-g-only-multiplicity-8542.yml"
-  ]
+  "dispatchWorkflows": []
 }
