@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [一般J=Q面两原头图及唯一四阶秩降点](results/R150-appendix-unit211-general-J-equals-Q-two-quadratic-charts-and-rank-drop-point.md)：H、G两主开图覆盖除(2/3,2/3,1/3)之外全部合法权点，15原子式与特殊点精确乘回；保留整H0线及全部有限原返回。
+
 - [Q=1−u 余下不同复权点至多222个](results/R150-appendix-unit211-Q1minusU-original-cofactors-222-degree-h-cover.md)：27真实原cofactor的模gcd、已付局部整首一性及固定Sylvester/Vandermonde秩亏共同给出特征零权点总数界；未排空各原纤维。
 
 - [Q=1−u 完整投影的精确2265次与三处重数](results/R150-appendix-unit211-Q1minusU-exact-2265-projection-and-three-multiplicities.md)：严格Hadamard/Cauchy整数界及233个不同已证素数付全特征零次数/重数，余1382次局部整首一投影；仍未排空边界。

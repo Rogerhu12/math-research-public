@@ -4,7 +4,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-analytic-ideal-source-divergence-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-general-JQ-two-charts-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -45,7 +45,7 @@ rankH3单三jet的全部ess6已闭，末非零Hp原Gaussian/最高/normal给左�
 
 **原U值图L0 整支已闭：** [完整3352次覆盖、九因子1535次QQ整除及1817余项原Gauss排除](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-L0-complete-original-cover-exclusion.md)已合全部退化面。九因子QQ整除、完整S8/S5模Bézout及所有准确源/成功回执见正文；两整合signal9仍记失败，不作为排空门槛。旧投影/门/PRS全部冻结，不再重做L0，继续一般LS及其它open接口。
 
-**S0/Lt0整支已闭，一般LS继续：** 615次原QQ覆盖合全部退化面，旧门冻结。原P1双零、Delta0/W对ell首项零及W0整k=−1均已闭；只分别付(Pf,Pt)非同时零、Delta0的Phi、W0的u(Q+2)−2及k+1。全域四值式等价首一二次/三一次；六参数式只是完整投影，四Gram子式只是必要。[W0整个H=4ek−k²−4k−8零支](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-H-zero-complete-original-exclusion.md)已由原六生成元、F29=C3F26和完整两QQ商环的原18行单位返回排尽，可付H。
+**S0/Lt0整支已闭，一般LS继续：** 615次QQ覆盖合全部退化面；原P1双零、Delta0/W对ell首项零及W整k=−1全闭，分别付(Pf,Pt)非同时零、Delta0的Phi、W的u(Q+2)−2及k+1。四值式等价首一二次/三一次，六参数式只投影、四Gram子式仅必要。[W整H0原排除](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-H-zero-complete-original-exclusion.md)支付H；完整来源与旧失败保快照。
 
 [H非零最高次全分类](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-H-nonzero-highest-weight-cover-and-quadratic-fiber-exclusion.md)与[整个u=Q原返回](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-u-equals-Q-complete-original-exclusion.md)已支付H、u−Q；C9、u半与整图三次覆盖现见下方更新。旧180秒参数cofactor、76.992秒展开trace及F3/F95未决门全部冻结，精确失败保归档，不重跑。
 
@@ -182,6 +182,6 @@ Deddens自伴MASA、全部可分重数有限成本投影、全2-adic平移距离
 
 **[整个一般ell=0原支已闭](results/R150-appendix-unit211-general-ell-zero-complete-original-exclusion.md)，一般余图可付ell。** 全三头曲线、1146次QQ覆盖全部未付因子及u2/u半整线已原返回；来源/失败身份保正文/快照，不重跑。继续一般T0=0与其它未付面。
 
-**[整个一般T0=0原支已闭](results/R150-appendix-unit211-general-T0-zero-complete-original-exclusion.md)，一般余图可付T0。** F4整曲线/J4全四权点完整原返回，最后QQ4原48×35直接返1（cd05afd9，0.625秒/exit0）。一般三参全15头真实计算给[0,2,3,4]仅剩T0(J−Q)未付因子；现在只需整J=Q面及其补图的真实全三次一致性，不能偷设二次单项式下降。新J=Q头源5a3a5758登记时未执行；所有其它一般LS/open接口继续。
+**[整个一般T0=0原支已闭](results/R150-appendix-unit211-general-T0-zero-complete-original-exclusion.md)，一般余图可付T0。** 原F4/J4全返回、最终QQ4原48×35返1（cd05afd9，0.625秒/exit0）；[新J=Q两头覆盖](results/R150-appendix-unit211-general-J-equals-Q-two-quadratic-charts-and-rank-drop-point.md)用H=2u+Q−2与G=3u²−3u+Q两图，只余(2/3,2/3,1/3)四阶秩降点，未判空。实际15头源5a3a5758，0.233秒/exit0。续H≠0全三次源96222bdd与整H0线Q=2−2u/ell=1−u原48×35源0265842f，登记时未执行；其它一般LS与全部零面仍开。
 
 [原Haar解析理想像与强制来源发散](results/R12-appendix-analytic-ideal-rosenblum-images-and-forced-source-divergence.md)已证：任意非零Mz不变解析流形经同一g的原函数演算只给C_A(g)；真闭理想的实际Sobolev来源映射紧单射、像非闭，有限来源球到g有正距离，逼近g的源范数必趋∞。Rosenblum II正文现已实际取得并核相关定理；零点/ideal见证仍须构造，原边界只得closure B^k C_B(g)，不付N=M或未知闭根域。
