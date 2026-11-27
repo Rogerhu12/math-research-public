@@ -4,7 +4,7 @@
 
 ## 规则、目标与完整历史
 
-root最后真实pull/rebase至`eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21 UTC执行环境失联，恢复即真拉取。云核至`ec7aaf1d23b6dc74a5f1273209b0d49cf0a43aa8`，双README SHA `581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102` / `3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d`无变；非pull。09/10真实pull及每次规则核查见末块。私库QUEUE进行中已推`e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`。
+root最后真实pull/rebase至`eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21 UTC执行环境失联，恢复即真拉取。云核至`44f0f866e48e97063605a71c8b38647c681dddfe`，双README SHA `581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102` / `3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d`无变；非pull。09/10真实pull及每次规则核查见末块。私库QUEUE进行中已推`e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`。
 
 科学只本公开仓库Actions；root唯一ref写者，结论即普通推，NFF立即rebase循环、不强推。每次pull核双README差异并立即遵新规，至少每小时记commit。raw只runner/scratch、不入Git/Release/artifact，不改名冒输入；完整小源、全部参数、run/SHA保。题≤200MB、文件<5MB、MD<100KB、H<10KB、open<30KB；先stat，不整读≥100KB。既有执行/终端/大文件偏差及令牌处理责任保固定历史；令牌只瞬时CLI。
 
@@ -34,7 +34,7 @@ R248仅活动像，固定p4须共同R650或全部mixed pairs；均值J≠normal 
 
 [10 mesh/t](notes/2026-11-27-run10-complete-same-field-phase-meshes-and-refinement-inputs.md)四全体/三构造/两方案已刊未排：只取真13final/immutable同点，全922胞×1/2/4、全圈512/1024/2048、两固定p4帽、多t与4/8/16；raw六jet/投影/PL与t差分分别记。M320零扩张只输入，raw只runner，无场/收敛证书。
 
-[10 N4096](notes/2026-11-27-actual-run10-N4096-complete-closure-entry.md)19体（3共享）/4构造/三方案、[10 J1845](notes/2026-11-27-run10-J1845-complete-radial-continuation.md)22体（5共享）/五构造/三方案已刊未排。e711及参考M160/N2048/J923固定；全部旧词/新增自由量/32段/全13 c3dc-2efa父/全typed与未知peer保。J全三通道quintic/原新Gauss并集/当前共同父统计，final.npz正确，未来SHA null；无实际精化。
+[10 N4096](notes/2026-11-27-actual-run10-N4096-complete-closure-entry.md)、[10 J1845](notes/2026-11-27-run10-J1845-complete-radial-continuation.md)、[10 M320](notes/2026-11-27-actual-run10-M320-immutable-point-complete-entry.md)完整运行体/构造/全参数方案已刊未排。同e711、参考M160/N2048/J923固定；全旧词/新增自由量/32段/完整c3dc-2efa13父/全typed与未知peer保。J全三通道quintic/原新Gauss并集/当前共同父统计；M三不等块原字零嵌入但新增词全自由，fixed chart用reference_freq。真final.npz/未来SHA null，无实际精化或旧证书继承。
 
 ## 10实际输入与完整缓存求解
 
@@ -46,17 +46,15 @@ R248仅活动像，固定p4须共同R650或全部mixed pairs；均值J≠normal 
 
 [不可写点完整族](notes/2026-11-27-run10-immutable-point-cache-binding-and-complete-source-family.md)15体/两构造/两方案已刊未排，90来源保原75。normal完整bytes owner、每key同对象/owner/布局，入口出口全词与全部data/control/active旁路/每段final原式保。完整c3dc/2efa13父/全typed桥、原20121B科学后缀和全部参数保；frame_matrix键对齐。无未来SHA/数值/速度，progress原43+5=48。
 
-[11同g输入续作](notes/2026-11-27-run11-complete-warm-launch-and-fixed-reference-continuation.md)已推完整控制器4b080/原561 warm和独立workflow，请求触发实际run身份待返回。仅先重建全warm；后续确定性2218/全7377与原完整词须真核。e711/4ace是旧执行证据，不能冒新身份；新的完整context/binder/solver与全参数待入队，07–10未知peer历史保。
+[11同g输入续作](notes/2026-11-27-run11-complete-warm-launch-and-fixed-reference-continuation.md)完整控制器4b080/原561 warm/独立workflow已触发真实46000835895/1、job140511753433，12:42:06 UTC启动；末块保实际阶段。仅先重建全warm；后续确定性2218/全7377与原完整词须真核。e711/4ace是旧执行证据，不能冒新身份；新的完整context/binder/solver与全参数待入队，07–10未知peer历史保。
 
 继续10真实科学/pure与独立全域费用；完成闭面全phase/全像握持/共同A/R716、同问题实际mesh/频率/t精化和多t网格，不停在条件论证或job时间上。
 <!-- visible-larger-parallel-08:start -->
-[08终态](notes/2026-11-27-run08-terminal-cancelled-with-unreturned-complete-field.md)：45929088658/1的job140277268174及step5真实completed/cancelled；08:25:18观察、API更新08:24:27。仅1–10返；95559科学11已启而退出/report/final/typed未知，pure12未返；不猜取消因果，原全参数保。
-08最后记录的真实规则核查：2026-11-27 08:08:18 UTC，真实pull至`812ff88bd83b5669770c0224269ee9dccfab7c9e`，双README无变化。
+[08终态](notes/2026-11-27-run08-terminal-cancelled-with-unreturned-complete-field.md)：45929088658/1、job140277268174真实cancelled（API08:24:27，观察08:25:18）；只1–10返，95559场/typed/pure未知，不猜取消因果。最后真实pull：2026-11-27 08:08:18 UTC→`812ff88bd83b5669770c0224269ee9dccfab7c9e`，双README无变。
 <!-- visible-larger-parallel-08:end -->
 
 <!-- visible-larger-parallel-09:start -->
-[09终态](notes/2026-11-27-run09-terminal-cancelled-with-unreturned-complete-field.md)：45943410994/1、job140322567209及step5真实completed/cancelled；10:53:04观察，API更新10:53:00。仅1–7返；ff544科学8退出/report/final/typed未知，aee纯读和后续费未返，不猜原因。
-09最后真实规则核查：2026-11-27 10:36:31 UTC，真实pull至`90a9e16ac40877b0b8674a1b8750b60e1cdeae95`，双README无变化。
+[09终态](notes/2026-11-27-run09-terminal-cancelled-with-unreturned-complete-field.md)：45943410994/1、job140322567209真实cancelled（API10:53:00，观察10:53:04）；只1–7返，ff544场/typed/aee及费用未知，不猜因果。最后真实pull：2026-11-27 10:36:31 UTC→`90a9e16ac40877b0b8674a1b8750b60e1cdeae95`，双README无变。
 <!-- visible-larger-parallel-09:end -->
 
 <!-- visible-larger-parallel-10:start -->
