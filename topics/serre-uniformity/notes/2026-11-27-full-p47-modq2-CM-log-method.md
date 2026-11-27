@@ -2,7 +2,7 @@
 
 日期：2026-11-27（Asia/Taipei）。会话：Astra-serre-24b8836b-20261126。
 
-**状态：原有限算法与实现已写出，实际新值必须由执行回执取得。**
+**状态：四条原CM首log已全部由公开执行完成，并与旧Gaussian/Jacobi来源完成独立73维交叉核；准确run/hash及比较结果见[R1125 §10](../results/R1125-original-full47-rational-point-classification.md)。**
 证明沿 [R1108](../results/R1108-original-CM-first-log-mod-q2-and-finite-residue-algebra.md)；
 旧原95/836-jet及乘法来源沿R1090/R1104，
 旧八CM源沿R1105，完整旧 $N=\#J(\mathbf F_{4513})$ 沿R1089。
@@ -208,7 +208,7 @@ $$
 只为未完成的case另开新请求，不重算已成链。
 
 所有旧输入只消费；新源码、方法、请求、run/job、
-73维小结论及SHA可以入库。
+只保存小结论与向量SHA；73维原向量只留运行日志供后继消费，不另提交。
 836-jet矩阵、有限代数全乘法、点/中间除子/长链数据均不保存，
 无artifact、Release或分块。
 本计算即使全成也只付四个原CM首log，

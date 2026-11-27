@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。已部分克隆并真实pull main，读两README/H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则读至36cf1ed2。不重做已登记结论或窗口。
 
-**公开两README已读提交：6497e9e890f1ba95392f69121a37d70de1980e2e**（2026-11-27 23:30 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
+**公开两README已读提交：6190c1ff1ca612355b7a5066a46ccea2d812a0c3**（2026-11-27 23:33 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
 
 22:55再试pull仍报无可用执行环境，shell未运行；按根规则8用连接器小文本同步、读差异、带expected_sha非force提交，恢复后立即pull --rebase。拒绝即同步重基再推至成功。令牌仅CLI；数学程序仅本公开仓库Actions，禁止本地/V8数学计算。root维护main/H/open/index/log，子研究独立稿，每条结论立即推；此前V8偏差及停用见[纠正记录](notes/2026-11-26-execution-path-deviation-and-correction.md)。
 
@@ -22,11 +22,11 @@ R1062–71保原全cusp、étale/p-only、全部角色与twists，无regular/Van
 
 [原K₂[p]全尖点规范](notes/2026-11-27-original-cuspidal-K2-torsion-and-odd-Jacobian-obstruction.md)：整未分歧K₂[p]模常数准确为μ_p⊗J(K)[p]，全cusp leading平均给Δ等变分裂；规范后的even剩余落在odd J(K)[p]，既有even cusp模块不控制它。须实际付p-torsion、全tame、常数与odd分量，未得到cup零或四阶cover。§7条件式原两维层0→ω^r→E→ω^(1−r)→0的Kummer radical实际为ω^(2−2r)，即T(r)=p+1−2r；反向为ω^(2r)，不能接β_r。实际J整层/重数/圆单位相等仍开。
 
-### 原完整X_ns^+(47)：只消费；新旧来源交叉审计在做
+### 原完整X_ns^+(47)：只消费；新旧来源交叉审计完成
 
 [R1125](results/R1125-original-full47-rational-point-classification.md)完整八CM分类已付：235坏盘/十good标签、283与4513同一点、全部非q高度含非整j及2/3、73维整Hodge/MW/log/height、16Cartier值及八完整4513盘唯一。来源/run/hash保R1125与逐字归档，不重算固定47。
 
-旧Miller run45973334832/job140418866621已budget AlarmInterrupt失败，无完整新值；不重跑。旧q² run45977769585/job140433713916成功，source ccad9f4a…，17370.253秒，四个原23y−C∞的完整λ73均输出；root核四hash及总canonical结果5a084d55b4df85ab0a4eb38e8e5032292960ff83a81b6babfd3c54235d5ea734。它不是R1125依赖；现核其与旧Bu₄/q及R1120带符号坐标的实际B_q/Hodge转换，尚不声称数值一致。只做新回执交叉核，不再算长链/高矩。独立[交叉核方法](notes/2026-11-27-full-p47-CM-log-crosscheck-method.md)及600/30秒Actions已提交；首run46024515504/job140592329768在读旧日志前URLError、completed空；已将下载改为host TLS预取/容器只读固定临时文件，完整B_q/ρ/c及16旧读数仍待真实回执。mismatch是合法完整结果。
+R1125 §10已核后到q²四原CM首log：producer run45977769585/job140433713916完整成功；独立交叉核run46025141482/job140594489905，8.719秒，原B_q anchor、四73维ρ/c作用及16旧本征读数全相同，result SHA06c8bbd4fa4a437eaf3ce5b0fa2ce998c661329ca593fbb63c07352d92383173。root/o2亲读并核hash，不重算CM链/高矩。首I/O失败及旧Miller budget失败保方法/R1125，不续跑；固定47不代全p。
 
 ## O1：原同一标签、Picard两jet与实际Gaussian mask
 

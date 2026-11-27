@@ -1,5 +1,7 @@
 # 结论索引
 
+- **原四CM对数独立相容性核查（全部完成）**：R1125 §10后到q²四首log已全维交叉核相容：run46025141482/job140594489905，原B_q/ρ/c及16本征读数全同。该来源审计关闭；不重跑长链，不增加固定47依赖。 来源与hash见[R1125 §10](results/R1125-original-full47-rational-point-classification.md)。
+
 - **原整K₂[p]剩余接口（已证明，纸面）**：[原K₂[p]全尖点规范](notes/2026-11-27-original-cuspidal-K2-torsion-and-odd-Jacobian-obstruction.md)：整未分歧K₂[p]模常数准确为μ_p⊗J(K)[p]，全cusp leading平均给Δ等变分裂；规范后的even剩余落在odd J(K)[p]，既有even cusp模块不控制它。须实际付p-torsion、全tame、常数与odd分量，未得到cup零或四阶cover。§7条件式原两维层0→ω^r→E→ω^(1−r)→0的Kummer radical实际为ω^(2−2r)，即T(r)=p+1−2r；反向为ω^(2r)，不能接β_r。实际J整层/重数/圆单位相等仍开。
 
 - **原Tate三挠normal-FM（已证明，纸面）**：[原Tate三挠normal-FM](notes/2026-11-27-original-Tate-three-torsion-normal-FM-variation.md)已付实际ε族的Verschiebung一阶、全Miller核及相对Cartier变分。原有限偶源上 N=2(U³+v²)∂U²+5U²∂U+U，6v·dot t_f=Φ(Nf)−δRcal·Φf；N保持原V₀。指定f=U^m给6v·dot t=−δRcal·t+(3v²/2)Φ(U^(m−2))，在−Q恢复原normal单位。移动标架可有2p−2极，不能删项或认作Picard D⁴；实际normal-to-Picard桥及e/K4共同非零仍开。 §§6–7另从实际kerV全局截面付M₀=(1+εδRcal/(6v))s^(p−1)及−Q刚化，修正后12v·dot J=(D_T²−2U_T²D_T/V_T)J；全odd自然源矩阵/移动基变分也保，未换成Picard D⁴。
@@ -46,7 +48,7 @@
 - **R1111（已证明）**：[R1111](results/R1111-original-p-block-common-factors-and-canonical-rational-map.md)：原r2规范p-block公因子恰M D (b³−1)^(2ε)，其中ε=1 iff原f_N=0；清除后真映射全部分歧已付，三CM指数ell+1−2ε。尚未排ε=1，不代bare范数。
 - **R1109（已证明）**：[R1109](results/R1109-original-Dixon-first-divided-Gross-Koblitz-layer.md)：原Dixon函数1−p的完整模p²/首除层已证；保全部三块λ1、Wilson/harmonic carry及原有理U0。与短η/ν的准确比较仍开。
 
-- **R1108（读取公式与整算法已证明）**：[R1108](results/R1108-original-CM-first-log-mod-q2-and-finite-residue-algebra.md)：原q²首log residue-trace与末端强制归一已证；两pencil必须同时核。八CM归约四基本类；[q²方法](notes/2026-11-27-full-p47-modq2-CM-log-method.md)及KM实现已推，四CM源提升及q²原首对数现已成功；旧Miller链budget失败。新q²回执与已用B_q/带符号坐标的交叉审计在做，不重算长链。
+- **R1108（读取公式与整算法已证明）**：[R1108](results/R1108-original-CM-first-log-mod-q2-and-finite-residue-algebra.md)：原q²首log residue-trace与末端强制归一已证；两pencil必须同时核。八CM归约四基本类；[q²方法](notes/2026-11-27-full-p47-modq2-CM-log-method.md)及KM实现已推，四CM源提升及q²原首对数现已成功；旧Miller链budget失败。新q²回执与已用B_q/带符号坐标的全73维交叉核已全部相同，见R1125 §10，不重算长链。
 
 - **R1106（已证明，精确计算）**：[R1106](results/R1106-certified-original-all73-angle-actions-and-two-generators.md)：run45969880122/job140407429635，66.005秒；CM76全73循环det1693，原23角实际坐标/全组合律/trace齐备。ZA=13R0+4R2、ZB=2R4−7R0在全部28块无共同零，生成整T；不代QC行秩。
 

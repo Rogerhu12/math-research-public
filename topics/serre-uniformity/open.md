@@ -30,6 +30,8 @@ R1090/93、R1096/1101与R1102付同一原73维Hodge/MW整格、对数满格及�
 
 [原K₂[p]全尖点规范](notes/2026-11-27-original-cuspidal-K2-torsion-and-odd-Jacobian-obstruction.md)：整未分歧K₂[p]模常数准确为μ_p⊗J(K)[p]，全cusp leading平均给Δ等变分裂；规范后的even剩余落在odd J(K)[p]，既有even cusp模块不控制它。须实际付p-torsion、全tame、常数与odd分量，未得到cup零或四阶cover。§7条件式原两维层0→ω^r→E→ω^(1−r)→0的Kummer radical实际为ω^(2−2r)，即T(r)=p+1−2r；反向为ω^(2r)，不能接β_r。实际J整层/重数/圆单位相等仍开。
 
+R1125 §10后到q²四首log已全维交叉核相容：run46025141482/job140594489905，原B_q/ρ/c及16本征读数全同。该来源审计关闭；不重跑长链，不增加固定47依赖。
+
 ## O1：全p同一真实本原标签的临界非零
 
 [原Tate三挠normal-FM](notes/2026-11-27-original-Tate-three-torsion-normal-FM-variation.md)已付实际ε族的Verschiebung一阶、全Miller核及相对Cartier变分。原有限偶源上 N=2(U³+v²)∂U²+5U²∂U+U，6v·dot t_f=Φ(Nf)−δRcal·Φf；N保持原V₀。指定f=U^m给6v·dot t=−δRcal·t+(3v²/2)Φ(U^(m−2))，在−Q恢复原normal单位。移动标架可有2p−2极，不能删项或认作Picard D⁴；实际normal-to-Picard桥及e/K4共同非零仍开。 §§6–7另从实际kerV全局截面付M₀=(1+εδRcal/(6v))s^(p−1)及−Q刚化，修正后12v·dot J=(D_T²−2U_T²D_T/V_T)J；全odd自然源矩阵/移动基变分也保，未换成Picard D⁴。

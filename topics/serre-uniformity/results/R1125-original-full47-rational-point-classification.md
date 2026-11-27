@@ -332,3 +332,88 @@ root/global已全文回读以上主链中 R1072/1074/1086/1093/1102/1103/1120/11
 o1另逐项纸核whole-C47 raw支撑、非q范围、4513完整coarse盘与simple Hensel接口。
 本篇汇合已有证明和来源，不构造新的未证跨曲线身份，
 不把一般素数的未知绝对界从固定47结论中删除。
+
+
+## 10. 后到的四条 q² CM 对数与原证明输入全维一致
+
+这是对本篇已完成证明的一次独立来源交叉核，不新增本篇必须等待的输入，
+也不改变上述八点分类。
+
+### 10.1 原 q² producer 的实际完整结果
+
+先前已经启动的原模 $4513^2$ 计算现已全部结束：
+
+- source：ccad9f4ad40466d9a3387e70b42a77c75a2d75b9；
+- [run45977769585 / job140433713916](https://github.com/Rogerhu12/math-research-public/actions/runs/45977769585/job/140433713916)，success；
+- 完整数学窗口：17370.25304177秒；
+- request SHA：5bf66b6ddb303f71e2c255badc61942d0faf6694612a9ebdf74adde9b5dc49dc；
+- 完整 receipt.completed SHA：
+  5a084d55b4df85ab0a4eb38e8e5032292960ff83a81b6babfd3c54235d5ea734。
+
+它直接读取四个原除子
+$$
+u_D=23[y_D]-C_\infty,\qquad D=-4,-3,-7,-8,
+$$
+对应标签141、0、76、108。
+输出为同一73维原 Hodge 基中的
+$\lambda(u_D)=q^{-1}\log(u_D)\bmod q$，
+不是带 $B_q$ 的向量。
+所有 $23$、宽度47及有符号终点 $\epsilon=-1$ 均按
+[R1108](R1108-original-CM-first-log-mod-q2-and-finite-residue-algebra.md)
+和原[模q²方法](../notes/2026-11-27-full-p47-modq2-CM-log-method.md)保留。
+
+四条完整向量的 hash 及规范逐项列于
+[独立交叉核方法](../notes/2026-11-27-full-p47-CM-log-crosscheck-method.md) §1–3。
+原向量只消费公开运行日志，不另存仓库、artifact 或 Release。
+
+### 10.2 新的完整交叉比较
+
+新的[消费者](../scripts/full_p47_CM_log_crosscheck.py)
+与[有限请求](../notes/full-p47-CM-log-crosscheck-request.json)只复建固定原
+Hodge/Hecke 小矩阵，不重算 CM 链、高矩、Jacobi 路径、高度或 QC。
+成功来源为：
+
+- source：8a15c7fb3e2bc6c4df46b5e7682b05af0954a25a；
+- [run46025141482 / job140594489905](https://github.com/Rogerhu12/math-research-public/actions/runs/46025141482/job/140594489905)，全部步骤success；
+- 固定Sage10.6官方镜像，数学预算600秒/reserve30，实际8.719432211秒；
+- consumer SHA：e4e56f1c8f17e79389e9bbf048aeda10220d31f056f88315a8e06aa3cd664bd4；
+- 执行时方法 SHA：e0a9d88478c0f7b5a1bd169f7530a694475e8071ae71fc523e23971207b69733；
+- request SHA：71f9182ff1ab840ac0ad2f37a9f716bb3232ab958d82c16019887e7c48afefbc；
+- 完整比较 receipt.completed SHA：
+  06c8bbd4fa4a437eaf3ce5b0fa2ce998c661329ca593fbb63c07352d92383173。
+
+原 Hodge 约定为 $T_n\omega_i=\sum_j(M_n)_{ij}\omega_j$，
+所以对数列由 $M_n$ 左乘。先核原95描述子/73维核、全部
+$M_2,M_3,M_5$、$H=T_3+T_5$、$B_q(H)$ 与
+$C_{\rm row}=I-B_q(H)$ 的完整 hash，而非只核行列式。
+接着真实得到：
+
+| 已完成比较 | 完整结果 |
+|---|---|
+| $B_q(H)\lambda(u_{-4})$ 与R1093旧Gaussian向量 | 73维全相同 |
+| $\lambda(u_D)=\rho_D(H)\lambda(u_{-4})$，四个基本CM类 | 每类73维全相同 |
+| $\lambda(u_D)=c_D(H)B_q(H)\lambda(u_{-4})$ | 每类73维全相同 |
+| $B_q(H)\lambda(u_D)=\rho_D(H)B_q(H)\lambda(u_{-4})$ | 每类73维全相同 |
+| 原16个归一本征形式上的旧读数 | 16项逐项相同 |
+
+其中 $\rho_D,c_D$ 正是R1120原带符号坐标，$B_qc_D=\rho_D$。
+恢复的 Gaussian anchor SHA 准确为
+489ab09b0e7bedae211e478938e687b51cd3d477438d9d47605d2cac0a4929dd，
+与R1093原向量完全一致。没有另乘符号、23、47或一个猜测比例；
+全部实际差列为零。
+
+root亲读完整日志并核回 canonical 结果 hash；
+o2_high_coefficient 独立亲读成功receipt及全部四类/16读数。
+源代码和方法在执行前已由root/o1/o2全文纸审。
+
+### 10.3 真实失败记录与剩余范围
+
+首个交叉核run46024515504/job140592329768仅在容器下载固定旧日志时
+发生URLError，2.440997938秒、completed为空；它不是数学不相容。
+后继仅将TLS下载移到宿主机，容器只读该临时文件，
+保全部原来源/hash门，未放宽TLS或转发token到存储服务。
+
+旧Miller run45973334832/job140418866621因预算AlarmInterrupt失败，
+没有完整新四值，不再续跑；本篇使用的是§7–8已经完成的独立短Cartier值。
+这次完整交叉核关闭后到q²来源与原证明输入的相容性问题。
+一般充分大素数的Serre主目标仍按课题README继续。
