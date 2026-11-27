@@ -4,7 +4,7 @@
 
 **已证明的范围。** 本篇把 R1011 的同一个、未 depletion 的固定最高循环放到目标素数 $p$ 本身惰性的情形。给出保全部54图、全部 $\eta_j$ 权及完整 corestriction 的 proper finite-polynomial AJ 公式，准确保留因子 $p/(p+1)$。另由原完整 NS 格证明：新增最短截面的两个 CM 分量在原晶体格中的指数分别为 $1,p$；全纯分量的晶体 Chern 类是原二形式的一个 $p$-adic 单位倍。
 
-这两个结论尚不把特征 $p$ 的新增截面或其 Manin 函数认作固定特征零循环的调节子。最后一节明确两者之间仍要计算的原函数限制；本文不据一个非零二形式给加权 AJ 非零。
+§§8–12进一步在同一整扩张格中支付全Chern–Miller/PD比较与真实限制，将原残余参数 $\overline h_{j,p}$ 准确写为全部54图的 $d_i^pX_iP_p(X_i^3)$ 加权和，再识别为原 weight $p$ CM theta form 的同一 toric 值。全权和的非零以及它到通常全 $\Sha$ 的全球比较仍未付；非零二形式本身不替代这两步。
 
 ## 1. 固定循环、系数与有限删集
 
@@ -1474,3 +1474,293 @@ horizontal 常数。原$\alpha_p$和$a_{j,p}$都是已指定的非零单位；
 也没有把所得局部最高 AJ 自动等同于 R970/R973/R1038
 通常 Selmer 入口所需的椭圆曲线 canonical 中央首导数。
 后继须分别支付全权非零及该原算术入口的真实比较。
+
+## 12. 原全迹、三列以及准确的 weight $p$ CM companion
+
+本节对(67)的有限和继续作实际计算。
+首先消去的是已经支付的原 Galois 重标记；
+随后把同一个有限多项式识别为一个规范 CM theta form。
+后一识别包含原 $\Gamma$、宽度3及常数 $3\delta$。
+
+### 12.1 全部 $\eta$/Cor 恰给原 $[L:H]$
+
+令
+$$
+m_p(b)=X_bP_p(X_b^3),\qquad
+z^{(p)}_{i,t}=d_{i,t}^{\,p}m_p(b_{i,t}),
+\qquad
+\mathcal T_{j,p}^{\,m}
+ =\sum_{i=0}^2\sum_{t\in C_{18}}
+      \omega^i\vartheta_{l_j}(t)^{-1}z^{(p)}_{i,t}.
+\tag{80}
+$$
+这里 $l_j=-5,1,7$，$j=4,10,16$。
+式(80)始终在原 $A=E_{27}$、原 full9 级点及指定的
+$\mathbf F_{p^2}$ 嵌入上评价。
+
+R1043(75)已在特征零完整模问题中逐图证明
+$$
+\gamma\varphi_{i,t}
+ =\varphi_{i-r_\gamma,h_\gamma^{-1}t},
+$$
+包括靶的完整9级、原微分及零截面。
+同一处(76)给**实际带系数循环**的等式
+$\gamma Z_j=\eta_j(\gamma)Z_j$。
+这里的系数作用仍是$\gamma\otimes1$。
+所以对(67)的同一个线性读者，这些严格图等式逐项相加，得到
+$$
+\frac1{18}\sum_\sigma\eta_j(\sigma)^{-1}
+ \sum_\gamma\sum_{i,t}c_{i,t}\,
+ d_{\sigma\gamma(i,t)}^p m_p(b_{\sigma\gamma(i,t)})
+ =[L:H]\,\mathcal T_{j,p}^{\,m}.
+\tag{81}
+$$
+这不需要把 weight $p$ 放进 R1006 的某个经典权分支；
+所用的是 R1043 在 Chow 层已经核完的完整置换。
+若使用其最小原级域$L_0=K(E_{27}[306])$，
+$[L_0:H]=432$；更大的实际$L$仍保它自己的倍数。
+
+于是(67)准确简化为
+$$
+\boxed{\;
+\overline h_{j,p}
+ =-\overline a_{j,p}^{-1}\overline\alpha_p
+    [L:H]\,\mathcal T_{j,p}^{\,m}.
+\;}
+\tag{82}
+$$
+原 Artin 基$a_{j,p}$并未被这个重标记删除。
+
+### 12.2 原三列依旧相加，且有单个多项式表达
+
+这里可以直接核(80)中的相位，不借一个未经证明的
+“Manin 值是点值”断言。
+R1043(23)的实际图给
+$$
+X_{i,t}=\omega^iX_{0,\omega^{-i}t},\qquad
+d_{i,t}=\omega^i d_{0,\omega^{-i}t}.
+$$
+在当前固定有限删集外所有这些目标均在原有限好模型上。
+因$p\equiv-1\bmod3$，$d^p$和$X$的两个相位相消：
+$z^{(p)}_{i,t}=z^{(p)}_{0,\omega^{-i}t}$。
+
+另一方面，R1027(30)的**原实际**交换图为
+$F_b\varphi_C=\varphi_{\delta C}[-\delta]_A$。
+其微分等式是$\delta d_C=-\delta d_{\delta C}$，
+所以$d_{\delta C}=-d_C$。
+基点变成$-b=(X,-1-Y)$，其$X$不变。
+故
+$z^{(p)}_{\delta C}=-z^{(p)}_C$。
+原角色在同一 order2 类上的值也为$-1$，所以仍是正重数2，
+没有因一次 Frobenius 改成消零。
+
+沿 R1043(29)固定$s$及$\zeta_9$的方向，置
+$$
+\mathcal B_{a,p}
+ =\sum_{i=0}^2\omega^i z^{(p)}_{i,s^{2a}},
+ \qquad a=0,1,2 .
+$$
+和 R1043(30)、(34)同样的逐标号求和给
+$$
+\boxed{\;
+\mathcal T_{j,p}^{\,m}
+ =6\sum_{a=0}^2\zeta_9^{-l_ja}\mathcal B_{a,p}.
+\;}
+\tag{83}
+$$
+按$j=10,4,16$的顺序，这是三个指数$1,4,7$的三阶 Fourier
+矩阵。其行列式只含3的单位因子。
+因而在所有原固定次数亦为$p$单位的范围内，
+三个$\overline h_{j,p}$同时为零，等价于
+$\mathcal B_{0,p}=\mathcal B_{1,p}=\mathcal B_{2,p}=0$。
+这次等价已经是原局部扩张的残余读数，不再只是无权 Picard 类。
+
+还可用 R1043§§13、21、22 的同一真实二商写出各列。
+记$t_a=s^{2a}$，$\psi_{t_a}$为原 degree17 图，
+$e_a$由$\psi_{t_a}^*\omega=e_a\omega_A$定义。
+令$(X'_a,Y'_a)=q_-d_{t_a}$为原有序全二谱 lift 所给的点，
+$V'_a=2Y'_a+1$，并令$N_p$为 R1043(127)–(130)的完整多项式。
+组合图$\varphi_{i,t_a}=\phi_{2,i}\psi_{t_a}$的微分给
+$d_{i,t_a}=e_a c_{2,i}$；代入那里的三项函数恒等式便得
+$$
+\boxed{\;
+\mathcal B_{a,p}
+ =e_a^p\,\frac{X'_a}{(V'_a)^{\,2r-1}}\,
+        N_p\!\left((V'_a)^2\right).
+\;}
+\tag{84}
+$$
+(84)不把外系数$\omega$变成邻近纤维的几何端同态。
+它只是(80)这三个**函数**的完整代数化简，
+所有分母按已付原模型延拓；若使用有限坐标，仍排其固定坏集。
+本式也未声称这三个指定代数点中的某一点已不在$N_p$的零集。
+
+### 12.3 一个真正属于原 $\Gamma$ 的 CM theta form
+
+令$\psi=\psi_{27}$，定义规范新形式
+$$
+f_{p-1}(\tau)
+ =\theta(\psi^{\,p-1})(\tau)
+ =\sum_{\substack{\mathfrak a\subset\mathcal O_K\\(\mathfrak a,3)=1}}
+      \psi(\mathfrak a)^{p-1}q^{\mathrm N\mathfrak a},
+\qquad
+g_p(\tau)=f_{p-1}(\tau/3).
+\tag{85}
+$$
+这里是 Hecke theta series；不是微分算子$\theta$。
+因为$p-1\equiv4\bmod6$，$\psi^{p-1}$在$\mu_3$上的有限型仍
+非平凡，且原模$(3)=\delta^2$的型保持。
+它的精确导子仍为$(3)$，不是较小的$\delta$。
+Hecke theta 构造因而给 weight $p$、level27、
+nebentypus$\chi_K$的原始 cusp newform。
+同 R991 使用的 CM 构造，系数按共轭理想配对为有理代数整数。
+
+需要核的是它确实进入**原**$\Gamma$。
+每个出现的范数都为$1\bmod3$，所以
+$g_p(\tau+1)=\omega g_p(\tau)$。
+另一方面，$f_{p-1}$的系数为实数，newform 的 Fricke 关系
+使它为$W_{27}$的本征形式；
+因此$g_p$为
+$D_3=\left(\begin{smallmatrix}0&-1\\3&0\end{smallmatrix}\right)$
+的本征形式。这里不需要把这个本征值冒充 weight3 时的值。
+由准确的矩阵等式
+$$
+D_3T^{-1}D_3^{-1}
+ =\begin{pmatrix}1&0\\3&1\end{pmatrix}=U_3
+$$
+可知$g_p|U_3=\omega^{-1}g_p$。
+$T,U_3$生成$\Gamma_1(3)$；
+这两个值正是原角色
+$\left(\begin{smallmatrix}a&b\\3c&d\end{smallmatrix}\right)
+\mapsto\omega^{b-c}$。
+所以$g_p$对其核$\Gamma$为真正的 weight $p$ cusp form。
+这个证明保留了两个生成元，不只从$T$的$q$展开猜级别。
+
+完整 determinant 下降也保持。
+在原 full9 的 Tate 模型上，$g_p$的展开仅含$q^{n/3}$，
+系数为有理整数。R1043(14)、(74)中的 determinant 部分
+$d\equiv1\bmod3$固定原$\zeta_3$和该展开。
+$q$-expansion principle 故将它下降到同一个完整
+$G_\Gamma$模型和原$K$分量。
+没有再用$h$翻转这个分量，也没有重选一套 full9 基。
+
+这些形式在$p\nmid6$时为整形式。
+可直接从 tame 光滑模型的$q$-expansion principle 看出：
+若一个形式在整格中有负$p$赋值，其最小分母清掉后的非零
+特殊纤维截面，不可能在这个 cusp 的整个形式邻域上为零。
+所以(85)的整$q$系数不容许这里出现额外$p$分母。
+
+### 12.4 惰性 Frobenius 逐系数给完整导数等式
+
+记原$f_2=\theta(\psi^2)=\sum A_nq^n$，
+$h_\Gamma=f_2(\tau/3)$。
+对$p\nmid n$，每个$\mathrm N\mathfrak a=n$满足
+$$
+\psi(\mathfrak a)^p
+ \equiv\overline{\psi(\mathfrak a)}\pmod p,\qquad
+\psi(\mathfrak a)\overline{\psi(\mathfrak a)}=n .
+$$
+因此
+$n\psi(\mathfrak a)^{p-1}
+ \equiv\overline{\psi(\mathfrak a)}^{\,2}$；
+把$\mathfrak a$与其共轭重新标号，得
+$n\,a_n(f_{p-1})\equiv A_n$。
+若$p\mid n$，惰性$p$的理想范数含$p$只能以偶数指数出现；
+存在这样的理想时，$\psi^2$的相应项至少含$p^2$。
+所以$A_n\equiv0$；左侧也为零。
+这核了全部$p$倍指数，不只prime-to-$p$部分。
+于是原宽度3的展开准确满足
+$$
+\boxed{\quad
+q\frac d{dq}g_p=\frac13h_\Gamma\pmod p .
+\quad}
+\tag{86}
+$$
+
+因 weight 正是$p$，$L^p$有 Frobenius 拉回的规范连接：
+在局部框架$e^p$中，$\nabla(fe^p)=df\,e^p$。
+用原 KS 同构把
+$L^p\otimes\Omega_B^1(\log\{T,-T\})$
+识别为$L^{p+2}$，得到这里的几何导数$\Theta_p$；
+其 Tate 展开就是$q\,d/dq$。
+这不是在普通 locus 上除以 Hasse 后留下的一个有极算子。
+
+R1043(111)给原 raw 形式
+$D_Bm_p=A_p$，
+而$\lambda=9\omega_B/X$，故
+$D m_p=A_pX/9$。
+再保 R997(23)的实际 split Tate 微分
+$\omega_t=r(q)\omega_{\rm can}$，$r(0)=\delta$。
+同篇(24)等价于
+$$
+r(q)^3\,\frac X9=\delta\,h_\Gamma(q).
+$$
+因为$A_{\rm can}=r^{p-1}A_p=1$、$d(r^p)=0$，
+在原同一个 Tate 参数中得到
+$\Theta_p(m_p)=\delta h_\Gamma$。
+与(86)比较，
+$\Theta_p(m_p-3\delta g_p)=0$。
+
+这个核没有隐藏的$q^p$ cusp 项。
+若$G\in H^0(B,L^p(-T-(-T)))$且$\Theta_pG=0$，
+局部框架下其函数的导数为零，故为一个$p$次幂。
+过渡函数也为$p$次幂，这些根拼成 Frobenius 共轭曲线上的
+weight1 截面；在两个 cusp 的正零阶保证其亦 cuspidal。
+但原$L=\mathcal O_B(O)$，所以
+$$
+\deg L(-T-(-T))=1-2=-1,
+$$
+该 weight1 cusp 空间为零。因而$G=0$。
+这里$m_p$确为 cusp 形式：原多项式的唯一极在$O$，
+阶$p-3$，并在两个$X=0$的 cusp 都为零。
+遂得到原规范下的严格等式
+$$
+\boxed{\qquad
+m_p=X P_p(X^3)=3\delta\,g_p
+ \quad\text{作为原 }\Gamma\text{ 上的 weight }p
+ \text{ 模形式，模 }p .
+\qquad}
+\tag{87}
+$$
+比例$3\delta$来自原非裂 cusp 的真实微分和宽度3，
+不是一个随后可忽略的未知比例。
+
+### 12.5 回到同一有限 toric 值
+
+若$\omega_b/d_i$是由实际商规定的微分，
+$\varphi_i^*(\omega_b/d_i)=\omega_A$，
+weight $p$ 的定义给
+$$
+g_p(S_{b_i},\ell_{b_i},\omega_b/d_i)
+ =d_i^p g_p(S_{b_i},\ell_{b_i},\omega_b).
+$$
+所以(80)、(87)准确是同一个原有限向量的评价：
+$$
+\begin{split}
+\mathcal T_{j,p}^{\,g}
+ &:=\sum_{i,t}c_{i,t}
+      g_p(S_{b_{i,t}},\ell_{b_{i,t}},\omega_b/d_{i,t}),\\
+\mathcal T_{j,p}^{\,m}
+ &=3\delta\,\mathcal T_{j,p}^{\,g},\\
+\boxed{\quad
+\overline h_{j,p}
+ &=-3\delta\,\overline\alpha_p\,
+   \overline a_{j,p}^{-1}[L:H]\,
+   \mathcal T_{j,p}^{\,g}.
+\quad}
+\end{split}
+\tag{88}
+$$
+该有限向量仍在2、17处使用原非平凡 torus 角色，
+原degree34/full9微分全部保留；不换成球向量或无权 Hecke 和。
+
+(87)本身以及(80)–(84)的有限函数恒等式不需要新增 NS 格存在的
+$p>q_0$前提。只有把它们称作(88)的原局部扩张参数时，
+仍保留§1–11的全部晶体整格及几何前提。
+所以单个较小$p$的有限和计算若没有另外支付该$p$的整格，
+只能报告这个完整有限和，不能先给它标成原$h_{j,p}$。
+
+本节已经把下一非零问题准确转成一个原 CM theta form 的
+完整 toric 值。其经典 CM 分解、原 type4 Taylor 源及周期的比较
+若要用于模$p$，仍须逐项支付阶乘和所有$p$赋值。
+这里没有从一个复临界值非零推出(88)的模$p$非零。

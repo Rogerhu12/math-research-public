@@ -60,3 +60,7 @@ unitary§15给正支全旧Y=−G126/(90b)、b17系数−1/1530，K全偶所以�
 ### Manin到原晶体单位的绝对比例已闭
 
 R1049§10已付up modp=−cQ：真正mShioda线丛的全局连接、proper generic KS唯一性及原Tate automorphy锁曲率和所有倍率。其相对p-curvature−μ，在ss纤维的Miller连接差λ有λ^p=−μb。R1049§11已把此量送到原h的除p anti坐标：I/J分离的filtered PD比较、全局a+调整、真实Miller/Chern一φ同伦给φn+=pn−，每图除p杯积=αp d_i^p μb。原up模p=−cQ消去未知常数，准确得到h模p=−a_j⁻¹αp/18乘原全部η/Cor/54权的d_i^p X_i Pp(X_i³)。下一直接处理这个完整有限和；它为零仅说明h多整除p，不能判AJ为零。原R1006/R1011普通Katz平方只覆盖split p，惰性通常全Sha全球桥还须另付。
+
+### 原惰性残余读数已接到完整CM toric值
+
+R1049§12（80）–（88）：原Chow层严格图置换将全部η/Cor折为[L:H]乘原54和；三列与全部ω/δ相位给原DFT重数6。raw m_p=XPp(X³)准确等于3δ·g_p，g_p=θ(ψ27^(p−1))(τ/3)为原Γ的整weight p CM cusp form；T/U3及Fricke证明级别，full9 determinant下降保持，惰性逐系数给θg_p=hΓ/3且所有p倍指数齐。原Tate/KS定标及weight1 cusp核零排全部q^p附项，故原hbar=−3δα a_j⁻¹[L:H]乘同一原有限toric值。后继仍须付全type4/period/阶乘比较、完整和非零及通常全Sha全球桥。 这里只把真实固定有限和化为原CM模形式；正权经典临界值非零不付其模p单位，q0仍只用于原h识别。下一同R806保全PB4三维来源比较 d_{j,p−1}，所有p因子逐一保留。

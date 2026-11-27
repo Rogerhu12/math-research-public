@@ -12,7 +12,7 @@
 
 - 至少每小时重试同步，每次pull后只读新README差异并立刻执行，记实际读过SHA；断连沿最新main API非force快进，每次检查README及本topic外部变动。10:48ref失败已立即实际pull重试、重比新父后成功；不强推。
 - root独占git/H/open/log/index；每条结论立即推，拒绝时pull --rebase后重试至成功。令牌只命令行/进程，不进文件/提交/API。数学执行只在公开Actions；根规则15禁止存可重算输出或日志数据。H<10KB，每MD<100KB。
-- 本次整理前的[完整交接](notes/2026-11-27-handoff-before-canonical-positive-old-and-connection.md)逐字保原历史，向前链接所有旧归档；[open归档](notes/2026-11-27-open-before-norm25-complete-annuli.md)、[results](results.md)、[R1001–1050索引](notes/PROOF-INDEX-R1001-R1050.md)保完整参数/门/失败/回执，不重做已登记结论。
+- 本次整理前的[完整交接](notes/2026-11-27-handoff-before-original-inert-theta-period.md)逐字保原历史，向前链接所有旧归档；[open归档](notes/2026-11-27-open-before-norm25-complete-annuli.md)、[results](results.md)、[R1001–1050索引](notes/PROOF-INDEX-R1001-R1050.md)保完整参数/门/失败/回执，不重做已登记结论。
 
 ## 一、唯一原厚几何作业
 
@@ -44,12 +44,12 @@ R1043原2/3同源/full9/所有二核/η′/最高−3Ω′1及精确三权下降
 
 §21完整对偶运输μ₁(φ̂P)=cφ^qμ₂与Φq严格交换原图pull，外系数线性给Φq(PQ)=3cQΩ′1、μ(cEPQ)=0。§22全三项消分母给μPQ=cQ X′Nq(V′²)/V′^(2r−1)，有限递推唯一、所有分母q单位。N0≠0/N1=3，IV*好化μ阶2、两cusp阶1；O值为−3cQ2^(2r−1)Pq(−1/4)，若零恰六阶。原CM289图已付full9负分量/二核循环及f′=ω/f³=id，实际R_a接触仅1/2；这些系数/指定延拓值均不替代实际T_a/p影子。
 
-R1049原惰性p固定54图/full9/η均在Kp下降；φ²=−p^-1。proper FP给AJ=p/(p+1)I_j,p；新增NS晶体指数1,p，c1D+=upΩ、c1D−=−pΩ−/(3up)，up单位，W₂障碍MW/p→H²(O)为Fp同构。§8原FL[0,3]给整h=x+puy、logBK=p h/(p+1)、modp^n split iff h≡0，严格h=a_j^-1I。§9全Chern b/Miller t/degree0ℓ与真实限制ζ给n_b=[t−Ia−upζ]=up·p/(p+1)ξ；AJ=up^-1全54权N，h=(p+1)/(p up) a_j^-1N，整除p由§8。§10真mShioda连接/Tate曲率给up modp=−cQ、p-curvature=−μ。§11 I/J分开且filtered图同伦ζ使φΩ/φζ整除p²；a+/b+整除p及真实Miller给φn+=pn−。每图除p杯积=αp d_i^p μb，原h模p=−a_j⁻¹αp/18乘全部η/Cor/54权d_i^p X_i Pp(X_i³)，cQ已消、34保留。完整有限和非零及惰性通常全Sha全球桥仍待。
+R1049§§1–12原54图/full9/η在Kp下降；proper AJ=p/(p+1)I，新增NS指数1/p及up单位。原FL整h=x+puy、log=p h/(p+1)、h=a_j⁻¹I；全Chern/Miller与I/J filtered PD给φn+=pn−，每图除p杯积=αp d_i^p μb，真连接锁up modp=−cQ。§12全η/Cor严格折为[L:H]，完整三列DFT不降重数；raw m_p=XPp(X³)准确=3δ·θ(ψ27^(p−1))(τ/3) modp。原Γ两生成元/fullGL下降、宽度3、全部p倍系数及weight1 cusp核零均已付；hbar=−3δα a_j⁻¹[L:H]乘完整原54toric值。下一支付其R806原type4低系数/全period/阶乘比较及联合无穷非零；通常全Sha全球比较仍开。
 
 ## 四、其它未闭门与分工
 
 O4需原O格Q=δ^aεw于无穷ordinary p有a≤1；E17的a偶、E389的lengthShaA=2(a+1)保持。O6需固定两点饱和λ的全核Np有限、真q_p=1于无穷p，原Tor及全p损不删。O7保同解内/闭盘、同Y余数、全Laurent/非恒Y权/全部216真管差，仍未迫原闭边界全零；跨parity R953和R954指定forcing成员性仍开，完整参数在open与逐字归档。旧外部强声称/负例保持，不重做已排方向。
 
-central继续同一完整前缀/三低卷积；arithmetic继续角源全补域；geometry继续原inert-p Ξ真实限制；root处理完整作业/同步/逐条推。unitary §§10–13已付原g_n逆Gram/12odd Bell/固定坏处/F±六sigma及全部connected/étale球。§14新付完整625项5-old迹、25列交5给绝对1/5；2singlet/3 gluing/7实偶给 E5old P3 μ−=−R_K*ν/5，保K/A全部类型。忘K才是−39δΦ126/5，实际Yunit两个K缩放差全保；其K/Y非零为β^-nκ^-n(1−βκ)/(5d_n)·10δΩID/7。全5/p-new补项仍待，不由canonical坏赋零。
+central继续原PB4完整低系数及Cartier行；arithmetic继续原p²完整norm/中央端点；geometry继续原inert全toric/type4比较；root处理原全球桥、作业/同步/逐条推。unitary §§10–13已付原g_n逆Gram/12odd Bell/固定坏处/F±六sigma及全部connected/étale球。§14新付完整625项5-old迹、25列交5给绝对1/5；2singlet/3 gluing/7实偶给 E5old P3 μ−=−R_K*ν/5，保K/A全部类型。忘K才是−39δΦ126/5，实际Yunit两个K缩放差全保；其K/Y非零为β^-nκ^-n(1−βκ)/(5d_n)·10δΩID/7。全5/p-new补项仍待，不由canonical坏赋零。
 
 unitary§15已付正支全625→25 Weyl迹、原Theta lift/四个μ6轨道/全部坏处相位，完整旧Y=−G126/(90b)，原b17系数−1/1530。唯一run46036879390/job140634410835/source4e827843与root60f整数手证一致。旧K全偶故K/Y=0，负支旧K/Y非零；旧Yunit质量差=c_n JG0/(90b)≠0，完整5-new+p-new必须补偿，不可随n深删。继续同一有限等式的实际ν/root及原坏零forcing；R774/R749只用于有限完整点和，不能给中央log无限尾免费点投影。

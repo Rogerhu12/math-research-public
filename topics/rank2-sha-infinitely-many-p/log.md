@@ -149,3 +149,7 @@ R1042§15全稿消费并逐式核17/36 Jacobian、Hasse a+b极帽、全D binomia
 ## 2026-11-27 17:13 UTC — 原惰性54图的除p残余公式
 
 消费geometry blob b8219c0447e743a679b167826056f9437feed9c3，R1049§11(63)–(79)完整I/J filtered比较、φζ/p²、a+/b+除p和Miller同伦给φn+=pn−；root逐式核源F矩阵/杯积方向/内部与外系数半线性，保全部degree34与54权，原hbar化为明确XPp全和。未知cQ取消，未给全和非零或惰性通常全Sha桥。results索引97348B接近100KB已移到完整链接归档；无新增数学执行。v12在17:09仍执行且log尚404，未重启。
+
+## 2026-11-27 17:36 UTC — 原全迹与准确weight p CM companion
+
+消费geometry blob612165c83eef20e53deb26894786546eaa2fedea；root逐式核原Chow图重标记、三DFT相位、T/U3生成元、Fricke复共轭、全部p倍Fourier指数及规范连接核。R1049§12准确m_p=3δg_p，原hbar全常数已齐；未把正权非零变成p单位，也未外推q0至小p。H逐字归档后压缩重复R1049段；所有旧门/完整pins由归档保留。p29原PB4 consumer仍在准备，未执行或预记结果。

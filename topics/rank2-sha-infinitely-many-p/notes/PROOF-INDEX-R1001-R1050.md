@@ -289,3 +289,7 @@ Kδ-old空间[δ]*S2全偶，真实P+三处(u,v)→(7u,0)、P7 fΦ∝fG与2负/7
 ### R1049§11 — 原54图除p局部参数的完整残余公式
 
 (63)–(79)已证明。实际W模型I的filtered PD局部收缩无分母，兼容原图；曲线Fil²复形acyclic给ζ∈IΩ¹+I^[2]，φI⊂p而非I，故φΩ/φζ均除p²整。a+经全局H¹整lift调整使Čech函数在J，φa+/p及真实b+/p整；Miller的degree0同伦全保给φn+=pn−。内部CM系数在p-curvature中半线性，三条真实连接给n+bar0/n−barλ−ω、λ−^p=−μQ。源φω=pαε、φε=−α⁻¹ω、α∈Zp×；每图B_i/p modp=αd_i^p μQ(b_i)，实际degree34由αpσ(d_i)=34αb/d_i核回。全原η/Cor/54外系数固定；upbar=−cQ消常数，hbar=−a_j^-1α/18 Ση^-1ΣγΣci d_i^p X_i Pp(X_i³)。完整加权非零与惰性usualSha桥仍待，不把单个Manin非零代全和。
+
+### R1049§12 — 原完整toric值与规范weight p伴随形式
+
+R1049§12（80）–（88）：原Chow层严格图置换将全部η/Cor折为[L:H]乘原54和；三列与全部ω/δ相位给原DFT重数6。raw m_p=XPp(X³)准确等于3δ·g_p，g_p=θ(ψ27^(p−1))(τ/3)为原Γ的整weight p CM cusp form；T/U3及Fricke证明级别，full9 determinant下降保持，惰性逐系数给θg_p=hΓ/3且所有p倍指数齐。原Tate/KS定标及weight1 cusp核零排全部q^p附项，故原hbar=−3δα a_j⁻¹[L:H]乘同一原有限toric值。后继仍须付全type4/period/阶乘比较、完整和非零及通常全Sha全球桥。
