@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [Phi0 的rho二次头完整分解及主支原单位必要曲线](results/R150-appendix-unit211-Phi-zero-rho-head-zero-main-original-unit-necessary-curve.md)：主支全八式/48候选、原单位六列Cramer实际返回(d,lambda)174/55必要曲线，严格偶降87/55；例外两权完整保留，未判空。
+
 - [等单点值碰撞的整个 T0 零面排除](results/R150-appendix-unit211-equal-singleton-entire-T0-zero-original-exclusion.md)：互补Delta非0的两个固定4阶原QQ结式剥后28/12完整Bézout1，合Delta0已有原排除，现碰撞可付T0。
 
 - [W全图原首一T四次/F二次与固定八维、十六维环境](results/R150-appendix-unit211-W-global-monic-T-four-F-two-and-finite-original-environments.md)：完整原首项均已付、T3恒消；保lambda3/2、D及所有原几何条件，原最终方程商不冒称自由。
