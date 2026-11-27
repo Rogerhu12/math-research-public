@@ -111,3 +111,7 @@ R1049全文已付原full9/GΓ局部下降、完整proper杯积p/(p+1)、新增NS
 ## 2026-11-27 16:23 UTC：R1049完整Hodge层级
 
 R1049§3统一原S lift于H²_fp(S,2)，A用Besser(2.3)的唯一H¹_fp(A,0)，总n=2，O_A pullback自动零；因此(15)确在全H¹成立。原p/(p+1)、全部54图与Čech同伦不变，Chern twist1比较明确经forget 2→1。修正普通提交，未改写旧提交。
+
+## 2026-11-27 16:25 UTC：完整二次返回PASS并接v12原作业
+
+run46032975863/job140621181486/source5df58ad8真PASS，完整原对照、基修改重建和全部306列回乘齐，八次单行0.9895s，原结果/log哈希记返回note。现修改本课题.github/workflows/rank2-sha-original-triangular-artinian-shadow.yml调用v12，60源及两char0 pins、29/2453/64/minimal、全部原门/只读禁网不变；未原样重启v11，也不读取旧矩阵缓存。继续原作业实际验收及数学各线。

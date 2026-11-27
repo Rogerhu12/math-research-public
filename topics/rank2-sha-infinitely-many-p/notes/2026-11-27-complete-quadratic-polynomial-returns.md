@@ -88,3 +88,15 @@ run **46031932492**、job **140617645118**、source
 ### 4.1 固定Sage10.6复制接口修正
 
 后继run46032541530/job140619700531/source392591048656cb5f0c8aa779fe163c4eed912427于16:19:44UTC在首次缓存构造因Matrix_polynomial_dense没有.copy方法退出；未发生数学断言失败，也未产生PASS。已将接线与修改基核对中的复制改为Python标准copy.copy，保全部旧检查与完整相等检验。已读失败log SHA256 b2846b72a8aaeaa6fa23e5d0efc50f2f7e17d71e3f57a4f7a396d5fa57f4c51f。该修正随原公开入口执行，不修改原几何门。
+
+## 5. 完整表示后继的实际PASS及接回唯一原作业
+
+修正后run **46032975863**、job **140621181486**、source **5df58ad8ff1fbdaadc08c5a43de8c76786ef5025** 于16:23:04UTC真PASS。两原完整对照及非包含拒绝、实际修改基后的重建、306列/长612全部回乘均过；八次单行完整返回合计0.989544041s。表示命中26次、完整重建7次，总21.174297423s。这是软件样例的实值，不据此预测原几何整个时长。
+
+- 原生源SHA256：7742254770d03bbdab649902e4a9faf92dc7e82c0fb360d279b496b7eb7ed917。
+- 接线源SHA256：7da06cd12f35f7f2b98bf0c2c247c2732c838924c5497d3b8755b34932ce6d09。
+- 核对源SHA256：07e6e0ee4c1c5bbca7ff5eef511de406d32fe8665fb630f10bb9cf12586018f6。
+- 4873B结果payload SHA256：8a6d70354e07b1a19781b75917ed45f18f554f4a392becb5bb4b693551c45b5c。
+- 已读完整job log27568B SHA256：cb7e8b91834f9d5c518cfb832405e4e0836a1f8ab6fddfe6d67098a08d8ced42。
+
+后继v12将此两个已付源的实际hash固定后，接到未改正文的native v11生产器。原两char0 PASS pins、29/2453/64/minimal、API preflight=false及全部原门不变。host全60源manifest、源目录只读、Sage禁网和令牌仅host公共PASS读取保持；不装入任何旧矩阵或输出数据。唯一原重作业请求已提交，实际run回执后登记；尚未称四交/whole Norm/18×9影子完成。
