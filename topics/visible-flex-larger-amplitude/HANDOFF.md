@@ -4,7 +4,7 @@
 
 ## 规则与完整目标
 
-最近规则核查：2026-11-27 02:18:00 UTC，真实pull/rebase至 `7eca126b8570c539b1e7c5c658442285d4fcc703`，双README相对`785b0a023bbecf9e5a4d9891ac5929ee858147ec`无差异，继续遵守全部规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
+最近规则核查：2026-11-27 02:22:32 UTC，真实pull/rebase至 `dac736a007fcdf75fb268b6e46bb58b52602f7ff`，双README相对`a530d2735181ac5e04d64351d3b1c55f1ba9e2c5`无差异，继续遵守全部规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
 
 科学计算仅本公开仓库Actions；执行偏差见[早前记录](notes/2026-11-20-public-actions-execution-correction.md)及[四次大JSON整读纠正](notes/2026-11-26-large-file-connector-read-correction.md)、[本次大文件搜索纠正](notes/2026-11-27-bounded-text-search-correction.md)。root唯一分支写者；结论即普通推，NFF立即rebase循环，不强推。每次pull核双README差异并遵新规，至少每小时，记commit。raw只scratch/runner，不入Git/Release/artifact；保完整小源/参数/run/SHA/紧凑结论。题≤200MB、单文件<5MB、MD<100KB、H<10KB、open<30KB。令牌仅瞬时CLI。终端失联与恢复/云API普通快进记录保7774固定H；旧scratch迁移未确认，不冒恢复。
 
@@ -31,7 +31,7 @@ R709完整凸均值正根/两角jet已证，均值J不迁normal Cu；原seed九�
 
 R700限固定M/正ρ，旧QR未跑。[全时连续合同](notes/2026-11-27-new-envelope-full-phase-continuous-geometry-contract.md)保完整hΔ六jet、同D+/K/支撑/握持：R248只归约活动像，固定p4帽仍需同A的R650或全mixed pair，旧6077无平面不迁。[β论文](notes/2026-11-27-same-field-positive-support-parameter-consumer.md)/[完整consumer](notes/2026-11-27-complete-same-field-support-parameter-executable-interface.md)e0b44已刊全胞整角sweep及全局β/帽/K预算，减域不覆盖八必需角色、同路径绑定不改；只核代数，准确六jet/全局证明/真实输入仍欠，不作求解门。
 
-R710/R713完整条件费用链及旧各入口保固定H。[新E全实际mean批费用](notes/2026-11-27-material-envelope-complete-seed-fee-adapters-and-all-batch-schedule.md)285994/ce686/3feff/ea455已刊并加入07纯读后，覆盖每批/全角字，实际失败三字段保。600/60自然预算非完成；尚无真返，节点/连续角/normal/rawΔ/六jet费用仍欠，未跑plain不作门。
+R710/R713完整条件费用链及旧各入口保固定H。[新E全实际mean批费用](notes/2026-11-27-material-envelope-complete-seed-fee-adapters-and-all-batch-schedule.md)285994/ce686/3feff/ea455已刊并加入07纯读后，覆盖每批/全角字，实际失败三字段保。600/60自然预算非完成。[完整参考节点费](notes/2026-11-27-complete-immutable-reference-node-fee-design.md)80744/81ce已排其后：全E/积分查询、真新四jet、准确affine/全支持支/向上费用，旧cache字关联不冒已付。尚无费用真返；连续角/normal/rawΔ/F六jet仍欠，不作求解门。
 
 R711/R712十二片profile及全正半径中央Fss比较已证；完整十源/旧十history未准入保固定H。当前192正权/全(0,π)/m32不变，不冒K/reach。
 

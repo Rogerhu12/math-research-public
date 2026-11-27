@@ -111,7 +111,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 4. **完整数值后继不丢原问题。** R711/R712十二片profile、R714全C1、R715完整raw hΔ六jet保；Fs=T+h′Δ非工作单位。[detached八全源与严格继承](notes/2026-11-27-complete-detached-stage-matrix-and-history-transfer-entry.md)375059/d461/1d153/954721及194966已完整刊载，原m32/变量/全AD/全真筛保。7d950完整计划未准入，须07真实terminal及全部中间新增责任；有实际完整final就显式续全部变量，固定reference不重选，本源初Phi/根/几何重读。[相邻frame完整J6/J9设计](notes/2026-11-27-adjacent-normal-frame-complete-angular-matrix-design.md)已证全块/源字链，末frame另读，active全上游链保；独立producer正在实现，无实测提速或AD字等结论。
 
-5. **完整费用与连续几何继续。** R709/R710/R713/R715条件误差链不重复。[新E全实际mean批费用](notes/2026-11-27-material-envelope-complete-seed-fee-adapters-and-all-batch-schedule.md)285994/ce686/3feff已在07纯读后准入，600/60自然预算非完成；每个真实批及全literal角都保，尚无费用真返。完整实际节点工作字/准确affine scalar/chart/cutoff/舍入producer继续，不能由mean批或可替换cache代付。原raw Δ、normal根/全角同支与六jet统一费用仍欠。
+5. **完整费用与连续几何继续。** R709/R710/R713/R715条件误差链不重复。[新E全实际mean批费用](notes/2026-11-27-material-envelope-complete-seed-fee-adapters-and-all-batch-schedule.md)285994/ce686/3feff已在07纯读后准入，600/60自然预算非完成；每个真实批及全literal角都保，尚无费用真返。[完整节点入口](notes/2026-11-27-complete-immutable-reference-node-fee-design.md)80744/81ce已在全批费后准入：全E及所有积分节点实际新四jet、准确affine scalar/chart/cutoff/全支持支和逐点向上范数费用；缺原真实计划诚实失败，缺角/费用保pending，未记录的旧outer工作字不冒同。原raw Δ、normal根/全角同支与六jet统一费用仍欠。
 
    [新场全时相几何合同](notes/2026-11-27-new-envelope-full-phase-continuous-geometry-contract.md)与[共同β参数](notes/2026-11-27-same-field-positive-support-parameter-consumer.md)给完整同场D+/K/支撑/握持路径；R248只归约活动像，固定p4帽仍须同一R650正定支撑或全部mixed pairs。[R716](results/R716-asymmetric-fixed-caps-and-centred-volume-moment.md)修正完整重心后，既定p4的Beff实部严格正；须新场完整A2非零及真实装配/外管身份才付非全等，不搬旧6077无平面证明。当前准确六jet全cover/A2/几何数据仍未返。
 
