@@ -151,9 +151,11 @@ R991新E27实际level9输入、三扭曲全局部角色及完整toric型已付�
 
 R995已直接构造实际I9/I3输入的严格自伴最高Chow投影，保全finite/η/ordinary/H³(2)，不再需要K3双逆来分离最高线。继续实际CM图投影后的非零/互反率；全高度非零与固定p非零均不自动跨p。
 
-R998已严格消去新β27的完整混合BK Selmer：选原e_E+后另一线准确β27^c(1)，故原f-condition下全AJ与最高AJ同一。完整新类本身的跨p非零仍待；单CM投影必须转置到对偶微分，不用同holline配对。
+R998已严格消去新β27的完整混合BK Selmer：按R1006统一Tate/上同调dual后，原e_E−的mixed准确barχ_Eη⁻¹=cohomological β27(1)，故原f-condition下全AJ与最高AJ同一；旧e_E+标签已更正。完整新类本身的跨p非零仍待；单CM投影必须转置到对偶微分，不用同holline配对。
 
 R999的B130在两canonical坏时真非零，原全权仅余E2极。R1001全部22列的β6/完整33行保持；R1003在真实c0=c6=0子空间用单P130真保第六读取并使整个C³为零，准确回原p6最后项（720/840），旧32尾搬到两个exact导数。R1005已将单P130扩至全22并准确付A_p c6+B_p mass，实际两13轨道消去全部这两项后返3Gold/4；同二挠K真零及C从−3151872z18起，坏canonical时jC=−δ(p+1)log/112≠0。继续把两exact层及7κ5a+与同charge119校准/真实十三全权联立，取得实际中央强迫/不相容；单T不自动principal，不删平移O/−T/原权，不冒改前五项精度。
 
 
 R997已将新实际最高AJ落到唯一Frobenius规范的具体Picard–Fuchs方程及原54图有限带权和；width3的9因子、全部depletion次数和P±对偶全付。R1002现给β27在每个分裂p/全部系数素位的Katz值严格非零，并核原ν/新β的全部有限型、经典权分支和p局部四Euler因子。继续原3型与full9真实分量的全球toric/54图trace等式及原ν跨p非零；不能直接调用cyclic27假设失败的全球定理，非单位p幂须在经典式先逐项抵消。
+
+R1006已把新实际full9/54图完整trace接到原Katz平方：raw AJ²=−486ω34²[L:H]²Ωp²KνKβ，所有有限常数、Igusa/canonical-subgroup、经典Euler消去与负二端点均付。原R804目标准确由P−/e_E−检测，Tate/上同调dual已更正R995/R998；原ray Artin对偶再乘1/17。因Kβ全分裂p非零，新的实际循环AJ非零等价原Kν非零；跨p门仍在，继续真正非零输入。

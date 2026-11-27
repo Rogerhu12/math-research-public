@@ -1,5 +1,7 @@
 # R998 — 新 beta27 的完整混合 Selmer 消失与最高投影的真实作用
 
+**2026-11-27 方向更正：** [R1006§11](R1006-actual-full-nine-trace-and-original-katz-square.md)给完整Tate/上同调dual转换。本篇§1–3的两条完整β Selmer消失定理不变；§4–5用于原算术 $e_{\eta_j}$ 时必须取 $e_E^-$、$P_-$，以下已更正，不能继续援引旧 $e_E^+$ 标签。
+
 2026-11-27 / Astra-rank2-Sha-0b097461-20261127。
 
 **已证明。** 对 R991/R994 的三个原定向角色
@@ -131,63 +133,59 @@ $$
 每个 $p$ 有限，且在固定有限集合之外为零。有限集合不依赖
 所取 CM 层、某一循环的高度或一个待证的最高非零类。
 
-## 4. 新 Rankin 的混合槽准确就是已经消失的那条线
+## 4. 新 Rankin 的混合槽与原算术方向
 
 令 $S$ 为 R991 的实际 $I_9/I_3$ 曲面，$M=t_2(S)$。
-R995 的 $g=[\delta]^*$ 在 $h_1(E_{27})$ 上给严格 CM 幂等元
-$e_E^+=(1+g/\delta)/2$，它选原 $\widehat\psi_{27}$ 方向。
-在 $M\otimes e_E^+h_1(E_{27})$ 中保原 $\eta_j$ trace 并作
-codimension2 的 twist $(2)$，完整两维表示是
+按 R1006§11，令 $\chi_E$ 为 $T_pE_{27}$ 上 $[\delta]=\delta$
+一线的算术角色，$\chi_E\bar\chi_E=\varepsilon_{\rm cyc}$。
+原固定算术 $e_{\eta_j}$ 选出 $\eta_j$-等型后，下降系数是
+$\eta_j^{-1}$。原来源应选
+$e_E^-=(1-g/\delta)/2$，其第一上同调角色为 $\bar\chi_E^{-1}$。
 
+在 $M\otimes e_E^-h_1(E_{27})$ 中保这个完整 finite trace 并作
+codimension2 的 twist $(2)$，得到
 $$
 V_{j,\mathrm{new}}
-=\left(\widehat\psi_{27}^{,3}\widehat\eta_j^{-1}\right)(2)
+=\left(\bar\chi_E^{-3}\varepsilon_{\rm cyc}^2\eta_j^{-1}\right)
 \ \oplus\
-\left(\widehat{\bar\psi}_{27}^{,2}
-       \widehat\psi_{27}\widehat\eta_j^{-1}\right)(2).
+\left(\chi_E^{-2}\bar\chi_E^{-1}
+\varepsilon_{\rm cyc}^2\eta_j^{-1}\right)
+=V_j\oplus\bar\chi_E\eta_j^{-1}.
 \tag{9}
 $$
-
-第一项准确为原 $\widehat\lambda_j(2)$，因为
-$\psi_{27}^3=\psi_0^3$。第二项用(3)完整化简为
-
+第一项是 R804 的原
+$V_j=\eta_j^{-1}\chi_E^3\varepsilon_{\rm cyc}^{-1}$；
+$\psi_{27}^3=\psi_0^3$ 保留全部有限扭曲。
+本篇§1的帽号是 cohomological，故
 $$
-\begin{aligned}
-\left(\widehat{\bar\psi}_{27}^{,2}
-       \widehat\psi_{27}\widehat\eta_j^{-1}\right)(2)
-&=\left(\widehat{\bar\psi}_{27}
-       \widehat\eta_j^{-1}\widehat{\mathrm N}\right)(2)\\
-&=\widehat\beta_j^{,c}(1).
-\end{aligned}
+\widehat\beta_j=\chi_E^{-1}\eta_j^{-1},\qquad
+\boxed{\bar\chi_E\eta_j^{-1}=\widehat\beta_j(1).}
 \tag{10}
 $$
+这正是§3已由Kato消去的完整中央表示。相反，若在相同的算术
+$e_{\eta_j}$ 下取 $e_E^+$，混合线成为 $\chi_E\eta_j^{-1}$，
+不能仅由 R994 的 $L(\psi\eta_j,1)\ne0$ 宣布它消失。
 
-这正是 R991 unitary 分解中的 $(\nu_{27}\eta_j)^{-1}$ 的
-代数中央实现。没有用旧 R826 的 $\eta_j^{-2}\psi_0$，
-没有把 inverse/conjugate 在 CM 单线上省略。
-
-由(8)及有限条件对直和的相容性，
-
+由(7)及有限条件对直和的相容性，
 $$
-\boxed{
-H_f^1(K,V_{j,\mathrm{new}})
+\boxed{H_f^1(K,V_{j,\mathrm{new}})
 \xrightarrow[\ \sim\ ]{\ P_{\rm high}\ }
-H_f^1(K,\widehat\lambda_j(2)).}
+H_f^1(K,V_j).}
 \tag{11}
 $$
-
-这里的箭头是 R995 已构造的真实 Chow projector 在 étale 实现上的
-作用，不是仅凭两个纯表示有相同 Hodge 型所选的抽象投影。
+在这里 $P_{\rm high}e_E^-=P_-$。箭头是 R995 已构造的真实
+Chow projector 在 étale 实现上的作用，不是仅凭两个纯表示有
+相同 Hodge 型所选的抽象投影。
 
 ## 5. 对实际图循环的准确结论及对偶方向
 
 对 R995 的完整2/17带权图族，先保完整内外 projector、全部分支与
-原 finite-character trace，再取 $e_E^+$。若它的 AJ 类属于原
+原 finite-character trace，再取 $e_E^-$。若它的 AJ 类属于原
 全 Bloch–Kato 条件，则(11)给严格等式
 
 $$
-\operatorname{AJ}_p(e_E^+Z_j)
-=\operatorname{AJ}_p(P_{\rm high}e_E^+Z_j)
+\operatorname{AJ}_p(e_E^-Z_j)
+=\operatorname{AJ}_p(P_{\rm high}e_E^-Z_j)
 \quad\text{于 }H_f^1(K,V_{j,\mathrm{new}}).
 \tag{12}
 $$

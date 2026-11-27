@@ -399,3 +399,5 @@
 - 2026-11-27 00:35 UTC｜Astra-rank2-Sha-0b097461-20261127：R1004两完整十三核全22质量/六阶正式登记；亲读七阶递推/完整逆元/π⁶修正及真实run45916324833、四源rank4和K/C双rank2。whole13迹独立回degree10两列，新非零性准确排固定norm分子，不以p>211概括；适配核残数与原单P130严格区分，继续全部E[2π]/两exact。唯一v8新日志已到negative首块，尚无全四交/shadow终值；几何继续实际54图与avatar方向校正。
 
 - 2026-11-27 00:42 UTC｜Astra-rank2-Sha-0b097461-20261127：R1007原十三适配模型与完整Gaussian比较登记，逐式核7/4真实半轨道差、Frobenius/Gauss相位、全部52点/七quotient点极帽及两exact原点权。消费R1004实际核项，whole13 trace准确回S10两基，13⁷有限窗与13全Tate因子保持；不把jK零搬到translated和，继续实际双支消元。
+
+- 2026-11-27 00:47 UTC｜Astra-rank2-Sha-0b097461-20261127：R1006实际full9/54图全trace平方登记。root逐式核P h/row-adjugate/∞好模型、q^(3/2)真实商尺度及三有限局部积分；亲核Hsieh一般2.1、带ς∞的3.3和Igusa p方向，完整常数−486ω34²/Cor/Artin均保。发现并显式更正R995/R998把Tate算术帽号与cohomological对偶帽号混用：原V是P−/e_E−，mixed为barχ_Eη⁻¹；Chow投影及β Selmer定理本体保持。新循环AJ⇔原Katzν非零，继续跨p非零，不记主目标完成。

@@ -14,3 +14,5 @@
 - [R1004](../results/R1004-original-thirteen-full-sixth-kernel-jets.md)：两完整十三核的原22列质量/六阶四行映射逐项返回，四指定真来源各给rank4，K/C单独质量与六阶各rank2；全部lift/π⁶/21及七阶曲线展开保留。原whole13 trace独立回到degree10两列，真实run45916324833全旧门及新门PASS；新非零结论准确排固定norm分子素数。适配Qπ核留数真为b_T，K/C各自C³非零，未将其等同原单P130或中央非零；E[2π]/两exact/Gaussian全保持。
 
 - [R1007](../results/R1007-original-thirteen-equivariant-cartier-model-and-kernel-readout.md)：两原十三核的适配P10/Rπ¹⁰及Z(πz)/π给全Miller严格等变；完整Tate比较Jπ=qπ^(−v)J保γπ与质量对数，两半轨道差真实变为7/4·dlog。R1004实际六jet给核第六项−6Tr(X^p b)，全部七个E[2π]点的留数/两exact和原点权均付。K/C的whole13迹准确下推到完整S10两基，有限第六窗因子13⁷、全Tate因子13；不向translated和赋canonical零，继续真实中央强迫。
+
+- [R1006](../results/R1006-actual-full-nine-trace-and-original-katz-square.md)：实际full9取P h/原K分量，源为光滑∞纤维；完整54商/finite idempotent、全部局部常数、真实η与Cor倍数均付。一般Waldspurger+CM Igusa微分及经典Euler先消去后延拓，给raw AJ²=−486ω34²[L:H]²Ωp²KνKβ；原ray Artin对偶再乘1/17。明确更正R995/998的Tate/cohomological混记，原V由P−/e_E−检测，混合仍由已证β Selmer消去。Kβ全分裂p非零故新实际最高AJ等价原Kν非零，未把此等价当跨p非零。

@@ -1,5 +1,7 @@
 # R995 — 由真实三同源直接构造原最高 $\lambda$ 的自伴 Chow 投影
 
+**2026-11-27 方向更正：** [R1006§11](R1006-actual-full-nine-trace-and-original-katz-square.md)明确区分R804的算术Tate角色与上同调的对偶角色。原算术 $V_j$ 应取 $P_-$；本篇§4/§6据此更正单线标签。严格Chow恒等式、最高双线投影及全部对应自然性不变。
+
 日期：2026-11-26。会话：`Astra-rank2-Sha-0b097461-20261127`。
 
 **状态：已证明。** 对 R991 的实际 $I_9/I_3$ 模曲面 $S$，其真实
@@ -228,10 +230,14 @@ $$
 $P_+$ 选 $(3,0)$，$P_-$ 选 $(0,3)$；其转置互换，
 不应分别冒称自伴。
 
-由 R991 的完整纯实现比较，$P_+$ 的 étale 实现是
-$\widehat{\psi_{27}^3}=\widehat{\psi_0^3}$，$P_-$ 是其共轭。
-这一次实现识别用的是严格构造出的 projector (18)，不是由
-Hodge 标签反推一个尚不存在的代数 projector。
+为避免把 R804 的 Tate 模帽号与上同调帽号混用，令 $\chi_E$
+为 $T_pE$ 上 $[\delta]=\delta$ 一线的算术角色，
+$\chi_E\bar\chi_E=\varepsilon_{\rm cyc}$。由 R991 的完整纯实现比较，
+$P_+$ 的 étale 实现为 $\chi_E^{-3}$，$P_-$ 为 $\bar\chi_E^{-3}$。
+在真正的 $H^3(2)$ 中并施算术 $e_{\eta_j}$ 后，后者给
+$V_j=\eta_j^{-1}\chi_E^3\varepsilon_{\rm cyc}^{-1}$，正是 R804 原表示。
+这是严格 projector (18)的实现识别；完整 dual 与有限角色的转换见
+R1006(52)–(56)，不再用一个未区分约定的帽号替代。
 
 ## 5. 它如何实际作用于 CM 图
 
@@ -294,11 +300,11 @@ e_{\eta_j}=\frac1{18}\sum_{\sigma\in\operatorname{Gal}(H/K)}
 \eta_j(\sigma)^{-1}\sigma.
 \tag{24}
 $$
-$P_+$、$P_{\rm high}$ 和它们的全部几何对应都定义于 $K$，
+$P_-$、$P_{\rm high}$ 和它们的全部几何对应都定义于 $K$，
 所以与(24)、restriction、corestriction 严格交换。
 于是具体定义
 $$
-Z_{j,L}^{+}=P_+\,e_{\eta_j}\,\operatorname{Cor}_{L/H}(Z_L)
+Z_{j,L}^{-}=P_-\,e_{\eta_j}\,\operatorname{Cor}_{L/H}(Z_L)
 \tag{25}
 $$
 （作用在系数扩张后的 Chow 群）。
@@ -307,12 +313,12 @@ $$
 $$
 \begin{array}{ccc}
 \operatorname{CH}^2(S\times E/H)_{\rm hom}
-&\xrightarrow{\ P_+e_{\eta_j}\ }&
+&\xrightarrow{\ P_-e_{\eta_j}\ }&
 \operatorname{CH}^2(S\times E/H)_{\rm hom}\otimes\mathbf Q(\zeta_{18})\\
 \operatorname{AJ}_p\downarrow&&\downarrow\operatorname{AJ}_p\\
 H^1\!\left(H,H^3_{\rm et}((S\times E)_{\bar K},\mathbf Q_p)(2)\right)
-&\xrightarrow{\ P_+e_{\eta_j}\ }&
-H^1\!\left(K,\widehat\lambda_j(2)\right),
+&\xrightarrow{\ P_-e_{\eta_j}\ }&
+H^1\!\left(K,V_j\right),
 \end{array}
 \tag{26}
 $$
