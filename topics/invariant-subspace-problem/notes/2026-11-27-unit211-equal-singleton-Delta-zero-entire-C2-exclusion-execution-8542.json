@@ -1,0 +1,460 @@
+{
+  "format": "isp-entire-C2-collision-Delta-zero-original-exclusion-8542",
+  "execution": {
+    "elapsed_seconds": 0.13860853799999973,
+    "max_child_rss_kib": 37736,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "f9d79e20c153170acab210858ce9564472b2cc1c",
+        "before": "0268e597b2807b48466ee29d87d8cd7bc9c3504c",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-27T16:09:25.498830+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46031135735",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "0268e597b2807b48466ee29d87d8cd7bc9c3504c",
+    "source_exit_code": 0,
+    "source_git_blob": "fbf53f44847f4cc1e81795882aedf6ede455afc0",
+    "source_sha256": "74cfb3839c05301c57f8dbcaaf304181f0fa10e5a5ac806eb1cac1dced8618b5",
+    "stdout_bytes": 6490,
+    "stdout_sha256": "df64efc24789d90d173ff1384184de4613a63827472376afea8423d83de81fca",
+    "stop_reason": null
+  },
+  "math": [
+    {
+      "completeUPolynomial": [
+        "16",
+        "-24",
+        "-32",
+        "-30",
+        "133"
+      ],
+      "allQQFactors": [
+        {
+          "coefficients": [
+            "16",
+            "-24",
+            "-32",
+            "-30",
+            "133"
+          ],
+          "multiplicity": 1
+        }
+      ],
+      "allFactorProductsAndOriginalConstantHeadBezoutReturned": true,
+      "noEmbeddingOrRootSelected": true,
+      "stage": "new_C2_complete_QQ_u_cover_and_parameter_recovery",
+      "seconds": 0.0004376169999993351
+    },
+    {
+      "case": "complete_irreducible_u_factor_degree_4",
+      "uFieldDegree": 4,
+      "recoveredLambda": [
+        "7/4",
+        "2/9",
+        "-17/12",
+        "-1729/288"
+      ],
+      "recoveredU": [
+        "0",
+        "1"
+      ],
+      "originalQ": [
+        "17/12",
+        "-25/6",
+        "103/12",
+        "133/96"
+      ],
+      "QequalsOneMinusSameU": false,
+      "originalDeltaAndBothCompatibilityRowsReturned": true,
+      "noDeltaOrNFInverse": true,
+      "freeOriginalParameter": "f",
+      "claimExcluded": false,
+      "stage": "new_C2_finite_Delta_zero_same_original_u_recovered",
+      "seconds": 0.0018924429999991332
+    },
+    {
+      "case": "complete_irreducible_u_factor_degree_4",
+      "lambdaDegree": 4,
+      "freeOriginalParameter": "f",
+      "allEightOriginalRows": [
+        {
+          "name": "E1",
+          "fDegree": 2
+        },
+        {
+          "name": "EBe",
+          "fDegree": 2
+        },
+        {
+          "name": "EBo",
+          "fDegree": 2
+        },
+        {
+          "name": "N1",
+          "fDegree": 2
+        },
+        {
+          "name": "NBe",
+          "fDegree": 3
+        },
+        {
+          "name": "NBo",
+          "fDegree": 3
+        },
+        {
+          "name": "PBe",
+          "fDegree": 3
+        },
+        {
+          "name": "PBo",
+          "fDegree": 3
+        }
+      ],
+      "allMomentE0N0P1NVAndBothSingletonTargetsReturned": true,
+      "coefficientPairsUseBothActualRowsAndRhoNonzero": true,
+      "claimExcluded": false,
+      "stage": "new_C2_finite_Delta_zero_finite_same_original_Gram_complete",
+      "seconds": 0.05871031999999943
+    },
+    {
+      "newOriginalRow": "E1",
+      "fDegree": 2,
+      "allOriginalCoefficientProductsReturned": true,
+      "stage": "new_C2_finite_Delta_zero_finite_free_f_original_Bezout",
+      "seconds": 0.05916609099999803
+    },
+    {
+      "newOriginalRow": "EBe",
+      "fDegree": 0,
+      "allOriginalCoefficientProductsReturned": true,
+      "stage": "new_C2_finite_Delta_zero_finite_free_f_original_Bezout",
+      "seconds": 0.06214766699999785
+    },
+    {
+      "excluded": true,
+      "allEightOriginalRowsActuallyReturned": true,
+      "originalRowsUsed": [
+        "E1",
+        "EBe"
+      ],
+      "finalFPolynomial": [
+        [
+          "1"
+        ]
+      ],
+      "allFreeFValuesRetained": true,
+      "fullBezoutProductsReturned": true,
+      "certificateBytes": 3564,
+      "certificateSHA256": "962374d31af27b3f334ef81e429f376c9384662cc6f8afecf6b2c4413701ebd6",
+      "fullCertificate": {
+        "wholeUFactor": [
+          "16/133",
+          "-24/133",
+          "-32/133",
+          "-30/133",
+          "1"
+        ],
+        "originalLambda": [
+          "7/4",
+          "2/9",
+          "-17/12",
+          "-1729/288"
+        ],
+        "originalU": [
+          "0",
+          "1"
+        ],
+        "originalQ": [
+          "17/12",
+          "-25/6",
+          "103/12",
+          "133/96"
+        ],
+        "originalRows": [
+          {
+            "name": "E1",
+            "coefficients": [
+              [
+                "2330/1029",
+                "-2615/4116",
+                "-817/8232",
+                "-12445/2352"
+              ],
+              [
+                "-2915/2058",
+                "-12659/1029",
+                "3151/1029",
+                "40679/2352"
+              ],
+              [
+                "3722/1029",
+                "-5792/1029",
+                "4259/2058",
+                "2147/147"
+              ]
+            ]
+          },
+          {
+            "name": "EBe",
+            "coefficients": [
+              [
+                "77545/57624",
+                "7589/2058",
+                "-203255/28812",
+                "-117781/65856"
+              ],
+              [
+                "-21073/1029",
+                "19246/2401",
+                "189139/28812",
+                "100263/1372"
+              ],
+              [
+                "66761/2401",
+                "83717/4802",
+                "-57689/9604",
+                "-595403/2744"
+              ]
+            ]
+          },
+          {
+            "name": "EBo",
+            "coefficients": [
+              [
+                "42282/2401",
+                "31485/9604",
+                "-75197/2744",
+                "-31711/392"
+              ],
+              [
+                "-302108/7203",
+                "-4775/343",
+                "2068613/28812",
+                "728479/2744"
+              ],
+              [
+                "16279/1029",
+                "-298373/14406",
+                "-2953843/28812",
+                "84797/8232"
+              ]
+            ]
+          },
+          {
+            "name": "N1",
+            "coefficients": [
+              [
+                "-813/686",
+                "159/49",
+                "-2517/686",
+                "18471/5488"
+              ],
+              [
+                "-150/343",
+                "408/49",
+                "-8376/343",
+                "2565/196"
+              ],
+              [
+                "-10/7",
+                "-44/343",
+                "1654/343",
+                "2717/196"
+              ]
+            ]
+          },
+          {
+            "name": "NBe",
+            "coefficients": [
+              [
+                "255091/33614",
+                "1067179/100842",
+                "-2524085/67228",
+                "-549737/115248"
+              ],
+              [
+                "-9611447/201684",
+                "7400557/100842",
+                "-2865251/14406",
+                "1651271/4704"
+              ],
+              [
+                "2760746/50421",
+                "350353/1029",
+                "-79779571/100842",
+                "4584719/28812"
+              ],
+              [
+                "-1027234/7203",
+                "18601657/50421",
+                "-76667473/100842",
+                "24523889/28812"
+              ]
+            ]
+          },
+          {
+            "name": "NBo",
+            "coefficients": [
+              [
+                "-118271/100842",
+                "-570719/33614",
+                "-1845953/201684",
+                "2302857/38416"
+              ],
+              [
+                "4914709/50421",
+                "-2898640/50421",
+                "-36519451/201684",
+                "1560451/28812"
+              ],
+              [
+                "-932644/16807",
+                "-4635899/16807",
+                "-4543663/33614",
+                "6112129/4802"
+              ],
+              [
+                "11565598/50421",
+                "-2647567/50421",
+                "-35473409/100842",
+                "-12395885/28812"
+              ]
+            ]
+          },
+          {
+            "name": "PBe",
+            "coefficients": [
+              [
+                "-31218283/5647152",
+                "647923/941192",
+                "-167576933/5647152",
+                "272440677/2151296"
+              ],
+              [
+                "3675311/235298",
+                "34899747/235298",
+                "-646432943/941192",
+                "43604601/134456"
+              ],
+              [
+                "-1797205/117649",
+                "271087505/235298",
+                "-964936865/470596",
+                "122504647/134456"
+              ],
+              [
+                "-85248650/117649",
+                "371918635/235298",
+                "-234961228/117649",
+                "278038077/134456"
+              ]
+            ]
+          },
+          {
+            "name": "PBo",
+            "coefficients": [
+              [
+                "-3621341/1882384",
+                "-49786955/2823576",
+                "85552893/1882384",
+                "437088635/6453888"
+              ],
+              [
+                "-7154979/117649",
+                "-39110048/117649",
+                "218181219/941192",
+                "157424975/268912"
+              ],
+              [
+                "105678956/117649",
+                "-158413765/235298",
+                "-87127853/470596",
+                "-74686511/33614"
+              ],
+              [
+                "-59959526/352947",
+                "-988206209/705894",
+                "487912403/352947",
+                "1267632785/403368"
+              ]
+            ]
+          }
+        ],
+        "usedOriginalRows": [
+          "E1",
+          "EBe"
+        ],
+        "tags": [
+          [
+            [
+              "-525705880848054641098532454227247847/30961494882236711073691187437196934",
+              "-84488613237486359994914832315060853/10320498294078903691230395812398978",
+              "199375009887917450303136194469177653/10320498294078903691230395812398978",
+              "19576768171412223725919212653184090683/247691959057893688589529499497575472"
+            ],
+            [
+              "2199628008761245002250452877754843788/46442242323355066610536781155795401",
+              "654087392854811976145374690175290154/46442242323355066610536781155795401",
+              "-3750468823308978801746002913186562793/46442242323355066610536781155795401",
+              "-21956800369397143747563014137538144117/92884484646710133221073562311590802"
+            ]
+          ],
+          [
+            [
+              "277153061140726242024208615830856076/15480747441118355536845593718598467",
+              "130202883865913201825438118716139740/15480747441118355536845593718598467",
+              "-331594885509150748107019894820922053/15480747441118355536845593718598467",
+              "-4592182283089071522873805205120297249/61922989764473422147382374874393868"
+            ],
+            [
+              "-82437757875808615512290609275815748/5160249147039451845615197906199489",
+              "-38441477513116761175585407102567596/5160249147039451845615197906199489",
+              "76737294645475525204155203316852076/5160249147039451845615197906199489",
+              "668249526281095756837272628691660983/10320498294078903691230395812398978"
+            ]
+          ]
+        ],
+        "finalFPolynomial": [
+          [
+            "1"
+          ]
+        ]
+      },
+      "noDeltaOrNFInverse": true,
+      "ordinaryISPClaim": false,
+      "stage": "new_C2_finite_Delta_zero_full_original_return",
+      "seconds": 0.06266539299999963
+    },
+    {
+      "sourceSHA256": "74cfb3839c05301c57f8dbcaaf304181f0fa10e5a5ac806eb1cac1dced8618b5",
+      "allCompleteOriginalConstantFactorsReturned": true,
+      "outcomes": [
+        {
+          "excluded": true,
+          "wholeUFactor": [
+            "16/133",
+            "-24/133",
+            "-32/133",
+            "-30/133",
+            "1"
+          ]
+        }
+      ],
+      "entireOriginalC2DeltaZeroFiberExcluded": true,
+      "actualConstantInverseCount": 34,
+      "actualPolynomialDivisionCount": 4,
+      "peakRssKiB": 37068,
+      "stage": "new_C2_finite_entire_original_return_complete",
+      "seconds": 0.06294310199999842
+    }
+  ]
+}

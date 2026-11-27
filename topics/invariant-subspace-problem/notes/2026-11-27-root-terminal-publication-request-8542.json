@@ -1,19 +1,17 @@
 {
-  "message": "ISP: complete the eleven lower D-degree original W rows in the six-column environment",
-  "parentCommit": "04e3e5541dd83142ec445b5c95e462152627001a",
+  "message": "ISP: exclude the entire quadratic-lambda collision Delta-zero fiber over its full quartic algebra",
+  "parentCommit": "974f49c6b6d90444b21d34d38aba2301eaa00703",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-W-global-D-linear-eleven-original-six-column-return.md",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-W-global-monic-T3-D-linear-eleven-by-six-original-return-8542-receipt.json",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-W-coupled-original-Gram-value-four-by-three-minors-8542.py",
-    ".github/workflows/invariant-subspace-w-coupled-gram-value-four-three-minors-8542.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-exceptional-original-R-two-QQ-local-multiplicities-input-8542.py",
-    ".github/workflows/invariant-subspace-phi-original-r-qq-local-multiplicities-8542.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-27-handoff-before-W-eleven-original-return-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-27-open-before-W-eleven-original-return-8542.md",
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-equal-singleton-Delta-zero-entire-C2-lambda-exclusion.md",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-equal-singleton-Delta-zero-entire-C2-exclusion-execution-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-equal-singleton-complete-C4-Delta-zero-Q-graph-original-means-8542.py",
+    ".github/workflows/invariant-subspace-collision-c-four-original-q-graph-means-8542.yml",
+    "topics/invariant-subspace-problem/notes/2026-11-27-handoff-before-collision-entire-C2-exclusion-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-27-open-before-collision-entire-C2-exclusion-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -23,7 +21,6 @@
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
   "dispatchWorkflows": [
-    "invariant-subspace-w-coupled-gram-value-four-three-minors-8542.yml",
-    "invariant-subspace-phi-original-r-qq-local-multiplicities-8542.yml"
+    "invariant-subspace-collision-c-four-original-q-graph-means-8542.yml"
   ]
 }
