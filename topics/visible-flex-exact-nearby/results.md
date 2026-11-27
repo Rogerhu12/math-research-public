@@ -426,3 +426,5 @@
 
 - [PCT：完整moving-phase tame映射和PD当前左归一行](results/R144-supplement-all-angular-moving-phase-and-current-normalized-row.md)：15新有理比较已成。真实E值/一二阶/余项和当前DE/J行族背景一导所有Hn，方向H^{n+4}/H4、单B_{n+2}+G_{n+1}；独立固定g−Id的A2预算L，CP C1不冒高正则。七项Drow完整保ξ′a、δJ和E′a，mean/trueν/root/joins不删，非线性E不改E/J。显式Cn=Tn^32只低S/L与既成RPT常数入系数，fullregular inverse和physical secant仍待。
 
+
+- [PSC：真正physical完整相位割线与全阶Hessian](results/R144-supplement-complete-physical-phase-secant-and-tame-Hessian.md)：13新有理比较已成。实际Theta(A)−Theta(B)保所有九项二阶/两mean/真实腰trace，.01||E||p≤||Ephys||p≤7||E||p；低一阶23、mixed Hessian3000。全Hn值/一二阶/余项四导方向buffer，单B_{n+2}+G_{n+1}+W_{n+1}；完整real composition在实际A/B及凸lift上，不免费径向L² trace、不以endpoint derivative替secant，fullregular inverse/最终族另付。
