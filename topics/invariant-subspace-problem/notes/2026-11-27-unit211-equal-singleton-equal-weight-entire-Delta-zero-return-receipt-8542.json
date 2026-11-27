@@ -1,0 +1,435 @@
+{
+  "schema": "isp-equal-value-equal-weight-entire-Delta-zero-return-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "runURL": "https://github.com/Rogerhu12/math-research-public/actions/runs/46008309579",
+  "jobId": 140537018591,
+  "execution": {
+    "elapsed_seconds": 0.2887790240000001,
+    "max_child_rss_kib": 41412,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "35727a5a70895f451f9c521f7794560143115704",
+        "before": "35727a5a70895f451f9c521f7794560143115704",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-27T13:34:54.624331+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46008309579",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "35727a5a70895f451f9c521f7794560143115704",
+    "source_exit_code": 0,
+    "source_git_blob": "3f511c4e5de8f1a68787f8d5b570ef7bd728d695",
+    "source_sha256": "c2d6165ae5cee89666674c048e2474014b0f99539b24660fe61bfc12156a5388",
+    "stdout_bytes": 9734,
+    "stdout_sha256": "96387438d812257e6f6e294c196777d0060587a1e8254513868ab71c8f04985a",
+    "stop_reason": null
+  },
+  "actualOutputs": [
+    {
+      "originalRowP": [
+        "Pc",
+        "Pf",
+        "bc*Q*Phi"
+      ],
+      "originalRowN": [
+        "NC",
+        "NF",
+        "bc*Q*S*xi"
+      ],
+      "fullBothCoefficientIdentitiesActuallyReturned": true,
+      "necessaryOriginalRows": [
+        "Delta",
+        "F",
+        "Tnum"
+      ],
+      "noDeltaT0PfOrNormInverse": true,
+      "oldDNonzeroTheoremNotImported": true,
+      "stage": "new_equal_value_equal_weight_Delta_zero_original_affine_compatibility",
+      "seconds": 0.005674859999999171
+    },
+    {
+      "name": "Delta",
+      "rawNumerator": {
+        "degrees_lambda_Q": [
+          20,
+          2
+        ],
+        "totalDegree": 22,
+        "terms": 55,
+        "bytes": 993,
+        "sha256": "c13c209105268ba3e12945ffa2825b1b11ce2a7031d32876fa16a082fc75762f"
+      },
+      "primitive": {
+        "degrees_lambda_Q": [
+          14,
+          2
+        ],
+        "totalDegree": 16,
+        "terms": 43,
+        "bytes": 686,
+        "sha256": "7a33688c2669612d2d0b98bf7cd63850518cddafc324b3a5ab460d76607e0e42"
+      },
+      "factorization": {
+        "content": "1/256",
+        "factors": [
+          {
+            "power": 1,
+            "profile": {
+              "degrees_lambda_Q": [
+                14,
+                2
+              ],
+              "totalDegree": 16,
+              "terms": 43,
+              "bytes": 632,
+              "sha256": "39079686f57791ad5daa0f5ca89b6bdc6f255af8798f8874cdc03bdef3fa3b81"
+            },
+            "polynomial": "256*lam^14*Q^2 - 512*lam^14*Q + 256*lam^14 - 1280*lam^13*Q^2 + 2048*lam^13*Q - 768*lam^13 + 2432*lam^12*Q^2 - 1408*lam^12*Q - 1024*lam^12 - 1408*lam^11*Q^2 - 7552*lam^11*Q + 8960*lam^11 - 2896*lam^10*Q^2 + 24384*lam^10*Q - 21600*lam^10 + 8176*lam^9*Q^2 - 38912*lam^9*Q + 30848*lam^9 - 10920*lam^8*Q^2 + 41592*lam^8*Q - 30208*lam^8 + 9888*lam^7*Q^2 - 32648*lam^7*Q + 21424*lam^7 - 6639*lam^6*Q^2 + 19578*lam^6*Q - 11208*lam^6 + 3413*lam^5*Q^2 - 9118*lam^5*Q + 4296*lam^5 - 1351*lam^4*Q^2 + 3299*lam^4*Q - 1164*lam^4 + 406*lam^3*Q^2 - 914*lam^3*Q + 204*lam^3 - 89*lam^2*Q^2 + 187*lam^2*Q - 18*lam^2 + 13*lam*Q^2 - 26*lam*Q - Q^2 + 2*Q"
+          }
+        ],
+        "fullQQProductVerified": true
+      },
+      "onlyPaidOriginalRemoval": [
+        {
+          "originalUnit": "lambda",
+          "gcdLoops": 2
+        },
+        {
+          "originalUnit": "original_P02",
+          "gcdLoops": 1
+        }
+      ],
+      "originalDeltaWasNotRemoved": true,
+      "claimExcluded": false,
+      "stage": "new_Delta_zero_equal_weight_original_compatibility_core",
+      "seconds": 0.006801316000000668
+    },
+    {
+      "name": "F",
+      "rawNumerator": {
+        "degrees_lambda_Q": [
+          26,
+          2
+        ],
+        "totalDegree": 28,
+        "terms": 71,
+        "bytes": 1459,
+        "sha256": "f49fe9cc3d82db627be770a52e26bbbdff8cd63c0f05e749d3acd4cb80e8b7ce"
+      },
+      "primitive": {
+        "degrees_lambda_Q": [
+          18,
+          2
+        ],
+        "totalDegree": 20,
+        "terms": 53,
+        "bytes": 975,
+        "sha256": "d14b44d30da163799bd4723db5af36a20f29b948a89910743d5c646f7ae0eb98"
+      },
+      "factorization": {
+        "content": "1/18432",
+        "factors": [
+          {
+            "power": 1,
+            "profile": {
+              "degrees_lambda_Q": [
+                18,
+                2
+              ],
+              "totalDegree": 20,
+              "terms": 53,
+              "bytes": 876,
+              "sha256": "a7b6465ed1fc1203ccf8c700a32f7455259f1da677d0c1ca4704ed2bdeaf8bfb"
+            },
+            "polynomial": "18432*lam^18*Q^2 - 24576*lam^18*Q + 6144*lam^18 - 124928*lam^17*Q^2 + 151552*lam^17*Q - 26624*lam^17 + 390144*lam^16*Q^2 - 389120*lam^16*Q + 2048*lam^16 - 736256*lam^15*Q^2 + 477184*lam^15*Q + 240640*lam^15 + 907904*lam^14*Q^2 - 39936*lam^14*Q - 810240*lam^14 - 697472*lam^13*Q^2 - 932096*lam^13*Q + 1507584*lam^13 + 180288*lam^12*Q^2 + 1928576*lam^12*Q - 1921280*lam^12 + 340416*lam^11*Q^2 - 2368384*lam^11*Q + 1812352*lam^11 - 606344*lam^10*Q^2 + 2104640*lam^10*Q - 1312064*lam^10 + 582360*lam^9*Q^2 - 1441840*lam^9*Q + 740768*lam^9 - 402680*lam^8*Q^2 + 781552*lam^8*Q - 326912*lam^8 + 215324*lam^7*Q^2 - 338056*lam^7*Q + 111600*lam^7 - 91157*lam^6*Q^2 + 116268*lam^6*Q - 28704*lam^6 + 30636*lam^5*Q^2 - 31310*lam^5*Q + 5280*lam^5 - 8075*lam^4*Q^2 + 6400*lam^4*Q - 624*lam^4 + 1622*lam^3*Q^2 - 938*lam^3*Q + 36*lam^3 - 235*lam^2*Q^2 + 88*lam^2*Q + 22*lam*Q^2 - 4*lam*Q - Q^2"
+          }
+        ],
+        "fullQQProductVerified": true
+      },
+      "onlyPaidOriginalRemoval": [
+        {
+          "originalUnit": "A2",
+          "gcdLoops": 1
+        },
+        {
+          "originalUnit": "lambda",
+          "gcdLoops": 2
+        },
+        {
+          "originalUnit": "original_P02",
+          "gcdLoops": 1
+        }
+      ],
+      "originalDeltaWasNotRemoved": true,
+      "claimExcluded": false,
+      "stage": "new_Delta_zero_equal_weight_original_compatibility_core",
+      "seconds": 0.008137210999997535
+    },
+    {
+      "name": "Tnum",
+      "rawNumerator": {
+        "degrees_lambda_Q": [
+          32,
+          3
+        ],
+        "totalDegree": 35,
+        "terms": 89,
+        "bytes": 2210,
+        "sha256": "4343c92d803762bdd946d1464f175923d973719af3af8d077d6097b3c99006b7"
+      },
+      "primitive": {
+        "degrees_lambda_Q": [
+          16,
+          2
+        ],
+        "totalDegree": 18,
+        "terms": 47,
+        "bytes": 843,
+        "sha256": "0293f8bc3f16220835ebdf212d69aba399cb9a60d741a01a17ed1067c9f24ae3"
+      },
+      "factorization": {
+        "content": "1/3072",
+        "factors": [
+          {
+            "power": 1,
+            "profile": {
+              "degrees_lambda_Q": [
+                16,
+                2
+              ],
+              "totalDegree": 18,
+              "terms": 47,
+              "bytes": 755,
+              "sha256": "e79906a1bb228729c9bcb56f9b3a609b84bb4ec3d43afe8a2089d76e3bc1b899"
+            },
+            "polynomial": "3072*lam^16*Q^2 - 6144*lam^16*Q + 3072*lam^16 - 23808*lam^15*Q^2 + 47616*lam^15*Q - 23808*lam^15 + 87040*lam^14*Q^2 - 173312*lam^14*Q + 86272*lam^14 - 201088*lam^13*Q^2 + 397056*lam^13*Q - 195968*lam^13 + 330880*lam^12*Q^2 - 643584*lam^12*Q + 312704*lam^12 - 413136*lam^11*Q^2 + 783296*lam^11*Q - 370208*lam^11 + 406336*lam^10*Q^2 - 740224*lam^10*Q + 334496*lam^10 - 322096*lam^9*Q^2 + 553664*lam^9*Q - 233744*lam^9 + 208524*lam^8*Q^2 - 330888*lam^8*Q + 126560*lam^8 - 110907*lam^7*Q^2 + 158250*lam^7*Q - 52584*lam^7 + 48429*lam^6*Q^2 - 60196*lam^6*Q + 16356*lam^6 - 17227*lam^5*Q^2 + 17934*lam^5*Q - 3624*lam^5 + 4909*lam^4*Q^2 - 4068*lam^4*Q + 516*lam^4 - 1087*lam^3*Q^2 + 668*lam^3*Q - 36*lam^3 + 177*lam^2*Q^2 - 72*lam^2*Q - 19*lam*Q^2 + 4*lam*Q + Q^2"
+          }
+        ],
+        "fullQQProductVerified": true
+      },
+      "onlyPaidOriginalRemoval": [
+        {
+          "originalUnit": "A2",
+          "gcdLoops": 4
+        },
+        {
+          "originalUnit": "Q",
+          "gcdLoops": 1
+        },
+        {
+          "originalUnit": "lambda",
+          "gcdLoops": 2
+        },
+        {
+          "originalUnit": "original_P02",
+          "gcdLoops": 1
+        },
+        {
+          "originalUnit": "previous_whole_S_zero_excluded",
+          "gcdLoops": 2
+        }
+      ],
+      "originalDeltaWasNotRemoved": true,
+      "claimExcluded": false,
+      "stage": "new_Delta_zero_equal_weight_original_compatibility_core",
+      "seconds": 0.009805608000000632
+    },
+    {
+      "case": "complete_lambda20",
+      "lambdaDegree": 20,
+      "gcd": {
+        "Qdegree": 1,
+        "bytes": 485,
+        "sha256": "e52006f386b4529b924a88e420e550280e1f3940dfb9c0d64beb6b9bc0b0ab31",
+        "coefficients_Q_then_lambda": [
+          [
+            "-187831266/427015",
+            "13348871297/1708060",
+            "-25586935202/427015",
+            "189212787597/854030",
+            "-2110387289/427015",
+            "-1624773890825/341612",
+            "5267912412271/170806",
+            "-103890278039839/854030",
+            "149853971394849/427015",
+            "-335983290953726/427015",
+            "600995751556056/427015",
+            "-867082848631208/427015",
+            "1010689475111192/427015",
+            "-946700225830064/427015",
+            "704077337405408/427015",
+            "-9941607796608/10415",
+            "35609137633920/85403",
+            "-55623814778112/427015",
+            "11119656784896/427015",
+            "-209858540544/85403"
+          ],
+          [
+            "1"
+          ]
+        ]
+      },
+      "allThreeOriginalCompatibilityBezoutProductsVerified": true,
+      "allLambdaAndQHeadFibersRetained": true,
+      "claimExcluded": false,
+      "stage": "new_Delta_zero_equal_weight_complete_constant_Q_compatibility",
+      "seconds": 0.01818627899999825
+    },
+    {
+      "case": "complete_lambda20",
+      "lambdaDegree": 20,
+      "recoveredQ": [
+        "187831266/427015",
+        "-13348871297/1708060",
+        "25586935202/427015",
+        "-189212787597/854030",
+        "2110387289/427015",
+        "1624773890825/341612",
+        "-5267912412271/170806",
+        "103890278039839/854030",
+        "-149853971394849/427015",
+        "335983290953726/427015",
+        "-600995751556056/427015",
+        "867082848631208/427015",
+        "-1010689475111192/427015",
+        "946700225830064/427015",
+        "-704077337405408/427015",
+        "9941607796608/10415",
+        "-35609137633920/85403",
+        "55623814778112/427015",
+        "-11119656784896/427015",
+        "209858540544/85403"
+      ],
+      "freeOriginalParameter": "f",
+      "originalTRecoveredOnlyThroughPaid_bcQ_Sxi": true,
+      "E0N0P1OriginalNVAndAllMomentIdentitiesActuallyReturned": true,
+      "allEightOriginalRows": [
+        {
+          "name": "E1",
+          "fDegree": 2
+        },
+        {
+          "name": "EBe",
+          "fDegree": 2
+        },
+        {
+          "name": "EBo",
+          "fDegree": 2
+        },
+        {
+          "name": "N1",
+          "fDegree": 2
+        },
+        {
+          "name": "NBe",
+          "fDegree": 3
+        },
+        {
+          "name": "NBo",
+          "fDegree": 3
+        },
+        {
+          "name": "PBe",
+          "fDegree": 3
+        },
+        {
+          "name": "PBo",
+          "fDegree": 3
+        }
+      ],
+      "noDeltaOrNormInverse": true,
+      "claimExcluded": false,
+      "stage": "new_Delta_zero_equal_weight_same_original_Gram_complete",
+      "seconds": 0.1677265169999984
+    },
+    {
+      "case": "complete_lambda20",
+      "newOriginalRow": "E1",
+      "currentFDegree": 2,
+      "allOriginalCoefficientProductsReturned": true,
+      "claimExcluded": false,
+      "stage": "new_Delta_zero_equal_weight_original_free_f_Bezout",
+      "seconds": 0.17137838600000066
+    },
+    {
+      "case": "complete_lambda20",
+      "newOriginalRow": "EBe",
+      "currentFDegree": 0,
+      "allOriginalCoefficientProductsReturned": true,
+      "claimExcluded": false,
+      "stage": "new_Delta_zero_equal_weight_original_free_f_Bezout",
+      "seconds": 0.20409421699999797
+    },
+    {
+      "case": "complete_lambda20",
+      "lambdaDegree": 20,
+      "excluded": true,
+      "allLambdaRootsAndRecoveredQFibersRetained": true,
+      "originalRowsUsed": [
+        "E1",
+        "EBe"
+      ],
+      "finalFPolynomial": {
+        "Qdegree": 0,
+        "bytes": 7,
+        "sha256": "e28610836ab702cd35495751839961e9fae54fec4ee18dc4b314862c18c3d104",
+        "coefficients_Q_then_lambda": [
+          [
+            "1"
+          ]
+        ]
+      },
+      "certificateBytes": 33013,
+      "certificateSHA256": "9ef6a10031e14076c9a97b7a410c6e87945dddf9044746f0f79117424ab0af57",
+      "noDeltaOrUnpaidNormInverse": true,
+      "stage": "new_Delta_zero_equal_weight_original_full_return",
+      "seconds": 0.20556419100000056
+    },
+    {
+      "sourceSHA256": "c2d6165ae5cee89666674c048e2474014b0f99539b24660fe61bfc12156a5388",
+      "allFiniteOriginalReturns": [
+        {
+          "case": "complete_lambda20",
+          "lambdaDegree": 20,
+          "excluded": true,
+          "allLambdaRootsAndRecoveredQFibersRetained": true,
+          "originalRowsUsed": [
+            "E1",
+            "EBe"
+          ],
+          "finalFPolynomial": {
+            "Qdegree": 0,
+            "bytes": 7,
+            "sha256": "e28610836ab702cd35495751839961e9fae54fec4ee18dc4b314862c18c3d104",
+            "coefficients_Q_then_lambda": [
+              [
+                "1"
+              ]
+            ]
+          },
+          "certificateBytes": 33013,
+          "certificateSHA256": "9ef6a10031e14076c9a97b7a410c6e87945dddf9044746f0f79117424ab0af57",
+          "noDeltaOrUnpaidNormInverse": true
+        }
+      ],
+      "completeConstantSplits": [],
+      "actualConstantInverseCount": 46,
+      "actualPolynomialDivisionCount": 9,
+      "originalDomain": "h=k!=1,b=c,Delta=0",
+      "entireOriginalDeltaZeroEqualWeightExcluded": true,
+      "noDeltaInverseOrOldDNonzeroWeightTheorem": true,
+      "genericUnequalWeightEqualValueChartStillOpen": true,
+      "ordinaryISPClaim": false,
+      "peakRssKiB": 41000,
+      "stage": "new_Delta_zero_equal_weight_entire_original_QQ_return_complete",
+      "seconds": 0.2059410580000005
+    }
+  ]
+}
