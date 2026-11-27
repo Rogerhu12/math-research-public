@@ -1,0 +1,212 @@
+{
+  "schema": "isp-frozen-exact-actions-execution-v1",
+  "scope": "unit211 Phi=0 H1 physical D!=0, only actual degree-five completion block",
+  "job_id": "140783442578",
+  "elapsed_seconds": 24.82220933299999,
+  "max_child_rss_kib": 81288,
+  "ordinary_isp_claim": false,
+  "rules_reads": [
+    {
+      "after": "8823c516977a2853a469859d53f8c891433873a7",
+      "before": "555df05b36cc22d6aeda5358235fa1084043f972",
+      "rules_git_blobs": {
+        "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+        "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+      },
+      "rules_unchanged": true,
+      "utc": "2026-11-27T23:23:16.336954+00:00"
+    }
+  ],
+  "run_attempt": "1",
+  "run_id": "46082184284",
+  "session": "Astra-ISP-8542378f-20261127",
+  "source_commit": "555df05b36cc22d6aeda5358235fa1084043f972",
+  "source_exit_code": 0,
+  "source_git_blob": "1be35f8e6858ecc15a55cfbfc0451fae6ef70286",
+  "source_sha256": "15a58c3d848d866e5feaf89a6a5cd939c265b8fe3c1a3f6788a2252c163ffa5b",
+  "stdout_bytes": 10126,
+  "stdout_sha256": "9c039182a0acf83c103522202e82a178ddd7fe031e50ef948ddce86fc65c27dc",
+  "stop_reason": null,
+  "actual_completion_block": {
+    "bytes": 24,
+    "sha256": "0c780501e3c546150d75e155fd0cfa9fa774a18639ae652f10c3739ac9515d6a",
+    "degree": 5
+  },
+  "lambda_relation": {
+    "unit_minor_order": 25,
+    "minor_identity": {
+      "bytes": 2473,
+      "sha256": "2806fa500c58bc03a93213b2f5b59498964e85128411a2c36783da6bf8027a15"
+    },
+    "minor_times_inverse_returned": true,
+    "all_lambda_powers_original_combinations": true,
+    "same_lambda_value_identity": {
+      "bytes": 5,
+      "sha256": "35b299fdd631a957b08c47b4f573b4f8b02ef1677f3f13cc42202dc9ad572cc2",
+      "degree": 0
+    },
+    "all_four_original_lambda_equations_returned": true
+  },
+  "geometry": {
+    "original_head_identity": {
+      "bytes": 21,
+      "sha256": "16e2181f14e4e8c1496675a17fcb5ec0cdb5a0c64deef96f8307074bbbc83c1f",
+      "degree": 4
+    },
+    "original_head_inverse_product": true,
+    "all_six_true_columns": true,
+    "all_original_quadratics": true,
+    "all_commutator_columns": true,
+    "complete_F6_NV": true,
+    "actual_matrix_identity": {
+      "bytes": 297,
+      "sha256": "2ab424cbe79ea306e5e27ee9759b6613859a3d597cf67cee119b3965b6c38151"
+    },
+    "original_seed_count": 9,
+    "source_DAG": [
+      {
+        "kind": "original_seed",
+        "label": "original_R",
+        "parent": null,
+        "action": null,
+        "columnIdentity": {
+          "bytes": 10,
+          "sha256": "5ae1625b488b3935122d8dd627fe575b388a5aa360378fa4407aad08baaed1e2"
+        }
+      },
+      {
+        "kind": "original_seed",
+        "label": "original_W",
+        "parent": null,
+        "action": null,
+        "columnIdentity": {
+          "bytes": 10,
+          "sha256": "5ae1625b488b3935122d8dd627fe575b388a5aa360378fa4407aad08baaed1e2"
+        }
+      },
+      {
+        "kind": "original_seed",
+        "label": "original_O",
+        "parent": null,
+        "action": null,
+        "columnIdentity": {
+          "bytes": 65,
+          "sha256": "ceb9014b7bb1603cd726563f64d70a1e155a0737282f6c0ae33ae79cd70f6cdc"
+        }
+      },
+      {
+        "kind": "original_seed",
+        "label": "original_N1",
+        "parent": null,
+        "action": null,
+        "columnIdentity": {
+          "bytes": 10,
+          "sha256": "5ae1625b488b3935122d8dd627fe575b388a5aa360378fa4407aad08baaed1e2"
+        }
+      },
+      {
+        "kind": "original_seed",
+        "label": "actual_commutator_1",
+        "parent": null,
+        "action": null,
+        "columnIdentity": {
+          "bytes": 10,
+          "sha256": "5ae1625b488b3935122d8dd627fe575b388a5aa360378fa4407aad08baaed1e2"
+        }
+      },
+      {
+        "kind": "original_seed",
+        "label": "actual_commutator_T",
+        "parent": null,
+        "action": null,
+        "columnIdentity": {
+          "bytes": 64,
+          "sha256": "dcfd442259a05dd19554c8de72028493d21751a2c7db38a5c0be758f3df90343"
+        }
+      },
+      {
+        "kind": "original_seed",
+        "label": "actual_commutator_v",
+        "parent": null,
+        "action": null,
+        "columnIdentity": {
+          "bytes": 65,
+          "sha256": "4d042101e06294e59f8a2bad4e5c3b522c4e0f8c1ab1da367e86b50a41688291"
+        }
+      },
+      {
+        "kind": "original_seed",
+        "label": "same_complete_F6",
+        "parent": null,
+        "action": null,
+        "columnIdentity": {
+          "bytes": 65,
+          "sha256": "f8071754d73accc05a23d67ae2c479b65ace6b1fa047382426bc634b7b5d5464"
+        }
+      },
+      {
+        "kind": "original_seed",
+        "label": "same_complete_NV",
+        "parent": null,
+        "action": null,
+        "columnIdentity": {
+          "bytes": 65,
+          "sha256": "41493b9ee544558adc759df0ba4b78f0dccc0eabe25e87770dc87bdf6528ab1a"
+        }
+      },
+      {
+        "kind": "actual_multiplication",
+        "label": null,
+        "parent": 2,
+        "action": "T",
+        "columnIdentity": {
+          "bytes": 66,
+          "sha256": "7115b2a040c2baa6d693a73532c14e4119de1a9614a2c021c43c95b41b9e70ae"
+        }
+      },
+      {
+        "kind": "actual_multiplication",
+        "label": null,
+        "parent": 2,
+        "action": "v",
+        "columnIdentity": {
+          "bytes": 62,
+          "sha256": "6e05848ba6a349d61dfcd3481c65055c6e1bfe7d111b0c681cfd66b063090d60"
+        }
+      },
+      {
+        "kind": "actual_multiplication",
+        "label": null,
+        "parent": 5,
+        "action": "T",
+        "columnIdentity": {
+          "bytes": 66,
+          "sha256": "748133acd8777c60975e6d4dade53088ea2939d62162f0aa4490dc9747da4ff3"
+        }
+      },
+      {
+        "kind": "actual_multiplication",
+        "label": null,
+        "parent": 5,
+        "action": "v",
+        "columnIdentity": {
+          "bytes": 64,
+          "sha256": "a9cd4fd63719c517fd17b5cc741aff7796461c73a19cb2dbb4449e03892e67fc"
+        }
+      }
+    ],
+    "field_rank": 2,
+    "full_Fp_rank": 10,
+    "residual_quotient_dimension": 5
+  },
+  "characteristic_zero_distinct_weight_pairs": 14,
+  "characteristic_zero_distinct_weight_lambda": 59,
+  "characteristic_zero_distinct_five_coordinates": 167,
+  "characteristic_zero_distinct_full_normalized_points": 334,
+  "fifth_block_closed": false,
+  "other_four_blocks_retained": true,
+  "no_physical_D_inverse": true,
+  "no_QQ_factor_identification": true,
+  "ordinary_ISP_claim": false,
+  "no_coefficient_payload": true
+}
