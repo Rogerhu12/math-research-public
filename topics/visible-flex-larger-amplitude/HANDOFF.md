@@ -72,5 +72,6 @@ Actions16：[run 46037017666/1](https://github.com/Rogerhu12/math-research-publi
 <!-- visible-larger-parallel-16:end -->
 
 <!-- visible-larger-parallel-17:start -->
-17已提交完整请求；真实run/job、input与新场身份待实际返回。初始两inputs全6692B；完整科学pair92407B已备。原全部未知/typed责任保，不称成功。
+Actions17：[run 46053911348/1](https://github.com/Rogerhu12/math-research-public/actions/runs/46053911348)；[全阶段记录](notes/2026-11-27-public-actions-46053911348-1.md)。running；已返0，exit=未返。
+并行17规则核查：2026-11-27 19:04:17 UTC，真实pull至`25cbd319c6737335fc18d9ccd89d4713f4c5ad36`，双README无变化。
 <!-- visible-larger-parallel-17:end -->
