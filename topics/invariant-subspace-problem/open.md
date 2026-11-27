@@ -4,7 +4,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-Delta-zero-cubic-return-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-J19-finite-588-cover-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -178,7 +178,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 [最大图低余孔C2费用](results/R271-appendix-maximal-graph-low-excess-hole-square-cost.md)已付同一h的明确扇区，实际y有界物理孔遂入原图核心。新[临界小指数物理孔矩准则](results/R271-appendix-critical-small-physical-exponential-maximal-graph-core.md)进一步给s0=(2+2log(3/2))/14：y∈D(G)且e^(s0N)y∈H，则h∈C2并在原图核心；等号的真实8^j余量完整支付。未知Green缺陷Y并未证明有该矩，物理孔平滑未证保Y，同W的Gamma及F/R/Z继续。
 
-**W整余图两列原值、[Y真单位/w≤6首一存在](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-Gram-Y-unit-and-monic-w-degree-six.md)及[5+5原行/四cofactor](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-five-plus-five-original-values-and-four-cofactors.md)已付。** [整个J19四次权曲线的新原输入](results/R150-appendix-unit211-W-J19-entire-quartic-original-Gram-input.md)实际267e/0.839秒/39988KiB/exit0，六原Gram、48×35、四次代数全返；C15保全部k范数/分母零纤维，另付(1−2ell)逆Z/(ellT0²)。新f436在同输入求六生成、18真乘法和原单位组合，180秒4GiB待实际；J19有限纤维、Y逆及显式首一w仍开。旧d5eab名字错和四式w度18/18/18/23保结果/快照。
+**W两列原值、[Y单位/w≤6存在](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-Gram-Y-unit-and-monic-w-degree-six.md)及[5+5原行](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-five-plus-five-original-values-and-four-cofactors.md)已付。** [整个J19四次曲线六列返1/588次QQ覆盖](results/R150-appendix-unit211-W-J19-six-generator-original-unit-and-degree-588-cover.md)实际f436/11.197秒/71244KiB/exit0，4+10规则、18真乘法、21原行全部返回。F588保全部中间范数/分母零，含旧C15未付纤维；只剥四个已付纯k因子，至多2352个权候选。接整覆盖原纤维返回；J19、Y逆/显式首一w仍开，旧名字错和未付头保结果/快照。
 
 **[整个一般ell=0已闭](results/R150-appendix-unit211-general-ell-zero-complete-original-exclusion.md)，全局可付ell。** 完整来源/零域/失败身份保总定理及快照；T0=0和J=Q也已整闭，继续当前原值输入，不重放旧支。
 
