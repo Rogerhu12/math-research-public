@@ -4,7 +4,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-W-finite-partial-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-collision-P3-66-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -187,7 +187,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 [整个Delta0](results/R150-appendix-unit211-equal-singleton-entire-Delta-zero-exclusion.md)及[整个J2二次λ纤维](results/R150-appendix-unit211-entire-J2-complete-original-fiber-exclusion.md)均已原排空。后者先由ef759完整u覆盖F28/F23/F6，再由a2a真0.855秒/85760KiB/0返回224/184维原R单位及末48维真实QQ Delta²；一次目标未返不冒非成员，两个λ嵌入/全部uQ均保。
 
-[4500两QQ投影](results/R150-appendix-unit211-equal-singleton-two-original-QQ-projections-common-curves-and-finite-base-remainder.md)余P25/3或两E交点。新[原Delta²及完整1474参数覆盖](results/R150-appendix-unit211-collision-P3-original-Delta-square-and-complete-1474-parameter-cover.md)由d6cad4真43.398793334秒/211952KiB/0完成：整个三维权代数内五步原Q除法、7真逆及目标乘回给Delta²∈(C_R,C_W)，全部λ头和分母保留于首一SF1474。P不可约且u次数3，故该支≤4422不同λu基点；合两残曲线≤43617。七片准确参数保存，原Q纤维/个别N/P仍须同点返回，未排空P曲线。h1/k1≤6219、ell三次后≤18657权三元组及自由t仍开，5b2冻。
+[4500两QQ投影](results/R150-appendix-unit211-equal-singleton-two-original-QQ-projections-common-curves-and-finite-base-remainder.md)余P25/3或两E交点。旧[原Delta²/1474](results/R150-appendix-unit211-collision-P3-original-Delta-square-and-complete-1474-parameter-cover.md)保持；新[完整66参数覆盖](results/R150-appendix-unit211-collision-P3-original-Gamma-deflation-and-complete-66-cover.md)真28.359331440秒/117372KiB/0：同点Delta/Tnum一次Gamma仅在真实Delta非零点剥除，四原式降次3/4/4/4；两固定7阶Sylvester身份跨瞬时主元零延拓，整权范数及全部真实chart得SF66，与旧1474全QQ Bézout交仍66。准确1961B参数保存。P的u次数3及不可约性给≤198不同λu，合两残E≤39393；原Q纤维与个别N/P仍完整返回，不宣Q有限。h1/k1≤6219、ell三次后≤18657权三元组及自由t仍开，5b2冻。
 
 ## W：同一 S 的原二次系统及权六次例外（8542，2026-11-28）
 
@@ -219,7 +219,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 此前Haar/稀疏链全交织、所有非零Ky像T循环、与RanJ零交及同源Abel费/log发散等已证接口仍在快照链；Cy⊥非零、G保N、W源费及普通ISP继续。
 
-**碰撞P3下一原输入：** 0c518251仅复用已冻结输入构造前缀；新算原Delta与Tnum的低Q共同因子Gamma，并实际乘回。Delta非零只允许除去这个真实共同因子；原四式降次后作固定Q结式与整三维权范数，保实际输入/结果分母，利用固定结式多项式恒等延拓不额外保已消去瞬时主元。新覆盖与已存1474作真QQ gcd/Bézout。首次派发，未冒称结果；所有剩余λ/u/Q异常全保。
+**碰撞P3下一输入：** 直接读已保存F66，作完整QQ因子与同一lambda/u/Q原返回，保每个首项零及异常权分量；不再运行已完成1474长欧氏或新低Gamma范数。
 
 新[五位完整S2统一余量](results/R271-appendix-five-site-full-s2-uniform-three-sixteenths-square-budget.md)以同一已存3D−16N参数给472条正均值差及6478个严格正轨道，完整BigInt证书3655ms；Tr(K²)<3/16，故同源S2总费<(2+√3)/4、余量>(2−√3)/4，不主张最优。接六位出生一half的全新完整精度源：先形成六维J=e2²e3(C₂²−2C₃)，实际核真空列0后取商，逐阶原特征系数保存、末完整Cayley–Hamilton；180秒/4GiB首次派发。六位half及更高joint未证明，不重跑旧M6流或五位矩阵。
 
