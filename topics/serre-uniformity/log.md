@@ -611,3 +611,8 @@ R1066 给全 $p>37$ 原最小正则模型每个 $\mathbf Q_p$ 模 $p$ 圆盘的�
 2026-11-27 10:13 Asia/Taipei｜Astra-serre-24b8836b-20261126
 - R1073付原split辅助同点完整行：全部J/±、严格base-field Norm乘积、原Weil/root运输、circle零mask及全cusps同h；p47/283实际twists与反射覆盖齐备。
 - 全部纸面，尚无aux数学运行；逐字归档H/open后压缩已成输入。接着实现原283筛选，保同一235候选及每点全部角色。
+
+
+2026-11-27 10:24 Asia/Taipei｜Astra-serre-24b8836b-20261126
+- R1071§16付原j0首forced角色的完整coarse斜率、κ准确相消和同源Hurwitz F⁷读数；G_(p−5)全p单位仍开，未换成旧f_N或Gaussian值。
+- 只消费R1072已成p47回执、无新数学执行；继续原283同点sieve实现及e/ν指定障碍。

@@ -1011,3 +1011,138 @@ $A=0$ 或 $B=0$ 的额外自同构点必须另算，
 仍未证明 (1071.29) 只剩全局 CM 标签。
 
 root 已亲读 [M] 的上述实际命题，并逐式独核 §§11–15 的 first-lift 精度、source 归一、residue 换元、Miller 逐单位误差与相位运输、Lucas 全部边界及低权系数。后继计算尚未在本文执行。
+
+
+## 16. 原 j=0 第一 forced 角色的准确 Hurwitz 斜率
+
+本节固定同一个 supersingular $j=0$ reference，因此 $p\equiv2\bmod3$。
+写 $E:y^2=x^3+B$、$\omega_1=dx/(2y)$，$B$ 是单位。
+为避免与 §11 的 Weierstrass 参数混淆，将同一 additive logarithm 记为
+$z_{\rm add}$；原 eigen-$T$ 满足
+$z_{\rm add}(T)=T+O(T^{p^2})$。
+定义同一 differential 的原 lattice-sum 规范
+$$
+x(z_{\rm add})=z_{\rm add}^{-2}
+ +\sum_{\substack{d\ge4\\d\ {\rm even}}}
+       (d-1)G_d\,z_{\rm add}^{d-2}.
+\tag{1071.51}
+$$
+以下只读 $d=p-5$，其所有所需系数 $p$-整，$d,d-1$ 是单位。
+没有把此读数替换成第一共振 $G_{p+1}$。
+
+### 16.1 原 division identity 与 regularizer 的准确相消
+
+取同一 $\sigma$，$\sigma'(0)=1$。对奇数 $c$，
+$$
+\psi_c(z_{\rm add})
+ =\frac{\sigma(cz_{\rm add})}{\sigma(z_{\rm add})^{c^2}}.
+\tag{1071.52}
+$$
+两边是同一椭圆函数，divisor 均为
+$[c]^{-1}(O)-c^2(O)$，在 $O$ 的首项均为
+$c z_{\rm add}^{1-c^2}$，故比为一。
+这里同时固定 differential 和函数的 leading normalization。
+
+由 $(\log\sigma)''=-x$，
+$$
+\log(\sigma(z_{\rm add})/z_{\rm add})
+ =-\sum_{\substack{d\ge4\\d\ {\rm even}}}G_dz_{\rm add}^d/d.
+$$
+原 $F_c(T)$ 的同一 $d\log$ 因而给
+$$
+A_d=-(c^d-c^2)G_d\qquad(d=p-5).
+$$
+$z_{\rm add}(T)/T$ 的首修正在 $p^2-1$，不影响本节；
+不把这个边界也纳入无修正范围。
+原 leading constant $a_c$ 的 $d\log$ 为零。
+
+对第一 forced 角色 $\chi=\omega^{p-3}$，
+$$
+\boxed{\quad
+A_{p-5}=\kappa_\chi G_{p-5},\qquad
+\kappa_\chi=c^2-c^{-4}\ne0.
+\quad}
+\tag{1071.53}
+$$
+这是原 $\mathbf F_p$ reference、同一 tangent 下的模 $p$ 身份。
+不能独立更换 $\psi_c$ 的 period 或实际 Weil root。
+
+### 16.2 完整 coarse affine 标签
+
+置 $R=p-3$。§15 的 Lucas 消去去掉所有 $i\ge4$；
+$j=0$ 的 $\mu_6$ 对称又只允许 $3\mid i$。
+所以 §5 的完整 fine 多项式只有 $i=0,3$，
+在原 coarse 参数 $T_{\rm coarse}=t^3$ 上准确为 affine。
+
+其 $i=3$ 项满足
+$$
+d_3=p(p-5),\qquad
+\binom{d_3-1}{2}\equiv1,\qquad
+A_{p(p-5)}=A_{p-5}.
+$$
+最后一步是同一原 $d\log F_c$ 的 Cartier 固定性，
+在当前 $\mathbf F_p$ reference 上 Frobenius 固定系数。
+保留 §2 的全部 $\beta_0,\lambda$，准确得到
+$$
+\mathcal P_{\chi,s}(T_{\rm coarse})-\mathcal P_{\chi,s}(0)
+ =-\frac{\beta_0^{p(p-5)}\lambda^3\kappa_\chi G_{p-5}}3
+       T_{\rm coarse}.
+\tag{1071.54}
+$$
+若这一实际角色 Bernoulli-good，则除以原 circular-unit 系数并用
+$m\equiv-1/2$，有
+$$
+\boxed{
+c_{\chi,s}(T_{\rm coarse})-c_{\chi,s}(0)
+ =\frac{\beta_0^{p(p-5)}\lambda^3G_{p-5}}{6b_\chi}
+       T_{\rm coarse}.
+}
+\tag{1071.55}
+$$
+原 regularizer $c$ 的 $\kappa_\chi$ 完全相消；
+$\beta_0,\lambda$ 以及 $b_\chi$ 中真实 $\gamma$ 的作用全部保留。
+这些外因子是单位，所以该原 coarse 斜率非零准确等价于
+$G_{p-5}\ne0$。本节尚未证明后者对全部 $p$ 成立。
+
+### 16.3 同一原系数的有限七次积分读数
+
+置 $n=(p-5)/6$、$w=x^{-1/2}\sim z_{\rm add}$。
+原模型给
+$$
+\omega_1=(1+Bw^6)^{-1/2}dw,\qquad
+z_{\rm add}=wF(Bw^6),
+$$
+$$
+F(Z)=\sum_{j\ge0}\frac{\binom{-1/2}{j}}{6j+1}Z^j
+={}_2F_1(1/6,1/2;7/6;-Z).
+$$
+Lagrange 反演在原 $x=w^{-2}$ 上给
+$$
+[z_{\rm add}^{6n-2}]x
+ =-\frac{2B^n}{6n-2}[Z^n]F(Z)^{2-6n}.
+$$
+前 $n$ 项所有分母 $6j+1\le p-4$ 都是单位。
+因为 $n<p$，$F(Z)^{-p}\equiv1\pmod{p,Z^{n+1}}$。
+用 $6n=p-5$ 并除以 (1071.51) 的 $6n-1$，得到
+$$
+\boxed{\qquad
+G_{p-5}=-\frac{B^n}{21}[Z^n]F(Z)^7\pmod p.
+\qquad}
+\tag{1071.56}
+$$
+它是同一原 $\omega_1$ 的有限读数，没有未知高尾或被除掉的 $p$；
+没有由其形状宣称指定系数为单位。
+
+### 16.4 已认证输入及未关闭范围
+
+R1072 的已认证 $p=47$ 原模型给 $G_{42}=17$、$A_{42}(c=5)=31$。
+代入同一 $\beta_0=1,\lambda=-1,\gamma=20s$，
+(1071.55) 的原 coarse 斜率是 $5/b_\chi$。
+本节只消费该已登记回执，不新增运行或窗口。
+
+全 $p$ 的 $G_{p-5}$ 单位性仍开；
+它与原 $f_N=[z^{p-1}]x\sigma^6$、Gaussian $C_N$ 是不同的读数，
+不能未经来源桥而互相替代。
+o1_theta 付原 sigma/division、$d\log$ 与 $\kappa$ 相消；
+global_route 付同源 $F^7$ 反演，root 独核全部尺度、边界和 finite identity。
+本节没有数学程序执行。
