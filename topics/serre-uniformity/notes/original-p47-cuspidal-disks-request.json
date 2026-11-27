@@ -1,0 +1,21 @@
+{
+  "execution_id": "p47-original-cuspidal-all-disks-v1",
+  "prime": 47,
+  "cartan_nonsquare": 5,
+  "smoothing_integer": 5,
+  "total_seconds": 600,
+  "reserve_seconds": 30,
+  "rules_last_read_commit": "49e200d66e07fa68374b36781f7d78004918a5bc",
+  "source_sha256": {
+    "README.md": "581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102",
+    "topics/serre-uniformity/README.md": "6ce1403bd2d2587bb9cca70bd0095a1264b1167fe2c4b62f0652ae671e6277a5",
+    "topics/serre-uniformity/scripts/original_p47_cuspidal_disks.py": "35a0035d4f238670309d19c9acec35b5f9610cf13f5676f96503c59048148f98",
+    "topics/serre-uniformity/notes/2026-11-27-original-p47-cuspidal-disks-method.md": "746f7cf39f649eb3805467c32e8d6b094b83fdb8cf47dd0fd391ec9200e1a658",
+    "topics/serre-uniformity/results/R1062-original-full-nonsplit-cuspidal-kummer-descent.md": "fbcbc8a09c0c7cd8ce0ba4dba7b1d00a765006b4c9e120bfa7ccd667ff044d3c",
+    "topics/serre-uniformity/results/R1069-all-prime-good-cuspidal-characters-and-unique-global-labels.md": "a18fc3bb9b501f64e2bacf4298d2e367f438c2bb674a54c86f4b84f112d82ac9",
+    "topics/serre-uniformity/results/R1070-original-cuspidal-labels-by-division-polynomial-values.md": "f04e191f4728fa23ea364c4784a0438e8275bd45d0fdb82e7ceb61a5286f3825",
+    "topics/serre-uniformity/results/R1071-original-p-local-cuspidal-label-polynomials.md": "cf62cf044ef991c983bbf32f3d56b570460db3377e5e6e9cb74fa0cf34b6a533"
+  },
+  "scope": "All actual original p-local cuspidal label vectors, coarse disks and collisions. No old p47 scalar/lowest-functional rerun; no rational-point classification.",
+  "storage": "Public compact stdout receipts and runner scratch only. No artifacts, Releases or committed reproducible arrays."
+}

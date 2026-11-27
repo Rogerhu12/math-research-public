@@ -31,7 +31,7 @@ R1018–40的原完整Fm/两节点Dickson/PD及好BT整比较均已付，详细�
 
 ## O0：全主目标覆盖（R1003恢复原范围）
 
-[R1071](results/R1071-original-p-local-cuspidal-label-polynomials.md)：全V原p盘标签完整有限式保原ψ_c/Weil/circular规范及两twists。§§11–15付first-lift模p²/log至N+1、source λ=−1、Miller真实γ、跨SS全局相位和无reversion residue；degree≤min(R,p−R)，forced≤2j+1，顶项Cartier降至A4/A6。good唯一global；实际完整向量和有效aux同点排除继续。
+[R1071](results/R1071-original-p-local-cuspidal-label-polynomials.md)：全V原p盘标签完整有限式保原ψ_c/Weil/circular规范及两twists。§§11–15付first-lift模p²/log至N+1、source λ=−1、Miller真实γ、跨SS全局相位和无reversion residue；degree≤min(R,p−R)，forced≤2j+1，顶项Cartier降至A4/A6。good唯一global；新p47全盘CI待回执，aux同点排除仍开。
 
 [R1070](results/R1070-original-cuspidal-labels-by-division-polynomial-values.md)：原ψ_c标签含全部相位/实下降/cusp规范。§§9–10原unit格排两边界角色，同一primitive c对完整V可逆；精确可见 iff ord_pℓ奇且非p3mod4的(p−1)/2。safe prime仅ℓ1modp可见。低次平滑κ零确pth；同y/embedding/全局候选共同像排除仍开。
 

@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。本轮已部分克隆并真实pull main，读两README/H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则读至36cf1ed2。不重做已登记结论或窗口。
 
-**公开两README已读提交：fa412c174c90c4ff71fd6fcdce3c83437a3cba90**（2026-11-27 09:49 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
+**公开两README已读提交：3e014e8693bbabf960f647212b40d9d353fa0b25**（2026-11-27 10:00 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
 
 已真实部分克隆/pull；09:37再试pull仍报无可用执行环境，shell未运行；按根规矩8用连接器小文本同步、读两README差异、带expected_sha非force提交，恢复后立即pull --rebase。拒绝即同步重基再推至成功。令牌仅CLI；根维护main/H/open/index/log，子研究独立稿，每条结论立即推。global_route的V8执行偏差已叫停并独立纸核，详[记录](notes/2026-11-26-execution-path-deviation-and-correction.md)，其输出不作证明/合规窗口。
 
@@ -30,7 +30,7 @@ R1018–30原Fm/节点log/非约化运输已成，尺度保原文；H_A/H_Z新�
 
 ## O0：不能省略的全局覆盖
 
-[R1071](results/R1071-original-p-local-cuspidal-label-polynomials.md)：全V原p盘标签由原ψ_c有限式给出。§§11–15已付first-lift模p²/log、λ=−1、真实Miller γ与global相位；degree≤min(R,p−R)，forced≤2j+1。good角色唯一global，仍须实际系数/有效aux共同像排除。
+[R1071](results/R1071-original-p-local-cuspidal-label-polynomials.md)：全V原p盘标签由原ψ_c有限式给出。§§11–15已付first-lift模p²/log、λ=−1、真实Miller γ与global相位；degree≤min(R,p−R)，forced≤2j+1。good角色唯一global；新p47全盘CI待回执，aux共同像排除仍开。
 
 [R1070](results/R1070-original-cuspidal-labels-by-division-polynomial-values.md)：原ψ_c标签全部相位/cusp规范齐备；§§9–10扩至完整实际V，同一primitive c可逆，两个边界角色实际缺席。全V辅助可见性精确已付，仍须同点共同像排除。
 

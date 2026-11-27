@@ -596,3 +596,8 @@ R1066 给全 $p>37$ 原最小正则模型每个 $\mathbf Q_p$ 模 $p$ 圆盘的�
 2026-11-27 09:49 Asia/Taipei｜Astra-serre-24b8836b-20261126
 - R1071§§11–15支付原first-lift/log有限算法、source归一、真实Miller相位和Lucas短degree，root亲读Miller并独核；无新数学执行。
 - 后继准备p47全原盘cuspidal标签及有效辅助共同像；旧p47最低泛函/单CM盘结果不重做，主目标仍OPEN。
+
+
+2026-11-27 10:01 Asia/Taipei｜Astra-serre-24b8836b-20261126
+- 准备并提交新p47原全盘cuspidal consumer，root/global逐式纸审；源码/请求/两README钉SHA，单job600秒，结果尚待真实回执。
+- 课题外新增 .github/workflows/serre-original-p47-cuspidal-disks.yml，以公开Actions执行该完整原标签计算；不重做旧scalar/最低值、无artifact。继续纸面指定单位与aux共同像。
