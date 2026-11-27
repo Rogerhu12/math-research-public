@@ -50,6 +50,6 @@ R709均值J不迁normal Cu，R711/712中央Fss非K，R714/715全C1/m32/raw六jet
 <!-- visible-larger-parallel-09:end -->
 
 <!-- visible-larger-parallel-10:start -->
-并行公开Actions10：[run 45972294636/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45972294636)；[实际记录](notes/2026-11-27-public-actions-45972294636-1.md)。阶段`followup:freeze-actual-run10-public-reference-and-restore-whole-run05-carrier-20261127`/completed；已返3，exit=0。
-并行10规则核查：2026-11-27 09:46:27 UTC，真实pull至`510c84701864463bc379e86278ec1695a5a29df9`，双README无变化。
+并行公开Actions10：[run 45972294636/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45972294636)；[实际记录](notes/2026-11-27-public-actions-45972294636-1.md)。阶段`followup:replay-complete-run10-public-input-sources-20261127`/completed；已返4，exit=0。
+并行10规则核查：2026-11-27 09:46:36 UTC，真实pull至`e17966cfcce07326d2fad6a25d9748f34ae39164`，双README无变化。
 <!-- visible-larger-parallel-10:end -->
