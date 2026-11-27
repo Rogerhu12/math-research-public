@@ -1,6 +1,6 @@
 # 结论索引
 
-- **R1071（已证明）**：[R1071](results/R1071-original-p-local-cuspidal-label-polynomials.md)：完整实际V各p盘标签=原ψ_c dlog有限多项式，所有高log、pole、full-source、Weil/circular尺度及coarse twists已付。§§11–15用同marked first lift模p²确定原eigen-T formal-log至N+1<p²，source u_*给λ=−1，有限Miller实际计算γ并支付跨SS相位，无reversion residue读A_d。Lucas将degree缩为min(R,p−R)，forced≤2j+1；顶项Cartier降阶及低A4/A6给精确generic非零来源。good角色有唯一global候选，尚未排有效aux共同像。 §16原j0首forced完整coarse斜率准确为β₀^(p(p−5))λ³G_(p−5)/(6bχ)，原κ相消及同源F⁷有限式已付，Hurwitz单位仍开。
+- **R1071（已证明）**：[R1071](results/R1071-original-p-local-cuspidal-label-polynomials.md)：完整实际V各p盘标签=原ψ_c dlog有限多项式，所有高log、pole、full-source、Weil/circular尺度及coarse twists已付。§§11–15用同marked first lift模p²确定原eigen-T formal-log至N+1<p²，source u_*给λ=−1，有限Miller实际计算γ并支付跨SS相位，无reversion residue读A_d。Lucas将degree缩为min(R,p−R)，forced≤2j+1；顶项Cartier降阶及低A4/A6给精确generic非零来源。good角色有唯一global候选，尚未排有效aux共同像。 §16原j0首forced完整coarse斜率准确为β₀^(p(p−5))λ³G_(p−5)/(6bχ)，原κ相消及同源F⁷有限式已付，Hurwitz单位仍开。 §17同marked first-lift的原t_*由Hasse梯度准确读出，并支付p47八个已知Q-CM输入及新旧profile整向量核验。
 
 [R1070](results/R1070-original-cuspidal-labels-by-division-polynomial-values.md)：原forced角色标签准确为m/κχ·[∏ψ_c(P_z)^(−n_[Nz])]，κχ=c²−χ(c²)单位。Kato–Siegel平滑、原指数提升、二次范数、实下降及全部cusp leading已付，保same y/Weil pairing/ζ embedding，适用于2、3。R1069 good∩forced无regular条件仍有Ω(p/logp)角色；其它字符κ可能恒零，不扩范围。真实辅助共同像排除仍开。 §9扩至任意c的全向量原式，含特征2的x⁴+x与特征3的x³±x；偶数平滑尺度2、κ零时实际pth及同时可见时双退化齐备，未据低次形式冒排点。 §10原Stickelberger格证明κ异常角色及quadratic角色实际缺席，公式扩完整V；全家族精确可见iff ord_pℓ奇且非p3mod4的(p−1)/2，safe prime只ℓ1modp可见。唯一global提升仍限R1069 good角色。
 

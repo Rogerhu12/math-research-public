@@ -621,3 +621,8 @@ R1066 给全 $p>37$ 原最小正则模型每个 $\mathbf Q_p$ 模 $p$ 圆盘的�
 2026-11-27 10:24 Asia/Taipei｜Astra-serre-24b8836b-20261126
 - R1073§9付原half-orbit乘积与固定root完整标签，保f/r重数及零circle条件；可在base field按整orbit精确分组。
 - 仅纸面，无新aux执行；新283 consumer已成待独审，包含全模型/cusps和已认证235候选的hash消费。
+
+
+2026-11-27 10:26 Asia/Taipei｜Astra-serre-24b8836b-20261126
+- R1071§17付同marked firstlift原Hasse梯度，保degree p积分除p及universal eigen-T的p²精度；root亲读R9/经典CM表，逐项支付p47八个输入。
+- 原CM参数数值定位尚未运行，已纳新283 consumer作constant-profile独立核；不将八CM输入或有限标签筛选当盘内唯一。

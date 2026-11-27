@@ -1146,3 +1146,171 @@ R1072 的已认证 $p=47$ 原模型给 $G_{42}=17$、$A_{42}(c=5)=31$。
 o1_theta 付原 sigma/division、$d\log$ 与 $\kappa$ 相消；
 global_route 付同源 $F^7$ 反演，root 独核全部尺度、边界和 finite identity。
 本节没有数学程序执行。
+
+
+## 17. 原 CM first lift 的 Hasse 梯度定位
+
+本节证明同一原 $p$-local 参数的 first-lift 读法，并定位固定 $p=47$
+的八个已知有理 CM 输入。没有由这些输入推断不存在非 CM 有理点。
+
+### 17.1 同一标记下的准确梯度
+
+固定 §§11–12 的 marked supersingular first lift
+$$
+E_s:\ y^2=x^3+A_sx+B_s\pmod{p^2},\qquad
+z=-x/y,\quad\omega=dx/(2y).
+$$
+R1066 与 §11.2 给出相同 marked first lift 的实际 CM reference $E_0$；
+模型和 differential 一同运输，可取其系数模 $p^2$ 恰为 $A_s,B_s$。
+原 eigen-$T$ tangent 为一，reference 的 $u_*=0$。
+
+另一个同标记的 lift $E'$ 有系数 $A_s+pa,B_s+pb$。定义
+$$
+\mathscr H_p(A,B)=[x^{p-1}](x^3+Ax+B)^{(p-1)/2}.
+$$
+则其实际 source 参数准确满足
+$$
+\boxed{
+t_*(E')=\frac{[T^p][p]_{E'}(T)}p
+ \equiv\mathscr H_{p,A}(\bar A_s,\bar B_s)a+
+       \mathscr H_{p,B}(\bar A_s,\bar B_s)b\pmod p.
+}
+\tag{1071.57}
+$$
+差商必须来自同一个 marked 方程；
+不能拿两个仅 $j$ 相同、differential 未运输的模型直接相减。
+
+**证明。** 写
+$$
+\omega_E=\sum a_n(A,B)z^n dz,\qquad
+L_E(z)=\sum a_{n-1}(A,B)z^n/n.
+$$
+§12.2 的整递推使 $a_n$ 为通用整系数多项式。
+两方程相差 $p$，故 $\delta a_n\in pW$。
+reference 的 inverse $z=g_0(T)$ 至 $p$ 次整，
+且 $L_0(g_0(T))=T+O(T^{p^2})$。
+所以
+$$
+\mathscr L(T):=L_{E'}(g_0(T))
+ =T+\sum_{2\le n<p}b_nT^n+b_pT^p+O(T^{p+1}),
+$$
+$$
+b_n\in pW\ (n<p),\qquad
+b_p\equiv\frac{\delta a_{p-1}}p\pmod p.
+\tag{1071.58}
+$$
+低次 $\delta L$ 的系数都含 $p$，composition 保留此因子；
+$g_0(T)^p$ 的 $T^p$ coefficient 是一。
+这明确保留 degree $p$ 的除 $p$ 信息。
+
+$\mathscr L^{-1}$ 至 $p$ 次也是整 series。
+在 $[p]=\mathscr L^{-1}(p\mathscr L)$ 中，
+inverse 的 degree $j\ge2$ 项均含 $p^j$，故
+$$
+[T^p][p]\equiv p b_p\pmod{p^2}.
+$$
+
+刚才使用固定 reference 参数 $g_0^{-1}(z)$。
+真正 universal eigen-$T$ 来自 R1021 的 prime-to-$p$ tame averaging；
+平均分母 $p^2-1$ 是单位，各有限阶系数在 universal deformation base
+上整且与 base change 相容。
+因此在两个 $p$-close marked lifts 上，同一 tangent 归一后的参数
+至 $p$ 次相差 $T\mapsto T+p h(T)$，$h$ 整。
+此处支付的是原 integral averaging，不只是假设特殊纤维参数相同。
+
+超奇异特殊纤维的 $[p]$ 在 degree $<p^2$ 为零，
+故其 degree $\le p$ 系数都含 $p$。
+上述 coordinate change 对 $T^p$ coefficient 的改变遂含 $p^2$。
+所以刚才读出的确是 (1071.33) 的原 $u_*$。
+
+最后，在 characteristic $p$ 中置 $f=x^3+Ax+B$，则
+$$
+\omega=f^{(p-1)/2}\frac{dx}{2y^p}.
+$$
+因为 $3(p-1)/2<2p-1$，Cartier 只取分子中的 $x^{p-1}$ 项，
+得到 $C\omega=\mathscr H_p^{1/p}\omega$。
+在同一 $z$ 处读取常数项，得通用多项式恒等式
+$$
+a_{p-1}(A,B)\equiv\mathscr H_p(A,B)\pmod p.
+$$
+因此 $a_{p-1}-\mathscr H_p$ 是整多项式的 $p$ 倍；
+两个 $p$-close 输入之差使该误差含 $p^2$。
+(1071.58) 因而准确给 (1071.57)。证毕。
+
+### 17.2 固定 p47 的八个实际有理 CM 输入
+
+[R9 §1](R9-cm-reduction-separation.md) 已保存经典十三项表。
+其已发表来源是 Silverman, *Advanced Topics in the Arithmetic of
+Elliptic Curves* (1994), Appendix A §3；
+[Zywina 作者全文](https://pi.math.cornell.edu/~zywina/papers/PossibleImages/PossibleImages.pdf)
+§1.9 Table 1（PDF 第 11 页）也明确转引该经典表。
+root/global 本次均亲读该表；这里只消费这些经典 CM 值，
+不调用该预印本的其它像分类结论。
+
+本次使用以下八项：
+
+| CM 阶判别式 $\Delta$ | 原有理 $j$ | $j\bmod47$ |
+|---:|---:|---:|
+| $-3$ | $0$ | $0$ |
+| $-4$ | $1728$ | $36$ |
+| $-7$ | $-3375$ | $9$ |
+| $-8$ | $8000$ | $10$ |
+| $-12$ | $54000$ | $44$ |
+| $-16$ | $287496$ | $44$ |
+| $-27$ | $-12288000$ | $9$ |
+| $-28$ | $16581375$ | $10$ |
+
+底域判别式是 $-3,-4,-7,-8$。
+$47$ 分别为 $2\bmod3$、$3\bmod4$、$5\bmod7$、$7\bmod8$，
+给这些域中的惰性；所用 CM 导子都与 $47$ 互素。
+完整 CM 环在 $E[47]$ 中给实际 $\mathbf F_{47^2}$，
+其 Galois 正规化性使每项确给原 $X_{\rm ns}^+(47)(\mathbf Q)$ 点。
+
+这里不将 R9 的 $p>163$ 总定理套到 $47$。
+只消费其 §§2–3 的实际证明：
+这些表中模型在 $47$ 好约化，CM 环在 $47$ étale，
+故经典惯性定理给整个原 nonsplit Cartan。
+有理 coarse 自同构轨道长度至多三，
+其惯性稳定子射影阶至少 $48/3>2$。
+Normalizer 的外 coset 元素射影阶为二，
+故存在一个共同 Cartan 内阶大于二的元素；
+其中央化子迫原 Cartan 相同。
+因此每个表中 $j$ 有唯一的原有理 CM Cartan 点，包括 $0,1728$。
+这里只应用逐项已核的好约化/惰性条件。
+
+### 17.3 同一 first lift 的具体读法及独立核验
+
+对其余六项，取
+$$
+k_j=\frac{j}{1728-j},\qquad A_j=3k_j,\qquad B_j=2k_j
+\quad\text{in }\mathbf Z/47^2\mathbf Z.
+\tag{1071.59}
+$$
+它们的 reduction 不为 $0,1728$，故是 good 方程；
+原 $j=1728\cdot4A^3/(4A^3+27B^2)$ 恒等式给指定整数 $j$。
+其特殊方程与 R1072 同一 $s$ 模型相同。
+用旧 reference 的实际整数 lifts 取
+$$
+a_j=(A_j-A_s)/47,\qquad b_j=(B_j-B_s)/47\pmod{47}.
+$$
+(1071.57) 就给旧原 $t_{*,j}$。
+$j=0,1728$ 使用实际 CM reference 中心；
+不能在 (1071.59) 的分母为零处代值。
+
+还有一个独立来源核验：以 $(A_j,B_j)\bmod47^2$ 本身作为新 first lift，
+按 §11.2 重建原完整 profile，取新 $t_*'=0$ 的 constant vector。
+实际 CM 曲线与这个 reference 同 marked first lift，
+所以其 $t_*'\bmod47$ 是零。
+R1065 的同盘恒定性和 §14 的真实 Weil 相位运输迫
+$$
+c_{\rm new}(0)=c_s(t_{*,j})
+\tag{1071.60}
+$$
+在全部角色上同时成立。
+这检查 gradient、完整 profile 和全局 phase，不预设辅助筛选的结果。
+
+本节全部是纸面证明，尚未执行这些新的 CM 定位。
+即使一个辅助素最终只保留这八个标签，仍须排除同一原 $p$ 盘内的
+非 CM 有理点；不能据此写成 Serre 已完成。
+global_route 给出原 first-lift 梯度和经典 CM 源的准确消费，
+o2/root 独核 degree $p$ 的积分、参数变换及 $p^2$ 精度。
