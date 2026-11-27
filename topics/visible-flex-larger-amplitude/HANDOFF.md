@@ -54,6 +54,6 @@ R714全C1/m32、R715 raw hΔ六jet及全E/typed保。[08实际6–9](notes/2026-
 <!-- visible-larger-parallel-08:end -->
 
 <!-- visible-larger-parallel-09:start -->
-并行公开Actions09：[run 45943410994/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45943410994)；[实际记录](notes/2026-11-27-public-actions-45943410994-1.md)。阶段`followup_waiting`/running；已返2，exit=未返。
-并行09规则核查：2026-11-27 05:37:17 UTC，真实pull至`1f102dc8df41ada504a9d30e56bad92be01bde90`，双README无变化。
+并行公开Actions09：[run 45943410994/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45943410994)；[实际记录](notes/2026-11-27-public-actions-45943410994-1.md)。阶段`followup:freeze-actual-run09-public-reference-and-restore-whole-run05-carrier-20261127`/completed；已返3，exit=0。
+并行09规则核查：2026-11-27 05:43:29 UTC，真实pull至`a44ca19eb57e0c7718f8fca456236fbbf05763f4`，双README无变化。
 <!-- visible-larger-parallel-09:end -->
