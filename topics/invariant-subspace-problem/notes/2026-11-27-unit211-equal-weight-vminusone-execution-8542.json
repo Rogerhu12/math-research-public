@@ -1,0 +1,78 @@
+{
+  "session": "Astra-ISP-8542378f-20261127",
+  "date": "2026-11-27 Asia/Taipei",
+  "scope": "whole general equal-weight y=0 (v=-1) branch",
+  "mode": "exact BigInt V8 Function bodies",
+  "sourceSHA256": {
+    "notes/2026-11-27-unit211-equal-weight-vminusone-original-fiber-8542.js": "3aba566e0d810fa4c3545007087ad1532b23b1b659ea0cf7b8d6944a4e3ea3e7",
+    "notes/2026-11-27-unit211-equal-weight-vminusone-original-resultants-8542.js": "1b04bf50d54fcf280f38216af9ffac491606763e33819a4a058351c685d2f54c",
+    "notes/2026-11-27-unit211-equal-weight-vminusone-original-Bezout-8542.js": "28230623d603eaf6daf8a55f9e17894ba63d70c2a400ec99909756666dc060be"
+  },
+  "stages": [
+    {
+      "stage": "fiber",
+      "seconds": 0.095,
+      "canonicalOutputSHA256": "8bd9392db12dc0650c10950dd5626339fd2f23f377b33153bc298f8f59e11331"
+    },
+    {
+      "stage": "resultant",
+      "seconds": 0.191,
+      "canonicalOutputSHA256": "159a0e7129916523e2fa218b3504ec772561410afa38a2cb69857d32881697dd"
+    },
+    {
+      "stage": "bezout",
+      "seconds": 27.241,
+      "canonicalOutputSHA256": "20be9f3cb0de6a214e965e0a5f3f56e14501f37b99e0f82e6f33ef34515edcb5"
+    }
+  ],
+  "originalMeanMonicKdegree": 4,
+  "originalRemainderKdegrees": [
+    2,
+    2,
+    2
+  ],
+  "completeResultantDegrees": [
+    26,
+    55,
+    62
+  ],
+  "paidProjectionFactors": [
+    [
+      "w",
+      8,
+      "w-1",
+      6
+    ],
+    [
+      "w",
+      13,
+      "w-1",
+      8
+    ],
+    [
+      "w",
+      15,
+      "w-1",
+      9
+    ]
+  ],
+  "remainingProjectionDegrees": [
+    12,
+    34,
+    38
+  ],
+  "actualQQBezout": {
+    "coefficientDegrees": [
+      33,
+      11,
+      -1
+    ],
+    "return": 1,
+    "originalProductMultipliedBack": true
+  },
+  "DvalSaturationUsed": false,
+  "wholeYzeroExcluded": true,
+  "wholeEqualWeightExcluded": false,
+  "osExitCode": null,
+  "rss": null
+}
