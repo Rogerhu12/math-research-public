@@ -1,15 +1,16 @@
 {
-  "message": "ISP: prove exact original monic F elimination including every leading-zero fiber",
-  "parentCommit": "aa5408fa888f7c6bd3fd56dc0dcbbedb71e1c595",
+  "message": "ISP: prove exact QQ local multiplicities and the strict 146 original base-point cover",
+  "parentCommit": "290a94de34344a4939c080c39821ddfb04c06053",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-W-exact-monic-F-elimination-all-leading-zero-fibers.md",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-W-monic-F-norm-original-three-column-minors-8542.py",
-    ".github/workflows/invariant-subspace-w-monic-f-norm-original-three-column-minors-8542.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-27-handoff-before-W-entire-monic-F-elimination-8542.md",
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-Phi-zero-exceptional-exact-QQ-local-multiplicities-and-146-cover.md",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-exceptional-exact-QQ-local-multiplicities-and-146-execution-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-ten-weight-same-linear-full-original-values-input-8542.py",
+    ".github/workflows/invariant-subspace-phi-ten-weight-same-linear-full-original-values-8542.yml",
+    "topics/invariant-subspace-problem/notes/2026-11-27-handoff-before-Phi-exact-multiplicities-146-cover-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -19,6 +20,6 @@
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
   "dispatchWorkflows": [
-    "invariant-subspace-w-monic-f-norm-original-three-column-minors-8542.yml"
+    "invariant-subspace-phi-ten-weight-same-linear-full-original-values-8542.yml"
   ]
 }
