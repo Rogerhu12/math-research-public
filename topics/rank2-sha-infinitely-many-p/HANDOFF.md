@@ -6,7 +6,7 @@
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。固定有限曲线族联合无穷非零可用无限鸽巢；有限p、随p换曲线、条件桥、接口或单独投影非零不完成。
 
-- 公开根/课题 README 已读至 `414b7662f8cddf8a06fb9aa5595cadd69e05ca3c`（差异空）；每次pull只读新差异，至少每小时同步并记SHA。
+- 公开根/课题 README 已读至 `6878b52d4afde59c59d49968d722ac326c770541`（差异空）；每次pull只读新差异，至少每小时同步并记SHA。
 - 两仓库已部分克隆。私库QUEUE接手提交41fe885610073f478b2f5a752461ca56cfd43f09已推；23:35UTC pull至632448c6964eb2ca42eaa0b8a74f55efe0c7404f，两README差异空、QUEUE仍本会话进行中。令牌只进程认证。
 - root独占git/H/open/log/index；每条结论即推，非快进立即pull --rebase/读README差异/再推至成功，不强推。数学只用公开Actions；不存可重算输出。H<10KB、每MD<100KB。
 - [此次完整逐字归档](notes/2026-11-27-handoff-before-two-exact-layers.md)及其历史链保全部旧式/回执/未解门；[open](open.md)、[results](results.md)、[R1001–1050索引](notes/PROOF-INDEX-R1001-R1050.md)及前卷为接续入口。
@@ -35,7 +35,7 @@ R985/R987全Heisenberg/Miller及真实22伴随保持：CF仅全四输出push后/
 - R999：B=120Φ260−11Φ*−108X−F10，完整分子∈35^-1Z、deg19、(X+1)^2Q2因子、首24768z12。两canonical坏时jB=−δ(p+1)log(π/barπ)/10080≠0。未平移原P2^65Z^-7全部移动零点和O均取消，只余E2极；平移后O/−T/所有权保持。
 - R1000：五同degree238/charge119真零H_r首w^r、全在B8_119；固定Lucas坏分母外det1，完整Tate F=Vx+pG、F0=0给全精度等距双射。各q/Gaussian Schur保持；old非零log有确定检出深度L_p=O(p/logp)，h≤L_p在R614整窗中，但不是原六块扩窗。31/195仅改全位常数。central续R1004原canonical H/E余式实际消元。
 - R1001：全22列第六Cartier=β6^(1/p)ω/Z，原p曲率矩阵不除H。C³返留数+32个同W6短窗；第一读取还保两exact导数及−4c6/7、7κ5a+，不能丢。
-- R1003：在真V130^{≥12}20维（含B）第六读取可用单P130替P2^65，差阶6p+12越过6p+6。所有移动Z零点仍消，E2帽p³−p²+122p−3<p³使整个C³真零；第六=−6(H̃0′^p+H̃1′^(p²))。精确回p6最后项系数720/840，前五项全精度与低卷积保持。arithmetic续R1005两个真实exact层的中央强迫。
+- R1003：在真V130^{≥12}20维（含B）第六读取可用单P130替P2^65，差阶6p+12越过6p+6。所有移动Z零点仍消，E2帽p³−p²+122p−3<p³使整个C³真零；第六=−6(H̃0′^p+H̃1′^(p²))。精确回p6最后项系数720/840，前五项全精度与低卷积保持。R1005已扩全22：差A_p c6+B_p mass、B_p=−832(3/5)^p/63；两13归一差准确消修正返3Gold/4。完整伴随和Miller运输保持；同双二挠K真零、C=90B−43K从−3151872z18起，坏canonical下jC=−δ(p+1)log/112≠0。仍须两个真实exact层的中央强迫。
 
 ## 四、几何与全局非零
 
@@ -54,4 +54,4 @@ R988严格level12 K3双逆保持，但R990已证明其新CM17全图族在2处Cho
 
 O4最早a≤1/δ²、O6全Np有限/原q_p=1、O7同解共振/全Laurent/非恒定Y权仍开。原P134/十九角/charge40/10980/WD/TM/TJ及R953跨parity、R954实际forcing成员性保持；全部精确条件见open和逐字归档。不再只提高rank常数而当闭合。
 
-central：R1004原H_p/E_p实际必要余式；arithmetic：R1005两exact真实消费；geometry：原3型/full9全球桥并跟唯一v8；root：独立读证、原输入研究、消费真回执、逐条推送。主目标未完成就继续下个实质门，不以来源变换或中间结果收尾。
+central：R1004原H_p/E_p实际必要余式；arithmetic：单P130/13有限指数129的全权运输及两exact真实消费；geometry：原3型/full9全球桥并跟唯一v8；root：独立读证、原输入研究、消费真回执、逐条推送。主目标未完成就继续下个实质门，不以来源变换或中间结果收尾。
