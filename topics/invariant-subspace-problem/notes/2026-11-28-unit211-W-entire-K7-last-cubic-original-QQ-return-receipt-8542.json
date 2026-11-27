@@ -1,0 +1,173 @@
+{
+  "schema": "isp-entire-K7-final-cubic-original-exclusion-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "date": "2026-11-28 (Asia/Taipei)",
+  "scope": "Current general LS Delta=0 W=0 distinct-singleton-value physical domain",
+  "source": {
+    "path": "notes/2026-11-28-unit211-W-entire-K7-last-cubic-original-QQ-return-8542.py",
+    "blob": "941897e3d0996360314f22dd30f4eefdc7558acf",
+    "bytes": 15124,
+    "sha256": "7d0855230abc8f16a0c965e62f75cede3a66a1dbea64fd9b484801ef8241e822"
+  },
+  "run": 46076745817,
+  "job": 140766143584,
+  "driver": {
+    "elapsed_seconds": 0.29918763100000234,
+    "max_child_rss_kib": 37528,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "f001ca62c1081b7e542c842d14c198ce16b6bee5",
+        "before": "22e753773375efc483000ff580592e173f000583",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-27T22:27:37.610680+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46076745817",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "22e753773375efc483000ff580592e173f000583",
+    "source_exit_code": 0,
+    "source_git_blob": "941897e3d0996360314f22dd30f4eefdc7558acf",
+    "source_sha256": "7d0855230abc8f16a0c965e62f75cede3a66a1dbea64fd9b484801ef8241e822",
+    "stdout_bytes": 2391,
+    "stdout_sha256": "20ba617f58b42de9f15573cf61ee8d4df10f243c32f7ce6a35856af62f691610",
+    "stop_reason": null
+  },
+  "mathematicalRecords": [
+    {
+      "stage": "new_K7_entire_cubic_exact_input",
+      "polynomialAscending": [
+        18,
+        -6,
+        -4,
+        1
+      ],
+      "priorWholeK7IdealCover": "C3(m)^2",
+      "priorRun": 46075250765,
+      "priorSourceSHA256": "0f9413d3cee49a1feacf46992cfbefd91c3c3f1ff41e1954cd0bd9795b2e78bf",
+      "allThreeComplexConjugatesRetained": true,
+      "oldCertificateNotReplayed": true,
+      "claimExcluded": false,
+      "seconds": 0.00009630299999940917
+    },
+    {
+      "stage": "new_K7_entire_cubic_original_weight_algebra",
+      "label": "whole_C3",
+      "modulus": [
+        "18",
+        "-6",
+        "-4",
+        "1"
+      ],
+      "QQDimension": 3,
+      "allActualUnitInverseProductsOne": true,
+      "wholeConjugateFiberPreserved": true,
+      "noOld242DeterminantOr107BezoutReplayed": true,
+      "claimExcluded": false,
+      "seconds": 0.0012144749999976057
+    },
+    {
+      "stage": "new_K7_cubic_original_Macaulay_input",
+      "path": "whole_C3",
+      "label": "four_original_quadratics_two_original_cubics",
+      "QQDimension": 3,
+      "degree": 4,
+      "rows": 48,
+      "columns": 35,
+      "allRowsAreOriginalProducts": true,
+      "claimExcluded": false,
+      "seconds": 0.0821190269999974
+    },
+    {
+      "stage": "new_K7_cubic_entire_original_QQ_Macaulay_return",
+      "path": "whole_C3",
+      "input": "four_original_quadratics_two_original_cubics",
+      "QQDimension": 3,
+      "rows": 48,
+      "columns": 35,
+      "rank": 33,
+      "DpowerReturned": 1,
+      "allOriginalColumnProductsActuallyVerified": true,
+      "fullPolynomialCombinationActuallyVerified": true,
+      "actualInverseProducts": 62,
+      "actualFiniteReductionProducts": 94382,
+      "certificate": {
+        "bytes": 6827,
+        "sha256": "850562a0ef9955744a9bfeb313a5ee1c15538b219f1c0ab6ae61f3758f2f97c1"
+      },
+      "excluded": true,
+      "wholeK7Excluded": false,
+      "seconds": 0.23431834499999837
+    },
+    {
+      "stage": "new_K7_entire_cubic_original_QQ_return_finished",
+      "sourceSHA256": "7d0855230abc8f16a0c965e62f75cede3a66a1dbea64fd9b484801ef8241e822",
+      "allFiniteReturns": [
+        {
+          "path": "whole_C3",
+          "input": "four_original_quadratics_two_original_cubics",
+          "QQDimension": 3,
+          "rows": 48,
+          "columns": 35,
+          "rank": 33,
+          "DpowerReturned": 1,
+          "allOriginalColumnProductsActuallyVerified": true,
+          "fullPolynomialCombinationActuallyVerified": true,
+          "actualInverseProducts": 62,
+          "actualFiniteReductionProducts": 94382,
+          "certificate": {
+            "bytes": 6827,
+            "sha256": "850562a0ef9955744a9bfeb313a5ee1c15538b219f1c0ab6ae61f3758f2f97c1"
+          },
+          "excluded": true
+        }
+      ],
+      "allActualNonunitSplits": [],
+      "fullCubicFiberExcluded": true,
+      "physicalDUnitScope": "current W distinct singleton value domain: D+ell*HA/u^2=bc*(hU-kU)^2",
+      "allWholeK7OriginalPointsExcluded": true,
+      "priorC3SquareAndNewCubicReturnTogetherUsed": true,
+      "noModularLiftOrNumericalRootChoice": true,
+      "noDataCacheWritten": true,
+      "peakRssKiB": 34832,
+      "seconds": 0.2349069099999994
+    }
+  ],
+  "priorExactCover": {
+    "run": 46075250765,
+    "idealElement": "(m^3-4*m^2-6*m+18)^2",
+    "replayed": false
+  },
+  "actualFinalReturn": {
+    "algebra": "QQ[m]/(m^3-4*m^2-6*m+18)",
+    "rows": 48,
+    "columns": 35,
+    "rank": 33,
+    "Dpower": 1,
+    "finiteInverseProducts": 62,
+    "finiteReductionProducts": 94382,
+    "wholeFiniteFiberPreserved": true,
+    "nonunitSplits": 0
+  },
+  "physicalDJustification": "D+ell*HA/u^2=bc*(hU-kU)^2, original HA=0 and bc*(hU-kU)!=0",
+  "nonreducedConsequence": "D in I6+(C3) and C3^2 in I6 imply D^2 in I6",
+  "wholeK7Excluded": true,
+  "additional181x84BranchExecuted": false,
+  "packagingFailure": {
+    "run": 46076646594,
+    "job": 140765817594,
+    "pin": "f16d9c5915e362d828c50d6feb43e49bb24c6b0b",
+    "wrapperExitCode": 128,
+    "reason": "git path notes/2026-11-28-unit211-W-entire-K7-last-cubic-original-QQ-return-8542.py did not exist at pin; blob had been placed at topic root",
+    "mathematicalSourceStarted": false,
+    "scientificReceiptProduced": false,
+    "sourceWasUnchangedDuringPathCorrection": true
+  },
+  "ordinaryISPClaim": false
+}

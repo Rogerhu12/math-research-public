@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [整K7原图全闭；固定三均值头在全部余W可逆](results/R150-appendix-unit211-W-entire-K7-complete-original-exclusion-and-global-three-generators.md)：9418真0.299187631秒/0，整QQ三次原48×35 rank33返D，与已付原C3²合成D²∈I6，物理D单位排整K及幂零层；未执行181×84。全余W在权[λ]上由1,x,y生成，固定权/λ原纤维长≤3，不宣D局部化全局有限。
+
 - [光滑核全部固定幂的实际伴随近右逆与有界交织本质范数](results/R271-appendix-smooth-kernel-all-power-adjoint-return-and-essential-intertwiners.md)：同G固定多位修复付归一化$S_j\to0$强及$S_jS_j^*\to I$强，全部K∞的实际伴随近原像范数≤输入、弱零；H/K∞任意$B^r$不变商同。至任意实际边界$B^r$子商的交织norm=essnorm及有限矩形放大，紧交织零；未知M紧交换子仅杀K∞，不付K∞=M或未归一原像费。
 
 - [一对等权加四独立权：首原S1子式在有序x2≥1的三个完整闭域严格正](results/R271-appendix-one-pair-four-independent-first-s1-minor-three-closed-chambers.md)：a316真2.441294980秒/0；全部物理逆与原交叉项保，三齐次分子全非负且常数严格正，全部重权边界保。仅首子式；第四域六负项为配方未闭、第五未算，完整S1/S2仍开。
