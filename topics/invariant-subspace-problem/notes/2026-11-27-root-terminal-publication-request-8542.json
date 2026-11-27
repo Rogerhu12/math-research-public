@@ -1,13 +1,18 @@
 {
-  "message": "ISP: prove the actual terminal tower and same forcing fixed variance window bound",
-  "parentCommit": "68d75a1ff1ad9d56c3cb145e6cdb341bc0340562",
+  "message": "ISP: prove global general LS three generators over t by an original unit combination",
+  "parentCommit": "c8e4e898d4018fc77da2e1a0cb48fe1f3b2195b7",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R271-appendix-actual-terminal-compatible-tower-and-fixed-variance-window-energy.md",
-    "topics/invariant-subspace-problem/notes/2026-11-27-handoff-before-real-terminal-tower-8542.md",
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-general-LS-global-three-generators-over-t-and-original-unit-combination.md",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-general-LS-three-generators-over-t-execution-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-general-head-c-g-integer-unit-identity-8542.js",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-general-head-c-g-integer-unit-identity-output-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-general-LS-global-three-generator-over-t-original-return-8542.py",
+    ".github/workflows/invariant-subspace-general-ls-three-generators-over-t-8542.yml",
+    "topics/invariant-subspace-problem/notes/2026-11-27-handoff-before-general-three-generator-over-t-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -16,5 +21,7 @@
     ".github/workflows/invariant-subspace-8542-root-terminal-publication.yml",
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
-  "dispatchWorkflows": []
+  "dispatchWorkflows": [
+    "invariant-subspace-general-ls-three-generators-over-t-8542.yml"
+  ]
 }
