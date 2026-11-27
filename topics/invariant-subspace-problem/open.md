@@ -251,7 +251,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 [W三原平面三次与六重叠](results/R150-appendix-unit211-W-original-mean-ideal-three-plane-cubics-and-six-overlaps.md)已全理想返(qF,R0,R1,R2)=(F+A,h0,h1,h3)。固定第一头H265新[完整QQ因式与首一k23](results/R150-appendix-unit211-W-first-binary-head-whole-irreducible-curve-and-monic-k23.md)真4.571809844秒/0：单不可约(e,k)16/23因子重数1，k头仅已付e/e+1，整H0有首一23次自由环境，含k=−3纤维；e头k+3不得倒置。新8222仅H非零补图首次返四原三次规则、12乘法列及完整h4/h5/R3=theta q3/q4的六坐标常数目标，保全部H0/最终参数极点。几何后局部化不自动有限；q3/r2/R6及个别NP/NV仍保，不能据共因1或必要式称W空。
 
-[一般整个H1的Dixon常数返回与256权覆盖](results/R150-appendix-unit211-Phi-zero-whole-first-head-Dixon-256-weight-cover.md)：ef9唯一117.415367789秒/182964KiB/0，原无μ逆双二次保b0/b非零，Dixon八列真rank8并逐四权坐标乘回常数1。全原chart/源分母和最终系数分母仅剥u/u1得C256，故整个分支≤1024不同(u,Q)；不是全λ/T/z点数或整H1空。全部C256零纤维、H0及个别NP继续；11列/λ/D/μ目标未执行。新abcfd只执行原构造前缀求source_cover首次QQ支持，不重放Gaussian。
+[一般整H1的原Dixon256覆盖](results/R150-appendix-unit211-Phi-zero-whole-first-head-Dixon-256-weight-cover.md)真117.415367789秒/0、无μ逆完整QQ4返1，保全部原chart/最终极点；仅≤1024权对，不作整H1空。新[原极点支持C55](results/R150-appendix-unit211-Phi-zero-H1-original-Dixon-55-source-pole-support.md)真3.367428515秒/51800KiB/0，九QQ因子次数1/1/1/3/4/5/7/8/25全乘回，C256=C55·P201且互素；余P201系数尚未识别，1024界未减。0e05首次直接处理三个线性极点u=3/2,12/5,5/2的整原Q4/均值/个别N1，实际三次头规则与原cofactor返1，必要才F6/NV；不在原极点借旧b1/A0逆，所有非单位/未返头/其它纤维及H0继续。
 
 首次988编译失败、数学未开始的准确历史保[原note](notes/2026-11-28-unit211-Phi-zero-H1-Dixon-first-compile-failure-8542.md)；最小ef9语法修复后的唯一数学执行已独立成功，冻结旧源，不再派相同门。
 
