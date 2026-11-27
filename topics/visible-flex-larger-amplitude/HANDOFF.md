@@ -10,7 +10,7 @@
 
 目标：同一固定g、闭连通C²嵌入、全t强C²连续；固定有内点H且diamH≥.2D、整像δhold≥.2D、含反射δE>0；全t reach≥.03D、整面relative metric≤1e−6；固定g/参数/范围的真实mesh和频率精化至机器或原求解容差，多t可复现网格，准确说明严格存在缺口。D为完整F0直径。R248准确相位恒等式处理全t，不新增独立t插值门。有限误差/开放片/障碍不完成。
 
-本次终端约02:50 UTC失联；2026-11-27 03:59:01 UTC 云API读main `ab31ad9ba93feecc164a8508c4bf09cbd7e3ed22`，双README整SHA无变；未冒真实pull，恢复后立即真实pull/rebase。新父普通快进/保CI槽继续，完整边界见08修复note。
+本次终端约02:50 UTC失联；2026-11-27 04:11:56 UTC 云API读main `92f1d660075f32ea35aa687298fa2742f12888da`，双README整SHA无变；未冒真实pull，恢复后立即真实pull/rebase。新父普通快进/保CI槽继续，完整边界见08修复note。
 
 ## 完整历史与共同模型
 
@@ -40,7 +40,7 @@ R714全C1/m32、R715 raw hΔ六jet及原全E/typed责任保。[原08完整九源
 
 [07完整原输入/真carrier](notes/2026-11-26-run07-actual-restored-old-carrier-and-radial-word-identity.md)1–3真返，3df/e640同、整dc5恢复且cells/u/Gauss全字同；[05全部来源](notes/2026-11-26-run05-all-source-material-envelope-closure.md)保1–18及19未知。root独立policy2全E/typed真筛、不冒旧protected顺序；[c79/7299/bd1a消费者](notes/2026-11-27-complete-material-envelope-consumer-and-preserved-prefix-rows.md)与[cc0a/b93a/104e完整入口](notes/2026-11-26-complete-material-envelope-cached-normal-entry.md)原全部变量/Phi/m32/预算保，07仍仅1–3返、新场待返。
 
-[新SO3同g精化合同](notes/2026-11-27-same-g-so3-normal-refinement-contract-and-entry-design.md)及[完整M320 v2](notes/2026-11-27-M320-complete-frequency-refinement-cloud-reconstruction-v2.md)已刊13全源/3再生器/两完整ready；driver6a9008/readerbc0c保原全科学体，原M160参考不变、正确三通道零嵌入及全P0/G/typed。只注册cc0a/91c真实complete父，不纳新7c目标，真实M320结果尚欠；径向/N/连续同支仍欠。
+[同g精化合同](notes/2026-11-27-same-g-so3-normal-refinement-contract-and-entry-design.md)/[M320全体](notes/2026-11-27-M320-complete-frequency-refinement-cloud-reconstruction-v2.md)已刊13源/3再生器/两ready；6a9008/bc0c保原M160参考、三通道正确嵌入和全E/typed。[07实际排队及2–3全归档](notes/2026-11-27-run07-complete-M320-queue-and-returned2-3-archives.md)保原四pending，M320接cc0a真父/pure后。仅cc0a/91c非新7c；无精化真返，径向/N/连续同支仍欠。
 
 <!-- visible-larger-parallel-06:start -->
 并行公开Actions06：[run 45904402595/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45904402595)；[实际记录](notes/2026-11-26-public-actions-45904402595-1.md)。阶段`followup_budget_checkpoint`/completed；已返43，exit=未返。

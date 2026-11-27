@@ -1,0 +1,371 @@
+{
+  "schema": "complete-actually-returned-public-followup-parameter-archive-v1",
+  "request_id": "visible-larger-resume-20261126-07",
+  "run_id": 45909290354,
+  "run_attempt": 1,
+  "archival_scope": "Only complete original followup objects for actual returned stages 2 and 3; no pending object is removed or declared completed.",
+  "original_queue": {
+    "path": "topics/visible-flex-larger-amplitude/computations/resume-20261126-followups-07.json",
+    "commit": "d9394ebeb6d5067ae8652d487468fe5ab9f0c7fd",
+    "git_blob": "181f7fb20a6d3d4a51bff08e15ae4a52ba15b049",
+    "bytes": 48412,
+    "sha256": "58ac96f1648c1d8afcb1ba3a285b11d2eeace0138ae5a0c9f7d95283392a57c5",
+    "serialization": "Original compact JSON with final newline"
+  },
+  "original_queue_nonstep_fields": {
+    "parent_request_id": "visible-larger-resume-20261126-07",
+    "finish_when_done": false,
+    "scope": "Necessary complete warm/reference input only; continue the actual full reference-centred normal research afterward. Seed19 pending/failed status and any unpublished locations are not replaced by a count or an assumed empty report. Historical envelope and protected/typed responsibility require an explicit complete subsequent consumer."
+  },
+  "actual_public_evidence": {
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-26-public-actions-45909290354-1-part-001.md",
+    "git_blob": "f79052f10a6adb41c53f39101784ee8b34842fa3",
+    "bytes": 31775,
+    "sha256": "8630c9e440a6eaf648e3fcec35eb86e67b03a7d4ddab4db07ca2ba1ef2888749",
+    "index_path": "topics/visible-flex-larger-amplitude/notes/2026-11-26-public-actions-45909290354-1.md",
+    "index_sha256": "a2de15588d1d324f475040962d97af933aec9ca6d84e78317ac4d0357661ef2f",
+    "index_recorded_UTC": "2026-11-27 03:13:15 UTC"
+  },
+  "actual_returned": [
+    {
+      "stage": 2,
+      "step_id": "independent-axisymmetric-R690-reference-prepare-v2-first-20261126-07",
+      "state": "completed",
+      "returncode": 0,
+      "seconds": 313.087935047,
+      "source_commit": "d2fa260c0adde7c89e94a96cafc8be03ced3a091",
+      "source_sha256": "4e65577dc6b17ff4cd8256583eb9adf8b32d31deb84beb8b7ccc400e626205b3",
+      "parent_sha256": "3df37dd362a1c700eaa86eece3d0b9a17524068c2a78fe0bebb1e96f1d09518c",
+      "complete_actual_command": [
+        "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python",
+        "-u",
+        "/home/runner/work/_temp/visible-larger-research-45909290354-1/followup-sources/0001-e19ff8d27b7e-d2fa260c0add/topics/visible-flex-larger-amplitude/scripts/resume_20261126/so3_axisymmetric_reference.py",
+        "--repo",
+        "/home/runner/work/_temp/visible-larger-research-45909290354-1/followup-sources/0001-e19ff8d27b7e-d2fa260c0add",
+        "--warm-bundle",
+        "/home/runner/work/_temp/visible-larger-research-45909290354-1/research/fullclosed_solver/data/fullclosed-hold-warm.npz",
+        "--node-report",
+        "/home/runner/work/_temp/visible-larger-research-45909290354-1/research/fullclosed_solver/data/fullclosed-hold-warm.json",
+        "--scalar-input",
+        "/home/runner/work/_temp/visible-larger-research-45909290354-1/research/fullclosed_solver/data/pulse-a5-complete-base.json.gz",
+        "--manifest",
+        "/home/runner/work/_temp/visible-larger-research-45909290354-1/followup-sources/0001-e19ff8d27b7e-d2fa260c0add/topics/visible-flex-larger-amplitude/scripts/resume_20261120/a04_historical_location_seeds.json",
+        "--angles",
+        "2048",
+        "--seed-integration-order",
+        "8",
+        "--panels",
+        "128",
+        "--scalar-admission-seconds",
+        "300",
+        "--scalar-integral-tolerance",
+        "1e-18",
+        "--scalar-tail-cutoff",
+        "1/8",
+        "--outdir",
+        "/home/runner/work/_temp/visible-larger-research-45909290354-1/research/axisymmetric-R690-reference-v2-first"
+      ],
+      "output_records": [
+        {
+          "path": "/home/runner/work/_temp/visible-larger-research-45909290354-1/research/axisymmetric-R690-reference-v2-first/report.json",
+          "sha256": "78411d9a91633816fd514b927d288ad17922b67eca0f5bd4fd400ec3a06b1821",
+          "bytes": 29792
+        },
+        {
+          "path": "/home/runner/work/_temp/visible-larger-research-45909290354-1/research/axisymmetric-R690-reference-v2-first/reference.npz",
+          "sha256": "e435343954ed3c9fd2617e36185a1e0a71213cc6b432eb94578066954930c5db",
+          "bytes": 866214
+        },
+        {
+          "path": "/home/runner/work/_temp/visible-larger-research-45909290354-1/research/axisymmetric-R690-reference-v2-first/observations.npz",
+          "sha256": "7c8b3cbffd66a360b01341db8e1179f211da3c264de85812020a5e48ad5637c3",
+          "bytes": 227211
+        },
+        {
+          "path": "/home/runner/work/_temp/visible-larger-research-45909290354-1/research/axisymmetric-R690-reference-v2-first/locations.json",
+          "sha256": "a500f439f3c6b303f95c5d24aa39487304f228072391cd6d1003299b9d9a356d",
+          "bytes": 106450
+        },
+        {
+          "path": "/home/runner/work/_temp/visible-larger-research-45909290354-1/research/axisymmetric-R690-reference-v2-first/supplied-location-provenance.json",
+          "sha256": "2a536f54bf3e41d10797f8706837f813871cd8c7cc755421a6bb1dd7936cc983",
+          "bytes": 223619
+        }
+      ],
+      "missing_outputs": [],
+      "summary_errors": [],
+      "original_complete_step_sha256": "1ca1d1fc391831126ba49a20b0f7166d2efee95332fd56cd193d368444805626"
+    },
+    {
+      "stage": 3,
+      "step_id": "restore-actual-run05-complete-carrier-2397-leaves-20261126-07",
+      "state": "completed",
+      "returncode": 0,
+      "seconds": 394.008481672,
+      "source_commit": "40f73dbacdd18bab36cda4cd6b421a1d1b917694",
+      "source_sha256": "ef67425800ae9de626a7f8f48fd89deb125fbf0e4d6af72cf79741d1e254664e",
+      "parent_sha256": "e435343954ed3c9fd2617e36185a1e0a71213cc6b432eb94578066954930c5db",
+      "complete_actual_command": [
+        "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python",
+        "-u",
+        "/home/runner/work/_temp/visible-larger-research-45909290354-1/followup-sources/0002-7277ab849cee-40f73dbacdd1/topics/visible-flex-larger-amplitude/scripts/resume_20261126/restore_actual_run05_observation_carrier.py",
+        "--repo",
+        "/home/runner/work/_temp/visible-larger-research-45909290354-1/followup-sources/0002-7277ab849cee-40f73dbacdd1",
+        "--warm-bundle",
+        "/home/runner/work/_temp/visible-larger-research-45909290354-1/research/fullclosed_solver/data/fullclosed-hold-warm.npz",
+        "--node-report",
+        "/home/runner/work/_temp/visible-larger-research-45909290354-1/research/fullclosed_solver/data/fullclosed-hold-warm.json",
+        "--scalar-input",
+        "/home/runner/work/_temp/visible-larger-research-45909290354-1/research/fullclosed_solver/data/pulse-a5-complete-base.json.gz",
+        "--current-carrier",
+        "/home/runner/work/_temp/visible-larger-research-45909290354-1/research/axisymmetric-R690-reference-v2-first/observations.npz",
+        "--current-reference-report",
+        "/home/runner/work/_temp/visible-larger-research-45909290354-1/research/axisymmetric-R690-reference-v2-first/report.json",
+        "--historical-public-record",
+        "/home/runner/work/_temp/visible-larger-research-45909290354-1/followup-sources/0002-7277ab849cee-40f73dbacdd1/topics/visible-flex-larger-amplitude/notes/2026-11-26-public-actions-45870334713-1-part-001.md",
+        "--current-public-record",
+        "/home/runner/work/_temp/visible-larger-research-45909290354-1/followup-sources/0002-7277ab849cee-40f73dbacdd1/topics/visible-flex-larger-amplitude/notes/2026-11-26-public-actions-45909290354-1-part-001.md",
+        "--outdir",
+        "/home/runner/work/_temp/visible-larger-research-45909290354-1/research/run05-actual-observation-carrier-restored"
+      ],
+      "output_records": [
+        {
+          "path": "/home/runner/work/_temp/visible-larger-research-45909290354-1/research/run05-actual-observation-carrier-restored/report.json",
+          "sha256": "926db461a4efce0fa40ab539b9df28143f8664cca25ec96e95ebe1d7aa83dcdf",
+          "bytes": 19691
+        },
+        {
+          "path": "/home/runner/work/_temp/visible-larger-research-45909290354-1/research/run05-actual-observation-carrier-restored/run05-observations-restored.npz",
+          "sha256": "dc5ffc55ecc4478d265bbad6e8f2abcf672709d99365e14ead01478a4042e7d0",
+          "bytes": 227202
+        },
+        {
+          "path": "/home/runner/work/_temp/visible-larger-research-45909290354-1/research/run05-actual-observation-carrier-restored/material-envelope-carrier-binding.json",
+          "sha256": "aaa65a5ecac807e97cf771a08dd57d2ac26b48adf6acc9592025c0c706581c8e",
+          "bytes": 1537
+        }
+      ],
+      "missing_outputs": [],
+      "summary_errors": [
+        {
+          "report": "run05-actual-observation-carrier-restored/report.json",
+          "field": "failure.type",
+          "error": "'failure'"
+        },
+        {
+          "report": "run05-actual-observation-carrier-restored/report.json",
+          "field": "failure.message",
+          "error": "'failure'"
+        }
+      ],
+      "original_complete_step_sha256": "9d8c97ddebf6fa2ee3d57d6e252bbed442feca7e933c44e54f049130f9dbbad6"
+    }
+  ],
+  "complete_original_steps": [
+    {
+      "id": "independent-axisymmetric-R690-reference-prepare-v2-first-20261126-07",
+      "script": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/so3_axisymmetric_reference.py",
+      "parent_bundle": "fullclosed_solver/data/fullclosed-hold-warm.npz",
+      "args": [
+        "--repo",
+        "{repo}",
+        "--warm-bundle",
+        "{work}/fullclosed_solver/data/fullclosed-hold-warm.npz",
+        "--node-report",
+        "{work}/fullclosed_solver/data/fullclosed-hold-warm.json",
+        "--scalar-input",
+        "{work}/fullclosed_solver/data/pulse-a5-complete-base.json.gz",
+        "--manifest",
+        "{repo}/topics/visible-flex-larger-amplitude/scripts/resume_20261120/a04_historical_location_seeds.json",
+        "--angles",
+        "2048",
+        "--seed-integration-order",
+        "8",
+        "--panels",
+        "128",
+        "--scalar-admission-seconds",
+        "300",
+        "--scalar-integral-tolerance",
+        "1e-18",
+        "--scalar-tail-cutoff",
+        "1/8",
+        "--outdir",
+        "{work}/axisymmetric-R690-reference-v2-first"
+      ],
+      "outputs": [
+        "axisymmetric-R690-reference-v2-first/report.json",
+        "axisymmetric-R690-reference-v2-first/reference.npz",
+        "axisymmetric-R690-reference-v2-first/observations.npz",
+        "axisymmetric-R690-reference-v2-first/locations.json",
+        "axisymmetric-R690-reference-v2-first/supplied-location-provenance.json"
+      ],
+      "summary": {
+        "axisymmetric-R690-reference-v2-first/report.json": {
+          "schema": "schema",
+          "source_sha256": "source_sha256",
+          "source_commit": "source_commit",
+          "complete": "complete",
+          "reference": "input_for_solver.reference_bundle.sha256",
+          "carrier": "input_for_solver.carrier.sha256",
+          "node": "input_for_solver.node_report.sha256",
+          "scalar_input": "input_for_solver.scalar_input.sha256",
+          "original_warm": "old_warm_bundle.sha256",
+          "model": "reference_model_identity_sha256",
+          "fixed_profile": "fixed_scalar_metric_identity_sha256",
+          "scalar_parameters": "original_scalar_parameters_identity_sha256",
+          "N": "N",
+          "M": "M",
+          "J": "J",
+          "P": "P",
+          "new_height": "new_height",
+          "warm_height": "original_warm_height",
+          "radius": "reference_definition.radius_carrier_hex",
+          "radius_error": "reference_definition.radius_error_upper",
+          "scalar_tolerance_reached": "true_scalar.requested_integral_accuracy_reached",
+          "scalar_width_exact": "true_scalar.integral_enclosure_width_exact",
+          "scalar_leaves": "true_scalar.integral_leaves",
+          "scalar_complete_tail": "complete_scalar_tail_included",
+          "T0_actual_queries": "whole_unit_meridian_law.actual_new_scalar_queries",
+          "locations": "new_locations.sha256",
+          "ordered_provenance": "complete_supplied_location_provenance.sha256",
+          "old_q_used": "optimized_old_q_field_read_as_T0",
+          "old_directions_replayed": "historical_nonlinear_directions_replayed",
+          "physical_field_already_read": "complete_same_field_metric_or_geometry_read",
+          "old_certificates": "old_certificates_inherited",
+          "seconds": "seconds",
+          "T0_b_error": "whole_unit_meridian_law.maximum_four_scalar_carrier_errors.0",
+          "T0_c_error": "whole_unit_meridian_law.maximum_four_scalar_carrier_errors.1",
+          "T0_bs_error": "whole_unit_meridian_law.maximum_four_scalar_carrier_errors.2",
+          "T0_cs_error": "whole_unit_meridian_law.maximum_four_scalar_carrier_errors.3",
+          "history_curvature_numeric_tuples": "exact_location_summary.curvature_numeric_tuples",
+          "history_radius_numeric_tuples": "exact_location_summary.radius_numeric_tuples",
+          "history_protected_curvature_numeric_tuples": "exact_location_summary.protected_curvature_numeric_tuples",
+          "history_pending_grid_numeric_tuples": "exact_location_summary.pending_grid_numeric_tuples",
+          "history_recorded_position_occurrences": "exact_location_summary.recorded_position_occurrences",
+          "history_distinct_binary_locations_decimal_rounded": "exact_location_summary.distinct_binary_locations_decimal_rounded"
+        }
+      },
+      "scope": "Complete necessary warm/reference input construction for independent public run07, using the identical whole 4e source, original scientific argv, all 1845 legacy and 5532 Gauss observations, M160/J923/N2048, exact original scalar/nodes and all eleven supplied original history payloads. All original protected/location provenance is retained. No optimized prior field or unreturned seed19 report is fabricated. Actual bytes and exact target definition are re-bound; this bootstrap does not waive applicable later same-target history or claim a new mathematical g merely from metadata changes.",
+      "reconstruction_source": {
+        "complete_original_object_archive": "topics/visible-flex-larger-amplitude/computations/resume-20261126-run05-returned-steps-archive-001.json",
+        "complete_original_archive_sha256": "36399e5355fc5778d43092a316ffff6c05e256b02d16330124b581860d6e2829",
+        "complete_original_object_index": 0,
+        "complete_original_step_id": "independent-axisymmetric-R690-reference-prepare-v2-first-20261126-05",
+        "scientific_fields_unchanged": [
+          "script",
+          "parent_bundle",
+          "args",
+          "outputs",
+          "summary"
+        ],
+        "old_values_or_certificates_inherited": false
+      }
+    },
+    {
+      "id": "restore-actual-run05-complete-carrier-2397-leaves-20261126-07",
+      "script": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/restore_actual_run05_observation_carrier.py",
+      "parent_bundle": "axisymmetric-R690-reference-v2-first/reference.npz",
+      "args": [
+        "--repo",
+        "{repo}",
+        "--warm-bundle",
+        "{work}/fullclosed_solver/data/fullclosed-hold-warm.npz",
+        "--node-report",
+        "{work}/fullclosed_solver/data/fullclosed-hold-warm.json",
+        "--scalar-input",
+        "{work}/fullclosed_solver/data/pulse-a5-complete-base.json.gz",
+        "--current-carrier",
+        "{work}/axisymmetric-R690-reference-v2-first/observations.npz",
+        "--current-reference-report",
+        "{work}/axisymmetric-R690-reference-v2-first/report.json",
+        "--historical-public-record",
+        "{repo}/topics/visible-flex-larger-amplitude/notes/2026-11-26-public-actions-45870334713-1-part-001.md",
+        "--current-public-record",
+        "{repo}/topics/visible-flex-larger-amplitude/notes/2026-11-26-public-actions-45909290354-1-part-001.md",
+        "--outdir",
+        "{work}/run05-actual-observation-carrier-restored"
+      ],
+      "outputs": [
+        "run05-actual-observation-carrier-restored/report.json",
+        "run05-actual-observation-carrier-restored/run05-observations-restored.npz",
+        "run05-actual-observation-carrier-restored/material-envelope-carrier-binding.json"
+      ],
+      "summary": {
+        "run05-actual-observation-carrier-restored/report.json": {
+          "schema": "schema",
+          "source_sha256": "source_sha256",
+          "source_commit": "source_commit",
+          "complete": "complete",
+          "full_original_carrier_sha_match": "full_original_carrier_sha_match",
+          "current_radial_addresses_identical": "current_and_original_material_radial_addresses_byte_identical",
+          "candidate_carrier": "restored_carrier_candidate.sha256",
+          "candidate_bytes": "restored_carrier_candidate.bytes",
+          "original_leaves": "scalar_reconstruction.original_live_leaves",
+          "actual_leaves": "scalar_reconstruction.actual_live_leaves",
+          "actual_evaluated_leaves": "scalar_reconstruction.actual_evaluated_leaves",
+          "uncertainty_exact": "scalar_reconstruction.integral_uncertainty_exact",
+          "original_uncertainty_exact": "scalar_reconstruction.recorded_integral_uncertainty_exact",
+          "profile": "scalar_reconstruction.reconstructed_profile_identity_sha256",
+          "same_scalar_parameters": "source_and_parameter_binding.complete_scalar_parameters_sha256",
+          "nodes": "source_and_parameter_binding.exact_symbolic_nodes_sha256",
+          "original_cells": "complete_plan_array_comparison.observation_cells.original.sha256",
+          "current_cells": "complete_plan_array_comparison.observation_cells.current.sha256",
+          "cells_equal": "complete_plan_array_comparison.observation_cells.byte_identical",
+          "original_u": "complete_plan_array_comparison.observation_u.original.sha256",
+          "current_u": "complete_plan_array_comparison.observation_u.current.sha256",
+          "u_equal": "complete_plan_array_comparison.observation_u.byte_identical",
+          "original_gauss": "complete_plan_array_comparison.observation_gauss_unit_nodes.original.sha256",
+          "current_gauss": "complete_plan_array_comparison.observation_gauss_unit_nodes.current.sha256",
+          "gauss_equal": "complete_plan_array_comparison.observation_gauss_unit_nodes.byte_identical",
+          "binding": "material_envelope_binding_file.sha256",
+          "F": "scientific_scope.physical_field_evaluations",
+          "J": "scientific_scope.Jacobian_evaluations",
+          "roots": "scientific_scope.root_evaluations",
+          "seconds": "seconds",
+          "failure_type": "failure.type",
+          "failure_message": "failure.message",
+          "original_gauss_0": "actual_original_gauss_unit_nodes_hex.0",
+          "current_gauss_0": "actual_current_gauss_unit_nodes_hex.0",
+          "original_gauss_1": "actual_original_gauss_unit_nodes_hex.1",
+          "current_gauss_1": "actual_current_gauss_unit_nodes_hex.1",
+          "original_gauss_2": "actual_original_gauss_unit_nodes_hex.2",
+          "current_gauss_2": "actual_current_gauss_unit_nodes_hex.2",
+          "original_gauss_3": "actual_original_gauss_unit_nodes_hex.3",
+          "current_gauss_3": "actual_current_gauss_unit_nodes_hex.3",
+          "original_gauss_4": "actual_original_gauss_unit_nodes_hex.4",
+          "current_gauss_4": "actual_current_gauss_unit_nodes_hex.4",
+          "original_gauss_5": "actual_original_gauss_unit_nodes_hex.5",
+          "current_gauss_5": "actual_current_gauss_unit_nodes_hex.5"
+        }
+      },
+      "scope": "New explicit recorded-count input controller; all original scalar mathematics, plan members and container construction are preserved. Current files keep their actual identities; old scalar/node files are not fabricated. Acceptance requires complete old NPZ SHA dc5ffc55... and 227202 bytes; failures preserve their report and do not establish old address identity. Whole history/envelope policy remains the independent later consumer's responsibility."
+    }
+  ],
+  "original_pending_step_identities": [
+    {
+      "original_followup_index": 2,
+      "id": "complete-material-envelope-cached-normal-first-20261126-07",
+      "complete_object_sha256": "9225def2337bbe95b70c96bd94f1d819f4e2aadf39606b625414f6c3ea7d5284"
+    },
+    {
+      "original_followup_index": 3,
+      "id": "actual-material-envelope-cached-normal-first-20261126-07",
+      "complete_object_sha256": "c441c849262606bb57c4b9ce71282ddfb106718f2153291af12fe0a06cabd91c"
+    },
+    {
+      "original_followup_index": 4,
+      "id": "all-actual-material-envelope-seed-batches-complete-mean-profile-fees-first-20261127-07",
+      "complete_object_sha256": "cc3c8bc78e0b560d238b802f0100b0ee0f547281424a2ac519c2b3307b2d1db7"
+    },
+    {
+      "original_followup_index": 5,
+      "id": "complete-material-envelope-reference-node-four-jet-fees-first-20261127-07",
+      "complete_object_sha256": "4b992a975702e5cc1c9c58682d937f72ae9a496d4d9d7bc6d16493afc24e9e6f"
+    }
+  ],
+  "numeric_outputs_recomputed_here": false,
+  "raw_scientific_arrays_or_large_reports_copied": false,
+  "any_pending_result_assumed": false,
+  "source_or_parameter_omitted": false,
+  "controller_actual_journal_modified": false
+}
