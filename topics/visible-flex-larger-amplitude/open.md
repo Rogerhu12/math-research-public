@@ -116,3 +116,6 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 [R723方向流支撑](results/R723-directional-normal-flow-support-reach.md)证明全管半径min(inf s/(nᵀAn),1/K)、全平行面严格排序及共同β/两有理帽约束。新的完整独立消费者与R716兼容入口在接；不能冒旧八角色已过或消除真实曲率违反。R718仍需标记面真实σ，R716仍需独立无标记管、正V和非零中心不变量。
 
 实际全五t、三级空间/频率/时间/完整网格仍须同g同参数执行。final需全13件，packet需immutable required-angle全快照且可为trial，不冒accepted/final/restart。raw只runner；保全源码/配方和实际身份。[ret52](notes/2026-11-27-legacy-derived-grid-recovery-retention-52.md)/ret51及旧台账只退可精确Git恢复的旧derived，全部原源/输入/参数/失败未知保。README标准未达；时长、阶段和输入困难均非终点。
+
+
+18第一restoration实际接受（22:37:27.185016）：current7d0d/accepted1/完整有限geometry，Phi4954.694898882503/Gram.6374164670510036/g2.0476206814786773。reach降而distplus略升至.11871831669889943，二者仍正；其余四族负，完整原六值与原观察保[18实录](notes/2026-11-27-run18-complete-producer-binding-repair-and-continuation.md)。不从近同17数值推同点/结果，科学/最终13件未返。

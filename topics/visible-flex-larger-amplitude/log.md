@@ -254,3 +254,8 @@
 ### 2026-11-27 22:51 UTC — 17 第二次 restoration 真实接受
 
 固定云读17561514e3a4b718bc1a0dd7ad084c82e5a0406f原index18152B，真实事件22:43:01.923124、point b0468、model f2e417、accepted2/current complete geometry=true、Phi4954.618769180181/Gram.6374150628738999/g2.0460148700803895。原accepted1点g2.04762068147831；当前违反仍正，完整科学/最终场未返，不从点变化或Phi推断成功。全原进度/身份追加[17实录](notes/2026-11-27-run17-wide-seed-actual-mathematics.md)。open29788B全字归档到[原文](notes/2026-11-27-open-through-run19-complete-postparameters.md)，§1–6保原字，完整来源/参数/失败未知不丢。
+
+
+### 2026-11-27 22:52 UTC — 18 第一恢复方向真实接受
+
+17561514固定index22836B真示22:37:27.185016 current-geometry-returned：model9ec211/current7d0d，accepted1、trial true、complete有限geometry，Phi4954.694898882503/Gram.6374164670510036/g2.0476206814786773。current六signed g与last_completed_trial同点/同g/maximum_families reach全部保存到[18完整note](notes/2026-11-27-run18-complete-producer-binding-repair-and-continuation.md)。reach比初下降、distplus略升且仍正，原最大违反接受规则不要求各族逐一下降；完整科学/连续证书/final13未返，未公开alpha/QP不猜，也不借17近同值补结论。
