@@ -1,15 +1,15 @@
 {
-  "message": "ISP: introduce original polynomial v coordinates and head-free H1 norm inputs",
-  "parentCommit": "da70e3ee57c4e10885365342139e7c972f42fa19",
+  "message": "ISP: obtain a complete entire-W original necessary weight curve of total degree 164",
+  "parentCommit": "084913a27ff7cb01fa36c301f7f6965de16d2717",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-H1-polynomial-v-source-scaled-matrices-fixed-norm-input-8542.py",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-H1-polynomial-v-first-input-8542.md",
-    ".github/workflows/invariant-subspace-8542-phi-h1-original-v-polynomial-norms.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-Phi-H1-original-v-input-8542.md",
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-W-entire-original-native-NSPS-necessary-weight-curve.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-entire-native-NSPS-y-t-fixed-six-original-determinant-8542-receipt.json",
+    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-W-whole-native-weight-curve-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-W-whole-native-weight-curve-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -18,7 +18,5 @@
     ".github/workflows/invariant-subspace-8542-root-terminal-publication.yml",
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
-  "dispatchWorkflows": [
-    "invariant-subspace-8542-phi-h1-original-v-polynomial-norms.yml"
-  ]
+  "dispatchWorkflows": []
 }

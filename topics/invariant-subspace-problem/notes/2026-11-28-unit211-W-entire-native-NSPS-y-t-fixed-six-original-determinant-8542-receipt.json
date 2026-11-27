@@ -1,0 +1,490 @@
+{
+  "schema": "isp-entire-original-necessary-weight-curve-v1",
+  "date": "2026-11-28 Asia/Taipei",
+  "session": "Astra-ISP-8542378f-20261127",
+  "source": "notes/2026-11-28-unit211-W-entire-native-NSPS-y-t-fixed-six-original-determinant-8542.py",
+  "run_id": 46068841943,
+  "job_id": 140740627266,
+  "actual_driver": {
+    "elapsed_seconds": 95.890604382,
+    "max_child_rss_kib": 244388,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "8b8da559c05cb1fb48d98f6b53daaf8fe0d321a3",
+        "before": "8b8da559c05cb1fb48d98f6b53daaf8fe0d321a3",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-27T21:13:25.322959+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46068841943",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "8b8da559c05cb1fb48d98f6b53daaf8fe0d321a3",
+    "source_exit_code": 0,
+    "source_git_blob": "0d890247f59056395abfc41927b9b8f42b3cbafe",
+    "source_sha256": "eca419501bf348518fe4f36582d417784235cc7c35872f1a1eb180c88b1e537d",
+    "stdout_bytes": 9923,
+    "stdout_sha256": "f7ed50f309f0d4c72ef34eb510004c45cd18e4945384c69f36f66e1e99d16ec6",
+    "stop_reason": null
+  },
+  "paid_interface": {
+    "stage": "new_entire_W_original_native_six_rule_interface",
+    "oldSourceSHA256": "10720660772a9a1252b905b1227b697e038d1b974b7e96ec30e485477b21d3f1",
+    "executedNecessaryPrefixSHA256": "c09268d1b0d4b21f565600b8d51fa13e493dd1aeb6628d5b0acceb9d1a6ffd22",
+    "oldCommGaussianAndParameterCofactorTailExecuted": false,
+    "actualQuadraticHeadPayment": [
+      [
+        "e",
+        2
+      ],
+      [
+        "k",
+        1
+      ],
+      [
+        "u",
+        2
+      ],
+      [
+        "distinct_p_q",
+        1
+      ],
+      [
+        "W_paid_leading",
+        1
+      ],
+      [
+        "bc",
+        2
+      ],
+      [
+        "whole_equal_weights_k_plus_two",
+        1
+      ],
+      [
+        "whole_original_J19",
+        1
+      ]
+    ],
+    "actualCubicNumeratorPayment": [
+      [
+        "e",
+        3
+      ],
+      [
+        "k",
+        2
+      ],
+      [
+        "distinct_p_q",
+        1
+      ],
+      [
+        "Phi",
+        1
+      ],
+      [
+        "previous_complete_H_zero",
+        1
+      ],
+      [
+        "whole_original_C9",
+        1
+      ]
+    ],
+    "actualCubicDenominatorPayment": [
+      [
+        "W_paid_leading",
+        1
+      ],
+      [
+        "whole_original_J19",
+        1
+      ]
+    ],
+    "sixCompleteOriginalRuleProductsReturned": true,
+    "eighteenCompleteOriginalMultiplicationProductsReturned": true,
+    "allDenominatorsPaidOnEntireCurrentW": true,
+    "H265NotInverted": true,
+    "wholeH265ZeroCurveIncluded": true,
+    "basis": "1,x,y,t,y^2,y*t",
+    "matrixOrientation": "M_axis*v=axis*v modulo original equations",
+    "sixGeneratorFreenessNotAssumed": true,
+    "ordinaryISPClaim": false,
+    "seconds": 6.007710646
+  },
+  "row_definitions": [
+    "NS",
+    "PS",
+    "y*NS",
+    "t*NS",
+    "y*PS",
+    "t*PS"
+  ],
+  "row_profiles": [
+    {
+      "label": "NS",
+      "maximumDegrees": [
+        29,
+        37
+      ],
+      "totalTerms": 4346,
+      "denominator": {
+        "degrees": [
+          22,
+          33
+        ],
+        "totalDegree": 46,
+        "terms": 499,
+        "bytes": 10423,
+        "sha256": "a2abc79a2673524293b8a3f7bce651e6d03c8769d89a2eacc4ab356d1c5916cf"
+      },
+      "paidContent": {
+        "degrees": [
+          0,
+          0
+        ],
+        "totalDegree": 0,
+        "terms": 1,
+        "bytes": 11,
+        "sha256": "106d3a5dc6ba0d1881534666347d39374409a958529f6b2e1731b5b905a39af0"
+      },
+      "seconds": 9.023647668000002
+    },
+    {
+      "label": "PS",
+      "maximumDegrees": [
+        29,
+        37
+      ],
+      "totalTerms": 4340,
+      "denominator": {
+        "degrees": [
+          22,
+          33
+        ],
+        "totalDegree": 46,
+        "terms": 499,
+        "bytes": 10423,
+        "sha256": "a2abc79a2673524293b8a3f7bce651e6d03c8769d89a2eacc4ab356d1c5916cf"
+      },
+      "paidContent": {
+        "degrees": [
+          0,
+          0
+        ],
+        "totalDegree": 0,
+        "terms": 1,
+        "bytes": 11,
+        "sha256": "106d3a5dc6ba0d1881534666347d39374409a958529f6b2e1731b5b905a39af0"
+      },
+      "seconds": 9.095213799
+    },
+    {
+      "label": "y*NS",
+      "maximumDegrees": [
+        37,
+        49
+      ],
+      "totalTerms": 7092,
+      "denominator": {
+        "degrees": [
+          28,
+          45
+        ],
+        "totalDegree": 61,
+        "terms": 845,
+        "bytes": 20593,
+        "sha256": "83d3f60c0edda3b3764e5659232b52b511a23c45c27f661c59c0a4953be5ddce"
+      },
+      "paidContent": {
+        "degrees": [
+          0,
+          0
+        ],
+        "totalDegree": 0,
+        "terms": 1,
+        "bytes": 11,
+        "sha256": "106d3a5dc6ba0d1881534666347d39374409a958529f6b2e1731b5b905a39af0"
+      },
+      "seconds": 9.321253118000001
+    },
+    {
+      "label": "t*NS",
+      "maximumDegrees": [
+        41,
+        54
+      ],
+      "totalTerms": 8944,
+      "denominator": {
+        "degrees": [
+          32,
+          49
+        ],
+        "totalDegree": 67,
+        "terms": 1114,
+        "bytes": 29439,
+        "sha256": "ccde17b08b1f8b325a780a440f80063ecb013033165a2dd04cc3a5b2a3860566"
+      },
+      "paidContent": {
+        "degrees": [
+          0,
+          0
+        ],
+        "totalDegree": 0,
+        "terms": 1,
+        "bytes": 11,
+        "sha256": "106d3a5dc6ba0d1881534666347d39374409a958529f6b2e1731b5b905a39af0"
+      },
+      "seconds": 9.713768823999999
+    },
+    {
+      "label": "y*PS",
+      "maximumDegrees": [
+        37,
+        49
+      ],
+      "totalTerms": 7086,
+      "denominator": {
+        "degrees": [
+          28,
+          45
+        ],
+        "totalDegree": 61,
+        "terms": 845,
+        "bytes": 20593,
+        "sha256": "83d3f60c0edda3b3764e5659232b52b511a23c45c27f661c59c0a4953be5ddce"
+      },
+      "paidContent": {
+        "degrees": [
+          0,
+          0
+        ],
+        "totalDegree": 0,
+        "terms": 1,
+        "bytes": 11,
+        "sha256": "106d3a5dc6ba0d1881534666347d39374409a958529f6b2e1731b5b905a39af0"
+      },
+      "seconds": 9.939569419000001
+    },
+    {
+      "label": "t*PS",
+      "maximumDegrees": [
+        41,
+        54
+      ],
+      "totalTerms": 8944,
+      "denominator": {
+        "degrees": [
+          32,
+          49
+        ],
+        "totalDegree": 67,
+        "terms": 1114,
+        "bytes": 29439,
+        "sha256": "ccde17b08b1f8b325a780a440f80063ecb013033165a2dd04cc3a5b2a3860566"
+      },
+      "paidContent": {
+        "degrees": [
+          0,
+          0
+        ],
+        "totalDegree": 0,
+        "terms": 1,
+        "bytes": 11,
+        "sha256": "106d3a5dc6ba0d1881534666347d39374409a958529f6b2e1731b5b905a39af0"
+      },
+      "seconds": 10.330000915
+    }
+  ],
+  "matrix": {
+    "stage": "new_entire_W_native_NSPS_fixed_six_order_original_input",
+    "rowDefinitions": [
+      "NS",
+      "PS",
+      "y*NS",
+      "t*NS",
+      "y*PS",
+      "t*PS"
+    ],
+    "matrixDefinition": {
+      "bytes": 1728830,
+      "sha256": "e5b3bc078fecd6d472d62bcba5ec831e10a2f88a8feaf51beb15ba816a9da9cf"
+    },
+    "exactValueColumn": "v=(1,x,y,t,y^2,y*t)^t",
+    "actualIdentity": "M*v=0 at every original point and v[0]=1",
+    "allSixOriginalRowProductsReturned": true,
+    "noFreeAlgebraOrCommutativityAssumption": true,
+    "allCurrentWIncludingH265ZeroCovered": true,
+    "noOriginalWPointExcludedYet": true,
+    "seconds": 10.527643947000001
+  },
+  "bareiss": [
+    {
+      "stage": "new_native_fixed_determinant_exact_polynomial_step",
+      "step": 0,
+      "actualDivisionProducts": 25,
+      "trailingMaximumDegrees": [
+        67,
+        91
+      ],
+      "trailingTotalTerms": 91118,
+      "parameterPivotZeroFibresNotDeleted": true,
+      "seconds": 10.842620335
+    },
+    {
+      "stage": "new_native_fixed_determinant_exact_polynomial_step",
+      "step": 1,
+      "actualDivisionProducts": 41,
+      "trailingMaximumDegrees": [
+        93,
+        125
+      ],
+      "trailingTotalTerms": 118138,
+      "parameterPivotZeroFibresNotDeleted": true,
+      "seconds": 14.114529490000002
+    },
+    {
+      "stage": "new_native_fixed_determinant_exact_polynomial_step",
+      "step": 2,
+      "actualDivisionProducts": 50,
+      "trailingMaximumDegrees": [
+        127,
+        172
+      ],
+      "trailingTotalTerms": 126694,
+      "parameterPivotZeroFibresNotDeleted": true,
+      "seconds": 28.25137532
+    },
+    {
+      "stage": "new_native_fixed_determinant_exact_polynomial_step",
+      "step": 3,
+      "actualDivisionProducts": 54,
+      "trailingMaximumDegrees": [
+        163,
+        223
+      ],
+      "trailingTotalTerms": 94093,
+      "parameterPivotZeroFibresNotDeleted": true,
+      "seconds": 61.860168720999994
+    },
+    {
+      "stage": "new_native_fixed_determinant_exact_polynomial_step",
+      "step": 4,
+      "actualDivisionProducts": 55,
+      "trailingMaximumDegrees": [
+        195,
+        268
+      ],
+      "trailingTotalTerms": 34516,
+      "parameterPivotZeroFibresNotDeleted": true,
+      "seconds": 92.224477794
+    }
+  ],
+  "necessary_curve": {
+    "stage": "new_entire_W_native_original_NSPS_weight_necessary_polynomial",
+    "fullDeterminant": {
+      "degrees": [
+        195,
+        268
+      ],
+      "totalDegree": 366,
+      "terms": 34516,
+      "bytes": 3653552,
+      "sha256": "0d2deb915985d0a4688add35a1caada7075eebbfe009c232072dd7fb2d81e8f1"
+    },
+    "necessaryRemainingWeightPolynomial": {
+      "degrees": [
+        97,
+        123
+      ],
+      "totalDegree": 164,
+      "terms": 8472,
+      "bytes": 511382,
+      "sha256": "fdc5b144942e1baa0223b7aa437e4484f59ab694702e29878c7f848b8e2c52c6"
+    },
+    "exactParameterDefinition": "paid primitive fixed determinant of NS,PS,yNS,tNS,yPS,tPS in the frozen C9 original basis",
+    "allPaidStrippingProductsReturned": true,
+    "paidRemoved": [
+      [
+        "e",
+        11
+      ],
+      [
+        "k",
+        5
+      ],
+      [
+        "u",
+        3
+      ],
+      [
+        "distinct_p_q",
+        11
+      ],
+      [
+        "W_paid_leading",
+        3
+      ],
+      [
+        "Phi",
+        7
+      ],
+      [
+        "P02",
+        6
+      ],
+      [
+        "bc",
+        6
+      ],
+      [
+        "whole_equal_weights_k_plus_two",
+        15
+      ],
+      [
+        "whole_original_J19",
+        8
+      ],
+      [
+        "whole_original_C9",
+        7
+      ]
+    ],
+    "allCurrentWIncludingH265ZeroCovered": true,
+    "instantaneousPivotZeroFibresRetainedByPolynomialIdentity": true,
+    "wholeCurrentWExcluded": false,
+    "noSquarefreeOrRadicalClaim": true,
+    "ordinaryISPClaim": false,
+    "seconds": 95.831038077
+  },
+  "finished": {
+    "stage": "new_entire_W_native_original_NSPS_fixed_input_finished",
+    "sourceSHA256": "eca419501bf348518fe4f36582d417784235cc7c35872f1a1eb180c88b1e537d",
+    "actualDeterminantReturned": true,
+    "determinantNonzero": true,
+    "actualExactDivisionProducts": 55,
+    "noOldFrozenFailedGateReplayed": true,
+    "noEncodedOrChunkedDataOrRecomputableMatrixCacheWritten": true,
+    "peakRssKiB": 244388,
+    "ordinaryISPClaim": false,
+    "seconds": 95.831201017
+  },
+  "scope": {
+    "whole_current_W": true,
+    "H265_zero_included": true,
+    "all_instantaneous_pivot_zero_fibres_retained": true,
+    "new_curve_nonzero": true,
+    "irreducibility_claim": false,
+    "squarefree_claim": false,
+    "finite_weight_count_claim": false,
+    "whole_W_excluded": false
+  },
+  "retention": "No coefficient payload, chunk, cache or recomputable certificate artifact. The fixed original matrix and ordered paid normalization are the exact parameter definition."
+}
