@@ -78,3 +78,5 @@
 - [R1032](../results/R1032-saturated-three-torsion-beta-and-complete-thirtynine-return.md)：新特征零β=X/(X+4)的完整39支保持原中央K=5s−2；末两窗全Lucas饱和β^(p²)，实际δ-old/new分别返g与rS^(p²)T_S^130G，消去共同Fp槽。原H_G为固定整degree130源，even/odd全型保留且odd图单射。新增±S主部、全部原点留数/两exact/aZ与九维第三Cartier边界齐；真实四阶G极费和最后四b补项明确保留。旧/新差的1+Kp只在native O平坦，未把合法表示或裸单位当作canonical forcing。
 
 - [R1033](../results/R1033-complete-residue-and-thick-projector-hermite-return.md)：原剩余映射用右端独立行给完整多项式核；原厚幂等商保所有nilpotent，以后缀Krylov给完整Hermite并实际验H=CI+H(1−e)双包含。新helper/外层/host只替原两个理想构造器，保v9全部原门和52源；仅文本/AST/哈希，未数学执行，未激活请求或打断唯一v9。
+
+- [R1034](../results/R1034-double-height-central-reader-and-saturated-beta-pair.md)：R1034将同一char0全39比较扩至H=2p−11/2p−5，真正K>p；两β权饱和β^(p²)/β^(2p²)，γ=3β²−2β消六三挠simple。原native P/Z整提升、整个物理M及R614/616/619两坏带与r=p第二C scalar全保；该页CM另排S极，C³原φ与顶系数是不同泛函。全Weyl cocycle给六极准确old双主部，只有canonical偶读者消odd，原cut/Ξ/高p位仍在。一般四阶后S第二C帽3/primitive3p−2，特殊r=p帽2按整体型用。实际Q†测试生成及确定λ unit迫零仍开。

@@ -40,7 +40,7 @@ R966/967的原12个2/3译像真中央零只覆盖δ-new指定线，真实cross �
 
 ## 第一实际门：原映射、全部厚除子与 shadow
 
-**唯一v9实际运行，尚无完整生产回执。** run45920983633/job140251398928/source1eeab95eb057de2b6ea6753ff9e36a18bd20bbd2，数学自01:10:41UTC，全部原参数/两char0 pins/两图七式四交18×9保持。06:29第七只读run45952136806/job140350212654取得原log31514035B/SHAeef3c1ab…ae0ff59；尾06:25:55在cubic branching负向/base-prime0/actual maximal ideal1抽Hermite138/306，原job仍in_progress，终点JSON空。R1033完整剩余核/厚projector Hermite新算法已证明并备源码/未激活请求；未运行或触发第二个重作业。先消费v9真实终态，再决定有实质改变的完整后继。
+**唯一v9已实际超时失败，尚无完整生产回执。** 唯一v9 run45920983633/job140251398928/source1eeab95eb057de2b6ea6753ff9e36a18bd20bbd2，数学01:10:41–07:00:41UTC实际21000s超时124；07:04实际API completed/failure，host明确pipeline incomplete、无数学PASS。07:05原collector run45956066676/job140362703513成功，但终态日志含runner控制标记使封装JSON首段被吞；保stdout14635B/SHA7034ac7b…a5b250，修正小检查workflow JSON转义后再次只读收取完整字节/hash。原49源/两char0 pins/Sage10.6/r29/q2453/batch64/minimal/两图七式四交18×9与21000s/360min全部保持；七快照在终点链。 R1033新后继尚未激活，先收完整终态。
 
 R909原F/R906§8原P、R924 TUV/DS204/36cusp/Y666/ys360、R925两正规化图306自由环及46971全产品、R926原cube/低权/maps、R927 e0/z96/dF1296均已有真实回执，不重算成新结论。原u/λ/vnew/微分/∞→O/返回17、三退化、omega/Artin(2,0,1)、Z02=Z/Z20=−Z全部保持。四交00/01/11/12、全厚闭点度数/长度/无穷边界/原Tate迹和18×9shadow待实际输出；每E真度39840，成本2256+r·dF或2256(r+1)不能模ell先缩。7993及固定ell有限shadow不代无穷p。
 
@@ -125,3 +125,7 @@ root独占git/H/open/log/index；每条结论即推，非快进立刻pull --reba
 ### R1021§10 的完整一阶测试门
 
 §10把同两条真实来源间算子降为一阶Q=2yD−9x²，完整24字保χ8与绝对2/15常数；实际adjoint为−2y(D+10G)−15x²，唯一曲率20Hcal^pZ^(p+9)x(X+1)与Rγ项准确匹配。原δ/π缩放、全13权与P10/Z保持，通用分部积分仍为恒等式，实际测试生成未付。 下一项须证明整个真实伴随测试属于同一高窗/原两canonical/合法平坦族的完整行；不允许单字、任意乘法或奇主部自行赋中央零。07:04UTC实际API已见唯一v9 completed/failure，现触发原collector完整终态读取；未启动新数学。
+
+### R1034 的同一高窗与不可删第二 Cartier
+
+R1034将同一char0全39比较扩至H=2p−11/2p−5，真正K>p；两β权饱和β^(p²)/β^(2p²)，γ=3β²−2β消六三挠simple。原native P/Z整提升、整个物理M及R614/616/619两坏带与r=p第二C scalar全保；该页CM另排S极，C³原φ与顶系数是不同泛函。全Weyl cocycle给六极准确old双主部，只有canonical偶读者消odd，原cut/Ξ/高p位仍在。一般四阶后S第二C帽3/primitive3p−2，特殊r=p帽2按整体型用。实际Q†测试生成及确定λ unit迫零仍开。 两合法权必须在同一完整M/全部低位精度中联立；不能把native顶系数、φ边界或canonical translated奇主部中的任一裸数直接当原中央零。下一步将R1021一阶Q†逐点保χ8/Miller/13权后实际生成，继续全27有权几何门。

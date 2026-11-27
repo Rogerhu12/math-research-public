@@ -62,7 +62,10 @@ jobs:
               if item.get("include_stdout"):
                   if len(result.stdout) > 60000:
                       raise RuntimeError("Requested report exceeds API text budget; keep hashes and request a smaller computed summary")
-                  print("RANK2_EXACT_STDOUT " + json.dumps({"script": str(script), "result": json.loads(result.stdout)}))
+                  # Preserve embedded log commands as JSON data, not runner commands.
+                  encoded = json.dumps({"script": str(script), "result": json.loads(result.stdout)})
+                  encoded = encoded.replace("##[", "\\u0023\\u0023[").replace("::", "\\u003a\\u003a")
+                  print("RANK2_EXACT_STDOUT " + encoded)
               records.append({"script": str(script), "script_sha256": hashlib.sha256((root / str(script)).read_bytes()).hexdigest(), "args": args, "engine": engine, "sha256": digest, "stdout_bytes": len(result.stdout), "exit_code": result.returncode})
           print("RANK2_PUBLIC_EXACT_CHECK " + json.dumps({"request_id": request["request_id"], "run_id": int(os.environ["GITHUB_RUN_ID"]), "source_commit": os.environ["GITHUB_SHA"], "checks": records, "outputs_persisted": False, "python_flint_version": request.get("python_flint_version")}))
           PY

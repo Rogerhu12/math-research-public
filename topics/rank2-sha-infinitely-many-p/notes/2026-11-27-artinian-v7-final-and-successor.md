@@ -182,3 +182,11 @@ collector run `45949222673`、job `140340910080`、source `5f2df4435c2d435598c30
 collector仍为11472 B/SHA256 34e10e38ceda6a5ff0c79f491461cbabd5d81bd629cf72b5b373279b11050a5d；实际stdout14049 B/SHA256 35045042e81ba48a0d81bb1d2aaf339c30ff5630b96acf09f7339a2618e8c8d3，exit0，outputs_persisted=false，mathematics_recomputed=false。请求id为2026-11-27-0631-original-v9-readonly-terminal-snapshot，实际回执时间如上；它不是数学完成回执。
 
 [R1033](../results/R1033-complete-residue-and-thick-projector-hermite-return.md)已证明原剩余核/整个厚projector的直接Hermite，并备新源码与未激活v10请求。旧活跃workflow/request均未改，未启动第二个重数学作业。唯一v9先运行到真正终态，之后消费完整终点再决定后继。
+
+## 15. v9 实际超时与首轮终态封装问题
+
+2026-11-27 07:04UTC实际API：原run45920983633/job140251398928已completed/failure。原数学步骤从01:10:41UTC至07:00:41UTC，终态片段明确exit124；host于07:00:41.1714982UTC报告 `pipeline incomplete; no mathematical PASS is asserted`。完整数学终点记录仍未见。
+
+本轮原只读collector run45956066676/job140362703513/source940e96154003a4e31a1c9fded4ac6453de62cc39于07:05:36UTC成功，script SHA34e10e38ceda6a5ff0c79f491461cbabd5d81bd629cf72b5b373279b11050a5d，stdout14635B/SHA7034ac7b27583354d9dcc5109bc82c167b0da9ee008a2efba0477c1c05a5b250，exit0、outputs_persisted=false。可是源日志的runner控制标记被小检查workflow重新解释，实际展示行的JSON前段被吞；所以不能由此补写尚未取得的原log字节数或hash。
+
+小检查workflow现仅把序列化JSON内 `##[`、`::` 分别转义为等价Unicode JSON字符，解析后内容完全相同；原输出hash仍按原stdout全部字节计算。原collector源码和数学均不变，再触发一次只读完整终态收取。v10尚未激活，不把失败/局部进度当四交、全厚Norm或shadow PASS。

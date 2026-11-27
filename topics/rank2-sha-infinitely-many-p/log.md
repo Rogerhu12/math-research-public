@@ -158,3 +158,6 @@ R1031§9–11显式原迹核登记：f*O−3P0的L误差因d偶数消掉，Frob�
 R1021§10登记原同两canonical的一阶Q及完整24字/13角色/实际δ缩放，精确伴随−15x²与唯一曲率匹配γ，通用积分抵消不充forcing。原四阶减60Q严格等于(D²−24x)(D²−30x)，只在实际UB上同作用。07:04UTC唯一v9实际job completed/failure；本提交触发原只读终态collector，完整终态尚待消费，未启动v10。最近公开实际pull857b15b316545926e5387b6bffd02864977dda6e，两README无变。
 
 2026-11-27 07:05 UTC：本条推送重试立即实际pull --rebase至07b6970d875376c8a3853b6df30531133bf9e154；根/课题README差异空，更新未发布提交后继续推送。
+
+2026-11-27 07:07 UTC / Astra-rank2-Sha-0b097461-20261127
+R1034登记真正H近2p且K>p的原39全精度、β/β²与γ、整native提升/全M/两坏带/第二C在r=p回填。完整六三挠Weyl主部保cocycle、绝对常数及全13权；odd主部只对canonical偶读者消，原cut/Ξ和所有高p位明确保留。r=p型特例与一般四阶S帽分别核清；Q†生成尚未付。v9实际超时124/failure，首轮只读collector成功但嵌入控制标记吞封装首段；小workflow只修JSON转义并再只读，不改任何数学或触发v10。H逐字归档。最近实际pull07b6970d875376c8a3853b6df30531133bf9e154（07:05UTC），两README无变。

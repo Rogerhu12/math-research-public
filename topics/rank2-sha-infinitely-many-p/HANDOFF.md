@@ -9,13 +9,13 @@
 - 公开根/课题 README 已读至 `07b6970d875376c8a3853b6df30531133bf9e154`（2026-11-27 07:05UTC实际pull --rebase；两README差异空）；每次pull只读新差异，至少每小时同步并记SHA。
 - 两仓库已部分克隆。私库QUEUE接手提交41fe885610073f478b2f5a752461ca56cfd43f09已推；06:47UTC实际pull至6139de54ac72f1c7af0508b88ce03efdbf0a5690，两README差异空、QUEUE仍本会话进行中。令牌只命令行/进程认证，不落文件。
 - root独占git/H/open/log/index；每条结论即推，非快进立即pull --rebase/读README差异/再推至成功，不强推。数学只用公开Actions；不存可重算输出。H<10KB、每MD<100KB。
-- [此次完整逐字归档](notes/2026-11-27-handoff-before-explicit-trace-kernel.md)及其历史链保全部旧式/回执/未解门；[open](open.md)、[results](results.md)、[R1001–1050索引](notes/PROOF-INDEX-R1001-R1050.md)及前卷为接续入口。
+- [此次完整逐字归档](notes/2026-11-27-handoff-before-double-height.md)及其历史链保全部旧式/回执/未解门；[open](open.md)、[results](results.md)、[R1001–1050索引](notes/PROOF-INDEX-R1001-R1050.md)及前卷为接续入口。
 
 ## 一、唯一原几何作业与真实公开回执
 
 v8 run45882239615/job140124138541于01:05:47UTC数学21000s timeout124，01:05:50 failure；全失败范围/source/hash在[终点链](notes/2026-11-27-artinian-v7-final-and-successor.md)，非四交/全Norm/shadow PASS。
 
-唯一v9 run45920983633/job140251398928/source1eeab95eb057de2b6ea6753ff9e36a18bd20bbd2，数学自01:10:41UTC。原49源/两char0 pins/Sage10.6/r29/q2453/batch64/minimal/两图七式四交18×9、21000s/360min及人工API false全保。06:29第七只读run45952136806/job140350212654取得原log31514035B/SHAeef3c1ab…ae0ff59，尾06:25:55至cubic branching负向/base-prime0/actual maximal ideal1的Hermite138/306；原job仍运行，终点数学JSON空。全部七快照见终点链。
+唯一v9 run45920983633/job140251398928/source1eeab95eb057de2b6ea6753ff9e36a18bd20bbd2，数学01:10:41–07:00:41UTC实际21000s超时124；07:04实际API completed/failure，host明确pipeline incomplete、无数学PASS。07:05原collector run45956066676/job140362703513成功，但终态日志含runner控制标记使封装JSON首段被吞；保stdout14635B/SHA7034ac7b…a5b250，修正小检查workflow JSON转义后再次只读收取完整字节/hash。原49源/两char0 pins/Sage10.6/r29/q2453/batch64/minimal/两图七式四交18×9与21000s/360min全部保持；七快照在终点链。
 
 R1033已付原剩余映射的完整核及整个厚商的后缀Krylov Hermite；全部306坐标/nilpotent和H=CI+H(1−e)双包含保齐。新helper/outer/host及未激活v10请求已备，旧49源全保并加3源；只静态AST/哈希，未运行数学、未动v9触发。07:04UTC实际API已见v9 completed/failure，正在用原只读collector收完整终态；收完才接v10。不得由源码正确性记实际shadow PASS。
 
@@ -34,6 +34,8 @@ R1025全Cartier/CM36/Hermite、UC补线/FH primitive/四曲率槽、GP10保持�
 R1028末六W_t=W∞+cp·u^pT_t全水平式/固定Hermite齐；真Vδ余项只在target φ_(p−6)拉回的全39第一primitive低窗可删。G简单极，四阶cut p+4→2→37→primitive36，A^p给p−36>K；b5/O/aZ全保。W∞真三字只含原Fp和2/3、正mode2；Lamé p曲率−10Hcal^pI+(5cp/6)E12与P10交换子保全部e项。Jordan单位/裸log不代真正forcing。
 
 R1032新char0 β=X/(X+4)保原完整39支/同K=5s−2，末两窗真Vβ=β^(p²)。实际δ-old返g、δ-new返rS^(p²)T_S^130G，无共同Fp；固定H_G=rS T_SG是原degree130整源，even/odd都在，odd图单射。新增±S主部原P10≥p消cut，全两exact/留数/aZ与九维C³边界齐；四阶E2费用及O最后四b补项不删。与旧模型差含1+Kp，仅native O平坦；不能以低窗重写赋新零。继续全部13/χ8真实测试及高一块原精度。
+
+R1034将同一char0全39比较扩至H=2p−11/2p−5，真正K>p；两β权饱和β^(p²)/β^(2p²)，γ=3β²−2β消六三挠simple。原native P/Z整提升、整个物理M及R614/616/619两坏带与r=p第二C scalar全保；该页CM另排S极，C³原φ与顶系数是不同泛函。全Weyl cocycle给六极准确old双主部，只有canonical偶读者消odd，原cut/Ξ/高p位仍在。一般四阶后S第二C帽3/primitive3p−2，特殊r=p帽2按整体型用。实际Q†测试生成及确定λ unit迫零仍开。
 
 R1030真实三次角域/五点Dhat degree62/65、195余权36270整基与c8Δ导子70005齐，全好p仍三次/全环p饱和。两64次角gcd14给约分比例degree50，两个actual canonical恰trace-zero平面基；三列Gram另付导子69875、fixed resultant剩余坏集。完整三物理像/范数/同H/E六位仍保共同核和跨界，不相加rank；指定forcing及a+2b<3仍待。
 
