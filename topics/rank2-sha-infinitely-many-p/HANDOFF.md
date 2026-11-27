@@ -33,6 +33,8 @@ R1037完整378谱已实付：run45973650826/job140419911466/source22ac87ec033d65
 
 R1038新E3969:Y²=X³+3969由两个Kummer手证rank≥2；ψ1的63三次逆扭/全导子47628齐。§§8–9付2/7/δ全部局部角色/54Gauss−9/root+/Hermitian[1]及α1真wild9向量，不混旧列。α1/7的全finite/Gaussian、原126/378来源与通常全Sha桥现已由§§10–13完整支付；普通及惰性各有r+corank通常Sha≤2ord原中央。
 
+R1038§14把同一真实126来源的完整圆盘/尾界逐项延到p5：q12/18/24/30/36及q≥42全部付，J′126,5≡5/3 mod25，尾项统一≥25；原BKO范围p≥5、ray972/91/2,3,7/参考及aux11全为五单位，固定κ赋值保留。通常全Selmer给E3969精确rank2且Sha[5∞]有限，不声称群零或无穷p已成。
+
 原126新回执run45977711940/job140433521280/source311f91e77e8071abc6f55d889e8880931634600d已成功；22δ列唯一解/64回乘齐，P126 degree20/monic/den91，X0/−1/−4 simple、X8 double、norm7 simple；原f degree20，四角阶1/1/2/1，cubic degree61/阶1/1/2/3。必要完整因子和hash见[原126返回](notes/2026-11-27-e3969-original-degree126-live-return.md)。六sigma身份σ7·σπ13·σbarπ13·σ3δ·σ2δ²/(−3276δ)已由全division式付；20/63本身不改善旧62/195，不能越过forcing。
 
 ## 三、原两覆盖、固定 Prym 与无穷输入
