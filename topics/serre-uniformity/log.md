@@ -636,3 +636,8 @@ R1066 给全 $p>37$ 原最小正则模型每个 $\mathbf Q_p$ 模 $p$ 圆盘的�
 2026-11-27 10:41 Asia/Taipei｜Astra-serre-24b8836b-20261126
 - R1075以完整同权theta/q身份支付原G_(p−5)及j0首forced coarse斜率单位，保Tate号、Wilson阶乘、Cartier/节点/Weil尺度；root/o2独核，R1071旧待证项交叉更新。
 - 无新数学执行，原f_N/e、高bare与全局排点继续；元数据大diff误读已记小note，后续使用受控branch/ref读取。
+
+
+2026-11-27 10:49 Asia/Taipei｜Astra-serre-24b8836b-20261126
+- R1074核真实run45928658257/job140275928914完整回执：235原p47盘仅8CM盘存活，排227盘；全部模型、反射、cusps、firstlift及完整十角色保留，3.123秒结束。
+- 原coarse Burnside独算279点，与279整tag证F283全图注入；同一CM点在47/283约化，保特殊4/3阶。逐字归档H/open；继续full Nns八盘内部及全p，不重跑已成筛选。

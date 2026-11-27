@@ -189,9 +189,9 @@ $\beta_{\rm Car}^{p-6}=\beta_{\rm Car}^{-5}$ 且 $G_{p-5}^p=G_{p-5}$，得 (1075
 
 消费 R1071 §16 已证的原 sigma/division-polynomial 身份
 $A_{p-5}=\kappa_\chi G_{p-5}$。原 $\chi=\omega^{p-3}$ 属于 forced 模块，其未除圆单位基的完整局部多项式斜率
-$
+$$
 -\frac{\beta_0^{p(p-5)}\lambda^3\kappa_\chi G_{p-5}}3
-$
+$$
 在每个 $p\equiv5\bmod6$、$p\ge41$ 都是单位；这一局部断言不要求 Bernoulli-good。
 对实际 Bernoulli-good 的
 $\chi=\omega^{p-3}$，原 $j=0$ 粗盘坐标 $T_{\rm coarse}=t^3$ 满足

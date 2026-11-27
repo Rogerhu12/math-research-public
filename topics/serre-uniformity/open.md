@@ -2,7 +2,7 @@
 
 **主要目标仍OPEN。** 完整证明绝对常数C，或给出p→∞完整无CM反例族；有限素数、条件结论、低权/局部Abel/部分子群均不够。
 
-此前逐字状态在[最新open归档](open-archive-2026-11-27-before-p-local-polynomials.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重算。
+此前逐字状态在[最新open归档](open-archive-2026-11-27-before-p47-eight-CM-disks.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重算。
 
 ## 原最低型：已经付清的输入与准确剩余标量
 
@@ -31,9 +31,7 @@ R1018–40的原完整Fm/两节点Dickson/PD及好BT整比较均已付，详细�
 
 ## O0：全主目标覆盖（R1003恢复原范围）
 
-[R1073](results/R1073-original-split-auxiliary-cuspidal-sieve.md)：原split aux全J/±、Norm纤维/Weil/cusps同点已付；§9 half-orbit乘积严格下降、fixed-root CχBχ=Dχ保零mask。p47/283全twists/25反射覆盖已付，新283 CI待回执。
-
-[R1072](results/R1072-certified-original-p47-cuspidal-disk-labels.md)：run45925829303/job140266778118、源91de38ca，原p47全部235盘给235个互异完整global向量，10角色全good。原相位/两twists已核；不推盘内唯一，继续ℓ283同点筛选。
+[R1074](results/R1074-certified-original-p47-eight-CM-disks.md)：原p47全部235盘经ℓ283同点筛选仅余8个已定位Q-CM盘，排227盘；run45928658257/job140275928914源e5d0d9d。独立Burnside给279原aux点，完整279标签使图单射，同一个CM点在283约化；47一般j同余模47²，特殊j0/1728为4/3阶。八盘内部排点和全p仍开；R1072/73及全部pins/hash只消费。
 
 [R1071](results/R1071-original-p-local-cuspidal-label-polynomials.md)：全V有限式/phase/两twists已付。R1075闭合原j0 G_(p−5)=−24B/(7β_Car⁵)及首forced coarse单位斜率；good条件仅留global圆单位坐标。原f_N/e及盘内/global排点仍开。
 
