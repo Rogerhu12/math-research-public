@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [W整lambda=3/2的同值单一F18覆盖](results/R150-appendix-unit211-W-lambda-three-halves-same-value-single-F18-cover.md)：新原8列det只含k⁴d²F18，保所有首项零/交点，不借Ah排除；F18仍须原返回。
+
 - [h=k,Q=1−u整面32次lambda必要覆盖](results/R150-appendix-unit211-equal-singleton-Q1u-complete-lambda-cover.md)：两Δ图全原返回，全部C2/C6/C24；Delta0≤60原参数对，全部原有限Gram尚须返回。
 
 - [原Haar全目标迹类交织与实际循环商拟亲和](results/R271-appendix-actual-haar-global-trace-intertwiners-and-cyclic-quotient-quasiaffinities.md)：全整数幂共同范数，每个非零来源全目标稠密像，精确核/反向零；不借循环性、不自动拉回非零不变子空间。
