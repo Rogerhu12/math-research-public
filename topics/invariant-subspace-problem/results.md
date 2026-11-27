@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [一般J=Q原642次QQ投影与348个复权点覆盖](results/R150-appendix-unit211-general-J-equals-Q-exact-642-projection-and-348-weight-cover.md)：两真实参数cofactor、完整36阶固定结式及六因子乘回；Vandermonde秩亏保全部降首项纤维，两个特殊整线继续。
+
 - [W整y=1有限原Gram唯一恢复与同点参数系统](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-y-one-original-same-point-parameter-return.md)：原mean/E1用已付单位唯一恢复x/t，四必要参数式和物理D完整同点返回；不支付y−1，接固定26/33 QQ投影。
 
 - [W四条S-free原三次理想与通用二元头结式](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-four-S-free-cubics-and-binary-head-resultant.md)：无新除法的正反理想身份完成四次降三次；4×4头等于固定2/3齐次结式，26项通用整数证书，保D27/新头零面。
