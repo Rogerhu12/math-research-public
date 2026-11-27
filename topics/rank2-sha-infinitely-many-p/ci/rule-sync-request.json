@@ -1,6 +1,7 @@
 {
-  "request_id": "rank2-20261127T1544-rule-pull",
-  "utc": "2026-11-27 15:44 UTC",
-  "last_rules_read": "f7467545c6eedaee5177f16e21b03a36ad601805",
-  "reason": "Both actual local git pull --rebase attempts at 15:43 UTC still failed because no execution environment is available. Reuse the existing read-only public sparse CI checkout for a real pull and compare both README files with the last actual CI pull already read. Private API head 9fe7561d74cbc0feda931c2a2853c8258371d468 and both README blobs plus QUEUE were separately checked at 15:43 UTC; these API reads are not actual pulls."
+  "request_id": "rank2-20261127T1603-both-rule-pulls",
+  "utc": "2026-11-27 16:03 UTC",
+  "last_rules_read": "8f70b47dd340068496385625f0cc1beb5df500e4",
+  "private_last_rules_read": "6139de54ac72f1c7af0508b88ce03efdbf0a5690",
+  "reason": "Read-only actual partial clone and pull for both repositories. Root README rule 13 permits the existing MR_TOKEN Actions secret for reading the private repository. Only private object identities and whether README contents changed are printed; private content stays unprinted."
 }

@@ -72,3 +72,52 @@ jobs:
           inventory = {"kind": "rank2_rule15_inventory", "head": head, "tree": topic_sha, "blob_count": len(entries), "total_bytes": sum(x["size"] for x in entries), "limit_bytes": 200000000, "over_5mb_count": len(large), "part_count": len(parts), "over_5mb": large[:100], "parts": parts[:100], "lists_complete": len(large) <= 100 and len(parts) <= 100}
           print("RANK2_RULE15_INVENTORY " + json.dumps(inventory, ensure_ascii=False))
           PY
+      - name: Sparse private clone, actual pull, and private rule identities
+        shell: bash
+        env:
+          RANK2_RULE_PRIVATE_TOKEN: ${{ secrets.MR_TOKEN }}
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import base64, datetime, hashlib, json, os, pathlib, subprocess
+          public = pathlib.Path(os.environ["RUNNER_TEMP"]) / "rank2-sha-rule-sync"
+          request = json.loads((public / "topics/rank2-sha-infinitely-many-p/ci/rule-sync-request.json").read_text())
+          baseline = request.get("private_last_rules_read")
+          result = {"kind": "rank2_private_actual_ci_git_pull", "request_id": request["request_id"], "actual_git_pull_success": False, "last_rules_read": baseline}
+          token = os.environ.get("RANK2_RULE_PRIVATE_TOKEN", "")
+          if not token:
+              result["reason"] = "The existing MR_TOKEN secret was not available."
+          elif not baseline:
+              result["reason"] = "No previous private actual-pull baseline was supplied."
+          else:
+              root = pathlib.Path(os.environ["RUNNER_TEMP"]) / "rank2-sha-private-rule-sync"
+              env = dict(os.environ)
+              credential = base64.b64encode(("x-access-token:" + token).encode()).decode()
+              env["GIT_CONFIG_COUNT"] = "1"
+              env["GIT_CONFIG_KEY_0"] = "http.https://github.com/.extraheader"
+              env["GIT_CONFIG_VALUE_0"] = "AUTHORIZATION: basic " + credential
+              def command(args):
+                  return subprocess.run(args, env=env, check=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True).stdout.strip()
+              def git(*args):
+                  return command(["git", "-C", str(root), *args])
+              stage = "partial_clone"
+              try:
+                  command(["git", "-c", "maintenance.auto=false", "clone", "--filter=blob:none", "--sparse", "--depth=1", "--no-checkout", "--branch", "main", "https://github.com/Rogerhu12/math-research.git", str(root)])
+                  stage = "sparse_checkout"
+                  paths = ["README.md", "topics/rank2-sha-infinitely-many-p/README.md"]
+                  git("sparse-checkout", "set", "--no-cone", *("/" + p for p in paths), "/QUEUE.md")
+                  git("checkout", "--quiet", "main")
+                  stage = "actual_git_pull"
+                  git("-c", "merge.stat=false", "pull", "--rebase", "--no-stat", "--quiet", "origin", "main")
+                  head = git("rev-parse", "HEAD")
+                  stage = "baseline_fetch_and_rule_difference"
+                  git("fetch", "--filter=blob:none", "--depth=1", "--quiet", "origin", baseline)
+                  diff = git("diff", "--no-ext-diff", "--no-renames", baseline, head, "--", *paths)
+                  result.update(actual_git_pull_success=True, head=head, utc=datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC"), readme_blobs={p: git("rev-parse", head + ":" + p) for p in paths}, rules_changed=bool(diff), private_rule_diff_sha256=hashlib.sha256(diff.encode()).hexdigest(), queue_blob=git("rev-parse", head + ":QUEUE.md"), scope="read-only sparse private CI checkout; no private file content or credentials printed")
+              except subprocess.CalledProcessError as exc:
+                  result.update(reason="Private read-only Git operation did not complete.", failed_stage=stage, exit_code=exc.returncode)
+              finally:
+                  env.pop("GIT_CONFIG_VALUE_0", None)
+                  credential = token = ""
+          print("RANK2_PRIVATE_RULE_PULL_RECEIPT " + json.dumps(result, ensure_ascii=False))
+          PY

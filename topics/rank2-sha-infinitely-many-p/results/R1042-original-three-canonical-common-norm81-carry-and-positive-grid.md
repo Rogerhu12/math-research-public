@@ -1923,3 +1923,326 @@ $$
 $v_p(\mathscr L_{i,H})\ge E_p(H)$ 对每个 i、H 成立。
 (106)–(110) 支付了其无 period 的完整有限输入；
 还须证明某个实际余式非零，不能把这种输入重写本身认作矛盾。
+
+## 14. 三条原来源的十三二次支差商、完整 Euler 秩及同一前缀的成本
+
+**已证明。** 本节由三条原六 sigma 来源在 $6,18,30$ 阶的固定精确校准，证明全部正奇数倍指标上的完整整差商非零；在当前共同 ray 的相容细化上，连三条不同的实际 Euler 因子一起保留。校准已由公开 Actions 实际返回。全非单位误差、无限差商尾和目标 $p$ 同一前缀的恢复费用由下文证明；不以有限样本推断无限范围。
+
+先明确两项旧事实。去掉普通周期不是首次：R56
+[原 period-free Hurwitz 极限](R56-ordinary-period-free-hurwitz-limit.md)
+已用指数增长的单权 $(p-1)p^n$ 返回中央。§13 新付的是最高权仅
+$H(p-1)$、精度约 $H$ 的有限二项式读取，并同时保留三条完整 core
+和真实补域。当前共同 ray 上
+$u_S=u_T=\lambda,\ u_A=-\lambda$；$u_T=\lambda$ 已在
+[R413 (2)](R413-original-three-output-core-and-eight-source-central-return.md)
+及 [R483 §6.1 (33)–(34)](R483-original-six-sigma-cm-transfer-and-complete-three-curve-rows.md)
+付清。§13 的 $\varepsilon_T$ 只保留作跨 ray 的规范记号，当前不是一个新参数。
+
+### 14.1. 固定原来源与唯一有限输入
+
+置 $b=17$，$\delta^2=-3$，
+$\gamma=(5+\delta)/2$，$\pi_{13}=(7+\delta)/2$。全部使用原六输入：
+$$
+\begin{gathered}
+a_S=(\gamma,\bar\gamma,\delta,2\delta,1,2),\qquad
+a_T=(\gamma,\bar\gamma,\delta,2\delta,3\delta,4),\\
+a_A=(7,\pi_{13},\bar\pi_{13},3\delta,2\delta,2\delta),\\
+\mathcal F_i(z)=-\frac1{84}\prod_{\ell=1}^6\sigma_b(a_{i,\ell}z),
+\qquad
+(\mathcal F_S,\mathcal F_T,\mathcal F_A)
+=(S,6\delta T,39\delta\Phi_{126,b}).
+\tag{111}
+\end{gathered}
+$$
+最后一式是 R1038/R1040 的完整来源身份，不是只取相同首项的替代。
+令 $H_{i,m}=m![z^m]\mathcal F_i$。三个 $z^6$ 首项为
+$1,6\delta,39\delta$。特别辅助素数 $13$ 处**不除去**
+$39\delta$，也不把归一 $\Phi_{126}$ 的系数格冒作原积分格。
+
+整数 Hurwitz 流给
+$$
+84H_{i,m}\in\mathcal O_K,\qquad
+H_{S,m}\in\mathbf Q,\quad H_{T,m},H_{A,m}\in\delta\mathbf Q.
+\tag{112}
+$$
+因此三个 $H$ 行的任一三阶行列式乘 $84^3$ 是有理整数。
+每条来源均为 $z^6$ 乘 $b z^6$ 的固定级数，换回 $b=1$
+在 $m=6r$ 列只是明确的单位因子 $b^{r-1}$；本节仍直接算 $b=17$。
+
+唯一有限门为
+$$
+\boxed{\quad
+v_{13}\Delta_{13}=3,\qquad
+\Delta_{13}=\det(H_{i,m})_{i=S,T,A;\ m=6,18,30}.
+\quad}
+\tag{113}
+$$
+实际完整矩阵如下；第二、三行表中抽出的 $\delta$ 必须乘回，原
+$39\delta$ 的十三因子没有约掉：
+
+| 原行 | $H_6$ | $H_{18}$ | $H_{30}$ |
+| --- | ---: | ---: | ---: |
+| $S$ | $720$ | $19475808299865538560$ | $-217172351255436859174673625926074368000$ |
+| $(6\delta T)/\delta$ | $4320$ | $-14627218514514143477760$ | $1765869213336073541779570472618664394752000$ |
+| $(39\delta\Phi_{126,b})/\delta$ | $28080$ | $-4821857646818361850920960$ | $-4004637195484950778226001018464590545027072000$ |
+
+乘回两行的 $\delta$ 后，
+$$
+\Delta_{13}
+=-145944579624365231256538817659372783773537373634088867705498107904000000,
+\qquad
+\Delta_{13}/13^3\equiv123\pmod{13^2}.
+$$
+因此 (113) 准确成立。实际来源提交
+dd0da200f3abe8f1726f20e37e6ff367915e58c8，
+run 46029180230、job 140608285958；来源 SHA-256 为
+81af6387e9f159c0780b8bc59e2cd3af4b3d80c271df2073b8dc156977d2efed。
+标准输出 3099 B，SHA-256 为
+0eef0a80052b082bfa16ff08fdbf6d26dbdad8be453d62bc52c8c0fd45dccbfb。
+只提交源码、参数和这些回执身份，不保存可重算数据。脚本为
+[check-original-three-source-quadratic-thirteen-hurwitz-rank.py](../scripts/check-original-three-source-quadratic-thirteen-hurwitz-rank.py)。
+
+它第一路只用
+$$
+u'=v,\quad v'=3bu^5,\quad L'=-2bu^4,\quad\theta'=L\theta,\qquad
+(u,v,L,\theta)(0)=(0,1,0,1),\quad \sigma=u\theta.
+\tag{114}
+$$
+这是 $u=x^{-1/2}$、$L=\zeta-u'/u$ 的原方程；全部 Hurwitz
+运算都是整数二项式卷积。第二路独立使用
+$$
+w_0=1,\quad w_1=-1/7,\quad
+w_r=\frac{\sum_{j=1}^{r-1}w_jw_{r-j}}{(r-1)(6r+1)},\qquad
+\log\frac{\sigma_b(z)}z
+=-\sum_{r\ge1}\frac{w_r b^r z^{6r}}{6r(6r-1)}.
+\tag{115}
+$$
+两路对三条完整来源逐项核到阶 $30$；原 $z^{12}/(b z^6)$
+首锚分别是 $-988/105,-2938/35,15836/35$。脚本真实返回
+(113) 成立，没有把它作为预设输入，也没有运行目标 $p$ 扫描。
+
+### 14.2. 二次 tame 分支的完整差商
+
+仅在本小节固定辅助普通素数 $q=13$，选择 $K\hookrightarrow\mathbf Q_{13}$
+的 $\delta\equiv6\bmod13$ 分支。R316 §3 的原 sigma 整性对
+$p>7,\ p\equiv1\bmod3$ 成立，所以在同一个单位普通周期 $\Omega_{13}$
+下，(111) 是范数至多一的整测度 $\nu_i$ 的实际 Amice 来源。
+$1/84$ 为单位；即使某条轴在 $13$ 处非单位，其真实推前仍整。
+这里没有使用辅助 $13$ 处的目标中央零。
+
+设 $\omega_{13}$ 是 Teichmüller 角色。定义
+$$
+\Psi_i(t)=\int_{\mathbf Z_{13}^{\times}}\omega_{13}(x)^6
+             \exp\!\left(t\log x^{12}\right)d\nu_i(x),
+\qquad t\in\mathbf Z_{13}.
+\tag{116}
+$$
+这是**二次 tame** 分支，不是 R193 旧 $j=1728$ 两行的 principal
+分支。对每个正奇数 $r$，$t=r/2$、$m=6r$ 给准确式
+$$
+\Psi_i(r/2)=\Omega_{13}^{6r}H_{i,6r}-E_{i,r},\qquad
+E_{i,r}=\int_{13\mathbf Z_{13}}x^{6r}d\nu_i\in13^{6r}\mathcal O.
+\tag{117}
+$$
+非单位部分仅在这些正整数权使用，不对 $13^t$ 做假解析延拓。
+由 $\log x^{12}\in13\mathbf Z_{13}$，
+$[t^k]\Psi_i\in13^{k-v_{13}(k!)}\mathcal O$。特别
+$\Psi=v_0+13v_1t+13^2v_2t^2+13^3U(t)$，其中 $U$ 是从三次起的整
+Tate 向量；所有更高系数仍保留。
+
+对任意 $t_1,t_2,t_3\in\mathbf Z_{13}$，完整交替式有
+$$
+\det(\Psi(t_1),\Psi(t_2),\Psi(t_3))
+=13^3\prod_{a<b}(t_b-t_a)
+       \bigl(\det(v_0,v_1,v_2)+13W(t_1,t_2,t_3)\bigr),
+\quad W\in\mathcal O\langle t_1,t_2,t_3\rangle.
+\tag{118}
+$$
+证明是将三列幂级数展开后按三个不同次数分组。每个幂行列式被
+Vandermonde 整除，商是整 Schur 多项式。次数 $(0,1,2)$ 的
+系数准确为 $13^3\det(v_0,v_1,v_2)$；其余三次数的总赋值至少四。
+系数赋值趋于无穷，故无限和及整商都收敛。这给全差商，
+不只是三个校准点之间的形式插值。
+
+在 $(1/2,3/2,5/2)$，Vandermonde 为二。由 (117)，Hurwitz
+行列式和解析矩行列式相差至少 $13^6$，共同周期 $\Omega_{13}^{54}$
+为单位。故输入 (113) 准确推出
+$$
+\det(v_0,v_1,v_2)\in\mathcal O^\times.
+\tag{119}
+$$
+将 $(t,3t,5t)$ 代入 (118)，其 Vandermonde 为 $16t^3$。
+再令 $t=r/2$。因 $6r>3+3v_{13}(r)$ 对所有 $r\ge1$ 成立，
+(117) 的全部非单位误差严格在主项之上，得到
+$$
+\boxed{\quad
+v_{13}\det(H_{i,m})_{i=S,T,A;\ m=6r,18r,30r}
+=3+3v_{13}(r),\qquad r\ge1\text{ 为奇数}.
+\quad}
+\tag{120}
+$$
+三个矩因而在每个这些实际权上独立；未把辅助赋值误当目标
+$p$ 赋值。
+
+### 14.3. 在当前共同 ray 内保住全部 Euler 因子
+
+R531 (13) 在十三处只要求 $g_\pi=\pi_0/\bar\pi_0\equiv1$。
+R1042/R1044/R1047 的后继绝对 CRT 条件涉及
+$2,3,5,7,17,19,31,43,787$，没有固定绝对十三类。
+因此可对**此当前共同 ray**相容细化为
+$$
+\pi_0\equiv2\pmod{13^3\mathcal O_K},\qquad
+\bar\pi_0\equiv2,\quad
+\kappa=\pi_0/\bar\pi_0\equiv1,\quad
+\lambda=-\bar\pi_0^{-1}\equiv-\tfrac12\pmod{13^3}.
+\tag{121}
+$$
+原规范的主生成元和三处条件保留，由原同一个 ray 类的素理想
+定理仍有无穷多个 degree-one 素理想。不是宣称所有旧课题 ray
+自动满足 (121)。当前普通 $p$ 原有 $p\equiv7\bmod12$，故
+$d=p-1=6r$ 中 $r$ 为奇数。
+
+固定这样的目标 $p$，令
+$$
+(u_S,u_T,u_A)=(\lambda,\lambda,-\lambda),\qquad
+\mathcal M_{i,j}=(1-u_i\kappa^{jd})H_{i,jd}.
+\tag{122}
+$$
+这些正是原单位矩去掉共同 $\Omega_p^{jd}$ 后的三个 Euler
+因子，不作截断。把代数数 $u_i,\kappa$ 嵌回辅助十三处，定义
+$$
+\Psi_i^{(p)}(t)=(1-u_i\exp(12t\log_{13}\kappa))\Psi_i(t).
+\tag{123}
+$$
+因为 $\log_{13}\kappa\in13^3\mathcal O$，其前三个归一 Taylor
+向量模十三准确只是逐来源乘 $1-u_i$。所以
+$$
+\det(v_0^{(p)},v_1^{(p)},v_2^{(p)})
+\equiv(1-\lambda)^2(1+\lambda)\det(v_0,v_1,v_2)
+\equiv\tfrac98\det(v_0,v_1,v_2)\not\equiv0\pmod{13}.
+\tag{124}
+$$
+全部更高项仍满足 (118) 所用整性。对正奇数 $r$，
+(123) 与完整 $(1-u_i\kappa^{6r})\Omega_{13}^{6r}H_{i,6r}$
+的误差至少 $13^{6r}$。因此相同全差商和严格误差比较给
+$$
+\boxed{\quad
+v_{13}\det(\mathcal M_{i,j})_{i=S,T,A;\ j=1,3,5}
+=3+3v_{13}((p-1)/6).
+\quad}
+\tag{125}
+$$
+特别这个**完整 Euler** 矩阵不为零。此处不用
+“目标 $p$ 上 Euler 误差至少 $p-1$”来覆盖可能比它更深的
+原行列式；(123) 是直接的辅助整解析证明。
+
+### 14.4. 进入 §13 的同一个完整前缀，而非新增坏条件
+
+选整数 $Q$ 满足 §13 的 $Q\equiv\mathfrak h_{b,p}^{-1}\bmod p$
+及 $Q\equiv1\bmod13^3$，并取 $1\le Q\le13^3p$。
+置完整三列前缀行
+$$
+\ell_h=\sum_{j=1}^h(-1)^{j-1}\binom hj\frac{Q^j}{j}
+    (\mathcal M_{S,j},\mathcal M_{T,j},\mathcal M_{A,j}),
+\qquad h\ge1.
+\tag{126}
+$$
+这就是 §13 的三个原 $\mathscr L_{i,h}$，包括所有低卷积、
+完整 Euler 和准确阶乘。对前五层，二项式变换是整可逆下三角
+矩阵，其对角为 $(-1)^{h-1}/h$。由 (125)，前三个真实秩跳
+$a<b<c$ 满足
+$$
+\boxed{a=1,\qquad b\le3,\qquad c\le5.}
+\tag{127}
+$$
+这里只指定首次实际秩跳；不宣称 $\ell_1,\ell_3,\ell_5$ 本身
+自动独立。
+
+在目标普通处 $\Omega_p$ 仍是原单位。真正矩公式是
+$$
+\int_{\mathbf Z_p^\times}x^{jd}\,d\nu_i
+=\Omega_p^{jd}\mathcal M_{i,j}.
+\tag{128}
+$$
+三原完整单位质量均为零，所以换 $Q$ 不增加一个新中央条件。
+§13 的全尾给
+$$
+J_i'(0)-(\ell_H)_i\in p^{H+1-\lfloor\log_p(H+1)\rfloor}\mathcal O.
+\tag{129}
+$$
+若三条原 canonical 都满足坏条件，则 $J_i'(0)=0$；对 $h\le5<p-1$
+准确得到 $\ell_h\in p^{h+1}\mathcal O^3$。这没有把三个或更多
+独立矩单独置零。先按原目标格归一，才形成真实整矩阵
+$$
+\mathcal Q=
+\begin{pmatrix}p^{-a-1}\ell_a\\p^{-b-1}\ell_b\\p^{-c-1}\ell_c\end{pmatrix},
+\qquad
+e=v_p\det\mathcal Q
+=v_p\det(\ell_a,\ell_b,\ell_c)-(a+b+c+3)\ge0.
+\tag{130}
+$$
+
+### 14.5. 目标 $p$ 的真实恢复费用
+
+固定三个原 theta 函数具有 $|\mathcal F_i(z)|\le C e^{C|z|^2}$。
+Cauchy 在半径常数倍 $\sqrt m$ 上及 Stirling 给
+$$
+\log\max(1,|84H_{i,m}|)
+\le\tfrac m2\log m+O(m).
+\tag{131}
+$$
+先看不含 Euler 的 (120)。其行列式是固定分母有理数，三个
+权之和为 $9d$，故目标赋值至多 $(9/2+o(1))p$。
+除回 $(d)!(3d)!(5d)!$ 时恰减去 $0+2+4=6$。
+这个较小界**只用于原 raw Hurwitz 矩**。
+
+完整 Euler 需保真正共轭分母：
+$$
+(1-u_i\kappa^m)H_{i,m}
+=\frac{\bar\pi_0^{m+1}+\varepsilon_i\pi_0^m}
+       {\bar\pi_0^{m+1}}\,H_{i,m},
+\qquad(\varepsilon_S,\varepsilon_T,\varepsilon_A)=(1,1,-1).
+\tag{132}
+$$
+目标 $\mathfrak p$ 处 $\bar\pi_0$ 为单位，但在共轭处不能丢掉。
+将 (126) 的第 $h$ 行乘 $\bar\pi_0^{hd+1}$ 并乘固定分母
+$84\operatorname{lcm}(1,2,3,4,5)$，得到 $\mathcal O_K$ 中的完整行。
+由 $|\pi_0|=|\bar\pi_0|=\sqrt p$、$Q=O(p)$，这一行的每个
+复绝对值的对数至多 $hd\log p+O(p)$。对有限的
+$a=1,b\le3,c\le5$ 同时取范数，得到
+$$
+\boxed{\quad
+v_p\det(\ell_a,\ell_b,\ell_c)
+\le (2(a+b+c)+o(1))p\le(18+o(1))p.
+\quad}
+\tag{133}
+$$
+各个误差对这些真实、可能随 $p$ 改变的秩跳一致。这里没有把
+(131) 的 raw 成本冒用于完整 Euler。
+
+因此 (130) 在原三来源坐标中的整 Smith 指数
+$0\le e_1\le e_2\le e_3$ 满足
+$$
+e_1+e_2+e_3=e\le(18+o(1))p.
+\tag{134}
+$$
+这是同一完整前缀上的实际源恢复费用：若用这三条归一行读取一个
+原三来源系数向量，恢复其任一坐标至精度 $L$ 至多损失 $e_3\le e$
+位。它只关于原三来源的线性系数格。三条来源在实际角环中有代数
+关系，不能把三列线性秩三改成三个自由源变量，也没有从中取得
+作用于来源乘积的新增中央或 Hasse 行。
+
+§13 的真实全补域返回仍是
+$$
+\beta^{-n}\int_{\Gamma_n\setminus\mathcal D_1}
+ (L_i-L_j)h_n\,d\rho
+\equiv(\ell_H)_i-(\ell_H)_j
+-\beta^4\bigl(A_i(\kappa)-A_j(\kappa)\bigr)
+\pmod {p^{H+1-\lfloor\log_p(H+1)\rfloor}}.
+\tag{135}
+$$
+所以本节支付的是此前未付的三条实际方向、全指标非零及同格
+恢复上界，而非删除 (135) 的全至少双单位补域。三中央同时为零
+仍容许这些完整前缀逐渐趋零；仅有秩三不会产生矛盾。
+下一消元必须用同一 (126)/(135) 的真实权和误差，不能将三个
+校准点或不同 $Q$ 当成新增独立坏行。
