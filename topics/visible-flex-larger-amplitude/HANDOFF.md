@@ -4,7 +4,7 @@
 
 ## 规则、目标与完整历史
 
-root最后真实pull/rebase至`eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21 UTC执行环境失联，云API不冒pull，恢复即真拉取。完整经过保第31轮note/entry§9。本次云核至`91e6cc8826b8d6b091f054674c8b9980541da24e`，双README整SHA `581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102` / `3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d` 无变；非pull。09持续实际pull见末块。私库QUEUE已真推`e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`。
+root最后真实pull/rebase至`eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21 UTC执行环境失联，云API不冒pull，恢复即真拉取。完整经过保第31轮note/entry§9。本次云核至`f7a5848e1ba873d270b414780fc8e704fe6bd6ef`，双README整SHA `581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102` / `3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d` 无变；非pull。09持续实际pull见末块。私库QUEUE已真推`e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`。
 
 科学只本公开仓库Actions；root唯一ref写者，结论即普通推，NFF立即rebase循环，不强推。每次pull核双README差异并遵新规，至少每小时，记commit。raw只scratch/runner、不入Git/Release/artifact，不得改名冒输入；全小源/参数/run/SHA保。题≤200MB、文件<5MB、MD<100KB、H<10KB、open<30KB；读前stat、不整读≥100KB。已有执行/大文件/终端偏差保4815339固定H及notes；令牌仅瞬时CLI。
 
@@ -15,6 +15,8 @@ root最后真实pull/rebase至`eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21
 ## 保留、旧终态与未知历史
 
 [第30轮](notes/2026-11-27-legacy-condensed-generated-manifests-retention-30.md)、[第31轮](notes/2026-11-27-legacy-R90-green-checkpoints-retention-31.md)、[第32轮](notes/2026-11-27-legacy-R90-green-checkpoints-retention-32.md)及固定H保前32轮来源。R90十八Green旧输出共1762124B已移出，14全源/43输入公开恢复/20完整轴/全参数/真终态保，无重算；八大件未读。Python3.12.14/NumPy2.3.5/SciPy1.17.0/单BLAS/CPUtorch2.5.1/float64。
+
+[第33轮R90两主输出及逐模账本](notes/2026-11-27-legacy-R90-final-outputs-retention-33.md)移553399B；16完整源/43原输入/审计六冻结输入及全部35非逐模原成员/28旧gate保，固定aa685完整恢复。大两件未读，无重算；R90证明只改三raw链接，数学文字不变。执行环境恢复探针在08:51:12—08:52:45 UTC间仍报无环境，未发生真实pull。
 
 旧03b/03/02/04/05及direct九history全链保固定H；04仅1–49返/50已启取消，05仅1–18返/19未知/20未返，02止49/50未跑、01止77、旧03 stage7未知。R697/R702/R705不重做。未知typed/保护晋升/发现顺序不冒空；未返全对象不归档冒完成。
 

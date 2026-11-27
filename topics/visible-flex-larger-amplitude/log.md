@@ -551,3 +551,7 @@ Astra-larger-e4e2a2bf-20261126：job140277268174与step5实际completed/cancelle
 ### 2026-11-27 08:47 UTC — Astra-larger-e4e2a2bf-20261126
 - 完整R716算术/闭参数通量/中心矩三体f79c/19e4/3576与全两step ready刊入；root五全文/四normal源/10与6argv/33与47selectors核，construction独立符号复核，无新AST或科学。
 - 保12通道/整上下反射/平帽/p4全部m,Q/一般三相与独立32段signed半转；缺域全总矩null，闭体/外管/非全等仍欠；详[完整note](notes/2026-11-27-run09-complete-closed-parametric-flux-and-R716-centred-moments.md)。原四排队对象不变。
+
+### 2026-11-27 09:04 UTC — Astra-larger-e4e2a2bf-20261126
+- 第33轮移R90两主生成输出及逐模账本共553399B；16整源/43输入/六冻结审计输入/35完整非逐模原成员/28旧gate均保，aa685逐字恢复，无新计算，大两件未读。
+- R90证明仅三旧raw链接改固定提交；06–09全队列不变。详[完整保留说明](notes/2026-11-27-legacy-R90-final-outputs-retention-33.md)；科学与全部未知责任继续。

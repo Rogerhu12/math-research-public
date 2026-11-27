@@ -318,11 +318,11 @@ GitHub Actions run **43303787139** 的两个阶段均有真正 wait4 记录：
 
 两个主包为：
 
-- [实际几何](../notes/2026-11-12-closure-physical-green-actions-43303787139-1-interval.json)，SHA256 `e3bb0bad3afac3e19d6b811ad068d0b4251b2a1214718dcbd14a2eb98e1aaa03`；
-- [实际有序全窗预算](../notes/2026-11-12-closure-physical-green-budget-actions-43303787139-1-interval.json)，SHA256 `86c9b5604a765a50028865a4f3edae3171d9582052e2b7e7515d0471d8685d45`。
+- [实际几何](https://github.com/Rogerhu12/math-research-public/blob/aa685bb4003b3ecbaf42cf74b872ec0b4d83c704/topics/visible-flex-larger-amplitude/notes/2026-11-12-closure-physical-green-actions-43303787139-1-interval.json)，SHA256 `e3bb0bad3afac3e19d6b811ad068d0b4251b2a1214718dcbd14a2eb98e1aaa03`；
+- [实际有序全窗预算](https://github.com/Rogerhu12/math-research-public/blob/aa685bb4003b3ecbaf42cf74b872ec0b4d83c704/topics/visible-flex-larger-amplitude/notes/2026-11-12-closure-physical-green-budget-actions-43303787139-1-interval.json)，SHA256 `86c9b5604a765a50028865a4f3edae3171d9582052e2b7e7515d0471d8685d45`。
 
 本定理最后的28项门由 [closure_r90_projected_ball_ledger.js](../computations/closure_r90_projected_ball_ledger.js) 在 `functions.exec` 的 V8 BigInt 中**实际执行**。它先把每个 JSON 数字 token 无损保存为字符串，再转整数分数，所有大 mantissa 均未经过 IEEE-754。六个完整输入SHA、两条正式退出、同20参数轴、所有46分母、真实源域、完整 mean/逆与自映/收缩门均为真。显示小数只由准确整数向上取整，不参与证明比较。没有声称新 Node/Arb/终端任务已运行。
 
-该脚本同时提供仓库内 Node 重现入口，输出不可覆盖；本次实际结果保存在 [R90精确账本](../notes/2026-11-12-closure-r90-projected-ball-exact-ledger.json)。每个模式的独立正行及全窗聚合都保存。原聚合是在未逐行舍入的数相加后向上舍入，因此不能用“逐行先舍入后再相加”替换它并要求两者逐位一致。
+该脚本同时提供仓库内 Node 重现入口，输出不可覆盖；本次实际结果保存在 [R90精确账本](https://github.com/Rogerhu12/math-research-public/blob/aa685bb4003b3ecbaf42cf74b872ec0b4d83c704/topics/visible-flex-larger-amplitude/notes/2026-11-12-closure-r90-projected-ball-exact-ledger.json)。每个模式的独立正行及全窗聚合都保存。原聚合是在未逐行舍入的数相加后向上舍入，因此不能用“逐行先舍入后再相加”替换它并要求两者逐位一致。
 
 本文直接登记已经完整证明且实际过门的范围；仍未付的切口与高频义务见 (90.32)，不另设审核批准门。
