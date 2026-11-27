@@ -8,11 +8,11 @@
 
 - 两库部分克隆已做。公开既有只读CI于14:54:16UTC真实pull --rebase成功至f7467545c6eedaee5177f16e21b03a36ad601805（run46020072099/job140577120558），相对上次9b0c75a4两README无差异；已读blob282e86b03385d3b6245ce7100ae2e2af7b103c2d / 2f3b3c9264fbba8189f85716e68f768830e921bc。本地最后成功pull仍07:12的1cf10ac，CI与本地分别记账。
 - 私库QUEUE认领41fe885610073f478b2f5a752461ca56cfd43f09已推。最近实际pull06:47UTC至6139de54ac72f1c7af0508b88ce03efdbf0a5690，两README无变；blob分别5ba164843b1f5802184178a82d786264404873a3 / 452d0127a4c3879807d70550d3eafd46c8fac642。
-- 07:20本地执行环境失联；14:53两库actual pull重试仍不可用。14:53 API私库7b0cb27e547c4e441632084b90b7ea9a31c0da90两README同原blob，QUEUE844a9bd5…仍本会话进行中。API不冒充pull；14:54公开只读CI实际pull回执及README差异已消费；本地恢复立即补，不把CI冒作本地。
+- 07:20本地执行环境失联；15:43两库actual pull重试仍不可用。15:43 API私库9fe7561d74cbc0feda931c2a2853c8258371d468两README同原blob，QUEUE844a9bd5…仍本会话进行中。API不冒充pull；14:54公开CI回执已消费；15:44已请求下一真实pull，baseline f7467545，待回执。本地恢复立即补，API/CI不冒作本地。
 
 - 至少每小时重试同步，每次pull后只读新README差异并立刻执行，记实际读过SHA；断连沿最新main API非force快进，每次检查README及本topic外部变动。10:48ref失败已立即实际pull重试、重比新父后成功；不强推。
 - root独占git/H/open/log/index；每条结论立即推，拒绝时pull --rebase后重试至成功。令牌只命令行/进程，不进文件/提交/API。数学执行只在公开Actions；根规则15禁止存可重算输出或日志数据。H<10KB，每MD<100KB。
-- 本次整理前的[完整交接](notes/2026-11-27-handoff-before-three-weight-manin-polynomial.md)逐字保原历史，向前链接所有旧归档；[open归档](notes/2026-11-27-open-before-norm25-complete-annuli.md)、[results](results.md)、[R1001–1050索引](notes/PROOF-INDEX-R1001-R1050.md)保完整参数/门/失败/回执，不重做已登记结论。
+- 本次整理前的[完整交接](notes/2026-11-27-handoff-before-original-cm-289-germs.md)逐字保原历史，向前链接所有旧归档；[open归档](notes/2026-11-27-open-before-norm25-complete-annuli.md)、[results](results.md)、[R1001–1050索引](notes/PROOF-INDEX-R1001-R1050.md)保完整参数/门/失败/回执，不重做已登记结论。
 
 ## 一、唯一原厚几何作业
 
@@ -44,11 +44,13 @@ q5/q11全shadow倒6为零已付；q11唯一Q高22/3、D四挠、2D=P2、MW=(11/3
 
 R1039 Prym EL:y²=x³−12x+20、全双Norm/S4 sign、实cyclic24商及负Norm给无穷q≡−1mod24且全Jac F²=−q。更大M只给−q模M平方，形式奇次Q≡−1modp不改变原影子被q+1杀。R1041全tame reciprocity给U(E+)²⁴∈Fq*，p|q+1的无权半交为p次幂；全η/Cor/最高λ仍开。
 
-R1043原2-Vélu/full9、真实S′/S3左逆、canonical E4/I及η′=ηκ2全部保持。最高像−3Ω′1在O零4；原GL9/Cor给C_a=[L:K]B_a、J_j=6[L:H]Σζ9^(−l_ja)B_a，L0次数6^5。真实3-Vélu的F′*特征+δ和Picard同号；原基值非旧6挠，IV*只在三重好化下降后被3杀。§18两次二核倒序相消给Fr(d_t)=d_hq/t；原三完整J同一位全零时三个真实T_a全p整除，此前提尚不由Sha坏推出。同Fr−unit核degree q+1只p个除点，全p²需degree(q+1)²。
+R1043全2-Vélu/full9、S′/S3左逆、canonical E4/I及η′=ηκ2保。最高像−3Ω′1在O零4，全GL9/Cor给C_a=[L:K]B_a、J_j=6[L:H]Σζ9^(−l_ja)B_a，L0次数6⁵。原3-Vélu/Picard同号，基值非旧6挠，IV*只好化后被3杀。§18真Fr与外系数共轭分开，Fr(d_t)=d_hq/t；同一位三完整J全零才得三个实际T_a全p整除，尚不由Sha坏推出。同Fr−unit核degree q+1只p个除点，不得免费全p²。
 
 §19原KS/Hasse简单零及Broumasμ全边界齐。§20从R=Dμ/A的一维全局空间得D_Bμ=c_q A、c_q≠0；ε及L(O)排局部q次幂，完整Hasse/PF给μ/δ=κ_q X P_q(X³)，P_q=Σ(-4)^j(5/6)_j(2/3)_j U^j/((j!)²(3j+1))。canonical接触恒3，有限ss仅1或2，两cusp ν单位，N_ord+2N_ss=q−5；无须新27桥。§21原对偶运输μ₁(φ̂P)=cφ^qμ₂，Φq严格交换原pull，完整三项给Φq(PQ)=3cQΩ′1、μ(cEPQ)=0和Σω^i c_i^q m_q(fιP_i)。PQ外系数≠固定CM纤维实际T_a的几何[ω]，全η/17/Cor与真正点群forcing仍开；目标p除点不自动提高接触。
 
 §22全三项相位/指数精确消分母，μPQ=cQ X′N_q(V′²)/V′^(2r−1)，唯一有限递推所有3k+1为q单位。N0≠0/N1=3，三IV*好化μ阶2、两cusp阶1；O值=−3cQ 2^(2r−1)P_q(−1/4)，若零则恰六阶。系数变形值不代实际T_a/p影子，继续三个原17标记。
+
+原CM289 note已付真实full9负分量及二核循环合成q−deck、f′=ω/f³=id。实际R_a=17P1−φ̂P2∘f满足ψ̂R_a(0)=17T_a；同一Hecke分量Tate边界付自然性，rR(0)≠0，指定延拓接触仅1/2，由N_q判。p整除不提高接触，继续真正点群forcing。
 
 唯一q11 Manin run46018592834/job140572039981已给μ/δ=10X+3X⁴、Hasse=V(1−X³)，九有限ss接触1、O接触3、余ordinary零度6；全部pins/hash/必要函数在原消费笔记，禁止重跑。原mixed C4候选由Albanese排除。
 
