@@ -1867,3 +1867,198 @@ o1_theta 推导完整 kernel 微分，o2_high_coefficient 提供
 (1061.72) 的原多项式源并独核四阶式；
 root 独核全部 Cartier/pullback、极界、degree 与四阶常数。
 全为纸面证明，无数学程序执行。
+
+
+## 20. 实际对称核与原 Cartier 双线性配对
+
+仍取 $p=6k-1$、$m=(p-1)/2=3k-1$，
+$H=L((p+1)O)$、$V_0=L((p-1)O)$。
+此 $V_0$ 是原椭圆曲线的函数空间，
+不与全局 cusp 模块的同名字母混用。
+
+### 20.1 原规范给出的对称 tensor
+
+原 Miller divisor 及 $O$ 首项直接给
+$
+g_P(T)g_{-P}(T)=
+\frac{U(T)-U([p]P)}{(U(T)-U(P))^p}.
+$
+两边 divisor 均为
+$([p]P)+(-[p]P)-p(P)-p(-P)+2(p-1)O$，
+且原 $z_O=-U/V$ 的首项均为 $z_O^{2(p-1)}$，
+故常数准确为一。
+以 $R=FP$ 改写得
+$
+K(T,R)K(T,-R)=
+\frac{U(T)-U(R)^p}{U(T)^p-U(R)}.
+\tag{1061.75}
+$
+原规范也给 $K(-T,-R)=K(T,R)$。
+配合 §17 的
+$K(R,T)K(T,-R)=-1$，
+准确得到
+$
+\boxed{
+J(T,R):=(U(T)^p-U(R))K(T,R)=J(R,T).
+}
+\tag{1061.76}
+$
+
+这里可核全部曲面 divisor：
+$
+\operatorname{div}(J)=
+\Gamma_{T=-FR}+\Gamma_{R=-FT}
+ -(p+1)(O\times E+E\times O).
+\tag{1061.77}
+$
+因为 $U(T)^p-U(R)$ 的两个零 graph 为 $R=\pm FT$，
+其中 $R=FT$ 恰消原 $K$ 的极 graph；
+其两轴极重数分别为 $2p,2$，
+加上 §17 的 $(p-1)(O\times E-E\times O)$ 即得。
+因此 $J\in H\otimes H$ 是实际对称 tensor，
+没有只在 fibres 比较 divisor 而留下 base scalar。
+它在 $T=O$ 的首项为 $z_T^{-p-1}$，
+所以 $U(T)^{m+1}$ 的系数恰为一。
+
+对 $f\in V_0$，保持 §16 的实际 $t_f=\mathscr T_F(f)$，
+$Z=FT$。相对 Cartier 的 pullback 规则给
+$
+\boxed{
+C_{T,\mathrm{rel}}(fJ\omega_T)
+=(U(Z)-U(R))t_f(R)\omega_Z.
+}
+\tag{1061.78}
+$
+$U(R)$ 始终为 base scalar，未对它取 $p$ 次根。
+
+### 20.2 有限极界内的准确 $A,B$
+
+若 $f\in V_0,g\in H$，则 $fg\omega$ 只有 $O$ 极，
+极阶至多 $2p$。
+Cartier 后仍只有 $O$ 极、至多二阶且留数为零，故唯一写成
+$
+C_{\mathrm{rel}}(fg\omega)
+=\{A(f,g)U(Z)+B(f,g)\}\omega_Z.
+\tag{1061.79}
+$
+取局部 $u=U^{-1/2}$、$u\sim z_O$，则
+$
+V=-u^{-3}(1+v^2u^6)^{1/2},\qquad
+\omega=(1+v^2u^6)^{-1/2}du,
+$
+所以
+$
+A(f,g)=[u^{-p-1}]\frac{fg\omega}{du}.
+\tag{1061.80}
+$
+用 $z_O$ 读取也同值：
+$z_O^p/u^p=1+O(u^{6p})$，远超当前有限极界。
+
+以 (1061.80) 将 $A$ 对称延伸到 $H\times H$。
+这不声称 $H\times H$ 的全部 Cartier 像仍只有 $1,U$；
+该处乘积的极界已增大，可能另有 $V$ 项。
+原单项式公式为
+$
+\begin{aligned}
+A(U^a,U^b)&=\binom{-1/2}{n}v^{2n},
+&n&=(a+b)/3-k,\\
+A(VU^a,VU^b)&=\binom{1/2}{n}v^{2n},
+&n&=(a+b+3)/3-k.
+\end{aligned}
+\tag{1061.81}
+$
+若所示 $n$ 不是非负整数，该项为零；
+even/odd cross 恒零。
+这些有限 binomial 的分母都为模 $p$ 单位。
+
+$H$ 的偶基为 $U^a$，$0\le a\le3k$；
+奇基为 $VU^a$，$0\le a\le3k-2$。
+偶块沿 $a+b=3k$ 的反三角主对角为一，故 perfect。
+奇块按 $a\bmod3$ 的维数为 $k,k,k-1$：
+class $0$ 自配 perfect，
+class $1$ 与 class $2$ 的矩形块有秩 $k-1$。
+因此 $A$ 的总 radical 恰为一维。
+
+这个 radical 准确是原 $k\Psi$。
+$\Psi$ 的完整主部在 $u$ 中仍仅为 $u^{-p}$，
+其余为 $O(u)$：
+$z_O/u=1+O(u^6)$ 的 $p$ 次方修正不添负幂。
+对 $g\in H$，$O(u)\,g\omega$ 最低阶至少 $-p$，所以
+$
+A(\Psi,g)
+=[u^{-p-1}]u^{-p}\frac{g\omega}{du}
+=\operatorname{Res}_O(g\omega)=0.
+$
+最后的留数为零，因为该微分只有 $O$ 一个极。
+故
+$
+\boxed{
+\operatorname{rad}(A|_H)=k\Psi,\qquad
+H/k\Psi\text{ 是维 }p\text{ 的非退化对称空间}.
+}
+\tag{1061.82}
+$
+$V_0$ 不含极阶 $p$ 的 $\Psi$，
+所以 $V_0\to H/k\Psi$ 单射；
+$A(1,g)$ 只读 $g$ 的 $U^{3k}$ 最高系数，
+因而其像准确为 $1^\perp$。
+$V_0$ 内的 radical 为 $k\cdot1$，
+$V_0/k\cdot1$ 的维数为 $p-2$。
+
+### 20.3 原变换的真实自伴与一个完整非零读数
+
+令 $J^\#:H^*\to H$ 为 (1061.76) 的 tensor 收缩。
+对 $f\in V_0$，记 $A_f(g)=A(f,g)$、$B_f(g)=B(f,g)$。
+由 (1061.78) 准确有
+$
+J^\#A_f=t_f,\qquad J^\#B_f=-U\,t_f.
+\tag{1061.83}
+$
+后者确在 $H$，因为 $t_f\in V_0$。
+$J$ 的对称性给
+$
+\boxed{
+A(f,t_g)=A(g,t_f),\qquad
+B(f,t_g)=-A(g,U\,t_f)
+\quad(f,g\in V_0).
+}
+\tag{1061.84}
+$
+这是原 relative $\mathscr T_F$ 对真实 $A$ 的自伴关系；
+不能将 $A$ 换成单项式系数的任意点积。
+结合 §18，它在 $V_0/k\cdot1$ 上仍满足
+$\mathscr T_F^2=\iota^*$。
+
+取 $f=1,g=U^m$。
+原 $t_1=1$、$A(U^m,U)=1$，
+故 $B(1,t_{U^m})=-1$。
+又 $t_{U^m}\in V_0$ 给 $A(1,t_{U^m})=0$，所以
+$
+\boxed{
+C_{\mathrm{rel}}(t_{U^m}\omega)=-\omega'.
+}
+\tag{1061.85}
+$
+对 $\mathbf F_p$ 定义的输入，
+§16 的已付识别给
+$t_{U^m}=\Phi(U^m)=U H_p(U^3)$。
+若 $H_p(X)=\sum_{i=0}^N H_iX^i$，
+原单项式 Cartier 式将 (1061.85) 展成
+$
+\boxed{
+\sum_{i=0}^N
+ H_i\binom{m}{2N+1-i}(v^2)^{N+1+i}=-1.
+}
+\tag{1061.86}
+$
+所有 binomial 指标都在 $0,\ldots,m$。
+
+这是目标截面的一个精确非零线性读数，
+没有证明指定的 $H_p(0)$ 非零。
+原自伴、全局可逆或 (1061.86) 都不能单独替代
+$S_n\ne0$；下一步仍须付指定端点或其真实短 primitive。
+
+o1_theta 推导原对称核与完整 $A/B$ 收缩；
+root 独立推导 (1061.81) 的有限极界公式及 radical，
+并核准完整 graph、原常数、自伴方向和 (1061.86)。
+全部为纸面证明，无数学程序执行。
