@@ -4,7 +4,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-Phi-thirty-two-norm-units-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-D27-finite-native-failure-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -93,7 +93,7 @@ A单射、稠密像、拟幂零且非紧；普通非零真闭不变子空间仍�
 已付交换子收缩多项式密度与特选同头平均，但一般平均在统一成本球强不连续，故不能由全D强逼近获得保持同输入的交换子插值；两完整证明/旧范围保本次快照，不重做。
 
 
-同一实际源的运输插值、双预算/最小普通范数和固定球真实递推已付；指定硬目标的全D最优累计log费用Θ(n⁵)，仅换实现不能降四次。原球软逆像唯一最优W_n²/(W_n²+λ)，含dyadic半径边界的四次准确常数；所有实际递推∏c≥m_n。全D连续整数前缀约束进一步迫独立软最优目标的连接普通范数dyadic无界，必须改变真实目标并付完整前缀/逆像双费。完整原身份与全部源保[压缩前页](notes/2026-11-27-open-before-tail-roots-and-closed-graph-8542.md)和[结果索引](results.md)。
+同源运输/双预算及硬、任意复软复制的累计log费Θ(n⁵)已付；原软最优W_n²/(W_n²+λ)、dyadic边界和全整数前缀普通范数无界的完整证明保快照。仅改实现不降四次，必须改变真实目标并同时付全部前缀/逆像双费。一般非复制来源及未知普通M的D保持仍开。
 
 硬复制和任意复软复制（自适应、统一有界放大、固定非零球）已有五次累计成本障碍，原幂衰减只有四次；软化cut不能修复。一般有限头重排与非复制来源仍开。未知A不变空间未证被D核心保持。
 
@@ -178,7 +178,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 [最大图低余孔C2费用](results/R271-appendix-maximal-graph-low-excess-hole-square-cost.md)已付同一h的明确扇区，实际y有界物理孔遂入原图核心。新[临界小指数物理孔矩准则](results/R271-appendix-critical-small-physical-exponential-maximal-graph-core.md)进一步给s0=(2+2log(3/2))/14：y∈D(G)且e^(s0N)y∈H，则h∈C2并在原图核心；等号的真实8^j余量完整支付。未知Green缺陷Y并未证明有该矩，物理孔平滑未证保Y，同W的Gamma及F/R/Z继续。
 
-**[W整J19已闭](results/R150-appendix-unit211-W-J19-entire-original-weight-curve-exclusion.md)、[w6/Y2自由12维环境](results/R150-appendix-unit211-W-global-polynomial-mean-coordinates-and-explicit-monic-w-six.md)、[原A[y]三生成/首一y6](results/R150-appendix-unit211-W-J19-paid-Ay-three-generators-and-original-monic-y-six.md)保留；[D27原六列单位及完整F806](results/R150-appendix-unit211-W-D27-original-six-column-unit-and-806-finite-cover.md)新已付。** acf41 run46002594178/job140517757591真35.769秒/109324KiB/exit0，整个e5代数的四二次十cubic/18真乘法/21原NSPS或交换行/19真逆，六列组合实际1；所有norm/输入输出分母零k并入QQ首一SF806，仅剥k,k+1,k+2,k+4，权候选≤4030而非已排空。新21400以整五维正则表示、22原权norm精确分区，再逐完整常数域作原48×35全列返1；180秒4GiB，低norm整QQ纤维全保，源依赖冻结acf只再生必要输入。0061首次11阶QQ投影180.082秒/inner−14未返首结式，[失败已冻结](notes/2026-11-27-unit211-W-monic-y-six-first-QQ-projection-timeout-receipt-8542.json)。D27有限返回/B239/Y逆及完整W继续；旧D≠0权单位不传一般h=k。
+**[W整J19](results/R150-appendix-unit211-W-J19-entire-original-weight-curve-exclusion.md)、[w6/Y2自由12维](results/R150-appendix-unit211-W-global-polynomial-mean-coordinates-and-explicit-monic-w-six.md)、[原A[y]首一y6](results/R150-appendix-unit211-W-J19-paid-Ay-three-generators-and-original-monic-y-six.md)及[D27原单位/F806](results/R150-appendix-unit211-W-D27-original-six-column-unit-and-806-finite-cover.md)保留。** 新21400实际51.554秒/109064KiB/inner−11原生崩溃，无Python traceback；精确QQ分区806=24+782、全部46好素数因子乘回已完成。0–10/12–13整e5及11/e4原M4返1，但11/e1仅rank33，14–45未返回；这些模分支不单独冒称QQ因子闭。[准确失败凭据](notes/2026-11-27-unit211-W-D27-first-finite-Gauss-native-failure-receipt-8542.json)已冻结。新bc99首作F24八整QQ因子与全e5的48×35常数1返回，所有非单位双支全保，180秒4GiB；F782未返因子改独立进程，秩33支改真正新M5。0061首11阶QQ投影超时仍冻结；B239/Y逆及完整W继续，旧D非0权结论不传h=k。
 
 **[整个一般ell=0已闭](results/R150-appendix-unit211-general-ell-zero-complete-original-exclusion.md)，全局可付ell。** 完整来源/零域/失败身份保总定理及快照；T0=0和J=Q也已整闭，继续当前原值输入，不重放旧支。
 
