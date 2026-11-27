@@ -2,7 +2,7 @@
 
 2026-11-27 / Astra-rank2-Sha-0b097461-20261127。
 
-**数学依据 [R1050](../results/R1050-original-scalar-thick-fibers-and-exact-cusp-transfer.md) 已证明；本页所列新软件检查尚待实际回执。没有新生产运行，没有宣称原几何或主目标完成。**
+**数学依据 [R1050](../results/R1050-original-scalar-thick-fibers-and-exact-cusp-transfer.md) 已证明；本页新软件的第二次执行已真实PASS（§5）；第一次接口失败完整保留。没有新生产运行，没有宣称原几何或主目标完成。**
 
 ## 1. 原函数中准确的一处替换
 
@@ -51,3 +51,12 @@ run46079094064/job140773624197/source0002ceca5ad8fa084d450fcaf7064def524d9d6b在
 job日志19829B，SHA256 838d805d45cde103ba176f178728d461777c5d937e8ee8ce1f5474a9ef51a4ec；不保存日志。失败源helper/check为 b392e988… / d66165c8…，原完整hash在前次提交可追溯。
 
 修正只在helper和checker各导入标准 copy.copy，将快照及故意非scalar夹具的同类复制改用此接口；不删任何门、行、比较或数学步骤。上表更新为实际第二次请求的四份源码。固定selector/request同时换成新hash并再次触发公开核验，后续实际回执仍待消费。
+
+
+## 5. 第二次公开软件检查真实通过
+
+run46079484704/job140774878749/source52ec703c1a995c63c8af83175045c5de0c43e0f6已success，实际核验用时34.252秒。完整7个case均返回：三种厚度、双prime、返回项突变后的再次调用、原infinity boundary及单位理想。全部原ambient/constant坐标、maximal HNF和厚局部长与未改的generic输出一致；同一点对象确实复用；同det非scalar及未取边界的倒数图都被准确拒绝。实际入口只改原函数一个support call的反向文本核验也通过。
+
+完整payload9916B，SHA256 12109417a54201bac6a700c0795f2bd18b56577d26e458fc38452608cc96a16d；job日志27075B，SHA256 754bb64a2070384192202b0d66bd3f2b2be6fcdbcd78808725427bb48666db43。root亲取日志、核payload SHA、run/source及README blobs；不将可重算输出另存文件。
+
+这支付新实现的小例完整正确性门。原生产未启动；下一步按§3接入三项已PASS修改，仍须在真正原上下文中通过全部数学终门。

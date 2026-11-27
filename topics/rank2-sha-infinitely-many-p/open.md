@@ -141,3 +141,13 @@ root 继续审证、实际两库 pull 和逐条推送；geometry 处理原 $P_q(
 [原Manin二挠特殊值的完整Legendre返回](notes/2026-11-27-original-manin-two-torsion-legendre-boundary.md)已证明：同一原 $B$ 上 $U=-1/4$ 恰为三个非零二挠点，原Hasse严格等于 $\mathcal L_{2n+1}(V)$。次数 $<q$ 的原函数固定全部积分常数；Rodrigues完整边界给 $P_q(-1/4)=(-1)^n C_n/[3\cdot2^{2n+1}(2n+1)!]$，并准确返回原规范 $\mu_{\min}(P_Q)(O)=(-1)^{n+1}c_QC_n/(2n+1)!$。这里 $q=6n+5$ 是辅助特征；整数和 $C_n$ 的无穷模q非零仍开，所有17/η/Cor后继仍保，未以实正性或半单角色取消充作非零。
 
 下一步仅能消费这个同源整数条件或换入真正新几何输入；不能从全局Manin多项式非零直接推指定纤维非零。第一scalar软件检查真实失败于矩阵复制接口，最小修正已重提；未出现原几何反例或软件PASS。
+
+
+### 全深递推的真实首提升已付范围
+
+[R1051§8](results/R1051-original-full-depth-gaussian-node-recurrence.md)把全深递推除以 $p$ 准确返原首提升：$\mathfrak D=Q_1(E_q)\mathcal Y/p$ 对全部同源整，模p不随同一个 $P+pR$ 的 $R$ 改变；全部 $R_p(E_q)$、下一regular带及整数charge进位均保。原基线到 $p^2$ 的实际可读范围为r0时 $q\le p-3$、r>0时 $q\le p-2-6r$，逐行支付ε损失。较强 $\mathscr B_d$ 中的全首Bockstein须同时满足真实 $B_{\rho,r}=0$ 和同一个原 $R$ 的实际像条件，不能外推给旧短矩阵。原canonical坏只直接支付S/T的r0槽；旧R530 divided算子及R631/633低13成本不重复记新收益，主预算仍开。
+
+继续联立原坏条件、真实高前缀核和这些同源下一regular带；新必要行本身不证明核降到所需维数，不把强目标的首提升等价式迁给旧基线。
+
+
+原scalar软件第二次执行已真实通过（run46079484704），完整来源和第一失败见[§§4–5](notes/2026-11-27-original-scalar-support-software-and-production.md)。继续处理真实生产导入顺序及8条实际filtration回执，不将软件PASS替原几何终门。

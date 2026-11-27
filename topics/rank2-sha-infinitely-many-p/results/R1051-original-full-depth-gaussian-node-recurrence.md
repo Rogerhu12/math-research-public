@@ -415,6 +415,198 @@ $
 
 下一步所需的是：使用原固定来源与完整条件 (28)–(29)，在真实同源前缀/同一提升中证明一个额外 Smith 主项。现有所有 regular、factorial、charge 碰撞及高 Gaussian 费用已经由 (14)–(20) 给出；没有以自由 Euler thick ideal 代替这个问题。
 
+
+## 8. $Q_1(E_q)/p$ 的实际首提升与原基线行
+
+本节继续同一 $\Phi$，不另造来源。置
+$
+Q_0(X)=\prod_{\rho=0}^{p-1}(X-\rho),\qquad
+Q_1(T)=a^pQ_0(T/a)=\prod_{\rho=0}^{p-1}(T-a\rho).
+$
+因
+$
+Q_1(T)\equiv T^p-a^{p-1}T\pmod p,
+$
+有唯一真实整多项式
+$
+R_p(T)=\frac{Q_1(T)-T^p+a^{p-1}T}{p}\in\mathcal O[T].
+$
+保其全部系数，定义
+$
+\boxed{\;
+\mathfrak D_{r,q}(P)
+ =\frac{Q_1(E_q)\mathcal Y_{r,q}(P)}p
+ =\frac{\mathcal Y_{r,q+p}-a^{p-1}\mathcal Y_{r,q+1}}p
+   +R_p(E_q)\mathcal Y_{r,q}.
+\;}
+\tag{30}
+$
+由 (20) 的 $H=1$，它是原来源上的整线性泛函。因而
+$
+\mathfrak D_{r,q}(P+pR)\equiv\mathfrak D_{r,q}(P)\pmod p
+$
+对任意同一原格中的 $R$ 成立。这里的除 $p$ 是由整个原行组合的整性支付；不能只保 (30) 的首个差商而丢 $R_p(E_q)$。
+
+### 8.1. 所有 regular 项与 charge 的准确返回
+
+因为 $p>101$，(16) 对 $j\ge2$ 给 $C_{\rho,j,r}\in p^2\mathcal O$。同时
+$
+C_{\rho,0,r}=\sum_{m\equiv\rho}A_{m,r},
+$
+$
+C_{\rho,1,r}
+ =p B_{\rho,r},\qquad
+B_{\rho,r}:=
+ \sum_{m\equiv\rho}\left(A_{m,r+s}+a\ell_mA_{m,r}\right).
+$
+所读 $r+s<2s<L$ 的原 regular 系数均整。
+
+$Q_1(E_q)$ 准确杀掉 $j=0$ 节点，并把
+$q(a\rho)^{q-1}$ 送成 $Q_1'(a\rho)(a\rho)^q$。由
+$Q_1'(a\rho)\equiv-a^{p-1}\pmod p$，得到
+$
+\boxed{\;
+\mathfrak D_{r,q}(P)
+ \equiv
+ -a^{p-1}\sum_{\rho=0}^{p-1}(a\rho)^q
+ \sum_{m\equiv\rho}
+   \left(A_{m,r+s}(P)+a\ell_mA_{m,r}(P)\right)
+ \pmod p.
+\;}
+\tag{31}
+$
+它保原 $A_{m,r+s}$，不是只有一个 charge Fermat 商。
+
+还可完全写成原来源算子。令 $\mathcal C$ 在 charge $m$ 列上作用为乘 $m$，并定义
+$
+\mathcal F_p=\frac{Q_0(\mathcal C)}p
+ =(p-1)!\binom{\mathcal C}{p}.
+$
+$\mathcal F_p$ 保原整格，因为 $Q_0(m)/p\in\mathbf Z$ 对每个整数 $m$ 成立。对 $E_D$，
+$\mathcal C=34S\partial_S+72T\partial_T$；
+对 $G_0\mathcal W_D$，它是 $\mathcal E+40$。全部原角和次数帽不变。
+
+设 $\Phi_{\rm reg}(P)=\sum_mA_m(P;w)$。由
+$Q_0(\rho+p\ell_m)/p\equiv-\ell_m\pmod p$，(31) 等价于
+$
+\boxed{\;
+\mathfrak D_{r,q}(P)\equiv
+ a^{p+q}[w^r]\Phi_{\rm reg}(\mathcal C^q\mathcal F_pP)
+ -a^{p+q-1}[w^{r+s}]
+             \Phi_{\rm reg}(\mathcal C^qP)
+ \pmod p.
+\;}
+\tag{32}
+$
+这是一条真正的“原整 source 算子减下一 regular 带”的关系。后一项没有被重新命名为同 source 的低行；也没有宣称 $\mathcal F_pP$ 自动具有 $P$ 的真前缀。
+
+[R530](R530-divided-graded-connection-full-integral-gauge-and-mixed-second-precision.md) 已使用整数特征值的 Fermat 多项式机制；其原 $\nabla$ 的特征值是角阶 $j$，不能认作本篇特征值为 charge $m$ 的 $\mathcal C$。纯多项式 $[Q_0(X)-X^p+X]/p$ 在 $\mathbf Z[X]$ 中，这解释了本篇整数值算子与该旧机制的联系；并未把 R530 的来源连接或目标共轭搬到这里。本篇 (30)–(34) 的实际全深 scalar 回读、原基线精度与同一个提升 $R$ 均由上述完整证明独立支付，未新增免费的 Euler 传播。
+
+### 8.2. 原基线到 p² 的精度足够范围
+
+(30) 先以 $\mathcal Y$ 行书写，现逐项付回原 (5) 基线，避免误将 $\mathscr B_e$ 换成较强的 $\mathscr B_d$。
+
+保持 $0\le r<s$，取
+$
+\begin{cases}
+0\le q\le p-3,&r=0,\\
+0\le q\le p-2-6r,&1\le r<s.
+\end{cases}
+\tag{33}
+$
+若右端为负，则该范围为空。在 $q,q+1,\ldots,q+p$ 中：
+
+- $q+1$ 与 $q+p$ 的 $\epsilon(r,\cdot)=0$；
+- 其余指标的 $\epsilon(r,\cdot)\le1$；
+- $Q_1$ 在幂次 $2,\ldots,p-1$ 的系数都被 $p$ 整除，其常数项为零。
+
+前两点直接由 (8) 核：小于 $p$ 的指标数字和是自身，介于 $p$ 和 $2p-1$ 的指标数字和是该指标减 $p$ 再加一。特别两个单位系数所在的端点，正好由 (33) 保在 $\epsilon=0$ 的范围。
+
+又
+$
+\mathcal Y_{r,q+\ell}
+ =u_{q+\ell}^{-1}p^{-\epsilon(r,q+\ell)}
+  \left(p^{e(r+s(q+\ell))}
+             [w^{r+s(q+\ell)}]\Phi\right).
+$
+因此 (30) 每项相对原基线正规化行至多损失一个 $p$：中间行的额外 $\epsilon=1$ 由 $Q_1$ 系数的一个 $p$ 支付。故
+$
+\boxed{\;
+p^{e(r+s(q+\ell))}
+ [w^{r+s(q+\ell)}]\Phi(P+pR)\in p^2\mathcal O
+ \ (0\le\ell\le p)
+\quad\Longrightarrow\quad
+\mathfrak D_{r,q}(P)=0\pmod p .
+\;}
+\tag{34}
+$
+这是原基线中同一 $P+pR$ 的必要首提升条件。没有逐项重选 $R$，没有把较强目标的提升当作原目标已付。
+
+当然，若同一来源有真正连续前缀
+$
+\operatorname{ord}_w\Phi(P)\ge r+s(q+p)+1,
+$
+则 (30) 的全部原行已经准确为零，(31)–(32) 给同一个必要关系，无须 (33) 的模 $p^2$ 限制。两种使用范围须分开。
+
+### 8.3. 强目标中的完整同源首 Bockstein
+
+为了明确尚须求解的真实像条件，本小节仅对 $\mathscr B_d$ 陈述一个等价式；不把它外推到 (5) 或旧三块。
+
+若原 $P$ 满足 $\Phi(P)\in p\mathscr B_d$，则由 $j=0$ 的单位 Vandermonde，
+$
+A_{\rho,r}^{(0)}(P):=\sum_{m\equiv\rho}A_{m,r}(P)\in p\mathcal O
+\quad(\rho\in\mathbf F_p,\ 0\le r<s).
+$
+对原格中同一个 $R$，(18) 的 $H=2$ 给
+$
+\frac{\mathcal Y_{r,q}(P+pR)}p
+ \equiv
+ \sum_\rho(a\rho)^q
+   \left(\frac{A_{\rho,r}^{(0)}(P)}p+
+                    A_{\rho,r}^{(0)}(R)\right)
+ +\sum_\rho q(a\rho)^{q-1}B_{\rho,r}(P)
+ \pmod p.
+$
+这里 $q<j$ 的项仍按零处理，故 $q=0,\rho=0$ 没有负幂除法。在 $q=0,\ldots,2p-1$ 上，两个 jet 的合流 Vandermonde 是整可逆矩阵：它是次数 $<2p$ 多项式在 $p$ 个互异点上的值与一阶导数评价，核为
+$\prod_\rho(T-a\rho)^2$，不需除 $p!$。从而
+$
+\boxed{\;
+\Phi(P+pR)\in p^2\mathscr B_d
+\iff
+\begin{cases}
+B_{\rho,r}(P)=0\pmod p,\\
+A_{\rho,r}^{(0)}(R)=
+          -A_{\rho,r}^{(0)}(P)/p\pmod p
+\end{cases}
+\quad\text{对全部 }\rho,r .
+\;}
+\tag{35}
+$
+第一行是显示的同源首障碍；第二行仍必须由**同一个原 $R$** 实际实现。它是原 source-to-image 条件，不能以任意 $p$ 节点数组代替。式 (35) 也没有给旧短 $M$ 增加未读取的高行。
+
+### 8.4. 原 canonical 坏条件只支付其实际中央槽
+
+对 $S,T$ 单列，当前 $p>101$ 使 $m=34,72$ 都属于选定代表 $0,\ldots,p-1$，故 $\ell_m=0$、$\mathcal F_pS=\mathcal F_pT=0$。原质量零还给 $A_{m,0}=0$。
+
+R614 的整窗、R618 全尾与 $j_m=0$ 于是确实迫
+$A_{m,s}\in p\mathcal O$：Newton 第一个系数是
+$pA_{m,s}/\gamma_m$，其余完整项皆在 $p^2\mathcal O$。所以 (31) 中
+$
+\boxed{\;
+j_S=j_T=0
+\quad\Longrightarrow\quad
+\mathfrak D_{0,q}(S)=\mathfrak D_{0,q}(T)=0\pmod p
+\quad(q\ge0).
+\;}
+\tag{36}
+$
+这是真正全部原高行的一个中央首层后果。但它既未给 $r>0$ 的下一 regular 带赋零，也未给 $\mathfrak D_{0,q}(S^\mu T^\nu)$ 赋零。
+
+对 $G_0\mathcal W_D$，$r<13$ 的 $A_{m,r}=0$ 使 (31) 退为下一 regular 带；这些低十三行必须与 R631/R633 已付首 Bockstein 边界一并核对，不能重复计数。新的较长原行仍按 (33)–(34) 逐项付精度。
+
+因此，(30)–(35) 给了全深递推在同一实际首提升中的具体消费，而非一个自由 Euler thick ideal。若要获得超过 §6 的全局主项，仍须将原坏条件与这些真实 $B_{\rho,r}$ 及同 $R$ 像条件联立。
+
+
 ## 依赖与既有结果范围
 
 - [R418](R418-jzero-two-source-growth-and-full-degree-slope-budget.md)：原 $S,T$、同一全部次数源、真实饱和旗标及 $3M_D\log D$ 总预算。

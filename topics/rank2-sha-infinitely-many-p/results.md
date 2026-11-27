@@ -175,3 +175,9 @@ $$
 
 
 - [原Manin二挠特殊值的完整Legendre返回](notes/2026-11-27-original-manin-two-torsion-legendre-boundary.md)已证明：同一原 $B$ 上 $U=-1/4$ 恰为三个非零二挠点，原Hasse严格等于 $\mathcal L_{2n+1}(V)$。次数 $<q$ 的原函数固定全部积分常数；Rodrigues完整边界给 $P_q(-1/4)=(-1)^n C_n/[3\cdot2^{2n+1}(2n+1)!]$，并准确返回原规范 $\mu_{\min}(P_Q)(O)=(-1)^{n+1}c_QC_n/(2n+1)!$。这里 $q=6n+5$ 是辅助特征；整数和 $C_n$ 的无穷模q非零仍开，所有17/η/Cor后继仍保，未以实正性或半单角色取消充作非零。
+
+
+- [R1051§8](results/R1051-original-full-depth-gaussian-node-recurrence.md)把全深递推除以 $p$ 准确返原首提升：$\mathfrak D=Q_1(E_q)\mathcal Y/p$ 对全部同源整，模p不随同一个 $P+pR$ 的 $R$ 改变；全部 $R_p(E_q)$、下一regular带及整数charge进位均保。原基线到 $p^2$ 的实际可读范围为r0时 $q\le p-3$、r>0时 $q\le p-2-6r$，逐行支付ε损失。较强 $\mathscr B_d$ 中的全首Bockstein须同时满足真实 $B_{\rho,r}=0$ 和同一个原 $R$ 的实际像条件，不能外推给旧短矩阵。原canonical坏只直接支付S/T的r0槽；旧R530 divided算子及R631/633低13成本不重复记新收益，主预算仍开。
+
+
+- [原scalar软件真实通过§5](notes/2026-11-27-original-scalar-support-software-and-production.md)：原scalar支撑第二次公开软件run46079484704/job140774878749/source52ec703c已真PASS，7个完整case及全部坐标/常数/厚长、同点复用和两拒绝门通过；payload9916B/hash12109417a54201bac6a700c0795f2bd18b56577d26e458fc38452608cc96a16d。第一copy接口失败保留，生产尚未启动，所有原数学终门待实际消费。

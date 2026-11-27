@@ -12,12 +12,12 @@ root独占refs/H/open/log/index，每条结论即推；非快进立即实际pull
 
 ## 最新实际pull和已读规则
 
-只读CI run46075603971/job140774369036，workflow source e5309ee152260aa4aef389c7d5d68bac1cf8b116：
-- 公开2026-11-27 22:53:37UTC实际部分clone/pull至1e642976aec7c6e620da2e2bab3112e6ee30ee56。根/课题已读README blobs分别282e86b03385d3b6245ce7100ae2e2af7b103c2d、2f3b3c9264fbba8189f85716e68f768830e921bc。
-- 私库22:53:41UTC实际至54a3daefe7ac78e78e636865f771f473b3228920。根/课题已读blobs分别5ba164843b1f5802184178a82d786264404873a3、452d0127a4c3879807d70550d3eafd46c8fac642。QUEUE仍a01613b400f6cce6d89d2df6e34c836d9758386f，本会话进行中；认领41fe885610073f478b2f5a752461ca56cfd43f09。
-- 四README与22:49已读版本均相同，无新差异；请求旧基线3bd753e5/54fd1d82不冒充本次实际head。job日志14886B/hash 74cc6d38e8ed5ec671dc71356984ee081c4816f72dc45d872875da7c147153f7，只记录不存日志。
-- 库存3141blob/44,214,462B、tree d69cc571c07567c557eb030f8366d43a44c5445c，无>5MB，三旧gzip必要输入SHA不变。
-- 每推前重运行最新成功只读job，消费实际两库pull/README差异后发布；**最迟23:53UTC再实际拉两库**。遇ref前进，发布器立即尝试本地pull；无环境则触发CI实际pull并返回，消费后继续推，不以API比较替pull。
+只读CI run46075603971/job140775378967，workflow source e5309ee152260aa4aef389c7d5d68bac1cf8b116：
+- 公开2026-11-27 22:56:56UTC实际部分clone/pull至8f205ac70af3fb7e796c55ad1273ce7ac2b5045c。根/课题已读README blobs分别282e86b03385d3b6245ce7100ae2e2af7b103c2d、2f3b3c9264fbba8189f85716e68f768830e921bc。
+- 私库22:57:02UTC实际至1f38188b52a53500f90ccde07cdf3c24b2c59b1f。根/课题已读blobs分别5ba164843b1f5802184178a82d786264404873a3、452d0127a4c3879807d70550d3eafd46c8fac642。QUEUE仍a01613b400f6cce6d89d2df6e34c836d9758386f，本会话进行中；认领41fe885610073f478b2f5a752461ca56cfd43f09。
+- 四README与22:55已读版本均相同，无新差异；请求旧基线3bd753e5/54fd1d82不冒充本次实际head。job日志14887B/hash d5e08b2e7d9e663fb6537843322c1e74240138f10ccb789a947d1a46628d776a，只记录不存日志。
+- 库存3142blob/44,225,777B、tree 618cc2148bd36d8bf6c274357d5c331f59fa9874，无>5MB，三旧gzip必要输入SHA不变。
+- 每推前重运行最新成功只读job，消费实际两库pull/README差异后发布；**最迟23:56UTC再实际拉两库**。遇ref前进，发布器立即尝试本地pull；无环境则触发CI实际pull并返回，消费后继续推，不以API比较替pull。
 - 本地07:20失联，22:39重试仍无环境；末次本地公开07:12至1cf10ac。API、CI、本地分记。
 
 ## 当前原完整厚几何与真实软件证据
@@ -32,7 +32,7 @@ root独占refs/H/open/log/index，每条结论即推；非快进立即实际pull
 
 [R1050](results/R1050-original-scalar-thick-fibers-and-exact-cusp-transfer.md)已证明全厚支撑的主要简化：必须核实际完整HNF为 $hI$；$\pi^mA$ 每local全长 $m\deg(\pi)d_i$，重数 $md_i/f_i$，其中 $d_i=\operatorname{rank}M_{e_i}$ 为整个非约化纤维维数。原T/v两图完整scalar identities给finite v同T负点重数−1/2、∞同原负重数。专用geometry只消费point+m，可用全滤过且保289等厚度；通用需完整localideal的接口不改，不填假HNF/projector字段。
 
-[原scalar专用软件](notes/2026-11-27-original-scalar-support-software-and-production.md)首次run46079094064/job140773624197真实失败于Sage通用矩阵没有.copy()，无PASS；仅改用标准copy.copy，helper c84656c7/check 3dd124a9及selector/request新hash已重提，第二次实际回执待消费。新geometry需在triangular的from-import前绑定；每次独立session、原完整Frobenius/残域/maximal/registry、原∞边界和全标量HNF均保。生产旧projector“曾被实际使用”末门需准确换成实际full filtration回执，不可用夹具填记录或伪造旧PASS。新生产只能在此处等价性及软件核验已付后整合上述两项；所有四交/一般Norm/18×9终门保留。
+[原scalar专用软件](notes/2026-11-27-original-scalar-support-software-and-production.md)首次run46079094064/job140773624197真实失败于Sage通用矩阵没有.copy()，无PASS；仅改用标准copy.copy，helper c84656c7/check 3dd124a9及selector/request新hash已重提，第二次run46079484704/job140774878749/source52ec703c已真PASS，7夹具全坐标/厚长及两个拒绝门通过；payload9916B/hash12109417a54201bac6a700c0795f2bd18b56577d26e458fc38452608cc96a16d。新geometry需在triangular的from-import前绑定；每次独立session、原完整Frobenius/残域/maximal/registry、原∞边界和全标量HNF均保。生产旧projector“曾被实际使用”末门需准确换成实际full filtration回执，不可用夹具填记录或伪造旧PASS。新生产只能在此处等价性及软件核验已付后整合上述两项；所有四交/一般Norm/18×9终门保留。
 
 ## 数学范围更正继续生效
 
@@ -46,7 +46,7 @@ $A=p^2-1,B=p-1$ 时，任意固定非零 $K,\zeta$ 的 $g(u)=K\zeta^u((Au)!/(Bu)
 
 ## 当前全深矩阵与独立几何方向
 
-[R1051](results/R1051-original-full-depth-gaussian-node-recurrence.md)已完整审证：基线任意物理深度模p按数字和折回原首窗；同一原全部regular系数给 $\mathcal Y_{r,q}$ 与完整 $C_{\rho,j,r}$，$v_p C\ge\lceil\eta j-\vartheta\rceil$。$J_H=\lfloor H/\eta\rfloor$ 的首一全节点递推保任意H、连续前缀和适配旗标全Smith，对角ε不误提成全列因子。其已付加权收益仍仅 $O(M_D)$；原 $3M_D\log D$ 主门未闭。原坏条件完整 $k\gamma_m^k$ 分母不删。arithmetic继续真正高前缀核的同源jets/同一提升，whole-source多节点不冒充核障碍。
+[R1051](results/R1051-original-full-depth-gaussian-node-recurrence.md)已完整审证：基线任意物理深度模p按数字和折回原首窗；同一原全部regular系数给 $\mathcal Y_{r,q}$ 与完整 $C_{\rho,j,r}$，$v_p C\ge\lceil\eta j-\vartheta\rceil$。$J_H=\lfloor H/\eta\rfloor$ 的首一全节点递推保任意H、连续前缀和适配旗标全Smith，对角ε不误提成全列因子。其已付加权收益仍仅 $O(M_D)$；原 $3M_D\log D$ 主门未闭。原坏条件完整 $k\gamma_m^k$ 分母不删。§8进一步付全 $Q_1(E_q)/p$ 的整性、原基线p²可读范围、下一regular带与同R的实际像；强目标等价式不外推旧M。R530只引用同型整数多项式机制，其角阶连接不认作本篇charge；低13 Bockstein不重复。arithmetic继续真正高前缀核的同源jets/同一提升，whole-source多节点不冒充核障碍。
 
 [正特征forest](notes/2026-11-27-original-positive-characteristic-capped-forest-and-cubic-bound.md)§§16–19的原厚理想/全角判别式/same R/carry/Xi已付，但严格触发窗已在第一块行数超过该窗列数范围，未触主临界；Theta68与rho19格不可混用，不重复旧R467强界。
 
