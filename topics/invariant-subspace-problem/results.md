@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [一般等权整个F236的原六行余子式排除](results/R150-appendix-unit211-equal-weights-entire-F236-original-cofactor-exclusion.md)：原行(0,1,2,3,4,7)完整cofactor保旧五行头零，51阶结式在1009与整F236保度Bézout1，系数857/235；源34014ec5实跑11.362秒/exit0，只余m=−1/2。
+
 - [一般等权整个F243权因子的原Gauss排除](results/R150-appendix-unit211-equal-weights-entire-F243-original-Gauss-exclusion.md)：真实NS*x原六列cofactor与C给52阶结式，1009下保度243/939的完整Bézout1排所有复根；源ae8dc73e实际14.574秒/exit0。只余(2m+1)F236，未扩大结论。
 
 - [一般等权完整824次QQ权覆盖](results/R150-appendix-unit211-equal-weights-complete-824-degree-original-weight-cover.md)：固定49阶原C/D结式保全部首项零，剥原m/m−1/2m−1后准确余(2m+1)F236F243；源4f3a8529实际6.815秒/exit0，三个整因子继续返回原NSPS/Dval，未声称空性。
