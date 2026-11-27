@@ -894,7 +894,7 @@ maker真实source commit `f001ca62c1081b7e542c842d14c198ce16b6bee5`、原源89cc
 }
 ```
 
-## 2026-11-27 23:28 UTC — 第一restoration真实接受，完整有限六族同点返回
+## 2026-11-27 23:26 UTC — 第一restoration真实接受，完整有限六族同点返回
 
 固定提交 `436b33d16ef2c4b2fb5ed8b54955a4d59242d114` 小索引记录时间23:18:04 UTC，root先核整文件metadata再读全体。完整身份为：
 

@@ -848,3 +848,115 @@ current仍为初始7e06，Phi4954.71485872585、finite Gram0.6374168330977955、
   "observed_utc": "2026-11-27T22:46:51Z"
 }
 ```
+
+## 2026-11-27 23:27:08 UTC — 17第三个恢复试步的原统计返回
+
+23:05:40.313604开始的新trial完整点为 `e2c1ad7e37ff214220c2f5e79427dee8e4831a1a3df4aee06c013589c6f73734`，23:15:09.707622的trial-statistics-returned真实给Phi=4954.529810387847、Gram=.6374134312335948。此点位于原accepted2之后；几何、接受和实际alpha仍未知，不能从统计下降补成第三次接受。当前仍是已接受 `b0468b7b142cebf2d7d92272c8886aa03897c18ce84c7d00665b1ba2e8994dd7`、g=2.0460148700803895、accepted2。原ed810/8dc9/source36ef0794、独立model f2e417均按原对象保，未与18/19新meridian源混同。完整report=false；raw全13final尚未取得，继续原完整科学。
+
+以下为固定提交完整小索引的身份和原active全对象；仅读取已有标量，先metadata再全小正文，未取科学raw或另算场。缺值保原错误，真实source/点/事件按原对象不混同。
+
+```json
+{
+  "path": "topics/visible-flex-larger-amplitude/notes/2026-11-27-public-actions-46053911348-1.md",
+  "bytes": 18610,
+  "sha256": "ac8b98ad35509008dcfeef20ec0ed8013c213303ddf21ee01b1d839396bfabbe",
+  "git_blob_sha": "5bcae423c03648912dab2f4b1b948f78a74eb2b6",
+  "fixed_commit": "436b33d16ef2c4b2fb5ed8b54955a4d59242d114"
+}
+```
+
+```json
+{
+  "step_id": "complete-fixed-fejer-wide-seed-first-20261127",
+  "scientific_source_commit": "36ef07940921ccfa5eced7124dad275ddd91264d",
+  "scientific_source_sha256": "ed81031fe1eb33684d35585e44022314c8a631821859376a200c874a2aa0e5fa",
+  "pid": 3823,
+  "observations": {
+    "fixed-fejer-wide-seed-first/actual-normal-evaluation-progress.json": {
+      "phase": "normal_chain_enter",
+      "at": "2026-11-27 23:22:08 UTC",
+      "point": "e2c1ad7e37ff214220c2f5e79427dee8e4831a1a3df4aee06c013589c6f73734",
+      "stage": null,
+      "cached_angle_roots": 513,
+      "closure_logical_requests": 901116,
+      "closure_logical_returns": 901116,
+      "closure_logical_failures": 0,
+      "closure_original_returns": 411701,
+      "closure_cache_hits": 489415,
+      "closure_forced_stage_rereads": 105536,
+      "closure_forced_endpoint_rereads": 3298,
+      "closure_scopes_started": 3299,
+      "closure_scopes_closed": 3298,
+      "closure_immutable_point_key_checks": 765610,
+      "closure_point_word_checks": 6597,
+      "closure_original_closure_seconds": 3395.0875153294955,
+      "closure_binding_and_key_seconds": 273.4561841558826
+    },
+    "fixed-fejer-wide-seed-first/actual-mathematical-progress.json": {
+      "math_at": "2026-11-27T23:15:09.707622+00:00",
+      "math_event": "trial-statistics-returned",
+      "math_driver": "8dc9d876f28ef78cc5c80279136af6f1391d3591598cdfecbcecc91aa3582a6d",
+      "math_model": "f2e417e9f6835bbc73fce71e18da20e132ca84246641da6572e8fa6ba66a8372",
+      "math_source": "bff1e03ae12a08444cb9d9d572e439a9b40cf59e80a201cd500f95539ce9e391",
+      "math_target": "957cf0fc1ee59835f499b21a2300094ecb8c8a39fe14a1ebd987cef11305faa9",
+      "initial_point": "7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47",
+      "initial_Phi": 4954.71485872585,
+      "initial_Gram": 0.6374168330977955,
+      "initial_geometry_point": "7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47",
+      "initial_violation": 2.0480426708394406,
+      "initial_geometry_complete": true,
+      "current_point": "b0468b7b142cebf2d7d92272c8886aa03897c18ce84c7d00665b1ba2e8994dd7",
+      "current_Phi": 4954.618769180181,
+      "current_Gram": 0.6374150628738999,
+      "current_geometry_point": "b0468b7b142cebf2d7d92272c8886aa03897c18ce84c7d00665b1ba2e8994dd7",
+      "current_violation": 2.0460148700803895,
+      "current_geometry_complete": true,
+      "current_state": "accepted restoration checkpoint returned; final report not inferred",
+      "trial_point": "e2c1ad7e37ff214220c2f5e79427dee8e4831a1a3df4aee06c013589c6f73734",
+      "trial_Phi": 4954.529810387847,
+      "trial_Gram": 0.6374134312335948,
+      "trial_accepted": null,
+      "accepted_directions": 2,
+      "complete_report": false,
+      "stop_reason": null,
+      "observer_failures": 0
+    }
+  },
+  "complete_small_progress_file_identities": [
+    {
+      "path": "fixed-fejer-wide-seed-first/actual-normal-evaluation-progress.json",
+      "bytes": 3399,
+      "sha256": "ce61e2cfda72157c76222176413d108b9883b36fc464843e0311562db19538ad",
+      "two_complete_bounded_reads_agreed": true
+    },
+    {
+      "path": "fixed-fejer-wide-seed-first/actual-mathematical-progress.json",
+      "bytes": 6483,
+      "sha256": "8a0b275aebc85385d40ba01dee1f8f9cbf868c832007199e52391285435b8da4",
+      "two_complete_bounded_reads_agreed": true
+    }
+  ],
+  "observation_errors": [
+    {
+      "report": "fixed-fejer-wide-seed-first/actual-mathematical-progress.json",
+      "field": "latest_trial_geometry.point_sha256",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-wide-seed-first/actual-mathematical-progress.json",
+      "field": "latest_trial_geometry.positive_physical_g",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-wide-seed-first/actual-mathematical-progress.json",
+      "field": "latest_trial_geometry.complete",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    }
+  ],
+  "child_exit_code": null,
+  "child_natural_return_not_observed": true,
+  "observations_are_not_a_completed_step_or_a_scientific_certificate": true,
+  "observation_identity_sha256": "d85b1c069f6ab40921e0397396c92ba218c619ac16c1ac11955999a78b32c30f",
+  "observed_utc": "2026-11-27T23:22:12Z"
+}
+```

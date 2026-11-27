@@ -49,3 +49,8 @@
 ## 2026-11-27 23:26:23 UTC — 19首restoration实际接受
 
 23:17:39.437630的current-geometry-returned观察已显示current/trial/previous d761b5完整点同，trialaccepted真、accepted1、完整有限geometry真。reach+.9679630392005261下降，distplus+.005863064535577611略升，余四负；Phi3825.0583176123996/Gram.6460503022350718，Phi降而Gram略升，不冒metric成功。actual36304a0d/f600/PID3240/model0abfbf，所有六g、全部原active对象与完整小文件身份保[19全note](notes/2026-11-27-run19-complete-bhalf-launch-and-continuation.md)。alpha/K/D/空间位置未投影仍未知，reportfalse，继续真正原科学。双README云核至`e833c75f25dfa151294b93e3c802a9cb43762fcd`无变（非pull）。
+
+## 2026-11-27 23:27:08 UTC — 17第三个恢复试步的原统计返回
+
+17下一trial e2c1ad7真实23:15:09.707622统计返Phi4954.529810387847/Gram.6374134312335948，几何接受未知；current仍b0468/accepted2/g2.0460148700803895，reportfalse。没有把下一个point或Phi下降当接受。 完整原对象及小文件全身份保[本轮note](notes/2026-11-27-run17-wide-seed-actual-mathematics.md)。双README云核至`545570af6c666c333f71fff133bad78c668f601c`无变（非pull）。
+19 note本节整理分钟按实际提交23:26订正；原科学事件时刻不变。
