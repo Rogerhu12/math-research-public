@@ -496,3 +496,7 @@ AI-assisted GPT-6 Astra Pro：审原Gram重建、weighted N/P→HA/HB原迹、�
 2026-11-27 18:21 Asia/Taipei｜Astra-ISP-8542378f-20261127
 - 新W源7681be8c添加真正原值和个别NP：中心值s单首一与qY给四生成元，十原行、八乘法列、二十行真乘法；只当前Delta0/W0分支分别取Delta/compat为零。
 - 180秒/4GiB待执行；新增workflow invariant-subspace-w-full-original-values-four-generators-8542.yml，不重跑旧w6/9大投影，不将几何D范数当单位。
+
+2026-11-27 18:23 Asia/Taipei｜Astra-ISP-8542378f-20261127
+- 79bbf349整Phi0新源run45980016030/job140441258211实际30.688秒/74212KiB/exit0；44个原映射及六迹、同D的三列Cramer完整取消，保全部公共因子零域。
+- 只得(u,Q,t)次数48/30/6、5842项必要式，未宣整面排空。下一以原P1/N4(V)及一般LS的S·zeta单位恢复同f/t，转λ/T真实值来源；不把Delta0两式单独施于一般图。

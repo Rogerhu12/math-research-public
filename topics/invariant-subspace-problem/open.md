@@ -4,7 +4,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-W-y-one-quartic-cover-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-Phi-zero-original-values-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -49,7 +49,7 @@ rankH3单三jet的全部ess6已闭，末非零Hp原Gaussian/最高/normal给左�
 
 [H非零最高次全分类](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-H-nonzero-highest-weight-cover-and-quadratic-fiber-exclusion.md)与[整个u=Q原返回](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-u-equals-Q-complete-original-exclusion.md)已支付H、u−Q；C9、u半与整图三次覆盖现见下方更新。旧180秒参数cofactor、76.992秒展开trace及F3/F95未决门全部冻结，精确失败保归档，不重跑。
 
-**[整个Q=1−u边界已完整原排除](results/R150-appendix-unit211-Q1minusU-complete-original-exclusion.md)，一般LS全局可付u+Q−1。** 原58阶三个新QQ局部证书给准确重数244/3/3；含二次域完整正规核及两个模根各重数3。剥253度得1129首一局部整余式，与既有g222及三个整域原排除作严格Gauss矛盾。三次真执行10.330/7.880/7.722秒、内部exit0；已完成证明直接登记，旧66不缩小/旧大门冻结。接新Phi0整面及一般A[t]三生成元原值返回，不重开整Q。
+**[整个Q=1−u边界已闭](results/R150-appendix-unit211-Q1minusU-complete-original-exclusion.md)，一般LS全局可付u+Q−1。** 三新QQ局部重数244/3/3、1129首一余式和严格Gauss全原返回；源/回执/全部零域及冻结旧门保正文与本页快照，不重开整Q。
 
 **[整个一般等权b=c原支已闭](results/R150-appendix-unit211-equal-weights-complete-original-exclusion.md)。** 全部旧边界、全图六生成元、原824次QQ覆盖及F236/F243完整原Gauss返回合最后整m=−1/2的原QQ Bézout1，排全部复参数；负半权源5063af65实跑0.315秒/exit0。一般余图现可付ell−u，在W0中进一步付k+2、Q−2。旧QQ600秒门保持冻结；不重做等权，直接继续一般不等权的原NSPS/Dval与全部未付零面。
 
@@ -180,8 +180,10 @@ Deddens自伴MASA、全部可分重数有限成本投影、全2-adic平移距离
 
 **整W/y1已闭，Y=y−1可付；[全余W显式monic Y²与原一次系统](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-global-monic-Y-and-original-linear-system.md)完成。** 原头B/L/N1明确组合给全图q=Y²+A(w)Y+C(w)，名义B(w0)及w−w0除法取消后只有已付分母。0e3be45e真执行9.457秒/145092KiB/exit0，五原一次余式/D一次/10真Y乘法全原返回；D27/B239/J19全部零域保留。仅在A[w]上两生成不假自由，旧w6/9投影不重做。下一真实中心值s用M s²=D与第三矩线性式，在(1,Y,s,Ys)四生成返回完整值部分及个别N/P；W尚未排空。
 
-**[整个一般ell=0原支已闭](results/R150-appendix-unit211-general-ell-zero-complete-original-exclusion.md)，一般余图可付ell。** 全三头曲线、1146次QQ覆盖全部未付因子及u2/u半整线已原返回；来源/失败身份保正文/快照，不重跑。继续一般T0=0与其它未付面。
+**[整个一般ell=0已闭](results/R150-appendix-unit211-general-ell-zero-complete-original-exclusion.md)，全局可付ell。** 完整来源/零域/失败身份保总定理及快照；T0=0和J=Q也已整闭，继续当前原值输入，不重放旧支。
 
 **一般JQ/Pf/固定四头与A[t]三生成/完整原返回已付。** [新两个原t六次关系及十八生成元开图](results/R150-appendix-unit211-general-LS-two-original-t-six-relations-and-eighteen-generators.md)实际0c80263f/26.214秒/79276KiB/exit0；两原三列cofactor参数次数(24,19,16)/(26,21,17)，t首项剩678/827项仍未付。首项非零图至多18生成，全部首项零域/NSPS/物理D/个别原值条件保留。继续同D目标的公共多项式取消；整Phi0原返回与新值坐标独立推进。
 
 [Haar解析理想像](results/R12-appendix-analytic-ideal-rosenblum-images-and-forced-source-divergence.md)只给同g循环闭包，有限Sobolev来源球距g正、逼近源范数发散；[新非对称双幂的精确局部分类](results/R12-appendix-local-asymmetric-polynomial-orbits-and-actual-haar-source-exclusion.md)进一步排除原Haar所有非常数解析单位化及其伴随的非零多项式增长来源。完整同向量恒等式和局部有限阶分布证明已付；这些限制不涵盖紧扰动或负整数边界。Rosenblum实际零点/ideal来源、真实Green范围、非循环g及未知闭根域继续。
+
+**[整Phi0精确特化与同点原D六次必要式](results/R150-appendix-unit211-general-Phi-zero-original-D-sixth-degree-necessary-relation.md)已返回。** 79bbf349实际30.688秒/74212KiB/exit0，44个原参数差身份及全部六迹/三列取消均核；剩(u,Q,t)次数48/30/6、5842项非单位。下一个新输入用当前一般LS已付S·zeta与Pf，由原P1/N4(V)唯一恢复f/t并回原两值，不加入仅Delta0成立的两条分别零式。整面尚开，不围绕该大六次式重开QQ门。

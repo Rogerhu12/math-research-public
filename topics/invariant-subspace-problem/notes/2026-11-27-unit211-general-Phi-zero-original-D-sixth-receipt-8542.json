@@ -1,0 +1,406 @@
+{
+  "schema": "isp-general-Phi-zero-first-original-D-return-v1",
+  "run_id": 45980016030,
+  "job_id": 140441258211,
+  "source_path": "topics/invariant-subspace-problem/notes/2026-11-27-unit211-general-Phi-zero-original-three-column-D-return-8542.py",
+  "execution": {
+    "elapsed_seconds": 30.687548547999995,
+    "max_child_rss_kib": 74212,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "696b5220ab1d3663d45c6b961ec4a97eafa86d55",
+        "before": "696b5220ab1d3663d45c6b961ec4a97eafa86d55",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-27T10:11:56.797171+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "45980016030",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "696b5220ab1d3663d45c6b961ec4a97eafa86d55",
+    "source_exit_code": 0,
+    "source_git_blob": "2918d7dd9ec1412ebfd51b67ee66e80e590869b6",
+    "source_sha256": "79bbf3491e9f6b3545e321151b9fc8f64d69fc68987fa519aed28f97ffbf2b30",
+    "stdout_bytes": 12028,
+    "stdout_sha256": "be5738240bd1f7f716969cbe51862183911e3994b014fb78b368de7be0dd12e2",
+    "stop_reason": null
+  },
+  "actual_records": [
+    {
+      "stage": "new_general_Phi0_exact_original_parameter_map",
+      "parameterEquation": "Q*ell=Q-2*(u-1)*(u-2)",
+      "completePhiZeroSurfaceRetained": true,
+      "onlyParameterMapDivisor": "Q",
+      "originalRuleSpecializationIsExactQuotientIdentity": true,
+      "allMapDifferencesMultipliedByExactPhiRelation": true,
+      "originalP02Identity": "2*(u-1)*ell*Q",
+      "originalJMinusQIdentity": "-4*(u-1)^2",
+      "originalT0Identity": "-Q-4*(u-1)",
+      "originalEqualWeightsFactor": "-(u-1)*(Q+2*u-4)/Q",
+      "alreadyPaidQ1minusUBoundaryRetainedAsOriginalUnit": true,
+      "ordinaryISPClaim": false,
+      "seconds": 1.0954579159999867
+    },
+    {
+      "stage": "new_Phi0_cleared_original_three_column_relation",
+      "label": "E1",
+      "rowIndex": 0,
+      "coefficientDegrees_u_Q_t": [
+        [
+          13,
+          8,
+          2
+        ],
+        [
+          12,
+          7,
+          1
+        ],
+        [
+          12,
+          8,
+          1
+        ]
+      ],
+      "coefficientTerms": [
+        186,
+        112,
+        126
+      ],
+      "paidRemoved": [],
+      "allThreeScalarClearingProductsMultipliedBack": true,
+      "originalSixEquationTraceAlreadyVerified": true,
+      "seconds": 29.37464939199998
+    },
+    {
+      "stage": "new_Phi0_cleared_original_three_column_relation",
+      "label": "EBe",
+      "rowIndex": 1,
+      "coefficientDegrees_u_Q_t": [
+        [
+          13,
+          8,
+          2
+        ],
+        [
+          12,
+          7,
+          1
+        ],
+        [
+          12,
+          8,
+          1
+        ]
+      ],
+      "coefficientTerms": [
+        186,
+        112,
+        126
+      ],
+      "paidRemoved": [],
+      "allThreeScalarClearingProductsMultipliedBack": true,
+      "originalSixEquationTraceAlreadyVerified": true,
+      "seconds": 29.376856519
+    },
+    {
+      "stage": "new_Phi0_cleared_original_three_column_relation",
+      "label": "EBo",
+      "rowIndex": 2,
+      "coefficientDegrees_u_Q_t": [
+        [
+          15,
+          9,
+          2
+        ],
+        [
+          14,
+          8,
+          1
+        ],
+        [
+          14,
+          9,
+          1
+        ]
+      ],
+      "coefficientTerms": [
+        238,
+        145,
+        164
+      ],
+      "paidRemoved": [],
+      "allThreeScalarClearingProductsMultipliedBack": true,
+      "originalSixEquationTraceAlreadyVerified": true,
+      "seconds": 29.379956540999984
+    },
+    {
+      "stage": "new_Phi0_cleared_original_three_column_relation",
+      "label": "N1",
+      "rowIndex": 3,
+      "coefficientDegrees_u_Q_t": [
+        [
+          16,
+          10,
+          2
+        ],
+        [
+          15,
+          9,
+          1
+        ],
+        [
+          15,
+          10,
+          1
+        ]
+      ],
+      "coefficientTerms": [
+        280,
+        173,
+        190
+      ],
+      "paidRemoved": [],
+      "allThreeScalarClearingProductsMultipliedBack": true,
+      "originalSixEquationTraceAlreadyVerified": true,
+      "seconds": 29.38298196599999
+    },
+    {
+      "stage": "new_Phi0_cleared_original_three_column_relation",
+      "label": "NS",
+      "rowIndex": 4,
+      "coefficientDegrees_u_Q_t": [
+        [
+          37,
+          22,
+          3
+        ],
+        [
+          36,
+          21,
+          2
+        ],
+        [
+          36,
+          22,
+          2
+        ]
+      ],
+      "coefficientTerms": [
+        1833,
+        1315,
+        1400
+      ],
+      "paidRemoved": [],
+      "allThreeScalarClearingProductsMultipliedBack": true,
+      "originalSixEquationTraceAlreadyVerified": true,
+      "seconds": 29.397007576999982
+    },
+    {
+      "stage": "new_Phi0_cleared_original_three_column_relation",
+      "label": "PS",
+      "rowIndex": 5,
+      "coefficientDegrees_u_Q_t": [
+        [
+          37,
+          22,
+          3
+        ],
+        [
+          36,
+          21,
+          2
+        ],
+        [
+          36,
+          22,
+          2
+        ]
+      ],
+      "coefficientTerms": [
+        1833,
+        1315,
+        1400
+      ],
+      "paidRemoved": [],
+      "allThreeScalarClearingProductsMultipliedBack": true,
+      "originalSixEquationTraceAlreadyVerified": true,
+      "seconds": 29.411901658999994
+    },
+    {
+      "stage": "new_Phi0_cleared_original_ambiguity_relation",
+      "label": "x2_y_vs_xy_x",
+      "rowIndex": 6,
+      "coefficientDegrees_u_Q_t": [
+        [
+          27,
+          17,
+          3
+        ],
+        [
+          26,
+          16,
+          2
+        ],
+        [
+          26,
+          17,
+          2
+        ]
+      ],
+      "coefficientTerms": [
+        1013,
+        725,
+        781
+      ],
+      "paidRemoved": [],
+      "allThreeScalarClearingProductsMultipliedBack": true,
+      "originalSixEquationTraceAlreadyVerified": true,
+      "seconds": 29.42006090199999
+    },
+    {
+      "stage": "new_Phi0_cleared_original_ambiguity_relation",
+      "label": "xy_y_vs_y2_x",
+      "rowIndex": 7,
+      "coefficientDegrees_u_Q_t": [
+        [
+          26,
+          16,
+          3
+        ],
+        [
+          25,
+          15,
+          2
+        ],
+        [
+          25,
+          16,
+          2
+        ]
+      ],
+      "coefficientTerms": [
+        947,
+        670,
+        725
+      ],
+      "paidRemoved": [],
+      "allThreeScalarClearingProductsMultipliedBack": true,
+      "originalSixEquationTraceAlreadyVerified": true,
+      "seconds": 29.432254847999985
+    },
+    {
+      "stage": "new_Phi0_exact_original_relation_row_rank",
+      "actualGenericRowRank": 3,
+      "selectedRows": [
+        0,
+        4,
+        5
+      ],
+      "selectedLabels": [
+        "E1",
+        "NS",
+        "PS"
+      ],
+      "selectedColumns": [
+        0,
+        1,
+        2
+      ],
+      "originalAllParameterFibresRetained": true,
+      "seconds": 29.53511355399999
+    },
+    {
+      "stage": "new_Phi0_complete_original_physical_D_cofactor_identity",
+      "selectedRows": [
+        0,
+        4,
+        5
+      ],
+      "selectedLabels": [
+        "E1",
+        "NS",
+        "PS"
+      ],
+      "determinantSize": 3,
+      "fullRawAndCancelledFreeThreeColumnIdentitiesMultipliedBack": true,
+      "commonPolynomialCancellationBeforeAnyParameterEvaluation": true,
+      "allCancelledZeroFibresRetainedByVerifiedPolynomialIdentity": true,
+      "targetIsPaidUnitTimesOriginalSamePointDphysicalModuloOriginalSixIdeal": true,
+      "targetWeightScaleHasOnlyPaidFactors": true,
+      "onlyPaidParameterFactorsStrippedFromNecessaryPolynomial": [
+        [
+          "u_minus_one",
+          2
+        ],
+        [
+          "Q",
+          2
+        ],
+        [
+          "original_P02",
+          2
+        ],
+        [
+          "original_bc_M",
+          1
+        ]
+      ],
+      "originalNecessaryPolynomial": {
+        "content": "-1/268435456",
+        "factors": [
+          {
+            "degrees_u_Q_t": [
+              48,
+              30,
+              6
+            ],
+            "totalDegree": 56,
+            "terms": 5842,
+            "multiplicity": 1,
+            "SHA256": "2ff8534ea4ed4b60cee8680d790f4d97255358edaee63e3bbd9dc19c9f66239c"
+          }
+        ],
+        "fullFactorProductMultipliedBack": true
+      },
+      "necessarySHA256": "dc26b62db221e6267fe83b3138900a263b6f7824b292c0dc83eabc7171052975",
+      "completePhiZeroFaceExcluded": false,
+      "allRemainingUQTZeroFibresRetained": true,
+      "seconds": 30.602159121
+    },
+    {
+      "stage": "new_general_Phi0_original_three_column_D_input_complete",
+      "sourceSHA256": "79bbf3491e9f6b3545e321151b9fc8f64d69fc68987fa519aed28f97ffbf2b30",
+      "exactOriginalParameterSubstitutionsMultipliedBack": 44,
+      "originalCoefficientRing": "paid QQ[u,Q] localization[t]",
+      "completePhiZeroSurfaceRetained": true,
+      "allOriginalTraceAndLocalColumnDAGEdgesVerified": true,
+      "allSixOriginalEquationsAndSamePointPhysicalDRetained": true,
+      "genericThreeParameterModuleNotRecomputedAfterSpecialization": true,
+      "actualOriginalDIdentity": true,
+      "wholePhiZeroFaceExcluded": false,
+      "noOriginalValueSufficiencyClaimFromOnlyNecessaryRows": true,
+      "peakRssKiB": 74212,
+      "ordinaryISPClaim": false,
+      "seconds": 30.602435937999985
+    }
+  ],
+  "scope": {
+    "completePhiZeroFaceRetained": true,
+    "newNecessaryPolynomialDegrees_u_Q_t": [
+      48,
+      30,
+      6
+    ],
+    "newNecessaryPolynomialTerms": 5842,
+    "allOriginalDSourceColumnIdentitiesVerified": true,
+    "wholePhiZeroFaceExcluded": false,
+    "ordinaryISPClaim": false
+  }
+}
