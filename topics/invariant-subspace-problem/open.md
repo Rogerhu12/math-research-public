@@ -182,7 +182,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 **[整个一般ell=0已闭](results/R150-appendix-unit211-general-ell-zero-complete-original-exclusion.md)，全局可付ell。** 完整来源/零域/失败身份保总定理及快照；T0=0和J=Q也已整闭，继续当前原值输入，不重放旧支。
 
-**[Delta0 h1/k1≤6219](results/R150-appendix-unit211-Delta-zero-h-one-lambda-half-exclusion-and-6219-cover.md)与[h=k,b=c,Delta非0全闭](results/R150-appendix-unit211-equal-singleton-equal-weight-Delta-nonzero-complete-exclusion.md)保留；[等权Delta0原相容phi20](results/R150-appendix-unit211-equal-singleton-equal-weight-Delta-zero-original-compatibility-20-cover.md)新已付。** 0566真0.088秒/40020KiB/exit0；Delta/F/Tnum三个固定4阶QQ结式合首一20次，不除Delta/不借旧D单位。新c2d6在完整QQ常数代数保双分支，先原Q相容再保自由f返回全部原八式，180秒4GiB。等权Delta0、不等权/其它原面和物理第五列继续；原首一b4/全八权不变量与f5e闭非零图的全部来源保本次完整快照。
+**[h=k,b=c整个原碰撞支全闭](results/R150-appendix-unit211-equal-singleton-equal-weight-Delta-zero-and-entire-collision-exclusion.md)；[Delta0 h1/k1≤6219](results/R150-appendix-unit211-Delta-zero-h-one-lambda-half-exclusion-and-6219-cover.md)保留。** c2d6实际0.289秒/41412KiB/exit0，完整QQ(lambda20)中三相容式恢复原Q一次，保自由f重建八原式，E1/EBe完整Bézout1；46逆/9除法均真返。合旧已成Delta非0整支，现在h=k可合法付u−ell。新方向为该碰撞T0=0的直接原P1解t，保NV/f，不倒Delta；一般不等权、其它原面和物理第五列继续。原phi20覆盖、首一b4/全部权不变量及旧源完整保正文与归档。
 
 [Haar解析理想像](results/R12-appendix-analytic-ideal-rosenblum-images-and-forced-source-divergence.md)只给同g循环闭包，有限Sobolev来源球距g正、逼近源范数发散；[新非对称双幂的精确局部分类](results/R12-appendix-local-asymmetric-polynomial-orbits-and-actual-haar-source-exclusion.md)进一步排除原Haar所有非常数解析单位化及其伴随的非零多项式增长来源。完整同向量恒等式和局部有限阶分布证明已付；这些限制不涵盖紧扰动或负整数边界。Rosenblum实际零点/ideal来源、真实Green范围、非循环g及未知闭根域继续。
 
