@@ -518,3 +518,8 @@ AI-assisted GPT-6 Astra Pro：审原Gram重建、weighted N/P→HA/HB原迹、�
 2026-11-27 18:38 Asia/Taipei｜Astra-ISP-8542378f-20261127
 - 新f9409e5f把W原值系数置QQ(e,k,w)，形式Y/s单项式先回原两首一关系；十原值行与八基底乘法列为新输入，所有标量分母仍有已付依据。
 - 180秒/4GiB首次待实际；新workflow invariant-subspace-w-native-coefficient-full-values-four-generators-8542.yml，不加时重跑旧7681环境展开门，二十行乘法由严格线性推出。
+
+2026-11-27 18:48 Asia/Taipei｜Astra-ISP-8542378f-20261127
+- f9409e5f实际run45983891305/job140454454441，4.955秒/122460KiB/exit0；十原行、八真基底列及交换、52分母、10单项式身份全付，7MB可重算矩阵仅存hash。
+- 第三矩新表示0.180301秒完成；旧7681的180秒失败输入保持冻结。源共同原N4纠正/两谱个别NP均保，最终原商只称四生成。
+- 下一新dc365649作同点D清分母四→二，首次180秒/4GiB；新增workflow invariant-subspace-w-native-d-cleared-two-generators-8542.yml，未预称成功/不倒D范数。
