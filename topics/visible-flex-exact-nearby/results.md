@@ -472,3 +472,7 @@ GHR [metric-reference height](results/R144-supplement-actual-seed-metric-referen
 ### AP96：真实相位泛函在完整原96试探列上的首个联合行（已证明/数值认证）
 
 [完整结果与96记录](results/R149-supplement-actual-complete-phase-row-on-original-finite-trials.md)，45926971089/1全部6目标成功。四个原[7671,193,96]试探数组保持TC完整SHA，真实根sliver与3434新交段逐一保；joint radius<.000227442，首列signed(.0028306,.0029694)，其精确joint中心为208967022709991/72057594037927936，非旧baseline中心。完整误差PRN原负窗units保。true_PDE_corrected_columns=false，因此这是完整trial相位行，真实PDE修正/fullSchur另付；不重新运行旧run。
+
+### RRM：relative frame/position的完整物理均值原负窗receiver（已证明）
+
+[证明](results/R149-supplement-relative-frame-position-means-in-original-negative-source-windows.md)与[18条新有理组合](scripts/fourfold_codazzi_relative_mean_negative_receiver_saved_bounds.py)。frame≤9300(D*+Jroot)+658Froot+294Fstrict+871Jstrict；position≤17200(D*+Jroot)+1217Froot+545Fstrict+1617Jstrict。原SP root H−2/3⊕H−1和strict H−1⊕H−1，ordinary dr/L² units、完整角commutator/移动mean/不重置cut的Fubini全保。relative载体不替actual Q_b/F_b/Cθ world端口。

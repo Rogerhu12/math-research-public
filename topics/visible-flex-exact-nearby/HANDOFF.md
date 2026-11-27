@@ -1,11 +1,11 @@
 # 交接：可见振幅的精确闭等距族
 
-维护会话：visible-exact-astra-fb31ed6-20261127；更新：2026-11-27 03:59:20 UTC。
+维护会话：visible-exact-astra-fb31ed6-20261127；更新：2026-11-27 04:00:40 UTC。
 **总任务未完成，持续研究，不等用户回复。**
 
 ## 规则与授权
 
-已partial+sparse clone两仓库并pull main，读根全部规矩、topic README/H/open/log及接续notes。公开根/topic规则核至5feb2207f7c0dcf7832fa10f6f05f7abc22a531a（相对12385db351ab03292b18db4cfc40e86754aadc89无diff）；私库2026-11-27 03:14:37 UTC环境失联后API刷新main至26c6e7d301bdff07f24b99d7dcfe6bb51e5a555b（上次实际pull3673eb091d9fa2f558e9bdfdfc443e478832367c），根README无diff，QUEUE仍“进行中（visible-exact-astra-fb31ed6-20261127 / 2026-11-27）”，初次claim594e561b05a758bd8c02840ca4fbf574cd707436。
+已partial+sparse clone两仓库并pull main，读根全部规矩、topic README/H/open/log及接续notes。公开根/topic规则核至b0af85d6c8f61477978ee198a6e058af94ad8b9b（相对12385db351ab03292b18db4cfc40e86754aadc89无diff）；私库2026-11-27 03:14:37 UTC环境失联后API刷新main至26c6e7d301bdff07f24b99d7dcfe6bb51e5a555b（上次实际pull3673eb091d9fa2f558e9bdfdfc443e478832367c），根README无diff，QUEUE仍“进行中（visible-exact-astra-fb31ed6-20261127 / 2026-11-27）”，初次claim594e561b05a758bd8c02840ca4fbf574cd707436。
 每pull核两README、至少每小时；非FF立即rebase再推。令牌只CLI，无AGENTS。本地环境03:00前磁盘满后失联，按根规8用GitHub集成仅传<100KB文本；root独占main更新，每次最新head/两README，force=false+expected_sha拒旧父即重base。GF改由connector发布；原source35ff439e后的6件旧排版本地未commit，恢复时不得重复。缓存迁移命令无成功回执。
 科学仅Actions，本地证明/静态/metadata/新saved有理组合。容量本轮原pool512..639共128legacy JSON仅删字符串外空白，当前所有manifest/workflow引用冲突0、原bytes/SHA/blob全核，净省828816B；两完整receipt保notes，原历史不动。第5批45934384748/1已成功，public c264c5e6，128文件gross806606B−receipt69422B=net737184B，原baseline c509ce70；与前一批828816B分开计。规12不增复核审批，结论成即推；规15 topic≤200MB、H<10KB、禁可重建大数组。成功旧科学禁重。
 
@@ -27,11 +27,13 @@ geometry43584188751/26仅同η0全core含帽物理C0≤1e−4、|δν|≤1e−5�
 5. **strictν/phase及relative载体。** NP/NH/PO/APA/ASB/PHI whole全锁，ASB physical幅度(−.006275,−.006264)/high97<5.330e−5；PHI45915169627全6目标，APHI真phase(.038736784,.038768096)/逆<25.82仅strict particular，原全SHA保6eccH。PP保regular defect/nonmeanphase/E′a，CP给1/60<S<3/50仅候选。P96 45926971089/1全6成功，scientific33896B/31a0d69b3fa53ada9ed73284c24fd49266fe9a4ad855ce1bc73548c478009a53；全96 joint radius<.000227442，首signed(.0028306,.0029694)，true_PDE_corrected_columns=false，非真96solution phase；AP96完整证与96记录已登记，joint exact center=(208967022709991/72057594037927936,0,…,0)。PRN原负窗receiver2600(Droot+Jroot)+184Froot+69Fst+245Jst保全mean/源单位。
 RHI完整7件唯一push run45933988440/1（2e59ff1c，03:24:31）已in_progress；manifest49906B/66d1370dac299ea265959ca0531b0af41368ea3276e9faf51d8280a9e2d5461b，83current/51whole，N2048/18component、原2472cell，4新whole targets/18000s。relative A/x与两个ν变分全曲线保，实际Q_b/F_b/Cθ仍独立，反射零均值不冒world行。
 
+RRM完整relative frame/position均值的原负窗receiver已证：frame≤9300(D*+Jroot)+658Froot+294Fstrict+871Jstrict；position≤17200(D*+Jroot)+1217Froot+545Fstrict+1617Jstrict。原SP root/strict单位、移动mean和Fubini全保，不当world行。
+
 ## 已付高阶与非线性接口
 
 完整证明、球、域、units及source/public身份见[results](results.md)、[原H](https://github.com/Rogerhu12/math-research-public/blob/c509ce70c930b0c3bd0c0339dcfaa50a5a08cee9/topics/visible-flex-exact-nearby/HANDOFF.md)，不撤其义务：SM/SMR/STC/RTC真δ*与全部mean/join；QN/QH/NR/NT/RT/PT原负窗全阶与七ports；FX/PX/OX真正fixedφ/physical外反馈77/800与单高；TH/UH/DH/WH/WT全state/ν/mean/physicalheight的一二高阶及world独立ports；RP/RPT/PCT/PSC完整raw E/PD/两mean/waist与单高，GGB实际L8192（CP C1不授H3）；LG/RG/LV实际strong long/horizontal/vector C²及两端κ/λ/mean；RH短[0,.18]relative误差、Qb/Fb/Cθ独立。DC/DB/DG/IL/IR/DT/TM/TP/SDI旧成功、Nash94/NG与全部失败/unknown保递归原件，禁重。
 
-GHR 3f363d86：独立metric-reference height真含reference1，meanroot L_t/全prefix/deep/o逐项微分，完整端点π与λ保。GHC 14bc954d：固定physical w完整参数scalarheight=vη+H∂η+Hmetη+Dλ，真实q(t)径向导数和mean保。GHW d0739f98：完整D_w z的分片C²范数≤2^2048 E20，fixed-w/fixed-λ的完整γ列<2^-56000000 A0/rγ；泛broken方向不自动global C²，actual selected零residual/matching后须闭jet子空间取极限。未据此删world/λ/core义务。
+GHR/GHC/GHW public3f363d86/14bc954d/d0739f98已补metric-reference1、完整fixedphysical参数height与D_w z分片C²≤2^2048 E20、固定w/λ的γ列<2^-56000000 A0/r。泛broken方向非global C²；actual selected matching闭jet极限、λ/world/core仍独立。
 
 ## 尚未完成的验收链
 

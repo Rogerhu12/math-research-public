@@ -74,3 +74,7 @@
 ### 2026-11-27 AP96：完整原始96试探列上的真实相位行
 
 已证明/数值认证：45926971089/1的6/6目标全部成功，scientific33896B SHA31a0d69b3fa53ada9ed73284c24fd49266fe9a4ad855ce1bc73548c478009a53，execution29713B SHAe424d4210e5a98f75c185e339f076f23835e30bb5a5b6237583536310a6e13a3。原四whole arrays[7671,193,96]与TC同SHA，169germs/3095原poly/3434新intersection及true root sliver全付。联合96radius<.000227442、首signed(.0028306,.0029694)，精确joint中心208967022709991/72057594037927936；true_PDE_corrected_columns=false，不能当完整解相位。旧baseline球没有冒充新joint中心。TC03:58 whole1316/contiguous1112，UDRC21 necessary AS恢复0/21，DWTB9尚无complete目标；不重复成功旧计算。
+
+### 2026-11-27 RRM：完整relative frame/position均值的原负窗接收
+
+已证明完整Lm/Lc angular commutators<8/<10，真实|Mφ|op<12、|cφ|<25/2，完整H¹ dual row frame<14/position<26。原SP/rootcut给frame≤9300(D*+Jroot)+658Froot+294Fstrict+871Jstrict，position≤17200(D*+Jroot)+1217Froot+545Fstrict+1617Jstrict；ordinary dr、root H−2/3⊕H−1、strict H−1⊕H−1，所有Aφ/移动mean保。position的X(r)=∫0^rAc及strict min(b,s)不重置cut。Q_b/F_b/Cθ始终独立，18个新有理组合首次全过，无旧science。
