@@ -43,7 +43,7 @@ root独占refs/queue/17实返/新完整入口；solver监12/15/16并备全missin
 
 <!-- visible-larger-parallel-12:start -->
 Actions12：[run 46011377225/1](https://github.com/Rogerhu12/math-research-public/actions/runs/46011377225)；[全阶段记录](notes/2026-11-27-public-actions-46011377225-1.md)。running；已返2，exit=未返。
-并行12规则核查：2026-11-27 19:21:20 UTC，真实pull至`3d4e0d91435eec22ff7cb4ea44fb6dc1cd7dfd39`，双README无变化。
+并行12规则核查：2026-11-27 19:26:21 UTC，真实pull至`01d4cc0bf5fb9c6e0f60cf9e19a17cabaec1124b`，双README无变化。
 <!-- visible-larger-parallel-12:end -->
 
 <!-- visible-larger-parallel-13:start -->
