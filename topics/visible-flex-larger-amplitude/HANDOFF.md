@@ -5,7 +5,7 @@
 
 ## 规则与同步
 
-root最后真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端失效、15:03:35重置后唯一复核仍失败，恢复即真pull。云核至 `48ab81d8e13d6745a9f67a79a1218e6145cd35b7`（非pull）。
+root最后真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端失效、15:03:35重置后唯一复核仍失败，恢复即真pull。云核至 `346dd26f5c8969b0b84664e568ce42b03b1e5dfa`（非pull）。
 双README SHA256：581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d。无变；每真pull只读新差异并立刻遵守，至少每小时。活12–16通常每5分钟真pull，实际已读commit在末块。
 私库QUEUE进行中已推e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。root独占refs/queue；每结论普通推，NFF有终端立即rebase重推；无终端freshHEAD完整合并不冒pull，不force。令牌仅瞬时CLI。[完整发布支持](computations/resume-20261127-root-publication-support.mjs)已刊。
 科学只本公开Actions；raw只runner/scratch、不Git/Release/artifact、不改名输入。保全源/全部参数/真实run与输出hash。题≤200MB、文件<5MB、MD<100KB、H<10KB、open<30KB；先metadata，不整读≥100KB或binary。根§12不另设独立审查/冻结/AST/fixture/重跑门，不减目标或原预算。[旧log全文](log/2026-11-27-session-through-fejer-closed.md)96562B保。
@@ -40,8 +40,8 @@ mesh只真13final或完整required-angle同点snapshot，缺角走原32normal；
 
 ## 容量与分工
 
-[ret46](notes/2026-11-27-retention46-eleven-complete-legacy-results.md)22ce15df净退2598176B，189源输入/完整参数/原结论、固定ad53b75a50916bd96599d6962bc7e16b166cafbb原字恢复保，4未知wholeSHA null，localV命令明确source-derived。ret25/33–45全链不重退；ports/Nelder保。root每新树核≤200MB。
-root独占refs/队列；solver监控12/15/16自然返回，geometry监控13/14并续全闭整像数学，construction完整保全ret47。只退真返活步骤、完整原对象固定；准入/运行时限不作课题收尾。
+[ret47](notes/2026-11-27-retention47-twelve-complete-legacy-results.md)退12旧raw净1541033B，405源输入/原全参数资源/失败结论保；固定0089b00e4e587b0716a2e94de35d06fe7bf901eb原字恢复，三未知wholeSHA null。ret25/33–46全部台账/原结论/固定恢复保，已退46个R82 gzip不重删；ports/Nelder保。root每fresh树核≤200MB。
+root独占refs/queue；solver监控12/15/16实际数学与自然返回；geometry监控13/14、续16完整closed适配；construction续全当前核心轴界的纯证明。只退真返活step、完整原对象固定；设施时限不作课题收尾。
 
 <!-- visible-larger-parallel-12:start -->
 Actions12：[run 46011377225/1](https://github.com/Rogerhu12/math-research-public/actions/runs/46011377225)；[全阶段记录](notes/2026-11-27-public-actions-46011377225-1.md)。running；已返2，exit=未返。
