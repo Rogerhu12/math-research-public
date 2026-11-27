@@ -47,7 +47,7 @@ jobs:
         run: docker pull sagemath/sagemath@sha256:60dfb09e8d1399e127a0d7b62b45eef1044574bae397df51bb6ba38df5498879
       - name: Compute complete original CM global height functional
         env:
-          SERRE_EXPECTED_REQUEST_SHA256: '8341b130a6835de710ee311597b7214107a960245334ee2ee584b13143b7a451'
+          SERRE_EXPECTED_REQUEST_SHA256: '3232e8a8aca7333aa45aa2daadc83edf1bcd8b66186dba73e80d44119e756cc7'
         run: |
           timeout --signal=TERM --kill-after=30s 18000s docker run --rm --cpus=4 \
             --mount "type=bind,source=${GITHUB_WORKSPACE},target=/work,readonly" \

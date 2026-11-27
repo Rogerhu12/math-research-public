@@ -220,7 +220,8 @@
   },
   "basis_source_run": 45958934145,
   "certified_prior_heights": {
-    "1": 818
+    "1": 818,
+    "143": 4219
   },
   "consumed_first_height_run": 45955885738,
   "original_Brandt": {
@@ -252,15 +253,28 @@
     "topics/serre-uniformity/results/R1101-certified-original-level47-smallest-odd-Hecke-basis.md": "654e11bac55837600a014dca8a0aaf7cb83af98e2a6b21fe9faec58c0ace4da5",
     "topics/serre-uniformity/scripts/full_p47_first_global_CM_height.py": "d01af53cac1552a2da888572ee9003ab4bbbbcaa664acd9c71f78e8369c0e76d",
     "topics/serre-uniformity/notes/full-p47-small-odd-Hecke-basis-request.json": "0a513255a671853cc552603d2c6f8aebc5f5112743d9bc3503fe93166fba44e2",
-    "topics/serre-uniformity/scripts/full_p47_complete_global_CM_height.py": "2f1cbff45352b60ff72fcfd3594c69c0b58adcd2569f9937db990490d9345eb4",
-    "topics/serre-uniformity/notes/2026-11-27-full-p47-complete-global-CM-height-method.md": "fef273b40fe439d3a8906a28f55c9e306caaee73fd1ff50c01b0d5aa34d7a50d"
+    "topics/serre-uniformity/scripts/full_p47_complete_global_CM_height.py": "ca0c7d583d0c2feaadfb7bacd89552c52c888bcde145814db8934dc56eb87567",
+    "topics/serre-uniformity/notes/2026-11-27-full-p47-complete-global-CM-height-method.md": "a073ee7c4d37396cb8e527f4a4c3175a75c7fb5af86d16e9cf5eb3649507ebb1"
   },
-  "scope": "New 72 original Gamma(T_n) values in the certified basis; consume Gamma(1)=818 and all original inputs, then recover exact kappa, all 28 residue blocks and 16 normalized linear coefficients. Degenerate blocks are valid results.",
+  "scope": "Consume certified Gamma(1)=818 and completed Gamma(T143)=4219 from run45961230690; compute only remaining 71 original basis values, then recover kappa, all 28 residue blocks and 16 normalized linear coefficients. Degenerate blocks are valid results.",
   "storage": "Code, parameters, actual run/job, hashes and small mathematical conclusions only; no raw arrays, artifacts or Releases.",
-  "launcher_revision": 2,
+  "launcher_revision": 3,
   "previous_launch_failure": {
     "run": 45960073755,
     "job": 140375557226,
     "reason": "Wrong launcher entrypoint and missing sparse-checkout source; Python script did not start; no mathematics executed."
-  }
+  },
+  "consumed_additional_heights": [
+    {
+      "n": 143,
+      "value": 4219,
+      "run": 45961230690,
+      "job": 140379262278,
+      "source": "b2ea6e00280bdf811704c633f5cdd784e3114891",
+      "receipt_kind": "receipt",
+      "receipt_status": "incomplete",
+      "field": "completed.height_values.143",
+      "termination": "Output field collision after the complete worker value was recorded; no mathematical formula failed."
+    }
+  ]
 }

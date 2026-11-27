@@ -237,7 +237,7 @@ def height_worker(n):
     return {"n":n,"Gamma_mod4513":gamma,"parts":parts,
             "norm_work_sha256":digest(local_work),
             "norm_term_counts":[row["odd"]["contributions"] for row in local_work],
-            "elapsed_seconds":time.monotonic()-start}
+            "worker_seconds":time.monotonic()-start}
 
 def matrix_rows(M):
     return [[int(c) for c in row] for row in M.rows()]
@@ -418,9 +418,10 @@ def main():
     COMPLETED["bad47_source"]=bad_meta
     emit("bad47_source_consumed",certificate=bad_meta)
     prior={int(n):int(v) for n,v in req["certified_prior_heights"].items()}
-    if prior!={1:818}:
+    if prior.get(1)!=818 or not set(prior).issubset(indices) or any(v<0 or v>=4513 for v in prior.values()):
         raise RuntimeError("Unexpected old-height input.")
     values=dict(prior)
+    COMPLETED["new_height_certificates"]={}
     COMPLETED["height_values"]=dict(values)
     todo=sorted([n for n in indices if n not in prior],reverse=True)
     STAGE="new_all_selected_norm_heights"
@@ -436,7 +437,8 @@ def main():
                 raise ArithmeticError("A certified index was computed twice.")
             values[n]=result["Gamma_mod4513"]
             COMPLETED["height_values"]=dict(values)
-            emit("new_height_value",**result,completed_new_indices=len(values)-1)
+            COMPLETED["new_height_certificates"][str(n)]=result
+            emit("new_height_value",**result,completed_new_indices=len(values)-len(prior))
         pool.close()
         pool.join()
     except BaseException:
