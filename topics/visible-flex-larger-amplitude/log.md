@@ -39,3 +39,9 @@
 刊[20完整六件](computations/fixed-fejer-bhalf-mu001-R723-complete-post-parameter-delivery.json)及[全说明](notes/2026-11-27-bhalf-mu001-R723-complete-post-parameters.md)，两原runtime1782/3c0d逐字不改。完整19父86836/97718B全部metadata通过精确whole文件共享；新binding保20完整157科学词、mu.001/metric.01、全137/原120与所有未知peer。closed全8/77；矩producer直接取20原89824B文件整个step，10/34/600/max0不改，无19producer混用；consumer8/65全原选择。若同20矩生产已排/已返则只接新consumer，不能重复。全部物理身份future null为准备时未知，官方启动仅已有归因；无新scientific/AST或真证书宣称。
 
 完整6件共135452B；双README云核至`52decf9d255faf5d569a3dac00a93d55d2c5f9dd`无变（非pull），实际controller真pull见H各槽。
+
+## 2026-11-27 23:24:11 UTC — 19/20同源完整final接续参数落地
+
+刊[7件完整总表](computations/current-bhalf-complete-same-source-restart-delivery.json)与[全部说明](notes/2026-11-27-current-bhalf-complete-same-source-restart-parameters.md)。19/20原完整science/pure全部metadata按精确whole父保；当前10fa/f600/8027/b8af、全137/18源/原120pairs/全部数值参数和预算不改。只原调用模式157词中的21独立模式词完整记录并替换，136共同词原序保、添4原restart词=140；fullpure7/445、science458与48live完整不缩。真正complete同源report+同SHA全13final、同runner原完整输入源与typed/history路径才有父对象；accepted-only/progress/packet不是父。父未知peer通过原memory全对象继承，未来各point/final/父末阻尼null。19 CLI.01/.01与20.01/.001仍新初始化，不冒自动继承父适应阻尼；新完整预算/重读baseline不等于完成。Node仅可选完整JSON再生器未执行，已作V8文本构造，无科学/AST/fixture或新门，未排队。
+
+完整7件共320723B；双README云核至`93b9db6ef94c29d66409ecd264ebe44d9ef3fa35`无变（非pull），实际controller真pull见H各槽。

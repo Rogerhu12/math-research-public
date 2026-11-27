@@ -5,7 +5,7 @@
 
 ## 规则与同步
 
-root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端失效；15:03及21:33重置后各唯一探测仍失败，恢复即真pull。云核至 `52decf9d255faf5d569a3dac00a93d55d2c5f9dd`（非pull）。双README SHA256：581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d。每真pull只读新差异即遵守、至少每小时；活17–20通常每5分钟真pull、已读commit在末槽。12终态前末真pull19:41:24至febbfdf90fc257b59e14078173fcb8e15bcdbd32，完整旧槽保1b76H。
+root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端失效；15:03及21:33重置后各唯一探测仍失败，恢复即真pull。云核至 `93b9db6ef94c29d66409ecd264ebe44d9ef3fa35`（非pull）。双README SHA256：581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d。每真pull只读新差异即遵守、至少每小时；活17–20通常每5分钟真pull、已读commit在末槽。12终态前末真pull19:41:24至febbfdf90fc257b59e14078173fcb8e15bcdbd32，完整旧槽保1b76H。
 私库QUEUE进行中已推e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。root独占refs/queue，每结论普通推；NFF有终端即rebase重推，否则freshHEAD完整合并，不冒pull/force。令牌仅瞬时CLI。[完整发布支持](computations/resume-20261127-root-publication-support.mjs)保。
 科学仅本公开Actions；raw只runner/scratch，不Git/Release/artifact、不改名输入。全源/全部参数/真实run/whole输出身份保。题≤200MB、文件<5MB、MD<100KB、H<10KB、open<30KB；先metadata，不整读≥100KB或binary。根§12不加独立审查/冻结/AST/fixture/重跑门、不减原目标预算。[旧log](log/2026-11-27-session-through-fejer-closed.md)全字保。
 
@@ -38,7 +38,7 @@ root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端�
 
 R723方向支撑s/(nᵀAn)及全平行面排序已证，实际支撑/曲率未付；完整独立消费者1782/3c0d及19/20全参已刊，不能冒旧8角色已通过。R718 marked σ、R716独立无标记管、R719/R720全ρ>0与前三RN固定仍须实付。R721无Gram/主曲率排序。全部证明与完整源链接见open/results。
 
-准确费须付32stage/整圆1024胞/922径向+cuts/六jet/全尾/working、上下/p4帽/mixed/allphase/R650、八beta+径向、末主副件唯一record/晚失败。normal.complete不代连续branch，mean J不代Cu；真closed/独立无标记外管/正V/非零中心矩才付含反射δE。全五t/三级空间时间和完整mesh只runner；M320零包含不代新解。同源restart只真complete/final，partial/accepted13不够。03–11全部known/unknown/typed/发现序/失败保旧链；时限与iteration_limit均非终点。
+准确费须付32stage/整圆1024胞/922径向+cuts/六jet/全尾/working、上下/p4帽/mixed/allphase/R650、八beta+径向、末主副件唯一record/晚失败。normal.complete不代连续branch，mean J不代Cu；真closed/独立无标记外管/正V/非零中心矩才付含反射δE。全五t/三级空间时间和完整mesh只runner；M320零包含不代新解。[19/20同源restart全参](computations/current-bhalf-complete-same-source-restart-delivery.json)已刊，只真complete/final；partial/accepted13不够，CLI阻尼不自动承父末值。03–11全部known/unknown/typed/发现序/失败保旧链；时限与iteration_limit均非终点。
 
 ## 容量与分工
 
