@@ -408,3 +408,8 @@ R1049§12（80）–（88）：原Chow层严格图置换将全部η/Cor折为[L:
 
 
 - [原V低degree有限退出§8](2026-11-27-original-three-variable-vector-field-prime-d-property.md)：固定低degree d0的通用有限参数多项式，在Z[1/6,a,t,X,Y]的导数理想升链于固定M稳定；有限多项式等式随任意相容specialization保留。专门化J全部生成元degree≤L=d0+3M，minimal prime的局部长度由孤立Bézout≤L³。p>L³时局部Artin引理使这些minimal primes稳定，故不在proper稳定簇中的任一原Z，其非零degree≤d0方程必在≤M次导数退出。M仅固定存在、不冒有效数值；不涉及embedded长度或无限Fp轨道。
+
+
+### 新ψ4实际十八图的全精度cross及canonical一阶（2026-11-27）
+
+[完整证明](2026-11-27-original-psi4-full-graphs-artin-and-geometric-newton-cross.md)。新18×2图的真实算术CM作用逐2/full9/+34/17核给γZk=ηk(γ)Zk，全部eη Cor严格只乘同一[L:Hk]。同n4真锚s6=(1,−3154/15,4046/15)、d4=1给实际非零Artin基Bk=9Tk4/sk6。新中心diamond与完整cyclic p²、两个退化映射及proper原函数逐图给Aout=(p²−1)Inew；全正权同样M_p(1−p⁻²)。Kriz实际Γ(2,2)邻域/r1的H−2配对保同一新Ω4；显式解析17^(n(u))=17⁻²(17^(p²−1))^u支付先商/升权次序，端点Lk0=κp(p²−1)Inew/17。完整102/34 Newton在正整数先消公共阶乘/period/p权后，连续得到Lk Bl Rl=Ll Bk Rk，Rk=−3qδ^-vK−kJ+k。只在r=3或5的Rr0非零时有Lcan′0=−3(p−1)B1Fnew0K−1,0 JS′0；未称Fnew0或K−单位、未由正权锚预付参考端点。

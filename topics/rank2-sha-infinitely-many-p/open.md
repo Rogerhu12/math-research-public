@@ -200,3 +200,8 @@ p29/type4 note§7新增B=4(X+1)∂x²−96x²∂x+544x及全18列；它是原四
 
 
 三变量V§8又已闭固定低degree统一有限阶退出：通用Noetherian链固定M，minimal局部长度≤(d0+3M)³，排固定有限p后接稳定素簇分类。继续实际高degree/截断森林及原完整矩阵预算；未知M只作固定存在常数，不能用作已知有效阈值。
+
+
+### 新十八图权族的实际 cross 已闭，保显示参考范围
+
+[新几何cross](notes/2026-11-27-original-psi4-full-graphs-artin-and-geometric-newton-cross.md)已逐式付Artin全trace、新fulllevel p²全和、同一Kriz H−2、17解析单位次序及完整两Gaussian。现在真正待付的是r=3或5的Rr(0)非零（否则只能用cross），以及同一Lcan′(0)在无穷p非零和共同因子/负槽端点的控制。在显示参考范围内，坏JS′(0)已迫这个**同一新图族的指定斜率**零；不再缺形式相认。所有新固定常数均来自实际正权锚，未由此宣称augmentation单位；旧q0/54图条件不移到新源。

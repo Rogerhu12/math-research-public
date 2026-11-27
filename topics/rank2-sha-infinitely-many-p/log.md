@@ -298,3 +298,6 @@ root完整证明S3150点源，geometry独核7处真实坐标/CRT/Gaussian，arit
 
 
 - 2026-11-27 21:23:48 UTC：root读取只读CI run46069822587/job140743822950/source084913a27ff7cb01fa36c301f7f6965de16d2717实际回执，完整日志14887B/SHA256 40ca22bf377b1becb2bc81c2025cbf07066f233cf98c9b792019823ae0f9a8c0。公开21:22:05实际pull至084913a27ff7cb01fa36c301f7f6965de16d2717，较f044013487035c28f2c3e21494edf0494453495d根/topic两README均无变；私库21:22:09实际pull至f8759bf1ee45ae74459d7f6e78af4cb114c0788b，较bca09f7f22dd54e77e0a7f1d47f525fbb9b5eec1两README均无变。四已读blob完整SHA见H，QUEUE仍a01613b400f6cce6d89d2df6e34c836d9758386f，本会话进行中。规则15 tree6d8aed3bab5ce4b57fbf70aeda9e380c43021f6e、3119blob/43,883,386B、无>5MB、三旧gzip必要输入同SHA。本轮补齐21:21并发ref重试后的实际拉取，下一两库actual pull≤22:22UTC；不存日志/矩阵，原唯一v12与理论继续。
+
+
+- 2026-11-27 21:27:02 UTC：消费geometry新cross v2 blobf2ff1363a126ff46dc219f71f616e51194a7a643（v1未推）。root逐式核ε4/ρ4与全单位代表、正确χ⁻¹十八权重标、s6三锚/Bk、新中心和p²/KS/proper返回，亲读Kriz书版Thm6.21、Prop7.15/7.20–22和§9.3(9.7)–(9.18)核只用局部H值端点；central独核degree17杯积发现并已修先商/升权次序。v2明确解析17^(n(u))而非p^n，负二17²严格抵消，κ只余源基。root核两个Newton完整整数回卷/连续cross和仅参考非零范围的一阶，未给F/K端点赋单位。note 23987B/SHA256 c8c82406ee6ad370b389842995e5a9d7dea2f7a8c99938ec95dfadff881b0081；无数学运行。H整理前9153B逐字归档2026-11-27-handoff-before-psi4-geometric-cross.md，新open保真实参考门及跨p非零。actual两库pull21:22/下一≤22:22，唯一v12继续。
