@@ -1,0 +1,1772 @@
+{
+  "schema": "isp-G36-low61-first-seven-original-QQ-complete-and-remaining-timeout-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "dateUTC": "2026-11-27",
+  "runId": 46049258624,
+  "jobId": 140676203083,
+  "sourceGitBlob": "9ee3dc260d5c8460cb49ef382a95b9c216307f8c",
+  "sourceSHA256": "cad41b33c5808c3aa04341f29971c3b8fe82705e0ddc5a87495faedb1b5c9d9e",
+  "actualDriver": {
+    "elapsed_seconds": 180.069730303,
+    "max_child_rss_kib": 88336,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "e3b8d580c512471a68ba32b3af2e9f108be921bb",
+        "before": "549b3305fae3e440ec47aef73f7e6069d0f1cb5b",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-27T18:24:56.204705+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46049258624",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "549b3305fae3e440ec47aef73f7e6069d0f1cb5b",
+    "source_exit_code": -14,
+    "source_git_blob": "9ee3dc260d5c8460cb49ef382a95b9c216307f8c",
+    "source_sha256": "cad41b33c5808c3aa04341f29971c3b8fe82705e0ddc5a87495faedb1b5c9d9e",
+    "stdout_bytes": 27844,
+    "stdout_sha256": "acc7dc4448d7fec408c57b6a6f62cb1ffae68ce1a8509a176957eb64a84fb459",
+    "stop_reason": null
+  },
+  "completeLowInput": "2026-11-27-unit211-W-G36-exact-low-61-factors-8542.json",
+  "actualMathematicalRecords": [
+    {
+      "stage": "G36_saved_actual_low61_input_no_large_partition_repeated",
+      "savedSourceRun": 46046219647,
+      "savedSourceExitCode": -11,
+      "lowNormCover": {
+        "degree": 61,
+        "bytes": 1801,
+        "sha256": "3f6d0d88becc49ec7aabc1343e801516576d98921bdbd5f01b818c0ae0e4f83e",
+        "coefficients": [
+          "697517510287142420480",
+          "16633342662151057178624",
+          "1213848272021743636316160/7",
+          "7696599226434724573478912/7",
+          "5216439909747276573048832",
+          "156470845354525342325276672/7",
+          "653750043004639926124806144/7",
+          "2472195774774742833847861248/7",
+          "7700978287600728332272926720/7",
+          "18761235715853644799890423808/7",
+          "34404439988962189206727163904/7",
+          "43653361207453933813907849216/7",
+          "25018652315179718439977615360/7",
+          "-40604478313554283021004177408/7",
+          "-21027450560901590643606814720",
+          "-251898169851078091868821520384/7",
+          "-294144897305284196116042088448/7",
+          "-237866735167696271322407501824/7",
+          "-101950897461777350285821214720/7",
+          "49941108290658060935353597952/7",
+          "152292648525932307252628160512/7",
+          "25279512946326084665523109888",
+          "140133976728646699309540409344/7",
+          "79949094566746093140784738304/7",
+          "4102576213104315681514528768",
+          "-377470654564497955356064256/7",
+          "-10151852518106502564120062592/7",
+          "-9485257612198970416619347840/7",
+          "-5793221629787736511859991568/7",
+          "-2691690671434026989934293288/7",
+          "-971750588281880498300553518/7",
+          "-256455331834368123204630537/7",
+          "-19330843768975338865688785/4",
+          "10774743685189863819640705/7",
+          "82584950803511780760241859/56",
+          "157178384754291889498272439/224",
+          "57766531803034666040366391/224",
+          "18031364238797399065673291/224",
+          "19628704913573165559013859/896",
+          "2302529456162197892421087/448",
+          "15794043069619841662101/16",
+          "239534275600914740842187/1792",
+          "14567346228446650174271/3584",
+          "-7489741399792154160557/1792",
+          "-381856958380063433573/256",
+          "-156298349871782252133/512",
+          "-18399222996261430705/448",
+          "-10567817311702248879/3584",
+          "116427964855417699/896",
+          "235226196081126505/3584",
+          "28651889718702247/3584",
+          "844436068176065/3584",
+          "-17595764766887/256",
+          "-1383508658505/128",
+          "-714103580131/1792",
+          "19989880457/224",
+          "7893077313/448",
+          "26974685/16",
+          "1634293/16",
+          "28004/7",
+          "2619/28",
+          "1"
+        ]
+      },
+      "completeLowQQFactors": [
+        {
+          "multiplicity": 1,
+          "degree": 2,
+          "bytes": 14,
+          "sha256": "f481f9c027cf7f71e308b95c1ecec1504cf2affdc526874255fdfb6dee5a7545",
+          "coefficients": [
+            "10",
+            "8",
+            "1"
+          ]
+        },
+        {
+          "multiplicity": 1,
+          "degree": 2,
+          "bytes": 15,
+          "sha256": "172f1fcc86ef75317acf5444d50e36b96d718fffd6fd3157cd23edacd4cfa45c",
+          "coefficients": [
+            "-8",
+            "-4",
+            "1"
+          ]
+        },
+        {
+          "multiplicity": 1,
+          "degree": 3,
+          "bytes": 19,
+          "sha256": "22c40c9b9094ada98c30da96f02dfc2b106aeae50f42561a062aef3a9dac9e8b",
+          "coefficients": [
+            "8",
+            "37",
+            "24",
+            "4"
+          ]
+        },
+        {
+          "multiplicity": 1,
+          "degree": 4,
+          "bytes": 25,
+          "sha256": "631b3192afae3638edf1b1b1d66152c7bcdfa7782faa48e96992034b8e2b0f74",
+          "coefficients": [
+            "64",
+            "96",
+            "52",
+            "17",
+            "2"
+          ]
+        },
+        {
+          "multiplicity": 1,
+          "degree": 5,
+          "bytes": 32,
+          "sha256": "0024c68bd3334a2df16dca8afea0ae47d04c0e8033a44b39242f4955cbc152e1",
+          "coefficients": [
+            "-28",
+            "-49",
+            "-11",
+            "15",
+            "8",
+            "1"
+          ]
+        },
+        {
+          "multiplicity": 1,
+          "degree": 6,
+          "bytes": 46,
+          "sha256": "19afa6febebef0ad2ae347a61b778a6a333c64a7a1656f18695a38b8925533d4",
+          "coefficients": [
+            "-2048",
+            "-3584",
+            "-2048",
+            "-512",
+            "-40",
+            "8",
+            "1"
+          ]
+        },
+        {
+          "multiplicity": 1,
+          "degree": 10,
+          "bytes": 79,
+          "sha256": "bf244848220abc950e21da2b3f9000f42ec4124bdfd34d4c0e4918a045c1f025",
+          "coefficients": [
+            "-7744",
+            "-14880",
+            "-1016",
+            "22348",
+            "29838",
+            "20208",
+            "8285",
+            "2116",
+            "328",
+            "28",
+            "1"
+          ]
+        },
+        {
+          "multiplicity": 1,
+          "degree": 14,
+          "bytes": 157,
+          "sha256": "b91f8c88ebdabe5918e030103847e65f40584f213773959851769d3dc925c298",
+          "coefficients": [
+            "-4194304",
+            "-51380224",
+            "-204537856",
+            "-386301952",
+            "-403456000",
+            "-237987840",
+            "-63872256",
+            "9616896",
+            "13344512",
+            "4080896",
+            "395086",
+            "-46669",
+            "-8800",
+            "620",
+            "112"
+          ]
+        },
+        {
+          "multiplicity": 1,
+          "degree": 15,
+          "bytes": 137,
+          "sha256": "46ded3facfdfaa208d23c409598c4b7c620472ad764df26f798d80d6d5cc9111",
+          "coefficients": [
+            "-32768",
+            "40960",
+            "-104448",
+            "-1220096",
+            "-2014592",
+            "-869248",
+            "842560",
+            "1236348",
+            "665340",
+            "192568",
+            "42791",
+            "14671",
+            "5086",
+            "1020",
+            "102",
+            "4"
+          ]
+        }
+      ],
+      "completeSavedFactorProductActuallyReturned": true,
+      "noF1198GcdOrFactorizationRepeated": true,
+      "noGenericG36SourceExecuted": true,
+      "allLowQBranchesRetained": true,
+      "wholeG36Excluded": false,
+      "seconds": 0.0010139700000024732
+    },
+    {
+      "stage": "G36_new_entire_low_norm_QQ_input",
+      "completeLowDegree": 61,
+      "completeQQFactors": [
+        {
+          "multiplicity": 1,
+          "degree": 2,
+          "bytes": 14,
+          "sha256": "f481f9c027cf7f71e308b95c1ecec1504cf2affdc526874255fdfb6dee5a7545",
+          "coefficients": [
+            "10",
+            "8",
+            "1"
+          ]
+        },
+        {
+          "multiplicity": 1,
+          "degree": 2,
+          "bytes": 15,
+          "sha256": "172f1fcc86ef75317acf5444d50e36b96d718fffd6fd3157cd23edacd4cfa45c",
+          "coefficients": [
+            "-8",
+            "-4",
+            "1"
+          ]
+        },
+        {
+          "multiplicity": 1,
+          "degree": 3,
+          "bytes": 19,
+          "sha256": "22c40c9b9094ada98c30da96f02dfc2b106aeae50f42561a062aef3a9dac9e8b",
+          "coefficients": [
+            "8",
+            "37",
+            "24",
+            "4"
+          ]
+        },
+        {
+          "multiplicity": 1,
+          "degree": 4,
+          "bytes": 25,
+          "sha256": "631b3192afae3638edf1b1b1d66152c7bcdfa7782faa48e96992034b8e2b0f74",
+          "coefficients": [
+            "64",
+            "96",
+            "52",
+            "17",
+            "2"
+          ]
+        },
+        {
+          "multiplicity": 1,
+          "degree": 5,
+          "bytes": 32,
+          "sha256": "0024c68bd3334a2df16dca8afea0ae47d04c0e8033a44b39242f4955cbc152e1",
+          "coefficients": [
+            "-28",
+            "-49",
+            "-11",
+            "15",
+            "8",
+            "1"
+          ]
+        },
+        {
+          "multiplicity": 1,
+          "degree": 6,
+          "bytes": 46,
+          "sha256": "19afa6febebef0ad2ae347a61b778a6a333c64a7a1656f18695a38b8925533d4",
+          "coefficients": [
+            "-2048",
+            "-3584",
+            "-2048",
+            "-512",
+            "-40",
+            "8",
+            "1"
+          ]
+        },
+        {
+          "multiplicity": 1,
+          "degree": 10,
+          "bytes": 79,
+          "sha256": "bf244848220abc950e21da2b3f9000f42ec4124bdfd34d4c0e4918a045c1f025",
+          "coefficients": [
+            "-7744",
+            "-14880",
+            "-1016",
+            "22348",
+            "29838",
+            "20208",
+            "8285",
+            "2116",
+            "328",
+            "28",
+            "1"
+          ]
+        },
+        {
+          "multiplicity": 1,
+          "degree": 14,
+          "bytes": 157,
+          "sha256": "b91f8c88ebdabe5918e030103847e65f40584f213773959851769d3dc925c298",
+          "coefficients": [
+            "-4194304",
+            "-51380224",
+            "-204537856",
+            "-386301952",
+            "-403456000",
+            "-237987840",
+            "-63872256",
+            "9616896",
+            "13344512",
+            "4080896",
+            "395086",
+            "-46669",
+            "-8800",
+            "620",
+            "112"
+          ]
+        },
+        {
+          "multiplicity": 1,
+          "degree": 15,
+          "bytes": 137,
+          "sha256": "46ded3facfdfaa208d23c409598c4b7c620472ad764df26f798d80d6d5cc9111",
+          "coefficients": [
+            "-32768",
+            "40960",
+            "-104448",
+            "-1220096",
+            "-2014592",
+            "-869248",
+            "842560",
+            "1236348",
+            "665340",
+            "192568",
+            "42791",
+            "14671",
+            "5086",
+            "1020",
+            "102",
+            "4"
+          ]
+        }
+      ],
+      "exactQQPartitionPreviouslyReturnedAndSaved": true,
+      "noLargeQQPartitionRepeatedInThisSource": true,
+      "qMonicDegree": 6,
+      "noFrozenGenericOrHighModularReturnExecuted": true,
+      "independentPaidC9": "R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-C9-complete-original-exclusion.md",
+      "independentPaidJ19": "R150-appendix-unit211-W-J19-entire-original-weight-curve-exclusion.md",
+      "onlyConstantOneTarget": true,
+      "wholeG36Excluded": false,
+      "seconds": 0.001117544000003079
+    },
+    {
+      "stage": "new_G36_low_norm_actual_QQ_Q_nonunit_split",
+      "path": "low_k_0",
+      "qFactor": [
+        [
+          "-1"
+        ],
+        [
+          "1"
+        ]
+      ],
+      "qComplement": [
+        [
+          "-1161/2",
+          "-1505/4"
+        ],
+        [
+          "1661/4",
+          "272"
+        ],
+        [
+          "-203/4",
+          "-129/4"
+        ],
+        [
+          "-21/2",
+          "-25/2"
+        ],
+        [
+          "-5/2",
+          "2"
+        ],
+        [
+          "1"
+        ]
+      ],
+      "reason": "named already paid original weight 1-Q",
+      "paidUnitZeroOnFirstFactor": "1-Q",
+      "bothFactorsActuallyMultipliedBack": true,
+      "allOriginalFibersRetained": true,
+      "claimExcluded": false,
+      "seconds": 0.015191401999999243
+    },
+    {
+      "stage": "new_G36_low_norm_named_original_paid_unit_zero",
+      "path": "low_k_0/qa",
+      "kModulus": [
+        "10",
+        "8",
+        "1"
+      ],
+      "qModulus": [
+        [
+          "-1"
+        ],
+        [
+          "1"
+        ]
+      ],
+      "paidOriginalWeightIdenticallyZero": "1-Q",
+      "zeroFollowsActualGcdDivisionProduct": true,
+      "excluded": true,
+      "seconds": 0.015261997000003191
+    },
+    {
+      "stage": "new_G36_low_norm_finite_original_weight_algebra",
+      "path": "low_k_0/qb",
+      "kDegree": 2,
+      "qDegree": 5,
+      "QQDimension": 10,
+      "allActualPaidUnitInverseProductsOne": true,
+      "allNormZeroBranchesRetained": true,
+      "claimExcluded": false,
+      "seconds": 0.06856500199999971
+    },
+    {
+      "stage": "new_G36_low_norm_entire_finite_original_QQ_return",
+      "path": "low_k_0/qb",
+      "kModulus": [
+        "10",
+        "8",
+        "1"
+      ],
+      "qModulus": [
+        [
+          "-1161/2",
+          "-1505/4"
+        ],
+        [
+          "1661/4",
+          "272"
+        ],
+        [
+          "-203/4",
+          "-129/4"
+        ],
+        [
+          "-21/2",
+          "-25/2"
+        ],
+        [
+          "-5/2",
+          "2"
+        ],
+        [
+          "1"
+        ]
+      ],
+      "kDegree": 2,
+      "qDegree": 5,
+      "QQDimension": 10,
+      "allOriginalE0N0P1MeanN1WeightedNPActuallyRebuilt": true,
+      "originalRows": 48,
+      "columns": 35,
+      "rank": 35,
+      "originalConstantOneReturned": true,
+      "allOriginalThirtyFiveColumnCombinationProductsActuallyVerified": true,
+      "noPhysicalDInverseOrDpowerTarget": true,
+      "actualInverseProducts": 392,
+      "certificate": {
+        "bytes": 183800,
+        "sha256": "2b44132b24a71d8fa5255bc50ad841b652fd8daf062ea4229c5da130a1c25836"
+      },
+      "excluded": true,
+      "wallSeconds": 8.411877410999992,
+      "wholeG36Excluded": false,
+      "seconds": 8.427166496999995
+    },
+    {
+      "stage": "new_G36_low_norm_actual_QQ_Q_nonunit_split",
+      "path": "low_k_1",
+      "qFactor": [
+        [
+          "-4",
+          "-2"
+        ],
+        [
+          "1"
+        ]
+      ],
+      "qComplement": [
+        [
+          "-448",
+          "-308"
+        ],
+        [
+          "1696",
+          "1164"
+        ],
+        [
+          "-484",
+          "-332"
+        ],
+        [
+          "34",
+          "18"
+        ],
+        [
+          "-4",
+          "1"
+        ],
+        [
+          "1"
+        ]
+      ],
+      "reason": "named already paid original weight H",
+      "paidUnitZeroOnFirstFactor": "H",
+      "bothFactorsActuallyMultipliedBack": true,
+      "allOriginalFibersRetained": true,
+      "claimExcluded": false,
+      "seconds": 8.485318690999996
+    },
+    {
+      "stage": "new_G36_low_norm_named_original_paid_unit_zero",
+      "path": "low_k_1/qa",
+      "kModulus": [
+        "-8",
+        "-4",
+        "1"
+      ],
+      "qModulus": [
+        [
+          "-4",
+          "-2"
+        ],
+        [
+          "1"
+        ]
+      ],
+      "paidOriginalWeightIdenticallyZero": "H",
+      "zeroFollowsActualGcdDivisionProduct": true,
+      "excluded": true,
+      "seconds": 8.485392088999994
+    },
+    {
+      "stage": "new_G36_low_norm_finite_original_weight_algebra",
+      "path": "low_k_1/qb",
+      "kDegree": 2,
+      "qDegree": 5,
+      "QQDimension": 10,
+      "allActualPaidUnitInverseProductsOne": true,
+      "allNormZeroBranchesRetained": true,
+      "claimExcluded": false,
+      "seconds": 8.537809763000006
+    },
+    {
+      "stage": "new_G36_low_norm_entire_finite_original_QQ_return",
+      "path": "low_k_1/qb",
+      "kModulus": [
+        "-8",
+        "-4",
+        "1"
+      ],
+      "qModulus": [
+        [
+          "-448",
+          "-308"
+        ],
+        [
+          "1696",
+          "1164"
+        ],
+        [
+          "-484",
+          "-332"
+        ],
+        [
+          "34",
+          "18"
+        ],
+        [
+          "-4",
+          "1"
+        ],
+        [
+          "1"
+        ]
+      ],
+      "kDegree": 2,
+      "qDegree": 5,
+      "QQDimension": 10,
+      "allOriginalE0N0P1MeanN1WeightedNPActuallyRebuilt": true,
+      "originalRows": 48,
+      "columns": 35,
+      "rank": 35,
+      "originalConstantOneReturned": true,
+      "allOriginalThirtyFiveColumnCombinationProductsActuallyVerified": true,
+      "noPhysicalDInverseOrDpowerTarget": true,
+      "actualInverseProducts": 392,
+      "certificate": {
+        "bytes": 155033,
+        "sha256": "cad44a341d54a34b088d101e6829ff288fa375e74bbebba8f743707f3d6748c5"
+      },
+      "excluded": true,
+      "wallSeconds": 7.73660996400001,
+      "wholeG36Excluded": false,
+      "seconds": 16.222038055999995
+    },
+    {
+      "stage": "new_G36_low_norm_actual_QQ_Q_nonunit_split",
+      "path": "low_k_2",
+      "qFactor": [
+        [
+          "2",
+          "1"
+        ],
+        [
+          "1"
+        ]
+      ],
+      "qComplement": [
+        [
+          "859/16",
+          "7741/128",
+          "7927/512"
+        ],
+        [
+          "-805/8",
+          "-7185/64",
+          "-1707/64"
+        ],
+        [
+          "1481/32",
+          "16493/256",
+          "917/64"
+        ],
+        [
+          "15/2",
+          "-153/16",
+          "-61/32"
+        ],
+        [
+          "-8",
+          "-1",
+          "-1/4"
+        ],
+        [
+          "1"
+        ]
+      ],
+      "reason": "named already paid original weight V",
+      "paidUnitZeroOnFirstFactor": "V",
+      "bothFactorsActuallyMultipliedBack": true,
+      "allOriginalFibersRetained": true,
+      "claimExcluded": false,
+      "seconds": 16.234113493000002
+    },
+    {
+      "stage": "new_G36_low_norm_named_original_paid_unit_zero",
+      "path": "low_k_2/qa",
+      "kModulus": [
+        "8",
+        "37",
+        "24",
+        "4"
+      ],
+      "qModulus": [
+        [
+          "2",
+          "1"
+        ],
+        [
+          "1"
+        ]
+      ],
+      "paidOriginalWeightIdenticallyZero": "V",
+      "zeroFollowsActualGcdDivisionProduct": true,
+      "excluded": true,
+      "seconds": 16.234192920000005
+    },
+    {
+      "stage": "new_G36_low_norm_finite_original_weight_algebra",
+      "path": "low_k_2/qb",
+      "kDegree": 3,
+      "qDegree": 5,
+      "QQDimension": 15,
+      "allActualPaidUnitInverseProductsOne": true,
+      "allNormZeroBranchesRetained": true,
+      "claimExcluded": false,
+      "seconds": 16.299985801
+    },
+    {
+      "stage": "new_G36_low_norm_entire_finite_original_QQ_return",
+      "path": "low_k_2/qb",
+      "kModulus": [
+        "2",
+        "37/4",
+        "6",
+        "1"
+      ],
+      "qModulus": [
+        [
+          "859/16",
+          "7741/128",
+          "7927/512"
+        ],
+        [
+          "-805/8",
+          "-7185/64",
+          "-1707/64"
+        ],
+        [
+          "1481/32",
+          "16493/256",
+          "917/64"
+        ],
+        [
+          "15/2",
+          "-153/16",
+          "-61/32"
+        ],
+        [
+          "-8",
+          "-1",
+          "-1/4"
+        ],
+        [
+          "1"
+        ]
+      ],
+      "kDegree": 3,
+      "qDegree": 5,
+      "QQDimension": 15,
+      "allOriginalE0N0P1MeanN1WeightedNPActuallyRebuilt": true,
+      "originalRows": 48,
+      "columns": 35,
+      "rank": 35,
+      "originalConstantOneReturned": true,
+      "allOriginalThirtyFiveColumnCombinationProductsActuallyVerified": true,
+      "noPhysicalDInverseOrDpowerTarget": true,
+      "actualInverseProducts": 392,
+      "certificate": {
+        "bytes": 477999,
+        "sha256": "8f8fa9145977afa6d884e08595d9d21980efafff70a00a969674e00391668fe0"
+      },
+      "excluded": true,
+      "wallSeconds": 12.65159509,
+      "wholeG36Excluded": false,
+      "seconds": 28.885813086999995
+    },
+    {
+      "stage": "new_G36_low_norm_actual_QQ_Q_nonunit_split",
+      "path": "low_k_3",
+      "qFactor": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "1"
+        ]
+      ],
+      "qComplement": [
+        [
+          "133/4",
+          "347/8",
+          "913/64",
+          "141/256"
+        ],
+        [
+          "-100",
+          "-106",
+          "-109/4",
+          "-13/16"
+        ],
+        [
+          "87",
+          "173/2",
+          "307/16",
+          "39/64"
+        ],
+        [
+          "-12",
+          "-17",
+          "-3",
+          "-1/16"
+        ],
+        [
+          "-6",
+          "-1",
+          "-1/4"
+        ],
+        [
+          "1"
+        ]
+      ],
+      "reason": "named already paid original weight u",
+      "paidUnitZeroOnFirstFactor": "u",
+      "bothFactorsActuallyMultipliedBack": true,
+      "allOriginalFibersRetained": true,
+      "claimExcluded": false,
+      "seconds": 28.894628344999994
+    },
+    {
+      "stage": "new_G36_low_norm_named_original_paid_unit_zero",
+      "path": "low_k_3/qa",
+      "kModulus": [
+        "64",
+        "96",
+        "52",
+        "17",
+        "2"
+      ],
+      "qModulus": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "1"
+        ]
+      ],
+      "paidOriginalWeightIdenticallyZero": "u",
+      "zeroFollowsActualGcdDivisionProduct": true,
+      "excluded": true,
+      "seconds": 28.894693910999997
+    },
+    {
+      "stage": "new_G36_low_norm_finite_original_weight_algebra",
+      "path": "low_k_3/qb",
+      "kDegree": 4,
+      "qDegree": 5,
+      "QQDimension": 20,
+      "allActualPaidUnitInverseProductsOne": true,
+      "allNormZeroBranchesRetained": true,
+      "claimExcluded": false,
+      "seconds": 28.955341487999995
+    },
+    {
+      "stage": "new_G36_low_norm_entire_finite_original_QQ_return",
+      "path": "low_k_3/qb",
+      "kModulus": [
+        "32",
+        "48",
+        "26",
+        "17/2",
+        "1"
+      ],
+      "qModulus": [
+        [
+          "133/4",
+          "347/8",
+          "913/64",
+          "141/256"
+        ],
+        [
+          "-100",
+          "-106",
+          "-109/4",
+          "-13/16"
+        ],
+        [
+          "87",
+          "173/2",
+          "307/16",
+          "39/64"
+        ],
+        [
+          "-12",
+          "-17",
+          "-3",
+          "-1/16"
+        ],
+        [
+          "-6",
+          "-1",
+          "-1/4"
+        ],
+        [
+          "1"
+        ]
+      ],
+      "kDegree": 4,
+      "qDegree": 5,
+      "QQDimension": 20,
+      "allOriginalE0N0P1MeanN1WeightedNPActuallyRebuilt": true,
+      "originalRows": 48,
+      "columns": 35,
+      "rank": 35,
+      "originalConstantOneReturned": true,
+      "allOriginalThirtyFiveColumnCombinationProductsActuallyVerified": true,
+      "noPhysicalDInverseOrDpowerTarget": true,
+      "actualInverseProducts": 392,
+      "certificate": {
+        "bytes": 614761,
+        "sha256": "e864d094afdb5e8930a378ce61ec088a551802ace5f7e30b0fee93401fe77e90"
+      },
+      "excluded": true,
+      "wallSeconds": 12.801337451000009,
+      "wholeG36Excluded": false,
+      "seconds": 41.696054135999994
+    },
+    {
+      "stage": "new_G36_low_norm_actual_QQ_Q_nonunit_split",
+      "path": "low_k_4",
+      "qFactor": [
+        [
+          "-4",
+          "-5/2",
+          "-1/2"
+        ],
+        [
+          "1"
+        ]
+      ],
+      "qComplement": [
+        [
+          "-263/8",
+          "-1741/32",
+          "-49/2",
+          "-51/32",
+          "17/32"
+        ],
+        [
+          "73/2",
+          "697/8",
+          "821/16",
+          "111/16",
+          "-3/8"
+        ],
+        [
+          "33/2",
+          "-125/8",
+          "-105/4",
+          "-23/4",
+          "-1/8"
+        ],
+        [
+          "-16",
+          "-12",
+          "11/2",
+          "21/8",
+          "1/4"
+        ],
+        [
+          "-2",
+          "5/2",
+          "1/4"
+        ],
+        [
+          "1"
+        ]
+      ],
+      "reason": "named already paid original weight P02",
+      "paidUnitZeroOnFirstFactor": "P02",
+      "bothFactorsActuallyMultipliedBack": true,
+      "allOriginalFibersRetained": true,
+      "claimExcluded": false,
+      "seconds": 41.752760055
+    },
+    {
+      "stage": "new_G36_low_norm_named_original_paid_unit_zero",
+      "path": "low_k_4/qa",
+      "kModulus": [
+        "-28",
+        "-49",
+        "-11",
+        "15",
+        "8",
+        "1"
+      ],
+      "qModulus": [
+        [
+          "-4",
+          "-5/2",
+          "-1/2"
+        ],
+        [
+          "1"
+        ]
+      ],
+      "paidOriginalWeightIdenticallyZero": "P02",
+      "zeroFollowsActualGcdDivisionProduct": true,
+      "excluded": true,
+      "seconds": 41.752834455000006
+    },
+    {
+      "stage": "new_G36_low_norm_finite_original_weight_algebra",
+      "path": "low_k_4/qb",
+      "kDegree": 5,
+      "qDegree": 5,
+      "QQDimension": 25,
+      "allActualPaidUnitInverseProductsOne": true,
+      "allNormZeroBranchesRetained": true,
+      "claimExcluded": false,
+      "seconds": 41.82049563500001
+    },
+    {
+      "stage": "new_G36_low_norm_entire_finite_original_QQ_return",
+      "path": "low_k_4/qb",
+      "kModulus": [
+        "-28",
+        "-49",
+        "-11",
+        "15",
+        "8",
+        "1"
+      ],
+      "qModulus": [
+        [
+          "-263/8",
+          "-1741/32",
+          "-49/2",
+          "-51/32",
+          "17/32"
+        ],
+        [
+          "73/2",
+          "697/8",
+          "821/16",
+          "111/16",
+          "-3/8"
+        ],
+        [
+          "33/2",
+          "-125/8",
+          "-105/4",
+          "-23/4",
+          "-1/8"
+        ],
+        [
+          "-16",
+          "-12",
+          "11/2",
+          "21/8",
+          "1/4"
+        ],
+        [
+          "-2",
+          "5/2",
+          "1/4"
+        ],
+        [
+          "1"
+        ]
+      ],
+      "kDegree": 5,
+      "qDegree": 5,
+      "QQDimension": 25,
+      "allOriginalE0N0P1MeanN1WeightedNPActuallyRebuilt": true,
+      "originalRows": 48,
+      "columns": 35,
+      "rank": 35,
+      "originalConstantOneReturned": true,
+      "allOriginalThirtyFiveColumnCombinationProductsActuallyVerified": true,
+      "noPhysicalDInverseOrDpowerTarget": true,
+      "actualInverseProducts": 392,
+      "certificate": {
+        "bytes": 1020538,
+        "sha256": "edfd833d701d1d4b85e8e41253d1f5dd60c608a80be61552354df503fd0ed50d"
+      },
+      "excluded": true,
+      "wallSeconds": 16.192862180000006,
+      "wholeG36Excluded": false,
+      "seconds": 57.945721712
+    },
+    {
+      "stage": "new_G36_low_norm_actual_QQ_Q_nonunit_split",
+      "path": "low_k_5",
+      "qFactor": [
+        [],
+        [
+          "1"
+        ]
+      ],
+      "qComplement": [
+        [
+          "-768",
+          "-1512",
+          "-1024",
+          "-333",
+          "-111/2",
+          "-57/16"
+        ],
+        [
+          "144",
+          "412",
+          "333",
+          "111",
+          "137/8",
+          "17/16"
+        ],
+        [
+          "56",
+          "26",
+          "-26",
+          "-49/4",
+          "-25/16",
+          "-1/16"
+        ],
+        [
+          "-8",
+          "-17",
+          "-3/4",
+          "3/4",
+          "1/8"
+        ],
+        [
+          "-6",
+          "0",
+          "-1/4"
+        ],
+        [
+          "1"
+        ]
+      ],
+      "reason": "named already paid original weight e",
+      "paidUnitZeroOnFirstFactor": "e",
+      "bothFactorsActuallyMultipliedBack": true,
+      "allOriginalFibersRetained": true,
+      "claimExcluded": false,
+      "seconds": 57.952249735
+    },
+    {
+      "stage": "new_G36_low_norm_named_original_paid_unit_zero",
+      "path": "low_k_5/qa",
+      "kModulus": [
+        "-2048",
+        "-3584",
+        "-2048",
+        "-512",
+        "-40",
+        "8",
+        "1"
+      ],
+      "qModulus": [
+        [],
+        [
+          "1"
+        ]
+      ],
+      "paidOriginalWeightIdenticallyZero": "e",
+      "zeroFollowsActualGcdDivisionProduct": true,
+      "excluded": true,
+      "seconds": 57.952311196000004
+    },
+    {
+      "stage": "new_G36_low_norm_finite_original_weight_algebra",
+      "path": "low_k_5/qb",
+      "kDegree": 6,
+      "qDegree": 5,
+      "QQDimension": 30,
+      "allActualPaidUnitInverseProductsOne": true,
+      "allNormZeroBranchesRetained": true,
+      "claimExcluded": false,
+      "seconds": 58.02560776400001
+    },
+    {
+      "stage": "new_G36_low_norm_entire_finite_original_QQ_return",
+      "path": "low_k_5/qb",
+      "kModulus": [
+        "-2048",
+        "-3584",
+        "-2048",
+        "-512",
+        "-40",
+        "8",
+        "1"
+      ],
+      "qModulus": [
+        [
+          "-768",
+          "-1512",
+          "-1024",
+          "-333",
+          "-111/2",
+          "-57/16"
+        ],
+        [
+          "144",
+          "412",
+          "333",
+          "111",
+          "137/8",
+          "17/16"
+        ],
+        [
+          "56",
+          "26",
+          "-26",
+          "-49/4",
+          "-25/16",
+          "-1/16"
+        ],
+        [
+          "-8",
+          "-17",
+          "-3/4",
+          "3/4",
+          "1/8"
+        ],
+        [
+          "-6",
+          "0",
+          "-1/4"
+        ],
+        [
+          "1"
+        ]
+      ],
+      "kDegree": 6,
+      "qDegree": 5,
+      "QQDimension": 30,
+      "allOriginalE0N0P1MeanN1WeightedNPActuallyRebuilt": true,
+      "originalRows": 48,
+      "columns": 35,
+      "rank": 35,
+      "originalConstantOneReturned": true,
+      "allOriginalThirtyFiveColumnCombinationProductsActuallyVerified": true,
+      "noPhysicalDInverseOrDpowerTarget": true,
+      "actualInverseProducts": 392,
+      "certificate": {
+        "bytes": 1391929,
+        "sha256": "0bc0d7e0f4b867a1bd0547314a81a46b6178179751ea52d9f6f1c8170b92e7bc"
+      },
+      "excluded": true,
+      "wallSeconds": 20.611020667000005,
+      "wholeG36Excluded": false,
+      "seconds": 78.56336184700001
+    },
+    {
+      "stage": "new_G36_low_norm_actual_QQ_Q_nonunit_split",
+      "path": "low_k_6",
+      "qFactor": [
+        [
+          "1334090/100733",
+          "1583530/100733",
+          "-5698759/402932",
+          "-7934613/201466",
+          "-28738481/805864",
+          "-14347509/805864",
+          "-4243061/805864",
+          "-737327/805864",
+          "-17195/201466",
+          "-657/201466"
+        ],
+        [
+          "1"
+        ]
+      ],
+      "qComplement": [
+        [
+          "1895015/100733",
+          "-4901031/201466",
+          "-47150251/805864",
+          "-102236639/1611728",
+          "-172719351/3223456",
+          "-95204843/3223456",
+          "-63492175/6446912",
+          "-12463947/6446912",
+          "-1331249/6446912",
+          "-59149/6446912"
+        ],
+        [
+          "-791341/100733",
+          "19453253/201466",
+          "78879809/805864",
+          "25814405/1611728",
+          "-58686015/3223456",
+          "-45187151/3223456",
+          "-29997865/6446912",
+          "-5254765/6446912",
+          "-436747/6446912",
+          "-12247/6446912"
+        ],
+        [
+          "-7620216/100733",
+          "-16552798/100733",
+          "1223709/201466",
+          "95991071/402932",
+          "25530225/100733",
+          "108151837/805864",
+          "131538117/3223456",
+          "11592261/1611728",
+          "2173357/3223456",
+          "2589/100733"
+        ],
+        [
+          "7263270/100733",
+          "9257086/100733",
+          "-9645711/201466",
+          "-154188023/805864",
+          "-295821619/1611728",
+          "-151028343/1611728",
+          "-90235187/3223456",
+          "-15756195/3223456",
+          "-1472627/3223456",
+          "-56279/3223456"
+        ],
+        [
+          "-1938488/100733",
+          "-1583530/100733",
+          "2799013/201466",
+          "7934613/201466",
+          "28738481/805864",
+          "14347509/805864",
+          "4243061/805864",
+          "737327/805864",
+          "17195/201466",
+          "657/201466"
+        ],
+        [
+          "1"
+        ]
+      ],
+      "reason": "named already paid original weight C9",
+      "paidUnitZeroOnFirstFactor": "C9",
+      "bothFactorsActuallyMultipliedBack": true,
+      "allOriginalFibersRetained": true,
+      "claimExcluded": false,
+      "seconds": 78.709441438
+    },
+    {
+      "stage": "new_G36_low_norm_named_original_paid_unit_zero",
+      "path": "low_k_6/qa",
+      "kModulus": [
+        "-7744",
+        "-14880",
+        "-1016",
+        "22348",
+        "29838",
+        "20208",
+        "8285",
+        "2116",
+        "328",
+        "28",
+        "1"
+      ],
+      "qModulus": [
+        [
+          "1334090/100733",
+          "1583530/100733",
+          "-5698759/402932",
+          "-7934613/201466",
+          "-28738481/805864",
+          "-14347509/805864",
+          "-4243061/805864",
+          "-737327/805864",
+          "-17195/201466",
+          "-657/201466"
+        ],
+        [
+          "1"
+        ]
+      ],
+      "paidOriginalWeightIdenticallyZero": "C9",
+      "zeroFollowsActualGcdDivisionProduct": true,
+      "excluded": true,
+      "seconds": 78.709525472
+    },
+    {
+      "stage": "new_G36_low_norm_finite_original_weight_algebra",
+      "path": "low_k_6/qb",
+      "kDegree": 10,
+      "qDegree": 5,
+      "QQDimension": 50,
+      "allActualPaidUnitInverseProductsOne": true,
+      "allNormZeroBranchesRetained": true,
+      "claimExcluded": false,
+      "seconds": 78.845269191
+    },
+    {
+      "stage": "new_G36_low_norm_entire_finite_original_QQ_return",
+      "path": "low_k_6/qb",
+      "kModulus": [
+        "-7744",
+        "-14880",
+        "-1016",
+        "22348",
+        "29838",
+        "20208",
+        "8285",
+        "2116",
+        "328",
+        "28",
+        "1"
+      ],
+      "qModulus": [
+        [
+          "1895015/100733",
+          "-4901031/201466",
+          "-47150251/805864",
+          "-102236639/1611728",
+          "-172719351/3223456",
+          "-95204843/3223456",
+          "-63492175/6446912",
+          "-12463947/6446912",
+          "-1331249/6446912",
+          "-59149/6446912"
+        ],
+        [
+          "-791341/100733",
+          "19453253/201466",
+          "78879809/805864",
+          "25814405/1611728",
+          "-58686015/3223456",
+          "-45187151/3223456",
+          "-29997865/6446912",
+          "-5254765/6446912",
+          "-436747/6446912",
+          "-12247/6446912"
+        ],
+        [
+          "-7620216/100733",
+          "-16552798/100733",
+          "1223709/201466",
+          "95991071/402932",
+          "25530225/100733",
+          "108151837/805864",
+          "131538117/3223456",
+          "11592261/1611728",
+          "2173357/3223456",
+          "2589/100733"
+        ],
+        [
+          "7263270/100733",
+          "9257086/100733",
+          "-9645711/201466",
+          "-154188023/805864",
+          "-295821619/1611728",
+          "-151028343/1611728",
+          "-90235187/3223456",
+          "-15756195/3223456",
+          "-1472627/3223456",
+          "-56279/3223456"
+        ],
+        [
+          "-1938488/100733",
+          "-1583530/100733",
+          "2799013/201466",
+          "7934613/201466",
+          "28738481/805864",
+          "14347509/805864",
+          "4243061/805864",
+          "737327/805864",
+          "17195/201466",
+          "657/201466"
+        ],
+        [
+          "1"
+        ]
+      ],
+      "kDegree": 10,
+      "qDegree": 5,
+      "QQDimension": 50,
+      "allOriginalE0N0P1MeanN1WeightedNPActuallyRebuilt": true,
+      "originalRows": 48,
+      "columns": 35,
+      "rank": 35,
+      "originalConstantOneReturned": true,
+      "allOriginalThirtyFiveColumnCombinationProductsActuallyVerified": true,
+      "noPhysicalDInverseOrDpowerTarget": true,
+      "actualInverseProducts": 392,
+      "certificate": {
+        "bytes": 4592418,
+        "sha256": "bbaa5a6ac4c03b5158eeb81a0c0e54b03583254bae32bff24cbec7b3f4c1a8f0"
+      },
+      "excluded": true,
+      "wallSeconds": 58.0413944,
+      "wholeG36Excluded": false,
+      "seconds": 136.750946411
+    },
+    {
+      "stage": "new_G36_low_norm_actual_QQ_Q_nonunit_split",
+      "path": "low_k_7",
+      "qFactor": [
+        [
+          "-209275764645709382822116194/8085859568431709324716849",
+          "-8931945653756359107940947403/32343438273726837298867396",
+          "-247192155553014074027309867093/258747506189814698390939168",
+          "-1528574668838536730742258584509/1034990024759258793563756672",
+          "-4914302031128087391017087403245/4139960099037035174255026688",
+          "-7733793487030608255093981524899/16559840396148140697020106752",
+          "-524480147911218069724566420281/33119680792296281394040213504",
+          "8737776702174556470454673406685/132478723169185125576160854016",
+          "14116719217818103862031507677173/529914892676740502304643416064",
+          "7151005488980678754171797589073/2119659570706962009218573664256",
+          "-1097731343285508406105922945593/4239319141413924018437147328512",
+          "-19125795703027146059569387363/264957446338370251152321708032",
+          "3792873786223161409295609919/1059829785353481004609286832128",
+          "227069471562733207365043723/264957446338370251152321708032"
+        ],
+        [
+          "1"
+        ]
+      ],
+      "qComplement": [
+        [
+          "-493323476734167300043730464/8085859568431709324716849",
+          "-682596539940084700669261976/8085859568431709324716849",
+          "-4524432084085525194739421697/16171719136863418649433698",
+          "-46457037197527230713718848327/64686876547453674597734792",
+          "-212284346328504901550641597449/258747506189814698390939168",
+          "-452832346978280245247675887423/1034990024759258793563756672",
+          "-131616741862262425170317509405/2069980049518517587127513344",
+          "380461121919573183541614376847/8279920198074070348510053376",
+          "814031601329282081234979310437/33119680792296281394040213504",
+          "492952851018528128118449381065/132478723169185125576160854016",
+          "-53991099771256798645159769817/264957446338370251152321708032",
+          "-1292284983279270838461978839/16559840396148140697020106752",
+          "196545684876169729998240223/66239361584592562788080427008",
+          "14763710362178204296229227/16559840396148140697020106752"
+        ],
+        [
+          "1363627950527337620801325344/8085859568431709324716849",
+          "10677322040262930787134346524/8085859568431709324716849",
+          "64084748275688239490357292997/16171719136863418649433698",
+          "382779097249488716964453910961/64686876547453674597734792",
+          "1234339890046504861893495477681/258747506189814698390939168",
+          "1982981623305816188702657948957/1034990024759258793563756672",
+          "175968644751060708009227080163/2069980049518517587127513344",
+          "-2196974439293357641779421051125/8279920198074070348510053376",
+          "-3646503244988723992177011775749/33119680792296281394040213504",
+          "-1890499600644373445242415283135/132478723169185125576160854016",
+          "278739626836754353646340239843/264957446338370251152321708032",
+          "5042833167243700567301559575/16559840396148140697020106752",
+          "-969456210114912661357512037/66239361584592562788080427008",
+          "-59574799583564828697242185/16559840396148140697020106752"
+        ],
+        [
+          "-11160162544164237426481632/8085859568431709324716849",
+          "-2692431469291155672350071845/8085859568431709324716849",
+          "-33339910647748851844478519325/32343438273726837298867396",
+          "-95906205931598677211431903359/64686876547453674597734792",
+          "-609810365772702103130122167683/517495012379629396781878336",
+          "-984522561587288633737564612557/2069980049518517587127513344",
+          "-99615226571428765018452419765/4139960099037035174255026688",
+          "539934014292541728030296127125/8279920198074070348510053376",
+          "1833756146351180351841113231649/66239361584592562788080427008",
+          "974624990394649069245109690245/264957446338370251152321708032",
+          "-137074661391446597816088925913/529914892676740502304643416064",
+          "-2596660185218833128149875097/33119680792296281394040213504",
+          "481427912426155586063017599/132478723169185125576160854016",
+          "30555584484462033416138411/33119680792296281394040213504"
+        ],
+        [
+          "-624593870771854547937905340/8085859568431709324716849",
+          "-11669653085695823180468146385/16171719136863418649433698",
+          "-78340702703560606301270824923/32343438273726837298867396",
+          "-240741130918329015743093762201/64686876547453674597734792",
+          "-1539627307110129769409683923293/517495012379629396781878336",
+          "-4808523597730857981280712239559/4139960099037035174255026688",
+          "-144701944391120771273015808105/4139960099037035174255026688",
+          "685052648693275621999259539837/4139960099037035174255026688",
+          "1096525976529639445594033125789/16559840396148140697020106752",
+          "4404923049965899454943267942989/529914892676740502304643416064",
+          "-687020515827192460396804559887/1059829785353481004609286832128",
+          "-5894852316505615361510238713/33119680792296281394040213504",
+          "2367821768905135764422575593/264957446338370251152321708032",
+          "140211118154038427634863501/66239361584592562788080427008"
+        ],
+        [
+          "160760607235119126873815100/8085859568431709324716849",
+          "8931945653756359107940947403/32343438273726837298867396",
+          "247127468676466620352712132301/258747506189814698390939168",
+          "1528574668838536730742258584509/1034990024759258793563756672",
+          "4914302031128087391017087403245/4139960099037035174255026688",
+          "7733793487030608255093981524899/16559840396148140697020106752",
+          "524480147911218069724566420281/33119680792296281394040213504",
+          "-8737776702174556470454673406685/132478723169185125576160854016",
+          "-14116719217818103862031507677173/529914892676740502304643416064",
+          "-7151005488980678754171797589073/2119659570706962009218573664256",
+          "1097731343285508406105922945593/4239319141413924018437147328512",
+          "19125795703027146059569387363/264957446338370251152321708032",
+          "-3792873786223161409295609919/1059829785353481004609286832128",
+          "-227069471562733207365043723/264957446338370251152321708032"
+        ],
+        [
+          "1"
+        ]
+      ],
+      "reason": "named already paid original weight J19",
+      "paidUnitZeroOnFirstFactor": "J19",
+      "bothFactorsActuallyMultipliedBack": true,
+      "allOriginalFibersRetained": true,
+      "claimExcluded": false,
+      "seconds": 137.031995078
+    },
+    {
+      "stage": "new_G36_low_norm_named_original_paid_unit_zero",
+      "path": "low_k_7/qa",
+      "kModulus": [
+        "-4194304",
+        "-51380224",
+        "-204537856",
+        "-386301952",
+        "-403456000",
+        "-237987840",
+        "-63872256",
+        "9616896",
+        "13344512",
+        "4080896",
+        "395086",
+        "-46669",
+        "-8800",
+        "620",
+        "112"
+      ],
+      "qModulus": [
+        [
+          "-209275764645709382822116194/8085859568431709324716849",
+          "-8931945653756359107940947403/32343438273726837298867396",
+          "-247192155553014074027309867093/258747506189814698390939168",
+          "-1528574668838536730742258584509/1034990024759258793563756672",
+          "-4914302031128087391017087403245/4139960099037035174255026688",
+          "-7733793487030608255093981524899/16559840396148140697020106752",
+          "-524480147911218069724566420281/33119680792296281394040213504",
+          "8737776702174556470454673406685/132478723169185125576160854016",
+          "14116719217818103862031507677173/529914892676740502304643416064",
+          "7151005488980678754171797589073/2119659570706962009218573664256",
+          "-1097731343285508406105922945593/4239319141413924018437147328512",
+          "-19125795703027146059569387363/264957446338370251152321708032",
+          "3792873786223161409295609919/1059829785353481004609286832128",
+          "227069471562733207365043723/264957446338370251152321708032"
+        ],
+        [
+          "1"
+        ]
+      ],
+      "paidOriginalWeightIdenticallyZero": "J19",
+      "zeroFollowsActualGcdDivisionProduct": true,
+      "excluded": true,
+      "seconds": 137.032104199
+    },
+    {
+      "stage": "new_G36_low_norm_finite_original_weight_algebra",
+      "path": "low_k_7/qb",
+      "kDegree": 14,
+      "qDegree": 5,
+      "QQDimension": 70,
+      "allActualPaidUnitInverseProductsOne": true,
+      "allNormZeroBranchesRetained": true,
+      "claimExcluded": false,
+      "seconds": 137.34982677800002
+    }
+  ],
+  "completeQQExclusions": {
+    "kFactorIndices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "degrees": [
+      2,
+      2,
+      3,
+      4,
+      5,
+      6,
+      10
+    ],
+    "totalKDegree": 32,
+    "physicalQOneComponentsClosed": true,
+    "allSevenComplementQFiveFullOriginalRank35ConstantOne": true,
+    "constantAlgebraDimensions": [
+      10,
+      10,
+      15,
+      20,
+      25,
+      30,
+      50
+    ],
+    "lastCompleteReturnSeconds": 136.750946411
+  },
+  "remaining": {
+    "factor7": {
+      "kDegree": 14,
+      "J19ZeroQOneComponentActuallyExcluded": true,
+      "wholeQFiveComplementStillOpen": true,
+      "QQDimension": 70,
+      "lastStageSeconds": 137.34982677800002,
+      "rank": "not reported",
+      "constantOneReturn": "not reported"
+    },
+    "factor8": {
+      "kDegree": 15,
+      "started": false,
+      "wholeOriginalQSixFiberOpen": true
+    }
+  },
+  "executionFailure": {
+    "sourceExitCode": -14,
+    "signal": "SIGALRM",
+    "wholeProcessSeconds": 180.069730303,
+    "existingMathematicalReturnsRemainValid": true,
+    "noWholeLow61OrG36Exclusion": true
+  }
+}
