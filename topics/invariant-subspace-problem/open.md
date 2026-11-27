@@ -4,7 +4,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-W-twelve-original-rows-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-six-site-internal-half-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -215,7 +215,7 @@ G36完整[高1134](results/R150-appendix-unit211-W-G36-entire-high1134-original-
 
 [五位完整S2](results/R271-appendix-five-independent-positive-weights-full-s2-and-six-site-birth-two-first-edge.md)保四共同块、两个cross与全上MP；同一平方迹的[3/16统一预算](results/R271-appendix-five-site-full-s2-uniform-three-sixteenths-square-budget.md)以472正均值差/6478正轨道给S2余量>(2−sqrt3)/4。[原定量Schur返回](results/R271-appendix-quantitative-one-bit-source-transfer-and-six-site-319-over-320.md)再保同Qy/WW*和原H0，六位出生2九维首边≤319/320；一般四项真实费用仅条件地给alpha·epsilon/2，不支付尚未取得的来源。
 
-[六位内部j2首次原多项式返回](notes/2026-11-28-six-bit-internal-half-first-polynomial-return-8542.md)：真0.516937409秒/45632KiB/0，五阶CH准确，原缩减度19/22/25/28/30，唯一37383B参数保存。续算680ms/85正均值差只闭前三系数；c4/c5流不足、1638精确正权点无负皆不代一般证明。继续保存多项式或实际反例，不复跑矩阵；内部half仍开。
+**[六位内部j2与三条原边half全部闭合](results/R271-appendix-six-site-internal-half-complete-ordered-difference-certificate.md)。** 同唯一37383B原特征，f4/f5完整排序差212487/268093项全正、最小1，x6^28/^30系数76800000/2560000付全部重复权；新证书13269ms含全SHA，未复跑矩阵。合已付f1–3和原实谱同余得Γ2Γ3^-1Γ2<Γ1/2；与首末边一起付六位全部三边，R275低rho=1/2已付。旧flow失败保持原状、不再续此门；上六位birth2一般S1/S2仍各自未付。
 
 全部唯一准确参数/源码/回执已刊。9b5/3e34资源失败、首次JSON转换故障及旧六支持流失败保原准确身份，已成结论不重跑。有限primitive预算不替代原graph Gram、同W真实RanK*费、Green/carry或N=M；全部相关接口仍按前节和快照继续。
 
@@ -235,4 +235,6 @@ G36完整[高1134](results/R150-appendix-unit211-W-G36-entire-high1134-original-
 
 [主rho头的完整八权覆盖](results/R150-appendix-unit211-Phi-zero-main-rho-head-eight-weight-cover.md)：c3a074真0.503922414秒/51576KiB/0，P6/P9真实特化后的固定15阶QQ结式685，只剥原单位/保整H7零得首一543；新固定35阶C6/C71模1363与543完整gcd一次，局部整Gauss保全部首项退化，付H7补图≤1、整H7≤7。八仅计v及(u,Q,ell)，不并有序BC和lambda/T/z；整H7不能用只付补图的C6/C9，下一先真实QQ识别余一次并返回其整原纤维，H7另接完整原条件。三个准确小输入已存，所有已成结式不重算。
 
-Phi主rho头新−1/4原整纤维/余Gauss首次：d7514仅读已存C6/C9/C71/543/S1363，先真核H7(-1/4)与原单位；三原lambda QQ gcd及完整Bézout只有返lambda幂才付该整纤维，再准确剥543实有线性幂并与已存S做新Gauss。H7零全保、绝不用只付补图的P6/P9。120秒/1GiB，不重算结式。
+[Phi主图−1/4的真实lambda半返回](notes/2026-11-27-unit211-Phi-zero-main-minus-quarter-lambda-half-return-8542.md)：d751真0.095425016秒/37584KiB/0，实核H7=-169/512非零后，三原C6/C9/C71 QQ gcd恰lambda−1/2。543中v+1/4虽一次整除，整原值纤维尚未闭，准确未剥为必要cover、未执行余Gauss，八界不变。继续真(u,Q,ell,lambda)=(3/4,5/4,1/2,1/2)的全部原值条件，不能借例外权图同lambda半；H7仍另接完整原条件。
+
+碰撞剩E的不同新输入首次：直接读已存E177/18、E182/19全部四片，作固定原u度18/19的37阶QQ结式；只在实际返回后剥已付lambda/A/B/S及整闭J2/G2/C4、取SF lambda覆盖。全部u首项退化保在固定行列式，180秒/4GiB，精确新参数分片输出；未先宣新覆盖或整碰撞空，不重跑旧Q投影。
