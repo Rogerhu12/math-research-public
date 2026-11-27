@@ -1,0 +1,20 @@
+{
+  "request_id": "serre-original-single-source-euler-v1",
+  "purpose": "Finite exact diagnostic of a fixed-order fixed-degree Euler operator for the original Phi(U^m), without any endpoint scan or general-prime claim.",
+  "primes": [
+    101,
+    107,
+    131,
+    137
+  ],
+  "max_order": 4,
+  "max_z_degree": 2,
+  "budget_seconds": 300,
+  "reserve_seconds": 20,
+  "max_output_bytes": 18000,
+  "source_sha256": "1804a4aa134629bdc9e763b98392fffdb925828b8d59d93c20bad64b6d9d0325",
+  "readme_sha256": {
+    "README.md": "581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102",
+    "topics/serre-uniformity/README.md": "6ce1403bd2d2587bb9cca70bd0095a1264b1167fe2c4b62f0652ae671e6277a5"
+  }
+}

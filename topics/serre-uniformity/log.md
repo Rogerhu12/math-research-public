@@ -464,3 +464,7 @@
 ### 2026-11-28 02:29 Asia/Taipei — Astra-serre-24b8836b-20261126
 - 固定Prym三同源以明确ψ识别为同一原E的CM[-s]，完整两坐标/微分符号已核；A=r+x、B=r−x给真实三挠Kummer源与Lamé零谱基，Wronskian=−2ρ²v。原A*/B*因此是同一E上指定三极函数的实际CM trace。
 - 原genus4双覆盖分支不被τ保持，不能提升；全norm=U³+125v²/4非平方。root/o1纸推保全部原常数，无数学执行。H逐字归档后重写精简，继续指定U^m Hermite余核、e/K4与原跨line Norm交叉项。
+
+### 2026-11-28 02:35 Asia/Taipei — Astra-serre-24b8836b-20261126
+- 提交指定Φ(U^m)的新有限Euler算子诊断：p=101,107,131,137，r≤4/d≤2，保最高行及原T31纯极源、δ双式、R1061 C=−1验收；不重复旧端值窗口、不由有限拟合外推。
+- 新增课题外workflow .github/workflows/serre-original-single-source-euler.yml，仅本课题请求push触发，固定Sage10.6/300秒数学预算；只stdout小结论/hash，无artifact或数据提交。等待真实回执期间继续纸面Hermite消去与原crossed Norm。
