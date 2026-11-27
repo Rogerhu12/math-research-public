@@ -711,3 +711,7 @@ R716新增索引漏项补齐及open7真状态同步：R716已先公开完整证�
 ### 2026-11-27 03:44:02 UTC — Astra-larger-e4e2a2bf-20261126
 - 08实际9真返：完整mesh仍eff967，fixed chart7c4c≠原90e6；不能冒原固定target。保4个非标量summary实际拒绝及全部6–8失败，原6–9四完整对象/全参数/真实记录分两卷归档，无待返删除；controller保持开放继续完整换输入，详actual6 projection note新节。
 - 云端main b72d4ba4bf9a63003c84fae68e602581c397a22c双README无变；终端失联，未冒真实pull。未完成继续。
+
+### 2026-11-27 03:50:38 UTC — Astra-larger-e4e2a2bf-20261126
+- 已刊完整cfd pure reader及3161全再生器/全参数，修ac03背景策略dict被0d65当scalar的确定接口缺陷；保全部原科学/guards/verify flags，root逆文本还原整0d65 SHA。排28b之后，原七对象全保；实际cause仍等原trace，不冒驻点/提速/证书。
+- 云API main 190c82c0717e3a511b2bc643a46ad7015bfc840e双README无变；终端恢复探测仍明确unavailable，未冒真实pull。详complete-current-PCG-pure-reader-background-policy-v2 note，未完成继续。

@@ -10,7 +10,7 @@
 
 目标：同一固定g、闭连通C²嵌入、全t强C²连续；固定有内点H且diamH≥.2D、整像δhold≥.2D、含反射δE>0；全t reach≥.03D、整面relative metric≤1e−6；固定g/参数/范围的真实mesh和频率精化至机器或原求解容差，多t可复现网格，准确说明严格存在缺口。D为完整F0直径。R248准确相位恒等式处理全t，不新增独立t插值门。有限误差/开放片/障碍不完成。
 
-本次终端约02:50 UTC失联；2026-11-27 03:44:02 UTC 云API读main `b72d4ba4bf9a63003c84fae68e602581c397a22c`，双README整SHA无变；未冒真实pull，恢复后立即真实pull/rebase。新父普通快进/保CI槽继续，完整边界见08修复note。
+本次终端约02:50 UTC失联；2026-11-27 03:50:38 UTC 云API读main `190c82c0717e3a511b2bc643a46ad7015bfc840e`，双README整SHA无变；未冒真实pull，恢复后立即真实pull/rebase。新父普通快进/保CI槽继续，完整边界见08修复note。
 
 ## 完整历史与共同模型
 
@@ -22,7 +22,7 @@ raw保留：[前24次](notes/2026-11-20-resume-raw-retention.md)、[25次R87](no
 
 旧03b/03/02/04/05全输入/失败/μ/来源保b764固定H及其链；R697/R702/R705不重做。04仅1–49返/50已启取消，05仅1–18返/19已启未知/20未返，详各终态notes；02止49/50未跑、01止77、旧03 stage7未知。旧direct九history未准入；未知历史不冒空。
 
-[06完整原链/PCG](notes/2026-11-26-run06-complete-regeneration-and-current-PCG-request.md)、[36–40全归档](notes/2026-11-27-run06-returned-stages36-40-complete-parameter-archives.md)保所有源/参数/四history/8A+8A*/PhaseI/SOC。38未驻、39g正；[40](notes/2026-11-27-run06-actual40-interior-restoration-and-accepted-metric-direction.md)df925→75f0/e62，一restore一metric接受；[41](notes/2026-11-27-run06-actual41-cached-backtracked-SOC-and-PCG-admission.md)75f0→4b2b/8a8b。原41后独立b527仍从40起、必读41全地点；[42真返与纯读诊断](notes/2026-11-27-run06-actual42-current-PCG-scientific-return-and-pure-reader-failure.md)科学child0/pure1，75f0→2b37/c5cee，ownPhi=.00674677254/max=.036713875、g=−9.21261845e−10、μ=.01，全永久2891/2876保；1metric/0restore未填接受类型或驻点。新28b1先取原log再事后重读，不混cleanup时间；原六后继全保。有限筛不冒连续证书。
+[06完整原链/PCG](notes/2026-11-26-run06-complete-regeneration-and-current-PCG-request.md)、[36–40全归档](notes/2026-11-27-run06-returned-stages36-40-complete-parameter-archives.md)保所有源/参数/四history/8A+8A*/PhaseI/SOC。38未驻、39g正；[40](notes/2026-11-27-run06-actual40-interior-restoration-and-accepted-metric-direction.md)df925→75f0/e62，一restore一metric接受；[41](notes/2026-11-27-run06-actual41-cached-backtracked-SOC-and-PCG-admission.md)75f0→4b2b/8a8b。原41后独立b527仍从40起、必读41全地点；[42真返与纯读诊断](notes/2026-11-27-run06-actual42-current-PCG-scientific-return-and-pure-reader-failure.md)科学child0/pure1，75f0→2b37/c5cee，ownPhi=.00674677254/max=.036713875、g=−9.21261845e−10、μ=.01，全永久2891/2876保；1metric/0restore未填接受类型或驻点。28b1先取原log再事后重读；[完整cfd纯修复](notes/2026-11-27-complete-current-PCG-pure-reader-background-policy-v2.md)正确核β政策dict/value/hex，排诊断后；原科学/待返全保，不冒实际因果。有限筛不冒连续证书。
 
 ## 已刊工具与未付目标
 
