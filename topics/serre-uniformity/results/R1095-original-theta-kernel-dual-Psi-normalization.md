@@ -205,7 +205,7 @@ $$
 }
 \tag{1095.15}
 $$
-本条没有计算或删去 $c$。
+本节暂保完整标量 $c$；§7 用原 extended Cartier 将它准确确定为 $\delta$。
 特别，$A(h_*,h_*)=\binom{-1/2}{k}v^{2k}=\beta=-\delta$
 并不单独决定 $c$；还须保留 $\mathcal B_J(h_*,h_*)$ 及 mixed terms。
 
@@ -278,6 +278,120 @@ $$
 它没有证明原 $\eta_k,\nu_k$ 不能同零，
 也没有把 (1095.12) 当作原 bare 的 CM kernel 范数。
 指定 $e,K_4$、bare 高坐标及共同深盘排除继续需要实际来源比较。
+
+## 7. 原第三类修正与最高偶边界的完整定标
+
+本节证明 (1095.15) 中的实际标量准确为 $\delta$，保留原
+relative Cartier、两处极点和 $H$ 的最高两项。
+
+令 $Z=FT$，对一般 $R$ 写
+$$
+h_Z(R)=\frac{V(Z)+V(R)}{U(R)-U(Z)}.
+$$
+若 $f\in H$，记 $a=\ell_{p+1}(f)$、$b=\ell_p(f)$。
+由 (1095.9)，$fK\omega_T$ 在 $O$ 的前两项为
+$$
+a u^{-2}du+\{a\Psi(R)+b\}u^{-1}du.
+$$
+除 $O$ 外，它仅可能在 $T=F^{-1}R$ 有至多 $p$ 阶极。
+相对 Cartier 后仅有 $O$、$Z=R$ 两处至多简单极，
+留数分别为 $a\Psi(R)+b$ 及其相反数。
+这里 Cartier 对 base 的 $R,a,b$ 线性，不对它们取 $p$ 次根。
+
+$h_Z(R)\omega_Z$ 在这两点的留数准确为 $+1,-1$。
+因此
+$C_{{\rm rel},T}(fK\omega_T)-(a\Psi(R)+b)h_Z(R)\omega_Z$
+全纯。其剩余常数也由原 $A$ 唯一固定：
+乘 $U(Z)-U(R)$ 后，左边成为 $C_{{\rm rel},T}(fJ\omega_T)$，
+而
+$$
+(U(Z)-U(R))h_Z(R)=-V(Z)-V(R).
+$$
+$C_{{\rm rel},T}(fJ\omega_T)$ 只有 $O$ 处至多三阶极，
+可含 $1,U(Z),V(Z)$；其中 $U(Z)$ 的系数由 (1061.80)
+准确为 $J^\#A(f,-)=\mathscr Ff$。
+故得到整个 $H$ 的完整公式
+$$
+\boxed{
+\frac{C_{{\rm rel},T}(fK\omega_T)}{\omega_Z}
+=\mathscr Ff(R)+
+ \{\ell_{p+1}(f)\Psi(R)+\ell_p(f)\}h_Z(R).
+}
+\tag{1095.19}
+$$
+这不是把旧 $V_0$ 公式越界延伸；第三类项完整显示在右边。
+
+在 $Z=O$ 仍取 $u_Z=U(Z)^{-1/2}$。
+直接展开 $h_Z(R)=u_Z^{-1}+O(u_Z)$，其常数项为零。
+所以 (1095.19) 的 regular constant 正是 $\mathscr Ff(R)$。
+
+现在用原 R1061 §§19、21 的
+$$
+D\mathcal R=\Psi,\qquad D^2\mathcal R=\delta,\qquad
+\mathscr T_F(U)=\delta\mathcal R.
+$$
+原 $\mathcal R=U^2R(U^3)$ 的最高 $U^m$ 系数为一；
+因此
+$$
+g=U\mathcal R\in H,\qquad
+\ell_{p+1}(g)=1,\qquad \ell_p(g)=0,\qquad [-1]^*g=g.
+$$
+对合法的旧输入 $f=U\in V_0$，原 (1061.68) 给全部 extended source：
+$$
+\frac{C_{{\rm rel},T}(\mathcal R\,U K\omega_T)}{\omega_Z}
+=
+\frac{(D_R^2+2U(R))\,\mathscr T_F(U)(R)
+       +2h_Z(R)D_R\mathscr T_F(U)(R)}{2\delta}.
+\tag{1095.20}
+$$
+该式来自 $\Psi^2=U^p+2\delta\mathcal R$ 与原 kernel 微分式；
+左端极界恰为 $H$，没有把 $\mathcal R U$ 冒称旧 $V_0$ 输入。
+
+读取同一个 $Z=O$ 的 regular constant，(1095.19)–(1095.20)
+准确给
+$$
+\boxed{\mathscr F(U\mathcal R)=U\mathcal R+\delta/2.}
+\tag{1095.21}
+$$
+由于 $\mathscr F(1)=1$ 且 $\mathscr F$ 对标量线性，再施一次得
+$\mathscr F^2(U\mathcal R)=U\mathcal R+\delta$。
+另一方面 (1095.15) 在同一 $g$ 上为 $g+c$，所以
+$$
+\boxed{
+c=\delta,\qquad
+\mathscr F^2=[-1]^*
+ +\Psi\otimes\ell_p+\delta\,1\otimes\ell_{p+1}.
+}
+\tag{1095.22}
+$$
+
+还有同尺度的二次 Cartier 表述。对 $h_*=U^{m+1}$，
+原 Weierstrass 单系数式给
+$C_{\rm rel}(h_*\omega)=U'\omega'$：
+分子 $U^{m+1}(U^3+v^2)^m$ 只有可读最高指数 $2p-1$，
+系数为一；$p-1$ 次因模三角色不存在。
+再用 (1061.92) 得
+$$
+C_{\rm rel}^2(h_*\omega)=-\delta\omega''.
+$$
+$V_0\omega$ 的首次 Cartier 像全纯，第二次被原 supersingular
+Cartier 杀掉；$\Psi\omega=d(\Psi^2/(2\delta))$ 为 exact。
+因此对全部 $f\in H$，
+$$
+\frac{C_{\rm rel}^2(f\omega)}{\omega''}
+=-\delta\,\ell_{p+1}(f).
+\tag{1095.23}
+$$
+(1095.22) 的最后一项也可写为
+$-1\otimes(C_{\rm rel}^2(-\,\omega)/\omega'')$；
+它不是未确定单位倍数。
+
+本节 o2_high_coefficient 推导完整第三类项并用实际
+$U\mathcal R$ 定标；o1_theta 独立纸审全部极界、regular constant
+和平方常数。没有数学程序执行。
+(1095.22) 结算最高偶边界，但并未证明三轨道 Gram
+的两个因子或原 $\eta_k,\nu_k$ 的指定读数为单位。
+
 
 ## 原来源与核对
 

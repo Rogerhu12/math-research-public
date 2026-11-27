@@ -109,7 +109,7 @@ R964逆character控制h_(i+2)而非fi；R966原K0源及Π4∇²只消费，源�
 
 ## O2：完整原超奇异迹、真正CM packet及近顶unit系数
 
-[R1095](results/R1095-original-theta-kernel-dual-Psi-normalization.md)：原完整J#可逆，B_J(Ψ,g)=ℓ_p(g)、B_J(Ψ,Ψ)=1；真三平移Gram=(1−δ/γ)²(1+2δ/γ)，保最高偶边界。两个因子与原短η/ν仍开，未替换bare范数。
+[R1095](results/R1095-original-theta-kernel-dual-Psi-normalization.md)：原完整J#可逆，B_J(Ψ,g)=ℓ_p(g)、B_J(Ψ,Ψ)=1；真三平移Gram=(1−δ/γ)²(1+2δ/γ)，最高偶边界c=δ。两个因子与原短η/ν仍开，未替换bare范数。
 
 
 [R1041](results/R1041-original-r2-bare-coefficient-and-Hodge-kernel-norm.md)/[R1048](results/R1048-original-AS-primitive-and-kernel-critical-value-norm.md)：原r2 S^p=−36ρB(c₀,c₀)，保ξ^(p+1)=ρ/24、fine12≠d₁。原r2实际AS全函数给d(U/h²)=−CξT₀db/(12r^(ℓ+1)A³)。规范H=r^(ℓ+1)(AT₀′−T₀A′)满足H′=h²；原核c₀=−H(b^p)/r modA。canonical J=P/h²及全fine的p次幂差逐点res为零，完整范数化为B(c₀,c₀)=Res∞H^p(h′/h)Pdb。真p-block h²=G₀+b^pG₁给a=[b^(p−3)]h²单位、P=G₁/a；K=−2H₁/a及Wronskian保全源。原f_N²=A(1)²H₀(1)/(18a)，但范数/端点非零仍开，不扩r8。
