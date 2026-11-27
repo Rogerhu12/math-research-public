@@ -119,3 +119,13 @@ RESULT 8,315 B / SHA-256
 首次collector run45936742717/job140301575119/sourcea215d51b0c405ccfc33a6cf4c008662971f89e0b在03:53:26UTC实际返回GitHub API HTTP403，collector状态API_READ_ERROR、原数学NOT_ASSESSED。原v9没有因此失败或通过。
 
 后继仅给原small workflow增加actions:read，并在执行step以`RANK2_ACTIONS_READ_TOKEN: ${{ github.token }}`传入内置只读token；不使用用户PAT。脚本仍先匿名，仅401/403才在GitHub API回退该token；下载302改用全新无Authorization请求，不打印签名URL。请求仍固定同一原run/job/source，无新数学运行。实际新快照待回执，不预记阶段。
+
+## 8. 只读后继取得的真实第二快照
+
+2026-11-27 03:57 UTC，collector run45937094533/job140302696286/source d9394ebeb6d5067ae8652d487468fe5ab9f0c7fd 实际success。源码仍为§7的5631B和同一SHA；stdout13858B/SHA5ceec4b08fe1712c9f37524313f606a84d9985d29585faaaccfc92432fe655e1，exit0，outputs_persisted=false。匿名403后实际使用内置只读token；日志下载请求没有携带该Authorization。
+
+所读**原v9**绑定仍严格是run45920983633/job140251398928/source1eeab95eb057de2b6ea6753ff9e36a18bd20bbd2。完整原日志12,606,719字节，SHA256 a310249c57177996b7496ee1fba79ddc1ec7faea02e51cbed030551551facfef，Content-Encoding为identity。脚本流式hash全部原字节，仅在stdout返回最后12000B；不将这份可重算日志存入git。
+
+真实尾的时间为03:42:43.6590447UTC，标签`all original cusps:positive: base-prime 2: actual maximal ideal 2`。已提取Hermite144/306列；随后同尾记录第145列前的完整gcd pivot/whole Popov tail reset，剩余determinant degree1，未将它记作已经提取145列。原run/job/数学step4仍in_progress。
+
+这准确推进了§6的实际阶段记录，但没有四交、全厚Norm或18×9 shadow的终值，也不据日志缓存的末尾时间推断当前执行停顿。继续同一原作业，后续只读摘要无需重算数学或再次获取连接器大响应。

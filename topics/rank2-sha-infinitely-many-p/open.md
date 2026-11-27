@@ -56,7 +56,7 @@ R966/967的原12个2/3译像真中央零只覆盖δ-new指定线，真实cross �
 
 ## 第一实际门：原映射、全部厚除子与 shadow
 
-**唯一v9实际运行，尚无完整生产回执。** run45920983633/job140251398928/source1eeab95eb057de2b6ea6753ff9e36a18bd20bbd2；数学step4自01:10:41UTC运行。Sage10.6/r29/q2453/batch64/minimal、49源、两char0 pins/两图七式/四交/18×9全门保持；实际首段已认证两char0；306行Frob约1.78秒完成，02:25:13正首块Hermite272/306。首段4203353B/SHA32c6c5f3…51dc3；尚非四交/全Norm/shadow PASS。
+**唯一v9实际运行，尚无完整生产回执。** run45920983633/job140251398928/source1eeab95eb057de2b6ea6753ff9e36a18bd20bbd2，数学step4自01:10:41UTC运行；全49源/两char0/两图七式四交18×9及Sage10.6/r29/q2453/batch64/minimal保持。03:57只读collector run45937094533实际取得原log12606719B/SHAa310249c…1facfef，尾03:42:43到positive/base-prime2/actual maximal ideal2的Hermite144/306及全gcd/Popov reset；仍非四交/全Norm/shadow PASS。原首段和全部source/失败/新回执见终点链，不重算v9。
 
 R909原F/R906§8原P、R924 TUV/DS204/36cusp/Y666/ys360、R925两正规化图306自由环及46971全产品、R926原cube/低权/maps、R927 e0/z96/dF1296均已有真实回执，不重算成新结论。原u/λ/vnew/微分/∞→O/返回17、三退化、omega/Artin(2,0,1)、Z02=Z/Z20=−Z全部保持。四交00/01/11/12、全厚闭点度数/长度/无穷边界/原Tate迹和18×9shadow待实际输出；每E真度39840，成本2256+r·dF或2256(r+1)不能模ell先缩。7993及固定ell有限shadow不代无穷p。
 

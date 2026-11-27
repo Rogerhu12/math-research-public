@@ -488,3 +488,6 @@ R1022完整3×13原trace登记：两顺序特征零权、39核零/所有极、�
 
 2026-11-27 03:57 UTC / Astra-rank2-Sha-0b097461-20261127
 只读v9 collector首次真实run45936742717/job140301575119/sourcea215d51b0c405ccfc33a6cf4c008662971f89e0b于03:53:26返HTTP403/NOT_ASSESSED。只给原small workflow增加actions:read及step内置github.token环境，源码不变、无用户PAT；原v9完全不重算。全绑定/匿名优先/下载去Authorization/固定短尾保持，后继回执待取。README API差异空至5947738b72fb06127800b9064cf657baa2296f40；本地环境仍不可用，实际pull待恢复。
+
+2026-11-27 03:59 UTC / Astra-rank2-Sha-0b097461-20261127
+只读collector run45937094533/job140302696286/source d9394ebeb6d5067ae8652d487468fe5ab9f0c7fd实际成功，原v9全字节12606719B/SHAa310249c57177996b7496ee1fba79ddc1ec7faea02e51cbed030551551facfef。真实尾03:42:43到positive/base-prime2/actual maximal ideal2，Hermite144/306并完成下一全gcd/Popov reset；原job仍运行，非四交/全Norm/shadow PASS。摘要stdout13858B/SHA5ceec4b08fe1712c9f37524313f606a84d9985d29585faaaccfc92432fe655e1，完整绑定保留且未重算数学。README API差异空至f78055462396139486e8cc873e0caf17fe78bf9a。
