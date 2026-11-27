@@ -106,6 +106,152 @@
         "nearest_complete_archive_sha256": "be0b855ed926ef4fdac3e8ab51ff15749ff1d626dd9bc55483bfe226ece6abfe",
         "nearest_original_step_id": "independent-axisymmetric-R690-reference-prepare-v2-first-20261127-09"
       }
+    },
+    {
+      "id": "freeze-actual-run10-public-reference-and-restore-whole-run05-carrier-20261127",
+      "script": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/freeze_run10_public_reference_and_restore_run05_carrier.py",
+      "scope": "One genuine input production, source-bound to completed run10 warm/reference. Freeze both whole public volumes as immutable runner snapshots; read all six actual files and full 160 chart words; reconstruct original2397-leaf scalar and accept only whole olddc5/227202. No F/J/root or optimizer directions. This is not a scientific preflight fixture or a claim of completed geometry. Actual new run10 current scalar has2218 tail leaves; historical2397 reconstruction remains solely the complete original material-address input. All original parameters and45 scalar selectors retained; future target and compatibility identities are computed only by this actual producer.",
+      "parent_bundle": "axisymmetric-R690-reference-v2-first/reference.npz",
+      "args": [
+        "--repo",
+        "{repo}",
+        "--warm-bundle",
+        "{work}/fullclosed_solver/data/fullclosed-hold-warm.npz",
+        "--node-report",
+        "{work}/fullclosed_solver/data/fullclosed-hold-warm.json",
+        "--scalar-input",
+        "{work}/fullclosed_solver/data/pulse-a5-complete-base.json.gz",
+        "--current-carrier",
+        "{work}/axisymmetric-R690-reference-v2-first/observations.npz",
+        "--current-reference-report",
+        "{work}/axisymmetric-R690-reference-v2-first/report.json",
+        "--current-reference-bundle",
+        "{work}/axisymmetric-R690-reference-v2-first/reference.npz",
+        "--historical-public-record",
+        "{repo}/topics/visible-flex-larger-amplitude/notes/2026-11-26-public-actions-45870334713-1-part-001.md",
+        "--actual-public-warm-record",
+        "{repo}/topics/visible-flex-larger-amplitude/notes/2026-11-27-public-actions-45972294636-1-part-001.md",
+        "--actual-public-warm-record-sha256",
+        "b23954c94ac4f69969dae9768d9ebdc1b77f5a65b82377b48d1cd63c84330583",
+        "--actual-public-reference-record",
+        "{repo}/topics/visible-flex-larger-amplitude/notes/2026-11-27-public-actions-45972294636-1-part-001.md",
+        "--actual-public-reference-record-sha256",
+        "b23954c94ac4f69969dae9768d9ebdc1b77f5a65b82377b48d1cd63c84330583",
+        "--actual-reference-step-id",
+        "independent-axisymmetric-R690-reference-prepare-v2-first-20261127-10",
+        "--outdir",
+        "{work}/run10-actual-public-reference-run05-carrier"
+      ],
+      "outputs": [
+        "run10-actual-public-reference-run05-carrier/report.json",
+        "run10-actual-public-reference-run05-carrier/run05-observations-restored.npz",
+        "run10-actual-public-reference-run05-carrier/independent-fixed-target-definition.json",
+        "run10-actual-public-reference-run05-carrier/material-envelope-carrier-binding.json",
+        "run10-actual-public-reference-run05-carrier/actual-public-warm-immutable.md",
+        "run10-actual-public-reference-run05-carrier/actual-public-reference-immutable.md"
+      ],
+      "summary": {
+        "run10-actual-public-reference-run05-carrier/report.json": {
+          "schema": "schema",
+          "source": "source_sha256",
+          "complete": "complete",
+          "seconds": "seconds",
+          "old_carrier_verified": "full_original_carrier_sha_match",
+          "old_current_addresses_identical": "current_and_original_material_radial_addresses_byte_identical",
+          "failure_type": "failure.type",
+          "failure_message": "failure.message",
+          "actual_input_evidence": "actual_current_public_binding.actual_public_input_evidence_identity_sha256",
+          "actual_run": "actual_current_public_binding.actual_run_id",
+          "actual_attempt": "actual_current_public_binding.actual_run_attempt",
+          "actual_reference_step": "actual_current_public_binding.actual_step_id",
+          "public_reference_snapshot": "actual_current_public_binding.actual_complete_public_volume.sha256",
+          "public_warm_snapshot": "actual_current_public_binding.actual_complete_warm_public_volume.sha256",
+          "public_input_binding_source": "actual_current_public_binding.public_input_binding_source.sha256",
+          "current_model": "independent_fixed_target_binding.actual_current_model_identity_sha256",
+          "current_warm": "independent_fixed_target_binding.current_warm_bundle.sha256",
+          "current_node": "independent_fixed_target_binding.current_node_report.sha256",
+          "current_scalar": "independent_fixed_target_binding.current_scalar_input.sha256",
+          "current_reference": "independent_fixed_target_binding.current_reference_bundle.sha256",
+          "current_carrier": "independent_fixed_target_binding.current_carrier.sha256",
+          "current_mesh": "independent_fixed_target_binding.current_mesh_sha256",
+          "current_chart": "independent_fixed_target_binding.current_fixed_chart_core_sha256",
+          "historical_chart": "independent_fixed_target_binding.historical_fixed_chart_core_sha256",
+          "scalar_parameters": "independent_fixed_target_binding.complete_scalar_parameters_sha256",
+          "exact_nodes": "independent_fixed_target_binding.exact_symbolic_nodes_sha256",
+          "target_definition": "independent_fixed_target_definition_identity_sha256",
+          "target_definition_file": "independent_fixed_target_definition_file.sha256",
+          "input_binding": "material_envelope_binding.independent_fixed_target_binding_identity_sha256",
+          "input_binding_file": "material_envelope_binding_file.sha256",
+          "same_original_chart_words": "independent_fixed_target_binding.same_original_fixed_chart",
+          "complete_chart_words_equal": "independent_fixed_target_binding.current_and_historical_fixed_chart_words_sha_equal",
+          "same_mathematical_g_claimed": "independent_fixed_target_binding.same_mathematical_g_claimed",
+          "historical_metric_relation": "scientific_scope.historical_metric_relation",
+          "exact_chart_conjugacy": "independent_fixed_target_binding.exact_old_to_new_chart_conjugacy_claimed",
+          "old_values_inherited": "independent_fixed_target_binding.old_metric_or_geometry_values_inherited",
+          "physical_field_evaluations": "scientific_scope.physical_field_evaluations",
+          "Jacobian_evaluations": "scientific_scope.Jacobian_evaluations",
+          "root_evaluations": "scientific_scope.root_evaluations",
+          "original_branch_finished": "scientific_scope.original_branch_replaced_or_declared_finished",
+          "unread_history_claimed_read": "scientific_scope.unknown_history_claimed_read",
+          "original_scalar_live_leaves": "scalar_reconstruction.original_live_leaves",
+          "actual_scalar_live_leaves": "scalar_reconstruction.actual_live_leaves",
+          "original_scalar_profile": "scalar_reconstruction.original_profile_identity_sha256",
+          "rebuilt_scalar_profile": "scalar_reconstruction.reconstructed_profile_identity_sha256"
+        }
+      }
+    },
+    {
+      "id": "replay-complete-run10-public-input-sources-20261127",
+      "script": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/rebuild_run10_public_input_sources.py",
+      "parent_bundle": "axisymmetric-R690-reference-v2-first/reference.npz",
+      "scope": "Full source-only forward and inverse replay of both whole306b/9e3-derived run10 input sources; AST/compile without import. No actual input arrays or field/root calculations. Complete14 explicit replacements retain all original kernels, source/domain/whole-file guards and historical unknown obligations.",
+      "args": [
+        "--repo",
+        "{repo}",
+        "--outdir",
+        "{work}/run10-public-input-source-stage"
+      ],
+      "outputs": [
+        "run10-public-input-source-stage/report.json"
+      ],
+      "summary": {
+        "run10-public-input-source-stage/report.json": {
+          "schema": "schema",
+          "source": "source_sha256",
+          "complete_sources": "source_count",
+          "whole_replay": "complete_source_identity_passed",
+          "AST_compile": "complete_AST_and_compile_without_import",
+          "scientific_execution": "scientific_import_or_evaluation",
+          "actual_inputs_read": "actual_public_input_files_or_arrays_read",
+          "field_root_calls": "scientific_field_or_root_calls"
+        }
+      }
     }
-  ]
+  ],
+  "actual_returned_warm_and_reference": {
+    "run": "45972294636/1",
+    "stages": [
+      1,
+      2
+    ],
+    "returncodes": [
+      0,
+      0
+    ],
+    "whole_public_record": {
+      "repository_path": "topics/visible-flex-larger-amplitude/notes/2026-11-27-public-actions-45972294636-1-part-001.md",
+      "git_blob_sha": "05956b671da8f57341411d6d46cca38b0b3fc797",
+      "bytes": 22533,
+      "sha256": "b23954c94ac4f69969dae9768d9ebdc1b77f5a65b82377b48d1cd63c84330583"
+    }
+  },
+  "complete_input_freeze_ready": {
+    "path": "topics/visible-flex-larger-amplitude/computations/run10-complete-public-input-freeze-ready.json",
+    "sha256": "1307178b68518401aa06c1e13a9105542ef0358a8b315b73c91b1e0a02cad07f",
+    "bytes": 12003
+  },
+  "future_target_identity_sha256": null,
+  "future_compatibility_identity_sha256": null,
+  "original_reference_step_preserved_and_not_rerun": true,
+  "input_freeze_before_static_stage_prevents_mutable_public_snapshot_rebinding": true
 }
