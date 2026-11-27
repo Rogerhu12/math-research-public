@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R271 全孔Schur–companion原来源与真实伴随](results/R271-appendix-all-hole-schur-companion-sources-and-actual-physical-adjoints.md)：自足支化恒等式给任意孔数完整下降/带符号物理伴随与全部奇数权桥；求值行列式与合法Gram接续明确，不外推条件数/相邻正性/无限费用。
+
 - [R150 Phi整个rho二次头零支完整排除](results/R150-appendix-unit211-Phi-zero-rho-quadratic-head-zero-complete-original-exclusion.md)：原完整分类含主图与两特殊有序权，已成H7/补图/BC交换逐支覆盖，仅在原D≠0 Phi图支付Aρ；一般H1和D0仍独立。
 
 - [R150 Phi主图整个H7原纤维排除](results/R150-appendix-unit211-Phi-zero-main-entire-H7-original-exclusion.md)：原七维QQ代数全部嵌入，316覆盖互素后两个原fixed4结式仅剥b⁴，全lambda八次gcd返回1；0.385492544秒/exit0，主图合补图全闭。

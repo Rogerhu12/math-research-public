@@ -1,19 +1,15 @@
 {
-  "message": "ISP: close the entire original Phi rho quadratic head zero branch",
-  "parentCommit": "b50ffbdb68903828101319b809b1ac034323c6d4",
+  "message": "ISP: derive complete all-hole Schur companion sources and physical adjoints",
+  "parentCommit": "372558bc954cbe708c251615f4730426298d6528",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-Phi-zero-rho-quadratic-head-zero-complete-original-exclusion.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-six-bit-s2-matrix-half-characteristic-8542.py",
-    "topics/invariant-subspace-problem/notes/2026-11-28-six-bit-s2-matrix-half-characteristic-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-six-bit-s2-shifted-cubic-budget-numeric-screen-8542.mjs",
-    "topics/invariant-subspace-problem/notes/2026-11-28-six-bit-s2-shifted-cubic-budget-numeric-screen-8542.json",
-    ".github/workflows/invariant-subspace-8542-six-full-s2-matrix-half.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-Phi-rho-head-complete-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-Phi-rho-head-complete-8542.md",
+    "topics/invariant-subspace-problem/results/R271-appendix-all-hole-schur-companion-sources-and-actual-physical-adjoints.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-log-before-all-hole-Schur-source-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-all-hole-Schur-source-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-all-hole-Schur-source-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -22,7 +18,5 @@
     ".github/workflows/invariant-subspace-8542-root-terminal-publication.yml",
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
-  "dispatchWorkflows": [
-    "invariant-subspace-8542-six-full-s2-matrix-half.yml"
-  ]
+  "dispatchWorkflows": []
 }
