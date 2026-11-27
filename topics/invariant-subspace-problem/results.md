@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [W低D次十一条完整原行的六列实际返回](results/R150-appendix-unit211-W-global-D-linear-eleven-original-six-column-return.md)：真3.624秒，完整N/P/NV均保；23归约身份、73付分母，不再展开旧40MB门。
+
 - [碰撞C2常数代数的完整Q图及四次原权覆盖](results/R150-appendix-unit211-equal-singleton-C2-Delta-zero-complete-original-quartic-cover.md)：准确消Q和整K[u]相容，转133u⁴−30u³−32u²−24u+16全部QQ因子继续原Gram。
 
 - [W纯T三列三个原参数cofactor](results/R150-appendix-unit211-W-global-pure-T-three-original-parameter-cofactors.md)：真12.786秒全列身份；λ度16/16/19，三个未付最高次零面完整保留。
