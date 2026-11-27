@@ -39,7 +39,7 @@ R1018–40原Fm/两节点Dickson/PD/好BT整比较的完整尺度和C_*保原文
 
 [R1080](results/R1080-certified-full-level47-Jacobian-rank.md)：原J无条件rank=dim=ρQ=73，16/24/33全部因子L′已认证；[R1081](results/R1081-certified-original-level47-Cartan-trace-and-integral-Hecke-algebra.md)给原4513最大未分歧整T。R1089给#J mod283/4513=70/551、Bq整可逆、logJ(Qq)⊂qLie及原Φ47指数46。旧运行只消费。
 
-[R1090](results/R1090-original-weight-one-integral-Hodge-source.md) run45946046378给原95维整logarithmic格与全23留数rank22、真Hodge核73，4.448秒；后继只按95 descriptor重建并核hash。[R1085](results/R1085-original-ordinary-CM-Hecke-logarithm-and-Serre-Tate-moment.md)/[R1091](results/R1091-original-Gaussian-CM-logarithm-as-one-algebraic-coefficient.md)已付完整ST首矩及Gaussian单系数，保全部Hecke根/Mahler尾/KS/Igusa period/粗重数。
+[R1090](results/R1090-original-weight-one-integral-Hodge-source.md) run45946046378给原95维整log格、23留数rank22、Hodge核73；后继只消费descriptor/hash。R1085/1091已付实际ST全部q+1根、Mahler尾、Gaussian单系数及KS/Igusa/coarse尺度。
 
 [R1093](results/R1093-certified-original-Gaussian-CM-generator-and-full-MW-lattice.md) run45947023569/job140333947037，65.967秒：原基Hecke桥与完整2208点给Gaussian q⁻¹log(Bqu4)全28块非零，故**M=T4513·u4、logM=4513Lie**，完整73维MW整格已付。H2根434读3527；所有数值保Bq，未计算高度。
 
@@ -52,6 +52,8 @@ R1018–40原Fm/两节点Dickson/PD/好BT整比较的完整尺度和C_*保原文
 [R1097](results/R1097-original-level47-odd-prime-CM-intersections-and-sparse-norm-sum.md)：原47奇好素交数化为两条模2209进程的正范数和，含ℓ|n及全二核/粗重数；n≤275奇部零。2与坏47继续。
 
 [R1098](results/R1098-original-bad47-CM-intersections-and-exact-vertical-correction.md)：原坏47全部CM目标未分歧且避cusp；真实coarse长度2(L−1)，完整admissible Hecke移槽给 I47=529D_qH+23D_qb，H只需47³倍数、b用五维Brandt。实际全局高度和2处继续。
+
+[R1099](results/R1099-original-level47-dyadic-CM-intersections.md)：原2处marked Aut=Q8、effectiveV4；canonical两分支各重2与quasi v2=1/4给每matching核交数1，故G2=S2/8，含Gaussian/anti及半整数格。两稀疏r2和支付全部odd-index 2处交数；下一项是真实首global高度。
 
 ## O1：全p同一真实本原标签的临界非零
 

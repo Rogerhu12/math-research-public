@@ -6,9 +6,9 @@
 
 会话 **Astra-serre-24b8836b-20261126**。本轮已部分克隆并真实pull main，读两README/H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则读至36cf1ed2。不重做已登记结论或窗口。
 
-**公开两README已读提交：a8d7b4851c24b2a37e7599de4ab078fd9ae70c93**（2026-11-27 14:50 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
+**公开两README已读提交：1ea7cee04552e0592260e36b6c93106679f1d203**（2026-11-27 14:55 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
 
-已真实部分克隆/pull；13:59再试pull仍报无可用执行环境，shell未运行；按根规矩8用连接器小文本同步、读两README差异、带expected_sha非force提交，恢复后立即pull --rebase。拒绝即同步重基再推至成功。令牌仅CLI；根维护main/H/open/index/log，子研究独立稿，每条结论立即推。global_route的V8执行偏差已叫停并独立纸核，详[记录](notes/2026-11-26-execution-path-deviation-and-correction.md)，其输出不作证明/合规窗口。
+已真实部分克隆/pull；14:53再试pull仍报无可用执行环境，shell未运行；按根规矩8用连接器小文本同步、读两README差异、带expected_sha非force提交，恢复后立即pull --rebase。拒绝即同步重基再推至成功。令牌仅CLI；根维护main/H/open/index/log，子研究独立稿，每条结论立即推。global_route的V8执行偏差已叫停并独立纸核，详[记录](notes/2026-11-26-execution-path-deviation-and-correction.md)，其输出不作证明/合规窗口。
 
 H<10KB、open尽量<30KB、每MD<100KB、topic<200MB；无可重算raw、不写根LOG。[最新逐字前态](handoff-archive-2026-11-27-before-local-heights.md)沿链保全部旧来源/run/hash；[open](open.md)、[索引](results.md)是完整入口。历史“R1003 norm3准备中”未交付，现R1003为范围纠错。
 
@@ -26,7 +26,7 @@ R1063：全Hecke族消MW及真辛商，最低两jet行列式仍开。R1058：原
 
 [R1080](results/R1080-certified-full-level47-Jacobian-rank.md)：原J无条件rank=dim=ρQ=73，16/24/33全部因子L′已认证；[R1081](results/R1081-certified-original-level47-Cartan-trace-and-integral-Hecke-algebra.md)给原4513最大未分歧整T。R1089给#J mod283/4513=70/551、Bq整可逆、logJ(Qq)⊂qLie及原Φ47指数46。旧运行只消费。
 
-[R1090](results/R1090-original-weight-one-integral-Hodge-source.md) run45946046378给原95维整logarithmic格与全23留数rank22、真Hodge核73，4.448秒；后继只按95 descriptor重建并核hash。[R1085](results/R1085-original-ordinary-CM-Hecke-logarithm-and-Serre-Tate-moment.md)/[R1091](results/R1091-original-Gaussian-CM-logarithm-as-one-algebraic-coefficient.md)已付完整ST首矩及Gaussian单系数，保全部Hecke根/Mahler尾/KS/Igusa period/粗重数。
+[R1090](results/R1090-original-weight-one-integral-Hodge-source.md) run45946046378给95维整log格、23留数rank22、Hodge核73；后继消费95 descriptor/hash。[R1085/1091](results.md)给实际ST全q+1根、Mahler尾及Gaussian单系数，KS/Igusa/coarse尺度全保。
 
 [R1093](results/R1093-certified-original-Gaussian-CM-generator-and-full-MW-lattice.md) run45947023569/job140333947037，65.967秒：原基Hecke桥与完整2208点给Gaussian q⁻¹log(Bqu4)全28块非零，故**M=T4513·u4、logM=4513Lie**，完整73维MW整格已付。H2根434读3527；所有数值保Bq，未计算高度。
 
@@ -40,6 +40,8 @@ R1063：全Hecke族消MW及真辛商，最低两jet行列式仍开。R1058：原
 
 [R1098](results/R1098-original-bad47-CM-intersections-and-exact-vertical-correction.md)：原坏47全部CM目标未分歧且避cusp；真实coarse长度2(L−1)，完整admissible Hecke移槽给 I47=529D_qH+23D_qb，H只需47³倍数、b用五维Brandt。实际全局高度和2处继续。
 
+[R1099](results/R1099-original-level47-dyadic-CM-intersections.md)：原2处marked Aut=Q8、effectiveV4；canonical两分支各重2与quasi v2=1/4给每matching核交数1，故G2=S2/8，含Gaussian/anti及半整数格。两稀疏r2和支付全部odd-index 2处交数；下一项是真实首global高度。
+
 ## O1：原同一保留标签
 
 [R1079](results/R1079-original-CM-Psi-zeta-short-carry.md)：原j0/1728真实T下Ψ=Z_<p^p+δT modT^(p²)，safe ζ、slope+1、首负p极及最后加性carry全付；不代短η/ν；Gaussian后继见R1082/84。
@@ -48,11 +50,7 @@ R1063：全Hecke族消MW及真辛商，最低两jet行列式仍开。R1058：原
 
 [R1060](results/R1060-actual-X108-nonCM-Cartier-and-nine-torsion-ordinary-input.md)：原p2/5mod9四非CM Cartier由B_n=P_n(3)=−a_p(E54)单位控制，核恰六CM；原L在CM-zero轨道，e为二级Petri读数，未有S_n=0⇒B_n=0。
 
-[R1049](results/R1049-original-fN-theta-first-direction-moment.md)/R1059：同一原q/η尺度、方向矩、X108配对与f_N↔S_n已付；同h两mask仍开。
-
-[R1043](results/R1043-original-fN-and-Hodge-kernel-CM-endpoint.md)：原p6N5的f_N=−T₀(1)/6，端点单位仍开，不与bare范数/DQv互代。
-
-[R1031](results/R1031-original-fN-and-actual-Faber-truncation-central-derivative.md)：f_N=0 iff原有限Legendre平方截断R′(1/2)=0；forcing单位不代中心导数。
+[R1049/1059、R1043、R1031](results.md)保原f_N的方向矩、CM端点和Legendre中心导数三种准确来源；同h两mask及端点单位仍开，不能替换bare范数或forcing单位。
 
 完整theta分布、范数与全部旧角色/相位见归档；不能代同h两mask或bare。
 
