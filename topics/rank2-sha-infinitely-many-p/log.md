@@ -482,3 +482,6 @@ R1022完整3×13原trace登记：两顺序特征零权、39核零/所有极、�
 
 2026-11-27 03:52 UTC / Astra-rank2-Sha-0b097461-20261127
 读取原q11三重P6真实负回执：run45936278912/job140300111547/source89a464233e4d50471eb795622a80ea05af09a43e，03:48:26UTC，242m/2662全对解数0，0.48467522秒。stdout952B/SHA73cadc36965119047f0d228ccea05c211a60bd1558ac3bd9706eae480cb17f12，完整枚举摘要另存原证明。只排这个重极除子；两固定输入均不重跑，转原Hesse公共盖/实际三型和Frobenius图。上条提交时刻依真实run改为03:48，未改源或结果。README API差异空至27c6fce38b606354a12904c8f7fceb0ecf6c943c，执行环境仍未恢复。
+
+2026-11-27 03:53 UTC / Astra-rank2-Sha-0b097461-20261127
+为读取唯一v9的真实进展，接固定run45920983633/job140251398928/source1eeab95eb057de2b6ea6753ff9e36a18bd20bbd2的只读日志摘要到原small入口。仅GET，先匿名，核run/job/source后逐字节hash整原日志、仅输出12000B尾；不写文件、不重算、不重启v9。源码5631B/SHA135b297e0c5ef822f0091c084f32909e6c908fa65db9eb8447f60f8123dba74b；API故障明确NOT_ASSESSED并走stderr，不记数学失败。无需用户PAT或workflow权限变化，结果待实际回执。README API差异空至3f363d86d2633dff09e59bfa30c7ab88fedddf40；本地执行环境仍不可用。
