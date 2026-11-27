@@ -2,7 +2,7 @@
 
 **主要目标仍OPEN。** 完整证明绝对常数C，或给出p→∞完整无CM反例族；有限素数、条件结论、低权/局部Abel/部分子群均不够。
 
-此前逐字状态在[最新open归档](open-archive-2026-11-27-before-auxiliary4513-transfer.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重算。
+此前逐字状态在[最新open归档](open-archive-2026-11-27-before-CM-logarithm.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重算。
 
 ## 原最低型：已经付清的输入与准确剩余标量
 
@@ -43,13 +43,13 @@ R1018–40的原完整Fm/两节点Dickson/PD及好BT整比较均已付，详细�
 
 [R1070](results/R1070-original-cuspidal-labels-by-division-polynomial-values.md)：原ψ_c全相位/cusp规范及完整V已付，排两边界角色；aux可见 iff ord_pℓ奇且非p3mod4的(p−1)/2，safe prime须ℓ1modp。同点共同像及全局排除仍开。
 
-[R1069](results/R1069-all-prime-good-cuspidal-characters-and-unique-global-labels.md)：全p原Bernoulli-good角色p-only global→local同构，无regular/Vandiver假设；Herbrand与准确Kummer方向、类数/正交给good forced维数Ω(p/logp)，每原p盘唯一global候选。精确下界保结果；坏角色类群及aux同点排除仍开。
+[R1069](results/R1069-all-prime-good-cuspidal-characters-and-unique-global-labels.md)：全p实际good角色global提升唯一，forced-good维数Ω(p/logp)，无regular/Vandiver；坏角色类群及aux同点排除仍开。
 
-[R1068](results/R1068-original-small-auxiliary-prime-necklace-point-inputs.md)：原2/3五/八模型、twisted Burnside与精确点数已付，cusps无点。§7全部非零迹输入准确为五个固定Q-CM点的约化及原标签；保potential-good和twist重合，迹零反射点/同标签排除仍开。
+[R1068](results/R1068-original-small-auxiliary-prime-necklace-point-inputs.md)：原2/3模型/Burnside点数与全部非零迹五Q-CM来源已付，保twist重合/potential-good；迹零反射点仍待消费。
 
-[R1067](results/R1067-original-cuspidal-labels-supported-only-at-p.md)：原全标签仅p支撑，允许非整j；wild coarse及全部ℓ≠p好模型已付。regular全V唯一global，后继R1069无条件good角色唯一。
+[R1067](results/R1067-original-cuspidal-labels-supported-only-at-p.md)：原全标签仅p支撑，保非整j/wild coarse；R1069无条件good角色唯一。
 
-[R1066](results/R1066-original-p-local-disks-and-bounded-CM-representatives.md)：每盘有D′≤4p^1.5/√3的惰性CM代表，实际π格/GM/full source/coarse twists齐备；不推Q-CM或全局标签相等。
+[R1066](results/R1066-original-p-local-disks-and-bounded-CM-representatives.md)：每盘有D′≤4p^1.5/√3惰性CM代表，保实际GM/原π格/两twists，不推Q-CM。
 
 [R1065](results/R1065-original-p-local-cusp-label-compression.md)：原每p盘标签恒定，实际像≤p·n_Qp(p)=O(p^1.5logp)；精确有限读法见R1071。
 
@@ -58,6 +58,8 @@ R1018–40的原完整Fm/两节点Dickson/PD及好BT整比较均已付，详细�
 [R1062](results/R1062-original-full-nonsplit-cuspidal-kummer-descent.md)：原完整cusp格/Galois及forced角色≥⌊p/4⌋−1已付，后继R1067–71保原函数和规范。
 
 R1只把全部异常缩为p>37的完整N_ns；**p≡2,5 mod9只是另加小惯性I_p=C³的结论**。R317的应用另外要求整j、K=Q(√−3)、σ=1，以及实际二除法域和三除法S3商域同时一致。完整惯性、非整j、变化K、σ非平凡及异小除法域的大导子支路，均未由当前CM证明链排除。原导子下界不是上界。O1/O2研究指定辅助源，不是完整剩余情形；真正全局高度也仍待证。逐条假设见[R1003](results/R1003-global-scope-and-remaining-branches.md)，后继不得省略此覆盖缺口。
+
+[R1085](results/R1085-original-ordinary-CM-Hecke-logarithm-and-Serre-Tate-moment.md)：q4513六ordinary CM点u_y=23y−C∞，q⁻¹log((q+1−Tq)u_y)(ω)≡23[t^(q−2)]fω(eᵗ)。原CM水平/全q+1根、完整Mahler尾项/下降/coarse重数全付；实际块值/单位与二SS来源仍开。
 
 ## O1：全p同一真实本原标签的临界非零
 
@@ -69,7 +71,7 @@ R1只把全部异常缩为p>37的完整N_ns；**p≡2,5 mod9只是另加小惯�
 
 [R1059](results/R1059-original-fN-actual-X108-Raynaud-pairing-and-inverse-central-sum.md)：实际X108双三次模型/原q尺度给A_p=(-1)^N3^(3N+1)S_n（亦−S_n/3），S_n=Σ(-1)^i binom(n,i)²/(3i+1)，n=(p−2)/3；原f_N=t²δ′A_p/[4(p+1)]。S单位与同h筛选仍开。
 
-[R1049](results/R1049-original-fN-theta-first-direction-moment.md)：§6原f_N=t²δ′[q^p]ΘEΘ(q⁴)/[4(p+1)]已保完整相位、36/12、奇偶与分母，现接R1059实际曲线；同h两mask仍开。
+[R1049](results/R1049-original-fN-theta-first-direction-moment.md)：原f_N=t²δ′[q^p]ΘEΘ(q⁴)/[4(p+1)]及phase/36/12保原文，R1059已接实际曲线；同h两mask仍开。
 
 [R1053](results/R1053-original-scalar-disjoint-window-through-500000.md)：全部新增7878素数200000<p≤500000、p2/5mod9原f/g非零；run45869953028/45874715945，完整预算/hash保结果；窗口完成不重开，不外推全p。
 

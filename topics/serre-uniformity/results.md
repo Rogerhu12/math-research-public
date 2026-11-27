@@ -323,3 +323,6 @@
 
 
 - **R1084（已证明）**：[原Gaussian指定高单位与最大forced标签次数](results/R1084-original-Gaussian-high-unit-and-maximal-forced-label-degree.md)：全p3mod4的G_(7p−1)=−2a²/(315δ)单位，原最大forced角色coarse度恰(p−7)/4；good时global顶项单位，原两twists/phase齐备。第一斜率H_p和短η/ν仍开，无新扫描。
+
+
+- **R1085（已证明）**：[原普通CM的完整Hecke对数与ST矩](results/R1085-original-ordinary-CM-Hecke-logarithm-and-Serre-Tate-moment.md)：q⁻¹log(Bq(23y−C∞))首层准确为23倍真实ST第q−2系数；保原水平、全部q+1目标、Mahler完整尾项、Fq下降及coarse重数。q4513六普通点适用，实际块值/高度单位仍开。

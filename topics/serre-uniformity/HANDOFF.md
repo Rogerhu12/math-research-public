@@ -6,11 +6,11 @@
 
 会话 **Astra-serre-24b8836b-20261126**。本轮已部分克隆并真实pull main，读两README/H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则读至36cf1ed2。不重做已登记结论或窗口。
 
-**公开两README已读提交：374e0b1b29ab44e5a7209ddcb0a7a75db100749c**（2026-11-27 12:13 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
+**公开两README已读提交：043f19a238b3c67ab3b20782235490c2c7fe0ee9**（2026-11-27 12:14 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
 
 已真实部分克隆/pull；11:24再试pull仍报无可用执行环境，shell未运行；按根规矩8用连接器小文本同步、读两README差异、带expected_sha非force提交，恢复后立即pull --rebase。拒绝即同步重基再推至成功。令牌仅CLI；根维护main/H/open/index/log，子研究独立稿，每条结论立即推。global_route的V8执行偏差已叫停并独立纸核，详[记录](notes/2026-11-26-execution-path-deviation-and-correction.md)，其输出不作证明/合规窗口。
 
-H<10KB、open尽量<30KB、每MD<100KB、topic<200MB；无可重算raw、不写根LOG。[本次逐字前态](handoff-archive-2026-11-27-before-auxiliary4513-transfer.md)沿链保全部旧来源/run/hash；[open](open.md)、[索引](results.md)是完整入口。历史“R1003 norm3准备中”未交付，现R1003为范围纠错。
+H<10KB、open尽量<30KB、每MD<100KB、topic<200MB；无可重算raw、不写根LOG。[本次逐字前态](handoff-archive-2026-11-27-before-CM-logarithm.md)沿链保全部旧来源/run/hash；[open](open.md)、[索引](results.md)是完整入口。历史“R1003 norm3准备中”未交付，现R1003为范围纠错。
 
 ## 原高度来源与范围
 
@@ -20,23 +20,25 @@ R1063：全Hecke族消MW及真辛商，最低两jet行列式仍开。R1058：原
 
 [R1078](results/R1078-original-level47-Cartan-correspondences-and-fixed-cycles.md)：原47全部23个R_C，CM/23cusps完整fixed-cycle与迹、association composition已付；13R0+4R2迹零，[R1081](results/R1081-certified-original-level47-Cartan-trace-and-integral-Hecke-algebra.md)认证角代数rank23、TrZ²=336288；283无一维块，4513有16个真实Zℓ块及原Hodge/Lie自由rank1。run45936209617/job140299891342源48868923，仍缺MW/高度首项。
 
-[R1080](results/R1080-certified-full-level47-Jacobian-rank.md)：run45934421302/job140294236296源702f543e，精确Fricke+三因子16/24/33、全部73实嵌入L′严格正；无条件rankJ=dimJ=ρ_Q=73。原整MW/aux高度及盘内唯一仍开；20.6657秒、全部pins/hash保结果。
+[R1080](results/R1080-certified-full-level47-Jacobian-rank.md)：run45934421302/job140294236296，原full47精确Fricke+因子16/24/33、全部73嵌入L′严格正，无条件rankJ=dimJ=ρ_Q=73。整MW/高度及盘内唯一仍开；pins/hash保结果，不重算。
 
 [R1074](results/R1074-certified-original-p47-eight-CM-disks.md)：run45928658257/job140275928914，原235盘仅8Q-CM盘存活；283完整279标签/Burnside证全点注入。原47²（特殊4/3阶）及283同一点；整个Cp tube原Cartan支撑避让/raw坏47高度零、R43同盘QC坏项相同已付。盘内唯一仍开；全部pins/hash保原文。
 
-[R1071](results/R1071-original-p-local-cuspidal-label-polynomials.md)：原全V finite式/phase/两twists已付，degree≤min(R,p−R)；§17付Hasse梯度及8CM first-lift。 [R1075](results/R1075-original-Hurwitz-unit-and-first-cuspidal-slope.md)现证原G_(p−5)=−24B/(7β_Car⁵)于j0，故首forced coarse斜率单位；good仅用于global圆单位基，原f_N/e仍开。
+[R1071](results/R1071-original-p-local-cuspidal-label-polynomials.md)：原全V有限多项式/phase/两twists/8CM梯度已付，degree≤min(R,p−R)。R1075原j0 G_(p−5)=−24B/(7β_Car⁵)及首forced coarse斜率单位；good仅用于global基，原f_N/e仍开。
 
-[R1070](results/R1070-original-cuspidal-labels-by-division-polynomial-values.md)：原ψ_c标签全部相位/cusp规范齐备；§§9–10扩至完整实际V，同一primitive c可逆，两个边界角色实际缺席。全V辅助可见性精确已付，仍须同点共同像排除。
+[R1070](results/R1070-original-cuspidal-labels-by-division-polynomial-values.md)：原ψ_c全V标签/phase/cusps、两个缺席边界及aux精确visibility已付，仍须同点共同像排除。
 
 [R1069](results/R1069-all-prime-good-cuspidal-characters-and-unique-global-labels.md)：全p实际good角色global提升唯一、forced-good维数Ω(p/logp)，无regular/Vandiver；坏角色类群及aux排点仍开。
 
 [R1068](results/R1068-original-small-auxiliary-prime-necklace-point-inputs.md)：原2/3模型、twisted Burnside及点数齐备；全部非零迹输入为五个Q-CM点约化。保potential-good/twist重合，迹零反射点继续。
 
-R1062/64–67（[完整索引与原规范](results.md)）：原全cusp格/étale cover及p-only已付，允许非整j；每p盘标签恒定、像O(p^1.5logp)，各盘有D′≤4p^1.5/√3惰性CM代表。保wild coarse/GM/full source及两twists，不推Q-CM；regular cusp单一高次闭点无Runge盈余，原可见商/Weil范围见R1064。
+R1062/64–67（[索引](results.md)）：原全cusp/étale/p-only覆盖允许非整j；每p盘标签恒定，像O(p^1.5logp)，有D′≤4p^1.5/√3惰性CM代表，不推Q-CM。wild/coarse/两twists与regular单cusp无Runge盈余保原文。
 
 [R1003](results/R1003-global-scope-and-remaining-branches.md)：R1只剩完整N_ns(p)；p2/5mod9还需小惯性C³。R317还需整j、K=Q(√−3)、σ=1及二/三除法小域同时一致。完整惯性、非整j、变化K、σ非平凡及异小域大导子支路仍开。导子下界非上界；O1/O2或X₁新商即使单独完成也不等于Serre完成。
 
 [R1083](results/R1083-original-level47-auxiliary-Hecke-fields-and-scalar-fibers.md)：真系数域K23/K48/K16独立排283一次泛块；4513全部scalar仅j1728，四twists全1081/25项链给553粗点，j0纤维1。八CM为六ordinary/二SS；新4513完整标签请求已提交、回执待核；原CM高度仍开。
+
+[R1085](results/R1085-original-ordinary-CM-Hecke-logarithm-and-Serre-Tate-moment.md)：q4513六ordinary CM点u_y=23y−C∞，q⁻¹log((q+1−Tq)u_y)(ω)≡23[t^(q−2)]fω(eᵗ)。原CM水平/全q+1根、完整Mahler尾项/下降/coarse重数全付；实际块值/单位与二SS来源仍开。
 
 ## O1：原同一保留标签
 
@@ -46,11 +48,11 @@ R1062/64–67（[完整索引与原规范](results.md)）：原全cusp格/étale
 
 [R1060](results/R1060-actual-X108-nonCM-Cartier-and-nine-torsion-ordinary-input.md)：原非CM四Cartier由九挠/三同源给 $B_n=P_n(3)=-a_p(E54)\ne0$（$p\equiv2,5\bmod9$）；六CM核准确。尚无 $S_n=0\Rightarrow B_n=0$，不能代 $f_N$ 单位。
 
-[R1049](results/R1049-original-fN-theta-first-direction-moment.md)、[R1059](results/R1059-original-fN-actual-X108-Raynaud-pairing-and-inverse-central-sum.md) 已付同一原 $q/\eta$ 尺度、方向矩、实际 X108 配对与 $f_N$ 的 $S_n$ 桥；原 primitive/Legendre 同 $h$ 筛选仍开。
+[R1049](results/R1049-original-fN-theta-first-direction-moment.md)/R1059：同一原q/η尺度、方向矩、X108配对与f_N↔S_n已付；同h两mask仍开。
 
 [R1043](results/R1043-original-fN-and-Hodge-kernel-CM-endpoint.md)：全 $p=6N+5$ 原 $f_N=-T_0(1)/6$，核端点仍未证单位；不与 bare 核范数或 DQv 混同。
 
-[R1031](results/R1031-original-fN-and-actual-Faber-truncation-central-derivative.md)：f_N=0 iff有限Legendre平方截断R′(1/2)=0；原AS尺度/forcing已付，forcing单位不代中心导数单位。
+[R1031](results/R1031-original-fN-and-actual-Faber-truncation-central-derivative.md)：f_N=0 iff原有限Legendre平方截断R′(1/2)=0；forcing单位不代中心导数。
 
 R1012/16/17/20/25/27 的未经筛选完整 theta 分布、常平方一及全方向单位已成，全部相位与实际来源保原文/归档；不能代同 $h$ 两 mask 或 bare。
 

@@ -706,3 +706,8 @@ R1084由同一原primitive的6p次系数严格读出G_(7p−1)=−2a²/(315δ)�
 2026-11-27 12:13 Asia/Taipei｜Astra-serre-24b8836b-20261126
 提交新4513完整同点转移请求，root/global逐行纸审：全四Gaussian twists、scalar独立基、真实half-orbits、553特殊粗点及全图注入验收，八旧ID只消费不重报旧排除。
 课题外新增.github/workflows/serre-original-p47-ell4513-cuspidal-transfer.yml，仅为本课题公开Actions；math600秒/reserve30，原数组仅runner。尚无新数学回执。
+
+
+2026-11-27 12:14 Asia/Taipei｜Astra-serre-24b8836b-20261126
+R1085付原六ordinary CM点的完整B_q对数来源：真实ST全µ_q目标、原CM47项链/23cusps及有界测度尾项给精确整等式和首矩。
+root亲读Katz Th2.1并全文独核，o2全文PASS；原特殊coarse重数/无分歧Tate标记/Fq下降齐备，实际块值与高度单位继续。H/open逐字归档后压缩已成入口。
