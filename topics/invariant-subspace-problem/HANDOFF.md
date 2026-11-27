@@ -5,10 +5,10 @@
 ## 目标与规矩
 
 - **普通复可分无限维 Hilbert ISP 未完成。** 只以全体有界算子定理或完整反例收尾；子题/时间/输入不足均不停止，按open换输入继续。
-- **最近实际 pull / 已读规则提交：** 0953285f028281364852cc38ad7bc16e7db6f0e3（2026-11-27 13:41:16 UTC，Actions run46009224713实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-8542/46009224713-1.json。
-- 私库QUEUE本会话进行中已实际核验；最近真实pull为2026-11-27 13:41:16 UTC/b3d0e6e780ecc068f5a1655fc3a441b19373906c，根README diff无变。公私均部分克隆blob:none。
+- **最近实际 pull / 已读规则提交：** c8ffb62b8527f6c1ee587e5ded8c0b9665037da2（2026-11-27 13:43:17 UTC，Actions run46009505952实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-8542/46009505952-1.json。
+- 私库QUEUE本会话进行中已实际核验；最近真实pull为2026-11-27 13:43:17 UTC/c1ed79950909f102e95c88ebf4bd9e3150715762，根README diff无变。公私均部分克隆blob:none。
 - **终端再次断开：** 约07:20 UTC起本地执行器不可用。按根规矩8/13小文本准备、公开Actions真实pull/rebase/push，非快进立即循环；旧故障与准确源保[说明](notes/2026-11-27-executor-outage-and-unpublished-small-input-checkpoint-8542.md)，未冒称本地恢复。
-- **终端断开后远端已读：** `0953285f028281364852cc38ad7bc16e7db6f0e3`（2026-11-27 13:40:56 UTC）；只读检查不冒称实际pull。
+- **终端断开后远端已读：** `c8ffb62b8527f6c1ee587e5ded8c0b9665037da2`（2026-11-27 13:42:56 UTC）；只读检查不冒称实际pull。
 - H<10KB、MD<100KB、open尽量<30KB、题<200MB；只留源/参数/SHA/小回执，不留可重算大输出，不写根LOG。课题外workflow改动已记本题log。
 - 所有被压缩的精确结论/来源/失败身份保[最新完整H](notes/2026-11-27-handoff-before-W-two-original-quartics-8542.md)、[open](open.md)、[结果索引](results.md)及归档链；省略不算关闭，已登记不重做。
 
@@ -34,7 +34,7 @@
 - **一般ell=0全闭，全局付ell。** 全三头曲线、1146次QQ覆盖及404余因子/u2/u半均原返回；完整来源保总定理与归档，不加W/Q边界、不重放。
 - **旧D≠0图T0=0全闭，可付T0，不外推h=k。** F4/J4整原返回后QQ4原48×35返1（cd05afd9，0.625秒/exit0），不重放。一般头[0,2,3,4]=2u⁴Q(Q−1)³M²ell·T0(J−Q)。
 - **h=k,b=c整个原碰撞支新全闭；Delta0 h1/k1≤6219保留。** c2d6在完整QQ(lambda20)恢复原Q一次，保自由f重建全部八式，E1/EBe真Bézout1；46逆/9除法全返，真0.289秒/41412KiB/exit0。合f5e已闭Delta非0，现整个碰撞可付u−ell，不借旧D单位。根续h=k的T0零原面，直接原P1付Phi/解t而保自由f与NV；一般不等权仍开。
-- **Phi0/h1≤32基点/64三元组、四norm单位、仅Nm(T0)零支H8与Nm(J−Q)单位保留。** 新845c真3.158秒/56972KiB/exit0；NC/PC及同rho和的三新投影仍g32，无增益已冻结。新883完整QQ(lambda)/H8保同rho/ell与全部八原行，真乘法理想只返原单位幂，120秒1GiB；未宣全Phi0闭。
+- **Phi0/h1≤32基点/四norm单位及整H8原纤维新闭。** 883真7.019秒/62952KiB/exit0，完整QQ(lambda)/H8上rho2/ell2代数维4，32个原生成元rank2；真同点单位U²全标签返原理想，未把秩2说成4。新4e76原27阶H8局部赋值/真实余式Gauss，120秒1GiB，尚不宣h1或全Phi0闭。845无增益冻结。
 
 ### rankH3原ess6
 

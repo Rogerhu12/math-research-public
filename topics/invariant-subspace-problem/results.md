@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [Phi0 秩一中心值图的整 H8 原纤维排除](results/R150-appendix-unit211-Phi-zero-rank-one-value-H8-complete-original-fiber-exclusion.md)：QQ(lambda)/H8上完整rho2/ell2四维代数，八原行全乘法理想秩2而实际原单位U²落理想；保全部嵌入和非约化。
+
 - [W 同值双四次必要式的完整原组合](results/R150-appendix-unit211-W-original-two-quartic-necessary-values.md)：同一s从EDelta及二三矩得R4/C4，保D及一次头零支；十独立变量五恒等式V8精确返回。
 
 - [单链U对原B、全部dyadic幂及原单个位的实际非不变性](results/R271-appendix-single-chain-actual-dyadic-shift-noninvariance.md)：完整Y Cayley系数保留；四次主项超过三次费用反解，dyadic有限头解析逆排全部幂。
