@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R150：W 整余图原 D 清分母后的完整十条两列方程](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-original-D-cleared-two-generator-system.md)：原第三矩唯一恢复 s，保两矩、两谱个别 N/P 与六物理单位；实际43.084秒/exit0，不倒范数，全部旧首项零面保留。
+
 - [全余 W 十原值的完整四生成表示](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-native-full-value-four-generator-system.md)：原mean、第三矩、Delta/compat和个别NP两谱十行、八真乘法全实际返回；4.955秒/exit0，旧失败门冻结；续原D清分母的两列系统。
 
 - [全余 W 原值身份与单首一四生成塔](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-original-value-identities-and-monic-four-generator-tower.md)：原两矩、N4纠正和个别NP两谱已真返，第二首一式给1,Y,s,Ys；180秒后置展开未齐的准确边界另存，转逐乘法约化。
