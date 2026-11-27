@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [五独立正权完整S2与六独立位出生二首边](results/R271-appendix-five-independent-positive-weights-full-s2-and-six-site-birth-two-first-edge.md)：同全MP费用平方迹<1/4，2841参数→6936完整正轨道；同L half及原R298/R275全拼接，原W/N=M继续。
+
 - [Phi例外整个M_J四次纤维排除及112有序基点覆盖](results/R150-appendix-unit211-Phi-zero-exceptional-whole-S-moment-quartic-exclusion-and-112-cover.md)：原rho4/T5/z2的160维meanR可逆，真QQ重数仅≥4；完整1977/2050新Bézout，模8保未付。
 
 - [G36完整原单位及1198次有限权覆盖](results/R150-appendix-unit211-W-G36-original-unit-and-complete-1198-weight-cover.md)：9原行/36分量/20真逆全返；保全部k异常和QQ参数6片，仅付某幂；各固定k≤36生成，不同必要点≤43128。

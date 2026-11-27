@@ -4,7 +4,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-whole-MJ-exclusion-and-112-cover-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-complete-five-weight-S2-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -209,9 +209,13 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 [a40长rho欧氏失败](notes/2026-11-28-Phi-psiD-high-degree-rho-Euclid-SIGALRM-8542.md)及[bb35原λ模块失败](notes/2026-11-27-unit211-Phi-zero-first-head-lambda-row-module-first-timeout-8542.md)准确冻结，后者无最终D幂或权分母。新6e5首次派发F/g4、G/g4的G-only原22阶商QQ88线性输入，完整短乘回后才用新原57核支付更高QQ重数；若仍只有4就保持112，不重跑208combined/160原值。旧87/55、C71/29、首头零/H0/个别N/P与ed0/879边界均保留。
 
-## R271：全正权出生一尖锐 2/3 后的完整源（8542，2026-11-28）
+## R271：五位完整S2已闭，继续更高原来源（8542，2026-11-28）
 
-[全位数尖锐2/3](results/R271-appendix-sharp-two-thirds-universal-birth-one-first-and-last-edges.md)保全有限/无限正ell²来源；新[4/5位严格1/2](results/R271-appendix-four-five-sites-birth-one-half-first-last-edges.md)由次数10支持、真实特征系数及6平方/10均值差全整数944ms返回，给同五位低源budget>I/2和末边<L1/2，未称最优或扩至六位。高出生/内部高度/上源费用仍开。[完整S2首次SIGALRM](notes/2026-11-28-five-bit-birth-two-S2-full-source-SIGALRM-8542.md)在180.033秒只返低逆/上源三块，无cost或轨道，冻结换先消分母/真实矩阵预算；保整个上投影和两cross。[新Ward完整cost首次中止](notes/2026-11-28-five-bit-s2-ward-first-resource-attempt-8542.md)真180.047秒/356660KiB/−14，90.746秒已返同源cost，后续投影核对/平方迹无终记录或结果文件；不能细分中断行，无反例/证书。冻结换五次companion/Newton矩。六位完整支持最大流失败及84个新平方迹浮点值保[新尝试](notes/2026-11-28-six-support-ward-attempts-8542.md)，不作正性结论；N=M未证。
+[全位数尖锐2/3](results/R271-appendix-sharp-two-thirds-universal-birth-one-first-and-last-edges.md)保全有限/无限正ell²出生一来源；[四、五位严格half](results/R271-appendix-four-five-sites-birth-one-half-first-last-edges.md)给同低源budget>I/2，未付六位出生一half。
+
+新[五位全部独立正权完整S2及六位出生二首边](results/R271-appendix-five-independent-positive-weights-full-s2-and-six-site-birth-two-first-edge.md)已证明。同一全上MP/四共同块/两cross的cost平方迹N/D为加权98；566b首实0.233秒/46236KiB/0保存完整2841参数。BigInt3942ms将D−4N原z展开为6936正轨道、658965正单项式，min系数1，故Tr(K²)<1/4、K<I/2，与同L half合成真正S2。旧R298完整硬端S1、旧低源末边及R275全同余进一步给六独立位出生2九维首边严格成立。
+
+完整75.7KB精确参数/单次证书源/回执保存；9b5/3e34两次资源失败及首次JSON TypeError准确保档，后者只修3处整数转换。此后续高出生、内部高度、全primitive联合来源及原W源费；N=M与普通ISP未付，不能把有限primitive结论替代原graph Gram。六位支持失败/84浮点仍只按[旧尝试](notes/2026-11-28-six-support-ward-attempts-8542.md)范围。
 
 此前Haar/稀疏链全交织、所有非零Ky像T循环、与RanJ零交及同源Abel费/log发散等已证接口仍在快照链；Cy⊥非零、G保N、W源费及普通ISP继续。
 

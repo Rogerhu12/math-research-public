@@ -1,0 +1,187 @@
+{
+  "schema": "isp-five-bit-s2-quarter-positive-integer-certificate-v1",
+  "status": "CERTIFIED",
+  "input_source": {
+    "repository": "Rogerhu12/math-research-public",
+    "run_id": 46046216601,
+    "job_id": 140666034355,
+    "git_blob": "7ca2a2d4993ddf33f2292dd1b512d201b0c84d5a",
+    "sha256": "566b0cea6a673ccd813bf65fc5f5afeefc450ed8939bbfbe4ebdc2d5925572e6"
+  },
+  "exact_input_bytes": 208454,
+  "exact_input_sha256": "2d7078584c2aea20d9e80f0dda7700f446b6471aeb3e17ef9eb8d237f415f909",
+  "elementary_records": 2841,
+  "denominator_terms": 210,
+  "denominator": "e1^2 e4^4 (e1^2 e3-4 e1 e4+12 e5)^4 (e4^2 e2-4 e1 e4 e5+12 e5^2)^6",
+  "original_degree": 98,
+  "positive_orbits": 6936,
+  "negative_orbits": 0,
+  "original_monomials": "658965",
+  "min_original_coefficient": "1",
+  "min_mean_weight": "120",
+  "equal_variable_mass": "194522647344910860816000000",
+  "horner_nodes": 3719,
+  "orbit_sha256": "e3e56baa555398974263be2c245423a7f355533bdf793093dbd3ac9064d1b43f",
+  "statement": "D-4N has strictly positive coefficients on its 6936 nonzero symmetric monomial orbits; hence Tr_L((A*Gu A)^2)<1/4 for all five positive weights.",
+  "scope": "Same full physical source, full upper MP projection, all mixed blocks retained. This proves five-site S2 and the R275 six-site birth-two first edge; it makes no all-birth, infinite joint-source, or ordinary ISP claim.",
+  "elapsed_ms": 3942,
+  "execution": "Actual pure V8 BigInt call, using the identical certificate core embedded in the distributed mjs; zlib/Adler32 and SHA256 implemented in pure JavaScript",
+  "date_taipei": "2026-11-28",
+  "source_sha256": "a9f935146ae6af028568f43014b422ce61ff0a1f4884cbcabc3ac8f1266e0d65",
+  "companion_execution": {
+    "elapsed_seconds": 0.23300796099999843,
+    "max_child_rss_kib": 46236,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "1297662ab91911bae9121d9f20b1fa6b99bf57eb",
+        "before": "813e5dd97212f9a05521345dc9265a5b3c1b070a",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-27T18:01:05.397335+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46046216601",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "813e5dd97212f9a05521345dc9265a5b3c1b070a",
+    "source_exit_code": 0,
+    "source_git_blob": "7ca2a2d4993ddf33f2292dd1b512d201b0c84d5a",
+    "source_sha256": "566b0cea6a673ccd813bf65fc5f5afeefc450ed8939bbfbe4ebdc2d5925572e6",
+    "stdout_bytes": 6304,
+    "stdout_sha256": "0f2cc6c26eff13793410e7af7162d5495d6fbc776af53f6d06bd8bbb8eab4f9b",
+    "stop_reason": null
+  },
+  "companion_stages": [
+    {
+      "stage": "companion_complete_primitive_grams",
+      "seconds": 0.006362611000000129,
+      "L1": {
+        "den_factors": {
+          "S": "2",
+          "delta": "1"
+        },
+        "max_num_degree": "9",
+        "max_num_terms": "21"
+      },
+      "L2": {
+        "den_factors": {
+          "S": "2",
+          "epsilon": "1"
+        },
+        "max_num_degree": "9",
+        "max_num_terms": "35"
+      },
+      "E": {
+        "den_factors": {
+          "e4": "1"
+        },
+        "max_num_degree": "5",
+        "max_num_terms": "7"
+      }
+    },
+    {
+      "stage": "same_short_four_blocks",
+      "seconds": 0.02007075299999883,
+      "Kcc": {
+        "den_factors": {
+          "epsilon": "1"
+        },
+        "max_num_degree": "8",
+        "max_num_terms": "32"
+      },
+      "Kce": {
+        "den_factors": {
+          "pi": "1",
+          "epsilon": "1"
+        },
+        "max_num_degree": "9",
+        "max_num_terms": "51"
+      },
+      "Kee": {
+        "den_factors": {
+          "pi": "1",
+          "epsilon": "1"
+        },
+        "max_num_degree": "8",
+        "max_num_terms": "39"
+      }
+    },
+    {
+      "stage": "common_source_inner_square",
+      "seconds": 0.02786101200000246,
+      "inner": {
+        "den_factors": {
+          "e4": "2",
+          "delta": "2",
+          "epsilon": "1"
+        },
+        "max_num_degree": "16",
+        "max_num_terms": "198"
+      }
+    },
+    {
+      "stage": "same_actual_cost_in_companion_coordinates",
+      "seconds": 0.04270849200000271,
+      "cost": {
+        "den_factors": {
+          "S": "2",
+          "e4": "2",
+          "delta": "2",
+          "epsilon": "3"
+        },
+        "max_num_degree": "23",
+        "max_num_terms": "688"
+      }
+    },
+    {
+      "stage": "exact_cost_checkpoint_written",
+      "seconds": 0.07165477800000275,
+      "bytes": "149255"
+    },
+    {
+      "stage": "exact_scalar_in_elementary_variables",
+      "seconds": 0.11437551899999931,
+      "N": {
+        "terms": "2836",
+        "ordinary_degree": "36",
+        "weighted_degrees": [
+          "98"
+        ],
+        "negative": "1419",
+        "sha256": "7641573fefad946acf9f9fc1d381e37b9753631f708a90295cf074b07dce2e9b"
+      },
+      "D": {
+        "terms": "210",
+        "ordinary_degree": "36",
+        "weighted_degrees": [
+          "98"
+        ],
+        "negative": "96",
+        "sha256": "34010f587caa924ebc83ad9814ef7040e16186ace5786337c4f4d9a0fbbab695"
+      },
+      "gap": {
+        "terms": "2841",
+        "ordinary_degree": "36",
+        "weighted_degrees": [
+          "98"
+        ],
+        "negative": "1421",
+        "sha256": "cbc79fa483c352a99b011544ef52a79cfa99b0ed1178bc9e2438a7c316aebe15"
+      }
+    }
+  ],
+  "companion_capture": {
+    "schema": "isp-s2-exact-output-chunks-v2",
+    "status": "EXACT_SCALAR_READY",
+    "bytes": 208454,
+    "sha256": "2d7078584c2aea20d9e80f0dda7700f446b6471aeb3e17ef9eb8d237f415f909",
+    "encoding": "base64+zlib+json",
+    "chunks": 2,
+    "base64Characters": 75216
+  }
+}
