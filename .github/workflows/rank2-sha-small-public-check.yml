@@ -8,6 +8,7 @@ name: Rank2 small exact public checks
   workflow_dispatch:
 permissions:
   contents: read
+  actions: read
 concurrency:
   group: rank2-sha-small-public-check
   cancel-in-progress: false
@@ -17,6 +18,8 @@ jobs:
     timeout-minutes: 15
     steps:
       - name: Execute named topic scripts and report hashes only
+        env:
+          RANK2_ACTIONS_READ_TOKEN: ${{ github.token }}
         shell: bash
         run: |
           set -euo pipefail

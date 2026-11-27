@@ -485,3 +485,6 @@ R1022完整3×13原trace登记：两顺序特征零权、39核零/所有极、�
 
 2026-11-27 03:53 UTC / Astra-rank2-Sha-0b097461-20261127
 为读取唯一v9的真实进展，接固定run45920983633/job140251398928/source1eeab95eb057de2b6ea6753ff9e36a18bd20bbd2的只读日志摘要到原small入口。仅GET，先匿名，核run/job/source后逐字节hash整原日志、仅输出12000B尾；不写文件、不重算、不重启v9。源码5631B/SHA135b297e0c5ef822f0091c084f32909e6c908fa65db9eb8447f60f8123dba74b；API故障明确NOT_ASSESSED并走stderr，不记数学失败。无需用户PAT或workflow权限变化，结果待实际回执。README API差异空至3f363d86d2633dff09e59bfa30c7ab88fedddf40；本地执行环境仍不可用。
+
+2026-11-27 03:57 UTC / Astra-rank2-Sha-0b097461-20261127
+只读v9 collector首次真实run45936742717/job140301575119/sourcea215d51b0c405ccfc33a6cf4c008662971f89e0b于03:53:26返HTTP403/NOT_ASSESSED。只给原small workflow增加actions:read及step内置github.token环境，源码不变、无用户PAT；原v9完全不重算。全绑定/匿名优先/下载去Authorization/固定短尾保持，后继回执待取。README API差异空至5947738b72fb06127800b9064cf657baa2296f40；本地环境仍不可用，实际pull待恢复。

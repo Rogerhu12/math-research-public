@@ -109,3 +109,13 @@ RESULT 8,315 B / SHA-256
 01:10:50两份原characteristic-zero PASS完成认证；本次source仍为1eeab95eb057de2b6ea6753ff9e36a18bd20bbd2，wrapper仍为aec8056ca7cda7a6ab60157aeddd1051dc14b18255e15e0749616db9692ddfdc。原完整乘积块于02:23:46.974完成；实际specialised prime Frobenius从02:23:47.001的第1行到02:23:48.778的第306行，elapsed从4376.793到4378.570，native_constant_degree=2。
 
 快照末尾为02:25:13.119，positive/base-prime0/actual maximal ideal0的完整Hermite已到272/306列，remaining_determinant_degree=0。作业仍在运行；这不是四交、全部厚Norm或18×9 shadow最终PASS。继续消费同一个run45920983633/job140251398928，不启动重复重作。
+
+## 7. 大日志读取故障与限定只读后继
+
+03:05、03:11及03:41UTC专用连接器的完整日志读取均Transport closed；03:41的step4 metadata仍in_progress，不能据它改写§6的实际数学阶段。
+
+为取得原字节快照，新增只读脚本`fetch-original-v9-log-snapshot.py`，固定原run45920983633/job140251398928/source1eeab95eb057de2b6ea6753ff9e36a18bd20bbd2；先核绑定，再GET日志，全字节SHA256/长度并仅输出12000B尾，不写文件、不重算或重启原作业。源码5631B/SHA135b297e0c5ef822f0091c084f32909e6c908fa65db9eb8447f60f8123dba74b。
+
+首次collector run45936742717/job140301575119/sourcea215d51b0c405ccfc33a6cf4c008662971f89e0b在03:53:26UTC实际返回GitHub API HTTP403，collector状态API_READ_ERROR、原数学NOT_ASSESSED。原v9没有因此失败或通过。
+
+后继仅给原small workflow增加actions:read，并在执行step以`RANK2_ACTIONS_READ_TOKEN: ${{ github.token }}`传入内置只读token；不使用用户PAT。脚本仍先匿名，仅401/403才在GitHub API回退该token；下载302改用全新无Authorization请求，不打印签名URL。请求仍固定同一原run/job/source，无新数学运行。实际新快照待回执，不预记阶段。
