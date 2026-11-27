@@ -453,6 +453,10 @@
 - 原Tate normal-FM§16付ordinary全族双变量Picard连接和实际M标架。移动simple零与source Ψ的−H/u一并保留，真实插入是Ψ+HD；所有高极输入保全部extended Cartier输出。Q/normal c与M首变分均回原尺度，全p-curvature仅作核对。
 - 候选09e93的一个普通p倍divisor⇒全局pthpower理由在发布前被o2指出；修正版180c14e改为K=z^d u(T,z)的目标局部证明，root/o1/o2精确全文PASS。主结论公式不变，未据此推e/K4单位。open前态逐字归档/去重复；无数学执行，继续指定U^m低jets。
 
-### 2026-11-28 02:20 Asia/Taipei — Astra-serre-24b8836b-20261126
+### 2026-11-28 02:18 Asia/Taipei — Astra-serre-24b8836b-20261126
 - 原固定Y:y³=(2/κ)(1−η⁶)的degree3商、完整四基与Cartier-zero全付；μ6×μ3排第四基三对，真实E pullback和absolute负号给e=3ρsδA。消费原e0 iff S0后，得到e0 iff全部全局Raynaud配对恒零。
 - root/o1/o2全文纸审，未反用hyperelliptic单向引理，未将四维isotropic当矛盾；继续指定U^m有界余核及原e/K4。无数学执行。open逐字归档后压缩旧O3–6入口，旧结论/运行pins沿链不撤。
+
+### 2026-11-28 02:26 Asia/Taipei — Astra-serre-24b8836b-20261126
+- 原两条p点直线的实际chord给U+V=1，几何anti/算术bar只取一次真实范数；完整θ/leading恢复两槽uχ、vχ，含ψ₂²且不除κ₂。每actualχ通过两段r的多项式根数保证2≤a≤m存在uχunit。
+- root/global/o2全文纸审通过；Norm后全部crossed Cor保留，不把源恢复当cup零。泛配置不交collision双tame只给universal障碍，实际elliptic addition仍需处理。无数学执行；H逐字归档保持小体积，继续指定原Manin组合与跨轨道消元。

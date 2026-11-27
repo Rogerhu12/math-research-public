@@ -28,6 +28,8 @@
 
 [原aux-c整Manin](notes/2026-11-28-original-auxiliary-c-torsion-Manin-correlation.md)：真实K₃残数给Ψc(P,Q)=c²{hcP,hcQ}−Σ_t Cor{hc(P+t),hc(Q−t)}的整三项式，含t0阶c²−1。原双权重首项为4c²κχκψ/m²·{Fχ,Fψ}；任何实际两角色可同选奇3≤c<p使κ均unit/aux field度p单位。原same-t相关mask及指定Manin组合仍待付；个别hc有Hodge权，只有augmentation乘积真权零。 §7以R_a(T)=∏(xT−xi)^ai与第二实际K₃把全部aux Cor精确移回原p点：𝒫=2c²{M_a,M_b}−2c⁴C_ab，C_ab=Σi<j(ai bj−bi aj){(xi−xj)/d0,hi/hj}。O归一/ψc leading/两次{-1,h}整消全保；原配置cross项仍须付，不等于杯积已零。
 
+[原跨line弦单位](notes/2026-11-28-original-cross-line-chord-unit-equations.md)：i仅原E[p]索引，(P,aP,iP)给真实U+V=1。一次实际bar范数保全部θ相位/leading，两槽类为uχ(a)Fχ/m、vχ(a)Fχ/m；uχ=2[g(a+1)−g(a−1)]、g(t)=(t²−δ)^r−t^(2r)。低/高r根数付每actualχ都有2≤a≤m使uχunit；第二槽全ψ₂²保留、不除κ₂。不保证两χ共a或V槽unit。原Norm crossed Cor/四阶下降继续；泛配置双tame非零只作边界，不能传到实际椭圆。
+
 ### 原完整X_ns^+(47)已完成，只消费
 
 [R1125](results/R1125-original-full47-rational-point-classification.md)证明原完整X_ns^+(47)(Q)恰为八个有理CM点，准确j表和原点身份保正文。R1072/1074的全235坏47盘、全10 good全局标签及283同点筛选，只余八盘；R1086的全4513标签含scalar/twists/cusps/R36零坐标，锁定同一CM点。R1074§9的whole-C47 tube和R1103§6.1付全部非q项，包含非整j与2/3；未另加整j、二次域或proper inertia假设。

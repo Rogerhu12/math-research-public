@@ -1,5 +1,7 @@
 # 结论索引
 
+- **原跨line完整单位源（已证明，纸面）**：[原跨line弦单位](notes/2026-11-28-original-cross-line-chord-unit-equations.md)：i仅原E[p]索引，(P,aP,iP)给真实U+V=1。一次实际bar范数保全部θ相位/leading，两槽类为uχ(a)Fχ/m、vχ(a)Fχ/m；uχ=2[g(a+1)−g(a−1)]、g(t)=(t²−δ)^r−t^(2r)。低/高r根数付每actualχ都有2≤a≤m使uχunit；第二槽全ψ₂²保留、不除κ₂。不保证两χ共a或V槽unit。原Norm crossed Cor/四阶下降继续；泛配置双tame非零只作边界，不能传到实际椭圆。
+
 - **原genus4完整Raynaud判据（已证明，纸面）**：[原genus4全局Raynaud](notes/2026-11-28-original-genus-four-global-Raynaud-vanishing.md)：实际degree3商Y:y³=(2/κ)(1−η⁶)，完整四基全Cartier-zero；第四基与其余三基按μ6×μ3权严格配零。原映射ω↦h及absolute负号给e=3ρsδA，再消费已付e0 iff S0，得到e0 iff全局β_Y恒零。canonical比值生成K(Y)，Y非hyperelliptic；不反用hyperelliptic⇒β0，不由isotropic四维代非零。
 
 - **原aux-c整Manin（已证明，纸面）**：[原aux-c整Manin](notes/2026-11-28-original-auxiliary-c-torsion-Manin-correlation.md)：真实K₃残数给Ψc(P,Q)=c²{hcP,hcQ}−Σ_t Cor{hc(P+t),hc(Q−t)}的整三项式，含t0阶c²−1。原双权重首项为4c²κχκψ/m²·{Fχ,Fψ}；任何实际两角色可同选奇3≤c<p使κ均unit/aux field度p单位。原same-t相关mask及指定Manin组合仍待付；个别hc有Hodge权，只有augmentation乘积真权零。 §7以R_a(T)=∏(xT−xi)^ai与第二实际K₃把全部aux Cor精确移回原p点：𝒫=2c²{M_a,M_b}−2c⁴C_ab，C_ab=Σi<j(ai bj−bi aj){(xi−xj)/d0,hi/hj}。O归一/ψc leading/两次{-1,h}整消全保；原配置cross项仍须付，不等于杯积已零。

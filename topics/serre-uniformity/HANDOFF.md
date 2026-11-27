@@ -6,11 +6,11 @@
 
 会话 **Astra-serre-24b8836b-20261126**。已部分克隆并真实pull main，读根/课题README及H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则36cf1ed2已读。不得重做登记结论/窗口。
 
-**公开两README已读提交：96c4623da035b0345443df40be0101c3be512392**（2026-11-28 02:18 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
+**公开两README已读提交：cf9024bcc897642f88b74ce31c53ab191cc1d0d7**（2026-11-28 02:26 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
 
 最近真实pull 2026-11-27 01:48 Asia/Taipei；01:47重试执行器仍报无可用环境，shell未启动。按根规则8连接器同步、读diff、expected_sha非force提交，拒绝立即同步重基重推至成功；环境恢复立即pull --rebase。下一次真实尝试不晚于2026-11-28 02:47。令牌只CLI。数学程序仅本公开仓库Actions；本地/V8仅metadata/文本，不作数学计算。[此前偏差纠正](notes/2026-11-26-execution-path-deviation-and-correction.md)。
 
-root管main/H/open/index/log，子研究仅独立candidate；每条结论即推。H<10KB，open尽量<30KB，每MD<100KB，topic<200MB；不存可重算raw/artifact/Release，不写根LOG。[最新逐字前态](handoff-archive-2026-11-28-before-original-p-configuration.md)沿链保完整旧公式、source/run/hash；[open](open.md)/[索引](results.md)为完整入口。旧“R1003 norm3准备中”未交，现R1003为范围纠错。
+root管main/H/open/index/log，子研究仅独立candidate；每条结论即推。H<10KB，open尽量<30KB，每MD<100KB，topic<200MB；不存可重算raw/artifact/Release，不写根LOG。[最新逐字前态](handoff-archive-2026-11-28-before-cross-line-chord.md)沿链保完整旧公式、source/run/hash；[open](open.md)/[索引](results.md)为完整入口。旧“R1003 norm3准备中”未交，现R1003为范围纠错。
 
 ## O0：一般 p；整平方层与实际 cochain
 
@@ -20,17 +20,19 @@ root管main/H/open/index/log，子研究仅独立candidate；每条结论即推�
 
 [原整K₂](notes/2026-11-27-original-cuspidal-K2-torsion-and-odd-Jacobian-obstruction.md)给未分歧K₂[p]/常数=μp⊗J(K)[p]，全cusp平均Δ分裂；even残余落odd J。[整p Chen/Ohta](notes/2026-11-27-original-prime-p-Chen-isogeny-and-odd-torsion-reduction.md)付真实同素数p单位同源，N=1消旧odd，剩余在Fricke+平方层；Σ(p²)[p∞]=0不消非Shimura odd。扩张0→ωr→E→ω1−r→0的radical是ω2−2r，非βr。
 
-[R1131](results/R1131-original-square-level-Eisenstein-lattice-and-odd-torsion.md)：forced r=p−1−2j、B_(4j+2)B_(p−1−4j)unit时，Ca DVR/trace BC=m锁实际非分裂rank2格，全块Fricke+且odd K有理p∞零，扭点域K(β_(4j+2)^(1/p))；规范K₂角色2j+2零。p1mod4≥五块，p3mod8指定j无条件；仅运输简单socle。[R1132](results/R1132-original-full-Cartan-odd-cusp-and-constant-K2-torsion.md)：full Cartan低奇cuspline迫全块w负，原正商相应几何p块不存在；偶2≤r<(p−1)/2及B_(2r)B_(p+1−2r)unit时规范K₂角色2−r零。r2只需p∤Bp−3，p7mod8指定低偶r由二次类数无条件；不代K₂/p。
+[R1131](results/R1131-original-square-level-Eisenstein-lattice-and-odd-torsion.md)：forced r=p−1−2j、B_(4j+2)B_(p−1−4j)unit锁实际非分裂rank2格，全Fricke+、odd K有理p∞零，扭点域K(β_(4j+2)^(1/p))；规范K₂角色2j+2零。p1mod4≥5块、p3mod8指定块无条件，限简单socle。[R1132](results/R1132-original-full-Cartan-odd-cusp-and-constant-K2-torsion.md)：偶2≤r<(p−1)/2且B_(2r)B_(p+1−2r)unit时，full低奇cuspline迫全w负，原正商该p块零、规范K₂角色2−r零。r2需p∤Bp−3；p7mod8指定低偶r无条件。均不代K₂/p。
 
 [原整单位关系](notes/2026-11-28-original-integral-Manin-relations-and-cusp-constants.md)仅将原符号格的已知有理平凡角色关系整提升：实cusps消even torsion tame，原S-unit常数先e₀/平均后transfer消去。R1132门前提与真实rational关系不能删，不除12p。
 
 [R1133](results/R1133-original-primitive-unit-equations-and-Heisenberg-source.md)：实际A+B=1的half Cartan加权范数以dχ(a)=Δ²χ(t²)|a−Δ²χ(t²)|2恢复每个原Vχ，偶根数付可逆a，保leading。原杯积保crossed Cor，常Lie中心读K₂/p的ω²而非e₀。§9同一Norm见证给p⁵/class4塔与(a,a,a,b)；cusp iff四moment全零，赋值向量∈(σ−1)^4，Norm只控M0。§10 Fourier/λp相位精确交换同一Heis商，真纤维积保两三阶/p⁵和两极端四阶/p⁷；混合四阶零。forced双字母指标已给，原见证/算术下降未付。
 
+[原跨line弦单位](notes/2026-11-28-original-cross-line-chord-unit-equations.md)：i仅原E[p]索引，(P,aP,iP)给真实U+V=1。一次实际bar范数保全部θ相位/leading，两槽类为uχ(a)Fχ/m、vχ(a)Fχ/m；uχ=2[g(a+1)−g(a−1)]、g(t)=(t²−δ)^r−t^(2r)。低/高r根数付每actualχ都有2≤a≤m使uχunit；第二槽全ψ₂²保留、不除κ₂。不保证两χ共a或V槽unit。原Norm crossed Cor/四阶下降继续；泛配置双tame非零只作边界，不能传到实际椭圆。
+
 [原aux-c整Manin](notes/2026-11-28-original-auxiliary-c-torsion-Manin-correlation.md)：真实K₃残数付Ψc的整三项式，含t0阶c²−1；双κ可同选奇c<p为unit且辅助域度p单位。§7再用实际R_a(T)=∏(xT−xi)^ai、O值1及第二K₃，完整Cor移回原p点：𝒫=2c²{M_a,M_b}−2c⁴C_ab，C_ab=Σi<j(ai bj−bi aj){(xi−xj)/d0,hi/hj}。两次{-1,h}成对整消，C的排序仅二扭；所有cross权保留。须继续指定原Manin组合/配置项，不把它设零或改成c⁴−[c,c]。个别hc有Hodge权，augmentation后才真权零。
 
 ### 固定47及全部来源审计已完成
 
-[R1125](results/R1125-original-full47-rational-point-classification.md)原完整X_ns^+(47)(Q)恰八CM；全部标签/非q含2/3/73维QC/八whole4513盘已付。§10独立全维核run46025141482/job140594489905与原q²全相容，result SHA06c8bbd4fa4a437eaf3ce5b0fa2ce998c661329ca593fbb63c07352d92383173。**只消费，不重跑固定47或审计。**
+[R1125](results/R1125-original-full47-rational-point-classification.md)原full X_ns^+(47)(Q)恰八CM，全部标签/非q含2/3/73维QC/八whole4513盘与§10全维审计均成。run46025141482/job140594489905、result SHA06c8bbd4fa4a437eaf3ce5b0fa2ce998c661329ca593fbb63c07352d92383173。**只消费，不重跑。**
 
 ## O1：原 Picard 两 jet / 真 Tate 族
 
