@@ -1,15 +1,17 @@
 {
-  "message": "ISP: prove the original common-factor three-source S1 block for all positive weights",
-  "parentCommit": "17561514e3a4b718bc1a0dd7ad084c82e5a0406f",
+  "message": "ISP: construct a global monic physical lambda sextic in the original four-mean ideal",
+  "parentCommit": "a56aa66e343c5a31155469b0aef526a41f561a1f",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R271-appendix-one-pair-four-independent-common-factor-three-source-s1-block.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-one-pair-four-independent-s1-second-third-minors-receipt-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-one-pair-common-factor-three-s1-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-one-pair-common-factor-three-s1-8542.md",
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-W-global-original-physical-lambda-monic-six.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-global-physical-lambda-six-characteristic-original-input-receipt-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-global-physical-lambda-six-characteristic-original-input-8542.py",
+    ".github/workflows/invariant-subspace-8542-w-global-physical-lambda-characteristic.yml",
+    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-global-original-physical-lambda-monic-six-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-global-original-physical-lambda-monic-six-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -18,5 +20,7 @@
     ".github/workflows/invariant-subspace-8542-root-terminal-publication.yml",
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
-  "dispatchWorkflows": []
+  "dispatchWorkflows": [
+    "invariant-subspace-8542-w-global-physical-lambda-characteristic.yml"
+  ]
 }

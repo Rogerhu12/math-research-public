@@ -1,0 +1,64 @@
+{
+  "kind": "completed_formal_original_ideal_theorem_and_unexecuted_new_coefficient_input",
+  "session": "Astra-ISP-8542378f-20261127",
+  "dateAsiaTaipei": "2026-11-28",
+  "scope": "existing general-LS Delta=0 W=0 original physical chart; weight localization only in polynomial identity",
+  "theorem": {
+    "basis": [
+      "1",
+      "x",
+      "y",
+      "t",
+      "y^2",
+      "y*t"
+    ],
+    "originalIdeal": [
+      "E1",
+      "EBe",
+      "EBo",
+      "N1"
+    ],
+    "samePointLambdaRelation": "(lambda I-Mlambda)v=Elambda F4",
+    "matrixDefinition": "Mlambda=alpha0 I+alphax Mx+alphay My+alphat Mt",
+    "characteristicDefinition": "chi(Z)=det(Z I-Mlambda)",
+    "degree": 6,
+    "monic": true,
+    "exactIdealIdentity": "chi(lambda)=e0^T adj(lambda I-Mlambda) Elambda F4",
+    "requiresFreeOriginalBasis": false,
+    "requiresSimultaneousMatrixCommutation": false,
+    "requiresGeometricDInverse": false,
+    "newWeightLeadingInverse": false
+  },
+  "previousActualSource": {
+    "run": 46068841943,
+    "job": 140740627266,
+    "sourceCommit": "8b8da559c05cb1fb48d98f6b53daaf8fe0d321a3",
+    "innerExit": 0,
+    "eighteenOriginalMultiplicationIdentities": "actually completed",
+    "sourceDependencySHA256": "10720660772a9a1252b905b1227b697e038d1b974b7e96ec30e485477b21d3f1"
+  },
+  "newSource": {
+    "path": "notes/2026-11-28-unit211-W-global-physical-lambda-six-characteristic-original-input-8542.py",
+    "blob": "4ab79a61a35f942edb15cfecff2562ccc82e065f",
+    "bytes": 10134,
+    "sha256": "563ef7c9682a4b52f30bea024a391588c747fd97b0a2e8a6c1a4f14a49ec2d65",
+    "readbackEqual": true,
+    "constructionPrefixBytes": 15191,
+    "constructionPrefixSHA256": "d4696b07ea7eccb62b4e8c885fb50e95f17b6c0d105eb65fb2a3d11b2f965507",
+    "limits": {
+      "seconds": 180,
+      "addressSpaceBytes": 4294967296
+    },
+    "executionAtReceiptCreation": "not executed",
+    "run": null,
+    "innerExit": null
+  },
+  "notClaimed": [
+    "new characteristic coefficient expansion completed",
+    "new spectral factors identified",
+    "whole W empty",
+    "old twelve-order resultant completed",
+    "new uniform finite-free statement after geometric localization"
+  ],
+  "dataRetention": "source/definitions/hashes/small receipt only; no coefficient cache, matrix, trace payload or encoded chunks"
+}
