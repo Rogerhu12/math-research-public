@@ -1,15 +1,16 @@
 {
-  "message": "ISP: reduce the entire general JQ head-zero line to two original weight points",
-  "parentCommit": "9fba1d2b2865407f949a81a72568a9980e378a3c",
+  "message": "ISP: derive the original W three S linear elimination with full zero boundary",
+  "parentCommit": "4f265f6fc3a34f620b7dbfa736616d1c3bac2081",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-general-J-equals-Q-H-zero-original-two-point-cover.md",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-general-JQ-Hzero-two-point-cover-execution-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-general-J-equals-Q-H-zero-final-QQ2-original-return-8542.py",
-    ".github/workflows/invariant-subspace-general-jq-hzero-qq2-return-8542.yml",
+    "topics/invariant-subspace-problem/results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-centered-three-S-linear-original-elimination.md",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-generic-LS-W-centered-three-S-linear-execution-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-generic-LS-W-y-one-original-return-logging-failure-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-generic-LS-W-y-one-original-return-logging-corrected-8542.py",
+    ".github/workflows/invariant-subspace-w-y-one-logging-corrected-8542.yml",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -19,6 +20,6 @@
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
   "dispatchWorkflows": [
-    "invariant-subspace-general-jq-hzero-qq2-return-8542.yml"
+    "invariant-subspace-w-y-one-logging-corrected-8542.yml"
   ]
 }
