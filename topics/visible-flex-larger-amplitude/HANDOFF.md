@@ -43,8 +43,8 @@ R714全C1/m32、R715 raw hΔ六jet及原全E/typed责任保。[原08完整九源
 [新SO3同g精化合同](notes/2026-11-27-same-g-so3-normal-refinement-contract-and-entry-design.md)及[完整M320 v2](notes/2026-11-27-M320-complete-frequency-refinement-cloud-reconstruction-v2.md)已刊13全源/3再生器/两完整ready；driver6a9008/readerbc0c保原全科学体，原M160参考不变、正确三通道零嵌入及全P0/G/typed。只注册cc0a/91c真实complete父，不纳新7c目标，真实M320结果尚欠；径向/N/连续同支仍欠。
 
 <!-- visible-larger-parallel-06:start -->
-并行公开Actions06：[run 45904402595/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45904402595)；[实际记录](notes/2026-11-26-public-actions-45904402595-1.md)。阶段`followup:complete-normalized-parent-cached-backtracked-SOC-v2-next64-20261126-rebuild06`/running；已返42，exit=未返。
-并行06规则核查：2026-11-27 03:56:54 UTC，真实pull至`9f76738e65c8d706334bffbba3ae765ad72ce231`，双README无变化。
+并行公开Actions06：[run 45904402595/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45904402595)；[实际记录](notes/2026-11-26-public-actions-45904402595-1.md)。阶段`followup:complete-normalized-parent-cached-backtracked-SOC-v2-next64-20261126-rebuild06`/completed；已返43，exit=0。
+并行06规则核查：2026-11-27 04:00:15 UTC，真实pull至`260acb538df3f5e2a3a52a64778d674544ca673b`，双README无变化。
 <!-- visible-larger-parallel-06:end -->
 
 <!-- visible-larger-parallel-07:start -->
