@@ -1,0 +1,2776 @@
+{
+  "execution_id": "full-p47-QC-first-rows-v2",
+  "prime": 47,
+  "coefficient_prime": 4513,
+  "sage_version": "10.6",
+  "python_flint_version": "0.9.0",
+  "total_seconds": 2400,
+  "reserve_seconds": 60,
+  "correspondences": [
+    "ZA",
+    "ZB"
+  ],
+  "rules_last_read_commit": "8fc4d1f021b068dcbfee33262c563ac9dc16bac1",
+  "consumed_basis_request_path": "topics/serre-uniformity/notes/full-p47-small-odd-Hecke-basis-request.json",
+  "consumed_basis_certificate": {
+    "Hodd_characteristic_polynomial_sha256": "990a3205813f9785f40b97a754092530d9797edaee616b2814f2382530d06b37",
+    "Hodd_matrix_sha256": "e0105e4915c8685dcac366c72bdad0d0c7ff2e5b0b72768d06fd5573fc31cfbf",
+    "actual_row_matrix_checks": [
+      1,
+      2,
+      3,
+      5
+    ],
+    "all_indices_odd_prime_to_47_and_4513": true,
+    "basis_coordinates_sha256": "cd14a0499394d31b1c639ce76d0f34b4945ff8b7baa80a98072f3079ea0a0372",
+    "basis_determinant_mod4513": 3946,
+    "coefficient_prime": 4513,
+    "coordinate_convention": "rows T_n; columns 1,Hodd,...,Hodd^72",
+    "dimension": 73,
+    "height_move_request_sha256": "bc89913668d6b3d209719a720c7562a7914459441526b6a565fc69edbfc2b7e6",
+    "index_sum": 5437,
+    "indices": [
+      1,
+      3,
+      5,
+      7,
+      9,
+      11,
+      13,
+      15,
+      17,
+      19,
+      21,
+      23,
+      25,
+      27,
+      29,
+      31,
+      33,
+      35,
+      37,
+      39,
+      41,
+      43,
+      45,
+      49,
+      51,
+      53,
+      55,
+      57,
+      59,
+      61,
+      63,
+      65,
+      67,
+      69,
+      71,
+      73,
+      75,
+      77,
+      79,
+      81,
+      83,
+      85,
+      87,
+      89,
+      91,
+      93,
+      95,
+      97,
+      99,
+      101,
+      103,
+      105,
+      107,
+      109,
+      111,
+      113,
+      115,
+      117,
+      119,
+      121,
+      123,
+      125,
+      127,
+      129,
+      131,
+      133,
+      135,
+      137,
+      139,
+      143,
+      145,
+      147,
+      149
+    ],
+    "maximum_index": 149,
+    "orbit_h_minpoly_sha256": [
+      "c6d16c60f41e162484ad208b3660cce80fad6d9b1a01218cfe459c2b6a39c730",
+      "57f1c1b6f455c38a5ec7b32b6f26db601f00103ae2e2ca37e8919412a00e1743",
+      "4706dd5aad5778d55b21eda7596abd55d8397f77014e7822cc380fd6a332e15e"
+    ],
+    "prime": 47,
+    "rational_orbit_dimensions": [
+      16,
+      24,
+      33
+    ]
+  },
+  "consumed_height_values": [
+    [
+      1,
+      818
+    ],
+    [
+      3,
+      4164
+    ],
+    [
+      5,
+      4385
+    ],
+    [
+      7,
+      659
+    ],
+    [
+      9,
+      4367
+    ],
+    [
+      11,
+      2010
+    ],
+    [
+      13,
+      1607
+    ],
+    [
+      15,
+      1626
+    ],
+    [
+      17,
+      366
+    ],
+    [
+      19,
+      3991
+    ],
+    [
+      21,
+      776
+    ],
+    [
+      23,
+      3625
+    ],
+    [
+      25,
+      4489
+    ],
+    [
+      27,
+      2367
+    ],
+    [
+      29,
+      4038
+    ],
+    [
+      31,
+      2945
+    ],
+    [
+      33,
+      1868
+    ],
+    [
+      35,
+      674
+    ],
+    [
+      37,
+      2517
+    ],
+    [
+      39,
+      3567
+    ],
+    [
+      41,
+      3651
+    ],
+    [
+      43,
+      2591
+    ],
+    [
+      45,
+      447
+    ],
+    [
+      49,
+      3473
+    ],
+    [
+      51,
+      2735
+    ],
+    [
+      53,
+      2830
+    ],
+    [
+      55,
+      1030
+    ],
+    [
+      57,
+      4483
+    ],
+    [
+      59,
+      1644
+    ],
+    [
+      61,
+      1502
+    ],
+    [
+      63,
+      357
+    ],
+    [
+      65,
+      2471
+    ],
+    [
+      67,
+      3165
+    ],
+    [
+      69,
+      4313
+    ],
+    [
+      71,
+      300
+    ],
+    [
+      73,
+      737
+    ],
+    [
+      75,
+      699
+    ],
+    [
+      77,
+      3087
+    ],
+    [
+      79,
+      2523
+    ],
+    [
+      81,
+      2959
+    ],
+    [
+      83,
+      2070
+    ],
+    [
+      85,
+      1548
+    ],
+    [
+      87,
+      3425
+    ],
+    [
+      89,
+      3801
+    ],
+    [
+      91,
+      2526
+    ],
+    [
+      93,
+      140
+    ],
+    [
+      95,
+      4174
+    ],
+    [
+      97,
+      2951
+    ],
+    [
+      99,
+      1357
+    ],
+    [
+      101,
+      495
+    ],
+    [
+      103,
+      1931
+    ],
+    [
+      105,
+      663
+    ],
+    [
+      107,
+      500
+    ],
+    [
+      109,
+      1109
+    ],
+    [
+      111,
+      3857
+    ],
+    [
+      113,
+      2064
+    ],
+    [
+      115,
+      618
+    ],
+    [
+      117,
+      3741
+    ],
+    [
+      119,
+      1004
+    ],
+    [
+      121,
+      449
+    ],
+    [
+      123,
+      979
+    ],
+    [
+      125,
+      3471
+    ],
+    [
+      127,
+      2903
+    ],
+    [
+      129,
+      395
+    ],
+    [
+      131,
+      4225
+    ],
+    [
+      133,
+      2771
+    ],
+    [
+      135,
+      3223
+    ],
+    [
+      137,
+      2245
+    ],
+    [
+      139,
+      546
+    ],
+    [
+      143,
+      4219
+    ],
+    [
+      145,
+      2266
+    ],
+    [
+      147,
+      1038
+    ],
+    [
+      149,
+      2186
+    ]
+  ],
+  "consumed_height_certificate": {
+    "height_values_sha256": "606bb972e02933a6697f0eb374041e405af82b5ce9d3036410fb8ad45f892047",
+    "Hodd_height_moments_sha256": "c9d35ba97cfb2f46586bf3b6e726efe24069ec43d4cace38220a0dd873fc6996",
+    "trace_Gram_sha256": "f9b5ac806b0bb42d47ab56dcc2be8c6d61f36de5fd154bc9eed687ef60b1874b",
+    "kappa_coefficients_sha256": "8bfe40fc3d7d7ffd5b5b80d6a9502f897d1e83e3c414de6dd51677be69d4b948",
+    "resolvent_numerator_sha256": "91d92f69a41518bf0f650507e55106573045ea2cf1c7b70ce11ab6c29e3315db",
+    "full_height_multiplier_norm": 2992,
+    "normalized_full_height_determinant_mod4513": 3972
+  },
+  "consumed_CM_low_jet_hashes": {
+    "0": {
+      "G1_grid_sha256": "6d65eb6cfa14b23f7568d6de553b252b50a474a74e668f84d6e537a129921329",
+      "heat_jets95_sha256": "b0a394cb0db9ae2804920ab9c2d767619d905c55cd9613ec29ca09f45d19cc1e",
+      "coarse_tangent95_sha256": "a8bb8a93e48b8508002ef8db853733a0785d41ff103c8c0bbb72e98ccb29354c"
+    },
+    "76": {
+      "G1_grid_sha256": "979d166e9ee0fafd4de96796a7ce15d4af2ade0a32bfce526e576d6a23650acf",
+      "heat_jets95_sha256": "1948b2c153fc0b244d097de49f611653ab8d91ca30ee84b87f5e51ec588cf0e0",
+      "coarse_tangent95_sha256": "25f16f989716b2d7b3d80bd217bda8de3c0738dbfea0a65fb9eee2608c21233e"
+    },
+    "77": {
+      "G1_grid_sha256": "dde8dabb768917ab7d8e2362c06d7b44bce7c8f487d0196a25a7505863e12326",
+      "heat_jets95_sha256": "b1b76bee51bdade3f3dee904c631139f0bb26652fa6c124dccc8c7ad59dc8250",
+      "coarse_tangent95_sha256": "0e2265efba451a84394a870e3c8321d90d7541900a964bd4c0d04b09b52a6c91"
+    },
+    "100": {
+      "G1_grid_sha256": "7e2677dbfc610a7e306bc1a5fe9f0a19f54a1ef1f692293987243f28aba180aa",
+      "heat_jets95_sha256": "40aff556f26e6771cc0e8807c38e8aaab9a6920f2b4ec5d0778875030eb5c2d8",
+      "coarse_tangent95_sha256": "7aa3de36e17d42d4a5e32b24e5d3b610082390725efa77806f89e8ad5300463f"
+    },
+    "108": {
+      "G1_grid_sha256": "4548dc9089588e4f0830e30e4c13249e14e133dd297a4e136bb9eb44295d7966",
+      "heat_jets95_sha256": "358c4687bd56812ebc09c9232919681b4eb2e5db4a75c28e21496e7a67ee4c02",
+      "coarse_tangent95_sha256": "db3808c45948dbcea8fc08b95c48eb3a54101e733331f513f27f39f1cac550cb"
+    },
+    "141": {
+      "G1_grid_sha256": "c11f5a157c6bb4f9e4438f0d392ee24823d7973080270544cfc6acabc74ac0fd",
+      "heat_jets95_sha256": "924a12b24cd6b6280b2e4dfb38d2a09e001a914ad773ba7ef6edf2e1b15e5e7c",
+      "coarse_tangent95_sha256": "3cb7cc4c045604b4de037ea31348d13af728bbff8c2776916b427649544062c0"
+    },
+    "196": {
+      "G1_grid_sha256": "5016bb66bd604b3fac6ba69f80dc02abb09e2216d84f0a24692f132655530689",
+      "heat_jets95_sha256": "28860af123882cf3f67c4bfb785212e39f150ba76f5bd721a66c090a33a1f338",
+      "coarse_tangent95_sha256": "0cdb616c7ba3dc81e3bc2fd6e56381bfb44dfdf2552af53b9cf5b586303fdd58"
+    },
+    "220": {
+      "G1_grid_sha256": "3540a9a4a714c9264685dc71e7759532d3dae02c279efd66cfe4e92d8bf079b6",
+      "heat_jets95_sha256": "329978f5b83da6eb84cc23eff2d9b9069ebb737d3d4a7e27e71bad8bdea9695e",
+      "coarse_tangent95_sha256": "c319cf9e27820e348e091b337b57f1beba9edb9b5c313d7feee4b22c0c14f62d"
+    }
+  },
+  "consumed_angle_certificate": {
+    "Cyclic_determinant_mod4513": 1693,
+    "Cyclic_matrix_sha256": "0ab9a926a0619b85080e577c44ee3704fa7472fc1ea464ef23835ba282739f5f",
+    "Hodge_evaluation_sha256": "e3cf05d0cff74697bd418e2ee683714d83603a764c62315beedf67fcf5f6ec2f",
+    "ZA_ZB_common_zero_degree": 0,
+    "ZA_polynomial_sha256": "b2b5f0ea39b29c525d26c4f60b228b73163b3e4c948b03a87b87d48ea18dc3d1",
+    "ZB_polynomial_sha256": "33a6d03c2bdc8ed71aedd2829ed3eed8de31a1c3d562f2343030474f3577e3c7",
+    "all_original_compositions_verified": true,
+    "all_original_fixed_cycle_traces_verified": true,
+    "angle_algebra_dimension": 23,
+    "angle_coefficients_sha256": "048e083835350fb19a6edfef1e778a6cb8a965de1f472285129dc4f85ac6fb24",
+    "base_CM_candidate_id": 76,
+    "complete_j_pull_push_zero": true,
+    "complete_necklace_count": 1081,
+    "dimension": 73,
+    "rows": [
+      {
+        "actual_targets_sha256": "2e27963da20516230ab0b8c4e11bf03213aebf8bb1b5aa18e3f0460c45257b02",
+        "angle": 1,
+        "coarse_sum95_sha256": "25f16f989716b2d7b3d80bd217bda8de3c0738dbfea0a65fb9eee2608c21233e",
+        "degree": 1,
+        "polynomial_sha256": "8af3f7d988a09ab4b20bfb548a2c8205e9a15c5427cc4ab1dc11a378be6e0fc3"
+      },
+      {
+        "actual_targets_sha256": "2108af8710212f6102ba31d92a4461418915dc7223655cb99f04339c5c41ea13",
+        "angle": 0,
+        "coarse_sum95_sha256": "35cb5e89730961d9706a1f40da53c7ff8b241e21fd071036b25a77b01da2df5d",
+        "degree": 24,
+        "polynomial_sha256": "4957bc1ce8fb7bf5831e09fa8c8b7cda5ee3b7772fbb8d1ce261e0d8c4e76756"
+      },
+      {
+        "actual_targets_sha256": "2d4a1eea0d6067dbd84dd23101f97016111500620e3c164e2c1059d5040641a3",
+        "angle": 2,
+        "coarse_sum95_sha256": "e55562601eaff0f9db21237f090034f5f8eb0e0012ea920246232bd25318ab6b",
+        "degree": 48,
+        "polynomial_sha256": "525c478b487471a8320746ee8e3c3221b02213edda19b90ffaac79036cdc7ed7"
+      },
+      {
+        "actual_targets_sha256": "4279155e26fdb8d21a7093473d8894c5b49ecf84a88635277a5f99f1931906b9",
+        "angle": 3,
+        "coarse_sum95_sha256": "e0935763bb8c9346cbc674855ff96c5354efe0332694d32348471e134399f82d",
+        "degree": 48,
+        "polynomial_sha256": "dc7444bd0a24dd38b2908c9d013910246928f4d280237d63db5253d96f5292cf"
+      },
+      {
+        "actual_targets_sha256": "3e1d2029f1a1b948e68479f3c8a2fcb8a14b701bbb93b02f00300021c0209637",
+        "angle": 4,
+        "coarse_sum95_sha256": "875cd1a9f64632624ab7fed878d130530a7f45d9d30666c0f69c8f257a4a6770",
+        "degree": 48,
+        "polynomial_sha256": "bda69e8e2720ed7959916dbfa10701376d090ffcf8ad8fa3265634bef5b54eaa"
+      },
+      {
+        "actual_targets_sha256": "f146defe479c56052c30a9ec6c8fbe54bef7e8bdf26a3ad1e3f2a867ccef87ca",
+        "angle": 5,
+        "coarse_sum95_sha256": "258f1c22d16508b79768d21c1cbfdd6f85442c74de6cff801680b9249c2fc8f8",
+        "degree": 48,
+        "polynomial_sha256": "0f0be5cd8940aba2db94d0014c62045fbc4ae37e064535900b040c2863cab401"
+      },
+      {
+        "actual_targets_sha256": "1ff46b401cac2ca259dc13dd476d094cacab0f058353257d0f4003bf9b776a5e",
+        "angle": 6,
+        "coarse_sum95_sha256": "4d8f562444bcaaba190a0d336ab79576fbcc6327d3aa61c5f59aa39d37db1261",
+        "degree": 48,
+        "polynomial_sha256": "f3cc283eb8c1e04121b63eedf47751b5964df7daea453d348c5497e5df600f54"
+      },
+      {
+        "actual_targets_sha256": "b6fb589f0ab858de4cc9a240940ea602b270b667b6c3e28cad3d5664032b88f3",
+        "angle": 7,
+        "coarse_sum95_sha256": "5ed79eaeecf7a0bd61dd20dee6bf74a3b701fbceebfce64df6fcb802b269b1ec",
+        "degree": 48,
+        "polynomial_sha256": "71856277de72ce4abe820ced94374679bffe4c3571e2f41ed0dbc28f31fcc19d"
+      },
+      {
+        "actual_targets_sha256": "77005626b42853c08113e8f057a2b5b82c8c3496556f48be387a458d2186e181",
+        "angle": 8,
+        "coarse_sum95_sha256": "8b3698f1c6af05dfa35665f5293cea86a80b88c8daea2f12ea7e9aaf119c0d0c",
+        "degree": 48,
+        "polynomial_sha256": "c5d57d3718756ec7c76a251b0c1b8a5ca49643fd72dc32415400f4d754f33571"
+      },
+      {
+        "actual_targets_sha256": "18ef01b263549cc8b4c33b04cf80edf18f10cad035a55e9c77d813ccd1381f1e",
+        "angle": 9,
+        "coarse_sum95_sha256": "636d57080aed38bd1212bd41545ef6ddf1a8d31207062afe862fe84d35a7644b",
+        "degree": 48,
+        "polynomial_sha256": "c53bb0442905e23255ffbc378874593ae3c442b4565df507273fcadf32354cbd"
+      },
+      {
+        "actual_targets_sha256": "b06977e4c39baf4612e40248b0ad1fb8a7f18a18dea1d806cb5f0979ef039e53",
+        "angle": 10,
+        "coarse_sum95_sha256": "c202fa8ab4c6b3e81e3a832fc1c0b7bef872c42b6ab4620a96a380faf9702cf6",
+        "degree": 48,
+        "polynomial_sha256": "28f0430b5926a41b266c3f5996514944643c7d5a1ab517bc0aa69d0b3dfb02ea"
+      },
+      {
+        "actual_targets_sha256": "f8f3d61da212d9b6f1bedc19f17fcfcae9caf40ad96093edf6c5ce6f1ef111aa",
+        "angle": 11,
+        "coarse_sum95_sha256": "622288c25603ccea46dd2ca9b79f53a45f94ccea53d2e7ba1d58cb12298d0587",
+        "degree": 48,
+        "polynomial_sha256": "8eb3984b4743f2635f7e3379a1f1d1d53954e4c84b5a098e495aa4b265b5c8f2"
+      },
+      {
+        "actual_targets_sha256": "a492bd4de1bea4bb21115ab5e699a0cd050835a2bb4e2b2ad1080b392ed330b4",
+        "angle": 12,
+        "coarse_sum95_sha256": "4648b35fa355424b664b5ba2cf97e24d9b1ab63f233ea2b70407abba83f80f73",
+        "degree": 48,
+        "polynomial_sha256": "b6252720c8e5a43b8abfaeeab52e49012691f585fdb390ce1d41170a13d1380c"
+      },
+      {
+        "actual_targets_sha256": "a248b3c976722f477f94de41cb674ea54922b34bd3e4cdac8e930da6460df67c",
+        "angle": 13,
+        "coarse_sum95_sha256": "9290bd2e42e0a6c72fc0b5f6af1faa4109adc86cf914c3672348f7ca06d959bd",
+        "degree": 48,
+        "polynomial_sha256": "999546de30d4e50d9d9cc22ef52531905a8c1a2415379e458a2031184c9d216b"
+      },
+      {
+        "actual_targets_sha256": "32639921440766e9773605e5089d440377fd0e8af10ad09b71e4a3b9f56848b0",
+        "angle": 14,
+        "coarse_sum95_sha256": "355b87b0739bfc81a3959a794f8ea5e10f2c48c018de4c4d0d5f3e9b3173fbaf",
+        "degree": 48,
+        "polynomial_sha256": "47d74aa5458dc440523ceaed06f344ad18b0188d4040f7f03d553940e3e99cb2"
+      },
+      {
+        "actual_targets_sha256": "1cdaa8188c8b6e4067beedcf98b2b4c014785217cc0d833d5b2bb08b260bd169",
+        "angle": 15,
+        "coarse_sum95_sha256": "68219700c65703a7a60bb7bbccd351e30e97d42b568fedee05f16d08f37b1e72",
+        "degree": 48,
+        "polynomial_sha256": "4e150635c1fb955f3855477fe203baf4da2589b67b3553de42889dbc5f6c034c"
+      },
+      {
+        "actual_targets_sha256": "d094ed1521d76df67ea7d41b645cff7289d4e04c027fdf511c78f8185c219f0d",
+        "angle": 16,
+        "coarse_sum95_sha256": "7df66bc26cbfc89c4cddbd2ab1c6e8a0c53b5dbb4c3a8f8fc1a4d63661ac87ea",
+        "degree": 48,
+        "polynomial_sha256": "f29416512ce828277f22bb2ecc8830cb04b3d24a1105884d878bf078edb4593b"
+      },
+      {
+        "actual_targets_sha256": "a1cc00399e8848fb608ac1b5f62475f13991f7772aef08d7c9821ad8ec140204",
+        "angle": 17,
+        "coarse_sum95_sha256": "4ee5fd7635c8d92853eae9a516191ee35c2783b28b5411f4b52b79961997f844",
+        "degree": 48,
+        "polynomial_sha256": "ca665f004625e52d0de6e6bd83385d1f3eec4f158388cd7e5105fe1cda72f4c0"
+      },
+      {
+        "actual_targets_sha256": "01cc67af55c3f2e68a0d70a58bfbd0276a906fedad9c90c70100b8d675f081b8",
+        "angle": 18,
+        "coarse_sum95_sha256": "ee68651b3b3149c0ca835c79b214d9fe978dc4b6ce418a399fbf3f6ef47708f7",
+        "degree": 48,
+        "polynomial_sha256": "39c5ff7070f6170f246afeecf5ba0b3a275190e57b3d9212624972b64749ee1e"
+      },
+      {
+        "actual_targets_sha256": "a199c54e127325ff5bc78d3fe6bbd32b266ed0135de5f594490e0dceadea21c1",
+        "angle": 19,
+        "coarse_sum95_sha256": "ee33f24a4b5daa4f23ccfd855de384dc79d61a439448d282f01d113cae9b6ab9",
+        "degree": 48,
+        "polynomial_sha256": "c1a2ea2a1330471ba739b2a080f7c4ad1ac61ab3fa0e823146e5ccb28a9491eb"
+      },
+      {
+        "actual_targets_sha256": "07d5ab5853c4de01f033b48ac7f99fb190832f5a65312a59f25bdaed6452eb53",
+        "angle": 20,
+        "coarse_sum95_sha256": "6534a370a02d79d44cf273fa9e2e7200449566d14b968871cc06cbc9cab275ee",
+        "degree": 48,
+        "polynomial_sha256": "77526b15725abb330d1f5d7c4d0fd47e217ed43f3de5c9c77e37f4d48f957fb8"
+      },
+      {
+        "actual_targets_sha256": "4109c1e6a291b673c45519a4f7860d0b7d9e645c253dba7210582500a388af5a",
+        "angle": 21,
+        "coarse_sum95_sha256": "156952cf1e64a0b8213343eeada16fd2af2e00984d45cd2f4127da40be450fd4",
+        "degree": 48,
+        "polynomial_sha256": "17e3642e3c42985eb7ec0160307974fc4c372880f1c9d2006a2efb9517365424"
+      },
+      {
+        "actual_targets_sha256": "c981c4028ef648f3eb88be0000a823e09ed9fc72cd1911a5ba1a0d4b13635220",
+        "angle": 22,
+        "coarse_sum95_sha256": "1ae64d6e3380fa6d6da8b3d5af2147fad5be71aef960ad285452e471ed46c269",
+        "degree": 48,
+        "polynomial_sha256": "0f7998576cd9393b566ff6e077a227ff61f4ff421fb523c7fb033b748b3f8667"
+      },
+      {
+        "actual_targets_sha256": "1fa5421b32e66ff22f0a7c325b6d3ce762550a9a62ce14c13c11bec82cb772d3",
+        "angle": 23,
+        "coarse_sum95_sha256": "c7752938d16f4cad325ffc14cfdbd571f464ee98350198cab1541a4444b92850",
+        "degree": 48,
+        "polynomial_sha256": "9431ef3d4e8460a6287d9d622a8e3de72f67d1488a1251c24041ae4d7ed84a05"
+      }
+    ],
+    "scope": "Actual all-73 Hecke-coordinate angle action only; no QC root exclusion."
+  },
+  "consumed_Gaussian_log": {
+    "run": 45947023569,
+    "job": 140333947037,
+    "lambda73_sha256": "489ab09b0e7bedae211e478938e687b51cd3d477438d9d47605d2cac0a4929dd"
+  },
+  "consumed_group_order_json_sha256": "cd5db67aa8fa60ef764bb773a9a694878698cba5663f6bfe2cfd2f2b3d863e41",
+  "source_sha256": {
+    "README.md": "581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102",
+    "topics/serre-uniformity/README.md": "6ce1403bd2d2587bb9cca70bd0095a1264b1167fe2c4b62f0652ae671e6277a5",
+    "topics/serre-uniformity/results/R1096-certified-original-CM-moving-units-and-odd-Hecke-height-basis.md": "33348ba99588b997f437641e135cd4ea984b71c56971183cc583bc639b0badaa",
+    "topics/serre-uniformity/scripts/full_p47_weight_one_Hodge_certificate.py": "fe2e4f6b2420389b534fab0b2d1976dc6ac7cb2b1fe8ad98c07112ecd860afac",
+    "topics/serre-uniformity/notes/full-p47-CM-height-move-request.json": "bc89913668d6b3d209719a720c7562a7914459441526b6a565fc69edbfc2b7e6",
+    "topics/serre-uniformity/scripts/full_p47_small_odd_Hecke_basis.py": "5d91fd093580464c2fcecdd1b2e9abe751c4400eaa92374ec5e88931d6374dad",
+    "topics/serre-uniformity/notes/2026-11-27-full-p47-small-odd-Hecke-basis-method.md": "6fe837a5f5ad7e0897ec153c738976ec7cd5e821abc11b593cfd7bbde42d338f",
+    "topics/serre-uniformity/scripts/full_p47_eight_CM_tangents.py": "c0932538657b87e6f2c31c0d32189383fd72e65267cf20986630d73dece1f1a5",
+    "topics/serre-uniformity/scripts/original_p47_ell4513_cuspidal_transfer.py": "758df1a12306555605dde7db91ef2ab6d2aa62d9853dd134a875046e88ebaa7f",
+    "topics/serre-uniformity/scripts/original_p47_cuspidal_disks.py": "35a0035d4f238670309d19c9acec35b5f9610cf13f5676f96503c59048148f98",
+    "topics/serre-uniformity/notes/original-p47-ell4513-cuspidal-transfer-request.json": "655d3f21b34d6c87f3e7eac95e3b9621c7989e4afc21c625a6b8416fa0dd6493",
+    "topics/serre-uniformity/results/R1078-original-level47-Cartan-correspondences-and-fixed-cycles.md": "d75cca1b546326338099abe2cef94bd37da48897ae7dd7f0740dc34d19d8e867",
+    "topics/serre-uniformity/results/R1087-original-principal-Cartan-ideal-and-cusp-annihilating-correspondence.md": "228188a8016088377020bb11e900e1a48ccd011baba7e2618863a112fd4a193d",
+    "topics/serre-uniformity/results/R1105-certified-original-eight-CM-tangents.md": "12530da739b3cb2d1f23820e209d592d679405394c80973462535a53530da12e",
+    "topics/serre-uniformity/scripts/full_p47_original_angle_Hodge_action.py": "e3a8ea3ab9ecf57d2f9282afc6512b738790972f774848c922a979efa16ef4e6",
+    "topics/serre-uniformity/notes/2026-11-27-full-p47-original-angle-Hodge-method.md": "833fa0859247471585e13dbb067a0b45bceb997f5300e7cae988892371c3e170",
+    "topics/serre-uniformity/notes/full-p47-small-odd-Hecke-basis-request.json": "0a513255a671853cc552603d2c6f8aebc5f5112743d9bc3503fe93166fba44e2",
+    "topics/serre-uniformity/notes/full-p47-original-angle-Hodge-request.json": "efb681a857ccf9bf62087562431e25f7d0d160470cc0fdab545c362b339003fb",
+    "topics/serre-uniformity/scripts/full_p47_Gaussian_CM_log.py": "f412bf532b09bec72d485f02d35a2c7b8b4b87cefc5c8ce4a159f299fe23f6b1",
+    "topics/serre-uniformity/scripts/full_p47_QC_first_rows.py": "ac9ac63dd31556b6b4952c71a5aa4b9c1e4826c9ccfb044bace50090cf861ea4",
+    "topics/serre-uniformity/notes/2026-11-27-full-p47-QC-first-rows-method.md": "0e46d51083eddfeb0188335f87dc748af82d82be743cb12255f0969b70a079ad",
+    "topics/serre-uniformity/results/R1102-certified-original-level47-complete-first-global-height.md": "5c383a9671ef20d1768893b1cd1d2b78a2f940dde88775abcfaba6b421435b55",
+    "topics/serre-uniformity/results/R1103-original-CM-tangents-finite-field-third-kind-and-QC-first-jets.md": "b943cc19bdfd16e706d1e85039b02ecc3cfe28f5f330f864decfa18fd2cfab75",
+    "topics/serre-uniformity/results/R1108-original-CM-first-log-mod-q2-and-finite-residue-algebra.md": "17f5578b504947106d54f0d3d88f2dba362d2bee5667cc87da8f133dfe34988a",
+    "topics/serre-uniformity/results/R1119-original-signed-CM-coordinates-and-Jacobi-reading.md": "00ab2d79e6d87e9ea184bf087563f52c424c14573f9b7c0686b7f51dda950b44",
+    "topics/serre-uniformity/results/R1118-original-short-Cartier-reading-for-CM-third-kind-values.md": "9cabb17b08a9d3256958c66a8e5d02bd543d4c1c50509bcdc111d1ea18fde1f3",
+    "topics/serre-uniformity/scripts/full_p47_short_Cartier_third_kind.py": "f78bbb0e701de91afe2af5a7189948bc92055d62a6c2bfad13343af08e4e2adf",
+    "topics/serre-uniformity/scripts/full_p47_Cartier_support.py": "6e2221fa6e3fb8b5624ec76ee5fca36ef211cacc288708700c84c32d046f6b59",
+    "topics/serre-uniformity/notes/2026-11-27-full-p47-short-Cartier-third-kind-method.md": "a7cfec96ed279a1824ed3faa614c034e53845f584aa5e0f381283fb91829ff09",
+    "topics/serre-uniformity/notes/full-p47-short-Cartier-third-kind-request.json": "20db24c6c8857df91109713833b47fcd2db5fd0930e45b4703f7017befb49f84",
+    "topics/serre-uniformity/results/R1120-certified-original-full47-signed-CM-coordinates.md": "9633ec72411dc89bc94a7a5c7575df53bbc4c4b52105892ead839be6ebe58e9b",
+    "topics/serre-uniformity/results/R1121-certified-original-twelve-short-Cartier-values.md": "34d4e790cd598bf68c3f4cbb8d7000e16770e8255ca124c810f61d5e54e2dd88"
+  },
+  "scope": "Only actual first QC rows of explicitly requested original CM disks using complete certified input cases. Fixed level47 does not complete Serre uniformity.",
+  "storage": "Only pinned input certificates, small consumed vectors, source, method, parameters, run/job and result hashes; no raw artifact or release.",
+  "CM_coordinate_method": "signed-Jacobi-R1119",
+  "consumed_CM_Hecke_coordinates": [
+    {
+      "Bq_coefficients_sha256": "59610e40d29fd17586fcc9717fad28acba256e4f856b30b9b8a1218c90f44e5a",
+      "Hodd_characteristic_polynomial_sha256": "990a3205813f9785f40b97a754092530d9797edaee616b2814f2382530d06b37",
+      "candidate_id": 141,
+      "coefficient_prime": 4513,
+      "coordinate_relative_Bq_u4_coefficients": [
+        668,
+        3629,
+        95,
+        403,
+        2303,
+        408,
+        948,
+        4087,
+        2075,
+        2906,
+        1365,
+        3899,
+        4480,
+        2044,
+        3861,
+        4477,
+        4260,
+        3886,
+        958,
+        500,
+        2672,
+        1603,
+        3504,
+        1026,
+        3311,
+        1914,
+        1620,
+        3830,
+        390,
+        3515,
+        1346,
+        3508,
+        2775,
+        2689,
+        1420,
+        1259,
+        1676,
+        489,
+        884,
+        2594,
+        2490,
+        1194,
+        1390,
+        3544,
+        3998,
+        1940,
+        4043,
+        3234,
+        1417,
+        3178,
+        3407,
+        1450,
+        292,
+        3333,
+        2192,
+        331,
+        1630,
+        2429,
+        1479,
+        3069,
+        135,
+        2468,
+        3966,
+        2285,
+        441,
+        4191,
+        2953,
+        2214,
+        2503,
+        371,
+        2308,
+        2978,
+        2861
+      ],
+      "coordinate_relative_Bq_u4_sha256": "e981818389ff50c9a908e49e66dba6e2f9e8446b55b8d48450f4b2ec9de0cf3b",
+      "dimension": 73,
+      "exact_divisor": "23*y_141-C_infty",
+      "fundamental_discriminant": -4,
+      "method": "R1119",
+      "ratio_to_u4_coefficients": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "ratio_to_u4_sha256": "8af3f7d988a09ab4b20bfb548a2c8205e9a15c5427cc4ab1dc11a378be6e0fc3",
+      "reverse_incidence_multiplicity": 2,
+      "source_coarse_weight": 1,
+      "weighted_Jacobi_pair": [
+        -8836,
+        0
+      ]
+    },
+    {
+      "Bq_coefficients_sha256": "59610e40d29fd17586fcc9717fad28acba256e4f856b30b9b8a1218c90f44e5a",
+      "Hodd_characteristic_polynomial_sha256": "990a3205813f9785f40b97a754092530d9797edaee616b2814f2382530d06b37",
+      "candidate_id": 0,
+      "coefficient_prime": 4513,
+      "coordinate_relative_Bq_u4_coefficients": [
+        4266,
+        2828,
+        3606,
+        4430,
+        358,
+        3002,
+        3624,
+        2310,
+        3490,
+        736,
+        4003,
+        2174,
+        4369,
+        1109,
+        2027,
+        2053,
+        3019,
+        2470,
+        4411,
+        3412,
+        2005,
+        2446,
+        3392,
+        3423,
+        3550,
+        197,
+        2488,
+        257,
+        2793,
+        535,
+        3388,
+        4234,
+        4062,
+        177,
+        4413,
+        1339,
+        1033,
+        3355,
+        850,
+        707,
+        887,
+        2976,
+        4064,
+        3218,
+        1318,
+        4005,
+        2376,
+        3755,
+        793,
+        602,
+        1141,
+        4122,
+        3452,
+        3030,
+        2977,
+        1697,
+        4509,
+        3427,
+        525,
+        47,
+        2825,
+        1877,
+        1036,
+        3998,
+        146,
+        2298,
+        682,
+        32,
+        3177,
+        4003,
+        810,
+        314,
+        1531
+      ],
+      "coordinate_relative_Bq_u4_sha256": "c6c8ece5dbc5776cd573bdeb76ec56050c9eb7fea40bfef3af3504992d0bf2fe",
+      "dimension": 73,
+      "exact_divisor": "23*y_0-C_infty",
+      "fundamental_discriminant": -3,
+      "method": "R1119",
+      "ratio_to_u4_coefficients": [
+        1778,
+        573,
+        894,
+        3276,
+        443,
+        4076,
+        1776,
+        977,
+        1372,
+        369,
+        2571,
+        1288,
+        3842,
+        133,
+        2350,
+        882,
+        2452,
+        3371,
+        2644,
+        1028,
+        4312,
+        2115,
+        148,
+        2817,
+        381,
+        1560,
+        1665,
+        2744,
+        4039,
+        1500,
+        664,
+        88,
+        1257,
+        95,
+        2394,
+        1264,
+        785,
+        3799,
+        4021,
+        3045,
+        346,
+        4491,
+        3020,
+        3075,
+        2209,
+        2634,
+        4482,
+        973,
+        2731,
+        3536,
+        3603,
+        1621,
+        847,
+        2773,
+        1275,
+        4280,
+        3668,
+        1144,
+        2683,
+        340,
+        3154,
+        3834,
+        4460,
+        2637,
+        1277,
+        1413,
+        1389,
+        313,
+        3163,
+        1898,
+        2331,
+        3278,
+        4454
+      ],
+      "ratio_to_u4_sha256": "6c35482f1af08b673d9998efb68e576fe84d3e90558790189b62f7c3c9817fb0",
+      "reverse_incidence_multiplicity": 3,
+      "source_coarse_weight": 1,
+      "weighted_Jacobi_pair": [
+        -6627,
+        2209
+      ]
+    },
+    {
+      "Bq_coefficients_sha256": "59610e40d29fd17586fcc9717fad28acba256e4f856b30b9b8a1218c90f44e5a",
+      "Hodd_characteristic_polynomial_sha256": "990a3205813f9785f40b97a754092530d9797edaee616b2814f2382530d06b37",
+      "candidate_id": 76,
+      "coefficient_prime": 4513,
+      "coordinate_relative_Bq_u4_coefficients": [
+        592,
+        1844,
+        2000,
+        2532,
+        567,
+        3854,
+        995,
+        2929,
+        1818,
+        4058,
+        2502,
+        1742,
+        1676,
+        3292,
+        3011,
+        3145,
+        1168,
+        1087,
+        3033,
+        2856,
+        2939,
+        2249,
+        2755,
+        1932,
+        1714,
+        398,
+        2133,
+        1075,
+        2198,
+        3644,
+        2835,
+        3339,
+        171,
+        2648,
+        3695,
+        2733,
+        2517,
+        1472,
+        2566,
+        510,
+        3438,
+        3639,
+        4446,
+        101,
+        2341,
+        3488,
+        3388,
+        2675,
+        531,
+        1471,
+        4252,
+        768,
+        4270,
+        669,
+        3735,
+        3454,
+        610,
+        2715,
+        1146,
+        3111,
+        2695,
+        2083,
+        160,
+        4343,
+        4471,
+        2198,
+        1554,
+        1709,
+        259,
+        1262,
+        1894,
+        2952,
+        3154
+      ],
+      "coordinate_relative_Bq_u4_sha256": "1ef424955a207d9283c60dc8f93d627352671dbcf2ac36a51df02c158a62c884",
+      "dimension": 73,
+      "exact_divisor": "23*y_76-C_infty",
+      "fundamental_discriminant": -7,
+      "method": "R1119",
+      "ratio_to_u4_coefficients": [
+        4482,
+        4419,
+        3970,
+        182,
+        3332,
+        3386,
+        186,
+        857,
+        902,
+        433,
+        1710,
+        2601,
+        4321,
+        691,
+        825,
+        3206,
+        364,
+        2027,
+        1193,
+        1624,
+        4115,
+        2487,
+        1003,
+        2773,
+        2708,
+        174,
+        2593,
+        3733,
+        2512,
+        3389,
+        3083,
+        247,
+        1474,
+        4258,
+        3728,
+        1907,
+        2963,
+        660,
+        1346,
+        4054,
+        557,
+        1555,
+        1911,
+        108,
+        2109,
+        3486,
+        372,
+        182,
+        222,
+        1252,
+        911,
+        311,
+        3817,
+        3397,
+        3922,
+        3786,
+        4137,
+        1772,
+        2178,
+        968,
+        3790,
+        1918,
+        4508,
+        1604,
+        2062,
+        1814,
+        4075,
+        1655,
+        2084,
+        2532,
+        1977,
+        517,
+        384
+      ],
+      "ratio_to_u4_sha256": "672e3a3206c9f153f2aa546834a9b48b2d44b5c8788f801f2df4599383bc533b",
+      "reverse_incidence_multiplicity": 1,
+      "source_coarse_weight": 1,
+      "weighted_Jacobi_pair": [
+        -15463,
+        2209
+      ]
+    },
+    {
+      "Bq_coefficients_sha256": "59610e40d29fd17586fcc9717fad28acba256e4f856b30b9b8a1218c90f44e5a",
+      "Hodd_characteristic_polynomial_sha256": "990a3205813f9785f40b97a754092530d9797edaee616b2814f2382530d06b37",
+      "candidate_id": 108,
+      "coefficient_prime": 4513,
+      "coordinate_relative_Bq_u4_coefficients": [
+        4235,
+        2405,
+        2449,
+        766,
+        4471,
+        3461,
+        3663,
+        3413,
+        2945,
+        1695,
+        3650,
+        553,
+        2430,
+        714,
+        3321,
+        1488,
+        1516,
+        1689,
+        2752,
+        4401,
+        2185,
+        3195,
+        473,
+        1806,
+        549,
+        822,
+        1323,
+        424,
+        3056,
+        2481,
+        3096,
+        3422,
+        3236,
+        1040,
+        2497,
+        334,
+        2240,
+        2758,
+        1348,
+        2514,
+        4458,
+        173,
+        2885,
+        1185,
+        2216,
+        920,
+        3065,
+        3131,
+        4012,
+        1054,
+        859,
+        510,
+        1158,
+        4423,
+        4288,
+        3859,
+        1314,
+        2979,
+        1202,
+        1129,
+        971,
+        1597,
+        3695,
+        4499,
+        3824,
+        3977,
+        1746,
+        3086,
+        1977,
+        3364,
+        2365,
+        510,
+        287
+      ],
+      "coordinate_relative_Bq_u4_sha256": "8524dd439680e2469a9eedff96d63464f8373db23cb8a4e10c0e25c0e4497f10",
+      "dimension": 73,
+      "exact_divisor": "23*y_108-C_infty",
+      "fundamental_discriminant": -8,
+      "method": "R1119",
+      "ratio_to_u4_coefficients": [
+        189,
+        564,
+        632,
+        196,
+        3133,
+        2684,
+        3766,
+        2169,
+        78,
+        3942,
+        2471,
+        1667,
+        1216,
+        906,
+        1727,
+        2550,
+        1204,
+        2801,
+        1760,
+        4079,
+        176,
+        632,
+        2949,
+        4269,
+        1981,
+        1037,
+        3373,
+        23,
+        1701,
+        1957,
+        1080,
+        2250,
+        353,
+        4403,
+        1950,
+        2043,
+        1744,
+        1374,
+        2409,
+        3375,
+        1148,
+        468,
+        3205,
+        1316,
+        1776,
+        1797,
+        1870,
+        4182,
+        4084,
+        875,
+        2738,
+        3559,
+        1206,
+        2754,
+        556,
+        3777,
+        787,
+        3914,
+        3304,
+        802,
+        2257,
+        1204,
+        66,
+        800,
+        475,
+        3787,
+        4024,
+        1126,
+        1322,
+        1647,
+        1553,
+        2917,
+        4071
+      ],
+      "ratio_to_u4_sha256": "915a26708b15dcf06a705e24fba428385dec15a47dbb50e64ee4ce3f7976ea47",
+      "reverse_incidence_multiplicity": 1,
+      "source_coarse_weight": 1,
+      "weighted_Jacobi_pair": [
+        -17672,
+        0
+      ]
+    }
+  ],
+  "consumed_CM_Hecke_coordinates_sha256": "b9f610583ea037e18d5e948341af5b09b78c8426a16f7643a6f44bd2949b882e",
+  "consumed_CM_Hecke_certificate": {
+    "Bq_coefficients": [
+      2831,
+      3089,
+      2082,
+      3005,
+      253,
+      2342,
+      4451,
+      3401,
+      897,
+      135,
+      1726,
+      4402,
+      1972,
+      2029,
+      3482,
+      3594,
+      1212,
+      3199,
+      2455,
+      1141,
+      4376,
+      2325,
+      4378,
+      2845,
+      2319,
+      1682,
+      4315,
+      4254,
+      2790,
+      4108,
+      566,
+      973,
+      2082,
+      2169,
+      159,
+      2845,
+      4271,
+      1842,
+      2866,
+      1225,
+      685,
+      3484,
+      3144,
+      2723,
+      652,
+      2976,
+      1334,
+      2240,
+      975,
+      3781,
+      1601,
+      806,
+      4138,
+      3669,
+      2595,
+      3137,
+      2555,
+      1212,
+      2382,
+      4306,
+      2054,
+      4167,
+      2026,
+      989,
+      4379,
+      948,
+      458,
+      3825,
+      1394,
+      1068,
+      652,
+      1724,
+      1535
+    ],
+    "Bq_coefficients_sha256": "59610e40d29fd17586fcc9717fad28acba256e4f856b30b9b8a1218c90f44e5a",
+    "Bq_determinant_mod_q": 551,
+    "Hodd_characteristic_polynomial_sha256": "990a3205813f9785f40b97a754092530d9797edaee616b2814f2382530d06b37",
+    "Hodd_matrix_sha256": "e0105e4915c8685dcac366c72bdad0d0c7ff2e5b0b72768d06fd5573fc31cfbf",
+    "actual_Hodge_row_checks": [
+      2,
+      3,
+      5
+    ],
+    "all_needed_denominators_q_units": true,
+    "auxiliaries": [
+      {
+        "auxiliary_discriminant": -11,
+        "auxiliary_root": 2027,
+        "common_reference_rank": 73,
+        "integer_path_sums": [
+          {
+            "delta": -8836,
+            "fundamental_discriminant": -4,
+            "nonzero_paths": 211,
+            "positive_a_forms": 2262,
+            "product_discriminant": 97196,
+            "r": 0,
+            "signed_hits": 728,
+            "values_sha256": "4b0844bf237638eedb1b274fadc4fe701129682c4e6006bf52aca3f7cd96837e"
+          },
+          {
+            "delta": -6627,
+            "fundamental_discriminant": -3,
+            "nonzero_paths": 211,
+            "positive_a_forms": 2812,
+            "product_discriminant": 72897,
+            "r": 2209,
+            "signed_hits": 902,
+            "values_sha256": "6d5f1f5c056e777f975ee5e8b54c61f01e9199b5571201a6a5505ce4ef242458"
+          },
+          {
+            "delta": -15463,
+            "fundamental_discriminant": -7,
+            "nonzero_paths": 147,
+            "positive_a_forms": 1784,
+            "product_discriminant": 170093,
+            "r": 2209,
+            "signed_hits": 508,
+            "values_sha256": "d05f44c8616c1137785077511860a584a5b4509873d6eced7aa5b6ccc0c446fc"
+          },
+          {
+            "delta": -17672,
+            "fundamental_discriminant": -8,
+            "nonzero_paths": 219,
+            "positive_a_forms": 4588,
+            "product_discriminant": 194392,
+            "r": 0,
+            "signed_hits": 1482,
+            "values_sha256": "f05714c5fb5d11367db58ff3d27d4239404d750313f28121d3b985557c85d8cf"
+          }
+        ],
+        "projected_columns_sha256": "1be78232aa6ca702778c0b5aa7c12711d797c4126ed3ddf81aeadea51f7141bf"
+      }
+    ],
+    "coefficient_prime": 4513,
+    "common_reference_rank": 73,
+    "consumed_Tq_integer_charpoly_sha256": "ca554eaecfa7f5ac349fdf9db69f32e584eb45c0787714e97e6ef3c44e1cba62",
+    "coordinate_convention": "ascending powers of actual Hodd=T3+T5; Hecke polynomials",
+    "dimension": 73,
+    "exact_rational_path_relations": true,
+    "free_path_count": 377,
+    "method": "R1119 signed weighted Jacobi coefficients on actual new Fricke-plus space",
+    "pari_version": [
+      2,
+      17,
+      1
+    ],
+    "path_count": 377,
+    "prime": 47,
+    "reference_discriminant": -4,
+    "reference_minor_determinant": 4364,
+    "reference_pair": [
+      -8836,
+      0
+    ],
+    "reference_pivot_rows": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72
+    ],
+    "separating_Hecke_coefficients": [
+      0,
+      1,
+      1
+    ]
+  },
+  "consumed_CM_Hecke_certificate_sha256": "4a4895f692c0eaeab0fa76eed9987af0ebaefa524d03d23fcb00425c2df45ed8",
+  "consumed_CM_Hecke_source": {
+    "source": "a0eec1a3566503cfec9b5cf7e50601fd3ac0e530",
+    "run": 45994488204,
+    "job": 140490328323,
+    "request_sha256": "843c1650845f95027c49b7a352a1a6a332b07f662427eef4f8cc5f5f17afd39c"
+  },
+  "CM_candidate_ids": [
+    76,
+    77,
+    100,
+    108,
+    196,
+    220
+  ],
+  "consumed_third_kind_values": [
+    {
+      "Cartier_difference_coordinates_sha256": "79ca4ded535d63b22c391d2fec4594194820426a86892f589863ce7b82302cae",
+      "Cartier_matrix_certificate_sha256": "3563933eb15259bdcaddb70d97b6b56c869e8fe3c997b0d64e16030caa7d9bfb",
+      "all_eight_log_derivatives": [
+        1884,
+        3043,
+        1360,
+        4045,
+        3916,
+        1937,
+        688,
+        838
+      ],
+      "alpha": 4045,
+      "angle": "ZA",
+      "candidate_id": 100,
+      "clearing_denominator": 6,
+      "coarse_parameter": "j-j_CM",
+      "exact_initial_divisor_sha256": "a796814ef401062c065019b9de836de7e3edee06b5355e05c95f9b727b6132c9",
+      "holomorphic_correction_sha256": "a3b058893982ef0d9c40498f6330aacb70891b96173fce443ca77c976edd44da",
+      "id": "100-ZA",
+      "meromorphic_RR_certificate": {
+        "all_original_cusps_included": true,
+        "colon_constraints_used": 2,
+        "h_coefficients_sha256": "79863b8e1d079c4d0c65ca3468fe764f57fa94ca1bf27e91c07ef3f1dc3b9498",
+        "id": "100-ZA",
+        "numerator_dimension": 231,
+        "numerator_space_sha256": "759d64b552db398aa3808f4ae7be55cf51a9f320a2dd85e13eacf32be0232062",
+        "original_cleared_divisor_sha256": "a796814ef401062c065019b9de836de7e3edee06b5355e05c95f9b727b6132c9",
+        "reduced_support_degree": 159,
+        "residue_matrix_sha256": "0c04c9da5d3730911c8a6a23fd8882ac4b2476bac84ccaa0cfbf78cfb045e304",
+        "residue_rank": 158,
+        "section_selection": {
+          "adjustments_sha256": "7cbf797444cc052926f6dd17990f417a61ee2340377d7e3f89ff1e66c895abb3",
+          "chosen_f_sha256": "084cb45ce0e28af3c623cc0c05c559908f4bda86e63dfd5c46a12ae5d384cb55",
+          "nonzero_conditions": 191
+        },
+        "support_ideal_dimension": 103,
+        "support_ideal_sha256": "61718d320088a16f71f887786aea7b2496d8738b401d35bfd16584673bbf6fa0",
+        "target_rho_sha256": "372a91b405cee744cd0e1f89f264db3e41f44984d3716585d7134f68414e84ff"
+      },
+      "method": "R1118-short-Cartier",
+      "order_mod_q": 551
+    },
+    {
+      "Cartier_difference_coordinates_sha256": "65ec39d16e92119093a4e952659116d45551b8c0a4cbaf506980606426486a7a",
+      "Cartier_matrix_certificate_sha256": "3563933eb15259bdcaddb70d97b6b56c869e8fe3c997b0d64e16030caa7d9bfb",
+      "all_eight_log_derivatives": [
+        1885,
+        2921,
+        1155,
+        3940,
+        3646,
+        1534,
+        3488,
+        3940
+      ],
+      "alpha": 3940,
+      "angle": "ZB",
+      "candidate_id": 100,
+      "clearing_denominator": 6,
+      "coarse_parameter": "j-j_CM",
+      "exact_initial_divisor_sha256": "7a62cdf781237ba8dba2d0c8fb545407228b678f8e20fb4790ddb99f24004a57",
+      "holomorphic_correction_sha256": "94a19d54d9db319fc96510ad19dcb1213525c6a3e523834a7628993596ee2d55",
+      "id": "100-ZB",
+      "meromorphic_RR_certificate": {
+        "all_original_cusps_included": true,
+        "colon_constraints_used": 2,
+        "h_coefficients_sha256": "663097c966822d21bee586b7d1f610eb3b8751fbd455e40ceed7c0cb2cffeddb",
+        "id": "100-ZB",
+        "numerator_dimension": 223,
+        "numerator_space_sha256": "792ceae89efce48890b1963595042726bec8a70c3a109af305f25ad8f3ae7d15",
+        "original_cleared_divisor_sha256": "7a62cdf781237ba8dba2d0c8fb545407228b678f8e20fb4790ddb99f24004a57",
+        "reduced_support_degree": 151,
+        "residue_matrix_sha256": "651cabc751c89637b9dae61e20b04de10cbced7f4f6dec987da071de9bd79ccc",
+        "residue_rank": 150,
+        "section_selection": {
+          "adjustments_sha256": "7cbf797444cc052926f6dd17990f417a61ee2340377d7e3f89ff1e66c895abb3",
+          "chosen_f_sha256": "c008bc410b22fb448ec1e207cba6c86b1f450f7bff4b424ef60a1330ecf17340",
+          "nonzero_conditions": 170
+        },
+        "support_ideal_dimension": 111,
+        "support_ideal_sha256": "1f086dad44cddb207e1e6f0c3305e2d3dc86935539b8025bef07eabec98dae7d",
+        "target_rho_sha256": "86331ed291d666bb8955d07c2385c74763923aa570f0fb641b21c6f0c9b57f87"
+      },
+      "method": "R1118-short-Cartier",
+      "order_mod_q": 551
+    },
+    {
+      "Cartier_difference_coordinates_sha256": "170c34b2495e5655c4818ac7414c5fa2d4c911a105a20309969810f64ce689cc",
+      "Cartier_matrix_certificate_sha256": "3563933eb15259bdcaddb70d97b6b56c869e8fe3c997b0d64e16030caa7d9bfb",
+      "all_eight_log_derivatives": [
+        4028,
+        663,
+        690,
+        3901,
+        1449,
+        4102,
+        2756,
+        1400
+      ],
+      "alpha": 1449,
+      "angle": "ZA",
+      "candidate_id": 108,
+      "clearing_denominator": 6,
+      "coarse_parameter": "j-j_CM",
+      "exact_initial_divisor_sha256": "a5239be3fa342923b532363599140881deff38599524571212e9268d994fcd31",
+      "holomorphic_correction_sha256": "1484f85faf799bc0e62e83c9e7e5c4fbd9a4d9878f4e4880b166938102338a18",
+      "id": "108-ZA",
+      "meromorphic_RR_certificate": {
+        "all_original_cusps_included": true,
+        "colon_constraints_used": 2,
+        "h_coefficients_sha256": "af43589d78265a2848d0976d2a1fb4a831cd519a29e50ac24ba7a763c39a7487",
+        "id": "108-ZA",
+        "numerator_dimension": 231,
+        "numerator_space_sha256": "6b9f67c16377fb47a108ad898299b160228242fb511305829196ef9b95678839",
+        "original_cleared_divisor_sha256": "a5239be3fa342923b532363599140881deff38599524571212e9268d994fcd31",
+        "reduced_support_degree": 159,
+        "residue_matrix_sha256": "765e6252dc853a07a785024a63246b963df3f195426b39dd375ac789e78d66b9",
+        "residue_rank": 158,
+        "section_selection": {
+          "adjustments_sha256": "7cbf797444cc052926f6dd17990f417a61ee2340377d7e3f89ff1e66c895abb3",
+          "chosen_f_sha256": "550e56672fd8325abe00da893826f6892959bfb9c750dd2c78e0d2f4e60fb65e",
+          "nonzero_conditions": 158
+        },
+        "support_ideal_dimension": 103,
+        "support_ideal_sha256": "3ae00c16e80b7942fa2c8504b9f2918a9f9afc851bfca1512b6d052a406ceebd",
+        "target_rho_sha256": "572e1c4f813b8647f3fc3dcd9ba5ca03612fcb1e95ef8ad2265c3f3ad536e2a6"
+      },
+      "method": "R1118-short-Cartier",
+      "order_mod_q": 551
+    },
+    {
+      "Cartier_difference_coordinates_sha256": "70e09bbbf06fcf897ecf53e01c15c19f9619ab7ab708d7f72a08979ad1fccf0a",
+      "Cartier_matrix_certificate_sha256": "3563933eb15259bdcaddb70d97b6b56c869e8fe3c997b0d64e16030caa7d9bfb",
+      "all_eight_log_derivatives": [
+        2066,
+        1606,
+        2856,
+        3827,
+        1184,
+        495,
+        4371,
+        669
+      ],
+      "alpha": 1184,
+      "angle": "ZB",
+      "candidate_id": 108,
+      "clearing_denominator": 6,
+      "coarse_parameter": "j-j_CM",
+      "exact_initial_divisor_sha256": "07f45858ea4391dc5150521d1ac283743b3e45c8441e4dc52f68f02b08dea812",
+      "holomorphic_correction_sha256": "ff79cccaa92c18c4a3b95f5ca46853a90696566ee6928b4a89ae8365ec7a1748",
+      "id": "108-ZB",
+      "meromorphic_RR_certificate": {
+        "all_original_cusps_included": true,
+        "colon_constraints_used": 2,
+        "h_coefficients_sha256": "82ec693e303a17d1c578b253ef6a87915621379df77fa87986dc5dc676e062d3",
+        "id": "108-ZB",
+        "numerator_dimension": 223,
+        "numerator_space_sha256": "29b8cea2ff493d3784452bcbcca54411be4c285f7f4c46797f0307d8f609682c",
+        "original_cleared_divisor_sha256": "07f45858ea4391dc5150521d1ac283743b3e45c8441e4dc52f68f02b08dea812",
+        "reduced_support_degree": 151,
+        "residue_matrix_sha256": "44568c41226e3ca4c6850e366c3621097c7335bae280a304416d4f76c0ddc4d0",
+        "residue_rank": 150,
+        "section_selection": {
+          "adjustments_sha256": "7cbf797444cc052926f6dd17990f417a61ee2340377d7e3f89ff1e66c895abb3",
+          "chosen_f_sha256": "59654c5ebef2e601c8cde45c507758048bf39af33581e6064e7229039d98c05f",
+          "nonzero_conditions": 136
+        },
+        "support_ideal_dimension": 111,
+        "support_ideal_sha256": "f332ba42fd3c3a7eebf3a6ad6991c61491387bcd6406cc112608c97cde0c8947",
+        "target_rho_sha256": "2dce403b12d553092d158151af91519cb37ec6311aa10a587ac8a0c1d4ca89cf"
+      },
+      "method": "R1118-short-Cartier",
+      "order_mod_q": 551
+    },
+    {
+      "Cartier_difference_coordinates_sha256": "41373a0ec95bc0a77f2df5e709d661bc0aa46c74aa1e806ddb728e3ac88657d2",
+      "Cartier_matrix_certificate_sha256": "3563933eb15259bdcaddb70d97b6b56c869e8fe3c997b0d64e16030caa7d9bfb",
+      "all_eight_log_derivatives": [
+        4152,
+        3494,
+        955,
+        3477,
+        948,
+        3541,
+        689,
+        3663
+      ],
+      "alpha": 689,
+      "angle": "ZA",
+      "candidate_id": 196,
+      "clearing_denominator": 6,
+      "coarse_parameter": "j-j_CM",
+      "exact_initial_divisor_sha256": "5900aa82fcdb71c67338d7d682c842111b94f8a75e49457836012314bc4734b9",
+      "holomorphic_correction_sha256": "f52d5bbddfb7d032749e4c0baa57d3491ca21b6747e61f4749057d3761bb5322",
+      "id": "196-ZA",
+      "meromorphic_RR_certificate": {
+        "all_original_cusps_included": true,
+        "colon_constraints_used": 2,
+        "h_coefficients_sha256": "96f67f14b69b377bb5e754349d4a254a08de582ef17f15f0fedc22e2e8354d7d",
+        "id": "196-ZA",
+        "numerator_dimension": 231,
+        "numerator_space_sha256": "6a8f576e41ef60892f1e75528272347744a406bd9964a096172ae1e4305ba9b9",
+        "original_cleared_divisor_sha256": "5900aa82fcdb71c67338d7d682c842111b94f8a75e49457836012314bc4734b9",
+        "reduced_support_degree": 159,
+        "residue_matrix_sha256": "0797ab3cf10f91eb1c45cba6025f95e36391307804143adf1b423426c3d380a8",
+        "residue_rank": 158,
+        "section_selection": {
+          "adjustments_sha256": "7cbf797444cc052926f6dd17990f417a61ee2340377d7e3f89ff1e66c895abb3",
+          "chosen_f_sha256": "21ac82d72e45b428d181f4fc2d961a5dab71dbde0baecef284dc341f32229127",
+          "nonzero_conditions": 202
+        },
+        "support_ideal_dimension": 103,
+        "support_ideal_sha256": "eb04c1062e35f37ede4898c07d3525ce0e1dca5bcf675a117fe60607e1e91ae7",
+        "target_rho_sha256": "dbf3a1a2a5b7b480f6af154b7cb1a41684de9f6114b173e6eac1b792ca9850ce"
+      },
+      "method": "R1118-short-Cartier",
+      "order_mod_q": 551
+    },
+    {
+      "Cartier_difference_coordinates_sha256": "bc62e49f0a3b47fa253a74394865d3a41293357aaf1fba7bc7aefa2bf81856ff",
+      "Cartier_matrix_certificate_sha256": "3563933eb15259bdcaddb70d97b6b56c869e8fe3c997b0d64e16030caa7d9bfb",
+      "all_eight_log_derivatives": [
+        3764,
+        2496,
+        2152,
+        2836,
+        1517,
+        2898,
+        593,
+        3099
+      ],
+      "alpha": 593,
+      "angle": "ZB",
+      "candidate_id": 196,
+      "clearing_denominator": 6,
+      "coarse_parameter": "j-j_CM",
+      "exact_initial_divisor_sha256": "6e5feaacfd8cb85c7e0601f982b93e7f45fc58feed90a278cfe6c5aa11f3518a",
+      "holomorphic_correction_sha256": "78d33348e6ff7a1d5f2d7ff93f6642732669a2b186e0e4484c8bc42783acfb48",
+      "id": "196-ZB",
+      "meromorphic_RR_certificate": {
+        "all_original_cusps_included": true,
+        "colon_constraints_used": 2,
+        "h_coefficients_sha256": "77605099dee5b03cb9db3b63bc2c70d7567c7bc5adeae74ad2c0484b389d385d",
+        "id": "196-ZB",
+        "numerator_dimension": 223,
+        "numerator_space_sha256": "e7bd0e5a2823d134ce8b7187bce9616d55507aadf3c9ba93d3a9637948c0046d",
+        "original_cleared_divisor_sha256": "6e5feaacfd8cb85c7e0601f982b93e7f45fc58feed90a278cfe6c5aa11f3518a",
+        "reduced_support_degree": 151,
+        "residue_matrix_sha256": "2febcfd1a85085e7cfa6e492a39114c09f81ce337d21a4b584704536b679e792",
+        "residue_rank": 150,
+        "section_selection": {
+          "adjustments_sha256": "7cbf797444cc052926f6dd17990f417a61ee2340377d7e3f89ff1e66c895abb3",
+          "chosen_f_sha256": "4e023b1aaeccd5d205ed197c15b4759c97cc866284e27bed871a5d2aca41fb37",
+          "nonzero_conditions": 180
+        },
+        "support_ideal_dimension": 111,
+        "support_ideal_sha256": "76fcfaf8014a40d1a2cb861e5408957561bebc5bbcbc00265f1d3740914afeda",
+        "target_rho_sha256": "841ef732467996827e91d07f0489efe9fd59a528517e81a30a74f6d4a2fe259c"
+      },
+      "method": "R1118-short-Cartier",
+      "order_mod_q": 551
+    },
+    {
+      "Cartier_difference_coordinates_sha256": "ddacf72b9f6c3c579d623e05ca84ea333ab79cc8b5e206d942d2a593ecb85618",
+      "Cartier_matrix_certificate_sha256": "3563933eb15259bdcaddb70d97b6b56c869e8fe3c997b0d64e16030caa7d9bfb",
+      "all_eight_log_derivatives": [
+        1671,
+        3104,
+        2563,
+        968,
+        3885,
+        2245,
+        3178,
+        2875
+      ],
+      "alpha": 2875,
+      "angle": "ZA",
+      "candidate_id": 220,
+      "clearing_denominator": 6,
+      "coarse_parameter": "j-j_CM",
+      "exact_initial_divisor_sha256": "5f39709fad8d82c41ef605deb6ef6f2e0f8baa832e42bd0ba062d059b7b4c324",
+      "holomorphic_correction_sha256": "f772363fa6759636ff8aa946b267b31a9280468900dfa95fe6fe096c390cf7dc",
+      "id": "220-ZA",
+      "meromorphic_RR_certificate": {
+        "all_original_cusps_included": true,
+        "colon_constraints_used": 2,
+        "h_coefficients_sha256": "c86ea15ff935c53eaf8cd81369c627d054e586775f9dc3d80a000c1da1bc039b",
+        "id": "220-ZA",
+        "numerator_dimension": 231,
+        "numerator_space_sha256": "4302898ea3d25f52aa13028cea6b690a08720c20a8e43cf7f55d69274dc83578",
+        "original_cleared_divisor_sha256": "5f39709fad8d82c41ef605deb6ef6f2e0f8baa832e42bd0ba062d059b7b4c324",
+        "reduced_support_degree": 159,
+        "residue_matrix_sha256": "657940b1c7cc83638d3934ec5efe7e299f237e3e0b6153c5d567e89758c0c496",
+        "residue_rank": 158,
+        "section_selection": {
+          "adjustments_sha256": "7cbf797444cc052926f6dd17990f417a61ee2340377d7e3f89ff1e66c895abb3",
+          "chosen_f_sha256": "cb560de362b7fbe641894b8427cb41245a92cf37ee4cf480cde362af8b099e33",
+          "nonzero_conditions": 166
+        },
+        "support_ideal_dimension": 103,
+        "support_ideal_sha256": "f04ed21799bcbcb6dc4a3fb87863dedc7293843ac0cf9f1ede9871210ca7f914",
+        "target_rho_sha256": "9099b01b3f87f89bebd5b210b5f49ced413e238e4d8e2e23d3a31d0857abb47f"
+      },
+      "method": "R1118-short-Cartier",
+      "order_mod_q": 551
+    },
+    {
+      "Cartier_difference_coordinates_sha256": "3afa9dfa6c8147c802a213183c202965b020b5b35438a3f94bc469994789f912",
+      "Cartier_matrix_certificate_sha256": "3563933eb15259bdcaddb70d97b6b56c869e8fe3c997b0d64e16030caa7d9bfb",
+      "all_eight_log_derivatives": [
+        4376,
+        2821,
+        676,
+        2163,
+        2511,
+        654,
+        3558,
+        295
+      ],
+      "alpha": 295,
+      "angle": "ZB",
+      "candidate_id": 220,
+      "clearing_denominator": 6,
+      "coarse_parameter": "j-j_CM",
+      "exact_initial_divisor_sha256": "a988f3099fcbc161066680183b1153c2f9da44d6767504a0629c19fe60f4e42c",
+      "holomorphic_correction_sha256": "f88cd8a17b50b66fa404886427c5b829e9ba80bb4e6934ba86a133e19665d4f9",
+      "id": "220-ZB",
+      "meromorphic_RR_certificate": {
+        "all_original_cusps_included": true,
+        "colon_constraints_used": 2,
+        "h_coefficients_sha256": "206940304a2ca6ee4611c1a0c93e60128b1b165a684d93e41eaec57e57558a31",
+        "id": "220-ZB",
+        "numerator_dimension": 223,
+        "numerator_space_sha256": "ab31f4b222cec3a547681b62f146ff2b51c3fcdf6258eb89ba0db72e3882935e",
+        "original_cleared_divisor_sha256": "a988f3099fcbc161066680183b1153c2f9da44d6767504a0629c19fe60f4e42c",
+        "reduced_support_degree": 151,
+        "residue_matrix_sha256": "8b0a7604228575e51dd41a78370c6496b35086b99aa2904b0971fea2f5228bc5",
+        "residue_rank": 150,
+        "section_selection": {
+          "adjustments_sha256": "7cbf797444cc052926f6dd17990f417a61ee2340377d7e3f89ff1e66c895abb3",
+          "chosen_f_sha256": "54188b4afa634aa85c84bca369c079619fa974fe1a45a4088e4181e7a713142d",
+          "nonzero_conditions": 144
+        },
+        "support_ideal_dimension": 111,
+        "support_ideal_sha256": "2e5bf5873b39b63edce4de3c2e43db14ef90b06fd953bd466017ae084baa28b3",
+        "target_rho_sha256": "241d62bb0700012db0e5274525df89917ee4c9057738132cabd788705f52a0b9"
+      },
+      "method": "R1118-short-Cartier",
+      "order_mod_q": 551
+    },
+    {
+      "Cartier_difference_coordinates_sha256": "257b131768676f215fcbf749a023d4a01e57ab5db840c313ceff1241185fccf0",
+      "Cartier_matrix_certificate_sha256": "3563933eb15259bdcaddb70d97b6b56c869e8fe3c997b0d64e16030caa7d9bfb",
+      "all_eight_log_derivatives": [
+        3329,
+        2478,
+        2917,
+        4121,
+        709,
+        2341,
+        1897,
+        824
+      ],
+      "alpha": 2478,
+      "angle": "ZA",
+      "candidate_id": 76,
+      "clearing_denominator": 6,
+      "coarse_parameter": "j-j_CM",
+      "exact_initial_divisor_sha256": "4b80ae732a5c67834855abbaf28edc05084cf3801683d9a2b258ca950077028a",
+      "holomorphic_correction_sha256": "06c2ab0b47129b4ff5086a0307e59fbd6cfb563ee12368374c781e2f5aa5f3b1",
+      "id": "76-ZA",
+      "meromorphic_RR_certificate": {
+        "all_original_cusps_included": true,
+        "colon_constraints_used": 2,
+        "h_coefficients_sha256": "b468cef9957d5ded3b48cc09799292a7b05cc0c25b1c8ba2ca956e66490c3c62",
+        "id": "76-ZA",
+        "numerator_dimension": 231,
+        "numerator_space_sha256": "d8711ec8ba332178d6dab19f604683bba9fe346c1ceca3c3f9fce60da0d453d2",
+        "original_cleared_divisor_sha256": "4b80ae732a5c67834855abbaf28edc05084cf3801683d9a2b258ca950077028a",
+        "reduced_support_degree": 159,
+        "residue_matrix_sha256": "90067f8f876bc332a0f5bb3db8a48b3f4c21f3ae33c77a5246bbb294d3e4dcc6",
+        "residue_rank": 158,
+        "section_selection": {
+          "adjustments_sha256": "7cbf797444cc052926f6dd17990f417a61ee2340377d7e3f89ff1e66c895abb3",
+          "chosen_f_sha256": "d7b20c1b8d2420e5477debaef3153103520cf497ffb3df1891642b1f58f5bdd1",
+          "nonzero_conditions": 191
+        },
+        "support_ideal_dimension": 103,
+        "support_ideal_sha256": "af02fe0ab55ddcfc097de6f6f4b046a9e97928d5a22c09a1ecbeed29a4d51be9",
+        "target_rho_sha256": "677e0dbeb98ef9753c53fb5df29ad9da08792d709e789c120bf3f782a454ded9"
+      },
+      "method": "R1118-short-Cartier",
+      "order_mod_q": 551
+    },
+    {
+      "Cartier_difference_coordinates_sha256": "6a43932018eeb5ea0eb419a1042899c5f55cba4cd9daafb2b87b5b1226fc8fbd",
+      "Cartier_matrix_certificate_sha256": "3563933eb15259bdcaddb70d97b6b56c869e8fe3c997b0d64e16030caa7d9bfb",
+      "all_eight_log_derivatives": [
+        1163,
+        1979,
+        3518,
+        800,
+        1531,
+        1400,
+        3466,
+        3899
+      ],
+      "alpha": 1979,
+      "angle": "ZB",
+      "candidate_id": 76,
+      "clearing_denominator": 6,
+      "coarse_parameter": "j-j_CM",
+      "exact_initial_divisor_sha256": "25b012ad916d44e107ee410c53e0033e56e43bacc82e3e8148051836a12cadfb",
+      "holomorphic_correction_sha256": "a2ec596f1456eac897d00dd9925e4091e9b94660b7fe37fe9bb6dfe3579b93a9",
+      "id": "76-ZB",
+      "meromorphic_RR_certificate": {
+        "all_original_cusps_included": true,
+        "colon_constraints_used": 2,
+        "h_coefficients_sha256": "eebf2486bfc3daa74b27cfdfa1c9bbced0b9c7200933267756669bc685140d25",
+        "id": "76-ZB",
+        "numerator_dimension": 223,
+        "numerator_space_sha256": "f4dbd024941412df4585fd781ff7fdb33dd8eac7ebd0d501b9cd2848c451ca22",
+        "original_cleared_divisor_sha256": "25b012ad916d44e107ee410c53e0033e56e43bacc82e3e8148051836a12cadfb",
+        "reduced_support_degree": 151,
+        "residue_matrix_sha256": "422bf5414fd7ee70626f61484fa4638ca5faf69ace7f6fd605c2069b4a9c51cc",
+        "residue_rank": 150,
+        "section_selection": {
+          "adjustments_sha256": "7cbf797444cc052926f6dd17990f417a61ee2340377d7e3f89ff1e66c895abb3",
+          "chosen_f_sha256": "c5628d9685317f665e76eca6d955cdb4ab4a89f881ec4f0f109ca68a4be2cfb2",
+          "nonzero_conditions": 170
+        },
+        "support_ideal_dimension": 111,
+        "support_ideal_sha256": "9ca190c75b21ecc205c13d08c5596cded083dd395f2b7f6225a1f27231f8dd17",
+        "target_rho_sha256": "00f9aa4d6127ded4ce2c85614019286d3d851c662e2c2eb740676b936bed2c4a"
+      },
+      "method": "R1118-short-Cartier",
+      "order_mod_q": 551
+    },
+    {
+      "Cartier_difference_coordinates_sha256": "762b0bbd629a17273df883c157d6e54b97e77ad738962dc9d6a00f11d4df7af5",
+      "Cartier_matrix_certificate_sha256": "3563933eb15259bdcaddb70d97b6b56c869e8fe3c997b0d64e16030caa7d9bfb",
+      "all_eight_log_derivatives": [
+        382,
+        696,
+        2484,
+        4320,
+        1540,
+        837,
+        214,
+        1989
+      ],
+      "alpha": 2484,
+      "angle": "ZA",
+      "candidate_id": 77,
+      "clearing_denominator": 6,
+      "coarse_parameter": "j-j_CM",
+      "exact_initial_divisor_sha256": "a75581b32c839b5ab482e9d889171adabf107c2d43c13edb81b3195bc4531985",
+      "holomorphic_correction_sha256": "4edd774de55e93d6f382f6644dfd8b649c55877acd58c979e49500cea047bb39",
+      "id": "77-ZA",
+      "meromorphic_RR_certificate": {
+        "all_original_cusps_included": true,
+        "colon_constraints_used": 1,
+        "h_coefficients_sha256": "dd63279ea56185e109aee1976a9e012e313da6d63dc0df077ba8e16420f253ab",
+        "id": "77-ZA",
+        "numerator_dimension": 231,
+        "numerator_space_sha256": "738f30fdf14d21fdd633cc9ef07f941b67036c24634611921fee9fe1e30a142c",
+        "original_cleared_divisor_sha256": "a75581b32c839b5ab482e9d889171adabf107c2d43c13edb81b3195bc4531985",
+        "reduced_support_degree": 159,
+        "residue_matrix_sha256": "c326cce0af6a19e9ef56fd843469a279dcfe538e6796f459f91cf17bc6e2e33a",
+        "residue_rank": 158,
+        "section_selection": {
+          "adjustments_sha256": "827427e5f4fbd0bc4374fa36b92624e191de67429f95b769bd749fbe0389f2f3",
+          "chosen_f_sha256": "34192171a82d43a972a92ac384771310a5932bbfa6287668b1c638c777afeb8d",
+          "nonzero_conditions": 166
+        },
+        "support_ideal_dimension": 103,
+        "support_ideal_sha256": "3dbee5506c9c54c50a906801f3131f22c22a59d6e35b1c6fe6a459ffc73cceec",
+        "target_rho_sha256": "269503416a6418d6bb94ac3c6098f34b7f83b281abb9d28a3d0094cb530144c8"
+      },
+      "method": "R1118-short-Cartier",
+      "order_mod_q": 551
+    },
+    {
+      "Cartier_difference_coordinates_sha256": "c6aaf27b0fa972577db95f5274de509fa288a60706a57d085c20abe34d344f93",
+      "Cartier_matrix_certificate_sha256": "3563933eb15259bdcaddb70d97b6b56c869e8fe3c997b0d64e16030caa7d9bfb",
+      "all_eight_log_derivatives": [
+        1389,
+        936,
+        4348,
+        3167,
+        2546,
+        2698,
+        3587,
+        132
+      ],
+      "alpha": 4348,
+      "angle": "ZB",
+      "candidate_id": 77,
+      "clearing_denominator": 6,
+      "coarse_parameter": "j-j_CM",
+      "exact_initial_divisor_sha256": "a2845eca55b7f0ae348cf01c60b9626fba063fa8c9d0cc2ec4619f117f669718",
+      "holomorphic_correction_sha256": "42ae35d912322afb07a459bd88a0e3470787efb961050c7c328ae023ef586feb",
+      "id": "77-ZB",
+      "meromorphic_RR_certificate": {
+        "all_original_cusps_included": true,
+        "colon_constraints_used": 2,
+        "h_coefficients_sha256": "9ad85b9aeeaf778a681ce7178b51a1faaf1d6625b977793bf62289638e661709",
+        "id": "77-ZB",
+        "numerator_dimension": 223,
+        "numerator_space_sha256": "ad214cc94cff37ca5711652f91b3d496dbefc276b1a143bdfe5b7791d1e30c38",
+        "original_cleared_divisor_sha256": "a2845eca55b7f0ae348cf01c60b9626fba063fa8c9d0cc2ec4619f117f669718",
+        "reduced_support_degree": 151,
+        "residue_matrix_sha256": "c7f0c342450b5fb9d26024bae3cc669733a062a94686d3b72c72614959a28140",
+        "residue_rank": 150,
+        "section_selection": {
+          "adjustments_sha256": "7cbf797444cc052926f6dd17990f417a61ee2340377d7e3f89ff1e66c895abb3",
+          "chosen_f_sha256": "03392cadf866a9d7aec6d27169995ca3d1e1c5d5b346270f87202244ca7dd409",
+          "nonzero_conditions": 144
+        },
+        "support_ideal_dimension": 111,
+        "support_ideal_sha256": "40f66a3df03fbc76886870c7e6988437a174f6e74e3d7693fb8cdbc9db08b649",
+        "target_rho_sha256": "489d709ce87c3020d715ff913aae5b48c994d68352857e32bb8163d70828e332"
+      },
+      "method": "R1118-short-Cartier",
+      "order_mod_q": 551
+    }
+  ],
+  "consumed_third_kind_values_sha256": "895d06ff05fab216225b5a6794295b3fb731d4ea5d1982935db365a4ebddcc09",
+  "consumed_Cartier_matrix_certificate": {
+    "Cartier_characteristic_polynomial": [
+      1661,
+      3349,
+      2717,
+      2730,
+      3569,
+      3180,
+      703,
+      1662,
+      912,
+      2727,
+      1869,
+      1126,
+      54,
+      1960,
+      3755,
+      383,
+      3787,
+      688,
+      1429,
+      2333,
+      201,
+      1684,
+      2463,
+      1850,
+      3370,
+      1308,
+      839,
+      1814,
+      2646,
+      3146,
+      1104,
+      3805,
+      609,
+      1481,
+      1443,
+      3346,
+      34,
+      3396,
+      2069,
+      824,
+      4351,
+      251,
+      2431,
+      2353,
+      1227,
+      2973,
+      3776,
+      1112,
+      4058,
+      315,
+      3316,
+      1956,
+      4453,
+      2310,
+      1014,
+      907,
+      4274,
+      3328,
+      4073,
+      3361,
+      4335,
+      1294,
+      4388,
+      1345,
+      3269,
+      2480,
+      532,
+      2466,
+      2047,
+      1197,
+      1175,
+      3173,
+      939,
+      1
+    ],
+    "Cartier_column_matrix_sha256": "21fc43c13f58e974adb58804e3480f80d3268104546e31e40ca5370806bbb58f",
+    "Cartier_row_matrix_sha256": "deda5ed6dbe8122f243c46bb60245cf8facc00b6040a8f34958c9ca4241d855d",
+    "all73_frame_values_sha256": "31af31bc4fb3a6eaa458c90397203fee74529ee4e29b2319267bde60c2d030e8",
+    "consumed_Gaussian_grid": {
+      "P_G1_sha256": "dca6baf63784e507223620221b0d653306f791d405f0bafdb9f7a68a9598268d",
+      "grid_sha256": "627e076ae64de06332324f1bdf0a82e2888b493f4799af3b7211c6d7524d7c50",
+      "points": 2208,
+      "precision": 4513,
+      "weil_root": 2
+    },
+    "convention": "columns; original Hecke row is transpose",
+    "dimension": 73,
+    "one_minus_C_determinant": 551,
+    "probe_receipt": {
+      "Hodge_evaluation_determinant": 3058,
+      "Hodge_evaluation_sha256": "8c5073af02da9d9731f7cbff7ab5fa1e061e590fe965355c9a2e79ff463795bb",
+      "KS_constant": 809,
+      "physical_parameter": "B",
+      "retained_candidates": 432,
+      "selected95_values_sha256": "2c8159a9a6d8e5f6c6bf54d4e312cd5a9b062f9a8c61f7fa250300f96f5402a9",
+      "selected_Cartans": [
+        [
+          0,
+          2,
+          23,
+          0
+        ],
+        [
+          0,
+          3,
+          31,
+          0
+        ],
+        [
+          0,
+          4,
+          35,
+          0
+        ],
+        [
+          0,
+          5,
+          28,
+          0
+        ],
+        [
+          0,
+          6,
+          39,
+          0
+        ],
+        [
+          0,
+          7,
+          20,
+          0
+        ],
+        [
+          0,
+          9,
+          26,
+          0
+        ],
+        [
+          0,
+          11,
+          17,
+          0
+        ],
+        [
+          0,
+          13,
+          18,
+          0
+        ],
+        [
+          1,
+          1,
+          45,
+          46
+        ],
+        [
+          1,
+          2,
+          46,
+          46
+        ],
+        [
+          1,
+          3,
+          15,
+          46
+        ],
+        [
+          1,
+          4,
+          23,
+          46
+        ],
+        [
+          1,
+          6,
+          31,
+          46
+        ],
+        [
+          1,
+          7,
+          40,
+          46
+        ],
+        [
+          1,
+          8,
+          35,
+          46
+        ],
+        [
+          1,
+          10,
+          28,
+          46
+        ],
+        [
+          1,
+          11,
+          34,
+          46
+        ],
+        [
+          1,
+          12,
+          39,
+          46
+        ],
+        [
+          1,
+          13,
+          36,
+          46
+        ],
+        [
+          1,
+          14,
+          20,
+          46
+        ],
+        [
+          1,
+          16,
+          41,
+          46
+        ],
+        [
+          1,
+          17,
+          22,
+          46
+        ],
+        [
+          1,
+          19,
+          37,
+          46
+        ],
+        [
+          1,
+          24,
+          43,
+          46
+        ],
+        [
+          1,
+          25,
+          30,
+          46
+        ],
+        [
+          1,
+          27,
+          33,
+          46
+        ],
+        [
+          1,
+          32,
+          44,
+          46
+        ],
+        [
+          2,
+          1,
+          42,
+          45
+        ],
+        [
+          2,
+          2,
+          21,
+          45
+        ],
+        [
+          2,
+          3,
+          14,
+          45
+        ],
+        [
+          2,
+          4,
+          34,
+          45
+        ],
+        [
+          2,
+          5,
+          46,
+          45
+        ],
+        [
+          2,
+          6,
+          7,
+          45
+        ],
+        [
+          2,
+          8,
+          17,
+          45
+        ],
+        [
+          2,
+          9,
+          36,
+          45
+        ],
+        [
+          2,
+          10,
+          23,
+          45
+        ],
+        [
+          2,
+          11,
+          38,
+          45
+        ],
+        [
+          2,
+          12,
+          27,
+          45
+        ],
+        [
+          2,
+          13,
+          43,
+          45
+        ],
+        [
+          2,
+          15,
+          31,
+          45
+        ],
+        [
+          2,
+          16,
+          32,
+          45
+        ],
+        [
+          2,
+          19,
+          22,
+          45
+        ],
+        [
+          2,
+          20,
+          35,
+          45
+        ],
+        [
+          2,
+          24,
+          37,
+          45
+        ],
+        [
+          2,
+          25,
+          28,
+          45
+        ],
+        [
+          2,
+          26,
+          45,
+          45
+        ],
+        [
+          2,
+          30,
+          39,
+          45
+        ],
+        [
+          2,
+          33,
+          44,
+          45
+        ],
+        [
+          2,
+          40,
+          41,
+          45
+        ],
+        [
+          3,
+          1,
+          37,
+          44
+        ],
+        [
+          3,
+          3,
+          28,
+          44
+        ],
+        [
+          3,
+          4,
+          21,
+          44
+        ],
+        [
+          3,
+          7,
+          12,
+          44
+        ],
+        [
+          3,
+          8,
+          34,
+          44
+        ],
+        [
+          3,
+          9,
+          25,
+          44
+        ],
+        [
+          3,
+          10,
+          46,
+          44
+        ],
+        [
+          3,
+          11,
+          29,
+          44
+        ],
+        [
+          3,
+          13,
+          39,
+          44
+        ],
+        [
+          3,
+          16,
+          17,
+          44
+        ],
+        [
+          3,
+          18,
+          36,
+          44
+        ],
+        [
+          3,
+          19,
+          44,
+          44
+        ],
+        [
+          3,
+          20,
+          23,
+          44
+        ],
+        [
+          3,
+          22,
+          38,
+          44
+        ],
+        [
+          3,
+          24,
+          27,
+          44
+        ],
+        [
+          3,
+          26,
+          43,
+          44
+        ],
+        [
+          3,
+          30,
+          31,
+          44
+        ],
+        [
+          3,
+          35,
+          40,
+          44
+        ],
+        [
+          4,
+          1,
+          30,
+          43
+        ],
+        [
+          4,
+          2,
+          15,
+          43
+        ],
+        [
+          4,
+          4,
+          31,
+          43
+        ],
+        [
+          4,
+          5,
+          6,
+          43
+        ],
+        [
+          4,
+          8,
+          39,
+          43
+        ]
+      ],
+      "selected_frames_sha256": "ac2b0b2dc168977fe758cbf9b6f9a2eeb5b187d6da566f0940f824c9f375c67f",
+      "selected_rows": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72
+      ]
+    }
+  },
+  "consumed_Cartier_matrix_certificate_sha256": "3563933eb15259bdcaddb70d97b6b56c869e8fe3c997b0d64e16030caa7d9bfb",
+  "consumed_third_kind_source": {
+    "source": "1340d243733c1693ac57aa04043b7b9194fd14ed",
+    "run": 45994669183,
+    "job": 140490956495,
+    "request_sha256": "20db24c6c8857df91109713833b47fcd2db5fd0930e45b4703f7017befb49f84"
+  }
+}

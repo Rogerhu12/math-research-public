@@ -6,11 +6,11 @@
 
 会话 **Astra-serre-24b8836b-20261126**。本轮已部分克隆并真实pull main，读两README/H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则读至36cf1ed2。不重做已登记结论或窗口。
 
-**公开两README已读提交：25a197480a83f4dd4523ed3a0f46f296ffdfa5f1**（2026-11-27 20:02 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
+**公开两README已读提交：8fc4d1f021b068dcbfee33262c563ac9dc16bac1**（2026-11-27 20:11 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
 
-已真实部分克隆/pull；19:11再试pull仍报无可用执行环境，shell未运行；按根规矩8用连接器小文本同步、读两README差异、带expected_sha非force提交，恢复后立即pull --rebase。拒绝即同步重基再推至成功。令牌仅CLI；根维护main/H/open/index/log，子研究独立稿，每条结论立即推。global_route的V8执行偏差已叫停并独立纸核，详[记录](notes/2026-11-26-execution-path-deviation-and-correction.md)，其输出不作证明/合规窗口。
+已真实部分克隆/pull；20:10再试pull仍报无可用执行环境，shell未运行；按根规矩8用连接器小文本同步、读两README差异、带expected_sha非force提交，恢复后立即pull --rebase。拒绝即同步重基再推至成功。令牌仅CLI；根维护main/H/open/index/log，子研究独立稿，每条结论立即推。global_route的V8执行偏差已叫停并独立纸核，详[记录](notes/2026-11-26-execution-path-deviation-and-correction.md)，其输出不作证明/合规窗口。
 
-H<10KB、open尽量<30KB、每MD<100KB、topic<200MB；无可重算raw、不写根LOG。[最新逐字前态](handoff-archive-2026-11-27-before-short-Cartier.md)沿链保全部旧来源/run/hash；[open](open.md)、[索引](results.md)是完整入口。历史“R1003 norm3准备中”未交付，现R1003为范围纠错。
+H<10KB、open尽量<30KB、每MD<100KB、topic<200MB；无可重算raw、不写根LOG。[最新逐字前态](handoff-archive-2026-11-27-before-actual-QC.md)沿链保全部旧来源/run/hash；[open](open.md)、[索引](results.md)是完整入口。历史“R1003 norm3准备中”未交付，现R1003为范围纠错。
 
 ## 原高度来源与范围
 
@@ -36,16 +36,16 @@ R1063：全Hecke族消MW及真辛商，最低两jet行列式仍开。R1058：原
 
 [R1103](results/R1103-original-CM-tangents-finite-field-third-kind-and-QC-first-jets.md)：原α、整尾t(B+At)及全部非q消失已证；[完整首行消费者](notes/2026-11-27-full-p47-QC-first-rows-method.md)已推，CM坐标已由R1120取得，待实际α回执读行秩。
 
-[有限Miller](notes/2026-11-27-full-p47-finite-third-kind-method.md) run45973334832/job140418866621：0/141×ZA/ZB首4例仍运行，18000/120；原closed支撑/ratio/signed N和终点已付，只读完整新α。余12例随后续。
+[有限Miller](notes/2026-11-27-full-p47-finite-third-kind-method.md) run45973334832/job140418866621：0/141×ZA/ZB首4例仍运行，18000/120；原closed支撑/ratio/signed N和终点已付，只读完整新α。余12例已由R1121完成。
 
 [R1108](results/R1108-original-CM-first-log-mod-q2-and-finite-residue-algebra.md)：原q² residue-trace/强制归一及两pencil同时核已证。四基本CM q² run45977769585/job140433713916仍在途；必要坐标已由R1120取得，不再依赖或补跑该链。
 
-[R1118](results/R1118-original-short-Cartier-reading-for-CM-third-kind-values.md)：原α改由短Cartier读法：s≤159/151、f的确定性线性避让、U_f=fH0Ω(S)的完整V≤5 colon；73个同一Gaussian free点的一次4513来源给C和Cη−η，(1−C)解唯一原W形式。保全部coarse/closed/cusp47/除6；算法尚无实际回执，未报QC行秩。
+[R1118](results/R1118-original-short-Cartier-reading-for-CM-third-kind-values.md)的原短Cartier法已由[R1121](results/R1121-certified-original-twelve-short-Cartier-values.md)完整执行：run45994669183/job140490956495，541.159秒，余12例全成、无失败；六盘ZA/ZB的原α已齐，完整C的det(1−C)=551、原73帧det3058。全部closed/coarse/cusp/除6及hash保R1121，只消费不重算。
 
 [R1120](results/R1120-certified-original-full47-signed-CM-coordinates.md)：run45994488204/job140490328323已成功，21.546秒；aux−11首项完整rank73、det4364，四基本CM的ρ_D与原QC坐标ρ_D/Bq全73系数齐备，原Hodge/Bq全矩阵桥通过。几何/整性见R1119；全部receipt/source/hash已核，仅消费，不再等待或补跑q²链。第三类值与真正QC行秩继续。
 
 
-[短Cartier新请求](notes/2026-11-27-full-p47-short-Cartier-third-kind-method.md)已提交：只列余12例，首4例仍由Miller在途；原closed/frame/colon及一次4513 grid，4核18000/reserve120。Cartier run45994669183/job140490956495正在数学步骤。Jacobi已成功见R1120；待α读实际QC行秩。
+[完整QC新请求](notes/full-p47-QC-first-rows-request.json)已填R1120全部CM坐标和R1121十二α，六盘76/77/100/108/196/220×ZA/ZB；2400/reserve60，先核原Cartier row矩阵与1−Bq(H)，再读全73 trace的实际t(B+At)/gcd/单位导数。未提前宣称盘内唯一；0/141首4仍等Miller。
 
 ## O1：原同一保留标签与 Gaussian 强制切向
 

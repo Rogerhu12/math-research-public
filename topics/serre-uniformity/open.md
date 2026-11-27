@@ -38,16 +38,16 @@
 
 [R1104–06](results.md)已认证原L≤5/836jets与degree167可分pencil、八CM×16切向全unit及全部23角的真实73维作用；ZA/ZB生成整T。run45964526314/45968484065/45969880122，原source/hash、coarse/tag、FLINT隔离和id196普通25项链更正保索引及前态。只消费，整代数生成不代QC行秩。
 
-[有限Miller请求](notes/2026-11-27-full-p47-finite-third-kind-method.md)：原L≤5/836jet、真实closed支撑/八coarse ratio一阶、初始h f0/s、signed N链及终点正加均已付；首4例0/141×ZA/ZB，4核18000/120。只读新α，余12例随后续；q² CM坐标并行。
+[有限Miller请求](notes/2026-11-27-full-p47-finite-third-kind-method.md)：原L≤5/836jet、真实closed支撑/八coarse ratio一阶、初始h f0/s、signed N链及终点正加均已付；首4例0/141×ZA/ZB，4核18000/120。只读首4个尚缺α；余12例已由R1121完成，CM坐标已由R1120完成。
 
-[R1108](results/R1108-original-CM-first-log-mod-q2-and-finite-residue-algebra.md)：原q²首log residue-trace与末端强制归一已证；两pencil必须同时核。八CM归约四基本类；[q²方法](notes/2026-11-27-full-p47-modq2-CM-log-method.md)及四CM原源/KM/trace新请求已推，4核18000/120；新值待回执。
+[R1108](results/R1108-original-CM-first-log-mod-q2-and-finite-residue-algebra.md)：原q²首log residue-trace与末端强制归一已证；两pencil必须同时核。八CM归约四基本类；[q²方法](notes/2026-11-27-full-p47-modq2-CM-log-method.md)及四CM原源/KM/trace新请求已推，4核18000/120；该路线仍在途；所需CM坐标已由R1120完整得到，不再补跑该链。
 
-[R1118](results/R1118-original-short-Cartier-reading-for-CM-third-kind-values.md)：原α改由短Cartier读法：s≤159/151、f的确定性线性避让、U_f=fH0Ω(S)的完整V≤5 colon；73个同一Gaussian free点的一次4513来源给C和Cη−η，(1−C)解唯一原W形式。保全部coarse/closed/cusp47/除6；算法尚无实际回执，未报QC行秩。
+[R1118](results/R1118-original-short-Cartier-reading-for-CM-third-kind-values.md)的原短Cartier法已由[R1121](results/R1121-certified-original-twelve-short-Cartier-values.md)完整执行：run45994669183/job140490956495，541.159秒，余12例全成、无失败；六盘ZA/ZB的原α已齐，完整C的det(1−C)=551、原73帧det3058。全部closed/coarse/cusp/除6及hash保R1121，只消费不重算。
 
 [R1120](results/R1120-certified-original-full47-signed-CM-coordinates.md)：run45994488204/job140490328323已成功，21.546秒；aux−11首项完整rank73、det4364，四基本CM的ρ_D与原QC坐标ρ_D/Bq全73系数齐备，原Hodge/Bq全矩阵桥通过。几何/整性见R1119；全部receipt/source/hash已核，仅消费，不再等待或补跑q²链。第三类值与真正QC行秩继续。
 
 
-[短Cartier新请求](notes/2026-11-27-full-p47-short-Cartier-third-kind-method.md)已提交：只列余12例，首4例仍由Miller在途；原closed/frame/colon及一次4513 grid，4核18000/reserve120。Cartier run45994669183/job140490956495在数学步骤；Jacobi已成功见R1120，待α读取实际QC行秩。
+[完整QC新请求](notes/full-p47-QC-first-rows-request.json)消费R1120全部CM坐标和R1121十二α，只读六盘76/77/100/108/196/220；2400/reserve60，完整原Cartier/Tq矩阵交叉核验后，实际计算全73 trace与t(B+At)的gcd/单位导数。未预报唯一，0/141首4仍等原Miller。
 
 ## O1：全p同一真实本原标签的临界非零
 

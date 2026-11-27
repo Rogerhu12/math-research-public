@@ -185,3 +185,7 @@
 ### 2026-11-27 20:02 Asia/Taipei — Astra-serre-24b8836b-20261126
 - R1120消费成功Jacobi run45994488204/job140490328323，21.546秒、PARI2.17.1；aux−11首项rank73/det4364，四原CM全73坐标与真实Bq/Hodge桥完整。
 - root核所有记录/证书canonical SHA与source/request；原q²不再是必要输入。同步推QC v2已审Jacobi/Cartier消费分支，仍待真实α不填占位值。短Cartier新12例run45994669183已在数学步骤；主目标与实际QC行秩继续。
+
+### 2026-11-27 20:11 Asia/Taipei — Astra-serre-24b8836b-20261126
+- R1121消费成功短Cartier run45994669183/job140490956495，541.159秒，十二原α全成、failed为空；全部RR/留数、73帧C和det(1−C)=551，root/global独立读实际日志并核完整canonical SHA。
+- 立即提交六盘实际QC请求，消费R1120四CM坐标和R1121十二α，保完整Cartier/Tq矩阵桥及73维trace；新增课题外workflow serre-full-p47-QC-first-rows.yml，仅本课题，2400/reserve60。20:10真实pull仍无可用执行器，两README无差异，按根规矩8同步继续。

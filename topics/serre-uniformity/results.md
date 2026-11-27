@@ -1,5 +1,7 @@
 # 结论索引
 
+- **R1121（已证明，精确计算）**：[原十二个短Cartier第三类值](results/R1121-certified-original-twelve-short-Cartier-values.md)：run45994669183/job140490956495，541.159秒，六盘×ZA/ZB全成无失败；α表、完整RR/留数和原73帧C齐备，detE=3058、det(1−C)=551。只消费已成值，原0/141首4仍在Miller；六盘实际QC随即新算。
+
 - **R1120（已证明，精确计算）**：[R1120](results/R1120-certified-original-full47-signed-CM-coordinates.md)：run45994488204/job140490328323已成功，21.546秒；aux−11首项完整rank73、det4364，四基本CM的ρ_D与原QC坐标ρ_D/Bq全73系数齐备，原Hodge/Bq全矩阵桥通过。几何/整性见R1119；全部receipt/source/hash已核，仅消费，不再等待或补跑q²链。第三类值与真正QC行秩继续。
 
 - **R1119（已证明，数值待执行）**：[R1119](results/R1119-original-signed-CM-coordinates-and-Jacobi-reading.md)：原四基本CM的反向项链迹为q†u_D=23w_D y_(DN,r_D)，w=3/2/1/1，r=N/0；真带符号ρ_D=(w_D/2)c(DN,r_D)/c(−4N,0)，QC坐标ρ_D/Bq。原Q同源证明与4513整性分开；新Jacobi请求核QQ路径、整投影、共同73参考和原H全矩阵桥，数值待实际回执。
