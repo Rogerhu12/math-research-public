@@ -4,7 +4,7 @@
 
 ## 规则与完整目标
 
-最近规则核查：2026-11-27 02:01:01 UTC，真实pull/rebase至 `91de38ca63948967904fc5a5a0d8f0a8717ca3ed`，双README相对`3e014e8693bbabf960f647212b40d9d353fa0b25`无差异，继续遵守全部规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
+最近规则核查：2026-11-27 02:04:50 UTC，真实pull/rebase至 `41878c38ddc55dd8faaa1fc70700a95db4b7b95c`，双README相对`91de38ca63948967904fc5a5a0d8f0a8717ca3ed`无差异，继续遵守全部规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
 
 科学计算仅本公开仓库Actions；执行偏差见[早前记录](notes/2026-11-20-public-actions-execution-correction.md)及[四次大JSON整读纠正](notes/2026-11-26-large-file-connector-read-correction.md)、[本次大文件搜索纠正](notes/2026-11-27-bounded-text-search-correction.md)。root唯一分支写者；结论即普通推，NFF立即rebase循环，不强推。每次pull核双README差异并遵新规，至少每小时，记commit。raw只scratch/runner，不入Git/Release/artifact；保完整小源/参数/run/SHA/紧凑结论。题≤200MB、单文件<5MB、MD<100KB、H<10KB、open<30KB。令牌仅瞬时CLI。终端失联与恢复/云API普通快进记录保7774固定H；旧scratch迁移未确认，不冒恢复。
 
@@ -13,7 +13,7 @@
 
 ## 完整历史与共同模型
 
-完整交接保[50d固定H](https://github.com/Rogerhu12/math-research-public/blob/50d7223ac5bd63199de5339e326e0bbb6dd7e3df/topics/visible-flex-larger-amplitude/HANDOFF.md)及其f5fd/681ff/27a0/4463/7774/e06f/5e5f/bcfbc链；全输入/结论/失败/未返保notes/results/open/log。原M160/J923/N2048/P7377、全部core/H/旋转/Gram/mean/cross/J/J*/真Phi/FullHold材料图和反射帽不删；有限筛非连续，iteration_limit非驻点。
+完整交接保[b764固定H](https://github.com/Rogerhu12/math-research-public/blob/b764ee41015f2273336bf2487d6c3047876a1445/topics/visible-flex-larger-amplitude/HANDOFF.md)及其50d/f5fd/681ff/27a0/4463/7774/e06f/5e5f/bcfbc链；全输入/失败/未知/原结论保notes/results/open/log。M160/J923/N2048/P7377、全部core/H/旋转/Gram/mean/cross/J/J*/真Phi/FullHold材料图和反射帽不删；有限筛非连续，iteration_limit非驻点。
 
 raw保留：[前24次](notes/2026-11-20-resume-raw-retention.md)、[25次R87](notes/2026-11-27-legacy-R87-cell011-and-final-retention.md)、[26次八旧domain清单](notes/2026-11-27-legacy-domain-manifests-retention.md)；完整源/真参数/父输入/原结论/固定恢复全保，不造新值。Python3.12.14/NumPy2.3.5/SciPy1.17.0/单BLAS；SO3 CPUtorch2.5.1/float64。原共同来源在[独立运行](notes/2026-11-26-independent-public-nonlinear-continuation.md)，[队列完整归档](notes/2026-11-26-complete-followup-parameter-archives.md)保全部旧参数；未返步骤不归档冒完成。
 
@@ -21,25 +21,25 @@ raw保留：[前24次](notes/2026-11-20-resume-raw-retention.md)、[25次R87](no
 
 旧03b/03/02/04/05全部输入、地点、方向/失败、μ、范数/预算/来源保50d固定H及notes/open；R697/R702/R705不重做。02止49/50未跑，01止77、旧03 stage7未知。[04终态](notes/2026-11-26-run04-terminal-job-with-admitted-pair-unreturned.md)仅1–49完整返，50已启取消；[05终态](notes/2026-11-26-run05-terminal-cancelled-with-seed19-unreturned.md)仅1–18完整返，19已启未知/20未返，不冒空新历史。04最后a801及05最后f1e5/normal失败全归因在固定H；旧direct九history ready仍未准入。
 
-[06全PCG源/参数](notes/2026-11-26-run06-complete-regeneration-and-current-PCG-request.md)/[归档与十步准入](notes/2026-11-27-run06-returned-parameter-archives-and-complete-current-PCG-admission.md)保完整父链、四history、8A+8A*/C/PhaseI/SOC，μ只读新第四父；仅归档已返29–35。[actual38](notes/2026-11-27-run06-actual38-complete-deep-scalar-return.md)两接受但64未驻；[actual39](notes/2026-11-27-run06-actual39-four-restorations-with-positive-reach-residual.md)真d466→df925/8c100，四restore接受、metric0，g=2.43247e−10仍正/Kprod=.992000000243，Phi=.00686033254略增；2769/2744全known/双号，原0f严格内点后继保，不冒可行或连续证明。
+[06全PCG源/参数](notes/2026-11-26-run06-complete-regeneration-and-current-PCG-request.md)/[完整参数归档](notes/2026-11-27-run06-returned-parameter-archives-and-complete-current-PCG-admission.md)保全父链/四history/8A+8A*/PhaseI/SOC。[38](notes/2026-11-27-run06-actual38-complete-deep-scalar-return.md)两接受但64未驻；[39](notes/2026-11-27-run06-actual39-four-restorations-with-positive-reach-residual.md)四restore后g仍正；[40真返](notes/2026-11-27-run06-actual40-interior-restoration-and-accepted-metric-direction.md)df925→75f0/e62，一restore及一metric接受、g=−5.35015743e−9、Kprod=.99199999465，Phi=.00683704255/max=.03685242646。2813/2780全known/双号、μ=.01保；有限几何通过但无连续/驻点证书，四history与PCG续实际父。
 
 ## 已刊工具与未付目标
 
 [R716](results/R716-asymmetric-fixed-caps-and-centred-volume-moment.md)已证任意固定帽的完整重心补偿Beff=B2−b1²/V；当前R661 p4其实部≥747π/80000000000>0，不改帽/g。真实完整A2≠0即可用π/4或π/2排含反射全等，并消费R625定量界；不要求新SO3无平面开片。当前A2、同场闭嵌入/法向管仍未返，不冒证书。
 
-[R709](results/R709-global-convex-mean-closure-without-contraction.md)完整凸均值正根/两角jet已证；[原固定seed九全源入口](notes/2026-11-26-fixed-supported-unit-reference-normal-SO3-entry.md)已排05，全部九历史/原全变量/m32保，未返首场；均值J不迁证normal Cu。
+R709完整凸均值正根/两角jet已证，均值J不迁normal Cu；原seed九源、全历史/变量/m32及旧未返责任保上述固定H和完整notes。
 
-[R700](results/R700-integral-so3-full-sixjet-control.md)限固定M/正rho，旧QR49a1限234ac/7f未跑。[新场全时连续几何合同](notes/2026-11-27-new-envelope-full-phase-continuous-geometry-contract.md)明确原hΔ全六jet、同D+/K/支撑/握持共读：R248仅活动像归约，固定R661帽需同A的R650或全mixed pair；旧6077无平面证明不能迁。有限E/帽标量不冒完整装配或连续证书，全部真实费用/精化仍欠。[共同β参数](notes/2026-11-27-same-field-positive-support-parameter-consumer.md)/[完整有理consumer](notes/2026-11-27-complete-same-field-support-parameter-executable-interface.md)e0b44已刊：全原胞/默认整角sweep、全局β及帽/K预算，闭边界允许；减域证据不能覆盖八必需角色，同路径绑定不可改。只核准确代数，外部六jet/全局证明另付；无实际输入/证书、不作求解门。
+R700限固定M/正ρ，旧QR未跑。[全时连续合同](notes/2026-11-27-new-envelope-full-phase-continuous-geometry-contract.md)保完整hΔ六jet、同D+/K/支撑/握持：R248只归约活动像，固定p4帽仍需同A的R650或全mixed pair，旧6077无平面不迁。[β论文](notes/2026-11-27-same-field-positive-support-parameter-consumer.md)/[完整consumer](notes/2026-11-27-complete-same-field-support-parameter-executable-interface.md)e0b44已刊全胞整角sweep及全局β/帽/K预算，减域不覆盖八必需角色、同路径绑定不改；只核代数，准确六jet/全局证明/真实输入仍欠，不作求解门。
 
-[R710](results/R710-supported-unit-seed-complete-angular-jet-error-bounds.md)/[R713](results/R713-exact-smooth-triangle-moments-and-actual-fees.md)完整条件费用链及581fb/ded2/7596/a7f1/62cb源保已刊记录。[新E完整费用与全批调度](notes/2026-11-27-material-envelope-complete-seed-fee-adapters-and-all-batch-schedule.md)285994/ce686/3feff/ea455已独立纯再生，按118b完整参数加入07纯读后，覆盖每一实际mean批/全角字；实际失败三字段保真。600/60自然预算非完成；尚无费用真返，节点/连续角/normal/rawΔ/六jet费用仍欠，未跑plain不作门。
+R710/R713完整条件费用链及旧各入口保固定H。[新E全实际mean批费用](notes/2026-11-27-material-envelope-complete-seed-fee-adapters-and-all-batch-schedule.md)285994/ce686/3feff/ea455已刊并加入07纯读后，覆盖每批/全角字，实际失败三字段保。600/60自然预算非完成；尚无真返，节点/连续角/normal/rawΔ/六jet费用仍欠，未跑plain不作门。
 
-[R711](results/R711-smooth-triangle-central-profile-and-geometric-comparison.md)/[R712](results/R712-full-positive-radius-central-second-derivative-comparison.md)准确十二片profile与全正半径中央Fss比较已证；完整十源/旧十history ready保50d固定H，未准入不迁旧值；当前192正权/全(0,π)/m32保，不冒K/reach。
+R711/R712十二片profile及全正半径中央Fss比较已证；完整十源/旧十history未准入保固定H。当前192正权/全(0,π)/m32不变，不冒K/reach。
 
-[R714](results/R714-normal-frame-exact-zero-and-C1-reuse.md)全C1与m32责任保；[完整八源/严格继承](notes/2026-11-27-complete-detached-stage-matrix-and-history-transfer-entry.md)375059/d461/1d153/954721已刊，194966独立纯再生/37源全SHA/原科学后缀保，两计数键实修。7d950 plan未准入，须07真terminal、保全地址/typed，优先真final全变量、原reference不重选、本源初F重读。[相邻frame完整J6/J9设计](notes/2026-11-27-adjacent-normal-frame-complete-angular-matrix-design.md)已证并核真实字链，末frame另读、全active链保；新producer未实现，不冒逐字同AD或提速。
+R714全C1/m32责任保；[八完整源/严格继承](notes/2026-11-27-complete-detached-stage-matrix-and-history-transfer-entry.md)375059/d461/1d153/954721已刊，原科学后缀保、两计数键实修，7d950未准入。严格续07需真terminal/全地址typed及实际final全部变量，原reference不重选。[相邻frame全J6/J9](notes/2026-11-27-adjacent-normal-frame-complete-angular-matrix-design.md)已证，末frame另读/active全链保；完整实现及显式独立分支正在完成，未知07不冒已继承，不冒逐字AD或提速。
 
-[R715](results/R715-reference-centred-normal-sixjets-and-error-ledger.md)完整hΔ六jet/AD、真Gram/K与working Fs非单位责任保；原八源/参数见50d/681ff固定H和已刊notes，plain未跑不作门。
+R715完整hΔ六jet/AD、真Gram/K与working Fs非单位责任保；原八全源/参数见固定H和notes，未跑plain不作求解门。
 
-[06首启动失败与修复](notes/2026-11-26-run06-startup-failure-unfetchable-rules-commit.md)保45903578703规则ref fetch失败、科学未开始的实录；全部原28+十二父/三SOC及后继责任已在上方06链、50d固定H和完整notes保留，绝不借旧run填新值。
+[06首启动失败](notes/2026-11-26-run06-startup-failure-unfetchable-rules-commit.md)45903578703规则ref fetch失败、科学未启的实录保；原28+十二父/三SOC及后继全输入保上方06链/固定H，不借旧run填值。
 
 [07完整原输入](notes/2026-11-26-run07-complete-warm-reference-bootstrap.md)1–2已返，3df/e640同而carrier异；[第3旧载体真返](notes/2026-11-26-run07-actual-restored-old-carrier-and-radial-word-identity.md)整dc5/227202、cells/u/Gauss全字同，report926db/bindingaaa65。[全05来源/φ字及旧numeric-tuple去重](notes/2026-11-26-run05-all-source-material-envelope-closure.md)保完整1–18/全E角色；19未知。root选独立policy2：已知e783前缀保、全E真筛/typed分离、不冒旧protected顺序。[新完整消费者](notes/2026-11-27-complete-material-envelope-consumer-and-preserved-prefix-rows.md) c79c/7299/bd1a 和[完整入口](notes/2026-11-26-complete-material-envelope-cached-normal-entry.md)cc0a/b93a/104e/a948已加入07两个步骤，全部变量/真Phi/m32/原预算保；尚待真实新场返回，不冒连续证书。
 

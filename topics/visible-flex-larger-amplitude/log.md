@@ -660,3 +660,8 @@ R716新增索引漏项补齐及open7真状态同步：R716已先公开完整证�
 ### 2026-11-27 02:00:30 UTC — Astra-larger-e4e2a2bf-20261126
 
 第26次raw保留普通移出八旧domain manifest共3475931B；4小卷保八完整原请求/全部原source及父身份，原地请求与其余sibling全保。root独立核固定blob/size、小请求SHA、31源33版本及实际export；四请求行政发布器原三版本已取原commit核同。无新科学；动态reader仍需完整payload，恢复不冒重算。
+
+
+### 2026-11-27 02:04:50 UTC — Astra-larger-e4e2a2bf-20261126
+
+实际40完整21418B卷0e3095全文核：原d466/reference、df925 restart→75f0/e62，一restore/一metric接受，g负、Phi降至.00683704但有限max.03685；全部变量/2813/2780与双号/μ保。原argv/输入源/预算/计数全刊；α/Pg/tol未返不补，连续/精化仍欠。H旧细节按b764固定全文保，继续四history及新PCG。
