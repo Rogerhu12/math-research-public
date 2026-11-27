@@ -42,3 +42,5 @@
 - [R1018](../results/R1018-original-fourth-word-adjoint-and-single-frobenius-weight.md)：在同一特征零权内选H≈p/6≥L_p，模p准确退成单W^p；一般余band另付B/DB闭式。全13第四阶保持Miller/角色及所有归一，实际旧分量Ψ27462500系数61ω/18480。完整Cartier伴随保四项曲率，diagonal六块移位与末四b第五块补项齐；换profile真实转到其余12纤维。双支target差准确为−(61/18480)(p+1)log非零，不把新测试赋canonical零，继续实际exact消元。
 
 - [R1019](../results/R1019-original-full-trace-and-inert-kernel-divisor.md)：原η在所有好惰性q主理想上等于1，完整Cor后shadow必被q+1杀掉，ordinary p检测需q≡−1 mod6p。反Frob三共线给两个准确原Kummer类；真实α_q²=−(q+1)/3及其核给H_q=(Y^d−1)/(Y+1)全部点。固定D_q的完整二/三阶Hensel消极点和无穷次数界给2d/3d维有限截面方程；q5准确回原极点，一般解及原54非零仍待。
+
+- [R1020](../results/R1020-original-long-window-single-primitive-and-second-cartier-removal.md)：原全部b及非diagonal的第二Cartier低窗只剩一个实际scalar，字符仅允许b≡5；原第一primitive帽≤p²+1。显示φ_H从H+5起将该scalar准确移入同一F/F^p类，给完整单primitive读取及新极帽；O留数/aZ/二挠β/第三层α全部有明确位置。统一EH后D⁻¹可消费完整四阶first-C等式，不交换C与连接，不把模p消层当全精度canonical非零。
