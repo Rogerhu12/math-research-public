@@ -148,6 +148,11 @@
 - root/o1/o2全文独立纸审；H_p为零会强制新K_p单位，仍须接另一实际forced角色，不把组合单位冒写单项单位。两长run继续；H/open逐字前态归档后只压缩已付输入。
 
 
-### 2026-11-27 18:56 Asia/Taipei — Astra-serre-24b8836b-20261126
+### 2026-11-27 18:55 Asia/Taipei — Astra-serre-24b8836b-20261126
 - R1113给原theta核的p维完整有限Lamé谱、真Gram及jet边界；审稿发现旧候选漏掉二阶Ψ²项，正式稿已更正，K4全部三项保留。
 - 同原余核递推精确支付η_k与半段Dixon的比例及显式单位g0；root/o1/o2核准确源及标度，不以半单性或完整反对称和代短障碍。未发布旧候选，继续原ν和相同forced角色。
+
+
+### 2026-11-27 19:04 Asia/Taipei — Astra-serre-24b8836b-20261126
+- R1115给原非整j全部局部分支的同cusp精确iff、width-p分母及真实Frobenius并集；保ℓ−1整支与一般p只forced-good W的范围。
+- p47完整十角色每cusp秩10，全部235候选存在共同排cusp且十圆单位非零的正密度辅助素；仍不排affine点或全局分母。root/global/o2核原整模型、Hensel、Galois方向与Bernoulli五值，无新执行；两长run及一般p短障碍继续。

@@ -6,11 +6,11 @@
 
 会话 **Astra-serre-24b8836b-20261126**。本轮已部分克隆并真实pull main，读两README/H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则读至36cf1ed2。不重做已登记结论或窗口。
 
-**公开两README已读提交：4932fd35d30d9df98565cee24327c95afc2bd76a**（2026-11-27 18:54 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
+**公开两README已读提交：92aa1c436a122acb8ddc22c8fe6cf3398922a8d4**（2026-11-27 19:04 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
 
 已真实部分克隆/pull；18:18再试pull仍报无可用执行环境，shell未运行；按根规矩8用连接器小文本同步、读两README差异、带expected_sha非force提交，恢复后立即pull --rebase。拒绝即同步重基再推至成功。令牌仅CLI；根维护main/H/open/index/log，子研究独立稿，每条结论立即推。global_route的V8执行偏差已叫停并独立纸核，详[记录](notes/2026-11-26-execution-path-deviation-and-correction.md)，其输出不作证明/合规窗口。
 
-H<10KB、open尽量<30KB、每MD<100KB、topic<200MB；无可重算raw、不写根LOG。[最新逐字前态](handoff-archive-2026-11-27-before-original-mixed-coefficient.md)沿链保全部旧来源/run/hash；[open](open.md)、[索引](results.md)是完整入口。历史“R1003 norm3准备中”未交付，现R1003为范围纠错。
+H<10KB、open尽量<30KB、每MD<100KB、topic<200MB；无可重算raw、不写根LOG。[最新逐字前态](handoff-archive-2026-11-27-before-denominator-Frobenius.md)沿链保全部旧来源/run/hash；[open](open.md)、[索引](results.md)是完整入口。历史“R1003 norm3准备中”未交付，现R1003为范围纠错。
 
 ## 原高度来源与范围
 
@@ -24,11 +24,13 @@ R1063：全Hecke族消MW及真辛商，最低两jet行列式仍开。R1058：原
 
 [R1112](results/R1112-original-simultaneous-cuspidal-Frobenius-selection.md)：原全部good圆单位同时非零的辅助素密度=(1−1/p)^d/(p−1)，split-K中>1/2；可附加真p互素Galois分裂条件，整个global标签localization同构。未付有效最小素或同点曲线像排除。 §8还付原full47八CM普通、三实际Hecke域全split与十圆单位非零可同素满足；不付该素的高度/log单位。
 
+[R1115](results/R1115-original-cuspidal-nonintegral-j-branches-and-denominator-Frobenius.md)：原非整j局部分支精确由同一cusp的Kummer-annihilator Frobenius并集判别，−1modp整支仍相容；候选非零坐标给无条件秩下界。p47完整V每cusp秩10，235候选可被同素共同排除全部cusps且保圆单位非零，但affine像/分母全局排除仍开。
+
 [R1074](results/R1074-certified-original-p47-eight-CM-disks.md)/[R1086](results/R1086-certified-original-p47-ell4513-same-CM-transfer.md)：原235盘只余八Q-CM标签，283全279和4513全5453标签均注入；4513 run45938730258付同CM转移。全scalar/twists/cusps/R36零项和坏47 whole-Cp tube支撑已付；八盘内部唯一仍开。
 
 原full47已付输入（完整源/run见[索引](results.md)及前态）：R1080/81/89无条件rank=dim=ρQ=73、q4513整T与Bq unit、Φ47指数46；R1090/93原95/73来源及Gaussian全28块首log unit，M=T Bqu4；R1078/87/88双CM整生成；R1096 moving units与Hodd、R1101固定73奇基det3946；R1094/97–99全局高度的完整2/47/奇好来源，R1100 Γ1=818。只消费旧输入，不重跑。
 
-[R1102](results/R1102-certified-original-level47-complete-first-global-height.md)：run45962228077/job140382522990，1838.859秒，全部73个原基高度齐备；28块全unit，Norm(κ/a)=2992，det(q⁻¹h)=3972 mod4513，原16个log系数已读。n1/143直接消费，只新算71值；不推八盘唯一。
+[R1102](results/R1102-certified-original-level47-complete-first-global-height.md)：run45962228077/job140382522990已付全部73高度、28块unit，Norm(κ/a)=2992、det3972。原完整源/hash及16系数保索引，n1/143未重算。
 
 [R1104–06](results.md)已认证原L≤5/836jets与degree167可分pencil、八CM×16切向全unit及全部23角的真实73维作用；ZA/ZB生成整T。run45964526314/45968484065/45969880122，原source/hash、coarse/tag、FLINT隔离和id196普通25项链更正保索引及前态。只消费，整代数生成不代QC行秩。
 
@@ -58,9 +60,9 @@ R1063：全Hecke族消MW及真辛商，最低两jet行列式仍开。R1058：原
 
 [R1092](results/R1092-original-six-three-torsion-Cartier-values.md)：原FM截面在其余六三挠点的值精确为aH_p(432)=−a_p(Y²=X³−9X+9)；原étale商/微分/twist全付，2-division Q(ζ9)⁺给p2/5mod9单位。原H_p(0)、H_p′(0)及短η/ν仍开，继续真三分布。
 
-[R1109](results/R1109-original-Dixon-first-divided-Gross-Koblitz-layer.md)：原Dixon函数1−p的完整模p²/首除层已证；保全部三块λ1、Wilson/harmonic carry及原有理U0。与短η/ν的准确比较仍开。
+[R1109](results/R1109-original-Dixon-first-divided-Gross-Koblitz-layer.md)：原Dixon完整模p²首除层及三λ1块/carry已付；第一短系数比例现见R1113，ν比较仍开。
 
-[R1111](results/R1111-original-p-block-common-factors-and-canonical-rational-map.md)：原r2规范p-block公因子恰M D (b³−1)^(2ε)，其中ε=1 iff原f_N=0；清除后真映射全部分歧已付，三CM指数ell+1−2ε。尚未排ε=1，不代bare范数。
+[R1111](results/R1111-original-p-block-common-factors-and-canonical-rational-map.md)：原规范p-block公因子、清除后全部tame分歧已付；f_N=0恰三CM指数ell−1，尚未排此支，不代bare。
 
 [R1114](results/R1114-original-Gaussian-adjacent-mixed-coefficient-unit.md)：原Gaussian W=F⁶G的相邻系数满足5W_n+4W_(n−1)=144a(−a)^−k/δ³单位；原尺度给5H_p+(8a²/45)K_p=16G_(p−3)，故H_p=0时K_p=36/(aδ³)单位。K_p为同源混合系数，至另一真实forced标签的桥仍开，未单证H_p单位。
 
