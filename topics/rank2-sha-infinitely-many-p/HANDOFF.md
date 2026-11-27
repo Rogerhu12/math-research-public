@@ -6,7 +6,7 @@
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。固定有限曲线族联合无穷非零可用无限鸽巢；有限p、随p换曲线、条件桥、接口或单独投影非零不完成。
 
-- 公开根/课题 README 已读至 `5562ca421364688be9d5b3818c51cc1beb0b61b2`（API差异空；最近确认实际pull为02:45UTC）；每次pull只读新差异，至少每小时同步并记SHA。
+- 公开根/课题 README 已读至 `6a01e07484d6d2c6832c472f37767364b3cc34dc`（API差异空；最近确认实际pull为02:45UTC）；每次pull只读新差异，至少每小时同步并记SHA。
 - 两仓库已部分克隆。私库QUEUE接手提交41fe885610073f478b2f5a752461ca56cfd43f09已推；02:41UTC实际pull至b3d0029ecb318be56170fc764cad50ee2c7d4d42；04:26UTC API逐文件核至a4f3ff79494e88cc61bd186622d6dd00813b0937，两README逐文件差异空、QUEUE仍本会话进行中。令牌只进程认证。
 - root独占git/H/open/log/index；每条结论即推，非快进立即pull --rebase/读README差异/再推至成功，不强推。数学只用公开Actions；不存可重算输出。H<10KB、每MD<100KB。
 - [此次完整逐字归档](notes/2026-11-27-handoff-before-three-word-connection.md)及其历史链保全部旧式/回执/未解门；[open](open.md)、[results](results.md)、[R1001–1050索引](notes/PROOF-INDEX-R1001-R1050.md)及前卷为接续入口。
@@ -50,7 +50,7 @@ R988/990原CM17K3在2全平移trace零，不重试。R991/994原I9/I3、full9/T=
 
 R1014从实际degree1射影族/四Weil中心完整解消及自给period证明支付已发表HYZ B：原S所有充分大q的Tate，未知q0未冒全q。惰性NS−q²、MW(q/3)A2、Frob−bar及两Br0；原54图全η/Cor/P−转置交式保持。
 
-R1017原q5完整Q、高10/3、全MW=(5/3)A2及54图倒6零shadow已付；真实run45929764445/job140279423830/source72b66100a3bd20ae115ba77a4d0c4b025232d3b9、stdout2444B/SHA27af604e…7b423d，不重跑。q11两完整固定输入D_q和3P6均2662对无解：分别run45934797848/source1ac50c6e…1a8ee1、run45936278912/source89a46423…9a43e。仅排各极除子；全部job/hash/原坐标/重数证明在两输入笔记及归档，不外推一般无截面。
+R1017原q5完整Q、高10/3、全MW=(5/3)A2及54图倒6零shadow已付，完整回执见原笔记，不重跑。q11两完整固定输入D_q和3P6均2662对无解：分别run45934797848/source1ac50c6e…1a8ee1、run45936278912/source89a46423…9a43e。仅排各极除子。全盖实际C⁺=δC=−3B(Fq)加原−T标记给新D⁺；q11 H=Y³+2Y²+9Y+10、J₁=4Y²+3的完整2662对已交公开待回执。全部新旧input/source/job/hash在对应笔记，不扫平移、不外推一般无截面。
 
 R1019原全η/忠实18次H及Cor后shadow被q+1杀，ordinary检测必q≡−1mod6p。反Frob trace0、W=Mx+N和两个准确Kummer类已付；αδ=F−1、δα=−F−1、α²=−d、C=δB(Fq)。D_q由H=(Y^d−1)/(Y+1)及唯一X分支给出；完整2d/3d维RR和二/三阶Hensel闭式、D_BU=L、D_BH=[1+(1−2Y)H]/X均保。原有限降维存在性及54非零未付；两q11负输入后已换真实公共盖。
 
