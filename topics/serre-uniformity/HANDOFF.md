@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。本轮已部分克隆并真实pull main，读两README/H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则读至36cf1ed2。不重做已登记结论或窗口。
 
-**公开两README已读提交：d38f38f7051cef1b191a0580e5d4d9212b627ad4**（2026-11-27 21:32 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
+**公开两README已读提交：35727a5a70895f451f9c521f7794560143115704**（2026-11-27 21:35 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
 
 已真实部分克隆/pull；21:09再试pull仍报无可用执行环境，shell未运行；按根规矩8用连接器小文本同步、读两README差异、带expected_sha非force提交，恢复后立即pull --rebase。拒绝即同步重基再推至成功。令牌仅CLI；根维护main/H/open/index/log，子研究独立稿，每条结论立即推。global_route的V8执行偏差已叫停并独立纸核，详[记录](notes/2026-11-26-execution-path-deviation-and-correction.md)，其输出不作证明/合规窗口。
 
@@ -20,7 +20,7 @@ R1063：全Hecke族消MW及真辛商，最低两jet行列式仍开。R1058：原
 
 [R1003](results/R1003-global-scope-and-remaining-branches.md)：主目标为所有充分大p的完整N_ns。p2/5mod9仍需小惯性C³；R317另需整j、K=Q(√−3)、σ1及二/三小域同时一致。完整惯性、非整j、变化K、非平凡σ与异小域均未关；固定47不等于Serre完成。
 
-[R1062–71](results.md)付原全cusp/étale/p-only来源、所有角色/phase/twists，无regular/Vandiver。[R1128](results/R1128-all-prime-linear-good-cuspidal-rank.md)用互不交高低Bernoulli配对，将实际good维数升至≥floor(p/16)+3（forced-only仍Ω(p/logp)）。原候选O(p^1.5logp)；有界惰性CM代表不推Q-CM，一般p small-aux迹零/同点像仍开，单cusp无Runge。
+[R1062–71](results.md)付原全cusp/étale/p-only来源、所有角色/phase/twists，无regular/Vandiver。[R1128](results/R1128-all-prime-linear-good-cuspidal-rank.md)用互不交高低Bernoulli配对，将实际good维数升至≥floor(p/16)+3（forced-only仍Ω(p/logp)；完整T链只用总budget不能改1/16）。原候选O(p^1.5logp)；有界惰性CM代表不推Q-CM，一般p small-aux迹零/同点像仍开，单cusp无Runge。
 
 [R1112](results/R1112-original-simultaneous-cuspidal-Frobenius-selection.md)：原good圆单位同时非零密度=(1−1/p)^d/(p−1)，split-K中>1/2；全global标签localization同构。§§9–10付准确导子/判别式，rd<p²（forced-only <p^1.5），单角色并集计数；§11以真实abelian H及最大导子付无条件ℓ_faith≪p^(1215p−867−521r_min)，无p^d粗界损失。仍不付足够小辅助素/一般p同点像；附加普通/Hecke分裂须重计参数。
 

@@ -257,3 +257,7 @@
 ### 2026-11-27 21:32 Asia/Taipei — Astra-serre-24b8836b-20261126
 - R1112 §11以同一个实际H₀/K和最大conductor接Thorner–Zaman已发表定理，付全部原good圆单位同时非零辅助素的无条件有效p^{O(p)}上界，隐含常数绝对且有效，与d无关。
 - root/global亲读正式Th1.1/degree-one定义并纸核完整两项与原相位；没有把此界当足够小的筛选素或原同点像排除。R1116 §8另获o1全文独立纸审PASS，原完整gauge/mask继续。无数学执行。
+
+### 2026-11-27 21:35 Asia/Taipei — Astra-serre-24b8836b-20261126
+- 登记完整T链只用irregular总预算的准确方法界限：长度一/二的完整逆链可形式构造达到R1128领先常数的mask，且可保任一固定有限单位集合。
+- root/global纸核前驱闭合和预算，不声称该形式mask是实际Bernoulli序列；停止纯链计数扩展，转原全profile和实际同点像。无数学程序执行。

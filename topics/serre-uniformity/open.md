@@ -12,7 +12,7 @@
 
 [R1003](results/R1003-global-scope-and-remaining-branches.md)：主目标为所有充分大p的完整N_ns。p2/5mod9仍需小惯性C³；R317另需整j、K=Q(√−3)、σ1及二/三小域同时一致。完整惯性、非整j、变化K、非平凡σ与异小域均未关；固定47不等于Serre完成。
 
-[R1062–71](results.md)付原全cusp/étale/p-only来源、所有角色/phase/twists，无regular/Vandiver。[R1128](results/R1128-all-prime-linear-good-cuspidal-rank.md)用互不交高低Bernoulli配对，将实际good维数升至≥floor(p/16)+3（forced-only仍Ω(p/logp)）。原候选O(p^1.5logp)；有界惰性CM代表不推Q-CM，一般p small-aux迹零/同点像仍开，单cusp无Runge。
+[R1062–71](results.md)付原全cusp/étale/p-only来源、所有角色/phase/twists，无regular/Vandiver。[R1128](results/R1128-all-prime-linear-good-cuspidal-rank.md)用互不交高低Bernoulli配对，将实际good维数升至≥floor(p/16)+3（forced-only仍Ω(p/logp)；[完整T链预算界限](notes/2026-11-27-good-character-chain-budget-boundary.md)不代实际Bernoulli额外约束）。原候选O(p^1.5logp)；有界惰性CM代表不推Q-CM，一般p small-aux迹零/同点像仍开，单cusp无Runge。
 
 [R1112](results/R1112-original-simultaneous-cuspidal-Frobenius-selection.md)：原good圆单位同时非零密度=(1−1/p)^d/(p−1)，split-K中>1/2；全global标签localization同构。§§9–10付准确导子/判别式，rd<p²（forced-only <p^1.5），单角色并集计数；§11以真实abelian H及最大导子付无条件ℓ_faith≪p^(1215p−867−521r_min)，无p^d粗界损失。仍不付足够小辅助素/一般p同点像；附加普通/Hecke分裂须重计参数。
 
