@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [整个 Q=1−u 边界的原排除](results/R150-appendix-unit211-Q1minusU-complete-original-exclusion.md)：三个新 QQ 局部重数244/3/3、253度可除因子和1129度首一余式，结合全精确权域及严格 Gauss 返回排空整边界；一般 LS 可付 u+Q−1。
+
 - [全一般LS的原单位组合与A[t]三生成元](results/R150-appendix-unit211-general-LS-global-three-generators-over-t-and-original-unit-combination.md)：c_n−g_n精确已付单位，完整原规则真单首一降x/y次数；1,x,y全图生成且t不倒置，保全部原值与有限纤维。
 
 - [原真实全终列预算与同forcing固定方差窗真核费用](results/R271-appendix-actual-terminal-compatible-tower-and-fixed-variance-window-energy.md)：逐高度Bernoulli插入界626支付到L=h−1，完整Gram给原误差≤q_C(S)−q_C(S/2^22)；moving-head窗口及原lift继续。

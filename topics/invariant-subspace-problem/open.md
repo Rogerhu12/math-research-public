@@ -49,7 +49,7 @@ rankH3单三jet的全部ess6已闭，末非零Hp原Gaussian/最高/normal给左�
 
 [H非零最高次全分类](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-H-nonzero-highest-weight-cover-and-quadratic-fiber-exclusion.md)与[整个u=Q原返回](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-u-equals-Q-complete-original-exclusion.md)已支付H、u−Q；C9、u半与整图三次覆盖现见下方更新。旧180秒参数cofactor、76.992秒展开trace及F3/F95未决门全部冻结，精确失败保归档，不重跑。
 
-**[Q=1−u三个新精确权域已完整排除](results/R150-appendix-unit211-Q1minusU-three-exact-weight-domain-exclusions.md)：** ell+u、2ell−u、ell²−3uell+u²现可付；同一原C/D的QQ/整二次域Bézout均1（86e0c4e，25.508秒/exit0）。原完整R的三phi模重数为244/3/3，不是旧g222的214/2/3。首次三项native QQ证书7f4f00a1/b5e0a9a7/f635013e分别付真实可除性；待成功后原1382首一余式剥253度余1129，与旧g222严格Gauss合成。整Q尚未宣闭，66及旧失败输入冻结。
+**[整个Q=1−u边界已完整原排除](results/R150-appendix-unit211-Q1minusU-complete-original-exclusion.md)，一般LS全局可付u+Q−1。** 原58阶三个新QQ局部证书给准确重数244/3/3；含二次域完整正规核及两个模根各重数3。剥253度得1129首一局部整余式，与既有g222及三个整域原排除作严格Gauss矛盾。三次真执行10.330/7.880/7.722秒、内部exit0；已完成证明直接登记，旧66不缩小/旧大门冻结。接新Phi0整面及一般A[t]三生成元原值返回，不重开整Q。
 
 **[整个一般等权b=c原支已闭](results/R150-appendix-unit211-equal-weights-complete-original-exclusion.md)。** 全部旧边界、全图六生成元、原824次QQ覆盖及F236/F243完整原Gauss返回合最后整m=−1/2的原QQ Bézout1，排全部复参数；负半权源5063af65实跑0.315秒/exit0。一般余图现可付ell−u，在W0中进一步付k+2、Q−2。旧QQ600秒门保持冻结；不重做等权，直接继续一般不等权的原NSPS/Dval与全部未付零面。
 
