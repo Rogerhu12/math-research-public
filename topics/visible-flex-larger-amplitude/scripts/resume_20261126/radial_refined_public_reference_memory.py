@@ -1,0 +1,917 @@
+#!/usr/bin/env python3
+"""Complete material envelope for the genuine public run09 fixed target.
+
+The target is defined by the entire genuinely returned current scalar/model/reference
+and all 160 literal fixed chart words before any field evaluation. Actual chart-word
+equality is kept distinct from an unclaimed mathematical target relation; no old
+field values or certificates are reused. Complete old/current
+material address obligations are retained and interpreted in the new phi0 chart.
+
+The full old/current material grids are implicit permanent nonlinear memory.
+Known historical roles and protected rows are retained explicitly. Unknown old
+roles/order are NOT reconstructed: every implicit point is potentially protected,
+and a new typed separation policy is declared. This module's validators use only
+the standard library. Actual carrier reads/history assembly require public Actions.
+"""
+import ast
+import copy
+import hashlib
+import importlib.util
+import json
+import math
+import os
+from pathlib import Path
+import struct
+import sys
+import zipfile
+
+SCHEMA = 'complete-radial-refined-public-run09-material-envelope-memory-and-typed-policy-v1'
+SCAN_SCHEMA = 'complete-radial-refined-public-run09-material-envelope-same-point-scan-v1'
+DEFINITION_SCHEMA = 'literal-old-reference-fine-grid-public-run09-working-policy-v1'
+BINDING_SCHEMA = 'material-envelope-actual-public-run09-fixed-target-binding-v1'
+RADIAL_ADDRESS_SOURCE_SHA256 = '6c77349921ccfdfa765e720a330e584abba96d65c4566d9a4286df072428e716'
+RESTORER_SHA = '9e3d0590c6d37eb07da094128df9e3b82fc03a7e9cf784cea1831b4ab0d39a18'
+INDEPENDENT_FIXED_TARGET_PRODUCER_NAME = 'freeze_run09_public_reference_and_restore_run05_carrier.py'
+HISTORY_SHA = '4d9dd319052d4e503e881c1a9f404501c0bb2f26dfb859cd836210f2a624bf60'
+PREPARATION_SHA = '4e65577dc6b17ff4cd8256583eb9adf8b32d31deb84beb8b7ccc400e626205b3'
+ORIGIN_CARRIER_SHA = 'dc5ffc55ecc4478d265bbad6e8f2abcf672709d99365e14ead01478a4042e7d0'
+ORIGIN_CARRIER_BYTES = 227202
+ORIGIN_WARM_SHA = '3df37dd362a1c700eaa86eece3d0b9a17524068c2a78fe0bebb1e96f1d09518c'
+ORIGIN_PARAMETERS_SHA = 'e640aec831df350fa69740650b723a7d2d55676ca64ffb5ddabbacb3ab7d6dfa'
+ORIGIN_MESH_SHA = 'eff967897039ec740c9aca49620253f27fb46d93cd8c59f4ed4759781ef88262'
+ORIGIN_CHART_SHA = '90e6cf8a5794bf6d61c2180c6e0549df74ac883457228af1e6ccfd34544f082e'
+CURRENT_FIXED_CHART_SHA = '90e6cf8a5794bf6d61c2180c6e0549df74ac883457228af1e6ccfd34544f082e'
+CURRENT_REFERENCE_MODEL_SHA = 'd4494b14955535635b8b72b1ed3278fa8f60186d4ef7df5687ca3de5566c2f75'
+FIXED_TARGET_SCHEMA = 'independently-frozen-actual-public-run09-scalar-and-material-chart-v1'
+ORIGIN_P0 = {
+    'curvature_points': {'count': 1250, 'sha256': '0d18c105c0899f463979a1a99b28c7c74cc26dd3f3132ad58bae8803374ba9a8'},
+    'radius_points': {'count': 208, 'sha256': '1758d6f5c7376dacf573d8495f576e62d06277f0b3be158e7b7b444def79d471'},
+    'protected_curvature_points': {'count': 18, 'sha256': '4959a1e7725524fee90517420406f6d3c1e1d12c1ca2255967d5b6056b43872a'},
+}
+SEED_NAMES = ('legacy_memory','restore_grid','restore_local','witness_positive','witness_lowphi',
+    'full13_curvature','full13_radius','r17_grid','r17_local','r17_fixed','continue_union')
+FAMILIES = ('reach','body_diameter','distance_plus','distance_minus','cap_diameter','height_floor')
+
+
+def require_actions():
+    if (os.environ.get('GITHUB_ACTIONS') != 'true'
+            or os.environ.get('GITHUB_REPOSITORY') != 'Rogerhu12/math-research-public'):
+        raise RuntimeError('Actual envelope/history consumption requires public repository Actions')
+
+
+def sha(path):
+    h = hashlib.sha256()
+    with Path(path).open('rb') as stream:
+        for block in iter(lambda: stream.read(1 << 20), b''):
+            h.update(block)
+    return h.hexdigest()
+
+
+def canonical(value):
+    return hashlib.sha256(json.dumps(value, sort_keys=True, separators=(',', ':'),
+        allow_nan=False).encode()).hexdigest()
+
+
+def file_record(path):
+    path = Path(path).resolve()
+    return dict(path=str(path), sha256=sha(path), bytes=path.stat().st_size)
+
+
+def _digest(value, label):
+    if not isinstance(value, str) or len(value) != 64 or any(c not in '0123456789abcdef' for c in value):
+        raise ValueError('Missing actual SHA256: '+label)
+    return value
+
+
+def definition(near_active_rows=32):
+    if isinstance(near_active_rows, bool) or int(near_active_rows) != near_active_rows or near_active_rows < 1:
+        raise ValueError('At least one explicit new near-active working row is required')
+    return dict(schema=DEFINITION_SCHEMA, source_sha256=sha(__file__),
+        exact_binary64_material_locations=True,
+        historical_origin_carrier_sha256=ORIGIN_CARRIER_SHA,
+        old_and_current_complete_grid_union=True,
+        implicit_grid_permanently_has_both_curvature_branches=True,
+        implicit_grid_permanently_has_radius_and_both_witness_signs=True,
+        scalar_cap_and_height_rows_retained=True,
+        all_implicit_locations_potentially_protected=True,
+        entire_envelope_including_explicit_p0_potentially_protected=True,
+        unknown_historical_protected_flags_or_order_reconstructed=False,
+        unknown_historical_role_promotions_reconstructed=False,
+        known_explicit_protected_prefix_preserved=True,
+        original_192_selector_retained_on_known_explicit_memory=True,
+        additional_current_near_active_rows=int(near_active_rows),
+        discovered_typed_separation_rows_have_no_eviction_or_count_cap=True,
+        new_typed_rows_use_complete_current_parameter_pullback=True,
+        original_nonlinear_acceptance_thresholds_unchanged=True,
+        original_full_free_space_norm_and_objective_formula_unchanged=False,
+        complete_original_free_variables_and_all_new_radial_jets_retained=True,
+        fixed_target_and_full_objective_formula_unchanged=True,
+        current_discrete_norm_and_positive_row_rule_explicitly_refined=True,
+        original_J923_indices_resolved_before_exact_dyadic_transfer=True,
+        reference_J=923,current_J=1845,current_native_grid_and_all_old_grids_preserved=True,
+        historical_fixed_chart_sha256=ORIGIN_CHART_SHA,
+        independent_fixed_chart_sha256=CURRENT_FIXED_CHART_SHA,
+        actual_public_input_run_id='45943410994',actual_public_input_run_attempt='1',
+        same_mathematical_g_not_claimed_does_not_mean_unequal=True,
+        complete_independent_fixed_target_schema=FIXED_TARGET_SCHEMA,
+        complete_target_definition_and_actual_current_files_required=True,
+        target_fixed_before_any_current_field_evaluation=True,
+        historical_angles_reinterpreted_as_new_fixed_chart_phi0=True,
+        same_historical_physical_points_claimed=False,
+        same_original_fixed_chart=True,same_mathematical_g_claimed=False,
+        old_values_or_scientific_certificates_inherited=False,
+        unresolved_parallel_history_remains_an_explicit_obligation=True,
+        full_grid_coverage_is_not_a_continuous_geometry_certificate=True)
+
+
+def npy_member(archive, name):
+    raw = archive.read(name+'.npy')
+    if raw[:6] != b'\x93NUMPY' or len(raw) < 10:
+        raise ValueError('Not a complete literal NPY member: '+name)
+    version = tuple(raw[6:8])
+    if version == (1, 0):
+        length, start = struct.unpack('<H', raw[8:10])[0], 10
+    elif version in ((2, 0), (3, 0)):
+        if len(raw) < 12:
+            raise ValueError('Truncated NPY header')
+        length, start = struct.unpack('<I', raw[8:12])[0], 12
+    else:
+        raise ValueError('Unsupported NPY version')
+    end = start+length
+    if end > len(raw):
+        raise ValueError('Truncated NPY header payload')
+    header = ast.literal_eval(raw[start:end].decode('utf-8' if version == (3, 0) else 'latin1'))
+    if (not isinstance(header, dict) or set(header) != {'descr', 'fortran_order', 'shape'}
+            or header['fortran_order'] is not False or not isinstance(header['shape'], tuple)
+            or any(isinstance(v, bool) or not isinstance(v, int) or v < 0 for v in header['shape'])):
+        raise ValueError('Require the complete C-order literal array')
+    descriptor, shape, data = header['descr'], header['shape'], raw[end:]
+    if descriptor in ('<f8', '<i8'):
+        width = 8
+    elif isinstance(descriptor, str) and descriptor.startswith('<U') and descriptor[2:].isdigit():
+        width = 4*int(descriptor[2:])
+    else:
+        raise ValueError('No object arrays or changed binary64 dtype')
+    if len(data) != width*math.prod(shape):
+        raise ValueError('Complete NPY shape and payload differ')
+    return descriptor, shape, data
+
+
+def _array_sha(dtype, shape, data):
+    h = hashlib.sha256(dtype.encode())
+    h.update(json.dumps(list(shape)).encode())
+    h.update(data)
+    return h.hexdigest()
+
+
+def _member(archive, name, dtype, shape):
+    d, s, b = npy_member(archive, name)
+    if d != dtype or s != tuple(shape):
+        raise ValueError('Changed complete carrier member: '+name)
+    code = '<d' if dtype == '<f8' else '<q'
+    values = tuple(v for (v,) in struct.iter_unpack(code, b))
+    if dtype == '<f8' and not all(math.isfinite(v) for v in values):
+        raise ValueError('Nonfinite actual carrier word')
+    return values, b
+
+
+def read_carrier(path, expected_sha=None):
+    require_actions()
+    before = file_record(path)
+    if expected_sha is not None and before['sha256'] != expected_sha:
+        raise ValueError('Actual whole carrier differs from its declared source')
+    with zipfile.ZipFile(path) as archive:
+        cells, cb = _member(archive, 'observation_cells', '<i8', (7377,))
+        local, ub = _member(archive, 'observation_u', '<f8', (7377,))
+        gauss, gb = _member(archive, 'observation_gauss_unit_nodes', '<f8', (6,))
+        mesh, mb = _member(archive, 'mesh', '<f8', (923,))
+        legacy, _ = _member(archive, 'observation_legacy_count', '<i8', ())
+        order, _ = _member(archive, 'observation_order', '<i8', ())
+    if legacy != (1845,) or order != (6,) or len(set(v.hex() for v in gauss)) != 6:
+        raise ValueError('Retain all original legacy and six Gauss carrier entries')
+    if any(not 0 < v < 1 for v in gauss) or any(a >= b for a, b in zip(mesh, mesh[1:])):
+        raise ValueError('Invalid actual full material carrier')
+    expected = []
+    for j in range(923):
+        expected.append((min(j, 921), 1. if j == 922 else 0.))
+        if j < 922:
+            expected.append((j, .5))
+    expected.extend((j, value) for j in range(922) for value in gauss)
+    words = [(c, u.hex()) for c, u in zip(cells, local)]
+    if words != [(c, u.hex()) for c, u in expected]:
+        raise ValueError('The entire actual plan differs from the complete original unsplit plan')
+    after = file_record(path)
+    if before != after:
+        raise ValueError('Carrier changed while its complete literal addresses were read')
+    return dict(record=before, cells=cells, local=local, cell_bytes=cb, local_bytes=ub,
+        radial_words=words, mesh_sha256=_array_sha('float64',(923,),mb),
+        metadata=dict(record=before, complete_radial_entry_count=7377,
+            complete_unique_radial_entry_count=len(set(words)), legacy_count=1845,
+            cells_sha256=_array_sha('int64',(7377,),cb),
+            local_u_sha256=_array_sha('float64',(7377,),ub),
+            radial_words_sha256=canonical(words),
+            gauss_unit_nodes_binary64_hex=[v.hex() for v in gauss],
+            gauss_unit_nodes_sha256=_array_sha('float64',(6,),gb),
+            full_plan_closed_form_checked=True))
+
+
+def validate_public_binding(payload, *, current_input):
+    if not isinstance(payload, dict) or payload.get('schema') != BINDING_SCHEMA:
+        raise ValueError('Use the explicit complete carrier path binding')
+    old, current = payload.get('origin_carrier', {}), payload.get('current_carrier', {})
+    if old.get('sha256') != ORIGIN_CARRIER_SHA or old.get('bytes') != ORIGIN_CARRIER_BYTES:
+        raise ValueError('The actual historical whole carrier is required')
+    if current.get('sha256') != current_input['sha256'] or current.get('bytes') != current_input['bytes']:
+        raise ValueError('The path binding names another current carrier')
+    for value in (old, current):
+        if not isinstance(value.get('path'), str) or not value['path']:
+            raise ValueError('An actual runner path is required, not an invented blob address')
+    producer = payload.get('producer', {})
+    _digest(producer.get('source_sha256'), 'binding producer')
+    if (producer.get('source_sha256') != RESTORER_SHA
+            or not isinstance(producer.get('source_commit'), str)
+            or len(producer['source_commit']) != 40
+            or not producer.get('reconstruction_scope')
+            or payload.get('original_full_carrier_sha_verified') is not True
+            or payload.get('consumer_must_rehash_and_read_complete_arrays') is not True
+            or payload.get('surface_history_values_or_certificates_inherited') is not False):
+        raise ValueError('The carrier reconstruction evidence is incomplete')
+    return copy.deepcopy(payload)
+
+
+def _read_bound_json(record):
+    path = Path(record['path'])
+    raw = path.read_bytes()
+    if len(raw) != record['bytes'] or hashlib.sha256(raw).hexdigest() != record['sha256']:
+        raise ValueError('Complete provided history bytes differ: '+str(path))
+    value = json.loads(raw)
+    if sha(path) != record['sha256']:
+        raise ValueError('History changed during its actual read')
+    return value
+
+
+
+def _validate_independent_target_binding(binding, *, actual_model=None, current_carrier=None,
+        current_preparation_report=None, current_reference_bundle=None,
+        current_node_report=None, current_scalar_input=None):
+    """Recheck the complete new target and actual files with its whole producer."""
+    if not isinstance(binding,dict) or binding.get('schema')!=BINDING_SCHEMA:
+        raise ValueError('The complete independent fixed-target path binding is required')
+    value=binding.get('independent_fixed_target_binding')
+    target=binding.get('fixed_target_definition')
+    if (not isinstance(value,dict) or not isinstance(target,dict)
+            or binding.get('independent_fixed_target_binding_identity_sha256')!=canonical(value)
+            or binding.get('fixed_target_definition_identity_sha256')!=canonical(target)
+            or value.get('fixed_target_definition')!=target
+            or value.get('fixed_target_definition_identity_sha256')!=canonical(target)
+            or value.get('producer_source_sha256')!=RESTORER_SHA
+            or target.get('schema')!=FIXED_TARGET_SCHEMA
+            or target.get('definition_source_sha256')!=RESTORER_SHA
+            or target.get('current_reference_model_identity_sha256')!=CURRENT_REFERENCE_MODEL_SHA
+            or target.get('fixed_chart_core_array_record',{}).get('sha256')!=CURRENT_FIXED_CHART_SHA
+            or target.get('historical_original_chart_core_sha256')!=ORIGIN_CHART_SHA
+            or target.get('current_and_historical_fixed_chart_words_sha_equal') is not True
+            or target.get('public_input_binding_source_sha256')!='306b5f86e0d287ea0c6cf9abb0f326f0eec869640b52daa59cf76db1492e382a'
+            or target.get('same_original_fixed_chart') is not True
+            or target.get('same_mathematical_g_claimed') is not False
+            or target.get('old_field_values_or_scientific_certificates_inherited') is not False
+            or binding.get('origin_carrier')!=value.get('historical_carrier')
+            or binding.get('current_carrier')!=value.get('current_carrier')):
+        raise ValueError('The full independent target, actual input and complete carrier evidence disagree')
+    records=dict(current_carrier=current_carrier,
+        current_preparation_report=current_preparation_report,
+        current_reference_bundle=current_reference_bundle,current_node_report=current_node_report,
+        current_scalar_input=current_scalar_input)
+    for key,actual in list(records.items()):
+        declared=value.get(key)
+        if not isinstance(declared,dict):
+            raise ValueError('Missing full independent-target input file record '+key)
+        if actual is None:
+            records[key]=copy.deepcopy(declared)
+        elif actual!=declared:
+            raise ValueError('The actual caller input differs from its full producer '+key)
+    preparation=_read_bound_json(records['current_preparation_report'])
+    model=preparation.get('reference_definition')
+    if (not isinstance(model,dict) or preparation.get('source_sha256')!=PREPARATION_SHA
+            or preparation.get('schema')!='R690-independent-axisymmetric-SO3-preparation-v1'
+            or preparation.get('complete') is not True
+            or preparation.get('reference_model_identity_sha256')!=canonical(model)
+            or canonical(model)!=CURRENT_REFERENCE_MODEL_SHA
+            or target.get('complete_current_reference_model')!=model
+            or target.get('complete_current_reference_bundle_sha256')!=records['current_reference_bundle']['sha256']
+            or (actual_model is not None and actual_model!=model)):
+        raise ValueError('Bind the actual complete new frozen reference model and target')
+    path=Path(__file__).with_name(INDEPENDENT_FIXED_TARGET_PRODUCER_NAME)
+    if sha(path)!=RESTORER_SHA:
+        raise ValueError('Use the whole independent fixed-target producer source')
+    module_name='_complete_actual_run09_fixed_target_'+RESTORER_SHA[:16]
+    spec=importlib.util.spec_from_file_location(module_name,path)
+    if spec is None or spec.loader is None:
+        raise ValueError('The full independent fixed-target source cannot be loaded')
+    module=importlib.util.module_from_spec(spec)
+    sys.modules[module_name]=module
+    spec.loader.exec_module(module)
+    if (sha(module.__file__)!=RESTORER_SHA
+            or sha(module.validate_independent_fixed_target_binding.__code__.co_filename)!=RESTORER_SHA):
+        raise ValueError('The actual complete independent target validator source differs')
+    result=module.validate_independent_fixed_target_binding(value,actual_model=model,**records)
+    if (result.get('producer_source_sha256')!=RESTORER_SHA
+            or result.get('independent_fixed_target_binding_identity_sha256')!=canonical(value)
+            or result.get('fixed_target_definition_identity_sha256')!=canonical(target)
+            or result.get('actual_current_model_identity_sha256')!=canonical(model)
+            or result.get('current_fixed_chart_core_sha256')!=CURRENT_FIXED_CHART_SHA
+            or result.get('actual_run_id')!='45943410994' or result.get('actual_run_attempt')!='1'
+            or result.get('actual_reference_step_id')!='independent-axisymmetric-R690-reference-prepare-v2-first-20261127-09'
+            or result.get('public_input_binding_source_sha256')!='306b5f86e0d287ea0c6cf9abb0f326f0eec869640b52daa59cf76db1492e382a'
+            or result.get('whole_old_carrier_and_full_current_input_bytes_rechecked') is not True
+            or result.get('same_complete_scalar_formula') is not True
+            or result.get('complete_current_fixed_chart_verified') is not True
+            or result.get('all_historical_and_current_material_addresses_still_required') is not True
+            or result.get('same_original_fixed_chart') is not True
+            or result.get('same_mathematical_g_claimed') is not False
+            or result.get('scientific_certificates_inherited') is not False):
+        raise ValueError('The whole independent target validator did not return its exact binding')
+    return result
+
+def _point_key(value):
+    c, u, p = int(value['cell']), float(value['u']), float(value['phi'])
+    if (isinstance(value['cell'], bool) or c != value['cell'] or not 0 <= c < 1844
+            or not 0 <= u <= 1 or not math.isfinite(u) or not math.isfinite(p)):
+        raise ValueError('Invalid actual literal material point')
+    return c, u.hex(), p.hex()
+
+
+def _fingerprint(arrays):
+    return {key: dict(count=len(arrays[key]), sha256=canonical(sorted(
+        [int(c),float(u).hex(),float(p).hex()] for c,u,p in arrays[key]))) for key in ORIGIN_P0}
+
+
+def _original_p0(args, preparation, history, old_path):
+    provenance = _read_bound_json(preparation['complete_supplied_location_provenance'])
+    if (provenance.get('schema') != 'independent-axisymmetric-SO3-complete-supplied-history-v1'
+            or provenance.get('actual_carrier_sha256') != sha(args.carrier)
+            or provenance.get('actual_reference_bundle_sha256') != sha(args.reference_bundle)):
+        raise ValueError('Use the actual complete current supplied-history provenance')
+    packages = [v for v in provenance['ordered_inputs']
+        if v.get('kind') == 'complete-published-a04-historical-package']
+    if len(packages) != 1:
+        raise ValueError('The one complete ordered eleven-payload origin is required')
+    item = packages[0]
+    package = item['original_payload']
+    seeds = package['seeds']
+    if (package.get('schema') != 'a04-historical-location-parameters-v1'
+            or tuple(seeds) != SEED_NAMES or item.get('exact_original_node_scalar_grid_binding') is not True
+            or item['original_topology'] != package['topology']
+            or tuple(v['name'] for v in item['ordered_records']) != SEED_NAMES):
+        raise ValueError('The complete source-verified ordered eleven payloads changed')
+    result = history.Locations(923, 7377, 2048)
+    for name, summary in zip(SEED_NAMES, item['ordered_records']):
+        record = seeds[name]
+        value = record['payload']
+        if (canonical(value) != summary['original_payload_identity_sha256']
+                or canonical(record) != summary['original_record_identity_sha256']
+                or record['historical_source_sha256'] != summary['historical_source_sha256']
+                or summary.get('full_payload_and_order_retained') is not True
+                or summary.get('capacity_used_to_drop_positions') is not False):
+            raise ValueError('Incomplete actual original payload or role provenance')
+        for key, role in (('curvature_locations','curvature'),('radius_locations','radius'),
+                          ('grid_curvature_locations','curvature'),('grid_radius_locations','radius')):
+            for stage, angle in value.get(key, []):
+                if name == 'legacy_memory' and not 0 <= int(stage) < 1845:
+                    raise ValueError('The original legacy prefix changed')
+                result.grid(stage, result.angle(angle), role, False, 'complete_old_p0.'+name+'.'+key)
+        role = 'radius' if name == 'full13_radius' else ('curvature' if name in
+            ('full13_curvature','witness_positive','witness_lowphi') else None)
+        result.walk(value, path=('complete_old_p0',name,'payload'), role=role)
+    result.resolve_grid(old_path)
+    arrays = result.arrays()
+    fingerprints = _fingerprint(arrays)
+    if fingerprints != ORIGIN_P0:
+        raise ValueError('Full original P0 word sets/roles/protected set were not actually reproduced')
+    return result, dict(complete_supplied_provenance=copy.deepcopy(preparation['complete_supplied_location_provenance']),
+        original_payload_count=11, ordered_payload_names=list(SEED_NAMES),
+        original_p0_fingerprints=fingerprints, original_p0_combined_sha256=canonical(fingerprints),
+        all_eleven_complete_payloads_consumed=True, actual_old_carrier_used_for_indexed_points=True)
+
+
+def _indexed_grid(value):
+    if isinstance(value, dict):
+        return ('stage' in value and 'angle' in value and 'phi' not in value) or any(_indexed_grid(v) for v in value.values())
+    if isinstance(value, list):
+        return (bool(value) and isinstance(value[0],str) and value[0] in ('grid','grid_radius')) or any(_indexed_grid(v) for v in value)
+    return False
+
+
+def _radial_bridge():
+    path=Path(__file__).resolve().with_name('radial_material_address_transfer.py')
+    if sha(path)!=RADIAL_ADDRESS_SOURCE_SHA256:
+        raise ValueError('Bind the complete exact radial address and fine-carrier consumer')
+    key='_actual_radial_material_bridge_'+RADIAL_ADDRESS_SOURCE_SHA256
+    module=sys.modules.get(key)
+    if module is None:
+        spec=importlib.util.spec_from_file_location(key,path)
+        module=importlib.util.module_from_spec(spec);sys.modules[key]=module
+        spec.loader.exec_module(module)
+    for name in ('runtime_plan','read_refined_plan','map_arrays','mapped_radial_words','history_arrays'):
+        if sha(getattr(module,name).__code__.co_filename)!=RADIAL_ADDRESS_SOURCE_SHA256:
+            raise ValueError('Changed complete radial transfer method '+name)
+    return module
+
+
+def _declared_history_J(payload,q):
+    if not isinstance(payload,dict):
+        raise ValueError('Every supplied history needs its complete declared original input object')
+    model=payload.get('representation',{})
+    if isinstance(model,dict) and model.get('J')==1845:
+        if model!=q.model or payload.get('N')!=2048:
+            raise ValueError('A tagged fine report must retain this complete actual current model')
+        return 1845
+    if payload.get('J') not in (None,923) or (isinstance(model,dict) and model.get('J') not in (None,923)):
+        raise ValueError('Do not reinterpret an undeclared third radial layout')
+    declared=payload.get('N',payload.get('full_angles',payload.get('full_N')))
+    if _indexed_grid(payload) and declared!=2048:
+        raise ValueError('Resolve every historical tagged angle under its actual declared full N2048')
+    return 923
+
+
+def _radial_binding_record(refined):
+    return dict(schema='complete-actual-public09-radial-input-and-address-binding-v1',
+        source_sha256=RADIAL_ADDRESS_SOURCE_SHA256,
+        complete_observation_files=copy.deepcopy(refined['complete_files']),
+        complete_observation_definition=copy.deepcopy(refined['definition']),
+        complete_radial_layout_definition=copy.deepcopy(refined['layout_definition']),
+        radial_layout_identity_sha256=canonical(refined['layout_definition']),
+        observation_identity_sha256=canonical(refined['definition']),
+        exact_parent_transfer_identity_sha256=refined['exact_parent_transfer_identity_sha256'],
+        actual_complete_a_boxes_identity_sha256=refined['actual_complete_a_boxes_identity_sha256'],
+        original_cell_and_stage_indices_resolved_before_transfer=True,
+        all_original_physical_addresses_retained=True,
+        old_values_roots_norms_and_certificates_inherited=False,
+        same_fixed_public09_target_under_radial_refinement=True)
+
+def load_memory(args, preparation, q, history, *, restart=None, source_report_path=None):
+    require_actions()
+    if sha(history.Locations.walk.__code__.co_filename)!=HISTORY_SHA:
+        raise ValueError('Retain the complete original location walker')
+    actual_model=preparation.get('reference_definition',{})
+    if (preparation.get('schema')!='R690-independent-axisymmetric-SO3-preparation-v1'
+            or preparation.get('source_sha256')!=PREPARATION_SHA or preparation.get('complete') is not True
+            or canonical(actual_model)!=preparation.get('reference_model_identity_sha256')
+            or q.base.model.get('complete_axisymmetric_reference_model')!=actual_model
+            or actual_model.get('original_scalar_parameters_identity_sha256')!=ORIGIN_PARAMETERS_SHA
+            or int(preparation['N'])!=2048 or q.full_N!=2048 or q.N!=513
+            or q.J!=1845 or q.base.reference_J!=923 or q.M!=160):
+        raise ValueError('Use the actual complete fixed reference and explicitly refined current radial domain')
+    current_reference=read_carrier(args.carrier)
+    binding_path=getattr(args,'material_envelope_binding',None)
+    if binding_path is None:
+        raise ValueError('The independent actual public09 target requires its full explicit path binding')
+    binding_record=file_record(binding_path)
+    binding=validate_public_binding(_read_bound_json(binding_record),current_input=current_reference['record'])
+    if file_record(binding['current_carrier']['path'])!=current_reference['record']:
+        raise ValueError('The fixed reference carrier must be the same actual current-target file')
+    old=read_carrier(binding['origin_carrier']['path'],ORIGIN_CARRIER_SHA)
+    if old['record']!=binding['origin_carrier']:
+        raise ValueError('The actual full original carrier changed')
+    binding=dict(binding,binding_file=binding_record)
+    independent_target_validation=_validate_independent_target_binding(binding,
+        actual_model=actual_model,current_carrier=current_reference['record'],
+        current_preparation_report=file_record(args.preparation_report),
+        current_reference_bundle=file_record(args.reference_bundle),
+        current_node_report=file_record(args.node_report),current_scalar_input=file_record(args.scalar_input))
+    if (old['record']['bytes']!=ORIGIN_CARRIER_BYTES
+            or old['mesh_sha256']!=ORIGIN_MESH_SHA or current_reference['mesh_sha256']!=ORIGIN_MESH_SHA
+            or q.base.parent.observation_cells.tobytes()!=current_reference['cell_bytes']
+            or q.base.parent.observation_u.tobytes()!=current_reference['local_bytes']):
+        raise ValueError('Keep the entire actual unchanged original reference carrier')
+    bridge=_radial_bridge()
+    current=bridge.runtime_plan(q,original_current=current_reference)
+    layout=current['layout_definition']
+    phi=[float(v) for v in q.phi]
+    expected_phi=[math.pi*j/1024 for j in range(513)]
+    if [v.hex() for v in phi]!=[v.hex() for v in expected_phi]:
+        raise ValueError('Retain every original literal quarter-angle word')
+    chart=q.base.context.core
+    target=binding['fixed_target_definition']
+    if (str(chart.dtype)!='float64' or list(chart.shape)!=[160]
+            or _array_sha('float64',(160,),chart.tobytes())!=CURRENT_FIXED_CHART_SHA
+            or [float(v).hex() for v in chart]!=target['fixed_chart_core_binary64_hex']
+            or target['complete_current_reference_model']!=actual_model
+            or target['current_reference_model_identity_sha256']!=canonical(actual_model)):
+        raise ValueError('Radial refinement cannot replace the complete frozen material chart')
+    original,origin_record=_original_p0(args,preparation,history,old['record']['path'])
+    original_mapped=bridge.map_arrays(original.arrays(),layout,source_J=923)
+    points=history.Locations(q.J,q.P,q.full_N)
+    points.walk(original_mapped,path=('complete_exactly_transferred_original_p0',))
+    sources=[file_record(args.preparation_report)]
+    address_reads=[]
+    prepared_locations=_read_bound_json(preparation['new_locations'])
+    if (prepared_locations.get('schema')!='independent-axisymmetric-SO3-literal-position-input-v1'
+            or prepared_locations.get('carrier_sha256')!=current_reference['record']['sha256']
+            or prepared_locations.get('reference_bundle_sha256')!=sha(args.reference_bundle)
+            or prepared_locations.get('N')!=2048
+            or prepared_locations.get('complete_supplied_provenance')!=preparation['complete_supplied_location_provenance']):
+        raise ValueError('The entire actual original prepared history is required before refinement')
+    arrays,read=bridge.history_arrays(history,prepared_locations,source_J=923,
+        reference_carrier=args.carrier,current_carrier=current['record']['path'],current_P=q.P)
+    points.walk(bridge.map_arrays(arrays,layout,source_J=923),
+        path=('complete_prepared_locations_resolved_on_J923_then_transferred',))
+    address_reads.append(dict(source=copy.deepcopy(preparation['new_locations']),read=read))
+    sources.append(copy.deepcopy(preparation['new_locations']))
+    if restart is not None:
+        if source_report_path is None or restart.get('representation')!=q.model or int(restart['N'])!=2048:
+            raise ValueError('A complete same-current-grid restart must retain this full actual model')
+        arrays,read=bridge.history_arrays(history,restart,source_J=1845,
+            reference_carrier=args.carrier,current_carrier=current['record']['path'],current_P=q.P)
+        points.walk(bridge.map_arrays(arrays,layout,source_J=1845),
+            path=('complete_same_current_radial_restart',))
+        record=file_record(source_report_path)
+        address_reads.append(dict(source=record,read=read));sources.append(record)
+    for path in args.manifest:
+        before=file_record(path)
+        payload=_read_bound_json(before)
+        if payload.get('carrier_sha256',payload.get('observation_carrier_sha256'))!=current_reference['record']['sha256']:
+            raise ValueError('Every explicit history must bind the unchanged actual fixed-target reference carrier')
+        source_J=_declared_history_J(payload,q)
+        if payload.get('schema')=='deep-valley-same-symbolic-location-transfer-v1':
+            payload={key:payload[key] for key in ORIGIN_P0}
+        arrays,read=bridge.history_arrays(history,payload,source_J=source_J,
+            reference_carrier=args.carrier,current_carrier=current['record']['path'],current_P=q.P)
+        moved=bridge.map_arrays(arrays,layout,source_J=source_J)
+        points.walk(moved,path=('complete_declared_radial_history',Path(path).name))
+        if file_record(path)!=before:
+            raise ValueError('A full historical input changed during exact address transfer')
+        address_reads.append(dict(source=before,read=read));sources.append(before)
+    before=points.summary()
+    resolved=points.resolve_grid(current['record']['path'])
+    arrays=points.arrays()
+    protected={(int(c),float(u).hex(),float(p).hex()) for c,u,p in arrays['protected_curvature_points']}
+    witnesses=[dict(cell=int(c),u=float(u),phi=float(p),
+        protected=(int(c),float(u).hex(),float(p).hex()) in protected)
+        for c,u,p in arrays['curvature_points']]
+    radii=[dict(cell=int(c),u=float(u),phi=float(p)) for c,u,p in arrays['radius_points']]
+    record=dict(sources=sources,before=before,resolved_grid_positions=resolved,after=points.summary(),
+        original_history=origin_record,exact_binary_identity=True,
+        complete_radial_address_reads=address_reads,
+        original_p0_resolved_and_exactly_mapped=True,
+        mapped_original_p0_fingerprints=_fingerprint(original_mapped),
+        radial_address_transfer=_radial_binding_record(current),
+        old_values_or_certificates_inherited=False,
+        new_locations_use='same fixed initial-reference phi0 and exact affine s, never current internal phi_c',
+        legacy_angle_reinterpretation='literal historical angles remain in the fixed public09 phi0 chart',
+        independent_fixed_target_validation=independent_target_validation)
+    envelope=MaterialEnvelope(q,current,current_reference,old,phi,binding,origin_record,
+        witnesses,radii,int(getattr(args,'envelope_near_active_rows',32)))
+    if restart is not None:
+        envelope.restore(restart.get('material_envelope'))
+    return witnesses,radii,record,envelope
+
+class MaterialEnvelope:
+    def __init__(self, q, current, current_reference, old, phi, binding, origin_record, witnesses, radii, near_active_rows):
+        require_actions()
+        self.definition=definition(near_active_rows)
+        self.identity=canonical(self.definition)
+        self.model_identity=q.identity
+        self.current_sha=current_reference['record']['sha256']
+        self.current_radial=set(current['radial_words'])
+        bridge=_radial_bridge()
+        self.origin_radial=set(bridge.mapped_radial_words(old['radial_words'],current['layout_definition']))
+        self.reference_radial=set(bridge.mapped_radial_words(current_reference['radial_words'],current['layout_definition']))
+        historical=self.origin_radial|self.reference_radial
+        self.radial_union=self.current_radial|historical
+        self.phi_hex={v.hex() for v in phi}
+        self.extra_words=sorted(historical-self.current_radial)
+        self.extra_cells=tuple(c for c,u in self.extra_words)
+        self.extra_u=tuple(float.fromhex(u) for c,u in self.extra_words)
+        self.explicit={_point_key(v):copy.deepcopy(v) for v in list(witnesses)+list(radii)}
+        self._separation={}
+        self._counters=dict(scan_attempts=0,complete_scans=0,incomplete_scans=0,
+            discovered_typed_constraints=0,working_row_builds=0,appended_rows_total=0)
+        phi_bytes=b''.join(struct.pack('<d',v) for v in phi)
+        self._fixed=dict(schema=SCHEMA,source_sha256=sha(__file__),definition=self.definition,
+            definition_identity_sha256=self.identity,actual_model_identity_sha256=q.identity,
+            current_carrier_sha256=self.current_sha,
+            current_refined_observation_carrier_sha256=current['record']['sha256'],
+            independent_fixed_target_definition_identity_sha256=binding['fixed_target_definition_identity_sha256'],
+            same_original_fixed_chart=True,same_mathematical_g_claimed=False,
+            same_fixed_public09_target_under_radial_refinement=True,
+            historical_address_binding=dict(complete=True,origin_carrier=old['metadata'],
+                current_carrier=current_reference['metadata'],current_refined_carrier=current['metadata'],
+                actual_path_binding=binding,radial_address_transfer=_radial_binding_record(current),
+                original_p0=origin_record,old_and_current_entire_arrays_actually_read=True,
+                all_current_refined_arrays_actually_read=True,
+                old_current_radial_word_sets_equal=set(old['radial_words'])==set(current_reference['radial_words'])),
+            implicit_grid=dict(current_radial_entry_count=len(current['radial_words']),
+                current_unique_radial_count=len(self.current_radial),origin_unique_radial_count=len(self.origin_radial),
+                reference_unique_radial_count=len(self.reference_radial),
+                reference_J=923,current_J=1845,reference_radial_entry_count=7377,
+                current_native_radial_entry_count=14753,
+                extra_historical_radial_count=len(self.extra_words),union_unique_radial_count=len(self.radial_union),
+                angular_count=len(phi),full_angular_count=q.full_N,
+                actual_phi_sha256=_array_sha('float64',(len(phi),),phi_bytes),
+                phi_formula='binary64 pi * integer j / 1024, j=0,...,512',
+                union_radial_words_sha256=canonical(sorted(self.radial_union)),
+                extra_radial_words_sha256=canonical(self.extra_words),
+                current_radial_layout_identity_sha256=canonical(current['layout_definition']),
+                current_observation_identity_sha256=canonical(current['definition']),
+                unique_implicit_material_locations=len(self.radial_union)*len(phi)),
+            potentially_protected_policy='entire E with all explicit P0, exact mapped old/reference grids and complete current fine grid; every typed family, both curvature branches and witness signs; unknown old role promotions/order are not reconstructed',
+            known_explicit_history=dict(initial_unique_locations=len(self.explicit),
+                initial_binary_locations_sha256=canonical(sorted(self.explicit)),
+                complete_original_p0_preserved=True,complete_eleven_payloads_preserved=True),
+            unknown_old_individual_protected_labels_or_order_reconstructed=False,
+            same_continuous_field_certificate_inherited=False,
+            continuous_geometry_certified=False,continuous_metric_certified=False)
+
+    def contains(self, location):
+        key = _point_key(location)
+        return key in self.explicit or ((key[0],key[1]) in self.radial_union and key[2] in self.phi_hex)
+
+    def admit_explicit(self, values):
+        for value in values:
+            key = _point_key(value)
+            if not self.contains(value):
+                raise ValueError('An unbound material point was introduced outside the complete envelope')
+            if key in self.explicit:
+                self.explicit[key]['protected'] = bool(self.explicit[key].get('protected',False) or value.get('protected',False))
+
+    def _separate(self, family, location, *, partner=None, branch=None, sign=None, token=None):
+        if family not in FAMILIES:
+            raise ValueError('Unknown full-envelope physical family')
+        if location is not None and not self.contains(location):
+            raise ValueError('A newly separated address escaped the bound complete envelope')
+        if partner is not None and partner.get('location') is not None and not self.contains(partner['location']):
+            raise ValueError('A diameter partner escaped the complete material envelope')
+        if location is not None:
+            location = dict(cell=int(location['cell']),u=float(location['u']),phi=float(location['phi']))
+        if partner is not None:
+            partner = copy.deepcopy(partner)
+            if partner.get('location') is not None:
+                v = partner['location']
+                partner['location'] = dict(cell=int(v['cell']),u=float(v['u']),phi=float(v['phi']))
+        row = dict(family=family,location=location,partner=partner,branch=branch,sign=sign)
+        key = canonical(row)
+        if key not in self._separation:
+            row.update(first_discovered_current_full_point_sha256=token,origin='actual complete envelope nonlinear scan')
+            self._separation[key] = row
+            self._counters['discovered_typed_constraints'] += 1
+
+    def observe_scan(self, result, *, extra_complete, explicit_complete, full_current_complete):
+        self._counters['scan_attempts'] += 1
+        complete = bool(result.get('complete') and extra_complete and explicit_complete and full_current_complete)
+        self._counters['complete_scans' if complete else 'incomplete_scans'] += 1
+        if result.get('complete') and not complete:
+            raise ValueError('A complete screen cannot omit historical envelope work')
+        token = result.get('current_full_point_sha256')
+        if complete:
+            _digest(token,'actual complete scan point')
+            diameter = float(result['diameter_point_lower'])
+            height = float(result['current_height'])
+            radius = float(result['maximum_radius'])
+            if diameter == 2.:
+                partner = dict(kind='constant_core_diameter',value=2.)
+            elif diameter == 2*abs(height):
+                partner = dict(kind='cap_height_diameter',sign=(1 if height >= 0 else -1))
+            elif diameter == 2*radius:
+                partner = dict(kind='actual_radius_diameter',location=copy.deepcopy(result['farthest']))
+            else:
+                raise ValueError('The actual lower-diameter branch was not preserved')
+            if float(result['reach_physical_g']) > 0:
+                # Both physical principal branches and both signed inequalities
+                # at the actually separated point remain permanently available.
+                for branch in (0,1):
+                    for sign in (-1,1):
+                        self._separate('reach',result['worst'],partner=partner,branch=branch,sign=sign,token=token)
+            amplitude = result['amplitude']
+            worsts = amplitude['worst_by_family']
+            for family in FAMILIES[1:]:
+                if float(amplitude[family]) > 0:
+                    location = None if family in ('cap_diameter','height_floor') else worsts[family]['location']
+                    self._separate(family,location,token=token)
+        scope = dict(schema=SCAN_SCHEMA,source_sha256=sha(__file__),definition=copy.deepcopy(self.definition),definition_identity_sha256=self.identity,
+            actual_model_identity_sha256=self.model_identity,current_carrier_sha256=self.current_sha,
+            current_full_point_sha256=token,complete=complete,
+            current_grid_complete=bool(full_current_complete),historical_extra_grid_complete=bool(extra_complete),
+            all_explicit_locations_read=bool(explicit_complete),
+            every_implicit_location_all_six_jets_read=bool(full_current_complete and extra_complete),
+            both_principal_curvatures_read=complete,both_witness_signs_read=complete,
+            historical_address_binding_complete=True,
+            implicit_grid=copy.deepcopy(self._fixed['implicit_grid']),
+            actual_separation_memory_count=len(self._separation),
+            actual_separation_memory_sha256=canonical(self.separation_rows()),
+            no_unknown_historical_protected_order_claimed=True,
+            continuous_geometry_certified=False)
+        return scope
+
+    def separation_rows(self):
+        return copy.deepcopy(list(self._separation.values()))
+
+    def rows_built(self, count):
+        self._counters['working_row_builds'] += 1
+        self._counters['appended_rows_total'] += int(count)
+
+    def metadata(self):
+        return copy.deepcopy(dict(self._fixed,actual_separation_memory=dict(
+            count=len(self._separation),sha256=canonical(self.separation_rows()),rows=self.separation_rows(),
+            eviction_or_working_row_cap=False),counters=self._counters,
+            counter_scope='current process; discovered_typed_constraints includes restored permanent entries'))
+
+    def restore(self, value):
+        validate_report_metadata(value,model_identity=self.model_identity,carrier_sha256=self.current_sha)
+        if value['definition'] != self.definition or value['implicit_grid'] != self._fixed['implicit_grid']:
+            raise ValueError('A restart must retain the exact complete material envelope policy and words')
+        for item in value['actual_separation_memory']['rows']:
+            self._separate(item['family'],item['location'],partner=item['partner'],branch=item['branch'],
+                sign=item['sign'],token=item['first_discovered_current_full_point_sha256'])
+
+
+def _validate_grid(grid):
+    if not isinstance(grid,dict):
+        raise ValueError('Missing complete original/reference/fine material grid coverage')
+    integers=('current_radial_entry_count','current_unique_radial_count','origin_unique_radial_count',
+        'reference_unique_radial_count','reference_J','current_J','reference_radial_entry_count',
+        'current_native_radial_entry_count','extra_historical_radial_count','union_unique_radial_count',
+        'angular_count','full_angular_count','unique_implicit_material_locations')
+    for key in integers:
+        value=grid.get(key)
+        if isinstance(value,bool) or not isinstance(value,int) or value<0:
+            raise ValueError('Invalid actual complete radial grid count '+key)
+    if (not 14753<=grid['current_radial_entry_count']<=22130
+            or grid['current_unique_radial_count']!=grid['current_radial_entry_count']
+            or grid['reference_radial_entry_count']!=7377
+            or grid['current_native_radial_entry_count']!=14753
+            or grid['reference_J']!=923 or grid['current_J']!=1845
+            or grid['angular_count']!=513 or grid['full_angular_count']!=2048
+            or grid['union_unique_radial_count']!=grid['current_unique_radial_count']+grid['extra_historical_radial_count']
+            or grid['unique_implicit_material_locations']!=grid['union_unique_radial_count']*513):
+        raise ValueError('Incomplete actual old/reference/current-grid union accounting')
+    for key in ('actual_phi_sha256','union_radial_words_sha256','extra_radial_words_sha256',
+            'current_radial_layout_identity_sha256','current_observation_identity_sha256'):
+        _digest(grid.get(key),key)
+
+def validate_scan_metadata(value, *, model_identity, carrier_sha256):
+    if (not isinstance(value,dict) or value.get('schema') != SCAN_SCHEMA
+            or value.get('source_sha256') != sha(__file__)
+            or value.get('actual_model_identity_sha256') != model_identity
+            or value.get('current_carrier_sha256') != carrier_sha256
+            or value.get('historical_address_binding_complete') is not True
+            or value.get('continuous_geometry_certified') is not False):
+        raise ValueError('The actual scan is not bound to this complete envelope consumer')
+    _digest(value.get('definition_identity_sha256'),'envelope policy')
+    policy = value.get('definition',{})
+    if (policy != definition(policy.get('additional_current_near_active_rows',-1))
+            or canonical(policy) != value['definition_identity_sha256']):
+        raise ValueError('The actual complete scan policy changed')
+    _validate_grid(value.get('implicit_grid'))
+    if not isinstance(value.get('complete'),bool):
+        raise ValueError('The actual envelope scan completion must be explicit')
+    flags = ('current_grid_complete','historical_extra_grid_complete','all_explicit_locations_read',
+        'every_implicit_location_all_six_jets_read','both_principal_curvatures_read','both_witness_signs_read')
+    if any(not isinstance(value.get(key),bool) for key in flags):
+        raise ValueError('Do not invent missing envelope coverage flags')
+    if value['complete']:
+        _digest(value.get('current_full_point_sha256'),'complete envelope scan point')
+        if not all(value[key] for key in flags):
+            raise ValueError('A complete scan omitted some permanent nonlinear constraints')
+    _digest(value.get('actual_separation_memory_sha256'),'separation memory')
+    if not isinstance(value.get('actual_separation_memory_count'),int) or value['actual_separation_memory_count'] < 0:
+        raise ValueError('Invalid actual separation memory count')
+    return copy.deepcopy(value)
+
+
+def _validate_radial_report_binding(value,bound,current,origin):
+    if (value.get('same_fixed_public09_target_under_radial_refinement') is not True
+            or bound.get('all_current_refined_arrays_actually_read') is not True):
+        raise ValueError('The complete radial refinement must retain this actual fixed target')
+    transfer=bound.get('radial_address_transfer')
+    if (not isinstance(transfer,dict) or transfer.get('source_sha256')!=RADIAL_ADDRESS_SOURCE_SHA256
+            or transfer.get('schema')!='complete-actual-public09-radial-input-and-address-binding-v1'
+            or transfer.get('original_cell_and_stage_indices_resolved_before_transfer') is not True
+            or transfer.get('all_original_physical_addresses_retained') is not True
+            or transfer.get('old_values_roots_norms_and_certificates_inherited') is not False
+            or transfer.get('same_fixed_public09_target_under_radial_refinement') is not True):
+        raise ValueError('The exact full radial address evidence is missing')
+    bridge=_radial_bridge()
+    actual_current=read_carrier(current['path'],current['sha256'])
+    actual_old=read_carrier(origin['path'],ORIGIN_CARRIER_SHA)
+    fine=bridge.read_refined_plan(transfer['complete_observation_files'],
+        transfer['complete_observation_definition'],original_current=actual_current)
+    if (transfer!=_radial_binding_record(fine)
+            or bound.get('current_refined_carrier')!=fine['metadata']
+            or bound.get('current_carrier')!=actual_current['metadata']
+            or bound.get('origin_carrier')!=actual_old['metadata']
+            or value.get('current_refined_observation_carrier_sha256')!=fine['record']['sha256']):
+        raise ValueError('The entire current fine/original carrier records changed')
+    old_words=set(bridge.mapped_radial_words(actual_old['radial_words'],fine['layout_definition']))
+    reference_words=set(bridge.mapped_radial_words(actual_current['radial_words'],fine['layout_definition']))
+    current_words=set(fine['radial_words'])
+    extra=sorted((old_words|reference_words)-current_words)
+    union=old_words|reference_words|current_words
+    grid=value['implicit_grid']
+    expected=dict(current_radial_entry_count=len(fine['radial_words']),
+        current_unique_radial_count=len(current_words),origin_unique_radial_count=len(old_words),
+        reference_unique_radial_count=len(reference_words),extra_historical_radial_count=len(extra),
+        union_unique_radial_count=len(union),union_radial_words_sha256=canonical(sorted(union)),
+        extra_radial_words_sha256=canonical(extra),
+        current_radial_layout_identity_sha256=canonical(fine['layout_definition']),
+        current_observation_identity_sha256=canonical(fine['definition']),
+        unique_implicit_material_locations=len(union)*513)
+    if any(grid.get(k)!=v for k,v in expected.items()):
+        raise ValueError('The saved full implicit old/reference/fine union was not actually preserved')
+    return dict(schema='verified-complete-public09-dyadic-radial-envelope-input-v1',
+        source_sha256=RADIAL_ADDRESS_SOURCE_SHA256,
+        current_refined_carrier=copy.deepcopy(fine['record']),
+        radial_layout_identity_sha256=canonical(fine['layout_definition']),
+        observation_identity_sha256=canonical(fine['definition']),
+        all_actual_old_reference_and_current_rows_checked=True,
+        exact_address_transfer_before_current_grid_use=True,
+        same_fixed_public09_target=True,old_scientific_values_inherited=False)
+
+def validate_report_metadata(value, *, model_identity, carrier_sha256):
+    if (not isinstance(value,dict) or value.get('schema') != SCHEMA
+            or value.get('source_sha256') != sha(__file__)
+            or value.get('actual_model_identity_sha256') != model_identity
+            or value.get('current_carrier_sha256') != carrier_sha256
+            or value.get('continuous_geometry_certified') is not False
+            or value.get('continuous_metric_certified') is not False):
+        raise ValueError('Use the complete actual new-envelope report')
+    policy = value.get('definition',{})
+    if policy != definition(policy.get('additional_current_near_active_rows',-1)):
+        raise ValueError('The complete declared envelope policy changed')
+    if canonical(policy) != value.get('definition_identity_sha256'):
+        raise ValueError('Envelope policy identity mismatch')
+    _validate_grid(value.get('implicit_grid'))
+    bound = value.get('historical_address_binding',{})
+    origin = bound.get('origin_carrier',{}).get('record',{})
+    current = bound.get('current_carrier',{}).get('record',{})
+    p0 = bound.get('original_p0',{})
+    if (bound.get('complete') is not True or bound.get('old_and_current_entire_arrays_actually_read') is not True
+            or origin.get('sha256') != ORIGIN_CARRIER_SHA or origin.get('bytes') != ORIGIN_CARRIER_BYTES
+            or current.get('sha256') != carrier_sha256
+            or p0.get('original_p0_fingerprints') != ORIGIN_P0
+            or p0.get('original_p0_combined_sha256') != canonical(ORIGIN_P0)
+            or p0.get('all_eleven_complete_payloads_consumed') is not True
+            or p0.get('actual_old_carrier_used_for_indexed_points') is not True):
+        raise ValueError('Original complete historical input and current array binding are unpaid')
+    path_binding=bound.get('actual_path_binding',{})
+    if path_binding.get('identical_whole_file_directly_read') is True:
+        raise ValueError('A direct historical carrier is not the independently frozen new target')
+    verified_path_binding=validate_public_binding(path_binding,current_input=current)
+    independent_target_validation=_validate_independent_target_binding(
+        verified_path_binding,current_carrier=current)
+    if (value.get('independent_fixed_target_definition_identity_sha256')
+                !=independent_target_validation['fixed_target_definition_identity_sha256']
+            or value.get('same_original_fixed_chart') is not True
+            or value.get('same_mathematical_g_claimed') is not False):
+        raise ValueError('The report does not retain its complete independent fixed target')
+    radial_validation=_validate_radial_report_binding(value,bound,current,origin)
+    memory = value.get('actual_separation_memory',{})
+    rows = memory.get('rows')
+    if (not isinstance(rows,list) or memory.get('count') != len(rows)
+            or memory.get('sha256') != canonical(rows) or memory.get('eviction_or_working_row_cap') is not False):
+        raise ValueError('The entire uncapped typed memory must be retained')
+    for row in rows:
+        if row.get('family') not in FAMILIES:
+            raise ValueError('Unknown retained typed family')
+        if row.get('location') is not None:
+            _point_key(row['location'])
+        if row['family'] == 'reach':
+            partner = row.get('partner',{})
+            if (row.get('location') is None or row.get('branch') not in (0,1)
+                    or isinstance(row.get('branch'),bool) or row.get('sign') not in (-1,1)
+                    or isinstance(row.get('sign'),bool) or not isinstance(partner,dict)):
+                raise ValueError('Incomplete retained signed curvature branch')
+            kind = partner.get('kind')
+            if kind == 'actual_radius_diameter':
+                _point_key(partner.get('location',{}))
+            elif kind == 'cap_height_diameter':
+                if partner.get('sign') not in (-1,1) or isinstance(partner.get('sign'),bool):
+                    raise ValueError('Retain the actual signed cap diameter branch')
+            elif kind == 'constant_core_diameter':
+                if partner.get('value') != 2.:
+                    raise ValueError('Changed fixed-core diameter lower bound')
+            else:
+                raise ValueError('Unknown actual diameter partner')
+        elif (row.get('partner') is not None or row.get('branch') is not None or row.get('sign') is not None
+                or (row['family'] in ('cap_diameter','height_floor')) != (row.get('location') is None)):
+            raise ValueError('The retained amplitude family/point contract changed')
+        _digest(row.get('first_discovered_current_full_point_sha256'),'typed memory source point')
+    if value.get('unknown_old_individual_protected_labels_or_order_reconstructed') is not False:
+        raise ValueError('Unknown historical labels must not be fabricated')
+    counters = value.get('counters',{})
+    for key in ('scan_attempts','complete_scans','incomplete_scans','discovered_typed_constraints',
+                'working_row_builds','appended_rows_total'):
+        if isinstance(counters.get(key),bool) or not isinstance(counters.get(key),int) or counters[key]<0:
+            raise ValueError('Missing actual envelope counter '+key)
+    if counters['scan_attempts'] != counters['complete_scans']+counters['incomplete_scans']:
+        raise ValueError('Actual complete/partial envelope read accounting changed')
+    return dict(schema=SCHEMA,source_sha256=sha(__file__),definition_identity_sha256=canonical(policy),
+        actual_model_identity_sha256=model_identity,current_carrier_sha256=carrier_sha256,
+        historical_origin_carrier_sha256=ORIGIN_CARRIER_SHA,
+        implicit_grid=copy.deepcopy(value['implicit_grid']),
+        original_p0_fingerprints=copy.deepcopy(ORIGIN_P0),
+        actual_separation_memory_count=len(rows),actual_separation_memory_sha256=canonical(rows),
+        independent_fixed_target_validation=independent_target_validation,
+        radial_refinement_validation=radial_validation,
+        counters=copy.deepcopy(counters),all_old_current_locations_in_permanent_nonlinear_responsibility=True,
+        unknown_historical_protected_order_reconstructed=False,continuous_geometry_certified=False)
