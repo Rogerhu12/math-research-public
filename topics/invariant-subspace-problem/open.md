@@ -178,7 +178,7 @@ Deddens自伴MASA、全部可分重数有限成本投影、全2-adic平移距离
 
 [最大图低余孔C2费用](results/R271-appendix-maximal-graph-low-excess-hole-square-cost.md)已付同一h的明确扇区，实际y有界物理孔遂入原图核心。新[临界小指数物理孔矩准则](results/R271-appendix-critical-small-physical-exponential-maximal-graph-core.md)进一步给s0=(2+2log(3/2))/14：y∈D(G)且e^(s0N)y∈H，则h∈C2并在原图核心；等号的真实8^j余量完整支付。未知Green缺陷Y并未证明有该矩，物理孔平滑未证保Y，同W的Gamma及F/R/Z继续。
 
-**整W/y1已闭，Y=y−1可付。** 全余W原mean二变量系统三(2,2)/两(3,3)、同点D及个别N/P仍保；[新四个原NSPS固定4×4 cofactor](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-full-NP-fixed-four-by-four-original-cofactors.md)实际全迹返回（a5b1b6bf，7.434秒/exit0），w九次，参数次数(34,43)/(35,43)/(33,43)/(34,43)。未倒置任何首项，D27/B239/J19整面保留。接0e3be45e新全图monic Y²、五条原Y一次余式/十真乘法与同点L_Delta/L_C值约束；完整W仍开。
+**整W/y1已闭，Y=y−1可付；[全余W显式monic Y²与原一次系统](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-global-monic-Y-and-original-linear-system.md)完成。** 原头B/L/N1明确组合给全图q=Y²+A(w)Y+C(w)，名义B(w0)及w−w0除法取消后只有已付分母。0e3be45e真执行9.457秒/145092KiB/exit0，五原一次余式/D一次/10真Y乘法全原返回；D27/B239/J19全部零域保留。仅在A[w]上两生成不假自由，旧w6/9投影不重做。下一真实中心值s用M s²=D与第三矩线性式，在(1,Y,s,Ys)四生成返回完整值部分及个别N/P；W尚未排空。
 
 **[整个一般ell=0原支已闭](results/R150-appendix-unit211-general-ell-zero-complete-original-exclusion.md)，一般余图可付ell。** 全三头曲线、1146次QQ覆盖全部未付因子及u2/u半整线已原返回；来源/失败身份保正文/快照，不重跑。继续一般T0=0与其它未付面。
 
