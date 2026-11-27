@@ -1,11 +1,11 @@
 # HANDOFF — visible-flex-larger-amplitude
 
 会话Astra-larger-e4e2a2bf-20261126（AI），接手Astra-larger-resume-24b2ab87-20261120。**未完成，持续真正求解；阶段、时长、失败、输入困难均非终点。**
-此前H全字/所有来源参数/失败未知保[58c6全文](https://github.com/Rogerhu12/math-research-public/blob/58c6b5ab92364fd00b1d0f24add7f72891fe327a/topics/visible-flex-larger-amplitude/HANDOFF.md)及[0c51全文](https://github.com/Rogerhu12/math-research-public/blob/0c51ba4b8d4e82f345cb23106c29b952ab931c57/topics/visible-flex-larger-amplitude/HANDOFF.md)、[4ee986全文](https://github.com/Rogerhu12/math-research-public/blob/4ee986c5df5bcf0b2f4e58485908917a8f71546f/topics/visible-flex-larger-amplitude/HANDOFF.md)、旧链/open/全notes；不重做已登记数学。
+此前H全字/所有来源参数/失败未知保[58c6全文](https://github.com/Rogerhu12/math-research-public/blob/58c6b5ab92364fd00b1d0f24add7f72891fe327a/topics/visible-flex-larger-amplitude/HANDOFF.md)、[cc312全文](https://github.com/Rogerhu12/math-research-public/blob/cc312d2e56d12a3105e350c99b4bba16f0170295/topics/visible-flex-larger-amplitude/HANDOFF.md)及[0c51全文](https://github.com/Rogerhu12/math-research-public/blob/0c51ba4b8d4e82f345cb23106c29b952ab931c57/topics/visible-flex-larger-amplitude/HANDOFF.md)、[4ee986全文](https://github.com/Rogerhu12/math-research-public/blob/4ee986c5df5bcf0b2f4e58485908917a8f71546f/topics/visible-flex-larger-amplitude/HANDOFF.md)、旧链/open/全notes；不重做已登记数学。
 
 ## 规则与同步
 
-root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端失效；15:03及21:33重置后各唯一探测仍失败，恢复即真pull。云核至 `5e217215835b6f291b0d85bfca26985ac597b3a1`（非pull）。双README SHA256：581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d。每真pull只读新差异即遵守、至少每小时；活17–20通常每5分钟真pull、已读commit在末槽。12终态前末真pull19:41:24至febbfdf90fc257b59e14078173fcb8e15bcdbd32，完整旧槽保1b76H。
+root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端失效；15:03及21:33重置后各唯一探测仍失败，恢复即真pull。云核至 `7a8c068ac39f7f7697192139be5d6afdba7e4a68`（非pull）。双README SHA256：581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d。每真pull只读新差异即遵守、至少每小时；活17–20通常每5分钟真pull、已读commit在末槽。12终态前末真pull19:41:24至febbfdf90fc257b59e14078173fcb8e15bcdbd32，完整旧槽保1b76H。
 私库QUEUE进行中已推e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。root独占refs/queue，每结论普通推；NFF有终端即rebase重推，否则freshHEAD完整合并，不冒pull/force。令牌仅瞬时CLI。[完整发布支持](computations/resume-20261127-root-publication-support.mjs)保。
 科学仅本公开Actions；raw只runner/scratch，不Git/Release/artifact、不改名输入。全源/全部参数/真实run/whole输出身份保。题≤200MB、文件<5MB、MD<100KB、H<10KB、open<30KB；先metadata，不整读≥100KB或binary。根§12不加独立审查/冻结/AST/fixture/重跑门、不减原目标预算。[旧log](log/2026-11-27-session-through-fejer-closed.md)全字保。
 
@@ -24,7 +24,7 @@ root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端�
 | 17=46053911348 | 两input0后36ef0794/ed810/PID3823科学未返，完整wide157/7参数92407B保。 |
 | 18=46062343475 | 两input0、前三science1、三原异常reader0；producer修后完整157真实运行，同runner原输入保。 |
 | 19=46076669320 | 两input0，36304a0d/f600/PID3240初六族几何已返，首trial在算。 |
-| 20=46079535427 | 同bhalf仅恢复mu`.001`；maker0实际ebdf38b/89cc，完整参考/科学未返，job140775034500运行。 |
+| 20=46079535427 | 同bhalf仅恢复mu`.001`；两input0，科学c592e434/f600/PID3277；初六g/Phi/Gram与19初相同，accepted0/reportfalse。 |
 
 [16真实数学](notes/2026-11-27-run16-initial-mathematics-and-point-bound-progress.md)：model8cc/current7e06/accepted0/g11.17545381570094，第四2fa731统计返、几何决定未知，首二三决定未捕获。[17真实数学](notes/2026-11-27-run17-wide-seed-actual-mathematics.md)：model f2e417/current b0468/accepted2/g2.0460148700803895，第二restoration真实接受，终态未返。全部精确Phi/Gram/点/时间/source与原观察保全note；未公开分项不猜，异model同坐标不冒同场。
 
@@ -43,7 +43,7 @@ R723方向支撑s/(nᵀAn)及全平行面排序已证，实际支撑/曲率未�
 ## 容量与分工
 
 [ret52](notes/2026-11-27-legacy-derived-grid-recovery-retention-52.md)退14旧derived净1470014B，52完整小记录/43源/142输入/十全resource及失败未知保；[ret51](notes/2026-11-27-finite-geometry-minimax-retention-51.md)退17旧derived净1555055B，54源/187输入/18全resource/5全plan/失败未知保；ret50退19净1053787B和三完整旧源保；ret49/ret48及旧台账完整保旧源/参数/失败未知/消费者/原Git恢复，只退旧raw；ports/Nelder/已退对象不动，每fresh树核200MB。
-root独占refs/queue、完整上层与实际续求；construction接20前三完整后参及ret53；solver接20矩/mesh全参；geometry接独立R723完整消费者。一直做到README标准。
+root独占refs/queue及实际续求；construction完整ret53；solver准备同g b5/8完整输入；geometry核R723/R716真后续接口。20初几何准确23:13:27.016759；全log/open历史已另整卷归档。一直做到README标准。
 
 <!-- visible-larger-parallel-17:start -->
 Actions17：[run 46053911348/1](https://github.com/Rogerhu12/math-research-public/actions/runs/46053911348)；[全阶段记录](notes/2026-11-27-public-actions-46053911348-1.md)。running；已返2，exit=未返。

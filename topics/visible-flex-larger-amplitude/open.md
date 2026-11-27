@@ -101,32 +101,18 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 ## 7. 当前完整闭面主线与实际续作
 
-此前open全部原字29788B/SHA256 `45141205cf6bc299924be6f9def64acdaa79a273d7c0db3761902eb1790d696c`已保[完整归档](notes/2026-11-27-open-through-run19-complete-postparameters.md)。§1–6原字保持；原全部来源、参数、typed/未知历史、失败和恢复责任继续依该归档及其完整链，不随当前节缩写消除。
+此前本文件全部原字29447B/SHA256 `a0550ea8676e7278e1b599b3e8f12387f95d010fe198ac0820fd5cd2f83a3632`保[完整归档](notes/2026-11-27-open-through-run20-first-input.md)，全部§1–6原字继续。所有原源、全参数、失败、typed/未知peer与精化责任按该全链保留，当前缩写不删历史。
 
-固定g Fejer主线M160/J923/N2048/32stage；原全部自由量、域、预算保持。12–15官方cancelled及各自末真pull/原已返输入诊断见归档完整终态链，不能冒最终场或支付N4096/M320/J1845精化。16末已观察current7e06/accepted0/g11.17545381570094，第四trial2fa731统计已返、其几何决定未知；官方终态另接完整记录。[16全事实](notes/2026-11-27-run16-initial-mathematics-and-point-bound-progress.md)。
+同固定g、M160/J923/N2048/32stage；12–16官方cancelled的全已返输入/诊断、末真pull与未返回科学责任保各完整终态note，不冒最终场或支付N4096/M320/J1845精化。
 
-17 model f2e417 的第二restoration在22:43:01.923124真实接受：current b0468、accepted2、Phi4954.618769180181/Gram.6374150628738999/g2.0460148700803895。有限违反仍正，终态与完整13 checkpoint未取得；不据Phi下降冒metric阶段成功。[17全事实](notes/2026-11-27-run17-wide-seed-actual-mathematics.md)。
+17 current b0468/accepted2/g2.0460148700803895；18 current7d0d/accepted1/g2.0476206814786773，均真实restoration接受且有限违反仍正。17/18新的trial开始不代接受；精确各model/point/source/Phi/Gram/全部观察和18前三失败保[17全事实](notes/2026-11-27-run17-wide-seed-actual-mathematics.md)、[18完整续求](notes/2026-11-27-run18-complete-producer-binding-repair-and-continuation.md)。
 
-18前三入口失败/三完整reader0、根helper常量传播遗漏及全族10fa/8027/f600/d892保[18完整续求](notes/2026-11-27-run18-complete-producer-binding-repair-and-continuation.md)。全137角色/18源、原120pairs、157/7argv、458/445formal/48live及原预算保，两真input原runner保；actual e3d2eb/f600/PID7515/model9ec211。初g reach2.0480426708394406/distplus.11871374548166669、余四负，初Phi4954.71485872585/Gram.6374168330977955；每次新接受以真正point/geometry/decision另记，不能与17近同数值混用。
+[19完整续求](notes/2026-11-27-run19-complete-bhalf-launch-and-continuation.md)为b/S1/2、δ1/32；真两input0，model0abfbf/current7e06/accepted0。初Phi3825.0583894874153/Gram.6460503011117507，reach+.9684249942095058/distplus+.005863061771032241、余四负。首trial d761b5统计已返Phi3825.0583176123996/Gram.6460503022350718，trial几何/接受未知；初g不能填trial。
 
-19 actual36304a0d/f600/PID3240/model0abfbf，同固定g而b/S1/2、δ1/32；两input真实0、初Phi3825.0583894874153/Gram.6460503011117507、accepted0。仅b输入及namespace变化，全部原源/参数/预算保。全科学后接pure，117k量级两whole步不可缩参数挤95k；后续实际结果见[19完整续求](notes/2026-11-27-run19-complete-bhalf-launch-and-continuation.md)。
+[20完整续求](notes/2026-11-27-run20-complete-bhalf-mu001-launch-and-continuation.md)仅恢复阻尼.01→.001，metric.01和全部137角色/18源、157/7argv、458/445formal/48live与原预算保。官方46079535427/1，两input真0；actual科学c592e434/f600/PID3277/model0abfbf/current7e06。23:13:27.016759初完整有限几何返，Phi/Gram/六g逐项等于19初；accepted0/reportfalse，未知trial不补。两轮全science+pure超过95k，原pure仅科学自然返回后整接，不能裁参数挤入。
 
-当前producer_R722完整mean/normal六jet/连续geometry/closed/R718/R716/mesh源及18全参数已刊，全部完整路径保归档。19同源[前三后参总表](computations/fixed-fejer-bhalf-R722-complete-post-parameter-delivery.json)及[矩/mesh总表](computations/fixed-fejer-bhalf-complete-moment-mesh-parameter-delivery.json)也已刊。38/8/8、10/8、32/6全部argv与原selectors/预算保；尚无当前真实准确费用或完整最终场。normal.complete不代连续branch，mean J不代Cu；旧R709 bool真实，后验全域三残差/所有1024整圆、922径向+cuts、32stage/六jet/尾/working/帽/mixed/allphase、唯一主副件和晚失败条件不可省。
+18/19同源R722完整mean/normal六jet/geometry/closed/R718/R716/mesh源与全参数已刊；20全后参、R723独立消费者及same-source restart参数正逐项接入。全部原字段/来源/参数与准确费用合同见[19前三后参](computations/fixed-fejer-bhalf-R722-complete-post-parameter-delivery.json)、[19矩/mesh](computations/fixed-fejer-bhalf-complete-moment-mesh-parameter-delivery.json)、归档完整链。normal.complete不代连续branch，mean J不代Cu；全32stage/整圆1024胞/922径向+cuts/六jet/全尾/working、两帽/mixed/allphase、唯一主副件与晚失败不可省。旧R709 bool保真，准确根需R722全域三残差。
 
-[R723方向流支撑](results/R723-directional-normal-flow-support-reach.md)证明全管半径min(inf s/(nᵀAn),1/K)、全平行面严格排序及共同β/两有理帽约束。新的完整独立消费者与R716兼容入口在接；不能冒旧八角色已过或消除真实曲率违反。R718仍需标记面真实σ，R716仍需独立无标记管、正V和非零中心不变量。
+[R723](results/R723-directional-normal-flow-support-reach.md)方向支撑与全平行面排序已证，当前真实支撑/曲率仍未付；不能冒旧八角色通过。R718用标记面真实σ，R716独立无标记管、正V与非零中心不变量才给含反射δE。全部五t/三级空间时间频率与完整mesh仍须同g同参数实际运行。全13final才作same-source restart；immutable required-angle packet可为trial，不能冒accepted/final。raw仅runner/scratch，保完整源码/配方和真实身份。
 
-实际全五t、三级空间/频率/时间/完整网格仍须同g同参数执行。final需全13件，packet需immutable required-angle全快照且可为trial，不冒accepted/final/restart。raw只runner；保全源码/配方和实际身份。[ret52](notes/2026-11-27-legacy-derived-grid-recovery-retention-52.md)/ret51及旧台账只退可精确Git恢复的旧derived，全部原源/输入/参数/失败未知保。README标准未达；时长、阶段和输入困难均非终点。
-
-
-18第一restoration实际接受（22:37:27.185016）：current7d0d/accepted1/完整有限geometry，Phi4954.694898882503/Gram.6374164670510036/g2.0476206814786773。reach降而distplus略升至.11871831669889943，二者仍正；其余四族负，完整原六值与原观察保[18实录](notes/2026-11-27-run18-complete-producer-binding-repair-and-continuation.md)。不从近同17数值推同点/结果，科学/最终13件未返。
-
-
-19真初六族已返：reach+.9684249942095058、distanceplus+.005863061771032241、余四负；相比18初这两项均降但仍不满足有限几何。Phi降而最大Gram误差升；全部六值/完整来源和缺值保[19续求](notes/2026-11-27-run19-complete-bhalf-launch-and-continuation.md)。首trial d761b5在22:50:51.653725真返统计Phi3825.0583176123996/Gram.6460503022350718；trial几何/接受未知，current仍7e06/accepted0，初g不填trial。
-
-
-16官方completed/cancelled，updated_at22:41:11Z（不冒exact结束时刻或取消原因）；末公开index仍22:38:10，仅两input0，完整科学/pure无自然返回。[全终态](notes/2026-11-27-run16-official-terminal-and-unreturned-observed-solve.md)保原两输入整卷、完整末index/请求、92522全queue身份及157/7全argv、末H槽22:38:10真pull021081652f3522cd5df8803a771a251e86856bdc。最后科学状态仍未知，不把末accepted0扩成终态史空。
-
-
-[20完整独立启动](notes/2026-11-27-run20-complete-bhalf-mu001-launch-and-continuation.md)及[启动全总表](computations/fixed-fejer-bhalf-mu001-complete-launch-delivery.json)：同g/bhalf/delta1/32，仅恢复阻尼argv37 `.01`→`.001`，metric仍`.01`。全部157/7、458/445formal/48live和全源137/18/原预算保，3whole初step73243B；两science/pure whole队列117276pretty/104048compact超95k，pure真自然返回后整接。精确同线性QP的非负最优tau单调不代64步/非线性改善保证。future actual全未知，19独立不改；后续全费用/矩/mesh待真实材料继续。
-
-20官方已启动46079535427/1，created/start22:55:41Z、job140775034500；原依赖成功、研究step5真实in_progress。首maker0实际ebdf38b/89cc/5.931292771999992s，原4输出身份全保；参考/model/point/科学自然返回未取得，不从launch HEAD填各step源；官方及原完整maker响应保[20续求](notes/2026-11-27-run20-complete-bhalf-mu001-launch-and-continuation.md)。
+README未完成；时长、阶段、失败和输入困难均非终点；按open顺序继续真正求解。
