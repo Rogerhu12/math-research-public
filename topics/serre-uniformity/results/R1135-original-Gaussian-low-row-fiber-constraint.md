@@ -850,3 +850,179 @@ $p>37$ 保证这些检验没有特征 $2,3$ 的例外。
 
 本节只用原两个单位最高系数、§10 的实际两 twist 运输及显示多项式代数；
 没有数学程序执行或新增有限窗口。
+
+
+## 12. 原低行 minor 的模参数 Wronskian 与准确 cusp 阶
+
+本节给 (1135.8) 的同一个 $\Delta_{\rm low}$ 一个完整的模参数来源，
+并证明在原分支 $p\mid B_{p-7}$ 中，相应权多项式在 cusp 的阶准确为一或二。
+这不等于它在 Gaussian 点 $b=0$ 的值为单位。
+
+先在一般短模型 $y^2=x^3+ax+b$ 上取
+$$
+F_*=G_{p-7},\qquad G_*=G_{p-9},\qquad
+K_*=\partial G_*,
+\qquad
+\partial=6b\,\partial_a-\frac{4a^2}{3}\,\partial_b .
+\tag{1135.42}
+$$
+这里 $F_*,G_*,K_*$ 是原 lattice Eisenstein 权多项式；
+$K_*$ 不是 §§5–7 的混合系数 $K_p$，也不是 Kronecker 核。
+所有模参数微分都先在 $(a,b)$ 上完成，再取 $b=0$。
+$F_*$、$K_*$ 的权都是 $p-7$。
+
+### 12.1 三个原系数的完整 heat 读取
+
+对 R1116 (1116.42) 的同一个核系数
+$f_n^{v,0}=[T^{v+n-1}U^n]\mathscr K(T,U)$，逐次取 $w=0$，
+并保留 $\partial_w f_n=f_{n-1}$，得到
+$$
+\begin{aligned}
+f_0^{v,0}&=-G_v,&
+f_1^{v,0}&=-\frac{\partial G_v}{v},\\
+f_2^{v,0}
+ &=-\frac{\partial^2G_v+(av/3)G_v}{2v(v+1)},\\
+f_3^{v,0}
+ &=-\frac{\partial^3G_v+2vbG_v+
+                ((3v+2)/3)a\,\partial G_v}
+              {6v(v+1)(v+2)} .
+\end{aligned}
+\tag{1135.43}
+$$
+最后一行的 $2vbG_v$ 来自 $\partial a=6b$；
+$a\,\partial G_v$ 的两个贡献为 $v/3$ 与 $2(v+1)/3$。
+没有在微分以前将 $b$ 冻结为零。
+
+原 $c_2$ 是 $v=p-7,n=2$，原 $d_1,c_3$ 分别是
+$v=p-9,n=1,3$。所以在 $\mathbf F_p$ 中准确得到
+$$
+\boxed{\quad
+d_1=\frac{K_*}{9},\qquad
+c_2=-\frac{\partial^2F_*-(7a/3)F_*}{84},\qquad
+c_3=\frac{\partial^2K_*-(25a/3)K_*}{3024},
+\quad}
+\tag{1135.44}
+$$
+右侧全部最后取 $b=0$。所有分母在当前 $p\ge41$ 下为单位。
+
+定义原权 $2p-10$ 多项式
+$$
+\mathscr W=
+F_*\partial^2K_*-4K_*\partial^2F_*+aF_*K_*.
+$$
+将 (1135.44) 代入 $\Delta_{\rm low}=F_*c_3+c_2d_1$，得到
+$$
+\boxed{\qquad
+3024\,\Delta_{\rm low}=\mathscr W(a,0).
+\qquad}
+\tag{1135.45}
+$$
+其中 $aF_*K_*$ 的系数准确为 $(-25+28)/3=1$。
+(1135.4) 给 $F_*(a,0)$ 为单位。
+又 $p-7\equiv0\pmod4$，故 $F_*$、$K_*$ 对 $b$ 都是偶多项式，
+在 $b=0$ 有 $\partial F_*=\partial K_*=0$。于是还可写成
+$$
+\mathscr W(a,0)
+=F_*^5\left[
+ \partial^2\!\left(\frac{K_*}{F_*^4}\right)
+       +a\frac{K_*}{F_*^4}
+ \right]_{b=0}.
+\tag{1135.46}
+$$
+这只是原 minor 的准确二阶模参数式，未把此前的 $V_3,V_4$ 余项设为零。
+
+### 12.2 原 bad-Bernoulli 分支的首项不发生额外抵消
+
+使用原 Tate convention
+$$
+a=-E_4/48,\qquad b=E_6/864,\qquad
+\theta=q\,d/dq,\qquad
+\partial f=\theta f-\frac{\operatorname{wt}(f)}{12}E_2f .
+$$
+此处的 $q$ 是真正 Tate 参数，与 §11 的 coarse 坐标 $W$ 无关。
+原 lattice 规范为
+$$
+G_d=\frac{2\mathcal E_d}{(d-1)!},\qquad
+\mathcal E_d=-\frac{B_d}{2d}+\sum_{n\ge1}\sigma_{d-1}(n)q^n.
+$$
+权 $p-9,p-7$ 都小于 $p-1$，故由 R1129 的同一
+$q$-expansion/权环来源，它们是 $p$ 整权多项式。
+$\partial$ 的系数也 $p$ 整，所以 $\mathscr W$ 的定义不要求读取
+一个新高权 $G_{2p-10}$ 或反除任何 Bernoulli 非单位。
+
+以下沿用实际分支 $p\mid B_{p-7}$。
+记 $F_i=[q^i]F_*$、$G_i=[q^i]G_*$、$K_i=[q^i]K_*$，则
+$$
+F_0=0,\qquad
+F_1=\frac2{(p-8)!}\in\mathbf F_p^\times,\qquad
+G_0=-\frac{B_{p-9}}{(p-9)!},\qquad
+G_1=\frac2{(p-10)!}\in\mathbf F_p^\times .
+$$
+先用权 $p-7\equiv-7$、$p-9\equiv-9$，以及
+$E_2(0)=1$、$a(0)=-1/48$，逐项得到
+$$
+K_0=\frac34G_0,\qquad
+[q^0]\partial^2K_*=\frac{35}{144}K_0,\qquad
+[q^1]\partial^2F_*=\frac{323}{144}F_1.
+$$
+最后一个 $323=19\cdot17$ 来自
+$(1+7/12)(1+5/12)$；含 $F_0$ 的其余项已经准确为零。
+若 $G_0\ne0$，从定义直接读出
+$$
+[q]\mathscr W
+ =\frac{35-4\cdot323-3}{144}F_1K_0
+ =-\frac{105}{16}F_1G_0\ne0.
+$$
+若 $G_0=0$，则 $K_0=0$、$K_1=7G_1/4$，且
+$[q]\partial^2K_*=323K_1/144$。这时两乘积首次都在 $q^2$，
+$$
+[q^2]\mathscr W
+ =\frac{323-4\cdot323-3}{144}F_1K_1
+ =-\frac{189}{16}F_1G_1\ne0.
+$$
+因此有完整的实际二分
+$$
+\boxed{\begin{array}{c|c|c}
+\text{条件}&\operatorname{ord}_{q=0}\mathscr W&
+ \text{首系数}\\ \hline
+p\nmid B_{p-9}&1&-105F_1G_0/16\\
+p\mid B_{p-9}&2&-189F_1G_1/16 .
+\end{array}}
+\tag{1135.47}
+$$
+$105$、$189$ 的素因子均小于 $41$，所以所示非零不含隐蔽例外。
+这里没有假设 $p-9$ 是实际 good 角色，也没有增加一个观测行。
+
+### 12.3 非零多项式与 Gaussian 指定值的边界
+
+由 (1135.47)，$\mathscr W$ 的约化确是非零权 $2p-10$ 多项式。
+若以 $\varepsilon\in\{1,2\}$ 表示该表的准确 cusp 阶，
+则 level-one 权环中的 cusp 理想给
+$$
+\mathscr W=\Delta_E^\varepsilon\,\mathscr W_0,\qquad
+\Delta_E=-16(4a^3+27b^2),\qquad
+\operatorname{wt}(\mathscr W_0)=2p-10-12\varepsilon .
+\tag{1135.48}
+$$
+这里 $\Delta_E=q+O(q^2)$ 是相同 Tate 规范的 discriminant，
+且 $\mathscr W_0$ 非零、cusp 常数为单位。
+在 Gaussian 点 $\Delta_E(a,0)=-64a^3$ 为单位，
+所以除去这个已知 cusp 因子不会改变目标的 $b$ 阶或零性。
+
+例如，写 $p=4k+3$，同权性使 $\mathscr W_0$ 的单项式恰为
+$a^{\,2k-1-3\varepsilon-3j}b^{2j}$。
+对任意固定的原 $a\ne0$，每个 $b$ 次数只有一个 $a$ 单项式，
+故 $\mathscr W_0(a,b)$ 仍是非零多项式，且
+$$
+\operatorname{ord}_{b=0}\mathscr W(a,b)
+\ \text{为偶数，至多}\
+2\left\lfloor\frac{2k-1-3\varepsilon}{3}\right\rfloor .
+\tag{1135.49}
+$$
+本界允许正的偶数阶；它没有证明 $\mathscr W(a,0)\ne0$。
+
+所以本节新增的是原 minor 的完整 heat/Wronskian 来源、
+其非零权多项式性质和准确 cusp 阶，而非指定 Gaussian 单位。
+(1135.45) 仍须在同一个原 $a$、同一个 actual-good mask 下读取。
+未证明 §11 的剩余节点被分离，也没有从非零 $q$ 首项跳过
+$\mathscr W(a,0)$ 这一步。全文为纸面计算，无数学程序执行。

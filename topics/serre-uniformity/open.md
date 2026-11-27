@@ -110,6 +110,8 @@ R971证明无限列数不足，**全p full-span已否**；R992只给filtered V�
 
 ## O2：完整原超奇异迹、真正CM packet及近顶unit系数
 
+[R1135 §12](results/R1135-original-Gaussian-low-row-fiber-constraint.md)新付原Δ_low的完整heat/模参数式：3024Δ_low=(F∂²K−4K∂²F+aFK)(a,0)，F=G_(p−7)、K=∂G_(p−9)。在原p|Bp−7支，该权2p−10多项式的q阶恰1或2，首系数−105F1G0/16或−189F1G1/16均unit；完整V3/V4未删。非零多项式仍可能在Gaussian b0取零，指定minor/实际good节点未关。
+
 R1135§10已付同coarse component两实际twist的全部运输：α^p=iα，t*′=it*，z′=−z；δ′=ηδ，Kronecker γ′=ηγ、N_R′=η⁻¹N_R，而Weil γ_W/bχ保持。完整核及i0常数给Π′(z′)=Π(−z′)，两线统一为z∈Fp。低行唯一unordered pair/Δ分离范围因此覆盖两线；保S0/P0，不合并其他components，不宣Δunit。
 
 [R1095](results/R1095-original-theta-kernel-dual-Psi-normalization.md)：原完整J#可逆，B_J(Ψ,g)=ℓ_p(g)、B_J(Ψ,Ψ)=1；真三平移Gram=(1−δ/γ)²(1+2δ/γ)，最高偶边界c=δ。§8给原Fay全核及e/K4两配对；§9完整FSF保三极、正规常数与移位Miller项，且F(SΨ)=(V+v)(2vΨ−δU)/U²。指定非正交仍开。两个因子与原短η/ν仍开，未替换bare范数。
