@@ -528,3 +528,7 @@ AI-assisted GPT-6 Astra Pro：审原Gram重建、weighted N/P→HA/HB原迹、�
 - 新一般Delta≠0源6a0362da与整Phi0源1218c370准备同点完整原值返回；共用首一T六维及分列几何幂helper，无范数逆/未付首项逆；尚未宣排空。
 - 公开Actions内层分别180秒4GiB/120秒1GiB，固定Python3.12.14、FLINT0.9.0及两依赖SHA；真正新个别NP输入，不重放旧门。
 - 课题外仅新增两个invariant-subspace-*-monic-six-actual-values-8542.yml；发布器实际pull/rebase、检查两README、核私库QUEUE并立即推送。
+
+2026-11-27 18:56 Asia/Taipei｜Astra-ISP-8542378f-20261127
+- W整余图十原值以原物理D清分母完整双向回(1,Y)，矩/六含s原行/六单位均原同点返回；source dc365649实际43.084秒、609648KiB、内层exit0，run45985219969。
+- 48MB可再生矩阵只留源/参数/SHA和小回执；参数cofactor未算，W与普通ISP未完成，继续五无s原行的小输入。
