@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [Phi例外权两个真边界像的整QQ纤维排除](results/R150-appendix-unit211-Phi-zero-exceptional-two-genuine-boundary-image-complete-QQ-fiber-exclusions.md)：原23/150维固定理想矩阵满秩，全逆乘回；仅该有序图支付(2λ−1)H6。
+
 - [Phi四个原二次头共同零的完整十权异常集合](results/R150-appendix-unit211-Phi-zero-four-original-quadratic-heads-complete-ten-weight-locus.md)：真QQ全纤维返回，只余不可约F10及唯一Q=−a9；十点仍须返回原值方程。
 
 - [碰撞Delta零整个C2二次lambda原纤维排除](results/R150-appendix-unit211-equal-singleton-Delta-zero-entire-C2-lambda-exclusion.md)：完整四次u常数域八原Gram返回，全K[f]单位覆盖全部嵌入；只余C4。
