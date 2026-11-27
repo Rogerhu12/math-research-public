@@ -6,7 +6,7 @@
 
 ## 原最低型：已经付清的输入与准确剩余标量
 
-[R1063](results/R1063-original-Hecke-and-Hodge-graph-annihilator-family.md)：整Q/Hecke族全消原完整MW；本原U、满射U†给不除核范数的整族/真辛商。§10原r2 bare失败给adjugate及唯一Q前像。§12完整Cartier共振修正把最低值化为同一CM参数的相邻d,ell两列行列式；非零、Lagrangian及jet不落轨道仍开。§11排固定X108四维块的Hecke线性桥。 §13给f_N=h_d/(12A1)、11h_d−16h_(d−1)=−4A1²；f_N零则h_(d−1)单位，须继续原第二列比较。
+[R1063](results/R1063-original-Hecke-and-Hodge-graph-annihilator-family.md)：整Hecke族全消MW、真辛商与原Q共振最低两jet行列式已付；f_N=h_d/(12A1)，11h_d−16h_(d−1)=−4A1²。端点零迫相邻系数单位，原第二列/最低单位仍开；固定X108四维Hecke线性桥已排，完整adjugate尺度保结果。
 
 [R1058](results/R1058-original-Cartier-resonance-and-complete-lowest-residue-source.md)：完整D/Q/Q²最低值迁到原P=qJhat全部根，准确为(-3)^d[r^(d−1)]W*/P²/(dA1)；P非齐次forcing不删，每根最多七阶jet。完整源/全部极点见原文，目标非零仍开。
 
@@ -30,6 +30,8 @@ R1037/40原两行PD、source Fp²/Hermitian、Π²=−p、B整完美与Q=ε⁻²
 R1018–40的原完整Fm/两节点Dickson/PD及好BT整比较均已付，详细角色、相位、尺度与C_*见各结果和逐字归档。p5仍先减Teich、只在好B上施e₁；实际paired块重数一，不是辅助Res的C²。未付的H_A/H_Z新支撑、指定CM横截值与完整高度继续保留。
 
 ## O0：全主目标覆盖（R1003恢复原范围）
+
+[R1073](results/R1073-original-split-auxiliary-cuspidal-sieve.md)：原split aux的全部J/±、Norm/±纤维S_h严格下降、真实Weil相位及cusp同h行已付；按CχBχ=Dχ保零mask。p47/ℓ283完整twists/反射25条已付，数值筛选继续。
 
 [R1072](results/R1072-certified-original-p47-cuspidal-disk-labels.md)：run45925829303/job140266778118、源91de38ca，原p47全部235盘给235个互异完整global向量，10角色全good。原相位/两twists已核；不推盘内唯一，继续ℓ283同点筛选。
 
@@ -55,7 +57,7 @@ R1只把全部异常缩为p>37的完整N_ns；**p≡2,5 mod9只是另加小惯�
 
 ## O1：全p同一真实本原标签的临界非零
 
-[R1061](results/R1061-actual-genus-two-etale-cover-and-original-three-torsion-Petri-point.md)：原e/S_n、φ=U H(U³)、FM平方及对称J自伴均保原规范。§21短D⁶完整左核h/η/ν，e=−δ²η_k/(4v)，K₄=−δ³ν_k/(4v²)−2ve/δ²，96v⁴H′(0)=8ve−δ⁵ν_k/(4v²)。e=K₄=0等价原forcing的deg≤k−2六次primitive；e0的ν_k=−h_k/2·Ση_j²/j，范数非零仍开，不以加权Dixon矩或大空间可逆代替。
+[R1061](results/R1061-actual-genus-two-etale-cover-and-original-three-torsion-Petri-point.md)：原e/S_n、FM平方/对称J自伴已付。§21短D⁶全部h/η/ν左核给e=−δ²η_k/(4v)、K₄=−δ³ν_k/(4v²)−2ve/δ²；原Picard下一jet及e0范数ν_k=−h_k/2·Ση_j²/j已付，非零仍开。保原forcing/次数界，不以全局可逆或Dixon矩代替。
 
 [R1060](results/R1060-actual-X108-nonCM-Cartier-and-nine-torsion-ordinary-input.md)：原X108非CM四Cartier矩阵精确由B_n=P_n(3)=−a_p(E54)控制。明确九挠点/实际三次同源给原p2/5mod9时B_n≠0、非CM ordinary且核恰六CM。A_p=−S_n/3，但尚未证S_n=0⇒B_n=0，不能代原f_N单位。
 
