@@ -115,7 +115,7 @@ def main():
     emit("fricke", trace=str(W.trace()), plus_dimension=plusdim,
          minus_dimension=minusdim, involution_verified=True)
     STAGE = "exact_hecke_decomposition"
-    factors = list(space.decomposition(proof=True))
+    factors = list(space.decomposition())
     if sum(int(f.dimension()) for f in factors) != dim:
         raise ArithmeticError("Incomplete Hecke decomposition.")
     selected = []

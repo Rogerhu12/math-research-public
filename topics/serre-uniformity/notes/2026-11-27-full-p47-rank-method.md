@@ -22,7 +22,9 @@ $\operatorname{ModularSymbols}(2209,2,\mathrm{sign}=1)$。
 先取 cusp、新子空间，再单独计算 $W_{2209}$，
 核 $W^2=1$，以 $(d+\operatorname{Tr}W)/2$ 得正号维数。
 
-对全新空间作 proof=True 的精确 Hecke 分解。
+启用全局 proof.all(True)，对全新空间作 decomposition() 的精确有理 Hecke 分解。
+Sage10.6不支持把显式proof=True继续传进有理矩阵kernel，故不传该额外关键字；
+这不改变有理特征多项式分解和精确核算法。
 每个简单因子上实际 Fricke 矩阵必须为 $+I$ 或 $-I$；
 全部因子的维数和必须等于新空间维数，
 正号因子的维数和必须等于上面的实际正号维数。

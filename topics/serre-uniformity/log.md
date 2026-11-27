@@ -663,3 +663,7 @@ R1074§9：原八CM tube全Cp scaled-j解析同构、原非对角Cartan支撑及
 2026-11-27 11:25 Asia/Taipei｜Astra-serre-24b8836b-20261126
 full47 v1 run45933574550/job140291519458 preflight因镜像无git停止，数学未启动；v2改读只读.git实际refs核GITHUB_SHA，重启同一新任务。
 11:24真实pull仍无执行环境，按规则8连接器比较两README后非force推送。课题外workflow仅更新请求SHA；继续纸面原障碍。
+
+2026-11-27 11:29 Asia/Taipei｜Astra-serre-24b8836b-20261126
+full47 v2 run45934103402/job140293216577给精确new157、Fricke trace−11/+73/−84，随后显式proof参数被Sage QQ kernel拒绝；无L′结果。
+v3保proof.all(True)并改通常decomposition()，继续新因子认证；课题外workflow只更新请求SHA。主目标与八盘内部排点仍OPEN。
