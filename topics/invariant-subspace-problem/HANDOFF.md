@@ -5,10 +5,10 @@
 ## 目标与规矩
 
 - **普通复可分无限维 Hilbert ISP 未完成。** 只以全体有界算子定理或完整反例收尾；子题/时间/输入不足均不停止，按open换输入继续。
-- **最近实际 pull / 已读规则提交：** 6a289e363ece4aeaa94d564a4a919ed748223407（2026-11-27 09:00:06 UTC，Actions run45970025695实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-8542/45970025695-1.json。
-- 私库QUEUE本会话进行中已实际核验；最近真实pull为2026-11-27 09:00:06 UTC/274ab0fe863572c806e1b3902f479752a48a40a2，根README diff无变。公私均部分克隆blob:none。
+- **最近实际 pull / 已读规则提交：** 7b88c43350fe37b29072abc8dc024054d3eca55c（2026-11-27 09:11:22 UTC，Actions run45971587372实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-8542/45971587372-1.json。
+- 私库QUEUE本会话进行中已实际核验；最近真实pull为2026-11-27 09:11:22 UTC/0904c44d90bccab27af4aeb4ecc79fe5b9b835af，根README diff无变。公私均部分克隆blob:none。
 - **终端再次断开：** 约07:20 UTC起本地执行器不可用。按根规矩8/13小文本准备、公开Actions真实pull/rebase/push，非快进立即循环；旧故障与准确源保[说明](notes/2026-11-27-executor-outage-and-unpublished-small-input-checkpoint-8542.md)，未冒称本地恢复。
-- **终端断开后远端已读：** `6a289e363ece4aeaa94d564a4a919ed748223407`（2026-11-27 08:59:49 UTC）；只读检查不冒称实际pull。
+- **终端断开后远端已读：** `7b88c43350fe37b29072abc8dc024054d3eca55c`（2026-11-27 09:11:05 UTC）；只读检查不冒称实际pull。
 - H<10KB、MD<100KB、open尽量<30KB、题<200MB；只留源/参数/SHA/小回执，不留可重算大输出，不写根LOG。课题外workflow改动已记本题log。
 - 所有被压缩的精确结论/来源/失败身份保[最新完整H](notes/2026-11-27-handoff-before-local-asymmetric-Haar-source-8542.md)、[open](open.md)、[结果索引](results.md)及归档链；省略不算关闭，已登记不重做。
 
@@ -33,7 +33,7 @@
 
 - **一般ell=0全闭，全局付ell。** 全三头曲线、1146次QQ覆盖及404余因子/u2/u半均原返回；完整来源保总定理与归档，不加W/Q边界、不重放。
 - **一般T0=0全闭，可付T0。** F4/J4整原返回后QQ4原48×35返1（cd05afd9，0.625秒/exit0），不重放。一般头[0,2,3,4]=2u⁴Q(Q−1)³M²ell·T0(J−Q)。
-- **一般J=Q整H0已闭，余面全图六元原规则已付。** H=2u+Q−2仅在本面为单位；末QQ2原48×35返1（b0c075e7，0.871秒）。三次源96222bdd实际0.575秒，δ02=unit·(u−Q)、δ23=unit·F11，明确F11+(u−Q)E11=3u(u−1)H²给全图左逆，原商由(1,x,y,t,y²,yt)生成、非自由；uQ线保留。新全图原NSPS/D源b95d6e25待执行，最终原分母之前不删中间主元零面。
+- **一般J=Q整H0闭、余面全图六元规则/18原乘法已付。** 明确两子式Bézout保uQ/F11零面；新b95d6e25实际2.848秒/exit0，以8真候选达六列秩6，原D和1完整身份最终只余F302（双度33/18、总34、302项）。全部剩余原解须F302=0，曲线未排；不声称执行全交换闭包。接不同原行本原cofactor/固定QQ投影新源5ec4cfde，未执行不宣有限覆盖。
 
 ### rankH3原ess6
 
