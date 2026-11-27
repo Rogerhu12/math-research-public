@@ -207,7 +207,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 例外有序权图的λ半/H6/[整ψD6](results/R150-appendix-unit211-Phi-zero-exceptional-whole-moment-image-fiber-exclusion-and-128-cover.md)已闭；新[整M_J4与112覆盖](results/R150-appendix-unit211-Phi-zero-exceptional-whole-S-moment-quartic-exclusion-and-112-cover.md)由b711真5.218445731秒/171388KiB/0完成：208×104原FGH像QQ秩88，完整rho4短除法覆盖所有根；原S单位只剥T6一个一次因子，T5/z2原160维meanR矩阵全返单位。四条独立原57核列仅付QQ phi^4，模重数8未提升。完整原R新除后1977与S2050实际Bézout度112；原F26不可约与固定Sylvester/Vandermonde保全部不同有序(rho,λ)计数，不合并BC交换图。整原g4/T5/N1及160行小输入保存，余112与更高真重数继续。
 
-[a40长rho欧氏失败](notes/2026-11-28-Phi-psiD-high-degree-rho-Euclid-SIGALRM-8542.md)及[bb35原λ模块失败](notes/2026-11-27-unit211-Phi-zero-first-head-lambda-row-module-first-timeout-8542.md)准确冻结，后者无最终D幂或权分母。新6e5首次派发F/g4、G/g4的G-only原22阶商QQ88线性输入，完整短乘回后才用新原57核支付更高QQ重数；若仍只有4就保持112，不重跑208combined/160原值。旧87/55、C71/29、首头零/H0/个别N/P与ed0/879边界均保留。
+[a40长rho欧氏](notes/2026-11-28-Phi-psiD-high-degree-rho-Euclid-SIGALRM-8542.md)及[bb35原λ模块](notes/2026-11-27-unit211-Phi-zero-first-head-lambda-row-module-first-timeout-8542.md)失败冻结。新[6e5原商QQ返回](notes/2026-11-27-unit211-Phi-zero-exceptional-S-quartic-G-only-exact-gcd-no-improved-bound-8542.md)真1.209605683秒/70264KiB/0，F/g4的22阶商上G-only完整88像满秩，故原FG共同rho因子准确4；只有QQ phi^4下界，模8仍是上界，112不变。下一新32×16同h第一phi误差系统首次派发；只有完整原F/G模phi²短除及四条原57列乘回才可付phi^8。另新整H1零四次权代数原线性L=aT+bz+c与b²P−Ptilde完整身份首次派发，绝不逆b或lambda多项式，固定原矩/F6/NV结果式保所有首项零及u分母。旧87/55、C71/29、首头零/H0/个别N/P与ed0/879边界均保留；不重跑已完成88/208/160或旧长模块。
 
 ## R271：五位完整S2已闭，继续更高原来源（8542，2026-11-28）
 

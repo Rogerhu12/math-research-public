@@ -1,0 +1,148 @@
+{
+  "schema": "isp-new-quotient-original-G-only-QQ-result-v1",
+  "dateTaipei": "2026-11-28",
+  "jobId": 140668075698,
+  "execution": {
+    "elapsed_seconds": 1.2096056830000066,
+    "max_child_rss_kib": 70264,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "73df15632e879167c4093bb79097fb788816c288",
+        "before": "73df15632e879167c4093bb79097fb788816c288",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-27T18:05:51.349945+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46046833176",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "73df15632e879167c4093bb79097fb788816c288",
+    "source_exit_code": 0,
+    "source_git_blob": "aad74661fee348c41d53d133192cd73e4a026260",
+    "source_sha256": "6e5d91a0a484d428fd90a1c4f80b8dc9181b0a6007a6d4cc06c97da1b2a9bbe6",
+    "stdout_bytes": 3043,
+    "stdout_sha256": "0b597add7c16fbce7adb0946940da46e11e7e1b58e1e60ae6e3b470daa13408d",
+    "stop_reason": null
+  },
+  "mathematicalStages": [
+    {
+      "actualOriginalRhoDegrees": [
+        26,
+        31
+      ],
+      "savedCommonDegree": 4,
+      "newQuotientRhoDegrees": [
+        22,
+        27
+      ],
+      "fullOriginalShortDivisionProductsReturned": true,
+      "old208By104CombinedMatrixNotRecomputed": true,
+      "noPreviousOriginalValueMatrixRecomputed": true,
+      "stage": "new_original_quotients_by_previously_saved_same_source_quartic",
+      "seconds": 0.051630289000001994
+    },
+    {
+      "rows": 88,
+      "columns": 88,
+      "originalSources": "rho^j lambda^i (G/g4) modulo the actual monic original quotient F/g4",
+      "noOldCombinedRankOrSylvesterKernelReplayed": true,
+      "completeQQRemainderProductsReturned": true,
+      "stage": "new_original_quotient_G_only_QQ_linear_image_built",
+      "seconds": 1.0403504500000054
+    },
+    {
+      "newOriginalQQRank": 88,
+      "extraCommonRhoDegree": 0,
+      "fullOriginalFGCommonRhoDegree": 4,
+      "extraMonicGcdAscending": [
+        [
+          "1",
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "completeOriginalFGMonicGcdAscending": [
+        [
+          "1552326258705019467987/8560033809839286947",
+          "-3141442415824189196688/8560033809839286947",
+          "1965125657693214275856/8560033809839286947",
+          "-526211114153612438880/8560033809839286947"
+        ],
+        [
+          "-521661730000865113772/8560033809839286947",
+          "846031925553514643712/8560033809839286947",
+          "-458348414082576807744/8560033809839286947",
+          "116142806390362305120/8560033809839286947"
+        ],
+        [
+          "-118411519795824747838/8560033809839286947",
+          "462954651946496291888/8560033809839286947",
+          "-354476447078176754224/8560033809839286947",
+          "96745848584680065120/8560033809839286947"
+        ],
+        [
+          "10612867814764/239608319477",
+          "-24745311843040/239608319477",
+          "16079471439264/239608319477",
+          "-4263587183520/239608319477"
+        ],
+        [
+          "1",
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "exactFullOriginalQuotientAndOriginalFGProductsReturned": true,
+      "degreeEqualityPaidByActual88DimensionalQQImageRank": true,
+      "allFourLambdaEmbeddingsRetained": true,
+      "notAProperCommonDivisorMistakenForFullRootCoverage": true,
+      "stage": "complete_new_true_QQ_original_FG_gcd_from_quotient_G_only_linear_input",
+      "seconds": 1.0775938200000041
+    },
+    {
+      "originalFixedRhoDegrees": [
+        26,
+        31
+      ],
+      "originalOrder": 57,
+      "independentOriginalKernelColumns": 4,
+      "independence": "shifted nonzero F/full_gcd blocks have distinct highest rho degrees",
+      "allOriginal57CoefficientKernelProductsReturned": true,
+      "trueQQPhiMultiplicityLowerBound": 4,
+      "kernelSha256": "d1128129451e6fd9db1312dc18fea194bcc8eade3638f97b2c5be9514e3f3276",
+      "stage": "complete_new_true_QQ_fixed_original_Sylvester_phi_lower_bound",
+      "seconds": 1.132411990999998
+    },
+    {
+      "trueQQPhiMultiplicityLowerBound": 4,
+      "fullOriginalMod1009PhiMultiplicityUpperBound": 8,
+      "exactQQPhiMultiplicityPaid": false,
+      "wholeOriginalQuarticFiberExclusionUsesAlreadyPublishedB711": true,
+      "noBareModularSupportLift": true,
+      "stage": "complete_new_original_FG_phi_valuation_interval",
+      "seconds": 1.1357052249999953
+    },
+    {
+      "actualOriginalFGCommonRhoDegree": 4,
+      "exactQQPhiEightNotYetPaid": true,
+      "existing112BoundNotChanged": true,
+      "noOldModularGaussInputReplayed": true,
+      "nextUnpaidObject": "first phi-adic lift of the four genuine original kernel columns",
+      "ordinaryISPClaim": false,
+      "stage": "accurate_new_G_only_quotient_input_no_extra_local_multiplicity",
+      "seconds": 1.1357375139999988
+    }
+  ],
+  "exactOriginalFGCommonRhoDegree": 4,
+  "newAdditionalQQPhiMultiplicity": false,
+  "strictDifferentOrderedBasePointBoundRetained": 112,
+  "ordinaryISPClaim": false
+}
