@@ -158,3 +158,7 @@ R1023已逐式识别原Hesse公共盖为[δ]并保deck/Frobenius真实符号；�
 ### R1027 的原 canonical fiber 零列已付
 
 原全q≥5的canonical fiber统一六挠：原曲面图push在秩二纯实现为δ、真正∞光滑纤维同源为−δ；保实际三挠修正与τ图pull后得6Q(O_B)=0。只在原54/η/P−/全Cor中清b=O_B的准确项，余有限CM fiber及全shadow仍待，无Tate假设。 所有实际截面的这一限制已证明，不再把q5的O列六挠当偶然；继续其余有限CM fiber或真正全盖/全trace构造，不能将只清一列冒成全shadow判定。
+
+### R1026 完整扩窗已付后的实际六行
+
+原H扩到p−6并全付精度K=min(H+1,5s−2)、六维double/两exact/原φ边界与唯一primitive。高q实际13权模p为vπ^(p²)，第二Cartier后同一固定vπ；三处原dVδ/p的Cartier=dW与裸holomorphic核全p单位。全部char0相邻权和13差保留，未因modp饱和删p^K费用；原真实系数深度<K。 取q=s−7,…,s−2，则H=p−36,…,p−6，全在饱和区且同K=5s−2；R1025§12已保证其中至少一个真实曲率单位。待真正从同一个坏canonical假设及完整contiguous/adjoint推出六行曲率全零，或给等价完整消元；原P10、GP10、第一primitive、三字/十三字位置与所有double系数不得删除。

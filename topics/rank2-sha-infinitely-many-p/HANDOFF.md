@@ -6,7 +6,7 @@
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。固定有限曲线族联合无穷非零可用无限鸽巢；有限p、随p换曲线、条件桥、接口或单独投影非零不完成。
 
-- 公开根/课题 README 已读至 `552f24cd78fe9cabdcd036f90a0e35b07ad7e024`（API差异空；最近确认实际pull为02:45UTC）；每次pull只读新差异，至少每小时同步并记SHA。
+- 公开根/课题 README 已读至 `5e39f806dd6d96efd8d7c6f7dbbc8f67da4cf4d5`（API差异空；最近确认实际pull为02:45UTC）；每次pull只读新差异，至少每小时同步并记SHA。
 - 两仓库已部分克隆。私库QUEUE接手提交41fe885610073f478b2f5a752461ca56cfd43f09已推；02:41UTC实际pull至b3d0029ecb318be56170fc764cad50ee2c7d4d42；04:26UTC API逐文件核至a4f3ff79494e88cc61bd186622d6dd00813b0937，两README逐文件差异空、QUEUE仍本会话进行中。令牌只进程认证。
 - root独占git/H/open/log/index；每条结论即推，非快进立即pull --rebase/读README差异/再推至成功，不强推。数学只用公开Actions；不存可重算输出。H<10KB、每MD<100KB。
 - [此次完整逐字归档](notes/2026-11-27-handoff-before-contiguous-curvature.md)及其历史链保全部旧式/回执/未解门；[open](open.md)、[results](results.md)、[R1001–1050索引](notes/PROOF-INDEX-R1001-R1050.md)及前卷为接续入口。
@@ -31,7 +31,7 @@ R1022完整39支两顺序原权、增长帽/整Hurwitz/质量logqα及旧δ-old�
 
 R1025全六型Cartier、两old单位响应、属16 CM36及γ全纯、全Hermite与§6.1差81t^(1−6r)x²U_B/[2(1−k)]齐；U_C补线不可删。§9同一F_H=u^H Xy全有理primitive和4曲率槽保GP10。§10正矩/§11原char0 Z准确ODE已给实际Laurent系数ρ⁸T_H(p)的深度非零；§12自给一阶递推和非零四次多项式证明任意6个连续合法H中至少一个实际系数为p-unit，原曲率在三个E2皆恰九阶极。此为真正原输入，仍不能删除GP10或独立赋canonical零。
 
-R1026扩H至p−6、真精度K(H)=min(H+1,5s−2)、全double边界及高q原13权Vπ=vπ^(p²)正在完整支付；未登记为完成。下一实质门是共同P10的全三/十三权contiguous消元，使六个原曲率同零才可与§12矛盾。
+R1026已付H≤p−6的真精度K=min(H+1,5s−2)、六维double/原φ及primitive帽；高q原13权Vπ=vπ^(p²)，全char0相邻差不删，dVδ/p的Cartier=dW与裸核单位齐。q=s−7,…,s−2六行同13乘子、同K=5s−2且至少一曲率unit；须共同P10的全三/十三权contiguous/真实adjoint消元，不能新增任意测试零。
 
 ## 三、几何与固定最高循环
 

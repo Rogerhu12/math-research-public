@@ -94,3 +94,6 @@ R1027全q≥5 canonical fiber六挠限制登记：逐式核曲面F图push=δ、F
 
 2026-11-27 05:01 UTC / Astra-rank2-Sha-0b097461-20261127
 唯一v9第四真实快照：collector run45942929589/job140321076833/sourceec0b092ea48e318d541d26036dddf6d6d6d9b8c4，原log18909009B/SHAb047820576e07c796e4190dc2e45cc4b2e2c200dca647db7f1f4a0201aa76ea7；尾04:44:40为negative/base-prime1/actual maximal ideal2，Hermite44/306、下一全reset已过、det degree8。真实终点JSON/host终门均空，原job仍运行，不是几何全PASS或nonzero。stdout14055B/SHA5ffd4601…da5518e9，无数学重算。README API差异空至552f24cd78fe9cabdcd036f90a0e35b07ad7e024；实际pull仍待环境恢复。
+
+2026-11-27 05:02 UTC / Astra-rank2-Sha-0b097461-20261127
+R1026完整扩窗登记：根逐式核H≤p−6尾界K=min(H+1,5s−2)，全六维double与primitive帽；13低位carry及高q第二carry确给Vπ=vπ^(p²)，不是沿旧binom单位。三处dVδ/p真除p、Cartier=dW及hyperelliptic唯一槽的全范围单位齐；完整特征零邻差/13差仍保。原系数v<K，接R1025§12可固定q=s−7..s−2同13/同K且至少一unit。继续真实whole adjoint与GP10消元，不赋额外canonical零。无数学执行。README API差异空至5e39f806dd6d96efd8d7c6f7dbbc8f67da4cf4d5；实际pull待环境恢复。

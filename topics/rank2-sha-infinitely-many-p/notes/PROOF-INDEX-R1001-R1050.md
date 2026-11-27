@@ -64,3 +64,5 @@
 - [R1025](../results/R1025-original-delta-flat-weight-full-cartier-and-cm36-hermite.md)：原增长δ根权的全部六型Cartier表与全支撑证明，实际H5的两个old响应在全部目标p为单位；固定属16的CM36盖及全Hermite原函数保真实全纯γ。乘回P10后完整保GP10项，曲率准确落原四系数槽/四维空间；§6.1精确差原函数只剩固定t幂·x²U_B，但其U_C补线仍保；继续全外权和同primitive forcing，未将裸响应当canonical非零。§9进一步给原F_H的完整P¹_y有理primitive与同四槽最高极有限和，精确保留−180倍GP10及曲率两项，有限和非零和全外权forcing仍未付。§10将同一有限和的有理提升写成严格负矩，自给分母界给全部目标p的v_p<H−3；仍须真正把原高精度中央读数接到该lift，未冒称模p单位。§11直接在原特征零Z中支付精确ODE及真实y^(−8p−1)系数，正矩和共同分母证明其v_p<5q+4<H−3；仍保整个P10/GP10和全外权。§12已证任意六个连续合法原权中至少一个真实曲率为p单位：完整Beta矩边界给一阶递推，非齐次项的固定非零四次多项式排五个连续零对；仍须保GP10全词消元。
 
 - [R1027](../results/R1027-canonical-fiber-six-torsion-and-original-shadow-column.md)：原全q≥5的canonical fiber统一六挠：原曲面图push在秩二纯实现为δ、真正∞光滑纤维同源为−δ；保实际三挠修正与τ图pull后得6Q(O_B)=0。只在原54/η/P−/全Cor中清b=O_B的准确项，余有限CM fiber及全shadow仍待，无Tate假设。
+
+- [R1026](../results/R1026-extended-flat-window-thirteen-saturation-and-full-contiguous-family.md)：原H扩到p−6并全付精度K=min(H+1,5s−2)、六维double/两exact/原φ边界与唯一primitive。高q实际13权模p为vπ^(p²)，第二Cartier后同一固定vπ；三处原dVδ/p的Cartier=dW与裸holomorphic核全p单位。全部char0相邻权和13差保留，未因modp饱和删p^K费用；原真实系数深度<K。
