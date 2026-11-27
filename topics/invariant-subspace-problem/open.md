@@ -4,7 +4,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-six-site-sharp-half-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-complete-Phi-exceptional-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -205,28 +205,30 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 [首头原BD返回](results/R150-appendix-unit211-Phi-zero-first-quadratic-head-actual-D-sixth-degree-necessary-equation.md)给P6度39/20/6；真实QQ分解付其不可约，λ头H19/11未付。[完整原F6新返回](results/R150-appendix-unit211-Phi-zero-first-head-complete-original-F6-row-and-D-nine-necessary-equation.md)：a215真10.754秒/118992KiB/0，同MT到T6得λ6/5/5三系数，新N1/歧义/F6三行完整BD身份给P9度73/41/9、17389项。原F6行/P9精确存11小片，首头零/H0保留，不先假P6/P9互素；旧lambda长模块冻结。[整H1新原L返回与D取消首次超时](notes/2026-11-27-unit211-Phi-zero-whole-first-head-linear-D-first-timeout-8542.md)准确保7dfa120.074362658秒/264344KiB/−14：L的lambda度1/1/2、三b²P−Ptilde身份已返；第一次D公共取消只到三步，无D末式或有限u覆盖。59.6KB精确L参数单存，保b0及真实权分母零。
 
-例外有序权图的λ半/H6/[整ψD6](results/R150-appendix-unit211-Phi-zero-exceptional-whole-moment-image-fiber-exclusion-and-128-cover.md)已闭；新[整M_J4与112覆盖](results/R150-appendix-unit211-Phi-zero-exceptional-whole-S-moment-quartic-exclusion-and-112-cover.md)由b711真5.218445731秒/171388KiB/0完成：208×104原FGH像QQ秩88，完整rho4短除法覆盖所有根；原S单位只剥T6一个一次因子，T5/z2原160维meanR矩阵全返单位。四条独立原57核列仅付QQ phi^4，模重数8未提升。完整原R新除后1977与S2050实际Bézout度112；原F26不可约与固定Sylvester/Vandermonde保全部不同有序(rho,λ)计数，不合并BC交换图。整原g4/T5/N1及160行小输入保存，余112与更高真重数继续。
+**[原Phi例外有序权图已全闭](results/R150-appendix-unit211-Phi-zero-exceptional-weight-chart-complete-original-exclusion.md)。** de686真0.143938009秒/41564KiB/0：已存原P6特化为rho41/lambda6，只剥已付rho三因子得C13/6；乘完整未付h4给N17/6，保整H1零。固定原43阶Sylvester模553与此前真QQ已付因子后的首一R1977实际Bézout=1，局部整Gauss排除全部复参数，BC交换也保。仅使用phi_J^4，不需任何更高jet。精确范围是ell=3/2、u=(rho+3)/2、Q=1−rho²的原有序例外图，绝非整ell=3/2或整Phi。旧主C87/55/C71/29、一般首头H1零/H0、全部原未付权/值仍开。
 
-[a40长rho欧氏](notes/2026-11-28-Phi-psiD-high-degree-rho-Euclid-SIGALRM-8542.md)及[bb35原λ模块](notes/2026-11-27-unit211-Phi-zero-first-head-lambda-row-module-first-timeout-8542.md)冻结。6e5真QQ88满秩只付原FG gcd准确4；新[整个g4第一次phi提升不相容](notes/2026-11-27-unit211-Phi-zero-exceptional-S-quartic-first-phi-lift-inconsistent-8542.md)真0.152720720秒/39952KiB/0、32×17增广秩17，故未付phi8，严格112仍保持。它不排部分核方向高阶。新ffbdc首次算delta=(qG EF−qF EG) mod g4的低次gcd c；实际与g4/c互素才续同源部分phi²/phi³等完整原F/G首一短除，混合4−d旧phi列和d新phi^j列全部57分量返回，凭modphi三角独立才付4+(j−1)d≤8。原H1零图、H0、旧87/55/C71/29、个别N/P与ed0/879边界均保留，不复算旧32×17/88/208/160。
+原a40/ed0/879与首头非零bb35、整H1的7dfa长取消失败均按准确note冻结。例外支历史6e5真FG gcd4、59d完整lift不相容、ffbdc真g4=c²未增加当时QQ重数；现例外已由新P6独立全闭，不继续这些局部入口或设重放门。一般H1已返L及三b²P身份/59.6KB准确参数可供不同新输入；其D目标、有限u覆盖仍未付。
 
-## R271：五位完整S2已闭，继续更高原来源（8542，2026-11-28）
+## R271：完整五/六位来源已付，继续内部边与高出生联合费用（8542，2026-11-28）
 
-[全位数尖锐2/3](results/R271-appendix-sharp-two-thirds-universal-birth-one-first-and-last-edges.md)保持；[四、五位half](results/R271-appendix-four-five-sites-birth-one-half-first-last-edges.md)之后，新[整个六位出生一尖锐half](results/R271-appendix-six-independent-positive-weights-birth-one-sharp-half-first-last-edges.md)已闭首末边。全六维精度先形成后商真零线，5个完整特征系数首次真0.255475250秒/35240KiB/0；9,168B准确参数保五阶及Cayley–Hamilton，33正均值差BigInt56ms完整付原正权严格正性。同源倒数权给末边，真实2×2完整逆给half尖锐。七位(6,1^6)已有实际比121/240>half，不能外推；六位内部j2及高出生全来源仍开。
+[全位数尖锐2/3](results/R271-appendix-sharp-two-thirds-universal-birth-one-first-and-last-edges.md)、[四/五位half](results/R271-appendix-four-five-sites-birth-one-half-first-last-edges.md)及新[整个六位尖锐half首末边](results/R271-appendix-six-independent-positive-weights-birth-one-sharp-half-first-last-edges.md)均闭。六位使用完整六维原精度后才商零线，五个完整特征系数/33正均值差给全五维源正性。七位(6,1^6)实际比121/240>half，禁止外推此常数。六位高度4的内部j2仍须另付，首末j1/j3不代它。
 
-新[五位全部独立正权完整S2及六位出生二首边](results/R271-appendix-five-independent-positive-weights-full-s2-and-six-site-birth-two-first-edge.md)已证明。同一全上MP/四共同块/两cross的cost平方迹N/D为加权98；566b首实0.233秒/46236KiB/0保存完整2841参数。BigInt3942ms将D−4N原z展开为6936正轨道、658965正单项式，min系数1，故Tr(K²)<1/4、K<I/2，与同L half合成真正S2。旧R298完整硬端S1、旧低源末边及R275全同余进一步给六独立位出生2九维首边严格成立。
+[五位完整S2](results/R271-appendix-five-independent-positive-weights-full-s2-and-six-site-birth-two-first-edge.md)保四共同块、两个cross与全上MP；同一平方迹的[3/16统一预算](results/R271-appendix-five-site-full-s2-uniform-three-sixteenths-square-budget.md)以472正均值差/6478正轨道给S2余量>(2−sqrt3)/4。[原定量Schur返回](results/R271-appendix-quantitative-one-bit-source-transfer-and-six-site-319-over-320.md)再保同Qy/WW*和原H0，六位出生2九维首边≤319/320；一般四项真实费用仅条件地给alpha·epsilon/2，不支付尚未取得的来源。
 
-完整75.7KB精确参数/单次证书源/回执保存；9b5/3e34两次资源失败及首次JSON TypeError准确保档，后者只修3处整数转换。此后续高出生、内部高度、全primitive联合来源及原W源费；N=M与普通ISP未付，不能把有限primitive结论替代原graph Gram。六位支持失败/84浮点仍只按[旧尝试](notes/2026-11-28-six-support-ward-attempts-8542.md)范围。
+下一首次派发真正六位低源内部j2：H=C3 F1^-1 C3−2C4，保完整F1逆与全六维J后取真空线商，primitive正因子缩放保持Faddeev整数除法，逐阶存完整参数。内部half未证；旧六位上birth2仅已有epsilon≥1/320，完整S1/S2、内部来源与更高primitive joint仍开。
+
+全部唯一准确参数/源码/回执已刊。9b5/3e34资源失败、首次JSON转换故障及旧六支持流失败保原准确身份，已成结论不重跑。有限primitive预算不替代原graph Gram、同W真实RanK*费、Green/carry或N=M；全部相关接口仍按前节和快照继续。
 
 此前Haar/稀疏链全交织、所有非零Ky像T循环、与RanJ零交及同源Abel费/log发散等已证接口仍在快照链；Cy⊥非零、G保N、W源费及普通ISP继续。
 
-**碰撞P3下一输入：** 直接读已保存F66，作完整QQ因子与同一lambda/u/Q原返回，保每个首项零及异常权分量；不再运行已完成1474长欧氏或新低Gamma范数。
+**碰撞P3新有限原输入：** 35afaf首次仅读1961B F66、旧四原多项式两片及P因子清单；准确QQ分解并保lambda/u全部首项下降及非单位两因子，同一Q原四式真正组合返回1或已付物理乘积幂。180秒/4GiB首次派发，未假整P排空，不重跑1474或低Gamma范数。
 
-[五位完整S2统一余量](results/R271-appendix-five-site-full-s2-uniform-three-sixteenths-square-budget.md)的472正均值差/6478正轨道已实际付Tr(K²)<3/16及S2余量>(2−√3)/4。新六位half另以原完整精度和全部特征系数独立闭合；旧六位支持流失败按原范围保留，无重跑或改记。下一需支付六位低源内部L2 L3^-1 L2以及旧六位上birth2完整S1/S2，才能作更高位数真实一位递推；当前epsilon≥1/320不代这些缺项。
 
-[原一位来源的定量Schur返回](results/R271-appendix-quantitative-one-bit-source-transfer-and-six-site-319-over-320.md)已把五位同源余量返回原H0：在四项已付费用epsilon/kappa/rho/sigma下，新原首边余量≥alpha·epsilon/2，其中alpha=min{1−sqrt(sigma),(1−sqrt(kappa))(1−sqrt(rho))}。对六位出生2实际取epsilon=1、kappa=743/782、rho=1/2、sigma=(2+sqrt3)/4，alpha>1/160，故整个九维原首边≤319/320 I。保原Qy/WW*、真实Schur变分和同源可逆同余，不把辅助块常数直接移到H0；一般高出生所需四费用仍开。
+
+
 
 [W-G36前七整个低QQ纤维](results/R150-appendix-unit211-W-G36-seven-low-QQ-fibers-exclusion-and-two-retained-fibers.md)已闭：k次数2/2/3/4/5/6/10，总32；每个原Q6实际分q1/q5，前者已付原单位恒零、后者整个QQ常数代数原48×35目标1全列乘回。cad41随后真180.069730303秒/88336KiB/−14，不抬限；只余k14的q5（其J19零q1已闭）和尚未开始的k15全q6。两原纤维准确参数单存，后续改新两四次108×56有限返回，前七成功块与已闭q1均不重跑。结合高1134全闭，G36只余这两低纤维；G36非零及原未付头另保。
 
-**Phi例外新增同点必要式：** 新de686源仅读已存3101项P6，代u=(rho+3)/2、Q=1−rho²；准确−12H1=rho²(rho+1)²h4/4，h4=11rho4−14rho3+44rho2−18rho+9。必要式保整个未付h4乘因子，只剥已付纯rho单位；新固定原F26/h4P6结式与实际QQ已付phi4后的R1977、旧S2050三项全Bézout首次派发。没有预支phi8、没有丢首项退化或H1零。原整H1图仍开，旧D公共取消不加时。
+
 
 [新部分phi障碍的真实重结构](notes/2026-11-28-unit211-Phi-zero-exceptional-partial-phi-repeated-factor-8542.md)：ffbdc真0.147746766秒/40444KiB/0，原障碍rho3、gcd二次c且g4=c²，互素补因子前提不成立，准确未执行后续jets、未改善112；不把约化根移为QQ行列式幂。另首次派发同六位低源内部j2新输入H=C3 F1^-1 C3−2C4，保全F1伴随逆与整个六维J后才商真零线；只提primitive正多项式以保每阶整数除法，180秒/4GiB逐阶保存原系数，未假内部half。
