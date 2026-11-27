@@ -1,15 +1,18 @@
 {
-  "message": "ISP: complete all ten original W value rows and submit D-cleared two-generator return",
-  "parentCommit": "04981c333387dd1fb2c27233081b3b86b39c89ac",
+  "message": "ISP: run new monic six original values on general determinant and whole Phi zero charts",
+  "parentCommit": "4c04fed9ffd0ad3c085e269e4354121bb0b521df",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-native-full-value-four-generator-system.md",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-W-native-four-generator-full-value-receipt-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-generic-LS-W-native-coefficient-D-cleared-two-generators-8542.py",
-    ".github/workflows/invariant-subspace-w-native-d-cleared-two-generators-8542.yml",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-monic-six-explicit-geometric-localization-helper-8542.py",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-monic-six-separate-geometric-exponents-helper-8542.py",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-general-Phi-zero-monic-six-actual-value-return-8542.py",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-general-Delta-nonzero-monic-six-actual-value-return-8542.py",
+    ".github/workflows/invariant-subspace-phi-zero-monic-six-actual-values-8542.yml",
+    ".github/workflows/invariant-subspace-general-delta-monic-six-actual-values-8542.yml",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-monic-six-original-value-inputs-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -19,6 +22,7 @@
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
   "dispatchWorkflows": [
-    "invariant-subspace-w-native-d-cleared-two-generators-8542.yml"
+    "invariant-subspace-phi-zero-monic-six-actual-values-8542.yml",
+    "invariant-subspace-general-delta-monic-six-actual-values-8542.yml"
   ]
 }
