@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [W完整NV的直接二次及未付H411全首项](results/R150-appendix-unit211-W-entire-NV-direct-T-quadratic-and-complete-leading.md)：原q5/q4/q3完整恒等，二次头411项；保整零面及全部原个别N/P。
+
 - [全部正权出生一首末边的尖锐2/3](results/R271-appendix-sharp-two-thirds-universal-birth-one-first-and-last-edges.md)：完整物理逆、全部位数及无限正ell²行，次数10完整整数证书与尖锐极限；高出生/同W来源仍开。
 
 - [碰撞Delta非零同点原四参数式](results/R150-appendix-unit211-equal-singleton-Delta-nonzero-four-complete-original-polynomials.md)：原NV/P1精确恢复，四完整原核心及QQ不可约返回，保全部Q/λ首项零；个别N/P续。

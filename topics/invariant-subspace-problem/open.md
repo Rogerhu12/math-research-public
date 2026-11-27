@@ -271,3 +271,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 ## R271 全正权出生一首末边的尖锐2/3（8542，2026-11-28）
 
 [完整尖锐定理](results/R271-appendix-sharp-two-thirds-universal-birth-one-first-and-last-edges.md)：全部N≥4独立正物理权及无限正ell²行的真实完整逆满足Γ1Γ2⁻¹Γ1<2Γ0/3；有限倒数权对偶给同常数末边，一强L弱的完整对称2×2逆比趋2/3，统一常数不可降低。次数10支持穷尽/4–6支持完整主子式/7位坏单项的同支持对分组已准确支付，新BigInt V8 9167ms全返，首次过严严格负断言失败保回执。高出生、内部高度、五位S2、同W源费和N=M仍开，继续完整joint primitive源。
+
+## W 原NV直接二次与整个H411首项面（8542，2026-11-28）
+
+[完整二次身份](results/R150-appendix-unit211-W-entire-NV-direct-T-quadratic-and-complete-leading.md)：1be真2.275800986秒/71384KiB/0，q5=(T+γ4)q4+μ3q3+NV2，保持原理想，三系数编码从368018降84724B。真二次头=已付因子×H411，H411度9/11/4、411项未付，整个零面保留。新47f只取原r2/NV2完整同S一次组合及三Bi权常数cofactor；只有实际头剥全付才作唯一恢复，不预付几何主元。

@@ -1,15 +1,16 @@
 {
-  "message": "ISP: prove the sharp two-thirds universal physical birth-one first and last edge bounds",
-  "parentCommit": "1842a091b396c1d280c919b99794d1a7fb170aa4",
+  "message": "ISP: return the entire NV direct quadratic and its complete unpaid leading fiber",
+  "parentCommit": "1aa2a5d719a73c9432e45f34ab1731b10fdc9e0a",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R271-appendix-sharp-two-thirds-universal-birth-one-first-and-last-edges.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-birth-one-two-thirds-support-certificate-8542.mjs",
-    "topics/invariant-subspace-problem/notes/2026-11-28-birth-one-two-thirds-support-receipt-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-27-handoff-before-sharp-birth-one-two-thirds-8542.md",
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-W-entire-NV-direct-T-quadratic-and-complete-leading.md",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-W-entire-NV-direct-T-quadratic-leading-receipt-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-W-two-original-value-quadratics-affine-and-F-weight-Cramer-8542.py",
+    ".github/workflows/invariant-subspace-w-two-original-quadratics-affine-f-weight-cramer-8542.yml",
+    "topics/invariant-subspace-problem/notes/2026-11-27-handoff-before-W-direct-NV2-unpaid-H411-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -18,5 +19,7 @@
     ".github/workflows/invariant-subspace-8542-root-terminal-publication.yml",
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
-  "dispatchWorkflows": []
+  "dispatchWorkflows": [
+    "invariant-subspace-w-two-original-quadratics-affine-f-weight-cramer-8542.yml"
+  ]
 }
