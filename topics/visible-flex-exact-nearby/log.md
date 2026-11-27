@@ -96,3 +96,9 @@
 ### 2026-11-27 WMR 首完整physical mean-height消费者源码
 
 五件frozen source共55733B与完整SHA note已公开，无manifest/workflow/dispatch，无新science。必要relative恢复仅原coeff/proposal，完整18final+ordered chain和NP4 whole SHA不变，禁止RHI旧step/finish/norm重算。8192点完整Aᵀ(Jy+δJx)核保degree2144、两mean/actualworld ports，三自然目标为true joint三signed均值、全L1和原reference body。RHI尚in_progress，只有whole成功终态后才生成实际输入；不把本源码当actual。公共root/topic README随最新main无diff。
+
+### 2026-11-27 GHV：完整实际horizontal/coframe和低图vector二jet
+
+已证明/15条新exact比较首次全过。实际Cartesian G=I+W²er⊗er−Dz⊗Dz，全域真实小图付sqrtG/coframe、connection和物理长<8的单一frame积分；从真正Hmet_a=δW(1+L)、L_t得Xi(δW)≤4||Hmet||C²，完整Γ1/Γ2保。fixedγ vector formal二jet≤2^4096 E20，fullpartialγ<2^-55000000 A0/r，不要求height第三导。完整D_w operator连续保原γH8193，partialγ joint A0/wE21；generic broken只入形式jet，actual matched解经closed jet空间才global C²，独立placement/λ/periods保。无旧科学/15比较重跑。
+
+04:13 TCXV公开union1500/contiguous1176，三片184/164/160；whole44804B f6150513b851c26d5adc2d921626ff04f1c2867769f73f3f2879fa69944be473，prefix9553B 638b7069bd44eb3a2543f6d258c9794ce301207bd4b68bf021f3563a794b9b2f。DWTB首whole16975B 0ee1df2a93ea014ddad0e105933290b501960f14fed2ef299e4e5200de7c2ccf：0/9、SN恢复1610/3146和6440subcells；UDRC21仍0/21必要AS恢复。所有failure=null，started不冒target完成。

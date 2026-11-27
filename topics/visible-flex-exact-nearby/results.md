@@ -488,3 +488,7 @@ GHR [metric-reference height](results/R144-supplement-actual-seed-metric-referen
 ### SHT：实际selected tail的完整global C²物理高度响应（已证明）
 
 [完整证明](results/R119-supplement-C1-physical-height-of-the-actual-selected-tail.md)与[5条新整数组合](scripts/fourfold_codazzi_selected_physical_height_saved_bounds.py)。原S/T闭域，完整physical height的A0差与线性响应≤2^-31220733/rγ；包括mean、reference1、全Γ反馈和整个finite connector。实际匹配解的inward差商在闭二jet子空间取极限，得strict H8193 interior→global physical C²的C1，闭域逐base相对A0一阶余项；不偷A0 operator连续。独立λ导数单列；一个固定物理mean row可精确仿射消去且常数2^-31220732，但两端span、moving test、world/core与最终fixedmetric族仍独立。三GH proof公式定界符仅修渲染，无数学重跑。
+
+### GHV：实际horizontal coframe与完整vector低图二jet（已证明）
+
+[完整证明](results/R144-supplement-actual-horizontal-coframe-and-low-graph-vector-two-jets.md)及[15条新整数组合](scripts/fourfold_codazzi_low_graph_horizontal_saved_bounds.py)。实际G=I+W²er⊗er−Dz⊗Dz，真实小图与Xi(δW)≤4||Hmet||C²付完整sqrt-coframe/connection/单路径：fixedγ vector二jet≤2^4096 E20、partialγ<2^-55000000 A0/r。保所有mean/metric/Γ/端点/whole finite+flat end，不用height第三导。泛broken方向只属formal二jet读出；actual selected matching闭子空间后可取global C²响应。placement/λ/periods/core仍独立。
