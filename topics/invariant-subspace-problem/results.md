@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R150 一般 T0=0 原 D 身份与唯一四次权曲线](results/R150-appendix-unit211-general-T0-zero-original-D-quartic-cover.md)：已证明；最终分母仅物理单位乘F4，曲线全有理参数，整曲线原返回继续。
+
 - [整个一般ell=0原支完整排除](results/R150-appendix-unit211-general-ell-zero-complete-original-exclusion.md)：三整头曲线、1146次QQ完整投影余404的五非线性整因子及两整线全由原QQ/Gauss返回；一般LS余图可付ell，继续T0及其他未付面。
 
 - [Q边界85阶QQ投影准确冻结](notes/2026-11-27-unit211-Q1minusU-85-Sylvester-QQ-projection-frozen-8542.md)：120秒闹钟/SIGALRM、shell exit142，未出结式，精确总墙钟/RSS未记录；转新原同点输入。

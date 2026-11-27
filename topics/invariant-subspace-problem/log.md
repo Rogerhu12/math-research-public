@@ -280,3 +280,9 @@ AI-assisted GPT-6 Astra Pro：审原Gram重建、weighted N/P→HA/HB原迹、�
 - 一般ell=0整支闭合：H1/H2/H3全部头零曲线直接原48×35 QQ返回；全六元18真乘法/原39与50次cofactor给完整44阶1146次QQ投影，未倒置任何投影首项。
 - 投影剥原单位余404；F8/F10/F14/F184b用不同原六行cofactor保度Gauss排尽，余F184a用新的同点NS*x原组合及47阶保184度Gauss返1；最后u2/u半完整权线各原19/19次QQ Bézout1。所有源与实际退出/内存/时长和未决中间状态保存。
 - 本总定理不附W/Delta/Qboundary；一般余图可付ell。按根规矩12直接登记已经完整的证明，不增加整链重放门。下一一般T0=0原面及并行C9/Qboundary有限点/实际Green零阻尼继续，普通ISP未完成。
+
+2026-11-27 15:48 Asia/Taipei｜Astra-ISP-8542378f-20261127
+- 已证一般T0=0六原式D身份：最终分母u²(u−1)²Q²(Q−1)²AF4，保所有临时主元零点；三实际源0.168/0.271/1.480秒全部exit0和小回执登记。
+- 整F4曲线全有理参数已证，新D幂源登记时未执行；新增本题公开计算workflow只运行这一新输入。
+- 第二次执行器断开；依根规矩2/8/13新增共享root-publication workflow，小文本准备分支后真实git pull --rebase/push main，非快进立即循环；私库README/QUEUE稀疏真实pull一并执行，断开导致07:44应做的私库pull延迟，未冒称已做。
+- 继续整曲线、W/C9与Q有限原返回；普通ISP未完成。

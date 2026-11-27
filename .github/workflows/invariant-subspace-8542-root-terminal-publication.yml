@@ -1,0 +1,42 @@
+name: ISP 8542 root conclusion actual pull rebase and push
+on:
+  push:
+    branches:
+      - 'isp-8542-root-publish-*'
+permissions:
+  contents: write
+  actions: write
+concurrency:
+  group: isp-root-terminal-publication-8542
+  cancel-in-progress: false
+jobs:
+  root-publication:
+    if: github.repository == 'Rogerhu12/math-research-public'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      ISP_PIN: ${{ github.sha }}
+    steps:
+      - name: Exact partial checkout of the prepared conclusion
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p "$RUNNER_TEMP/isp-8542-prepared-root"
+          cd "$RUNNER_TEMP/isp-8542-prepared-root"
+          git init -q
+          git remote add origin https://github.com/Rogerhu12/math-research-public.git
+          git sparse-checkout init --no-cone
+          git sparse-checkout set --no-cone '/README.md' '/topics/invariant-subspace-problem/README.md' '/topics/invariant-subspace-problem/HANDOFF.md' '/topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-8542.py' '/topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json'
+          timeout 120s git fetch --no-tags --filter=blob:none --depth=2 origin "$ISP_PIN"
+          git checkout -b prepared FETCH_HEAD
+          printf 'ISP_PREPARED_DIR=%s\n' "$PWD" >> "$GITHUB_ENV"
+      - name: Actual main pull and immediate non-fast-forward rebase retries
+        env:
+          GH_TOKEN: ${{ secrets.MR_TOKEN || github.token }}
+          GH_WORKFLOW_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          cd "$ISP_PREPARED_DIR"
+          python3 topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-8542.py
