@@ -227,7 +227,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 
 
-[前七整个低QQ纤维](results/R150-appendix-unit211-W-G36-seven-low-QQ-fibers-exclusion-and-two-retained-fibers.md)度2/2/3/4/5/6/10全闭：q1原单位零、q5原1均实际返回。cad41真180.069730303秒/88336KiB/−14，末k14只保已存q5、k15 q6未开始；准确末low29参数单存。新b88ab仅这两图用原两四次108×56有限自由返回，不重做前七或已闭J19 q1。G36非零/H411/L1/所有lambda头另开。
+[最后两个低参数原纤维全闭](results/R150-appendix-unit211-W-G36-last-low29-complete-original-exclusion.md)：b88ab真19.783737046秒/51300KiB/0，k14只读已存q5，k15新QQ gcd分原M恒零q1/整q5；两个p整首一模型秩70/75，首素数1009的12整q5块均108×56 rank56及原1全列乘回，24子进程全0。有限自由Nakayama闭整个QQ末low29，未挑根/删幂零，不用D逆。前七low32和高1134既闭，所有旧失败原状保留；共同F恢复与剩W原式继续。
 
 
 
