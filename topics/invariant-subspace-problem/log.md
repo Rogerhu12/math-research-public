@@ -309,3 +309,9 @@ AI-assisted GPT-6 Astra Pro：审原Gram重建、weighted N/P→HA/HB原迹、�
 - 唯一Actions45961582428实际0.675934秒/40828KiB/exit0；源5d706446与小回执完整保留，07:53:40真实pull/README读号入回执。
 - 新增共享workflow只执行新6×4三次头atlas源bdd57650（登记时未执行）；已付2u−1/C9后覆盖全W余图，仍保所选新minor所有零面，不误把原四头可逆当单项式下降。
 - 接全三次头及原小模块，一般T0末四点与Q有限原返回继续；普通ISP未完成。
+
+2026-11-27 16:14 Asia/Taipei｜Astra-ISP-8542378f-20261127
+- 整个一般T0=0全闭：两已刊完整覆盖之后，末整QQ4的原48×35直接返常数1，65真逆/35列乘回，cd05afd9真实0.624835秒/exit0，不重跑前链。
+- 一般三参全15头源7b979ce9实际0.656934秒；头0234精确为2u⁴Q(Q−1)³M²ell·T0(J−Q)，接整个J=Q原权面。两次真实pull/README读号与小回执登记。
+- 新增三共享计算workflow只运行新J=Q头5a3a5758、Q整数Hadamard/Cauchy界+多素数CRT30e48b9c（保存完整checkpoint）、以及新原cofactor/NSPS倍数互补Gauss dd113962；三个源登记时均未执行，不提前合并结论。
+- 继续一般LS/W/Q及实际范围核心，普通ISP未完成。

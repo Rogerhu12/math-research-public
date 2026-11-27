@@ -5,10 +5,10 @@
 ## 目标与规矩
 
 - **普通复可分无限维 Hilbert ISP 未完成。** 只以全体有界算子定理或完整反例收尾；子题/时间/输入不足均不停止，按open换输入继续。
-- **最近实际 pull / 已读规则提交：** 05f9c32cb7faca1672e23203ab0e8cfa4db1370b（2026-11-27 08:06:59 UTC，Actions run45963175947实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-8542/45963175947-1.json。
-- 私库QUEUE本会话进行中已实际核验；最近真实pull为2026-11-27 08:06:59 UTC/863dd92fedebbf22a891e4d9bd83f4b9857c6da5，根README diff无变。公私均部分克隆blob:none。
+- **最近实际 pull / 已读规则提交：** 958632ebb7d24f7c8875ec5a357dbb7f706ad797（2026-11-27 08:15:08 UTC，Actions run45964194174实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-8542/45964194174-1.json。
+- 私库QUEUE本会话进行中已实际核验；最近真实pull为2026-11-27 08:15:08 UTC/b1c347d07643f1f2f20a1a881c10b0d1c62afd4e，根README diff无变。公私均部分克隆blob:none。
 - **终端再次断开：** 约2026-11-27 07:20 UTC起执行器不可用；最后成功本地推送09969a4，实际pull及源身份已保留。按根规矩8/13小文本保存新结论，再由公开Actions真实pull --rebase/push，非快进立即循环。此前故障保[说明](notes/2026-11-27-executor-outage-and-unpublished-small-input-checkpoint-8542.md)。
-- **终端断开后远端已读：** `05f9c32cb7faca1672e23203ab0e8cfa4db1370b`（2026-11-27 08:06:44 UTC）；只读检查不冒称实际pull。
+- **终端断开后远端已读：** `958632ebb7d24f7c8875ec5a357dbb7f706ad797`（2026-11-27 08:14:47 UTC）；只读检查不冒称实际pull。
 - H<10KB、MD<100KB、open尽量<30KB、题<200MB；只留源/参数/SHA/小回执，不留可重算大输出，不写根LOG。课题外workflow改动已记本题log。
 - 所有被压缩的精确结论/来源/失败身份保[最新完整H](notes/2026-11-27-handoff-before-complete-C9-exclusion-8542.md)、[open](open.md)、[结果索引](results.md)及归档链；省略不算关闭，已登记不重做。
 
@@ -32,7 +32,7 @@
 - **整个一般等权b=c全闭，可全局付ell−u；W0另付k+2、Q−2。** 全824次QQ覆盖余(2m+1)F236F243，大因子同原保度Gauss全排，末m半由五原23/29次cofactor QQ Bézout1。已闭小面、成功源和失败门保总定理/归档；旧QQ600秒门冻结，J19/C9与不等权继续。
 
 - **整个一般ell=0全闭，可全局付ell。** 三整头曲线、六元/18真乘法、1146次QQ投影余404五非线性因子及u2/u半整线全原返回，来源/回执保总定理；不加W/Q边界，不重放。
-- **一般T0=0只余至多四个完整权点。** 原整面D身份仅余F4，完整k参数曲线再返原D，最终唯一未付J4=3k⁴+80k³−1100k²+5000k−6875；源d843f639，真实0.915秒/exit0，所有临时主元零点保留。全QQ[k]/J4原48×35及必要真闭包源cd05afd9已备、未执行。并行新一般三参15头atlas源7b979ce9不加W/Delta/T0，尚未执行；一般余面继续。
+- **整个一般T0=0原支现全闭，可全局付T0。** 原整面仅余F4、整曲线仅余J4，最后整QQ4商的原48×35直接返1，65真逆无未付分裂；源cd05afd9真实0.625秒/exit0。一般三参15头源7b979ce9实际0.657秒，头[0,2,3,4]精确2u⁴Q(Q−1)³M²ell·T0(J−Q)，余图只剩J=Q头面。新整J=Q头源5a3a5758未执行；Q新严格整数界CRT源30e48b9c与互补原Gauss源dd113962独立运行后才合判断，旧两QQ大门不重跑。
 
 ### rankH3原ess6
 
