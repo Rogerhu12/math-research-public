@@ -1,18 +1,18 @@
 {
-  "message": "ISP: exclude the entire original K7 branch and globalize physical lambda three generators",
-  "parentCommit": "d2a58d6e1d279034a4391c84f223ca20bb31e81e",
+  "message": "ISP: prove first one-pair S1 minor for all positive weights and start remaining original minors",
+  "parentCommit": "0c51ba4b8d4e82f345cb23106c29b952ab931c57",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-W-entire-K7-complete-original-exclusion-and-global-three-generators.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-entire-K7-last-cubic-original-QQ-return-receipt-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-H1-P201-modular-pole-support-degree-saturation-8542.py",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-three-column-original-input-and-sylvester-boundary-8542.json",
-    ".github/workflows/invariant-subspace-8542-phi-h1-p201-modular-pole-saturation.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-entire-k7-complete-exclusion-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-entire-k7-complete-exclusion-8542.md",
+    "topics/invariant-subspace-problem/results/R271-appendix-one-pair-four-independent-first-s1-minor-all-positive-weights.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-one-pair-four-independent-s1-first-minor-squares-receipt-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-28-one-pair-four-independent-s1-remaining-five-original-minors-8542.py",
+    "topics/invariant-subspace-problem/notes/2026-11-28-one-pair-four-independent-s1-remaining-five-original-minors-8542.md",
+    ".github/workflows/invariant-subspace-8542-one-pair-remaining-five-sone.yml",
+    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-one-pair-first-minor-all-positive-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-one-pair-first-minor-all-positive-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -22,6 +22,6 @@
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
   "dispatchWorkflows": [
-    "invariant-subspace-8542-phi-h1-p201-modular-pole-saturation.yml"
+    "invariant-subspace-8542-one-pair-remaining-five-sone.yml"
   ]
 }

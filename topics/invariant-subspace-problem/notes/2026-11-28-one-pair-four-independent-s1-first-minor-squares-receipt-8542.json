@@ -1,0 +1,60 @@
+{
+  "elapsed_seconds": 3.0573843140000037,
+  "max_child_rss_kib": 68092,
+  "ordinary_isp_claim": false,
+  "rules_reads": [
+    {
+      "after": "f001ca62c1081b7e542c842d14c198ce16b6bee5",
+      "before": "22e753773375efc483000ff580592e173f000583",
+      "rules_git_blobs": {
+        "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+        "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+      },
+      "rules_unchanged": true,
+      "utc": "2026-11-27T22:27:40.015370+00:00"
+    }
+  ],
+  "run_attempt": "1",
+  "run_id": "46076743875",
+  "schema": "isp-frozen-exact-actions-execution-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "source_commit": "22e753773375efc483000ff580592e173f000583",
+  "source_exit_code": 0,
+  "source_git_blob": "c05136252c96a32a296c4cf97b82052f46154d19",
+  "source_sha256": "87eb93ecb9bccb4499448d6a437644553c9d62e9c5aff600b5651c67d12d33fb",
+  "stdout_bytes": 4020,
+  "stdout_sha256": "86bc5d16cb2db72023e0ff41fdf3ce4076eb095a56afd01950d9638c42f26661",
+  "stop_reason": null,
+  "job_id": "140766140438",
+  "mathematical_scope": "Only the first original S1 principal minor, sorted four-single positive weights and one equal pair; all five closed chambers are now paid.",
+  "already_proved_chambers_not_recomputed": [
+    0,
+    1,
+    2
+  ],
+  "new_chambers": [
+    {
+      "pair_position": 3,
+      "full_original_polynomial_return": true,
+      "squares": 6,
+      "compact_integer_square": "324*(A+2)*B^23*(6*B^2+69*B*C+175*C^2)*(C-D)^2",
+      "residual_terms": 29604,
+      "residual_negative_coefficients": 0,
+      "reserved_constant": "2519424000",
+      "residual_sha256": "776623b2c0eddb2af0d2d8698bf254b30b92bb83cd487cb035a48b0ca1a2b7c9"
+    },
+    {
+      "pair_position": 4,
+      "full_original_polynomial_return": true,
+      "squares": 0,
+      "residual_terms": 35253,
+      "residual_negative_coefficients": 0,
+      "reserved_constant": "2519424000",
+      "residual_sha256": "00fa672fb78b62121cf929683df868ac01797fe14656b8dfad1aab06ae8bfa3a"
+    }
+  ],
+  "other_original_leading_minors_computed": 0,
+  "full_S1_proved": false,
+  "S2_tested": false,
+  "ordinary_ISP_claim": false
+}

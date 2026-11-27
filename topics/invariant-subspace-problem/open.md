@@ -6,7 +6,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-entire-k7-complete-exclusion-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-one-pair-first-minor-all-positive-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -218,6 +218,6 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 [全部普通限制的本质正序障碍](results/R12-appendix-all-invariant-restrictions-essential-hyponormal-obstruction.md)已排实际普通限制/解析函数/非零子商的任意相似加紧成为次正规等正序输入。新[交织方向与实际闭逆费用](results/R12-appendix-all-subquotients-hyponormal-intertwining-directions-and-closed-inverse-cost.md)证明全部实际A子商及非恒定解析芽到hyponormal、从cohyponormal的任意有界交织为零。反向移位到B有明确迹类拟亲和X_x；专对B=A_Q，每个非零移位不变L都满足closure(X_xL)=C_x，不能由此推出更小普通空间。实际闭逆Y_x单域保轨道，但同一来源放大至少exp((100/15)r⁴n⁴−105r³n³−O(n))。C_x真性、非正序紧扰动目标、真正特殊闭域和来源费用继续；不搬这些Haar子商结论到边界。
 
-[一对加四独立旧配方](notes/2026-11-28-one-pair-four-independent-original-s1-coefficient-source-inconclusive-8542.md)的944负系数仅配方失败。[首minor三个闭权序域](results/R271-appendix-one-pair-four-independent-first-s1-minor-three-closed-chambers.md)：a316真2.441294980秒/59820KiB/0，k0/1/2全系数非负且常数2519424000，准确付有序$x_2\ge1$时原$\mathcal E_{00}>0$，全部碰撞边界保留。k3有6负项，k4未算，均非反例。新c051仅复合余k3/k4，以固定半径2/至多32个有理平方扣除并全多项式乘回；首次180秒/4GiB，不重做前三域。完整S1/S2、后五主子式及同W费继续。
+[一对加四独立首原minor全正域](results/R271-appendix-one-pair-four-independent-first-s1-minor-all-positive-weights.md)：a316前三闭域加c051真3.057384314秒/68092KiB/0；第四域全乘回平方项 $324(A+2)B^{23}(6B^2+69BC+175C^2)(C-D)^2$，余29604项非负，第五域35253项非负，常数均2519424000。故有序全部正权的首原子式严格正，含重权边界。旧944负系数只配方失败。新29ce9首次180秒/4GiB只测后五Δ2–6：完整6×6、全物理逆及交叉项，按需原Schur，五闭域/固定平方证书；首minor仅已付枢轴不重测。完整S1/S2、六独立及同W费仍开。
 
 [整K7完整排除与全W原λ三生成](results/R150-appendix-unit211-W-entire-K7-complete-original-exclusion-and-global-three-generators.md)：85bc原理想返$C_3^2$，9418真0.299187631秒/37528KiB/0在整个QQ三次48×35、rank33直接返$D$，提回原环给$D^2\in I_6$，物理D单位闭整K7及幂零层，181×84未执行。当前全部W可付K，原E1/EBe/EBo使1,x,y在权[λ]上三生成，每固定权/λ纤维长≤3；不称任意D局部化全局有限。5dafa真180.964816531秒/280932KiB/−14已返11原行和两λ6原cofactor；12×12结式只两步221整除，未返det，门冻结。未付内容/λ头、个别NP/NV及新同点输入继续；ebed循环绑定故障和0900路径故障分别保准确记录。
