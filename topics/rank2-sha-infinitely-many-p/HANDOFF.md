@@ -11,7 +11,7 @@
 - 07:20执行环境再次失联，10:58:59两库实际pull重试仍各为No usable execution environment。随后公开API核至f6438625c06dda786cb9117b9004d84cf3184f25、私库至a6ed8db38d42aee73a8847fb1ff48e53cb015e76；四README均与前次实际pull同blob，QUEUE仍“进行中（Astra-rank2-Sha-0b097461-20261127 / 2026-11-27）”。公开相对本课题末提交只2个其它文件变动。API不冒充pull；恢复立即补两库实际pull。
 - 至少每小时重试同步，每次pull后只读新README差异并立刻执行，记实际读过SHA；断连沿最新main API非force快进，每次检查README及本topic外部变动。10:48ref失败已立即实际pull重试、重比新父后成功；不强推。
 - root独占git/H/open/log/index；每条结论立即推，拒绝时pull --rebase后重试至成功。令牌只命令行/进程，不进文件/提交/API。数学执行只在公开Actions；根规则15禁止存可重算输出或日志数据。H<10KB，每MD<100KB。
-- 本次整理前的[完整交接](notes/2026-11-27-handoff-before-original-miller-norm.md)逐字保原历史，向前链接所有旧归档；[open归档](notes/2026-11-27-open-before-prym-inert-infinitude.md)、[results](results.md)、[R1001–1050索引](notes/PROOF-INDEX-R1001-R1050.md)保完整参数/门/失败/回执，不重做已登记结论。
+- 本次整理前的[完整交接](notes/2026-11-27-handoff-before-dual-four-cover.md)逐字保原历史，向前链接所有旧归档；[open归档](notes/2026-11-27-open-before-prym-inert-infinitude.md)、[results](results.md)、[R1001–1050索引](notes/PROOF-INDEX-R1001-R1050.md)保完整参数/门/失败/回执，不重做已登记结论。
 
 ## 一、唯一原厚几何作业
 
@@ -45,7 +45,9 @@ R1039原g二盖严格Prym≅EL:y²=x³−12x+20、r*r_*=1−ι、原边界D∞�
 
 R1041原s0=0四字母盖精确H²=Q6(v)、全incidence及F²=−q；Pell U全Norm=cU²[Y/(Y+1)]^((q+1)/3)，完整ODE/原迹微分齐。原FQ全极及εprod=−δW/t严格分Z+=ΓE+、Z−=ιΓE−，指定AQ∈EL(Fq)。§§10–12真边界r_*ΓΔ∞=[R0]−[−R0]、R0=(4,6)、2R0=P=(1,3)；全部Norm UΓ→M、M(O)=1，再真实平移给m_P,q，div=(q+1)(P−O)、m(R0)=1。反Norm=U⁴/(cU²f^d)，primitive第三类准确送dlogM非零；仍须原最高λ/27完整消费，不能把低维类直接当H³(2)。
 
-q11全Prym Norm run45980566265/job140443090086/source4b315bb783233d98ce623d99fa3dffdca9228683已实付：R零极20、准确−3 twist NQ零极24、两有效类O，完整闭点/厚支/双∞在[全除子](notes/2026-11-27-original-q11-g-cover-prym-divisors.md)§7。新[指定半类](notes/2026-11-27-original-q11-specified-half-norm.md) run45985515813/job140459993008/source239d3f42206392460b4c345ec85fbb547104c739完整成功：13闭点/全Fitting、两半各12、二重零(9,8)为(1,1)，AQ=−G，G=(−2,−6)真阶16；[12]AQ=P≠0，AQ本身不等于原被12杀的shadow。三层实时回执/hash/必要坐标均在笔记§§8–9；首native-coerce失败已仅修兼容，不重算旧数学。R1041§§14–16从原νi/δ和原W号逐式构造全部[2]h=Q，E+=(h·−P3)。真实ψ2(h+P3)在全部好厚交、I9/I18/I3/I6与canonical fiber的主除子(66)全付，推原rΓ得[4]AQ=−P；故AQ+G∈EL(Fq)[4]、倒2后AQ=−G。一般低维半类已固定，不能提供原Q未知最高权变化。 后继保原交函数/有标记点，继续最高λ/27，不只取已固定的Picard类。
+q11两原consumer均已完整成功：全Prym run45980566265/job140443090086（R零极20、N零极24、两有效类O）；指定半run45985515813/job140459993008/source239d3f42206392460b4c345ec85fbb547104c739（13厚闭点、两半12、AQ=−G阶16、[12]AQ=P≠0）。完整必要坐标/hash/原W号在两笔记§7/§9，不重算。R1041§§14–16由全halving与ψ2主除子得[4]AQ=−P，AQ+G∈EL(Fq)[4]；一般低维类已固定。新(66a)付全二分点Norm=t³(1−27t)。
+
+R1041§§17–19把原rΓ Abel和显式写为第二四度图Φ，特征零微分/基点先相认再约化；真分歧值±3R0。固定J=(H−A3)/(H+A3)的完整除子及Weil reciprocity给U⁴/(cU²f^d)=Φ*M·J^(q+1)，原第三类保dlogJ修正。两holomorphic线的Cartier及Q6四槽完全由a_q(EL)控制，ss时Pell的bq/cq亦定；未代最高λ/27或无穷目标p。 后继保原标记交函数、eta/Cor全权和最高λ，不能以固定低维P或辅助q无穷替最终p量词。
 
 ## 四、其它未闭门与分工
 

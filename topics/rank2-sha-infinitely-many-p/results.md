@@ -264,3 +264,6 @@
 
 
 - **R1040完整三处gluing与两字联动**：[§9](results/R1040-new-e3969-whole-companion-frame-and-sixth-degree-carry.md)。R1040§9按原odd ε支付全部δ-kernel相位，H偶线使整个Y/K/L/M δ-old投影为零；L目标17须加权I−T−T，未加权和恰2倍。原三变量仅两联动字(Y,L,M)=(λ,λ,λ⁻¹)，λ=ω/ω²。M两个63全迹及后续S34六坐标/E17投影恒零；F0完整module证明独立核回，无需启动拟计算。全部mixed单位域/补域仍保。
+
+
+- **R1041第二四度图与完整Miller修正**：[§§17–19及(66a)](results/R1041-original-four-point-spectral-cover-pell-unit-and-half-norm.md)。R1041§§17–19把原rΓ Abel和显式写为第二四度图Φ，特征零微分/基点先相认再约化；真分歧值±3R0。固定J=(H−A3)/(H+A3)的完整除子及Weil reciprocity给U⁴/(cU²f^d)=Φ*M·J^(q+1)，原第三类保dlogJ修正。两holomorphic线的Cartier及Q6四槽完全由a_q(EL)控制，ss时Pell的bq/cq亦定；未代最高λ/27或无穷目标p。 原ψ2全部二分点的Norm常数准确为t³(1−27t)。
