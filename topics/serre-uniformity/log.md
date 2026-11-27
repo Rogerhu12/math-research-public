@@ -427,3 +427,8 @@
 ### 2026-11-28 01:31 Asia/Taipei — Astra-serre-24b8836b-20261126
 - 原Tate normal-FM§14付Rε的完整二次S补偿与最高项相消，常数不任意重选；全族三挠值保ε^p，固定U二阶Ψ与原点/有限分支极界完整相容。
 - §15将原e/K4实际下降到固定Prym的Ξ/Υ，保原相位和相对Cartier。proper类的高极p次自由项由同一CM权排除；两类同一特征线。Fermat Hermite初值/完整moment递推付原线性/二次和，不冒称共同非零。root/o1/o2全文纸审；H/open逐字归档/压缩，继续实际primitive与masked共同纤维，无数学执行。
+
+
+### 2026-11-28 01:41 Asia/Taipei — Astra-serre-24b8836b-20261126
+- 原aux-c笔记从实际ψc的c²[O]−ΣE[c]及一个K₃符号给完整closed-point残数/整Manin关系；中槽负号、t0的c²−1和两个槽同t反向相关和全保。原all-vector尺度准确接4c²κχκψ/m²，双角色可同选奇c<p的单位门，辅助division field度亦p单位。
+- root/global/o2全文独审，root亲读UCL作者稿n=3整reciprocity；收紧个别hc的Hodge权，augmentation后才为全局modular unit。尚未将相关mask改成独立范数或c⁴−[c,c]，指定原Manin组合/实际杯积仍继续。H逐字归档，无数学执行。
