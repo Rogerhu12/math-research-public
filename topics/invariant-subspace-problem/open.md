@@ -4,7 +4,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-W-three-halves-three-curves-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-Phi-F26-new-original-inputs-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -192,4 +192,6 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 D27泛型五次不可约与有限纤维范围保上述D27原单位条目及本次完整快照；不把泛型域结论外推有限权norm零点。
 
-**h=k 下一新输入：** 整J=Q/T0已闭后Pf支付，在Phi=0上Delta=−S·xi·Pf自动非零。新源仅在ell≠1用Q=2(u−1)(u−2)/(1−ell)、f=−Pc/Pf重建未缩放八原式及固定QQ投影；ell=1,u=2的完整lambda四次纤维单独保留，尚未运行就不作闭合声明。
+**h=k 下一新输入：** 整J=Q/T0已闭后Pf支付，在Phi=0上Delta=−S·xi·Pf自动非零。33e仅在ell≠1用Q=2(u−1)(u−2)/(1−ell)、f=−Pc/Pf重建未缩放八原式及固定QQ投影；7f9独立处理ell=1,u=2的完整lambda四次域与自由原Q，分母仅Q、1−Q、Q+4及真实常数单位，完整K[Q]Bézout保全嵌入/常数非单位拆两支。两者各180秒4GiB，未返回前不作闭合声明。
+
+**[Phi判别式零的新原均值F26](results/R150-appendix-unit211-Phi-zero-exceptional-original-mean-unit-six-F26-curve.md)。** 78f新选E1/EBe/EBo/N1/T·E1/T·EBe，真U6目标六坐标返回、385整除与公共取消，必要core双次26/26、729项，完整QQ只有一个重数1因子，精确输入已存可直接复用。原31/52必要曲线仍保留，未作gcd/有限点声明。新ed0一般A!=0首一rho二次只做原mean/N1与同H²两行恒等式，不倒任何二次范数；完整A0两支各自保留。新W410a在Ah0直接原T²+同T一次给有限QQ k覆盖，逐整因子原Gram/个别N/P/全NV返回，不重放已成lambda3/2六阶覆盖。

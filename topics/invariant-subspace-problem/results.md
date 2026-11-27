@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [Phi判别式零原均值乘法理想的完整F26必要曲线](results/R150-appendix-unit211-Phi-zero-exceptional-original-mean-unit-six-F26-curve.md)：新T闭包与真U6目标得到729项单QQ因子，精确可恢复输入；未排空曲线。
+
 - [W整lambda=3/2的三条首一权曲线覆盖](results/R150-appendix-unit211-W-lambda-three-halves-entire-original-three-curve-cover.md)：固定6阶完整原列证书、全QQ因子Ah·G4²·F18；三e头全已付，覆盖不是排除。
 
 - [W lambda=3/2整支同值比率与e首一二次](results/R150-appendix-unit211-W-lambda-three-halves-same-value-ratio-e-quadratic.md)：原Delta/二三矩完整同点恢复、六步伪除给同e一次；全部G1零支保留，原Gram未闭。
