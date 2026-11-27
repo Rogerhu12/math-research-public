@@ -668,3 +668,8 @@ open原28316B全文按链接层级移入open-before-fixed-E-and-K-only归档，�
 ## 2026-11-27｜R625完整QR/SVD原十次接受与fine失败的唯一终态
 
 根全文审15416B收据，独立核1368216B原stdout/204563B唯一原FINAL及26408B state SHA；区分pretty JSON文件与原始逐字JSON。33因子均complete=True/complete_factor_ready，122trial/112真C²盒拒绝、10接受和18双活跃选择均吻合。原同候选fine确已尝试并失败，无M/rho/ruling，不能继承上一候选资格；123真曲线尝试和113失败部分全部保成本。新216.695643132秒另预载.45159104700000796秒、原十项链保留。后继h.9真实新输入承认四原偶端量不变；实际history重积分及原固定母/规范条件完整保持，未在本地科学。
+
+
+## 2026-11-27｜真实h九成新输入与同完整十九态方向范围
+
+根全文审37904B source/13559B说明/8554B workflow和完整request；63源hash、sparse覆盖、18CLI、旧10段费用逐字核合，新第11段与原dense唯一FINAL字段吻合。完整solve自for至return AST同原dense；中心完整Jet仅同参复用一次，实际C²同次积分填真eta/8A/6rho且非零末保留。新h及全部jets乘.9、k/L/两自由ζ保持，ζ0完整重算；四原偶端量按已付R322不变，固定母rho/ruling不借全曲面协变。新trust.25/实际末damp明确，源fine pending不借资格，原全门/原长精度规范保持。仅request规则metadata更新至根实际已读cbe13d8e3aa78be8e3e13e307abac098cf257b28/私库50c1c003，无本地科学。另仅API元数据锁定457交换原push run45919165610/job140245504730/sourcef42d0179，00:51:19 UTC启动，未取活动日志或dispatch。
