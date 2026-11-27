@@ -130,4 +130,4 @@ central负责完整canonical/全字forcing，arithmetic负责实际378有限角�
 
 ### 实际 q11 点到原两覆盖
 
-原q11真实Q非二倍，完整Sel2类迫原g平方根存在；新增[原两覆盖返回](notes/2026-11-27-original-q11-two-cover-lift-and-frobenius-line.md)给全Norm两符号/原谱基/两quadric/原W方向的充要算法并实时消费既有回执，未重做全D。一般q手证任何s1真实点都不能给jW稳定k线，故后继保实际谱二次关系；新公开lift结果待。 取得真实坐标后继续原27有权评价/一般Frobenius构造；原shadow倒6仍零，不把这次同一点的精确运输当成新非零。
+原q11真实Q非二倍，完整Sel2类迫原g平方根存在；新增[原两覆盖返回](notes/2026-11-27-original-q11-two-cover-lift-and-frobenius-line.md)给全Norm两符号/原谱基/两quadric/原W方向的充要算法并实时消费既有回执，未重做全D。一般q手证任何s1真实点都不能给jW稳定k线，故后继保实际谱二次关系；实际lift run45972624090/job140416498782/sourcec5020fcd7f026ef21d4b69735b3a47b56148d258已成功，原三谱系数/两quadric/x/Norm W全返；一次整体负号准确匹配原W，必要坐标与全hash见原笔记§7。 取得真实坐标后继续原27有权评价/一般Frobenius构造；原shadow倒6仍零，不把这次同一点的精确运输当成新非零。

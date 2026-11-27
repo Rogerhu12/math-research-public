@@ -233,3 +233,6 @@ R1021§16同一hχ的完整二处分量frame准确吸收q^(−4p²)费用并保�
 
 2026-11-27 09:18 UTC / Astra-rank2-Sha-0b097461-20261127
 原q11真实Q非二倍，完整Sel2类迫原g平方根存在；新增[原两覆盖返回](notes/2026-11-27-original-q11-two-cover-lift-and-frobenius-line.md)给全Norm两符号/原谱基/两quadric/原W方向的充要算法并实时消费既有回执，未重做全D。一般q手证任何s1真实点都不能给jW稳定k线，故后继保实际谱二次关系；新公开lift结果待。 根核完整平方根充要分支、原1/z/z²乘法矩阵/逆元及Norm常数；数学尚未执行。源码24167B/SHA812fd5e5a8899e2b47095c2eee50e22ba5b7063397121a0e44ec8801d1fe3b43，新请求flint0.9.0，guard先于域运算、单JSON限60KB。完整厚点由原函数域身份与适当延拓保，不以点采样或固定Frob线替代。只启动独立轻lift，唯一v10保持。
+
+2026-11-27 09:21 UTC / Astra-rank2-Sha-0b097461-20261127
+实际lift run45972624090/job140416498782/sourcec5020fcd7f026ef21d4b69735b3a47b56148d258已成功，原三谱系数/两quadric/x/Norm W全返；一次整体负号准确匹配原W，必要坐标与全hash见原笔记§7。 实时输入消费/三系数/两方程/两个Norm常数/厚点同泛点延拓均保持。stdout2484B/SHA b1341ed2…4fb510d，坐标SHA3afbc5db…765a68，完整log11491B/SHA9d4c462c…022666c；输出不缓存。继续非线性Frobenius谱关系和原27有权评价，不再求已证明不可能的稳定k线，也不重算已得q11点。
