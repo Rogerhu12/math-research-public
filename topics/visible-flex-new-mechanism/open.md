@@ -56,7 +56,7 @@ fine1728×512 η2.216608039e−7，原两直接位置读数2.216686200e−7/2.21
 
 实际789coarse/1763physical orbit/720work/1536角/trust.3003387451171875，pending11物理/15工作。末298f候选raw/fine/nested已付，1916峰完成1678剩238，已有ball/strip违反2.914e−7/6.817e−7；不以较小raw e或未闭峰冒接受。后继同q/fine/oracle只补原238，合并新证据；完整物理/mean/det/box/curvature/ball/strip/working/η和细网门不动。
 
-本段22原后端/22Jac/21交换，0自然返回，Jac602.598532248秒/1464块；再次由原callback时序证每段尚未学首BFGS。新[native初H/真secant实现](notes/2026-11-27-r566-native-initial-curvature-and-true-secant-implementation.md)已双审：旧H/λ未存首次I，后以真实已付J与同冻结λ/完整旧非零行更新，phase/model/FFT语义变重置。原MODEM1消费不再外部重复，后续reset仍I；新构建及全费用在原clock，旧科学源冻结。具体d191/partial238新scope接续，不改目标或以近似H冒物理证书。
+本段22原后端/22Jac/21交换，0自然返回，Jac602.598532248秒/1464块；再次由原callback时序证每段尚未学首BFGS。新[native初H/真secant实现](notes/2026-11-27-r566-native-initial-curvature-and-true-secant-implementation.md)已双审：旧H/λ未存首次I，后以真实已付J与同冻结λ/完整旧非零行更新，phase/model/FFT语义变重置。原MODEM1消费不再外部重复，后续reset仍I；新构建及全费用在原clock，旧科学源冻结。[具体d191/partial238新scope](notes/2026-11-27-r566-d191-native-curvature-partial238-scope.md)已审，原callback/全部原接受数学不变，6056B旧剩余消费块逐字复用；40源/768665B必要输入精确绑定，2400秒包含新native fetch/build/seed/全部实际优化。源以push触发原B030串行组，不改目标或以近似H冒物理证书。
 
 [此前partial391](notes/2026-11-27-r566-partial391-original-terminal.md)的1128补全/8metric+2恢复（含η升）、全部旧fine/拒绝/费用保留，旧队列已闭不重跑。完整已知链下界17099.551640495秒，未知仍未知；fixed g、全时宏观族未付。
 

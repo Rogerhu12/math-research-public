@@ -603,3 +603,8 @@ open原28316B全文按链接层级移入open-before-fixed-E-and-K-only归档，�
 ## 2026-11-27｜B030原normal56e8的真实d191与238剩余
 
 根全文审9412B收据，独立核20715698B原stdout、唯一471344B FINAL/343899B PARTIAL、81q binary64 SHA、各源末库与当前/qualified fine逐项相同。15真接受/0restore、22START/J与21OUTER、1678已闭+238剩余齐合；最后298f已有ball/strip失败，未冒更低raw接受。新2370.339514432秒含所有不完整费用，旧链≥17099.551640495。下一d191已付1580不重baseline，只补原238并接真实native曲率；本地仅原JSON/hash/日志解析。
+
+
+## 2026-11-27｜d191/原238与真实native曲率实际范围
+
+根全文审8621B新说明/34697B准确源码差异及5877B工作流；40来源hash/43 sparse/AST吻合，768665B新输入含471344B原FINAL逐字、1678原峰逐项及canonical SHA。独立比对原callback全字节不变、6056B原partial391消费块全字节不变；只新source身份/238scope/native入口和必要checkpoint，原outer数学不改。旧d1911580资格不重，剩余238与所有新原门/构建/完整H账共2400秒；首次I不伪恢复。原58k/60k driver以冻结父源明确核绑定，没有本地科学或独立探针。

@@ -5,7 +5,7 @@
 
 ## 1. 授权、规则与继承
 
-公开本次实际pull且根/题README已读至 **430ca5e5e81ad72fef1e93710e8e814a66746ac3**；根/题规则相对继承0749a4cc仍为空差异。私库实际pull/根README已读至 **724f5769d39c1f05826ed6c36792a5bb66da6aa0**，2026-11-27 00:01:47 UTC空diff；下次不晚于01:00 UTC。QUEUE唯一仍本会话进行中，原认领09f8b8b54e。
+公开本次实际pull且根/题README已读至 **681ff8732a51e538179463c7e4016d27d475c2fa**；根/题规则相对继承0749a4cc仍为空差异。私库实际pull/根README已读至 **724f5769d39c1f05826ed6c36792a5bb66da6aa0**，2026-11-27 00:01:47 UTC空diff；下次不晚于01:00 UTC。QUEUE唯一仍本会话进行中，原认领09f8b8b54e。
 
 每次pull只读根/题README差异并记SHA，至少每小时；NFF/ref锁立即pull --rebase再推至成功。root独占git和四索引，每条结论即推；科学只公开Actions，本地只纸证/源码及原日志JSON/hash解析。根12不重放已付门；根15不存raw/可重算表，必要新场再生全计费。H<10KB/open<30KB/md<100KB；publisher活跃不改tracked。
 
@@ -27,7 +27,7 @@
 
 末298f raw非best：同1580 fullfine/nested已付、1916峰完成1678剩238，已见ball/strip违约2.91e−7/6.82e−7，未接受。按同q/fine/oracle补余238再合并真实证据；旧1678不重跑。22后端/22Jac/21交换，0自然返回、602.598532248秒Jac；均首callback早于BFGS。已知旧链加本次≥17099.551640495秒，未知仍未知。
 
-[原源码时序](notes/2026-11-27-r566-true-secant-restart-source-receipt.md)与[native初H/真secant](notes/2026-11-27-r566-native-initial-curvature-and-true-secant-implementation.md)已双审发布；旧未存H/λ不能恢复，首次I。新同冻结λ/同行函数两J、native MODEM1不二次消费、语义变重置、后续reset仍I。512KiB必要checkpoint不存完整J。具体d191/partial238新scope正在审发，全部原物理/峰/nested/双轨不变。
+[原源码时序](notes/2026-11-27-r566-true-secant-restart-source-receipt.md)与[native初H/真secant](notes/2026-11-27-r566-native-initial-curvature-and-true-secant-implementation.md)已双审发布；旧未存H/λ不能恢复，首次I。新同冻结λ/同行函数两J、native MODEM1不二次消费、语义变重置、后续reset仍I。512KiB必要checkpoint不存完整J。[具体d191/238新scope](notes/2026-11-27-r566-d191-native-curvature-partial238-scope.md)已审发布待原push；原callback与6056B旧partial消费块逐字一致。40来源绑定，768665B必要输入保原FINAL/1678峰；2400秒含native构建，全部原物理/峰/nested/双轨不变。
 
 ## 5. 正常全S继续，actual397固定E首次硬τ1范围已发布
 
