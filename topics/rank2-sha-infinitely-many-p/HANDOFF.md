@@ -11,7 +11,7 @@
 - 07:20UTC本地执行再次失联；09:09两库实际pull重试均明确No usable execution environment。私库API至e0944037db11cf7b9acb79a25f41e13417fde492逐两README核同06:47，QUEUE仍本会话进行中；不冒称实际pull。
 - 断连期间沿最新main API非force快进；每次检查README和本topic差异，遇新父重新比较/建commit。09:09公开API至ccb52315e1485916f867f7574c944b63dc40fac2，两README blob仍同07:12；最新父比较9文件，无本topic外部变化。恢复立刻补两库真实pull及README差异；令牌只命令行/进程，不落文件或API。
 - root独占git/H/open/log/index；每条结论即推，非快进立即pull --rebase、读差异、再推至成功，不强推。数学只用公开Actions。根规则15禁止存可重算输出；H<10KB、每MD<100KB。
-- [此次逐字归档](notes/2026-11-27-handoff-before-e3969-independent-points.md)及其完整历史链保全部旧式、回执、未付门和失联/同步史；[open](open.md)、[results](results.md)、[R1001–1050索引](notes/PROOF-INDEX-R1001-R1050.md)为实际接续入口，不重做已登记结论。
+- [此次逐字归档](notes/2026-11-27-handoff-before-actual-degree378-spectrum.md)及其完整历史链保全部旧式、回执、未付门和失联/同步史；[open](open.md)、[results](results.md)、[R1001–1050索引](notes/PROOF-INDEX-R1001-R1050.md)为实际接续入口，不重做已登记结论。
 
 ## 一、唯一原几何作业及原生后端
 
@@ -35,11 +35,11 @@ R1021§17实际w=χα(2P)及char0截断对E2严格不变，456简单极全映十
 
 R1025–1030的原λ全p单位、同窗primitive/末六水平式、P10曲率及charge65三角域/degree50真实两canonical均保持，完整式见原证和本页逐字归档；单位不代forcing，三个物理像的rank不能相加。
 
-R1032/1034旧β/γ的全39、N130、even/odd、六Weyl极/cocycle/原cut/Ξ及两坏带全保。R1034§11的新χα=y/(α³yα)在O为1、38核点各三阶零、114simple极只映E2，原char0 Vχ全39平坦；H=2p−11/2p−5的完整无限尾真正给K=H。原r=p未施伴随时只留b5：ν2=Q/(X+1)^(3s)ω，csharp=Qtop；C³读(cp/3)Q(−1)^(1/p)φ，两泛函严格不同。原M首槽M_(p+4,p²+5)=−5κ5单位；G顶部四项及真实E2 selected coefficient锁定Q(−1)但未证明非零，R616/619低回填和全部更高位保持。
+R1032/1034的全部原39/N130/Miller/cocycle/cut/Ξ、坏带与低回填沿原证明/逐字归档保齐。§11实际χα平坦全尾给K=H；r=p未施伴随只b5，旧ν2=Q/(X+1)^(3s)ω的Qtop和C³读Q(−1)严格不同，M_(p+4,p²+5)=−5κ5及顶部四项锁selected read但不迫非零。新w的四挠返回不可混成旧χα同一个Q。
 
 真正逐word的Q†使用y(P−Ri)和原G(P)，前者在原E2为单位；在全偶投影前各字只取p²帽，安全极帽p³+p²+(7−b)p，Ri处另费≤4、其它既有非E2极≤1，Miller/cut导数/曲率/留数/两exact/φ*全留。因此施伴随后其它b5页重新出现。真实E2译源虽获原零授权，仍需完整翻权(69)–(70)接两个端点；原物理单位、单页唯一性或裸p曲率均不自动强迫零。
 
-R1037原两B12商全64列与二处D2、δ-old22/8/3、7-old20完整模型已付；最高42维含真九次角色，不当E/Q来源。13/19两算子只生成index3，31补全162参数；R302 Θ三绝对锚及真实norm189拉回固定A³=−I、H⁹=I。独立公开谱请求2026-11-27-original-degree378-complete-spectrum保334完整fibers、原K后端cross和所有源/投影回乘，4workers/3300s、60min workflow；结果待，不干预v10。旧原390回执没有完整向量，仅重建新商必需N7/N19并核原e80…hash，不调用旧全套。新host流式保全报告并核源/请求/两stream/hash，不缓存输出。
+R1037实际全谱run45973650826/job140419911466/source22ac87ec033d658aa19b32d417c493f5748aa122已PASS；两完整stream/报告hash逐字返回。全334fibers/原390输入hash/三64列/完整2、δ、7及所有幂等回乘齐，30非零块、90零标签、三输入全回。唯一整质量零线(A5,C4,H2)rank1、δ-new9、dyadic−、7new；X62=1/order6/den91，原A/B/diff系数−185328/35、−160056/835、−29829384/5845。全坐标实时读公开marker，详细hash在§9。E3969真finite/Schwartz/frame识别继续，不凭三好位或B12投影赋零。
 
 R1038新增固定E3969:Y²=X³+3969，以P=(18,99)、S=(−5,62)和T=(0,63)的完整模3独立性手证rank≥2；φ/hatφ/两个Kummer/所有例外点齐。ψ=ψ1(63/·)3^-1、全导子2·7·δ4及Q导子47628，原N13/N19/N31=(-1,ω,ω²)，候选(A5,C4,H2)。未认R1037实际非零块、未给新J/中央零；继续全有限型/输入系数和通常全群桥。
 
