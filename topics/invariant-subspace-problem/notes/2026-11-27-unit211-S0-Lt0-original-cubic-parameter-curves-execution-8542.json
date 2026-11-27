@@ -1,0 +1,228 @@
+{
+  "session": "Astra-ISP-8542378f-20261127",
+  "source": "2026-11-27-unit211-S0-Lt0-original-cubic-parameter-curves-original-return-8542.py",
+  "sourceSha256": "e809705c700d736a5034de34a846bbe846ac0f7581cfa4251b695f561feeedef",
+  "sourceBytes": 23997,
+  "parameters": [],
+  "actualExitCode": 0,
+  "wallSeconds": 51.52693125799851,
+  "stdoutSha256": "ebe94c72857e6213f679246ca8e6582c5953d527f79611206935abed3fcbeed7",
+  "stdoutBytes": 16490,
+  "peakRssKiB": 73032,
+  "limits": {
+    "constructionAlarmSeconds": 240,
+    "addressSpaceGiB": 4
+  },
+  "wholeS0Lt0Excluded": false,
+  "originalCurveCertificates": [
+    {
+      "stage": "entire_original_cube_replacement_cofactor_return",
+      "name": "U_moment",
+      "replacedRowIndex": 19,
+      "replacedOldRow": "Qa*1",
+      "newOriginalRowMultipliedBack": true,
+      "matrixSize": [
+        20,
+        20
+      ],
+      "actualCofactorIdentities": 20,
+      "identity": "newcofactor * original_replaced_M = (0,...,0,Dnew)",
+      "cofactorSha256": "438b676e859dc17bd6d5708d721b82654660742c93cf501af7cfbfc98a266d4f",
+      "noPointwisePivotDivision": true,
+      "allLeadingZeroFibersRetained": true,
+      "claimExcluded": false,
+      "seconds": 34.89549247600007
+    },
+    {
+      "stage": "complete_new_original_cube_curve_factorization",
+      "name": "U_moment",
+      "fullDegrees": [
+        81,
+        71
+      ],
+      "fullTerms": 2885,
+      "fullSha256": "e35b9d4dbd9edad12d983ea11306fc7c1cac0debf0c29857e0b92ed36d59d3be",
+      "paidDivisions": [
+        [
+          "e",
+          4
+        ],
+        [
+          "k",
+          10
+        ],
+        [
+          "j",
+          6
+        ],
+        [
+          "x",
+          1
+        ],
+        [
+          "D3",
+          10
+        ],
+        [
+          "half",
+          2
+        ],
+        [
+          "k4e",
+          1
+        ]
+      ],
+      "nonzeroScalar": "281474976710656",
+      "remainingDegrees": [
+        38,
+        31
+      ],
+      "remainingTerms": 737,
+      "remainingSha256": "b76f8e51881fd426200f19bc07cd3d0c0c24873016435d9782b46e56be8664a5",
+      "fullFactorizationMultipliedBack": true,
+      "otherUnpaidFactors": [],
+      "newNecessaryParameterEquation": "U_moment(e,k)=0",
+      "allLeadingZeroFibersRetained": true,
+      "claimExcluded": false,
+      "seconds": 34.95200798700171
+    },
+    {
+      "stage": "entire_original_cube_replacement_cofactor_return",
+      "name": "NB_even",
+      "replacedRowIndex": 19,
+      "replacedOldRow": "Qa*1",
+      "newOriginalRowMultipliedBack": true,
+      "matrixSize": [
+        20,
+        20
+      ],
+      "actualCofactorIdentities": 20,
+      "identity": "newcofactor * original_replaced_M = (0,...,0,Dnew)",
+      "cofactorSha256": "c223ebb6d1050acb2658b8d6649b986fb39fa71fa37758a281738bf9366e5b1b",
+      "noPointwisePivotDivision": true,
+      "allLeadingZeroFibersRetained": true,
+      "claimExcluded": false,
+      "seconds": 42.65388312000141
+    },
+    {
+      "stage": "complete_new_original_cube_curve_factorization",
+      "name": "NB_even",
+      "fullDegrees": [
+        87,
+        75
+      ],
+      "fullTerms": 3337,
+      "fullSha256": "1247699c499659e13f4f1910bdeb8943a170e1156ac1e493b22fcac2289aa4f3",
+      "paidDivisions": [
+        [
+          "e",
+          4
+        ],
+        [
+          "k",
+          10
+        ],
+        [
+          "j",
+          5
+        ],
+        [
+          "x",
+          1
+        ],
+        [
+          "D3",
+          11
+        ],
+        [
+          "half",
+          2
+        ],
+        [
+          "k4e",
+          1
+        ]
+      ],
+      "nonzeroScalar": "144115188075855872",
+      "remainingDegrees": [
+        42,
+        34
+      ],
+      "remainingTerms": 908,
+      "remainingSha256": "b200b0d88c5c45de4d077f68b213a271950fe982b9f4a860c74824409e79ddab",
+      "fullFactorizationMultipliedBack": true,
+      "otherUnpaidFactors": [],
+      "newNecessaryParameterEquation": "NB_even(e,k)=0",
+      "allLeadingZeroFibersRetained": true,
+      "claimExcluded": false,
+      "seconds": 42.720663683001476
+    },
+    {
+      "stage": "entire_original_cube_replacement_cofactor_return",
+      "name": "PB_even",
+      "replacedRowIndex": 19,
+      "replacedOldRow": "Qa*1",
+      "newOriginalRowMultipliedBack": true,
+      "matrixSize": [
+        20,
+        20
+      ],
+      "actualCofactorIdentities": 20,
+      "identity": "newcofactor * original_replaced_M = (0,...,0,Dnew)",
+      "cofactorSha256": "c86130a2b08752df0164ed996f1db98b1798cc9c4940fe6ad39298bff168a110",
+      "noPointwisePivotDivision": true,
+      "allLeadingZeroFibersRetained": true,
+      "claimExcluded": false,
+      "seconds": 51.327184215999296
+    },
+    {
+      "stage": "complete_new_original_cube_curve_factorization",
+      "name": "PB_even",
+      "fullDegrees": [
+        92,
+        77
+      ],
+      "fullTerms": 3563,
+      "fullSha256": "7ac0f41c8491ce87dca2dce6e5814478baf05550fde0ae7c0cabe070772b8c25",
+      "paidDivisions": [
+        [
+          "e",
+          4
+        ],
+        [
+          "k",
+          10
+        ],
+        [
+          "j",
+          5
+        ],
+        [
+          "D3",
+          11
+        ],
+        [
+          "half",
+          2
+        ],
+        [
+          "k4e",
+          1
+        ]
+      ],
+      "nonzeroScalar": "-72057594037927936",
+      "remainingDegrees": [
+        47,
+        37
+      ],
+      "remainingTerms": 1076,
+      "remainingSha256": "e5fe302767735755c866d2851c1b56d83babcbaa6b23c636c161ed29c1fbe4fc",
+      "fullFactorizationMultipliedBack": true,
+      "otherUnpaidFactors": [],
+      "newNecessaryParameterEquation": "PB_even(e,k)=0",
+      "allLeadingZeroFibersRetained": true,
+      "claimExcluded": false,
+      "seconds": 51.42384649200176
+    }
+  ]
+}

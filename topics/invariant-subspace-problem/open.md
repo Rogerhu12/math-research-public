@@ -171,7 +171,7 @@ Deddens自伴MASA、全部可分重数有限成本投影、全2-adic平移距离
 [全交换子兼容喷射](results/R12-appendix-full-commutant-compatible-formal-jets-and-flat-root-denominators.md)只给不整除闭根的实际分母必平坦。新[完整C无任何非零分母定理](results/R12-appendix-full-commutant-no-bounded-regularizer-and-nonclosability.md)已对显式正连续循环f证明PX_f全柱无界、无PH入域、C1∩Cf=0；两轨道均稠密，完整C无可闭性/任何RSC向量。原完整高块误差、固定外锚与全列范数都已付，不能再从I∞/R267的强*密度推出一般分母。继续利用实际闭根或湮灭见证的额外方程构造特殊来源，不把该坏源移给它们。
 
 
-五原二次式F41与H64整边界已付；新[两参数四生成原模及全部同eta N/P](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-four-generator-two-parameter-original-system.md)支付H16整支（665→305次QQ覆盖/保13与109次的一元Bézout），六重写与五原式双向身份、15行全返回，55.292738秒/exit0。续15×4矩阵原子式作用于真实(λ,f,v,1)，不把四生成作自由。10×10全伴随与完全展开trace180秒均冻结。
+五原二次式F41/H64/H16与[四生成原行](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-four-generator-two-parameter-original-system.md)已付。新[三原三次行低参数曲线](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-original-cubic-lower-parameter-curves.md)给U38,31/N42,34/P47,37，60条完整cofactor身份保主元零支，51.526931秒/exit0；继续同参数完整QQ覆盖，模支持不直接提升。旧全伴随/展开trace均冻结。
 
 
 [N型最大carry域](results/R271-appendix-maximal-n-carry-domain-triangular-reconstruction.md)已由有限行严格三角重构识别为ρ权平方和域；各Pq h在H且Kh在H即进总孔核心。若同W来源已付Sh∈H，非零W只可能来自D*h与Kh各非H的真实抵消；此来源与抵消排除均未付，Y不套此正交重构。
@@ -186,7 +186,7 @@ L0新[原8×8参数必要曲线](results/R150-appendix-essential-four-unit-two-p
 L0新[三原参数曲线系统](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-L0-three-original-parameter-curves-system.md)只含λ/w与一个饱和变量，C/X/Y均完整QQ原来源，10个单位全已付。源478dfef5 build68.485504秒/exit0；新专用QQ门须实际I*cert=1后才判空。C/X直接QQ投影250秒exit−9无返回也已冻结，不重跑。
 
 
-S0新[原参数子式及首一e系统](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-parameter-minors-and-monic-e-system.md)已付整H9支和11原四列身份，δ=0全留；F41常数首项2^52使12必要式合法降次。源d8dbf16c build79.611829秒/exit0；唯一新3变量QQ门待实际证书，不把同参数矩阵当自由模。L0新run45915015066已启动，不能以运行状态作单位结论。
+S0新[原参数子式及首一e系统](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-parameter-minors-and-monic-e-system.md)已付整H9支和11原四列身份，δ=0全留；F41常数首项2^52使12必要式合法降次。源d8dbf16c build79.611829秒/exit0；唯一新3变量QQ门待实际证书，不把同参数矩阵当自由模。两个新门仍待真实返回。
 
 
 [原图核心与R143实际反根](results/R12-appendix-core-power-bound-and-actual-r143-inverse-root.md)已付S=T⁻¹闭稳定、S²=α0⁻¹B1|K及原D图核心；余RanT⊂RanT*或等价实际伴随域包含，未知K不套全尾根整除。另D=−2Z的D²L核心只在旧有限放大稠密条件下成立，一般慢行不能借B1强单位。
