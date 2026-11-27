@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [单链U对原B、全部dyadic幂及原单个位的实际非不变性](results/R271-appendix-single-chain-actual-dyadic-shift-noninvariance.md)：完整Y Cayley系数保留；四次主项超过三次费用反解，dyadic有限头解析逆排全部幂。
+
 - [等单点值等权 Delta 零面的完整原返回与整个等权碰撞排除](results/R150-appendix-unit211-equal-singleton-equal-weight-Delta-zero-and-entire-collision-exclusion.md)：完整lambda20代数/原Q一次/自由f的E1与EBe真Bézout1；合Delta非0支后整个h=k,b=c闭，合法付u−ell。
 
 - [补齐原 NC/PC 后 32 次界未缩小](notes/2026-11-27-unit211-Phi-zero-rank-one-value-missing-NC-PC-unchanged-32-return-8542.md)：三新固定35阶投影实际仍g32，冻结845c；换完整H8原有限代数输入。
