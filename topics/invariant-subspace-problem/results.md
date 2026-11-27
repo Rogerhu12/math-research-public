@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **已证明：** [一般 W/H 非零的完整最高次分类与二次权纤维排除](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-H-nonzero-highest-weight-cover-and-quadratic-fiber-exclusion.md)：全部原四二次方向只余三条件共同二次权纤维；整个QQ二次代数的独立有限原48×35单位行排尽该纤维，其他有限W点继续。
+
 - **已证明：** [最大实际图来源的低余孔平方费用及有界物理孔输入核心](results/R271-appendix-maximal-graph-low-excess-hole-square-cost.md)：原 creation 能量与同一规范来源支付明确 C2 扇区；实际 y 的有界物理孔条件足够入原图核心，保留其余逆费。
 
 - **已证明（R150，一般等权整个T0=0原支）**：[原N1线性分裂和三个同点有限返回](results/R150-appendix-unit211-equal-weights-T0-zero-complete-original-exclusion.md)：原N1=(mt−2(x−y))(mt−2(2m−1)(x−y))的已付倍式；两原mean组合给三完整支，原Dval0/非零常数/末点N_S=−125/16排尽。可付J=2m+Q−2及指定四阶二次主子式，续原低度模块；不依赖失败QQ大门或最高次替代。

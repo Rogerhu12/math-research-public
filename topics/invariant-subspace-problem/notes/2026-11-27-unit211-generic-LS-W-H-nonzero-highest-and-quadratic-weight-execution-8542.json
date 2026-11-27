@@ -1,0 +1,214 @@
+{
+  "session": "Astra-ISP-8542378f-20261127",
+  "sourcePath": "topics/invariant-subspace-problem/notes/2026-11-27-unit211-generic-LS-W-H-nonzero-highest-and-quadratic-weight-return-8542.js",
+  "sourceSha256": "078e1d1cb2593d690c052e21784642eb8f9b22f461449490916f0fec45592de8",
+  "sourceBytes": 28540,
+  "executionMode": "exact JavaScript BigInt in functions.exec V8; separate successful components",
+  "singleWrapperExecuted": false,
+  "osExitCode": "not applicable; no OS process",
+  "rss": "not exposed",
+  "components": [
+    {
+      "key": "W0_primitive_integer_poly_JS",
+      "sourceBytes": 4211,
+      "sourceSha256": "69ba81a062e2ee73ebcf25ae340343415c75ba831329ae2bff427ff813a3b201"
+    },
+    {
+      "key": "W0_finite_QQ_algebra_JS",
+      "sourceBytes": 1343,
+      "sourceSha256": "cf8641e2ea2c3ab6932c2e63cf583b63b594fae97ea7a6233bacf61af5f45cb5"
+    },
+    {
+      "key": "W0_H_full_affine_M_class",
+      "sourceBytes": 1485,
+      "sourceSha256": "da245f4efbd6816b75ceccc60736cfc92f12d77cd50fc46a392369cf87c6bd99"
+    },
+    {
+      "key": "W0_two_integer_poly_JS",
+      "sourceBytes": 1893,
+      "sourceSha256": "e00748ad23222a1688d70d9e3673aa6df57f0ac5abc2e300f054b1a90e655c55"
+    },
+    {
+      "key": "W0_highest_localized_two_poly_JS",
+      "sourceBytes": 3375,
+      "sourceSha256": "23bac2ab1b7921d3ba658a1e616bcee9c8698619c26b227e82e050643cf13d3f"
+    },
+    {
+      "key": "W0_general_highest_weight_identities_JS",
+      "sourceBytes": 1732,
+      "sourceSha256": "4a1bf657222a6667bd45dc96f774627ee7d21a5380821e3e27009ed5ab3b5aac"
+    },
+    {
+      "key": "W0_general_highest_original_N1_return_JS",
+      "sourceBytes": 3659,
+      "sourceSha256": "e8e343c6901b789bd868b99f25f400b3f92738b702d10608416409954746dc71"
+    },
+    {
+      "key": "W0_infinity_quadratic_weight_build_JS",
+      "sourceBytes": 5336,
+      "sourceSha256": "e1390e8f845d356da109945235313aed50f94596bc112a0a994287a642e44ccb"
+    },
+    {
+      "key": "W0_infinity_quadratic_M35_return_JS",
+      "sourceBytes": 3059,
+      "sourceSha256": "997f999fc9201f108806c03adeb79e7181b1f0b6d48150d4be132d39ea356363"
+    }
+  ],
+  "actualResults": [
+    {
+      "stage": "W_whole_highest_cover_weight_and_diagonal_identities",
+      "wallSeconds": 0.001,
+      "wholeKIdentity": true,
+      "wholeExceptionalWFactor": true,
+      "diagonalT2WeightIdentity": true,
+      "diagonalT2SamePjIdentity": true,
+      "highestOnlyUntilSeparateFiniteReturn": true
+    },
+    {
+      "stage": "W_general_H_nonzero_same_original_highest_N1_identity",
+      "wallSeconds": 1.044,
+      "parameters": [
+        "p",
+        "z"
+      ],
+      "q": "2-p",
+      "normalization": "X=1,Y=z,t=2*(p*z^2+q)/(p*z+q)",
+      "allOriginalThreeMeanHeadsZero": true,
+      "fullOriginalKappaSquaredN1TimesP02Verified": true,
+      "factor": "4*p^3*q^3*z^2*(z-1)^3*(p*z-q)",
+      "prefactor": "(p*z+q)^4*z^2/(2*(p*z^2+q)^7)",
+      "sameOriginalLambdaHeadVerified": true,
+      "sameOriginalP02Verified": true,
+      "highestSystemClaimOnly": true,
+      "finiteEmptinessNotInferred": true
+    },
+    {
+      "stage": "whole_original_W_highest_exception_quadratic_weight_build",
+      "wallSeconds": 0.081,
+      "modulus": [
+        "8",
+        "-12",
+        "1"
+      ],
+      "weights": {
+        "u": "Q",
+        "ell": "2-Q"
+      },
+      "allOriginalGramE0N0P1AndWeightedRowsReconstructed": true,
+      "allPaidUnitInverseProductsOne": true,
+      "profiles": [
+        {
+          "name": "E1",
+          "degree": 2,
+          "terms": 8
+        },
+        {
+          "name": "EBe",
+          "degree": 2,
+          "terms": 8
+        },
+        {
+          "name": "EBo",
+          "degree": 2,
+          "terms": 9
+        },
+        {
+          "name": "N1",
+          "degree": 2,
+          "terms": 10
+        },
+        {
+          "name": "NS",
+          "degree": 3,
+          "terms": 20
+        },
+        {
+          "name": "PS",
+          "degree": 3,
+          "terms": 20
+        }
+      ],
+      "allQuadraticConstantEmbeddingsRetained": true,
+      "claimExcluded": false
+    },
+    {
+      "stage": "whole_original_W_highest_exception_M35_return",
+      "wallSeconds": 0.397,
+      "modulus": [
+        "8",
+        "-12",
+        "1"
+      ],
+      "constantAlgebraDimension": 2,
+      "rows": 48,
+      "columns": 35,
+      "rank": 35,
+      "pivotColumns": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34
+      ],
+      "constantUnitReturned": true,
+      "all35OriginalProductsMultipliedBack": true,
+      "allConstantAlgebraEmbeddingsRetained": true,
+      "claimExcluded": true
+    }
+  ],
+  "certificateRegeneratedNotArchived": {
+    "bytes": 6402,
+    "sha256": "0776d0b4aefe2633462a263635215dc4955f9062b67a2d71692ab40964e30b2f"
+  },
+  "scope": {
+    "HAlreadyPaidByCommit": "c45c1bb6dfe27417891c7265eb4e302773a6e12e",
+    "highestExceptionsOnHNonzero": {
+      "u": "Q",
+      "ell": "2-Q",
+      "entireWeightModulus": [
+        "8",
+        "-12",
+        "1"
+      ]
+    },
+    "entireSpecifiedFiniteWeightFibreExcluded": true,
+    "originalMacaulayRows": 48,
+    "originalMacaulayColumns": 35,
+    "all35OriginalUnitProductsVerified": true,
+    "allWeightAndSpectralEmbeddingsRetained": true,
+    "noHighestNormalizationUsedForFiniteInput": true,
+    "noIndividualQPolynomialUnitClaim": true,
+    "wholeWZeroExcluded": false,
+    "ordinaryISPCompleted": false
+  }
+}

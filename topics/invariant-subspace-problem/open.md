@@ -4,7 +4,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-closed-green-coordinate-graph-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-W-highest-complete-weight-return-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -45,9 +45,13 @@ rankH3单三jet的全部ess6已闭，末非零Hp原Gaussian/最高/normal给左�
 
 **原U值图L0 整支已闭：** [完整3352次覆盖、九因子1535次QQ整除及1817余项原Gauss排除](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-L0-complete-original-cover-exclusion.md)已合全部退化面。九因子QQ整除、完整S8/S5模Bézout及所有准确源/成功回执见正文；两整合signal9仍记失败，不作为排空门槛。旧投影/门/PRS全部冻结，不再重做L0，继续一般LS及其它open接口。
 
-**S0/Lt0整支已闭，一般LS继续：** 615次原QQ覆盖合全部退化面，旧门冻结。一般LS的原P1双零整支、Delta0/W对ell首项零整支及W0整k=−1权线均已闭；原完整来源和全部运行见结果索引/快照。只分别付(Pf,Pt)非同时零、Delta0的Phi、W0的u(Q+2)−2及k+1，不付W本身。全域四值式等价首一二次/三一次；六参数式仅准确投影四值等式，四Gram子式仅必要。W0补图两mean商自由秩4，原余式返四列，五常数cofactor给必要x六次式，保未付H=4ek−k²−4k−8及全部首项零。[H=0权曲线的完整最高次系统](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-H-zero-original-highest-degree-exclusion.md)已由原二次式4阶QQ(i,w)结式/Bézout=1排空；该无穷远结论现合[有限六生成元及完整F29权覆盖](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-H-zero-finite-six-generator-weight-cover.md)：18真乘法身份、78次原cofactor剥已付49次因子，保所有重建首项零。[F29整纤维现已原返回排尽](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-H-zero-complete-original-exclusion.md)：F29=C3F26两个完整QQ商环，原18行组合各返常数列1，12真逆及所有六列乘回，不需不可约/互素或D饱和。因此W0中整个H零支已闭、可付H；旧/新失败门冻结，只续W0/H非零、一般Delta/LS与算子桥。
+**S0/Lt0整支已闭，一般LS继续：** 615次原QQ覆盖合全部退化面，旧门冻结。原P1双零、Delta0/W对ell首项零及W0整k=−1均已闭；只分别付(Pf,Pt)非同时零、Delta0的Phi、W0的u(Q+2)−2及k+1。全域四值式等价首一二次/三一次；六参数式只是完整投影，四Gram子式只是必要。[W0整个H=4ek−k²−4k−8零支](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-H-zero-complete-original-exclusion.md)已由原六生成元、F29=C3F26和完整两QQ商环的原18行单位返回排尽，可付H。
 
-**两个一般均值子支已全闭：** [Q=1−u边界的y=1](results/R150-appendix-unit211-Q1minusU-singleton-mean-y1-exclusion.md)由69/102及18/41次原QQ覆盖/全部小域返回结束；[一般b=c且y=1](results/R150-appendix-unit211-equal-weights-singleton-mean-y1-exclusion.md)由完整26/37/41次结式、14次QQ权覆盖和末半权原Bézout排尽。各分支仅支付自己的y−1。另[Q=1−u的H_Q=(2u−1)ell+u=0整权线](results/R150-appendix-unit211-Q1minusU-Hzero-complete-exclusion.md)已由完整整数53/53次QQ覆盖及三次域两层原返回排尽；再由[整个u=1/2权线](results/R150-appendix-unit211-Q1minusU-uHalf-complete-exclusion.md)的158/170次严格QQ覆盖、104次保度Gauss与末原值返回支付2u−1；[整个ell=0权线](results/R150-appendix-unit211-Q1minusU-ellZero-complete-exclusion.md)又由原均值线性x、Rt低度因式、完整二次纤维及20/40次QQ Bézout排尽。在新h=ell/u、s=h(1−omega)−1图上，[原均值二次首项的s0整支](results/R150-appendix-unit211-Q1minusU-mean-leading-sZero-exclusion.md)又已由新线性首项零全域、原ell半曲线、31次完整QQ覆盖与C9保度Gauss排尽。只续H_Q*ell*(y−1)*(2u−1)*s≠0，另首项(h−2)s+2(uh²−(h−1)²)零/一般图保留。一般等权y≠1现又付[原均值差首项A_m非零](results/R150-appendix-unit211-equal-weights-original-mean-leading-zero-exclusion.md)：两条完整零首项原纤维及末Dval0排尽，可解m，v0现亦由原N_H=−3dDval排尽，可付v非零。[新两参数首一值二次式](results/R150-appendix-unit211-equal-weights-two-parameter-monic-value-quadratic.md)已付原首项R的完整单位来源；[完整三原N/P同v一次余式与六投影](results/R150-appendix-unit211-equal-weights-same-value-linear-remainders-and-six-projections.md)已有实际原组合乘回；三子式/三范数准确投影均值二次及三一次式，保全部线性首项零。六双参数式仍须同点返回全部原值/物理条件。[整个y=0即v=−1](results/R150-appendix-unit211-equal-weights-zero-singleton-mean-exclusion.md)现由原首一四次/三二次、完整26/55/62次结式和12/34次QQ Bézout1排尽，可付v+1及alpha+beta。一般等权仍开。
+[H非零最高次全分类及整个二次权纤维返回](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-H-nonzero-highest-weight-cover-and-quadratic-fiber-exclusion.md)现排所有对角/零坐标方向；其余只可能u=Q、ell=2−Q、Q²−12Q+8=0，再以独立有限原Gram的48×35原单位行排该整个纤维。因此仍可能含有限原解的其余W权参数，其四二次头无非零公共向量；不能将三个权条件任意一个单独付为单位。全部旧四生成元/Cramer大门冻结，续小原模块和全部未付头零面。
+
+**Q=1−u边界：** y1、H_Q=(2u−1)ell+u零、u半、ell0整线及[原均值首项s0整支](results/R150-appendix-unit211-Q1minusU-mean-leading-sZero-exclusion.md)均已完整排除；原QQ覆盖、全部小域/原值返回与实跑身份保结果索引及快照。只续H_Q*ell*(y−1)*(2u−1)*s≠0，h=ell/u、mu=uh²−(h−1)²、s=h(1−omega)−1；另一首项(h−2)s+2mu零支及一般图继续。
+
+**一般等权b=c：** y1/y半/[y0](results/R150-appendix-unit211-equal-weights-zero-singleton-mean-exclusion.md)、A_m零及[整个T0零支](results/R150-appendix-unit211-equal-weights-T0-zero-complete-original-exclusion.md)已闭。现在可付J=2m+Q−2，独立x/y/t原四二次的x²/xy/xt/t²子式为−16m²(m−1)²J²；继续原cubic overlap及同点N/P。旧[首一值二次](results/R150-appendix-unit211-equal-weights-two-parameter-monic-value-quadratic.md)及[同v三一次余式/六投影](results/R150-appendix-unit211-equal-weights-same-value-linear-remainders-and-six-projections.md)范围不变，必须保全部一次首项零并返回Dval；v+1、alpha+beta已付。旧QQ 600秒未决门冻结，整个等权仍开。
 
 **2+1型H、Hp0九次Gram仅余四源全有限的ess6层：** 全部H/V∞支已闭，来源与真逆保结果索引/归档。[完整重建](results/R150-appendix-rank-three-double-plus-single-zero-hp-finite-source-rational-reconstruction.md)保原12式及11/16全系数；[同Π上的低次原理想相等](results/R150-appendix-rank-three-double-plus-single-zero-hp-lowered-original-ideal-equivalence.md)已将d八次喷射换为二次，A/T为原商环强迫单位。mod1031/e700单位基只供方向，三种真Ke各900秒未决，最后八条恒等式及field/smoke通过但无单位身份；[同Π的C/G两条d一次式与原理想相等](results/R150-appendix-rank-three-double-plus-single-zero-hp-two-linear-original-ideal-equivalence.md)现已证明，不除两个新首项，仍保全部零纤维；真实I*C=1继续。[新增原N二阶及孤立点一阶降式](results/R150-appendix-rank-three-double-plus-single-zero-hp-original-N-Hermite-strengthening.md)保持同Π，d次数5/8，实际build核完整身份4.926643秒；新run45886748045数域/smoke已通过，完整1.465MB输入实际900秒未决，驱动905.464秒/RSS714476KiB，无I*C=1；不重跑此输入。三约化H与ess4/5仍开。
 
@@ -170,6 +174,6 @@ Deddens自伴MASA、全部可分重数有限成本投影、全2-adic平移距离
 
 [两个实际最大除法域的相反前缀正则性](results/R271-appendix-maximal-division-graph-opposite-prefix-regularity.md)已将原核估计扩到整个D(G)与D(Amax)：分别控制零前缀V_n与占满前缀Q_n，所有γ<γ_ex的指数位权受实际图范数控制。第一图核心真实正交缺陷恰由T*y=Sf、By+Tf=0刻画，因而Amax f=−y，不能换成Amin。这两条耦合方程继续作为新输入；未证明缺陷零、Gamma有限或alpha逆权。
 
-[一般等权整个T0=0原支](results/R150-appendix-unit211-equal-weights-T0-zero-complete-original-exclusion.md)现已关闭：原N1两线性因子合原mean给三支，分别原Dval0、非零常数和唯一末点N_S=−125/16排尽。新四原二次在x²/xy/xt/t²列的子式−16m²(m−1)²(2m+Q−2)²从此为单位。继续这个低度原模块的cubic overlap及同点N/P；旧一般QQ 600秒门保持冻结，未判整个等权为空。
+
 
 [最大实际图的低余孔平方来源费用](results/R271-appendix-maximal-graph-low-excess-hole-square-cost.md)现给同一规范来源 h 的新 C2 可支付扇区：任意 c<2^(1/3)−1，大首缺位 q 上只要来源总孔数≤q+floor(cq)−2，其费用由实际 (y,Gy) 图范数控制。由原 creation 交换子取得 η_(q−1) 级前缀界；因此物理孔数有界的实际 y 已在原图核心。剩余高余孔来源、同 W 的 Gamma 仍开；不假设任意物理孔截断保最大图域。
