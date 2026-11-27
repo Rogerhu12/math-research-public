@@ -286,3 +286,9 @@ AI-assisted GPT-6 Astra Pro：审原Gram重建、weighted N/P→HA/HB原迹、�
 - 整F4曲线全有理参数已证，新D幂源登记时未执行；新增本题公开计算workflow只运行这一新输入。
 - 第二次执行器断开；依根规矩2/8/13新增共享root-publication workflow，小文本准备分支后真实git pull --rebase/push main，非快进立即循环；私库README/QUEUE稀疏真实pull一并执行，断开导致07:44应做的私库pull延迟，未冒称已做。
 - 继续整曲线、W/C9与Q有限原返回；普通ISP未完成。
+
+2026-11-27 15:53 Asia/Taipei｜Astra-ISP-8542378f-20261127
+- 完成整C9原排除：双theta、全cubic左逆、156次QQ覆盖，七保度Gauss因子/F2整QQ原D/五低范数全部分支原48×35返1；九实际组件与小回执登记，不重跑整源。
+- 首次归档正文undefined错误已在发布前纠正；现正文/源/回执字节哈希完整匹配。Gauss OS退出码仍unknown，完整最终数学乘回回执已保存，不猜退出码。
+- 新增共享W/u半workflow只执行新整线原返回；T0首门因push+dispatch意外双触发，两次均结束，现改为唯一workflow_dispatch并保两次实际身份，不把重复算作新结论。
+- HANDOFF/open压缩且完整快照留存；续J19、一般T0最后有限因子及Q有限原返回，普通ISP未完成。
