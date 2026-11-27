@@ -4,7 +4,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-six-bit-special-full-S2-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-W-twelve-original-rows-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -227,7 +227,7 @@ G36完整[高1134](results/R150-appendix-unit211-W-G36-entire-high1134-original-
 
 
 
-**W的新完整三列输入首次：** 8430b仅恢复冻结原构造，先三F行共同余子式真实返F−Fp，再完整保qF(Fp)、六Gram、r2/R6、原D线性个别N/P与完整NV，共12行及原乘子身份。两新固定3×3常数cofactor分别加入NS/完整NV，所有lambda头零保留，180秒/4GiB；未宣整个W排空。
+[全W恢复后的十二完整原三列行](results/R150-appendix-unit211-W-global-F-recovery-twelve-original-three-column-rows.md)：8430b真24.650824419秒/218236KiB/0，保qF(Fp)、六Gram、r2/R6、原个别NP/完整NV的全乘子，三乘法列/31约化均实际返。新NS/NV必要式lambda9/13、权头51/69与50/64仍未付；两大参数1.67/2.66MB只源/原定义/准确SHA，未归档全系数，9105未执行不重派。新ca409首派同两原二次的S一次行及两个无头逆固定结式，180秒/4GiB，保全部首项/共同因子零纤维；不能只凭必要式称W空。
 
 
 

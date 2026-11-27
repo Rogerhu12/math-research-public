@@ -1,19 +1,18 @@
 {
-  "message": "ISP: prove full six-site S2 for one special weight and reject the uniform quarter trace gate",
-  "parentCommit": "2bb1cbd05997dd09f9dd5183f30579f6850e1b68",
+  "message": "ISP: return twelve complete original W rows after global common F recovery",
+  "parentCommit": "0d42f189102d6496474e8b2da9fd79c864d55163",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R271-appendix-six-site-one-special-weight-full-s2-and-sharp-trace-square-budget.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-six-bit-s2-one-parameter-exact-8542.mjs",
-    "topics/invariant-subspace-problem/notes/2026-11-28-six-bit-s2-one-parameter-exact-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-28-six-bit-s2-retained-exact-parameters-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-main-rho-head-minus-quarter-original-fiber-and-remaining-Gauss-input-8542.py",
-    ".github/workflows/invariant-subspace-8542-phi-main-minus-quarter-fiber.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-six-bit-special-full-S2-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-six-bit-special-full-S2-8542.md",
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-W-global-F-recovery-twelve-original-three-column-rows.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-global-F-twelve-original-three-column-receipt-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-original-two-mean-S-affine-and-fixed-resultants-8542.py",
+    ".github/workflows/invariant-subspace-8542-w-two-mean-affine-resultants.yml",
+    "topics/invariant-subspace-problem/notes/2026-11-28-root-publication-preparation-helper-8542.js",
+    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-W-twelve-original-rows-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-W-twelve-original-rows-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -23,6 +22,6 @@
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
   "dispatchWorkflows": [
-    "invariant-subspace-8542-phi-main-minus-quarter-fiber.yml"
+    "invariant-subspace-8542-w-two-mean-affine-resultants.yml"
   ]
 }
