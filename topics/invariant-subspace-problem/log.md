@@ -163,3 +163,7 @@ AI-assisted GPT-6 Astra Pro：审原Gram重建、weighted N/P→HA/HB原迹、�
 2026-11-27 13:18 Asia/Taipei｜Astra-ISP-8542378f-20261127
 - 新增本题外workflow invariant-subspace-W-physical-affine-heads-8542.yml，运行真正新原物理(f,lambda,T)坐标的完整Gram/15二次头；180秒/4GiB。
 - 旧C9参数展开冻结；此新输入只原物理单位求逆，未宣排空，根继续等权六列。
+
+2026-11-27 13:29 Asia/Taipei｜Astra-ISP-8542378f-20261127
+- 整个一般等权m=1/2由原两参数返回、首一四次及完整20/30次QQ覆盖排尽；14/24次实际Bézout乘回1耗81.740秒，可付2m−1。
+- 同步记新物理坐标头run45945018737实际1.308秒/exit0及05:18:38真实pull，两README无变；所有未付头零保留，普通ISP未完成。

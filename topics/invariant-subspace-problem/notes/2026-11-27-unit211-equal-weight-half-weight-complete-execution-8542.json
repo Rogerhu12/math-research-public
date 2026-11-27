@@ -1,0 +1,99 @@
+{
+  "session": "Astra-ISP-8542378f-20261127",
+  "date": "2026-11-27",
+  "branch": "entire general equal-weight m=1/2",
+  "runtime": "functions.exec V8 exact rational BigInt; Function bodies",
+  "stages": [
+    {
+      "stage": "original",
+      "source_sha256": "44b54b275bdb7048148ce56c8fe7997dfbfa996546c1029521ab4234e50cc4fb",
+      "actual_seconds": 0.241,
+      "actual_json_sha256": "62e99ff3c88c16e0bc69c50cc0496772cfcb3a5752ceed4fa14a7ce509dde1af",
+      "mathematical_payload_sha256": "1bad5a790d3f2b0587962fa58ccf16549c775d994e41b648577e94016c483784"
+    },
+    {
+      "stage": "remainder",
+      "source_sha256": "00d90617f2da5c3cb1dd509c85b88a47a2e4c7f71c45a65ca53952f80f16b14d",
+      "actual_seconds": 0.031,
+      "actual_json_sha256": "ce2574c8ab68eafeda77520f450b1ef253c5a9040a82d05b3fb24b04073c5193",
+      "mathematical_payload_sha256": "5585dbe59045dd868dc2fd6ad6b0ad6c8be338f9992aee02a2592c3e2ae9faaf"
+    },
+    {
+      "stage": "resultants",
+      "source_sha256": "c3633f34837a57a5dbfd36c4271dd4c95435ece5718fdfc2d2e22e1e12f606c3",
+      "actual_seconds": 0.061,
+      "actual_json_sha256": "bc3d9c36079e96ef283961a4fa0101fd8b3622e42313d8a9c583b0e75197fb72",
+      "mathematical_payload_sha256": "2ba6dd34401b5b7d08b61522b26abe33ed9bae738b503475ce67bf38134ccda5"
+    },
+    {
+      "stage": "bezout",
+      "source_sha256": "2c065073fa5f11b2578920ebb403c8b886d4132f944916d06fd687366db25bee",
+      "actual_seconds": 81.74,
+      "actual_json_sha256": "fbda056a3ecc4571fe0e316530ecf4a68a875213f6fde1109af761d8d6c00a21",
+      "mathematical_payload_sha256": "0d7705a6e615fc537414bcfee6f5d13cab35f0e974e3fb2fef7f7e09905a7900"
+    }
+  ],
+  "resultants": {
+    "N1": {
+      "fixed_z_degrees": [
+        4,
+        3
+      ],
+      "full_degree": 20,
+      "remaining_degree": 14,
+      "paid": [
+        [
+          "d",
+          6
+        ]
+      ]
+    },
+    "Ns": {
+      "fixed_z_degrees": [
+        4,
+        3
+      ],
+      "full_degree": 30,
+      "remaining_degree": 24,
+      "paid": [
+        [
+          "d",
+          6
+        ]
+      ]
+    },
+    "Ps": {
+      "fixed_z_degrees": [
+        4,
+        3
+      ],
+      "full_degree": 30,
+      "remaining_degree": 24,
+      "paid": [
+        [
+          "d",
+          6
+        ]
+      ]
+    }
+  },
+  "bezout": {
+    "inputs": [
+      "N1 remaining",
+      "Ns remaining"
+    ],
+    "combination_degrees": [
+      23,
+      13,
+      -1
+    ],
+    "exact_result": "1",
+    "all_products_returned": true
+  },
+  "original_affine_source_sha256": "88914af76ec66403312723ef45d12c2a503553007353e33d9e4774e90b7ccff1",
+  "os_exit_code": null,
+  "rss": null,
+  "whole_half_weight_excluded": true,
+  "whole_equal_weight_excluded": false,
+  "ordinary_isp_claim": false
+}

@@ -1,0 +1,2743 @@
+{
+  "elapsed_seconds": 1.3852071829999986,
+  "max_child_rss_kib": 47572,
+  "ordinary_isp_claim": false,
+  "rules_reads": [
+    {
+      "after": "d7fd0048cc5550440d78040c2bedf0ca2898b516",
+      "before": "d7fd0048cc5550440d78040c2bedf0ca2898b516",
+      "rules_git_blobs": {
+        "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+        "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+      },
+      "rules_unchanged": true,
+      "utc": "2026-11-27T05:18:38.598777+00:00"
+    }
+  ],
+  "run_attempt": "1",
+  "run_id": "45945018737",
+  "schema": "isp-frozen-exact-actions-execution-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "source_commit": "d7fd0048cc5550440d78040c2bedf0ca2898b516",
+  "source_exit_code": 0,
+  "source_git_blob": "1361e1f809add71e409dc4997af7a55c14d6e296",
+  "source_sha256": "5b77c8e86d53f3ef6767ed324c1ddd413bcdd6824d9e12dfb8fac64112f6d92f",
+  "stdout_bytes": 42918,
+  "stdout_sha256": "ac290963d3f0fcff97326013d918f93c3c260034fd87d1ee090d9bb392a513ed",
+  "stop_reason": null,
+  "job_id": 140327613351,
+  "stages": [
+    {
+      "stage": "new_original_physical_affine_coordinate_inverse",
+      "coordinates": [
+        "f",
+        "lambda",
+        "T"
+      ],
+      "jacobian": "-Phi*bc*Q*M/(2*u*P02^2)",
+      "allInverseDenominatorsPreviouslyPaid": true,
+      "allOriginalLinearInverseProductsVerified": true,
+      "claimExcluded": false,
+      "seconds": 0.006111342000000519
+    },
+    {
+      "stage": "new_same_original_E0_N0_P1_physical_coordinates",
+      "actualOriginalFExactlyNewF": true,
+      "actualOriginalLambdaExactlyNewLambda": true,
+      "actualOriginalTExactlyNewT": true,
+      "claimExcluded": false,
+      "seconds": 0.00859979799999877
+    },
+    {
+      "stage": "same_original_Gram_and_weighted_NP_trace_identities",
+      "originalE0N0P1Verified": true,
+      "originalMeanAndN1Verified": true,
+      "P2BaseIdentityVerified": true,
+      "weightedOriginalNAndPTracesThroughHAHBVerified": true,
+      "HankelPhysicalUnitIdentityVerified": true,
+      "WWeightAndPaidUnitIdentitiesVerified": true,
+      "noXMinusUMinusOneInverted": true,
+      "claimExcluded": false,
+      "seconds": 1.011342441
+    },
+    {
+      "stage": "new_W0_original_X_Gram_coordinates",
+      "name": "E1",
+      "degrees": [
+        9,
+        11,
+        2,
+        2,
+        2,
+        0,
+        0,
+        0
+      ],
+      "terms": 634,
+      "paidRemoved": [
+        [
+          "e",
+          1
+        ]
+      ],
+      "totalDegreeXYt": 2,
+      "originalE0N0P1AndMeanReconstructionVerified": true,
+      "claimExcluded": false,
+      "seconds": 1.01730959
+    },
+    {
+      "stage": "new_W0_original_X_Gram_coordinates",
+      "name": "EBe",
+      "degrees": [
+        11,
+        14,
+        2,
+        2,
+        2,
+        0,
+        0,
+        0
+      ],
+      "terms": 974,
+      "paidRemoved": [
+        [
+          "e",
+          1
+        ]
+      ],
+      "totalDegreeXYt": 2,
+      "originalE0N0P1AndMeanReconstructionVerified": true,
+      "claimExcluded": false,
+      "seconds": 1.026123966
+    },
+    {
+      "stage": "new_W0_original_X_Gram_coordinates",
+      "name": "EBo",
+      "degrees": [
+        10,
+        13,
+        2,
+        2,
+        2,
+        0,
+        0,
+        0
+      ],
+      "terms": 864,
+      "paidRemoved": [
+        [
+          "e",
+          1
+        ]
+      ],
+      "totalDegreeXYt": 2,
+      "originalE0N0P1AndMeanReconstructionVerified": true,
+      "claimExcluded": false,
+      "seconds": 1.0343324349999996
+    },
+    {
+      "stage": "new_W0_original_X_Gram_coordinates",
+      "name": "N1",
+      "degrees": [
+        8,
+        11,
+        2,
+        2,
+        2,
+        0,
+        0,
+        0
+      ],
+      "terms": 520,
+      "paidRemoved": [
+        [
+          "e",
+          2
+        ],
+        [
+          "u",
+          1
+        ]
+      ],
+      "totalDegreeXYt": 2,
+      "originalE0N0P1AndMeanReconstructionVerified": true,
+      "claimExcluded": false,
+      "seconds": 1.0393291259999984
+    },
+    {
+      "stage": "new_W0_original_X_Gram_coordinates",
+      "name": "weighted_N",
+      "degrees": [
+        15,
+        17,
+        3,
+        3,
+        3,
+        0,
+        0,
+        0
+      ],
+      "terms": 3135,
+      "paidRemoved": [],
+      "totalDegreeXYt": 3,
+      "originalE0N0P1AndMeanReconstructionVerified": true,
+      "claimExcluded": false,
+      "seconds": 1.0662503129999976
+    },
+    {
+      "stage": "new_W0_original_X_Gram_coordinates",
+      "name": "weighted_P",
+      "degrees": [
+        16,
+        17,
+        3,
+        3,
+        3,
+        0,
+        0,
+        0
+      ],
+      "terms": 3322,
+      "paidRemoved": [],
+      "totalDegreeXYt": 3,
+      "originalE0N0P1AndMeanReconstructionVerified": true,
+      "claimExcluded": false,
+      "seconds": 1.0946937739999996
+    },
+    {
+      "stage": "new_general_W_four_original_quadratic_head_minor",
+      "allPaidProductsMultipliedBack": true,
+      "allUnpaidZeroFibresRetained": true,
+      "claimExcluded": false,
+      "columns": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "monomials": [
+        [
+          2,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          0,
+          2,
+          0
+        ]
+      ],
+      "zero": false,
+      "fullDegrees": [
+        26,
+        43
+      ],
+      "paidRemoved": [
+        [
+          "e",
+          1
+        ],
+        [
+          "k",
+          4
+        ],
+        [
+          "u",
+          1
+        ],
+        [
+          "W_paid_leading",
+          7
+        ],
+        [
+          "Phi",
+          7
+        ],
+        [
+          "P02",
+          3
+        ],
+        [
+          "bc",
+          2
+        ]
+      ],
+      "unpaidDegrees": [
+        8,
+        11
+      ],
+      "unpaidFactorization": {
+        "content": "-32",
+        "factors": [
+          {
+            "degrees": [
+              8,
+              11
+            ],
+            "totalDegree": 15,
+            "terms": 66,
+            "multiplicity": 1,
+            "sha256": "0dce8d0e38c98207a8f89ff86585c79bc9e9f4bf6897ae21e9399d18cf433627"
+          }
+        ],
+        "entireProductMultipliedBack": true
+      },
+      "seconds": 1.1488952889999986
+    },
+    {
+      "stage": "new_general_W_four_original_quadratic_head_minor",
+      "allPaidProductsMultipliedBack": true,
+      "allUnpaidZeroFibresRetained": true,
+      "claimExcluded": false,
+      "columns": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "monomials": [
+        [
+          2,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          1
+        ]
+      ],
+      "zero": false,
+      "fullDegrees": [
+        25,
+        43
+      ],
+      "paidRemoved": [
+        [
+          "e",
+          1
+        ],
+        [
+          "k",
+          5
+        ],
+        [
+          "u",
+          1
+        ],
+        [
+          "W_paid_leading",
+          7
+        ],
+        [
+          "Phi",
+          7
+        ],
+        [
+          "P02",
+          3
+        ],
+        [
+          "bc",
+          2
+        ]
+      ],
+      "unpaidDegrees": [
+        7,
+        10
+      ],
+      "unpaidFactorization": {
+        "content": "64",
+        "factors": [
+          {
+            "degrees": [
+              0,
+              1
+            ],
+            "totalDegree": 1,
+            "terms": 2,
+            "multiplicity": 1,
+            "sha256": "3145061ed00914f567f0b93b528b2916693a2ef4a66d233dc74df0242440612e"
+          },
+          {
+            "degrees": [
+              7,
+              9
+            ],
+            "totalDegree": 13,
+            "terms": 50,
+            "multiplicity": 1,
+            "sha256": "230d7d92df0a7ad48243dcb7b30d865cbfd10d38af2b31fb788ee6791cc3496e"
+          }
+        ],
+        "entireProductMultipliedBack": true
+      },
+      "seconds": 1.1554183219999992
+    },
+    {
+      "stage": "new_general_W_four_original_quadratic_head_minor",
+      "allPaidProductsMultipliedBack": true,
+      "allUnpaidZeroFibresRetained": true,
+      "claimExcluded": false,
+      "columns": [
+        0,
+        1,
+        2,
+        5
+      ],
+      "monomials": [
+        [
+          2,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          2
+        ]
+      ],
+      "zero": false,
+      "fullDegrees": [
+        26,
+        43
+      ],
+      "paidRemoved": [
+        [
+          "e",
+          1
+        ],
+        [
+          "k",
+          6
+        ],
+        [
+          "u",
+          1
+        ],
+        [
+          "W_paid_leading",
+          8
+        ],
+        [
+          "Phi",
+          5
+        ],
+        [
+          "P02",
+          4
+        ],
+        [
+          "bc",
+          2
+        ]
+      ],
+      "unpaidDegrees": [
+        6,
+        8
+      ],
+      "unpaidFactorization": {
+        "content": "64",
+        "factors": [
+          {
+            "degrees": [
+              1,
+              1
+            ],
+            "totalDegree": 2,
+            "terms": 2,
+            "multiplicity": 1,
+            "sha256": "ef952f303f11819cdc8d9f2b864c4bdbe8bc099f6db94f75e337bcaaeb33b152"
+          },
+          {
+            "degrees": [
+              5,
+              7
+            ],
+            "totalDegree": 9,
+            "terms": 29,
+            "multiplicity": 1,
+            "sha256": "2061f65c98b81a98753a0017d375ae0c10a244dac70d6a05f12a963f4a958e48"
+          }
+        ],
+        "entireProductMultipliedBack": true
+      },
+      "seconds": 1.1612650020000004
+    },
+    {
+      "stage": "new_general_W_four_original_quadratic_head_minor",
+      "allPaidProductsMultipliedBack": true,
+      "allUnpaidZeroFibresRetained": true,
+      "claimExcluded": false,
+      "columns": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "monomials": [
+        [
+          2,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ]
+      ],
+      "zero": false,
+      "fullDegrees": [
+        27,
+        44
+      ],
+      "paidRemoved": [
+        [
+          "e",
+          1
+        ],
+        [
+          "k",
+          4
+        ],
+        [
+          "u",
+          2
+        ],
+        [
+          "W_paid_leading",
+          7
+        ],
+        [
+          "Phi",
+          7
+        ],
+        [
+          "P02",
+          4
+        ],
+        [
+          "bc",
+          2
+        ]
+      ],
+      "unpaidDegrees": [
+        7,
+        10
+      ],
+      "unpaidFactorization": {
+        "content": "-32",
+        "factors": [
+          {
+            "degrees": [
+              7,
+              10
+            ],
+            "totalDegree": 13,
+            "terms": 56,
+            "multiplicity": 1,
+            "sha256": "c9198439117db8fa88ba6e5a9479d9f398b6a65d6fedcf169c83dc3cec3a4e4f"
+          }
+        ],
+        "entireProductMultipliedBack": true
+      },
+      "seconds": 1.1696820189999997
+    },
+    {
+      "stage": "new_general_W_four_original_quadratic_head_minor",
+      "allPaidProductsMultipliedBack": true,
+      "allUnpaidZeroFibresRetained": true,
+      "claimExcluded": false,
+      "columns": [
+        0,
+        1,
+        3,
+        5
+      ],
+      "monomials": [
+        [
+          2,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          2
+        ]
+      ],
+      "zero": false,
+      "fullDegrees": [
+        27,
+        44
+      ],
+      "paidRemoved": [
+        [
+          "e",
+          1
+        ],
+        [
+          "k",
+          4
+        ],
+        [
+          "u",
+          1
+        ],
+        [
+          "W_paid_leading",
+          8
+        ],
+        [
+          "Phi",
+          6
+        ],
+        [
+          "P02",
+          4
+        ],
+        [
+          "bc",
+          2
+        ]
+      ],
+      "unpaidDegrees": [
+        7,
+        10
+      ],
+      "unpaidFactorization": {
+        "content": "-32",
+        "factors": [
+          {
+            "degrees": [
+              7,
+              10
+            ],
+            "totalDegree": 13,
+            "terms": 57,
+            "multiplicity": 1,
+            "sha256": "1bbc3950b0e660e51e084a6b3023df668d3795e24d121a01b1db62696d716fcc"
+          }
+        ],
+        "entireProductMultipliedBack": true
+      },
+      "seconds": 1.1771971410000006
+    },
+    {
+      "stage": "new_general_W_four_original_quadratic_head_minor",
+      "allPaidProductsMultipliedBack": true,
+      "allUnpaidZeroFibresRetained": true,
+      "claimExcluded": false,
+      "columns": [
+        0,
+        1,
+        4,
+        5
+      ],
+      "monomials": [
+        [
+          2,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          2
+        ]
+      ],
+      "zero": false,
+      "fullDegrees": [
+        27,
+        44
+      ],
+      "paidRemoved": [
+        [
+          "e",
+          1
+        ],
+        [
+          "k",
+          5
+        ],
+        [
+          "u",
+          1
+        ],
+        [
+          "W_paid_leading",
+          8
+        ],
+        [
+          "Phi",
+          5
+        ],
+        [
+          "P02",
+          4
+        ],
+        [
+          "bc",
+          2
+        ]
+      ],
+      "unpaidDegrees": [
+        7,
+        10
+      ],
+      "unpaidFactorization": {
+        "content": "-32",
+        "factors": [
+          {
+            "degrees": [
+              7,
+              10
+            ],
+            "totalDegree": 13,
+            "terms": 54,
+            "multiplicity": 1,
+            "sha256": "317934760d63d546ade70b0b70e014508fd292aea53275a320b70f16a4ddf455"
+          }
+        ],
+        "entireProductMultipliedBack": true
+      },
+      "seconds": 1.1840479589999973
+    },
+    {
+      "stage": "new_general_W_four_original_quadratic_head_minor",
+      "allPaidProductsMultipliedBack": true,
+      "allUnpaidZeroFibresRetained": true,
+      "claimExcluded": false,
+      "columns": [
+        0,
+        2,
+        3,
+        4
+      ],
+      "monomials": [
+        [
+          2,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ]
+      ],
+      "zero": false,
+      "fullDegrees": [
+        27,
+        44
+      ],
+      "paidRemoved": [
+        [
+          "e",
+          1
+        ],
+        [
+          "k",
+          5
+        ],
+        [
+          "u",
+          1
+        ],
+        [
+          "W_paid_leading",
+          7
+        ],
+        [
+          "Phi",
+          6
+        ],
+        [
+          "P02",
+          4
+        ],
+        [
+          "bc",
+          2
+        ]
+      ],
+      "unpaidDegrees": [
+        8,
+        10
+      ],
+      "unpaidFactorization": {
+        "content": "32",
+        "factors": [
+          {
+            "degrees": [
+              8,
+              10
+            ],
+            "totalDegree": 14,
+            "terms": 66,
+            "multiplicity": 1,
+            "sha256": "9a52c6ea43eacafdbe2d6ef60a7fab6d0680bfe36582f14901a50da2a86a602d"
+          }
+        ],
+        "entireProductMultipliedBack": true
+      },
+      "seconds": 1.1913836349999976
+    },
+    {
+      "stage": "new_general_W_four_original_quadratic_head_minor",
+      "allPaidProductsMultipliedBack": true,
+      "allUnpaidZeroFibresRetained": true,
+      "claimExcluded": false,
+      "columns": [
+        0,
+        2,
+        3,
+        5
+      ],
+      "monomials": [
+        [
+          2,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          2
+        ]
+      ],
+      "zero": false,
+      "fullDegrees": [
+        27,
+        44
+      ],
+      "paidRemoved": [
+        [
+          "e",
+          1
+        ],
+        [
+          "k",
+          5
+        ],
+        [
+          "u",
+          1
+        ],
+        [
+          "W_paid_leading",
+          8
+        ],
+        [
+          "Phi",
+          5
+        ],
+        [
+          "P02",
+          4
+        ],
+        [
+          "bc",
+          2
+        ]
+      ],
+      "unpaidDegrees": [
+        7,
+        10
+      ],
+      "unpaidFactorization": {
+        "content": "32",
+        "factors": [
+          {
+            "degrees": [
+              7,
+              10
+            ],
+            "totalDegree": 13,
+            "terms": 57,
+            "multiplicity": 1,
+            "sha256": "9fb86f225031d1f4c3d0c9f4d85bcaf8af6213818004bacafa2b193b7b755ef5"
+          }
+        ],
+        "entireProductMultipliedBack": true
+      },
+      "seconds": 1.198192831
+    },
+    {
+      "stage": "new_general_W_four_original_quadratic_head_minor",
+      "allPaidProductsMultipliedBack": true,
+      "allUnpaidZeroFibresRetained": true,
+      "claimExcluded": false,
+      "columns": [
+        0,
+        2,
+        4,
+        5
+      ],
+      "monomials": [
+        [
+          2,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          2
+        ]
+      ],
+      "zero": false,
+      "fullDegrees": [
+        27,
+        44
+      ],
+      "paidRemoved": [
+        [
+          "e",
+          1
+        ],
+        [
+          "k",
+          6
+        ],
+        [
+          "u",
+          1
+        ],
+        [
+          "W_paid_leading",
+          8
+        ],
+        [
+          "Phi",
+          4
+        ],
+        [
+          "P02",
+          4
+        ],
+        [
+          "bc",
+          2
+        ]
+      ],
+      "unpaidDegrees": [
+        7,
+        10
+      ],
+      "unpaidFactorization": {
+        "content": "32",
+        "factors": [
+          {
+            "degrees": [
+              1,
+              2
+            ],
+            "totalDegree": 2,
+            "terms": 4,
+            "multiplicity": 1,
+            "sha256": "9aa4bc2849f710695b225ca6cb1f5980d467ed05b55f09ba1917b5171085b298"
+          },
+          {
+            "degrees": [
+              6,
+              8
+            ],
+            "totalDegree": 11,
+            "terms": 40,
+            "multiplicity": 1,
+            "sha256": "58dad1a2515c3fa197ad0cc26049072fa667e6999f07efb494f7560372f03012"
+          }
+        ],
+        "entireProductMultipliedBack": true
+      },
+      "seconds": 1.2048120149999981
+    },
+    {
+      "stage": "new_general_W_four_original_quadratic_head_minor",
+      "allPaidProductsMultipliedBack": true,
+      "allUnpaidZeroFibresRetained": true,
+      "claimExcluded": false,
+      "columns": [
+        0,
+        3,
+        4,
+        5
+      ],
+      "monomials": [
+        [
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          2
+        ]
+      ],
+      "zero": false,
+      "fullDegrees": [
+        27,
+        45
+      ],
+      "paidRemoved": [
+        [
+          "e",
+          1
+        ],
+        [
+          "k",
+          5
+        ],
+        [
+          "u",
+          1
+        ],
+        [
+          "W_paid_leading",
+          8
+        ],
+        [
+          "Phi",
+          5
+        ],
+        [
+          "P02",
+          5
+        ],
+        [
+          "bc",
+          2
+        ]
+      ],
+      "unpaidDegrees": [
+        6,
+        9
+      ],
+      "unpaidFactorization": {
+        "content": "-256",
+        "factors": [
+          {
+            "degrees": [
+              6,
+              9
+            ],
+            "totalDegree": 12,
+            "terms": 48,
+            "multiplicity": 1,
+            "sha256": "a1fb09553b0cf11263dd98a37239296ba60920bc8af43f30a46091a423cb4df1"
+          }
+        ],
+        "entireProductMultipliedBack": true
+      },
+      "seconds": 1.2121312469999985
+    },
+    {
+      "stage": "new_general_W_four_original_quadratic_head_minor",
+      "allPaidProductsMultipliedBack": true,
+      "allUnpaidZeroFibresRetained": true,
+      "claimExcluded": false,
+      "columns": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "monomials": [
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ]
+      ],
+      "zero": false,
+      "fullDegrees": [
+        28,
+        45
+      ],
+      "paidRemoved": [
+        [
+          "e",
+          1
+        ],
+        [
+          "k",
+          4
+        ],
+        [
+          "u",
+          2
+        ],
+        [
+          "W_paid_leading",
+          7
+        ],
+        [
+          "Phi",
+          6
+        ],
+        [
+          "P02",
+          5
+        ],
+        [
+          "bc",
+          2
+        ]
+      ],
+      "unpaidDegrees": [
+        7,
+        10
+      ],
+      "unpaidFactorization": {
+        "content": "-256",
+        "factors": [
+          {
+            "degrees": [
+              7,
+              10
+            ],
+            "totalDegree": 13,
+            "terms": 54,
+            "multiplicity": 1,
+            "sha256": "9c5f4c52e335248d78c0e70198ccbe6389e7b1fe1fe5b791203f04145a91769e"
+          }
+        ],
+        "entireProductMultipliedBack": true
+      },
+      "seconds": 1.2204248719999988
+    },
+    {
+      "stage": "new_general_W_four_original_quadratic_head_minor",
+      "allPaidProductsMultipliedBack": true,
+      "allUnpaidZeroFibresRetained": true,
+      "claimExcluded": false,
+      "columns": [
+        1,
+        2,
+        3,
+        5
+      ],
+      "monomials": [
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          2
+        ]
+      ],
+      "zero": false,
+      "fullDegrees": [
+        28,
+        45
+      ],
+      "paidRemoved": [
+        [
+          "e",
+          1
+        ],
+        [
+          "k",
+          5
+        ],
+        [
+          "u",
+          2
+        ],
+        [
+          "W_paid_leading",
+          8
+        ],
+        [
+          "Phi",
+          5
+        ],
+        [
+          "P02",
+          5
+        ],
+        [
+          "bc",
+          2
+        ]
+      ],
+      "unpaidDegrees": [
+        6,
+        9
+      ],
+      "unpaidFactorization": {
+        "content": "-256",
+        "factors": [
+          {
+            "degrees": [
+              6,
+              9
+            ],
+            "totalDegree": 11,
+            "terms": 42,
+            "multiplicity": 1,
+            "sha256": "ce6c06a998ab95e50d203930b5fa40008e8a3b27b094be9fa28b3bff533ef14f"
+          }
+        ],
+        "entireProductMultipliedBack": true
+      },
+      "seconds": 1.2278447019999987
+    },
+    {
+      "stage": "new_general_W_four_original_quadratic_head_minor",
+      "allPaidProductsMultipliedBack": true,
+      "allUnpaidZeroFibresRetained": true,
+      "claimExcluded": false,
+      "columns": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "monomials": [
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          2
+        ]
+      ],
+      "zero": false,
+      "fullDegrees": [
+        28,
+        45
+      ],
+      "paidRemoved": [
+        [
+          "e",
+          1
+        ],
+        [
+          "k",
+          6
+        ],
+        [
+          "u",
+          2
+        ],
+        [
+          "W_paid_leading",
+          8
+        ],
+        [
+          "Phi",
+          4
+        ],
+        [
+          "P02",
+          5
+        ],
+        [
+          "bc",
+          2
+        ]
+      ],
+      "unpaidDegrees": [
+        6,
+        9
+      ],
+      "unpaidFactorization": {
+        "content": "-256",
+        "factors": [
+          {
+            "degrees": [
+              1,
+              2
+            ],
+            "totalDegree": 2,
+            "terms": 4,
+            "multiplicity": 1,
+            "sha256": "9aa4bc2849f710695b225ca6cb1f5980d467ed05b55f09ba1917b5171085b298"
+          },
+          {
+            "degrees": [
+              5,
+              7
+            ],
+            "totalDegree": 9,
+            "terms": 29,
+            "multiplicity": 1,
+            "sha256": "983e87fd72a9e11eb1281b88135c7b7881db6646352db2011360649a48b53929"
+          }
+        ],
+        "entireProductMultipliedBack": true
+      },
+      "seconds": 1.2351042449999987
+    },
+    {
+      "stage": "new_general_W_four_original_quadratic_head_minor",
+      "allPaidProductsMultipliedBack": true,
+      "allUnpaidZeroFibresRetained": true,
+      "claimExcluded": false,
+      "columns": [
+        1,
+        3,
+        4,
+        5
+      ],
+      "monomials": [
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          2
+        ]
+      ],
+      "zero": false,
+      "fullDegrees": [
+        28,
+        46
+      ],
+      "paidRemoved": [
+        [
+          "e",
+          1
+        ],
+        [
+          "k",
+          4
+        ],
+        [
+          "u",
+          2
+        ],
+        [
+          "W_paid_leading",
+          8
+        ],
+        [
+          "Phi",
+          5
+        ],
+        [
+          "P02",
+          6
+        ],
+        [
+          "bc",
+          2
+        ]
+      ],
+      "unpaidDegrees": [
+        5,
+        9
+      ],
+      "unpaidFactorization": {
+        "content": "512",
+        "factors": [
+          {
+            "degrees": [
+              5,
+              9
+            ],
+            "totalDegree": 11,
+            "terms": 41,
+            "multiplicity": 1,
+            "sha256": "9a9e3c901ba5607ba266f9d8376225eaf2479dc3e623742e42c034913f480f2c"
+          }
+        ],
+        "entireProductMultipliedBack": true
+      },
+      "seconds": 1.243620158999999
+    },
+    {
+      "stage": "new_general_W_four_original_quadratic_head_minor",
+      "allPaidProductsMultipliedBack": true,
+      "allUnpaidZeroFibresRetained": true,
+      "claimExcluded": false,
+      "columns": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "monomials": [
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          2
+        ]
+      ],
+      "zero": false,
+      "fullDegrees": [
+        28,
+        46
+      ],
+      "paidRemoved": [
+        [
+          "e",
+          1
+        ],
+        [
+          "k",
+          5
+        ],
+        [
+          "u",
+          2
+        ],
+        [
+          "W_paid_leading",
+          8
+        ],
+        [
+          "Phi",
+          4
+        ],
+        [
+          "P02",
+          6
+        ],
+        [
+          "bc",
+          2
+        ]
+      ],
+      "unpaidDegrees": [
+        5,
+        9
+      ],
+      "unpaidFactorization": {
+        "content": "512",
+        "factors": [
+          {
+            "degrees": [
+              1,
+              2
+            ],
+            "totalDegree": 2,
+            "terms": 4,
+            "multiplicity": 1,
+            "sha256": "9aa4bc2849f710695b225ca6cb1f5980d467ed05b55f09ba1917b5171085b298"
+          },
+          {
+            "degrees": [
+              4,
+              7
+            ],
+            "totalDegree": 9,
+            "terms": 27,
+            "multiplicity": 1,
+            "sha256": "53f405c2554d951f18b6b31dea0e17ab610736c6128c3bbd3cb74f19daf4eee3"
+          }
+        ],
+        "entireProductMultipliedBack": true
+      },
+      "seconds": 1.2516575450000005
+    },
+    {
+      "stage": "new_physical_original_quadratic_head_coefficients",
+      "name": "E1",
+      "coefficients": [
+        {
+          "monomial": [
+            2,
+            0,
+            0
+          ],
+          "zero": false,
+          "paidRemoved": [
+            [
+              "e",
+              1
+            ],
+            [
+              "k",
+              1
+            ],
+            [
+              "W_paid_leading",
+              2
+            ],
+            [
+              "Phi",
+              2
+            ]
+          ],
+          "unpaidFactorization": {
+            "content": "-2",
+            "factors": [
+              {
+                "degrees": [
+                  2,
+                  4
+                ],
+                "totalDegree": 5,
+                "terms": 10,
+                "multiplicity": 1,
+                "sha256": "d876cdafcee3738b35f8668e16fb3ae2ac37498c46efe37dbab5b30d2b17a6b9"
+              }
+            ]
+          }
+        },
+        {
+          "monomial": [
+            1,
+            1,
+            0
+          ],
+          "zero": false,
+          "paidRemoved": [
+            [
+              "u",
+              1
+            ],
+            [
+              "W_paid_leading",
+              2
+            ],
+            [
+              "Phi",
+              2
+            ],
+            [
+              "P02",
+              1
+            ]
+          ],
+          "unpaidFactorization": {
+            "content": "2",
+            "factors": [
+              {
+                "degrees": [
+                  2,
+                  4
+                ],
+                "totalDegree": 5,
+                "terms": 10,
+                "multiplicity": 1,
+                "sha256": "14e90d7afb0835c5c81af364ba6cf9bdd2e4e51441950cf8ddc2f0ccd8c66d93"
+              }
+            ]
+          }
+        },
+        {
+          "monomial": [
+            1,
+            0,
+            1
+          ],
+          "zero": false,
+          "paidRemoved": [
+            [
+              "k",
+              1
+            ],
+            [
+              "u",
+              1
+            ],
+            [
+              "W_paid_leading",
+              2
+            ],
+            [
+              "Phi",
+              1
+            ],
+            [
+              "P02",
+              1
+            ]
+          ],
+          "unpaidFactorization": {
+            "content": "2",
+            "factors": [
+              {
+                "degrees": [
+                  2,
+                  4
+                ],
+                "totalDegree": 5,
+                "terms": 10,
+                "multiplicity": 1,
+                "sha256": "885925248a41e931bf64c3a4fd2cafb5c32e78f77738505b8f9ea46d2dbf1569"
+              }
+            ]
+          }
+        },
+        {
+          "monomial": [
+            0,
+            2,
+            0
+          ],
+          "zero": false,
+          "paidRemoved": [
+            [
+              "u",
+              1
+            ],
+            [
+              "W_paid_leading",
+              2
+            ],
+            [
+              "Phi",
+              3
+            ],
+            [
+              "P02",
+              2
+            ]
+          ],
+          "unpaidFactorization": {
+            "content": "-2",
+            "factors": [
+              {
+                "degrees": [
+                  2,
+                  2
+                ],
+                "totalDegree": 3,
+                "terms": 6,
+                "multiplicity": 1,
+                "sha256": "0479ffa6580ecaafdf94098d4dd2e3e8957d246a19d758aaecda45b57be5fd2c"
+              }
+            ]
+          }
+        },
+        {
+          "monomial": [
+            0,
+            1,
+            1
+          ],
+          "zero": false,
+          "paidRemoved": [
+            [
+              "k",
+              1
+            ],
+            [
+              "u",
+              1
+            ],
+            [
+              "W_paid_leading",
+              2
+            ],
+            [
+              "Phi",
+              1
+            ],
+            [
+              "P02",
+              2
+            ]
+          ],
+          "unpaidFactorization": {
+            "content": "-4",
+            "factors": [
+              {
+                "degrees": [
+                  2,
+                  3
+                ],
+                "totalDegree": 4,
+                "terms": 10,
+                "multiplicity": 1,
+                "sha256": "c2a92332818636ffa5605fc4fda91285dc3afae8bb0665d38c8b4506846e6bab"
+              }
+            ]
+          }
+        },
+        {
+          "monomial": [
+            0,
+            0,
+            2
+          ],
+          "zero": false,
+          "paidRemoved": [
+            [
+              "k",
+              2
+            ],
+            [
+              "u",
+              1
+            ],
+            [
+              "W_paid_leading",
+              3
+            ],
+            [
+              "P02",
+              2
+            ]
+          ],
+          "unpaidFactorization": {
+            "content": "-2",
+            "factors": [
+              {
+                "degrees": [
+                  1,
+                  2
+                ],
+                "totalDegree": 2,
+                "terms": 4,
+                "multiplicity": 1,
+                "sha256": "9aa4bc2849f710695b225ca6cb1f5980d467ed05b55f09ba1917b5171085b298"
+              }
+            ]
+          }
+        }
+      ],
+      "allOriginalClearingAndPaidProductsVerified": true,
+      "claimExcluded": false,
+      "seconds": 1.2632490139999994
+    },
+    {
+      "stage": "new_physical_original_quadratic_head_coefficients",
+      "name": "EBe",
+      "coefficients": [
+        {
+          "monomial": [
+            2,
+            0,
+            0
+          ],
+          "zero": false,
+          "paidRemoved": [
+            [
+              "k",
+              1
+            ],
+            [
+              "distinct_p_q",
+              1
+            ],
+            [
+              "W_paid_leading",
+              2
+            ],
+            [
+              "Phi",
+              2
+            ]
+          ],
+          "unpaidFactorization": {
+            "content": "-1/2",
+            "factors": [
+              {
+                "degrees": [
+                  0,
+                  1
+                ],
+                "totalDegree": 1,
+                "terms": 2,
+                "multiplicity": 1,
+                "sha256": "3145061ed00914f567f0b93b528b2916693a2ef4a66d233dc74df0242440612e"
+              },
+              {
+                "degrees": [
+                  1,
+                  1
+                ],
+                "totalDegree": 2,
+                "terms": 2,
+                "multiplicity": 1,
+                "sha256": "ef952f303f11819cdc8d9f2b864c4bdbe8bc099f6db94f75e337bcaaeb33b152"
+              },
+              {
+                "degrees": [
+                  3,
+                  4
+                ],
+                "totalDegree": 5,
+                "terms": 13,
+                "multiplicity": 1,
+                "sha256": "0dfcbda1e35d2d573d59d52ecf132ef0c1b1d9b247ca8aa04acf4c932a54c15d"
+              }
+            ]
+          }
+        },
+        {
+          "monomial": [
+            1,
+            1,
+            0
+          ],
+          "zero": false,
+          "paidRemoved": [
+            [
+              "k",
+              1
+            ],
+            [
+              "u",
+              1
+            ],
+            [
+              "W_paid_leading",
+              2
+            ],
+            [
+              "Phi",
+              2
+            ],
+            [
+              "P02",
+              1
+            ]
+          ],
+          "unpaidFactorization": {
+            "content": "1/2",
+            "factors": [
+              {
+                "degrees": [
+                  4,
+                  6
+                ],
+                "totalDegree": 8,
+                "terms": 23,
+                "multiplicity": 1,
+                "sha256": "460b42040ea1c1d239dd9124da7ed05f89248de70a059a09bab1d063c403ff8b"
+              }
+            ]
+          }
+        },
+        {
+          "monomial": [
+            1,
+            0,
+            1
+          ],
+          "zero": false,
+          "paidRemoved": [
+            [
+              "k",
+              2
+            ],
+            [
+              "W_paid_leading",
+              2
+            ],
+            [
+              "Phi",
+              1
+            ],
+            [
+              "P02",
+              1
+            ]
+          ],
+          "unpaidFactorization": {
+            "content": "1/2",
+            "factors": [
+              {
+                "degrees": [
+                  5,
+                  6
+                ],
+                "totalDegree": 9,
+                "terms": 30,
+                "multiplicity": 1,
+                "sha256": "2d8011aab23c53dde139af5f3f1405f045fb9f168ad19efee6aa91c899b2752f"
+              }
+            ]
+          }
+        },
+        {
+          "monomial": [
+            0,
+            2,
+            0
+          ],
+          "zero": false,
+          "paidRemoved": [
+            [
+              "u",
+              1
+            ],
+            [
+              "W_paid_leading",
+              2
+            ],
+            [
+              "Phi",
+              2
+            ],
+            [
+              "P02",
+              2
+            ]
+          ],
+          "unpaidFactorization": {
+            "content": "-1/2",
+            "factors": [
+              {
+                "degrees": [
+                  4,
+                  6
+                ],
+                "totalDegree": 8,
+                "terms": 24,
+                "multiplicity": 1,
+                "sha256": "71d968c793ab1cbfd998c5dc971c474d62449b4663b1ad07cda52cc73e3a84fc"
+              }
+            ]
+          }
+        },
+        {
+          "monomial": [
+            0,
+            1,
+            1
+          ],
+          "zero": false,
+          "paidRemoved": [
+            [
+              "k",
+              1
+            ],
+            [
+              "u",
+              1
+            ],
+            [
+              "W_paid_leading",
+              2
+            ],
+            [
+              "Phi",
+              1
+            ],
+            [
+              "P02",
+              2
+            ]
+          ],
+          "unpaidFactorization": {
+            "content": "-1",
+            "factors": [
+              {
+                "degrees": [
+                  4,
+                  6
+                ],
+                "totalDegree": 8,
+                "terms": 24,
+                "multiplicity": 1,
+                "sha256": "25f08d42c411fe24f557d7d3c0da822fdea662b519bd87bdbab68005b0565e79"
+              }
+            ]
+          }
+        },
+        {
+          "monomial": [
+            0,
+            0,
+            2
+          ],
+          "zero": false,
+          "paidRemoved": [
+            [
+              "k",
+              2
+            ],
+            [
+              "W_paid_leading",
+              3
+            ],
+            [
+              "P02",
+              2
+            ]
+          ],
+          "unpaidFactorization": {
+            "content": "-1/2",
+            "factors": [
+              {
+                "degrees": [
+                  4,
+                  5
+                ],
+                "totalDegree": 7,
+                "terms": 18,
+                "multiplicity": 1,
+                "sha256": "85936d4947afca79e2fa9597e98b2ed0ad06852f98315b87f5f2ce073cda288a"
+              }
+            ]
+          }
+        }
+      ],
+      "allOriginalClearingAndPaidProductsVerified": true,
+      "claimExcluded": false,
+      "seconds": 1.2816463549999995
+    },
+    {
+      "stage": "new_physical_original_quadratic_head_coefficients",
+      "name": "EBo",
+      "coefficients": [
+        {
+          "monomial": [
+            2,
+            0,
+            0
+          ],
+          "zero": false,
+          "paidRemoved": [
+            [
+              "k",
+              1
+            ],
+            [
+              "W_paid_leading",
+              2
+            ],
+            [
+              "Phi",
+              2
+            ]
+          ],
+          "unpaidFactorization": {
+            "content": "1/2",
+            "factors": [
+              {
+                "degrees": [
+                  0,
+                  1
+                ],
+                "totalDegree": 1,
+                "terms": 2,
+                "multiplicity": 1,
+                "sha256": "3145061ed00914f567f0b93b528b2916693a2ef4a66d233dc74df0242440612e"
+              },
+              {
+                "degrees": [
+                  1,
+                  1
+                ],
+                "totalDegree": 2,
+                "terms": 2,
+                "multiplicity": 1,
+                "sha256": "ef952f303f11819cdc8d9f2b864c4bdbe8bc099f6db94f75e337bcaaeb33b152"
+              },
+              {
+                "degrees": [
+                  3,
+                  4
+                ],
+                "totalDegree": 6,
+                "terms": 15,
+                "multiplicity": 1,
+                "sha256": "4fbafe487500b7df4c5f96bac962f18060e911e2c7ee5cd4ac2549b87bf1ae41"
+              }
+            ]
+          }
+        },
+        {
+          "monomial": [
+            1,
+            1,
+            0
+          ],
+          "zero": false,
+          "paidRemoved": [
+            [
+              "k",
+              1
+            ],
+            [
+              "u",
+              1
+            ],
+            [
+              "W_paid_leading",
+              2
+            ],
+            [
+              "Phi",
+              2
+            ],
+            [
+              "P02",
+              1
+            ]
+          ],
+          "unpaidFactorization": {
+            "content": "-1/2",
+            "factors": [
+              {
+                "degrees": [
+                  3,
+                  5
+                ],
+                "totalDegree": 7,
+                "terms": 19,
+                "multiplicity": 1,
+                "sha256": "a0dece3c343792ae96f05dc2db24f1a0904d570d4bd74b6132410db6cce5fbf5"
+              }
+            ]
+          }
+        },
+        {
+          "monomial": [
+            1,
+            0,
+            1
+          ],
+          "zero": false,
+          "paidRemoved": [
+            [
+              "k",
+              2
+            ],
+            [
+              "W_paid_leading",
+              2
+            ],
+            [
+              "Phi",
+              1
+            ],
+            [
+              "P02",
+              1
+            ]
+          ],
+          "unpaidFactorization": {
+            "content": "-1/2",
+            "factors": [
+              {
+                "degrees": [
+                  4,
+                  5
+                ],
+                "totalDegree": 8,
+                "terms": 25,
+                "multiplicity": 1,
+                "sha256": "8cb9ae2dbea13e01e5f87456eb46c78b27a115ad00ea33abe107f6281bcb1e72"
+              }
+            ]
+          }
+        },
+        {
+          "monomial": [
+            0,
+            2,
+            0
+          ],
+          "zero": false,
+          "paidRemoved": [
+            [
+              "u",
+              1
+            ],
+            [
+              "W_paid_leading",
+              2
+            ],
+            [
+              "Phi",
+              2
+            ],
+            [
+              "P02",
+              2
+            ]
+          ],
+          "unpaidFactorization": {
+            "content": "1",
+            "factors": [
+              {
+                "degrees": [
+                  3,
+                  5
+                ],
+                "totalDegree": 7,
+                "terms": 17,
+                "multiplicity": 1,
+                "sha256": "78c5a787b53c64be1e50e15fd6e017f0f0bacf17b4f076f92f81d090124099c2"
+              }
+            ]
+          }
+        },
+        {
+          "monomial": [
+            0,
+            1,
+            1
+          ],
+          "zero": false,
+          "paidRemoved": [
+            [
+              "k",
+              1
+            ],
+            [
+              "u",
+              1
+            ],
+            [
+              "W_paid_leading",
+              2
+            ],
+            [
+              "Phi",
+              1
+            ],
+            [
+              "P02",
+              2
+            ]
+          ],
+          "unpaidFactorization": {
+            "content": "2",
+            "factors": [
+              {
+                "degrees": [
+                  3,
+                  5
+                ],
+                "totalDegree": 7,
+                "terms": 18,
+                "multiplicity": 1,
+                "sha256": "369e7dd15b434a3f6006a7619622515a70ecdea6a5c87640b2bfe7ed47fa104d"
+              }
+            ]
+          }
+        },
+        {
+          "monomial": [
+            0,
+            0,
+            2
+          ],
+          "zero": false,
+          "paidRemoved": [
+            [
+              "k",
+              2
+            ],
+            [
+              "W_paid_leading",
+              3
+            ],
+            [
+              "P02",
+              2
+            ]
+          ],
+          "unpaidFactorization": {
+            "content": "1",
+            "factors": [
+              {
+                "degrees": [
+                  0,
+                  1
+                ],
+                "totalDegree": 1,
+                "terms": 2,
+                "multiplicity": 1,
+                "sha256": "3145061ed00914f567f0b93b528b2916693a2ef4a66d233dc74df0242440612e"
+              },
+              {
+                "degrees": [
+                  1,
+                  1
+                ],
+                "totalDegree": 2,
+                "terms": 2,
+                "multiplicity": 1,
+                "sha256": "ef952f303f11819cdc8d9f2b864c4bdbe8bc099f6db94f75e337bcaaeb33b152"
+              },
+              {
+                "degrees": [
+                  2,
+                  2
+                ],
+                "totalDegree": 3,
+                "terms": 5,
+                "multiplicity": 1,
+                "sha256": "39c52ccf930ad4d79bd83ec3e1ffed7a1cc7b77c868c2eaa9e3f603483334805"
+              }
+            ]
+          }
+        }
+      ],
+      "allOriginalClearingAndPaidProductsVerified": true,
+      "claimExcluded": false,
+      "seconds": 1.2978683439999976
+    },
+    {
+      "stage": "new_physical_original_quadratic_head_coefficients",
+      "name": "N1",
+      "coefficients": [
+        {
+          "monomial": [
+            2,
+            0,
+            0
+          ],
+          "zero": false,
+          "paidRemoved": [
+            [
+              "k",
+              3
+            ],
+            [
+              "W_paid_leading",
+              1
+            ],
+            [
+              "Phi",
+              3
+            ]
+          ],
+          "unpaidFactorization": {
+            "content": "-2",
+            "factors": [
+              {
+                "degrees": [
+                  1,
+                  0
+                ],
+                "totalDegree": 1,
+                "terms": 2,
+                "multiplicity": 1,
+                "sha256": "a52a567b31039e97a5cf32883b5e6eeb2c74dc7c60451b9af317bbedc5aee633"
+              },
+              {
+                "degrees": [
+                  2,
+                  2
+                ],
+                "totalDegree": 3,
+                "terms": 6,
+                "multiplicity": 1,
+                "sha256": "64401742ca9855bcbe3f708f236e3503b33c134be024c0ebb2ef63fb2ec240c2"
+              }
+            ]
+          }
+        },
+        {
+          "monomial": [
+            1,
+            1,
+            0
+          ],
+          "zero": false,
+          "paidRemoved": [
+            [
+              "k",
+              1
+            ],
+            [
+              "W_paid_leading",
+              1
+            ],
+            [
+              "Phi",
+              3
+            ],
+            [
+              "P02",
+              1
+            ]
+          ],
+          "unpaidFactorization": {
+            "content": "2",
+            "factors": [
+              {
+                "degrees": [
+                  3,
+                  3
+                ],
+                "totalDegree": 5,
+                "terms": 9,
+                "multiplicity": 1,
+                "sha256": "6d3c08cf8b89917d71c2235d16d3aad98447e7c439d9624280333d26d27dd525"
+              }
+            ]
+          }
+        },
+        {
+          "monomial": [
+            1,
+            0,
+            1
+          ],
+          "zero": false,
+          "paidRemoved": [
+            [
+              "k",
+              2
+            ],
+            [
+              "W_paid_leading",
+              2
+            ],
+            [
+              "Phi",
+              1
+            ],
+            [
+              "P02",
+              1
+            ]
+          ],
+          "unpaidFactorization": {
+            "content": "2",
+            "factors": [
+              {
+                "degrees": [
+                  0,
+                  1
+                ],
+                "totalDegree": 1,
+                "terms": 2,
+                "multiplicity": 1,
+                "sha256": "3145061ed00914f567f0b93b528b2916693a2ef4a66d233dc74df0242440612e"
+              },
+              {
+                "degrees": [
+                  2,
+                  2
+                ],
+                "totalDegree": 3,
+                "terms": 6,
+                "multiplicity": 1,
+                "sha256": "82aa47c9e88579d9c8fae9c63dfdbb65c6169ea19c2a8a20e84ccb4cf52b9daf"
+              }
+            ]
+          }
+        },
+        {
+          "monomial": [
+            0,
+            2,
+            0
+          ],
+          "zero": false,
+          "paidRemoved": [
+            [
+              "W_paid_leading",
+              1
+            ],
+            [
+              "Phi",
+              3
+            ],
+            [
+              "P02",
+              1
+            ]
+          ],
+          "unpaidFactorization": {
+            "content": "-2",
+            "factors": [
+              {
+                "degrees": [
+                  4,
+                  5
+                ],
+                "totalDegree": 7,
+                "terms": 21,
+                "multiplicity": 1,
+                "sha256": "85dc6ae594616844e9d510d4cc2e43fce956cd00797dc66d795c721b2c2fa1b8"
+              }
+            ]
+          }
+        },
+        {
+          "monomial": [
+            0,
+            1,
+            1
+          ],
+          "zero": false,
+          "paidRemoved": [
+            [
+              "k",
+              1
+            ],
+            [
+              "W_paid_leading",
+              1
+            ],
+            [
+              "Phi",
+              1
+            ],
+            [
+              "P02",
+              1
+            ]
+          ],
+          "unpaidFactorization": {
+            "content": "-4",
+            "factors": [
+              {
+                "degrees": [
+                  0,
+                  1
+                ],
+                "totalDegree": 1,
+                "terms": 2,
+                "multiplicity": 1,
+                "sha256": "3145061ed00914f567f0b93b528b2916693a2ef4a66d233dc74df0242440612e"
+              },
+              {
+                "degrees": [
+                  4,
+                  5
+                ],
+                "totalDegree": 7,
+                "terms": 20,
+                "multiplicity": 1,
+                "sha256": "88f6cf32192adac3869a168550acdc39b8ae93d2cdc7325bc13091f74e04f441"
+              }
+            ]
+          }
+        },
+        {
+          "monomial": [
+            0,
+            0,
+            2
+          ],
+          "zero": false,
+          "paidRemoved": [
+            [
+              "k",
+              2
+            ],
+            [
+              "W_paid_leading",
+              3
+            ],
+            [
+              "P02",
+              2
+            ]
+          ],
+          "unpaidFactorization": {
+            "content": "-4",
+            "factors": [
+              {
+                "degrees": [
+                  1,
+                  2
+                ],
+                "totalDegree": 2,
+                "terms": 4,
+                "multiplicity": 1,
+                "sha256": "9aa4bc2849f710695b225ca6cb1f5980d467ed05b55f09ba1917b5171085b298"
+              }
+            ]
+          }
+        }
+      ],
+      "allOriginalClearingAndPaidProductsVerified": true,
+      "claimExcluded": false,
+      "seconds": 1.307768178
+    },
+    {
+      "stage": "new_physical_affine_original_four_quadratic_head_input_complete",
+      "coordinates": [
+        "f",
+        "lambda",
+        "T"
+      ],
+      "allOriginalGramMeanN0P1WeightedNAndPRebuilt": true,
+      "originalAffineCoordinateInverseUsesOnlyPhysicalUnits": true,
+      "completeHeadMonomials": [
+        "f^2",
+        "f*lambda",
+        "f*T",
+        "lambda^2",
+        "lambda*T",
+        "T^2"
+      ],
+      "all15HeadMinorsAnd24CoefficientsReturned": true,
+      "allUnpaidHeadZeroFibresRetained": true,
+      "noParameterCofactorExpansionAttempted": true,
+      "sourceSHA256": "5b77c8e86d53f3ef6767ed324c1ddd413bcdd6824d9e12dfb8fac64112f6d92f",
+      "peakRssKiB": 47572,
+      "claimExcluded": false,
+      "seconds": 1.3080139620000004
+    }
+  ]
+}
