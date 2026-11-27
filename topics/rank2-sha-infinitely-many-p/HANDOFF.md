@@ -6,7 +6,7 @@
 
 固定一条 E/Q，完整证明 rank≥2 且无穷不同 p 的通常全 Sha[p∞] 有限。固定有限曲线族的联合无穷非零可用无限鸽巢；有限 p、随 p 换曲线、接口或孤立投影不完成。
 
-- 两库部分克隆已做。公开既有只读CI于12:22:31UTC真实pull --rebase成功至dd52096e6f921537c3385636ee5a0d363d48b48a（run45998092826/job140502478622），相对上次689da801两README无差异；已读blob282e86b03385d3b6245ce7100ae2e2af7b103c2d / 2f3b3c9264fbba8189f85716e68f768830e921bc。本地最后成功pull仍07:12的1cf10ac，CI与本地分别记账。
+- 两库部分克隆已做。公开既有只读CI于13:14:53UTC真实pull --rebase成功至31960783dc7fb2b488ae8cc017c3043a17c72fe4（run46005441155/job140527318654），相对上次dd52096e两README无差异；已读blob282e86b03385d3b6245ce7100ae2e2af7b103c2d / 2f3b3c9264fbba8189f85716e68f768830e921bc。本地最后成功pull仍07:12的1cf10ac，CI与本地分别记账。
 - 私库QUEUE认领41fe885610073f478b2f5a752461ca56cfd43f09已推。最近实际pull06:47UTC至6139de54ac72f1c7af0508b88ce03efdbf0a5690，两README无变；blob分别5ba164843b1f5802184178a82d786264404873a3 / 452d0127a4c3879807d70550d3eafd46c8fac642。
 - 07:20本地执行环境失联；13:13两库actual pull重试仍不可用。13:13 API私库93452a5dd8b22bc1c637c211abfcb192b8bcc7f9两README同原blob，QUEUE844a9bd5…仍本会话进行中。API不冒充pull；公开CI本次实际pull回执已消费；本地恢复立即补，不把CI冒作本地。
 
@@ -18,7 +18,7 @@
 
 v9的21000s timeout与v10的7283秒logger TypeError都已完整消费。原run/job/source/hash、未到终门及两字段兼容修复在[终点链](notes/2026-11-27-artinian-v7-final-and-successor.md)。不是代数反例，也不是四交/Norm/shadow PASS。
 
-唯一native v11 run45978097755/job140434827184/source8a19591199e83549df1709f35dc00976a40e2810在原数学步骤；56源/两char0 pins、29/2453/64/minimal、全门、同pivot/全列/附列/生成元双向返回、源码只读/禁网/21000s/360min/cancel=false均保持。12:52读原log4203673B/f9ecdfbb…d193：12:38首positive/base0全厚612已返，尾12:39:11到base1 Hermite85/306；无四交/Norm/shadow终门。不重编译/开副本。
+唯一native v11 run45978097755/job140434827184/source8a19591199e83549df1709f35dc00976a40e2810在原数学步骤；56源/两char0 pins、29/2453/64/minimal、全门、同pivot/全列/附列/生成元双向返回、源码只读/禁网/21000s/360min/cancel=false均保持。13:16复读原log仍4203673B/f9ecdfbb…d193：12:38首positive/base0全厚612已返，尾12:39:11到base1 Hermite85/306；无四交/Norm/shadow终门。不重编译/开副本。
 
 ## 二、已付算术来源与仍缺的中央非零
 
