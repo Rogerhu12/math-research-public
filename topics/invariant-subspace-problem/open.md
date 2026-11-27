@@ -4,7 +4,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-Phi-whole-psiD-and-128-cover-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-G36-low-norm-cover-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -187,9 +187,9 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 **Phi旧失败冻结：** ed0内存SIGABRT、879为SIGALRM；准确源/已返范围保完整快照及失败正文，不提高限额重跑。
 
-**[整个W的lambda=3/2原分支已闭](results/R150-appendix-unit211-W-lambda-three-halves-complete-original-exclusion.md)。** F18与原C_N1/C_NS两QQ投影给首一372/403全覆盖，已逐系数1009整；新完整模Bézout sA+tB=1（度402/371、372步、151ms）与一元Gauss排空全部复根。现可全当前W付3−2lambda，含A143/Ah零面及所有原e头零；新T3/F2六列继续。旧a267后段xgcd SIGALRM准确保原正文，不复跑，不要求PS。
+**W整个λ=3/2原分支已闭：** [372/403完整QQ覆盖与Gauss排除](results/R150-appendix-unit211-W-lambda-three-halves-complete-original-exclusion.md)已付全W的3−2λ；A143/Ah/原e头零全保。旧a267后段SIGALRM准确保档，不复跑。
 
-**一般Phi紧凑879首次失败冻结。** 实际run46022929932为120.067秒/816684KiB/内层−14 SIGALRM；最后只返回原P1/NV两线，无R2/W4或新必要曲线。准确源及[失败身份](notes/2026-11-27-unit211-Phi-zero-general-compact-two-means-SIGALRM-8542.md)保存；不加时重跑，改保自由z先用原N1首一二次。
+**一般Phi紧凑879失败冻结：** 120.067秒/816684KiB/−14只返P1/NV，无R2/W4或新曲线；[准确源与失败](notes/2026-11-27-unit211-Phi-zero-general-compact-two-means-SIGALRM-8542.md)保留，改自由z原N1首一二次，不加时重跑。
 
 **[W低D次十一原行完整六列返回](results/R150-appendix-unit211-W-global-D-linear-eleven-original-six-column-return.md)。** 391真3.624秒/71332KiB/exit0，23原归约身份/73付分母；个别Nlow/Plow和完整NVlow实际返回，整个原D非零等价范围保留。总系数编码4.25MB只留哈希，不重跑旧40MB。新f5c取原E1/EBe/N1的Hij=BjRi−BiRj并接r2，四固定3×3常数余子式保全部F/r2头零，不逆A143或D范数。
 
@@ -206,6 +206,8 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 [完整NV纯T5](results/R150-appendix-unit211-W-entire-original-NV-pure-T-quintic-ideal-compression.md)给未约化C5+Phi·f·C4=mPhiQMell²Vlow，故(C4,Vlow)=(C4,C5)，T5头已付。[直接二次](results/R150-appendix-unit211-W-entire-NV-direct-T-quadratic-and-complete-leading.md)保q5=(T+γ4)q4+μ3q3+NV2，H411度9/11/4未付。
 
 [新同S一次与权F恢复](results/R150-appendix-unit211-W-two-value-quadratics-affine-and-weight-six-F-recovery.md)：47f真2.314822503秒/71760KiB/0，L=b2r2−a2NV2，L1度18/22/8未付；三原Bi的完整权Cramer det=已付单位×G36，G36度6/8、36项且[e6]=32k6已付。仅G36非零图F为同S二次唯一表达，须代全部原式。G36=0整个权曲线继续六次常数环境；H411/L1/所有新λ头零面保留，不倒A143、Bi或D范数。旧A143零补图仍按前文原行保留。
+
+[整G36首一权代数及13个完整低范数](results/R150-appendix-unit211-W-G36-monic-weight-algebra-and-complete-low-norm-cover.md)以q=ek给首一Q6；10个一次/3个固定Sylvester范数的739整除及完整乘回已真V8返回。B80只覆盖所列物理/选头范数零集，全部81系数保小回执，不能当全G36原点投影或支付其它范数零纤维。整个k异常均保；各固定合法k必要原几何商至多36生成，不假自由/域。
 
 ## Phi：四头覆盖、首头原 D 与例外原纤维（8542，2026-11-28）
 

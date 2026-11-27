@@ -1,18 +1,17 @@
 {
-  "message": "ISP: exclude the entire Phi moment image fiber and reduce its ordered cover to 128",
-  "parentCommit": "bbdb05229dbb28fc0a3c01b18fafb193a3b4cc2b",
+  "message": "ISP: record all thirteen G36 weight norms and the exact degree eighty exceptional cover",
+  "parentCommit": "ba1aaaa0f367450c8fa1bb27a6ca29842fb5c75b",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-Phi-zero-exceptional-whole-moment-image-fiber-exclusion-and-128-cover.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-Phi-psiD-entire-original-fiber-128-execution-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-exceptional-psiD-cubic-and-original-four-by-two-exact-input-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-first-head-actual-lambda-row-module-D-return-8542.py",
-    ".github/workflows/invariant-subspace-phi-first-head-actual-lambda-row-module-d-8542.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-Phi-whole-psiD-and-128-cover-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-Phi-whole-psiD-and-128-cover-8542.md",
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-W-G36-monic-weight-algebra-and-complete-low-norm-cover.md",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-W-G36-monic-weight-algebra-complete-low-norm-cover-receipt-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-W-G36-original-weight-norm-cover-8542.js",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-W-G36-original-weight-norm-cover-product-8542.js",
+    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-G36-low-norm-cover-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-G36-low-norm-cover-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -21,7 +20,5 @@
     ".github/workflows/invariant-subspace-8542-root-terminal-publication.yml",
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
-  "dispatchWorkflows": [
-    "invariant-subspace-phi-first-head-actual-lambda-row-module-d-8542.yml"
-  ]
+  "dispatchWorkflows": []
 }
