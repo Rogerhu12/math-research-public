@@ -4,7 +4,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-complete-Phi-exceptional-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-entire-collision-P3-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -187,7 +187,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 [整个Delta0](results/R150-appendix-unit211-equal-singleton-entire-Delta-zero-exclusion.md)及[整个J2二次λ纤维](results/R150-appendix-unit211-entire-J2-complete-original-fiber-exclusion.md)均已原排空。后者先由ef759完整u覆盖F28/F23/F6，再由a2a真0.855秒/85760KiB/0返回224/184维原R单位及末48维真实QQ Delta²；一次目标未返不冒非成员，两个λ嵌入/全部uQ均保。
 
-[4500两QQ投影](results/R150-appendix-unit211-equal-singleton-two-original-QQ-projections-common-curves-and-finite-base-remainder.md)余P25/3或两E交点。旧[原Delta²/1474](results/R150-appendix-unit211-collision-P3-original-Delta-square-and-complete-1474-parameter-cover.md)保持；新[完整66参数覆盖](results/R150-appendix-unit211-collision-P3-original-Gamma-deflation-and-complete-66-cover.md)真28.359331440秒/117372KiB/0：同点Delta/Tnum一次Gamma仅在真实Delta非零点剥除，四原式降次3/4/4/4；两固定7阶Sylvester身份跨瞬时主元零延拓，整权范数及全部真实chart得SF66，与旧1474全QQ Bézout交仍66。准确1961B参数保存。P的u次数3及不可约性给≤198不同λu，合两残E≤39393；原Q纤维与个别N/P仍完整返回，不宣Q有限。h1/k1≤6219、ell三次后≤18657权三元组及自由t仍开，5b2冻。
+[两原QQ投影](results/R150-appendix-unit211-equal-singleton-two-original-QQ-projections-common-curves-and-finite-base-remainder.md)中的J2已闭，新[整条P25,3原排除](results/R150-appendix-unit211-collision-P3-entire-original-exclusion.md)由保存66覆盖完成：35afaf真26.407033314秒/56164KiB/0，全部六QQ域及lambda/u首项退化保留，12叶全闭；九个原Q整商返回为一次1、八次Delta²。64原除法/397真逆均乘回，无D逆/模提升，重复u因子两侧真实保留。旧1474/Gamma66及所有成功门冻结。余下只能在E177/18∩E182/19，至多39195不同λu；原Q、同f/z及所有个别N/P仍开，不宣Q有限。h1/k1≤6219、ell三次后≤18657权三元组及自由t仍开。
 
 ## W：同一 S 的原二次系统及权六次例外（8542，2026-11-28）
 
@@ -197,7 +197,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 [同S一次与权F恢复](results/R150-appendix-unit211-W-two-value-quadratics-affine-and-weight-six-F-recovery.md)保L1度18/22/8未付；原三Bi的det=已付单位×G36(e,k)，仅G36非零图F可唯一恢复。H411、L1和所有λ头零面仍保原式，不倒A143/Bi/D范数。
 
-[13低范数/B80](results/R150-appendix-unit211-W-G36-monic-weight-algebra-and-complete-low-norm-cover.md)仅盖所列原物理/头异常；[完整1198](results/R150-appendix-unit211-W-G36-original-unit-and-complete-1198-weight-cover.md)的准确参数保持。新[整个高1134原有限覆盖排除](results/R150-appendix-unit211-W-G36-entire-high1134-original-finite-free-exclusion.md)由7a602真85.534334059秒/124504KiB/0完成：只余31域各原108×56全列满射，合旧成功35列乘变量解析升阶及唯一坏模点77ms新两四次；完整43模因子/重复(k+587)^2/整个Q6均保，Z_(1009)上有限自由6804维与两次Nakayama合法提升整个QQ高覆盖。adfc原SIGSEGV不改成功，不以一般模p判空替代提升。low61全部原QQ纤维独立续，G36非零与所有未付H411/L1/lambda首项仍开。
+[G36完整1198覆盖](results/R150-appendix-unit211-W-G36-original-unit-and-complete-1198-weight-cover.md)及[整个高1134排除](results/R150-appendix-unit211-W-G36-entire-high1134-original-finite-free-exclusion.md)保持：7a602真85.534334059秒/124504KiB/0，新31原108×56整域返回合旧成功块/新坏点，经p整有限自由6804维与两次Nakayama覆盖43因子及所有重数。adfc原SIGSEGV准确冻结；全部细节/参数保正文与完整open归档，不重放。
 
 ## Phi：四头覆盖、首头原 D 与例外原纤维（8542，2026-11-28）
 
@@ -221,13 +221,13 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 此前Haar/稀疏链全交织、所有非零Ky像T循环、与RanJ零交及同源Abel费/log发散等已证接口仍在快照链；Cy⊥非零、G保N、W源费及普通ISP继续。
 
-**碰撞P3新有限原输入：** 35afaf首次仅读1961B F66、旧四原多项式两片及P因子清单；准确QQ分解并保lambda/u全部首项下降及非单位两因子，同一Q原四式真正组合返回1或已付物理乘积幂。180秒/4GiB首次派发，未假整P排空，不重跑1474或低Gamma范数。
+**三项不同新输入首次派发：** W末low29仅用已存k14/q5、k15整q6新M13分离及两原四次108×56，180秒/4GiB；Phi一般H1上保存L的b(λ)=0在整Q4代数恢复λ/T、真D/F6/原z式，全部u极点保cover，仅旧D≠0图，120秒/1GiB；六位birth2全15维pair伴随原源，完整FU逆后才压K2、保两cross，180秒/4GiB逐段保存。均不重放旧失败或借外绿认数学完成。
 
 
 
 
 
-[W-G36前七整个低QQ纤维](results/R150-appendix-unit211-W-G36-seven-low-QQ-fibers-exclusion-and-two-retained-fibers.md)已闭：k次数2/2/3/4/5/6/10，总32；每个原Q6实际分q1/q5，前者已付原单位恒零、后者整个QQ常数代数原48×35目标1全列乘回。cad41随后真180.069730303秒/88336KiB/−14，不抬限；只余k14的q5（其J19零q1已闭）和尚未开始的k15全q6。两原纤维准确参数单存，后续改新两四次108×56有限返回，前七成功块与已闭q1均不重跑。结合高1134全闭，G36只余这两低纤维；G36非零及原未付头另保。
+[前七整个低QQ纤维](results/R150-appendix-unit211-W-G36-seven-low-QQ-fibers-exclusion-and-two-retained-fibers.md)度2/2/3/4/5/6/10全闭：q1原单位零、q5原1均实际返回。cad41真180.069730303秒/88336KiB/−14，末k14只保已存q5、k15 q6未开始；准确末low29参数单存。新b88ab仅这两图用原两四次108×56有限自由返回，不重做前七或已闭J19 q1。G36非零/H411/L1/所有lambda头另开。
 
 
 

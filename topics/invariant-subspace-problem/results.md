@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [整条碰撞P25,3原排除](results/R150-appendix-unit211-collision-P3-entire-original-exclusion.md)：完整66参数六QQ域/全部头降次，九原返回1或Delta²，余仅两E交点≤39195不同λu；不外推整个碰撞图。
+
 - [Phi例外有序权图的完整原排除](results/R150-appendix-unit211-Phi-zero-exceptional-weight-chart-complete-original-exclusion.md)：保存P6特化乘完整未付h4保首头零，固定原43阶结式模553与真首一R1977 Bézout1；仅已付phi4，严格整个原有序例外及BC交换排空。
 
 - [W-G36七个整低QQ纤维排除及末两纤维保留](results/R150-appendix-unit211-W-G36-seven-low-QQ-fibers-exclusion-and-two-retained-fibers.md)：总32次权因子全部原q分量关闭，真180秒SIGALRM只留k14/q5与k15/q6；保存精确输入，未把已返单位或未开始域改写为失败。
