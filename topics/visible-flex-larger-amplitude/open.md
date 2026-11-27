@@ -127,3 +127,5 @@ README未完成；时长、阶段、失败和输入困难均非终点；按open�
 [续费/下游完整接口](notes/2026-11-27-normal-fee-continuation-and-downstream-source-path-contracts.md)已核：normal可换step_id但续原outdir须原normal首次repo绝对路径/完整输入；G绑定whole normal与首次源路径，normal变SHA不能原目录重绑；R723及mesh须fresh。首次各下游可新repo但必须重读原件。原32词mesh不附closed故目前无此缺件门；未来R723附证另需兼容源，旧002eb不得冒新角色。所有原domain/budget/complete/branch/主副件条件保全note。
 
 容量续求：ret54完整18旧生成对象已逐项退树、净1113720B；源/请求/全spec与数值输入不退，旧读者须恢复完整原字，详[全部保全账](computations/legacy-native-generated-metadata-retention-54-complete-delivery.json)。同一批将完整21启动/后参接上，不计数学完成。
+
+21完整启动已提交：[全记录](notes/2026-11-27-run21-complete-five-eighths-launch-and-continuation.md)。同g只width1/2→5/8；原两完整输入+157词科学整步，全部source/预算/责任保全；官方run/job待实际查。科学/pure全包超95KB，真正返回后整步接pure，无删字段。

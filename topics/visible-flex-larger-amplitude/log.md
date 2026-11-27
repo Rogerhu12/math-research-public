@@ -76,3 +76,7 @@
 ## 2026-11-27 23:46:39 UTC — ret54完整保全与实际退树
 
 精确18旧生成件总1376720B，5份完整参数/源输入/边界/说明/总表263000B，净释放1113720B；五字节完全相同身份留actual59 canonical，83/91 transport/root/binding、41/54预调用intent、50四完整绑定描述、四输出数组描述仅退所列对象。13 whole SHA已知、5大/压缩件SHA未知仍null，固定de59ba22整Git原字恢复；49源/30完整边界源、8全新请求及5旧完整请求/整lane、原spec/config/数组/真实失败和旧reader原守卫保全。未读≥100KB/binary，未作科学/AST/fixture/新门。完整[保全总表](computations/legacy-native-generated-metadata-retention-54-complete-delivery.json)及[说明](notes/2026-11-27-legacy-native-generated-metadata-retention-54.md)。H重排引用此前12d43完整原H，全部原参数/失败和controller当前真pull槽合并保留。双README云核至`f5e4897c620dd9e924114ad9bfda52e8760e8223`无变（非pull），继续原任务与21完整启动。
+
+## 2026-11-27 23:47:26 UTC — 第21完整5/8启动提交
+
+刊6个完整启动件180733B（题内178506B）：19984B controller、2227B workflow、73309B三whole-step queue、51519B完整request、20538B启动总表、13156B全启动说明。已刊dd02六完整科学参数不改；两输入maker/reference没有width参数，同一固定g须在新runner真实重建；完整157科学仅namespace与width113改，δ1/32、metric/restoration均.01、137/18源、458formal/48live/全预算与5CLI+8external原责任全保。原350分钟/20000秒/finishfalse与pull/README差异同步不变，时限非课题终点。独立新分支不等19/20final；实际run/job未预填，提交后查询官方。原19请求全部改变过的字段完整保，新正文准确；启动后不改request。完整workflow Git tree cd3aa8cb8cae70b12e727f572776368c6e1884e2的1277项无同名，fresh普通合并；双README云核至`e5b10b9c589dde7ff7d32ba8a124f5cd7b6f34c8`无变（非pull）。H重复数学摘要引用全原note与12d43完整H，原科学和未知未删。
