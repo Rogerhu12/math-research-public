@@ -58,3 +58,6 @@ R1025 §6.1原Hermite差进一步精确化：完整两个原函数的1/y项相�
 
 2026-11-27 04:20 UTC / Astra-rank2-Sha-0b097461-20261127
 R1024原三字固定连接/完整P10伴随和加权primitive登记。逐式核δ缩放、全p曲率逆、section代表独立及小留数；S3全Taylor水平式、Gaussian真实除p和−3单位余阶、两个Miller/test符号齐。P10_S的原有限定义、Ξ非零初值与外部τ_-R测试点严格保留，未用内部O展开代原第三行。H逐字归档压缩旧重复，继续真正同点全权消元。README API差异空至6e9791e8d54338352bfca2f1227f171f3dbb3536；本地执行环境仍未恢复，实际pull待补。
+
+2026-11-27 04:25 UTC / Astra-rank2-Sha-0b097461-20261127
+R1024 §7.0.1完成真正测试点的全函数运输：j/J/h的原cocycle及Z_R∘t_-R=Z给t_-R*M_R=−M_-R，正负两支在原O的三项已显式返回，Gaussian符号真实翻转。保整个P10_R、Miller/三十三字的同一外部拉回；未把运输函数的单位认作canonical第三行。继续实际a_P和原整窗消元。README API差异空至bcd3aeea052e6c04571c3387559664eb143061aa。

@@ -505,6 +505,41 @@ $$
 末余数 $b=p-1$ 的测试项确实为零，未以一般首项替代它。
 两支共同的 Gaussian 水平和相反的两后项都已经付清。
 
+
+### 7.0.1 完整 cocycle 将测试点准确拉回 O
+
+不能把 (30) 的内部原点直接当成最终读点；这里实际完成该外部拉回。
+原 addition 和同一指定函数给整个恒等式
+$
+j_R\circ t_{-R}=-j_{-R},\qquad
+J_R\circ t_{-R}=-J_{-R},\qquad
+h_R\circ t_{-R}=-h_{-R},\qquad
+Z_R\circ t_{-R}=Z.
+$
+把它们逐项代入 (29)，得到
+$
+\boxed{\widetilde M_{R,b}:=t_{-R}^*M_{R,b}=-M_{-R,b}.}
+\tag{30a}
+$
+因此在真正拉回到原 $O$ 的坐标中，准确的三项为
+$
+\boxed{\begin{aligned}
+\widetilde M_{S,b}
+ &=-10a_SZ^p-3(b+1)\rho_pZ^{2p-2}
+   -30Z^{3p-1}+O(Z^{4p-3}),\\
+\widetilde M_{-S,b}
+ &=-10a_SZ^p+3(b+1)\rho_pZ^{2p-2}
+   +30Z^{3p-1}+O(Z^{4p-3}).
+\end{aligned}}
+\tag{30b}
+$
+特别，共同 Gaussian 项的符号在这次真实拉回中改变；
+两项相反的非水平费用仍严格保留。
+(30a) 是全函数式，(30b) 是其准确前缀。
+把它用于原必要行时，仍须同时拉回完整 $P_{10,R}$、
+Miller、三字根权及全部十三字权，不能只拉回 $M_{R,b}$ 后
+将其单位当成 canonical 读数。
+
 ### 7.1 P10 的真实运输仍是独立账本
 
 整个原 translated 模型必须使用
