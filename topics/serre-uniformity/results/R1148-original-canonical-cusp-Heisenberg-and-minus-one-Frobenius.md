@@ -454,3 +454,78 @@ $\operatorname{loc}_p(\gamma_3)$、$\operatorname{loc}_p(\gamma_5)$
 - 本节的 (1148.22)–(1148.28) 是对原角色、原 $\eta_a$、Kummer/corestriction 和有限系数的明确接入；未执行任何数学程序，也未重跑已有 Vandiver 或 Bernoulli 数值窗口。
 
 主目标仍未完成：现在充分大的负一分支已具有无条件的真实中心限制，仍需付所有 affine 点或足够强的全局高度/局部排除。
+
+
+## 11. 全部标签由一个五维群控制，且共同尖点排除密度恰 1/p²
+
+本节仍取 $p>C_{\rm cyc}$，所以没有 §7 的额外非零门。记
+$$
+\Theta=\eta(\gamma_3,\gamma_5)
+ \in H^1(S_0,\mathcal H_{3,5}).
+$$
+对 $a,b\in\mathbb F_p$，真实群同态
+$$
+D_{a,b}(x,y,z)=(ax,by,abz)
+$$
+连同 R1146 的唯一性给
+$$
+\boxed{\eta(a\gamma_3,b\gamma_5)=D_{a,b,*}\Theta.}
+\tag{1148.29}
+$$
+所以不必取 $p^2$ 个互不相关的 splitting fields；全部 global lifts 已由同一个 $\Theta$ 控制。
+
+把 $\Theta$ 与 $\Xi$ 放在一起。它们共享同一个 $\gamma_5$ 槽；可同时选择这个 cocycle 的同一代表。共同群是明确的 fibre product
+$$
+\mathcal J=
+\mathcal H_{3,5}\times_{L_5}\mathcal H_{5,9}.
+$$
+写成五槽 $(x_3,x_5,x_9,z_8,z_{14})$，其群律是
+$$
+\begin{aligned}
+&(x_3,x_5,x_9,z_8,z_{14})
+ (x'_3,x'_5,x'_9,z'_8,z'_{14})\\
+&\quad=(x_3+x'_3,x_5+x'_5,x_9+x'_9,\
+ z_8+z'_8+x_3x'_5,\
+ z_{14}+z'_{14}+x_5x'_9).
+\end{aligned}
+\tag{1148.30}
+$$
+$\gamma_3,\gamma_5,\gamma_9$ 非零且有不同角色，故实际 $G_K$ 像向这三个 abelian 槽满射；§7 的纯中心括号又给整个 $L_8\oplus L_{14}$。所以其实际像是全部 $\mathcal J$，几何阶准确为 $p^5$。
+
+若 $M$ 是含 $K$ 且同时劈裂 $\Theta,\Xi$ 的最小有限 Galois 扩张，则
+$$
+\boxed{[M:K]=p^5,\qquad[M:\mathbb Q]=(p-1)p^5.}
+\tag{1148.31}
+$$
+它仍仅在 $p$ 分歧。该式是实际共同场的次数，不是未验证的上界，也没有把共享 $\gamma_5$ 算两次。
+
+对 $\ell\equiv-1\pmod p$，记
+$$
+t_\ell=\kappa_\ell(\Theta),\qquad s_\ell=\kappa_\ell(\Xi).
+$$
+式 (1148.12)、(1148.29) 精确给
+$$
+t_{a\gamma_3,b\gamma_5,\ell}=ab\,t_\ell.
+\tag{1148.32}
+$$
+若 $t_\ell\ne0$，则 $ab$ 遍历整个 $\mathbb F_p$，所以对任意指定 cusp，总有某个 global pair 满足 (1148.15)。若 $t_\ell=0$，全部 pairs 的中心读数都是零；它们与某个 cusp 相容恰当 $s_\ell=0$。因此
+$$
+\boxed{\begin{split}
+&\text{没有任何 global pair 与任何原 cusp 相容}\\
+&\qquad\Longleftrightarrow\quad
+ t_\ell=0,\quad s_\ell\ne0 .
+\end{split}}
+\tag{1148.33}
+$$
+这是对全部 global pairs 的精确判据；实际 $p$-local 候选可能只占其中一部分，但本节未借这种缩小来增加结论。
+
+在 $\omega=-1$ coset 内，两个独立中心坐标均匀遍历 $\mathbb F_p^2$，满足 (1148.33) 的 pair 数准确为 $p-1$；其余三个 abelian 坐标任意。结合 $1/(p-1)$ 的同余密度，Chebotarev 给
+$$
+\boxed{\delta\{\ell:\text{(1148.33) 成立}\}
+ =\frac1{p-1}\frac{p-1}{p^2}
+ =\frac1{p^2}.}
+\tag{1148.34}
+$$
+因此 §8 的正密度在充分大范围内已经确定为 $1/p^2$，且由同一个 degree $(p-1)p^5$ 的真实场检测。不声称每个负一素数都排掉 cusps；事实上 (1148.33) 也明确给出不能这样说的原因。
+
+式 (1148.34) 不给最小这样的 $\ell$，仍不排其余 affine 点。全部论证为原两 Heisenberg lifts 的显示群律、已付 Galois 像和 Chebotarev 计数；无数学程序执行。

@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。已部分克隆并真实pull main，读根/课题README及H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则36cf1ed2已读。不得重做登记结论/窗口。
 
-**公开两README已读提交：1e642976aec7c6e620da2e2bab3112e6ee30ee56**（2026-11-28 06:53 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 06:21 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
+**公开两README已读提交：ebdf38b0f0754f3a4760d1c52f638457b7b15bbd**（2026-11-28 06:56 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 06:21 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
 
 最近真实pull已恢复：2026-11-28 06:21 Asia/Taipei，公开Actions run46076082440/job140764009178，在blob:none浅部分克隆中真实pull --rebase至fb9f91b6，两README diff空且SHA与已读全文相同；[源/回执入口](notes/2026-11-28-terminal-rule-sync.md)。下次请求≤07:10、真实pull≤07:21。本地06:18仍无环境；本地恢复即pull。每次提交仍按根规则8 fresh main/diff/expected_sha非force，拒绝立即同步重推。令牌只CLI，当前同步workflow匿名无token。数学程序仅本公开Actions；V8仅metadata/文本。[此前纠正](notes/2026-11-26-execution-path-deviation-and-correction.md)。
 
@@ -34,7 +34,7 @@ root管main/H/open/index/log，子研究仅独立candidate；每条结论即推�
 
 [R1147 §§8–12](results/R1147-original-canonical-moment-Heisenberg-lift.md)现付同一theta的唯一兼容整G_n/pro-p塔：primitive p^n点exact norm及正确Q-cor圆单位箭头；所有非单位a的φ(g)/g、相位+arith transfer全保。实际v_d∞=(1−p^d)B_(d+2)/(d+2)，第三槽修正21(1+p⁴)/11。全R_n HS/cyclic cup、Teich下降和全S0延拓均付，modp正好原P。Cartan仍先modp再pushout，不给I一个虚构T_pE提升；SS/crystalline与中心首项仍开。
 
-[R1148 §10](results/R1148-original-canonical-cusp-Heisenberg-and-minus-one-Frobenius.md)已用Soulé固定权定理消掉充分大p的global门：C_cyc=exp(9^(224·9⁴))，p>C_cyc时原ε4/ε8投影与单位因子精确匹配，γ5/γ9无条件非零并生成各H¹；Kurihara给γ3生成H¹L3。全部global pairs恰(aγ3,bγ5)，共p²个；R1148密度/同时cusp排除在此绝对范围无条件。未宣localization unit，Bp−3/5/9的p-local门仍保；继续affine/有效辅助素和SS值。
+[R1148 §10](results/R1148-original-canonical-cusp-Heisenberg-and-minus-one-Frobenius.md)已用Soulé固定权定理消掉充分大p的global门：C_cyc=exp(9^(224·9⁴))，p>C_cyc时原ε4/ε8投影与单位因子精确匹配，γ5/γ9无条件非零并生成各H¹；Kurihara给γ3生成H¹L3。全部global pairs恰(aγ3,bγ5)，由唯一Θ(3,5)的scaling控制；与Ξ(5,9)共享γ5的实际五维群给[M:Q]=(p−1)p⁵。§11共同cusp排除恰κΘ=0、κΞ≠0，密度准确1/p²，无额外门。未宣localization unit，Bp−3/5/9的p-local门仍保；继续affine/有效辅助素和SS值。
 
 ## O1：原两 jet、Gauss–Padé 与固定 Dixon
 
