@@ -141,3 +141,183 @@ root 与 o1_theta 已纸核两条反射、完整支撑、消元与作用域；
 同一来源的 Newton 节点、完整 good 余核及其固定非观测值
 见所引有限重建笔记 §§7–9。后续继续原 $\Delta_{\rm low}$、
 唯一剩余点对的其余实际行以及两 twist 的准确运输。
+
+
+## 5. 原二挠平移给三条完整 Appell 乘积身份
+
+本节仍使用 R1114 的同一个原 Gaussian CM lift、微分
+$\omega=dx/(2y)$ 和 tangent-one additive 参数 $t$。
+先在 characteristic zero 作恒等式，再只约化下述安全系数。
+记 $Q=(0,0)$、$i^2=-1$、$\lambda=1+i$，并置
+$$
+x_Q(t)=x(t+Q)=a/x(t),\qquad
+\zeta_Q(t)=\zeta(t+Q)-\zeta(Q)=\zeta(t)+y(t)/x(t).
+\tag{1135.9}
+$$
+这里 $\lambda$ 是原 CM 同源，不是 (1135.2) 中的节点尺度。
+原二挠加法律及 $1+i$ 同源给
+$$
+\lambda\zeta(\lambda t)=\zeta+\zeta_Q,\qquad
+\lambda^2x(\lambda t)=x+x_Q=(\zeta-\zeta_Q)^2,\qquad
+xx_Q=a.
+$$
+所有平移常数已经由 (1135.9) 固定。
+
+定义原 Kronecker 核的三个 Appell 列
+$$
+\begin{aligned}
+C_2&=\zeta^2-x,\\
+C_3&=\zeta^3-3x\zeta-2y,\\
+C_4&=\zeta^4-6x\zeta^2-8y\zeta-3x^2-\frac{12a}{5},
+\qquad C_{2,Q}=\zeta_Q^2-x_Q.
+\end{aligned}
+\tag{1135.10}
+$$
+特别，$C_4$ 保留原 sigma 分母给的 $-12a/5$；
+它是 $\sigma''''/\sigma-2a/5$，不是单独的
+$\sigma''''/\sigma$。原核展开为
+$$
+\mathscr K(t,U)=U^{-1}+\zeta(t)
++\frac{C_2(t)}2U+\frac{C_3(t)}6U^2+\frac{C_4(t)}{24}U^3+O(U^4).
+$$
+
+由 (1135.9) 直接得到完整身份
+$$
+\boxed{\begin{aligned}
+C_2(\lambda t)&=-2i\,\zeta\zeta_Q,\\
+C_3(\lambda t)&=-\lambda(\zeta_QC_2+\zeta C_{2,Q}),\\
+C_4(\lambda t)&=\frac{8a}{5}-4C_2C_{2,Q}.
+\end{aligned}}
+\tag{1135.11}
+$$
+第一式由两平方之差给出。第二式对第一式求导，并用
+$C_2'=C_3-\zeta C_2$、$\zeta'=-x$、
+$\zeta_Q'=-x_Q$。第三式使用准确的
+$C_4=4\zeta C_3-3C_2^2-12a/5$；
+代入前两式后，剩余常数是
+$4xx_Q-12a/5=8a/5$。因此没有删去较低乘积。
+
+特征 $p=4k+3$ 下 $\lambda^{p+1}=2$，所以
+$$
+\lambda^{p-7}=\frac18,\qquad
+\lambda^{p-6}=\frac{\lambda}{8},\qquad
+\lambda^{p-9}=-\frac{i}{16}.
+$$
+分别读取原 (1135.3)、(1135.7) 所需系数，得到
+$$
+\boxed{\begin{aligned}
+c_2&=-\frac43[t^{p-6}](\zeta_QC_2+\zeta C_{2,Q}),\\
+c_3&=-\frac43[t^{p-7}]C_2C_{2,Q},\\
+d_1&=16[t^{p-9}]\zeta\zeta_Q .
+\end{aligned}}
+\tag{1135.12}
+$$
+例如 $24c_3=[t^{p-7}]C_4$，且 $p-7>0$，
+故 (1135.11) 的常数 $8a/5$ 不贡献这次读取。
+三式都保留完整原乘积，不把它们当作独立的单位输入。
+
+## 6. 原 $u$ 残数使三余项准确降为两余项
+
+沿 R1114 (1114.5)–(1114.7)，写
+$$
+\begin{gathered}
+u=x^{-1/2}=t+O(t^5),\quad z=-au^4,\quad
+R(z)=(1-z)^{-1/2},\\
+F(z)={}_2F_1\left(\frac14,\frac12;\frac54;z\right),\qquad
+G(z)={}_2F_1\left(\frac34,\frac12;\frac74;z\right),\\
+t=uF(z),\quad dt=R(z)\,du,\quad
+\zeta=\frac{R(z)^{-1}}u-\frac{au^3}{3}G(z),\quad
+\zeta_Q=-\frac{au^3}{3}G(z).
+\end{gathered}
+\tag{1135.13}
+$$
+这里 $G(z)$ 是原第二类积分的函数；
+$G_{p-3}$ 仍表示原 Hurwitz 数。二者不混用。
+最后两式正是 R1114 中已经固定常数的
+$\zeta+y/x=-a\int_0^u s^2(1+as^4)^{-1/2}\,ds$。
+
+因此
+$$
+C_2=au^2-\frac{2a}{3}u^2R^{-1}G+\frac{a^2}{9}u^6G^2,\qquad
+C_{2,Q}=-au^2+\frac{a^2}{9}u^6G^2.
+$$
+相乘时两条 $a^3u^8G^2/9$ 严格相消，准确剩下
+$$
+\boxed{
+C_2C_{2,Q}
+=-a^2u^4+\frac{2a^2}{3}u^4R^{-1}G
+-\frac{2a^3}{27}u^8R^{-1}G^3
++\frac{a^4}{81}u^{12}G^4 .
+}
+\tag{1135.14}
+$$
+这一消去发生在同一原函数乘积内，不使用任何非零猜测。
+
+令 $M=p-7$。对本式的正规幂级数作真实残数换元：
+$$
+[t^M]C_2C_{2,Q}
+=[u^M]C_2(u)C_{2,Q}(u)F(z)^{6-p}R(z)
+=[u^M]C_2(u)C_{2,Q}(u)F(z)^6R(z)\pmod p.
+\tag{1135.15}
+$$
+最后一步只用于此次 $M<p$ 的安全前缀。
+所有需要的 $F,G$ 系数最多到 $z^{k-1}$；
+由 R1114 (1114.6)，其分母 $4j+1,4j+3,j!$ 均为单位。
+未读取 $[z^k]G$ 的首个 $p$ 分母。
+在该前缀内 $F^{-p}\equiv1$，且乘积 (1135.14) 从 $u^4$ 起，
+故没有高项回流。原整 eigenparameter 与 additive $t$ 的差
+同样远高于这里的次数。
+
+为与 R1114 §7 的三个原卷积逐字对齐，令
+$$
+\begin{aligned}
+\mathcal K_p&=[u^{p-11}]F(-au^4)^6G(-au^4),\\
+\mathcal V_2&=[u^{p-15}]F(-au^4)^6R(-au^4)G(-au^4)^2,\\
+\mathcal V_3&=[u^{p-15}]F(-au^4)^6G(-au^4)^3,\\
+\mathcal V_4&=[u^{p-19}]F(-au^4)^6R(-au^4)G(-au^4)^4,\\
+\mathcal H_p&=[t^{p-5}]C_2(t),\qquad g=G_{p-3}.
+\end{aligned}
+\tag{1135.16}
+$$
+R1114 (1114.23)、(1114.31) 已支付同源的
+$$
+[u^{p-11}]F^6R=[t^{p-7}]x^{-2}=30a^{-2}g,\qquad
+5\mathcal H_p+\frac{8a^2}{45}\mathcal K_p=16g,\qquad
+g=\frac{2a}{5\delta^3}\ne0.
+$$
+将 (1135.14) 全部代入 (1135.12)、(1135.15)，得
+$$
+\boxed{\begin{aligned}
+c_3
+&=40g-\frac{8a^2}{9}\mathcal K_p
+       +\frac{8a^3}{81}\mathcal V_3-\frac{4a^4}{243}\mathcal V_4\\
+&=-40g+25\mathcal H_p
+       +\frac{8a^3}{81}\mathcal V_3-\frac{4a^4}{243}\mathcal V_4 .
+\end{aligned}}
+\tag{1135.17}
+$$
+这是真正去掉 $\mathcal V_2$ 的完整原系数身份。
+与 R1114 (1114.39) 比较，也可精确写出被消去项：
+$$
+\boxed{
+\mathcal V_2
+=-\frac{1305}{a^3}g+\frac{3375}{4a^3}\mathcal H_p
+ +\frac{34}{9}\mathcal V_3-\frac{11a}{18}\mathcal V_4 .
+}
+\tag{1135.18}
+$$
+两种写法完全等价，不另引入新的 primitive 或 frame。
+
+## 7. 新身份支付的范围
+
+(1135.11)–(1135.18) 只消费同一原 sigma 核、
+二挠平移及 R1114 的安全残数。本节由 o2_high_coefficient 推导，
+o1_theta 已独立纸核三条 norm-two 身份、原 $1/2,1/6,1/24$ 列尺度以及
+(1135.14) 的完整乘积消去；没有数学程序执行。
+
+在 $\mathcal H_p=0$ 支，(1135.17) 仍有
+$\mathcal V_3,\mathcal V_4$ 两个余项。不能从 $g$ 为单位
+断言 $c_3$ 为单位，也未证明 (1135.8) 的
+$\Delta_{\rm low}=c_2d_1+G_{p-7}c_3$ 非零。
+使用这些列作原标签的分离时，仍须保留 §3 的实际 Bernoulli mask、
+全部较低乘积，以及两条 twist frame 的准确运输。

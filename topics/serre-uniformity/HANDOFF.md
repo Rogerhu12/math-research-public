@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。已部分克隆并真实pull main，读根/课题README及H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则36cf1ed2已读。不得重做登记结论/窗口。
 
-**公开两README已读提交：420002f268f6978049cb9575a456630e6c363c5c**（2026-11-28 03:28 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
+**公开两README已读提交：c64c683782af9d560c6f84f2d31edfbedd5786a5**（2026-11-28 03:36 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
 
 最近真实pull 2026-11-27 01:48 Asia/Taipei；2026-11-28 03:27重试执行器仍报无可用环境，shell未启动。按根规则8连接器同步、读diff、expected_sha非force提交，拒绝立即同步重基重推至成功；环境恢复立即pull --rebase。下一次真实尝试不晚于2026-11-28 04:27。令牌只CLI。数学程序仅本公开仓库Actions；本地/V8仅metadata/文本，不作数学计算。[此前偏差纠正](notes/2026-11-26-execution-path-deviation-and-correction.md)。
 
@@ -42,7 +42,7 @@ root管main/H/open/index/log，子研究仅独立candidate；每条结论即推�
 
 [原genus4全局Raynaud](notes/2026-11-28-original-genus-four-global-Raynaud-vanishing.md)：实际degree3商y³=(2/κ)(1−η⁶)，四基全Cartier-zero；μ6×μ3排第四基的三对。原ω↦h及absolute负号给e=3ρsδA，再消费e0 iffS0，得到e0 iff全局β恒零。Y非hyperelliptic，不反用单向引理，也不把四维isotropic当矛盾。
 
-[原Lamé续稿](notes/2026-11-27-original-lame-tridiagonal-short-flag-continuation.md)的短旗标/Green/全Newton/纯极Φ及R1113完整Lamé谱已付；相邻单位、零谱投影、R1130相邻δ都不代指定两jet。R1126六CM十五配对保A/S/T，Pfaffian不含S；R1060非CMordinary不推S。旧素数窗至500000已成，不重扫。
+[原Lamé续稿](notes/2026-11-27-original-lame-tridiagonal-short-flag-continuation.md)的短旗标/Green/全Newton/纯极Φ及R1113完整Lamé谱已付；相邻单位、零谱投影、R1130相邻δ都不代指定两jet。R1126六CM十五配对保A/S/T，Pfaffian不含S；R1060非CMordinary不推S；旧至500000窗口不重扫。
 
 [R1134](results/R1134-original-single-source-low-Euler-obstruction.md)四个原输入的十五列Euler小类全rank，真实run/hash已消费，勿重跑；有限结论不外推。
 
@@ -50,7 +50,7 @@ root管main/H/open/index/log，子研究仅独立candidate；每条结论即推�
 
 [R1127](results/R1127-original-Gaussian-irregular-complement-and-affine-cuspidal-label.md) p4k3且p|Bp−3时χ2 coarse一次斜率unit，只付跨盘。剩余p∤Bp−3；盘内还需原高度。[R1129](results/R1129-linear-many-nonconstant-original-Gaussian-profiles.md)constant iff ord_bG_v≥s，degree=(s−ord)/2，非constant≥max{3,floor(p/96)+2}，不推独立/纤维唯一。
 
-[R1116](results/R1116-original-Gaussian-forced-tangents-and-Kronecker-band.md) §§7–9保全gauge/低卷积/高尾，f_n=−Θ^nG_v/(n!(v)_n)及有限Möbius点对差，仅weight≤p−3。Θ^p在SS=δ²∂w，不横向微分单点对等式。原有限本征重建已把h≥1长尾消成L−2h单位逆，全部centered矩阵由原principal唯一重建；ξ标量化保全binomial及P=0，h0不外推。见[新原重建](notes/2026-11-28-original-Gaussian-finite-contiguity-and-spectral-reconstruction.md)；o2已付R² Newton商；R1135双低指标分支同一frame非对角pair至多一对，另支Δ_low/48仍待非零，保跨twist/P=0。R1114全V₂/V₃/V₄和norm2真phase都保，邻单位不代c₃/Bp−5 good。
+[R1116](results/R1116-original-Gaussian-forced-tangents-and-Kronecker-band.md) §§7–9保全gauge/低卷积/高尾，f_n=−Θ^nG_v/(n!(v)_n)及有限Möbius点对差，仅weight≤p−3。Θ^p在SS=δ²∂w，不横向微分单点对等式。原有限本征重建已把h≥1长尾消成L−2h单位逆，全部centered矩阵由原principal唯一重建；ξ标量化保全binomial及P=0，h0不外推。见[新原重建](notes/2026-11-28-original-Gaussian-finite-contiguity-and-spectral-reconstruction.md)；o2已付R² Newton商；R1135双低指标分支同一frame非对角pair至多一对，另支Δ_low/48仍待非零，保跨twist/P=0。R1135§§5–7的原norm2三乘积与安全残数准确消V₂：c₃=−40G_(p−3)+25H+8a³V₃/81−4a⁴V₄/243；V₃/V₄、Δ_low仍开。
 
 ## 已完成与永久边界
 

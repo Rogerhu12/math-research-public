@@ -123,6 +123,8 @@ R964逆character控制h_(i+2)而非fi；R966原K0源及Π4∇²只消费，源�
 
 [原Gaussian有限本征重建](notes/2026-11-28-original-Gaussian-finite-contiguity-and-spectral-reconstruction.md)：完整固定权contiguity保Δ₀/全部长尾；L=1+X(1+X)/(1−X)∂X在E_r=X^r(1+X)^(p−2r)上本征r+1，h≥1的L−2h有单位逆。原principal B_(k+1)=E_(2k+1)作为唯一共振边界，向下唯一恢复全部centered矩阵。ξ=X/(1+X)²后Hℓ′=−ΣG4j Cj Hℓ−j，积分仅除≤2ℓ<p；完整binomial矩阵保原N_R/γ/good mask。h0不外推、G_(p+1)不约化、缺中项不观测、P=0不删除；指定minor/Hankel共同纤维仍待付。 §§7–9已付原R² Newton商与固定非观测D(4)单位；[R1135](results/R1135-original-Gaussian-low-row-fiber-constraint.md)在Bp−7/Bp−11双坏分支给同一frame至多一个非对角无序pair。Bp−7坏/Bp−5好给准确Δ_low/48；单位性、跨frame与残余pair排除仍开。
 
+
+R1135 §§5–7已用同一norm2平移付完整C₂/C₃/C₄乘积及原1/2、1/6、1/24尺度；安全F^(6−p)残数准确消去V₂，得到c₃=−40G_(p−3)+25H_p+8a³V₃/81−4a⁴V₄/243。H_p=0仍保V₃/V₄，不能宣c₃或Δ_low单位；原good门和两frame继续保留。
 ## O3：固定低权 cohomology 与原 Igusa 投影
 
 完整旧输入、角色、trace、mask及运行 pins 见[本次逐字前态](open-archive-2026-11-28-before-exact-Lame-conjugation.md)。R1076–79 的同一原 primitive / 短障碍优先；低权来源不代近 p 指定系数，跨来源比较必须保 phase/carry/本原标签。已成窗口不重开。
