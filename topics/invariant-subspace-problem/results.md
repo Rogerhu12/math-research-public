@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [W整y=1有限原Gram唯一恢复与同点参数系统](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-y-one-original-same-point-parameter-return.md)：原mean/E1用已付单位唯一恢复x/t，四必要参数式和物理D完整同点返回；不支付y−1，接固定26/33 QQ投影。
+
 - [W四条S-free原三次理想与通用二元头结式](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-four-S-free-cubics-and-binary-head-resultant.md)：无新除法的正反理想身份完成四次降三次；4×4头等于固定2/3齐次结式，26项通用整数证书，保D27/新头零面。
 
 - [Q=1−u 已付M原理想DAG与完整物理D分母](results/R150-appendix-unit211-Q1minusU-paid-M-unit-original-DAG-physical-D-denominator.md)：八条清核分母的真实原行、完整Bareiss/Cramer和自由列内取消给p(h)F(u,h)必要覆盖；全部一元/二元零支保留，未判空。

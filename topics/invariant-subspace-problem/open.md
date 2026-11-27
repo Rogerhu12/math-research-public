@@ -49,7 +49,7 @@ rankH3单三jet的全部ess6已闭，末非零Hp原Gaussian/最高/normal给左�
 
 [H非零最高次全分类](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-H-nonzero-highest-weight-cover-and-quadratic-fiber-exclusion.md)与[整个u=Q原返回](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-u-equals-Q-complete-original-exclusion.md)已支付H、u−Q；C9、u半与整图三次覆盖现见下方更新。旧180秒参数cofactor、76.992秒展开trace及F3/F95未决门全部冻结，精确失败保归档，不重跑。
 
-**Q=1−u仍余至多222个不同复权点，原商≤6非自由。** [新已付M原行DAG/D返回](results/R150-appendix-unit211-Q1minusU-paid-M-unit-original-DAG-physical-D-denominator.md)实际给必要p(h)F(u,h)=0，其中p=(2h−1)(h²−3h+1)J7、F双度37/76共2487项；八条新原行、七个完整Bareiss行列式、取消后六列及实际D来源均乘回（82e8aa97，26.002秒/exit0）。全部p零支和F曲线保留，接固定p·Res_u(Ch,F)与已付局部整首一R0/222的Gauss返回。旧85/58/aa7f失败及未知b830均冻结，来源与未闭零面保正文/归档。
+**Q=1−u仍余至多222个不同复权点，原商≤6非自由。** [原M单位DAG/D身份](results/R150-appendix-unit211-Q1minusU-paid-M-unit-original-DAG-physical-D-denominator.md)给必要p(h)F(u,h)=0，p=(2h−1)(h²−3h+1)J7，F双度37/76、2487项（82e8aa97，26.002秒/exit0）。新dc981072固定29/37原结式，以整个p乘积与已付局部整首一R0/222作Gauss；所有p零支保留。若模gcd非1，其度先只界h；权点重数需p^29·Res。旧85/58/aa7f失败、未知b830冻结。
 
 **[整个一般等权b=c原支已闭](results/R150-appendix-unit211-equal-weights-complete-original-exclusion.md)。** 全部旧边界、全图六生成元、原824次QQ覆盖及F236/F243完整原Gauss返回合最后整m=−1/2的原QQ Bézout1，排全部复参数；负半权源5063af65实跑0.315秒/exit0。一般余图现可付ell−u，在W0中进一步付k+2、Q−2。旧QQ600秒门保持冻结；不重做等权，直接继续一般不等权的原NSPS/Dval与全部未付零面。
 
@@ -178,7 +178,7 @@ Deddens自伴MASA、全部可分重数有限成本投影、全2-adic平移距离
 
 [最大图低余孔C2费用](results/R271-appendix-maximal-graph-low-excess-hole-square-cost.md)已付同一h的明确扇区，实际y有界物理孔遂入原图核心。新[临界小指数物理孔矩准则](results/R271-appendix-critical-small-physical-exponential-maximal-graph-core.md)进一步给s0=(2+2log(3/2))/14：y∈D(G)且e^(s0N)y∈H，则h∈C2并在原图核心；等号的真实8^j余量完整支付。未知Green缺陷Y并未证明有该矩，物理孔平滑未证保Y，同W的Gamma及F/R/Z继续。
 
-**W整C9/u半及全图六生成已付，原有限纤维仍开。** [新四条S-free原三次理想等价与通用头](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-four-S-free-cubics-and-binary-head-resultant.md)用完整正反身份把两三次/一四次降为四三次，全无新除法；通用4×4头=固定二次/三次齐次结式，九自由系数26项BigInt身份已付。W实例新头源00c08b48尚未执行；D27零支、任何新头零支和同S的原NSPS仍须返回。整y1修正版6d已成功，整有限面原交点/新固定QQ投影另条继续；旧错误与大门不重跑。
+**W整C9/u半及全图六生成已付，原有限纤维仍开。** 四S-free三次理想/通用头见[原结果](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-four-S-free-cubics-and-binary-head-resultant.md)，D27与新头零面/NSPS保留。[整y1同点原恢复](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-y-one-original-same-point-parameter-return.md)已用mean/E1唯一给x=1+u−u/ell和t，并完整返回四参数式/物理D（6d871e02，0.786秒/exit0）；不付y−1。新d15791固定26/33 QQ投影将保首项零纤维，不重复旧错误/大门。
 
 **[整个一般ell=0原支已闭](results/R150-appendix-unit211-general-ell-zero-complete-original-exclusion.md)，一般余图可付ell。** 全三头曲线、1146次QQ覆盖全部未付因子及u2/u半整线已原返回；来源/失败身份保正文/快照，不重跑。继续一般T0=0与其它未付面。
 
