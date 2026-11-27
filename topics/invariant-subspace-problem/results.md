@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R271 原两模型均无无条件联合图carry估计（2026-11-27，已证明）：** [五个真实坐标、完整Cayley主项与实际图拼接](results/R271-appendix-five-coordinate-actual-joint-graph-carry-countersequence.md)以两单缺位及三双缺位精确取消原主输出，实际KN/KY范数除b_q分别趋1、sqrt2，而T*h、Sh除b_q均趋0、C2除b_q趋1。分离子列给已在有限来源联合图闭包的h，仍非C2且纯项/carry各非H。输出严格在M⊥，因此只封闭无条件升级，保真实W专属来源问题。
+
 - **R12 同一实际第一阶正则器的平坦/可逆二分（2026-11-27，已证明）：** [真实尾预解式、全部字符矩阵及复四正分量](results/R12-appendix-actual-first-regularizers-flat-or-invertible.md)给ell1行的R(t)为C∩UHF可逆元，非ell1行为非零全喷射平坦元。每个有限头的真实尾空谱使其预解式拟幂零，完整有限头字符矩阵因此全零；复行共同乘积也准确二分。没有把R(t)混作未知L上的D=−2Z，后者稠密像与实际伴随域仍开。
 
 - **R271 原Y的准确行和域及两模型统一平方源图核心（2026-11-27，已证明条件定理）：** [完整Cayley余项与保同阶抵消的总孔核心](results/R271-appendix-y-carry-first-gap-row-domain-and-common-square-source-core.md)给K_Y=−V_b+R_b，R_b从原b平方源C2到H范数≤12；V_b准确填首缺位、每行有限且升总孔一。D*−V_b合并后，任何h∈C2且形式T*h∈H均由原总孔cut返回完整图，不需单独D*/carry属于H。Y单独carry最大域及对角权Σ1/ω充要性另精确刻画；真实W是否在C2仍开，未宣N=M。

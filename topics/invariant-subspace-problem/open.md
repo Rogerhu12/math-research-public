@@ -4,7 +4,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-L0-both-leading-fibers-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-five-coordinate-joint-graph-countersequence-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -45,7 +45,7 @@ rankH3单三jet的全部ess6已闭，末非零Hp原Gaussian/最高/normal给左�
 
 **原U值图L0：** w0/w1、b+c0、W、P1双零、整个G/K/V及X的两方向完整首项零面均闭。新[w首项排除](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-L0-X-w-leading-complete-exclusion.md)付λ3/2及整J4，源54f6780f实际21.511314秒/exit0；原lambda首项源579c3c75给w−1/−1/2及整H7，X可合法按λ34次、w52次首一化。四个原8×8子式保所有主元零支、32列身份；其与X的五曲线源f48568e0/run45918826850已1200秒超时/exit1，仅BEGIN，冻结。新[完整消lambda结式3352次证书](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-L0-CX-exact-degree-3352-cover.md)由QQ行变换上界与完整模下界相合支付真正有限覆盖及1009首项单位；源d69a91de实际31.958961秒/exit0，覆盖全部候选的原返回仍开。旧fae9完整门、C/X/Y门478dfef5、旧投影/PRS/次数降行/H15输入全部冻结，具体失败/资源/规则SHA保归档及正文。继续同rho/t原交点及全部P/N，不倒置新余式首项或以模次数代特征零。
 
-**S0/Lt0 整支已闭：** [完整原615次覆盖及三个因子的特征零排除](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-complete-original-cubic-cover-exclusion.md)已排除最后三值互异、Af非零的一般图；与此前全部退化面合并，S0/Lt0不再开放。源9d0c7789实际163.600807秒/exit0，原G132/完整QQ覆盖/保次数与首项的一元Bézout全回乘，不依赖独立QQ门。现接原U值atlas的一般LS非零层；新[加权矩四参数图及原P1双零完整排除](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-P1-double-zero-and-weighted-moment-coordinates.md)已付(Pf,Pt)非同时零，保ell/T/等权零面。原两线Cramer Delta零仍开；L0继续，旧模内存/600秒输入冻结。
+**S0/Lt0 整支已闭：** 完整原615次QQ覆盖及三个整因子返回已合并全部退化面；源9d0c7789实际163.600807秒/exit0，见结果索引，不重跑旧门。现在一般LS非零层的[加权矩图及P1双零完整排除](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-P1-double-zero-and-weighted-moment-coordinates.md)已付(Pf,Pt)非同时零并保ell/T/等权零面，原两线Cramer Delta零和一般图仍开；旧模内存/600秒输入冻结。
 
 **2+1型H、Hp0九次Gram仅余四源全有限的ess6层：** 全部H/V∞支已闭，来源与真逆保结果索引/归档。[完整重建](results/R150-appendix-rank-three-double-plus-single-zero-hp-finite-source-rational-reconstruction.md)保原12式及11/16全系数；[同Π上的低次原理想相等](results/R150-appendix-rank-three-double-plus-single-zero-hp-lowered-original-ideal-equivalence.md)已将d八次喷射换为二次，A/T为原商环强迫单位。mod1031/e700单位基只供方向，三种真Ke各900秒未决，最后八条恒等式及field/smoke通过但无单位身份；[同Π的C/G两条d一次式与原理想相等](results/R150-appendix-rank-three-double-plus-single-zero-hp-two-linear-original-ideal-equivalence.md)现已证明，不除两个新首项，仍保全部零纤维；真实I*C=1继续。[新增原N二阶及孤立点一阶降式](results/R150-appendix-rank-three-double-plus-single-zero-hp-original-N-Hermite-strengthening.md)保持同Π，d次数5/8，实际build核完整身份4.926643秒；新run45886748045数域/smoke已通过，完整1.465MB输入实际900秒未决，驱动905.464秒/RSS714476KiB，无I*C=1；不重跑此输入。三约化H与ess4/5仍开。
 
@@ -167,7 +167,10 @@ Deddens自伴MASA、全部可分重数有限成本投影、全2-adic平移距离
 [所有不整除闭根的实际第一阶接口排除](results/R12-appendix-nondivisible-roots-have-no-actual-first-row-gauge-interface.md)已覆盖Q=FZR+KR、非零UHF交换F与任意有界交换K；有限q²次结式保全部真实域，R171与Puiseux分别排慢/有界行，不需根C自伴。仍须识别未知底空间上的真实gauge比较；原全尾结论不自动作用于R143未知K反根。
 
 
-[两模型共同的原平方源图核心](results/R271-appendix-y-carry-first-gap-row-domain-and-common-square-source-core.md)现已付：Y完整Cayley给K_Y=−V_b+R_b、||R_b||_(C2→H)≤12；D*−V_b严格升总孔，保两者各非H时的同阶相消。只需同一h∈C2且T*h∈H，即总孔截断同返T*h/Sh；N型已有对应平方结论。真实W的规范h∈C2仍未证，Γ有限/普通Sh∈H/各固定总孔层在H均不自动支付。Y在C2中的单独carry域准确由有限行和刻画，不能把其额外对角权条件说成完整T*图核心必需。
+[两模型共同的原平方源图核心](results/R271-appendix-y-carry-first-gap-row-domain-and-common-square-source-core.md)已保Y完整Cayley、R_b:C2→H界12和D*−V_b同阶抵消；同一h∈C2、T*h∈H即原总孔cut同返T*h/Sh。真实W的C2或更宽图核心仍开。
 
 
 [实际第一阶正则器的平坦/可逆二分](results/R12-appendix-actual-first-regularizers-flat-or-invertible.md)已识别同一R128/R143正则器：行属ell1即C∩UHF单位，非ell1即全兼容喷射平坦。只用真实尾闭域分解与空谱预解式；未知L上的另一分母D=−2Z稠密像及伴随域包含仍未付，不能以此二分代替。
+
+
+[原五坐标联合图反例](results/R271-appendix-five-coordinate-actual-joint-graph-carry-countersequence.md)已对N/Y排除无条件用||T*h||+||Sh||控制carry/C2的估计。分离子列甚至给有限来源联合图逼近但h非C2，D*h/Kh各非H而完整输出在H；其输出明确属于M⊥，不属于非零W。继续同一W正交性、Γ、C2特殊来源或更宽真实核心，不再尝试已被反例排除的一般升级。
