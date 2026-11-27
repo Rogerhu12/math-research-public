@@ -103,3 +103,6 @@
 
 
 - [R1040](../results/R1040-new-e3969-whole-companion-frame-and-sixth-degree-carry.md)：R1040从原E3969六sigma给完整Gram=(126,3,6,51,2,2142)/det−12852δ；H/J全纤维B3⊗Θ和精确DE5条件矩形成四输出carry，whole χ65/χ10绝对号分别保留。§8用全Hesse及两个S6身份精确分离K主型σ6(X−2b)，给实际norm17混合和(Y,L,M)三变量全源；坏中央可附任何principal K连续权，原单位cut/补域及L/M mixed均保持，尚无联合无穷非零。
+
+
+- [R1041](../results/R1041-original-four-point-spectral-cover-pell-unit-and-half-norm.md)：R1041将原s0=0四点谱盖双向写成固定亏格二Q6，真实S4 incidence恒等式给同一Jac的F²=−q；Pell单位的完整Norm=cU²[Y/(Y+1)]^((q+1)/3)，常数亦平方，全部ODE和固定非零迹微分齐。原FQ全极与εprod=−δW/t准确分出两个三挠交，构造指定半类AQ∈EL(Fq)；新ss输入使(q+1)AQ=0，未声称AQ非零、已返s0=1或原27最高权非零。

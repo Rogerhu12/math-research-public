@@ -41,15 +41,11 @@ R1002只付Kβ，原AJ²=KνKβ的ν未付；原full54/27、η/Cor和全部权�
 
 R1036全q唯一D=D0+Y*G、共享H0/H1、全b解/准确Norm极保持。q11完整allD run45968889219/job140404155125/source3d702b7bc21923e82270953022b09b0950bb4adf实付唯一Q高22/3，D类Z4=(1,7)恰四挠/2Z4=P2，MW=(11/3)A2、NS−121及两Br0。实际lift45972624090/job140416498782/sourcec5020fcd7f026ef21d4b69735b3a47b56148d258完整回两quadric/g平方根/x/Norm W，一次全符号匹配W；必要坐标/hash在两cover笔记§7。一般q的jW稳定k线已排，原shadow倒6仍零，不重算旧负域/截面。
 
-R1039原g étale二盖严格Prym≅EL:y²=x³−12x+20，r*r_*=1−ι；D∞−D0准确=r*(1,−3)，非挠用完整2进倍点。实际FQ=sR/(z−2X)+δu的双Norm为3x及EL上的显式NQ；S4/genus13正规盖sign局部系H1就是H1(EL)，最高λ/27混合对应仍待。
+R1039原g二盖严格Prym≅EL:y²=x³−12x+20，r*r_*=1−ι；边界D∞−D0=r*(1,−3)且非挠，FQ双Norm/S4/genus13 sign局部系全付。§§7–9用真实实cyclic24商j域、完整核轨道及Elkies负整数Norm，手证无穷q≡−1mod24且EL超奇异，全原Jac F²=−q、sqrt3边界点本身Fq有理。真阶24用本原实周期；不得替成q+1无穷素因子或最高27权。具体全式保[前交接](notes/2026-11-27-handoff-before-four-point-pell.md)及原文。
 
-R1039§§7–8对固定EL:y²=x³−12x+20给无穷q≡−1mod3且a_q=0：真实实三同源商j域的完整核轨道、Elkies负整数Norm、两辅助Frobenius和奇数估值排除q≡1，全分母/坏素数/ramified分支均付。原g二盖整个Jac遂有F²=−q，任意几何Z满足qZ+F²Z∼(q+1)P∞，原非挠边界模q被q+1杀。尚不代q+1无穷素因子、ordinary p或原最高27权非零。
+原q11 Prym新run45980566265/job140443090086/source4b315bb783233d98ce623d99fa3dffdca9228683实付：R零极各20，准确−3 twist NQ零极各24，两有效类O，全部闭点/厚支/双∞/Cantor/hash在[全除子笔记](notes/2026-11-27-original-q11-g-cover-prym-divisors.md)§7。只消费实时旧回执，不重复旧搜索或整Norm分解。整零类不决定指定两半。
 
-原q11新[Prym Norm全除子](notes/2026-11-27-original-q11-g-cover-prym-divisors.md)实时消费已付R及全2484B原stdout，准确下降到E_L^(−3):Y²=X³−108X−540；完整不可约因子/分歧与双∞/O/Cantor Picard类及双Norm身份全部保留。未重算旧截面/平方根，现run45980566265/job140443090086/source4b315bb783233d98ce623d99fa3dffdca9228683实际成功：R零极各20，NQ零极各24，两有效Picard类均O；完整必要除子/支/边界见该笔记§7。
-
-R1039§9用真实实cyclic24商j域强化原无穷输入为q≡−1mod24且EL超奇异。奇数Norm与A²=−q使某自由cyclic24核固定，λ²=−q而所有24单位平方1；aux1/c两分支及全部坏集完整支付。原sqrt3边界两个点本身Fq有理，d=(q+1)/3被8整除，全Jac F²=−q保持；仍不代q+1素因子无穷或最高27权。
-
-实际q11完整除子已消费；继续原四点谱盖/Pell/真实半Norm，将新全Jac Frobenius关系用于原两quadric和27有权对应。函数域和纯Jac等式不自动等于原最高AJ。
+R1041原s0=0四字母盖精确为H²=Q6(v)，X=−3a(v²−1)/(v²+2v−2)²；完整ΓᵗΓ=2+f4*f4*使该同一Jac有F²=−q。真实Pell U=A+BH满足divU=(q+1)(I+−I−)，NmU=cU²[Y/(Y+1)]^((q+1)/3)，全部常数/双∞保；dlogU=(−v²+bqv+cq)dv/H且迹=dX/[X(2Y+1)]非零。原FQ全极=π*f3*(D+O)，原εprod=−δW/t确定Z+=ΓE+、Z−=ιΓE−与Frob交换，准确半类AQ∈EL(Fq)在新ss q被q+1杀；AQ非零、s0=1返回和原27最高权仍待。
 
 ## 四、新六轴的真实必要行
 
