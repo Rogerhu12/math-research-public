@@ -275,3 +275,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 ## W 原NV直接二次与整个H411首项面（8542，2026-11-28）
 
 [完整二次身份](results/R150-appendix-unit211-W-entire-NV-direct-T-quadratic-and-complete-leading.md)：1be真2.275800986秒/71384KiB/0，q5=(T+γ4)q4+μ3q3+NV2，保持原理想，三系数编码从368018降84724B。真二次头=已付因子×H411，H411度9/11/4、411项未付，整个零面保留。新47f只取原r2/NV2完整同S一次组合及三Bi权常数cofactor；只有实际头剥全付才作唯一恢复，不预付几何主元。
+
+## Phi 真矩像六次的精确三重数，整纤维保留（8542，2026-11-28）
+
+[新QQ局部结果](results/R150-appendix-unit211-Phi-zero-exceptional-genuine-moment-image-exact-three-and-retained-fiber.md)：6cf实际2.476578636秒/94648KiB/0，ψ=3B3²−2A2³真QQ不可约六次，原57阶矩阵正规QQ342阶秩324，18独立QQ核全乘回付ψ³，完整模重数3给精确上界。但原整纤维156维矩阵模秩138未闭，不从必要覆盖删除18度，严格界仍146。继续真正QQ rho gcd及原D单位所允许的T4完整原值；不把ψ0本身当作D0。
