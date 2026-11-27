@@ -12,13 +12,13 @@
 
 - 至少每小时重试同步，每次pull后只读新README差异并立刻执行，记实际读过SHA；断连沿最新main API非force快进，每次检查README及本topic外部变动。10:48ref失败已立即实际pull重试、重比新父后成功；不强推。
 - root独占git/H/open/log/index；每条结论立即推，拒绝时pull --rebase后重试至成功。令牌只命令行/进程，不进文件/提交/API。数学执行只在公开Actions；根规则15禁止存可重算输出或日志数据。H<10KB，每MD<100KB。
-- 本次整理前的[完整交接](notes/2026-11-27-handoff-before-norm25-linear-term.md)逐字保原历史，向前链接所有旧归档；[open归档](notes/2026-11-27-open-before-norm25-complete-annuli.md)、[results](results.md)、[R1001–1050索引](notes/PROOF-INDEX-R1001-R1050.md)保完整参数/门/失败/回执，不重做已登记结论。
+- 本次整理前的[完整交接](notes/2026-11-27-handoff-before-full-frobenius-p-divisibility.md)逐字保原历史，向前链接所有旧归档；[open归档](notes/2026-11-27-open-before-norm25-complete-annuli.md)、[results](results.md)、[R1001–1050索引](notes/PROOF-INDEX-R1001-R1050.md)保完整参数/门/失败/回执，不重做已登记结论。
 
 ## 一、唯一原厚几何作业
 
 v9的21000s timeout与v10的7283秒logger TypeError都已完整消费。原run/job/source/hash、未到终门及两字段兼容修复在[终点链](notes/2026-11-27-artinian-v7-final-and-successor.md)。不是代数反例，也不是四交/Norm/shadow PASS。
 
-唯一native v11 run45978097755/job140434827184/source8a19591199e83549df1709f35dc00976a40e2810在原数学步骤；56源/两char0 pins、29/2453/64/minimal、全门、同pivot/全列/附列/生成元双向返回、源码只读/禁网/21000s/360min/cancel=false均保持。13:41复读原log仍4203673B/f9ecdfbb…d193：12:38首positive/base0全厚612已返，尾12:39:11到base1 Hermite85/306；14:09API数学步骤仍在运行，无四交/Norm/shadow终门。不重编译/开副本。
+唯一native v11 run45978097755/job140434827184/source8a19591199e83549df1709f35dc00976a40e2810在原数学步骤；56源/两char0 pins、29/2453/64/minimal、全门、同pivot/全列/附列/生成元双向返回、源码只读/禁网/21000s/360min/cancel=false均保持。14:18复读原log仍4203673B/f9ecdfbb…d193：12:38首positive/base0全厚612已返，尾12:39:11到base1 Hermite85/306；14:09API数学步骤仍在运行，无四交/Norm/shadow终门。不重编译/开副本。
 
 ## 二、已付算术来源与仍缺的中央非零
 
@@ -26,7 +26,7 @@ R959/R970–983固定E65/E65³/E260/E54925/E8125的rank≥2、全有限角色/�
 
 R1016–1034原平坦迹、Miller/CM36 Hermite、完整primitive/curvature及R1021两frame/M̂B=M、全4+5 Cartier槽/同c读者和R1034真实Q†费用均在逐字归档。已知primitive组合单位仍未使同canonical坏条件迫同原读者深零；三物理像rank不相加，source C²顺序/所有高低费用保齐。
 
-R1037完整378谱与原126两次实际回执均全消费，30非零/90零、334fibers/390coords、22列/64回乘齐。唯一质量零线在R1038完整识别固定E3969（导子47628）的2/3/7 finite、Schwartz/Haar/Gaussian和通常全Sha桥；真实p5圆盘/全尾给J′126,5≡5/3mod25，故精确rank2且Sha[5∞]有限，仅此一个p。全部run/source/hash、degree20因素和规范在R1037–38、[原126笔记](notes/2026-11-27-e3969-original-degree126-live-return.md)及前交接，不重跑。
+R1037–38的完整378谱/原126两次实际回执已全消费：30非零/90零、334fibers/390coords、22列/64回乘及degree20全角齐。固定E3969的全finite/Schwartz/Haar/Gaussian和通常全Sha桥已付；原p5完整圆盘/全尾给精确rank2、Sha[5∞]有限，只此一p。全部模型/参数/run/hash在原文及逐字归档，不重跑。
 
 R1040 §§1–13原六轴、Gram(126,3,6,2,9,14)/det756和所有δ-old零已付。原6⁵平均只给完整comp-only许可；H/J/N投影后Y主型整源=39δΦΞ0+GΞ1，G0=−δ/28、JG0单位。坏Φ时中央/质量同一比例，Y/7保log7费用。DE5与D²E4的真5/90完整管给hΦ/hG两态分离、保全部四输出，n仅u5^n。§14全bad/七挠gluing/Haar/平方识别G为E15876 rank0参考；JG′无新零。全矩、相位和原cut见原文/逐字归档。
 
@@ -50,7 +50,7 @@ R1039原g二盖严格Prym≅EL:y²=x³−12x+20、r*r_*=1−ι、原边界D∞�
 
 R1041原四谱Q6/Pell/双Norm/指定半类/全部厚点均付，q11实际AQ=−G阶16；一般4AQ=−P、二分Norm=t³(1−27t)。§§17–20第二四度Φ/Miller修正J给4ηprim=Φ*dlogM+dlogJ，Cartier受a_q(EL)控制；全tame reciprocity给U(E+)²⁴∈Fq*，故p≥5,p|q+1的无权半交为p次幂。精确参数和回执见原文/前归档，不重算；原逐CM权、eta/Cor及最高λ仍开。
 
-R1043原2-Vélu/full9、S3左逆/真实S′、canonical E4/I及原η′=ηκ2最高λ运输齐；原最高形式像−3Ω′1在O四阶零，不能换第四Hodge形式。§16完整GL9/determinant与ρ逐图给C_a=[L:K]B_a、J_j=6[L:H]Σζ9^(−l_ja)B_a；最小L0=K(A[306])次数6^5。§17真实3-Vélu与二商反交换，P_Q的F′*特征+δ和canonical Picard作用同号；基值P_Q(O)=3I e_A^- hatφ2,0 Q+(b2,0)，不能套旧6挠零。三IV*只在三重好化的下降值被3杀。三个真实17标记B_a及ordinary非零仍开。原[mixed C4候选](notes/2026-11-27-mixed-c4-albanese-fiber-obstruction.md)已由Albanese排除。
+R1043原2-Vélu/full9、S3左逆/真实S′、canonical E4/I及原η′=ηκ2最高λ运输齐；原最高形式像−3Ω′1在O四阶零，不能换第四Hodge形式。§16完整GL9/determinant与ρ逐图给C_a=[L:K]B_a、J_j=6[L:H]Σζ9^(−l_ja)B_a；最小L0=K(A[306])次数6^5。§17真实3-Vélu与二商反交换，P_Q的F′*特征+δ和canonical Picard作用同号；基值P_Q(O)=3I e_A^- hatφ2,0 Q+(b2,0)，不能套旧6挠零。三IV*只在三重好化的下降值被3杀。§18真实Fr和系数共轭严格分开：全9/有序二核两次倒序相消给Fr(d_t)=d_{h_q/t}。若原三个完整J在同一系数位全零，则三个实际T_a均全p整除；此三零尚不由Sha坏推出。最小Fr−unit核degree q+1只含p个同核除点，全p²需degree(q+1)²，不能偷降。B_a及ordinary非零仍开。原[mixed C4候选](notes/2026-11-27-mixed-c4-albanese-fiber-obstruction.md)已由Albanese排除。
 
 ## 四、其它未闭门与分工
 

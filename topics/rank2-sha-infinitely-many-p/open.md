@@ -122,3 +122,8 @@ R1043真实2-Vélu/full9、S3图和S′上P_Q的下降全部已付；canonical�
 最新真实公开只读CI pull于14:08:28UTC至9b0c75a4a65832c613ca5bcfd0126b9f7913ba6f（run46013197214/job140553626752），相对31960783两README无差异；blob仍282e86b…03c2d / 2f3b3c…21bc。13:58两库实际local pull重试因环境缺失失败；私库API63d4441b两README/QUEUE无变，QUEUE本会话进行中。CI、本地与API分别记账，至少每小时实际同步/重试，每次pull查README差异并记已读SHA。规则15盘点42711507B、无>5MB；旧三input证书沿已登记provenance保持。
 
 central继续全中间环之后的至少双unit整补域与同canonical forcing；arithmetic支付原degree25的完整有限点载体；geometry继续全Frobenius/系数共轭和真实三标记评价；root审核接线、消费唯一厚作业、维护同步和每结论立即推。主目标未完成，持续工作。
+
+
+### 2026-11-27 14:20 UTC：两个实际CM方向已接通
+
+R1043§18以原Qmin的反Frobenius、完整GL9下降及两次有序二核倒序，证明Fr(d_t)=d_{h_q/t}和Fr B_a=−ζ6^(−m_a)c_EB_{a′}。因此原三个完整J在同一系数位全零时，三个真实点T_a=U1,a+[ω]U2,a确实全p整除，两个CM方向均付；三J零仍是未从Sha坏推出的前提。 当前继续原Qq在三个固定17超奇异纤维的真实微分/接触重数或其它独立几何关系。仅数p²个除点不能与O(q)高度比较：同一个Fr−unit核中只留p个，使用全Fr²−1则degree(q+1)²。仍需付真实ordinary检测和原主目标的forcing。

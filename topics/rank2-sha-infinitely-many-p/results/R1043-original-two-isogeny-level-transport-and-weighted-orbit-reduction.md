@@ -1488,3 +1488,280 @@ Néron 加性部分称为零。
 式(83)是下一步可实际使用的 canonical 基值。
 原三个 $B_a$ 则仍须由同一 $P_Q$ 在(77)的 degree17 标记纤维评价；
 本节没有由一个全局截面或这个基值自动推出其中某一项非零。
+
+## 18. 三个完整影子同时为零，确实给两个 CM 方向的全 $p$ 整除
+
+本节的前提是原三个完整值
+$J_{10},J_4,J_{16}$ 在同一个系数素位为零。
+R804/R806/R811 的中央关系目前只给带完整外项的线性行，
+尚未从原通常全 $\Sha$ 条件推出这三个值分别为零；
+本节不补写这个未付前提。
+
+固定一个满足前述好约化条件的惰性辅助素数 $q\equiv-1\pmod6$，
+以及 R1027§8 的规范最短反 Frobenius 截面 $Q_{\min}$。
+在原倒6点群中，取
+$$
+ Q^+=\frac13(1+\omega^2\tau^*+\omega\tau^{2*})Q_{\min},
+ \qquad Q^-=c_E Q^+ .
+ \tag{84}
+$$
+这里 $c_E$ **只共轭代数系数**，
+$c_E(\omega)=\omega^2$、$c_E(\delta)=-\delta$，
+固定所有实际点、几何映射和基坐标。
+若作用到整个 Fourier 系数域，取
+$c_E(\zeta_9)=\zeta_9^{-1}$。
+这与下面真实剩余域映射
+$\mathrm{Fr}:\alpha\mapsto\alpha^q$ 严格区分；
+后者作用于点、截面方程和几何 CM 端同态，
+在系数张量因子上按线性作用延拓。
+
+### 18.1 原截面的下降及实际 Frobenius 方向
+
+规范 $Q_{\min}$ 来自原反 Frobenius twist；
+在倒6后准确有
+$\mathrm{Fr}_{\rm coeff}Q_{\min}=-Q_{\min}$。
+由于原 $S,\mathcal D,q_-$ 及二商公式都在 $\mathbf F_q$ 上，
+而
+$\mathrm{Fr}\tau\mathrm{Fr}^{-1}=\tau^{-1}$、
+$\mathrm{Fr}\sigma\mathrm{Fr}^{-1}=\sigma^{-1}$，
+(39)、(45)、(53)、(84)逐项给
+$$
+ \mathrm{Fr}_{\rm coeff}Q^+=-Q^-,
+ \qquad
+ \mathrm{Fr}_{\rm coeff}\mathscr R_\omega(Q^+)
+       =-\mathscr R_{\omega^2}(Q^-),
+ \qquad
+ \boxed{\mathrm{Fr}_{\rm coeff}P_Q=-c_E P_Q.}
+ \tag{85}
+$$
+最后一个等式仍在同一个 $q_-$ 商上：
+$c_E$ 同时共轭 $Q^+$ 的系数及(45)的权，
+所以 $q_-^*c_EP_Q=\mathscr R_{\omega^2}(Q^-)$。
+这里没有把 $q_-$ 换成 $q_+$，也没有把一般纤维的
+$\omega$ 系数冒作几何自同源。
+由实际三度下降的单射性，拉回后的等式给(85)。
+
+### 18.2 全9下降、规范二核及全部17标号
+
+先固定原源 $A=E_{27}$ 的真正 $\mathbf Q$ 模型及
+$P_3=(0,0)$，即 R1006(15)–(16) 的
+$X=9x_A,\ Y=-27y_A$。
+它在 canonical 纤维的 full $\Gamma$ 级对象也有该下降。
+一个直接的矩阵核验如下：令 $\Omega_R$ 为其正本原实周期，
+用与这个模型及 $P_3$ 相容的周期生成元
+$\Omega=\Omega_R/(1-\omega)$。
+它满足 $\bar\Omega=-\omega\Omega$；
+R1006(14) 的原基因此满足
+$$
+ c\boldsymbol\beta=h\boldsymbol\beta,\qquad
+ h=\operatorname{diag}(-1,1)\in G_\Gamma .
+ \tag{86}
+$$
+第二个3级点是 $-\Omega_R/3$，正对应 $(0,0)$。
+这只是显写既有 canonical 模型的下降；
+若原 CM 生成元采用另一个合法单位标号，
+须对原两核和全部权同时作§16的重标记，
+不能只改这个 $h$ 而留下其它图不动。
+
+任一惰性 $q$ 的分解群 Frobenius 在原有限级域上写成
+$\gamma c$，$\gamma\in G_K$。
+§16的矩阵 $G_\gamma$ 与(86)给其完整矩阵
+$G_\gamma h\in G_\Gamma$。
+其 determinant 正是 $q\bmod9$，故原 Weil pairing 的
+$q$ 次幂共轭也被保留；没有把 determinant 置为1，
+亦没有遗漏一个 mod9 相位。
+源微分 $\omega_A$ 与 $P_3$ 在 $\mathbf F_q$ 上；
+规范商的 full9、微分及图均沿这个固定源运输。
+
+在同一原有限域中可取好约化嵌入，使
+$a^3=4$ 的规范根约化为 $\mathbf F_q$ 的唯一立方根。
+确实 $q\equiv2\pmod3$ 使立方映射在 $\mathbf F_q$ 可逆，
+而§16的原 CM Galois 作用可循环三个二核。
+因此这只是一次已有的完整标号重排；
+三个 $J_j$ 同时为零、以及三个 $B_a$ 同时为零均不改变。
+此后 $C_{2,0}$ 在 $\mathbf F_q$ 上，准确有
+$$
+ \mathrm{Fr}(C_{2,i})=C_{2,-i}.
+$$
+定义 $h_q\in\mathcal C_{18}$ 为
+$\mathrm{Fr}(C_{17,0})=C_{17,h_q}$。
+原 $C_{17,t}=\bar t C_{17,0}$ 与
+$\mathrm{Fr}[\alpha]=[\bar\alpha]\mathrm{Fr}$ 给
+$$
+ \mathrm{Fr}(C_{17,t})=C_{17,h_qt^{-1}},\qquad
+ \mathrm{Fr}(\psi_t)=\psi_{h_qt^{-1}} .
+ \tag{87}
+$$
+
+关键是不能在(87)后再无故插入 $\epsilon$。
+原有序 lift $d_t$ 的定义是(56)：
+$\sigma^i d_t$ 标记 $\psi_t(C_{2,i})$。
+真实 Frobenius 一方面把 $\sigma^i$ 变为 $\sigma^{-i}$，
+另一方面把源 $C_{2,i}$ 变为 $C_{2,-i}$。
+所以两次反号抵消；由完整有序二核模问题的唯一性，
+$$
+ \boxed{\mathrm{Fr}(d_t)=d_{h_qt^{-1}}.}
+ \tag{88}
+$$
+也可用全盖的三根直接核定：
+$u_i(A)=(1+\omega^iA+\omega^{-i}A^{-1})/6$，
+满足
+$\mathrm{Fr}(u_i(d))=u_{-i}(\mathrm{Fr}(d))$。
+式(88)在同一个 $\mathcal D$ 和同一个 $q_-$ 内成立。
+
+所有这些实际点与图都在 $\mathbf F_{q^2}$ 上。
+因为 $A/\mathbf F_q$ 的真实端同态满足
+$\mathrm{Fr}^2=[-q]$，其在2核和17核的作用分别是恒等及
+投影标量；在原 full9 基上的标量 $-q$ 也属于 $G_\Gamma$，
+因为 $-q\equiv1\pmod3$。
+它固定有序二核与原完整 quotient 对象，故也固定 $d_t$。
+原 $Q_{\min}$ 和(85)同样在 $\mathbf F_{q^2}$ 上定义。
+
+### 18.3 三个指定值的真实半线性交换公式
+
+延伸(77)的记号为
+$$
+ B(t)=(e_A^-)_*\widehat{\psi_t}\,
+                P_Q(q_-d_t),\qquad B_a=B(s^{2a}).
+$$
+真实 Frobenius 共轭几何 CM 端同态，因而
+$\mathrm{Fr}\,e_A^-=e_A^+\,\mathrm{Fr}$；
+系数共轭则给 $c_Ee_A^-=e_A^+$。
+由(85)、(87)、(88)，得到准确的有限点群等式
+$$
+ \boxed{\mathrm{Fr}\,B(t)=-c_E B(h_qt^{-1}).}
+ \tag{89}
+$$
+该式的两个共轭来源已分别支付，不使用一个不存在的
+$\mathbf C_p$ 连续自同构。
+
+写 $h_q=s^k$，并令
+$\zeta_6=\zeta_{18}^3=-\omega^2$。
+由§16的两个真实关系，
+$B(\omega t)=\omega B(t)$、$B(\delta t)=-B(t)$，
+准确有 $B(s^3t)=\zeta_6B(t)$。
+对每个 $a\in\{0,1,2\}$，唯一选择
+$a'\in\{0,1,2\}$ 和 $m_a\bmod6$ 使
+$$
+ k-2a\equiv2a'+3m_a\pmod{18};
+ \qquad a'\equiv2k-a\pmod3 .
+$$
+所以(89)在三个固定值上成为
+$$
+ \boxed{\mathrm{Fr}\,B_a
+       =-\zeta_6^{-m_a}\,c_EB_{a'}.}
+ \tag{90}
+$$
+这包含全部 $\mu_6$ 相位；$a\mapsto a'$ 是一固定点加一对交换。
+这里的 $c_E$ 对系数的作用不是
+$\zeta_9\mapsto\zeta_9^q$；内在 Weil pairing 的后者已在
+(86)–(87)的 full9 下降中单独处理。
+
+### 18.4 同一系数素位的三个零，推出实际点的全 $p$ 整除
+
+原 $P_Q$ 的系数只在 $\mathbf Z[1/6,\omega]$；
+$\zeta_9$ 只用于三个值之间的 Fourier 权。
+令
+$$
+ U_a=\widehat{\psi_{s^{2a}}}\,P_Q(q_-d_{s^{2a}})
+       =U_{1,a}+\omega U_{2,a},
+ \qquad
+ U_{i,a}\in A(\mathbf F_{q^2})\otimes\mathbf Z[1/6],
+$$
+并定义真正的点群元素
+$$
+ T_a:=U_{1,a}+[\omega]U_{2,a}
+          \in A(\mathbf F_{q^2})\otimes\mathbf Z[1/6].
+ \tag{91}
+$$
+这里只在固定 CM 曲线 $A$ 上使用真正的 $[\omega]$。
+由于 $e_A^-$ 选择几何 $[\omega]=\omega$，
+而 $e_A^+$ 选择几何 $[\omega]=\omega^2$，准确有
+$$
+ B_a=(e_A^-)_*T_a,\qquad
+ c_E B_a=(e_A^+)_*T_a,\qquad
+ T_a=B_a+c_EB_a .
+ \tag{92}
+$$
+这给两个方向的同一个实际点；并未把另一个 mixed motive 的
+未付值替代为所需最高值。
+
+现令 $p\ge5$ 在 $K$ 分裂，$p\mid q+1$，并避开原固定分母。
+取原系数域中任一 $\mathfrak P\mid p$，其下的
+$K$ 素位记为 $\mathfrak p$。
+使用原最小有限级域 $L_0$：
+§16的 $[L_0:K]=6^5$，所以其完整 trace 常数是 $p$ 单位。
+若使用更大 $L$，以下同样适用，但须要求
+$p\nmid[L:L_0]$，或先准确除掉原已显示的重复 trace 因子。
+
+假设
+$$
+ J_{10}\equiv J_4\equiv J_{16}\equiv0\pmod{\mathfrak P}.
+ \tag{93}
+$$
+(37)、(78)及完整 trace 常数立即给
+$B_0=B_1=B_2=0$ 于同一个模 $\mathfrak P$ 点群。
+因为 $B_a$ 本身的系数在 $K$，
+剩余域扩张的忠实性给其模 $\mathfrak p$ 也为零。
+真实 Frobenius 在这个系数张量群上线性作用，故(90)迫
+$c_EB_0=c_EB_1=c_EB_2=0$ 于同一 $\mathfrak p$。
+最后(92)给
+$$
+ \boxed{
+ T_a\in p\bigl(A(\mathbf F_{q^2})\otimes\mathbf Z[1/6]\bigr),
+ \qquad a=0,1,2.
+ }
+ \tag{94}
+$$
+换言之两个 CM 方向确实同时为零。
+这不是把一个 $\mathfrak p$ 同余形式地改名为
+$\bar{\mathfrak p}$ 同余，而是使用原辅助素数处的真实
+Frobenius、原完整标记和同一个 $T_a$ 证明的全 $p$ 整除。
+清原固定2、3分母后，(94)也按同样方式给真正有限群中的
+$p$ 除点。
+
+### 18.5 $p^2$ 个除点与最小 Frobenius 核的准确交数范围
+
+因为 $\mathrm{Fr}^2=[-q]$，
+$$
+ A(\mathbf F_{q^2})=A[q+1],\qquad
+ \#A(\mathbf F_{q^2})=(q+1)^2 .
+$$
+由 $p\mid q+1$，全 $A[p]$ 都在 $\mathbf F_{q^2}$ 上。
+因此一旦(94)成立，每个 $T_a$ 确有 $p^2$ 个
+$\mathbf F_{q^2}$-有理 $p$ 除点（先清固定分母）。
+但是这并不自动给一个次数 $O(q)$ 的交函数的 $p^2$ 个零。
+
+准确地说，(90)与其系数共轭在实际点群上合成
+$$
+ \mathrm{Fr}\,T_a=[-\zeta_6^{m_a}]T_{a'}.
+ \tag{95}
+$$
+在唯一固定的指标 $a=a'$ 处，记
+$u=-\zeta_6^{m_a}\in\mu_6$，
+则 $T_a\in\ker(\mathrm{Fr}-[u])$。
+真实对偶恒等式
+$\mathrm{Fr}^{\dagger}=-\mathrm{Fr}$、
+$[u]^\dagger=[u^{-1}]$、
+$\mathrm{Fr}[u]=[u^{-1}]\mathrm{Fr}$ 给
+$$
+ (\mathrm{Fr}-[u])^\dagger(\mathrm{Fr}-[u])=[q+1],
+ \qquad
+ \deg(\mathrm{Fr}-[u])=q+1 .
+ \tag{96}
+$$
+其 $p$-主部分只有一个 $\mathbf Z_p$ 方向的长度：
+在 $A(\mathbf F_{q^2})[p^\infty]$ 上，
+$[u^{-1}]\mathrm{Fr}$ 是平方为1、交换两条 CM 线的 involution；
+$p$ 为奇数使其正负特征群均为秩一。
+所以(94)给的 $p^2$ 个除点中，恰有 $p$ 个仍满足
+同一个 $\mathrm{Fr}-[u]$ 关系。
+在另外两个交换指标处，(95)给的是两个标记点之间的关系，
+并不使它们每一个都落入这个固定指标的同一核。
+
+若改用完整 $\mathrm{Fr}^2-1$，它确实包含全部 $p^2$ 个除点，
+但次数是 $(q+1)^2$；不能把这个次数偷换成(96)的 $q+1$。
+因此本节支付了全 $p$ 整除及其实际两个 CM 方向，
+而从两个独立标记取得一个新的 $p^2$ 级交数下界、
+与截面高度比较并迫使某个完整 $J_j$ 非零，
+仍需额外的真实几何关系。

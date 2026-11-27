@@ -351,3 +351,6 @@
 
 
 - **R1042全中间环与单unit扇区**：[§11](results/R1042-original-three-canonical-common-norm81-carry-and-positive-grid.md)。R1042§11对全部72支逐个支付degree372含中心二挠的完整dyadic核βB，B²=1，24整支与48半整支均保。真实D_m贡献β^(n+4m)A_{ζ,n−m mod2}(κ^m)给全部中间环的精确望远镜；原未旋转整D1每对差对所有n准确v=1，n>1的D1\Dn亦v=1，不能再用网格n阶项压掉补域。 真正至少双unit余域与各观察单位cut仍保留。
+
+
+- **R1043真实Frobenius与全p整除**：[§18](results/R1043-original-two-isogeny-level-transport-and-weighted-orbit-reduction.md)。R1043§18以原Qmin的反Frobenius、完整GL9下降及两次有序二核倒序，证明Fr(d_t)=d_{h_q/t}和Fr B_a=−ζ6^(−m_a)c_EB_{a′}。因此原三个完整J在同一系数位全零时，三个真实点T_a=U1,a+[ω]U2,a确实全p整除，两个CM方向均付；三J零仍是未从Sha坏推出的前提。 每点有p²个Fq²除点，但最小degree(q+1)的Fr−unit核中只有p个；完整Fr²−1的degree为(q+1)²，尚无高度矛盾。
