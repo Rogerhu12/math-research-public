@@ -764,3 +764,192 @@ $\mathcal N_{\rm full}$、$\mathcal P$ 也是对自然相对基取系数导数�
 消失条件的关系，仍不受 (N.38) 排除。
 全文由root给出，o1/o2分别独立核查jet生成、局部换帧、
 单点留数及适用边界；无数学执行。
+
+
+## 10. 原有限配对的真实 normal 变分与指定混合 jets
+
+本节继续使用 (N.21) 的目标刚化和 §8 的自然相对基。
+它同时保留配对本身、源基与核的变化；
+不会把原 $A$ 在特殊纤维的常矩阵误当作整个族中不变的配对。
+
+### 10.1 整个 $H_\epsilon$ 上的配对及全部自然基补偿
+
+令 $f_\epsilon,g_\epsilon\in H_\epsilon$ 按自然相对单项式基取固定系数。
+乘积微分只有 $O$ 一处可能的极，极阶至多 $2p+2$。
+因此其相对 Cartier 输出准确属于
+$$
+\operatorname{span}_K(1,U_Z,V_Z)\,\omega_Z'.
+$$
+这里 $V_Z$ 项可能非零，不能按 $V_0\times H$ 的较小极界删掉它。
+定义 $A_\epsilon(f,g)$ 为该输出中 $U_Z\omega_Z'$ 的系数。
+在原参数 $u=U^{-1/2}$ 下，目标 $U_Z=u_Z^{-2}$，
+$V_Z\omega_Z'=-u_Z^{-3}du_Z$，且 $F_\epsilon^*u_Z=u^p$，所以
+$$
+\boxed{
+A_\epsilon(f,g)
+=\operatorname{Res}_O u^p f_\epsilon g_\epsilon\omega_\epsilon.}
+\tag{N.39}
+$$
+特别地，$A_0=A$ 正是原 R1095 的配对；本式没有新增标量。
+
+自然系数固定并不表示有理函数固定。对奇基，
+$\dot{(VU^a)}=vU^{a+1}/(2V)$，而
+$\dot\omega/\omega=-vU/(2V^2)$。因而完整导数是
+$$
+\dot A(f,g)=\operatorname{Res}_O u^p
+\left(\dot f\,g+f\,\dot g-\frac{vU}{2V^2}fg\right)\omega.
+$$
+从
+$$
+\omega_\epsilon
+=(1+\epsilon vu^4+v^2u^6)^{-1/2}du
+$$
+可逐项给出整个有限矩阵：
+$$
+\boxed{
+\begin{aligned}
+\dot A(U^a,U^b)
+ &=-\frac v2\binom{-3/2}{n}v^{2n},
+ &&a+b=3k+2+3n,\\
+\dot A(VU^a,VU^b)
+ &=+\frac v2\binom{-1/2}{n}v^{2n},
+ &&a+b=3k-1+3n,\\
+\dot A(U^a,VU^b)&=0.
+\end{aligned}}
+\tag{N.40}
+$$
+前两行若没有非负整数 $n$ 满足所列等式，就按零读取。
+在 §8 的全部 $H$ 指标范围内，出现的 $n$ 都不超过 $k-1<p$，
+故这些二项式没有不合法分母。
+
+第二行的正号已经包含两个自然奇基和微分标架的共同变化：
+$V_\epsilon^2\omega_\epsilon
+=u^{-6}(1+\epsilon vu^4+v^2u^6)^{1/2}du$。
+交叉项则由 $V_\epsilon\omega_\epsilon=-u^{-3}du$ 恒定直接得到。
+这与 (N.35) 中必须保留的曲线约化补偿是同一约定。
+
+### 10.2 两个原有限连接与配对的准确相容式
+
+对 $f\in V_0$、$g\in H$，有
+$$
+\boxed{
+6v\,\dot A(f,g)
+=A(\mathcal N_{\rm full}f,g)-A(f,\mathcal Pg).}
+\tag{N.41}
+$$
+这里两边的每个有限空间都按已经付清的最高边界读取。
+
+给出直接留数证明。将 $\dot f_{\rm nat}$、$\dot g_{\rm nat}$
+记为固定自然系数而求固定 $U$ 的函数导数，(N.24)、(N.30) 等价于
+$$
+\begin{aligned}
+\mathcal N_{\rm full}f
+ &=\frac12D^2f+\frac{U^2}{V}Df+Uf+6v\dot f_{\rm nat},\\
+\mathcal Pg
+ &=\frac12D^2g-\frac{U^2}{V}Dg-6v\dot g_{\rm nat}.
+\end{aligned}
+$$
+对 (N.39) 在特殊纤维分部积分时，$D(u^p)=0$，
+所以 $D$ 反自伴、$D^2$ 自伴。这是局部留数恒等式，
+对中途有表面 $1/V$ 的有理函数也合法，不必先删其有限极点。
+两边之差中的 $D^2$ 项消去，剩余导数项为
+$$
+-\operatorname{Res}_O u^p
+\left(D(U^2/V)-U\right)fg\omega.
+$$
+由 $D(U^2/V)-U=3v^2U/V^2$，
+再加两个自然基项，恰为 (N.39) 的完整 $6v\dot A$。
+因此 (N.41) 没有漏掉最高偶方向或自然奇基修正。
+
+原退化方向的 transverse 值也可以完全定标：
+$$
+\boxed{\dot A(\Psi,\Psi)=\frac{\delta}{6v}=-H_\epsilon'(0)\in K^\times.}
+\tag{N.42}
+$$
+这里 $\Psi_\epsilon$ 仅指把原 $\Psi$ 的自然奇基系数保持不变；
+不声称 ordinary 纤维上仍有满足 $D\Psi=\delta$ 的同一有理 primitive。
+
+确实，$\dot\Psi_{\rm nat}=vU\Psi/(2V^2)$，故
+$$
+6v\dot A(\Psi,\Psi)
+=3v^2\operatorname{Res}_O u^p\frac{U\Psi^2}{V^2}\omega.
+$$
+另一方面，$\mathcal P$ 保持 $H$，而原 $\Psi$ 是 $A$ 的整个 radical。
+由 $D\Psi=\delta$，
+$$
+\mathcal P\Psi
+=-\frac{\delta U^2}{V}
+ -\frac{3v^2U\Psi}{V^2}.
+$$
+所以 $A(\Psi,\mathcal P\Psi)=0$。
+原 $\Psi=VU S(U^3)$ 使 $U^2\Psi/V$ 为 $H$ 中的偶多项式；
+其原点首项为 $-u^{-p-1}$，于是
+$$
+\operatorname{Res}_O u^p\frac{U^2\Psi}{V}\omega=-1.
+$$
+代回就得
+$3v^2\operatorname{Res}_O u^pU\Psi^2\omega/V^2=\delta$，
+从而证明 (N.42)。本证明只用 $\mathcal P\Psi\in H$；
+没有错误地要求 $\mathcal N_{\rm full}\Psi\in H$。
+
+### 10.3 原 $f=U^m$ 的留数与第一 normal 混合读数
+
+对原指定源 $f=U^m$，(N.39) 还可在同一个实际双覆盖
+$$
+C:\quad V^2=R^6+v^2,\qquad U=R^2
+$$
+上读取。选择满足 $V/R^3\to-1$ 的无穷远点 $P_\infty$，
+在那里 $R=1/u$ 且 $dR/V=u\omega$。因为 $p-2m=1$，
+准确有
+$$
+\boxed{
+A(U^m,g)
+=\operatorname{Res}_{P_\infty}g(R^2,V)\frac{dR}{V}.}
+\tag{N.43}
+$$
+该点在双覆盖上不分歧，因此没有额外因子 $2$；
+也没有将另一无穷远点的留数合并成新的读数。
+
+令 $J_r(T)=D_R^rJ(T,R)|_{R=-Q}$。
+目标曲线、$D_R$ 和点 $-Q$ 在本一阶族中固定。
+由 (N.25)，对每个原 $f\in V_0$，
+$$
+\boxed{
+6v\left.\partial_\epsilon
+ D_R^r\widehat t_f^\epsilon(-Q)\right|_0
+=A(\mathcal N_{\rm full}f,J_r)
+=D_R^r\Phi(\mathcal N_{\rm full}f)(-Q).}
+\tag{N.44}
+$$
+也可用 (N.41) 同时微分实际配对和实际核得到；
+此处两个变化合并后才出现右端，不能只微分 $J$ 或只微分 $A$。
+
+当 $f=U^m$ 时，$\mathcal Nf=(3v^2/2)U^{m-2}$。
+原 $\Phi$ 保持偶性并将 $\mu_3$ 角色反转，
+而 $m-2=3k-3$，所以
+$$
+\Phi(U^{m-2})\in K[U^3].
+$$
+两个原三挠点均被 $\mu_3$ 固定，故
+$D_R^r\Phi(U^{m-2})(-Q)=0$，只要 $r\not\equiv0\pmod3$。
+特别地，
+$$
+\boxed{
+\left.\partial_\epsilon D_R\widehat t_{U^m}^\epsilon(-Q)\right|_0=0,
+\qquad
+\left.\partial_\epsilon D_R^4\widehat t_{U^m}^\epsilon(-Q)\right|_0=0.}
+\tag{N.45}
+$$
+
+特殊纤维的这两项仍是原
+$e$ 和 $16ve+4\delta^2K_4$；(N.45) 没有改变其定义。
+与此同时，零阶 normal 读数仍是 (N.14) 的单位。
+所以首个 normal 单位不等同于这两个指定 Picard jets 的首 normal 变化。
+这是已付款的一阶范围结论，不排除更高阶实际族或保留移动源的关系。
+若继续到更高阶，(N.1) 的 $\epsilon^2U^2/4$、
+自然奇基、相对 Frobenius 目标及真实 FM 标架都须按所需精度保留，
+不能迭代一阶式时将它们冻结。
+
+本节全部为同一原来源的纸面推导；没有执行数学程序或新的素数窗口。
+
+§10由o1_theta推导，root独立逐式核对全H的第三类输出、自然奇基补偿、完整留数矩阵和两个指定mixed jets；采用上述完整相对约定。

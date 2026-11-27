@@ -36,7 +36,7 @@ R1125 §10后到q²四首log已全维交叉核相容：run46025141482/job1405944
 
 ## O1：全p同一真实本原标签的临界非零
 
-[原Tate三挠normal-FM](notes/2026-11-27-original-Tate-three-torsion-normal-FM-variation.md)已付实际ε族的Verschiebung一阶、全Miller核及相对Cartier变分。原有限偶源上 N=2(U³+v²)∂U²+5U²∂U+U，6v·dot t_f=Φ(Nf)−δRcal·Φf；N保持原V₀。指定f=U^m给6v·dot t=−δRcal·t+(3v²/2)Φ(U^(m−2))，在−Q恢复原normal单位。移动标架可有2p−2极，不能删项或认作Picard D⁴；实际normal-to-Picard桥及e/K4共同非零仍开。 §§6–7另从实际kerV全局截面付M₀=(1+εδRcal/(6v))s^(p−1)及−Q刚化，修正后12v·dot J=(D_T²−2U_T²D_T/V_T)J；全odd自然源矩阵/移动基变分也保，未换成Picard D⁴。 §§8已付全曲面graphs与三次方相位，完整H上的真实三平移满足6v·dot S=[P,S]；N_full+P=D²+U且原Pf=Nf+U^(m+1)。指定平移源的自然基导数完整保Vε²约化项，未把dotS或最高偶边界删去。 §9以完整jet生成及单点留数证明：全V₀上的ΦN_fullΦ⁻¹不是任何阶≤p−3的目标微分算子；仅针对原f、−Q的关系仍开。
+[原Tate三挠normal-FM](notes/2026-11-27-original-Tate-three-torsion-normal-FM-variation.md)已付实际ε族的Verschiebung一阶、全Miller核及相对Cartier变分。原有限偶源上 N=2(U³+v²)∂U²+5U²∂U+U，6v·dot t_f=Φ(Nf)−δRcal·Φf；N保持原V₀。指定f=U^m给6v·dot t=−δRcal·t+(3v²/2)Φ(U^(m−2))，在−Q恢复原normal单位。移动标架可有2p−2极，不能删项或认作Picard D⁴；实际normal-to-Picard桥及e/K4共同非零仍开。 §§6–7另从实际kerV全局截面付M₀=(1+εδRcal/(6v))s^(p−1)及−Q刚化，修正后12v·dot J=(D_T²−2U_T²D_T/V_T)J；全odd自然源矩阵/移动基变分也保，未换成Picard D⁴。 §§8已付全曲面graphs与三次方相位，完整H上的真实三平移满足6v·dot S=[P,S]；N_full+P=D²+U且原Pf=Nf+U^(m+1)。指定平移源的自然基导数完整保Vε²约化项，未把dotS或最高偶边界删去。 §9以完整jet生成及单点留数证明：全V₀上的ΦN_fullΦ⁻¹不是任何阶≤p−3的目标微分算子；仅针对原f、−Q的关系仍开。 §10另付全H的dot A矩阵及6v·dot A(f,g)=A(Nf,g)−A(f,Pg)，dot A(Ψ,Ψ)=δ/(6v)。原Um的首normal混合Picard一/四阶均零；零阶normal仍unit，继续实际高阶族/指定补偿。
 
 [R1130](results/R1130-original-inverse-center-recurrence-and-adjacent-unit.md)：完整WZ及一阶解给原I_n递推与准确短Ramanujan和，原p=6m+5的截断m及PF最后强迫项全部保留。§6已完成真邻项桥：I_(n+2)来自(V−v)ν/(V+v)u的亚纯配对，完整相对Cartier/分部积分给I_(n+2)+I_n=3δ/4。因此旁单位只回旧C(Uω)，不再把它当独立K4入口；继续原三挠族变分及有边界的短和。run46015627853/job140561880424完整证书只消费。
 
