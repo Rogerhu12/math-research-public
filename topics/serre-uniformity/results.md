@@ -326,3 +326,6 @@
 
 
 - **R1085（已证明）**：[原普通CM的完整Hecke对数与ST矩](results/R1085-original-ordinary-CM-Hecke-logarithm-and-Serre-Tate-moment.md)：q⁻¹log(Bq(23y−C∞))首层准确为23倍真实ST第q−2系数；保原水平、全部q+1目标、Mahler完整尾项、Fq下降及coarse重数。q4513六普通点适用，实际块值/高度单位仍开。
+
+
+- **R1086（已证明，精确计算）**：[原4513全部点及同CM约化](results/R1086-certified-original-p47-ell4513-same-CM-transfer.md)：独立点数5453=完整标签像，真全图单射；八个旧全局CM标签转移到同一原点。run45938730258/job140307865125，60.839秒；全scalar/twists/cusps与R36零坐标保留，盘内唯一仍开。

@@ -33,11 +33,11 @@ R1018–40的原完整Fm/两节点Dickson/PD及好BT整比较均已付，详细�
 
 [R1078](results/R1078-original-level47-Cartan-correspondences-and-fixed-cycles.md)：原23个角对应全部fixed-cycle、degree/trace、composition与Rosati迹配对已纸证。[R1081](results/R1081-certified-original-level47-Cartan-trace-and-integral-Hecke-algebra.md)已证实际角代数rank23、Z=13R0+4R2非零且TrZ²=336288；283无一维块，4513有16个真正Zℓ块，原Hodge/Lie自由rank1。run45936209617/job140299891342；仍须指定θ(Z)、新4513同点标签及MW/高度首层，不重算此证书。
 
-[R1080](results/R1080-certified-full-level47-Jacobian-rank.md)：run45934421302/job140294236296源702f543e，完整Fricke+三因子16/24/33、73实嵌入严格L′>0，DLF Appendix Prop8给原全J rank=dim=ρ_Q=73。M256/512bits/严格尾、20.6657秒及全部hash保原文；不重跑，整MW/局部块/aux高度及盘内唯一仍开。
+[R1080](results/R1080-certified-full-level47-Jacobian-rank.md)：run45934421302/job140294236296证原完整73维三因子16/24/33全部L′>0，已刊定理给rankJ=dimJ=ρ_Q=73。全部pins/hash保原文，整MW/高度及盘内唯一仍开，不重算。
 
 [R1074](results/R1074-certified-original-p47-eight-CM-disks.md)：235原盘仅8Q-CM盘存活，run45928658257/job140275928914；全部279原aux点标签注入，同一CM在47/283约化，特殊47阶4/3保留。§9完整Cp tube的scaled-j同构、原Cartan支撑/raw坏47高度零，R43同盘QC项相同已付；八盘内部/aux整高度/全p仍开，全部pins/hash保原文。
 
-[R1083](results/R1083-original-level47-auxiliary-Hecke-fields-and-scalar-fibers.md)：真实类型子域K23/K48/K16排283一次泛块；4513所有scalar仅j1728，四twists给553粗点，j0纤维1，全部23cusps有理。八CM为六ordinary/二SS；继续完整4513同点标签与原CM高度，不把实际16一次块当MW单位。
+[R1083](results/R1083-original-level47-auxiliary-Hecke-fields-and-scalar-fibers.md)：真实类型子域K23/K48/K16排283一次泛块；4513所有scalar仅j1728，四twists给553粗点，j0纤维1，全部23cusps有理。八CM为六ordinary/二SS；[R1086](results/R1086-certified-original-p47-ell4513-same-CM-transfer.md)run45938730258/job140307865125证5453点/tag全图注入、八原CM同点转移，保R36零坐标，60.839秒。实际块值/MW/高度仍开。
 
 [R1071](results/R1071-original-p-local-cuspidal-label-polynomials.md)：全V有限式/phase/两twists已付。R1075闭合原j0 G_(p−5)=−24B/(7β_Car⁵)及首forced coarse单位斜率；good条件仅留global圆单位坐标。原f_N/e及盘内/global排点仍开。
 

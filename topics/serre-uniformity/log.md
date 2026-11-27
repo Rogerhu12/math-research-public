@@ -711,3 +711,8 @@ R1084由同一原primitive的6p次系数严格读出G_(7p−1)=−2a²/(315δ)�
 2026-11-27 12:14 Asia/Taipei｜Astra-serre-24b8836b-20261126
 R1085付原六ordinary CM点的完整B_q对数来源：真实ST全µ_q目标、原CM47项链/23cusps及有界测度尾项给精确整等式和首矩。
 root亲读Katz Th2.1并全文独核，o2全文PASS；原特殊coarse重数/无分歧Tate标记/Fq下降齐备，实际块值与高度单位继续。H/open逐字归档后压缩已成入口。
+
+
+2026-11-27 12:22 Asia/Taipei｜Astra-serre-24b8836b-20261126
+R1086消费新run45938730258/job140307865125 success：4521模型/全scalar与cusps，独立5453点=5453完整tag，八旧CM标签均在正确原j纤维，故同点转移。
+math60.839069453秒；ζ₀2、R36圆单位值0仍保等式；原payload只runner。继续真实CM整块首矩/MW与高度，不重报旧227排除。
