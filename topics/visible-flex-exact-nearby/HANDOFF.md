@@ -1,11 +1,11 @@
 # 交接：可见振幅的精确闭等距族
 
-维护会话：visible-exact-astra-fb31ed6-20261127；更新：2026-11-27 05:26 UTC。
+维护会话：visible-exact-astra-fb31ed6-20261127；更新：2026-11-27 05:29 UTC。
 **总任务未完成，持续研究，不等用户回复。**
 
 ## 规则与实际环境
 
-本会话已partial+sparse clone两仓并pull main，读根全部规矩、topic README/H/open/log及接续notes。公开根/topic规则核至fc1211c0a08fd9643ade3132e07edd78fc765f3f（root blob282e86b03385d3b6245ce7100ae2e2af7b103c2d/topic7e2b93d66ee7dc61b0962cd6f2545dceb01daf12，均无diff）；每次刷新核两README，至少每小时。私库04:54:50 UTC API刷新304232f86c0bd6aab3826a3fe1d7dfe92140b117，根README无diff，QUEUE仍“进行中（visible-exact-astra-fb31ed6-20261127 / 2026-11-27）”；初claim594e561b05a758bd8c02840ca4fbf574cd707436，最后实际pull3673eb091d9fa2f558e9bdfdfc443e478832367c。下次私库刷新不晚于05:54 UTC。
+本会话已partial+sparse clone两仓并pull main，读根全部规矩、topic README/H/open/log及接续notes。公开根/topic规则核至608067b4cfdc703bbd7790b8784529d8406f9403（root blob282e86b03385d3b6245ce7100ae2e2af7b103c2d/topic7e2b93d66ee7dc61b0962cd6f2545dceb01daf12，均无diff）；每次刷新核两README，至少每小时。私库04:54:50 UTC API刷新304232f86c0bd6aab3826a3fe1d7dfe92140b117，根README无diff，QUEUE仍“进行中（visible-exact-astra-fb31ed6-20261127 / 2026-11-27）”；初claim594e561b05a758bd8c02840ca4fbf574cd707436，最后实际pull3673eb091d9fa2f558e9bdfdfc443e478832367c。下次私库刷新不晚于05:54 UTC。
 03:00前磁盘满后terminal失联，04:30 probe仍无环境；按根规8仅GitHub集成<100KB文本。root协调唯一main writer lease，最新父/force=false/expected_sha；拒旧父即读最新head重base再推至成功。原source35ff439e后GF六件旧排版未commit，恢复时不得重复；缓存迁移无成功回执。令牌只CLI，不写文件或提交；无AGENTS。
 科学仅Actions，旧成功禁重；本地仅证明/静态/metadata/新saved有理组合。规12不加审批复核门，结论成即推，root LOG不动。topic≤200MB、H<10KB、open<30KB、单文本<100KB，禁可重建大数组。第5批45934384748/c264c5e6净省737184B；第6批45940225760/c92c87d9净省736134B（gross805556−receipt69422），128新旧JSON只删字符串外空白，11537当前source/manifest全引用排除。第6receipt SHA c796f5562473709a77dfb0717ceec39bb74d383bb29ef4629a61b8fc4acb474a；原完整baseline/五旧批不动，科学0。
 
@@ -37,6 +37,9 @@ WMR4首45941738781/1在Popen前KeyError reviewed_rules，真实0child/0science�
 本节完整原式、全部指数/域/单位/mean/独立ports及未付条件保[2b35完整H](https://github.com/Rogerhu12/math-research-public/blob/2b35e35f22bc511a208a4118d007efde2d812e41/topics/visible-flex-exact-nearby/HANDOFF.md)及[本次压缩前完整H](https://github.com/Rogerhu12/math-research-public/blob/f73d7ab9311f92b9da34596e5317a3a66cca730c/topics/visible-flex-exact-nearby/HANDOFF.md)，各原proof继续有效；压缩仅索引，不撤义务，不重成功。
 SREG/GF/GA/SDIF同一actual选择的A0响应、H8193方向C1、全principal/common/seed94/mean已付；不授开放A0值域、A0 operator连续或rough-source onto。HL/HLP/SHL给完整L² forcing、inward实际响应及scalar/vector全片C²，保高窗大低源费、逐base余项、oneλ/world ports。
 GHR/GHC/GHW/GHV/SHT/GVC完整reference1及三径/mean二jet保；GHX只同γ tail+finite+filleddisk，C²差<2^-46M/片reach>1/3，不授whole闭面。SCAP已接真正M(γ,fBγ)完整q1165 C1、两mean/heightspan/原97，τ<2^-31223196、cut feedback<2^-31223185；两CPA finite193严格门保、高cut含(cC+1)。γ准入、wholehigh、core/world、最终fixedmetric仍独立。
+
+
+RA已构造 actual M 同轴 R 锚：A0R<1e−12、A1R<2e−12、B1R<5e−20，真mean/单λ/独立world tilt保；10新组合全过。R→L须实际cap状态/原角桥，禁止core界外推；完整证明见results中RA。
 
 ## 仍须实际完成
 

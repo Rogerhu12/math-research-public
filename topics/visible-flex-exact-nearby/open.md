@@ -160,3 +160,5 @@ G以S/T E1856给physical C²整盘/曲率<2/径长<8e−6及同world position/no
 
 
 [ACT：selected core 的完整 C1 锚传递](results/R147-supplement-selected-core-C1-anchor-transfer-and-weak-height-ports.md)已成：仅同 Qδ 的[b=.18,L=.9]，实际 L 三端口(A0,A1,B1)给 a0≤A0+3.148e−8、a1≤A1+4.312A0+3.6461e−5、b1≤B1+1.950541A1+12.205365A0+1.41e−4；完整原弱窗四行新表与 YL/KL 准确 dual 同付，det−1 轴向负号保。19新组合全过，旧科学0；R→L cap/实际L端口、真TC全源和periodicity仍独立，C0不当C1。
+
+RA已构造 actual M 同轴 R 锚：A0R<1e−12、A1R<2e−12、B1R<5e−20，真mean/单λ/独立world tilt保；10新组合全过。R→L须实际cap状态/原角桥，禁止core界外推；完整证明见results中RA。

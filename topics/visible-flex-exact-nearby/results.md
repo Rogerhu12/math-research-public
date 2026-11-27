@@ -567,3 +567,7 @@ GHW/GHV+HLP完整scalar/vector链式列及actual matched difference闭二jet空�
 
 
 [ACT：selected core 的完整 C1 锚传递](results/R147-supplement-selected-core-C1-anchor-transfer-and-weak-height-ports.md)已成：仅同 Qδ 的[b=.18,L=.9]，实际 L 三端口(A0,A1,B1)给 a0≤A0+3.148e−8、a1≤A1+4.312A0+3.6461e−5、b1≤B1+1.950541A1+12.205365A0+1.41e−4；完整原弱窗四行新表与 YL/KL 准确 dual 同付，det−1 轴向负号保。19新组合全过，旧科学0；R→L cap/实际L端口、真TC全源和periodicity仍独立，C0不当C1。
+
+### R133 RA：实际 M 长端的完整世界 R 锚
+
+[完整证明](results/R133-supplement-actual-long-cap-R-anchor-and-complete-vertical-C1-bounds.md)与[10新有理组合](scripts/fourfold_codazzi_actual_R_anchor_saved_bounds.py)。实际 M/O 全两端域和原 D 解给 Y<1/6000000、完整四态<1/1500000；同原 Connection.anchor 的 det−1 标架及准确 moving lift 中，vertical R 差 A0<1e−12、A1<2e−12、B1<5e−20。实际 nonmean f_*、holonomy mean、单λ及唯一 world placement完整保；额外 tilt θO 的三增量(1,4,14e−6)另列，非按角重置frame。仅旧已成数值的新有理组合，无旧科学；实际cap R→L状态/角桥和后续selected core/TC/fullmatching仍分别支付。
