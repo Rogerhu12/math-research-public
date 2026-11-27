@@ -571,6 +571,261 @@ norm3/norm81 平面、两套 whole 核、同一个正矩测试及 (38) 的全深
 后继继续消费 (41)–(43) 及三条观察之间的真实来源作用，
 不把阶段性的局部非零当作无穷素数完成标准。
 
+
+## 8. 五主型投影后的真实 F81 cut：72 支、全五矩及单输入扇区
+
+本节使用 R1040 §10 的实际五伴随乘积和物理平均。
+所有测试仍在原六输入上，特别不把原 $\Gamma_n$ 预认成平均后的同一个域。
+记新伴随为 $H,K,J,A,N$，其范数为 $3,6,2,9,14$。
+原 C/F 的准确位置为
+$$
+C=2\omega H,\qquad
+F=2K-\frac{5+\omega}{2}J+
+ 2(1+\omega)A+\frac{1-\omega}{2}N.
+\tag{44}
+$$
+
+### 8.1 全部实际旋转与原单位域
+
+令 $h_n={\bf1}_{\Gamma_n}\widehat Q_{n,p}$。
+它满足 $h_n(\zeta C,\zeta F)=h_n(C,F)$，$\zeta\in\mu_6$：
+深度/单位条件不变，而原多项式的总次数为六。
+因此五个角平均的真正 transpose 准确缩为
+$$
+\boxed{
+\overline h_n=\frac1{6^4}
+ \sum_{\zeta_K,\zeta_J,\zeta_A,\zeta_N\in\mu_6}
+ h_n(C,F_{\boldsymbol\zeta}),}
+\tag{45}
+$$
+$$
+F_{\boldsymbol\zeta}=
+2\zeta_KK-\frac{5+\omega}{2}\zeta_JJ+
+2(1+\omega)\zeta_AA+\frac{1-\omega}{2}\zeta_NN.
+$$
+每项仍使用自己的整个
+$$
+D_{\boldsymbol\zeta}=F_{\boldsymbol\zeta}-C,\quad
+E_{\boldsymbol\zeta}=F_{\boldsymbol\zeta}+rC,\quad
+\Gamma_{n,\boldsymbol\zeta}
+=\{D_{\boldsymbol\zeta}\in p^n,\ E_{\boldsymbol\zeta}\ {\rm unit}\}.
+\tag{46}
+$$
+(22) 的全部七项、$\kappa^{-nk}$ 和准确 Euler 分母不变。
+
+### 8.2 原五深网格上准确只有72支
+
+在原 $\mathcal D_n$ 上，
+$$
+(H,K,J,A,N)\equiv(x,-x,0,x,0)\pmod{p^n}.
+$$
+所以某项 (46) 相交，当且仅当
+$$
+-\zeta_K+(1+\omega)\zeta_A=\omega.
+$$
+这是三个六次根的和为零；其完整解恰为
+$$
+\boxed{(\zeta_K,\zeta_A)=(1,1),\quad(\omega^2,\omega).}
+\tag{47}
+$$
+$\zeta_J,\zeta_N$ 各自的六种值全部保留。
+非零差的复绝对值至多3，范数至多9，故 $p>211$ 时不会有新增约化解。
+于是1296项中准确72项包含整个 $\mathcal D_n$，其余均不相交。
+这不是将72项改成一个相同 cut：只在当前完整网格上使用 (47)。
+
+对任何总次数五的原混合系数，$\zeta_J,\zeta_N$ 的平均可逐项完成：
+次数小于六的非恒定字符之和为零。
+两支留下的 D 行（包含首坐标）准确为
+$$
+\begin{aligned}
+d^{(0)}&=(0,6\omega,0,2\delta,2(1-\omega),2(1-\omega)),\\
+d^{(1)}&=(0,0,6\omega,2\omega^2\delta,2\delta,2\delta).
+\end{aligned}
+\tag{48}
+$$
+这一步只用于完整多项式系数；在后面的剩余深度 cut 内，
+不能提前删除 J/N 的实际相位。
+
+设 $e^{(a)}=d^{(a)}+hC$。
+按原五个深输入的顺序，完整生成多项式准确为
+$$
+\boxed{
+\overline R(v)
+=\frac1{36}\sum_{a=0}^1
+ \prod_{j=2}^6(e_j^{(a)}+v d_j^{(a)})
+=\frac{31(\omega-1)}6(1+v)^3(12v-19).}
+\tag{49}
+$$
+例如第一支的乘积为
+$48h\delta(1+v)^3\{6(1+v)-2h\}$，
+第二支为其 $\omega$ 倍；这直接给 (49) 的全部系数。
+
+因此 (34) 的平均网格质量仍是一整个准确五次多项式：
+只须用
+$$
+\overline B_k=k!(5-k)![v^k]\overline R(v)
+$$
+替换该式的 $B_k$，保全部 $q_k$ 和 Euler 分母。
+并无未写出的更高质量项。
+
+### 8.3 原 Y_A 平均中央行的实际网格首项
+
+同样逐项读得
+$$
+\begin{aligned}
+\overline{[\,\xi_2\xi_3\xi_4\xi_5\xi_6\,]D_f^4Z_A}
+ &=-96(3+\delta),\\
+\overline{[\,\xi_2\xi_3\xi_4\xi_5\xi_6\,]D_f^4E_f}
+ &=1488(\omega-1).
+\end{aligned}
+\tag{50}
+$$
+更一般，对一个固定的 L，
+该平均五混合系数是
+$-96\delta(L_2+\omega^2L_3)$。
+于是原 (28)–(32) 的同一完整展开给
+$$
+[T]\overline{\mathcal A}_A
+=\frac d{b(1+\lambda\kappa^2)}
+\left(\overline\alpha_A\frac{I_1}{\Omega}
+      +\overline m_1\frac{I_{1,\log}}{\Omega}\right),
+\tag{51}
+$$
+$$
+\overline\alpha_A=
+-\frac{q_4e_0^2}{84h^6\cdot7}\{-96(3+\delta)\},\qquad
+\overline m_1=
+-\frac{2q_4e_0}{84h^6}\,1488(\omega-1).
+$$
+$\overline\alpha_A$ 在全部当前 $p>211$ 为单位；
+$I_{1,\log}/\Omega\in p\mathcal O$，
+故 (51) 本身为单位。
+常数项仍严格为零；完整 log 尾仍满足原
+$-\lfloor\log_pj\rfloor$ 的系数下界。因此
+$$
+\boxed{
+v_p\left(
+ \int_{\mathcal D_n}d\log\langle Y_A/7\rangle\,
+                    \overline h_n\,d\rho\right)=n.}
+\tag{52}
+$$
+
+这里原 $Y_A$ 不被五个伴随的物理旋转移动。
+R1040(77) 因而确实支付整个平均行
+$$
+\int_{Y_A\ {\rm unit}}d\log\langle Y_A/7\rangle
+          \overline h_n\,d\rho
+=39\delta\,j_{126,b}\,\Lambda_p(h_n).
+\tag{53}
+$$
+其在坏 canonical 假设下为零是合法结论。
+(52) 只支付其中的明确网格，尚未删去 (53) 的真实补域。
+
+若固定不旋转的 $Y_S,Y_T$ 也放入同一网格计算，
+则两者的 (50) 都是 $-96(3+4\delta)$；
+其与 A 的归一系数差为
+$$
+\frac{-96(3+\delta)}7-
+ \frac{-96(3+4\delta)}{\gamma}
+=\frac{144(7+5\delta)}7.
+\tag{54}
+$$
+该差为当前好位单位。
+但 (53) 不自动支付这些未旋转 S/T 的平均中央零。
+R1040 的真实正交条件迫使同时保 S、T 的四个相位完全相同；
+不能把1296个新 cut 逐支当成原三条 canonical carry。
+
+### 8.4 完整原输入分层与不可省略的中间环
+
+按模 p 的原六输入 unit pattern 分层。
+若唯一 unit 是 $\xi_4,\xi_5,\xi_6$ 之一，则 H 深，所有平均 cut 均为空。
+若唯一 unit 是 $\xi_2$，其必要条件为
+$$
+2\omega(\zeta_K+\zeta_A+1)=(1-\omega)\zeta_N.
+$$
+左边在 $2\mathcal O_K$，右边不在，故特征零无解。
+$\xi_3$ 的式同样左边可被2整除、右边不可。
+这些非零差的范数小于60，所以 $p>211$ 也没有约化解。
+全深输入同样被 C 的单位条件排除。
+
+因此模 p 只有 $\xi_1$ 单 unit 的扇区可能相交。
+对 $n>1$，这不等于 $\mathcal D_n$。
+完整余部必须保
+$$
+(\mathcal D_1\setminus\mathcal D_n)
+ \cap\bigcup_{\boldsymbol\zeta}\Gamma_{n,\boldsymbol\zeta}
+\quad\text{和至少两个原输入为 unit 的部分。}
+\tag{55}
+$$
+
+第一项有一个准确的原五核递归，不能将它称为空。
+对 $1\le m<n$，在 $\mathcal D_m$ 上先取回五个原深输入，
+令 $T_m=\kappa^m$。
+所有72支准确变成
+$$
+D_{\boldsymbol\zeta}=T_m d_{\boldsymbol\zeta},\quad
+E_{\boldsymbol\zeta}=e_0x+T_m e_{\boldsymbol\zeta},\quad
+Y_A=7x+T_mZ_A ,
+$$
+测度带 $\beta^{5m}$，剩余实际条件为
+$$
+d_{\boldsymbol\zeta}\in p^{\,n-m}\mathcal O.
+\tag{56}
+$$
+原测试中的 D 项准确成为
+$(d_{\boldsymbol\zeta}/\kappa^{n-m})^k$；
+E 项、log 和所有分母仍如上保留。
+这里的72个 $d_{\boldsymbol\zeta}$ 仍含 J/N 的全部相位，
+不可在 (56) 内改用仅两个多项式行 (48)。
+相邻 m 的准确返回相减，才是
+$\mathcal D_m\setminus\mathcal D_{m+1}$ 的完整积分。
+
+### 8.5 一个真实的两 unit 厚管
+
+余部中有下列明确且不能从集合上排掉的支。
+取 $\zeta_A=-1$，$\zeta_K=\zeta_J=\zeta_N=1$，则
+$$
+F^*=F-4(1+\omega)A,\qquad
+D^*_1=4\omega^2,\quad D^*_4=-3\omega^2 .
+$$
+所以
+$$
+\boxed{
+\mathcal U_n=
+\{\xi_1=x\ {\rm unit},\
+ \xi_4-4x/3\in p^n,\
+ \xi_2,\xi_3,\xi_5,\xi_6\in p^n\}
+\subset\Gamma_{n,*}.}
+\tag{57}
+$$
+在这个完整管上，
+$$
+\begin{aligned}
+C&\equiv2\omega x,\qquad E^*\equiv h\,2\omega x,\\
+Y_A&\equiv(7+4\delta)x,\\
+Y_S=Y_T&\equiv(15+19\delta)x/6\pmod{p^n}.
+\end{aligned}
+\tag{58}
+$$
+后二者的范数分别为97及 $109/3$，故原三个观察在当前好位均为单位。
+管中恰有两个原输入为 unit，不属于 (52) 的五深网格。
+
+该两坐标的原正交行是
+$$
+d=-4\xi_1+3\xi_4,\qquad e=3\xi_1+4\xi_4,
+\quad Nd=Ne=25.
+\tag{59}
+$$
+两个完整半特征均为 standard odd。
+其原联合来源为
+$\sigma(-4z_d+3z_e)\sigma(3z_d+4z_e)$。
+(59) 给出了继续消费 (57) 的真实 norm25 输入，
+而不是仅因出现 degree25 就将它等同于另一套
+$\mathcal C_\pm$ 或先宣称其积分更深。
+它的完整 unit cut、四个其他深输入、普通 ray 的 $5^2$ 相容细化
+及全幂核仍须一同使用。
+
+
 ## 依赖与执行边界
 
 - R297、R398：原 S34/T72、完整六 sigma 及同源缩放。

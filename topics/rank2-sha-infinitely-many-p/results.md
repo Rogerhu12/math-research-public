@@ -288,3 +288,6 @@
 
 
 - **R1043（真实二同源层运输与九项有权式）**：[R1043-original-two-isogeny-level-transport-and-weighted-orbit-reduction.md](results/R1043-original-two-isogeny-level-transport-and-weighted-orbit-reduction.md)。R1043用原规范2-Vélu与full9分量逐式确定谱盖反演ι的真实二同源含义，canonical倍率为−3a_i。原源列基Mω、Weil指数−2/−4/−68及完整靶deck给φ_i,t=τ^iφ_0,ω⁻ⁱt[ω^i]。Picard拉回与eA−的两个ω因子相消，原η2/η17权再消；接原δ配对后，完整54图准确等于指定9图的6倍，原全Cor和1/18平均变为(32)的1/3，全γ逐项保留。 仅付真实shadow点值身份；九项非零、原ordinary局部检测及无穷目标p仍待。
+
+
+- **R1042原平均cut与完整中间环**：[§8](results/R1042-original-three-canonical-common-norm81-carry-and-positive-grid.md)。R1042§8付原F81五角平均的1296个实际cut，其中恰72支含原五深网格；完整五矩Ravg=31(ω−1)(1+v)³(12v−19)/6，YA平均网格仍严格赋值n。原补域准确保D1\Dn的全72支厚条件递归及至少两unit部分；一个明确两unit管ξ4≈4ξ1/3始终存在，原观察范数97、109/3均为好位单位，真实两坐标是norm25的(−4,3)/(3,4)。 只有Y轴的平均中央零已授权，S/T未旋转平均不由此赋零；norm25后续须付实际whole核/射线而非只认degree。
