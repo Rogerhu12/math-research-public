@@ -416,3 +416,6 @@ NS五件共129172B，owner71056B SHA18db439d5895e4232882940a57b7bd9457982383e1ac
 
 
 2026-11-27 00:55:15 UTC / visible-exact-astra-fb31ed6-20261127：BW五件完整首次target w入口登记，source AST/生成publication AST与definitions已过，无本地numeric。原同phase w=v_i−α，原OT.restore_AS必要一次恢复里只读包装WholeQuadrature.next、返回同一球，原raw/grid/alpha全SHA核后才新v_i/w四误差。完整source H³/两符号/analytic/alias/mean与truephase保，精确Fraction相减，不重复旧NWA/ASR科学。whole ASR尚未齐，不造manifest；一齐先OT，BW后。FX已推c5cbf6cd63，两README无diff。
+
+
+2026-11-27 00:58:14 UTC / visible-exact-astra-fb31ed6-20261127：为TCX/SL/ASR后继留完整输出余量，原pool384..511共128个legacy JSON仅字符串外空白压缩；原bytes/SHA/blob逐项核ba95a7219fa883622b2b3daefde527d04568c117，literal数字/字符串/escape/键序/数组不变。全current py/json/yaml/sh/js/ts完整路径/parent/独leaf/原SHA/blob引用冲突0；刚生成TCX新manifest另核交集0。两receipt70126B、毛省898944B、净省828818B，无科学/数组重算。BW五件已推11020ef0b0，两README无diff。TC原run00:54:07真实wall-budget终态，完整992/7724，原signed矩阵SHA不变，whole终态execution ba6ce21d67b3265eaf00e87f31b5c0e7e00beb481f97e8a4558dd17627116a30；TCX唯一缺域manifest已形成，只有negative/positive目标，未再启matrix。
