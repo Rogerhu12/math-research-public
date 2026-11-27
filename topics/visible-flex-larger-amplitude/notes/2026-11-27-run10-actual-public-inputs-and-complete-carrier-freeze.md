@@ -91,3 +91,26 @@ freeze必须紧接当前返回：若先让源码检查返回，其记录会追�
 双README在云API提交`d2fd32845086380c61d984b9fa87caa4a25212cf`核SHA均无变化，根真实pull仍在HANDOFF另记，不把云读取冒pull；实际09/10由完整控制器按每3000秒及队列变化真pull/rebase并核规则。原私库QUEUE进行中状态保。
 
 本条没有实际新完整场、typed历史、费用、Gram/K/support或R716矩返回，更没有闭连通C²嵌入、全相位reach/握持/非全等或真实精化完成。完整缓存源码保所有32阶段、原方程与全部自由量、活动导数旁路、强制fresh原复核；仍要实际运行并接原open工作，不以本条或运行时间收尾。
+
+## 7. 真实阶段3、4返回：完整冻结与源重放
+
+root 已完整读取固定 `8e32b487661e9ee886f8c4968dcf4d31015e9938` 的 [实际第1卷](https://github.com/Rogerhu12/math-research-public/blob/8e32b487661e9ee886f8c4968dcf4d31015e9938/topics/visible-flex-larger-amplitude/notes/2026-11-27-public-actions-45972294636-1-part-001.md)：38,575 B，SHA256 `0b1de8d544053aa5e67f80b144a65274c2f111825845482e68c5c278ef9f7cee`，Git blob `e914a571f6fe2c228e6662ad2b144363c8486881`。本节更新此前“待返回”的状态，不覆盖原发布时的未知范围；完整实际命令、输入、输出与全部 scalar 结果均保在该原卷。
+
+阶段3实际 exit=0、338.91556337600014秒；完整 producer 为 `fcd20177bed258bc463f5ca6431c29c18c3b381b75146e1da7bbc8bc4e7a475a`，实际执行提交 `2ac24f7178faae6c2901e97b1f7ebfa3ec8e5d0e`。六当前文件、全部160个 chart words、两份 immutable public 全文、旧完整载体均已由真正 producer 核验。新绑定只采用以下实际返回身份：
+
+| 对象 | 完整 SHA256 | 字节数 |
+|---|---|---:|
+| report.json | `c5fc7c39188acd62c1dca920c56cbe59a18ca5a29fa945b828f967c38c430c7e` | 769363 |
+| run05-observations-restored.npz | `dc5ffc55ecc4478d265bbad6e8f2abcf672709d99365e14ead01478a4042e7d0` | 227202 |
+| independent-fixed-target-definition.json | `b24080447828d8ffb49ae146dd5672d34bf6f5cec512054633b6f849c2bdabfb` | 97335 |
+| material-envelope-carrier-binding.json | `4ace8184408aa0c7cac7970ba6fc96565c68786a518cd9d280a1a97ef82b50cf` | 430908 |
+| actual-public-warm-immutable.md | `b23954c94ac4f69969dae9768d9ebdc1b77f5a65b82377b48d1cd63c84330583` | 22533 |
+| actual-public-reference-immutable.md | `b23954c94ac4f69969dae9768d9ebdc1b77f5a65b82377b48d1cd63c84330583` | 22533 |
+
+固定目标语义身份为 `e7110482f9bd2eb723e96c99f5bbaa8a85aa11a81519c5204a296fb1bad9a049`；载体绑定语义身份为 `84478fe73faf0c48f4c1d86ce0aba7dec88b22bfb3a33839e9d1d030177bf586`；实际输入证据身份为 `47a8fa781713388379a6de4c259f4ddf7f810e1b3d69c63f8630565031b761ef`。语义身份与完整文件字节 SHA 分列，不能互换。原、当前 chart 都为 `90e6cf8a5794bf6d61c2180c6e0549df74ac883457228af1e6ccfd34544f082e`，全160字相等；原恢复的2397叶标量 profile 两边完整 `e71b374557c5efa07ce2b5795c73f3e5b3a50d10d125b40c1f1682af37742350` 相同。这里的2397仅属于历史载体恢复，不把它冒成当前2218叶标量。当前模型081、参考512、当前载体71f、标量aa7a等第1–2节完整身份均保。
+
+root 未取上述769363B报告或430908B绑定大本体，也未读取227202B NPZ；本节的身份与短结果来自完整真实公开小卷。后继科学程序必须在runner实际读完整文件并核这些字节，不能把小卷摘要当完整输入。该 producer 明确 `same_mathematical_g_claimed=false`、`exact_chart_conjugacy=false`、`old_values_inherited=false`、`original_branch_finished=false`，F/J/root调用均为0。两条 `summary_errors` 只是请求了不存在的可选 failure.type/message，完整record保留；真实state completed/returncode0、complete=true，missing_outputs为空。
+
+阶段4实际 exit=0、5.847329209000009秒，执行提交 `e17966cfcce07326d2fad6a25d9748f34ae39164`。完整52fc再生器对两份完整源正向生成、逆向恢复、AST/compile均实际通过；输出report为1491B，SHA256 `586b69846afacd8bc40e1f549c1ca80b426fbb703bad994d3f44ca11b8c62147`。它没有import或执行科学，没有读实际数组，F/root调用为0。此为公开Actions真实静态检查，不冒称失联root本地执行。
+
+后续完整10缓存族据此绑定当前真实b240/4ace/e711/84478/081身份，两个immutable22533B/b239快照继续使用。原09科学8仍有独立未知末点与完整typed历史；不将09未来final或旧05载体当成10同一target的已读父。上述返回没有提供新曲面、连续误差、几何或收敛结论，后续完整求解、全场费用与实际精化继续。

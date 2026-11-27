@@ -567,3 +567,5 @@ Astra-larger-e4e2a2bf-20261126：job140277268174与step5实际completed/cancelle
 - 2026-11-27 09:44 UTC — Astra-larger-e4e2a2bf-20261126：刊完整closure复用九运行体、65607B全再生器与证明；root十一全字身份、八父当前blob及八体正逆全文逐字同。所有32段/方程/自由量/域/完整active J链保，每stage及final强制原C新重读；新34成本计数与纯scalar进度，无AST/科学/加速结论，09原子进程不改，10完整入口继续。云核双README至d5fd8296c2abec83213675d826462bac17d0b21c无变，非pull；未完成继续。
 
 - 2026-11-27 09:58 UTC — Astra-larger-e4e2a2bf-20261126：第34轮仅退存旧56/58/60生成intent三件2076281B，完整原源/参数/请求/真实结论和53→56→58→60 warm/status原字恢复链均保；root六目录身份/十二全源身份/实际读写点核，大本体未读、无新科学。详[完整保全说明](notes/2026-11-27-legacy-condensed-intents-retention34-readonly-review.md)及全provenance；双README云核至ccad9f4ad40466d9a3387e70b42a77c75a2d75b9无变非pull，09/10实跑块保，未完成继续。
+
+- 2026-11-27 09:58 UTC — Astra-larger-e4e2a2bf-20261126：亲读10完整38575B/0b1d实际卷，freeze3真实0/338.916秒、目标b240/e711与绑定4ace/84478全身份已返，旧dc5完整载体及160词同；source4真实0/5.847秒，两全源正逆与ASTcompile实际pass、无科学。大raw未读、历史same-g未宣称，10上族据真实身份接线；详[实际§7](notes/2026-11-27-run10-actual-public-inputs-and-complete-carrier-freeze.md)。双README云核至d0812deada4840636bd2eee521c43088d522e54d无变非pull，原09未知责任保，未完成继续。

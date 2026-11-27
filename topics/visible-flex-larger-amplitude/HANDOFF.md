@@ -4,7 +4,7 @@
 
 ## 规则、目标与完整历史
 
-root最后真实pull/rebase至`eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21 UTC执行环境失联，云API不冒pull，恢复即真拉取。完整经过保第31轮note/entry§9。本次云核至`ccad9f4ad40466d9a3387e70b42a77c75a2d75b9`，双README整SHA `581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102` / `3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d` 无变；非pull。09持续实际pull见末块。私库QUEUE已真推`e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`。
+root最后真实pull/rebase至`eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21 UTC执行环境失联，云API不冒pull，恢复即真拉取。完整经过保第31轮note/entry§9。本次云核至`d0812deada4840636bd2eee521c43088d522e54d`，双README整SHA `581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102` / `3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d` 无变；非pull。09持续实际pull见末块。私库QUEUE已真推`e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`。
 
 科学只本公开仓库Actions；root唯一ref写者，结论即普通推，NFF立即rebase循环，不强推。每次pull核双README差异并遵新规，至少每小时，记commit。raw只scratch/runner、不入Git/Release/artifact，不得改名冒输入；全小源/参数/run/SHA保。题≤200MB、文件<5MB、MD<100KB、H<10KB、open<30KB；读前stat、不整读≥100KB。已有执行/大文件/终端偏差保4815339固定H及notes；令牌仅瞬时CLI。
 
@@ -36,7 +36,7 @@ R709均值J不迁normal Cu，R711/712中央Fss非K，R714/715全C1/m32/raw六jet
 ## 新10完整输入及后续实施
 
 [10启动/进度](notes/2026-11-27-run10-full-input-reconstruction-and-active-progress.md)071eb/046f保原run_step，可选小progress双全字只读scalar。350分钟/20000秒编排与科学预算不变，不取消09。
-[10实际输入与完整绑定](notes/2026-11-27-run10-actual-public-inputs-and-complete-carrier-freeze.md)45972294636/1前两步真返0，完整b239卷22533B；warm3df/node1fed/scalar aa7a/ref512/report35fd/carrier71f/model081/当前2218尾叶、tolerance=false全保。新9f69/fcd两完整源及52fc完整再生器已刊；14替换正逆整字同父，无AST/科学。完整freeze28argv/6outputs/45selectors先冻原public全卷，再源重放4argv/8selectors；原参考步不改不重跑，queue15881B。未知target/binding等真返，绝不抄09。原2397仅旧dc5全地址恢复，所有未知历史/全字同g责任保。完整closure缓存接线继续，原32段/方程/自由量/范数/域、活动导数旁路/强制fresh复核保，未实测速度。
+[10实际输入与完整绑定](notes/2026-11-27-run10-actual-public-inputs-and-complete-carrier-freeze.md)1–4真返0：warm3df/node1fed/scalar aa7a/ref512/report35fd/carrier71f/model081/当前2218尾叶、tolerance=false。freeze fcd/9f69真实338.916秒，目标语义e711/whole b240(97335B)、绑定84478/whole4ace(430908B)、两immutable b239(22533B)、旧dc5(227202B)及全部160词90同。52fc两全源正逆/ASTcompile实际通过，科学F/J/root为0；root整读38575B/0b1d实际卷，大raw未取。旧2397仅地址恢复，same-g历史关系未宣称，09未知末点不冒10同target父。完整10缓存上族据真身份接线，原32段/方程/变量/域/活动导数旁路与强制fresh保，未实测速度。
 
 [完整closure复用下层](notes/2026-11-27-complete-same-chain-closure-value-reuse-and-original-rereads.md)九整运行体+完整再生器/证明已刊。root十一全文身份、八体正逆文本重放/八父当前blob核；新e1af helper/6d2b normal只同链完整C复用，每stage及final仍强制fresh，活动/未知transform旁路。34真实计数和纯scalar进度已实现，未AST/科学/实测加速；完整10上层及真输入接线继续，原09及参数不改。
 
