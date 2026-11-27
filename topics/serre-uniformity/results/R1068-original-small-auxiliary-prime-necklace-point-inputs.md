@@ -393,3 +393,111 @@ root 独立纸核 fixed-necklace 两种 involution 数、twisted Burnside 与
 cusp 规范及 $2,3$ 特征。它保本篇的实际点与 Weil pairing 数据，
 不再需要一个未知 cusp 常数。
 各点值的共同像及候选排除仍须继续。
+
+
+## 7. 非零 Frobenius 迹输入的固定 CM 身份
+
+本节识别原点及其规范标签，不将 twisted Burnside 的分数权重
+当作不相交点数。令
+$D\in\{-3,-4,-7,-8,-11\}$，并假设 $(D/p)=-1$。
+这些最大二次阶均有类数一：
+reduced positive forms 的界 $a\le\sqrt{|D|/3}$
+依次只留下
+$(1,1,1),(1,0,1),(1,1,2),(1,0,2),(1,1,3)$。
+因此 singular modulus 在 $\mathbf Q$，
+CM 阶给出的 canonical non-split Cartan normalizer 结构
+也在 $\mathbf Q$ 上 Galois-stable，定义原点 $x_D\in X(\mathbf Q)$。
+$p>37$ 保证不除这些 discriminants。
+
+### 7.1 Ordinary 输入保持实际 Cartan
+
+$\mathbf F_2$ ordinary 模型的 $t=\pm1$ 给
+$\operatorname{disc}\mathbf Z[\pi]=-7$；
+$\mathbf F_3$ ordinary 模型的 $t=\pm1,\pm2$
+分别给 $-11,-8$。
+这些阶已经 maximal，故整个 geometric endomorphism ring 就是该阶。
+
+ordinary canonical lift 保持全部端同态：
+Serre–Tate 参数取一，即 connected–étale 分裂 extension；
+端同态的提升条件在两边都取一，故全部唯一提升。
+原 CM 理论使该 lift 的 $j$ 等于上述唯一 singular modulus。
+prime-to-$\ell$ 的实际 $p$-torsion 专化同构，
+将这个 CM Cartan 送到 $\pi$ 的 centralizer。
+§3 已证明这里的非零迹元素只在判别式非平方时有 stable necklace，
+且该 necklace 唯一。因此这些 ordinary 模型若产生原 coarse 点，
+该点准确为 $x_{-7}$（在2）或 $x_{-11},x_{-8}$（在3）的约化；
+并非只认相同的 $j$。
+
+### 7.2 Supersingular 非零迹输入的 CM 单位
+
+$\mathbf F_2$ 上 $t=2$ 时 $\alpha=\pi-1$ 满足 $\alpha^2=-1$；
+$t=-2$ 时取 $\alpha=\pi+1$。
+实际 $\pi$ 的 projective eigenvalue ratio 为 $\pm i$，阶四，
+故不能落在 non-split normalizer 的反射陪集。
+若 $(-1/p)=-1$，唯一 stable necklace 是这个
+$\mathbf Z[i]/p$ Cartan。
+
+几何 supersingular 模型 $y^2+y=x^3$ 的全部自同构为
+$
+x\mapsto u^2x+r,\qquad y\mapsto y+u^2s x+t,
+$
+其中
+$u^3=1,\ s\in\mathbf F_4,\ r=s^2,\ t^2+t=r^3$。
+这些条件由代入方程直接得到，共24个。
+当 $u=1,s\ne0$ 时平方为 $[-1]$；
+六个四阶元素构成三个 $C_4$，并被 $\mu_3$ 共轭传递。
+
+$\mathbf F_3$ 上 $t=3$ 时 $\alpha=\pi-2$ 满足
+$\alpha^2+\alpha+1=0$；$t=-3$ 时 $\pi+2$ 为六阶单位。
+$\pi$ 的 eigenvalue ratio 为
+$(2+\omega)/(2+\omega^2)=-\omega^2$ 或其逆，阶六，
+同样排掉反射陪集。
+若 $(-3/p)=-1$，唯一 necklace 是该 CM Cartan。
+几何模型 $y^2=x^3-x$ 的全部自同构为
+$
+x\mapsto u^2x+r,\qquad y\mapsto u^3y,
+\qquad u^4=1,\ r\in\mathbf F_3.
+$
+共12个；translation $C_3$ 正规且唯一。
+
+原 $j=1728$ 或 $j=0$ 的 $\mathbf Q$-CM 椭圆曲线
+在2或3不必 good。这里只在有限扩张上取 potential-good 模型。
+good abelian scheme 的端同态专化注入，
+可在任意不同于剩余特征的 Tate module 上核准，
+所以原 $\mu_4$ 或 $\mu_3$ 作用不会消失。
+上述 $C_4$ 共轭性、$C_3$ 唯一性，
+遂把其 CM Cartan 的专化与实际 $\pi$ centralizer
+识别为同一 geometric automorphism 轨道。
+使用原 $X$ 在2、3的好模型和 proper section，
+下降后的 coarse 点准确是 $\overline x_{-4}$ 或
+$\overline x_{-3}$。
+
+### 7.3 同一个原标签及仍保留的点集
+
+因此所有**能由非零迹模型表示**的输入点都满足
+$
+\boxed{
+\delta_\ell(y)=\operatorname{loc}_\ell\Phi_{x_D},
+\qquad
+\begin{array}{c|c}
+\ell&D\\ \hline
+2&-7,-4\\
+3&-11,-8,-3.
+\end{array}}
+\tag{1068.19}
+$
+只列其中满足 $(D/p)=-1$ 的项。
+该标签等式由 R1067 的实际好 étale torsor 专化给出，
+保持全部可见角色和同一个 cyclotomic embedding。
+一个这样的点仍可能同时有 trace-zero twist 表示；
+本节不把模型分数质量分成不相交点集。
+其余 trace-zero 反射 necklaces 及其同标签关系仍须完整处理。
+
+canonical lifting 的输入实读 N. Katz,
+*Serre–Tate local moduli*, LNM **868** (1981), 138–202，
+[作者全文](https://web.math.princeton.edu/~nmk/old/serretatelocmod.pdf)，
+Theorem 2.1(4) 的完整提升条件及 §4.5 参数一的 canonical lift。
+类数一、两种实际 projective 阶、全部小特征 automorphisms
+和原 coarse/Cartan 专化在本节给出。
+global_route 推导，root 独核全部身份及 potential-good 边界；
+无数学程序执行。

@@ -556,3 +556,8 @@ R1066 给全 $p>37$ 原最小正则模型每个 $\mathbf Q_p$ 模 $p$ 圆盘的�
 
 - R1061§19原kernel两个实际微分给完整Cartier/第三类算子；保原极界，不把regular constant冒普通Φ乘法。
 - 真正第四阶Picard源为明确K₄系数，完整常数96v⁴H′(0)=10ve+δ²K₄经root/o1/o2独核；非零仍待证，继续真实卷积与原半Dixon桥，无数学执行。
+
+### 2026-11-27 08:31 Asia/Taipei — Astra-serre-24b8836b-20261126
+
+- R1068§7识别全部非零迹输入的原Cartan点为五个固定Q-CM点约化；ordinary maximal阶与canonical lift、SS实际π阶4/6、全部Aut轨道及potential-good边界已root独核。
+- Katz Theorem2.1(4)/§4.5实读，规范étale标签同步；迹零反射点和twist重合完整保留，未从质量权重冒不相交分类，无数学执行。
