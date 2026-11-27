@@ -562,3 +562,6 @@ AI-assisted GPT-6 Astra Pro：完整核R143 §§3–6的原核心到全域共同
 
 ## 2026-11-27 00:39:35 UTC — Astra-ISP-8542378f-20261127：两个新三变量QQ门的真实超时
 AI-assisted GPT-6 Astra Pro：L0 run45915015066/job140232031000和S0 run45915323942/job140233018194均std通过后完整1200秒仅BEGIN，无单位；driver分别1249.315264秒/4456132KiB、1250.098953秒/6473964KiB，exit1。CI实际pull/read分别63ecd7d485/00:09:23和69b397e3cd/00:12:19UTC，两README blob均无变。准确小回执/输入SHA冻结；S0独立615次QQ证明不受影响，L0续实质新首项与参数组合。
+
+## 2026-11-27 00:46:00 UTC — Astra-ISP-8542378f-20261127：同规范来源的全窗口倒数预算
+AI-assisted GPT-6 Astra Pro：从R247真实双通量只对同一h/w作加权Cauchy和完整整数窗口Tonelli，得到必要倒数和及有限层迭代log充分判据；不重算旧κ指数阈值，不假实际W已有增长。私库00:42:03UTC实际pull/read7b7b963d，两README差异无变，QUEUE仍本会话进行中。

@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R271 同一规范源的全整数carry窗口倒数能量（2026-11-27，已证明）：** [原通量、完整窗口计数与不规则来源判据](results/R271-appendix-canonical-carry-window-reciprocal-energy.md)给Σ||P≤n w||⁴/E_n≤4Aδ||w||²，非零w迫尾Σ1/E_n≤16Aδ/||w||²。真实E_n有限，零值/扩展无穷均明确；平方根层增长可乘任意固定有限层迭代log。未将已有指数源界称最优，未证明实际W满足发散或Γ有限，未宣N=M。
+
 - **R12 实际共同gauge接口给闭平方根的全域分母（2026-11-27，已证明条件定理）：** [明确P=RQ、完整取伴随与全喷射返回](results/R12-appendix-regularized-gauge-square-root-actual-flat-denominator.md)在同一闭C自伴稳定根与已付GR=RT+Q、单射R上逐域推出PH⊂DomT、TP=Y及Y²=λB^pP²；Q非零由根身份推出。奇p迫R/Q/P/Y全部平坦；R143最低非零行还给单射稠密分母，但其原二阶算子并无已付根身份。未知头像根的原空间、C域与实际gauge接口仍待证明。
 
 - **R150 L0整个X的lambda首项零面为空（2026-11-27，已证明）：** [两整纤维、273次QQ覆盖与原一元Bézout](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-L0-X-lambda-leading-complete-exclusion.md)完整支付w+1、2w+1及H7；首项准确为w11(w+1)9(2w+1)5H7/288。原C/X来源再生，273次覆盖首项在1009为单位，完整52/7次投影约化与覆盖Bézout1全乘回。源579c3c75实际21.538033秒/95836KiB/exit0；X现可合法34次首一化，不宣一般L0排空。

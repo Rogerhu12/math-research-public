@@ -168,3 +168,6 @@ L0新[整X的lambda首项排除](results/R150-appendix-essential-four-unit-two-p
 
 
 [闭平方根的实际gauge分母](results/R12-appendix-regularized-gauge-square-root-actual-flat-denominator.md)已给明确P=RQ与Y，完整C自伴性把PT有界返回PH入原域；奇幂根的R/Q本身也须平坦。继续支付同一未知根的实际GR=RT+Q接口及全C自伴域。R143只有原二阶乘子的该接口，不能把头像反根直接识别为它，也不能把一般平坦源变成分母。
+
+
+[同一规范来源的全整数窗口倒数预算](results/R271-appendix-canonical-carry-window-reciprocal-energy.md)已付Σ||P≤n w||⁴/E_n≤4Aδ||w||²；非零W必有尾Σ1/E_n有限。可用实际不规则窗口或平方根乘有限层迭代log检验，但已有指数来源界仍不付倒数发散；继续同u的Γ与输出逆权。
