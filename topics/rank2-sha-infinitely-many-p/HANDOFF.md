@@ -8,11 +8,11 @@
 
 - 两库部分克隆已做。公开既有只读CI于11:42:03UTC真实pull --rebase成功至689da8018766103f2cba0ca6620801c01d81cbbf（run45992595370/job140483924801），相对07:12本地pull的1cf10ac两README无差异；已读blob282e86b03385d3b6245ce7100ae2e2af7b103c2d / 2f3b3c9264fbba8189f85716e68f768830e921bc。CI与本地checkout分开记账。
 - 私库QUEUE认领41fe885610073f478b2f5a752461ca56cfd43f09已推。最近实际pull06:47UTC至6139de54ac72f1c7af0508b88ce03efdbf0a5690，两README无变；blob分别5ba164843b1f5802184178a82d786264404873a3 / 452d0127a4c3879807d70550d3eafd46c8fac642。
-- 07:20本地执行环境失联；11:32:20两库actual pull重试仍不可用。10:58:59 API私库a6ed8db38d42aee73a8847fb1ff48e53cb015e76两README无变，QUEUE仍本会话进行中。API不冒充pull，本地恢复立即补；公开现复用既有CI实际pull。
+- 07:20本地执行环境失联；12:20:36两库actual pull重试仍不可用。12:21 API私库02b2cb0e7e8624f732845b0abab109c1898afeea两README同原blob，QUEUE844a9bd5…仍本会话进行中。API不冒充pull；本次再请求既有公开CI实际pull，基准11:42的689da801，回执待。
 
 - 至少每小时重试同步，每次pull后只读新README差异并立刻执行，记实际读过SHA；断连沿最新main API非force快进，每次检查README及本topic外部变动。10:48ref失败已立即实际pull重试、重比新父后成功；不强推。
 - root独占git/H/open/log/index；每条结论立即推，拒绝时pull --rebase后重试至成功。令牌只命令行/进程，不进文件/提交/API。数学执行只在公开Actions；根规则15禁止存可重算输出或日志数据。H<10KB，每MD<100KB。
-- 本次整理前的[完整交接](notes/2026-11-27-handoff-before-weighted-level-transport.md)逐字保原历史，向前链接所有旧归档；[open归档](notes/2026-11-27-open-before-weighted-level-transport.md)、[results](results.md)、[R1001–1050索引](notes/PROOF-INDEX-R1001-R1050.md)保完整参数/门/失败/回执，不重做已登记结论。
+- 本次整理前的[完整交接](notes/2026-11-27-handoff-before-two-state-companion-source.md)逐字保原历史，向前链接所有旧归档；[open归档](notes/2026-11-27-open-before-weighted-level-transport.md)、[results](results.md)、[R1001–1050索引](notes/PROOF-INDEX-R1001-R1050.md)保完整参数/门/失败/回执，不重做已登记结论。
 
 ## 一、唯一原厚几何作业
 
@@ -28,7 +28,7 @@ R1016–1034原平坦迹、whole39/13字/Miller/CM36 Hermite/第一primitive与�
 
 R1037完整378谱run45973650826/job140419911466已全返，30非零块/90零标签、334fibers/390coords和全回乘齐；唯一质量零线rank1为δ-new9/dyadic−/7new。R1038将此线完整识别固定E3969（导子47628）的α1/7 finite/Schwartz/Haar/Gaussian，普通与惰性通常全Sha桥皆付；§14的真实圆盘/全尾给J′126,5≡5/3 mod25，故精确rank2且Sha[5∞]有限，不说群零/无穷p。原126全run45977711940/job140433521280的22列/64回乘、degree20/全部因子角阶/cubic61齐。完整run/source/hash/必要坐标在R1037–38及[原126笔记](notes/2026-11-27-e3969-original-degree126-live-return.md)，不重跑。
 
-R1040原六轴/单项DE5 carry及χ65/χ10 whole核已付，合法顺序先忘H/J再K，全部mixed单位补域保持。§9整个Y/K/L/M δ-old均零（L保目标17的ε），仅联合字(λ,λ,λ⁻¹)；M两个63全迹与S34六坐标全零，拟consumer未启动。§10用原A9/N14给Gram=(126,3,6,2,9,14)、det756；真实δ/二挠全作用得到Θ9=−yσ9(X+4b)、Θ14=xσ14(X−2b)(X−8b)，五伴随完整乘积=39δΦ126⊗B3⊗F6−⊗Θ⊗Θ9⊗Θ14，Y未另投影。原6⁵平均付全部companion-only h；§11证明同时保S/T/Y的F81角旋转仅四轴共同相位，1296分支不可逐一赋三canonical零。含Y网格/YS/YT对数和原补域仍待。
+R1040原六轴/单项DE5 carry及χ65/χ10 whole核已付，合法顺序先忘H/J再K，全部mixed单位补域保持。§9整个Y/K/L/M δ-old均零（L保目标17的ε），仅联合字(λ,λ,λ⁻¹)；M两个63全迹与S34六坐标全零，拟consumer未启动。§10用原A9/N14给Gram=(126,3,6,2,9,14)、det756；真实δ/二挠全作用得到Θ9=−yσ9(X+4b)、Θ14=xσ14(X−2b)(X−8b)，五伴随完整乘积=39δΦ126⊗B3⊗F6−⊗Θ⊗Θ9⊗Θ14，Y未另投影。原6⁵平均付全部companion-only h；§11证明同时保S/T/Y的F81角旋转仅四轴共同相位，1296分支不可逐一赋三canonical零。含Y网格/YS/YT对数和原补域仍待。§12只投H/J/N后，Y主型的整个K/A来源严格为39δΦ⊗Ξ0+G126⊗Ξ1。G(0)=−δ/28，wholeβ=−λ给JG(0)=−δ(1+λ)/28单位；坏Φ时完整comp-only中央/质量同一比例，归一Y/7须保log7质量。真四输出零核2KA5+5K4A2及K3A3的canonical返回已付；不能删Y混合片或赋jG零。
 
 F0两δ字run45991193171/job140479142693/sourcec5b9ce61389b975b1a11d1ff1ee71912a8749751实际全返：B10、反射/回乘/二处齐；两旧rank1投影全零，primitive三维非零且非∇S比例。真短式B±=(X+4)D_-/(279552y)±σ4σ3σδ³/(1118208δ)，全T_i/Miller/σ2²/单位cut保。必要坐标/hash及未闭转置见[两字笔记§6](notes/2026-11-27-original-f0-two-delta-word-return.md)，不重跑。§7进一步付两odd25 C±及C2=−C1(−z)、实际三挠U±和完整Φ=W51(U+C1−U−C2)/36；真转置是1/18的x+y单位卷积，degree51 Gaussian/三个E2第三类边界保齐。
 
@@ -42,11 +42,7 @@ q5旧shadow倒6全零。q11全D run45968889219/job140404155125/source3d702b7bc21
 
 R1039原g二盖严格Prym≅EL:y²=x³−12x+20、r*r_*=1−ι、原边界D∞−D0=r*(1,−3)非挠、FQ双Norm/S4 sign局部系全部付。§§7–9用真实实cyclic24商j域/完整核轨道/Elkies负整数Norm手证无穷q≡−1mod24且EL超奇异，原全Jac F²=−q，sqrt3边界本身Fq有理。阶24用本原实周期；不代q+1无穷素因子或目标p无穷。
 
-R1041原s0=0四字母盖精确H²=Q6(v)、全incidence及F²=−q；Pell U全Norm=cU²[Y/(Y+1)]^((q+1)/3)，完整ODE/原迹微分齐。原FQ全极及εprod=−δW/t严格分Z+=ΓE+、Z−=ιΓE−，指定AQ∈EL(Fq)。§§10–12真边界r_*ΓΔ∞=[R0]−[−R0]、R0=(4,6)、2R0=P=(1,3)；全部Norm UΓ→M、M(O)=1，再真实平移给m_P,q，div=(q+1)(P−O)、m(R0)=1。反Norm=U⁴/(cU²f^d)，primitive第三类准确送dlogM非零；仍须原最高λ/27完整消费，不能把低维类直接当H³(2)。
-
-q11完整Prym与指定半类consumer均已全返，AQ=−G阶16、[12]AQ=P；所有厚闭点/原W号及真实run/source/hash在两笔记。R1041§§14–16的一般halving/ψ2主除子已给4AQ=−P、AQ+G∈EL[4]，全二分Norm=t³(1−27t)。不重算旧q11，也不以固定低维半类代最高权。
-
-R1041§§17–19把原rΓ Abel和显式写为第二四度图Φ，特征零微分/基点先相认再约化；真分歧值±3R0。固定J=(H−A3)/(H+A3)的完整除子及Weil reciprocity给U⁴/(cU²f^d)=Φ*M·J^(q+1)，原第三类保dlogJ修正。两holomorphic线的Cartier及Q6四槽完全由a_q(EL)控制，ss时Pell的bq/cq亦定；未代最高λ/27或无穷目标p。 §20把原U与ψ2的两个共享边界首项、全部坏纤维及闭点Norm逐个带入Weil reciprocity，得U(E+)²⁴∈Fq*，因此p≥5、p|q+1时无权半交值是p次幂。原27逐CM有权值不由此消去，转其真函数/eta/Cor与最高λ。
+R1041原四谱Q6/fullincidence/Pell/双Norm/ODE已付，原FQ全极及εprod严格分两三挠交。原rΓ边界为P=(1,3)，完整Norm给M(O)=1及指定P的Miller函数。q11全Prym/指定半类实际全返，AQ=−G阶16；一般halving/ψ2主除子给4AQ=−P、全二分Norm=t³(1−27t)。所有坏纤维/厚闭点及run/source/hash在原文和两笔记，不重算。§§17–20付第二四度图Φ、Miller修正J和4ηprim=Φ*dlogM+dlogJ；Cartier由a_q(EL)控制；完整tame reciprocity给U(E+)²⁴∈Fq*，故p≥5,p|q+1的无权半交为p次幂。无权入口关闭，原逐CM权/eta/Cor/最高λ不因此消去。
 
 R1043已付原2-Vélu/full9运输、canonical−3a_i倍率与真实τ^iφ0[ω^i]图。原Picard/源对偶ω因子及η2/η17相消，逐γ保全Cor，54项准确=6×9，原1/18平均变1/3。九项各带真实degree34对偶与原最高投影；继续其有权非零和ordinary比较，不以无权Pell或低维类替代。
 

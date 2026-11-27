@@ -291,3 +291,6 @@
 
 
 - **R1042原平均cut与完整中间环**：[§8](results/R1042-original-three-canonical-common-norm81-carry-and-positive-grid.md)。R1042§8付原F81五角平均的1296个实际cut，其中恰72支含原五深网格；完整五矩Ravg=31(ω−1)(1+v)³(12v−19)/6，YA平均网格仍严格赋值n。原补域准确保D1\Dn的全72支厚条件递归及至少两unit部分；一个明确两unit管ξ4≈4ξ1/3始终存在，原观察范数97、109/3均为好位单位，真实两坐标是norm25的(−4,3)/(3,4)。 只有Y轴的平均中央零已授权，S/T未旋转平均不由此赋零；norm25后续须付实际whole核/射线而非只认degree。
+
+
+- **R1040真实两态及单位质量参考**：[§12](results/R1040-new-e3969-whole-companion-frame-and-sixth-degree-carry.md)。R1040§12在只投H/J/N的真实原源上，把Y主型的整个K/A四候选通过原带ε joint gluing严格压为两态：39δΦ126⊗Ξ0+G126⊗Ξ1。原KA5矩固定G(0)=−δ/28及全整周期；原ray的全S126核心β=−λ给JG(0)=−δ(1+λ)/28单位。坏Φ中央下，任意完整companion-only测试的中央与质量同一比例，归一Y/7的log7项不能删。 全四输出的2KA5+5K4A2零核、K3A3返回canonical和全部factorial已付；G未被赋新算术零。

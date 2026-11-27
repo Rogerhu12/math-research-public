@@ -1312,3 +1312,375 @@ $Y_S,Y_T,Y$ 的 R1042 原 carry，并分别赋三个 canonical 中央零。
 $Y_S,Y_T$、原 unit cut、logarithm 和余权。
 只有原来源上的完整转置，或对这些实际新观察另付完整算术来源，
 才能消费它们；范数仍为81本身不完成这一步。
+
+## 12. 未投影 K/A 的完整两态与非零质量参考源
+
+本节只在 H/J/N 三个方向作已经支付的主型投影，
+保留 K 与 $A_9$ 的全部实际混合项。
+在第一轴使用主型读者时，原整个来源准确只剩两个固定的 K/A 张量。
+第二个张量的系数来源具有单位质量；它不能被赋予算术中央零。
+这个两态结论给出一个完整的条件测度关系，及两个真正的六阶返回权。
+
+### 12.1 三个伴随投影后的原完整函数
+
+以下简记 $A=A_9$、$N=N_{14}$，生成变量分别写为
+$(z,h,k,j,a,n)$，与物理输出 $(Y,H,K,J,A,N)$ 对应。
+置
+$$
+\mathscr P_3=\Pi_{H,0}\Pi_{J,0}\Pi_{N,0}.
+$$
+N 的单重性只用 J 的投影，见 (68)–(72)，并不需要先投影 K/A。
+故沿 §8 的原 U/V/Q 加法身份，整个返回准确为
+$$
+\boxed{
+\mathscr P_3\mathcal B
+=B_3(h)\Theta(j)\Theta_{14}(n)\,\mathcal C(z,k,a),}
+\tag{84}
+$$
+其中
+$$
+\boxed{
+\begin{aligned}
+\mathcal C(z,k,a)=-\frac1{84}\,
+ &\sigma\bigl(\delta(3z+k)\bigr)
+ \sigma\bigl(\delta(2z-a)\bigr)^2\\
+ {}\cdot\bigl\{&
+ \sigma(3z-k)^3 B_3(4z+a)
+ +B_3(3z-k)\sigma(4z+a)^3\bigr\}.
+\end{aligned}}
+\tag{85}
+$$
+这里 $\sigma(w)^3$ 始终是原 sigma 的三次幂，
+不是 $\sigma(3w)$。所有系数使用原 $\rho=-\nu_\sigma^{\otimes6}/84$；
+没有为 (85) 重新归一化测度。
+
+为核 (85)，在 §8 的 U/V/Q 对偶变量中代入
+$$
+u=3z+2n/\delta,\qquad
+v=4z+a-2n/\delta,\qquad
+q=2z-a-n/\delta.
+$$
+先保 H/J 的完整两个加法项，再用 N 的质量一单重因子，
+置 $n=0$ 即得 (85)。
+所以此处置 $n=0$ 是已经付清的整因子提取，而不是删除 N 的 mixed 条件。
+
+(54)、(66) 给出的 Y/K/A 三个完整 $\delta$-new 身份仍成立。
+此外有一个实际原整数 gluing：
+$$
+\boxed{
+K+A=\delta(0,1,-1,1,-1,-1),\qquad
+\mathsf T_{K,u}\mathsf T_{A,u}\mathcal C
+=\epsilon(u)\mathcal C\quad(u\in\ker\delta).}
+\tag{86}
+$$
+右侧 quotient 范数为5，是 odd；$\epsilon$ 正是 (49) 的原符号。
+将原六 sigma 准周期式逐坐标代入，和 (53) 完全相同地消掉
+Weyl 指数，余下五个非零模二系数给 (86)。
+不能将此式的 $\epsilon$ 改成1。
+
+### 12.2 全标准空间中的四个候选张量
+
+现在只在 Y 上取 $\mu_6$ 主型：
+$$
+\mathcal C_0=\Pi_{Y,0}\mathcal C.
+$$
+原 $\mathcal C$ 对三个变量同时乘 $\mu_6$ 为主型，
+所以 $\mathcal C_0$ 在 K/A 上的总型也为0。
+这不等于对 K 与 A 分别取主型。
+
+standard even $\mathcal S_6$ 的完整基为
+$\sigma^6\langle1,x,y,x^2,xy,X\rangle$。
+其 $\delta$-old 像是
+$\sigma(\delta k)^2$ 与 $\Theta(\delta k)$ 两条，类型为2和0。
+因此 K 的完整 new 部分及其类型准确是
+$$
+\begin{array}{c|cccc}
+\text{型}&0&1&3&4\\ \hline
+\text{来源}&F_6^-&xy\sigma^6&y\sigma^6&x\sigma^6 .
+\end{array}
+\tag{87}
+$$
+这里 $F_6^-=(X-2b)\sigma^6$ 的完整 new 身份已在 §8 支付。
+
+standard odd $\mathcal S_9$ 的完整 $\delta$-new 部分每种
+$\mu_6$ 类型各一维。与 (87) 配成总型0的四条分别是
+$$
+\begin{array}{c|cccc}
+\text{型}&0&5&3&2\\ \hline
+\text{来源}&\Theta_9&x^2\sigma^9&(X+4b)\sigma^9&x^2y\sigma^9 .
+\end{array}
+\tag{88}
+$$
+类型2、5在 old 空间没有竞争列。
+类型0由 (67) 给出。
+类型3的 old 列为 $\sigma(\delta a)^3=-3\delta X\sigma^9$；
+原加法公式还给
+$$
+\sum_{u\in\ker\delta}\frac1{X(P+u)}=-\frac3{4b}.
+$$
+将真正 old 因子 $\sigma(\delta a)^3$ 提出加权 trace，
+即证 $(X+4b)\sigma^9$ 为 new。它与 old 列独立，
+所以 (88) 并未留下未检查的额外类型3分量。
+
+依次定义整个双变量来源
+$$
+\begin{aligned}
+E_0(k,a)&=F_6^-(k)\Theta_9(a),\\
+E_1(k,a)&=(xy\sigma^6)(k)(x^2\sigma^9)(a),\\
+E_3(k,a)&=(y\sigma^6)(k)((X+4b)\sigma^9)(a),\\
+E_4(k,a)&=(x\sigma^6)(k)(x^2y\sigma^9)(a).
+\end{aligned}
+\tag{89}
+$$
+(87)–(88) 说明 $\mathcal C_0$ 的每个 Y 系数都落在这四个张量的全空间；
+不是只由四个首阶猜测张成。
+
+### 12.3 原 joint gluing 恰好只留下两态
+
+写一个一般元素为
+$c_0E_0+c_1E_1+c_3E_3+c_4E_4$。
+它除以真正 old 因子
+$$
+O(k,a)=\sigma(\delta k)^2\sigma(\delta a)^3
+=9\delta\,x_k^2X_a\,\sigma(k)^6\sigma(a)^9
+$$
+后，(86) 等价于对 $(k,a)\mapsto(k+S,a+S)$ 的不变性，
+其中 $S=(0,\sqrt b)$。
+这是因为 O 的目标 degree 为 $2+3=5$，恰有同一个 $\epsilon$；
+没有在取商时丢掉半特征。
+
+去掉共同 $9\delta$ 后，这个实际有理函数为
+$$
+\frac{X_a+4b}{x_k^2X_a}
+ \{-c_0(X_k-2b)y_a+c_3y_k\}
++\frac{c_1y_k+c_4y_a}{x_kx_a}.
+\tag{90}
+$$
+用 (67) 的原加法公式，连同
+$$
+y(P+S)=\sqrt b\,\frac{y(P)-3\sqrt b}{y(P)+\sqrt b},
+$$
+先比较 $a=O$ 处的 $a^{-3}$ 项，得 $c_3=6bc_0$；
+再比较 $k=O$ 处的 $k^{-1}$ 项，得 $c_4=-c_1$。
+后一次比较中 (90) 第一项只有 $k^{-2}$ 后接 $k^1$，
+没有可吸收该条件的 $k^{-1}$ 项。
+
+这两个条件也充分。对 $E_1-E_4$，
+相应有理因子为 $(y_k-y_a)/(x_kx_a)$，
+直接代入两个加法式即保持不变。
+对 $E_0+6bE_3$，置 $r=y_k/\sqrt b$、$t=y_a/\sqrt b$。
+除固定常数外，其因子为
+$$
+\frac1{x_k^2}\frac{t^2+3}{t^2-1}
+       \{-(r^2-3)t+6r\}.
+$$
+同时作 $r\mapsto(r-3)/(r+1)$、$t\mapsto(t-3)/(t+1)$ 时，
+三个因子的倍率依次为
+$(r+1)^2/4$、$-(t+1)/2$、
+$-8/((r+1)^2(t+1))$，乘积恰为1。
+因此完整允许空间准确为
+$$
+\boxed{
+\Xi_0=E_0+6bE_3,\qquad
+\Xi_1=E_1-E_4.}
+\tag{91}
+$$
+特别
+$$
+\Xi_0(0,0)=1,\qquad \Xi_1(0,0)=0,\qquad
+\Xi_1=-ka^5+k^4a^2+\text{更高总次数}.
+$$
+
+### 12.4 固定第二来源的绝对质量与整周期
+
+(91) 对每个 Y 系数成立。
+在 $k=a=0$ 取完整边际，原 R1038 来源给第一系数
+$39\delta\Phi_{126,b}$。
+故存在唯一固定来源 $G_{126,b}$ 使
+$$
+\boxed{
+\mathcal C_0(z,k,a)=
+39\delta\,\Phi_{126,b}(z)\Xi_0(k,a)
++G_{126,b}(z)\Xi_1(k,a).}
+\tag{92}
+$$
+它是原 standard even、主型、$\delta$-new 的 degree126 整 theta 来源；
+此处不为它指定椭圆曲线或新的算术零。
+
+其绝对规范无需数值提取。
+由 (85)，
+$$
+\mathcal C(0,k,a)
+=-\frac1{84}\sigma(\delta k)
+ \{-\sigma(k)^3B_3(a)+B_3(k)\sigma(a)^3\}
+ \sigma(\delta a)^2.
+$$
+总次数6的原首项准确为
+$\delta(ka^5-k^4a^2)/28$。
+结合 (91) 得
+$$
+\boxed{G_{126,b}(0)=-\frac{\delta}{28}.}
+\tag{93}
+$$
+这个质量在所有当前好位均为单位。
+
+所有来源使用同一个原普通单位周期 $\Omega$。
+更具体地，G 的整个测度可在原输入上直接定义为
+$$
+\boxed{
+\nu_G=-\frac1{120\Omega^6}\,
+Y_*\bigl(KA^5\,\mathscr P_3\rho\bigr).}
+\tag{94}
+$$
+因为 $KA^5$ 的总次数为6，原 simultaneous 主型已经使
+这个 Y 返回为主型；在 (94) 再写 $\Pi_{Y,0}$ 也不改变它。
+$120\Omega^6$ 在 $p>211$ 为单位，
+所以 (94) 支付固定 p-adic 整格与有界性，并未任取一个复周期。
+
+(89) 的各个双变量因子也是真有界来源。
+例如
+$$
+xy\sigma^6=-\Theta B_3\sigma,\quad
+y\sigma^6=-B_3\sigma^3,\quad
+x\sigma^6=\Theta\sigma^4,\quad
+x^2\sigma^9=\Theta^2\sigma^5,
+$$
+$$
+(X+4b)\sigma^9=\Theta(\delta z)\sigma^3,\qquad
+x^2y\sigma^9=-\Theta^2B_3\sigma^2.
+$$
+这些都是已付原有界测度的完整卷积；
+其用途仅是给 (91) 的张量测度与整周期，不传播中央乘积零。
+
+### 12.5 原 ray 上 G 的整个 ordinary 核与单位质量
+
+这里需要支付 degree126 的完整核心，不能只由 (93) 推单位部分非零。
+原 R531(13) 已明确固定
+$$
+g_\pi\equiv27+8\omega\pmod{64},\qquad
+g_\pi\equiv1\pmod{27\cdot7\cdot13}.
+$$
+特别原 ray 确实含模7条件。
+由模4为3、模63为1，CRT 准确给
+$$
+\boxed{g_\pi\equiv127=1+126\pmod{252}.}
+\tag{95}
+$$
+所以无需偷偷增加一个尚未支付相容性的射线条件。
+
+R471 与 R531 §2 已付原 $\Theta=x\sigma^2$ 的 whole 核
+$\beta=-\lambda$，不是由解析奇偶猜其正负。
+用原 CM 拉回
+$\Theta(3\gamma z)$，其 degree 准确为
+$2N(3\gamma)=2\cdot63=126$，半特征为 standard even。
+这个非零锚与原 ordinary 核交换。
+(95) 的完整 Heisenberg scalar 条件因而将原 standard even
+$\mathcal S_{126}$ 的核心锁定为同一个 $\beta$。
+G 的全部有限系数属于这个空间，遂有
+$$
+\nu_G|_{p\mathcal O}
+=\beta[\kappa]_*\nu_G,\qquad
+\boxed{
+J_G(0)=(1-\beta)G(0)
+=-\frac{\delta(1+\lambda)}{28}\in\mathcal O^\times.}
+\tag{96}
+$$
+$1+\lambda$ 的单位性沿原 R410 保持。
+这里的 $\kappa=p\lambda^2$、$\Omega$、单位域都未更换。
+
+若采用原归一化观察 $Y/7$，
+$$
+J_{G,7}(v)=\langle7\rangle^{-dv}J_G(v),\qquad
+\boxed{
+j_{G,7}=J'_G(0)-d\log\langle7\rangle J_G(0).}
+\tag{97}
+$$
+G 的质量非零，(97) 的第二项必须保留；
+不能沿 $\Phi_{126}$ 的质量零结论删掉它。
+
+### 12.6 对完整 companion-only mixed 域的真实两态读者
+
+令 $\mathbf c=(H,J,N,K,A)$。
+对其任意连续有界测试 h，令 $\mathscr A_3h$ 为 H/J/N
+三个原物理主型平均，其矩阵仍是 (76) 的相应三因子。
+定义
+$$
+\Lambda_i(h)=
+\int h\,d\bigl(\nu_{B_3}\otimes\nu_\Theta\otimes\nu_{\Theta_{14}}
+                   \otimes\nu_{\Xi_i}\bigr),\qquad i=0,1.
+$$
+这些测试可含全部五伴随之间的任意 unit/depth 条件；
+K/A 不必分别主型，也不必独立。
+由于 $d=p-1$ 是6的倍数，
+$1_{Y\ {\rm unit}}\langle Y\rangle^{dv}$ 本身为 Y 主型。
+只动 Y 的 $\Pi_{Y,0}$ 固定全部伴随，故可准确应用 (92)，得到
+$$
+\boxed{
+\int_{Y\ {\rm unit}}\langle Y\rangle^{dv}
+       \mathscr A_3h(\mathbf c)\,d\rho
+=39\delta J_{126,b}(v)\Lambda_0(h)+J_G(v)\Lambda_1(h).}
+\tag{98}
+$$
+若 h 已分别对 H/J/N 的 $\mu_6$ 不变，则无需再平均。
+这说明 Y 主型投影的合法顺序；它不要求将 K/A 的混合测试
+偷换成两个分别主型测试。
+
+设原 E3969 坏 Sha 假设给已付的 $J'_{126,b}(0)=0$。
+又 $J_{126,b}(0)=0$，所以 (98) 的整个条件质量和中央测度满足
+$$
+\boxed{
+\begin{aligned}
+\mathcal M(h)&=J_G(0)\Lambda_1(h),\\
+\mathcal L(h)&=J'_G(0)\Lambda_1(h),\\
+\mathcal L(h)&=\frac{J'_G(0)}{J_G(0)}\mathcal M(h).
+\end{aligned}}
+\tag{99}
+$$
+采用 $Y/7$ 时，最后的比例准确改成
+$J'_G(0)/J_G(0)-d\log\langle7\rangle$。
+这是整个实际 companion 条件测度的线性约束，
+不是把未识别的 $J'_G(0)$ 设成零。
+
+(98)–(99) 不把含 Y 的原五深网格认作 companion-only 条件，
+也不把 $Y_S,Y_T$ 的真实 logarithm 改成 $\log Y$。
+这些额外域必须按原整框架另外运输。
+但对确在本节范围内的任意两个测试，
+它已经给出准确的交叉关系
+$\mathcal L(h_1)\mathcal M(h_2)-\mathcal L(h_2)\mathcal M(h_1)=0$，
+无需预知参考中央的数值。
+
+### 12.7 两个真正的六阶交叉返回权
+
+从 (91) 的各自型和首项，整系数准确为
+$$
+[ka^5]\Xi_1=-1,\qquad [k^4a^2]\Xi_1=1,\qquad
+[k^3a^3]\Xi_0=-6b,
+$$
+其他对应态的这些系数为零。
+令 $\pi_4=(Y,H,J,N)$，并记
+$\nu_{\rm comp}=\nu_{B_3}\otimes\nu_\Theta\otimes\nu_{\Theta_{14}}$。
+包含全部 factorial 和原 $\Omega$ 后，真正四输出测度身份为
+$$
+\boxed{
+\begin{aligned}
+(\pi_4)_*(KA^5\,\mathscr P_3\rho)
+ &=-120\Omega^6\,\nu_G\otimes\nu_{\rm comp},\\
+(\pi_4)_*(K^4A^2\,\mathscr P_3\rho)
+ &=48\Omega^6\,\nu_G\otimes\nu_{\rm comp},\\
+(\pi_4)_*(K^3A^3\,\mathscr P_3\rho)
+ &=-216b\Omega^6\cdot39\delta\,
+                  \nu_{\Phi_{126,b}}\otimes\nu_{\rm comp}.
+\end{aligned}}
+\tag{100}
+$$
+所以原正次数测试
+$$
+\boxed{
+(\pi_4)_*\bigl((2KA^5+5K^4A^2)\mathscr P_3\rho\bigr)=0}
+\tag{101}
+$$
+是一个完整来源零核，不用任何算术坏假设；
+$K^3A^3$ 则是准确返回原 canonical 来源的交叉权。
+(100)–(101) 保任意真正四输出条件，
+没有将 K/A 自身的其他 cut 免费留在忘去 K/A 的等式里。
+这些实际权及 (99) 的单位质量比例，是本节给后续 mixed 补域的新增输入。
