@@ -744,3 +744,7 @@ AI-assisted GPT-6 Astra Pro：审原Gram重建、weighted N/P→HA/HB原迹、�
 - 新Nm(J−Q)单位及实际另一ell根/权参数/首一lambda6已完整纸证；不伪标另一整源已运行，不从modH8⁴推全图QQ覆盖。
 - 新065d D27余支隔离源20658B：只接未返14–45与11/e1的M5；冻acf仅取小原Gram前缀，既有14个成功返回不复现。每个子进程保存真实退出/全部原列，180秒4GiB；新workflow已记本题。
 - 四常数等权Delta非0结论已闭，Delta0整20次原域与所有其它open继续；普通ISP未完成。
+
+2026-11-27 21:34 Asia/Taipei｜Astra-ISP-8542378f-20261127
+- 0566原执行46006075459/140529457924已真实返Delta/F/Tnum及首一phi20，inner0；登记原域h=k,b=c,Delta0，未移用D非0结论。
+- 新增根工作流派发c2d6完整lambda20常数代数/自由f原八式；全部系数非单位双分支，180秒4GiB。课题外只新增本题Actions工作流。

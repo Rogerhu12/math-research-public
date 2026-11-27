@@ -1,0 +1,895 @@
+{
+  "schema": "isp-equal-value-equal-weight-Delta-zero-original-compatibility-20-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "runURL": "https://github.com/Rogerhu12/math-research-public/actions/runs/46006075459",
+  "jobId": 140529457924,
+  "execution": {
+    "elapsed_seconds": 0.08811670699999752,
+    "max_child_rss_kib": 40020,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "c1bd68ef5987d6c735b8b36e5a42711454773415",
+        "before": "02f4d2adf4ed8d3337e5d4486a5d9812e6bbf4c7",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-27T13:19:24.366401+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46006075459",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "02f4d2adf4ed8d3337e5d4486a5d9812e6bbf4c7",
+    "source_exit_code": 0,
+    "source_git_blob": "6f3b6287c9de304c1207eeb97c499e7bd7a06d2c",
+    "source_sha256": "05660258ea899a7efa008c2673a9f28141852029bbf15980a660758827fd632e",
+    "stdout_bytes": 18365,
+    "stdout_sha256": "fa1dbd93f8db8df3a0d5b5823ca1d78d07f990bcbb732dd8670f1a39e9345e26",
+    "stop_reason": null
+  },
+  "actualOutputs": [
+    {
+      "originalRowP": [
+        "Pc",
+        "Pf",
+        "bc*Q*Phi"
+      ],
+      "originalRowN": [
+        "NC",
+        "NF",
+        "bc*Q*S*xi"
+      ],
+      "fullBothCoefficientIdentitiesActuallyReturned": true,
+      "necessaryOriginalRows": [
+        "Delta",
+        "F",
+        "Tnum"
+      ],
+      "noDeltaT0PfOrNormInverse": true,
+      "oldDNonzeroTheoremNotImported": true,
+      "stage": "new_equal_value_equal_weight_Delta_zero_original_affine_compatibility",
+      "seconds": 0.005791585000004318
+    },
+    {
+      "name": "Delta",
+      "rawNumerator": {
+        "degrees_lambda_Q": [
+          20,
+          2
+        ],
+        "totalDegree": 22,
+        "terms": 55,
+        "bytes": 993,
+        "sha256": "c13c209105268ba3e12945ffa2825b1b11ce2a7031d32876fa16a082fc75762f"
+      },
+      "primitive": {
+        "degrees_lambda_Q": [
+          14,
+          2
+        ],
+        "totalDegree": 16,
+        "terms": 43,
+        "bytes": 686,
+        "sha256": "7a33688c2669612d2d0b98bf7cd63850518cddafc324b3a5ab460d76607e0e42"
+      },
+      "factorization": {
+        "content": "1/256",
+        "factors": [
+          {
+            "power": 1,
+            "profile": {
+              "degrees_lambda_Q": [
+                14,
+                2
+              ],
+              "totalDegree": 16,
+              "terms": 43,
+              "bytes": 632,
+              "sha256": "39079686f57791ad5daa0f5ca89b6bdc6f255af8798f8874cdc03bdef3fa3b81"
+            },
+            "polynomial": "256*lam^14*Q^2 - 512*lam^14*Q + 256*lam^14 - 1280*lam^13*Q^2 + 2048*lam^13*Q - 768*lam^13 + 2432*lam^12*Q^2 - 1408*lam^12*Q - 1024*lam^12 - 1408*lam^11*Q^2 - 7552*lam^11*Q + 8960*lam^11 - 2896*lam^10*Q^2 + 24384*lam^10*Q - 21600*lam^10 + 8176*lam^9*Q^2 - 38912*lam^9*Q + 30848*lam^9 - 10920*lam^8*Q^2 + 41592*lam^8*Q - 30208*lam^8 + 9888*lam^7*Q^2 - 32648*lam^7*Q + 21424*lam^7 - 6639*lam^6*Q^2 + 19578*lam^6*Q - 11208*lam^6 + 3413*lam^5*Q^2 - 9118*lam^5*Q + 4296*lam^5 - 1351*lam^4*Q^2 + 3299*lam^4*Q - 1164*lam^4 + 406*lam^3*Q^2 - 914*lam^3*Q + 204*lam^3 - 89*lam^2*Q^2 + 187*lam^2*Q - 18*lam^2 + 13*lam*Q^2 - 26*lam*Q - Q^2 + 2*Q"
+          }
+        ],
+        "fullQQProductVerified": true
+      },
+      "onlyPaidOriginalRemoval": [
+        {
+          "originalUnit": "lambda",
+          "gcdLoops": 2
+        },
+        {
+          "originalUnit": "original_P02",
+          "gcdLoops": 1
+        }
+      ],
+      "originalDeltaWasNotRemoved": true,
+      "claimExcluded": false,
+      "stage": "new_Delta_zero_equal_weight_original_compatibility_core",
+      "seconds": 0.0071717770000034875
+    },
+    {
+      "name": "F",
+      "rawNumerator": {
+        "degrees_lambda_Q": [
+          26,
+          2
+        ],
+        "totalDegree": 28,
+        "terms": 71,
+        "bytes": 1459,
+        "sha256": "f49fe9cc3d82db627be770a52e26bbbdff8cd63c0f05e749d3acd4cb80e8b7ce"
+      },
+      "primitive": {
+        "degrees_lambda_Q": [
+          18,
+          2
+        ],
+        "totalDegree": 20,
+        "terms": 53,
+        "bytes": 975,
+        "sha256": "d14b44d30da163799bd4723db5af36a20f29b948a89910743d5c646f7ae0eb98"
+      },
+      "factorization": {
+        "content": "1/18432",
+        "factors": [
+          {
+            "power": 1,
+            "profile": {
+              "degrees_lambda_Q": [
+                18,
+                2
+              ],
+              "totalDegree": 20,
+              "terms": 53,
+              "bytes": 876,
+              "sha256": "a7b6465ed1fc1203ccf8c700a32f7455259f1da677d0c1ca4704ed2bdeaf8bfb"
+            },
+            "polynomial": "18432*lam^18*Q^2 - 24576*lam^18*Q + 6144*lam^18 - 124928*lam^17*Q^2 + 151552*lam^17*Q - 26624*lam^17 + 390144*lam^16*Q^2 - 389120*lam^16*Q + 2048*lam^16 - 736256*lam^15*Q^2 + 477184*lam^15*Q + 240640*lam^15 + 907904*lam^14*Q^2 - 39936*lam^14*Q - 810240*lam^14 - 697472*lam^13*Q^2 - 932096*lam^13*Q + 1507584*lam^13 + 180288*lam^12*Q^2 + 1928576*lam^12*Q - 1921280*lam^12 + 340416*lam^11*Q^2 - 2368384*lam^11*Q + 1812352*lam^11 - 606344*lam^10*Q^2 + 2104640*lam^10*Q - 1312064*lam^10 + 582360*lam^9*Q^2 - 1441840*lam^9*Q + 740768*lam^9 - 402680*lam^8*Q^2 + 781552*lam^8*Q - 326912*lam^8 + 215324*lam^7*Q^2 - 338056*lam^7*Q + 111600*lam^7 - 91157*lam^6*Q^2 + 116268*lam^6*Q - 28704*lam^6 + 30636*lam^5*Q^2 - 31310*lam^5*Q + 5280*lam^5 - 8075*lam^4*Q^2 + 6400*lam^4*Q - 624*lam^4 + 1622*lam^3*Q^2 - 938*lam^3*Q + 36*lam^3 - 235*lam^2*Q^2 + 88*lam^2*Q + 22*lam*Q^2 - 4*lam*Q - Q^2"
+          }
+        ],
+        "fullQQProductVerified": true
+      },
+      "onlyPaidOriginalRemoval": [
+        {
+          "originalUnit": "A2",
+          "gcdLoops": 1
+        },
+        {
+          "originalUnit": "lambda",
+          "gcdLoops": 2
+        },
+        {
+          "originalUnit": "original_P02",
+          "gcdLoops": 1
+        }
+      ],
+      "originalDeltaWasNotRemoved": true,
+      "claimExcluded": false,
+      "stage": "new_Delta_zero_equal_weight_original_compatibility_core",
+      "seconds": 0.008529508000002295
+    },
+    {
+      "name": "Tnum",
+      "rawNumerator": {
+        "degrees_lambda_Q": [
+          32,
+          3
+        ],
+        "totalDegree": 35,
+        "terms": 89,
+        "bytes": 2210,
+        "sha256": "4343c92d803762bdd946d1464f175923d973719af3af8d077d6097b3c99006b7"
+      },
+      "primitive": {
+        "degrees_lambda_Q": [
+          16,
+          2
+        ],
+        "totalDegree": 18,
+        "terms": 47,
+        "bytes": 843,
+        "sha256": "0293f8bc3f16220835ebdf212d69aba399cb9a60d741a01a17ed1067c9f24ae3"
+      },
+      "factorization": {
+        "content": "1/3072",
+        "factors": [
+          {
+            "power": 1,
+            "profile": {
+              "degrees_lambda_Q": [
+                16,
+                2
+              ],
+              "totalDegree": 18,
+              "terms": 47,
+              "bytes": 755,
+              "sha256": "e79906a1bb228729c9bcb56f9b3a609b84bb4ec3d43afe8a2089d76e3bc1b899"
+            },
+            "polynomial": "3072*lam^16*Q^2 - 6144*lam^16*Q + 3072*lam^16 - 23808*lam^15*Q^2 + 47616*lam^15*Q - 23808*lam^15 + 87040*lam^14*Q^2 - 173312*lam^14*Q + 86272*lam^14 - 201088*lam^13*Q^2 + 397056*lam^13*Q - 195968*lam^13 + 330880*lam^12*Q^2 - 643584*lam^12*Q + 312704*lam^12 - 413136*lam^11*Q^2 + 783296*lam^11*Q - 370208*lam^11 + 406336*lam^10*Q^2 - 740224*lam^10*Q + 334496*lam^10 - 322096*lam^9*Q^2 + 553664*lam^9*Q - 233744*lam^9 + 208524*lam^8*Q^2 - 330888*lam^8*Q + 126560*lam^8 - 110907*lam^7*Q^2 + 158250*lam^7*Q - 52584*lam^7 + 48429*lam^6*Q^2 - 60196*lam^6*Q + 16356*lam^6 - 17227*lam^5*Q^2 + 17934*lam^5*Q - 3624*lam^5 + 4909*lam^4*Q^2 - 4068*lam^4*Q + 516*lam^4 - 1087*lam^3*Q^2 + 668*lam^3*Q - 36*lam^3 + 177*lam^2*Q^2 - 72*lam^2*Q - 19*lam*Q^2 + 4*lam*Q + Q^2"
+          }
+        ],
+        "fullQQProductVerified": true
+      },
+      "onlyPaidOriginalRemoval": [
+        {
+          "originalUnit": "A2",
+          "gcdLoops": 4
+        },
+        {
+          "originalUnit": "Q",
+          "gcdLoops": 1
+        },
+        {
+          "originalUnit": "lambda",
+          "gcdLoops": 2
+        },
+        {
+          "originalUnit": "original_P02",
+          "gcdLoops": 1
+        },
+        {
+          "originalUnit": "previous_whole_S_zero_excluded",
+          "gcdLoops": 2
+        }
+      ],
+      "originalDeltaWasNotRemoved": true,
+      "claimExcluded": false,
+      "stage": "new_Delta_zero_equal_weight_original_compatibility_core",
+      "seconds": 0.009829060000001277
+    },
+    {
+      "profile": {
+        "degrees_lambda_Q": [
+          0,
+          0
+        ],
+        "totalDegree": 0,
+        "terms": 1,
+        "bytes": 1,
+        "sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b"
+      },
+      "factorization": {
+        "content": "1",
+        "factors": [],
+        "fullQQProductVerified": true
+      },
+      "noEmptinessFromMultivariateGcd": true,
+      "claimExcluded": false,
+      "stage": "new_Delta_zero_equal_weight_original_curve_gcd",
+      "seconds": 0.009935759000001099
+    },
+    {
+      "pair": [
+        "Delta",
+        "F"
+      ],
+      "fixedOrder": 4,
+      "allOriginalRowsReconstructed": true,
+      "allLeadingZeroFibersRetained": true,
+      "claimExcluded": false,
+      "stage": "new_Delta_zero_equal_weight_fixed_QQ_projection_begin",
+      "seconds": 0.010941854000002138
+    },
+    {
+      "pair": [
+        "Delta",
+        "F"
+      ],
+      "fixedOrder": 4,
+      "rawProjection": {
+        "degree": 61,
+        "bytes": 1485,
+        "sha256": "c3486e3ae267b95179ec3ff1524cb283e69f5ddc640bfce9326b3719c1a6aa7a",
+        "coefficients": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "-1/206158430208",
+          "41/154618822656",
+          "-1655/231928233984",
+          "38849/309237645312",
+          "-334087/206158430208",
+          "5020085/309237645312",
+          "-362611141/2783138807808",
+          "295016083/347892350976",
+          "-24671688001/5566277615616",
+          "679583015/38654705664",
+          "-56644279055/1391569403904",
+          "-78414495001/927712935936",
+          "9393226969385/5566277615616",
+          "-34195872779063/2783138807808",
+          "183760241978543/2783138807808",
+          "-136597677479801/463856467968",
+          "791943851672471/695784701952",
+          "-1354060473555265/347892350976",
+          "8284226347354081/695784701952",
+          "-3799835387180501/115964116992",
+          "14138951172063139/173946175488",
+          "-3506655738782309/19327352832",
+          "31497543898983797/86973087744",
+          "-13864363654553753/21743271936",
+          "27878944134245195/28991029248",
+          "-2787525127419583/2415919104",
+          "17880453194538125/21743271936",
+          "7086980821814441/10871635968",
+          "-43167428014375937/10871635968",
+          "51826493986056203/5435817984",
+          "-1696604561735167/100663296",
+          "32616866691449401/1358954496",
+          "-9345693837281407/339738624",
+          "15713137009543973/679477248",
+          "-105778549275365/14155776",
+          "-1130439403509785/56623104",
+          "4717733278877831/84934656",
+          "-325177400527955/3538944",
+          "2551642509881321/21233664",
+          "-354260628102641/2654208",
+          "343532055579053/2654208",
+          "-294351862349581/2654208",
+          "37307607142037/442368",
+          "-18880587231541/331776",
+          "3752911603537/110592",
+          "-1471268521379/82944",
+          "18469019857/2304",
+          "-42277040807/13824",
+          "19501445321/20736",
+          "-89512133/432",
+          "89106259/5184",
+          "3268513/324",
+          "-1960717/324",
+          "411005/216",
+          "-43555/108",
+          "1570/27",
+          "-47/9",
+          "2/9"
+        ]
+      },
+      "noUncomputedOriginalCoefficientCertificateClaim": true,
+      "claimExcluded": false,
+      "stage": "new_Delta_zero_equal_weight_fixed_QQ_projection_complete",
+      "seconds": 0.011562641000004703
+    },
+    {
+      "label": "Res_Q_Delta_F",
+      "input": {
+        "degree": 26,
+        "bytes": 381,
+        "sha256": "b7ba12b679b25b64a855ba360fadde38246dd702b824d45a789d5b52714baee8",
+        "coefficients": [
+          "1/16384",
+          "-17/12288",
+          "535/36864",
+          "-6587/73728",
+          "2539/8192",
+          "-6655/73728",
+          "-231715/36864",
+          "3430561/73728",
+          "-31619159/147456",
+          "18399595/24576",
+          "-12965485/6144",
+          "60744413/12288",
+          "-360140759/36864",
+          "151238651/9216",
+          "-432960775/18432",
+          "29296877/1024",
+          "-135927121/4608",
+          "29375899/1152",
+          "-10481753/576",
+          "1337859/128",
+          "-2659303/576",
+          "407849/288",
+          "-2411/12",
+          "-1321/24",
+          "479/12",
+          "-10",
+          "1"
+        ]
+      },
+      "onlyPaidOriginalRemoval": [
+        {
+          "originalUnit": "A2",
+          "gcdLoops": 1
+        },
+        {
+          "originalUnit": "B3",
+          "gcdLoops": 6
+        },
+        {
+          "originalUnit": "lambda",
+          "gcdLoops": 4
+        },
+        {
+          "originalUnit": "original_P02",
+          "gcdLoops": 1
+        },
+        {
+          "originalUnit": "previous_whole_S_zero_excluded",
+          "gcdLoops": 5
+        }
+      ],
+      "currentCover": {
+        "degree": 26,
+        "bytes": 381,
+        "sha256": "b7ba12b679b25b64a855ba360fadde38246dd702b824d45a789d5b52714baee8",
+        "coefficients": [
+          "1/16384",
+          "-17/12288",
+          "535/36864",
+          "-6587/73728",
+          "2539/8192",
+          "-6655/73728",
+          "-231715/36864",
+          "3430561/73728",
+          "-31619159/147456",
+          "18399595/24576",
+          "-12965485/6144",
+          "60744413/12288",
+          "-360140759/36864",
+          "151238651/9216",
+          "-432960775/18432",
+          "29296877/1024",
+          "-135927121/4608",
+          "29375899/1152",
+          "-10481753/576",
+          "1337859/128",
+          "-2659303/576",
+          "407849/288",
+          "-2411/12",
+          "-1321/24",
+          "479/12",
+          "-10",
+          "1"
+        ]
+      },
+      "allUnivariateBezoutProductsVerified": true,
+      "noOriginalParameterLeadingZeroFiberDiscarded": true,
+      "claimExcluded": false,
+      "stage": "new_Delta_zero_equal_weight_actual_QQ_compatibility_cover",
+      "seconds": 0.01250897500000292
+    },
+    {
+      "pair": [
+        "Delta",
+        "Tnum"
+      ],
+      "fixedOrder": 4,
+      "allOriginalRowsReconstructed": true,
+      "allLeadingZeroFibersRetained": true,
+      "claimExcluded": false,
+      "stage": "new_Delta_zero_equal_weight_fixed_QQ_projection_begin",
+      "seconds": 0.013520470000003115
+    },
+    {
+      "pair": [
+        "Delta",
+        "Tnum"
+      ],
+      "fixedOrder": 4,
+      "rawProjection": {
+        "degree": 53,
+        "bytes": 1230,
+        "sha256": "e286a7c80935400d8e411a88a7addd58231df71ee96a2444c77042101adfd77a",
+        "coefficients": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "1/17179869184",
+          "-37/12884901888",
+          "3583/51539607552",
+          "-18841/17179869184",
+          "649735/51539607552",
+          "-17256497/154618822656",
+          "40242301/51539607552",
+          "-667387511/154618822656",
+          "2788357639/154618822656",
+          "-7109543177/154618822656",
+          "-2790475457/51539607552",
+          "238428846395/154618822656",
+          "-597124136227/51539607552",
+          "1072651644993/17179869184",
+          "-42699599349655/154618822656",
+          "54209422941517/51539607552",
+          "-68225371557935/19327352832",
+          "1634843913796349/154618822656",
+          "-2201252527275157/77309411328",
+          "5349933459011803/77309411328",
+          "-5873731352983373/38654705664",
+          "363496763124893/1207959552",
+          "-143469541878141/268435456",
+          "8131482510557419/9663676416",
+          "-922767512042681/805306368",
+          "1537612991350171/1207959552",
+          "-1139229705734099/1207959552",
+          "-105513263280347/603979776",
+          "1412640875599079/603979776",
+          "-1681935618877909/301989888",
+          "1437471472748659/150994944",
+          "-21203008863767/1572864",
+          "104191065527023/6291456",
+          "-18876116396407/1048576",
+          "82453993020107/4718592",
+          "-35879189802575/2359296",
+          "9339639609295/786432",
+          "-2451049757807/294912",
+          "3064960913141/589824",
+          "-852005069449/294912",
+          "11624681179/8192",
+          "-11253673187/18432",
+          "233025123/1024",
+          "-444847433/6144",
+          "59228953/3072",
+          "-2140267/512",
+          "181413/256",
+          "-11271/128",
+          "57/8",
+          "-9/32"
+        ]
+      },
+      "noUncomputedOriginalCoefficientCertificateClaim": true,
+      "claimExcluded": false,
+      "stage": "new_Delta_zero_equal_weight_fixed_QQ_projection_complete",
+      "seconds": 0.014014160999998637
+    },
+    {
+      "label": "Res_Q_Delta_Tnum",
+      "input": {
+        "degree": 23,
+        "bytes": 324,
+        "sha256": "d3a768b093ba0d4423b3038beca0d9616b0140d5cae4c83a59c3efcd46500a72",
+        "coefficients": [
+          "1/55296",
+          "-35/82944",
+          "185/41472",
+          "-497/18432",
+          "2401/27648",
+          "2737/82944",
+          "-19805/9216",
+          "5497/384",
+          "-10171447/165888",
+          "1376543/6912",
+          "-43070749/82944",
+          "61717951/55296",
+          "-166255315/82944",
+          "125506315/41472",
+          "-79755553/20736",
+          "1329671/324",
+          "-12623479/3456",
+          "515221/192",
+          "-1384255/864",
+          "27355/36",
+          "-6635/24",
+          "291/4",
+          "-37/3",
+          "1"
+        ]
+      },
+      "onlyPaidOriginalRemoval": [
+        {
+          "originalUnit": "B3",
+          "gcdLoops": 6
+        },
+        {
+          "originalUnit": "lambda",
+          "gcdLoops": 4
+        },
+        {
+          "originalUnit": "original_P02",
+          "gcdLoops": 1
+        },
+        {
+          "originalUnit": "previous_whole_S_zero_excluded",
+          "gcdLoops": 2
+        }
+      ],
+      "currentCover": {
+        "degree": 20,
+        "bytes": 252,
+        "sha256": "611a05de6351205acf2f03a4d8155d14c5cd0701f90a4c00fe6607cac2b3fbcc",
+        "coefficients": [
+          "-1/6144",
+          "13/4608",
+          "-49/2304",
+          "245/3072",
+          "-23/1024",
+          "-14563/9216",
+          "16661/1536",
+          "-138221/3072",
+          "2534173/18432",
+          "-1013449/3072",
+          "2945831/4608",
+          "-259417/256",
+          "379943/288",
+          "-1621309/1152",
+          "703135/576",
+          "-244549/288",
+          "1855/4",
+          "-4619/24",
+          "689/12",
+          "-11",
+          "1"
+        ]
+      },
+      "allUnivariateBezoutProductsVerified": true,
+      "noOriginalParameterLeadingZeroFiberDiscarded": true,
+      "claimExcluded": false,
+      "stage": "new_Delta_zero_equal_weight_actual_QQ_compatibility_cover",
+      "seconds": 0.014666767000001357
+    },
+    {
+      "pair": [
+        "F",
+        "Tnum"
+      ],
+      "fixedOrder": 4,
+      "allOriginalRowsReconstructed": true,
+      "allLeadingZeroFibersRetained": true,
+      "claimExcluded": false,
+      "stage": "new_Delta_zero_equal_weight_fixed_QQ_projection_begin",
+      "seconds": 0.015541638000001967
+    },
+    {
+      "pair": [
+        "F",
+        "Tnum"
+      ],
+      "fixedOrder": 4,
+      "rawProjection": {
+        "degree": 63,
+        "bytes": 1609,
+        "sha256": "649ff03b303bf1d816ee372d4f1094a53c54557c1b35d181b6e00132e58af9d0",
+        "coefficients": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "-1/5566277615616",
+          "169/16698832846848",
+          "-18683/66795331387392",
+          "168425/33397665693696",
+          "-739943/11132555231232",
+          "68041303/100192997081088",
+          "-1112691827/200385994162176",
+          "1844321843/50096498540544",
+          "-9838188055/50096498540544",
+          "5018030035/6262062317568",
+          "-133415728661/66795331387392",
+          "-267833469251/100192997081088",
+          "7056611737073/100192997081088",
+          "-53322543691397/100192997081088",
+          "194576451372733/66795331387392",
+          "-329622647251783/25048249270272",
+          "2574855258750719/50096498540544",
+          "-740773743706133/4174708211712",
+          "3050095088580481/5566277615616",
+          "-76315599558435653/50096498540544",
+          "95763567305176327/25048249270272",
+          "-18071200432215077/2087354105856",
+          "220614079322068861/12524124635136",
+          "-133133811863253097/4174708211712",
+          "39400978601412647/782757789696",
+          "-207097956716263289/3131031158784",
+          "49333632446242627/782757789696",
+          "-7069590261534271/521838526464",
+          "-10099468602524075/86973087744",
+          "45822630533462033/130459631616",
+          "-133832555776024549/195689447424",
+          "11390210548696699/10871635968",
+          "-128029579138441087/97844723712",
+          "31524292819930849/24461180928",
+          "-20301685736937353/24461180928",
+          "-1536948928126499/12230590464",
+          "4508402761841761/3057647616",
+          "-4514421794524559/1528823808",
+          "3222276308215301/764411904",
+          "-39496977377027/7962624",
+          "1927501630717933/382205952",
+          "-287938567788319/63700992",
+          "448553647355/124416",
+          "-122729271515833/47775744",
+          "9770714238373/5971968",
+          "-3701489395403/3981312",
+          "29210316707/62208",
+          "-8690384759/41472",
+          "40790322119/497664",
+          "-20750589719/746496",
+          "334130005/41472",
+          "-121741837/62208",
+          "6028295/15552",
+          "-155857/2592",
+          "17755/2592",
+          "-55/108",
+          "1/54"
+        ]
+      },
+      "noUncomputedOriginalCoefficientCertificateClaim": true,
+      "claimExcluded": false,
+      "stage": "new_Delta_zero_equal_weight_fixed_QQ_projection_complete",
+      "seconds": 0.01610341500000345
+    },
+    {
+      "label": "Res_Q_F_Tnum",
+      "input": {
+        "degree": 32,
+        "bytes": 571,
+        "sha256": "a113e94c46047536b96db09ba7e6d575e9ba5079933cfc0d5c29d848ca92e36e",
+        "coefficients": [
+          "1/2359296",
+          "-97/7077888",
+          "5891/28311552",
+          "-27505/14155776",
+          "14237/1179648",
+          "-675157/14155776",
+          "950729/14155776",
+          "8746627/14155776",
+          "-4800671/786432",
+          "467482217/14155776",
+          "-3755348737/28311552",
+          "168350447/393216",
+          "-676036729/589824",
+          "18241438949/7077888",
+          "-239286851/49152",
+          "17971138427/2359296",
+          "-33488048537/3538944",
+          "2398910621/294912",
+          "-1236949901/884736",
+          "-830836367/73728",
+          "448262169/16384",
+          "-9234125465/221184",
+          "1359004171/27648",
+          "-434700725/9216",
+          "1038825659/27648",
+          "-172328875/6912",
+          "31578805/2304",
+          "-7097489/1152",
+          "1275559/576",
+          "-19643/32",
+          "5923/48",
+          "-16",
+          "1"
+        ]
+      },
+      "onlyPaidOriginalRemoval": [
+        {
+          "originalUnit": "A2",
+          "gcdLoops": 1
+        },
+        {
+          "originalUnit": "B3",
+          "gcdLoops": 5
+        },
+        {
+          "originalUnit": "lambda",
+          "gcdLoops": 7
+        },
+        {
+          "originalUnit": "original_P02",
+          "gcdLoops": 1
+        },
+        {
+          "originalUnit": "previous_whole_S_zero_excluded",
+          "gcdLoops": 2
+        }
+      ],
+      "currentCover": {
+        "degree": 20,
+        "bytes": 252,
+        "sha256": "611a05de6351205acf2f03a4d8155d14c5cd0701f90a4c00fe6607cac2b3fbcc",
+        "coefficients": [
+          "-1/6144",
+          "13/4608",
+          "-49/2304",
+          "245/3072",
+          "-23/1024",
+          "-14563/9216",
+          "16661/1536",
+          "-138221/3072",
+          "2534173/18432",
+          "-1013449/3072",
+          "2945831/4608",
+          "-259417/256",
+          "379943/288",
+          "-1621309/1152",
+          "703135/576",
+          "-244549/288",
+          "1855/4",
+          "-4619/24",
+          "689/12",
+          "-11",
+          "1"
+        ]
+      },
+      "allUnivariateBezoutProductsVerified": true,
+      "noOriginalParameterLeadingZeroFiberDiscarded": true,
+      "claimExcluded": false,
+      "stage": "new_Delta_zero_equal_weight_actual_QQ_compatibility_cover",
+      "seconds": 0.01686007500000386
+    },
+    {
+      "sourceSHA256": "05660258ea899a7efa008c2673a9f28141852029bbf15980a660758827fd632e",
+      "actualOriginalDomain": "h=k!=1,b=c,Delta=0",
+      "lambdaCover": {
+        "degree": 20,
+        "bytes": 252,
+        "sha256": "611a05de6351205acf2f03a4d8155d14c5cd0701f90a4c00fe6607cac2b3fbcc",
+        "coefficients": [
+          "-1/6144",
+          "13/4608",
+          "-49/2304",
+          "245/3072",
+          "-23/1024",
+          "-14563/9216",
+          "16661/1536",
+          "-138221/3072",
+          "2534173/18432",
+          "-1013449/3072",
+          "2945831/4608",
+          "-259417/256",
+          "379943/288",
+          "-1621309/1152",
+          "703135/576",
+          "-244549/288",
+          "1855/4",
+          "-4619/24",
+          "689/12",
+          "-11",
+          "1"
+        ]
+      },
+      "fullQQFactors": [
+        {
+          "power": 1,
+          "profile": {
+            "degree": 20,
+            "bytes": 199,
+            "sha256": "bcb9f71ec6331465d70af44bdc090b78740c5ab2dfac45f19f5ddea8af3e69b5",
+            "coefficients": [
+              "-3",
+              "52",
+              "-392",
+              "1470",
+              "-414",
+              "-29126",
+              "199932",
+              "-829326",
+              "2534173",
+              "-6080694",
+              "11783324",
+              "-18678024",
+              "24316352",
+              "-25940944",
+              "22500320",
+              "-15651136",
+              "8547840",
+              "-3547392",
+              "1058304",
+              "-202752",
+              "18432"
+            ]
+          }
+        }
+      ],
+      "actualProjectionNames": [
+        "Res_Q_Delta_F",
+        "Res_Q_Delta_Tnum",
+        "Res_Q_F_Tnum"
+      ],
+      "allOriginalAffineHeadsRetained": true,
+      "entireOriginalDeltaZeroEqualWeightExcluded": false,
+      "fullMeanAndHighestReturnStillNeededIfNonconstantCover": true,
+      "noFullOriginalFinitePointExclusionUnlessUnitReturned": true,
+      "ordinaryISPClaim": false,
+      "peakRssKiB": 39276,
+      "stage": "new_Delta_zero_equal_weight_original_compatibility_input_complete",
+      "seconds": 0.017395393000001036
+    }
+  ]
+}

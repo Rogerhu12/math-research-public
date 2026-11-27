@@ -4,7 +4,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-D27-finite-native-failure-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-equal-value-Delta-zero-twenty-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -182,7 +182,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 **[整个一般ell=0已闭](results/R150-appendix-unit211-general-ell-zero-complete-original-exclusion.md)，全局可付ell。** 完整来源/零域/失败身份保总定理及快照；T0=0和J=Q也已整闭，继续当前原值输入，不重放旧支。
 
-**[Delta0 h1/k1整λ半/6219基点](results/R150-appendix-unit211-Delta-zero-h-one-lambda-half-exclusion-and-6219-cover.md)、[h=k首一b4](results/R150-appendix-unit211-equal-singleton-values-full-original-Gram-and-Delta-quartic.md)与[完整八原权不变量](results/R150-appendix-unit211-equal-singleton-invariant-weight-full-original-system.md)保留；[h=k,b=c,Delta非0整支新闭](results/R150-appendix-unit211-equal-singleton-equal-weight-Delta-nonzero-complete-exclusion.md)。** f5e真1.055秒/45488KiB/exit0，96覆四完整QQ因子返Q−1、Q−1、1、两原Delta因子；141次真系数逆/94次Q除法全返，未用旧D非0等权结论。仅此Delta非0图可付u−ell；新0566直接在等权Delta0上保两原affine行并取Delta/F/Tnum必要式，全部头零保留，180秒4GiB。Delta0、不等权/其它原面和物理第五列继续。
+**[Delta0 h1/k1≤6219](results/R150-appendix-unit211-Delta-zero-h-one-lambda-half-exclusion-and-6219-cover.md)与[h=k,b=c,Delta非0全闭](results/R150-appendix-unit211-equal-singleton-equal-weight-Delta-nonzero-complete-exclusion.md)保留；[等权Delta0原相容phi20](results/R150-appendix-unit211-equal-singleton-equal-weight-Delta-zero-original-compatibility-20-cover.md)新已付。** 0566真0.088秒/40020KiB/exit0；Delta/F/Tnum三个固定4阶QQ结式合首一20次，不除Delta/不借旧D单位。新c2d6在完整QQ常数代数保双分支，先原Q相容再保自由f返回全部原八式，180秒4GiB。等权Delta0、不等权/其它原面和物理第五列继续；原首一b4/全八权不变量与f5e闭非零图的全部来源保本次完整快照。
 
 [Haar解析理想像](results/R12-appendix-analytic-ideal-rosenblum-images-and-forced-source-divergence.md)只给同g循环闭包，有限Sobolev来源球距g正、逼近源范数发散；[新非对称双幂的精确局部分类](results/R12-appendix-local-asymmetric-polynomial-orbits-and-actual-haar-source-exclusion.md)进一步排除原Haar所有非常数解析单位化及其伴随的非零多项式增长来源。完整同向量恒等式和局部有限阶分布证明已付；这些限制不涵盖紧扰动或负整数边界。Rosenblum实际零点/ideal来源、真实Green范围、非循环g及未知闭根域继续。
 
