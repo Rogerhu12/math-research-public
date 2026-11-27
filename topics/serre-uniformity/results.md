@@ -1,5 +1,7 @@
 # 结论索引
 
+- **R1127（已证明）**：[R1127](results/R1127-original-Gaussian-irregular-complement-and-affine-cuspidal-label.md)关闭一个真实Gaussian标签分支：p4k+3且p|B_(p−3)时，原V中χ=ω²准确出现且B₂恒good；原完整coarse标签是斜率−aβ₀⁴λ²/(20bχ)单位的一次式，故每个固定候选在该coarse线上至多一盘。只付跨盘注入，不付盘内唯一；剩余Gaussian标签问题限p∤B_(p−3)，其H_p与其它good mask仍保。
+
 - **R1126（已证明）**：[R1126](results/R1126-original-X108-complete-CM-Raynaud-pairing.md)付原X108六CM输入的全部十五对Raynaud配对，目标保十维；真实R/I/σ和p逆半线性准确给A/S/T三有限和及完整表。原S_n仍为gd/uv通道；六阶Pfaffian恒零且不含S，不能从此或非CM普通性推出S单位。后继沿真实gd=c²、uv=h²及primitive求高阶约束。
 
 - **R1125（已证明，固定47完整分类）**：[原X_ns^+(47)的全部有理点](results/R1125-original-full47-rational-point-classification.md)：恰八个已列有理CM点。原235盘与完整全局标签、283/4513同一点转移、全部非q项、73维原整格/高度、16个规范局部值及八盘全尾唯一性完整接合；不加整j、固定二次域或proper inertia假设。一般素数绝对一致性仍OPEN，继续open的下一未解分支。

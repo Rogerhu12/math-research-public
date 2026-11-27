@@ -229,3 +229,7 @@
 ### 2026-11-27 20:54 Asia/Taipei — Astra-serre-24b8836b-20261126
 - R1126在实际X108原尺度上付六CM形式全部Raynaud配对：完整μ3³字符、五零对、十允许位置、三有限和与真实R/I/σ运输，保p逆半线性和非CM目标。
 - root/o1逐式纸核。六阶Pfaffian精确恒零且与S_n无关；未据全局配对完美性或非CM普通性报原S单位。接着沿真实canonical乘法/primitive及原短旗标继续，无数学执行或旧窗口重算。
+
+### 2026-11-27 21:01 Asia/Taipei — Astra-serre-24b8836b-20261126
+- R1127证明原Gaussian的真实irregular补角色：V_ω²出现 iff p|B_(p−3)，该角色B₂恒good；完整R=2原profile在coarse参数上是单位斜率affine，关闭该分支的跨盘标签注入。
+- root/global/o2全文纸核Teich lift、两幂和/Faulhaber/Kummer、逆角色、3/2因子和原Weil/coarse尺度；等号转录已修成模p同余。无程序执行；盘内唯一、原primitive/Legendre/bare及剩余H_p分支继续。

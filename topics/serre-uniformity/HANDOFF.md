@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。本轮已部分克隆并真实pull main，读两README/H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则读至36cf1ed2。不重做已登记结论或窗口。
 
-**公开两README已读提交：f3d7a4daa1c5bd3c4e0f72e128545a16fb617f09**（2026-11-27 20:54 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
+**公开两README已读提交：3c41372e15023e933f244ee4674bfd9b9e1f41a5**（2026-11-27 21:01 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
 
 已真实部分克隆/pull；20:10再试pull仍报无可用执行环境，shell未运行；按根规矩8用连接器小文本同步、读两README差异、带expected_sha非force提交，恢复后立即pull --rebase。拒绝即同步重基再推至成功。令牌仅CLI；根维护main/H/open/index/log，子研究独立稿，每条结论立即推。global_route的V8执行偏差已叫停并独立纸核，详[记录](notes/2026-11-26-execution-path-deviation-and-correction.md)，其输出不作证明/合规窗口。
 
@@ -37,6 +37,8 @@ R1090/93、R1096/1101与R1102付同一原73维Hodge/MW整格、对数满格及�
 旧Miller run45973334832/job140418866621、q² run45977769585/job140433713916仍可能在途；原所需输入已完整取得，它们不是依赖，不续算或补跑。若后成仅消费真实记录，不将相同数值再登记成新结论。
 
 ## O1：原同一保留标签与 Gaussian 强制切向
+
+[R1127](results/R1127-original-Gaussian-irregular-complement-and-affine-cuspidal-label.md)关闭一个真实Gaussian标签分支：p4k+3且p|B_(p−3)时，原V中χ=ω²准确出现且B₂恒good；原完整coarse标签是斜率−aβ₀⁴λ²/(20bχ)单位的一次式，故每个固定候选在该coarse线上至多一盘。只付跨盘注入，不付盘内唯一；剩余Gaussian标签问题限p∤B_(p−3)，其H_p与其它good mask仍保。
 
 [R1126](results/R1126-original-X108-complete-CM-Raynaud-pairing.md)付原X108六CM输入的全部十五对Raynaud配对，目标保十维；真实R/I/σ和p逆半线性准确给A/S/T三有限和及完整表。原S_n仍为gd/uv通道；六阶Pfaffian恒零且不含S，不能从此或非CM普通性推出S单位。后继沿真实gd=c²、uv=h²及primitive求高阶约束。
 
