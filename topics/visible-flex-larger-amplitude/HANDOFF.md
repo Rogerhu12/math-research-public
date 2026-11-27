@@ -6,7 +6,7 @@
 
 ## 规则和全部历史
 
-root最后真实pull/rebase：`eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21 UTC执行环境失联，恢复即真拉取。云核至`f36f0d1dc38bbdaa26055f8ba5e9907b04b60401`（非pull），双README SHA `581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102` / `3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d`无变。每次真实pull后核差异、至少每小时一次；活10每次pull记末块。私库QUEUE进行中已推`e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`。
+root最后真实pull/rebase：`eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21 UTC执行环境失联，恢复即真拉取。云核至`8df8765e6c16ac642c1d2e15d0cea4f5ce0850c7`（非pull），双README SHA `581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102` / `3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d`无变。每次真实pull后核差异、至少每小时一次；活10每次pull记末块。私库QUEUE进行中已推`e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`。
 
 科学只本公开仓库Actions；root唯一ref写者，完整结论即普通推；不强推，NFF真终端立即rebase循环。无终端时云普通HEAD保全合并，不冒pull。raw仅runner/scratch，不入Git/Release/artifact、不改名输入；保存完整源、全参数、run/hash。题≤200MB、文件<5MB、MD<100KB、H<10KB、open<30KB；先metadata，不整读≥100KB。令牌仅瞬时CLI。根12禁止独立审核/冻结/AST/fixture/重跑等新门，实际全数学与原完成条件不减。
 
@@ -40,7 +40,7 @@ root最后真实pull/rebase：`eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21
 
 R248只活动像；固定p4需共同R650或全部mixed pairs。均值J≠normal Cu，中央Fss≠K。完整source/参数/全raw端口/signed-u/Cartesian帽/Θ0共轭保固定前H/open及[R716](results/R716-asymmetric-fixed-caps-and-centred-volume-moment.md)。共同正A不是变更g的仿射操作；全upper/lower/缝/两帽和各phase、全变量与准确六jet不可省。
 
-10完整normal/continuous费用、f7a closed-phase/grip、0aa/920全矩、mesh/t以及N4096/J1845/M320全族均已刊未实跑，全部完整入口在固定前H/open。原e711精化计划不能自动冒新Fejér同g精化。全13成员真final.npz/完整report、独立未标记外管、R716全V/m/Q/正V和非零BeffA2、共同全域β/support/K、整像Hausdorff和working字费用仍欠。
+[新Fejér六准确源/两全参数](notes/2026-11-27-fixed-fejer-complete-normal-sixjet-and-continuous-geometry-fees.md)已刊未跑：normal1a915/geometryfcae/bridgeff77，全部1024角胞/32stage/径向/六jet，原38/8argv和36/44selectors全保，仅加4范数读数。10原f7a closed、0aa/920全矩、mesh/t及N4096/J1845/M320完整族仍保固定前H/open，不能冒新目标结果。原e711精化计划不能自动冒新Fejér同g精化。全13成员真final.npz/完整report、独立未标记外管、R716全V/m/Q/正V和非零BeffA2、共同全域β/support/K、整像Hausdorff和working字费用仍欠。
 
 R717给整像目标全盒min（含z及两帽）和同完整leaf位置盒的D≤2max|F|；后者不把最宽core与最高帽虚拼。都是条件界/实现接口，未有数值。固定握持盘内点/diam.9条件已保，仍需真实D来付.2D；整像.2、含反射δE、全t reach、metric及真实精化未付。继续实际完整求解，不停在这些条件结果上。
 
