@@ -1,0 +1,141 @@
+{
+  "date": "2026-11-27 Asia/Taipei",
+  "status": "All listed individual exact computations completed in V8. The assembled reconstruction source was syntax-checked, not executed end-to-end.",
+  "reconstruction_source_sha256": "3ded7c457fc3fd11f1acfc7cef0939eab84b6c1eee2515144f1f04046f4c65bd",
+  "original_homogeneous_rows_sha256": "150c26f7a09a27ff66da38fee5c46337c3dc5436fc79041caf77c3b7c630d2ad",
+  "original_minor_rows_sha256": "5709509efc96a035ad0894b67f431823a9d46c3d47ff63367b2ae024f8ca0d68",
+  "original_alternative_minor_A_sha256": "ad5dc95fa068cfaab20403bf5e2c7bd80682374ec9c91b10e04b8b20e890c330",
+  "full_integer_CRT": [
+    {
+      "name": "N",
+      "degree": 158,
+      "prior_degree_bound": 171,
+      "prime_count": 50,
+      "sha256": "b49d2ba658c824c46043b8e21cf411804f7b0de303ff036daaccefe5448ac79b",
+      "strict_modulus_gt_2bound": true
+    },
+    {
+      "name": "P",
+      "degree": 170,
+      "prior_degree_bound": 183,
+      "prime_count": 51,
+      "sha256": "272c45be8ad7557b009fc10c5e40d3cbf6d04731dc74a7e33f76a56e2b033efa",
+      "strict_modulus_gt_2bound": true
+    }
+  ],
+  "exact_factor_divisions": {
+    "N": [
+      [
+        "2ell2-4ell+1",
+        19
+      ],
+      [
+        "ell",
+        6
+      ],
+      [
+        "2ell-1",
+        6
+      ],
+      [
+        "ell-1",
+        4
+      ]
+    ],
+    "P": [
+      [
+        "2ell2-4ell+1",
+        24
+      ],
+      [
+        "2ell-1",
+        6
+      ],
+      [
+        "ell-1",
+        4
+      ]
+    ],
+    "sha256": "acd534401641595ea3906a869c735dccb12a1e16cd079af54a655ba8f91caa11"
+  },
+  "remaining_cover_degrees": [
+    104,
+    112
+  ],
+  "prime": 1009,
+  "remaining_leading_coefficients": [
+    822,
+    635
+  ],
+  "first_modular_gcd": [
+    741,
+    378,
+    793,
+    410,
+    123,
+    323,
+    830,
+    182,
+    650,
+    378,
+    480,
+    30,
+    1007,
+    1005,
+    1
+  ],
+  "original_third_full_Sylvester": {
+    "size": 15,
+    "fixed_y_degrees": [
+      6,
+      9
+    ],
+    "prior_parameter_degree_bound": 189,
+    "actual_modular_degree": 177,
+    "sha256": "bda58f8508fd5973c0dad49a26939b20454250db01718b20f01a16749a390c06"
+  },
+  "actual_three_term_Bezout": {
+    "degrees": [
+      273,
+      265,
+      13
+    ],
+    "return": [
+      1
+    ],
+    "sha256": "391c79ec652df8eac012688539363df4ca9935db969366944780f01e2f012b41"
+  },
+  "rational_fibre_v_nonzero": {
+    "raw_rows_sha256": "a1ffa018ad1ead4d159730ccaa018cf74609f1c92429d2a4cd023d6e77ef4c9a",
+    "qq_gcd": [
+      1
+    ],
+    "bezout": {
+      "g": [
+        "1"
+      ],
+      "s": [
+        "-12971/35401",
+        "-17668/35401",
+        "-47544/35401",
+        "59030/35401",
+        "-23568/35401",
+        "-88/35401"
+      ],
+      "t": [
+        "-29454/35401",
+        "22/35401",
+        "11894/35401",
+        "44/35401"
+      ]
+    }
+  },
+  "abandoned_attempt": {
+    "cell": "g4:321",
+    "operation": "Unstripped degree 158/170 QQ integer PRS",
+    "outcome": "Terminated before any resultant gcd was returned; not used as evidence. Replaced by paid QQ factor divisions and the actual complete modular triple Bezout above."
+  },
+  "conclusion_scope": "Original general LS on Q=1-u, u=1/2; no claim to close the remaining Q=1-u branch or the ordinary ISP.",
+  "reconstruction_source_git_blob": "0ba982c457a41521d05bae3f510086efc3578d2d",
+  "proof_git_blob": "94c260a32631bda3072460cf929dd38976b25a59"
+}
