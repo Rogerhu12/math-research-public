@@ -4,7 +4,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-entire-D27-exclusion-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-Phi-centered-value-collision-closed-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -186,7 +186,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 [Haar解析理想像](results/R12-appendix-analytic-ideal-rosenblum-images-and-forced-source-divergence.md)只给同g循环闭包，有限Sobolev来源球距g正、逼近源范数发散；[新非对称双幂的精确局部分类](results/R12-appendix-local-asymmetric-polynomial-orbits-and-actual-haar-source-exclusion.md)进一步排除原Haar所有非常数解析单位化及其伴随的非零多项式增长来源。完整同向量恒等式和局部有限阶分布证明已付；这些限制不涵盖紧扰动或负整数边界。Rosenblum实际零点/ideal来源、真实Green范围、非循环g及未知闭根域继续。
 
-**[Phi0/h1≤32基点与四norm单位](results/R150-appendix-unit211-Phi-zero-rank-one-value-32-point-cover-and-four-norm-units.md)、[T0范数原像](results/R150-appendix-unit211-Phi-zero-rank-one-value-T0-norm-H8-input-and-actual-other-root-chart.md)保留；[整H8原复纤维全闭](results/R150-appendix-unit211-Phi-zero-rank-one-value-H8-complete-original-fiber-exclusion.md)。** 883真7.019秒/62952KiB/exit0，完整QQ(lambda)/H8中rho2/ell2维4，八原式乘全基32生成元的理想rank2；实际同点单位U²全标签乘回而排所有复点，保非约化。新4e76只作必要的原27阶H8局部QQ赋值与真余式Gauss，120秒1GiB；不从模H8⁴猜QQ重数。845三新投影无增益冻结。h1尚待最后QQ重数/余式证书，k1只交换，全Phi0的zn非0另续新rho二次原图。
+**[旧D≠0值图的Phi0∩zn0整支全闭](results/R150-appendix-unit211-Phi-zero-complete-centered-value-collision-exclusion.md)。** 4e76真4.659秒/83124KiB/exit0，原27阶矩阵完整216维QQ核三轮给H8精确4重；九已闭真实因子总Q908，首一真余1037与原P2005完整保度模Bézout1，原所有次数降阶纤维保全。zn=D(h−1)(k−1)及原BC交换覆盖h1/k1；现在仅该Phi0余图付zn，不外推D0碰撞。新8fd换rho二次头零主曲线rho=−d、ell=1+2d²、u=1+d²、Q=1−d²，在原首一T6上完整八式/同点单位Cramer，120秒1GiB；头零例外d=±1/2、ell3/2保整支。一般头非零Phi图和这些新原返回继续。
 
 **[真闭proper单链U](results/R271-appendix-proper-single-chain-restriction-and-common-trace-class-intertwiner-range.md)与[目标U全部交织/交换代数表示](results/R271-appendix-single-chain-complete-intertwiners-and-bounded-commutant-representation.md)已付。** 目标U的全部有界Z满足T_UZ=ZB恰Z=L_y，自动迹类；rho(D)=Σ〈Du_n,e0〉Bⁿ有界单射保单位、rho(T_U)=B且DL_y=L_y rho(D)，非零交换子像稠密。实际T*y=Sf给L_yT=T_UL_f、L_f kerL_y⊂Ce0；残量零恰f∈cyclic_S(y)，非零y无有界后因子。第二Green仍只消真空行，全交换子两项保留。旧同G全尺度/平滑/闭值域、cut通量、U∩M=Ce0、全部非零L_y共同闭包像与反向交织零保本次完整快照。[原B及每dyadic幂、每单个位均不保持U](results/R271-appendix-single-chain-actual-dyadic-shift-noninvariance.md)新已证明：rho的三次费用形式反解与完整N/Y四次主项矛盾；dyadic尾保U将经有限头解析逆迫B保U。正角、同w费用/G保N/范围核心和N=M继续。
 

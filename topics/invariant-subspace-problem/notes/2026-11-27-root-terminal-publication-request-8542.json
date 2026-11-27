@@ -1,16 +1,17 @@
 {
-  "message": "ISP: preserve rational source assembly failure and run the complete original parameter input",
-  "parentCommit": "04575baa9f6841e1eb9e805098f117a579396d61",
+  "message": "ISP: exclude the complete original Phi zero centered-value collision face",
+  "parentCommit": "936a740199284fefb3c14d9fe637919bbbf234bc",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-equal-singleton-T0-Delta-zero-first-assembly-failure-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-equal-singleton-T0-Delta-zero-first-assembly-failure-receipt-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-equal-singleton-T0-Delta-zero-complete-original-rational-return-8542.py",
-    ".github/workflows/invariant-subspace-equal-singleton-t-zero-delta-zero-complete-rational-return-8542.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-27-handoff-before-collision-rational-original-return-8542.md",
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-Phi-zero-complete-centered-value-collision-exclusion.md",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-complete-centered-value-collision-execution-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-rho-head-zero-main-original-unit-return-8542.py",
+    ".github/workflows/invariant-subspace-phi-rho-head-zero-main-original-unit-8542.yml",
+    "topics/invariant-subspace-problem/notes/2026-11-27-handoff-before-Phi-centered-value-collision-closed-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-27-open-before-Phi-centered-value-collision-closed-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -20,6 +21,6 @@
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
   "dispatchWorkflows": [
-    "invariant-subspace-equal-singleton-t-zero-delta-zero-complete-rational-return-8542.yml"
+    "invariant-subspace-phi-rho-head-zero-main-original-unit-8542.yml"
   ]
 }
