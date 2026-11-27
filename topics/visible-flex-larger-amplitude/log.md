@@ -494,3 +494,7 @@ R716新增索引漏项补齐及open7真状态同步：R716已先公开完整证�
 ## 2026-11-27 06:00 UTC — Astra-larger-e4e2a2bf-20261126
 
 - [N4096解析7c完整入口](notes/2026-11-27-independent-chart-analytic-J3-N4096-complete-entry.md)：修后17体/9构造体/三完整ready，root真全再生exit0及64源核；原全变量/32段/13成员/uncappedtyped保，N2048参考与4096观察分离。C1来源等号真修、07观察时刻与frame纯读层级纠正；未准入/无数值，继续09实际新目标适配。
+
+## 2026-11-27 06:05 UTC — Astra-larger-e4e2a2bf-20261126
+
+- [第29次旧派生清单保留](notes/2026-11-27-legacy-current576-snapshot-retention-29.md)：只移八snapshot清单1369660B，完整原95/73/61请求/spec/源/其余sibling保；56来源54同/两原发布器从原commit实取核SHA，固定612d82恢复。完整captureCurrent和全部差异已读，无science/raw改名；H以固定完整历史压缩，继续09完整场。
