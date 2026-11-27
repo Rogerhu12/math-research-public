@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [一般 LS 的两个原 t 六次关系与十八生成元开图](results/R150-appendix-unit211-general-LS-two-original-t-six-relations-and-eighteen-generators.md)：两固定三列cofactor真回原关系，首项非零处至多18生成；678/827项首项整零域保留，未宣判空。
+
 - [一般 LS 的真实三生成元乘法与完整原行](results/R150-appendix-unit211-general-LS-three-generator-actual-multiplication-and-full-original-rows.md)：六乘法列、全部原 N/P、同点物理 D 及两歧义均精确返回；三元只作 A[t] 生成元，不假自由或有限参数纤维。
 
 - [全余 W 的四个完整原 N/P 固定四乘四余子式](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-full-NP-fixed-four-by-four-original-cofactors.md)：同 Y 四列 cofactor 与原五行全部乘回，四个 w 九次必要约束保所有未付首项；附实际运行和新 monic Y 输入。

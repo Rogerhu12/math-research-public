@@ -182,6 +182,6 @@ Deddens自伴MASA、全部可分重数有限成本投影、全2-adic平移距离
 
 **[整个一般ell=0原支已闭](results/R150-appendix-unit211-general-ell-zero-complete-original-exclusion.md)，一般余图可付ell。** 全三头曲线、1146次QQ覆盖全部未付因子及u2/u半整线已原返回；来源/失败身份保正文/快照，不重跑。继续一般T0=0与其它未付面。
 
-**一般JQ整闭并付Pf/固定四头，全图A[t]三生成元1,x,y已证；[真实乘法及全部原行](results/R150-appendix-unit211-general-LS-three-generator-actual-multiplication-and-full-original-rows.md)现完成。** fbe4e790实际117.143秒/55724KiB/exit0，六原乘法列、六原行、物理D和两真实歧义均完整乘回；二次余行/D的t次数(2,1,1)，NSPS/歧义(3,2,2)。三规则严格降x/y度，不倒置t、不假自由或有限权纤维；其它个别原值条件继续保留。新0c80263f两组固定三列原cofactor与79bbf349整Phi0原D返回并行，180秒/4GiB及120秒/1GiB；仅登记新输入，未预报成功。
+**一般JQ/Pf/固定四头与A[t]三生成/完整原返回已付。** [新两个原t六次关系及十八生成元开图](results/R150-appendix-unit211-general-LS-two-original-t-six-relations-and-eighteen-generators.md)实际0c80263f/26.214秒/79276KiB/exit0；两原三列cofactor参数次数(24,19,16)/(26,21,17)，t首项剩678/827项仍未付。首项非零图至多18生成，全部首项零域/NSPS/物理D/个别原值条件保留。继续同D目标的公共多项式取消；整Phi0原返回与新值坐标独立推进。
 
 [Haar解析理想像](results/R12-appendix-analytic-ideal-rosenblum-images-and-forced-source-divergence.md)只给同g循环闭包，有限Sobolev来源球距g正、逼近源范数发散；[新非对称双幂的精确局部分类](results/R12-appendix-local-asymmetric-polynomial-orbits-and-actual-haar-source-exclusion.md)进一步排除原Haar所有非常数解析单位化及其伴随的非零多项式增长来源。完整同向量恒等式和局部有限阶分布证明已付；这些限制不涵盖紧扰动或负整数边界。Rosenblum实际零点/ideal来源、真实Green范围、非循环g及未知闭根域继续。
