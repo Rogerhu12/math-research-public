@@ -4,7 +4,7 @@
 
 ## 规则与完整目标
 
-最近规则核查：2026-11-27 00:06:21 UTC，真实pull/rebase至 `be969ce6d466d7d1874ed194ea51b963c994b4ad`，双README相对`8ba84ad0bcd09024fdc71f874f1632e8e5fe1d95`无差异，继续遵守全部规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
+最近规则核查：2026-11-27 00:15:16 UTC，真实pull/rebase至 `a63080ede427d0a948af9cb7abf58f5f06137863`，双README相对`be969ce6d466d7d1874ed194ea51b963c994b4ad`无差异，继续遵守全部规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
 
 科学计算仅本公开仓库Actions；执行偏差见[早前记录](notes/2026-11-20-public-actions-execution-correction.md)及[四次大JSON整读纠正](notes/2026-11-26-large-file-connector-read-correction.md)。root唯一分支写者；结论即普通推，NFF立即rebase循环，不强推。每次pull核双README差异并遵新规，至少每小时，记commit。raw只scratch/runner，不入Git/Release/artifact；保完整小源/参数/run/SHA/紧凑结论。题≤200MB、单文件<5MB、MD<100KB、H<10KB、open<30KB。令牌仅瞬时CLI。终端失联与恢复/云API普通快进记录保7774固定H；旧scratch迁移未确认，不冒恢复。
 
@@ -13,7 +13,7 @@
 
 ## 完整历史与共同模型
 
-完整交接保[27a0固定H](https://github.com/Rogerhu12/math-research-public/blob/27a0ceb8330a153af12c15197967600ecb870513/topics/visible-flex-larger-amplitude/HANDOFF.md)及其4463/7774/e06f/5e5f/bcfbc链；全输入/结论/失败/未返保notes/results/open/log。原M160/J923/N2048/P7377、全部core/H/旋转/Gram/mean/cross/J/J*/真Phi/FullHold材料图和反射帽不删；有限筛非连续，iteration_limit非驻点。
+完整交接保[681ff固定H](https://github.com/Rogerhu12/math-research-public/blob/681ff8732a51e538179463c7e4016d27d475c2fa/topics/visible-flex-larger-amplitude/HANDOFF.md)及其27a0/4463/7774/e06f/5e5f/bcfbc链；全输入/结论/失败/未返保notes/results/open/log。原M160/J923/N2048/P7377、全部core/H/旋转/Gram/mean/cross/J/J*/真Phi/FullHold材料图和反射帽不删；有限筛非连续，iteration_limit非驻点。
 
 二十四次raw普通移出及原小源/全部参数/恢复commit见[容量记录](notes/2026-11-20-resume-raw-retention.md)。Python3.12.14/NumPy2.3.5/SciPy1.17.0/单BLAS；SO3 CPUtorch2.5.1/float64。原共同来源在[独立运行](notes/2026-11-26-independent-public-nonlinear-continuation.md)，[队列完整归档](notes/2026-11-26-complete-followup-parameter-archives.md)保全部旧参数；未返步骤不归档冒完成。
 
@@ -41,13 +41,13 @@
 
 [R711](results/R711-smooth-triangle-central-profile-and-geometric-comparison.md)/[R712](results/R712-full-positive-radius-central-second-derivative-comparison.md)给准确十二片profile、全正半径中央Fss低于旧一半；[十源完整入口](notes/2026-11-26-R711-smooth-triangle-full-normal-entry.md)192正权/全(0,π)/全部原normal loop保，十历史ready未准入，须入旧seed及后来所有真实报告，不迁K/reach或旧末场。
 
-[R714](results/R714-normal-frame-exact-zero-and-C1-reuse.md)/[完整实施附录](notes/2026-11-26-R714-complete-frame-cache-and-zero-template-implementation.md)及[完整cached入口](notes/2026-11-26-R714-cached-reference-centred-complete-entry.md)已刊：ba3d全核、a62c/3e47/3531/f075/509d/3803完整源与02a6十历史ready；同调用18字值缓存/完整A/H角jet及54×18重接保全32段/变量/原loop。[完整detached阶段矩阵复用证明](notes/2026-11-26-R714-detached-stage-matrix-reuse-design.md)已刊，未实施/非前门。未准入、未测速度或working零；旧seed19责任须由真报告或另完整新合同消化，未跑plain非前门。 4197初版pure旧schema遗漏已最小修复，非科学失败。
+[R714](results/R714-normal-frame-exact-zero-and-C1-reuse.md)/[完整cached入口](notes/2026-11-26-R714-cached-reference-centred-complete-entry.md)保ba3d全C1/值缓存、a62c/3e47/3803与全部32段；02a6旧ready未跑，working零/速度未证。新E入口接相同科学全体。[detached矩阵完整证明](notes/2026-11-26-R714-detached-stage-matrix-reuse-design.md)已刊，实施另行，不作当前入口门。旧pure schema修正非科学失败。
 
-[R715](results/R715-reference-centred-normal-sixjets-and-error-ledger.md)与[完整八源/db99参数](notes/2026-11-26-R715-reference-centred-smooth-triangle-full-normal-entry.md)已刊：固定同端点/逐节点中心化，物理hΔ全六jet/AD/真实Gram/K、全32段和原完整loop保，工作Fs不冒单位。全27pins/纯文本再生核同；十真实历史ready未准入，旧seed19未返不冒空历史，不要求先跑未执行plain R711。
+[R715](results/R715-reference-centred-normal-sixjets-and-error-ledger.md)/[八全源](notes/2026-11-26-R715-reference-centred-smooth-triangle-full-normal-entry.md)保中心化hΔ全六jet/AD、真Gram/K、m32；工作Fs非单位，原plain未跑不作门。完整旧参数/来源保681ff固定H。
 
 [06完整重建入口](notes/2026-11-26-run06-complete-parent-reconstruction-and-current-PCG-entry.md)全部原28+十二父、三SOC/第四方向责任保，finish=false。首启动45903578703在fetch未公开规则ref时退出，科学未开始；[完整原因/实际修复](notes/2026-11-26-run06-startup-failure-unfetchable-rules-commit.md)已换实读公开HEAD，科学源/queue不改。新父/地点/μ只读新run真实返回，再接当前八列PCG。
 
-[07完整原输入](notes/2026-11-26-run07-complete-warm-reference-bootstrap.md)两步已返；同3df warm/e640准确参数，新carrier7c8≠旧dc5。[完整地点闭包与独立包络合同](notes/2026-11-26-seed19-permanent-location-source-closure-and-envelope-policy.md)已刊；[全部05来源/φ字](notes/2026-11-26-run05-all-source-material-envelope-closure.md)补齐1–18及全E角色。root选policy2，已知e783前缀保、全E真筛/typed分离、未知protected不冒false；[旧载体真返](notes/2026-11-26-run07-actual-restored-old-carrier-and-radial-word-identity.md)第3已整dc5/227202恢复，cells/u/Gauss与07全字同，report926db/bindingaaa65；新场全E消费仍待。05 API取消、仅18完整返，19未知；不空历史。
+[07完整原输入](notes/2026-11-26-run07-complete-warm-reference-bootstrap.md)1–2已返，3df/e640同而carrier异；[第3旧载体真返](notes/2026-11-26-run07-actual-restored-old-carrier-and-radial-word-identity.md)整dc5/227202、cells/u/Gauss全字同，report926db/bindingaaa65。[全05来源/φ字及旧numeric-tuple去重](notes/2026-11-26-run05-all-source-material-envelope-closure.md)保完整1–18/全E角色；19未知。root选独立policy2：已知e783前缀保、全E真筛/typed分离、不冒旧protected顺序。[新完整消费者](notes/2026-11-27-complete-material-envelope-consumer-and-preserved-prefix-rows.md) c79c/7299/bd1a 和[完整入口](notes/2026-11-26-complete-material-envelope-cached-normal-entry.md)cc0a/b93a/104e/a948已加入07两个步骤，全部变量/真Phi/m32/原预算保；尚待真实新场返回，不冒连续证书。
 
 
 

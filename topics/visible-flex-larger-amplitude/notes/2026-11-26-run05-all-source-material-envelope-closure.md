@@ -13,7 +13,9 @@ $$
 =\bigl(c,\operatorname{float.hex}(u),\operatorname{float.hex}(\phi)\bigr)
 $$
 
-识别。这里 $c$ 是真实原胞号，$u$ 是该胞的实际 binary64 局部坐标，$\phi$ 是固定初始材料角图的实际 binary64 角字。没有十进制舍入、近邻合并、同数学实数自动视为同字的规则。
+记录。这里 $c$ 是真实原胞号，$u$ 是该胞的实际 binary64 局部坐标，$\phi$ 是固定初始材料角图的实际 binary64 角字。本文的集合身份不作十进制舍入或近邻合并。
+
+这不把原 4d9 walker 改说成 hex-key 字典：它原本按 numeric tuple 去重并合并角色，e54 的实际指纹明确记录该语义及幸存的 signed-zero 字。本文的 $P_0$ 是原 walker 实际产生的集合，三套指纹必须按其幸存字重现；hex 表达用于准确记录这些字。后继包络可以更严格地区分两个 signed-zero 字，却不能因此丢掉任何原已保留字，也不能重新解释原保护合并规则。
 
 令 $P_0$ 为实际 4e 准备器消费完整十一份历史参数后得到的全部明确地址的并集。各自的 curvature、radius、protected-curvature 集合仍分别保留；$P_0$ 作为集合符号只表示它们的地址并集。令
 
