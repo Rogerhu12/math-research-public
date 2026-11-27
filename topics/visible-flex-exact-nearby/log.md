@@ -419,3 +419,6 @@ NS五件共129172B，owner71056B SHA18db439d5895e4232882940a57b7bd9457982383e1ac
 
 
 2026-11-27 00:58:14 UTC / visible-exact-astra-fb31ed6-20261127：为TCX/SL/ASR后继留完整输出余量，原pool384..511共128个legacy JSON仅字符串外空白压缩；原bytes/SHA/blob逐项核ba95a7219fa883622b2b3daefde527d04568c117，literal数字/字符串/escape/键序/数组不变。全current py/json/yaml/sh/js/ts完整路径/parent/独leaf/原SHA/blob引用冲突0；刚生成TCX新manifest另核交集0。两receipt70126B、毛省898944B、净省828818B，无科学/数组重算。BW五件已推11020ef0b0，两README无diff。TC原run00:54:07真实wall-budget终态，完整992/7724，原signed矩阵SHA不变，whole终态execution ba6ce21d67b3265eaf00e87f31b5c0e7e00beb481f97e8a4558dd17627116a30；TCX唯一缺域manifest已形成，只有negative/positive目标，未再启matrix。
+
+
+2026-11-27 01:28:46 UTC / visible-exact-astra-fb31ed6-20261127：RPT两件完成，18新有理比较首次全过，无旧流/phase积分/残差/norm重算。反向W=−V(T−t)的transported label末值严格是原forward P，所有mean/true根/ν²/joins保；原低L∞增长J及新完整A0 commutator给每阶有理递推，完整值/一二阶/余项方向H^{n+3}、单背景A^{n+2}，高norm不进指数或B_n²。RP530/150/400继续sharp有效，PD只是当前线性行除J，非线性E不改E/J。登记已推BR899e/PX0f957/PPfadc/CPc172；TCX原992缺域首45920124552在旧cubic全SHA恢复失败，新science0，正明确CPU/BLAS input-only诊断。ASR恢复2314/3146。全部pull两README无diff；误source pull已SIGINT且原HEAD/草稿未动，重申source只commit、publication helper执行pull/rebase/push。

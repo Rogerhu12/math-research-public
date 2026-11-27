@@ -409,3 +409,13 @@
 - [FX：真实moving-angle完整long module与外反射全角交换子](results/R144-supplement-fixed-moving-angle-long-module-and-full-exterior-commutators.md)：27新有理组合已成。固定φ原有限long PDE/Green、actual physicalmean primitive/holonomy/两curvaturemean/独立height/Robin全保；Jacobi loop<.015991211，curvature差门<.212688447故逆<12，even chart<.029727123。四函数参数actual norm<.247725209/二阶moment<100，整族<2^32，全signed Taylor核经原frame权给[∂^n,A]单A^{n+2}；最高真实反馈仍QN<.0025，粗复界不冒小norm。真实physical source二高度导与整数buffer另付，PT全阶whole反馈接续。
 
 - [BW：原target w的首次signed载体与完整误差入口](results/R149-supplement-first-signed-target-w-carrier-from-complete-alpha.md)：5件proof/math/owner/worker/generator已齐，原w=v_i−α/真实a,b/mean/反射保。whole ASR必要恢复中原样记录2048完整quadrature球，whole raw/grid/alpha SHA先核；新v_i trial两误差保完整alias/analytic与H³无限尾，w以Fraction精确相减再加已成α全两球。4新目标，旧coho/α/norm不重；private载体提供未来BR仅恢复，全ASR成才manifest，原OT先行。
+
+- [BR：原target normalizer真正有限行](results/R149-supplement-target-normalizer-low-rows-by-whole-energy-residual.md)：原B† Hdot−1/2 onto收缩给whole e_R=F_H/2+P_w/4，整个E96*B^-1 receiver≤√96；保同号2240输出/truephase/w无限误差，完整physical列才用e_R x0+√96 δX，不冒SC配对。public899e0ee859。
+
+- [PX：完整positive全角阶真实外边界逆](results/R144-supplement-all-angular-positive-high-inverse-with-the-actual-exterior.md)：10新比较已成，tail77/800<1/8、逆<800/723<2，最高反射.0025；单body A^{n+5/3}+endpoint A^{n+2}，A2<2^107。原mean/height/Robin/rC/低端点/source/joins保，限定QN物理tangent输出。public0f9575213f。
+
+- [PP：实际相位的完整残差增广消元](results/R147-supplement-actual-phase-pivot-with-full-regular-defect-retained.md)：6新比较已成；保候选regular defect、nonmeanphase/E′a、两mean/height/第四Robin，不先假定regular逆。physical归一列<.041426/high97<.001376，短支持反馈<.062139/.002064，仅原PO目标空间。publicfadc9ab9d5。
+
+- [CP：mean-exact中心附近统一正候选phase pivot](results/R147-supplement-uniform-positive-phase-pivot-near-the-mean-exact-centre.md)：16新比较已成；原NP wholetrial L²<32/N<132，RP530/150/2.16与SM付真正背景/ν/g转移；中心S>1/50，A³≤1e−7、ν距≤5e−12、C¹max g距≤1e−8全邻域1/60<S<3/50，常数phase保。仅PD.7候选，fullregular Schur仍待。publicc1724b90b8。
+
+- [RPT：完整principal return全角阶tame导数](results/R144-supplement-all-angular-principal-return-tame-derivatives.md)：18新有理比较全过；反向chronological field的实际transported label给原forward两ray P，root/mean/phase不重设。原低J=27/25与全Wiener commutator给K/R/D/A/F/H有理递推，H^n值/一二阶及余项方向至H^{n+3}、背景A^{n+2}一次，trueν²/fulltail/joins保。RP sharp低界不改，g/物理chart链及PD左归一线性行族/full inverse/收敛独立。
