@@ -4,7 +4,7 @@
 
 ## 规则、目标与完整历史
 
-root最后真实pull/rebase至`eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21 UTC执行环境失联，云API不冒pull，恢复即真拉取。完整经过保第31轮note/entry§9。本次云核至`d0812deada4840636bd2eee521c43088d522e54d`，双README整SHA `581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102` / `3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d` 无变；非pull。09持续实际pull见末块。私库QUEUE已真推`e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`。
+root最后真实pull/rebase至`eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21 UTC执行环境失联，云API不冒pull，恢复即真拉取。完整经过保第31轮note/entry§9。本次云核至`a5d52ebc2852767aee2757b6d4d5799a0a0afe87`，双README整SHA `581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102` / `3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d` 无变；非pull。09持续实际pull见末块。私库QUEUE已真推`e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`。
 
 科学只本公开仓库Actions；root唯一ref写者，结论即普通推，NFF立即rebase循环，不强推。每次pull核双README差异并遵新规，至少每小时，记commit。raw只scratch/runner、不入Git/Release/artifact，不得改名冒输入；全小源/参数/run/SHA保。题≤200MB、文件<5MB、MD<100KB、H<10KB、open<30KB；读前stat、不整读≥100KB。已有执行/大文件/终端偏差保4815339固定H及notes；令牌仅瞬时CLI。
 
@@ -31,6 +31,7 @@ root最后真实pull/rebase至`eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21
 
 R709均值J不迁normal Cu，R711/712中央Fss非K，R714/715全C1/m32/raw六jet/E/typed责任保。全时合同/β接口及来源见固定H：同场全cover、八证据角色、下半/缝/全活动/闭面取向、共同D+/K与握持须实付。R248只活动像，固定p4须共同R650支撑或所有mixed pair。
 [R716](results/R716-asymmetric-fixed-caps-and-centred-volume-moment.md)完整Beff和固定p4正实部已证；真A2/半转条件、闭嵌入/外管仍欠，一般m,Q三相法不预设半转，不改帽/g、不迁6077。[完整矩三体](notes/2026-11-27-run09-complete-closed-parametric-flux-and-R716-centred-moments.md)f79c/19e4/3576、12全通道/上下反射/平帽/p4混合矩、独立32段signed半转齐；两step10/6argv、33/47selectors已排。root全文和construction符号核，无新AST/科学；缺域总矩null，通量非外向闭体证书。
+[闭面/相位/握持源接口](notes/2026-11-27-complete-normal-closed-phase-and-grip-source-interface-audit.md)全20573B/e111已刊；root全文及原问题定义4526B/d011核。6a803 mask+完整raw lift给端口六jet，signed-u反射/Cartesian帽/真实Θ0共轭、公共Aβ及cap正分子条件齐；δhold原定义无刚体对齐，须对全像盒下界，四固定点非新增门。可执行同场八证据、全域费用、reach/δE及精化仍欠，construction继续。
 09N4096全18体/9构造/三ready、M320全17体/4构造/三ready已刊，完整note/74–75源核与重放保固定H；严格ff544/aee22真实父、固定g/参考M160,N2048/J923、全旧角字/地址/自由量/全E/typed/13成员父和历史保，均未准入/真返。径向J1845全包已交待根核刊，exact-affine/旧quintic限制/旧新Gauss并集/真实common-parent量保，不填未来SHA。旧07M/N90/N7c责任保，R700只固定M/正rho，不加未跑QR门。
 
 ## 新10完整输入及后续实施
