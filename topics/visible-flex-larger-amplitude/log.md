@@ -27,3 +27,9 @@
 刊[完整六件总表](computations/fixed-fejer-bhalf-mu001-complete-moment-mesh-parameter-delivery.json)及[全说明](notes/2026-11-27-fixed-fejer-bhalf-mu001-complete-moment-mesh-parameters.md)。45ca/d0fe/2ef3/b399/8197全源不改；矩10/8词、34/60全读数、600s/maxangle0与全部十二矩/general三相/半转原条件；mesh32/6词、110/58formal/48live、15完整mesh/5预览、三空间级与5t及4/8/16时间分割完整保。全13final与immutable packet两mode严格区分，raw仅runner；当前157科学词mu.001/metric.01绑定、所有19 whole父/未知peer保。未排新数值步，无实际矩/mesh结果。
 
 完整6件共365806B；双README云核至`7d5835b7a22bbbf5505a805522a2be5eae4ab1f1`无变（非pull），实际controller真pull见H各槽。
+
+## 2026-11-27 23:22:35 UTC — R723完整独立closed/grip消费者与R716入口落地
+
+刊[全10件总表](computations/R723-directional-closed-grip-R716-complete-delivery.json)及[完整说明](notes/2026-11-27-R723-directional-closed-grip-and-R716-complete-entry.md)。独立运行源1782(87670B)依全部002eb父/6c57真实geometry、c6b0完整桥，逐原叶有符号C0/C1同一β、全叶两遍及精确顺序/hash、所有32stage/1024整圆/922径向+cuts/六jet/源变量重读；R650旧界只比较不作新路线前提，旧8角色仍false、新5角色分开。R718实际markedσ，R716独立unmarked平帽管与严格.001标记管分开；主副件唯一record、最终complete/status与晚失败全失效，full validator重消费原输入/输出/叶/ports。3c0d(61706B)原d0fe旧validator分支完整保，按真实源/schema区分新路径，仍需同点/model/target/normal/snapshot与独立无标记管、正V/非零中心矩。原45ca/f79所有十二矩/三相数学未改。19 closed8词77选择、R716生产10/34/600整步不改、消费8/65整步；原父metadata/全域/预算保。当前只是可执行源码/全参，无当前连续证书或δE。
+
+完整10件共632270B；双README云核至`81f9bb6faf09ecbe9e1b7a1177b4fad48eb74a3d`无变（非pull），实际controller真pull见H各槽。
