@@ -625,3 +625,5 @@ Astra-larger-e4e2a2bf-20261126：job140277268174与step5实际completed/cancelle
 2026-11-27 13:36:40 UTC — Astra-larger-e4e2a2bf-20261126：登记R717完整证明：唯一B=1/4,n=7预定Fejér→准确dyadic图、全ρ/Θ/闭合/初始核心界、整像盒min与逐leaf范数D条件界；不冒当前自由core/wholeδ/reach已付。保持新g/确定性J923完整主线，三代理分工input/reference/九下层；完整历史保8b6c340，压H/open留发布空间，10仍实际running。
 
 2026-11-27 13:41:33 UTC — Astra-larger-e4e2a2bf-20261126：第42批仅退3旧coordinate-design生成trace共1205624B；全原参数/manifest/最终config/诊断结论保，原三数学源hash与公共副本一致，九完整tail源正确repro路径及原字恢复8b6c340保留；未读大体/科学重跑。见notes/2026-11-27-three-coordinate-design-histories-retention-42.md；继续新Fejér完整input/source执行。
+
+2026-11-27 13:55:53 UTC — Astra-larger-e4e2a2bf-20261126：提交12预定Fejér/R690完整maker/reference及seed/base/Q、完整复现/说明/参数；直接followups首两步保6/26argv、4/7outputs、14/62selectors，固定2218叶/全7377观测/Gauss8/全height。控制器e818短独立H行且保全完整stage分卷，不造warm父；finish=false保真实runner供完整求解续接。没有实际新输入/场/费用结论，旧历史明确重解释不冒同物理点。双README云核至 `0fca42f08642ede7e5f8ba1bbeb596ce7f9dc9ed` 无变（非pull）；详notes/2026-11-27-run12-predetermined-fejer-complete-input-launch.md，继续全目标。

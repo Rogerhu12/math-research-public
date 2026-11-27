@@ -1,0 +1,75 @@
+{
+  "schema": "visible-larger-public-research-request-v1",
+  "request_id": "visible-larger-resume-20261127-12",
+  "session": "Astra-larger-e4e2a2bf-20261126",
+  "created_utc": "2026-11-27 13:55:53 UTC",
+  "bootstrap_mode": "followups_only",
+  "rules_read_commit": "c8ffb62b8527f6c1ee587e5ded8c0b9665037da2",
+  "rules_sha256": {
+    "README.md": "581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102",
+    "topics/visible-flex-larger-amplitude/README.md": "3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d"
+  },
+  "followup_file": "topics/visible-flex-larger-amplitude/computations/resume-20261127-followups-12.json",
+  "controller_budget_seconds": 20000,
+  "controller": {
+    "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/public_actions_controller_parallel12_compact_metadata.py",
+    "bytes": 19984,
+    "sha256": "e818a7c181b245da595d1089baa4bb1169a444c50083f3bdbe84182cc07e05ac"
+  },
+  "followups": {
+    "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/public_actions_followups_with_active_progress.py",
+    "bytes": 32762,
+    "sha256": "046f0d7b8d27df95f5249438fdaf435b00c482b009fa8956f27dbdc662a6b314"
+  },
+  "scope": "Execute the two complete necessary inputs for the predeclared RN-even Fejer/R690 target, then continue with its entire immutable normal/full scientific solver and actual same-target fees. No old optimized chart is inserted as a parameter and no unknown old branch is declared complete.",
+  "mathematical_recipe": {
+    "chart_formula": "c_m=RN_even_binary64(3*(8-m)*(-1)^(m+1)/(16*(4*m^2-1))) for 1<=m<=7; c_m=+0 for 8<=m<=160",
+    "target_coefficients": "The converted binary rationals themselves, with exact rounding fees relative to the seven ideal rational design values.",
+    "scalar": "Complete exact e640 FullHold/R690 scalar law; no truncation of the R690 tail.",
+    "mesh": "819 exact prefix nodes obtained from all scalar knots and required cuts by deterministic longest-gap bisection, followed by 4+8+64+12+16 exact affine-in-S segments; total J923.",
+    "physical_phase": "R248 alpha=pi*t/2 via inverse-Theta0 conjugacy.",
+    "M": 160,
+    "K": 3,
+    "J": 923,
+    "N": 2048,
+    "P": 7377,
+    "original_core_words_or_adaptive_warm_nodes_used": false,
+    "same_mathematical_g_as_old_warm_selected_chart_claimed": false,
+    "old_same_physical_point_claimed": false,
+    "old_values_or_certificates_inherited": false
+  },
+  "historical_scalar_parameter_source": {
+    "repository": "Rogerhu12/math-research-public",
+    "commit": "60321451c058c6a51da58c37ae5ec6f2d1145f74",
+    "path": "topics/visible-flex-larger-amplitude/notes/public-actions-43580643038-1-free3/stage-00/actual.json.gz",
+    "bytes": 2614352,
+    "sha256": "b4d2b98abc1da2dd149ca28e83ea17963a0d2a50b3c454baabc92f6229b412ff",
+    "consumed_projection": "analytic_extension_origin and fixed_scalar_profile.geometry only",
+    "complete_projection_identity_sha256": "e640aec831df350fa69740650b723a7d2d55676ca64ffb5ddabbacb3ab7d6dfa",
+    "restoration": "The direct controller fetches this immutable commit before the first detached followup; the maker uses git show and verifies the entire recorded blob."
+  },
+  "complete_input_sources": {
+    "maker": {
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_r690_reference_inputs.py",
+      "sha256": "89cc6c07e7d9e6188c35151199d38f7df301737630cec233c52195cddfb43e60",
+      "bytes": 39375,
+      "git_blob_sha": "7b3e12203c15040e07c7dc9cc4f2c20c12d7d566"
+    },
+    "reference": {
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_axisymmetric_reference.py",
+      "sha256": "e7175f591a14844331b55c9c09cc6d0ff25f1e2f390706c951f9b6a6008322cb",
+      "bytes": 60335,
+      "git_blob_sha": "8ad0794ebf0daab9a278c5ea1de784e93b64fd8c"
+    }
+  },
+  "source_and_parameter_scope": "The maker recipe and reference definition are complete, independently named source files; full argv, outputs and all selectors are retained in the two complete ready files and active queue. Original 32 normal stages, full variables and science budgets remain required.",
+  "old_history_scope": "Known P0/G/typed provenance and discovery order remain recorded. Reused literal cell/u/phi on the newly defined mesh is explicitly reinterpreted, not the same physical s or point. Unknown old parallel histories are neither set empty nor used as a prerequisite for this new input.",
+  "workflow_timeout_minutes": 350,
+  "budget_scope": "Admission checkpoint only; an active scientific child is observed until natural return. A job ending is not research completion.",
+  "future_actual_run_id": null,
+  "future_actual_input_hashes": null,
+  "future_actual_reference_identity_sha256": null,
+  "future_actual_field_point_sha256": null,
+  "scientific_completion_claimed": false,
+  "raw_outputs": "Only runner scratch; never Git, Releases, or artifacts."
+}

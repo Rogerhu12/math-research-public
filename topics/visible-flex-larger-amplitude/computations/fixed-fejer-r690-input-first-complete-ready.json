@@ -1,0 +1,142 @@
+{
+  "schema": "complete-fixed-fejer-r690-necessary-input-ready-v1",
+  "executed": false,
+  "admitted": false,
+  "actual_run_id": null,
+  "actual_run_attempt": null,
+  "actual_preparation_report": null,
+  "actual_fixed_input": null,
+  "actual_node_report": null,
+  "actual_scalar_input": null,
+  "purpose": "Construct the complete source-defined noncircular Fejer/R690 mathematical input directly; no BVP/warm or old solved chart selects the target.",
+  "source": {
+    "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_r690_reference_inputs.py",
+    "sha256": "89cc6c07e7d9e6188c35151199d38f7df301737630cec233c52195cddfb43e60",
+    "bytes": 39375,
+    "git_blob_sha": "7b3e12203c15040e07c7dc9cc4f2c20c12d7d566"
+  },
+  "complete_source_dependencies": {
+    "scalar": {
+      "path": "topics/visible-flex-larger-amplitude/notes/2026-11-17-parallel-model-full-hold-oracle.py",
+      "sha256": "a1ed8fa5d2186f400ea50a1d609574ec6996e59317a57638a6820a59cf0e7670"
+    },
+    "integer": {
+      "path": "topics/visible-flex-larger-amplitude/notes/2026-11-17-parallel-inward-integral-enclosure.py",
+      "sha256": "babd589d07c91d8067f9ef2011ae53712aaf6dbdbe22bed25c29116771b237a0"
+    },
+    "integer_trigonometry": {
+      "path": "topics/visible-flex-larger-amplitude/notes/2026-11-17-parallel-geometry-inward-chord-cover.py",
+      "sha256": "e480a2ca7ebd5911768cad04ef7b98319ff2cff1840cf71531eaf2b574b4211a"
+    },
+    "hold": {
+      "path": "topics/visible-flex-larger-amplitude/scripts/parallel_20261117_negative_hold_profile_ivp.py",
+      "sha256": "ed6ea7d6590775767be9944d9aa305e93e8f054297648757b70e5aef962295a1"
+    },
+    "deep_scalar": {
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/deep_valley_tail_input.py",
+      "sha256": "e091f67566ef6a380758a3aac5d79d9b41e4bffcc9a9860e66eaaa9b314257c2"
+    }
+  },
+  "historical_scalar_parameter_source": {
+    "repository": "Rogerhu12/math-research-public",
+    "commit": "60321451c058c6a51da58c37ae5ec6f2d1145f74",
+    "path": "topics/visible-flex-larger-amplitude/notes/public-actions-43580643038-1-free3/stage-00/actual.json.gz",
+    "bytes": 2614352,
+    "sha256": "b4d2b98abc1da2dd149ca28e83ea17963a0d2a50b3c454baabc92f6229b412ff",
+    "consumed_projection": "analytic_extension_origin and fixed_scalar_profile.geometry only",
+    "complete_projection_identity_sha256": "e640aec831df350fa69740650b723a7d2d55676ca64ffb5ddabbacb3ab7d6dfa",
+    "restoration": "The direct controller fetches this immutable commit before the first detached followup; the maker uses git show and verifies the entire recorded blob."
+  },
+  "mathematical_recipe": {
+    "chart_formula": "c_m=RN_even_binary64(3*(8-m)*(-1)^(m+1)/(16*(4*m^2-1))) for 1<=m<=7; c_m=+0 for 8<=m<=160",
+    "target_coefficients": "The converted binary rationals themselves, with exact rounding fees relative to the seven ideal rational design values.",
+    "scalar": "Complete exact e640 FullHold/R690 scalar law; no truncation of the R690 tail.",
+    "mesh": "819 exact prefix nodes obtained from all scalar knots and required cuts by deterministic longest-gap bisection, followed by 4+8+64+12+16 exact affine-in-S segments; total J923.",
+    "physical_phase": "R248 alpha=pi*t/2 via inverse-Theta0 conjugacy.",
+    "M": 160,
+    "K": 3,
+    "J": 923,
+    "N": 2048,
+    "P": 7377,
+    "original_core_words_or_adaptive_warm_nodes_used": false,
+    "same_mathematical_g_as_old_warm_selected_chart_claimed": false,
+    "old_same_physical_point_claimed": false,
+    "old_values_or_certificates_inherited": false
+  },
+  "exact_api": {
+    "PREPARATION_SCHEMA": "complete-fixed-fejer-r690-input-preparation-v1",
+    "NODE_SCHEMA": "complete-fixed-fejer-r690-affine-nodes-v1",
+    "DEFINITION_SCHEMA": "fixed-fejer-r690-scalar-and-chart-recipe-v1",
+    "TARGET_SCHEMA": "fixed-rn64-fejer-R690-mathematical-target-v1",
+    "preparation_output_roles": [
+      "fixed_input",
+      "node_report",
+      "scalar_input"
+    ],
+    "fixed_npz_members": [
+      "mesh",
+      "initial_core",
+      "fixed_core_first3",
+      "radius",
+      "width",
+      "M",
+      "J"
+    ],
+    "radius_role": "Original FullHold R midpoint; the next complete R690 reference constructor computes its modified endpoint radius.",
+    "width_role": "RN-even64 of the original binary64 literal 0.05, distinct from FullHold out=0.02.",
+    "pure_entry": "read_preparation(path, *, actual_outputs=None) -> (complete_report, whole_source_file_parameter_binding)",
+    "pure_module_top_level": "stdlib only; no NumPy/Torch/scalar constructor/root evaluation on import"
+  },
+  "runtime_outdir": "{work}/fixed-fejer-r690-inputs",
+  "required_downstream": "The independent complete Fejer reference/context constructor must consume all three actual files and reread all seven NPZ arrays before any field construction; complete scalar2218/7377 observations/H belong to that next full constructor.",
+  "future_reference_or_field_sha256": null,
+  "future_field_point_sha256": null,
+  "old_history_scope": "Known P0/G/typed provenance and discovery order remain recorded. Reused literal cell/u/phi on the newly defined mesh is explicitly reinterpreted, not the same physical s or point. Unknown old parallel histories are neither set empty nor used as a prerequisite for this new input.",
+  "physical_goal_not_claimed": true,
+  "validation": {
+    "source_text_review": true,
+    "complete_parameter_contract_written": true,
+    "local_AST_or_compile_executed": false,
+    "local_science_executed": false,
+    "scientific_Actions_execution_completed": false
+  },
+  "steps": [
+    {
+      "id": "prepare-complete-fixed-fejer-r690-inputs-20261127",
+      "script": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_r690_reference_inputs.py",
+      "scope": "Necessary complete deterministic new mathematical input. Restore the exact accepted099 scalar-parameter source; extract the whole e640 projection; construct the fixed seven-mode RN-even Fejer chart, all 923 exact affine nodes and complete FullHold node/radius error ledger. No warm/BVP/pulse field, old core, old final, F/J/normal root or geometric certificate is used. This is a new fixed target; original branches and old literal-address provenance are retained explicitly.",
+      "args": [
+        "--repo",
+        "{repo}",
+        "--outdir",
+        "{work}/fixed-fejer-r690-inputs",
+        "--panels",
+        "128"
+      ],
+      "outputs": [
+        "fixed-fejer-r690-inputs/report.json",
+        "fixed-fejer-r690-inputs/fixed-reference-input.npz",
+        "fixed-fejer-r690-inputs/fixed-affine-nodes.json",
+        "fixed-fejer-r690-inputs/fixed-scalar-input.json"
+      ],
+      "summary": {
+        "fixed-fejer-r690-inputs/report.json": {
+          "schema": "schema",
+          "source": "source_sha256",
+          "status": "status",
+          "complete": "complete",
+          "seconds": "seconds",
+          "definition": "definition_identity_sha256",
+          "target": "mathematical_target_identity_sha256",
+          "actual_run": "execution.run_id",
+          "actual_attempt": "execution.run_attempt",
+          "actual_source_commit": "execution.actual_source_commit",
+          "all_input_source_output_rechecked": "all_input_and_source_output_records_rechecked",
+          "physicalF": "physical_field_evaluations",
+          "J_evaluations": "Jacobian_evaluations",
+          "normal_roots": "normal_root_evaluations"
+        }
+      }
+    }
+  ]
+}
