@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R150碰撞整个u=2的原四Q纤维排除](results/R150-appendix-unit211-collision-u2-entire-original-fibre-exclusion.md)：原六Q结式必要覆盖F23，整QQλ域原Q二次gcd中物理乘积平方为零；全部λ/Q原纤维空，付u−2。一般碰撞仍开放。
+
 - [R150 W首个二元头补图的真实六坐标原值接口](results/R150-appendix-unit211-W-first-binary-head-open-original-value-six-coordinate-return.md)：四规则/十二乘法/四条完整原值已返；随后180秒常数门仅完成并打印秩4，无新参数覆盖。整H265零保留，该负门冻结。
 
 - [R150一般H1三个整线极点排除与1012权对覆盖](results/R150-appendix-unit211-Phi-zero-H1-three-linear-poles-complete-exclusion-and-1012-cover.md)：0.302599371秒/0，全部原QQ三次Q域内两λ6式完整Bezout1，合旧一次Q退化排空三个整u纤维；C256降C253，≤1012权对，余原值未完成。
