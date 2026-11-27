@@ -5,11 +5,11 @@
 
 ## 1. 授权、规则与继承
 
-公开本次实际pull且根/题README已读至 **029dfddea1d7b5418e83bf75fdbb5350de2e146d**；根/题规则相对继承0749a4cc仍为空差异。私库实际pull/根README已读至 **724f5769d39c1f05826ed6c36792a5bb66da6aa0**，2026-11-27 00:01:47 UTC空diff；下次不晚于01:00 UTC。QUEUE唯一仍本会话进行中，原认领09f8b8b54e。
+公开本次实际pull且根/题README已读至 **c5cbf6cd63acdc12c99d9daa3ed765655fbbaf50**；根/题规则相对继承0749a4cc仍为空差异。私库实际pull/根README已读至 **50c1c0039e5e9ff8c6979369a8059aad7efc3ddf**，2026-11-27 00:50:21 UTC空diff；下次不晚于01:45 UTC。QUEUE唯一仍本会话进行中，原认领09f8b8b54e。
 
 每次pull只读根/题README差异并记SHA，至少每小时；NFF/ref锁立即pull --rebase再推至成功。root独占git和四索引，每条结论即推；科学只公开Actions，本地只纸证/源码及原日志JSON/hash解析。根12不重放已付门；根15不存raw/可重算表，必要新场再生全计费。H<10KB/open<30KB/md<100KB；publisher活跃不改tracked。
 
-[H完整前史](notes/HANDOFF-before-59a4-56e8-and-fixed-E-20261127.md)、[open](open.md)和[旧open全文](notes/open-before-fixed-E-and-K-only-20261127.md)保全部旧结论/失败/费用链。[四来源](notes/2026-11-27-current-four-source-topics-and-literature.md)保来源版本及准确用途。
+[H完整前史](notes/HANDOFF-before-59a4-56e8-and-fixed-E-20261127.md)、[open](open.md)和[旧open全文](notes/open-before-fixed-E-and-K-only-20261127.md)保旧结论/失败/费用链。[四来源](notes/2026-11-27-current-four-source-topics-and-literature.md)保来源版本及准确用途。
 
 ## 2. 完成门不得改写
 
@@ -33,7 +33,7 @@ mean q64:80全变/h96=.6975711972395291，旧59a4完整几何不转移。所有�
 
 ## 5. 正常全S继续，固定E硬τ1已见真实均值根失败
 
-[正常397真实457终态](notes/2026-11-27-r613-normal397-sixty-step-terminal.md)run45909455678/job140214007842/source12e47b06；4768.702256165秒/60接受/60J/102trial，末fraction1仍接受，非stall。1130q JSON SHA **a05c4374fe966df1982ae2f3fc5a92129aba03da562670fc848d4a666600b539**，H.5188904014900897/amp1e−5/下一damp1e−14。工作950×256 η2.208819954e−7下降，但fine1728×512 η2.244953790e−7上升，双direct2.245094994e−7/2.245066580e−7；2e−9未过。已付fine峰r=.32708333333333334不在旧950，接全部旧点∪该峰951/121728完整行，原fine/1130列不变；新dr权使merit基准改变。独立fixedE397不回写。
+[正常397真实457终态](notes/2026-11-27-r613-normal397-sixty-step-terminal.md)run45909455678/job140214007842/source12e47b06；4768.702256165秒/60接受/60J/102trial，末fraction1仍接受，非stall。1130q JSON SHA **a05c4374fe966df1982ae2f3fc5a92129aba03da562670fc848d4a666600b539**，H.5188904014900897/amp1e−5/下一damp1e−14。工作950×256 η2.208819954e−7下降，但fine1728×512 η2.244953790e−7上升，双direct2.245094994e−7/2.245066580e−7；2e−9未过。已付fine峰r=.32708333333333334不在旧950，[已审新范围](notes/2026-11-27-r613-actual457-paid-fine-peak-exchange-scope.md)接旧点∪峰951/121728行，原fine/1130列不变；新dr权使merit基准改变。独立fixedE397不回写。
 
 [首硬τ1失败](notes/2026-11-27-r618-actual397-hard-tau1-first-terminal.md)41.515274441秒/第103trial80步耗尽已归档。[二分真实终态](notes/2026-11-27-r618-bracket-progress-original-terminal.md)run45916740129/job140237670198/source1aac95c4，00:27:54 UTC自然结束，新42.15573723200001秒；435根全返回/218参考/217trial。第218参考r=.22619626838929574同支盒拒绝：eta_inner≈1.28625e16、末宽1262/residual−314.71875，原relative宽门已过而小λ盒未过。不是二分耗尽/τ1无根；0完整目标/J/接受/fine/direct。接高精度大中心+小offset同式表示，全reference/mean/output链一致，不能单减tol或暗改E；前失败/全部成本保留。
 

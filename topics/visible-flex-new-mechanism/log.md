@@ -658,3 +658,8 @@ open原28316B全文按链接层级移入open-before-fixed-E-and-K-only归档，�
 ## 2026-11-27｜normal397真实457与已付fine峰入工作库
 
 根全文审9499B收据，独立核2465022B原stdout/106832B唯一FINAL/22777B q JSON SHA，61完整态/60实际接受、末fraction1/实际下降2.419540009537078e−13吻合。工作η下降但fine2.2449537902118403e−7与双direct真实上升，不称全域改善；原末457不是自然stall。新4768.702256165秒及完整60J/102trial/旧账均保。原fine/direct共同最坏r=.32708333333333334缺于旧work且无自动回灌，后继保原950全部行并加入这一个已付峰，新dr权/merit定义明示，fine1728不重资格，fixedE397独立不变。
+
+
+## 2026-11-27｜实际457原fine峰的最小径向exchange范围及小时规则同步
+
+根全文审15592B driver/6593B说明/5035B workflow；28来源hash/sparse/AST及220270B stdin核合，原22777B q文字逐字、全部成本字段与唯一原FINAL完全吻合。新main显式原950∪唯一已付峰→951，全121728行/1130列；solve/Jac/QR/fine直接调用原函数，无旧全局patch，原dr权按并集更新且新merit不能跨网比较。根00:50:21 UTC实际pull私库到50c1c0039e5e9ff8c6979369a8059aad7efc3ddf，根README空diff/原blob不变，QUEUE唯一本会话；H已记本次与01:45前下次要求。仅新request规则metadata更新，科学stdin不变。
