@@ -7,7 +7,6 @@ import json
 import os
 from pathlib import Path
 import signal
-import subprocess
 import sys
 import time
 import traceback
@@ -47,9 +46,28 @@ def main():
     for name, wanted in req["source_sha256"].items():
         if sha(ROOT / name) != wanted:
             raise RuntimeError("Source pin mismatch: " + name)
-    source = subprocess.check_output(
-        ["git", "-c", "safe.directory="+str(ROOT), "rev-parse", "HEAD"],
-        cwd=ROOT, text=True).strip()
+    # The pinned Sage image has no git executable. Read the actual checkout
+    # metadata from the same read-only mount; do not trust an extra caller SHA.
+    gitdir = ROOT / ".git"
+    if not gitdir.is_dir():
+        raise RuntimeError("Expected the normal Actions checkout git directory.")
+    source = (gitdir / "HEAD").read_text().strip()
+    if source.startswith("ref: "):
+        refname = source[5:]
+        if not refname.startswith("refs/") or ".." in refname.split("/"):
+            raise RuntimeError("Unexpected checkout ref.")
+        loose = gitdir / refname
+        if loose.exists():
+            source = loose.read_text().strip()
+        else:
+            matches = [line.split(" ", 1)[0]
+                       for line in (gitdir / "packed-refs").read_text().splitlines()
+                       if line.endswith(" "+refname)]
+            if len(matches) != 1:
+                raise RuntimeError("Checkout ref was not uniquely resolved.")
+            source = matches[0]
+    if len(source) != 40 or any(c not in "0123456789abcdef" for c in source):
+        raise RuntimeError("Invalid actual checkout SHA.")
     if source != os.environ.get("GITHUB_SHA"):
         raise RuntimeError("Checkout is not the run's source commit.")
     total = int(req["total_seconds"])

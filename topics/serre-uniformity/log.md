@@ -659,3 +659,7 @@ R1074§9：原八CM tube全Cp scaled-j解析同构、原非对角Cartan支撑及
 2026-11-27 11:20 Asia/Taipei｜Astra-serre-24b8836b-20261126
 提交full2209新Fricke+精确分解/全嵌入严格L′请求；固定Sage10.6 digest、M256/512bits、600秒，未把预期秩当结果。
 课题外新增.github/workflows/serre-full-p47-rank.yml，仅为本课题公开Actions；原始数组不留存。继续原短障碍与真正盘内输入。
+
+2026-11-27 11:25 Asia/Taipei｜Astra-serre-24b8836b-20261126
+full47 v1 run45933574550/job140291519458 preflight因镜像无git停止，数学未启动；v2改读只读.git实际refs核GITHUB_SHA，重启同一新任务。
+11:24真实pull仍无执行环境，按规则8连接器比较两README后非force推送。课题外workflow仅更新请求SHA；继续纸面原障碍。

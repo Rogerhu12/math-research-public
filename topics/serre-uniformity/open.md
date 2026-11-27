@@ -31,7 +31,7 @@ R1018–40的原完整Fm/两节点Dickson/PD及好BT整比较均已付，详细�
 
 ## O0：全主目标覆盖（R1003恢复原范围）
 
-新请求 [full-p47-rank](notes/full-p47-rank-request.json) 用精确modular symbols分别取star sign与Fricke+，完整新空间分解及全实嵌入Arb L′，固定M256/512bits、数学600秒；脚本/方法有SHA钉住。尚未取得真实回执；只补R45的A=J，不能代MW饱和/283高度/盘内唯一。
+新请求 [full-p47-rank](notes/full-p47-rank-request.json) 用精确modular symbols分别取star sign与Fricke+，完整新空间分解及全实嵌入Arb L′，固定M256/512bits、数学600秒；脚本/方法有SHA钉住。v1 run45933574550仅preflight无git，未算数学；v2已修；只补R45的A=J，不能代MW饱和/283高度/盘内唯一。
 
 [R1074](results/R1074-certified-original-p47-eight-CM-disks.md)：原p47全部235盘经ℓ283同点筛选仅余8个已定位Q-CM盘，排227盘；run45928658257/job140275928914源e5d0d9d。独立Burnside给279原aux点，完整279标签使图单射，同一个CM点在283约化；47一般j同余模47²，特殊j0/1728为4/3阶。§9新增整个Cp tube的scaled-j解析同构与原非对角支撑/raw坏47配对零；旧R43已使同盘QC项相同。八盘内部排点、full47秩/aux高度和全p仍开；全部pins/hash只消费。
 

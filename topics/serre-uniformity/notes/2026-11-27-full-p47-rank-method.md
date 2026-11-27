@@ -77,7 +77,7 @@ sha256:60dfb09e8d1399e127a0d7b62b45eef1044574bae397df51bb6ba38df5498879。
 内部 570 秒 alarm，外层 timeout 600 秒并保留终止宽限，
 失败只给已完成因子的回执。
 
-数学导入前核 Actions、仓库、实际 checkout/GITHUB_SHA、
+数学导入前核 Actions、仓库、实际 checkout/GITHUB_SHA（直接读只读 .git/HEAD 及 loose/packed ref；官方镜像不含 git executable）、
 请求和全部输入文件 SHA-256。
 只输出空间维数、因子分解、每嵌入导数包围球及摘要哈希。
 完整 modular-symbol 矩阵、q 系数数组不上传 artifact、不进 Release、不提交。
@@ -89,7 +89,7 @@ sha256:60dfb09e8d1399e127a0d7b62b45eef1044574bae397df51bb6ba38df5498879。
 ## 原始文献与软件接口
 
 - N. Dogra, S. Le Fourn, *Quadratic Chabauty for modular curves and modular forms of rank one*,
-  Math. Ann. 380 (2021), 393–448，Definition 4、Proposition 3、Lemma 15；
+  Math. Ann. 380 (2021), 393–448，Definition 4、Proposition 3、Lemma 15、Appendix Proposition 8 与 Corollary 4；
   [期刊](https://doi.org/10.1007/s00208-020-02112-3)。准确适用范围见 R45 §1、§6。
 - B. de Smit, B. Edixhoven, *Sur un résultat d'Imin Chen*, Math. Res. Lett. 7 (2000), 147–153，
   Theorems 1–2；[作者全文](https://pub.math.leidenuniv.nl/~smitbde/papers/2000-de_Smit_Edixhoven.pdf)。
