@@ -6,7 +6,7 @@
 
 ## 规则、同步与环境
 
-root最后真pull/rebase eda95d51e82b126439d51d42185a880e6ddad3e9。07:21起终端不可用，15:03:35工具内存重置后一次复核仍不可用；恢复即真pull。云核至 `7a51d896c57545f2cd36263e26419c4af5c8b4b0`，不称pull。双README SHA256：581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d，均无变。每真pull后只读新差异并立即遵守，至少每小时；活12每5分钟真pull，末块记提交。
+root最后真pull/rebase eda95d51e82b126439d51d42185a880e6ddad3e9。07:21起终端不可用，15:03:35工具内存重置后一次复核仍不可用；恢复即真pull。云核至 `192027c4499a8ab28f1d646c75870d070161bf24`，不称pull。双README SHA256：581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d，均无变。每真pull后只读新差异并立即遵守，至少每小时；活12每5分钟真pull，末块记提交。
 
 私库QUEUE进行中已推e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。root唯一refs/queue写者；每结论普通推，不force，NFF立即真rebase循环；终端缺失时云fresh-HEAD完整合并不冒真pull。[完整发布支持](computations/resume-20261127-root-publication-support.mjs)已存，防内存重置丢文本工具。
 
@@ -37,7 +37,7 @@ run46011377225/1，job140547455454，workflow初始ed9fbfec354330d11b0e46ef61a4d
 - [mesh/t](notes/2026-11-27-fixed-fejer-complete-same-field-phase-meshes.md)：ad809/80116/2acc9/fde5、117角色/原8924B构造，32/6argv、110/58正式读数。三全空间级/5t/4,8,16时间划分；真13final或完整packet同点，缺角走原算法；d606可选不挡mesh。15科学mesh与5完整<5MB预览runner-only；拓扑不冒嵌入，M320零包含只输入。
 - [J1845五完整基础](notes/2026-11-27-fixed-fejer-J1845-complete-base-inputs.md)：a31d/622e/a89c/78de/2e0c，参考J923/currentJ1845准确地址、全482通道、旧7377+原生14753并集。obs工厂逐字e717，全部scalar metadata除elapsed相等/accuracy保；Q从当前ca4保Fejér recipe及fixed_input全部守卫，再加完整双网格关系。
 
-[N4096完整入口](notes/2026-11-27-fixed-fejer-N4096-complete-observation-entry.md)已刊：19源/128角色保原110、三全计划157/138/142+7argv、396/380读数及48progress，normal整class原1aa；只current N→4096，固定参考仍2048。M320终包准备普通刊，13/14将独立真跑；均未有新场。construction接J完整lower/upper/三plans，geometry接N/M完整连续费用，solver查实际重复耗时并核12。每族保current immutable完整normal链，不退旧昂贵每key拷贝；不削变量/预算/尾/J/双mean/六jet。
+[N4096完整入口](notes/2026-11-27-fixed-fejer-N4096-complete-observation-entry.md)已刊：19源/128角色保原110、三全计划157/138/142+7argv、396/380读数及48progress，normal整class原1aa；只current N→4096，固定参考仍2048。[M320完整入口](notes/2026-11-27-fixed-fejer-M320-complete-frequency-entry.md)亦已刊：18源/128角色，两全159/146+7argv、397/384读数及48progress；完整2661210变量，固定参考M160，三个不等omega块全保。13/14将独立真跑，尚无新场。construction接J完整lower/upper/三plans，geometry接N/M完整连续费用，solver查实际重复耗时并核12。每族保current immutable完整normal链，不退旧昂贵每key拷贝；不削变量/预算/尾/J/双mean/六jet。
 
 独立模式用同固定reference完整初点与全known/unknown历史，不等虚构父。terminal需真全报告/history；final另需真477499/274d全13成员/word/point/model；同源restart全模型严格相等。参考M160/J923/N2048及准确g/参数/t不变，current离散不定义新g。真实求解与mesh/M/t下降尚未付。
 
