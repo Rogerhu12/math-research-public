@@ -178,7 +178,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 [最大图低余孔C2费用](results/R271-appendix-maximal-graph-low-excess-hole-square-cost.md)已付同一h的明确扇区，实际y有界物理孔遂入原图核心。新[临界小指数物理孔矩准则](results/R271-appendix-critical-small-physical-exponential-maximal-graph-core.md)进一步给s0=(2+2log(3/2))/14：y∈D(G)且e^(s0N)y∈H，则h∈C2并在原图核心；等号的真实8^j余量完整支付。未知Green缺陷Y并未证明有该矩，物理孔平滑未证保Y，同W的Gamma及F/R/Z继续。
 
-**W两列原值、Y单位/w≤6存在、5+5原行及[J19 F588完整覆盖](results/R150-appendix-unit211-W-J19-six-generator-original-unit-and-degree-588-cover.md)已付。** 4acc实际19.056秒/72236KiB/exit1，仅flint缺失is_irreducible入口，48×35未开始；此前已精确F588=F20·F568，F20因子度2/2/3/5/8，好素数1009全部分母与norm Bezout通过。新6815仅修官方域入口，ff21首次全F20 QQ原1/D/D²返回，均180秒4GiB待实际。若只返D/D²，仍限原D非0值图；一般h=k值碰撞独立开放。所有有限纤维、Y逆/w显式系数未关闭。
+**[W整个J19原权曲线已排空](results/R150-appendix-unit211-W-J19-entire-original-weight-curve-exclusion.md)。** 6815真19.050秒/80908KiB/exit0：F568全部32模因子上的完整e4原48×35满35列/原1，有限自由Z_(1009)模型秩2272及Nakayama严格付QQ。ff21真19.370秒/49564KiB/exit0：F20度2/2/3/5/8的五完整QQ因子，分别只排原V/d/P02/e/bc零e线，余e3维数6/6/9/15/24全部返1，Dpower皆0。当前原W权域可付J19，无额外D非0假设；旧4acc API失败冻结。继续D27/B239等未付权头、Y实际逆/w首一≤6显式系数；一般h=k≠1仍按自身原域独立开放。
 
 **[整个一般ell=0已闭](results/R150-appendix-unit211-general-ell-zero-complete-original-exclusion.md)，全局可付ell。** 完整来源/零域/失败身份保总定理及快照；T0=0和J=Q也已整闭，继续当前原值输入，不重放旧支。
 
