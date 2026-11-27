@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R150任意原三次的无除法纯二元三次替换](results/R150-appendix-unit211-W-original-cubic-pure-binary-ideal-compression.md)：完整原QF、R0/R1/R2组合给等理想、保持总次数≤3；NS/PS新固定六阶参数必要式首次实算，未预报结果。
+
 - [R150碰撞整个u=2的原四Q纤维排除](results/R150-appendix-unit211-collision-u2-entire-original-fibre-exclusion.md)：原六Q结式必要覆盖F23，整QQλ域原Q二次gcd中物理乘积平方为零；全部λ/Q原纤维空，付u−2。一般碰撞仍开放。
 
 - [R150 W首个二元头补图的真实六坐标原值接口](results/R150-appendix-unit211-W-first-binary-head-open-original-value-six-coordinate-return.md)：四规则/十二乘法/四条完整原值已返；随后180秒常数门仅完成并打印秩4，无新参数覆盖。整H265零保留，该负门冻结。
