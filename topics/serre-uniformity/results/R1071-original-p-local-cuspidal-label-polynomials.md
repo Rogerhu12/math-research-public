@@ -547,3 +547,467 @@ global_route 给出完整来源、根和、有限多项式及尺度证明；
 o2 独立纸核全部高 log 分母、$R=2$ 边界、$O(p)$ 相对单位误差、
 原 augmentation-zero 下降单位和 Weil/circular-unit 读数。
 没有数学执行或新 CI。主目标的无条件全局排除仍开放。
+
+## 11. 原 eigen-T 的有限 formal-log 读法
+
+本节至 §15 是同一来源的后继证明，仍全部为纸面推导。
+
+固定 §2 的 marked CM reference，写其 good short Weierstrass equation 为
+$$
+E_0:\ y^2=x^3+A x+B,\qquad
+z=-x/y,\qquad
+\omega=\frac{dx}{2y}=\left(\sum_{n\ge0}a_nz^n\right)dz,\quad a_0=1.
+\tag{1071.30}
+$$
+同时将原 eigen-$T$ 的 tangent 归一为 $1$。
+这里的 tangent 归一同时作用于原 full-level 参数，
+不是只在计算 $\psi_c$ 时另换一个不相干参数。
+
+### 11.1 低于 p² 的真正整对数
+
+因为 $E_s$ supersingular，$\operatorname{Cartier}(\bar\omega)=0$。
+在同一局部参数下逐系数读取，即
+$$
+a_{kp-1}\in pW\qquad(k\ge1).
+$$
+所以形式对数
+$$
+L(z)=\int_0^z\omega
+ =\sum_{n\ge1}\frac{a_{n-1}}n z^n
+\tag{1071.31}
+$$
+在所有 $n<p^2$ 次的系数均整：
+若 $p\mid n$，只含一次 $p$，恰由 Cartier 零消去；
+若 $p\nmid n$，分母是单位。
+
+因此这些系数模 $p$ 由原 Weierstrass equation 模 $p^2$ 唯一决定。
+对 $n=pk$ 必须先取 $a_{n-1}\bmod p^2$，除去 $p$ 后再约化；
+只用特殊纤维的 $\bar\omega$ 会丢失这些系数。
+
+原 reference 的不分歧二次 CM 作用包含 $\mu_e$。
+同一 torus 在 $T$ 上是权一，在 $\omega$ 的 tangent 上也是权一。
+由形式对数的唯一性，
+$$
+L([\xi]P)=\xi L(P),\qquad T([\xi]P)=\xi T(P).
+$$
+故 $L(z(T))$ 只含次数 $1\bmod e$，其 linear coefficient 为 $1$：
+$$
+\boxed{\quad L(z(T))=T+O(T^{p^2}).\quad}
+\tag{1071.32}
+$$
+这支付了原 eigen-$T$ 与 formal-log 的真实来源。
+不是仅由 tangent 相同就断言任意两参数有高阶相等。
+
+为读全部 $A_d$，$d\le N$，取 $L$ 至 **$N+1$ 次** 即足够；
+多取这一阶是因为 $\psi_c$ 在 $O$ 有 pole。
+由于 $N+1<p^2$，(1071.31) 的整性范围完全足够。
+
+### 11.2 不需要求出整个 CM reference
+
+R1066 §3 对同一 marked supersingular curve 的每个 first lift
+给出一个 $p$-prime conductor 的实际 CM lift。
+因此可先选一个方便的 good equation $E_*/W\bmod p^2$，
+再取与其同 marked first lift 的 CM reference。
+二者的 invariant differential 系数模 $p^2$ 相同，
+故 (1071.31) 的全部 $n<p^2$ 系数模 $p$ 相同。
+
+模型与 differential 的标记必须一起运输。
+这只免去计算 CM lift 的无限 $p$-adic 展开，
+不把一个不同 first lift 的 formal log 当作同一个 reference。
+
+当 $E_s/\mathbf F_p$ 且所选 first lift 在 $\mathbf Z_p/p^2$ 上时，
+得到的有限 $L\bmod p$ 在 $\mathbf F_p$ 上且为 odd series。
+R1066 的 actual arithmetic-stable CM reference 支付该下降。
+
+## 12. 一个已支付的 source 坐标和无需 reversion 的 A_d
+
+### 12.1 明确 source 归一，而不猜 λ
+
+在同一 universal eigen-$T$ 中，取
+$$
+u_*=[T^p]\,[p](T),\qquad t_*=u_*/p.
+\tag{1071.33}
+$$
+$p$-series 的 $T^p$ coefficient 是 Hasse 的简单参数，
+其 framing 权准确为 $1-p$。
+所以 $u_*$ 是原 $u$ 的整可逆参数变换，CM reference 仍是 $0$；
+它不是一个仅在抽象 formal group 上定义的替代 deformation。
+
+由 framing，所需初项为
+$$
+[p](T)=pT+u_*T^p+g_0T^{p^2}+\text{更高 normal 项},
+\qquad g_0\in W^\times.
+\tag{1071.34}
+$$
+取 $a=\varpi\beta_0$，使 $a^e=-p/g_0$。
+代入 $T=a(v+r v^p)$，$pT$ 与 $g_0T^{p^2}$ 的 $v$ 项抵消；
+$v^p$ 项给
+$$
+r=-a^{p-1}t_*+O(p)
+  =-\beta_0^{p-1}\rho t_*+O(p).
+\tag{1071.35}
+$$
+
+误差精度可逐类核定。无 $u_*$ 的下一次数是 $2p^2-1$；
+一次 $u_*$ 的下一次数是 $p+e$；
+至少二次 $u_*$ 的项含 $u_*^2$。
+除去主尺度 $pa$ 后，这三类的 normal 次数均至少为 $e$。
+$u_*T^p$ 中的 $r^p$ 项也在除去 $pa$ 后至少为 $e$；
+其余二项式项多一个 $p$。
+所以 (1071.35) 确有 $O(p)$ 精度。
+这正给原 §5 的
+$$
+\lambda=-\beta_0^{p-1}
+\tag{1071.36}
+$$
+在这个**明确指定**的 source 坐标中的约化值。
+
+因为 $E_s/\mathbf F_p$ supersingular 且 $p>3$，
+其 arithmetic Frobenius 满足 $\pi^2=[-p]$。
+原 odd $\mathbf F_p$ 参数 $T$ 上 $\pi$ 是 $T\mapsto T^p$，
+所以
+$$
+[p](T)\bmod p=-T^{p^2}.
+$$
+可在同一 $\varpi$ 上选实际 torsion root branch，
+令 $\bar\beta_0=1$。这给 $\bar\lambda=-1$。
+选择这个 branch 并没有删除 Weil 相位；下一节仍真实计算它。
+
+在此坐标下 (1071.25) 变成
+$$
+c_{\chi,s}(t_*)=
+\frac1{2\bar\kappa_\chi b_\chi}
+\left(
+ \frac{\bar A_N}{N}
+ +\sum_{i=1}^{I}
+   (-1)^i\bar A_{d_i}
+   \frac{\binom{d_i-1}{i-1}}i\,t_*^i
+\right).
+\tag{1071.37}
+$$
+这里使用 $-m(p+1)=1/2$ 于 $\mathbf F_p$，
+原负 exponent 的符号完全保留。
+
+### 12.2 原 finite Weierstrass 数据的直接公式
+
+置 $q=z^2$、$w=q x$。从原 short equation 得
+$$
+w^3-w^2+Aq^2w+Bq^3=0,\qquad w(0)=1,
+$$
+$$
+\frac{\omega}{dz}=1-\frac{q w'}w,\qquad
+L(z)=zU(q),\qquad
+U_n=\frac{[q^n](1-qw'/w)}{2n+1}.
+\tag{1071.38}
+$$
+其中 $U_n$ 按 §11 的模 $p^2$ 后除 $p$ 规则读取。
+$w$ 的方程在 $w=1,q=0$ 的导数为单位，
+因此所有所需系数由有限整递推给出。
+
+令
+$$
+H(q)=\frac{z\psi_c'(z)}{\psi_c(z)}.
+$$
+对每个所需的偶数 $d$，形式 residue 换元给出准确式
+$$
+\boxed{\qquad
+\bar A_d=[q^{d/2}]\,\bar H(q)\,\bar U(q)^{-d}.
+\qquad}
+\tag{1071.39}
+$$
+证明是
+$$
+A_d=\operatorname{Res}_{T=0}T^{-d}\,d\log F_c(T)
+   =\operatorname{Res}_{z=0}L(z)^{-d}\,d\log\psi_c(z).
+$$
+归一化因子 $T^{c^2-1}$ 的贡献为
+$(c^2-1)\operatorname{Res}T^{-d-1}dT=0$。
+这个论证没有除以 $d$，因此 $p\mid d$ 时仍合法。
+代 $L=zU(q)$ 即得 (1071.39)。
+
+若 $d=ap+b$，$0\le b<p$，则在实际 $\mathbf F_p$ first lift 上
+$$
+\bar U(q)^{-d}
+ =\bar U(q)^{-b}\,\bar U(q^p)^{-a}.
+\tag{1071.40}
+$$
+可用有限 unit powers 与稀疏卷积读取；
+无需在 characteristic $p$ 作含 $1/n$ 的形式 log/exp 或高阶 reversion。
+
+例如新固定 $p=47$ 可取 $c=5$：
+$(5/47)=-1$ 且 $46=2\cdot23$，$5\not\equiv-1$，故它是 primitive。
+其原 division polynomial 可直接由
+$$
+\begin{aligned}
+\psi_5={}&32(x^3+Ax+B)^2
+ (x^6+5Ax^4+20Bx^3-5A^2x^2-4ABx-8B^2-A^3)\\
+&-(3x^4+6Ax^2+12Bx-A^2)^3
+\end{aligned}
+\tag{1071.41}
+$$
+给出。若
+$V(q)=q^{12}\psi_5(w/q)/5$，则
+$$
+H(q)=-24+2qV'(q)/V(q).
+$$
+这里只给有限原算法，没有报告任何未执行的数值结果。
+
+## 13. 原 Weil 相位的有限 Miller 计算
+
+固定同一个
+$$
+\mathbf F_{p^2}=\mathbf F_p(s),\qquad s^2=\delta
+$$
+，其中 $\delta$ 为固定非平方。
+在所有 supersingular references 和后续 auxiliary 比较中，
+保留同一 norm 标记，不任意改 $\delta$。
+
+置 $h=\varpi$。在 §12 的实际 branch 上取
+$$
+T(P)=h+O(ph),\qquad T(Q)=s h+O(ph).
+\tag{1071.42}
+$$
+这给两个真正线性无关的 $p$-torsion 点。
+由 §11 的 $L^{-1}$ 至 $p+2$ 次，把它们写成原 Weierstrass Laurent 点。
+不需要求整个 ramified $p$-torsion extension 的高精度根。
+
+CM torus 还给
+$$
+T([n]P)=nT(P)+O(T(P)^{p^2}),\qquad 1\le n<p.
+\tag{1071.43}
+$$
+因此在所需精度内，binary Miller 中的倍点可用 $T=nh$ 或 $ns h$。
+
+### 13.1 规范 Miller 来源与符号
+
+使用 Miller 已发表论文 [M] §4.1 Definition 4–6、Lemma 2 的
+$O$-leading $1$ 规范。
+对 short equation、参数 $z=-x/y$：
+
+- 非竖直 line 取
+  $-(y-y_A-\lambda_{A,B}(x-x_A))$；
+- 竖直 line 取 $x-x_A$。
+
+线除以 $A+B$ 的竖直线给原 $g_{A,B}$，
+于是
+$$
+f_{a+b,P}=f_{a,P}f_{b,P}g_{aP,bP},\qquad
+\operatorname{div}f_{p,P}=p[P]-p[O].
+$$
+最后一次 $A+B=pP=O$ 直接使用竖直线。
+不把一个被截断成近零的 affine 分母拿来相除。
+
+[M, Proposition 8, Eq. (11), printed pp.245–246] 在实际
+characteristic zero 点上准确给
+$$
+e_p(P,Q)=(-1)^p\frac{f_{p,P}(Q)}{f_{p,Q}(P)}.
+\tag{1071.44}
+$$
+这里的 $(-1)^p$ 不能删除。
+该已发表命题先用于原 characteristic zero 曲线；
+下面才将这一个真实等式降到有限 characteristic-$p$ series。
+没有把其 prime-to-characteristic 假设硬套到 nilpotent $p$-torsion。
+
+### 13.2 每个因子都是可控的 Laurent 单位
+
+在 $T=ah$、$a\ne0$ 处写
+$$
+x(ah)=h^{-2}X_a(h),\qquad
+y(ah)=h^{-3}Y_a(h),
+$$
+其中 $X_a(0)=a^{-2}$、$Y_a(0)=-a^{-3}$。
+Miller 的每个非末步只涉及 $a,b\in\mathbf F_p^\times$，
+评价点的参数比例是 $s\notin\mathbf F_p$。
+
+去掉显式 $h$ 次数后：
+
+- 非竖直 line 的 leading 三个根为
+  $a,b,-a-b$；切线时允许重复根；
+- 竖直 line 的 leading 根为 $\pm a$；
+- 非竖直分母的 leading 非零，除非 $a=-b$，
+  而该情况已用竖直分支单独处理。
+
+所以在 $s$ 处所有归一化因子都是单位。
+计算 $f_{p,Q}(P)$ 时，比例 $1/s\notin\mathbf F_p$，
+同一论证适用。
+
+实际输入与有限近似的相对误差是 $O(h^e)$，
+由 (1071.42)、(1071.43) 及 reference 模 $p$ 曲线系数得到。
+单位乘除和平方不会降低该阶。
+两条 Miller function 的共同 $h^{-p}$ 因子最终抵消，
+不能把它误认为额外损失 $p$ 阶精度。
+
+因此只在 $\mathbf F_{p^2}((h))$ 中计算相对精度 $h^{p+2}$，
+就得到原式
+$$
+\boxed{\quad
+(-1)^p f_{p,P}(Q)/f_{p,Q}(P)
+ =1+\gamma_s h^{p+1}+O(h^{p+2}).
+\quad}
+\tag{1071.45}
+$$
+其 $\gamma_s$ 正是 (1071.22)，包括真实 principal-polarization 单位。
+
+独立性及 Weil 非退化给 $\gamma_s\ne0$。
+由原 primitive $p$-th root 的 cyclotomic 方程，
+$\gamma_s^{p-1}=-1$；因有限计算在 $\mathbf F_{p^2}$ 中，
+$\gamma_s^p=-\gamma_s$。
+这个恒等式可核验相位，但不能代替 (1071.45) 计算它。
+
+## 14. 全局相位对齐及有限输入范围
+
+若两个 actual references 的 Weil roots 满足
+$\zeta_s=\zeta_0^a$，则
+$$
+\gamma_s=a\gamma_0,\qquad a\in\mathbf F_p^\times.
+$$
+选择原 Cartan 乘法 $b$，$Nb=a^{-1}$，
+可把该 basis 改到固定 Weil root $\zeta_0$。
+同一个原 source 的数据随之变为
+$$
+\beta_0\mapsto b\beta_0,\qquad
+\lambda\mapsto b^{p-1}\lambda.
+$$
+(1071.20) 的整个括号乘
+$b^N=(Nb)^R=a^{-R}$。
+这与 (1071.24) 中 $\gamma_s^R=a^R\gamma_0^R$
+的分母完全相配。
+
+所以用各自**真实计算**的 $\gamma_s$ 读出的 (1071.37)，
+已经等于固定原 global basis 下的坐标。
+没有缺一个随 supersingular 点变化的未定标量。
+若换 quadratic-extension 模型或 norm 标记，仍须作同样的实际运输；
+不能把它们逐点重新任意编号。
+
+全部有限输入至此为：
+
+1. 同 marked good reference 的 Weierstrass equation 模 $p^2$；
+2. 由其原 $\omega$ 得 $L$ 至 $N+1<p^2$ 次，除 $p$ 前保模 $p^2$；
+3. 同一个原 $\psi_c$ 和 (1071.39) 的有限 coefficients；
+4. source $u_*=[T^p][p](T)$，以及 (1071.35) 的已支付坐标改变；
+5. (1071.45) 的真实 Miller 相位，至相对 $h^{p+2}$。
+
+额外 automorphism 和全部 twist 支路仍按 §8 运输。
+例如在 $j=1728$ 不能只计算一个 quartic twist 的平方参数；
+两支必须一起覆盖原 coarse $\mathbf A^1$。
+
+[M] V. S. Miller, *The Weil Pairing, and Its Efficient Calculation*,
+J. Cryptology **17** (2004), 235–261，
+[正式 DOI](https://doi.org/10.1007/s00145-004-0315-8)，
+[已刊全文](https://link.springer.com/content/pdf/10.1007/s00145-004-0315-8.pdf)。
+实际亲读 §4.1、Definition 4–6、Lemma 2 和 Proposition 8；
+这里只调用 characteristic zero 上的已发表公式，
+其所需有限降模精度由 §13.2 完整证明。
+
+## 15. Lucas 消去、真实低阶上界与首个非零来源
+
+(1071.20) 的次数界还可严格缩短。
+首先，非零二项式要求 $i\le d_i$，即
+$$
+pi\le N,\qquad i\le R.
+$$
+因此原 $R>m$ 时形式上存在的 $i=R+1$ 项本来就是零。
+
+又 $i<p$，且
+$$
+d_i-1\equiv R+i-1\pmod p.
+$$
+若 $R+i>p$，其低 $p$ 位是 $R+i-p-1<i-1$，
+由 Lucas 或直接比较分子中唯一的 $p$ 因子，
+$$
+\binom{d_i-1}{i-1}\equiv0\pmod p.
+$$
+若 $R+i\le p$，该二项式的低位读数非零。
+所以准确有
+$$
+\boxed{\qquad
+\deg_t\mathcal P_{\chi,s}\le \min(R,p-R).
+\qquad}
+\tag{1071.46}
+$$
+所有保留下来的二项式系数都是 $p$-单位；
+进一步的消失只能来自原 $A_{d_i}$。
+
+特别 forced 角色 $\chi_j=\omega^{-2j}$ 给
+$$
+\deg_t\mathcal P_{\chi_j,s}\le2j+1.
+\tag{1071.47}
+$$
+最前一条 $j=1$ 的真实 fine 多项式至多三次。
+在 supersingular $j=0$ 上它只含 constant 与 $t^3$；
+在 supersingular $j=1728$ 上只含 constant 与 $t^2$。
+故这两个原 coarse component 上该坐标都至多一次。
+是否有非零斜率仍须核原 $A_d$，不由 degree 一自动得出。
+
+### 15.1 顶项的真正 Cartier 降阶
+
+若 $R<m$，顶部 $i=R$ 读取 $d_i=2R<p$，
+二项式 $\binom{2R-1}{R-1}$ 是单位。
+
+若 $R>m$，顶部为 $i=p-R$，并且
+$$
+d_i=pK,\qquad K=2R-p+1>0,\qquad
+\binom{d_i-1}{i-1}\equiv(-1)^{i-1}.
+$$
+原 $F_c$ 是一个实际 formal unit，
+所以其 logarithmic differential 满足 Cartier 固定性：
+$$
+\bar A_{pn}=\bar A_n^{\,p}.
+\tag{1071.48}
+$$
+在本节的实际 $\mathbf F_p$ reference 上，这就是
+$\bar A_{pn}=\bar A_n$。
+因 $R$ 为偶数、$i=p-R$ 为奇数，
+(1071.37) 的顶部系数准确为
+$$
+-\frac{\bar A_K}{2\bar\kappa_\chi b_\chi(p-R)}.
+\tag{1071.49}
+$$
+
+没有 $K=0$：那对应已排除的 $R=m$。
+若 $K=2$，则 $p\equiv3\bmod4$、
+$R=m+1$，正是 R1070 §10 已证明实际 $V$ 中不存在的角色。
+$R=2$ 则位于 $R<m$，此处读 $A_4$；
+其高 log 边界已经在 §4.2 单独处理。
+所以没有丢掉低 $R$、$d=0$ 或共振边界。
+
+### 15.2 原低权系数和确切非零范围
+
+由 (1071.32)，低次计算确在同一个原 invariant-log 参数上。
+原 short equation 的展开为
+$$
+x(T)=T^{-2}-\frac A5T^2-\frac B7T^4+\cdots.
+$$
+使用 R1070 已支付的 theta/sigma division-polynomial identity，
+或直接把上述展开代入原 $\psi_c$，得到
+$$
+\boxed{\quad
+A_4=\frac{(c^4-c^2)A}{15},\qquad
+A_6=\frac{(c^6-c^2)B}{35}.
+\quad}
+\tag{1071.50}
+$$
+例如 $\log(\sigma(T)/T)=AT^4/60+BT^6/210+\cdots$，
+而 $\psi_c=\sigma(cT)/\sigma(T)^{c^2}$ 的共同 leading constant
+不影响 $d\log F_c$。这里不是将任意 eigenparameter 未经核对替换成 log。
+
+若 $p\equiv1\bmod4$，最大 forced $j$ 对应 $R=m+2$，$K=4$。
+若该角色 Bernoulli-good 且 $A\ne0\bmod p$，
+原候选坐标有确切 degree $p-R$，
+顶部为 $A/(30b_\chi(p-R))$。
+
+若 $p\equiv3\bmod4$，最大 forced $j$ 对应 $R=m+3$，$K=6$。
+若该角色 Bernoulli-good 且 $B\ne0\bmod p$，
+原候选坐标有确切 degree $p-R$，
+顶部为 $B/(70b_\chi(p-R))$。
+
+不假设这些 particular 角色对每个 $p$ 都 good。
+未除 circular-unit 基以前，
+$\bar A_4$ 或 $\bar A_6$ 的相应原 local-log 非零断言不需要此假设。
+$A=0$ 或 $B=0$ 的额外自同构点必须另算，
+不能由 generic 顶项单位覆盖。
+
+以上短 degree 和有限原相位为实际跨盘候选比较提供新输入；
+仍未证明 (1071.29) 只剩全局 CM 标签。
+
+root 已亲读 [M] 的上述实际命题，并逐式独核 §§11–15 的 first-lift 精度、source 归一、residue 换元、Miller 逐单位误差与相位运输、Lucas 全部边界及低权系数。后继计算尚未在本文执行。
