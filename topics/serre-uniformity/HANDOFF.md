@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。已部分克隆并真实pull main，读根/课题README及H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则36cf1ed2已读。不得重做登记结论/窗口。
 
-**公开两README已读提交：94a6495eaec33dd776f461ff3f7ebdf2d1749494**（2026-11-28 02:35 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
+**公开两README已读提交：2f42ccac9a928feca73179f6aa12b10b5baf618e**（2026-11-28 02:38 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
 
 最近真实pull 2026-11-27 01:48 Asia/Taipei；01:47重试执行器仍报无可用环境，shell未启动。按根规则8连接器同步、读diff、expected_sha非force提交，拒绝立即同步重基重推至成功；环境恢复立即pull --rebase。下一次真实尝试不晚于2026-11-28 02:47。令牌只CLI。数学程序仅本公开仓库Actions；本地/V8仅metadata/文本，不作数学计算。[此前偏差纠正](notes/2026-11-26-execution-path-deviation-and-correction.md)。
 
@@ -42,7 +42,7 @@ root管main/H/open/index/log，子研究仅独立candidate；每条结论即推�
 
 [原Lamé续稿](notes/2026-11-27-original-lame-tridiagonal-short-flag-continuation.md)的短旗标/Green/全Newton/纯极Φ及R1113完整Lamé谱已付；相邻单位、零谱投影、R1130相邻δ都不代指定两jet。R1126六CM十五配对保A/S/T，Pfaffian不含S；R1060非CMordinary不推S。旧素数窗至500000已成，不重扫。
 
-[指定单源Euler有限诊断](notes/2026-11-28-original-single-source-euler-diagnostic.md)已提交：仅p=101,107,131,137，原T31/C=−1双源验收后检r≤4、d≤2的十五列矩阵；source1804a4aa、request52dcfa3a。待真实Actions回执；不扫端值、不外推一般p。
+[R1134](results/R1134-original-single-source-low-Euler-obstruction.md)：原p=101,107,131,137的r≤4/d≤2 Euler类十五列全rank15，前三项原源验收全PASS，minor36/30/63/7。run46050577346/job140680567162，2.896秒，cert SHA9a88755aa14f68a314d551f84efff633a6d5d1b8dd40e67aeaa4e0df90fd1398。仅有限四输入，无端值扫描/全p外推；不重跑。
 
 ## O2：原 Gaussian good-mask 与共同纤维
 

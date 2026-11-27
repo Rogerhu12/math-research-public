@@ -2,7 +2,7 @@
 
 日期：2026-11-28（Asia/Taipei）。会话：Astra-serre-24b8836b-20261126。
 
-**状态：已提交有限计算请求，等待原公开 Actions 回执。**
+**状态：原公开 Actions 已成功完成；精确有限结论见 [R1134](../results/R1134-original-single-source-low-Euler-obstruction.md)。**
 本次不是端值扫描，也不重复至 500000 的旧窗口。
 它只为指定单源的 Hermite 消去选择方向；有限结果不能代替一般素数的微分方程或原非零证明。
 
@@ -69,3 +69,5 @@ $$
 - 原全部公式：[Lamé 续稿 §10](2026-11-27-original-lame-tridiagonal-short-flag-continuation.md)，
   [R1061 §20.3](../results/R1061-actual-genus-two-etale-cover-and-original-three-torsion-Petri-point.md)。
 - 本地/V8 不执行数学程序；所有矩阵、秩、系数与行列式只由本公开 Actions 产生。
+
+真实 run46050577346/job140680567162 已完成，全部十五列矩阵满秩，指定 minor 为36/30/63/7；三项原源验收全部通过。完整结论、source/request/result 哈希及有限范围均见 R1134。本次完成，不重跑。

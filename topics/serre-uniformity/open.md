@@ -124,7 +124,7 @@ R964逆character控制h_(i+2)而非fi；R966原K0源及Π4∇²只消费，源�
 
 [原genus4全局Raynaud](notes/2026-11-28-original-genus-four-global-Raynaud-vanishing.md)：实际degree3商Y:y³=(2/κ)(1−η⁶)，完整四基全Cartier-zero；第四基与其余三基按μ6×μ3权严格配零。原映射ω↦h及absolute负号给e=3ρsδA，再消费已付e0 iff S0，得到e0 iff全局β_Y恒零。canonical比值生成K(Y)，Y非hyperelliptic；不反用hyperelliptic⇒β0，不由isotropic四维代非零。
 
-[指定单源Euler有限诊断](notes/2026-11-28-original-single-source-euler-diagnostic.md)已提交：仅p=101,107,131,137，原T31/C=−1双源验收后检r≤4、d≤2的十五列矩阵；source1804a4aa、request52dcfa3a。待真实Actions回执；不扫端值、不外推一般p。
+[R1134](results/R1134-original-single-source-low-Euler-obstruction.md)：原p=101,107,131,137的r≤4/d≤2 Euler类十五列全rank15，前三项原源验收全PASS，minor36/30/63/7。run46050577346/job140680567162，2.896秒，cert SHA9a88755aa14f68a314d551f84efff633a6d5d1b8dd40e67aeaa4e0df90fd1398。仅有限四输入，无端值扫描/全p外推；不重跑。
 
 ## O2：完整原超奇异迹、真正CM packet及近顶unit系数
 
