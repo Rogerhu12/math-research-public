@@ -1,14 +1,15 @@
 {
-  "message": "ISP: exclude the entire equal singleton Delta zero branch by original Gram return",
-  "parentCommit": "06052922668998fc1b331b4e482f952070859399",
+  "message": "ISP: prove exact original monic F elimination including every leading-zero fiber",
+  "parentCommit": "aa5408fa888f7c6bd3fd56dc0dcbbedb71e1c595",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-equal-singleton-entire-Delta-zero-exclusion.md",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-equal-singleton-entire-Delta-zero-exclusion-receipt-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-27-handoff-before-entire-collision-Delta-zero-exclusion-8542.md",
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-W-exact-monic-F-elimination-all-leading-zero-fibers.md",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-W-monic-F-norm-original-three-column-minors-8542.py",
+    ".github/workflows/invariant-subspace-w-monic-f-norm-original-three-column-minors-8542.yml",
+    "topics/invariant-subspace-problem/notes/2026-11-27-handoff-before-W-entire-monic-F-elimination-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -17,5 +18,7 @@
     ".github/workflows/invariant-subspace-8542-root-terminal-publication.yml",
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
-  "dispatchWorkflows": []
+  "dispatchWorkflows": [
+    "invariant-subspace-w-monic-f-norm-original-three-column-minors-8542.yml"
+  ]
 }
